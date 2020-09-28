@@ -1,0 +1,30 @@
+<div class="col-md-3 col-6">
+      <div class="user-card">
+        <img class="user-img" src="{{ .image }}" alt="" />
+        <a href="{{ .url }}" class="user-name">{{ .name }}</a>
+        {{ with .affiliation }}
+        <div class="user-role">
+           {{ . }}
+        </div>
+          {{ end }}
+          {{ if (ne .roles nil ) }}
+          {{ if and (ne (delimit .roles "") "advisor") (ne (delimit .roles "") "fellow") }}
+        <div class="user-position">
+          {{ delimit .roles " • " }}
+        </div>
+        {{ end }}
+        {{ end }}
+        {{ if eq .roles nil }}
+          {{ with .past_roles }}
+        <div class="user-position">
+          {{ delimit . " • " }}
+        </div>
+        {{ end }}
+        {{ end }}
+        <div class="user-social d-flex">
+          {{ with .twitter }}<a href="https://twitter.com/{{ . }}"><img src="/images/users/twitter.svg" alt="" /></a>{{ end }}
+          {{ with .github }}<a href="https://github.com/{{ . }}"><img src="/images/users/github.svg" alt="" /></a>{{ end }}
+         {{ with .home }}<a href="{{ . }}"><img src="/images/users/rss.svg" alt="" /></a>{{ end }}
+        </div>
+      </div>
+    </div>

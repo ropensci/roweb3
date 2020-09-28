@@ -1,0 +1,27 @@
+{{ define "main" }}
+<section class="section career-detail">
+  <div class="container">
+    <!-- Header text -->
+    <div class="row">
+      <div class="col-md-11 offset-md-1 career-content">
+        <p class="mb-2 career-info">{{ .Params.location }} {{ .Params.conditions }}</p>
+        <h1> {{ .Title }}</h1>
+        <div class="row justify-content-between">
+          <div class="col-md-8">
+          {{ .Content }}
+          </div>
+                        <div class="col-md-2">
+                <h4 class="share-title mb-3">Share</h4>
+                {{ partial "twitter/share-link" . }}
+                {{ partial "linkedin/share-link" . }}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Content here -->
+      </div>
+    </section>
+
+{{ partial "whole-page-fragments/newsletter"  (dict "divider" "lr" ) }}
+{{ end }}

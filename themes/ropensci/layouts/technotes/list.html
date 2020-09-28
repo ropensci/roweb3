@@ -1,0 +1,39 @@
+{{ define "main" }}
+<section class="section section-generic">
+  <div class="container">
+    <!-- Header text -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-md-8">
+            <h1>{{ .Title }}</h1>
+          </div>
+          <div class="col-md-3">
+            <div class="text-md-right">
+              <a href="/index.xml" class="btn btn-primary">RSS</a>
+              <a href="/index.json" class="btn btn-primary">JSON</a>
+            </div>
+          </div>
+        </div>
+
+            <div class="row author-blog">
+              <div class="col-md-8">
+            {{ range .Data.Pages.ByPublishDate.Reverse }}
+{{ .Render "post-short-summary-author" }}
+{{ end }}
+              </div>
+              <div class="col-md-3 offset-md-1">
+                <aside>
+                  <a href="/tags" class="arrow-card">Browse By Tag</a>
+                  <a href="/author" class="arrow-card">Browse By Author</a>
+                  <a href="/archive" class="arrow-card">All Posts</a>
+                </aside>
+              </div>
+            </div>
+      </div>
+    </div>
+
+    <!-- Content here -->
+  </div>
+</section>
+{{ end }}

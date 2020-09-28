@@ -1,0 +1,33 @@
+{{ define "main" }}
+<section class="section">
+  <div class="container">
+    <!-- Header text -->
+    <div class="row">
+      <div class="col-md-11 offset-md-1">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-md-8">
+            <h1>Browse by tag</h1>
+          </div>
+          <div class="col-md-3">
+            <div class="text-md-right">
+              <a href="/tags/index.xml" class="btn btn-primary">RSS</a>
+              <a href="/tags/index.json" class="btn btn-primary">JSON</a>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+    <div class="row">
+<div class="col-md-11 offset-md-1">
+        <div class="tag-list-tags mt-4">
+{{ range $key, $value := .Data.Terms.ByCount }}
+ <a class="tag lg" href="{{ $value.Name | urlize }}">{{ $value.Name }} ({{ $value.Count }})</a>
+{{ end }}
+        </div>
+      </div>
+    </div>
+
+    <!-- Content here -->
+  </div>
+</section>
+{{ end }}

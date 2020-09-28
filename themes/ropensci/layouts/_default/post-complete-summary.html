@@ -1,0 +1,19 @@
+<div class="row post-card">
+  <div class="col-md-3">
+    <div class="post-date mb-0">{{ .Date.Format "January 2, 2006" }}</div>
+    <div class="post-authors mt-0 mb-2">
+      <span>By</span>
+      {{ partial "blogs/pretty_author_names" .Params.author }}
+    </div>
+  </div>
+  <div class="col-md-9">
+    <a href="{{ .RelPermalink }}" class="post-title">
+      {{ .Title }}
+    </a>
+    <ul class="post-tags">
+      {{ range .Params.tags }}
+      <li><a href="/tags/{{ . | urlize }}" class="tag">{{ . }}</a></li>
+      {{ end }}
+    </ul>
+  </div>
+</div>

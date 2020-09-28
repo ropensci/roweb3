@@ -1,0 +1,58 @@
+<div class="row about-block">
+  <div class="col-md-3 text-md-right">
+    <h4 class="about-block__title" id ="team">
+      Our Team
+    </h4>
+  </div>
+  <div class="col-md-6 about-block__text">
+    <p>
+      rOpenSci is a non-profit initiative founded in 2011 by Karthik Ram, Scott Chamberlain, and Carl Boettiger. Our staff includes developers, researchers, and community builders. Our non-staff strategic advisors and editorial board members are volunteers.
+    </p>
+  </div>
+</div>
+<!-- Users block -->
+{{ partial "whole-page-fragments/team/team-section" (dict "team" (where .Site.Data.team.team "roles" "intersect" (slice "staff" "leadership team" "strategic advisor" "editor" "intern") ))  }}
+
+<!-- Text block -->
+<div class="row about-block">
+  <div class="col-md-3 text-md-right">
+    <h4 class="about-block__title">
+      Our Advisors
+    </h4>
+  </div>
+  <div class="col-md-6 about-block__text">
+  </div>
+</div>
+
+{{ partial "whole-page-fragments/team/team-section" (dict "team" (where .Site.Data.team.team "roles" "intersect" (slice "advisor") ))  }}
+
+<div class="row about-block">
+  <div class="col-md-3 text-md-right">
+    <h4 class="about-block__title">
+      {{ $alumni := (where .Site.Data.team.team "alumnus" true ) }}
+      {{ if eq ( len $alumni ) 1 }}
+      Our Alumnus
+      {{ else }}
+      Our Alumni
+      {{ end }}
+    </h4>
+  </div>
+  <div class="col-md-6 about-block__text">
+  </div>
+</div>
+{{ partial "whole-page-fragments/team/team-section" (dict "team" $alumni)  }}
+
+<div class="row about-block">
+  <div class="col-md-3 text-md-right">
+    <h4 class="about-block__title">
+      Our Research Fellows
+    </h4>
+  </div>
+  <div class="col-md-6 about-block__text">
+    <p>
+      Our 2017 & 2018 research fellows were awarded support for their ongoing work in open
+      science to enable them to have a bigger voice in their communities.
+    </p>
+  </div>
+</div>
+{{ partial "whole-page-fragments/team/team-section" (dict "team" (append (where .Site.Data.team.team "roles" "intersect" (slice "fellow" ) ) (where .Site.Data.team.team "past_roles" "intersect" (slice "fellow" ) ) ) )  }}

@@ -1,0 +1,90 @@
+<!-- Navbar -->
+<div class="container navbar-container">
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand logo" href="/">
+      <img class="logo-light" src="{{ "/images/svg/logo-light.svg" | relURL }}" alt="" />
+      <img class="logo-dark" src="{{ "/images/svg/logo-dark.svg" | relURL }}" alt="" />
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      Explore
+      <span class="burger-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-right text-lg-left">
+        <li class="nav-item drp">
+          <a class="nav-link" href="/about/">About</a>
+          <ul class="sub-menu">
+            <li class="drp">
+              <a>Software Peer Review</a>
+              <ul class="sub-menu">
+                <li><a href="/software-review/">About</a></li>
+                <li><a href="/stat-software-review/">Statistical Software Project</a></li>
+              </ul>
+            <li><a href="/donate/">Donate</a></li>
+            <li><a href="/careers/">Careers</a></li>
+            <li><a href="/contact/">Contact</a></li>
+          </ul>
+        </li>
+        <li class="nav-item drp">
+          <a class="nav-link" href="/blog/">Blog</a>
+          <ul class="sub-menu">
+            <li><a href="/technotes/">Tech Notes</a></li>
+          </ul>
+        </li>
+        <li class="nav-item drp">
+          <a class="nav-link" href="/packages/">Packages</a>
+          <ul class="sub-menu">
+            <li class="drp">
+              <a>Category</a>
+              <ul class="sub-menu">
+                <li><a href="/packages/all/">All</a></li>
+                {{ range (where (where .Site.RegularPages "Type" "packages" ) ".Params.slug" "!=" "all" )}}
+                <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                {{ end }}
+              </ul>
+            </li>
+            <li><a href="/usecases/">Use Cases</a></li>
+            <li><a href="/citations/">Citations</a></li>
+          </ul>
+        </li>
+        <li class="nav-item drp">
+          <a class="nav-link" href="/community/">Community</a>
+          <ul class="sub-menu">
+            <li><a href="/commcalls/">Community Calls</a></li>
+            <li><a href="/events/">Events</a></li>
+            <li><a href="/code-of-conduct/">Code of Conduct</a></li>
+            <li><a href="https://discuss.ropensci.org/" class="external-link">Forum</a></li>
+          </ul>
+        </li>
+        <li class="nav-item drp">
+          <a class="nav-link" href="/resources/">Resources</a>
+          <ul class="sub-menu">
+            <li><a href="/talks-papers/">Talks & Publications</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link external-link" href="https://docs.ropensci.org/">Docs</a>
+        </li>
+      </ul>
+      {{ if partial "careers/we-are-hiring" . }}
+      <div class="navbar-right d-none d-xl-block">
+        <a href="/careers/">👋 We are hiring!</a>
+      </div>
+      {{ end }}
+    </div>
+</nav>
+</div>

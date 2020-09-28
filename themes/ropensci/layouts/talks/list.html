@@ -1,0 +1,45 @@
+{{ define "main" }}
+<section class="section section-generic">
+  <div class="container">
+    <!-- Header text -->
+    <div class="row">
+      <div class="col-md-8 content">
+        <h1>{{ .Title }}</h1>
+         {{ .Content }}
+    </div>
+    </div>
+      <table id="talkstable" class="display" width="100%">
+        <thead>
+          <tr>
+    <th>Title</th>
+    <th>Speaker</th>
+    <th>Year</th>
+    <th>Material</th>
+    <th>Language</th>
+  </tr>
+  </thead>
+      <tbody>
+      {{ range (where ( where .Site.RegularPages.ByDate "Section" "events" ) ".Params.resources" "!=" nil  )}}
+      {{ $year := .Date.Format "2006" }}
+      {{ range .Params.resources }}
+   <tr>
+     
+    <td>{{ .title }}</td>
+    <td>{{ .speaker }} </td>
+    <td>{{ $year }} </td>
+    <td><a href="{{ .slides }}"><i class="fas fa-desktop"></i></a>
+      {{ with .video }} • <a href="{{ . }}"><i class="fas fa-film"></i></a>{{ end }} </td>
+    <td>
+      {{ if isset . "language" }} {{ .language }} {{else }} en {{ end }}
+</td>
+  </tr>
+      {{ end }} 
+      {{ end }} 
+      </tbody>
+      </table>
+{{ partial "datatables/scripts" ( dict "id" "talkstable" "col" 2 "order" "desc" )  }}
+</section>
+{{ partial "whole-page-fragments/ask"  (dict "divider" "lr" ) }}
+{{ partial "whole-page-fragments/newsletter"  (dict "divider" "rl" ) }}
+{{ partial "whole-page-fragments/brands"  (dict "Site" .Site "divider" "lr" ) }}
+{{ end }}

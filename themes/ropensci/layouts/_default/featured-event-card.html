@@ -1,0 +1,13 @@
+<div class="col-md-8 offset-md-1">
+  <div class="event-hero-heading">
+    <div class="even-hero-date">
+      {{ ":alarm_clock:" | emojify }} {{ .Date.Format "Wednesday, January 2, 2006" }}
+    </div>
+    <h1>{{ .Title }}</h1>
+    <p class="event-hero-author">{{ .Params.location }}, {{ .Params.country }} • {{ if eq .Type "events" }}{{ partial "blogs/pretty_author_names" .Params.attendees}}{{ else }}All are welcome{{ end }}</p>
+  </div>
+  <div class="event-hero-body">
+    {{ .Params.description }}
+    <p><a href="{{ .RelPermalink }}">Find out more.</a></p>
+  </div>
+</div>

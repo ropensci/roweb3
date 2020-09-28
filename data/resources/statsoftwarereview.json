@@ -1,0 +1,17 @@
+[
+{
+   "title": "Online book",
+   "text": "Living document for the project",
+   "url": "https://ropenscilabs.github.io/statistical-software-peer-review/"
+},
+{
+   "title": "Discussion of our standards and process",
+   "text": "Threads on rOpenSci's discussion forum relating to the project",
+   "url": "https://discuss.ropensci.org/c/statistical-software-peer-review/28"
+},
+{
+   "title": "Context",
+   "text": "Blog post introducing the project",
+   "url": "/blog/2019/07/15/expanding-software-review"
+}
+]

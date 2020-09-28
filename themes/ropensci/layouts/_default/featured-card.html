@@ -1,0 +1,28 @@
+<div class="col-md-6">
+<div class="card featured-card">
+              <div class="card-body">
+                <div class="d-flex">
+                  <div class="tag">Featured</div>
+                  <div class="date">{{ .Date.Format "January 2, 2006" }}</div>
+                </div>
+                <a href="{{ .Permalink }}" class="card-title"
+                  >{{ .Title }}
+                </a>
+
+                <div class="d-flex justify-content-between card-user">
+                    <span class="card-user__name">
+                    {{ with .Params.author }}
+                      {{ if le (len .) 2 }}
+                       {{ delimit . ", "  }} 
+                      {{ else }}
+                        {{ (index . 0) }} et al.
+                      {{ end }}
+                    {{ end }}
+                    </span>
+                  <a class="card-link link-arrow" href="{{ .Permalink }}"
+                    ><span class="d-none d-lg-inline-block">Find out more</span></a
+                  >
+                </div>
+              </div>
+            </div>
+            </div>

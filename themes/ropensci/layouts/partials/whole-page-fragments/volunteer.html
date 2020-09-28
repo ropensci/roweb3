@@ -1,0 +1,24 @@
+{{ partial "whole-page-fragments/divider" .divider }}
+
+    <!-- Volunteer section -->
+    <section class="section section-volunteer">
+      <div class="container text-center">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <h2 class="title">Volunteer for rOpenSci</h2>
+            <p class="subtitle">
+              
+We welcome both code and non-code contributions. Read our <a href="https://contributing.ropensci.org/">Contributing Guide</a> to learn how.
+
+            </p>
+            <ul class="volunteer-img">
+              {{ range .Site.Data.peeps.peeps }}
+              <li><img src="/images/volunteer/{{ .img }}" alt="{{ .alt }}" /></li>
+              {{ end }}
+            </ul>
+            <a class="link-arrow volunteer-cta" href="/packages"><span>View all packages</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Divider -->

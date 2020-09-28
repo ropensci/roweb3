@@ -1,0 +1,15 @@
+{{ $pages := (where ( where .Site.RegularPages "Type" "in" .Site.Params.events ) ".Date" ">=" now.UTC ) }}
+<div class="event-cards">
+{{ range $pages }}
+<div class="event-card">
+  <div class="event-body">
+    <img {{ if eq .Type "events" }}src="/images/svg/calendart.svg"{{ else }}src="/images/svg/event.svg"{{ end }} alt="" class="event-img" />
+    <div class="event-info">
+      <h4 class="event-title">{{ .Title }}</h4>
+      <p class="event-text">{{ (time .Params.dateStart).Local | dateFormat "Monday, 02 January 2006 15:04 MST" }} • {{ if eq .Type "events" }}{{ .Params.location }} {{ .Params.country }}{{ else }}teleconference 🌐{{ end }}</p>
+    </div>
+  </div>
+  <a href="{{ .RelPermalink }}" class="event-link">Find out more</a>
+</div>
+{{ end }}
+</div>

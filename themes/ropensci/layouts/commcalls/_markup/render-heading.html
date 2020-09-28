@@ -1,0 +1,8 @@
+<h{{ .Level }} id="{{ .Anchor | safeURL }}">
+{{ if ( gt .Level 1 ) }}
+<a class="anchor" href="#{{ .Anchor | safeURL }}">
+  <img src="/images/svg/link.svg" alt="" />
+</a>
+{{ end }}
+{{ .Text | safeHTML }}
+</h{{ .Level }}>

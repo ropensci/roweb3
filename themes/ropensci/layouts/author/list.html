@@ -1,0 +1,34 @@
+{{ define "main" }}
+{{ $src := ( partial "blogs/author-img" . ) }}
+<section class="section">
+  <div class="container">
+    <!-- Header text -->
+    <div class="row author-detail">
+      <div class="col-md-2 text-md-right">
+        <img class="author-detail-img" src="{{ $src }}" alt="Avatar of {{ .Params.name }}" />
+      </div>
+      <div class="col-md-8 author-detail-info">
+        <h1>{{ .Params.name }}</h1>
+        {{ with .Params.bio }}
+        <p>
+          {{ . }}
+        </p>
+        {{ end }}
+        <div class="author-detail-social">
+         {{ with .Params.link }}<a href="{{ . }}"><i class="fas fa-home"></i></a>{{ end }}
+         {{ with .Params.orcid }}<a href="https://orcid.org/{{ . }}"><i class="fab fa-orcid"></i></a>{{ end }}
+           {{ with .Params.twitter }}<a href="https://twitter.com/{{ . }}"> <i class="fab fa-twitter"></i></a>{{ end }}
+          {{ with .Params.github }}<a href="https://github.com/{{ . }}"> <i class="fab fa-github"></i></a>{{ end }}
+         {{ with .Params.gitlab }}<a href="https://gitlab.com/{{ . }}"><i class="fab fa-gitlab"></i></a>{{ end }}
+         {{ with .Params.keybase }}<a href="https://keybase.io/{{ . }}"><i class="fab fa-keybase"></i></a>{{ end }}
+        </div>
+      </div>
+    </div>
+        <div class="author-blog">
+    {{ range .Data.Pages }}
+    {{ .Render "post-short-summary" }}
+    {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,8 @@
+{{ $Scratch := newScratch }}
+{{ $Scratch.Set "string" .string }}
+{{ range .Site.Data.accents.accents }}
+{{ range $key,$val := . }}
+{{ $Scratch.Set "string" ( replaceRE $key $val ($Scratch.Get "string") ) }}
+{{ end }}
+{{ end }}
+{{ return ($Scratch.Get "string") }}

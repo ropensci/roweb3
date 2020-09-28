@@ -1,0 +1,18 @@
+{{ $pages := (partial "calendar/future-events" (dict "Site" .Site)) }}
+<section class="section section-events">
+  <div class="container text-center">
+    <h2 class="title">Events</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+    {{ if gt (len $pages) 0 }}
+        <p class="subtitle">
+          Upcoming events including Community Calls and meetings at which our team members are speaking.
+        </p>
+      </div>
+    </div>
+    {{ partial "calendar/calendar" (dict "Site" .Site) }}
+    {{ else }}
+    <p class="subtitle">No event scheduled at the moment</p>
+    {{ end}}
+  </div>
+</section>

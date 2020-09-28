@@ -1,0 +1,32 @@
+{{ $scratch := newScratch }}
+      {{- if .Get "side" -}}<div class="float-{{ (.Get "side") }}">{{ else }}<div class="float-left">{{- end -}}
+                <figure class="m-0">
+                  {{- if .Get "link" -}}
+        <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
+    {{- end -}}
+    <img src="{{ .Get "src" }}"
+         {{- if or (.Get "alt") (.Get "caption") }}
+         alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
+         {{- end -}}
+         
+{{ $scratch.Set "height" "250px" }}
+          {{ if .Get "height" }}
+{{ $scratch.Set "height" ( .Get "height" ) }}
+ {{ end }}
+ {{ $scratch.Set "width" "250px" }}
+          {{ if .Get "width" }}
+{{ $scratch.Set "width" ( .Get "width" ) }}
+ {{ end }}
+         style="  object-fit: cover; object-position: center;  height: {{ $scratch.Get "height" }};  width: {{ $scratch.Get "width" }}; margin-right: 15px"
+    /> <!-- Closing img tag -->
+    {{- if .Get "link" }}</a>{{ end -}}
+                  {{ with .Get "caption" }} 
+  <figcaption>
+  {{ . }}
+  </figcaption>
+  {{ end }}
+                <p>
+                  {{ .Inner | markdownify }}
+                </p>
+                </figure>
+              </div>

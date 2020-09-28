@@ -1,0 +1,21 @@
+{{ if .Params.resources }}
+<h2 class="title">Resources</h2>
+<ul class="resources-list">
+{{ range .Params.resources }}
+<li>
+<a href="{{ .url }}">{{ .name }}</a>{{ with .details }}, {{ . }}{{ end }}
+</li>
+{{ end }}
+{{ with .Params.blog }}
+<li>
+<a href="{{ . }}">Announcement blog post</a>
+</li>
+{{ end }}
+{{ with .Params.notes }}
+<li>
+<a href="{{ . }}">Collaborative notes</a>
+</li>
+{{ end }}
+</ul>
+</div>
+{{ end }}

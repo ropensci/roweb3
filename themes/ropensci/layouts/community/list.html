@@ -1,0 +1,52 @@
+{{ define "main" }}
+<section class="section section-community">
+  <div class="container p-0">
+    <div class="community-hero">
+      <div class="bg-circles">
+        <img src="/images/svg/circles.svg" alt="" />
+      </div>
+      <div class="bg-avatars d-none d-lg-flex">
+        <img src="/images/svg/community-img.png" alt="" />
+      </div>
+      <div class="community-title">
+        <img class="d-lg-none" src="/images/svg/top-avatars.png" alt="" />
+        <h1>
+          Our community is <br />
+          our best asset
+        </h1>
+        <img class="d-lg-none" src="/images/svg/bottom-avatars.png" alt="" />
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <p class="community-text text-center">
+We are building a welcoming and diverse global community of R software users, developers, and research software engineers who want to make their research more open and reproducible. We aim to build capacity of novices, experts, and those in between. Participants come from across academia, government, industry, and non-profits. We welcome participation that adheres to our <a href="/code-of-conduct">code of conduct</a> There are many ways to get involved.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<img class="divider" src="/images/svg/divider-rl.svg" alt="" />
+ <section class="section community">
+    <div class="container">
+      <div class="row justify-content-end align-items-center">
+        <div class="col-md-5">
+          <h2 class="title">Community Calls</h2>
+          <p class="subtitle commcalls-subtitle">
+            Our quarterly community calls are open to everyone. They're an opportunity to connect with rOpenSci community members around the world. Join us for lively discussions with experts on both technical and social topics, like development, review, security and maintenance of R packages, applications of our packages in open science, or developing a code of conduct. Every Community Call becomes a rich resource with video and collaborative notes.
+          </p>
+          <a class="link-arrow" href="/commcalls"><span>Catch up with past calls</span></a>
+        </div>
+        <div class="col-md-6">
+          <img class="commcalls" src="/images/commcalls-img.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+{{ partial "whole-page-fragments/ask"  (dict "divider" "lr" ) }}
+<img class="divider" src="/images/svg/divider-rl.svg" alt="" />
+{{ partial "calendar/events" (dict "Site" .Site )  }}
+{{ partial "whole-page-fragments/newsletter"  (dict "divider" "lr" ) }}
+{{ partial "whole-page-fragments/volunteer"  (dict "divider" "rl" "Site" .Site ) }}
+{{ partial "whole-page-fragments/brands"  (dict "Site" .Site "divider" "lr" ) }}
+{{ end }}

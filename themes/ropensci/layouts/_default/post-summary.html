@@ -1,0 +1,33 @@
+<div class="row post-card">
+  <div class="col-md-3">
+    <div class="post-date">
+      {{ .Date.Format "January 2, 2006" }}
+      </div>
+  </div>
+  <div class="col-md-9">
+    <a href="{{ .RelPermalink }}" class="post-title">
+    {{ .Title }}
+    </a>
+    <p class="post-text">
+      {{ if isset .Params "description" }}
+      {{ .Params.description }}
+      {{ else }}
+      {{ .Summary }}...
+      {{ end }}
+    </p>
+    <div class="post-authors">
+      <span>
+        By
+      </span>
+      {{ partial "blogs/pretty_author_names" .Params.author }}
+    </div>
+    <ul class="post-tags">
+      {{ range .Params.tags }}
+        <li>
+          <a href="/tags/{{ . | urlize }}" class="tag">{{ . }}
+          </a>
+        </li>
+     {{ end }}
+    </ul>
+  </div>
+</div>

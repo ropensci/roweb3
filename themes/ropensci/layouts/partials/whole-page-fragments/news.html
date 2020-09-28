@@ -1,0 +1,39 @@
+{{ partial "whole-page-fragments/divider" .divider }}
+
+    <!-- News section -->
+    <section class="section section-news">
+      <div class="container">
+      <div class="d-flex justify-content-between align-items-center">
+      <h2 class="title">Latest News</h2>
+      <div>
+        <a class="section-news__link" href="/rbloggers/index.xml">RSS</a>
+        •
+        <a class="section-news__link" href="/rbloggers/index.json">JSON</a>
+      </div>
+    </div>
+
+        <div class="row news-card cards">
+
+          {{ range first 2 ( where ( where .Site.RegularPages "Type" "in" .Site.Params.blogs ) "Params.featured" true ) }}
+          {{ .Render "featured-card" }}
+          {{ end }}
+        </div>
+
+        <div class="row pack-cards">
+          <div class="col-md-6">
+            <a href="/blog/" class="pack-card">
+              <h4 class="pack-title">Our Blog</h4>
+              <p>The latest developments from rOpenSci and the wider R community</p>
+              <div class="arrow pack-arrow"></div>
+            </a>
+          </div>
+          <div class="col-md-6">
+            <a href="/technotes" class="pack-card">
+              <h4 class="pack-title">Tech Notes</h4>
+              <p>Release notes, updates and package related developements</p>
+              <div class="arrow pack-arrow"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>

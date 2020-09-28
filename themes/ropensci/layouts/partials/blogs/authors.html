@@ -1,0 +1,18 @@
+{{$pages := .Site.Pages.ByPublishDate.Reverse}}
+{{ $authors := "blabla" }}
+{{ if eq (substr (jsonify .authors) 0 1) "[" }}
+  {{ $authors = .authors }}
+{{ else }}
+  {{ $authors = (slice .authors) }}
+{{ end }}
+
+{{ range $i, $e := $authors }}
+  {{ range first 1 (where $pages ".Params.name" $e) }}
+    {{ $params := .Params }}
+    {{ $name := $params.name }}
+    {{ if $i }}, {{ end }}
+    {{ range first 1 (where $pages ".Params.name" $e) }}
+    <a class="post-authors-title" href="{{ .RelPermalink }}">{{ $name }}</a>
+    {{ end }}
+  {{ end }}
+{{ end }}  

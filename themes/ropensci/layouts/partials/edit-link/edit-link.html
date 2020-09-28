@@ -1,0 +1,7 @@
+{{ $Rmd := (print .File.BaseFileName ".Rmd") }}
+{{ if (where (readDir (print "content/" .File.Dir)) "Name" $Rmd) }}
+  {{ $.Scratch.Set "FilePath" (print .File.Dir $Rmd) }}
+{{ else }}
+  {{ $.Scratch.Set "FilePath" .File.Path }}
+{{ end }}
+{{ return (print .Site.Params.githubsource ( $.Scratch.Get "FilePath" ) ) }}

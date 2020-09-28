@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+
+<section class="section">
+  <div class="container">
+    <!-- Header text -->
+<div class="row">
+  <div class="col-md-8">
+    <h1>{{ .Title }}</h1>
+    <p class="subtitle">
+      {{ .Content }}
+    </p>
+  </div>
+</div>
+{{ partial "resources/resources-cards" (dict "resources" .Site.Data.resources.resources ) }}
+  </div>
+</section>
+{{ partial "whole-page-fragments/ask"  (dict "divider" "lr" ) }}
+{{ partial "whole-page-fragments/newsletter"  (dict "divider" "rl" ) }}
+{{ partial "whole-page-fragments/brands"  (dict "Site" .Site "divider" "lr" ) }}
+{{ end }}

@@ -1,0 +1,107 @@
+    <!-- Footer section -->
+    <footer class="footer">
+      <div class="footer-container mx-auto">
+        <!-- Footer nav -->
+        <div class="footer-nav">
+          <ul class="footer-nav__item">
+            <li><a class="footer-nav__link" href="/about/">About</a></li>
+            <li><a class="footer-nav__link" href="/about/">About rOpenSci</a></li>
+            <li><a class="footer-nav__link" href="/software-review/">Software Review Process</a></li>
+            <li><a class="footer-nav__link" href="/about/#team">Our Team</a></li>
+            <li>
+              <a class="footer-nav__link" href="/careers/">Jobs {{ if partial "careers/we-are-hiring" . }}<strong>We’re Hiring!</strong>{{ end }}</a>
+            </li>
+            <li><a class="footer-nav__link" href="/donate/">Donate</a></li>
+            <li><a class="footer-nav__link" href="/contact/">Contact Us</a></li>
+          </ul>
+          <ul class="footer-nav__item">
+            <li><a class="footer-nav__link" href="/community/">Community</a></li>
+            <li><a class="footer-nav__link" href="/community/">Our Community</a></li>
+            <li><a class="footer-nav__link" href="/commcalls/">Community Calls</a></li>
+            <li><a class="footer-nav__link" href="/events/">Events</a></li>
+            <li><a class="footer-nav__link external-link" href="https://discuss.ropensci.org/">Join the Discussion</a></li>
+            <li><a class="footer-nav__link" href="/code-of-conduct/">Code of Conduct</a></li>
+          </ul>
+          <ul class="footer-nav__item">
+            <li><a class="footer-nav__link" href="/resources/">Resources</a></li>
+            <li><a class="footer-nav__link" href="/packages/">Packages</a></li>
+            <li><a class="footer-nav__link" href="/usecases/">Use Cases</a></li>
+            <li><a class="footer-nav__link" href="/resources/">Talks & Publications</a></li>
+            <li><a class="footer-nav__link external-link" href="https://docs.ropensci.org/">Documentation</a></li>
+            <li><a class="footer-nav__link" href="/how-to-cite-ropensci/">Cite rOpenSci</a></li>
+          </ul>
+        </div>
+
+        <!-- Footer social -->
+        <ul class="footer-social d-flex justify-content-center">
+          <li>
+            <a href="https://vimeo.com/ropensci">
+              <img class="footer-social__icon" src="/images/svg/social-icons/vimeo.svg" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/ropensci">
+              <img class="footer-social__icon" src="/images/svg/social-icons/github.svg" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/ropensci">
+              <img
+                class="footer-social__icon"
+                src="/images/svg/social-icons/twitter.svg"
+                alt=""
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/ropenscilabs">
+              <img class="footer-social__icon" src="/images/svg/social-icons/el.svg" alt="" />
+            </a>
+          </li>
+          <li >
+            <a href="https://www.netlify.com/">
+              <img
+                class="footer-social__icon"
+                src="https://www.netlify.com/img/global/badges/netlify-light.svg"
+                alt=""
+              />
+            </a>
+          </li>
+        </ul>
+        <!-- Footer copy -->
+        <p class="footer-copy text-md-center">
+          Except where otherwise noted, content on this site is licensed under the CC-BY license •
+          <a href="/privacy/">Privacy Policy</a>
+        </p>
+      </div>
+    </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    {{ $js := resources.Get "common.min.js" }}
+{{ $secureJS := $js | resources.Fingerprint "sha512" }}
+{{ if and (eq .Kind "page") (eq .Type "packages") }}
+<script src="https://unpkg.com/lunr/lunr.js"></script>    
+    {{ $pkgjs := resources.Get "pagination.min.js" }}
+{{ $securePKGJS := $pkgjs | resources.Fingerprint "sha512" }}
+<script type="text/javascript" src="{{ $securePKGJS.Permalink }}" integrity="{{ $securePKGJS.Data.Integrity }}"></script>
+<script type="text/javascript" src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
+
+    <style>
+      .next-btn,
+      .prev-btn {
+        cursor: pointer;
+        user-select: none;
+      }
+    </style>
+{{ else }}
+<script type="text/javascript" src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
+{{ end }}

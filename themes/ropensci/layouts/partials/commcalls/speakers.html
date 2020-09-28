@@ -1,0 +1,9 @@
+{{ with .Params.speakers }}
+<h2 class="title">
+Speakers
+</h2>
+{{ range . }}
+      <img src="{{ .img }}" alt="Portrait of {{ .name }}" />
+      {{ .bio | markdownify }}
+{{ end }}
+{{ end }}

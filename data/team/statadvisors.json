@@ -1,0 +1,43 @@
+[{
+   "name": "Ben Bolker",
+   "url": "https://ms.mcmaster.ca/~bolker/",
+   "image": "/img/team/ben-bolker.jpg",
+   "affiliation": "McMaster University",
+   "roles": [
+      "advisor"
+   ],
+   "twitter": "bolkerb",
+   "home": "https://ms.mcmaster.ca/~bolker/"
+},
+{
+   "name": "Rebecca Killick",
+   "affiliation": "Lancaster University",
+   "url": "http://www.lancs.ac.uk/~killick/",
+   "image": "/img/team/rebecca-killick.jpg",
+   "roles": [
+      "advisor"
+   ],
+   "home": "http://www.lancs.ac.uk/~killick/"
+},
+{
+   "name": "Stephanie Hicks",
+   "url": "https://www.stephaniehicks.com/",
+   "image": "/img/team/stephanie-hicks.jpg",
+   "affiliation" : "Johns Hopkins University",
+   "roles": [
+      "advisor"
+   ],
+   "twitter": "stephaniehicks",
+   "home": "https://www.stephaniehicks.com/"
+},
+{
+   "name": "Max Kuhn",
+   "affiliation": "RStudio",
+   "url": "http://appliedpredictivemodeling.com/",
+   "image": "/img/team/max-kuhn.jpg",
+   "roles": [
+      "advisor"
+   ],
+   "twitter": "topepos",
+   "home": "http://appliedpredictivemodeling.com/"
+}]

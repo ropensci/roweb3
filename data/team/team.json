@@ -1,0 +1,290 @@
+[{
+   "name": "Karthik Ram",
+   "url": "/author/karthik-ram",
+   "image" : "/img/team/karthik-ram.png",
+   "affiliation": "Executive Director",
+   "roles": [
+      "co-founder",
+      "staff",
+      "editor"
+   ],
+   "twitter": "_inundata",
+   "github": "karthik", 
+   "home": "https://inundata.org/"
+},
+{
+   "name": "Scott Chamberlain",
+   "affiliation": "Technical Lead",
+   "url": "/author/scott-chamberlain",
+   "image" : "/img/team/scott.jpg",
+   "roles": [
+      "co-founder",
+      "staff",
+      "developer"
+   ],
+   "past_roles": [
+      "editor"
+   ],
+   "twitter": "sckottie",
+   "github": "sckott", 
+   "home": "/author/scott-chamberlain/"
+},
+{
+   "name": "Jeroen Ooms",
+   "url": "/author/jeroen-ooms",
+   "image" : "/img/team/jeroen_ooms.jpg",
+   "affiliation" : "Lead Infrastructure Engineer",
+   "roles": [
+      "staff",
+      "researcher",
+      "developer"
+   ],
+   "twitter": "opencpu",
+   "github": "jeroen", 
+   "home": "/author/jeroen-ooms"
+},
+{
+   "name": "Stefanie Butland",
+   "affiliation": "Community Manager",
+   "url": "/author/stefanie-butland",
+   "image" : "/img/team/stefanie_butland.jpg",
+   "roles": [
+      "staff"
+   ],
+   "twitter": "StefanieButland",
+   "github": "stefaniebutland", 
+   "home": "/author/stefanie-butland"
+},
+{
+   "name": "Maëlle Salmon",
+   "affiliation": "Research Software Engineer",
+   "url": "/author/maëlle-salmon",
+   "image" : "/img/team/maelle_salmon.jpg",
+   "roles": [
+      "staff",
+      "developer",
+      "editor"
+   ],
+   "twitter": "ma_salmon",
+   "github": "maelle", 
+   "home": "/author/maëlle-salmon"
+},
+{
+   "name": "Mark Padgham",
+   "affiliation": "Software Research Scientist",
+   "url": "/author/mark-padgham",
+   "image" : "/img/team/mark-padgham.jpg",
+   "roles": [
+      "staff",
+      "researcher",
+      "developer"
+   ],
+   "twitter": "bikesRdata",
+   "github": "mpadge", 
+   "home": "/author/mark-padgham"
+},
+{
+   "name": "Noam Ross",
+   "url": "https://www.noamross.net/",
+   "image" : "/img/team/noam_ross.png",
+   "affiliation" : "Software Review Lead",
+   "roles": [
+      "strategic advisor",
+      "editor"
+   ],
+   "twitter": "noamross",
+   "github": "noamross", 
+   "home": "/author/noam-ross"
+},
+{
+   "name": "Steffi LaZerte",
+   "url": "/author/steffi-lazerte/",
+   "image" : "/img/team/steffi-lazerte.jpg",
+   "affiliation" : "Community Assistant",
+   "roles": [
+      "staff"
+   ],
+   "twitter": "steffilazerte",
+   "github": "steffilazerte", 
+   "home": "/author/steffi-lazerte"
+},
+{
+   "name": "Stacey Dorton",
+   "affiliation": "Administrative Manager",
+   "image" : "/img/team/stacey.jpg",
+   "roles": [
+      "staff"
+   ]
+},
+{
+   "name": "Carl Boettiger",
+   "url": "https://carlboettiger.info/",
+   "image" : "/img/team/carl.jpg",
+   "affiliation" : "University of California, Berkeley",
+   "roles": [
+      "co-founder",
+      "strategic advisor"
+   ],
+   "twitter": "cboettig",
+   "github": "cboettig", 
+   "home": "https://www.carlboettiger.info/"
+},
+{
+   "name": "Jenny Bryan",
+   "url": "https://jennybryan.org/",
+   "image" : "/img/team/jenny_bryan.jpg",
+   "affiliation" : "RStudio",
+   "roles": [
+      "strategic advisor"
+   ],
+   "twitter": "JennyBryan",
+   "github": "jennybc", 
+   "home": "https://jennybryan.org/"
+},
+{
+   "name": "Rich FitzJohn",
+   "url": "https://richfitz.github.io/",
+   "image" : "/img/team/rich-fitzjohn.jpg",
+   "affiliation" : "Imperial College London",
+   "roles": [
+      "strategic advisor"
+   ],
+   "twitter": "rgfitzjohn",
+   "github": "richfitz", 
+   "home": "https://richfitz.github.io/"
+},
+{
+   "name": "Anna Krystalli",
+   "url": "http://annakrystalli.me/",
+   "image" : "/img/team/anna-krystalli.jpg",
+   "affiliation" : "University of Sheffield",
+   "roles": [
+      "editor"
+   ],
+   "twitter": "annakrystalli",
+   "github": "annakrystalli", 
+   "home": "https://annakrystalli.me/"
+},
+{
+   "name": "Lincoln Mullen",
+   "url": "https://lincolnmullen.com/",
+   "image" : "/img/team/lincoln-mullen.jpg",
+   "affiliation" : "George Mason University",
+   "past_roles": [
+      "editor"
+   ],
+   "alumnus": true
+},
+{
+   "name": "Brooke Anderson",
+   "url": "http://csu-cvmbs.colostate.edu/academics/erhs/Pages/brooke-anderson.aspx",
+   "image" : "/img/team/brooke-anderson.jpg",
+   "affiliation" : "Colorado State University",
+   "roles": [
+      "editor"
+   ],
+   "twitter": "gbwanderson",
+   "github": "geanders", 
+   "home": "http://csu-cvmbs.colostate.edu/academics/erhs/Pages/brooke-anderson.aspx"
+},
+{
+   "name": "Melina Vidoni",
+   "url": "https://melvidoni.rbind.io/",
+   "image" : "/img/team/melina-vidoni.jpg",
+   "affiliation" : "RMIT University",
+   "roles": [
+      "editor"
+   ],
+   "twitter": "melvidoni",
+   "github": "melvidoni", 
+   "home": "https://melvidoni.rbind.io/"
+},
+{
+   "name": "Kelly Hondula",
+   "url": "https://www.sesync.org/users/khondula",
+   "image" : "/img/team/kelly-hondula.jpg",
+   "affiliation" : "University of Maryland, SESYNC",
+   "roles": [
+      "fellow"
+   ]
+},
+{
+   "name": "Zachary Foster",
+   "url": "https://github.com/zachary-foster",
+   "image" : "/img/team/zachary-foster.jpg",
+   "affiliation" : "Oregon State University",
+   "roles": [
+      "fellow"
+   ]
+},
+{
+   "name": "Sam Tyner",
+   "url": "https://sctyner.github.io/",
+   "image" : "/img/team/sam-tyner.jpg",
+   "affiliation" : "Iowa State University, CSAFE",
+   "roles": [
+      "fellow"
+   ]
+},
+{
+   "name": "Jon Zelner",
+   "url": "http://www.jonzelner.net/",
+   "image" : "/img/team/jon-zelner.jpg",
+   "affiliation" : "University of Michigan",
+   "roles": [
+      "fellow"
+   ]
+},
+{
+   "name": "Nick Golding",
+   "url": "https://github.com/goldingn",
+   "image" : "/img/team/nick-golding.jpg",
+   "affiliation" : "Curtin University, Perth, Australia",
+   "roles": [
+      "fellow"
+   ]
+},
+{
+   "name": "Dan Sholler",
+   "url": "/authors/dan-sholler",
+   "image" : "/img/team/dan-sholler.jpg",
+   "past_roles": [
+      "postdoc"
+   ],
+   "alumnus": true
+},{
+   "name": "Hadley Wickham",
+   "url": "http://hadley.nz/",
+   "image" : "/img/team/hadley-wickham.jpg",
+   "affiliation" : "RStudio",
+   "roles": [
+      "advisor"
+   ]
+},
+{
+   "name": "JJ Allaire",
+   "url": "https://github.com/jjallaire",
+   "image" : "/img/team/jj-allaire.jpg",
+   "affiliation" : "RStudio",
+   "roles": [
+      "advisor"
+   ]
+},
+{
+   "name": "Mackenzie Smith",
+   "url": "https://www.library.ucdavis.edu/about/university-librarian/",
+   "image" : "/img/team/mackenzie_smith.jpg",
+   "affiliation" : "University of California, Davis",
+   "roles": [
+      "advisor"
+   ]
+},
+{
+   "name": "Matt Jones",
+   "url": "http://matt.magisa.org/",
+   "image" : "/img/team/matt-jones.jpg",
+   "affiliation" : "NCEAS",
+   "roles": [
+      "advisor"
+   ]
+}]

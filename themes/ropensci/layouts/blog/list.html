@@ -1,0 +1,87 @@
+{{ define "main" }}
+{{ $paginator := .Paginator }}
+{{ if eq $paginator.PageNumber 1 }}
+<section class="blog-hero">
+  <div class="container bg-cubes">
+    <div class="row align-items-center blog-heading">
+      <div class="col-md-9">
+        <h1>The rOpenSci Blog</h1>
+      </div>
+      <div class="col-md-3">
+        <ul class="blog-links text-uppercase d-flex justify-content-md-end">
+          <li><a href="/blog/index.xml" class="btn btn-primary">RSS</a></li>
+          <li><a href="/blog/index.json" class="btn btn-primary">JSON</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="blog-featured">
+      <div class="row">
+      {{ range first 2 ( where ( where .Site.RegularPages "Type" "in" .Site.Params.blogs ) "Params.featured" true ) }}
+      {{ .Render "featured-card" }}
+      {{ end }}  
+      </div>
+    </div>
+
+    <div class="blog-categories">
+      <h2 class="title">Highlights</h2>
+      <div class="row blog-categories-cards">
+        {{ range .Site.Data.blog.highlights }}
+        <div class="col-md-4">
+          <a href="{{ .href }}" class="card is-primary no-bg">
+            <div class="card-body">
+              <h4 class="pack-title">#{{ .name }}</h4>
+              <p>
+{{ .description }}
+              </p>
+              <div class="arrow pack-arrow"></div>
+            </div>
+          </a>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+
+<img class="divider d-none d-md-block" src="/images/svg/divider-rl-sm.svg" alt="" />
+{{ end }}
+<section class="posts">
+  <div class="container">
+    {{ if eq $paginator.PageNumber 1 }}
+    <h2 class="title">All posts</h2>
+    {{ else }}
+    <h2 class="title">All posts (Page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }})</h2>
+    {{ end }}
+
+    <div class="row post-cards justify-content-between">
+      <div class="col-md-8">
+
+           {{ range $paginator.Pages }}
+           {{ .Render "post-summary" }}
+            {{ end }}
+        
+        <div class="pagination d-flex justify-content-between">
+          <div class="pagination-item">
+            <p>Page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}</p>
+          </div>
+          <div class="pagination-item">
+            <div class="pagination-btns">
+              {{ if $paginator.HasPrev }}
+              <a class="prev-btn" href="{{ $paginator.Prev.URL }}">Prev</a>
+              {{ end }}
+              {{ if $paginator.HasNext }}
+              <a class="next-btn" href="{{ $paginator.Next.URL }}">Next</a>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 d-none d-md-block">
+      {{ partial "blogs/blog-aside" }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ partial "whole-page-fragments/newsletter"  (dict "divider" "lr" ) }}
+{{ partial "whole-page-fragments/brands" (dict "Site" .Site "divider" "rl" ) }}
+{{ end }}

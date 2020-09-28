@@ -1,0 +1,38 @@
+{{ partial "whole-page-fragments/divider" .divider }}
+
+    <!-- Brands section -->
+<section class="section section-brands text-md-center">
+<div class="container">
+<h2 class="title">Working together to push science forward</h2>
+<p class="subtitle">
+  Happy rOpenSci users can be found at
+</p>
+<div class="brands row text-center justify-content-center align-items-center">
+  {{ range ( shuffle .Site.Data.partners.brands ) }}
+   <!-- Resize/minify -->
+    {{ $path := .img | printf "%s/%s" "brands" }}
+    {{ $scratch := newScratch }}
+    {{ with $path }}
+      {{ $resource := resources.Get . }}
+      {{ $image_type_arr := (index (split . ".") 1) }}
+      {{ if eq $image_type_arr "svg" }}
+        {{ $scratch.Set "img" ( $resource | resources.Minify ).Permalink }}
+      {{ else }}
+        {{ $scratch.Set "img" ( $resource.Resize "96x" ).Permalink }}
+      {{ end }}
+    {{ end }}
+    {{ if (ne .url "") }}
+     <div class="col-4 col-xs-3 col-md-2"><a href="{{ .url }}">
+            <img class="brand-logo" src="{{ $scratch.Get "img" }}" alt="Logo of {{ .name }}" />
+            </a>
+          </div>
+          {{ else }}
+     <div class="col-4 col-xs-3 col-md-2">
+            <img class="brand-logo" src="{{ $scratch.Get "img" }}" alt="Logo of {{ .name }}" />
+          </div>
+          
+          {{ end }}
+  {{ end }}
+</div>
+</div>
+</section>

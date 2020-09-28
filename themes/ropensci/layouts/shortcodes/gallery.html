@@ -1,0 +1,10 @@
+ <figure class="figure-group pt-4" role="group">
+   <div class="figure-grid">
+  {{.Inner}}
+  {{ with .Get "caption" }} 
+  <figcaption>
+  {{ . }}
+  </figcaption>
+  {{ end }}
+  </div>
+</figure>

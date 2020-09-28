@@ -1,0 +1,149 @@
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+
+<!-- Matomo -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+  _paq.push(["setCookieDomain", "*.ropensci.org"]);
+  _paq.push(["setDomains", ["*.ropensci.org"]]);
+  _paq.push(["setDoNotTrack", true]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://ropensci.matomo.cloud/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src='//cdn.matomo.cloud/ropensci.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+  window.addEventListener('load', function () {
+    window.cookieconsent.initialise({
+        'palette': {
+            'popup': {
+                'background': '#427fd4'
+            },
+            'button': {
+                'background': '#fff',
+                'text': '#071159'
+            }
+        },
+        'content': {
+            'header': 'Cookies used on the website!',
+            'message': 'We use Matomo to analyze traffic. Cookies are stored on your browser for 13 months. This data is only processed by us.',
+            'dismiss': 'Got it!',
+            'allow': 'Accept',
+            'deny': 'Decline',
+            'link': 'Privacy policy',
+            'href': 'https://ropensci.org/privacy',
+            'close': '&#x274c;',
+            'policy': 'Privacy Policy',
+            'target': '_blank',
+        },
+        'type': 'opt-in',
+        onInitialise: function (status) {
+            var type = this.options.type
+            var didConsent = this.hasConsented()
+            if (type === 'opt-in' && didConsent) {
+                // enable cookies
+                _paq.push(['rememberConsentGiven']);
+            }
+            if (type == 'opt-out' && !didConsent) {
+                // disable cookies
+                _paq.push(['forgetConsentGiven']);
+            }
+        },
+
+        onStatusChange: function (status, chosenBefore) {
+            var type = this.options.type
+            var didConsent = this.hasConsented()
+            if (type === 'opt-in' && didConsent) {
+                // enable cookies
+                _paq.push(['rememberConsentGiven']);
+            }
+            if (type == 'opt-out' && !didConsent) {
+                // disable cookies
+                _paq.push(['forgetConsentGiven'], 24);
+            }
+        },
+
+        onRevokeChoice: function () {
+            var type = this.options.type
+            if (type === 'opt-in') {
+                // disable cookies
+                _paq.push(['forgetConsentGiven']);
+            }
+            if (type == 'opt-out' && !didConsent) {
+                // disable cookies
+                _paq.push(['forgetConsentGiven'], 24);
+            }
+        }
+    })
+})
+
+</script>
+<noscript><p><img src="https://ropensci.matomo.cloud/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+
+<!-- End Matomo Code -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="robots" content="noindex" />
+    {{ $css := resources.Get "main.min.css" }}
+{{ $secureCSS := $css | resources.Fingerprint "sha512" }}
+  <link href="{{ $secureCSS.Permalink }}" rel="stylesheet" integrity="{{ $secureCSS.Data.Integrity }}">
+ <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css
+"
+    />
+  {{ template "_internal/schema.html" . }}
+  {{ if eq .RelPermalink "/" }}
+  <title>{{ .Site.Title }}</title>
+  <meta property="og:title" content="{{ .Site.Params.title }}">
+  <meta property="og:type" content="website">
+  <meta property="description" content="{{ .Site.Params.description }}">
+  <meta property="og:description" content="{{ .Site.Params.description }}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:image" content="http://ropensci.org/android-chrome-512x512.png" >
+{{ else }}
+  <!-- special treatment for authors pages -->
+  {{ if (in .Section "author") }}
+    {{ if eq .Kind "term" }}
+       {{ .Scratch.Set "title" (print "Content by " .Params.name ) }}
+       {{ $description :=  (print .Site.Params.title " - " .Site.Params.description ) }}
+       {{ .Scratch.Set "description" $description }}
+    {{ else }}
+       {{ .Scratch.Set "title" "rOpenSci posts by author" }}
+       {{ .Scratch.Set "description" "Posts sorted by author" }}
+  {{ end }}
+  <!-- -->
+  {{ else }}
+     {{ .Scratch.Set "title" .Title }}
+     {{ .Scratch.Set "description" .Description }}
+  {{ end }}
+    {{ $defaultDescription := .Summary }}
+    {{ $title := .Scratch.Get "title" }}
+    {{ $description := .Scratch.Get "description" }}
+  <title>rOpenSci | {{ $title }}{{ with .Params.subtitle }} - {{ . }} {{ end }}</title>
+    <meta property="og:title" content="{{ $title }}">
+    <meta property="description" content="{{ $description | default $defaultDescription }}">
+    <meta property="og:description" content="{{ $description | default $defaultDescription }}">
+  <meta property="og:type" content="article">
+
+  {{ if .Params.twitterImg }}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="{{ .Params.twitterImg | absURL }}" >
+  {{ else }}
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="{{ "android-chrome-512x512.png"  | absURL }}" >
+  {{ end }}
+
+{{ end }}
+
+<meta name="twitter:creator" content="@rOpenSci">
+<meta name="twitter:site" content="@rOpenSci">
+</head>

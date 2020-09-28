@@ -1,0 +1,30 @@
+{{ define "main" }}
+<section class="section section-generic">
+  <div class="container">
+    <!-- Header text -->
+    <div class="row">
+      <div class="col-md-8 content">
+        <h1>{{ .Title }}</h1>
+          {{ .Content }}
+
+        <h2 class="title mt-5" id="talks">Talks</h2>
+        <p class="content">Most recent talks by the rOpenSci team or community members representing us, in English, French, or Spanish. Links to slides and videos are provided where available. <a href="/talks">More talks</a>.</p>
+      </div>
+    </div>
+    <div class="talk-cards">
+      {{ range ( first 3 ( where ( where .Site.RegularPages "Section" "events" ) ".Params.resources" "!=" nil  )) }}
+      {{ partial "resources/talk-card" . }}
+      {{ end }}
+    </div>
+    <h2 class="title mt-5" id="publications">Publications</h2>
+    <p class="content">Most recent papers about rOpenSci or rOpenSci-related projects involving members of the rOpenSci team. <a href="/papers">More papers</a>. Find out <a href="/how-to-cite-ropensci">how to cite rOpenSci</a> in your papers. </p>
+      {{ range ( first 3 .Site.Data.papers.papers ) }}
+      {{ partial "resources/paper-card" . }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ partial "whole-page-fragments/ask"  (dict "divider" "lr" ) }}
+{{ partial "whole-page-fragments/newsletter"  (dict "divider" "rl" ) }}
+{{ partial "whole-page-fragments/brands"  (dict "Site" .Site "divider" "lr" ) }}
+{{ end }}

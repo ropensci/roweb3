@@ -1,0 +1,70 @@
+baseurl = "https://roweb3-hugo.netlify.app/"
+# languageCode = "en-us"
+title = "rOpenSci - open tools for open science"
+theme = "ropensci"
+googleAnalytics = "UA-462421-6"
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$", "index\\.html"]
+footnotereturnlinkcontents = "↩"
+buildFuture = true
+preserveTaxonomyNames = true
+pygmentsUseClasses=true
+enableEmoji=true
+
+paginate = 5
+paginatePath = "page"
+rssLimit = 20
+
+[permalinks]
+    blog = "/blog/:year/:month/:day/:slug/"
+    technotes = "/technotes/:year/:month/:day/:slug/"
+
+[params]
+    title = "rOpenSci"
+    description = "Open Tools and R Packages for Open Science"
+    footer = "&copy; The rOpenSci Project"
+    rbloggers = ["blog", "technotes", "commcalls"]
+    blogs = ["blog", "technotes"]
+    events = ["events", "commcalls"]
+    githubsource = "https://github.com/rosadmin/roweb3/tree/main/content/"
+    
+
+ 
+[taxonomies]
+  tag = "tags"
+  author = "author"
+  
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS", "JSON"]
+  taxonomy = ["HTML", "RSS", "JSON"]
+  taxonomyTerm = ["HTML", "RSS", "JSON"]
+
+[outputFormats.Calendar]
+	protocol = "https://"
+
+[privacy]
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = false
+  [privacy.instagram]
+    disable = false
+    simple = true
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[caches]
+  [caches.getjson]
+    maxAge = "300s"

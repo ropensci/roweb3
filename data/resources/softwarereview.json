@@ -1,0 +1,31 @@
+[
+{
+   "title": "Open Reviews",
+   "text": "Read previous and current reviews.",
+   "url": "https://github.com/ropensci/software-review"
+},
+{
+   "title": "Online book",
+   "text": "rOpenSci Packages: Development, Maintenance, and Peer Review including the aims and scopeof our system.",
+   "url": "https://devguide.ropensci.org/"
+},
+{
+   "title": "Discussion of our standards and process",
+   "text": "Blablabla.",
+   "url": "https://github.com/ropensci/software-review-meta/issues"
+},
+{
+   "title": "Volunteer",
+   "text": "Volunteering form for reviewers.",
+   "url": "/onboarding/"
+},
+{
+   "title": "Context",
+   "text": "Blog post introducing the system",
+   "url": "https://www.numfocus.org/blog/how-ropensci-uses-code-review-to-promote-reproducible-science/"
+},
+{
+   "title": "Blog posts",
+   "text": "software review related posts on our blogs.",
+   "url": "/tags/software-peer-review/"
+}]

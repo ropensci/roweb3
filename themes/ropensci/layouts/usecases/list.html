@@ -1,0 +1,80 @@
+{{ define "main" }}
+ <section class="section section-generic">
+      <div class="container">
+        <!-- Header text -->
+        <div class="row">
+          <div class="col-md-8">
+            <h1>Use Cases</h1>
+            <p class="subtitle">
+              If you’re looking for examples of how our R packages or resources have been used,
+              search no more! We collect <a href = "https://discuss.ropensci.org/c/usecases/10">use cases in our public forum</a> and we created a template
+              there to help you share yours. Below is a random subset as well as a searchable archive of all use cases. Browse them, and report your own use case(s) to our forum. For more illustrations of our packages' use, also see the <a href = "/citations/">citations page</a>.
+            </p>
+          </div>
+        </div>
+
+        <div class="row case-cards mt-5">
+          {{ range (first 3 (shuffle (where .Site.Data.usecases.usecases ".image" "!=" "noimage"  )) ) }}
+          <div class="col-md-4">
+            <div class="case-card">
+              {{ $image := (print "usecases/" .image )}}
+              {{- $original := resources.Get $image -}}
+              {{ $image := $original.Fill "352x175" }}
+              <img src="{{ $image.RelPermalink }}" alt="" />
+              <div class="case-card-body">
+                <div class="d-flex flex-wrap align-items-center">
+                  <a href="{{ .url }}" class="case-title mr-2">{{ .title }}</a>
+                  {{ with .tags }}
+{{ if eq (substr (jsonify .) 0 1) "["}}
+{{ range . }}<a href="https://discuss.ropensci.org/tag/{{ . }}" class="tag">{{ . }}</a>{{ end }}
+{{ else }}
+<a href="https://discuss.ropensci.org/tag/{{ . }}" class="tag">{{ . }}</a>
+{{ end }}
+{{ end }}
+                </div>
+                {{ with .resource }}
+                <p class="mt-2 case-text">
+               Featuring: {{ . | markdownify }}. 
+                </p>
+                 {{ end }}
+                <p class="mt-2 case-text">
+               Reported on {{ .date }}. 
+                </p>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+        
+        <div class="row case-cards mt-5">
+      <table id="usecases" class="display" width="100%">
+        <thead>
+          <tr>
+    <th>Title</th>
+    <th>Resource</th>
+    <th>Date</th>
+  </tr>
+  </thead>
+      <tbody>
+      {{ range .Site.Data.usecases.usecases }}
+   <tr>
+     
+    <td><a href="{{ .url }}">{{ .title }}</a></td>
+    <td>{{ with .resource }}{{ . | markdownify }} {{ end }} </td>
+    <td>{{ .date }} </td>
+  </tr>
+      {{ end }} 
+      </tbody>
+      </table>
+        </div>
+{{ partial "datatables/scripts" ( dict "id" "usecases" "col" 2 "order" "desc" )  }}
+        <a href="https://discuss.ropensci.org/c/usecases/10" class="cta-card mt-5">
+          <h4 class="cta-title title">Discover more use cases from the community</h4>
+          <p class="cta-text mt-1">
+            Or share yours!
+          </p>
+        </a>
+      </div>
+    </section>
+{{ partial "whole-page-fragments/newsletter"  (dict "divider" "lr" ) }}
+{{ end }}

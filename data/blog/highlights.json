@@ -1,0 +1,17 @@
+[
+{
+"name": "community",
+"description": "Related to our community or by community members",
+"href": "/tags/community/"
+},
+{
+"name": "software-peer-review",
+"description": "About software review, by authors, reviewers, editors",
+"href": "/tags/software-peer-review/"
+},
+{
+"name": "tech-notes",
+"description": "Shorter technical pieces",
+"href": "/technotes/"
+}
+]

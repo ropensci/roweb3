@@ -1,0 +1,13 @@
+<div class="public-card">
+  <div class="public-title">
+    {{ .title }}
+  </div>
+  <div class="public-text">{{ .journal }}</div>
+  <div class="public-author">
+    {{ .authors | markdownify }} ({{ .year }}) • {{with .doi }}doi:{{ . }}{{ end }}{{ with .otherid }}{{ . }}{{ end }}
+  </div>
+  <div class="public-links">
+    <a href="{{ .url }}">Read Online</a>
+    <a href="{{ .pdf }}">Download PDF</a>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+{{ define "main" }}
+{{ partial "skeleton/hero" . }}
+<!-- Hero divider -->
+</div>
+<img class="divider-lg" src="/images/svg/divider-lg.svg" alt="" />
+{{ partial "whole-page-fragments/packages/packages" . }}
+{{ partial "whole-page-fragments/review" (dict "context" . "divider" "rl" ) }}
+{{ partial "whole-page-fragments/community" (dict "context" . "divider" "lr" ) }}
+{{ partial "whole-page-fragments/news" (dict "Site" .Site "divider" "rl" ) }}
+{{ partial "whole-page-fragments/newsletter" (dict "divider" "lr" ) }}
+{{ partial "whole-page-fragments/brands" (dict "Site" .Site "divider" "rl" )  }}
+{{ end }}

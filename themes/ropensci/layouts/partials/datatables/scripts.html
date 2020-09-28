@@ -1,0 +1,33 @@
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
+
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.20/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript">
+$(document).ready( function () {
+  {{ if .search }}
+   // Setup - add a text input to each footer cell
+    $('#{{ .id }} thead tr').clone(true).appendTo( '#{{ .id }} thead' );
+    $('#{{ .id }} thead tr:eq(1) th').each( function (i) {
+        var title = $(this).text();
+        $(this).html( '<input type="text" placeholder="Search '+title+'" />' );
+ 
+        $( 'input', this ).on( 'keyup change', function () {
+          console.log(this.value)
+            if ( table.column(i).search() !== this.value ) {
+                table
+                    .column(i)
+                    .search( this.value )
+                    .draw();
+            }
+        } );
+    } );
+  
+  {{ end }}
+    var table = $('#{{ .id }}').DataTable({
+      searching: true,
+      orderCellsTop: true,
+        fixedHeader: true,
+      "order": [[ {{ .col }}, "{{ .order }}" ]]
+    });
+} );
+</script>

@@ -1,0 +1,2 @@
+{{ $pages := (where ( where .Site.RegularPages "Type" "in" .Site.Params.events ) ".Date" ">=" now.UTC ) }}
+{{ return $pages }}

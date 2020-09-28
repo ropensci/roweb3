@@ -1,0 +1,38 @@
+{{ $columns := 3.0 }}
+{{ $resources := .resources }}
+
+{{ $lenresources := (len $resources) }}
+
+{{ $lenresources := (len $resources) }}
+{{ $rows := div $lenresources $columns }}
+{{ $rows := math.Ceil $rows }}
+
+{{ range (seq 1 $rows) }}
+{{ $y := (add (mul (sub . 1)  3) 1)}}
+<div class="row resource-cards mt-2">
+  {{ range (seq 1 $columns) }}
+    {{ $i := ( add . $y ) }}
+    {{ $i := (sub $i 2)}}
+    
+    {{ if (le $i (sub $lenresources 1)) }}
+     {{ $resourcesmember := (index $resources $i) }}
+     {{ with $resourcesmember }}
+<div class="col-md-4">
+     {{ if or ( eq "ropensci.org" (urls.Parse .url).Host ) ( eq "" (urls.Parse .url).Host ) }}
+            <a href="{{ .url }}" class="resource-card">
+      {{ else }}
+           <a href="{{ .url }}" target="_blank" class="resource-card arrow-up">
+      {{ end }}
+              <span>
+                <strong>{{ .title | title }}</strong>
+                <p class="mt-1">
+                  {{ .text }}
+                </p>
+              </span>
+            </a>
+          </div>
+          {{ end }}
+    {{ end }}
+  {{ end }}
+  </div>
+{{ end }}

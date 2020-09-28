@@ -1,0 +1,62 @@
+[
+{
+"authors": "Ram, K., Boettiger, C., Chamberlain, S., Ross, N., Salmon, M., & Butland, S.",
+"year": "2018",
+"title": "A Community of Practice Around Peer-review for Long-term Research Software Sustainability",
+"journal": "Computing in Science & Engineering",
+"doi": "10.1109/MCSE.2018.2882753",
+"url": "https://doi.org/10.1109/MCSE.2018.2882753",
+"pdf": "/pdfs/2019-ropensci-software-review.pdf",
+"type": "organization"
+},
+{
+"authors": "Chamberlain, S. A., &amp; Boettiger, C.",
+"year": "2017",
+"title": "R Python, and Ruby clients for GBIF species occurrence data",
+"journal": "PeerJ Preprints",
+"doi": "10.7287/peerj.preprints.3304v1",
+"url": "https://doi.org/10.7287/peerj.preprints.3304v1",
+"pdf": "https://peerj.com/preprints/3304.pdf",
+"type": "software"
+},
+{
+"authors": "Boettiger, C., Chamberlain, S., Hart, E., &amp; Ram, K.",
+"year": "2015",
+"title": "Building software, building community: lessons from the rOpenSci project.",
+"journal": "Journal of Open Research Software",
+"doi": "10.5334/jors.bu",
+"url": "https://doi.org/10.5334/jors.bu",
+"pdf": "/pdfs/ropensci_jors.pdf",
+"type": "organization"
+},
+{
+"authors": "Chamberlain SA, Szöcs E.",
+"year": "2013",
+"title": "taxize: taxonomic search and retrieval in R [v2; ref status: indexed, http://f1000r.es/24v]",
+"journal": "F1000Research",
+"doi": "10.12688/f1000research.2-191.v2",
+"url": "https://doi.org/10.12688/f1000research.2-191.v2",
+"pdf": "/pdfs/taxize.pdf",
+"type": "software"
+},
+{
+   "authors": "Carl Boettiger, Duncan Temple Lang, Peter Wainwright",
+"year": "2012",
+"title": "rfishbase: exploring, manipulating and visualizing FishBase data from R.",
+"journal": "Journal of Fish Biology",
+"doi": "10.1111/j.1095-8649.2012.03464.x",
+"url": "https://doi.org/10.1111/j.1095-8649.2012.03464.x",
+"pdf": "/pdfs/rfishbase.pdf",
+"type": "software"
+},
+{
+      "authors": "Boettiger, C., Temple Lang, D.",
+"year": "2012",
+"title": "Treebase: an R package for discovery, access and manipulation of online phylogenies",
+"journal": "Methods in Ecology and Evolution",
+"doi": "10.1111/j.2041-210X.2012.00247.x",
+"url": "https://doi.org/10.1111/j.2041-210X.2012.00247.x",
+"pdf": "/pdfs/treebase.pdf",
+"type": "software"
+}
+]

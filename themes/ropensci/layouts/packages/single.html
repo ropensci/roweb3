@@ -1,0 +1,74 @@
+{{ define "main" }}
+{{ $registry := getJSON "https://ropensci.github.io/roregistry/registry.json" }}
+{{ $citations := getJSON "https://ropensci-org.github.io/ropensci_citations/citations_all_parts_clean.json" }}
+{{ $Scratch := newScratch }}
+<section class="section section-category">
+  <div class="container bg-cubes">
+    <h1>{{ .Title }}</h1>
+   <div class="row">
+          <div class="col-md-8">
+            {{ .Params.description }}
+          </div>
+        </div>
+
+        <form class="package-search is-primary" onsubmit="return false">
+         <div class="search-icon">
+            <input
+              class="package-search__input"
+              type="text"
+              placeholder="Search by name, maintainer or keyword"
+            />
+          </div>
+          <input class="package-search__submit" type="submit" value="Search" />
+        </form>
+
+        <div class="category-list" style="opacity: 0; transition: all 0.2s">
+          <div class="row justify-content-between align-items-end">
+            <div class="col-md-8 text-center text-md-left order-1">
+              <ul class="d-inline-flex">
+                <li><a class="cat-btn is-primary" href="#">Active</a></li>
+                <li><a class="cat-btn is-grey" href="#">Experimental</a></li>
+                <li><a class="cat-btn" href="#">Archived</a></li>
+              </ul>
+            </div>
+            <div
+              class="col-md-4 text-center text-md-right order-3 order-md-2 showing"
+            >
+              <div>
+                Showing <span class="showed-items">10</span> of
+                <span class="show-total">12</span>
+              </div>
+            </div>
+            <div class="col-md-12 order-2 order-md-3 order-1 order-md-1">
+              <div class="category-cards">
+                {{ $pkgcitations := $citations }}
+                {{ if eq .Params.slug "all" }}
+                {{ $Scratch.Set "pkgs" (sort $registry.packages "name" ) }}
+                {{ else }}
+                {{ $Scratch.Set "pkgs" (sort ( where ($registry.packages) "ropensci_category" .Params.slug )) }}
+                {{ end }}
+                {{ range ($Scratch.Get "pkgs") }}
+                  {{ $Scratch.Set "citations" (where ($citations) "name" "intersect" (slice .name )) }}
+                  {{ partial "packages/package-card" (dict "package" . "citations" ( $Scratch.Get "citations")) }}
+                {{ end }}
+      </div>
+      </div>
+      
+      </div>
+      <div class="pagination d-flex category-pagination">
+            <div class="pagination-item w-100">
+              <div class="pagination-btns d-flex justify-content-between">
+                <a class="prev-btn m-0" id="prev"><b>Prev</b></a>
+                <p>
+                  Page <span class="current-page">1</span> of
+                  <span class="number_of_pages">0</span>
+                </p>
+                <a class="next-btn" id="next"><b>Next</b></a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    
+
+{{ end }}

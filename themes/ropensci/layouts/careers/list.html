@@ -1,0 +1,35 @@
+{{ define "main" }}
+<section class="section section-generic">
+  <div class="container">
+    <!-- Header text -->
+    <div class="row">
+      <div class="col-md-8 offset-md-1">
+        <h1>Careers</h1>
+        <div class="subtitle">
+          {{ .Content }}
+        </div>
+{{ if partial "careers/we-are-hiring" . }}
+        <h2 class="title mt-5" id = "open-positions">
+          Open position{{ if gt ( partial "careers/count-postings" . ) 1 }}s{{ end }}
+        </h2>
+        <div class="career-cards mt-4">
+{{ range .Data.Pages.ByPublishDate.Reverse }}
+{{ .Render "job-summary" }}
+{{ end }}
+        </div>
+{{ end }}
+      </div>
+      <div class="col-md-3">
+        <ul class="blog-links text-uppercase d-flex justify-content-md-end">
+          <li><a href="/careers/index.xml" class="btn btn-primary">RSS</a></li>
+          <li><a href="/careers/index.json" class="btn btn-primary">JSON</a></li>
+        </ul>
+        </div>
+    </div>
+  </div>
+</section>
+
+{{ partial "whole-page-fragments/newsletter"  (dict "divider" "lr" ) }}
+{{ partial "whole-page-fragments/volunteer"  (dict "divider" "rl" ) }}
+{{ partial "whole-page-fragments/brands"  (dict "Site" .Site "divider" "lr" ) }}
+{{ end }}

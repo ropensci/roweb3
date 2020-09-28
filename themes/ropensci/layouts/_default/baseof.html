@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+{{ partial "skeleton/head" . }}
+<body>
+{{ partial "skeleton/header" (dict "Site" .Site "RelPermalink" .RelPermalink ) }}
+
+ {{ block "main" . }}
+      <!-- The part of the page that begins to differ between templates -->
+    {{ end }}
+{{ partial "skeleton/footer" . }}
+</body>
+</html>

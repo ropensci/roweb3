@@ -1,0 +1,36 @@
+{{ define "main" }}
+<section class="section section-generic">
+  <div class="container">
+    <!-- Header text -->
+    <div class="row">
+      <div class="col-md-8 offset-md-1">
+        <h1>{{ .Title }}</h1>
+        <div class="content">
+          {{ .Content }}
+        </div>
+        <div class="row">
+          <div class="col-6">
+        <a href="https://numfocus.salsalabs.org/donate-to-ropensci/index.html" class="btn btn-primary mt-5">Donate</a>
+        </div>
+        <div class="col-6">
+        <img src="/images/NumFocusSquare.png" href="https://numfocus.org/" style="width:150px; display: inline-block; vertical-align:middle;margin-top: 3rem !important; float:right;"></img>
+        </div>
+        </div>
+        <p class="subtitle">
+          Checks can also be made out to NumFOCUS, just make sure to add rOpenSci in the memo
+          line
+        </p>
+        <p class="mt-3">
+          <strong>NumFOCUS</strong>
+        </p>
+        <p>P.O. Box 90596</p>
+        <p>Austin, TX 78709</p>
+        <p>USA</p>
+      </div>
+    </div>
+
+    <!-- Content here -->
+  </div>
+</section>
+{{ partial "whole-page-fragments/brands"  (dict "Site" .Site "divider" "rl" ) }}
+{{ end }}

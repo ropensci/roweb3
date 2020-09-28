@@ -1,0 +1,43 @@
+
+{{ define "main" }}
+<section class="section section-generic">
+  <div class="container">
+    <!-- Header text -->
+    <div class="row">
+      <div class="col-md-8 content">
+        <h1>{{ .Title }}</h1>
+         {{ .Content }}
+    </div>
+    </div>
+      <table id="papers" class="display" width="100%">
+        <thead>
+          <tr>
+    <th>Title</th>
+    <th>Year</th>
+    <th>Authors</th>
+    <th>Journal</th>
+    <th>Links</th>
+  </tr>
+  </thead>
+      <tbody>
+      {{ range .Site.Data.papers.papers }}
+   <tr>
+     
+    <td><a href="{{ .url }}">{{ .title }}</a></td>
+    <td>{{ .year }} </td>
+    <td>{{ .authors | markdownify }} </td>
+    <td>{{ .journal }} </td>
+    <td>
+      {{ with .url }} <a href="{{ . }}"><i class="fa fa-link" aria-hidden="true"></i></a>{{ end }}
+      {{ with .pdf }}• <a href="{{ . }}"><i class="fa fa-file" aria-hidden="true"></i></a>{{ end }}
+</td>
+  </tr>
+      {{ end }} 
+      </tbody>
+      </table>
+      {{ partial "datatables/scripts" ( dict "id" "papers" "col" 1 "order" "desc" ) }}
+</section>
+{{ partial "whole-page-fragments/ask"  (dict "divider" "lr" ) }}
+{{ partial "whole-page-fragments/newsletter"  (dict "divider" "rl" ) }}
+{{ partial "whole-page-fragments/brands"  (dict "Site" .Site "divider" "lr" ) }}
+{{ end }}

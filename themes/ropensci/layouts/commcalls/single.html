@@ -1,0 +1,186 @@
+{{ define "main" }}
+   <section class="section event-detail">
+      <div class="container bg-cubes">
+        <div class="row">
+          <div class="col-md-8 offset-md-1">
+            <div class="event-detail-date">
+              {{ .Date.Format "January 2, 2006" }}
+            </div>
+            <h1>{{ .Title }}</h1>
+            <div class="event-detail-author">
+              <p>
+                {{ with .Params.organizer }}
+                By {{ partial "blogs/pretty_author_names" . }}.
+                {{ end }}
+                {{ with .Params.author }}
+                <span class="ml-1">With {{ partial "blogs/pretty_author_names" . }}.</span>
+                {{ end }}
+              </p>
+            </div>
+                {{ if ge (time .Params.dateEnd).Local now.Local }}
+                <div class="event-detail-calendar">
+              <div class="d-flex justify-content-between">
+                <p>
+                  🕓 <strong>{{ (time .Params.dateStart).UTC | dateFormat "Monday, 02 January 2006 15:04 MST" }}</strong>
+                </p>
+                <div class="add-wrapper">
+                  <div class="drop-btn">Add to Calendar</div>
+                  <ul class="add-menu">
+                    <li>
+                      <a
+                        href="https://www.timeanddate.com/worldclock/fixedtime.html?iso={{ .Params.dateStart}}&ah={{ sub (time .Params.dateEnd).Hour (time .Params.dateStart).Hour }}&msg={{ .Title }} (rOpenSci Comm Call)"
+                      >
+                        <i class="fas fa-clock"></i>
+                        <span>Find your timezone</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#join-us">
+                        <i class="fas fa-ticket-alt"></i>
+                        <span>How to join</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="index.ics"
+                      >
+                        <i class="fas fa-calendar-plus"></i>
+                        <span>iCal</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="{{ partial "calendar/google-calendar-url" ( dict "title" (print "rOpenSci Comm Call · " .Title ) "context" . "location" "Online via Zoom" ) }}"
+                      >
+                        <i class="fab fa-google"></i>
+                        <span>Google Calendar</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+{{ end }}
+          </div>
+        </div>
+
+        <div class="row justify-content-between event-detail-content">
+          <div class="col-md-8 offset-md-1">
+            {{ with .Params.vimeo }}
+            <div class="mb-4" style="padding: 56.25% 0 0 0; position: relative;">
+              {{ range . }}
+              <iframe
+                src="https://player.vimeo.com/video/{{ .id }}"
+                width="640" height="360" 
+                style="position: absolute; top: 0; left: 0; max-width: 100%; max-height: 100%;"
+                frameborder="0"
+                allow="autoplay; fullscreen"
+                allowfullscreen
+              ></iframe>
+            <script src="https://player.vimeo.com/api/player.js"></script>
+                    </div> 
+                    {{ end }}
+                    {{ end }}
+            {{ .Content }}
+            {{ with .Params.description }}
+            {{ . | markdownify }}
+            {{ end }}
+            
+            {{ with .Params.speakers }}
+<div class="speakers">
+              <h2 class="title">
+                Speakers
+              </h2>
+              <div class="speakers-wrapper">
+                {{ range . }}
+                <div class="speakers-item">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <img src="{{ .img }}" alt="Portrait of {{ .name }}" />
+                    </div>
+                    <div class="col-md-9">
+                      <p>
+                      {{ .bio | markdownify }}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+           {{ end }}
+              </div>
+            </div>
+{{ end }}
+           
+                  {{ if .Params.resources }}
+            <div class="event-resources">
+              <h4 class="title">Resources</h4>
+              <ul class="resources-list">
+                  {{ range .Params.resources }}
+                <li>
+                  <a href="{{ .url }}">{{ .name }}</a>{{ with .details }}, {{ . }}{{ end }}
+                </li>
+                  {{ end }}
+                {{ with .Params.blog }}
+                <li>
+                  <a href="{{ . }}">Announcement blog post</a>
+                </li>
+                {{ end }}
+                {{ with .Params.notes }}
+                <li>
+                  <a href="{{ . }}">Collaborative notes</a>
+                </li>
+                {{ end }}
+              </ul>
+            </div>
+            {{ end }}
+            
+            {{ if ge (time .Params.dateEnd).Local now.Local }}
+            <div class="event-join">
+              <h4 class="title" id ="join-us">Join Us! 🎉</h4>
+
+              <ul class="event-join-list">
+                <li>
+                  <strong class="d-block">Who</strong>
+                  Everyone is welcome. No RSVP needed, simply connect and/or dial in at the time of the event.
+                </li>
+                <li>
+                  <strong class="d-block">When</strong>
+                  {{ (time .Params.dateStart).Local | dateFormat "Monday, 02 January 2006 15:04 MST" }} ({{ (time .Params.dateStart).UTC | dateFormat "Monday, 02 January 2006 15:04 MST" }}) 
+                </li>
+                <li>
+                  <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso={{ .Params.dateStart}}&ah={{ sub (time .Params.dateEnd).Hour (time .Params.dateStart).Hour }}&msg={{ .Title }} (rOpenSci Comm Call)" target="_blank">Find your timezone</a>.
+                </li>
+                <li>
+                  <a href="index.ics">Add to Calendar</a> (or scroll to the top for more links like Google Calendar).
+                </li>
+                  {{ with .Params.deets }}
+                <li>
+                  <strong class="d-block">How</strong>
+                  {{ . | markdownify }} <a href="https://support.zoom.us/hc/en-us/articles/201362193-Joining-a-meeting">Zoom docs</a>.
+                </li>
+                {{ end }}
+              </ul>
+            </div>
+            {{ end }}
+          </div>
+          
+          <div class="col-md-2">
+            <div class="field-under">
+              <span>Filed under</span>
+              <ul class="post-tags">
+                {{ range .Params.tags }}
+          <li><a href="/tags/{{ . | urlize }}" class="tag">{{ . }}</a></li>
+        {{ end }}
+              </ul>
+            </div>
+      <div class="field-under mt-4">
+        <span>Share</span>
+        {{ partial "twitter/share-link" . }}
+        {{ partial "linkedin/share-link" . }}
+      </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+{{ partial "whole-page-fragments/newsletter"  (dict "divider" "lr" ) }}
+{{ end }}

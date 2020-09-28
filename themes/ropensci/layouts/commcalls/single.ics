@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//elm-conf//speaker calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+ORGANIZER;CN="rOpenSci":mailto:info@ropensci.org
+SUMMARY:{{.Title}} (rOpenSci comm call)
+UID:{{.Params.dateStart}}@ropensci-commcalls
+SEQUENCE:0
+STATUS:CONFIRMED
+DTSTAMP:{{dateFormat "20060102T150405Z" .Params.dateStart}}
+DTSTART;TZID=Etc/UTC:{{dateFormat "20060102T150405" .Params.dateStart}}
+DTEND;TZID=Etc/UTC:{{dateFormat "20060102T150405" .Params.dateEnd}}
+LOCATION:Online
+DESCRIPTION:{{ with .Params.description}}{{ . }}{{ end }} {{.Permalink}}
+URL:{{.Permalink}}
+END:VEVENT
+END:VCALENDAR

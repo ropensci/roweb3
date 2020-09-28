@@ -1,0 +1,34 @@
+      <!-- Hero -->
+      <div class="hero">
+        <div class="container news">
+          <div class="news-body">
+            <span class="news-label">New!</span
+            ><span class="news-text"
+              >
+                        {{ range first 1 ( where ( where .Site.RegularPages "Type" "in" .Site.Params.blogs ) "Params.featured" true ) }}
+          <a href="{{ .Permalink }}"
+                >{{ .Title }}</a
+              >
+          {{ end }}
+              
+              </span
+            >
+          </div>
+        </div>
+        <div class="container">
+          <div class="hero-body">
+            <h1 class="hero-title">
+              Transforming science through open data, software & reproducibility
+            </h1>
+            <p>
+              We help develop R packages for the sciences via community driven learning, review and
+              maintenance of contributed software in the R ecosystem
+            </p>
+            <div class="hero-buttons">
+              <a href="/packages" class="btn btn-primary">Browse Our Packages</a>
+              <a href="/about" class="btn btn-primary">Our Mission</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>

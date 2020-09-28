@@ -1,0 +1,19 @@
+{{ define "main" }}
+{{ $pages := (partial "calendar/future-events" (dict "Site" .Site)) }}
+{{ $featured := ( where $pages "Params.featured" true ) }}
+{{ if gt (len $featured) 0 }}
+    <section class="section event-hero">
+      <div class="container bg-cubes">
+        <div class="row">
+           {{ range first 1 $featured.ByDate }}
+          {{ .Render "featured-event-card" }}
+          {{ end }}
+        </div>
+      </div>
+    </section>
+    <img class="divider" src="../images/svg/divider-rl.svg" alt="" />
+{{ end }}
+    {{ partial "calendar/events" (dict "Site" .Site )  }}
+         
+{{ partial "whole-page-fragments/newsletter"  (dict "divider" "rl" ) }}
+{{ end }}

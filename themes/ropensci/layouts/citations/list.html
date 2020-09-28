@@ -1,0 +1,84 @@
+{{ define "main" }}
+ <section class="section section-generic">
+      <div class="container">
+        <!-- Header text -->
+        <div class="row">
+          <div class="col-md-8">
+            <h1>Package Citations</h1>
+            <p class="subtitle">
+              We manually curate a <a href="https://github.com/ropensci-org/ropensci_citations/">dataset of all citations of our packages</a>. Find below a regularly updated random sample as well as a searchable table of all citations.
+            </p>
+            <p class="subtitle">
+               If you use one of our packages, please cite it. E.g. if you use the magick package, run
+            <code>citation("magick")</code> in your R console to find the appropriate text.
+            </p>
+          </div>
+        </div>
+        {{ $registry := getJSON "https://ropensci.github.io/roregistry/registry.json" }}
+{{ $scratch := newScratch }}
+
+{{ $scratch.Set "package" (slice "absolutelynotapackage" ) }}
+{{ range $registry.packages }}
+{{ $scratch.Add "package" .name }}
+{{ end }}
+
+{{ $scratch.Set "activepackage" (slice "absolutelynotapackage" ) }}
+{{ range ( where $registry.packages "type" "active" ) }}
+{{ $scratch.Add "activepackage" .name }}
+{{ end }}
+        <div class="row case-cards mt-5">
+          {{ $citations := getJSON "https://ropensci-org.github.io/ropensci_citations/citations_all_parts_clean.json" }}
+          {{ range $index, $element := (first 3 ( shuffle (where $citations "name" "intersect" ($scratch.Get "activepackage")) ) ) }}
+          <div class="col-md-4" id="{{ $index }}">
+            <div class="case-card">
+              <img src="data:image/jpeg;base64, iVBORw0KGgoAAAANSUhEUgAAAWAAAACvCAYAAADDqASZAAAB8ElEQVR42u3UMREAMAgAsaKoEsEwHhDBHVMi4YePX50PgHNhwAAGDGDAABgwgAEDYMAABgyAAQMYMAAGDGDAABgwgAEDGLABAxgwgAEDYMAABgyAAQMYMAAGDGDAABgwgAEDYMAABgxgwAYMYMAABgyAAQMYMAAGDGDAABgwgAEDYMAABgyAAQMYMIABGzCAAQMYMAAGDGDAABgwgAEDYMAABgyAAQMYMAAGDGDAAAYsA4ABAxgwAAYMYMAAGDCAAQNgwAAGDIABAxgwAAYMYMAABgyAAQMYMAAGDGDAABgwgAEDYMAABgyAAQMYMAAGDGDAAAYMgAEDGDAABgxgwAAYMIABA2DAAAYMgAEDGDAABgxgwAAGDIABAxgwAAYMYMAAGDCAAQNgwAAGDIABAxgwAAYMYMAABgyAAQMYMAAGDGDAABgwgAEDYMAABgyAAQMYMAAGDGDAAAYMgAEDGDAABgxgwAAYMIABA2DAAAYMgAEDGDAABgxgwAAGDIABAxgwAAYMYMAAGDCAAQNgwAAGDIABAxgwAAYMYMAABgyAAQMYMAAGDGDAABgwgAEDYMAABgyAAQMYMAAGDGDAAAYMgAEDGDAABgxgwAAYMIABA2DAAAYMgAEDGDAABgxgwAAGDIABAxgwAAYMYMAArA2VgnE0VdnvaQAAAABJRU5ErkJggg==" alt="" />
+              <div class="case-card-body">
+                <div class="d-flex flex-wrap align-items-center">
+                  <a href="{{ .url }}" class="case-title mr-2">{{ .parts.title }}</a>
+                  
+{{ range .name }}<a href="https://docs.ropensci.org/{{ . }}" class="tag">{{ . }}</a>{{ end }}
+                </div>
+                <p class="mt-2 case-text">
+               {{ .parts.author }}
+                </p>
+                                <p class="mt-2 case-text">
+               {{ if ( ne ( index .parts "container-title" ) nil) }}{{ ( index .parts "container-title" ) }} {{ end }}{{ if ( ne ( .year ) nil) }}- {{ .year }} {{ end }}{{ with .note }}{{ . }}{{ end }} {{with .doi }}<a href="https://dx.doi.org/{{ . }}">doi:{{ . }}</a>{{ end }}
+                </p>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+          
+          
+{{ $packages := ($scratch.Get "package") }}
+        </div>
+        <div class="row case-cards mt-5">
+      <table id="papers">
+        <thead>
+          <tr>
+    <th>Title</th>
+    <th>Year</th>
+    <th>Authors</th>
+    <th>Journal</th>
+    <th>Package</th>
+  </tr>
+  </thead>
+      <tbody>
+      {{ range $index, $element := (where $citations "name" "intersect" $packages)  }}
+   <tr>
+     
+    <td><a href="{{ .url }}">{{ .parts.title }}</a></td>
+    <td>{{ if ( ne ( .year ) nil) }}{{ .year }} {{ end }}</td>
+    <td>{{ .parts.author }}</td>
+    <td>{{ if ( ne ( index .parts "container-title" ) nil) }}{{ ( index .parts "container-title" ) }} {{ end }}</td>
+    <td>{{ delimit .name ", " }}</td>
+  </tr>
+      {{ end }} 
+      </tbody>
+      </table>
+        </div>
+{{ partial "datatables/scripts" ( dict "id" "papers" "col" 1 "order" "desc" "search" true )  }}
+      </div>
+    </section>
+{{ partial "whole-page-fragments/newsletter"  (dict "divider" "lr" ) }}
+{{ end }}

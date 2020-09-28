@@ -1,0 +1,32 @@
+   <!-- Packages section   -->
+    <section class="section-package">
+      <div class="container">
+        <h2 class="title">Our Packages</h2>
+        <p class="subtitle sm subtitle-package">
+          Use our packages to acquire your data from both your own and from various data sources,
+          analyze it, add your narrative and generate a final document in any of widely used formats
+          such as Word, Markdown, PDF or LaTeX. Combine our tools with the rich ecosystem of R
+          packages.
+        </p>
+        <a class="link-arrow package-cta" href="/packages/all"><span>View all packages</span></a>
+
+        {{ partial "whole-page-fragments/packages/packages-cards" (dict "Site" .Site ) }}
+
+        <div class="row pack-cards">
+          <div class="col-md-6">
+            <a href="/usecases/" class="pack-card">
+              <h4 class="pack-title">Explore Use Cases</h4>
+              <p>Get inspired by real examples of how our packages can be used.</p>
+              <div class="arrow pack-arrow"></div>
+            </a>
+          </div>
+          <div class="col-md-6">
+            <a href="/citations/" class="pack-card">
+              <h4 class="pack-title">Explore Citations</h4>
+              <p>Or browse scientific publications that cited our packages.</p>
+              <div class="arrow pack-arrow"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>

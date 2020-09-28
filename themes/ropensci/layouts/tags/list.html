@@ -1,0 +1,60 @@
+{{ define "main" }}
+{{ $paginator := .Paginator }}
+<section class="section">
+  <div class="container">
+    <!-- Header text -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-md-8">
+            <h1>#{{ .Title | urlize }}</h1>
+          </div>
+          <div class="col-md-3">
+            <div class="text-md-right">
+              <a href="/rbloggers/index.xml" class="btn btn-primary">RSS</a>
+              <a href="/rbloggers/index.json" class="btn btn-primary">Json</a>
+            </div>
+          </div>
+        </div>
+
+        <section class="posts">
+          <div class="container">
+            <div class="row post-cards community-cards justify-content-between">
+              <div class="col-md-8">
+            {{ range $paginator.Pages }}
+           {{ .Render "post-complete-summary" }}
+            {{ end }}
+
+                
+
+                <div class="pagination d-flex category-pagination">
+                  <div class="pagination-item w-100">
+                    <div class="pagination-btns d-flex justify-content-between">
+              <p>Page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}</p>
+              {{ if $paginator.HasPrev }}
+              <a class="prev-btn m-0" href="{{ $paginator.Prev.URL }}">Prev</a>
+              {{ end }}
+              {{ if $paginator.HasNext }}
+              <a class="next-btn" href="{{ $paginator.Next.URL }}">Next</a>
+              {{ end }}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 d-none d-md-block">
+                <aside>
+                  <a href="/tags" class="arrow-card">Browse By Tag</a>
+                  <a href="/author" class="arrow-card">Browse By Author</a>
+                  <a href="/archive" class="arrow-card">All Posts</a>
+                </aside>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- Content here -->
+  </div>
+</section>
+{{ end }}

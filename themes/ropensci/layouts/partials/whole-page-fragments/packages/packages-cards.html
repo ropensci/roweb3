@@ -1,0 +1,36 @@
+{{ $columns := 3.0 }}
+{{ $resources := (where (where .Site.RegularPages "Section" "packages")  "Params.slug" "!=" "all" ) }}
+
+{{ $lenresources := (len $resources) }}
+
+{{ $lenresources := (len $resources) }}
+{{ $rows := div $lenresources $columns }}
+{{ $rows := math.Ceil $rows }}
+
+{{ range (seq 1 $rows) }}
+{{ $y := (add (mul (sub . 1)  3) 1)}}
+<div class="row packages">
+  {{ range (seq 1 $columns) }}
+    {{ $i := ( add . $y ) }}
+    {{ $i := (sub $i 2)}}
+    
+    {{ if (le $i (sub $lenresources 1)) }}
+     {{ $resourcesmember := (index $resources $i) }}
+     {{ with $resourcesmember }}
+<div class="col-md-4">
+            <div class="packages-item">
+            <a href="{{ .RelPermalink }}" class="packages-title">
+              {{ .Title }}</a>
+                <div class="packages-body">
+                  <p>{{ .Params.description }}</p>
+                <a class="link-arrow link-arrow-sm" href="/packages/{{ .Slug }}">View all packages </a>
+              </div>
+            
+          </div>
+          </div>
+          {{ end }}
+    {{ end }}
+  {{ end }}
+  </div>
+  
+{{ end }}

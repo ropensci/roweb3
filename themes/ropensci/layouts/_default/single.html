@@ -1,0 +1,26 @@
+{{ define "main" }}
+<section class="section section-generic">
+  <div class="container">
+    <!-- Header text -->
+    <div class="row">
+      <div class="col-md-8">
+        <h1>{{ .Title }}</h1>
+        {{ with .Params.subtitle }}<p class="subtitle"><strong>{{ . }}</strong></p>{{ end }}
+        <div class="content">
+          {{ .Content }}
+                      </div>
+      </div>
+    </div>
+    {{ $Site := .Site }}
+    {{ with .Params.elements }}
+      {{ range . }}
+        {{ partial . ( dict "Site" $Site ) }}
+      {{ end }}
+    {{ end }}
+
+    <!-- Content here -->
+  </div>
+</section>
+{{ partial "whole-page-fragments/newsletter"  (dict "divider" "lr" ) }}
+{{ partial "whole-page-fragments/brands" (dict "Site" .Site "divider" "rl" ) }}
+{{ end }}

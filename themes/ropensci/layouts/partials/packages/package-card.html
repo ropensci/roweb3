@@ -1,0 +1,55 @@
+{{ if (or ( ne .package.type "archived" ) ( or ( ne .package.onboarding "") ( eq .package.staff_maintained true ) )) }}
+<div class="category-card row align-items-center" data-status="{{ .package.type }}" data-keywords="{{ .package.keywords }}" id="{{ .package.name }}">
+  <div class="col-md-8 offset-lg-1">
+    <div class="category-card__heading">
+      <div class="d-flex align-items-center flex-wrap">
+        <div class="category-card__title">{{ .package.name }}</div>
+        {{ if eq .package.on_cran true }}
+        <a href="https://CRAN.R-project.org/package={{ .package.name }}" class="category-card__tag is-teal">CRAN</a>
+        {{ end }}
+        {{ if eq .package.on_bioc true }}
+        <a href="https://bioconductor.org/packages/{{ .package.name }}" class="category-card__tag is-teal">Bioconductor</a>
+        {{ end }}
+        {{ if ne .package.onboarding "" }}
+        <a href="{{ .package.onboarding }}" class="category-card__tag is-linear">Peer-reviewed</a>
+        {{ end }}
+        {{ if eq .package.staff_maintained true }}
+        <a href="/about/#team" class="category-card__tag is-maintain">Staff maintained</a>
+        {{ end }}
+      </div>
+      <p class="category-card__p">
+        {{ .package.description | replaceRE "\\'(.*?)\\'" "$1" }}
+      </p>
+    </div>
+  </div>
+  <div class="col-md-2 order-3 d-none d-md-block">
+    <div class="category-card__maintainer">
+      <div class="category-card__link-title">
+        Maintainer
+      </div>
+      {{ .package.maintainer }}
+    </div>
+  </div>
+  <div class="col-md-8 offset-lg-1 order-2 order-md-3 category-card__body">
+    <strong>Description</strong>
+    <p>
+      {{ .package.details | replaceRE "\\'(.*?)\\'" "$1" | markdownify }}
+    </p>
+    {{ with .citations }}
+    <strong>Scientific use cases</strong>
+    <ol>
+      {{ range . }}
+      <li>
+        {{ .citation | markdownify }}
+      </li>
+      {{ end }}
+    </ol>
+    {{ end }}
+    {{ if ne .package.type "archived" }}
+    <a class="btn btn-linear" href="https://docs.ropensci.org/{{ .package.name }}">View Documentation</a>
+    {{ else }}
+    <a class="btn btn-linear" href="{{ .package.url }}">View Source</a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

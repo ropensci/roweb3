@@ -1,0 +1,23 @@
+{{ define "main" }}
+<section class="section-package page-packages">
+      <div class="container bg-cubes">
+        <h1>Packages</h1>
+        <div class="row justify-content-between align-items-end">
+          <div class="col-md-8 subtitle-sm">
+            {{ .Content }}
+          </div>
+          <div class="col-md-3">
+            <a class="link-arrow package-cta" href="/packages/all"><span>View all packages</span></a>
+          </div>
+        </div>
+        <div class="row packages">
+        {{ range (where .Pages "Params.slug" "!=" "all" ) }}
+        {{ .Render "category-card" }}
+        {{ end }}
+        </div>
+      </div>
+    </section>
+{{ partial "whole-page-fragments/review"  (dict "divider" "rl" ) }}
+{{ partial "whole-page-fragments/volunteer"  (dict "divider" "lr" ) }}
+{{ partial "whole-page-fragments/brands" (dict "Site" .Site "divider" "rl" ) }}
+{{ end }}

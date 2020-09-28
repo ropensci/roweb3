@@ -1,0 +1,32 @@
+[
+{
+   "name": "NASA",
+   "img": "NASA_logo_gray.svg",
+   "url": ""
+},
+{
+   "name": "SCAR",
+   "img": "SCAR_logo_gray.svg",
+   "url": "https://www.scar.org/"
+},
+{
+   "name": "WHO",
+   "img": "Who_logo_gray.svg",
+   "url": ""
+},
+{
+   "name": "NOAA",
+   "img": "NOAA_logo_gray.svg",
+   "url": "https://www.noaa.gov/"
+},
+{
+   "name": "USGS",
+   "img": "USGS_logo_gray.svg",
+   "url": "https://www.usgs.gov/"
+},
+{
+   "name": "Fredhutch",
+   "img": "FredHutch-v-tag-4col_gray.svg",
+   "url": "https://www.fredhutch.org/"
+}
+]

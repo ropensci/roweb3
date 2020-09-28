@@ -1,0 +1,36 @@
+{{ define "main" }}
+    <section class="section section-generic">
+      <div class="container">
+        <!-- Header text -->
+        <div class="row">
+          <div class="col-md-8 software-content">
+            <h1>{{ .Title }}</h1>
+            {{ .Content }}
+          </div>
+        </div>
+
+        <h2 class="title mt-5">Resources</h2>
+        {{ partial "resources/resources-cards" (dict "resources" .Site.Data.resources.statsoftwarereview ) }}
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="row about-block">
+          <div class="col-md-3 text-md-right">
+            <h4 class="about-block__title" id="editors">
+              Our Advisory Board
+            </h4>
+          </div>
+          <div class="col-md-6 about-block__text">
+            <p>
+              Our advisory board members are volunteers.
+            </p>
+          </div>
+        </div>
+        {{ $editors := ( .Site.Data.team.statadvisors | shuffle )}}
+        {{ partial "whole-page-fragments/team/team-section" (dict "team" $editors)  }}
+        </div>
+        </section>
+{{ partial "whole-page-fragments/volunteer"  (dict "divider" "rl" ) }}
+{{ partial "whole-page-fragments/brands"  (dict "Site" .Site "divider" "lr" ) }}
+{{ end }}

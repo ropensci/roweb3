@@ -1,0 +1,15 @@
+[{{ $registry := getJSON "https://ropensci.github.io/roregistry/registry.json" }}
+{{ $Scratch := newScratch }}
+{{ if eq .Params.slug "all" }}
+{{ $Scratch.Set "pkgs" $registry.packages }}
+{{ else }}
+{{ $Scratch.Set "pkgs" ( where ($registry.packages) "ropensci_category" .Params.slug ) }}
+{{ end }}
+{{ $len := (len ($Scratch.Get "pkgs"))}}
+{{ range $key, $value := ($Scratch.Get "pkgs") }}
+{{ $maintainer := partial "accents/remove" (dict "string" $value.maintainer "Site" site )  }}
+{{ $details := partial "accents/remove" (dict "string" $value.details "Site" site )  }}
+{{ $keywords := partial "accents/remove" (dict "string" $value.keywords "Site" site )  }}
+ {{ dict "name" $value.name "maintainer" $maintainer "description" $value.description "details" $details "keywords" $keywords |  jsonify }}
+ {{ if (lt $key ( sub $len 1 ) )}}, {{ end }}
+ {{ end }}]

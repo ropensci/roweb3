@@ -1,0 +1,61 @@
+[
+{
+   "title": "contributing guide",
+   "text": "The purpose of this guide is to welcome you to rOpenSci and help you recognize yourself as a potential contributor.",
+   "url": "https://contributing.ropensci.org"
+},
+{
+   "title": "packages",
+   "text": "Software helping work with local and remote scientific data sources.",
+   "url": "/packages"
+},
+{
+   "title": "Package Use Cases",
+   "text": "Practical illustrations of our software in action",
+   "url": "/usecases/"
+},
+{
+   "title": "developer guide",
+   "text": "Our best practice guide for R package development and peer-review.",
+   "url": "https://devguide.ropensci.org"
+},
+{
+   "title": "Software Peer Review",
+   "text": "About our system for R package peer review.",
+   "url": "/software-review"
+},
+{
+   "title": "forum",
+   "text": " Ask and answer questions about our packages or resources; report use cases.",
+   "url": "https://discuss.ropensci.org"
+},
+{
+   "title": "Archive",
+   "text": "All our blog posts, community calls and tech notes in one place.",
+   "url": "/archive"
+},
+{
+   "title": "Community call archive",
+   "text": "All recordings from previous webinars.",
+   "url": "http://localhost:1313/commcalls/"
+},
+{
+   "title": "newsletter",
+   "text": "A regular digest of recent rOpenSci activities and updates.",
+   "url": "https://news.ropensci.org"
+},
+{
+   "title": "books",
+   "text": "E-books about our tooling",
+   "url": "https://books.ropensci.org"
+},
+{
+   "title": "talks and publications",
+   "text": "External communications about our work",
+   "url": "http://ropensci.org/talks-papers/"
+},
+{
+   "title": "Our blogging guide",
+   "text": "Guide for authors and editors of blog posts and tech notes for the rOpenSci website.",
+   "url": "http://blogguide.ropensci.org/"
+}]

@@ -1,0 +1,71 @@
+<section class="blog-post">
+<div class="container bg-cubes">
+  <div class="row content">
+    <div class="col-md-8">
+      <p class="post-date">{{ .Date.Format "January 2, 2006" }}</p>
+        <div class="content">
+          <h1>{{ .Title }}</h1>
+          <div class="post-author">
+          <span>
+          By
+          </span> 
+          {{ partial "blogs/pretty_author_names" .Params.author }}
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="row justify-content-between">
+    <div class="col-md-8">
+      <div class="content">
+           {{ if .Params.preface }}
+                <div class="alert alert-info" role="alert">{{ .Params.preface | markdownify }}</div>
+                {{ end }}
+        {{ .Content }}
+      </div>
+      
+      {{ partial "blogs/comments" (dict "Params" .Params "permalink" .Page.Permalink "year" (.Date.Format "2006") ) }}
+      </div>
+    <div class="col-md-2">
+      <div class="field-under">
+        <span>Filed under</span>
+        <ul class="post-tags">
+        {{ range .Params.tags }}
+          <li><a href="/tags/{{ . | urlize }}" class="tag">{{ . }}</a></li>
+        {{ end }}
+        </ul>
+      </div>
+      <div class="field-under mt-4">
+        <span>Share</span>
+        {{ partial "twitter/share-link" . }}
+        {{ partial "linkedin/share-link" . }}
+      </div>
+      <div class="field-under mt-4">
+        <span>Suggest an edit</span>
+        <a href="{{ partial "edit-link/edit-link" . }}" class="link external mt-2">Open a pull request <i class="fas fa-external-link-alt"></i></a>
+      </div>
+      <div class="field-under mt-4">
+        <span>Browse</span>
+        <a href="/tags" class="btn btn-share btn-twitter" >
+  <span class="btn-icon">
+    <i class="fas fa-tags"></i>
+  </span>
+  By Tag
+</a>
+        <a href="/author" class="btn btn-share btn-twitter" >
+  <span class="btn-icon">
+    <i class="fas fa-users"></i>
+  </span>
+  By Author
+</a>
+        <a href="/archive" class="btn btn-share btn-twitter" >
+  <span class="btn-icon">
+    <i class="fas fa-archive"></i>
+  </span>
+  All Posts
+</a>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ partial "whole-page-fragments/newsletter"  (dict "divider" "lr" ) }}

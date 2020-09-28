@@ -1,0 +1,17 @@
+{{ $Scratch := newScratch }}
+{{ $Scratch.Set "authors" . }}
+{{ if ne (substr (jsonify . ) 0 1) "[" }}
+{{ $Scratch.Set "authors" (slice . ) }}
+{{ end }}
+<!--  from https://github.com/rstudio/hugo-graphite/blob/95d14101a87f6394fdc8425d1d74e42c2fba4a63/layouts/partials/pretty_author_names.html#L1 -->
+<!-- based on author field being used in YAML frontmatter -->
+{{ range $index, $val := ($Scratch.Get "authors") }}
+  {{- $url := (. | replaceRE " " "-" ) -}}
+  {{- $url := ($url | replaceRE "\\)" "" ) -}}
+  {{- $url := ($url | replaceRE "\\(" "" ) -}}
+  {{- $url := ($url | replaceRE "'" "" ) -}}
+  {{- $profile_page := site.GetPage (printf "/%s/%s" "author" $url ) -}}
+  {{- $name := $profile_page.Params.name | default ($val | markdownify) -}}
+  {{- if gt $index 0 }}, {{ end -}}
+    <a href="{{$profile_page.RelPermalink}}">{{$name}}</a>
+{{- end -}}

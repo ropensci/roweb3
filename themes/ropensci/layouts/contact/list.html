@@ -1,0 +1,67 @@
+{{ define "main" }}
+<section class="section section-contact">
+    <div class="container bg-cubes">
+      <!-- Header text -->
+      <div class="row">
+        <div class="col-md-8 content">
+          <h1>{{ .Title }}</h1>
+          {{ .Content }}
+        </div>
+      </div>
+
+      <div class="row contact-form">
+        <div class="col-md-8">
+          <form id="contact-form"  action="https://formspree.io/info@ropensci.org" method="post">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="contact-name">Name</label>
+                <input
+                  type="text"
+                  placeholder="Enter your name"
+                  class="form-control"
+                  id="contact-name"
+                  name="name"
+                />
+              </div>
+              <div class="form-group col-md-6">
+                <label for="contact-email">Email Address</label>
+                <input
+                  type="text"
+                  placeholder="Enter your email"
+                  class="form-control"
+                  id="contact-email"
+                  name="email"
+                />
+                <div class="contact-email-error">
+                  Enter a valid email address
+                </div>
+              </div>
+            </div>
+            <div class="form-group mb-0">
+              <label for="contact-message">Message</label>
+              <textarea
+                class="form-control"
+                placeholder="Enter your email"
+                id="contact-message"
+                name="message"
+                rows="6"
+              ></textarea>
+            </div>
+
+            <button type="button" id="contact-submit" class="btn btn-linear">Send Message</button>
+          </form>
+        </div>
+        <div class="col-md-3 offset-md-1">
+          <aside>
+            <strong>Ask the community</strong>
+            <p class="mt-2">
+              We take pride in our active community, reach out and ask us anything.
+            </p>
+            <a class="link mt-4 d-block" href="https://discuss.ropensci.org" target="_blank">Technical questions about our software are welcome on our forum.</a>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ partial "whole-page-fragments/brands"  (dict "Site" .Site "divider" "rl" ) }}
+{{ end }}

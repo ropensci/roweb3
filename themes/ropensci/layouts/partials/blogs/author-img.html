@@ -1,0 +1,12 @@
+{{ if isset .Params "img" }}
+  {{ $src := print "/" .Params.img }}
+  {{ .Scratch.Set "src" $src }}
+{{ else if isset .Params "github" }}
+  {{ $src := print "https://github.com/" .Params.github }}
+  {{ $src := print $src ".png" }}
+  {{ .Scratch.Set "src" $src }}
+{{ else }}
+  {{ $number := (md5 .Params.name) }}
+  {{ .Scratch.Set "src" (print "https://avatars.dicebear.com/api/jdenticon/" $number ".svg?options[hues]=[214]&options[h]=50&options[w]=50" ) }}
+{{ end }}
+{{ return ( .Scratch.Get "src" ) }}
