@@ -3,7 +3,7 @@
 
 <!-- badges: start -->
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b0880db2-e54f-43f7-b759-a1616b9f651a/deploy-status)](https://app.netlify.com/sites/roweb3-hugo/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/53f54832-bf31-49a7-b9a7-4e63dfcfbd31/deploy-status)](https://app.netlify.com/sites/ropensci/deploys)
 <!-- badges: end -->
 
 The goal of roweb3 is to hold the source of rOpenSci website, 2020 edition.
