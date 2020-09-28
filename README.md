@@ -2,7 +2,7 @@
 # roweb3
 
 <!-- badges: start -->
-[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/53f54832-bf31-49a7-b9a7-4e63dfcfbd31/deploy-status)](https://app.netlify.com/sites/ropensci/deploys)
 <!-- badges: end -->
 

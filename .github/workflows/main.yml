@@ -1,0 +1,14 @@
+on:
+  schedule:
+    - cron:  '00 12 * * *'
+
+
+jobs:
+  build:
+    name: Build Website
+    runs-on: macOS-latest
+    steps:
+        
+      - name: Deploy to Netlify
+        run: curl -X POST -d {} ${{ secrets.NETLIFY_HOOK }}
+                
