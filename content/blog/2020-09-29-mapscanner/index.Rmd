@@ -208,7 +208,6 @@ idea. My own delineation of Dalston might look something like the following:
 {{< figure src = "dalston-bdry.png" width = "300" alt = "Subjective boundary of Dalston, UK" caption = "Subjective boundary of Dalston, UK" class = "center">}}
 -->
 
-![](dalston-bdry.png)
 
 That boundary that I drew by hand on top of the map can be immediately
 converted to a spatially rectified polygon via the [`ms_rectify_map()`
