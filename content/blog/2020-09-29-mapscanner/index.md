@@ -201,12 +201,12 @@ official boundaries](https://en.wikipedia.org/wiki/Dalston). (This has
 the effect that typing “Dalston” into your preferred online map service
 will generally return a single point, whereas typing in
 officially-recognized locations like neighboring or partially-enclosing
-“Hackey” will return a polygonal boundary.) Nevertheless, those for whom
+“Hackney” will return a polygonal boundary.) Nevertheless, those for whom
 Dalston is a part of their everyday life know where Dalston is. The
 problem is that each person has a slightly different idea. My own
 delineation of Dalston might look something like the following:
 
-{{< figure src = "dalston.png" width = "150" alt = "Subjective boundary of Dalston, UK" caption = "Subjective boundary of Dalston, UK">}}
+{{< figure src = "dalston-bdry.png" width = "150" alt = "Subjective boundary of Dalston, UK" caption = "Subjective boundary of Dalston, UK">}}
 
 That boundary that I drew by hand on top of the map can be immediately
 converted to a spatially rectified polygon via the [`ms_rectify_map()`
