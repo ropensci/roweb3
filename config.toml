@@ -26,7 +26,7 @@ rssLimit = 20
     rbloggers = ["blog", "technotes", "commcalls"]
     blogs = ["blog", "technotes"]
     events = ["events", "commcalls"]
-    githubsource = "https://github.com/rosadmin/roweb3/tree/main/content/"
+    githubsource = "https://github.com/ropensci/roweb3/tree/main/content/"
     
 
  
