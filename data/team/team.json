@@ -200,6 +200,18 @@
    "home": "https://melvidoni.rbind.io/"
 },
 {
+   "name": "Mauro Lepore",
+   "url": "https://maurolepore.github.io/",
+   "image" : "/img/team/mauro-lepore.jpg",
+   "affiliation" : "2 Degrees Investing Initiative",
+   "roles": [
+      "editor"
+   ],
+   "twitter": "mauro_lepore",
+   "github": "maurolepore", 
+   "home": "https://maurolepore.github.io/"
+},
+{
    "name": "Kelly Hondula",
    "url": "https://www.sesync.org/users/khondula",
    "image" : "/img/team/kelly-hondula.jpg",
