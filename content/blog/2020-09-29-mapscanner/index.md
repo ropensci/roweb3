@@ -283,5 +283,4 @@ particular through the insightful reviews of [Kelly
 Hondula](https://github.com/khondula) and [Nicholas
 Potter](author/nicholas-potter/). The contributions of co-author
 [Michael Sumner](author/michael-sumner) were particularly invaluable in
-the development were particularly invaluable in the development of the
-`ms_aggregate_polys()` function.
+the development of the `ms_aggregate_polys()` function.
