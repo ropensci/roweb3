@@ -91,7 +91,6 @@
 
 <!-- End Matomo Code -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="robots" content="noindex" />
     {{ $css := resources.Get "main.min.css" }}
 {{ $secureCSS := $css | resources.Fingerprint "sha512" }}
   <link href="{{ $secureCSS.Permalink }}" rel="stylesheet" integrity="{{ $secureCSS.Data.Integrity }}">
