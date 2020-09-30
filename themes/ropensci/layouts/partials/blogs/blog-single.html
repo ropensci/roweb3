@@ -1,7 +1,7 @@
 <section class="blog-post">
 <div class="container bg-cubes">
   <div class="row content">
-    <div class="col-md-8">
+    <div class="col-lg-9">
       <p class="post-date">{{ .Date.Format "January 2, 2006" }}</p>
         <div class="content">
           <h1>{{ .Title }}</h1>
@@ -15,7 +15,7 @@
     </div>
   </div>
   <div class="row justify-content-between">
-    <div class="col-md-8">
+    <div class="col-lg-9">
       <div class="content">
            {{ if .Params.preface }}
                 <div class="alert alert-info" role="alert">{{ .Params.preface | markdownify }}</div>
@@ -25,7 +25,7 @@
       
       {{ partial "blogs/comments" (dict "Params" .Params "permalink" .Page.Permalink "year" (.Date.Format "2006") ) }}
       </div>
-    <div class="col-md-2">
+    <div class="col-lg-3 pl-4">
       <div class="field-under">
         <span>Filed under</span>
         <ul class="post-tags">
