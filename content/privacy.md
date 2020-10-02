@@ -23,7 +23,7 @@ We may use publicly available data of the external online services in programmat
 Our websites are served by [Cloudflare](https://www.cloudflare.com/privacypolicy/).
 We use [Matomo](https://matomo.org/privacy-policy/) for analytics. Matomo uses cookies, but you can use this website when declining their installation. We set up Matomo for respecting DoNotTrack headers.
 
-### Matomo check-out
+### Matomo opt-out
 
 <iframe
         style="border: 0; height: 200px; width: 600px;"
