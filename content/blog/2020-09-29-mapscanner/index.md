@@ -207,7 +207,7 @@ Dalston is a part of their everyday life know where Dalston is. The
 problem is that each person has a slightly different idea. My own
 delineation of Dalston might look something like the following:
 
-{{< figure src = "dalston-bdry.png" width = "150" alt = "Subjective boundary of Dalston, UK" caption = "Subjective boundary of Dalston, UK">}}
+{{< figure src = "dalston-bdry.png" width = "150" alt = "Subjective boundary of Dalston, UK" caption = "Subjective boundary of Dalston, UK", class = "pull-right">}}
 
 That boundary that I drew by hand on top of the map can be immediately
 converted to a spatially rectified polygon via the [`ms_rectify_map()`
