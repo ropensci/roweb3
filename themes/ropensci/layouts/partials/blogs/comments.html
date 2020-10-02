@@ -11,6 +11,7 @@ group 3. posts we're trying to automate embeds for, no topicid and newer than 20
   <div id='discourse-comments'>
     <script type="text/javascript">
       DiscourseEmbed = { discourseUrl: 'https://discuss.ropensci.org/',
+        discourseReferrerPolicy: 'no-referrer-when-downgrade',
         topicId: {{ . }} };
       (function() {
         var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
@@ -24,6 +25,7 @@ group 3. posts we're trying to automate embeds for, no topicid and newer than 20
         <div id='discourse-comments'>
         <script type="text/javascript">
         DiscourseEmbed = { discourseUrl: 'https://discuss.ropensci.org/',
+          discourseReferrerPolicy: 'no-referrer-when-downgrade',
           discourseEmbedUrl: {{ .permalink | absURL }} };
         (function() {
           var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
