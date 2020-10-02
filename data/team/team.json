@@ -212,6 +212,17 @@
    "home": "https://maurolepore.github.io/"
 },
 {
+   "name": "Laura DeCicco",
+   "url": "https://github.com/ldecicco-USGS",
+   "image" : "/img/team/laura-decicco.jpg",
+   "affiliation" : "USGS",
+   "roles": [
+      "editor"
+   ],
+   "twitter": "DeCiccoDonk",
+   "github": "ldecicco-USGS"
+},
+{
    "name": "Kelly Hondula",
    "url": "https://www.sesync.org/users/khondula",
    "image" : "/img/team/kelly-hondula.jpg",
