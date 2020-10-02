@@ -240,7 +240,9 @@ object in which each component corresponds to the overlap of some number
 of individual polygons. The following figure shows an example of the output of
 [`ms_aggregate_polys()`](https://docs.ropensci.org/mapscanner/reference/ms_aggregate_polys.html).
 
+<!--html_preserve--> 
 {{< figure src = "poly-aggr-plot.png" width = "300" alt = "Polygons aggregated with ms_aggregate_polys" caption = "Polygons aggregated with ms_aggregate_polys" class = "center">}}
+<!--/html_preserve-->
 
 These aggregate multipolygons can then be analysed in any number of
 ways, such as in terms of relationships between area and degrees of
