@@ -41,11 +41,11 @@
             var didConsent = this.hasConsented()
             if (type === 'opt-in' && didConsent) {
                 // enable cookies
-                _paq.push(['rememberConsentGiven']);
+                _paq.push(['rememberCookieConsentGiven']);
             }
             if (type == 'opt-out' && !didConsent) {
                 // disable cookies
-                _paq.push(['forgetConsentGiven']);
+                _paq.push(['forgetCookieConsentGiven']);
             }
         },
 
@@ -54,11 +54,11 @@
             var didConsent = this.hasConsented()
             if (type === 'opt-in' && didConsent) {
                 // enable cookies
-                _paq.push(['rememberConsentGiven']);
+                _paq.push(['rememberCookieConsentGiven']);
             }
             if (type == 'opt-out' && !didConsent) {
                 // disable cookies
-                _paq.push(['forgetConsentGiven'], 24);
+                _paq.push(['forgetCookieConsentGiven'], 24);
             }
         },
 
@@ -66,11 +66,11 @@
             var type = this.options.type
             if (type === 'opt-in') {
                 // disable cookies
-                _paq.push(['forgetConsentGiven']);
+                _paq.push(['forgetCookieConsentGiven']);
             }
             if (type == 'opt-out' && !didConsent) {
                 // disable cookies
-                _paq.push(['forgetConsentGiven'], 24);
+                _paq.push(['forgetCookieConsentGiven'], 24);
             }
         }
     })
