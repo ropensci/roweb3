@@ -34,7 +34,7 @@ and "2019-06-04" to your publication date.
 
 Save this file under /content/blog/YYYY-MM-DD-slug/index.md in the local copy of your roweb2 fork.
 
-### Section heading in sentence case
+## Section heading in sentence case
 
 Citation of the primary literature[^1]. 
 
@@ -42,7 +42,7 @@ Citation of a website[^2].
 
 Citation of an R package[^3].
 
-#### Subsection heading
+### Subsection heading
 
 We recommend the use of [Hugo shortcodes](https://gohugo.io/content-management/shortcodes/) to include images, tweets, videos, gists, etc.
 
