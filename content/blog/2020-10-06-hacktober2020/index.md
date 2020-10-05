@@ -33,7 +33,7 @@ In 2019, 117 people made their first-ever GitHub commit to rOpenSci. We are exci
 
 ## Advice from maintainers in the rOpenSci community
 
-Our [Community Call on Maintaining an R Package](/blog/2020/07/14/commcall-maintaining-pkg/) was a panel discussion with maintainers of both very popular and niche packages talking in part about how they handle contributions. The [summary post](/blog/2020/07/14/commcall-maintaining-pkg/), by Janani Ravi([OPENED ISSUE](https://github.com/ropensci/roweb3/issues/41) - JANANI'S PAGE NOT ON AUTHORS LISTING) and [Steffi LaZerte](/author/steffi-lazerte/), is a goldmine of links to specific segments of the video and collaborative notes on responses to questions like:
+Our [Community Call on Maintaining an R Package](/blog/2020/07/14/commcall-maintaining-pkg/) was a panel discussion with maintainers of both very popular and niche packages talking in part about how they handle contributions. The [summary post](/blog/2020/07/14/commcall-maintaining-pkg/), by Janani Ravi(/author/janani-ravi/) and [Steffi LaZerte](/author/steffi-lazerte/), is a goldmine of links to specific segments of the video and collaborative notes on responses to questions like:
 - How do you manage issues and feature requests? What workflows do you use to do this? 
 - What is a path for new contributors to R packages? How can healthy norms be passed on? 
 - If I want to start with fixing an issue or contributing to a well-documented package, what are essential parts I should know?
