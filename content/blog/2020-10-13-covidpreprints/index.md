@@ -51,7 +51,7 @@ Here is a quick rundown of our update process:
 
 The website is then automatically rebuilt and deployed each night with [pkgdown](https://pkgdown.r-lib.org/) and GitHub actions[^1]. The use of pkgdown on GitHub pages greatly reduced the need for complex tools such as shiny, and the necessity of a custom server. We believe this is an important step for the project long-term sustainability and to ease re-use of our code in other contexts.
 
-[^1]: thanks to [Maëlle Salmon](https://ropensci.org/author/ma%C3%ABlle-salmon/) & [Steph Locke](https://ropensci.org/author/stephanie-locke/) for the inspiration here with their workflow at <https://lockedata.github.io/cransays/>
+[^1]: thanks to [Maëlle Salmon](/author/ma%C3%ABlle-salmon/) & [Steph Locke](/author/stephanie-locke/) for the inspiration here with their workflow at <https://lockedata.github.io/cransays/>
 
 {{< figure src = "logos.png" width = "300" alt = "Graphical representation of the automated workflow set up during the sprint" caption = "Having a scalable workflow allowed us to better crowdsource suggestions of preprints to feature." class = "center">}}
 
