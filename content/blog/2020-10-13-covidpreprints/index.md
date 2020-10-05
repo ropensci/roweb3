@@ -12,12 +12,8 @@ tags:
   - preprint
   - scholarly-literature
   - altmetrics
-# The summary below will be used by e.g. Twitter cards
-description: "A very short summary of your post (~ 100 characters)"
-# If you have no preferred image for Twitter cards, 
-# delete the twitterImg line below
-# Note there is no '/' symbol before 'img' here
-# if needed replace blog with technotes
+description: "rOpenSci's europepmc and rAltmetric packages are used to auto-update
+the covidpreprints.com daily."
 twitterImg: blog/2020-10-13-covidpreprints/logo.png
 ---
 
