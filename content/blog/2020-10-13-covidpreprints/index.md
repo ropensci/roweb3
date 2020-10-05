@@ -24,7 +24,7 @@ At the eLife Sprint in September 2020, we revamped our website [covidpreprints.c
 The ongoing COVID-19 pandemic has led to over 32 million confirmed cases and almost a million deaths worldwide. The looming spectre of a second wave of the pandemic has spurred around-the-clock research efforts to better understand the pathology and epidemiology of the virus, in the hope of new therapies and vaccines.
 And while novel scientific information about the pandemic and the virus was coming out at an unprecedented rate in the form of preprints, it was becoming difficult to get an accurate and global vision of this information.
 
-{{< figure src = "preprints-plot.png" width = "300" alt = "Number of COVID-19 preprints posted on bioRxiv and medRxiv over time" caption = "Number of COVID-related preprints per day on the bioRxiv and medRxiv preprint platforms. The daily number of new preprints sometimes exceeded 150." class = "center">}}
+{{< figure src = "preprints-plot.png" width = "600" alt = "Number of COVID-19 preprints posted on bioRxiv and medRxiv over time" caption = "Number of COVID-related preprints per day on the bioRxiv and medRxiv preprint platforms. The daily number of new preprints sometimes exceeded 150." class = "center">}}
 
 As a response to this explosive growth of COVID-related preprints, a small group of scientists from [preLights](https://prelights.biologists.com/) published a list of important preprints, each accompanied by a short summary. The list quickly evolved into a full-fledged website: [covidpreprints.com](https://covidpreprints.com/), with a timeline featuring side-by-side landmark preprints and key events in the pandemic.
 
