@@ -14,7 +14,7 @@ description: How to find and contribute to help wanted issues in rOpenSci packag
 
 The title of this post refers to Hacktoberfest, a month-long event organized annually by Digital Ocean to encourage contributions to open source projects on GitHub. 
 Unfortunately, this October, many maintainers are dealing with [spam pull requests](https://blog.domenic.me/hacktoberfest/). 
-So instead of issuing a general appeal to participate, we're pointing you our new Community Contributing Guide's section dedicated to our open [Issues List](https://contributing.ropensci.org/resources.html#issues).
+So instead of issuing a general appeal to participate, we're pointing you our new [Community Contributing Guide](https://contributing.ropensci.org/)'s section dedicated to our open [Issues List](https://contributing.ropensci.org/resources.html#issues).
 Along with showing you how to find help wanted issues in rOpenSci packages, it provides suggestions on etiquette to maximize the chances that your effort will be appreciated by a maintainer.  
 
 In 2019, 117 people made their first-ever rOpenSci GitHub commit (footnote clarify "to the rOpenSci GitHub organization"?). We welcome code and non-code contributions from new and more seasoned coders at any career stage, and in any sector. 
@@ -41,4 +41,3 @@ Our [Community Call on Maintaining an R Package](/blog/2020/07/14/commcall-maint
 ## January to December
 
 Any month is a good month to contribute to rOpenSci! Find out where your personal motivations to contribute align with our mission and our community values, and choose your path through the [rOpenSci Community Contributing Guide](https://contributing.ropensci.org/).
-
