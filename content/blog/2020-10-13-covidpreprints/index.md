@@ -36,7 +36,7 @@ But the team quickly faced a new problem: even the list of carefully selected pr
 
 ### The makeover during eLife Sprint 2020
 
-The [eLife Sprint 2020](https://sprint.elifesciences.org/), an annual hackathon gathering various stakeholders of the research community -- researchers, publishers, and software developers, among others -- provided the perfect opportunity to try and design a more scalable, and re-usable, workflow. We identified two goals at the start of the pre-print:
+The [eLife Sprint 2020](https://sprint.elifesciences.org/), an annual hackathon gathering various stakeholders of the research community -- researchers, publishers, and software developers, among others -- provided the perfect opportunity to try and design a more scalable, and re-usable, workflow. A small team quickly came together to work on this project: Jonny Coates, Zhang-He Goh, Hugo Gruson, Chris Huggins, Allan Ochola, Bruno Paranhos & Michael Parkin. We identified two goals at the start of the pre-print:
 
 - we would design a more ergonomic, less cluttered, and responsive interface that would be usable on various screen sizes (including mobile phones).
 - we would also automate the update process, thus reducing the required amount of human input.
@@ -69,6 +69,10 @@ Alongside these under-the-hood changes, the project also went through a complete
 We were also rewarded with some cool new ideas moving forward with the project. In addition to expanding our sources by including more scientific communities and crowdsourced reviews from [Outbreak Science PREreview](https://outbreaksci.prereview.org) on our website, we would also love to introduce preprint clustering, grouping preprints into themes that thread around them.
  
 Experts from all around the world are asking, “What have we learnt from this pandemic?” As advocates of preprints and open science, we are constantly mindful about how our project would remain relevant for years to come—in a future post-COVID-19. We hope that our website, with its new simplified workflow, will continue to serve as a set of tools that can be easily re-purposed to meet the next healthcare challenge: be it another infectious disease crisis or one that is caused by long-drawn, chronic disease. To facilitate re-use of the project and improve long-term sustainability, we have drafted a [maintenance document in the GitHub repository](https://github.com/coatesj/covidpreprints/wiki/Maintenance-guide), which contains more technical information. 
+
+### Acknowledgments
+
+We'd like to thank both the original preLights team: Gautam Dey, Srivats Venkataramanan, Sundar Naganathan, Debbie Ho, Zhang-He Goh, Kirsty Hooper, Lars Hubatsch, Mariana De Niz, Sejal Davla, Mate Palfy & Jonny Coates, as well as the eLife Sprint team: Michael Parkin, Hugo Gruson, Chris Huggins, Bruno Paranhos & Allan Ochola.
 
 ### Conclusion
 
