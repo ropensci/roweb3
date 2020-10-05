@@ -1,0 +1,75 @@
+---
+slug: "covidpreprints"
+title: "Covidpreprints.com: Website Update Automation with the europepmc and rAltmetric packages"
+author:
+  - Zhang-He Goh
+  - Hugo Gruson
+date: 2020-03-10
+tags:
+  - R
+  - community
+  - open-science
+  - preprint
+  - scholarly-literature
+  - altmetrics
+# The summary below will be used by e.g. Twitter cards
+description: "A very short summary of your post (~ 100 characters)"
+# If you have no preferred image for Twitter cards, 
+# delete the twitterImg line below
+# Note there is no '/' symbol before 'img' here
+# if needed replace blog with technotes
+twitterImg: blog/2020-10-13-covidpreprints/logo.png
+---
+
+At the eLife Sprint in September 2020, we revamped our website [covidpreprints.com](https://covidpreprints.com/), which aims at featuring landmark preprints on a timeline of the pandemic. 
+ 
+### The birth of the project
+
+The ongoing COVID-19 pandemic has led to over 32 million confirmed cases and almost a million deaths worldwide. The looming spectre of a second wave of the pandemic has spurred around-the-clock research efforts to better understand the pathology and epidemiology of the virus, in the hope of new therapies and vaccines.
+And while novel scientific information about the pandemic and the virus was coming out at an unprecedented rate in the form of preprints, it was becoming difficult to get an accurate and global vision of this information.
+
+{{< figure src = "preprints-plot.png" width = "300" alt = "Number of COVID-19 preprints posted on bioRxiv and medRxiv over time" caption = "Number of COVID-related preprints per day on the bioRxiv and medRxiv preprint platforms. The daily number of new preprints sometimes exceeded 150." class = "center">}}
+
+As a response to this explosive growth of COVID-related preprints, a small group of scientists from [preLights](https://prelights.biologists.com/) published a list of important preprints, each accompanied by a short summary. The list quickly evolved into a full-fledged website: [covidpreprints.com](https://covidpreprints.com/), with a timeline featuring side-by-side landmark preprints and key events in the pandemic.
+
+But the team quickly faced a new problem: even the list of carefully selected preprints was becoming too long. This resulted in a cluttered interface that was difficult to navigate. Besides, the process to fetch the information related to each preprint (DOI, author names, link, etc.) was tedious and menial, which led to less frequent updates.
+
+### The makeover during eLife Sprint 2020
+
+The [eLife Sprint 2020](https://sprint.elifesciences.org/), an annual hackathon gathering various stakeholders of the research community -- researchers, publishers, and software developers, among others -- provided the perfect opportunity to try and design a more scalable, and re-usable, workflow. We identified two goals at the start of the pre-print:
+
+- we would design a more ergonomic, less cluttered, and responsive interface that would be usable on various screen sizes (including mobile phones).
+- we would also automate the update process, thus reducing the required amount of human input.
+
+Fortunately, we identified a significant part of the process that could be automated by fetching information from the Europe PMC API. More precisely, this could be done directly in R with a single function call, thanks to rOpenSci's [europepmc](https://docs.ropensci.org/europepmc/) package.
+
+Here is a quick rundown of our update process:
+
+1. Get the list of pre-print DOIs from the google sheet with the [googlesheets4](https://googlesheets4.tidyverse.org/) package
+1. Fetch the pre-print title, list of authors, link, and, if it has been reviewed and published, the journal name, using the europepmc package
+1. Get the altmetric score of each publication with the [rAltmetric](https://docs.ropensci.org/rAltmetric/) package 
+
+The website is then automatically rebuilt and deployed each night with [pkgdown](https://pkgdown.r-lib.org/) and GitHub actions[^1]. The use of pkgdown on GitHub pages greatly reduced the need for complex tools such as shiny, and the necessity of a custom server. We believe this is an important step for the project long-term sustainability and to ease re-use of our code in other contexts.
+
+[^1]: thanks to [Maëlle Salmon](https://ropensci.org/author/ma%C3%ABlle-salmon/) & [Steph Locke](https://ropensci.org/author/stephanie-locke/) for the inspiration here with their workflow at <https://lockedata.github.io/cransays/>
+
+{{< figure src = "logos.png" width = "300" alt = "Graphical representation of the automated workflow set up during the sprint" caption = "Having a scalable workflow allowed us to better crowdsource suggestions of preprints to feature." class = "center">}}
+
+
+This scalable workflow allows us to focus on the scientific side of the process: select and highlight chosen preprints to track the progress of our knowledge on COVID-19. This also unlocks the ability to crowdsource reviews or suggestions for landmark preprints. Now, any netizen can nominate a preprint [via this google form](https://docs.google.com/forms/d/e/1FAIpQLSfRuZegczktW7SCmkopVZLNL7k0IHrEuoPRdAn6czTNxkM_xQ/viewform).
+
+Alongside these under-the-hood changes, the project also went through a complete design makeover, because we believe it is important to make this information easy to read and understand for everybody. This work mainly resulted in a new logo for the project and a fresh design for the timeline.
+
+{{< figure src = "logos.png" width = "300" alt = "Presentation of the candidate logos produced during the sprint" caption = "Some logos that we considered (the middle one was selected). Note the resemblance to the preLights logo (bottom)." class = "center">}}
+
+{{< figure src = "timeline-comparison.png" width = "300" alt = "Comparison of the previous (cluttered) timeline with the new, more streamlined one" caption = "The timeline before the sprint (top) vs the timeline now (bottom)" class = "center">}}
+
+### Future perspectives
+
+We were also rewarded with some cool new ideas moving forward with the project. In addition to expanding our sources by including more scientific communities and crowdsourced reviews from [Outbreak Science PREreview](https://outbreaksci.prereview.org) on our website, we would also love to introduce preprint clustering, grouping preprints into themes that thread around them.
+ 
+Experts from all around the world are asking, “What have we learnt from this pandemic?” As advocates of preprints and open science, we are constantly mindful about how our project would remain relevant for years to come—in a future post-COVID-19. We hope that our website, with its new simplified workflow, will continue to serve as a set of tools that can be easily re-purposed to meet the next healthcare challenge: be it another infectious disease crisis or one that is caused by long-drawn, chronic disease. To facilitate re-use of the project and improve long-term sustainability, we have drafted a [maintenance document in the GitHub repository](https://github.com/coatesj/covidpreprints/wiki/Maintenance-guide), which contains more technical information. 
+
+### Conclusion
+
+This project illustrates what can be achieved when different communities focused on various aspects of Open Science intercept: preLights came up with the original idea and maintains the website content, rOpenSci provided packages to perform otherwise difficult and menial tasks in just a couple of code lines, and finally eLife brought all these people together. We are truly amazed at how much was accomplished in a very short amount of time due to the great complementarity of skills of people from the different communities!
