@@ -4,7 +4,7 @@ title: "Covidpreprints.com: Website Update Automation with the europepmc and rAl
 author:
   - Zhang-He Goh
   - Hugo Gruson
-date: 2020-03-10
+date: 2020-10-13
 tags:
   - R
   - community
