@@ -17,7 +17,7 @@ Unfortunately, this October, many maintainers are dealing with [spam pull reques
 So instead of issuing a general appeal to participate, we're pointing you our new [Community Contributing Guide](https://contributing.ropensci.org/)'s section dedicated to our open [Issues List](https://contributing.ropensci.org/resources.html#issues).
 Along with showing you how to find help wanted issues in rOpenSci packages, it provides suggestions on etiquette to maximize the chances that your effort will be appreciated by a maintainer.  
 
-In 2019, 117 people made their first-ever rOpenSci GitHub commit (footnote clarify "to the rOpenSci GitHub organization"?). We welcome code and non-code contributions from new and more seasoned coders at any career stage, and in any sector. 
+In 2019, 117 people made their first-ever GitHub commit to rOpenSci. We are excited to welcome code and non-code contributions from new and more seasoned coders at any career stage, and in any sector. 
 
 ## For package authors 
 
