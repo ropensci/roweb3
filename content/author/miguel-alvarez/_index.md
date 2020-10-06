@@ -1,5 +1,5 @@
 ---
 name: Miguel Alvarez
-github: taxlist
+github: kamapu
 link: https://kamapu.github.io/
 ---
