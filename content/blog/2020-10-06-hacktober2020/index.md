@@ -14,15 +14,15 @@ description: How to find and contribute to help wanted issues in rOpenSci packag
 
 The title of this post refers to Hacktoberfest, a month-long event organized annually by Digital Ocean to encourage contributions to open source projects on GitHub. 
 Unfortunately, this October, many maintainers are dealing with [spam pull requests](https://blog.domenic.me/hacktoberfest/). 
-So instead of issuing a general appeal to participate, we're pointing you our new [Community Contributing Guide](https://contributing.ropensci.org/)'s section dedicated to our open [Issues List](https://contributing.ropensci.org/resources.html#issues).
+So instead of issuing a general appeal to participate, we're pointing you t our new [Community Contributing Guide](https://contributing.ropensci.org/)'s section dedicated to our open [Issues List](https://contributing.ropensci.org/resources.html#issues).
 Along with showing you how to find help wanted issues in rOpenSci packages, it provides suggestions on etiquette to maximize the chances that your effort will be appreciated by a maintainer.  
 
 In 2019, 117 people made their first-ever GitHub commit to rOpenSci. We are excited to welcome code and non-code contributions from new and more seasoned coders at any career stage, and in any sector. 
 
 ## For package authors 
 
-- **Make your project collaboration friendly** by including a [code of conduct](https://devguide.ropensci.org/collaboration.html#code-of-conduct) and a brief contributing guide that tells people how you would like them to interact with your project.
-- **Label your issues** so people interested in contributing can find them. We recommend `help wanted` (no hyphen), and where appropriate `good first issue`, or `beginner`.
+- **Make your project collaboration friendly** by including a [code of conduct](https://devguide.ropensci.org/collaboration.html#code-of-conduct) and a brief [contributing guide](https://devguide.ropensci.org/collaboration.html#friendlyfiles) that tells people how you would like them to interact with your project.
+- **Label your issues** so people interested in contributing can find them. We recommend [`help wanted`](https://github.com/search?q=org%3Aropensci+label%3A%22help+wanted%22+state%3Aopen&type=Issues) (no hyphen), and where appropriate [`good first issue`](https://github.com/search?q=org%3Aropensci+label%3A%22good+first+issue%22+state%3Aopen&type=Issues), [`documentation`](https://github.com/search?q=org%3Aropensci+label%3A%22documentation%22+state%3Aopen&type=Issues).
 - **Include future plans for your package** in the README and open issues to address aspects of your plan.
 
 
