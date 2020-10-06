@@ -25,7 +25,7 @@ At the eLife Sprint in September 2020, we revamped our website [covidpreprints.c
 The ongoing COVID-19 pandemic has led to about 35 million confirmed cases and over a million deaths worldwide. The looming spectre of a second wave of the pandemic has spurred around-the-clock research efforts to better understand the pathology and epidemiology of the virus, in the hope of new therapies and vaccines.
 And while novel scientific information about the pandemic was being share at an unprecedented rate in the form of preprints[^1], it was becoming difficult to get an accurate, trustworthy record of this information.
 
-[^2]: Fraser, N., Brierley, L., Dey, G., Polka, J. K., Pálfy, M., Nanni, F., & Coates, J. A. (2020). Preprinting the COVID-19 pandemic. doi:[10.1101/2020.05.22.111294](https://doi.org/10.1101/2020.05.22.111294)
+[^1]: Fraser, N., Brierley, L., Dey, G., Polka, J. K., Pálfy, M., Nanni, F., & Coates, J. A. (2020). Preprinting the COVID-19 pandemic. doi:[10.1101/2020.05.22.111294](https://doi.org/10.1101/2020.05.22.111294)
 
 {{< figure src = "preprints-plot.png" width = "600" alt = "Number of COVID-19 preprints posted on bioRxiv and medRxiv over time" caption = "Number of COVID-related preprints per day on the bioRxiv and medRxiv preprint platforms. The daily number of new preprints sometimes exceeded 150." class = "center">}}
 
