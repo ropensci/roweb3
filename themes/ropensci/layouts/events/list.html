@@ -5,7 +5,7 @@
     <section class="section event-hero">
       <div class="container bg-cubes">
         <div class="row">
-           {{ range first 1 $featured.ByDate }}
+           {{ range first 1 $featured.ByDate.Reverse }}
           {{ .Render "featured-event-card" }}
           {{ end }}
         </div>

@@ -1,6 +1,6 @@
 {{ $pages := (where ( where .Site.RegularPages "Type" "in" .Site.Params.events ) ".Date" ">=" now.UTC ) }}
 <div class="event-cards">
-{{ range $pages }}
+{{ range $pages.Reverse }}
 <div class="event-card">
   <div class="event-body">
     <img {{ if eq .Type "events" }}src="/images/svg/calendart.svg"{{ else }}src="/images/svg/event.svg"{{ end }} alt="" class="event-img" />
