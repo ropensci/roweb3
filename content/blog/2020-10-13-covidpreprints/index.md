@@ -59,9 +59,9 @@ This scalable workflow allows us to focus on the scientific side of the process:
 
 Alongside these under-the-hood changes, the project also went through a complete design makeover, because we believe it is important to make this information easy to read and understand for everybody. This work mainly resulted in a new logo for the project and a fresh design for the timeline.
 
-{{< figure src = "logo_selection.png" width = "300" alt = "Presentation of the candidate logos produced during the sprint" caption = "Some logos that we considered (the middle one was selected). Note the resemblance to the preLights logo (bottom)." class = "center">}}
+{{< figure src = "logo_selection.png" width = "600" alt = "Presentation of the candidate logos produced during the sprint" caption = "Some logos that we considered (the middle one was selected). Note the resemblance to the preLights logo (bottom)." class = "center">}}
 
-{{< figure src = "timeline_comparison.png" width = "300" alt = "Comparison of the previous (cluttered) timeline with the new, more streamlined one" caption = "The timeline before the sprint (top) vs the timeline now (bottom)" class = "center">}}
+{{< figure src = "timeline_comparison.png" width = "100%" alt = "Comparison of the previous (cluttered) timeline with the new, more streamlined one" caption = "The timeline before the sprint (top) vs the timeline now (bottom)" class = "center">}}
 
 ### Future perspectives
 
