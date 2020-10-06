@@ -40,4 +40,26 @@
    ],
    "twitter": "topepos",
    "home": "http://appliedpredictivemodeling.com/"
+},
+{
+   "name": "Paula Moraga",
+   "affiliation": "King Abdullah University of Science and Technology",
+   "url": "http://www.paulamoraga.com/",
+   "image": "/img/team/paula-moraga.jpg",
+   "roles": [
+      "advisor"
+   ],
+   "twitter": "Paula_Moraga_",
+   "home": "http://www.paulamoraga.com/"
+},
+{
+   "name": "Leonardo Collado-Torres",
+   "affiliation": "Lieber Institute for Brain Development",
+   "url": "http://lcolladotor.github.io",
+   "image": "/img/team/leo-torres.png",
+   "roles": [
+      "advisor"
+   ],
+   "twitter": "lcolladotor",
+   "home": "http://lcolladotor.github.io"
 }]
