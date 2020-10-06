@@ -3,6 +3,7 @@ slug: "covidpreprints"
 title: "Covidpreprints.com: Website Update Automation with the europepmc and rAltmetric packages"
 author:
   - Zhang-He Goh
+  - Jonny Coates
   - Hugo Gruson
 date: 2020-10-13
 tags:
@@ -21,8 +22,10 @@ At the eLife Sprint in September 2020, we revamped our website [covidpreprints.c
  
 ### The birth of the project
 
-The ongoing COVID-19 pandemic has led to over 32 million confirmed cases and almost a million deaths worldwide. The looming spectre of a second wave of the pandemic has spurred around-the-clock research efforts to better understand the pathology and epidemiology of the virus, in the hope of new therapies and vaccines.
-And while novel scientific information about the pandemic and the virus was coming out at an unprecedented rate in the form of preprints, it was becoming difficult to get an accurate and global vision of this information.
+The ongoing COVID-19 pandemic has led to about 35 million confirmed cases and over a million deaths worldwide. The looming spectre of a second wave of the pandemic has spurred around-the-clock research efforts to better understand the pathology and epidemiology of the virus, in the hope of new therapies and vaccines.
+And while novel scientific information about the pandemic was being share at an unprecedented rate in the form of preprints[^1], it was becoming difficult to get an accurate, trustworthy record of this information.
+
+[^2]: Fraser, N., Brierley, L., Dey, G., Polka, J. K., Pálfy, M., Nanni, F., & Coates, J. A. (2020). Preprinting the COVID-19 pandemic. doi:[10.1101/2020.05.22.111294](https://doi.org/10.1101/2020.05.22.111294)
 
 {{< figure src = "preprints-plot.png" width = "600" alt = "Number of COVID-19 preprints posted on bioRxiv and medRxiv over time" caption = "Number of COVID-related preprints per day on the bioRxiv and medRxiv preprint platforms. The daily number of new preprints sometimes exceeded 150." class = "center">}}
 
@@ -41,13 +44,13 @@ Fortunately, we identified a significant part of the process that could be autom
 
 Here is a quick rundown of our update process:
 
-1. Get the list of pre-print DOIs from the google sheet with the [googlesheets4](https://googlesheets4.tidyverse.org/) package
-1. Fetch the pre-print title, list of authors, link, and, if it has been reviewed and published, the journal name, using the europepmc package
+1. Get the list of preprint DOIs from a google sheet with the [googlesheets4](https://googlesheets4.tidyverse.org/) package
+1. Fetch the preprint title, list of authors, link, and, if it has been reviewed and published, the journal name, using the europepmc package
 1. Get the altmetric score of each publication with the [rAltmetric](https://docs.ropensci.org/rAltmetric/) package 
 
-The website is then automatically rebuilt and deployed each night with [pkgdown](https://pkgdown.r-lib.org/) and GitHub actions[^1]. The use of pkgdown on GitHub pages greatly reduced the need for complex tools such as shiny, and the necessity of a custom server. We believe this is an important step for the project long-term sustainability and to ease re-use of our code in other contexts.
+The website is then automatically rebuilt and deployed each night with [pkgdown](https://pkgdown.r-lib.org/) and GitHub actions[^2]. The use of pkgdown on GitHub pages greatly reduces the need for complex tools such as shiny, and the necessity of a custom server. We believe this is an important step for the project's long-term sustainability and to ease re-use of our code in other contexts.
 
-[^1]: thanks to [Maëlle Salmon](/author/ma%C3%ABlle-salmon/) & [Steph Locke](/author/stephanie-locke/) for the inspiration here with their workflow at <https://lockedata.github.io/cransays/>
+[^2]: thanks to [Maëlle Salmon](/author/ma%C3%ABlle-salmon/) & [Steph Locke](/author/stephanie-locke/) for the inspiration here with their workflow at <https://lockedata.github.io/cransays/>
 
 {{< figure src = "workflow.png" width = "600" alt = "Graphical representation of the automated workflow set up during the sprint" caption = "Having a scalable workflow allowed us to better crowdsource suggestions of preprints to feature." class = "center">}}
 
@@ -62,9 +65,9 @@ Alongside these under-the-hood changes, the project also went through a complete
 
 ### Future perspectives
 
-We were also rewarded with some cool new ideas moving forward with the project. In addition to expanding our sources by including more scientific communities and crowdsourced reviews from [Outbreak Science PREreview](https://outbreaksci.prereview.org) on our website, we would also love to introduce preprint clustering, grouping preprints into themes that thread around them.
+We were also rewarded with some exciting new ideas moving forward with the project. In addition to expanding our sources by including more scientific communities and crowdsourced reviews from [Outbreak Science PREreview](https://outbreaksci.prereview.org) on our website, we would also love to introduce preprint clustering, grouping preprints into themes that thread around them.
  
-Experts from all around the world are asking, “What have we learnt from this pandemic?” As advocates of preprints and open science, we are constantly mindful about how our project would remain relevant for years to come—in a future post-COVID-19. We hope that our website, with its new simplified workflow, will continue to serve as a set of tools that can be easily re-purposed to meet the next healthcare challenge: be it another infectious disease crisis or one that is caused by long-drawn, chronic disease. To facilitate re-use of the project and improve long-term sustainability, we have drafted a [maintenance document in the GitHub repository](https://github.com/coatesj/covidpreprints/wiki/Maintenance-guide), which contains more technical information. 
+Experts from all around the world are asking, “What have we learnt from this pandemic?” As advocates of preprints and open science, we are constantly mindful about how our project would remain relevant for years to come—in a future post-COVID-19. We hope that our website, with its new simplified workflow, will continue to serve as a set of tools that can be easily re-purposed to meet the next healthcare challenge and further combat misinformation: be it another infectious disease crisis or one that is caused by long-drawn, chronic disease. To facilitate re-use of the project and improve long-term sustainability, we have drafted a [maintenance document in the GitHub repository](https://github.com/coatesj/covidpreprints/wiki/Maintenance-guide), which contains more technical information. 
 
 ### Acknowledgments
 
