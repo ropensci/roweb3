@@ -16,12 +16,12 @@ tags:
   - packages
   - R
   - community
-# the summary below will be used by e.g. Twitter cards
+# The summary below will be used by e.g. Twitter cards
 description: "A very short summary of your post (~ 100 characters)"
 # If you have no preferred image for Twitter cards,
 # delete the twitterImg line below 
-# Note there is no '/' symbol before 'img' here
-# if needed replace blog with technotes
+# - Replace "blog" with "technotes" as needed
+# - Note "/" between year/month/day
 twitterImg: blog/2019/06/04/post-template/name-of-image.png
 # 'output' is necessary to obtain index.md
 # Do not commit index.html
@@ -86,7 +86,7 @@ knitr::knit_hooks$set(
 
 The figure paths in the resulting Markdown will already be valid so you won't need to edit the Markdown file.
 
-### Section heading in sentence case
+## Section heading in sentence case
 
 Citation of the primary literature[^1]. 
 
@@ -94,7 +94,7 @@ Citation of a website[^2].
 
 Citation of an R package[^3].
 
-#### Subsection heading
+### Subsection heading
 
 We recommend the use of [Hugo shortcodes](https://gohugo.io/content-management/shortcodes/) to include images, tweets, videos, gists, etc. In the Rmd file they need to be between `<!--html_preserve-->` and `<!--/html_preserve-->`.
 
