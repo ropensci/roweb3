@@ -28,7 +28,9 @@ In 2019, 117 people made their first-ever GitHub commit to rOpenSci. We are exci
 
 ## For potential contributors
 
-- **Address a “Help wanted” issue**. Take a look at the [Issues List](https://github.com/search?q=org%3Aropensci+label%3A%22help+wanted%22+state%3Aopen&type=Issues). If you see one that interests you, take a look at the project’s contributing guide, then comment in the issue to discuss your approach with the author. Create a [pull request](#channels-github) and submit your solution.
+Many of our packages are developed by people working in research environments where software development is a voluntary, side project. Don’t be discouraged if you don’t get an immediate response. It will depend on the popularity of a package and whether maintaining it is part of a person’s “day job”.
+
+- **Address a “Help wanted” issue**. Take a look at the [Issues List](https://github.com/search?q=org%3Aropensci+label%3A%22help+wanted%22+state%3Aopen&type=Issues). If you see one that interests you, take a look at the project’s contributing guide, then comment in the issue to discuss your approach with the maintainer. Once your proposed plan is accepted, reate a [pull request](#channels-github) and submit your solution.
 - **Address any open issue.** The majority of [issues](https://github.com/search?q=org%3Aropensci+state%3Aopen&type=Issues) are not labeled “help wanted” but that doesn’t mean the author wouldn’t appreciate your help. Browse the issues in a package you use and see if there’s one you could address. This is a great way to get your favorite packages work the way you want them to!
 
 ## Advice from maintainers in the rOpenSci community
