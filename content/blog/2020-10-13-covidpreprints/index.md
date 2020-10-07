@@ -72,10 +72,11 @@ We were also rewarded with some exciting new ideas moving forward with the proje
  
 Experts from all around the world are asking, “What have we learnt from this pandemic?” As advocates of preprints and open science, we are constantly mindful about how our project would remain relevant for years to come—in a future post-COVID-19. We hope that our website, with its new simplified workflow, will continue to serve as a set of tools that can be easily re-purposed to meet the next healthcare challenge and further combat misinformation: be it another infectious disease crisis or one that is caused by long-drawn, chronic disease. To facilitate re-use of the project and improve long-term sustainability, we have drafted a [maintenance document in the GitHub repository](https://github.com/coatesj/covidpreprints/wiki/Maintenance-guide), which contains more technical information. 
 
+### Conclusion
+
+This project illustrates what can be achieved when different communities focused on various aspects of Open Science intersect: preLights came up with the original idea and maintains the website content, rOpenSci provided packages to perform otherwise difficult and menial tasks in just a couple of code lines, and finally eLife brought all these people together. We are truly amazed at how much was accomplished in a very short amount of time due to the great complementarity of skills of people from the different communities!
+
 ### Acknowledgments
 
 We'd like to thank both the original preLights team: Gautam Dey, Srivats Venkataramanan, Sundar Naganathan, Debbie Ho, Zhang-He Goh, Kirsty Hooper, Lars Hubatsch, Mariana De Niz, Sejal Davla, Mate Palfy & Jonny Coates, as well as the eLife Sprint team: Michael Parkin, Hugo Gruson, Chris Huggins, Bruno Paranhos & Allan Ochola.
 
-### Conclusion
-
-This project illustrates what can be achieved when different communities focused on various aspects of Open Science intersect: preLights came up with the original idea and maintains the website content, rOpenSci provided packages to perform otherwise difficult and menial tasks in just a couple of code lines, and finally eLife brought all these people together. We are truly amazed at how much was accomplished in a very short amount of time due to the great complementarity of skills of people from the different communities!
