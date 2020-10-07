@@ -1,11 +1,12 @@
 ---
 slug: "covidpreprints"
-title: "Covidpreprints.com: Website Update Automation with the europepmc and rAltmetric packages"
+title: "Covidpreprints.com: Automating Website Updates with the europepmc and rAltmetric Packages"
 author:
   - Zhang-He Goh
   - Jonny Coates
   - Hugo Gruson
 date: 2020-10-13
+preface: Cross-posted with [preLights](https://prelights.biologists.com/)
 tags:
   - R
   - community
@@ -13,9 +14,11 @@ tags:
   - preprint
   - scholarly-literature
   - altmetrics
+  - europepmc
+  - rAltmetric
 description: "rOpenSci's europepmc and rAltmetric packages are used to auto-update
 the covidpreprints.com daily."
-twitterImg: blog/2020-10-13-covidpreprints/logo.png
+twitterImg: blog/2020/10/13/covidpreprints/logo.png
 ---
 
 At the eLife Sprint in September 2020, we revamped our website [covidpreprints.com](https://covidpreprints.com/), which aims at featuring landmark preprints on a timeline of the pandemic. 
@@ -29,7 +32,7 @@ And while novel scientific information about the pandemic was being shared at an
 
 {{< figure src = "preprints-plot.png" width = "600" alt = "Number of COVID-19 preprints posted on bioRxiv and medRxiv over time" caption = "Number of COVID-related preprints per day on the bioRxiv and medRxiv preprint platforms. The daily number of new preprints sometimes exceeded 150." class = "center">}}
 
-As a response to this explosive growth of COVID-related preprints, a small group of scientists from [preLights](https://prelights.biologists.com/) published a list of important preprints, each accompanied by a short summary. The list quickly evolved into a full-fledged website: [covidpreprints.com](https://covidpreprints.com/), with a timeline featuring side-by-side landmark preprints and key events in the pandemic.
+As a response to this explosive growth of COVID-related preprints, a small group of scientists from [preLights](https://prelights.biologists.com/) published a list of important preprints, each accompanied by a short summary. The list quickly evolved into a full-fledged website: [covidpreprints.com](https://covidpreprints.com/), with a timeline featuring landmark preprints side-by-side with key events in the pandemic.
 
 But the team quickly faced a new problem: even the list of carefully selected preprints was becoming too long. This resulted in a cluttered interface that was difficult to navigate. Besides, the process to fetch the information related to each preprint (DOI, author names, link, etc.) was tedious and menial, which led to less frequent updates.
 
@@ -38,7 +41,7 @@ But the team quickly faced a new problem: even the list of carefully selected pr
 The [eLife Sprint 2020](https://sprint.elifesciences.org/), an annual hackathon gathering various stakeholders of the research community -- researchers, publishers, and software developers, among others -- provided the perfect opportunity to try and design a more scalable, and re-usable, workflow. A small team quickly came together to work on this project: Jonny Coates, Zhang-He Goh, Hugo Gruson, Chris Huggins, Allan Ochola, Bruno Paranhos & Michael Parkin. We identified two goals at the start of the pre-print:
 
 - we would design a more ergonomic, less cluttered, and responsive interface that would be usable on various screen sizes (including mobile phones).
-- we would also automate the update process, thus reducing the required amount of human input.
+- we would automate the update process, thus reducing the required amount of human input.
 
 Fortunately, we identified a significant part of the process that could be automated by fetching information from the Europe PMC API. More precisely, this could be done directly in R with a single function call, thanks to rOpenSci's [europepmc](https://docs.ropensci.org/europepmc/) package.
 
