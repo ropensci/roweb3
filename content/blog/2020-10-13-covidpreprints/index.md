@@ -21,7 +21,7 @@ the covidpreprints.com daily."
 twitterImg: blog/2020/10/13/covidpreprints/logo.png
 ---
 
-At the eLife Sprint in September 2020, we revamped our website [covidpreprints.com](https://covidpreprints.com/), which aims at featuring landmark preprints on a timeline of the pandemic. 
+At the eLife Sprint in September 2020, we revamped the [covidpreprints.com](https://covidpreprints.com/) website, which aims at featuring landmark preprints on a timeline of the pandemic. 
  
 ### The birth of the project
 
@@ -38,9 +38,9 @@ But the team quickly faced a new problem: even the list of carefully selected pr
 
 ### The makeover during eLife Sprint 2020
 
-The [eLife Sprint 2020](https://sprint.elifesciences.org/), an annual hackathon gathering various stakeholders of the research community -- researchers, publishers, and software developers, among others -- provided the perfect opportunity to try and design a more scalable, and re-usable, workflow. A small team quickly came together to work on this project: Jonny Coates, Zhang-He Goh, Hugo Gruson, Chris Huggins, Allan Ochola, Bruno Paranhos & Michael Parkin. We identified two goals at the start of the pre-print:
+The [eLife Sprint 2020](https://sprint.elifesciences.org/), an annual hackathon gathering various stakeholders of the research community -- researchers, publishers, and software developers, among others -- provided the perfect opportunity to try and design a more scalable, and re-usable, workflow. A small team quickly came together to work on this project: Jonny Coates, Zhang-He Goh, Hugo Gruson, Chris Huggins, Allan Ochola, Bruno Paranhos & Michael Parkin. We identified two goals at the start of the sprint:
 
-- we would design a more ergonomic, less cluttered, and responsive interface that would be usable on various screen sizes (including mobile phones).
+- we would design a more ergonomic, responsive, and less cluttered interface that would be usable on various screen sizes (including mobile phones).
 - we would automate the update process, thus reducing the required amount of human input.
 
 Fortunately, we identified a significant part of the process that could be automated by fetching information from the Europe PMC API. More precisely, this could be done directly in R with a single function call, thanks to rOpenSci's [europepmc](https://docs.ropensci.org/europepmc/) package.
@@ -60,11 +60,11 @@ The website is then automatically rebuilt and deployed each night with [pkgdown]
 
 This scalable workflow allows us to focus on the scientific side of the process: select and highlight chosen preprints to track the progress of our knowledge on COVID-19. This also unlocks the ability to crowdsource reviews or suggestions for landmark preprints. Now, any netizen can nominate a preprint [via this google form](https://docs.google.com/forms/d/e/1FAIpQLSfRuZegczktW7SCmkopVZLNL7k0IHrEuoPRdAn6czTNxkM_xQ/viewform).
 
-Alongside these under-the-hood changes, the project also went through a complete design makeover, because we believe it is important to make this information easy to read and understand for everybody. This work mainly resulted in a new logo for the project and a fresh design for the timeline.
+Alongside these under-the-hood changes, the project also went through a complete design makeover, because we believe it is important to make this information easy to read and understand for everybody. This work mainly resulted in a fresh design for the timeline and a new logo for the project.
+
+{{< figure src = "timeline_comparison.png" width = "100%" alt = "Comparison of the previous (cluttered) website design with the new, more streamlined one" caption = "The timeline before the sprint (top) vs the timeline now (bottom)" class = "center">}}
 
 {{< figure src = "logo_selection.png" width = "600" alt = "Presentation of the candidate logos produced during the sprint" caption = "Some logos that we considered (the middle one was selected). Note the resemblance to the preLights logo (bottom)." class = "center">}}
-
-{{< figure src = "timeline_comparison.png" width = "100%" alt = "Comparison of the previous (cluttered) timeline with the new, more streamlined one" caption = "The timeline before the sprint (top) vs the timeline now (bottom)" class = "center">}}
 
 ### Future perspectives
 
@@ -78,4 +78,4 @@ We'd like to thank both the original preLights team: Gautam Dey, Srivats Venkata
 
 ### Conclusion
 
-This project illustrates what can be achieved when different communities focused on various aspects of Open Science intercept: preLights came up with the original idea and maintains the website content, rOpenSci provided packages to perform otherwise difficult and menial tasks in just a couple of code lines, and finally eLife brought all these people together. We are truly amazed at how much was accomplished in a very short amount of time due to the great complementarity of skills of people from the different communities!
+This project illustrates what can be achieved when different communities focused on various aspects of Open Science intersect: preLights came up with the original idea and maintains the website content, rOpenSci provided packages to perform otherwise difficult and menial tasks in just a couple of code lines, and finally eLife brought all these people together. We are truly amazed at how much was accomplished in a very short amount of time due to the great complementarity of skills of people from the different communities!
