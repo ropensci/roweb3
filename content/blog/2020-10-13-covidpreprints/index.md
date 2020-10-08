@@ -41,7 +41,7 @@ But the team quickly faced a new problem: even the list of carefully selected pr
 The [eLife Sprint 2020](https://sprint.elifesciences.org/), an annual hackathon gathering various stakeholders of the research community -- researchers, publishers, and software developers, among others -- provided the perfect opportunity to try and design a more scalable, and re-usable, workflow. A small team quickly came together to work on this project: Jonny Coates, Zhang-He Goh, Hugo Gruson, Chris Huggins, Allan Ochola, Bruno Paranhos & Michael Parkin. We identified two goals at the start of the sprint:
 
 - we would design a more ergonomic, responsive, and less cluttered interface that would be usable on various screen sizes (including mobile phones).
-- we would automate the update process, thus reducing the required amount of human input.
+- we would automate the update process to reduce the required amount of human input, thereby increasing the project capacity and sustainability.
 
 Fortunately, we identified a significant part of the process that could be automated by fetching information from the [Europe PMC](https://europepmc.org/About) API. More precisely, this could be done directly in R with a single function call, thanks to rOpenSci's [europepmc](https://docs.ropensci.org/europepmc/)[^2] package.
 
