@@ -70,7 +70,7 @@ Alongside these under-the-hood changes, the project also went through a complete
 
 {{< figure src = "timeline_comparison.png" width = "100%" alt = "Comparison of the previous (cluttered) website design with the new, more streamlined one" caption = "The timeline before the sprint (top) vs the timeline now (bottom)" class = "center">}}
 
-{{< figure src = "logo_selection.svg" width = "600" alt = "The new project logo, side-by-side with the preLights' one" title = "The project also gained a new logo, inspired by the preLights logo, with the characteristic shape of a coronavirus." class = "center">}}
+{{< figure src = "logo_selection.svg" width = "600" alt = "The new project logo, side-by-side with the preLights' one" caption = "The project also gained a new logo, inspired by the preLights logo, with the characteristic shape of a coronavirus." class = "center">}}
 
 ## Future perspectives
 
