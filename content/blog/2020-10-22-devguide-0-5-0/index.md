@@ -51,7 +51,7 @@ The [documentation section](https://devguide.ropensci.org/building.html#document
 
 We added a request to better describe the data source of a package in `DESCRIPTION`, in particular linking to the user-facing website of a data source as opposed to just the API docs.
 
-We have made our advice around setting up [redirections](https://devguide.ropensci.org/redirect.html) from a former pkgdown website to the [centrally built](https://ropensci.org/technotes/2019/06/07/ropensci-docs/) one after approval.
+We have made our advice around setting up [redirections](https://devguide.ropensci.org/redirect.html) from a former pkgdown website to the [centrally built](/technotes/2019/06/07/ropensci-docs/) one after approval.
 It is even more crucial now that we encourage setting up a pkgdown website before submission in our [author guide](https://devguide.ropensci.org/guide-for-authors.html): _"For any submission or pre-submission inquiry the README of your package should provide enough information about your package (goals, usage, similar packages) for the editors to assess its scope without having to install the package. Even better, set up a pkgdown website for allowing more detailed assessment of functionality online."_
 
 Lastly, we added a small section about [licences](https://devguide.ropensci.org/building.html#licence) to the packaging guide to make the lists of accepted licenses easier to find; and to link to the useful [new chapter about licences in the R packages book by Hadley Wickham and Jenny Bryan](https://r-pkgs.org/license.html).
