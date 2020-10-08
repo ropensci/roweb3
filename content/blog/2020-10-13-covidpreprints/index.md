@@ -61,7 +61,7 @@ The website is then automatically rebuilt and deployed each night with [pkgdown]
 [^5]: Hadley Wickham, Jay Hesselberth (2020). pkgdown: Generate an attractive and useful website from a source package. R packager version 1.6.1.
 [^6]: thanks to [Maëlle Salmon](/author/ma%C3%ABlle-salmon/) & [Steph Locke](/author/stephanie-locke/) for the inspiration here with their workflow at <https://lockedata.github.io/cransays/>
 
-{{< figure src = "workflow.png" width = "600" alt = "Graphical representation of the automated workflow set up during the sprint" caption = "Having a scalable workflow allowed us to better crowdsource suggestions of preprints to feature." class = "center">}}
+{{< figure src = "workflow.svg" width = "600" alt = "Graphical representation of the automated workflow set up during the sprint" caption = "Having a scalable workflow allowed us to better crowdsource suggestions of preprints to feature." class = "center">}}
 
 
 This scalable workflow allows us to focus on the scientific side of the process: select and highlight chosen preprints to track the progress of our knowledge on COVID-19. This also unlocks the ability to crowdsource reviews or suggestions for landmark preprints. Now, any netizen can nominate a preprint [via this google form](https://docs.google.com/forms/d/e/1FAIpQLSfRuZegczktW7SCmkopVZLNL7k0IHrEuoPRdAn6czTNxkM_xQ/viewform).
@@ -70,7 +70,7 @@ Alongside these under-the-hood changes, the project also went through a complete
 
 {{< figure src = "timeline_comparison.png" width = "100%" alt = "Comparison of the previous (cluttered) website design with the new, more streamlined one" caption = "The timeline before the sprint (top) vs the timeline now (bottom)" class = "center">}}
 
-{{< figure src = "logo_selection.png" width = "600" alt = "Presentation of the candidate logos produced during the sprint" caption = "Some logos that we considered (the middle one was selected). Note the resemblance to the preLights logo (bottom)." class = "center">}}
+{{< figure src = "logo_selection.svg" width = "600" alt = "Presentation of the candidate logos produced during the sprint" caption = "Some logos that we considered (the middle one was selected). Note the resemblance to the preLights logo (bottom)." class = "center">}}
 
 ## Future perspectives
 
