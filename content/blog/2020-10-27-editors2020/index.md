@@ -14,9 +14,11 @@ description: Introducing 3 new editors for rOpenSci software review
 
 ## Laura DeCicco
 
-{{< figure src = "/img/team/laura-decicco.jpg" width = "200" alt = "photo of Laura DeCicco holding a small crocodilian-looking reptile" class = "pull-left">}} 
+{{< imgtxt src = "/img/team/laura-decicco.jpg" width = "200" alt = "photo of Laura DeCicco holding a small crocodilian-looking reptile" class = "pull-left">}} 
 
-Laura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bio
+Laura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... 
+
+{{< /imgtxt >}}
 
 Laura on [GitHub](https://github.com/ldecicco-USGS), [Twitter](https://twitter.com/DeCiccoDonk)
 
@@ -26,7 +28,7 @@ Laura on [GitHub](https://github.com/ldecicco-USGS), [Twitter](https://twitter.c
 
 ## Julia Gustavsen
 
-{{< imgtxt src = "/img/team/laura-decicco.jpg" width = "200" alt = "headshot of Julia Gustavsen" >}} 
+{{< imgtxt src = "/img/team/julia-gustavsen.jpg" width = "200" alt = "headshot of Julia Gustavsen" >}} 
 
 Julia Gustavsen is ... bioJulia Gustavsen is ... bioJulia Gustavsen is ... bioJulia Gustavsen is ... bioJulia Gustavsen is ... bioJulia Gustavsen is ... bioJulia Gustavsen is ... bioJulia Gustavsen is ... bioJulia Gustavsen is ... bioJulia Gustavsen is ... bioJulia Gustavsen is ... bioJulia Gustavsen is ... bioJulia Gustavsen is ... bioJulia Gustavsen is ... bioJulia Gustavsen is ... bioJulia Gustavsen is ... bio
 
