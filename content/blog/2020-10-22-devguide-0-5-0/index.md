@@ -2,6 +2,14 @@
 title: 'rOpenSci Dev Guide 0.5.0: Updates'
 author:
   - Maëlle Salmon
+  - Brooke Anderson
+  - Laura DeCicco
+  - Julia Gustavsen
+  - Anna Krystalli
+  - Mauro Lepore
+  - Karthik Ram
+  - Noam Ross
+  - Melina Vidoni
 date: '2020-10-22'
 slug: devguide-0.5.0
 tags:
