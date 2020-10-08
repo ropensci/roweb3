@@ -74,7 +74,7 @@ Experts from all around the world are asking, “What have we learnt from this p
 
 ### Conclusion
 
-This project illustrates what can be achieved when different communities focused on various aspects of Open Science intersect: preLights came up with the original idea and maintains the website content, rOpenSci provided packages to perform otherwise difficult and menial tasks in just a couple of code lines, and finally eLife brought all these people together. We are truly amazed at how much was accomplished in a very short amount of time due to the great complementarity of skills of people from the different communities!
+This project illustrates what can be achieved when different communities focused on various aspects of Open Science intersect: preLights came up with the original idea and maintains the website content, rOpenSci provided packages to perform otherwise difficult and menial tasks in just a couple of code lines, and finally eLife brought all these people together. We are truly amazed at how much was accomplished in a very short amount of time due to the great complementarity of skills of people from the different communities! Now, we hope to cordially invite every interested person to join us in our quest for promoting better information about health by either nominating preprints [via the Google form](https://docs.google.com/forms/d/e/1FAIpQLSfRuZegczktW7SCmkopVZLNL7k0IHrEuoPRdAn6czTNxkM_xQ/viewform) or by contributing to [the website code](https://github.com/coatesj/covidpreprints/)!
 
 ### Acknowledgments
 
