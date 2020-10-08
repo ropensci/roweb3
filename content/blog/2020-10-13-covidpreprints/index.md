@@ -38,8 +38,9 @@ But the team quickly faced a new problem: even the list of carefully selected pr
 
 ### The makeover during eLife Sprint 2020
 
-The [eLife Sprint 2020](https://sprint.elifesciences.org/), an annual hackathon gathering various stakeholders of the research community -- researchers, publishers, and software developers, among others -- provided the perfect opportunity to try and design a more scalable, and re-usable, workflow. A small team quickly came together to work on this project: Jonny Coates, Zhang-He Goh, Hugo Gruson, Chris Huggins, Allan Ochola, Bruno Paranhos & Michael Parkin. We identified two goals at the start of the sprint:
+The [eLife Sprint 2020](https://sprint.elifesciences.org/), an annual two-day hackathon gathering various stakeholders of the research community --researchers, publishers, and software developers, among others-- provided the perfect opportunity to try and design a more scalable, and re-usable, workflow. This year, owing to the coronavirus pandemic, the eLife Sprint went completely virtual: it was held on social media platforms like Qiqochat and Slack, held over 10 sessions of 3 hours each.
 
+By the second session of the Sprint, we decided on two goals to work towards:
 - we would design a more ergonomic, responsive, and less cluttered interface that would be usable on various screen sizes (including mobile phones).
 - we would automate the update process to reduce the required amount of human input, thereby increasing the project capacity and sustainability.
 
