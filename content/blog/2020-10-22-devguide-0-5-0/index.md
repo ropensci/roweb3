@@ -54,12 +54,12 @@ We added a request to better describe the data source of a package in `DESCRIPTI
 We have made our advice around setting up [redirections](https://devguide.ropensci.org/redirect.html) from a former pkgdown website to the [centrally built](https://ropensci.org/technotes/2019/06/07/ropensci-docs/) one after approval.
 It is even more crucial now that we encourage setting up a pkgdown website before submission in our [author guide](https://devguide.ropensci.org/guide-for-authors.html): _"For any submission or pre-submission inquiry the README of your package should provide enough information about your package (goals, usage, similar packages) for the editors to assess its scope without having to install the package. Even better, set up a pkgdown website for allowing more detailed assessment of functionality online."_
 
-Lastly, we added a small section about [licences](https://devguide.ropensci.org/building.html#licence) to the packaging guide to make the lists of accepted licences easier to find; and to link to the useful [new chapter about licences in the R packages book by Hadley Wickham and Jenny Bryan](https://r-pkgs.org/license.html).
+Lastly, we added a small section about [licences](https://devguide.ropensci.org/building.html#licence) to the packaging guide to make the lists of accepted licenses easier to find; and to link to the useful [new chapter about licences in the R packages book by Hadley Wickham and Jenny Bryan](https://r-pkgs.org/license.html).
 
 
 ## Updates to our process
 
-The [author guide](https://devguide.ropensci.org/guide-for-authors.html) now contains clearer instructions about submissions to the [Journal of Open-Source Software](https://joss.theoj.org/) (JOSS) to underline that because of the different scope definitions of our system and of JOSS, a publication in JOSS is not guaranted.
+The [author guide](https://devguide.ropensci.org/guide-for-authors.html) now contains clearer instructions about submissions to the [Journal of Open-Source Software](https://joss.theoj.org/) (JOSS) to underline that because of the different scope definitions of our system and of JOSS, a publication in JOSS is not guaranteed.
 
 _Do not submit it to JOSS consideration until after the rOpenSci review process is over: if your package is deemed in scope by JOSS editors, only the accompanying short paper would be reviewed, (not the software that will have been extended reviewed by rOpenSci by that time). **Not all rOpenSci packages will meet the criteria for JOSS**._
 
