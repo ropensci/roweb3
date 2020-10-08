@@ -53,7 +53,7 @@ Here is a quick rundown of our update process:
 1. Fetch the preprint title, list of authors, link, and, if it has been reviewed and published, the journal name, using the europepmc package
 1. Get the altmetric score of each publication with the [rAltmetric](https://docs.ropensci.org/rAltmetric/)[^4] package 
 
-The website is then automatically rebuilt and deployed each night with [pkgdown](https://pkgdown.r-lib.org/)[^5] and GitHub actions[^6]. The use of pkgdown on GitHub pages greatly reduces the need for complex tools such as shiny, and the necessity of a custom server. We believe this is an important step for the project's long-term sustainability and to ease re-use of our code in other contexts.
+The website is then automatically rebuilt and deployed each night with [pkgdown](https://pkgdown.r-lib.org/)[^5] and GitHub actions[^6]. The use of pkgdown on GitHub pages greatly reduces the need for complex tools such as [Shiny](https://shiny.rstudio.com/), and the necessity of a custom server. We believe this is an important step for the project's long-term sustainability and to ease re-use of our code in other contexts.
 
 [^3]: Jenny Bryan (2020). googlesheets4: Access Google Sheets using the Sheets API V4. R package version 0.2.0.
 [^4]: Karthik Ram (2017). rAltmetric: Retrieves Altmerics Data for Any Published Paper from 'Altmetric.com'. R package version 0.7.0.
