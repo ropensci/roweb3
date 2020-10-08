@@ -23,7 +23,7 @@ twitterImg: blog/2020/10/13/covidpreprints/logo.png
 
 At the eLife Sprint in September 2020, we revamped the [covidpreprints.com](https://covidpreprints.com/) website, which aims at featuring landmark preprints on a timeline of the pandemic. 
  
-### The birth of the project
+## The birth of the project
 
 The ongoing COVID-19 pandemic has led to about 35 million confirmed cases and over a million deaths worldwide. The looming spectre of a second wave of the pandemic has spurred around-the-clock research efforts to better understand the pathology and epidemiology of the virus, in the hope of new therapies and vaccines.
 And while novel scientific information about the pandemic was being shared at an unprecedented rate in the form of preprints[^1], it was becoming difficult to get an accurate, trustworthy record of this information.
@@ -36,7 +36,7 @@ As a response to this explosive growth of COVID-related preprints, a small group
 
 But the team quickly faced a new problem: even the list of carefully selected preprints was becoming too long. This resulted in a cluttered interface that was difficult to navigate. Besides, the process to fetch the information related to each preprint (DOI, author names, link, etc.) was tedious and menial, which led to less frequent updates.
 
-### The makeover during eLife Sprint 2020
+## The makeover during eLife Sprint 2020
 
 The [eLife Sprint 2020](https://sprint.elifesciences.org/), an annual two-day hackathon gathering various stakeholders of the research community --researchers, publishers, and software developers, among others-- provided the perfect opportunity to try and design a more scalable, and re-usable, workflow. This year, owing to the coronavirus pandemic, the eLife Sprint went completely virtual: it was held on social media platforms like Qiqochat and Slack, held over 10 sessions of 3 hours each.
 
@@ -72,17 +72,17 @@ Alongside these under-the-hood changes, the project also went through a complete
 
 {{< figure src = "logo_selection.png" width = "600" alt = "Presentation of the candidate logos produced during the sprint" caption = "Some logos that we considered (the middle one was selected). Note the resemblance to the preLights logo (bottom)." class = "center">}}
 
-### Future perspectives
+## Future perspectives
 
 Experts from all around the world are asking, “What have we learnt from this pandemic?” For now, we have some exciting new ideas moving forward with the project. In addition to expanding our sources by including more scientific communities and crowdsourced reviews from [Outbreak Science PREreview](https://outbreaksci.prereview.org) on our website, we would also love to introduce preprint clustering, grouping preprints into themes that thread around them.
  
 As advocates of preprints and open science, we are constantly mindful about how our project would remain relevant for years to come -- in a future post-COVID-19. We hope that our website, with its new simplified workflow, will continue to serve as a set of tools that can be easily re-purposed to meet the next healthcare challenge and further combat misinformation: be it another infectious disease crisis or one that is caused by an endemic disease. To facilitate re-use of the project and improve long-term sustainability, we have drafted a [maintenance document in the GitHub repository](https://github.com/coatesj/covidpreprints/wiki/Maintenance-guide), which contains more technical information. 
 
-### Conclusion
+## Conclusion
 
 This project illustrates what can be achieved when different communities focused on various aspects of Open Science intersect: preLights came up with the original idea and maintains the website content, rOpenSci provided packages to perform otherwise difficult and menial tasks in just a couple of code lines, and finally eLife brought all these people together. We are truly amazed at how much was accomplished in a very short amount of time due to the great complementarity of skills of people from the different communities! Now, we hope to cordially invite every interested person to join us in our quest for promoting better information about health by either nominating preprints [via the Google form](https://docs.google.com/forms/d/e/1FAIpQLSfRuZegczktW7SCmkopVZLNL7k0IHrEuoPRdAn6czTNxkM_xQ/viewform) or by contributing to [the website code](https://github.com/coatesj/covidpreprints/)!
 
-### Acknowledgments
+## Acknowledgments
 
 We'd like to thank both the original preLights team: Gautam Dey, Srivats Venkataramanan, Sundar Naganathan, Debbie Ho, Zhang-He Goh, Kirsty Hooper, Lars Hubatsch, Mariana De Niz, Sejal Davla, Mate Palfy & Jonny Coates, as well as the eLife Sprint team: Michael Parkin, Hugo Gruson, Chris Huggins, Bruno Paranhos & Allan Ochola.
 
