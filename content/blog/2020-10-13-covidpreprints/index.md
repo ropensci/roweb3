@@ -43,7 +43,7 @@ The [eLife Sprint 2020](https://sprint.elifesciences.org/), an annual hackathon 
 - we would design a more ergonomic, responsive, and less cluttered interface that would be usable on various screen sizes (including mobile phones).
 - we would automate the update process, thus reducing the required amount of human input.
 
-Fortunately, we identified a significant part of the process that could be automated by fetching information from the Europe PMC API. More precisely, this could be done directly in R with a single function call, thanks to rOpenSci's [europepmc](https://docs.ropensci.org/europepmc/)[^2] package.
+Fortunately, we identified a significant part of the process that could be automated by fetching information from the [Europe PMC](https://europepmc.org/About) API. More precisely, this could be done directly in R with a single function call, thanks to rOpenSci's [europepmc](https://docs.ropensci.org/europepmc/)[^2] package.
 
 [^2]: Najko Jahn (2020). europepmc: R Interface to the Europe PubMed Central RESTful Web Service. R package version 0.4.
 
