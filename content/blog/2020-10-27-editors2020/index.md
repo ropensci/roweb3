@@ -1,6 +1,5 @@
 ---
-title: 'Announcing New Software Peer Review Editors: Laura DeCicco, Julia Gustavsen,
-  Mauro Lepore'
+title: 'Announcing New Software Peer Review Editors: Laura DeCicco, Julia Gustavsen, Mauro Lepore'
 author:
   - Stefanie Butland
 date: '2020-10-27'
@@ -12,9 +11,19 @@ description: Introducing 3 new editors for rOpenSci software review
 # twitterImg: blog/2019/06/04/post-template/name-of-image.png
 ---
 
+We are pleased to welcome Laura DeCicco, Julia Gustavsen, and Mauro Lepore to our team of [Associate Editors](/software-review/#editors) for rOpenSci [Software Peer Review](/software-review/). 
+They join [Brooke Anderson](/blog/2019/01/31/more_editors/), [Anna Krystalli](/blog/2018/06/22/new_editors/), [Karthik Ram](/author/karthik-ram/), [Noam Ross](/author/noam-ross/), [Maëlle Salmon](/author/maëlle-salmon/), and [Melina Vidoni](/blog/2019/01/31/more_editors/), who have agreed to serve another one-year term on the volunteer editorial board. 
+[Lincoln Mullen](/blog/2018/06/22/new_editors/) and [Scott Chamberlain](/author/scott-chamberlain/) are now board alumni. 
+
+Since 2015, rOpenSci has been running a software peer review system to combine the best of academic peer review with software review. 
+Having robust and reliable software tools is an important component of supporting open science and reproducible research.
+Editors manage the review process, performing initial package checks, identifying reviewers, and moderating the process until the package is accepted by reviewers and transferred to rOpenSci. 
+
+Meet our new editors!
+
 ## Laura DeCicco
 
-{{< imgtxt src = "/img/team/laura-decicco.jpg" width = "200" alt = "photo of Laura DeCicco holding a small crocodilian-looking reptile" class = "pull-left">}} 
+{{< imgtxt src = "/img/team/laura-decicco.jpg" width = "200" alt = "photo of Laura DeCicco holding a small crocodilian-looking reptile">}} 
 
 Laura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... 
 
