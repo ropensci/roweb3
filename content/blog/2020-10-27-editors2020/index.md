@@ -12,7 +12,7 @@ description: Introducing 3 new editors for rOpenSci software review
 ---
 
 We are pleased to welcome Laura DeCicco, Julia Gustavsen, and Mauro Lepore to our team of [Associate Editors](/software-review/#editors) for rOpenSci [Software Peer Review](/software-review/). 
-They join [Brooke Anderson](/blog/2019/01/31/more_editors/), [Anna Krystalli](/blog/2018/06/22/new_editors/), [Karthik Ram](/author/karthik-ram/), [Noam Ross](/author/noam-ross/), [Maëlle Salmon](/author/maëlle-salmon/), and [Melina Vidoni](/blog/2019/01/31/more_editors/), who have agreed to serve another one-year term on the volunteer editorial board. 
+They join [Brooke Anderson](/blog/2019/01/31/more_editors/), [Anna Krystalli](/blog/2018/06/22/new_editors/), [Karthik Ram](/author/karthik-ram/), [Noam Ross](/author/noam-ross/), [Maëlle Salmon](/author/maëlle-salmon/), and [Melina Vidoni](/blog/2019/01/31/more_editors/). 
 [Lincoln Mullen](/blog/2018/06/22/new_editors/) and [Scott Chamberlain](/author/scott-chamberlain/) are now board alumni. 
 
 Since 2015, rOpenSci has been running a software peer review system to combine the best of academic peer review with software review. 
