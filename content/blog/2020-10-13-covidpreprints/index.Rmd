@@ -27,7 +27,12 @@ output:
 ```{r setup, include=FALSE}
 # Options to have images saved in the post folder
 # And to disable symbols before output
-knitr::opts_chunk$set(fig.path = "", comment = "")
+knitr::opts_chunk$set(
+  fig.path = "", 
+  comment = "",
+  message = FALSE,
+  warning = FALSE
+)
 
 # knitr hook to make images output use Hugo options
 knitr::knit_hooks$set(
