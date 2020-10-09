@@ -24,6 +24,8 @@ output:
     keep_md: true
 ---
 
+
+
 At the eLife Sprint in September 2020, we revamped the [covidpreprints.com](https://covidpreprints.com/) website, which aims at featuring landmark preprints on a timeline of the pandemic. 
  
 ## The birth of the project
@@ -33,8 +35,7 @@ And while novel scientific information about the pandemic was being shared at an
 
 [^1]: Fraser, N., Brierley, L., Dey, G., Polka, J. K., Pálfy, M., Nanni, F., & Coates, J. A. (2020). Preprinting the COVID-19 pandemic. doi:[10.1101/2020.05.22.111294](https://doi.org/10.1101/2020.05.22.111294)
 
-
-```r
+```r 
 library(httr)
 
 list_preprints_url <- "https://api.biorxiv.org/covid19/"
@@ -66,7 +67,7 @@ preprints_covid <- df %>%
 ```
 
 <!--html_preserve-->
-{{< figure src = "workflow.svg" width = "600" alt = "Graphical representation of the automated workflow set up during the sprint" caption = "Having a scalable workflow allowed us to better crowdsource suggestions of preprints to feature." class = "center">}}
+{{< figure src = "preprints-plot.png" width = "600" alt = "Number of COVID-19 preprints posted on bioRxiv and medRxiv over time" caption = "Number of COVID-related preprints per day on the bioRxiv and medRxiv preprint platforms. The daily number of new preprints sometimes exceeded 150." class = "center">}}
 <!--/html_preserve-->
 
 As a response to this explosive growth of COVID-related preprints, a small group of scientists from [preLights](https://prelights.biologists.com/) published a list of important preprints, each accompanied by a short summary. The list quickly evolved into a full-fledged website: [covidpreprints.com](https://covidpreprints.com/), with a timeline featuring landmark preprints side-by-side with key events in the pandemic.
@@ -93,8 +94,7 @@ Here is a quick rundown of our update process:
 
 
 
-
-```r
+```r 
 library(googlesheets4)
 # Set Google de-authentication mode as sheet is public
 googlesheets4::gs4_deauth()
@@ -104,26 +104,6 @@ library(europepmc)  # retrieving preprint metadata
 library(rAltmetric)  # retrieving Altmetric scores
 
 library(dplyr)
-```
-
-```
-## 
-## Attaching package: 'dplyr'
-```
-
-```
-## The following objects are masked from 'package:stats':
-## 
-##     filter, lag
-```
-
-```
-## The following objects are masked from 'package:base':
-## 
-##     intersect, setdiff, setequal, union
-```
-
-```r
 library(stringr)
 library(purrr)
 library(tidyr)
@@ -137,167 +117,24 @@ preprints <- read_sheet(sheet_url, sheet = "Preprints") %>%
          url = str_c("https://doi.org/", id)) %>%
   unnest(publication) %>%
   unnest(altmetric)
-```
 
-```
-## Reading from "Landmark preprints in response to COVID-19 by preLights "
-```
-
-```
-## Range "'Preprints'"
-```
-
-```
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-```
-
-```
-## nothing found, please check your query
-```
-
-```
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-## Sorry, no links available
-```
-
-```r
 head(preprints)
 ```
 
 ```
-## # A tibble: 6 x 18
-##   id    class briefSummary addedBy approvedBy internalComments longerSummary
-##   <chr> <chr> <chr>        <chr>   <chr>      <chr>            <chr>        
-## 1 10.1… prep… Reports the… MDN     LH, GZH    "GZH: Approved-…  <NA>        
-## 2 10.1… prep… Stochastic … MDN     GZH        "GZH: Edited su…  <NA>        
-## 3 10.1… prep… SARS-CoV-2 … MDN     GZH        "GZH: Now publi…  <NA>        
-## 4 10.1… prep… Based on mo… MDN     GZH        "GZH: Summary e…  <NA>        
-## 5 10.1… prep… This study … MDN     GZH        "GZH: Summary e… "Sinai revie…
-## 6 10.1… prep… Using the t… MDN     GZH        "GZH: I am not …  <NA>        
-## # … with 11 more variables: title <chr>, date <date>, authorString <chr>,
-## #   publishedVersionDoi <chr>, citationCount <int>, preLightsUrl <chr>,
-## #   altmetricScore <dbl>, tweeters <chr>, altmetricDonut <chr>,
-## #   altmetricUrl <chr>, url <chr>
+# A tibble: 6 x 18
+  id    class briefSummary addedBy approvedBy internalComments longerSummary
+  <chr> <chr> <chr>        <chr>   <chr>      <chr>            <chr>        
+1 10.1… prep… Reports the… MDN     LH, GZH    "GZH: Approved-…  <NA>        
+2 10.1… prep… Stochastic … MDN     GZH        "GZH: Edited su…  <NA>        
+3 10.1… prep… SARS-CoV-2 … MDN     GZH        "GZH: Now publi…  <NA>        
+4 10.1… prep… Based on mo… MDN     GZH        "GZH: Summary e…  <NA>        
+5 10.1… prep… This study … MDN     GZH        "GZH: Summary e… "Sinai revie…
+6 10.1… prep… Using the t… MDN     GZH        "GZH: I am not …  <NA>        
+# … with 11 more variables: title <chr>, date <date>, authorString <chr>,
+#   publishedVersionDoi <chr>, citationCount <int>, preLightsUrl <chr>,
+#   altmetricScore <dbl>, tweeters <chr>, altmetricDonut <chr>,
+#   altmetricUrl <chr>, url <chr>
 ```
 
 The website is then automatically rebuilt and deployed each night with [pkgdown](https://pkgdown.r-lib.org/)[^5] and GitHub actions[^6]. The use of pkgdown on GitHub pages greatly reduces the need for complex tools such as [Shiny](https://shiny.rstudio.com/), and the necessity of a custom server. We believe this is an important step for the project's long-term sustainability and to ease re-use of our code in other contexts.
