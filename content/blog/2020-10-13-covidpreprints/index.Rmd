@@ -65,7 +65,7 @@ preprints_covid <- df %>%
 ```
 
 <!--html_preserve-->
-{{< figure src = "workflow.svg" width = "600" alt = "Graphical representation of the automated workflow set up during the sprint" caption = "Having a scalable workflow allowed us to better crowdsource suggestions of preprints to feature." class = "center">}}
+{{< figure src = "preprints-plot.png" width = "600" alt = "Number of COVID-19 preprints posted on bioRxiv and medRxiv over time" caption = "Number of COVID-related preprints per day on the bioRxiv and medRxiv preprint platforms. The daily number of new preprints sometimes exceeded 150." class = "center">}}
 <!--/html_preserve-->
 
 As a response to this explosive growth of COVID-related preprints, a small group of scientists from [preLights](https://prelights.biologists.com/) published a list of important preprints, each accompanied by a short summary. The list quickly evolved into a full-fledged website: [covidpreprints.com](https://covidpreprints.com/), with a timeline featuring landmark preprints side-by-side with key events in the pandemic.
