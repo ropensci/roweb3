@@ -18,7 +18,7 @@ tags:
   - rAltmetric
 description: "rOpenSci's europepmc and rAltmetric packages are used to auto-update
 the covidpreprints.com daily."
-twitterImg: blog/2020/10/13/covidpreprints/logo.png
+twitterImg: blog/2020/10/13/covidpreprints/logo_twitter.png
 output: 
   html_document:
     keep_md: true
@@ -35,39 +35,8 @@ And while novel scientific information about the pandemic was being shared at an
 
 [^1]: Fraser, N., Brierley, L., Dey, G., Polka, J. K., Pálfy, M., Nanni, F., & Coates, J. A. (2020). Preprinting the COVID-19 pandemic. doi:[10.1101/2020.05.22.111294](https://doi.org/10.1101/2020.05.22.111294)
 
-```r 
-library(httr)
-
-list_preprints_url <- "https://api.biorxiv.org/covid19/"
-latest_preprints <- content(GET(paste0(list_preprints_url, 0)))
-total_nb <- latest_preprints$messages[[1]]$total
-res <- latest_preprints$collection
-
-# httr doesn't support pagination out of the box so we need to do this manually
-for (i in seq(30, total_nb, by = 30)) {
-  preprints <- content(GET(paste0(list_preprints_url, i)))
-  res <- c(res, preprints$collection)
-}
-df <- lapply(res, function(e) c(e$rel_date, e$rel_site))
-df <- do.call(rbind.data.frame, df)
-colnames(df) <- c("date", "site")
-
-library(dplyr)
-library(ggplot2)
-
-preprints_covid <- df %>%
-  mutate(date = as.Date(date)) %>%
-  filter(date >= "2020-01-01") %>%
-  count(date, site) %>%
-  ggplot(aes(x = date, y = n, fill = site)) +
-  geom_bar(stat = "identity") +
-  theme_minimal() +
-  labs(x = "Deposition date", y = "Preprints") +
-  scale_fill_brewer(palette = "Set1")
-```
-
 <!--html_preserve-->
-{{< figure src = "preprints-plot.png" width = "600" alt = "Number of COVID-19 preprints posted on bioRxiv and medRxiv over time" caption = "Number of COVID-related preprints per day on the bioRxiv and medRxiv preprint platforms. The daily number of new preprints sometimes exceeded 150." class = "center">}}
+{{< figure src = "preprints-plot.png" width = "600" alt = "Number of COVID-19 preprints posted on bioRxiv and medRxiv over time" caption = "Number of COVID-related preprints per day on the bioRxiv and medRxiv preprint platforms. The daily number of new preprints sometimes exceeded 150. (<a href='https://raw.githubusercontent.com/coatesj/covidpreprints/master/vignettes/preprint_plot.Rmd'>source code for the plot</a>)." class = "center">}}
 <!--/html_preserve-->
 
 As a response to this explosive growth of COVID-related preprints, a small group of scientists from [preLights](https://prelights.biologists.com/) published a list of important preprints, each accompanied by a short summary. The list quickly evolved into a full-fledged website: [covidpreprints.com](https://covidpreprints.com/), with a timeline featuring landmark preprints side-by-side with key events in the pandemic.
@@ -107,7 +76,7 @@ library(dplyr)
 library(stringr)
 library(purrr)
 library(tidyr)
-# parse_epmc() and altmetric() are short wrapper around europepmc and 
+# parse_epmc() and altmetric() are short wrappers around functions europepmc and 
 # rAltmetric packages. They're not displayed here for the sake of brevity
 preprints <- read_sheet(sheet_url, sheet = "Preprints") %>%
   filter(class %in% c("preprint", "bad")) %>% # filter non-preprints
@@ -172,4 +141,5 @@ This project illustrates what can be achieved when different communities focused
 
 ## Acknowledgments
 
-We'd like to thank both the original preLights team: Gautam Dey, Srivats Venkataramanan, Sundar Naganathan, Debbie Ho, Zhang-He Goh, Kirsty Hooper, Lars Hubatsch, Mariana De Niz, Sejal Davla, Mate Palfy & Jonny Coates, as well as the eLife Sprint team: Michael Parkin, Hugo Gruson, Chris Huggins, Allan Ochola & Bruno Paranhos.
+We'd like to thank both the original preLights team: Jonny Coates, Sejal Davla, Mariana De Niz, Gautam Dey, Zhang-He Goh, Debbie Ho, Kirsty Hooper, Lars Hubatsch, Sundar Naganathan, Máté Pálfy & Srivats Venkataramanan, as well as the eLife Sprint team:Hugo Gruson, Chris Huggins, Allan Ochola, Bruno Paranhos & Michael Parkin.
+
