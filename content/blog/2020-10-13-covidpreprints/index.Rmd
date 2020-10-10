@@ -161,7 +161,7 @@ library(dplyr)
 library(stringr)
 library(purrr)
 library(tidyr)
-# parse_epmc() and altmetric() are short wrapper around europepmc and 
+# parse_epmc() and altmetric() are short wrappers around functions europepmc and 
 # rAltmetric packages. They're not displayed here for the sake of brevity
 preprints <- read_sheet(sheet_url, sheet = "Preprints") %>%
   filter(class %in% c("preprint", "bad")) %>% # filter non-preprints
