@@ -241,4 +241,4 @@ This project illustrates what can be achieved when different communities focused
 
 ## Acknowledgments
 
-We'd like to thank both the original preLights team: Gautam Dey, Srivats Venkataramanan, Sundar Naganathan, Debbie Ho, Zhang-He Goh, Kirsty Hooper, Lars Hubatsch, Mariana De Niz, Sejal Davla, Mate Palfy & Jonny Coates, as well as the eLife Sprint team: Michael Parkin, Hugo Gruson, Chris Huggins, Allan Ochola & Bruno Paranhos.
+We'd like to thank both the original preLights team: Gautam Dey, Srivats Venkataramanan, Sundar Naganathan, Debbie Ho, Zhang-He Goh, Kirsty Hooper, Lars Hubatsch, Mariana De Niz, Sejal Davla, Máté Pálfy & Jonny Coates, as well as the eLife Sprint team: Michael Parkin, Hugo Gruson, Chris Huggins, Allan Ochola & Bruno Paranhos.
