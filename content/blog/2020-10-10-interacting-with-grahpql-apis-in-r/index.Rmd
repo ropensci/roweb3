@@ -1,0 +1,155 @@
+---
+title: Interacting with GrahpQL APIs in R
+author:
+  - Dennis Irorere
+  - Scott Chamberlain
+date: '2020-10-10'
+slug: interacting-with-grahpql-apis-in-r
+categories:
+  - blog
+tags:
+  - Software Peer Review
+  - Packages
+  - API
+  - R
+  - ghql
+  - graphql
+package_version: 0.1.0
+description: Ever tried interacting with a GraphQL server in R and felt like giving up even before getting anywhere? Well, I have been there and I wrote this blog post to assist others.
+twitterImg: blog/2020/10/10/interacting-with-grahpql-apis-in-r/GHQL.png
+output:
+  html_document:
+    keep_md: yes
+---
+
+## How did I find out about ghql?
+After spending days researching about the R packages that can interact with a GraphQL API, I found three packages. I picked `ghql` over the others because, it was an rOpenSci package. 
+
+## So what is GraphQL?
+GraphQL is a query language for application programming interfaces (APIs) that prioritizes giving clients exactly the data they request. It's designed to make APIs flexible, fast and friendly. Basically, it is used to load data from a server to a client and it does this in a much more efficient manner than traditional methods and services.
+
+## And then, there is R
+R is a free software environment for statistical computing and graphics. Well, that's how it's officially defined. But, trust me its gradually evolving to do more than statistical computing and making of beautiful graphics.
+
+## Moving on
+In order for R to interact with any GraphQL API, it requires a GraphQL client. That's where `ghql`, a GraphQL client for R, developed by Scott Chamberlain comes into play. Still confused? I hope the flow chart below helps you make more sense of it.
+{{< figure src = "GHQL.png" width = "350" alt = "GraphQL client and R connection flow" caption = "GraphQL client and R connection flow" class = "center">}}
+
+## Working with `Countries List`, a GraphQL public API
+The [Countries GraphQL API](https://github.com/trevorblades/countries) is a public GraphQL API for information about countries, continents, and languages. This public API uses [Countries List](https://annexare.github.io/Countries/) and [provinces](https://github.com/substack/provinces) as data sources, so the schema follows the shape of that data, with a few exceptions:
+- The codes used to key the objects in the original data are available as a code property on each item returned from the API.
+- The country.continent and country.languages are objects and arrays of objects, respectively.
+- Each Country has an array of states populated by their states/provinces, if any.
+
+Loading the libraries
+```{r}
+library(ghql)
+library(jsonlite)
+library(dplyr)
+```
+
+Link to the GraphQL schema api
+```{r}
+link <- 'https://countries.trevorblades.com/'
+```
+
+Create a new graphqlClient object 
+```{r}
+conn <- GraphqlClient$new(url = link)
+```
+
+Define a Graphql Query
+```{r}
+query <- '
+query($code: ID!){
+  country(code: $code){
+    name
+    native
+    capital
+    currency
+    phone
+    languages{
+      code
+      name
+    }
+  }
+}'
+```
+
+The `ghql` query class and define query in a character string
+```{r}
+new <- Query$new()$query('link', query)
+```
+
+Inspecting the schema
+```{r}
+new$link
+```
+
+Define a variable as a named list
+```{r}
+variable <- list(
+  code = "DE"
+)
+```
+
+Making a request, passing in the query and then the variables. Then you convert the raw object to a structured json object
+```{r}
+result <- conn$exec(new$link, variables = variable) %>% 
+  fromJSON(flatten = F)
+result
+```
+
+Convert the json data into a tibble object
+```{r}
+country_data <- result$data$country %>% 
+  as_tibble()
+country_data
+```
+
+## More examples
+Working with a GraphQL API without a defined variable named list
+
+```{r}
+link <- 'https://countries.trevorblades.com/'
+
+# R6 class for constructing graphql queries
+conn <- GraphqlClient$new(url = link)
+
+## Define query
+## Create a query class first
+qry <- Query$new()
+
+## The grahpql server schema 
+qry$query('x', '{
+continent(code: "AF") {
+    countries{
+    code
+    name
+    native
+    capital
+    currency
+    phone
+    languages {
+      name
+    }
+    }
+}
+  }
+          ')
+
+## Execute the query
+res <- conn$exec(qry$queries$x)
+
+# Convert the the output from raw to json format
+res <- jsonlite::fromJSON(res, 
+                          flatten = TRUE)
+
+## convert the from json to dataframe object
+res_data <- res$data$continent$countries %>% 
+  as.data.frame()
+
+## Inspect the first 6 rows of the data
+head(res_data)
+
+```
