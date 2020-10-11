@@ -18,7 +18,7 @@ tags:
   - rAltmetric
 description: "rOpenSci's europepmc and rAltmetric packages are used to auto-update
 the covidpreprints.com daily."
-twitterImg: blog/2020/10/13/covidpreprints/logo_twitter.png
+twitterImg: blog/2020/10/13/covidpreprints/graphical_abstract.png
 output: 
   html_document:
     keep_md: true
