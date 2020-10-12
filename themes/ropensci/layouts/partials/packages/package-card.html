@@ -1,5 +1,5 @@
 {{ if (or ( ne .package.type "archived" ) ( or ( ne .package.onboarding "") ( eq .package.staff_maintained true ) )) }}
-<div class="category-card row align-items-center" data-status="{{ .package.type }}" data-keywords="{{ .package.keywords }}" id="{{ .package.name }}">
+<div class="category-card row align-items-center" data-status="{{ .package.type | default (partial "packages/default-type" .) }}" data-keywords="{{ .package.keywords }}" id="{{ .package.name }}">
   <div class="col-md-8 offset-lg-1">
     <div class="category-card__heading">
       <div class="d-flex align-items-center flex-wrap">
