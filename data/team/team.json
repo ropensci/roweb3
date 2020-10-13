@@ -223,6 +223,19 @@
    "github": "ldecicco-USGS"
 },
 {
+   "name": "Julia Gustavsen",
+   "url": "https://www.juliagustavsen.com/",
+   "image" : "/img/team/julia-gustavsen.jpg",
+   
+   "affiliation" : "SOPHiA GENETICS",
+   "roles": [
+      "editor"
+   ],
+   "twitter": "JuliaGustavsen",
+   "github": "jooolia",
+   "home": "https://www.juliagustavsen.com/"
+},
+{
    "name": "Kelly Hondula",
    "url": "https://www.sesync.org/users/khondula",
    "image" : "/img/team/kelly-hondula.jpg",

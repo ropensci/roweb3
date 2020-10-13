@@ -16,12 +16,13 @@ tags:
   - packages
   - R
   - community
-# the summary below will be used by e.g. Twitter cards
+# The summary below will be used by e.g. Twitter cards
 description: "A very short summary of your post (~ 100 characters)"
 # If you have no preferred image for Twitter cards,
 # delete the twitterImg line below 
-# Note there is no '/' symbol before 'img' here
-# if needed replace blog with technotes
+# - Replace "blog" with "technotes" as needed
+# - Note no "/" symbol before "blog" here
+# - Note "/" between year/month/day
 twitterImg: blog/2019/06/04/post-template/name-of-image.png
 # 'output' is necessary to obtain index.md
 # Do not commit index.html
