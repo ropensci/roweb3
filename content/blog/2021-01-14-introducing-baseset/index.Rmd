@@ -6,8 +6,12 @@ date: '2021-01-14'
 slug: introducing-baseset
 categories: []
 tags:
-  - data-munging
   - BaseSet
+  - Software Peer Review
+  - data-munging
+  - R
+  - packages
+  - community
 package_version: 0.0.13
 description: ""
 twitterImg: blog/2021/01/14/introducing-baseset/name-of-image.png
@@ -15,17 +19,6 @@ output:
   html_document:
     keep_md: yes
 ---
-
-This is the R Markdown (.Rmd) template for a blog post or tech note. 
-To generate your post with just Markdown (.md), use that template instead.
-
-Throughout this template, including the YAML, 
-you should change "post-template" to the slug of your post, 
-and "2019-06-04" to your publication date.
-
-Save this file under /content/blog/YYYY-MM-DD-slug/index.Rmd in the local copy of your roweb3 fork.
-
-The chunk below ensures your plots will be inserted in the same folder as your Rmd so you can submit the bundle (.Rmd, .md, images) to roweb3.
 
 ```{r setup, include=FALSE}
 # Options to have images saved in the post folder
@@ -72,7 +65,13 @@ knitr::knit_hooks$set(
 
 The figure paths in the resulting Markdown will already be valid so you won't need to edit the Markdown file.
 
-## Section heading in sentence case
+## Introducing sets
+
+
+[Brief history](https://b101nfo.blogspot.com/2020/07/my-journey-on-bioconductor.html)
+
+When one `join_*` or `merge` two tables or you do an `intersection` and `setdiff` between two vectors you are using set operations coming from [set theory](https://en.wikipedia.org/wiki/Set_theory).
+Sets are closed groups of elements that have been studied for many years and have many utilities  
 
 Citation of the primary literature[^1]. 
 
