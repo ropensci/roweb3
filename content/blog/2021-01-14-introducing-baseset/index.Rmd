@@ -2,7 +2,7 @@
 title: Introducing BaseSet
 author:
   - Lluís Revilla Sancho
-date: '2020-10-14'
+date: '2021-01-14'
 slug: introducing-baseset
 categories: []
 tags:
