@@ -8,8 +8,8 @@ categories: []
 tags:
   - data-munging
   - BaseSet
-package_version: 0.1.0
-description: A very short summary of your post (~ 100 characters)
+package_version: 0.0.13
+description: ""
 twitterImg: blog/2021/01/14/introducing-baseset/name-of-image.png
 output:
   html_document:
