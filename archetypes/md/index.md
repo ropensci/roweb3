@@ -32,7 +32,7 @@ Throughout this template, including the YAML,
 you should change "post-template" to the slug of your post, 
 and "2019-06-04" to your publication date.
 
-Save this file under /content/blog/YYYY-MM-DD-slug/index.md in the local copy of your roweb2 fork.
+Save this file under /content/blog/YYYY-MM-DD-slug/index.md in the local copy of your roweb3 fork.
 
 ## Section heading in sentence case
 
