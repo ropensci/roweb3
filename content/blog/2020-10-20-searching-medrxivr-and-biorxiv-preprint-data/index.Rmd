@@ -35,7 +35,7 @@ library(ggplot2)
 
 However, the native search functionality available on the medRxiv website is not suitable for use in systematic reviews, due to a number of limitations. These limitations, presented below, prompted the development of [medrxivr](https://docs.ropensci.org/medrxivr/) R package which provides access to, and tools for searching, medRxiv preprint metadata. This post will also summarize the key functionality of the package with respect to two key use cases. Note that medrxivr allows users to access and search [bioRxiv](https://www.biorxiv.org/) as well as medRxiv preprint metadata , as both repositories are run by the Cold Spring Harbor Laboratory and so have a similar API endpoint/native website search functionality, but all illustrating examples in this post are taken from medRxiv.
 
-## Limitations of the native medRxiv website search functionality
+## Limitations of medRxiv website search functionality
 
 ### Confusing information about Boolean operators
 
