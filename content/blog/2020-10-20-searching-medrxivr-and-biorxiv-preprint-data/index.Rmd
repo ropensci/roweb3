@@ -47,7 +47,7 @@ One of the key assumptions of Boolean operators is that the order of the terms d
 
 ### Lack of reproducbility
 
-One of the key tenets of systematic reviews is that literature searches are transparent and reproducible - that is, that a certain search strategy (e.g. "(dementia OR alzheimer) AND lipids") will provide the same number of results each time it is performed. However, anecdotal evidence from information specialists and medical librarians suggests this is not the case for the medRxiv native search:
+One of the key tenets of systematic reviews is that literature searches are transparent and reproducible - that is, that a certain search strategy (e.g. "(dementia OR alzheimer) AND lipids") will provide the same number of results each time it is performed. However, anecdotal evidence from information specialists and medical librarians suggests that medRxiv's websearch returns inconsistent citations over time.
 
 <!--html_preserve-->
 {{< tweet 1293973175244656641 >}}
