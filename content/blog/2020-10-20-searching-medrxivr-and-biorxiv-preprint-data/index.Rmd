@@ -1,5 +1,5 @@
 ---
-title: Searching MedRxiv and Biorxiv Preprint Data
+title: Searching medRxiv and bioRxiv Preprint Data
 author:
   - Luke McGuinness
 date: '2020-10-20'
