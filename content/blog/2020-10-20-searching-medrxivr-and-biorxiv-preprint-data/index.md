@@ -27,9 +27,9 @@ output:
 
 
 # Background & motivation
+
 [medRxiv](https://www.medrxiv.org/), as the preprint repository for papers in the medical, clinical, and related health sciences,[^1] has become a central source of new studies related to the COVID-19 pandemic. As a result, more and more researchers have begun to include medRxiv in the list of bibliographic databases they search as part of systematic reviews, a type of study that aims to find and bring together all available evidence on a topic in order to provide a comprehensive answer to a research question.
 
-However, the native search functionality available on the medRxiv website is not suitable for use in systematic reviews, due to a number of limitations. These limitations, presented below, prompted the development of [medrxivr](https://docs.ropensci.org/medrxivr/) R package which provides access to, and tools for searching, medRxiv preprint metadata. This post will also summarize the key functionality of the package with respect to two key use cases. Note that medrxivr allows users to access and search [bioRxiv](https://www.biorxiv.org/) as well as medRxiv preprint metadata , as both repositories are run by the Cold Spring Harbor Laboratory and so have a similar API endpoint/native website search functionality, but all illustrating examples in this post are taken from medRxiv.
 
 ## Limitations of medRxiv website search functionality
 
@@ -126,7 +126,7 @@ Similarly, as screening through the full text PDFs of records returned by a sear
 
 ## Conclusion
 
-medRxiv is a fantastic resource and has been a key source of information related to the COVID-19 pandemic. However, some key issues with the website mean that its native search functionality precludes its use in systematic reviews. The medrxivr R package seeks to address these limitations by providing a user-friendly way to import and systematically search medRxiv and bioRxiv records in R. During development, medrxivr benefited from an rOpenSci peer review by [Tuija Sonkkila](https://github.com/tts) and [Najko Jahn](https://github.com/njahn82) - the full review thread is available [here](https://github.com/ropensci/software-review/issues/380). Full documentation of the package functionality, particularly around the implementation of complex search strategies using syntax such as wildcards and the NEAR operator, which is used to find co-located terms (e.g. "cholesterol NEAR2 test" find records where "cholesterol" and "test" are separated by two or less words), is available from the [medrxivr website](https://docs.ropensci.org/medrxivr/).
+medRxiv is a fantastic resource and has been a key source of information related to the COVID-19 pandemic. However, some key issues with the website mean that its native search functionality precludes its use in systematic reviews. The medrxivr R package seeks to address these limitations by providing a user-friendly way to import and systematically search medRxiv and bioRxiv records in R.  Full documentation of the package functionality, particularly around the implementation of complex search strategies using syntax such as wildcards and the NEAR operator, which is used to find co-located terms (e.g. "cholesterol NEAR2 test" find records where "cholesterol" and "test" are separated by two or less words), is available from the [medrxivr website](https://docs.ropensci.org/medrxivr/). Finally, I wanted to note that during development, medrxivr benefited immensely from an [rOpenSci peer review](https://github.com/ropensci/software-review/issues/380) by [Tuija Sonkkila](https://github.com/tts) and [Najko Jahn](https://github.com/njahn82).
 
 
 
