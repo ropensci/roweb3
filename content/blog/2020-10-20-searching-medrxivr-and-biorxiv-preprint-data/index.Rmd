@@ -30,7 +30,7 @@ library(dplyr)
 library(ggplot2)
 ```
 
-# Background & Motivation
+# Background & motivation
 [medRxiv](https://www.medrxiv.org/), as the preprint repository for papers in the medical, clinical, and related health sciences,[^1] has become a central source of new studies related to the COVID-19 pandemic. As a result, more and more researchers have begun to include medRxiv in the list of bibliographic databases they search as part of systematic reviews, a type of study that aims to find and bring together all available evidence on a topic in order to provide a comprehensive answer to a research question.
 
 However, the native search functionality available on the medRxiv website is not suitable for use in systematic reviews, due to a number of limitations. These limitations, presented below, prompted the development of [medrxivr](https://docs.ropensci.org/medrxivr/) R package which provides access to, and tools for searching, medRxiv preprint metadata. This post will also summarize the key functionality of the package with respect to two key use cases. Note that medrxivr allows users to access and search [bioRxiv](https://www.biorxiv.org/) as well as medRxiv preprint metadata , as both repositories are run by the Cold Spring Harbor Laboratory and so have a similar API endpoint/native website search functionality, but all illustrating examples in this post are taken from medRxiv.
