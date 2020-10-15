@@ -43,13 +43,9 @@ A key limitation of the native search on the medRxiv website comes from the use 
 
 One of the key assumptions of Boolean operators is that the order of the terms does not matter, i.e. that "(dementia OR alzheimer) AND lipids" is equivalent to "(alzheimer OR dementia) AND lipids". However, running these searches on the 13th Oct 2020, the first gives 133 results and the second gives 126. It is not clear what is happening behind the scenes, but there is potentially some weighting of terms based on proximity. This means that key records may be missed based on the arbitrary ordering of the search terms.
 
-<br>
-
 ### Lack of reproducbility
 
 One of the key tenets of systematic reviews is that literature searches are transparent and reproducible - that is, that a certain search strategy (e.g. "(dementia OR alzheimer) AND lipids") will provide the same number of results each time it is performed. However, anecdotal evidence from information specialists and medical librarians suggests that medRxiv's websearch returns inconsistent citations over time.
-
-<br>
 
 ### No batch export
 
