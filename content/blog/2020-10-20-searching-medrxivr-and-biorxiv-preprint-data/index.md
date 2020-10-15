@@ -41,7 +41,7 @@ One of the key assumptions of Boolean operators is that the order of the terms d
 
 ### Lack of reproducbility
 
-One of the key tenets of systematic reviews is that literature searches are transparent and reproducible - that is, that a certain search strategy (e.g. "(dementia OR alzheimer) AND lipids") will provide the same number of results each time it is performed. However, anecdotal evidence from information specialists and medical librarians suggests that medRxiv's websearch returns inconsistent citations over time.
+One of the key tenets of systematic reviews is that literature searches are transparent and reproducible - that is, that a certain search strategy (e.g. "(dementia OR alzheimer) AND lipids") will provide the same number of results each time it is performed. However, anecdotal evidence from information specialists and medical librarians suggests that medRxiv's web search returns inconsistent citations over time.
 
 ### No batch export
 
@@ -116,9 +116,9 @@ results <- mx_search(data = preprint_data,
 ## Found 48 record(s) matching your search.
 ```
 
-Once you have run your search, exporting the results to a .BIB file for import into a reference manager, such as Zotero or Mendeley, is a simply as passing the results object to the `mx_export()` function.
+Once you have run your search, exporting the results to a .BIB file for import into a reference manager, such as Zotero or Mendeley, is as simple as passing the results object to the `mx_export()` function.
 
-Similarly, as screening through the full text PDFs of records returned by a search against eligibility criteria forms a key part of a systematic review, a second helper function downloads the PDF for each record returned by `mx_search()`. Again, it is simply a case of passing the `results` object to the `mx_download()` function.
+Similarly, as screening the full text PDFs of records returned by a search against eligibility criteria forms a key part of a systematic review, a second helper function downloads the PDF for each record returned by `mx_search()`. Again, it is simply a case of passing the `results` object to the `mx_download()` function.
 
 ## Conclusion
 
