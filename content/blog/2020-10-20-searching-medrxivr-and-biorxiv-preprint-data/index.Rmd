@@ -80,6 +80,11 @@ In light of these limitations, below are two key use cases for the `medrxivr` pa
 The primary aim of `medrxivr` is to make it as easy as possible to get cleaned preprint metadata into R. This enables a range of exploratory analysis to be readily performed. For example, to explore the distribution of topic categories for those preprints posted to medRxiv in the first week of 2020, the following code can be used:
 
 ``` {r categories, eval = FALSE}
+# Load the packages
+library(medrxivr)
+library(dplyr)
+library(ggplot2)
+
 # Import the data from the 
 mx_data <- mx_api_content(from_date = "2020-01-01", to_date = "2020-01-07")
 
