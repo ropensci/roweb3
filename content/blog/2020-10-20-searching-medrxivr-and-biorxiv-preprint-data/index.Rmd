@@ -100,7 +100,7 @@ mx_data %>%
 {{< figure src = "categories-1.png" width = "600" alt = "Distribution of preprints posted to medRxiv in the first week of 2020 across topic categories." >}}
 <!--/html_preserve-->
 
-### Use Case #2 – Perform transparent and reproducible searches as part of a literature review, and export results
+### Use case #2 – Reproducible searching and exporting
 
 While being able to easily import medRxiv data is useful, as a systematic reviewer, my main interest is in what `medrxivr` allows you to do once you have imported it. As mentioned in the section above, the native medRxiv website search interface is neither reproducible nor transparent. The second core aspect of `medrxivr`'s functionality is designed to address this, allowing information specialists to build complex searches and find records contained in the medRxiv databases that match the criteria, all while documenting their search strategy. An example is given below, where a researcher is looking for records that contain both dementia-related and lipid-related terms:
 
