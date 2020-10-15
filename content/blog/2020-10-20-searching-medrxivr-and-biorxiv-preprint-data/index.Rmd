@@ -75,7 +75,7 @@ This means that records returned by a search must be exported by hand in small b
 
 In light of these limitations, below are two key use cases for the `medrxivr` package.
 
-### Use Case #1 – Get preprint metadata in R
+### Use case #1 – Get preprint metadata in R
 
 The primary aim of `medrxivr` is to make it as easy as possible to get cleaned preprint metadata into R. This enables a range of exploratory analysis to be readily performed. For example, to explore the distribution of topic categories for those preprints posted to medRxiv in the first week of 2020, the following code can be used:
 
