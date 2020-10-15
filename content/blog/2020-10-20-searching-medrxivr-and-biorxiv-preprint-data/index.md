@@ -1,5 +1,5 @@
 ---
-title: Searching MedRxiv and Biorxiv Preprint Data
+title: Searching medRxiv and bioRxiv Preprint Data
 author:
   - Luke McGuinness
 date: '2020-10-20'
@@ -26,12 +26,12 @@ output:
 
 
 
-# Background & Motivation
+# Background & motivation
 [medRxiv](https://www.medrxiv.org/), as the preprint repository for papers in the medical, clinical, and related health sciences,[^1] has become a central source of new studies related to the COVID-19 pandemic. As a result, more and more researchers have begun to include medRxiv in the list of bibliographic databases they search as part of systematic reviews, a type of study that aims to find and bring together all available evidence on a topic in order to provide a comprehensive answer to a research question.
 
-However, the native search functionality available on the medRxiv website is not suitable for use in systematic reviews, due to a number of limitations. These limitations, presented below, prompted the development of `medrxivr` R package which provides access to, and tools for searching, medRxiv preprint metadata. This post will also summarize the key functionality of the package with respect to two key use cases. Note that `medrxivr` allows users to access and search bioRxiv as well as medRxiv preprint metadata , as both repositories are run by the Cold Spring Harbor Laboratory and so have a similar API endpoint/native website search functionality, but all illustrating examples in this post are taken from medRxiv.
+However, the native search functionality available on the medRxiv website is not suitable for use in systematic reviews, due to a number of limitations. These limitations, presented below, prompted the development of [medrxivr](https://docs.ropensci.org/medrxivr/) R package which provides access to, and tools for searching, medRxiv preprint metadata. This post will also summarize the key functionality of the package with respect to two key use cases. Note that medrxivr allows users to access and search [bioRxiv](https://www.biorxiv.org/) as well as medRxiv preprint metadata , as both repositories are run by the Cold Spring Harbor Laboratory and so have a similar API endpoint/native website search functionality, but all illustrating examples in this post are taken from medRxiv.
 
-## Limitations of the native medRxiv website search functionality
+## Limitations of medRxiv website search functionality
 
 ### Confusing information about Boolean operators
 
@@ -43,25 +43,13 @@ One of the key assumptions of Boolean operators is that the order of the terms d
 
 ### Lack of reproducbility
 
-One of the key tenets of systematic reviews is that literature searches are transparent and reproducible - that is, that a certain search strategy (e.g. "(dementia OR alzheimer) AND lipids") will provide the same number of results each time it is performed. However, anecdotal evidence from information specialists and medical librarians suggests this is not the case for the medRxiv native search:
-
-<!--html_preserve-->
-{{< tweet 1293973175244656641 >}}
-<!--/html_preserve-->
+One of the key tenets of systematic reviews is that literature searches are transparent and reproducible - that is, that a certain search strategy (e.g. "(dementia OR alzheimer) AND lipids") will provide the same number of results each time it is performed. However, anecdotal evidence from information specialists and medical librarians suggests that medRxiv's websearch returns inconsistent citations over time.
 
 <br>
 
 ### No batch export
 
-Any systematic reviewer will tell you that for a database to be useful as an information source, the one thing it **needs** to have is an option to export the results of a given search _en masse_. At present, this is not something the medRxiv website supports:
-
-<!--html_preserve-->
-{{< tweet 1244905414019428353 >}}
-<!--/html_preserve-->
-
-<!--html_preserve-->
-{{< tweet 1255485844783325185 >}}
-<!--/html_preserve-->
+Any systematic reviewer will tell you that for a database to be useful as an information source, the one thing it **needs** to have is an option to export the results of a given search _en masse_. At present, this is not something the medRxiv website supports.
 
 This means that records returned by a search must be exported by hand in small batches, an error-prone and time-consuming (not to mention anger-inducing!) method of extracting citations from a bibliographic database.
 
@@ -69,15 +57,20 @@ This means that records returned by a search must be exported by hand in small b
 
 ## Use cases
 
-In light of these limitations, below are two key use cases for the `medrxivr` package.
+In light of these limitations, below are two key use cases for the medrxivr package.
 
-### Use Case #1 – Get preprint metadata in R
+### Use case #1 – Get preprint metadata in R
 
-The primary aim of `medrxivr` is to make it as easy as possible to get cleaned preprint metadata into R. This enables a range of exploratory analysis to be readily performed. For example, to explore the distribution of topic categories for those preprints posted to medRxiv in the first week of 2020, the following code can be used:
+The primary aim of medrxivr is to make it as easy as possible to get cleaned preprint metadata into R. This enables a range of exploratory analysis to be readily performed. For example, to explore the distribution of topic categories for those preprints posted to medRxiv in the first week of 2020, the following code can be used:
 
 
 ```r
-# Import the data from the 
+# Load the packages
+library(medrxivr)
+library(dplyr)
+library(ggplot2)
+
+# Import the data from medRxiv API endpoint
 mx_data <- mx_api_content(from_date = "2020-01-01", to_date = "2020-01-07")
 
 # Create the graph 
@@ -97,19 +90,19 @@ mx_data %>%
 {{< figure src = "categories-1.png" width = "600" alt = "Distribution of preprints posted to medRxiv in the first week of 2020 across topic categories." >}}
 <!--/html_preserve-->
 
-### Use Case #2 – Perform transparent and reproducible searches as part of a literature review, and export results
+### Use case #2 – Reproducible searching and exporting
 
-While being able to easily import medRxiv data is useful, as a systematic reviewer, my main interest is in what `medrxivr` allows you to do once you have imported it. As mentioned in the section above, the native medRxiv website search interface is neither reproducible nor transparent. The second core aspect of `medrxivr`'s functionality is designed to address this, allowing information specialists to build complex searches and find records contained in the medRxiv databases that match the criteria, all while documenting their search strategy. An example is given below, where a researcher is looking for records that contain both dementia-related and lipid-related terms:
+While being able to easily import medRxiv data is useful, as a systematic reviewer, my main interest is in what medrxivr allows you to do once you have imported a local copy of the database. As mentioned in the section above, the native medRxiv website search interface is neither reproducible nor transparent, and while the API (accessed via `mx_api_content()`) is great for accessing medRxiv metadata, it does not have offer any search functionality. The second core aspect of medrxivr's functionality is designed to address these limitations, allowing information specialists to build complex searches and apply them to a local copy of the medRxiv database, all while documenting their search strategy in a transparent manner. An example is given below, where a researcher is looking for records that contain both dementia-related and lipid-related terms:
 
 
 ```r
 # Use the maintained snapshot to quickly load today's copy of the medRxiv database
-# Note - this could be saved in your project repo to ensure reproducibility
+# Note - this `preprint_data` object could be saved as a CSV in your project repository to aid reproducibility
 preprint_data <- mx_snapshot()
 ```
 
 ```
-## Using medRxiv snapshot - 2020-10-14 00:31
+## Using medRxiv snapshot - 2020-10-15 00:30
 ```
 
 ```r
@@ -124,7 +117,7 @@ results <- mx_search(data = preprint_data,
 ```
 
 ```
-## Found 47 record(s) matching your search.
+## Found 48 record(s) matching your search.
 ```
 
 Once you have run your search, exporting the results to a .BIB file for import into a reference manager, such as Zotero or Mendeley, is a simply as passing the results object to the `mx_export()` function.
@@ -133,7 +126,8 @@ Similarly, as screening through the full text PDFs of records returned by a sear
 
 ## Conclusion
 
-medRxiv is a fantastic resource and has been a key source of information related to the COVID-19 pandemic. However, some key issues with the website mean that its native search functionality precludes its use in systematic reviews. The `medrxivr` R package seeks to address these limitations by providing a user-friendly way to import and systematically search medRxiv and bioRxiv records in R. Full documentation on the functionality, particularly around the implementation of complex search strategies using syntax such as wildcards and NEAR, is available from the [package website](https://docs.ropensci.org/medrxivr/).
+medRxiv is a fantastic resource and has been a key source of information related to the COVID-19 pandemic. However, some key issues with the website mean that its native search functionality precludes its use in systematic reviews. The medrxivr R package seeks to address these limitations by providing a user-friendly way to import and systematically search medRxiv and bioRxiv records in R. During development, medrxivr benefited from an rOpenSci peer review by [Tuija Sonkkila](https://github.com/tts) and [Najko Jahn](https://github.com/njahn82) - the full review thread is available [here](https://github.com/ropensci/software-review/issues/380). Full documentation of the package functionality, particularly around the implementation of complex search strategies using syntax such as wildcards and the NEAR operator, which is used to find co-located terms (e.g. "cholesterol NEAR2 test" find records where "cholesterol" and "test" are separated by two or less words), is available from the [medrxivr website](https://docs.ropensci.org/medrxivr/).
+
+
 
 [^1]: Rawlinson, C., & Bloom, T. (2019). New preprint server for medical research. BMJ, 365. <https://doi.org/doi:10.1136/bmj.l2301>
-
