@@ -128,4 +128,4 @@ We create a newsletter every two weeks. You can subscribe via rss feed in [XML](
 
 Follow [@rOpenSci](https://twitter.com/ropensci) on Twitter.
 
-Find out how you can [contribute](https://devguide.ropensci.org/contributingguide.html) to rOpenSci as a user or developer.
+Find out how you can [contribute](https://contributing.ropensci.org/) to rOpenSci as a user or developer.
