@@ -108,6 +108,8 @@ myquery <- list(topic1, topic2)                    # Combined with Boolean AND
 # Run your search
 results <- mx_search(data = preprint_data,
                      query = myquery)
+
+# Let's have a look at the returned records
 results
 ```
 

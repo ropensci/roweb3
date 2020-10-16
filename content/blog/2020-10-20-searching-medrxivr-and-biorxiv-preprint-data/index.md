@@ -88,17 +88,18 @@ mx_data %>%
 
 ### Use case #2 – Reproducible searching and exporting
 
-While being able to easily import medRxiv data is useful, as a systematic reviewer, my main interest is in what medrxivr allows you to do once you have imported a local copy of the database. As mentioned in the section above, the native medRxiv website search interface is neither reproducible nor transparent, and while the API (accessed via `mx_api_content()`) is great for accessing medRxiv metadata, it does not have offer any search functionality. The second core aspect of medrxivr's functionality is designed to address these limitations, allowing information specialists to build complex searches and apply them to a local copy of the medRxiv database, all while documenting their search strategy in a transparent manner. An example is given below, where a researcher is looking for records that contain both dementia-related and lipid-related terms:
+While being able to easily import medRxiv data is useful, as a systematic reviewer, my main interest is in what medrxivr allows you to do once you have imported a local copy of the database. As mentioned in the section above, the native medRxiv website search interface is neither reproducible nor transparent, and while the API (accessed via `mx_api_content()`) is great for accessing medRxiv metadata, it does not offer any search functionality. The second core aspect of medrxivr's functionality is designed to address these limitations, allowing information specialists to build complex searches and apply them to a local copy of the medRxiv database, all while documenting their search strategy in a transparent manner. An example is given below, where a researcher is looking for records that contain both dementia-related and lipid-related terms:
 
 
 ```r
 # Use the maintained snapshot to quickly load today's copy of the medRxiv database
-# Note - this `preprint_data` object could be saved as a CSV in your project repository to aid reproducibility
+# Note - this `preprint_data` object could be saved as a CSV in your project 
+#        repository to aid reproducibility
 preprint_data <- mx_snapshot()
 ```
 
 ```
-## Using medRxiv snapshot - 2020-10-15 00:30
+## Using medRxiv snapshot - 2020-10-16 00:33
 ```
 
 ```r
@@ -114,6 +115,29 @@ results <- mx_search(data = preprint_data,
 
 ```
 ## Found 48 record(s) matching your search.
+```
+
+```r
+# Let's have a look at the returned records
+results
+```
+
+```
+## # A tibble: 48 x 14
+##       ID title abstract authors date       category doi   version author_correspo~ author_correspo~
+##    <dbl> <chr> <chr>    <chr>   <date>     <chr>    <chr>   <dbl> <chr>            <chr>           
+##  1   184 Exce~ "Object~ De Lim~ 2019-07-25 Cardiov~ 10.1~       1 Andrei C Sposito "Laboratory of ~
+##  2   281 Peri~ "Introd~ Newton~ 2019-08-14 Addicti~ 10.1~       1 Dwight F Newton  "University of ~
+##  3   284 A co~ "Object~ Moriar~ 2019-08-15 Cardiov~ 10.1~       1 Mark H Ebell     "University of ~
+##  4   341 Apol~ "Backgr~ Richar~ 2019-08-29 Cardiov~ 10.1~       1 Tom G Richardson "University of ~
+##  5   307 Comp~ "Owing ~ Batty,~ 2019-08-17 Epidemi~ 10.1~       1 George David Ba~ "University Col~
+##  6   473 Self~ "Backgr~ Grover~ 2019-09-23 Cardiov~ 10.1~       1 Abhinav Grover   "University of ~
+##  7   643 Tren~ "Object~ Curtis~ 2019-10-18 Cardiov~ 10.1~       1 Ben Goldacre     "University of ~
+##  8   978 Does~ "OBJECT~ Harber~ 2019-11-29 Endocri~ 10.1~       1 Lisa Harber-Asc~ "King\\'s Colle~
+##  9  1085 Asse~ "Backgr~ Finner~ 2019-12-14 Cardiov~ 10.1~       1 Pradeep Nataraj~ "Massachusetts ~
+## 10  1333 Idea~ "BACKGR~ Mckenz~ 2020-01-16 Epidemi~ 10.1~       1 Trevor S Fergus~ "Caribbean Inst~
+## # ... with 38 more rows, and 4 more variables: link_page <chr>, link_pdf <chr>, license <chr>,
+## #   published <chr>
 ```
 
 Once you have run your search, exporting the results to a .BIB file for import into a reference manager, such as Zotero or Mendeley, is as simple as passing the results object to the `mx_export()` function.
