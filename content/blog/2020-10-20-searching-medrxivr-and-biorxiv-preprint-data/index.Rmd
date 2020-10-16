@@ -107,7 +107,7 @@ myquery <- list(topic1, topic2)                    # Combined with Boolean AND
 # Run your search
 results <- mx_search(data = preprint_data,
                      query = myquery)
-
+results
 ```
 
 Once you have run your search, exporting the results to a .BIB file for import into a reference manager, such as Zotero or Mendeley, is as simple as passing the results object to the `mx_export()` function.
