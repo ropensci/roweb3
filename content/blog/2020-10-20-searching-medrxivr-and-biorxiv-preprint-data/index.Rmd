@@ -96,7 +96,8 @@ While being able to easily import medRxiv data is useful, as a systematic review
 ``` {r, R.options=list(width=100)}
 
 # Use the maintained snapshot to quickly load today's copy of the medRxiv database
-# Note - this `preprint_data` object could be saved as a CSV in your project repository to aid reproducibility
+# Note - this `preprint_data` object could be saved as a CSV in your project 
+#        repository to aid reproducibility
 preprint_data <- mx_snapshot()
 
 # Build your search
