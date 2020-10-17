@@ -43,9 +43,9 @@
               <div class="category-cards">
                 {{ $pkgcitations := $citations }}
                 {{ if eq .Params.slug "all" }}
-                {{ $Scratch.Set "pkgs" (sort $registry.packages "name" ) }}
+                {{ $Scratch.Set "pkgs" (sort $registry.packages "date_last_commit" "desc" ) }}
                 {{ else }}
-                {{ $Scratch.Set "pkgs" (sort ( where ($registry.packages) "ropensci_category" .Params.slug )) }}
+                {{ $Scratch.Set "pkgs" (sort ( where ($registry.packages) "ropensci_category" .Params.slug ) "date_last_commit" "desc" ) }}
                 {{ end }}
                 {{ range ($Scratch.Get "pkgs") }}
                   {{ $Scratch.Set "citations" (where ($citations) "name" "intersect" (slice .name )) }}

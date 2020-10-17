@@ -18,6 +18,6 @@ rOpenSci is currently working to expand our peer review system beyond its curren
 11. Time Series Analyses
 
 
-Our process to develop these standards is primarily documented and organised through our online ["living document"](https://ropenscilabs.github.io/statistical-software-peer-review/index.html). We anticipate the system being ready for initial submissions early in 2021. Until then, we welcome any enquiries from anyone interested in engaging with the system, including developers who might be interested in pre-submission enquiries. Please contribute via our [discussion forum](https://discuss.ropensci.org/c/statistical-software-peer-review/28), or contact Mark Padgham (mark@ropensci.org).
+Our process to develop these standards is primarily documented and organised through our online ["living document"](https://ropenscilabs.github.io/statistical-software-review-book/index.html). We anticipate the system being ready for initial submissions early in 2021. Until then, we welcome any enquiries from anyone interested in engaging with the system, including developers who might be interested in pre-submission enquiries. Please contribute via our [discussion forum](https://discuss.ropensci.org/c/statistical-software-peer-review/28), or contact Mark Padgham (mark@ropensci.org).
 
 This work is supported through a [grant from the Alfred P. Sloan Foundation](/blog/2019/07/15/expanding-software-review/).

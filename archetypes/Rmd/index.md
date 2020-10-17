@@ -16,12 +16,13 @@ tags:
   - packages
   - R
   - community
-# the summary below will be used by e.g. Twitter cards
+# The summary below will be used by e.g. Twitter cards
 description: "A very short summary of your post (~ 100 characters)"
 # If you have no preferred image for Twitter cards,
 # delete the twitterImg line below 
-# Note there is no '/' symbol before 'img' here
-# if needed replace blog with technotes
+# - Replace "blog" with "technotes" as needed
+# - Note no "/" symbol before "blog" here
+# - Note "/" between year/month/day
 twitterImg: blog/2019/06/04/post-template/name-of-image.png
 # 'output' is necessary to obtain index.md
 # Do not commit index.html
@@ -37,9 +38,9 @@ Throughout this template, including the YAML,
 you should change "post-template" to the slug of your post, 
 and "2019-06-04" to your publication date.
 
-Save this file under /content/blog/YYYY-MM-DD-slug/index.Rmd in the local copy of your roweb2 fork.
+Save this file under /content/blog/YYYY-MM-DD-slug/index.Rmd in the local copy of your roweb3 fork.
 
-The chunk below ensures your plots will be inserted in the same folder as your Rmd so you can submit the bundle (.Rmd, .md, images) to roweb2.
+The chunk below ensures your plots will be inserted in the same folder as your Rmd so you can submit the bundle (.Rmd, .md, images) to roweb3.
 
 ```{r setup, include=FALSE}
 # Options to have images saved in the post folder
