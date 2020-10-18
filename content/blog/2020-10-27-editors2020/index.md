@@ -53,13 +53,21 @@ Julia on [GitHub](https://github.com/jooolia), [Twitter](https://twitter.com/Jul
 
 {{< imgtxt src = "/img/team/mauro-lepore.jpg" width = "200" alt = "headshot of Mauro Lepore" >}}
 
-Mauro Lepore is ... bioMauro Lepore is ... bioMauro Lepore is ... bioMauro Lepore is ... bioMauro Lepore is ... bioMauro Lepore is ... bioMauro Lepore is ... bioMauro Lepore is ... bioMauro Lepore is ... bioMauro Lepore is ... bioMauro Lepore is ... bioMauro Lepore is ... bioMauro Lepore is ... bioMauro Lepore is ... bioMauro Lepore is ... bioMauro Lepore is ... bioMauro Lepore is ... bio
+Mauro builds R packages for the think tank [2 Degrees Investing
+Initiative](https://2degrees-investing.org/). His PhD
+([UQ](https://www.uq.edu.au/)) and post-doctoral reserach
+([STRI](https://stri.si.edu/)) studied human impacts on coral reefs from
+Australia and Panama. Since 2017 he teaches data-science and builds research
+software. He co-authors the package
+[datos](https://CRAN.R-project.org/package=datos) to translate the dataset from
+the book [R for Data Science](https://r4ds.had.co.nz/) to Spanish; and reviewed
+the rOpenSci package
+[gitignore](https://github.com/ropensci/software-review/issues/303) and edited
+[medrxivr](https://github.com/ropensci/software-review/issues/380).
 
 {{< /imgtxt >}}
 
-Mauro on [GitHub](https://github.com/maurolepore), [Twitter](https://twitter.com/mauro_lepore), [website](https://maurolepore.github.io/)
+Mauro on [GitHub](https://github.com/maurolepore), [Twitter](https://twitter.com/mauro_lepore)
 
-> quote
-
-
+> I learned to build software in a job where I had no mentor; but I got the support I needed from the rOpenSci community. Having the opportunity to give back is exiting -- specially now that the R community is thriving in Latin America, and rOpenSci will experiment doing reviews in Spanish.
 
