@@ -39,14 +39,14 @@ Laura on [GitHub](https://github.com/ldecicco-USGS), [Twitter](https://twitter.c
 
 {{< imgtxt src = "/img/team/julia-gustavsen.jpg" width = "200" alt = "headshot of Julia Gustavsen" >}} 
 
-Julia Gustavsen is ... bioJulia Gustavsen is ... bioJulia Gustavsen is ... bioJulia Gustavsen is ... bioJulia Gustavsen is ... bioJulia Gustavsen is ... bioJulia Gustavsen is ... bioJulia Gustavsen is ... bioJulia Gustavsen is ... bioJulia Gustavsen is ... bioJulia Gustavsen is ... bioJulia Gustavsen is ... bioJulia Gustavsen is ... bioJulia Gustavsen is ... bioJulia Gustavsen is ... bioJulia Gustavsen is ... bio
+Julia Gustavsen is a Bioinformatician at the health-tech company [SOPHiA GENETICS](https://www.sophiagenetics.com/) in Lausanne (Switzerland). Julia honed her bioinformatics skills during her PhD in marine microbial ecology from the University of British Columbia (Canada). Julia is a co-maintainer of [rsnps](https://github.com/ropensci/rsnps) and has enjoyed reviewing packages for rOpenSci since 2015. 
 
 {{< /imgtxt >}}
 
 
 Julia on [GitHub](https://github.com/jooolia), [Twitter](https://twitter.com/JuliaGustavsen), [website](https://www.juliagustavsen.com/)
 
-> quote
+> Being a reviewer for rOpenSci packages has improved my R coding skills, and increased my knowledge of package development. Also, I have enjoyed being part of the welcoming and inclusive community that rOpenSci has cultivated. I am excited for the chance to view this process through another lens as an editor, and to continue to gain more experience with R packages for scientific applications. 
 
 
 ## Mauro Lepore
