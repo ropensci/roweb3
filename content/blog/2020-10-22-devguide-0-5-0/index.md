@@ -41,7 +41,7 @@ _This chapter summarizes a proposed curation policy for rOpenSci’s ongoing mai
 
 * _Provide a mechanism to gracefully sunset packages while maintaining peer-review badging._
 
-Noam Ross lead the work drafting the policy, and rOpenSci staff is busy cleaning up repositories and their metadata.
+Noam Ross led the work drafting the policy, and rOpenSci staff are busy cleaning up repositories and associated metadata.
 
 ## Guidance for package docs
 
