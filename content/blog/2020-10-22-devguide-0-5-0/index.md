@@ -79,7 +79,7 @@ Next, the chapter about package evolution (your reference if you are thinking ab
 Thanks [Scott Chamberlain](/author/scott-chamberlain) for the contribution, and thanks to [Jindra Lacko](https://www.jla-data.net/) and [John Blischak](https://jdblischak.com/) for [their discussion on RStudio community forum](https://community.rstudio.com/t/unit-testing-of-a-deprecated-function/42837/) that inspired this addition.
 
 
-## A reference to rOpenSci other best guide :wink:
+## A reference to rOpenSci's other best guide :wink:
 
 Our guide featured a quite light chapter about [Contributing to rOpenSci](https://devguide.ropensci.org/contributingguide.html).
 Now that rOpenSci Community Manager Stefanie Butland and Community Assistant Steffi LaZerte have written a whole guide about this topic, the chapter has been transformed into a teaser for it!
