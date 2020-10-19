@@ -75,7 +75,7 @@ The updates feature two small but useful changes to our testing guidance.
 First, we updated our [continuous integration guidance](https://devguide.ropensci.org/ci.html#whichci) by making GitHub Actions come first, as it seems to be gaining popularity. Thanks to [Luke McGuinness](https://github.com/mcguinlu) for initiating the [discussion](https://github.com/ropensci/dev_guide/issues/269) right after having a package reviewed and to [Hugo Gruson](https://github.com/bisaloo) for sharing his insights.
 Authors (and reviewers), your fresh perspective on guidance and processes is most welcome!
 
-Then, the chapter about package evolution (your reference if you are thinking about deprecating functions!) now includes guidance about testing deprecated functions. 
+Next, the chapter about package evolution (your reference if you are thinking about deprecating functions!) now includes guidance about testing deprecated functions. 
 Thanks [Scott Chamberlain](/author/scott-chamberlain) for the contribution, and thanks to [Jindra Lacko](https://www.jla-data.net/) and [John Blischak](https://jdblischak.com/) for [their discussion on RStudio community forum](https://community.rstudio.com/t/unit-testing-of-a-deprecated-function/42837/) that inspired this addition.
 
 
