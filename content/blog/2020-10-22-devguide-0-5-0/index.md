@@ -45,7 +45,7 @@ Noam Ross led the work drafting the policy, and rOpenSci staff are busy cleaning
 
 ## Guidance for package docs
 
-Our requests and tips around package documentation got also some care thanks to suggestions by editor Anna Krystalli, and by [Mark Padgham](https://github.com/mpadge), [Luke McGuinness](https://github.com/mcguinlu).
+Our requests and tips for package documentation also got some care thanks to suggestions by editor Anna Krystalli, as well as by [Mark Padgham](https://github.com/mpadge) and [Luke McGuinness](https://github.com/mcguinlu).
 
 The [documentation section](https://devguide.ropensci.org/building.html#documentation) of the packaging guide got structured, for clarity, into a general section where we now underline the need for excellent documentation at submission; a section about roxygen2 use; and a section about URLs in package documentation to explain how to check and correct those before CRAN submissions.
 
