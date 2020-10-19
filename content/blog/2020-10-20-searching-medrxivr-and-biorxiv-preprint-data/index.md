@@ -30,6 +30,7 @@ output:
 
 [medRxiv](https://www.medrxiv.org/), as the preprint repository for papers in the medical, clinical, and related health sciences,[^1] has become a central source of new studies related to the COVID-19 pandemic. As a result, more and more researchers have begun to include medRxiv in the list of bibliographic databases they search as part of systematic reviews, a type of study that aims to find and bring together all available evidence on a topic in order to provide a comprehensive answer to a research question.
 
+However, the native search functionality available on the medRxiv website is not suitable for use in systematic reviews due to a number of limitations. This prompted the development of [medrxivr](https://docs.ropensci.org/medrxivr), an R package which provides access to, and tools for searching, medRxiv and bioRxiv preprint metadata. This post will detail the limitations of the native medRxiv search and summarize the key functionality of medrxivr via two key use cases. Note that while medrxivr allows users to access and search medrxiv and bioRxiv preprint metadata as both repositories are run by the Cold Spring Harbor Laboratory and so have a similar API endpoint/native website search functionality, all illustrating examples in this post are taken from medRxiv.
 
 ## Limitations of medRxiv website search functionality
 
@@ -99,7 +100,7 @@ preprint_data <- mx_snapshot()
 ```
 
 ```
-## Using medRxiv snapshot - 2020-10-16 00:33
+## Using medRxiv snapshot - 2020-10-19 00:32
 ```
 
 ```r
