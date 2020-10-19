@@ -25,7 +25,7 @@ rOpenSci Software Peer Review's guidance has been compiled in [an online book](h
 To find out what's new in our dev guide 0.5.0, you can [read the changelog](https://devguide.ropensci.org/booknews.html), 
 or this blog post for more digested information.
 
-> We have resumed activity after a break due to the COVID-19 crisis, but have been handling deadlines and timing giving a lot of grace to all people involved: We're all doing our best and are trying to be accommodating with schedules this challenging year.
+> We have resumed activity after a break due to the COVID-19 crisis, but are being gentle with deadlines and timing, giving a lot of grace to all people involved. We're all doing our best and rOpenSci is trying to be accommodating with schedules during this challenging year.
 
 ## A curation policy for rOpenSci packages
 
