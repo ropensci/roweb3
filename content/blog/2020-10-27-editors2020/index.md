@@ -73,6 +73,6 @@ Mauro on [GitHub](https://github.com/maurolepore), [Twitter](https://twitter.com
 ## Resources
 
 - About [rOpenSci Software Peer Review](/software-review/)
-- [rOpenSci Packages: Development, Maintenance, and Peer Review](https://devguide.ropensci.org/)
+- Browse the online book [rOpenSci Packages: Development, Maintenance, and Peer Review](https://devguide.ropensci.org/)
 - Read public [software review threads on GitHub](https://github.com/ropensci/software-review/issues)
 
