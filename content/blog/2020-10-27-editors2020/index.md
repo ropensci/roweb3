@@ -23,15 +23,14 @@ Meet our new editors!
 
 ## Laura DeCicco
 
-{{< imgtxt src = "/img/team/laura-decicco.jpg" width = "200" alt = "photo of Laura DeCicco holding a small crocodilian-looking reptile">}} 
+{{< imgtxt src = "laura-decicco.jpg" width = "200" alt = "photo of Laura DeCicco with backdrop of treetops in autumn leaf colors">}} 
 
-Laura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... bioLaura is ... 
-
+Laura is an engineer for the [U.S. Geological Survey](https://www.usgs.gov/staff-profiles/laura-decicco), with a PhD in mechanical engineering. She’s the lead developer on several R packages in the USGS such as [dataRetrieval](http://usgs-r.github.io/dataRetrieval), [EGRET](http://usgs-r.github.io/EGRET/), and [toxEval](http://usgs-r.github.io/toxEval). She’s attended 2 rOpenSci Unconfs (2017 and 2018), participating on the roomba and checkers packages. Laura has reviewed 4 rOpenSci packages ([tidyhydat](https://docs.ropensci.org/tidyhydat/), [smapr](https://docs.ropensci.org/smapr/),  [wateRinfo](https://docs.ropensci.org/wateRinfo/), and [tic](https://docs.ropensci.org/tic/)). 
 {{< /imgtxt >}}
 
 Laura on [GitHub](https://github.com/ldecicco-USGS), [Twitter](https://twitter.com/DeCiccoDonk)
 
-> quote
+> I’ve been so lucky to have many talented co-workers and collaborators that have mentored my software development progress over the years. Those same values of technical best practices AND building up a supportive community are shown in the rOpenSci software review process. I am looking forward to learning about more new rOpenSci tools and people! 
 
 
 
