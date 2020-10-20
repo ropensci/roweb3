@@ -25,10 +25,10 @@ Meet our new editors!
 
 {{< imgtxt src = "laura-decicco.jpg" width = "200" alt = "photo of Laura DeCicco with backdrop of treetops in autumn leaf colors">}} 
 
-Laura is an engineer for the [U.S. Geological Survey](https://www.usgs.gov/staff-profiles/laura-decicco), with a PhD in mechanical engineering. She’s the lead developer on several R packages in the USGS such as [dataRetrieval](http://usgs-r.github.io/dataRetrieval), [EGRET](http://usgs-r.github.io/EGRET/), and [toxEval](http://usgs-r.github.io/toxEval). She’s attended 2 rOpenSci Unconfs (2017 and 2018), participating on the roomba and checkers packages. Laura has reviewed 4 rOpenSci packages ([tidyhydat](https://docs.ropensci.org/tidyhydat/), [smapr](https://docs.ropensci.org/smapr/),  [wateRinfo](https://docs.ropensci.org/wateRinfo/), and [tic](https://docs.ropensci.org/tic/)). 
+Laura is an engineer for the [U.S. Geological Survey](https://www.usgs.gov/staff-profiles/laura-decicco), with a PhD in mechanical engineering. She’s the lead developer on several R packages in the USGS such as [dataRetrieval](http://usgs-r.github.io/dataRetrieval), [EGRET](http://usgs-r.github.io/EGRET/), and [toxEval](http://usgs-r.github.io/toxEval). She’s attended 2 rOpenSci Unconfs ([2017](/blog/2017/06/02/unconf2017/) and [2018](/blog/2018/06/05/unconf18/)), participating on the roomba and checkers packages. Laura has reviewed 4 rOpenSci packages ([tidyhydat](https://docs.ropensci.org/tidyhydat/), [smapr](https://docs.ropensci.org/smapr/),  [wateRinfo](https://docs.ropensci.org/wateRinfo/), and [tic](https://docs.ropensci.org/tic/)). 
 {{< /imgtxt >}}
 
-Laura on [GitHub](https://github.com/ldecicco-USGS), [Twitter](https://twitter.com/DeCiccoDonk)
+Laura on [GitHub](https://github.com/ldecicco-USGS), [Twitter](https://twitter.com/DeCiccoDonk), [rOpenSci](/author/laura-decicco/)
 
 > I’ve been so lucky to have many talented co-workers and collaborators that have mentored my software development progress over the years. Those same values of technical best practices AND building up a supportive community are shown in the rOpenSci software review process. I am looking forward to learning about more new rOpenSci tools and people! 
 
@@ -38,12 +38,12 @@ Laura on [GitHub](https://github.com/ldecicco-USGS), [Twitter](https://twitter.c
 
 {{< imgtxt src = "/img/team/julia-gustavsen.jpg" width = "200" alt = "headshot of Julia Gustavsen" >}} 
 
-Julia Gustavsen is a Bioinformatician at the health-tech company [SOPHiA GENETICS](https://www.sophiagenetics.com/) in Lausanne (Switzerland). Julia honed her bioinformatics skills during her PhD in marine microbial ecology from the University of British Columbia (Canada). Julia is a co-maintainer of [rsnps](https://docs.ropensci.org/rsnps) and has enjoyed reviewing packages for rOpenSci since 2015. 
+Julia is a Bioinformatician at the health-tech company [SOPHiA GENETICS](https://www.sophiagenetics.com/) in Lausanne (Switzerland). Julia honed her bioinformatics skills during her PhD in marine microbial ecology from the University of British Columbia (Canada). Julia is a co-maintainer of [rsnps](https://docs.ropensci.org/rsnps) and has enjoyed reviewing packages for rOpenSci since 2015. 
 
 {{< /imgtxt >}}
 
 
-Julia on [GitHub](https://github.com/jooolia), [Twitter](https://twitter.com/JuliaGustavsen), [website](https://www.juliagustavsen.com/)
+Julia on [GitHub](https://github.com/jooolia), [Twitter](https://twitter.com/JuliaGustavsen), [Website](https://www.juliagustavsen.com/), [rOpenSci](/author/julia-gustavsen)
 
 > Being a reviewer for rOpenSci packages has improved my R coding skills, and increased my knowledge of package development. Also, I have enjoyed being part of the welcoming and inclusive community that rOpenSci has cultivated. I am excited for the chance to view this process through another lens as an editor, and to continue to gain more experience with R packages for scientific applications. 
 
@@ -54,10 +54,10 @@ Julia on [GitHub](https://github.com/jooolia), [Twitter](https://twitter.com/Jul
 
 Mauro builds R packages for the think tank [2 Degrees Investing
 Initiative](https://2degrees-investing.org/). His PhD
-([UQ](https://www.uq.edu.au/)) and post-doctoral reserach
+([UQ](https://www.uq.edu.au/)) and post-doctoral research
 ([STRI](https://stri.si.edu/)) studied human impacts on coral reefs from
-Australia and Panama. Since 2017 he teaches data-science and builds research
-software. He co-authors the package
+Australia and Panama. Since 2017 he has been teaching data-science and building research
+software. He is co-author of the package
 [datos](https://CRAN.R-project.org/package=datos) to translate the dataset from
 the book [R for Data Science](https://r4ds.had.co.nz/) to Spanish; and reviewed
 the rOpenSci package
@@ -66,6 +66,13 @@ the rOpenSci package
 
 {{< /imgtxt >}}
 
-Mauro on [GitHub](https://github.com/maurolepore), [Twitter](https://twitter.com/mauro_lepore)
+Mauro on [GitHub](https://github.com/maurolepore), [Twitter](https://twitter.com/mauro_lepore), [rOpenSci](/author/mauro-lepore/)
 
-> I learned to build software in a job where I had no mentor; but I got the support I needed from the rOpenSci community. Having the opportunity to give back is exiting -- specially now that the R community is thriving in Latin America, and rOpenSci will experiment doing reviews in Spanish.
+> I learned to build software in a job where I had no mentor; but I got the support I needed from the rOpenSci community. Having the opportunity to give back is exciting -- especially now that the R community is thriving in Latin America, and rOpenSci will experiment doing reviews in Spanish.
+
+## Resources
+
+- About [rOpenSci Software Peer Review](/software-review/)
+- [rOpenSci Packages: Development, Maintenance, and Peer Review](https://devguide.ropensci.org/)
+- Read public [software review threads on GitHub](https://github.com/ropensci/software-review/issues)
+
