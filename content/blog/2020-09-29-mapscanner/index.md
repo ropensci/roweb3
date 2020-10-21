@@ -24,7 +24,6 @@ description: "The mapscanner package enables lines drawn by hand on maps to be c
 # Note there is no '/' symbol before 'img' here
 # if needed replace blog with technotes
 twitterImg: blog/2020/09/29/mapscanner/poly-aggr-plot.png
-featured: true
 ---
 
 ## mapscanner
