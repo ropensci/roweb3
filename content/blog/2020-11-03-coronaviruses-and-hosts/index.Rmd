@@ -319,7 +319,7 @@ all_metadata_df %>%
   theme_bw()
 ```
 
-While there are a tremendous number of sequences of coronaviruses from humans and domestic animals, there's also quite a few genera of bats present among the most represented hosts! Again, this isn't particularly surprising, as bats have a rich coevolutionary history with coronaviruses[^6].
+While there are a tremendous number of sequences of coronaviruses sampled from humans and domestic animals, there's also quite a few genera of bats present among the most represented hosts! Again, this isn't particularly surprising, as bats have a rich coevolutionary history with coronaviruses[^6], and have been an intense focus of study.
 
 ## Conclusion
 
