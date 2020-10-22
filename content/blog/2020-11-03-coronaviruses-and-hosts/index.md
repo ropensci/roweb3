@@ -27,7 +27,7 @@ description: Together, the packages rentrez and taxize can extract standardised 
 
 Emerging viruses might be on everyone's mind right now, but as an epidemiologist and disease ecologist I've always been interested in how and why pathogens move from animal hosts to humans.
 The current pandemic of the disease we call COVID-19 is caused by _Severe acute respiratory syndrome (SARS) coronavirus 2_ (SARS-CoV-2), a virus that has emerged from wildlife like SARS coronavirus and Middle East respiratory syndrome (MERS) coronavirus did previously. 
-Although these viruses are now widely known, there's many more coronaviruses out there in nature, many of which we know little about.
+Although these viruses are now widely known, there are many more coronaviruses out there in nature, many of which we know little about.
 
 There's perhaps no better time to dive into understanding where viruses like these originate.
 Genome sequence repositories represent a wealthy source of data to understand the diversity of viruses and their relationships with their hosts.
@@ -62,7 +62,7 @@ ggplot(monthly_seqs, aes(month, total)) +
 {{<figure src="sequence_availability-1.png" alt="Curve demonstrating growth in viral genome sequences contained in GenBank since 2000" caption="Viral genome sequence availability between 2000 and present" width="850">}}
 
 If we were interested in a small set of viruses, for example, if we wanted to construct a specific phylogeny, we might reasonably be able to select and filter these genome sequences manually through web interfaces. 
-In fact, a powerful new interface of [NCBI Virus](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/) was unveiled for this purpose earlier this year. 
+In fact, a powerful new interface of the [NCBI Virus](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/) front-end to GenBank was unveiled for this purpose earlier this year. 
 However, if we want to investigate broader viral diversity (or use a data-hungry method like neural networks), we’d benefit from a more reproducible, automated approach. 
 
 ## Obtaining virus sequences with rentrez
@@ -71,7 +71,7 @@ However, if we want to investigate broader viral diversity (or use a data-hungry
 [rentrez](https://docs.ropensci.org/rentrez/)[^2] is a package by [David Winter](author/david-winter/) designed to interface with various NCBI databases (collectively known as entrez), including GenBank. 
 As such, it can not only conduct search requests in a single database, but also cross-reference them (see the [vignette](https://cran.r-project.org/web/packages/rentrez/vignettes/rentrez_tutorial.html) for some nice examples of this). 
 For now let’s simply try and find whether there are sequences available for _Pangolin coronavirus_ in GenBank's nucleotide sequence database.
-This virus recently received a lot of attention because its spike protein is very similar to that of SARS-CoV-2[^3]<sup>,</sup>[^4].
+This virus recently received a lot of attention because its spike protein (which is thought to be important in determining host range) is very similar to that of SARS-CoV-2[^3]<sup>,</sup>[^4].
 We can use `entrez_search()` to conduct a general search across all fields.
 
 ```r 
@@ -85,7 +85,7 @@ Entrez search result with 14 hits (object contains 14 IDs and no web_history obj
  Search term (as translated):  "Pangolin coronavirus"[Organism] OR Pangolin coron ... 
 ```
 
-Looks like there's 14 available genome sequences for this virus - 
+Looks like there are 14 available genome sequences for this virus - 
 note that this query doesn't return the actual sequences, but the specific entry IDs. 
 If we want to directly retrieve sequences, we can use `entrez_fetch()`, referencing these Pangolin coronavirus IDs.
 Here I've set `rettype` to output the sequences in FASTA format, a standard bioinformatics format readable by many other packages/software.
@@ -156,7 +156,7 @@ Entrez search result with 63225 hits (object contains 63225 IDs and no web_histo
 ```
 
 That's a lot of coronavirus sequences! By default, `entrez_search()` returns only 20 IDs, so I increased `retmax` to make sure all of them are captured.
-This is also a good forewarning that there are reasonable limits to usage of the EUtils API we're accessing underneath and for very large queries with `entrez_fetch()` or `entrez_summary()`, we should break them up into smaller individual queries.
+This is also a good forewarning that there are reasonable limits to usage of eUtils (the API we're accessing underneath) and for very large queries with `entrez_fetch()` or `entrez_summary()`, we should break them up into smaller individual queries.
 I've done this by looping `entrez_summary()` across our IDs and joining the results together as a single function.
 
 ```r 
@@ -183,7 +183,7 @@ get_metadata <- function(x){
 all_cov_summary <- get_metadata(all_cov_ids$ids)
 ```
 
-This function also delays the speed at which queries are sent to comply with the EUtils API usage limits.
+This function also delays the speed at which queries are sent to comply with the eUtils API usage limits.
 If you're likely to conduct lots of queries, you can [set up an API key to increase your usage](blog/2018/03/20/rentrez-paper/) and [use the web history feature to quickly revisit previous queries](https://cran.r-project.org/web/packages/rentrez/vignettes/rentrez_tutorial.html).
 
 Now we have metadata for all coronavirus sequences, let's investigate what host animals these coronaviruses came from.
@@ -283,7 +283,7 @@ host_table %>%
 ```
 
 As you might expect, most nucleotide sequences are sampled from humans or domestic animals, particularly chickens and pigs, as there are several non-human coronaviruses that cause significant outbreaks in these animals each year.
-In fact, the only wild animals in this top 15 are bats: [_Eidolon helvum_, an African fruit bat](https://en.wikipedia.org/wiki/Straw-coloured_fruit_bat), and the rather unspecific "Microchiroptera".
+In fact, the only wild animals in this top 15 are bats: [_Eidolon helvum_, an African fruit bat](https://en.wikipedia.org/wiki/Straw-coloured_fruit_bat), and the rather unspecific "Microchiroptera", which we'll decipher shortly.
 
 However, because GenBank entries are filled out by the individuals depositing the data, their metadata can use inconsistent terms.
 Among these top 15 hosts, we find _pig_, _swine_, _Sus scrofa_, and _piglet_, all of which describe the same animal.
@@ -466,7 +466,7 @@ all_metadata_df %>%
 ```
 {{<figure src="plot_cov_hosts-1.png" alt="Barplot showing the most frequent animal host genera of coronaviruses are Homo, Gallus, Sus and Felis" caption="Top fifteen most common animal genera represented in coronavirus genome sequence host metadata, colour-coded by order" width="1000">}}
 
-While there are a tremendous number of sequences of coronaviruses sampled from humans and domestic animals, there's also quite a few genera of bats present among the most represented hosts! Again, this isn't particularly surprising, as bats have a rich coevolutionary history with coronaviruses[^6], which has been an intense focus of study.
+While there are a tremendous number of sequences of coronaviruses sampled from humans and domestic animals, there are also quite a few genera of bats present among the most represented hosts! Again, this isn't particularly surprising, as bats have a rich coevolutionary history with coronaviruses[^6], which has been an intense focus of study.
 
 ## Conclusion
 
