@@ -280,7 +280,7 @@ downstream(30560, db = "ncbi", downto = "species")
 
 Of course, as host metadata is often individually typed, this approach isn't infallible – typos, plus any strings that are very colloquial or ambiguous, e.g., ["broiler"](https://www.ncbi.nlm.nih.gov/nuccore/MN967777.1), or overly detailed, e.g., ["Felis catus (cat); breed Scottish Fold; color red"](https://www.ncbi.nlm.nih.gov/nuccore/FJ943767.1) may need some manual resolution.
 
-### Where do coronaviruses come from?
+### Where have coronaviruses been found?
 
 Since we now have a reproducible way of retrieving the full taxonomic classifications of each host, we can add columns describing these to our metadata.
 We can now finally tie all this together and plot which type of hosts have the most coronavirus sequences on GenBank.
