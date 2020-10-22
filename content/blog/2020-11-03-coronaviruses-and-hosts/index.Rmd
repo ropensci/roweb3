@@ -73,7 +73,7 @@ Although these viruses are now widely known, there's many more coronaviruses out
 There's perhaps no better time to dive into understanding where viruses like these originate.
 Genome sequence repositories represent a wealthy source of data to understand the diversity of viruses and their relationships with their hosts.
 However, the sheer volume of data and lack of standardisation for some features can make it challenging to use these repositories in practice.
-In this post, I’ll demonstrate the use of the [rentrez](https://docs.ropensci.org/rentrez/) and [taxizedb](https://docs.ropensci.org/taxizedb/) packages to search, retrieve and resolve information about genetic sequences of coronaviruses and their animal hosts - and ask which hosts have the most coronavirus  sequences!
+In this post, I’ll demonstrate the use of the [rentrez](https://docs.ropensci.org/rentrez/) and [taxizedb](https://docs.ropensci.org/taxizedb/) packages to search, retrieve and resolve information about genetic sequences of coronaviruses and their animal hosts - and ask which host species have the most coronavirus sequences been sampled from?
 
 I’ll focus on NCBI’s GenBank[^1], an open-access repository where sequences are submitted and described by individual users. 
 We can look at the exponential rise in viral genome sequences by importing the release dates of those indexed by NCBI’s Genome Reports and plotting a cumulative curve.
@@ -137,7 +137,7 @@ However, we want to access more information about these viruses than just their 
 We might want to find out information from the entry's title, or filter out incomplete sequences, etc.
 `entrez_summary()` can retrieve metadata and features of the sequence as an object of class `esummary_list`.
 Then we can use `extract_from_esummary()` to pull out the metadata of interest as a vector (or data frame).
-Let's find out when these Pangolin coronavirus sequences were uploaded to GenBank - was it before SARS-CoV-2 emerged?
+Let's find out when these Pangolin coronavirus sequences were uploaded to GenBank.
 
 ```{r summary_pang}
 pang_cov_summary <- entrez_summary(db="nuccore", id = pang_cov_ids$ids)
@@ -148,6 +148,7 @@ extract_from_esummary(pang_cov_summary, elements = c("createdate")) %>%
 ```
 
 Looks like these sequences were mostly uploaded in April and August!
+Note that this upload date field does not represent the _sampling_ date (this can be found within the sub-features; see below)
 
 ### More CoVs, more problems
 
@@ -319,7 +320,7 @@ all_metadata_df %>%
   theme_bw()
 ```
 
-While there are a tremendous number of sequences of coronaviruses sampled from humans and domestic animals, there's also quite a few genera of bats present among the most represented hosts! Again, this isn't particularly surprising, as bats have a rich coevolutionary history with coronaviruses[^6], and have been an intense focus of study.
+While there are a tremendous number of sequences of coronaviruses sampled from humans and domestic animals, there's also quite a few genera of bats present among the most represented hosts! Again, this isn't particularly surprising, as bats have a rich coevolutionary history with coronaviruses[^6], which has been an intense focus of study.
 
 ## Conclusion
 

@@ -32,7 +32,7 @@ Although these viruses are now widely known, there's many more coronaviruses out
 There's perhaps no better time to dive into understanding where viruses like these originate.
 Genome sequence repositories represent a wealthy source of data to understand the diversity of viruses and their relationships with their hosts.
 However, the sheer volume of data and lack of standardisation for some features can make it challenging to use these repositories in practice.
-In this post, I’ll demonstrate the use of the [rentrez](https://docs.ropensci.org/rentrez/) and [taxizedb](https://docs.ropensci.org/taxizedb/) packages to search, retrieve and resolve information about genetic sequences of coronaviruses and their animal hosts - and ask which hosts have the most coronavirus  sequences!
+In this post, I’ll demonstrate the use of the [rentrez](https://docs.ropensci.org/rentrez/) and [taxizedb](https://docs.ropensci.org/taxizedb/) packages to search, retrieve and resolve information about genetic sequences of coronaviruses and their animal hosts - and ask which host species have the most coronavirus sequences been sampled from?
 
 I’ll focus on NCBI’s GenBank[^1], an open-access repository where sequences are submitted and described by individual users. 
 We can look at the exponential rise in viral genome sequences by importing the release dates of those indexed by NCBI’s Genome Reports and plotting a cumulative curve.
@@ -106,7 +106,7 @@ However, we want to access more information about these viruses than just their 
 We might want to find out information from the entry's title, or filter out incomplete sequences, etc.
 `entrez_summary()` can retrieve metadata and features of the sequence as an object of class `esummary_list`.
 Then we can use `extract_from_esummary()` to pull out the metadata of interest as a vector (or data frame).
-Let's find out when these Pangolin coronavirus sequences were uploaded to GenBank - was it before SARS-CoV-2 emerged?
+Let's find out when these Pangolin coronavirus sequences were uploaded to GenBank.
 
 ```r 
 pang_cov_summary <- entrez_summary(db="nuccore", id = pang_cov_ids$ids)
@@ -136,6 +136,7 @@ extract_from_esummary(pang_cov_summary, elements = c("createdate")) %>%
 ```
 
 Looks like these sequences were mostly uploaded in April and August!
+Note that this upload date field does not represent the _sampling_ date (this can be found within the sub-features; see below)
 
 ### More CoVs, more problems
 
@@ -425,7 +426,7 @@ attr(,"db")
 
 Of course, as host metadata is often individually typed, this approach isn't infallible – typos, plus any strings that are very colloquial or ambiguous, e.g., ["broiler"](https://www.ncbi.nlm.nih.gov/nuccore/MN967777.1), or overly detailed, e.g., ["Felis catus (cat); breed Scottish Fold; color red"](https://www.ncbi.nlm.nih.gov/nuccore/FJ943767.1) may need some manual resolution.
 
-### Where do coronaviruses come from?
+### Where have coronaviruses been found?
 
 Since we now have a reproducible way of retrieving the full taxonomic classifications of each host, we can add columns describing these to our metadata.
 We can now finally tie all this together and plot which type of hosts have the most coronavirus sequences on GenBank.
@@ -465,7 +466,7 @@ all_metadata_df %>%
 ```
 {{<figure src="plot_cov_hosts-1.png" alt="Barplot showing the most frequent animal host genera of coronaviruses are Homo, Gallus, Sus and Felis" caption="Top fifteen most common animal genera represented in coronavirus genome sequence host metadata, colour-coded by order" width="1000">}}
 
-While there are a tremendous number of sequences of coronaviruses from humans and domestic animals, there's also quite a few genera of bats present among the most represented hosts! Again, this isn't particularly surprising, as bats have a rich coevolutionary history with coronaviruses[^6].
+While there are a tremendous number of sequences of coronaviruses sampled from humans and domestic animals, there's also quite a few genera of bats present among the most represented hosts! Again, this isn't particularly surprising, as bats have a rich coevolutionary history with coronaviruses[^6], which has been an intense focus of study.
 
 ## Conclusion
 
