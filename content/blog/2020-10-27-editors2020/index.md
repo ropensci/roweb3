@@ -38,7 +38,8 @@ Laura on [GitHub](https://github.com/ldecicco-USGS), [Twitter](https://twitter.c
 
 {{< imgtxt src = "/img/team/julia-gustavsen.jpg" width = "200" alt = "headshot of Julia Gustavsen" >}} 
 
-Julia is a Bioinformatician at the health-tech company [SOPHiA GENETICS](https://www.sophiagenetics.com/) in Lausanne (Switzerland). Julia honed her bioinformatics skills during her PhD in marine microbial ecology from the University of British Columbia (Canada). Julia is a co-maintainer of [rsnps](https://docs.ropensci.org/rsnps) and has enjoyed reviewing packages for rOpenSci since 2015. 
+Julia is a Bioinformatician at the health-tech company [SOPHiA GENETICS](https://www.sophiagenetics.com/) in Lausanne (Switzerland). Julia honed her bioinformatics skills during her PhD in marine microbial ecology from the University of British Columbia (Canada). Julia is a co-maintainer of [rsnps](https://docs.ropensci.org/rsnps); has reviewed four rOpenSci packages [googleLanguageR](https://github.com/ropensci/software-review/issues/127), [plateR](https://github.com/ropensci/software-review/issues/60), [rusda](https://github.com/ropensci/software-review/issues/18), [FedData](https://github.com/ropensci/software-review/issues/13); and edited [treedata.table](https://github.com/ropensci/software-review/issues/367). 
+
 
 {{< /imgtxt >}}
 
