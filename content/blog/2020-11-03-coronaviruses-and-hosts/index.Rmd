@@ -74,6 +74,11 @@ There's perhaps no better time to dive into understanding where viruses like the
 Genome sequence repositories represent a wealthy source of data to understand the diversity of viruses and their relationships with their hosts.
 However, the sheer volume of data and lack of standardisation for some features can make it challenging to use these repositories in practice.
 In this post, I’ll demonstrate the use of the [rentrez](https://docs.ropensci.org/rentrez/) and [taxizedb](https://docs.ropensci.org/taxizedb/) packages to search, retrieve and resolve information about genetic sequences of coronaviruses and their animal hosts - and ask which host species have the most coronavirus sequences been sampled from?
+Here's a high-level summary of the functions we'll use.
+
+<!--
+{{< figure src = "pipeline.png" width = "750" alt = "Flow diagram showing functions entrez_search(), entrez_fetch() and extract_from_esummary() from package rentrez, and name2taxid() and classification() from taxize." caption = "Flow diagram of functions used in each package to identify hosts associated with coronavirus sequences" class = "center">}}
+-->
 
 I’ll focus on NCBI’s GenBank[^1], an open-access repository where sequences are submitted and described by individual users. 
 We can look at the exponential rise in viral genome sequences by importing the release dates of those indexed by NCBI’s Genome Reports and plotting a cumulative curve.
