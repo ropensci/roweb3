@@ -197,7 +197,7 @@ all_cov_summary <- get_metadata(all_cov_ids$ids)
 ```
 
 This function also delays the speed at which queries are sent to comply with the eUtils API usage limits.
-If you're likely to conduct lots of queries, you can [set up an API key to increase your usage](blog/2018/03/20/rentrez-paper/) and [use the web history feature to quickly revisit previous queries](https://cran.r-project.org/web/packages/rentrez/vignettes/rentrez_tutorial.html).
+If you're likely to conduct lots of queries, you can [set up an API key to increase your usage](/blog/2018/03/20/rentrez-paper/) and [use the web history feature to quickly revisit previous queries](https://cran.r-project.org/web/packages/rentrez/vignettes/rentrez_tutorial.html).
 
 Now we have metadata for all coronavirus sequences, let's investigate what host animals these coronaviruses came from.
 You may have noticed there wasn't an explicit "host" feature among the metadata we got in our previous esummary result for Pangolin coronavirus.
