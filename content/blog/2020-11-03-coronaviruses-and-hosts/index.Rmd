@@ -263,7 +263,7 @@ The function `db_download_ncbi()` will set everything up, though be warned this 
 Once we have a local taxonomy database, we're ready to start resolving using `name2taxid()`, which converts various common names and synonyms to their lowest specific taxonomic ID 
 (just like the ID we used for _Coronaviridae_, and if we wanted, we could equally use these taxonomic IDs to search for nucleotide sequences of hosts!)
 
-```{r setup_taxizedb}
+```{r setup_taxizedb, message = FALSE}
 library(taxizedb)
 src_ncbi <- src_ncbi() # load the NCBI taxonomy database into R
 
