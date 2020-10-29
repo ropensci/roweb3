@@ -88,7 +88,8 @@ library(dplyr)
 library(ggplot2)
 library(magrittr) # load magrittr for use of the pipe operator (%>%)
 
-genbank_seqs <- read.table("ftp://ftp.ncbi.nlm.nih.gov/genomes/GENOME_REPORTS/viruses.txt", sep = "\t", header = TRUE, comment.char = "!", quote = "", fill = TRUE)
+genbank_seqs <- read.table("ftp://ftp.ncbi.nlm.nih.gov/genomes/GENOME_REPORTS/viruses.txt", 
+sep = "\t", header = TRUE, comment.char = "!", quote = "", fill = TRUE)
 
 monthly_seqs <- genbank_seqs$Release.Date %>% 
   as.Date(format="%Y/%m/%d") %>%
