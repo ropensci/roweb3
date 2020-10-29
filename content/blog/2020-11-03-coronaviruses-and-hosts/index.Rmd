@@ -1,5 +1,5 @@
 ---
-title: Using Open-access Tools (rentrez, taxize) to Find Coronaviruses, Their Genetic Sequences, and Their Hosts
+title: Using Open-Access Tools (rentrez, taxize) to Find Coronaviruses, Their Genetic Sequences, and Their Hosts
 author: "Liam Brierley"
 date: '2020-11-03'
 output:
