@@ -302,7 +302,8 @@ all_tax_full <- all_tax_match %>%
         x %>%
           data.frame() %>%
           distinct() %>%
-          filter(rank == "class" | rank == "order" | rank == "family" | rank == "genus" | rank == "species") %>%
+          filter(rank == "class" | rank == "order" | rank == "family" | 
+                   rank == "genus" | rank == "species") %>%
           reshape2::melt(id = "rank") %>%
           tidyr::unite(col = rank_var, c("rank", "variable")) %>%
           tidyr::spread(key = rank_var, value = value)
