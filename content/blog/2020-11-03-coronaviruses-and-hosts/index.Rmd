@@ -133,8 +133,8 @@ Here I've set `rettype` to output the sequences in FASTA format, a standard bioi
 
 ```{r retrieve_pang, R.options=list(max.print=10)}
 pang_cov_seqs <- entrez_fetch(db="nuccore", id = pang_cov_ids$ids, rettype = "fasta_cds_na")
-pang_cov_seqs %>% 
-  gsub("\n\n.*", "", .) # trim the FASTA character string to show first protein coding nucleotide sequence as an example
+# trim the FASTA string to show first protein coding nucleotide sequence as an example
+gsub("\n\n.*", "", pang_cov_seqs) 
 ```
 
 ### Understanding sequence-associated metadata
