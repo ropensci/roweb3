@@ -333,7 +333,7 @@ rentrez offers an automated way to search and retrieve genome sequences and meta
 Using these packages in combination represents a reproducible approach to extracting a standardised dataset of coronavirus nucleotide sequences and their sample hosts.
 This reproducibility is essential for those studies attempting to modelling host-virus relationships to better understand future epidemic threats in humans.
 I've used the above functions to process data to a suitable standard for training machine learning models to predict coronavirus hosts based on their sequence features[^7].
-But of course, neither packages are limited to viruses; their functionality makes for some brilliant additions to any biologist's R toolkit!
+But of course, neither package is limited to viruses; their functionality makes for some brilliant additions to any biologist's R toolkit!
 
 
 [^1]: NCBI GenBank. https://www.ncbi.nlm.nih.gov/genbank/
