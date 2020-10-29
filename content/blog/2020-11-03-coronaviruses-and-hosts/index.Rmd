@@ -206,7 +206,8 @@ Processing this data to a tidy format requires a couple of extra steps - I've si
 
 ```{r process_summary_all}
 all_accession <- extract_from_esummary(all_cov_summary, elements = c("accessionversion"))
-all_subname_list <- extract_from_esummary(all_cov_summary, elements = c("subname", "subtype"), simplify=FALSE)
+all_subname_list <- extract_from_esummary(all_cov_summary, elements = c("subname", "subtype"), 
+                                          simplify=FALSE)
 all_subname_list[[3000]] # show an example of sub-features
 
 all_subname_list <- all_subname_list %>%
