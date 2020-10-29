@@ -313,7 +313,8 @@ all_tax_full <- all_tax_match %>%
   )
 
 all_metadata_df %>% 
-  left_join(all_tax_full, by = c("host" = "name")) %>% # match each unique sequence to its taxonomic classification
+  # match each unique sequence to its taxonomic classification
+  left_join(all_tax_full, by = c("host" = "name")) %>% 
   filter(!is.na(genus_name)) %>%
   count(order_name, genus_name) %>%
   arrange(-n) %>%
