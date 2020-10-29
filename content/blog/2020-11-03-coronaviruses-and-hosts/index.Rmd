@@ -309,7 +309,8 @@ all_tax_full <- all_tax_match %>%
           tidyr::spread(key = rank_var, value = value)
       }) %>%
       bind_rows() %>%
-      select(class_name, class_id, order_name, order_id, family_name, family_id, genus_name, genus_id, species_name, species_id)
+      select(class_name, class_id, order_name, order_id, family_name, family_id, 
+             genus_name, genus_id, species_name, species_id)
   )
 
 all_metadata_df %>% 
