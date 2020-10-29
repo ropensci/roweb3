@@ -107,7 +107,7 @@ ggplot(monthly_seqs, aes(month, total)) +
   theme_bw()
 ```
 
-If we were interested in a small set of viruses, for example, if we wanted to construct a specific phylogeny, we might reasonably be able to select and filter these genome sequences manually through web interfaces. 
+If we were interested in a small set of viruses, for example if we wanted to construct a specific phylogeny, we might reasonably be able to select and filter these genome sequences manually through web interfaces. 
 In fact, a powerful new interface of the [NCBI Virus](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/) front-end to GenBank was unveiled for this purpose earlier this year. 
 However, if we want to investigate broader viral diversity (or use a  data-hungry method like neural networks), we’d benefit from a more reproducible, automated approach. 
 
