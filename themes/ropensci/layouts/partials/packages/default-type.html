@@ -1,0 +1,10 @@
+{{ $Scratch := newScratch }}
+{{ $Scratch.Set "status" "active" }}
+{{ if (eq (len  (findRE "ropenscilabs" .package.url )) 1) }}
+{{ $Scratch.Set "status" "experimental" }}
+{{ else }}
+  {{ if (eq (len  (findRE "ropensci-archive" .package.url )) 1) }}
+  {{ $Scratch.Set "status" "archived" }}
+  {{ end }}
+{{ end }}
+{{ return ($Scratch.Get "status") }}
