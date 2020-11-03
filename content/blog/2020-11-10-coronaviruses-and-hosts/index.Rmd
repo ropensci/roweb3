@@ -114,7 +114,7 @@ However, if we want to investigate broader viral diversity (or use a data-hungry
 ## Obtaining virus sequences with rentrez
 ### Searching sequences
 
-[rentrez](https://docs.ropensci.org/rentrez/)[^2] is a package by [David Winter](author/david-winter/) designed to interface with various NCBI databases (collectively known as entrez), including GenBank. 
+[rentrez](https://docs.ropensci.org/rentrez/)[^2] is a package by [David Winter](/author/david-winter/) designed to interface with various NCBI databases (collectively known as entrez), including GenBank. 
 As such, it can not only conduct search requests in a single database, but also cross-reference them (see the [vignette](https://cran.r-project.org/web/packages/rentrez/vignettes/rentrez_tutorial.html) for some nice examples of this). 
 For now let’s simply try and find whether there are sequences available for _Pangolin coronavirus_ in GenBank's nucleotide sequence database (i.e., `db ="nuccore"`).
 This virus recently received a lot of attention because its spike protein (which is thought to be important in determining host range) is very similar to that of SARS-CoV-2[^3]^,^[^4].
