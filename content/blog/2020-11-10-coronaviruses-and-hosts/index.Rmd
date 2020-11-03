@@ -253,7 +253,7 @@ The same is true for _chicken_ and _Gallus gallus_!
 ## Standardising taxonomies with taxizedb
 
 This is a problem the package [taxizedb](https://docs.ropensci.org/taxizedb/)[^5] can help solve.
-This is a version of the [taxize](https://docs.ropensci.org/taxize/) package by [Scott Chamberlain](/author/scott-chamberlain/) and Zebulun Arendsee. 
+This is a version of the [taxize](https://docs.ropensci.org/taxize/) package by [Scott Chamberlain](/author/scott-chamberlain/) and [Zebulun Arendsee](https://github.com/arendsee). 
 Its functionality is essentially similar to taxize. 
 The key difference is that rather than making web queries, it references a locally stored taxonomy database, so you're not limited by API restrictions or web connectivity.
 
@@ -359,4 +359,4 @@ But of course, neither package is limited to viruses; their functionality makes 
 [^4]: Xiao, K., Zhai, J., Feng, Y., Zhou, N., Zhang, X., Zou, J.J., Li, N., Guo, Y., Li, X., Shen, X., Zhang, Z, Chen, R.A., Wu, Y.J., Peng, S.M., Huang, M., Xie, W.J., Cai, Q.H., Hou, F.H., Chen, W., Xiao, L., & Shen, Y. (2020). Isolation of SARS-CoV-2-related coronavirus from Malayan pangolins. Nature, 583, 286-289. <https://doi.org/10.1038/s41586-020-2313-x>
 [^5]: Chamberlain, S. & Arendsee, Z. (2020). taxizedb: Tools for Working with 'Taxonomic' Databases. <https://docs.ropensci.org/taxizedb>
 [^6]: Cui, J., Li, F., & Shi, Z.L. (2019). Origin and evolution of pathogenic coronaviruses. Nature Reviews Microbiology, 17, 181-192. <https://doi.org/10.1038/s41579-018-0118-9>
-[^7]: Brierley, L., & Fowler, A. (2020). Genome composition of coronavirus spike proteins reveal predictability of animal hosts. bioRxiv.
+[^7]: Brierley, L., & Fowler, A. (2020). Genome composition of coronavirus spike proteins reveal predictability of animal hosts. bioRxiv preprint, 2020.11.02.350439. <https://doi.org/10.1101/2020.11.02.350439>
