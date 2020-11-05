@@ -74,24 +74,15 @@ However, if we want to investigate broader viral diversity (or use a data-hungry
 ## Obtaining virus sequences with rentrez
 ### Searching sequences
 
-[rentrez](https://docs.ropensci.org/rentrez/)[^2] is a package by [David Winter](author/david-winter/) designed to interface with various NCBI databases (collectively known as entrez), including GenBank. 
+[rentrez](https://docs.ropensci.org/rentrez/)[^2] is a package by [David Winter](/author/david-winter/) designed to interface with various NCBI databases (collectively known as entrez), including GenBank. 
 As such, it can not only conduct search requests in a single database, but also cross-reference them (see the [vignette](https://cran.r-project.org/web/packages/rentrez/vignettes/rentrez_tutorial.html) for some nice examples of this). 
 For now let’s simply try and find whether there are sequences available for _Pangolin coronavirus_ in GenBank's nucleotide sequence database (i.e., `db ="nuccore"`).
-This virus recently received a lot of attention because its spike protein (which is thought to be important in determining host range) is very similar to that of SARS-CoV-2[^3]<sup>,</sup>[^4].
+This virus recently received a lot of attention because its spike protein (which is thought to be important in determining host range) is very similar to that of SARS-CoV-2[^3]^,^[^4].
 We can use `entrez_search()` to conduct a general search across all fields.
 
 ```r 
 library(rentrez)
 pang_cov_ids <- entrez_search(db="nuccore", term="Pangolin coronavirus")
-```
-
-```
-Registered S3 method overwritten by 'httr':
-  method           from  
-  print.cache_info hoardr
-```
-
-```r 
 pang_cov_ids
 ```
 
@@ -166,7 +157,7 @@ all_cov_ids
 ```
 
 ```
-Entrez search result with 69519 hits (object contains 69519 IDs and no web_history object)
+Entrez search result with 63225 hits (object contains 63225 IDs and no web_history object)
  Search term (as translated):  txid11118[Organism] 
 ```
 
@@ -308,7 +299,7 @@ The same is true for _chicken_ and _Gallus gallus_!
 ## Standardising taxonomies with taxizedb
 
 This is a problem the package [taxizedb](https://docs.ropensci.org/taxizedb/)[^5] can help solve.
-This is a version of the [taxize](https://docs.ropensci.org/taxize/) package by [Scott Chamberlain](author/scott-chamberlain/) and [Zebulun Arendsee](https://github.com/arendsee). 
+This is a version of the [taxize](https://docs.ropensci.org/taxize/) package by [Scott Chamberlain](/author/scott-chamberlain/) and [Zebulun Arendsee](https://github.com/arendsee). 
 Its functionality is essentially similar to taxize. 
 The key difference is that rather than making web queries, it references a locally stored taxonomy database, so you're not limited by API restrictions or web connectivity.
 
