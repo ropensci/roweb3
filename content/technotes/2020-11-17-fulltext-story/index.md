@@ -1,7 +1,7 @@
 ---
 slug: "fulltext-story"
 title: "fulltext: Behind the Scenes"
-date: 2020-11-10
+date: 2020-11-17
 author:
   - Scott Chamberlain
 description: Behind the scenes of getting article full text.
