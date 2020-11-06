@@ -44,7 +44,7 @@ Submitting a separate package really was the right decision from a software pers
 
 ## Onward
 
-Moving forward there will be improvements in fetching full text of articles in fulltext package as we have time to make mappings on a publisher and/or journal basis. These improvements will require new versions of fulltext to get to CRAN. When we used the ftdoi.org API users could benefit from new journal/publisher mappings as soon as the API was updated, which is very fast - so addition of new mappings will take longer now assuming users only install CRAN versions.
+Moving forward there will be improvements in fetching full text of articles in the fulltext package as we make mappings on a publisher and/or journal basis. Unfortunately these improvements require new versions of fulltext to get to CRAN. When we used the ftdoi.org API users could benefit from new journal/publisher mappings as soon as the API was updated, which is very fast - but the addition of new mappings will take longer now assuming users only install CRAN versions.
 
 Last, and somewhat unrelated to the discussion above, the Crossref "click-through" text and data mining (TDM) service is going away at the end of this year. If you use this service, pay attention to [ropensci/fulltext#224](https://github.com/ropensci/fulltext/issues/224).
 
