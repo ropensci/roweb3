@@ -16,7 +16,7 @@ output:
     keep_md: true
 ---
 
-[fulltext][] is a package I maintain for text-mining the scholarly literature ([package docs][ftdocs]). You can search for articles, fetch article metadata and abstracts, and fetch full text of some articles. Text-mining the scholarly literature is a research tool used ascross disciplines, and full text of articles is the gold standard in most cases. 
+[fulltext][] is a package I maintain for text-mining the scholarly literature ([package docs][ftdocs]). You can search for articles, fetch article metadata and abstracts, and fetch full text of some articles. Text-mining the scholarly literature is a research tool used across disciplines. Full text of articles (entire article, not just the abstract) is the gold standard in text-mining in most cases.
 
 Over the past years the fulltext package has evolved under the hood in its approach to attempting to get full text articles for its users. The following is a walk through of the various iterations that fulltext has gone through for fetching full text of articles. I think it serves as a good demonstration of the complexity and frustration baked into the publishing industry, as well as the trade-offs of various approaches to solving problems and getting things done.
 
@@ -28,19 +28,25 @@ However, metadata is populated by publishers that are Crossref members, and the 
 
 ## Some bad links: a new approach
 
-Given the problems with Crossref links to full text, I decided to work on another solution. I decided to make a web API of my own. [The API][ftdoiapi] was available at `ftdoi.org`, and all it did was accept a DOI for an article, then look up the Crossref publisher member ID, then use rules I maintained for figuring out full text links to articles per publisher or journal, and return links to full text. 
+Given the problems with Crossref links to full text, I decided to work on another solution. I decided to make a web API of my own. [The API][ftdoiapi] was available at ftdoi.org, and all it did was accept a DOI for an article, then look up the Crossref publisher member ID, then use rules I maintained for figuring out full text links to articles per publisher or journal, and return links to full text. 
 
 This solution worked pretty well, and had the added benefit that I could look at the API logs to see which publishers or DOIs users were most interested in - then I could work on making new mappings for those publishers/journals.
 
-However, essentially the only API users were R users. This meant that fulltext users were waiting for an extra http request that could fail or be slow if their internet connection is bad/slow or if I had a problem on the server for the API.
+However, essentially the only ftdoi.org API users were people using the fulltext package in R. That is, there were very few additional users beyond those using the fulltext package to consider for the API - which begs the question: is the API worth maintaining given the cost (paying for a cloud server) and time (maintainting the code for the API and the server running the API)?
+
+In addition, because of the ftdoi.org API, fulltext users were waiting for an extra http request that could fail or be slow if their internet connection was bad/slow or if I had a problem on the server for the ftdoi.org API. That is, if what the ftdoi.org API was doing could be done locally, an http request could be avoided.
 
 ## Simplify and barriers
 
-I decided to retire the ftdoi.org API and do the mapping (DOI to Crossref member to full text link) inside of R. The first attempt at this was to implement the mapping in a separate package: [ftdoi][ftdoipkg]. I was about to submit to CRAN but then realized that new package submissions to CRAN can take a very, very long time, with no upper limit. Given that I wanted to wrap up the change away from the web API to the R side rather quickly, I decided to pivot away from a separate package. Instead of a separate package, I simply moved the code I had in ftdoi to fulltext package. Then submitted a new version and done.
+I decided to retire the ftdoi.org API and do the mapping (DOI to Crossref member to full text link) inside of R. The first attempt at this was to implement the mapping in a separate package: [ftdoi][ftdoipkg]. I was about to submit to CRAN but then remembered that new package submissions to CRAN can take a very, very long time, with no upper limit. Given that I wanted to wrap up the change away from the web API to the R side rather quickly, I decided to pivot away from a separate package. Instead of a separate package, I simply moved the code I had in ftdoi to fulltext package. Then submitted a new version of fulltext to CRAN - and done.
 
 Submitting a separate package really was the right decision from a software perspective as it was a distinct set of code with a solid use case. However, given the unknown and possibly very long acceptance time on CRAN, folding the code into a package where I only had to submit a new version made more sense. Luckily new versions to CRAN are partly automated, so things go more smoothly and quickly. I definitely regret bloating the codebase of the fulltext package, but from a "getting things done" perspective it just made more sense.
 
+## Onward
 
+Moving forward there will be improvements in fetching full text of articles in fulltext package as we have time to make mappings on a publisher and/or journal basis. These improvements will require new versions of fulltext to get to CRAN. When we used the ftdoi.org API users could benefit from new journal/publisher mappings as soon as the API was updated, which is very fast - so addition of new mappings will take longer now assuming users only install CRAN versions.
+
+Last, and somewhat unrelated to the discussion above, the Crossref "click-through" text and data mining (TDM) service is going away at the end of this year. If you use this service, pay attention to [ropensci/fulltext#224](https://github.com/ropensci/fulltext/issues/224).
 
 
 [fulltext]: https://github.com/ropensci/fulltext/
