@@ -36,15 +36,12 @@ zoomurl: https://zoom.us/j/92298909939?pwd=MERubjdNUUw2aWp6RUFqSHllR01adz09
 
 This 1-hour call on The Wild World of Data Repositories includes 5 speakers and 20 minutes for Q & A.
 
-Moderator Kara Woo will 
-
 ### Where to deposit data
 **Daniella Lowenberg**
 What Dryad does; Dryad + Zenodo for sharing data + software; what do curators look for; new api and how it is open for new tools 
 
 **Matt Jones** 
 other repositories, DataONE, Arctic Data Center
-(new metajam R pkg https://twitter.com/DataONEorg/status/1323701502159048710)
 
 ### Heading
 **speaker name** 
