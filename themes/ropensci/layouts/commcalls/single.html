@@ -21,7 +21,7 @@
                 <div class="event-detail-calendar">
               <div class="d-flex justify-content-between">
                 <p>
-                  🕓 <strong>{{ (time .Params.dateStart).UTC | dateFormat "Monday, 02 January 2006 15:04 MST" }}</strong>
+                  🕓 <strong>{{ (time .Params.dateStart).UTC | dateFormat "Monday, 02 January 2006 15:04 MST" }}</strong> {{ if ge (time .Params.dateEnd).Local now.Local }}{{ with .Params.deets }} - <a class="footnote-ref" tabindex="0" data-toggle="popover" data-content="{{ . | markdownify }}" data-original-title="" title="">Zoom info</a>{{ end }}{{ end }}
                 </p>
                 <div class="add-wrapper">
                   <div class="drop-btn">Add to Calendar</div>
@@ -32,12 +32,6 @@
                       >
                         <i class="fas fa-clock"></i>
                         <span>Find your timezone</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#join-us">
-                        <i class="fas fa-ticket-alt"></i>
-                        <span>How to join</span>
                       </a>
                     </li>
                     <li>
@@ -135,34 +129,6 @@
             </div>
             {{ end }}
             
-            {{ if ge (time .Params.dateEnd).Local now.Local }}
-            <div class="event-join">
-              <h4 class="title" id ="join-us">Join Us! 🎉</h4>
-
-              <ul class="event-join-list">
-                <li>
-                  <strong class="d-block">Who</strong>
-                  Everyone is welcome. No RSVP needed, simply connect and/or dial in at the time of the event.
-                </li>
-                <li>
-                  <strong class="d-block">When</strong>
-                  {{ (time .Params.dateStart).Local | dateFormat "Monday, 02 January 2006 15:04 MST" }} ({{ (time .Params.dateStart).UTC | dateFormat "Monday, 02 January 2006 15:04 MST" }}) 
-                </li>
-                <li>
-                  <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso={{ .Params.dateStart}}&ah={{ sub (time .Params.dateEnd).Hour (time .Params.dateStart).Hour }}&msg={{ .Title }} (rOpenSci Comm Call)" target="_blank">Find your timezone</a>.
-                </li>
-                <li>
-                  <a href="index.ics">Add to Calendar</a> (or scroll to the top for more links like Google Calendar).
-                </li>
-                  {{ with .Params.deets }}
-                <li>
-                  <strong class="d-block">How</strong>
-                  <details><summary>Click for call info including Zoom link</summary>{{ . | markdownify }} </details><p><a href="https://support.zoom.us/hc/en-us/articles/201362193-Joining-a-meeting">Zoom docs</a></p>
-                </li>
-                {{ end }}
-              </ul>
-            </div>
-            {{ end }}
           </div>
           
           <div class="col-md-2">
@@ -185,4 +151,7 @@
     </section>
 
 {{ partial "whole-page-fragments/newsletter"  (dict "divider" "lr" ) }}
+<script>document.addEventListener('DOMContentLoaded', (event) => {$(function () {
+  $('[data-toggle="popover"]').popover()
+})})</script>
 {{ end }}
