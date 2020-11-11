@@ -82,8 +82,10 @@
                     {{ end }}
                     {{ end }}
             {{ .Content }}
+            {{ if eq .Content "" }}
             {{ with .Params.description }}
             {{ . | markdownify }}
+            {{ end }}
             {{ end }}
             
             {{ with .Params.speakers }}
