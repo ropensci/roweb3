@@ -157,7 +157,7 @@
                   {{ with .Params.deets }}
                 <li>
                   <strong class="d-block">How</strong>
-                  {{ . | markdownify }} <a href="https://support.zoom.us/hc/en-us/articles/201362193-Joining-a-meeting">Zoom docs</a>.
+                  <details><summary>Click for call info including Zoom link</summary>{{ . | markdownify }} </details><p><a href="https://support.zoom.us/hc/en-us/articles/201362193-Joining-a-meeting">Zoom docs</a></p>
                 </li>
                 {{ end }}
               </ul>
