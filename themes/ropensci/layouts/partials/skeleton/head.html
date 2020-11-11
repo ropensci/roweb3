@@ -41,7 +41,11 @@
   {{ end }}
   <!-- -->
   {{ else }}
+     {{ if (and (in .Section "commcalls") (eq .Kind "page" )) }}
+     {{ .Scratch.Set "title" (print .Title " · Community Call" )}}
+     {{ else }}
      {{ .Scratch.Set "title" .Title }}
+     {{ end }}
      {{ .Scratch.Set "description" .Description }}
   {{ end }}
     {{ $defaultDescription := .Summary }}

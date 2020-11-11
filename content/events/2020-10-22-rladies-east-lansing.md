@@ -1,8 +1,8 @@
 ---
 title: R-Ladies East Lansing Meetup
-dateStart: 2020-10-22T19:30:00 # UTC!!
-dateEnd: 2020-10-22T21:00:00 # UTC!!
-date: 2020-10-22T21:00:00 # UTC!! same as dateEnd
+dateStart: 2020-12-22T19:30:00 # UTC!!
+dateEnd: 2020-12-22T21:00:00 # UTC!!
+date: 2020-12-22T21:00:00 # UTC!! same as dateEnd
 description: What is rOpenSci and how can people contribute?
 location: 'online' # free text
 slug: "rladies-east-lansing"
