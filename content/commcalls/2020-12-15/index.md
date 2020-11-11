@@ -33,7 +33,7 @@ tags:
   - tag2
 deets: |
     Join Zoom Meeting
-    https://zoom.us/j/92298909939?pwd=MERubjdNUUw2aWp6RUFqSHllR01adz09
+    <https://zoom.us/j/92298909939?pwd=MERubjdNUUw2aWp6RUFqSHllR01adz09>
     
     Meeting ID: 922 9890 9939
     
