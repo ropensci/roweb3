@@ -24,12 +24,9 @@ resources:
     name: link text
     details: more info about the link
 speakers:
-  - name: Jane Doe
-    bio: Jane Doe is a brilliant speaker.
-    img: jane-doe.jpg
-  - name: John FooBar
-    bio: John FooBar knows their stuff.
-    img: john-foobar.jpg
+  - name: Karthik Ram
+    bio: Karthik Ram is a Senior Research Scientist with the Berkeley Institute for Data Science, Project Lead and Co-founder of rOpenSci, Editor for rOpenSci Software Peer Review. He has a PhD in Ecology and Evolution. Karthik on [GitHub](https://github.com/karthik), [Twitter](https://twitter.com/\_inundata), [Website](http://karthik.io/)
+    img: /img/team/karthik-ram.png
 tags:
   - tag1
   - tag2
@@ -37,4 +34,18 @@ deets: "Zoom meeting ID 297 967 525. [Join Meeting](#)."
 zoomurl: https://zoom.us/j/92298909939?pwd=MERubjdNUUw2aWp6RUFqSHllR01adz09
 ---
 
-Testing different summary text
+This 1-hour call on The Wild World of Data Repositories includes 5 speakers and 20 minutes for Q & A.
+
+Moderator Kara Woo will 
+
+### Where to deposit data
+**Daniella Lowenberg**
+What Dryad does; Dryad + Zenodo for sharing data + software; what do curators look for; new api and how it is open for new tools 
+
+**Matt Jones** 
+other repositories, DataONE, Arctic Data Center
+(new metajam R pkg https://twitter.com/DataONEorg/status/1323701502159048710)
+
+### Heading
+**speaker name** 
+
