@@ -1,7 +1,6 @@
 ---
 title: 'Announcing New Software Peer Review Editors: Laura DeCicco, Julia Gustavsen, Mauro Lepore'
-author:
-  - Stefanie Butland
+author: Stefanie Butland
 date: '2020-10-27'
 slug: editors2020
 tags:
