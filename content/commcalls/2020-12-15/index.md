@@ -4,6 +4,7 @@ dateStart: 2020-12-15T18:00:00 # UTC!!
 dateEnd: 2020-12-15T19:00:00 # UTC!!
 date: 2020-12-15T19:00:00 # UTC!! same as dateEnd
 publishDate: 2020-11-16
+featured: true
 description: Learn about types of data repositories, challenges in data deposition & reuse, vision for new tools
 author:
   - Steffi LaZerte
