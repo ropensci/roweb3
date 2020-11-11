@@ -6,6 +6,6 @@
   </div>
   <div class="col-md-8 session-info">
     <a href="{{ .RelPermalink }}" class="session-title">{{ .Title }}</a>
-    <p class="author-blog-date">{{ delimit .Params.author ", " }}</p>
+    <p class="author-blog-date">{{ with.Params.author }}{{ if ne (substr (jsonify . ) 0 1) "[" }}{{ . }}{{ else }}{{ delimit . ", " }}{{ end }}{{ end }}</p>
   </div>
 </div>
