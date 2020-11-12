@@ -47,7 +47,6 @@ speakers:
   - name: Rich FitzJohn
     bio: Rich FitzJohn is a research software engineer in the RESIDE group at the Department of Infectious Disease Epidemiology and MRC Centre for Global Infectious Disease Analysis in London UK. His focuses are infrastructure and tools that generalize problems common to research groups across the department. He is interested in reproducible research and in helping researchers get more science done per line of code that they write. Rich has a PhD in zoology. His research career involved modeling coexistence in tropical forests, diversification over macro-evolutionary timescales and the potential for gene flow from genetically-modified crops. Rich is part of rOpenSci’s Leadership team. See more on GitHub, Twitter, Their Website, and rOpenSci.
     img: rich_fitzjohn.jpg
-slug: informative-slug
 tags:
   - community call
   - events
