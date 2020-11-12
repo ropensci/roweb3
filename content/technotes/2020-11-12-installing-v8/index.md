@@ -58,6 +58,6 @@ install.packages("V8")
 
 This way, you can install the V8 package on any x64 Linux system, without separate system requirements. 
 
-Another benefit over the other method, is that this gives you a more recent version of the V8 engine than what ships with some Linux distributions. We found that it works so well that we decided to enabled this by default on Travis and Github-Actions. But for local installations, you need to opt-in via the environment variable above.
+Another benefit over the other method, is that this gives you a more recent version of the V8 engine than what ships with some Linux distributions. We found that it works so well that we decided to enable this by default on Travis and Github-Actions. But for local installations, you need to opt-in via the environment variable above.
 
 I hope that this takes away the last bit of friction, to take advantage of the amazing features of V8 in R, and that it is safe to depend on this package. At least it has made some rstan users [very happy](https://github.com/stan-dev/rstan/issues/831#issuecomment-717614929).
