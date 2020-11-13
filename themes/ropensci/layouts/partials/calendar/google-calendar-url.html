@@ -2,6 +2,10 @@
 {{ $scratch.Set "zoomurl" "" }}
 {{ if isset .context.Params "zoomurl" }}
 {{ $scratch.Set "zoomurl" .context.Params.zoomurl }}
+{{ $link := ( print "https://calendar.google.com/calendar/r/eventedit?text=" .title "&details=" .context.Description " " .context.Permalink "&location=" ( $scratch.Get "zoomurl") "&dates=" ( (time .context.Params.dateStart ).Format "20060102T150405" ) "Z%2F" ( (time .context.Params.dateEnd ).Format "20060102T150405" )  "Z") | replaceRE " " "+" | safeHTML }}
+{{ $scratch.Set "link" $link }}
+{{ else }}
+{{ $link := ( print "https://calendar.google.com/calendar/r/eventedit?text=" .title "&details=" .context.Description " " .context.Permalink "&location=" .location " " .context.Permalink "&dates=" ( (time .context.Params.dateStart ).Format "20060102T150405" ) "Z%2F" ( (time .context.Params.dateEnd ).Format "20060102T150405" )  "Z") | replaceRE " " "+" | safeHTML }}
+{{ $scratch.Set "link" $link }}
 {{ end }}
-{{ $link := ( print "https://calendar.google.com/calendar/r/eventedit?text=" .title "&details=" .context.Description " " ( $scratch.Get "zoomurl") " " .context.Permalink "&location=" .location " " ( $scratch.Get "zoomurl") "&dates=" ( (time .context.Params.dateStart ).Format "20060102T150405" ) "Z%2F" ( (time .context.Params.dateEnd ).Format "20060102T150405" )  "Z") | replaceRE " " "+" | safeHTML }}
-{{ return $link }}
+{{ return ($scratch.Get "link") }}
