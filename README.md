@@ -79,7 +79,9 @@ Info including links.
 
 To add a new comm call, add a folder under content/commcalls with a Markdown file called index.md.
 
-Use the YAML to store information, except from the event summary that is the content of the Markdown file. 
+Use the YAML to store information, except from the event summary that is the content of the Markdown file.
+Please do not use "&" in the description.
+
 Store speaker pictures in the folder.
 If needed create author files for the organizer(s) and speaker(s).
 
@@ -119,7 +121,10 @@ speakers:
 tags:
   - tag1
   - tag2
-deets: "Zoom meeting ID 297 967 525. [Join Meeting](#)."
+deets: |
+    Meeting ID: 922 9890 9939
+    
+    Passcode: 896415
 zoomurl: zoom.blabla
 ---
 

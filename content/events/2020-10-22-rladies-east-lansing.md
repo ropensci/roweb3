@@ -23,4 +23,3 @@ Brooke Anderson, an [rOpenSci Software Peer Review Editor](/blog/2019/01/31/more
 R-Ladies East Lansing's information on who can attend: "We encourage women and minority genders to present/lead most sessions, conversations but we have no restrictions whatsoever when it comes to membership, participation, and discussions. So, please join us and bring your R-family & R-friends!" More information on their [Meetup page](https://www.meetup.com/rladies-east-lansing/).
 
 
-
