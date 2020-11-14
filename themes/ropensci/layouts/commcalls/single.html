@@ -60,7 +60,7 @@
     <p>Test your Zoom setup <a href ="https://zoom.us/test">https://zoom.us/test</a>.</p>
     <p>Join the meeting: <a href="{{ .Params.zoomurl }}">{{ .Params.zoomurl }}</a></p>
     {{ .Params.deets | markdownify }}
-    <p>Find your local number to join by phone: https://zoom.us/u/adAyZGMYrE</p>
+    <p>Find your local number to join by phone: <a href="https://zoom.us/u/adAyZGMYrE">https://zoom.us/u/adAyZGMYrE</a></p>
 
   </div>
 </div>
@@ -87,13 +87,14 @@
                     </div> 
                     {{ end }}
                     {{ end }}
-            {{ .Content }}
+                    <div class="content">
+            {{ .Content | markdownify }}
             {{ if eq .Content "" }}
             {{ with .Params.description }}
             {{ . | markdownify }}
             {{ end }}
             {{ end }}
-            
+                   </div>
             {{ with .Params.speakers }}
 <div class="speakers">
               <h2 class="title">
