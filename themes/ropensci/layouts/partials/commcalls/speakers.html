@@ -4,7 +4,7 @@ Speakers
 </h2>
 {{ range . }}
 <h3>{{ .name }}</h3>
-      <img src="{{ .img }}" alt="Portrait of {{ .name }}" style=" object-fit: cover; object-position: center; height: 250px; width: 200; margin-right: 15px" />
+      <img src="{{ .img | absURL }}" alt="Portrait of {{ .name }}" style=" object-fit: cover; object-position: center; height: 250px; width: 200; margin-right: 15px" />
 <p>
       {{ .bio | markdownify }}
       </p>
