@@ -56,23 +56,11 @@
                 {{ if isset .Params "deets" }}
                 <div class="collapse" id="zoominfo" style="margin-top:1rem;">
   <div class="card card-body">
-    <p>Everyone is welcome. No RSVP needed. Test your Zoom setup <a href ="https://zoom.us/test">https://zoom.us/test</a>.</p>
-    <p><b>Join Zoom meeting: <a href="{{ .Params.zoomurl }}">{{ .Params.zoomurl }}</a></b></p>
-    <b>{{ .Params.deets | markdownify }}</b>
-    <p>One tap mobile</p>
-<ul>
-<li>+13462487799,,92298909939#,,,,,,0#,,896415# US (Houston)</li>
-<li>+16468769923,,92298909939#,,,,,,0#,,896415# US (New York)</li>
-</ul>
-<p>Dial by your location</p>
-<ul>
-<li>+1 346 248 7799 US (Houston)</li>
-<li>+1 646 876 9923 US (New York)</li>
-<li>+1 669 900 6833 US (San Jose)</li>
-<li>+1 253 215 8782 US (Tacoma)</li>
-<li>+1 301 715 8592 US (Washington D.C)</li>
-<li>+1 312 626 6799 US (Chicago)</li>
-</ul>
+    <p>Everyone is welcome. No RSVP needed.</p>
+    <p>Test your Zoom setup <a href ="https://zoom.us/test">https://zoom.us/test</a>.</p>
+    <p>Join the meeting: <a href="{{ .Params.zoomurl }}">{{ .Params.zoomurl }}</a></p>
+    {{ .Params.deets | markdownify }}
+    <p>Find your local number to join by phone: https://zoom.us/u/adAyZGMYrE</p>
 
   </div>
 </div>
