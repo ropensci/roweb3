@@ -1,10 +1,18 @@
+{{ $scratch := newScratch }}
+
+{{ $scratch.Set "url" .Permalink }}
+
 {{ with .Params.speakers }}
 <h2 class="title">
 Speakers
 </h2>
 {{ range . }}
 <h3>{{ .name }}</h3>
-      <img src="{{ .img | absURL }}" alt="Portrait of {{ .name }}" style=" object-fit: cover; object-position: center; height: 250px; width: 200; margin-right: 15px" />
+{{ if ne (substr .img 0 1 ) "/" }}
+      <img src="{{ $scratch.Get "url"}}{{ .img }}" alt="Portrait of {{ .name }}" style=" object-fit: cover; object-position: center; height: 250px; width: 200; margin-right: 15px" />
+{{ else }}
+      <img src="{{ .img }}" alt="Portrait of {{ .name }}" style=" object-fit: cover; object-position: center; height: 250px; width: 200; margin-right: 15px" />
+{{ end }}
 <p>
       {{ .bio | markdownify }}
       </p>
