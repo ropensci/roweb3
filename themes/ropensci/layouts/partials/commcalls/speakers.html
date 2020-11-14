@@ -3,7 +3,10 @@
 Speakers
 </h2>
 {{ range . }}
+<h3>{{ .name }}</h3>
+<p>
       <img src="{{ .img }}" alt="Portrait of {{ .name }}" />
       {{ .bio | markdownify }}
+      </p>
 {{ end }}
 {{ end }}
