@@ -59,7 +59,7 @@
     <p>Everyone is welcome. No RSVP needed.</p>
     <p>Test your Zoom setup <a href ="https://zoom.us/test">https://zoom.us/test</a>.</p>
     <p>Join the meeting: <a href="{{ .Params.zoomurl }}">{{ .Params.zoomurl }}</a></p>
-    <b>{{ .Params.deets | markdownify }}</b>
+    {{ .Params.deets | markdownify }}
     <p>Find your local number to join by phone: https://zoom.us/u/adAyZGMYrE</p>
 
   </div>
