@@ -24,7 +24,7 @@ output:
 ### How did I find out about ghql?
 After spending days researching about the R packages that can interact with a GraphQL API, I found three packages. I picked `ghql` over the others because, it was an rOpenSci package. 
 
-## So what is GraphQL?
+### So what is GraphQL?
 GraphQL is a query language for application programming interfaces (APIs) that prioritizes giving clients exactly the data they request. It's designed to make APIs flexible, fast and friendly. Basically, it is used to load data from a server to a client and it does this in a much more efficient manner than traditional methods and services.
 
 ## And then, there is R
