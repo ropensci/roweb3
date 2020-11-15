@@ -22,7 +22,7 @@ output:
     keep_md: yes
 ---
 
-## How did I find out about ghql?
+### How did I find out about ghql?
 After spending days researching about the R packages that can interact with a GraphQL API, I found three packages. I picked `ghql` over the others because, it was an rOpenSci package. 
 
 ## So what is GraphQL?
