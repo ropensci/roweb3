@@ -28,7 +28,7 @@ After spending days researching about the R packages that can interact with a Gr
 ### So what is GraphQL?
 GraphQL is a query language for application programming interfaces (APIs) that prioritizes giving clients exactly the data they request. It's designed to make APIs flexible, fast and friendly. Basically, it is used to load data from a server to a client and it does this in a much more efficient manner than traditional methods and services.
 
-## And then, there is R
+### And then, there is R
 R is a free software environment for statistical computing and graphics. Well, that's how it's officially defined. But, trust me its gradually evolving to do more than statistical computing and making of beautiful graphics.
 
 ## Moving on
