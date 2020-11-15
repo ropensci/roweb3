@@ -1,40 +1,55 @@
 ---
-title: Interacting with GrahpQL APIs in R
+title: Accessing GrahpQL from R
 author:
   - Dennis Irorere
   - Scott Chamberlain
 date: '2020-10-10'
-slug: interacting-with-grahpql-apis-in-r
+slug: accessing-grahpql-in-r
 categories:
   - blog
 tags:
+  - Packages
   - API
   - R
   - ghql
   - graphql
 package_version: 0.1.0
 description: Ever tried interacting with a GraphQL server in R and felt like giving up even before getting anywhere? Well, I have been there and I wrote this blog post to assist others.
-twitterImg: blog/2020/10/10/interacting-with-grahpql-apis-in-r/GHQL.png
+twitterImg: blog/2020/10/10/accessing-grahpql-in-r/GHQL.png
 output:
   html_document:
     keep_md: yes
 ---
+## Introduction
+Few months ago, I embarked on a full stack spatial data project at work. The project kicked off amazingly, until I was almost backed to the wall when I discovered that some source of the data is serve via a GraphQL API. Before now, I haven't worked with GraphQL. But, I have heard a lot about it and how amazing it is for querying data. 
 
-## How did I find out about ghql?
-After spending days researching about the R packages that can interact with a GraphQL API, I found three packages. I picked `ghql` over the others because, it was an rOpenSci package. 
+I started off installing the [GraphQL playground](https://www.graphqlbin.com/v2/new), which is now my go to tool to interact with GraphQL API and it offers a great workflow to understand the schema and structure of any GraphQL API. I recommend you try it out.
 
-## So what is GraphQL?
+After hours of trying out the GraphQL playground, I finally understood the schema of the GraphQL API endpoint for the project I'm working on. Well, that was the easy part I must say. 
+
+Now that I can query the API, everything should seem great. Right? Well, it's not. Why? Well, the GraphQL API I was working with fetches the geospatial data as json file instead of geojson. Probably, because of my lack of understanding of how graphql truly worked with spatial data. The issue now is, I see my data alright. But, just not in the format that I can work with. I am tempted to talk about the technicality behind it, but I won't maybe another time. 
+
+### How did I find out about ghql?
+At work, our scripting language of choice is R. It was time for me to programmatically access data with GraphQL API from R. I felt excited because, I'm an R lover. But, I knew it was a going to be a huge work, I guess I was ready for the huge work. 
+
+After spending days researching about the R packages that can interact with a GraphQL API, I found three packages. I picked `ghql` over the others because, it was an rOpenSci package.
+
+### What is GraphQL?
+Well, you have heard me whine a lot about GraphQL and stick to this article so far. Please, allow me talk a little bit about GraphQL.
+
 GraphQL is a query language for application programming interfaces (APIs) that prioritizes giving clients exactly the data they request. It's designed to make APIs flexible, fast and friendly. Basically, it is used to load data from a server to a client and it does this in a much more efficient manner than traditional methods and services.
 
-## And then, there is R
+### And then, there is R
 R is a free software environment for statistical computing and graphics. Well, that's how it's officially defined. But, trust me its gradually evolving to do more than statistical computing and making of beautiful graphics.
 
-## Moving on
-In order for R to interact with any GraphQL API, it requires a GraphQL client. That's where `ghql`, a GraphQL client for R, developed by Scott Chamberlain comes into play. Still confused? I hope the flow chart below helps you make more sense of it.
-{{< figure src = "content\blog\2020-10-10-interacting-with-grahpql-apis-in-r\GHQL.png" width = "350" alt = "GraphQL client and R connection flow" caption = "GraphQL client and R connection flow" class = "center">}}
+### Moving on
+In order for R to interact with any GraphQL API, it requires a GraphQL client. That's where `ghql`, a GraphQL client for R, developed by Scott Chamberlain comes into play. Still confused? Well, so was I at first. I tried interacting with a GraphQL server in R and felt like giving up even before getting anywhere. Hopefully this blog post will assist others.
+<!--html_preserve-->
+{{< figure src = "GHQL.png" width = "350" alt = "GraphQL client and R connection flow" caption = "GraphQL client and R connection flow" class = "center">}}
+<!--/html_preserve-->
 
 ## Working with `Countries List`, a GraphQL public API
-The [Countries GraphQL API](https://github.com/trevorblades/countries) is a public GraphQL API for information about countries, continents, and languages. This public API uses [Countries List](https://annexare.github.io/Countries/) and [provinces](https://github.com/substack/provinces) as data sources, so the schema follows the shape of that data, with a few exceptions:
+The [Countries GraphQL API](https://github.com/trevorblades/countries) is a public GraphQL API for information about countries, continents, and languages. This public API uses [Countries List](https://annexare.github.io/Countries/) and [provinces](https://github.com/substack/provinces) as data sources, so the schema follows the shape of those data, with a few exceptions:
 - The codes used to key the objects in the original data are available as a code property on each item returned from the API.
 - The country.continent and country.languages are objects and arrays of objects, respectively.
 - Each Country has an array of states populated by their states/provinces, if any.
@@ -193,7 +208,7 @@ conn <- GraphqlClient$new(url = link)
 ## Create a query class first
 qry <- Query$new()
 
-## The grahpql server schema 
+## The graphQL server schema 
 qry$query('x', '{
 continent(code: "AF") {
     countries{
@@ -220,25 +235,25 @@ res <- jsonlite::fromJSON(res,
 
 ## convert the from json to dataframe object
 res_data <- res$data$continent$countries %>% 
-  as.data.frame()
+  as_tibble()
 
 ## Inspect the first 6 rows of the data
-head(res_data)
+res_data
 ```
 
 ```
-##   code                             name                           native
-## 1   AO                           Angola                           Angola
-## 2   BF                     Burkina Faso                     Burkina Faso
-## 3   BI                          Burundi                          Burundi
-## 4   BJ                            Benin                            Bénin
-## 5   BW                         Botswana                         Botswana
-## 6   CD Democratic Republic of the Congo République démocratique du Congo
-##       capital currency phone                                     languages
-## 1      Luanda      AOA   244                                    Portuguese
-## 2 Ouagadougou      XOF   226                                  French, Peul
-## 3   Bujumbura      BIF   257                               French, Kirundi
-## 4  Porto-Novo      XOF   229                                        French
-## 5    Gaborone      BWP   267                               English, Tswana
-## 6    Kinshasa      CDF   243 French, Lingala, Kongo, Swahili, Luba-Katanga
+## # A tibble: 58 x 7
+##    code  name             native            capital   currency phone languages  
+##    <chr> <chr>            <chr>             <chr>     <chr>    <chr> <list>     
+##  1 AO    Angola           Angola            Luanda    AOA      244   <df[,1] [1~
+##  2 BF    Burkina Faso     Burkina Faso      Ouagadou~ XOF      226   <df[,1] [2~
+##  3 BI    Burundi          Burundi           Bujumbura BIF      257   <df[,1] [2~
+##  4 BJ    Benin            Bénin             Porto-No~ XOF      229   <df[,1] [1~
+##  5 BW    Botswana         Botswana          Gaborone  BWP      267   <df[,1] [2~
+##  6 CD    Democratic Repu~ République démoc~ Kinshasa  CDF      243   <df[,1] [5~
+##  7 CF    Central African~ Ködörösêse tî Bê~ Bangui    XAF      236   <df[,1] [2~
+##  8 CG    Republic of the~ République du Co~ Brazzavi~ XAF      242   <df[,1] [2~
+##  9 CI    Ivory Coast      Côte d'Ivoire     Yamousso~ XOF      225   <df[,1] [1~
+## 10 CM    Cameroon         Cameroon          Yaoundé   XAF      237   <df[,1] [2~
+## # ... with 48 more rows
 ```
