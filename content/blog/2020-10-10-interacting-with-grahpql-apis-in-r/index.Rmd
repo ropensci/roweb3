@@ -8,7 +8,6 @@ slug: interacting-with-grahpql-apis-in-r
 categories:
   - blog
 tags:
-  - Software Peer Review
   - Packages
   - API
   - R
