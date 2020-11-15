@@ -122,7 +122,7 @@ conn <- GraphqlClient$new(url = link)
 ## Create a query class first
 qry <- Query$new()
 
-## The grahpql server schema 
+## The graphQL server schema 
 qry$query('x', '{
 continent(code: "AF") {
     countries{
