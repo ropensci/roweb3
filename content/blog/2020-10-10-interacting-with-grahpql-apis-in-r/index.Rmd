@@ -38,7 +38,7 @@ In order for R to interact with any GraphQL API, it requires a GraphQL client. T
 <!--/html_preserve-->
 
 ## Working with `Countries List`, a GraphQL public API
-The [Countries GraphQL API](https://github.com/trevorblades/countries) is a public GraphQL API for information about countries, continents, and languages. This public API uses [Countries List](https://annexare.github.io/Countries/) and [provinces](https://github.com/substack/provinces) as data sources, so the schema follows the shape of that data, with a few exceptions:
+Let's say you were working on a project that required country-specific data, such as currency, or language. You could get such data from the [Countries GraphQL API](https://github.com/trevorblades/countries) which is a public GraphQL API for information about countries, continents, and languages. This public API uses [Countries List](https://annexare.github.io/Countries/) and [provinces](https://github.com/substack/provinces) as data sources, so the schema follows the shape of those data, with a few exceptions:
 - The codes used to key the objects in the original data are available as a code property on each item returned from the API.
 - The country.continent and country.languages are objects and arrays of objects, respectively.
 - Each Country has an array of states populated by their states/provinces, if any.
