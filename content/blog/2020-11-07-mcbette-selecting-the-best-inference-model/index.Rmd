@@ -64,8 +64,11 @@ knitr::knit_hooks$set(
   }
 )
 
+```
 
-
+```{r check_everything_is_installed, include=FALSE}
+testthat::expect_true(beastier::is_beast2_installed())
+testthat::expect_true(mauricer::is_beast2_ns_pkg_installed())
 ```
 
 
@@ -78,101 +81,228 @@ beastier::save_nexus_as_fasta(
 )
 ```
 
+<!--html_preserve-->
+{{< figure src = "mcbette_logo.png" width = "400" alt = "The mcbette logo" >}}
+<!--/html_preserve-->
+
+With this blog post, I show how to use the `mcbette` R package 
+in an informal way.
+A more formal introduction on `mcbette` 
+can be found in the Journal of Open Source Science [^1]. 
+After introducing a concrete problem, I will show how `mcbette`
+can be used to solve it. 
+
+After discussing `mcbette`, I will conclude with
+why I think rOpenSci is important and how enjoyable 
+my experiences have been so far.
+
+## The problem
+
 Imagine you are a field biologist. All around the world, you captured
 multiple bird species of which you obtained a blood sample.
 From the blood, you have extracted the DNA. Using DNA, one can
 determine how these species are evolutionarily related. The problem is,
 which model of evolution you assume for your birds?
 
-## The problem
-
 To illustrate the problem of picking the right model of evolution,
-we start from the DNA sequences of primates. DNA consists out of a long
+we start from the DNA sequences of primates (we will abandon birds here). 
+DNA consists out of a long
 string of four different elements called nucleotides, 
 resulting in a four letter alphabet encoding for the proteins a cell needs. 
 In our case, we do not have the full DNA sequence of all primates, 
 but 'only' 898 nucleoides. Here I show the DNA sequences:
 
-```{r}
+```{r show_alignment}
 dna_sequences <- ape::read.FASTA(fasta_filename)
 ape::image.DNAbin(dna_sequences)
 ```
 
-From this DNA alignment, we can use the R package babette
-to estimate the evolutionary history of these species:
+From this DNA alignment, we can use the R package `babette` [^2][^3]
+to estimate the evolutionary history of these species.
 
-```{r cache=TRUE}
-out <- babette::bbt_run_from_model(fasta_filename)
+<!--html_preserve-->
+{{< figure src = "babette_logo.png" width = "400" alt = "The babette logo" >}}
+<!--/html_preserve-->
+
+First, we'll load `babette`:
+
+```{r load_babette}
+library(babette)
+```
+
+Here, we estimate the evolutionary history of these species:
+
+```{r infer_phylogenies,cache=TRUE}
+out <- bbt_run_from_model(fasta_filename)
 ```
 
 An evolutionary history can be visualized by a tree-like
 structure called a phylogeny. `babette`, however, creates multiple
-phylogenies of which the  
+phylogenies of which the more likelier ones show up more often. This results in a visualization that also shows the uncertainty of the inferred phylogenies: 
 
-```{r, hugoopts=list(alt="the estimated evolutionary history of primates", caption="the estimated evolutionary history of primates", width=300)}
+```{r plot_densitree,hugoopts=list(alt="the estimated evolutionary history of primates", caption="the estimated evolutionary history of primates", width=300)}
 babette::plot_densitree(
   out$primates_trees[9000:10000],
   alpha = 0.01
 )
 ```
-mcbette 1 is a package to work with BEAST2 2, a software platform for Bayesian evolutionary analysis from R.
 
+## The problem?
 
+As we have observed, inferring the evolutionary history
+from DNA sequences is easy. The open question is: have we used 
+the best evolutionary model?
 
+This is where `mcbette` can help out. `mcbette` is an abbreviation of
+'Model Comparison using `babette`' and it helps to pick
+the best evolutionary model, where 'best' is defined 
+as 'the evolutionary model that has been most likely to have generated the alignment, from a set of models'. 
+The addition of 'from a set of models' is important, 
+as there are infinitely many evolutionary models to choose from.
 
-## Noes
-The figure paths in the resulting Markdown will already be valid so you won't need to edit the Markdown file.
+Up so for, we used `babette`'s default evolutionary model.
+An evolutionary model consists out of, among others, three most important parts,
+which are the site, clock and tree model. The site model encompasses the way
+the (in our case) DNA sequence changes through time. The clock model
+embodies the rate of change over the different (in our case) species.
+The tree model specifies the (in our case) speciation model, that is
+how the branches of the trees are formed.
 
-## Section heading in sentence case
+Let's figure out what a default `babette` evolutionary model assumes.
 
-Citation of the primary literature[^1]. 
+```{r show_default_inference_model}
+default_model <- create_inference_model()
+print(
+  paste0(
+    "Site model: ", default_model$site_model$name, ". ",
+    "Clock model: ", default_model$clock_model$name, ". ",
+    "Tree model: ", default_model$tree_prior$name
+  )
+)
+```
+Apparently, the default site model embeds a Jukes-Cantor nucleotide 
+substitution model (i.e. all nucleotide mutations are equally likely), 
+the default clock model is strict (i.e. all DNA sequences change at the same
+rate), and the speciation model is Yule (i.e. speciation rates are constant
+and extinction rate is zero. These default settings are picked for a reason:
+these are the simplest site, clock and tree model.
 
-Citation of a website[^2]. 
+The question is if this default evolutionary model is the most likely
+to have actually resulted in the original alignment. It is easy to argue
+that the site, clock and tree model are overly simplistic (they are!).
 
-Citation of an R package[^3].
+## The competing model
 
-### Subsection heading
+In this example, I will let the default evolutionary model compete
+with only one other evolutionary model. 
+For this, there are plenty of options! Tip: to get an overview of
+all inference models, view the `inference models` vignette of the `beautier` 
+package (which is part of `babette`),
+or go to URL [https://cran.r-project.org/web/packages/beautier/vignettes/inference_models.html](https://cran.r-project.org/web/packages/beautier/vignettes/inference_models.html).
 
-We recommend the use of [Hugo shortcodes](https://gohugo.io/content-management/shortcodes/) to include images, tweets, videos, gists, etc. In the Rmd file they need to be between `<!--html_preserve-->` and `<!--/html_preserve-->`.
+Here, I create the competing model:
 
-**Add an image** by using a Hugo shortcode. The image is saved under `/content/blog/YYYY-MM-DD-slug/name-of-image.png`.
-
-<!--html_preserve-->
-{{< figure src = "name-of-image.png" width = "400" alt = "this is the alternative text" >}}
-<!--/html_preserve-->
-
-Consult the Technical Guidelines for tips on changing image size, alignment, and for advice on alternative text.
-
-Below is another image, a plot generated by a code chunk, so you might see how to add alternative text and other options in this case. You can also use [all options documented for the figure shortcode](https://gohugo.io/content-management/shortcodes/#figure) except for `src` that will be created automatically when knitting.
-
-```{r chunkname, hugoopts=list(alt="alternative text please make it informative", caption="this is what this image shows, write it here or in the paragraph after the image as you prefer", width=300)}
-plot(1:10)
+```{r create_competing_model}
+competing_model <- create_inference_model(
+  clock_model = create_rln_clock_model()  
+)
 ```
 
-Once this file is knitted the plot above will be inserted with the correct syntax.
+The competing model has a different clock model: 'rln' stands for 'relaxed
+log-normal', which denotes that the different species can have different
+mutation rates, where these mutation rates for a log-normal distribution.
 
+## Getting the results
 
-**Embed a tweet** by using a Hugo shortcode. 
+We must modify our inference model first, to prepare them for model
+comparison:
 
-<!--html_preserve-->
-{{< tweet 1138216112808529920 >}}
-<!--/html_preserve-->
-
-
-**Tweak code highlighting** Below you can see how to use Hugo [Chroma code highlighting options](https://gohugo.io/content-management/syntax-highlighting/#highlight-shortcode): highlight the 1st and 4th to 6th code lines, number lines as a table starting from 199.
-
-```{r hl, hlopts = list(linenos='table',hl_lines='[1,"4-6"]',linenostart=199)}
-a <- 1
-a <- 1
-a <- 1
-a <- 1
-a <- 1
-a <- 1
-a <- 1
+```{r use_nested_sampling_mcmcs}
+default_model$mcmc <- beautier::create_ns_mcmc(particle_count = 256)
+competing_model$mcmc <- beautier::create_ns_mcmc(particle_count = 256)
 ```
 
-**Add citation or footnote** text by using the format below 
+Increasing the number of particles improves the accuracy of the marginal
+likelihood estimation.
 
-[^1]: Sciaini, M., Fritsch, M., Scherer, C., & Simpkins, C. E. (2018). NLMR and landscapetools: An integrated environment for simulating and modifying neutral landscape models in R. Methods in Ecology and Evolution, 9(11), 2240-2248. <https://doi.org/10.1111/2041-210X.13076>
-[^2]: Elin Waring, Michael Quinn, Amelia McNamara, Eduardo Arino de la Rubia, Hao Zhu and Shannon Ellis (2019). skimr: Compact and Flexible Summaries of Data. R package version 1.0.7. https://CRAN.R-project.org/package=skimr
-[^3]: Hugo static site generator. https://gohugo.io/
+Now, we load `mcbette`, 'Model Comparison using `babette`' to do our 
+model comparison:
+
+```{r load_mcbette}
+library(mcbette)
+```
+
+Then, we let `mcbette` estimate the marginal likelihoods of both
+models. The marginal likelihood is the likelihood to observe
+the data given a model, which is exactly what we need here. 
+Also note that this approach to compare models has no problems
+to honestly compare models with a different amount of parameters;
+there is a natural penalty for more models with more parameters.
+
+```{r est_marg_liks,cache=TRUE}
+marg_liks <- est_marg_liks(
+  fasta_filename = fasta_filename,
+  inference_models = list(
+    default_model,
+    competing_model
+  )
+)
+knitr::kable(marg_liks)
+```
+
+Note that this calculation takes quite some time!
+
+The most important column to look at here is the `weight` column.
+All (two) weights sum up to one. A model's weight is its relative
+chance to have observed the alignment given the model. As can
+be seen, the weight for the more complex (relaxed log-normal)
+clock model is heigher (i.e. 0.9343919).
+
+We can also visualize which model is the best, 
+by plotting the estimated marginal likelihoods 
+and the error in this estimation:
+
+```{r,hugoopts=list(alt="the estimated marginal likelihoods", caption="the estimated marginal likelihoods", width=300)}
+plot_marg_liks(marg_liks)
+```
+
+Note that marginal likeloods can be very close to zero. 
+Hence, `mcbette` use log values. The model with the lowest
+log value, thus has the highest marginal likelihood 
+and is thus more likely to have resulted in the data.
+
+## Why rOpenSci?
+
+I enjoy rOpenSci, because I care about my users: 
+rOpenSci allows me to prove that I do so.
+
+I feel it is a misconception that free software is always beneficial.
+I would claim that free software is beneficial only, when its developers
+observably care about their users. For starters, there should be a place
+to submit bug reports (e.g. GitHub), instead of using a package-related
+email addres (e.g. `mcbette@gmail.com`) that gets 
+forgotten by the developer. A user needs a place to ask questions and
+submit bug reports. Young researcher may base their next research 
+on a newly developed package, only to result in weeks of frustration
+due to the packages' maintainters' inconsideration. 
+I feel it makes the world a better place,
+that rOpenSci enforces its developers to use a website to submit bug reports.
+
+To prove that I am considerate towards my users,
+rOpenSci provides me my first critical first users of my packages.
+I know what I expect my package to do,
+yet cannot predict well what others think. Also, although I attempt to write
+exemplary code (and documentation, tests, etc.), I will forget some little 
+things in the process. My reviewers have impressed me by pointing out each
+of these (many!) little details I missed and 
+it has taken me weeks to process all the feedback.
+My rOpenSci reviewers have made my code better in ways I did not imagine.
+
+Whenever I can, I use packages reviewed by rOpenSci: 
+it is where the awesome and considerate people are!
+
+## References
+
+[^1]: Bilderbeek (2020) mcbette: model comparison using babette. Journal of Open Source Software, 5(54), 2762. <https://doi.org/10.21105/joss.02762>
+[^2]: Bilderbeek and Etienne (2018) babette: BEAUti 2, BEAST2 and Tracer for R. Methods in Ecology and Evolution 9, no. 9: 2034-2040. <https://doi.org/10.1111/2041-210X.13032>
+[^3]: Bilderbeek (2020) Call BEAST2 for Bayesian evolutionary analysis from R. rOpenSci blog post. <https://ropensci.org/blog/2020/01/28/babette/>
