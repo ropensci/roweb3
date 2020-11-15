@@ -13,6 +13,7 @@ tags:
   - R
   - ghql
   - graphql
+  - community
 package_version: 0.1.0
 description: Ever tried interacting with a GraphQL server in R and felt like giving up even before getting anywhere? Well, I have been there and I wrote this blog post to assist others.
 twitterImg: blog/2020/10/10/accessing-grahpql-in-r/GHQL.png
@@ -20,7 +21,7 @@ output:
   html_document:
     keep_md: yes
 ---
-## Introduction
+### Introduction
 Few months ago, I embarked on a full stack spatial data project at work. The project kicked off amazingly, until I was almost backed to the wall when I discovered that some source of the data is serve via a GraphQL API. Before now, I haven't worked with GraphQL. But, I have heard a lot about it and how amazing it is for querying data. 
 
 I started off installing the [GraphQL playground](https://www.graphqlbin.com/v2/new), which is now my go to tool to interact with GraphQL API and it offers a great workflow to understand the schema and structure of any GraphQL API. I recommend you try it out.
@@ -35,7 +36,7 @@ At work, our scripting language of choice is R. It was time for me to programmat
 After spending days researching about the R packages that can interact with a GraphQL API, I found three packages. I picked `ghql` over the others because, it was an rOpenSci package.
 
 ### What is GraphQL?
-Well, you have heard me whine a lot about GraphQL and stick to this article so far. Please, allow me talk a little bit about GraphQL.
+Well, you have heard me whine a lot about GraphQL and stick with me this far, thanks! Please, allow me talk a little bit about GraphQL.
 
 GraphQL is a query language for application programming interfaces (APIs) that prioritizes giving clients exactly the data they request. It's designed to make APIs flexible, fast and friendly. Basically, it is used to load data from a server to a client and it does this in a much more efficient manner than traditional methods and services.
 
@@ -48,8 +49,12 @@ In order for R to interact with any GraphQL API, it requires a GraphQL client. T
 {{< figure src = "GHQL.png" width = "350" alt = "GraphQL client and R connection flow" caption = "GraphQL client and R connection flow" class = "center">}}
 <!--/html_preserve-->
 
+<<<<<<< HEAD:content/blog/2020-10-10-accessing-grahpql-in-r/index.Rmd
 ## Working with `Countries List`, a GraphQL public API
 The [Countries GraphQL API](https://github.com/trevorblades/countries) is a public GraphQL API for information about countries, continents, and languages. This public API uses [Countries List](https://annexare.github.io/Countries/) and [provinces](https://github.com/substack/provinces) as data sources, so the schema follows the shape of those data, with a few exceptions:
+=======
+### Working with `Countries List`, a GraphQL public API
+Let's say you were working on a project that required country-specific data, such as currency, or language. You could get such data from the [Countries GraphQL API](https://github.com/trevorblades/countries) which is a public GraphQL API for information about countries, continents, and languages. This public API uses [Countries List](https://annexare.github.io/Countries/) and [provinces](https://github.com/substack/provinces) as data sources, so the schema follows the shape of those data, with a few exceptions:
 - The codes used to key the objects in the original data are available as a code property on each item returned from the API.
 - The country.continent and country.languages are objects and arrays of objects, respectively.
 - Each Country has an array of states populated by their states/provinces, if any.
