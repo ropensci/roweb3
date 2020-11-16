@@ -37,7 +37,7 @@ resources:
     details: Colavizza G, Hrynaszkiewicz I, Staden I, Whitaker K, McGillivray B (2020) PLoS ONE 15(4), e0230416. 
 speakers:
   - name: Kara Woo
-    bio: Kara Woo is a Principal Bioinformatics Engineer at [Sage Bionetworks](http://sagebionetworks.org/) where she leads a team of developers building tools and infrastructure for open science. She has previously worked as an information manager at Washington State University and at the National Center for Ecological Analysis and Synthesis (NCEAS), where she combined data management with fieldwork at a remote Siberian lake. Kara is a member of the rOpenSci Code of Conduct committee. Kara on [GitHub](https://github.com/karawoo), [Twitter](https://twitter.com/kara_woo), [Website](https://karawoo.com/)
+    bio: Kara Woo is a Principal Bioinformatics Engineer at [Sage Bionetworks](http://sagebionetworks.org/) where she leads a team of developers building tools and infrastructure for open science. Kara is a member of the rOpenSci Code of Conduct committee. Kara on [GitHub](https://github.com/karawoo), [Twitter](https://twitter.com/kara_woo), [Website](https://karawoo.com/)
     img: kara-woo.jpg
   - name: Daniella Lowenberg
     bio: Daniella Lowenberg is the Product Manager at [Dryad](https://datadryad.org/) and Principal Investigator of [Make Data Count](https://makedatacount.org/) within the California Digital Library at University of California. “she was a Publications Manager at PLOS ONE where she implemented and oversaw the PLOS Data Policy. For the last three years, Daniella has been a data publishing and data metrics product manager.” Daniella on [GitHub](https://github.com/dlowenberg), [Twitter](https://twitter.com/danilowenberg)
