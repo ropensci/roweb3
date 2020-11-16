@@ -46,7 +46,7 @@ speakers:
     bio: Matt Jones is Director of Informatics R&D at the National Center for Ecological Analysis and Synthesis ([NCEAS](https://www.nceas.ucsb.edu/)), Principal Investigator of the [NSF Arctic Data Center](https://arcticdata.io/), and Director of [DataONE](https://www.dataone.org/) at University of California Santa Barbara. Matt on [GitHub](https://github.com/mbjones), [Twitter](https://twitter.com/metamattj), [Website](http://matt.magisa.org/)
     img: /img/team/matt-jones.jpg
   - name: Carl Boettiger
-    bio: Carl Boettiger is Assistant Professor in the [Department of Environmental Science, Policy and Management at UC Berkeley](http://ourenvironment.berkeley.edu/), a co-founder and leadership team member of rOpenSci. Carl on [GitHub](https://github.com/cboettig), [Twitter](https://twitter.com/cboettig), [Website](https://www.carlboettiger.info/)
+    bio: Carl Boettiger is Assistant Professor in the [Department of Environmental Science, Policy and Management at UC Berkeley](http://ourenvironment.berkeley.edu/), a Co-founder and strategic advisor of rOpenSci. Carl on [GitHub](https://github.com/cboettig), [Twitter](https://twitter.com/cboettig), [Website](https://www.carlboettiger.info/)
     img: /img/team/carl.jpg
   - name: Karthik Ram
     bio: Karthik Ram is a Senior Research Scientist with the Berkeley Institute for Data Science, Project Lead and Co-founder of rOpenSci, Editor for rOpenSci Software Peer Review. He has a PhD in Ecology and Evolution. Karthik on [GitHub](https://github.com/karthik), [Twitter](https://twitter.com/\_inundata), [Website](http://karthik.io/)
