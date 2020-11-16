@@ -239,7 +239,11 @@ Also note that this approach to compare models has no problems
 to honestly compare models with a different amount of parameters;
 there is a natural penalty for more models with more parameters.
 
-```{r est_marg_liks,cache=TRUE}
+```{r est_marg_liks,cache=FALSE,show=FALSE}
+marg_liks <- get_test_marg_liks()
+```
+
+```{r est_marg_liks,cache=TRUE,eval=FALSE}
 marg_liks <- est_marg_liks(
   fasta_filename = fasta_filename,
   inference_models = list(
