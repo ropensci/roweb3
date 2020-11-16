@@ -3,7 +3,7 @@ title: The Wild World of Data Repositories
 dateStart: 2020-12-16T18:00:00 # UTC!!
 dateEnd: 2020-12-16T19:00:00 # UTC!!
 date: 2020-12-16T19:00:00 # UTC!! same as dateEnd
-publishDate: 2020-11-16
+publishDate: 2020-11-18
 description: Experts will discuss types of data repositories, challenges in data deposition and reuse, vision for new tools
 author:
   - Kara Woo
