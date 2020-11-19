@@ -1,5 +1,5 @@
 ---
-title: 'Selecting the Best Inference Model'
+title: 'Selecting the Best Phylogenetic Evolutionary Model'
 author:
   - richelbilderbeek
 date: '2020-12-01'
