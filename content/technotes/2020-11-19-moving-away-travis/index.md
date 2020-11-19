@@ -37,7 +37,7 @@ To get started with GHA for R, the [r-lib/actions](https://github.com/r-lib/acti
 
 We will likely only start seeing more of GitHub actions, as it becomes the default CI for open-source. But for now I would like to thank the Travis team, especially the initial founders and engineers, for bringing massive free CI to the open-source ecosystem.
 
-I remember the first time installing Travis on a project, and seeing commits and pull requests automatically get built and checked, without having to do anything. I was blown away, it really brought the concept of pull requests to life. In no time, CI became an integral part of development, providing an efficient workflow to test new features and review pull requests, and green badges [started appearing](https://juliasilge.com/blog/beginners-guide-to-travis/) everywhere. I could never maintain the number of projects that I do today, would I have to test all those pull requests manually!
+I remember the first time installing Travis on a project, and seeing commits and pull requests automatically get built and checked, without having to do anything. I was blown away, it really brought the concept of pull requests to life. In no time, CI became an integral part of development, providing an efficient workflow to test new features and review pull requests, and green badges [started appearing](https://juliasilge.com/blog/beginners-guide-to-travis/) everywhere. I think it is fair to say that we could never maintain the number of projects we do today, if we had to test all those pull requests manually!
 
 The R community certainly is not alone in this. A user in the [hackernews](https://news.ycombinator.com/item?id=19218036) discussion comments:
 
