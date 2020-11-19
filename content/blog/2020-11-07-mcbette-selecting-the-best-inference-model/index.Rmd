@@ -211,7 +211,7 @@ competing_model <- create_inference_model(
 
 The competing model has a different clock model: 'rln' stands for 'relaxed
 log-normal', which denotes that the different species can have different
-mutation rates, where these mutation rates for a log-normal distribution.
+mutation rates, where these mutation rates follow a log-normal distribution.
 
 ## Getting the results
 
