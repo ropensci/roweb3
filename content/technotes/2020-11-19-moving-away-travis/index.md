@@ -4,7 +4,6 @@ title: 'Moving away from Travis CI'
 date: '2020-11-19'
 author:
   - Jeroen Ooms
-  - Maëlle Salmon
 tags:
   - CI
   - Travis
