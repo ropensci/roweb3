@@ -88,12 +88,12 @@ beastier::save_nexus_as_fasta(
 
 With this blog post, I show how to use the [mcbette](https://docs.ropensci.org/mcbette/) R package 
 in an informal way.
-A more formal introduction on `mcbette` 
+A more formal introduction on mcbette 
 can be found in the Journal of Open Source Science [^1]. 
-After introducing a concrete problem, I will show how `mcbette`
+After introducing a concrete problem, I will show how mcbette
 can be used to solve it. 
 
-After discussing `mcbette`, I will conclude with
+After discussing mcbette, I will conclude with
 why I think rOpenSci is important and how enjoyable 
 my experiences have been so far.
 
@@ -118,14 +118,14 @@ dna_sequences <- ape::read.FASTA(fasta_filename)
 ape::image.DNAbin(dna_sequences)
 ```
 
-From this DNA alignment, we can use the R package `babette` [^2][^3]
+From this DNA alignment, we can use the R package babette [^2][^3]
 to estimate the evolutionary history of these species.
 
 <!--html_preserve-->
 {{< figure src = "babette_logo.png" width = "400" alt = "The babette logo" >}}
 <!--/html_preserve-->
 
-First, we'll load `babette`:
+First, we'll load babette:
 
 ```{r load_babette}
 library(babette)
@@ -138,7 +138,7 @@ out <- bbt_run_from_model(fasta_filename)
 ```
 
 An evolutionary history can be visualized by a tree-like
-structure called a phylogeny. `babette`, however, creates multiple
+structure called a phylogeny. babette, however, creates multiple
 phylogenies of which the more likelier ones show up more often. This results in a visualization that also shows the uncertainty of the inferred phylogenies: 
 
 ```{r plot_densitree,hugoopts=list(alt="the estimated evolutionary history of primates", caption="the estimated evolutionary history of primates", width=600)}
@@ -154,14 +154,14 @@ As we have observed, inferring the evolutionary history
 from DNA sequences is easy. The open question is: have we used 
 the best evolutionary model?
 
-This is where `mcbette` can help out. `mcbette` is an abbreviation of
-'Model Comparison using `babette`' and it helps to pick
+This is where mcbette can help out. mcbette is an abbreviation of
+'Model Comparison using babette' and it helps to pick
 the best evolutionary model, where 'best' is defined 
 as 'the evolutionary model that has been most likely to have generated the alignment, from a set of models'. 
 The addition of 'from a set of models' is important, 
 as there are infinitely many evolutionary models to choose from.
 
-So far in this example we have used `babette`'s default evolutionary model.
+So far in this example we have used babette's default evolutionary model.
 An evolutionary model consists out of, among others, three most important parts,
 which are the site, clock and tree model. The site model encompasses the way
 the (in our case) DNA sequence changes through time. The clock model
@@ -169,7 +169,7 @@ embodies the rate of change over the different (in our case) species.
 The tree model specifies the (in our case) speciation model, that is
 how the branches of the trees are formed.
 
-Let's figure out what a default `babette` evolutionary model assumes.
+Let's figure out what a default babette evolutionary model assumes.
 
 ```{r show_default_inference_model}
 default_model <- create_inference_model()
@@ -197,8 +197,8 @@ that the site, clock and tree model are overly simplistic (they are!).
 In this example, I will let the default evolutionary model compete
 with only one other evolutionary model. 
 For this, there are plenty of options! Tip: to get an overview of
-all inference models, view the `inference models` vignette of the `beautier` 
-package (which is part of `babette`),
+all inference models, view the `inference models` vignette of the beautier 
+package (which is part of babette),
 or go to URL [https://cran.r-project.org/web/packages/beautier/vignettes/inference_models.html](https://cran.r-project.org/web/packages/beautier/vignettes/inference_models.html).
 
 Here, I create the competing model:
@@ -226,14 +226,14 @@ competing_model$mcmc <- beautier::create_ns_mcmc(particle_count = 256)
 Increasing the number of particles improves the accuracy of the marginal
 likelihood estimation.
 
-Now, we load `mcbette`, 'Model Comparison using `babette`' to do our 
+Now, we load mcbette, 'Model Comparison using babette' to do our 
 model comparison:
 
 ```{r load_mcbette}
 library(mcbette)
 ```
 
-Then, we let `mcbette` estimate the marginal likelihoods of both
+Then, we let mcbette estimate the marginal likelihoods of both
 models. The marginal likelihood is the likelihood to observe
 the data given a model, which is exactly what we need here. 
 Also note that this approach to compare models has no problems
@@ -272,7 +272,7 @@ plot_marg_liks(marg_liks)
 ```
 
 Note that marginal likelihoods can be very close to zero. 
-Hence, `mcbette` use log values. The model with the lowest
+Hence, mcbette use log values. The model with the lowest
 log value, thus has the highest marginal likelihood 
 and is thus more likely to have resulted in the data.
 
