@@ -15,7 +15,7 @@ tags:
   - Bayesian
   - model selection
   - mcbette
-package_version: 0.1.0
+package_version: 1.12
 description: Using mcbette to pick the best evolutionary model for your DNA
 twitterImg: blog/2019/06/04/post-template/name-of-image.png
 output:
