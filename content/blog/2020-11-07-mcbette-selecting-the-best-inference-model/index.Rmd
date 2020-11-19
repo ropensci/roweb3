@@ -291,7 +291,7 @@ submit bug reports. A young researcher may base their next research
 on a newly developed package, only to result in weeks of frustration
 due to the package maintainer's inconsideration. 
 I feel it makes the world a better place,
-that rOpenSci enforces its developers to use a website to submit bug reports.
+that rOpenSci requires its developers to use a website to submit bug reports.
 
 To prove that I am considerate towards my users,
 rOpenSci provides me my first critical first users of my packages.
