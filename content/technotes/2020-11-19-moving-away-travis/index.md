@@ -1,6 +1,6 @@
 ---
 slug: moving-away-travis
-title: 'Moving away from Travis'
+title: 'Moving away from Travis CI'
 date: '2020-11-19'
 author:
   - Jeroen Ooms
