@@ -161,7 +161,7 @@ as 'the evolutionary model that has been most likely to have generated the align
 The addition of 'from a set of models' is important, 
 as there are infinitely many evolutionary models to choose from.
 
-Up so for, we used `babette`'s default evolutionary model.
+So far in this example we have used `babette`'s default evolutionary model.
 An evolutionary model consists out of, among others, three most important parts,
 which are the site, clock and tree model. The site model encompasses the way
 the (in our case) DNA sequence changes through time. The clock model
