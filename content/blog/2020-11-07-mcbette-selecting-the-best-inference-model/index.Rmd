@@ -107,7 +107,7 @@ which model of evolution do you assume for your birds?
 
 To illustrate the problem of picking the right model of evolution,
 we start from the DNA sequences of primates (we will abandon birds here). 
-DNA consists out of a long
+DNA consists of a long
 string of four different elements called nucleotides, 
 resulting in a four letter alphabet encoding for the proteins a cell needs. 
 In our case, we do not have the full DNA sequence of all primates, 
