@@ -1,7 +1,7 @@
 ---
 title: 'Selecting the Best Phylogenetic Evolutionary Model'
 author:
-  - richelbilderbeek
+  - Richèl J.C. Bilderbeek
 date: '2020-12-01'
 slug: mcbette-selecting-the-best-inference-model
 categories:
