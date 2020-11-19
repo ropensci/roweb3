@@ -141,7 +141,7 @@ An evolutionary history can be visualized by a tree-like
 structure called a phylogeny. `babette`, however, creates multiple
 phylogenies of which the more likelier ones show up more often. This results in a visualization that also shows the uncertainty of the inferred phylogenies: 
 
-```{r plot_densitree,hugoopts=list(alt="the estimated evolutionary history of primates", caption="the estimated evolutionary history of primates", width=300)}
+```{r plot_densitree,hugoopts=list(alt="the estimated evolutionary history of primates", caption="the estimated evolutionary history of primates", width=600)}
 babette::plot_densitree(
   out$primates_trees[9000:10000],
   alpha = 0.01
