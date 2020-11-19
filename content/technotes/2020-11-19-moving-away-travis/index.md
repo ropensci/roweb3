@@ -46,7 +46,14 @@ As a user, it did a lot to increase software quality: not just catching inadvert
 
 Of course the open-source community is sad to see Travis become an enterprise-first product. But in all honesty, the system is no longer state-of-the-art, and probably won't be able to compete with the new GitHub/Microsoft products. 
 
-Also we are very aware that it is difficult to find a sustainable business model around open-source, and hope the company will survive by refocusing on specialized enterprise CI needs. Nevertheless, as we transition towards a new generation of CI systems, we won't forget the role that Travis played in taking open-source collaboration to the next level. Thank you!
+Also we are very aware that it is difficult to find a sustainable business model around open-source, and hope the company will survive by refocusing on specialized enterprise CI needs. Nevertheless, as we transition towards a new generation of CI systems, we won't forget the pioneering role that Travis played in taking open-source collaboration to the next level. Thank you!
 
+## Migrating your Projects
+
+If you are still using Travis-CI, there are several options. First, you should convert your `travis-ci.org` account into a `travis-ci.com` account following [instructions](https://mailchi.mp/3d439eeb1098/travis-ciorg-is-moving-to-travis-cicom), if you had not done so already. This will make sure your CI keeps working after December 31, at least until you run out of credit :-)
+
+As mentioned, we recommend exploring alternatives, in particular GitHub actions. As things are evolving rapidly, and we suggest you keep an eye on the [r-lib/actions](https://github.com/r-lib/actions) repo, our [dev guide](https://devguide.ropensci.org/ci.html), or simply copy what other package authors are doing.
+
+Fortunately the vendor lock-in with CI vendors is pretty limited. For standard configurations you can just replace the `.travis` file with an equivalent template from another CI service. If you have a customized configuration, you may have to spend a few minutes translating that to another format. This is annoying, but some vendor commitment [the price we pay](http://veekaybee.github.io/2019/02/10/lockin/) for getting these awesome services for free.
 
 [^1]: Or automatically with [usethis](https://usethis.r-lib.org/reference/use_github_action.html) by running: `usethis::use_github_action_check_standard()`
