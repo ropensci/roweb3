@@ -103,7 +103,7 @@ Imagine you are a field biologist. All around the world, you captured
 multiple bird species of which you obtained a blood sample.
 From the blood, you have extracted the DNA. Using DNA, one can
 determine how these species are evolutionarily related. The problem is,
-which model of evolution you assume for your birds?
+which model of evolution do you assume for your birds?
 
 To illustrate the problem of picking the right model of evolution,
 we start from the DNA sequences of primates (we will abandon birds here). 
