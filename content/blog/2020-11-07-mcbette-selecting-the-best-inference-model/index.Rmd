@@ -85,7 +85,7 @@ beastier::save_nexus_as_fasta(
 {{< figure src = "mcbette_logo.png" width = "400" alt = "The mcbette logo" >}}
 <!--/html_preserve-->
 
-With this blog post, I show how to use the `mcbette` R package 
+With this blog post, I show how to use the [mcbette](https://docs.ropensci.org/mcbette/) R package 
 in an informal way.
 A more formal introduction on `mcbette` 
 can be found in the Journal of Open Source Science [^1]. 
