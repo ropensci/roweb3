@@ -4,7 +4,7 @@ PRODID:-//elm-conf//speaker calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-ORGANIZER;CN="rOpenSci":mailto:info@ropensci.org
+ORGANIZER;CN="rOpenSci":mailto:no-reply@ropensci.org
 SUMMARY:{{.Title}} (rOpenSci)
 UID:{{.Params.dateStart}}@ropensci-commcalls
 SEQUENCE:0
