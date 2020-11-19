@@ -13,7 +13,7 @@ outputs:
 attendees:
   - Rebecca Killick
 resources: # can be added later, one entry per talk (don't add while still empty, add once there are resources)
-  - title: Navigating open-source software: Ensuring you can rely on what you use
+  - title: Navigating open-source software - Ensuring you can rely on what you use
     speaker: Rebecca Killick
     slides: https://github.com/rkillick/Presentations/blob/main/Killick.pdf
     video: https://youtu.be/6PV5dGpmQgk
