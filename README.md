@@ -46,15 +46,15 @@ The featured event or comm call at the top of the events page is the nearest fea
 
 ### Events
 
-To add a new event, add a Markdown file under content/events called YYYY-MM-DD-slug.md.
+To add a new event, or add to the [talks list](https://ropensci.org/talks-papers/) add a Markdown file under content/events called YYYY-MM-DD-slug.md.
 
 ````markdown
 ---
-title: Call Title in Title Case
+title: Call Title in Title Case # no colons allowed
 dateStart: 2020-12-05T10:00:00 # UTC!!
 dateEnd: 2020-12-05T11:00:00 # UTC!!
 date: 2020-12-05T11:00:00 # UTC!! same as dateEnd
-description: short summary
+description: short summary # no colons allowed
 location: 'online' # free text
 slug: "informative-slug"
 country: "\U0001F310" # emoji
