@@ -111,7 +111,7 @@ DNA consists of a long
 string of four different elements called nucleotides, 
 resulting in a four letter alphabet encoding for the proteins a cell needs. 
 In our case, we do not have the full DNA sequence of all primates, 
-but 'only' 898 nucleoides. Here I show the DNA sequences:
+but 'only' 898 nucleotides. Here I show the DNA sequences:
 
 ```{r show_alignment}
 dna_sequences <- ape::read.FASTA(fasta_filename)
