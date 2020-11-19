@@ -19,7 +19,7 @@ Travis CI has been a pioneer in free public CI services, and made the concept po
 
 ## A Change of Management
 
-Sadly, good times came to an end. In 2019 the company [was sold](https://news.ycombinator.com/item?id=18978251) to a private equity firm, and soon after the acquisition, a large portion of the senior engineer staff was [layed off](https://news.ycombinator.com/item?id=19218036). Under the new management, open-source users started suffering from significant outages and backlogs, while being pushed towards the new enterprise product travis-ci.com (the original travis was hosted on travis-ci.org).
+Sadly, good times came to an end. In 2019 the company [was sold](https://news.ycombinator.com/item?id=18978251) to a private equity firm, and soon after the acquisition, a large portion of the senior engineer staff was [layed off](https://news.ycombinator.com/item?id=19218036). Under the new management, open-source users started suffering from significant outages and backlogs, while being pushed towards the new enterprise product travis-ci.com (the original Travis service was hosted on travis-ci.org).
 
 The big blow came earlier this month, when Travis announced a [new pricing model](https://blog.travis-ci.com/2020-11-02-travis-ci-new-billing) which no longer has a generous free tier for open source projects, and also fully [shutting down](https://mailchi.mp/3d439eeb1098/travis-ciorg-is-moving-to-travis-cicom) the old travis-ci.org product by December 31. It is still unclear what exactly the new product will look like, perhaps it can still be useful, but with the direction the company is heading, we recommend exploring other options.
 
