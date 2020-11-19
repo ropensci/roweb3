@@ -289,7 +289,7 @@ email address (e.g. `mcbette@gmail.com`) that gets
 forgotten by the developer. A user needs a place to ask questions and
 submit bug reports. Young researcher may base their next research 
 on a newly developed package, only to result in weeks of frustration
-due to the packages' maintainters' inconsideration. 
+due to the package maintainer's inconsideration. 
 I feel it makes the world a better place,
 that rOpenSci enforces its developers to use a website to submit bug reports.
 
