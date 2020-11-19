@@ -28,7 +28,7 @@ Fortunately, there are many other companies offering free CI for open source pro
 
 The GitHub Actions (GHA) platform was introduced only recently, but has quickly taken over the open-source world. The system is extremely flexible, allowing you to run any combination of scripts, containers, and imported actions from other users. The native integration with GitHub this takes away the annoying authentication dance that is required for third party services, making the setup completely seamless. Very generous free build resources are provided for open source projects, but if you need something else, GHA also allows you to plug in [self-hosted runners](https://docs.github.com/en/free-pro-team@latest/actions/hosting-your-own-runners/about-self-hosted-runners), giving you complete control of your hardware and build environment.
 
-To get started with GHA for R, the [r-lib/actions](https://github.com/r-lib/actions) repo has a number of preconfigured actions and example configurations written by Jim Hester (again), for installing R, running checks, etc. Simply copy the [check-standard.yaml](https://github.com/r-lib/actions/blob/master/examples/check-standard.yaml) file into the `.github/workflows/` folder of your R package (or run [`usethis::use_github_action_check_standard()`](https://usethis.r-lib.org/reference/use_github_action.html)), then push, and see the magic happen. Note that Jim's scripts are only one example: GHA will let you run any script in the OS or container your choice, allowing you to fully customize what happens on each new push, pull request, opened issue, etc. 
+To get started with GHA for R, the [r-lib/actions](https://github.com/r-lib/actions) repo has a number of preconfigured actions and example configurations written by Jim Hester (again), for installing R, running checks, etc. Simply copy the [check-standard.yaml](https://github.com/r-lib/actions/blob/master/examples/check-standard.yaml) file into the `.github/workflows/` folder of your R package [^1], then push, and see the magic happen. Note that Jim's scripts are only one example: GHA will let you run any script in the OS or container your choice, allowing you to fully customize what happens on each new push, pull request, opened issue, etc. 
 
 
 ## Thank you Travis !
@@ -47,3 +47,6 @@ As a user, it did a lot to increase software quality: not just catching inadvert
 Of course the open-source community is sad to see Travis become an enterprise-first product. But in all honesty, the system is no longer state-of-the-art, and probably won't be able to compete with the new GitHub/Microsoft products. 
 
 Also we are very aware that it is very difficult to find a sustainable business model around open source, and hope the company will survive by refocusing on specialized enterprise CI needs. Nevertheless, as we transition towards a new generation of CI systems, we won't forget the revolutionary role that Travis played in taking open-source collaboration to the next level. Thank you!
+
+
+[^1]: Or automatically with [usethis](https://usethis.r-lib.org/reference/use_github_action.html) by running: `usethis::use_github_action_check_standard()`
