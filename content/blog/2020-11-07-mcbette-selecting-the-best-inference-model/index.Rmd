@@ -293,8 +293,8 @@ due to the package maintainer's inconsideration.
 I feel it makes the world a better place,
 that rOpenSci requires its developers to use a website to submit bug reports.
 
-To prove that I am considerate towards my users,
-rOpenSci provides me my first critical first users of my packages.
+To ensure that I am considerate towards my users,
+rOpenSci provides me with my first critical test users of my packages.
 I know what I expect my package to do,
 yet cannot predict well what others think. Also, although I attempt to write
 exemplary code (and documentation, tests, etc.), I will forget some little 
