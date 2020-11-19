@@ -285,7 +285,7 @@ I feel it is a misconception that free software is always beneficial.
 I would claim that free software is beneficial only, when its developers
 observably care about their users. For starters, there should be a place
 to submit bug reports (e.g. GitHub), instead of using a package-related
-email addres (e.g. `mcbette@gmail.com`) that gets 
+email address (e.g. `mcbette@gmail.com`) that gets 
 forgotten by the developer. A user needs a place to ask questions and
 submit bug reports. Young researcher may base their next research 
 on a newly developed package, only to result in weeks of frustration
