@@ -300,7 +300,8 @@ rOpenSci provides me with my first critical test users of my packages.
 I know what I expect my package to do,
 yet cannot predict well what others think. Also, although I attempt to write
 exemplary code (and documentation, tests, etc.), I will forget some little 
-things in the process. My reviewers have impressed me by pointing out each
+things in the process. My reviewers (@bjoelle, @dwinter and @vbaliga) 
+have impressed me by pointing out each
 of these (many!) little details I missed and 
 it has taken me weeks to process all the feedback.
 My rOpenSci reviewers have made my code better in ways I did not imagine.
