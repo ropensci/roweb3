@@ -261,7 +261,7 @@ The most important column to look at here is the `weight` column.
 All (two) weights sum up to one. A model's weight is its relative
 chance to have observed the alignment given the model. As can
 be seen, the weight for the more complex (relaxed log-normal)
-clock model is heigher (i.e. 0.9343919).
+clock model is higher (i.e. 0.9343919).
 
 We can also visualize which model is the best, 
 by plotting the estimated marginal likelihoods 
