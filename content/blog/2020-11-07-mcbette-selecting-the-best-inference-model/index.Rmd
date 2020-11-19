@@ -197,7 +197,9 @@ that the site, clock and tree model are overly simplistic (they are!).
 In this example, I will let the default evolutionary model compete
 with only one other evolutionary model. 
 For this, there are plenty of options! Tip: to get an overview of
-all inference models, view the `inference models` vignette of the beautier 
+all inference models, view the 
+[`inference models` vignette](https://cran.r-project.org/web/packages/beautier/vignettes/inference_models.html)
+of the beautier 
 package (which is part of babette),
 or go to URL [https://cran.r-project.org/web/packages/beautier/vignettes/inference_models.html](https://cran.r-project.org/web/packages/beautier/vignettes/inference_models.html).
 
