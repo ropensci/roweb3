@@ -25,7 +25,7 @@
       
       {{ partial "blogs/comments" (dict "Params" .Params "permalink" .Page.Permalink "year" (.Date.Format "2006") ) }}
       </div>
-    <div class="col-lg-3 pl-4">
+    <div class="col-lg-3 pl-4 d-print-none">
       <div class="field-under">
         <span>Filed under</span>
         <ul class="post-tags">

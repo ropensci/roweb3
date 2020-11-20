@@ -1,9 +1,9 @@
 {{ if eq .RelPermalink "/" }}
-<header class="header">
+<header class="header d-print-none">
 {{ partial "skeleton/navbar" (dict "Site" .Site) }}
 {{ else }}
 <div class="navbar-wrapper">
   {{ partial "skeleton/navbar" (dict "Site" .Site) }}
 </div>
-<img class="divider" src="/images/svg/navbar-divider.svg" alt="" />
+<img class="divider d-print-none" src="/images/svg/navbar-divider.svg" alt="" />
 {{ end }}
