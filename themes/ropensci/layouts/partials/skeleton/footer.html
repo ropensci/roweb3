@@ -88,6 +88,19 @@
     ></script>
     {{ $js := resources.Get "common.min.js" }}
 {{ $secureJS := $js | resources.Fingerprint "sha512" }}
+{{ if and (eq .Kind "page") (in (slice "technotes" "blog") .Type) }}
+<script
+  src="https://unpkg.com/littlefoot/dist/littlefoot.js"
+  type="application/javascript"
+></script>
+<script type="application/javascript">
+  littlefoot.default({
+  activateOnHover: false,
+  dismissDelay: 50,
+   buttonTemplate: "<button aria-controls='fncontent:<% id %>' aria-expanded='false' aria-label='Footnote <% number %>' class='littlefoot-footnote__button' id='<% reference %>' rel='footnote' title='See Footnote <% number %>' /><% number %></button>"
+})
+</script>
+{{ end }}
 {{ if and (eq .Kind "page") (eq .Type "packages") }}
 <script src="https://unpkg.com/lunr/lunr.js"></script>    
     {{ $pkgjs := resources.Get "pagination.min.js" }}
