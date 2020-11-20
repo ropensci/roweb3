@@ -50,11 +50,11 @@ To add a new event, or add to the [talks list](https://ropensci.org/talks-papers
 
 ````markdown
 ---
-title: Call Title in Title Case # no colons allowed
+title: Call Title in Title Case # If you use a colon put the whole field in ""
 dateStart: 2020-12-05T10:00:00 # UTC!!
 dateEnd: 2020-12-05T11:00:00 # UTC!!
 date: 2020-12-05T11:00:00 # UTC!! same as dateEnd
-description: short summary # no colons allowed
+description: short summary # If you use a colon put the whole field in ""
 location: 'online' # free text
 slug: "informative-slug"
 country: "\U0001F310" # emoji
