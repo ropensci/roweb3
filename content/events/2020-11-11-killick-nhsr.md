@@ -19,4 +19,4 @@ resources: # can be added later, one entry per talk (don't add while still empty
     video: https://youtu.be/6PV5dGpmQgk
 ---
 
-Dr Rebecca Killick, Associate Professor in the Mathematics & Statistics department at Lancaster University, and member of rOpenSci's Statistical Software Peer Review board gave a keynote at the [National Health Service R (NHS-R) Community annual meeting](https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/). The audience included everyone from Clinicians to data managers.
+Dr Rebecca Killick, Associate Professor in the Mathematics & Statistics department at Lancaster University, and member of rOpenSci's Statistical Software Peer Review committee spoke at the [National Health Service R (NHS-R) Community annual meeting](https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/). The audience included everyone from Clinicians to data managers.
