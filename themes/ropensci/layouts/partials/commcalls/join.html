@@ -14,10 +14,14 @@ Everyone is welcome. No RSVP needed, simply connect and/or dial in at the time o
 <li>
 <a href="{{ .Permalink}}/index.ics">Add to Calendar.</a>
 </li>
-{{ with .Params.deets }}
+{{ if isset .Params "deets" }}
 <li>
 <strong>How</strong>
-{{ . | markdownify }}
+    <p>Everyone is welcome. No RSVP needed.</p>
+    <p>Test your Zoom setup <a href ="https://zoom.us/test">https://zoom.us/test</a>.</p>
+    <p>Join the meeting: <a href="{{ .Params.zoomurl }}">{{ .Params.zoomurl }}</a></p>
+    {{ .Params.deets | markdownify }}
+    <p>Find your local number to join by phone: <a href="https://zoom.us/u/adAyZGMYrE">https://zoom.us/u/adAyZGMYrE</a></p>
 </li>
 {{ end }}
 </ul>
