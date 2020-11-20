@@ -1,6 +1,6 @@
 <h{{ .Level }} id="{{ .Anchor | safeURL }}">
 {{ if ( gt .Level 1 ) }}
-<a class="anchor" href="#{{ .Anchor | safeURL }}">
+<a class="anchor d-print-none" href="#{{ .Anchor | safeURL }}">
   <img src="/images/svg/link.svg" alt="" height="20" width="20" />
 </a>
 {{ end }}
