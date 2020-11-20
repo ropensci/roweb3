@@ -65,7 +65,7 @@ attendees:
   - Jane Doe # each attendee needs an author page
 deets: "Register at [blabla](#)" # not necessary but useful
 resources: # can be added later, one entry per talk (don't add while still empty, add once there are resources)
-  - title: # talk title
+  - title: # talk title # If you use a colon put the whole field in ""
     speaker: # name
     slides: # URL to slidedeck
     video: # URL to recording (optional)
