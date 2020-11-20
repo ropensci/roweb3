@@ -14,7 +14,7 @@ Everyone is welcome. No RSVP needed, simply connect and/or dial in at the time o
 <li>
 <a href="{{ .Permalink}}/index.ics">Add to Calendar.</a>
 </li>
-{{ if isset .Params "deets" }}
+{{ if isset .Params "zoomurl" }}
 <li>
 <strong>How</strong>
     <p>Everyone is welcome. No RSVP needed.</p>
@@ -23,5 +23,11 @@ Everyone is welcome. No RSVP needed, simply connect and/or dial in at the time o
     {{ .Params.deets | markdownify }}
     <p>Find your local number to join by phone: <a href="https://zoom.us/u/adAyZGMYrE">https://zoom.us/u/adAyZGMYrE</a></p>
 </li>
+{{ else }}
+{{ if isset .Params "zoomurl" }}
+<li>
+  {{ .Params.deets | markdownify }}
+</li>
+{{ end }}
 {{ end }}
 </ul>
