@@ -33,7 +33,7 @@
   <div class="col-md-8 offset-lg-1 order-2 order-md-3 category-card__body">
     <strong>Description</strong>
     <p>
-      {{ .package.details | replaceRE "\\'(.*?)\\'" "$1" | replaceRE "<doi:(.*?)>" "[doi:$1](https://doi.org/$1)"  | markdownify }}
+      {{ .package.details | replaceRE "\\'(.*?)\\'" "$1" | replaceRE "<doi:(.*?)>" "[doi:$1](https://doi.org/$1)"  | replaceRE "<arXiv(.*?)>" "[arXiv:$1](https://arxiv.org/abs/$1)"  | markdownify }}
     </p>
     {{ with .citations }}
     <strong>Scientific use cases</strong>
