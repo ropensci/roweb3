@@ -13,7 +13,7 @@
         {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{ end }}
     {{ $pages := ( where .Site.RegularPages "Type" "in" .Site.Params.rbloggers ) }}
-    {{ range first 5 $pages }}
+    {{ range first 5 $pages.ByPublishDate.Reverse }}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
