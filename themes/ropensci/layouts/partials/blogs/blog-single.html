@@ -2,7 +2,8 @@
 <div class="container bg-cubes">
   <div class="row content">
     <div class="col-lg-9">
-      <p class="post-date">{{ .Date.Format "January 2, 2006" }}</p>
+      <p class="post-date">{{ .Date.Format "January 2, 2006" }}
+      <span class="d-none d-print-inline-flex">From rOpenSci {{ .Type }}. Except where otherwise noted, content on this site is licensed under the CC-BY license.</span></p>
         <div class="content">
           <h1>{{ .Title }}</h1>
           <div class="post-author">
