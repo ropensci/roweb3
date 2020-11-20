@@ -1,13 +1,14 @@
 {{ $date := (time .Params.dateStart).Local | dateFormat "January 02, 2006" }}
 {{ $country := .Params.country }}
 {{ $location := .Params.location }}
+{{ $RelPermalink := .RelPermalink }}
 {{ range .Params.resources }}
 <div class="talk-card">
   <div class="row justify-content-between align-items-center">
     <div class="col-md-9">
-      <div class="talk-title">
+      <a class="talk-title" href="{{ $RelPermalink }}" style="color: inherit">
         {{ .title }}
-      </div>
+      </a>
       <div class="talk-info">
         <span class="talk-date">{{ $date }} • {{ .speaker }}</span>
         <span class="talk-location">{{ $country }} {{ $location }}</span>
