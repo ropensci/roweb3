@@ -1,5 +1,5 @@
 ---
-title: Navigating open-source software - Ensuring you can rely on what you use
+title: "Navigating open-source software: Ensuring you can rely on what you use"
 dateStart: 2020-11-11T10:00:00 # UTC!!
 dateEnd: 2020-11-11T11:00:00 # UTC!!
 date: 2020-11-11T11:00:00 # UTC!! same as dateEnd
