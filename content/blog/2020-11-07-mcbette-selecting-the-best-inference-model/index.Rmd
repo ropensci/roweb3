@@ -73,7 +73,7 @@ testthat::expect_true(mauricer::is_beast2_ns_pkg_installed())
 ```
 
 
-```{r file_preparation, include=FALSE}
+```{r file_preparation}
 fasta_filename <- file.path(tempfile(), "primates.fasta")
 dir.create(dirname(fasta_filename), recursive = TRUE, showWarnings = FALSE) 
 beastier::save_nexus_as_fasta(
@@ -115,7 +115,7 @@ but 'only' 898 nucleotides. Here I show the DNA sequences:
 
 ```{r show_alignment}
 dna_sequences <- ape::read.FASTA(fasta_filename)
-ape::image.DNAbin(dna_sequences)
+ape::image.DNAbin(dna_sequences, mar = c(3, 7, 3, 1))
 ```
 
 From this DNA alignment, we can use the R package babette [^2][^3]
