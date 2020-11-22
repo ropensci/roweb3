@@ -73,15 +73,6 @@ testthat::expect_true(mauricer::is_beast2_ns_pkg_installed())
 ```
 
 
-```{r file_preparation}
-fasta_filename <- file.path(tempfile(), "primates.fasta")
-dir.create(dirname(fasta_filename), recursive = TRUE, showWarnings = FALSE) 
-beastier::save_nexus_as_fasta(
-  beastier::get_beast2_example_filename("Primates.nex"),
-  fasta_filename
-)
-```
-
 <!--html_preserve-->
 {{< figure src = "mcbette_logo.png" width = "400" alt = "The mcbette logo" >}}
 <!--/html_preserve-->
@@ -106,7 +97,23 @@ determine how these species are evolutionarily related. The problem is,
 which model of evolution do you assume for your birds?
 
 To illustrate the problem of picking the right model of evolution,
-we start from the DNA sequences of primates (we will abandon birds here). 
+we start from the DNA sequences of primates (we will abandon birds here).
+To be more precise, we will be using a DNA *alignment*, which are DNA
+sequences that are arranged in such a way that similar parts of the DNA
+sequences are at the same position in the sequences.
+The DNA alignment we use needs first to be converted 
+from NEXUS to FASTA format: 
+
+```{r file_preparation}
+library(beastier) # beastier is part of babette
+fasta_filename <- tempfile("primates.fasta")
+save_nexus_as_fasta(
+  get_beast2_example_filename("Primates.nex"),
+  fasta_filename
+)
+```
+
+
 DNA consists of a long
 string of four different elements called nucleotides, 
 resulting in a four letter alphabet encoding for the proteins a cell needs. 
@@ -114,8 +121,9 @@ In our case, we do not have the full DNA sequence of all primates,
 but 'only' 898 nucleotides. Here I show the DNA sequences:
 
 ```{r show_alignment}
-dna_sequences <- ape::read.FASTA(fasta_filename)
-ape::image.DNAbin(dna_sequences, mar = c(3, 7, 3, 1))
+library(ape)
+dna_sequences <- read.FASTA(fasta_filename)
+image.DNAbin(dna_sequences, mar = c(3, 7, 3, 1))
 ```
 
 From this DNA alignment, we can use the R package babette [^2][^3]
@@ -128,7 +136,7 @@ to estimate the evolutionary history of these species.
 First, we'll load babette:
 
 ```{r load_babette}
-library(babette)
+library(babette, quietly = TRUE)
 ```
 
 Here, we estimate the evolutionary history of these species:
@@ -142,7 +150,7 @@ structure called a phylogeny. babette, however, creates multiple
 phylogenies of which the more likelier ones show up more often. This results in a visualization that also shows the uncertainty of the inferred phylogenies: 
 
 ```{r plot_densitree,hugoopts=list(alt="the estimated evolutionary history of primates", caption="the estimated evolutionary history of primates", width=600)}
-babette::plot_densitree(
+plot_densitree(
   out$primates_trees[9000:10000],
   alpha = 0.01
 )
@@ -221,8 +229,8 @@ We must modify our inference model first, to prepare them for model
 comparison:
 
 ```{r use_nested_sampling_mcmcs}
-default_model$mcmc <- beautier::create_ns_mcmc(particle_count = 256)
-competing_model$mcmc <- beautier::create_ns_mcmc(particle_count = 256)
+default_model$mcmc <- create_ns_mcmc(particle_count = 256)
+competing_model$mcmc <- create_ns_mcmc(particle_count = 256)
 ```
 
 Increasing the number of particles improves the accuracy of the marginal
@@ -242,7 +250,7 @@ Also note that this approach to compare models has no problems
 to honestly compare models with a different amount of parameters;
 there is a natural penalty for more models with more parameters.
 
-```{r est_marg_liks,cache=FALSE,show=FALSE}
+```{r est_marg_liks_fake,cache=FALSE,show=FALSE}
 marg_liks <- get_test_marg_liks()
 ```
 
