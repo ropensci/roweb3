@@ -120,7 +120,7 @@ resulting in a four letter alphabet encoding for the proteins a cell needs.
 In our case, we do not have the full DNA sequence of all primates, 
 but 'only' 898 nucleotides. Here I show the DNA sequences:
 
-```{r show_alignment}
+```{r show_alignment,hugoopts=list(alt="DNA alignment of primates", caption="DNA alignment of primates", width=600)}
 library(ape)
 dna_sequences <- read.FASTA(fasta_filename)
 image.DNAbin(dna_sequences, mar = c(3, 7, 3, 1))
