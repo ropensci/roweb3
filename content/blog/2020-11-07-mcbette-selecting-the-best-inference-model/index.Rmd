@@ -193,7 +193,7 @@ Apparently, the default site model embeds a Jukes-Cantor nucleotide
 substitution model (i.e. all nucleotide mutations are equally likely), 
 the default clock model is strict (i.e. all DNA sequences change at the same
 rate), and the speciation model is Yule (i.e. speciation rates are constant
-and extinction rate is zero. These default settings are picked for a reason:
+and extinction rate is zero). These default settings are picked for a reason:
 these are the simplest site, clock and tree model.
 
 The question is if this default evolutionary model is the most likely
