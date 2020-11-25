@@ -77,10 +77,14 @@ but 'only' 898 nucleotides. Here I show the DNA sequences:
 
 ```r 
 library(ape)
+par0 <- par(mar = c(3, 7, 3, 1))
 dna_sequences <- read.FASTA(fasta_filename)
 image.DNAbin(dna_sequences, mar = c(3, 7, 3, 1))
 ```
 {{<figure src="show_alignment-1.png" alt="DNA alignment of primates" caption="DNA alignment of primates" width="600">}}
+```r 
+par(par0)
+```
 
 From this DNA alignment, we can use the R package babette [^2][^3]
 to estimate the evolutionary history of these species.
@@ -190,12 +194,13 @@ We must modify our inference model first, to prepare them for model
 comparison:
 
 ```r 
-default_model$mcmc <- create_ns_mcmc(particle_count = 256)
-competing_model$mcmc <- create_ns_mcmc(particle_count = 256)
+default_model$mcmc <- create_ns_mcmc(particle_count = 16)
+competing_model$mcmc <- create_ns_mcmc(particle_count = 16)
 ```
 
 Increasing the number of particles improves the accuracy of the marginal
-likelihood estimation.
+likelihood estimation. Because this accuracy is also estimated,
+we can also see how strongly to believe a model is better.
 
 Now, we load mcbette, 'Model Comparison using babette' to do our 
 model comparison:
@@ -239,9 +244,9 @@ by plotting the estimated marginal likelihoods
 and the error in this estimation:
 
 ```r 
-plot_marg_liks(marg_liks)
+plot_marg_liks(marg_liks) 
 ```
-{{<figure src="unnamed-chunk-1-1.png" alt="the estimated marginal likelihoods" caption="the estimated marginal likelihoods" width="300">}}
+{{<figure src="unnamed-chunk-1-1.png" alt="the estimated marginal likelihoods" caption="the estimated marginal likelihoods" width="600">}}
 
 Note that marginal likelihoods can be very close to zero. 
 Hence, mcbette use log values. The model with the lowest

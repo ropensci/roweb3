@@ -122,8 +122,10 @@ but 'only' 898 nucleotides. Here I show the DNA sequences:
 
 ```{r show_alignment,hugoopts=list(alt="DNA alignment of primates", caption="DNA alignment of primates", width=600)}
 library(ape)
+par0 <- par(mar = c(3, 7, 3, 1))
 dna_sequences <- read.FASTA(fasta_filename)
 image.DNAbin(dna_sequences, mar = c(3, 7, 3, 1))
+par(par0)
 ```
 
 From this DNA alignment, we can use the R package babette [^2][^3]
@@ -229,12 +231,13 @@ We must modify our inference model first, to prepare them for model
 comparison:
 
 ```{r use_nested_sampling_mcmcs}
-default_model$mcmc <- create_ns_mcmc(particle_count = 256)
-competing_model$mcmc <- create_ns_mcmc(particle_count = 256)
+default_model$mcmc <- create_ns_mcmc(particle_count = 16)
+competing_model$mcmc <- create_ns_mcmc(particle_count = 16)
 ```
 
 Increasing the number of particles improves the accuracy of the marginal
-likelihood estimation.
+likelihood estimation. Because this accuracy is also estimated,
+we can also see how strongly to believe a model is better.
 
 Now, we load mcbette, 'Model Comparison using babette' to do our 
 model comparison:
@@ -277,8 +280,8 @@ We can also visualize which model is the best,
 by plotting the estimated marginal likelihoods 
 and the error in this estimation:
 
-```{r,hugoopts=list(alt="the estimated marginal likelihoods", caption="the estimated marginal likelihoods", width=300)}
-plot_marg_liks(marg_liks)
+```{r,hugoopts=list(alt="the estimated marginal likelihoods", caption="the estimated marginal likelihoods", width=600)}
+plot_marg_liks(marg_liks) 
 ```
 
 Note that marginal likelihoods can be very close to zero. 
