@@ -253,11 +253,7 @@ Also note that this approach to compare models has no problems
 to honestly compare models with a different amount of parameters;
 there is a natural penalty for more models with more parameters.
 
-```{r est_marg_liks_fake,cache=FALSE,show=FALSE}
-marg_liks <- get_test_marg_liks()
-```
-
-```{r est_marg_liks,cache=TRUE,eval=FALSE}
+```{r est_marg_liks,cache=TRUE}
 marg_liks <- est_marg_liks(
   fasta_filename = fasta_filename,
   inference_models = list(
@@ -265,10 +261,15 @@ marg_liks <- est_marg_liks(
     competing_model
   )
 )
-knitr::kable(marg_liks)
 ```
 
 Note that this calculation takes quite some time!
+
+Here we show the results as table:
+
+```{r show_est_marg_liks_in_table}
+knitr::kable(marg_liks)
+```
 
 The most important column to look at here is the `weight` column.
 All (two) weights sum up to one. A model's weight is its relative
