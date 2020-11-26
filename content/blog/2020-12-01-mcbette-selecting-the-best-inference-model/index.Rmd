@@ -327,3 +327,4 @@ it is where the awesome and considerate people are!
 [^1]: Bilderbeek (2020) mcbette: model comparison using babette. Journal of Open Source Software, 5(54), 2762. <https://doi.org/10.21105/joss.02762>
 [^2]: Bilderbeek and Etienne (2018) babette: BEAUti 2, BEAST2 and Tracer for R. Methods in Ecology and Evolution 9, no. 9: 2034-2040. <https://doi.org/10.1111/2041-210X.13032>
 [^3]: Bilderbeek (2020) Call BEAST2 for Bayesian evolutionary analysis from R. rOpenSci blog post. <https://ropensci.org/blog/2020/01/28/babette/>
+
