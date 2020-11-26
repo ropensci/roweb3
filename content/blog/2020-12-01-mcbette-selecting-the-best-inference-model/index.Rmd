@@ -1,4 +1,4 @@
----
+	---
 title: 'Selecting the Best Phylogenetic Evolutionary Model'
 author:
   - Richèl J.C. Bilderbeek
@@ -311,7 +311,8 @@ rOpenSci provides me with my first critical test users of my packages.
 I know what I expect my package to do,
 yet cannot predict well what others think. Also, although I attempt to write
 exemplary code (and documentation, tests, etc.), I will forget some little 
-things in the process. My reviewers (@bjoelle, @dwinter and @vbaliga) 
+things in the process. 
+During the [rOpenSci review](https://github.com/ropensci/software-review/issues/360), my reviewers ([Joëlle Barido-Sottani](https://github.com/bjoelle), [David Winter](https://github.com/dwinter) and [Vikram Baliga](https://ropensci.org/author/vikram-b.-baliga/)) 
 have impressed me by pointing out each
 of these (many!) little details I missed and 
 it has taken me weeks to process all the feedback.
