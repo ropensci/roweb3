@@ -22,55 +22,9 @@ output:
     keep_md: yes
 ---
 
-```{r setup, include=FALSE}
-# Options to have images saved in the post folder
-# And to disable symbols before output
-knitr::opts_chunk$set(fig.path = "", comment = "")
 
-# knitr hook to make images output use Hugo options
-knitr::knit_hooks$set(
-  plot = function(x, options) {
-    hugoopts <- options$hugoopts
-    paste0(
-      "{{<figure src=",
-      '"', x, '" ',
-      if (!is.null(hugoopts)) {
-        glue::glue_collapse(
-          glue::glue('{names(hugoopts)}="{hugoopts}"'),
-          sep = " "
-        )
-      },
-      ">}}\n"
-    )
-  }
-)
 
-# knitr hook to use Hugo highlighting options
-knitr::knit_hooks$set(
-  source = function(x, options) {
-  hlopts <- options$hlopts
-    paste0(
-      "```r ",
-      if (!is.null(hlopts)) {
-      paste0("{",
-        glue::glue_collapse(
-          glue::glue('{names(hlopts)}={hlopts}'),
-          sep = ","
-        ), "}"
-        )
-      },
-      "\n", glue::glue_collapse(x, sep = "\n"), "\n```\n"
-    )
-  }
-)
 
-```
-
-```{r check_everything_is_installed, include=FALSE}
-remotes::install_github("ropensci/mcbette")
-testthat::expect_true(beastier::is_beast2_installed())
-testthat::expect_true(mauricer::is_beast2_ns_pkg_installed())
-```
 
 <!--html_preserve-->
 {{< figure src = "mcbette_logo.png" width = "400" alt = "The mcbette logo" >}}
@@ -103,7 +57,7 @@ sequences are at the same position in the sequences.
 The DNA alignment we use needs first to be converted 
 from NEXUS to FASTA format: 
 
-```{r file_preparation}
+```r 
 library(beastier) # beastier is part of babette
 fasta_filename <- tempfile("primates.fasta")
 save_nexus_as_fasta(
@@ -119,11 +73,14 @@ resulting in a four letter alphabet encoding for the proteins a cell needs.
 In our case, we do not have the full DNA sequence of all primates, 
 but 'only' 898 nucleotides. Here I show the DNA sequences:
 
-```{r show_alignment,hugoopts=list(alt="DNA alignment of primates", caption="DNA alignment of primates", width=600)}
+```r 
 library(ape)
 par0 <- par(mar = c(3, 7, 3, 1))
 dna_sequences <- read.FASTA(fasta_filename)
 image.DNAbin(dna_sequences, mar = c(3, 7, 3, 1))
+```
+{{<figure src="show_alignment-1.png" alt="DNA alignment of primates" caption="DNA alignment of primates" width="600">}}
+```r 
 par(par0)
 ```
 
@@ -136,13 +93,13 @@ to estimate the evolutionary history of these species.
 
 First, we'll load babette:
 
-```{r load_babette}
+```r 
 library(babette, quietly = TRUE)
 ```
 
 Here, we estimate the evolutionary history of these species:
 
-```{r infer_phylogenies,cache=TRUE}
+```r 
 out <- bbt_run_from_model(fasta_filename)
 ```
 
@@ -150,12 +107,13 @@ An evolutionary history can be visualized by a tree-like
 structure called a phylogeny. babette, however, creates multiple
 phylogenies of which the more likelier ones show up more often. This results in a visualization that also shows the uncertainty of the inferred phylogenies: 
 
-```{r plot_densitree,hugoopts=list(alt="the estimated evolutionary history of primates", caption="the estimated evolutionary history of primates", width=600)}
+```r 
 plot_densitree(
   out$primates_trees[9000:10000],
   alpha = 0.01
 )
 ```
+{{<figure src="plot_densitree-1.png" alt="the estimated evolutionary history of primates" caption="the estimated evolutionary history of primates" width="600">}}
 
 ## The problem?
 
@@ -180,7 +138,7 @@ how the branches of the trees are formed.
 
 Let's figure out what a default babette evolutionary model assumes.
 
-```{r show_default_inference_model}
+```r 
 default_model <- create_inference_model()
 print(
   paste0(
@@ -189,6 +147,10 @@ print(
     "Tree model: ", default_model$tree_prior$name
   )
 )
+```
+
+```
+[1] "Site model: JC69. Clock model: strict. Tree model: yule"
 ```
 Apparently, the default site model embeds a Jukes-Cantor nucleotide 
 substitution model (i.e. all nucleotide mutations are equally likely), 
@@ -214,7 +176,7 @@ or go to URL [https://cran.r-project.org/web/packages/beautier/vignettes/inferen
 
 Here, I create the competing model:
 
-```{r create_competing_model}
+```r 
 competing_model <- create_inference_model(
   clock_model = create_rln_clock_model()  
 )
@@ -229,7 +191,7 @@ mutation rates, where these mutation rates follow a log-normal distribution.
 We must modify our inference model first, to prepare them for model
 comparison:
 
-```{r use_nested_sampling_mcmcs}
+```r 
 default_model$mcmc <- create_ns_mcmc(particle_count = 16)
 competing_model$mcmc <- create_ns_mcmc(particle_count = 16)
 ```
@@ -241,7 +203,7 @@ we can also see how strongly to believe a model is better.
 Now, we load mcbette, 'Model Comparison using babette' to do our 
 model comparison:
 
-```{r load_mcbette}
+```r 
 library(mcbette)
 ```
 
@@ -252,7 +214,7 @@ Also note that this approach to compare models has no problems
 to honestly compare models with a different amount of parameters;
 there is a natural penalty for more models with more parameters.
 
-```{r est_marg_liks,cache=TRUE}
+```r 
 marg_liks <- est_marg_liks(
   fasta_filename = fasta_filename,
   inference_models = list(
@@ -266,9 +228,15 @@ Note that this calculation takes quite some time!
 
 Here we show the results as table:
 
-```{r show_est_marg_liks_in_table}
+```r 
 knitr::kable(marg_liks)
 ```
+
+
+|site_model_name |clock_model_name   |tree_prior_name | marg_log_lik| marg_log_lik_sd|    weight|      ess|
+|:---------------|:------------------|:---------------|------------:|---------------:|---------:|--------:|
+|JC69            |strict             |yule            |    -6481.435|        1.794633| 0.0457542| 146.7444|
+|JC69            |relaxed_log_normal |yule            |    -6478.397|        1.792379| 0.9542458| 220.6656|
 
 The most important column to look at here is the `weight` column.
 All (two) weights sum up to one. A model's weight is its relative
@@ -280,9 +248,10 @@ We can also visualize which model is the best,
 by plotting the estimated marginal likelihoods 
 and the error in this estimation:
 
-```{r plot_marg_liks,hugoopts=list(alt="the estimated marginal likelihoods", caption="the estimated marginal likelihoods", width=600)}
+```r 
 plot_marg_liks(marg_liks) 
 ```
+{{<figure src="plot_marg_liks-1.png" alt="the estimated marginal likelihoods" caption="the estimated marginal likelihoods" width="600">}}
 
 Note that marginal likelihoods can be very close to zero. 
 Hence, mcbette use log values. The model with the lowest
