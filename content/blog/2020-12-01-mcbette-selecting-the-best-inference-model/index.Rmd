@@ -22,7 +22,6 @@ tags:
   - mcbette
 package_version: 1.13
 description: Using mcbette to pick the best evolutionary model for your DNA
-twitterImg: blog/2019/06/04/post-template/name-of-image.png
 output:
   html_document:
     keep_md: yes
