@@ -15,7 +15,7 @@ tags:
   - Bayesian
   - model selection
   - mcbette
-package_version: 1.12
+package_version: 1.13
 description: Using mcbette to pick the best evolutionary model for your DNA
 twitterImg: blog/2019/06/04/post-template/name-of-image.png
 output:
@@ -68,10 +68,10 @@ knitr::knit_hooks$set(
 ```
 
 ```{r check_everything_is_installed, include=FALSE}
+remotes::install_github("ropensci/mcbette")
 testthat::expect_true(beastier::is_beast2_installed())
 testthat::expect_true(mauricer::is_beast2_ns_pkg_installed())
 ```
-
 
 <!--html_preserve-->
 {{< figure src = "mcbette_logo.png" width = "400" alt = "The mcbette logo" >}}
@@ -281,7 +281,7 @@ We can also visualize which model is the best,
 by plotting the estimated marginal likelihoods 
 and the error in this estimation:
 
-```{r,hugoopts=list(alt="the estimated marginal likelihoods", caption="the estimated marginal likelihoods", width=600)}
+```{r plot_marg_liks,hugoopts=list(alt="the estimated marginal likelihoods", caption="the estimated marginal likelihoods", width=600)}
 plot_marg_liks(marg_liks) 
 ```
 
