@@ -28,7 +28,7 @@ I started off installing the [GraphQL playground](https://www.graphqlbin.com/v2/
 
 After hours of trying out the GraphQL playground, I finally understood the schema of the GraphQL API endpoint for the project I'm working on. Well, that was the easy part I must say. 
 
-Now that I can query the API, everything should seem great. Right? Well, it's not. Why? Well, the GraphQL API I was working with fetches the geospatial data as json file instead of geojson. Probably, because of my lack of understanding of how graphql truly worked with spatial data. The issue now is, I see my data alright. But, just not in the format that I can work with. I am tempted to talk about the technicality behind it, but I won't maybe another time. 
+Now that I can query the API, everything should seem great. Right? Well, it's not. Why? Well, the GraphQL API I was working with fetches the geospatial data as json file instead of geojson. Probably, because of my lack of understanding of how GraphQL truly worked with spatial data. The issue now is, I can see my data. But, just not in the format that I can work with. I am tempted to talk about the technicality behind it, but I won't... maybe another time. 
 
 ### How did I find out about ghql?
 At work, our scripting language of choice is R. It was time for me to programmatically access data with GraphQL API from R. I felt excited because, I'm an R lover. But, I knew it was a going to be a huge work, I guess I was ready for the huge work. 
