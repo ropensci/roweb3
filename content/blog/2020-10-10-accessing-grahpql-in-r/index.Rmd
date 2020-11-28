@@ -53,7 +53,7 @@ Let's say you were working on a project that required country-specific data, suc
 - Each Country has an array of states populated by their states/provinces, if any.
 
 Loading the libraries
-```{r}
+```{r, message = FALSE}
 library(ghql)
 library(jsonlite)
 library(dplyr)
