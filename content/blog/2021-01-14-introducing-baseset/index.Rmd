@@ -63,33 +63,81 @@ knitr::knit_hooks$set(
 )
 ```
 
-The figure paths in the resulting Markdown will already be valid so you won't need to edit the Markdown file.
+On this post I will start with a brief introduction to sets, then explain the history behind [BaseSet](https://cran.r-project.org/package=BaseSet "BaseSet on CRAN") and existing packages working with sets and what you can do with [BaseSet](https://docs.ropensci.org/BaseSet/).
 
 ## Introducing sets
 
-[Brief history](https://b101nfo.blogspot.com/2020/07/my-journey-on-bioconductor.html)
+If you have a vector such as `c("apple", "bannana", "pineaple")` you have multiple elements in a single group.
+This group in mathematics is called set.
+A set is a groups of elements, usually just unique elements are used (no `c("apple", "bannana", "pineaple", "apple")` .
 
-When one `join_*` or `merge` two tables or you do an `intersection` and `setdiff` between two vectors you are using set operations coming from [set theory](https://en.wikipedia.org/wiki/Set_theory).
-Sets are closed groups of elements that have been studied for many years and have many utilities.
+To learn and understand the world we group elements together.
+Usually it is clear what should be inside a group, like the elements above, all of them are fruits.
+Sometimes it is not so clear if an element belongs to a certain group: Are tomatoes fruits?[¹](https://en.wikipedia.org/wiki/Tomato#Fruit_versus_vegetable "Wikipedia page about tomatoes and its classification")
 
-Citation of the primary literature[^1].
+An element can also belong to several groups.
+Basketball is a sport, but is also played by a team.
+So basketball can be on both groups \[Add image of wikipedia classification for Basketball\].
+Some say that tomatoes should be both considered as fruits and as vegetables.
+We can do this for all elements we can think.
 
-[^1]: Sciaini, M., Fritsch, M., Scherer, C., & Simpkins, C. E.
+When we have more than one set we might be interested in which elements are in two groups, which fruits are also vegetables, or which fruits are not vegetables.
+These operations are called set operations.
+Every time you have used `%in%`, `merge` in your code you have been using a set operation.
+There are many, set operations, the most used are intersection, for which R has the `intersect` and the union in R is done with `c` on vectors.
+The equivalents on data.frames are done with `merge` and their arguments (if you are familiar with the `join_*` verbs from dplyr that is one of the reasons why there are so many).
+
+As you see R already provides some functions to work with sets.
+So why writing a new package for sets?
+Let me explain the history of BaseSet.
+
+## Brief BaseSet history
+
+I work studying diseases to try to find what causes them at a research institute associated with an hospital.
+Thanks to recent technological advances we can analyze many things of a single patient's sample.
+Having so much information available makes difficult to find the cause of diseases (but is much better than not having enough information!).
+
+In order to make it easier to focus and aggregate knowledge, scientists have been storing what do we know of each gene in several ways.
+As more information have been gathered efforts to group these genes started to emerge and being used to focus or discard some genes as cause of different process of interest[^1].
+Scientists group the genes according to where they are, what do they do, how they are, with which other genes do they interact, and among these categories there are many different groups.
+
+[^1]: See [this article](https://doi.org/10.1371/journal.pcbi.1002375 "Ten Years of Pathway Analysis: Current Approaches and Outstanding Challenges") reviewing the different methods used.
+
+This has lead to several ways of storing this information, and depending on which database and which method you use you end up with different groups.
+This in turn means that we aren't so sure of how to group genes and as new experiments are carried out they might change.
+
+I had previously created a package ([BioCor](https://bioconductor.org/packages/BioCor/ "BioCor: Comparing sets of genes")) to compare these sets, but I found out that depending on which database I used I got very different results.
+So one of the question was how can we unify and account for these uncertainty.
+
+To account for uncertainty mathematicians have come with the idea of fuzzy sets.
+Fuzzy sets are sets but instead of knowing for sure that an element belongs to the set, there is a value, the fuzzy value or membership, that measures the membership of the element to a set.
+
+\[Find a layman example of fuzzy set, popcorn or something\]
+
+That fuzzy value can be a probability, so if researchers perform experiments and 8/10 times the elements does a process we could say that the
+
+## Using BaseSet
+
+## Conclusions
+
+Citation of the primary literature[^2].
+
+[^2]: Sciaini, M., Fritsch, M., Scherer, C., & Simpkins, C. E.
     (2018).
     NLMR and landscapetools: An integrated environment for simulating and modifying neutral landscape models in R.
     Methods in Ecology and Evolution, 9(11), 2240-2248.
     <https://doi.org/10.1111/2041-210X.13076>
 
-Citation of a website[^2].
+Citation of a website[^3].
 
-[^2]: Elin Waring, Michael Quinn, Amelia McNamara, Eduardo Arino de la Rubia, Hao Zhu and Shannon Ellis (2019).
+[^3]: Elin Waring, Michael Quinn, Amelia McNamara, Eduardo Arino de la Rubia, Hao Zhu and Shannon Ellis (2019).
     skimr: Compact and Flexible Summaries of Data.
     R package version 1.0.7.
     <https://CRAN.R-project.org/package=skimr>
 
-Citation of an R package[^3].
+Citation of an R package[^4].
 
-[^3]: Hugo static site generator.
+[^4]: Hugo static site generator.
     <https://gohugo.io/>
 
 ### Subsection heading
