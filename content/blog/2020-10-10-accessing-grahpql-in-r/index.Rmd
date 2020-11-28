@@ -166,3 +166,9 @@ res_data <- res$data$continent$countries %>%
 res_data
 
 ```
+
+### The last dance (conclusion)
+So, you have stuck with me this far? Thanks!
+
+My final thought. I think GraphQL can greatly simplify data needs for both client product developers, server-side engineers and data scientist. It's still early to assertain the extent of it's impact in the technological world. But, it seems very promising since the Team behind GraphQL are continously improving the technology, and there is a growing community.
+
