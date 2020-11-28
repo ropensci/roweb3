@@ -40,9 +40,6 @@ At work, our scripting language of choice is R. R is a free software environment
 After spending days researching about the R packages that can interact with a GraphQL API, I found three packages. I picked `ghql` over the others because, it was an rOpenSci package.
 
 
-### And then, there is R
-R is a free software environment for statistical computing and graphics. Well, that's how it's officially defined. But, trust me its gradually evolving to do more than statistical computing and making of beautiful graphics.
-
 ### Moving on
 In order for R to interact with any GraphQL API, it requires a GraphQL client. That's where `ghql`, a GraphQL client for R, developed by Scott Chamberlain comes into play. Still confused? Well, so was I at first. I tried interacting with a GraphQL server in R and felt like giving up even before getting anywhere. Hopefully this blog post will assist others.
 <!--html_preserve-->
