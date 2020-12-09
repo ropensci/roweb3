@@ -1,5 +1,5 @@
 ---
-title: "Phonetic fieldwork and experiments with the `phonfieldwork` package for R"
+title: "Phonetic Fieldwork and Experiments with the `phonfieldwork` Package for R"
 author: 
   - George Moroz
 date: "2020-12-22"
