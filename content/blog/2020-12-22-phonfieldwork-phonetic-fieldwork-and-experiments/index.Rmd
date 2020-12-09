@@ -181,7 +181,7 @@ It is only a brief introduction into the `phonfieldwork` functionality, for more
 
 I would like to thank
 
-* my rOpenSci reviewers Jonathan Keane and Niko Partanen for their interesting comments and ideas;
+* [my rOpenSci reviewers](https://github.com/ropensci/software-review/issues/385) Jonathan Keane and Niko Partanen for their interesting comments and ideas;
 * Melina Vidoni for being the package review editor;
 * participants of seminars at the School of linguistics and Linguistic Convergence Laboratory at HSE, Moscow, where I first presented this package;
 * my friends Neige Rochant and Samira Verhees for sharing their data and problems with me, which has made `phonfieldwork` better.
