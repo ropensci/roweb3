@@ -8,7 +8,7 @@ slug: thankyou-2020
 tags:
   - thank you
   - community
-description: A very short summary of your post (~ 100 characters)
+description: Thank you rOpenSci Community!
 # twitterImg: blog/2019/06/04/post-template/name-of-image.png
 # twitterAlt: Alternative description of the image
 ---
