@@ -13,7 +13,7 @@ description: Thank you rOpenSci Community!
 # twitterAlt: Alternative description of the image
 ---
 
-In a year where it has felt insensitive to ask people to pay attention to anything that's not critical to their day-job, you have continued to share your time, expertise, enthusiasm, and willingness to try things with us. Our [staff team](/about/#team) of developers, researchers, and community builders work to build technical and social infrastructure to lower barriers to working with research data. Our community continually helps us raise the bar.
+In a year where it has been hard to pay attention to anything not critical to our day-to-day lives. you have continued to share your time, expertise, enthusiasm, and willingness to try things with us. Our [staff team](/about/#team) of developers, researchers, and community builders work to build technical and social infrastructure to lower barriers to working with research data, and you, our community, continually help us push farther than we thought we could go.
 
 On behalf of rOpenSci, thank you. 
 
