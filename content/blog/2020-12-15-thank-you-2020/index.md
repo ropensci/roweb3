@@ -35,7 +35,7 @@ Some people’s volunteer contributions this year warrant a special mention:
 
 Thank you **all** for making rOpenSci.
 
-{{< figure src = "/img/blog-images/2019-12-23-thankyou/howard-riminton-CjI_2QX7hvU-unsplash.jpg" class = "center" width = "250" caption = "Photo by Howard Riminton on Unsplash" alt = "black dog holding card that says thank you" >}}
+{{< figure src = "pets.png" class = "center" width = "500px" caption = "Nami (Steffi's Assistant) and Ruby (Stefanie's Assistant)" alt = "grey cat and black dog above the words Thank you" >}}
 
 
 
