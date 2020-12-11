@@ -12,7 +12,7 @@ description: If you're giving this season, please consider donating to rOpenSci
 ---
 The rOpenSci project is 100% supported by grants and donations. We foster a culture that values open and reproducible research using shared data and reusable software. Our community in collaboration with our staff produce and maintain a vast collection of free open source software to support and accelerate scientific discovery. 
 
-If you're giving this season, please consider [donating to rOpenSci](https://ropensci.org/donate/). Your support allows us to support internships, contractors, web services, and community events. For a glimpse of what you could be helping, see [Thank you, 2020](https://ropensci.org/blog/2020/12/15/thankyou-2020/).
+If you're giving this season, please consider [donating to rOpenSci](https://numfocus.salsalabs.org/donate-to-ropensci/index.html). Your support allows us to support internships, contractors, web services, and community events. For a glimpse of what you could be helping, see [Thank you, 2020](https://ropensci.org/blog/2020/12/15/thankyou-2020/).
 
 rOpenSci is a Sponsored Project of NumFOCUS, a 501(c)(3) nonprofit charity in the United States. NumFOCUS provides rOpenSci with fiscal, legal, and administrative support to help ensure the health and sustainability of the project. Donations to rOpenSci are managed by NumFOCUS. For donors in the United States, your gift is tax-deductible to the extent provided by law. Donations made by Dec 31 will result in a [1-for-1 matching donation](https://numfocus.org/donate-eoy-2020) to NumFOCUS, enabled by their corporate sponsors.
 
