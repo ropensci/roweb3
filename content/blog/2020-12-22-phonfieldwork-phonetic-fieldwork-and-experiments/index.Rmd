@@ -74,7 +74,7 @@ The practical side of linguistic research is often neglected. Linguists rely on 
 
 Recent years have seen increased attention to best practices in linguistic data management, for example through the introduction of [Cross-Linguistic Data Formats](https://cldf.clld.org/).[^4] I think the time is also ripe to pay more attention to what I like to call **science craft** -- improving the methods for creating linguistic data, and allowing future generations of linguists to benefit from our experience.
 
-That is why I decided to create a toolkit for phonetic researchers in the form of an R package: it is written using one programming language, and easy to use for non-coders and people who are not familiar with R.
+That is why I decided to create a toolkit for phonetic researchers in the form of an R package, [phonfieldwork](https://docs.ropensci.org/phonfieldwork): it is written using one programming language, and easy to use for non-coders and people who are not familiar with R.
 
 Below is an overview of its main functions.
 
