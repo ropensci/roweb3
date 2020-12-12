@@ -147,7 +147,7 @@ draw_sound(file)
 
 A feature specific to `phonfieldwork`, is that it is possible to zoom in to some part of the sound with a spectrogram (time in the `zoom` argument is represented in seconds):
 
-```{r spec_zoom_example, hugoopts=list(alt="Usage of the zoom argument", caption="Usage of the zoom argument", width=600)}
+```{r spec_zoom_example, hugoopts=list(alt="Oscillogram and spectrogram zoomed in to a specific time to illustrate usage of the zoom argument", caption="Usage of the zoom argument", width=600)}
 draw_sound(file, zoom = c(0.2, 0.4))
 ```
 
