@@ -106,7 +106,7 @@ library(phonfieldwork)
 
 There was a goal to be able to convert multiple sound annotation formats into data.frame format, so you can find a whole bunch of functions that serve this purpose:
 
-* file `.TextGrid` from Praat (just change the `system.file()` function to the path to the file); see also [`rPraat`](https://fu.ff.cuni.cz/praat/#rpraat-package-for-r) and [`textgRid`](https://github.com/patrickreidy/textgRid) packages
+* convert Praat `.TextGrid` files; see also [`rPraat`](https://fu.ff.cuni.cz/praat/#rpraat-package-for-r) and [`textgRid`](https://github.com/patrickreidy/textgRid) packages
 ```{r textgrid_to_df_example}
 textgrid_to_df(system.file("extdata", "test.TextGrid", package = "phonfieldwork"))
 ```
