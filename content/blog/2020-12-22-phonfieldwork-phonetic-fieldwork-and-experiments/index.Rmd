@@ -112,7 +112,7 @@ create_presentation(stimuli = c("tip", "tap", "top"),
                     output_dir = "...path/to/your/folder")
 ```
 
-As a result, a file `first_example.html` will appear in the output folder ([here](https://ropensci.github.io/phonfieldwork/additional/first_example.html) is an example of a such file).
+As a result, a file `first_example.html` will appear in the output folder ([here](https://ropensci.github.io/phonfieldwork/additional/first_example.html) is an example of a such file). It is also possible to add translations and even use images (see [the documentation page](https://docs.ropensci.org/phonfieldwork/articles/phonfieldwork.html#create-a-presentation-based-on-a-list-of-stimuli-1)).
 
 ### Sound annotation formats
 
