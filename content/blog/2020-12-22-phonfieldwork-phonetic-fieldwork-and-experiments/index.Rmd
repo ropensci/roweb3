@@ -16,6 +16,7 @@ tags:
   - fieldwork
   - phonfieldwork
   - lingtypology
+  - community
 package_version: 0.0.10
 description: "phonfieldwork package provides a huge variety of tools that can be used by phonetic researchers in the field and in laboratories."
 output:
