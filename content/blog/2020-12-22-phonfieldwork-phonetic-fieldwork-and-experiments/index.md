@@ -185,7 +185,7 @@ The sound annotation process takes a lot of time and in most cases it is really 
 
 
 <!--html_preserve-->
-{{< figure src = "annotation_in_phonfieldwork.gif" width = "400" alt = "Sound preannotation with phonfieldwork" >}}
+{{< figure src = "annotation_in_phonfieldwork.gif" width = "700" alt = "Sound preannotation with phonfieldwork" >}}
 <!--/html_preserve-->
 
 As you can see, it is possible to create all the annotations in advance and leave the annotators with one task only: to move boundaries.
