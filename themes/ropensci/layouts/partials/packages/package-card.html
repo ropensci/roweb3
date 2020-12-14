@@ -1,5 +1,5 @@
 {{ if (or ( ne .package.type "archived" ) ( or ( ne .package.onboarding "") ( eq .package.staff_maintained true ) )) }}
-<div class="category-card row align-items-center" data-status="{{ .package.type }}" data-keywords="{{ .package.keywords }}" id="{{ .package.name }}">
+<div class="category-card row align-items-center" data-status="{{ .package.type | default (partial "packages/default-type" .) }}" data-keywords="{{ .package.keywords }}" id="{{ .package.name }}">
   <div class="col-md-8 offset-lg-1">
     <div class="category-card__heading">
       <div class="d-flex align-items-center flex-wrap">
@@ -18,7 +18,7 @@
         {{ end }}
       </div>
       <p class="category-card__p">
-        {{ .package.description | replaceRE "\\'(.*?)\\'" "$1" }}
+        {{ .package.description | replaceRE "\\'(.*?)\\'" "$1"}}
       </p>
     </div>
   </div>
@@ -33,7 +33,7 @@
   <div class="col-md-8 offset-lg-1 order-2 order-md-3 category-card__body">
     <strong>Description</strong>
     <p>
-      {{ .package.details | replaceRE "\\'(.*?)\\'" "$1" | markdownify }}
+      {{ .package.details | replaceRE "\\'(.*?)\\'" "$1" | replaceRE "<doi:(.*?)>" "[doi:$1](https://doi.org/$1)"  | replaceRE "<arXiv(.*?)>" "[arXiv:$1](https://arxiv.org/abs/$1)"  | markdownify }}
     </p>
     {{ with .citations }}
     <strong>Scientific use cases</strong>

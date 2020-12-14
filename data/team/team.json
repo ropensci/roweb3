@@ -9,7 +9,7 @@
       "editor"
    ],
    "twitter": "_inundata",
-   "github": "karthik", 
+   "github": "karthik",
    "home": "https://inundata.org/"
 },
 {
@@ -26,7 +26,7 @@
       "editor"
    ],
    "twitter": "sckottie",
-   "github": "sckott", 
+   "github": "sckott",
    "home": "/author/scott-chamberlain/"
 },
 {
@@ -40,7 +40,7 @@
       "developer"
    ],
    "twitter": "opencpu",
-   "github": "jeroen", 
+   "github": "jeroen",
    "home": "/author/jeroen-ooms"
 },
 {
@@ -52,7 +52,7 @@
       "staff"
    ],
    "twitter": "StefanieButland",
-   "github": "stefaniebutland", 
+   "github": "stefaniebutland",
    "home": "/author/stefanie-butland"
 },
 {
@@ -66,7 +66,7 @@
       "editor"
    ],
    "twitter": "ma_salmon",
-   "github": "maelle", 
+   "github": "maelle",
    "home": "/author/maëlle-salmon"
 },
 {
@@ -80,7 +80,7 @@
       "developer"
    ],
    "twitter": "bikesRdata",
-   "github": "mpadge", 
+   "github": "mpadge",
    "home": "/author/mark-padgham"
 },
 {
@@ -93,7 +93,7 @@
       "editor"
    ],
    "twitter": "noamross",
-   "github": "noamross", 
+   "github": "noamross",
    "home": "/author/noam-ross"
 },
 {
@@ -105,7 +105,7 @@
       "staff"
    ],
    "twitter": "steffilazerte",
-   "github": "steffilazerte", 
+   "github": "steffilazerte",
    "home": "/author/steffi-lazerte"
 },
 {
@@ -126,7 +126,7 @@
       "strategic advisor"
    ],
    "twitter": "cboettig",
-   "github": "cboettig", 
+   "github": "cboettig",
    "home": "https://www.carlboettiger.info/"
 },
 {
@@ -138,7 +138,7 @@
       "strategic advisor"
    ],
    "twitter": "JennyBryan",
-   "github": "jennybc", 
+   "github": "jennybc",
    "home": "https://jennybryan.org/"
 },
 {
@@ -150,7 +150,7 @@
       "strategic advisor"
    ],
    "twitter": "rgfitzjohn",
-   "github": "richfitz", 
+   "github": "richfitz",
    "home": "https://richfitz.github.io/"
 },
 {
@@ -162,7 +162,7 @@
       "editor"
    ],
    "twitter": "annakrystalli",
-   "github": "annakrystalli", 
+   "github": "annakrystalli",
    "home": "https://annakrystalli.me/"
 },
 {
@@ -184,7 +184,7 @@
       "editor"
    ],
    "twitter": "gbwanderson",
-   "github": "geanders", 
+   "github": "geanders",
    "home": "http://csu-cvmbs.colostate.edu/academics/erhs/Pages/brooke-anderson.aspx"
 },
 {
@@ -196,7 +196,7 @@
       "editor"
    ],
    "twitter": "melvidoni",
-   "github": "melvidoni", 
+   "github": "melvidoni",
    "home": "https://melvidoni.rbind.io/"
 },
 {
@@ -208,8 +208,32 @@
       "editor"
    ],
    "twitter": "mauro_lepore",
-   "github": "maurolepore", 
+   "github": "maurolepore",
    "home": "https://maurolepore.github.io/"
+},
+{
+   "name": "Laura DeCicco",
+   "url": "https://github.com/ldecicco-USGS",
+   "image" : "/img/team/laura-decicco.jpg",
+   "affiliation" : "USGS",
+   "roles": [
+      "editor"
+   ],
+   "twitter": "DeCiccoDonk",
+   "github": "ldecicco-USGS"
+},
+{
+   "name": "Julia Gustavsen",
+   "url": "https://www.juliagustavsen.com/",
+   "image" : "/img/team/julia-gustavsen.jpg",
+
+   "affiliation" : "SOPHiA GENETICS",
+   "roles": [
+      "editor"
+   ],
+   "twitter": "JuliaGustavsen",
+   "github": "jooolia",
+   "home": "https://www.juliagustavsen.com/"
 },
 {
    "name": "Kelly Hondula",
@@ -278,15 +302,6 @@
    "url": "https://github.com/jjallaire",
    "image" : "/img/team/jj-allaire.jpg",
    "affiliation" : "RStudio",
-   "roles": [
-      "advisor"
-   ]
-},
-{
-   "name": "Mackenzie Smith",
-   "url": "https://www.library.ucdavis.edu/about/university-librarian/",
-   "image" : "/img/team/mackenzie_smith.jpg",
-   "affiliation" : "University of California, Davis",
    "roles": [
       "advisor"
    ]

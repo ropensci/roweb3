@@ -16,13 +16,15 @@ tags:
   - packages
   - R
   - community
-# the summary below will be used by e.g. Twitter cards
+# The summary below will be used by e.g. Twitter cards
 description: "A very short summary of your post (~ 100 characters)"
 # If you have no preferred image for Twitter cards,
-# delete the twitterImg line below 
-# Note there is no '/' symbol before 'img' here
-# if needed replace blog with technotes
+# delete the twitterImg and twitterAlt lines below 
+# - Replace "blog" with "technotes" as needed
+# - Note no "/" symbol before "blog" here
+# - Note "/" between year/month/day
 twitterImg: blog/2019/06/04/post-template/name-of-image.png
+twitterAlt: "Alternative description of the image"
 # 'output' is necessary to obtain index.md
 # Do not commit index.html
 output: 
@@ -37,9 +39,9 @@ Throughout this template, including the YAML,
 you should change "post-template" to the slug of your post, 
 and "2019-06-04" to your publication date.
 
-Save this file under /content/blog/YYYY-MM-DD-slug/index.Rmd in the local copy of your roweb2 fork.
+Save this file under /content/blog/YYYY-MM-DD-slug/index.Rmd in the local copy of your roweb3 fork.
 
-The chunk below ensures your plots will be inserted in the same folder as your Rmd so you can submit the bundle (.Rmd, .md, images) to roweb2.
+The chunk below ensures your plots will be inserted in the same folder as your Rmd so you can submit the bundle (.Rmd, .md, images) to roweb3.
 
 ```{r setup, include=FALSE}
 # Options to have images saved in the post folder
@@ -86,7 +88,7 @@ knitr::knit_hooks$set(
 
 The figure paths in the resulting Markdown will already be valid so you won't need to edit the Markdown file.
 
-### Section heading in sentence case
+## Section heading in sentence case
 
 Citation of the primary literature[^1]. 
 
@@ -94,7 +96,7 @@ Citation of a website[^2].
 
 Citation of an R package[^3].
 
-#### Subsection heading
+### Subsection heading
 
 We recommend the use of [Hugo shortcodes](https://gohugo.io/content-management/shortcodes/) to include images, tweets, videos, gists, etc. In the Rmd file they need to be between `<!--html_preserve-->` and `<!--/html_preserve-->`.
 

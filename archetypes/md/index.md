@@ -10,7 +10,7 @@ author:
 date: 2020-03-10
 # Minimal tags for a post about a community-contributed package 
 # that has passed software peer review are listed below
-# Consult the Technical Guidelines for information on choosing other tags
+# Consult the Technical Guidelines for information on choosing tags
 tags:
   - Software Peer Review
   - packages
@@ -18,11 +18,12 @@ tags:
   - community
 # The summary below will be used by e.g. Twitter cards
 description: "A very short summary of your post (~ 100 characters)"
-# If you have no preferred image for Twitter cards, 
-# delete the twitterImg line below
-# Note there is no '/' symbol before 'img' here
-# if needed replace blog with technotes
+# If you have no preferred image for Twitter cards,
+# delete the twitterImg and twitterAlt lines below 
+# - Replace "blog" with "technotes" as needed
+# - Note "/" between year/month/day
 twitterImg: blog/2019/06/04/post-template/name-of-image.png
+twitterAlt: "Alternative description of the image"
 ---
 
 This is the Markdown (.md) template for a blog post or tech note. 
@@ -32,9 +33,9 @@ Throughout this template, including the YAML,
 you should change "post-template" to the slug of your post, 
 and "2019-06-04" to your publication date.
 
-Save this file under /content/blog/YYYY-MM-DD-slug/index.md in the local copy of your roweb2 fork.
+Save this file under /content/blog/YYYY-MM-DD-slug/index.md in the local copy of your roweb3 fork.
 
-### Section heading in sentence case
+## Section heading in sentence case
 
 Citation of the primary literature[^1]. 
 
@@ -42,7 +43,7 @@ Citation of a website[^2].
 
 Citation of an R package[^3].
 
-#### Subsection heading
+### Subsection heading
 
 We recommend the use of [Hugo shortcodes](https://gohugo.io/content-management/shortcodes/) to include images, tweets, videos, gists, etc.
 

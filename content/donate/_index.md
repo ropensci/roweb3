@@ -3,7 +3,7 @@ title="Support us with a donation"
 +++
 
 The rOpenSci project is 100% supported by grants and donations. 
-Your donations are used to support internships, contractors, web services, travel scholarships, and community events.
+Your donations are used to support internships, contractors, web services, and community events.
 
 rOpenSci is a Sponsored Project of NumFOCUS, a 501(c)(3) nonprofit charity in the United States. NumFOCUS provides rOpenSci with fiscal, legal, and administrative support to help ensure the health and sustainability of the project. Visit [numfocus.org](https://numfocus.org) for more information.
 

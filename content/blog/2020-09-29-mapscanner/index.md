@@ -24,7 +24,7 @@ description: "The mapscanner package enables lines drawn by hand on maps to be c
 # Note there is no '/' symbol before 'img' here
 # if needed replace blog with technotes
 twitterImg: blog/2020/09/29/mapscanner/poly-aggr-plot.png
-featured: true
+twitterAlt: "Polygons aggregated with mapscanner::ms_aggregate_polys()"
 ---
 
 ## mapscanner
@@ -207,7 +207,7 @@ Dalston is a part of their everyday life know where Dalston is. The
 problem is that each person has a slightly different idea. My own
 delineation of Dalston might look something like the following:
 
-{{< figure src = "dalston-bdry.png" width = "150" alt = "Subjective boundary of Dalston, UK" caption = "Subjective boundary of Dalston, UK">}}
+{{< figure src = "dalston-bdry.png" width = "150" alt = "Subjective boundary of Dalston, UK" caption = "Subjective boundary of Dalston, UK" class = "pull-left">}}
 
 That boundary that I drew by hand on top of the map can be immediately
 converted to a spatially rectified polygon via the [`ms_rectify_map()`
@@ -240,7 +240,9 @@ object in which each component corresponds to the overlap of some number
 of individual polygons. The following figure shows an example of the output of
 [`ms_aggregate_polys()`](https://docs.ropensci.org/mapscanner/reference/ms_aggregate_polys.html).
 
+<!--html_preserve--> 
 {{< figure src = "poly-aggr-plot.png" width = "300" alt = "Polygons aggregated with ms_aggregate_polys" caption = "Polygons aggregated with ms_aggregate_polys" class = "center">}}
+<!--/html_preserve-->
 
 These aggregate multipolygons can then be analysed in any number of
 ways, such as in terms of relationships between area and degrees of
@@ -282,6 +284,6 @@ This package was enormously improved through the rOpenSci [peer review
 process](https://github.com/ropensci/software-review/issues/330), in
 particular through the insightful reviews of [Kelly
 Hondula](https://github.com/khondula) and [Nicholas
-Potter](author/nicholas-potter/). The contributions of co-author
-[Michael Sumner](author/michael-sumner) were particularly invaluable in
+Potter](/author/nicholas-potter/). The contributions of co-author
+[Michael Sumner](/author/michael-sumner) were particularly invaluable in
 the development of the `ms_aggregate_polys()` function.

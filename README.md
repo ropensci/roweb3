@@ -46,15 +46,15 @@ The featured event or comm call at the top of the events page is the nearest fea
 
 ### Events
 
-To add a new event, add a Markdown file under content/events called YYYY-MM-DD-slug.md.
+To add a new event, or add to the [talks list](https://ropensci.org/talks-papers/) add a Markdown file under content/events called YYYY-MM-DD-slug.md.
 
 ````markdown
 ---
-title: Call Title in Title Case
+title: Call Title in Title Case # If you use a colon put the whole field in ""
 dateStart: 2020-12-05T10:00:00 # UTC!!
 dateEnd: 2020-12-05T11:00:00 # UTC!!
 date: 2020-12-05T11:00:00 # UTC!! same as dateEnd
-description: short summary
+description: short summary # If you use a colon put the whole field in ""
 location: 'online' # free text
 slug: "informative-slug"
 country: "\U0001F310" # emoji
@@ -65,7 +65,7 @@ attendees:
   - Jane Doe # each attendee needs an author page
 deets: "Register at [blabla](#)" # not necessary but useful
 resources: # can be added later, one entry per talk (don't add while still empty, add once there are resources)
-  - title: # talk title
+  - title: # talk title # If you use a colon put the whole field in ""
     speaker: # name
     slides: # URL to slidedeck
     video: # URL to recording (optional)
@@ -79,7 +79,9 @@ Info including links.
 
 To add a new comm call, add a folder under content/commcalls with a Markdown file called index.md.
 
-Use the YAML to store information, except from the event summary that is the content of the Markdown file. 
+Use the YAML to store information, except from the event summary that is the content of the Markdown file.
+Please do not use "&" in the description.
+
 Store speaker pictures in the folder.
 If needed create author files for the organizer(s) and speaker(s).
 
@@ -119,7 +121,10 @@ speakers:
 tags:
   - tag1
   - tag2
-deets: "Zoom meeting ID 297 967 525. [Join Meeting](#)."
+deets: |
+    Meeting ID: 922 9890 9939
+    
+    Passcode: 896415
 zoomurl: zoom.blabla
 ---
 
