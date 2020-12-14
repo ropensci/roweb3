@@ -183,7 +183,7 @@ A feature specific to phonfieldwork, is that it is possible to zoom in to some p
 draw_sound(file, zoom = c(0.2, 0.4))
 ```
 
-It is also possible to visualize any sound annotation format that was converted to dataframe in the previous section:
+It is also possible to visualize any sound annotation format that was converted to dataframe:
 
 ```{r spec_annotation_example, hugoopts=list(alt="Oscillogram and spectrogram with text annotations below the figures, illustrating usage of the annotation argument", caption="Usage of the annotation argument", width=600)}
 our_textgrid <- system.file("extdata", "test.TextGrid", package = "phonfieldwork")
