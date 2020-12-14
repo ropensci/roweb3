@@ -163,7 +163,7 @@ image_animate(image_scale(c(im1, im2, im3, im4), "700"), fps = 0.5, dispose = "p
 ```
 
 <!--html_preserve-->
-{{< figure src = "annotation_in_phonfieldwork.gif" width = "700" alt = "Sound preannotation with phonfieldwork" >}}
+{{< figure src = "annotation_in_phonfieldwork.gif" width = "700" alt = "Oscillogram and spectrogram with text annotations below. GIF shows how phonfieldwork can add preannotations to a recording" >}}
 <!--/html_preserve-->
 
 As you can see, it is possible to create all the annotations in advance and leave the annotators with one task only: to move boundaries.
