@@ -102,7 +102,7 @@ textgrid_to_df(system.file("extdata", "test.TextGrid", package = "phonfieldwork"
 14  4 0.51157715 0.51157715       t    3          points test.TextGrid
 ```
 
-* file `.eaf` from ELAN; see also the [FRelan](https://github.com/langdoc/FRelan) package by Niko Partanen
+* convert ELAN `.eaf` files; see also the [FRelan](https://github.com/langdoc/FRelan) package by Niko Partanen
 
 ```r 
 eaf_to_df(system.file("extdata", "test.eaf", package = "phonfieldwork"))
@@ -124,7 +124,7 @@ eaf_to_df(system.file("extdata", "test.eaf", package = "phonfieldwork"))
 8     2  6         empty_intervals     praat      0.652  300.000 test.eaf
 ```
 
-* file `.exb` from EXMARaLDA
+* convert EXMARaLDA `.exb` files
 
 ```r 
 exb_to_df(system.file("extdata", "test.exb", package = "phonfieldwork"))
@@ -151,7 +151,7 @@ exb_to_df(system.file("extdata", "test.exb", package = "phonfieldwork"))
 8 0.6526757 test.exb
 ```
 
-* subtitles file `.srt`
+* convert subtitles `.srt` file
 
 ```r 
 srt_to_df(system.file("extdata", "test.srt", package = "phonfieldwork"))
@@ -165,7 +165,7 @@ srt_to_df(system.file("extdata", "test.srt", package = "phonfieldwork"))
 3  4       t      0.512    0.653 test.srt
 ```
 
-* file `.txt` from Audacity
+* convert Audacity `.txt` file
 
 ```r 
 audacity_to_df(system.file("extdata", "test_audacity.txt", package = "phonfieldwork"))
@@ -185,7 +185,7 @@ The sound annotation process takes a lot of time and in most cases it is really 
 
 
 <!--html_preserve-->
-{{< figure src = "annotation_in_phonfieldwork.gif" width = "700" alt = "Sound preannotation with phonfieldwork" >}}
+{{< figure src = "annotation_in_phonfieldwork.gif" width = "700" alt = "Oscillogram and spectrogram with text annotations below. GIF shows how phonfieldwork can add preannotations to a recording" >}}
 <!--/html_preserve-->
 
 As you can see, it is possible to create all the annotations in advance and leave the annotators with one task only: to move boundaries.
@@ -207,7 +207,7 @@ draw_sound(file, zoom = c(0.2, 0.4))
 ```
 {{<figure src="spec_zoom_example-1.png" alt="Oscillogram and spectrogram zoomed in to a specific time to illustrate usage of the zoom argument" caption="Usage of the zoom argument" width="600">}}
 
-It is also possible to visualize any sound annotation format that was converted to dataframe in the previous section:
+It is also possible to visualize any sound annotation format that was converted to dataframe:
 
 ```r 
 our_textgrid <- system.file("extdata", "test.TextGrid", package = "phonfieldwork")
@@ -238,8 +238,8 @@ It is only a brief introduction into the phonfieldwork functionality, for more d
 
 I would like to thank
 
-* [my rOpenSci reviewers](https://github.com/ropensci/software-review/issues/385) [Jonathan Keane](author/jonathan-keane/) and [Niko Partanen](https://github.com/nikopartanen) for their interesting comments and ideas;
-* [Melina Vidoni](author/melina-vidoni/) for being the package review editor;
+* [my rOpenSci reviewers](https://github.com/ropensci/software-review/issues/385) [Jonathan Keane](/author/jonathan-keane/) and [Niko Partanen](https://github.com/nikopartanen) for their interesting comments and ideas;
+* [Melina Vidoni](/author/melina-vidoni/) for being the package review editor;
 * participants of seminars at the School of linguistics and Linguistic Convergence Laboratory at HSE, Moscow, where I first presented this package;
 * my friends [Neige Rochant](https://github.com/Neigelily) and [Samira Verhees](https://github.com/sverhees/) for sharing their data and problems with me, which has made phonfieldwork better.
 

@@ -123,25 +123,25 @@ There was a goal to be able to convert multiple sound annotation formats into da
 textgrid_to_df(system.file("extdata", "test.TextGrid", package = "phonfieldwork"))
 ```
 
-* file `.eaf` from ELAN; see also the [FRelan](https://github.com/langdoc/FRelan) package by Niko Partanen
+* convert ELAN `.eaf` files; see also the [FRelan](https://github.com/langdoc/FRelan) package by Niko Partanen
 
 ```{r eaf_to_df_example}
 eaf_to_df(system.file("extdata", "test.eaf", package = "phonfieldwork"))
 ```
 
-* file `.exb` from EXMARaLDA
+* convert EXMARaLDA `.exb` files
 
 ```{r exb_to_df_example}
 exb_to_df(system.file("extdata", "test.exb", package = "phonfieldwork"))
 ```
 
-* subtitles file `.srt`
+* convert subtitles `.srt` file
 
 ```{r srt_to_df_example}
 srt_to_df(system.file("extdata", "test.srt", package = "phonfieldwork"))
 ```
 
-* file `.txt` from Audacity
+* convert Audacity `.txt` file
 
 ```{r audacity_to_df_example}
 audacity_to_df(system.file("extdata", "test_audacity.txt", package = "phonfieldwork"))
