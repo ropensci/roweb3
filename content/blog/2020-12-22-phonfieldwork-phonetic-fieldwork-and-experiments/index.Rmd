@@ -112,7 +112,7 @@ create_presentation(stimuli = c("tip", "tap", "top"),
                     output_dir = "...path/to/your/folder")
 ```
 
-As a result, a file `first_example.html` will appear in the output folder ([here](https://ropensci.github.io/phonfieldwork/additional/first_example.html) is an example of a such file). It is also possible to add translations and even use images (see [the documentation page](https://docs.ropensci.org/phonfieldwork/articles/phonfieldwork.html#create-a-presentation-based-on-a-list-of-stimuli-1)).
+As a result, a file `first_example.html` will appear in the output folder ([here](https://ropensci.github.io/phonfieldwork/additional/first_example.html) is an example of a such file[^7]). It is also possible to add translations and even use images (see [the documentation page](https://docs.ropensci.org/phonfieldwork/articles/phonfieldwork.html#create-a-presentation-based-on-a-list-of-stimuli-1)).
 
 ### Sound annotation formats
 
@@ -224,3 +224,4 @@ I would like to thank
 [^4]: Forkel, Robert, Johann-Mattis List, Simon J. Greenhill, Christoph Rzymski, Sebastian Bank, Harald Hammarström, Martin Haspelmath, and Russell D. Gray. 2018. “Cross-Linguistic Data Formats, Advancing Data Sharing and Re-Use in Comparative Linguistics.” Sci Data 5 (1): 1–10.
 [^5]: Moroz, George. 2017. Lingtypology: Easy Mapping for Linguistic Typology. https://CRAN.R-project.org/package=lingtypology.
 [^6]: Just change the `system.file()` function to the path to the file.
+[^7]: It will not look nice on a phone, but you can use it on a PC or a tablet.
