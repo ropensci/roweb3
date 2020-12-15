@@ -1,5 +1,5 @@
 ---
-title: Thank You, 2020
+title: Thank You to the rOpenSci Community, 2020
 author:
   - Stefanie Butland
   - Steffi LaZerte
@@ -8,7 +8,7 @@ slug: thankyou-2020
 tags:
   - thank you
   - community
-description: Thank you rOpenSci Community!
+description: A list of thank you's to 100s of rOpenSci community members!
 # twitterImg: blog/2019/06/04/post-template/name-of-image.png
 # twitterAlt: Alternative description of the image
 ---
@@ -17,7 +17,7 @@ In a year where it has been hard to pay attention to anything not critical to ou
 
 On behalf of rOpenSci, thank you. 
 
-People have submitted their R packages for [software peer review](/software-review/) (16 package authors)[^1], reviewed those packages (31 [reviewers](https://devguide.ropensci.org/softwarereviewintro.html#reviewers)), contributed code or documentation (84 people made their first code contribution to rOpenSci this year), authored a [blog post or tech note](/archive/) (43 community member authors, including 21 first-time authors), shared a [use case](/usecases/) to help package authors see how their work is being used and help other users imagine how they can apply it (42 people), attended a [Community Call](/commcalls/) (136 people in 19 countries), cited our software (380 [citations](/citations/) of 132 packages), asked or answered questions, commented on project ideas, added notes to a public doc, or gave us a shoutout in a talk, a post, or on Twitter.
+People have submitted their R packages for [software peer review](/software-review/) (16 package authors)[^1], reviewed those packages (31 [reviewers](https://devguide.ropensci.org/softwarereviewintro.html#reviewers)), contributed code or documentation (84 people made their first code contribution to rOpenSci this year), authored a [blog post or tech note](/archive/) (43 community member authors, including 21 first-time authors), shared a [use case](/usecases/) to help package authors see how their work is being used and help other users imagine how they can apply it (42 people), attended a [Community Call](/commcalls/) (136 people in 19 countries), cited our software (380 [citations](/citations/) of 132 packages), asked or answered questions, commented on project ideas, added notes to a public doc, invited us to talk about our work, or gave us a shoutout in a presentation, a post, or on Twitter.
 
 Some people’s volunteer contributions this year warrant a special mention:
 
@@ -25,7 +25,7 @@ Some people’s volunteer contributions this year warrant a special mention:
 *   Steering Committee members for our nascent [Statistical Software Peer Review](/stat-software-review/) project, [Ben Bolker](https://ms.mcmaster.ca/~bolker/), [Leonardo Collado-Torres](http://lcolladotor.github.io/), [Stephanie Hicks](https://www.stephaniehicks.com/), [Rebecca Killick](http://www.lancs.ac.uk/~killick/), [Max Kuhn](http://appliedpredictivemodeling.com/), [Paula Moraga](http://www.paulamoraga.com/);
 *   New maintainers of existing rOpenSci packages, [Stéphane Guillou](https://stragu.gitlab.io/), [Sergio Ibarra-Espinosa](https://github.com/ibarraespinosa), [Amanda Rehbein](https://github.com/salvatirehbein);
 *   Presenters in our Community Calls, [Carl Boettiger](/author/carl-boettiger/), [Scott Chamberlain](/author/scott-chamberlain/), [Leonardo Collado-Torres](/author/leonardo-collado-torres/), [Erin Grand](/author/erin-grand/), [Matt Jones](/author/matt-jones/), [Daniella Lowenberg](/author/daniella-lowenberg/), [Karthik Ram](/author/karthik-ram/), [Julia Silge](/author/julia-silge/), [Elin Waring](/author/elin-waring/), [Kara Woo](/author/kara-woo/);
-*   Community members who inspired us to quote them in the rOpenSci [Community Contributing Guide](https://contributing.ropensci.org/)[^3], [Shannon Ellis](/author/shannon-e.-ellis/), [Miles McBain](/author/miles-mcbain/), [Janani Ravi](/author/janani-ravi/), [Eric Scott](https://www.ericrscott.com/), [Julia Stewart Lowndes](/author/julia-stewart-lowndes/), [Jennifer Thompson](/author/jennifer-thompson/), and those who reviewed parts of the guide, [Toby Hodges](https://github.com/tobyhodges), [Julia Stewart Lowndes](/author/julia-stewart-lowndes/);
+*   Community members who inspired us to quote them in the rOpenSci [Community Contributing Guide](https://contributing.ropensci.org/), [Shannon Ellis](/author/shannon-e.-ellis/), [Miles McBain](/author/miles-mcbain/), [Janani Ravi](/author/janani-ravi/), [Eric Scott](https://www.ericrscott.com/), [Julia Stewart Lowndes](/author/julia-stewart-lowndes/), [Jennifer Thompson](/author/jennifer-thompson/), and those who reviewed parts of the guide, [Toby Hodges](https://github.com/tobyhodges), [Julia Stewart Lowndes](/author/julia-stewart-lowndes/);
 *   Contributors to our guides
     *   [rOpenSci Statistical Software Peer Review](https://ropenscilabs.github.io/statistical-software-review-book/index.html), [François Briatte](https://github.com/briatte), [Leonardo Collado-Torres](http://lcolladotor.github.io/), [Rich FitzJohn](/author/rich-fitzjohn/), [Francisco Rodriguez-Sanchez](https://frodriguezsanchez.net/), [Yilong Zhang](https://github.com/elong0527);
     *   [rOpenSci Packages: Development, Maintenance, and Peer Review](https://devguide.ropensci.org/), [Carl Boettiger](/author/carl-boettiger/), [Hugo Gruson](/author/hugo-gruson/), [Luke McGuinness](/author/luke-mcguinness/), [Aaron Wolen](/author/aaron-wolen/), and peer review Editors;
@@ -44,9 +44,4 @@ Thank you **all** for making rOpenSci.
 
 
 [^1]: numbers reported are from Nov 1, 2019 to Oct 31, 2020
-[^2]: [List of reviewers](https://devguide.ropensci.org/softwarereviewintro.html#reviewers) of packages submitted to rOpenSci
-[^3]: [rOpenSci Community Contributing Guide](https://contributing.ropensci.org/)
-[^4]: [rOpenSci Statistical Software Peer Review](https://ropenscilabs.github.io/statistical-software-review-book/index.html)
-[^5]: [rOpenSci Packages: Development, Maintenance, and Peer Review](https://devguide.ropensci.org/)
-[^6]: [When Field or Lab Work is not an Option - Leveraging Open Data Resources for Remote Research](/blog/2020/05/19/covid-19-open-data/)
-[^7]: [Community Captioning of rOpenSci Community Calls](/blog/2020/07/15/subtitles/)
+
