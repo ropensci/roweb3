@@ -1,5 +1,21 @@
 [
   {
+    "title": "Using av to convert audio files for compatibility with an electronic storyteller",
+    "tags": [],
+    "resource": "av",
+    "url": "https://discuss.ropensci.org/t/using-av-to-convert-audio-files-for-compatibility-with-an-electronic-storyteller/2281",
+    "image": "noimage",
+    "date": "2020-12-10"
+  },
+  {
+    "title": "Use stplanr to find and plot major streets of a city",
+    "tags": ["package", "geospatial"],
+    "resource": "stplanr package",
+    "url": "https://discuss.ropensci.org/t/use-stplanr-to-find-and-plot-major-streets-of-a-city/2264",
+    "image": "use-stplanr-to-find-and-plot-major-streets-of-a-city.jpeg",
+    "date": "2020-11-18"
+  },
+  {
     "title": "Using bib2df to parse the R Journal archives",
     "tags": "bib2df",
     "resource": "bib2df",
@@ -8,12 +24,84 @@
     "date": "2019-05-29"
   },
   {
-    "title": "covidpreprints.com",
-    "tags": ["package", "r", "europepmc", "raltmetric"],
+    "title": "Handling vegetation-plot information using vegtable and taxlist",
+    "tags": [],
+    "resource": "taxlist",
+    "url": "https://discuss.ropensci.org/t/handling-vegetation-plot-information-using-vegtable-and-taxlist/2270",
+    "image": "handling-vegetation-plot-information-using-vegtable-and-taxlist.png",
+    "date": "2020-11-21"
+  },
+  {
+    "title": "osmdata, rnaturalearth and magick for #TidyTuesday",
+    "tags": [],
+    "resource": "I used osmdata, rnaturalearth and magick",
+    "url": "https://discuss.ropensci.org/t/osmdata-rnaturalearth-and-magick-for-tidytuesday/2255",
+    "image": "osmdata-rnaturalearth-and-magick-for-tidytuesday.jpeg",
+    "date": "2020-11-06"
+  },
+  {
+    "title": "osmdata: Rail transport network of the three largest cities in Spain",
+    "tags": ["package", "geospatial", "osmdata"],
+    "resource": "osmdata",
+    "url": "https://discuss.ropensci.org/t/osmdata-rail-transport-network-of-the-three-largest-cities-in-spain/2249",
+    "image": "osmdata-rail-transport-network-of-the-three-largest-cities-in-spain.jpeg",
+    "date": "2020-10-27"
+  },
+  {
+    "title": "A Twitter bot with rtweet, Mapbox and GitHub Actions",
+    "tags": ["package", "usecase", "rtweet", "maps", "github-actions"],
+    "resource": "rtweet",
+    "url": "https://discuss.ropensci.org/t/a-twitter-bot-with-rtweet-mapbox-and-github-actions/2223",
+    "image": "a-twitter-bot-with-rtweet-mapbox-and-github-actions.jpeg",
+    "date": "2020-09-25"
+  },
+  {
+    "title": "bomrang with a third party package, stationaRy, to get hourly weather data and clifro to plot wind roses",
+    "tags": ["r", "weather", "bomrang", "research-compendia"],
+    "resource": "bomrang, clifro",
+    "url": "https://discuss.ropensci.org/t/bomrang-with-a-third-party-package-stationary-to-get-hourly-weather-data-and-clifro-to-plot-wind-roses/2082",
+    "image": "bomrang-with-a-third-party-package-stationary-to-get-hourly-weather-data-and-clifro-to-plot-wind-roses.png",
+    "date": "2020-05-17"
+  },
+  {
+    "title": "Mapping scientific collaboration about the Anthropoce with refsplitr",
+    "tags": ["package", "usecase", "refsplitr"],
+    "resource": "Package refsplitr",
+    "url": "https://discuss.ropensci.org/t/mapping-scientific-collaboration-about-the-anthropoce-with-refsplitr/2215",
+    "image": "mapping-scientific-collaboration-about-the-anthropoce-with-refsplitr.jpeg",
+    "date": "2020-09-15"
+  },
+  {
+    "title": "Processing Web of Science records with refsplitr to study author gender and geography",
+    "tags": ["package", "refsplitr", "use-cases"],
+    "resource": "Package refsplitr",
+    "url": "https://discuss.ropensci.org/t/processing-web-of-science-records-with-refsplitr-to-study-author-gender-and-geography/2216",
+    "image": "processing-web-of-science-records-with-refsplitr-to-study-author-gender-and-geography.png",
+    "date": "2020-09-15"
+  },
+  {
+    "title": "Kontarion - a stack extending rocker/ml-verse for Bibliometric analytics",
+    "tags": ["refsplitr", "rcrossref", "fulltext", "oai", "rentrez"],
+    "resource": "Several packages from packages, including for example oai, rentrez, fulltext, europepmc, refsplitr, rcrossref, citecorp, roadoi",
+    "url": "https://discuss.ropensci.org/t/kontarion-a-stack-extending-rocker-ml-verse-for-bibliometric-analytics/2214",
+    "image": "noimage",
+    "date": "2020-09-15"
+  },
+  {
+    "title": "covidpreprints.com using europepmc and rAltmetric",
+    "tags": ["r", "package", "raltmetric", "europepmc"],
     "resource": "europepmc, rAltmetric",
-    "url": "https://discuss.ropensci.org/t/covidpreprints-com/2210",
+    "url": "https://discuss.ropensci.org/t/covidpreprints-com-using-europepmc-and-raltmetric/2210",
     "image": "noimage",
     "date": "2020-09-08"
+  },
+  {
+    "title": "Bar chart portraits with magick",
+    "tags": "magick",
+    "resource": "magick",
+    "url": "https://discuss.ropensci.org/t/bar-chart-portraits-with-magick/2197",
+    "image": "bar-chart-portraits-with-magick.png",
+    "date": "2020-08-23"
   },
   {
     "title": "Analyzing invoice data from Elsevier relative to hybrid open access",
@@ -24,32 +112,16 @@
     "date": "2019-11-25"
   },
   {
-    "title": "Bar chart portraits",
-    "tags": "magick",
-    "resource": "magick",
-    "url": "https://discuss.ropensci.org/t/bar-chart-portraits/2197",
-    "image": "bar-chart-portraits.png",
-    "date": "2020-08-23"
-  },
-  {
     "title": "Spanish and English blogs on how to use rtweet and magick",
-    "tags": ["magick", "rtweet", "spanish", "r"],
+    "tags": ["r", "magick", "rtweet", "spanish"],
     "resource": "rtweet, magick",
     "url": "https://discuss.ropensci.org/t/spanish-and-english-blogs-on-how-to-use-rtweet-and-magick/2188",
     "image": "spanish-and-english-blogs-on-how-to-use-rtweet-and-magick.png",
     "date": "2020-08-01"
   },
   {
-    "title": "bomrang with a third party package, stationaRy, to get hourly weather data and clifro to plot wind roses",
-    "tags": ["weather", "research-compendia", "bomrang", "r"],
-    "resource": "bomrang, clifro",
-    "url": "https://discuss.ropensci.org/t/bomrang-with-a-third-party-package-stationary-to-get-hourly-weather-data-and-clifro-to-plot-wind-roses/2082",
-    "image": "bomrang-with-a-third-party-package-stationary-to-get-hourly-weather-data-and-clifro-to-plot-wind-roses.png",
-    "date": "2020-05-17"
-  },
-  {
     "title": "Searching Microsoft Academic & extracting the metadata",
-    "tags": ["metadata", "package", "microdemic", "r"],
+    "tags": ["r", "package", "metadata", "microdemic"],
     "resource": "microdemic",
     "url": "https://discuss.ropensci.org/t/searching-microsoft-academic-extracting-the-metadata/2012",
     "image": "noimage",
@@ -57,7 +129,7 @@
   },
   {
     "title": "pdftools for parsing .pdf from a URL - public data mining",
-    "tags": ["pdftools", "package"],
+    "tags": ["package", "pdftools"],
     "resource": "pdftools",
     "url": "https://discuss.ropensci.org/t/pdftools-for-parsing-pdf-from-a-url-public-data-mining/1953",
     "image": "pdftools-for-parsing-pdf-from-a-url-public-data-mining.gif",
@@ -73,7 +145,7 @@
   },
   {
     "title": "{drake} at Queensland Fire and Emergency Services",
-    "tags": ["drake", "package"],
+    "tags": ["package", "drake"],
     "resource": "drake",
     "url": "https://discuss.ropensci.org/t/drake-at-queensland-fire-and-emergency-services/2054",
     "image": "noimage",
@@ -89,7 +161,7 @@
   },
   {
     "title": "Create a time-lapse video using av package",
-    "tags": ["av", "community", "r"],
+    "tags": ["r", "community", "av"],
     "resource": "av",
     "url": "https://discuss.ropensci.org/t/create-a-time-lapse-video-using-av-package/2117",
     "image": "create-a-time-lapse-video-using-av-package.jpeg",
@@ -97,7 +169,7 @@
   },
   {
     "title": "Scrape an image from DeepZoom with R and magick, recomposing a single image from multiple tiles",
-    "tags": ["web-scraping", "magick", "deepzoom", "rvest"],
+    "tags": ["magick", "web-scraping", "rvest", "deepzoom"],
     "resource": "magick",
     "url": "https://discuss.ropensci.org/t/scrape-an-image-from-deepzoom-with-r-and-magick-recomposing-a-single-image-from-multiple-tiles/2123",
     "image": "noimage",
@@ -105,7 +177,7 @@
   },
   {
     "title": "US lawmakers on Twitter during a pandemic: some corpus linguistics methods",
-    "tags": ["us-congress", "covid19", "rtweet"],
+    "tags": ["rtweet", "covid19", "us-congress"],
     "resource": "rtweet",
     "url": "https://discuss.ropensci.org/t/us-lawmakers-on-twitter-during-a-pandemic-some-corpus-linguistics-methods/2124",
     "image": "us-lawmakers-on-twitter-during-a-pandemic-some-corpus-linguistics-methods.png",
@@ -113,7 +185,7 @@
   },
   {
     "title": "Using DataPackageR to create data package Pandemic Papers with Chris Knox",
-    "tags": ["package", "datapackager", "r"],
+    "tags": ["r", "package", "datapackager"],
     "resource": "DataPackageR",
     "url": "https://discuss.ropensci.org/t/using-datapackager-to-create-data-package-pandemic-papers-with-chris-knox/2131",
     "image": "noimage",
@@ -129,7 +201,7 @@
   },
   {
     "title": "Package for downloading shapefiles using piggyback",
-    "tags": ["package", "geospatial", "piggyback", "r"],
+    "tags": ["r", "package", "geospatial", "piggyback"],
     "resource": "piggyback",
     "url": "https://discuss.ropensci.org/t/package-for-downloading-shapefiles-using-piggyback/2073",
     "image": "noimage",
@@ -145,7 +217,7 @@
   },
   {
     "title": "Creating a self-updating GitHub README using rtweet and GitHub Actions",
-    "tags": ["rtweet", "r"],
+    "tags": ["r", "rtweet"],
     "resource": "rtweet",
     "url": "https://discuss.ropensci.org/t/creating-a-self-updating-github-readme-using-rtweet-and-github-actions/2181",
     "image": "creating-a-self-updating-github-readme-using-rtweet-and-github-actions.jpeg",
@@ -161,7 +233,7 @@
   },
   {
     "title": "Get tweet status ID from CrossRef Event Data with crevents",
-    "tags": ["crevents", "rtweet"],
+    "tags": ["rtweet", "crevents"],
     "resource": "crevents",
     "url": "https://discuss.ropensci.org/t/get-tweet-status-id-from-crossref-event-data-with-crevents/1665",
     "image": "noimage",
@@ -169,7 +241,7 @@
   },
   {
     "title": "Using qualtRics to study the effect of COVID-19 on scientists",
-    "tags": ["survey", "package", "qualtrics", "r"],
+    "tags": ["r", "package", "qualtrics", "survey"],
     "resource": "qualtRics",
     "url": "https://discuss.ropensci.org/t/using-qualtrics-to-study-the-effect-of-covid-19-on-scientists/2143",
     "image": "noimage",
@@ -177,7 +249,7 @@
   },
   {
     "title": "Testing an API wrapper with webmockr and vcr",
-    "tags": ["testing", "api", "package", "r"],
+    "tags": ["r", "package", "api", "testing"],
     "resource": "webmockr and vcr with the HTTP testing book. This question on ROpenSci helped me discover the tools.",
     "url": "https://discuss.ropensci.org/t/testing-an-api-wrapper-with-webmockr-and-vcr/2125",
     "image": "noimage",
@@ -201,7 +273,7 @@
   },
   {
     "title": "Animated generative art with magick",
-    "tags": ["images", "magick", "package", "animation", "generative"],
+    "tags": ["package", "magick", "images", "generative", "animation"],
     "resource": "magick",
     "url": "https://discuss.ropensci.org/t/animated-generative-art-with-magick/2042",
     "image": "animated-generative-art-with-magick.jpeg",
@@ -209,7 +281,7 @@
   },
   {
     "title": "Using taxadb to query taxonomic information in ecology projects",
-    "tags": ["package", "taxadb", "r"],
+    "tags": ["r", "package", "taxadb"],
     "resource": "taxadb",
     "url": "https://discuss.ropensci.org/t/using-taxadb-to-query-taxonomic-information-in-ecology-projects/2046",
     "image": "using-taxadb-to-query-taxonomic-information-in-ecology-projects.png",
@@ -217,7 +289,7 @@
   },
   {
     "title": "{Magick}ally Visualize Historical Google Maps Traffic Data",
-    "tags": ["magick", "r"],
+    "tags": ["r", "magick"],
     "resource": "magick",
     "url": "https://discuss.ropensci.org/t/magick-ally-visualize-historical-google-maps-traffic-data/2026",
     "image": "magick-ally-visualize-historical-google-maps-traffic-data.jpeg",
@@ -225,7 +297,7 @@
   },
   {
     "title": "pdftools for parsing tables from many .pdfs",
-    "tags": ["pdftools", "package"],
+    "tags": ["package", "pdftools"],
     "resource": "pdftools",
     "url": "https://discuss.ropensci.org/t/pdftools-for-parsing-tables-from-many-pdfs/2018",
     "image": "pdftools-for-parsing-tables-from-many-pdfs.png",
@@ -241,7 +313,7 @@
   },
   {
     "title": "tabulizer for parsing block-text from .pdf",
-    "tags": ["tabulizer", "package"],
+    "tags": ["package", "tabulizer"],
     "resource": "tabulizer",
     "url": "https://discuss.ropensci.org/t/tabulizer-for-parsing-block-text-from-pdf/1930",
     "image": "tabulizer-for-parsing-block-text-from-pdf.gif",
@@ -257,7 +329,7 @@
   },
   {
     "title": "mapping the location of biogeography researchers with `refsplitr`",
-    "tags": ["literature", "package", "refsplitr", "r"],
+    "tags": ["r", "package", "literature", "refsplitr"],
     "resource": "package refsplitr",
     "url": "https://discuss.ropensci.org/t/mapping-the-location-of-biogeography-researchers-with-refsplitr/1924",
     "image": "mapping-the-location-of-biogeography-researchers-with-refsplitr.png",
@@ -265,7 +337,7 @@
   },
   {
     "title": "tidyhydat and weathercan webinar",
-    "tags": ["tidyhydat", "weathercan"],
+    "tags": ["weathercan", "tidyhydat"],
     "resource": "tidyhydat, weathercan and hydrology task view",
     "url": "https://discuss.ropensci.org/t/tidyhydat-and-weathercan-webinar/1858",
     "image": "tidyhydat-and-weathercan-webinar.jpeg",
@@ -273,7 +345,7 @@
   },
   {
     "title": "Batch image manipulation using magick",
-    "tags": ["magick", "r"],
+    "tags": ["r", "magick"],
     "resource": "magick",
     "url": "https://discuss.ropensci.org/t/batch-image-manipulation-using-magick/1889",
     "image": "noimage",
@@ -281,7 +353,7 @@
   },
   {
     "title": "ERDDAP servers use case: tidync and rerddap",
-    "tags": ["rerddap", "tidync"],
+    "tags": ["tidync", "rerddap"],
     "resource": "rerddap and tidync",
     "url": "https://discuss.ropensci.org/t/erddap-servers-use-case-tidync-and-rerddap/1869",
     "image": "erddap-servers-use-case-tidync-and-rerddap.jpeg",
@@ -297,7 +369,7 @@
   },
   {
     "title": "Academic CV using {vitae}, {scholar} to pull papers, and {tic} for building on Travis.",
-    "tags": ["vitae", "tic"],
+    "tags": ["tic", "vitae"],
     "resource": "{vitae} and {tic} - both rOpenSci Labs (and excellent).",
     "url": "https://discuss.ropensci.org/t/academic-cv-using-vitae-scholar-to-pull-papers-and-tic-for-building-on-travis/1842",
     "image": "academic-cv-using-vitae-scholar-to-pull-papers-and-tic-for-building-on-travis.png",
@@ -313,7 +385,7 @@
   },
   {
     "title": "Teaching how to create high quality R packages",
-    "tags": ["dev-guide", "software-peer-review"],
+    "tags": ["software-peer-review", "dev-guide"],
     "resource": "rOpenSci package development guide book",
     "url": "https://discuss.ropensci.org/t/teaching-how-to-create-high-quality-r-packages/1793",
     "image": "noimage",
@@ -329,7 +401,7 @@
   },
   {
     "title": "Can rainfall be a useful predictor of epidemic risk across temporal and...",
-    "tags": ["nasapower", "package", "rnaturalearth"],
+    "tags": ["package", "rnaturalearth", "nasapower"],
     "resource": "nasapower",
     "url": "https://discuss.ropensci.org/t/can-rainfall-be-a-useful-predictor-of-epidemic-risk-across-temporal-and/1701",
     "image": "can-rainfall-be-a-useful-predictor-of-epidemic-risk-across-temporal-and.jpeg",
@@ -337,7 +409,7 @@
   },
   {
     "title": "Converting MedDRA Terminology to Linked Data using rdflib",
-    "tags": ["rdflib", "r"],
+    "tags": ["r", "rdflib"],
     "resource": "rdflib",
     "url": "https://discuss.ropensci.org/t/converting-meddra-terminology-to-linked-data-using-rdflib/1824",
     "image": "converting-meddra-terminology-to-linked-data-using-rdflib.png",
@@ -345,7 +417,7 @@
   },
   {
     "title": "rcrossref for #TidyTuesday",
-    "tags": ["visualization", "rcrossref"],
+    "tags": ["rcrossref", "visualization"],
     "resource": "rcrossref",
     "url": "https://discuss.ropensci.org/t/rcrossref-for-tidytuesday/1711",
     "image": "rcrossref-for-tidytuesday.jpeg",
@@ -361,7 +433,7 @@
   },
   {
     "title": "Using pdftools, tabulizer, and writexl to simplify business information handling workflow",
-    "tags": ["writexl", "pdftools", "tabulizer"],
+    "tags": ["pdftools", "tabulizer", "writexl"],
     "resource": "Packages used are, from ropensci, pdftools, tabulizer, writexl, and also officer",
     "url": "https://discuss.ropensci.org/t/using-pdftools-tabulizer-and-writexl-to-simplify-business-information-handling-workflow/1815",
     "image": "noimage",
@@ -377,7 +449,7 @@
   },
   {
     "title": "Use of R package review guidelines in independent manuscript review",
-    "tags": ["dev-guide", "software-peer-review"],
+    "tags": ["software-peer-review", "dev-guide"],
     "resource": "rOpenSci package development guide book",
     "url": "https://discuss.ropensci.org/t/use-of-r-package-review-guidelines-in-independent-manuscript-review/1795",
     "image": "use-of-r-package-review-guidelines-in-independent-manuscript-review.png",
@@ -401,7 +473,7 @@
   },
   {
     "title": "Using fingertipsR for public health data in UK local government",
-    "tags": ["data-access", "fingertipsr", "r"],
+    "tags": ["r", "data-access", "fingertipsr"],
     "resource": "fingertipsR by Sebastian Fox",
     "url": "https://discuss.ropensci.org/t/using-fingertipsr-for-public-health-data-in-uk-local-government/1780",
     "image": "using-fingertipsr-for-public-health-data-in-uk-local-government.png",
@@ -409,7 +481,7 @@
   },
   {
     "title": "Promoting R and rOpenSci packages in UK local government",
-    "tags": ["ropenaq", "fingertipsr", "package", "r"],
+    "tags": ["r", "package", "fingertipsr", "ropenaq"],
     "resource": "ropenaq",
     "url": "https://discuss.ropensci.org/t/promoting-r-and-ropensci-packages-in-uk-local-government/1776",
     "image": "noimage",
@@ -425,7 +497,7 @@
   },
   {
     "title": "get_clean_obs R Function (searching, pulling and cleaning citizen science records from iNaturalist and GBIF)",
-    "tags": ["rgbif", "spocc", "r"],
+    "tags": ["r", "rgbif", "spocc"],
     "resource": "spocc,  rgbif",
     "url": "https://discuss.ropensci.org/t/get-clean-obs-r-function-searching-pulling-and-cleaning-citizen-science-records-from-inaturalist-and-gbif/1731",
     "image": "noimage",
@@ -433,7 +505,7 @@
   },
   {
     "title": "osmdata use case: Bicycle network analysis of Auckland",
-    "tags": ["osmdata", "package", "geospatial"],
+    "tags": ["package", "geospatial", "osmdata"],
     "resource": "osmdata",
     "url": "https://discuss.ropensci.org/t/osmdata-use-case-bicycle-network-analysis-of-auckland/1721",
     "image": "noimage",
@@ -449,7 +521,7 @@
   },
   {
     "title": "rgbif: get a little or a*lot* of occurrence data",
-    "tags": ["rgbif", "gbif", "community-call"],
+    "tags": ["rgbif", "community-call", "gbif"],
     "resource": "rgbif",
     "url": "https://discuss.ropensci.org/t/rgbif-get-a-little-or-a-lot-of-occurrence-data/1635",
     "image": "noimage",
@@ -457,7 +529,7 @@
   },
   {
     "title": "taxize: Understanding how seafood mislabelling misrepresents the conservation status of the fish on your plate",
-    "tags": ["taxonomy", "taxize"],
+    "tags": ["taxize", "taxonomy"],
     "resource": "taxize",
     "url": "https://discuss.ropensci.org/t/taxize-understanding-how-seafood-mislabelling-misrepresents-the-conservation-status-of-the-fish-on-your-plate/1634",
     "image": "taxize-understanding-how-seafood-mislabelling-misrepresents-the-conservation-status-of-the-fish-on-your-plate.png",
@@ -465,7 +537,7 @@
   },
   {
     "title": "rBiodiversidata",
-    "tags": ["taxize", "rredlist", "usecase"],
+    "tags": ["taxize", "usecase", "rredlist"],
     "resource": "rredlist, taxize",
     "url": "https://discuss.ropensci.org/t/rbiodiversidata/1633",
     "image": "noimage",
