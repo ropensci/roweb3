@@ -241,7 +241,7 @@ I would like to thank
 * [my rOpenSci reviewers](https://github.com/ropensci/software-review/issues/385) [Jonathan Keane](/author/jonathan-keane/) and [Niko Partanen](https://github.com/nikopartanen) for their interesting comments and ideas;
 * [Melina Vidoni](/author/melina-vidoni/) for being the package review editor;
 * participants of seminars at the School of linguistics and Linguistic Convergence Laboratory at HSE, Moscow, where I first presented this package;
-* my friends [Neige Rochant](https://github.com/Neigelily) and [Samira Verhees](https://github.com/sverhees/) for sharing their data and problems with me, which has made phonfieldwork better.
+* my friends [Vanya Kapitonov](https://github.com/vkusvody), [Neige Rochant](https://github.com/Neigelily), and [Samira Verhees](https://github.com/sverhees/) for sharing their data and problems with me, which has made phonfieldwork better.
 
 [^1]: R Core Team. 2020. R: A Language and Environment for Statistical Computing. Vienna, Austria: R Foundation for Statistical Computing. <https://www.R-project.org/>.
 [^2]: Boersma, P., and D. Weenink. 2020. "Praat: Doing Phonetics by Computer [Computer Program]. Version 6.1.35, Retrieved 5 December 2020 from https://Www.praat.org/."
