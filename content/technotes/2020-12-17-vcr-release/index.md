@@ -1,16 +1,15 @@
 ---
 slug: "vcr-release"
-title: "vcr: Behind the Scenes"
+title: "HTTP testing with the newest release of vcr"
 date: 2020-12-17
 author:
   - Scott Chamberlain
 description: Lots of change in the latest vcr release.
 tags:
-  - literature
-  - textmining
-  - fulltext
+  - http
+  - testing
+  - vcr
   - R
-  - packages
 output: 
   html_document:
     keep_md: true
@@ -79,6 +78,10 @@ There is a new vcr article [debugging](https://docs.ropensci.org/vcr/articles/de
 ## Documentation
 
 Many documentation improvements were made, much of it by Maëlle. Repeated parts of documentation were put into `man/rmdhunks` to be used in various places of the packages documentation. A new debugging vignette was created - see above section. In addition, a separate vignette was parsed out covering internals.
+
+## Get in touch
+
+[Get in touch](https://github.com/ropensci/vcr/issues/) if you have any questions/comments/feature requests.
 
 
 [vcr]: https://github.com/ropensci/vcr/
