@@ -16,7 +16,7 @@ location: Community call (teleconference)
 country: "\U0001F310"
 attendees: All are welcome
 slug: dec2020-datarepos
-notes: #link to collaborative notes
+notes: https://docs.google.com/document/d/1YpPbJ-zxEGWtx3v69OKFx8URtoADbU-Km5a8xSbi4EI/
 outputs:
 - HTML
 - Calendar
