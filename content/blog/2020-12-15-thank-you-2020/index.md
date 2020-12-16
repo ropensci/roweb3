@@ -8,6 +8,7 @@ slug: thankyou-2020
 tags:
   - thank you
   - community
+featured: TRUE
 description: A list of thank you's to 100s of rOpenSci community members!
 # twitterImg: blog/2019/06/04/post-template/name-of-image.png
 # twitterAlt: Alternative description of the image
