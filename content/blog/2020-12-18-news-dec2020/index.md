@@ -31,7 +31,9 @@ Our Community Call on The Wild World of Data Repositories took place Dec 16 with
 
 We will not be accepting new submissions during the period Dec 19-Jan 3, nor engaging in editorial activity on reviews underway. Happy Holidays!
 
+<!----
 {{< figure src="hex-medrxivr.png" width="150" alt="hex logo of R package medrxivr" >}}
+---->
 
 _Consider [submitting your package](https://devguide.ropensci.org/softwarereviewintro.html) or [volunteering to review](https://devguide.ropensci.org/softwarereviewintro.html#whyreview). If you want to be a reviewer fill out [this short form](https://ropensci.org/onboarding/), and we'll ping you when there's a submission that fits in your area of expertise._
 
@@ -60,11 +62,11 @@ _Consider [submitting your package](https://devguide.ropensci.org/softwarereview
 
 #### From the community
 
-* [Covidpreprints.com: Automating Website Updates with the europepmc and rAltmetric Packages](/blog/2020/10/13/covidpreprints/) by [Zhang-He Goh](/author/zhang-he-goh/), [Jonny Coates](/author/jonny-coates/), and [Hugo Gruson](/author/hugo-gruson/)
+* [Covidpreprints.com: Automating Website Updates with the **europepmc** and **rAltmetric** Packages](/blog/2020/10/13/covidpreprints/) by [Zhang-He Goh](/author/zhang-he-goh/), [Jonny Coates](/author/jonny-coates/), and [Hugo Gruson](/author/hugo-gruson/)
 
 * [Searching medRxiv and bioRxiv Preprint Data](/blog/2020/10/20/searching-medrxivr-and-biorxiv-preprint-data/) by [Luke McGuinness](/author/luke-mcguinness/)
 
-* [Using Open-Access Tools (rentrez, taxize) to Find Coronaviruses, Their Genetic Sequences, and Their Hosts](/blog/2020/11/10/coronaviruses-and-hosts/) by [Liam Brierley](/author/liam-brierley/)
+* [Using Open-Access Tools (**rentrez**, **taxize**) to Find Coronaviruses, Their Genetic Sequences, and Their Hosts](/blog/2020/11/10/coronaviruses-and-hosts/) by [Liam Brierley](/author/liam-brierley/)
 
 * [Selecting the Best Phylogenetic Evolutionary Model](/blog/2020/12/01/mcbette-selecting-the-best-inference-model/) by [Richèl J.C. Bilderbeek](/author/rich%C3%A8l-j.c.-bilderbeek/)
 
@@ -72,11 +74,11 @@ _Consider [submitting your package](https://devguide.ropensci.org/softwarereview
 
 #### From the rOpenSci team
 
-* [fulltext: Behind the Scenes](/technotes/2020/11/17/fulltext-story/) Tech note by [Scott Chamberlain](/author/scott-chamberlain/)
+* [**fulltext**: Behind the Scenes](/technotes/2020/11/17/fulltext-story/) Tech note by [Scott Chamberlain](/author/scott-chamberlain/)
 
 * [Moving away from Travis CI](/technotes/2020/11/19/moving-away-travis/) Tech note by [Jeroen Ooms](/author/jeroen-ooms/)
 
-* [Installing V8 is now even easier](/technotes/2020/11/12/installing-v8/) Tech note by [Jeroen Ooms](/author/jeroen-ooms/)
+* [Installing **V8** is now even easier](/technotes/2020/11/12/installing-v8/) Tech note by [Jeroen Ooms](/author/jeroen-ooms/)
 
 * [2 Months in 2 Minutes - rOpenSci News, October 2020](/blog/2020/10/15/news-oct2020/) by [Stefanie Butland](/author/stefanie-butland/)
 
@@ -104,13 +106,13 @@ _We have a discussion forum (using Discourse) for the rOpenSci community. It’s
 ## Call For Maintainers
 
 Part of our mission is making sustainable software that users can rely on. Sometimes software maintainers need to give up maintenance due to a variety of circumstances. When that happens we try to find new maintainers. Check out our guidance for [taking over maintenance of a package](https://devguide.ropensci.org/changing-maintainers.html).
-
+---->
 
 
 ## Get involved with rOpenSci
 
 We maintain a [Contributing Guide](https://contributing.ropensci.org/) to help you recognize yourself as a potential contributor. (You don't have to be a developer!) It will help you figure out what you might gain by giving your time, expertise, and experience; match your needs with things that will help our mission; and connect you with resources to help you along the way.
----->
+
 
 ## Keep up with rOpenSci
 
@@ -118,4 +120,3 @@ We create a newsletter every two weeks. You can subscribe via rss feed in [XML](
 
 Follow [@rOpenSci](https://twitter.com/ropensci) on Twitter.
 
-Find out how you can [contribute](https://contributing.ropensci.org/) to rOpenSci as a user or developer.
