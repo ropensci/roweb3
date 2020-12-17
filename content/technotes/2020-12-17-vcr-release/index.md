@@ -131,7 +131,7 @@ There is a new vcr article [debugging](https://docs.ropensci.org/vcr/articles/de
 
 ## Documentation
 
-Many documentation improvements were made, much of it by Maëlle. Repeated parts of documentation were put into `man/rmdhunks` ([^1], [^2]) to be used in various places of the packages documentation. A new debugging vignette was created - see above section. In addition, a separate vignette was parsed out covering internals.
+Many documentation improvements were made, much of it by Maëlle. Repeated parts of documentation were put into `man/rmdhunks` ([^1], [^2]) to be used in various places of the packages documentation. A new debugging vignette was created - see above section. In addition, a separate [vignette was parsed out covering internals](https://docs.ropensci.org/vcr/articles/internals).
 
 ## Get in touch
 
