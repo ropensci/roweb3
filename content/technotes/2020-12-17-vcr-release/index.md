@@ -1,6 +1,6 @@
 ---
 slug: "vcr-release"
-title: "HTTP testing with the newest release of vcr"
+title: "HTTP Testing With the Newest Release of vcr"
 date: 2020-12-17
 author:
   - Scott Chamberlain
@@ -15,11 +15,11 @@ output:
     keep_md: true
 ---
 
-A new version of [vcr][] was just released. See the [release notes](https://github.com/ropensci/vcr/releases/tag/v0.6.0) for all the details. I want to highlight a few of the more noteable changes. 
+A new version of [vcr][] was just released. See the [release notes](https://github.com/ropensci/vcr/releases/tag/v0.6.0) for all the details. I want to highlight a few of the more notable changes. 
 
 ## New contributor
 
-vcr has a new author: [Maëlle Salmon](https://ropensci.org/author/ma%C3%ABlle-salmon/). She has been [contributing to the package quite a lot lately](https://github.com/ropensci/vcr/graphs/contributors), including many documentation improvements and big updates to the [HTTP Testing in R][book] which covers vcr in addition to some other packages.
+vcr has a new author: [Maëlle Salmon](/author/ma%C3%ABlle-salmon/). She has been [contributing to the package quite a lot lately](https://github.com/ropensci/vcr/graphs/contributors), including many documentation improvements and big updates to the [HTTP Testing in R][book] which covers vcr in addition to some other packages.
 
 ## New serializer
 
@@ -85,7 +85,7 @@ vcr::use_cassette("some_neat_code", {
 
 vcr has two new options for managing secrets: `filter_request_headers` and `filter_response_headers`. They both can be set globally with `vcr_configure()` or per cassette. They both allow for completely removing specific headers as well as replacing the value of a specific header with a value you specify.
 
-These two new filtes work differently than `filter_sensitive_data`; the two new ones only remove headers or replace values of headers, whereas `filter_sensitive_data` uses regex to replace values anywhere in the request or response. The three filters can be used in combination or alone.
+These two new filters work differently than `filter_sensitive_data`; the two new ones only remove headers or replace values of headers, whereas `filter_sensitive_data` uses regex to replace values anywhere in the request or response. The three filters can be used in combination or alone.
 
 See the [Security section of the HTTP Testing in R](https://books.ropensci.org/http-testing/vcr-security.html) book for more on vcr secrets.
 
@@ -95,7 +95,7 @@ Two new request matchers now work: `host` and `path`.
 
 Matching on host means that you are matching on just the hostname, e.g., in `https://google.com`, the hostname or host is `google.com`. That is, if you match on host you ignore the scheme (so requests could have http or https), and you ignore anything else in the url after the hostname. So if you do requests to `https://google.com/foo` and `https://google.com/bar` they will match even though their paths components do not match.
 
-Matching on path means that you are matching on any path components of a URL. For example, if a URL is `https://google.com/foo/bar`, the path is `foo/bar`. So if you do requests to `https://google.com/foo/bar` and `https://duckduckgo.com/foo/bar` they will match even though their hostname's do not match.
+Matching on path means that you are matching on any path components of a URL. For example, if a URL is `https://google.com/foo/bar`, the path is `foo/bar`. So if you do requests to `https://google.com/foo/bar` and `https://duckduckgo.com/foo/bar` they will match even though their hostnames do not match.
 
 See the [Configure vcr request matching](https://docs.ropensci.org/vcr/articles/request_matching) for more on request matching.
 
@@ -135,7 +135,7 @@ Many documentation improvements were made, much of it by Maëlle. Repeated parts
 
 ## Get in touch
 
-For an in depth comparison of the various tools for HTTP testing see the [HTTP Testing in R][book], which includes coverage of vcr. Make sure to see the [vcr docs][vcrdocs] which have new and updated vignettes.
+For an in depth comparison of the various tools for HTTP testing see [HTTP Testing in R][book], which includes coverage of vcr. Make sure to also explore the [vcr docs][vcrdocs] which have new and updated vignettes.
 
 [Get in touch](https://github.com/ropensci/vcr/issues/) if you have any questions/comments/feature requests.
 
