@@ -27,6 +27,60 @@ vcr now has two serializer options: YAML (which we had before) and JSON (the new
 
 Keep in mind that by default the JSON serializer does not pretty print the json to disk to save disk space by eliminating the newlines; you can turn pretty printing on by setting `json_pretty=TRUE`.
 
+With `json_pretty=FALSE` (the default) all the JSON is on one line:
+
+```json
+{"http_interactions":[{"request":{"method":"get","uri":"https://api.catalogueoflife.org/dataset/1000/taxon/1/children","headers":{"User-Agent":"r-curl/4.3 crul/1.0.0 rOpenSci(rcol/0.1.0)"}},"response":{"status":{"status_code":"200","message":"OK","explanation":"Request fulfilled, document follows"},"body":{"encoding":"UTF-8","file":false,"string":"{\"result\":[{\"datasetKey\":1000,\"id\":\"2\",\"verbatimKey\":856}"}},"recorded_at":"2020-12-09 02:22:12 GMT","recorded_with":"vcr/0.5.8.91, webmockr/0.7.4"}]}
+```
+
+When `json_pretty=TRUE` the JSON is on many lines and easier to read, but resulting files will be larger:
+
+```json
+{
+  "http_interactions": [
+    {
+      "request": {
+        "method": "get",
+        "uri": "https://api.catalogueoflife.org/dataset/1000/taxon/1/children",
+        "headers": {
+          "User-Agent": "r-curl/4.3 crul/1.0.0 rOpenSci(rcol/0.1.0)"
+        }
+      },
+      "response": {
+        "status": {
+          "status_code": "200",
+          "message": "OK",
+          "explanation": "Request fulfilled, document follows"
+        },
+        "body": {
+          "encoding": "UTF-8",
+          "file": false,
+          "string": "{\"result\":[{\"datasetKey\":1000,\"id\":\"2\",\"verbatimKey\":856}"
+        }
+      },
+      "recorded_at": "2020-12-09 02:22:12 GMT",
+      "recorded_with": "vcr/0.5.8.91, webmockr/0.7.4"
+    }
+  ]
+}
+```
+
+To see the JSON serializer in action, the rcol package (not on CRAN) [uses the JSON serializer](https://github.com/ropensci/rcol/blob/master/tests/testthat/helper-rcol.R#L2) - [an example JSON fixture](https://github.com/ropensci/rcol/blob/master/tests/fixtures/cp_children.json).
+
+If you are currently using the YAML serializer and want to use the JSON serializer, delete all of your YAML based cassettes and update your vcr configuration globally:
+
+```r
+vcr::vcr_configure(dir = "../fixtures", serialize_with = "json")
+```
+
+Or, set per cassette:
+
+```r
+vcr::use_cassette("some_neat_code", {
+    some_neat_code()
+}, serialize_with = "json")
+```
+
 ## Secrets
 
 vcr has two new options for managing secrets: `filter_request_headers` and `filter_response_headers`. They both can be set globally with `vcr_configure()` or per cassette. They both allow for completely removing specific headers as well as replacing the value of a specific header with a value you specify.
@@ -77,11 +131,18 @@ There is a new vcr article [debugging](https://docs.ropensci.org/vcr/articles/de
 
 ## Documentation
 
-Many documentation improvements were made, much of it by Maëlle. Repeated parts of documentation were put into `man/rmdhunks` to be used in various places of the packages documentation. A new debugging vignette was created - see above section. In addition, a separate vignette was parsed out covering internals.
+Many documentation improvements were made, much of it by Maëlle. Repeated parts of documentation were put into `man/rmdhunks` ([^1], [^2]) to be used in various places of the packages documentation. A new debugging vignette was created - see above section. In addition, a separate vignette was parsed out covering internals.
 
 ## Get in touch
 
+For an in depth comparison of the various tools for HTTP testing see the [HTTP Testing in R][book], which includes coverage of vcr. Make sure to see the [vcr docs][vcrdocs] which have new and updated vignettes.
+
 [Get in touch](https://github.com/ropensci/vcr/issues/) if you have any questions/comments/feature requests.
+
+## Footnotes
+
+[^1]: https://www.garrickadenbuie.com/blog/dry-vignette-and-readme/
+[^2]: https://blog.r-hub.io/2019/12/03/readmes/#tools-for-writing-and-re-using-content
 
 
 [vcr]: https://github.com/ropensci/vcr/
