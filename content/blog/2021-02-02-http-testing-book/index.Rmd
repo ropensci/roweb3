@@ -45,14 +45,24 @@ Last but not least, thanks to recent readers of the book like [Dave Parr](https:
 
 The book still has advanced content about webmockr and vcr, but these only come after new content.
 
-* An introduction (how original), giving some basic information and resources suggestions around HTTP in R and _graceful R packages_ as well as the reason why we need special packages for HTTP testing.
+* An introduction (how original), giving some basic information and resources suggestions around [HTTP in R](https://books.ropensci.org/http-testing/http-in-r-101.html) and [_graceful HTTP R packages_](https://books.ropensci.org/http-testing/graceful.html) as well as the reason why we need [special packages for HTTP testing](https://books.ropensci.org/http-testing/pkgs-testing-chapter.html).
 
-* A Whole Games section inspired by the Whole Game section of the R packages book by Hadley Wickham and Jenny Bryan. We created a minimal R package interacting with two web APIs and added tests to it (of normal behavior, of behavior when there is an API error) _three times_
-    * Using vcr and webmockr;
-    * Using httptest;
-    * Using webfakes.
+* A Whole Games section inspired by the [Whole Game chapter of the R packages book by Hadley Wickham and Jenny Bryan](https://r-pkgs.org/whole-game.html). We [created a minimal R package](https://books.ropensci.org/http-testing/introduction.html) interacting with two web APIs and added tests to it (of normal behavior, of behavior when there is an API error) _three times_
+    * Using [vcr and webmockr](https://books.ropensci.org/http-testing/vcr.html);
+    * Using [httptest](https://books.ropensci.org/http-testing/httptest.html);
+    * Using [webfakes](https://books.ropensci.org/http-testing/webfakes.html).
 
-The section also features a comparison of the two packages using mock files / cassettes for storing API responses or interactions (vcr and httptest), and a comparison of all packages.
+The section also features a [comparison of the two packages using mock files / cassettes](https://books.ropensci.org/http-testing/mocking-pkgs-comparison.html) for storing API responses or interactions (vcr and httptest), and a [comparison of all packages](https://books.ropensci.org/http-testing/pkgs-comparison.html).
+
+* An Advanced Topics section about topics transversal to all packages.
+   * Making [real requests](https://books.ropensci.org/http-testing/real-requests-chapter.html)
+   * [CRAN- (and Bioconductor) preparedness for your tests](https://books.ropensci.org/http-testing/cran-preparedness.html)
+   * [Security](https://books.ropensci.org/http-testing/security-chapter.html)
+   * [Faking HTTP errors](https://books.ropensci.org/http-testing/errors-chapter.html)
+   * [Contributor friendliness](https://books.ropensci.org/http-testing/contributor-friendliness.html)
+
+* A [conclusion](https://books.ropensci.org/http-testing/conclusion-4.html) (again, how original) underlining what the next steps are. In particular, we encourage you to read the docs of the HTTP package(s) you end up using. For [webmockr](https://books.ropensci.org/http-testing/mocking.html) and [vcr](https://books.ropensci.org/http-testing/vcr-intro.html), these docs also live in the same book so you don't have far to go.
+
 
 ## Other updates to get excited about
 
@@ -60,11 +70,16 @@ Whilst writing chapters Maëlle filled several docs and feature requests to vcr,
 All three maintainers were very cooperative and nice.
 
 * There was a recent tech note about vcr release, part of which is a consequence of the book update.
-* In httptest the new `httptest::with_mock_dir()` function was contributed as a result
+* In httptest the new `httptest::with_mock_dir()` function was contributed as a result of Maëlle's work.
+* In webfakes Maëlle suggested and helped develop the [OAuth2.0 apps](http://webfakes.r-lib.org/articles/oauth.html).
+
+Besides, the book itself is an early adopter of a brand-new bookdown template by Hadley Wickham, `bookdown::bs4_book()`, which you might want to check out for your own bookish endeavors!
+It's only available in the [development version of bookdown](https://github.com/rstudio/bookdown/) at the moment of writing, and there quite a [few features still in the work](https://github.com/rstudio/bookdown/issues?q=is%3Aopen+sort%3Aupdated-desc+label%3A%22bs4_book+%3Ahiking_boot%3A%22+).
+As for deployment, we'd recommend looking at the [GitHub Actions workflow for the R packages book](https://github.com/hadley/r-pkgs/blob/master/.github/workflows/build-book.yaml) that we drew inspiration from.
 
 ## Further work and feedback request!
 
 While we are happy of the book current state, we are committed to updating and improving it!
-Have a look at the book issue tracker, and feel free to give us feedback there or on rOpenSci forum.
+Have a look at the [book issue tracker](https://github.com/ropensci-books/http-testing/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc), and feel free to give us feedback there or on [rOpenSci forum](https://discuss.ropensci.org/).
 Comments by experts and newbies and any expertise level in-between are most welcome!
 Happy HTTP testing!
