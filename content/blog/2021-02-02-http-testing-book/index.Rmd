@@ -54,7 +54,7 @@ The book still has advanced content about webmockr and vcr, but these only come 
 
 The section also features a [comparison of the two packages using mock files / cassettes](https://books.ropensci.org/http-testing/mocking-pkgs-comparison.html) for storing API responses or interactions (vcr and httptest), and a [comparison of all packages](https://books.ropensci.org/http-testing/pkgs-comparison.html).
 
-* An Advanced Topics section about topics transversal to all packages.
+* An Advanced Topics section about topics transverse to all packages.
    * Making [real requests](https://books.ropensci.org/http-testing/real-requests-chapter.html);
    * [CRAN- (and Bioconductor) preparedness for your tests](https://books.ropensci.org/http-testing/cran-preparedness.html);
    * [Security](https://books.ropensci.org/http-testing/security-chapter.html);
