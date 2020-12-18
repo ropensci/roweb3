@@ -31,7 +31,7 @@ But now there is one great information source, our [HTTP testing in R](https://b
 
 ## Motivation and support for the book
 
-The best guidance about HTTP testing for R packages used to be an [rOpenSci forum entry](https://discuss.ropensci.org/t/best-practices-for-testing-api-packages/460) that pre-dated the development of relatively new packages for HTTP testing that have now been released on CRAN: [`vcr`](https://docs.ropensci.org/vcr/) and [`webmockr`](https://docs.ropensci.org/webmockr/) by Scott Chamberlain,  [`httptest`](https://enpiar.com/r/httptest/) by Neal Richardson, [webfakes](http://webfakes.r-lib.org/) by Gábor Csárdi.
+The best guidance about HTTP testing for R packages used to be an [rOpenSci forum entry](https://discuss.ropensci.org/t/best-practices-for-testing-api-packages/460) by [Noam Ross](/author/noam-ross/) that pre-dated the development of relatively new packages for HTTP testing that have now been released on CRAN: [`vcr`](https://docs.ropensci.org/vcr/) and [`webmockr`](https://docs.ropensci.org/webmockr/) by Scott Chamberlain,  [`httptest`](https://enpiar.com/r/httptest/) by Neal Richardson, [webfakes](http://webfakes.r-lib.org/) by Gábor Csárdi.
 These packages help make HTTP testing smooth to set up and resilient to internet connection failures, which means faster tests, tests running well even when on a spotty internet connection, and less burden on the remote resources.
 
 We have updated the HTTP testing in R online book to make it a free, central reference for developers of R packages accessing web resources, to help them have a faster and more robust development.
@@ -55,16 +55,16 @@ The book still has advanced content about webmockr and vcr, but these only come 
 The section also features a [comparison of the two packages using mock files / cassettes](https://books.ropensci.org/http-testing/mocking-pkgs-comparison.html) for storing API responses or interactions (vcr and httptest), and a [comparison of all packages](https://books.ropensci.org/http-testing/pkgs-comparison.html).
 
 * An Advanced Topics section about topics transversal to all packages.
-   * Making [real requests](https://books.ropensci.org/http-testing/real-requests-chapter.html)
-   * [CRAN- (and Bioconductor) preparedness for your tests](https://books.ropensci.org/http-testing/cran-preparedness.html)
-   * [Security](https://books.ropensci.org/http-testing/security-chapter.html)
-   * [Faking HTTP errors](https://books.ropensci.org/http-testing/errors-chapter.html)
-   * [Contributor friendliness](https://books.ropensci.org/http-testing/contributor-friendliness.html)
+   * Making [real requests](https://books.ropensci.org/http-testing/real-requests-chapter.html);
+   * [CRAN- (and Bioconductor) preparedness for your tests](https://books.ropensci.org/http-testing/cran-preparedness.html);
+   * [Security](https://books.ropensci.org/http-testing/security-chapter.html);
+   * [Faking HTTP errors](https://books.ropensci.org/http-testing/errors-chapter.html);
+   * [Contributor friendliness](https://books.ropensci.org/http-testing/contributor-friendliness.html).
 
 * A [conclusion](https://books.ropensci.org/http-testing/conclusion-4.html) (again, how original) underlining what the next steps are. In particular, we encourage you to read the docs of the HTTP package(s) you end up using. For [webmockr](https://books.ropensci.org/http-testing/mocking.html) and [vcr](https://books.ropensci.org/http-testing/vcr-intro.html), these docs also live in the same book so you don't have far to go.
 
 
-## Other updates to get excited about
+## Other technical details
 
 Whilst writing chapters Maëlle filled several docs and feature requests to vcr, httptest, webfakes.
 All three maintainers were very cooperative and nice.
