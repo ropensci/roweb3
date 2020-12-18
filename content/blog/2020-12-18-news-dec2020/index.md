@@ -3,9 +3,32 @@ title: 2 Months in 2 Minutes - rOpenSci News, December 2020
 author:
   - Stefanie Butland
 date: '2020-12-18'
-slug: news-oct2020
+slug: news-dec2020
 tags:
   - newsletter
+  - phonfieldwork
+  - SymbiotaR2
+  - allcontributors
+  - BaseSet
+  - dataspice
+  - mcbette
+  - outsider
+  - rgnparser
+  - taxlist
+  - rentrez
+  - taxize
+  - europepmc
+  - rAltmetric
+  - medrxivr
+  - fulltext
+  - v8
+  - ghql
+  - av
+  - magick
+  - osmdata
+  - rnaturalearth
+  - rtweet
+  - stplanr
 description: Semi-monthly summary of the rOpenSci Newsletter, December 2020
 preface: "A semi-monthly summary of the [rOpenSci Newsletter](https://news.ropensci.org/) including software reviews, packages on CRAN, use cases, posts from staff and community, and events. October 26 to December 14, 2020"
 ---
