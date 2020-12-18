@@ -66,7 +66,7 @@ resources:
     name: contentid package
     details: R package for working with Content Identifiers
   - url: https://www.dataone.org/webinars/iterative-forecasts/
-    name: Content-based Identifiers for Iterative Forecasts: A Proposal
+    name: Content-based Identifiers for Iterative Forecasts - A Proposal
     details: DataONE webinar by Carl Boettiger
   - url: https://fairsharing.org/collection/GeneralRepositoryComparison
     name: General Repository Comparison chart
