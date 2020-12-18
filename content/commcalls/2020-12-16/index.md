@@ -26,6 +26,9 @@ resources:
   - url: https://github.com/ropensci-org/community-calls/issues/9
     name: Discussion on GitHub
     details: Read the thread that led to this Community Call
+  - url: https://ram.berkeley.edu/blog/ddd/
+    name: Enabling culture change for meaningful data sharing
+    details: post by Karthik Ram with the COS culture change pyramid juxtaposed with current policies
   - url: https://arxiv.org/abs/2002.11626
     name: A Realistic Guide to Making Data Available Alongside Code to Improve Reproducibility
     details: arXiv preprint by Nicholas Tierney, Karthik Ram
@@ -68,13 +71,14 @@ zoomurl: https://zoom.us/j/92298909939?pwd=MERubjdNUUw2aWp6RUFqSHllR01adz09
 ---
 
 Index of video:
-0:00 Welcome and introduction
-7:37 Daniella Lowenberg
-12:06 Matt Jones
-18:08 Kara Woo
-26:29 Carl Boettiger
-33:45 Karthik Ram
-41:32 Q & A 
+
+- 0:00 Welcome and introduction
+- 7:37 Daniella Lowenberg
+- 12:06 Matt Jones
+- 18:08 Kara Woo
+- 26:29 Carl Boettiger
+- 33:45 Karthik Ram
+- 41:32 Q & A 
 
 
 There is no one-size-fits-all protocol for depositing your research data into a public repository in a way that maximizes its reuse and citation. We've assembled a panel that will help you understand the issues and opportunities for developing new tools and documentation. 
