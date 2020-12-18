@@ -19,9 +19,9 @@ slug: dec2020-datarepos
 notes: https://docs.google.com/document/d/1YpPbJ-zxEGWtx3v69OKFx8URtoADbU-Km5a8xSbi4EI/
 outputs:
 - HTML
-- Calendar
-# vimeo:
-#  - id: '378010209'
+- Calendar 
+vimeo:
+  - id: '492310551'
 resources:
   - url: https://github.com/ropensci-org/community-calls/issues/9
     name: Discussion on GitHub
