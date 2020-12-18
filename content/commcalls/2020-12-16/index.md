@@ -29,6 +29,41 @@ resources:
   - url: https://ram.berkeley.edu/blog/ddd/
     name: Enabling culture change for meaningful data sharing
     details: post by Karthik Ram with the COS culture change pyramid juxtaposed with current policies
+  - url: https://datadryad.org/api/v2/docs/
+    name: Dryad API
+    details:   
+  - url: https://docs.ropensci.org/rdryad/
+    name: rdryad package
+    details: interface with the Dryad data repository
+  - url: https://github.com/DataONEorg/rdataone/
+    name: rdataone package
+    details: R interface to the DataONE network of data repositories
+  - url: https://docs.ropensci.org/EML/
+    name: EML package
+    details: Read and Write Ecological Metadata Language Files
+  - url: https://docs.ropensci.org/datapack/
+    name: datapack package
+    details: A Flexible Container to Transport and Manipulate Data and Associated Resources
+  - url: https://github.com/NCEAS/metajam
+    name: Metajam package
+    details: R package to bring data and metadata into R (relying on the DataONE API)
+  - url: https://docs.ropensci.org/DataPackageR/
+    name: DataPackageR package
+    details: Construct Reproducible Analytic Data Sets as R Packages   
+  - url: https://doi.org/10.1080/00031305.2017.1375989
+    name: Data Organization in Spreadsheets
+    details: Karl W. Broman & Kara H. Woo (2018) Data Organization in Spreadsheets, The American Statistician, 72:1, 2-10
+  - url: https://doi.org/10.5334/dsj-2019-052
+    name: The History and Future of Data Citation in Practice
+    details: Parsons MA, Duerr RE, Jones MB (2019) The History and Future of Data Citation in Practice. Data Science Journal, 18(1):52
+
+    
+    
+    
+    
+
+
+    
   - url: https://arxiv.org/abs/2002.11626
     name: A Realistic Guide to Making Data Available Alongside Code to Improve Reproducibility
     details: arXiv preprint by Nicholas Tierney, Karthik Ram
@@ -80,6 +115,7 @@ Index of video:
 - 33:45 Karthik Ram
 - 41:32 Q & A 
 
+See below for speaker bios and resources including collaborative notes from the call.
 
 There is no one-size-fits-all protocol for depositing your research data into a public repository in a way that maximizes its reuse and citation. We've assembled a panel that will help you understand the issues and opportunities for developing new tools and documentation. 
 
