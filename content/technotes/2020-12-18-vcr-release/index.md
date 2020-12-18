@@ -1,7 +1,7 @@
 ---
 slug: "vcr-release"
 title: "HTTP Testing With the Newest Release of vcr"
-date: 2020-12-17
+date: 2020-12-18
 author:
   - Scott Chamberlain
 description: Lots of change in the latest vcr release.
