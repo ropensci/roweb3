@@ -26,12 +26,24 @@ resources:
   - url: https://github.com/ropensci-org/community-calls/issues/9
     name: Discussion on GitHub
     details: Read the thread that led to this Community Call
+  - url: https://hash-archive.org/sources/hash://sha256/4b23d0beee973f0e07db059173101bfcc192b6d63956a01898f54f1f26f4191c
+    name: Data Repositories for everyday use
+    details: Carl Boettiger's slides 
   - url: https://ram.berkeley.edu/blog/ddd/
     name: Enabling culture change for meaningful data sharing
     details: post by Karthik Ram with the COS culture change pyramid juxtaposed with current policies
   - url: https://datadryad.org/api/v2/docs/
     name: Dryad API
-    details:   
+    details: 
+  - url: https://dataoneorg.github.io/Education/
+    name: DataONE Skill Building Hub
+    details: 
+  - url: https://vimeo.com/channels/1580244/videos/sort:plays/format:thumbnail
+    name: Arctic Data Center Video Tutorials
+    details: 
+  - url: https://dmtclearinghouse.esipfed.org/
+    name: ESIP Data Management Training Clearinghouse
+    details: 
   - url: https://docs.ropensci.org/rdryad/
     name: rdryad package
     details: interface with the Dryad data repository
@@ -49,21 +61,31 @@ resources:
     details: R package to bring data and metadata into R (relying on the DataONE API)
   - url: https://docs.ropensci.org/DataPackageR/
     name: DataPackageR package
-    details: Construct Reproducible Analytic Data Sets as R Packages   
+    details: Construct Reproducible Analytic Data Sets as R Packages
+  - url: https://github.com/cboettig/contentid
+    name: contentid package
+    details: R package for working with Content Identifiers
+  - url: https://www.dataone.org/webinars/iterative-forecasts/
+    name: Content-based Identifiers for Iterative Forecasts: A Proposal
+    details: DataONE webinar by Carl Boettiger
+  - url: https://fairsharing.org/collection/GeneralRepositoryComparison
+    name: General Repository Comparison chart
+    details: FAIRSHARING (from NIH workshop)
+  - url: https://zenodo.org/record/3946720#.X43LrebiuUk
+    name: RDA Generalist Repository Comparison Chart
+    details: 
+  - url: https://osf.io/m2bce/
+    name: Data Repository Selection - Criteria That Matter
+    details: 
+  - url: https://guidelines.openaire.eu/en/latest/data/index.html
+    name: OpenAIRE Guidelines for Data Archives
+    details:    
   - url: https://doi.org/10.1080/00031305.2017.1375989
     name: Data Organization in Spreadsheets
-    details: Karl W. Broman & Kara H. Woo (2018) Data Organization in Spreadsheets, The American Statistician, 72:1, 2-10
+    details: Karl W. Broman & Kara H. Woo (2018) The American Statistician, 72:1, 2-10
   - url: https://doi.org/10.5334/dsj-2019-052
     name: The History and Future of Data Citation in Practice
-    details: Parsons MA, Duerr RE, Jones MB (2019) The History and Future of Data Citation in Practice. Data Science Journal, 18(1):52
-
-    
-    
-    
-    
-
-
-    
+    details: Parsons MA, Duerr RE, Jones MB (2019) Data Science Journal, 18(1):52
   - url: https://arxiv.org/abs/2002.11626
     name: A Realistic Guide to Making Data Available Alongside Code to Improve Reproducibility
     details: arXiv preprint by Nicholas Tierney, Karthik Ram
