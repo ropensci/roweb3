@@ -28,7 +28,7 @@ resources:
     details: Read the thread that led to this Community Call
   - url: https://hash-archive.org/sources/hash://sha256/4b23d0beee973f0e07db059173101bfcc192b6d63956a01898f54f1f26f4191c
     name: Data Repositories for everyday use
-    details: Carl Boettiger's slides 
+    details: Carl Boettiger slides 
   - url: https://ram.berkeley.edu/blog/ddd/
     name: Enabling culture change for meaningful data sharing
     details: post by Karthik Ram with the COS culture change pyramid juxtaposed with current policies
