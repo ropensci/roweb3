@@ -105,8 +105,15 @@ Usually it is clear what should be inside a group, like the elements above, all 
 Sometimes it is not so clear if an element belongs to a certain group: Are tomatoes fruits?[¹](https://en.wikipedia.org/wiki/Tomato#Fruit_versus_vegetable "Wikipedia page about tomatoes and its classification")
 
 An element can also belong to several groups.
-Basketball is a sport, but is also played by a team.
-So basketball can be on both groups \[Add image of wikipedia classification for Basketball\].
+Basketball is a team sport, but is also played with a ball.
+So basketball can be on both groups, as we see on [wikipedia](https://en.wikipedia.org/wiki/Basketball "Wikipedia: Basketball"):
+
+<!--html_preserve-->
+
+{{< figure src = "basketball_category.png" width = "400" alt = "Basketball categories according to wikipedia on the 2020-12-20" >}}
+
+<!--/html_preserve-->
+
 Some say that tomatoes should be both considered as fruits and as vegetables, so they are also on both sets.
 We can do this for all elements we can think, pencils, mathematical operations, numbers, words, genes...
 
@@ -186,16 +193,32 @@ So far we have set up how to count and merge different sets but one of the goals
 To account for uncertainty mathematicians have come with the idea of fuzzy sets.
 Fuzzy sets are sets but instead of knowing for sure that an element belongs to the set, there is a value, the fuzzy value or membership, that measures the membership of the element to a set.
 
-\[Find a layman example of fuzzy set, popcorn or something\]
-
-That fuzzy value can be a probability, so if researchers perform experiments and 8/10 times the elements does a process we could say that the fuzzy value is 0.8.
-This helps to compare how sure we are of our own knowledge.
+A typical example is rating things.
+Imagine classification methods that given a picture it classify what's on it and give a probability for each object:
 
 ```{r fuzzy}
-
+classification <- matrix(c(0.1, 0.2, 0.6, 0.85, 0.6, 0.5, 0.25, 0.16),
+                         nrow = 2, ncol = 4, byrow = TRUE,
+                         dimnames = list(c("image1", "image2"), 
+                                         c("Cat", "Dog", "Duck", "Fish")))
+classification # Algorithm classification
+TS <- tidySet(classification) # Transform data
+TS
 ```
 
-## Conclusions
+We can calculate how probable is that the image is classified to just one object.
+
+```{r set_size}
+set_size(TS)
+```
+
+Given this memberships there is just a 0.3252 probability that the machine would classify the first image as just one thing, so it is more probable that the first image will be misclassified.
+
+On the second image it is more probable to just be one object than two, but there is high uncertainty as the probability to classify to no one of the 4 objects is 0.1260.
+
+This was not evident from the "output" of the classification but is equally important to know in many situations.
+
+## Finishing
 
 I [submitted](https://github.com/ropensci/software-review/issues/359) this package to [rOpenSci](https://ropensci.org "rOpenSci") because I wanted more feedback on these fuzzy sets methods and wasn't sure of the mix I made of S4 methods and S3 methods.
 
@@ -205,70 +228,6 @@ This long waiting time was because it was hard for the editor (thanks Anna Kryst
 Once two reviewers agreed the feedback started coming (Many thanks Zebulun Arendsee and Jennifer Chang!).
 The reviewers pointed out inconsistencies on the order of the output, suggested more methods, pointed out to mismatches between the documentation and the code.
 
-Most importantly much of the comments and exchange was around some methods and explanations for fuzzy sets were (are?) not clear.
-Mainly if the fuzzy values, also called memberships are probabilities or not.
+Most importantly much of the comments and exchange was around some methods and explanations for fuzzy sets were not clear.
 
 I made my best efforts to improve the package and hope you'll find them useful in your projects.
-
-Citation of the primary literature[^2].
-
-[^2]: Sciaini, M., Fritsch, M., Scherer, C., & Simpkins, C. E.
-    (2018).
-    NLMR and landscapetools: An integrated environment for simulating and modifying neutral landscape models in R.
-    Methods in Ecology and Evolution, 9(11), 2240-2248.
-    <https://doi.org/10.1111/2041-210X.13076>
-
-Citation of a website[^3].
-
-[^3]: Elin Waring, Michael Quinn, Amelia McNamara, Eduardo Arino de la Rubia, Hao Zhu and Shannon Ellis (2019).
-    skimr: Compact and Flexible Summaries of Data.
-    R package version 1.0.7.
-    <https://CRAN.R-project.org/package=skimr>
-
-Citation of an R package[^4].
-
-[^4]: Hugo static site generator.
-    <https://gohugo.io/>
-
-### Subsection heading
-
-We recommend the use of [Hugo shortcodes](https://gohugo.io/content-management/shortcodes/) to include images, tweets, videos, gists, etc.
-In the Rmd file they need to be between `<!--html_preserve-->` and `<!--/html_preserve-->`.
-
-**Add an image** by using a Hugo shortcode.
-The image is saved under `/content/blog/YYYY-MM-DD-slug/name-of-image.png`.
-
-<!--html_preserve-->
-{{< figure src = "name-of-image.png" width = "400" alt = "this is the alternative text" >}}
-<!--/html_preserve-->
-
-Consult the Technical Guidelines for tips on changing image size, alignment, and for advice on alternative text.
-
-Below is another image, a plot generated by a code chunk, so you might see how to add alternative text and other options in this case.
-You can also use [all options documented for the figure shortcode](https://gohugo.io/content-management/shortcodes/#figure) except for `src` that will be created automatically when knitting.
-
-```{r chunkname, hugoopts=list(alt="alternative text please make it informative", caption="this is what this image shows, write it here or in the paragraph after the image as you prefer", width=300)}
-plot(1:10)
-```
-
-Once this file is knitted the plot above will be inserted with the correct syntax.
-
-**Embed a tweet** by using a Hugo shortcode.
-
-<!--html_preserve-->
-{{< tweet 1138216112808529920 >}}
-<!--/html_preserve-->
-
-**Tweak code highlighting** Below you can see how to use Hugo [Chroma code highlighting options](https://gohugo.io/content-management/syntax-highlighting/#highlight-shortcode): highlight the 1st and 4th to 6th code lines, number lines as a table starting from 199.
-
-```{r hl, hlopts = list(linenos='table',hl_lines='[1,"4-6"]',linenostart=199)}
-a <- 1
-a <- 1
-a <- 1
-a <- 1
-a <- 1
-a <- 1
-a <- 1
-```
-
-**Add citation or footnote** text by using the format below
