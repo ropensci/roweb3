@@ -244,7 +244,7 @@ I would like to thank
 * my friends [Vanya Kapitonov](https://github.com/vkusvody), [Neige Rochant](https://github.com/Neigelily), and [Samira Verhees](https://github.com/sverhees/) for sharing their data and problems with me, which has made phonfieldwork better.
 
 [^1]: R Core Team. 2020. R: A Language and Environment for Statistical Computing. Vienna, Austria: R Foundation for Statistical Computing. <https://www.R-project.org/>.
-[^2]: Boersma, P., and D. Weenink. 2020. "Praat: Doing Phonetics by Computer [Computer Program]. Version 6.1.35, Retrieved 5 December 2020 from https://Www.praat.org/."
+[^2]: Boersma, P., and D. Weenink. 2020. "Praat: Doing Phonetics by Computer [Computer Program]. Version 6.1.35, Retrieved 5 December 2020 from https://www.praat.org/
 [^3]: Brugman, Hennie, Albert Russel, and Xd Nijmegen. 2004. "Annotating Multi-Media/Multi-Modal Resources with ELAN." In LREC.
 [^4]: Forkel, Robert, Johann-Mattis List, Simon J. Greenhill, Christoph Rzymski, Sebastian Bank, Harald Hammarström, Martin Haspelmath, and Russell D. Gray. 2018. “Cross-Linguistic Data Formats, Advancing Data Sharing and Re-Use in Comparative Linguistics.” Sci Data 5 (1): 1–10.
 [^5]: Moroz, George. 2017. Lingtypology: Easy Mapping for Linguistic Typology. https://CRAN.R-project.org/package=lingtypology.
