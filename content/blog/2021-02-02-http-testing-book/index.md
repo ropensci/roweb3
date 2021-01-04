@@ -39,7 +39,7 @@ Scott created the book a while back, as central documentation for his packages [
 Maëlle got [funding from the R Consortium](https://www.r-consortium.org/projects/awarded-projects/2020-group-1#HTTP+testing+in+R+Book) to expand the scope of the book.
 Thank you, R Consortium!
 Thanks also to Scott, [Adam Sparks](/author/adam-sparks/), [Matthias Grenié](/author/matthias-grenié/) and [Neal Richardson](https://enpiar.com/) for contributing to the project proposal. Thanks also to [Gábor Csárdi](https://github.com/gaborcsardi) who was also consulted... even before he created webfakes!
-Last but not least, thanks to recent readers of the book like [Dave Parr](https://www.daveparr.info/) and [Lluís Revilla Sancho](https://llrs.dev/) for useful feedback.
+Last but not least, thanks to recent readers of the book like [Dave Parr](https://www.daveparr.info/), [Lluís Revilla Sancho](https://llrs.dev/) and [Hugo Gruson](https://www.normalesup.org/~hgruson/) for useful feedback.
 
 ## What's between the covers?
 
@@ -69,7 +69,7 @@ The section also features a [comparison of the two packages using mock files / c
 Whilst writing chapters Maëlle filled several docs and feature requests to vcr, httptest, webfakes.
 All three maintainers were very cooperative and nice.
 
-* There was a recent tech note about vcr release, part of which is a consequence of the book update.
+* There was a recent [tech note about vcr release](/technotes/2020/12/18/vcr-release/), part of which is a consequence of the book update.
 * In httptest the new `httptest::with_mock_dir()` function was contributed as a result of Maëlle's work.
 * In webfakes Maëlle suggested and helped develop the [OAuth2.0 apps](http://webfakes.r-lib.org/articles/oauth.html).
 
