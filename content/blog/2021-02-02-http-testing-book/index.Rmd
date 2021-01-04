@@ -69,7 +69,7 @@ The section also features a [comparison of the two packages using mock files / c
 Whilst writing chapters Maëlle filled several docs and feature requests to vcr, httptest, webfakes.
 All three maintainers were very cooperative and nice.
 
-* There was a recent tech note about vcr release, part of which is a consequence of the book update.
+* There was a recent [tech note about vcr release](/technotes/2020/12/18/vcr-release/), part of which is a consequence of the book update.
 * In httptest the new `httptest::with_mock_dir()` function was contributed as a result of Maëlle's work.
 * In webfakes Maëlle suggested and helped develop the [OAuth2.0 apps](http://webfakes.r-lib.org/articles/oauth.html).
 
