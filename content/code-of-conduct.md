@@ -1,7 +1,7 @@
 +++
 title = "Code of Conduct"
 description = "rOpenSci Code of Conduct"
-subtitle = "Version 2.1 – January 15, 2020"
+subtitle = "Version 2.2 – January 5, 2021"
 +++
 
 rOpenSci's community is our best asset and we believe that our diversity is our strength. We are building a welcoming and diverse global community of software users and developers from a range of research domains. It's so important to us, it's in [our mission statement](/about/). Whether you’re a regular contributor or a newcomer, we care about making this a safe place for you and we’ve got your back.
@@ -45,7 +45,7 @@ This Code of Conduct applies to all people participating in the rOpenSci communi
 
 ### Reporting Guidelines
 
-The rOpenSci Code of Conduct Committee includes [Stefanie Butland](/authors/stefanie-butland) (rOpenSci Community Manager), [Scott Chamberlain](/authors/scott-chamberlain) (rOpenSci Co-founder and Technical Lead) and [Kara Woo](https://karawoo.com/) (independent community member).
+The rOpenSci Code of Conduct Committee includes [Stefanie Butland](/author/stefanie-butland) (rOpenSci Community Manager), [Mark Padgham](/author/mark-padgham) (rOpenSci Software Research Scientist) and [Kara Woo](https://karawoo.com/) (independent community member).
 
 If you experience or witness unacceptable behavior, or have any other concerns, [please submit a report  to the Committee as soon as possible using this form](https://docs.google.com/forms/d/e/1FAIpQLSdPdhOveaz21SitTBpQ5686xEKPq8DW-Kb8CyKyX89aw5Mz_A/viewform). Alternatively, you may email `conduct@ropensci.org`, which will go to all three Committee members. You may also make a report directly to one member of the Committee by contacting them directly. If any member of the Committee has a conflict of interest with a report, they will be recused and will not have access to the content or process of the report followup. At an in-person rOpenSci event, please reach out to anyone named as a member of that event-specific Code of Conduct Committee, or to venue staff or security who will be present throughout the event.
 
