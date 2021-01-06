@@ -10,11 +10,12 @@ tags:
   - community
   - code of conduct
   - governance
+description: No Code of Conduct reports in 2020
 ---
-In January 2019, we [announced](/blog/2019/01/14/conduct/) the release of rOpenSci's [Code of Conduct version 2.0](/code-of-conduct). This includes a named Committee, greater detail about unacceptable behaviors, instructions on how to make a report, and information on how reports are handled. We are committed to transparency with our community while upholding the privacy of victims and people who report incidents.
-
-Our Code of Conduct applies to all people participating in the rOpenSci community, including rOpenSci staff and leadership. It applies to all modes of interaction online including GitHub project repositories, the rOpenSci discussion forum, Slack, Community Calls, and in person at rOpenSci-hosted events or events officially endorsed by rOpenSci, including social gatherings affiliated with an event.
+The rOpenSci community is supported by our [Code of Conduct](/code-of-conduct) with a clear description of unacceptable behaviors, instructions on how to make a report, and information on how reports are handled. We, the Code of Conduct Committee, are responsible for receiving, investigating, deciding, enforcing and reporting on all reports of potential violations of our Code. We are committed to transparency with our community while upholding the privacy of victims and people who report incidents.
 
 In 2020, we did not receive any Code of Conduct incident reports.
+
+We acknowledge that a lack of incident reports does not mean we're perfect. We welcome your feedback by email to conduct at ropensci.org.
 
 
