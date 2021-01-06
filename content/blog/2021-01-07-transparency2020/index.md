@@ -1,0 +1,20 @@
+---
+slug: "transparency2020"
+title: rOpenSci 2020 Code of Conduct Transparency Report
+author:
+  - Stefanie Butland
+  - Scott Chamberlain
+  - Kara Woo
+date: 2021-01-07
+tags:
+  - community
+  - code of conduct
+  - governance
+---
+In January 2019, we [announced](/blog/2019/01/14/conduct/) the release of rOpenSci's [Code of Conduct version 2.0](/code-of-conduct). This includes a named Committee, greater detail about unacceptable behaviors, instructions on how to make a report, and information on how reports are handled. We are committed to transparency with our community while upholding the privacy of victims and people who report incidents.
+
+Our Code of Conduct applies to all people participating in the rOpenSci community, including rOpenSci staff and leadership. It applies to all modes of interaction online including GitHub project repositories, the rOpenSci discussion forum, Slack, Community Calls, and in person at rOpenSci-hosted events or events officially endorsed by rOpenSci, including social gatherings affiliated with an event.
+
+In 2020, we did not receive any Code of Conduct incident reports.
+
+
