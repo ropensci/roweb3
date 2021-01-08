@@ -167,10 +167,11 @@ TS1 <- add_relation(TS, relation)
 TS1
 ```
 
-As you have noticed there is a third column named fuzzy that so far is always 1.
+As you might have noticed there is a third column named fuzzy that so far is always 1.
 This column is a value between 0 and 1 with the membership of an element to that set.
 1 is that it is fully and 0 it is that there isn't any relationship.
 Values between encode the uncertainty.
+We will see it later, but first let's create a new set to do some operations with it:
 
 ```{r tomatoes}
 relation <- data.frame(sets = c("vegetables", "fruits"), 
@@ -223,7 +224,7 @@ This was not evident from the "output" of the classification but is equally impo
 I [submitted](https://github.com/ropensci/software-review/issues/359) this package to [rOpenSci](https://ropensci.org "rOpenSci") because I wanted more feedback on these fuzzy sets methods and wasn't sure of the mix I made of S4 methods and S3 methods.
 
 The topic is not a common one so although I submitted the package on January for review it started on June (after 2 months of hiatus due to COVID).
-This long waiting time was because it was hard for the editor (thanks Anna Krystalli) to find two reviewers with all that was going on.
+This long waiting time was because it was hard for the editor (thanks Anna Krystalli!) to find two reviewers with all that was going on.
 
 Once two reviewers agreed the feedback started coming (Many thanks Zebulun Arendsee and Jennifer Chang!).
 The reviewers pointed out inconsistencies on the order of the output, suggested more methods, pointed out to mismatches between the documentation and the code.
