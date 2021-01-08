@@ -1,16 +1,15 @@
 ---
-slug: "ropensci-hiring"
+slug: ropensci-hiring
 title: rOpenSci Hiring for New Position in Statistical Software Testing and Peer Review
 author:
   - Karthik Ram
   - Noam Ross
-date: 2019-07-18
+date: '2019-07-18'
 topicid: 1783
 tags:
-- Software Peer Review
-- R
-- careers
-- rOpenStats
+  - Software Peer Review
+  - careers
+  - rOpenStats
 ---
 
 Are you passionate about statistical methods and software? If so we would love for you to join our team to dig deep into the world of statistical software packages. You’ll develop standards for evaluating and reviewing statistical tools, publish, and work closely with an international team of experts to set up a new software review system.

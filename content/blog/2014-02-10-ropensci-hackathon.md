@@ -2,12 +2,10 @@
 slug: ropensci-hackathon
 title: rOpenSci developer meeting in March
 date: '2014-02-10'
-author:
-  - Karthik Ram
+author: Karthik Ram
 tags:
   - hackathon
   - meetings
-  - R
   - unconf
   - unconf14
 ---

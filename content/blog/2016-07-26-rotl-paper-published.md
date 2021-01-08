@@ -7,7 +7,6 @@ author:
   - Joseph Brown
   - David Winter
 tags:
-  - R
   - rotl
   - open tree
   - publication

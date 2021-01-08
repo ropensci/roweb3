@@ -1,18 +1,16 @@
 ---
-slug: "parzer"
-title: "parzer: Parse Messy Geographic Coordinates"
-date: 2020-03-19
-author:
-  - Scott Chamberlain
+slug: parzer
+title: 'parzer: Parse Messy Geographic Coordinates'
+date: '2020-03-19'
+author: Scott Chamberlain
 description: parzer, a new package for parsing messy geographic coordinates.
 tags:
   - geospatial
   - parzer
   - software peer review
-  - R
-output: 
+output:
   html_document:
-    keep_md: true
+    keep_md: yes
 ---
 
 ```{r echo=FALSE}

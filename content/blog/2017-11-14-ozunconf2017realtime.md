@@ -2,8 +2,7 @@
 slug: realtime
 title: '2017 rOpenSci ozunconf :: Reflections and the realtime Package'
 date: '2017-11-14'
-author:
-  - Jonathan Carroll
+author: Jonathan Carroll
 topicid: 960
 tags:
   - Australia
@@ -12,7 +11,6 @@ tags:
   - ozunconf
   - ozunconf17
   - plot
-  - R
   - realtime
   - unconf
 ---

@@ -3,8 +3,8 @@ title: Last Night, Testing Saved my Life
 dateStart: 2019-12-05T10:00:00
 dateEnd: 2019-12-05T11:00:00
 date: 2019-12-05T11:00:00
-publishDate: 2019-12-04
-featured: true
+publishDate: '2019-12-04'
+featured: yes
 author:
   - Steffi LaZerte
   - Rich FitzJohn
@@ -39,19 +39,34 @@ resources:
     name: HTTP testing in R - overview of tools and new features, by Scott Chamberlain
       for rOpenSci
   - url: http://www.tdda.info
-    name: Test-Driven Data Analysis blog, recommended by Noam Ross  
+    name: Test-Driven Data Analysis blog, recommended by Noam Ross
 speakers:
   - name: Steffi LaZerte
-    bio: Steffi LaZerte is a consulting R programmer and teacher, and Adjunct Professor at Brandon University in Manitoba. She is the author of the rOpenSci-reviewed weathercan package. She has a PhD in Behavioral Ecology and recently received the Society of Canadian Ornithologists Early Career Research Award. Steffi’s research career has involved exploring seasonal changes in chipmunk activity patterns, effects of anthropogenic noise on communication in birds, and the development of R packages for behavioral ecology. See more on GitHub, Twitter, Their Website, and rOpenSci.
+    bio: Steffi LaZerte is a consulting R programmer and teacher, and Adjunct Professor
+      at Brandon University in Manitoba. She is the author of the rOpenSci-reviewed
+      weathercan package. She has a PhD in Behavioral Ecology and recently received
+      the Society of Canadian Ornithologists Early Career Research Award. Steffi’s
+      research career has involved exploring seasonal changes in chipmunk activity
+      patterns, effects of anthropogenic noise on communication in birds, and the
+      development of R packages for behavioral ecology. See more on GitHub, Twitter,
+      Their Website, and rOpenSci.
     img: steffi-lazerte.jpg
   - name: Rich FitzJohn
-    bio: Rich FitzJohn is a research software engineer in the RESIDE group at the Department of Infectious Disease Epidemiology and MRC Centre for Global Infectious Disease Analysis in London UK. His focuses are infrastructure and tools that generalize problems common to research groups across the department. He is interested in reproducible research and in helping researchers get more science done per line of code that they write. Rich has a PhD in zoology. His research career involved modeling coexistence in tropical forests, diversification over macro-evolutionary timescales and the potential for gene flow from genetically-modified crops. Rich is part of rOpenSci’s Leadership team. See more on GitHub, Twitter, Their Website, and rOpenSci.
+    bio: Rich FitzJohn is a research software engineer in the RESIDE group at the
+      Department of Infectious Disease Epidemiology and MRC Centre for Global Infectious
+      Disease Analysis in London UK. His focuses are infrastructure and tools that
+      generalize problems common to research groups across the department. He is interested
+      in reproducible research and in helping researchers get more science done per
+      line of code that they write. Rich has a PhD in zoology. His research career
+      involved modeling coexistence in tropical forests, diversification over macro-evolutionary
+      timescales and the potential for gene flow from genetically-modified crops.
+      Rich is part of rOpenSci’s Leadership team. See more on GitHub, Twitter, Their
+      Website, and rOpenSci.
     img: rich_fitzjohn.jpg
 tags:
   - community call
   - events
   - mocking
-  - R
   - reproducibility
   - reproducible-research
   - testing
@@ -59,9 +74,9 @@ tags:
   - vcr
   - webmockr
 description: Learn more about software testing in this 1-hour call!
-outputs: 
-- HTML
-- Calendar 
+outputs:
+  - HTML
+  - Calendar
 deets: Zoom meeting ID 297 967 525. [Join Meeting](#). [Find your local number](#).
 ---
 

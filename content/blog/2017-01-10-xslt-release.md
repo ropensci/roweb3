@@ -1,14 +1,12 @@
 ---
 slug: xslt-release
 title: Using xml schema and xslt in R
-author:
-  - Jeroen Ooms
+author: Jeroen Ooms
 date: '2017-01-10'
 tags:
   - packages
   - XML
   - xslt
-  - R
 ---
 
 This week an update for [xml2](https://cran.r-project.org/web/packages/xml2/index.html) and a new [xslt](https://cran.r-project.org/web/packages/xslt/index.html) package have appeared on CRAN. A full announcement for xml2 version 1.1 will appear on the [rstudio blog](https://blog.rstudio.org/). This post explains xml *validation* (via xsd schema) and xml *transformation* (via xslt stylesheets) which have been added in this release.

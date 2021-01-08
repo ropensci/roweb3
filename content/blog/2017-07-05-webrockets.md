@@ -8,7 +8,6 @@ date: '2017-07-05'
 topicid: 928
 tags:
   - community
-  - R
   - software
   - unconf
   - unconf17

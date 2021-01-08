@@ -10,7 +10,6 @@ author:
 date: '2018-07-05'
 topicid: 1249
 tags:
-  - R
   - packages
   - community
   - unconf

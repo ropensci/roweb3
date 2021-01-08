@@ -1,14 +1,12 @@
 ---
-slug: "conditionz"
-title: "conditionz: control how many times conditions are thrown"
-date: 2019-04-24
-author:
-  - Scott Chamberlain
+slug: conditionz
+title: 'conditionz: control how many times conditions are thrown'
+date: '2019-04-24'
+author: Scott Chamberlain
 topicid: 1680
 tags:
-- R
-- conditions
-- conditionz
+  - conditions
+  - conditionz
 ---
 
 ```{r echo=FALSE}

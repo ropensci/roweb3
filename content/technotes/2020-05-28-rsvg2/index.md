@@ -1,12 +1,10 @@
 ---
 slug: rsvg2
-title: 'Superior svg graphics rendering in R, and why it matters'
+title: Superior svg graphics rendering in R, and why it matters
 date: '2020-05-28'
-author:
-  - Jeroen Ooms
+author: Jeroen Ooms
 topicid: 2101
 tags:
-  - R
   - images
   - packages
   - svg

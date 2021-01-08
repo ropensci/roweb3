@@ -10,7 +10,6 @@ tags:
   - fulltext
   - data
   - journals
-  - R
   - open access
 ---
 

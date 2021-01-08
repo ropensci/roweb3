@@ -2,12 +2,10 @@
 slug: magick-16
 title: 'Magick 1.6: clipping, geometries, fonts, fuzz, and a bit of history'
 date: '2017-12-05'
-author:
-  - Jeroen Ooms
+author: Jeroen Ooms
 cover: tTFk7ig.jpg
 topicid: 987
 tags:
-  - R
   - packages
   - magick
   - images

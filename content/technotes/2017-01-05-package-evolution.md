@@ -2,10 +2,8 @@
 slug: package-evolution
 title: Package evolution - changing stuff in your package
 date: '2017-01-05'
-author:
-  - Scott Chamberlain
+author: Scott Chamberlain
 tags:
-  - R
   - development
 ---
 

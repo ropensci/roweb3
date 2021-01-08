@@ -2,10 +2,8 @@
 slug: taxize-update
 title: New features in the most recent taxize update, v0.2
 date: '2014-02-19'
-author:
-  - Scott Chamberlain
+author: Scott Chamberlain
 tags:
-  - R
   - API
   - taxize
   - taxonomy

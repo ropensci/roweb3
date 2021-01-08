@@ -1,31 +1,30 @@
 ---
-slug: "workloopR-release"
-title: "workloopR: Analysis of work loops and other data from muscle physiology experiments in R"
+slug: workloopR-release
+title: 'workloopR: Analysis of work loops and other data from muscle physiology experiments
+  in R'
 package_version: 1.1.2
-author:
-  - Vikram B. Baliga
-date: 2019-11-14
+author: Vikram B. Baliga
+date: '2019-11-14'
 topicid: 1879
 tags:
-- Software Peer Review
-- R
-- packages
-- community
-- data-access
-- reproducibility
-- reproducible-research
-- physiology
-- workloopR
-- muscle-physiology-experiments
-- work-loop
-- workloop
-- muscle-force
-- tetanus
-- ddf
+  - Software Peer Review
+  - packages
+  - community
+  - data-access
+  - reproducibility
+  - reproducible-research
+  - physiology
+  - workloopR
+  - muscle-physiology-experiments
+  - work-loop
+  - workloop
+  - muscle-force
+  - tetanus
+  - ddf
 twitterImg: img/blog-images/2019-11-14-workloopR-release/workloopR-repository-open-graph.png
-output: 
+output:
   html_document:
-    keep_md: true
+    keep_md: yes
 ---
 
 

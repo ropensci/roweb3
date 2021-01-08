@@ -2,10 +2,8 @@
 slug: rplos-highlights
 title: Highlighting text in text mining
 date: '2013-12-02'
-author:
-  - Scott Chamberlain
+author: Scott Chamberlain
 tags:
-  - R
   - textmining
   - API
   - PLOS

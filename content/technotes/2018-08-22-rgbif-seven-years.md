@@ -2,11 +2,9 @@
 slug: rgbif-seven-years
 title: 'rgbif: seven years of GBIF in R'
 date: '2018-08-22'
-author:
-  - Scott Chamberlain
+author: Scott Chamberlain
 topicid: 1307
 tags:
-  - R
   - biodiversity
   - occurrence
   - rgbif

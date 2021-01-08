@@ -1,15 +1,12 @@
 ---
-title: "Phonetic Fieldwork and Experiments with the phonfieldwork Package for R"
-author: 
-  - George Moroz
-date: "2020-12-22"
+title: Phonetic Fieldwork and Experiments with the phonfieldwork Package for R
+author: George Moroz
+date: '2020-12-22'
 slug: phonfieldwork-phonetic-fieldwork-and-experiments
-categories:
-  - blog
+categories: blog
 tags:
   - Software Peer Review
   - packages
-  - R
   - linguistics
   - phonetics
   - sound analysis
@@ -18,7 +15,8 @@ tags:
   - lingtypology
   - community
 package_version: 0.0.10
-description: "phonfieldwork package provides a huge variety of tools that can be used by phonetic researchers in the field and in laboratories."
+description: phonfieldwork package provides a huge variety of tools that can be used
+  by phonetic researchers in the field and in laboratories.
 output:
   html_document:
     keep_md: yes

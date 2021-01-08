@@ -2,12 +2,10 @@
 slug: restez
 title: 'restez: Query GenBank locally'
 package_version: 1.0.0
-author:
-  - Dom Bennett
+author: Dom Bennett
 date: '2018-12-03'
 topicid: 1494
 tags:
-  - R
   - community
   - software
   - Software Peer Review

@@ -2,10 +2,8 @@
 slug: tutorials
 title: A new tutorials setup
 date: '2013-10-03'
-author:
-  - Scott Chamberlain
+author: Scott Chamberlain
 tags:
-  - R
   - help
 ---
 

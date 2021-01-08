@@ -2,12 +2,10 @@
 slug: rtika-introduction
 title: Lessons Learned from rtika, a Digital Babel Fish
 package_version: 0.1.7
-author:
-  - Sasha Goodman
+author: Sasha Goodman
 date: '2018-04-25'
 topicid: 1150
 tags:
-  - R
   - community
   - software
   - Software Peer Review

@@ -1,36 +1,21 @@
 ---
-slug: "rclean"
+slug: rclean
 title: Automatic Code Cleaning in R with Rclean
-# Delete the package_version line below if your post is not about a package
 package_version: 1.1.8
-author:
-  - M.K. Lau
-# Set the date below to the publication date of your post
-date: 2020-04-21
-# Minimal tags for a post about a community-contributed package 
-# that has passed software peer review are listed below
-# Consult the Technical Guidelines for information on choosing tags
+author: M.K. Lau
+date: '2020-04-21'
 tags:
   - Software Peer Review
   - packages
-  - R
   - community
   - reproducibility
   - transparency
   - clean code
   - Rclean
-# the summary below will be used by e.g. Twitter cards
-description: "Automatic isolation of code for reproducing results in R."
-# If you have no preferred image for Twitter cards,
-# delete the twitterImg line below 
-# Note there is no '/' symbol before 'img' here
-# if needed replace blog with technotes
-# twitterImg: blog/2019/06/04/post-template/name-of-image.png
-# 'output' is necessary to obtain index.md
-# Do not commit index.html
-output: 
+description: Automatic isolation of code for reproducing results in R.
+output:
   html_document:
-    keep_md: true
+    keep_md: yes
 ---
 
 

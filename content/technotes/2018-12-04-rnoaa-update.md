@@ -2,11 +2,9 @@
 slug: rnoaa-update
 title: 'rnoaa: new data sources and NCDC units'
 date: '2018-12-04'
-author:
-  - Scott Chamberlain
+author: Scott Chamberlain
 topicid: 1497
 tags:
-  - R
   - data
   - NOAA
   - rnoaa

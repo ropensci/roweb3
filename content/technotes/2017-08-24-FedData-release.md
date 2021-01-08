@@ -2,11 +2,9 @@
 slug: FedData-release
 title: FedData - Getting assorted geospatial data into R
 date: '2017-08-24'
-author:
-  - Kyle Bocinsky
+author: Kyle Bocinsky
 topicid: 840
 tags:
-  - R
   - data access
   - packages
   - spatial

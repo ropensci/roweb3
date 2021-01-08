@@ -1,14 +1,11 @@
 ---
 title: Searching medRxiv and bioRxiv Preprint Data
-author:
-  - Luke McGuinness
+author: Luke McGuinness
 date: '2020-10-20'
 slug: searching-medrxivr-and-biorxiv-preprint-data
-categories:
-  - blog
+categories: blog
 tags:
   - Software Peer Review
-  - R
   - community
   - packages
   - medrxivr
@@ -18,7 +15,8 @@ tags:
   - bibliographic-database
   - evidence-synthesis
 package_version: 0.0.3
-description: The medrxivr package allows users to import and search medRxiv and bioRxiv preprint metadata.
+description: The medrxivr package allows users to import and search medRxiv and bioRxiv
+  preprint metadata.
 output:
   html_document:
     keep_md: yes

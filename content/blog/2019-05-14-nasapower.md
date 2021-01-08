@@ -1,14 +1,11 @@
 ---
 slug: nasapower
-title: "POWER to the People"
+title: POWER to the People
 date: '2019-05-14'
-author:
-  - Adam Sparks
-package_version: 1.1.1
-  - blog
+author: Adam Sparks
+package_version: 1.1.1 - blog
 topicid: 1705
 tags:
-  - r
   - packages
   - data access
   - data
@@ -22,7 +19,6 @@ tags:
   - API client
   - NASA
   - Software Peer Review
-  - R
   - nasapower
 twitterImg: img/blog-images/2019-05-14-nasapower/logo.png
 ---

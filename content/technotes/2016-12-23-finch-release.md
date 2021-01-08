@@ -2,10 +2,8 @@
 slug: finch-release
 title: finch - parse Darwin Core files
 date: '2016-12-23'
-author:
-  - Scott Chamberlain
+author: Scott Chamberlain
 tags:
-  - R
   - biodiversity
   - GBIF
 ---

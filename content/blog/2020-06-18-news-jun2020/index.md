@@ -1,12 +1,10 @@
 ---
 title: 2 Months in 2 Minutes - rOpenSci News, June 2020
-author:
-  - Stefanie Butland
+author: Stefanie Butland
 date: '2020-06-18'
 slug: news-jun2020
 tags:
   - newsletter
-  - r
   - hugo
   - auk
   - bib2df
@@ -25,7 +23,9 @@ tags:
   - tidyhydat
   - tradestatistics
 description: Semi-monthly summary of the rOpenSci Newsletter, June 2020
-preface: "A semi-monthly summary of the [rOpenSci Newsletter](https://news.ropensci.org/) including software reviews, packages on CRAN, use cases, posts from staff and community, and events. April 27 to June 8, 2020"
+preface: A semi-monthly summary of the [rOpenSci Newsletter](https://news.ropensci.org/)
+  including software reviews, packages on CRAN, use cases, posts from staff and community,
+  and events. April 27 to June 8, 2020
 ---
 
 ## rOpenSci HQ

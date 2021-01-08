@@ -2,10 +2,8 @@
 slug: altmetrics-conf
 title: Altmetrics workshop recap
 date: '2013-10-15'
-author:
-  - Scott Chamberlain
+author: Scott Chamberlain
 tags:
-  - R
   - altmetrics
 ---
 

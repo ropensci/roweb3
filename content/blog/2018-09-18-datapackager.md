@@ -2,12 +2,10 @@
 slug: datapackager
 title: Building Reproducible Data Packages with DataPackageR
 pacakge_version: 0.15.3
-author:
-  - Greg Finak
+author: Greg Finak
 date: '2018-09-18'
 topicid: 1355
 tags:
-  - R
   - reproducibility
   - reproducible research
   - tidydata

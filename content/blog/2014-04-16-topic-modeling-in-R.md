@@ -1,11 +1,9 @@
 ---
 slug: topic-modeling-in-R
 title: Topic modeling in R
-author:
-  - Carson Sievert
+author: Carson Sievert
 date: '2014-04-16'
 tags:
-  - R
   - topic modeling
   - textmining
   - elife

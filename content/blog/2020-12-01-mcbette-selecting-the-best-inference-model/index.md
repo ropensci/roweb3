@@ -1,15 +1,12 @@
 ---
-title: 'Selecting the Best Phylogenetic Evolutionary Model'
-author:
-  - Richèl J.C. Bilderbeek
+title: Selecting the Best Phylogenetic Evolutionary Model
+author: Richèl J.C. Bilderbeek
 date: '2020-12-01'
 slug: mcbette-selecting-the-best-inference-model
-categories:
-  - blog
+categories: blog
 tags:
   - Software Peer Review
   - packages
-  - R
   - community
   - phylogenetics
   - Bayesian

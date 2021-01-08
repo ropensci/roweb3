@@ -2,10 +2,8 @@
 slug: rdefra-release-033
 title: Get air quality data for the United Kingdom using the rdefra package
 date: '2016-10-06'
-author:
-  - Claudia Vitolo
+author: Claudia Vitolo
 tags:
-  - R
   - rdefra
   - data access
   - earth science

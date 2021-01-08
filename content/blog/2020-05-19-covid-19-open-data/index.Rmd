@@ -1,6 +1,7 @@
 ---
-slug: "covid-19-open-data"
-title: When Field or Lab Work is not an Option - Leveraging Open Data Resources for Remote Research
+slug: covid-19-open-data
+title: When Field or Lab Work is not an Option - Leveraging Open Data Resources for
+  Remote Research
 author:
   - The rOpenSci Team
   - Brooke Anderson
@@ -13,21 +14,19 @@ author:
   - Ilaria Prosdocimi
   - Sam Albers
   - Claudia Vitolo
-featured: true
-date: 2020-05-19
+featured: yes
+date: '2020-05-19'
 tags:
   - packages
-  - R
   - community
   - reproducibility
   - data
   - data-access
   - open-data
-description: "Open data for your research when you can't get to the lab or field"
-# twitterImg: blog/2019/06/04/post-template/name-of-image.png
-output: 
+description: Open data for your research when you can't get to the lab or field
+output:
   html_document:
-    keep_md: true
+    keep_md: yes
 ---
 
 The COVID-19 pandemic has dramatically impacted all of our lives in a very short period of time. 

@@ -2,10 +2,8 @@
 slug: rgbif-genus
 title: Use case - how to get species occurrence data from GBIF for a genus
 date: '2013-04-12'
-author:
-  - Scott Chamberlain
+author: Scott Chamberlain
 tags:
-  - R
   - rgbif
   - API
 ---

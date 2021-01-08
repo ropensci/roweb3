@@ -2,12 +2,10 @@
 slug: ropensci-docs
 title: 'Updates to the rOpenSci image suite: magick, tesseract, and av'
 date: '2019-09-27'
-author:
-  - Jeroen Ooms
+author: Jeroen Ooms
 topicid: 1836
 cover: https://jeroen.github.io/images/channels.png
 tags:
-  - R
   - docs
   - packages
   - images

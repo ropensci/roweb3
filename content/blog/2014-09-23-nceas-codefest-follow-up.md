@@ -6,7 +6,6 @@ author:
   - Scott Chamberlain
   - Ted Hart
 tags:
-  - R
   - conference
 ---
 

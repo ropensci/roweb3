@@ -2,12 +2,10 @@
 slug: outcomerate
 title: 'outcomerate: Transparent Communication of Quality in Social Surveys'
 package_version: 1.0.1
-author:
-  - Rafael Pilliard Hellwig
+author: Rafael Pilliard Hellwig
 date: '2018-10-02'
 topicid: 1381
 tags:
-  - R
   - community
   - software
   - Software Peer Review

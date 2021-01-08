@@ -10,7 +10,6 @@ preface: This blog post is the second of a 3-post series about a data-driven ove
   and the first post about [data collection](/blog/2018/04/26/rectangling-onboarding/).
 topicid: 1160
 tags:
-  - R
   - community
   - software
   - Software Peer Review

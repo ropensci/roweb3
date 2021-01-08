@@ -1,12 +1,10 @@
 ---
 slug: ropensci-docs
-title: 'Introducing the new rOpenSci docs server'
+title: Introducing the new rOpenSci docs server
 date: '2019-06-07'
-author:
-  - Jeroen Ooms
+author: Jeroen Ooms
 topicid: 1729
 tags:
-  - R
   - docs
   - packages
 ---

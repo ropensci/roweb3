@@ -13,7 +13,6 @@ tags:
   - meetings
   - ozunconf
   - ozunconf17
-  - R
   - unconf
   - versioncontrol
 ---

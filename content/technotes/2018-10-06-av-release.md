@@ -3,10 +3,8 @@ slug: av-release
 title: 'The av Package: Production Quality Video in R'
 date: '2018-10-06'
 topicid: 1388
-author:
-  - Jeroen Ooms
+author: Jeroen Ooms
 tags:
-  - R
   - packages
   - gif
   - animation

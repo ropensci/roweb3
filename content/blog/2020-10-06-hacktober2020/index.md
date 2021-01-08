@@ -1,15 +1,12 @@
 ---
 title: Hacktober? Any Month is a Good Month to Contribute to rOpenSci
-author:
-  - Stefanie Butland
+author: Stefanie Butland
 date: '2020-10-06'
 slug: hacktober2020
 tags:
   - hacktoberfest
   - community
-  - R
 description: How to find and contribute to help wanted issues in rOpenSci packages
-# twitterImg: blog/2019/06/04/post-template/name-of-image.png
 ---
 
 The title of this post refers to Hacktoberfest, a month-long event organized annually by Digital Ocean to encourage contributions to open source projects on GitHub. 

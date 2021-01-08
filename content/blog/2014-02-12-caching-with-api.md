@@ -2,10 +2,8 @@
 slug: caching-with-api
 title: Caching Encyclopedia of Life API calls
 date: '2014-02-12'
-author:
-  - Scott Chamberlain
+author: Scott Chamberlain
 tags:
-  - R
   - API
   - EOL
 ---

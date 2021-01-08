@@ -1,18 +1,16 @@
 ---
-slug: "http-testing"
-title: "HTTP testing in R: overview of tools and new features"
-date: 2019-12-11
-author:
-  - Scott Chamberlain
+slug: http-testing
+title: 'HTTP testing in R: overview of tools and new features'
+date: '2019-12-11'
+author: Scott Chamberlain
 topicid: 1900
 tags:
-- R
-- API
-- http
-- testing
-- vcr
-- webmockr
-- mocking
+  - API
+  - http
+  - testing
+  - vcr
+  - webmockr
+  - mocking
 ---
 
 ```{r echo=FALSE}

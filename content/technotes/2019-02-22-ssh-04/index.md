@@ -1,12 +1,10 @@
 ---
 slug: ssh-04
-title: 'Bugfix release for the ssh package'
+title: Bugfix release for the ssh package
 date: '2019-02-22'
-author:
-  - Jeroen Ooms
+author: Jeroen Ooms
 topicid: 1577
 tags:
-  - R
   - ssh
   - packages
 ---

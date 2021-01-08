@@ -2,10 +2,8 @@
 slug: ambassadors-program
 title: Announcing our ambassadors program
 date: '2014-08-11'
-author:
-  - Karthik Ram
+author: Karthik Ram
 tags:
-  - R
   - community
 ---
 

@@ -2,11 +2,9 @@
 slug: isdparser-release
 title: Parse NOAA Integrated Surface Data Files
 date: '2016-11-03'
-author:
-  - Scott Chamberlain
+author: Scott Chamberlain
 tags:
   - climate
-  - R
 ---
 
 A new package [isdparser](https://cran.rstudio.com/web/packages/isdparser) is

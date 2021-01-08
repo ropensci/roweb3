@@ -1,14 +1,14 @@
 ---
-slug: "covidpreprints"
-title: "Covidpreprints.com: Automating Website Updates with the europepmc and rAltmetric Packages"
+slug: covidpreprints
+title: 'Covidpreprints.com: Automating Website Updates with the europepmc and rAltmetric
+  Packages'
 author:
   - Zhang-He Goh
   - Jonny Coates
   - Hugo Gruson
-date: 2020-10-13
+date: '2020-10-13'
 preface: Cross-posted with [preLights](https://prelights.biologists.com/news/covidpreprints-com-automating-website-updates-with-the-europepmc-and-raltmetric-packages/)
 tags:
-  - R
   - community
   - open-science
   - preprint
@@ -16,13 +16,13 @@ tags:
   - altmetrics
   - europepmc
   - rAltmetric
-featured: FALSE
-description: "rOpenSci's europepmc and rAltmetric packages are used to auto-update
-the covidpreprints.com daily."
+featured: no
+description: rOpenSci's europepmc and rAltmetric packages are used to auto-update
+  the covidpreprints.com daily.
 twitterImg: blog/2020/10/13/covidpreprints/graphical_abstract.png
-output: 
+output:
   html_document:
-    keep_md: true
+    keep_md: yes
 ---
 
 

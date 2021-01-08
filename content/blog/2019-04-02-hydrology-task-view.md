@@ -1,27 +1,26 @@
 ---
 slug: hydrology-task-view
-title: "Getting your toes wet in R: Hydrology, meteorology, and more"
+title: 'Getting your toes wet in R: Hydrology, meteorology, and more'
 author:
-- Sam Albers
-- Ilaria Prosdocimi
-- Sam Zipper
+  - Sam Albers
+  - Ilaria Prosdocimi
+  - Sam Zipper
 date: '2019-04-02'
 topicid: 1636
 tags:
-- hydrology
-- CRAN
-- bomrang
-- clifro
-- dbhydroR
-- GSODR
-- hddtools
-- hydroscoper
-- MODIStsp
-- rnoaa
-- smapr
-- tidyhydat
-- weathercan
-- r
+  - hydrology
+  - CRAN
+  - bomrang
+  - clifro
+  - dbhydroR
+  - GSODR
+  - hddtools
+  - hydroscoper
+  - MODIStsp
+  - rnoaa
+  - smapr
+  - tidyhydat
+  - weathercan
 ---
 
 

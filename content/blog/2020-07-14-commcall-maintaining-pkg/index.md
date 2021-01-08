@@ -6,7 +6,6 @@ author:
 date: '2020-07-14'
 slug: commcall-maintaining-pkg
 tags:
-  - r
   - community call
   - packages
   - maintenance

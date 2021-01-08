@@ -2,11 +2,9 @@
 slug: textworkshop17
 title: Text Analysis R Developers' Workshop 2017
 date: '2017-05-03'
-author:
-  - Ken Benoit
+author: Ken Benoit
 topicid: 689
 tags:
-  - R
   - text analysis
   - community
   - meetings

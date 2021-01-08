@@ -17,7 +17,6 @@ tags:
   - community
   - community call
   - events
-  - R
 ---
 
 Although there are increasing incentives and pressures for researchers to share code (even for projects that are not essentially computational), practices vary widely and standards are mostly non-existent. The practice of _reviewing_ code then falls to researchers and research groups before publication. With that in mind, rOpenSci hosted a [discussion thread](https://discuss.ropensci.org/t/how-do-you-review-code-that-accompanies-a-research-project-or-paper-help-ropensci-plan-a-community-call) and a [community call](/commcalls/2018-10-16/) to bring together different researchers for a conversation about current practices, and challenges in reviewing code in the lab.

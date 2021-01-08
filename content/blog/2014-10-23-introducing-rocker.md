@@ -6,7 +6,6 @@ author:
   - Dirk Eddelbuettel
 date: '2014-10-23'
 tags:
-  - R
   - reproducible research
 ---
 

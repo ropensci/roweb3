@@ -2,15 +2,13 @@
 slug: elasticsearch-client
 title: elastic - Elasticsearch for R
 date: '2017-08-02'
-author:
-  - Scott Chamberlain
+author: Scott Chamberlain
 topicid: 803
 tags:
   - data
   - elastic
   - elasticsearch
   - databases
-  - R
 ---
 
 

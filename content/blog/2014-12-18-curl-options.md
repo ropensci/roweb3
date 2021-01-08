@@ -2,10 +2,8 @@
 slug: curl-options
 title: Curling - exploring web request options
 date: '2014-12-18'
-author:
-  - Scott Chamberlain
+author: Scott Chamberlain
 tags:
-  - R
   - API
   - curl
 ---

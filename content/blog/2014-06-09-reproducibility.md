@@ -8,7 +8,6 @@ author:
   - Amy Zanne
   - Will Cornwell
 tags:
-  - R
   - reproducible research
   - archiving
   - open science

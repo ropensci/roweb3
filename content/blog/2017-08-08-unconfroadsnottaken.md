@@ -1,13 +1,11 @@
 ---
 slug: unconfroadsnottaken
-author:
-  - Noam Ross
+author: Noam Ross
 topicid: 814
 date: '2017-08-08'
 tags:
   - community
   - meetings
-  - R
   - software
   - unconf
   - unconf17

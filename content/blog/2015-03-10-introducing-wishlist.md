@@ -2,10 +2,8 @@
 slug: introducing-wishlist
 title: Introducing a Wishlist for Scientific R Packages
 date: '2015-03-10'
-author:
-  - Os Keyes
+author: Os Keyes
 tags:
-  - R
   - GitHub
 ---
 

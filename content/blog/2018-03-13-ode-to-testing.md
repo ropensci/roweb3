@@ -1,12 +1,10 @@
 ---
 slug: ode-to-testing
 title: An Ode to Testing, my first review
-author:
-  - Charles T. Gray
+author: Charles T. Gray
 date: '2018-03-13'
 topicid: 1093
 tags:
-  - R
   - beginner
   - community
   - software

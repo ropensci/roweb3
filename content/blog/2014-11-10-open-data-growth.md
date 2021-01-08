@@ -2,10 +2,8 @@
 slug: open-data-growth
 title: Growth of open data in biology
 date: '2014-11-10'
-author:
-  - Scott Chamberlain
+author: Scott Chamberlain
 tags:
-  - R
   - data
 ---
 
