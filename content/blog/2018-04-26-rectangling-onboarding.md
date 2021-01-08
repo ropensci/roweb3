@@ -1,14 +1,12 @@
 ---
 slug: rectangling-onboarding
 title: Rectangling onboarding
-author:
-  - Maëlle Salmon
+author: Maëlle Salmon
 date: '2018-04-26'
 preface: This blog post is the first of a 3-post series about a data-driven overview
   of rOpenSci onboarding. Read the [intro to the series](/blog/2018/04/26/a-satrday-ct-series/).
 topicid: 1152
 tags:
-  - R
   - community
   - software
   - Software Peer Review

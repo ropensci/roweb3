@@ -1,6 +1,6 @@
 ---
-slug: "ramlegacy"
-title: "ramlegacy: a package for RAM Legacy Database"
+slug: ramlegacy
+title: 'ramlegacy: a package for RAM Legacy Database'
 package_version: 0.2.0
 author:
   - Kshitiz Gupta
@@ -8,17 +8,16 @@ author:
 date: '2019-05-28'
 topicid: 1715
 tags:
-- Software Peer Review
-- R
-- community
-- software
-- packages
-- ramlegacy
-- marine biology
-- fisheries
-- stock assessment
-- data access
-- biodiversity
+  - Software Peer Review
+  - community
+  - software
+  - packages
+  - ramlegacy
+  - marine biology
+  - fisheries
+  - stock assessment
+  - data access
+  - biodiversity
 ---
 
 ## Introduction

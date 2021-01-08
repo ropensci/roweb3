@@ -1,15 +1,13 @@
 ---
-slug: "cran-checks-api-update"
-title: "cran checks API: an update"
-date: 2019-10-09
-author:
-  - Scott Chamberlain
+slug: cran-checks-api-update
+title: 'cran checks API: an update'
+date: '2019-10-09'
+author: Scott Chamberlain
 topicid: 1851
 tags:
-- R
-- API
-- cran
-- infrastructure
+  - API
+  - cran
+  - infrastructure
 ---
 
 If you have an R package on CRAN, you probably know about CRAN checks. Each package on CRAN, that is not archived on CRAN[^1], has a checks page, like this one for `ropenaq`:

@@ -2,11 +2,9 @@
 slug: ropensci_text_tools
 title: New rOpenSci Packages for Text Processing in R
 date: '2017-06-13'
-author:
-  - Jeroen Ooms
+author: Jeroen Ooms
 topicid: 746
 tags:
-  - R
   - packages
   - software
   - open data

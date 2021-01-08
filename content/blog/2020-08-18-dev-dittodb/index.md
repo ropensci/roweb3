@@ -1,21 +1,20 @@
 ---
-slug: "dev-dittodb"
+slug: dev-dittodb
 title: Developing dittodb
 package_version: 0.1.1
-author:
-  - Jonathan Keane
-date: 2020-08-18
+author: Jonathan Keane
+date: '2020-08-18'
 tags:
   - Software Peer Review
   - packages
-  - R
   - community
   - testing
   - databases
   - SQL
   - dittodb
-description: "A peak behind the scenes of making dittodb, a package that makes testing database interactions quick, easy, and fun"
-featured: false
+description: A peak behind the scenes of making dittodb, a package that makes testing
+  database interactions quick, easy, and fun
+featured: no
 ---
 
 This post describes a few different aspects behind the scenes of the development of [dittodb](https://dittodb.jonkeane.com) which [recently went through](https://github.com/ropensci/software-review/issues/366) the [rOpenSci peer review process](/software-review/) and was [released to CRAN on 24 July 2020](https://jonkeane.com/blog/introducing_dittodb/).

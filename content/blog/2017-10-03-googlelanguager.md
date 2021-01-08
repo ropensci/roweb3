@@ -2,12 +2,10 @@
 slug: googlelanguager
 title: googleLanguageR - Analysing language through the Google Cloud Machine Learning
   APIs
-author:
-  - Mark Edmondson
+author: Mark Edmondson
 date: '2017-10-03'
 topicid: 904
 tags:
-  - R
   - API
   - packages
   - textmining

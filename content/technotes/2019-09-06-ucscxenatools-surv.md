@@ -1,13 +1,12 @@
 ---
 slug: ucscxenatools-surv
-title: 'UCSCXenaTools: Retrieve Gene Expression and Clinical Information from UCSC Xena for Survival Analysis'
+title: 'UCSCXenaTools: Retrieve Gene Expression and Clinical Information from UCSC
+  Xena for Survival Analysis'
 package_version: 1.2.5
-author:
-  - Shixiang Wang
+author: Shixiang Wang
 date: '2019-09-06'
 topicid: 1822
 tags:
-  - R
   - community
   - software
   - Software Peer Review

@@ -10,7 +10,6 @@ date: '2019-01-22'
 topicid: 1553
 tags:
   - Software Peer Review
-  - R
   - packages
   - water
   - data access

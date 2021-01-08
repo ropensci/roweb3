@@ -1,12 +1,10 @@
 ---
 title: 2 Months in 2 Minutes - rOpenSci News, August 2020
-author:
-  - Stefanie Butland
+author: Stefanie Butland
 date: '2020-08-20'
 slug: news-aug2020
 tags:
   - newsletter
-  - r
   - av
   - chirps
   - dittodb
@@ -20,7 +18,9 @@ tags:
   - webmockr
   - vcr
 description: Semi-monthly summary of the rOpenSci Newsletter, August 2020
-preface: "A semi-monthly summary of the [rOpenSci Newsletter](https://news.ropensci.org/) including software reviews, packages on CRAN, use cases, posts from staff and community, and events. June 22 to August 17, 2020"
+preface: A semi-monthly summary of the [rOpenSci Newsletter](https://news.ropensci.org/)
+  including software reviews, packages on CRAN, use cases, posts from staff and community,
+  and events. June 22 to August 17, 2020
 ---
 
 ## rOpenSci HQ

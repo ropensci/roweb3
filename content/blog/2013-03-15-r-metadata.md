@@ -2,10 +2,8 @@
 slug: r-metadata
 title: Scholarly metadata in R
 date: '2013-03-15'
-author:
-  - Scott Chamberlain
+author: Scott Chamberlain
 tags:
-  - R
   - metadata
   - API
 ---

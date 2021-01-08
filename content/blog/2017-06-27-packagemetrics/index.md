@@ -13,7 +13,6 @@ date: '2017-06-27'
 tags:
   - community
   - meetings
-  - R
   - software
   - unconf
   - unconf17

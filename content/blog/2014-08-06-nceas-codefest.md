@@ -2,10 +2,8 @@
 slug: nceas-codefest
 title: NCEAS Codefest
 date: '2014-08-06'
-author:
-  - Scott Chamberlain
+author: Scott Chamberlain
 tags:
-  - R
   - conference
 ---
 

@@ -2,12 +2,10 @@
 slug: tidyhydat
 title: 5 Things I Learned Making a Package to Work with Hydrometric Data in R
 package_version: 0.3.2
-author:
-  - Sam Albers
+author: Sam Albers
 date: '2018-01-16'
 topicid: 1030
 tags:
-  - R
   - community
   - software
   - Software Peer Review

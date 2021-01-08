@@ -2,10 +2,8 @@
 slug: ecoengine
 title: Introducing the ecoengine package
 date: '2014-01-30'
-author:
-  - Karthik Ram
+author: Karthik Ram
 tags:
-  - R
   - taxonomy
   - museums
   - biodiversity

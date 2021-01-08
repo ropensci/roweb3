@@ -2,10 +2,8 @@
 slug: style-geojson
 title: Style GeoJSON
 date: '2013-07-17'
-author:
-  - Scott Chamberlain
+author: Scott Chamberlain
 tags:
-  - R
   - API
   - geojson
   - json

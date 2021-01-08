@@ -19,7 +19,6 @@ tags:
   - reproducible research
   - TrIAS
   - Ebbe Nielsen Challenge
-  - R
 ---
 
 Imagine you are a fish ecologist who compiled a list of fish species for your country. 🐟

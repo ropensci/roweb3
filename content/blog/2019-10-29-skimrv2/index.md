@@ -1,16 +1,15 @@
 ---
 slug: skimrv2
-title: "(Re)introducing skimr v2 - A year in the life of an open source R project"
-subtitle: "A year in the life of an open source R project"
+title: (Re)introducing skimr v2 - A year in the life of an open source R project
+subtitle: A year in the life of an open source R project
 package_version: 2.0
 author:
   - Michael Quinn
   - Elin Waring
-date: 2019-10-29
+date: '2019-10-29'
 topicid: 1859
 tags:
   - software peer review
-  - R
   - packages
   - community
   - skimr

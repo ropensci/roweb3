@@ -1,6 +1,7 @@
 ---
-title: Using Open-Access Tools (rentrez, taxize) to Find Coronaviruses, Their Genetic Sequences, and Their Hosts
-author: "Liam Brierley"
+title: Using Open-Access Tools (rentrez, taxize) to Find Coronaviruses, Their Genetic
+  Sequences, and Their Hosts
+author: Liam Brierley
 date: '2020-11-10'
 output:
   html_document:
@@ -8,20 +9,20 @@ output:
   pdf_document: default
 slug: coronaviruses-and-hosts
 tags:
-- R
-- community
-- packages
-- taxonomy
-- taxize
-- epidemiology
-- biology
-- bioinformatics
-- rentrez
-- genbank
-- genetics
-- sars-cov-2
-- covid-19
-description: Together, the packages rentrez and taxize can extract standardised data on viruses and their hosts from genetic records.
+  - community
+  - packages
+  - taxonomy
+  - taxize
+  - epidemiology
+  - biology
+  - bioinformatics
+  - rentrez
+  - genbank
+  - genetics
+  - sars-cov-2
+  - covid-19
+description: Together, the packages rentrez and taxize can extract standardised data
+  on viruses and their hosts from genetic records.
 ---
 ```{r setup, include=FALSE}
 # Options to have images saved in the post folder

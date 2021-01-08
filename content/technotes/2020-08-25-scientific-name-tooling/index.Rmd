@@ -1,20 +1,18 @@
 ---
-slug: "scientific-name-parsing"
-title: "Scientific Name Parsing: rgnparser and namext"
-date: 2020-08-25
-author:
-  - Scott Chamberlain
+slug: scientific-name-parsing
+title: 'Scientific Name Parsing: rgnparser and namext'
+date: '2020-08-25'
+author: Scott Chamberlain
 description: R tools for scientific names.
 tags:
   - taxonomy
   - scientific
-  - R
   - golang
   - namext
   - rgnparser
-output: 
+output:
   html_document:
-    keep_md: true
+    keep_md: yes
 ---
 
 ```{r echo=FALSE}

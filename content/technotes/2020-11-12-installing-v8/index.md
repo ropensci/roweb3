@@ -1,11 +1,9 @@
 ---
 slug: installing-v8
-title: 'Installing V8 is now even easier'
+title: Installing V8 is now even easier
 date: '2020-11-12'
-author:
-  - Jeroen Ooms
+author: Jeroen Ooms
 tags:
-  - R
   - V8
   - Linux
 ---

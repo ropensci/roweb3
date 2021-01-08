@@ -1,12 +1,10 @@
 ---
 slug: drake-700
-title: "drake transformed"
-date: 2019-03-18
-author:
-  - Will Landau
+title: drake transformed
+date: '2019-03-18'
+author: Will Landau
 topicic: 1621
 tags:
-  - R
   - packages
   - drake
   - reproducibility

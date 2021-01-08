@@ -2,11 +2,9 @@
 slug: nodbi
 title: 'nodbi: the NoSQL Database Connector'
 date: '2018-01-25'
-author:
-  - Scott Chamberlain
+author: Scott Chamberlain
 topicid: ~
 tags:
-  - R
   - databases
   - couchdb
   - mongo

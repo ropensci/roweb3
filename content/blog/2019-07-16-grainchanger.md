@@ -2,23 +2,18 @@
 slug: grainchanger
 title: Aggregating spatial data with the grainchanger package
 package_version: 0.2.0
-author:
-  - Laura Graham
-date: 2019-07-16
+author: Laura Graham
+date: '2019-07-16'
 topicid: 1772
 tags:
-- Software Peer Review
-- R
-- community
-- spatial
-- data-munging
-# delete the line below
-# if you have no preferred image
-# for Twitter cards
+  - Software Peer Review
+  - community
+  - spatial
+  - data-munging
 twitterImg: img/blog-images/2019-07-16-grainchanger/logo.png
-output: 
+output:
   html_document:
-    keep_md: true
+    keep_md: yes
 ---
 
 

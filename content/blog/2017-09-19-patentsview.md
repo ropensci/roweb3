@@ -1,12 +1,10 @@
 ---
 title: Accessing patent data with the patentsview package
 slug: patentsview
-author:
-  - Chris Baker
+author: Chris Baker
 date: '2017-09-19'
 topicid: 873
 tags:
-  - R
   - Patents
   - PatentsView
   - packages

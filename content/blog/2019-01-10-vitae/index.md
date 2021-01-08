@@ -1,12 +1,10 @@
 ---
 slug: vitae
 title: 'vitae: Dynamic CVs with R Markdown'
-author:
-  - Mitchell O'Hara-Wild
+author: Mitchell O'Hara-Wild
 date: '2019-01-10'
 topicid: 1543
 tags:
-  - R
   - vitae
   - CV
   - resume

@@ -11,7 +11,6 @@ author:
   - Kelly O'Briant
 topicid: 1060
 tags:
-  - R
   - community
   - interviews
   - rprofile

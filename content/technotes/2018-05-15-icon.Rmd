@@ -8,7 +8,6 @@ date: '2018-05-15'
 output: ~
 topicid: 1173
 tags:
-  - R
   - icon
   - web
   - R Markdown

@@ -2,12 +2,10 @@
 slug: rentrez paper
 title: A rentrez paper, and how to use the NCBI's new API keys
 package_version: 1.2.1
-author:
-  - David Winter
+author: David Winter
 date: '2018-03-20'
 topicid: 1103
 tags:
-  - R
   - community
   - software
   - NCBI

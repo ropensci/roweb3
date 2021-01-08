@@ -1,28 +1,18 @@
 ---
-slug: "mapscanner"
+slug: mapscanner
 title: Rectifying Hand-Drawn Marks on Maps With the mapscanner Package
 package_version: 0.0.3
-author:
-  - Mark Padgham
-# Set the date below to the publication date of your post
-date: 2020-09-29
-# Minimal tags for a post about a community-contributed package 
-# that has passed software peer review are listed below
-# Consult the Technical Guidelines for information on choosing other tags
+author: Mark Padgham
+date: '2020-09-29'
 tags:
   - Software Peer Review
   - packages
-  - R
   - mapscanner
   - spatial
   - maps
-  - survey  
-# The summary below will be used by e.g. Twitter cards
-description: "The mapscanner package enables lines drawn by hand on maps to be converted to spatial objects"
-# If you have no preferred image for Twitter cards, 
-# delete the twitterImg line below
-# Note there is no '/' symbol before 'img' here
-# if needed replace blog with technotes
+  - survey
+description: The mapscanner package enables lines drawn by hand on maps to be converted
+  to spatial objects
 twitterImg: blog/2020/09/29/mapscanner/poly-aggr-plot.png
 ---
 

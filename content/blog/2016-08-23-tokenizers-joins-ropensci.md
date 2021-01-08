@@ -2,10 +2,8 @@
 slug: tokenizers-joins-ropensci
 title: New package tokenizers joins rOpenSci
 date: '2016-08-23'
-author:
-  - Lincoln Mullen
+author: Lincoln Mullen
 tags:
-  - R
   - natural language
   - text analysis
   - packages

@@ -1,11 +1,9 @@
 ---
 slug: github-pat
-title: 'A better way to manage your Github personal access tokens'
+title: A better way to manage your Github personal access tokens
 date: '2020-07-07'
-author:
-  - Jeroen Ooms
+author: Jeroen Ooms
 tags:
-  - R
   - package
   - gert
   - credentials

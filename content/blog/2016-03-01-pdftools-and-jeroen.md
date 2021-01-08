@@ -2,10 +2,8 @@
 slug: pdftools-and-jeroen
 title: Introducing pdftools - A fast and portable PDF extractor
 date: '2016-03-01'
-author:
-  - Jeroen Ooms
+author: Jeroen Ooms
 tags:
-  - R
   - PDF
   - CRAN
   - pdftools

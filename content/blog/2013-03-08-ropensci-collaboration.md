@@ -2,10 +2,8 @@
 slug: ropensci-collaboration
 title: Visualizing rOpenSci collaboration
 date: '2013-03-08'
-author:
-  - Scott Chamberlain
+author: Scott Chamberlain
 tags:
-  - R
   - GitHub
   - API
 ---

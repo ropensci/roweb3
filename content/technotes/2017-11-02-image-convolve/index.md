@@ -7,7 +7,6 @@ author:
   - Thomas Lin Pedersen
 topicid: 941
 tags:
-  - R
   - packages
   - magick
   - images

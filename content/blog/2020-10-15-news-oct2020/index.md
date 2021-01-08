@@ -1,16 +1,14 @@
 ---
 title: 2 Months in 2 Minutes - rOpenSci News, October 2020
-author:
-  - Stefanie Butland
+author: Stefanie Butland
 date: '2020-10-15'
 slug: news-oct2020
 tags:
   - newsletter
-  - r
   - citecorp
   - dittodb
   - europepmc
-  - fulltext  
+  - fulltext
   - magick
   - mapscanner
   - mcbette
@@ -27,7 +25,9 @@ tags:
   - treedata.table
   - roadoi
 description: Semi-monthly summary of the rOpenSci Newsletter, October 2020
-preface: "A semi-monthly summary of the [rOpenSci Newsletter](https://news.ropensci.org/) including software reviews, packages on CRAN, use cases, posts from staff and community, and events. September 1 to October 12, 2020"
+preface: A semi-monthly summary of the [rOpenSci Newsletter](https://news.ropensci.org/)
+  including software reviews, packages on CRAN, use cases, posts from staff and community,
+  and events. September 1 to October 12, 2020
 ---
 
 ## rOpenSci HQ

@@ -1,29 +1,21 @@
 ---
-slug: "tic-ghactions"
+slug: tic-ghactions
 title: Supercharge your GitHub Actions Experience with tic
-# Delete the package_version line below if your post is not about a package
 package_version: 0.5.0
-author:
-  - Patrick Schratz
-# Set the date below to the publication date of your post
-date: 2020-03-13
-# Set categories to technotes if this is a tech note
+author: Patrick Schratz
+date: '2020-03-13'
 categories: technotes
-# Leave topicid blank below; will be set by editor
-topicid:
-# Minimal tags for a post about a community-contributed package 
-# that has passed software peer review are listed below
-# Consult the Technical Guidelines for information on choosing other tags
+topicid: ~
 tags:
-  - R
   - GitHub
   - GitHub Actions
   - Continuous Integration
   - software-peer-review
   - tic
   - community
-# The summary below will be used by e.g. Twitter cards
-description: "tic simplifies CI tasks for R projects and now provides supercharged support for GitHub Actions. By enhancing the good work of [r-lib/actions](https://github.com/r-lib/actions) tic provides a DSL for R for CI tasks."
+description: tic simplifies CI tasks for R projects and now provides supercharged
+  support for GitHub Actions. By enhancing the good work of [r-lib/actions](https://github.com/r-lib/actions)
+  tic provides a DSL for R for CI tasks.
 ---
 
 ["Continuous Integration"](https://en.wikipedia.org/wiki/Continuous_integration) (CI) has become a standard for proper software development.

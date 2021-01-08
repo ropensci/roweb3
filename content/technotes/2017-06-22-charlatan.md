@@ -2,13 +2,11 @@
 slug: charlatan
 title: All the fake data that's fit to print
 date: '2017-06-22'
-author:
-  - Scott Chamberlain
+author: Scott Chamberlain
 topicid: 754
 tags:
   - data
   - datasets
-  - R
 ---
 
 > **charlatan** makes fake data.

@@ -2,13 +2,11 @@
 slug: commonmark
 title: High Performance CommonMark and Github Markdown Rendering in R
 date: '2016-12-02'
-author:
-  - Jeroen Ooms
+author: Jeroen Ooms
 tags:
   - packages
   - commonmark
   - Markdown
-  - R
 ---
 
 This week the folks at Github have open sourced their [fork](https://github.com/github/cmark) of libcmark (based on the extensive [PR by Mathieu Duponchelle](https://github.com/jgm/cmark/pull/123)), which they use to render markdown text within documents, issues, comments and anything else on the Github website. The new release of the [commonmark](https://cran.r-project.org/web/packages/commonmark/index.html) R package incorporates this library so that we can take advantage of Github quality markdown rendering in R.

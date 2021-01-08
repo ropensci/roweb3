@@ -1,24 +1,22 @@
 ---
-slug: "opentripplanner"
-title: "opentripplanner: Fast and Easy Multimodal Trip Planning in R with OpenTripPlanner"
+slug: opentripplanner
+title: 'opentripplanner: Fast and Easy Multimodal Trip Planning in R with OpenTripPlanner'
 package_version: 0.2.0
-date: 2020-02-25
-author:
-  - Malcolm Morgan
+date: '2020-02-25'
+author: Malcolm Morgan
 topicid: 1966
 tags:
-- R
-- packages
-- transport
-- spatial
-- geospatial
-- routing
-- community
-- opentripplanner
-- Software Peer Review
-output: 
+  - packages
+  - transport
+  - spatial
+  - geospatial
+  - routing
+  - community
+  - opentripplanner
+  - Software Peer Review
+output:
   html_document:
-    keep_md: true
+    keep_md: yes
 ---
 
 

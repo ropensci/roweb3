@@ -1,27 +1,22 @@
 ---
 slug: forensic-science
-title: "Introducing Open Forensic Science in R"
-#package_version: 0.1.0
-author:
-  - Sam Tyner
-date: 2019-08-20
+title: Introducing Open Forensic Science in R
+author: Sam Tyner
+date: '2019-08-20'
 topicid: 1805
-preface: This work was funded by a [2018 rOpenSci Research Fellowship](/blog/2018/02/14/announcing-2018-ropensci-fellows/) to Sam Tyner. See the [related post](https://forensicstats.org/news-posts/discover-forensic-applications-of-the-statistical-language-r-in-new-csafe-book) from the Center for Statistics and Applications in Forensic Evidence (CSAFE).
+preface: This work was funded by a [2018 rOpenSci Research Fellowship](/blog/2018/02/14/announcing-2018-ropensci-fellows/)
+  to Sam Tyner. See the [related post](https://forensicstats.org/news-posts/discover-forensic-applications-of-the-statistical-language-r-in-new-csafe-book)
+  from the Center for Statistics and Applications in Forensic Evidence (CSAFE).
 tags:
-- R
-- Open Science
-- Fellowships
-- Open Source
-- Open Data
-- Forensic Science
-# delete the line below
-# if you have no preferred image
-# for Twitter cards
-# bibliography: blog.bib
+  - Open Science
+  - Fellowships
+  - Open Source
+  - Open Data
+  - Forensic Science
 twitterImg: img/blog-images/2019-08-20-forensic-science/openforscir-hex.png
-output: 
+output:
   html_document:
-    keep_md: true
+    keep_md: yes
 ---
 The free online book [*Open Forensic Science in R*](https://sctyner.github.io/OpenForSciR/) was created to foster open science practices in the forensic science community. It is comprised of eight chapters: an introduction and seven chapters covering different areas of forensic science: the validation of DNA interpretation systems, firearms analysis of bullets and casings, latent fingerprints, shoe outsole impressions, trace glass evidence, and decision-making in forensic identification tasks. The chapters of *Open Forensic Science in R* have the same five sections: Introduction, Data, R Package(s), Drawing Conclusions, and Case Study. There is R code throughout the chapter to guide the reader along in an analysis, and the case study walks the reader through solving a forensic science problem in R, from reading the data to answering a specific question such as, "Were these two bullets fired by the same gun?" 
 

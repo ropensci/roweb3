@@ -1,18 +1,16 @@
 ---
-slug: "vcr-release"
-title: "HTTP Testing With the Newest Release of vcr"
-date: 2020-12-18
-author:
-  - Scott Chamberlain
+slug: vcr-release
+title: HTTP Testing With the Newest Release of vcr
+date: '2020-12-18'
+author: Scott Chamberlain
 description: Lots of change in the latest vcr release.
 tags:
   - http
   - testing
   - vcr
-  - R
-output: 
+output:
   html_document:
-    keep_md: true
+    keep_md: yes
 ---
 
 A new version of [vcr][] was just released. See the [release notes](https://github.com/ropensci/vcr/releases/tag/v0.6.0) for all the details. I want to highlight a few of the more notable changes. 

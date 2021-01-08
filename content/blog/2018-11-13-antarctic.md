@@ -10,7 +10,6 @@ date: '2018-11-13'
 topicid: 1451
 twitterImg: img/blog-images/2018-11-13-antarctic/plotanim-1.gif
 tags:
-  - R
   - community
   - Antarctic
   - Southern Ocean

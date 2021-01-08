@@ -1,13 +1,11 @@
 ---
 slug: icon
 title: 'icon: web icons for rmarkdown'
-author:
-  - Mitchell O'Hara-Wild
+author: Mitchell O'Hara-Wild
 date: '2018-05-15'
 output: ~
 topicid: 1173
 tags:
-  - R
   - icon
   - web
   - R Markdown

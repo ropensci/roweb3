@@ -1,16 +1,14 @@
 ---
-slug: "software-peer-review-guidelines-for-teaching"
+slug: software-peer-review-guidelines-for-teaching
 title: Using rOpenSci Software Peer Review Guidelines for Teaching
-author:
-  - Tiffany Timbers
-date: 2019-08-27
+author: Tiffany Timbers
+date: '2019-08-27'
 topicid: 1813
 tags:
-- Software Peer Review
-- R
-- software
-- teaching
-- education
+  - Software Peer Review
+  - software
+  - teaching
+  - education
 ---
 
 ### Teaching collaborative software development

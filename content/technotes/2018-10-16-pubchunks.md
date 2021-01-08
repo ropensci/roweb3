@@ -2,11 +2,9 @@
 slug: pubchunks
 title: 'pubchunks: extract parts of scholarly XML articles'
 date: '2018-10-16'
-author:
-  - Scott Chamberlain
+author: Scott Chamberlain
 topicid: 1415
 tags:
-  - R
   - literature
   - XML
   - parsing

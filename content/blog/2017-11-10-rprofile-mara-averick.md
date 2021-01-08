@@ -6,11 +6,9 @@ preface: In this occasional series, we interview someone using a loosely defined
   of interview questions for the purpose of “demystifying the creative and development
   processes of R community members”. This interview was conducted and prepared by
   Kelly O'Briant as part of an rOpenSci unconf17 project.
-author:
-  - Kelly O'Briant
+author: Kelly O'Briant
 topicid: 955
 tags:
-  - R
   - community
   - interviews
   - rprofile

@@ -2,12 +2,10 @@
 slug: hydroscoper
 title: ὕδωρ + σκοπῶ = water + observe
 package_version: 1.0.0
-author:
-  - Konstantinos Vantas
+author: Konstantinos Vantas
 date: '2018-04-03'
 topicid: 1130
 tags:
-  - R
   - community
   - software
   - Software Peer Review

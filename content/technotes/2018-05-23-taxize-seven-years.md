@@ -2,11 +2,9 @@
 slug: taxize-seven-years
 title: 'taxize: seven years of taxonomy in R'
 date: '2018-05-23'
-author:
-  - Scott Chamberlain
+author: Scott Chamberlain
 topicid: 1181
 tags:
-  - R
   - taxonomy
   - taxize
   - taxizedb

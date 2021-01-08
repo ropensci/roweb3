@@ -2,12 +2,10 @@
 slug: magick-knitr
 title: Using Magick with RMarkdown and Shiny
 date: '2017-11-07'
-author:
-  - Jeroen Ooms
+author: Jeroen Ooms
 cover: tTFk7ig.jpg
 topicid: 947
 tags:
-  - R
   - packages
   - magick
   - images

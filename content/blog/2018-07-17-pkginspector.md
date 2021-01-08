@@ -15,7 +15,6 @@ date: '2018-07-17'
 topicid: 1262
 tags:
   - community
-  - R
   - Software Peer Review
   - packages
   - unconf

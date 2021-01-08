@@ -2,11 +2,9 @@
 slug: taxonomy-suite
 title: The rOpenSci Taxonomy Suite
 date: '2017-07-27'
-author:
-  - Scott Chamberlain
+author: Scott Chamberlain
 topicid: 796
 tags:
-  - R
   - taxonomy
   - software
   - packages

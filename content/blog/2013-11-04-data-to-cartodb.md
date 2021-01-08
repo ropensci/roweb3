@@ -2,10 +2,8 @@
 slug: data-to-cartodb
 title: Species occurrence data to CartoDB
 date: '2013-11-04'
-author:
-  - Scott Chamberlain
+author: Scott Chamberlain
 tags:
-  - R
   - rgbif
   - API
   - cartodb

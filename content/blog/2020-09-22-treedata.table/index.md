@@ -1,23 +1,23 @@
 ---
-slug: "treedata.table"
+slug: treedata.table
 title: The treedata.table Package
 package_version: 0.1.1
 author:
   - April Wright
   - Cristian Román-Palacios
   - Josef Uyeda
-date: 2020-09-22
+date: '2020-09-22'
 tags:
   - Software Peer Review
   - packages
-  - R
   - phylogenetics
   - comparative
   - biology
   - workshops
   - treedata.table
   - community
-description: "A look at treedata.table, a package for working efficiently with phylogenetic trees and data"
+description: A look at treedata.table, a package for working efficiently with phylogenetic
+  trees and data
 ---
 
 The [data.table](http://r-datatable.com/) package enables high-performance extended functionality for data tables in R. [treedata.table](https://ropensci.github.io/treedata.table/) is a wrapper

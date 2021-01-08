@@ -2,10 +2,8 @@
 slug: open-science-with-R
 title: Open Science with R
 date: '2013-12-02'
-author:
-  - Karthik Ram
+author: Karthik Ram
 tags:
-  - R
   - book
   - reproducible research
   - open science

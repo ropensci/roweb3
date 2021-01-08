@@ -2,10 +2,8 @@
 slug: taxize-changes
 title: taxize changes
 date: '2013-11-19'
-author:
-  - Scott Chamberlain
+author: Scott Chamberlain
 tags:
-  - R
   - taxonomy
   - API
 ---

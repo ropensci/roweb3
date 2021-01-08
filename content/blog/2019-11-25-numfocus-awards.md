@@ -1,14 +1,13 @@
 ---
 slug: numfocus-awards
-title: NumFOCUS recognizes Melina Vidoni and Will Landau for their contributions to rOpenSci
-author:
-  - Stefanie Butland
-date: 2019-11-25
+title: NumFOCUS recognizes Melina Vidoni and Will Landau for their contributions to
+  rOpenSci
+author: Stefanie Butland
+date: '2019-11-25'
 topicid: 1885
-featured: true
+featured: yes
 tags:
-- R
-- community
+  - community
 twitterImg: img/blog-images/2019-11-25-numfocus-awards/nf-awards.png
 ---
 rOpenSci thrives because of volunteer contributions from community members - submitting and reviewing R packages, serving as editors for software peer review, writing blog posts, sharing information about packages and resources, contributing code and documentation and answering others' questions. Recently our fiscal sponsor, NumFOCUS, gave us an opportunity to nominate two contributors for recognition at the NumFOCUS annual summit. Sometimes all we can do is publicly express our gratitude for the people who help make our software robust and sustainable, and make our community a welcoming place that adds value to people's experiences.

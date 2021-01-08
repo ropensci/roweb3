@@ -1,12 +1,10 @@
 ---
 slug: av-audio
-title: 'Working with audio in R using av'
+title: Working with audio in R using av
 date: '2020-02-03'
-author:
-  - Jeroen Ooms
+author: Jeroen Ooms
 cover: https://docs.ropensci.org/av/reference/read_audio-1.png
 tags:
-  - R
   - docs
   - packages
   - audio

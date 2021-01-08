@@ -7,7 +7,6 @@ author:
   - - - - - name: Evan Odell
             url: https://github.com/evanodell
 tags:
-  - R
   - community
   - software
   - Software Peer Review

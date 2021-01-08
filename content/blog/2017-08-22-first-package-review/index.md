@@ -2,11 +2,9 @@
 slug: first-package-review
 title: So you (don't) think you can review a package
 date: '2017-08-22'
-author:
-  - Mara Averick
+author: Mara Averick
 topicid: 838
 tags:
-  - R
   - Software Peer Review
   - reviewer
   - visdat

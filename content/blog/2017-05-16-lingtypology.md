@@ -2,12 +2,10 @@
 slug: lingtypology
 title: Easy linguistic mapping with lingtypology
 package_version: 1.0.4
-author:
-  - George Moroz
+author: George Moroz
 date: '2017-05-16'
 topicid: 721
 tags:
-  - R
   - lingtypology
   - linguistic mapping
   - clld

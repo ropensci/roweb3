@@ -2,10 +2,8 @@
 slug: caching-offline
 title: Caching API calls offline
 date: '2014-02-03'
-author:
-  - Scott Chamberlain
+author: Scott Chamberlain
 tags:
-  - R
   - API
 ---
 

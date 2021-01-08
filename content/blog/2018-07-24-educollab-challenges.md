@@ -20,7 +20,6 @@ author:
   - Lincoln Mullen
 topicid: 1269
 tags:
-  - R
   - community
   - meetings
   - unconf

@@ -2,10 +2,8 @@
 slug: altmetrics
 title: Consuming article-level metrics
 date: '2013-08-01'
-author:
-  - Scott Chamberlain
+author: Scott Chamberlain
 tags:
-  - R
   - altmetrics
   - PLOS
 ---

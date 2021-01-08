@@ -2,10 +2,8 @@
 slug: dvn-dataverse-network
 title: dvn - Sharing Reproducible Research from R
 date: '2014-02-20'
-author:
-  - Thomas J. Leeper
+author: Thomas J. Leeper
 tags:
-  - R
   - API
   - reproducible research
   - data

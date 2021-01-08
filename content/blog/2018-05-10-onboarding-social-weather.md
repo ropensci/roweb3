@@ -1,8 +1,7 @@
 ---
 slug: onboarding-social-weather
 title: The social weather of rOpenSci onboarding system
-author:
-  - Maëlle Salmon
+author: Maëlle Salmon
 date: '2018-05-10'
 preface: This blog post is the third of a 3-post series about a data-driven overview
   of rOpenSci onboarding. Read the [intro to the series](/blog/2018/04/26/a-satrday-ct-series/),
@@ -10,7 +9,6 @@ preface: This blog post is the third of a 3-post series about a data-driven over
   the [second post about quantifying work done by authors, reviewers and editors](/blog/2018/05/03/onboarding-is-work/).
 topicid: 1167
 tags:
-  - R
   - community
   - software
   - Software Peer Review

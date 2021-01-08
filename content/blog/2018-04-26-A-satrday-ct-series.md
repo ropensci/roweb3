@@ -2,12 +2,10 @@
 slug: A-satrday-ct-series
 title: 'Our package reviews in review: Introducing a 3-post series about software
   onboarding data'
-author:
-  - Maëlle Salmon
+author: Maëlle Salmon
 date: '2018-04-26'
 topicid: 1151
 tags:
-  - R
   - community
   - software
   - Software Peer Review

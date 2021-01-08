@@ -1,19 +1,17 @@
 ---
-slug: "fulltext-story"
-title: "fulltext: Behind the Scenes"
-date: 2020-11-17
-author:
-  - Scott Chamberlain
+slug: fulltext-story
+title: 'fulltext: Behind the Scenes'
+date: '2020-11-17'
+author: Scott Chamberlain
 description: Behind the scenes of getting article full text.
 tags:
   - literature
   - textmining
   - fulltext
-  - R
   - packages
-output: 
+output:
   html_document:
-    keep_md: true
+    keep_md: yes
 ---
 
 [fulltext][] is a package I maintain for text-mining the scholarly literature ([package docs][ftdocs]). You can search for articles, fetch article metadata and abstracts, and fetch full text of some articles. Text-mining the scholarly literature is a research tool used across disciplines. Full text of articles (entire article, not just the abstract) is the gold standard in text-mining in most cases.

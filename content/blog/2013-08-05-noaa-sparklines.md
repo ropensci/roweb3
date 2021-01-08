@@ -2,10 +2,8 @@
 slug: noaa-sparklines
 title: NOAA climate sparklines
 date: '2013-08-05'
-author:
-  - Scott Chamberlain
+author: Scott Chamberlain
 tags:
-  - R
   - ecology
   - API
 ---

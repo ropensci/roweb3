@@ -1,12 +1,10 @@
 ---
-slug: "community-intern"
+slug: community-intern
 title: Want to Intern with rOpenSci’s Community Manager?
-author:
-  - Stefanie Butland
-date: 2019-12-23
+author: Stefanie Butland
+date: '2019-12-23'
 topicid: 1908
 tags:
-  - R
   - community
   - careers
 ---
