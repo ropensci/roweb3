@@ -108,11 +108,7 @@ An element can also belong to several groups.
 Basketball is a team sport, but is also played with a ball.
 So basketball can be on both groups, as we see on [wikipedia](https://en.wikipedia.org/wiki/Basketball "Wikipedia: Basketball"):
 
-<!--html_preserve-->
-
-{{< figure src = "basketball_category.png" width = "400" alt = "Basketball categories according to wikipedia on the 2020-12-20" >}}
-
-<!--/html_preserve-->
+> [Categories](https://en.wikipedia.org/wiki/Help:Category "Help:Category"): [Basketball](https://en.wikipedia.org/wiki/Category:Basketball "Category:Basketball") \| [Sports originating in the United States](https://en.wikipedia.org/wiki/Category:Sports_originating_in_the_United_States "Category:Sports originating in the United States") \| [Team sports](https://en.wikipedia.org/wiki/Category:Team_sports "Category:Team sports") \| [Summer Olympic sports](https://en.wikipedia.org/wiki/Category:Summer_Olympic_sports "Category:Summer Olympic sports") \| [Ball games](https://en.wikipedia.org/wiki/Category:Ball_games "Category:Ball games") \| [Games and sports introduced in 1891](https://en.wikipedia.org/wiki/Category:Games_and_sports_introduced_in_1891 "Category:Games and sports introduced in 1891")
 
 Some say that tomatoes should be both considered as fruits and as vegetables, so they are also on both sets.
 We can do this for all elements we can think, pencils, mathematical operations, numbers, words, genes...
