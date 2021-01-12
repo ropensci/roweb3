@@ -1,7 +1,7 @@
 ---
 name: Lluís Revilla Sancho
 link: https://www.llrs.dev
-twitter: Lluis_Rev
+twitter: Lluis_Revilla
 github: llrs
 linkedin: lluisrevilla
 gitlab: llrs
