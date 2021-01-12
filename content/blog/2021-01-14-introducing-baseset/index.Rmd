@@ -2,14 +2,13 @@
 title: Introducing BaseSet
 author:
   - Lluís Revilla Sancho
-date: '2021-01-14'
+date: '2021-01-19'
 slug: introducing-baseset
 categories: []
 tags:
   - BaseSet
   - Software Peer Review
   - data-munging
-  - R
   - packages
   - community
 package_version: 0.0.14
@@ -92,8 +91,8 @@ I also found out that there were some efforts by other people through the [Bioco
 So I got in touch with them and we shared some ideas on how to do this.
 
 To explore different ways to solve the problem we ended up developing three different packages that aim to do similar things but take different approaches.
-At the moment BaseSet published on CRAN, [BiocSet](https://bioconductor.org/packages/BiocSet/ "BiocSet displays different biological sets in a triple tibble format") is published on Bioconductor and [unisets](https://github.com/kevinrue/unisets) that the main developer couldn't dedicate more efforts.
-Both packages provide methods to work with sets, the mathematical name for groups of elements.
+At the moment BaseSet published on CRAN, [BiocSet](https://bioconductor.org/packages/BiocSet/ "BiocSet displays different biological sets in a triple tibble format") is published on Bioconductor and [unisets](https://github.com/kevinrue/unisets) that the main developer can't dedicate more time.
+These packages provide methods to work with sets, the mathematical name for groups of elements.
 
 ## Sets
 
@@ -128,7 +127,7 @@ Let's see it with some code:
 
 First load the package:
 
-```{r loading message = FALSE}
+```{r loading, message = FALSE}
 library("BaseSet")
 packageVersion("BaseSet")
 ```
@@ -212,7 +211,7 @@ We can calculate how probable it is that the image is classified to just one obj
 element_size(TS)
 ```
 
-Given this memberships there is just a 0.3252 ( `0.1*(1-0.2)*(1-0.6)*(1-0.85)+(1-0.1)*0.2*(1-0.6)*(1-0.85)+(1-0.1)*(1-0.2)*0.6*(1-0.85)+(1-0.1)*(1-0.2)*(1-0.6)*0.85`) probability that the machine would classify the first image as just one thing, so it is more probable that the first image will be misclassified. 
+Given this memberships there is just a 0.3252 ( `0.1*(1-0.2)*(1-0.6)*(1-0.85) + (1-0.1)*0.2*(1-0.6)*(1-0.85) + (1-0.1)*(1-0.2)*0.6*(1-0.85) + (1-0.1)*(1-0.2)*(1-0.6)*0.85`) probability that the machine would classify the first image as just one thing, so it is more probable that the first image will be misclassified. 
 
 For the second image it is more probable to contain just one object than two, but there is still high uncertainty as the probability to classify to none of the 4 objects is 0.1260 (`(1-0.6)*(1-0.5)*(1-0.25)*(1-0.16)`).
 
@@ -225,9 +224,11 @@ I [submitted](https://github.com/ropensci/software-review/issues/359) this packa
 The topic is not a common one so although I submitted the package on January for review it started on June (after 2 months of hiatus due to COVID).
 This long waiting time occurred because it was hard for the editor (thanks [Anna Krystalli](/author/anna-krystalli)!) to find two reviewers with all that was going on.
 
-Once two reviewers agreed the feedback started coming (Many thanks [Zebulun Arendsee](https://github.com/arendsee) and [Jennifer Chang](https://github.com/j23414)!).
-The reviewers pointed out inconsistencies on the order of the output, suggested more methods, pointed out to mismatches between the documentation and the code.
+Once two reviewers were found the feedback started coming (Many thanks [Zebulun Arendsee](https://github.com/arendsee) and [Jennifer Chang](https://github.com/j23414)!).
+The reviewers pointed out inconsistencies on the order of the output, suggested more methods, pointed out mismatches between the documentation and the code.
 
-Most importantly much of the comments and exchange was around some methods and explanations for fuzzy sets which were not clear.
+Most importantly much of the comments and exchange was around some methods and explanations for fuzzy sets which were not clear[^2].
 
-I made my best efforts to improve the package and hope you'll find it useful in your projects.
+[^2]: If there is still something unclear; let me know! Open an [issue](https://github.com/ropensci/BaseSet/issues/new).
+
+I made my best efforts to improve the package and hope you'll find it useful in your projects. [Try it out!](https://docs.ropensci.org/BaseSet/)
