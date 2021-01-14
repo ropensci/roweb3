@@ -16,7 +16,7 @@ As a package author you are probably happy to hear about its usage, and within a
 
 {{< tweet 1273605411577442304 >}}
 
-In this post, we shall share tips on how to make your R package easy to cite, and some insights on obstacles the users of your package might face.
+In this post, we shall share tips on how to make your R package easy to cite, and some insights on obstacles the users of your package might face as well on our own literature surveillance.
 We are writing this with the view of complementing our dev guide with the tips... and your feedback, so we are looking forward to your response!
 
 ## Clear citation rules for your lil' tool[^liltool]
@@ -34,12 +34,14 @@ Even once you have followed the tips above, well-meaning users of your package m
 
 {{< tweet 1197124137078136832 >}}
 
-These problems can't be fixed at once by one motivated individual (neither you the developer nor they the user), so more advocacy is needed.
+These problems can't be fixed at once by one motivated individual (neither you the developer nor they the user), so more advocacy is needed. Besides, in the meantime, how do we [adapt software citation guidelines](https://twitter.com/EikoFried/status/1197556604075466753) to realistically accommodate for all situations?
+
+## How rOpenSci tracks package usage
 
 ## Conclusion
 
 In this post we shared guidance on how to help your R package land in the references section of the papers that used it.
-We also mentioned some hurdles even well-meaning users might face.
+We also mentioned some hurdles even well-meaning users might face, and explained how we track for usage of our packages in the scientific literature.
 We encourage you to share your experience and wisdom in the comments below, as we are planning to consolidate them together with our content, to add a new topic to our dev guide.
 
 Note that this post is not about promoting _usage_ of your package, which is [covered briefly in the dev guide](https://devguide.ropensci.org/marketing.html).
