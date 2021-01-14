@@ -91,7 +91,8 @@ I also found out that there were some efforts by other people through the [Bioco
 So I got in touch with them and we shared some ideas on how to do this.
 
 To explore different ways to solve the problem we ended up developing three different packages that aim to do similar things but take different approaches.
-At the moment BaseSet published on CRAN and [BiocSet](https://bioconductor.org/packages/BiocSet/ "BiocSet displays different biological sets in a triple tibble format") is published on Bioconductor.  [unisets](https://github.com/kevinrue/unisets) is available on GitHub although development has stalled due to time constraints.
+At the moment BaseSet published on CRAN and [BiocSet](https://bioconductor.org/packages/BiocSet/ "BiocSet displays different biological sets in a triple tibble format") is published on Bioconductor.
+[unisets](https://github.com/kevinrue/unisets) is available on GitHub although development has stalled due to time constraints.
 These packages provide methods to work with sets, the mathematical name for groups of elements.
 
 ## Sets
