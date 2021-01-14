@@ -91,7 +91,7 @@ I also found out that there were some efforts by other people through the [Bioco
 So I got in touch with them and we shared some ideas on how to do this.
 
 To explore different ways to solve the problem we ended up developing three different packages that aim to do similar things but take different approaches.
-At the moment BaseSet published on CRAN, [BiocSet](https://bioconductor.org/packages/BiocSet/ "BiocSet displays different biological sets in a triple tibble format") is published on Bioconductor and [unisets](https://github.com/kevinrue/unisets) that the main developer can't dedicate more time.
+At the moment BaseSet published on CRAN and [BiocSet](https://bioconductor.org/packages/BiocSet/ "BiocSet displays different biological sets in a triple tibble format") is published on Bioconductor.  [unisets](https://github.com/kevinrue/unisets) is available on GitHub although development has stalled due to time constraints.
 These packages provide methods to work with sets, the mathematical name for groups of elements.
 
 ## Sets
@@ -111,7 +111,7 @@ So basketball can be in both groups, as we see on [Wikipedia](https://en.wikiped
 > [Categories](https://en.wikipedia.org/wiki/Help:Category "Help:Category"): [Basketball](https://en.wikipedia.org/wiki/Category:Basketball "Category:Basketball") \| [Sports originating in the United States](https://en.wikipedia.org/wiki/Category:Sports_originating_in_the_United_States "Category:Sports originating in the United States") \| [Team sports](https://en.wikipedia.org/wiki/Category:Team_sports "Category:Team sports") \| [Summer Olympic sports](https://en.wikipedia.org/wiki/Category:Summer_Olympic_sports "Category:Summer Olympic sports") \| [Ball games](https://en.wikipedia.org/wiki/Category:Ball_games "Category:Ball games") \| [Games and sports introduced in 1891](https://en.wikipedia.org/wiki/Category:Games_and_sports_introduced_in_1891 "Category:Games and sports introduced in 1891")
 
 Some say that tomatoes should be both considered as fruits and as vegetables, so they could also be in both sets.
-We can do this for all elements we can think, pencils, mathematical operations, numbers, words, genes...
+We can do this for any element we can think of, pencils, mathematical operations, numbers, words, genes...
 
 When we have more than one set we might be interested in which elements are in two groups, which fruits are also vegetables, or which fruits are not vegetables.
 These operations are called set operations.
