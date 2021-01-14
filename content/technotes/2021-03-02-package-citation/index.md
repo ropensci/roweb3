@@ -28,7 +28,9 @@ Even once you have followed the tips above, well-meaning users of your package m
 
 * Journals with a limit on the number of references;
 
-* Co-authors less willing to cite software than they are
+{{< tweet 1197192493948907522 >}}
+
+* Co-authors less willing to cite software than they are.
 
 {{< tweet 1197124137078136832 >}}
 
