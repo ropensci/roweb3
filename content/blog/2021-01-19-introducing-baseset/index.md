@@ -50,7 +50,8 @@ I also found out that there were some efforts by other people through the [Bioco
 So I got in touch with them and we shared some ideas on how to do this.
 
 To explore different ways to solve the problem we ended up developing three different packages that aim to do similar things but take different approaches.
-At the moment BaseSet published on CRAN, [BiocSet](https://bioconductor.org/packages/BiocSet/ "BiocSet displays different biological sets in a triple tibble format") is published on Bioconductor and [unisets](https://github.com/kevinrue/unisets) that the main developer can't dedicate more time.
+At the moment BaseSet published on CRAN and [BiocSet](https://bioconductor.org/packages/BiocSet/ "BiocSet displays different biological sets in a triple tibble format") is published on Bioconductor.
+[unisets](https://github.com/kevinrue/unisets) is available on GitHub although development has stalled due to time constraints.
 These packages provide methods to work with sets, the mathematical name for groups of elements.
 
 ## Sets
@@ -70,7 +71,7 @@ So basketball can be in both groups, as we see on [Wikipedia](https://en.wikiped
 > [Categories](https://en.wikipedia.org/wiki/Help:Category "Help:Category"): [Basketball](https://en.wikipedia.org/wiki/Category:Basketball "Category:Basketball") \| [Sports originating in the United States](https://en.wikipedia.org/wiki/Category:Sports_originating_in_the_United_States "Category:Sports originating in the United States") \| [Team sports](https://en.wikipedia.org/wiki/Category:Team_sports "Category:Team sports") \| [Summer Olympic sports](https://en.wikipedia.org/wiki/Category:Summer_Olympic_sports "Category:Summer Olympic sports") \| [Ball games](https://en.wikipedia.org/wiki/Category:Ball_games "Category:Ball games") \| [Games and sports introduced in 1891](https://en.wikipedia.org/wiki/Category:Games_and_sports_introduced_in_1891 "Category:Games and sports introduced in 1891")
 
 Some say that tomatoes should be both considered as fruits and as vegetables, so they could also be in both sets.
-We can do this for all elements we can think, pencils, mathematical operations, numbers, words, genes...
+We can do this for any element we can think of, pencils, mathematical operations, numbers, words, genes...
 
 When we have more than one set we might be interested in which elements are in two groups, which fruits are also vegetables, or which fruits are not vegetables.
 These operations are called set operations.
@@ -237,9 +238,13 @@ element_size(TS)
 10   image2    4      0.0120
 ```
 
-Given this memberships there is just a 0.3252 ( `0.1*(1-0.2)*(1-0.6)*(1-0.85) + (1-0.1)*0.2*(1-0.6)*(1-0.85) + (1-0.1)*(1-0.2)*0.6*(1-0.85) + (1-0.1)*(1-0.2)*(1-0.6)*0.85`) probability that the machine would classify the first image as just one thing, so it is more probable that the first image will be misclassified. 
+Given this memberships there is just a 0.3252 probability that the machine would classify the first image as just one thing, so it is more probable that the first image will be misclassified[^2].
 
-For the second image it is more probable to contain just one object than two, but there is still high uncertainty as the probability to classify to none of the 4 objects is 0.1260 (`(1-0.6)*(1-0.5)*(1-0.25)*(1-0.16)`).
+[^2]: We add up the probability of being one feature (and not the others, i.e.: `(1- x)`) for all the elements: `0.1*(1-0.2)*(1-0.6)*(1-0.85) + (1-0.1)*0.2*(1-0.6)*(1-0.85) + (1-0.1)*(1-0.2)*0.6*(1-0.85) + (1-0.1)*(1-0.2)*(1-0.6)*0.85`
+
+For the second image it is more probable to contain just one object than two, but there is still high uncertainty as the probability to classify to none of the 4 objects is 0.1260 [^3].
+
+[^3]: Similar to the other calculation, this probability is `(1-0.6)*(1-0.5)*(1-0.25)*(1-0.16)`.
 
 This was not evident from the "output" of the classification but is equally important to know in many situations.
 
@@ -253,8 +258,10 @@ This long waiting time occurred because it was hard for the editor (thanks [Anna
 Once two reviewers were found the feedback started coming (Many thanks [Zebulun Arendsee](https://github.com/arendsee) and [Jennifer Chang](https://github.com/j23414)!).
 The reviewers pointed out inconsistencies on the order of the output, suggested more methods, pointed out mismatches between the documentation and the code.
 
-Most importantly much of the comments and exchange was around some methods and explanations for fuzzy sets which were not clear[^2].
+Most importantly much of the comments and exchange was around some methods and explanations for fuzzy sets which were not clear[^4].
 
-[^2]: If there is still something unclear; let me know! Open an [issue](https://github.com/ropensci/BaseSet/issues/new).
+[^4]: If there is still something unclear; let me know!
+    Open an [issue](https://github.com/ropensci/BaseSet/issues/new).
 
-I made my best efforts to improve the package and hope you'll find it useful in your projects. [Try it out!](https://docs.ropensci.org/BaseSet/)
+I made my best efforts to improve the package and hope you'll find it useful in your projects.
+[Try it out!](https://docs.ropensci.org/BaseSet/)
