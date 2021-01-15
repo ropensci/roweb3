@@ -37,7 +37,7 @@ To encourage users to cite your package, you need to store citation metadata in 
 * If you write a JOSS or some other software publication where you describe the software, then add that citation to the CITATION file as well.
 
 As an example see [nasapower CITATION file](https://github.com/ropensci/nasapower/blob/master/inst/CITATION) that refers to both the manual and a paper. 
-All it lacks is a [Zenodo DOI](https://discuss.ropensci.org/t/should-the-ropensci-dev-guide-include-package-citation-best-practices/1551/15).
+All it lacks is a [Zenodo DOI](https://discuss.ropensci.org/t/should-the-ropensci-dev-guide-include-package-citation-best-practices/1551/15) for the manual -- although most users would probably end up citing the JOSS paper.
 
 ```r
 citHeader("While nasapower does not redistribute the data in any way,\n",
