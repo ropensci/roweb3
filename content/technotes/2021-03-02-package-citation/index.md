@@ -19,7 +19,8 @@ As a package author you are probably happy to hear about its usage, and within a
 
 {{< tweet 1273605411577442304 >}}
 
-In this post, we shall share tips on how to make your R package easy to cite, and some insights on obstacles the users of your package might face as well on our own literature surveillance.
+In this post, we shall share tips on how to make your R package easy to cite.
+We shall also give some insights on obstacles the users of your package might face, as well as a brief presentation a our own literature surveillance.
 We are writing this with the view of complementing our dev guide with the tips... and your feedback, so we are looking forward to your response!
 
 ## Clear citation rules for your lil' tool[^liltool]
