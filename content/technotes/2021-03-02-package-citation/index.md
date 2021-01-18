@@ -15,7 +15,7 @@ tags:
 
 > Software citation elevates software to the level of a first-class object in the digital scholarly ecosystem, consistent with its immense actual present-day significance. Katz et al., F1000Research 2021. [^f1000]
 
-As a package author you are probably happy to hear about its usage, and within academia, even more so if it is done with the usual currency of citations in scientific articles.
+As a developer you are probably happy to hear about the usage of your package(s), and within academia, even more so if it is done with the usual currency of citations in scientific articles.
 
 {{< tweet 1273605411577442304 >}}
 
