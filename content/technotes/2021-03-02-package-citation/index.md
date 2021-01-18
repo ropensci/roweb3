@@ -33,9 +33,11 @@ To encourage users to cite your package, you need to store citation metadata in 
 
 > "I [advertise the citation info in the README] too, just to make it painfully obvious how to cite the work." [Adam Sparks](/author/adam-sparks/), [rOpenSci forum](https://discuss.ropensci.org/t/should-the-ropensci-dev-guide-include-package-citation-best-practices/1551/18)
 
-* Use the CITATION file, as [thousands of R packages do](https://github.com/search?q=user%3Acran+path%3A%2Finst%2F+filename%3ACITATION&type=Code&ref=advsearch&l=&l=). Create its boilerplate with `usethis::use_citation()` for instance.
+* Use the CITATION file, as thousands of R packages do (3,386 out of 16,002 packages on CRAN as of the 15th of January, 2021[^thxmark]). Create its boilerplate with `usethis::use_citation()` for instance.
 * Archive each release of your GitHub repo in Zenodo and add Zenodo base DOI to the CITATION file.
 * If you write a JOSS or some other software publication where you describe the software, then add that citation to the CITATION file as well.
+
+[^thxmark]: Thanks to [Mark Padgham](/author/mark-padgham/) for computing this in a CRAN mirror.
 
 As an example see [nasapower CITATION file](https://github.com/ropensci/nasapower/blob/master/inst/CITATION) that refers to both the manual and a paper. 
 All it lacks is a [Zenodo DOI](https://discuss.ropensci.org/t/should-the-ropensci-dev-guide-include-package-citation-best-practices/1551/15) for the manual -- although most users would probably end up citing the JOSS paper.
