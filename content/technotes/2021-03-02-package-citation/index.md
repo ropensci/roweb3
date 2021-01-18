@@ -20,7 +20,7 @@ As a developer you are probably happy to hear about the usage of your package(s)
 {{< tweet 1273605411577442304 >}}
 
 In this post, we shall share tips on how to make your R package easy to cite.
-We shall also give some insights on obstacles the users of your package might face, as well as a brief presentation a our own literature surveillance.
+We shall also give some insights on obstacles the users of your package might face, as well as a brief presentation of our own literature surveillance.
 We are writing this with the view of complementing our dev guide with the tips... and your feedback, so we are looking forward to your response!
 
 ## Clear citation rules for your lil' tool[^liltool]
@@ -91,7 +91,7 @@ bibentry(bibtype = "Manual",
 
 {{< tweet 1261726909148233728 >}}
 
-Something we at rOpenSci wouldn't recommend is an on load message in interfactive session, but it's good to know that [some maintainers resort to this strategy](https://twitter.com/d_olivaw/status/1261439521134182406).
+Something we at rOpenSci wouldn't recommend is an on load message in interactive sessions, but it's good to know that [some maintainers resort to this strategy](https://twitter.com/d_olivaw/status/1261439521134182406).
 
 ## Why is it hard to cite software
 
@@ -109,13 +109,15 @@ These problems can't be fixed at once by one motivated individual (neither you t
 
 ## How rOpenSci tracks package usage
 
-At rOpenSci we monitor the scientific literature to discover uses cases of our packages, that you can browse on our [citations page](/citations).
+At rOpenSci we monitor the scientific literature to discover use cases of our packages that you can browse on our [citations page](/citations).
 As sometimes packages are used but not listed in the references section, we report any usage of the packages in papers.
 Here's our, well Scott Chamberlain's, workflow.
 
 * Lots of Google Scholar alerts (one per package name, unless that package name will lead to too many false positives) arrive to one gmail address of Scott's.
 * Scott uses [gmailr](https://gmailr.r-lib.org/) and [googlesheets4](https://googlesheets4.tidyverse.org/) to push those up to Google sheets.
 * He then manually clicks through to each link and look for the given package mention and records if a package is actually used (mentioned in the Methods section, and/or cited).
+* He updates [several JSON files of the citations](https://github.com/ropensci-org/ropensci_citations/).
+* [One of these JSON citation files](https://github.com/ropensci-org/ropensci_citations/blob/master/citations_all_parts_clean.json) is used to populate the [citations page](/citations) (via a [Hugo data template in a layout file](https://github.com/ropensci/roweb3/blob/master/themes/ropensci/layouts/citations/list.html)). Any update of the ropensci-org/ropensci_citations repo triggers a Netlify build of our website thanks to a Netlify build hook (basically, an URL) and a [GitHub Actions workflow](https://github.com/ropensci-org/ropensci_citations/blob/master/.github/workflows/rebuild-roweb3.yml) (that simply pings this URL)
 
 ## Conclusion
 
