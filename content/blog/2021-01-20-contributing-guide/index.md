@@ -9,8 +9,8 @@ tags:
   - community
 featured: TRUE
 description: A guide to finding your path to contributing to rOpenSci 
-# twitterImg: blog/2019/06/04/post-template/name-of-image.png
-# twitterAlt: Alternative description of the image
+twitterImg: blog/2021-01-20-contributing-guide/cover_sm.png
+twitterAlt: "Cartoon of 6 hypothetical rOpenSci community members"
 ---
 
 Many people in our community actively contribute to rOpenSci projects. Many others would like to contribute but aren’t sure how to go about it. 
@@ -18,8 +18,9 @@ Wanting to get involved in rOpenSci or wanting to give back to open source means
 Ideally, a person should be able to find something they could contribute that meets their needs and fits our mission. 
 We created the [rOpenSci Community Contributing Guide](https://contributing.ropensci.org/)[^1] to make finding paths to contributing more transparent and sustainable.
 
-_Steffi pls add Smallish SCREENSHOT of cover with caption Cover illustration by [Lydia Hill](https://www.lydiakahill.com/)_
-_Also incl twitter card size img. Stef can provide png with the image only for this_
+{{< figure src = "contrib_guide_cover_sm.png" width = "350" alt = "Contributing guide book cover. Cartoon of six hypothetical rOpenSci community members representing professional and ethnic diversity" class = "center" >}}
+_Cover illustration by [Lydia Hill](https://www.lydiakahill.com/)_
+
 
 rOpenSci fosters a culture that values open and reproducible research using shared data and reusable software. 
 We welcome code and non-code contributions from new and seasoned coders at any career stage, and in any sector. 
