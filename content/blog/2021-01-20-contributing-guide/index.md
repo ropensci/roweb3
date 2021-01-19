@@ -9,7 +9,7 @@ tags:
   - community
 featured: TRUE
 description: A guide to finding your path to contributing to rOpenSci 
-twitterImg: blog/2021-01-20-contributing-guide/cover_sm.png
+twitterImg: blog/2021/01/20/contributing-guide/cover_sm.png
 twitterAlt: Cartoon of 6 hypothetical rOpenSci community members
 ---
 
