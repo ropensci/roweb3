@@ -10,7 +10,7 @@ tags:
 featured: TRUE
 description: A guide to finding your path to contributing to rOpenSci 
 twitterImg: blog/2021-01-20-contributing-guide/cover_sm.png
-twitterAlt: "Cartoon of 6 hypothetical rOpenSci community members"
+twitterAlt: Cartoon of 6 hypothetical rOpenSci community members
 ---
 
 Many people in our community actively contribute to rOpenSci projects. Many others would like to contribute but aren’t sure how to go about it. 
