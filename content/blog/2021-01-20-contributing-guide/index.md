@@ -13,7 +13,7 @@ twitterImg: blog/2021/01/20/contributing-guide/cover_sm.png
 twitterAlt: Cartoon of 6 hypothetical rOpenSci community members
 ---
 
-Many people in our community actively contribute to rOpenSci projects. Many others would like to contribute but aren’t sure how to go about it. 
+Many people in our community actively contribute to rOpenSci projects. Many others would like to contribute but aren’t sure how to go about it.
 Wanting to get involved in rOpenSci or wanting to give back to open source means different things to different people. 
 Ideally, a person should be able to find something they could contribute that meets their needs and fits our mission. 
 We created the [rOpenSci Community Contributing Guide](https://contributing.ropensci.org/)[^1] to make finding paths to contributing more transparent and sustainable.
