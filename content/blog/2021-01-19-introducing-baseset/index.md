@@ -1,5 +1,5 @@
 ---
-title: Introducing BaseSet
+title: Introducing BaseSet for mathematical sets
 author:
   - Lluís Revilla Sancho
 date: '2021-01-19'
