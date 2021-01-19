@@ -18,7 +18,7 @@ Wanting to get involved in rOpenSci or wanting to give back to open source means
 Ideally, a person should be able to find something they could contribute that meets their needs and fits our mission. 
 We created the [rOpenSci Community Contributing Guide](https://contributing.ropensci.org/)[^1] to make finding paths to contributing more transparent and sustainable.
 
-{{< figure src = "contrib_guide_cover_sm.png" width = "350" alt = "Contributing guide book cover. Cartoon of six hypothetical rOpenSci community members representing professional and ethnic diversity" class = "center" >}}
+{{< figure src = "contrib_guide_cover_sm.png" width = "350" alt = "Contributing guide book cover. Cartoon of six hypothetical rOpenSci community members" class = "center" >}}
 _Cover illustration by [Lydia Hill](https://www.lydiakahill.com/)_
 
 
