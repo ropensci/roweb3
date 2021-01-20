@@ -18,8 +18,7 @@ Wanting to get involved in rOpenSci or wanting to give back to open source means
 Ideally, a person should be able to find something they could contribute that meets their needs and fits our mission. 
 We created the [rOpenSci Community Contributing Guide](https://contributing.ropensci.org/)[^1] to make finding paths to contributing more transparent and sustainable.
 
-{{< figure src = "contrib_guide_cover_sm.png" width = "350" alt = "Contributing guide book cover. Cartoon of six hypothetical rOpenSci community members" class = "center" >}}
-_Cover illustration by [Lydia Hill](https://www.lydiakahill.com/)_
+{{< figure src = "contrib_guide_cover_sm.png" width = "350" caption = "Cover illustration by [Lydia Hill](https://www.lydiakahill.com/)" alt = "Contributing Guide book cover. Cartoon of six hypothetical rOpenSci community members" class = "center" >}}
 
 
 rOpenSci fosters a culture that values open and reproducible research using shared data and reusable software. 
@@ -32,7 +31,7 @@ You don’t have to think of yourself as a developer to contribute!
 First, we welcome you to rOpenSci, give examples of potential time commitments (starting with 30 minutes!) and some benefits of contributing. 
 The body of the guide has three chapters.
 
-1. [rOpenSci & Our Community](https://contributing.ropensci.org/intro.html) shares our mission, what it means to be part of our community, and introduces you to some Humans of rOpenSci. Participation in all rOpenSci activities is supported by our[ Code of Conduct](https://contributing.ropensci.org/resources.html#conduct).
+1. [rOpenSci & Our Community](https://contributing.ropensci.org/intro.html) shares our mission, what it means to be part of our community, and introduces you to some Humans of rOpenSci. Participation in all rOpenSci activities is supported by our [Code of Conduct](https://contributing.ropensci.org/resources.html#conduct).
 2. Browse [What brings you here?](https://contributing.ropensci.org/motivations.html) to find your path to contributing! To help you recognize yourself, we grouped these into: Discover; Connect; Learn; Build; Help. For each category, we list examples of what those contributions might look like and we link to our resources to help you get started. 
 3. [rOpenSci Resources](https://contributing.ropensci.org/resources.html) brings pointers to all of our resources together in one place for the first time. Each has a description with links to guide specific contributions.
 
@@ -42,9 +41,7 @@ The body of the guide has three chapters.
 In our dreams, the rOpenSci Community Contributing Guide can be a model for other open source communities to enable more transparent and sustainable participation.
 
 We’re always standing on the shoulders of giants, some of whom might not think of themselves as giants. 
-The motivation, approach, design, tone, and content of the rOpenSci Community Contributing Guide was influenced by many, who are cited in our [bibliography](https://contributing.ropensci.org/bibiliography.html).
-
-FIX BIB TYPO LINK
+The motivation, approach, design, tone, and content of the rOpenSci Community Contributing Guide was influenced by many, who are cited in our [bibliography](https://contributing.ropensci.org/bibliography.html).
 
 
 ## Thank you’s
