@@ -14,7 +14,7 @@ tags:
 package_version: 0.0.14
 featured: true
 description: ""
-twitterImg: blog/2021/01/14/introducing-baseset/name-of-image.png
+# twitterImg: blog/2021/01/14/introducing-baseset/name-of-image.png
 output:
   html_document:
     keep_md: yes
