@@ -4,7 +4,7 @@ title: "Learn All About HTTP Testing: Book Update"
 author:
   - Maëlle Salmon
   - Scott Chamberlain
-date: 2021-02-02
+date: 2021-01-26
 tags:
   - testing
   - software
