@@ -24,7 +24,7 @@ output:
 More and more R packages access resources on the web, and play crucial roles in workflows.
 Examples from the [rOpenSci suite of packages](/packages/all/) include [rromeo](https://docs.ropensci.org/rromeo/), [GSODR](https://docs.ropensci.org/GSODR/), [qualtRics](https://docs.ropensci.org/qualtRics/), [rnassqs](https://docs.ropensci.org/rnassqs/), and many, many others. 
 Like for all other packages, appropriate unit testing can make them more robust.
-Their unit testing brings special challenges: dependence of tests on a good internet connection, testing in the absence of authentication secrets, etc.
+However, unit testing of these packages can bring special challenges: dependence of tests on a good internet connection, testing in the absence of authentication secrets, etc.
 Having tests fail due to resources being down or slow, during development or on CRAN, means a time loss for everyone involved (slower development, messages from CRAN).
 Although many packages accessing remote resources are well tested, there used to be a lack of resources around best practices... 
 But now there is one great information source, our [HTTP testing in R](https://books.ropensci.org/http-testing/) online book! :tada:
@@ -43,9 +43,9 @@ Last but not least, thanks to recent readers of the book like [Dave Parr](https:
 
 ## What's between the covers?
 
-The book still has advanced content about webmockr and vcr, but these only come after new content.
+The book still has advanced content about webmockr and vcr, but now this comes after new content.
 
-* An introduction (how original), giving some basic information and resources suggestions around [HTTP in R](https://books.ropensci.org/http-testing/http-in-r-101.html) and [_graceful HTTP R packages_](https://books.ropensci.org/http-testing/graceful.html) as well as the reason why we need [special packages for HTTP testing](https://books.ropensci.org/http-testing/pkgs-testing-chapter.html).
+* An introduction (how original), giving some basic information and resource suggestions around [HTTP in R](https://books.ropensci.org/http-testing/http-in-r-101.html) and [graceful HTTP R packages](https://books.ropensci.org/http-testing/graceful.html) as well as the reason why we need [special packages for HTTP testing](https://books.ropensci.org/http-testing/pkgs-testing-chapter.html).
 
 * A Whole Games section inspired by the [Whole Game chapter of the R packages book by Hadley Wickham and Jenny Bryan](https://r-pkgs.org/whole-game.html). We [created a minimal R package](https://books.ropensci.org/http-testing/introduction.html) interacting with two web APIs and added tests to it (of normal behavior, of behavior when there is an API error) _three times_
     * Using [vcr and webmockr](https://books.ropensci.org/http-testing/vcr.html);
@@ -66,8 +66,8 @@ The section also features a [comparison of the two packages using mock files / c
 
 ## Other technical details
 
-Whilst writing chapters Maëlle filled several docs and feature requests to vcr, httptest, webfakes.
-All three maintainers were very cooperative and nice.
+Whilst writing chapters Maëlle filed several docs and feature requests to vcr, httptest, webfakes.
+All three maintainers were very kind and receptive.
 
 * There was a recent [tech note about vcr release](/technotes/2020/12/18/vcr-release/), part of which is a consequence of the book update.
 * In httptest the new `httptest::with_mock_dir()` function was contributed as a result of Maëlle's work.
@@ -79,7 +79,7 @@ As for deployment, we'd recommend looking at the [GitHub Actions workflow for th
 
 ## Further work and feedback request!
 
-While we are happy of the book current state, we are committed to updating and improving it!
+While we are happy with our "HTTP testing in R" book, we are committed to updating and improving it!
 Have a look at the [book issue tracker](https://github.com/ropensci-books/http-testing/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc), and feel free to give us feedback there or on [rOpenSci forum](https://discuss.ropensci.org/).
 Comments by experts and newbies and any expertise level in-between are most welcome!
 Happy HTTP testing!
