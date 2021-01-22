@@ -4,7 +4,7 @@ title: How rOpenSci Runs Community Calls
 author:
   - Stefanie Butland
   - Emily Lescak
-date: 2021-01-22
+date: 2021-02-02
 tags:
   - community call
   - events
@@ -16,6 +16,7 @@ description: "A very short summary of your post (~ 100 characters)"
 
 rOpenSci community calls are online events in which information is shared with the goals of reinforcing our mission and values,  bringing people’s perspectives to light, and identifying unmet needs on a topic _(edit this. we reinforce our mission and values, inform ppl on technical and social topics, (code of conduct, multi-language) from the perspectives of different stakeholders - developers, users (but don't' imply it's all about code), identify unmet needs)_. Our calls can include from one to six speakers, or a moderated panel discussion. They run for an hour and consist of 40 minutes of presentation and 20 minutes for questions from the audience. Strong social facilitation at every step is our key to success . In this blog post, we’ll review the flow of community call development, from deciding on a topic to capturing the outcomes. Many of the same principles apply, whether the event is called a community call, panel discussion, or similar. Our goal is to share how we do it so you might adapt some elements to meet your needs. 
 
+{{< figure src = "commcalls-img.png" class = "center" width = "450" alt = "collage of images from community calls with 3 Zoom views of speakers, a notes doc and view of someone's screen" >}}
 
 ## Choosing a topic
 
