@@ -19,7 +19,7 @@ Scientists rarely cite research software they use as part of a research project.
 {{< tweet 1273605411577442304 >}}
 
 In this post, we shall share tips on how to make your R package easy to cite.
-We shall also give some insights on obstacles the users of your package might face, as well as a brief presentation of our own literature surveillance.
+We shall also give some insights on hurdles the users of your package might face when wanting to cite your package, as well as a brief presentation of our monitoring of the literature to find use cases of our packages.
 We are writing this with the view of complementing our dev guide with the tips... and your feedback, so we are looking forward to your response!
 
 ## Clear citation rules for your lil' tool[^liltool]
