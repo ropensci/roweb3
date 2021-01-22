@@ -16,19 +16,19 @@ description: "A very short summary of your post (~ 100 characters)"
 
 rOpenSci community calls are online events in which information is shared with the goals of reinforcing our mission and values,  bringing people’s perspectives to light, and identifying unmet needs on a topic _(edit this. we reinforce our mission and values, inform ppl on technical and social topics, (code of conduct, multi-language) from the perspectives of different stakeholders - developers, users (but don't' imply it's all about code), identify unmet needs)_. Our calls can include from one to six speakers, or a moderated panel discussion. They run for an hour and consist of 40 minutes of presentation and 20 minutes for questions from the audience. Strong social facilitation at every step is our key to success . In this blog post, we’ll review the flow of community call development, from deciding on a topic to capturing the outcomes. Many of the same principles apply, whether the event is called a community call, panel discussion, or similar. Our goal is to share how we do it so you might adapt some elements to meet your needs. 
 
-{{< figure src = "commcalls-img.png" class = "center" width = "450" alt = "collage of images from community calls with 3 Zoom views of speakers, a notes doc and view of someone's screen" >}}
+{{< figure src = "commcalls-img.png" class = "center" width = "350" alt = "collage of images from community calls with 3 Zoom views of speakers, a notes doc and view of someone's screen" >}}
 
 ## Choosing a topic
 
 Typically, I solicit input from the rOpenSci team and community. It’s best to keep the topic focused rather than trying to cover too much. I've recently experimented with crowdsourcing ideas in a transparent way via [GitHub](https://github.com/ropensci-org/community-calls/issues). This has resulted in some rich public discussions that help focus and prioritize topics. You’re welcome to adapt this approach for your own needs; let us know if you do, and please acknowledge rOpenSci.
 
-![alt_text](images/image1.png "image_tooltip")
+INSERT IMAGE
  (caption) Excerpt of [suggested community call topics on GitHub](https://github.com/ropensci-org/community-calls/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc), labelled according to their status: 0/idea; 1/approved; 2/working on it; 3/completed
 
 
 To select some topics to cover, I pitched topics to my colleagues and asked them to vote for their top five using emojis on Slack.
 
-![alt_text](images/image2.png "image_tooltip")
+INSERT IMAGE
 (caption) Some suggested community call topics and their emoji-votes on Slack
 
 ## Selecting and preparing speakers
@@ -52,6 +52,7 @@ It is important to begin with a script consisting of introducing your organizati
 The [archive page](https://ropensci.org/commcalls/2020-03-18/) for each community call includes the video with subtitles, links to speakers’ slides, the collaborative notes doc, and resources on the topic. They are sometimes summarized on rOpenSci’s blog. To encourage participation from community members, she has invited attendees to co-author a [blog post](https://ropensci.org/blog/2020/07/14/commcall-maintaining-pkg/) with a staff member. Don’t underestimate the value of sharing your impact success stories or anecdotes with your team and your community!
 
 ## Artifacts of a community call
+Things that are created and archived for future reference
 
 *   [Landing page with all the things](https://ropensci.org/commcalls/dec2020-datarepos/)
 *   [Developing the topic; choosing speakers](https://github.com/ropensci-org/community-calls/issues/9)
