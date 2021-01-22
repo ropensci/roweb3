@@ -35,7 +35,7 @@ To make it really easy for users to cite your package, you should store citation
 * Use the CITATION file, as thousands of R packages have done (3,386 out of 16,002 packages on CRAN as of the 15th of January, 2021[^thxmark]). It's easy to create a boilerplate with `usethis::use_citation()`.
 * Archive each release of your GitHub repo on Zenodo and add [Zenodo top-level DOI](https://help.zenodo.org/#versioning) to the CITATION file.
 * If your software has a clear research application, you can also publish a paper at the Journal of Open Source Software, Journal of Open Research Software among others. You can append a software publication to your CITATION file.
-* Less related to your package itself but to what supports it: if your package wraps a particular resource such as data source or, say, statistical algorithm, remind users of how to cite that resource via e.g. `citHeader()`. [Maybe even add the reference for the thing](https://discuss.ropensci.org/t/citation-of-original-article-when-implementing-specific-methods/2312)?  
+* Less related to your package itself but to what supports it: if your package wraps a particular resource such as data source or, say, statistical algorithm, remind users of how to cite that resource via e.g. `citHeader()`. [Maybe even add the reference for the resource](https://discuss.ropensci.org/t/citation-of-original-article-when-implementing-specific-methods/2312)?  
 
 [^thxmark]: Thanks to [Mark Padgham](/author/mark-padgham/) for computing this in a CRAN mirror.
 
