@@ -90,7 +90,7 @@ bibentry(bibtype = "Manual",
 
 {{< tweet 1261726909148233728 >}}
 
-Something we at rOpenSci wouldn't recommend is an on load message in interactive sessions, but it's good to know that [some maintainers resort to this strategy](https://twitter.com/d_olivaw/status/1261439521134182406).
+Although some authors use on load messages to encourage citations, we discourage this practice and recommend that developers highlight this information in their README and documentation.
 
 ## Why is it hard to cite software
 
