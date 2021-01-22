@@ -96,7 +96,7 @@ Although some authors use on load messages to encourage citations, we discourage
 
 Despite your best efforts to encourage users to cite your software, you might still run into challenges. Authors may have limits on the number of references they can cite in a journal or face resistance from their coauthors.
 
-These problems can't be fixed at once by one motivated individual (neither you the developer nor they the user), so more advocacy and [teaching](https://neuropsychology.github.io/psycho.R//2018/08/31/cite_packages.html) is needed. Besides, in the meantime, how do we [adapt software citation guidelines](https://twitter.com/EikoFried/status/1197556604075466753) to realistically accommodate for all situations?
+These problems can't be fixed at once by one motivated individual (neither you the developer nor they the user), so more advocacy and teaching is needed. Besides, in the meantime, how do we [adapt software citation guidelines](https://twitter.com/EikoFried/status/1197556604075466753) to realistically accommodate for all situations?
 
 ## How rOpenSci tracks package usage
 
