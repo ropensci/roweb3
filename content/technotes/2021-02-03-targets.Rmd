@@ -215,7 +215,7 @@ But if your mind is on the domain knowledge, or if you are under pressure to wor
 
 The best way to write fewer functions is to write less code.
 To write less code, we need strategic abstractions.
-A target factory is reusable shorthand to return an entire list of target objects, ideally from inside a package.
+Target factories are reusable shorthand to return entire lists of target objects, ideally from inside packages.
 
 ```{r, eval = FALSE}
 # script inside example.package
