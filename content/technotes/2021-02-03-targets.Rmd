@@ -84,7 +84,7 @@ Data science becomes smoother and more rewarding.
 ## What is `targets`?
 
 <!--html_preserve-->
-{{< figure src = "2021-02-03-targets/targets.png" alt = "targets hex logo" >}}
+{{< figure src = "technotes/2021/02/03/targets.png" alt = "targets hex logo" >}}
 <!--/html_preserve-->
 
 {{< imgtxt >}}
@@ -279,7 +279,7 @@ list( # Target lists can be arbitrarily nested.
 ## R targetopia
 
 <!--html_preserve-->
-{{< figure src = "2021-02-03-targets/targetopia.png" alt = "targetopia hex logo" >}}
+{{< figure src = "technotes/2021/02/03/targetopia.png" alt = "targetopia hex logo" >}}
 <!--/html_preserve-->
 
 {{< imgtxt >}}
