@@ -83,17 +83,21 @@ Data science becomes smoother and more rewarding.
 
 ## What is `targets`?
 
+<!--html_preserve-->
+{{< figure src = "2021-02-03-targets/targets.png" alt = "targets hex logo" >}}
+<!--/html_preserve-->
+
+{{< imgtxt >}}
 [`targets`](https://docs.rOpenSci.org/targets/)[^2] package is a new pipeline toolkit for R.
 It recently cleared [software review](https://github.com/ropensci/software-review/issues/401), and it is now on CRAN.
+{{</ imgtxt >}}
 
 ```{r, eval = FALSE}
 install.packages("targets")
 ```
 
-{{< figure src = "2021-02-03-targets/targets.png" alt = "targets hex logo" class = "pull-left" >}}
-
 [`targets`](https://docs.rOpenSci.org/targets/) is the long-term successor of [`drake`](https://github.com/rOpenSci/drake)[^3], which in turn succeeded [Rich FitzJohn](/author/rich-fitzjohn/)'s groundbreaking [`remake`](https://github.com/richfitz/remake)[^4] package.
-[This chapter](https://books.rOpenSci.org/targets/drake.html) explains the future of [`drake`](https://github.com/rOpenSci/drake), the advantages of [`targets`](https://docs.rOpenSci.org/targets/), and how to transition.
+A [chapter in the user manual](https://books.rOpenSci.org/targets/drake.html) explains the future of [`drake`](https://github.com/rOpenSci/drake), the advantages of [`targets`](https://docs.rOpenSci.org/targets/), and how to transition.
 The [reference website](https://docs.rOpenSci.org/targets/) explains how to get started, and the [overview vignette](https://docs.rOpenSci.org/targets/articles/overview.html) describes the major features of [`targets`](https://docs.rOpenSci.org/targets/) and its [user manual](https://books.rOpenSci.org/targets/).
 
 ## How it works
@@ -175,7 +179,8 @@ tar_visnetwork()
 tar_make()
 ```
 
-Alternatives [`tar_make_clustermq()`](https://docs.rOpenSci.org/targets/reference/tar_make_clustermq.html) and [`tar_make_future()`](https://docs.rOpenSci.org/targets/reference/tar_make_future.html) leverage [`clustermq`](https://mschubert.github.io/clustermq/)[^6] and [`future`](https://github.com/HenrikBengtsson/future)[^7], respectively, to distribute targets on traditional schedulers such as [SLURM](https://slurm.schedmd.com/documentation.html)[^8], and it is only a matter of time before they become [cloud-capable](https://aws.amazon.com/)[^9].
+Alternatives [`tar_make_clustermq()`](https://docs.rOpenSci.org/targets/reference/tar_make_clustermq.html) and [`tar_make_future()`](https://docs.rOpenSci.org/targets/reference/tar_make_future.html) leverage [`clustermq`](https://mschubert.github.io/clustermq/)[^6] and [`future`](https://github.com/HenrikBengtsson/future)[^7], respectively, to distribute targets on traditional schedulers such as [SLURM](https://slurm.schedmd.com/documentation.html)[^8].
+It is only a matter of time before these backends become [cloud-capable](https://aws.amazon.com/)[^9].
 
 Your results live either in the [`_targets/` data folder](https://books.rOpenSci.org/targets/files.html#internal-files) or in [Amazon S3 buckets](https://books.rOpenSci.org/targets/cloud.html#storage), depending on your preferences.
 Regardless, the way to load the data back into R is the same.
@@ -273,9 +278,13 @@ list( # Target lists can be arbitrarily nested.
 
 ## R targetopia
 
-{{< figure src = "2021-02-03-targets/targetopia.png" alt = "targetopia hex logo" class = "pull-left" >}}
+<!--html_preserve-->
+{{< figure src = "2021-02-03-targets/targetopia.png" alt = "targetopia hex logo" >}}
+<!--/html_preserve-->
 
+{{< imgtxt >}}
 The [R Targetopia](https://wlandau.github.io/targetopia/)[^11] is an emerging ecosystem of packages with target factories, and they make [`targets`](https://docs.rOpenSci.org/targets/) easier to use for specific domains of Statistics and data science.
+{{</ imgtxt >}}
 
 ### Stantargets
 
