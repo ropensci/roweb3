@@ -15,7 +15,7 @@ tags:
   - targets
   - drake
   - pipelines
-  - workflow automation
+  - workflow-automation
   - workflows
 description: "targets: democratizing reproducible analysis pipelines"
 twitterImg: technotes/2021/02/03/targets/targets.png
