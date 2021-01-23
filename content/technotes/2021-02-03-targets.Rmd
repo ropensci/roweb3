@@ -88,7 +88,7 @@ rOpenSci's [`targets`](https://docs.ropensci.org/targets/)[^2] package is a new 
 install.packages("targets")
 ```
 
-{{< figure src = "targets.png" alt = "targets hex" class = "pull-left" >}}
+{{< figure src = "targets.png" alt = "targets hex logo" class = "pull-left" >}}
 
 [`targets`](https://docs.ropensci.org/targets/) is the long-term successor of [`drake`](https://github.com/ropensci/drake)[^3], which in turn succeeded [Rich FitzJohn](https://ropensci.org/author/rich-fitzjohn/)'s groundbreaking [`remake`](https://github.com/richfitz/remake)[^4] package. [Click here](https://books.ropensci.org/targets/drake.html) to learn about the future of [`drake`](https://github.com/ropensci/drake), the advantages of [`targets`](https://docs.ropensci.org/targets/), and how to transition. The [reference website](https://docs.ropensci.org/targets/) explains how to get started, and the [overview vignette](https://docs.ropensci.org/targets/articles/overview.html) describes the major features of [`targets`](https://docs.ropensci.org/targets/) and its [user manual](https://books.ropensci.org/targets/).
 
@@ -265,7 +265,7 @@ list( # Target lists can be arbitrarily nested.
 
 ## The R Targetopia
 
-{{< figure src = "targetopia.png" alt = "targetopia hex" class = "pull-left" >}}
+{{< figure src = "targetopia.png" alt = "targetopia hex logo" class = "pull-left" >}}
 
 The [R Targetopia](https://wlandau.github.io/targetopia/)[^11] is an emerging ecosystem of packages with target factories, and they make [`targets`](https://docs.ropensci.org/targets/) easier to use for specific domains of Statistics and data science.
 
