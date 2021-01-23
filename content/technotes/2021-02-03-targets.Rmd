@@ -271,7 +271,7 @@ The [R Targetopia](https://wlandau.github.io/targetopia/)[^11] is an emerging ec
 
 ### `stantargets`
 
-[`stantargets`](https://wlandau.github.io/stantargets/)[^12] abstracts away most of the targets and functions required for a solid Bayesian data analysis with [Stan](https://mc-stan.org). With a single [target factory](https://wlandau.github.io/targetopia/contributing.html#target-factories) and a single function to generate data, [`stantargets`](https://wlandau.github.io/stantargets/) gives you an entire sensitivity analysis or an entire [simulation-based calibration study](https://wlandau.github.io/stantargets/articles/mcmc_rep.html) [@cook2006; @talts2020].
+[`stantargets`](https://wlandau.github.io/stantargets/)[^12] abstracts away most of the targets and functions required for a solid Bayesian data analysis with [Stan](https://mc-stan.org)[^13]. With a single [target factory](https://wlandau.github.io/targetopia/contributing.html#target-factories) and a single function to generate data, [`stantargets`](https://wlandau.github.io/stantargets/) gives you an entire sensitivity analysis or an entire [simulation-based calibration study](https://wlandau.github.io/stantargets/articles/mcmc_rep.html)[^14][^15]
 
 ```{r, echo = TRUE, eval = FALSE}
 # _targets.R for simulation-based calibration to validate a Stan model.
@@ -342,7 +342,7 @@ tar_visnetwork()
 
 ### `tarchetypes`
 
-[`tarchetypes`](https://docs.ropensci.org/tarchetypes/) is also part the [R Targetopia](https://wlandau.github.io/targetopia/) too, and it is far more general than [`stantargets`](https://wlandau.github.io/stantargets/). Its target factories include [`tar_rep()`](https://docs.ropensci.org/tarchetypes/reference/tar_rep.html) for arbitrary simulation studies, [`tar_render()`](https://books.ropensci.org/targets/files.html#literate-programming) for [dependency-aware](https://books.ropensci.org/targets/files.html#literate-programming) literate programming, and [`tar_render_rep()`](https://docs.ropensci.org/tarchetypes/reference/tar_render_rep.html) for [parameterized R Markdown](https://bookdown.org/yihui/rmarkdown/parameterized-reports.html). [`tar_plan()`](https://docs.ropensci.org/tarchetypes/reference/tar_plan.html) is a [`drake_plan()`](https://docs.ropensci.org/drake/reference/drake_plan.html)-like target factory to help [`drake`](https://docs.ropensci.org/drake/) users transition to [`targets`](https://docs.ropensci.org/targets/).
+[`tarchetypes`](https://docs.ropensci.org/tarchetypes/)[^16] is also part the [R Targetopia](https://wlandau.github.io/targetopia/), and it is far more general than [`stantargets`](https://wlandau.github.io/stantargets/). Its target factories include [`tar_rep()`](https://docs.ropensci.org/tarchetypes/reference/tar_rep.html) for arbitrary simulation studies, [`tar_render()`](https://books.ropensci.org/targets/files.html#literate-programming) for [dependency-aware](https://books.ropensci.org/targets/files.html#literate-programming) literate programming, and [`tar_render_rep()`](https://docs.ropensci.org/tarchetypes/reference/tar_render_rep.html) for [parameterized R Markdown](https://bookdown.org/yihui/rmarkdown/parameterized-reports.html). [`tar_plan()`](https://docs.ropensci.org/tarchetypes/reference/tar_plan.html) is a [`drake_plan()`](https://docs.ropensci.org/drake/reference/drake_plan.html)-like target factory to help [`drake`](https://docs.ropensci.org/drake/) users transition to [`targets`](https://docs.ropensci.org/targets/).
 
 ```{r, eval = FALSE}
 # _targets.R file
@@ -389,6 +389,12 @@ The views in this post do not necessarily reflect those of my employer.
 [^10]: Chambers, John. 2008. “Software for Data Analysis: Programming with R.” In "Programming with R: The Basics", 37–76. Springer. https://link.springer.com/chapter/10.1007/978-0-387-75936-4_3.
 [^11]: Landau, W. M., (2021). The R Targetopia: an R package ecosystem for democratized reproducible pipelines at scale. https://wlandau.github.io/targetopia/
 [^12]: Landau, W. M., (2021). stantargets: Targets for Stan Workflows. https://wlandau.github.io/stantargets/, https://github.com/wlandau/stantargets.
+[^13]: Stan Development Team (2012). Stan: a C++ library for probability and sampling. https://mc-stan.org.
+[^14]: Cook, Samantha R., Andrew Gelman, and Donald B. Rubin. 2006. “Validation of Software for Bayesian Models Using Posterior Quantiles.” Journal of Computational and Graphical Statistics 15 (3): 675–92. http://www.jstor.org/stable/27594203.
+[^15]: Talts, Sean, Michael Betancourt, Daniel Simpson, Aki Vehtari, and Andrew Gelman. 2020. “Validating Bayesian Inference Algorithms with Simulation-Based Calibration.” http://arxiv.org/abs/1804.06788.
+[^16]: Landau, W. M. (2021). tarchetypes: Archetypes for Targets. https://docs.ropensci.org/tarchetypes/, https://github.com/ropensci/tarchetypes.
+
+
 
 ```{r cleanup, include = FALSE}
 tar_destroy()
