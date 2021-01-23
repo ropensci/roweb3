@@ -129,6 +129,7 @@ create_plot <- function(data) {
 
 # List of targets.
 list(
+  # airquality dataset in base R:
   tar_target(raw_data_file, "raw_data.csv", format = "file"),
   tar_target(data, read_clean(raw_data_file)),
   tar_target(fit, fit_model(data)),
