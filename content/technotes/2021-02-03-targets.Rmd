@@ -358,7 +358,7 @@ tar_plan(
 
 ### You can help!
 
-The [R Targetopia](https://wlandau.github.io/targetopia/) has exciting potential for  [tidymodels](https://www.tidymodels.org/), [`mlr3`](https://mlr3.mlr-org.com/), [`keras`](https://keras.rstudio.com/), [`torch`](https://torch.mlverse.org/), PK/PD, spatial statistics, and beyond. If your field needs a friendly pipeline tool, please consider creating an [R Targetopia](https://wlandau.github.io/targetopia/) package of your very own. I am [trying to make it easy](https://wlandau.github.io/targetopia/contributing.html), and I would be eager to get in touch.
+The [R Targetopia](https://wlandau.github.io/targetopia/) has exciting potential for  [tidymodels](https://www.tidymodels.org/)[^17], [`mlr3`](https://mlr3.mlr-org.com/)[^18], [`keras`](https://keras.rstudio.com/)[^19], [`torch`](https://torch.mlverse.org/)[^20], PK/PD, spatial statistics, and beyond. If your field needs a friendly pipeline tool, please consider creating an [R Targetopia](https://wlandau.github.io/targetopia/) package of your very own. I am [trying to make it easy](https://wlandau.github.io/targetopia/contributing.html), and I would be eager to get in touch.
 
 ## Thanks
 
@@ -376,23 +376,27 @@ The views in this post do not necessarily reflect those of my employer.
 
 ## References
 
-[^1]: Stallman, R. (1998). GNU Make, Version 3.77. Free Software Foundation. ISBN: 1882114809.
-[^2]: Landau, W. M., (2021). The targets R package: a dynamic Make-like function-oriented pipeline toolkit for reproducibility and high-performance computing. Journal of Open Source Software, 6(57), 2959, https://doi.org/10.21105/joss.02959.
-[^3]: Landau, W. M. (2018). The drake R package: a pipeline toolkit for reproducibility and high-performance computing. Journal of Open Source Software, 3(21), 550. https://doi.org/
-10.21105/joss.00550.
+[^1]: Stallman, R. (1998). GNU Make, Version 3.77. Free Software Foundation. ISBN: 1882114809
+[^2]: Landau, W. M., (2021). The targets R package: a dynamic Make-like function-oriented pipeline toolkit for reproducibility and high-performance computing. Journal of Open Source Software, 6(57), 2959, https://doi.org/10.21105/joss.02959
+[^3]: Landau, W. M. (2018). The drake R package: a pipeline toolkit for reproducibility and high-performance computing. Journal of Open Source Software, 3(21), 550. https://doi.org/10.21105/joss.00550
 [^4]: Rich FitzJohn (2021). remake: Make-like build management. R package version 0.3.0.
-[^5]: JJ Allaire and Yihui Xie and Jonathan McPherson and Javier Luraschi and Kevin Ushey and Aron Atkins and Hadley Wickham and Joe Cheng and Winston Chang and Richard Iannone (2021). rmarkdown: Dynamic Documents for R. R package version 2.6.4. URL https://rmarkdown.rstudio.com.
-[^6]: Schubert, M. (2019). clustermq enables efficient parallelization of genomic analyses. Bioinformatics, 35(21), 4493–4495. https://doi.org/10.1093/bioinformatics/btz284.
-[^7]: Bengtsson, H. (2020). A unifying framework for parallel and distributed processing in R using futures. https://arxiv.org/abs/2008.00553.
+[^5]: JJ Allaire and Yihui Xie and Jonathan McPherson and Javier Luraschi and Kevin Ushey and Aron Atkins and Hadley Wickham and Joe Cheng and Winston Chang and Richard Iannone (2021). rmarkdown: Dynamic Documents for R. R package version 2.6.4. URL https://rmarkdown.rstudio.com
+[^6]: Schubert, M. (2019). clustermq enables efficient parallelization of genomic analyses. Bioinformatics, 35(21), 4493–4495. https://doi.org/10.1093/bioinformatics/btz284
+[^7]: Bengtsson, H. (2020). A unifying framework for parallel and distributed processing in R using futures. https://arxiv.org/abs/2008.00553
 [^8]: Yoo A.B., Jette M.A., Grondona M. (2003) SLURM: Simple Linux Utility for Resource Management. In: Feitelson D., Rudolph L., Schwiegelshohn U. (eds) Job Scheduling Strategies for Parallel Processing. JSSPP 2003. Lecture Notes in Computer Science, vol 2862. Springer, Berlin, Heidelberg. https://doi.org/10.1007/10968987_3
-[^9]: Amazon Web Services (2020). Overview of Amazon Web Services. https://d1.awsstatic.com/whitepapers/aws-overview.pdf. 
-[^10]: Chambers, John. 2008. “Software for Data Analysis: Programming with R.” In "Programming with R: The Basics", 37–76. Springer. https://link.springer.com/chapter/10.1007/978-0-387-75936-4_3.
+[^9]: Amazon Web Services (2020). Overview of Amazon Web Services. https://d1.awsstatic.com/whitepapers/aws-overview.pdf
+[^10]: Chambers, John. 2008. “Software for Data Analysis: Programming with R.” In "Programming with R: The Basics", 37–76. Springer. https://link.springer.com/chapter/10.1007/978-0-387-75936-4_3
 [^11]: Landau, W. M., (2021). The R Targetopia: an R package ecosystem for democratized reproducible pipelines at scale. https://wlandau.github.io/targetopia/
 [^12]: Landau, W. M., (2021). stantargets: Targets for Stan Workflows. https://wlandau.github.io/stantargets/, https://github.com/wlandau/stantargets.
-[^13]: Stan Development Team (2012). Stan: a C++ library for probability and sampling. https://mc-stan.org.
-[^14]: Cook, Samantha R., Andrew Gelman, and Donald B. Rubin. 2006. “Validation of Software for Bayesian Models Using Posterior Quantiles.” Journal of Computational and Graphical Statistics 15 (3): 675–92. http://www.jstor.org/stable/27594203.
-[^15]: Talts, Sean, Michael Betancourt, Daniel Simpson, Aki Vehtari, and Andrew Gelman. 2020. “Validating Bayesian Inference Algorithms with Simulation-Based Calibration.” http://arxiv.org/abs/1804.06788.
+[^13]: Stan Development Team (2012). Stan: a C++ library for probability and sampling. https://mc-stan.org
+[^14]: Cook, Samantha R., Andrew Gelman, and Donald B. Rubin. 2006. “Validation of Software for Bayesian Models Using Posterior Quantiles.” Journal of Computational and Graphical Statistics 15 (3): 675–92. http://www.jstor.org/stable/27594203
+[^15]: Talts, Sean, Michael Betancourt, Daniel Simpson, Aki Vehtari, and Andrew Gelman. 2020. “Validating Bayesian Inference Algorithms with Simulation-Based Calibration.” http://arxiv.org/abs/1804.06788
 [^16]: Landau, W. M. (2021). tarchetypes: Archetypes for Targets. https://docs.ropensci.org/tarchetypes/, https://github.com/ropensci/tarchetypes.
+[^17]: Kuhn et al., (2020). Tidymodels: a collection of packages for modeling and machine learning using tidyverse principles. https://www.tidymodels.org
+[^18]: Lang M, Binder M, Richter J, Schratz P, Pfisterer F, Coors S, Au Q, Casalicchio G, Kotthoff L, Bischl B (2019). mlr3: A modern object-oriented machine learning framework in R. Journal of Open Source Software. https://doi.org/10.21105/joss.01903,  https://joss.theoj.org/papers/10.21105/joss.01903
+[^19]: JJ Allaire and François Chollet (2020). keras: R Interface to 'Keras'. R package version 2.3.0.0. https://CRAN.R-project.org/package=keras
+[^20]: Daniel Falbel and Javier Luraschi (2020). torch: Tensors and Neural Networks with 'GPU' Acceleration. R package version 0.2.0. https://CRAN.R-project.org/package=torch
+
 
 
 
