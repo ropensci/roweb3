@@ -84,7 +84,8 @@ Data science becomes smoother and more rewarding.
 
 ## What is `targets`?
 
-rOpenSci's [`targets`](https://docs.rOpenSci.org/targets/)[^2] package is a new pipeline toolkit for R, and it just arrived on CRAN.
+[`targets`](https://docs.rOpenSci.org/targets/)[^2] package is a new pipeline toolkit for R.
+It recently cleared [software review](https://github.com/ropensci/software-review/issues/401), and it is now on CRAN.
 
 ```{r, eval = FALSE}
 install.packages("targets")
@@ -376,20 +377,20 @@ I am [trying to make it easy](https://wlandau.github.io/targetopia/contributing.
 ## Thanks
 
 Volunteers drive the rOpenSci review process, and each review is an act of altruism.
-This was especially true for [`targets`](https://docs.rOpenSci.org/targets/) because of overlap with the holidays, COVID-19, and the unusually copious workload.
+This was especially true for the [`targets`](https://docs.rOpenSci.org/targets/) because of overlap with the holidays, COVID-19, and the unusually copious workload.
 Despite the obstacles, everyone [delivered incredible feedback](https://github.com/rOpenSci/software-review/issues/401) that substantially improved [`targets`](https://docs.rOpenSci.org/targets/) and its documentation.
 [Sam Oliver](http://limnoliver.weebly.com) and [TJ Mahr](https://www.tjmahr.com) served as reviewers, and [Mauro Lepore](/author/mauro-lepore/) served as editor.
 Sam inspired a [section on getting started](https://docs.rOpenSci.org/targets/index.html#how-to-get-started), an [overview vignette](https://docs.rOpenSci.org/targets/articles/overview.html), [more debugging advice](https://books.rOpenSci.org/targets/debugging.html#interactive-debugging), and a new [`tar_branches()`](https://docs.rOpenSci.org/targets/reference/tar_branches.html) function to show branch provenance.
 TJ suggested a new [chapter on functions](https://books.rOpenSci.org/targets/functions.html), helped me [contrast the two styles of branching](https://books.rOpenSci.org/targets/dynamic.html#branching), and raised interesting questions about target names.
 Mauro was continuously diligent, responsive, thoughtful, and conscientious as he mediated the review process and ensured a successful outcome.
 
-Thanks also to [Matt Warkentin](https://mattwarkentin.github.io), [Timing Liu](https://timingliu.com), [Miles McBain](https://milesmcbain.xyz), [Gorka Navarrete](https://github.com/gorkang), [Bruno Carlin](https://twosidesdata.netlify.com/), [Noam Ross](https://www.noamross.net/), [Kendon Bell](https://github.com/kendonB), and [others](https://github.com/rOpenSci/targets/issues) who adopted [`targets`](https://docs.rOpenSci.org/targets/) early in development, proposed insightful ideas, and influenced the direction and behavior of the package.
+Thanks also to [Matt Warkentin](https://mattwarkentin.github.io), [Timing Liu](https://timingliu.com), [Miles McBain](/author/miles-mcbain), [Gorka Navarrete](https://github.com/gorkang), [Bruno Carlin](https://twosidesdata.netlify.com/), [Noam Ross](/author/noam-ross), [Kendon Bell](https://github.com/kendonB), and [others](https://github.com/rOpenSci/targets/issues) who adopted [`targets`](https://docs.rOpenSci.org/targets/) early in development, proposed insightful ideas, and influenced the direction and behavior of the package.
 
-My colleague [Richard Payne](https://www.linkedin.com/in/richard-d-payne-2b3b0b3b/) was a serious [`drake`](https://docs.rOpenSci.org/drake/) user, and he built a proprietary [`drake_plan()`](https://docs.rOpenSci.org/drake/reference/drake_plan.html) generator for our team.
+My colleague [Richard Payne](https://github.com/rich-payne) was a serious [`drake`](https://docs.rOpenSci.org/drake/) user, and he built a proprietary [`drake_plan()`](https://docs.rOpenSci.org/drake/reference/drake_plan.html) generator for our team.
 His package was the major inspiration for target factories and the [R Targetopia](https://wlandau.github.io/targetopia/).
 
 Everyone who contributed to [`drake`](https://github.com/rOpenSci/drake) is part of the creation of [`targets`](https://docs.rOpenSci.org/targets/).
-Four years of [pull requests](https://docs.rOpenSci.org/targets//pulls),  [issues](https://docs.rOpenSci.org/targets//issues), [rOpenSci discussions](https://discuss.rOpenSci.org/), [RStudio Community posts](https://community.rstudio.com/), [Stack Overflow threads](https://stackoverflow.com/questions/tagged/drake-r-package) shifted my thinking about the role of pipeline tools in R.
+Four years of [pull requests](https://github.com/ropensci/drake/pulls),  [issues](https://github.com/ropensci/drake/issues), [rOpenSci discussions](https://discuss.rOpenSci.org/), [RStudio Community posts](https://community.rstudio.com/), [Stack Overflow threads](https://stackoverflow.com/questions/tagged/drake-r-package) shifted my thinking about the role of pipeline tools in R.
 
 ## Disclaimer
 
