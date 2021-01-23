@@ -87,13 +87,11 @@ Data science becomes smoother and more rewarding.
 ## What is `targets`?
 
 <!--html_preserve-->
-{{< figure src = "technotes/2021/02/03/targets.png" alt = "targets hex logo" >}}
+{{< figure src = "technotes/2021-02-03-targets/targets.png" alt = "targets hex logo" >}}
 <!--/html_preserve-->
 
-{{< imgtxt >}}
 [`targets`](https://docs.rOpenSci.org/targets/)[^2] package is a new pipeline toolkit for R.
 It recently cleared [software review](https://github.com/ropensci/software-review/issues/401), and it is now on CRAN.
-{{</ imgtxt >}}
 
 ```{r, eval = FALSE}
 install.packages("targets")
@@ -283,12 +281,10 @@ list( # Target lists can be arbitrarily nested.
 ## R targetopia
 
 <!--html_preserve-->
-{{< figure src = "technotes/2021/02/03/targetopia.png" alt = "targetopia hex logo" >}}
+{{< figure src = "technotes/2021-02-03-targets/targetopia.png" alt = "targetopia hex logo" >}}
 <!--/html_preserve-->
 
-{{< imgtxt >}}
 The [R Targetopia](https://wlandau.github.io/targetopia/)[^11] is an emerging ecosystem of packages with target factories, and they make [`targets`](https://docs.rOpenSci.org/targets/) easier to use for specific domains of Statistics and data science.
-{{</ imgtxt >}}
 
 ### Stantargets
 
