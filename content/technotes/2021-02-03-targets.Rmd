@@ -195,7 +195,7 @@ tar_make()
 ```
 
 Alternatives [`tar_make_clustermq()`](https://docs.rOpenSci.org/targets/reference/tar_make_clustermq.html) and [`tar_make_future()`](https://docs.rOpenSci.org/targets/reference/tar_make_future.html) leverage [`clustermq`](https://mschubert.github.io/clustermq/)[^6] and [`future`](https://github.com/HenrikBengtsson/future)[^7], respectively, to distribute targets on traditional schedulers such as [SLURM](https://slurm.schedmd.com/documentation.html)[^8].
-It is only a matter of time before these backends become ready to [leverage the cloud](https://aws.amazon.com/)[^9].
+It is only a matter of time before these backends can [send jobs to the cloud](https://aws.amazon.com/)[^9].
 
 Your results live in either the [`_targets/` data folder](https://books.rOpenSci.org/targets/files.html#internal-files) or [Amazon S3 buckets](https://books.rOpenSci.org/targets/cloud.html#storage), depending on your preferences.
 But no matter where you put the data, you can load it back into R the same way.
