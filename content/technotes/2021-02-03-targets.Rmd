@@ -443,8 +443,8 @@ Thanks also to [Matt Warkentin](https://mattwarkentin.github.io), [Timing Liu](h
 My colleague [Richard Payne](https://github.com/rich-payne) was a serious [`drake`](https://docs.rOpenSci.org/drake/) user, and he built a proprietary [`drake_plan()`](https://docs.rOpenSci.org/drake/reference/drake_plan.html) generator for our team.
 His package was the major inspiration for target factories and the [R Targetopia](https://wlandau.github.io/targetopia/).
 
-Everyone who contributed to [`drake`](https://github.com/rOpenSci/drake) is part of the creation of [`targets`](https://docs.rOpenSci.org/targets/).
-Four years of [pull requests](https://github.com/ropensci/drake/pulls),  [issues](https://github.com/ropensci/drake/issues), [rOpenSci discussions](https://discuss.rOpenSci.org/), [RStudio Community posts](https://community.rstudio.com/), [Stack Overflow threads](https://stackoverflow.com/questions/tagged/drake-r-package) shifted my thinking about the role of pipeline tools in R.
+Everyone who contributed to [`drake`](https://github.com/rOpenSci/drake) is part of [`targets`](https://docs.rOpenSci.org/targets/).
+Four years of [pull requests](https://github.com/ropensci/drake/pulls),  [issues](https://github.com/ropensci/drake/issues), [rOpenSci discussions](https://discuss.rOpenSci.org/), [RStudio Community posts](https://community.rstudio.com/), [Stack Overflow threads](https://stackoverflow.com/questions/tagged/drake-r-package) are  materializing in this new suite of tools.
 
 ## Disclaimer
 
