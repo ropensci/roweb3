@@ -219,7 +219,7 @@ tar_read(hist) # see also tar_load()
 {{< figure src = "technotes/2021-02-03-targets/histogram.png" alt = "histogram of ozone readings from the airquality dataset in base R">}}
 <!--/html_preserve-->
 
-Up-to-date targets do not rerun, which saves countless hours of runtime in computationally intense fields like machine learning, Bayesian statistics, statistical genomics.
+Up-to-date targets do not rerun, which saves countless hours of runtime in computationally intense fields like machine learning, Bayesian statistics, and statistical genomics.
 
 ```{r}
 # R console
