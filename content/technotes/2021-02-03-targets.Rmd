@@ -232,7 +232,7 @@ To help workflows scale, [`targets`](https://docs.rOpenSci.org/targets/) adopts 
 
 <blockquote><p lang="en" dir="ltr">Nearly everything that happens in R results from a function call. Therefore, basic programming centers on creating and refining functions.</p>&mdash; John Chambers</blockquote>
 
-The more often you write your own functions, the nicer your experience will be.
+The more often you write your own functions, the nicer your experience becomes.
 
 <!--html_preserve-->
 {{< tweet 1339447101487341570 >}}
