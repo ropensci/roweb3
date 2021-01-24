@@ -97,7 +97,7 @@ The [reference website](https://docs.rOpenSci.org/targets/) explains how to get 
 
 ## How it works
 
-In [`targets`](https://docs.rOpenSci.org/targets/), a data analysis pipeline is a collection of [target](https://docs.rOpenSci.org/targets/reference/tar_target.html) objects that [express the individual steps](https://books.rOpenSci.org/targets/walkthrough.html) of the workflow, from upstream data cleaning to downstream [R Markdown reports](https://books.rOpenSci.org/targets/files.html#literate-programming)[^5].
+In [`targets`](https://docs.rOpenSci.org/targets/), a data analysis pipeline is a collection of [target](https://docs.rOpenSci.org/targets/reference/tar_target.html) objects that [express the individual steps](https://books.rOpenSci.org/targets/walkthrough.html) of the workflow, from upstream data processing to downstream [R Markdown reports](https://books.rOpenSci.org/targets/files.html#literate-programming)[^5].
 These targets live in a special script called `_targets.R`.
 
 ```{r, eval = FALSE}
