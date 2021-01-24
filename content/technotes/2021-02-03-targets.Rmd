@@ -71,6 +71,7 @@ library(stantargets)
 library(targets)
 library(tarchetypes)
 library(tidyverse)
+library(visNetwork)
 ```
 
 [Make](https://www.gnu.org/software/make/)[^1]-like pipelines enhance the integrity, transparency, shelf life, efficiency, and scale of large analysis projects.
@@ -162,13 +163,22 @@ tar_script({
 })
 ```
 
-[`targets`](https://docs.rOpenSci.org/targets/) inspects your code and constructs a dependency graph.
+[`targets`](https://docs.rOpenSci.org/targets/) inspects your code and constructs a dependency 
 
-```{r minimal-graph, hugoopts = list(alt = "minimal graph"), eval = TRUE}
+```{r, echo = FALSE}
+tar_visnetwork() %>%
+  visOptions(width = "100%", height = "500px") %>%
+  visSave(file = "2021-02-03-targets/graph-minimal.html")
+```
+
+```{r, eval = FALSE}
 # R console
-library(targets)
 tar_visnetwork()
 ```
+
+<!--html_preserve--> 
+<iframe src = "2021-02-03-targets/graph-minimal.html" width = "100%" height = "550px" frameBorder="0" title = "dependency graph of the minimal example"></iframe>
+<!--/html_preserve-->
 
 [`tar_make()`](https://docs.rOpenSci.org/targets/reference/tar_make.html) runs the correct targets in the correct order.
 
@@ -183,10 +193,23 @@ It is only a matter of time before these backends become [cloud-capable](https:/
 Your results live either in the [`_targets/` data folder](https://books.rOpenSci.org/targets/files.html#internal-files) or in [Amazon S3 buckets](https://books.rOpenSci.org/targets/cloud.html#storage), depending on your preferences.
 Regardless, the way to load the data back into R is the same.
 
-```{r histogram, hugoopts = list(alt = "histogram")}
+```{r, echo = FALSE}
+ggsave(
+  filename = "2021-02-03-targets/histogram.png",
+  plot = tar_read(hist),
+  width = 8,
+  height = 8
+)
+```
+
+```{r, eval = FALSE}
 # R console
 tar_read(hist) # see also tar_load()
 ```
+
+<!--html_preserve-->
+{{< figure src = "technotes/2021-02-03-targets/histogram.png" alt = "histogram of ozone readings from the airquality dataset in base R">}}
+<!--/html_preserve-->
 
 Targets do not run if they are up to date, which saves countless hours of runtime in computationally intense fields like Bayesian data analysis and statistical genomics.
 
@@ -345,10 +368,20 @@ tar_script({
 })
 ```
 
-```{r stantargets-graph, hugoopts = list(alt = "stantargets graph"), eval = TRUE}
+```{r, echo = FALSE}
+tar_visnetwork() %>%
+  visOptions(width = "100%", height = "500px") %>%
+  visSave(file = "2021-02-03-targets/graph-stantargets.html")
+```
+
+```{r, eval = FALSE}
 # R console
 tar_visnetwork()
 ```
+
+<!--html_preserve--> 
+<iframe src = "2021-02-03-targets/graph-stantargets.html" width = "100%" height = "550px" frameBorder="0" title = "stantargets dependency graph"></iframe>
+<!--/html_preserve-->
 
 <!--html_preserve--> <h3><a href = "https://docs.ropensci.org/tarchetypes/"</a><code>tarchetypes</code></a> {{< figure src = "technotes/2021-02-03-targets/tarchetypes.png" alt = "targets hex logo" height = "139" class = "pull-right" >}}</h3> <!--/html_preserve-->
 
