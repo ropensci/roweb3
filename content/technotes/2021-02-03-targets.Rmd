@@ -317,7 +317,7 @@ cmdstanr::install_cmdstan()
 ```
 
 [`stantargets`](https://wlandau.github.io/stantargets/)[^12] abstracts away most of the targets and functions required for a solid Bayesian data analysis with [Stan](https://mc-stan.org)[^13].
-With a single [target factory](https://wlandau.github.io/targetopia/contributing.html#target-factories) and a single function to generate data, [`stantargets`](https://wlandau.github.io/stantargets/) gives you an entire sensitivity analysis or an entire [simulation-based calibration study](https://wlandau.github.io/stantargets/articles/mcmc_rep.html)[^14][^15]
+With a single [target factory](https://wlandau.github.io/targetopia/contributing.html#target-factories) and a single function to generate data, [`stantargets`](https://wlandau.github.io/stantargets/) gives you an entire sensitivity analysis or an entire [simulation-based calibration study](https://wlandau.github.io/stantargets/articles/mcmc_rep.html).[^14][^15]
 
 ```{r, echo = TRUE, eval = FALSE}
 # _targets.R for simulation-based calibration to validate a Stan model.
@@ -338,8 +338,8 @@ list(
     model,
     "model.stan",
     generate_data(), # Runs once per rep.
-    batches = 5, # Number of branch targets.
-    reps = 2, # Number of model reps per branch target.
+    batches = 25, # Batching reduces per-target overhead.
+    reps = 40, # Number of simulation reps per batch.
     data_copy = "true_beta",
     variables = "beta",
     summaries = list(
