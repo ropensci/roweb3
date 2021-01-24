@@ -153,7 +153,9 @@ tar_script({
       theme_gray(24) +
       theme(
         panel.background = element_rect(fill = "transparent"),
-        plot.background = element_rect(fill = "transparent", color = NA)
+        plot.background = element_rect(fill = "transparent", color = NA),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank()
       )
   }
   options(tidyverse.quiet = TRUE, crayon.enabled = FALSE)
