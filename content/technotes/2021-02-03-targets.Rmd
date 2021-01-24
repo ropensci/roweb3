@@ -238,7 +238,7 @@ The more often you write your own functions, the nicer your experience becomes.
 {{< tweet 1339447101487341570 >}}
 <!--/html_preserve-->
 
-But if your mind is on the domain knowledge, or if you are under pressure to work fast, then it can be hard to write functions for everything.
+But if your mind is on the domain knowledge, or if you feel pressure to work fast, then it can be hard to write functions for everything.
 
 ## Target factories
 
