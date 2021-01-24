@@ -90,7 +90,7 @@ With pipelines, data science feels smoother and more rewarding, and the results 
 install.packages("targets")
 ```
 
-[`targets`](https://docs.rOpenSci.org/targets/)[^2] package is a new pipeline toolkit for R.
+The [`targets`](https://docs.rOpenSci.org/targets/)[^2] package is a new pipeline toolkit for R.
 It recently cleared [software review](https://github.com/rOpenSci/software-review/issues/401), and it is now on CRAN. [`targets`](https://docs.rOpenSci.org/targets/) is the long-term successor of [`drake`](https://github.com/rOpenSci/drake)[^3], which in turn succeeded [Rich FitzJohn](/author/rich-fitzjohn/)'s groundbreaking [`remake`](https://github.com/richfitz/remake)[^4] package.
 A [chapter in the user manual](https://books.rOpenSci.org/targets/drake.html) explains the future of [`drake`](https://github.com/rOpenSci/drake), the advantages of [`targets`](https://docs.rOpenSci.org/targets/), and how to transition.
 The [reference website](https://docs.rOpenSci.org/targets/) explains how to get started, and the [overview vignette](https://docs.rOpenSci.org/targets/articles/overview.html) describes the major features of [`targets`](https://docs.rOpenSci.org/targets/) and its [user manual](https://books.rOpenSci.org/targets/).
