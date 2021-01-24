@@ -173,7 +173,7 @@ tar_script({
 
 ```{r, echo = FALSE}
 tar_visnetwork() %>%
-  visLegend() %>%
+  visOptions(width = "75%", height = "400px") %>%
   visSave(
     file = "2021-02-03-targets/graph-minimal.html",
     background = "transparent"
@@ -381,7 +381,7 @@ tar_script({
 
 ```{r, echo = FALSE}
 tar_visnetwork() %>%
-  visLegend() %>%
+  visOptions(width = "75%", height = "400px") %>%
   visSave(
     file = "2021-02-03-targets/graph-stantargets.html",
     background = "transparent"
