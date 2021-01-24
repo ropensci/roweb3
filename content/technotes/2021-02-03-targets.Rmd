@@ -228,11 +228,11 @@ tar_make()
 
 ## The next challenge
 
-To help workflows scale, [`targets`](https://docs.rOpenSci.org/targets/) adopts the classical, pedantic, function-oriented worldview of R itself.[^10]
+To help workflows scale, [`targets`](https://docs.rOpenSci.org/targets/) adopts the classical, pedantic, function-oriented perspective of the R language.[^10]
 
 <blockquote><p lang="en" dir="ltr">Nearly everything that happens in R results from a function call. Therefore, basic programming centers on creating and refining functions.</p>&mdash; John Chambers</blockquote>
 
-The more often you write your own functions to support your targets, the friendlier the package becomes.
+The more often you write your own functions, the friendlier your experience will be.
 
 <!--html_preserve-->
 {{< tweet 1339443129930280960 >}}
@@ -243,8 +243,8 @@ But if your mind is on the domain knowledge, or if you are under pressure to wor
 ## Target factories
 
 The best way to write fewer functions is to write less code.
-To write less code, we need strategic abstractions.
-Target factories are reusable shorthand to return whole lists of pre-configured target objects, ideally implemented inside packages.
+To write less code, we need abstraction and automation.
+Target factories are package functions that return lists of target objects, and they make specialized pipelines reusable.
 
 ```{r, eval = FALSE}
 # script inside example.package
@@ -285,7 +285,7 @@ biglm_factory <- function(file) {
 }
 ```
 
-Our long `_targets.R` file suddenly collapses down to two lines.
+Using the factory above, our long `_targets.R` file suddenly collapses down to two lines.
 
 ```{r, eval = FALSE}
 # _targets.R file
