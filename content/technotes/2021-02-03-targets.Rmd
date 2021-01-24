@@ -150,7 +150,11 @@ tar_script({
   create_plot <- function(data) {
     ggplot(data) +
       geom_histogram(aes(x = Ozone), bins = 12) +
-      theme_gray(24)
+      theme_gray(24) +
+      theme(
+        panel.background = element_rect(fill = "transparent"),
+        plot.background = element_rect(fill = "transparent", color = NA)
+      )
   }
   options(tidyverse.quiet = TRUE, crayon.enabled = FALSE)
   tar_option_set(packages = c("biglm", "tidyverse"))
@@ -199,7 +203,8 @@ ggsave(
   filename = "2021-02-03-targets/histogram.png",
   plot = tar_read(hist),
   width = 8,
-  height = 4
+  height = 4,
+  bg = "transparent"
 )
 ```
 
