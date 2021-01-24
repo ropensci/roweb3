@@ -198,7 +198,7 @@ ggsave(
   filename = "2021-02-03-targets/histogram.png",
   plot = tar_read(hist),
   width = 8,
-  height = 8
+  height = 6
 )
 ```
 
@@ -208,7 +208,7 @@ tar_read(hist) # see also tar_load()
 ```
 
 <!--html_preserve-->
-{{< figure src = "technotes/2021-02-03-targets/histogram.png" alt = "histogram of ozone readings from the airquality dataset in base R">}}
+{{< figure src = "technotes/2021-02-03-targets/histogram.png" alt = "histogram of ozone readings from the airquality dataset in base R" height = "400px" width = "100%">}}
 <!--/html_preserve-->
 
 Targets do not run if they are up to date, which saves countless hours of runtime in computationally intense fields like Bayesian data analysis and statistical genomics.
