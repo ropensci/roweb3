@@ -85,10 +85,12 @@ Data science becomes smoother and more rewarding.
 <blockquote><p lang="en" dir="ltr">{targets} and its predecessors are visionary work. I can't imagine making pipelines in a linear script ever again.</p>&mdash; Miles McBain (@MilesMcBain) <a href="https://twitter.com/MilesMcBain/status/1347379570282954756?ref_src=twsrc%5Etfw">January 8, 2021</a></blockquote>
 <!--/html_preserve-->
 
-<!--html_preserve--> <h2>About <a href = "https://docs.ropensci.org/targets/"</a><code>targets</code></a> {{< figure src = "technotes/2021-02-03-targets/targets.png" alt = "targets hex logo" height = "139" class = "pull-right" style = "margin-left: 10px">}}</h2> <!--/html_preserve-->
+<!--html_preserve--> <h2>About <a href = "https://docs.ropensci.org/targets/"</a><code>targets</code></a> {{< figure src = "technotes/2021-02-03-targets/targets.png" alt = "targets hex logo" height = "139" class = "pull-right">}}</h2> <!--/html_preserve-->
 
+<div style = "padding-right: 20px">
 [`targets`](https://docs.rOpenSci.org/targets/)[^2] package is a new pipeline toolkit for R.
 It recently cleared [software review](https://github.com/ropensci/software-review/issues/401), and it is now on CRAN.
+</div>
 
 ```{r, eval = FALSE}
 install.packages("targets")
@@ -198,7 +200,7 @@ ggsave(
   filename = "2021-02-03-targets/histogram.png",
   plot = tar_read(hist),
   width = 8,
-  height = 6
+  height = 4
 )
 ```
 
@@ -208,7 +210,7 @@ tar_read(hist) # see also tar_load()
 ```
 
 <!--html_preserve-->
-{{< figure src = "technotes/2021-02-03-targets/histogram.png" alt = "histogram of ozone readings from the airquality dataset in base R" height = "400px" width = "100%">}}
+{{< figure src = "technotes/2021-02-03-targets/histogram.png" alt = "histogram of ozone readings from the airquality dataset in base R">}}
 <!--/html_preserve-->
 
 Targets do not run if they are up to date, which saves countless hours of runtime in computationally intense fields like Bayesian data analysis and statistical genomics.
