@@ -75,7 +75,7 @@ library(visNetwork)
 ```
 
 [Make](https://www.gnu.org/software/make/)[^1]-like pipelines enhance the integrity, transparency, shelf life, efficiency, and scale of large analysis projects.
-With pipelines, data science feels smoother and more rewarding, the results are worthy of more trust.
+With pipelines, data science feels smoother and more rewarding, and the results are worthy of more trust.
 
 <!--html_preserve-->
 <!-- I thought about following the blog guide's recommendation to use the Hugo shortcode for this tweet, but I feel the media and emojis are a bit much. -->
@@ -195,10 +195,10 @@ tar_make()
 ```
 
 Alternatives [`tar_make_clustermq()`](https://docs.rOpenSci.org/targets/reference/tar_make_clustermq.html) and [`tar_make_future()`](https://docs.rOpenSci.org/targets/reference/tar_make_future.html) leverage [`clustermq`](https://mschubert.github.io/clustermq/)[^6] and [`future`](https://github.com/HenrikBengtsson/future)[^7], respectively, to distribute targets on traditional schedulers such as [SLURM](https://slurm.schedmd.com/documentation.html)[^8].
-It is only a matter of time before these backends become [cloud-capable](https://aws.amazon.com/)[^9].
+It is only a matter of time before these backends become ready to [leverage the cloud](https://aws.amazon.com/)[^9].
 
-Your results live either in the [`_targets/` data folder](https://books.rOpenSci.org/targets/files.html#internal-files) or in [Amazon S3 buckets](https://books.rOpenSci.org/targets/cloud.html#storage), depending on your preferences.
-Regardless, the way to load the data back into R is the same.
+Your results live in either the [`_targets/` data folder](https://books.rOpenSci.org/targets/files.html#internal-files) or [Amazon S3 buckets](https://books.rOpenSci.org/targets/cloud.html#storage), depending on your preferences.
+But no matter where you put the data, you can load it back into R the same way.
 
 ```{r, echo = FALSE}
 ggsave(
@@ -219,7 +219,7 @@ tar_read(hist) # see also tar_load()
 {{< figure src = "technotes/2021-02-03-targets/histogram.png" alt = "histogram of ozone readings from the airquality dataset in base R">}}
 <!--/html_preserve-->
 
-Targets do not run if they are up to date, which saves countless hours of runtime in computationally intense fields like Bayesian data analysis and statistical genomics.
+Up-to-date targets do not rerun, which saves countless hours of runtime in computationally intense fields like machine learning, Bayesian statistics, statistical genomics.
 
 ```{r}
 # R console
@@ -230,7 +230,7 @@ tar_make()
 
 To help workflows scale, [`targets`](https://docs.rOpenSci.org/targets/) adopts the classical, pedantic, function-oriented worldview of R itself.
 
-> Nearly everything that happens in R results from a function call. Therefore, basic programming centers on creating and refining functions [^10].
+<blockquote><p lang="en" dir="ltr">Nearly everything that happens in R results from a function call. Therefore, basic programming centers on creating and refining functions.[^10]</p>&mdash; John Chambers</blockquote>
 
 The more often you write your own functions to support your targets, the friendlier the package becomes.
 
@@ -244,7 +244,7 @@ But if your mind is on the domain knowledge, or if you are under pressure to wor
 
 The best way to write fewer functions is to write less code.
 To write less code, we need strategic abstractions.
-Target factories are reusable shorthand to return entire lists of target objects, ideally from inside packages.
+Target factories are reusable shorthand to return whole lists of pre-configured target objects, ideally implemented inside packages.
 
 ```{r, eval = FALSE}
 # script inside example.package
@@ -317,7 +317,7 @@ cmdstanr::install_cmdstan()
 ```
 
 [`stantargets`](https://wlandau.github.io/stantargets/)[^12] abstracts away most of the targets and functions required for a solid Bayesian data analysis with [Stan](https://mc-stan.org)[^13].
-With a single [target factory](https://wlandau.github.io/targetopia/contributing.html#target-factories) and a single function to generate data, [`stantargets`](https://wlandau.github.io/stantargets/) gives you an entire sensitivity analysis or an entire [simulation-based calibration study](https://wlandau.github.io/stantargets/articles/mcmc_rep.html).[^14][^15]
+With a single [target factory](https://wlandau.github.io/targetopia/contributing.html#target-factories) and a single function to generate data, [`stantargets`](https://wlandau.github.io/stantargets/) can give you an entire sensitivity analysis or an entire [simulation-based calibration study](https://wlandau.github.io/stantargets/articles/mcmc_rep.html).[^14][^15]
 
 ```{r, echo = TRUE, eval = FALSE}
 # _targets.R for simulation-based calibration to validate a Stan model.
@@ -425,13 +425,13 @@ tar_plan(
 ### You can help!
 
 The [R Targetopia](https://wlandau.github.io/targetopia/) has exciting potential for  [tidymodels](https://www.tidymodels.org/)[^17], [`mlr3`](https://mlr3.mlr-org.com/)[^18], [`keras`](https://keras.rstudio.com/)[^19], [`torch`](https://torch.mlverse.org/)[^20], PK/PD, spatial statistics, and beyond.
-If your field needs a friendly pipeline tool, please consider creating an [R Targetopia](https://wlandau.github.io/targetopia/) package of your very own.
+If your field needs a friendly pipeline tool, please consider creating an [R Targetopia](https://wlandau.github.io/targetopia/) package of your own.
 I am [trying to make it easy](https://wlandau.github.io/targetopia/contributing.html), and I would be eager to get in touch.
 
 ## Thanks
 
 Volunteers drive the rOpenSci review process, and each review is an act of altruism.
-This was especially true for the [`targets`](https://docs.rOpenSci.org/targets/) because of overlap with the holidays, COVID-19, and the unusually copious workload.
+This was especially true for [`targets`](https://docs.rOpenSci.org/targets/) because of COVID-19, the overlap with the holidays, and the unusually copious workload.
 Despite the obstacles, everyone [delivered incredible feedback](https://github.com/rOpenSci/software-review/issues/401) that substantially improved [`targets`](https://docs.rOpenSci.org/targets/) and its documentation.
 [Sam Oliver](http://limnoliver.weebly.com) and [TJ Mahr](https://www.tjmahr.com) served as reviewers, and [Mauro Lepore](/author/mauro-lepore/) served as editor.
 Sam inspired a [section on getting started](https://docs.rOpenSci.org/targets/index.html#how-to-get-started), an [overview vignette](https://docs.rOpenSci.org/targets/articles/overview.html), [more debugging advice](https://books.rOpenSci.org/targets/debugging.html#interactive-debugging), and a new [`tar_branches()`](https://docs.rOpenSci.org/targets/reference/tar_branches.html) function to show branch provenance.
