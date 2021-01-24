@@ -169,7 +169,7 @@ tar_script({
 })
 ```
 
-[`targets`](https://docs.rOpenSci.org/targets/) inspects your code and constructs a dependency 
+[`targets`](https://docs.rOpenSci.org/targets/) inspects your code and constructs a dependency graph.
 
 ```{r, echo = FALSE}
 tar_visnetwork() %>%
