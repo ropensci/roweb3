@@ -75,8 +75,7 @@ library(visNetwork)
 ```
 
 [Make](https://www.gnu.org/software/make/)[^1]-like pipelines enhance the integrity, transparency, shelf life, efficiency, and scale of large analysis projects.
-The process changes how our day jobs feel, and the results earn our trust.
-Data science becomes smoother and more rewarding.
+With pipelines, data science feels smoother and more rewarding, the results are worthy of more trust.
 
 <!--html_preserve-->
 <!-- I thought about following the blog guide's recommendation to use the Hugo shortcode for this tweet, but I feel the media and emojis are a bit much. -->
