@@ -244,7 +244,7 @@ But if your mind is on the domain knowledge, or if you feel pressure to work fas
 
 The best way to write fewer functions is to write less code.
 To write less code, we need abstraction and automation.
-Target factories are package functions that return lists of target objects, and they make specialized pipelines reusable.
+Target factories are package functions that return lists of pre-configured target objects, and they make specialized pipelines reusable.
 
 ```{r, eval = FALSE}
 # script inside example.package
