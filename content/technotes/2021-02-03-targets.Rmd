@@ -406,7 +406,7 @@ tar_visnetwork()
 install.packages("tarchetypes")
 ```
 
-[`tarchetypes`](https://docs.rOpenSci.org/tarchetypes/)[^16] is also part the [R Targetopia](https://wlandau.github.io/targetopia/), and it is far more general than [`stantargets`](https://wlandau.github.io/stantargets/).
+The [`tarchetypes`](https://docs.rOpenSci.org/tarchetypes/)[^16] [R Targetopia](https://wlandau.github.io/targetopia/) package is far more general than [`stantargets`](https://wlandau.github.io/stantargets/).
 Its target factories include [`tar_rep()`](https://docs.rOpenSci.org/tarchetypes/reference/tar_rep.html) for arbitrary simulation studies, [`tar_render()`](https://books.rOpenSci.org/targets/files.html#literate-programming) for [dependency-aware](https://books.rOpenSci.org/targets/files.html#literate-programming) literate programming, and [`tar_render_rep()`](https://docs.rOpenSci.org/tarchetypes/reference/tar_render_rep.html) for [parameterized R Markdown](https://bookdown.org/yihui/rmarkdown/parameterized-reports.html).
 [`tar_plan()`](https://docs.rOpenSci.org/tarchetypes/reference/tar_plan.html) is a [`drake_plan()`](https://docs.rOpenSci.org/drake/reference/drake_plan.html)-like target factory to help [`drake`](https://docs.rOpenSci.org/drake/) users transition to [`targets`](https://docs.rOpenSci.org/targets/).
 
