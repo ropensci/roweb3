@@ -87,14 +87,12 @@ Data science becomes smoother and more rewarding.
 
 <!--html_preserve--> <h2>targets {{< figure src = "technotes/2021-02-03-targets/targets.png" alt = "targets hex logo" height = "139" class = "pull-right">}}</h2> <!--/html_preserve-->
 
-[`targets`](https://docs.rOpenSci.org/targets/)[^2] package is a new pipeline toolkit for R.
-It recently cleared [software review](https://github.com/ropensci/software-review/issues/401), and it is now on CRAN.
-
 ```{r, eval = FALSE}
 install.packages("targets")
 ```
 
-[`targets`](https://docs.rOpenSci.org/targets/) is the long-term successor of [`drake`](https://github.com/rOpenSci/drake)[^3], which in turn succeeded [Rich FitzJohn](/author/rich-fitzjohn/)'s groundbreaking [`remake`](https://github.com/richfitz/remake)[^4] package.
+[`targets`](https://docs.rOpenSci.org/targets/)[^2] package is a new pipeline toolkit for R.
+It recently cleared [software review](https://github.com/ropensci/software-review/issues/401), and it is now on CRAN. [`targets`](https://docs.rOpenSci.org/targets/) is the long-term successor of [`drake`](https://github.com/rOpenSci/drake)[^3], which in turn succeeded [Rich FitzJohn](/author/rich-fitzjohn/)'s groundbreaking [`remake`](https://github.com/richfitz/remake)[^4] package.
 A [chapter in the user manual](https://books.rOpenSci.org/targets/drake.html) explains the future of [`drake`](https://github.com/rOpenSci/drake), the advantages of [`targets`](https://docs.rOpenSci.org/targets/), and how to transition.
 The [reference website](https://docs.rOpenSci.org/targets/) explains how to get started, and the [overview vignette](https://docs.rOpenSci.org/targets/articles/overview.html) describes the major features of [`targets`](https://docs.rOpenSci.org/targets/) and its [user manual](https://books.rOpenSci.org/targets/).
 
@@ -314,6 +312,11 @@ The [R Targetopia](https://wlandau.github.io/targetopia/)[^11] is an emerging ec
 
 <!--html_preserve--> <h3>stantargets {{< figure src = "technotes/2021-02-03-targets/stantargets.png" alt = "stantargets hex logo" height = "139" class = "pull-right" >}}</h3> <!--/html_preserve-->
 
+```{r, eval = FALSE}
+remotes::install_github("wlandau/stantargets")
+cmdstanr::install_cmdstan()
+```
+
 [`stantargets`](https://wlandau.github.io/stantargets/)[^12] abstracts away most of the targets and functions required for a solid Bayesian data analysis with [Stan](https://mc-stan.org)[^13].
 With a single [target factory](https://wlandau.github.io/targetopia/contributing.html#target-factories) and a single function to generate data, [`stantargets`](https://wlandau.github.io/stantargets/) gives you an entire sensitivity analysis or an entire [simulation-based calibration study](https://wlandau.github.io/stantargets/articles/mcmc_rep.html)[^14][^15]
 
@@ -399,6 +402,10 @@ tar_visnetwork()
 <!--/html_preserve-->
 
 <!--html_preserve--> <h3>tarchetypes {{< figure src = "technotes/2021-02-03-targets/tarchetypes.png" alt = "tarchetypes hex logo" height = "139" class = "pull-right" >}}</h3> <!--/html_preserve-->
+
+```{r, eval = FALSE}
+install.packages("tarchetypes")
+```
 
 [`tarchetypes`](https://docs.rOpenSci.org/tarchetypes/)[^16] is also part the [R Targetopia](https://wlandau.github.io/targetopia/), and it is far more general than [`stantargets`](https://wlandau.github.io/stantargets/).
 Its target factories include [`tar_rep()`](https://docs.rOpenSci.org/tarchetypes/reference/tar_rep.html) for arbitrary simulation studies, [`tar_render()`](https://books.rOpenSci.org/targets/files.html#literate-programming) for [dependency-aware](https://books.rOpenSci.org/targets/files.html#literate-programming) literate programming, and [`tar_render_rep()`](https://docs.rOpenSci.org/tarchetypes/reference/tar_render_rep.html) for [parameterized R Markdown](https://bookdown.org/yihui/rmarkdown/parameterized-reports.html).
