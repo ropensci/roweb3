@@ -285,7 +285,7 @@ biglm_factory <- function(file) {
 }
 ```
 
-Using the factory above, our long `_targets.R` file suddenly collapses down to two lines.
+With the factory above, our long `_targets.R` file suddenly collapses down to two lines.
 
 ```{r, eval = FALSE}
 # _targets.R file
