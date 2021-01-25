@@ -195,7 +195,7 @@ tar_make()
 ```
 
 Alternatives [`tar_make_clustermq()`](https://docs.rOpenSci.org/targets/reference/tar_make_clustermq.html) and [`tar_make_future()`](https://docs.rOpenSci.org/targets/reference/tar_make_future.html) leverage [`clustermq`](https://mschubert.github.io/clustermq/)[^6] and [`future`](https://github.com/HenrikBengtsson/future)[^7], respectively, to distribute targets on traditional schedulers such as [SLURM](https://slurm.schedmd.com/documentation.html)[^8].
-It is only a matter of time before these backends can [send jobs to the cloud](https://aws.amazon.com/)[^9].
+It is only a matter of time before these backends become capable of [sending jobs to the cloud](https://aws.amazon.com/)[^9].
 
 Your can store the results in the [`_targets/`](https://books.rOpenSci.org/targets/files.html#internal-files) folder (default) or [Amazon S3 buckets](https://books.rOpenSci.org/targets/cloud.html#storage).
 Either way, loading data back into R is the same.
@@ -285,18 +285,20 @@ biglm_factory <- function(file) {
 }
 ```
 
-With the factory above, our long `_targets.R` file suddenly collapses down to two lines.
+With the factory above, our long `_targets.R` file suddenly collapses down to three lines.
 
 ```{r, eval = FALSE}
 # _targets.R file
+library(targets)
 library(example.package)
 biglm_factory("raw_data.csv")
 ```
 
-You have complete freedom to add more targets. 
+And you still have complete freedom to add more targets to the list. 
 
 ```{r, eval = FALSE}
 # _targets.R file
+library(targets)
 library(example.package)
 run_model2 <- function(data) {...}
 list( # Target lists can be arbitrarily nested.
@@ -323,8 +325,6 @@ With a single [target factory](https://wlandau.github.io/targetopia/contributing
 # _targets.R for simulation-based calibration to validate a Stan model.
 library(targets)
 library(stantargets)
-options(crayon.enabled = FALSE)
-tar_option_set(memory = "transient", garbage_collection = TRUE)
 
 generate_data <- function() {
   true_beta <- stats::rnorm(n = 1, mean = 0, sd = 1)
@@ -336,7 +336,7 @@ generate_data <- function() {
 list(
   tar_stan_mcmc_rep_summary(
     model,
-    "model.stan",
+    "model.stan", # We assume you already have a Stan model file.
     generate_data(), # Runs once per rep.
     batches = 25, # Batching reduces per-target overhead.
     reps = 40, # Number of simulation reps per batch.
@@ -353,8 +353,6 @@ list(
 library(targets)
 tar_script({
   library(stantargets)
-  options(crayon.enabled = FALSE)
-  tar_option_set(memory = "transient", garbage_collection = TRUE)
   
   generate_data <- function() {
     true_beta <- stats::rnorm(n = 1, mean = 0, sd = 1)
