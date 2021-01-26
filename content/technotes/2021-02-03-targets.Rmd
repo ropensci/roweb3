@@ -17,7 +17,7 @@ tags:
   - workflow-automation
   - workflows
 description: "A new pipeline tool, a new ecosystem, and how you can help"
-twitterImg: technotes/2021-02-03-targets/targets-card.png
+twitterImg: technotes/2021-02-03-targets/hexes.png
 twitterAlt: "targets hex logo"
 output: 
   html_document:
@@ -306,7 +306,9 @@ list( # Target lists can be arbitrarily nested.
 )
 ```
 
-<!--html_preserve--> <h2> R Targetopia <a href="https://wlandau.github.io/targetopia/">{{< figure src = "technotes/2021-02-03-targets/targetopia.png" alt = "targetopia hex logo" height = "139" class = "pull-right"  >}}</a> </h2>  <!--/html_preserve-->
+<!--html_preserve-->
+{{< figure src = "technotes/2021-02-03-targets/hexes.png" height = "400" alt = "R Targetopia hex logos">}}
+<!--/html_preserve-->
 
 The [R Targetopia](https://wlandau.github.io/targetopia/)[^11] is an emerging ecosystem of packages to bring target factories to specific domains of Statistics and data science.
 
