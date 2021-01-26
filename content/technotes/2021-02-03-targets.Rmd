@@ -306,10 +306,10 @@ list( # Target lists can be arbitrarily nested.
 )
 ```
 
-## R Targetopia
+## The R Targetopia
 
 <!--html_preserve-->
-{{< figure src = "technotes/2021-02-03-targets/hexes.png" height = "400" alt = "R Targetopia hex logos">}}
+{{< figure src = "technotes/2021-02-03-targets/hexes.png" height = "325" alt = "R Targetopia hex logos">}}
 <!--/html_preserve-->
 
 The [R Targetopia](https://wlandau.github.io/targetopia/)[^11] is an emerging ecosystem of packages to bring target factories to specific domains of Statistics and data science.
