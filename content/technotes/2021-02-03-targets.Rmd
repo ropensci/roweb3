@@ -16,7 +16,6 @@ tags:
   - pipelines
   - workflow-automation
   - workflows
-description: "targets: democratizing reproducible analysis pipelines"
 twitterImg: technotes/2021-02-03-targets/targets-center.png
 twitterAlt: "targets hex logo"
 output: 
