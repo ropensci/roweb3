@@ -306,6 +306,8 @@ list( # Target lists can be arbitrarily nested.
 )
 ```
 
+## R Targetopia
+
 <!--html_preserve-->
 {{< figure src = "technotes/2021-02-03-targets/hexes.png" height = "400" alt = "R Targetopia hex logos">}}
 <!--/html_preserve-->
