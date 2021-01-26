@@ -17,7 +17,7 @@ tags:
   - workflow-automation
   - workflows
 description: "A new pipeline tool, a new ecosystem, and how you can help"
-twitterImg: technotes/2021-02-03-targets/hexes.png
+twitterImg: technotes/2021-02-03-targets/card.png
 twitterAlt: "targets hex logo"
 output: 
   html_document:
@@ -306,11 +306,15 @@ list( # Target lists can be arbitrarily nested.
 )
 ```
 
-<!--html_preserve--> <h2>The R Targetopia <a href="https://wlandau.github.io/stantargets/">{{< figure src = "technotes/2021-02-03-targets/hexes.png" alt = "R Targetopia hex logos" height = "278" class = "pull-right" >}}</a></h2> <!--/html_preserve-->
+<!--html_preserve-->
+<h2>The R Targetopia <a href="https://wlandau.github.io/targetopia/">{{< figure src = "technotes/2021-02-03-targets/targetopia.png" alt = "R Targetopia hex logos" height = "278" class = "pull-right" >}}</a></h2>
+<!--/html_preserve-->
 
 The [R Targetopia](https://wlandau.github.io/targetopia/)[^11] is an emerging ecosystem of packages to bring target factories to specific domains of Statistics and data science.
 
-<!--html_preserve--> <h3>stantargets <a href="https://wlandau.github.io/stantargets/">{{< figure src = "technotes/2021-02-03-targets/stantargets.png" alt = "stantargets hex logo" height = "139" class = "pull-right"  >}}</a></h3> <!--/html_preserve-->
+<!--html_preserve-->
+<h3>stantargets <a href="https://wlandau.github.io/stantargets/">{{< figure src = "technotes/2021-02-03-targets/stantargets.png" alt = "stantargets hex logo" height = "139" class = "pull-right"  >}}</a></h3>
+<!--/html_preserve-->
 
 ```{r, eval = FALSE}
 remotes::install_github("wlandau/stantargets")
