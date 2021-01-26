@@ -16,7 +16,7 @@ tags:
   - pipelines
   - workflow-automation
   - workflows
-twitterImg: technotes/2021-02-03-targets/targets-center.png
+twitterImg: technotes/2021-02-03-targets/targets-card.png
 twitterAlt: "targets hex logo"
 output: 
   html_document:
