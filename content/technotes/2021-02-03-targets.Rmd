@@ -312,9 +312,7 @@ list( # Target lists can be arbitrarily nested.
 
 The [R Targetopia](https://wlandau.github.io/targetopia/)[^11] is an emerging ecosystem of packages to bring target factories to specific domains of Statistics and data science.
 
-<!--html_preserve-->
-<h3>stantargets <a href="https://wlandau.github.io/stantargets/">{{< figure src = "technotes/2021-02-03-targets/stantargets.png" alt = "stantargets hex logo" height = "139" class = "pull-right"  >}}</a></h3>
-<!--/html_preserve-->
+### stantargets
 
 ```{r, eval = FALSE}
 remotes::install_github("wlandau/stantargets")
