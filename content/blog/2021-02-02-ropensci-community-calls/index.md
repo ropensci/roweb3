@@ -31,7 +31,7 @@ To help prioritize topics, I pitched them to my colleagues and asked them to vot
 
 Depending on the topic, it may make sense to invite a single speaker. More often, several short presentations or a panel discussion is more appropriate, bearing in mind that organizing regular events with multiple speakers is time consuming! The open topic discussions on GitHub can reveal potential speakers or people whom I might ask to suggest other speakers who are “not the usual suspects”. 
 
-I start planning calls two to three months in advance so that I can find a time that works for the presenters. I use a [scheduling tool](https://lettucemeet.com)) to narrow down a date and time. When scheduling, keep time zones in mind! Think about where your target audience is largely located and whether the time is welcoming for them to attend. 
+I start planning calls two to three months in advance so that I can find a time that works for the presenters. I use a [scheduling tool](https://lettucemeet.com) to narrow down a date and time. When scheduling, keep time zones in mind! Think about where your target audience is largely located and whether the time is welcoming for them to attend. 
 
 I schedule a one-hour pre-event meeting with the speakers to introduce them to each other, have them share what they’re considering talking about, help them understand their audience, ask them what questions they think should be raised, and cover logistical details of the event. While the panelists are experts in their respective fields, they are not necessarily experts on how to communicate with this particular community. I've found that these pre-event sessions lead to meaningful conversations that allow panelists to maximize their complementarity and give a sense of a comfortable discussion during the event. I think this may actually end up minimizing their preparation time. 
 
@@ -50,17 +50,16 @@ It is important to begin with a script consisting of introducing your organizati
 The [archive page](/commcalls/2020-03-18/) for each community call includes the video with subtitles, links to speakers’ slides, the collaborative notes doc, and resources on the topic. They are sometimes summarized on rOpenSci’s blog. To encourage participation from community members, she has invited attendees to co-author a [blog post](/blog/2020/07/14/commcall-maintaining-pkg/) with a staff member. Don’t underestimate the value of sharing your impact success stories or anecdotes with your team and your community!
 
 ## Artifacts of a community call
-
-{{< figure src = "commcalls-video-shadow.png" class = "center" width = "400" caption = "Screenshot from [video](/commcalls/dec2020-datarepos/) with closed captions" alt = "screenshot from a community call video shows speaker with slide behind him, and closed caption text in bottom center of image" >}}
-
 Things that are created and archived for future reference:
 
-*   [Landing page](/commcalls/dec2020-datarepos/) with all the things
-*   [Public discussion](https://github.com/ropensci-org/community-calls/issues/9) that informed developing the topic and choosing speakers
-*   [Videos](https://vimeo.com/ropensci) of all past calls
-*   [Collaborative notes](http://bit.ly/ropensci-commcall-datarepos)
-*   [Summary blog post](/blog/2020/07/14/commcall-maintaining-pkg/) example
+*   [Landing page](/commcalls/dec2020-datarepos/) with all the things;
+*   [Public discussion](https://github.com/ropensci-org/community-calls/issues/9) that informed developing the topic and choosing speakers;
+*   [Videos](https://vimeo.com/ropensci) of all past calls;
+*   [Collaborative notes](http://bit.ly/ropensci-commcall-datarepos);
+*   [Summary blog post](/blog/2020/07/14/commcall-maintaining-pkg/) example.
 
+
+{{< figure src = "commcalls-video-shadow.png" class = "center" width = "400" caption = "Screenshot from [video](/commcalls/dec2020-datarepos/) with closed captions" alt = "screenshot from a community call video shows speaker with slide behind him, and closed caption text in bottom center of image" >}}
 
 ## Conclusion and Resources
 
