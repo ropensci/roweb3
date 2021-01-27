@@ -37,26 +37,30 @@ I schedule a one-hour pre-event meeting with the speakers to introduce them to e
 
 ## Promoting the event 
 
-Our  community calls are advertised on our [website](https://ropensci.org/blog/2020/03/04/commcall-mar2020/), Twitter, and relevant Slack groups and mailing lists. With many people finding increased constraints on their time and more virtual events to choose from, I emphasize the specific value of each community call and what makes their content and style unique. Successful promotion benefits immensely from overlap between members of different communities and their interests.
+Our  community calls are advertised on our website, Twitter, and relevant Slack groups and mailing lists. With many people finding increased constraints on their time and more virtual events to choose from, I emphasize the specific value of each community call and what makes their content and style unique. Successful promotion benefits immensely from overlap between members of different communities and their interests.
 
 {{< figure src = "tweet-screenshot-shadow.png" class = "center" width = "300" caption = "[Tweet](https://twitter.com/rOpenSci/status/1329092004496748545) promoting a Community Call" alt = "[Tweet](https://twitter.com/rOpenSci/status/1329092004496748545) promoting a Community Call" >}}
 
 ## Running the event
 
-It is important to begin with a script consisting of introducing your organization, code of conduct, Zoom etiquette, norms for asking questions, and introductions to the speakers. Attendees are encouraged to add their questions and take notes in a collaborative [doc](http://bit.ly/ropensci-commcall-maintaining). This results in clear and concise questions and can help lower barriers to participation. During Q&A, people are invited to unmute to ask their question, or the moderator can ask on their behalf. Stefanie typically gets about 40-50 attendees at her community calls, although the number can sometimes be as high as 90. She emphasizes that it is important to think beyond numbers of attendees; even if there is a lower turnout, those in attendance are likely gaining a lot from the discussion. For example, our community call on [involving multilingual communities](https://ropensci.org/commcalls/2019-06-28/) had low attendance, but led directly to our experiment with doing software peer review in Spanish.
+It is important to begin with a script consisting of introducing your organization, code of conduct, Zoom etiquette, norms for asking questions, and introductions to the speakers. Attendees are encouraged to add their questions and take notes in a collaborative [doc](http://bit.ly/ropensci-commcall-maintaining). This results in clear and concise questions and can help lower barriers to participation. During Q&A, people are invited to unmute to ask their question, or the moderator can ask on their behalf. Stefanie typically gets about 40-50 attendees at her community calls, although the number can sometimes be as high as 90. She emphasizes that it is important to think beyond numbers of attendees; even if there is a lower turnout, those in attendance are likely gaining a lot from the discussion. For example, our community call on [involving multilingual communities](/commcalls/2019-06-28/) had low attendance, but led directly to our experiment with doing software peer review in Spanish.
 
 ## Capturing outcomes and impact
 
-The [archive page](https://ropensci.org/commcalls/2020-03-18/) for each community call includes the video with subtitles, links to speakers’ slides, the collaborative notes doc, and resources on the topic. They are sometimes summarized on rOpenSci’s blog. To encourage participation from community members, she has invited attendees to co-author a [blog post](https://ropensci.org/blog/2020/07/14/commcall-maintaining-pkg/) with a staff member. Don’t underestimate the value of sharing your impact success stories or anecdotes with your team and your community!
+The [archive page](/commcalls/2020-03-18/) for each community call includes the video with subtitles, links to speakers’ slides, the collaborative notes doc, and resources on the topic. They are sometimes summarized on rOpenSci’s blog. To encourage participation from community members, she has invited attendees to co-author a [blog post](/blog/2020/07/14/commcall-maintaining-pkg/) with a staff member. Don’t underestimate the value of sharing your impact success stories or anecdotes with your team and your community!
 
 ## Artifacts of a community call
+
+{{< figure src = "commcalls-video-shadow.png" class = "center" width = "400" caption = "Screenshot from [video](/commcalls/dec2020-datarepos/) with closed captions" alt = "screenshot from a community call video shows speaker with slide behind him, and closed caption text in bottom center of image" >}}
+
 Things that are created and archived for future reference:
 
-*   [Landing page](https://ropensci.org/commcalls/dec2020-datarepos/) with all the things
+*   [Landing page](/commcalls/dec2020-datarepos/) with all the things
 *   [Public discussion](https://github.com/ropensci-org/community-calls/issues/9) that informed developing the topic and choosing speakers
 *   [Videos](https://vimeo.com/ropensci) of all past calls
 *   [Collaborative notes](http://bit.ly/ropensci-commcall-datarepos)
-*   [Summary blog post](https://ropensci.org/blog/2020/07/14/commcall-maintaining-pkg/) example
+*   [Summary blog post](/blog/2020/07/14/commcall-maintaining-pkg/) example
+
 
 ## Conclusion and Resources
 
