@@ -39,7 +39,7 @@ I schedule a one-hour pre-event meeting with the speakers to introduce them to e
 
 Our  community calls are advertised on our website, Twitter, and relevant Slack groups and mailing lists. With many people finding increased constraints on their time and more virtual events to choose from, I emphasize the specific value of each community call and what makes their content and style unique. Successful promotion benefits immensely from overlap between members of different communities and their interests.
 
-{{< figure src = "tweet-screenshot-shadow.png" class = "center" width = "300" caption = "[Tweet](https://twitter.com/rOpenSci/status/1329092004496748545) promoting a Community Call" alt = "[Tweet](https://twitter.com/rOpenSci/status/1329092004496748545) promoting a Community Call" >}}
+{{< figure src = "commcalls-promotion-shadow.png" class = "center" width = "600" caption = "Example promotional elements include speaker bios on the [landing page for the Community Call](https://ropensci.org/commcalls/dec2020-datarepos/) and a  [tweet](https://twitter.com/rOpenSci/status/1329092004496748545) that others can share" alt = "On left, a screenshot of 5 speaker bios with headshot and text for each. On right, screenshot of a [tweet](https://twitter.com/rOpenSci/status/1329092004496748545) tagging those speakers in promotion of the community call" >}}
 
 ## Running the event
 
