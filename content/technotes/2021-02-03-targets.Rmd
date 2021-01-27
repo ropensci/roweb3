@@ -106,8 +106,8 @@ tar_option_set(packages = c("biglm", "dplyr", "ggplot2", "readr"))
 
 # Most workflows have custom functions to support the targets.
 read_clean <- function(path) {
-  raw_data <- read_csv(path, col_types = cols())
-  raw_data %>%
+  path %>%
+    read_csv(col_types = cols()) %>%
     mutate(Ozone = replace_na(Ozone, mean(Ozone, na.rm = TRUE)))
 }
 
@@ -136,8 +136,8 @@ library(targets)
 tar_destroy()
 tar_script({
   read_clean <- function(path) {
-    raw_data <- read_csv(path, col_types = cols())
-    raw_data %>%
+    path %>%
+      read_csv(col_types = cols()) %>%
       mutate(Ozone = replace_na(Ozone, mean(Ozone, na.rm = TRUE)))
   }
   fit_model <- function(data) {
@@ -250,8 +250,8 @@ Target factories are package functions that return lists of pre-configured targe
 
 #' @export
 read_clean <- function(path) {
-  raw_data <- read_csv(path, col_types = cols())
-  raw_data %>%
+  path %>%
+    read_csv(col_types = cols()) %>%
     mutate(Ozone = replace_na(Ozone, mean(Ozone, na.rm = TRUE)))
 }
 
