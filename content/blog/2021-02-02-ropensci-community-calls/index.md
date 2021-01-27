@@ -9,7 +9,7 @@ tags:
   - community call
   - events
 description: "A very short summary of your post (~ 100 characters)"
-# preface: "In December 2020, Stefanie Butland, rOpenSci’s Community Manager, gave a presentation and Q & A session on community calls for Code for Science & Society event fund grantees and fiscally-sponsored project leaders. Emily Lescak, CS&S Event Fund Manager, led the discussion. This post is adapted from the original at <https://eventfund.codeforscience.org/blog/URL>.""
+preface: "In December 2020, Stefanie Butland, rOpenSci’s Community Manager, gave a presentation and Q & A session on community calls for Code for Science & Society event fund grantees and fiscally-sponsored project leaders. Emily Lescak, CS&S Event Fund Manager, led the discussion. This post is adapted from the original at <https://eventfund.codeforscience.org/blog/URL>."
 # twitterImg: blog/2019/06/04/post-template/name-of-image.png
 # twitterAlt: "Alternative description of the image"
 ---
