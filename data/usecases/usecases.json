@@ -1,5 +1,53 @@
 [
   {
+    "title": "Using dittodb to test database queries",
+    "tags": ["dittodb"],
+    "resource": "dittodb ",
+    "url": "https://discuss.ropensci.org/t/using-dittodb-to-test-database-queries/2322",
+    "image": "noimage",
+    "date": "2021-01-25"
+  },
+  {
+    "title": "pdftools for extracting complex (e.g. text-wrapped/multiline) tables from pdfs",
+    "tags": ["r", "pdftools", "tidyverse"],
+    "resource": "pdftools",
+    "url": "https://discuss.ropensci.org/t/pdftools-for-extracting-complex-e-g-text-wrapped-multiline-tables-from-pdfs/2327",
+    "image": "noimage",
+    "date": "2021-01-26"
+  },
+  {
+    "title": "Shiny apps to search #rstudioglobal or #rstats tweets with rtweet",
+    "tags": "rtweet",
+    "resource": "rtweet",
+    "url": "https://discuss.ropensci.org/t/shiny-apps-to-search-rstudioglobal-or-rstats-tweets-with-rtweet/2324",
+    "image": "noimage",
+    "date": "2021-01-25"
+  },
+  {
+    "title": "Getting and plotting weather and climate data",
+    "tags": "weathercan",
+    "resource": "weathercan",
+    "url": "https://discuss.ropensci.org/t/getting-and-plotting-weather-and-climate-data/2320",
+    "image": "getting-and-plotting-weather-and-climate-data.png",
+    "date": "2021-01-21"
+  },
+  {
+    "title": "Using ghql to analyze all my 2020 GitHub commits",
+    "tags": ["r", "package", "usecase", "github", "ghql"],
+    "resource": "ghql",
+    "url": "https://discuss.ropensci.org/t/using-ghql-to-analyze-all-my-2020-github-commits/2315",
+    "image": "using-ghql-to-analyze-all-my-2020-github-commits.png",
+    "date": "2021-01-16"
+  },
+  {
+    "title": "Scraping liked posts on Twitter using rtweet",
+    "tags": "rtweet",
+    "resource": "rtweet",
+    "url": "https://discuss.ropensci.org/t/scraping-liked-posts-on-twitter-using-rtweet/2294",
+    "image": "noimage",
+    "date": "2021-01-03"
+  },
+  {
     "title": "Using av to convert audio files for compatibility with an electronic storyteller",
     "tags": [],
     "resource": "av",
