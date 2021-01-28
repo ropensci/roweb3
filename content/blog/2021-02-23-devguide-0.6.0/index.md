@@ -38,6 +38,8 @@ Editor [Melina Vidoni](/blog/2019/01/31/more_editors/) is in charge of this revi
 Frans van Dunné most kindly translated our [review template to Spanish](https://devdevguide.ropensci.org/reviewtemplatees.html)!
 ¡Muchas gracias!
 
+If you speak Spanish and would like to hear more about our software peer review system, [check out the recording of the LatinR talks by package author Miguel Alvarez and editor Maëlle Salmon](/events/latinr-2020/).
+
 ## Guidance for package documentation
 
 To help R users, we now require information about overlap with other packages be [mentioned prominently in package docs](https://devdevguide.netlify.app/building.html#general).
