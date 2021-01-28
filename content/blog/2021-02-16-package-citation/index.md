@@ -119,6 +119,4 @@ In this post we shared guidance on how to help your R package land in the refere
 We also mentioned some hurdles even well-meaning users might face, and explained how we track for usage of our packages in the scientific literature.
 We encourage you to share your experience and wisdom in the comments below, as we are planning to consolidate them together with our content, to add a new topic to our dev guide.
 
-
-[^f1000]: Katz DS, Chue Hong NP, Clark T et al. Recognizing the value of software: a software citation guide [version 2; peer review: 2 approved]. F1000Research 2021, 9:1257 (https://doi.org/10.12688/f1000research.26932.2)
 [^usedit]: Note that this post is not about promoting _usage_ of your package, which is [covered briefly in the dev guide](https://devguide.ropensci.org/marketing.html).
