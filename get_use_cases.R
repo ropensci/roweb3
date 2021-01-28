@@ -21,6 +21,7 @@ usecases_ids <- usecases_ids[usecases_ids >= 1629]
 
 get_info <- function(id) {
   message(id)
+  Sys.sleep(2)
   topic <- discgolf::topic(id)
   post_id <- topic$post_stream$posts$id[1]
   post <- discgolf::post_get(post_id)
@@ -67,6 +68,7 @@ get_info <- function(id) {
 }
 
 topics <- purrr::map(usecases_ids, get_info)
+
 jsonlite::write_json(
   topics, 
   file.path("data", "usecases", "usecases.json"),
