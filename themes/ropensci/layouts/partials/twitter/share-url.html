@@ -1,1 +1,1 @@
-https://twitter.com/intent/tweet?original_referer={{ .Permalink }}&related=roknowtifier&text={{ .Title }}&url={{ .Permalink }}&via=ropensci
+https://twitter.com/intent/tweet?original_referer={{ .Permalink }}&related=roknowtifier&text={{ if isset .Params "tweet" }}{{ .Params.tweet }}{{ else }}{{ .Title }}{{ end }}&url={{ .Permalink }}&via=ropensci

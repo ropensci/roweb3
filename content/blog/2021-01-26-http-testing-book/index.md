@@ -19,6 +19,7 @@ description: "The 'HTTP testing in R' book has been updated. Useful for develope
 output: 
   html_document:
     keep_md: true
+tweet: "If you want learn all about HTTP testing, read this post by @ma_salmon & @sckottie!"
 ---
 
 More and more R packages access resources on the web, and play crucial roles in workflows.
