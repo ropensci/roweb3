@@ -113,15 +113,15 @@ Here's Scott Chamberlain's workflow.
 * He updates [several JSON files of the citations](https://github.com/ropensci-org/ropensci_citations/).
 * [One of these JSON citation files](https://github.com/ropensci-org/ropensci_citations/blob/master/citations_all_parts_clean.json) is used to populate the [citations page](/citations) (via a [Hugo data template in a layout file](https://github.com/ropensci/roweb3/blob/master/themes/ropensci/layouts/citations/list.html)). Any update of the ropensci-org/ropensci_citations repo triggers a Netlify build of our website thanks to a Netlify build hook (basically, an URL) and a [GitHub Actions workflow](https://github.com/ropensci-org/ropensci_citations/blob/master/.github/workflows/rebuild-roweb3.yml) (that simply pings this URL)
 
-As part of our new Moore Foundation funded effort, we are building a system to automatically detect R package citations in literature and append them to package records in R-universe. Stay tuned on our blog for more details.
+As part of our [new Moore Foundation funded effort](/blog/2019/11/06/scientific-package-ecosystem/), we are building a system to automatically detect R package citations in literature and append them to package records in R-universe. Stay tuned on our blog for more details.
 
 ## Conclusion
 
-In this post we shared guidance on how to help your R package land in the references section of the papers that used it.
+In this post we shared guidance on how to help your R package land in the references section of the papers that used it[^usedit].
 We also mentioned some hurdles even well-meaning users might face, and explained how we track for usage of our packages in the scientific literature.
 We encourage you to share your experience and wisdom in the comments below, as we are planning to consolidate them together with our content, to add a new topic to our dev guide.
 
-Note that this post is not about promoting _usage_ of your package, which is [covered briefly in the dev guide](https://devguide.ropensci.org/marketing.html).
 
 [^f1000]: Katz DS, Chue Hong NP, Clark T et al. Recognizing the value of software: a software citation guide [version 2; peer review: 2 approved]. F1000Research 2021, 9:1257 (https://doi.org/10.12688/f1000research.26932.2)
 [^liltool]: This is a slightly snarky title responding to a [tweet](https://twitter.com/sk_emptyset/status/1261729463613693952) (isn't the use of "just" in "just a tool to access data" naive at best?). This lively thread also includes, in another place, an infamous [comparison of the tidyverse to a swivel chair](https://twitter.com/georgemsavva/status/1197122359515373574).
+[^usedit]: Note that this post is not about promoting _usage_ of your package, which is [covered briefly in the dev guide](https://devguide.ropensci.org/marketing.html).
