@@ -118,6 +118,6 @@ As part of our [new Moore Foundation funded effort](/blog/2019/11/06/scientific-
 
 In this post we shared guidance on how to help your R package land in the references section of the papers that used it[^usedit].
 We also mentioned some hurdles even well-meaning users might face, and explained how we track for usage of our packages in the scientific literature.
-We encourage you to share your experience and wisdom in the comments below, as we are planning to consolidate them together with our content, to add a new topic to our dev guide.
+We encourage you to share your experience and wisdom in the comments below, as we are planning to consolidate them together with our content, to add a new topic to our [dev guide](https://devguide.ropensci.org/).
 
 [^usedit]: Note that this post is not about promoting _usage_ of your package, which is [covered briefly in the dev guide](https://devguide.ropensci.org/marketing.html).
