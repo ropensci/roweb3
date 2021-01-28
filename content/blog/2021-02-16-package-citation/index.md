@@ -113,7 +113,7 @@ Here's Scott Chamberlain's workflow.
 * He updates [several JSON files of the citations](https://github.com/ropensci-org/ropensci_citations/).
 * [One of these JSON citation files](https://github.com/ropensci-org/ropensci_citations/blob/master/citations_all_parts_clean.json) is used to populate the [citations page](/citations) (via a [Hugo data template in a layout file](https://github.com/ropensci/roweb3/blob/master/themes/ropensci/layouts/citations/list.html)). Any update of the ropensci-org/ropensci_citations repo triggers a Netlify build of our website thanks to a Netlify build hook (basically, an URL) and a [GitHub Actions workflow](https://github.com/ropensci-org/ropensci_citations/blob/master/.github/workflows/rebuild-roweb3.yml) (that simply pings this URL)
 
-As part of our [new Moore Foundation funded effort](/blog/2019/11/06/scientific-package-ecosystem/), we are building a system to automatically detect R package citations in literature and append them to package records in R-universe. Stay tuned on our blog for more details.
+As part of our [new Moore Foundation funded effort](/blog/2019/11/06/scientific-package-ecosystem/), we are building a system to [automatically detect R package citations in literature and append them to package records in R-universe](https://global.rstudio.com/student/page/40614). Stay tuned on our blog for more details.
 
 ## Conclusion
 
