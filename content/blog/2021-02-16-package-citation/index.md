@@ -95,15 +95,15 @@ bibentry(bibtype = "Manual",
 
 Although some authors use [on-load messages](https://r-pkgs.org/r.html#when-you-do-need-side-effects) to encourage citations, we discourage this practice and recommend that developers highlight this information in their README and documentation.
 
-## Why is it hard to cite software
+## Why is it hard to cite software?
 
 Despite your best efforts to encourage users to cite your software, you might still run into challenges. Authors may have limits on the number of references they can cite in a journal or face resistance from their coauthors.
 
-These problems can't be fixed at once by one motivated individual (neither you the developer nor they the user), so more advocacy and teaching is needed. Besides, in the meantime, how do we [adapt software citation guidelines](https://twitter.com/EikoFried/status/1197556604075466753) to realistically accommodate for all situations?
+These problems can't be fixed at once by one motivated individual (neither you the developer nor they the user), so more advocacy and teaching is needed. In the meantime, how do we [adapt software citation guidelines](https://twitter.com/EikoFried/status/1197556604075466753) to realistically accommodate for all situations?
 
 ## How rOpenSci tracks package usage
 
-At rOpenSci we monitor the scientific literature to discover use cases of our packages that you can browse on our [citations page](/citations).
+At rOpenSci we monitor the scientific literature to discover use and mentions of our packages that you can browse on our [citations page](/citations).
 As sometimes packages are used but not listed in the references section, we report any usage of the packages in papers.
 Here's Scott Chamberlain's workflow.
 
