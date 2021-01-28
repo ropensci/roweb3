@@ -1,7 +1,7 @@
 ---
 slug: package-citation
 title: Make Your R Package Easier to Cite
-date: '2021-03-02'
+date: '2021-02-16'
 author:
   - Maëlle Salmon
   - Scott Chamberlain
