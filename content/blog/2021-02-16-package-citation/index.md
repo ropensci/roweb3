@@ -18,9 +18,9 @@ Scientists rarely cite research software they use as part of a research project.
 
 {{< tweet 1273605411577442304 >}}
 
-In this post, we shall share tips on how to make your R package easy to cite.
 We shall also give some insights on hurdles the users of your package might face when wanting to cite your package, as well as a brief presentation of our monitoring of the literature to find use cases of our packages.
-We are writing this with the view of complementing our dev guide with the tips... and your feedback, so we are looking forward to your response!
+We are planning to include this topic in our [package dev guide](https://devguide.ropensci.org/).
+By commenting on this post you can help us strenghten our package citation guidance!
 
 ## Clear citation rules for your lil' tool[^liltool]
 
@@ -30,10 +30,13 @@ We are writing this with the view of complementing our dev guide with the tips..
 
 To make it really easy for users to cite your package, you should store citation metadata in the expected places and advertise it very clearly.
 
+> "Personally, I take a “belt-and-suspenders” approach and still put citation things in the README." [Noam Ross](/author/noam-ross/), [rOpenSci forum](https://discuss.ropensci.org/t/should-the-ropensci-dev-guide-include-package-citation-best-practices/1551/17)
+
+
 > "I [advertise the citation info in the README] too, just to make it painfully obvious how to cite the work." [Adam Sparks](/author/adam-sparks/), [rOpenSci forum](https://discuss.ropensci.org/t/should-the-ropensci-dev-guide-include-package-citation-best-practices/1551/18)
 
-* Use the CITATION file, as thousands of R packages have done (3,386 out of 16,002 packages on CRAN as of the 15th of January, 2021[^thxmark]). It's easy to create a boilerplate with `usethis::use_citation()`.
-* Archive each release of your GitHub repo on Zenodo and add [Zenodo top-level DOI](https://help.zenodo.org/#versioning) to the CITATION file.
+* Create and populate the CITATION file, as thousands of R packages have done (3,386 out of 16,002 packages on CRAN as of the 15th of January, 2021[^thxmark]). It's easy to create a boilerplate with `usethis::use_citation()`.
+* Archive each release of your GitHub repo on Zenodo and add the [Zenodo top-level DOI](https://help.zenodo.org/#versioning) to the CITATION file.
 * If your software has a clear research application, you can also publish a paper at the Journal of Open Source Software, Journal of Open Research Software among others. You can append a software publication to your CITATION file.
 * Less related to your package itself but to what supports it: if your package wraps a particular resource such as data source or, say, statistical algorithm, remind users of how to cite that resource via e.g. `citHeader()`. [Maybe even add the reference for the resource](https://discuss.ropensci.org/t/citation-of-original-article-when-implementing-specific-methods/2312)?  
 
