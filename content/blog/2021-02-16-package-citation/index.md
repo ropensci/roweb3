@@ -22,7 +22,7 @@ We shall also give some insights on hurdles the users of your package might face
 We are planning to include this topic in our [package dev guide](https://devguide.ropensci.org/).
 By commenting on this post you can help us strenghten our package citation guidance!
 
-## Clear citation rules for your lil' tool[^liltool]
+## Clear citation rules for your package
 
 <!--html_preserve-->
 {{< figure src ="pexels-cottonbro-4553166.jpg" alt = "Person wearing a cardboard box on their head" link = "https://www.pexels.com/photo/person-in-white-long-sleeve-shirt-holding-brown-cardboard-box-4553166/" caption = "Why didn't you cite my package?! [cottonbro on Pexels](https://www.pexels.com/photo/person-in-white-long-sleeve-shirt-holding-brown-cardboard-box-4553166/)." class = "center" >}}
@@ -91,8 +91,6 @@ bibentry(bibtype = "Manual",
 
 * Direct potential readers to the preferred citation in the README by adding boilerplate text "here's how to cite my package". See e.g. [ecmwfr README](https://github.com/bluegreen-labs/ecmwfr#how-to-cite-this-package-in-your-article).
 
-{{< tweet 1261726909148233728 >}}
-
 Although some authors use [on-load messages](https://r-pkgs.org/r.html#when-you-do-need-side-effects) to encourage citations, we discourage this practice and recommend that developers highlight this information in their README and documentation.
 
 ## Why is it hard to cite software?
@@ -123,5 +121,4 @@ We encourage you to share your experience and wisdom in the comments below, as w
 
 
 [^f1000]: Katz DS, Chue Hong NP, Clark T et al. Recognizing the value of software: a software citation guide [version 2; peer review: 2 approved]. F1000Research 2021, 9:1257 (https://doi.org/10.12688/f1000research.26932.2)
-[^liltool]: This is a slightly snarky title responding to a [tweet](https://twitter.com/sk_emptyset/status/1261729463613693952) (isn't the use of "just" in "just a tool to access data" naive at best?). This lively thread also includes, in another place, an infamous [comparison of the tidyverse to a swivel chair](https://twitter.com/georgemsavva/status/1197122359515373574).
 [^usedit]: Note that this post is not about promoting _usage_ of your package, which is [covered briefly in the dev guide](https://devguide.ropensci.org/marketing.html).
