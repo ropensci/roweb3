@@ -47,6 +47,10 @@ _To safe-guard examples (e.g. requiring authentication) to be run on CRAN you ne
 
 ## Guidance for package testing
 
+The [guidance around testing](https://devdevguide.netlify.app/building.html#testing) mentions two tools that might help package authors: the new [snapshot tests](https://testthat.r-lib.org/articles/snapshotting.html) in testthat, and the recently updated book ["HTTP testing in R"](/blog/2021/01/26/http-testing-book/) by Scott Chamberlain and Maëlle Salmon.
+
+We have now removed mentions to Travis CI in particular from [the chapter about continuous integration](https://devdevguide.netlify.app/ci.html), as we [no longer recommend using the service](/technotes/2020/11/19/moving-away-travis/).
+
 ## Guidance for package evolution
 
 We added a small but important note around CRAN releases in the [Releasing chapter](https://devdevguide.netlify.app/releasing.html#releasing-1) about a frequent conundrum for maintainers.
@@ -58,7 +62,7 @@ We added a small update to the [package curation policy](https://devdevguide.net
 
 ## Meta changes
 
-Did you notice the guide got a design refresh?
+Did you notice the guide got a design refresh? :sparkles:
 We switched from `bookdown::gitbook()` to `bookdown::bs4_book()` that's available in the development version of the [bookdown package](https://github.com/rstudio/bookdown/).
 We enjoy having the general table of contents on the left and the table of contents for the current chapter on the right.
 We also find searching more intuitive.
