@@ -93,7 +93,7 @@ bibentry(bibtype = "Manual",
 
 {{< tweet 1261726909148233728 >}}
 
-Although some authors use on load messages to encourage citations, we discourage this practice and recommend that developers highlight this information in their README and documentation.
+Although some authors use [on-load messages](https://r-pkgs.org/r.html#when-you-do-need-side-effects) to encourage citations, we discourage this practice and recommend that developers highlight this information in their README and documentation.
 
 ## Why is it hard to cite software
 
