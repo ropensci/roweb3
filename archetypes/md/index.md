@@ -24,6 +24,9 @@ description: "A very short summary of your post (~ 100 characters)"
 # - Note "/" between year/month/day
 twitterImg: blog/2019/06/04/post-template/name-of-image.png
 twitterAlt: "Alternative description of the image"
+# the text below is for populating the "share on Twitter" button
+# if deleted, the title of the post will be used
+tweet: "A post about blabla by @username!"
 ---
 
 This is the Markdown (.md) template for a blog post or tech note. 
