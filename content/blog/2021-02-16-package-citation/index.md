@@ -105,8 +105,8 @@ At rOpenSci we monitor the scientific literature to discover use and mentions of
 As sometimes packages are used but not listed in the references section, we report any usage of the packages in papers.
 Here's Scott Chamberlain's workflow.
 
-* Lots of Google Scholar alerts (one per package name, unless that package name will lead to too many false positives) arrive to one gmail address of Scott's.
-* Scott uses [gmailr](https://gmailr.r-lib.org/) and [googlesheets4](https://googlesheets4.tidyverse.org/) to push those up to Google sheets.
+* Scott gets lots of Google Scholar alerts (one per package name, unless that package name will lead to too many false positives) at his gmail address.
+* He uses [gmailr](https://gmailr.r-lib.org/) and [googlesheets4](https://googlesheets4.tidyverse.org/) to push those up to Google sheets.
 * He then manually clicks through to each link and look for the given package mention and records if a package is actually used (mentioned in the Methods section, and/or cited).
 * He updates [several JSON files of the citations](https://github.com/ropensci-org/ropensci_citations/).
 * [One of these JSON citation files](https://github.com/ropensci-org/ropensci_citations/blob/master/citations_all_parts_clean.json) is used to populate the [citations page](/citations) (via a [Hugo data template in a layout file](https://github.com/ropensci/roweb3/blob/master/themes/ropensci/layouts/citations/list.html)). Any update of the ropensci-org/ropensci_citations repo triggers a Netlify build of our website thanks to a Netlify build hook (basically, an URL) and a [GitHub Actions workflow](https://github.com/ropensci-org/ropensci_citations/blob/master/.github/workflows/rebuild-roweb3.yml) (that simply pings this URL)
