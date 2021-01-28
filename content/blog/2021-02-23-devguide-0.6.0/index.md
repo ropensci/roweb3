@@ -36,6 +36,7 @@ The first package to be reviewed in Spanish is [
 censo2017](https://github.com/ropensci/software-review/issues/414) by [Pachá (aka Mauricio Vargas Sepúlveda)](/author/pachá-aka-mauricio-vargas-sepúlveda/) that provides access to the 2017 Chilean Census.
 Editor [Melina Vidoni](/blog/2019/01/31/more_editors/) is in charge of this review, the reviewers are [Frans van Dunné](https://github.com/FvD) and [María Paula Caldas](https://www.mpaulacaldas.com/).
 Frans van Dunné most kindly translated our [review template to Spanish](https://devdevguide.ropensci.org/reviewtemplatees.html)!
+¡Muchas gracias!
 
 ## Guidance for package documentation
 
