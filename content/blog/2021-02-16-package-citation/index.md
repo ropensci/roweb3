@@ -30,11 +30,6 @@ By commenting on this post you can help us strenghten our package citation guida
 
 To make it really easy for users to cite your package, you should store citation metadata in the expected places and advertise it very clearly.
 
-> "Personally, I take a “belt-and-suspenders” approach and still put citation things in the README." [Noam Ross](/author/noam-ross/), [rOpenSci forum](https://discuss.ropensci.org/t/should-the-ropensci-dev-guide-include-package-citation-best-practices/1551/17)
-
-
-> "I [advertise the citation info in the README] too, just to make it painfully obvious how to cite the work." [Adam Sparks](/author/adam-sparks/), [rOpenSci forum](https://discuss.ropensci.org/t/should-the-ropensci-dev-guide-include-package-citation-best-practices/1551/18)
-
 * Create and populate the CITATION file, as thousands of R packages have done (3,386 out of 16,002 packages on CRAN as of the 15th of January, 2021[^thxmark]). It's easy to create a boilerplate with `usethis::use_citation()`.
 * Archive each release of your GitHub repo on Zenodo and add the [Zenodo top-level DOI](https://help.zenodo.org/#versioning) to the CITATION file.
 * If your software has a clear research application, you can also publish a paper at the Journal of Open Source Software, Journal of Open Research Software among others. You can append a software publication to your CITATION file.
@@ -90,6 +85,12 @@ bibentry(bibtype = "Manual",
 ```
 
 * Direct potential readers to the preferred citation in the README by adding boilerplate text "here's how to cite my package". See e.g. [ecmwfr README](https://github.com/bluegreen-labs/ecmwfr#how-to-cite-this-package-in-your-article).
+
+
+> "Personally, I take a “belt-and-suspenders” approach and still put citation things in the README." [Noam Ross](/author/noam-ross/), [rOpenSci forum](https://discuss.ropensci.org/t/should-the-ropensci-dev-guide-include-package-citation-best-practices/1551/17)
+
+
+> "I [advertise the citation info in the README] too, just to make it painfully obvious how to cite the work." [Adam Sparks](/author/adam-sparks/), [rOpenSci forum](https://discuss.ropensci.org/t/should-the-ropensci-dev-guide-include-package-citation-best-practices/1551/18)
 
 Although some authors use [on-load messages](https://r-pkgs.org/r.html#when-you-do-need-side-effects) to encourage citations, we discourage this practice and recommend that developers highlight this information in their README and documentation.
 
