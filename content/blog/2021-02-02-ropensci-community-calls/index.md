@@ -10,7 +10,7 @@ tags:
   - events
 description: "From choosing a topic to capturing outcomes of rOpenSci Community Calls"
 preface: "In December 2020, Stefanie Butland, rOpenSci’s Community Manager, gave a presentation and Q & A session on community calls for Code for Science & Society Event Fund grantees and fiscally-sponsored project leaders. Emily Lescak, CS&S Event Fund Manager, led the discussion. This post is adapted from the original at GET LINK https://eventfund.codeforscience.org/blog/URL."
-twitterImg: blog/2021-02-02-ropensci-community-calls/commcalls-img.png
+twitterImg: blog/2021/02/02/ropensci-community-calls/commcalls-img.png
 twitterAlt: "collage of images from community calls with 3 Zoom views of speakers, a notes doc and view of someone's screen"
 ---
 
