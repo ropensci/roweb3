@@ -102,7 +102,7 @@ These problems can't be fixed at once by one motivated individual (neither you t
 
 ## How rOpenSci tracks package usage
 
-At rOpenSci we monitor the scientific literature to discover use and mentions of our packages that you can browse on our [citations page](/citations).
+At rOpenSci we monitor the scientific literature to discover uses and mentions of our packages that you can browse on our [citations page](/citations).
 As sometimes packages are used but not listed in the references section, we report any usage of the packages in papers.
 Here's Scott Chamberlain's workflow.
 
