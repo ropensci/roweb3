@@ -74,7 +74,7 @@ For example, our community call on [involving multilingual communities](/commcal
 
 ## Capturing outcomes and impact
 
-The [landing page](/commcalls/dec2020-datarepos/) for each community call acts as an archive that includes the video with closed captions (ask me anything), links to speakers’ slides, collaborative notes doc, and resources on the topic. 
+The [landing page](/commcalls/dec2020-datarepos/) for each community call acts as an archive that includes the video with closed captions[^1], links to speakers’ slides, collaborative notes doc, and resources on the topic. 
 
 Artifacts of a community call:
 
@@ -93,7 +93,7 @@ In her [summary post](/blog/2020/07/14/commcall-maintaining-pkg/) about Maintain
 
 Don’t underestimate the value of sharing your success stories or anecdotes with your team and your community!
 
-## Tips
+## Final thoughts
 
 Community calls are a great low-barrier way for new people to be exposed to your project and for you to hear what people are thinking about a topic. 
 It takes a lot of time to do them well! 
@@ -101,3 +101,5 @@ It's ok to start simple and evolve.
 To streamline the effort of organizing, work from a checklist. Where possible, be open and expose your ideas and progress to your community and encourage their input in the planning phase. 
 Most importantly, be intentional. 
 Think about what it's like to be the speaker, or the person attending their first community call with your project and build a welcoming and valuable experience for them. 
+
+[^1]: footnote on closed captions here
