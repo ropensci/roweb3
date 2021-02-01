@@ -31,7 +31,7 @@ Typically, I (Stefanie) solicit ideas from the rOpenSci team and community.
 It’s best to keep the topic focused rather than trying to cover too much. 
 Recently I've experimented with crowdsourcing ideas in a transparent way via [GitHub](https://github.com/ropensci-org/community-calls/issues). 
 This has resulted in some rich public discussions that help focus and prioritize topics. 
-You’re welcome to adapt this approach for your own needs; please acknowledge rOpenSci if you do.
+If you find this useful and adapt this approach for your own needs we'd love an rOpenSci shoutout!
 
 {{< figure src = "commcalls-topics-gh-shadow.png" class = "center" width = "500" caption = "Excerpt of [suggested community call topics on GitHub](https://github.com/ropensci-org/community-calls/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc), labelled according to their status: 0/idea; 1/approved; 2/working on it; 3/completed" alt = "Excerpt of [suggested community call topics on GitHub](https://github.com/ropensci-org/community-calls/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc), labelled according to their status: 0/idea; 1/approved; 2/working on it; 3/completed" >}}
 
