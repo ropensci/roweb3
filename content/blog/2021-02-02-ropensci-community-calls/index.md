@@ -70,7 +70,7 @@ Over time, this practice of typing questions in the shared doc has led to attend
 
 We typically get 40-50 attendees, sometimes 90, and recently had over 150. 
 It's important to think beyond numbers of attendees; even if there is a lower turnout, those in attendance are likely gaining a lot from the discussion. 
-For example, our community call on [involving multilingual communities](/commcalls/2019-06-28/) had low attendance, but led directly to our experiment with doing [software peer review in Spanish](https://github.com/ropensci/software-review/issues/414).
+For example, our community call on [involving multilingual communities](/commcalls/2019-06-28/) had relatively low attendance, but led directly to our experiment with doing [software peer review in Spanish](https://github.com/ropensci/software-review/issues/414).
 
 ## Capturing outcomes and impact
 
@@ -101,4 +101,3 @@ It's ok to start simple and evolve.
 To streamline the effort of organizing, work from a checklist. Where possible, be open and expose your ideas and progress to your community and encourage their input in the planning phase. 
 Most importantly, be intentional. 
 Think about what it's like to be the speaker, or the person attending their first community call with your project and build a welcoming and valuable experience for them. 
-
