@@ -68,13 +68,20 @@ This results in clear and concise questions for the moderator to choose from, ca
 During Q&A, people are invited to unmute to ask their question, or the moderator can ask on their behalf. 
 Over time, this practice of typing questions in the shared doc has led to attendees adding their own responses to questions, yielding a [rich resource](/blog/2020/07/14/commcall-maintaining-pkg/) that harnesses distributed community knowledge.
 
-We typically get 40-50 attendees, sometimes 90, and recently had over 150. 
-However, it's important to think beyond numbers of attendees; even if there is a lower turnout, those in attendance are likely gaining a lot from the discussion. 
+## Capturing outcomes and impact
+We typically have 40-50 attendees, sometimes 90, and recently had over 150. 
+However, it's important to think beyond numbers; even if there is a lower turnout, those in attendance are likely gaining a lot from the discussion. 
 For example, our community call on [involving multilingual communities](/commcalls/2019-06-28/) had relatively low attendance, but led directly to our experiment with doing [software peer review in Spanish](https://github.com/ropensci/software-review/issues/414).
 
-## Capturing outcomes and impact
+Last year, [Janani Ravi](/author/janani-ravi/), a first-time attendee, went from adding her notes in our shared doc to having a byline on the rOpenSci blog.
+In her [summary post](/blog/2020/07/14/commcall-maintaining-pkg/) about Maintaining an R Package Janani said:
 
-The [landing page](/commcalls/dec2020-datarepos/) for each community call acts as an archive that includes the video with closed captions[^1], links to speakers’ slides, collaborative notes doc, and resources on the topic. 
+> ...learning the right terminology/lingo/vocabulary is everything. It can take a few dozen blog posts and many hours of reading before beginners get to the ‘aha’ moment of ‘oh, these are the terms I need to use to search for what I’m thinking!’...There’s nothing like hearing a lively technical banter of experts to pick up the vernacular that one can easily build upon. That is the precise gap filled in by the timely and helpful rOpenSci Package Maintenance Community Call!
+
+(Don’t underestimate the value of sharing your success stories or anecdotes with your team and your community!)
+
+The [landing page](/commcalls/dec2020-datarepos/) for each community call acts as an archive that includes the video with closed captions[^3], links to speakers’ slides, collaborative notes doc, and resources on the topic.
+We frequently refer people to these. 
 
 Artifacts of a community call:
 
@@ -86,12 +93,6 @@ Artifacts of a community call:
 
 {{< figure src = "commcalls-video-shadow.png" class = "center" width = "400" caption = "Screenshot from [video](/commcalls/dec2020-datarepos/) with closed captions" alt = "screenshot from a community call video shows speaker with slide behind him, and closed caption text in bottom center of image" >}}
 
-Last year, [Janani Ravi](/author/janani-ravi/), a first-time attendee, went from adding her notes in our shared doc to having a byline on the rOpenSci blog.
-In her [summary post](/blog/2020/07/14/commcall-maintaining-pkg/) about Maintaining an R Package she said:
-
-> ...learning the right terminology/lingo/vocabulary is everything. It can take a few dozen blog posts and many hours of reading before beginners get to the ‘aha’ moment of ‘oh, these are the terms I need to use to search for what I’m thinking!’...There’s nothing like hearing a lively technical banter of experts to pick up the vernacular that one can easily build upon. That is the precise gap filled in by the timely and helpful rOpenSci Package Maintenance Community Call!
-
-Don’t underestimate the value of sharing your success stories or anecdotes with your team and your community!
 
 ## Final thoughts
 
