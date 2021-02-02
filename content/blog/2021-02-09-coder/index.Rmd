@@ -142,7 +142,7 @@ Now, how many of those patients were diagnosed with malignancy?
 sum(ch$malignancy)
 ```
 
-What is the distribution of the combined comorbidity index for each patient?
+What is the distribution of the combined comorbidity index for each patient?  (This would summarize the general health status of the cohort.)
 
 ```{r}
 barplot(table(ch$charlson))
