@@ -50,26 +50,26 @@ When scheduling, keep time zones in mind! Think about where your target audience
 
 I schedule a one-hour pre-event meeting with speakers to introduce them to each other, have them share what they’re considering talking about, help them understand their audience, ask them what questions they think should be raised, and cover logistical details of the event. 
 While the panelists are experts in their respective areas, they are not necessarily experienced in communicating with this particular community. 
-I've found that these pre-event sessions lead to meaningful conversations that allow panelists to maximize their complementarity and give a sense of a comfortable discussion during the event. 
+I've found that these pre-event sessions lead to meaningful conversations that allow panelists to maximize their complementarity, and give a sense of a comfortable focussed discussion during the event. 
 I think this may actually end up minimizing their preparation time. 
 
 ## Promoting the event 
 
 Our  community calls are advertised on our [website](https://ropensci.org/commcalls/), Twitter, and relevant Slack groups and mailing lists. 
 With many people finding increased constraints on their time and more virtual events to choose from, I emphasize the specific value of each community call and what makes their content and style unique.
-Successful promotion benefits immensely from overlap between members of different communities and their interests.
+Successful promotion benefits immensely from people sharing with related communities to which they belong.
 
 {{< figure src = "commcalls-promotion-shadow.png" class = "center" width = "600" caption = "Example promotional elements include speaker bios on the [landing page for the Community Call](https://ropensci.org/commcalls/dec2020-datarepos/) and a  [tweet](https://twitter.com/rOpenSci/status/1329092004496748545) that others can share" alt = "On left, a screenshot of 5 speaker bios with headshot and text for each. On right, screenshot of a [tweet](https://twitter.com/rOpenSci/status/1329092004496748545) tagging those speakers in promotion of the community call" >}}
 
 ## Running the event
 
 It is important to begin with a script consisting of introducing your organization, code of conduct, Zoom etiquette, noting the call is recorded, norms for asking questions, and introductions to the speakers. Attendees are encouraged to add their questions and take notes in a [collaborative doc](http://bit.ly/ropensci-commcall-maintaining). 
-This results in clear and concise questions and can help lower barriers to participation. 
+This results in clear and concise questions for the moderator to choose from, can help lower barriers to participation. 
 During Q&A, people are invited to unmute to ask their question, or the moderator can ask on their behalf. 
 Over time, this practice of typing questions in the shared doc has led to attendees adding their own responses to questions, yielding a [rich resource](/blog/2020/07/14/commcall-maintaining-pkg/) that harnesses distributed community knowledge.
 
 We typically get 40-50 attendees, sometimes 90, and recently had over 150. 
-It's important to think beyond numbers of attendees; even if there is a lower turnout, those in attendance are likely gaining a lot from the discussion. 
+However, it's important to think beyond numbers of attendees; even if there is a lower turnout, those in attendance are likely gaining a lot from the discussion. 
 For example, our community call on [involving multilingual communities](/commcalls/2019-06-28/) had relatively low attendance, but led directly to our experiment with doing [software peer review in Spanish](https://github.com/ropensci/software-review/issues/414).
 
 ## Capturing outcomes and impact
