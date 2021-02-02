@@ -64,12 +64,12 @@ Successful promotion benefits immensely from people sharing with related communi
 ## Running the event
 
 It is important to begin with a script consisting of introducing your organization, code of conduct, Zoom etiquette, noting the call is recorded, norms for asking questions, and introductions to the speakers. Attendees are encouraged to add their questions and take notes in a [collaborative doc](http://bit.ly/ropensci-commcall-maintaining). 
-This results in clear and concise questions for the moderator to choose from, can help lower barriers to participation. 
+This results in clear and concise questions for the moderator to choose from and can help lower barriers to participation. 
 During Q&A, people are invited to unmute to ask their question, or the moderator can ask on their behalf. 
 Over time, this practice of typing questions in the shared doc has led to attendees adding their own responses to questions, yielding a [rich resource](/blog/2020/07/14/commcall-maintaining-pkg/) that harnesses distributed community knowledge.
 
 ## Capturing outcomes and impact
-We typically have 40-50 attendees, sometimes 90, and recently had over 150. 
+We typically have 40-50 attendees, sometimes 90, and recently over 150. 
 However, it's important to think beyond numbers; even if there is a lower turnout, those in attendance are likely gaining a lot from the discussion. 
 For example, our community call on [involving multilingual communities](/commcalls/2019-06-28/) had relatively low attendance, but led directly to our experiment with doing [software peer review in Spanish](https://github.com/ropensci/software-review/issues/414).
 
@@ -78,12 +78,11 @@ In her [summary post](/blog/2020/07/14/commcall-maintaining-pkg/) about Maintain
 
 > ...learning the right terminology/lingo/vocabulary is everything. It can take a few dozen blog posts and many hours of reading before beginners get to the ‘aha’ moment of ‘oh, these are the terms I need to use to search for what I’m thinking!’...There’s nothing like hearing a lively technical banter of experts to pick up the vernacular that one can easily build upon. That is the precise gap filled in by the timely and helpful rOpenSci Package Maintenance Community Call!
 
-(Don’t underestimate the value of sharing your success stories or anecdotes with your team and your community!)
+Don’t underestimate the value of sharing your success stories or anecdotes with your team and your community!
 
-The [landing page](/commcalls/dec2020-datarepos/) for each community call acts as an archive that includes the video with closed captions[^3], links to speakers’ slides, collaborative notes doc, and resources on the topic.
-We frequently refer people to these. 
+### Artifacts of a community call
 
-Artifacts of a community call:
+We frequently refer people to the content produced from past calls. The [landing page](/commcalls/dec2020-datarepos/) for each community call acts as an archive that includes the video with closed captions[^3], links to speakers’ slides, collaborative notes doc, and resources on the topic.
 
 *   [Landing page](/commcalls/dec2020-datarepos/) with all the things, including crowdsourced resources
 *   [Public discussion](https://github.com/ropensci-org/community-calls/issues/9) that informed developing the topic and choosing speakers;
@@ -103,7 +102,9 @@ To streamline the effort of organizing, work from [a checklist](https://github.c
 Most importantly, be intentional. 
 Think about what it's like to be the speaker, or the person attending their first community call with your project and build a welcoming and valuable experience for them. 
 
-We'd love to hear from you if you apply some of the information we've shared here.
+What tips do you have for us?
+Are you applying some of what we've shared here? 
+We'd love to hear from you.
 
 [^1]: [The Wild World of Data Repositories](/commcalls/dec2020-datarepos/) was attended by 163 people from 19 countries on 5 continents. [Maintaining an R Package](/commcalls/2020-03-18/) was attended by 90 people from 18 countries.
 [^2]: Woodley, Louise, Pratt, Catherine, Ainsworth, Rachael, Amsen, Eva, Bakker, Arne, Butland, Stefanie, … Tsang, Emmy. (2020, July 17). Using virtual events to facilitate community building: event formats. Zenodo. http://doi.org/10.5281/zenodo.3934385
