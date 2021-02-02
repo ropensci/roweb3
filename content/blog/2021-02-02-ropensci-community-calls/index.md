@@ -17,12 +17,12 @@ twitterAlt: "collage of images from community calls with 3 Zoom views of speaker
 rOpenSci community calls are online events with the fundamental goal of strengthening our community. We have the additional goals of reinforcing our mission and values, informing people on technical and social topics, bringing different stakeholders’ perspectives to light, and identifying unmet needs on a topic. 
 Calls can include one to six speakers, or a moderated panel discussion. 
 They run for an hour and consist of 40 minutes of presentation and 20 minutes for questions from the audience. 
-They have attracted fairly large audiences[^1] with significant representation from academia, government, and industry. 
-Increasingly we have been asked to share our approach[^2]. 
+Generally, our calls attract fairly large audiences[^1] and we see significant representation from academia, government, and industry. 
 
-In this post, we review the flow of community call development, from deciding on a topic to capturing the outcomes. 
-Many of the same principles apply to a wide range of virtual events for community engagement. 
-Strong social facilitation at every step is a key to our success.
+To our delight, we have increasingly been asked to share our approach[^2].
+Therefore, in this post, we review the flow of community call development, from deciding on a topic to capturing the outcomes. We also highlight the strong social facilitation at every step, which is a key to our success.
+Many of the same principles apply to a wide range of virtual events for community engagement, so we hope these techniques will be broadly useful.
+
 
 {{< figure src = "commcalls-img.png" class = "center" width = "350" alt = "collage of images from community calls with 3 Zoom views of speakers, a notes doc and view of someone's screen" >}}
 
