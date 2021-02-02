@@ -14,14 +14,15 @@ twitterImg: blog/2021/02/02/ropensci-community-calls/commcalls-img.png
 twitterAlt: "collage of images from community calls with 3 Zoom views of speakers, a notes doc and view of someone's screen"
 ---
 
-rOpenSci community calls are online events in which information is shared with the goals of reinforcing our mission and values, informing people on technical and social topics, bringing different stakeholders' perspectives to light, and identifying unmet needs on a topic. 
-Our calls can include one to six speakers, or a moderated panel discussion. 
+rOpenSci community calls are online events in which information is shared with the goals of reinforcing our mission and values, informing people on technical and social topics, bringing different stakeholders’ perspectives to light, and identifying unmet needs on a topic. 
+Calls can include one to six speakers, or a moderated panel discussion. 
 They run for an hour and consist of 40 minutes of presentation and 20 minutes for questions from the audience. 
-**Strong social facilitation at every step is our key to success**. 
+They have attracted fairly large audiences[^1] with significant representation from academia, government, and industry. 
+Increasingly we have been asked to share our approach[^2]. 
 
-In this post, we’ll review the flow of community call development, from deciding on a topic to capturing the outcomes. 
-Many of the same principles apply, whether the event is called a community call, panel discussion, or similar. 
-Our goal is to share how we do it so you might adapt some elements to meet your needs. 
+In this post, we review the flow of community call development, from deciding on a topic to capturing the outcomes. 
+Many of the same principles apply to a wide range of virtual events for community engagement. 
+Strong social facilitation at every step is a key to our success.
 
 {{< figure src = "commcalls-img.png" class = "center" width = "350" alt = "collage of images from community calls with 3 Zoom views of speakers, a notes doc and view of someone's screen" >}}
 
@@ -31,7 +32,7 @@ Typically, I (Stefanie) solicit ideas from the rOpenSci team and community.
 It’s best to keep the topic focused rather than trying to cover too much. 
 Recently I've experimented with crowdsourcing ideas in a transparent way via [GitHub](https://github.com/ropensci-org/community-calls/issues). 
 This has resulted in some rich public discussions that help focus and prioritize topics. 
-If you find this useful and adapt this approach for your own needs we'd love an rOpenSci shoutout!
+(If you find this useful and adapt this approach for your own needs we'd love an rOpenSci shoutout!)
 
 {{< figure src = "commcalls-topics-gh-shadow.png" class = "center" width = "500" caption = "Excerpt of [suggested community call topics on GitHub](https://github.com/ropensci-org/community-calls/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc), labelled according to their status: 0/idea; 1/approved; 2/working on it; 3/completed" alt = "Excerpt of [suggested community call topics on GitHub](https://github.com/ropensci-org/community-calls/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc), labelled according to their status: 0/idea; 1/approved; 2/working on it; 3/completed" >}}
 
