@@ -102,4 +102,4 @@ To streamline the effort of organizing, work from a checklist. Where possible, b
 Most importantly, be intentional. 
 Think about what it's like to be the speaker, or the person attending their first community call with your project and build a welcoming and valuable experience for them. 
 
-[^1]: footnote on closed captions here
+[^1]: Read about the evolution of our approach to [adding _high-enough_ quality closed captions to our videos](https://github.com/ropensci-org/community-calls/issues/14).
