@@ -85,7 +85,7 @@ Many people have realized this. [Charlson et al.](https://pubmed.ncbi.nlm.nih.go
 
 ## R packages
 
-There are some excellent R-packages to help with both the Charlson and Elixhauser comorbidity indices. [comorbidity](https://ellessenne.github.io/comorbidity/) by Alessandro Gasparini and [icd](https://jackwasey.github.io/icd/) by Jack O. Wasey and Michael Lang are very well documented with efficient implementations. To keep up with all different and newly proposed coding versions seems like a daunting, if not impossible task, however. Therefore, the coder package offers an alternative, more flexible, implementation. It is not hard-wired to Charlson or Elixhauser, although capabilities for those indices are included as well. data.table is used internally for computational efficiency, while the application programming interface (API) is more inspired by tidyverse. 
+There are some excellent R-packages to help with both the Charlson and Elixhauser comorbidity indices. [comorbidity](https://ellessenne.github.io/comorbidity/) by Alessandro Gasparini and [icd](https://jackwasey.github.io/icd/) by Jack O. Wasey and Michael Lang are very well documented with efficient implementations. To keep up with all different and newly proposed coding versions seems like a daunting, if not impossible task, however. Therefore, the coder package offers an alternative, more flexible, implementation. It is not hard-wired to Charlson or Elixhauser, although capabilities for those indices are included as well. [data.table](https://rdatatable.gitlab.io/data.table/) is used internally for computational efficiency, while the application programming interface (API) is more inspired by [tidyverse](https://www.tidyverse.org/). 
 
 
 
