@@ -16,7 +16,7 @@ package_version: 0.1.0
 description: Ever tried interacting with a GraphQL server in R and felt like giving
   up even before getting anywhere? Well, I have been there and I wrote this blog post
   to assist others.
-twitterImg: blog/2020/10/10/accessing-grahpql-in-r/GHQL.png
+twitterImg: blog/2020/10/10/accessing-graphql-in-r/GHQL.png
 output:
   html_document:
     keep_md: yes
