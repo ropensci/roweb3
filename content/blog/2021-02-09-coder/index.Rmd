@@ -4,7 +4,7 @@ title: coder Makes Medical Coding less Messy
 package_version: 0.13.6
 author:
   - Erik Bülow
-date: 2021-01-25
+date: 2021-02-09
 tags:
   - Software Peer Review
   - packages
@@ -13,7 +13,7 @@ tags:
   - data-munging
 # The summary below will be used by e.g. Twitter cards
 description: "A very short summary of your post (~ 100 characters)"
-twitterImg: blog/2021-01-25-coder/hex.png
+twitterImg: blog/2021-02-09-coder/hex.png
 twitterAlt: "Hex sticker for the coder package"
 output: 
   html_document:
