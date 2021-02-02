@@ -9,7 +9,7 @@ tags:
   - community call
   - events
 description: "Tips from choosing a topic to capturing outcomes"
-preface: "In December 2020, Stefanie Butland, rOpenSci’s Community Manager, gave a presentation and Q & A session on community calls for Code for Science & Society Event Fund grantees and fiscally-sponsored project leaders. Emily Lescak, CS&S Event Fund Manager, led the discussion. This post is adapted from the original at GET LINK https://eventfund.codeforscience.org/blog/URL."
+preface: "In December 2020, Stefanie Butland, rOpenSci’s Community Manager, gave a presentation on community calls for Code for Science & Society Event Fund grantees and fiscally-sponsored project leaders. Emily Lescak, CS&S Event Fund Manager, led the discussion. This post builds on [the summary post](https://eventfund.codeforscience.org/community-call/) from that session."
 twitterImg: blog/2021/02/02/ropensci-community-calls/commcalls-img.png
 twitterAlt: "collage of images from community calls with 3 Zoom views of speakers, a notes doc and view of someone's screen"
 ---
@@ -98,7 +98,7 @@ Don’t underestimate the value of sharing your success stories or anecdotes wit
 Community calls are a great low-barrier way for new people to be exposed to your project and for you to hear what people are thinking about a topic. 
 It takes a lot of time to do them well! 
 It's ok to start simple and evolve. 
-To streamline the effort of organizing, work from a checklist. Where possible, be open and expose your ideas and progress to your community and encourage their input in the planning phase. 
+To streamline the effort of organizing, work from [a checklist](https://github.com/ropensci-org/community-calls/blob/master/checklist.md). Where possible, be open and expose your ideas and progress to your community and encourage their input in the planning phase. 
 Most importantly, be intentional. 
 Think about what it's like to be the speaker, or the person attending their first community call with your project and build a welcoming and valuable experience for them. 
 
