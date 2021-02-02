@@ -32,7 +32,6 @@ Typically, I (Stefanie) solicit ideas from the rOpenSci team and community.
 It’s best to keep the topic focused rather than trying to cover too much. 
 Recently I've experimented with crowdsourcing ideas in a transparent way via [GitHub](https://github.com/ropensci-org/community-calls/issues). 
 This has resulted in some rich public discussions that help focus and prioritize topics. 
-(If you find this useful and adapt this approach for your own needs we'd love an rOpenSci shoutout!)
 
 {{< figure src = "commcalls-topics-gh-shadow.png" class = "center" width = "500" caption = "Excerpt of [suggested community call topics on GitHub](https://github.com/ropensci-org/community-calls/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc), labelled according to their status: 0/idea; 1/approved; 2/working on it; 3/completed" alt = "Excerpt of [suggested community call topics on GitHub](https://github.com/ropensci-org/community-calls/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc), labelled according to their status: 0/idea; 1/approved; 2/working on it; 3/completed" >}}
 
@@ -99,8 +98,12 @@ Don’t underestimate the value of sharing your success stories or anecdotes wit
 Community calls are a great low-barrier way for new people to be exposed to your project and for you to hear what people are thinking about a topic. 
 It takes a lot of time to do them well! 
 It's ok to start simple and evolve. 
-To streamline the effort of organizing, work from [a checklist](https://github.com/ropensci-org/community-calls/checklist.md). Where possible, be open and expose your ideas and progress to your community and encourage their input in the planning phase. 
+To streamline the effort of organizing, work from [a checklist](https://github.com/ropensci-org/community-calls/blob/master/checklist.md). Where possible, be open and expose your ideas and progress to your community and encourage their input in the planning phase. 
 Most importantly, be intentional. 
 Think about what it's like to be the speaker, or the person attending their first community call with your project and build a welcoming and valuable experience for them. 
 
-[^1]: Read about the evolution of our approach to [adding _high-enough_ quality closed captions to our videos](https://github.com/ropensci-org/community-calls/issues/14).
+We'd love to hear from you if you apply some of the information we've shared here.
+
+[^1]: [The Wild World of Data Repositories](/commcalls/dec2020-datarepos/) was attended by 163 people from 19 countries on 5 continents. [Maintaining an R Package](/commcalls/2020-03-18/) was attended by 90 people from 18 countries.
+[^2]: Woodley, Louise, Pratt, Catherine, Ainsworth, Rachael, Amsen, Eva, Bakker, Arne, Butland, Stefanie, … Tsang, Emmy. (2020, July 17). Using virtual events to facilitate community building: event formats. Zenodo. http://doi.org/10.5281/zenodo.3934385
+[^3]: Read about the evolution of our approach to [adding _high-enough_ quality closed captions to our videos](https://github.com/ropensci-org/community-calls/issues/14).
