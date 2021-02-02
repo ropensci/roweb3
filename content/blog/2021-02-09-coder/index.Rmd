@@ -144,7 +144,7 @@ sum(ch$malignancy)
 
 What is the distribution of the combined comorbidity index for each patient?  (This would summarize the general health status of the cohort.)
 
-```{r}
+```{r,  hugoopts=list(alt="Bar plot showing that most patients have 0 comorbidity.", caption="Distribution of the Charlson comorbidity index. Most patients are healthy (0 comorbidities).")}
 barplot(table(ch$charlson))
 ```
 
