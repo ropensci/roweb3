@@ -12,7 +12,7 @@ tags:
   - coder
   - data-munging
 # The summary below will be used by e.g. Twitter cards
-description: "A very short summary of your post (~ 100 characters)"
+description: "The coder package helps to summarize and interpret (medical) coding in R (think ICD, ATC and more)!"
 twitterImg: blog/2021-02-09-coder/hex.png
 twitterAlt: "Hex sticker for the coder package"
 output: 
