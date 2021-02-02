@@ -69,7 +69,7 @@ knitr::knit_hooks$set(
 <!--/html_preserve-->
 
 
-A new R-package, `{coder}` has been [developed](https://github.com/ropensci/coder), [peer-reviewed](https://github.com/openjournals/joss-reviews/issues/2916), released by [rOpenSci](https://docs.ropensci.org/coder/), accepted by [CRAN](https://cran.r-project.org/package=coder), and advertised in a paper published by the Journal of Open Source Software [(JOSS)](https://joss.theoj.org/papers/10.21105/joss.02916). In this blog post, I will explain why this package might be useful for (epidemiological/medical/health care related) research.   
+A new R-package, [coder](https://docs.ropensci.org/coder/), has been [developed](https://github.com/ropensci/coder), [peer-reviewed](https://github.com/ropensci/software-review/issues/381) by rOpenSci, accepted by [CRAN](https://cran.r-project.org/package=coder), and published in a paper by the Journal of Open Source Software [(JOSS)](https://joss.theoj.org/papers/10.21105/joss.02916). In this blog post, I will explain why this package might be useful for (epidemiological/medical/health care related) research.   
 
 
 ## Clinical mess
