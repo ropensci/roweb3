@@ -50,16 +50,16 @@ When scheduling, keep time zones in mind! Think about where your target audience
 
 I schedule a one-hour pre-event meeting with speakers to introduce them to each other, have them share what they’re considering talking about, help them understand their audience, ask them what questions they think should be raised, and cover logistical details of the event. 
 While the panelists are experts in their respective areas, they are not necessarily experienced in communicating with this particular community. 
-I've found that these pre-event sessions lead to meaningful conversations that allow panelists to maximize their complementarity, and give a sense of a comfortable focussed discussion during the event. 
+I've found that these pre-event sessions lead to meaningful conversations that allow panelists to maximize their complementarity, and give a sense of a comfortable focused discussion during the event. 
 I think this may actually end up minimizing their preparation time. 
 
 ## Promoting the event 
 
-Our  community calls are advertised on our [website](https://ropensci.org/commcalls/), Twitter, and relevant Slack groups and mailing lists. 
+Our  community calls are advertised on our [website](/commcalls/), Twitter, and relevant Slack groups and mailing lists. 
 With many people finding increased constraints on their time and more virtual events to choose from, I emphasize the specific value of each community call and what makes their content and style unique.
 Successful promotion benefits immensely from people sharing with related communities to which they belong.
 
-{{< figure src = "commcalls-promotion-shadow.png" class = "center" width = "600" caption = "Example promotional elements include speaker bios on the [landing page for the Community Call](https://ropensci.org/commcalls/dec2020-datarepos/) and a  [tweet](https://twitter.com/rOpenSci/status/1329092004496748545) that others can share" alt = "On left, a screenshot of 5 speaker bios with headshot and text for each. On right, screenshot of a [tweet](https://twitter.com/rOpenSci/status/1329092004496748545) tagging those speakers in promotion of the community call" >}}
+{{< figure src = "commcalls-promotion-shadow.png" class = "center" width = "600" caption = "Example promotional elements include speaker bios on the [landing page for the Community Call](/commcalls/dec2020-datarepos/) and a  [tweet](https://twitter.com/rOpenSci/status/1329092004496748545) that others can share" alt = "On left, a screenshot of 5 speaker bios with headshot and text for each. On right, screenshot of a [tweet](https://twitter.com/rOpenSci/status/1329092004496748545) tagging those speakers in promotion of the community call" >}}
 
 ## Running the event
 
@@ -103,8 +103,9 @@ Most importantly, be intentional.
 Think about what it's like to be the speaker, or the person attending their first community call with your project and build a welcoming and valuable experience for them. 
 
 What tips do you have for us?
+Maybe we've borrowed some techniques you've been using for years!
 Are you applying some of what we've shared here? 
-We'd love to hear from you.
+We'd love to hear from you in the comments.
 
 [^1]: [The Wild World of Data Repositories](/commcalls/dec2020-datarepos/) was attended by 163 people from 19 countries on 5 continents. [Maintaining an R Package](/commcalls/2020-03-18/) was attended by 90 people from 18 countries.
 [^2]: Woodley, Louise, Pratt, Catherine, Ainsworth, Rachael, Amsen, Eva, Bakker, Arne, Butland, Stefanie, … Tsang, Emmy. (2020, July 17). Using virtual events to facilitate community building: event formats. Zenodo. http://doi.org/10.5281/zenodo.3934385
