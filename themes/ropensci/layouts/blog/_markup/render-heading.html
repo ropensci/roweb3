@@ -1,7 +1,7 @@
 <h{{ .Level }} id="{{ .Anchor | safeURL }}">
 {{ if ( gt .Level 1 ) }}
 <a class="anchor d-print-none" href="#{{ .Anchor | safeURL }}">
-  &#x1F517;
+  <small>&#x1F517;</small>
 </a>
 {{ end }}
 {{ .Text | safeHTML }}
