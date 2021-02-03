@@ -20,7 +20,8 @@ Scientists rarely cite research software they use as part of a research project.
 
 We shall also give some insights on hurdles the users of your package might face when wanting to cite your package, as well as a brief presentation of our monitoring of the literature to find use cases of our packages.
 We are planning to include this topic in our [package dev guide](https://devguide.ropensci.org/).
-By commenting on this post you can help us strenghten our package citation guidance!
+By commenting on this post you can help us strengthen our package citation guidance!
+_Thanks to [Adam Sparks](/author/adam-sparks/) for commenting on a draft of this post!_
 
 ## Clear citation rules for your package
 
@@ -96,7 +97,8 @@ Although some authors use [on-load messages](https://r-pkgs.org/r.html#when-you-
 
 ## Why is it hard to cite software?
 
-Despite your best efforts to encourage users to cite your software, you might still run into challenges. Authors may have limits on the number of references they can cite in a journal or face resistance from their coauthors.
+Despite your best efforts to encourage users to cite your software, you might still run into challenges. Authors may have limits on the number of references they can cite in a journal or face resistance from their coauthors. 
+Other authors may simply be unaware that they can use `citation("packagename")` to easily retrieve the citation information for an R package or that they even should cite the package because it is not something that has been commonly promoted.
 
 These problems can't be fixed at once by one motivated individual (neither you the developer nor they the user), so more advocacy and teaching is needed. In the meantime, how do we [adapt software citation guidelines](https://twitter.com/EikoFried/status/1197556604075466753) to realistically accommodate for all situations?
 
