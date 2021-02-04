@@ -15,11 +15,9 @@ attendees:
 resources: # can be added later, one entry per talk (don't add while still empty, add once there are resources)
   - title: Monitoring health and impact of open-source projects
     speaker: Jeroen Ooms
-    video: https://global.rstudio.com/student/page/40614
+    video: https://rstudio.com/resources/rstudioglobal-2021/monitoring-health-and-impact-of-open-source-projects/
 ---
-Jeroen Ooms is talking about his rOpenSci work at [rstudio::global 2021](https://global.rstudio.com/student/page/40614). His talk will run twice:
-- Session 1 Thursday, Jan 21, 2021 at 3:00 PM to 3:20 PM PST
-- Session 2 Friday, Jan 22, 2021 at 3:00 AM to 3:20 AM PST
+Jeroen Ooms talked about his rOpenSci work at rstudio::global 2021
 
 
 ## Abstract
