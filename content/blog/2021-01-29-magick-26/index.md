@@ -8,6 +8,8 @@ tags:
   - images
   - packages
   - tech notes
+  - r-universe
+summary: Shorter summary hey
 ---
 
 It has been [a while](https://ropensci.org/technotes/2019/09/27/ropensci-docs/) since we posted an update about [magick](https://docs.ropensci.org/magick/articles/intro.html), but behind the scenes we are constantly tweaking and improving this package, which has become a very mature and complete toolkit for image processing in R.
