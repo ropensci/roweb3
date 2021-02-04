@@ -16,3 +16,4 @@
 /coc /code-of-conduct
 /blog/2015/11/19/hemlsley-trust-funding/ /blog/2015/11/19/helmsley-trust-funding/
 /blog/2020/12/08/accessing-grahpql-in-r/ /blog/2020/12/08/accessing-graphql-in-r/
+/technotes/* /blog/:splat
