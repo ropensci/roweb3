@@ -16,6 +16,7 @@ tags:
   - pipelines
   - workflow-automation
   - workflows
+featured: true
 description: "A new pipeline tool, a new ecosystem, and how you can help"
 twitterImg: technotes/2021/02/03/targets/card.png
 twitterAlt: "targets hex logo"
