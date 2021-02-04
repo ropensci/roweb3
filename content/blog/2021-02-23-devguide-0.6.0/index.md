@@ -63,6 +63,8 @@ The chapter about [package evolution](https://devdevguide.netlify.app/evolution.
 
 We added a small update to the [package curation policy](https://devdevguide.netlify.app/curationpolicy.html#legacy-acquired-packages): it now mentions a possible exception for keeping legacy packages that are vital parts of the R and/or rOpenSci package ecosystem which are actively monitored by staff. 
 
+Last but not least, we will now more strongly enforce the use of a [NEWS.md](https://devguide.ropensci.org/releasing.html#news) file to indicate the changes made during review, and will require the package version to be increased after review.
+
 ## Meta changes
 
 Did you notice the guide got a design refresh? :sparkles:
