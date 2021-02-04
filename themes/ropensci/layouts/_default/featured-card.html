@@ -12,11 +12,15 @@
                 <div class="d-flex justify-content-between card-user">
                     <span class="card-user__name">
                     {{ with .Params.author }}
+                    {{ if ne (substr (jsonify . ) 0 1) "[" }}
+                     {{ . }}
+                     {{ else }}
                       {{ if le (len .) 2 }}
                        {{ delimit . ", "  }} 
                       {{ else }}
                         {{ (index . 0) }} et al.
                       {{ end }}
+                    {{ end }}
                     {{ end }}
                     </span>
                   <a class="card-link link-arrow" href="{{ .Permalink }}"

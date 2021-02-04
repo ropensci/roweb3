@@ -17,7 +17,10 @@
     </div>
     <div class="blog-featured">
       <div class="row">
-      {{ range first 2 ( where ( where .Site.RegularPages "Type" "in" .Site.Params.blogs ) "Params.featured" true ) }}
+      {{ range first 1 ( where ( where .Site.RegularPages "Type" "in" .Site.Params.blogs ) "Params.featured" true ) }}
+      {{ .Render "featured-card" }}
+      {{ end }}  
+      {{ range first 1 ( where ( where .Site.RegularPages "Type" "in" .Site.Params.blogs ) "Params.tags" "intersect" (slice "tech notes") ) }}
       {{ .Render "featured-card" }}
       {{ end }}  
       </div>
