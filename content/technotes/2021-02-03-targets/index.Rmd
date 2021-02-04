@@ -17,14 +17,61 @@ tags:
   - workflow-automation
   - workflows
 description: "A new pipeline tool, a new ecosystem, and how you can help"
-twitterImg: technotes/2021-02-03-targets/card.png
+twitterImg: technotes/2021/02/03/targets/card.png
 twitterAlt: "targets hex logo"
 output: 
   html_document:
     keep_md: true
 ---
 
+```{r setup, include=FALSE}
+# Options to have images saved in the post folder
+# And to disable symbols before output
+knitr::opts_chunk$set(fig.path = "", comment = "#>")
 
+# knitr hook to make images output use Hugo options
+knitr::knit_hooks$set(
+  plot = function(x, options) {
+    hugoopts <- options$hugoopts
+    paste0(
+      "{{<figure src=",
+      '"', x, '" ',
+      if (!is.null(hugoopts)) {
+        glue::glue_collapse(
+          glue::glue('{names(hugoopts)}="{hugoopts}"'),
+          sep = " "
+        )
+      },
+      ">}}\n"
+    )
+  }
+)
+
+# knitr hook to use Hugo highlighting options
+knitr::knit_hooks$set(
+  source = function(x, options) {
+  hlopts <- options$hlopts
+    paste0(
+      "```r ",
+      if (!is.null(hlopts)) {
+      paste0("{",
+        glue::glue_collapse(
+          glue::glue('{names(hlopts)}={hlopts}'),
+          sep = ","
+        ), "}"
+        )
+      },
+      "\n", glue::glue_collapse(x, sep = "\n"), "\n```\n"
+    )
+  }
+)
+
+library(stantargets)
+library(targets)
+library(tarchetypes)
+library(tidyverse)
+library(visNetwork)
+```
 
 [Make](https://www.gnu.org/software/make/)[^1]-like pipelines enhance the integrity, transparency, shelf life, efficiency, and scale of large analysis projects.
 With pipelines, data science feels smoother and more rewarding, and the results are worthy of more trust.
@@ -36,9 +83,9 @@ With pipelines, data science feels smoother and more rewarding, and the results 
 <blockquote><p lang="en" dir="ltr">{targets} and its predecessors are visionary work. I can't imagine making pipelines in a linear script ever again.</p>&mdash; Miles McBain (@MilesMcBain) <a href="https://twitter.com/MilesMcBain/status/1347379570282954756?ref_src=twsrc%5Etfw">January 8, 2021</a></blockquote>
 <!--/html_preserve-->
 
-<!--html_preserve--> <h2>targets <a href="https://docs.rOpenSci.org/targets/">{{< figure src = "technotes/2021-02-03-targets/targets.png" alt = "targets hex logo" height = "139" class = "pull-right" >}}</a></h2> <!--/html_preserve-->
+<!--html_preserve--> <h2>targets <a href="https://docs.rOpenSci.org/targets/">{{< figure src = "targets.png" alt = "targets hex logo" height = "139" class = "pull-right" >}}</a></h2> <!--/html_preserve-->
 
-```r 
+```{r, eval = FALSE}
 install.packages("targets")
 ```
 
@@ -52,7 +99,7 @@ The [reference website](https://docs.rOpenSci.org/targets/) explains how to get 
 In [`targets`](https://docs.rOpenSci.org/targets/), a data analysis pipeline is a collection of [target](https://docs.rOpenSci.org/targets/reference/tar_target.html) objects that [express the individual steps](https://books.rOpenSci.org/targets/walkthrough.html) of the workflow, from upstream data processing to downstream [R Markdown reports](https://books.rOpenSci.org/targets/files.html#literate-programming)[^5].
 These targets live in a special script called `_targets.R`.
 
-```r 
+```{r, eval = FALSE}
 # _targets.R file
 library(targets)
 tar_option_set(packages = c("biglm", "dplyr", "ggplot2", "readr"))
@@ -84,35 +131,66 @@ list(
 )
 ```
 
-
+```{r, echo = FALSE, eval = TRUE}
+library(targets)
+tar_destroy()
+tar_script({
+  read_clean <- function(path) {
+    path %>%
+      read_csv(col_types = cols()) %>%
+      mutate(Ozone = replace_na(Ozone, mean(Ozone, na.rm = TRUE)))
+  }
+  fit_model <- function(data) {
+    biglm(Ozone ~ Wind + Temp, data)
+  }
+  create_plot <- function(data) {
+    ggplot(data) +
+      geom_histogram(aes(x = Ozone), bins = 12) +
+      theme_gray(24) +
+      theme(
+        panel.background = element_rect(fill = "transparent"),
+        plot.background = element_rect(fill = "transparent", color = NA),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank()
+      )
+  }
+  options(tidyverse.quiet = TRUE, crayon.enabled = FALSE)
+  tar_option_set(packages = c("biglm", "tidyverse"))
+  list(
+    tar_target(raw_data_file, "raw_data.csv", format = "file"),
+    tar_target(data, read_clean(raw_data_file)),
+    tar_target(fit, fit_model(data)),
+    tar_target(hist, create_plot(data))
+  )
+})
+```
 
 [`targets`](https://docs.rOpenSci.org/targets/) inspects your code and constructs a dependency graph.
 
+```{r, echo = FALSE}
+tar_visnetwork() %>%
+  visOptions(width = "80%", height = "400px") %>%
+  visSave(
+    file = "graph-minimal.html",
+    background = "transparent"
+  )
+```
 
-
-```r 
+```{r, eval = FALSE}
 # R console
 tar_visnetwork()
 ```
 
 <!--html_preserve-->
 <!-- The dots in the src are not ideal, but they get me to the path of the widget -->
-<iframe src = "../../../../2021-02-03-targets/graph-minimal.html" width = "100%" height = "500px" frameBorder="0" scrolling="no" title = "dependency graph of the minimal example"></iframe>
+<iframe src = "graph-minimal.html" width = "100%" height = "500px" frameBorder="0" scrolling="no" title = "dependency graph of the minimal example"></iframe>
 <!--/html_preserve-->
 
 [`tar_make()`](https://docs.rOpenSci.org/targets/reference/tar_make.html) runs the correct targets in the correct order.
 
-```r 
+```{r}
 # R console
 tar_make()
-```
-
-```
-#> ● run target raw_data_file
-#> ● run target data
-#> ● run target fit
-#> ● run target hist
-#> ● end pipeline
 ```
 
 Alternatives [`tar_make_clustermq()`](https://docs.rOpenSci.org/targets/reference/tar_make_clustermq.html) and [`tar_make_future()`](https://docs.rOpenSci.org/targets/reference/tar_make_future.html) leverage [`clustermq`](https://mschubert.github.io/clustermq/)[^6] and [`future`](https://github.com/HenrikBengtsson/future)[^7], respectively, to distribute targets on traditional schedulers such as [SLURM](https://slurm.schedmd.com/documentation.html)[^8].
@@ -121,30 +199,30 @@ It is only a matter of time before these backends become capable of [sending job
 Your can store the results in the [`_targets/`](https://books.rOpenSci.org/targets/files.html#internal-files) folder (default) or [Amazon S3 buckets](https://books.rOpenSci.org/targets/cloud.html#storage).
 Either way, loading data back into R is the same.
 
+```{r, echo = FALSE}
+ggsave(
+  filename = "histogram.png",
+  plot = tar_read(hist),
+  width = 8,
+  height = 4,
+  bg = "transparent"
+)
+```
 
-
-```r 
+```{r, eval = FALSE}
 # R console
 tar_read(hist) # see also tar_load()
 ```
 
 <!--html_preserve-->
-{{< figure src = "technotes/2021-02-03-targets/histogram.png" alt = "histogram of ozone readings from the airquality dataset in base R">}}
+{{< figure src = "histogram.png" alt = "histogram of ozone readings from the airquality dataset in base R">}}
 <!--/html_preserve-->
 
 Up-to-date targets do not rerun, which saves countless hours in computationally intense fields like machine learning, Bayesian statistics, and statistical genomics.
 
-```r 
+```{r}
 # R console
 tar_make()
-```
-
-```
-#> ✓ skip target raw_data_file
-#> ✓ skip target data
-#> ✓ skip target fit
-#> ✓ skip target hist
-#> ✓ skip pipeline
 ```
 
 ## The next challenge
@@ -167,7 +245,7 @@ The best way to write fewer functions is to write less code.
 To write less code, we need abstraction and automation.
 Target factories are package functions that return lists of pre-configured target objects, and they make specialized pipelines reusable.
 
-```r 
+```{r, eval = FALSE}
 # script inside example.package
 
 #' @export
@@ -208,7 +286,7 @@ biglm_factory <- function(file) {
 
 With the factory above, our long `_targets.R` file suddenly collapses down to three lines.
 
-```r 
+```{r, eval = FALSE}
 # _targets.R file
 library(targets)
 library(example.package)
@@ -217,7 +295,7 @@ biglm_factory("raw_data.csv")
 
 And you still have complete freedom to add more targets to the list. 
 
-```r 
+```{r, eval = FALSE}
 # _targets.R file
 library(targets)
 library(example.package)
@@ -229,14 +307,14 @@ list( # Target lists can be arbitrarily nested.
 ```
 
 <!--html_preserve-->
-<h2>The R Targetopia <a href="https://wlandau.github.io/targetopia/">{{< figure src = "technotes/2021-02-03-targets/targetopia.png" alt = "R Targetopia hex logos" height = "242" class = "pull-right" >}}</a></h2>
+<h2>The R Targetopia <a href="https://wlandau.github.io/targetopia/">{{< figure src = "targetopia.png" alt = "R Targetopia hex logos" height = "242" class = "pull-right" >}}</a></h2>
 <!--/html_preserve-->
 
 The [R Targetopia](https://wlandau.github.io/targetopia/)[^11] is an emerging ecosystem of packages to bring target factories to specific domains of Statistics and data science.
 
 ### stantargets
 
-```r 
+```{r, eval = FALSE}
 library(remotes)
 install_github("wlandau/stantargets")
 library(cmdstanr)
@@ -246,7 +324,7 @@ install_cmdstan()
 [`stantargets`](https://wlandau.github.io/stantargets/)[^12] abstracts away most of the targets and functions required for a solid Bayesian data analysis with [Stan](https://mc-stan.org)[^13].
 With a single [target factory](https://wlandau.github.io/targetopia/contributing.html#target-factories) and a single function to generate data, [`stantargets`](https://wlandau.github.io/stantargets/) can give you an entire sensitivity analysis or an entire [simulation-based calibration study](https://wlandau.github.io/stantargets/articles/mcmc_rep.html).[^14] [^15]
 
-```r 
+```{r, echo = TRUE, eval = FALSE}
 # _targets.R for simulation-based calibration to validate a Stan model.
 library(targets)
 library(stantargets)
@@ -274,23 +352,58 @@ list(
 )
 ```
 
+```{r, echo = FALSE, eval = TRUE}
+library(targets)
+tar_script({
+  library(stantargets)
+  
+  generate_data <- function() {
+    true_beta <- stats::rnorm(n = 1, mean = 0, sd = 1)
+    x <- seq(from = -1, to = 1, length.out = n)
+    y <- stats::rnorm(n, x * true_beta, 1)
+    list(n = n, x = x, y = y, true_beta = true_beta)
+  }
+  
+  list(
+    tar_stan_mcmc_rep_summary(
+      model,
+      "model.stan",
+      generate_data(), # Runs once per rep.
+      batches = 5, # Number of branch targets.
+      reps = 2, # Number of model reps per branch target.
+      data_copy = "true_beta", # Append scalars from data to the output data frame.
+      variables = "beta",
+      summaries = list(
+        ~posterior::quantile2(.x, probs = c(0.025, 0.975))
+      ),
+      log = R.utils::nullfile()
+    )
+  )
+})
+```
 
+```{r, echo = FALSE}
+tar_visnetwork() %>%
+  visOptions(width = "80%", height = "400px") %>%
+  visSave(
+    file = "graph-stantargets.html",
+    background = "transparent"
+  )
+```
 
-
-
-```r 
+```{r, eval = FALSE}
 # R console
 tar_visnetwork()
 ```
 
 <!--html_preserve-->
 <!-- The dots in the src are not ideal, but they get me to the path of the widget -->
-<iframe src = "../../../../2021-02-03-targets/graph-stantargets.html" width = "100%" height = "500px" frameBorder="0" scrolling="no" title = "stantargets dependency graph"></iframe>
+<iframe src = "graph-stantargets.html" width = "100%" height = "500px" frameBorder="0" scrolling="no" title = "stantargets dependency graph"></iframe>
 <!--/html_preserve-->
 
-<!--html_preserve--> <h3>tarchetypes <a href="https://docs.rOpenSci.org/tarchetypes/">{{< figure src = "technotes/2021-02-03-targets/tarchetypes.png" alt = "tarchetypes hex logo" height = "139" class = "pull-right" >}}</a></h3> <!--/html_preserve-->
+<!--html_preserve--> <h3>tarchetypes <a href="https://docs.rOpenSci.org/tarchetypes/">{{< figure src = "tarchetypes.png" alt = "tarchetypes hex logo" height = "139" class = "pull-right" >}}</a></h3> <!--/html_preserve-->
 
-```r 
+```{r, eval = FALSE}
 install.packages("tarchetypes")
 ```
 
@@ -298,7 +411,7 @@ The [`tarchetypes`](https://docs.rOpenSci.org/tarchetypes/)[^16] [R Targetopia](
 Its target factories include [`tar_rep()`](https://docs.rOpenSci.org/tarchetypes/reference/tar_rep.html) for arbitrary simulation studies, [`tar_render()`](https://books.rOpenSci.org/targets/files.html#literate-programming) for [dependency-aware](https://books.rOpenSci.org/targets/files.html#literate-programming) literate programming, and [`tar_render_rep()`](https://docs.rOpenSci.org/tarchetypes/reference/tar_render_rep.html) for [parameterized R Markdown](https://bookdown.org/yihui/rmarkdown/parameterized-reports.html).
 [`tar_plan()`](https://docs.rOpenSci.org/tarchetypes/reference/tar_plan.html) is a [`drake_plan()`](https://docs.rOpenSci.org/drake/reference/drake_plan.html)-like target factory to help [`drake`](https://docs.rOpenSci.org/drake/) users transition to [`targets`](https://docs.rOpenSci.org/targets/).
 
-```r 
+```{r, eval = FALSE}
 # _targets.R file
 library(targets)
 library(tarchetypes)
@@ -361,4 +474,7 @@ The views in this post do not necessarily reflect those of my employer.
 [^19]: JJ Allaire and François Chollet (2020). keras: R Interface to 'Keras'. R package version 2.3.0.0. https://CRAN.R-project.org/package=keras
 [^20]: Daniel Falbel and Javier Luraschi (2020). torch: Tensors and Neural Networks with 'GPU' Acceleration. R package version 0.2.0. https://CRAN.R-project.org/package=torch
 
-
+```{r cleanup, include = FALSE}
+tar_destroy()
+unlink("_targets.R")
+```
