@@ -97,7 +97,7 @@ tar_visnetwork()
 
 <!--html_preserve-->
 <!-- The dots in the src are not ideal, but they get me to the path of the widget -->
-<iframe src = "/technotes/2021/02/03/targets/graph-minimal.html" width = "100%" height = "500px" frameBorder="0" scrolling="no" title = "dependency graph of the minimal example"></iframe>
+<iframe src = "graph-minimal.html" width = "100%" height = "500px" frameBorder="0" scrolling="no" title = "dependency graph of the minimal example"></iframe>
 <!--/html_preserve-->
 
 [`tar_make()`](https://docs.rOpenSci.org/targets/reference/tar_make.html) runs the correct targets in the correct order.
@@ -285,7 +285,7 @@ tar_visnetwork()
 
 <!--html_preserve-->
 <!-- The dots in the src are not ideal, but they get me to the path of the widget -->
-<iframe src = "/technotes/2021/02/03/targets/graph-stantargets.html" width = "100%" height = "500px" frameBorder="0" scrolling="no" title = "stantargets dependency graph"></iframe>
+<iframe src = "graph-stantargets.html" width = "100%" height = "500px" frameBorder="0" scrolling="no" title = "stantargets dependency graph"></iframe>
 <!--/html_preserve-->
 
 <!--html_preserve--> <h3>tarchetypes <a href="https://docs.rOpenSci.org/tarchetypes/">{{< figure src = "tarchetypes.png" alt = "tarchetypes hex logo" height = "139" class = "pull-right" >}}</a></h3> <!--/html_preserve-->
