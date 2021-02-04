@@ -110,7 +110,7 @@ Fortunately, there are several functions in the coder package to aid such interp
 
 - `visualize()` will open the default web browser to show a structural diagram based on the [JavaScript Regular Expression Visualizer](https://jex.im/regulex). 
 - `summary()` relies on the [decoder](https://cran.r-project.org/package=decoder) package to decode the meaning of a regular expression in the content of a specified code version. For example the ICD-10 specification of a dislocation after total hip arthroplasty (`^(M24(3|4F?)|S730|T933)$`) would expand to 5 individual codes according to ICD-10-SE: M243, M244, M244F, S730, T933. None of those would be recognized by ICD-10-CM, however. A longer list of 146 codes (M2430, M24311, M24312, M24319, M24321, ...) would be recognized for `^(M24(3|4F?)|S730|T933)` (without the `$` suffix).
-- `codebook()` takes this a step further. It not only list the relevant codes but also translate them into plain text.
+- `codebook()` takes this a step further. It not only lists the relevant codes but also translates them into plain text.
 M2430 and M24311 from ICD-10-CM for example would be described as "Pathological dislocation of unspecified joint, not elsewhere classified" and "Pathological dislocation of right shoulder, not elsewhere classified". A code such as C430 would be recognized by both ICD-10-CM and ICD-10-SE, with the same meaning but in different languages: "Malignant melanoma of lip" and "Malignt melanom på läpp".
 
 
