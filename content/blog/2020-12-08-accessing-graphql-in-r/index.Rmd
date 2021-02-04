@@ -4,7 +4,7 @@ author:
   - Dennis Irorere
   - Scott Chamberlain
 date: '2020-12-08'
-slug: accessing-grahpql-in-r
+slug: accessing-graphql-in-r
 categories: blog
 tags:
   - Packages
