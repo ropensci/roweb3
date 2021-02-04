@@ -13,7 +13,11 @@ outputs:
 attendees:
   - Stefanie Butland
   - Brooke Anderson
-deets: Free registration at https://www.meetup.com/rladies-east-lansing/events/272642612/
+deets: https://www.meetup.com/rladies-east-lansing/events/272642612/
+resources: # can be added later, one entry per talk (don't add while still empty, add once there are resources)
+  - title: The R Package Review Process. Perspectives from an rOpenSci Associate Editor
+    speaker: Brooke Anderson
+    slides: https://github.com/geanders/GuestLectures/blob/master/RLadies_meeting/rladies_workshop_2020.pdf
 ---
 
 Stefanie Butland, rOpenSci's Community Manager, will introduce rOpenSci and our new [Contributing Guide](https://contributing.ropensci.org/). 
