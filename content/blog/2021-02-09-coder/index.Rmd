@@ -164,4 +164,4 @@ Contributions are most welcome and I would be very happy to [hear about](https:/
 
 ## Acknowledgement
 
-An early version of the coder package was significantly improved after generous contributions made by [Emely C Zabore](https://github.com/zabore) and [David Robinson](/author/david-robinson/) during the [the peer-review process](https://github.com/ropensci/software-review/issues/381)  for rOpenSci. I therefore wish to express my deepest gratitude to both of them, as well as to the rOpenSci community at large!
+An early version of the coder package was significantly improved after generous contributions made by [Emily C. Zabore](https://github.com/zabore) and [David Robinson](/author/david-robinson/) during the [the peer-review process](https://github.com/ropensci/software-review/issues/381)  for rOpenSci. I therefore wish to express my deepest gratitude to both of them, as well as to the rOpenSci community at large!
