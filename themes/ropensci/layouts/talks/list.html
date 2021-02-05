@@ -27,8 +27,9 @@
     <td>{{ .title }}</td>
     <td>{{ .speaker }} </td>
     <td>{{ $year }} </td>
-    <td><a href="{{ .slides }}"><i class="fas fa-desktop"></i></a>
-      {{ with .video }} • <a href="{{ . }}"><i class="fas fa-film"></i></a>{{ end }} </td>
+    <td>{{ with .slides }}<a href="{{ . }}"><i class="fas fa-desktop"></i></a>{{ end }}
+    {{ if isset . "slides" }}{{ if isset . "video"}} • {{ end }}{{ end }}
+      {{ with .video }} <a href="{{ . }}"><i class="fas fa-film"></i></a>{{ end }} </td>
     <td>
       {{ if isset . "language" }} {{ .language }} {{else }} en {{ end }}
 </td>

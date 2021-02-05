@@ -1,9 +1,10 @@
 ---
-slug: targets
-title: 'targets: Democratizing Reproducible Analysis Pipelines'
+slug: "targets"
+title: "targets: Democratizing Reproducible Analysis Pipelines"
 package_version: 0.0.2
-author: Will Landau
-date: '2021-02-03'
+author:
+  - Will Landau
+date: 2021-02-03
 tags:
   - Software Peer Review
   - packages
@@ -15,13 +16,13 @@ tags:
   - pipelines
   - workflow-automation
   - workflows
-  - tech notes
-description: A new pipeline tool, a new ecosystem, and how you can help
+featured: true
+description: "A new pipeline tool, a new ecosystem, and how you can help"
 twitterImg: technotes/2021/02/03/targets/card.png
-twitterAlt: targets hex logo
-output:
+twitterAlt: "targets hex logo"
+output: 
   html_document:
-    keep_md: yes
+    keep_md: true
 ---
 
 
