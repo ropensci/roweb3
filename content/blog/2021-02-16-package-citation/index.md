@@ -100,7 +100,7 @@ Although some authors use [on-load messages](https://r-pkgs.org/r.html#when-you-
 Despite your best efforts to encourage users to cite your software, you might still run into challenges. Authors may have limits on the number of references they can cite in a journal or face resistance from their coauthors. 
 Other authors may simply be unaware that they can use `citation("packagename")` to easily retrieve the citation information for an R package or that they even should cite the package because it is not something that has been commonly promoted.
 
-These problems can't be fixed at once by one motivated individual (neither you the developer nor they the user), so more advocacy and teaching is needed. In the meantime, how do we [adapt software citation guidelines](https://twitter.com/EikoFried/status/1197556604075466753) to realistically accommodate for all situations?
+These problems can't all be fixed at once by one motivated individual (neither you the developer nor they the user), so more advocacy and teaching is needed. In the meantime, how do we [adapt software citation guidelines](https://twitter.com/EikoFried/status/1197556604075466753) to realistically accommodate for all situations?
 
 ## How rOpenSci tracks package usage
 
