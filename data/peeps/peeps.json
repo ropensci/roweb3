@@ -1,38 +1,42 @@
 [
 {
-   "alt": "",
+   "alt": "Birder waving",
    "img": "peep1.png"
 },
 {
-   "alt": "",
+   "alt": "Person holding a cat",
    "img": "peep2.png"
 },
 {
-   "alt": "",
+   "alt": "Person holding a butterfly nest",
    "img": "peep3.png"
 },
 {
-   "alt": "",
+   "alt": "Person using their phone",
    "img": "peep4.png"
 },
 {
-   "alt": "",
+   "alt": "Person at their laptop with a steaming cup",
    "img": "peep5.png"
 },
 {
-   "alt": "",
+   "alt": "Person giving a talk",
    "img": "peep6.png"
 },
 {
-   "alt": "",
+   "alt": "Person wearing a t-shirt with hexes",
    "img": "peep7.png"
 },
 {
-   "alt": "",
+   "alt": "Person working at their laptop with a dog",
    "img": "peep8.png"
 },
 {
-   "alt": "",
+   "alt": "Person reading from a notebook",
    "img": "peep9.png"
+},
+{
+   "alt": "Person wearing a labcoat",
+   "img": "peep10.png"
 }
 ]
