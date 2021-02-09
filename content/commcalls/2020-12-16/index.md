@@ -35,6 +35,9 @@ resources:
   - url: https://datadryad.org/api/v2/docs/
     name: Dryad API
     details: 
+  - url: https://blog.datadryad.org/2021/02/08/doing-it-right-a-better-approach-for-software-amp-data/
+    name: Doing it Right: A Better Approach for Software & Data
+    details: announcement of Dryad integration with Zenodo 
   - url: https://dataoneorg.github.io/Education/
     name: DataONE Skill Building Hub
     details: 
@@ -129,7 +132,8 @@ zoomurl: https://zoom.us/j/92298909939?pwd=MERubjdNUUw2aWp6RUFqSHllR01adz09
 
 Index of video:
 
-- 0:00 Welcome and introduction
+- 0:00 Welcome
+- 4:50 Topic introduction from Kara Woo
 - 7:37 Daniella Lowenberg
 - 12:06 Matt Jones
 - 18:08 Kara Woo
