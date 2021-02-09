@@ -31,6 +31,6 @@
         {{ partial "whole-page-fragments/team/team-section" (dict "team" $editors)  }}
         </div>
         </section>
-{{ partial "whole-page-fragments/volunteer"  (dict "divider" "rl" ) }}
+{{ partial "whole-page-fragments/volunteer"  (dict "divider" "rl" "Site" .Site ) }}
 {{ partial "whole-page-fragments/brands"  (dict "Site" .Site "divider" "lr" ) }}
 {{ end }}
