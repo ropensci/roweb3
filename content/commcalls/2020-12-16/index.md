@@ -36,7 +36,7 @@ resources:
     name: Dryad API
     details: 
   - url: https://blog.datadryad.org/2021/02/08/doing-it-right-a-better-approach-for-software-amp-data/
-    name: Doing it Right: A Better Approach for Software & Data
+    name: Doing it Right. A Better Approach for Software & Data
     details: announcement of Dryad integration with Zenodo 
   - url: https://dataoneorg.github.io/Education/
     name: DataONE Skill Building Hub
