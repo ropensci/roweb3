@@ -20,7 +20,7 @@ outputs:
 - HTML
 - Calendar 
 # vimeo:
-  - id: '492310551'
+#  - id: '492310551'
 resources:
   - url: https://ropenscilabs.github.io/statistical-software-review-book/index.html
     name: rOpenSci Statistical Software Peer Review
