@@ -6,6 +6,7 @@ date: 2021-03-02T18:00:00 # UTC!! same as dateEnd
 publishDate: 2021-02-17
 description: Introduction to rOpenSci statistical software peer review 
 author:
+  - Noam Ross
   - Mark Padgham
   - Anna Krystalli
   - Alex Hayes
@@ -25,9 +26,12 @@ resources:
   - url: https://ropenscilabs.github.io/statistical-software-review-book/index.html
     name: rOpenSci Statistical Software Peer Review
     details: book
-speakers:
+speakers:  
+  - name: Noam Ross
+    bio: Noam Ross leads the rOpenSci Statistical Software Testing and Peer Review project. He is Principal Scientist for Computational Research at [EcoHealth Alliance](https://www.ecohealthalliance.org/) and rOpenSci Software Review Lead. Noam on [GitHub](https://github.com/noamross), [Twitter](https://twitter.com/noamross), [Website](https://www.noamross.net/)
+    img: /img/team/noam-ross.png
   - name: Mark Padgham
-    bio: Mark Padgham is the Software Research Scientist who leads the rOpenSci Statistical Software Testing and Peer Review project with [Noam Ross](/author/noam-ross/). Learn more about Mark in this [interview](https://ropensci.org/blog/2019/12/03/mark-padgham/). Mark on [GitHub](https://github.com/mpadge), [Twitter](https://twitter.com/bikesrdata), [Website](https://mpadge.github.io/)
+    bio: Mark Padgham is the Software Research Scientist working on the rOpenSci Statistical Software Testing and Peer Review project. Learn more about Mark in this [interview](https://ropensci.org/blog/2019/12/03/mark-padgham/). Mark on [GitHub](https://github.com/mpadge), [Twitter](https://twitter.com/bikesrdata), [Website](https://mpadge.github.io/)
     img: /img/team/mark-padgham.jpg
   - name: Anna Krystalli
     bio: Anna Krystalli is a Research Software Engineer at [University of Sheffield](https://rse.shef.ac.uk/) and Associate Editor for rOpenSci [Software Peer Review](/software-review/). She has a PhD in Marine Macroecology. Anna on [GitHub](https://github.com/annakrystalli), [Twitter](https://twitter.com/annakrystalli), [Website](https://annakrystalli.me/about/)
