@@ -29,7 +29,7 @@ resources:
 speakers:  
   - name: Noam Ross
     bio: Noam Ross leads the rOpenSci Statistical Software Testing and Peer Review project. He is Principal Scientist for Computational Research at [EcoHealth Alliance](https://www.ecohealthalliance.org/) and rOpenSci Software Review Lead. Noam on [GitHub](https://github.com/noamross), [Twitter](https://twitter.com/noamross), [Website](https://www.noamross.net/)
-    img: /img/team/noam-ross.png
+    img: /img/team/noam_ross.png
   - name: Mark Padgham
     bio: Mark Padgham is the Software Research Scientist working on the rOpenSci Statistical Software Testing and Peer Review project. Learn more about Mark in this [interview](https://ropensci.org/blog/2019/12/03/mark-padgham/). Mark on [GitHub](https://github.com/mpadge), [Twitter](https://twitter.com/bikesrdata), [Website](https://mpadge.github.io/)
     img: /img/team/mark-padgham.jpg
