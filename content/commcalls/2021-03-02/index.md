@@ -28,10 +28,10 @@ resources:
     details: book
 speakers:  
   - name: Noam Ross
-    bio: Noam Ross leads the rOpenSci Statistical Software Testing and Peer Review project. He is Principal Scientist for Computational Research at [EcoHealth Alliance](https://www.ecohealthalliance.org/) and rOpenSci Software Review Lead. Noam on [GitHub](https://github.com/noamross), [Twitter](https://twitter.com/noamross), [Website](https://www.noamross.net/)
+    bio: Noam Ross is Principal Scientist for Computational Research at [EcoHealth Alliance](https://www.ecohealthalliance.org/) and rOpenSci Software Review Lead. He co-leads the rOpenSci Statistical Software Testing and Peer Review project. Noam on [GitHub](https://github.com/noamross), [Twitter](https://twitter.com/noamross), [Website](https://www.noamross.net/)
     img: /img/team/noam_ross.png
   - name: Mark Padgham
-    bio: Mark Padgham is the Software Research Scientist working on the rOpenSci Statistical Software Testing and Peer Review project. Learn more about Mark in this [interview](https://ropensci.org/blog/2019/12/03/mark-padgham/). Mark on [GitHub](https://github.com/mpadge), [Twitter](https://twitter.com/bikesrdata), [Website](https://mpadge.github.io/)
+    bio: Mark Padgham is a Software Research Scientist with rOpenSci. He co-leads the rOpenSci Statistical Software Testing and Peer Review project. Learn more about Mark in this [interview](https://ropensci.org/blog/2019/12/03/mark-padgham/). Mark on [GitHub](https://github.com/mpadge), [Twitter](https://twitter.com/bikesrdata), [Website](https://mpadge.github.io/)
     img: /img/team/mark-padgham.jpg
   - name: Anna Krystalli
     bio: Anna Krystalli is a Research Software Engineer at [University of Sheffield](https://rse.shef.ac.uk/) and Associate Editor for rOpenSci [Software Peer Review](/software-review/). She has a PhD in Marine Macroecology. Anna on [GitHub](https://github.com/annakrystalli), [Twitter](https://twitter.com/annakrystalli), [Website](https://annakrystalli.me/about/)
