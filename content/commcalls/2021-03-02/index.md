@@ -37,7 +37,7 @@ speakers:
     bio: Anna Krystalli is a Research Software Engineer at [University of Sheffield](https://rse.shef.ac.uk/) and Associate Editor for rOpenSci [Software Peer Review](/software-review/). She has a PhD in Marine Macroecology. Anna on [GitHub](https://github.com/annakrystalli), [Twitter](https://twitter.com/annakrystalli), [Website](https://annakrystalli.me/about/)
     img: /img/team/anna-krystalli.jpg
   - name: Alex Hayes
-    bio: Alex Hayes is a PhD student in the University of Wisconsin-Madison statistics program. Alex on [GitHub](https://github.com/alexpghayes), [Twitter](https://twitter.com/alexpghayes), [Website](https://www.alexpghayes.com/)
+    bio: Alex Hayes is a PhD student in the University of Wisconsin-Madison statistics program, studying community detection in networks. He also maintains the [`broom`](https://broom.tidymodels.org/) package. Alex on [GitHub](https://github.com/alexpghayes), [Twitter](https://twitter.com/alexpghayes), [Website](https://www.alexpghayes.com/)
     img: alex-hayes.jpg
   - name: John Sakaluk
     bio: John Sakaluk is an Assistant Professor in the [Department of Psychology](https://www.psychology.uwo.ca/) at [Western University](https://www.uwo.ca/) (London, ON, Canada). He is interested in sexuality, romantic relationships, and psychometric modeling, and is the lead developer of the [dySEM](https://jsakaluk.github.io/dySEM/) package for R. John on [GitHub](https://github.com/jsakaluk), [Twitter](https://twitter.com/JohnSakaluk), [Website](https://www.psychology.uwo.ca/people/faculty/profiles/sakaluk.html)
