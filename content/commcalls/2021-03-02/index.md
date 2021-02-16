@@ -26,6 +26,10 @@ resources:
   - url: https://ropenscilabs.github.io/statistical-software-review-book/index.html
     name: rOpenSci Statistical Software Peer Review
     details: book
+  - url: https://github.com/ropenscilabs/autotest
+    name: 'autotest': automatic testing of R packages
+  - url: https://github.com/ropenscilabs/srr
+    name: Software Review Roclets: The 'srr' package
 speakers:  
   - name: Noam Ross
     bio: Noam Ross is Principal Scientist for Computational Research at [EcoHealth Alliance](https://www.ecohealthalliance.org/) and rOpenSci Software Review Lead. He co-leads the rOpenSci Statistical Software Testing and Peer Review project. Noam on [GitHub](https://github.com/noamross), [Twitter](https://twitter.com/noamross), [Website](https://www.noamross.net/)
