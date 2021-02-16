@@ -55,8 +55,8 @@ deets: |
 zoomurl: https://zoom.us/j/99434863374?pwd=SVNLcHBGdGdKZ1BoQ2xORzV0Ukhzdz09
 ---
 
-INTRO TEXT FROM MARK
+We at rOpenSci are in the process of expanding the scope of our software peer-review system to encompass explicitly statistical software, as part of which we have developed new tools to help prepare software for submission. One of these, the [`autotest` package](https://github.com/ropenscilabs/autotest), implements and automates rigorous testing of all function inputs, while another, the [`srr` package](https://github.com/ropenscilabs/srr), enables documentation of, and reporting on, how and where code meets our sets of category-specific standards. Developers of packages to be submitted to this newly expanded system will be expected to apply both of these tools prior to submission. This community call will feature developers who have helped to test and refine the tools, and will feature a live walk-through of the processes of applying these tools to a package.
 
-This 1-hour event includes 4 speakers and 20 minutes for Q & A 
+This 1-hour event includes 5 speakers and 20 minutes for Q & A 
 
 All are welcome.
