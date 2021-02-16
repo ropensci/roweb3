@@ -6,43 +6,11 @@
         <div class="row justify-content-around align-items-center">
           <div class="col-md-8">
             <div class="newsletter">
-              <h4 class="title">Our Newsletter</h4>
+              <h4 class="title" id="by-email">Our Newsletter</h4>
               <p class="subtitle md">
-                A digest of R package and software review news, use cases, blog posts, and events, curated every two weeks. Subscribe to get it in your inbox, or check the <a href="https://ropensci.org/news">archive</a>.
+                A digest of R package and software review news, use cases, blog posts, and events, curated monthly. Subscribe to get it in your inbox, or check the <a href="https://news.ropensci.org">archive</a>.
               </p>
-              <form class="newsletter-form"  id="email-form" action="//ropensci.us7.list-manage.com/subscribe/post?u=c5de56320aeac3ee7cc954ec2&amp;id=d78520d99e" method="post" target="_blank">
-                <div class="input-group">
-                  <input
-                    class="newsletter-email"
-                    type="text"
-                    name="EMAIL"
-                    placeholder="allthedata@email.com"
-                    id="email-input"
-                  />
-                  <input
-                    id="email-submit"
-                    type="button"
-                    class="newsletter-submit"
-                    value="Subscribe"
-                  />
-                </div>
-                <div class="newsletter-error d-none">Enter a valid email address</div>
-
-                <div class="newsletter-privacy">
-                  <label class="d-flex" for="privacy-pol" id="privacy-pol-label">
-                    <span class="checkbox">
-                      <input name="privacy-pol" id="privacy-pol" type="checkbox" />
-                      <span class="checkmark">
-                        <span class="circle"></span>
-                      </span>
-                    </span>
-                    <span>
-                      Privacy matters, we’ll only ever use your email for our newsletter in
-                      accordance with our <a class="link" href="/privacy/">Privacy Policy</a>
-                    </span>
-                  </label>
-                </div>
-              </form>
+              {{ partial "newsletter/form" }}
             </div>
           </div>
         </div>

@@ -3,7 +3,7 @@ slug: ropensci-news
 title: Latest rOpenSci News Digest
 author:
   - The rOpenSci Team
-date: '2020-05-19'
+date: '2021-03-15'
 tags:
   - newsletter
 description: keywords bla
