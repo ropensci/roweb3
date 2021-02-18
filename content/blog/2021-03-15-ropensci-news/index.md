@@ -20,7 +20,7 @@ Dear rOpenSci friends, it's time for our monthly news roundup!
 Yes, the latest one was on 2021-01-01.
 Some housekeeping first:
 We've been changing the infrastructure of our newsletter a bit so please update your RSS and JSON feeds to `https://ropensci.org/tags/newsletter/index.xml` and `https://ropensci.org/tags/newsletter/index.json`, respectively.
-You can read this post [on our blog](/blog/2021/01/01/ropensci-news).
+You can read this post [on our blog](/blog/2021/03/15/ropensci-news).
 Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ

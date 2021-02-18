@@ -21,9 +21,9 @@ last_newsletter <- anytime::anytime(params$last_newsletter)
 knitr::opts_chunk$set(echo = FALSE)
 url <- sprintf(
     "/blog/%s/%s/%s/%s",
-    lubridate::year(last_newsletter),
-    stringr::str_pad(lubridate::month(last_newsletter), 2, "0", side = "left"),
-    stringr::str_pad(lubridate::day(last_newsletter), 2, "0", side = "left"),
+    lubridate::year(rmarkdown::yaml_front_matter(knitr::current_input())$date),
+    stringr::str_pad(lubridate::month(rmarkdown::yaml_front_matter(knitr::current_input())$date), 2, "0", side = "left"),
+    stringr::str_pad(lubridate::day(rmarkdown::yaml_front_matter(knitr::current_input())$date), 2, "0", side = "left"),
     rmarkdown::yaml_front_matter(knitr::current_input())$slug
     )
 ```
