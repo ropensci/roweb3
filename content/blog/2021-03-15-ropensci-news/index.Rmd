@@ -10,18 +10,27 @@ description: keywords bla
 output:
   html_document:
     keep_md: yes
+params:
+  last_newsletter: "2021-01-01"
 ---
 
 ```{r setup, include=FALSE}
 library("magrittr")
-last_newsletter <- anytime::anytime("2021-01-01")
+last_newsletter <- anytime::anytime(params$last_newsletter)
+knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ## rOpenSci HQ
 
 TO BE CURATED BY HAND
 
+Find out more [events](/events).
+
 ## Software :package:
+
+### New packages
+
+The following packages recently became a part of our software suite:
 
 ```{r new-packages}
 tidy_package <- function(entry) {
@@ -74,11 +83,84 @@ while (empty == TRUE) {
   }
 }
 
-new <- registry[!registry$package %in% old$package,]
-new
+new <- dplyr::filter(
+  registry,
+  !package %in% old$package,
+  !grepl("ropenscilabs\\/", url),
+  !grepl("ropensci-archive\\/", url)
+)
 ```
 
-### New packages
+```{r, results='asis'}
+packages <- split(new, seq(nrow(new)))
+present_one <- function(package) {
+  url_parts <- urltools::url_parse(package$url)
+  desc_link <- gh::gh(
+    "/repos/{owner}/{repo}/contents/{path}",
+    owner = strsplit(url_parts$path, "\\/")[[1]][1],
+    repo = strsplit(url_parts$path, "\\/")[[1]][2],
+    path = "DESCRIPTION"
+  ) %>%
+    purrr::pluck("download_url")
+  withr::with_tempfile(
+    "tf", {
+      download.file(desc_link, tf) 
+      desc <<- desc::desc(file = tf)
+    }
+  )
+  # as in pkgdown
+  authors <- unclass(desc$get_authors())
+  aut <- purrr::keep(authors, function(x) {any( x$role %in% "aut") && all(x$role != "cre") })
+  aut <- purrr::map_chr(aut, function(x) paste(x$given, x$family))
+  maintainer <- purrr::keep(authors, function(x) {any( x$role %in% "cre") })
+  maintainer <- paste(c(maintainer[[1]]$given, maintainer[[1]]$family), collapse = " ")
+  
+  author_string <- sprintf("developed by %s", maintainer)
+  
+  if (length(aut) > 0) {
+    author_string <- paste0(author_string, sprintf(" together with %s", toString(aut)))
+  } 
+  
+  string <- sprintf(
+    "[%s](https://docs.ropensci.org/%s), %s: %s. ",
+    package$package, 
+    package$package, 
+    author_string,
+    stringr::str_remove(stringr::str_squish(package$details), "\\.$")
+  )
+  
+  if (package$on_cran) {
+    string <- paste0(
+      string, 
+      sprintf(
+        " It is available on [CRAN]( https://CRAN.R-project.org/package=%s). ",
+        package$package
+      )
+    )
+  }
+  if (package$on_bioc) {
+    string <- paste0(
+      string, sprintf(
+        " It is available on [Bioconductor](https://bioconductor.org/packages/%s/). ",
+        package$package
+      )
+    )
+  }
+  if (nzchar(package$onboarding)) {
+    string <- paste0(string, sprintf("It has been [reviewed](%s).", package$onboarding))
+  }
+  
+  paste("+", string)
+
+}
+text <- purrr::map_chr(
+  packages,
+  present_one
+)
+cat(paste0(text, collapse = "\n\n"))
+```
+
+Discover [more packages](/packages), read more about [Software Peer Review](/software-peer-review).
 
 ### New versions
 
