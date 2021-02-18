@@ -63,17 +63,59 @@ We are only listing the most recent version.
 
 There are 20 active submissions and 2 submissions on hold. Active issues are at different stages: 
 
-* 3 ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)).
+* [Editorial team checks](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+no%3Alabel):
 
-* 5 ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks).
+     * rWind: Download, Edit and Include Wind and Sea Currents Data in Ecological and Evolutionary Analysis
 
-* 2 ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned).
+    * jagstargets: reproducible JAGS pipelines at scale
 
-* 2 ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response).
+    * healthforum: A R package for scraping health forum discussion threads
 
-* 3 ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes).
+* 3 ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
-* 2 ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved).
+     * `dataaimsr`: Australian Institute of Marine Science (AIMS) Data Platform API Client which provides easy access to AIMS Data Platform scientific data and information
+
+    * aquamapsdata - Curated Data From AquaMaps.Org
+
+    * chemspiderapi.
+
+* 5 ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
+
+     * dataspice - Create lightweight schema.org descriptions of Data
+
+    * slopes
+
+    * epair - get data from the Environmental Protection Agency Air Quality System API
+
+    * occCite: Querying and Managing Large Biodiversity Occurrence Datasets
+
+    * tidytags: Simple Collection and Powerful Analysis of Twitter Data.
+
+* 2 ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
+
+     * terrainr: Retrieve Data from the USGS National Map and Transform it for 3D Landscape Visualizations
+
+    * Submission: exoplanets.
+
+* 2 ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
+
+     *  censo2017: Base de Datos de Facil Acceso del Censo 2017 de Chile (2017 Chilean Census Easy Access Database)
+
+    * pathviewR: Tools to import, clean, and visualize animal movement data in R.
+
+* 3 ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
+
+     * Submission: readODS
+
+    * submission: healthdatacsv
+
+    * Submission: circle.
+
+* 2 ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
+
+     * coder: Deterministic Categorization of Items Based on External Code Data
+
+    * Submission: SymbiotaR2.
 
 Find out more about [Software Peer Review](/software-review) and how to get involved.
 

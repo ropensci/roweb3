@@ -282,17 +282,19 @@ if (no_holding > 0) {
 } else {
   text <- paste0(text, ".")
 }
-
+no_label <- issues[is.na(issues$label),]
+issues <- issues[!is.na(issues$label),]
 count_label <- function(label) {
   no <- sum(issues$label == label, na.rm = TRUE)
   url <- paste0("https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A", label)
-  sprintf("* %s ['%s'](%s).", no, label, url)
+  sprintf("* %s ['%s'](%s):\n\n %s.", no, label, url, paste0(paste0("    * ",issues$title[!is.na(issues$label)][ issues$label == label]), collapse = "\n\n"))
 }
 
 cat(text)
 cat(
   paste0(
     " Active issues are at different stages: \n\n",
+    paste0("* [Editorial team checks](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+no%3Alabel):\n\n ", paste0(paste0("    * ",no_label$title), collapse = "\n\n") ,"\n\n"),
     paste0(
       purrr::map_chr(unique(issues$label[!is.na(issues$label)]), count_label),
       collapse = "\n\n"
