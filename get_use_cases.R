@@ -58,8 +58,9 @@ get_info <- function(id) {
   } else {
     image = "noimage"
   }
-  
+
   list(title = topic$title,
+       reporter = topic$details$created_by$name,
        tags = topic$tags,
        resource = toString(resource),
        url = paste0("https://discuss.ropensci.org/t/", topic$slug, "/", topic$id),

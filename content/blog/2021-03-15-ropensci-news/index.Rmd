@@ -19,7 +19,20 @@ library("magrittr")
 library("rlang")
 last_newsletter <- anytime::anytime(params$last_newsletter)
 knitr::opts_chunk$set(echo = FALSE)
+url <- sprintf(
+    "/blog/%s/%s/%s/%s",
+    lubridate::year(last_newsletter),
+    stringr::str_pad(lubridate::month(last_newsletter), 2, "0", side = "left"),
+    stringr::str_pad(lubridate::day(last_newsletter), 2, "0", side = "left"),
+    rmarkdown::yaml_front_matter(knitr::current_input())$slug
+    )
 ```
+
+Dear rOpenSci friends, it's time for our monthly news roundup!
+Some housekeeping first:
+We've been changing the infrastructure of our newsletter a bit so please update your RSS and JSON feeds to `https://ropensci.org/tags/newsletter/index.xml` and `https://ropensci.org/tags/newsletter/index.json`, respectively.
+You can read this post [on our blog](`r url`).
+Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
@@ -218,14 +231,21 @@ format_post <- function(post) {
     stringr::str_pad(lubridate::day(post$date), 2, "0", side = "left"),
     post$slug
     )
-  string <- sprintf("[%s](%s) by %s", post$title, url, post$author)
+  string <- sprintf("* [%s](%s) by %s", post$title, url, post$author)
   if (post$description != "") {
     string <- paste0(string, ". ", sub("\\?$", "", sub("\\!$", "", sub("\\.$", "", post$description), ".")), ".")
   } else {
     string <- paste0(string, ".")  
   }
   
-  paste("*", string)
+  if (post$twitterImg != "") {
+    string <- paste0(
+      sprintf('{{< figure src="/%s" alt="%s" width="400" >}}\n\n', post$twitterImg, post$twitterAlt),
+      string
+    )
+  }
+  
+  string
 }
 ```
 
@@ -262,9 +282,47 @@ cat("\n\n")
 
 ## Use cases
 
+```{r usecases}
+# rerun get_use_cases.R at the same time
+usecases <- jsonlite::read_json("../../../data/usecases/usecases.json")
+get_one_case <- function(usecase) {
+  tibble::tibble(
+    title = usecase$title,
+    reporter = usecase$reporter,
+    url = usecase$url,
+    image = usecase$image,
+    date = anytime::anydate(usecase$date)
+  )
+}
+usecases <- purrr::map_df(usecases, get_one_case)
+usecases <- dplyr::filter(usecases, date >= as.Date(last_newsletter))
+usecases <- split(usecases, seq(nrow(usecases)))
+```
+
+`r length(usecases)` use cases of our packages and resources have been reported since the latest news digest.
+
+```{r usecases2, results='asis'}
+format_case <- function(usecase) {
+  string <- sprintf("* [%s](%s). Reported by %s.", usecase$title, usecase$url, usecase$reporter)
+  string
+}
+cat(
+  paste0(
+    purrr::map_chr(usecases, format_case),
+    collapse = "\n\n"
+  )
+)
+```
+
+Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)!
+
 ## From the forum
 
+TO BE CURATED BY HAND
+
 ## Call For maintainers
+
+TO BE CURATED BY HAND
 
 ## Last words
 
