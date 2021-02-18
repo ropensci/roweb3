@@ -29,6 +29,7 @@ url <- sprintf(
 ```
 
 Dear rOpenSci friends, it's time for our monthly news roundup!
+Yes, the latest one was on `r as.character(last_newsletter)`.
 Some housekeeping first:
 We've been changing the infrastructure of our newsletter a bit so please update your RSS and JSON feeds to `https://ropensci.org/tags/newsletter/index.xml` and `https://ropensci.org/tags/newsletter/index.json`, respectively.
 You can read this post [on our blog](`r url`).
@@ -43,8 +44,6 @@ Find out more [events](/events).
 ## Software :package:
 
 ### New packages
-
-The following packages recently became a part of our software suite:
 
 ```{r new-packages, cache = TRUE}
 tidy_package <- function(entry) {
@@ -104,6 +103,9 @@ new <- dplyr::filter(
   !grepl("ropensci-archive\\/", url)
 )
 ```
+
+
+The following `r nrow(new)` package`r if(nrow(new)>1) "s"` recently became a part of our software suite:
 
 ```{r, results='asis', cache = TRUE}
 packages <- split(new, seq(nrow(new)))
@@ -184,6 +186,65 @@ cat(paste0(text, collapse = "\n\n"))
 Discover [more packages](/packages), read more about [Software Peer Review](/software-peer-review).
 
 ### New versions
+
+```{r news, cache=TRUE}
+registry <- dplyr::filter(
+  registry,
+  !grepl("ropenscilabs\\/", url),
+  !grepl("ropensci-archive\\/", url)
+)
+
+registry <- registry %>%
+  dplyr::rowwise() %>%
+  dplyr::mutate(
+  owner = strsplit(urltools::path(url), "/")[[1]][1],
+  repo = strsplit(urltools::path(url), "/")[[1]][2]
+) %>%
+  dplyr::filter(
+    !is.na(owner)
+  )
+packages <- split(registry, seq(nrow(registry)))
+get_release <- function(repo) {
+  info <- gh::gh(
+    "GET /repos/{owner}/{repo}/releases",
+    owner = repo$owner,
+    repo = repo$repo,
+    per_page = 1,
+    description = repo$description
+  )
+  if(length(info) == 0 || anytime::anytime(info[[1]]$published_at) < last_newsletter) {
+    return(NULL)
+  }
+  
+  tibble::tibble(
+    package = repo$package,
+    version = info[[1]]$tag_name,
+    url = info[[1]]$html_url,
+    description = repo$description
+  )
+}
+releases <- purrr::map_df(
+  packages,
+  get_release
+)
+releases <- split(releases, seq(nrow(releases)))
+format_release <- function(release) {
+  sprintf(
+    '[%s](https://docs.ropensci/%s "%s") [%s](%s)',
+    release$package,
+    release$package,
+    release$description,
+    release$version,
+    release$url
+  )
+}
+all_releases <- purrr::map_chr(releases, format_release)
+text <- toString(all_releases)
+```
+
+The following `r length(releases)` package`r if (length(releases) > 1) "s"` `r if (length(releases) > 1) "have" else "has"` had an update since the latest newsletter: `r text`.
+
+We are only listing the most recent version.
 
 ## Software Peer Review
 
@@ -278,7 +339,14 @@ cat("\n\n")
 
 ## Citations
 
-## Package development corner
+```{r citations}
+citations <- jsonlite::read_json("https://ropensci-org.github.io/ropensci_citations/citations_all_parts_clean.json")
+years <- purrr::map_chr(citations, "year")
+```
+
+So far we found `r sum(years==lubridate::year(last_newsletter))` citations of our packages for `r lubridate::year(last_newsletter)`. 
+In total our database contains `r length(citations)` citations that you can explore on our [citations page](/citations).
+Thank you for citing our tools!
 
 ## Use cases
 
@@ -321,6 +389,10 @@ Explore [other use cases](/usecases) and [report your own](https://discuss.ropen
 TO BE CURATED BY HAND
 
 ## Call For maintainers
+
+TO BE CURATED BY HAND
+
+## Package development corner
 
 TO BE CURATED BY HAND
 

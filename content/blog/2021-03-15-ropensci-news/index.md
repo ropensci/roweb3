@@ -17,6 +17,7 @@ params:
 
 
 Dear rOpenSci friends, it's time for our monthly news roundup!
+Yes, the latest one was on 2021-01-01.
 Some housekeeping first:
 We've been changing the infrastructure of our newsletter a bit so please update your RSS and JSON feeds to `https://ropensci.org/tags/newsletter/index.xml` and `https://ropensci.org/tags/newsletter/index.json`, respectively.
 You can read this post [on our blog](/blog/2021/01/01/ropensci-news).
@@ -32,9 +33,10 @@ Find out more [events](/events).
 
 ### New packages
 
-The following packages recently became a part of our software suite:
 
 
+
+The following 5 packages recently became a part of our software suite:
 
 + [osmextract](https://docs.ropensci.org/osmextract), developed by Andrea Gilardi together with Robin Lovelace: Find, download, convert and read Open Street Map data extracts obtained from several providers.  It is available on [CRAN]( https://CRAN.R-project.org/package=osmextract). It has been [reviewed](https://github.com/ropensci/software-review/issues/395) by Salva Fernández, Nicholas Potter.
 
@@ -49,6 +51,13 @@ The following packages recently became a part of our software suite:
 Discover [more packages](/packages), read more about [Software Peer Review](/software-peer-review).
 
 ### New versions
+
+
+
+The following 37 packages have had an update since the latest newsletter: [gert](https://docs.ropensci/gert "Simple Git Client for R") [v1.1.0](https://github.com/r-lib/gert/releases/tag/v1.1.0), [assertr](https://docs.ropensci/assertr "Assertive Programming for R Analysis Pipelines") [v2.8](https://github.com/ropensci/assertr/releases/tag/v2.8), [c14bazAAR](https://docs.ropensci/c14bazAAR "Download and Prepare C14 Dates from Different Source Databases") [1.3.0](https://github.com/ropensci/c14bazAAR/releases/tag/1.3.0), [ckanr](https://docs.ropensci/ckanr "Client for the Comprehensive Knowledge Archive Network ('CKAN') API") [v0.6.0](https://github.com/ropensci/ckanr/releases/tag/v0.6.0), [crul](https://docs.ropensci/crul "HTTP Client") [v1.1.0](https://github.com/ropensci/crul/releases/tag/v1.1.0), [drake](https://docs.ropensci/drake "A Pipeline Toolkit for Reproducible Computation at Scale") [7.13.1](https://github.com/ropensci/drake/releases/tag/7.13.1), [essurvey](https://docs.ropensci/essurvey "Download Data from the European Social Survey on the Fly") [v1.0.6](https://github.com/ropensci/essurvey/releases/tag/v1.0.6), [fulltext](https://docs.ropensci/fulltext "Full Text of 'Scholarly' Articles Across Many Data Sources") [v1.7.0](https://github.com/ropensci/fulltext/releases/tag/v1.7.0), [geojsonio](https://docs.ropensci/geojsonio "Convert Data from and to 'GeoJSON' or 'TopoJSON'") [v0.9.4](https://github.com/ropensci/geojsonio/releases/tag/v0.9.4), [git2r](https://docs.ropensci/git2r "Provides Access to Git Repositories") [v0.28.0](https://github.com/ropensci/git2r/releases/tag/v0.28.0), [git2rdata](https://docs.ropensci/git2rdata "Store and Retrieve Data.frames in a Git Repository") [v0.3.0](https://github.com/ropensci/git2rdata/releases/tag/v0.3.0), [GSODR](https://docs.ropensci/GSODR "Global Surface Summary of the Day ('GSOD') Weather Data Client") [v3.0.0](https://github.com/ropensci/GSODR/releases/tag/v3.0.0), [ijtiff](https://docs.ropensci/ijtiff "Comprehensive TIFF I/O with Full Support for 'ImageJ'
+    TIFF Files") [v2.2.5](https://github.com/ropensci/ijtiff/releases/tag/v2.2.5), [magick](https://docs.ropensci/magick "Advanced Graphics and Image-Processing in R") [v2.6.0](https://github.com/ropensci/magick/releases/tag/v2.6.0), [nodbi](https://docs.ropensci/nodbi "'NoSQL' Database Connector") [v0.4.2](https://github.com/ropensci/nodbi/releases/tag/v0.4.2), [nomisr](https://docs.ropensci/nomisr "Access 'Nomis' UK Labour Market Data") [0.4.4](https://github.com/ropensci/nomisr/releases/tag/0.4.4), [opencage](https://docs.ropensci/opencage "Geocode with the OpenCage API") [v0.2.1](https://github.com/ropensci/opencage/releases/tag/v0.2.1), [osmextract](https://docs.ropensci/osmextract "Download and Read OpenStreetMap Data Extracts") [v0.2.0](https://github.com/ropensci/osmextract/releases/tag/v0.2.0), [parzer](https://docs.ropensci/parzer "Parse Messy Geographic Coordinates") [v0.4.0](https://github.com/ropensci/parzer/releases/tag/v0.4.0), [plotly](https://docs.ropensci/plotly "Create Interactive Web Graphics via 'plotly.js'") [v4.9.3](https://github.com/ropensci/plotly/releases/tag/v4.9.3), [qualtRics](https://docs.ropensci/qualtRics "Download 'Qualtrics' Survey Data") [v3.1.4](https://github.com/ropensci/qualtRics/releases/tag/v3.1.4), [rcol](https://docs.ropensci/rcol "Catalogue of Life Client") [v0.1.0](https://github.com/ropensci/rcol/releases/tag/v0.1.0), [rebird](https://docs.ropensci/rebird "R Client for the eBird Database of Bird Observations") [v1.2.0](https://github.com/ropensci/rebird/releases/tag/v1.2.0), [rgbif](https://docs.ropensci/rgbif "Interface to the Global 'Biodiversity' Information Facility API") [v3.5.2](https://github.com/ropensci/rgbif/releases/tag/v3.5.2), [rgnparser](https://docs.ropensci/rgnparser "Parse Scientific Names") [v0.2.0](https://github.com/ropensci/rgnparser/releases/tag/v0.2.0), [ritis](https://docs.ropensci/ritis "Integrated Taxonomic Information System Client") [v1.0.0](https://github.com/ropensci/ritis/releases/tag/v1.0.0), [rnoaa](https://docs.ropensci/rnoaa "'NOAA' Weather Data from R") [v1.3.2](https://github.com/ropensci/rnoaa/releases/tag/v1.3.2), [roadoi](https://docs.ropensci/roadoi "Find Free Versions of Scholarly Publications via Unpaywall") [v0.7](https://github.com/ropensci/roadoi/releases/tag/v0.7), [rorcid](https://docs.ropensci/rorcid "Interface to the 'Orcid.org' API") [v0.7.0](https://github.com/ropensci/rorcid/releases/tag/v0.7.0), [spocc](https://docs.ropensci/spocc "Interface to Species Occurrence Data Sources") [v1.2.0](https://github.com/ropensci/spocc/releases/tag/v1.2.0), [stplanr](https://docs.ropensci/stplanr "Sustainable Transport Planning") [0.8.1](https://github.com/ropensci/stplanr/releases/tag/0.8.1), [tarchetypes](https://docs.ropensci/tarchetypes "Archetypes for Targets") [0.0.4](https://github.com/ropensci/tarchetypes/releases/tag/0.0.4), [targets](https://docs.ropensci/targets "Dynamic Function-Oriented 'Make'-Like Declarative Workflows") [0.1.0](https://github.com/ropensci/targets/releases/tag/0.1.0), [taxizedb](https://docs.ropensci/taxizedb "Tools for Working with 'Taxonomic' Databases") [v0.3.0](https://github.com/ropensci/taxizedb/releases/tag/v0.3.0), [weathercan](https://docs.ropensci/weathercan "Download Weather Data from Environment and Climate Change Canada") [v0.5.0](https://github.com/ropensci/weathercan/releases/tag/v0.5.0), [webchem](https://docs.ropensci/webchem "Chemical Information from the Web") [v1.1.1](https://github.com/ropensci/webchem/releases/tag/v1.1.1), [wellknown](https://docs.ropensci/wellknown "Convert Between 'WKT' and 'GeoJSON'") [v0.7.2](https://github.com/ropensci/wellknown/releases/tag/v0.7.2).
+
+We are only listing the most recent version.
 
 ## Software Peer Review
 
@@ -92,7 +101,11 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 ## Citations
 
-## Package development corner
+
+
+So far we found 7 citations of our packages for 2021. 
+In total our database contains 1223 citations that you can explore on our [citations page](/citations).
+Thank you for citing our tools!
 
 ## Use cases
 
@@ -123,6 +136,10 @@ Explore [other use cases](/usecases) and [report your own](https://discuss.ropen
 TO BE CURATED BY HAND
 
 ## Call For maintainers
+
+TO BE CURATED BY HAND
+
+## Package development corner
 
 TO BE CURATED BY HAND
 
