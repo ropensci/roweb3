@@ -183,7 +183,7 @@ text <- purrr::map_chr(
 cat(paste0(text, collapse = "\n\n"))
 ```
 
-Discover [more packages](/packages), read more about [Software Peer Review](/software-peer-review).
+Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
 ### New versions
 
@@ -230,7 +230,7 @@ releases <- purrr::map_df(
 releases <- split(releases, seq(nrow(releases)))
 format_release <- function(release) {
   sprintf(
-    '[%s](https://docs.ropensci/%s "%s") [%s](%s)',
+    '[%s](https://docs.ropensci.org/%s "%s") ([`%s`](%s))',
     release$package,
     release$package,
     release$description,
@@ -248,9 +248,60 @@ We are only listing the most recent version.
 
 ## Software Peer Review
 
-```{r software-review}
+```{r software-review, results='asis'}
+issues <- gh::gh(
+  "GET /repos/{owner}/{repo}/issues",
+  owner = "ropensci",
+  repo = "software-review"
+)
 
+tidy_issue <- function(issue) {
+  labels <- purrr::map_chr(issue$labels, "name")
+  label <- labels[grepl("[0-9]\\/.*", labels)][1]
+  tibble::tibble(
+    label = label,
+    title = issue$title,
+    holding = "holding" %in% labels,
+    others = toString(labels)
+  )
+}
+
+issues <- purrr::map_df(issues, tidy_issue)
+no_holding <- sum(issues$holding)
+issues <- dplyr::filter(issues, !holding)
+text <- sprintf("There are %s active submissions", nrow(issues))
+if (no_holding > 0) {
+  text <- paste0(
+    text,
+    sprintf(
+      " and %s submission%s on hold.",
+      no_holding,
+      if (no_holding > 1) "s" else ""
+    )
+  )
+} else {
+  text <- paste0(text, ".")
+}
+
+count_label <- function(label) {
+  no <- sum(issues$label == label, na.rm = TRUE)
+  url <- paste0("https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A", label)
+  sprintf("* %s ['%s'](%s).", no, label, url)
+}
+
+cat(text)
+cat(
+  paste0(
+    " Active issues are at different stages: \n\n",
+    paste0(
+      purrr::map_chr(unique(issues$label[!is.na(issues$label)]), count_label),
+      collapse = "\n\n"
+    )
+  )
+)
 ```
+
+Find out more about [Software Peer Review](/software-review) and how to get involved.
 
 ## On the blog
 
