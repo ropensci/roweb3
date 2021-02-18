@@ -16,6 +16,7 @@ params:
 
 ```{r setup, include=FALSE}
 library("magrittr")
+library("rlang")
 last_newsletter <- anytime::anytime(params$last_newsletter)
 knitr::opts_chunk$set(echo = FALSE)
 ```
@@ -32,7 +33,7 @@ Find out more [events](/events).
 
 The following packages recently became a part of our software suite:
 
-```{r new-packages}
+```{r new-packages, cache = TRUE}
 tidy_package <- function(entry) {
   tibble::tibble(
     package = entry$name,
@@ -91,7 +92,7 @@ new <- dplyr::filter(
 )
 ```
 
-```{r, results='asis'}
+```{r, results='asis', cache = TRUE}
 packages <- split(new, seq(nrow(new)))
 present_one <- function(package) {
   url_parts <- urltools::url_parse(package$url)
@@ -112,6 +113,8 @@ present_one <- function(package) {
   authors <- unclass(desc$get_authors())
   aut <- purrr::keep(authors, function(x) {any( x$role %in% "aut") && all(x$role != "cre") })
   aut <- purrr::map_chr(aut, function(x) paste(x$given, x$family))
+  rev <- purrr::keep(authors, function(x) {any( x$role %in% "rev") && all(x$role != "cre") })
+  rev <- purrr::map_chr(rev, function(x) paste(x$given, x$family))
   maintainer <- purrr::keep(authors, function(x) {any( x$role %in% "cre") })
   maintainer <- paste(c(maintainer[[1]]$given, maintainer[[1]]$family), collapse = " ")
   
@@ -147,7 +150,12 @@ present_one <- function(package) {
     )
   }
   if (nzchar(package$onboarding)) {
-    string <- paste0(string, sprintf("It has been [reviewed](%s).", package$onboarding))
+    string <- paste0(string, sprintf("It has been [reviewed](%s)", package$onboarding))
+    if (length(rev) > 0) {
+      string <- paste0(string, sprintf(" by %s.", toString(rev)))
+    } else {
+      string <- paste0(string, ".")
+    }
   }
   
   paste("+", string)
@@ -166,7 +174,87 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 ## Software Peer Review
 
+```{r software-review}
+
+```
+
 ## On the blog
+
+```{r blog}
+
+parse_one_post <- function(path){
+  lines <- suppressWarnings(readLines(path, encoding = "UTF-8"))
+  yaml <- blogdown:::split_yaml_body(lines)$yaml
+  yaml <- glue::glue_collapse(yaml, sep = "\n")
+  yaml <- yaml::yaml.load(yaml)
+  
+  meta <- tibble::tibble(
+    date = anytime::anydate(yaml$date),
+    author = toString(yaml$author),
+    title = yaml$title,
+    software_peer_review = "Software Peer Review" %in% yaml$tags,
+    tech_note = "tech notes" %in% yaml$tags && !"Software Peer Review" %in% yaml$tags,
+    other = !"tech notes" %in% yaml$tags && !"Software Peer Review" %in% yaml$tags,
+    twitterImg = yaml$twitterImg %||% "",
+    twitterAlt = yaml$twitterAlt %||% "",
+    description = yaml$description %||% "",
+    newsletter = "newsletter" %in% yaml$tags,
+    slug = yaml$slug
+    )
+
+  meta
+}
+paths <- fs::dir_ls("..", recurse = TRUE, glob = "*.md")
+paths <- paths[!paths %in% c("../_index.md", "../2021-02-03-targets/raw_data_source.md",
+  "../2021-02-03-targets/README.md")]
+posts <- purrr::map_df(paths, parse_one_post)
+posts <- dplyr::filter(posts, date >= as.Date(last_newsletter), !newsletter)
+posts <- split(posts, seq(nrow(posts)))
+format_post <- function(post) {
+  url <- sprintf(
+    "/blog/%s/%s/%s/%s",
+    lubridate::year(post$date),
+    stringr::str_pad(lubridate::month(post$date), 2, "0", side = "left"),
+    stringr::str_pad(lubridate::day(post$date), 2, "0", side = "left"),
+    post$slug
+    )
+  string <- sprintf("[%s](%s) by %s", post$title, url, post$author)
+  if (post$description != "") {
+    string <- paste0(string, ". ", sub("\\?$", "", sub("\\!$", "", sub("\\.$", "", post$description), ".")), ".")
+  } else {
+    string <- paste0(string, ".")  
+  }
+  
+  paste("*", string)
+}
+```
+
+```{r, results='asis'}
+cat("### Software Review\n\n")
+cat(
+  paste0(
+    purrr::map_chr(posts[purrr::map_lgl(posts, "software_peer_review")], format_post),
+    collapse = "\n\n"
+  )
+)
+cat("\n\n")
+cat("### Other topics\n\n")
+cat(
+  paste0(
+    purrr::map_chr(posts[purrr::map_lgl(posts, "other")], format_post),
+    collapse = "\n\n"
+  )
+)
+cat("\n\n")
+cat("### Tech Notes\n\n")
+cat(
+  paste0(
+    purrr::map_chr(posts[purrr::map_lgl(posts, "tech_note")], format_post),
+    collapse = "\n\n"
+  )
+)
+cat("\n\n")
+```
 
 ## Citations
 
