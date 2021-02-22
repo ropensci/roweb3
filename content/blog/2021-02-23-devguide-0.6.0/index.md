@@ -50,7 +50,7 @@ _To safe-guard examples (e.g. requiring authentication) to be run on CRAN you ne
 
 ## Guidance for package testing
 
-The [guidance around testing](https://devguide.ropensci.org/building.html#testing) mentions two tools that might help package authors: the new [snapshot tests](https://testthat.r-lib.org/articles/snapshotting.html) in testthat, and the recently updated book ["HTTP testing in R"](/blog/2021/01/26/http-testing-book/) by Scott Chamberlain and Maëlle Salmon.
+The [guidance around testing](https://devguide.ropensci.org/building.html#testing) mentions two tools that might help package authors: the new [snapshot tests](https://testthat.r-lib.org/articles/snapshotting.html) in testthat; and the recently updated book ["HTTP testing in R"](/blog/2021/01/26/http-testing-book/) by Scott Chamberlain and Maëlle Salmon.
 
 We have now removed mentions to Travis CI in particular from [the chapter about continuous integration](https://devguide.ropensci.org/ci.html), as we [no longer recommend using the service](/technotes/2020/11/19/moving-away-travis/).
 
