@@ -90,25 +90,27 @@ fs::file_delete("dev_citation_BibTeX.bib")
 
 
 ```bibtex
-@software{ropensci_2020_4114295,
+@software{ropensci_2021_4554776,
   author       = {rOpenSci and
                   Brooke Anderson and
                   Scott Chamberlain and
+                  Laura DeCicco and
+                  Julia Gustavsen and
                   Anna Krystalli and
+                  Mauro Lepore and
                   Lincoln Mullen and
                   Karthik Ram and
                   Noam Ross and
                   Maëlle Salmon and
-                  Laura DeCicco and
-                  Mauro Lepore and
-                  Julia Gustavsen},
-  title        = {ropensci/dev\_guide: Fourth release},
-  month        = oct,
-  year         = 2020,
+                  Melina Vidoni},
+  title        = {{rOpenSci Packages: Development, Maintenance, and 
+                   Peer Review}},
+  month        = feb,
+  year         = 2021,
   publisher    = {Zenodo},
-  version      = {0.4.0},
-  doi          = {10.5281/zenodo.4114295},
-  url          = {https://doi.org/10.5281/zenodo.4114295}
+  version      = {0.6.0},
+  doi          = {10.5281/zenodo.4554776},
+  url          = {https://doi.org/10.5281/zenodo.4554776}
 }
 
 ```
