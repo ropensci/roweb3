@@ -29,7 +29,7 @@ or this blog post for more digested information.
 
 > We have resumed activity after a break due to the COVID-19 crisis, but are being gentle with deadlines and timing, giving a lot of grace to all people involved. We're all doing our best and rOpenSci is trying to be accommodating with schedules during this challenging period.
 
-## Now in Spanish! ¡Ahora en español!
+## On our way to Spanish!
 
 We're extending our software review system to submissions in Spanish, as [we had hinted to in a forum post](https://discuss.ropensci.org/t/language-documentation-for-a-package/2221/3) and other venues!
 The first package to be reviewed in Spanish is [
