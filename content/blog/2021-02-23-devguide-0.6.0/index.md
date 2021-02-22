@@ -42,26 +42,26 @@ If you speak Spanish and would like to hear more about our software peer review 
 
 ## Guidance for package documentation
 
-To help R users, we now require information about overlap with other packages be [mentioned prominently in package docs](https://devdevguide.netlify.app/building.html#general).
+To help R users, we now require information about overlap with other packages be [mentioned prominently in package docs](https://devguide.ropensci.org/building.html#general).
 _If there is potential overlap or confusion with other packages providing similar functionality or having a similar name, add a note in the README, main vignette and potentially the Description field of DESCRIPTION. Example in [rtweet README](https://docs.ropensci.org/rtweet/), [rebird README](https://docs.ropensci.org/rebird/#auk-vs-rebird)._
 
-As regards documentation and CRAN-readiness, the guide now has updated tips around [escaping examples](https://devdevguide.netlify.app/building.html#examples).
+As regards documentation and CRAN-readiness, the guide now has updated tips around [escaping examples](https://devguide.ropensci.org/building.html#examples).
 _To safe-guard examples (e.g. requiring authentication) to be run on CRAN you need to use `\dontrun{}`. However, for a first submission CRAN won’t let you have all examples escaped so. In this case you might add some small toy examples, or wrap example code in `try()`. Also refer to the `@exampleIf` tag present, at the time of writing, in roxygen2 development version._
 
 ## Guidance for package testing
 
-The [guidance around testing](https://devdevguide.netlify.app/building.html#testing) mentions two tools that might help package authors: the new [snapshot tests](https://testthat.r-lib.org/articles/snapshotting.html) in testthat, and the recently updated book ["HTTP testing in R"](/blog/2021/01/26/http-testing-book/) by Scott Chamberlain and Maëlle Salmon.
+The [guidance around testing](https://devguide.ropensci.org/building.html#testing) mentions two tools that might help package authors: the new [snapshot tests](https://testthat.r-lib.org/articles/snapshotting.html) in testthat, and the recently updated book ["HTTP testing in R"](/blog/2021/01/26/http-testing-book/) by Scott Chamberlain and Maëlle Salmon.
 
-We have now removed mentions to Travis CI in particular from [the chapter about continuous integration](https://devdevguide.netlify.app/ci.html), as we [no longer recommend using the service](/technotes/2020/11/19/moving-away-travis/).
+We have now removed mentions to Travis CI in particular from [the chapter about continuous integration](https://devguide.ropensci.org/ci.html), as we [no longer recommend using the service](/technotes/2020/11/19/moving-away-travis/).
 
 ## Guidance for package evolution
 
-We added a small but important note around CRAN releases in the [Releasing chapter](https://devdevguide.netlify.app/releasing.html#releasing-1) about a frequent conundrum for maintainers.
+We added a small but important note around CRAN releases in the [Releasing chapter](https://devguide.ropensci.org/releasing.html#releasing-1) about a frequent conundrum for maintainers.
 _CRAN does not like too frequent updates. That said, if you notice a major problem one week after a CRAN release, explain it in cran-comments.md and try releasing a newer version._
 
-The chapter about [package evolution](https://devdevguide.netlify.app/evolution.html) now has a link to the [lifecycle package](https://lifecycle.r-lib.org/articles/lifecycle.html) that might be useful for communicating changes to users.
+The chapter about [package evolution](https://devguide.ropensci.org/evolution.html) now has a link to the [lifecycle package](https://lifecycle.r-lib.org/articles/lifecycle.html) that might be useful for communicating changes to users.
 
-We added a small update to the [package curation policy](https://devdevguide.netlify.app/curationpolicy.html#legacy-acquired-packages): it now mentions a possible exception for keeping legacy packages that are vital parts of the R and/or rOpenSci package ecosystem which are actively monitored by staff. 
+We added a small update to the [package curation policy](https://devguide.ropensci.org/curationpolicy.html#legacy-acquired-packages): it now mentions a possible exception for keeping legacy packages that are vital parts of the R and/or rOpenSci package ecosystem which are actively monitored by staff. 
 
 Last but not least, we will now more strongly enforce the use of a [NEWS.md](https://devguide.ropensci.org/releasing.html#news) file to indicate the changes made during review, and will require the package version to be increased after review.
 
