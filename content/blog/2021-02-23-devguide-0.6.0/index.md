@@ -85,7 +85,7 @@ guide <- zenodo$getDepositionByConceptDOI("10.5281/zenodo.2553043")
 guide$exportAsBibTeX("dev_citation")
 cat(readLines("dev_citation_BibTeX.bib"), sep = "\n")
 cat("\n```\n")
-file.remove("dev_citation_BibTeX.bib")
+fs::file_delete("dev_citation_BibTeX.bib")
 ```
 
 
@@ -112,7 +112,6 @@ file.remove("dev_citation_BibTeX.bib")
 }
 
 ```
-[1] TRUE
 
 ## Conclusion
 
