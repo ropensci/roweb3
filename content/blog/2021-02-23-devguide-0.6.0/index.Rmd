@@ -73,7 +73,7 @@ We enjoy having the general table of contents on the left and the table of conte
 We also find searching more intuitive.
 
 Another meta change is that thanks to [Hugo Gruson](https://github.com/Bisaloo), we provide clearer citation guidance in case you want to cite the guide itself in a scientific publication!
-We improved our Zenodo metadata, and use the [zen4R package](v) for creating a BibTex chunk in the dev guide.
+We improved our Zenodo metadata, and use the [zen4R package](https://github.com/eblondel/zen4R) for creating a BibTex chunk in the dev guide.
 
 ```{r zenodo, echo=TRUE, eval=FALSE, results = 'asis', warning=FALSE}
 cat("\n```bibtex\n")
