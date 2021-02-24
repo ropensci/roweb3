@@ -61,7 +61,7 @@ We are only listing the most recent version.
 
 ## Software Peer Review
 
-There are 20 active submissions and 2 submissions on hold. Active issues are at different stages: 
+There are 16 active submissions and 4 submissions on hold. Active issues are at different stages: 
 
 * [Editorial team checks](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+no%3Alabel):
 
@@ -71,13 +71,11 @@ There are 20 active submissions and 2 submissions on hold. Active issues are at 
 
     * healthforum: A R package for scraping health forum discussion threads
 
-* 3 ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
+* 2 ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
-     * `dataaimsr`: Australian Institute of Marine Science (AIMS) Data Platform API Client which provides easy access to AIMS Data Platform scientific data and information
+     * stantargets: reproducible Stan pipelines at scale
 
-    * aquamapsdata - Curated Data From AquaMaps.Org
-
-    * chemspiderapi.
+    * `dataaimsr`: Australian Institute of Marine Science (AIMS) Data Platform API Client which provides easy access to AIMS Data Platform scientific data and information.
 
 * 5 ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
 
@@ -91,31 +89,23 @@ There are 20 active submissions and 2 submissions on hold. Active issues are at 
 
     * tidytags: Simple Collection and Powerful Analysis of Twitter Data.
 
-* 2 ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
-
-     * terrainr: Retrieve Data from the USGS National Map and Transform it for 3D Landscape Visualizations
-
-    * Submission: exoplanets.
-
 * 2 ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
 
      *  censo2017: Base de Datos de Facil Acceso del Censo 2017 de Chile (2017 Chilean Census Easy Access Database)
 
     * pathviewR: Tools to import, clean, and visualize animal movement data in R.
 
-* 3 ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
+* 2 ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
 
-     * Submission: readODS
-
-    * submission: healthdatacsv
+     * submission: healthdatacsv
 
     * Submission: circle.
 
-* 2 ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
+* 2 ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 
-     * coder: Deterministic Categorization of Items Based on External Code Data
+     * chemspiderapi
 
-    * Submission: SymbiotaR2.
+    * Submission: exoplanets.
 
 Find out more about [Software Peer Review](/software-review) and how to get involved.
 
@@ -127,13 +117,13 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 * [Introducing BaseSet for mathematical sets](/blog/2021/01/19/introducing-baseset) by Lluís Revilla Sancho.
 
-{{< figure src="/blog/2021/02/03/targets/card.png" alt="targets hex logo" width="400" >}}
+* [targets: Democratizing Reproducible Analysis Pipelines](/blog/2021/02/03/targets) by Will Landau. A new pipeline tool, a new ecosystem, and how you can help.{{< figure src="/blog/2021/02/03/targets/card.png" alt="targets hex logo" width="400" >}}
 
-* [targets: Democratizing Reproducible Analysis Pipelines](/blog/2021/02/03/targets) by Will Landau. A new pipeline tool, a new ecosystem, and how you can help.
 
-{{< figure src="/blog/2021/02/09/coder/hex.png" alt="Hex sticker for the coder package" width="400" >}}
 
-* [coder Makes Medical Coding less Messy](/blog/2021/02/09/coder) by Erik Bülow. The coder package helps to summarize and interpret (medical) coding in R (think ICD, ATC and more).
+* [coder Makes Medical Coding less Messy](/blog/2021/02/09/coder) by Erik Bülow. The coder package helps to summarize and interpret (medical) coding in R (think ICD, ATC and more).{{< figure src="/blog/2021/02/09/coder/hex.png" alt="Hex sticker for the coder package" width="400" >}}
+
+
 
 ### Other topics
 
@@ -141,15 +131,15 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 * [rOpenSci 2020 Code of Conduct Transparency Report](/blog/2021/01/07/transparency2020) by Stefanie Butland, Scott Chamberlain, Kara Woo. No Code of Conduct reports in 2020.
 
-{{< figure src="/blog/2021/01/20/contributing-guide/cover_sm.png" alt="Cartoon of 6 hypothetical rOpenSci community members" width="400" >}}
+* [Introducing the rOpenSci Community Contributing Guide](/blog/2021/01/20/contributing-guide) by Stefanie Butland, Steffi LaZerte. A guide to finding your path to contributing to rOpenSci.{{< figure src="/blog/2021/01/20/contributing-guide/cover_sm.png" alt="Cartoon of 6 hypothetical rOpenSci community members" width="400" >}}
 
-* [Introducing the rOpenSci Community Contributing Guide](/blog/2021/01/20/contributing-guide) by Stefanie Butland, Steffi LaZerte. A guide to finding your path to contributing to rOpenSci.
+
 
 * [Learn All About HTTP Testing: Book Update](/blog/2021/01/26/http-testing-book) by Maëlle Salmon, Scott Chamberlain. The 'HTTP testing in R' book has been updated. Useful for developers of packages interacting with web resources.
 
-{{< figure src="/blog/2021/02/02/ropensci-community-calls/commcalls-img.png" alt="collage of images from community calls with 3 Zoom views of speakers, a notes doc and view of someone's screen" width="400" >}}
+* [How rOpenSci Runs Community Calls](/blog/2021/02/02/ropensci-community-calls) by Stefanie Butland, Emily Lescak. Tips from choosing a topic to capturing outcomes.{{< figure src="/blog/2021/02/02/ropensci-community-calls/commcalls-img.png" alt="collage of images from community calls with 3 Zoom views of speakers, a notes doc and view of someone's screen" width="400" >}}
 
-* [How rOpenSci Runs Community Calls](/blog/2021/02/02/ropensci-community-calls) by Stefanie Butland, Emily Lescak. Tips from choosing a topic to capturing outcomes.
+
 
 ### Tech Notes
 

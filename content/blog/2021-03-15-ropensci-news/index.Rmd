@@ -354,8 +354,8 @@ format_post <- function(post) {
   
   if (post$twitterImg != "") {
     string <- paste0(
-      sprintf('{{< figure src="/%s" alt="%s" width="400" >}}\n\n', post$twitterImg, post$twitterAlt),
-      string
+      string,
+      sprintf('{{< figure src="/%s" alt="%s" width="400" >}}\n\n', post$twitterImg, post$twitterAlt)
     )
   }
   
