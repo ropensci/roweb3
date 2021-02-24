@@ -249,27 +249,56 @@ We are only listing the most recent version.
 ## Software Peer Review
 
 ```{r software-review, results='asis'}
-issues <- gh::gh(
-  "GET /repos/{owner}/{repo}/issues",
-  owner = "ropensci",
-  repo = "software-review"
-)
-
 tidy_issue <- function(issue) {
   labels <- purrr::map_chr(issue$labels, "name")
   label <- labels[grepl("[0-9]\\/.*", labels)][1]
   tibble::tibble(
     label = label,
     title = issue$title,
-    holding = "holding" %in% labels,
-    others = toString(labels)
+    holding = "holding" %in% purrr::map_chr(issue$labels, "name"),
+    others = toString(purrr::map_chr(issue$labels, "name")),
+    closed_at = issue$closed_at %||% NA,
+    url = issue$html_url
   )
 }
 
-issues <- purrr::map_df(issues, tidy_issue)
+get_issues <- function(label, state) {
+  issues <- gh::gh(
+    "GET /repos/{owner}/{repo}/issues",
+    owner = "ropensci",
+    repo = "software-review",
+    state = state, 
+    labels = label
+  )
+  
+  purrr::map_df(issues, tidy_issue)
+}
+  
+active_issues <- purrr::map_df(
+  c("1/editor-checks","2/seeking-reviewer(s)","3/reviewer(s)-assigned","4/review(s)-in-awaiting-changes","5/awaiting-reviewer(s)-response","6/approved"),
+  get_issues,
+  state = "open"
+)
+
+closed_issues <- get_issues(state = "closed", label  ="6/approved")
+
+ok_date <- function(date) {
+  if (is.na(date)) {
+    return(TRUE)
+  } 
+  
+  anytime::anytime(date) >= last_newsletter
+}
+
+closed_issues <- dplyr::rowwise(closed_issues) %>%
+  dplyr::filter(ok_date(closed_at))
+
+issues <- dplyr::bind_rows(active_issues, closed_issues)
+
+
 no_holding <- sum(issues$holding)
 issues <- dplyr::filter(issues, !holding)
-text <- sprintf("There are %s active submissions", nrow(issues))
+text <- sprintf("There are %s recently closed and active submissions", nrow(issues))
 if (no_holding > 0) {
   text <- paste0(
     text,
@@ -282,8 +311,7 @@ if (no_holding > 0) {
 } else {
   text <- paste0(text, ".")
 }
-no_label <- issues[is.na(issues$label),]
-issues <- issues[!is.na(issues$label),]
+
 count_label <- function(label) {
   no <- sum(issues$label == label, na.rm = TRUE)
   url <- paste0("https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A", label)
@@ -293,10 +321,9 @@ count_label <- function(label) {
 cat(text)
 cat(
   paste0(
-    " Active issues are at different stages: \n\n",
-    paste0("* [Editorial team checks](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+no%3Alabel):\n\n ", paste0(paste0("    * ",no_label$title), collapse = "\n\n") ,"\n\n"),
+    " Issues are at different stages: \n\n",
     paste0(
-      purrr::map_chr(unique(issues$label[!is.na(issues$label)]), count_label),
+      purrr::map_chr(sort(unique(issues$label[!is.na(issues$label)]), decreasing = TRUE), count_label),
       collapse = "\n\n"
     )
   )

@@ -61,33 +61,21 @@ We are only listing the most recent version.
 
 ## Software Peer Review
 
-There are 16 active submissions and 4 submissions on hold. Active issues are at different stages: 
+There are 20 recently closed and active submissions and 2 submissions on hold. Issues are at different stages: 
 
-* [Editorial team checks](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+no%3Alabel):
+* 6 ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
 
-     * rWind: Download, Edit and Include Wind and Sea Currents Data in Ecological and Evolutionary Analysis
+     * terrainr: Retrieve Data from the USGS National Map and Transform it for 3D Landscape Visualizations
 
-    * jagstargets: reproducible JAGS pipelines at scale
+    * pixelclasser: A Package for Classifying Pixels by Colour
 
-    * healthforum: A R package for scraping health forum discussion threads
+    * targets and tarchetypes
 
-* 2 ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
+    * Submission: osmextract
 
-     * stantargets: reproducible Stan pipelines at scale
+    * coder: Deterministic Categorization of Items Based on External Code Data
 
-    * `dataaimsr`: Australian Institute of Marine Science (AIMS) Data Platform API Client which provides easy access to AIMS Data Platform scientific data and information.
-
-* 5 ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
-
-     * dataspice - Create lightweight schema.org descriptions of Data
-
-    * slopes
-
-    * epair - get data from the Environmental Protection Agency Air Quality System API
-
-    * occCite: Querying and Managing Large Biodiversity Occurrence Datasets
-
-    * tidytags: Simple Collection and Powerful Analysis of Twitter Data.
+    * Submission: SymbiotaR2.
 
 * 2 ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
 
@@ -106,6 +94,26 @@ There are 16 active submissions and 4 submissions on hold. Active issues are at 
      * chemspiderapi
 
     * Submission: exoplanets.
+
+* 3 ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
+
+     * stantargets: reproducible Stan pipelines at scale
+
+    * `dataaimsr`: Australian Institute of Marine Science (AIMS) Data Platform API Client which provides easy access to AIMS Data Platform scientific data and information
+
+    * occCite: Querying and Managing Large Biodiversity Occurrence Datasets.
+
+* 5 ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
+
+     * dataspice - Create lightweight schema.org descriptions of Data
+
+    * slopes
+
+    * epair - get data from the Environmental Protection Agency Air Quality System API
+
+    * tidytags: Simple Collection and Powerful Analysis of Twitter Data
+
+    * dataspice - Create lightweight schema.org descriptions of Data.
 
 Find out more about [Software Peer Review](/software-review) and how to get involved.
 
