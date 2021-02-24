@@ -65,55 +65,55 @@ There are 20 recently closed and active submissions and 2 submissions on hold. I
 
 * 6 ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
 
-     * terrainr: Retrieve Data from the USGS National Map and Transform it for 3D Landscape Visualizations
+     * [terrainr](https://github.com/ropensci/software-review/issues/416), Retrieve Data from the 'USGS' National Map and Transform it for '3D' Landscape Visualizations.
 
-    * pixelclasser: A Package for Classifying Pixels by Colour
+    * [pixelclasser](https://github.com/ropensci/software-review/issues/406), A Package for Classifying Pixels by Colour.
 
-    * targets and tarchetypes
+    * [targets](https://github.com/ropensci/software-review/issues/401), Dynamic Function-Oriented Make-Like Declarative Pipelines for R.
 
-    * Submission: osmextract
+    * [osmextract](https://github.com/ropensci/software-review/issues/395), Download and Read OpenStreetMap Data Extracts.
 
-    * coder: Deterministic Categorization of Items Based on External Code Data
+    * [coder](https://github.com/ropensci/software-review/issues/381), Deterministic Categorization of Items Based on External Code Data.
 
-    * Submission: SymbiotaR2.
+    * [SymbiotaR2](https://github.com/ropensci/software-review/issues/373), Downloading data from Symbiota2 portals into R.
 
 * 2 ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
 
-     *  censo2017: Base de Datos de Facil Acceso del Censo 2017 de Chile (2017 Chilean Census Easy Access Database)
+     * [censo2017](https://github.com/ropensci/software-review/issues/414), Base de Datos de Facil Acceso del Censo 2017 de Chile.
 
-    * pathviewR: Tools to import, clean, and visualize animal movement data in R.
+    * [pathviewR](https://github.com/ropensci/software-review/issues/409), Wrangle, Analyze, and Visualize Animal Movement Data.
 
 * 2 ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
 
-     * submission: healthdatacsv
+     * [healthdatacsv](https://github.com/ropensci/software-review/issues/358), Access data in the healthdata.gov catalog.
 
-    * Submission: circle.
+    * [circle](https://github.com/ropensci/software-review/issues/356), R Client Package for Circle CI.
 
 * 2 ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 
-     * chemspiderapi
+     * [chemspiderapi](https://github.com/ropensci/software-review/issues/329), R Wrapper for ChemSpider's API Services.
 
-    * Submission: exoplanets.
+    * [exoplanets](https://github.com/ropensci/software-review/issues/309), Provides access to NASA's Exoplanet Archive, see <https://exoplanetarchive.ipac.caltech.edu/index.html>.
 
 * 3 ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
-     * stantargets: reproducible Stan pipelines at scale
+     * [stantargets](https://github.com/ropensci/software-review/issues/430), Targets for Stan Workflows.
 
-    * `dataaimsr`: Australian Institute of Marine Science (AIMS) Data Platform API Client which provides easy access to AIMS Data Platform scientific data and information
+    * [dataaimsr](https://github.com/ropensci/software-review/issues/428), AIMS Data Platform API Client.
 
-    * occCite: Querying and Managing Large Biodiversity Occurrence Datasets.
+    * [occCite](https://github.com/ropensci/software-review/issues/407), Querying and Managing Large Biodiversity Occurrence Datasets.
 
 * 5 ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
 
-     * dataspice - Create lightweight schema.org descriptions of Data
+     * [dataspice](https://github.com/ropensci/software-review/issues/426), Create Lightweight Schema.org Descriptions of Data.
 
-    * slopes
+    * [slopes](https://github.com/ropensci/software-review/issues/420), Calculate Slopes of Roads, Rivers and Trajectories.
 
-    * epair - get data from the Environmental Protection Agency Air Quality System API
+    * [epair](https://github.com/ropensci/software-review/issues/418), Grabs data from EPA API, simplifies getting pollutant data.
 
-    * tidytags: Simple Collection and Powerful Analysis of Twitter Data
+    * [tidytags](https://github.com/ropensci/software-review/issues/382), Simple Collection and Powerful Analysis of Twitter Data.
 
-    * dataspice - Create lightweight schema.org descriptions of Data.
+    * [dataspice](https://github.com/ropensci/software-review/issues/426), Create Lightweight Schema.org Descriptions of Data.
 
 Find out more about [Software Peer Review](/software-review) and how to get involved.
 

@@ -249,17 +249,30 @@ We are only listing the most recent version.
 ## Software Peer Review
 
 ```{r software-review, results='asis'}
+get_description <- function(body) {
+  lines <- strsplit(body, "\n")[[1]]
+  name <- stringr::str_squish(sub("Package:", "", lines[grepl("^Package", lines)][1]))
+  description <- stringr::str_squish(sub("Title:", "", lines[grepl("^Title", lines)][1]))
+  description <- sub("\\.$", "", description)
+  list(name = name, description = description)
+}
+
 tidy_issue <- function(issue) {
   labels <- purrr::map_chr(issue$labels, "name")
   label <- labels[grepl("[0-9]\\/.*", labels)][1]
-  tibble::tibble(
+  df <- tibble::tibble(
     label = label,
+    name = get_description(issue$body)$name,
+    description = get_description(issue$body)$description,
     title = issue$title,
     holding = "holding" %in% purrr::map_chr(issue$labels, "name"),
     others = toString(purrr::map_chr(issue$labels, "name")),
     closed_at = issue$closed_at %||% NA,
     url = issue$html_url
   )
+  
+  dplyr::rowwise(df) %>%
+    dplyr::mutate(text = sprintf("    * [%s](%s), %s.", name, url, description))
 }
 
 get_issues <- function(label, state) {
@@ -315,7 +328,7 @@ if (no_holding > 0) {
 count_label <- function(label) {
   no <- sum(issues$label == label, na.rm = TRUE)
   url <- paste0("https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A", label)
-  sprintf("* %s ['%s'](%s):\n\n %s.", no, label, url, paste0(paste0("    * ",issues$title[!is.na(issues$label)][ issues$label == label]), collapse = "\n\n"))
+  sprintf("* %s ['%s'](%s):\n\n %s", no, label, url, paste0(issues$text[!is.na(issues$label)][ issues$label == label], collapse = "\n\n"))
 }
 
 cat(text)
