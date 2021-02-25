@@ -48,11 +48,14 @@ Find out more [events](/events).
 ### New packages
 
 ```{r new-packages, cache = TRUE}
+cran_unquote <- function(string) {
+  gsub("\\'(.*?)\\'", "\\1", string)
+}
 tidy_package <- function(entry) {
   tibble::tibble(
     package = entry$name,
-    description = entry$description,
-    details = entry$details,
+    description = cran_unquote(entry$description),
+    details = cran_unquote(entry$details),
     on_cran = entry$on_cran,
     on_bioc = entry$on_bioc,
     onboarding = entry$onboarding,
@@ -251,11 +254,13 @@ We are only listing the most recent version.
 ## Software Peer Review
 
 ```{r software-review, results='asis'}
+# from pkgdown https://github.com/r-lib/pkgdown/blob/1ca166905f1b019ed4af9642617ea09fa2b8fc17/R/utils.r#L176
+
 get_description <- function(body) {
   lines <- strsplit(body, "\n")[[1]]
   name <- stringr::str_squish(sub("Package:", "", lines[grepl("^Package", lines)][1]))
   description <- stringr::str_squish(sub("Title:", "", lines[grepl("^Title", lines)][1]))
-  description <- sub("\\.$", "", description)
+  description <- cran_unquote(sub("\\.$", "", description))
   list(name = name, description = description)
 }
 
