@@ -202,3 +202,14 @@ If the person also authors blog post, also make sure the file under author/ uses
 Cf https://github.com/ropensci-org/roweb3-styles
 
 Note that main.min.css that contains all the CSS is stored under themes/ropensci/assets so that Hugo can fingerprint it (to prevent browsers from using a cached version after we've tweaked the CSS).
+
+### Newsletter
+
+* Start a new post with the newsletter archetype (to be added after the first newsletter is out).
+* **Make sure your branch is based on the latest commit of the default branch, re-base if needed**
+* Run `get_use_cases.R` to update use cases data (you need a Discourse API key, contact Scott).
+* Change the date of the last newsletter in the new post, knit it. 
+  * Manually updated sections: rOpenSci HQ (poll staff, look at recent/future events including comm calls), from the forum (interesting recent posts?), package development corner (poll package-maintenance channel, your recent reads), call for maintainers.
+  * Automatic sections. New packages by comparing two versions of the package registry; new versions by querying GitHub releases; software review by querying GitHub API (the submitter name and URL from their GitHub profile is used. you might need to go back and fix software-review issue formatting of the DESCRIPTION block); on the blog queries YAML of posts and sorts them based on tags; use cases uses the use cases JSON; citations simply counts citations in total and for the year.
+
+Review criteria: anything looks weird? (need to fix upstream data or code?). Special focus on manually updated sections.
