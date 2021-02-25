@@ -11,13 +11,13 @@ output:
   html_document:
     keep_md: yes
 params:
-  last_newsletter: "2021-01-01"
+  last_newsletter: "2021-02-08"
 ---
 
 
 
 Dear rOpenSci friends, it's time for our monthly news roundup!
-Yes, the latest one was on 2021-01-01.
+Yes, the latest one was on 2021-02-08.
 Some housekeeping first:
 We've been changing the infrastructure of our newsletter a bit so please update your RSS and JSON feeds to `https://ropensci.org/tags/newsletter/index.xml` and `https://ropensci.org/tags/newsletter/index.json`, respectively.
 You can read this post [on our blog](/blog/2021/03/15/ropensci-news).
@@ -65,17 +65,13 @@ We are only listing the most recent version.
 
 ## Software Peer Review
 
-There are 19 recently closed and active submissions and 2 submissions on hold. Issues are at different stages: 
+There are 17 recently closed and active submissions and 2 submissions on hold. Issues are at different stages: 
 
-* 6 at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
+* 4 at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
 
      * [terrainr](https://github.com/ropensci/software-review/issues/416), Retrieve Data from the 'USGS' National Map and Transform it for '3D' Landscape Visualizations. Submitted by [Michael Mahoney](https://www.mikemahoney218.com/).
 
     * [pixelclasser](https://github.com/ropensci/software-review/issues/406), A Package for Classifying Pixels by Colour. Submitted by [Carlos Real Rodríguez](https://github.com/CarlosRealR).
-
-    * [targets](https://github.com/ropensci/software-review/issues/401), Dynamic Function-Oriented Make-Like Declarative Pipelines for R. Submitted by [Will Landau](https://wlandau.github.io).
-
-    * [osmextract](https://github.com/ropensci/software-review/issues/395), Download and Read OpenStreetMap Data Extracts. Submitted by [Andrea Gilardi](https://github.com/agila5).
 
     * [coder](https://github.com/ropensci/software-review/issues/381), Deterministic Categorization of Items Based on External Code Data. Submitted by [Erik Bülow](https://github.com/eribul).
 
@@ -125,35 +121,19 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 ### Software Review
 
-* [Introducing BaseSet for mathematical sets](/blog/2021/01/19/introducing-baseset) by Lluís Revilla Sancho.
-
-* [targets: Democratizing Reproducible Analysis Pipelines](/blog/2021/02/03/targets) by Will Landau. A new pipeline tool, a new ecosystem, and how you can help.{{< figure src="/blog/2021/02/03/targets/card.png" alt="targets hex logo" width="400" >}}
-
-
-
 * [coder Makes Medical Coding less Messy](/blog/2021/02/09/coder) by Erik Bülow. The coder package helps to summarize and interpret (medical) coding in R (think ICD, ATC and more).{{< figure src="/blog/2021/02/09/coder/hex.png" alt="Hex sticker for the coder package" width="400" >}}
+
+
+
+* [rOpenSci Dev Guide 0.6.0: Updates](/blog/2021/02/23/devguide-0.6.0) by Maëlle Salmon, Brooke Anderson, Laura DeCicco, Julia Gustavsen, Anna Krystalli, Mauro Lepore, Karthik Ram, Noam Ross, Melina Vidoni. Updates in version 0.6.0 of the online book 'rOpenSci Packages: Development, Maintenance, and Peer Review rOpenSci Packages: Development, Maintenance, and Peer Review'.{{< figure src="/img/blog-images/2019-05-16-dev-guide-update/cover.png" alt="" width="400" >}}
 
 
 
 ### Other topics
 
-* [rOpenSci Code of Conduct Annual Review](/blog/2021/01/07/conduct2021) by Stefanie Butland, Scott Chamberlain, Mark Padgham, Kara Woo. Updates for version 2.2 of rOpenSci's Code of Conduct.
-
-* [rOpenSci 2020 Code of Conduct Transparency Report](/blog/2021/01/07/transparency2020) by Stefanie Butland, Scott Chamberlain, Kara Woo. No Code of Conduct reports in 2020.
-
-* [Introducing the rOpenSci Community Contributing Guide](/blog/2021/01/20/contributing-guide) by Stefanie Butland, Steffi LaZerte. A guide to finding your path to contributing to rOpenSci.{{< figure src="/blog/2021/01/20/contributing-guide/cover_sm.png" alt="Cartoon of 6 hypothetical rOpenSci community members" width="400" >}}
-
-
-
-* [Learn All About HTTP Testing: Book Update](/blog/2021/01/26/http-testing-book) by Maëlle Salmon, Scott Chamberlain. The 'HTTP testing in R' book has been updated. Useful for developers of packages interacting with web resources.
-
-* [How rOpenSci Runs Community Calls](/blog/2021/02/02/ropensci-community-calls) by Stefanie Butland, Emily Lescak. Tips from choosing a topic to capturing outcomes.{{< figure src="/blog/2021/02/02/ropensci-community-calls/commcalls-img.png" alt="collage of images from community calls with 3 Zoom views of speakers, a notes doc and view of someone's screen" width="400" >}}
-
-
+* [Make Your R Package Easier to Cite](/blog/2021/02/16/package-citation) by Maëlle Salmon, Scott Chamberlain, Karthik Ram. Some tips to promote scientific citations of your work.
 
 ### Tech Notes
-
-* [Behind the magick: updates to imagemagick and beyond](/blog/2021/01/29/magick-26) by Jeroen Ooms.
 
 ## Citations
 
@@ -167,7 +147,7 @@ Thank you for citing our tools!
 
 
 
-8 use cases of our packages and resources have been reported since the latest news digest.
+8 use cases of our packages and resources have been reported since the 1st of January.
 
 * [Mapping collaborations in Neotropical Taxonomy with refsplitr](https://discuss.ropensci.org/t/mapping-collaborations-in-neotropical-taxonomy-with-refsplitr/2353). Reported by Emilio M Bruna.
 

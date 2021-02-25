@@ -11,7 +11,7 @@ output:
   html_document:
     keep_md: yes
 params:
-  last_newsletter: "2021-01-01"
+  last_newsletter: "2021-02-08"
 ---
 
 ```{r setup, include=FALSE}
@@ -468,11 +468,11 @@ get_one_case <- function(usecase) {
   )
 }
 usecases <- purrr::map_df(usecases, get_one_case)
-usecases <- dplyr::filter(usecases, date >= as.Date(last_newsletter))
+usecases <- dplyr::filter(usecases, date >= anytime::anydate("2021-01-01"))#as.Date(last_newsletter))
 usecases <- split(usecases, seq(nrow(usecases)))
 ```
 
-`r length(usecases)` use cases of our packages and resources have been reported since the latest news digest.
+`r length(usecases)` use cases of our packages and resources have been reported since the 1st of January.
 
 ```{r usecases2, results='asis'}
 format_case <- function(usecase) {
