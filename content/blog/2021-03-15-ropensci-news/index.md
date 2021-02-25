@@ -133,8 +133,6 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 * [Make Your R Package Easier to Cite](/blog/2021/02/16/package-citation) by Maëlle Salmon, Scott Chamberlain, Karthik Ram. Some tips to promote scientific citations of your work.
 
-### Tech Notes
-
 ## Citations
 
 

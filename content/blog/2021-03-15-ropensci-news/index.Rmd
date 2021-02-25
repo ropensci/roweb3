@@ -416,30 +416,43 @@ format_post <- function(post) {
 ```
 
 ```{r, results='asis'}
-cat("### Software Review\n\n")
-cat(
-  paste0(
-    purrr::map_chr(posts[purrr::map_lgl(posts, "software_peer_review")], format_post),
-    collapse = "\n\n"
+software_review <- posts[purrr::map_lgl(posts, "software_peer_review")]
+if (length(software_review) > 0) {
+  cat("### Software Review\n\n")
+  cat(
+    paste0(
+      purrr::map_chr(software_review, format_post),
+      collapse = "\n\n"
+    )
   )
-)
-cat("\n\n")
-cat("### Other topics\n\n")
-cat(
-  paste0(
-    purrr::map_chr(posts[purrr::map_lgl(posts, "other")], format_post),
-    collapse = "\n\n"
+  cat("\n\n")
+}
+
+others <- posts[purrr::map_lgl(posts, "other")]
+if (length(others) > 0) {
+  cat("### Other topics\n\n")
+  cat(
+    paste0(
+      purrr::map_chr(others, format_post),
+      collapse = "\n\n"
+    )
   )
-)
-cat("\n\n")
-cat("### Tech Notes\n\n")
-cat(
-  paste0(
-    purrr::map_chr(posts[purrr::map_lgl(posts, "tech_note")], format_post),
-    collapse = "\n\n"
+  cat("\n\n")
+}
+
+
+tech_notes <- posts[purrr::map_lgl(posts, "tech_note")]
+if (length(tech_notes) > 0) {
+  cat("\n\n")
+  cat("### Tech Notes\n\n")
+  cat(
+    paste0(
+      purrr::map_chr(tech_notes, format_post),
+      collapse = "\n\n"
+    )
   )
-)
-cat("\n\n")
+  cat("\n\n")
+}
 ```
 
 ## Citations
