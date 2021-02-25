@@ -37,7 +37,9 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-TO BE CURATED BY HAND
+Our R-universe project now has its own page on our website! :rocket:
+
+Regarding another exciting project of ours... We've run the first comm call of our series on [statistical software review project](/stat-software-review/)! [rOpenSci Statistical Software Testing and Peer Review](https://ropensci.org/commcalls/feb2021-statsreview/) took place on March the 2d, blabla, resources up, recording up, blabla.
 
 Find out more [events](/events).
 
@@ -257,6 +259,15 @@ get_description <- function(body) {
   list(name = name, description = description)
 }
 
+get_user_text <- function(issue) {
+  info <- gh::gh("GET /users/{username}", username = issue$user$login)
+  name <- info$name %||% issue$user$login
+  url <- if (nzchar(info$blog)) info$blog else info$html_url
+  if (!grepl("^https?:", url)) url <- paste0("http://", url)
+  sprintf("[%s](%s)", name, url)
+  
+}
+
 tidy_issue <- function(issue) {
   labels <- purrr::map_chr(issue$labels, "name")
   label <- labels[grepl("[0-9]\\/.*", labels)][1]
@@ -268,11 +279,12 @@ tidy_issue <- function(issue) {
     holding = "holding" %in% purrr::map_chr(issue$labels, "name"),
     others = toString(purrr::map_chr(issue$labels, "name")),
     closed_at = issue$closed_at %||% NA,
-    url = issue$html_url
+    url = issue$html_url,
+    user = get_user_text(issue)
   )
   
   dplyr::rowwise(df) %>%
-    dplyr::mutate(text = sprintf("    * [%s](%s), %s.", name, url, description))
+    dplyr::mutate(text = sprintf("    * [%s](%s), %s. Submitted by %s.", name, url, description, user))
 }
 
 get_issues <- function(label, state) {
@@ -328,7 +340,7 @@ if (no_holding > 0) {
 count_label <- function(label) {
   no <- sum(issues$label == label, na.rm = TRUE)
   url <- paste0("https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A", label)
-  sprintf("* %s ['%s'](%s):\n\n %s", no, label, url, paste0(issues$text[!is.na(issues$label)][ issues$label == label], collapse = "\n\n"))
+  sprintf("* %s at ['%s'](%s):\n\n %s", no, label, url, paste0(issues$text[!is.na(issues$label)][ issues$label == label], collapse = "\n\n"))
 }
 
 cat(text)
@@ -485,9 +497,27 @@ TO BE CURATED BY HAND
 
 TO BE CURATED BY HAND
 
+<!--IF CALL
+* [our guidance on _Changing package maintainers_](https://devguide.ropensci.org/changing-maintainers.html)
+* [our _Package Curation Policy_](https://devguide.ropensci.org/curationpolicy.html)
+
+IF NO CALL
+There's no open call for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
+As a maintainer, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. -->
+
 ## Package development corner
 
-TO BE CURATED BY HAND
+Some useful tips for R package developers. :eyes:
+
+Do you have some questions around licensing of your R package?
+The [license chapter](https://r-pkgs.org/license.html) of the R packages book by Hadley Wickham and Jenny Bryan was [recently](https://twitter.com/hadleywickham/status/1307338435976364032) updated.
+A less recent but interesting read is [Colin Fay's Licensing R e-book](https://thinkr-open.github.io/licensing-r/index.html).
+
+Resources roundup encoding?
+"If the DESCRIPTION file is not entirely in ASCII it should contain an ‘Encoding’ field specifying an encoding. This is used as the encoding of the DESCRIPTION file itself and of the R and NAMESPACE files, and as the default encoding of .Rd files. "
+http://kevinushey.github.io/blog/2018/02/21/string-encoding-and-r/
+https://irene.rbind.io/post/encoding-in-r/
+https://www.mail-archive.com/r-package-devel@r-project.org/msg06536.html
 
 ## Last words
 

@@ -25,7 +25,9 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-TO BE CURATED BY HAND
+Our R-universe project now has its own page on our website! :rocket:
+
+Regarding another exciting project of ours... We've run the first comm call of our series on [statistical software review project](/stat-software-review/)! [rOpenSci Statistical Software Testing and Peer Review](https://ropensci.org/commcalls/feb2021-statsreview/) took place on March the 2d, blabla, resources up, recording up, blabla.
 
 Find out more [events](/events).
 
@@ -63,59 +65,57 @@ We are only listing the most recent version.
 
 ## Software Peer Review
 
-There are 20 recently closed and active submissions and 2 submissions on hold. Issues are at different stages: 
+There are 19 recently closed and active submissions and 2 submissions on hold. Issues are at different stages: 
 
-* 6 ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
+* 6 at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
 
-     * [terrainr](https://github.com/ropensci/software-review/issues/416), Retrieve Data from the 'USGS' National Map and Transform it for '3D' Landscape Visualizations.
+     * [terrainr](https://github.com/ropensci/software-review/issues/416), Retrieve Data from the 'USGS' National Map and Transform it for '3D' Landscape Visualizations. Submitted by [Michael Mahoney](https://www.mikemahoney218.com/).
 
-    * [pixelclasser](https://github.com/ropensci/software-review/issues/406), A Package for Classifying Pixels by Colour.
+    * [pixelclasser](https://github.com/ropensci/software-review/issues/406), A Package for Classifying Pixels by Colour. Submitted by [Carlos Real Rodríguez](https://github.com/CarlosRealR).
 
-    * [targets](https://github.com/ropensci/software-review/issues/401), Dynamic Function-Oriented Make-Like Declarative Pipelines for R.
+    * [targets](https://github.com/ropensci/software-review/issues/401), Dynamic Function-Oriented Make-Like Declarative Pipelines for R. Submitted by [Will Landau](https://wlandau.github.io).
 
-    * [osmextract](https://github.com/ropensci/software-review/issues/395), Download and Read OpenStreetMap Data Extracts.
+    * [osmextract](https://github.com/ropensci/software-review/issues/395), Download and Read OpenStreetMap Data Extracts. Submitted by [Andrea Gilardi](https://github.com/agila5).
 
-    * [coder](https://github.com/ropensci/software-review/issues/381), Deterministic Categorization of Items Based on External Code Data.
+    * [coder](https://github.com/ropensci/software-review/issues/381), Deterministic Categorization of Items Based on External Code Data. Submitted by [Erik Bülow](https://github.com/eribul).
 
-    * [SymbiotaR2](https://github.com/ropensci/software-review/issues/373), Downloading data from Symbiota2 portals into R.
+    * [SymbiotaR2](https://github.com/ropensci/software-review/issues/373), Downloading data from Symbiota2 portals into R. Submitted by [Austin Koontz](https://akoontz11.github.io/).
 
-* 2 ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
+* 2 at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
 
-     * [censo2017](https://github.com/ropensci/software-review/issues/414), Base de Datos de Facil Acceso del Censo 2017 de Chile.
+     * [censo2017](https://github.com/ropensci/software-review/issues/414), Base de Datos de Facil Acceso del Censo 2017 de Chile. Submitted by [Pachamaltese](https://pacha.dev).
 
-    * [pathviewR](https://github.com/ropensci/software-review/issues/409), Wrangle, Analyze, and Visualize Animal Movement Data.
+    * [pathviewR](https://github.com/ropensci/software-review/issues/409), Wrangle, Analyze, and Visualize Animal Movement Data. Submitted by [Vikram Baliga](https://www.vikram-baliga.com/).
 
-* 2 ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
+* 2 at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
 
-     * [healthdatacsv](https://github.com/ropensci/software-review/issues/358), Access data in the healthdata.gov catalog.
+     * [healthdatacsv](https://github.com/ropensci/software-review/issues/358), Access data in the healthdata.gov catalog. Submitted by [iecastro](http://iecastro.netlify.com).
 
-    * [circle](https://github.com/ropensci/software-review/issues/356), R Client Package for Circle CI.
+    * [circle](https://github.com/ropensci/software-review/issues/356), R Client Package for Circle CI. Submitted by [Patrick Schratz](https://pat-s.me).
 
-* 2 ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
+* 2 at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 
-     * [chemspiderapi](https://github.com/ropensci/software-review/issues/329), R Wrapper for ChemSpider's API Services.
+     * [chemspiderapi](https://github.com/ropensci/software-review/issues/329), R Wrapper for ChemSpider's API Services. Submitted by [Raoul Wolf](https://github.com/RaoulWolf).
 
-    * [exoplanets](https://github.com/ropensci/software-review/issues/309), Provides access to NASA's Exoplanet Archive, see <https://exoplanetarchive.ipac.caltech.edu/index.html>.
+    * [exoplanets](https://github.com/ropensci/software-review/issues/309), Provides access to NASA's Exoplanet Archive, see <https://exoplanetarchive.ipac.caltech.edu/index.html>. Submitted by [Tyler Littlefield](http://tylerlittlefield.com).
 
-* 3 ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
+* 4 at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
-     * [stantargets](https://github.com/ropensci/software-review/issues/430), Targets for Stan Workflows.
+     * [stantargets](https://github.com/ropensci/software-review/issues/430), Targets for Stan Workflows. Submitted by [Will Landau](https://wlandau.github.io).
 
-    * [dataaimsr](https://github.com/ropensci/software-review/issues/428), AIMS Data Platform API Client.
+    * [dataaimsr](https://github.com/ropensci/software-review/issues/428), AIMS Data Platform API Client. Submitted by [Diego Barneche](https://www.diegobarneche.com/).
 
-    * [occCite](https://github.com/ropensci/software-review/issues/407), Querying and Managing Large Biodiversity Occurrence Datasets.
+    * [dataspice](https://github.com/ropensci/software-review/issues/426), Create Lightweight Schema.org Descriptions of Data. Submitted by [Bryce Mecum](https://brycemecum.com).
 
-* 5 ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
+    * [occCite](https://github.com/ropensci/software-review/issues/407), Querying and Managing Large Biodiversity Occurrence Datasets. Submitted by [Hannah Owens](http://hannahlowens.weebly.com/).
 
-     * [dataspice](https://github.com/ropensci/software-review/issues/426), Create Lightweight Schema.org Descriptions of Data.
+* 3 at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
 
-    * [slopes](https://github.com/ropensci/software-review/issues/420), Calculate Slopes of Roads, Rivers and Trajectories.
+     * [slopes](https://github.com/ropensci/software-review/issues/420), Calculate Slopes of Roads, Rivers and Trajectories. Submitted by [RFlx](http://www.rosafelix.bike).
 
-    * [epair](https://github.com/ropensci/software-review/issues/418), Grabs data from EPA API, simplifies getting pollutant data.
+    * [epair](https://github.com/ropensci/software-review/issues/418), Grabs data from EPA API, simplifies getting pollutant data. Submitted by [GLOrozcoM](https://github.com/GLOrozcoM).
 
-    * [tidytags](https://github.com/ropensci/software-review/issues/382), Simple Collection and Powerful Analysis of Twitter Data.
-
-    * [dataspice](https://github.com/ropensci/software-review/issues/426), Create Lightweight Schema.org Descriptions of Data.
+    * [tidytags](https://github.com/ropensci/software-review/issues/382), Simple Collection and Powerful Analysis of Twitter Data. Submitted by [Bret Staudt Willet](http://bretsw.com).
 
 Find out more about [Software Peer Review](/software-review) and how to get involved.
 
@@ -195,9 +195,27 @@ TO BE CURATED BY HAND
 
 TO BE CURATED BY HAND
 
+<!--IF CALL
+* [our guidance on _Changing package maintainers_](https://devguide.ropensci.org/changing-maintainers.html)
+* [our _Package Curation Policy_](https://devguide.ropensci.org/curationpolicy.html)
+
+IF NO CALL
+There's no open call for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
+As a maintainer, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. -->
+
 ## Package development corner
 
-TO BE CURATED BY HAND
+Some useful tips for R package developers. :eyes:
+
+Do you have some questions around licensing of your R package?
+The [license chapter](https://r-pkgs.org/license.html) of the R packages book by Hadley Wickham and Jenny Bryan was [recently](https://twitter.com/hadleywickham/status/1307338435976364032) updated.
+A less recent but interesting read is [Colin Fay's Licensing R e-book](https://thinkr-open.github.io/licensing-r/index.html).
+
+Resources roundup encoding?
+"If the DESCRIPTION file is not entirely in ASCII it should contain an ‘Encoding’ field specifying an encoding. This is used as the encoding of the DESCRIPTION file itself and of the R and NAMESPACE files, and as the default encoding of .Rd files. "
+http://kevinushey.github.io/blog/2018/02/21/string-encoding-and-r/
+https://irene.rbind.io/post/encoding-in-r/
+https://www.mail-archive.com/r-package-devel@r-project.org/msg06536.html
 
 ## Last words
 
