@@ -26,6 +26,9 @@ url <- sprintf(
     stringr::str_pad(lubridate::day(rmarkdown::yaml_front_matter(knitr::current_input())$date), 2, "0", side = "left"),
     rmarkdown::yaml_front_matter(knitr::current_input())$slug
     )
+english <- function(x) {
+  as.character(english::english(x))
+}
 ```
 
 Dear rOpenSci friends, it's time for our monthly news roundup!
@@ -110,7 +113,7 @@ new <- dplyr::filter(
 ```
 
 
-The following `r nrow(new)` package`r if(nrow(new)>1) "s"` recently became a part of our software suite:
+The following `r if(nrow(new)>1) english(nrow(new))` package`r if(nrow(new)>1) "s"` recently became a part of our software suite:
 
 ```{r, results='asis', cache = TRUE}
 packages <- split(new, seq(nrow(new)))
@@ -247,7 +250,7 @@ all_releases <- purrr::map_chr(releases, format_release)
 text <- toString(all_releases)
 ```
 
-The following `r length(releases)` package`r if (length(releases) > 1) "s"` `r if (length(releases) > 1) "have" else "has"` had an update since the latest newsletter: `r text`.
+The following `r if (length(releases) > 1) english(length(releases))` package`r if (length(releases) > 1) "s"` `r if (length(releases) > 1) "have" else "has"` had an update since the latest newsletter: `r text`.
 
 We are only listing the most recent version.
 
@@ -328,7 +331,7 @@ issues <- dplyr::bind_rows(active_issues, closed_issues)
 
 no_holding <- sum(issues$holding)
 issues <- dplyr::filter(issues, !holding)
-text <- sprintf("There are %s recently closed and active submissions", nrow(issues))
+text <- sprintf("There are %s recently closed and active submissions", english(nrow(issues)))
 if (no_holding > 0) {
   text <- paste0(
     text,
@@ -343,7 +346,7 @@ if (no_holding > 0) {
 }
 
 count_label <- function(label) {
-  no <- sum(issues$label == label, na.rm = TRUE)
+  no <- snakecase::to_sentence_case(english(sum(issues$label == label, na.rm = TRUE)))
   url <- paste0("https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A", label)
   sprintf("* %s at ['%s'](%s):\n\n %s", no, label, url, paste0(issues$text[!is.na(issues$label)][ issues$label == label], collapse = "\n\n"))
 }
@@ -490,7 +493,7 @@ usecases <- dplyr::filter(usecases, date >= anytime::anydate("2021-01-01"))#as.D
 usecases <- split(usecases, seq(nrow(usecases)))
 ```
 
-`r length(usecases)` use cases of our packages and resources have been reported since the 1st of January.
+`r snakecase::to_sentence_case(english(length(usecases)))` use cases of our packages and resources have been reported since the 1st of January.
 
 ```{r usecases2, results='asis'}
 format_case <- function(usecase) {

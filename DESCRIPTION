@@ -11,6 +11,7 @@ Description: What the package does (one paragraph).
 License: MIT + file LICENSE
 Imports: 
     anytime,
+    english,
     blogdown,
     desc,
     discgolf (>= 0.2.3.96),
@@ -31,7 +32,8 @@ Imports:
     urltools,
     withr,
     xml2,
-    yaml
+    yaml,
+    snakecase
 Remotes: 
     sckott/discgolf
 Encoding: UTF-8
