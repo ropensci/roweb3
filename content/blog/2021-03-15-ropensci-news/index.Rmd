@@ -75,7 +75,7 @@ commits <- gh::gh(
     "%s-%s-%sT00:00:00Z",
     lubridate::year(last_newsletter),
     stringr::str_pad(lubridate::month(last_newsletter), 2, "0", side = "left"),
-    stringr::str_pad(lubridate::day(last_newsletter), 2, "0", side = "left")
+    stringr::str_pad(lubridate::day(last_newsletter) - 1, 2, "0", side = "left")
   ),
   until = sprintf(
     "%s-%s-%sT00:00:00Z",
