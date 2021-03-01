@@ -1,8 +1,32 @@
 [
   {
+    "title": "Mapping collaborations in Neotropical Taxonomy with refsplitr",
+    "tags": ["package", "refsplitr", "use-cases"],
+    "resource": "refsplitr",
+    "url": "https://discuss.ropensci.org/t/mapping-collaborations-in-neotropical-taxonomy-with-refsplitr/2353",
+    "image": "mapping-collaborations-in-neotropical-taxonomy-with-refsplitr.png",
+    "date": "2021-02-06"
+  },
+  {
+    "title": "Use gert to scan all git repos in a directory",
+    "tags": "gert",
+    "resource": "gert",
+    "url": "https://discuss.ropensci.org/t/use-gert-to-scan-all-git-repos-in-a-directory/2332",
+    "image": "noimage",
+    "date": "2021-02-01"
+  },
+  {
+    "title": "Shiny apps to search #rstudioglobal or #rstats tweets with rtweet",
+    "tags": "rtweet",
+    "resource": "rtweet",
+    "url": "https://discuss.ropensci.org/t/shiny-apps-to-search-rstudioglobal-or-rstats-tweets-with-rtweet/2324",
+    "image": "noimage",
+    "date": "2021-01-25"
+  },
+  {
     "title": "Using dittodb to test database queries",
-    "tags": ["dittodb"],
-    "resource": "dittodb ",
+    "tags": "dittodb",
+    "resource": "dittodb",
     "url": "https://discuss.ropensci.org/t/using-dittodb-to-test-database-queries/2322",
     "image": "noimage",
     "date": "2021-01-25"
@@ -14,14 +38,6 @@
     "url": "https://discuss.ropensci.org/t/pdftools-for-extracting-complex-e-g-text-wrapped-multiline-tables-from-pdfs/2327",
     "image": "noimage",
     "date": "2021-01-26"
-  },
-  {
-    "title": "Shiny apps to search #rstudioglobal or #rstats tweets with rtweet",
-    "tags": "rtweet",
-    "resource": "rtweet",
-    "url": "https://discuss.ropensci.org/t/shiny-apps-to-search-rstudioglobal-or-rstats-tweets-with-rtweet/2324",
-    "image": "noimage",
-    "date": "2021-01-25"
   },
   {
     "title": "Getting and plotting weather and climate data",
@@ -49,7 +65,7 @@
   },
   {
     "title": "Using av to convert audio files for compatibility with an electronic storyteller",
-    "tags": [],
+    "tags": "av",
     "resource": "av",
     "url": "https://discuss.ropensci.org/t/using-av-to-convert-audio-files-for-compatibility-with-an-electronic-storyteller/2281",
     "image": "noimage",
