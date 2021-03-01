@@ -14,7 +14,7 @@ This post is part of a series of technotes about our new [r-universe](https://r-
 
 R-universe is a relatively complex system, consisting of many moving pieces, which combine a range of front-end, back-end, and infrastructural features, on multiple platforms. A key challenge in developing such a system is managing overall complexity by finding ways to reduce the problem into smaller, loosely coupled components, which can be thought of, and developed, somewhat independently.
 
-A lot of the early work into R-universe has gone into experimenting with designs to gradually build up such a system in a way that is robust and scalable, while keeping complexity under control. 
+A lot of the early work on R-universe has gone into experimenting with designs to gradually build up such a system in a way that is robust and scalable, while keeping complexity under control. 
 
 We have arrived at a design which distinguishes 3 core parts of the infrastructure:
  
@@ -22,9 +22,9 @@ We have arrived at a design which distinguishes 3 core parts of the infrastructu
  2. __Extensible build system__: Plugable CI chain to build R package binaries, docs, and other things.
  3. __Deployment__: A high-performance "cranlike" package server with APIs for metadata and frontends.
 
-Each of these pieces again consists of smaller tasks, but at the core, these pieces provide the essential groundwork for the R-universe infrastructure.
+Each of these pieces again consists of smaller tasks, but at the core, this forms the essential groundwork for the R-universe system.
 
-![a diagram of r-universe](r-universe-diagram.svg)
+![diagram of r-universe](r-universe-diagram.svg)
 
 ## Part 1: Package repositories as monorepos
 
@@ -81,7 +81,7 @@ install.packages('magick')
 But unlike CRAN or similar systems, R-universe does not store the package repository as pre-generated static files. All R-universe repositories and indices are generated on demand from packages in the database for a given universe. 
 
 The benefit of using a database is that it makes the system dynamic: we can interface with the repository data in other ways, serve hybrid/virtual package repositories, analyze the dependency network, etc. 
-For example, the server exposes summary data about the universe from several `/stats/` APIs:
+For example, the server exposes summary data about every universe from several `/stats/` APIs:
 
   - [`/stats/maintainers`](https://ropensci.r-universe.dev/stats/maintainers): all unique package maintainers
   - [`/stats/descriptions`](https://ropensci.r-universe.dev/stats/descriptions): description fields for all packages
