@@ -16,12 +16,12 @@ location: Community call (teleconference)
 country: "\U0001F310"
 attendees: All are welcome
 slug: feb2021-statsreview
-# notes: https://docs.google.com/document/d/1YpPbJ-zxEGWtx3v69OKFx8URtoADbU-Km5a8xSbi4EI/
+notes: https://docs.google.com/document/d/1o933nG1ZW2Qf8p7FdQxn8wOkk9qoBINL1fx3FlIFSJU/
 outputs:
 - HTML
 - Calendar 
-# vimeo:
-#  - id: '492310551'
+vimeo:
+ - id: '518761488'
 resources:
   - url: https://ropenscilabs.github.io/statistical-software-review-book/index.html
     name: rOpenSci Statistical Software Peer Review
@@ -33,6 +33,14 @@ resources:
   - url: https://discuss.ropensci.org/c/statistical-software-peer-review/28
     name: community forum
     details: for discussion of statistical software peer review
+  - url: https://github.com/ropenscilabs/statistical-software-review/issues
+    name: Open an issue
+    details: if you're interested in submitting a package
+  - url: https://www.pharmar.org/
+    name: R Validation Hub
+  - url: https://github.com/pharmaR/riskmetric
+    name: riskmetric package
+    details: from R Validation Hub    
 speakers:  
   - name: Noam Ross
     bio: Noam Ross is Principal Scientist for Computational Research at [EcoHealth Alliance](https://www.ecohealthalliance.org/) and rOpenSci Software Review Lead. He co-leads the rOpenSci Statistical Software Testing and Peer Review project. Noam on [GitHub](https://github.com/noamross), [Twitter](https://twitter.com/noamross), [Website](https://www.noamross.net/)
@@ -67,4 +75,16 @@ We at rOpenSci are in the process of expanding the scope of our software peer-re
 
 This one-hour event will provide an introduction to the project and feature developers who have helped to test and refine the tools, and will feature a live walk-through of the processes of applying these tools to a package. 
 
-All are welcome. No RSVP required.
+Index of video:
+- 0:00 Welcome and introductions, Stefanie Butland
+- 3:48 Anna Krystalli
+- 7:00 Noam Ross introduces the project
+- 12:24 Mark Padgham walks through running autotest and srr packages on a skeleton package example
+- 23:14 Anna Krystalli explains what’s about to happen, from an Editor’s perspective
+- 24:08 John Sakaluk walks through using autotest on his package-in-development
+- 30:48 Anna Krystalli
+- 31:48 Alex Hayes walks through using the srr package preparing his package for review
+- 38:43 Q & A moderated by Anna
+
+
+
