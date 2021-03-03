@@ -129,18 +129,6 @@ deets: |
     Passcode: 896415
 zoomurl: https://zoom.us/j/92298909939?pwd=MERubjdNUUw2aWp6RUFqSHllR01adz09
 ---
-
-Index of video:
-
-- 0:00 Welcome
-- 4:50 Topic introduction from Kara Woo
-- 7:37 Daniella Lowenberg
-- 12:06 Matt Jones
-- 18:08 Kara Woo
-- 26:29 Carl Boettiger
-- 33:45 Karthik Ram
-- 41:32 Q & A 
-
 See below for speaker bios and resources including collaborative notes from the call.
 
 There is no one-size-fits-all protocol for depositing your research data into a public repository in a way that maximizes its reuse and citation. We've assembled a panel that will help you understand the issues and opportunities for developing new tools and documentation. 
@@ -154,4 +142,13 @@ This 1-hour event, moderated by Kara Woo, includes 5 speakers and 20 minutes for
 
 Speakers will cover nuances of general and domain-specific repositories (Dryad, the DataONE federation of repositories, Arctic Data Center), what curators look for, what to do when you want to deposit both data and software, designing tools to help researchers provide the right metadata to maximize reuse, making data reuse easier with R tools like [piggyback](https://docs.ropensci.org/piggyback/), and their vision for new tools and documentation.
 
-All are welcome.
+Index of video:
+
+- 0:00 Welcome
+- 4:50 Topic introduction from Kara Woo
+- 7:37 Daniella Lowenberg
+- 12:06 Matt Jones
+- 18:08 Kara Woo
+- 26:29 Carl Boettiger
+- 33:45 Karthik Ram
+- 41:32 Q & A 
