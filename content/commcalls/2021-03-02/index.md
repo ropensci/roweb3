@@ -77,10 +77,10 @@ This one-hour event will provide an introduction to the project and feature deve
 
 Index of video:
 - 0:00 Welcome and introductions, Stefanie Butland
-- 3:48 Anna Krystalli
+- 3:48 Anna Krystalli gives Editor's perspective
 - 7:00 Noam Ross introduces the project
 - 12:24 Mark Padgham walks through running autotest and srr packages on a skeleton package example
-- 23:14 Anna Krystalli explains what’s about to happen, from an Editor’s perspective
+- 23:14 Anna Krystalli explains what’s about to happen
 - 24:08 John Sakaluk walks through using autotest on his package-in-development
 - 30:48 Anna Krystalli
 - 31:48 Alex Hayes walks through using the srr package preparing his package for review
