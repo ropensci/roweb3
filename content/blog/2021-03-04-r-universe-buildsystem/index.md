@@ -1,24 +1,26 @@
 ---
 slug: r-universe-buildsystem
 title: 'A first look at the R-universe build infrastructure'
-date: '2021-03-01'
+date: '2021-03-04'
 author: Jeroen Ooms
 tags:
   - r-universe
   - tech notes
 ---
 
-This post is part of a series of technotes about our new [r-universe](https://r-universe.dev) project. As the project evolves, we will be posting updates about new features and some technical details. This post globally introduces the core build system.
+*This post is part of a series of technotes about our new R development platform called [r-universe](https://r-universe.dev).
+As the project evolves, we will post updates to document features and technical details.
+In this first article, we take a global look at the the core build system.*
 
 ## The R-universe build system
 
-R-universe is a relatively complex system, consisting of many moving pieces, which combine a range of front-end, back-end, and infrastructural features, on multiple platforms. A key challenge in developing such a system is managing overall complexity by finding ways to reduce the problem into smaller, loosely coupled components, which can be thought of, and developed, somewhat independently.
+The R-universe system is a complex effort, consisting of numerous frontend and backend components that work across various operating systems. A key challenge in developing such a system is managing overall complexity by finding ways to reduce the problem into smaller, loosely coupled components, which can be thought of, and developed, somewhat independently.
 
-A lot of the early work on R-universe has gone into experimenting with designs to gradually build up such a system in a way that is robust and scalable, while keeping complexity under control. 
+A lot of the early work on R-universe has gone into iterating with designs to gradually build up such a system in a way that is robust and scalable, while keeping complexity under control. 
 
 We have arrived at a design which distinguishes 3 core parts of the infrastructure:
  
- 1. __Source monorepos__: Manage package repositories as monorepos with a central registry.
+ 1. __Source monorepos__: Manage package repositories as [monorepos](https://en.wikipedia.org/wiki/Monorepo) with a central registry.
  2. __Extensible build system__: Plugable CI chain to build R package binaries, docs, and other things.
  3. __Deployment__: A high-performance "cranlike" package server with APIs for metadata and frontends.
 
@@ -28,7 +30,7 @@ Each of these pieces again consists of smaller tasks, but at the core, this form
 
 ## Part 1: Package repositories as monorepos
 
-The package monorepo is the first core idea of R-universe. Every package universe is generated from a registry file, which lists the packages and corresponding git repositories. The format is modeled after [rOpenSci's official package registry](http://ropensci.github.io/roregistry/packages.json) and consists of a simple JSON structure:
+The package monorepo is the first core idea of R-universe. Every package universe is generated from a registry file, which lists the packages and corresponding Git repositories. The format is modeled after [rOpenSci's official package registry](http://ropensci.github.io/roregistry/packages.json) and consists of a simple JSON structure:
 
 ```json
 [
@@ -47,13 +49,13 @@ The package monorepo is the first core idea of R-universe. Every package univers
 
 The registry file may either be auto-generated or manually curated by the owner of a universe. From the registry file, the r-universe system generates a [monorepo](https://en.wikipedia.org/wiki/Monorepo), in which each R package is a submodule. The monorepo automatically gets updated with changes in the registry file or package repositories. All r-universe monorepos are tracked under `https://github.com/r-universe/{user}`, for example [r-universe/ropensci](https://github.com/r-universe/ropensci). 
 
-The use of monorepos is popular in big software companies like Google and Facebook as a way to have a common state and history for the entire software suite as a whole. Our use is slightly different, because package authors do not commit directly to the monorepo, but instead we track upstream packages using submodules. But the purpose is the same: the monorepo provides a central place to track sources from the entire repository. It provides the exact state and history of packages and versions contained in the repository, simply using git.
+The use of monorepos is popular in big software companies like Google and Facebook as a way to have a common state and history for the entire software suite as a whole. Our use is slightly different, because package authors do not commit directly to the monorepo, but instead we track upstream packages using submodules. But the purpose is the same: the monorepo provides a central place to track sources from the entire repository. It provides the exact state and history of packages and versions contained in the repository, simply using Git.
 
-Note that the packages do not need to be hosted on GitHub themselves: they may live on any public git server, e.g. Gitlab or a university self hosted git server. The only thing that matters is that the git server is public readable, so the package source code can be checked out when initiating the submodule.
+Note that the packages do not need to be hosted on GitHub themselves: they may live on any public Git server, e.g. Gitlab or a university self hosted Git server. The only thing that matters is that the Git server is public readable, so the package source code can be checked out when initiating the submodule.
 
 ## Part 2: An extensible CI/CD build system
 
-Based on the sources from the monorepo, we arrive at the second part of the system: building all the things. Each package update in the monorepo triggers a series of actions to build the source tarball, binaries for Windows and MacOS, and documentation[^1], which all get deployed at the end of the run. Because everything is deployed simultaneously, the binary package versions are always in sync with the source package. This is different from CRAN where the binaries  appear a few days later.
+Based on the sources from the monorepo, we arrive at the second part of the system: Building all the things. Each package update in the monorepo triggers a series of actions to build the source tarball, binaries for Windows and MacOS, and documentation[^1], which all get deployed at the end of the run. Because everything is deployed simultaneously, the binary package versions are always in sync with the source package. This is different from CRAN where the binaries  appear a few days later.
 
 The build process also performs some additional tasks, such as automatically analyzing if the package requires system dependencies, looking for a package logo, etc. We try to write the build system in a way that is extensible, such that we can easily add additional steps in the future. For example we plan to collect some statistics on the package commit history, extract citations, generate [codemeta](https://cran.r-project.org/web/packages/codemetar/vignettes/codemetar.html), and other things that were mentioned at [my talk at rstudio::global](https://rstudio.com/resources/rstudioglobal-2021/monitoring-health-and-impact-of-open-source-projects/).
 
