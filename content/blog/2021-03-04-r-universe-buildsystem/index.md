@@ -51,7 +51,7 @@ The registry file may either be auto-generated or manually curated by the owner 
 
 The use of monorepos is popular in big software companies like Google and Facebook as a way to have a common state and history for the entire software suite as a whole. Our use is slightly different, because package authors do not commit directly to the monorepo, but instead we track upstream packages using submodules. But the purpose is the same: the monorepo provides a central place to track sources from the entire repository. It provides the exact state and history of packages and versions contained in the repository, simply using Git.
 
-Note that the packages do not need to be hosted on GitHub themselves: they may live on any public Git server, e.g. Gitlab or a university self hosted Git server. The only thing that matters is that the Git server is public readable, so the package source code can be checked out when initiating the submodule.
+Note that the packages do not need to be hosted on GitHub themselves: they may live on any public Git server, e.g. Gitlab or a university self hosted Git server. The only thing that matters is that the Git server is publicly readable, so the package source code can be checked out when initiating the submodule.
 
 ## Part 2: An extensible CI/CD build system
 
