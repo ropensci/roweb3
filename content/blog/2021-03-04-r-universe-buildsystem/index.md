@@ -14,7 +14,7 @@ In this first article, we take a global look at the the core build system.*
 
 ## The R-universe build system
 
-The R-universe system is a complex effort, consisting of numerous frontend and backend components that work across various operating systems. A key challenge in developing such a system is managing overall complexity by finding ways to reduce the problem into smaller, loosely coupled components, which can be thought of, and developed, somewhat independently.
+The R-universe system is a complex effort, consisting of numerous frontend and backend pieces that operate across various platforms. A key challenge in developing such a system is managing overall complexity by finding ways to reduce the problem into smaller, loosely coupled components, which can be thought of, and developed, somewhat independently.
 
 A lot of the early work on R-universe has gone into iterating with designs to gradually build up such a system in a way that is robust and scalable, while keeping complexity under control. 
 
