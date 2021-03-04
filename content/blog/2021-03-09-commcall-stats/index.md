@@ -16,10 +16,6 @@ tags:
   - statistics
   - community-call
 description: "Summary of the Community Call on Statistical Software Testing and Peer Review"
-# If you have no preferred image for Twitter cards,
-# delete the twitterImg and twitterAlt lines below 
-# - Replace "blog" with "technotes" as needed
-# - Note "/" between year/month/day
 twitterImg: blog/2021/03/09/commcall-stats/speakers.png
 twitterAlt: "Headshots of the five speakers"
 tweet: "Statistical Software Testing and Peer Review Community Call Summary by @noamross, @bikesrdata, @annakrystalli, @JohnSakaluk, @alexpghayes, & @steffilazerte!"
@@ -71,11 +67,11 @@ We hope that by preparing this summary, more people will be able to benefit from
 
 - What is missing from these package for assessing statistical packages? (Kieran; [video](https://vimeo.com/518761488#t=44m43s) | [document](https://docs.google.com/document/d/1o933nG1ZW2Qf8p7FdQxn8wOkk9qoBINL1fx3FlIFSJU/edit#heading=h.jk4fef3ixoga))
 
-- We are just beginning to re-code some existing packages - so have the advantage of starting with a blank sheet AND a good specification AND well tested code snippets. We’re new to this community - what advice would give on both engagement and coding? (Joss; [video](https://vimeo.com/518761488#t=49m07s) | [document](https://docs.google.com/document/d/1o933nG1ZW2Qf8p7FdQxn8wOkk9qoBINL1fx3FlIFSJU/edit#heading=h.fvjzqwqcf88u))
+- We are just beginning to re-code some existing packages - so have the advantage of starting with a blank sheet AND a good specification AND well tested code snippets. We're new to this community - what advice would give on both engagement and coding? (Joss; [video](https://vimeo.com/518761488#t=49m07s) | [document](https://docs.google.com/document/d/1o933nG1ZW2Qf8p7FdQxn8wOkk9qoBINL1fx3FlIFSJU/edit#heading=h.fvjzqwqcf88u))
 
 - Regarding representation in the program, do we have any sense where groups of folks are over/under-represented within specific areas? (John; [video](https://vimeo.com/518761488#t=53m27s) | [document](https://docs.google.com/document/d/1o933nG1ZW2Qf8p7FdQxn8wOkk9qoBINL1fx3FlIFSJU/edit#heading=h.xnstfjt1cjg7))
 
-- What is the vision for applying these srr standards to existing (previously published) ROpenSci packages (Rafael; [video](https://vimeo.com/518761488#t=55m40s) | [document](https://docs.google.com/document/d/1o933nG1ZW2Qf8p7FdQxn8wOkk9qoBINL1fx3FlIFSJU/edit#heading=h.78ydzxagwubi))
+- What is the vision for applying these srr standards to existing (previously published) rOpenSci packages (Rafael; [video](https://vimeo.com/518761488#t=55m40s) | [document](https://docs.google.com/document/d/1o933nG1ZW2Qf8p7FdQxn8wOkk9qoBINL1fx3FlIFSJU/edit#heading=h.78ydzxagwubi))
 
 - Does autotest take into account dependencies and dependency changes? (Charles; [[document](https://docs.google.com/document/d/1o933nG1ZW2Qf8p7FdQxn8wOkk9qoBINL1fx3FlIFSJU/edit#heading=h.s52f459a2yp1))
 
