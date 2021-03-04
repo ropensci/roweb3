@@ -19,6 +19,9 @@ description: "Summary of the Community Call on Statistical Software Testing and 
 twitterImg: blog/2021/03/09/commcall-stats/speakers.png
 twitterAlt: "Headshots of the five speakers"
 tweet: "Statistical Software Testing and Peer Review Community Call Summary by @noamross, @bikesrdata, @annakrystalli, @JohnSakaluk, @alexpghayes, & @steffilazerte!"
+output: 
+  html_document:
+    keep_md: true
 ---
 
 A week ago we held a [Community Call](/commcalls/2021-03-02/) discussing rOpenSci Statistical Software Testing and Peer Review. 
