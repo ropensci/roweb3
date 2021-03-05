@@ -29,11 +29,17 @@ This call included speakers [Noam Ross](/author/noam-ross/) [Mark Padgham](/auth
 
 {{< figure src = "speakers.png" class = "center" width = "600" alt = "Headshots of the moderator and four panelists">}}
 
-The call started out...
+We decided to write this additional blog post to provide a ready reference and description of this community call, which introduced the system being developed for peer review of explicitly statistical software, along with a couple of the automated software tools for use by developers and reviewers of statistical software.
+After an introduction by Stefanie Butland, Anna Krystali gave an overview of the context and importance of our new tools from an editorial perspective.
+Noam Ross then introduced the statistical software review project, members of its advisory board, and the standards-based system which will be used to assess and review statistical software.
+Mark Padgham then briefly described the two main tools intended for use by developers and reviewers: the [`autotest` package](https://ropenscilabs.github.io/autotest/) for automated testing of software to ensure robust responses to unexpected inputs throughout development, and the [`srr` (**s**oftware **r**eview **r**oclets) package](https://ropenscilabs.github.io/srr/) for documenting within code itself how and where it complies with both general and category-specific standards for statistical software.
 
-Introduced the packages autotest and srr which do...
+The call then moved on to its main intention of being a "hands-on" demonstration of how these packages can be used in practice, by first passing to [John Sakaluk](https://www.psychology.uwo.ca/people/faculty/profiles/sakaluk.html), who has developed the [`dySEM` package](https://jsakaluk.github.io/dySEM/) for his own use, and would now like to refine and extend the package for more general use, ideally working towards submission to our peer-review system.
+John described the usefulness of [`autotest`](https://ropenscilabs.github.io/autotest/) in explicitly revealing aspects of his code which could be improved for more general usage.
 
-Then finished by...
+> (cool quotes from John once captions are up ...)
+
+[Alex Hayes](https://www.alexpghayes.com/) then described his experiences from initial review of his [`fastadi` package](https://github.com/RoheLab/fastadi), and of the role standards can play in software improvement and assessment, noting in particular the usefulness of standards as contextual "touchpoints" for review.
 
 Here we've organized the video content by speakers and questions, including links to the specific time points in the [video](https://vimeo.com/518761488) as well as to questions and answers in the [collaborative document](https://docs.google.com/document/d/1o933nG1ZW2Qf8p7FdQxn8wOkk9qoBINL1fx3FlIFSJU/) that we include in every community call. 
 We hope that by preparing this summary, more people will be able to benefit from this information.
