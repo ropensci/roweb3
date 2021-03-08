@@ -90,7 +90,7 @@ We are particularly keen to help people from underrepresented groups find ways t
 - Contact us if you would be interested in reviewing statistical software packages
 - We're aiming for an official launch in around one month's time
 - Use autotest on your own package right now, and give feedback to help improve it
-- Hep us to improve our standards by giving any kind of feedback
+- Help us to improve our standards by giving any kind of feedback
 - Informal comments, questions, suggestions 
     - #stats-peer-review channel on rOpenSci Slack 
     - rOpenSci [Statistical Software Peer Review forum](https://discuss.ropensci.org/c/statistical-software-peer-review/28)
