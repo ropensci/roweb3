@@ -76,7 +76,7 @@ We hope that by preparing this summary, more people will be able to benefit from
 
 - (John Sakaluk) Regarding representation in the program, do we have any sense where groups of folks are over/under-represented within specific areas? ([video](https://vimeo.com/518761488#t=53m27s) | [document](https://docs.google.com/document/d/1o933nG1ZW2Qf8p7FdQxn8wOkk9qoBINL1fx3FlIFSJU/edit#heading=h.xnstfjt1cjg7))
 
-- (Rafael) What is the vision for applying these srr standards to existing (previously published) rOpenSci packages ([video](https://vimeo.com/518761488#t=55m40s) | [document](https://docs.google.com/document/d/1o933nG1ZW2Qf8p7FdQxn8wOkk9qoBINL1fx3FlIFSJU/edit#heading=h.78ydzxagwubi))
+- (Rafael Pilliard Hellwig) What is the vision for applying these srr standards to existing (previously published) rOpenSci packages ([video](https://vimeo.com/518761488#t=55m40s) | [document](https://docs.google.com/document/d/1o933nG1ZW2Qf8p7FdQxn8wOkk9qoBINL1fx3FlIFSJU/edit#heading=h.78ydzxagwubi))
 
 - (Charles) Does autotest take into account dependencies and dependency changes? ([document](https://docs.google.com/document/d/1o933nG1ZW2Qf8p7FdQxn8wOkk9qoBINL1fx3FlIFSJU/edit#heading=h.s52f459a2yp1))
 
