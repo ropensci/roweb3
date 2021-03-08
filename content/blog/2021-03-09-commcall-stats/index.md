@@ -39,7 +39,7 @@ John described the usefulness of [`autotest`](https://ropenscilabs.github.io/aut
 
 > one of the things that's really useful for me here, as a self taught and newbie developer, is I find myself adding to my package development list almost every time that I open it up in terms of wish listing new functionality. And what's really nice about this [`autotest` tool] is this can help me set some targets for priority items just for tightening up the programming of the existing functions.  -- **John Sakaluk**
 
-[Alex Hayes](https://www.alexpghayes.com/) then described his experiences from initial review of his [`fastadi` package](https://github.com/RoheLab/fastadi), and of the role standards can play in software improvement and assessment, noting in particular the usefulness of standards as contextual "touchpoints" for review.
+[Alex Hayes](https://www.alexpghayes.com/) then described his experiences from initial review of his [`fastadi` package](https://github.com/RoheLab/fastadi), and of the role standards can play in software improvement and assessment, noting in particular the usefulness of standards as contextual "touchpoints" for review, and how the [`srr` package](https://ropenscilabs.github.io/srr/) tracks these standards through the development process
 
 ## Summarizing the community call
 
