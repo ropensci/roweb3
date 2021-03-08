@@ -35,9 +35,9 @@ Noam Ross then introduced the statistical software review project, members of it
 Mark Padgham then briefly described the two main tools intended for use by developers and reviewers: the [`autotest` package](https://ropenscilabs.github.io/autotest/) for automated testing of software to ensure robust responses to unexpected inputs throughout development, and the [`srr` (**s**oftware **r**eview **r**oclets) package](https://ropenscilabs.github.io/srr/) for documenting within code itself how and where it complies with both general and category-specific standards for statistical software.
 
 The call then moved on to its main intention of being a "hands-on" demonstration of how these packages can be used in practice, by first passing to [John Sakaluk](https://www.psychology.uwo.ca/people/faculty/profiles/sakaluk.html), who has developed the [`dySEM` package](https://jsakaluk.github.io/dySEM/) for his own use, and would now like to refine and extend the package for more general use, ideally working towards submission to our peer-review system.
-John described the usefulness of [`autotest`](https://ropenscilabs.github.io/autotest/) in explicitly revealing aspects of his code which could be improved for more general usage.
+John described the usefulness of [`autotest`](https://ropenscilabs.github.io/autotest/) in explicitly revealing aspects of his code which could be improved for more general usage, and in particular that,
 
-> (cool quotes from John once captions are up ...)
+> one of the things that's really useful for me here as a self taught and kind of newbie developer is I find myself adding to my kind of package development list almost every time that I open it up in terms of wish listing new functionality. And what's really nice about this [`autotest` tool] is this can help me kind of set some targets for priority items just for kind of tightening up the programming of the existing functions.
 
 [Alex Hayes](https://www.alexpghayes.com/) then described his experiences from initial review of his [`fastadi` package](https://github.com/RoheLab/fastadi), and of the role standards can play in software improvement and assessment, noting in particular the usefulness of standards as contextual "touchpoints" for review.
 
