@@ -16,7 +16,7 @@ tags:
   - statistics
   - community-call
 description: "Summary of the Community Call on Statistical Software Testing and Peer Review"
-twitterImg: blog/2021/03/09/commcall-stats/speakers.png
+twitterImg: blog/2021/03/09/commcall-stats/speakers_twitter.png
 twitterAlt: "Headshots of the five speakers"
 tweet: "Statistical Software Testing and Peer Review Community Call Summary by @noamross, @bikesrdata, @annakrystalli, @JohnSakaluk, @alexpghayes, & @steffilazerte!"
 output: 
