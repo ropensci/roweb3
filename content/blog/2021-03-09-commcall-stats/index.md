@@ -37,21 +37,20 @@ Mark Padgham then briefly described the two main tools intended for use by devel
 The call then moved on to its main intention of being a "hands-on" demonstration of how these packages can be used in practice, by first passing to [John Sakaluk](https://www.psychology.uwo.ca/people/faculty/profiles/sakaluk.html), who has developed the [`dySEM` package](https://jsakaluk.github.io/dySEM/) for his own use, and would now like to refine and extend the package for more general use, ideally working towards submission to our peer-review system.
 John described the usefulness of [`autotest`](https://ropenscilabs.github.io/autotest/) in explicitly revealing aspects of his code which could be improved for more general usage, and in particular that,
 
-> one of the things that's really useful for me here as a self taught and kind of newbie developer is I find myself adding to my kind of package development list almost every time that I open it up in terms of wish listing new functionality. And what's really nice about this [`autotest` tool] is this can help me kind of set some targets for priority items just for kind of tightening up the programming of the existing functions.
+> one of the things that's really useful for me here, as a self taught and newbie developer, is I find myself adding to my package development list almost every time that I open it up in terms of wish listing new functionality. And what's really nice about this [`autotest` tool] is this can help me set some targets for priority items just for tightening up the programming of the existing functions.  -- **John Sakaluk**
 
 [Alex Hayes](https://www.alexpghayes.com/) then described his experiences from initial review of his [`fastadi` package](https://github.com/RoheLab/fastadi), and of the role standards can play in software improvement and assessment, noting in particular the usefulness of standards as contextual "touchpoints" for review.
 
-Here we've organized the video content by speakers and questions, including links to the specific time points in the [video](https://vimeo.com/518761488) as well as to questions and answers in the [collaborative notes document](https://docs.google.com/document/d/1o933nG1ZW2Qf8p7FdQxn8wOkk9qoBINL1fx3FlIFSJU/). 
-We hope that by preparing this summary, more people will be able to benefit from this information.
-
-
 ## Summarizing the community call
+
+Here we've organized the video content by speakers and questions, including links to the specific time points in the [video](https://vimeo.com/518761488) as well as to questions and answers in the [collaborative notes document](https://docs.google.com/document/d/1o933nG1ZW2Qf8p7FdQxn8wOkk9qoBINL1fx3FlIFSJU/). We hope that by preparing this summary, more people will be able to benefit from this information.
+
 
 ### Speakers
 
-- **Anna Krystalli - The Editorial Perspective** ([video](https://vimeo.com/518761488#t=4m00s))
+- **Anna Krystalli - The editorial perspective** ([video](https://vimeo.com/518761488#t=4m00s))
 
-- **Noam Ross - Project Introduction** ([video](https://vimeo.com/518761488#t=7m01s))
+- **Noam Ross - Project introduction** ([video](https://vimeo.com/518761488#t=7m01s))
 
 - **Mark Padgham - Introducing autotest and srr packages** ([video](https://vimeo.com/518761488#t=12m31s))
 
@@ -59,7 +58,7 @@ We hope that by preparing this summary, more people will be able to benefit from
 
 - **Alex Hayes - Using srr while preparing a package for review** ([video](https://vimeo.com/518761488#t=31m23s))
 
-- **Anna Kyrstalli - Moderates Questions** ([video](https://vimeo.com/518761488#t=38m47s))
+- **Anna Kyrstalli - Moderates questions** ([video](https://vimeo.com/518761488#t=38m47s))
 
 
 ### Questions
