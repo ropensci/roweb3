@@ -70,7 +70,7 @@ We hope that by preparing this summary, more people will be able to benefit from
 
 - (Steffi LaZerte) Is autotest applicable to all packages or just statistical packages? ([video](https://vimeo.com/518761488#t=43m11s) | [document](https://docs.google.com/document/d/1o933nG1ZW2Qf8p7FdQxn8wOkk9qoBINL1fx3FlIFSJU/edit#heading=h.4th2qtdafspr))
 
-- (Kieran) What is missing from these package for assessing statistical packages? ([video](https://vimeo.com/518761488#t=44m43s) | [document](https://docs.google.com/document/d/1o933nG1ZW2Qf8p7FdQxn8wOkk9qoBINL1fx3FlIFSJU/edit#heading=h.jk4fef3ixoga))
+- (Kieran Martin) What is missing from these package for assessing statistical packages? ([video](https://vimeo.com/518761488#t=44m43s) | [document](https://docs.google.com/document/d/1o933nG1ZW2Qf8p7FdQxn8wOkk9qoBINL1fx3FlIFSJU/edit#heading=h.jk4fef3ixoga))
 
 - (Joss) We are just beginning to re-code some existing packages - so have the advantage of starting with a blank sheet AND a good specification AND well tested code snippets. We're new to this community - what advice would give on both engagement and coding? ([video](https://vimeo.com/518761488#t=49m07s) | [document](https://docs.google.com/document/d/1o933nG1ZW2Qf8p7FdQxn8wOkk9qoBINL1fx3FlIFSJU/edit#heading=h.fvjzqwqcf88u))
 
