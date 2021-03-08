@@ -25,7 +25,7 @@ output:
 ---
 
 A week ago we held a [Community Call](/commcalls/feb2021-statsreview/) discussing rOpenSci Statistical Software Testing and Peer Review. 
-This call included speakers [Noam Ross](/author/noam-ross/) [Mark Padgham](/author/mark-padgham), [Anna Krystalli](/author/anna-krystalli), [Alex Hayes](/author/alex-hayes) and [John Sakaluk](/author/john-sakaluk). 
+This call included speakers [Noam Ross](/author/noam-ross/), [Mark Padgham](/author/mark-padgham), [Anna Krystalli](/author/anna-krystalli), [Alex Hayes](/author/alex-hayes), and [John Sakaluk](/author/john-sakaluk). 
 
 {{< figure src = "speakers.png" class = "center" width = "600" alt = "Headshots of the moderator and four panelists">}}
 
