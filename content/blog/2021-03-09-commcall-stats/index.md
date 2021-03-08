@@ -64,7 +64,7 @@ We hope that by preparing this summary, more people will be able to benefit from
 
 ### Questions
 
-- (Anna) Suggestion of RStudio addin for srr ([video](https://vimeo.com/518761488#t=38m47s))
+- (Anna Krystalli) Suggestion of RStudio addin for srr ([video](https://vimeo.com/518761488#t=38m47s))
 
 - (Anna) Could we get more detail on what autotest looks for? ([video](https://vimeo.com/518761488#t=39m45s) | [document](https://docs.google.com/document/d/1o933nG1ZW2Qf8p7FdQxn8wOkk9qoBINL1fx3FlIFSJU/edit#heading=h.so3v8xc34myn))
 
@@ -94,4 +94,3 @@ We are particularly keen to help people from underrepresented groups find ways t
 - Informal comments, questions, suggestions 
     - #stats-peer-review channel on rOpenSci Slack 
     - rOpenSci [Statistical Software Peer Review forum](https://discuss.ropensci.org/c/statistical-software-peer-review/28)
-
