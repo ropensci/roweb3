@@ -68,7 +68,7 @@ We hope that by preparing this summary, more people will be able to benefit from
 
 - (Anna) Could we get more detail on what autotest looks for? ([video](https://vimeo.com/518761488#t=39m45s) | [document](https://docs.google.com/document/d/1o933nG1ZW2Qf8p7FdQxn8wOkk9qoBINL1fx3FlIFSJU/edit#heading=h.so3v8xc34myn))
 
-- (Steffi) Is autotest applicable to all packages or just statistical packages? ([video](https://vimeo.com/518761488#t=43m11s) | [document](https://docs.google.com/document/d/1o933nG1ZW2Qf8p7FdQxn8wOkk9qoBINL1fx3FlIFSJU/edit#heading=h.4th2qtdafspr))
+- (Steffi LaZerte) Is autotest applicable to all packages or just statistical packages? ([video](https://vimeo.com/518761488#t=43m11s) | [document](https://docs.google.com/document/d/1o933nG1ZW2Qf8p7FdQxn8wOkk9qoBINL1fx3FlIFSJU/edit#heading=h.4th2qtdafspr))
 
 - (Kieran) What is missing from these package for assessing statistical packages? ([video](https://vimeo.com/518761488#t=44m43s) | [document](https://docs.google.com/document/d/1o933nG1ZW2Qf8p7FdQxn8wOkk9qoBINL1fx3FlIFSJU/edit#heading=h.jk4fef3ixoga))
 
