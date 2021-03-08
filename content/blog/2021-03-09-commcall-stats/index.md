@@ -41,7 +41,7 @@ John described the usefulness of [`autotest`](https://ropenscilabs.github.io/aut
 
 [Alex Hayes](https://www.alexpghayes.com/) then described his experiences from initial review of his [`fastadi` package](https://github.com/RoheLab/fastadi), and of the role standards can play in software improvement and assessment, noting in particular the usefulness of standards as contextual "touchpoints" for review.
 
-Here we've organized the video content by speakers and questions, including links to the specific time points in the [video](https://vimeo.com/518761488) as well as to questions and answers in the [collaborative document](https://docs.google.com/document/d/1o933nG1ZW2Qf8p7FdQxn8wOkk9qoBINL1fx3FlIFSJU/) that we include in every community call. 
+Here we've organized the video content by speakers and questions, including links to the specific time points in the [video](https://vimeo.com/518761488) as well as to questions and answers in the [collaborative notes document](https://docs.google.com/document/d/1o933nG1ZW2Qf8p7FdQxn8wOkk9qoBINL1fx3FlIFSJU/). 
 We hope that by preparing this summary, more people will be able to benefit from this information.
 
 
