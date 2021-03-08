@@ -29,7 +29,7 @@ This call included speakers [Noam Ross](/author/noam-ross/), [Mark Padgham](/aut
 
 {{< figure src = "speakers.png" class = "center" width = "600" alt = "Headshots of the moderator and four panelists">}}
 
-We decided to write this additional blog post to provide a ready reference and description of this community call, which introduced the system being developed for peer review of explicitly statistical software, along with a couple of the automated software tools for use by developers and reviewers of statistical software.
+This post provides a ready reference and description of this community call, which introduced the system being developed for peer review of explicitly statistical software, along with a couple of the automated software tools for use by developers and reviewers of statistical software.
 After an introduction by Stefanie Butland, Anna Krystali gave an overview of the context and importance of our new tools from an editorial perspective.
 Noam Ross then introduced the statistical software review project, members of its advisory board, and the standards-based system which will be used to assess and review statistical software.
 Mark Padgham then briefly described the two main tools intended for use by developers and reviewers: the [`autotest` package](https://ropenscilabs.github.io/autotest/) for automated testing of software to ensure robust responses to unexpected inputs throughout development, and the [`srr` (**s**oftware **r**eview **r**oclets) package](https://ropenscilabs.github.io/srr/) for documenting within code itself how and where it complies with both general and category-specific standards for statistical software.
