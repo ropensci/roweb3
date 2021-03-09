@@ -33,7 +33,8 @@ Imports:
     withr,
     xml2,
     yaml,
-    snakecase
+    snakecase,
+    magick
 Remotes: 
     sckott/discgolf
 Encoding: UTF-8
