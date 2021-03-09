@@ -76,7 +76,7 @@ get_info <- function(id, packages = packages) {
        date = as.character(as.Date(topic$created_at)))
 }
 
-topics <- purrr::map(usecases_ids, get_info)
+topics <- purrr::map(usecases_ids, get_info, packages = packages)
 
 jsonlite::write_json(
   topics, 
