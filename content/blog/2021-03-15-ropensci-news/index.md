@@ -26,7 +26,7 @@ Now let's dive into the activity at and around rOpenSci!
 
 Our R-universe project now has [its own page on our website](/r-universe/)! :rocket:
 
-Regarding another exciting project of ours... We've run the first comm call of our series on [statistical software review project](/stat-software-review/)! [rOpenSci Statistical Software Testing and Peer Review](/commcalls/feb2021-statsreview/) took place on March the 2d. The video recording (including closed captions) and resources have been posted.
+Regarding another exciting project of ours... We've run the first comm call of our series on the [statistical software review project](/stat-software-review/)! [rOpenSci Statistical Software Testing and Peer Review](/commcalls/feb2021-statsreview/) took place on March 2nd. The video recording (including closed captions) and resources as well as a summary have been [posted](/blog/2021/03/09/commcall-stats/).
 
 Find out about more [events](/events).
 
@@ -129,7 +129,7 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 
 
-Below are the citations recently added to our database of 1255 articles, that you can explore on our [citations page](/citations).
+Below are the citations recently added to our database of 1254 articles, that you can explore on our [citations page](/citations).
 We found use of...
 
 * [**baRcodeR**](https://docs.ropensci.org/baRcodeR) in Walker, V. K., Das, P., Li, P., Lougheed, S. C., Moniz, K., Schott, S., … Koch, I. (2020). Identification of Arctic Food Fish Species for Anthropogenic Contaminant Testing Using Geography and Genetics. Foods, 9(12), 1824. <https://doi.org/10.3390/foods9121824>
@@ -182,8 +182,6 @@ We found use of...
 
 * [**rtweet**](https://docs.ropensci.org/rtweet) in Bittermann, A., Batzdorfer, V., Müller, S. M., & Steinmetz, H. (2021). Mining Twitter to detect hotspots in psychology. Zeitschrift für Psychologie. <https://www.psycharchives.org/bitstream/20.500.12034/3956/1/ESM%201_methods.pdf>
 
-* [**stats19**](https://docs.ropensci.org/stats19) in Aguero-Valverde, J., & Jovanis, P. P. (2008). Analysis of Road Crash Frequency with Spatial Models. Transportation Research Record: Journal of the Transportation Research Board, 2061(1), 55–63. <https://doi.org/10.3141/2061-07>
-
 * [**stplanr**](https://docs.ropensci.org/stplanr) in Fitzgerald, D. B., Henderson, A. R., Maloney, K. O., Freeman, M. C., Young, J. A., Rosenberger, A. E., … Smith, D. R. (2021). A Bayesian framework for assessing extinction risk based on ordinal categories of population condition and projected landscape change. Biological Conservation, 253, 108866. <https://doi.org/10.1016/j.biocon.2020.108866>
 
 * [**taxize**](https://docs.ropensci.org/taxize) in Freiberg, M., Winter, M., Gentile, A., Zizka, A., Muellner-Riehl, A. N., Weigelt, A., & Wirth, C. (2020). LCVP, The Leipzig catalogue of vascular plants, a new taxonomic reference list for all known vascular plants. Scientific Data, 7(1). <https://doi.org/10.1038/s41597-020-00702-z>
@@ -226,7 +224,7 @@ Nine use cases of our packages and resources have been reported since the 1st of
 
 Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)!
 
-## Call For maintainers
+## Call for maintainers
 
 There's no open call for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
 As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter.
@@ -269,6 +267,6 @@ For more resources around CRAN, see [Isabella Velásquez's post "You CRAN Do It,
 
 ## Last words
 
-Thanks for reading! If you want to want to get involved with rOpenSci, check out our [Contributing Guide](https://contributing.ropensci.org) that can help direct you to the right place, whether you want to make code contributions, non-code contributions, or other things like sharing use cases.
+Thanks for reading! If you want to get involved with rOpenSci, check out our [Contributing Guide](https://contributing.ropensci.org) that can help direct you to the right place, whether you want to make code contributions, non-code contributions, or contribute in other ways like sharing use cases.
 
 If you haven't subscribed to our newsletter yet, you can [do so via a form](/news/). Until it's time for our next newsletter, you can keep in touch with us via our [website](/) and [Twitter account](https://twitter.com/ropensci).
