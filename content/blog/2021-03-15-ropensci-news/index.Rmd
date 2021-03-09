@@ -73,21 +73,23 @@ registry <- "https://raw.githubusercontent.com/ropensci/roregistry/gh-pages/regi
   purrr::pluck("packages") %>%
   purrr::map_df(tidy_package)
   
+since <- lubridate::as_date(last_newsletter) - 1
+until <- lubridate::as_date(last_newsletter) + 1
 commits <- gh::gh(
   "GET /repos/{owner}/{repo}/commits",
   owner = "ropensci",
   repo = "roregistry",
   since = sprintf(
     "%s-%s-%sT00:00:00Z",
-    lubridate::year(last_newsletter),
-    stringr::str_pad(lubridate::month(last_newsletter), 2, "0", side = "left"),
-    stringr::str_pad(lubridate::day(last_newsletter) - 1, 2, "0", side = "left")
+    lubridate::year(since),
+    stringr::str_pad(lubridate::month(since), 2, "0", side = "left"),
+    stringr::str_pad(lubridate::day(since), 2, "0", side = "left")
   ),
   until = sprintf(
     "%s-%s-%sT00:00:00Z",
-    lubridate::year(last_newsletter),
-    stringr::str_pad(lubridate::month(last_newsletter), 2, "0", side = "left"),
-    stringr::str_pad(lubridate::day(last_newsletter) + 1, 2, "0", side = "left")
+    lubridate::year(until),
+    stringr::str_pad(lubridate::month(until), 2, "0", side = "left"),
+    stringr::str_pad(lubridate::day(until), 2, "0", side = "left")
   )
 )
 
@@ -467,7 +469,26 @@ if (length(tech_notes) > 0) {
 
 ```{r citations}
 citations <- jsonlite::read_json("https://ropensci-org.github.io/ropensci_citations/citations_all_parts_clean.json")
-years <- purrr::map_chr(citations, "year")
+since <- lubridate::as_date(last_newsletter) - 1
+commits <- gh::gh(
+  "GET /repos/{owner}/{repo}/commits",
+  owner = "ropensci-org",
+  repo = "ropensci_citations",
+  since = sprintf(
+    "%s-%s-%sT00:00:00Z",
+    lubridate::year(since),
+    stringr::str_pad(lubridate::month(since), 2, "0", side = "left"),
+    stringr::str_pad(lubridate::day(since), 2, "0", side = "left")
+  )
+)
+old_commit <- gh::gh("/repos/{owner}/{repo}/commits/{ref}",
+  owner = "ropensci-org",
+  repo = "ropensci_citations",
+  ref = commits[[length(commits)]]$sha
+  )
+old <- "https://raw.githubusercontent.com/ropensci-org/ropensci_citations/%s/citations_all_parts_clean.json" %>%
+    sprintf(old_commit$sha) %>%
+    jsonlite::read_json() 
 ```
 
 So far we found `r sum(years==lubridate::year(last_newsletter))` citations of our packages for `r lubridate::year(last_newsletter)`. 
