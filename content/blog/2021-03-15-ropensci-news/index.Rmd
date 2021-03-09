@@ -6,7 +6,7 @@ author:
 date: '2021-03-15'
 tags:
   - newsletter
-description: keywords bla
+description: R-universe page, Statistical software review comm call, new packages and package news.
 output:
   html_document:
     keep_md: yes
@@ -561,10 +561,6 @@ cat(
 
 Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)!
 
-## From the forum
-
-TO BE CURATED BY HAND
-
 ## Call For maintainers
 
 There's no open call for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
@@ -582,12 +578,29 @@ As the maintainer of an rOpenSci package, feel free to contact us on Slack or em
 
 Some useful tips for R package developers. :eyes:
 
-Do you have some questions around licensing of your R package?
+Do you have some questions around **licensing of your R package**?
 The [license chapter](https://r-pkgs.org/license.html) of the R packages book by Hadley Wickham and Jenny Bryan was [recently](https://twitter.com/hadleywickham/status/1307338435976364032) updated.
 A less recent but interesting read is [Colin Fay's Licensing R e-book](https://thinkr-open.github.io/licensing-r/index.html).
 
-Encoding can also be a tricky topic for package developers.
+**Encoding** can also be a tricky topic for package developers.
 Useful resources include [Kevin Ushey's blog post "String encoding and R"](http://kevinushey.github.io/blog/2018/02/21/string-encoding-and-r/), [Irene Steves' blog post "Encoding in R"](https://irene.rbind.io/post/encoding-in-r/), searching for encoding in ["Writing R Extensions"](https://cran.r-project.org/doc/manuals/r-release/R-exts.html#Encoding) (e.g. "_If the DESCRIPTION file is not entirely in ASCII it should contain an ‘Encoding’ field specifying an encoding. This is used as the encoding of the DESCRIPTION file itself and of the R and NAMESPACE files, and as the default encoding of .Rd files._"), some [threads of R-package-devel](https://www.mail-archive.com/r-package-devel@r-project.org/msg06536.html).
+
+Afraid to forget something when you **submit your package to CRAN**?
+A check list could help!
+You can use [`usethis::use_release_issue()`](https://usethis.r-lib.org/reference/use_release_issue.html), [number one "secret" [of the tidyverse team] for avoiding multiple rounds of review with CRAN](https://twitter.com/hadleywickham/status/1359852335330164737).
+Now, if you want to add your own specific bullet e.g. ["Update my brag document"](https://jvns.ca/blog/brag-documents/) or ["Consider writing a tech note for rOpenSci blog"](https://blogguide.ropensci.org/index.html), you can add an [unexported `release_bullets()` function](https://github.com/r-lib/usethis/issues/1183) returning a character vector to your package.
+
+```r
+release_bullets <- function() {
+  c(
+    "Update my brag document.",
+    "Contact rOpenSci blog editors to schedule a tech note."
+  )
+}
+```
+
+For inspiration you can search the [CRAN mirror maintained by R-hub](https://github.com/search?p=2&q=release_bullets&type=Code).
+For more resources around CRAN, see [Isabella Velásquez's post "You CRAN Do It, What CRAN First-Timers Should Know"](https://ivelasq.rbind.io/blog/you-cran-do-it/).
 
 ## Last words
 
