@@ -264,7 +264,7 @@ release_bullets <- function() {
 }
 ```
 
-For inspiration you can search the [CRAN mirror maintained by R-hub](https://github.com/search?p=2&q=release_bullets&type=Code).
+For inspiration you can search the [CRAN mirror maintained by R-hub](https://github.com/search?q=release_bullets+user%3Acran&type=Code).
 For more resources around CRAN, see [Isabella Velásquez's post "You CRAN Do It, What CRAN First-Timers Should Know"](https://ivelasq.rbind.io/blog/you-cran-do-it/).
 
 ## Last words
