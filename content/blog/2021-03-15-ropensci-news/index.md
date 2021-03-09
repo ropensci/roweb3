@@ -17,7 +17,6 @@ params:
 
 
 Dear rOpenSci friends, it's time for our monthly news roundup!
-Yes, the latest one was on 2021-02-08.
 Some housekeeping first:
 We've been changing the infrastructure of our newsletter a bit so please update your RSS and JSON feeds to `https://ropensci.org/tags/newsletter/index.xml` and `https://ropensci.org/tags/newsletter/index.json`, respectively.
 You can read this post [on our blog](/blog/2021/03/15/ropensci-news).
@@ -29,7 +28,7 @@ Our R-universe project now has its own page on our website! :rocket:
 
 Regarding another exciting project of ours... We've run the first comm call of our series on [statistical software review project](/stat-software-review/)! [rOpenSci Statistical Software Testing and Peer Review](/commcalls/feb2021-statsreview/) took place on March the 2d. The video recording (including closed captions) and resources have bee posted.
 
-Find out more [events](/events).
+Find out about more [events](/events).
 
 ## Software :package:
 
@@ -110,11 +109,11 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 ### Software Review
 
-* [coder Makes Medical Coding less Messy](/blog/2021/02/09/coder) by Erik Bülow. The coder package helps to summarize and interpret (medical) coding in R (think ICD, ATC and more).{{< figure src="/blog/2021/02/09/coder/hex.png" alt="Hex sticker for the coder package" width="400" >}}
+* [coder Makes Medical Coding less Messy](/blog/2021/02/09/coder) by Erik Bülow. The coder package helps to summarize and interpret (medical) coding in R (think ICD, ATC and more).{{< figure src="hex.png" alt="Hex sticker for the coder package" width="400" >}}
 
 
 
-* [rOpenSci Dev Guide 0.6.0: Updates](/blog/2021/02/23/devguide-0.6.0) by Maëlle Salmon, Brooke Anderson, Laura DeCicco, Julia Gustavsen, Anna Krystalli, Mauro Lepore, Karthik Ram, Noam Ross, Melina Vidoni. Updates in version 0.6.0 of the online book 'rOpenSci Packages: Development, Maintenance, and Peer Review rOpenSci Packages: Development, Maintenance, and Peer Review'.{{< figure src="/img/blog-images/2019-05-16-dev-guide-update/cover.png" alt="" width="400" >}}
+* [rOpenSci Dev Guide 0.6.0: Updates](/blog/2021/02/23/devguide-0.6.0) by Maëlle Salmon, Brooke Anderson, Laura DeCicco, Julia Gustavsen, Anna Krystalli, Mauro Lepore, Karthik Ram, Noam Ross, Melina Vidoni. Updates in version 0.6.0 of the online book 'rOpenSci Packages: Development, Maintenance, and Peer Review rOpenSci Packages: Development, Maintenance, and Peer Review'.{{< figure src="cover.png" alt="" width="400" >}}
 
 
 
@@ -132,8 +131,75 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 
 
-So far we found 14 citations of our packages for 2021. 
-In total our database contains 1255 citations that you can explore on our [citations page](/citations).
+Below are the citations recently added to our database of 1255 articles, that you can explore on our [citations page](/citations).
+We found use of...
+
+* [**baRcodeR**](https://docs.ropensci.org/baRcodeR) in Walker, V. K., Das, P., Li, P., Lougheed, S. C., Moniz, K., Schott, S., … Koch, I. (2020). Identification of Arctic Food Fish Species for Anthropogenic Contaminant Testing Using Geography and Genetics. Foods, 9(12), 1824. <https://doi.org/10.3390/foods9121824>
+
+* [**CoordinateCleaner**](https://docs.ropensci.org/CoordinateCleaner), [**rnaturalearth**](https://docs.ropensci.org/rnaturalearth) in Farooq, H., Azevedo, J. A. R., Soares, A., Antonelli, A., & Faurby, S. (2020). Mapping Africa’s Biodiversity: More of the Same Is Just Not Good Enough. Systematic Biology. <https://doi.org/10.1093/sysbio/syaa090>
+
+* [**magick**](https://docs.ropensci.org/magick) in Ball, J. (2020). Food Classification with Convolutional Neural Networks and Multi-Class Linear Discernment Analysis. arXiv preprint arXiv:2012.03170. <https://arxiv.org/pdf/2012.03170>
+
+* [**magick**](https://docs.ropensci.org/magick) in Hillary, R. F., & Marioni, R. E. (2020). MethylDetectR: a software for methylation-based health profiling. Wellcome Open Research, 5, 283. <https://doi.org/10.12688/wellcomeopenres.16458.1>
+
+* [**magick**](https://docs.ropensci.org/magick) in Liang, X., Hu, Y., Yan, C., & Xu, K. (2020). i2d: an R package for simulating data from images and the implications in biomedical research. Bioinformatics. <https://doi.org/10.1093/bioinformatics/btaa991>
+
+* [**magick**](https://docs.ropensci.org/magick) in Loser, D., Schaefer, J., Danker, T., Möller, C., Brüll, M., Suciu, I., … Kraushaar, U. (2020). Human neuronal signaling and communication assays to assess functional neurotoxicity. Archives of Toxicology, 95(1), 229–252. <https://doi.org/10.1007/s00204-020-02956-3>
+
+* [**magick**](https://docs.ropensci.org/magick) in Wang, J., Wang, X., Gao, Y., Lin, Z., Chen, J., Gigantelli, J., … Pierre, S. V. (2020). Stress Signal Regulation by Na/K-ATPase As a New Approach to Promote Physiological Revascularization in a Mouse Model of Ischemic Retinopathy. Investigative Opthalmology & Visual Science, 61(14), 9. <https://doi.org/10.1167/iovs.61.14.9>
+
+* [**NLMR**](https://docs.ropensci.org/NLMR) in Braziunas, K. H., Seidl, R., Rammer, W., & Turner, M. G. (2020). Can we manage a future with more fire? Effectiveness of defensible space treatment depends on housing amount and configuration. Landscape Ecology, 36(2), 309–330. <https://doi.org/10.1007/s10980-020-01162-x>
+
+* [**osmdata**](https://docs.ropensci.org/osmdata) in Padgham, M., Lovelace, R., Salmon, M., & Rudis, B. (2017). osmdata. The Journal of Open Source Software, 2(14), 305. <https://doi.org/10.21105/joss.00305>
+
+* [**pdftools**](https://docs.ropensci.org/pdftools) in Li, B., Trueman, B. F., Rahman, M. S., & Gagnon, G. A. (2021). Controlling lead release due to uniform and galvanic corrosion — An evaluation of silicate-based inhibitors. Journal of Hazardous Materials, 407, 124707. <https://doi.org/10.1016/j.jhazmat.2020.124707>
+
+* [**phylotaR**](https://docs.ropensci.org/phylotaR) in Crespo, L. C., Silva, I., Enguídanos, A., Cardoso, P., & Arnedo, M. A. (2020). Integrative taxonomic revision of the woodlouse-hunter spider genus Dysdera (Araneae: Dysderidae) in the Madeira archipelago with notes on its conservation status. Zoological Journal of the Linnean Society. <https://doi.org./10.1093/zoolinnean/zlaa089>
+
+* [**refsplitr**](https://docs.ropensci.org/refsplitr) in Smith, T. B., Vacca, R., Krenz, T., & McCarty, C. (2021). Great minds think alike, or do they often differ? Research topic overlap and the formation of scientific teams. Journal of Informetrics, 15(1), 101104. <https://doi.org/10.1016/j.joi.2020.101104>
+
+* [**rfishbase**](https://docs.ropensci.org/rfishbase) in Gandra, M., Assis, J., Martins, M. R., & Abecasis, D. (2020). Reduced Global Genetic Differentiation of Exploited Marine Fish Species. Molecular Biology and Evolution. <https://doi.org/10.1093/molbev/msaa299>
+
+* [**rfishbase**](https://docs.ropensci.org/rfishbase) in Kopf, R. K., Yen, J. D. L., Nimmo, D. G., Brosse, S., & Villéger, S. (2020). Global patterns and predictors of trophic position, body size and jaw size in fishes. Global Ecology and Biogeography, 30(2), 414–428. <https://doi.org/10.1111/geb.13227>
+
+* [**rgbif**](https://docs.ropensci.org/rgbif) in Ludt, W. B., & Myers, C. E. (2020). Distinguishing between dispersal and vicariance: A novel approach using anti‐tropical taxa across the fish Tree of Life. Journal of Biogeography, 48(3), 577–589. <https://doi.org/10.1111/jbi.14021>
+
+* [**rgbif**](https://docs.ropensci.org/rgbif) in Mayani-Parás, F., Botello, F., Castañeda, S., Munguía-Carrara, M., & Sánchez-Cordero, V. (2021). Cumulative habitat loss increases conservation threats on endemic species of terrestrial vertebrates in Mexico. Biological Conservation, 253, 108864. <https://doi.org/10.1016/j.biocon.2020.108864>
+
+* [**rgbif**](https://docs.ropensci.org/rgbif) in Pons, J., Campión, D., Chiozzi, G., Ettwein, A., Grangé, J., Kajtoch, Ł., … Fuchs, J. (2020). Phylogeography of a widespread Palaearctic forest bird species: The White‐backed Woodpecker (Aves, Picidae). Zoologica Scripta, 50(2), 155–172. <https://doi.org/10.1111/zsc.12466>
+
+* [**rgbif**](https://docs.ropensci.org/rgbif) in Zonneveld, M., Kindt, R., Solberg, S. Ø., N’Danikou, S., & Dawson, I. K. (2020). Diversity and conservation of traditional African vegetables: Priorities for action. Diversity and Distributions, 27(2), 216–232. <https://doi.org/10.1111/ddi.13188>
+
+* [**rnaturalearth**](https://docs.ropensci.org/rnaturalearth) in Rose Vineer, H., Morgan, E. R., Hertzberg, H., Bartley, D. J., Bosco, A., Charlier, J., … Rinaldi, L. (2020). Increasing importance of anthelmintic resistance in European livestock: creation and meta-analysis of an open database. Parasite, 27, 69. <https://doi.org/10.1051/parasite/2020062>
+
+* [**rnaturalearthdata**](https://docs.ropensci.org/rnaturalearthdata), [**rnaturalearth**](https://docs.ropensci.org/rnaturalearth) in Bennie, J. A., De Cocker, K., Smith, J. J., & Wiesner, G. H. (2020). The epidemiology of muscle-strengthening exercise in Europe: A 28-country comparison including 280,605 adults. PLOS ONE, 15(11), e0242220. <https://doi.org/10.1371/journal.pone.0242220>
+
+* [**rnoaa**](https://docs.ropensci.org/rnoaa) in Dumitrescu, L., & Schiopu-Kratina, I. (2021). Asymptotic results with estimating equations for time-evolving clustered data. Journal of Statistical Planning and Inference. arXiv preprint. <https://arxiv.org/pdf/2011.14017>
+
+* [**ropenaq**](https://docs.ropensci.org/ropenaq) in Le, V. V., Huynh, T. T., Ölçer, A., Hoang, A. T., Le, A. T., Nayak, S. K., & Pham, V. V. (2020). A remarkable review of the effect of lockdowns during COVID-19 pandemic on global PM emissions. Energy Sources, Part A: Recovery, Utilization, and Environmental Effects, 1–16. <https://doi.org/10.1080/15567036.2020.1853854>
+
+* [**rotl**](https://docs.ropensci.org/rotl) in Dániel-Ferreira, J., Bommarco, R., Wissman, J., & Öckinger, E. (2020). Linear infrastructure habitats increase landscape-scale diversity of plants but not of flower-visiting insects. Scientific Reports, 10(1). <https://doi.org/10.1038/s41598-020-78090-y>
+
+* [**rotl**](https://docs.ropensci.org/rotl) in Kunc, H. P., & Schmidt, R. (2020). Species sensitivities to a global pollutant: A meta‐analysis on acoustic signals in response to anthropogenic noise. Global Change Biology, 27(3), 675–688. <https://doi.org/10.1111/gcb.15428>
+
+* [**rtweet**](https://docs.ropensci.org/rtweet) in Bittermann, A., Batzdorfer, V., Müller, S. M., & Steinmetz, H. (2021). Mining Twitter to detect hotspots in psychology. Zeitschrift für Psychologie. <https://www.psycharchives.org/bitstream/20.500.12034/3956/1/ESM%201_methods.pdf>
+
+* [**stats19**](https://docs.ropensci.org/stats19) in Aguero-Valverde, J., & Jovanis, P. P. (2008). Analysis of Road Crash Frequency with Spatial Models. Transportation Research Record: Journal of the Transportation Research Board, 2061(1), 55–63. <https://doi.org/10.3141/2061-07>
+
+* [**stplanr**](https://docs.ropensci.org/stplanr) in Fitzgerald, D. B., Henderson, A. R., Maloney, K. O., Freeman, M. C., Young, J. A., Rosenberger, A. E., … Smith, D. R. (2021). A Bayesian framework for assessing extinction risk based on ordinal categories of population condition and projected landscape change. Biological Conservation, 253, 108866. <https://doi.org/10.1016/j.biocon.2020.108866>
+
+* [**taxize**](https://docs.ropensci.org/taxize) in Freiberg, M., Winter, M., Gentile, A., Zizka, A., Muellner-Riehl, A. N., Weigelt, A., & Wirth, C. (2020). LCVP, The Leipzig catalogue of vascular plants, a new taxonomic reference list for all known vascular plants. Scientific Data, 7(1). <https://doi.org/10.1038/s41597-020-00702-z>
+
+* [**tesseract**](https://docs.ropensci.org/tesseract) in Candarli, D. (2020). A longitudinal study of multi-word constructions in L2 academic writing: the effects of frequency and dispersion. Reading and Writing. <https://doi.org/10.1007/s11145-020-10108-3>
+
+* [**treeio**](https://docs.ropensci.org/treeio) in Chak, S. T. C., Baeza, J. A., & Barden, P. (2020). Eusociality Shapes Convergent Patterns of Molecular Evolution across Mitochondrial Genomes of Snapping Shrimps. Molecular Biology and Evolution. <https://doi.org/10.1093/molbev/msaa297>
+
+* [**treeio**](https://docs.ropensci.org/treeio) in Wagner, E., Zaiser, A., Leitner, R., Quijada, N. M., Pracser, N., Pietzka, A., … Rychli, K. (2020). Virulence characterization and comparative genomics of Listeria monocytogenes sequence type 155 strains. BMC Genomics, 21(1). <https://doi.org/10.1186/s12864-020-07263-w>
+
+* [**UCSCXenaTools**](https://docs.ropensci.org/UCSCXenaTools) in Gvaldin, D. Y., Pushkin, A. A., Timoshkina, N. N., Rostorguev, E. E., Nalgiev, A. M., & Kit, O. I. (2020). Integrative analysis of mRNA and miRNA sequencing data for gliomas of various grades. Egyptian Journal of Medical Human Genetics, 21(1). <https://doi.org/10.1186/s43042-020-00119-8>
+
+* **monkeylearn** in Dawson, H. A., & Allison, M. (2021). Requirements for Autonomous Underwater Vehicles (AUVs) for scientific data collection in the Laurentian Great Lakes: A questionnaire survey. Journal of Great Lakes Research, 47(1), 259–265. <https://doi.org/10.1016/j.jglr.2020.11.004>
+
 Thank you for citing our tools!
 
 ## Use cases
@@ -168,7 +234,8 @@ TO BE CURATED BY HAND
 
 ## Call For maintainers
 
-TO BE CURATED BY HAND
+There's no open call for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
+As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter.
 
 <!--IF CALL
 * [our guidance on _Changing package maintainers_](https://devguide.ropensci.org/changing-maintainers.html)
@@ -176,7 +243,7 @@ TO BE CURATED BY HAND
 
 IF NO CALL
 There's no open call for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
-As a maintainer, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. -->
+As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. -->
 
 ## Package development corner
 

@@ -32,7 +32,6 @@ english <- function(x) {
 ```
 
 Dear rOpenSci friends, it's time for our monthly news roundup!
-Yes, the latest one was on `r as.character(last_newsletter)`.
 Some housekeeping first:
 We've been changing the infrastructure of our newsletter a bit so please update your RSS and JSON feeds to `https://ropensci.org/tags/newsletter/index.xml` and `https://ropensci.org/tags/newsletter/index.json`, respectively.
 You can read this post [on our blog](`r url`).
@@ -44,7 +43,7 @@ Our R-universe project now has its own page on our website! :rocket:
 
 Regarding another exciting project of ours... We've run the first comm call of our series on [statistical software review project](/stat-software-review/)! [rOpenSci Statistical Software Testing and Peer Review](/commcalls/feb2021-statsreview/) took place on March the 2d. The video recording (including closed captions) and resources have bee posted.
 
-Find out more [events](/events).
+Find out about more [events](/events).
 
 ## Software :package:
 
@@ -415,9 +414,12 @@ format_post <- function(post) {
   }
   
   if (post$twitterImg != "") {
+    img_file <- fs::path_file(post$twitterImg)
+    download.file(sprintf("https://ropensci.org/%s", post$twitterImg), img_file)
+    img_file %>% magick::image_read() %>% magick::image_scale("400x") %>% magick::image_write(img_file)
     string <- paste0(
       string,
-      sprintf('{{< figure src="/%s" alt="%s" width="400" >}}\n\n', post$twitterImg, post$twitterAlt)
+      sprintf('{{< figure src="%s" alt="%s" width="400" >}}\n\n', img_file, post$twitterAlt)
     )
   }
   
@@ -467,8 +469,14 @@ if (length(tech_notes) > 0) {
 
 ## Citations
 
-```{r citations}
+```{r cit}
 citations <- jsonlite::read_json("https://ropensci-org.github.io/ropensci_citations/citations_all_parts_clean.json")
+```
+
+Below are the citations recently added to our database of `r length(citations)` articles, that you can explore on our [citations page](/citations).
+We found use of...
+
+```{r citations, results = "asis"}
 since <- lubridate::as_date(last_newsletter) - 1
 commits <- gh::gh(
   "GET /repos/{owner}/{repo}/commits",
@@ -484,15 +492,37 @@ commits <- gh::gh(
 old_commit <- gh::gh("/repos/{owner}/{repo}/commits/{ref}",
   owner = "ropensci-org",
   repo = "ropensci_citations",
-  ref = commits[[length(commits)]]$sha
+  ref = commits[[length(commits)]]$parents[[1]]$sha
   )
 old <- "https://raw.githubusercontent.com/ropensci-org/ropensci_citations/%s/citations_all_parts_clean.json" %>%
     sprintf(old_commit$sha) %>%
     jsonlite::read_json() 
+
+new <- citations[length(old):length(citations)]
+
+format_package <- function(package, packages = packages) {
+  if (package %in% packages) {
+    package <- sprintf("[**%s**](https://docs.ropensci.org/%s)", package, package)
+  } else {
+    package <- sprintf("**%s**", package)
+  }
+  package
+}
+
+format_one <- function(citation, packages) {
+  packages <- toString(purrr::map_chr(citation$name, format_package, packages = packages))
+  sprintf("* %s in %s\n\n", packages, citation$citation)
+}
+
+cat(
+  paste0(
+    sort(purrr::map_chr(new, format_one, packages = registry$package)),
+    collapse = ""
+  )
+)
+
 ```
 
-So far we found `r sum(years==lubridate::year(last_newsletter))` citations of our packages for `r lubridate::year(last_newsletter)`. 
-In total our database contains `r length(citations)` citations that you can explore on our [citations page](/citations).
 Thank you for citing our tools!
 
 ## Use cases
@@ -537,7 +567,8 @@ TO BE CURATED BY HAND
 
 ## Call For maintainers
 
-TO BE CURATED BY HAND
+There's no open call for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
+As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter.
 
 <!--IF CALL
 * [our guidance on _Changing package maintainers_](https://devguide.ropensci.org/changing-maintainers.html)
@@ -545,7 +576,7 @@ TO BE CURATED BY HAND
 
 IF NO CALL
 There's no open call for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
-As a maintainer, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. -->
+As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. -->
 
 ## Package development corner
 
