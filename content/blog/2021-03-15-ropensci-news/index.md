@@ -6,7 +6,7 @@ author:
 date: '2021-03-15'
 tags:
   - newsletter
-description: keywords bla
+description: R-universe page, Statistical software review comm call, new packages and package news.
 output:
   html_document:
     keep_md: yes
@@ -24,7 +24,7 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-Our R-universe project now has its own page on our website! :rocket:
+Our R-universe project now has [its own page on our website](/r-universe/)! :rocket:
 
 Regarding another exciting project of ours... We've run the first comm call of our series on [statistical software review project](/stat-software-review/)! [rOpenSci Statistical Software Testing and Peer Review](/commcalls/feb2021-statsreview/) took place on March the 2d. The video recording (including closed captions) and resources have bee posted.
 
@@ -47,7 +47,7 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following twelve packages have had an update since the latest newsletter: [crul](https://docs.ropensci.org/crul "HTTP Client") ([`v1.1.0`](https://github.com/ropensci/crul/releases/tag/v1.1.0)), [eia](https://docs.ropensci.org/eia "API Wrapper for US Energy Information Administration Open Data") ([`v0.3.7`](https://github.com/ropensci/eia/releases/tag/v0.3.7)), [epubr](https://docs.ropensci.org/epubr "Read EPUB File Metadata and Text") ([`v0.6.2`](https://github.com/ropensci/epubr/releases/tag/v0.6.2)), [fulltext](https://docs.ropensci.org/fulltext "Full Text of Scholarly Articles Across Many Data Sources") ([`v1.7.0`](https://github.com/ropensci/fulltext/releases/tag/v1.7.0)), [opencage](https://docs.ropensci.org/opencage "Geocode with the OpenCage API") ([`v0.2.2`](https://github.com/ropensci/opencage/releases/tag/v0.2.2)), [osmextract](https://docs.ropensci.org/osmextract "Download and Read OpenStreetMap Data Extracts") ([`v0.2.1`](https://github.com/ropensci/osmextract/releases/tag/v0.2.1)), [parzer](https://docs.ropensci.org/parzer "Parse Messy Geographic Coordinates") ([`v0.4.0`](https://github.com/ropensci/parzer/releases/tag/v0.4.0)), [rinat](https://docs.ropensci.org/rinat "Access iNaturalist Data Through APIs") ([`v0.1.7`](https://github.com/ropensci/rinat/releases/tag/v0.1.7)), [rnoaa](https://docs.ropensci.org/rnoaa "NOAA Weather Data from R") ([`v1.3.2`](https://github.com/ropensci/rnoaa/releases/tag/v1.3.2)), [rplos](https://docs.ropensci.org/rplos "Interface to the Search API for PLoS Journals") ([`v1.0.0`](https://github.com/ropensci/rplos/releases/tag/v1.0.0)), [terrainr](https://docs.ropensci.org/terrainr "Landscape Visualizations in R and Unity") ([`v0.3.1`](https://github.com/ropensci/terrainr/releases/tag/v0.3.1)), [tiler](https://docs.ropensci.org/tiler "Create Geographic and Non-Geographic Map Tiles") ([`v0.2.5`](https://github.com/ropensci/tiler/releases/tag/v0.2.5)).
+The following sixteen packages have had an update since the latest newsletter: [crul](https://docs.ropensci.org/crul "HTTP Client") ([`v1.1.0`](https://github.com/ropensci/crul/releases/tag/v1.1.0)), [eia](https://docs.ropensci.org/eia "API Wrapper for US Energy Information Administration Open Data") ([`v0.3.7`](https://github.com/ropensci/eia/releases/tag/v0.3.7)), [epubr](https://docs.ropensci.org/epubr "Read EPUB File Metadata and Text") ([`v0.6.2`](https://github.com/ropensci/epubr/releases/tag/v0.6.2)), [fulltext](https://docs.ropensci.org/fulltext "Full Text of Scholarly Articles Across Many Data Sources") ([`v1.7.0`](https://github.com/ropensci/fulltext/releases/tag/v1.7.0)), [opencage](https://docs.ropensci.org/opencage "Geocode with the OpenCage API") ([`v0.2.2`](https://github.com/ropensci/opencage/releases/tag/v0.2.2)), [osmextract](https://docs.ropensci.org/osmextract "Download and Read OpenStreetMap Data Extracts") ([`v0.2.1`](https://github.com/ropensci/osmextract/releases/tag/v0.2.1)), [parzer](https://docs.ropensci.org/parzer "Parse Messy Geographic Coordinates") ([`v0.4.0`](https://github.com/ropensci/parzer/releases/tag/v0.4.0)), [phonfieldwork](https://docs.ropensci.org/phonfieldwork "Linguistic Phonetic Fieldwork Tools") ([`v0.0.11`](https://github.com/ropensci/phonfieldwork/releases/tag/v0.0.11)), [rerddap](https://docs.ropensci.org/rerddap "General Purpose Client for ERDDAP Servers") ([`v0.7.4`](https://github.com/ropensci/rerddap/releases/tag/v0.7.4)), [rinat](https://docs.ropensci.org/rinat "Access iNaturalist Data Through APIs") ([`v0.1.7`](https://github.com/ropensci/rinat/releases/tag/v0.1.7)), [rnoaa](https://docs.ropensci.org/rnoaa "NOAA Weather Data from R") ([`v1.3.2`](https://github.com/ropensci/rnoaa/releases/tag/v1.3.2)), [rplos](https://docs.ropensci.org/rplos "Interface to the Search API for PLoS Journals") ([`v1.0.0`](https://github.com/ropensci/rplos/releases/tag/v1.0.0)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.1.0`](https://github.com/ropensci/tarchetypes/releases/tag/0.1.0)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Workflows") ([`0.2.0`](https://github.com/ropensci/targets/releases/tag/0.2.0)), [terrainr](https://docs.ropensci.org/terrainr "Landscape Visualizations in R and Unity") ([`v0.3.1`](https://github.com/ropensci/terrainr/releases/tag/v0.3.1)), [tiler](https://docs.ropensci.org/tiler "Create Geographic and Non-Geographic Map Tiles") ([`v0.2.5`](https://github.com/ropensci/tiler/releases/tag/v0.2.5)).
 
 We are only listing the most recent version.
 
@@ -228,10 +228,6 @@ Nine use cases of our packages and resources have been reported since the 1st of
 
 Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)!
 
-## From the forum
-
-TO BE CURATED BY HAND
-
 ## Call For maintainers
 
 There's no open call for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
@@ -249,12 +245,29 @@ As the maintainer of an rOpenSci package, feel free to contact us on Slack or em
 
 Some useful tips for R package developers. :eyes:
 
-Do you have some questions around licensing of your R package?
+Do you have some questions around **licensing of your R package**?
 The [license chapter](https://r-pkgs.org/license.html) of the R packages book by Hadley Wickham and Jenny Bryan was [recently](https://twitter.com/hadleywickham/status/1307338435976364032) updated.
 A less recent but interesting read is [Colin Fay's Licensing R e-book](https://thinkr-open.github.io/licensing-r/index.html).
 
-Encoding can also be a tricky topic for package developers.
+**Encoding** can also be a tricky topic for package developers.
 Useful resources include [Kevin Ushey's blog post "String encoding and R"](http://kevinushey.github.io/blog/2018/02/21/string-encoding-and-r/), [Irene Steves' blog post "Encoding in R"](https://irene.rbind.io/post/encoding-in-r/), searching for encoding in ["Writing R Extensions"](https://cran.r-project.org/doc/manuals/r-release/R-exts.html#Encoding) (e.g. "_If the DESCRIPTION file is not entirely in ASCII it should contain an ‘Encoding’ field specifying an encoding. This is used as the encoding of the DESCRIPTION file itself and of the R and NAMESPACE files, and as the default encoding of .Rd files._"), some [threads of R-package-devel](https://www.mail-archive.com/r-package-devel@r-project.org/msg06536.html).
+
+Afraid to forget something when you **submit your package to CRAN**?
+A check list could help!
+You can use [`usethis::use_release_issue()`](https://usethis.r-lib.org/reference/use_release_issue.html), [number one "secret" [of the tidyverse team] for avoiding multiple rounds of review with CRAN](https://twitter.com/hadleywickham/status/1359852335330164737).
+Now, if you want to add your own specific bullet e.g. ["Update my brag document"](https://jvns.ca/blog/brag-documents/) or ["Consider writing a tech note for rOpenSci blog"](https://blogguide.ropensci.org/index.html), you can add an [unexported `release_bullets()` function](https://github.com/r-lib/usethis/issues/1183) returning a character vector to your package.
+
+```r
+release_bullets <- function() {
+  c(
+    "Update my brag document.",
+    "Contact rOpenSci blog editors to schedule a tech note."
+  )
+}
+```
+
+For inspiration you can search the [CRAN mirror maintained by R-hub](https://github.com/search?p=2&q=release_bullets&type=Code).
+For more resources around CRAN, see [Isabella Velásquez's post "You CRAN Do It, What CRAN First-Timers Should Know"](https://ivelasq.rbind.io/blog/you-cran-do-it/).
 
 ## Last words
 
