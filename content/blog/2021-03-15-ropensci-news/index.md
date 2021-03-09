@@ -110,17 +110,23 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 ### Software Review
 
-* [coder Makes Medical Coding less Messy](/blog/2021/02/09/coder) by Erik Bülow. The coder package helps to summarize and interpret (medical) coding in R (think ICD, ATC and more).{{< figure src="hex.png" alt="Hex sticker for the coder package" width="400" >}}
+* [coder Makes Medical Coding less Messy](/blog/2021/02/09/coder) by Erik Bülow. The coder package helps to summarize and interpret (medical) coding in R (think ICD, ATC and more).{{< figure src="/blog/2021/02/09/coder/hex.png" alt="Hex sticker for the coder package" width="400" >}}
 
 
 
-* [rOpenSci Dev Guide 0.6.0: Updates](/blog/2021/02/23/devguide-0.6.0) by Maëlle Salmon, Brooke Anderson, Laura DeCicco, Julia Gustavsen, Anna Krystalli, Mauro Lepore, Karthik Ram, Noam Ross, Melina Vidoni. Updates in version 0.6.0 of the online book 'rOpenSci Packages: Development, Maintenance, and Peer Review rOpenSci Packages: Development, Maintenance, and Peer Review'.{{< figure src="cover.png" alt="" width="400" >}}
+* [rOpenSci Dev Guide 0.6.0: Updates](/blog/2021/02/23/devguide-0.6.0) by Maëlle Salmon, Brooke Anderson, Laura DeCicco, Julia Gustavsen, Anna Krystalli, Mauro Lepore, Karthik Ram, Noam Ross, Melina Vidoni. Updates in version 0.6.0 of the online book 'rOpenSci Packages: Development, Maintenance, and Peer Review rOpenSci Packages: Development, Maintenance, and Peer Review'.{{< figure src="/img/blog-images/2019-05-16-dev-guide-update/cover.png" alt="" width="400" >}}
 
 
 
 ### Other topics
 
 * [Make Your R Package Easier to Cite](/blog/2021/02/16/package-citation) by Maëlle Salmon, Scott Chamberlain, Karthik Ram. Some tips to promote scientific citations of your work.
+
+
+
+### Tech Notes
+
+* [A first look at the R-universe build infrastructure](/blog/2021/03/04/r-universe-buildsystem) by Jeroen Ooms.
 
 ## Citations
 
@@ -180,11 +186,8 @@ Do you have some questions around licensing of your R package?
 The [license chapter](https://r-pkgs.org/license.html) of the R packages book by Hadley Wickham and Jenny Bryan was [recently](https://twitter.com/hadleywickham/status/1307338435976364032) updated.
 A less recent but interesting read is [Colin Fay's Licensing R e-book](https://thinkr-open.github.io/licensing-r/index.html).
 
-Resources roundup encoding?
-"If the DESCRIPTION file is not entirely in ASCII it should contain an ‘Encoding’ field specifying an encoding. This is used as the encoding of the DESCRIPTION file itself and of the R and NAMESPACE files, and as the default encoding of .Rd files. "
-http://kevinushey.github.io/blog/2018/02/21/string-encoding-and-r/
-https://irene.rbind.io/post/encoding-in-r/
-https://www.mail-archive.com/r-package-devel@r-project.org/msg06536.html
+Encoding can also be a tricky topic for package developers.
+Useful resources include [Kevin Ushey's blog post "String encoding and R"](http://kevinushey.github.io/blog/2018/02/21/string-encoding-and-r/), [Irene Steves' blog post "Encoding in R"](https://irene.rbind.io/post/encoding-in-r/), searching for encoding in ["Writing R Extensions"](https://cran.r-project.org/doc/manuals/r-release/R-exts.html#Encoding) (e.g. "_If the DESCRIPTION file is not entirely in ASCII it should contain an ‘Encoding’ field specifying an encoding. This is used as the encoding of the DESCRIPTION file itself and of the R and NAMESPACE files, and as the default encoding of .Rd files._"), some [threads of R-package-devel](https://www.mail-archive.com/r-package-devel@r-project.org/msg06536.html).
 
 ## Last words
 

@@ -252,6 +252,8 @@ text <- toString(all_releases)
 
 The following `r if (length(releases) > 1) english(length(releases))` package`r if (length(releases) > 1) "s"` `r if (length(releases) > 1) "have" else "has"` had an update since the latest newsletter: `r text`.
 
+We are only listing the most recent version.
+
 ## Software Peer Review
 
 ```{r software-review, results='asis'}
@@ -410,14 +412,10 @@ format_post <- function(post) {
     string <- paste0(string, ".")  
   }
   
-  
   if (post$twitterImg != "") {
-    img_file <- fs::path_file(post$twitterImg)
-    download.file(sprintf("https://ropensci.org/%s", post$twitterImg), img_file)
-    img_file %>% magick::image_read() %>% magick::image_scale("400x") %>% magick::image_write(img_file)
     string <- paste0(
       string,
-      sprintf('{{< figure src="%s" alt="%s" width="400" >}}\n\n', img_file, post$twitterAlt)
+      sprintf('{{< figure src="/%s" alt="%s" width="400" >}}\n\n', post$twitterImg, post$twitterAlt)
     )
   }
   
@@ -536,11 +534,8 @@ Do you have some questions around licensing of your R package?
 The [license chapter](https://r-pkgs.org/license.html) of the R packages book by Hadley Wickham and Jenny Bryan was [recently](https://twitter.com/hadleywickham/status/1307338435976364032) updated.
 A less recent but interesting read is [Colin Fay's Licensing R e-book](https://thinkr-open.github.io/licensing-r/index.html).
 
-Resources roundup encoding?
-"If the DESCRIPTION file is not entirely in ASCII it should contain an ‘Encoding’ field specifying an encoding. This is used as the encoding of the DESCRIPTION file itself and of the R and NAMESPACE files, and as the default encoding of .Rd files. "
-http://kevinushey.github.io/blog/2018/02/21/string-encoding-and-r/
-https://irene.rbind.io/post/encoding-in-r/
-https://www.mail-archive.com/r-package-devel@r-project.org/msg06536.html
+Encoding can also be a tricky topic for package developers.
+Useful resources include [Kevin Ushey's blog post "String encoding and R"](http://kevinushey.github.io/blog/2018/02/21/string-encoding-and-r/), [Irene Steves' blog post "Encoding in R"](https://irene.rbind.io/post/encoding-in-r/), searching for encoding in ["Writing R Extensions"](https://cran.r-project.org/doc/manuals/r-release/R-exts.html#Encoding) (e.g. "_If the DESCRIPTION file is not entirely in ASCII it should contain an ‘Encoding’ field specifying an encoding. This is used as the encoding of the DESCRIPTION file itself and of the R and NAMESPACE files, and as the default encoding of .Rd files._"), some [threads of R-package-devel](https://www.mail-archive.com/r-package-devel@r-project.org/msg06536.html).
 
 ## Last words
 
