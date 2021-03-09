@@ -1,5 +1,9 @@
 library("magrittr")
 
+packages <- "https://raw.githubusercontent.com/ropensci/roregistry/gh-pages/packages.json" %>%
+  jsonlite::read_json() %>%
+  purrr::map_chr("package")
+
 # install github.com/sckott/discgolf
 # read setup docs
 usecases <- discgolf::category_latest_topics("usecases", page = NULL)
@@ -19,7 +23,7 @@ usecases_ids <- usecases_ids[!usecases_ids %in% c(33, # intro
 # only keep the ones after the template was defined
 usecases_ids <- usecases_ids[usecases_ids >= 1629]
 
-get_info <- function(id) {
+get_info <- function(id, packages = packages) {
   message(id)
   Sys.sleep(2)
   topic <- discgolf::topic(id)
@@ -39,7 +43,7 @@ get_info <- function(id) {
     # https://stackoverflow.com/questions/60137188/xpath-picking-div-after-h4-with-specific-text
     text, '//h4[contains(text(), "used")]/following-sibling::*[1]'
     )
-  )))
+  ))) %>% toString()
   
   if (!is.null(topic$image_url)) {
     image_url <- topic$image_url
@@ -58,16 +62,21 @@ get_info <- function(id) {
   } else {
     image = "noimage"
   }
+
+  if (resource %in% packages) {
+    resource <- sprintf("[%s](https://docs.ropensci.org/%s)", resource, resource)
+  }
   
   list(title = topic$title,
+       reporter = topic$details$created_by$name,
        tags = topic$tags,
-       resource = toString(resource),
+       resource = resource,
        url = paste0("https://discuss.ropensci.org/t/", topic$slug, "/", topic$id),
        image = image,
        date = as.character(as.Date(topic$created_at)))
 }
 
-topics <- purrr::map(usecases_ids, get_info)
+topics <- purrr::map(usecases_ids, get_info, packages = packages)
 
 jsonlite::write_json(
   topics, 
