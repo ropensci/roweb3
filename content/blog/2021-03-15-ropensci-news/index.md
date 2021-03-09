@@ -27,7 +27,7 @@ Now let's dive into the activity at and around rOpenSci!
 
 Our R-universe project now has its own page on our website! :rocket:
 
-Regarding another exciting project of ours... We've run the first comm call of our series on [statistical software review project](/stat-software-review/)! [rOpenSci Statistical Software Testing and Peer Review](https://ropensci.org/commcalls/feb2021-statsreview/) took place on March the 2d, blabla, resources up, recording up, blabla.
+Regarding another exciting project of ours... We've run the first comm call of our series on [statistical software review project](/stat-software-review/)! [rOpenSci Statistical Software Testing and Peer Review](/commcalls/feb2021-statsreview/) took place on March the 2d. The video recording (including closed captions) and resources have bee posted.
 
 Find out more [events](/events).
 
