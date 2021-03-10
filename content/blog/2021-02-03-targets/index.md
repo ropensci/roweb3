@@ -249,7 +249,8 @@ With a single [target factory](https://wlandau.github.io/targetopia/contributing
 
 ```r 
 # _targets.R file
-# Simulation study to validate an implementation of a model.
+# Repeatedly simulate data from the prior predictive distribution
+# and compute a 95% posterior interval for beta for each model run.
 library(targets)
 library(stantargets)
 
@@ -261,8 +262,7 @@ simulate_data <- function(n = 10L) {
   list(
     n = n,
     x = x,
-    y = y,
-    .join_data = list(alpha = alpha, beta = beta)
+    y = y
   )
 }
 
@@ -278,12 +278,6 @@ list(
       ~posterior::quantile2(.x, probs = c(0.025, 0.975))
     ),
     log = R.utils::nullfile()
-  ),
-  tar_target(
-    coverage,
-    model %>%
-      group_by(variable) %>%
-      summarize(coverage = mean(q2.5 < .join_data & .join_data < q97.5))
   )
 )
 ```
