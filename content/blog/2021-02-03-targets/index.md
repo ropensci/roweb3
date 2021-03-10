@@ -245,32 +245,39 @@ install_cmdstan()
 ```
 
 [`stantargets`](https://wlandau.github.io/stantargets/)[^12] abstracts away most of the targets and functions required for a solid Bayesian data analysis with [Stan](https://mc-stan.org)[^13].
-With a single [target factory](https://wlandau.github.io/targetopia/contributing.html#target-factories) and a single function to generate data, [`stantargets`](https://wlandau.github.io/stantargets/) can give you an entire sensitivity analysis or an entire [simulation-based calibration study](https://wlandau.github.io/stantargets/articles/mcmc_rep.html).[^14] [^15]
+With a single [target factory](https://wlandau.github.io/targetopia/contributing.html#target-factories) and a single function to generate data, [`stantargets`](https://wlandau.github.io/stantargets/) can give you an entire sensitivity analysis or an entire [simulation study](https://wlandau.github.io/stantargets/articles/mcmc_rep.html).[^14] [^15]
 
 ```r 
-# _targets.R for simulation-based calibration to validate a Stan model.
+# _targets.R file
+# Repeatedly simulate data from the prior predictive distribution
+# and compute a 95% posterior interval for beta for each model run.
 library(targets)
 library(stantargets)
 
-generate_data <- function() {
-  true_beta <- stats::rnorm(n = 1, mean = 0, sd = 1)
+simulate_data <- function(n = 10L) {
+  alpha <- rnorm(n = 1, mean = 0, sd = 1)
+  beta <- rnorm(n = n, mean = 0, sd = 1)
   x <- seq(from = -1, to = 1, length.out = n)
-  y <- stats::rnorm(n, x * true_beta, 1)
-  list(n = n, x = x, y = y, true_beta = true_beta)
+  y <- rnorm(n, alpha + x * beta, 1)
+  list(
+    n = n,
+    x = x,
+    y = y
+  )
 }
 
 list(
   tar_stan_mcmc_rep_summary(
     model,
-    "model.stan", # We assume you already have a Stan model file.
-    generate_data(), # Runs once per rep.
-    batches = 25, # Batching reduces per-target overhead.
-    reps = 40, # Number of simulation reps per batch.
-    data_copy = "true_beta",
-    variables = "beta",
+    "model.stan",
+    simulate_data(),
+    batches = 5, # Number of branch targets.
+    reps = 2, # Number of model reps per branch target.
+    variables = c("alpha", "beta"),
     summaries = list(
       ~posterior::quantile2(.x, probs = c(0.025, 0.975))
-    )
+    ),
+    log = R.utils::nullfile()
   )
 )
 ```
