@@ -27,13 +27,6 @@
         <li class="nav-item drp">
           <a class="nav-link" href="/about/">About</a>
           <ul class="sub-menu">
-            <li><a href="/software-review">Software Peer Review</a></li>
-            <li class="drp">
-              <a>Projects</a>
-              <ul class="sub-menu">
-                <li><a href="/r-universe/">r-universe</a></li>
-                <li><a href="/stat-software-review/">Statistical Software Project</a></li>
-              </ul>
             <li><a href="/donate/">Donate</a></li>
             <li><a href="/careers/">Careers</a></li>
             <li><a href="/contact/">Contact</a></li>
@@ -45,6 +38,15 @@
             <li><a href="/technotes/">Tech Notes</a></li>
           </ul>
         </li>
+
+        <li class="nav-item drp">
+          <a class="nav-link" href="/about/">Projects</a>
+          <ul class="sub-menu">
+            <li><a href="/r-universe/">R-universe</a></li>
+            <li><a href="/stat-software-review/">Statistical Software Project</a></li>
+          </ul>
+        </li>
+
         <li class="nav-item drp">
           <a class="nav-link" href="/packages/">Packages</a>
           <ul class="sub-menu">
@@ -74,12 +76,11 @@
           <a class="nav-link" href="/resources/">Resources</a>
           <ul class="sub-menu">
             <li><a href="/talks-papers/">Talks & Publications</a></li>
+            <li><a class="external-link" href="https://docs.ropensci.org/">Package Docs</a></li>
           </ul>
         </li>
 
-        <li class="nav-item">
-          <a class="nav-link external-link" href="https://docs.ropensci.org/">Docs</a>
-        </li>
+
       </ul>
       {{ if partial "careers/we-are-hiring" . }}
       <div class="navbar-right d-none d-xl-block">

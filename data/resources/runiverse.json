@@ -1,11 +1,11 @@
 [
 {
-   "title": "R-universe dashboard",
+   "title": "R-universe home",
    "text": "",
    "url": "https://r-universe.dev/organizations/"
 },
 {
-   "title": "rstudio::global talk",
-   "text": "Hear context behind r-universe!",
+   "title": "Talk @ rstudio::global",
+   "text": "Hear context behind R-universe!",
    "url": "https://resources.rstudio.com/resources/rstudioglobal-2021/monitoring-health-and-impact-of-open-source-projects/"
 }]
