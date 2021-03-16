@@ -1,9 +1,5 @@
 library("magrittr")
 
-packages <- "https://raw.githubusercontent.com/ropensci/roregistry/gh-pages/packages.json" %>%
-  jsonlite::read_json() %>%
-  purrr::map_chr("package")
-
 # install github.com/sckott/discgolf
 # read setup docs
 usecases <- discgolf::category_latest_topics("usecases", page = NULL)
@@ -63,9 +59,10 @@ get_info <- function(id, packages = packages) {
     image = "noimage"
   }
 
-  if (resource %in% packages) {
-    resource <- sprintf("[%s](https://docs.ropensci.org/%s)", resource, resource)
-  }
+  resource <- paste0(
+    purrr::map_chr(strsplit(resource, ",")[[1]], link_resource),
+    collapse = ", "
+  )
   
   list(title = topic$title,
        reporter = topic$details$created_by$name,
@@ -76,7 +73,7 @@ get_info <- function(id, packages = packages) {
        date = as.character(as.Date(topic$created_at)))
 }
 
-topics <- purrr::map(usecases_ids, get_info, packages = packages)
+topics <- purrr::map(usecases_ids, get_info)
 
 jsonlite::write_json(
   topics, 
@@ -84,3 +81,31 @@ jsonlite::write_json(
   pretty = TRUE,
   auto_unbox = TRUE
   )
+
+link_resource <- function(resource, packages = get_packages()) {
+  resource <- trimws(resource)
+  resource <- sub(".$", "", resource)
+  if (resource %in% packages) {
+    return(sprintf("[%s](https://docs.ropensci.org/%s)", resource, resource))
+  }
+  if (resource == "rOpenSci package development guide book") {
+    return("[rOpenSci package development guide book](https://devguide.ropensci.org)")
+  }
+  if (resource == "rOpenSci contributing guide book") {
+    return("[rOpenSci contributing guide book](https://contributing.ropensci.org)")
+  }
+  if (resource == "rOpenSci blog guide book") {
+    return("[rOpenSci blog guide book](https://blogguide.ropensci.org)")
+  }
+  if (resource == "HTTP testing in R book") {
+    return("[HTTP testing in R book](https://books.ropensci.org/http-testing)")
+  }
+  return(resource)
+}
+
+get_packages <- memoise::memoise(.get_packages)
+.get_packages <- function() {
+  "https://raw.githubusercontent.com/ropensci/roregistry/gh-pages/packages.json" %>%
+  jsonlite::read_json() %>%
+  purrr::map_chr("package")
+}
