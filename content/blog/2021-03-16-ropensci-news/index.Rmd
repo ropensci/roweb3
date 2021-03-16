@@ -3,7 +3,7 @@ slug: ropensci-news
 title: Latest rOpenSci News Digest
 author:
   - The rOpenSci Team
-date: '2021-03-15'
+date: '2021-03-16'
 tags:
   - newsletter
 description: R-universe page, Statistical software review comm call, new packages and package news.
@@ -39,7 +39,7 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-Our R-universe project now has [its own page on our website](/r-universe/)! :rocket:
+Our R-universe project now has [its own page on our website](/r-universe/)! :rocket: The R-universe platform is a new umbrella project under which we experiment with various new ideas for improving publication and discovery of research software in R.
 
 Regarding another exciting project of ours... We've run the first comm call of our series on the [statistical software review project](/stat-software-review/)! [rOpenSci Statistical Software Testing and Peer Review](/commcalls/feb2021-statsreview/) took place on March 2nd. The video recording (including closed captions) and resources as well as a summary have been [posted](/blog/2021/03/09/commcall-stats/).
 

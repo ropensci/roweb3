@@ -3,7 +3,7 @@ slug: ropensci-news
 title: Latest rOpenSci News Digest
 author:
   - The rOpenSci Team
-date: '2021-03-15'
+date: '2021-03-16'
 tags:
   - newsletter
 description: R-universe page, Statistical software review comm call, new packages and package news.
@@ -19,12 +19,12 @@ params:
 Dear rOpenSci friends, it's time for our monthly news roundup!
 Some housekeeping first:
 We've been changing the infrastructure of our newsletter a bit so please update your RSS and JSON feeds to `https://ropensci.org/tags/newsletter/index.xml` and `https://ropensci.org/tags/newsletter/index.json`, respectively.
-You can read this post [on our blog](/blog/2021/03/15/ropensci-news).
+You can read this post [on our blog](/blog/2021/03/16/ropensci-news).
 Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-Our R-universe project now has [its own page on our website](/r-universe/)! :rocket:
+Our R-universe project now has [its own page on our website](/r-universe/)! :rocket: The R-universe platform is a new umbrella project under which we experiment with various new ideas for improving publication and discovery of research software in R.
 
 Regarding another exciting project of ours... We've run the first comm call of our series on the [statistical software review project](/stat-software-review/)! [rOpenSci Statistical Software Testing and Peer Review](/commcalls/feb2021-statsreview/) took place on March 2nd. The video recording (including closed captions) and resources as well as a summary have been [posted](/blog/2021/03/09/commcall-stats/).
 
@@ -37,7 +37,9 @@ Find out about more [events](/events).
 
 
 
-The following  package recently became a part of our software suite:
+The following two packages recently became a part of our software suite:
+
++ [pathviewr](https://docs.ropensci.org/pathviewr), developed by Vikram B. Baliga together with Melissa S. Armstrong, Eric R. Press: Tools to import, clean, and visualize movement data, particularly from motion capture systems such as Optitracks Motive, the Straw Labs Flydra, or from other sources. We provide functions to remove artifacts, standardize tunnel position and tunnel axes, select a region of interest, isolate specific trajectories, fill gaps in trajectory data, and calculate 3D and per-axis velocity. For experiments of visual guidance, we also provide functions that use subject position to estimate perception of visual stimuli. It has been [reviewed](https://github.com/ropensci/software-review/issues/409) by Anne-Sophie Bonnet-Lebrun, Marco Sciaini.
 
 + [terrainr](https://docs.ropensci.org/terrainr), developed by Michael Mahoney: Functions for the retrieval, manipulation, and visualization of geospatial data, with an aim towards producing 3D landscape visualizations in the Unity 3D rendering engine. Functions are also provided for retrieving elevation data and base map tiles from the USGS National Map (<https://apps.nationalmap.gov/services/>).  It is available on [CRAN]( https://CRAN.R-project.org/package=terrainr). It has been [reviewed](https://github.com/ropensci/software-review/issues/416) by Mike Johnson, Sydney Foks.
 
@@ -47,15 +49,17 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following sixteen packages have had an update since the latest newsletter: [crul](https://docs.ropensci.org/crul "HTTP Client") ([`v1.1.0`](https://github.com/ropensci/crul/releases/tag/v1.1.0)), [eia](https://docs.ropensci.org/eia "API Wrapper for US Energy Information Administration Open Data") ([`v0.3.7`](https://github.com/ropensci/eia/releases/tag/v0.3.7)), [epubr](https://docs.ropensci.org/epubr "Read EPUB File Metadata and Text") ([`v0.6.2`](https://github.com/ropensci/epubr/releases/tag/v0.6.2)), [fulltext](https://docs.ropensci.org/fulltext "Full Text of Scholarly Articles Across Many Data Sources") ([`v1.7.0`](https://github.com/ropensci/fulltext/releases/tag/v1.7.0)), [opencage](https://docs.ropensci.org/opencage "Geocode with the OpenCage API") ([`v0.2.2`](https://github.com/ropensci/opencage/releases/tag/v0.2.2)), [osmextract](https://docs.ropensci.org/osmextract "Download and Read OpenStreetMap Data Extracts") ([`v0.2.1`](https://github.com/ropensci/osmextract/releases/tag/v0.2.1)), [parzer](https://docs.ropensci.org/parzer "Parse Messy Geographic Coordinates") ([`v0.4.0`](https://github.com/ropensci/parzer/releases/tag/v0.4.0)), [phonfieldwork](https://docs.ropensci.org/phonfieldwork "Linguistic Phonetic Fieldwork Tools") ([`v0.0.11`](https://github.com/ropensci/phonfieldwork/releases/tag/v0.0.11)), [rerddap](https://docs.ropensci.org/rerddap "General Purpose Client for ERDDAP Servers") ([`v0.7.4`](https://github.com/ropensci/rerddap/releases/tag/v0.7.4)), [rinat](https://docs.ropensci.org/rinat "Access iNaturalist Data Through APIs") ([`v0.1.8`](https://github.com/ropensci/rinat/releases/tag/v0.1.8)), [rnoaa](https://docs.ropensci.org/rnoaa "NOAA Weather Data from R") ([`v1.3.2`](https://github.com/ropensci/rnoaa/releases/tag/v1.3.2)), [rplos](https://docs.ropensci.org/rplos "Interface to the Search API for PLoS Journals") ([`v1.0.0`](https://github.com/ropensci/rplos/releases/tag/v1.0.0)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.1.0`](https://github.com/ropensci/tarchetypes/releases/tag/0.1.0)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Workflows") ([`0.2.0`](https://github.com/ropensci/targets/releases/tag/0.2.0)), [terrainr](https://docs.ropensci.org/terrainr "Landscape Visualizations in R and Unity") ([`v0.3.1`](https://github.com/ropensci/terrainr/releases/tag/v0.3.1)), [tiler](https://docs.ropensci.org/tiler "Create Geographic and Non-Geographic Map Tiles") ([`v0.2.5`](https://github.com/ropensci/tiler/releases/tag/v0.2.5)).
+The following twenty-one packages have had an update since the latest newsletter: [chlorpromazineR](https://docs.ropensci.org/chlorpromazineR "Convert Antipsychotic Doses to Chlorpromazine Equivalents") ([`v0.2.0`](https://github.com/ropensci/chlorpromazineR/releases/tag/v0.2.0)), [crul](https://docs.ropensci.org/crul "HTTP Client") ([`v1.1.0`](https://github.com/ropensci/crul/releases/tag/v1.1.0)), [eia](https://docs.ropensci.org/eia "API Wrapper for US Energy Information Administration Open Data") ([`v0.3.7`](https://github.com/ropensci/eia/releases/tag/v0.3.7)), [epubr](https://docs.ropensci.org/epubr "Read EPUB File Metadata and Text") ([`v0.6.2`](https://github.com/ropensci/epubr/releases/tag/v0.6.2)), [essurvey](https://docs.ropensci.org/essurvey "Download Data from the European Social Survey on the Fly") ([`v1.0.7`](https://github.com/ropensci/essurvey/releases/tag/v1.0.7)), [fulltext](https://docs.ropensci.org/fulltext "Full Text of Scholarly Articles Across Many Data Sources") ([`v1.7.0`](https://github.com/ropensci/fulltext/releases/tag/v1.7.0)), [magick](https://docs.ropensci.org/magick "Advanced Graphics and Image-Processing in R") ([`v2.7.0`](https://github.com/ropensci/magick/releases/tag/v2.7.0)), [opencage](https://docs.ropensci.org/opencage "Geocode with the OpenCage API") ([`v0.2.2`](https://github.com/ropensci/opencage/releases/tag/v0.2.2)), [osmextract](https://docs.ropensci.org/osmextract "Download and Read OpenStreetMap Data Extracts") ([`v0.2.1`](https://github.com/ropensci/osmextract/releases/tag/v0.2.1)), [parzer](https://docs.ropensci.org/parzer "Parse Messy Geographic Coordinates") ([`v0.4.0`](https://github.com/ropensci/parzer/releases/tag/v0.4.0)), [pathviewr](https://docs.ropensci.org/pathviewr "Wrangle, Analyze, and Visualize Animal Movement Data") ([`v1.0.0`](https://github.com/ropensci/pathviewr/releases/tag/v1.0.0)), [phonfieldwork](https://docs.ropensci.org/phonfieldwork "Linguistic Phonetic Fieldwork Tools") ([`v0.0.11`](https://github.com/ropensci/phonfieldwork/releases/tag/v0.0.11)), [rerddap](https://docs.ropensci.org/rerddap "General Purpose Client for ERDDAP Servers") ([`v0.7.4`](https://github.com/ropensci/rerddap/releases/tag/v0.7.4)), [rinat](https://docs.ropensci.org/rinat "Access iNaturalist Data Through APIs") ([`v0.1.8`](https://github.com/ropensci/rinat/releases/tag/v0.1.8)), [rnoaa](https://docs.ropensci.org/rnoaa "NOAA Weather Data from R") ([`v1.3.2`](https://github.com/ropensci/rnoaa/releases/tag/v1.3.2)), [rplos](https://docs.ropensci.org/rplos "Interface to the Search API for PLoS Journals") ([`v1.0.0`](https://github.com/ropensci/rplos/releases/tag/v1.0.0)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.1.0`](https://github.com/ropensci/tarchetypes/releases/tag/0.1.0)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Workflows") ([`0.2.0`](https://github.com/ropensci/targets/releases/tag/0.2.0)), [terrainr](https://docs.ropensci.org/terrainr "Landscape Visualizations in R and Unity") ([`v0.3.1`](https://github.com/ropensci/terrainr/releases/tag/v0.3.1)), [tiler](https://docs.ropensci.org/tiler "Create Geographic and Non-Geographic Map Tiles") ([`v0.2.5`](https://github.com/ropensci/tiler/releases/tag/v0.2.5)), [webmockr](https://docs.ropensci.org/webmockr "Stubbing and Setting Expectations on HTTP Requests") ([`v0.8.0`](https://github.com/ropensci/webmockr/releases/tag/v0.8.0)).
 
 ## Software Peer Review
 
-There are seventeen recently closed and active submissions and 2 submissions on hold. Issues are at different stages: 
+There are eighteen recently closed and active submissions and 2 submissions on hold. Issues are at different stages: 
 
-* Four at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
+* Five at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
 
      * [terrainr](https://github.com/ropensci/software-review/issues/416), Retrieve Data from the USGS National Map and Transform it for 3D Landscape Visualizations. Submitted by [Michael Mahoney](https://www.mikemahoney218.com/).
+
+    * [pathviewR](https://github.com/ropensci/software-review/issues/409), Wrangle, Analyze, and Visualize Animal Movement Data. Submitted by [Vikram Baliga](https://www.vikram-baliga.com/).
 
     * [pixelclasser](https://github.com/ropensci/software-review/issues/406), A Package for Classifying Pixels by Colour. Submitted by [Carlos Real Rodríguez](https://github.com/CarlosRealR).
 
@@ -63,23 +67,21 @@ There are seventeen recently closed and active submissions and 2 submissions on 
 
     * [SymbiotaR2](https://github.com/ropensci/software-review/issues/373), Downloading data from Symbiota2 portals into R. Submitted by [Austin Koontz](https://akoontz11.github.io/).
 
-* Two at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
+* One at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
 
      * [censo2017](https://github.com/ropensci/software-review/issues/414), Base de Datos de Facil Acceso del Censo 2017 de Chile. Submitted by [Pachamaltese](https://pacha.dev).
 
-    * [pathviewR](https://github.com/ropensci/software-review/issues/409), Wrangle, Analyze, and Visualize Animal Movement Data. Submitted by [Vikram Baliga](https://www.vikram-baliga.com/).
+* Three at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
 
-* Two at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
+     * [dataaimsr](https://github.com/ropensci/software-review/issues/428), AIMS Data Platform API Client. Submitted by [Diego Barneche](https://www.diegobarneche.com/).
 
-     * [healthdatacsv](https://github.com/ropensci/software-review/issues/358), Access data in the healthdata.gov catalog. Submitted by [iecastro](http://iecastro.netlify.com).
+    * [healthdatacsv](https://github.com/ropensci/software-review/issues/358), Access data in the healthdata.gov catalog. Submitted by [iecastro](http://iecastro.netlify.com).
 
     * [circle](https://github.com/ropensci/software-review/issues/356), R Client Package for Circle CI. Submitted by [Patrick Schratz](https://pat-s.me).
 
-* Five at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
+* Four at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 
      * [stantargets](https://github.com/ropensci/software-review/issues/430), Targets for Stan Workflows. Submitted by [Will Landau](https://wlandau.github.io).
-
-    * [dataaimsr](https://github.com/ropensci/software-review/issues/428), AIMS Data Platform API Client. Submitted by [Diego Barneche](https://www.diegobarneche.com/).
 
     * [dataspice](https://github.com/ropensci/software-review/issues/426), Create Lightweight Schema.org Descriptions of Data. Submitted by [Bryce Mecum](https://brycemecum.com).
 
@@ -98,6 +100,10 @@ There are seventeen recently closed and active submissions and 2 submissions on 
     * [epair](https://github.com/ropensci/software-review/issues/418), Grabs data from EPA API, simplifies getting pollutant data. Submitted by [Leo Orozco-Mulfinger](https://github.com/GLOrozcoM).
 
     * [tidytags](https://github.com/ropensci/software-review/issues/382), Simple Collection and Powerful Analysis of Twitter Data. Submitted by [Bret Staudt Willet](http://bretsw.com).
+
+* One at ['0/editorial-team-prep'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A0/editorial-team-prep):
+
+     * [ROriginStamp](https://github.com/ropensci/software-review/issues/433), Interface to OriginStamp API to Obtain Trusted Time Stamps. Submitted by [Rainer M Krug](https://github.com/rkrug).
 
 Find out more about [Software Peer Review](/software-review) and how to get involved.
 
