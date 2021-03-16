@@ -1,11 +1,22 @@
 [
 {
-   "title": "R-universe home",
-   "text": "",
+   "title": "R-universe dashboard",
+   "text": "Front-end dashboard",
    "url": "https://r-universe.dev/organizations/"
 },
 {
    "title": "Talk @ rstudio::global",
    "text": "Hear context behind R-universe!",
    "url": "https://resources.rstudio.com/resources/rstudioglobal-2021/monitoring-health-and-impact-of-open-source-projects/"
-}]
+},
+{
+   "title": "System source code",
+   "text": "All the source code",
+   "url": "https://github.com/r-universe-org/"
+},
+{
+   "title": "Bugs and suggestions",
+   "text": "Report bugs",
+   "url": "https://github.com/r-universe-org/roadmap/issues"
+}
+]
