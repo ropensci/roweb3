@@ -1,78 +1,97 @@
 [
   {
+    "title": "Using terrainr to retrieve spatial data and make 3D landscape visualizations",
+    "reporter": "Michael Mahoney",
+    "tags": ["r", "package", "usecase", "terrainr"],
+    "resource": "[terrainr](https://docs.ropensci.org/terrainr)",
+    "url": "https://discuss.ropensci.org/t/using-terrainr-to-retrieve-spatial-data-and-make-3d-landscape-visualizations/2385",
+    "image": "using-terrainr-to-retrieve-spatial-data-and-make-3d-landscape-visualizations.jpeg",
+    "date": "2021-03-01"
+  },
+  {
+    "title": "Using dittodb to test database queries",
+    "reporter": "Gordon Shotwell",
+    "tags": "dittodb",
+    "resource": "[dittodb](https://docs.ropensci.org/dittodb)",
+    "url": "https://discuss.ropensci.org/t/using-dittodb-to-test-database-queries/2322",
+    "image": "noimage",
+    "date": "2021-01-25"
+  },
+  {
+    "title": "Using av to convert audio files for compatibility with an electronic storyteller",
+    "reporter": "Maëlle Salmon",
+    "tags": "av",
+    "resource": "[av](https://docs.ropensci.org/av)",
+    "url": "https://discuss.ropensci.org/t/using-av-to-convert-audio-files-for-compatibility-with-an-electronic-storyteller/2281",
+    "image": "noimage",
+    "date": "2020-12-10"
+  },
+  {
     "title": "Mapping collaborations in Neotropical Taxonomy with refsplitr",
+    "reporter": "Emilio M Bruna",
     "tags": ["package", "refsplitr", "use-cases"],
-    "resource": "refsplitr",
+    "resource": "[refsplitr](https://docs.ropensci.org/refsplitr)",
     "url": "https://discuss.ropensci.org/t/mapping-collaborations-in-neotropical-taxonomy-with-refsplitr/2353",
     "image": "mapping-collaborations-in-neotropical-taxonomy-with-refsplitr.png",
     "date": "2021-02-06"
   },
   {
     "title": "Use gert to scan all git repos in a directory",
+    "reporter": "Danielle Navarro",
     "tags": "gert",
-    "resource": "gert",
+    "resource": "[gert](https://docs.ropensci.org/gert)",
     "url": "https://discuss.ropensci.org/t/use-gert-to-scan-all-git-repos-in-a-directory/2332",
     "image": "noimage",
     "date": "2021-02-01"
   },
   {
     "title": "Shiny apps to search #rstudioglobal or #rstats tweets with rtweet",
+    "reporter": "Sharon Machlis",
     "tags": "rtweet",
-    "resource": "rtweet",
+    "resource": "[rtweet](https://docs.ropensci.org/rtweet)",
     "url": "https://discuss.ropensci.org/t/shiny-apps-to-search-rstudioglobal-or-rstats-tweets-with-rtweet/2324",
     "image": "noimage",
     "date": "2021-01-25"
   },
   {
-    "title": "Using dittodb to test database queries",
-    "tags": "dittodb",
-    "resource": "dittodb",
-    "url": "https://discuss.ropensci.org/t/using-dittodb-to-test-database-queries/2322",
-    "image": "noimage",
-    "date": "2021-01-25"
-  },
-  {
     "title": "pdftools for extracting complex (e.g. text-wrapped/multiline) tables from pdfs",
+    "reporter": "Lizlaw",
     "tags": ["r", "pdftools", "tidyverse"],
-    "resource": "pdftools",
+    "resource": "[pdftools](https://docs.ropensci.org/pdftools)",
     "url": "https://discuss.ropensci.org/t/pdftools-for-extracting-complex-e-g-text-wrapped-multiline-tables-from-pdfs/2327",
     "image": "noimage",
     "date": "2021-01-26"
   },
   {
     "title": "Getting and plotting weather and climate data",
+    "reporter": "Alex Koiter",
     "tags": "weathercan",
-    "resource": "weathercan",
+    "resource": "[weathercan](https://docs.ropensci.org/weathercan)",
     "url": "https://discuss.ropensci.org/t/getting-and-plotting-weather-and-climate-data/2320",
     "image": "getting-and-plotting-weather-and-climate-data.png",
     "date": "2021-01-21"
   },
   {
     "title": "Using ghql to analyze all my 2020 GitHub commits",
+    "reporter": "Frie",
     "tags": ["r", "package", "usecase", "github", "ghql"],
-    "resource": "ghql",
+    "resource": "[ghql](https://docs.ropensci.org/ghql)",
     "url": "https://discuss.ropensci.org/t/using-ghql-to-analyze-all-my-2020-github-commits/2315",
     "image": "using-ghql-to-analyze-all-my-2020-github-commits.png",
     "date": "2021-01-16"
   },
   {
     "title": "Scraping liked posts on Twitter using rtweet",
+    "reporter": "Isabella Velásquez",
     "tags": "rtweet",
-    "resource": "rtweet",
+    "resource": "[rtweet](https://docs.ropensci.org/rtweet)",
     "url": "https://discuss.ropensci.org/t/scraping-liked-posts-on-twitter-using-rtweet/2294",
     "image": "noimage",
     "date": "2021-01-03"
   },
   {
-    "title": "Using av to convert audio files for compatibility with an electronic storyteller",
-    "tags": "av",
-    "resource": "av",
-    "url": "https://discuss.ropensci.org/t/using-av-to-convert-audio-files-for-compatibility-with-an-electronic-storyteller/2281",
-    "image": "noimage",
-    "date": "2020-12-10"
-  },
-  {
     "title": "Use stplanr to find and plot major streets of a city",
+    "reporter": "Alexandra",
     "tags": ["package", "geospatial"],
     "resource": "stplanr package",
     "url": "https://discuss.ropensci.org/t/use-stplanr-to-find-and-plot-major-streets-of-a-city/2264",
@@ -81,22 +100,25 @@
   },
   {
     "title": "Using bib2df to parse the R Journal archives",
+    "reporter": "Maëlle Salmon",
     "tags": "bib2df",
-    "resource": "bib2df",
+    "resource": "[bib2df](https://docs.ropensci.org/bib2df)",
     "url": "https://discuss.ropensci.org/t/using-bib2df-to-parse-the-r-journal-archives/1718",
     "image": "noimage",
     "date": "2019-05-29"
   },
   {
     "title": "Handling vegetation-plot information using vegtable and taxlist",
+    "reporter": "Miguel Alvarez",
     "tags": [],
-    "resource": "taxlist",
+    "resource": "[taxlist](https://docs.ropensci.org/taxlist)",
     "url": "https://discuss.ropensci.org/t/handling-vegetation-plot-information-using-vegtable-and-taxlist/2270",
     "image": "handling-vegetation-plot-information-using-vegtable-and-taxlist.png",
     "date": "2020-11-21"
   },
   {
     "title": "osmdata, rnaturalearth and magick for #TidyTuesday",
+    "reporter": "Jake Kaupp",
     "tags": [],
     "resource": "I used osmdata, rnaturalearth and magick",
     "url": "https://discuss.ropensci.org/t/osmdata-rnaturalearth-and-magick-for-tidytuesday/2255",
@@ -105,22 +127,25 @@
   },
   {
     "title": "osmdata: Rail transport network of the three largest cities in Spain",
+    "reporter": "Guillem Salazar",
     "tags": ["package", "geospatial", "osmdata"],
-    "resource": "osmdata",
+    "resource": "[osmdata](https://docs.ropensci.org/osmdata)",
     "url": "https://discuss.ropensci.org/t/osmdata-rail-transport-network-of-the-three-largest-cities-in-spain/2249",
     "image": "osmdata-rail-transport-network-of-the-three-largest-cities-in-spain.jpeg",
     "date": "2020-10-27"
   },
   {
     "title": "A Twitter bot with rtweet, Mapbox and GitHub Actions",
+    "reporter": "Matt Dray",
     "tags": ["package", "usecase", "rtweet", "maps", "github-actions"],
-    "resource": "rtweet",
+    "resource": "[rtweet](https://docs.ropensci.org/rtweet)",
     "url": "https://discuss.ropensci.org/t/a-twitter-bot-with-rtweet-mapbox-and-github-actions/2223",
     "image": "a-twitter-bot-with-rtweet-mapbox-and-github-actions.jpeg",
     "date": "2020-09-25"
   },
   {
     "title": "bomrang with a third party package, stationaRy, to get hourly weather data and clifro to plot wind roses",
+    "reporter": "Adam Sparks",
     "tags": ["r", "weather", "bomrang", "research-compendia"],
     "resource": "bomrang, clifro",
     "url": "https://discuss.ropensci.org/t/bomrang-with-a-third-party-package-stationary-to-get-hourly-weather-data-and-clifro-to-plot-wind-roses/2082",
@@ -129,6 +154,7 @@
   },
   {
     "title": "Mapping scientific collaboration about the Anthropoce with refsplitr",
+    "reporter": "Emilio M Bruna",
     "tags": ["package", "usecase", "refsplitr"],
     "resource": "Package refsplitr",
     "url": "https://discuss.ropensci.org/t/mapping-scientific-collaboration-about-the-anthropoce-with-refsplitr/2215",
@@ -137,6 +163,7 @@
   },
   {
     "title": "Processing Web of Science records with refsplitr to study author gender and geography",
+    "reporter": "Emilio M Bruna",
     "tags": ["package", "refsplitr", "use-cases"],
     "resource": "Package refsplitr",
     "url": "https://discuss.ropensci.org/t/processing-web-of-science-records-with-refsplitr-to-study-author-gender-and-geography/2216",
@@ -145,6 +172,7 @@
   },
   {
     "title": "Kontarion - a stack extending rocker/ml-verse for Bibliometric analytics",
+    "reporter": "Markus Skyttner",
     "tags": ["refsplitr", "rcrossref", "fulltext", "oai", "rentrez"],
     "resource": "Several packages from packages, including for example oai, rentrez, fulltext, europepmc, refsplitr, rcrossref, citecorp, roadoi",
     "url": "https://discuss.ropensci.org/t/kontarion-a-stack-extending-rocker-ml-verse-for-bibliometric-analytics/2214",
@@ -153,6 +181,7 @@
   },
   {
     "title": "covidpreprints.com using europepmc and rAltmetric",
+    "reporter": "Zhanghe Goh",
     "tags": ["r", "package", "raltmetric", "europepmc"],
     "resource": "europepmc, rAltmetric",
     "url": "https://discuss.ropensci.org/t/covidpreprints-com-using-europepmc-and-raltmetric/2210",
@@ -161,14 +190,16 @@
   },
   {
     "title": "Bar chart portraits with magick",
+    "reporter": "Georgios Karamanis",
     "tags": "magick",
-    "resource": "magick",
+    "resource": "[magick](https://docs.ropensci.org/magick)",
     "url": "https://discuss.ropensci.org/t/bar-chart-portraits-with-magick/2197",
     "image": "bar-chart-portraits-with-magick.png",
     "date": "2020-08-23"
   },
   {
     "title": "Analyzing invoice data from Elsevier relative to hybrid open access",
+    "reporter": "Najko Jahn",
     "tags": ["rcrossref", "tabulizer"],
     "resource": "rcrossref, crminer, tabulizer",
     "url": "https://discuss.ropensci.org/t/analyzing-invoice-data-from-elsevier-relative-to-hybrid-open-access/1887",
@@ -177,6 +208,7 @@
   },
   {
     "title": "Spanish and English blogs on how to use rtweet and magick",
+    "reporter": "Rayna Harris",
     "tags": ["r", "magick", "rtweet", "spanish"],
     "resource": "rtweet, magick",
     "url": "https://discuss.ropensci.org/t/spanish-and-english-blogs-on-how-to-use-rtweet-and-magick/2188",
@@ -185,110 +217,124 @@
   },
   {
     "title": "Searching Microsoft Academic & extracting the metadata",
+    "reporter": "Alexei Lutay",
     "tags": ["r", "package", "metadata", "microdemic"],
-    "resource": "microdemic",
+    "resource": "[microdemic](https://docs.ropensci.org/microdemic)",
     "url": "https://discuss.ropensci.org/t/searching-microsoft-academic-extracting-the-metadata/2012",
     "image": "noimage",
     "date": "2020-03-27"
   },
   {
     "title": "pdftools for parsing .pdf from a URL - public data mining",
+    "reporter": "Leungi",
     "tags": ["package", "pdftools"],
-    "resource": "pdftools",
+    "resource": "[pdftools](https://docs.ropensci.org/pdftools)",
     "url": "https://discuss.ropensci.org/t/pdftools-for-parsing-pdf-from-a-url-public-data-mining/1953",
     "image": "pdftools-for-parsing-pdf-from-a-url-public-data-mining.gif",
     "date": "2020-02-15"
   },
   {
     "title": "Use of crul's retry sub-routine in an API package",
+    "reporter": "Maëlle Salmon",
     "tags": "crul",
-    "resource": "crul",
+    "resource": "[crul](https://docs.ropensci.org/crul)",
     "url": "https://discuss.ropensci.org/t/use-of-cruls-retry-sub-routine-in-an-api-package/2035",
     "image": "noimage",
     "date": "2020-04-16"
   },
   {
     "title": "{drake} at Queensland Fire and Emergency Services",
+    "reporter": "Miles McBain",
     "tags": ["package", "drake"],
-    "resource": "drake",
+    "resource": "[drake](https://docs.ropensci.org/drake)",
     "url": "https://discuss.ropensci.org/t/drake-at-queensland-fire-and-emergency-services/2054",
     "image": "noimage",
     "date": "2020-05-04"
   },
   {
     "title": "Visualize covid19 cases using rnaturalearth package",
+    "reporter": "Rami Krispin",
     "tags": ["package", "rnaturalearth"],
-    "resource": "rnaturalearth",
+    "resource": "[rnaturalearth](https://docs.ropensci.org/rnaturalearth)",
     "url": "https://discuss.ropensci.org/t/visualize-covid19-cases-using-rnaturalearth-package/2058",
     "image": "visualize-covid19-cases-using-rnaturalearth-package.jpeg",
     "date": "2020-05-05"
   },
   {
     "title": "Create a time-lapse video using av package",
+    "reporter": "Iván Mauricio Cely Toro",
     "tags": ["r", "community", "av"],
-    "resource": "av",
+    "resource": "[av](https://docs.ropensci.org/av)",
     "url": "https://discuss.ropensci.org/t/create-a-time-lapse-video-using-av-package/2117",
     "image": "create-a-time-lapse-video-using-av-package.jpeg",
     "date": "2020-06-08"
   },
   {
     "title": "Scrape an image from DeepZoom with R and magick, recomposing a single image from multiple tiles",
+    "reporter": "André Ourednik",
     "tags": ["magick", "web-scraping", "rvest", "deepzoom"],
-    "resource": "magick",
+    "resource": "[magick](https://docs.ropensci.org/magick)",
     "url": "https://discuss.ropensci.org/t/scrape-an-image-from-deepzoom-with-r-and-magick-recomposing-a-single-image-from-multiple-tiles/2123",
     "image": "noimage",
     "date": "2020-06-08"
   },
   {
     "title": "US lawmakers on Twitter during a pandemic: some corpus linguistics methods",
+    "reporter": "Jason Timm",
     "tags": ["rtweet", "covid19", "us-congress"],
-    "resource": "rtweet",
+    "resource": "[rtweet](https://docs.ropensci.org/rtweet)",
     "url": "https://discuss.ropensci.org/t/us-lawmakers-on-twitter-during-a-pandemic-some-corpus-linguistics-methods/2124",
     "image": "us-lawmakers-on-twitter-during-a-pandemic-some-corpus-linguistics-methods.png",
     "date": "2020-06-09"
   },
   {
     "title": "Using DataPackageR to create data package Pandemic Papers with Chris Knox",
+    "reporter": "Steffi LaZerte",
     "tags": ["r", "package", "datapackager"],
-    "resource": "DataPackageR",
+    "resource": "[DataPackageR](https://docs.ropensci.org/DataPackageR)",
     "url": "https://discuss.ropensci.org/t/using-datapackager-to-create-data-package-pandemic-papers-with-chris-knox/2131",
     "image": "noimage",
     "date": "2020-06-17"
   },
   {
     "title": "Filtering pdfs using RegEx in their body",
+    "reporter": "Augustus Pendleton",
     "tags": ["pdftools", "tidyverse", "stringr"],
-    "resource": "pdftools",
+    "resource": "[pdftools](https://docs.ropensci.org/pdftools)",
     "url": "https://discuss.ropensci.org/t/filtering-pdfs-using-regex-in-their-body/2150",
     "image": "noimage",
     "date": "2020-06-25"
   },
   {
     "title": "Package for downloading shapefiles using piggyback",
+    "reporter": "Isabella Velásquez",
     "tags": ["r", "package", "geospatial", "piggyback"],
-    "resource": "piggyback",
+    "resource": "[piggyback](https://docs.ropensci.org/piggyback)",
     "url": "https://discuss.ropensci.org/t/package-for-downloading-shapefiles-using-piggyback/2073",
     "image": "noimage",
     "date": "2020-05-11"
   },
   {
     "title": "Basic manipulation of GIF frames with magick",
+    "reporter": "Kenneth Tay",
     "tags": [],
-    "resource": "magick",
+    "resource": "[magick](https://docs.ropensci.org/magick)",
     "url": "https://discuss.ropensci.org/t/basic-manipulation-of-gif-frames-with-magick/2192",
     "image": "noimage",
     "date": "2020-08-13"
   },
   {
     "title": "Creating a self-updating GitHub README using rtweet and GitHub Actions",
+    "reporter": "Zhi Yang, PhD",
     "tags": ["r", "rtweet"],
-    "resource": "rtweet",
+    "resource": "[rtweet](https://docs.ropensci.org/rtweet)",
     "url": "https://discuss.ropensci.org/t/creating-a-self-updating-github-readme-using-rtweet-and-github-actions/2181",
     "image": "creating-a-self-updating-github-readme-using-rtweet-and-github-actions.jpeg",
     "date": "2020-07-21"
   },
   {
     "title": "Extraindo tabelas de documentos pdf em R com Tabulizer",
+    "reporter": "Pedro Rocha",
     "tags": ["tabulizer", "portuguese"],
     "resource": "Tabulizer",
     "url": "https://discuss.ropensci.org/t/extraindo-tabelas-de-documentos-pdf-em-r-com-tabulizer/2178",
@@ -297,6 +343,7 @@
   },
   {
     "title": "Get tweet status ID from CrossRef Event Data with crevents",
+    "reporter": "Tuija Sonkkila",
     "tags": ["rtweet", "crevents"],
     "resource": "crevents",
     "url": "https://discuss.ropensci.org/t/get-tweet-status-id-from-crossref-event-data-with-crevents/1665",
@@ -305,14 +352,16 @@
   },
   {
     "title": "Using qualtRics to study the effect of COVID-19 on scientists",
+    "reporter": "Wei Yang Tham",
     "tags": ["r", "package", "qualtrics", "survey"],
-    "resource": "qualtRics",
+    "resource": "[qualtRics](https://docs.ropensci.org/qualtRics)",
     "url": "https://discuss.ropensci.org/t/using-qualtrics-to-study-the-effect-of-covid-19-on-scientists/2143",
     "image": "noimage",
     "date": "2020-06-21"
   },
   {
     "title": "Testing an API wrapper with webmockr and vcr",
+    "reporter": "Dave Parr",
     "tags": ["r", "package", "api", "testing"],
     "resource": "webmockr and vcr with the HTTP testing book. This question on ROpenSci helped me discover the tools.",
     "url": "https://discuss.ropensci.org/t/testing-an-api-wrapper-with-webmockr-and-vcr/2125",
@@ -321,70 +370,79 @@
   },
   {
     "title": "Detecting the Effects of Sustained Glacier Wastage on Streamflow in Variably Glacierized Catchments (Using tidyhydat)",
+    "reporter": "Sam Albers",
     "tags": "tidyhydat",
-    "resource": "tidyhydat",
+    "resource": "[tidyhydat](https://docs.ropensci.org/tidyhydat)",
     "url": "https://discuss.ropensci.org/t/detecting-the-effects-of-sustained-glacier-wastage-on-streamflow-in-variably-glacierized-catchments-using-tidyhydat/2095",
     "image": "detecting-the-effects-of-sustained-glacier-wastage-on-streamflow-in-variably-glacierized-catchments-using-tidyhydat.jpeg",
     "date": "2020-05-25"
   },
   {
     "title": "Using {drake} for machine learning",
+    "reporter": "Edwin Thoen",
     "tags": [],
-    "resource": "drake",
+    "resource": "[drake](https://docs.ropensci.org/drake)",
     "url": "https://discuss.ropensci.org/t/using-drake-for-machine-learning/2091",
     "image": "noimage",
     "date": "2020-05-22"
   },
   {
     "title": "Animated generative art with magick",
+    "reporter": "Peter Solymos",
     "tags": ["package", "magick", "images", "generative", "animation"],
-    "resource": "magick",
+    "resource": "[magick](https://docs.ropensci.org/magick)",
     "url": "https://discuss.ropensci.org/t/animated-generative-art-with-magick/2042",
     "image": "animated-generative-art-with-magick.jpeg",
     "date": "2020-04-21"
   },
   {
     "title": "Using taxadb to query taxonomic information in ecology projects",
+    "reporter": "Gavin Masterson",
     "tags": ["r", "package", "taxadb"],
-    "resource": "taxadb",
+    "resource": "[taxadb](https://docs.ropensci.org/taxadb)",
     "url": "https://discuss.ropensci.org/t/using-taxadb-to-query-taxonomic-information-in-ecology-projects/2046",
     "image": "using-taxadb-to-query-taxonomic-information-in-ecology-projects.png",
     "date": "2020-04-27"
   },
   {
     "title": "{Magick}ally Visualize Historical Google Maps Traffic Data",
+    "reporter": "Emmanuel Olamijuwon",
     "tags": ["r", "magick"],
-    "resource": "magick",
+    "resource": "[magick](https://docs.ropensci.org/magick)",
     "url": "https://discuss.ropensci.org/t/magick-ally-visualize-historical-google-maps-traffic-data/2026",
     "image": "magick-ally-visualize-historical-google-maps-traffic-data.jpeg",
     "date": "2020-04-10"
   },
   {
     "title": "pdftools for parsing tables from many .pdfs",
+    "reporter": "Tom Mock",
     "tags": ["package", "pdftools"],
-    "resource": "pdftools",
+    "resource": "[pdftools](https://docs.ropensci.org/pdftools)",
     "url": "https://discuss.ropensci.org/t/pdftools-for-parsing-tables-from-many-pdfs/2018",
     "image": "pdftools-for-parsing-tables-from-many-pdfs.png",
     "date": "2020-03-31"
   },
   {
     "title": "osmdata use case: Wall Art",
+    "reporter": "mark padgham",
     "tags": "osmdata",
-    "resource": "osmdata",
+    "resource": "[osmdata](https://docs.ropensci.org/osmdata)",
     "url": "https://discuss.ropensci.org/t/osmdata-use-case-wall-art/1944",
     "image": "osmdata-use-case-wall-art.jpeg",
     "date": "2020-02-06"
   },
   {
     "title": "tabulizer for parsing block-text from .pdf",
+    "reporter": "Leungi",
     "tags": ["package", "tabulizer"],
-    "resource": "tabulizer",
+    "resource": "[tabulizer](https://docs.ropensci.org/tabulizer)",
     "url": "https://discuss.ropensci.org/t/tabulizer-for-parsing-block-text-from-pdf/1930",
     "image": "tabulizer-for-parsing-block-text-from-pdf.gif",
     "date": "2020-02-01"
   },
   {
     "title": "Accessing, wrangling and plotting global weather data (for free!)",
+    "reporter": "Jasper Slingsby",
     "tags": ["rnoaa", "lawn"],
     "resource": "rnoaa, lawn,",
     "url": "https://discuss.ropensci.org/t/accessing-wrangling-and-plotting-global-weather-data-for-free/1926",
@@ -393,6 +451,7 @@
   },
   {
     "title": "mapping the location of biogeography researchers with `refsplitr`",
+    "reporter": "Emilio M Bruna",
     "tags": ["r", "package", "literature", "refsplitr"],
     "resource": "package refsplitr",
     "url": "https://discuss.ropensci.org/t/mapping-the-location-of-biogeography-researchers-with-refsplitr/1924",
@@ -401,6 +460,7 @@
   },
   {
     "title": "tidyhydat and weathercan webinar",
+    "reporter": "Sam Albers",
     "tags": ["weathercan", "tidyhydat"],
     "resource": "tidyhydat, weathercan and hydrology task view",
     "url": "https://discuss.ropensci.org/t/tidyhydat-and-weathercan-webinar/1858",
@@ -409,14 +469,16 @@
   },
   {
     "title": "Batch image manipulation using magick",
+    "reporter": "Rory Spanton",
     "tags": ["r", "magick"],
-    "resource": "magick",
+    "resource": "[magick](https://docs.ropensci.org/magick)",
     "url": "https://discuss.ropensci.org/t/batch-image-manipulation-using-magick/1889",
     "image": "noimage",
     "date": "2019-11-26"
   },
   {
     "title": "ERDDAP servers use case: tidync and rerddap",
+    "reporter": "Uryu Shinya",
     "tags": ["tidync", "rerddap"],
     "resource": "rerddap and tidync",
     "url": "https://discuss.ropensci.org/t/erddap-servers-use-case-tidync-and-rerddap/1869",
@@ -425,14 +487,16 @@
   },
   {
     "title": "Reproducible CV using rorcid",
+    "reporter": "Christopher J Lortie",
     "tags": "rorcid",
-    "resource": "rorcid",
+    "resource": "[rorcid](https://docs.ropensci.org/rorcid)",
     "url": "https://discuss.ropensci.org/t/reproducible-cv-using-rorcid/1862",
     "image": "noimage",
     "date": "2019-11-02"
   },
   {
     "title": "Academic CV using {vitae}, {scholar} to pull papers, and {tic} for building on Travis.",
+    "reporter": "Sam Abbott",
     "tags": ["tic", "vitae"],
     "resource": "{vitae} and {tic} - both rOpenSci Labs (and excellent).",
     "url": "https://discuss.ropensci.org/t/academic-cv-using-vitae-scholar-to-pull-papers-and-tic-for-building-on-travis/1842",
@@ -441,6 +505,7 @@
   },
   {
     "title": "Can {drake} RAP? Promoting {drake} for pipeline management in UK government",
+    "reporter": "Matt Dray",
     "tags": "drake",
     "resource": "{drake}",
     "url": "https://discuss.ropensci.org/t/can-drake-rap-promoting-drake-for-pipeline-management-in-uk-government/1841",
@@ -449,6 +514,7 @@
   },
   {
     "title": "Teaching how to create high quality R packages",
+    "reporter": "Tiffany A. Timbers",
     "tags": ["software-peer-review", "dev-guide"],
     "resource": "rOpenSci package development guide book",
     "url": "https://discuss.ropensci.org/t/teaching-how-to-create-high-quality-r-packages/1793",
@@ -457,46 +523,52 @@
   },
   {
     "title": "drake use case involving fires!",
+    "reporter": "Amanda Dobbyn",
     "tags": "drake",
-    "resource": "drake",
+    "resource": "[drake](https://docs.ropensci.org/drake)",
     "url": "https://discuss.ropensci.org/t/drake-use-case-involving-fires/1837",
     "image": "noimage",
     "date": "2019-09-27"
   },
   {
     "title": "Can rainfall be a useful predictor of epidemic risk across temporal and...",
+    "reporter": "Emerson M  Del Ponte",
     "tags": ["package", "rnaturalearth", "nasapower"],
-    "resource": "nasapower",
+    "resource": "[nasapower](https://docs.ropensci.org/nasapower)",
     "url": "https://discuss.ropensci.org/t/can-rainfall-be-a-useful-predictor-of-epidemic-risk-across-temporal-and/1701",
     "image": "can-rainfall-be-a-useful-predictor-of-epidemic-risk-across-temporal-and.jpeg",
     "date": "2019-05-10"
   },
   {
     "title": "Converting MedDRA Terminology to Linked Data using rdflib",
+    "reporter": "Tim Williams",
     "tags": ["r", "rdflib"],
-    "resource": "rdflib",
+    "resource": "[rdflib](https://docs.ropensci.org/rdflib)",
     "url": "https://discuss.ropensci.org/t/converting-meddra-terminology-to-linked-data-using-rdflib/1824",
     "image": "converting-meddra-terminology-to-linked-data-using-rdflib.png",
     "date": "2019-09-06"
   },
   {
     "title": "rcrossref for #TidyTuesday",
+    "reporter": "Jake Kaupp",
     "tags": ["rcrossref", "visualization"],
-    "resource": "rcrossref",
+    "resource": "[rcrossref](https://docs.ropensci.org/rcrossref)",
     "url": "https://discuss.ropensci.org/t/rcrossref-for-tidytuesday/1711",
     "image": "rcrossref-for-tidytuesday.jpeg",
     "date": "2019-05-17"
   },
   {
     "title": "Use rnaturalearth to get a background map in sf format for plotting with ggplot",
+    "reporter": "",
     "tags": "rnaturalearth",
-    "resource": "rnaturalearth",
+    "resource": "[rnaturalearth](https://docs.ropensci.org/rnaturalearth)",
     "url": "https://discuss.ropensci.org/t/use-rnaturalearth-to-get-a-background-map-in-sf-format-for-plotting-with-ggplot/1830",
     "image": "use-rnaturalearth-to-get-a-background-map-in-sf-format-for-plotting-with-ggplot.png",
     "date": "2019-09-10"
   },
   {
     "title": "Using pdftools, tabulizer, and writexl to simplify business information handling workflow",
+    "reporter": "David Hood",
     "tags": ["pdftools", "tabulizer", "writexl"],
     "resource": "Packages used are, from ropensci, pdftools, tabulizer, writexl, and also officer",
     "url": "https://discuss.ropensci.org/t/using-pdftools-tabulizer-and-writexl-to-simplify-business-information-handling-workflow/1815",
@@ -505,6 +577,7 @@
   },
   {
     "title": "Using rorcid to generate a website CV",
+    "reporter": "Noam Ross",
     "tags": "rorcid",
     "resource": "rorcid: https://github.com/ropensci/rorcid",
     "url": "https://discuss.ropensci.org/t/using-rorcid-to-generate-a-website-cv/1806",
@@ -513,6 +586,7 @@
   },
   {
     "title": "Use of R package review guidelines in independent manuscript review",
+    "reporter": "Stefanie Butland",
     "tags": ["software-peer-review", "dev-guide"],
     "resource": "rOpenSci package development guide book",
     "url": "https://discuss.ropensci.org/t/use-of-r-package-review-guidelines-in-independent-manuscript-review/1795",
@@ -521,22 +595,25 @@
   },
   {
     "title": "qualtRics: the Stack Overflow Developer Survey",
+    "reporter": "Julia Silge",
     "tags": "qualtrics",
-    "resource": "qualtRics",
+    "resource": "[qualtRics](https://docs.ropensci.org/qualtRics)",
     "url": "https://discuss.ropensci.org/t/qualtrics-the-stack-overflow-developer-survey/1689",
     "image": "qualtrics-the-stack-overflow-developer-survey.png",
     "date": "2019-05-01"
   },
   {
     "title": "Querying linked data to improve public services",
+    "reporter": "Henry Partridge",
     "tags": "ghql",
-    "resource": "ghql",
+    "resource": "[ghql](https://docs.ropensci.org/ghql)",
     "url": "https://discuss.ropensci.org/t/querying-linked-data-to-improve-public-services/1781",
     "image": "querying-linked-data-to-improve-public-services.jpeg",
     "date": "2019-07-17"
   },
   {
     "title": "Using fingertipsR for public health data in UK local government",
+    "reporter": "Stefanie Butland",
     "tags": ["r", "data-access", "fingertipsr"],
     "resource": "fingertipsR by Sebastian Fox",
     "url": "https://discuss.ropensci.org/t/using-fingertipsr-for-public-health-data-in-uk-local-government/1780",
@@ -545,22 +622,25 @@
   },
   {
     "title": "Promoting R and rOpenSci packages in UK local government",
+    "reporter": "Henry Partridge",
     "tags": ["r", "package", "fingertipsr", "ropenaq"],
-    "resource": "ropenaq",
+    "resource": "[ropenaq](https://docs.ropensci.org/ropenaq)",
     "url": "https://discuss.ropensci.org/t/promoting-r-and-ropensci-packages-in-uk-local-government/1776",
     "image": "noimage",
     "date": "2019-07-17"
   },
   {
     "title": "Using bomrang to correlate weather conditions to sorghum stalk rot (charcoal rot)",
+    "reporter": "Adam Sparks",
     "tags": ["weather", "bomrang"],
-    "resource": "bomrang",
+    "resource": "[bomrang](https://docs.ropensci.org/bomrang)",
     "url": "https://discuss.ropensci.org/t/using-bomrang-to-correlate-weather-conditions-to-sorghum-stalk-rot-charcoal-rot/1758",
     "image": "using-bomrang-to-correlate-weather-conditions-to-sorghum-stalk-rot-charcoal-rot.png",
     "date": "2019-07-01"
   },
   {
     "title": "get_clean_obs R Function (searching, pulling and cleaning citizen science records from iNaturalist and GBIF)",
+    "reporter": "Keatonwilson",
     "tags": ["r", "rgbif", "spocc"],
     "resource": "spocc,  rgbif",
     "url": "https://discuss.ropensci.org/t/get-clean-obs-r-function-searching-pulling-and-cleaning-citizen-science-records-from-inaturalist-and-gbif/1731",
@@ -569,38 +649,43 @@
   },
   {
     "title": "osmdata use case: Bicycle network analysis of Auckland",
+    "reporter": "Kim Fitter",
     "tags": ["package", "geospatial", "osmdata"],
-    "resource": "osmdata",
+    "resource": "[osmdata](https://docs.ropensci.org/osmdata)",
     "url": "https://discuss.ropensci.org/t/osmdata-use-case-bicycle-network-analysis-of-auckland/1721",
     "image": "noimage",
     "date": "2019-05-30"
   },
   {
     "title": "Using drake to power a new soil respiration database",
+    "reporter": "Ben Bond Lamberty",
     "tags": "drake",
-    "resource": "drake",
+    "resource": "[drake](https://docs.ropensci.org/drake)",
     "url": "https://discuss.ropensci.org/t/using-drake-to-power-a-new-soil-respiration-database/1692",
     "image": "using-drake-to-power-a-new-soil-respiration-database.png",
     "date": "2019-05-04"
   },
   {
     "title": "rgbif: get a little or a*lot* of occurrence data",
+    "reporter": "Stefanie Butland",
     "tags": ["rgbif", "community-call", "gbif"],
-    "resource": "rgbif",
+    "resource": "[rgbif](https://docs.ropensci.org/rgbif)",
     "url": "https://discuss.ropensci.org/t/rgbif-get-a-little-or-a-lot-of-occurrence-data/1635",
     "image": "noimage",
     "date": "2019-04-02"
   },
   {
     "title": "taxize: Understanding how seafood mislabelling misrepresents the conservation status of the fish on your plate",
+    "reporter": "Stefanie Butland",
     "tags": ["taxize", "taxonomy"],
-    "resource": "taxize",
+    "resource": "[taxize](https://docs.ropensci.org/taxize)",
     "url": "https://discuss.ropensci.org/t/taxize-understanding-how-seafood-mislabelling-misrepresents-the-conservation-status-of-the-fish-on-your-plate/1634",
     "image": "taxize-understanding-how-seafood-mislabelling-misrepresents-the-conservation-status-of-the-fish-on-your-plate.png",
     "date": "2019-03-29"
   },
   {
     "title": "rBiodiversidata",
+    "reporter": "Flo",
     "tags": ["taxize", "usecase", "rredlist"],
     "resource": "rredlist, taxize",
     "url": "https://discuss.ropensci.org/t/rbiodiversidata/1633",
@@ -609,14 +694,16 @@
   },
   {
     "title": "weathercan: Exploring extreme weather events in my neighbourhood",
+    "reporter": "Steph Hazlitt",
     "tags": "weathercan",
-    "resource": "weathercan",
+    "resource": "[weathercan](https://docs.ropensci.org/weathercan)",
     "url": "https://discuss.ropensci.org/t/weathercan-exploring-extreme-weather-events-in-my-neighbourhood/1630",
     "image": "weathercan-exploring-extreme-weather-events-in-my-neighbourhood.png",
     "date": "2019-03-27"
   },
   {
     "title": "Linking phylogenetic and geographic data using rotl and rgbif",
+    "reporter": "Emily Jane Mc Tavish",
     "tags": ["rgbif", "rotl"],
     "resource": "rotl, rgbif",
     "url": "https://discuss.ropensci.org/t/linking-phylogenetic-and-geographic-data-using-rotl-and-rgbif/1629",

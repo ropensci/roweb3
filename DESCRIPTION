@@ -1,0 +1,43 @@
+Package: roweb3
+Title: rOpenSci Website
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Maëlle",
+           family = "Salmon",
+           role = c("cre", "aut"),
+           email = "msmaellesalmon@gmail.com",
+           comment = c(ORCID = "0000-0002-2815-0399"))
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Imports: 
+    anytime,
+    english,
+    blogdown,
+    desc,
+    discgolf (>= 0.2.3.96),
+    dplyr,
+    fs,
+    gh,
+    glue,
+    jsonlite,
+    knitr,
+    lubridate,
+    magrittr,
+    purrr,
+    rlang,
+    rmarkdown,
+    stringr,
+    tibble,
+    tools,
+    urltools,
+    withr,
+    xml2,
+    yaml,
+    snakecase,
+    magick
+Remotes: 
+    sckott/discgolf
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1.9001

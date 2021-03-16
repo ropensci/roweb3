@@ -1,0 +1,41 @@
+{{ define "main" }}
+<section class="blog-hero">
+  <div class="container bg-cubes">
+    <div class="row align-items-center blog-heading">
+      <div class="col-md-9">
+        <h1>The rOpenSci Newsletter</h1>
+        </div>
+      <div class="col-md-3">
+        <ul class="blog-links text-uppercase d-flex justify-content-md-end">
+          <li><a href="/tags/newsletter/index.xml" class="btn btn-primary">RSS</a></li>
+          <li><a href="/tags/newsletter/index.json" class="btn btn-primary">JSON</a></li>
+        </ul>
+      </div>
+      </div>
+      <div class="col-md-9 subtitle">
+      {{ .Params.description | markdownify }}  
+      {{ partial "newsletter/form" }}
+      <p>Find previous issues below. Newsletters until February 2021 are archived at <a href="https://news.ropensci.org">https://news.ropensci.org</a>.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+<img class="divider d-none d-md-block" src="/images/svg/divider-rl-sm.svg" alt="" />
+<section class="posts">
+  <div class="container">
+     {{ $pages := (where .Site.Pages.ByPublishDate.Reverse ".Params.tags" "intersect" (slice "newsletter")) }}
+    <h2 class="title">Previous Newsletters and Digests</h2>
+
+    <div class="row author-blog">
+      <div class="col-md-8">
+{{ range $pages }}
+{{ .Render "post-short-summary-author" }}
+{{ end }}
+        </div>
+      </div>
+    </div>
+</section>
+{{ partial "whole-page-fragments/volunteer"  (dict "divider" "rl" "Site" .Site ) }}
+{{ partial "whole-page-fragments/brands"  (dict "Site" .Site "divider" "lr" ) }}
+{{ end }}
