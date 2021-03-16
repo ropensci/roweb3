@@ -12,6 +12,7 @@ tags:
   - community
   - interviews
   - staff
+  - statistical-software
 ---
 We’re thrilled to be introducing a new member of our team. Mark Padgham has joined rOpenSci as a Software Research Scientist working full-time from Münster, Germany. Mark will play a key role in research and development of statistical software standards and expanding our efforts in software peer review, enabled by [new funding](/blog/2019/07/15/expanding-software-review/) from the Sloan Foundation. He will work closely with [Noam Ross](/authors/noam-ross/), rOpenSci Leadership team member, and Scientist at EcoHealth Alliance and [Karthik Ram](/authors/karthik-ram/), rOpenSci Project Lead.
 

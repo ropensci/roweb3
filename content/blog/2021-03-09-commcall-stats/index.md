@@ -15,6 +15,7 @@ tags:
   - community
   - statistics
   - community-call
+  - statistical-software
 description: "Summary of the Community Call on Statistical Software Testing and Peer Review"
 twitterImg: blog/2021/03/09/commcall-stats/speakers_twitter.png
 twitterAlt: "Headshots of the five speakers"

@@ -63,6 +63,7 @@ tags:
   - Software Peer Review
   - statistics
   - reproducibility
+  - statistical software
 deets: |
     Meeting ID: 994 3486 3374
     
