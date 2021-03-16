@@ -245,32 +245,39 @@ install_cmdstan()
 ```
 
 [`stantargets`](https://wlandau.github.io/stantargets/)[^12] abstracts away most of the targets and functions required for a solid Bayesian data analysis with [Stan](https://mc-stan.org)[^13].
-With a single [target factory](https://wlandau.github.io/targetopia/contributing.html#target-factories) and a single function to generate data, [`stantargets`](https://wlandau.github.io/stantargets/) can give you an entire sensitivity analysis or an entire [simulation-based calibration study](https://wlandau.github.io/stantargets/articles/mcmc_rep.html).[^14] [^15]
+With a single [target factory](https://wlandau.github.io/targetopia/contributing.html#target-factories) and a single function to generate data, [`stantargets`](https://wlandau.github.io/stantargets/) can give you an entire sensitivity analysis or an entire [simulation study](https://wlandau.github.io/stantargets/articles/mcmc_rep.html).
 
 ```r 
-# _targets.R for simulation-based calibration to validate a Stan model.
+# _targets.R file
+# Repeatedly simulate data from the prior predictive distribution
+# and compute a 95% posterior interval for beta for each model run.
 library(targets)
 library(stantargets)
 
-generate_data <- function() {
-  true_beta <- stats::rnorm(n = 1, mean = 0, sd = 1)
+simulate_data <- function(n = 10L) {
+  alpha <- rnorm(n = 1, mean = 0, sd = 1)
+  beta <- rnorm(n = n, mean = 0, sd = 1)
   x <- seq(from = -1, to = 1, length.out = n)
-  y <- stats::rnorm(n, x * true_beta, 1)
-  list(n = n, x = x, y = y, true_beta = true_beta)
+  y <- rnorm(n, alpha + x * beta, 1)
+  list(
+    n = n,
+    x = x,
+    y = y
+  )
 }
 
 list(
   tar_stan_mcmc_rep_summary(
     model,
-    "model.stan", # We assume you already have a Stan model file.
-    generate_data(), # Runs once per rep.
-    batches = 25, # Batching reduces per-target overhead.
-    reps = 40, # Number of simulation reps per batch.
-    data_copy = "true_beta",
-    variables = "beta",
+    "model.stan",
+    simulate_data(),
+    batches = 5, # Number of branch targets.
+    reps = 2, # Number of model reps per branch target.
+    variables = c("alpha", "beta"),
     summaries = list(
       ~posterior::quantile2(.x, probs = c(0.025, 0.975))
-    )
+    ),
+    log = R.utils::nullfile()
   )
 )
 ```
@@ -295,7 +302,7 @@ tar_visnetwork()
 install.packages("tarchetypes")
 ```
 
-The [`tarchetypes`](https://docs.rOpenSci.org/tarchetypes/)[^16] [R Targetopia](https://wlandau.github.io/targetopia/) package is far more general than [`stantargets`](https://wlandau.github.io/stantargets/).
+The [`tarchetypes`](https://docs.rOpenSci.org/tarchetypes/)[^14] [R Targetopia](https://wlandau.github.io/targetopia/) package is far more general than [`stantargets`](https://wlandau.github.io/stantargets/).
 Its target factories include [`tar_rep()`](https://docs.rOpenSci.org/tarchetypes/reference/tar_rep.html) for arbitrary simulation studies, [`tar_render()`](https://books.rOpenSci.org/targets/files.html#literate-programming) for [dependency-aware](https://books.rOpenSci.org/targets/files.html#literate-programming) literate programming, and [`tar_render_rep()`](https://docs.rOpenSci.org/tarchetypes/reference/tar_render_rep.html) for [parameterized R Markdown](https://bookdown.org/yihui/rmarkdown/parameterized-reports.html).
 [`tar_plan()`](https://docs.rOpenSci.org/tarchetypes/reference/tar_plan.html) is a [`drake_plan()`](https://docs.rOpenSci.org/drake/reference/drake_plan.html)-like target factory to help [`drake`](https://docs.rOpenSci.org/drake/) users transition to [`targets`](https://docs.rOpenSci.org/targets/).
 
@@ -313,7 +320,7 @@ tar_plan(
 
 ### You can help!
 
-The [R Targetopia](https://wlandau.github.io/targetopia/) has exciting potential for  [tidymodels](https://www.tidymodels.org/)[^17], [`mlr3`](https://mlr3.mlr-org.com/)[^18], [`keras`](https://keras.rstudio.com/)[^19], [`torch`](https://torch.mlverse.org/)[^20], PK/PD, spatial statistics, and beyond.
+The [R Targetopia](https://wlandau.github.io/targetopia/) has exciting potential for  [tidymodels](https://www.tidymodels.org/)[^15], [`mlr3`](https://mlr3.mlr-org.com/)[^16], [`keras`](https://keras.rstudio.com/)[^17], [`torch`](https://torch.mlverse.org/)[^18], PK/PD, spatial statistics, and beyond.
 If your field needs a friendly pipeline tool, please consider creating an [R Targetopia](https://wlandau.github.io/targetopia/) package of your own.
 I am [trying to make it easy](https://wlandau.github.io/targetopia/contributing.html), and I would be eager to get in touch.
 
@@ -354,12 +361,10 @@ The views in this post do not necessarily reflect those of my employer.
 [^11]: Landau, W. M., (2021). The R Targetopia: an R package ecosystem for democratized reproducible pipelines at scale. https://wlandau.github.io/targetopia/
 [^12]: Landau, W. M., (2021). stantargets: Targets for Stan Workflows. https://wlandau.github.io/stantargets/, https://github.com/wlandau/stantargets.
 [^13]: Stan Development Team (2012). Stan: a C++ library for probability and sampling. https://mc-stan.org
-[^14]: Cook, Samantha R., Andrew Gelman, and Donald B. Rubin. 2006. “Validation of Software for Bayesian Models Using Posterior Quantiles.” Journal of Computational and Graphical Statistics 15 (3): 675–92. http://www.jstor.org/stable/27594203
-[^15]: Talts, Sean, Michael Betancourt, Daniel Simpson, Aki Vehtari, and Andrew Gelman. 2020. “Validating Bayesian Inference Algorithms with Simulation-Based Calibration.” http://arxiv.org/abs/1804.06788
-[^16]: Landau, W. M. (2021). tarchetypes: Archetypes for Targets. https://docs.rOpenSci.org/tarchetypes/, https://github.com/rOpenSci/tarchetypes.
-[^17]: Kuhn et al., (2020). Tidymodels: a collection of packages for modeling and machine learning using tidyverse principles. https://www.tidymodels.org
-[^18]: Lang M, Binder M, Richter J, Schratz P, Pfisterer F, Coors S, Au Q, Casalicchio G, Kotthoff L, Bischl B (2019). mlr3: A modern object-oriented machine learning framework in R. Journal of Open Source Software. https://doi.org/10.21105/joss.01903,  https://joss.theoj.org/papers/10.21105/joss.01903
-[^19]: JJ Allaire and François Chollet (2020). keras: R Interface to 'Keras'. R package version 2.3.0.0. https://CRAN.R-project.org/package=keras
-[^20]: Daniel Falbel and Javier Luraschi (2020). torch: Tensors and Neural Networks with 'GPU' Acceleration. R package version 0.2.0. https://CRAN.R-project.org/package=torch
+[^14]: Landau, W. M. (2021). tarchetypes: Archetypes for Targets. https://docs.rOpenSci.org/tarchetypes/, https://github.com/rOpenSci/tarchetypes.
+[^15]: Kuhn et al., (2020). Tidymodels: a collection of packages for modeling and machine learning using tidyverse principles. https://www.tidymodels.org
+[^16]: Lang M, Binder M, Richter J, Schratz P, Pfisterer F, Coors S, Au Q, Casalicchio G, Kotthoff L, Bischl B (2019). mlr3: A modern object-oriented machine learning framework in R. Journal of Open Source Software. https://doi.org/10.21105/joss.01903,  https://joss.theoj.org/papers/10.21105/joss.01903
+[^17]: JJ Allaire and François Chollet (2020). keras: R Interface to 'Keras'. R package version 2.3.0.0. https://CRAN.R-project.org/package=keras
+[^18]: Daniel Falbel and Javier Luraschi (2020). torch: Tensors and Neural Networks with 'GPU' Acceleration. R package version 0.2.0. https://CRAN.R-project.org/package=torch
 
 
