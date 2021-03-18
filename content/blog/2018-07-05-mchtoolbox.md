@@ -36,8 +36,6 @@ The first step to bridging your island is figuring out what problems exist. They
 
 We aimed to build a package that addresses a gap in the workflow of researchers working in maternal and child health: Reference data from representative populations is used in maternal and child health research and public health surveillance to calculate percentiles, z-scores, and related values. This is important for measures that naturally change over the lifespan, such as body mass index and blood pressure. Because code to calculate these quantities - if it exists! - may be only available in SAS (which is not freely available to all researchers), or is scattered among a few disconnected R packages, it can be difficult to calculate these variables and incorporate them into an R-centric workflow. We wanted to create something that would close this gap. As we formed project teams for the unconf, we were convinced that this project would be something we could create within the scope of the unconf that would tangibly benefit others.
 
-{{< tweet 999274443707891719 >}}
-
 
 ### Using runconf to learn how to collaborate
 
