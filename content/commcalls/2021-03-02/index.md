@@ -16,6 +16,7 @@ location: Community call (teleconference)
 country: "\U0001F310"
 attendees: All are welcome
 slug: feb2021-statsreview
+blog: /blog/2021/03/09/commcall-stats/
 notes: https://docs.google.com/document/d/1o933nG1ZW2Qf8p7FdQxn8wOkk9qoBINL1fx3FlIFSJU/
 outputs:
 - HTML
