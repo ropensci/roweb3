@@ -5,6 +5,7 @@ package_version: 0.13.6
 author:
   - Erik Bülow
 date: 2021-02-09
+featured: true
 tags:
   - Software Peer Review
   - packages
