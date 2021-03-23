@@ -23,6 +23,8 @@ outputs:
 vimeo:
  - id: '518761488'
 resources:
+  - url: /blog/2021/03/09/commcall-stats/
+    name: Summary blog post
   - url: https://ropenscilabs.github.io/statistical-software-review-book/index.html
     name: rOpenSci Statistical Software Peer Review
     details: book

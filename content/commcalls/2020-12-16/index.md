@@ -23,6 +23,9 @@ outputs:
 vimeo:
   - id: '492310551'
 resources:
+  - url: https://sinarueeger.github.io/post/the-headache-with-data-repositories/
+    name: The headache with data repositories
+    details: blog post by Sina Rüeger, with her perspectives on this community call and challenges in both using data repositories and storing data in repositories while working as a genomic data scientist
   - url: https://github.com/ropensci-org/community-calls/issues/9
     name: Discussion on GitHub
     details: Read the thread that led to this Community Call
