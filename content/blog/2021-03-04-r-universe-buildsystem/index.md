@@ -3,6 +3,7 @@ slug: r-universe-buildsystem
 title: 'A first look at the R-universe build infrastructure'
 date: '2021-03-04'
 author: Jeroen Ooms
+featured: true
 tags:
   - r-universe
   - tech notes
