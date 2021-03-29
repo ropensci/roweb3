@@ -1,5 +1,5 @@
 ---
-title: Foster a community around your R package
+title: Foster a Community Around Your R package
 dateStart: 2021-04-22T16:00:00 # UTC!!
 dateEnd: 2021-04-22T17:00:00 # UTC!!
 date: 2021-04-22T17:00:00 # UTC!! same as dateEnd
