@@ -1,5 +1,5 @@
 ---
-title: Set up Your R Package to Get the Most out of Your Community
+title: Foster a community around your R package
 dateStart: 2021-04-22T16:00:00 # UTC!!
 dateEnd: 2021-04-22T17:00:00 # UTC!!
 date: 2021-04-22T17:00:00 # UTC!! same as dateEnd
@@ -48,5 +48,7 @@ deets: |
 zoomurl: https://zoom.us/j/98151023535?pwd=N0xEWDczbnI3WEhuWGxsVVNmbWlsUT09
 ---
 
-Details coming soon!
+This Community Call was inspired by ...
+
+Related: Community Call on [Maintaining an R Package](commcalls/2020-03-18/).
 
