@@ -220,3 +220,22 @@ Note that main.min.css that contains all the CSS is stored under themes/ropensci
 * Tweet about the newsletter from rOpenSci account, highlighting some numbers.
 
 Review criteria: anything looks weird? (need to fix upstream data or code?). Special focus on manually updated sections.
+
+### When deploys fail
+
+* Look at the Netlify logs (linked from the commit status) for information.
+* If relevant, check the YAML indentation. Try to build the website locally.
+* When a problem is an embedded tweet e.g.
+
+```
+5:04:39 PM: ERROR 2021/03/29 08:04:39 Failed to get JSON resource "https://api.twitter.com/1/statuses/oembed.json?id=bla&dnt=true":
+```
+
+  * Look for the tweet with that ID on Twitter `http://twitter.com/user/status/bla` (Twitter will re-direct to the correct user). Was it deleted, or is the account now private? 
+    * If the tweet was deleted or is now private, amend the Markdown file(s) where it was embedded.
+    * If the tweet is available, try re-triggering the deploy.
+
+* Check https://www.netlifystatus.com/.
+* To trigger a new deploy
+    * If you are a member of the rOpenSci team on Netlify, use the Netlify interface to re-trigger a deploy.
+    * Alternatively make an empty commit `git commit -m "trigger deploy" --allow-empty` and push.
