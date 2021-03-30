@@ -15,6 +15,7 @@ location: Community call (teleconference)
 country: "\U0001F310"
 attendees: All are welcome
 slug: apr2021-pkg-community
+featured: true
 speakers:  
   - name: Maëlle Salmon
     bio: "Maëlle Salmon is a (R)esearch Software Engineer, part-time with rOpenSci where she, among other things, maintains the guide [rOpenSci Packages: Development, Maintenance, and Peer Review](https://devguide.ropensci.org/). She also created the [R-hub blog](https://blog.r-hub.io) and co-wrote the book [HTTP testing in R](https://books.ropensci.org/http-testing) with [Scott Chamberlain](/author/scott-chamberlain). She lives in Nancy, France. Maëlle on [GitHub](https://github.com/maelle), [Twitter](https://twitter.com/ma_salmon), [Website](https://masalmon.eu/), [rOpenSci](/author/maëlle-salmon/)."
