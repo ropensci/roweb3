@@ -216,7 +216,7 @@ Note that main.min.css that contains all the CSS is stored under themes/ropensci
 * Once the post is merged use the R-bloggers feed to get an HTML version of the post with absolute URLs, to be used for MailChimp. Things to change before using the content for MailChimp
     * The images URL src needs to get the URL to the post (Search and Replace in Atom)
     * The lines need to be hard-wrapped (Ctrl+Shift+Q in Atom)
-* In MailChimp, replicate a past campaign, changing its name, subject and preview (use the YAML field "description").
+* In MailChimp, replicate a past campaign, changing its name, subject and preview (use the YAML field "description"). **Disable [click tracking](https://mailchimp.com/help/enable-and-view-click-tracking/#Turn_click_tracking_on_or_off).**
 * Tweet about the newsletter from rOpenSci account, highlighting some numbers.
 
 Review criteria: anything looks weird? (need to fix upstream data or code?). Special focus on manually updated sections.
