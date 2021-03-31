@@ -34,7 +34,8 @@ Imports:
     xml2,
     yaml,
     snakecase,
-    magick
+    magick,
+    memoise
 Remotes: 
     sckott/discgolf
 Encoding: UTF-8

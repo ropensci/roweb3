@@ -1,5 +1,32 @@
 [
   {
+    "title": "Kontarion - a stack extending rocker/ml-verse for Bibliometric analytics",
+    "reporter": "Markus Skyttner",
+    "tags": ["refsplitr", "rcrossref", "fulltext", "oai", "rentrez"],
+    "resource": "[oai](https://docs.ropensci.org/oai), [rentrez](https://docs.ropensci.org/rentrez), [fulltext](https://docs.ropensci.org/fulltext), [europepmc](https://docs.ropensci.org/europepmc), [refsplitr](https://docs.ropensci.org/refsplitr), [rcrossref](https://docs.ropensci.org/rcrossref), [citecorp](https://docs.ropensci.org/citecorp), [roadoi](https://docs.ropensci.org/roadoi)",
+    "url": "https://discuss.ropensci.org/t/kontarion-a-stack-extending-rocker-ml-verse-for-bibliometric-analytics/2214",
+    "image": "noimage",
+    "date": "2020-09-15"
+  },
+  {
+    "title": "osmdata, rnaturalearth and magick for #TidyTuesday",
+    "reporter": "Jake Kaupp",
+    "tags": [],
+    "resource": "[osmdata](https://docs.ropensci.org/osmdata), [rnaturalearth](https://docs.ropensci.org/rnaturalearth), [magick](https://docs.ropensci.org/magick)",
+    "url": "https://discuss.ropensci.org/t/osmdata-rnaturalearth-and-magick-for-tidytuesday/2255",
+    "image": "osmdata-rnaturalearth-and-magick-for-tidytuesday.jpeg",
+    "date": "2020-11-06"
+  },
+  {
+    "title": "tidyhydat and weathercan webinar",
+    "reporter": "Sam Albers",
+    "tags": ["weathercan", "tidyhydat"],
+    "resource": "[tidyhydat](https://docs.ropensci.org/tidyhydat), [weathercan](https://docs.ropensci.org/weathercan), hydrology task view",
+    "url": "https://discuss.ropensci.org/t/tidyhydat-and-weathercan-webinar/1858",
+    "image": "tidyhydat-and-weathercan-webinar.jpeg",
+    "date": "2019-10-29"
+  },
+  {
     "title": "Using terrainr to retrieve spatial data and make 3D landscape visualizations",
     "reporter": "Michael Mahoney",
     "tags": ["r", "package", "usecase", "terrainr"],
@@ -117,15 +144,6 @@
     "date": "2020-11-21"
   },
   {
-    "title": "osmdata, rnaturalearth and magick for #TidyTuesday",
-    "reporter": "Jake Kaupp",
-    "tags": [],
-    "resource": "I used osmdata, rnaturalearth and magick",
-    "url": "https://discuss.ropensci.org/t/osmdata-rnaturalearth-and-magick-for-tidytuesday/2255",
-    "image": "osmdata-rnaturalearth-and-magick-for-tidytuesday.jpeg",
-    "date": "2020-11-06"
-  },
-  {
     "title": "osmdata: Rail transport network of the three largest cities in Spain",
     "reporter": "Guillem Salazar",
     "tags": ["package", "geospatial", "osmdata"],
@@ -147,7 +165,7 @@
     "title": "bomrang with a third party package, stationaRy, to get hourly weather data and clifro to plot wind roses",
     "reporter": "Adam Sparks",
     "tags": ["r", "weather", "bomrang", "research-compendia"],
-    "resource": "bomrang, clifro",
+    "resource": "[bomrang](https://docs.ropensci.org/bomrang), [clifro](https://docs.ropensci.org/clifro)",
     "url": "https://discuss.ropensci.org/t/bomrang-with-a-third-party-package-stationary-to-get-hourly-weather-data-and-clifro-to-plot-wind-roses/2082",
     "image": "bomrang-with-a-third-party-package-stationary-to-get-hourly-weather-data-and-clifro-to-plot-wind-roses.png",
     "date": "2020-05-17"
@@ -171,19 +189,10 @@
     "date": "2020-09-15"
   },
   {
-    "title": "Kontarion - a stack extending rocker/ml-verse for Bibliometric analytics",
-    "reporter": "Markus Skyttner",
-    "tags": ["refsplitr", "rcrossref", "fulltext", "oai", "rentrez"],
-    "resource": "Several packages from packages, including for example oai, rentrez, fulltext, europepmc, refsplitr, rcrossref, citecorp, roadoi",
-    "url": "https://discuss.ropensci.org/t/kontarion-a-stack-extending-rocker-ml-verse-for-bibliometric-analytics/2214",
-    "image": "noimage",
-    "date": "2020-09-15"
-  },
-  {
     "title": "covidpreprints.com using europepmc and rAltmetric",
     "reporter": "Zhanghe Goh",
     "tags": ["r", "package", "raltmetric", "europepmc"],
-    "resource": "europepmc, rAltmetric",
+    "resource": "[europepmc](https://docs.ropensci.org/europepmc), [rAltmetric](https://docs.ropensci.org/rAltmetric)",
     "url": "https://discuss.ropensci.org/t/covidpreprints-com-using-europepmc-and-raltmetric/2210",
     "image": "noimage",
     "date": "2020-09-08"
@@ -201,7 +210,7 @@
     "title": "Analyzing invoice data from Elsevier relative to hybrid open access",
     "reporter": "Najko Jahn",
     "tags": ["rcrossref", "tabulizer"],
-    "resource": "rcrossref, crminer, tabulizer",
+    "resource": "[rcrossref](https://docs.ropensci.org/rcrossref), crminer, [tabulizer](https://docs.ropensci.org/tabulizer)",
     "url": "https://discuss.ropensci.org/t/analyzing-invoice-data-from-elsevier-relative-to-hybrid-open-access/1887",
     "image": "noimage",
     "date": "2019-11-25"
@@ -210,7 +219,7 @@
     "title": "Spanish and English blogs on how to use rtweet and magick",
     "reporter": "Rayna Harris",
     "tags": ["r", "magick", "rtweet", "spanish"],
-    "resource": "rtweet, magick",
+    "resource": "[rtweet](https://docs.ropensci.org/rtweet), [magick](https://docs.ropensci.org/magick)",
     "url": "https://discuss.ropensci.org/t/spanish-and-english-blogs-on-how-to-use-rtweet-and-magick/2188",
     "image": "spanish-and-english-blogs-on-how-to-use-rtweet-and-magick.png",
     "date": "2020-08-01"
@@ -444,7 +453,7 @@
     "title": "Accessing, wrangling and plotting global weather data (for free!)",
     "reporter": "Jasper Slingsby",
     "tags": ["rnoaa", "lawn"],
-    "resource": "rnoaa, lawn,",
+    "resource": "[rnoaa](https://docs.ropensci.org/rnoaa), lawn",
     "url": "https://discuss.ropensci.org/t/accessing-wrangling-and-plotting-global-weather-data-for-free/1926",
     "image": "accessing-wrangling-and-plotting-global-weather-data-for-free.png",
     "date": "2020-01-30"
@@ -457,15 +466,6 @@
     "url": "https://discuss.ropensci.org/t/mapping-the-location-of-biogeography-researchers-with-refsplitr/1924",
     "image": "mapping-the-location-of-biogeography-researchers-with-refsplitr.png",
     "date": "2020-01-28"
-  },
-  {
-    "title": "tidyhydat and weathercan webinar",
-    "reporter": "Sam Albers",
-    "tags": ["weathercan", "tidyhydat"],
-    "resource": "tidyhydat, weathercan and hydrology task view",
-    "url": "https://discuss.ropensci.org/t/tidyhydat-and-weathercan-webinar/1858",
-    "image": "tidyhydat-and-weathercan-webinar.jpeg",
-    "date": "2019-10-29"
   },
   {
     "title": "Batch image manipulation using magick",
@@ -516,7 +516,7 @@
     "title": "Teaching how to create high quality R packages",
     "reporter": "Tiffany A. Timbers",
     "tags": ["software-peer-review", "dev-guide"],
-    "resource": "rOpenSci package development guide book",
+    "resource": "[rOpenSci package development guide book](https://devguide.ropensci.org)",
     "url": "https://discuss.ropensci.org/t/teaching-how-to-create-high-quality-r-packages/1793",
     "image": "noimage",
     "date": "2019-08-05"
@@ -570,7 +570,7 @@
     "title": "Using pdftools, tabulizer, and writexl to simplify business information handling workflow",
     "reporter": "David Hood",
     "tags": ["pdftools", "tabulizer", "writexl"],
-    "resource": "Packages used are, from ropensci, pdftools, tabulizer, writexl, and also officer",
+    "resource": "[pdftools](https://docs.ropensci.org/pdftools), [tabulizer](https://docs.ropensci.org/tabulizer), [writexl](https://docs.ropensci.org/writexl)",
     "url": "https://discuss.ropensci.org/t/using-pdftools-tabulizer-and-writexl-to-simplify-business-information-handling-workflow/1815",
     "image": "noimage",
     "date": "2019-08-27"
@@ -588,7 +588,7 @@
     "title": "Use of R package review guidelines in independent manuscript review",
     "reporter": "Stefanie Butland",
     "tags": ["software-peer-review", "dev-guide"],
-    "resource": "rOpenSci package development guide book",
+    "resource": "[rOpenSci package development guide book](https://devguide.ropensci.org)",
     "url": "https://discuss.ropensci.org/t/use-of-r-package-review-guidelines-in-independent-manuscript-review/1795",
     "image": "use-of-r-package-review-guidelines-in-independent-manuscript-review.png",
     "date": "2019-08-08"
@@ -642,7 +642,7 @@
     "title": "get_clean_obs R Function (searching, pulling and cleaning citizen science records from iNaturalist and GBIF)",
     "reporter": "Keatonwilson",
     "tags": ["r", "rgbif", "spocc"],
-    "resource": "spocc,  rgbif",
+    "resource": "[spocc](https://docs.ropensci.org/spocc), [rgbif](https://docs.ropensci.org/rgbif)",
     "url": "https://discuss.ropensci.org/t/get-clean-obs-r-function-searching-pulling-and-cleaning-citizen-science-records-from-inaturalist-and-gbif/1731",
     "image": "noimage",
     "date": "2019-06-06"
@@ -687,7 +687,7 @@
     "title": "rBiodiversidata",
     "reporter": "Flo",
     "tags": ["taxize", "usecase", "rredlist"],
-    "resource": "rredlist, taxize",
+    "resource": "[rredlist](https://docs.ropensci.org/rredlist), [taxize](https://docs.ropensci.org/taxize)",
     "url": "https://discuss.ropensci.org/t/rbiodiversidata/1633",
     "image": "noimage",
     "date": "2019-03-28"
@@ -705,7 +705,7 @@
     "title": "Linking phylogenetic and geographic data using rotl and rgbif",
     "reporter": "Emily Jane Mc Tavish",
     "tags": ["rgbif", "rotl"],
-    "resource": "rotl, rgbif",
+    "resource": "[rotl](https://docs.ropensci.org/rotl), [rgbif](https://docs.ropensci.org/rgbif)",
     "url": "https://discuss.ropensci.org/t/linking-phylogenetic-and-geographic-data-using-rotl-and-rgbif/1629",
     "image": "linking-phylogenetic-and-geographic-data-using-rotl-and-rgbif.png",
     "date": "2019-03-22"
