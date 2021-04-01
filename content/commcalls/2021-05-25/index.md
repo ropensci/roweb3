@@ -1,5 +1,5 @@
 ---
-title: R-universe
+title: rOpenSci's R-universe Project
 dateStart: 2021-05-25T17:00:00 # UTC!!
 dateEnd: 2021-05-25T18:00:00 # UTC!!
 date: 2021-05-25T18:00:00 # UTC!! same as dateEnd
@@ -15,15 +15,9 @@ attendees: All are welcome
 slug: may2021-r-universe
 # notes: https://docs.google.com/document/d/1o933nG1ZW2Qf8p7FdQxn8wOkk9qoBINL1fx3FlIFSJU/
 resources:
-  - url: https://ropensci.org/blog/2021/03/04/r-universe-buildsystem/
-    name: A first look at the R-universe build infrastructure
-    details: tech note by Jeroen Ooms
-  - url: https://rstudio.com/resources/rstudioglobal-2021/monitoring-health-and-impact-of-open-source-projects/
-    name: Monitoring health and impact of open-source projects
-    details: rstudio::global talk by Jeroen Ooms
-  - url: https://r-universe.dev/
-    name: R-universe platform
-    details:
+  - url: https://ropensci.org/r-universe/
+    name: R-universe project page
+    details: 
 speakers:
   - name: Jeroen Ooms
     bio: Jeroen Ooms is rOpenSci's Lead Infrastructure Engineer. He has a PhD in Statistics from UCLA. Jeroen on [GitHub](https://github.com/jeroen), [Twitter](https://twitter.com/opencpu), [rOpenSci](/author/jeroen-ooms/)
