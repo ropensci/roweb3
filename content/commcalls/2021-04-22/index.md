@@ -42,6 +42,7 @@ outputs:
 tags:
   - community call
   - events
+  - labelathon
 deets: |
     Meeting ID: 981 5102 3535
     
@@ -76,4 +77,4 @@ At the end of each session we’ll tweet links to your “help wanted” issues 
 
 Our experiment includes 4 label-athons (if y’all show up, we can do more) at alternating times to accommodate our community around the world. Thursdays April 29, May 13, May 27, June 10. 
 
-Note: This community call will *not* include tips specific to *maintaining* a package.See the recording, summary post, and collaborative notes from our past [Community Call on Maintaining an R Package](/commcalls/2020-03-18/).
+Note: This community call will *not* include tips specific to *maintaining* a package. See the recording, summary post, and collaborative notes from our past [Community Call on Maintaining an R Package](/commcalls/2020-03-18/).
