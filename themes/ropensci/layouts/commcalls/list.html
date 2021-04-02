@@ -23,7 +23,7 @@
     {{ if eq $no 0 }}
       To be announced
     {{ end }}
-    {{ range (where .Pages ".Date" ">=" $utcnow ) }}
+    {{ range (where .Pages ".Date" ">=" $utcnow ).Reverse }}
   <div class="career-cards mt-4">
     <a href="{{ .RelPermalink }}" class="career-card">
       <span>{{ .Title }}</span>
