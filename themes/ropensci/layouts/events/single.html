@@ -83,13 +83,6 @@
         <div class="content">
           {{ .Content }}
 
-{{ if and ( ge (time .Params.dateEnd).Local now.Local ) ( isset .Params "deets" ) }}
-            <div class="event-join">
-              <h4  id ="join-us">Practical information</h4>
-
-                  {{ .Params.deets | markdownify }}
-            </div>
-{{ end }}
 {{ with .Params.resources}}
 <h4 >Resources</h4>
 {{ range . }}
