@@ -1,5 +1,5 @@
 ---
-title: Set Up Your Package To Foster A Community
+title: Set Up Your Package to Foster a Community
 dateStart: 2021-04-22T16:00:00 # UTC!!
 dateEnd: 2021-04-22T17:00:00 # UTC!!
 date: 2021-04-22T17:00:00 # UTC!! same as dateEnd
