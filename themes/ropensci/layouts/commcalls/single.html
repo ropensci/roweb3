@@ -21,7 +21,7 @@
                 <div class="event-detail-calendar">
               <div class="d-flex justify-content-between">
                 <p>
-                  🕓 <strong>{{ (time .Params.dateStart).UTC | dateFormat "Monday, 02 January 2006 15:04 MST" }}</strong> {{ if ge (time .Params.dateEnd).Local now.Local }}{{ with .Params.deets }} - <a data-toggle="collapse" href="#zoominfo" role="button" aria-expanded="false" aria-controls="collapseExample">Join the call</a>{{ end }}{{ end }}
+                  🕓 <strong>{{ (time .Params.dateStart).UTC | dateFormat "Monday, 02 January 2006 15:04 MST" }}</strong> {{ if ge (time .Params.dateEnd).Local now.Local }}{{ with .Params.deets }} - <a data-toggle="collapse" href="#zoominfo" role="button" aria-expanded="false" aria-controls="collapseExample">Join the event</a>{{ end }}{{ end }}
                 </p>
                 <div class="add-wrapper">
                   <div class="drop-btn">Add to Calendar</div>
