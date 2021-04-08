@@ -5,8 +5,9 @@ author:
 date: '2021-04-16'
 slug: latest-ropensci-news-digest
 categories: []
-tags: []
-description: 
+tags: 
+  - newsletter
+description: "Upcoming community calls: R-universe Project, Set Up Your Package to Foster a Community; New Package and Package News"
 output:
   html_document:
     keep_md: yes
@@ -18,13 +19,24 @@ params:
 <!-- Before sending DELETE THE INDEX_CACHE and re-knit! -->
 
 Dear rOpenSci friends, it's time for our monthly news roundup!
-<!-- blabla -->
 You can read this post [on our blog](/blog/2021/04/16/latest-ropensci-news-digest).
 Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-<!-- to be curated manually -->
+Are you interested in volunteering as a package reviewer for rOpenSci?
+We have just updated our [volunteering form](https://airtable.com/shrnfDI2S9uuyxtDw) to make it easier to match volunteers and packages.
+It only takes a few minutes to fill the form.
+Thanks to the more than 150 people who already answered, we're very thankful for your participation!
+
+We have two fantastic community calls coming up! 
+The first of them will be paired with a hands-on event called _label-athon_.
+
+* [**Set Up Your Package to Foster a Community**](/commcalls/apr2021-pkg-community/) on  Thursday, 22 April 2021 16:00 UTC. rOpenSci puts ongoing effort into exploring and communicating how developers can best attract attention to their package (e.g. usage, citations, or feedback), or how to set up their repository to encourage the types of contributions they want. In this 1-hour community call, **Maëlle Salmon**, **Hugo Gruson**, and **Steffi LaZerte** will share tips and examples on how to do this! 
+
+* That community call will be followed by an experimental event: a [**co-working label-athon**](/events/labelathon01/) on  Thursday, 29 April 2021 16:00 UTC for which [registration is recommended](https://form.jotform.com/210906095013043).
+
+* [**rOpenSci's R-universe Project**](/commcalls/may2021-r-universe/) on Tuesday, 25 May 2021 17:00 UTC. The R-universe platform is a new umbrella project under which rOpenSci experiments with new ideas for improving publication and discovery of research software in R. In this 1-hour community call, **Jeroen Ooms** will introduce the R-universe, including providing a user perspective, and share how we think this sort of tooling can help scientists publish and discover research software.
 
 Find out about more [events](/events).
 
@@ -105,8 +117,6 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 
 
-2021-04-16, The rOpenSci Team, Latest rOpenSci News Digest, FALSE, FALSE, TRUE, , , keywords from the content, FALSE, latest-ropensci-news-digest
-
 
 
 ## Citations
@@ -120,7 +130,7 @@ In the meantime, thank you for citing our tools!
 
 
 
-One use cases of our packages and resources have been reported since we sent the last newsletter.
+One use case of our packages and resources has been reported since we sent the last newsletter.
 
 * [Teaching an introduction to workflow management using drake](https://discuss.ropensci.org/t/teaching-an-introduction-to-workflow-management-using-drake/2407). Reported by Matt.
 
@@ -135,7 +145,18 @@ As the maintainer of an rOpenSci package, feel free to contact us on Slack or em
 
 Some useful tips for R package developers. :eyes:
 
-<!-- To be curated by hand -->
+rOpenSci development guide does not have many _requirements_ on [coding style](https://devguide.ropensci.org/building.html#code-style).
+So what if you are looking for guidance on the topic?
+Besides [reading the source](https://blog.r-hub.io/2019/05/14/read-the-source/) of packages :wink:, you could check out the [Tidyverse style guide](https://style.tidyverse.org/) including advice on e.g. [error messages](https://style.tidyverse.org/error-messages.html).
+Also coming from the tidyverse, some functions of the rlang package might be relevant when developing your R package: [generate or handle a missing argument](https://rlang.r-lib.org/reference/missing_arg.html), [match an argument to a character vector](https://rlang.r-lib.org/reference/arg_match.html) (with an error matching the tidyverse style guide), [check a package is installed](https://rlang.r-lib.org/reference/is_installed.html).
+
+Are the results of R CMD check indicating files [mysteriously disappear](https://community.rstudio.com/t/package-losing-files/99294)?
+Could the culprit be the [`.Rbuildignore` file](https://blog.r-hub.io/2020/05/20/rbuildignore/)?
+That's always good to have in mind, as you might have not assessed all consequences of the regular expressions you added in there.
+
+Do you feel like a package development newbie?
+Stefan McKinnon Høj-Edwards wrote a [nice message on R-package-devel](https://www.mail-archive.com/r-package-devel@r-project.org/msg06645.html) about why not to use neither newbie nor luser to describe yourself when asking a question about R package development, as it might inhibit you and others.
+On a more meta level, such a message is a good example of how to build a welcoming community.
 
 ## Last words
 
