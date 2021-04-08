@@ -7,7 +7,7 @@ slug: latest-ropensci-news-digest
 categories: []
 tags: 
   - newsletter
-description: "Upcoming community calls: R-universe Project, Set Up Your Package to Foster a Community; New Package and Package News"
+description: "Upcoming community calls: R-universe Project, Set Up Your Package to Foster a Community; co-working labelathon; New Package and Package News"
 output:
   html_document:
     keep_md: yes
@@ -24,7 +24,7 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-Are you interested in volunteering as a package reviewer for rOpenSci?
+Are you interested in [volunteering as a package reviewer](https://devguide.ropensci.org/softwarereviewintro.html#whyreview) for rOpenSci?
 We have just updated our [volunteering form](https://airtable.com/shrnfDI2S9uuyxtDw) to make it easier to match volunteers and packages.
 It only takes a few minutes to fill the form.
 Thanks to the more than 150 people who already answered, we're very thankful for your participation!
@@ -47,7 +47,9 @@ Find out about more [events](/events).
 
 
 
-The following  package recently became a part of our software suite:
+The following two packages recently became a part of our software suite:
+
++ [circle](https://docs.ropensci.org/circle), developed by Patrick Schratz: Tools for interacting with the Circle CI API. Besides executing common tasks such as querying build logs and restarting builds, this package also helps setting up permissions to deploy from builds. It has been [reviewed](https://github.com/ropensci/software-review/issues/356) by Max Joseph, Sharla Gelfand.
 
 + [dataaimsr](https://docs.ropensci.org/dataaimsr), developed by Diego R. Barneche together with AIMS Datacentre : AIMS Data Platform API Client which provides easy access to AIMS Data Platform scientific data and information. It has been [reviewed](https://github.com/ropensci/software-review/issues/428) by Sam Albers, Elizabeth Stark, Laura DeCicco.
 
@@ -63,25 +65,25 @@ The following twenty-one packages have had an update since the latest newsletter
 
 There are eighteen recently closed and active submissions and 2 submissions on hold. Issues are at different stages: 
 
-* One at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
+* Three at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
 
      * [stantargets](https://github.com/ropensci/software-review/issues/430), Targets for Stan Workflows. Submitted by [Will Landau](https://wlandau.github.io).
+
+    * [dataaimsr](https://github.com/ropensci/software-review/issues/428), AIMS Data Platform API Client. Submitted by [Diego Barneche](https://www.diegobarneche.com/).
+
+    * [circle](https://github.com/ropensci/software-review/issues/356), R Client Package for Circle CI. Submitted by [Patrick Schratz](https://pat-s.me).
 
 * One at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
 
      * [censo2017](https://github.com/ropensci/software-review/issues/414), Base de Datos de Facil Acceso del Censo 2017 de Chile. Submitted by [Pachamaltese](https://pacha.dev).
 
-* Five at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
+* Three at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
 
      * [dataspice](https://github.com/ropensci/software-review/issues/426), Create Lightweight Schema.org Descriptions of Data. Submitted by [Bryce Mecum](https://brycemecum.com).
 
     * [healthdatacsv](https://github.com/ropensci/software-review/issues/358), Access data in the healthdata.gov catalog. Submitted by [iecastro](http://iecastro.netlify.com).
 
     * [chemspiderapi](https://github.com/ropensci/software-review/issues/329), R Wrapper for ChemSpider's API Services. Submitted by [Raoul Wolf](https://github.com/RaoulWolf).
-
-    * [dataaimsr](https://github.com/ropensci/software-review/issues/428), AIMS Data Platform API Client. Submitted by [Diego Barneche](https://www.diegobarneche.com/).
-
-    * [circle](https://github.com/ropensci/software-review/issues/356), R Client Package for Circle CI. Submitted by [Patrick Schratz](https://pat-s.me).
 
 * Three at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 

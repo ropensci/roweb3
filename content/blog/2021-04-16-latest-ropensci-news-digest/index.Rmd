@@ -7,7 +7,7 @@ slug: latest-ropensci-news-digest
 categories: []
 tags: 
   - newsletter
-description: "Upcoming community calls: R-universe Project, Set Up Your Package to Foster a Community; New Package and Package News"
+description: "Upcoming community calls: R-universe Project, Set Up Your Package to Foster a Community; co-working labelathon; New Package and Package News"
 output:
   html_document:
     keep_md: yes
@@ -39,7 +39,7 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-Are you interested in volunteering as a package reviewer for rOpenSci?
+Are you interested in [volunteering as a package reviewer](https://devguide.ropensci.org/softwarereviewintro.html#whyreview) for rOpenSci?
 We have just updated our [volunteering form](https://airtable.com/shrnfDI2S9uuyxtDw) to make it easier to match volunteers and packages.
 It only takes a few minutes to fill the form.
 Thanks to the more than 150 people who already answered, we're very thankful for your participation!
@@ -117,9 +117,10 @@ while (empty == TRUE) {
 
 new <- dplyr::filter(
   registry,
-  !package %in% old$package,
+  !url %in% sub("\\.git$", "", old$url),
   !grepl("ropenscilabs\\/", url),
-  !grepl("ropensci-archive\\/", url)
+  !grepl("ropensci-archive\\/", url),
+  !package %in% c("genbankr", "rodev")
 )
 ```
 
