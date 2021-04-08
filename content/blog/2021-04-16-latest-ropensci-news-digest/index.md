@@ -158,7 +158,7 @@ That's always good to have in mind, as you might have not assessed all consequen
 And what about **files that mysteriously do not disappear** despite being listed in `.Rbuildignore`? 
 After checking the regular expression, also check that the file is not e.g. locked (on MacOS), which is a tip reported by [Eric Scott](https://www.ericrscott.com/).
 
-Now some workflow advice! When **writing unit tests** for your package, it can be very useful to use _ [covr::report()](http://covr.r-lib.org/reference/report.html) [or [covr::file_report()](http://covr.r-lib.org/reference/file_report.html)] to check and browse(!) your coverage progress without pushing to github_ to as reminded by [Lluís Revilla Sancho](https://llrs.dev/) in [rOpenSci semi-open slack](https://contributing.ropensci.org/resources.html#channels).
+Now some workflow advice! When **writing unit tests** for your package, it can be very useful to use _[covr::report()](http://covr.r-lib.org/reference/report.html) [or [covr::file_report()](http://covr.r-lib.org/reference/file_report.html)] to check and browse(!) your coverage progress without pushing to github_ to as reminded by [Lluís Revilla Sancho](https://llrs.dev/) in [rOpenSci semi-open slack](https://contributing.ropensci.org/resources.html#channels).
 This good piece of advice echoes the workflow advised in [the testing chapter of the book "Mastering Shiny"](https://mastering-shiny.org/scaling-testing.html#workflow-1) by [Hadley Wickham](http://hadley.nz/) (the workflow can also be applied to packages that do not use Shiny).
 
 Do you feel like a **package development "newbie"**?
