@@ -539,6 +539,8 @@ So what if you are looking for guidance on the topic?
 Besides [reading the source](https://blog.r-hub.io/2019/05/14/read-the-source/) of packages :wink:, you could check out the [Tidyverse style guide](https://style.tidyverse.org/) including advice on e.g. [error messages](https://style.tidyverse.org/error-messages.html).
 Also coming from the tidyverse, some functions of the rlang package might be relevant when developing your R package: [generate or handle a missing argument](https://rlang.r-lib.org/reference/missing_arg.html), [match an argument to a character vector](https://rlang.r-lib.org/reference/arg_match.html) (with an error matching the tidyverse style guide), [check a package is installed](https://rlang.r-lib.org/reference/is_installed.html).
 
+PLACEHOLDER TEST COVERAGE
+
 Are the results of R CMD check indicating files [mysteriously disappear](https://community.rstudio.com/t/package-losing-files/99294)?
 Could the culprit be the [`.Rbuildignore` file](https://blog.r-hub.io/2020/05/20/rbuildignore/)?
 That's always good to have in mind, as you might have not assessed all consequences of the regular expressions you added in there.
