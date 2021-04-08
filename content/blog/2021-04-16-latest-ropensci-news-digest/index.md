@@ -124,7 +124,7 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 ## Citations
 
 No new citations added to our database this month, that you can [browse](/citations).
-We recently explained [how we monitor citations](/blog/2021/02/16/package-citation/#how-ropensci-tracks-package-usage), we'll now a new round of Google Scholar alerts reading soon.
+We recently explained [how we monitor citations](/blog/2021/02/16/package-citation/#how-ropensci-tracks-package-usage), we'll do a new round of Google Scholar alerts reading soon.
 
 In the meantime, thank you for citing our tools!
 
