@@ -154,9 +154,11 @@ Also coming from the tidyverse, some functions of the rlang package might be rel
 
 PLACEHOLDER TEST COVERAGE
 
-Are the results of R CMD check indicating files [mysteriously disappear](https://community.rstudio.com/t/package-losing-files/99294)?
+Are the results of R CMD check indicating **files [mysteriously disappear](https://community.rstudio.com/t/package-losing-files/99294)**?
 Could the culprit be the [`.Rbuildignore` file](https://blog.r-hub.io/2020/05/20/rbuildignore/)?
 That's always good to have in mind, as you might have not assessed all consequences of the regular expressions you added in there.
+And what about **files that mysteriously do not disappear** despite being listed in `.Rbuildignore`? 
+After checking the regular expression, also check that the file is not e.g. locked (on MacOS), which is a tip reported by [Eric Scott](https://www.ericrscott.com/).
 
 Do you feel like a package development newbie?
 Stefan McKinnon Høj-Edwards wrote a [nice message on R-package-devel](https://www.mail-archive.com/r-package-devel@r-project.org/msg06645.html) about why not to use neither newbie nor luser to describe yourself when asking a question about R package development, as it might inhibit you and others.
