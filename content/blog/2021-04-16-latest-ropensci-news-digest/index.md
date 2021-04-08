@@ -1,0 +1,144 @@
+---
+title: Latest rOpenSci News Digest
+author:
+  - The rOpenSci Team
+date: '2021-04-16'
+slug: latest-ropensci-news-digest
+categories: []
+tags: []
+description: 
+output:
+  html_document:
+    keep_md: yes
+params:
+  last_newsletter: '2021-03-16'
+---
+
+
+<!-- Before sending DELETE THE INDEX_CACHE and re-knit! -->
+
+Dear rOpenSci friends, it's time for our monthly news roundup!
+<!-- blabla -->
+You can read this post [on our blog](/blog/2021/04/16/latest-ropensci-news-digest).
+Now let's dive into the activity at and around rOpenSci!
+
+## rOpenSci HQ
+
+<!-- to be curated manually -->
+
+Find out about more [events](/events).
+
+## Software :package:
+
+### New packages
+
+
+
+
+The following  package recently became a part of our software suite:
+
++ [dataaimsr](https://docs.ropensci.org/dataaimsr), developed by Diego R. Barneche together with AIMS Datacentre : AIMS Data Platform API Client which provides easy access to AIMS Data Platform scientific data and information. It has been [reviewed](https://github.com/ropensci/software-review/issues/428) by Sam Albers, Elizabeth Stark, Laura DeCicco.
+
+Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
+
+### New versions
+
+
+
+The following twenty-one packages have had an update since the latest newsletter: [arkdb](https://docs.ropensci.org/arkdb "Archive and Unarchive Databases Using Flat Files") ([`v0.0.11`](https://github.com/ropensci/arkdb/releases/tag/v0.0.11)), [bomrang](https://docs.ropensci.org/bomrang "Australian Government Bureau of Meteorology (BOM) Data Client") ([`v0.7.4`](https://github.com/ropensci/bomrang/releases/tag/v0.7.4)), [c14bazAAR](https://docs.ropensci.org/c14bazAAR "Download and Prepare C14 Dates from Different Source Databases") ([`2.1.0`](https://github.com/ropensci/c14bazAAR/releases/tag/2.1.0)), [DataPackageR](https://docs.ropensci.org/DataPackageR "Construct Reproducible Analytic Data Sets as R Packages") ([`v0.15.8`](https://github.com/ropensci/DataPackageR/releases/tag/v0.15.8)), [dbhydroR](https://docs.ropensci.org/dbhydroR "DBHYDRO Hydrologic and Water Quality Data") ([`v0.2-8`](https://github.com/ropensci/dbhydroR/releases/tag/v0.2-8)), [elastic](https://docs.ropensci.org/elastic "General Purpose Interface to Elasticsearch") ([`v1.2.0`](https://github.com/ropensci/elastic/releases/tag/v1.2.0)), [GSODR](https://docs.ropensci.org/GSODR "Global Surface Summary of the Day (GSOD) Weather Data Client") ([`v3.1.0`](https://github.com/ropensci/GSODR/releases/tag/v3.1.0)), [hydroscoper](https://docs.ropensci.org/hydroscoper "Interface to the Greek National Data Bank for Hydrometeorological Information") ([`1.4`](https://github.com/ropensci/hydroscoper/releases/tag/1.4)), [lightr](https://docs.ropensci.org/lightr "Read Spectrometric Data and Metadata") ([`v1.4`](https://github.com/ropensci/lightr/releases/tag/v1.4)), [magick](https://docs.ropensci.org/magick "Advanced Graphics and Image-Processing in R") ([`v2.7.1`](https://github.com/ropensci/magick/releases/tag/v2.7.1)), [osmdata](https://docs.ropensci.org/osmdata "Import OpenStreetMap Data as Simple Features or Spatial Objects") ([`v0.1.5`](https://github.com/ropensci/osmdata/releases/tag/v0.1.5)), [osmplotr](https://docs.ropensci.org/osmplotr "Bespoke Images of OpenStreetMap Data") ([`v0.3.3`](https://github.com/ropensci/osmplotr/releases/tag/v0.3.3)), [skimr](https://docs.ropensci.org/skimr "Compact and Flexible Summaries of Data") ([`v2.1.3`](https://github.com/ropensci/skimr/releases/tag/v2.1.3)), [spatsoc](https://docs.ropensci.org/spatsoc "Group Animal Relocation Data by Spatial and Temporal Relationship") ([`v0.1.16`](https://github.com/ropensci/spatsoc/releases/tag/v0.1.16)), [stats19](https://docs.ropensci.org/stats19 "Work with Open Road Traffic Casualty Data from Great Britain") ([`1.4.1`](https://github.com/ropensci/stats19/releases/tag/1.4.1)), [stplanr](https://docs.ropensci.org/stplanr "Sustainable Transport Planning") ([`0.8.2`](https://github.com/ropensci/stplanr/releases/tag/0.8.2)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.1.1`](https://github.com/ropensci/tarchetypes/releases/tag/0.1.1)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Workflows") ([`0.3.1`](https://github.com/ropensci/targets/releases/tag/0.3.1)), [taxadb](https://docs.ropensci.org/taxadb "A High-Performance Local Taxonomic Database Interface") ([`0.1.2`](https://github.com/ropensci/taxadb/releases/tag/0.1.2)), [taxlist](https://docs.ropensci.org/taxlist "Handling Taxonomic Lists") ([`v0.2.1`](https://github.com/ropensci/taxlist/releases/tag/v0.2.1)), [UCSCXenaTools](https://docs.ropensci.org/UCSCXenaTools "Download and Explore Datasets from UCSC Xena Data Hubs") ([`v1.4.3`](https://github.com/ropensci/UCSCXenaTools/releases/tag/v1.4.3)).
+
+## Software Peer Review
+
+There are eighteen recently closed and active submissions and 2 submissions on hold. Issues are at different stages: 
+
+* One at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
+
+     * [stantargets](https://github.com/ropensci/software-review/issues/430), Targets for Stan Workflows. Submitted by [Will Landau](https://wlandau.github.io).
+
+* One at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
+
+     * [censo2017](https://github.com/ropensci/software-review/issues/414), Base de Datos de Facil Acceso del Censo 2017 de Chile. Submitted by [Pachamaltese](https://pacha.dev).
+
+* Five at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
+
+     * [dataspice](https://github.com/ropensci/software-review/issues/426), Create Lightweight Schema.org Descriptions of Data. Submitted by [Bryce Mecum](https://brycemecum.com).
+
+    * [healthdatacsv](https://github.com/ropensci/software-review/issues/358), Access data in the healthdata.gov catalog. Submitted by [iecastro](http://iecastro.netlify.com).
+
+    * [chemspiderapi](https://github.com/ropensci/software-review/issues/329), R Wrapper for ChemSpider's API Services. Submitted by [Raoul Wolf](https://github.com/RaoulWolf).
+
+    * [dataaimsr](https://github.com/ropensci/software-review/issues/428), AIMS Data Platform API Client. Submitted by [Diego Barneche](https://www.diegobarneche.com/).
+
+    * [circle](https://github.com/ropensci/software-review/issues/356), R Client Package for Circle CI. Submitted by [Patrick Schratz](https://pat-s.me).
+
+* Three at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
+
+     * [occCite](https://github.com/ropensci/software-review/issues/407), Querying and Managing Large Biodiversity Occurrence Datasets. Submitted by [Hannah Owens](http://hannahlowens.weebly.com/).
+
+    * [tidytags](https://github.com/ropensci/software-review/issues/382), Simple Collection and Powerful Analysis of Twitter Data. Submitted by [Bret Staudt Willet](http://bretsw.com).
+
+    * [exoplanets](https://github.com/ropensci/software-review/issues/309), Provides access to NASA's Exoplanet Archive, see <https://exoplanetarchive.ipac.caltech.edu/index.html>. Submitted by [Tyler Littlefield](http://tylerlittlefield.com).
+
+* Three at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
+
+     * [mctq](https://github.com/ropensci/software-review/issues/434), An R Package for the Munich ChronoType Questionnaire. Submitted by [Daniel Vartanian](https://orcid.org/0000-0001-7782-759X).
+
+    * [ROriginStamp](https://github.com/ropensci/software-review/issues/433), Interface to OriginStamp API to Obtain Trusted Time Stamps. Submitted by [Rainer M Krug](https://github.com/rkrug).
+
+    * [slopes](https://github.com/ropensci/software-review/issues/420), Calculate Slopes of Roads, Rivers and Trajectories. Submitted by [RFlx](http://www.rosafelix.bike).
+
+* Five at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
+
+     * [rsat](https://github.com/ropensci/software-review/issues/437), Tools for Downloading, Customizing, and Processing Time Series of Satellite Images from Landsat, MODIS, and Sentinel. Submitted by [Unai Pérez-Goya](https://unai-perez.github.io/).
+
+    * [allodb](https://github.com/ropensci/software-review/issues/436), Tree Biomass Estimation at Extratropical Forest Plots. Submitted by [Erika Gonzalez-Akre](https://sites.google.com/site/forestecoclimlab/home).
+
+    * [awardFindR](https://github.com/ropensci/software-review/issues/432), QDR awardFindR. Submitted by [Michael C. McCall](http://mccall.cc).
+
+    * [rWind](https://github.com/ropensci/software-review/issues/429), Download, Edit and Include Wind and Sea Currents Data in Ecological and Evolutionary Analysis. Submitted by [Javier Fernández-López](http://allthiswasfield.blogspot.com.es/).
+
+    * [epair](https://github.com/ropensci/software-review/issues/418), Grabs data from EPA API, simplifies getting pollutant data. Submitted by [Leo Orozco-Mulfinger](https://github.com/GLOrozcoM).
+
+Find out more about [Software Peer Review](/software-review) and how to get involved.
+
+<!-- Do not forget to rebase your branch! -->
+
+
+
+2021-04-16, The rOpenSci Team, Latest rOpenSci News Digest, FALSE, FALSE, TRUE, , , keywords from the content, FALSE, latest-ropensci-news-digest
+
+
+
+## Citations
+
+No new citations added to our database this month, that you can [browse](/citations).
+We recently explained [how we monitor citations](/blog/2021/02/16/package-citation/#how-ropensci-tracks-package-usage), we'll now a new round of Google Scholar alerts reading soon.
+
+In the meantime, thank you for citing our tools!
+
+## Use cases
+
+
+
+One use cases of our packages and resources have been reported since we sent the last newsletter.
+
+* [Teaching an introduction to workflow management using drake](https://discuss.ropensci.org/t/teaching-an-introduction-to-workflow-management-using-drake/2407). Reported by Matt.
+
+Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)!
+
+## Call for maintainers
+
+There's no open call for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
+As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter.
+
+## Package development corner
+
+Some useful tips for R package developers. :eyes:
+
+<!-- To be curated by hand -->
+
+## Last words
+
+Thanks for reading! If you want to get involved with rOpenSci, check out our [Contributing Guide](https://contributing.ropensci.org) that can help direct you to the right place, whether you want to make code contributions, non-code contributions, or contribute in other ways like sharing use cases.
+
+If you haven't subscribed to our newsletter yet, you can [do so via a form](/news/). Until it's time for our next newsletter, you can keep in touch with us via our [website](/) and [Twitter account](https://twitter.com/ropensci).

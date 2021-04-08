@@ -18,7 +18,33 @@ usecases_ids <- usecases_ids[!usecases_ids %in% c(33, # intro
                                                   0)]
 # only keep the ones after the template was defined
 usecases_ids <- usecases_ids[usecases_ids >= 1629]
+.get_packages <- function() {
+  "https://raw.githubusercontent.com/ropensci/roregistry/gh-pages/packages.json" %>%
+  jsonlite::read_json() %>%
+  purrr::map_chr("package")
+}
+get_packages <- memoise::memoise(.get_packages)
 
+link_resource <- function(resource, packages = get_packages()) {
+  resource <- trimws(resource)
+  resource <- sub("\\.$", "", resource)
+  if (resource %in% packages) {
+    return(sprintf("[%s](https://docs.ropensci.org/%s)", resource, resource))
+  }
+  if (resource == "rOpenSci package development guide book") {
+    return("[rOpenSci package development guide book](https://devguide.ropensci.org)")
+  }
+  if (resource == "rOpenSci contributing guide book") {
+    return("[rOpenSci contributing guide book](https://contributing.ropensci.org)")
+  }
+  if (resource == "rOpenSci blog guide book") {
+    return("[rOpenSci blog guide book](https://blogguide.ropensci.org)")
+  }
+  if (resource == "HTTP testing in R book") {
+    return("[HTTP testing in R book](https://books.ropensci.org/http-testing)")
+  }
+  return(resource)
+}
 get_info <- function(id, packages = packages) {
   message(id)
   Sys.sleep(2)
@@ -81,31 +107,3 @@ jsonlite::write_json(
   pretty = TRUE,
   auto_unbox = TRUE
   )
-
-link_resource <- function(resource, packages = get_packages()) {
-  resource <- trimws(resource)
-  resource <- sub(".$", "", resource)
-  if (resource %in% packages) {
-    return(sprintf("[%s](https://docs.ropensci.org/%s)", resource, resource))
-  }
-  if (resource == "rOpenSci package development guide book") {
-    return("[rOpenSci package development guide book](https://devguide.ropensci.org)")
-  }
-  if (resource == "rOpenSci contributing guide book") {
-    return("[rOpenSci contributing guide book](https://contributing.ropensci.org)")
-  }
-  if (resource == "rOpenSci blog guide book") {
-    return("[rOpenSci blog guide book](https://blogguide.ropensci.org)")
-  }
-  if (resource == "HTTP testing in R book") {
-    return("[HTTP testing in R book](https://books.ropensci.org/http-testing)")
-  }
-  return(resource)
-}
-
-get_packages <- memoise::memoise(.get_packages)
-.get_packages <- function() {
-  "https://raw.githubusercontent.com/ropensci/roregistry/gh-pages/packages.json" %>%
-  jsonlite::read_json() %>%
-  purrr::map_chr("package")
-}
