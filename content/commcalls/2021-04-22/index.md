@@ -66,7 +66,7 @@ Come hear our best recommendations, and share your favorites. Stefanie Butland w
 
 We’re following up this Community Call with an experiment! 
 
-Join us for 1.5 hours Thursday, April 29, 9 AM Pacific / 16:00 UTC for our first co-working “label-athon” (link to join coming soon).
+Join us for 1.5 hours Thursday, April 29, 9 AM Pacific / 16:00 UTC for our first co-working [social “Label-athon”](/events/labelathon01/).
 
 - Meet other package developers and rOpenSci staff in Zoom
 - Work independently, implementing some of our recommendations for your own package
