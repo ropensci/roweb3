@@ -147,16 +147,17 @@ As the maintainer of an rOpenSci package, feel free to contact us on Slack or em
 
 Some useful tips for R package developers. :eyes:
 
-rOpenSci development guide does not have many _requirements_ on [**coding style**](https://devguide.ropensci.org/building.html#code-style).
-So what if you are looking for guidance on the topic?
-Besides [**reading the source**](https://blog.r-hub.io/2019/05/14/read-the-source/) of packages :wink:, you could check out the [**Tidyverse style guide**](https://style.tidyverse.org/) including advice on e.g. [error messages](https://style.tidyverse.org/error-messages.html).
-Also coming from the tidyverse, some functions of the **rlang package** might be relevant when developing your R package: [generate or handle a missing argument](https://rlang.r-lib.org/reference/missing_arg.html), [match an argument to a character vector](https://rlang.r-lib.org/reference/arg_match.html) (with an error matching the tidyverse style guide), [check a package is installed](https://rlang.r-lib.org/reference/is_installed.html).
-
 Are the results of **R CMD check** indicating **files [mysteriously disappear](https://community.rstudio.com/t/package-losing-files/99294)**?
 Could the culprit be the [`.Rbuildignore` file](https://blog.r-hub.io/2020/05/20/rbuildignore/)?
 That's always good to have in mind, as you might have not assessed all consequences of the regular expressions you added in there.
 And what about **files that mysteriously do not disappear** despite being listed in `.Rbuildignore`? 
 After checking the regular expression, also check that the file is not e.g. locked (on MacOS), which is a tip reported by [Eric Scott](https://www.ericrscott.com/).
+
+rOpenSci development guide does not have many _requirements_ on [**coding style**](https://devguide.ropensci.org/building.html#code-style).
+So what if you are looking for guidance on the topic?
+Besides [**reading the source**](https://blog.r-hub.io/2019/05/14/read-the-source/) of packages :wink:, you could check out the [**Tidyverse style guide** by Hadley Wickham](https://style.tidyverse.org/) including advice on e.g. [error messages](https://style.tidyverse.org/error-messages.html).
+Also coming from the tidyverse, some functions of [Lionel Henry](https://github.com/lionel-)'s **rlang package** might be relevant when developing your R package: [generate or handle a missing argument](https://rlang.r-lib.org/reference/missing_arg.html), [match an argument to a character vector](https://rlang.r-lib.org/reference/arg_match.html) (with an error matching the tidyverse style guide), [check a package is installed](https://rlang.r-lib.org/reference/is_installed.html).
+Last but not least if you are a purrr user, rlang, that's MIT-licensed, has a file called [compat-purrr.R](https://github.com/r-lib/rlang/blob/master/R/compat-purrr.R) with functions that allow for a similar style of programming than with purrr, minus the dependency on purrr (thanks [Gábor Csárdi](https://github.com/gaborcsardi) for this tip).
 
 Now some workflow advice! When **writing unit tests** for your package, it can be very useful to use _[covr::report()](http://covr.r-lib.org/reference/report.html) [or [covr::file_report()](http://covr.r-lib.org/reference/file_report.html)] to check and browse(!) your coverage progress without pushing to github_ to as reminded by [Lluís Revilla Sancho](https://llrs.dev/) in [rOpenSci semi-open slack](https://contributing.ropensci.org/resources.html#channels).
 This good piece of advice echoes the workflow advised in [the testing chapter of the book "Mastering Shiny"](https://mastering-shiny.org/scaling-testing.html#workflow-1) by [Hadley Wickham](http://hadley.nz/) (the workflow can also be applied to packages that do not use Shiny).
