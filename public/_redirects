@@ -10,7 +10,6 @@
 /authors/*  /author/:splat
 /tutorials/*  https://docs.ropensci.org
 /usecases/:title/*  /usecases/
-/tutorials/  https://docs.ropensci.org
 /blog-pt	/blog
 /ambassadors /
 /coc /code-of-conduct
