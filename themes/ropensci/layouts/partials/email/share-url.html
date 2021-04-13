@@ -1,0 +1,1 @@
+mailto:?subject={{ .Title  | replaceRE "&" "%26" }}{{ if ( eq .Type "commcalls" ) }} (community call){{ end }}, by rOpenSci&body={{ .Title }} {{ .Permalink }} via rOpenSci
