@@ -30,11 +30,11 @@ It only takes a few minutes to fill the form.
 Thanks to the more than 150 people who already answered, we're very thankful for your participation!
 
 We have two fantastic community calls coming up! 
-The first of them will be paired with a hands-on event called _label-athon_.
+The first of them will be paired with a hands-on Social event called _label-athon_.
 
 * [**Set Up Your Package to Foster a Community**](/commcalls/apr2021-pkg-community/) on  Thursday, 22 April 2021 16:00 UTC. rOpenSci puts ongoing effort into exploring and communicating how developers can best attract attention to their package (e.g. usage, citations, or feedback), or how to set up their repository to encourage the types of contributions they want. In this 1-hour community call, **Maëlle Salmon**, **Hugo Gruson**, and **Steffi LaZerte** will share tips and examples on how to do this! 
 
-* That community call will be followed by an experimental event: a [**co-working label-athon**](/events/labelathon01/) on  Thursday, 29 April 2021 16:00 UTC for which [registration is recommended](https://form.jotform.com/210906095013043).
+* That community call will be followed by an experimental event: a [**social co-working label-athon**](/events/labelathon01/) on  Thursday, 29 April 2021 16:00 UTC for which [registration is recommended](https://form.jotform.com/210906095013043).
 
 * [**rOpenSci's R-universe Project**](/commcalls/may2021-r-universe/) on Tuesday, 25 May 2021 17:00 UTC. The R-universe platform is a new umbrella project under which rOpenSci experiments with new ideas for improving publication and discovery of research software in R. In this 1-hour community call, **Jeroen Ooms** will introduce the R-universe, including providing a user perspective, and share how we think this sort of tooling can help scientists publish and discover research software.
 
@@ -47,11 +47,13 @@ Find out about more [events](/events).
 
 
 
-The following two packages recently became a part of our software suite:
+The following three packages recently became a part of our software suite:
 
 + [circle](https://docs.ropensci.org/circle), developed by Patrick Schratz: Tools for interacting with the Circle CI API. Besides executing common tasks such as querying build logs and restarting builds, this package also helps setting up permissions to deploy from builds. It has been [reviewed](https://github.com/ropensci/software-review/issues/356) by Max Joseph, Sharla Gelfand.
 
 + [dataaimsr](https://docs.ropensci.org/dataaimsr), developed by Diego R. Barneche together with AIMS Datacentre : AIMS Data Platform API Client which provides easy access to AIMS Data Platform scientific data and information. It has been [reviewed](https://github.com/ropensci/software-review/issues/428) by Sam Albers, Elizabeth Stark, Laura DeCicco.
+
++ [stantargets](https://docs.ropensci.org/stantargets), developed by William Michael Landau: Bayesian data analysis usually incurs long runtimes and cumbersome custom code. A specialized pipeline toolkit for Bayesians, the stantargets R package leverages targets and cmdstanr to ease these burdens. stantargets makes it super easy to set up useful scalable Stan pipelines that automatically parallelize the computation and skip expensive steps when the results are already up to date. Minimal custom code is required, and there is no need to manually configure branching, so usage is much easier than targets alone. stantargets can access all of cmdstanr's major algorithms (MCMC, variational Bayes, and optimization) and it supports both single-fit workflows and multi-rep simulation studies. For the statistical methodology, please refer to Stan documentation (Stan Development Team 2020) <https://mc-stan.org/>. It has been [reviewed](https://github.com/ropensci/software-review/issues/430) by Krzysztof Sakrejda, Matthew T. Warkentin.
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
@@ -123,10 +125,8 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 ## Citations
 
-No new citations added to our database this month, that you can [browse](/citations).
-We recently explained [how we monitor citations](/blog/2021/02/16/package-citation/#how-ropensci-tracks-package-usage), we'll do a new round of Google Scholar alerts reading soon.
-
-In the meantime, thank you for citing our tools!
+No new citations added to our database this month ([browse all citations](/citations)).
+Thanks for citing our tools!
 
 ## Use cases
 
@@ -154,17 +154,18 @@ And what about **files that mysteriously do not disappear** despite being listed
 After checking the regular expression, also check that the file is not e.g. locked (on MacOS), which is a tip reported by [Eric Scott](https://www.ericrscott.com/).
 
 rOpenSci development guide does not have many _requirements_ on [**coding style**](https://devguide.ropensci.org/building.html#code-style).
-So what if you are looking for guidance on the topic?
+But what if you are looking for guidance on the topic?
 Besides [**reading the source**](https://blog.r-hub.io/2019/05/14/read-the-source/) of packages :wink:, you could check out the [**Tidyverse style guide** by Hadley Wickham](https://style.tidyverse.org/) including advice on e.g. [error messages](https://style.tidyverse.org/error-messages.html).
-Also coming from the tidyverse, some functions of [Lionel Henry](https://github.com/lionel-)'s **rlang package** might be relevant when developing your R package: [generate or handle a missing argument](https://rlang.r-lib.org/reference/missing_arg.html), [match an argument to a character vector](https://rlang.r-lib.org/reference/arg_match.html) (with an error matching the tidyverse style guide), [check a package is installed](https://rlang.r-lib.org/reference/is_installed.html).
-Last but not least if you are a purrr user, rlang, that's MIT-licensed, has a file called [compat-purrr.R](https://github.com/r-lib/rlang/blob/master/R/compat-purrr.R) with functions that allow for a similar style of programming than with purrr, minus the dependency on purrr (thanks [Gábor Csárdi](https://github.com/gaborcsardi) for this tip).
 
-Now some workflow advice! When **writing unit tests** for your package, it can be very useful to use _[covr::report()](http://covr.r-lib.org/reference/report.html) [or [covr::file_report()](http://covr.r-lib.org/reference/file_report.html)] to check and browse(!) your coverage progress without pushing to github_ to as reminded by [Lluís Revilla Sancho](https://llrs.dev/) in [rOpenSci semi-open slack](https://contributing.ropensci.org/resources.html#channels).
+Also coming from the tidyverse, some functions of [Lionel Henry](https://github.com/lionel-)'s **rlang package** might be relevant when developing your R package: [generate or handle a missing argument](https://rlang.r-lib.org/reference/missing_arg.html), [match an argument to a character vector](https://rlang.r-lib.org/reference/arg_match.html) (with an error matching the tidyverse style guide), [check a package is installed](https://rlang.r-lib.org/reference/is_installed.html).
+Last but not least if you are a purrr user, rlang (MIT-licensed) has a file called [compat-purrr.R](https://github.com/r-lib/rlang/blob/master/R/compat-purrr.R) with functions that allow for a similar style of programming than with purrr, minus the dependency on purrr (thanks [Gábor Csárdi](https://github.com/gaborcsardi) for this tip).
+
+Now some workflow advice! When **writing unit tests** for your package, it can be very useful to use [covr::report()](http://covr.r-lib.org/reference/report.html) (or [covr::file_report()](http://covr.r-lib.org/reference/file_report.html)) to check _and browse(!)_ your coverage progress without pushing to GitHub to as reminded by [Lluís Revilla Sancho](https://llrs.dev/) in [rOpenSci semi-open slack](https://contributing.ropensci.org/resources.html#channels).
 This good piece of advice echoes the workflow advised in [the testing chapter of the book "Mastering Shiny"](https://mastering-shiny.org/scaling-testing.html#workflow-1) by [Hadley Wickham](http://hadley.nz/) (the workflow can also be applied to packages that do not use Shiny).
 
 Do you feel like a **package development "newbie"**?
 Stefan McKinnon Høj-Edwards wrote a [nice message on R-package-devel](https://www.mail-archive.com/r-package-devel@r-project.org/msg06645.html) about why not to use neither "newbie" nor "luser" to describe yourself when asking a question about R package development, as it might inhibit you and others.
-On a more meta level, such a message is a good example of how to build a welcoming community.
+On a more meta level, Stefan's message is a good example of how to build a welcoming community.
 
 ## Last words
 

@@ -147,11 +147,11 @@ present_one <- function(package) {
   # as in pkgdown
   authors <- unclass(desc$get_authors())
   aut <- purrr::keep(authors, function(x) {any( x$role %in% "aut") && all(x$role != "cre") })
-  aut <- purrr::map_chr(aut, function(x) paste(x$given, x$family))
+  aut <- purrr::map_chr(aut, function(x) paste(paste(x$given, collapse = " "), paste(x$family, collapse = " ")))
   rev <- purrr::keep(authors, function(x) {any( x$role %in% "rev") && all(x$role != "cre") })
-  rev <- purrr::map_chr(rev, function(x) paste(x$given, x$family))
+  rev <- purrr::map_chr(rev, function(x) paste(paste(x$given, collapse = " "), paste(x$family, collapse = " ")))
   maintainer <- purrr::keep(authors, function(x) {any( x$role %in% "cre") })
-  maintainer <- paste(c(maintainer[[1]]$given, maintainer[[1]]$family), collapse = " ")
+  maintainer <- paste(c(paste(maintainer[[1]]$given, collapse = " "), paste(maintainer[[1]]$family, collapse = " ")), collapse = " ")
   
   author_string <- sprintf("developed by %s", maintainer)
   
@@ -484,10 +484,8 @@ if (length(tech_notes) > 0) {
 
 ## Citations
 
-No new citations added to our database this month, that you can [browse](/citations).
-We recently explained [how we monitor citations](/blog/2021/02/16/package-citation/#how-ropensci-tracks-package-usage), we'll do a new round of Google Scholar alerts reading soon.
-
-In the meantime, thank you for citing our tools!
+No new citations added to our database this month ([browse all citations](/citations)).
+Thanks for citing our tools!
 
 ## Use cases
 
@@ -541,17 +539,18 @@ And what about **files that mysteriously do not disappear** despite being listed
 After checking the regular expression, also check that the file is not e.g. locked (on MacOS), which is a tip reported by [Eric Scott](https://www.ericrscott.com/).
 
 rOpenSci development guide does not have many _requirements_ on [**coding style**](https://devguide.ropensci.org/building.html#code-style).
-So what if you are looking for guidance on the topic?
+But what if you are looking for guidance on the topic?
 Besides [**reading the source**](https://blog.r-hub.io/2019/05/14/read-the-source/) of packages :wink:, you could check out the [**Tidyverse style guide** by Hadley Wickham](https://style.tidyverse.org/) including advice on e.g. [error messages](https://style.tidyverse.org/error-messages.html).
-Also coming from the tidyverse, some functions of [Lionel Henry](https://github.com/lionel-)'s **rlang package** might be relevant when developing your R package: [generate or handle a missing argument](https://rlang.r-lib.org/reference/missing_arg.html), [match an argument to a character vector](https://rlang.r-lib.org/reference/arg_match.html) (with an error matching the tidyverse style guide), [check a package is installed](https://rlang.r-lib.org/reference/is_installed.html).
-Last but not least if you are a purrr user, rlang, that's MIT-licensed, has a file called [compat-purrr.R](https://github.com/r-lib/rlang/blob/master/R/compat-purrr.R) with functions that allow for a similar style of programming than with purrr, minus the dependency on purrr (thanks [Gábor Csárdi](https://github.com/gaborcsardi) for this tip).
 
-Now some workflow advice! When **writing unit tests** for your package, it can be very useful to use _[covr::report()](http://covr.r-lib.org/reference/report.html) [or [covr::file_report()](http://covr.r-lib.org/reference/file_report.html)] to check and browse(!) your coverage progress without pushing to github_ to as reminded by [Lluís Revilla Sancho](https://llrs.dev/) in [rOpenSci semi-open slack](https://contributing.ropensci.org/resources.html#channels).
+Also coming from the tidyverse, some functions of [Lionel Henry](https://github.com/lionel-)'s **rlang package** might be relevant when developing your R package: [generate or handle a missing argument](https://rlang.r-lib.org/reference/missing_arg.html), [match an argument to a character vector](https://rlang.r-lib.org/reference/arg_match.html) (with an error matching the tidyverse style guide), [check a package is installed](https://rlang.r-lib.org/reference/is_installed.html).
+Last but not least if you are a purrr user, rlang (MIT-licensed) has a file called [compat-purrr.R](https://github.com/r-lib/rlang/blob/master/R/compat-purrr.R) with functions that allow for a similar style of programming than with purrr, minus the dependency on purrr (thanks [Gábor Csárdi](https://github.com/gaborcsardi) for this tip).
+
+Now some workflow advice! When **writing unit tests** for your package, it can be very useful to use [covr::report()](http://covr.r-lib.org/reference/report.html) (or [covr::file_report()](http://covr.r-lib.org/reference/file_report.html)) to check _and browse(!)_ your coverage progress without pushing to GitHub to as reminded by [Lluís Revilla Sancho](https://llrs.dev/) in [rOpenSci semi-open slack](https://contributing.ropensci.org/resources.html#channels).
 This good piece of advice echoes the workflow advised in [the testing chapter of the book "Mastering Shiny"](https://mastering-shiny.org/scaling-testing.html#workflow-1) by [Hadley Wickham](http://hadley.nz/) (the workflow can also be applied to packages that do not use Shiny).
 
 Do you feel like a **package development "newbie"**?
 Stefan McKinnon Høj-Edwards wrote a [nice message on R-package-devel](https://www.mail-archive.com/r-package-devel@r-project.org/msg06645.html) about why not to use neither "newbie" nor "luser" to describe yourself when asking a question about R package development, as it might inhibit you and others.
-On a more meta level, such a message is a good example of how to build a welcoming community.
+On a more meta level, Stefan's message is a good example of how to build a welcoming community.
 
 ## Last words
 
