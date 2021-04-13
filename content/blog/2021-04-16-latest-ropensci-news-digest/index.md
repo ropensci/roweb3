@@ -1,5 +1,5 @@
 ---
-title: Latest rOpenSci News Digest
+title: rOpenSci News Digest, April 2021
 author:
   - The rOpenSci Team
 date: '2021-04-16'
