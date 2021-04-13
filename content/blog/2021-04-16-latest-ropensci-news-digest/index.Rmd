@@ -441,7 +441,7 @@ format_post <- function(post) {
 }
 ```
 
-```{r, results='asis', eval=FALSE}
+```{r, results='asis', eval=TRUE}
 cat("## On the blog\n\n")
 software_review <- posts[purrr::map_lgl(posts, "software_peer_review")]
 if (length(software_review) > 0) {
@@ -471,7 +471,6 @@ if (length(others) > 0) {
 tech_notes <- posts[purrr::map_lgl(posts, "tech_note")]
 if (length(tech_notes) > 0) {
   cat("\n\n")
-  cat("### Tech Notes\n\n")
   cat(
     paste0(
       purrr::map_chr(tech_notes, format_post),

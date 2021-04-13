@@ -121,7 +121,11 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 
 
+## On the blog
 
+
+
+* [Publishing and browsing articles on R-universe](/blog/2021/04/09/r-universe-articles) by Jeroen Ooms.
 
 ## Citations
 
