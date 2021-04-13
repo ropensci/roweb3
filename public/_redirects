@@ -8,7 +8,7 @@
 /tech-notes /technotes
 /authors /author
 /authors/*  /author/:splat
-/tutorials/*  https://docs.ropensci.org
+/tutorials/*  /tutorials/
 /usecases/:title/*  /usecases/
 /blog-pt	/blog
 /ambassadors /
