@@ -49,7 +49,7 @@ The first of them will be paired with a hands-on event called _label-athon_.
 
 * [**Set Up Your Package to Foster a Community**](/commcalls/apr2021-pkg-community/) on  Thursday, 22 April 2021 16:00 UTC. rOpenSci puts ongoing effort into exploring and communicating how developers can best attract attention to their package (e.g. usage, citations, or feedback), or how to set up their repository to encourage the types of contributions they want. In this 1-hour community call, **Maëlle Salmon**, **Hugo Gruson**, and **Steffi LaZerte** will share tips and examples on how to do this! 
 
-* That community call will be followed by an experimental event: a [**co-working label-athon**](/events/labelathon01/) on  Thursday, 29 April 2021 16:00 UTC for which [registration is recommended](https://form.jotform.com/210906095013043).
+* That community call will be followed by an experimental event: a [**social co-working label-athon**](/events/labelathon01/) on  Thursday, 29 April 2021 16:00 UTC for which [registration is recommended](https://form.jotform.com/210906095013043).
 
 * [**rOpenSci's R-universe Project**](/commcalls/may2021-r-universe/) on Tuesday, 25 May 2021 17:00 UTC. The R-universe platform is a new umbrella project under which rOpenSci experiments with new ideas for improving publication and discovery of research software in R. In this 1-hour community call, **Jeroen Ooms** will introduce the R-universe, including providing a user perspective, and share how we think this sort of tooling can help scientists publish and discover research software.
 
