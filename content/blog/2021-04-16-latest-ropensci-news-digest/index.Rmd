@@ -45,7 +45,7 @@ It only takes a few minutes to fill the form.
 Thanks to the more than 150 people who already answered, we're very thankful for your participation!
 
 We have two fantastic community calls coming up! 
-The first of them will be paired with a hands-on event called _label-athon_.
+The first of them will be paired with a hands-on Social event called _label-athon_.
 
 * [**Set Up Your Package to Foster a Community**](/commcalls/apr2021-pkg-community/) on  Thursday, 22 April 2021 16:00 UTC. rOpenSci puts ongoing effort into exploring and communicating how developers can best attract attention to their package (e.g. usage, citations, or feedback), or how to set up their repository to encourage the types of contributions they want. In this 1-hour community call, **Maëlle Salmon**, **Hugo Gruson**, and **Steffi LaZerte** will share tips and examples on how to do this! 
 
