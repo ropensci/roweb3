@@ -136,7 +136,9 @@ Thanks for citing our tools!
 
 
 
-One use case of our packages and resources has been reported since we sent the last newsletter.
+Two use cases of our packages and resources have been reported since we sent the last newsletter.
+
+* [Using {RSelenium} to scrape a paginated HTML table](https://discuss.ropensci.org/t/using-rselenium-to-scrape-a-paginated-html-table/2424). Reported by Guillaume Pressiat.
 
 * [Teaching an introduction to workflow management using drake](https://discuss.ropensci.org/t/teaching-an-introduction-to-workflow-management-using-drake/2407). Reported by Matt.
 
