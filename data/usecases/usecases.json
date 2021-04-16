@@ -1,8 +1,26 @@
 [
   {
+    "title": "Using {RSelenium} to scrape a paginated HTML table",
+    "reporter": "Guillaume Pressiat",
+    "tags": ["r", "web-scraping", "rselenium"],
+    "resource": "NA",
+    "url": "https://discuss.ropensci.org/t/using-rselenium-to-scrape-a-paginated-html-table/2424",
+    "image": "noimage",
+    "date": "2021-04-12"
+  },
+  {
+    "title": "Teaching an introduction to workflow management using drake",
+    "reporter": "Matt",
+    "tags": "drake",
+    "resource": "[drake](https://docs.ropensci.org/drake)",
+    "url": "https://discuss.ropensci.org/t/teaching-an-introduction-to-workflow-management-using-drake/2407",
+    "image": "teaching-an-introduction-to-workflow-management-using-drake.png",
+    "date": "2021-03-25"
+  },
+  {
     "title": "Kontarion - a stack extending rocker/ml-verse for Bibliometric analytics",
     "reporter": "Markus Skyttner",
-    "tags": ["refsplitr", "rcrossref", "fulltext", "oai", "rentrez"],
+    "tags": ["refsplitr", "fulltext", "rcrossref", "oai", "rentrez"],
     "resource": "[oai](https://docs.ropensci.org/oai), [rentrez](https://docs.ropensci.org/rentrez), [fulltext](https://docs.ropensci.org/fulltext), [europepmc](https://docs.ropensci.org/europepmc), [refsplitr](https://docs.ropensci.org/refsplitr), [rcrossref](https://docs.ropensci.org/rcrossref), [citecorp](https://docs.ropensci.org/citecorp), [roadoi](https://docs.ropensci.org/roadoi)",
     "url": "https://discuss.ropensci.org/t/kontarion-a-stack-extending-rocker-ml-verse-for-bibliometric-analytics/2214",
     "image": "noimage",
@@ -372,7 +390,7 @@
     "title": "Testing an API wrapper with webmockr and vcr",
     "reporter": "Dave Parr",
     "tags": ["r", "package", "api", "testing"],
-    "resource": "webmockr and vcr with the HTTP testing book. This question on ROpenSci helped me discover the tools.",
+    "resource": "webmockr and vcr with the HTTP testing book. This question on ROpenSci helped me discover the tools",
     "url": "https://discuss.ropensci.org/t/testing-an-api-wrapper-with-webmockr-and-vcr/2125",
     "image": "noimage",
     "date": "2020-06-09"
@@ -498,7 +516,7 @@
     "title": "Academic CV using {vitae}, {scholar} to pull papers, and {tic} for building on Travis.",
     "reporter": "Sam Abbott",
     "tags": ["tic", "vitae"],
-    "resource": "{vitae} and {tic} - both rOpenSci Labs (and excellent).",
+    "resource": "{vitae} and {tic} - both rOpenSci Labs (and excellent)",
     "url": "https://discuss.ropensci.org/t/academic-cv-using-vitae-scholar-to-pull-papers-and-tic-for-building-on-travis/1842",
     "image": "academic-cv-using-vitae-scholar-to-pull-papers-and-tic-for-building-on-travis.png",
     "date": "2019-10-03"
