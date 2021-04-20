@@ -17,7 +17,8 @@ usecases_ids <- usecases_ids[!usecases_ids %in% c(33, # intro
                                                   1667, # post by Scott not an use case
                                                   0)]
 # only keep the ones after the template was defined
-usecases_ids <- usecases_ids[usecases_ids >= 1629]
+usecases_ids <- usecases_ids[usecases_ids >= 1629] %>% 
+  sort()
 .get_packages <- function() {
   "https://raw.githubusercontent.com/ropensci/roregistry/gh-pages/packages.json" %>%
   jsonlite::read_json() %>%
