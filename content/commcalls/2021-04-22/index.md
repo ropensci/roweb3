@@ -28,8 +28,23 @@ speakers:
   - name: Stefanie Butland
     bio: Stefanie Butland is rOpenSci's Community Manager, living in Kamloops, Canada. She created the [rOpenSci Community Contributing Guide](https://contributing.ropensci.org/), co-authored with Steffi LaZerte, that helps people match their motivations and skills to different ways to make code and non-code contributions. Stefanie on [GitHub](https://github.com/stefaniebutland), [Twitter](https://twitter.com/StefanieButland), [Website](https://stefaniebutland.netlify.app/), [rOpenSci](/author/stefanie-butland/).
     img: /img/team/stefanie_butland.jpg    
-# notes: https://docs.google.com/document/d/1o933nG1ZW2Qf8p7FdQxn8wOkk9qoBINL1fx3FlIFSJU/
+notes: https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/
 resources:
+  - url: https://pkg-comm.netlify.app/#/
+    name: Maëlle Salmon's slides
+    details:
+  - url: https://bisaloo.github.io/pkgcommunity_commcall/
+    name: Hugo Gruson's slides
+    details:
+  - url: https://steffilazerte.ca/Presentations/2021-04%20rOpenSci%20-%20Community/2021-04_rOpenSci_community.html
+    name: Steffi LaZerte's slides
+    details:
+  - url: 
+    name: 
+    details:
+  - url: 
+    name: 
+    details: 
   - url: https://github.com/ropensci-org/community-calls/issues/21
     name: Topic discussion on GitHub
     details: Read the thread that led to this Community Call
@@ -42,6 +57,8 @@ tags:
   - community call
   - events
   - labelathon
+  - github
+  - community
 deets: |
     Meeting ID: 981 5102 3535
     
