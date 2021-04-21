@@ -42,6 +42,48 @@ resources:
   - url: https://github.com/ropensci-org/community-calls/issues/21
     name: Topic discussion on GitHub
     details: Read the thread that led to this Community Call
+  - url: https://github.com/ropensci/wateRinfo/blob/master/.github/CONTRIBUTING.md
+    name: wateRinfo contributing guide
+    details: Example file
+  - url: https://github.com/ropensci/skimr/blob/master/.github/CONTRIBUTING.md#understanding-the-scope-of-skimr
+    name: skimr contributing guide, section about scope
+    details: Example file
+  - url: https://github.com/ropensci/.github/blob/master/CODE_OF_CONDUCT.md
+    name: rOpenSci default code of conduct
+    details:Example file
+  - url: https://github.com/tidyverse/ggplot2/blob/master/GOVERNANCE.md
+    name: ggplot2 governance file
+    details: Example file
+  - url: https://github.com/tidyverse/.github/blob/master/SUPPORT.md
+    name: tidyverse default support file
+    details: Example file
+  - url: https://github.com/r-lib/cpp11#getting-help-
+    name: cpp11 README section with a badge to a forum
+    details: Example file   
+  - url: https://github.com/rstudio/blogdown/issues/new/choose
+    name: blogdown interface for new issues, source
+    details: Example file  
+  - url: https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file
+    name: default community health files
+    details: GitHub docs
+  - url: https://docs.github.com/en/github/writing-on-github/using-saved-replies
+    name: saving replies for your account
+    details: GitHub docs
+  - url: https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository
+    name: configuring issue templates for your repository
+    details: GitHub docs    
+  - url: https://github.com/rstudio/blogdown/pull/432#pullrequestreview-368391904
+    name: Example of a comment about style in a PR (blogdown)
+    details: Communication example
+  - url: https://github.com/r-lib/pkgdown/issues/1396#issuecomment-695848545
+    name: Example of a nice no in an issue (pkgdown)
+    details: Communication examples
+  - url: https://pkgdown.r-lib.org/dev/articles/customization.html#layout
+    name: pkgdown (dev version) for customizing what's in the sidebar and footer
+    details: Other
+  - url: https://style.tidyverse.org/
+    name: tidyverse style guide
+    details: Other
 outputs:
 - HTML
 - Calendar 
