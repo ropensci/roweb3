@@ -39,12 +39,6 @@ resources:
   - url: https://steffilazerte.ca/Presentations/2021-04%20rOpenSci%20-%20Community/2021-04_rOpenSci_community.html
     name: Steffi LaZerte's slides
     details:
-  - url: 
-    name: 
-    details:
-  - url: 
-    name: 
-    details: 
   - url: https://github.com/ropensci-org/community-calls/issues/21
     name: Topic discussion on GitHub
     details: Read the thread that led to this Community Call
