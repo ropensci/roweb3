@@ -50,7 +50,7 @@ resources:
     details: Example file
   - url: https://github.com/ropensci/.github/blob/master/CODE_OF_CONDUCT.md
     name: rOpenSci default code of conduct
-    details:Example file
+    details: Example file
   - url: https://github.com/tidyverse/ggplot2/blob/master/GOVERNANCE.md
     name: ggplot2 governance file
     details: Example file
