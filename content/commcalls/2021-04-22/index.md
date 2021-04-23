@@ -89,9 +89,9 @@ resources:
     details: Other
 outputs:
 - HTML
-- Calendar 
-# vimeo:
-#  - id: '518761488'
+- Calendar  
+vimeo:
+  - id: '540502735'
 tags:
   - community call
   - events
