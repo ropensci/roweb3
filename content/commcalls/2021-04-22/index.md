@@ -69,6 +69,9 @@ resources:
   - url: https://docs.github.com/en/github/writing-on-github/using-saved-replies
     name: saving replies for your account
     details: GitHub docs
+  - url: https://docs.github.com/en/github/managing-your-work-on-github/pinning-an-issue-to-your-repository
+    name: pinning an issue to your repository
+    details: GitHub docs
   - url: https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository
     name: configuring issue templates for your repository
     details: GitHub docs    
