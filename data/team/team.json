@@ -180,12 +180,13 @@
    "url": "http://csu-cvmbs.colostate.edu/academics/erhs/Pages/brooke-anderson.aspx",
    "image" : "/img/team/brooke-anderson.jpg",
    "affiliation" : "Colorado State University",
-   "roles": [
+   "past_roles": [
       "editor"
    ],
    "twitter": "gbwanderson",
    "github": "geanders",
-   "home": "http://csu-cvmbs.colostate.edu/academics/erhs/Pages/brooke-anderson.aspx"
+   "home": "http://csu-cvmbs.colostate.edu/academics/erhs/Pages/brooke-anderson.aspx",
+   "alumnus": true
 },
 {
    "name": "Melina Vidoni",
