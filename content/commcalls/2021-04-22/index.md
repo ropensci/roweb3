@@ -89,9 +89,9 @@ resources:
     details: Other
 outputs:
 - HTML
-- Calendar 
-# vimeo:
-#  - id: '518761488'
+- Calendar  
+vimeo:
+  - id: '540502735'
 tags:
   - community call
   - events
@@ -117,6 +117,13 @@ rOpenSci puts ongoing effort into exploring and communicating how developers can
 - What characteristics of a package or project make contributors keep coming back?
 
 Come hear our best recommendations, and share your favorites. Stefanie Butland will moderate to get answers to your questions and we’ll have a collaborative notes doc to harness everyone's collective wisdom.
+
+Index of video:
+- 0:00 Stefanie Butland, Welcome and introductions
+- 4:55 Maëlle Salmon, Set Up Your Package to Foster a Community
+- 20:00 Hugo Gruson, My Journey from Package User to Package Developer… and how to invite more users to take this journey
+- 32:28 Steffi LaZerte, Labelling Issues and the Labelathon
+- 43:58 Q & A
 
 ## Do you think these are great ideas, but it's hard to set aside time to put them into practice?
 
