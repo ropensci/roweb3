@@ -2,7 +2,7 @@
 title: What's New in terrainr 0.4.0?
 author:
   - Mike Mahoney
-date: '2021-04-26'
+date: '2021-05-03'
 slug: what-s-new-in-terrainr-0-4-0
 categories: []
 tags:
@@ -21,7 +21,7 @@ tags:
   - tech notes
 package_version: 0.4.0
 description: The new CRAN release of terrainr improves consistency, CRS logic, and fixes some bugs.
-twitterImg: blog/2021/04/26/what-s-new-in-terrainr-0-4-0/washington.png
+twitterImg: blog/2021/05/03/what-s-new-in-terrainr-0-4-0/washington.png
 twitterAlt: A 3D rendering of the summit of Mt. Washington, including watershed boundaries and river lines.
 tweet: What's new in terrainr 0.4.0? By @mikemahoney218
 output:

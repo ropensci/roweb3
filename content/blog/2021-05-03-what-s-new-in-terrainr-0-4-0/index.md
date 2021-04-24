@@ -2,7 +2,7 @@
 title: What's New in terrainr 0.4.0?
 author:
   - Mike Mahoney
-date: '2021-04-26'
+date: '2021-05-03'
 slug: what-s-new-in-terrainr-0-4-0
 categories: []
 tags:
@@ -21,24 +21,13 @@ tags:
   - tech notes
 package_version: 0.4.0
 description: The new CRAN release of terrainr improves consistency, CRS logic, and fixes some bugs.
-twitterImg: blog/2021/04/26/what-s-new-in-terrainr-0-4-0/washington.png
+twitterImg: blog/2021/05/03/what-s-new-in-terrainr-0-4-0/washington.png
 twitterAlt: A 3D rendering of the summit of Mt. Washington, including watershed boundaries and river lines.
 tweet: What's new in terrainr 0.4.0? By @mikemahoney218
 output:
   html_document:
     keep_md: yes
 ---
-
-This is the R Markdown (.Rmd) template for a blog post or tech note. 
-To generate your post with just Markdown (.md), use that template instead.
-
-Throughout this template, including the YAML, 
-you should change "what-s-new-in-terrainr-0-4-0" to the slug of your post, 
-and "2019-06-04" to your publication date.
-
-Save this file under /content/blog/YYYY-MM-DD-slug/index.Rmd in the local copy of your roweb3 fork.
-
-The chunk below ensures your plots will be inserted in the same folder as your Rmd so you can submit the bundle (.Rmd, .md, images) to roweb3.
 
 
 
@@ -76,7 +65,7 @@ simplified version of) the older version if `gdalwarp` fails.
 As for why you'd want to automatically merge rasters with different numbers of 
 bands, well...
 
-## `get_tiles` doesn't auto-download transparency values for NAIP
+## `get_tiles` doesn't auto-download transparency values for NAIP imagery
 
 NAIP orthophotography provides fantastic continuous 1-meter images for the 
 continental United States. When downloading these photos with the argument 
