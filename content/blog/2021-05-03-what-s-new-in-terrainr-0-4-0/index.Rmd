@@ -22,7 +22,7 @@ tags:
   - tech notes
 package_version: 0.4.0
 description: The new CRAN release of terrainr improves consistency, CRS logic, and fixes some bugs.
-twitterImg: blog/2021/05/03/what-s-new-in-terrainr-0-4-0/washington.png
+twitterImg: blog/2021/05/03/what-s-new-in-terrainr-0-4-0/washington.jpg
 twitterAlt: A 3D rendering of the summit of Mt. Washington, including watershed boundaries and river lines.
 tweet: What's new in terrainr 0.4.0? By @mikemahoney218
 output:
@@ -87,7 +87,7 @@ public domain data from the USGS National Map), visualize them in R via ggplot2,
 and process them for 3D visualization using the Unity 3D engine. You can see
 [the GitHub repo here!](https://docs.ropensci.org/terrainr/)
 
-{{< figure src = "washington.png" alt = "A 3D rendering of the summit of Mt. Washington, including watershed boundaries and river lines." >}}
+{{< figure src = "washington.jpg" alt = "A 3D rendering of the summit of Mt. Washington, including watershed boundaries and river lines." >}}
 
 ## `merge_rasters` can handle tiles with different numbers of bands
 
