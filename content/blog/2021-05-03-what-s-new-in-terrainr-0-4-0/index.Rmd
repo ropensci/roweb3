@@ -2,7 +2,7 @@
 title: What's New in terrainr 0.4.0?
 author:
   - Mike Mahoney
-date: '2021-05-03'
+date: '2021-05-04'
 slug: what-s-new-in-terrainr-0-4-0
 categories: []
 tags:
@@ -15,14 +15,14 @@ tags:
   - data-retrieval
   - ggplot2
   - geospatial
-  - peer-reviewed
+  - Software Peer Review
   - terrainr
   - USGS
   - visualization
   - tech notes
 package_version: 0.4.0
 description: The new CRAN release of terrainr improves consistency, CRS logic, and fixes some bugs.
-twitterImg: blog/2021/05/03/what-s-new-in-terrainr-0-4-0/washington.jpg
+twitterImg: blog/2021/05/04/what-s-new-in-terrainr-0-4-0/washington.jpg
 twitterAlt: A 3D rendering of the summit of Mt. Washington, including watershed boundaries and river lines.
 tweet: What's new in terrainr 0.4.0? By @mikemahoney218
 output:
@@ -85,7 +85,7 @@ retrieval and visualization of spatial data. It provides functions to download
 elevation data and basemap tiles for points within the United States (using 
 public domain data from the USGS National Map), visualize them in R via ggplot2,
 and process them for 3D visualization using the Unity 3D engine. You can see
-[the GitHub repo here!](https://docs.ropensci.org/terrainr/)
+[the docs and access the GitHub repo here!](https://docs.ropensci.org/terrainr/)
 
 {{< figure src = "washington.jpg" alt = "A 3D rendering of the summit of Mt. Washington, including watershed boundaries and river lines." >}}
 
@@ -95,7 +95,7 @@ The old implementation of `merge_rasters` was very bulky, read all your map
 tiles into memory at once, and was a bit of a mess to maintain thanks to the 
 large number of paths you could theoretically take through the code. The commit
 (suggested via rOpenSci review!) replacing it with `gdalwarp` via `sf` is 
-probably the single best code improvement I've made to this repo. Unfortunately,
+probably the single best code improvement I've made to this package. Unfortunately,
 the old method could also handle merging rasters with differing numbers of 
 bands, while the simple `gdalwarp` fix couldn't.
 
