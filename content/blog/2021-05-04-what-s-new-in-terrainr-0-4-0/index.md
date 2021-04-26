@@ -55,6 +55,8 @@ the end of February. The package is a lot better for the comments from
 [Sydney Foks](https://github.com/sfoks) during the review process, and I'm 
 incredibly grateful for their contribution.
 
+Now, as for what's new in version 0.4.0:
+
 ## `merge_rasters` can handle tiles with different numbers of bands
 
 The old implementation of `merge_rasters` was very bulky, read all your map 
