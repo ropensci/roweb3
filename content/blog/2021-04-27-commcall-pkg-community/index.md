@@ -5,6 +5,7 @@ author:
   - Maëlle Salmon
   - Hugo Gruson
   - Steffi LaZerte
+  - Stefanie Butland
 date: 2021-04-28
 tags:
   - packages
@@ -21,7 +22,7 @@ output:
 
 Last Thursday we held a [Community Call](/commcalls/apr2021-pkg-community/) discussing how to set up a Package to Foster a Community. 
 
-This call included speakers [Maëlle Salmon](/author/maëlle-salmon/), [Hugo Gruson](/author/hugo-gruson) and [Steffi LaZerte](/author/steffi-lazerte).
+This call included speakers [Maëlle Salmon](/author/maëlle-salmon/), [Hugo Gruson](/author/hugo-gruson) and [Steffi LaZerte](/author/steffi-lazerte), and was moderated by [Stefanie Butland](/author/stefanie-butland).
 
 {{< figure src = "speakers.png" class = "center" width = "600" alt = "Headshots of the three speakers">}}
 
