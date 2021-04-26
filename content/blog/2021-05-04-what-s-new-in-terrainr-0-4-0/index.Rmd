@@ -76,7 +76,7 @@ knitr::knit_hooks$set(
 terrainr version 0.4.0 is now on CRAN! This version is a relatively minor update 
 that shouldn't impact most workflows, but makes some changes to improve the 
 logic and consistency of the package. The rest of this post runs through the 
-changes you can expect if you `update.packages()` any time soon!
+changes you can expect if you `update.packages` any time soon!
 
 ## What's a terrainr?
 
@@ -88,6 +88,13 @@ and process them for 3D visualization using the Unity 3D engine. You can see
 [the docs and access the GitHub repo here!](https://docs.ropensci.org/terrainr/)
 
 {{< figure src = "washington.jpg" alt = "A 3D rendering of the summit of Mt. Washington, including watershed boundaries and river lines." >}}
+
+`terrainr` is a recent addition to rOpenSci, passing through the 
+[peer-review process](https://github.com/ropensci/software-review/issues/416) at
+the end of February. The package is a lot better for the comments from 
+[Mike Johnson](https://github.com/mikejohnson51) and 
+[Sydney Foks](https://github.com/sfoks) during the review process, and I'm 
+incredibly grateful for their contribution.
 
 ## `merge_rasters` can handle tiles with different numbers of bands
 
