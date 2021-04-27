@@ -41,25 +41,19 @@ During one hour, several  speakers mentioned the bits and pieces of an R package
 
 The three speakers were: 
 
-- Maëlle Salmon, a research software engineer, part-time with rOpenSci
-- Hugo Gruson, a research software engineer and evolutionary biologist
-- Steffi LaZerte, an R programming consultant, teacher, and part-time community assistant at rOpenSci
+- **Maëlle Salmon**, a research software engineer, part-time with rOpenSci
+- **Hugo Gruson**, a research software engineer and evolutionary biologist
+- **Steffi LaZerte**, an R programming consultant, teacher, and part-time community assistant at rOpenSci
 
 
 ### Material
 
-1. Living document
-https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/edit
+- [Living document](
+https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/edit)
 
-2. Recording: https://ropensci.org/commcalls/apr2021-pkg-community/
+- [Recording](https://ropensci.org/commcalls/apr2021-pkg-community/)
 
-**Moments** 
-
-- 0:00 Stefanie Butland: Welcome + introductions
-- 4:55 Maëlle Salmon: Community of a package
-- 20:00 Hugo Gruson: Journey from user to contributor
-- 32:28 Steffi LaZerte: Github Issues as the low hanging fruits
-- 43:58 Q & A
+- [Labelathon](https://deploy-preview-194--ropensci.netlify.app/events/labelathon01/)
 
 ### Maëlle Salmon: Community of a package
 
@@ -73,15 +67,19 @@ Before diving into tips, Maëlle talked about how authors can improve their comm
 
 Maëlle then suggested **three steps** to foster a community for a package: 
 
-1. Define rules & standards for your package
-2. Add them in publicly visible places
-3. Help users & contributor find them (put links to these things everywhere: in Github repository and pkgdown website)
+#### 1. Define rules & standards for your package
 
 Some "rules & standards" include: 
 
 - Add a **code of conduct**: `usethis::use_code_of_conduct()`
 - Add a **citation** to help people to cite your package: `usethis::use_citation()`
 - Add a **contribution guide**: store as `CONTRIBUTING.md`, add style preferences, process preferences, scope lined out, how you prefer testing to work.
+
+#### 2. Add them in publicly visible places
+
+#### 3. Help users & contributor find them
+
+Add links everywhere: in Github repository and pkgdown website. 
 
 {{<figure src = "summary_maelle.png" class = "center" width = "600" alt = "Summary slide of Maelles talk.">}}
 
@@ -95,26 +93,27 @@ Hugo himself followed his favourite package where at one point he noticed someth
 
 Hugo's talk focussed on how to facilitate the transition from user to contributor and suggested **five tips** for package maintainers to make contributing less scary:
 
-1) **Have confidence in your project + expect contribution**
+#### 1. Have confidence in your project + expect contribution
 
 (if you don't, you may miss messages from users)
 
-2) **Show that you are available and want to communicate**
+#### 2. Show that you are available and want to communicate
 
-Use Github, Twitter, email for that. For example, tweet NEWS file after a release.
+Use Github, Twitter, email for that. For example, tweet the NEWS file after a release.
 
-3) **Don't let contributors work for nothing / feel ignored**. 
+#### 3. Don't let contributors work for nothing / feel ignored
 
 - Mention the name of the person. 
 - Keep them in the loop. 
 - Always have the latest version on Github. 
 - Share a roadmap of project. 
 
-4) **Reduce workload for contributors**
+#### 4. Reduce workload for contributors
 
-Disable failing tests. Disable unimportant bots (Hugo mentioned the the notoriously confusing coverage bot)
+- Disable failing tests. 
+- Disable unimportant bots (Hugo mentioned the the notoriously confusing coverage bot)
 
-5) **Leave opportunities to learn**
+#### 5. Leave opportunities to learn
 
 In Github, disable "allow edits from maintainers", as this is demotivating ("Don't take the keyboard from the learner", Carpentry)
 
@@ -135,8 +134,7 @@ Other options for labeling include:
 
 {{<figure src = "summary_steffi.png" class = "center" width = "600" alt = "Alternative issue labels from Steffi's talk.">}}
 
-
-Because package maintainers rarely have time for this, the idea of a labelathon - labeling issues in a social setting - was born (sign up here [LINK]).
+Because package maintainers rarely have time for this, the idea of a **labelathon** - labeling issues in a social setting - was born and happening for the first time on **Thursday 29 April 2021** (sign up [here](https://deploy-preview-194--ropensci.netlify.app/events/labelathon01/)).
 
 
 ## Questions
@@ -145,4 +143,3 @@ There were lots of questions and not all could be answered during the call (see 
 
 An interesting one was "Contributor license agreement" or CLA in short (mentioned in Maëlle's talk): Apparently, this is important for large collaborations (at least in the US) to make sure that software does not break because users ask any code back.
 
-## Labelathon
