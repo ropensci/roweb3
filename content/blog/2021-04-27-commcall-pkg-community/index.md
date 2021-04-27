@@ -136,7 +136,11 @@ Other options for labeling include:
 
 {{<figure src = "summary_steffi.png" class = "center" width = "600" alt = "Alternative issue labels from Steffi's talk.">}}
 
-Because package maintainers rarely have time for this, the idea of a **labelathon** - labeling issues in a social setting - was born and happening for the first time on **Thursday 29 April 2021** (sign up [here](https://ropensci.org/events/labelathon01/)).
+Because package maintainers rarely have time for this, the idea of a social **label-athon** - labeling issues in a social setting - was born and happening for the first time on **Thursday 29 April 2021 at 16:00 UTC** (sign up [here](https://form.jotform.com/210906095013043)).
+
+At this Social, participants will get together on Zoom, have some time to meet and greet, and will then spend time co-working (working at the same time on different projects) to make their repositories more contributor-friendly.
+
+The idea is to make this relatively low-priority task a bit more fun, and to offer a chance to socialize with others in the rOpenSci community.
 
 
 
