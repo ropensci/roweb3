@@ -145,5 +145,5 @@ Because package maintainers rarely have time for this, the idea of a **labelatho
 
 There were lots of questions and not all could be answered during the call (see the [living document](https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/edit) for questions and answers). 
 
-An interesting one was "Contributor license agreement" or CLA in short (mentioned in Maëlle's talk): Apparently, this is important for large collaborations (at least in the US) to make sure that software does not break because users ask any code back.
+An interesting one ([video](https://vimeo.com/540502735#t=54m30s)) was "Contributor license agreement" or CLA in short (mentioned in Maëlle's talk): Apparently, this is important for large collaborations (at least in the US) to make sure that software does not break because users ask any code back.
 
