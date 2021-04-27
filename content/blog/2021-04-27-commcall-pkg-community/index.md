@@ -35,7 +35,7 @@ Scientific software development - and with that R packages - is a community effo
 
 In principle, every open source package has an open invitation to contribute. The question is how this invisible rule can be turned into something more explicit (and less intimidating) so that users who want to contribute can do so easily and feel welcomed and at ease. This brings us to the topic of rOpenSci's last community call. 
 
-Over the course of an hour, the three speakers emphasised various aspects of an R package that can be used to invite code contributions, and to manage expectations of both users and contributors, for example through a contributor guide, or through explicit instructions how to use issues on GitHub. Speakers also emphasised the importance of the "soft skills" of package maintainers, especially the importance of considering the effect of how package maintainers interact with contributors, such as fostering opportunities to learn, being kind when saying "no", and always acknolwedging contributions.
+Over the course of an hour, the three speakers emphasised various aspects of an R package that can be used to invite code contributions, and to manage expectations of both users and contributors, for example through a contributor guide, or through explicit instructions how to use issues on GitHub. Speakers also emphasised the importance of the "soft skills" of package maintainers, especially the importance of considering the effect of how package maintainers interact with contributors, such as fostering opportunities to learn, being kind when saying "no", and always acknowledging contributions.
 
 
 ### Speakers
@@ -44,7 +44,7 @@ The three speakers were:
 
 - **Maëlle Salmon**, a research software engineer, part-time with rOpenSci
 - **Hugo Gruson**, a research software engineer and evolutionary biologist
-- **Steffi LaZerte**, an R programming consultant, teacher, and part-time community assistant at rOpenSci
+- **Steffi LaZerte**, an R programming consultant, and part-time community assistant at rOpenSci
 
 
 ### Material
@@ -81,7 +81,7 @@ Some "rules & standards" include:
 
 #### 3. Help users & contributor find them
 
-Add links everywhere: in Github repository and pkgdown website. 
+Add links everywhere: in GitHub repository and pkgdown website. 
 
 {{<figure src = "summary_maelle.png" class = "center" width = "600" alt = "Summary slide of Maelles talk.">}}
 
@@ -101,13 +101,13 @@ Hugo's talk focussed on how to facilitate the transition from user to contributo
 
 #### 2. Show that you are available and want to communicate
 
-Use Github, Twitter, email for that. For example, tweet the NEWS file after a release.
+Use GitHub, Twitter, email for that. For example, tweet the NEWS file after a release.
 
 #### 3. Don't let contributors work for nothing / feel ignored
 
 - Mention the name of the person. 
 - Keep them in the loop. 
-- Always have the latest version on Github. 
+- Always have the latest version on GitHub. 
 - Share a roadmap of project. 
 
 #### 4. Reduce workload for contributors
@@ -117,17 +117,17 @@ Use Github, Twitter, email for that. For example, tweet the NEWS file after a re
 
 #### 5. Leave opportunities to learn
 
-In Github, disable "allow edits from maintainers", as this is demotivating ("Don't take the keyboard from the learner", Carpentry)
+In GitHub, disable "allow edits from maintainers", as this is demotivating ("Don't take the keyboard from the learner", Carpentry)
 
 {{<figure src = "summary_hugo.png" class = "center" width = "600" alt = "Summary slide of Hugo's talk.">}}
 
 
 
-### Steffi LaZerte: Github Issues as the low hanging fruits ([video](https://vimeo.com/540502735#t=32m28s))
+### Steffi LaZerte: GitHub Issues as the low hanging fruits ([video](https://vimeo.com/540502735#t=32m28s))
 
-Steffi found the low-hanging fruits in making packages more contributor-friendly - [Github issues](https://github.com/issues)!
+Steffi found the low-hanging fruits in making packages more contributor-friendly - [GitHub issues](https://github.com/issues)!
 
-Github issues can be labeled, and labels can be searched by users who want to become contributors but are maybe too shy to tackle an unlabelled issue. 
+GitHub issues can be labeled, and labels can be searched by users who want to become contributors but are maybe too shy to tackle an unlabelled issue. 
 
 So why not label some well-defined issues with `"help wanted"`, a clear open invitation to users. 
 
@@ -136,7 +136,7 @@ Other options for labeling include:
 
 {{<figure src = "summary_steffi.png" class = "center" width = "600" alt = "Alternative issue labels from Steffi's talk.">}}
 
-Because package maintainers rarely have time for this, the idea of a social **label-athon** - labeling issues in a social setting - was born and happening for the first time on **Thursday 29 April 2021 at 16:00 UTC** (sign up [here](https://form.jotform.com/210906095013043)).
+Because package maintainers rarely have time for this, the idea of a social **label-athon** - labeling issues in a social setting - was born and is happening for the first time on **Thursday 29 April 2021 at 16:00 UTC** (sign up [here](https://form.jotform.com/210906095013043)).
 
 At this Social, participants will get together on Zoom, have some time to meet and greet, and will then spend time co-working (working at the same time on different projects) to make their repositories more contributor-friendly.
 
@@ -149,5 +149,5 @@ The idea is to make this relatively low-priority task a bit more fun, and to off
 
 There were lots of questions and not all could be answered during the call (see the [living document](https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/edit) for questions and answers). 
 
-An interesting one ([video](https://vimeo.com/540502735#t=54m30s)) was "Contributor license agreement" or CLA in short (mentioned in Maëlle's talk): Apparently, this is important for large collaborations (at least in the US) to make sure that software does not break because users ask any code back.
+An interesting one ([video](https://vimeo.com/540502735#t=54m30s)) was "Contributor license agreement" or CLA in short (mentioned in Maëlle's talk): Apparently, this can be important for large collaborations (at least in the US) to make sure that software does not break if users ask for code to be returned.
 
