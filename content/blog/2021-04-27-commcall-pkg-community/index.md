@@ -148,11 +148,11 @@ The idea is to make this relatively low-priority task a bit more fun, and to off
 
 ## Questions ([video](https://vimeo.com/540502735#t=43m58s) | [document](https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/edit#heading=h.xiqdo4ak8lpd))
 
-- (Athanasia Mo Mowinckel) How do you label issues issues you want help with that are really hard? ([video](https://vimeo.com/540502735#t=44m04s)|[document](https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/edit#heading=h.xhnf3ret6q33))
+- (Athanasia Mo Mowinckel) How do you label issues issues you want help with that are really hard? ([video](https://vimeo.com/540502735#t=44m04s) | [document](https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/edit#heading=h.xhnf3ret6q33))
 
-- (Lluís Revilla Sancho) Are there examples/stories of "help wanted" labels on issues that were taken by users/external contributors? ([video](https://vimeo.com/540502735#t=46m16s)|[document](https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/edit#heading=h.ox46tfo5o962))
+- (Lluís Revilla Sancho) Are there examples/stories of "help wanted" labels on issues that were taken by users/external contributors? ([video](https://vimeo.com/540502735#t=46m16s) | [document](https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/edit#heading=h.ox46tfo5o962))
 
-- (Kathryn Doering) Any tips for working with contributors that aren’t that comfortable with git/github? ([video](https://vimeo.com/540502735#t=50m55s)|[document](https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/edit#heading=h.rjo09tjc0lqd))
+- (Kathryn Doering) Any tips for working with contributors that aren’t that comfortable with git/github? ([video](https://vimeo.com/540502735#t=50m55s) | [document](https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/edit#heading=h.rjo09tjc0lqd))
 
 - (Silvia Canelón) Some packages ask contributors to sign a Contributor License Agreement (CLA) -- when is this recommended/necessary? ([video](https://vimeo.com/540502735#t=54m30s)|[document](https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/edit#heading=h.vkb15ssc0lt5))
 
