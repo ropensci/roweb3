@@ -30,11 +30,12 @@ This call included speakers [Maëlle Salmon](/author/maëlle-salmon/), [Hugo Gru
 
 ## Summarizing the community call
 
-Scientific software development - and with that R packages - is a community effort. While there are often just a handful of developers maintaining an R package, the development really starts to thrive when users start to contribute to the code base. 
+Scientific software development - and with that R packages - is a community effort. While there are often just a handful of developers maintaining an R package, the development really starts to thrive when users start to contribute. 
 
-In principle, every open source package has an unspoken open invitation to contribute. The question is how this invisible rule can be turned into something more explicit (and less intimidating) so that users who want to contribute can do so easily and feel welcomed and at ease. This brings us to the topic of rOpenSci's last community call. 
 
-During one hour, several  speakers mentioned the bits and pieces of an R package that invite code contribution and manage expectations of users/contributors (say a contributor guide or using well-defined issues on Github), as well as the importance of the soft skills of the maintainer; for example how they interact with a contributor (not ignoring them, leaving opportunities to learn, being kind when saying "no"). 
+In principle, every open source package has an open invitation to contribute. The question is how this invisible rule can be turned into something more explicit (and less intimidating) so that users who want to contribute can do so easily and feel welcomed and at ease. This brings us to the topic of rOpenSci's last community call. 
+
+Over the course of an hour, the three speakers emphasised various aspects of an R package that can be used to invite code contributions, and to manage expectations of both users and contributors, for example through a contributor guide, or through explicit instructions how to use issues on GitHub. Speakers also emphasised the importance of the "soft skills" of package maintainers, especially the importance of considering the effect of how package maintainers interact with contributors, such as fostering opportunities to learn, being kind when saying "no", and always acknolwedging contributions.
 
 
 ### Speakers
@@ -57,13 +58,13 @@ https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/
 
 ### Maëlle Salmon: Community of a package
 
-A package has many different actors - the package authors, the users, the contributors - and they may act more or less with each other. 
+A package has many different actors - the package authors, the users, the contributors - and they may act and interact with each other in a variety of ways.
 
 Each role has slightly different needs. Everyone wants a better, well-maintained package. But the authors may want citations and grateful users, the users themselves may want certain features, and the contributors might seek recognition. 
 
 Also, authors may need help in tackling issues and who better to help than someone with a user perspective!
 
-Before diving into tips, Maëlle talked about how authors can improve their communication with contributors. Being kind will certainly retain contributors, rather than driving them away. But emojis can also be a great tool to compensate for nuances, for example, when having to say "no". 
+Before diving into tips, Maëlle talked about how authors can improve their communication with contributors. One of the best ways to encourage and retain contributors is simply being kind. But emojis can also be a great tool to compensate for lack of nuances, for example, when having to say "no". 
 
 Maëlle then suggested **three steps** to foster a community for a package: 
 
