@@ -52,9 +52,9 @@ The three speakers were:
 - [Living document](
 https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/edit)
 
-- [Recording](https://ropensci.org/commcalls/apr2021-pkg-community/)
+- [Recording](/commcalls/apr2021-pkg-community/)
 
-- [Labelathon](https://ropensci.org/events/labelathon01/)
+- [Labelathon](/events/labelathon01/)
 
 
 ### Maëlle Salmon: Community of a package ([video](https://vimeo.com/540502735#t=4m55s))
@@ -136,7 +136,7 @@ Other options for labeling include:
 
 {{<figure src = "summary_steffi.png" class = "center" width = "600" alt = "Alternative issue labels from Steffi's talk.">}}
 
-Because package maintainers rarely have time for this, the idea of a social **label-athon** - labeling issues in a social setting - was born and is happening for the first time on **Thursday 29 April 2021 at 16:00 UTC** (sign up [here](https://form.jotform.com/210906095013043)).
+Because package maintainers rarely have time for this, the idea of a social **label-athon** - labeling issues in a social setting - was born and is happening for the first time on **Thursday 29 April 2021 at 16:00 UTC** ([sign up](https://form.jotform.com/210906095013043)).
 
 At this Social, participants will get together on Zoom, have some time to meet and greet, and will then spend time co-working (working at the same time on different projects) to make their repositories more contributor-friendly.
 
