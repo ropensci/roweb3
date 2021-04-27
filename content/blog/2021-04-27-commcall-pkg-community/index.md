@@ -2,6 +2,7 @@
 slug: "commcall-pkg-community"
 title: Set Up Your Package to Foster a Community - Community Call Summary
 author:
+  - Sina Rüeger
   - Maëlle Salmon
   - Hugo Gruson
   - Steffi LaZerte
@@ -117,7 +118,7 @@ Use GitHub, Twitter, email for that. For example, tweet the NEWS file after a re
 
 #### 5. Leave opportunities to learn
 
-In GitHub, disable "allow edits from maintainers", as this is demotivating ("Don't take the keyboard from the learner", Carpentry)
+In GitHub, don't abuse "allow edits from maintainers", as this is demotivating ("Don't take the keyboard from the learner", Carpentry)
 
 {{<figure src = "summary_hugo.png" class = "center" width = "600" alt = "Summary slide of Hugo's talk: Have confidence in your project and expect contribution; Show that you are available and want to communicate; Don't let contributors work for nothing / feel ignored; Reduce the workload; But leave opportunities to learn">}}
 
