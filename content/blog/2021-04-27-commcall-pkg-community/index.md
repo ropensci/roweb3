@@ -5,7 +5,7 @@ author:
   - Maëlle Salmon
   - Hugo Gruson
   - Steffi LaZerte
-  - Stefanie Butland
+  - Mark Padgham
 date: 2021-04-28
 tags:
   - packages
