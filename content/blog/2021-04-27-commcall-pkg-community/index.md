@@ -54,7 +54,7 @@ https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/
 
 - [Recording](https://ropensci.org/commcalls/apr2021-pkg-community/)
 
-- [Labelathon](https://deploy-preview-194--ropensci.netlify.app/events/labelathon01/)
+- [Labelathon](https://ropensci.org/events/labelathon01/)
 
 
 ### Maëlle Salmon: Community of a package ([video](https://vimeo.com/540502735#t=4m55s))
@@ -136,7 +136,9 @@ Other options for labeling include:
 
 {{<figure src = "summary_steffi.png" class = "center" width = "600" alt = "Alternative issue labels from Steffi's talk.">}}
 
-Because package maintainers rarely have time for this, the idea of a **labelathon** - labeling issues in a social setting - was born and happening for the first time on **Thursday 29 April 2021** (sign up [here](https://deploy-preview-194--ropensci.netlify.app/events/labelathon01/)).
+Because package maintainers rarely have time for this, the idea of a **labelathon** - labeling issues in a social setting - was born and happening for the first time on **Thursday 29 April 2021** (sign up [here](https://ropensci.org/events/labelathon01/)).
+
+
 
 
 ## Questions ([video](https://vimeo.com/540502735#t=43m58s))
