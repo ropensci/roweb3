@@ -117,7 +117,7 @@ Use GitHub, Twitter, email for that. For example, tweet the NEWS file after a re
 
 #### 5. Leave opportunities to learn
 
-In GitHub, disable "allow edits from maintainers", as this is demotivating ("Don't take the keyboard from the learner", Carpentry)
+In GitHub, don't abuse "allow edits from maintainers", as this is demotivating ("Don't take the keyboard from the learner", Carpentry)
 
 {{<figure src = "summary_hugo.png" class = "center" width = "600" alt = "Summary slide of Hugo's talk: Have confidence in your project and expect contribution; Show that you are available and want to communicate; Don't let contributors work for nothing / feel ignored; Reduce the workload; But leave opportunities to learn">}}
 
@@ -150,4 +150,3 @@ The idea is to make this relatively low-priority task a bit more fun, and to off
 There were lots of questions and not all could be answered during the call (see the [living document](https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/edit) for questions and answers). 
 
 An interesting one ([video](https://vimeo.com/540502735#t=54m30s)) was "Contributor license agreement" or CLA in short (mentioned in Maëlle's talk): Apparently, this can be important for large collaborations (at least in the US) to make sure that software does not break if users ask for code to be returned.
-
