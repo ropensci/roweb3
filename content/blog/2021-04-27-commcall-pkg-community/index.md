@@ -145,9 +145,32 @@ The idea is to make this relatively low-priority task a bit more fun, and to off
 
 
 
-## Questions ([video](https://vimeo.com/540502735#t=43m58s))
+## Questions ([video](https://vimeo.com/540502735#t=43m58s) | [document](https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/edit#heading=h.xiqdo4ak8lpd))
 
-There were lots of questions and not all could be answered during the call (see the [living document](https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/edit) for questions and answers). 
+- (Athanasia Mo Mowinckel) How do you label issues issues you want help with that are really hard? ([video](https://vimeo.com/540502735#t=44m04s)|[document](https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/edit#heading=h.xhnf3ret6q33))
 
-An interesting one ([video](https://vimeo.com/540502735#t=54m30s)) was "Contributor license agreement" or CLA in short (mentioned in Maëlle's talk): Apparently, this can be important for large collaborations (at least in the US) to make sure that software does not break if users ask for code to be returned.
+- (Lluís Revilla Sancho) Are there examples/stories of "help wanted" labels on issues that were taken by users/external contributors? ([video](https://vimeo.com/540502735#t=46m16s)|[document](https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/edit#heading=h.ox46tfo5o962))
 
+- (Kathryn Doering) Any tips for working with contributors that aren’t that comfortable with git/github? ([video](https://vimeo.com/540502735#t=50m55s)|[document](https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/edit#heading=h.rjo09tjc0lqd))
+
+- (Silvia Canelón) Some packages ask contributors to sign a Contributor License Agreement (CLA) -- when is this recommended/necessary? ([video](https://vimeo.com/540502735#t=54m30s)|[document](https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/edit#heading=h.vkb15ssc0lt5))
+
+- (Rob Crystal-Ornelas) Many of the suggested files have standardized names, is this convention or does it enable features on GitHub? ([document](https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/edit#heading=h.mnvh7htd8kyb))
+
+- (Athanasia Mo Mowinckel) Are there any best-practices in terms of formatting NEWS.md files? ([document](https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/edit#heading=h.q1fyb2oyrdyx))
+
+- (Silvia Canelón) What kind of positive response did Hugo notice after sharing NEWS.md on social media? ([document](https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/edit#heading=h.9jq9163k9b3y))
+
+- (Jeremy Selva) The easystats R package has this cool feature to classify issues. Any idea how to do this? ([document](https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/edit#heading=h.m1oodsbypd52))
+
+- (Sina Rüeger) Maëlle, you mentioned badges for README, can you elaborate on that? ([document](https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/edit#heading=h.bblr3pfkgm3e))
+
+- (Ella Kaye) In terms of encouraging users to contribute, do you have any advice on how to leverage twitter to get attention for it? ([document](https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/edit#heading=h.vcfsgl3qtegg))
+
+- (Sina Rüeger) Now that there will be labelathons in co-working mode, could there be a time where some issues are tackled in co-working fashion, similar to a tidydev day? ([document](https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/edit#heading=h.sk8hgb5bc8k))
+
+- (Wayne Smith) Is there a convention for where to put ORCID--readme.md? Citation? or? ([document](https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/edit#heading=h.5vo9zs9qs1tq))
+
+- (Valentina Costa) For a released package that is still a work in progress do you suggest immediately adding contributors to your contributor list? ([document](https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/edit#heading=h.1sv86z22y6g))
+
+- (Janani Ravi) Is there a good way to indicate in contributing guidelines that contributions may result in co-authorship/acknowledgements in the subsequent publication? ([document](https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/edit#heading=h.qcsorq1lbu7j))
