@@ -83,7 +83,7 @@ Some "rules & standards" include:
 
 Add links everywhere: in GitHub repository and pkgdown website. 
 
-{{<figure src = "summary_maelle.png" class = "center" width = "600" alt = "Summary slide of Maelles talk.">}}
+{{<figure src = "summary_maelle.png" class = "center" width = "600" alt = "Summary slide of Maelles talk: Conclusion: Summarize the rules and quirks of your pakcage; Store them in standard places; Help users & contributors find them. and the whole time, be kind!">}}
 
 
 
@@ -119,7 +119,7 @@ Use GitHub, Twitter, email for that. For example, tweet the NEWS file after a re
 
 In GitHub, disable "allow edits from maintainers", as this is demotivating ("Don't take the keyboard from the learner", Carpentry)
 
-{{<figure src = "summary_hugo.png" class = "center" width = "600" alt = "Summary slide of Hugo's talk.">}}
+{{<figure src = "summary_hugo.png" class = "center" width = "600" alt = "Summary slide of Hugo's talk: Have confidence in your project and expect contribution; Show that you are available and want to communicate; Don't let contributors work for nothing / feel ignored; Reduce the workload; But leave opportunities to learn">}}
 
 
 
@@ -134,7 +134,7 @@ So why not label some well-defined issues with `"help wanted"`, a clear open inv
 Other options for labeling include: 
 
 
-{{<figure src = "summary_steffi.png" class = "center" width = "600" alt = "Alternative issue labels from Steffi's talk.">}}
+{{<figure src = "summary_steffi.png" class = "center" width = "600" alt = "Alternative issue labels from Steffi's talk: help wanted; good first issue; documentation; feature">}}
 
 Because package maintainers rarely have time for this, the idea of a social **label-athon** - labeling issues in a social setting - was born and is happening for the first time on **Thursday 29 April 2021 at 16:00 UTC** ([sign up](https://form.jotform.com/210906095013043)).
 
