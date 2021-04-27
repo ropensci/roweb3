@@ -2,6 +2,7 @@
 slug: "commcall-pkg-community"
 title: Set Up Your Package to Foster a Community - Community Call Summary
 author:
+  - Sina Rüeger
   - Maëlle Salmon
   - Hugo Gruson
   - Steffi LaZerte
