@@ -56,7 +56,8 @@ https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/
 
 - [Labelathon](https://deploy-preview-194--ropensci.netlify.app/events/labelathon01/)
 
-### Maëlle Salmon: Community of a package
+
+### Maëlle Salmon: Community of a package ([video](https://vimeo.com/540502735#t=4m55s))
 
 A package has many different actors - the package authors, the users, the contributors - and they may act and interact with each other in a variety of ways.
 
@@ -86,7 +87,7 @@ Add links everywhere: in Github repository and pkgdown website.
 
 
 
-### Hugo Gruson: Journey from user to contributor
+### Hugo Gruson: Journey from user to contributor ([video](https://vimeo.com/540502735#t=20m00s))
 
 Hugo spelled out the obvious - that every package contributor is a) a user first and b) starts out as a beginner. 
 
@@ -122,7 +123,7 @@ In Github, disable "allow edits from maintainers", as this is demotivating ("Don
 
 
 
-### Steffi LaZerte: Github Issues as the low hanging fruits
+### Steffi LaZerte: Github Issues as the low hanging fruits ([video](https://vimeo.com/540502735#t=32m28s))
 
 Steffi found the low-hanging fruits in making packages more contributor-friendly - [Github issues](https://github.com/issues)!
 
@@ -138,7 +139,7 @@ Other options for labeling include:
 Because package maintainers rarely have time for this, the idea of a **labelathon** - labeling issues in a social setting - was born and happening for the first time on **Thursday 29 April 2021** (sign up [here](https://deploy-preview-194--ropensci.netlify.app/events/labelathon01/)).
 
 
-## Questions
+## Questions ([video](https://vimeo.com/540502735#t=43m58s))
 
 There were lots of questions and not all could be answered during the call (see the [living document](https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/edit) for questions and answers). 
 
