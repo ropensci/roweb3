@@ -114,7 +114,7 @@ Use GitHub, Twitter, email for that. For example, tweet the NEWS file after a re
 #### 4. Reduce workload for contributors
 
 - Disable failing tests. 
-- Disable unimportant bots (Hugo mentioned the the notoriously confusing coverage bot)
+- Disable unimportant bots (Hugo mentioned the notoriously confusing coverage bot)
 
 #### 5. Leave opportunities to learn
 
