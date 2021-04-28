@@ -148,7 +148,7 @@ The idea is to make this relatively low-priority task a bit more fun, and to off
 
 ## Questions ([video](https://vimeo.com/540502735#t=43m58s) | [document](https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/edit#heading=h.xiqdo4ak8lpd))
 
-- (Athanasia Mo Mowinckel) How do you label issues issues you want help with that are really hard? ([video](https://vimeo.com/540502735#t=44m04s) | [document](https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/edit#heading=h.xhnf3ret6q33))
+- (Athanasia Mo Mowinckel) How do you label issues you want help with that are really hard? ([video](https://vimeo.com/540502735#t=44m04s) | [document](https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/edit#heading=h.xhnf3ret6q33))
 
 - (Lluís Revilla Sancho) Are there examples/stories of "help wanted" labels on issues that were taken by users/external contributors? ([video](https://vimeo.com/540502735#t=46m16s) | [document](https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/edit#heading=h.ox46tfo5o962))
 
