@@ -30,6 +30,9 @@ speakers:
     img: /img/team/stefanie_butland.jpg    
 notes: https://docs.google.com/document/d/1UpYoeMoPWR11JTmxYoypXkA5xvWgV-e4aXCy6pd-Ri8/
 resources:
+  - url: https://ropensci.org/blog/2021/04/28/commcall-pkg-community/
+    name: Summary blog post
+    details: by Sina Rüeger
   - url: https://pkg-comm.netlify.app/#/
     name: Maëlle Salmon's slides
     details:
