@@ -48,7 +48,7 @@ and process them for 3D visualization using the Unity 3D engine. You can see
 
 {{< figure src = "washington.jpg" alt = "A 3D rendering of the summit of Mt. Washington, including watershed boundaries and river lines." >}}
 
-`terrainr` is a recent addition to rOpenSci, passing through the 
+terrainr is a recent addition to rOpenSci, passing through the 
 [peer-review process](https://github.com/ropensci/software-review/issues/416) at
 the end of February. The package is a lot better for the comments from 
 [Mike Johnson](https://github.com/mikejohnson51) and 
