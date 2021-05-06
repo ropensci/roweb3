@@ -4,7 +4,7 @@ dateStart: 2021-05-25T17:00:00 # UTC!!
 dateEnd: 2021-05-25T18:00:00 # UTC!!
 date: 2021-05-25T18:00:00 # UTC!! same as dateEnd
 publishDate: 2021-04-06
-description: intro to the R-universe, including user perspective
+description: Setting up your own R universe
 author:
   - Jeroen Ooms
   - Karthik Ram
