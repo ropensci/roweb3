@@ -17,7 +17,7 @@ slug: may2021-r-universe
 resources:
   - url: https://ropensci.org/r-universe/
     name: R-universe project page
-    details: 
+    details:
 speakers:
   - name: Jeroen Ooms
     bio: Jeroen Ooms is rOpenSci's Lead Infrastructure Engineer. He has a PhD in Statistics from UCLA. Jeroen on [GitHub](https://github.com/jeroen), [Twitter](https://twitter.com/opencpu), [rOpenSci](/author/jeroen-ooms/)
@@ -43,11 +43,11 @@ zoomurl: https://zoom.us/j/99062823340?pwd=d1AzL09GbDZ5ZlA1ek1yN3BZU2dsQT09
 
 ### Setting up your own R universe
 
-Earlier this year we announced [R-universe](https://ropensci.org/r-universe/): a new umbrella project by rOpenSci under which we experiment with various ideas for improving publication and discovery of research software in R. The platform is under heavy development, Jeroen's [talk at rstudio-conf 2021](https://resources.rstudio.com/resources/rstudioglobal-2021/monitoring-health-and-impact-of-open-source-projects/) outlines some of our ambitions.
+Earlier this year we announced [R-universe](https://ropensci.org/r-universe/): a project by rOpenSci under which we experiment with various ideas for improving publication and discovery of research software packages in R. The platform is under heavy development, Jeroen's [talk at rstudio-conf 2021](https://resources.rstudio.com/resources/rstudioglobal-2021/monitoring-health-and-impact-of-open-source-projects/) outlines some of our ambitions for the effort.
 
-During the initial pilot, we were testing the system using established packages [listed on CRAN](https://github.com/r-universe-org/cran-to-git) and the [rOpenSci registry](https://ropensci.org/packages/). 
-Now, we will gradually open up the system to allow users to include any R packages into their own universe, to provide anyone with a personal space where you can publish experimental software, dev versions, [research compendia](https://ropensci.org/blog/2021/04/09/r-universe-articles/) packages, and so on.
+During the initial pilot, we were testing the system using published packages [listed on CRAN](https://github.com/r-universe-org/cran-to-git) and the [rOpenSci registry](https://ropensci.org/packages/).
+Now, we are gradually opening up the system to allow users to include any R packages into their own universe, to provide users with a personal space where they can publish experimental software, development versions, [research compendia](https://ropensci.org/blog/2021/04/09/r-universe-articles/) packages.
 
-In this community call, we explain the basic steps to setup your own universe, and get started publishing your packages and articles on your [personal subdomain](https://jeroen.r-universe.dev). We are interested to hear your thoughts and ideas on how this sort of infrastructure can better help researchers publish and discover R packages and other content.
+In this community call, we explain the basic steps of setting up your own universe, and getting started with publishing packages and articles on your [personal subdomain](https://jeroen.r-universe.dev). We are interested in hearing your thoughts and ideas on how this infrastructure can improve how researchers publish and discover R packages and related content.
 
 This 1-hour event, moderated by Karthik Ram, will have at least 20 minutes for audience Q & A.
