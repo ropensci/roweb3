@@ -18,16 +18,27 @@
         <div class="row about-block">
           <div class="col-md-3 text-md-right">
             <h4 class="about-block__title" id="editors">
-              Our Advisory Board
+              Our Advisory Board & Editors
             </h4>
           </div>
           <div class="col-md-6 about-block__text">
             <p>
-              Our advisory board members are volunteers.
+              Our advisory board members & editors are volunteers.
             </p>
           </div>
         </div>
-        {{ $editors := ( .Site.Data.team.statadvisors | shuffle )}}
+        {{ $editors := (shuffle ( where (.Site.Data.team.statadvisors) "roles" "intersect" ( slice "advisor" ) ))}}
+        {{ partial "whole-page-fragments/team/team-section" (dict "team" $editors)  }}
+        </div>
+      <div class="container">
+        <div class="row about-block">
+          <div class="col-md-3 text-md-right">
+            <h4 class="about-block__title" id="editors">
+              Former Advisory Board & Editors
+            </h4>
+          </div>
+        </div>
+        {{ $editors := (shuffle ( where (.Site.Data.team.statadvisors) "past_roles" "intersect" ( slice "advisor" "editor" ) ))}}
         {{ partial "whole-page-fragments/team/team-section" (dict "team" $editors)  }}
         </div>
         </section>
