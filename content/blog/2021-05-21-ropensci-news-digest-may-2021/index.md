@@ -6,7 +6,7 @@ date: '2021-05-21'
 slug: ropensci-news-digest-may-2021
 categories: []
 tags: []
-description: keywords from the content
+description: social co-working, R-universe, rOpenSci at useR! 2021, new packages and package news
 output:
   html_document:
     keep_md: yes
@@ -24,7 +24,41 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-<!-- to be curated manually -->
+We have no less than three categories of (online :wink:) events coming up: social co-working events, a community call, a conference with contributions from four rOpenSci staff members. :sparkles:
+
+### Community Calls
+
+* Our next community call is about [**rOpenSci's R-universe Project**](/commcalls/may2021-r-universe/) and will take place on Tuesday, 25 May 2021 17:00 UTC. The R-universe platform is a new umbrella project under which rOpenSci experiments with new ideas for improving publication and discovery of research software in R. In this 1-hour community call, **Jeroen Ooms** will introduce the R-universe, including providing a user perspective, and share how we think this sort of tooling can help scientists publish and discover research software.
+
+* Ressources from our past community call [**Set Up Your Package to Foster a Community**](/commcalls/apr2021-pkg-community/) were posted. rOpenSci puts ongoing effort into exploring and communicating how developers can best attract attention to their package (e.g. usage, citations, or feedback), or how to set up their repository to encourage the types of contributions they want. In this 1-hour community call, **Maëlle Salmon**, **Hugo Gruson**, and **Steffi LaZerte** shared tips and examples on how to do this! **Sina Rüeger** [summarized the call](/blog/2021/04/28/commcall-pkg-community/) with help from Mark Padgham.
+
+### Social Co-Working
+
+We held our first two **Social Co-Working and Label-athon events** on April 29th and May 13th. 
+These were truly **international events** with 14 participants from Canada, Germany, Switzerland, USA, the UK, France, Singapore, and Mexico. 
+We had a blast **socializing (scavenger hunts!) and co-working on our personal R projects** including repository organization, creating/labelling issues, preliminary research, personal GitHub README files, and those packages you can never find time for. 
+We had **quiet and noisy rooms** to work in, so everyone was able to find an environment that worked best for them.
+Sound like fun? We have **two more coming up**! 
+
+- [Thursday May 27th 9am Pacific](/events/labelathon03/) (16:00 UTC) - [Registration encouraged!](https://form.jotform.com/211236537172249).
+
+- [Thursday June 10th 5pm Pacific](/events/labelathon04/) (Fri June 11th 00:00 UTC) - [Registration encouraged!](https://form.jotform.com/211236201763243).
+
+### rOpenSci at useR! 2021
+
+[Registration](https://user2021.r-project.org/participation/registration/) for the **useR! 2021 conference** has begun, with  Early Bird Deadline until May 28th. 
+useR! conferences are non-profit conferences organized by community volunteers for the community, supported by the R Foundation.
+useR! 2021 will take place online.
+
+Get excited for four contributions by rOpenSci staff members:
+
+* **Jeroen Ooms**, rOpenSci Lead Infrastructure Engineer, will give a [**keynote talk**](https://user2021.r-project.org/program/keynotes/).
+
+* **Maëlle Salmon**, Research Software Engineer with rOpenSci, will give a [tutorial](https://user2021.r-project.org/program/tutorials/), _**GET better at testing your R package!**_ on Wednesday, July the 7th at 9-12AM GMT+2. This tutorial is about advanced testing of R packages, with HTTP testing as a case study.
+
+* **Stefanie Butland**, rOpenSci community manager, will present on **rOpenSci's Model for Managing a Federated Open Source Software Community**.
+
+* **Mark Padgham**, rOpenSci Software Research Scientist, will also give a regular talk, about his original **autotest** package for automatic testing of packages.
 
 Find out about more [events](/events).
 
@@ -110,7 +144,7 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 * [Set Up Your Package to Foster a Community - Community Call Summary](/blog/2021/04/28/commcall-pkg-community) by Sina Rüeger, Maëlle Salmon, Hugo Gruson, Steffi LaZerte, Mark Padgham. Summary of the Community Call on Setting Up Your Package to Foster a Community.
 
-* [rOpenSci News Digest, May 2021](/blog/2021/05/21/ropensci-news-digest-may-2021) by The rOpenSci Team. keywords from the content.
+* [rOpenSci News Digest, May 2021](/blog/2021/05/21/ropensci-news-digest-may-2021) by The rOpenSci Team. social co-working, R-universe, rOpenSci at useR! 2021, new packages and package news.
 
 ## Citations
 
@@ -125,9 +159,13 @@ Thanks for citing our tools!
 
 
 
-One use cases of our packages and resources have been reported since we sent the last newsletter.
+Three use cases of our packages and resources have been reported since we sent the last newsletter.
 
 * [Scraping Google Play Reviews with RSelenium](https://discuss.ropensci.org/t/scraping-google-play-reviews-with-rselenium/2449). Reported by .
+
+* [Easily analyzing tweets using rtweet](https://discuss.ropensci.org/t/easily-analyzing-tweets-using-rtweet/2454). Reported by Amit Arora.
+
+* [Most tweeted words each month: a year snapshot](https://discuss.ropensci.org/t/most-tweeted-words-each-month-a-year-snapshot/2461). Reported by Soraya Campbell.
 
 Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)!
 
@@ -145,7 +183,24 @@ As the maintainer of an rOpenSci package, feel free to contact us on Slack or em
 
 Some useful tips for R package developers. :eyes:
 
-<!-- To be curated by hand -->
+Sometimes you find yourself documenting internal functions with roxygen2 without really wanting everyone to get to see the docs.
+Do you know the [difference between the `@internal` and `@NoRd` tags](https://community.rstudio.com/t/keywords-internal-vs-nord/35119/3)?
+* Keyword [`@internal`](https://roxygen2.r-lib.org/articles/rd.html#indexing) means there will be a manual page for the function but it won't be in the documentation index. " `@keywords internal` is useful because it removes the function from the documentation index; it’s useful for functions aimed primarily at other developers, not typical users of the package."
+* `@NoRd` means there won't even be a manual page so the roxygen2 documentation of that function only lives in the R script. 
+We at rOpenSci [recommend not having manual pages for internal functions](https://devguide.ropensci.org/building.html): " Add `#' @noRd` to internal functions". It is also recommended in the [tidyverse style guide](https://style.tidyverse.org/documentation.html#internal-functions).
+
+Speaking of documentation, when writing examples, do you know the difference between **`\dontrun{}`**, **`\donttest{}`** and **`\dontshow{}`**?
+(Is this newsletter section turning into a quizz? :sweat_smile:)
+The roxygen2 docs feature [a very useful table](https://roxygen2.r-lib.org/articles/rd.html#functions) explaining when different types of examples are run depending on the context (in `example()`,	`help()`, `R CMD check`, `R CMD check –as-cran`) which is very useful when you wonder how to safeguard your package examples on e.g. CRAN.
+The same documentation section introduces the very handy **`@examplesIf`** roxygen2 tag that you can use for finer control.
+
+Now on to code archeology!
+Do you want to ["pinpoint the version at which a certain argument appeared in a specific function of a package (or that its default value changed)"](https://twitter.com/JennyBryan/status/1343636610982662144), e.g. to figure out the minimal version required?
+You might like the [apicheck package by David Hugh-Jones](https://github.com/hughjonesd/apicheck), that helps you "explore the historical API of functions in CRAN packages"; and [rcheology by the same author](https://github.com/hughjonesd/rcheology) for data on base packages.
+Related to this are:
+
+* [Using git blame on the package NAMESPACE to see when a function appeared](https://twitter.com/JennyBryan/status/1387439721157038080),
+* The R-hub's [CRAN source code mirror](https://docs.r-hub.io/#cran-source-code-mirror): each repo is a CRAN package, each commit is the change between two versions of that package.
 
 ## Last words
 
