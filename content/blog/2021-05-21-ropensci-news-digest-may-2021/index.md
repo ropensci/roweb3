@@ -5,7 +5,8 @@ author:
 date: '2021-05-21'
 slug: ropensci-news-digest-may-2021
 categories: []
-tags: []
+tags: 
+  - newsletter
 description: social co-working, R-universe, rOpenSci at useR! 2021, new packages and package news
 output:
   html_document:
@@ -52,7 +53,7 @@ useR! 2021 will take place online.
 
 Get excited for four contributions by rOpenSci staff members:
 
-* **Jeroen Ooms**, rOpenSci Lead Infrastructure Engineer, will give a [**keynote talk**](https://user2021.r-project.org/program/keynotes/).
+* **Jeroen Ooms**, rOpenSci Lead Infrastructure Engineer, will give a [**keynote talk**](https://user2021.r-project.org/program/keynotes/) about **building a modern and scalable package build infrastructure**, such as R-universe.
 
 * **Maëlle Salmon**, Research Software Engineer with rOpenSci, will give a [tutorial](https://user2021.r-project.org/program/tutorials/), _**GET better at testing your R package!**_ on Wednesday, July the 7th at 9-12AM GMT+2. This tutorial is about advanced testing of R packages, with HTTP testing as a case study.
 
@@ -144,8 +145,6 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 * [Set Up Your Package to Foster a Community - Community Call Summary](/blog/2021/04/28/commcall-pkg-community) by Sina Rüeger, Maëlle Salmon, Hugo Gruson, Steffi LaZerte, Mark Padgham. Summary of the Community Call on Setting Up Your Package to Foster a Community.
 
-* [rOpenSci News Digest, May 2021](/blog/2021/05/21/ropensci-news-digest-may-2021) by The rOpenSci Team. social co-working, R-universe, rOpenSci at useR! 2021, new packages and package news.
-
 ## Citations
 
 
@@ -171,13 +170,8 @@ Explore [other use cases](/usecases) and [report your own](https://discuss.ropen
 
 ## Call for maintainers
 
-<!--IF CALL
-* [our guidance on _Changing package maintainers_](https://devguide.ropensci.org/changing-maintainers.html)
-* [our _Package Curation Policy_](https://devguide.ropensci.org/curationpolicy.html)
-
-IF NO CALL
 There's no open call for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
-As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. -->
+As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. 
 
 ## Package development corner
 
@@ -191,7 +185,7 @@ We at rOpenSci [recommend not having manual pages for internal functions](https:
 
 Speaking of documentation, when writing examples, do you know the difference between **`\dontrun{}`**, **`\donttest{}`** and **`\dontshow{}`**?
 (Is this newsletter section turning into a quizz? :sweat_smile:)
-The roxygen2 docs feature [a very useful table](https://roxygen2.r-lib.org/articles/rd.html#functions) explaining when different types of examples are run depending on the context (in `example()`,	`help()`, `R CMD check`, `R CMD check –as-cran`) which is very useful when you wonder how to safeguard your package examples on e.g. CRAN.
+The roxygen2 docs feature [a  table](https://roxygen2.r-lib.org/articles/rd.html#functions) explaining when different types of examples are run depending on the context (in `example()`,	`help()`, `R CMD check`, `R CMD check –as-cran`) which is very useful when you wonder how to safeguard your package examples on e.g. CRAN.
 The same documentation section introduces the very handy **`@examplesIf`** roxygen2 tag that you can use for finer control.
 
 Now on to code archeology!
