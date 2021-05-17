@@ -1,5 +1,11 @@
 library("magrittr")
-library("rlang")
+`%bla%` <- function(x, y) {
+  if (!nzchar(x)) {
+    y
+  } else {
+    x
+  }
+}
 
 # install github.com/sckott/discgolf
 # read setup docs
@@ -97,7 +103,7 @@ get_info <- function(id, packages = packages) {
   )
 
   list(title = topic$title,
-       reporter = topic$details$created_by$name %||% topic$details$created_by$username,
+       reporter = topic$details$created_by$name %bla% topic$details$created_by$username,
        tags = topic$tags,
        resource = resource,
        url = paste0("https://discuss.ropensci.org/t/", topic$slug, "/", topic$id),

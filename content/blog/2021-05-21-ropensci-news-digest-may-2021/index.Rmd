@@ -608,23 +608,23 @@ As the maintainer of an rOpenSci package, feel free to contact us on Slack or em
 Some useful tips for R package developers. :eyes:
 
 Sometimes you find yourself documenting internal functions with roxygen2 without really wanting everyone to get to see the docs.
-Do you know the [difference between the `@internal` and `@NoRd` tags](https://community.rstudio.com/t/keywords-internal-vs-nord/35119/3)?
+Do you know the [**difference between the `@internal` and `@NoRd` tags**](https://community.rstudio.com/t/keywords-internal-vs-nord/35119/3)?
 * Keyword [`@internal`](https://roxygen2.r-lib.org/articles/rd.html#indexing) means there will be a manual page for the function but it won't be in the documentation index. " `@keywords internal` is useful because it removes the function from the documentation index; it’s useful for functions aimed primarily at other developers, not typical users of the package."
 * `@NoRd` means there won't even be a manual page so the roxygen2 documentation of that function only lives in the R script. 
 We at rOpenSci [recommend not having manual pages for internal functions](https://devguide.ropensci.org/building.html): " Add `#' @noRd` to internal functions". It is also recommended in the [tidyverse style guide](https://style.tidyverse.org/documentation.html#internal-functions).
 
-Speaking of documentation, when writing examples, do you know the difference between **`\dontrun{}`**, **`\donttest{}`** and **`\dontshow{}`**?
+Speaking of documentation, when writing **examples**, do you know the difference between **`\dontrun{}`**, **`\donttest{}`** and **`\dontshow{}`**?
 (Is this newsletter section turning into a quizz? :sweat_smile:)
 The roxygen2 docs feature [a  table](https://roxygen2.r-lib.org/articles/rd.html#functions) explaining when different types of examples are run depending on the context (in `example()`,	`help()`, `R CMD check`, `R CMD check –as-cran`) which is very useful when you wonder how to safeguard your package examples on e.g. CRAN.
 The same documentation section introduces the very handy **`@examplesIf`** roxygen2 tag that you can use for finer control.
 
-Now on to code archeology!
+Now on to **code archaeology**!
 Do you want to ["pinpoint the version at which a certain argument appeared in a specific function of a package (or that its default value changed)"](https://twitter.com/JennyBryan/status/1343636610982662144), e.g. to figure out the minimal version required?
-You might like the [apicheck package by David Hugh-Jones](https://github.com/hughjonesd/apicheck), that helps you "explore the historical API of functions in CRAN packages"; and [rcheology by the same author](https://github.com/hughjonesd/rcheology) for data on base packages.
+You might like the [**apicheck package** by David Hugh-Jones](https://github.com/hughjonesd/apicheck), that helps you "explore the historical API of functions in CRAN packages"; and [**rcheology** by the same author](https://github.com/hughjonesd/rcheology) for data on base packages.
 Related to this are:
 
-* [Using git blame on the package NAMESPACE to see when a function appeared](https://twitter.com/JennyBryan/status/1387439721157038080),
-* The R-hub's [CRAN source code mirror](https://docs.r-hub.io/#cran-source-code-mirror): each repo is a CRAN package, each commit is the change between two versions of that package.
+* [Using **git blame on the package NAMESPACE** to see when a function appeared](https://twitter.com/JennyBryan/status/1387439721157038080),
+* The R-hub's [**CRAN source code mirror**](https://docs.r-hub.io/#cran-source-code-mirror): each repo is a CRAN package, each commit is the change between two versions of that package.
 
 ## Last words
 

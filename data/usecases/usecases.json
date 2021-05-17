@@ -199,7 +199,7 @@
   },
   {
     "title": "Use rnaturalearth to get a background map in sf format for plotting with ggplot",
-    "reporter": "",
+    "reporter": "arvi1000",
     "tags": "rnaturalearth",
     "resource": "[rnaturalearth](https://docs.ropensci.org/rnaturalearth)",
     "url": "https://discuss.ropensci.org/t/use-rnaturalearth-to-get-a-background-map-in-sf-format-for-plotting-with-ggplot/1830",
@@ -730,7 +730,7 @@
   },
   {
     "title": "Scraping Google Play Reviews with RSelenium",
-    "reporter": "",
+    "reporter": "jlaw",
     "tags": "rselenium",
     "resource": "[RSelenium](https://docs.ropensci.org/RSelenium)",
     "url": "https://discuss.ropensci.org/t/scraping-google-play-reviews-with-rselenium/2449",
