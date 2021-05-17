@@ -1,4 +1,5 @@
 library("magrittr")
+library("rlang")
 
 # install github.com/sckott/discgolf
 # read setup docs
@@ -94,9 +95,9 @@ get_info <- function(id, packages = packages) {
     purrr::map_chr(strsplit(resource, ",")[[1]], link_resource),
     collapse = ", "
   )
-  
+
   list(title = topic$title,
-       reporter = topic$details$created_by$name,
+       reporter = topic$details$created_by$name %||% topic$details$created_by$username,
        tags = topic$tags,
        resource = resource,
        url = paste0("https://discuss.ropensci.org/t/", topic$slug, "/", topic$id),
