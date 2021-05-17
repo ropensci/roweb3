@@ -578,7 +578,7 @@
   {
     "title": "A Twitter bot with rtweet, Mapbox and GitHub Actions",
     "reporter": "Matt Dray",
-    "tags": ["package", "usecase", "rtweet", "maps", "github-actions"],
+    "tags": ["package", "rtweet", "usecase", "maps", "github-actions"],
     "resource": "[rtweet](https://docs.ropensci.org/rtweet)",
     "url": "https://discuss.ropensci.org/t/a-twitter-bot-with-rtweet-mapbox-and-github-actions/2223",
     "image": "a-twitter-bot-with-rtweet-mapbox-and-github-actions.jpeg",
@@ -727,5 +727,32 @@
     "url": "https://discuss.ropensci.org/t/using-rselenium-to-scrape-a-paginated-html-table/2424",
     "image": "noimage",
     "date": "2021-04-12"
+  },
+  {
+    "title": "Scraping Google Play Reviews with RSelenium",
+    "reporter": "",
+    "tags": "rselenium",
+    "resource": "[RSelenium](https://docs.ropensci.org/RSelenium)",
+    "url": "https://discuss.ropensci.org/t/scraping-google-play-reviews-with-rselenium/2449",
+    "image": "noimage",
+    "date": "2021-05-11"
+  },
+  {
+    "title": "Easily analyzing tweets using rtweet",
+    "reporter": "Amit Arora",
+    "tags": ["package", "rtweet"],
+    "resource": "[rtweet](https://docs.ropensci.org/rtweet)",
+    "url": "https://discuss.ropensci.org/t/easily-analyzing-tweets-using-rtweet/2454",
+    "image": "easily-analyzing-tweets-using-rtweet.png",
+    "date": "2021-05-12"
+  },
+  {
+    "title": "Most tweeted words each month: a year snapshot",
+    "reporter": "Soraya Campbell",
+    "tags": ["r", "package", "community", "rtweet", "ggplot2"],
+    "resource": "[rtweet](https://docs.ropensci.org/rtweet)",
+    "url": "https://discuss.ropensci.org/t/most-tweeted-words-each-month-a-year-snapshot/2461",
+    "image": "most-tweeted-words-each-month-a-year-snapshot.gif",
+    "date": "2021-05-17"
   }
 ]

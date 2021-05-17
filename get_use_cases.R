@@ -54,19 +54,23 @@ get_info <- function(id, packages = packages) {
   post <- discgolf::post_get(post_id)
   
   text <- xml2::read_html(
-      post$cooked
+      stringr::str_squish(post$cooked)
   )
-  
-  resource <- gsub(
+
+  xml2::xml_remove(xml2::xml_find_all(text, "//h4/child::a"))
+  h4s <- xml2::xml_find_all(text, "//h4")
+  h4 <- h4s[grepl("used", xml2::xml_text(h4s))][1]
+  if (length(h4) == 0) {
+    resource <- NA
+  } else {
+    resource <- gsub(
     ", $", "",
     gsub(
     "\\\n", ", ",
     xml2::xml_text(
-  xml2::xml_find_first(
-    # https://stackoverflow.com/questions/60137188/xpath-picking-div-after-h4-with-specific-text
-    text, '//h4[contains(text(), "used")]/following-sibling::*[1]'
-    )
+  xml2::xml_find_first(h4, "following-sibling::*[1]")
   ))) %>% toString()
+  }
   
   if (!is.null(topic$image_url)) {
     image_url <- topic$image_url
