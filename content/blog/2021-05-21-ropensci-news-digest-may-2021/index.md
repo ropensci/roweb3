@@ -65,8 +65,8 @@ Find out about more [events](/events).
 
 ### Software review in Spanish
 
-Beside events, another great piece of news: censo2017 was the first package to pass ** rOpenSci software peer-review in Spanish**! :tada:
-[censo2017](https://github.com/ropensci/software-review/issues/414) by [Pachá (aka Mauricio Vargas Sepúlveda)](/author/pachá-aka-mauricio-vargas-sepúlveda/) provides access to the 2017 Chilean Census.
+Beside events, another great piece of news: censo2017 was the first package to pass **rOpenSci software peer-review in Spanish**! :tada:
+The [censo2017](https://github.com/ropensci/software-review/issues/414) package by [Pachá (aka Mauricio Vargas Sepúlveda)](/author/pachá-aka-mauricio-vargas-sepúlveda/) provides access to the 2017 Chilean Census.
 Editor [Melina Vidoni](/blog/2019/01/31/more_editors/) was in charge of this review, the reviewers were [Frans van Dunné](https://github.com/FvD) and [María Paula Caldas](https://www.mpaulacaldas.com/).
 Frans van Dunné most kindly translated our [review template to Spanish](https://devguide.ropensci.org/reviewtemplatees.html)!
 
