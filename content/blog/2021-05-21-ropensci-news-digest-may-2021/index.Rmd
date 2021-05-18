@@ -618,7 +618,7 @@ Sometimes you find yourself documenting internal functions with roxygen2 without
 Do you know the [**difference between the `@internal` and `@NoRd` tags**](https://community.rstudio.com/t/keywords-internal-vs-nord/35119/3)?
 * Keyword [`@internal`](https://roxygen2.r-lib.org/articles/rd.html#indexing) means there will be a manual page for the function but it won't be in the documentation index. " `@keywords internal` is useful because it removes the function from the documentation index; it’s useful for functions aimed primarily at other developers, not typical users of the package."
 * `@NoRd` means there won't even be a manual page so the roxygen2 documentation of that function only lives in the R script. 
-We at rOpenSci [recommend not having manual pages for internal functions](https://devguide.ropensci.org/building.html): " Add `#' @noRd` to internal functions". It is also recommended in the [tidyverse style guide](https://style.tidyverse.org/documentation.html#internal-functions).
+We at rOpenSci strongly encourage documentation of internal functions, and advise doing so within code itself rather than as separate manual pages -- that is, [using `@noRd` and not `@internal`](https://devguide.ropensci.org/building.html). It is also recommended in the [tidyverse style guide](https://style.tidyverse.org/documentation.html#internal-functions).
 
 Speaking of documentation, when writing **examples**, do you know the difference between **`\dontrun{}`**, **`\donttest{}`** and **`\dontshow{}`**?
 (Is this newsletter section turning into a quizz? :sweat_smile:)
