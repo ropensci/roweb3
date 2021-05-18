@@ -31,7 +31,7 @@ We have no less than three categories of (online :wink:) events coming up: socia
 
 * Our next community call is about [**rOpenSci's R-universe Project**](/commcalls/may2021-r-universe/) and will take place on Tuesday, 25 May 2021 17:00 UTC. The R-universe platform is a new umbrella project under which rOpenSci experiments with new ideas for improving publication and discovery of research software packages in R. In this 1-hour community call, **Jeroen Ooms** will explain the basic steps of setting up your own universe, and getting started with publishing packages (including experimental software, development versions, [research compendia](https://ropensci.org/blog/2021/04/09/r-universe-articles/)) and articles on your [personal subdomain](https://jeroen.r-universe.dev). We are interested in hearing your thoughts and ideas on how this infrastructure can improve how researchers publish and discover R packages and related content.
 
-* Ressources from our past community call [**Set Up Your Package to Foster a Community**](/commcalls/apr2021-pkg-community/) were posted. rOpenSci puts ongoing effort into exploring and communicating how developers can best attract attention to their package (e.g. usage, citations, or feedback), or how to set up their repository to encourage the types of contributions they want. In this 1-hour community call, **Maëlle Salmon**, **Hugo Gruson**, and **Steffi LaZerte** shared tips and examples on how to do this! **Sina Rüeger** [summarized the call](/blog/2021/04/28/commcall-pkg-community/) with help from Mark Padgham.
+* Video and resources from our past community call [**Set Up Your Package to Foster a Community**](/commcalls/apr2021-pkg-community/) were posted. rOpenSci puts ongoing effort into exploring and communicating how developers can best attract attention to their package (e.g. usage, citations, or feedback), or how to set up their repository to encourage the types of contributions they want. In this 1-hour community call, **Maëlle Salmon**, **Hugo Gruson**, and **Steffi LaZerte** shared tips and examples on how to do this! **Sina Rüeger** [summarized the call](/blog/2021/04/28/commcall-pkg-community/) with help from Mark Padgham.
 
 ### Social Co-Working
 
@@ -41,9 +41,9 @@ We had a blast **socializing (scavenger hunts!) and co-working on our personal R
 We had **quiet and noisy rooms** to work in, so everyone was able to find an environment that worked best for them.
 Sound like fun? We have **two more coming up**! 
 
-- [Thursday May 27th 9am Pacific](/events/labelathon03/) (16:00 UTC) - [Registration encouraged!](https://form.jotform.com/211236537172249).
+- [Thursday May 27th 9am Pacific](/events/labelathon03/) (16:00 UTC) - [Registration encouraged!](https://form.jotform.com/211236537172249)
 
-- [Thursday June 10th 5pm Pacific](/events/labelathon04/) (Fri June 11th 00:00 UTC) - [Registration encouraged!](https://form.jotform.com/211236201763243).
+- [Thursday June 10th 5pm Pacific](/events/labelathon04/) (Fri June 11th 00:00 UTC) - [Registration encouraged!](https://form.jotform.com/211236201763243)
 
 ### rOpenSci at useR! 2021
 
@@ -62,6 +62,13 @@ Get excited for four contributions by rOpenSci staff members:
 * **Mark Padgham**, rOpenSci Software Research Scientist, will also give a regular talk, about his original **autotest** package for automatic testing of packages.
 
 Find out about more [events](/events).
+
+### Software review in Spanish
+
+Beside events, another great piece of news: censo2017 was the first package to pass ** rOpenSci software peer-review in Spanish**! :tada:
+[censo2017](https://github.com/ropensci/software-review/issues/414) by [Pachá (aka Mauricio Vargas Sepúlveda)](/author/pachá-aka-mauricio-vargas-sepúlveda/) provides access to the 2017 Chilean Census.
+Editor [Melina Vidoni](/blog/2019/01/31/more_editors/) was in charge of this review, the reviewers were [Frans van Dunné](https://github.com/FvD) and [María Paula Caldas](https://www.mpaulacaldas.com/).
+Frans van Dunné most kindly translated our [review template to Spanish](https://devguide.ropensci.org/reviewtemplatees.html)!
 
 ## Software :package:
 
