@@ -144,7 +144,9 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 ### Software Review
 
-* [What's New in terrainr 0.4.0?](/blog/2021/05/04/what-s-new-in-terrainr-0-4-0) by Mike Mahoney. The new CRAN release of terrainr improves consistency, CRS logic, and fixes some bugs.{{< figure src="washington.jpg" alt="A 3D rendering of the summit of Mt. Washington, including watershed boundaries and river lines." width="400" >}}
+* [What's New in terrainr 0.4.0?](/blog/2021/05/04/what-s-new-in-terrainr-0-4-0) by Mike Mahoney. The new CRAN release of terrainr improves consistency, CRS logic, and fixes some bugs.
+
+{{< figure src="washington.jpg" alt="A 3D rendering of the summit of Mt. Washington, including watershed boundaries and river lines." width="400" >}}
 
 
 

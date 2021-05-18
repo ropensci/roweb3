@@ -465,7 +465,7 @@ format_post <- function(post) {
     img_file %>% magick::image_read() %>% magick::image_scale("400x") %>% magick::image_write(img_file)
     string <- paste0(
       string,
-      sprintf('{{< figure src="%s" alt="%s" width="400" >}}\n\n', img_file, post$twitterAlt)
+      sprintf('\n\n{{< figure src="%s" alt="%s" width="400" >}}\n\n', img_file, post$twitterAlt)
     )
   }
   
