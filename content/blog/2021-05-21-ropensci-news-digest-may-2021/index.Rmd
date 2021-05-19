@@ -519,10 +519,10 @@ if (length(tech_notes) > 0) {
 citations <- jsonlite::read_json("https://ropensci-org.github.io/ropensci_citations/citations_all_parts_clean.json")
 ```
 
-No new citations added to our database this month ([browse all citations](/citations)).
-Thanks for citing our tools!
+Below are the citations recently added to our database of `r length(citations)` articles, that you can explore on our [citations page](/citations).
+We found use of...
 
-```{r citations, results = "asis", eval=FALSE}
+```{r citations, results = "asis"}
 since <- lubridate::as_date(last_newsletter) - 1
 commits <- gh::gh(
   "GET /repos/{owner}/{repo}/commits",
@@ -547,6 +547,9 @@ old <- "https://raw.githubusercontent.com/ropensci-org/ropensci_citations/%s/cit
 new <- citations[length(old):length(citations)]
 
 format_package <- function(package, packages = packages) {
+  if (package == "nlmr") {
+    return("[**NLMR**](https://ropensci.github.io/NLMR/)")
+  }
   if (package %in% packages) {
     package <- sprintf("[**%s**](https://docs.ropensci.org/%s)", package, package)
   } else {
@@ -568,6 +571,8 @@ cat(
 )
 
 ```
+
+Thank you for citing our tools!
 
 ## Use cases
 

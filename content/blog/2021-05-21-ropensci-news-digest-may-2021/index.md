@@ -94,7 +94,7 @@ The following thirty-seven packages have had an update since the latest newslett
 
 ## Software Peer Review
 
-There are fifteen recently closed and active submissions and 4 submissions on hold. Issues are at different stages: 
+There are sixteen recently closed and active submissions and 4 submissions on hold. Issues are at different stages: 
 
 * Three at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
 
@@ -134,6 +134,10 @@ There are fifteen recently closed and active submissions and 4 submissions on ho
 
     * [slopes](https://github.com/ropensci/software-review/issues/420), Calculate Slopes of Roads, Rivers and Trajectories. Submitted by [RFlx](http://www.rosafelix.bike).
 
+* One at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
+
+     * [NA](https://github.com/ropensci/software-review/issues/443), Interface to DBH-API. Submitted by [makinin](https://nsd.no/).
+
 Find out more about [Software Peer Review](/software-review) and how to get involved.
 
 ## On the blog
@@ -158,10 +162,94 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 
 
-No new citations added to our database this month ([browse all citations](/citations)).
-Thanks for citing our tools!
+Below are the citations recently added to our database of 1295 articles, that you can explore on our [citations page](/citations).
+We found use of...
 
+* [**biomartr**](https://docs.ropensci.org/biomartr) in Böttcher, A., Büttner, M., Tritschler, S., Sterr, M., Aliluev, A., Oppenländer, L., … Lickert, H. (2021). Non-canonical Wnt/PCP signalling regulates intestinal stem cell lineage priming towards enteroendocrine and Paneth cell fates. Nature Cell Biology, 23(1), 23–31. <https://doi.org/10.1038/s41556-020-00617-2>
 
+* [**bold**](https://docs.ropensci.org/bold), [**rentrez**](https://docs.ropensci.org/rentrez) in Batovska, J., Piper, A., Valenzuela, I., Cunningham, J., & Blacket, M. (2020). Developing a Non-destructive Metabarcoding Protocol for Detection of Pest Insects in Bulk Trap Catches. <https://doi.org/10.21203/rs.3.rs-125070/v1>
+
+* [**comtradr**](https://docs.ropensci.org/comtradr) in Chini, C. M., & Peer, R. A. M. (2021). The traded water footprint of global energy from 2010 to 2018. Scientific Data, 8(1). <https://doi.org/10.1038/s41597-020-00795-6>
+
+* [**CoordinateCleaner**](https://docs.ropensci.org/CoordinateCleaner) in Esquivel, D. A., Aya-Cuero, C., Penagos, A. P., Chacón-Pacheco, J., Agámez-López, C. J., Ochoa, A. V., … Bennett, D. (2020). Updating the distribution of Vampyrum spectrum (Chiroptera, Phyllostomidae) in Colombia: new localities, potential distribution and notes on its conservation. Neotropical Biology and Conservation, 15(4), 689–709. <https://doi.org/10.3897/neotropical.15.e58383>
+
+* [**CoordinateCleaner**](https://docs.ropensci.org/CoordinateCleaner) in Suissa, J. S., & Sundue, M. A. (2020). Diversity Patterns of Neotropical Ferns: Revisiting Tryon’s Centers of Richness and Endemism. American Fern Journal, 110(4). <https://doi.org/10.1640/0002-8444-110.4.211>
+
+* [**CoordinateCleaner**](https://docs.ropensci.org/CoordinateCleaner), [**taxize**](https://docs.ropensci.org/taxize) in Tamme, R., Pärtel, M., Kõljalg, U., Laanisto, L., Liira, J., Mander, Ü., … Zobel, M. (2020). Global macroecology of nitrogen‐fixing plants. Global Ecology and Biogeography, 30(2), 514–526. <https://doi.org/10.1111/geb.13236>
+
+* [**FedData**](https://docs.ropensci.org/FedData) in Porter, W. T., Barrand, Z. A., Wachara, J., DaVall, K., Mihaljevic, J. R., Pearson, T., … Nieto, N. C. (2021). Predicting the current and future distribution of the western black-legged tick, Ixodes pacificus, across the Western US using citizen science collections. PLOS ONE, 16(1), e0244754. <https://doi.org/10.1371/journal.pone.0244754>
+
+* [**neotoma**](https://docs.ropensci.org/neotoma) in Byun, E., Sato, H., Cowling, S. A., & Finkelstein, S. A. (2020). Extensive wetland development in mid-latitude North America during the Bølling–Allerød. Nature Geoscience, 14(1), 30–35. <https://doi.org/10.1038/s41561-020-00670-4>
+
+* [**NLMR**](https://ropensci.github.io/NLMR/) in Thompson, P. R., Derocher, A. E., Edwards, M. A., & Lewis, M. A. (2021). Describing spatiotemporal memory patterns using animal movement modelling. arXiv preprint arXiv:2101.04183. <https://arxiv.org/pdf/2101.04183>
+
+* [**nlrx**](https://docs.ropensci.org/nlrx) in Dahirel, M., Bertin, A., Haond, M., Blin, A., Lombaert, E., Calcagno, V., … Vercken, E. (2020). Shifts from pulled to pushed range expansions caused by reduction of landscape connectivity. <https://doi.org/10.1101/2020.05.13.092775>
+
+* [**osmdata**](https://docs.ropensci.org/osmdata) in Moradi, M. (2020). Evaluating the quality of OSM roads and buildings in the Québec Province. <https://corpus.ulaval.ca/jspui/bitstream/20.500.11794/67232/1/36576.pdf>
+
+* [**osmdata**](https://docs.ropensci.org/osmdata) in Wilkins, E.J. 2020. Using Social Media to Assess the Impact of Weather and Climate on Visitation to Outdoor Recreation Settings. https://digitalcommons.usu.edu/etd/7986
+
+* [**pdftools**](https://docs.ropensci.org/pdftools) in Li, B., Trueman, B. F., Rahman, M. S., & Gagnon, G. A. (2021). Controlling lead release due to uniform and galvanic corrosion — An evaluation of silicate-based inhibitors. Journal of Hazardous Materials, 407, 124707. <https://doi.org/10.1016/j.jhazmat.2020.124707>
+
+* [**pdftools**](https://docs.ropensci.org/pdftools), [**tesseract**](https://docs.ropensci.org/tesseract) in Hines, R. E., Grandage, A. J., & Willoughby, K. G. (2020). Staying Afloat: Planning and Managing Climate Change and Sea Level Rise Risk in Florida’s Coastal Counties. Urban Affairs Review, 107808742098052. <https://doi.org/10.1177/1078087420980526>
+
+* [**phylocomr**](https://docs.ropensci.org/phylocomr), [**brranching**](https://docs.ropensci.org/brranching) in Perez, T. M., Socha, A., Tserej, O., & Feeley, K. J. (2021). Photosystem II heat tolerances characterize thermal generalists and the upper limit of carbon assimilation. Plant, Cell & Environment. <https://doi.org/10.1111/pce.13990>
+
+* [**rfishbase**](https://docs.ropensci.org/rfishbase) in Palacios-Abrantes, J., Reygondeau, G., Wabnitz, C. C. C., & Cheung, W. W. L. (2020). The transboundary nature of the world’s exploited marine species. Scientific Reports, 10(1). doi:10.1038/s41598-020-74644-2
+
+* [**rfishbase**](https://docs.ropensci.org/rfishbase) in Parravicini, V., Casey, J. M., Schiettekatte, N. M. D., Brandl, S. J., Pozas-Schacre, C., Carlot, J., … Stuart-Smith, R. D. (2020). Delineating reef fish trophic guilds with global gut content data synthesis and phylogeny. PLOS Biology, 18(12), e3000702. <https://doi.org/10.1371/journal.pbio.3000702>
+
+* [**rgbif**](https://docs.ropensci.org/rgbif) in Ascensão, F., D’Amico, M., Martins, R. C., Rebelo, R., Barbosa, A. M., Bencatel, J., … Capinha, C. (2021). Distribution of alien tetrapods in the Iberian Peninsula. NeoBiota, 64, 1–21. <https://doi.org/10.3897/neobiota.64.55597>
+
+* [**rgbif**](https://docs.ropensci.org/rgbif) in Freimuth, J., Bossdorf, O., Scheepens, J. F., & Willems, F. M. (2021). Climate warming changes synchrony of plants and pollinators. <https://doi.org/10.1101/2021.01.10.425984>
+
+* [**rgbif**](https://docs.ropensci.org/rgbif) in Liao, H., Li, D., Zhou, T., Huang, B., Zhang, H., Chen, B., & Peng, S. (2020). The role of functional strategies in global plant distribution. Ecography, 44(4), 493–503. <https://doi.org/10.1111/ecog.05476>
+
+* [**rgbif**](https://docs.ropensci.org/rgbif) in Pineda-Munoz, S., Wang, Y., Lyons, S. K., Tóth, A. B., & McGuire, J. L. (2021). Mammal species occupy different climates following the expansion of human impacts. Proceedings of the National Academy of Sciences, 118(2), e1922859118. <https://doi.org/10.1073/pnas.1922859118>
+
+* [**rgbif**](https://docs.ropensci.org/rgbif) in Santos, G. N. dos, Silva, A. C. da, & Higuchi, P. (2020). IMPACT OF CLIMATE CHANGE ON THE GEOGRAPHICAL DISTRIBUTION OF A CLOUD FOREST INDICATOR TREE SPECIES. Revista Árvore, 44. <https://doi.org/10.1590/1806-908820200000032>
+
+* [**rnaturalearth**](https://docs.ropensci.org/rnaturalearth) in Ionela-Andreea, P., & Marian, N. (2020). Cluster Analysis of Regional Research and Development Disparities in Europe. Studies in Business and Economics, 15(3), 303–312. <https://doi.org/10.2478/sbe-2020-0060>
+
+* [**rnaturalearth**](https://docs.ropensci.org/rnaturalearth) in Mari, A., Roloff, T.-C., Stange, M., Soegaard, K. K., Asllanaj, E., Tauriello, G., … Egli, A. (2021). Global surveillance of potential antiviral drug resistance in SARS-CoV-2: proof of concept focussing on the RNA-dependent RNA polymerase. <https://doi.org/10.1101/2020.12.28.20248663>
+
+* [**rnaturalearth**](https://docs.ropensci.org/rnaturalearth) in Pogorevc, N., Simčič, M., Khayatzadeh, N., Soelkner, J., Berger, B., Bojkovski, D., … Horvat, S. (2020). Post-Genotyping Optimization of Dataset Formation Could Affect Genetic Diversity Parameters: An Example of Analyses with Alpine Goat Breeds. <https://doi.org/10.21203/rs.3.rs-133590/v1>
+
+* [**rnaturalearth**](https://docs.ropensci.org/rnaturalearth) in Shaw, E. C., Fowler, R., Ohadi, S., Bayly, M. J., Barrett, R. A., Tibbits, J., … Cousens, R. D. (2020). Explaining the worldwide distributions of two highly mobile species: Cakile edentula and Cakile maritima. Journal of Biogeography, 48(3), 603–615. <https://doi.org/10.1111/jbi.14024>
+
+* [**rotl**](https://docs.ropensci.org/rotl) in Sandoval-Herrera, N. I., Mastromonaco, G. F., Becker, D. J., Simmons, N. B., & Welch, K. C. (2021). Inter- and intra-specific variation in hair cortisol concentrations of Neotropical bats. <https://doi.org/10.1101/2021.01.10.426004>
+
+* [**rredlist**](https://docs.ropensci.org/rredlist), [**rfishbase**](https://docs.ropensci.org/rfishbase) in Murgier, J., McLean, M., Maire, A., Mouillot, D., Loiseau, N., Munoz, F., … Auber, A. (2021). Rebound in functional distinctiveness following warming and reduced fishing in the North Sea. Proceedings of the Royal Society B: Biological Sciences, 288(1942), 20201600. <https://doi.org/10.1098/rspb.2020.1600>
+
+* [**rtweet**](https://docs.ropensci.org/rtweet) in Boehm, F. J., & Hanlon, B. M. (2021). What Is Happening on Twitter? A Framework for Student Research Projects With Tweets. Journal of Statistics and Data Science Education, 29(sup1), S95–S102. <https://doi.org/10.1080/10691898.2020.1848486>
+
+* [**rtweet**](https://docs.ropensci.org/rtweet) in Gutiérrez García-Pardo, I., Guevara Gil, J. A., Gómez González, D., Castro Cantalejo, J., & Espínola Vílchez, R. (2021). Community Detection Problem Based on Polarization Measures. An application to Twitter: the COVID-19 case in Spain. <https://doi.org/10.20944/preprints202101.0080.v1>
+
+* [**rtweet**](https://docs.ropensci.org/rtweet) in Lucas, B., & Landman, T. (2020). Social listening, modern slavery, and COVID-19. Journal of Risk Research, 1–21. <https://doi.org/10.1080/13669877.2020.1864009>
+
+* [**skimr**](https://docs.ropensci.org/skimr) in Behrendt, I., Fasshauer, M., & Eichner, G. (2020). Gluten Intake and All-Cause and Cause-Specific Mortality: Prospective Findings from the UK Biobank. The Journal of Nutrition, 151(3), 591–597. <https://doi.org/10.1093/jn/nxaa387>
+
+* [**taxize**](https://docs.ropensci.org/taxize) in Albery, G. F., Carlson, C. J., Cohen, L. E., Eskew, E. A., Gibb, R., Ryan, S. J., … Becker, D. J. (2021). Urban-adapted mammal species have more known pathogens. <https://doi.org/10.1101/2021.01.02.425084>
+
+* [**taxize**](https://docs.ropensci.org/taxize) in Janssen, J., & Gomez, L. (2021). An examination of the import of live reptiles from Indonesia by the United States from 2000 to 2015. Journal for Nature Conservation, 59, 125949. <https://doi.org/10.1016/j.jnc.2020.125949>
+
+* [**taxize**](https://docs.ropensci.org/taxize) in Meireles, J. E., Cavender‐Bares, J., Townsend, P. A., Ustin, S., Gamon, J. A., Schweiger, A. K., … O’Meara, B. C. (2020). Leaf reflectance spectra capture the evolutionary history of seed plants. New Phytologist, 228(2), 485–493. <https://doi.org/10.1111/nph.16771>
+
+* [**treeio**](https://docs.ropensci.org/treeio) in Gates, M. W., Zhang, Y. M., & Buffington, M. L. (2020). The great greenbriers gall mystery resolved? New species of Aprostocetus Westwood (Hymenoptera, Eulophidae) gall inducer and two new parasitoids (Hymenoptera, Eurytomidae) associated with Smilax L. in southern Florida, USA. Journal of Hymenoptera Research, 80, 71–98. <https://doi.org/10.3897/jhr.80.59466>
+
+* [**treeio**](https://docs.ropensci.org/treeio) in Maruyama, H., Masago, A., Nambu, T., Mashimo, C., Takahashi, K., & Okinaga, T. (2020). Inter-site and interpersonal diversity of salivary and tongue microbiomes, and the effect of oral care tablets. F1000Research, 9, 1477. <https://doi.org/10.12688/f1000research.27502.1>
+
+* [**treeio**](https://docs.ropensci.org/treeio) in Oswald, K. N., Lee, A. T. K., & Smit, B. (2021). Seasonal metabolic adjustments in an avian evolutionary relict restricted to mountain habitat. Journal of Thermal Biology, 95, 102815. <https://doi.org/10.1016/j.jtherbio.2020.102815>
+
+* [**treeio**](https://docs.ropensci.org/treeio) in Toparslan, E., Karabag, K., & Bilge, U. (2020). A workflow with R: Phylogenetic analyses and visualizations using mitochondrial cytochrome b gene sequences. PLOS ONE, 15(12), e0243927. <https://doi.org/10.1371/journal.pone.0243927>
+
+* [**UCSCXenaTools**](https://docs.ropensci.org/UCSCXenaTools) in Cui, Y., Hunt, A., Li, Z., Birkin, E., Lane, J., Ruge, F., & Jiang, W. G. (2021). Lead DEAD/H box helicase biomarkers with the therapeutic potential identified by integrated bioinformatic approaches in lung cancer. Computational and Structural Biotechnology Journal, 19, 261–278. <https://doi.org/10.1016/j.csbj.2020.12.007>
+
+* [**webchem**](https://docs.ropensci.org/webchem) in Hammoud, Z., & Kramer, F. (2020). Multipath: An R Package to Generate Integrated Reproducible Pathway Models. Biology, 9(12), 483. <https://doi.org/10.3390/biology9120483>
+
+* [**webchem**](https://docs.ropensci.org/webchem) in Su, Q.-Z., Vera, P., Nerín, C., Lin, Q.-B., & Zhong, H.-N. (2021). Safety concerns of recycling postconsumer polyolefins for food contact uses: Regarding (semi-)volatile migrants untargetedly screened. Resources, Conservation and Recycling, 167, 105365. <https://doi.org/10.1016/j.resconrec.2020.105365>
+
+Thank you for citing our tools!
 
 ## Use cases
 
