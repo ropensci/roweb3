@@ -24,7 +24,7 @@ A brief introduction to the design of the system is described in the technote ti
 
 The technical core of the system is provided by a high-performance [package server](https://www.npmjs.com/package/cranlike) which is implemented in a NodeJS/MongoDB docker stack.
 
-Whereas the traditional R package repository tooling is based on statically generated content, our package server dynamically generates the cran-like repository structure from a database and provides extensive APIs for interacting with repositories. Thereby we can provide cran-like servers that are fully compatible R, yet at the same time automate the build process, track revisions, perform network analysis on the dependency trees, collect statistics, or annotate software with external information such as scientific metrics and citations.
+Whereas the traditional R package repository tooling is based on statically generated content, our package server dynamically generates the cran-like repository structure from a database and provides extensive APIs for interacting with repositories. Thereby we can provide cran-like servers that are fully compatible with R, yet at the same time automate the build process, track revisions, perform network analysis on the dependency trees, collect statistics, or annotate software with external information such as scientific metrics and citations.
 
 The package server provides [REST APIs](https://ropensci.r-universe.dev/man) for managing package submissions and querying information about individual packages as well as on the repository level. These data can be accessed programmatically or displayed in a [front-end dashboard](https://ropensci.r-universe.dev).
 
