@@ -59,7 +59,7 @@ Get excited for four contributions by rOpenSci staff members:
 
 * **Stefanie Butland**, rOpenSci community manager, will present on **rOpenSci's Model for Managing a Federated Open Source Software Community**.
 
-* **Mark Padgham**, rOpenSci Software Research Scientist, will also give a regular talk, about his original **autotest** package for automatic testing of packages.
+* **Mark Padgham**, rOpenSci Software Research Scientist, will also give a regular talk, about his original [**autotest**](https://ropenscilabs.github.io/autotest/) package for automatic testing of packages.
 
 Find out about more [events](/events).
 
