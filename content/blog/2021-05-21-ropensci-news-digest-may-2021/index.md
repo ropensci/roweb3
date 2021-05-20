@@ -138,7 +138,7 @@ There are sixteen recently closed and active submissions and 4 submissions on ho
 
 * One at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
 
-     * [NA](https://github.com/ropensci/software-review/issues/443), Interface to DBH-API. Submitted by [makinin](https://nsd.no/).
+     * [rdbhapi](https://github.com/ropensci/software-review/issues/443), Interface to DBH-API. Submitted by [makinin](https://nsd.no/).
 
 Find out more about [Software Peer Review](/software-review) and how to get involved.
 
