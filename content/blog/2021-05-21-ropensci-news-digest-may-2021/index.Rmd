@@ -85,6 +85,8 @@ The [censo2017](https://github.com/ropensci/software-review/issues/414) package 
 Editor [Melina Vidoni](/blog/2019/01/31/more_editors/) was in charge of this review, the reviewers were [Frans van Dunné](https://github.com/FvD) and [María Paula Caldas](https://www.mpaulacaldas.com/).
 Frans van Dunné most kindly translated our [review template to Spanish](https://devguide.ropensci.org/reviewtemplatees.html)!
 
+Thank you to people in the Latin American R community for discussion and encouragement that helped make this happen.
+
 ## Software :package:
 
 ### New packages
