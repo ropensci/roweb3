@@ -218,6 +218,8 @@ Note that main.min.css that contains all the CSS is stored under themes/ropensci
     * Remove anchors (Search and Replace the regex `<a class="anchor d-print-none" href="#.*?"> <small>&#x1F517;</small> </a>` in Atom)
     * The lines need to be hard-wrapped (Ctrl+Shift+Q in Atom)
 * In MailChimp, replicate a past campaign, changing its name, subject and preview (use the YAML field "description"). **Disable [click tracking](https://mailchimp.com/help/enable-and-view-click-tracking/#Turn_click_tracking_on_or_off).**
+* Send test email.
+* After checking it send to all recipients.
 * Tweet about the newsletter from rOpenSci account, highlighting some numbers.
 
 Review criteria: anything looks weird? (need to fix upstream data or code?). Special focus on manually updated sections.
