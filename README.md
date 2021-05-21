@@ -206,7 +206,7 @@ Note that main.min.css that contains all the CSS is stored under themes/ropensci
 ### Newsletter
 
 * Check the number of subscribers in MailChimp doesn't go over what our current plan allows.
-* Start a new post with the newsletter archetype, use the same title "Latest rOpenSci News Digest" and slug "ropensci-news".
+* Start a new post with the newsletter archetype, use the same title "Latest rOpenSci News Digest" and slug "ropensci-news" and tag "newsletter".
 * **Make sure you have all dependencies from roweb3 DESCRIPTION.**
 * **Make sure your branch is based on the latest commit of the default branch, re-base if needed.**
 * Run `get_use_cases.R` to update use cases data (you need a Discourse API key, contact Scott).
