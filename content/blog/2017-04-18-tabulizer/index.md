@@ -16,7 +16,7 @@ tags:
 
 
 
-There is no problem in science quite as frustrating as *other peoples' data*. Whether it's malformed spreadsheets, disorganized documents, proprietary file formats, data without metadata, or any other data scenario created by someone else, [scientists have taken to Twitter to complain about it](https://twitter.com/hashtag/otherpeoplesdata?src=hash). As a political scientist who regularly encounters so-called "open data" in PDFs, this problem is particularly irritating. PDFs may have "portable" in their name, making them display consistently on various platforms, but that portability means any information contained in a PDF is irritatingly difficult to extract computationally. Encountering "open data" PDFs therefore makes me shout things like this repeatedly.
+There is no problem in science quite as frustrating as *other peoples' data*. Whether it's malformed spreadsheets, disorganized documents, proprietary file formats, data without metadata, or any other data scenario created by someone else, [scientists have taken to Twitter to complain about it](https://twitter.com/hashtag/otherpeoplesdata?src=hash). As a political scientist who regularly encounters so-called "open data" in PDFs, this problem is particularly irritating. PDFs may have "portable" in their name, making them display consistently on various platforms, but that portability means any information contained in a PDF is irritatingly difficult to extract computationally. 
 
 What can we do about such data other than extract it by hand? One answer is rely on [`tabulizer`](https://github.com/ropensci/tabulizer) a package I submitted to rOpenSci that reduces some and often all of the hassle of extracting tabular data locked inside PDFs.
 
