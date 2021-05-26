@@ -43,6 +43,21 @@ deets: |
     Passcode: 664906
 zoomurl: https://zoom.us/j/99062823340?pwd=d1AzL09GbDZ5ZlA1ek1yN3BZU2dsQT09
 ---
+
+### Index of video and slides
+- 0:00 Stefanie Butland, Welcome and introductions
+- 3:10 Jeroen Ooms, Getting started with R-universe
+  - 3:57 What is R-universe? ([click for slides](https://jeroen.github.io/runiverse2021/#3))
+  - 7:52 Browsing R packages in a universe ([click for slides](https://jeroen.github.io/runiverse2021/#11))
+  - 12:05 Browsing articles in a universe ([click for slides](https://jeroen.github.io/runiverse2021/#20))
+  - 14:07 API access to all the data! ([click for slides](https://jeroen.github.io/runiverse2021/#25))
+  - 17:00 For whom is R universe intended? ([click for slides](https://jeroen.github.io/runiverse2021/#30))
+  - 18:40 Example use-cases ([click for slides](https://jeroen.github.io/runiverse2021/#32))
+  - 28:48 Global feeds connect the universes ([click for slides](https://jeroen.github.io/runiverse2021/#40))
+  - 32:31 How to setup your own universe ([click for slides](https://jeroen.github.io/runiverse2021/#45))
+- 41:07 Karthik Ram, Big picture and context for the R-universe project
+- 42:58 Q & A
+
 ### Setting up your own R universe
 
 Earlier this year we announced [R-universe](https://ropensci.org/r-universe/): a project by rOpenSci under which we experiment with various ideas for improving publication and discovery of research software packages in R. The platform is under heavy development, Jeroen's [talk at rstudio-conf 2021](https://resources.rstudio.com/resources/rstudioglobal-2021/monitoring-health-and-impact-of-open-source-projects/) outlines some of our ambitions for the effort.
@@ -54,17 +69,4 @@ In this community call, we explain the basic steps of setting up your own univer
 
 This 1-hour event, moderated by Karthik Ram, will have at least 20 minutes for audience Q & A.
 
-### Index of video and slides
-- 0:00 Stefanie Butland, Welcome and introductions
-- 3:10 Jeroen Ooms, Getting started with R-universe
-  - 3:57 What is R-universe? ([slides](https://jeroen.github.io/runiverse2021/#3))
-  - 7:52 Browsing R packages in a universe ([slides](https://jeroen.github.io/runiverse2021/#11))
-  - 12:05 Browsing articles in a universe [slides](https://jeroen.github.io/runiverse2021/#20)
-  - 14:07 API access to all the data! [slides](https://jeroen.github.io/runiverse2021/#25)
-  - 17:00 For whom is R universe intended? [slides](https://jeroen.github.io/runiverse2021/#30)
-  - 18:40 Example use-cases [slides](https://jeroen.github.io/runiverse2021/#32)
-  - 28:48 Global feeds connect the universes [slides](https://jeroen.github.io/runiverse2021/#40)
-  - 32:31 How to setup your own universe [slides](https://jeroen.github.io/runiverse2021/#45)
-- 41:07 Karthik Ram, Big picture and context for the R-universe project
-- 42:58 Q & A
 
