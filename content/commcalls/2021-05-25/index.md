@@ -69,4 +69,8 @@ In this community call, we explain the basic steps of setting up your own univer
 
 This 1-hour event, moderated by Karthik Ram, will have at least 20 minutes for audience Q & A.
 
+### Questions?
+
+Post your questions about the R-universe project to our [public forum](https://discuss.ropensci.org/c/r-universe/30).
+
 
