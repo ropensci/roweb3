@@ -45,16 +45,17 @@ zoomurl: https://zoom.us/j/99062823340?pwd=d1AzL09GbDZ5ZlA1ek1yN3BZU2dsQT09
 ---
 
 ### Index of video and slides
+
 - 0:00 Stefanie Butland, Welcome and introductions
 - 3:10 Jeroen Ooms, Getting started with R-universe
-  - 3:57 What is R-universe? ([click for slides](https://jeroen.github.io/runiverse2021/#3))
-  - 7:52 Browsing R packages in a universe ([click for slides](https://jeroen.github.io/runiverse2021/#11))
-  - 12:05 Browsing articles in a universe ([click for slides](https://jeroen.github.io/runiverse2021/#20))
-  - 14:07 API access to all the data! ([click for slides](https://jeroen.github.io/runiverse2021/#25))
-  - 17:00 For whom is R universe intended? ([click for slides](https://jeroen.github.io/runiverse2021/#30))
-  - 18:40 Example use-cases ([click for slides](https://jeroen.github.io/runiverse2021/#32))
-  - 28:48 Global feeds connect the universes ([click for slides](https://jeroen.github.io/runiverse2021/#40))
-  - 32:31 How to setup your own universe ([click for slides](https://jeroen.github.io/runiverse2021/#45))
+  - 3:57 What is R-universe? ([slides](https://jeroen.github.io/runiverse2021/#3))
+  - 7:52 Browsing R packages in a universe ([slides](https://jeroen.github.io/runiverse2021/#11))
+  - 12:05 Browsing articles in a universe ([slides](https://jeroen.github.io/runiverse2021/#20))
+  - 14:07 API access to all the data! ([slides](https://jeroen.github.io/runiverse2021/#25))
+  - 17:00 For whom is R universe intended? ([slides](https://jeroen.github.io/runiverse2021/#30))
+  - 18:40 Example use-cases ([slides](https://jeroen.github.io/runiverse2021/#32))
+  - 28:48 Global feeds connect the universes ([slides](https://jeroen.github.io/runiverse2021/#40))
+  - 32:31 How to setup your own universe ([slides](https://jeroen.github.io/runiverse2021/#45))
 - 41:07 Karthik Ram, Big picture and context for the R-universe project
 - 42:58 Q & A
 
