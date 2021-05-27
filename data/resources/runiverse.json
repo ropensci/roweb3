@@ -1,22 +1,38 @@
 [
 {
+   "icon": "rocket fa",
    "title": "R-universe dashboard",
    "text": "Front-end dashboard",
    "url": "https://r-universe.dev/organizations/"
 },
 {
-   "title": "Talk @ rstudio::global",
+   "icon": "video fa",
+   "title": "Getting started with R-universe",
+   "text": "Recording from rOpenSci community call, May 2021",
+   "url": "https://ropensci.org/commcalls/may2021-r-universe/"
+},
+{
+   "icon": "video fa",
+   "title": "Monitoring health and impact of open-source projects",
    "text": "Hear context behind R-universe!",
    "url": "https://resources.rstudio.com/resources/rstudioglobal-2021/monitoring-health-and-impact-of-open-source-projects/"
 },
 {
-   "title": "System source code",
+   "icon": "book fa",
+   "title": "Blog posts and technotes",
+   "text": "All blog posts tagged with r-universe",
+   "url": "https://ropensci.org/tags/r-universe/"
+},
+{
+   "icon": "code fa",
+   "title": "System infrastructure code",
    "text": "All the source code",
    "url": "https://github.com/r-universe-org/"
 },
 {
+   "icon": "github fab",
    "title": "Bugs and suggestions",
    "text": "Report bugs",
-   "url": "https://github.com/r-universe-org/bugs"
+   "url": "https://github.com/r-universe-org/bugs/issues"
 }
 ]
