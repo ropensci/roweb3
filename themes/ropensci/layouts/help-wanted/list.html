@@ -1,0 +1,44 @@
+{{ define "main" }}
+ <section class="section section-generic">
+      <div class="container">
+        <!-- Header text -->
+        <div class="row">
+          <div class="col-md-8">
+            <h1>Help Wanted</h1>
+            <p class="subtitle">
+              If you were looking for issues where your expertise is needed, search no more! BLABLABLA. See also our <a href = "https://contributing.ropensci.org/">contributing guide</a> for finding other ways to contribute to rOpenSci.
+            </p>
+          </div>
+        </div>
+
+        
+        <div class="row case-cards mt-5">
+      <table id="usecases" class="display" width="100%">
+        <thead>
+          <tr>
+    <th>Title</th>
+    <th>Package</th>
+    <th>Date</th>
+    <th>Author</th>
+    <th>Good First Issue?</th>
+  </tr>
+  </thead>
+      <tbody>
+      {{ range .Site.Data.help.issues }}
+   <tr>
+     
+    <td><a href="{{ .url }}">{{ .title }}</a></td>
+    <td><a href="https://docs.ropensci.org/{{ .package }}">{{ .package }}</a> </td>
+    <td>{{ dateFormat "January 2, 2006" .opened }} </td>
+    <td>{{ if ne .author "" }} <a href='https://github.com/{{ .username }}'>{{ .author }}</a>{{ else }}<a href='https://github.com/{{ .username }}'>{{ .username }}</a>{{ end }}</td>
+    <td>{{ if in .labels "good first issue" }} yes {{else }} no{{ end }}</td>
+  </tr>
+      {{ end }} 
+      </tbody>
+      </table>
+        </div>
+{{ partial "datatables/scripts" ( dict "id" "usecases" "col" 2 "order" "desc" )  }}
+       
+    </section>
+{{ partial "whole-page-fragments/newsletter"  (dict "divider" "lr" ) }}
+{{ end }}
