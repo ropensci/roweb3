@@ -10,7 +10,30 @@
             </p>
           </div>
         </div>
-
+<div class="row case-cards mt-5">
+         {{ range (first 3 (.Site.Data.help.issues) ) }}
+          <div class="col-md-4">
+            <div class="case-card">
+              <img src="data:image/jpeg;base64, iVBORw0KGgoAAAANSUhEUgAAAWAAAACvCAYAAADDqASZAAAB8ElEQVR42u3UMREAMAgAsaKoEsEwHhDBHVMi4YePX50PgHNhwAAGDGDAABgwgAEDYMAABgyAAQMYMAAGDGDAABgwgAEDGLABAxgwgAEDYMAABgyAAQMYMAAGDGDAABgwgAEDYMAABgxgwAYMYMAABgyAAQMYMAAGDGDAABgwgAEDYMAABgyAAQMYMIABGzCAAQMYMAAGDGDAABgwgAEDYMAABgyAAQMYMAAGDGDAAAYsA4ABAxgwAAYMYMAAGDCAAQNgwAAGDIABAxgwAAYMYMAABgyAAQMYMAAGDGDAABgwgAEDYMAABgyAAQMYMAAGDGDAAAYMgAEDGDAABgxgwAAYMIABA2DAAAYMgAEDGDAABgxgwAAGDIABAxgwAAYMYMAAGDCAAQNgwAAGDIABAxgwAAYMYMAABgyAAQMYMAAGDGDAABgwgAEDYMAABgyAAQMYMAAGDGDAAAYMgAEDGDAABgxgwAAYMIABA2DAAAYMgAEDGDAABgxgwAAGDIABAxgwAAYMYMAAGDCAAQNgwAAGDIABAxgwAAYMYMAABgyAAQMYMAAGDGDAABgwgAEDYMAABgyAAQMYMAAGDGDAAAYMgAEDGDAABgxgwAAYMIABA2DAAAYMgAEDGDAABgxgwAAGDIABAxgwAAYMYMAArA2VgnE0VdnvaQAAAABJRU5ErkJggg==" alt="" />
+              <div class="case-card-body">
+                <div class="d-flex flex-wrap align-items-center">
+                  <a href="{{ .url }}" class="case-title mr-2">{{ .title }}</a>
+                  
+{{ if in .labels "good first issue" }} Good First Issue!{{ end }}
+                </div>
+                <p class="mt-2 case-text">
+               {{ if ne .author "" }} <a href='https://github.com/{{ .username }}'>{{ .author }}</a>{{ else }}<a href='https://github.com/{{ .username }}'>{{ .username }}</a>{{ end }}
+                </p>
+                                <p class="mt-2 case-text">
+               Opened on {{ dateFormat "January 2, 2006" .opened }}.
+                </p>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+          
+        
+        </div>
         
         <div class="row case-cards mt-5">
       <table id="usecases" class="display" width="100%">
