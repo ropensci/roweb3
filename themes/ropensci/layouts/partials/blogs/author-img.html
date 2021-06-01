@@ -7,6 +7,6 @@
   {{ .Scratch.Set "src" $src }}
 {{ else }}
   {{ $number := (md5 .Params.name) }}
-  {{ .Scratch.Set "src" (print "https://avatars.dicebear.com/api/jdenticon/" $number ".svg?options[hues]=[214]&options[h]=50&options[w]=50" ) }}
+  {{ .Scratch.Set "src" (print "https://avatars.dicebear.com/api/jdenticon/" $number ".svg?options[hues]=214&options[h]=50&options[w]=50" ) }}
 {{ end }}
 {{ return ( .Scratch.Get "src" ) }}

@@ -1,16 +1,17 @@
 {{ define "main" }}
     <section class="blog-post">
+      <style>.software-content h1, .software-content h2{padding-left:0}</style>
       <div class="container">
         <!-- Header text -->
         <div class="row">
-          <div class="col-md-8 software-content content">
+          <div class="col-lg-8 software-content content">
             <h1>{{ .Title }}</h1>
             {{ .Content }}
           </div>
-              <div class="col-md-3 offset-md-1">
+              <div class="col-lg-4 mt-4">
                 <aside>
                   {{ range .Site.Data.resources.runiverse }}
-                  <a href="{{ .url }}" class="arrow-card">{{ .title }}</a>
+                  <a href="{{ .url }}" class="arrow-card"><i class="fa-{{ .icon }} pr-2"></i>{{ .title }}</a>
                   {{ end }}
                 </aside>
               </div>
