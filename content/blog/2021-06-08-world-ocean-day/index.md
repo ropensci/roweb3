@@ -1,20 +1,18 @@
 ---
 slug: "world-ocean-day"
 title: Celebrating World Ocean Day rOpenSci Style
-# Delete the package_version line below if your post is not about a package
-package_version: 0.1.0
 author:
   - Steffi LaZerte
-# Set the date below to the publication date of your post
 date: 2021-06-08
-# Minimal tags for a post about a community-contributed package 
-# that has passed software peer review are listed below
-# Consult the Technical Guidelines for information on choosing tags
 tags:
-  - Software Peer Review
   - packages
-  - R
-  - community
+  - rnoaa
+  - rnaturalearth
+  - robis
+  - climate-change
+  - ocean
+  - southern-ocean
+  - conservation
 # The summary below will be used by e.g. Twitter cards
 description: "A very short summary of your post (~ 100 characters)"
 # If you have no preferred image for Twitter cards,
@@ -39,24 +37,33 @@ output:
 **Happy [World Ocean Day](https://worldoceanday.org/)!**
 
 [World Ocean Day](https://worldoceanday.org/) is a day of celebration and action to protect our shared ocean. 
-My background in biology (and animal behaviour) and my enthusiasm for nature and the outdoors definitely help feel the value of protecting important ecosystems,
-but the idea that we have one ocean and it connects us all is something I find particularly meaningful. 
-I find this especially so now when many of us feel isolated and emotionally exhausted. 
 
-So in honour of World Ocean Day, let's take a look at some important ocean metrics using open data and open softare via rOpenSci packages!
+While I already appreciate the importance of protecting sensitive ecosystems, including the ocean[^1], I found the idea of World Ocean Day especially touching.
 
-Last September the Arctic sea ice had the 2nd-lowest extent in a 40-year record[^1]. 
-This isn't good 😿 for the Arctic ecosystem and has impacts not only on wildlife but on humans as well[^2]. 
+> On World Ocean Day, people around our blue planet celebrate and honor our one shared ocean, that connects us all.
+>
+> -- About World Ocean Day - <https://worldoceanday.org/about/>
 
-Let's see if we can't explore this phenomenon ourselves using open data and open source packages part of the [rOpenSci collections](https://ropensci.org/packages).
+This year has been hard, and like many, I often feel isolated and emotionally exhausted.
+The idea that we have only one ocean and it connects us is a lovely way to remember that as isolated as we may feel we're all here on this planet together.
 
-Specifically, I want to look at sea ice extent and map it.
-We'll use two rOpenSci packages:
-- [rnoaa](https://docs.ropensci.org/rnoaa) package to access NOAA data on sea ice coverage
-- [rnaturalearth](https://docs.ropensci.org/rnaturalearth) package to get coastal outlines for context
+So in honour of World Ocean Day, let's take a look at some important ocean metrics using open data and open software via rOpenSci packages!
 
-We'll also use sf for handling spatial data, dplyr for data manipulation, and ggplot2 for plotting. 
-And finally, because I can be lazy, we'll use purrr for easy-to-use apply functions.
+## Sea ice
+
+One of the biggest challenges for protection our ocean is climate change[^2].
+Last September the Arctic sea ice had the 2nd-lowest extent in a 40-year record[^3]. 
+This isn't good for the Arctic ecosystem and has impacts not only on wildlife but on humans as well [^4]. 😿
+
+Let's see if we can't explore ice extent ourselves using open data and open source packages part of the [rOpenSci package collections](https://ropensci.org/packages).
+
+Here, we'll use two rOpenSci packages
+- [rnoaa](https://docs.ropensci.org/rnoaa) to access NOAA data on sea ice coverage
+- and [rnaturalearth](https://docs.ropensci.org/rnaturalearth) to get coastal outlines for context
+
+(Both these packages can do so much more, so check out the docs if you're curious)
+
+We'll also use sf for working with spatial data, dplyr for data manipulation, and ggplot2 for plotting. 
 
 ```r 
 library(rnoaa)
@@ -65,42 +72,36 @@ library(rnaturalearth)
 library(sf)
 library(ggplot2)
 library(dplyr)
-library(purrr)
 ```
 
 Let's get some ice data! 
 We'll use the `sea_ice()` function to grab data on ice extent for every 5 years from 1980 to 2020 (`year = seq(1980, 2020, 5)`), in September (`month = "Sep"`), and for the Arctic (North) (`pole = "N"`).
+
 ```r 
 ice <- sea_ice(year = seq(1980, 2020, 5), month = "Sep", pole = "N")
 ```
 
+`ice` is a list, which each list item corresponding to a year.
+Let's take a brief look at what we've got, by scanning the `head()` of the first two years worth of data. 
+```r 
+head(ice[[1]])
 ```
-Regions defined for each Polygons
-Regions defined for each Polygons
-Regions defined for each Polygons
-Regions defined for each Polygons
-Regions defined for each Polygons
-Regions defined for each Polygons
-Regions defined for each Polygons
-Regions defined for each Polygons
-Regions defined for each Polygons
+
+```
+     long     lat order  hole piece id group
+1  125000 2100000     1 FALSE     1  0   0.1
+2  150000 2100000     2 FALSE     1  0   0.1
+3  150000 2075000     3 FALSE     1  0   0.1
+4  125000 2075000     4 FALSE     1  0   0.1
+5  125000 2100000     5 FALSE     1  0   0.1
+6 -175000 2025000     1 FALSE     1  1   1.1
 ```
 
 ```r 
-map(ice[1:2], head) # Just to look at the head of the first two years worth of data
+head(ice[[2]])
 ```
 
 ```
-[[1]]
-     long     lat order  hole piece id group
-1  125000 2100000     1 FALSE     1  0   0.1
-2  150000 2100000     2 FALSE     1  0   0.1
-3  150000 2075000     3 FALSE     1  0   0.1
-4  125000 2075000     4 FALSE     1  0   0.1
-5  125000 2100000     5 FALSE     1  0   0.1
-6 -175000 2025000     1 FALSE     1  1   1.1
-
-[[2]]
      long     lat order  hole piece id group
 1  125000 2100000     1 FALSE     1  0   0.1
 2  150000 2100000     2 FALSE     1  0   0.1
@@ -110,10 +111,9 @@ map(ice[1:2], head) # Just to look at the head of the first two years worth of d
 6 -175000 2025000     1 FALSE     1  1   1.1
 ```
 
-This results in a list of fortified data frames which you could plot using `geom_polygon()`. 
+Each year is a 'fortified' data frame which you could plot using `geom_polygon()`. 
 But I want to get the projection right, so let's bind the rows together (adding year as a parameter) and convert to an sf object. 
-
-We'll use the EPSG (projection) of 3411 which is for "NSIDC Sea Ice Polar Stereographic North", and is used by NOAA for Sea Ice[^3].
+We'll transform to EPSG 3411 which refers to the NSIDC Sea Ice Polar Stereographic North projection commonly used to map the Arctic.
 
 ```r 
 ice_sf <- ice %>%
@@ -143,7 +143,7 @@ First 10 features:
 10 1980     5 FALSE     1  1   1.1 POINT (-175000 2025000)
 ```
 
-This results in a collection of points, so we'll want to summarize the data into multipoints by year and group, and then cast into polygons.
+This results in a collection of points, so we'll want to `summarize()` the data into multipoints by year and group, and then `st_cast()` into polygons.
 
 ```r 
 ice_sf <- ice_sf %>%
@@ -177,7 +177,7 @@ Projected CRS: NSIDC Sea Ice Polar Stereographic North
 
 Here it's important to use `do_union = FALSE` because we don't want the order of the points to change (otherwise when we plot we'll get [@accidental__aRt](https://twitter.com/accidental__aRt)!)
 
-preservee16cf16979074f7f
+preservef6d502d4e11fcf65
 
 
 Let's take a peak at what we've got
@@ -187,7 +187,7 @@ ggplot() +
   theme_minimal() +
   geom_sf(data = ice_sf, aes(fill = year), colour = NA)
 ```
-{{<figure src="unnamed-chunk-5-1.png" >}}
+{{<figure src="unnamed-chunk-6-1.png" >}}
 
 Oooo very nice! But a couple of points could be improved
 
@@ -197,6 +197,7 @@ Oooo very nice! But a couple of points could be improved
 
 First we'll crop out that questionable data. 
 We can see the extent of the data with `st_bbox()`.
+
 ```r 
 st_bbox(ice_sf)
 ```
@@ -227,7 +228,7 @@ ggplot() +
   theme_minimal() +
   geom_sf(data = ice_sf, aes(fill = year), colour = NA)
 ```
-{{<figure src="unnamed-chunk-7-1.png" >}}
+{{<figure src="unnamed-chunk-8-1.png" >}}
 
 Much better! There are definitely more precise and sophisticated ways of filtering or cropping spatial data, but this will do for now.
 
@@ -253,93 +254,94 @@ ggplot() +
   geom_sf(data = coast) +
   scale_fill_viridis_d(option = "inferno", begin = 0.1, end = 0.9)
 ```
-{{<figure src="unnamed-chunk-9-1.png" >}}
+{{<figure src="unnamed-chunk-10-1.png" >}}
 
 From here, it's very apparent how much the ice extent in September has changed over the years.
 There's been a fair amount of reduction especially along Russia's (top and top right) and Alaska's (left) coasts, and among Canada's Arctic Archipelago (bottom left). 
 
-This isn't great news, and it's not new news, but as World Ocean Day is about calls to action, specifically for proecting [30% protection of the oceans by 2030](https://worldoceanday.org/take-action/conservation-action-focus/), it's always worth the reminder. 
+This isn't great news, and it's not new news, but as World Ocean Day is about calls to action, specifically for proecting [30% protection of the planet's land and ocean by 2030](https://worldoceanday.org/take-action/conservation-action-focus/), it's always worth the reminder that conservation is important. 
 
 
 ## Leopard seals
-One of my favourite videos is a [TED Talk by Paul Nicklen: Animal tales from icy wonderlands](https://www.ted.com/talks/paul_nicklen_animal_tales_from_icy_wonderlands?utm_campaign=tedspread&utm_medium=referral&utm_source=tedcomshare). It's a fantastic view of life in the polar oceans and an amazing story of a photographer and a leopard seal. 
+One of my favourite videos is a [TED Talk by Paul Nicklen: Animal tales from icy wonderlands](https://www.ted.com/talks/paul_nicklen_animal_tales_from_icy_wonderlands?utm_campaign=tedspread&utm_medium=referral&utm_source=tedcomshare). 
+It's a fantastic view of life in the polar oceans and an amazing story of a photographer and a leopard seal. 
 
-So in honour of this wonderful story, let's take a different approach and look at leopard seals! 
+So in honour of that wonderful story, let's do another exploration of the ocean, but this time by looking at leopard seals in Antartica! 
 
-preserve9ea86c17bb133267
+preservede34533c46db6fdf
 
-Andrew Shiva / Wikipedia / CC BY-SA 4.0
+
+In addition to rnaturalearth, sf, dplyr, and ggplot2 which we loaded above, we'll also use stringr for extracting parts of text strings and the rOpenSci package, [robis](https://docs.ropensci.org/robis), for accessing marine observations from the [Ocean Biodiversity Information System](https://obis.org/).
+
 
 ```r 
 library(robis)
-library(stringr)
-library(lubridate)
+```
 
-seals <- occurrence(scientificname = "Hydrurga leptonyx")
+```
+Registered S3 method overwritten by 'httr':
+  method           from  
+  print.cache_info hoardr
+```
+
+```r 
+library(stringr)
+```
+
+A quick internet search tells me that the scientific name of leopard seals is *Hydrurga leptonyx*, so let's get some observations!
+
+We'll use `occurrence()` from robis, then will `select()` columns for dates, dataset names and coordinates,
+and will `filter()` to coordinates closer to the pole which aren't missing a date.
+
+```r 
+seals <- occurrence(scientificname = "Hydrurga leptonyx") %>%
+  select(eventDate, datasetName, decimalLongitude, decimalLatitude) %>%
+  filter(decimalLatitude < -55, !is.na(eventDate)) %>%
+  mutate(year = as.numeric(str_extract(eventDate, "[0-9]{4}")))
+```
+
+```
+Retrieved 1952 records of approximately 1952 (100%)
+```
+
+```r 
 seals
 ```
 
 ```
-# A tibble: 1,952 x 127
-   country  date_year scientificNameID      year  scientificName individualCount
-   <chr>        <int> <chr>                 <chr> <chr>          <chr>          
- 1 Austral…      1988 http://www.marinespe… 1988  Hydrurga lept… 2              
- 2 <NA>          2020 urn:lsid:marinespeci… <NA>  Hydrurga lept… <NA>           
- 3 <NA>            NA urn:lsid:marinespeci… <NA>  Hydrurga lept… 1              
- 4 Austral…      1987 urn:lsid:marinespeci… 1987  Hydrurga lept… 1.0            
- 5 Antarct…      1985 http://www.marinespe… 1985  Hydrurga lept… 1              
- 6 Austral…      1987 http://www.marinespe… 1987  Hydrurga lept… 1              
- 7 <NA>          2016 urn:lsid:marinespeci… <NA>  Hydrurga lept… <NA>           
- 8 <NA>          2018 urn:lsid:marinespeci… <NA>  Hydrurga lept… <NA>           
- 9 Austral…      1976 urn:lsid:marinespeci… <NA>  Hydrurga lept… 1              
-10 Austral…      1978 urn:lsid:marinespeci… <NA>  Hydrurga lept… 1              
-# … with 1,942 more rows, and 121 more variables: dropped <lgl>, aphiaID <int>,
-#   decimalLatitude <dbl>, subclassid <int>, phylumid <int>, familyid <int>,
-#   catalogNumber <chr>, occurrenceStatus <chr>, basisOfRecord <chr>,
-#   superclass <chr>, fieldNotes <chr>, modified <chr>,
-#   maximumDepthInMeters <int>, id <chr>, day <chr>, order <chr>,
-#   superclassid <int>, infraorderid <int>, dataset_id <chr>, locality <chr>,
-#   decimalLongitude <dbl>, collectionCode <chr>, date_end <dbl>,
-#   speciesid <int>, occurrenceID <chr>, suborderid <int>, date_start <dbl>,
-#   month <chr>, genus <chr>, bibliographicCitation <chr>, eventDate <chr>,
-#   scientificNameAuthorship <chr>, coordinateUncertaintyInMeters <chr>,
-#   absence <lgl>, genusid <int>, originalScientificName <chr>, marine <lgl>,
-#   minimumDepthInMeters <int>, subphylumid <int>, institutionCode <chr>,
-#   date_mid <dbl>, class <chr>, informationWithheld <chr>, suborder <chr>,
-#   infraorder <chr>, orderid <int>, sex <chr>, kingdom <chr>, waterBody <chr>,
-#   specificEpithet <chr>, recordedBy <chr>, classid <int>, phylum <chr>,
-#   species <chr>, subphylum <chr>, subclass <chr>, family <chr>,
-#   kingdomid <int>, node_id <chr>, flags <chr>, sss <dbl>,
-#   shoredistance <int>, sst <dbl>, bathymetry <dbl>,
-#   associatedReferences <chr>, type <chr>, taxonRemarks <chr>,
-#   recordNumber <chr>, georeferencedDate <chr>, verbatimEventDate <chr>,
-#   license <chr>, organismID <chr>, dateIdentified <chr>,
-#   ownerInstitutionCode <chr>, taxonRank <chr>, vernacularName <chr>,
-#   eventTime <chr>, nomenclaturalCode <chr>, footprintWKT <chr>,
-#   datasetName <chr>, geodeticDatum <chr>, taxonomicStatus <chr>,
-#   coordinatePrecision <chr>, datasetID <chr>, organismQuantity <chr>,
-#   organismQuantityType <chr>, dynamicProperties <chr>,
-#   occurrenceRemarks <chr>, depth <dbl>, lifeStage <chr>,
-#   taxonConceptID <chr>, language <chr>, eventID <chr>, rightsHolder <chr>,
-#   organismScope <chr>, organismName <chr>, samplingProtocol <chr>,
-#   locationRemarks <chr>, identifiedBy <chr>, verbatimCoordinates <chr>, …
+# A tibble: 776 x 5
+   eventDate      datasetName             decimalLongitude decimalLatitude  year
+   <chr>          <chr>                              <dbl>           <dbl> <dbl>
+ 1 2020-02-02T13… Happywhale - Leopard s…            -63.7           -65.0  2020
+ 2 1985-10-14 04… <NA>                                62.8           -63.0  1985
+ 3 2016-12-25T02… Happywhale - Leopard s…            -62.6           -64.7  2016
+ 4 2018-01-29T10… Happywhale - Leopard s…            -54.6           -63.4  2018
+ 5 1986-11-21 07… <NA>                               102.            -62.5  1986
+ 6 2020-02-18T15… Happywhale - Leopard s…            -64.1           -65.1  2020
+ 7 2014-02-19T11… Happywhale - Leopard s…            -63.5           -64.8  2014
+ 8 1985-12-16 02… <NA>                                49.0           -63.6  1985
+ 9 1997-12-16 05… <NA>                                86.2           -64.3  1997
+10 2018-02-11T10… Happywhale - Leopard s…            -59.0           -62.2  2018
+# … with 766 more rows
 ```
+
+As before, we'll turn this into spatial data by using the `decimalLongitude` and `decimalLatitude` columns as our coordinates.
+Because we're dealing with Lon/Lat (GPS data), we'll use the EPSG 4326 which refers to the [World Geodetic System](https://en.wikipedia.org/wiki/World_Geodetic_System) (WGS84).
+We'll end by transforming to a projection more appropriate for the Antarctic, EPSG 3412.
 
 ```r 
 seals_sf <- seals %>%
-  select(eventDate, datasetName, individualCount, decimalLongitude, decimalLatitude) %>%
-  filter(decimalLatitude < -55, !is.na(eventDate)) %>%
-  mutate(year = as.numeric(str_extract(eventDate, "[0-9]{4}"))) %>%
   st_as_sf(coords = c("decimalLongitude", "decimalLatitude"), crs = 4326) %>%
   st_transform(3412)
 ```
 
+Let's get a land mass to plot our points on, for context.
 
 ```r 
 antarctic <- ne_countries(returnclass = "sf") %>%
   st_transform(3412) %>%
-  st_make_valid() %>%
-  st_crop(st_bbox(seals_sf))
+  st_make_valid() %>%        # To avoid intersection errors
+  st_crop(st_bbox(seals_sf)) # Crop to our data
 ```
 
 ```
@@ -347,6 +349,7 @@ Warning: attribute variables are assumed to be spatially constant throughout all
 geometries
 ```
 
+Finally, let's take a look!
 ```r 
 ggplot() +
   geom_sf(data = antarctic, fill = "grey") +
@@ -354,57 +357,35 @@ ggplot() +
   geom_sf_text(data = filter(seals_sf, year < 1950), aes(label= year), hjust = 1.1) +
   scale_colour_viridis_c(end = 0.85)
 ```
-{{<figure src="unnamed-chunk-12-1.png" >}}
+{{<figure src="unnamed-chunk-15-1.png" >}}
 
-Wow! There are some really old observations here, let's see where they're coming from
-```r 
-filter(seals_sf, year < 1950) %>%
-  select(year, datasetName) %>%
-  st_drop_geometry() %>%
-  arrange(year)
-```
-
-```
-# A tibble: 8 x 2
-   year datasetName                                                          
-  <dbl> <chr>                                                                
-1  1898 Royal Belgian Institute of Natural Sciences Mammalia collection      
-2  1910 British Antarctic (Terra Nova) Expedition Zoology                    
-3  1913 <NA>                                                                 
-4  1913 <NA>                                                                 
-5  1931 <NA>                                                                 
-6  1931 <NA>                                                                 
-7  1940 Biological records from the U.S Antarctic Service Expedition, 1939-41
-8  1940 Biological records from the U.S Antarctic Service Expedition, 1939-41
-```
-
-What about the more recent observations?
-```r 
-filter(seals_sf, year > 2000) %>%
-  pull(datasetName) %>%
-  unique()
-```
-
-```
-[1] "Happywhale - Leopard seal in Southern Ocean"      
-[2] NA                                                 
-[3] "Happywhale - Leopard seal in South Atlantic Ocean"
-```
-
-Happywhale? I'd never head of this before, but 
+So cool to see how far back observations have been made
 
 ## Interested in learning more about these awesome packages?
 
-- robis blog
-- etc.
-- etc.
+**[rnoaa](https://docs.ropensci.org/rnoaa)**
+
+- [2014-03-13 rOpenSci blog "rnoaa - Access to NOAA National Climatic Data Center data"](https://ropensci.org/blog/2014/03/13/rnoaa/)
+- [2018-12-04 rOpenSci blog "rnoaa: new data sources and NCDC units"](https://ropensci.org/blog/2018/12/04/rnoaa-update/)
+- [Use cases](https://discuss.ropensci.org/search?q=rnoaa%20category%3A10)
+
+**[rnaturalearth](https://docs.ropensci.org/rnaturalearth) **
+
+- [Use cases](https://discuss.ropensci.org/search?q=rnaturalearth%20category%3A10)
+
+**[robis](https://docs.ropensci.org/robis)**
+
+- [2017-01-25 rOpenSci blog "Extracting and Enriching Ocean Biogeographic Information System (OBIS) Data with R](https://ropensci.org/blog/2017/01/25/obis/)
 
 ## Have your own use cases?
 We'd love to share them!
-Go to forum ...
-we tweet....
+Consider adding your use cases (description and code snippet or link to code/post) to the rOpenSci [public forum](https://discuss.ropensci.org/c/usecases/).
 
+There's a template to help & we'll tweet any posted to share uses of rOpenSci packages.
 
-[^1]: Arctic Report Card: Update for 2020 <https://arctic.noaa.gov/Report-Card/Report-Card-2020/ArtMID/7975/ArticleID/891/Sea-Ice>
-[^2]: Six ways loss of Arctic ice impacts everyone <https://www.worldwildlife.org/pages/six-ways-loss-of-arctic-ice-impacts-everyone>
-[^3]: See the "User Guide" at the Sea Ice data page <https://nsidc.org/data/g02135>
+> Take care and remember to **celebrate [World Ocean Day](https://worldoceanday.org/)!**
+
+[^1]: Why should we care about the ocean <https://oceanservice.noaa.gov/facts/why-care-about-ocean.html>
+[^2]: The Ocean and Climate Change <https://www.iucn.org/resources/issues-briefs/ocean-and-climate-change>
+[^3]: Arctic Report Card: Update for 2020 <https://arctic.noaa.gov/Report-Card/Report-Card-2020/ArtMID/7975/ArticleID/891/Sea-Ice>
+[^4]: Six ways loss of Arctic ice impacts everyone <https://www.worldwildlife.org/pages/six-ways-loss-of-arctic-ice-impacts-everyone>
