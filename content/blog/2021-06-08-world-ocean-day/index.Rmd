@@ -315,7 +315,7 @@ filter(seals, description != "") %>%
 - [2014-03-26 rOpenSci blog "Accessing iNaturalist data"](/blog/2014/03/26/rinat/)
 
 ## Have you used rOpenSci packages to study our ocean?
-We'd love to share them!
+We'd love to share your examples!
 Consider adding your use cases (description and code snippet or link to code/post) to the rOpenSci [public forum](https://discuss.ropensci.org/c/usecases/).
 
 There's a template to help & we'll tweet any posted to share uses of rOpenSci packages.
