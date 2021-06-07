@@ -96,7 +96,7 @@ Here, we'll use two rOpenSci packages
 Both these packages can do so much more, so check out the docs if you're curious.
 rnoaa is by [Scott Chamberlain](/author/scott-chamberlain/) for rOpenSci and rnaturalearth is by [Andy South](https://github.com/andysouth), peer reviewed through rOpenSci.
 
-We'll also use sf for working with spatial data, dplyr for data manipulation, and ggplot2 for plotting. 
+We'll also use [sf](https://r-spatial.github.io/sf/) for working with spatial data, [dplyr](https://dplyr.tidyverse.org/) for data manipulation, and [ggplot2](https://ggplot2.tidyverse.org/) for plotting. 
 
 ```{r, message = FALSE}
 library(rnoaa)
@@ -224,7 +224,7 @@ So in honour of that wonderful story, let's do another exploration of the ocean,
 *[Andrew Shiva / Wikipedia / CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Antarctic_Sound-2016-Brown_Bluff%E2%80%93Leopard_seal_(Hydrurga_leptonyx)_04.jpg)*
 
 
-In addition to rnaturalearth, sf, dplyr, and ggplot2 which we loaded above, we'll use lubridate to handle date/times, and the rOpenSci package [rinat](https://docs.ropensci.org/rinat), for accessing species observations from the citizen science project [iNaturalist](https://www.inaturalist.org/). 
+In addition to rnaturalearth, sf, dplyr, and ggplot2 which we loaded above, we'll use [lubridate](https://lubridate.tidyverse.org/) to handle date/times, and the rOpenSci package [rinat](https://docs.ropensci.org/rinat), for accessing species observations from the citizen science project [iNaturalist](https://www.inaturalist.org/). 
 rinat is by [Edmund Hart](https://github.com/emhart) and [Stéphane Guillou](https://github.com/stragu).
 
 ```{r message = FALSE}
