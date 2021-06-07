@@ -242,7 +242,7 @@ seals <- get_inat_obs(taxon_name = "leopard seal") %>%
 glimpse(seals)
 ```
 
-Alright, we have 59 observations around Antarctica, let's see where they're from.
+Alright, we have 59 observations of leopard seals around Antarctica, let's see where they're from.
 As before, we'll turn this into spatial data by using the `longitude` and `latitude` columns as our coordinates.
 Because we're dealing with Lon/Lat (GPS data), we'll specify the starting crs as EPSG 4326, which refers to the [World Geodetic System](https://en.wikipedia.org/wiki/World_Geodetic_System) (WGS84).
 We'll end by transforming to a projection more appropriate for the Antarctic, EPSG 3412.
