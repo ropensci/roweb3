@@ -113,7 +113,7 @@ We'll use the `sea_ice()` function to grab data on ice extent for every 5 years 
 ice <- sea_ice(year = seq(1980, 2020, 5), month = "Sep", pole = "N")
 ```
 
-`ice` is a list, which each list item corresponding to a year.
+`ice` is a list, with each list item corresponding to a year.
 Let's take a brief look at what we've got, by scanning the `head()` of the first two years worth of data. 
 ```{r}
 head(ice[[1]])
