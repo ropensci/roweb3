@@ -87,7 +87,7 @@ One of the biggest challenges for protecting our ocean is climate change[^2].
 Last September the Arctic sea ice had the 2nd-lowest extent in a 40-year record[^3]. 
 This isn't good for the Arctic ecosystem and has impacts not only on wildlife but on humans as well [^4]. `r emo::ji("sad")`
 
-Let's see if we can't explore ice extent ourselves using open data and open source packages part of the [rOpenSci package collections](/packages).
+Let's see if we can't explore ice extent ourselves using open data and open source packages that are part of the [rOpenSci package collections](/packages).
 
 Here, we'll use two rOpenSci packages
 - [rnoaa](https://docs.ropensci.org/rnoaa) to access NOAA data on sea ice coverage
