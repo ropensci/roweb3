@@ -14,10 +14,10 @@ tags:
   - southern-ocean
   - conservation
 # The summary below will be used by e.g. Twitter cards
-description: "A celebration of World Ocean Day show-casing how rOpenSci packages can be used to explore ocean data."
+description: "A celebration of World Ocean Day showcasing how rOpenSci packages can be used to explore ocean data."
 twitterImg: blog/2021/06/08/world-ocean-day/unnamed-chunk-10-1.png
 twitterAlt: "Plot of the arctic with multi-coloured layers showing the sea ice extent in each year (decreasing from 1980 through to 2021)"
-tweet: "A celebration of World Ocean Day show-casing how rOpenSci packages can be used to explore ocean data by @steffilazerte!"
+tweet: "A celebration of World Ocean Day showcasing how @rOpenSci packages can be used to explore ocean data by @steffilazerte!"
 output: 
   html_document:
     keep_md: true
