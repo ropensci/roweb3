@@ -316,17 +316,16 @@ filter(seals, description != "") %>%
 - [2014-03-26 rOpenSci blog "Accessing iNaturalist data"](/blog/2014/03/26/rinat/) by [Ted Hart](/author/ted-hart)
 
 
-## Checkout other rOpenSci resources for studying the ocean:
+## Other rOpenSci resources for studying the ocean:
 
-- [2019-11-13 rOpenSci blog "The Antarctic/Southern Ocean rOpenSci community"](/blog/2018/11/13/antarctic/) by [Ben Raymond](/author/ben-raymond/) and [Michael Sumner](/author/michael-sumner/) - With package examples
+- [2019-11-13 rOpenSci blog "The Antarctic/Southern Ocean rOpenSci community"](/blog/2018/11/13/antarctic/) by [Ben Raymond](/author/ben-raymond/) and [Michael Sumner](/author/michael-sumner/) - With examples
 - [antanym](https://docs.ropensci.org/antanym/) - Tools and info on Antarctic geographic place names
 - [dataaimsr](https://docs.ropensci.org/dataaimsr/) - Access data from Australian Institute of Marine Science (AIMS)
 - [mregions](https://docs.ropensci.org/mregions/) - Access [Marine Regions](https://www.marineregions.org/) info
 - [ramlegacy](https://docs.ropensci.org/ramlegacy/) - Access [RAM legacy Stock Assessment Data Base](https://www.ramlegacy.org/) (compilation of stock assessment results for commercially exploited marine populations)
-- [rfishbase](https://docs.ropensci.org/rfishbase/) - Access [FishBase] (https://fishbase.org) information on most known species of fish 
-- [wateRinfo](https://docs.ropensci.org/wateRinfo/) - Access water and weather info for Flanders, Belguim
+- [rfishbase](https://docs.ropensci.org/rfishbase/) - Access [FishBase](https://fishbase.us) information on most known species of fish 
+- [wateRinfo](https://docs.ropensci.org/wateRinfo/) - Access water and weather info for Flanders, Belgium
 - [worrms](https://docs.ropensci.org/worrms/) - Access the [World Register of Marine Species (WoRMS)](https://www.marinespecies.org/)
-
 
 
 ## Have you used rOpenSci packages to study our ocean?
