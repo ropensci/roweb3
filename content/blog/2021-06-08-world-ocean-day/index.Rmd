@@ -90,7 +90,7 @@ This isn't good for the Arctic ecosystem and has impacts not only on wildlife bu
 Let's see if we can't explore ice extent ourselves using open data and open source packages that are part of the [rOpenSci package collections](/packages).
 
 Here, we'll use two rOpenSci packages
-- [rnoaa](https://docs.ropensci.org/rnoaa) to access NOAA data on sea ice coverage
+- [rnoaa](https://docs.ropensci.org/rnoaa) to access NOAA data on sea ice coverage[^5]
 - and [rnaturalearth](https://docs.ropensci.org/rnaturalearth) to get coastal outlines for context
 
 Both these packages can do so much more, so check out the docs if you're curious.
@@ -347,3 +347,4 @@ There's a template to help & we'll tweet any posted to share uses of rOpenSci pa
 [^2]: The Ocean and Climate Change <https://www.iucn.org/resources/issues-briefs/ocean-and-climate-change>
 [^3]: Arctic Report Card: Update for 2020 <https://arctic.noaa.gov/Report-Card/Report-Card-2020/ArtMID/7975/ArticleID/891/Sea-Ice>
 [^4]: Six ways loss of Arctic ice impacts everyone <https://www.worldwildlife.org/pages/six-ways-loss-of-arctic-ice-impacts-everyone>; Climate Change In The Arctic: An Inuit Reality <https://www.un.org/en/chronicle/article/climate-change-arctic-inuit-reality>
+[^5]: There's also the new seaice package by the [Australian Antarctic Division](https://github.com/AustralianAntarcticDivision) <https://github.com/AustralianAntarcticDivision/seaice>
