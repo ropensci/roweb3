@@ -346,4 +346,4 @@ There's a template to help & we'll tweet any posted to share uses of rOpenSci pa
 [^1]: Why should we care about the ocean <https://oceanservice.noaa.gov/facts/why-care-about-ocean.html>
 [^2]: The Ocean and Climate Change <https://www.iucn.org/resources/issues-briefs/ocean-and-climate-change>
 [^3]: Arctic Report Card: Update for 2020 <https://arctic.noaa.gov/Report-Card/Report-Card-2020/ArtMID/7975/ArticleID/891/Sea-Ice>
-[^4]: Six ways loss of Arctic ice impacts eve
+[^4]: Six ways loss of Arctic ice impacts everyone <https://www.worldwildlife.org/pages/six-ways-loss-of-arctic-ice-impacts-everyone>; Climate Change In The Arctic: An Inuit Reality <https://www.un.org/en/chronicle/article/climate-change-arctic-inuit-reality>
