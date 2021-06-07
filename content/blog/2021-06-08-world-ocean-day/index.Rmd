@@ -312,7 +312,7 @@ filter(seals, description != "") %>%
 
 **[rinat](https://docs.ropensci.org/rinat)**
 
-- [2014-03-26 rOpenSci blog "Accessing iNaturalist data](/blog/2014/03/26/rinat/)
+- [2014-03-26 rOpenSci blog "Accessing iNaturalist data"](/blog/2014/03/26/rinat/)
 
 ## Have your own use cases?
 We'd love to share them!
