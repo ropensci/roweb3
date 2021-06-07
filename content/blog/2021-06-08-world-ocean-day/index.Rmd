@@ -304,8 +304,8 @@ filter(seals, description != "") %>%
 
 **[rnoaa](https://docs.ropensci.org/rnoaa)**
 
-- [2014-03-13 rOpenSci blog "rnoaa - Access to NOAA National Climatic Data Center data"](/blog/2014/03/13/rnoaa/)
-- [2018-12-04 rOpenSci blog "rnoaa: new data sources and NCDC units"](/blog/2018/12/04/rnoaa-update/)
+- [2018-12-04 rOpenSci blog "rnoaa: new data sources and NCDC units"](/blog/2018/12/04/rnoaa-update/) by [Scott Chamberlain](/author/scott-chamberlain/)
+- [2014-03-13 rOpenSci blog "rnoaa - Access to NOAA National Climatic Data Center data"](/blog/2014/03/13/rnoaa/) by [Scott Chamberlain](/author/scott-chamberlain/)
 - [Use cases](https://discuss.ropensci.org/search?q=rnoaa%20category%3A10)
 
 **[rnaturalearth](https://docs.ropensci.org/rnaturalearth)**
@@ -314,7 +314,7 @@ filter(seals, description != "") %>%
 
 **[rinat](https://docs.ropensci.org/rinat)**
 
-- [2014-03-26 rOpenSci blog "Accessing iNaturalist data"](/blog/2014/03/26/rinat/)
+- [2014-03-26 rOpenSci blog "Accessing iNaturalist data"](/blog/2014/03/26/rinat/) by [Ted Hart](/author/ted-hart)
 
 
 ## Checkout other rOpenSci resources for studying the ocean:
