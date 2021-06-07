@@ -14,10 +14,10 @@ tags:
   - southern-ocean
   - conservation
 # The summary below will be used by e.g. Twitter cards
-description: "A celebration of World Ocean Day show-casing how rOpenSci packages can be used to explore ocean data."
+description: "A celebration of World Ocean Day showcasing how rOpenSci packages can be used to explore ocean data."
 twitterImg: blog/2021/06/08/world-ocean-day/unnamed-chunk-10-1.png
 twitterAlt: "Plot of the arctic with multi-coloured layers showing the sea ice extent in each year (decreasing from 1980 through to 2021)"
-tweet: "A celebration of World Ocean Day show-casing how rOpenSci packages can be used to explore ocean data by @steffilazerte!"
+tweet: "A celebration of World Ocean Day showcasing how @rOpenSci packages can be used to explore ocean data by @steffilazerte!"
 output: 
   html_document:
     keep_md: true
@@ -42,19 +42,20 @@ So in honour of World Ocean Day, let's take a look at some important ocean metri
 
 ## Sea ice
 
-One of the biggest challenges for protection our ocean is climate change[^2].
+One of the biggest challenges for protecting our ocean is climate change[^2].
 Last September the Arctic sea ice had the 2nd-lowest extent in a 40-year record[^3]. 
 This isn't good for the Arctic ecosystem and has impacts not only on wildlife but on humans as well [^4]. 😿
 
-Let's see if we can't explore ice extent ourselves using open data and open source packages part of the [rOpenSci package collections](/packages).
+Let's see if we can't explore ice extent ourselves using open data and open source packages that are part of the [rOpenSci package collections](/packages).
 
 Here, we'll use two rOpenSci packages
-- [rnoaa](https://docs.ropensci.org/rnoaa) to access NOAA data on sea ice coverage
+- [rnoaa](https://docs.ropensci.org/rnoaa) to access NOAA data on sea ice coverage[^5]
 - and [rnaturalearth](https://docs.ropensci.org/rnaturalearth) to get coastal outlines for context
 
-(Both these packages can do so much more, so check out the docs if you're curious)
+Both these packages can do so much more, so check out the docs if you're curious.
+rnoaa is by [Scott Chamberlain](/author/scott-chamberlain/) for rOpenSci and rnaturalearth is by [Andy South](https://github.com/andysouth), peer reviewed through rOpenSci.
 
-We'll also use sf for working with spatial data, dplyr for data manipulation, and ggplot2 for plotting. 
+We'll also use [sf](https://r-spatial.github.io/sf/) for working with spatial data, [dplyr](https://dplyr.tidyverse.org/) for data manipulation, and [ggplot2](https://ggplot2.tidyverse.org/) for plotting. 
 
 ```r 
 library(rnoaa)
@@ -72,7 +73,7 @@ We'll use the `sea_ice()` function to grab data on ice extent for every 5 years 
 ice <- sea_ice(year = seq(1980, 2020, 5), month = "Sep", pole = "N")
 ```
 
-`ice` is a list, which each list item corresponding to a year.
+`ice` is a list, with each list item corresponding to a year.
 Let's take a brief look at what we've got, by scanning the `head()` of the first two years worth of data. 
 ```r 
 head(ice[[1]])
@@ -168,9 +169,9 @@ Projected CRS: NSIDC Sea Ice Polar Stereographic North
 
 Here it's important to use `do_union = FALSE` because we don't want the order of the points to change (otherwise when we plot we'll get [@accidental__aRt](https://twitter.com/accidental__aRt)!)
 
-<!--html_preserve-->
 {{< tweet 1374726320047980549 >}}
-<!--/html_preserve-->
+
+
 
 Let's take a peak at what we've got
 
@@ -260,13 +261,14 @@ It's a fantastic view of life in the polar oceans and an amazing story of a phot
 
 So in honour of that wonderful story, let's do another exploration of the ocean, but this time by looking at leopard seals in Antarctica! 
 
-<!--html_preserve-->
+
 {{< figure src = "leopard_seal.jpg" class = "center" alt = "Leopard seal lying on the ice. The seal is grey on the back, white on the belly with grey speckles">}}
-<!--/html_preserve-->
+
 *[Andrew Shiva / Wikipedia / CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Antarctic_Sound-2016-Brown_Bluff%E2%80%93Leopard_seal_(Hydrurga_leptonyx)_04.jpg)*
 
 
-In addition to rnaturalearth, sf, dplyr, and ggplot2 which we loaded above, we'll use lubridate to handle date/times, and the rOpenSci package [rinat](https://docs.ropensci.org/rinat), for accessing species observations from the citizen science project [iNaturalist](https://www.inaturalist.org/).
+In addition to rnaturalearth, sf, dplyr, and ggplot2 which we loaded above, we'll use [lubridate](https://lubridate.tidyverse.org/) to handle date/times, and the rOpenSci package [rinat](https://docs.ropensci.org/rinat), for accessing species observations from the citizen science project [iNaturalist](https://www.inaturalist.org/). 
+rinat is by [Edmund Hart](https://github.com/emhart) and [Stéphane Guillou](https://github.com/stragu).
 
 ```r 
 library(rinat)
@@ -296,7 +298,7 @@ $ longitude       <dbl> 174.66350, 174.66345, -54.59607, -60.92037, -57.31312,�
 $ year            <dbl> 2021, 2021, 2020, 2020, 2020, 2019, 2018, 2019, 2012, …
 ```
 
-Alright, we have 59 observations around Antarctica, let's see where they're from.
+Alright, we have 59 observations of leopard seals around Antarctica, let's see where they're from.
 As before, we'll turn this into spatial data by using the `longitude` and `latitude` columns as our coordinates.
 Because we're dealing with Lon/Lat (GPS data), we'll specify the starting crs as EPSG 4326, which refers to the [World Geodetic System](https://en.wikipedia.org/wiki/World_Geodetic_System) (WGS84).
 We'll end by transforming to a projection more appropriate for the Antarctic, EPSG 3412.
@@ -363,9 +365,8 @@ filter(seals, description != "") %>%
 [7] "The seal raised its head every time a vehicle passed on the road behind the beach.\n\nApparently it had been seen on various beaches in the area for the week preceding this observation."
 ```
 
-<!--html_preserve-->
+
 {{< figure src = "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/master/man/figures/lter_penguins.png" alt = "Cartoons of Chinstrap, Gentoo, and Adelie penguins" width = "500" class = "center">}}
-<!--/html_preserve-->
 
 *Artwork by [Allison Horst](https://github.com/allisonhorst/palmerpenguins)*
 
@@ -374,8 +375,8 @@ filter(seals, description != "") %>%
 
 **[rnoaa](https://docs.ropensci.org/rnoaa)**
 
-- [2014-03-13 rOpenSci blog "rnoaa - Access to NOAA National Climatic Data Center data"](/blog/2014/03/13/rnoaa/)
-- [2018-12-04 rOpenSci blog "rnoaa: new data sources and NCDC units"](/blog/2018/12/04/rnoaa-update/)
+- [2018-12-04 rOpenSci blog "rnoaa: new data sources and NCDC units"](/blog/2018/12/04/rnoaa-update/) by [Scott Chamberlain](/author/scott-chamberlain/)
+- [2014-03-13 rOpenSci blog "rnoaa - Access to NOAA National Climatic Data Center data"](/blog/2014/03/13/rnoaa/) by [Scott Chamberlain](/author/scott-chamberlain/)
 - [Use cases](https://discuss.ropensci.org/search?q=rnoaa%20category%3A10)
 
 **[rnaturalearth](https://docs.ropensci.org/rnaturalearth)**
@@ -384,10 +385,23 @@ filter(seals, description != "") %>%
 
 **[rinat](https://docs.ropensci.org/rinat)**
 
-- [2014-03-26 rOpenSci blog "Accessing iNaturalist data](/blog/2014/03/26/rinat/)
+- [2014-03-26 rOpenSci blog "Accessing iNaturalist data"](/blog/2014/03/26/rinat/) by [Ted Hart](/author/ted-hart)
 
-## Have your own use cases?
-We'd love to share them!
+
+## Other rOpenSci resources for studying the ocean:
+
+- [2019-11-13 rOpenSci blog "The Antarctic/Southern Ocean rOpenSci community"](/blog/2018/11/13/antarctic/) by [Ben Raymond](/author/ben-raymond/) and [Michael Sumner](/author/michael-sumner/) - With examples
+- [antanym](https://docs.ropensci.org/antanym/) - Tools and info on Antarctic geographic place names
+- [dataaimsr](https://docs.ropensci.org/dataaimsr/) - Access data from Australian Institute of Marine Science (AIMS)
+- [mregions](https://docs.ropensci.org/mregions/) - Access [Marine Regions](https://www.marineregions.org/) info
+- [ramlegacy](https://docs.ropensci.org/ramlegacy/) - Access [RAM legacy Stock Assessment Data Base](https://www.ramlegacy.org/) (compilation of stock assessment results for commercially exploited marine populations)
+- [rfishbase](https://docs.ropensci.org/rfishbase/) - Access [FishBase](https://fishbase.us) information on most known species of fish 
+- [wateRinfo](https://docs.ropensci.org/wateRinfo/) - Access water and weather info for Flanders, Belgium
+- [worrms](https://docs.ropensci.org/worrms/) - Access the [World Register of Marine Species (WoRMS)](https://www.marinespecies.org/)
+
+
+## Have you used rOpenSci packages to study our ocean?
+We'd love to share your examples!
 Consider adding your use cases (description and code snippet or link to code/post) to the rOpenSci [public forum](https://discuss.ropensci.org/c/usecases/).
 
 There's a template to help & we'll tweet any posted to share uses of rOpenSci packages.
@@ -395,11 +409,10 @@ There's a template to help & we'll tweet any posted to share uses of rOpenSci pa
 
 > Take care and remember to **celebrate [World Ocean Day](https://worldoceanday.org/)!**
 
-<!--html_preserve-->
 {{< figure src = "Build Back Better Graphic 2 small.png" class = "center" alt = "Sea turtle swimming over a coral reef towards the viewer. Text reads: Build Back Better; Protect 30% of the ocean by 2030; #oceanclimateaction; World Ocean Day" href = "https://worldoceanday.org/take-action/conservation-action-focus/">}}
-<!--/html_preserve-->
 
 [^1]: Why should we care about the ocean <https://oceanservice.noaa.gov/facts/why-care-about-ocean.html>
 [^2]: The Ocean and Climate Change <https://www.iucn.org/resources/issues-briefs/ocean-and-climate-change>
 [^3]: Arctic Report Card: Update for 2020 <https://arctic.noaa.gov/Report-Card/Report-Card-2020/ArtMID/7975/ArticleID/891/Sea-Ice>
-[^4]: Six ways loss of Arctic ice impacts everyone <https://www.worldwildlife.org/pages/six-ways-loss-of-arctic-ice-impacts-everyone>
+[^4]: Six ways loss of Arctic ice impacts everyone <https://www.worldwildlife.org/pages/six-ways-loss-of-arctic-ice-impacts-everyone>; Climate Change In The Arctic: An Inuit Reality <https://www.un.org/en/chronicle/article/climate-change-arctic-inuit-reality>
+[^5]: There's also the new seaice package by the [Australian Antarctic Division](https://github.com/AustralianAntarcticDivision) <https://github.com/AustralianAntarcticDivision/seaice>
