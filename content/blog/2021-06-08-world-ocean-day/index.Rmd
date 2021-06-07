@@ -145,9 +145,8 @@ ice_sf
 
 Here it's important to use `do_union = FALSE` because we don't want the order of the points to change (otherwise when we plot we'll get [@accidental__aRt](https://twitter.com/accidental__aRt)!)
 
-<!--html_preserve-->
 {{< tweet 1374726320047980549 >}}
-<!--/html_preserve-->
+
 
 
 Let's take a peak at what we've got
@@ -218,9 +217,9 @@ It's a fantastic view of life in the polar oceans and an amazing story of a phot
 
 So in honour of that wonderful story, let's do another exploration of the ocean, but this time by looking at leopard seals in Antarctica! 
 
-<!--html_preserve-->
+
 {{< figure src = "leopard_seal.jpg" class = "center" alt = "Leopard seal lying on the ice. The seal is grey on the back, white on the belly with grey speckles">}}
-<!--/html_preserve-->
+
 *[Andrew Shiva / Wikipedia / CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Antarctic_Sound-2016-Brown_Bluff%E2%80%93Leopard_seal_(Hydrurga_leptonyx)_04.jpg)*
 
 
@@ -294,9 +293,9 @@ filter(seals, description != "") %>%
   pull(description)
 ```
 
-<!--html_preserve-->
+
 {{< figure src = "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/master/man/figures/lter_penguins.png" alt = "Cartoons of Chinstrap, Gentoo, and Adelie penguins" width = "500" class = "center">}}
-<!--/html_preserve-->
+
 *Artwork by [Allison Horst](https://github.com/allisonhorst/palmerpenguins)*
 
 
@@ -339,9 +338,7 @@ There's a template to help & we'll tweet any posted to share uses of rOpenSci pa
 
 > Take care and remember to **celebrate [World Ocean Day](https://worldoceanday.org/)!**
 
-<!--html_preserve-->
 {{< figure src = "Build Back Better Graphic 2 small.png" class = "center" alt = "Sea turtle swimming over a coral reef towards the viewer. Text reads: Build Back Better; Protect 30% of the ocean by 2030; #oceanclimateaction; World Ocean Day" href = "https://worldoceanday.org/take-action/conservation-action-focus/">}}
-<!--/html_preserve-->
 
 [^1]: Why should we care about the ocean <https://oceanservice.noaa.gov/facts/why-care-about-ocean.html>
 [^2]: The Ocean and Climate Change <https://www.iucn.org/resources/issues-briefs/ocean-and-climate-change>
