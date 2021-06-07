@@ -83,7 +83,7 @@ So in honour of World Ocean Day, let's take a look at some important ocean metri
 
 ## Sea ice
 
-One of the biggest challenges for protection our ocean is climate change[^2].
+One of the biggest challenges for protecting our ocean is climate change[^2].
 Last September the Arctic sea ice had the 2nd-lowest extent in a 40-year record[^3]. 
 This isn't good for the Arctic ecosystem and has impacts not only on wildlife but on humans as well [^4]. `r emo::ji("sad")`
 
