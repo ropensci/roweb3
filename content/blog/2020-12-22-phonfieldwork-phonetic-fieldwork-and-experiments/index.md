@@ -182,9 +182,7 @@ The sound annotation process takes a lot of time and in most cases it is really 
 
 
 
-<!--html_preserve-->
-{{< figure src = "annotation_in_phonfieldwork.gif" width = "700" alt = "Oscillogram and spectrogram with text annotations below. GIF shows how phonfieldwork can add preannotations to a recording" >}}
-<!--/html_preserve-->
+preserved780e169271fdbe7
 
 As you can see, it is possible to create all the annotations in advance and leave the annotators with one task only: to move boundaries.
 
