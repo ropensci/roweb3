@@ -238,6 +238,19 @@
    "home": "https://www.juliagustavsen.com/"
 },
 {
+   "name": "Emily Riederer",
+   "url": "https://emilyriederer.netlify.com/",
+   "image" : "/img/team/emily-riederer.jpg",
+
+   "affiliation" : "Capital One",
+   "roles": [
+      "editor"
+   ],
+   "twitter": "emilyriederer",
+   "github": "emilyriederer",
+   "home": "https://emilyriederer.netlify.com/"
+},
+{
    "name": "Kelly Hondula",
    "url": "https://www.sesync.org/users/khondula",
    "image" : "/img/team/kelly-hondula.jpg",
