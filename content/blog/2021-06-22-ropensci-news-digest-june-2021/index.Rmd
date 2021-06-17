@@ -594,7 +594,7 @@ Note that this is all in [pak development version](https://pak.r-lib.org/dev/ind
 
 ### Reducing the complexity of code
 
-When trying to reduce the complexity of your code (for making it easier to maintain and review), check out the [cyclocomp](https://cran.r-project.org/web/packages/cyclocomp/index.html) package, also by Gábor Csárdi, as reminded by [Lluís Revilla Sancho](https://llrs.dev/) in [rOpenSci semi-open slack](https://contributing.ropensci.org/resources.html#channels): it will help you find too complex functions.
+When trying to reduce the complexity of your code (for making it easier to maintain and review), check out the [cyclocomp](https://cran.r-project.org/web/packages/cyclocomp/index.html) package, also by Gábor Csárdi, as reminded by [Lluís Revilla Sancho](https://llrs.dev/) in [rOpenSci semi-open slack](https://contributing.ropensci.org/resources.html#channels): it will help you find functions that are too complex.
 
 Another package that might help you clean your code is the rOpenSci peer-reviewed [Rclean package](/blog/2020/04/21/rclean/) by M.K. Lau.
 
