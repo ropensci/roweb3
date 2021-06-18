@@ -47,7 +47,7 @@ Get excited for four contributions by rOpenSci staff members:
 
 * **Mark Padgham**, rOpenSci Software Research Scientist, will also give a [regular talk about his original **autotest**](https://www.conftool.org/user2021/index.php?page=browseSessions&form_session=14#paperID169) package for automatic testing of packages, on Tuesday, July the 6th at 8:45AM UTC (right at the beginning of the session).
 
-* **Maëlle Salmon**, Research Software Engineer with rOpenSci, will give a [tutorial](https://user2021.r-project.org/program/tutorials/), _**GET better at testing your R package!**_ on Wednesday, July the 7th at 7-10AM UTC. This tutorial is about advanced testing of R packages, with HTTP testing as a case study. The tutorial has no spot left, but it will be recorded and [materials available online](https://http-testing-r.netlify.app/).
+* **Maëlle Salmon**, Research Software Engineer with rOpenSci, will give a [tutorial](https://user2021.r-project.org/program/tutorials/), _**GET better at testing your R package!**_ on Wednesday, July the 7th at 7-10AM UTC. This tutorial is about advanced testing of R packages, with HTTP testing as a case study. The tutorial has no spots left, but it will be recorded and [materials are available online](https://http-testing-r.netlify.app/).
 
 Also very exciting is community member **Lluís Revilla Sancho**'s talk about _**Packages submission and reviews; how does it work?**_ using data about review process of three archives of R packages, CRAN, Bioconductor and rOpenSci.
 That talk will happen in the same session as Stefanie Butland's presentation.
