@@ -127,6 +127,7 @@ Note that SendGrid sign-up forms offer much less flexibility than MailChimp simi
 In this post we presented our workflow for curating and sending our monthly newsletter.
 Our newsletter is published as a monthly post on our blog, and sent as an email to subscribers via SendGrid.
 We prepare its content with a mix of automatically generated and manually curated sections, followed by a review for the latter.
+The automatical generation of some content depends on upstream manual and automatic work for gathering data (e.g. our packages registry, citations monitoring, encouraging users to report use cases).
 We hope the newsletter helps our community stay informed of our work.
 If you have any suggestion for our newsletter, don't hesitate to leave a comment below!
 And to subscribe, head over to [the newsletter page](/news)!
