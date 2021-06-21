@@ -205,7 +205,7 @@ Note that main.min.css that contains all the CSS is stored under themes/ropensci
 
 ### Newsletter
 
-* Check the number of subscribers in MailChimp doesn't go over what our current plan allows.
+* Check the number of subscribers in Sendgrid doesn't go over what our current plan allows.
 * Start a new post with the newsletter archetype, use the same title "Latest rOpenSci News Digest" and slug "ropensci-news" and tag "newsletter".
 * **Make sure you have all dependencies from roweb3 DESCRIPTION.**
 * **Make sure your branch is based on the latest commit of the default branch, re-base if needed.**
@@ -213,13 +213,18 @@ Note that main.min.css that contains all the CSS is stored under themes/ropensci
 * Change the date of the last newsletter in the new post, knit it. 
   * Manually updated sections: rOpenSci HQ (issues in https://github.com/ropensci/biweekly that you should watch; look at recent/future events including comm calls; if needed poll staff), from the forum (interesting recent posts?), package development corner (poll package-maintenance channel; your recent reads), call for maintainers.
   * Automatic sections. New packages by comparing two versions of the package registry; new versions by querying GitHub releases; software review by querying GitHub API (the submitter name and URL from their GitHub profile is used. you might need to go back and fix software-review issue formatting of the DESCRIPTION block); on the blog queries YAML of posts and sorts them based on tags (if no images, try and see if some posts could get a twitterImg and twitterAlt, add it); use cases uses the use cases JSON; citations simply counts citations in total and for the year.
-* Once the post is merged use the R-bloggers feed to get an HTML version of the post with absolute URLs, to be used for MailChimp. Things to change before using the content for MailChimp
+* Once the post is merged use the R-bloggers feed to get an HTML version of the post with absolute URLs, to be used for SendGrid. Things to change before using the content for MailChimp
     * The images URL src needs to get the URL to the post (Search and Replace in Atom)
     * Remove anchors (Search and Replace the regex `<a class="anchor d-print-none" href="#.*?"> <small>&#x1F517;</small> </a>` in Atom)
+    * Replace all `<a` with [`<a clicktracking=off`](https://community.auth0.com/t/howto-disable-sendgrids-click-tracking-feature-in-an-auth0-email-template/22958)
     * The lines need to be hard-wrapped (Ctrl+Shift+Q in Atom)
-* In MailChimp, replicate a past campaign, changing its name, subject and preview (use the YAML field "description"). **Disable [click tracking](https://mailchimp.com/help/enable-and-view-click-tracking/#Turn_click_tracking_on_or_off).**
-* Send test email.
-* After checking it send to all recipients.
+* In Sendgrid, 
+    * replicate a past campaign, 
+    * changw its name, 
+    * change its subject 
+    * change its pre-header (use the YAML field "description"). 
+    * Send test email.
+    * After checking it send to all recipients.
 * Tweet about the newsletter from rOpenSci account, highlighting some numbers.
 
 Review criteria: anything looks weird? (need to fix upstream data or code?). Special focus on manually updated sections.
