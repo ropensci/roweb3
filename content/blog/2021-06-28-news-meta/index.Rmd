@@ -58,7 +58,7 @@ Having the newsletter available as entries online somewhere is very handy for li
 Furthermore, we really like our website (redesigned last summer ✨) so it felt logical to have the newsletter live in it, especially as it meant one could hop from the newsletter to other website pages much more easily.
 Having the newsletter issues as _blog posts_ was the most natural way to integrate them here, but we've also:
 
-* Created a [newsletter page](/news/) that features its sign-up form, and previous news-tagged posts;
+* Created a [newsletter page](/news/) that features its sign-up form, and previous newsletter-tagged posts;
 * On the [newsletter tag page](/tags/newsletter), we've added a direct link to the newsletter page via an email icon, which makes it even easier to find how to subscribe.
 
 ### Newsletters as R Markdown parameterized reports
