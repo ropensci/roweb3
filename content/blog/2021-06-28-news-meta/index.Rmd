@@ -25,11 +25,11 @@ In this post we'll share how we currently prepare content for the newsletter and
 ## Short history of our newsletter
 
 rOpenSci has had a newsletter [since 2014](https://news.ropensci.org/update-2014-12-15/)![^commcalls]
-For the longest time the newsletter has been living at a Jekyll website at a subdomain, news dot ropensci dot org; whose entries were also sent as email to subscribers.
+For the longest time the newsletter has been living at a Jekyll website at a [subdomain](https://news.ropensci.org); whose entries were also sent as email to subscribers.
 It was published mostly once every two weeks.[^once]
 The preparation of each post was helped with a [Makefile](https://github.com/ropensci/biweekly), and some manual manipulation and prose writing.
 
-Later, the newsletter got complemented by posts on our main blog called ["two months in two minutes"](https://ropensci.org/blog/2020/12/18/news-dec2020/) that were digests of the digests.[^digest]
+Later, the newsletter got complemented by posts on our main blog called ["two months in two minutes"](/blog/2020/12/18/news-dec2020/) that were digests of the digests.[^digest]
 
 For a few months now we have settled on:
 
@@ -93,39 +93,39 @@ To populate this, we use information from the website (comm calls), our reading 
 To not forget ideas or to bring them to the attention of the newsletter curator we store them as issues of a GitHub repository.
 
 Furthermore, the manually curated sections are reviewed by at least one person more.
-The posts don't get a [full blown review](https://blogguide.ropensci.org/) but this helps strenghten them.
+The posts don't get a [full blown review](https://blogguide.ropensci.org/) but this helps strengthen them.
 
 ### Newsletters as emails: hello Sendgrid, bye MailChimp!
 
-We used to send our newsletter via MailChimp, however we heard [bad things about the company itself](https://www.businessinsider.fr/us/inside-mailchimp-mass-exodus-women-people-color-ben-chestnut-2021-3) so asked around for recommendations (thanks a ton to everyone who chimed in!) and settled on Sendgrid whose email service we were actually already using for the [CRAN checks API](https://blog.r-hub.io/2019/06/10/cran-checks-api/) and our forum.
-So, now, our newsletter is emailed via Sendgrid **Marketing** service.[^transfer]
+We used to send our newsletter via MailChimp, however we heard [bad things about the company itself](https://www.businessinsider.fr/us/inside-mailchimp-mass-exodus-women-people-color-ben-chestnut-2021-3) so asked around for recommendations (thanks a ton to everyone who chimed in!) and settled on SendGrid whose email service we were actually already using for the [CRAN checks API](https://blog.r-hub.io/2019/06/10/cran-checks-api/) and our forum.
+So, now, our newsletter is emailed via SendGrid **Marketing** service.[^transfer]
 
 How do we go about that?
-We extract the HTML corresponding to the post from our full content RSS feed (set up for R Bloggers): http://ropensci.org/rbloggers/index.xml
+We extract the HTML corresponding to the post from our [full content RSS feed](/rbloggers/index.xml) (set up for R Bloggers).
 We use that feed as all relative links (except for images) have been made absolute at that point.
 We copy-paste it into a text editor and make a few tweaks:
 
 * make the images src an absolute link,
 * removing all heading anchors, 
-* adding a [no tracking attribute to links](https://community.auth0.com/t/howto-disable-sendgrids-click-tracking-feature-in-an-auth0-email-template/22958) as the global Sendgrid account option didn't work for that
+* adding a [no tracking attribute to links](https://community.auth0.com/t/howto-disable-sendgrids-click-tracking-feature-in-an-auth0-email-template/22958) as the global SendGrid account option didn't work for that
 
 These tweaks are listed in our newsletter check list but we might transform them to code using xml2 soon-ish. 
 
-We then copy this HTML as a code block in Sendgrid visual editor.
+We then copy this HTML as a code block in SendGrid visual editor.
 Regarding the email appearance, we added some blocks (e.g. the unsubscribe one at the bottom), tweaked a few styling rules (e.g. the color of text, background, links, to match our website).
 To send a new newsletter we _duplicate_ a previous one. 
-Folks more experienced with Sendgrid might create a "template" for that, presumably.
+Folks more experienced with SendGrid might create a "template" for that, presumably.
 
 We make sure the subject and preheader (what MailChimp calls preview, the email bit recipients might see near the subject in their inbox) are updated, then send a few test emails, and then [more or less nervously](http://veekaybee.github.io/2021/06/20/the-ritual-of-the-deploy/) send the newsletter to its more than 2,000 subscribers.
 
 Voilà, at that point all that remains is tweeting about the newsletter, and hoping it gets read at least a bit.
 
-Note that Sendgrid sign-up forms offer much less flexibility than Mailchimp similar features, so we had to add an iframe to our website to incorporate sign-up, where we used to have a more integrated form whose JS code pinged a dedicated Mailchimp URL.
+Note that SendGrid sign-up forms offer much less flexibility than MailChimp similar features, so we had to add an iframe to our website to incorporate sign-up, where we used to have a more integrated form whose JS code pinged a dedicated MailChimp URL.
 
 ## Conclusion
 
 In this post we presented our workflow for curating and sending our monthly newsletter.
-Our newsletter is published as a monthly post on our blog, and sent as an email to subscribers via Sendgrid.
+Our newsletter is published as a monthly post on our blog, and sent as an email to subscribers via SendGrid.
 We prepare its content with a mix of automatically generated and manually curated sections, followed by a review for the latter.
 We hope the newsletter helps our community stay informed of our work.
 If you have any suggestion for our newsletter, don't hesitate to leave a comment below!
@@ -134,4 +134,4 @@ And to subscribe, head over to [the newsletter page](/news)!
 [^commcalls]: Reading that first issue is amusing as it announces the beginning of comm calls, that are now a [well established part of rOpenSci activities](/commcalls) and [have a very polished flow](/blog/2021/02/02/ropensci-community-calls/).
 [^once]: That is why it was called rOpenSci biweekly, although not everyone agrees on what frequency _biweekly_ means (twice a week or once every two weeks?).
 [^digest]: The newsletter section about blog posts [mentioned these digests](https://news.ropensci.org/2019-06-24/#on-the-blog).
-[^transfer]: Transferring contacts merely means exporting _subscribed_ contacts out of MailChimp and then importing them into Sendgrid. As we assume most people unsuscribe from a very recent newsletter, we should not miss unsuscribe events. 
+[^transfer]: Transferring contacts merely means exporting _subscribed_ contacts out of MailChimp and then importing them into SendGrid. As we assume most people unsubscribe from a very recent newsletter, we should not miss unsubscribe events. 
