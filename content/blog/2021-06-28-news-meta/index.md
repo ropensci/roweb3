@@ -109,7 +109,7 @@ We copy-paste it into a text editor and make a few tweaks:
 * removing all heading anchors, 
 * adding a [no tracking attribute to links](https://community.auth0.com/t/howto-disable-sendgrids-click-tracking-feature-in-an-auth0-email-template/22958) as the global SendGrid account option didn't work for that.[^tracking]
 
-These tweaks are listed in our newsletter check list but we might transform them to code using xml2 soon-ish. 
+These tweaks are listed in our [newsletter checklist](https://github.com/ropensci/roweb3#newsletter) but we might transform them to code using xml2 soon-ish. 
 
 We then copy this HTML as a code block in SendGrid visual editor.
 Regarding the email appearance, we added some blocks (e.g. the unsubscribe one at the bottom), tweaked a few styling rules (e.g. the color of text, background, links, to match our website).
