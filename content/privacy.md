@@ -29,6 +29,11 @@ We use [Matomo](https://matomo.org/privacy-policy/) for analytics. Matomo uses c
         style="border: 0; height: 200px; width: 600px;"
         src="https://ropensci.matomo.cloud/index.php?module=CoreAdminHome&action=optOut&language=en&backgroundColor=&fontColor=484f5e&fontSize=18px&fontFamily=proxima-nova%2Csans-serif"
         ></iframe>
+        
+## Newsletter
+
+We use [Sendgrid](https://www.twilio.com/legal/privacy) for managing contacts and sending the newsletter.
+We used to use [MailChimp](https://mailchimp.com/en/gdpr/).
 
 ## Limitations
 
