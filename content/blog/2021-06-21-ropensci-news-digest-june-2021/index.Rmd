@@ -2,7 +2,7 @@
 title: rOpenSci News Digest, June 2021
 author:
   - The rOpenSci Team
-date: '2021-06-22'
+date: '2021-06-21'
 slug: ropensci-news-digest-june-2021
 tags:
   - newsletter
@@ -584,9 +584,9 @@ E.g.
 
 - if you wonder, why is curl needed to use pkgdown?
 
-- you type `pak::pkg_deps_explain("pkgdown", "curl")`
+- you type `pak::pkg_deps_explain("pkgdown", "curl")`.
 
-- you get: `pkgdown -> httr -> curl`
+- you get: `pkgdown -> httr -> curl`.
 
 You can even use the local package or a GitHub package as [first argument](https://twitter.com/GaborCsardi/status/1401817431950168064).
 Also worth mentioning is [`pkg_deps_tree()`](https://pak.r-lib.org/dev/reference/pkg_deps_tree.html) for drawing the dependency tree of a package.

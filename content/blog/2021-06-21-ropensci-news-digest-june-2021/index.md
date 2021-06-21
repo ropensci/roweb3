@@ -2,7 +2,7 @@
 title: rOpenSci News Digest, June 2021
 author:
   - The rOpenSci Team
-date: '2021-06-22'
+date: '2021-06-21'
 slug: ropensci-news-digest-june-2021
 tags:
   - newsletter
@@ -19,7 +19,7 @@ params:
 
 Dear rOpenSci friends, it's time for our monthly news roundup!
 <!-- blabla -->
-You can read this post [on our blog](/blog/2021/06/22/ropensci-news-digest-june-2021).
+You can read this post [on our blog](/blog/2021/06/21/ropensci-news-digest-june-2021).
 Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
@@ -81,7 +81,7 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following seventeen packages have had an update since the latest newsletter: [pkgstats](https://docs.ropensci.org/pkgstats "Metrics of R Packages") ([`p5.9.20210530.0-mac`](https://github.com/ropensci-review-tools/pkgstats/releases/tag/p5.9.20210530.0-mac)), [beastier](https://docs.ropensci.org/beastier "Call BEAST2") ([`v2.4.2`](https://github.com/ropensci/beastier/releases/tag/v2.4.2)), [beautier](https://docs.ropensci.org/beautier "BEAUti from R") ([`v2.6`](https://github.com/ropensci/beautier/releases/tag/v2.6)), [clifro](https://docs.ropensci.org/clifro "Easily Download and Visualise Climate Data from CliFlo") ([`v3.2-5`](https://github.com/ropensci/clifro/releases/tag/v3.2-5)), [dataaimsr](https://docs.ropensci.org/dataaimsr "AIMS Data Platform API Client") ([`v1.0.3`](https://github.com/ropensci/dataaimsr/releases/tag/v1.0.3)), [fulltext](https://docs.ropensci.org/fulltext "Full Text of Scholarly Articles Across Many Data Sources") ([`v2.0`](https://github.com/ropensci/fulltext/releases/tag/v2.0)), [mauricer](https://docs.ropensci.org/mauricer "Work with BEAST2 Packages") ([`v2.5.1`](https://github.com/ropensci/mauricer/releases/tag/v2.5.1)), [osmextract](https://docs.ropensci.org/osmextract "Download and Read OpenStreetMap Data Extracts") ([`v0.3.0`](https://github.com/ropensci/osmextract/releases/tag/v0.3.0)), [plotly](https://docs.ropensci.org/plotly "Create Interactive Web Graphics via plotly.js") ([`v4.9.4`](https://github.com/ropensci/plotly/releases/tag/v4.9.4)), [rgbif](https://docs.ropensci.org/rgbif "Interface to the Global Biodiversity Information Facility API") ([`v3.6.0`](https://github.com/ropensci/rgbif/releases/tag/v3.6.0)), [scrubr](https://docs.ropensci.org/scrubr "Clean Biological Occurrence Records") ([`v0.4.0`](https://github.com/ropensci/scrubr/releases/tag/v0.4.0)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Workflows") ([`0.5.0`](https://github.com/ropensci/targets/releases/tag/0.5.0)), [terrainr](https://docs.ropensci.org/terrainr "Landscape Visualizations in R and Unity") ([`v0.4.1`](https://github.com/ropensci/terrainr/releases/tag/v0.4.1)), [tracerer](https://docs.ropensci.org/tracerer "Tracer from R") ([`v2.2.2`](https://github.com/ropensci/tracerer/releases/tag/v2.2.2)), [vcr](https://docs.ropensci.org/vcr "Record HTTP Calls to Disk") ([`v1.0.2`](https://github.com/ropensci/vcr/releases/tag/v1.0.2)), [weathercan](https://docs.ropensci.org/weathercan "Download Weather Data from Environment and Climate Change Canada") ([`v0.6.1`](https://github.com/ropensci/weathercan/releases/tag/v0.6.1)), [wellknown](https://docs.ropensci.org/wellknown "Convert Between WKT and GeoJSON") ([`v0.7.4`](https://github.com/ropensci/wellknown/releases/tag/v0.7.4)).
+The following eighteen packages have had an update since the latest newsletter: [pkgstats](https://docs.ropensci.org/pkgstats "Metrics of R Packages") ([`p5.9.20210530.0-mac`](https://github.com/ropensci-review-tools/pkgstats/releases/tag/p5.9.20210530.0-mac)), [beastier](https://docs.ropensci.org/beastier "Call BEAST2") ([`v2.4.2`](https://github.com/ropensci/beastier/releases/tag/v2.4.2)), [beautier](https://docs.ropensci.org/beautier "BEAUti from R") ([`v2.6`](https://github.com/ropensci/beautier/releases/tag/v2.6)), [clifro](https://docs.ropensci.org/clifro "Easily Download and Visualise Climate Data from CliFlo") ([`v3.2-5`](https://github.com/ropensci/clifro/releases/tag/v3.2-5)), [dataaimsr](https://docs.ropensci.org/dataaimsr "AIMS Data Platform API Client") ([`v1.0.3`](https://github.com/ropensci/dataaimsr/releases/tag/v1.0.3)), [fulltext](https://docs.ropensci.org/fulltext "Full Text of Scholarly Articles Across Many Data Sources") ([`v2.0`](https://github.com/ropensci/fulltext/releases/tag/v2.0)), [lightr](https://docs.ropensci.org/lightr "Read Spectrometric Data and Metadata") ([`v1.5.0`](https://github.com/ropensci/lightr/releases/tag/v1.5.0)), [mauricer](https://docs.ropensci.org/mauricer "Work with BEAST2 Packages") ([`v2.5.1`](https://github.com/ropensci/mauricer/releases/tag/v2.5.1)), [osmextract](https://docs.ropensci.org/osmextract "Download and Read OpenStreetMap Data Extracts") ([`v0.3.0`](https://github.com/ropensci/osmextract/releases/tag/v0.3.0)), [plotly](https://docs.ropensci.org/plotly "Create Interactive Web Graphics via plotly.js") ([`v4.9.4`](https://github.com/ropensci/plotly/releases/tag/v4.9.4)), [rgbif](https://docs.ropensci.org/rgbif "Interface to the Global Biodiversity Information Facility API") ([`v3.6.0`](https://github.com/ropensci/rgbif/releases/tag/v3.6.0)), [scrubr](https://docs.ropensci.org/scrubr "Clean Biological Occurrence Records") ([`v0.4.0`](https://github.com/ropensci/scrubr/releases/tag/v0.4.0)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Workflows") ([`0.5.0`](https://github.com/ropensci/targets/releases/tag/0.5.0)), [terrainr](https://docs.ropensci.org/terrainr "Landscape Visualizations in R and Unity") ([`v0.4.1`](https://github.com/ropensci/terrainr/releases/tag/v0.4.1)), [tracerer](https://docs.ropensci.org/tracerer "Tracer from R") ([`v2.2.2`](https://github.com/ropensci/tracerer/releases/tag/v2.2.2)), [vcr](https://docs.ropensci.org/vcr "Record HTTP Calls to Disk") ([`v1.0.2`](https://github.com/ropensci/vcr/releases/tag/v1.0.2)), [weathercan](https://docs.ropensci.org/weathercan "Download Weather Data from Environment and Climate Change Canada") ([`v0.6.1`](https://github.com/ropensci/weathercan/releases/tag/v0.6.1)), [wellknown](https://docs.ropensci.org/wellknown "Convert Between WKT and GeoJSON") ([`v0.7.4`](https://github.com/ropensci/wellknown/releases/tag/v0.7.4)).
 
 ## Software Peer Review
 
@@ -254,9 +254,9 @@ E.g.
 
 - if you wonder, why is curl needed to use pkgdown?
 
-- you type `pak::pkg_deps_explain("pkgdown", "curl")`
+- you type `pak::pkg_deps_explain("pkgdown", "curl")`.
 
-- you get: `pkgdown -> httr -> curl`
+- you get: `pkgdown -> httr -> curl`.
 
 You can even use the local package or a GitHub package as [first argument](https://twitter.com/GaborCsardi/status/1401817431950168064).
 Also worth mentioning is [`pkg_deps_tree()`](https://pak.r-lib.org/dev/reference/pkg_deps_tree.html) for drawing the dependency tree of a package.
