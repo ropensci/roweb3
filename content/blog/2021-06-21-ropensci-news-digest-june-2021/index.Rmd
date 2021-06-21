@@ -6,7 +6,7 @@ date: '2021-06-21'
 slug: ropensci-news-digest-june-2021
 tags:
   - newsletter
-description: keywords from the content
+description: R-universe, rOpenSci at useR! 2021, new packages and package news
 output:
   html_document:
     keep_md: yes
