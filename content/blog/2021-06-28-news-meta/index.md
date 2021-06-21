@@ -107,7 +107,7 @@ We copy-paste it into a text editor and make a few tweaks:
 
 * make the images src an absolute link,
 * removing all heading anchors, 
-* adding a [no tracking attribute to links](https://community.auth0.com/t/howto-disable-sendgrids-click-tracking-feature-in-an-auth0-email-template/22958) as the global SendGrid account option didn't work for that
+* adding a [no tracking attribute to links](https://community.auth0.com/t/howto-disable-sendgrids-click-tracking-feature-in-an-auth0-email-template/22958) as the global SendGrid account option didn't work for that.[^tracking]
 
 These tweaks are listed in our newsletter check list but we might transform them to code using xml2 soon-ish. 
 
@@ -135,4 +135,5 @@ And to subscribe, head over to [the newsletter page](/news)!
 [^commcalls]: Reading that first issue is amusing as it announces the beginning of comm calls, that are now a [well established part of rOpenSci activities](/commcalls) and [have a very polished flow](/blog/2021/02/02/ropensci-community-calls/).
 [^once]: That is why it was called rOpenSci biweekly, although not everyone agrees on what frequency _biweekly_ means (twice a week or once every two weeks?).
 [^digest]: The newsletter section about blog posts [mentioned these digests](https://news.ropensci.org/2019-06-24/#on-the-blog).
-[^transfer]: Transferring contacts merely means exporting _subscribed_ contacts out of MailChimp and then importing them into SendGrid. As we assume most people unsubscribe from a very recent newsletter, we should not miss unsubscribe events. 
+[^transfer]: Transferring contacts merely means exporting _subscribed_ contacts out of MailChimp and then importing them into SendGrid. As we assume most people unsubscribe from a very recent newsletter, we should not miss unsubscribe events.
+[^tracking]: We do track opens, via a 1px square image, which you can [turn off](https://www.theverge.com/22288190/email-pixel-trackers-how-to-stop-images-automatic-download) by not letting your email service load external images by default.
