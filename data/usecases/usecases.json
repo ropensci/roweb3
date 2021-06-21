@@ -263,7 +263,7 @@
   {
     "title": "Analyzing invoice data from Elsevier relative to hybrid open access",
     "reporter": "Najko Jahn",
-    "tags": ["rcrossref", "tabulizer"],
+    "tags": ["tabulizer", "rcrossref"],
     "resource": "[rcrossref](https://docs.ropensci.org/rcrossref), crminer, [tabulizer](https://docs.ropensci.org/tabulizer)",
     "url": "https://discuss.ropensci.org/t/analyzing-invoice-data-from-elsevier-relative-to-hybrid-open-access/1887",
     "image": "noimage",
@@ -578,7 +578,7 @@
   {
     "title": "A Twitter bot with rtweet, Mapbox and GitHub Actions",
     "reporter": "Matt Dray",
-    "tags": ["package", "rtweet", "usecase", "maps", "github-actions"],
+    "tags": ["package", "rtweet", "usecase", "github-actions", "maps"],
     "resource": "[rtweet](https://docs.ropensci.org/rtweet)",
     "url": "https://discuss.ropensci.org/t/a-twitter-bot-with-rtweet-mapbox-and-github-actions/2223",
     "image": "a-twitter-bot-with-rtweet-mapbox-and-github-actions.jpeg",
@@ -754,5 +754,23 @@
     "url": "https://discuss.ropensci.org/t/most-tweeted-words-each-month-a-year-snapshot/2461",
     "image": "most-tweeted-words-each-month-a-year-snapshot.gif",
     "date": "2021-05-17"
+  },
+  {
+    "title": "Using tabulizer to extract tabular data from daily COVID-19 reports",
+    "reporter": "Steffi LaZerte",
+    "tags": ["tabulizer", "pdf"],
+    "resource": "[tabulizer](https://docs.ropensci.org/tabulizer)",
+    "url": "https://discuss.ropensci.org/t/using-tabulizer-to-extract-tabular-data-from-daily-covid-19-reports/2487",
+    "image": "noimage",
+    "date": "2021-06-07"
+  },
+  {
+    "title": "Using rotl to create phylogenetic trees",
+    "reporter": "Denise",
+    "tags": ["phylogenetics", "rotl"],
+    "resource": "[rotl](https://docs.ropensci.org/rotl)",
+    "url": "https://discuss.ropensci.org/t/using-rotl-to-create-phylogenetic-trees/2498",
+    "image": "using-rotl-to-create-phylogenetic-trees.png",
+    "date": "2021-06-12"
   }
 ]
