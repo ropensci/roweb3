@@ -59,24 +59,24 @@ Furthermore, we really like our website (redesigned last summer ✨) so it felt 
 Having the newsletter issues as _blog posts_ was the most natural way to integrate them here, but we've also:
 
 * Created a [newsletter page](/news/) that features its sign-up form, and previous newsletter-tagged posts;
-* On the [newsletter tag page](/tags/newsletter), we've added a direct link to the newsletter page via an email icon, which makes it even easier to find how to subscribe.
+* Added a direct link to the newsletter page via an email icon on the [newsletter tag page](/tags/newsletter), which makes it even easier to find how to subscribe.
 
 ### Newsletters as R Markdown parameterized reports
 
 Now, how do we go from "information out there" to a formatted blog post? 
 We use an R Markdown document that needs the date of the latest newsletter as parameter.
-That document is stored as an [Hugo archetype](https://github.com/ropensci/roweb3/tree/master/archetypes/newsletter) so we can create a newsletter via the [blogdown New Post addin](/blog/2020/04/23/rmd-learnings/#hugo-archetypes-and-blogdown-new-post-addin).
-It's fulled of [chunks producing text](https://bookdown.org/yihui/rmarkdown-cookbook/verbatim-code-chunks.html).
+That document is stored as an [Hugo archetype](https://github.com/ropensci/roweb3/tree/master/archetypes/newsletter) so we can create a newsletter via the [blogdown New Post addin in RStudio](/blog/2020/04/23/rmd-learnings/#hugo-archetypes-and-blogdown-new-post-addin).
+It's filled with [chunks producing text](https://bookdown.org/yihui/rmarkdown-cookbook/verbatim-code-chunks.html).
 
-Compared to previous logic, we rely more heavily on data stored on or directly from GitHub:
+Compared to the previous way we created newsletters, our new method relies more heavily on data accessed directly from GitHub:
 
 * New packages are packages that were not in [rOpenSci registry](https://github.com/ropensci/roregistry) at the time of the last newsletter. To find rOpenSci registry at the time of the last newsletter, we query GitHub commits.
 * The citations data that [we curate](/blog/2021/02/16/package-citation/#how-ropensci-tracks-package-usage) is also stored on GitHub and we use similar history logic to identify "new" citations. 
 * Names of reviewers of new packages come from [`DESCRIPTION`](/blog/2018/03/16/thanking-reviewers-in-metadata/) when they're listed there, otherwise we manually add a snippet of code to the R Markdown document to add their names to the package presentation.
-* Package updates are GitHub releases in the repositories of packages listed in the rOpenSci registry. Whilst this adds some more work to maintainers (as opposed to e.g. "only" releasing their package on CRAN), it's a [one small workflow step that can be helped by usethis](https://github.com/ropensci/skimr/issues/653#issuecomment-800475302). We were already recommending the use of GitHub releases in [our dev guide](https://devguide.ropensci.org/releasing.html). 
-* Software review processes are summarized according to the issue labels. Whilst these used to be applied by editors, we've been using our review bot more and more so that the label data has become better.
+* Package updates are GitHub releases in the repositories of packages listed in the rOpenSci registry. While this adds some more work to maintainers (as opposed to e.g. "only" releasing their package on CRAN), it's a [one small workflow step that can be helped by usethis](https://github.com/ropensci/skimr/issues/653#issuecomment-800475302). We were already recommending the use of GitHub releases in [our dev guide](https://devguide.ropensci.org/releasing.html). 
+* Software review processes are summarized according to the issue labels. While these used to be applied by editors, we've been using our review bot more and more so that the label data has become better.
 
-The use cases data comes from our forum via Discourse API whose [client discgolf](https://github.com/sckott/discgolf) is maintained by rOpenSci Scott Chamberlain.
+The use cases data comes from our forum via Discourse API whose [client discgolf](https://github.com/sckott/discgolf) is maintained by rOpenSci [Scott Chamberlain](/author/scott-chamberlain).
 The same JSON data feeds our [use cases page](/use-cases).
 
 A random tip is that we use [`english::english()`](https://cran.r-project.org/web/packages/english/index.html) to transcribe numbers to English.
@@ -84,20 +84,20 @@ E.g. `as.character(english::english(2021))` gives "`r as.character(english::engl
 An alternative (that we had not heard of when creating the R Markdown document) is [xfun::numbers_to_words()](https://twitter.com/rfunctionaday/status/1392722522651639808).
 
 We still have some progress to make e.g. instead of using a `DESCRIPTION` file to store dependencies, we should probably switch to using [`renv`](https://rstudio.github.io/renv/articles/renv.html).
-Let's see if we wait for something to break to make the change!
+Let's see, we may wait for something to break before making the change!
 
 ### Newsletter as products crafted with human care
 
 The newsletter has a few manually curated sections.
 To populate this, we use information from the website (comm calls), our reading (was an interesting answer or question sent to the R-package-devel mailing list?), etc.
-To not forget ideas or to bring them to the attention of the newsletter curator we store them as issues of a GitHub repository.
+To not forget ideas or to bring them to the attention of the newsletter curator we store them as issues in a GitHub repository.
 
-Furthermore, the manually curated sections are reviewed by at least one person more.
+Furthermore, the manually curated sections are reviewed by at least one other person.
 The posts don't get a [full blown review](https://blogguide.ropensci.org/) but this helps strengthen them.
 
 ### Newsletters as emails: hello Sendgrid, bye MailChimp!
 
-We used to send our newsletter via MailChimp, however we heard [bad things about the company itself](https://www.businessinsider.fr/us/inside-mailchimp-mass-exodus-women-people-color-ben-chestnut-2021-3) so asked around for recommendations (thanks a ton to everyone who chimed in!) and settled on SendGrid whose email service we were actually already using for the [CRAN checks API](https://blog.r-hub.io/2019/06/10/cran-checks-api/) and our forum.
+We used to send our newsletter via MailChimp, however we've been hearing [problematic things about the company itself](https://www.businessinsider.fr/us/inside-mailchimp-mass-exodus-women-people-color-ben-chestnut-2021-3) so asked around for recommendations (thanks a ton to everyone who chimed in!) and settled on SendGrid whose email service we were actually already using for the [CRAN checks API](https://blog.r-hub.io/2019/06/10/cran-checks-api/) and our forum.
 So, now, our newsletter is emailed via SendGrid **Marketing** service.[^transfer]
 
 How do we go about that?
@@ -106,8 +106,8 @@ We use that feed as all relative links (except for images) have been made absolu
 We copy-paste it into a text editor and make a few tweaks:
 
 * make the images src an absolute link,
-* removing all heading anchors, 
-* adding a [no tracking attribute to links](https://community.auth0.com/t/howto-disable-sendgrids-click-tracking-feature-in-an-auth0-email-template/22958) as the global SendGrid account option didn't work for that.[^tracking]
+* remove all heading anchors, 
+* add a [no tracking attribute to links](https://community.auth0.com/t/howto-disable-sendgrids-click-tracking-feature-in-an-auth0-email-template/22958) as the global SendGrid account option didn't work for that.[^tracking]
 
 These tweaks are listed in our [newsletter checklist](https://github.com/ropensci/roweb3#newsletter) but we might transform them to code using xml2 soon-ish. 
 
@@ -127,7 +127,7 @@ Note that SendGrid sign-up forms offer much less flexibility than MailChimp simi
 In this post we presented our workflow for curating and sending our monthly newsletter.
 Our newsletter is published as a monthly post on our blog, and sent as an email to subscribers via SendGrid.
 We prepare its content with a mix of automatically generated and manually curated sections, followed by a review for the latter.
-The automatical generation of some content depends on upstream manual and automatic work for gathering data (e.g. our packages registry, citations monitoring, encouraging users to report use cases).
+The automatic generation of some content depends on upstream manual and automatic work for gathering data (e.g. our packages registry, citations monitoring, encouraging users to report use cases).
 We hope the newsletter helps our community stay informed of our work.
 If you have any suggestion for our newsletter, don't hesitate to leave a comment below!
 And to subscribe, head over to [the newsletter page](/news)!
