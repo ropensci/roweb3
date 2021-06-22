@@ -2,15 +2,15 @@
 title: How We Curate Our Monthly Newsletter
 author:
   - Maëlle Salmon
-date: '2021-06-28'
+date: '2021-06-24'
 slug: news-meta
 categories: []
 tags:
   - tech notes
   - RMarkdown
 package_version: 0.1.0
-description: A very short summary of your post (~ 100 characters)
-tweet: A post about blabla by @username!
+description: Our workflow for preparing and sending our monthly newsletter, partly automatically.
+tweet: How @rOpenSci Team Curates Its Monthly Newsletter
 output:
   html_document:
     keep_md: yes
@@ -97,8 +97,10 @@ The posts don't get a [full blown review](https://blogguide.ropensci.org/) but t
 
 ### Newsletters as emails: hello Sendgrid, bye MailChimp!
 
-We used to send our newsletter via MailChimp, however we've been hearing [problematic things about the company itself](https://www.businessinsider.fr/us/inside-mailchimp-mass-exodus-women-people-color-ben-chestnut-2021-3) so asked around for recommendations (thanks a ton to everyone who chimed in!) and settled on SendGrid whose email service we were actually already using for the [CRAN checks API](https://blog.r-hub.io/2019/06/10/cran-checks-api/) and our forum.
-So, now, our newsletter is emailed via SendGrid **Marketing** service.[^transfer]
+We used to send our newsletter via MailChimp, however we've been hearing [problematic things about the company itself](https://www.businessinsider.fr/us/inside-mailchimp-mass-exodus-women-people-color-ben-chestnut-2021-3) so asked around for recommendations (thanks a ton to everyone who chimed in!) and settled on SendGrid.
+SendGrid offers both _email_ and _marketing_ services.
+We were already using email services for the [CRAN checks API](https://blog.r-hub.io/2019/06/10/cran-checks-api/) and our forum.
+We now also use SendGrid marketing services, for sending our newsletter.[^transfer]
 
 How do we go about that?
 We extract the HTML corresponding to the post from our [full content RSS feed](/rbloggers/index.xml) (set up for R Bloggers).
