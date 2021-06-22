@@ -217,7 +217,6 @@ Note that main.min.css that contains all the CSS is stored under themes/ropensci
     * The images URL src needs to get the URL to the post (Search and Replace in Atom)
     * Remove anchors (Search and Replace the regex `<a class="anchor d-print-none" href="#.*?"> <small>&#x1F517;</small> </a>` in Atom)
     * Replace all `<a` with [`<a clicktracking=off`](https://community.auth0.com/t/howto-disable-sendgrids-click-tracking-feature-in-an-auth0-email-template/22958)
-    * The lines need to be hard-wrapped (Ctrl+Shift+Q in Atom)
 * In Sendgrid, 
     * replicate a past campaign, 
     * changw its name, 
