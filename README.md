@@ -219,7 +219,7 @@ Note that main.min.css that contains all the CSS is stored under themes/ropensci
     * Replace all `<a` with [`<a clicktracking=off`](https://community.auth0.com/t/howto-disable-sendgrids-click-tracking-feature-in-an-auth0-email-template/22958)
 * In Sendgrid, 
     * replicate a past campaign, 
-    * changw its name, 
+    * change its name, 
     * change its subject 
     * change its pre-header (use the YAML field "description"). 
     * Send test email.
