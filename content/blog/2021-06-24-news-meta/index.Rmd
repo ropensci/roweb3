@@ -121,6 +121,7 @@ Folks more experienced with SendGrid might create a "template" for that, presuma
 We make sure the subject and preheader (what MailChimp calls preview, the email bit recipients might see near the subject in their inbox) are updated, then send a few test emails, and then [more or less nervously](http://veekaybee.github.io/2021/06/20/the-ritual-of-the-deploy/) send the newsletter to its more than 2,000 subscribers.
 
 Voilà, at that point all that remains is tweeting about the newsletter, and hoping it gets read at least a bit.
+A problem we encountered with our first SendGrid campaign is the [rendering of the font](https://github.com/ropensci/biweekly/issues/70) on some devices, which we will investigate by next time.
 
 Note that SendGrid sign-up forms offer much less flexibility than MailChimp similar features, so we had to add an iframe to our website to incorporate sign-up, where we used to have a more integrated form whose JS code pinged a dedicated MailChimp URL.
 
@@ -137,5 +138,5 @@ And to subscribe, head over to [the newsletter page](/news)!
 [^commcalls]: Reading that first issue is amusing as it announces the beginning of comm calls, that are now a [well established part of rOpenSci activities](/commcalls) and [have a very polished flow](/blog/2021/02/02/ropensci-community-calls/).
 [^once]: That is why it was called rOpenSci biweekly, although not everyone agrees on what frequency _biweekly_ means (twice a week or once every two weeks?).
 [^digest]: The newsletter section about blog posts [mentioned these digests](https://news.ropensci.org/2019-06-24/#on-the-blog).
-[^transfer]: Transferring contacts merely means exporting _subscribed_ contacts out of MailChimp and then importing them into SendGrid. As we assume most people unsubscribe from a very recent newsletter, we should not miss unsubscribe events. Note that adding contacts to SendGrid via a CSV was extremely slow (more than the few minutes announced).
+[^transfer]: Transferring contacts merely means exporting _subscribed_ contacts out of MailChimp and then importing them into SendGrid. As we assume most people unsubscribe from a very recent newsletter, we should not miss unsubscribe events. Note that to add contacts by CSV to SendGrid make sure to remove any space in the column headers (MailChimp CSV export is not usable for SendGrid without these tweaks).
 [^tracking]: We do track opens, via a 1px square image, which you can [turn off](https://www.theverge.com/22288190/email-pixel-trackers-how-to-stop-images-automatic-download) by not letting your email service load external images by default.
