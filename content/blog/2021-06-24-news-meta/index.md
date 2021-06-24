@@ -86,7 +86,7 @@ An alternative (that we had not heard of when creating the R Markdown document) 
 We still have some progress to make e.g. instead of using a `DESCRIPTION` file to store dependencies, we should probably switch to using [`renv`](https://rstudio.github.io/renv/articles/renv.html).
 Let's see, we may wait for something to break before making the change!
 
-### Newsletter as products crafted with human care
+### Newsletters as products crafted with human care
 
 The newsletter has a few manually curated sections.
 To populate this, we use information from the website (comm calls), our reading (was an interesting answer or question sent to the R-package-devel mailing list?), etc.
