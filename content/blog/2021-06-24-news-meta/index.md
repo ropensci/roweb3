@@ -77,7 +77,7 @@ Compared to the previous way we created newsletters, our new method relies more 
 * Software review processes are summarized according to the issue labels. While these used to be applied by editors, we've been using our review bot more and more so that the label data has become better.
 
 The use cases data comes from our forum via Discourse API whose [client discgolf](https://github.com/sckott/discgolf) is maintained by rOpenSci [Scott Chamberlain](/author/scott-chamberlain).
-The same JSON data feeds our [use cases page](/use-cases).
+The same JSON data feeds our [use cases page](/usecases).
 
 A random tip is that we use [`english::english()`](https://cran.r-project.org/web/packages/english/index.html) to transcribe numbers to English.
 E.g. `as.character(english::english(2021))` gives "two thousand and twenty-one".
