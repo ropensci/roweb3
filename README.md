@@ -218,7 +218,7 @@ Note that main.min.css that contains all the CSS is stored under themes/ropensci
     * Remove anchors (Search and Replace the regex `<a class="anchor d-print-none" href="#.*?"> <small>&#x1F517;</small> </a>` in Atom)
     * Replace all `<a` with [`<a clicktracking=off`](https://community.auth0.com/t/howto-disable-sendgrids-click-tracking-feature-in-an-auth0-email-template/22958)
 * In Sendgrid, 
-    * replicate a past campaign, 
+    * replicate a past campaign (choose "Arial" as font not "Arial Black"!), 
     * change its name, 
     * change its subject 
     * change its pre-header (use the YAML field "description"). 
