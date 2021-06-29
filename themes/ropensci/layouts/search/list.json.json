@@ -1,10 +1,12 @@
 [{{ range $index, $page := ( where .Site.RegularPages "Type" "in" .Site.Params.search ) }}
 {{- if ne $page.Type "json" -}}
 {{- if and $index (gt $index 0) -}},{{- end }}
+{{ $description := $page.Description }}
 {
+  "type": "{{ $page.Type }}",
 	"path": "{{ $page.RelPermalink }}",
 	"title": "{{ htmlEscape $page.Title}}",
-	"description": "{{ .Description | chomp | htmlEscape }}",
+	"description": "{{ $description | chomp | htmlEscape }}",
 	"content": {{$page.Plain | jsonify}}
 }
 {{- end -}}

@@ -59,7 +59,7 @@
       .filter((x) => x.score <= 0.75)
       .map((x) => x.item);
     if (items.length === 0) {
-      items = [{where:"Sorry 😿",what:"No results found.",path:window.location.href}];
+      items = [{title:"Sorry 😿 No results found.",path:window.location.href}];
     }
   }
   callback(items);
@@ -71,7 +71,7 @@ autocomplete("#search-input", options, [
       source: searchFuse,
       templates: {
         suggestion: (s) => {
-            return `${s.title} >	<div class="search-details"> ${s.description}</div>`;
+            return `${s.title}`;
          
         },
       },
