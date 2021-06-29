@@ -24,6 +24,7 @@ rssLimit = 20
     description = "Open Tools and R Packages for Open Science"
     footer = "&copy; The rOpenSci Project"
     rbloggers = ["blog", "technotes", "commcalls"]
+    search = ["blog", "technotes", "commcalls", "events"]
     blogs = ["blog", "technotes"]
     events = ["events", "commcalls"]
     githubsource = "https://github.com/ropensci/roweb3/tree/master/content/"
