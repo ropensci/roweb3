@@ -1,10 +1,9 @@
-[{{ range $index, $page := .Site.Pages }}
+[{{ range $index, $page := ( where .Site.RegularPages "Type" "in" .Site.Params.search ) }}
 {{- if ne $page.Type "json" -}}
 {{- if and $index (gt $index 0) -}},{{- end }}
 {
-	"uri": "{{ $page.Permalink }}",
+	"path": "{{ $page.RelPermalink }}",
 	"title": "{{ htmlEscape $page.Title}}",
-	"tags": [{{ range $tindex, $tag := $page.Params.tags }}{{ if $tindex }}, {{ end }}"{{ $tag| htmlEscape }}"{{ end }}],
 	"description": "{{ .Description | chomp | htmlEscape }}",
 	"content": {{$page.Plain | jsonify}}
 }
