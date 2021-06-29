@@ -8,8 +8,14 @@
 <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
 <script src="/scripts/matomo.js"></script>
 <noscript><p><img src="https://ropensci.matomo.cloud/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
-
 <!-- End Matomo Code -->
+
+<!-- search -->
+
+<link href="/styles/search.css" rel="stylesheet">
+
+<!-- End search Code -->
+
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     {{ $css := resources.Get "main.min.css" }}
 {{ $secureCSS := $css | resources.Fingerprint "sha512" }}
