@@ -32,5 +32,5 @@ Are you putting together your useR!2021 conference schedule this weekend? rOpenS
 
 **Lluís Revilla Sancho** will talk about _**Packages submission and reviews; how does it work?**_ using data about review process of three archives of R packages, CRAN, Bioconductor and rOpenSci. That talk will happen in the same session as Stefanie's presentation.
 
-You can view the [conference schedule](https://user2021.r-project.org/program/schedule/) in the timezone of your choice.
+You can view the [conference schedule](https://user2021.r-project.org/program/schedule/) in the timezone of your choice. For a screen-reader-accessible version of the schedule, see the [schedule on ConfTool](https://www.conftool.org/user2021/sessions.php).
 
