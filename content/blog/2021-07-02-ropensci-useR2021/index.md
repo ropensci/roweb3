@@ -34,8 +34,6 @@ Are you putting together your useR!2021 conference schedule this weekend? Four r
 
 **Daniel Vartanian** will talk about his [mctq package](https://github.com/gipsousp/mctq) currently under review in [**mctq: An R Package for the Munich ChronoType Questionnaire**](https://www.conftool.org/user2021/index.php?page=browseSessions&form_session=32#paperID114), on Tuesday, July 6, ~12:45AM UTC / 5:45PM PDT. 
 
-You can view the [conference schedule](https://user2021.r-project.org/program/schedule/) in the timezone of your choice. For a screen-reader-accessible version of the schedule, see the [schedule on ConfTool](https://www.conftool.org/user2021/sessions.php).
+You can view the [conference schedule](https://user2021.r-project.org/program/schedule/) in the timezone of your choice. For a screen-reader-accessible version of the schedule, see the [schedule on ConfTool](https://www.conftool.org/user2021/sessions.php). Recordings of the presentations will be available after the conference.
 
-Recordings of the presentations will be available after the conference.
-
-Did we miss anything? Tell us in the comments.
+We're all excited to hear your feedback. Come talk to us!
