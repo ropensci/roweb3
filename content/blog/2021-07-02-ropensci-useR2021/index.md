@@ -26,7 +26,7 @@ Are you putting together your useR!2021 conference schedule this weekend? rOpenS
 
 ## Talks about rOpenSci packages and peer review
 
-**Andrea Gilardi** will talk about his rOpenSci-reviewed package **osmextract: An R package to download, convert, and import large OpenStreetMap datasets**
+**Andrea Gilardi** will talk about his rOpenSci-reviewed package **[osmextract](https://docs.ropensci.org/osmextract/): An R package to download, convert, and import large OpenStreetMap datasets**.
 
 **Michael Mahoney** will talk about his rOpenSci-reviewed package terrainr in **Virtual Environments: Using R as a Frontend for 3D Rendering of Digital Landscapes**
 
