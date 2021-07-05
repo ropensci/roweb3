@@ -3,7 +3,7 @@ title = "rOpenSci Statistical Software Peer Review"
 description = "rOpenSci's open peer-review system of R statistical packages"
 +++
 
-We at rOpenSci have recently expanded our peer review system beyond its former scope to enable us to review packages that implement statistical algorithms. This has required an expansion of our editor and reviewer community to bring in new expertise, and new sets of standards and approaches to deal with the particular challenges of statistical methods. We are currently able to review packages in the following 7 categories of statistical software:
+We have expanded our peer review system include packages that implement statistical algorithms.  To accommodate these packages, we have developed a new set of standards specific to statistical packages, expanded our editorial board to bring in additional expertise, and developed tools to support authors and reviewers in testing and examining code. We are currently accepting submission of packages in the following 7 categories of statistical software:
 
 1. Bayesian and Monte Carlo Routines
 2. Dimensionality Reduction, Clustering, and Unsupervised Learning
