@@ -17,14 +17,10 @@
    "affiliation": "Technical Lead",
    "url": "/author/scott-chamberlain",
    "image" : "/img/team/scott.jpg",
-   "roles": [
-      "co-founder",
-      "staff",
-      "developer"
-   ],
    "past_roles": [
-      "editor"
+      "staff", "cofounder", "editor", "developer"
    ],
+  "alumnus": true,
    "twitter": "sckottie",
    "github": "sckott",
    "home": "/author/scott-chamberlain/"
