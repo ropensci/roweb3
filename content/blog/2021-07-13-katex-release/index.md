@@ -43,6 +43,7 @@ mathml <- katex_mathml(math)
 cat(mathml)
 ```
 
+![rstudio-viewer](rstudio-viewer.png)
 Note that by default, katex_html actually returns a mix of HTML for visual rendering and includes MathML for accessibility. The [katex docs](https://docs.ropensci.org/katex/reference/katex.html) site has more detailed information and additional options.
 Hopefully this can be used to enable support for [server-side math in knitr/rmarkdown](https://github.com/rstudio/rmarkdown/pull/1940#issuecomment-875546179) soon!
 
