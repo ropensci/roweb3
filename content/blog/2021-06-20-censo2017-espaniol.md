@@ -90,13 +90,6 @@ de datos y previsualizar los datos. El objetivo final de este trabajo es
 facilitar el acceso a los datos a los investigadores en Humanidades y Ciencias
 Sociales.
 
-Hay una gran diferencia entre un paquete de trabajo y un paquete bien elaborado.
-Durante el proceso de revisión por pares, todos los comentarios de los revisores
-ayudaron a pulir el paquete para obtener un
-[sillar](https://es.wikipedia.org/wiki/Sillar) perfecto a partir de un sillar en
-bruto. El paquete ya está disponible en GitHub y ha tenido dos versiones mayores
-que han simplificado considerablemente el uso para el usuario final.
-
 # ¿Cómo funciona censo2017?
 
 Para una rápida ilustración, supongamos que no hemos instalado el paquete y la
