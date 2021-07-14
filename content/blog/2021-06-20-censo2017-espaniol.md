@@ -171,8 +171,7 @@ Para obtener información detallada de cada municipio/región en relación con l
 preguntas anteriores, tenemos que pensar en los datos de REDATAM como un árbol,
 y es necesario unir "zonas" con "viviendas" por ID de zona, luego unir
 "viviendas" con "hogares" por ID de vivienda, y luego "hogares" con "personas"
-por ID de hogar. Esto se hace en nada de tiempo, lo que es nada, con el backend
-DuckDB.
+por ID de hogar. Esto se hace rápidamente con el backend DuckDB.
 
 ```r
 personas <- tbl(censo_conectar(), "zonas") %>%
