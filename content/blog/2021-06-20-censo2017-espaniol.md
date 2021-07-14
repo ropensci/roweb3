@@ -355,7 +355,7 @@ La ayuda de rOpenSci y su [revisión de
 software](https://github.com/ropensci/software-review/issues/414) fue
 fundamental. Los revisores, [María Paula Caldas](https://www.mpaulacaldas.com/),
 [Frans van Dunné](https://www.fransvandunne.com/) y [Melina
-Vidoni](/autor/melina-vidoni/), probaron el paquete y sugirieron mejoras. Sus
+Vidoni](/autor/melina-vidoni/) probaron el paquete y sugirieron mejoras. Sus
 revisiones fueron muy útiles, dieron consejos muy valiosos y apoyaron mucho mi
 trabajo y el desarrollo del paquete.
 
