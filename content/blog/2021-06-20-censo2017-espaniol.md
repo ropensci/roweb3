@@ -23,14 +23,13 @@ description: >
 
 # Resumen
 
-[censo2017](https://docs.ropensci.org/censo2017) es un paquete R diseñado para
+[censo2017](https://docs.ropensci.org/censo2017) es un paquete en R diseñado para
 organizar los archivos [Redatam](https://www.cepal.org/es/temas/redatam)[^1]
 proporcionados por el Instituto Nacional de Estadísticas de Chile en formato
-DVD[^2]. Este paquete fue inspirado por [Noam Ross](/autor/noam-ross/) quien
-realizó algo similar para una base de datos de comercio de vida silvestre,
-[citesdb](https://github.com/ropensci/citedb), siguiendo a su vez los pasos de
-[taxadb](https://github.com/ropensci/taxadb). censo2017 es un homenaje a citesdb
-donde encontré gran inspiración. Esta entrada trata sobre este paquete, el
+DVD[^2]. Este paquete fue inspirado por [citesdb](https://github.com/ropensci/citedb)
+([Noam Ross](/autor/noam-ross/)) y [taxadb](https://github.com/ropensci/taxadb)
+([Carl Boettiger](/autor/carl-boettiger/)). 
+Esta entrada trata sobre este paquete, el
 problema que resuelve, cómo usarlo, y el hecho de que el paquete y su proceso de
 revisión se hicieron [íntegramente en
 español](https://github.com/ropensci/software-review/issues/414).
