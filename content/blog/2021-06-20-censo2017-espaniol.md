@@ -38,8 +38,7 @@ español](https://github.com/ropensci/software-review/issues/414).
 población. Aunque su uso es gratuito, utiliza un formato cerrado.
 
 [^2]: Para el periodo de junio de 2018 a diciembre de 2019, el Censo estaba
-disponible en [formato
-DVD](https://www.ine.cl/prensa/2019/09/16/ine-pone-a-disposici%C3%B3n-la-base-de-microdatos-del-censo-2017)
+disponible en formatos [DVD](https://www.ine.cl/prensa/2019/09/16/ine-pone-a-disposici%C3%B3n-la-base-de-microdatos-del-censo-2017)
 y en REDATAM únicamente. Ahora está disponible [en
 línea](https://www.ine.cl/estadisticas/sociales/censos-de-poblacion-y-vivienda/poblacion-y-vivienda)
 en formatos REDATAM, SPSS y CSV.
