@@ -332,15 +332,6 @@ Microsoft Excel o Google Sheets, sin las desventajas del formato original del
 censo anteriormente comentado, e incluso a Stata y SPSS gracias al ecosistema de
 paquetes R.
 
-Las universidades y centros de investigación en América Latina carecen de
-financiamiento y los gobiernos no tienen una agenda política basada en la
-evidencia, lo cual es una combinación peligrosa. Chile, al ser parte de América
-Latina, no es la excepción, y en las últimas décadas, la estabilidad política y
-el crecimiento impulsado por el comercio han logrado elevar a cientos de
-millones por sobre de la línea de pobreza. En el país y en la región hay un
-margen considerable para seguir cosechando los beneficios que ofrece una agenda
-gubernamental racional basada en la evidencia.
-
 Los que, como yo, escribimos paquetes R podemos hacer nuestra contribución
 creando herramientas que puedan ayudar a los países de la región a retomar el
 camino hacia el logro de los Objetivos de Desarrollo Sostenible definidos por
