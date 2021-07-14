@@ -27,8 +27,8 @@ description: >
 organizar los archivos [Redatam](https://www.cepal.org/es/temas/redatam)[^1]
 proporcionados por el Instituto Nacional de Estadísticas de Chile en formato
 DVD[^2]. Este paquete fue inspirado por [citesdb](https://github.com/ropensci/citedb)
-([Noam Ross](/autor/noam-ross/)) y [taxadb](https://github.com/ropensci/taxadb)
-([Carl Boettiger](/autor/carl-boettiger/), et al.). 
+([Noam Ross](/autor/noam-ross/), 2020) y [taxadb](https://github.com/ropensci/taxadb)
+([Carl Boettiger](/autor/carl-boettiger/) et al, 2021). 
 Esta entrada trata sobre este paquete, el
 problema que resuelve, cómo usarlo, y el hecho de que el paquete y su proceso de
 revisión se hicieron [íntegramente en
@@ -65,14 +65,12 @@ para organizar mi trabajo.
 
 # El largo camino hacia la simplicidad
 
-Pablo De Grande obtuvo una [especificación
-parcial](http://www.scielo.org.mx/scielo.php?pid=S0186-72102016000300811&script=sci_arttext)
-del formato REDATAM y creó una herramienta, el [Conversor
-REDATAM](https://github.com/discontinuos/redatam-converter), que permite
-exportar bases de datos REDATAM completas en CSV para su uso en, por ejemplo, R
-o Python. Lamentablemente, esta herramienta también es exclusiva de Windows, y
-como usuario de Linux quería que los conjuntos de datos del censo estuvieran
-fácilmente disponibles para todas las plataformas.
+El [Conversor
+REDATAM](http://www.scielo.org.mx/scielo.php?pid=S0186-72102016000300811&script=sci_arttext)
+permite exportar bases de datos REDATAM completas en CSV para su uso en, por 
+ejemplo, R o Python. Lamentablemente, esta herramienta también es exclusiva de 
+Windows, y como usuario de Linux quería que los conjuntos de datos del censo 
+estuvieran fácilmente disponibles para todas las plataformas.
 
 Además de REDATAM, usar CSV para un censo no es la mejor opción, ya que implica
 leer tablas de 4 GB desde el disco. Esto es tan grande que la mayoría de los
