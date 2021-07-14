@@ -363,8 +363,8 @@ para hacer más fuerte a la comunidad.
 Me encantaría ver diferentes "copias" de censo2017 en los países vecinos Perú y
 Bolivia, y el resto de la región. Crear el primer paquete de rOpenSci totalmente
 documentado en español no sólo tiene que ver con la inclusión, que obviamente es
-deseable, sino que también tiene que ver con la productividad, porque en América
-Latina, los materiales que están documentados en inglés son difíciles de
+deseable. También tiene que ver con la productividad, porque en América
+Latina los materiales que están documentados en inglés son difíciles de
 entender y por lo tanto las herramientas no son adoptadas como uno quisiera. Así
 como la infraestructura de R4DS en español motivó la creación de R4DS en
 portugués, espero que censo2017 abra la puerta a colaboraciones interesantes y
