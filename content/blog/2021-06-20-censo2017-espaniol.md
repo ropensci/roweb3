@@ -357,12 +357,7 @@ fundamental. Los revisores, [María Paula Caldas](https://www.mpaulacaldas.com/)
 [Frans van Dunné](https://www.fransvandunne.com/) y [Melina
 Vidoni](/autor/melina-vidoni/), probaron el paquete y sugirieron mejoras. Sus
 revisiones fueron muy útiles, dieron consejos muy valiosos y apoyaron mucho mi
-trabajo y el desarrollo del paquete. Tuve la oportunidad de interactuar con
-ellos en el pasado, durante el proceso de traducción de R4DS, donde co-escribí
-un artículo con el editor de rOpenSci [Mauro Lepore](/autor/mauro-lepore/),
-[Datos: traducciones de conjuntos de datos para promover la diversidad, la
-equidad y la inclusión](https://github.com/openjournals/jose-reviews/issues/99),
-como resultado de esa colaboración.
+trabajo y el desarrollo del paquete.
 
 El lector interesado encontrará un registro completo de todos los cambios
 realizados durante el proceso de revisión, donde todo está comentado en español,
