@@ -217,8 +217,8 @@ personas %>%
 15 15      226068
 ```
 
-Para conocer la proporción de hombres (1) y mujeres (2) por región, es muy
-similar.
+Para conocer la proporción de hombres (1) y mujeres (2) por región, 
+el código es muy similar.
 
 ```r
 personas %>%
