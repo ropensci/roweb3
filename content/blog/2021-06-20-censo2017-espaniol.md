@@ -28,7 +28,7 @@ organizar los archivos [Redatam](https://www.cepal.org/es/temas/redatam)[^1]
 proporcionados por el Instituto Nacional de Estadísticas de Chile en formato
 DVD[^2]. Este paquete fue inspirado por [citesdb](https://github.com/ropensci/citedb)
 ([Noam Ross](/autor/noam-ross/)) y [taxadb](https://github.com/ropensci/taxadb)
-([Carl Boettiger](/autor/carl-boettiger/)). 
+([Carl Boettiger](/autor/carl-boettiger/), et al.). 
 Esta entrada trata sobre este paquete, el
 problema que resuelve, cómo usarlo, y el hecho de que el paquete y su proceso de
 revisión se hicieron [íntegramente en
