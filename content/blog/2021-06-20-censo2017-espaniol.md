@@ -189,7 +189,7 @@ personas <- tbl(censo_conectar(), "zonas") %>%
   collect()
 ```
 
-Se puede obtener una rápida verificación con una simple cuenta. La tabla
+Se puede obtener una rápida verificación con una cuenta. La tabla
 resultante tiene mucho sentido y refleja estadísticas resumidas de conocimiento
 común, como que en la capital (región #13) hay unos 7 millones de habitantes.
 
