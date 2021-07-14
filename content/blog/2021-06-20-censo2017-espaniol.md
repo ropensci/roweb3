@@ -96,17 +96,14 @@ Para una rápida ilustración, supongamos que no hemos instalado el paquete y la
 base de datos local, que son dos pasos separados.
 
 ```r
-# instalar
+# instalar, cargar el package (e.g cargar funciones)
+# y crear base de datos local
 remotes::install_github("ropensci/censo2017")
-
-# cargar el package (e.g cargar funciones)
 library(censo2017)
+censo_descargar()
 
 # para usar collect() y expresiones regulares
 library(dplyr)
-
-# crear base de datos local
-censo_descargar()
 ```
 
 Sabemos que hay aproximadamente 17 millones de habitantes en Chile, pero
