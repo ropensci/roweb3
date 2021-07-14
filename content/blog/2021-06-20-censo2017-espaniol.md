@@ -20,13 +20,15 @@ description: >
   Las tablas del Censo de Chile al instante.
 ---
 
-# El desafío del censo
+# Resumen
 
-[censo2017](https://docs.ropensci.org/censo2017) es un paquete R diseñado para organizar los archivos [Redatam](https://www.cepal.org/es/temas/redatam)[^1] proporcionados por el Instituto Nacional de Estadísticas de Chile en formato DVD[^2]. Este paquete fue inspirado por [Noam Ross](/autor/noam-ross/) quien realizó algo similar para una base de datos de comercio de vida silvestre, [citesdb](https://github.com/ropensci/citedb), siguiendo a su vez los pasos de [taxadb](https://github.com/ropensci/taxadb). censo2017 es un homenaje a citesdb donde encontré gran inspiración. Esta entrada trata sobre este paquete, el problema que resolvió, cómo usarlo, y el hecho de que el paquete y su proceso de revisión se hicieron [íntegramente en español](https://github.com/ropensci/software-review/issues/414). La motivación para haber completado esto es que, hace ya casi dos años, tuve que completar una tarea que me exigía extraer datos del mencionado DVD y se me complicó mucho.
+[censo2017](https://docs.ropensci.org/censo2017) es un paquete R diseñado para organizar los archivos [Redatam](https://www.cepal.org/es/temas/redatam)[^1] proporcionados por el Instituto Nacional de Estadísticas de Chile en formato DVD[^2]. Este paquete fue inspirado por [Noam Ross](/autor/noam-ross/) quien realizó algo similar para una base de datos de comercio de vida silvestre, [citesdb](https://github.com/ropensci/citedb), siguiendo a su vez los pasos de [taxadb](https://github.com/ropensci/taxadb). censo2017 es un homenaje a citesdb donde encontré gran inspiración. Esta entrada trata sobre este paquete, el problema que resuelve, cómo usarlo, y el hecho de que el paquete y su proceso de revisión se hicieron [íntegramente en español](https://github.com/ropensci/software-review/issues/414). La motivación para haber completado esto es que, hace ya casi dos años, tuve que completar una tarea que me exigía extraer datos del mencionado DVD y se me complicó mucho.
 
 [^1]: Redatam es un software muy utilizado para la difusión de censos de población. Aunque su uso es gratuito, utiliza un formato cerrado.
 
 [^2]: Para el periodo de junio de 2018 a diciembre de 2019, el Censo estaba disponible en [formato DVD](https://www.ine.cl/prensa/2019/09/16/ine-pone-a-disposici%C3%B3n-la-base-de-microdatos-del-censo-2017) y en REDATAM únicamente. Ahora está disponible [en línea](https://www.ine.cl/estadisticas/sociales/censos-de-poblacion-y-vivienda/poblacion-y-vivienda) en formatos REDATAM, SPSS y CSV.
+
+# El desafío del censo
 
 Tuve que pedir prestado un portátil con Windows y conseguir un lector de DVD externo para poder leer esos archivos REDATAM y obtener algunos resúmenes de población con un software específico para ese formato. Para mi sorpresa, la tarea empezó a complicarse cada vez más, hasta el punto de querer exportar los datos a SQL para facilitar la extracción de datos.
 
