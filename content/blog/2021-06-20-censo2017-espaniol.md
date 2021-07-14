@@ -96,8 +96,7 @@ Para una rápida ilustración, supongamos que no hemos instalado el paquete y la
 base de datos local, que son dos pasos separados.
 
 ```r
-# instalar, cargar el package (e.g cargar funciones)
-# y crear base de datos local
+# instalar, cargar el paquete y crear base de datos local
 remotes::install_github("ropensci/censo2017")
 library(censo2017)
 censo_descargar()
