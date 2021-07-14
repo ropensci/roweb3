@@ -33,9 +33,7 @@ realizó algo similar para una base de datos de comercio de vida silvestre,
 donde encontré gran inspiración. Esta entrada trata sobre este paquete, el
 problema que resuelve, cómo usarlo, y el hecho de que el paquete y su proceso de
 revisión se hicieron [íntegramente en
-español](https://github.com/ropensci/software-review/issues/414). La motivación
-para haber completado esto es que, hace ya casi dos años, tuve que completar una
-tarea que me exigía extraer datos del mencionado DVD y se me complicó mucho.
+español](https://github.com/ropensci/software-review/issues/414).
 
 [^1]: Redatam es un software muy utilizado para la difusión de censos de
 población. Aunque su uso es gratuito, utiliza un formato cerrado.
@@ -48,6 +46,10 @@ línea](https://www.ine.cl/estadisticas/sociales/censos-de-poblacion-y-vivienda/
 en formatos REDATAM, SPSS y CSV.
 
 # El desafío del censo
+
+La motivación
+para haber completado esto es que, hace ya casi dos años, tuve que completar una
+tarea que me exigía extraer datos del mencionado DVD y se me complicó mucho.
 
 Tuve que pedir prestado un portátil con Windows y conseguir un lector de DVD
 externo para poder leer esos archivos REDATAM y obtener algunos resúmenes de
