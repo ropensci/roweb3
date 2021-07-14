@@ -372,8 +372,6 @@ paquetes similares en diferentes idiomas.
 
 Creo que hago lo mejor que puedo para contribuir a iniciativas como rOpenSci
 porque aquí he encontrado mi lugar y he descubierto a otros que tienen el deseo
-de pasar de la ignorancia al conocimiento en muchas cosas diferentes,
-construimos las herramientas para ayudarnos a nosotros mismos y a otros en ese
-proceso. Mi contribución actual es hacer que los datos, las herramientas y las
-mejores prácticas sean más descubribles, contribuyendo al mismo tiempo a la
-infraestructura social.
+de aprender muchas cosas diferentes. Mi contribución actual es hacer que los datos, 
+las herramientas y las mejores prácticas sean más descubribles, contribuyendo al 
+mismo tiempo a la infraestructura social.
