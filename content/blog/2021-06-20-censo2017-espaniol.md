@@ -1,5 +1,5 @@
 ---
-title: 'La Historia de censo2017, el Primer Paquete rOpenSci Revisado en Español'
+title: 'La Historia de censo2017, el Primer Paquete de rOpenSci Revisado en Español'
 author:
   - Pachá (aka Mauricio Vargas Sepúlveda)
 date: '2021-06-20'
@@ -17,7 +17,7 @@ tags:
   - software-peer-review
   - censo2017
 description: >
-  Chilean census tables at a glance.
+  Las tablas del Censo de Chile al instante.
 ---
 
 # El desafío del censo
