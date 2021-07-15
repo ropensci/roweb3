@@ -4,6 +4,7 @@ title: 'How to create your personal CRAN-like repository on R-universe'
 date: '2021-06-22'
 author: Jeroen Ooms
 featured: true
+description: 'Explanation of the few simple steps needed to launch your universe (create a git repository with a special JSON file, install a GitHub app).'
 tags:
   - r-universe
   - articles
