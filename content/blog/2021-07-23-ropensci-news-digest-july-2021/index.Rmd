@@ -534,12 +534,47 @@ Some useful tips for R package developers. :eyes:
 ### What R version to depend on?
 
 What R version should your package support?
-The rOpenSci development guide does not have any specific guidance for that (whereas e.g. the tidyverse ADD PLEDGE).
-If you follow the Tidyverse example, then it'd make sense to _test_ your package in those R versions on continuous integration.
+The rOpenSci development guide does not have any specific guidance for that (whereas e.g. the tidyverse policy is to [support the current version, the devel version, and four previous versions of R](https://www.tidyverse.org/blog/2019/04/r-version-support/)).
+If you follow the Tidyverse example, then it'd make sense to _test_ your package in those R versions on [continuous integration](https://devguide.ropensci.org/ci.html).
 
 Now if your choice of a recent R version as a minimal version stems from a newer base function, you might be interested in the [backports package](https://github.com/r-lib/backports) maintained by Michel Lang, that provides reimplementations of Functions Introduced Since R-3.0.0.
 Its README explains how to use it [in packages](https://github.com/r-lib/backports#in-packages).
-The README also has a list of the reimplementations, which is fun to look at for R history sake!
+The README also has a list of the re-implementations, which is fun to look at for R history sake!
+
+### Roles in package development & DESCRIPTION
+
+It takes a village to... write an R package, or at least it can: creator, authors, reviewers, contributors, copyrightholders, etc.
+In an R package DESCRIPTION you can use the roles found in `utils:::MARC_relator_db_codes_used_with_R`: `r toString(utils:::MARC_relator_db_codes_used_with_R)`.
+The official recognition of the reviewer role is something rOpenSci [asked for](/blog/2018/03/16/thanking-reviewers-in-metadata/) and that we recommend in our [development guide](https://devguide.ropensci.org/building.html#authorship).
+We also advise to pair names with [ORCID IDs](/blog/2018/10/08/orcid/).
+
+How are roles currently used in the R packages that do use the `Authors@R` field?
+
+```{r crandb, cache=TRUE}
+crandb <- tools::CRAN_package_db()
+crandb <- janitor::clean_names(crandb)
+crandb <- dplyr::filter(crandb, !is.na(authors_r))
+
+get_roles <- function(people_string) {
+  people <- eval(parse(text = people_string))
+  list(format(people, include = "role", braces = list(role = c("", ""))))
+}
+
+crandb <- dplyr::rowwise(crandb)
+crandb <- dplyr::mutate(
+  crandb,
+  role = get_roles(authors_r)
+)
+crandb <- dplyr::select(crandb, package, role)
+crandb <- tidyr::unnest(crandb, role)
+crandb <- dplyr::mutate(crandb, role = strsplit(role, split = ", "))
+crandb <- tidyr::unnest(crandb, role)
+marc_db <- utils:::MARC_relator_db
+marc_db <- dplyr::filter(marc_db, code %in% utils:::MARC_relator_db_codes_used_with_R)
+crandb <- dplyr::filter(crandb, role %in% utils:::MARC_relator_db_codes_used_with_R)
+newdb <- fuzzyjoin::regex_left_join(marc_db, crandb, by = c(code = "role"))
+dplyr::count(newdb, code, sort = TRUE)
+```
 
 ## Last words
 
