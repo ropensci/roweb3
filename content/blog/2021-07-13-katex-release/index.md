@@ -4,6 +4,7 @@ title: 'New package katex: rendering math to HTML and MathML in R'
 date: '2021-07-13'
 author: Jeroen Ooms
 featured: true
+description: 'Convert LaTeX math expressions to HTML and MathML for use in Markdown documents or package documentation.'
 tags:
   - katex
   - latex
