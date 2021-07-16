@@ -27,7 +27,12 @@ Now let's dive into the activity at and around rOpenSci!
 
 <!-- to be curated manually -->
 
-Find out about more [events](/events).
+BLURB BY MARK.
+
+On another topic, if you find yourself with more time for learning this summer, why not dig into [rOpenSci community calls archive](https://ropensci.org/commcalls/)?
+Since March 2020, video recordings have close captions.
+
+Find out about [events](/events).
 
 ## Software :package:
 
@@ -156,27 +161,13 @@ The README also has a list of the re-implementations, which is fun to look at fo
 ### Roles in package development & DESCRIPTION
 
 It takes a village to... write an R package, or at least it can: creator, authors, reviewers, contributors, copyrightholders, etc.
-In an R package DESCRIPTION you can use the roles found in `utils:::MARC_relator_db_codes_used_with_R`: aut, com, cph, cre, ctb, ctr, dtc, fnd, rev, ths, trl.
+In an R package DESCRIPTION you can use the [roles](https://www.loc.gov/marc/relators/relacode.html) found in `utils:::MARC_relator_db_codes_used_with_R`: aut, com, cph, cre, ctb, ctr, dtc, fnd, rev, ths, trl.
 The official recognition of the reviewer role is something rOpenSci [asked for](/blog/2018/03/16/thanking-reviewers-in-metadata/) and that we recommend in our [development guide](https://devguide.ropensci.org/building.html#authorship).
 We also advise to pair names with [ORCID IDs](/blog/2018/10/08/orcid/).
 
-How are roles currently used in the R packages that do use the `Authors@R` field?
-
-
-```
-##    code    n
-## 1   aut 8653
-## 2   ctb 7822
-## 3   cph 1323
-## 4   cre  222
-## 5   ths  146
-## 6   rev  143
-## 7   fnd  135
-## 8   dtc  120
-## 9   ctr   46
-## 10  trl   26
-## 11  com   10
-```
+Now, how to easily re-use information from the DESCRIPTION file without copy-pasting it?
+Enter the [desc package](https://github.com/r-lib/desc) by Gábor Csárdi, a tip shared by [Hao Ye](https://twitter.com/Hao_and_Y) in [rOpenSci semi-open slack](https://contributing.ropensci.org/resources.html#channels): you can use desc to synchronise information between DESCRIPTION and a [README.Rmd](https://github.com/uf-repro/lesson-template/blob/24418116992ab89bb68ec87d2fa454993b805fe0/README.Rmd#L27)!
+This can be handy for package development, but also off-the-label use of package development tooling for e.g. [lesson development using pkgdown](https://github.com/uf-repro/lesson-template).
 
 ## Last words
 

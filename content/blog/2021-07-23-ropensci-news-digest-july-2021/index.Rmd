@@ -42,7 +42,12 @@ Now let's dive into the activity at and around rOpenSci!
 
 <!-- to be curated manually -->
 
-Find out about more [events](/events).
+BLURB BY MARK.
+
+On another topic, if you find yourself with more time for learning this summer, why not dig into [rOpenSci community calls archive](https://ropensci.org/commcalls/)?
+Since March 2020, video recordings have close captions.
+
+Find out about [events](/events).
 
 ## Software :package:
 
@@ -544,37 +549,13 @@ The README also has a list of the re-implementations, which is fun to look at fo
 ### Roles in package development & DESCRIPTION
 
 It takes a village to... write an R package, or at least it can: creator, authors, reviewers, contributors, copyrightholders, etc.
-In an R package DESCRIPTION you can use the roles found in `utils:::MARC_relator_db_codes_used_with_R`: `r toString(utils:::MARC_relator_db_codes_used_with_R)`.
+In an R package DESCRIPTION you can use the [roles](https://www.loc.gov/marc/relators/relacode.html) found in `utils:::MARC_relator_db_codes_used_with_R`: `r toString(utils:::MARC_relator_db_codes_used_with_R)`.
 The official recognition of the reviewer role is something rOpenSci [asked for](/blog/2018/03/16/thanking-reviewers-in-metadata/) and that we recommend in our [development guide](https://devguide.ropensci.org/building.html#authorship).
 We also advise to pair names with [ORCID IDs](/blog/2018/10/08/orcid/).
 
-How are roles currently used in the R packages that do use the `Authors@R` field?
-
-```{r crandb, cache=TRUE}
-crandb <- tools::CRAN_package_db()
-crandb <- janitor::clean_names(crandb)
-crandb <- dplyr::filter(crandb, !is.na(authors_r))
-
-get_roles <- function(people_string) {
-  people <- eval(parse(text = people_string))
-  list(format(people, include = "role", braces = list(role = c("", ""))))
-}
-
-crandb <- dplyr::rowwise(crandb)
-crandb <- dplyr::mutate(
-  crandb,
-  role = get_roles(authors_r)
-)
-crandb <- dplyr::select(crandb, package, role)
-crandb <- tidyr::unnest(crandb, role)
-crandb <- dplyr::mutate(crandb, role = strsplit(role, split = ", "))
-crandb <- tidyr::unnest(crandb, role)
-marc_db <- utils:::MARC_relator_db
-marc_db <- dplyr::filter(marc_db, code %in% utils:::MARC_relator_db_codes_used_with_R)
-crandb <- dplyr::filter(crandb, role %in% utils:::MARC_relator_db_codes_used_with_R)
-newdb <- fuzzyjoin::regex_left_join(marc_db, crandb, by = c(code = "role"))
-dplyr::count(newdb, code, sort = TRUE)
-```
+Now, how to easily re-use information from the DESCRIPTION file without copy-pasting it?
+Enter the [desc package](https://github.com/r-lib/desc) by Gábor Csárdi, a tip shared by [Hao Ye](https://twitter.com/Hao_and_Y) in [rOpenSci semi-open slack](https://contributing.ropensci.org/resources.html#channels): you can use desc to synchronise information between DESCRIPTION and a [README.Rmd](https://github.com/uf-repro/lesson-template/blob/24418116992ab89bb68ec87d2fa454993b805fe0/README.Rmd#L27)!
+This can be handy for package development, but also off-the-label use of package development tooling for e.g. [lesson development using pkgdown](https://github.com/uf-repro/lesson-template).
 
 ## Last words
 
