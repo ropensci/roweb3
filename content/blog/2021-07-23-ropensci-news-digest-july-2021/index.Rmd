@@ -7,7 +7,7 @@ slug: ropensci-news-digest-july-2021
 categories: []
 tags:
   - newsletter
-description: keywords from the content
+description: Statistical software review system open for submissions; awardFindR; katex.
 output:
   html_document:
     keep_md: yes
@@ -42,10 +42,13 @@ Now let's dive into the activity at and around rOpenSci!
 
 <!-- to be curated manually -->
 
-rOpenSci's peer-review system has now [officially expanded](https://ropensci.org/blog/2019/07/15/expanding-software-review/), and we are able to review statistical software in seven categories.
+Great news for fans of statistics and software!
+rOpenSci's peer-review system has now [officially expanded](https://ropensci.org/blog/2019/07/15/expanding-software-review/), and we are thrilled to be able to **review statistical software in seven categories**.
 Authors of statistical software should begin by reading the [*Stats Software Dev Guide*](https://stats-devguide.ropensci.org), which describes the seven categories, along with the procedures for preparing statistical software for peer review.
 One of our new tools developed for this system,  [the `pkgcheck` package](https://github.com/ropensci-review-tools/pkgcheck), confirms that statistical software is ready to be submitted for review.
 Submissions of statistical software begin with a pre-submission enquiry on our main [software review repository](https://github.com/ropensci/software-review).
+To volunteer as a _reviewer_, fill our [short form](/software-reviewer).
+For any question, you can post on [rOpenSci forum](https://discuss.ropensci.org/c/statistical-software-peer-review/28) or contact the statistical software team (Mark Padgham, mark\<at\>ropensci.org, and Noam Ross, ross\<at\>ecohealthalliance.org).
 
 On another topic, if you find yourself with more time for learning this summer, why not dig into [rOpenSci community calls archive](https://ropensci.org/commcalls/)?
 Since March 2020, video recordings have close captions.
