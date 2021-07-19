@@ -48,5 +48,6 @@ https://github.com/r-lib/processx "Tools to run system processes in the backgrou
 
 - where do you declare them?
 - can you help the user install them cf hugodown
+- R-hub sysreqs, RSPM https://remotes.r-lib.org/reference/system_requirements.html
 
 ## Conclusion
