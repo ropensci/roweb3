@@ -57,12 +57,16 @@ https://github.com/r-lib/processx "Tools to run system processes in the backgrou
 
 If you decide to package up your R wrapper, you'll need to declare the system dependencies
 
-* in DESCRIPTION;
-* 
+* in [DESCRIPTION](https://r-pkgs.org/description.html#other-dependencies);
+* in the documentation of your package, to indicate to human users how to install it. (you should also add some informative error in a configure script if your package has one for e.g. a C++ library).
+
+Non human users such as continuous integration could install the system dependencies thanks to [R-hub sysreqs](https://github.com/r-hub/sysreqsdb/#sysreqs) or to [RStudio Package Manager](https://remotes.r-lib.org/reference/system_requirements.html); or you might need to add more specific code yourself in the CI configuration file.
+
+Note that depending on the system dependency, maybe your package can even have a function that installs it like [hugodown](https://github.com/r-lib/hugodown) and [blogdown](https://github.com/rstudio/blogdown) do for Hugo.
 
 - where do you declare them?
 - can you help the user install them cf hugodown
-- R-hub sysreqs, RSPM https://remotes.r-lib.org/reference/system_requirements.html
+- R-hub sysreqs, RSPM 
 
 ## Conclusion
 
