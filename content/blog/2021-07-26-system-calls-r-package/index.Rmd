@@ -33,6 +33,8 @@ You could also decide not to wrap the cool tool you found! Either you found a re
 This is obviously quite ambitious depending on the size and scope of the ported tool.
 The [vcr R package](https://docs.ropensci.org/vcr/) is a port of the [Ruby gem vcr](https://github.com/vcr/vcr); there is a package called [NetlogoR that is a port of NetLogo written entirely in R](https://onlinelibrary.wiley.com/doi/full/10.1111/ecog.04516).
 
+Now, what if you actually need to write system commands...
+
 ## system() and system2()
 
 the base R functions are not interruptible.
@@ -51,10 +53,19 @@ https://github.com/r-lib/processx "Tools to run system processes in the backgrou
 
 "processx really shines when it comes to controlling background processes. " https://www.tidyverse.org/blog/2018/09/processx-3.2.0/#advanced-usage-background-processes
 
-## Few words about system dependencies?
+## Declaring system dependencies in a package
+
+If you decide to package up your R wrapper, you'll need to declare the system dependencies
+
+* in DESCRIPTION;
+* 
 
 - where do you declare them?
 - can you help the user install them cf hugodown
 - R-hub sysreqs, RSPM https://remotes.r-lib.org/reference/system_requirements.html
 
 ## Conclusion
+
+In this post we have summarized resources and best practice for wrapping non R tools in R.
+MORE SUMMARIZING.
+Have _you_ ever wrapped non R tools in R? Feel free to share in the comments below.
