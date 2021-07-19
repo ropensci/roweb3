@@ -312,6 +312,170 @@ para comparar). Lo que quería demostrar aquí es que usando este paquete, es mu
 fácil pasar datos a R, para poder realizar análisis de regresión u otros
 análisis estadísticos sobre la población chilena.
 
+# Integración de censo2017 con otros paquetes
+
+Se puede usar censo2017 con ggplot2 y otros paquetes de uso habitual. Para dar un 
+ejemplo, es posible replicar diversos mapas de hacinamiento que han levantado
+desde [Geógrafas Chile](https://www.instagram.com/geografaschile/) y el
+[Centro de Producción del Espacio](https://twitter.com/CPE_UDLA)
+que dan cuenta del hacinamiento en la Región Metropolitana.
+
+Para obtener esto, necesitasla cantidad de personas por vivienda y la
+cantidad de dormitorios de las viviendas. Puedes obtener las columnas 
+correspondientes de la misma forma que se hizo en los ejemplos anteriores.
+
+```r
+tbl(censo_conectar(), "variables") %>%
+  collect() %>%
+  filter(grepl("Pers", descripcion))
+
+  tabla     variable descripcion          tipo    rango   
+  <chr>     <chr>    <chr>                <chr>   <chr>   
+1 personas  personan Número de la Persona integer 0 - 9999
+2 viviendas cant_per Cantidad de Personas integer 0 - 9999  
+```
+
+```r
+tbl(censo_conectar(), "variables") %>%
+  collect() %>%
+  filter(grepl("Dorm", descripcion))
+
+  tabla     variable descripcion                                            tipo    rango
+  <chr>     <chr>    <chr>                                                  <chr>   <chr>
+1 viviendas p04      Número de Piezas Usadas Exclusivamente Como Dormitorio integer 0 - 6
+```
+
+Con las variables "cant_per" y "p04" se podría seguir la metodología del
+[Ministerio de Desarrollo Social](https://www.desarrollosocialyfamilia.gob.cl/), 
+que consiste en tomar la razón entre el 
+número de personas residentes en la vivienda y el número de dormitorios de la 
+misma y luego se tramifica la variable en las siguientes categorías: 
+
+* Sin hacinamiento [0;2,5)
+* Medio [2,5;3,5)
+* Alto [3,5;4,9)
+* Crítico [5,+&infin;)
+
+Puedes obtener la tabla con el índice de hacinamiento para cada vivienda con el 
+siguiente código.
+
+```r
+hacinamiento <- tbl(censo_conectar(), "zonas") %>% 
+  mutate(
+    region = substr(as.character(geocodigo), 1, 2),
+    provincia = substr(as.character(geocodigo), 1, 3),
+    comuna = substr(as.character(geocodigo), 1, 5)
+  ) %>% 
+  filter(region == 13) %>% 
+  select(comuna, geocodigo, zonaloc_ref_id) %>%
+  inner_join(select(tbl(censo_conectar(), "viviendas"), zonaloc_ref_id, 
+                    vivienda_ref_id, cant_per, p04),
+             by = "zonaloc_ref_id") %>%
+  mutate(
+    cant_per = as.numeric(cant_per), 
+    p04 = as.numeric(p04),
+    p04 = case_when(
+      p04 == 98 ~ NA_real_,
+      p04 == 99 ~ NA_real_,
+      TRUE ~ as.numeric(p04)
+    )
+  ) %>% 
+  filter(!is.na(p04)) %>% 
+  mutate(
+    # Indice Hacinamiento (variables a nivel vivienda)
+    ind_hacinam = case_when(
+      # con esto divido la cant de personas por pieza (si piezas >= 1) y 
+      # tambien si es igual a cero (donde aplica pieza cero + 1 para casos
+      # como apartamento studio, etc)
+      p04 >=1 ~ cant_per / p04,
+      p04 ==0 ~ cant_per / (p04 + 1)
+    )
+  ) %>% 
+  mutate(
+    # Categorias hacinamiento
+    hacinam = case_when(
+      ind_hacinam  < 2.5                     ~ "Sin Hacinamiento",
+      ind_hacinam >= 2.5 & ind_hacinam < 3.5 ~ "Medio",
+      ind_hacinam >= 3.5 & ind_hacinam < 5   ~ "Alto",
+      ind_hacinam >= 5                       ~ "Crítico"
+    )
+  ) %>% 
+  collect()
+``` 
+
+Para obtener los porcentajes, puedes agregar para obtener las cuentas
+correspondientes, teniendo en cuenta que no se debe ignorar los ceros, en 
+especial si quieres visualizar la información, o tendrás áreas con vacíos
+en el mapa. Para esto se usará tidyr y janitor para tener una columna para cada 
+categoria de hacinamiento.
+
+```r
+library(tidyr)
+library(janitor)
+
+hacinamiento1 <- hacinamiento %>% 
+  group_by(geocodigo, hacinam) %>% 
+  count()
+
+hacinamiento2 <- expand_grid(
+  geocodigo = unique(hacinamiento$geocodigo),
+  hacinam = c("Sin Hacinamiento", "Medio", "Alto", "Crítico")
+)
+
+hacinamiento2 <- hacinamiento2 %>% 
+  left_join(hacinamiento1) %>% 
+  pivot_wider(names_from = "hacinam", values_from = "n") %>% 
+  clean_names() %>% 
+  mutate_if(is.numeric, function(x) 
+    case_when(is.na(x) ~ 0, TRUE ~ as.numeric(x))) %>% 
+  mutate(
+    total_viviendas = sin_hacinamiento + medio + alto + critico,
+    prop_sin = 100 * sin_hacinamiento / total_viviendas,
+    prop_medio = 100 * medio / total_viviendas,
+    prop_alto = 100 * alto / total_viviendas,
+    prop_critico = 100 * critico / total_viviendas
+  )
+  
+hacinamiento2
+
+# # A tibble: 2,421 x 10
+#    geocodigo   sin_hacinamiento medio  alto critico total_viviendas prop_sin prop_medio prop_alto prop_critico
+#    <chr>                  <dbl> <dbl> <dbl>   <dbl>           <dbl>    <dbl>      <dbl>     <dbl>        <dbl>
+#  1 13101011001             1072    28     2       2            1104     97.1       2.54     0.181        0.181
+#  2 13101011002             1127    57    14       7            1205     93.5       4.73     1.16         0.581
+#  3 13101011003             1029    23     6       4            1062     96.9       2.17     0.565        0.377
+#  4 13101011004              801    49    18      13             881     90.9       5.56     2.04         1.48 
+#  5 13101011005              886    49     9       5             949     93.4       5.16     0.948        0.527
+#  6 13101021001             1219   107    35      16            1377     88.5       7.77     2.54         1.16 
+#  7 13101021002             1223    78    15       7            1323     92.4       5.90     1.13         0.529
+#  8 13101021003             1173   105    34       9            1321     88.8       7.95     2.57         0.681
+#  9 13101021004             1199   110    47      14            1370     87.5       8.03     3.43         1.02 
+# 10 13101021005              826    87    29      10             952     86.8       9.14     3.05         1.05 
+# # … with 2,411 more rows
+```
+
+Ahora estás en condiciones de crear un mapa. Se muestra el 
+mapa de hacinamiento medio a modo de ejemplo, los otros casos quedan como 
+ejercicio.
+
+```r
+# if (!require("colRoz")) remotes::install_github("jacintak/colRoz")
+library(chilemapas)
+library(colRoz)
+
+ggplot() + 
+  geom_sf(data = inner_join(hacinamiento2, mapa_zonas),
+          aes(fill = prop_medio, geometry = geometry)) +
+  geom_sf(data = filter(mapa_comunas, codigo_region == "13"),
+          aes(geometry = geometry), colour = "#2A2B75", fill = NA) +
+  ylim(-33.65, -33.3) +
+  xlim(-70.85, -70.45) +
+  scale_fill_gradientn(colors = rev(colRoz_pal("ngadju")), name = "% viviendas hacinadas") +
+  labs(title = "Porcentaje de viviendas con hacinamiento medio en la Región Metropolitana")
+```
+
+{{< imgtxt src="mapa-hacinamiento-medio.png" alt="mapa de hacinamiento medio" >}}
+
 # Enlaces con formación y política
 
 El uso de formatos abiertos en sí mismo facilita el trabajo, ya que reduce los
