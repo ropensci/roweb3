@@ -27,7 +27,7 @@ Before jumping to find ways to control the tool with system commands, you might 
 * Maybe there's a C library offering similar features to the CLI, like libmagick does for Magick? [blog post about ijtiff](/blog/2018/04/12/ijtiff/). For C libraries https://blog.davisvaughan.com/2019/03/02/now-you-c-me/ For C++ Rcpp or https://cpp11.r-lib.org/articles/cpp11.html (see https://cpp11.r-lib.org/articles/motivations.html for the motivations of cpp11)
 * In the case of a Python module, you can use the reticulate package for interacting with Python.
 * In the case of a JS library, you can use the V8 package.
-* https://github.com/ropensci/nlrx "NetLogo is executed in a Java virtual machine"
+* https://github.com/ropensci/nlrx "NetLogo is executed in a Java virtual machine". babette https://ropensci.org/blog/2020/01/28/babette/ (both nlrx and babette are examples of scientific software wrappers mentioned in the scope policy of the dev guide)
 * Very ambitious, _port_ rather than _wrap_. E.g. vcr port of Ruby vcr gem, NetlogoR https://onlinelibrary.wiley.com/doi/full/10.1111/ecog.04516
 
 ## system() and system2()
@@ -37,5 +37,7 @@ downsides https://twitter.com/coolbutuseless/status/1248856314010308611
 What does sanitizing mean, examples.
 
 ## sys vs processx
+
+https://github.com/jeroen/sys
 
 ## Conclusion
