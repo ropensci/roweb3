@@ -24,7 +24,7 @@ In this post, we shall review best practice for such wrappers.
 
 Before jumping to find ways to control the tool with system commands, you might try and find ways to not have to do that.
 
-* Maybe there's a C library offering similar features to the CLI, like libmagick does for Magick? [blog post about ijtiff](/blog/2018/04/12/ijtiff/). 
+* Maybe there's a C library offering similar features to the CLI, like libmagick does for Magick? [blog post about ijtiff](/blog/2018/04/12/ijtiff/). For C libraries https://blog.davisvaughan.com/2019/03/02/now-you-c-me/ For C++ Rcpp or https://cpp11.r-lib.org/articles/cpp11.html (see https://cpp11.r-lib.org/articles/motivations.html for the motivations of cpp11)
 * In the case of a Python module, you can use the reticulate package for interacting with Python.
 * In the case of a JS library, you can use the V8 package.
 * https://github.com/ropensci/nlrx "NetLogo is executed in a Java virtual machine"
