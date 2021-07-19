@@ -36,6 +36,8 @@ downsides https://twitter.com/coolbutuseless/status/1248856314010308611
 
 What does sanitizing mean, examples.
 
+antiword good example of wrapper as it's so small https://github.com/ropensci/antiword/blob/master/R/antiword.R yet useful (and all readers should know about Word)
+
 ## sys vs processx
 
 https://github.com/jeroen/sys
