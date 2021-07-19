@@ -30,7 +30,7 @@ Before jumping to find ways to control that needed tool with system commands, yo
 
 You could also decide not to wrap the cool tool you found! Either you found a ready-to-use R solution or you decide to _port_ i.e. _translate_ the tool to R.
 This is obviously quite ambitious depending on the size and scope of the ported tool.
-The [vcr R package](https://docs.ropensci.org/vcr/) is a port of the [Ruby gem vcr](https://github.com/vcr/vcr); there is a package called [NetlogoR that is a port of NetLogo written entirely in R](https://onlinelibrary.wiley.com/doi/full/10.1111/ecog.04516).
+The [vcr R package](https://docs.ropensci.org/vcr/) is a port of the [Ruby gem vcr](https://github.com/vcr/vcr); there is a package called [NetlogoR that is a port of NetLogo written entirely in R](https://onlinelibrary.wiley.com/doi/full/10.1111/ecog.04516) (as opposed to the rOpenSci [nlrx package](https://docs.ropensci.org/nlrx/) that calls NetLogo).
 
 Now, what if you actually need to write system commands...
 
