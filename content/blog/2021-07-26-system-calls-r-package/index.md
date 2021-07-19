@@ -27,7 +27,6 @@ Before jumping to find ways to control that needed tool with system commands, yo
 * Maybe there's a C or C++ library offering similar features to the CLI, like ImageMagick++, wrapped in the [magick R package](https://docs.ropensci.org/magick/) does for [ImageMagick](https://imagemagick.org/index.php); or like [libtiff wrapped in the ijtiff R package](/blog/2018/04/12/ijtiff/)? To get started with wrapping C libraries, check out [Davis Vaughan's blog post](https://blog.davisvaughan.com/2019/03/02/now-you-c-me/). For C++ dive into either [Rcpp](https://github.com/RcppCore/Rcpp) or the more recent [cpp11](https://cpp11.r-lib.org/articles/cpp11.html) (see [a vignette of cpp11](https://cpp11.r-lib.org/articles/motivations.html) for the motivations of cpp11 in particular compared to Rcpp).
 * In the case of a Python module, you can use the [reticulate package](https://rstudio.github.io/reticulate/) for interacting with Python.
 * In the case of a JS library, you can use the [V8 package](https://github.com/jeroen/v8).
-* TODO UNDERSTAND HOW THESE RUN https://github.com/ropensci/nlrx "NetLogo is executed in a Java virtual machine". babette https://ropensci.org/blog/2020/01/28/babette/ (both nlrx and babette are examples of scientific software wrappers mentioned in the scope policy of the dev guide)
 
 You could also decide not to wrap the cool tool you found! Either you found a ready-to-use R solution or you decide to _port_ i.e. _translate_ the tool to R.
 This is obviously quite ambitious depending on the size and scope of the ported tool.
@@ -36,6 +35,8 @@ The [vcr R package](https://docs.ropensci.org/vcr/) is a port of the [Ruby gem v
 Now, what if you actually need to write system commands...
 
 ## system() and system2()
+
+use of system https://github.com/ropensci/nlrx/blob/caecf41cc47275bd5d02d3e19e205883554edae5/R/util_runnl.R#L174
 
 the base R functions are not interruptible.
 
@@ -68,4 +69,8 @@ Note that depending on the system dependency, maybe your package can even have a
 
 In this post we have summarized resources and best practice for wrapping non R tools in R.
 MORE SUMMARIZING.
+
+In [rOpenSci Software Peer-Review](/software-review/), at the moment of writing, Scientific Software Wrappers is a category [in scope](https://devguide.ropensci.org/policies.html#package-categories).
+
+>  Packages that wrap non-R utility programs used for scientific research. These programs must be specific to research fields, not general computing utilities. Wrappers must be non-trivial, in that there must be significant added value above simple system() call or bindings, whether in parsing inputs and outputs, data handling, etc. Improved installation process, or extension of compatibility to more platforms, may constitute added value if installation is complex. This does not include wrappers of other R packages or C/C++ libraries that can be included in R packages. We strongly encourage wrapping open-source and open-licensed utilities - exceptions will be evaluated case-by-case, considering whether open-source options exist.
 Have _you_ ever wrapped non R tools in R? Feel free to share in the comments below.
