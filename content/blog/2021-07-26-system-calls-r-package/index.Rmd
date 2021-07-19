@@ -40,6 +40,8 @@ antiword good example of wrapper as it's so small https://github.com/ropensci/an
 
 ## sys vs processx
 
-https://github.com/jeroen/sys
+https://github.com/jeroen/sys "Drop-in replacements for the base system2() function with fine control and consistent behavior across platforms. Supports clean interruption, timeout, background tasks, and streaming STDIN / STDOUT / STDERR over binary or text connections. Arguments on Windows automatically get encoded and quoted to work on different locales."
+
+https://github.com/r-lib/processx "Tools to run system processes in the background. It can check if a background process is running; wait on a background process to finish; get the exit status of finished processes; kill background processes. It can read the standard output and error of the processes, using non-blocking connections. 'processx' can poll a process for standard output or error, with a timeout. It can also poll several processes at once." used in e.g. https://github.com/r-lib/pingr#readme
 
 ## Conclusion
