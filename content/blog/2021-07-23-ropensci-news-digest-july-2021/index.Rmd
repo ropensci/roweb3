@@ -554,6 +554,7 @@ The README also has a list of the re-implementations, which is fun to look at fo
 
 It takes a village to... write an R package, or at least it can: creator, authors, reviewers, contributors, copyrightholders, etc.
 In an R package DESCRIPTION you can use the [roles](https://www.loc.gov/marc/relators/relacode.html) found in `utils:::MARC_relator_db_codes_used_with_R`: `r toString(utils:::MARC_relator_db_codes_used_with_R)`.
+The current list of roles accepted for R packages are always listed in the output of `?person`.
 The official recognition of the reviewer role is something rOpenSci [asked for](/blog/2018/03/16/thanking-reviewers-in-metadata/) and that we recommend in our [development guide](https://devguide.ropensci.org/building.html#authorship).
 We also advise to pair names with [ORCID IDs](/blog/2018/10/08/orcid/).
 
