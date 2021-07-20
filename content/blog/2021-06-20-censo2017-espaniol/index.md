@@ -5,7 +5,7 @@ author:
   - Pachá (aka Mauricio Vargas Sepúlveda)
 date: '2021-06-20'
 version: 0.5
-slug: censo2017
+slug: censo2017-es
 categories:
   - blog
 tags:
