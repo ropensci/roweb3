@@ -47,7 +47,7 @@ rOpenSci's peer-review system has now [expanded](https://ropensci.org/blog/2019/
 We are thrilled to start this new chapter, for which we've developed a series of new standards and tools, and recruited a new [board of experts](https://stats-devguide.ropensci.org) to oversee.
 Authors of statistical software should begin by reading the [*Stats Software Dev Guide*](https://stats-devguide.ropensci.org), which describes the categories of statistical software we now accept (Regression, Machine Learning, Exploratory Data Analysis, and more!), along with the procedures for preparing statistical software for peer review.
 It also introduces our automation tools, such as [the `pkgcheck` package](https://github.com/ropensci-review-tools/pkgcheck), which confirms that statistical software is ready to be submitted for review.
-Authors submitting of statistical software to review should start by opening _pre-submission inquiry_ on our main [software review repository](https://github.com/ropensci/software-review).
+Authors submitting statistical software to review should start by opening a _pre-submission inquiry_ on our main [software review repository](https://github.com/ropensci/software-review).
 Inquiries are welcome well before packages are ready for submittal.
 We hope authors make use of our standards and tools throughout the development process so as to make review straightforward.
 To volunteer as a _reviewer_, fill our [short form](/software-reviewer).
