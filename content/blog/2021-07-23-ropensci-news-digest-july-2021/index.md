@@ -109,8 +109,6 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 
 
-### Other topics
-
 * [rOpenSci at useR!2021 - Presentations from Staff and Community](/blog/2021/07/02/ropensci-user2021) by Stefanie Butland. 4 rOpenSci staff presentations at useR! 2021.
 
 
