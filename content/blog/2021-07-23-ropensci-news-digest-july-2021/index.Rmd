@@ -494,7 +494,6 @@ if (length(tech_notes) > 0) {
 ## Citations
 
 No new citations added to our database this month ([browse all citations](/citations)).
-Thanks for citing our tools!
 
 ## Use cases
 

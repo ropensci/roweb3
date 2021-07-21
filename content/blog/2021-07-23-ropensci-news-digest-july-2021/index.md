@@ -126,7 +126,6 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 ## Citations
 
 No new citations added to our database this month ([browse all citations](/citations)).
-Thanks for citing our tools!
 
 ## Use cases
 
