@@ -808,5 +808,14 @@
     "url": "https://discuss.ropensci.org/t/pdftools-tesseract-para-extraer-texto-en-espanol/2544",
     "image": "noimage",
     "date": "2021-07-15"
+  },
+  {
+    "title": "pdftools + map to download & read multiple pdfs",
+    "reporter": "Silvia Gutiérrez",
+    "tags": ["pdftools", "purrr"],
+    "resource": "[pdftools](https://docs.ropensci.org/pdftools)",
+    "url": "https://discuss.ropensci.org/t/pdftools-map-to-download-read-multiple-pdfs/2545",
+    "image": "noimage",
+    "date": "2021-07-15"
   }
 ]

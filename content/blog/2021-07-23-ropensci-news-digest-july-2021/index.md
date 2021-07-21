@@ -29,9 +29,9 @@ Now let's dive into the activity at and around rOpenSci!
 
 Great news for fans of statistics and software!
 rOpenSci's peer-review system has now [expanded](https://ropensci.org/blog/2019/07/15/expanding-software-review/) to include review of packages implementing statistical routines and algorithms.
-We are thrilled to start this new chapter, for which we've developed a series of new standards and tools, and recruited a new [board of experts](https://stats-devguide.ropensci.org) to oversee.
+We are thrilled to start this new chapter, for which we've developed a series of new standards and tools, and recruited a new [board of experts](/stat-software-review/) to oversee.
 Authors of statistical software should begin by reading the [*Stats Software Dev Guide*](https://stats-devguide.ropensci.org), which describes the categories of statistical software we now accept (Regression, Machine Learning, Exploratory Data Analysis, and more!), along with the procedures for preparing statistical software for peer review.
-It also introduces our automation tools, such as [the `pkgcheck` package](https://github.com/ropensci-review-tools/pkgcheck), which confirms that statistical software is ready to be submitted for review.
+It also introduces our automation tools, such as [the `pkgcheck` package](https://docs.ropensci.org/pkgcheck/), which confirms that statistical software is ready to be submitted for review.
 Authors submitting statistical software to review should start by opening a _pre-submission inquiry_ on our main [software review repository](https://github.com/ropensci/software-review).
 Inquiries are welcome well before packages are ready for submittal.
 We hope authors make use of our standards and tools throughout the development process so as to make review straightforward.
@@ -131,7 +131,7 @@ No new citations added to our database this month ([browse all citations](/citat
 
 
 
-Four use cases of our packages and resources have been reported since we sent the last newsletter.
+Five use cases of our packages and resources have been reported since we sent the last newsletter.
 
 * [Mapping Asian elephant observations with rgbif](https://discuss.ropensci.org/t/mapping-asian-elephant-observations-with-rgbif/2524). Reported by Tuija Sonkkila.
 
@@ -140,6 +140,8 @@ Four use cases of our packages and resources have been reported since we sent th
 * [Historical dataviz recreations with a sprinkle of magick](https://discuss.ropensci.org/t/historical-dataviz-recreations-with-a-sprinkle-of-magick/2538). Reported by Matt Dray.
 
 * [pdftools + tesseract para extraer texto en español](https://discuss.ropensci.org/t/pdftools-tesseract-para-extraer-texto-en-espanol/2544). Reported by Silvia Gutiérrez.
+
+* [pdftools + map to download & read multiple pdfs](https://discuss.ropensci.org/t/pdftools-map-to-download-read-multiple-pdfs/2545). Reported by Silvia Gutiérrez.
 
 Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)!
 
