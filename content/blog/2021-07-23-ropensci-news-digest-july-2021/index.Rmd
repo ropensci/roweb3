@@ -54,7 +54,8 @@ To volunteer as a _reviewer_, fill our [short form](/software-reviewer).
 For any question, you can post on the [rOpenSci forum](https://discuss.ropensci.org/c/statistical-software-peer-review/28) or contact the statistical software team (Mark Padgham, mark\<at\>ropensci.org, and Noam Ross, ross\<at\>ecohealthalliance.org).
 
 On another topic, if you find yourself with more time for learning this summer, why not dig into [rOpenSci community calls archive](https://ropensci.org/commcalls/)?
-Since March 2020, video recordings have close captions.
+Every topic comes with a 1-hour video, speakers' slides, links to related resources, and a document with questions and answers from participants.
+Since March 2020, video recordings have closed captions.
 
 Find out about [events](/events).
 
