@@ -51,7 +51,7 @@ Authors submitting statistical software to review should start by opening a _pre
 Inquiries are welcome well before packages are ready for submittal.
 We hope authors make use of our standards and tools throughout the development process so as to make review straightforward.
 To volunteer as a _reviewer_, fill our [short form](/software-reviewer).
-For any question, you can post on [rOpenSci forum](https://discuss.ropensci.org/c/statistical-software-peer-review/28) or contact the statistical software team (Mark Padgham, mark\<at\>ropensci.org, and Noam Ross, ross\<at\>ecohealthalliance.org).
+For any question, you can post on the [rOpenSci forum](https://discuss.ropensci.org/c/statistical-software-peer-review/28) or contact the statistical software team (Mark Padgham, mark\<at\>ropensci.org, and Noam Ross, ross\<at\>ecohealthalliance.org).
 
 On another topic, if you find yourself with more time for learning this summer, why not dig into [rOpenSci community calls archive](https://ropensci.org/commcalls/)?
 Since March 2020, video recordings have close captions.
