@@ -475,7 +475,7 @@ ggplot() +
   labs(title = "Porcentaje de viviendas con hacinamiento medio en la Región Metropolitana")
 ```
 
-{{< imgtxt src="mapa-hacinamiento-medio.png" alt="mapa de hacinamiento medio" >}}
+{{< figure src="mapa-hacinamiento-medio.png" alt="mapa de hacinamiento medio" >}}
 
 # Enlaces con formación y política
 
