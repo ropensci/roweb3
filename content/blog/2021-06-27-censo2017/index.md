@@ -356,8 +356,7 @@ follows:
 * High [3.5,4.9)
 * Critical [5,`Inf`)
 
-You can obtain the table with the overcrowding index for each dwelling with the
-next code.
+You can obtain the table with the overcrowding index for each dwelling as follows.
 
 ```r
 overcrowding <- tbl(censo_conectar(), "zonas") %>% 
@@ -406,7 +405,7 @@ overcrowding <- tbl(censo_conectar(), "zonas") %>%
 To obtain the shares, you can aggregate to obtain the corresponding
 counts, taking into account that you don't have to ignore the zeroes, and
 specially if you want to visualize the information or you'll end up with
-emtpy areas in your map. To perform this step, you can use tidyr and janitor
+empty areas in your map. To perform this step, you can use tidyr and janitor
 to obtain one column per overcrowding category.
 
 ```r
@@ -473,7 +472,7 @@ ggplot() +
   labs(title = "Share of dwelling with mean overcrowding in the Metropolitan Region")
 ```
 
-{{< figure src="mean-overcrowding-map.png" alt="mean overcrowding map in the metropolitan region" >}}
+{{< figure src="mean-overcrowding-map.png" alt="Map of the Metropolitan Region showing polygons representing neighbourhoods and coloured by the degree of overcrowding" >}}
 
 ## Links to training and policy
 
