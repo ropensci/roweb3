@@ -309,7 +309,7 @@ other statistical analyses on the Chilean population.
 
 # Can I use censo2017 with 
 
-Censo2017 can be used with ggplot2 and other common use packages. As an example,
+Censo2017 can be used with ggplot2 and other commonly used packages. As an example,
 it is possible to replicate different overcrowding maps created by both
 [Chile's Geographers (Geógrafas Chile)](https://www.instagram.com/geografaschile/) and
 [Center For Spatial Research (Centro de Producción del Espacio)](https://twitter.com/CPE_UDLA)
