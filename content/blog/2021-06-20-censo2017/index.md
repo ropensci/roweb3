@@ -343,7 +343,7 @@ tbl(censo_conectar(), "variables") %>%
 1 viviendas p04      Número de Piezas Usadas Exclusivamente Como Dormitorio integer 0 - 6
 ```
 
-From the variables "cant_per" and "p04" you could the methodology used by
+From the variables "cant_per" and "p04" you can use the methodology used by
 the 
 [Secretary for Social Development and Family (Ministerio de Desarrollo Social y Familia)](https://www.desarrollosocialyfamilia.gob.cl/),
 which consists in taking the ratio of people residing in the dwelling and the
