@@ -21,9 +21,9 @@ tags:
 description: >
   Las tablas del Censo de Chile al instante.
 ---
-> See the English version of this blog post: 
+> Consulta la versión en inglés de esta entrada del blog: 
 > [The Story Behind censo2017, the First rOpenSci Package to be Reviewed in Spanish](/blog/2021/07/27/censo2017)
-# Resumen
+## Resumen
 
 [censo2017](https://docs.ropensci.org/censo2017) es un paquete en R diseñado para
 organizar los archivos [Redatam](https://www.cepal.org/es/temas/redatam)[^1]
@@ -45,7 +45,7 @@ y en REDATAM únicamente. Ahora está disponible [en
 línea](https://www.ine.cl/estadisticas/sociales/censos-de-poblacion-y-vivienda/poblacion-y-vivienda)
 en formatos REDATAM, SPSS y CSV.
 
-# El desafío del censo
+## El desafío del censo
 
 La motivación
 para haber completado esto es que, hace ya casi dos años, tuve que completar una
@@ -65,7 +65,7 @@ convertir los conjuntos de datos y la descripción de las variables a CSV/XML,
 descubrí que el esfuerzo de hacerlo justificaba la creación de un paquete de R
 para organizar mi trabajo.
 
-# El largo camino hacia la simplicidad
+## El largo camino hacia la simplicidad
 
 El [Conversor
 REDATAM](http://www.scielo.org.mx/scielo.php?pid=S0186-72102016000300811&script=sci_arttext)
@@ -92,7 +92,7 @@ de datos y previsualizar los datos. El objetivo final de este trabajo es
 facilitar el acceso a los datos a los investigadores en Humanidades y Ciencias
 Sociales.
 
-# ¿Cómo funciona censo2017?
+## ¿Cómo funciona censo2017?
 
 Para una rápida ilustración, supongamos que no hemos instalado el paquete y la
 base de datos local, que son dos pasos separados.
@@ -314,7 +314,7 @@ para comparar). Lo que quería demostrar aquí es que usando este paquete, es mu
 fácil pasar datos a R, para poder realizar análisis de regresión u otros
 análisis estadísticos sobre la población chilena.
 
-# Integración de censo2017 con otros paquetes
+## Integración de censo2017 con otros paquetes
 
 Se puede usar censo2017 con ggplot2 y otros paquetes de uso habitual. Para dar un 
 ejemplo, es posible replicar diversos mapas de hacinamiento que han levantado
@@ -476,9 +476,9 @@ ggplot() +
   labs(title = "Porcentaje de viviendas con hacinamiento medio en la Región Metropolitana")
 ```
 
-{{< figure src="mapa-hacinamiento-medio.png" alt="mapa de hacinamiento medio" >}}
+{{< figure src="mapa-hacinamiento-medio.png" alt="mapa de hacinamiento medio en la region metropolitana" >}}
 
-# Enlaces con formación y política
+## Enlaces con formación y políticas
 
 El uso de formatos abiertos en sí mismo facilita el trabajo, ya que reduce los
 problemas de compatibilidad a la hora de leer los datos, pero los conjuntos de
@@ -506,7 +506,7 @@ incertidumbre política y la actitud poco clara hacia el régimen comercial
 mundial que se observa en América Latina. Desarrollar y promover una política
 reflexiva es la única manera de decir "jaque mate" al subdesarrollo.
 
-# Contribución de la comunidad rOpenSci
+## Contribución de la comunidad rOpenSci
 
 La ayuda de rOpenSci y su [revisión de
 software](https://github.com/ropensci/software-review/issues/414) fue

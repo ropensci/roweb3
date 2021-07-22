@@ -2,7 +2,7 @@
 title: 'The Story Behind censo2017, the First rOpenSci Package to be Reviewed in Spanish'
 author:
   - Pachá (aka Mauricio Vargas Sepúlveda)
-date: '2021-06-20'
+date: '2021-06-27'
 version: 0.5
 slug: censo2017
 categories:
@@ -21,7 +21,7 @@ description: >
 ---
 > See the Spanish version of this blog post: 
 > [La Historia de censo2017, el Primer Paquete de rOpenSci Revisado en Español](/blog/2021/07/27/censo2017-es)
-# Summary
+## Summary
 
 [censo2017](https://docs.ropensci.org/censo2017) is an R package designed to
 organize the [Redatam](https://www.cepal.org/es/temas/redatam)[^1] files
@@ -43,7 +43,7 @@ and REDATAM formats only. Now it's available
 [online](https://www.ine.cl/estadisticas/sociales/censos-de-poblacion-y-vivienda/poblacion-y-vivienda)
 in REDATAM, SPSS and CSV formats.
 
-# The census challenge
+## The census challenge
 
 The motivation
 to have completed this is that, almost two years ago now, I had to complete an
@@ -63,7 +63,7 @@ dplyr and other tools ease a lot. After being able to convert the datasets and
 the description of variables to CSV/XML, I found that the effort in doing that
 justified creating an R package to organize my work.
 
-# The long way to simplicity
+## The long way to simplicity
 
 [The REDATAM Converter](http://www.scielo.org.mx/scielo.php?pid=S0186-72102016000300811&script=sci_arttext)
 (Pablo De Grande, 2016) allows exporting complete REDATAM databases as CSV for 
@@ -86,7 +86,7 @@ that allows exploring the database and previewing data. The ultimate goal of
 this work is to ease data access for researchers in Humanities and Social
 Sciences.
 
-# How does censo2017 work?
+## How does censo2017 work?
 
 For a quick illustration, assume we haven’t already installed the package and
 the local database, which are two separate steps.
@@ -308,7 +308,7 @@ to compare). What I wanted to demonstrate here is that by using this package, it
 is very easy to pass data to R, so that you can conduct regression analysis or
 other statistical analyses on the Chilean population.
 
-# Can I use censo2017 with 
+## Using censo2017 with other packages
 
 Censo2017 can be used with ggplot2 and other commonly used packages. As an example,
 it is possible to replicate different overcrowding maps created by both
@@ -473,9 +473,9 @@ ggplot() +
   labs(title = "Share of dwelling with mean overcrowding in the Metropolitan Region")
 ```
 
-{{< imgtxt src="mean-overcrowding-map.png" alt="mean overcrowding map" >}}
+{{< figure src="mean-overcrowding-map.png" alt="mean overcrowding map in the metropolitan region" >}}
 
-# Links to training and policy
+## Links to training and policy
 
 Using open formats per se ease working as it reduces compatibility problems when
 reading data, but datasets have to include proper documentation, not just come
@@ -501,7 +501,7 @@ attitude towards global trade regime seen in Latin America. Developing and
 enacting thoughtful policy is the only way to say ‘checkmate’ to
 underdevelopment.
 
-# rOpenSci community contribution
+## rOpenSci community contribution
 
 The help of rOpenSci and its [software
 review](https://github.com/ropensci/software-review/issues/414) was pivotal.
