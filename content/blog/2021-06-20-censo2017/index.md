@@ -314,7 +314,6 @@ it is possible to replicate different overcrowding maps created by both
 [Chile's Geographers (Geógrafas Chile)](https://www.instagram.com/geografaschile/) and
 [Center For Spatial Research (Centro de Producción del Espacio)](https://twitter.com/CPE_UDLA)
 that account for overcrowding in the Metropolitan Region.
-que dan cuenta del hacinamiento en la Región Metropolitana.
 
 To obtain this, you need both the number of indiduals and rooms per dwellings.
 You can obtain the corresponding columns in the same way as the previous 
