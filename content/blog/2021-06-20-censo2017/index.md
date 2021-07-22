@@ -347,7 +347,7 @@ From the variables "cant_per" and "p04" you can use the methodology used by
 the 
 [Secretary for Social Development and Family (Ministerio de Desarrollo Social y Familia)](https://www.desarrollosocialyfamilia.gob.cl/),
 which consists in taking the ratio of people residing in the dwelling and the
-number of bedrooms in the dwelling, and the variable is then discretized as
+number of bedrooms in the dwelling. The variable is then discretized as
 follows:
 
 * No overcrowding [0,2.5)
