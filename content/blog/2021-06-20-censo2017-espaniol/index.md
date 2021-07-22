@@ -21,7 +21,8 @@ tags:
 description: >
   Las tablas del Censo de Chile al instante.
 ---
-
+> See the English version of this blog post: 
+> [The Story Behind censo2017, the First rOpenSci Package to be Reviewed in Spanish](/blog/2021/07/27/censo2017)
 # Resumen
 
 [censo2017](https://docs.ropensci.org/censo2017) es un paquete en R diseñado para
