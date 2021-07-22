@@ -353,7 +353,7 @@ follows:
 * No overcrowding [0,2.5)
 * Mean [2.5,3.5)
 * High [3.5,4.9)
-* Critical [5,+&infin)
+* Critical [5,`Inf`)
 
 You can obtain the table with the overcrowding index for each dwelling with the
 next code.
