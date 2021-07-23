@@ -23,7 +23,7 @@
     "tags": ["taxize", "usecase", "rredlist"],
     "resource": "[rredlist](https://docs.ropensci.org/rredlist), [taxize](https://docs.ropensci.org/taxize)",
     "url": "https://discuss.ropensci.org/t/rbiodiversidata/1633",
-    "image": "noimage",
+    "image": "rbiodiversidata.png",
     "date": "2019-03-28"
   },
   {
@@ -158,7 +158,7 @@
     "tags": ["software-peer-review", "dev-guide"],
     "resource": "[rOpenSci package development guide book](https://devguide.ropensci.org)",
     "url": "https://discuss.ropensci.org/t/teaching-how-to-create-high-quality-r-packages/1793",
-    "image": "noimage",
+    "image": "teaching-how-to-create-high-quality-r-packages.png",
     "date": "2019-08-05"
   },
   {
@@ -167,16 +167,16 @@
     "tags": ["software-peer-review", "dev-guide"],
     "resource": "[rOpenSci package development guide book](https://devguide.ropensci.org)",
     "url": "https://discuss.ropensci.org/t/use-of-r-package-review-guidelines-in-independent-manuscript-review/1795",
-    "image": "use-of-r-package-review-guidelines-in-independent-manuscript-review.png",
+    "image": "use-of-r-package-review-guidelines-in-independent-manuscript-review.jpeg",
     "date": "2019-08-08"
   },
   {
     "title": "Using rorcid to generate a website CV",
     "reporter": "Noam Ross",
     "tags": "rorcid",
-    "resource": "rorcid: https://github.com/ropensci/rorcid",
+    "resource": "rorcid: GitHub - ropensci/rorcid: A programmatic interface the Orcid.org API",
     "url": "https://discuss.ropensci.org/t/using-rorcid-to-generate-a-website-cv/1806",
-    "image": "using-rorcid-to-generate-a-website-cv.png",
+    "image": "using-rorcid-to-generate-a-website-cv.gif",
     "date": "2019-08-20"
   },
   {
@@ -365,7 +365,7 @@
     "tags": ["package", "magick", "images", "generative", "animation"],
     "resource": "[magick](https://docs.ropensci.org/magick)",
     "url": "https://discuss.ropensci.org/t/animated-generative-art-with-magick/2042",
-    "image": "animated-generative-art-with-magick.jpeg",
+    "image": "noimage",
     "date": "2020-04-21"
   },
   {
@@ -383,7 +383,7 @@
     "tags": ["package", "drake"],
     "resource": "[drake](https://docs.ropensci.org/drake)",
     "url": "https://discuss.ropensci.org/t/drake-at-queensland-fire-and-emergency-services/2054",
-    "image": "noimage",
+    "image": "drake-at-queensland-fire-and-emergency-services.jpeg",
     "date": "2020-05-04"
   },
   {
@@ -401,7 +401,7 @@
     "tags": ["r", "package", "geospatial", "piggyback"],
     "resource": "[piggyback](https://docs.ropensci.org/piggyback)",
     "url": "https://discuss.ropensci.org/t/package-for-downloading-shapefiles-using-piggyback/2073",
-    "image": "noimage",
+    "image": "package-for-downloading-shapefiles-using-piggyback.png",
     "date": "2020-05-11"
   },
   {
@@ -419,7 +419,7 @@
     "tags": [],
     "resource": "[drake](https://docs.ropensci.org/drake)",
     "url": "https://discuss.ropensci.org/t/using-drake-for-machine-learning/2091",
-    "image": "noimage",
+    "image": "using-drake-for-machine-learning.png",
     "date": "2020-05-22"
   },
   {
@@ -772,5 +772,50 @@
     "url": "https://discuss.ropensci.org/t/using-rotl-to-create-phylogenetic-trees/2498",
     "image": "using-rotl-to-create-phylogenetic-trees.png",
     "date": "2021-06-12"
+  },
+  {
+    "title": "Mapping Asian elephant observations with rgbif",
+    "reporter": "Tuija Sonkkila",
+    "tags": ["r", "package", "rgbif"],
+    "resource": "[rgbif](https://docs.ropensci.org/rgbif)",
+    "url": "https://discuss.ropensci.org/t/mapping-asian-elephant-observations-with-rgbif/2524",
+    "image": "mapping-asian-elephant-observations-with-rgbif.jpeg",
+    "date": "2021-06-23"
+  },
+  {
+    "title": "Environment Canada air temperature using weathercan",
+    "reporter": "Alexandre Bevington",
+    "tags": ["weather", "weathercan"],
+    "resource": "[weathercan](https://docs.ropensci.org/weathercan)",
+    "url": "https://discuss.ropensci.org/t/environment-canada-air-temperature-using-weathercan/2537",
+    "image": "environment-canada-air-temperature-using-weathercan.png",
+    "date": "2021-07-02"
+  },
+  {
+    "title": "Historical dataviz recreations with a sprinkle of magick",
+    "reporter": "Matt Dray",
+    "tags": "magick",
+    "resource": "[magick](https://docs.ropensci.org/magick)",
+    "url": "https://discuss.ropensci.org/t/historical-dataviz-recreations-with-a-sprinkle-of-magick/2538",
+    "image": "historical-dataviz-recreations-with-a-sprinkle-of-magick.gif",
+    "date": "2021-07-04"
+  },
+  {
+    "title": "pdftools + tesseract para extraer texto en español",
+    "reporter": "Silvia Gutiérrez",
+    "tags": ["pdftools", "tesseract", "spanish"],
+    "resource": "pdftoolstesseract",
+    "url": "https://discuss.ropensci.org/t/pdftools-tesseract-para-extraer-texto-en-espanol/2544",
+    "image": "noimage",
+    "date": "2021-07-15"
+  },
+  {
+    "title": "pdftools + map to download & read multiple pdfs",
+    "reporter": "Silvia Gutiérrez",
+    "tags": ["pdftools", "purrr"],
+    "resource": "[pdftools](https://docs.ropensci.org/pdftools)",
+    "url": "https://discuss.ropensci.org/t/pdftools-map-to-download-read-multiple-pdfs/2545",
+    "image": "noimage",
+    "date": "2021-07-15"
   }
 ]
