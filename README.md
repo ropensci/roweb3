@@ -205,6 +205,7 @@ Note that main.min.css that contains all the CSS is stored under themes/ropensci
 
 ### Newsletter
 
+* CHECK THE FONT!!! (see note in SendGrid instructions)
 * Check the number of subscribers in Sendgrid doesn't go over what our current plan allows.
 * Start a new post with the newsletter archetype, use the same title "Latest rOpenSci News Digest" and slug "ropensci-news" and tag "newsletter".
 * **Make sure you have all dependencies from roweb3 DESCRIPTION.**
