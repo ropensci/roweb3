@@ -1,28 +1,26 @@
 ---
-title: rOpenSci Introduces Monthly Social Co-Working Events
+title: rOpenSci Introduces Monthly Social Coworking Sessions
 author:
   - Steffi LaZerte
   - Stefanie Butland
   - Nicholas Tierney
 date: '2021-08-17'
-slug: co-working-sessions
+slug: coworking-sessions
 categories: []
 tags:
-  - co-working
+  - coworking
   - labelathon
   - events
 description: A very short summary of your post (~ 100 characters)
-twitterImg: blog/2019/06/04/post-template/name-of-image.png
-twitterAlt: Alternative description of the image
-tweet: A post about blabla by @username!
+tweet: rOpenSci introduces monthly social coworking sessions by @steffilazerte!
 output:
   html_document:
     keep_md: yes
 ---
 
-We're excited to announce that as a result of our [Label-athon experiments](/events/labelathon02/), we'll be hosting monthly social co-working sessions via Zoom, starting September 2021!
+We're excited to announce that as a result of our [Label-athon experiments](/events/labelathon02/), we'll be hosting monthly social coworking sessions via Zoom, starting September 2021!
 
-Co-working is a great way to be productive and reduce feelings of social isolation (especially important over the last year)!
+Coworking is a great way to be productive and reduce feelings of social isolation (especially important over the last year)!
 
 These sessions will give you the opportunity to 
 
