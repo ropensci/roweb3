@@ -42,7 +42,7 @@ We'll be following the format we developed during our experimental label-athons:
     - Mix and match as you like
     - 'Noisy' room is for discussing problems, asking questions, and chatting 
 3. We have 5-min breaks with fun scavenger hunts to get you up and moving
-4. Repeat! We'll do a total of 3x 30min co-working blocks each separated by a 5-min break
+4. Repeat! We'll do a total of 3x 30min work blocks each separated by a 5-min break
 5. Wrap up, a chance to share what we did and say good bye
 
 
