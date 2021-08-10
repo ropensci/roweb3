@@ -62,3 +62,17 @@ We set up a work-flow to identify rOpenSci packages with issues labelled "help w
 
 We had quite an international turn out, with 3-8 participants per event from 12 countries. 
 Feedback was overwhelmingly positive, with participants enjoying the opportunity to work on neglected projects, ask questions about package development, meet other devs and participate in the fun scavenger hunts 😸
+
+These were a few of their favorite things:
+
+> The vibe. Welcoming, friendly, and down-to-business.
+
+> It was nice to be accountable and have friends around...
+
+> Have some feedback from like minded technical people
+
+> [The organizers] “...did a *great* job creating a welcoming environment and helping normalize that non-coding work, like documentation, is a valuable part of software development.
+
+> Hearing what other people were working on. Being able to ask questions. A sense of community.
+
+Come join us!
