@@ -46,7 +46,7 @@ We'll be following the format we developed during our experimental label-athons:
 5. Wrap up, a chance to share what we did and say good bye
 
 
-## Label-athon experiments
+## Building on our successful Label-athon experiment
 
 In case you missed it, as a follow up to the community call [Set Up Your Package to Foster a Community](commcalls/apr2021-pkg-community/), 
 this past spring and summer we experimented with hosting four co-working 
