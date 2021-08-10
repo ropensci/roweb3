@@ -28,7 +28,7 @@ These sessions will give you the opportunity to
 - Co-work independently on work related to R (and perhaps focus on work that often gets neglected)
 - Get answers to your questions
 
-We plan to host sessions on the first Tuesday of the month, alternating times to accommodate different parts of the world.
+We will host sessions on the first Tuesday of the month, alternating times to accommodate different parts of the world.
 
 Our first two co-working sessions will take place **[Tuesday September 7th 2021 9-11am Pacific](/events/coworking-2021-09/)** and **[Tuesday October 5th 2021 9-11am Australian Western]**
 
