@@ -49,7 +49,7 @@ We'll be following the format we developed during our experimental label-athons:
 ## Building on our successful Label-athon experiment
 
 In case you missed it, as a follow up to the community call [Set Up Your Package to Foster a Community](commcalls/apr2021-pkg-community/), 
-this past spring and summer we experimented with hosting four co-working 
+this past spring and summer we experimented with hosting four coworking 
 [label-athon events](/events/labelathon02/) on Zoom. 
 
 During these events, participants introduced themselves and shared what they wanted to work on. 
