@@ -31,7 +31,7 @@ These sessions will give you the opportunity to
 We will host sessions on the first Tuesday of the month, alternating times to accommodate different parts of the world. 
 Come for the full 2 hrs or only as long as you need!
 
-Our first two co-working sessions will take place **[Tuesday September 7th 2021 9-11am Pacific](/events/coworking-2021-09/)** and **[Tuesday October 5th 2021 9-11am Australian Western](/events/coworking-2021-10/)**
+Our first two coworking sessions will take place **[Tuesday September 7th 2021 9-11am Pacific](/events/coworking-2021-09/)** and **[Tuesday October 5th 2021 9-11am Australian Western](/events/coworking-2021-10/)**
 
 ## Format
 
