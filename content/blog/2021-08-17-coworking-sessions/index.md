@@ -18,7 +18,7 @@ output:
     keep_md: yes
 ---
 
-We're excited to announce that as a result of our [Label-athon experiments](/events/labelathon02/), we'll be hosting monthly social coworking sessions via Zoom, starting September 2021!
+We're excited to announce that we'll be hosting monthly social coworking + office hours sessions via Zoom, starting September 7th!
 
 Coworking is a great way to be productive and reduce feelings of social isolation (especially important over the last year)!
 
