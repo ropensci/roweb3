@@ -58,7 +58,7 @@ We had two Zoom rooms, a quiet work room and a 'noisy' chat room, where we could
 In line with the theme of the community call, we encouraged participants to work on making their packages more contributor friendly, such as labelling issues to invite contributions, or creating road maps. 
 However, this wasn't a requirement for participation and many people worked on other things such as general package development and organization, research and planning for future development, setting up personal GitHub READMEs and preparing useR! 2021 presentations. 
 
-We set up a work-flow to identify rOpenSci packages with issues labelled "help wanted", so we can tweet anything that came out of the co-working events. 
+We set up a work-flow to identify rOpenSci packages with issues labelled "help wanted", so we can tweet anything that came out of the coworking events. 
 
 We had quite an international turn out, with 3-8 participants per event from 12 countries. 
 Feedback was overwhelmingly positive, with participants enjoying the opportunity to work on neglected projects, ask questions about package development, meet other devs and participate in the fun scavenger hunts 😸
