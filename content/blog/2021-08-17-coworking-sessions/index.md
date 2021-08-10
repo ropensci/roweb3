@@ -38,7 +38,7 @@ Our first two coworking sessions will take place **[Tuesday September 7th 2021 9
 We'll be following the format we developed during our experimental label-athons: 
 
 1. We start with introductions, giving everyone a chance to socialize and network before getting down to business
-2. We co-work for 30min either in a Quiet or Noisy room
+2. We work for 30min either in a Quiet or Noisy room
     - Mix and match as you like
     - 'Noisy' room is for discussing problems, asking questions, and chatting 
 3. We have 5-min breaks with fun scavenger hunts to get you up and moving
