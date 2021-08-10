@@ -11,8 +11,8 @@ tags:
   - coworking
   - labelathon
   - events
-description: A very short summary of your post (~ 100 characters)
-tweet: rOpenSci introduces monthly social coworking sessions by @steffilazerte!
+description: Work, meet other developers, get your questions answered, and/or socialize!
+tweet: rOpenSci introduces monthly social coworking sessions by @steffilazerte, @StefanieButland, and @nj_tierney!
 output:
   html_document:
     keep_md: yes
@@ -25,23 +25,24 @@ Coworking is a great way to be productive and reduce feelings of social isolatio
 These sessions will give you the opportunity to 
 
 - Meet other package developers and rOpenSci staff
-- Co-work independently on work related to R (and perhaps focus on work that often gets neglected)
+- Cowork independently on work related to R (and perhaps focus on work that often gets neglected)
 - Get answers to your questions
 
-We will host sessions on the first Tuesday of the month, alternating times to accommodate different parts of the world.
+We will host sessions on the first Tuesday of the month, alternating times to accommodate different parts of the world. 
+Come for the full 2 hrs or only as long as you need to ask your questions!
 
-Our first two co-working sessions will take place **[Tuesday September 7th 2021 9-11am Pacific](/events/coworking-2021-09/)** and **[Tuesday October 5th 2021 9-11am Australian Western]**
+Our first two co-working sessions will take place **[Tuesday September 7th 2021 9-11am Pacific](/events/coworking-2021-09/)** and **[Tuesday October 5th 2021 9-11am Australian Western](/events/coworking-2021-10/)**
 
 ## Format
 
 We'll be following the format we developed during our experimental label-athons: 
 
 1. We start with introductions, giving everyone a chance to socialize and network before getting down to business
-2. We co-work for 25min either in a Quiet or Noisy room
+2. We co-work for 30min either in a Quiet or Noisy room
     - Mix and match as you like
     - 'Noisy' room is for discussing problems, asking questions, and chatting 
 3. We have 5-min breaks with fun scavenger hunts to get you up and moving
-4. Repeat! We'll do a total of 3x 25min co-working blocks each separated by a 5-min break
+4. Repeat! We'll do a total of 3x 30min co-working blocks each separated by a 5-min break
 5. Wrap up, a chance to share what we did and say good bye
 
 
