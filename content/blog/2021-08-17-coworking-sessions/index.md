@@ -39,7 +39,7 @@ We'll be following the format we developed during our experimental label-athons:
 1. We start with introductions, giving everyone a chance to socialize and network before getting down to business
 2. We co-work for 25min either in a Quiet or Noisy room
     - Mix and match as you like
-    - 'Noisy' room is for chatting, socializing, discussing problems and asking questions
+    - 'Noisy' room is for discussing problems, asking questions, and chatting 
 3. We have 5-min breaks with fun scavenger hunts to get you up and moving
 4. Repeat! We'll do a total of 3x 25min co-working blocks each separated by a 5-min break
 5. Wrap up, a chance to share what we did and say good bye
