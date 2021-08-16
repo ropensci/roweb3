@@ -99,7 +99,7 @@
     {{ $js := resources.Get "common.min.js" }}
 {{ $secureJS := $js | resources.Fingerprint "sha512" }}
 {{ if and (eq .Kind "page") (eq .Type "packages") }}
-<script src="https://unpkg.com/lunr/lunr.js"></script>    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
     {{ $pkgjs := resources.Get "pagination.min.js" }}
 {{ $securePKGJS := $pkgjs | resources.Fingerprint "sha512" }}
 <script type="text/javascript" src="{{ $securePKGJS.Permalink }}" integrity="{{ $securePKGJS.Data.Integrity }}"></script>
