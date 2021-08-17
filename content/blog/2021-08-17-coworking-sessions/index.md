@@ -70,12 +70,8 @@ These were a few of their favorite things:
 - _"[The organizers] “...did a *great* job creating a welcoming environment and helping normalize that non-coding work, like documentation, is a valuable part of software development."_
 - _"Hearing what other people were working on. Being able to ask questions. A sense of community."_
 
-> It was nice to be accountable and have friends around...
 
-> Have some feedback from like minded technical people
 
-> [The organizers] “...did a *great* job creating a welcoming environment and helping normalize that non-coding work, like documentation, is a valuable part of software development.
 
-> Hearing what other people were working on. Being able to ask questions. A sense of community.
 
 Come join us!
