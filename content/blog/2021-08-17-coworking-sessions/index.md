@@ -7,6 +7,7 @@ author:
 date: '2021-08-17'
 slug: coworking-sessions
 categories: []
+featured: true
 tags:
   - coworking
   - labelathon
