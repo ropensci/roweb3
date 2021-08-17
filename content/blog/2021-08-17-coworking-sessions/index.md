@@ -28,10 +28,10 @@ These sessions will give you the opportunity to
 - Cowork independently on work related to R (and perhaps focus on work that often gets neglected)
 - Get answers to your questions
 
-We will host sessions on the first Tuesday of the month, alternating times to accommodate different parts of the world. 
+We will host sessions on the first Tuesday of each month, alternating times to accommodate different parts of the world. 
 Come for the full 2 hrs or only as long as you need!
 
-Our first two coworking sessions will take place **[Tuesday September 7th 2021 9-11am Pacific](/events/coworking-2021-09/)** and **[Tuesday October 5th 2021 9-11am Australian Western](/events/coworking-2021-10/)**
+Our first two sessions take place **[Tuesday September 7th 2021 9-11am Pacific](/events/coworking-2021-09/)** hosted by [Steffi LaZerte](/author/steffi-lazerte/) and **[Tuesday October 5th 2021 9-11am Australian Western](/events/coworking-2021-10/)** hosted by [Nick Tierney](/author/nicholas-tierney/).
 
 ## Format
 
@@ -48,7 +48,7 @@ We'll be following the format we developed during our experimental label-athons:
 
 ## Building on our successful Label-athon experiment
 
-In case you missed it, as a follow up to the community call [Set Up Your Package to Foster a Community](commcalls/apr2021-pkg-community/), 
+In case you missed it, as a follow up to the community call [Set Up Your Package to Foster a Community](/blog/2021/04/28/commcall-pkg-community/), 
 this past spring and summer we experimented with hosting four coworking 
 [label-athon events](/events/labelathon02/) on Zoom. 
 
@@ -58,14 +58,17 @@ We had two Zoom rooms, a quiet work room and a 'noisy' chat room, where we could
 In line with the theme of the community call, we encouraged participants to work on making their packages more contributor friendly, such as labelling issues to invite contributions, or creating road maps. 
 However, this wasn't a requirement for participation and many people worked on other things such as general package development and organization, research and planning for future development, setting up personal GitHub READMEs and preparing useR! 2021 presentations. 
 
-We set up a work-flow to identify rOpenSci packages with issues labelled "help wanted", so we can tweet anything that came out of the coworking events. 
+We set up a work-flow to identify rOpenSci packages with [issues labelled "help wanted"](https://github.com/search?q=org%3Aropensci+label%3A%22help+wanted%22+state%3Aopen&type=Issues), so we can tweet anything that came out of the coworking events. 
 
 We had quite an international turn out, with 3-8 participants per event from 12 countries. 
 Feedback was overwhelmingly positive, with participants enjoying the opportunity to work on neglected projects, ask questions about package development, meet other devs and participate in the fun scavenger hunts 😸
 
 These were a few of their favorite things:
 
-> The vibe. Welcoming, friendly, and down-to-business.
+- _"The vibe. Welcoming, friendly, and down-to-business."_
+- _"It was nice to be accountable and have friends around ..."_
+- _"[The organizers] “...did a *great* job creating a welcoming environment and helping normalize that non-coding work, like documentation, is a valuable part of software development."_
+- _"Hearing what other people were working on. Being able to ask questions. A sense of community."_
 
 > It was nice to be accountable and have friends around...
 
