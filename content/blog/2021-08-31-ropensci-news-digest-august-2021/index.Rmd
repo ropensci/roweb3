@@ -45,10 +45,23 @@ Recordings of useR! 2021 are now available on the conference website.
 
 You can watch contributions by rOpenSci staff:
 
-* [Jeroen Ooms' keynote about the R-universe project](https://rstudio.com/resources/rstudioglobal-2021/monitoring-health-and-impact-of-open-source-projects/) ([slidedeck](https://jeroen.github.io/user2021/#1))
+* Jeroen Ooms' keynote talk about the [**R-universe project**](https://rstudio.com/resources/rstudioglobal-2021/monitoring-health-and-impact-of-open-source-projects/) ([slidedeck](https://jeroen.github.io/user2021/#1)).
 
+* Stefanie Butland's talk [**rOpenSci's Model for Managing a Federated Open Source Software Community**](https://youtu.be/2B7H8WJOX40?t=1048) ([slidedeck](https://docs.google.com/presentation/d/1W4DepLd6FvunkGsTloyn-be_X5jI7dS-gAVtpsJb6iM)).
 
-And you can also discover contributions by community members about rOpenSci packages and peer review
+* Mark Padgham's talk on [**autotest**, a package for automatic testing of packages](https://youtu.be/-PsaqMWfUIg?t=28).
+
+* Maëlle Salmon's tutorial [**GET better at testing your R package!**](https://www.youtube.com/watch?v=tzQGg1kAzGs) ([materials](https://http-testing-r.netlify.app/)).
+
+And you can also discover contributions by community members about rOpenSci packages and peer review:
+
+* Andrea Gilardi's talk [**osmextract: An R package to download, convert, and import large OpenStreetMap datasets**](https://youtu.be/8PMF7cBBH7k?t=3664) (rOpenSci-reviewed [osmextract package](https://docs.ropensci.org/osmextract)).
+
+* Michael Mahoney's talk [**Virtual Environments: Using R as a Frontend for 3D Rendering of Digital Landscapes**](https://youtu.be/tbt8ZsHm5eA?t=2235) (rOpenSci-reviewed [terrainr package](https://docs.ropensci.org/terrainr/)).
+
+* Lluís Revilla Sancho's talk [**Packages submission and reviews; how does it work?**](https://youtu.be/2B7H8WJOX40?t=3352).
+
+* Daniel Vartanian's talk [**mctq: An R Package for the Munich ChronoType Questionnaire**]() ([mctq package](https://github.com/gipsousp/mctq) currently [under review](https://github.com/ropensci/software-review/issues/434)). NO LINK AS OF NOW
 
 Thanks to the volunteers team behind useR! 2021 for their work before, during and after the conference!
 
@@ -56,7 +69,7 @@ Thanks to the volunteers team behind useR! 2021 for their work before, during an
 
 We're excited to announce that we'll be hosting monthly social coworking + office hours sessions via Zoom, starting September 7th!
 Coworking is a great way to be productive and reduce feelings of social isolation (especially important over the last year)!
-Our first two sessions take place **[Tuesday September 7th 2021 9-11am Pacific](/events/coworking-2021-09/)** hosted by [Steffi LaZerte](/author/steffi-lazerte/) and **[Tuesday October 5th 2021 9-11am Australian Western](/events/coworking-2021-10/)** hosted by [Nick Tierney](/author/nicholas-tierney/).
+Our first two sessions take place **[Tuesday September 7th 2021 9-11am American Pacific](/events/coworking-2021-09/)** hosted by [Steffi LaZerte](/author/steffi-lazerte/) and **[Tuesday October 5th 2021 9-11am Australian Western](/events/coworking-2021-10/)** hosted by [Nick Tierney](/author/nicholas-tierney/).
 Find more details in our [blog post](/blog/2021/08/17/coworking-sessions/).
 
 ## Software :package:
@@ -541,6 +554,15 @@ As the maintainer of an rOpenSci package, feel free to contact us on Slack or em
 ## Package development corner
 
 Some useful tips for R package developers. :eyes:
+
+Do you maintain an R package on CRAN that has some tricky tests e.g. accessing a web API?
+With the tools presented in [the online book "HTTP testing in R"`](https://books.ropensci.org/http-testing/) you can build some more robustness in your tests by e.g. using cached API responses instead of hitting the actual web service.
+However, bad things can still happen on CRAN therefore a whole chapter is dedicated to [CRAN preparedness](https://books.ropensci.org/http-testing/cran-preparedness.html), with the suggestion to skip a few tests or even all of them... as long as you are running them regularly yourself on some CI service.
+
+Have you ever gotten the R CMD check NOTE "Namespace in Imports field not imported from" on some CRAN check platform for instance?
+It might indicate you forgot to remove a dependency from DESCRIPTION after ditching it from actual code... or that you are using it at the top-level rather than in the body of a function, which is where that check looks for usage!
+E.g. if you use [memoise](https://memoise.r-lib.org/) to create a memoised version of a function `m_bla <- function() memoise::memoise(bla)`, you will have to add an explicit import statement e.g. `#' @importFrom memoise memoise` with roxygen2.
+Thanks to rOpenSci Mark Padgham, and to Jim Hester for chiming in [rOpenSci semi-open slack](https://contributing.ropensci.org/resources.html#channels).
 
 <!-- To be curated by hand -->
 
