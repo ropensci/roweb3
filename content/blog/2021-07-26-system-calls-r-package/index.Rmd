@@ -111,6 +111,7 @@ https://twitter.com/GaborCsardi/status/1248893871758757893
 
 What does sanitizing mean, examples.
 
+Maybe mention https://xkcd.com/327/
 ## sys vs processx
 
 https://github.com/jeroen/sys "Drop-in replacements for the base system2() function with fine control and consistent behavior across platforms. Supports clean interruption, timeout, background tasks, and streaming STDIN / STDOUT / STDERR over binary or text connections. Arguments on Windows automatically get encoded and quoted to work on different locales."
