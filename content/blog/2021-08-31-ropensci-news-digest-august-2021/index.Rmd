@@ -65,6 +65,9 @@ And you can also discover contributions by community members about rOpenSci pack
 
 Thanks to the volunteers team behind useR! 2021 for their work before, during and after the conference!
 
+
+### Recordings of BIRD TALKS BLURB BY STEFFI
+
 ### Social coworking!
 
 We're excited to announce that we'll be hosting monthly social coworking + office hours sessions via Zoom, starting September 7th!
