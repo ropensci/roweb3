@@ -45,7 +45,7 @@ Recordings of useR! 2021 are now available on the conference website.
 
 You can watch contributions by rOpenSci staff:
 
-* Jeroen Ooms' keynote talk about the [**R-universe project**](https://rstudio.com/resources/rstudioglobal-2021/monitoring-health-and-impact-of-open-source-projects/) ([slidedeck](https://jeroen.github.io/user2021/#1)).
+* Jeroen Ooms' keynote talk about the [**R-universe project**](https://www.youtube.com/watch?v=8cv2qsZ_xZw&list=PL4IzsxWztPdmHoJwIVa4um44w2GMjctmP&index=8) ([slidedeck](https://jeroen.github.io/user2021/#1)).
 
 * Stefanie Butland's talk [**rOpenSci's Model for Managing a Federated Open Source Software Community**](https://youtu.be/2B7H8WJOX40?t=1048) ([slidedeck](https://docs.google.com/presentation/d/1W4DepLd6FvunkGsTloyn-be_X5jI7dS-gAVtpsJb6iM)).
 
@@ -59,7 +59,7 @@ And you can also discover contributions by community members about rOpenSci pack
 
 * Michael Mahoney's talk [**Virtual Environments: Using R as a Frontend for 3D Rendering of Digital Landscapes**](https://youtu.be/tbt8ZsHm5eA?t=2235) (rOpenSci-reviewed [terrainr package](https://docs.ropensci.org/terrainr/)).
 
-* Lluís Revilla Sancho's talk [**Packages submission and reviews; how does it work?**](https://youtu.be/2B7H8WJOX40?t=3352).
+* Lluís Revilla Sancho's talk [**Packages submission and reviews; how does it work?**](https://youtu.be/2B7H8WJOX40?t=3352)
 
 * Daniel Vartanian's talk [**mctq: An R Package for the Munich ChronoType Questionnaire**]() ([mctq package](https://github.com/gipsousp/mctq) currently [under review](https://github.com/ropensci/software-review/issues/434)). NO LINK AS OF NOW
 
@@ -442,7 +442,7 @@ format_post <- function(post) {
     )
   string <- sprintf("* [%s](%s) by %s", post$title, url, post$author)
   if (post$description != "") {
-    string <- paste0(string, ". ", sub("\\?$", "", sub("\\!$", "", sub("\\.$", "", post$description), ".")), ".")
+    string <- paste0(string, ". ", sub("\\?$", "", sub("\\!$", "", sub("\\.$", "", stringr::str_squish(post$description), "."))), ".")
   } else {
     string <- paste0(string, ".")  
   }
@@ -476,7 +476,7 @@ if (length(software_review) > 0) {
 
 others <- posts[purrr::map_lgl(posts, "other")]
 if (length(others) > 0) {
-  cat("### Other topics\n\n")
+  if (length(others) != length(posts)) cat("### Other topics\n\n")
   cat(
     paste0(
       purrr::map_chr(others, format_post),
@@ -561,7 +561,7 @@ However, bad things can still happen on CRAN therefore a whole chapter is dedica
 
 Have you ever gotten the R CMD check NOTE "Namespace in Imports field not imported from" on some CRAN check platform for instance?
 It might indicate you forgot to remove a dependency from DESCRIPTION after ditching it from actual code... or that you are using it at the top-level rather than in the body of a function, which is where that check looks for usage!
-E.g. if you use [memoise](https://memoise.r-lib.org/) to create a memoised version of a function `m_bla <- function() memoise::memoise(bla)`, you will have to add an explicit import statement e.g. `#' @importFrom memoise memoise` with roxygen2.
+E.g. if you use [memoise](https://memoise.r-lib.org/) to create a memoised version of a function `m_bla <- memoise::memoise(bla)`, you will have to add an explicit import statement e.g. `#' @importFrom memoise memoise` with roxygen2.
 Thanks to rOpenSci Mark Padgham, and to Jim Hester for chiming in [rOpenSci semi-open slack](https://contributing.ropensci.org/resources.html#channels).
 
 <!-- To be curated by hand -->

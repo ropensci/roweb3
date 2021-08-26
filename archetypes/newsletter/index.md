@@ -447,7 +447,7 @@ if (length(software_review) > 0) {
 
 others <- posts[purrr::map_lgl(posts, "other")]
 if (length(others) > 0) {
-  cat("### Other topics\n\n")
+  if (length(others) != length(posts)) cat("### Other topics\n\n")
   cat(
     paste0(
       purrr::map_chr(others, format_post),

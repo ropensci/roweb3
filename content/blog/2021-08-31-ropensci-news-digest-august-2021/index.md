@@ -30,7 +30,7 @@ Recordings of useR! 2021 are now available on the conference website.
 
 You can watch contributions by rOpenSci staff:
 
-* Jeroen Ooms' keynote talk about the [**R-universe project**](https://rstudio.com/resources/rstudioglobal-2021/monitoring-health-and-impact-of-open-source-projects/) ([slidedeck](https://jeroen.github.io/user2021/#1)).
+* Jeroen Ooms' keynote talk about the [**R-universe project**](https://www.youtube.com/watch?v=8cv2qsZ_xZw&list=PL4IzsxWztPdmHoJwIVa4um44w2GMjctmP&index=8) ([slidedeck](https://jeroen.github.io/user2021/#1)).
 
 * Stefanie Butland's talk [**rOpenSci's Model for Managing a Federated Open Source Software Community**](https://youtu.be/2B7H8WJOX40?t=1048) ([slidedeck](https://docs.google.com/presentation/d/1W4DepLd6FvunkGsTloyn-be_X5jI7dS-gAVtpsJb6iM)).
 
@@ -44,7 +44,7 @@ And you can also discover contributions by community members about rOpenSci pack
 
 * Michael Mahoney's talk [**Virtual Environments: Using R as a Frontend for 3D Rendering of Digital Landscapes**](https://youtu.be/tbt8ZsHm5eA?t=2235) (rOpenSci-reviewed [terrainr package](https://docs.ropensci.org/terrainr/)).
 
-* Lluís Revilla Sancho's talk [**Packages submission and reviews; how does it work?**](https://youtu.be/2B7H8WJOX40?t=3352).
+* Lluís Revilla Sancho's talk [**Packages submission and reviews; how does it work?**](https://youtu.be/2B7H8WJOX40?t=3352)
 
 * Daniel Vartanian's talk [**mctq: An R Package for the Munich ChronoType Questionnaire**]() ([mctq package](https://github.com/gipsousp/mctq) currently [under review](https://github.com/ropensci/software-review/issues/434)). NO LINK AS OF NOW
 
@@ -54,7 +54,7 @@ Thanks to the volunteers team behind useR! 2021 for their work before, during an
 
 We're excited to announce that we'll be hosting monthly social coworking + office hours sessions via Zoom, starting September 7th!
 Coworking is a great way to be productive and reduce feelings of social isolation (especially important over the last year)!
-Our first two sessions take place **[Tuesday September 7th 2021 9-11am Pacific](/events/coworking-2021-09/)** hosted by [Steffi LaZerte](/author/steffi-lazerte/) and **[Tuesday October 5th 2021 9-11am Australian Western](/events/coworking-2021-10/)** hosted by [Nick Tierney](/author/nicholas-tierney/).
+Our first two sessions take place **[Tuesday September 7th 2021 9-11am American Pacific](/events/coworking-2021-09/)** hosted by [Steffi LaZerte](/author/steffi-lazerte/) and **[Tuesday October 5th 2021 9-11am Australian Western](/events/coworking-2021-10/)** hosted by [Nick Tierney](/author/nicholas-tierney/).
 Find more details in our [blog post](/blog/2021/08/17/coworking-sessions/).
 
 ## Software :package:
@@ -79,15 +79,13 @@ The following sixteen packages have had an update since the latest newsletter: [
 
 ## Software Peer Review
 
-There are twelve recently closed and active submissions and 5 submissions on hold. Issues are at different stages: 
+There are twelve recently closed and active submissions and 6 submissions on hold. Issues are at different stages: 
 
-* Six at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
+* Five at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
 
      * [rsat](https://github.com/ropensci/software-review/issues/437), Tools for Downloading, Customizing, and Processing Time Series of Satellite Images from Landsat, MODIS, and Sentinel. Submitted by [Unai Pérez-Goya](https://unai-perez.github.io/).
 
     * [gendercoder](https://github.com/ropensci/software-review/issues/435), Recodes Sex/Gender Descriptions Into A Standard Set. Submitted by [Emily Kothe](http://emilykothe.com).
-
-    * [mctq](https://github.com/ropensci/software-review/issues/434), An R Package for the Munich ChronoType Questionnaire. Submitted by [Daniel Vartanian](https://orcid.org/0000-0001-7782-759X).
 
     * [slopes](https://github.com/ropensci/software-review/issues/420), Calculate Slopes of Roads, Rivers and Trajectories. Submitted by [RFlx](http://www.rosafelix.bike).
 
@@ -109,9 +107,11 @@ There are twelve recently closed and active submissions and 5 submissions on hol
 
      * [excluder](https://github.com/ropensci/software-review/issues/455), Checks for Exclusion Criteria in Online Data. Submitted by [Jeffrey Stevens](https://decisionslab.unl.edu/).
 
-* One at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
+* Two at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
 
-     * [rdbhapi](https://github.com/ropensci/software-review/issues/443), Interface to DBH-API. Submitted by [Marija Ninic](https://hkdir.no/).
+     * [phruta](https://github.com/ropensci/software-review/issues/458), Phylogenetic Reconstruction and Time-dating. Submitted by [Cristian Román-Palacios](http://cromanpa94.github.io/cromanpa/).
+
+    * [rdbhapi](https://github.com/ropensci/software-review/issues/443), Interface to DBH-API. Submitted by [Marija Ninic](https://hkdir.no/).
 
 Find out more about [Software Peer Review](/software-review) and how to get involved.
 
@@ -121,13 +121,9 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 
 
-### Other topics
-
 * [The Story Behind censo2017, the First rOpenSci Package to be Reviewed in Spanish](/blog/2021/07/27/censo2017) by Pachá (aka Mauricio Vargas Sepúlveda). Chilean census tables at a glance.
-.
 
 * [La Historia de censo2017, el Primer Paquete de rOpenSci Revisado en Español](/blog/2021/07/27/censo2017-es) by Pachá (aka Mauricio Vargas Sepúlveda). Las tablas del Censo de Chile al instante.
-.
 
 * [rOpenSci Introduces Monthly Social Coworking and Office Hours](/blog/2021/08/17/coworking-sessions) by Steffi LaZerte, Stefanie Butland, Nicholas Tierney. Work, meet other developers, get your questions answered, and/or socialize.
 
@@ -171,7 +167,7 @@ However, bad things can still happen on CRAN therefore a whole chapter is dedica
 
 Have you ever gotten the R CMD check NOTE "Namespace in Imports field not imported from" on some CRAN check platform for instance?
 It might indicate you forgot to remove a dependency from DESCRIPTION after ditching it from actual code... or that you are using it at the top-level rather than in the body of a function, which is where that check looks for usage!
-E.g. if you use [memoise](https://memoise.r-lib.org/) to create a memoised version of a function `m_bla <- function() memoise::memoise(bla)`, you will have to add an explicit import statement e.g. `#' @importFrom memoise memoise` with roxygen2.
+E.g. if you use [memoise](https://memoise.r-lib.org/) to create a memoised version of a function `m_bla <- memoise::memoise(bla)`, you will have to add an explicit import statement e.g. `#' @importFrom memoise memoise` with roxygen2.
 Thanks to rOpenSci Mark Padgham, and to Jim Hester for chiming in [rOpenSci semi-open slack](https://contributing.ropensci.org/resources.html#channels).
 
 <!-- To be curated by hand -->
