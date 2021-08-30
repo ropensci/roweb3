@@ -54,7 +54,7 @@ rOpenSci staff presented at this year's joint meeting of the American Ornitholog
 
 - Steffi LaZerte's opening talk [**How can ornithologists find R packages?**](https://steffilazerte.ca/Presentations/2021-08%20AOS%7CSOC%20-%20R%20Symposium/AOS_SCO_2021_LaZerte.mp4) ([slidedeck](https://steffilazerte.ca/Presentations/2021-08%20AOS%7CSOC%20-%20R%20Symposium/AOS_SCO_2021_LaZerte.html#1));
 
-- Mark Padgham's talk [**osmdata: Roadless areas and avian diversity**](WAITING FOR LINK) ([source](https://github.com/mpadge/presentations/tree/main/2021/aos21)).
+- Mark Padgham's talk [**osmdata: Roadless areas and avian diversity**](https://github.com/mpadge/presentations/releases/download/aos21/padgham.mp4) ([source](https://github.com/mpadge/presentations/tree/main/2021/aos21)).
 
 ### Social coworking!
 
