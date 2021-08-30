@@ -8,6 +8,7 @@ version: 0.5
 slug: censo2017-es
 categories:
   - blog
+featured: true
 tags:
   - open-science
   - reproducible-research
