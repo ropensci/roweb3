@@ -6,7 +6,7 @@ date: '2021-08-31'
 slug: ropensci-news-digest-august-2021
 tags:
   - newsletter
-description: Social co-working, useR! recordings, new packages and package news
+description: Social co-working, useR! recordings, Great R packages for ornithologists, new packages and package news
 output:
   html_document:
     keep_md: yes
@@ -26,23 +26,23 @@ Now let's dive into the activity at and around rOpenSci!
 
 ### Recordings of useR! 2021
 
-Recordings of useR! 2021 are now available on the conference website.
+Recordings of useR! 2021 are now available on the [conference website](https://user2021.r-project.org/recordings/).
 
 You can watch contributions by rOpenSci staff:
 
-* Jeroen Ooms' keynote talk about the [**R-universe project**](https://www.youtube.com/watch?v=8cv2qsZ_xZw&list=PL4IzsxWztPdmHoJwIVa4um44w2GMjctmP&index=8) ([slidedeck](https://jeroen.github.io/user2021/#1)).
+* Jeroen Ooms' keynote talk about the [**R-universe project**](https://www.youtube.com/watch?v=8cv2qsZ_xZw&list=PL4IzsxWztPdmHoJwIVa4um44w2GMjctmP&index=8) ([slidedeck](https://jeroen.github.io/user2021/#1));
 
-* Stefanie Butland's talk [**rOpenSci's Model for Managing a Federated Open Source Software Community**](https://youtu.be/2B7H8WJOX40?t=1048) ([slidedeck](https://docs.google.com/presentation/d/1W4DepLd6FvunkGsTloyn-be_X5jI7dS-gAVtpsJb6iM)).
+* Stefanie Butland's talk [**rOpenSci's Model for Managing a Federated Open Source Software Community**](https://youtu.be/2B7H8WJOX40?t=1048) ([slidedeck](https://docs.google.com/presentation/d/1W4DepLd6FvunkGsTloyn-be_X5jI7dS-gAVtpsJb6iM));
 
-* Mark Padgham's talk on [**autotest**, a package for automatic testing of packages](https://youtu.be/-PsaqMWfUIg?t=28).
+* Mark Padgham's talk on [**autotest**, a package for automatic testing of packages](https://youtu.be/-PsaqMWfUIg?t=28);
 
 * Maëlle Salmon's tutorial [**GET better at testing your R package!**](https://www.youtube.com/watch?v=tzQGg1kAzGs) ([materials](https://http-testing-r.netlify.app/)).
 
 And you can also discover contributions by community members about rOpenSci packages and peer review:
 
-* Andrea Gilardi's talk [**osmextract: An R package to download, convert, and import large OpenStreetMap datasets**](https://youtu.be/8PMF7cBBH7k?t=3664) (rOpenSci-reviewed [osmextract package](https://docs.ropensci.org/osmextract)).
+* Andrea Gilardi's talk [**osmextract: An R package to download, convert, and import large OpenStreetMap datasets**](https://youtu.be/8PMF7cBBH7k?t=3664) (rOpenSci-reviewed [osmextract package](https://docs.ropensci.org/osmextract));
 
-* Michael Mahoney's talk [**Virtual Environments: Using R as a Frontend for 3D Rendering of Digital Landscapes**](https://youtu.be/tbt8ZsHm5eA?t=2235) (rOpenSci-reviewed [terrainr package](https://docs.ropensci.org/terrainr/)).
+* Michael Mahoney's talk [**Virtual Environments: Using R as a Frontend for 3D Rendering of Digital Landscapes**](https://youtu.be/tbt8ZsHm5eA?t=2235) (rOpenSci-reviewed [terrainr package](https://docs.ropensci.org/terrainr/));
 
 * Lluís Revilla Sancho's talk [**Packages submission and reviews; how does it work?**](https://youtu.be/2B7H8WJOX40?t=3352)
 
@@ -52,9 +52,9 @@ Thanks to the volunteers team behind useR! 2021 for their work before, during an
 
 rOpenSci staff presented at this year's joint meeting of the American Ornithological Society and the Society of Canadian Ornithologists / Société des ornithologistes du Canada in the lightning symposium "Great R packages for ornithologists" organized by Steffi LaZerte:
 
-- Steffi LaZerte's opening talk [**How can ornithologists find R packages?**](https://steffilazerte.ca/Presentations/2021-08%20AOS%7CSOC%20-%20R%20Symposium/AOS_SCO_2021_LaZerte.mp4)([slidedeck](https://steffilazerte.ca/Presentations/2021-08%20AOS%7CSOC%20-%20R%20Symposium/AOS_SCO_2021_LaZerte.html#1))
+- Steffi LaZerte's opening talk [**How can ornithologists find R packages?**](https://steffilazerte.ca/Presentations/2021-08%20AOS%7CSOC%20-%20R%20Symposium/AOS_SCO_2021_LaZerte.mp4) ([slidedeck](https://steffilazerte.ca/Presentations/2021-08%20AOS%7CSOC%20-%20R%20Symposium/AOS_SCO_2021_LaZerte.html#1));
 
-- Mark Padgham's talk [**osmdata: Roadless areas and avian diversity**](WAITING FOR LINK)([source](https://github.com/mpadge/presentations/tree/main/2021/aos21))
+- Mark Padgham's talk [**osmdata: Roadless areas and avian diversity**](WAITING FOR LINK) ([source](https://github.com/mpadge/presentations/tree/main/2021/aos21)).
 
 ### Social coworking!
 
