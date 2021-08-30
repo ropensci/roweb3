@@ -61,12 +61,15 @@ And you can also discover contributions by community members about rOpenSci pack
 
 * Lluís Revilla Sancho's talk [**Packages submission and reviews; how does it work?**](https://youtu.be/2B7H8WJOX40?t=3352)
 
-* Daniel Vartanian's talk [**mctq: An R Package for the Munich ChronoType Questionnaire**]() ([mctq package](https://github.com/gipsousp/mctq) currently [under review](https://github.com/ropensci/software-review/issues/434)). NO LINK AS OF NOW
-
 Thanks to the volunteers team behind useR! 2021 for their work before, during and after the conference!
 
+### Recordings of AOS/SCO-SOC 2021
 
-### Recordings of BIRD TALKS BLURB BY STEFFI
+rOpenSci staff presented at this year's joint meeting of the American Ornithological Society and the Society of Canadian Ornithologists / Société des ornithologistes du Canada in the lightning symposium "Great R packages for ornithologists" organized by Steffi LaZerte:
+
+- Steffi LaZerte's opening talk [**How can ornithologists find R packages?**](https://steffilazerte.ca/Presentations/2021-08%20AOS%7CSOC%20-%20R%20Symposium/AOS_SCO_2021_LaZerte.mp4)([slidedeck](https://steffilazerte.ca/Presentations/2021-08%20AOS%7CSOC%20-%20R%20Symposium/AOS_SCO_2021_LaZerte.html#1))
+
+- Mark Padgham's talk [**osmdata: Roadless areas and avian diversity**](WAITING FOR LINK)([source](https://github.com/mpadge/presentations/tree/main/2021/aos21))
 
 ### Social coworking!
 
@@ -546,13 +549,10 @@ Explore [other use cases](/usecases) and [report your own](https://discuss.ropen
 
 ## Call for maintainers
 
-<!--IF CALL
-* [our guidance on _Changing package maintainers_](https://devguide.ropensci.org/changing-maintainers.html)
-* [our _Package Curation Policy_](https://devguide.ropensci.org/curationpolicy.html)
-
-IF NO CALL
 There's no open call for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
-As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. -->
+
+As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter.
+
 
 ## Package development corner
 
