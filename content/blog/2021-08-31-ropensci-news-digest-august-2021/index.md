@@ -165,7 +165,7 @@ As the maintainer of an rOpenSci package, feel free to contact us on Slack or em
 Some useful tips for R package developers. :eyes:
 
 Do you maintain an R package on CRAN that has some tricky tests e.g. accessing a web API?
-With the tools presented in [the online book "HTTP testing in R"`](https://books.ropensci.org/http-testing/) you can build some more robustness in your tests by e.g. using cached API responses instead of hitting the actual web service.
+With the tools presented in [the online book "HTTP testing in R"](https://books.ropensci.org/http-testing/) you can build some more robustness in your tests by e.g. using cached API responses instead of hitting the actual web service.
 However, bad things can still happen on CRAN therefore a whole chapter is dedicated to [CRAN preparedness](https://books.ropensci.org/http-testing/cran-preparedness.html), with the suggestion to skip a few tests or even all of them... as long as you are running them regularly yourself on some CI service.
 
 Have you ever gotten the R CMD check NOTE "Namespace in Imports field not imported from" on some CRAN check platform for instance?
