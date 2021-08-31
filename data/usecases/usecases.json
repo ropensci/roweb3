@@ -817,5 +817,41 @@
     "url": "https://discuss.ropensci.org/t/pdftools-map-to-download-read-multiple-pdfs/2545",
     "image": "noimage",
     "date": "2021-07-15"
+  },
+  {
+    "title": "Investigating the drought in the Canadian prairies",
+    "reporter": "Alex Koiter",
+    "tags": "weathercan",
+    "resource": "[weathercan](https://docs.ropensci.org/weathercan)",
+    "url": "https://discuss.ropensci.org/t/investigating-the-drought-in-the-canadian-prairies/2556",
+    "image": "investigating-the-drought-in-the-canadian-prairies.png",
+    "date": "2021-07-26"
+  },
+  {
+    "title": "targets pipeline with RMarkdown to download and visualize USGS data",
+    "reporter": "Lindsay Platt",
+    "tags": "targets",
+    "resource": "[targets](https://docs.ropensci.org/targets)",
+    "url": "https://discuss.ropensci.org/t/targets-pipeline-with-rmarkdown-to-download-and-visualize-usgs-data/2559",
+    "image": "targets-pipeline-with-rmarkdown-to-download-and-visualize-usgs-data.png",
+    "date": "2021-07-26"
+  },
+  {
+    "title": "Answering 'what colour is London?' with magick and rtweet",
+    "reporter": "Matt Dray",
+    "tags": ["magick", "rtweet"],
+    "resource": "rtweet magick",
+    "url": "https://discuss.ropensci.org/t/answering-what-colour-is-london-with-magick-and-rtweet/2562",
+    "image": "answering-what-colour-is-london-with-magick-and-rtweet.jpeg",
+    "date": "2021-07-27"
+  },
+  {
+    "title": "Informal package review using rOpenSci review template",
+    "reporter": "Hugo Gruson",
+    "tags": ["software-peer-review", "dev-guide"],
+    "resource": "Review template from the package development guide",
+    "url": "https://discuss.ropensci.org/t/informal-package-review-using-ropensci-review-template/2570",
+    "image": "noimage",
+    "date": "2021-08-04"
   }
 ]
