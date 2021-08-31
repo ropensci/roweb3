@@ -6,7 +6,7 @@ date: '2021-08-31'
 slug: ropensci-news-digest-august-2021
 tags:
   - newsletter
-description: Social co-working, useR! recordings, Great R packages for ornithologists, new packages and package news
+description: Social co-working, useR! recordings, Great R packages for ornithologists, package news
 output:
   html_document:
     keep_md: yes
