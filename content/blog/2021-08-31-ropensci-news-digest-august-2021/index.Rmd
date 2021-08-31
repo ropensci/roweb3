@@ -65,7 +65,7 @@ Thanks to the volunteers team behind useR! 2021 for their work before, during an
 
 ### Recordings of AOS/SCO-SOC 2021
 
-rOpenSci staff presented at this year's joint meeting of the American Ornithological Society and the Society of Canadian Ornithologists / Société des ornithologistes du Canada in the lightning symposium "Great R packages for ornithologists" organized by Steffi LaZerte:
+rOpenSci staff presented at this year's joint meeting of the American Ornithological Society and the Society of Canadian Ornithologists / Société des ornithologistes du Canada in the lightning symposium ["Great R packages for ornithologists"](https://steffilazerte.ca/presentations.html#Great-R-packages-for-Ornithologists) organized by Steffi LaZerte:
 
 - Steffi LaZerte's opening talk [**How can ornithologists find R packages?**](https://steffilazerte.ca/Presentations/2021-08%20AOS%7CSOC%20-%20R%20Symposium/AOS_SCO_2021_LaZerte.mp4) ([slidedeck](https://steffilazerte.ca/Presentations/2021-08%20AOS%7CSOC%20-%20R%20Symposium/AOS_SCO_2021_LaZerte.html#1));
 

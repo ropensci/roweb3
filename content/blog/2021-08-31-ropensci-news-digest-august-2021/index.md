@@ -50,7 +50,7 @@ Thanks to the volunteers team behind useR! 2021 for their work before, during an
 
 ### Recordings of AOS/SCO-SOC 2021
 
-rOpenSci staff presented at this year's joint meeting of the American Ornithological Society and the Society of Canadian Ornithologists / Société des ornithologistes du Canada in the lightning symposium "Great R packages for ornithologists" organized by Steffi LaZerte:
+rOpenSci staff presented at this year's joint meeting of the American Ornithological Society and the Society of Canadian Ornithologists / Société des ornithologistes du Canada in the lightning symposium ["Great R packages for ornithologists"](https://steffilazerte.ca/presentations.html#Great-R-packages-for-Ornithologists) organized by Steffi LaZerte:
 
 - Steffi LaZerte's opening talk [**How can ornithologists find R packages?**](https://steffilazerte.ca/Presentations/2021-08%20AOS%7CSOC%20-%20R%20Symposium/AOS_SCO_2021_LaZerte.mp4) ([slidedeck](https://steffilazerte.ca/Presentations/2021-08%20AOS%7CSOC%20-%20R%20Symposium/AOS_SCO_2021_LaZerte.html#1));
 
@@ -99,19 +99,17 @@ There are twelve recently closed and active submissions and 6 submissions on hol
 
     * [chemspiderapi](https://github.com/ropensci/software-review/issues/329), R Wrapper for ChemSpider's API Services. Submitted by [Raoul Wolf](https://github.com/RaoulWolf).
 
-* Four at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
+* Five at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 
-     * [allodb](https://github.com/ropensci/software-review/issues/436), Tree Biomass Estimation at Extratropical Forest Plots. Submitted by [Erika Gonzalez-Akre](https://sites.google.com/site/forestecoclimlab/home).
+     * [excluder](https://github.com/ropensci/software-review/issues/455), Checks for Exclusion Criteria in Online Data. Submitted by [Jeffrey Stevens](https://decisionslab.unl.edu/).
+
+    * [allodb](https://github.com/ropensci/software-review/issues/436), Tree Biomass Estimation at Extratropical Forest Plots. Submitted by [Erika Gonzalez-Akre](https://sites.google.com/site/forestecoclimlab/home).
 
     * [ROriginStamp](https://github.com/ropensci/software-review/issues/433), Interface to OriginStamp API to Obtain Trusted Time Stamps. Submitted by [Rainer M Krug](https://github.com/rkrug).
 
     * [jagstargets](https://github.com/ropensci/software-review/issues/425), Targets for JAGS Workflows. Submitted by [Will Landau](https://wlandau.github.io).
 
     * [occCite](https://github.com/ropensci/software-review/issues/407), Querying and Managing Large Biodiversity Occurrence Datasets. Submitted by [Hannah Owens](http://hannahlowens.weebly.com/).
-
-* One at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
-
-     * [excluder](https://github.com/ropensci/software-review/issues/455), Checks for Exclusion Criteria in Online Data. Submitted by [Jeffrey Stevens](https://decisionslab.unl.edu/).
 
 * Two at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
 
