@@ -3,6 +3,7 @@ slug: runiverse-docs
 title: 'rOpenSci docs are now built on r-universe'
 date: '2021-09-03'
 author: Jeroen Ooms
+featured: true
 description: 'As of today, the pkgdown sites for all rOpenSci packages on our docs server are built on r-universe.'
 tags:
   - r-universe
