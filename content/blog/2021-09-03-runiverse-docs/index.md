@@ -37,7 +37,7 @@ Building pkgdown documentation is now just another step in the r-universe [workf
 
 After each build, the workflow sets the "commit status" (red/green check) in the package repository on the target commit. If the build failed, the 'details' link will directly take you to the build logs.
 
-![commit-status-screenshot](status2.png)
+![Screenshot of a GitHub repository after clicking on the green arrow next to the hash of the latest commit. This opened a small card with different checks including the docs building status.](status2.png)
 
 The [r-universe dashboard](https://ropensci.r-universe.dev/ui#builds) for also shows a new column called "docs" which indicates for all our packages if the pkgdown site was successfully built for the latest commit.
 
