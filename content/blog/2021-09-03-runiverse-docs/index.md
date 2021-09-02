@@ -23,11 +23,11 @@ __TLDR:__ As of today, the pkgdown sites for all rOpenSci packages on our [docs 
 
 ## From Jenkins to r-universe
 
-For the past 2 years we had been using a [Jenkins server](/blog/2019/06/07/ropensci-docs/) to automatically build the pkgdown sites for all rOpenSci packages, which get published on our docs server at https://docs.ropensci.org. By centralizing the docs, we ensure that documentation for all rOpenSci packages are always available from a consistent URL with our custom rOpenSci branding, and without maintenance work for our package maintainers.
+For the past 2 years we had been using a [Jenkins server](/blog/2019/06/07/ropensci-docs/) to automatically build the pkgdown sites for all rOpenSci packages, which get published on https://docs.ropensci.org. By centralizing this process, we ensure that up-to-date documentation for all rOpenSci packages is available from a consistent URL with our personal branding, and without maintenance work for our package maintainers.
 
 Jenkins has served us very well to get this off the ground, because it is highly configurable and makes it easy to manage continuous integration (CI) for hundreds of projects at once.
 
-However Jenkins takes quite some maintenance because it requires managing a private server, which needs configuration, backups, updates, etc. So we are happy to fold this task into [r-universe](https://ropensci.r-universe.dev/), such that the pkgdown sites for all rOpenSci packages are built together with the binary packages and articles, in single system that runs on GitHub public infrastructure. 
+However Jenkins took quite some maintenance because it requires managing a private server, which needs configuration, backups, updates, etc. So we are happy to fold this task into [r-universe](https://ropensci.r-universe.dev/), such that the pkgdown sites for all rOpenSci packages are now built together with the binary packages and articles, in single system that runs on GitHub public infrastructure. 
 
 ## How it works
 
@@ -45,7 +45,7 @@ The [r-universe dashboard](https://ropensci.r-universe.dev/ui#builds) for also s
 
 If your package documentation fails to build (which often indicates a bug in the vignettes) you can inspect the pkgdown build logs on GitHub. Navigate to the workflow output either through the dashboard or the red cross in the package commit status, and click on "build package documentation".
 
-[![failed-build-screenshot](fail.png)](https://github.com/r-universe/ropensci/runs/3477708871?check_suite_focus=true)
+[![Screenshot of a workflow that shows in red that the documentation has failed to build](fail.png)](https://github.com/r-universe/ropensci/runs/3477708871?check_suite_focus=true)
 
 If this does not reveal the problem, you can replicate the entire build locally using the same [docker image](https://github.com/r-universe-org/build-docs) as used by our workflow. The container takes only one argument: the git url of an R package repository. For example to build the pkgdown site for the [pdftools](https://docs.ropensci.org/pdftools) package:
 
