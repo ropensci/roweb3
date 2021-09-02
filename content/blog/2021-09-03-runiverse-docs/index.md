@@ -24,7 +24,7 @@ __TLDR:__ As of today, the pkgdown sites for all rOpenSci packages on our [docs 
 
 ## From Jenkins to r-universe
 
-For the past 2 years we had been using a [Jenkins server](/blog/2019/06/07/ropensci-docs/) to automatically build the pkgdown sites for all rOpenSci packages, which get published on https://docs.ropensci.org. By centralizing this process, we ensure that up-to-date documentation for all rOpenSci packages is available from a consistent URL with our personal branding, and without maintenance work for our package maintainers.
+For the past 2 years we have been using a [Jenkins server](/blog/2019/06/07/ropensci-docs/) to automatically build the pkgdown sites for all rOpenSci packages, which get published on https://docs.ropensci.org. By centralizing this process, we ensure that up-to-date documentation for all rOpenSci packages is available from a consistent URL with our personal branding, and without maintenance work for our package maintainers.
 
 Jenkins has served us very well to get this off the ground, because it is highly configurable and makes it easy to manage continuous integration (CI) for hundreds of projects at once.
 
@@ -32,7 +32,7 @@ However Jenkins took quite some maintenance because it requires managing a priva
 
 ## How it works
 
-Building pkgdown documentation is now just another step in the r-universe [workflow](https://github.com/r-universe/ropensci/blob/master/.github/workflows/build.yml) which [automatically runs](https://ropensci.org/blog/2021/03/04/r-universe-buildsystem/) each hour for every package in rOpenSci that has updates in its default branch (master/main). When the build is successful, the pkgdown site is deployed to our docs server.
+Building pkgdown documentation is now just another step in the r-universe [workflow](https://github.com/r-universe/ropensci/blob/master/.github/workflows/build.yml) which [automatically runs](https://ropensci.org/blog/2021/03/04/r-universe-buildsystem/) each hour for every package in rOpenSci that has updates in its default branch (master/main). When the build is successful, the pkgdown site is immediately deployed to our docs server.
 
 [![Screenshot of the diagram of steps in the r-universe workflow. The steps are building package source, building and deploying the GitHub documentation, setting the GitHub commit status.](wf1.png)](https://github.com/r-universe/ropensci/actions/runs/1193900365)
 
@@ -44,7 +44,7 @@ The [r-universe dashboard](https://ropensci.r-universe.dev/ui#builds) for also s
 
 ## Debugging failures
 
-If your package documentation fails to build (which often indicates a bug in the vignettes) you can inspect the pkgdown build logs on GitHub. Navigate to the workflow output either through the dashboard or the red cross in the package commit status, and click on "build package documentation".
+If your package documentation fails to build (e.g. due to a [bug in your vignettes](blog/2019/12/08/precompute-vignettes/)) you can inspect the pkgdown build logs on GitHub. Navigate to the workflow output either through the dashboard or the red cross in the package commit status, and click on "build package documentation".
 
 [![Screenshot of a workflow that shows in red that the documentation has failed to build](fail.png)](https://github.com/r-universe/ropensci/runs/3477708871?check_suite_focus=true)
 
