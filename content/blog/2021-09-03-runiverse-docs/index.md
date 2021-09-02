@@ -31,7 +31,7 @@ However Jenkins takes quite some maintenance because it requires managing a priv
 
 ## How it works
 
-Building pkgdown documentation is now just another step in the r-universe [workflow](https://github.com/r-universe/ropensci/blob/master/.github/workflows/build.yml) which automatically runs each hour for every updated package in rOpenSci. When the build is successful, the pkgdown site is deployed to our docs server. 
+Building pkgdown documentation is now just another step in the r-universe [workflow](https://github.com/r-universe/ropensci/blob/master/.github/workflows/build.yml) which automatically runs each hour for every package in rOpenSci that has changes in the default (master/main) branch. When the build is successful, the pkgdown site is deployed to our docs server.
 
 [![Screenshot of the diagram of steps in the r-universe workflow. The steps are building package source, building and deploying the GitHub documentation, setting the GitHub commit status.](wf1.png)](https://github.com/r-universe/ropensci/actions/runs/1193900365)
 
