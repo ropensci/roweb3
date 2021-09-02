@@ -23,7 +23,7 @@ __TLDR:__ As of today, the pkgdown sites for all rOpenSci packages on our [docs 
 
 ## From Jenkins to R-universe
 
-For the past 2 years we had been using a [Jenkins server](https://ropensci.org/blog/2019/06/07/ropensci-docs/) to automatically build the pkgdown sites for all rOpenSci packages, which get published on our docs server at https://docs.ropensci.org. By centralizing the docs, we ensure that documentation for all rOpenSci packages are always available from a consistent URL with our custom rOpenSci branding, and without maintenance work for our package maintainers.
+For the past 2 years we had been using a [Jenkins server](/blog/2019/06/07/ropensci-docs/) to automatically build the pkgdown sites for all rOpenSci packages, which get published on our docs server at https://docs.ropensci.org. By centralizing the docs, we ensure that documentation for all rOpenSci packages are always available from a consistent URL with our custom rOpenSci branding, and without maintenance work for our package maintainers.
 
 Jenkins has served us very well to get this off the ground, because it is highly configurable and makes it easy to manage CI for hundreds of projects at once.
 
