@@ -3,7 +3,7 @@ slug: runiverse-docs
 title: 'rOpenSci docs are now built on r-universe'
 date: '2021-09-03'
 author: Jeroen Ooms
-description: 'As of today, the pkgdown sites for all rOpenSci packages on our docs server are built on R-universe.'
+description: 'As of today, the pkgdown sites for all rOpenSci packages on our docs server are built on r-universe.'
 tags:
   - r-universe
   - articles
@@ -21,19 +21,19 @@ For more information, visit the [r-universe project page](/r-universe/).</em></s
 __TLDR:__ As of today, the pkgdown sites for all rOpenSci packages on our [docs server](https://docs.ropensci.org/) are built on [r-universe](https://ropensci.r-universe.dev). This is an internal change; no action is required for package maintainers.
 
 
-## From Jenkins to R-universe
+## From Jenkins to r-universe
 
 For the past 2 years we had been using a [Jenkins server](/blog/2019/06/07/ropensci-docs/) to automatically build the pkgdown sites for all rOpenSci packages, which get published on our docs server at https://docs.ropensci.org. By centralizing the docs, we ensure that documentation for all rOpenSci packages are always available from a consistent URL with our custom rOpenSci branding, and without maintenance work for our package maintainers.
 
 Jenkins has served us very well to get this off the ground, because it is highly configurable and makes it easy to manage continuous integration (CI) for hundreds of projects at once.
 
-However Jenkins takes quite some maintenance because it requires managing a private server, which needs configuration, backups, updates, etc. So we are happy to fold this task into [R-universe](https://ropensci.r-universe.dev/), such that the pkgdown sites for all rOpenSci packages are built together with the binary packages and articles, in single system that runs on GitHub public infrastructure. 
+However Jenkins takes quite some maintenance because it requires managing a private server, which needs configuration, backups, updates, etc. So we are happy to fold this task into [r-universe](https://ropensci.r-universe.dev/), such that the pkgdown sites for all rOpenSci packages are built together with the binary packages and articles, in single system that runs on GitHub public infrastructure. 
 
 ## How it works
 
 Building pkgdown documentation is now just another step in the r-universe [workflow](https://github.com/r-universe/ropensci/blob/master/.github/workflows/build.yml) which automatically runs each hour for every updated package in rOpenSci. When the build is successful, the pkgdown site is deployed to our docs server. 
 
-[![Screenshot of the diagram of steps in the R-universe workflow. The steps are building package source, building and deploying the GitHub documentation, setting the GitHub commit status.](wf1.png)](https://github.com/r-universe/ropensci/actions/runs/1193900365)
+[![Screenshot of the diagram of steps in the r-universe workflow. The steps are building package source, building and deploying the GitHub documentation, setting the GitHub commit status.](wf1.png)](https://github.com/r-universe/ropensci/actions/runs/1193900365)
 
 After each build, the workflow sets the "commit status" (red/green check) in the package repository on the target commit. If the build failed, the 'details' link will directly take you to the build logs.
 
@@ -66,11 +66,11 @@ The rodocs package contains the plumbing code that automatically installs packag
 
 ## What really changes
 
-From the outside, the switch from Jenkins to R-universe does not change anything. Documentation for all rOpenSci packages will still be built and deployed automatically to https://docs.ropensci.org.
+From the outside, the switch from Jenkins to r-universe does not change anything. Documentation for all rOpenSci packages will still be built and deployed automatically to https://docs.ropensci.org.
 
-We hope that building our docs on R-universe will reduce complexity and maintenance work, and make the processes more transparent and easier to understand. There is now a single build workflow that generates package documentation, binaries and articles, and we can add more tasks to this list.
+We hope that building our docs on r-universe will reduce complexity and maintenance work, and make the processes more transparent and easier to understand. There is now a single build workflow that generates package documentation, binaries and articles, and we can add more tasks to this list.
 
-Everything runs on public GitHub infrastructure, so anyone can inspect the code that runs for each step in the workflow, and the sources of supporting R packages and docker images. And if the system works well for rOpenSci, we can try to support this functionality for other users and organizations in R-universe.
+Everything runs on public GitHub infrastructure, so anyone can inspect the code that runs for each step in the workflow, and the sources of supporting R packages and docker images. And if the system works well for rOpenSci, we can try to support this functionality for other users and organizations in r-universe.
 
 <script>
 window.onload=function(){
