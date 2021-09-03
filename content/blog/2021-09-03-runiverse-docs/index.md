@@ -45,7 +45,7 @@ The [r-universe dashboard](https://ropensci.r-universe.dev/ui#builds) for also s
 
 ## Debugging failures
 
-If your package documentation fails to build (e.g. due to a [bug in your vignettes](blog/2019/12/08/precompute-vignettes/)) you can inspect the pkgdown build logs on GitHub. Navigate to the workflow output either through the dashboard or the red cross in the package commit status, and click on "build package documentation".
+If your package documentation fails to build (e.g. due to a [bug in your vignettes](/blog/2019/12/08/precompute-vignettes/)) you can inspect the pkgdown build logs on GitHub. Navigate to the workflow output either through the dashboard or the red cross in the package commit status, and click on "build package documentation".
 
 [![Screenshot of a workflow that shows in red that the documentation has failed to build](fail.png)](https://github.com/r-universe/ropensci/runs/3477708871?check_suite_focus=true)
 
