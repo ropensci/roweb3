@@ -16,80 +16,71 @@ output:
     keep_md: yes
 ---
 
-Have you ever found a non-R tool that's perfect for getting your job done, and decided to somehow use it from an R script or package?
-E.g. some sort of scientific software, a command-line interface (CLI), Python module or JS library?
-In this post, we shall review best practice for such wrappers.
-In particular, we shall compare the base R functions `system()` and `system2()`, the sys package and the processx package.
-We shall however start with a section explaining when, and how, to _not_ shell out i.e. _not_ call the system.
+Have you ever found a command-line tool that's perfect for getting your job done, and wanted to use it from an R script or package?
+E.g. some sort of scientific software providing a specific functionality made available though a command-line interface (CLI)?
 
-## Using the tool without calling the system
+In this post, we shall review some options for writing such CLI wrappers in R.
+In particular, we compare the base R functions `system()` and `system2()`, the [sys](https://cran.r-project.org/web/packages/sys/) package and the [processx](https://cran.r-project.org/web/packages/processx/) package.
 
-Before jumping to find ways to control that needed tool with system commands, you might try and find ways to _not_ have to do that.
+But we start with some words of caution about the limitations of this approach, and explaining when, and how, to _not_ shell out, and try to find an alternative interface.
 
-### Downsides of calling the system
+## Downsides of system commands
 
-Why is it a better idea to use C, C++ (or even JS, Python...) rather than calling a command-line interface (CLI)?
+When possible, it is usually better to a C, C++ (or even JS, Python...) interface to interact with external software, rather than calling a command-line interface (CLI).
 Interfacing to external software via a foreign language API is usually more robust, performant and flexible, than via a CLI.
 
-The core issue is that invoking a command starts a new process. 
-Different processes don't share memory, hence the only interaction via R and the shell program is via free text streams.
+The core issue is that each system command is started in a new process.
+Different processes don't share memory, hence the only interaction via R and the shell program is via free text streams (pipes) between R and the child process.
+This makes it complicated to exchange data, handle exceptions, and control the program execution from R. Let's explore this in more detail.
 
-#### Input
+### Data input and output
 
-A C/C++ API has formal functions with one or more arguments consisting of typed data structures. 
-On the other hand, the only input to a shell command is a single string with command line arguments, because there is no shared memory between R and the program we are calling. 
-To pass any data to the program, you probably need to write it to disk in some format, 
-and then the program has to read it from the file, which can lead to performance overhead or read/write errors. 
+A C/C++ library has formal functions with one or more arguments and a return value, each consisting of typed data structures. You can call such a C/C++ API from an R package, passing data from R objects into the library and back, in a very similar as when calling your own functions from the R package itself.
 
-When the user has can provide the command arguments (such as filenames) which are passed to the program,
-you have to consider these names may contain spaces or non-ascii characters. 
-This can again lead to problems when they are all combined into the eventual command that is invoked by R.
+On the other hand, the only input to a shell command is a single string with the command line arguments.
+Many CLI programs need to read input data from file(s), in some particular format, which can lead to performance overhead or read/write errors.
 
-#### Output and errors
+When the user has to provide the command arguments (such as filenames) which are passed to the program,
+you have to consider these names may contain spaces or non-ascii characters.
+This can again lead to bugs when they get pasted into the eventual shell command that is invoked by R.
 
-The output of a command line program only consists of a status code (indicating if the program had an error or not) and text that the program prints to the screen. 
+### Progress and exception handling
 
-There is no return value, or exception handling if an error appears in program that we called.
-This means that if we wrap a command line program in R, we have very limited means to handle errors. 
-Basically the only thing we can in case when the program errors, is to show the text that the program printed to the user. 
-We cannot really programatically figure out what caused the error.
+The output of a command line program only consists of a status code (indicating if the execution was succcessful or not) and two text streams which the program prints to the screen. When invoked from R, we can capture these text streams, which results in two large strings, in addition to the status code.
 
-#### Progress and control
+Hence, there is no return object, or exception handling if a problem appears in program that we called.
+This means that if we wrap a command line program in R and an error appears, the only thing we can do is to show the output text from the program to the user; we cannot programatically handle errors.
 
-Because we have no shared memory, there is also no good way for R to inspect or control the command line program while it is running. 
-Foreign language interfaces might provide a better experience for that.
+Because we have no shared memory, there is also no good way for R to inspect or control the command line program while it is running. From the R point of view, the external program is just a black box.
 
-### C or C++
+### Foreign language interfaces
 
-Maybe there's a C or C++ library offering similar features to the CLI, like ImageMagick++, wrapped in the [magick R package](https://docs.ropensci.org/magick/) does for [ImageMagick](https://imagemagick.org/index.php); or like [libtiff wrapped in the ijtiff R package](/blog/2018/04/12/ijtiff/)? 
+If the software you need provides an alternative interface, or you there is a similar program that does, this might provide a better basis than a CLI tool.
 
-To get started with wrapping C libraries, check out [Davis Vaughan's blog post](https://blog.davisvaughan.com/2019/03/02/now-you-c-me/). 
+The most robust interface way to interface with external libraries from R is via C or C++. Because R itself is written in C, calling a C or C++ library takes almost zero overhead. To get started with wrapping C libraries, check out [Davis Vaughan's blog post](https://blog.davisvaughan.com/2019/03/02/now-you-c-me/). For C++ dive into either [Rcpp](https://adv-r.hadley.nz/rcpp.html) or the more recent [cpp11](https://cpp11.r-lib.org/articles/cpp11.html).
 
-For C++ dive into either [Rcpp](https://adv-r.hadley.nz/rcpp.html) or the more recent [cpp11](https://cpp11.r-lib.org/articles/cpp11.html) (see [a vignette of cpp11](https://cpp11.r-lib.org/articles/motivations.html) for the motivations of cpp11 in particular compared to Rcpp).
+Examples of rOpenSci packages interfacing to C/C++ interfaces include [magick](https://docs.ropensci.org/magick) (imagemagick), [pdftools](https://docs.ropensci.org/pdftools) (poppler), [ijtiff](https://docs.ropensci.org/ijtiff) (libtiff), [gert](https://docs.ropensci.org/gert) (libgit2), and many more. The "system dependencies" column in the [r-universe dashboard](https://ropensci.r-universe.dev/) shows the C/C++ libraries that R package are interfacing with.
 
-### Python and JS
-
-* In the case of a Python module, you can use the [reticulate package](https://rstudio.github.io/reticulate/) for interacting with Python. E.g. in an R Markdown document you could [pass objects between Python and R ](https://rstudio.github.io/reticulate/articles/r_markdown.html#calling-python-from-r-1).
-
-* In the case of a JS library, you can use the [V8 package](https://github.com/jeroen/v8). It e.g. [propagates runtime exceptions to R errors](https://cran.r-project.org/web/packages/V8/vignettes/v8_intro.html#warnings,_errors_and_consolelog).
-
-### Porting (re-writing) rather than wrapping
-
-You could also decide not to wrap the cool tool you found! Either you found a ready-to-use R solution or you decide to _port_ i.e. _translate_ the tool to R.
-This is obviously quite ambitious depending on the size and scope of the ported tool.
-The [vcr R package](https://docs.ropensci.org/vcr/) is a port of the [Ruby gem vcr](https://github.com/vcr/vcr); there is a package called [NetlogoR that is a port of NetLogo written entirely in R](https://onlinelibrary.wiley.com/doi/full/10.1111/ecog.04516) (as opposed to the rOpenSci [nlrx package](https://docs.ropensci.org/nlrx/) that calls NetLogo).
-
-Now, what if you actually need to write system commands...
+Some software does not provide a C/C++ API but can be called via Python or JavaScript. In this case, you could use [reticulate](https://rstudio.github.io/reticulate/) or [V8](https://cran.r-project.org/web/packages/V8/vignettes/v8_intro.html) to create an R wrapper. Running external software through Python or JavaScript is not quite as performant as C/C++, but reticulate and V8 provide pretty a pretty decent foundations to exchange data and exceptions, so these are usually more robust than a CLI wapper.
 
 ## Tools for calling a CLI from R
 
-To call a CLI from R you can use
+We review 3 increasingly advanced ways to call a CLI program (a.k.a "shell out") from R:
 
-* `system()` or `system2()` from base R;
-* the sys package e.g. used in [antiword](https://github.com/ropensci/antiword/blob/master/R/antiword.R);
-* the processx package.
+* `system()` or `system2()` functions in base R
+* the [sys](https://cran.r-project.org/web/packages/sys/index.html) package by Jeroen Ooms
+* the [processx](https://cran.r-project.org/web/packages/processx/index.html) package by Gábor Csárdi
 
-## Advantages of sys and processx over base R
+Depending on your needs you may prefer one or another solution.
+
+
+
+
+(until here by jeroen)
+
+---
+
+
 
 ### Control and progress
 
