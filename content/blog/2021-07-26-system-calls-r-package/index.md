@@ -133,7 +133,7 @@ Sys also provides basic functionality to spawn a background process with `exec_b
 
 ### The processx package
 
-The [processx package](https://processx.r-lib.org/reference/index.html) is much more advanced than base or sys. It provides a very extensive framework for executing and controlling many processes simultaneously from R. The `processx::run()` function implements the simple execute-and-wait scenario similar to system2 or sys, (but with [many more options](https://processx.r-lib.org/reference/run.html)):
+The [processx package](https://processx.r-lib.org/reference/index.html) is much more advanced. It provides a very extensive framework for executing and controlling many processes simultaneously from R. The `processx::run()` function implements the simple execute-and-wait scenario similar to base or sys, (but with [many more options](https://processx.r-lib.org/reference/run.html)):
 
 ```r
 processx::run('whoami')
