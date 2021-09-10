@@ -93,7 +93,9 @@ But during the program execution, we don't know what is going on; R blocks and w
 
 ### The sys package
 
-The [sys package](https://github.com/jeroen/sys#sys) is a small powerful package (mostly C code without dependencies) to run commands. The package is designed to mimic `system2` but the internals are more sophisticated to give better control over the running process. For example we can use a callback function to handle stdout/stderr text _immediately while it is being printed by the program_, and finally return the exit code for the process:
+The [sys package](https://github.com/jeroen/sys#sys) is a small powerful package (mostly C code without dependencies) to run commands. The package is designed to mimic `system2` but the internals are very different to provide more control over the running process. 
+
+Instead of combining all input in a large shell command that writes output to files in disk, sys invokes the target program directly, and manages input and output by creating in-memory pipes between R and the child process. This makes it possible to use callback functions to handle output from the program immediately while it is being printed, and finally return the exit code for the process:
 
 ```r
 res <- sys::exec_wait("whoami", std_out = function(x){
@@ -105,7 +107,7 @@ res
 ## [0]
 ```
 
-The package can also handle binary (non text) stdout/stderr, and has various other APIs that are useful when invoking complex programs. The `exec_internal()` function buffers and return all the stdout/stderr output back to R (but without ever writing to a file):
+The package can also handle binary (non text) stdout/stderr connections, and has various other APIs that are useful when invoking complex programs. The `exec_internal()` function is a wrapper which buffers the stdout/stderr output in R and eventually returns it (without ever writing to a file):
 
 ```r
 out <- sys::exec_internal('whoami')
@@ -123,9 +125,9 @@ rawToChar(out$stdout)
 ## [1] "jeroen\n"
 ```
 
-Note that the stdout here contains a raw vector, because the package supports binary output as well. You can use `rawToChar()` or `sys::as_text()` to convert a raw vector this into a string.
+Note that the stdout here is a raw vector, in order to supports commands with binary output. Use `base::rawToChar()` or `sys::as_text()` to convert a raw vector this into a string.
 
-Sys also provides basic functionality to spawn a background process with `exec_background()` however for this case the processx package may be better suited.
+Sys also provides basic functionality to spawn a background process with `exec_background()` however for this usecase the processx package may be a better fit.
 
 ### The processx package
 
