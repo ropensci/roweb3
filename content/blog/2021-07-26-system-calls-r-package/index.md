@@ -100,15 +100,36 @@ res <- sys::exec_wait("whoami", std_out = function(x){
   cat("My name is:", rawToChar(x))
 })
 ## My name is: jeroen
+
 res
 ## [0]
 ```
 
-The package can also handle binary (non text) stdout/stderr, and has various other APIs that are useful when invoking complex programs. For example `exec_background()` will run a program as a background process, or `exec_internal()` will return a list with the exit code, stdout and stderr. The `?exec_wait` manual pages gives an overview of the available functions and options.
+The package can also handle binary (non text) stdout/stderr, and has various other APIs that are useful when invoking complex programs. The `exec_internal()` function buffers and return all the stdout/stderr output back to R (but without ever writing to a file):
+
+```r
+out <- sys::exec_internal('whoami')
+out
+## $status
+## [1] 0
+## 
+## $stdout
+## [1] 6a 65 72 6f 65 6e 0a
+## 
+## $stderr
+## raw(0)
+
+rawToChar(out$stdout)
+## [1] "jeroen\n"
+```
+
+Note that the stdout here contains a raw vector, because the package supports binary output as well. You can use `rawToChar()` or `sys::as_text()` to convert a raw vector this into a string.
+
+Sys also provides basic functionality to spawn a background process with `exec_background()` however for this case the processx package may be better suited.
 
 ### The processx package
 
-The [processx package](https://processx.r-lib.org/reference/index.html) is much more advanced than base or sys. It provides a very extensive framework for executing and controlling many processes simultaneously from R. The simple case (similar to sys or base) is implemented in the `run` function, which executes a command and waits for it to finish (but with [many more options](https://processx.r-lib.org/reference/run.html)):
+The [processx package](https://processx.r-lib.org/reference/index.html) is much more advanced than base or sys. It provides a very extensive framework for executing and controlling many processes simultaneously from R. The `processx::run()` function implements the simple execute-and-wait scenario similar to system2 or sys, (but with [many more options](https://processx.r-lib.org/reference/run.html)):
 
 ```r
 processx::run('whoami')
@@ -125,7 +146,21 @@ processx::run('whoami')
 ## [1] FALSE
 ```
 
-Where processx really stands out is to manage execution of background processes, many at once, without blocking R. It provides an [extensive API](https://processx.r-lib.org/reference/process.html) for launching and controlling processes through objects of a special `process` class. Processx makes it possible to implement [very advanced things in R](https://www.tidyverse.org/blog/2018/09/processx-3.2.0/#advanced-usage-background-processes), such as a multicore webserver or parallel processing framework, but it is more complicated than base or sys.
+Where processx really stands out is the capability to manage execution of many concurrent background processes, without blocking R. It provides an [extensive API](https://processx.r-lib.org/reference/process.html) for launching and controlling processes through objects of a special `process` class. 
+
+```r
+library(processx)
+p <- process$new("sleep", "2")
+p$is_alive()
+## [1] TRUE
+p
+## PROCESS 'sleep', running, pid 5376.
+p$kill()
+p$is_alive()
+## [1] FALSE
+```
+
+Processx makes it possible to implement [very advanced things in R](https://www.tidyverse.org/blog/2018/09/processx-3.2.0/#advanced-usage-background-processes), such as a multicore webserver or parallel processing framework, but it is much more complicated than base-R or sys.
 
 
 ## Conclusion
