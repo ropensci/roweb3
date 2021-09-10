@@ -19,28 +19,28 @@ output:
 Have you ever found a command-line tool that's perfect for getting your job done, and wanted to use it from an R script or package?
 E.g. some sort of scientific software providing a specific functionality made available though a command-line interface (CLI)?
 
-In this post, we shall show some options for writing such CLI wrappers in R.
+In this post, we have a look at a few options for writing such CLI wrappers in R.
 In particular, we compare the base R functions `system()` and `system2()`, the [sys](https://cran.r-project.org/web/packages/sys/) package and the [processx](https://cran.r-project.org/web/packages/processx/) package.
 
-But we start with some words of caution about the limitations of this approach, and explaining when, and how, to _not_ shell out, and try to find an alternative interface.
+But we start with some words of caution about the limitations of this approach, and explaining why it may be better to _not_ shell out, and try to use an alternative interface if possible.
 
 ## Downsides of system commands
 
 When possible, it is usually better to use a C, C++ (or even JS, Python...) interface to interact with external software, rather than calling a command-line interface (CLI).
-Interfacing to external software via a foreign language API is usually more robust and performant than via a CLI.
+A CLI is mainly intended for interactive use by a human, with free-form text as input and output. To programatically interface with external software, a foreign language API is typically more robust and performant.
 
-The core issue is that each system command starts a new process.
-Because processes don't share memory, the only interaction via R and the shell program is via free text streams (pipes) between R and the child process.
-This makes it cumbersome to exchange data, handle exceptions, and control the program execution from R. Let's explore this in more detail.
+The core issue is that each CLI execution starts a new process.
+Because processes don't share memory, the only interaction with the executing program is via free text streams (pipes) between R and the child process.
+This lack of structure makes it cumbersome to exchange data, handle exceptions, and control the program execution from R. Let's explore these things in a bit more detail.
 
 ### Data input and output
 
-A C/C++ library has formal functions with one or more arguments and a return value, each consisting of typed data structures. You can call such a C/C++ API from an R package, passing data from R objects into the library and back, in a very similar as when calling functions from the R package itself.
+A C/C++ library has formal functions with one or more arguments and a return value, each consisting of typed data structures. You can call such a C/C++ API from an R package, passing data from R objects from memory into the library and back, in a similar way as when calling functions from the package itself.
 
 On the other hand, the only input to a shell command is a single string with the command line arguments.
 Most programs that need actual input data will need to read this from file(s) on disk, in some particular format, which can lead to performance overhead or read/write errors.
 
-When the user has to provide the command arguments (e.g. filenames) to be passed to the command line program,
+When the user has to provide the command arguments (such as filenames) that are to be passed to the command line program,
 you have to consider these names could contain spaces or non-ascii characters.
 This can again lead to bugs when they get joined into the shell command that is invoked by R.
 
@@ -79,7 +79,7 @@ Base-R provides functions `system` and `system2`. The R [source code](https://gi
 For example, if you run this in R:
 
 ```r
-system2("whoami", stdout = TRUE)
+system2("whoami", stdout = TRUE, stderr = TRUE)
 ## [1] "jeroen"
 ```
 
@@ -89,25 +89,27 @@ R will [convert this](https://github.com/wch/r-source/blob/c65ce1f39fa9b831490e3
 whoami > /tmp/RtmpnMXhzK/fileef2a84a02fb68 2>&1
 ```
 
-But during the program execution, we don't know what is going on; R blocks and waits for the command to finish, as long as it takes. This is fine for simple programs, but for complex long running commands, it can be nice to have more control and insight in the progress or intermediate output from the process.
+During the program execution, we don't know what is going on; R blocks and waits for the command to finish, as long as it takes. This is fine for simple commands, but for complex long running programs, it can be nice to have more control over the progress or intermediate output from the running program.
 
 ### The sys package
 
-The [sys package](https://github.com/jeroen/sys#sys) is a small powerful package (mostly C code without dependencies) to run commands. The package is designed to mimic `system2` but the internals are very different to provide more control over the running process. 
+The [sys package](https://github.com/jeroen/sys#sys) is a small powerful package (mostly C code without dependencies) to run commands. The core of the package was designed to mimic the `system2` API, but the internals are very different to give more control over the running process.
 
-Instead of combining all input in a large shell command that writes output to files in disk, sys invokes the target program directly, and manages input and output by creating in-memory pipes between R and the child process. This makes it possible to use callback functions to handle output from the program immediately while it is being printed, and finally return the exit code for the process:
+Instead of combining all input in a large shell command that writes output to files in disk, sys invokes the target program directly, and manages input and output by creating in-memory pipes between R and the child process. This makes it possible to use callback functions to handle output from the program immediately while it is being printed, and finally return the exit code for the process. It can also safely be interrupted at any time by pressing ESC or ctrl+C:
 
 ```r
-res <- sys::exec_wait("whoami", std_out = function(x){
-  cat("My name is:", rawToChar(x))
+res <- sys::exec_wait("ping", "google.com", std_out = function(x){
+  cat("Some output:", rawToChar(x))
 })
-## My name is: jeroen
+## Some output: 64 bytes from 142.251.36.46: icmp_seq=1 ttl=118 time=17.977 ms
+## Some output: 64 bytes from 142.251.36.46: icmp_seq=2 ttl=118 time=18.244 ms
+## ...
 
 res
 ## [0]
 ```
 
-The package can also handle binary (non text) stdout/stderr connections, and has various other APIs that are useful when invoking complex programs. The `exec_internal()` function is a wrapper which buffers the stdout/stderr output in R and eventually returns it (without ever writing to a file):
+The package also supports binary (non text) stdout/stderr data, and has several other APIs that are useful when invoking complex programs. The `exec_internal()` function is a wrapper which buffers the stdout/stderr output in R (without writing to a file on disk) and finally returns it along with the exit code:
 
 ```r
 out <- sys::exec_internal('whoami')
@@ -125,9 +127,9 @@ rawToChar(out$stdout)
 ## [1] "jeroen\n"
 ```
 
-Note that the stdout here is a raw vector, in order to supports commands with binary output. Use `base::rawToChar()` or `sys::as_text()` to convert a raw vector this into a string.
+Note that stdout here is a raw vector, in order to supports commands that give binary output. Use `base::rawToChar()` or `sys::as_text()` to convert a raw vector into a string.
 
-Sys also provides basic functionality to spawn a background process with `exec_background()` however for this usecase the processx package may be a better fit.
+Sys also provides basic functionality to spawn a background process with `exec_background()` however for this use case the processx package may be a better fit.
 
 ### The processx package
 
