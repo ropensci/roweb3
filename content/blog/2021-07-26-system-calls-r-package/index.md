@@ -46,10 +46,10 @@ This can again lead to bugs when they get pasted into the eventual shell command
 
 ### Progress and exception handling
 
-The output of a command line program only consists of a exit code (indicating if the execution was succcessful or not) and two text streams which the program prints to the screen. When invoked from R, we can capture these text streams, which results in two large strings, in addition to the exit code.
+The output of a command line program only consists of a exit code (indicating if the execution was successful or not) and two text streams which the program prints to the screen. When invoked from R, we can capture these text streams, which results in two large strings, in addition to the exit code.
 
 Hence, there is no return object, or exception handling if a problem appears in program that we called.
-This means that if we wrap a command line program in R and an error appears, the only thing we can do is to show the output text from the program to the user; we cannot programatically handle errors.
+This means that if we wrap a command line program in R and an error appears, the only thing we can do is to show the output text from the program to the user; we cannot programmatically handle errors.
 
 Because we have no shared memory, there is also no good way for R to inspect or control the command line program while it is running. From the R point of view, the external program is just a black box.
 
@@ -61,9 +61,9 @@ The most robust interface way to interface with external libraries from R is via
 
 Examples of rOpenSci packages interfacing to C/C++ interfaces include [magick](https://docs.ropensci.org/magick) (imagemagick), [pdftools](https://docs.ropensci.org/pdftools) (poppler), [ijtiff](https://docs.ropensci.org/ijtiff) (libtiff), [gert](https://docs.ropensci.org/gert) (libgit2), and many more. The "system dependencies" column in the [r-universe dashboard](https://ropensci.r-universe.dev/) shows the C/C++ libraries that R package are interfacing with.
 
-Some software does not provide a C/C++ API but can be called via Python or JavaScript. In this case, you could use [reticulate](https://rstudio.github.io/reticulate/) or [V8](https://cran.r-project.org/web/packages/V8/vignettes/v8_intro.html) to create an R wrapper. Running external software through Python or JavaScript is not quite as performant as C/C++, but reticulate and V8 provide pretty a pretty decent foundations to exchange data and exceptions, so these are usually more robust than a CLI wapper.
+Some software does not provide a C/C++ API but can be called via Python or JavaScript. In this case, you could use [reticulate](https://rstudio.github.io/reticulate/) or [V8](https://cran.r-project.org/web/packages/V8/vignettes/v8_intro.html) to create an R wrapper. Running external software through Python or JavaScript is not quite as performant as C/C++, but reticulate and V8 provide pretty a pretty decent foundations to exchange data and exceptions, so these are usually more robust than a CLI wrapper.
 
-## Tools for calling a CLI from R
+## Several methods of calling a CLI program from R
 
 We show 3 increasingly advanced ways to call a CLI program (a.k.a "shell out") from R:
 
@@ -108,7 +108,7 @@ The package has various other APIs that are useful when invoking complex program
 
 ### The processx package
 
-The [processx package](https://processx.r-lib.org/reference/index.html) is much more advanced than base or sys. It provides a very extensive framework that is capabile of executing and controlling many processes simultanously from R. The simplest case is the `run` function which will again run and wait for a single command (but with [many more options](https://processx.r-lib.org/reference/run.html)):
+The [processx package](https://processx.r-lib.org/reference/index.html) is much more advanced than base or sys. It provides a very extensive framework that is capable of executing and controlling many processes simultaneously from R. The simplest case is the `run` function which will again run and wait for a single command (but with [many more options](https://processx.r-lib.org/reference/run.html)):
 
 ```r
 processx::run('whoami')
