@@ -53,7 +53,14 @@ This means that if we interface with a CLI tool in R and an error appears, the b
 
 Because we have no shared memory, there is also no good way for R to inspect or control the command line program while it is running. From the R point of view, the external program is basically a black box.
 
-### The alternative: foreign language interfaces
+### Finding the program
+
+Finally, a practical issue with CLI wrappers is that the external program often has to be installed manually by the user, and that it is sometimes unclear if, and where, the program is installed on the user machine. 
+
+Especially on Windows, many programs are not on the PATH, and the R wrapper may first need to find the installation path to execute the program. This is another major disadvantage in comparison with C/C++ libraries, which can be linked into the R package when it is built and do not require manual installation by the end-user. But when writing CLI wrappers you need to keep in mind that the program you are trying to execute may not even exist.
+
+
+## The alternative: foreign language interfaces
 
 If the software you need provides an alternative interface, or a similar program exists that does, this might provide a better basis than a CLI tool.
 
