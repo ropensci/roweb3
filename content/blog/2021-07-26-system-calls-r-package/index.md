@@ -10,7 +10,7 @@ tags:
   - tech notes
   - processx
   - sys
-description: Reviews of way (not) to call the system from your R package.
+description: Way (not) to call the system from your R package.
 output:
   html_document:
     keep_md: yes
@@ -19,7 +19,7 @@ output:
 Have you ever found a command-line tool that's perfect for getting your job done, and wanted to use it from an R script or package?
 E.g. some sort of scientific software providing a specific functionality made available though a command-line interface (CLI)?
 
-In this post, we shall review some options for writing such CLI wrappers in R.
+In this post, we shall show some options for writing such CLI wrappers in R.
 In particular, we compare the base R functions `system()` and `system2()`, the [sys](https://cran.r-project.org/web/packages/sys/) package and the [processx](https://cran.r-project.org/web/packages/processx/) package.
 
 But we start with some words of caution about the limitations of this approach, and explaining when, and how, to _not_ shell out, and try to find an alternative interface.
@@ -46,7 +46,7 @@ This can again lead to bugs when they get pasted into the eventual shell command
 
 ### Progress and exception handling
 
-The output of a command line program only consists of a status code (indicating if the execution was succcessful or not) and two text streams which the program prints to the screen. When invoked from R, we can capture these text streams, which results in two large strings, in addition to the status code.
+The output of a command line program only consists of a exit code (indicating if the execution was succcessful or not) and two text streams which the program prints to the screen. When invoked from R, we can capture these text streams, which results in two large strings, in addition to the exit code.
 
 Hence, there is no return object, or exception handling if a problem appears in program that we called.
 This means that if we wrap a command line program in R and an error appears, the only thing we can do is to show the output text from the program to the user; we cannot programatically handle errors.
@@ -65,73 +65,74 @@ Some software does not provide a C/C++ API but can be called via Python or JavaS
 
 ## Tools for calling a CLI from R
 
-We review 3 increasingly advanced ways to call a CLI program (a.k.a "shell out") from R:
+We show 3 increasingly advanced ways to call a CLI program (a.k.a "shell out") from R:
 
 * `system()` or `system2()` functions in base R
-* the [sys](https://cran.r-project.org/web/packages/sys/index.html) package by Jeroen Ooms
-* the [processx](https://cran.r-project.org/web/packages/processx/index.html) package by Gábor Csárdi
+* the [sys](https://cran.r-project.org/web/packages/sys/index.html) package
+* the [processx](https://cran.r-project.org/web/packages/processx/index.html) package
 
 Depending on your needs you may prefer one or another solution.
 
+### Base system/system2
 
+Base R provides functions `system` and `system2`. The R [source code](https://github.com/wch/r-source/blob/c65ce1f39fa9b831490e384a567c3bcab7b81141/src/library/base/R/unix/system.unix.R#L19-L52) for these functions is pretty self-explanatory: all the arguments and options are combined into one big shell command, which is then passed to a local shell process (`sh` on unix or `cmd` on Windows).
+For example, if you run a command:
 
+```r
+system2("whoami", stdout = TRUE)
+## [1] "jeroen"
+```
 
-(until here by jeroen)
+R will [convert this](https://github.com/wch/r-source/blob/c65ce1f39fa9b831490e384a567c3bcab7b81141/src/library/base/R/unix/system.unix.R#L80-L87) into the shell command that writes output to a temporary file and run that:
 
----
+```
+whoami > /tmp/RtmpnMXhzK/fileef2a84a02fb68
+```
 
+When the function has completed, R tries to read the file and return the text. But while the program is running we have no idea what is going on. This is fine for simple programs, but for executing more complex, long running commands, this provides very limited control over the progress and intermediate results of the process.
 
+### The sys package
 
-### Control and progress
+The [sys package](https://github.com/jeroen/sys#sys) is a small powerful package (mostly C code without dependencies) to run commands. The package is designed to mimic `system2` but the internals are more sophisticated to give better control over the running process. For example we can use a callback function to handle stdout/stderr text from the program _while it is being printed by the process_, and returns the exit code for the process:
 
-As written earlier calling a CLI from R means [control and insights over the program while it is running](#progress-and-control).
-With `system()` or `system2()` all we can do is invoke the program and wait for it to complete, and hope it does not get stuck. 
-The only option to get the output from the program is to let it write to a file, and read that file after the program has completed.
+```r
+res <- sys::exec_wait("whoami", std_out = function(x){
+  cat("My name is:", rawToChar(x))
+})
+## My name is: jeroen
+res
+## [0]
+```
 
-With `sys` or `processx` we get a little more control, as we can process the text output in R, directly as it gets printed by the program. 
-This can be useful to see if the program is still running, or to implement real time processing of a text stream. 
-With processx we can do some more advanced things by invoking the command as a background process, and then polling/pushing stream from/to it.
+The package has various other APIs that are useful when invoking complex programs. For example `exec_background()` will run a program as a background process, or `exec_internal()` will return a list with the exit code, stdout and stderr. The ?exec_wait manual pages gives an overview of the options.
 
-### STD blabla
+### The processx package
 
-How one gets more structured STDOUT/STDERR/STDIN.
+The [processx package](https://processx.r-lib.org/reference/index.html) is much more advanced than base or sys. It provides a very extensive framework that is capabile of executing and controlling many processes simultanously from R. The simplest case is the `run` function which will again run and wait for a single command (but with [many more options](https://processx.r-lib.org/reference/run.html)):
 
-### Security
+```r
+processx::run('whoami')
+## $status
+## [1] 0
+## 
+## $stdout
+## [1] "jeroen\n"
+## 
+## $stderr
+## [1] ""
+## 
+## $timeout
+## [1] FALSE
+```
 
-https://twitter.com/GaborCsardi/status/1248893871758757893
+Where processx really excels is to execute and control background processes, potentially many at once, without blocking R. It provides a very [extensive API](https://processx.r-lib.org/reference/process.html) for launching and managing processes through a special R class. This allows you to implement [very advanced things in R](https://www.tidyverse.org/blog/2018/09/processx-3.2.0/#advanced-usage-background-processes), such as a webserver or parallel processing framework, but it is a bit more complicated than base or sys.
 
-What does sanitizing mean, examples.
-
-Maybe mention https://xkcd.com/327/
-## sys vs processx
-
-https://github.com/jeroen/sys "Drop-in replacements for the base system2() function with fine control and consistent behavior across platforms. Supports clean interruption, timeout, background tasks, and streaming STDIN / STDOUT / STDERR over binary or text connections. Arguments on Windows automatically get encoded and quoted to work on different locales."
-
-https://github.com/r-lib/processx "Tools to run system processes in the background. It can check if a background process is running; wait on a background process to finish; get the exit status of finished processes; kill background processes. It can read the standard output and error of the processes, using non-blocking connections. 'processx' can poll a process for standard output or error, with a timeout. It can also poll several processes at once." used in e.g. https://github.com/r-lib/pingr#readme and https://github.com/r-lib/hugodown/blob/97ea0cdd63152a58987ae9e2639bcc4db4e5a83a/R/hugo.R#L34
-
-"processx really shines when it comes to controlling background processes. " https://www.tidyverse.org/blog/2018/09/processx-3.2.0/#advanced-usage-background-processes
-
-## Declaring system dependencies in a package
-
-If you decide to package up your R wrapper, you'll need to declare the system dependencies
-
-* in [DESCRIPTION](https://r-pkgs.org/description.html#other-dependencies);
-* in the documentation of your package, to indicate to human users how to install it. (you should also add some informative error in a configure script if your package has one for e.g. a C++ library).
-
-Non human users such as continuous integration could install the system dependencies thanks to [R-hub sysreqs](https://github.com/r-hub/sysreqsdb/#sysreqs) or to [RStudio Package Manager](https://remotes.r-lib.org/reference/system_requirements.html); or you might need to add more specific code yourself in the continuous integration configuration file.
-
-Note that depending on the system dependency, maybe your package can even have a function that installs it like [hugodown](https://github.com/r-lib/hugodown) and [blogdown](https://github.com/rstudio/blogdown) do for Hugo.
-
-As often when developing R packages, a good tip is to look for examples of packages facing similar challenges to yours.
-E.g. you could dive into the source of packages like magick or cld2.
 
 ## Conclusion
 
-In this post we have summarized resources and best practice for wrapping non R tools in R.
-MORE SUMMARIZING.
+In this post we have shown a few ways to execute system commands in R.
 
 In [rOpenSci Software Peer-Review](/software-review/), at the moment of writing, Scientific Software Wrappers is a category [in scope](https://devguide.ropensci.org/policies.html#package-categories).
 
 >  Packages that wrap non-R utility programs used for scientific research. These programs must be specific to research fields, not general computing utilities. Wrappers must be non-trivial, in that there must be significant added value above simple system() call or bindings, whether in parsing inputs and outputs, data handling, etc. Improved installation process, or extension of compatibility to more platforms, may constitute added value if installation is complex. This does not include wrappers of other R packages or C/C++ libraries that can be included in R packages. We strongly encourage wrapping open-source and open-licensed utilities - exceptions will be evaluated case-by-case, considering whether open-source options exist.
 
-Have _you_ ever wrapped non R tools in R? Feel free to share in the comments below.
