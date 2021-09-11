@@ -70,7 +70,7 @@ Examples of rOpenSci packages interfacing to C/C++ interfaces include [magick](h
 
 Some software does not provide a C/C++ API but can be called via Python or JavaScript. In this case, you could use [reticulate](https://rstudio.github.io/reticulate/) or [V8](https://cran.r-project.org/web/packages/V8/vignettes/v8_intro.html) to create an R wrapper. Running external software through Python or JavaScript is not quite as performant as C/C++, but reticulate and V8 provide a solid bridge to exchange data and exceptions, so these packages are often more reliable than a CLI wrapper.
 
-## Several methods of calling a CLI program from R
+## Several tools for calling a CLI program from R
 
 Now that we have warned you, let's move on to the main topic of this post: how to call a CLI program from R. We show 3 increasingly advanced ways to invoke a system command (a.k.a "shell out") from R:
 
@@ -90,7 +90,7 @@ system2("whoami", stdout = TRUE, stderr = TRUE)
 ## [1] "jeroen"
 ```
 
-R will [convert this](https://github.com/wch/r-source/blob/c65ce1f39fa9b831490e384a567c3bcab7b81141/src/library/base/R/unix/system.unix.R#L80-L87) into the shell command that writes output to a temporary file, such as below. After the command exists with success, R tries to read the file and return the content.
+R will [convert this](https://github.com/wch/r-source/blob/c65ce1f39fa9b831490e384a567c3bcab7b81141/src/library/base/R/unix/system.unix.R#L80-L87) into the shell command that writes output to a temporary file, such as below. After the command exits with success, R tries to read the file and return the content.
 
 ```
 whoami > /tmp/RtmpnMXhzK/fileef2a84a02fb68 2>&1
@@ -171,14 +171,15 @@ p$is_alive()
 ## [1] FALSE
 ```
 
-Processx makes it possible to implement [very advanced things in R](https://www.tidyverse.org/blog/2018/09/processx-3.2.0/#advanced-usage-background-processes), such as a multicore webserver or parallel processing framework, but it is much more complicated than base-R or sys.
+Processx makes it possible to implement [very advanced things in R](https://www.tidyverse.org/blog/2018/09/processx-3.2.0/#advanced-usage-background-processes), such as a multicore webserver or parallel processing framework, but it is much more complicated than base-R or sys. If you just need to execute a single command and get it's output, depending on processx may be overkill, but for advanced applications it is definitely the most powerful of the three.
 
 
 ## Conclusion
 
-In this post we have shown a few ways to execute system commands in R.
+In this post we compared several tools to execute system commands in R, and also explained some of the low-level mechanics and limitations of CLI wrappers. Depending on the degree of control you wish to have on the subprocess and output streams, you may prefer base-R, sys, or processx.
 
-In [rOpenSci Software Peer-Review](/software-review/), at the moment of writing, Scientific Software Wrappers is a category [in scope](https://devguide.ropensci.org/policies.html#package-categories).
+Scientific Software Wrappers is a category in scope for [rOpenSci Software Peer-Review](/software-review/) as explained in our [devguide](https://devguide.ropensci.org/policies.html#package-categories):
 
->  Packages that wrap non-R utility programs used for scientific research. These programs must be specific to research fields, not general computing utilities. Wrappers must be non-trivial, in that there must be significant added value above simple system() call or bindings, whether in parsing inputs and outputs, data handling, etc. Improved installation process, or extension of compatibility to more platforms, may constitute added value if installation is complex. This does not include wrappers of other R packages or C/C++ libraries that can be included in R packages. We strongly encourage wrapping open-source and open-licensed utilities - exceptions will be evaluated case-by-case, considering whether open-source options exist.
+_Packages that wrap non-R utility programs used for scientific research. These programs must be specific to research fields, not general computing utilities. Wrappers must be non-trivial, in that there must be significant added value above simple system() call or bindings, whether in parsing inputs and outputs, data handling, etc. Improved installation process, or extension of compatibility to more platforms, may constitute added value if installation is complex. This does not include wrappers of other R packages or C/C++ libraries that can be included in R packages. We strongly encourage wrapping open-source and open-licensed utilities - exceptions will be evaluated case-by-case, considering whether open-source options exist._
 
+We encourage authors of packages containing software wrappers to explore the options and make an informed decision on if, and how, to wrap CLI utilities in R packages.
