@@ -59,7 +59,7 @@ Finally, a practical issue with CLI wrappers is that the external program often 
 
 Especially on Windows, many programs are not on the PATH, and the R wrapper may first need to find the installation path to execute the program. This is another major disadvantage in comparison with C/C++ libraries, which can be linked into the R package when it is built and do not require manual installation by the end-user. But when writing CLI wrappers you need to keep in mind that the program you are trying to execute may not even exist.
 
-For R packages with CLI wrappers it is important to declare external dependencies in the SystemRequirements fields in the package description file. This formally states that there is some additional piece of software needed to make the package work, and provides a hint for e.g. CI services to try and automate installation, if possible.
+For R packages with CLI wrappers it is important to name extra dependencies in the SystemRequirements field in the package description file. Thereby you formally declare that some additional piece of software is needed to make the package work, which also provides a hint for e.g. CI services to try and automate installation if possible.
 
 ## The alternative: foreign language interfaces
 
