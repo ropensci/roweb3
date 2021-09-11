@@ -59,16 +59,17 @@ Finally, a practical issue with CLI wrappers is that the external program often 
 
 Especially on Windows, many programs are not on the PATH, and the R wrapper may first need to find the installation path to execute the program. This is another major disadvantage in comparison with C/C++ libraries, which can be linked into the R package when it is built and do not require manual installation by the end-user. But when writing CLI wrappers you need to keep in mind that the program you are trying to execute may not even exist.
 
+For R packages with CLI wrappers it is important to declare external dependencies in the SystemRequirements fields in the package description file. This formally states that there is some additional piece of software needed to make the package work, and provides a hint for e.g. CI services to try and automate installation, if possible.
 
 ## The alternative: foreign language interfaces
 
-If the software you need provides an alternative interface, or a similar program exists that does, this might provide a better basis than a CLI tool.
+If the software you need has an alternative interface, or a similar program exists that does, this might be a better basis for an R package than a CLI tool.
 
 When possible, the most robust way to interface with external libraries is via C or C++. Because R itself is written in C, calling a C or C++ library takes almost zero overhead. To get started with wrapping C libraries, check out [Davis Vaughan's blog post](https://blog.davisvaughan.com/2019/03/02/now-you-c-me/). For C++ dive into either [Rcpp](https://adv-r.hadley.nz/rcpp.html) or the more recent [cpp11](https://cpp11.r-lib.org/articles/cpp11.html).
 
 Examples of rOpenSci packages interfacing to C/C++ interfaces include [magick](https://docs.ropensci.org/magick) (imagemagick), [pdftools](https://docs.ropensci.org/pdftools) (poppler), [ijtiff](https://docs.ropensci.org/ijtiff) (libtiff), [gert](https://docs.ropensci.org/gert) (libgit2), and many more. The "system dependencies" column in the [r-universe dashboard](https://ropensci.r-universe.dev/) shows the C/C++ libraries that R package are interfacing with.
 
-Some software does not provide a C/C++ API but can be called via Python or JavaScript. In this case, you could use [reticulate](https://rstudio.github.io/reticulate/) or [V8](https://cran.r-project.org/web/packages/V8/vignettes/v8_intro.html) to create an R wrapper. Running external software through Python or JavaScript is not quite as performant as C/C++, but reticulate and V8 provide a solid bridge to exchange data and exceptions, so these packages are often more reliable than a CLI wrapper.
+Some software does not have a C/C++ API but can be called via Python or JavaScript. In this case, you could use [reticulate](https://rstudio.github.io/reticulate/) or [V8](https://cran.r-project.org/web/packages/V8/vignettes/v8_intro.html) to create an R wrapper. Running external software through Python or JavaScript is not quite as performant as C/C++, but reticulate and V8 provide a solid bridge to exchange data and exceptions, so these packages are often more reliable than a CLI wrapper.
 
 ## Several tools for calling a CLI program from R
 
@@ -82,7 +83,7 @@ Depending on your needs you may prefer one or another solution.
 
 ### Base system/system2
 
-Base-R provides functions `system` and `system2`. The R [source code](https://github.com/wch/r-source/blob/c65ce1f39fa9b831490e384a567c3bcab7b81141/src/library/base/R/unix/system.unix.R#L19-L52) for these functions is self-explanatory: all the arguments and options are combined into one big shell command, which is then passed to a local shell (`sh` on unix or `cmd` on Windows).
+Base-R includes functions `system` and `system2`. The R [source code](https://github.com/wch/r-source/blob/c65ce1f39fa9b831490e384a567c3bcab7b81141/src/library/base/R/unix/system.unix.R#L19-L52) for these functions is self-explanatory: all the arguments and options are combined into one big shell command, which is then passed to a local shell (`sh` on unix or `cmd` on Windows).
 For example, if you run this in R:
 
 ```r
@@ -136,11 +137,11 @@ rawToChar(out$stdout)
 
 Note that stdout here is a raw vector, in order to supports commands that give binary output. Use `base::rawToChar()` or `sys::as_text()` to convert a raw vector into a string.
 
-Sys also provides basic functionality to spawn a background process with `exec_background()` however for this use case the processx package may be a better fit.
+Sys also includes functionality to spawn a background process with `exec_background()` however for this use case the processx package may be a better fit.
 
 ### The processx package
 
-The [processx package](https://processx.r-lib.org/reference/index.html) is much more advanced. It provides a very extensive framework for executing and controlling many processes simultaneously from R. The `processx::run()` function implements the simple execute-and-wait scenario similar to base or sys, (but with [many more options](https://processx.r-lib.org/reference/run.html)):
+The [processx package](https://processx.r-lib.org/reference/index.html) is much more advanced. It implements a very powerful framework for executing and controlling many processes simultaneously from R. The `processx::run()` function implements the simple execute-and-wait scenario similar to base or sys, (but with [many more options](https://processx.r-lib.org/reference/run.html)):
 
 ```r
 processx::run('whoami')
@@ -157,7 +158,7 @@ processx::run('whoami')
 ## [1] FALSE
 ```
 
-Where processx really stands out is the capability to manage execution of many concurrent background processes, without blocking R. It provides an [extensive API](https://processx.r-lib.org/reference/process.html) for launching and controlling processes through objects of a special `process` class. 
+Where processx really stands out is the capability to manage execution of many concurrent background processes, without blocking R. It has an [extensive API](https://processx.r-lib.org/reference/process.html) for launching and controlling processes through objects of a special `process` class. 
 
 ```r
 library(processx)
