@@ -48,7 +48,7 @@ This can again lead to bugs when they get joined into the shell command that is 
 The output of a command line program only consists of an exit code (an integer indicating if the execution was successful) and two text streams which the program prints to the screen. When invoked from R, we can capture these text streams, which results in two large strings, in addition to the exit code. This is all that we get back from executing a system command.
 
 Hence, there is no return object, or exception handling if a problem appears in called program.
-This means that if we interface with a CLI tool in R and an error appears, the best we can do is to show the output text from the program to the user; we cannot programmatically handle errors.
+This means that if we interface with a CLI tool in R and an error appears, the best we can do is to show the output text from the program to the user; we cannot programmatically handle errors. Also complications with signal handling can occur when the command is executed from a parallel (multicore) process in R (which can cause programs to die unexpectedly in some cases).
 
 Because we have no shared memory, there is also no good way for R to inspect or control the command line program while it is running. From the R point of view, the external program is basically a black box.
 
