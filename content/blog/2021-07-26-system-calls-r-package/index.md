@@ -1,16 +1,15 @@
 ---
 title: How to Use System Commands in your R Script or Package
 author:
-  - Maëlle Salmon
   - Jeroen Ooms
-date: '2021-07-26'
+  - Maëlle Salmon
+date: '2021-09-13'
 slug: system-calls-R-package
-categories: []
 tags:
   - tech notes
   - processx
   - sys
-description: Way (not) to call the system from your R package.
+description: Ways (not) to call the system from your R package.
 output:
   html_document:
     keep_md: yes
@@ -27,7 +26,7 @@ But we start with some words of caution about the limitations of this approach, 
 ## Downsides of system commands
 
 When possible, it is usually better to use a C, C++ (or even JS, Python...) interface to interact with external software, rather than calling a command-line interface (CLI).
-A CLI is mainly intended for interactive use by a human, with free-form text as input and output. To programatically interface with external software, a foreign language API is typically more robust and performant.
+A CLI is mainly intended for interactive use by a human, with free-form text as input and output. To programmatically interface with external software, a foreign language API is typically more robust and performant.
 
 The core issue is that each CLI execution starts a new process.
 Because processes don't share memory, the only interaction with the executing program is via free text streams (pipes) between R and the child process.
@@ -81,9 +80,9 @@ Now that we have warned you, let's move on to the main topic of this post: how t
 
 Depending on your needs you may prefer one or another solution.
 
-### Base system/system2
+### Base system()/system2()
 
-Base-R includes functions `system` and `system2`. The R [source code](https://github.com/wch/r-source/blob/c65ce1f39fa9b831490e384a567c3bcab7b81141/src/library/base/R/unix/system.unix.R#L19-L52) for these functions is self-explanatory: all the arguments and options are combined into one big shell command, which is then passed to a local shell (`sh` on unix or `cmd` on Windows).
+Base-R includes functions `system()` and `system2()`. The R [source code](https://github.com/wch/r-source/blob/c65ce1f39fa9b831490e384a567c3bcab7b81141/src/library/base/R/unix/system.unix.R#L19-L52) for these functions is self-explanatory: all the arguments and options are combined into one big shell command, which is then passed to a local shell (`sh` on unix or `cmd` on Windows).
 For example, if you run this in R:
 
 ```r
@@ -101,7 +100,7 @@ During the program execution, we don't know what is going on; R blocks and waits
 
 ### The sys package
 
-The [sys package](https://github.com/jeroen/sys#sys) is a small powerful package (mostly C code without dependencies) to run commands. The core of the package was designed to mimic the `system2` API, but the internals are very different to give more control over the running process.
+The [sys package](https://github.com/jeroen/sys#sys) by Jeroen Ooms is a small powerful package (mostly C code without dependencies) to run commands. The core of the package was designed to mimic the `system2()` API, but the internals are very different to give more control over the running process.
 
 Instead of combining all input in a large shell command that writes output to files in disk, sys invokes the target program directly, and manages input and output by creating in-memory pipes between R and the child process. This makes it possible to use callback functions to handle output from the program immediately while it is being printed, and finally return the exit code for the process. It can also safely be interrupted at any time by pressing ESC or ctrl+C:
 
@@ -141,7 +140,7 @@ Sys also includes functionality to spawn a background process with `exec_backgro
 
 ### The processx package
 
-The [processx package](https://processx.r-lib.org/reference/index.html) is much more advanced. It implements a very powerful framework for executing and controlling many processes simultaneously from R. The `processx::run()` function implements the simple execute-and-wait scenario similar to base or sys, (but with [many more options](https://processx.r-lib.org/reference/run.html)):
+The [processx package](https://processx.r-lib.org/reference/index.html) by Gábor Csárdi is much more advanced. It implements a very powerful framework for executing and controlling many processes simultaneously from R. The `processx::run()` function implements the simple execute-and-wait scenario similar to base or sys, (but with [many more options](https://processx.r-lib.org/reference/run.html)):
 
 ```r
 processx::run('whoami')
@@ -172,7 +171,7 @@ p$is_alive()
 ## [1] FALSE
 ```
 
-Processx makes it possible to implement [very advanced things in R](https://www.tidyverse.org/blog/2018/09/processx-3.2.0/#advanced-usage-background-processes), such as a multicore webserver or parallel processing framework, but it is much more complicated than base-R or sys. If you just need to execute a single command and get it's output, depending on processx may be overkill, but for advanced applications it is definitely the most powerful of the three.
+Processx makes it possible to implement [very advanced things in R](https://www.tidyverse.org/blog/2018/09/processx-3.2.0/#advanced-usage-background-processes), such as a multicore webserver or parallel processing framework, but it is much more complicated than base-R or sys. If you just need to execute a single command and get its output, depending on processx may be overkill, but for advanced applications it is definitely the most powerful of the three.
 
 
 ## Conclusion
