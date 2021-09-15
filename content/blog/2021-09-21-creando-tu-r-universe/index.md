@@ -8,6 +8,7 @@ categories: []
 tags:
   - r-universe
   - Spanish
+  - community
 package_version: 0.1.0
 description: A very short summary of your post (~ 100 characters)
 twitterImg: blog/2019/06/04/post-template/name-of-image.png
@@ -60,7 +61,7 @@ b. luego haces click en el signo más (+) que se encuentra arriba a la derecha y
 
 c. En la pantalla *Create new repository* completamos el *repository name (nombre del repositorio)* con **universe** (paso 3), seleccionamos el repositorio como *public (público)* (paso 4) y lo generamos presionando el botón *Create repository (crear repositorio)* (paso 5).
 
-### Paso 2. Detallar los paquetes que agregaremos a nuestro universo
+### Paso 2. detallar los paquetes que agregaremos a nuestro universo
 Una vez que el repositorio se creó se nos mostrará una pantalla con opciones para iniciar ese repo (ver figura siguiente).
 
 {{< figure src = "r_univserse_repo_vacio.png" alt = "ADD ALT TEXT" >}}
@@ -106,7 +107,7 @@ El panel personal se parece a la siguiente figura.
 Allí se presentan tus datos del perfil de github y la información de los paquetes que agregaste a tu universo.
 
 
-### Paso 5: Contale a tus usuarios de universo-r
+### Paso 5: contale a tus usuarios de universo-r
 
 Este paso es opcional, pero una linda idea, podés agregar al *readme* de tus paquetes que están disponibles en *r-universe* con instrucciones para instalarlos y agregando una etiqueta que indique que están en *r-universe*.
 
