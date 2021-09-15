@@ -19,7 +19,9 @@ output:
 ---
 
 
-> This post is cross-posted from it's original publication on [Yanina Bellini Saibene's blog](https://yabellini.netlify.app/es/post/r_universe/)
+> This is a cross-post from 
+> [Yanina Bellini Saibene's blog](https://yabellini.netlify.app/es/post/r_universe/), 
+> originally published July 17th 2021
 
 Durante [useR! 2021](https://user2021.r-project.org/) Jeroen Ooms presentó [el proyecto universo R](https://jeroen.github.io/user2021/#1) en su *keynote*. 
 Comentó sobre el proyecto, los casos de uso y repasó las instrucciones para crear tu propio *universo-r*. En este post the explico como crear el tuyo a partir de la experiencia de crear el mio.
