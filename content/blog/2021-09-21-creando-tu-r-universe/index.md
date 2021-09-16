@@ -52,7 +52,7 @@ Durante esta charla, el disertante, compartió [este blog post](blog/2021/06/22/
 
 La siguiente figura resume los pasos a seguir para crear el resposirio necesario para generar nuestro `universo-r`:
 
-{{< figure src = "r_univserse_crear_repo.png" alt = "ADD ALT TEXT" >}}
+{{< figure src = "r_univserse_crear_repo.png" alt = "Ventana de github para crear un repositorio nuevo con los pasos 1 a 5 que se explican en el texto debajo de esta figura marcado en la imágen." >}}
 
 
 a. Crea un nuevo repositorio llamado `universe` en tu cuenta de GitHub. Para eso ingresas a tu cuenta de github (paso 1),
@@ -64,7 +64,7 @@ c. En la pantalla *Create new repository* completamos el *repository name (nombr
 ### Paso 2. detallar los paquetes que agregaremos a nuestro universo
 Una vez que el repositorio se creó se nos mostrará una pantalla con opciones para iniciar ese repo (ver figura siguiente).
 
-{{< figure src = "r_univserse_repo_vacio.png" alt = "ADD ALT TEXT" >}}
+{{< figure src = "r_univserse_repo_vacio.png" alt = "página de github con las opciones: Quick setup - si ya hiciste esto antes, creá un nuevo repositorio desde la línea de comando ó push un repositorio existente desde la linea de comando. La opción creatin a new file está resaltada." >}}
 
 a. Presionar en el link *create a new file (crear un nuevo archivo)* (paso 1) para generar un archivo llamado `packages.json`. Este archivo debe enumerar los repositorios de los paquetes que queremos incluir en nuestro `universo-r`.
 
@@ -76,7 +76,7 @@ b. Completar este archivo con los datos de los paquetes siguiendo el siguiente f
 
 En la figura se ven los paquetes que yo agregué a mi universo.
 
-{{< figure src = "r_univserse_packages.png" alt = "ADD ALT TEXT" >}}
+{{< figure src = "r_univserse_packages.png" alt = "JSON con los paquetes agregados y el formato explicado en el párrafo anterior." >}}
 
 d. Cuando terminamos de completar los datos, presionamos en el botón Commit new file. Se mostrará una pantalla similar a la siguiente figura.
 
@@ -85,24 +85,24 @@ d. Cuando terminamos de completar los datos, presionamos en el botón Commit new
 En este paso debes instalar la aplicación R-universe en tu cuenta de GitHub haciendo click en [este link](https://github.com/apps/r-universe/installations/new) y seleccionando tu cuenta de la primera pantalla que aparece (paso 1 en la siguiente figura). 
 En la segunda pantalla se recomienda seleccionar *all the repositories (todos los repositorios)* (paso 2) y luego hacer click en el botón *Next (siguiente)* (paso 3).
 
-{{< figure src = "r_univserse_instalar_app.png" alt = "ADD ALT TEXT" >}}
+{{< figure src = "r_univserse_instalar_app.png" alt = "Primero la ventana ¿dónde queres instalar r-universe? con el listado de mi cuenta de github y organizaciones de las que soy parte.", luego la ventana instalar en cuenta personal con la opción todos los repositorios seleccionada y el botón Siguiente resaltado.>}}
 
 Se nos presentará la siguiente imágen dandonos la bienvenida al *universo-r*
 
-{{< figure src = "r_universe_listo.png" alt = "ADD ALT TEXT" >}}
+{{< figure src = "r_universe_listo.png" alt = "pantalla de bienvenida al r-universe.  Presenta un mení al lado izquierdo con las opciones (en inglés) de paquetes, artículos, universos, personas que mantienen, setup, acerca de, fuente y ayuda. Al lado derecho, texto de bienvenida e instrucciones sobre r-universe">}}
 
 
 ### Paso 4: R-universe listo
 
 Una vez que se haya instalado la aplicación, el sistema creará automáticamente tu repositorio personal bajo la organización *r-universe*: `https://github.com/r-universe/<tu_nombre_de_usuario>` (ver imagen siguiente). Aquí es donde el sistema mantiene el historial completo de tus paquetes .
 
-{{< figure src = "r_universe_repo_creado.png" alt = "ADD ALT TEXT" >}}
+{{< figure src = "r_universe_repo_creado.png" alt = "mi repositorio r-universe" >}}
 
 Después de un par de minutos, por lo general, no más de una hora (en mi caso fueron unos 15 minutos), los paquetes y artículos de los que se hayan completado la compilación en todas las plataformas comenzarán a aparecer en tu panel personal y estarán disponibles para que los usuarios los instalen.
 
 El panel personal se parece a la siguiente figura.
 
-{{< figure src = "r_universe_panel.png" alt = "ADD ALT TEXT" >}}
+{{< figure src = "r_universe_panel.png" alt = "El panel personal tiene 3 columnas, el menú de la izquierda es el mismo que en la bienvenida, al medio el listado de paquetes y a la derecha mi perfil sacado de github.  Debajo de mi perfil un listado de las otras personas que mantienen los paquetes que tengo en mi r-universe." >}}
 
 Allí se presentan tus datos del perfil de github y la información de los paquetes que agregaste a tu universo.
 
@@ -133,6 +133,6 @@ por ejemplo,
 
 genera la etiqueta que se ve en la siguiente figura, mostrando la versión del paquete disponible en *r-universe*:
 
-{{< figure src = "r_universe_readme.png" alt = "ADD ALT TEXT" >}}
+{{< figure src = "r_universe_readme.png" alt = "readme del paquete learners con la etiqueta de r-universe" >}}
 
 ¡Esto es todo!, espero que este paso a paso te ayude a generar tu propio *universo-r* con tus paquetes.
