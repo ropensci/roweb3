@@ -80,12 +80,15 @@ En la figura se ven los paquetes que yo agregué a mi universo.
 
 c. Cuando terminamos de completar los datos, presionamos en el botón _Commit new file_. Se mostrará una pantalla similar a la siguiente figura.
 
+{{< figure src = "r_univserse_repo_listo.png" alt = "ALT TEXT HERE" >}}
+
+
 ### Paso 3: instalar la aplicación R-universe en GitHub
 
 En este paso debes instalar la aplicación R-universe en tu cuenta de GitHub haciendo click en [este link](https://github.com/apps/r-universe/installations/new) y seleccionando tu cuenta de la primera pantalla que aparece (paso 1 en la siguiente figura). 
 En la segunda pantalla se recomienda seleccionar *all the repositories (todos los repositorios)* (paso 2) y luego hacer click en el botón *Next (siguiente)* (paso 3).
 
-{{< figure src = "r_univserse_instalar_app.png" alt = "Primero la ventana ¿dónde queres instalar r-universe? con el listado de mi cuenta de github y organizaciones de las que soy parte.", luego la ventana instalar en cuenta personal con la opción todos los repositorios seleccionada y el botón Siguiente resaltado.>}}
+{{< figure src = "r_univserse_instalar_app.png" alt = "Primero la ventana ¿dónde queres instalar r-universe? con el listado de mi cuenta de github y organizaciones de las que soy parte, luego la ventana instalar en cuenta personal con la opción todos los repositorios seleccionada y el botón Siguiente resaltado.">}}
 
 Se nos presentará la siguiente imágen dandonos la bienvenida al *universo-r*
 
