@@ -11,8 +11,6 @@ tags:
   - community
 package_version: 0.1.0
 description: A very short summary of your post (~ 100 characters)
-twitterImg: blog/2019/06/04/post-template/name-of-image.png
-twitterAlt: Alternative description of the image
 tweet: A post about blabla by @username!
 output:
   html_document:
