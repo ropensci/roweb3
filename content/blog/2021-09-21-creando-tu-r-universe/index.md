@@ -41,7 +41,7 @@ El subdominio tendrá *tu nombre de usuario* de github, más el dominio `r-unive
 `https://yabellini.r-universe.dev/`
 
 Una de las características más interesantes es que puedes empezar a instalar los paquetes que están en tu *universo-r* con la función `install.packages` aunque el paquete no esté en CRAN. 
-Esta funcionalidad es muy interesante para quines somos docentes y generamos paquetes para nuestras clases.
+Esta funcionalidad es muy interesante para quienes somos docentes y generamos paquetes para nuestras clases.
 
 ## Cómo generar tu propio universo
 
@@ -78,7 +78,7 @@ En la figura se ven los paquetes que yo agregué a mi universo.
 
 {{< figure src = "r_univserse_packages.png" alt = "JSON con los paquetes agregados y el formato explicado en el párrafo anterior." >}}
 
-d. Cuando terminamos de completar los datos, presionamos en el botón Commit new file. Se mostrará una pantalla similar a la siguiente figura.
+c. Cuando terminamos de completar los datos, presionamos en el botón _Commit new file_. Se mostrará una pantalla similar a la siguiente figura.
 
 ### Paso 3: instalar la aplicación R-universe en GitHub
 
