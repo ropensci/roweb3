@@ -36,7 +36,7 @@ With the R programming language becoming increasingly popular among academics, r
 
 This idea then became [rspatialdata](https://rspatialdata.github.io/) - a collection of data sources and tutorials on downloading and visualising spatial data using R.
 
-{{< figure src = "rspatialdata-home.jpg" width = "600" alt = "Screenshot of rspatialdata homepage featuring multicoloured tiles each outlining a different type of spatial data" class = "center" link = "https://rspatialdata.github.io/">}}
+{{< figure src = "rspatialdata-home.jpg" width = "800" alt = "Screenshot of rspatialdata homepage featuring multicoloured tiles each outlining a different type of spatial data" class = "center" link = "https://rspatialdata.github.io/">}}
 
 rspatialdata consists of a non-exhaustive list of R-packages which have been developed as clients for different spatio-temporal databases and APIs. It also consists of tutorials on how to use these R packages, understand the different types of spatial data objects available and create visualizations using them. After doing a lot of research, we managed to pick out a few R-packages which we were confident gave up-to-date data from reliable sources.
 
@@ -102,8 +102,9 @@ Although this may look like a tedious process, the rdhs package makes it very sm
 
 Read through our tutorial on [Demographic and Health Surveys (DHS)](https://rspatialdata.github.io/dhs-data.html) for more details on how to use the rdhs package.
 
+Also, don't forget to have a look at our [administrative boundaries tutorial](https://rspatialdata.github.io/admin_boundaries.html) which runs you through creating outline maps of countries and their administrative divisions, our [population tutorial](https://rspatialdata.github.io/population.html) which runs you through visualizing population estimates of countries using choropleth maps and cartograms, and our tutorials on  [elevation](https://rspatialdata.github.io/elevation.html), [temperature](https://rspatialdata.github.io/temperature.html), [malaria](https://rspatialdata.github.io/malaria.html), and [air pollution](https://rspatialdata.github.io/air_pollution.html) for ideas on how to download and visualize each respective property.
 
+**Our goal for rspatialdata is not to be a comprehensive list of R packages or tutorials, but to be a starting point for anyone to find and download spatial data related to different domains, and visualize different types of spatial data objects using different approaches.**
 
-
-> Our goal for rspatialdata was not to be a comprehensive list of R packages or tutorials, but to be a starting point for anyone to find and download spatial data related to different domains, and visualize different types of spatial data objects using different approaches. So give it a go and let us know how you did!
+You just read through some of the things we enjoyed while creating [rspatialdata](https://rspatialdata.github.io/). We are excited for you to try it out too! So give it a go, get creative with it, and let us know how you did!
 
