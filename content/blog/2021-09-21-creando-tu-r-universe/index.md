@@ -10,8 +10,8 @@ tags:
   - Spanish
   - community
 package_version: 0.1.0
-description: A very short summary of your post (~ 100 characters)
-tweet: A post about blabla by @username!
+description: En este post te explico como crear tu r-universe, a partir de la experiencia de crear el mio.
+tweet: En este post @yabellini te explica como crear tu r-universe usando como ejemplo el paso a paso de crear el suyo.
 output:
   html_document:
     keep_md: yes
@@ -78,7 +78,7 @@ En la figura se ven los paquetes que yo agregué a mi universo.
 
 c. Cuando terminamos de completar los datos, presionamos en el botón _Commit new file_. Se mostrará una pantalla similar a la siguiente figura.
 
-{{< figure src = "r_univserse_repo_listo.png" alt = "ALT TEXT HERE" >}}
+{{< figure src = "r_univserse_repo_listo.png" alt = "repo con el archivo packages.json" >}}
 
 
 ### Paso 3: instalar la aplicación R-universe en GitHub
