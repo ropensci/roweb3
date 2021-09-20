@@ -64,7 +64,7 @@ Have a read through our [Open Street Map data tutorial](https://rspatialdata.git
 
 ## Visualizing vegetation in Mongolia and land cover in Zimbabwe using [MODIStsp](https://docs.ropensci.org/MODIStsp/)
 
-[MODIS (Moderate Resolution Imaging Spectroradiometer)](https://modis.gsfc.nasa.gov/) is an instrument aboard the NASA Terra and Aqua satellites, which orbits the entire Earth every 1-2 days, acquiring data at different spatial resolutions. The data acquired by MODIS describes features of the land, oceans and the atmosphere.
+[MODIS (Moderate Resolution Imaging Spectroradiometer)](https://modis.gsfc.nasa.gov/) is an instrument aboard the NASA Terra and Aqua satellites, which orbit the entire Earth every 1-2 days, acquiring data at different spatial resolutions. The data acquired by MODIS describes features of the land, oceans and the atmosphere.
 
 MODIStsp - an acronym for ‘MODIS Time Series Processing’ (by [Lorenzo Busetto](https://github.com/lbusett) and [Luigi Ranghetti](https://github.com/ranghetti)), is an R package for downloading and pre-processing time series raster data from MODIS [data products](https://modis.gsfc.nasa.gov/data/dataprod/).
 
@@ -104,7 +104,10 @@ Read through our tutorial on [Demographic and Health Surveys (DHS)](https://rspa
 
 Also, don't forget to have a look at our [administrative boundaries tutorial](https://rspatialdata.github.io/admin_boundaries.html) which runs you through creating outline maps of countries and their administrative divisions, our [population tutorial](https://rspatialdata.github.io/population.html) which runs you through visualizing population estimates of countries using choropleth maps and cartograms, and our tutorials on  [elevation](https://rspatialdata.github.io/elevation.html), [temperature](https://rspatialdata.github.io/temperature.html), [malaria](https://rspatialdata.github.io/malaria.html), and [air pollution](https://rspatialdata.github.io/air_pollution.html) for ideas on how to download and visualize each respective property.
 
+You just read through some of the things we enjoyed while creating [rspatialdata](https://rspatialdata.github.io/). We are excited for you to try it out too! So give it a go, get creative with it, and let us know how you did! 
+
 **Our goal for rspatialdata is not to be a comprehensive list of R packages or tutorials, but to be a starting point for anyone to find and download spatial data related to different domains, and visualize different types of spatial data objects using different approaches.**
 
-You just read through some of the things we enjoyed while creating [rspatialdata](https://rspatialdata.github.io/). We are excited for you to try it out too! So give it a go, get creative with it, and let us know how you did!
+So if you can think of more any R-packages that would fit into this collection or ideas on new tutorials or cool spatial visualizations, do reach out to us! Let's talk about how we can collaborate!
+
 
