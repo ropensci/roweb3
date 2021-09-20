@@ -30,29 +30,29 @@ As two postgrad students on summer vacation but with no travel plans (during thi
 
 We also ended up [presenting our project at useR! 2021](https://www.youtube.com/watch?v=nLikORFBKgk), and winning an award for the most outstanding lightning talk! So, keep reading to see how we got there!
 
-Although there is so much data being collected in multiple disciplines and made openly available, not many know how to retrieve and utilize these resources. Spatial and spatio-temporal data are two of the most commonly collected data types and also used in research across a wide range of domains.
+Although there is so much data being collected in multiple disciplines and made openly available, it may be difficult to find, retrieve and utilize these resources. Spatial and spatio-temporal data are two data types which are collected and used in research across a diverse array of domains.
 
-With the R programming language becoming increasingly popular among academics, researchers, and scientists, and because spatial data is easier to interpret when visualized, Paula thought it would be a great idea to create a repository of data sources and simple tutorials on how to retrieve and visualize spatial data using R.
+With the R programming language becoming increasingly popular among academics, researchers, and scientists, and because spatial data is easier to interpret when visualized, Paula thought it would be a great idea to create a repository of data sources and simple tutorials on how to retrieve and visualize spatial data using R, during our time as interns at KAUST.
 
-This idea then became [rspatialdata](https://rspatialdata.github.io/) - a collection of data sources and tutorials on downloading and visualising spatial data using R.
+This idea became [rspatialdata](https://rspatialdata.github.io/) - a collection of data sources and tutorials on downloading and visualising spatial data using R.
 
 {{< figure src = "rspatialdata-home.jpg" width = "800" alt = "Screenshot of rspatialdata homepage featuring multicoloured tiles each outlining a different type of spatial data" class = "center" link = "https://rspatialdata.github.io/">}}
 
-rspatialdata consists of a non-exhaustive list of R-packages which have been developed as clients for different spatio-temporal databases and APIs. It also consists of tutorials on how to use these R packages, understand the different types of spatial data objects available and create visualizations using them. After doing a lot of research, we managed to pick out a few R-packages which we were confident gave up-to-date data from reliable sources.
+[rspatialdata](https://rspatialdata.github.io/) consists of a non-exhaustive list of R-packages which have been developed as clients for different spatio-temporal databases and APIs. It also consists of tutorials on how to use these R packages, understand the different types of spatial data objects available and create visualizations using them. After doing a lot of research, we managed to pick out a few R-packages which we were confident gave up-to-date data from reliable sources.
 
 Coincidentally, much of what we picked out happened to be rOpenSci packages! We were amazed at how rich and easy to use most of these packages were. So here is our experience using those packages and some things we really enjoyed doing!
 
 
 ## Downloading boundaries of countries using [rnaturalearth](https://docs.ropensci.org/rnaturalearth)
 
-The rnaturalearth package (by [Andy South](https://github.com/andysouth)) facilitates communication with [Natural earth](http://www.naturalearthdata.com/) map data. It allows us to easily download and visualize boundaries of countries and boundaries of states within countries as well.
+The rnaturalearth package (by [Andy South](https://github.com/andysouth)) facilitates communication with [Natural earth](http://www.naturalearthdata.com/) map data. It allows you to easily download and visualize boundaries of countries and boundaries of states within countries as well.
 
 We used rnaturalearth to download the boundaries of countries in many of our tutorials - including our tutorials on [elevation](https://rspatialdata.github.io/elevation.html), [rainfall](https://rspatialdata.github.io/rainfall.html) and [humidity](https://rspatialdata.github.io/humidity.html).
 
 
 ## Visualizing hospitals in Lagos, Nigeria using [osmdata](https://docs.ropensci.org/osmdata/)
 
-osmdata (by [Mark Padgham](/author/mark-padgham/)) is an R package for downloading spatial data from [OpenStreetMap (OSM)](https://www.openstreetmap.org/) - a very cool open source project. We were amazed at the huge variety of spatial features available to us! We were able to download spatial data about almost anything from amenities such as colleges, cinemas, hospitals and banks, to different types of highways and streets such as motorways, residential streets and service lanes.
+osmdata (by [Mark Padgham](/author/mark-padgham/), [Robin Lovelace](/author/robin-lovelace/), [Maëlle Salmon](/author/maëlle-salmon/) and [Bob Rudis](/author/bob-rudis/)) is an R package for downloading spatial data from [OpenStreetMap (OSM)](https://www.openstreetmap.org/) - a very cool open source project. We were amazed at the huge variety of spatial features available to us! We were able to download spatial data about almost anything from amenities such as colleges, cinemas, hospitals and banks, to different types of highways and streets such as walking and bicycle paths, residential streets, motorways and service lanes.
 
 We used the osmdata package to download and visualize hospitals in Lagos, Nigeria. Then we also downloaded spatial data for different types of highways, streets and waterways in Lagos, and created the following map entirely using data retrieved through osmdata!
 
@@ -85,7 +85,7 @@ nasapower (by [Adam Sparks](/author/adam-sparks/)) is a client for the '[NASA PO
 
 We used the nasapower package to retrieve rainfall and humidity data, and it was such a simple task. We only had to submit the duration of data we needed along with the geographical location, and the package took care of all the hard work.
 
-We downloaded relative humidity and rainfall data using the nasapower package and then visualized the relative humidity in Western Australia and the rainfall in Gansu, China.
+We downloaded relative humidity and rainfall data and then visualized the relative humidity in Western Australia and the rainfall in Gansu, China.
 
 {{< figure src = "relative-humidity-western-australia.jpg" width = "600" alt = "An outline map of Australia and its states. The area of Western Australia is coloured by its relative humidity, with the coastal regions colored in yellow showing higher relative humidity, and the central region of Australia colored in dark blue showing much lower relative humidity." class = "center" link = "https://rspatialdata.github.io/humidity.html" >}}
 
