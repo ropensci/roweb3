@@ -6,7 +6,8 @@
   "type": "{{ $page.Type }}",
 	"path": "{{ $page.RelPermalink }}",
 	"title": "{{ htmlEscape $page.Title}}",
-	"description": "{{ $description | chomp | htmlEscape }}"
+	"description": "{{ $description | chomp | htmlEscape }}",
+	"tags": "{{ $page.Params.tags }}"
 }
 {{- end -}}
 {{- end -}}]
