@@ -71,7 +71,7 @@ autocomplete("#search-input", options, [
       source: searchFuse,
       templates: {
         suggestion: (s) => {
-            return `${s.title}`;
+            return `[${s.type}] ${s.title}`;
          
         },
       },
