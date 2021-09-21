@@ -26,7 +26,7 @@
     var data = await response.json();
 
     var options = {
-      keys: ["title", "description"],
+      keys: ["title", "description", "tags"],
       ignoreLocation: true,
       threshold: 0.1,
       includeMatches: true,
