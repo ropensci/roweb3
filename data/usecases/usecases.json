@@ -853,5 +853,32 @@
     "url": "https://discuss.ropensci.org/t/informal-package-review-using-ropensci-review-template/2570",
     "image": "noimage",
     "date": "2021-08-04"
+  },
+  {
+    "title": "Bayesian Regression Analysis with Rstanarm (with GSODR for supporting data)",
+    "reporter": "Adam Sparks",
+    "tags": "gsodr",
+    "resource": "[GSODR](https://docs.ropensci.org/GSODR)",
+    "url": "https://discuss.ropensci.org/t/bayesian-regression-analysis-with-rstanarm-with-gsodr-for-supporting-data/2603",
+    "image": "noimage",
+    "date": "2021-09-02"
+  },
+  {
+    "title": "Slicing an image with magick for artistic effect",
+    "reporter": "Georgios Karamanis",
+    "tags": "magick",
+    "resource": "[magick](https://docs.ropensci.org/magick)",
+    "url": "https://discuss.ropensci.org/t/slicing-an-image-with-magick-for-artistic-effect/2609",
+    "image": "slicing-an-image-with-magick-for-artistic-effect.jpeg",
+    "date": "2021-09-07"
+  },
+  {
+    "title": "Using stplanr to find shortest road network distance to a TB treatment clinic from a TB patients' household.",
+    "reporter": "McEwen Khundi",
+    "tags": [],
+    "resource": "stplanr r package",
+    "url": "https://discuss.ropensci.org/t/using-stplanr-to-find-shortest-road-network-distance-to-a-tb-treatment-clinic-from-a-tb-patients-household/2621",
+    "image": "using-stplanr-to-find-shortest-road-network-distance-to-a-tb-treatment-clinic-from-a-tb-patients-household.jpeg",
+    "date": "2021-09-20"
   }
 ]
