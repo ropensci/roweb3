@@ -525,6 +525,16 @@ As the maintainer of an rOpenSci package, feel free to contact us on Slack or em
 
 Some useful tips for R package developers. :eyes:
 
+Short anti-struggle list:
+
+* Struggling to write graceful R package examples for CRAN?
+Let's remind you of [`@examplesIf` in the latest `roxygen2`](https://roxygen2.r-lib.org/articles/rd.html#functions).
+
+* Struggling with GitHub Actions and dependencies installed from an additional repository? (E.g. [an R-universe repository](/blog/2021/06/22/setup-runiverse/)?)
+The r-lib setup-r action now has a [`extra-repositories` input](https://github.com/r-lib/actions/blob/8f28ffb1dc3d672a7d1beec9f4869f5d86168b10/setup-r/action.yml#L46).
+
+* Struggling with encoding in particular a NOTE about UTF-8 strings? Read the [related thread on our forum](https://discuss.ropensci.org/t/note-on-utf-8-strings-by-goodpractice-gp/2165).
+
 How to test code run by [callr](https://callr.r-lib.org/), while having tests contribute to code coverage?
 [covr](https://covr.r-lib.org/) modifies the code through injecting tracing symbols and running as its own temporary and definitely self-contained process. 
 Any processes external to this, which includes anything via callr, cannot be traced. 
@@ -536,6 +546,13 @@ For Shiny apps you might look into [shinytest](https://rstudio.github.io/shinyte
 You can also resort to [mocking](https://blog.r-hub.io/2019/10/29/mocking/).
 For code that's supposed to be only run in interactive sessions, you might use [rlang functions in particular the `rlang::is_interactive()`](https://rlang.r-lib.org/reference/is_interactive.html) in code and tests. 
 You can look at the [targets testing suite for external processes](https://github.com/ropensci/targets/tree/main/tests/interactive) and [usethis manual tests](https://github.com/r-lib/usethis/tree/master/tests/manual).
+
+Now about real testers, i.e. the users! :wink:
+To help them use your package optimally, you have to write a nice interface, good docs including about system requirements, informative error messages, etc.
+Have you also considered adding some sort of sitrep (situation report) function?
+The devtools package has [`devtools::dev_sitrep()`](https://devtools.r-lib.org/reference/dev_sitrep.html) e.g. reports on the package development situation, with clear hints given if something is not quite right.
+The usethis package has [`usethis::git_sitrep()`](https://usethis.r-lib.org/reference/git_sitrep.html) (using the gert package under the hood!), blogdown has [`blogdown::check_site()`](https://alison.netlify.app/ares-kind-tools/#114).
+Good candidates for checks are common pain points, so finding them might require some sort of external perspective on your package.`
 
 ## Last words
 
