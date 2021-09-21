@@ -1,5 +1,5 @@
 ---
-title: Creando Tu r-Universe
+title: Creando Tu R-Universe
 author:
   - Yanina Bellini Saibene
 date: '2021-09-21'
