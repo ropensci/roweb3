@@ -1,9 +1,10 @@
 ---
-slug: "post-template"
-title: Latest rOpenSci News Digest
+title: rOpenSci News Digest, September 2021
 author:
   - The rOpenSci Team
-date: '2021-03-16'
+date: '2021-09-30'
+slug: ropensci-news-digest-september-2021
+categories: []
 tags:
   - newsletter
 description: keywords from the content
@@ -11,7 +12,7 @@ output:
   html_document:
     keep_md: yes
 params:
-  last_newsletter: "2021-03-16"
+  last_newsletter: '2021-08-31'
 ---
 
 ```{r setup, include=FALSE}
@@ -39,7 +40,8 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-<!-- to be curated manually -->
+A first package was submitted to [rOpenSci Statistical Software Peer Review](/stat-software-review/), two months after its [opening](/blog/2021/07/23/ropensci-news-digest-july-2021/): the [tsbox package](https://github.com/ropensci/software-review/issues/464) by [Christoph Sax](https://github.com/christophsax). 
+We are very excited, and thankful for the opportunity to hone our new software review tooling!
 
 Find out about more [events](/events).
 
@@ -120,7 +122,7 @@ new <- dplyr::filter(
 
 The following `r if(nrow(new)>1) english(nrow(new))` package`r if(nrow(new)>1) "s"` recently became a part of our software suite:
 
-```{r, results='asis', cache = TRUE}
+```{r, results='asis', cache = TRUE, eval=FALSE}
 packages <- split(new, seq(nrow(new)))
 present_one <- function(package) {
   url_parts <- urltools::url_parse(package$url)
@@ -368,7 +370,7 @@ cat(
 )
 ```
 
-Find out more about [Software Peer Review](/software-review) and how to get involved.
+Find out more about [Software Peer Review](/software-review) and [Statistical Software Peer Review](/stat-software-review/), including how to get involved.
 
 ## On the blog
 
@@ -472,64 +474,6 @@ if (length(tech_notes) > 0) {
   cat("\n\n")
 }
 ```
-
-## Citations
-
-```{r cit}
-citations <- jsonlite::read_json("https://ropensci-org.github.io/ropensci_citations/citations_all_parts_clean.json")
-```
-
-Below are the citations recently added to our database of `r length(citations)` articles, that you can explore on our [citations page](/citations).
-We found use of...
-
-```{r citations, results = "asis"}
-since <- lubridate::as_date(last_newsletter) - 1
-commits <- gh::gh(
-  "GET /repos/{owner}/{repo}/commits",
-  owner = "ropensci-org",
-  repo = "ropensci_citations",
-  since = sprintf(
-    "%s-%s-%sT00:00:00Z",
-    lubridate::year(since),
-    stringr::str_pad(lubridate::month(since), 2, "0", side = "left"),
-    stringr::str_pad(lubridate::day(since), 2, "0", side = "left")
-  )
-)
-old_commit <- gh::gh("/repos/{owner}/{repo}/commits/{ref}",
-  owner = "ropensci-org",
-  repo = "ropensci_citations",
-  ref = commits[[length(commits)]]$parents[[1]]$sha
-  )
-old <- "https://raw.githubusercontent.com/ropensci-org/ropensci_citations/%s/citations_all_parts_clean.json" %>%
-    sprintf(old_commit$sha) %>%
-    jsonlite::read_json() 
-
-new <- citations[length(old):length(citations)]
-
-format_package <- function(package, packages = packages) {
-  if (package %in% packages) {
-    package <- sprintf("[**%s**](https://docs.ropensci.org/%s)", package, package)
-  } else {
-    package <- sprintf("**%s**", package)
-  }
-  package
-}
-
-format_one <- function(citation, packages) {
-  packages <- toString(purrr::map_chr(citation$name, format_package, packages = packages))
-  sprintf("* %s in %s\n\n", packages, citation$citation)
-}
-
-cat(
-  paste0(
-    sort(purrr::map_chr(new, format_one, packages = registry$package)),
-    collapse = ""
-  )
-)
-
-```
-
-Thank you for citing our tools!
 
 ## Use cases
 
