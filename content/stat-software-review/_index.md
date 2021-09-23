@@ -1,5 +1,5 @@
 +++
-title = "rOpenSci Statistical Software Peer Review"
+title = "Statistical Software Peer Review"
 description = "rOpenSci's open peer-review system of R statistical packages"
 +++
 

@@ -1,4 +1,5 @@
-[{{ range $index, $page := ( where .Site.RegularPages "Type" "in" .Site.Params.search ) }}
+[
+  {{ range $index, $page := ( where .Site.RegularPages "Type" "in" .Site.Params.search ) }}
 {{- if ne $page.Type "json" -}}
 {{- if and $index (gt $index 0) -}},{{- end }}
 {{ $description := $page.Description }}
@@ -10,4 +11,16 @@
 	"tags": "{{ $page.Params.tags }}"
 }
 {{- end -}}
-{{- end -}}]
+{{- end -}},
+{{ range $index, $page := ( where .Site.Pages "Type" "in" .Site.Params.projects ) }}
+{{- if and $index (gt $index 0) -}},{{- end }}
+{{ $description := $page.Description }}
+{
+  "type": "project",
+	"path": "{{ $page.RelPermalink }}",
+	"title": "{{ htmlEscape $page.Title}}",
+	"description": "{{ $description | chomp | htmlEscape }}",
+	"tags": "{{ $page.Params.tags }}"
+}
+{{- end -}}
+]

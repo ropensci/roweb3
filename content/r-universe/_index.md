@@ -1,7 +1,7 @@
 +++
 date = "2017-07-13T22:00:37-07:00"
-title = "The R-universe project"
-description = "Launching a whole new galaxy"
+title = "The R-universe system"
+description = "The R-universe platform is a new umbrella project under which we experiment with various new ideas for improving publication and discovery of research software in R."
 
 +++
 

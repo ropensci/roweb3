@@ -42,9 +42,9 @@
         <li class="nav-item drp">
           <a class="nav-link" href="/about/">Projects</a>
           <ul class="sub-menu">
-            <li><a href="/r-universe/">The R-universe system</a></li>
-            <li><a href="/software-review">Software Peer Review</a></li>
-            <li><a href="/stat-software-review/">Statistical Software Project</a></li>
+            {{ range $index, $page := ( where .Site.Pages "Type" "in" .Site.Params.projects ) }}
+            <li><a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></li>
+            {{ end }}
           </ul>
         </li>
 
