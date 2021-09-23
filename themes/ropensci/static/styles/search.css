@@ -2,7 +2,9 @@ mark {
   background-color: pink !important;
 }
 
-
+#search-form {
+    margin-top: -.5rem;
+}
 
 .algolia-autocomplete .aa-hint {
   color: #999;
