@@ -29,8 +29,8 @@
 {
   "type": "package",
 	"path": "https://docs.ropensci.org/{{ $page.name }}",
-	"title": "{{ $page.name}}",
-	"description": "{{ $page.description | chomp }}",
+	"title": "{{ $page.name}} - {{ $page.description | chomp | replaceRE "\n" "" | htmlEscape }}",
+	"description": "",
 	"tags": ""
 }
 {{- end -}}
