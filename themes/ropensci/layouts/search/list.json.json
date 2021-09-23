@@ -22,5 +22,16 @@
 	"description": "{{ $description | chomp | htmlEscape }}",
 	"tags": "{{ $page.Params.tags }}"
 }
+{{- end -}},
+{{ $registry := getJSON "https://ropensci.github.io/roregistry/registry.json" }}
+{{ range $index, $page := $registry.packages }}
+{{- if and $index (gt $index 0) -}},{{- end }}
+{
+  "type": "package",
+	"path": "https://docs.ropensci.org/{{ $page.name }}",
+	"title": "{{ $page.name}}",
+	"description": "{{ $page.description | chomp }}",
+	"tags": ""
+}
 {{- end -}}
 ]
