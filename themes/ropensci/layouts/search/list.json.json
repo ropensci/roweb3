@@ -1,7 +1,8 @@
 [
   {{ range $index, $page := ( where .Site.RegularPages "Type" "in" .Site.Params.search ) }}
 {{- if ne $page.Type "json" -}}
-{{- if and $index (gt $index 0) -}},{{- end }}
+{{/* Either NOT event, or event with resources or event in the future */}}
+{{- if or (ne $page.Type "events") (or (isset $page.Params "resources") (ge $page.Date now.UTC)) -}}
 {{ $description := $page.Description }}
 {
   "type": "{{ $page.Type }}",
@@ -9,9 +10,10 @@
 	"title": "{{ htmlEscape $page.Title}}",
 	"description": "{{ $description | chomp | htmlEscape }}",
 	"tags": "{{ $page.Params.tags }}"
-}
+},
 {{- end -}}
-{{- end -}},
+{{- end -}}
+{{- end -}}
 {{ range $index, $page := ( where .Site.Pages "Type" "in" .Site.Params.projects ) }}
 {{- if and $index (gt $index 0) -}},{{- end }}
 {{ $description := $page.Description }}
