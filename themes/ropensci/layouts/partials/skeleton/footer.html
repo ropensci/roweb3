@@ -100,7 +100,6 @@
 {{ $secureJS := $js | resources.Fingerprint "sha512" }}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.js" integrity="sha512-8A++P507RNeVXI9ij39nW3Rlktj3SeblU/NN3uXrSBwKy/yemNU/H6tpdO3VCemVpqHWr2S5CQvChiPAzU+gAg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script> 
 <script src="/scripts/search.js"></script>
 {{ if and (eq .Kind "page") (eq .Type "packages") }}
 <script src="https://unpkg.com/lunr/lunr.js"></script>    

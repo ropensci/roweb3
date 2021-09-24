@@ -1,20 +1,4 @@
 (function () {
-    var url = new URL(window.location.href);
-    var toMark = url.searchParams.get("q");
-    var context = document.querySelector("body");
-    var mark = new Mark(context);
-    if (toMark !== null && toMark !== '') {
-      mark.mark(toMark, {
-        accuracy: {
-          value: "complementary",
-          limiters: [",", ".", ":", "/"],
-        }
-      });
-    }
-  })();
-  
-  
-(function () {
  var fuse;
   $("#search-input").focus(async function(e) {
     if (fuse) {
@@ -81,7 +65,7 @@ autocomplete("#search-input", options, [
       },
     },
   ]).on('autocomplete:selected', function(event, s) {
-    window.location.href = s.path + "?q=" + q + "#" + s.id;
+    window.location.href = s.path;
   });
   
   })();
