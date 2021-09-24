@@ -18,7 +18,7 @@ tags:
   - tutorial
   - community
 description: "rspatialdata: tutorials for working with spatial data using R, featuring many rOpenSci packages!"
-twitterImg: blog/2021/09/14/rspatialdata/rspatialdata-home.jpg
+twitterImg: blog/2021/09/14/rspatialdata/rspatialdata-home-sm.jpg
 twitterAlt: "Screenshot of rspatialdata homepage featuring multicoloured tiles each outlining a different type of spatial data"
 output:
   html_document:
