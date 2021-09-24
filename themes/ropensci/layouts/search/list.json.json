@@ -25,7 +25,7 @@
 	"tags": "{{ $page.Params.tags }}"
 }
 {{- end -}},
-{{ $registry := getJSON "https://ropensci.github.io/roregistry/registry.json" }}
+{{ $registry := getJSON .Site.Params.registry }}
 {{ range $index, $page := $registry.packages }}
 {{- if and $index (gt $index 0) -}},{{- end }}
 {

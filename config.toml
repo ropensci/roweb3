@@ -29,7 +29,8 @@ rssLimit = 20
     blogs = ["blog", "technotes"]
     events = ["events", "commcalls"]
     githubsource = "https://github.com/ropensci/roweb3/tree/master/content/"
-    
+    registry = "https://ropensci.github.io/roregistry/registry.json"
+    citations = "https://ropensci-org.github.io/ropensci_citations/citations_all_parts_clean.json"
 
  
 [taxonomies]

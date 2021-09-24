@@ -1,4 +1,4 @@
-[{{ $registry := getJSON "https://ropensci.github.io/roregistry/registry.json" }}
+[{{ $registry := getJSON .Site.Params.registry }}
 {{ $Scratch := newScratch }}
 {{ if eq .Params.slug "all" }}
 {{ $Scratch.Set "pkgs" $registry.packages }}
