@@ -60,7 +60,6 @@
     items = results
       .filter((x) => x.score <= 0.75)
       .map((x) => x.item).sort(function (a, b) {
-        console.log(a);
     return order[a.type] - order[b.type];
 });;
     if (items.length === 0) {
