@@ -231,7 +231,7 @@ Review criteria: anything looks weird? (need to fix upstream data or code?). Spe
 
 ### When deploys fail
 
-* If Netlify is down, the easiest thing is to wait.
+* If [Netlify is down](https://www.netlifystatus.com/), the easiest thing is to wait.
 * Is [GitHub down](https://www.githubstatus.com/)? If so you might need to do a manual deploy on Netlify, dragging and dropping your local roweb3 folder. 
 * Look at the Netlify logs (linked from the commit status) for information.
 * If relevant, check the YAML indentation. Try to build the website locally.
