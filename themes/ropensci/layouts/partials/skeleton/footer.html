@@ -102,7 +102,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.js" integrity="sha512-8A++P507RNeVXI9ij39nW3Rlktj3SeblU/NN3uXrSBwKy/yemNU/H6tpdO3VCemVpqHWr2S5CQvChiPAzU+gAg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="/scripts/search.js"></script>
 {{ if and (eq .Kind "page") (eq .Type "packages") }}
-<script src="https://unpkg.com/lunr/lunr.js"></script>    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
     {{ $pkgjs := resources.Get "pagination.min.js" }}
 {{ $securePKGJS := $pkgjs | resources.Fingerprint "sha512" }}
 <script type="text/javascript" src="{{ $securePKGJS.Permalink }}" integrity="{{ $securePKGJS.Data.Integrity }}"></script>

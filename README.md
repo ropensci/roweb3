@@ -205,8 +205,9 @@ Note that main.min.css that contains all the CSS is stored under themes/ropensci
 
 ### Newsletter
 
+* CHECK THE FONT!!! (see note in SendGrid instructions)
 * Check the number of subscribers in Sendgrid doesn't go over what our current plan allows.
-* Start a new post with the newsletter archetype, use the same title "Latest rOpenSci News Digest" and slug "ropensci-news" and tag "newsletter".
+* Start a new post with the newsletter archetype, use the same title "rOpenSci News Digest, MONTH YEAR" and slug "ropensci-news-digest-month-YYYY" and tag "newsletter".
 * **Make sure you have all dependencies from roweb3 DESCRIPTION.**
 * **Make sure your branch is based on the latest commit of the default branch, re-base if needed.**
 * Run `get_use_cases.R` to update use cases data (you need a Discourse API key, contact Scott).
@@ -218,8 +219,8 @@ Note that main.min.css that contains all the CSS is stored under themes/ropensci
     * Remove anchors (Search and Replace the regex `<a class="anchor d-print-none" href="#.*?"> <small>&#x1F517;</small> </a>` in Atom)
     * Replace all `<a` with [`<a clicktracking=off`](https://community.auth0.com/t/howto-disable-sendgrids-click-tracking-feature-in-an-auth0-email-template/22958)
 * In Sendgrid, 
-    * replicate a past campaign, 
-    * changw its name, 
+    * replicate a past campaign (choose "Arial" as font not "Arial Black"!), 
+    * change its name, 
     * change its subject 
     * change its pre-header (use the YAML field "description"). 
     * Send test email.

@@ -4,6 +4,7 @@ title: 'How to create your personal CRAN-like repository on R-universe'
 date: '2021-06-22'
 author: Jeroen Ooms
 featured: true
+description: 'Explanation of the few simple steps needed to launch your universe (create a git repository with a special JSON file, install a GitHub app).'
 tags:
   - r-universe
   - articles
@@ -108,6 +109,31 @@ After a while (usually no more than one hour), packages and articles that have c
 
 
 [![dashboard](https://jeroen.github.io/runiverse2021/images/maelledash.png)](https://maelle.r-universe.dev)
+
+## Adding badges and user instructions
+
+Once your packages have appeared on the dashboard, try installing them in R using the instructions from the dashboard page, for example:
+
+```r
+# Enable this universe
+options(repos = c(
+    maelle = 'https://maelle.r-universe.dev',
+    CRAN = 'https://cloud.r-project.org'))
+
+# Install some packages
+install.packages('tinkr')
+```
+
+To help your users, you can consider copying these instructions to your package README.md files. And of course you can add an r-universe badge to your readme as well.
+
+The badge API is simply `/badges/<package>` which will yield an SVG image that can directly be embedded into your markdown files, showing the deployed version for the given package:
+
+
+```md
+![r-universe](https://r-lib.r-universe.dev/badges/cpp11)
+```
+
+For example this would produce the following badge: <img style="margin-bottom:3px;" src="https://r-lib.r-universe.dev/badges/cpp11"></img>
 
 
 ## Pro tip: tracking custom branches or releases
