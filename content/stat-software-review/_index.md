@@ -1,6 +1,7 @@
 +++
 title = "Statistical Software Peer Review"
 description = "rOpenSci's open peer-review system of R statistical packages"
+tags = ["software-peer-review", "statistical-software"]
 +++
 
 rOpenSci is currently working to expand our peer review system beyond its current scope to explicitly review packages that implement statistical algorithms. This requires an expansion of our editor and reviewer community to bring in new expertise, and new sets of standards and approaches to deal with the particular challenges of statistical methods. We aim to initially include packages from the following 11 categories:
