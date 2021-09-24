@@ -108,6 +108,6 @@ You just read through some of the things we enjoyed while creating [rspatialdata
 
 **Our goal for rspatialdata is not to be a comprehensive list of R packages or tutorials, but to be a starting point for anyone to find and download spatial data related to different domains, and visualize different types of spatial data objects using different approaches.**
 
-So if you can think of more any R-packages that would fit into this collection or ideas on new tutorials or cool spatial visualizations, do reach out to us! Let's talk about how we can collaborate!
+So if you can think of anymore R-packages that would fit into this collection or ideas on new tutorials or cool spatial visualizations, do reach out to us! Let's talk about how we can collaborate!
 
 
