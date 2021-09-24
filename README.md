@@ -277,7 +277,7 @@ What if search seems broken?
 
 * Look at error messages in the DevTools console. Maybe one of the needed library can't be found because the related CDN is down?
 
-* Look at the address `<deploy-url>/search/index.json` and see what error there is. You might want to copy the raw JSON into a JSON linter. 
+* Look at the address `<deploy-url>/search/index.json` and see what error there is. You might want to copy the raw JSON into a [JSON linter](https://jsonlint.com/). 
 
     * If the error is due to something in the website e.g. the description of a blog post, change it. 
     * If the error is due to something in the packages registry ou might need to tweak `"title": "{{ $page.name}} - {{ $page.description | chomp | replaceRE "\n" "" | htmlEscape }}"` in themes/ropensci/layouts/search/list.json.json e.g. with one more replaceRE. If you are not a Hugo person and no Hugo person is available in the office :-) then make that line `"title": "{{ $page.name}}"` and open an issue tagging an Hugo person for later. It will simply make search less good for packages for a little while.
