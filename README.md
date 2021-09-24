@@ -274,7 +274,7 @@ With this hacky change the site should be built but if the registry and citation
 
 What if search seems broken? 
 
-* Look at error messages in the [DevTools console](https://rmd-blogging-blr.netlify.app/webdev/devtools/). Maybe one of the needed library can't be found because the related CDN is down?
+* Look at error messages in the [DevTools console](https://rmd-blogging-blr.netlify.app/webdev/devtools/). Maybe one of the needed library can't be found because the related CDN is down? Look at the status for that CDN. Maybe temporarily change for another CDN, open an issue.
 
 * Look at the address `<deploy-url>/search/index.json` and see what error there is. You might want to copy the raw JSON into a [JSON linter](https://jsonlint.com/). 
 
