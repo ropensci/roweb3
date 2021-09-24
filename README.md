@@ -229,7 +229,7 @@ Note that main.min.css that contains all the CSS is stored under themes/ropensci
 
 Review criteria: anything looks weird? (need to fix upstream data or code?). Special focus on manually updated sections.
 
-### When deploys fail
+### When deploys fail or something else goes wrong
 
 * If [Netlify is down](https://www.netlifystatus.com/) or [Cloudflare is down](https://www.cloudflarestatus.com/), the easiest thing is to wait.
 * Is [GitHub down](https://www.githubstatus.com/)? If so you might need to do a manual deploy on Netlify, [dragging and dropping](https://docs.netlify.com/site-deploys/create-deploys/#drag-and-drop) your local roweb3 folder. 
@@ -269,6 +269,8 @@ to
 
 And open an issue for an Hugo person to change things back / change things back yourself when GitHub Pages is up again.
 With this hacky change the site should be built but if the registry and citations are updated the site is not showing the latest data.
+
+* If something like search or packages pages behave weirdly, look at error messages in the [DevTools console](https://rmd-blogging-blr.netlify.app/webdev/devtools/). Maybe one of the needed library can't be found because the related CDN is down? Look at the status for that CDN. Maybe temporarily change for another CDN, open an issue.
 
 ### Search
 
