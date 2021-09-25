@@ -30,7 +30,7 @@ As two postgrad students on summer vacation but with no travel plans (during thi
 
 We also ended up [presenting our project at useR! 2021](https://www.youtube.com/watch?v=nLikORFBKgk), and winning an award for the most outstanding lightning talk! So, keep reading to see how we got there!
 
-Although there is so much data being collected in multiple disciplines and made openly available, it may be difficult to find, retrieve and utilize these resources. Spatial and spatio-temporal data are two data types which are collected and used in research across a diverse array of domains.
+Although there is so much data being collected in multiple disciplines and made openly available, it can be difficult to find, retrieve and utilize these resources. Spatial and spatio-temporal data are two data types which are collected and used in research across a diverse array of domains.
 
 With the R programming language becoming increasingly popular among academics, researchers, and scientists, and because spatial data is easier to interpret when visualized, Paula thought it would be a great idea to create a repository of data sources and simple tutorials on how to retrieve and visualize spatial data using R, during our time as interns at KAUST.
 
