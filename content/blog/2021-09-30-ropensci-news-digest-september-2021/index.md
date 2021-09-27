@@ -28,7 +28,13 @@ Now let's dive into the activity at and around rOpenSci!
 A first package was submitted to [rOpenSci Statistical Software Peer Review](/stat-software-review/), two months after its [opening](/blog/2021/07/23/ropensci-news-digest-july-2021/): the [tsbox package](https://github.com/ropensci/software-review/issues/464) by [Christoph Sax](https://github.com/christophsax). 
 We are very excited, and thankful for the opportunity to hone our new software review tooling!
 
-Find out about more [events](/events).
+We've made it easier to browse our [website](/) by adding some basic search from the navbar.
+The search isn't on the full content, but on page titles and descriptions. 
+We hope it'll help you find what you're after!
+Other ways to find an rOpenSci related thing you vaguely remember is [asking us](https://contributing.ropensci.org/resources.html#channels), scoring through [our website source](https://github.com/ropensci/roweb3/) or using your favourite search engine.
+
+Our next Social Coworking and Office Hours is [Tuesday, October 5th, 9 AM Australian Western / 1:00 UTC](/events/coworking-2021-10/), and hosted by [Nicholas Tierney](/author/nicholas-tierney/).
+Find out about [more events](/events).
 
 ## Software :package:
 
@@ -51,31 +57,35 @@ The following nine packages have had an update since the latest newsletter: [ger
 
 ## Software Peer Review
 
-There are fourteen recently closed and active submissions and 6 submissions on hold. Issues are at different stages: 
+There are fifteen recently closed and active submissions and 5 submissions on hold. Issues are at different stages: 
 
-* Two at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
+* Two at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
+
+     * [allodb](https://github.com/ropensci/software-review/issues/436), Tree Biomass Estimation at Extratropical Forest Plots. Submitted by [Erika Gonzalez-Akre](https://sites.google.com/site/forestecoclimlab/home). 
+
+    * [slopes](https://github.com/ropensci/software-review/issues/420), Calculate Slopes of Roads, Rivers and Trajectories. Submitted by [RFlx](http://www.rosafelix.bike). 
+
+* One at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
 
      * [rsat](https://github.com/ropensci/software-review/issues/437), Tools for Downloading, Customizing, and Processing Time Series of Satellite Images from Landsat, MODIS, and Sentinel. Submitted by [Unai Pérez-Goya](https://unai-perez.github.io/). 
 
-    * [allodb](https://github.com/ropensci/software-review/issues/436), Tree Biomass Estimation at Extratropical Forest Plots. Submitted by [Erika Gonzalez-Akre](https://sites.google.com/site/forestecoclimlab/home). 
-
-* Four at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
+* Three at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
 
      * [gendercoder](https://github.com/ropensci/software-review/issues/435), Recodes Sex/Gender Descriptions Into A Standard Set. Submitted by [Emily Kothe](http://emilykothe.com). 
-
-    * [slopes](https://github.com/ropensci/software-review/issues/420), Calculate Slopes of Roads, Rivers and Trajectories. Submitted by [RFlx](http://www.rosafelix.bike). 
 
     * [healthdatacsv](https://github.com/ropensci/software-review/issues/358), Access data in the healthdata.gov catalog. Submitted by [iecastro](http://iecastro.netlify.com). 
 
     * [chemspiderapi](https://github.com/ropensci/software-review/issues/329), R Wrapper for ChemSpider's API Services. Submitted by [Raoul Wolf](https://github.com/RaoulWolf). 
 
-* Four at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
+* Five at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 
      * [excluder](https://github.com/ropensci/software-review/issues/455), Checks for Exclusion Criteria in Online Data. Submitted by [Jeffrey Stevens](https://decisionslab.unl.edu/). 
 
     * [ROriginStamp](https://github.com/ropensci/software-review/issues/433), Interface to OriginStamp API to Obtain Trusted Time Stamps. Submitted by [Rainer M Krug](https://github.com/rkrug). 
 
     * [jagstargets](https://github.com/ropensci/software-review/issues/425), Targets for JAGS Workflows. Submitted by [Will Landau](https://wlandau.github.io). 
+
+    * [epair](https://github.com/ropensci/software-review/issues/418), Grabs data from EPA API, simplifies getting pollutant data. Submitted by [Leo Orozco-Mulfinger](https://github.com/GLOrozcoM). 
 
     * [occCite](https://github.com/ropensci/software-review/issues/407), Querying and Managing Large Biodiversity Occurrence Datasets. Submitted by [Hannah Owens](http://hannahlowens.weebly.com/). 
 
@@ -161,7 +171,7 @@ To help them use your package optimally, you have to write a nice interface, goo
 Have you also considered adding some sort of sitrep (situation report) function?
 The devtools package has [`devtools::dev_sitrep()`](https://devtools.r-lib.org/reference/dev_sitrep.html) e.g. reports on the package development situation, with clear hints given if something is not quite right.
 The usethis package has [`usethis::git_sitrep()`](https://usethis.r-lib.org/reference/git_sitrep.html) (using the gert package under the hood!), blogdown has [`blogdown::check_site()`](https://alison.netlify.app/ares-kind-tools/#114).
-Good candidates for checks are common pain points, so finding them might require some sort of external perspective on your package.
+Good candidates for checks are common pain points, so finding them might require some sort of external perspective on your package.`
 
 ## Last words
 
