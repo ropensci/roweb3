@@ -554,8 +554,7 @@ usecases <- split(usecases, seq(nrow(usecases)))
 
 ```{r usecases2, results='asis'}
 format_case <- function(usecase) {
-  string <- sprintf("* [%s](%s). Reported by %s.", usecase$title, usecase$url, usecase$reporter)
-  string
+  string <- sprintf("* [%s](%s). Reported by %s.", sub("\\.$", "", usecase$title), usecase$url, usecase$reporter)
 }
 cat(
   paste0(
