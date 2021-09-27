@@ -1,5 +1,33 @@
 [
-  {{ range $index, $page := ( where .Site.RegularPages "Type" "in" .Site.Params.search ) }}
+  {
+    "type": "blog",
+    "path": "/blog/",
+    "title": "blog",
+    "description": "",
+    "tags": "blog"
+  },
+    {
+    "type": "tags",
+    "path": "/tags/",
+    "title": "Content by tag",
+    "description": "",
+    "tags": "tags"
+  },
+    {
+    "type": "author",
+    "path": "/author/",
+    "title": "Authors",
+    "description": "",
+    "tags": "author"
+  },
+    {
+    "type": "usecases",
+    "path": "/usecases/",
+    "title": "Use cases",
+    "description": "",
+    "tags": "usecases"
+  },
+  {{ range $index, $page := ( where .Site.Pages "Type" "in" .Site.Params.search ) }}
 {{- if ne $page.Type "json" -}}
 {{/* Either NOT event, or event with resources or event in the future */}}
 {{- if or (ne $page.Type "events") (or (isset $page.Params "resources") (ge $page.Date now.UTC)) -}}
@@ -7,7 +35,7 @@
 {
   "type": "{{ $page.Type }}",
 	"path": "{{ $page.RelPermalink }}",
-	"title": "{{ htmlEscape $page.Title}}",
+	"title": "{{ if ne $page.Title "" }}{{ htmlEscape $page.Title}}{{ else }}{{ htmlEscape $page.Params.name }}{{ end }}{{ if (and (eq $page.Type "events") (ne $page.RelPermalink "/events/") ) }} ({{(time $page.Params.dateStart).Local | dateFormat "2006-01-02"}}){{ end}}",
 	"description": "{{ $description | chomp | htmlEscape }}",
 	"tags": "{{ $page.Params.tags }}"
 },
