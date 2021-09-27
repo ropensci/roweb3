@@ -229,8 +229,10 @@ Note that main.min.css that contains all the CSS is stored under themes/ropensci
 
 Review criteria: anything looks weird? (need to fix upstream data or code?). Special focus on manually updated sections.
 
-### When deploys fail
+### When deploys fail or something else goes wrong
 
+* If [Netlify is down](https://www.netlifystatus.com/) or [Cloudflare is down](https://www.cloudflarestatus.com/), the easiest thing is to wait.
+* Is [GitHub down](https://www.githubstatus.com/)? If so you might need to do a manual deploy on Netlify, [dragging and dropping](https://docs.netlify.com/site-deploys/create-deploys/#drag-and-drop) your local roweb3 folder. 
 * Look at the Netlify logs (linked from the commit status) for information.
 * If relevant, check the YAML indentation. Try to build the website locally.
 * When a problem is an embedded tweet e.g.
@@ -239,7 +241,7 @@ Review criteria: anything looks weird? (need to fix upstream data or code?). Spe
 5:04:39 PM: ERROR 2021/03/29 08:04:39 Failed to get JSON resource "https://api.twitter.com/1/statuses/oembed.json?id=bla&dnt=true":
 ```
 
-  * Look for the tweet with that ID on Twitter `http://twitter.com/user/status/bla` (Twitter will re-direct to the correct user). Was it deleted, or is the account now private? 
+Look for the tweet with that ID on Twitter `http://twitter.com/user/status/bla` (Twitter will re-direct to the correct user). Was it deleted, or is the account now private? 
     * If the tweet was deleted or is now private, amend the Markdown file(s) where it was embedded.
     * If the tweet is available, try re-triggering the deploy.
 
@@ -247,3 +249,36 @@ Review criteria: anything looks weird? (need to fix upstream data or code?). Spe
 * To trigger a new deploy
     * If you are a member of the rOpenSci team on Netlify, use the Netlify interface to re-trigger a deploy.
     * Alternatively make an empty commit `git commit -m "trigger deploy" --allow-empty` and push.
+
+* The website depends on the package registry (for packages pages, and for the search index) and on the citations JSON files that are hosted on GitHub pages. Therefore if GitHub pages is down see https://www.githubstatus.com/, the website can't be build. GitHub Pages often isn't down for long. Now if it is down for too long, 
+
+* Take https://github.com/ropensci-org/ropensci_citations/blob/master/citations_all_parts_clean.json and https://github.com/ropensci/roregistry/blob/gh-pages/registry.json(hopefully GitHub itself isn't down) and save them in a local folder `hack`. Drag and drop this folder to create a [new site in Netlify](https://docs.netlify.com/site-deploys/create-deploys/#drag-and-drop).
+In `config.toml` change
+
+```toml
+    registry = "https://ropensci.github.io/roregistry/registry.json"
+    citations = "https://ropensci-org.github.io/ropensci_citations/citations_all_parts_clean.json"
+```
+
+to 
+
+```toml
+    registry = "URL-TO-NETLIFY-WEBSITE/registry.json"
+    citations = "URL-TO-NETLIFY-WEBSITE/citations_all_parts_clean.json"
+```
+
+And open an issue for an Hugo person to change things back / change things back yourself when GitHub Pages is up again.
+With this hacky change the site should be built but if the registry and citations are updated the site is not showing the latest data.
+
+* If something like search or packages pages behave weirdly, look at error messages in the [DevTools console](https://rmd-blogging-blr.netlify.app/webdev/devtools/). Maybe one of the needed library can't be found because the related CDN is down? Look at the status for that CDN. Maybe temporarily change for another CDN, open an issue.
+
+### Search
+
+What if search seems broken? 
+
+* Look at error messages in the [DevTools console](https://rmd-blogging-blr.netlify.app/webdev/devtools/). Maybe one of the needed library can't be found because the related CDN is down? Look at the status for that CDN. Maybe temporarily change for another CDN, open an issue.
+
+* Look at the address `<deploy-url>/search/index.json` and see what error there is. You might want to copy the raw JSON into a [JSON linter](https://jsonlint.com/). 
+
+    * If the error is due to something in the website e.g. the description of a blog post, change it. 
+    * If the error is due to something in the packages registry ou might need to tweak `"title": "{{ $page.name}} - {{ $page.description | chomp | replaceRE "\n" "" | htmlEscape }}"` in themes/ropensci/layouts/search/list.json.json e.g. with one more replaceRE. If you are not a Hugo person and no Hugo person is available in the office :-) then make that line `"title": "{{ $page.name}}"` and open an issue tagging an Hugo person for later. It will simply make search less good for packages for a little while.

@@ -14,7 +14,7 @@
             </p>
           </div>
         </div>
-        {{ $registry := getJSON "https://ropensci.github.io/roregistry/registry.json" }}
+        {{ $registry := getJSON .Site.Params.registry }}
 {{ $scratch := newScratch }}
 
 {{ $scratch.Set "package" (slice "absolutelynotapackage" ) }}
@@ -27,7 +27,7 @@
 {{ $scratch.Add "activepackage" .name }}
 {{ end }}
         <div class="row case-cards mt-5">
-          {{ $citations := getJSON "https://ropensci-org.github.io/ropensci_citations/citations_all_parts_clean.json" }}
+          {{ $citations := getJSON .Site.Params.citations }}
           {{ range $index, $element := (first 3 ( shuffle (where $citations "name" "intersect" ($scratch.Get "activepackage")) ) ) }}
           <div class="col-md-4" id="{{ $index }}">
             <div class="case-card">

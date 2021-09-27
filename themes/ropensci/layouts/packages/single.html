@@ -1,6 +1,6 @@
 {{ define "main" }}
-{{ $registry := getJSON "https://ropensci.github.io/roregistry/registry.json" }}
-{{ $citations := getJSON "https://ropensci-org.github.io/ropensci_citations/citations_all_parts_clean.json" }}
+{{ $registry := getJSON .Site.Params.registry }}
+{{ $citations := getJSON .Site.Params.citations }}
 {{ $Scratch := newScratch }}
 <section class="section section-category">
   <div class="container bg-cubes">
