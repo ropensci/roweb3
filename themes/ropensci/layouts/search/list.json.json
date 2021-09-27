@@ -1,11 +1,4 @@
 [
-  {
-    "type": "blog",
-    "path": "/blog/",
-    "title": "blog",
-    "description": "",
-    "tags": "blog"
-  },
     {
     "type": "tags",
     "path": "/tags/",
