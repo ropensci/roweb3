@@ -533,7 +533,7 @@ Some useful tips for R package developers. :eyes:
 
 Short anti-struggle list:
 
-* Struggling to write graceful R package examples for CRAN?
+* Struggling to write [graceful](https://books.ropensci.org/http-testing/graceful.html) R package examples for CRAN?
 Let's remind you of [`@examplesIf` in the latest `roxygen2`](https://roxygen2.r-lib.org/articles/rd.html#functions).
 
 * Struggling with GitHub Actions and dependencies installed from an additional repository? (E.g. [an R-universe repository](/blog/2021/06/22/setup-runiverse/)?)
