@@ -111,6 +111,11 @@ Find out more about [Software Peer Review](/software-review) and [Statistical So
 
 
 
+### Other topics
+
+* [Creando Tu R-universe](/blog/2021/09/21/creando-tu-r-universe) by Yanina Bellini Saibene. En este post te explico como crear tu r-universe, a partir de la experiencia de crear el mio.
+
+
 
 ### Tech Notes
 
