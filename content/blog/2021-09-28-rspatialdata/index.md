@@ -3,7 +3,7 @@ title: The Story Behind rspatialdata
 author:
   - Dilinie Seimon
   - Varsha Ujjinni Vijay Kumar
-date: '2021-09-14'
+date: '2021-09-28'
 slug: rspatialdata
 categories: []
 tags:
@@ -18,7 +18,7 @@ tags:
   - tutorial
   - community
 description: "rspatialdata: tutorials for working with spatial data using R, featuring many rOpenSci packages!"
-twitterImg: blog/2021/09/14/rspatialdata/rspatialdata-home-sm.jpg
+twitterImg: blog/2021/09/28/rspatialdata/rspatialdata-home-sm.jpg
 twitterAlt: "Screenshot of rspatialdata homepage featuring multicoloured tiles each outlining a different type of spatial data"
 output:
   html_document:
@@ -30,7 +30,7 @@ As two postgrad students on summer vacation but with no travel plans (during thi
 
 We also ended up [presenting our project at useR! 2021](https://www.youtube.com/watch?v=nLikORFBKgk), and winning an award for the most outstanding lightning talk! So, keep reading to see how we got there!
 
-Although there is so much data being collected in multiple disciplines and made openly available, it can be difficult to find, retrieve and utilize these resources. Spatial and spatio-temporal data are two data types which are collected and used in research across a diverse array of domains.
+Although there is so much data being collected in multiple disciplines and made openly available, it may be difficult to find, retrieve and utilize these resources. Spatial and spatio-temporal data are two data types which are collected and used in research across a diverse array of domains.
 
 With the R programming language becoming increasingly popular among academics, researchers, and scientists, and because spatial data is easier to interpret when visualized, Paula thought it would be a great idea to create a repository of data sources and simple tutorials on how to retrieve and visualize spatial data using R, during our time as interns at KAUST.
 
@@ -102,12 +102,13 @@ Although this may look like a tedious process, the rdhs package makes it very sm
 
 Read through our tutorial on [Demographic and Health Surveys (DHS)](https://rspatialdata.github.io/dhs-data.html) for more details on how to use the rdhs package.
 
-Also, don't forget to have a look at our [administrative boundaries tutorial](https://rspatialdata.github.io/admin_boundaries.html) which runs you through creating outline maps of countries and their administrative divisions, our [population tutorial](https://rspatialdata.github.io/population.html) which runs you through visualizing population estimates of countries using choropleth maps and cartograms, and our tutorials on  [elevation](https://rspatialdata.github.io/elevation.html), [temperature](https://rspatialdata.github.io/temperature.html), [malaria](https://rspatialdata.github.io/malaria.html), and [air pollution](https://rspatialdata.github.io/air_pollution.html) for ideas on how to download and visualize each respective property.
+## Interested in more?
+Have a look at our [administrative boundaries tutorial](https://rspatialdata.github.io/admin_boundaries.html) which runs you through creating outline maps of countries and their administrative divisions, our [population tutorial](https://rspatialdata.github.io/population.html) which runs you through visualizing population estimates of countries using choropleth maps and cartograms, and our tutorials on  [elevation](https://rspatialdata.github.io/elevation.html), [temperature](https://rspatialdata.github.io/temperature.html), [malaria](https://rspatialdata.github.io/malaria.html), and [air pollution](https://rspatialdata.github.io/air_pollution.html) for ideas on how to download and visualize each respective property.
 
 You just read through some of the things we enjoyed while creating [rspatialdata](https://rspatialdata.github.io/). We are excited for you to try it out too! So give it a go, get creative with it, and let us know how you did! 
 
 **Our goal for rspatialdata is not to be a comprehensive list of R packages or tutorials, but to be a starting point for anyone to find and download spatial data related to different domains, and visualize different types of spatial data objects using different approaches.**
 
-So if you can think of anymore R-packages that would fit into this collection or ideas on new tutorials or cool spatial visualizations, do reach out to us! Let's talk about how we can collaborate!
+So if you think of anymore R packages that would fit into this collection, ideas on new tutorials or cool spatial visualizations, do reach out to us! Let's talk about how we can collaborate!
 
 
