@@ -46,7 +46,7 @@ We are very excited, and thankful for the opportunity to hone our new software r
 We've made it easier to browse our [website](/) by adding some basic search from the navbar.
 The search isn't on the full content, but on page titles and descriptions. 
 We hope it'll help you find what you're after!
-Other ways to find an rOpenSci related thing you vaguely remember is [asking us](https://contributing.ropensci.org/resources.html#channels), scoring through [our website source](https://github.com/ropensci/roweb3/) or using your favourite search engine.
+Other ways to find an rOpenSci related thing you vaguely remember is by [asking us](https://contributing.ropensci.org/resources.html#channels), searching through [our website source](https://github.com/ropensci/roweb3/) or using your favourite search engine.
 
 Our next Social Coworking and Office Hours is [Tuesday, October 5th, 9 AM Australian Western / 1:00 UTC](/events/coworking-2021-10/), and hosted by [Nicholas Tierney](/author/nicholas-tierney/).
 Find out about [more events](/events).
@@ -128,7 +128,7 @@ new <- dplyr::filter(
 
 The following `r if(nrow(new)>1) english(nrow(new))` package`r if(nrow(new)>1) "s"` recently became a part of our software suite:
 
-```{r, results='asis', cache = TRUE, eval=FALSE}
+```{r, results='asis', cache = TRUE, eval=TRUE}
 packages <- split(new, seq(nrow(new)))
 present_one <- function(package) {
   url_parts <- urltools::url_parse(package$url)
@@ -519,13 +519,8 @@ Explore [other use cases](/usecases) and [report your own](https://discuss.ropen
 
 ## Call for maintainers
 
-<!--IF CALL
-* [our guidance on _Changing package maintainers_](https://devguide.ropensci.org/changing-maintainers.html)
-* [our _Package Curation Policy_](https://devguide.ropensci.org/curationpolicy.html)
-
-IF NO CALL
 There's no open call for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
-As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. -->
+As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter.
 
 ## Package development corner
 
@@ -554,11 +549,11 @@ For code that's supposed to be only run in interactive sessions, you might use [
 You can look at the [targets testing suite for external processes](https://github.com/ropensci/targets/tree/main/tests/interactive) and [usethis manual tests](https://github.com/r-lib/usethis/tree/master/tests/manual).
 
 Now about real testers, i.e. the users! :wink:
-To help them use your package optimally, you have to write a nice interface, good docs including about system requirements, informative error messages, etc.
+To help them use your package optimally, you have to write a nice interface, good docs (including system requirements), informative error messages, etc.
 Have you also considered adding some sort of sitrep (situation report) function?
 The devtools package has [`devtools::dev_sitrep()`](https://devtools.r-lib.org/reference/dev_sitrep.html) e.g. reports on the package development situation, with clear hints given if something is not quite right.
 The usethis package has [`usethis::git_sitrep()`](https://usethis.r-lib.org/reference/git_sitrep.html) (using the gert package under the hood!), blogdown has [`blogdown::check_site()`](https://alison.netlify.app/ares-kind-tools/#114).
-Good candidates for checks are common pain points, so finding them might require some sort of external perspective on your package.`
+Good candidates for checks are common pain points, so finding them might require some sort of external perspective on your package.
 
 ## Last words
 
