@@ -1,9 +1,10 @@
 ---
-slug: "post-template"
-title: Latest rOpenSci News Digest
+title: rOpenSci News Digest, September 2021
 author:
   - The rOpenSci Team
-date: '2021-03-16'
+date: '2021-09-30'
+slug: ropensci-news-digest-september-2021
+categories: []
 tags:
   - newsletter
 description: keywords from the content
@@ -11,7 +12,7 @@ output:
   html_document:
     keep_md: yes
 params:
-  last_newsletter: "2021-03-16"
+  last_newsletter: '2021-08-31'
 ---
 
 ```{r setup, include=FALSE}
@@ -39,9 +40,16 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-<!-- to be curated manually -->
+A first package was submitted to [rOpenSci Statistical Software Peer Review](/stat-software-review/), two months after its [opening](/blog/2021/07/23/ropensci-news-digest-july-2021/): the [tsbox package](https://github.com/ropensci/software-review/issues/464) by [Christoph Sax](https://github.com/christophsax). 
+We are very excited, and thankful for the opportunity to hone our new software review tooling!
 
-Find out about more [events](/events).
+We've made it easier to browse our [website](/) by adding some basic search from the navbar.
+The search isn't on the full content, but on page titles and descriptions. 
+We hope it'll help you find what you're after!
+Other ways to find an rOpenSci related thing you vaguely remember is by [asking us](https://contributing.ropensci.org/resources.html#channels), searching through [our website source](https://github.com/ropensci/roweb3/) or using your favourite search engine.
+
+Our next Social Coworking and Office Hours is [Tuesday, October 5th, 9 AM Australian Western / 1:00 UTC](/events/coworking-2021-10/), and hosted by [Nicholas Tierney](/author/nicholas-tierney/).
+Find out about [more events](/events).
 
 ## Software :package:
 
@@ -120,7 +128,7 @@ new <- dplyr::filter(
 
 The following `r if(nrow(new)>1) english(nrow(new))` package`r if(nrow(new)>1) "s"` recently became a part of our software suite:
 
-```{r, results='asis', cache = TRUE}
+```{r, results='asis', cache = TRUE, eval=TRUE}
 packages <- split(new, seq(nrow(new)))
 present_one <- function(package) {
   url_parts <- urltools::url_parse(package$url)
@@ -142,7 +150,7 @@ present_one <- function(package) {
   aut <- purrr::keep(authors, function(x) {any( x$role %in% "aut") && all(x$role != "cre") })
   aut <- purrr::map_chr(aut, function(x) paste(x$given, x$family))
   rev <- purrr::keep(authors, function(x) {any( x$role %in% "rev") && all(x$role != "cre") })
-  rev <- purrr::map_chr(rev, function(x) paste(x$given, x$family))
+  rev <- purrr::map_chr(rev, function(x) paste(c(x$given, x$family), collapse = " "))
   maintainer <- purrr::keep(authors, function(x) {any( x$role %in% "cre") })
   maintainer <- paste(c(maintainer[[1]]$given, maintainer[[1]]$family), collapse = " ")
   
@@ -177,13 +185,19 @@ present_one <- function(package) {
       )
     )
   }
+  if (package$package == "jagstargets"){ package$onboarding <- "https://github.com/ropensci/software-review/issues/425"}
   if (nzchar(package$onboarding)) {
     string <- paste0(string, sprintf("It has been [reviewed](%s)", package$onboarding))
+    if (package$package == "jagstargets") {
+      rev <- c(rev, " Ernest Guevarra")
+    } 
     if (length(rev) > 0) {
       string <- paste0(string, sprintf(" by %s.", toString(rev)))
     } else {
       string <- paste0(string, ".")
     }
+
+    
   }
   
   paste("+", string)
@@ -368,7 +382,7 @@ cat(
 )
 ```
 
-Find out more about [Software Peer Review](/software-review) and how to get involved.
+Find out more about [Software Peer Review](/software-review) and [Statistical Software Peer Review](/stat-software-review/), including how to get involved.
 
 ## On the blog
 
@@ -415,6 +429,9 @@ format_post <- function(post) {
   string <- sprintf("* [%s](%s) by %s", post$title, url, post$author)
   if (post$description != "") {
     string <- paste0(string, ". ", sub("\\?$", "", sub("\\!$", "", sub("\\.$", "", post$description), ".")), ".")
+    if (post$title == "How to Use System Commands in your R Script or Package") {
+      string <- sprintf("%s This post was featured in the [R Weekly Highlights podcast by Eric Nantz](https://share.fireside.fm/episode/87RSVeFz+YtoLm80R).", string)
+    }
   } else {
     string <- paste0(string, ".")  
   }
@@ -425,7 +442,7 @@ format_post <- function(post) {
     img_file %>% magick::image_read() %>% magick::image_scale("400x") %>% magick::image_write(img_file)
     string <- paste0(
       string,
-      sprintf('{{< figure src="%s" alt="%s" width="400" >}}\n\n', img_file, post$twitterAlt)
+      sprintf('\n\n{{< figure src="%s" alt="%s" width="400" >}}\n\n', img_file, post$twitterAlt)
     )
   }
   
@@ -448,7 +465,6 @@ if (length(software_review) > 0) {
 
 others <- posts[purrr::map_lgl(posts, "other")]
 if (length(others) > 0) {
-  if (length(others) != length(posts)) cat("### Other topics\n\n")
   cat(
     paste0(
       purrr::map_chr(others, format_post),
@@ -472,64 +488,6 @@ if (length(tech_notes) > 0) {
   cat("\n\n")
 }
 ```
-
-## Citations
-
-```{r cit}
-citations <- jsonlite::read_json("https://ropensci-org.github.io/ropensci_citations/citations_all_parts_clean.json")
-```
-
-Below are the citations recently added to our database of `r length(citations)` articles, that you can explore on our [citations page](/citations).
-We found use of...
-
-```{r citations, results = "asis"}
-since <- lubridate::as_date(last_newsletter) - 1
-commits <- gh::gh(
-  "GET /repos/{owner}/{repo}/commits",
-  owner = "ropensci-org",
-  repo = "ropensci_citations",
-  since = sprintf(
-    "%s-%s-%sT00:00:00Z",
-    lubridate::year(since),
-    stringr::str_pad(lubridate::month(since), 2, "0", side = "left"),
-    stringr::str_pad(lubridate::day(since), 2, "0", side = "left")
-  )
-)
-old_commit <- gh::gh("/repos/{owner}/{repo}/commits/{ref}",
-  owner = "ropensci-org",
-  repo = "ropensci_citations",
-  ref = commits[[length(commits)]]$parents[[1]]$sha
-  )
-old <- "https://raw.githubusercontent.com/ropensci-org/ropensci_citations/%s/citations_all_parts_clean.json" %>%
-    sprintf(old_commit$sha) %>%
-    jsonlite::read_json() 
-
-new <- citations[length(old):length(citations)]
-
-format_package <- function(package, packages = packages) {
-  if (package %in% packages) {
-    package <- sprintf("[**%s**](https://docs.ropensci.org/%s)", package, package)
-  } else {
-    package <- sprintf("**%s**", package)
-  }
-  package
-}
-
-format_one <- function(citation, packages) {
-  packages <- toString(purrr::map_chr(citation$name, format_package, packages = packages))
-  sprintf("* %s in %s\n\n", packages, citation$citation)
-}
-
-cat(
-  paste0(
-    sort(purrr::map_chr(new, format_one, packages = registry$package)),
-    collapse = ""
-  )
-)
-
-```
-
-Thank you for citing our tools!
 
 ## Use cases
 
@@ -555,6 +513,7 @@ usecases <- split(usecases, seq(nrow(usecases)))
 ```{r usecases2, results='asis'}
 format_case <- function(usecase) {
   string <- sprintf("* [%s](%s). Reported by %s.", sub("\\.$", "", usecase$title), usecase$url, usecase$reporter)
+  string
 }
 cat(
   paste0(
@@ -568,19 +527,41 @@ Explore [other use cases](/usecases) and [report your own](https://discuss.ropen
 
 ## Call for maintainers
 
-<!--IF CALL
-* [our guidance on _Changing package maintainers_](https://devguide.ropensci.org/changing-maintainers.html)
-* [our _Package Curation Policy_](https://devguide.ropensci.org/curationpolicy.html)
-
-IF NO CALL
 There's no open call for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
-As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. -->
+As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter.
 
 ## Package development corner
 
 Some useful tips for R package developers. :eyes:
 
-<!-- To be curated by hand -->
+Short anti-struggle list:
+
+* Struggling to write [graceful](https://books.ropensci.org/http-testing/graceful.html) R package examples for CRAN?
+Let's remind you of [`@examplesIf` in the latest `roxygen2`](https://roxygen2.r-lib.org/articles/rd.html#functions).
+
+* Struggling with GitHub Actions and dependencies installed from an additional repository? (E.g. [an R-universe repository](/blog/2021/06/22/setup-runiverse/)?)
+The r-lib setup-r action now has a [`extra-repositories` input](https://github.com/r-lib/actions/blob/8f28ffb1dc3d672a7d1beec9f4869f5d86168b10/setup-r/action.yml#L46).
+
+* Struggling with encoding in particular a NOTE about UTF-8 strings? Read the [related thread on our forum](https://discuss.ropensci.org/t/note-on-utf-8-strings-by-goodpractice-gp/2165).
+
+How to test code run by [callr](https://callr.r-lib.org/), while having tests contribute to code coverage?
+[covr](https://covr.r-lib.org/) modifies the code through injecting tracing symbols and running as its own temporary and definitely self-contained process. 
+Any processes external to this, which includes anything via callr, cannot be traced. 
+This is an entirely standard condition of any code tracing algorithm. 
+A good tip is to ensure everything inside a callr call is bundled as a simple function that can be tested in tests without the callr wrapper.
+
+Another challenge for testing might be interactive behavior. 
+For Shiny apps you might look into [shinytest](https://rstudio.github.io/shinytest/), for anything happening in the browser you might enjoy [chromote](https://rstudio.github.io/chromote/) or [crrri](https://rlesur.github.io/crrri/).
+You can also resort to [mocking](https://blog.r-hub.io/2019/10/29/mocking/).
+For code that's supposed to be only run in interactive sessions, you might use [rlang functions in particular the `rlang::is_interactive()`](https://rlang.r-lib.org/reference/is_interactive.html) in code and tests. 
+You can look at the [targets testing suite for external processes](https://github.com/ropensci/targets/tree/main/tests/interactive) and [usethis manual tests](https://github.com/r-lib/usethis/tree/master/tests/manual).
+
+Now about real testers, i.e. the users! :wink:
+To help them use your package optimally, you have to write a nice interface, good docs (including system requirements), informative error messages, etc.
+Have you also considered adding some sort of sitrep (situation report) function?
+The devtools package has [`devtools::dev_sitrep()`](https://devtools.r-lib.org/reference/dev_sitrep.html) e.g. reports on the package development situation, with clear hints given if something is not quite right.
+The usethis package has [`usethis::git_sitrep()`](https://usethis.r-lib.org/reference/git_sitrep.html) (using the gert package under the hood!), blogdown has [`blogdown::check_site()`](https://alison.netlify.app/ares-kind-tools/#114).
+Good candidates for checks are common pain points, so finding them might require some sort of external perspective on your package.
 
 ## Last words
 
