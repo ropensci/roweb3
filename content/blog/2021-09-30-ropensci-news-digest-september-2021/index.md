@@ -7,6 +7,7 @@ slug: ropensci-news-digest-september-2021
 categories: []
 tags:
   - newsletter
+description: First statistical software peer-review submission, website search, social co-working, new packages and package news
 description: keywords from the content
 output:
   html_document:
