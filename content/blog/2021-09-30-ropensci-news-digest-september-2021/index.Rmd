@@ -429,6 +429,9 @@ format_post <- function(post) {
   string <- sprintf("* [%s](%s) by %s", post$title, url, post$author)
   if (post$description != "") {
     string <- paste0(string, ". ", sub("\\?$", "", sub("\\!$", "", sub("\\.$", "", post$description), ".")), ".")
+    if (post$title == "How to Use System Commands in your R Script or Package") {
+      string <- sprintf("%s This post was featured in the [R Weekly Highlights podcast by Eric Nantz](https://share.fireside.fm/episode/87RSVeFz+YtoLm80R).", string)
+    }
   } else {
     string <- paste0(string, ".")  
   }
@@ -439,7 +442,7 @@ format_post <- function(post) {
     img_file %>% magick::image_read() %>% magick::image_scale("400x") %>% magick::image_write(img_file)
     string <- paste0(
       string,
-      sprintf('{{< figure src="%s" alt="%s" width="400" >}}\n\n', img_file, post$twitterAlt)
+      sprintf('\n\n{{< figure src="%s" alt="%s" width="400" >}}\n\n', img_file, post$twitterAlt)
     )
   }
   
@@ -462,7 +465,6 @@ if (length(software_review) > 0) {
 
 others <- posts[purrr::map_lgl(posts, "other")]
 if (length(others) > 0) {
-  if (length(others) != length(posts)) cat("### Other topics\n\n")
   cat(
     paste0(
       purrr::map_chr(others, format_post),

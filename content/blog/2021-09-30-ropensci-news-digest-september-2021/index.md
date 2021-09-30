@@ -43,7 +43,9 @@ Find out about [more events](/events).
 
 
 
-The following two packages recently became a part of our software suite:
+The following three packages recently became a part of our software suite:
+
++ [allodb](https://docs.ropensci.org/allodb), developed by Erika Gonzalez-Akre together with Camille Piponiot, Mauro Lepore, Kristina Anderson-Teixeira: Tool to standardize and simplify the tree biomass estimation process across globally distributed extratropical forests. It has been [reviewed](https://github.com/ropensci/software-review/issues/436) by Jeffrey Hanson, Jonas Stillhard.
 
 + [jagstargets](https://docs.ropensci.org/jagstargets), developed by William Michael Landau: Bayesian data analysis usually incurs long runtimes and cumbersome custom code. A pipeline toolkit tailored to Bayesian statisticians, the jagstargets R package is leverages targets and R2jags to ease this burden. jagstargets makes it super easy to set up scalable JAGS pipelines that automatically parallelize the computation and skip expensive steps when the results are already up to date. Minimal custom code is required, and there is no need to manually configure branching, so usage is much easier than targets alone. For the underlying methodology, please refer to the documentation of targets <doi:10.21105/joss.02959> and JAGS (Plummer 2003) <https://www.r-project.org/conferences/DSC-2003/Proceedings/Plummer.pdf>. It has been [reviewed](https://github.com/ropensci/software-review/issues/425) by David Lawrence Miller,  Ernest Guevarra.
 
@@ -73,9 +75,11 @@ There are fifteen recently closed and active submissions and 5 submissions on ho
 
      * [rsat](https://github.com/ropensci/software-review/issues/437), Tools for Downloading, Customizing, and Processing Time Series of Satellite Images from Landsat, MODIS, and Sentinel. Submitted by [Unai Pérez-Goya](https://unai-perez.github.io/). 
 
-* Three at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
+* Four at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
 
-     * [gendercoder](https://github.com/ropensci/software-review/issues/435), Recodes Sex/Gender Descriptions Into A Standard Set. Submitted by [Emily Kothe](http://emilykothe.com). 
+     * [excluder](https://github.com/ropensci/software-review/issues/455), Checks for Exclusion Criteria in Online Data. Submitted by [Jeffrey Stevens](https://decisionslab.unl.edu/). 
+
+    * [gendercoder](https://github.com/ropensci/software-review/issues/435), Recodes Sex/Gender Descriptions Into A Standard Set. Submitted by [Emily Kothe](http://emilykothe.com). 
 
     * [healthdatacsv](https://github.com/ropensci/software-review/issues/358), Access data in the healthdata.gov catalog. Submitted by [iecastro](http://iecastro.netlify.com). 
 
@@ -83,7 +87,7 @@ There are fifteen recently closed and active submissions and 5 submissions on ho
 
 * Four at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 
-     * [excluder](https://github.com/ropensci/software-review/issues/455), Checks for Exclusion Criteria in Online Data. Submitted by [Jeffrey Stevens](https://decisionslab.unl.edu/). 
+     * [cffr](https://github.com/ropensci/software-review/issues/463), Generate Citation File Format (cff) Metadata for R Packages. Submitted by [Diego H.](http://dieghernan.github.io). 
 
     * [ROriginStamp](https://github.com/ropensci/software-review/issues/433), Interface to OriginStamp API to Obtain Trusted Time Stamps. Submitted by [Rainer M Krug](https://github.com/rkrug). 
 
@@ -91,11 +95,9 @@ There are fifteen recently closed and active submissions and 5 submissions on ho
 
     * [occCite](https://github.com/ropensci/software-review/issues/407), Querying and Managing Large Biodiversity Occurrence Datasets. Submitted by [Hannah Owens](http://hannahlowens.weebly.com/). 
 
-* Two at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
+* One at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
-     * [cffr](https://github.com/ropensci/software-review/issues/463), Generate Citation File Format (cff) Metadata for R Packages. Submitted by [Diego H.](http://dieghernan.github.io). 
-
-    * [phruta](https://github.com/ropensci/software-review/issues/458), Phylogenetic Reconstruction and Time-dating. Submitted by [Cristian Román-Palacios](http://cromanpa94.github.io/cromanpa/). 
+     * [phruta](https://github.com/ropensci/software-review/issues/458), Phylogenetic Reconstruction and Time-dating. Submitted by [Cristian Román-Palacios](http://cromanpa94.github.io/cromanpa/). 
 
 * Two at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
 
@@ -111,9 +113,13 @@ Find out more about [Software Peer Review](/software-review) and [Statistical So
 
 
 
-### Other topics
-
 * [Creando Tu R-universe](/blog/2021/09/21/creando-tu-r-universe) by Yanina Bellini Saibene. En este post te explico como crear tu r-universe, a partir de la experiencia de crear el mio.
+
+* [The Story Behind rspatialdata](/blog/2021/09/28/rspatialdata) by Dilinie Seimon, Varsha Ujjinni Vijay Kumar. rspatialdata: tutorials for working with spatial data using R, featuring many rOpenSci packages.
+
+{{< figure src="rspatialdata-home-sm.jpg" alt="Screenshot of rspatialdata homepage featuring multicoloured tiles each outlining a different type of spatial data" width="400" >}}
+
+
 
 
 
@@ -121,7 +127,7 @@ Find out more about [Software Peer Review](/software-review) and [Statistical So
 
 * [rOpenSci docs are now built on r-universe](/blog/2021/09/03/runiverse-docs) by Jeroen Ooms. As of today, the pkgdown sites for all rOpenSci packages on our docs server are built on r-universe.
 
-* [How to Use System Commands in your R Script or Package](/blog/2021/09/13/system-calls-R-package) by Jeroen Ooms, Maëlle Salmon. Ways (not) to call the system from your R package.
+* [How to Use System Commands in your R Script or Package](/blog/2021/09/13/system-calls-R-package) by Jeroen Ooms, Maëlle Salmon. Ways (not) to call the system from your R package. This post was featured in the [R Weekly Highlights podcast by Eric Nantz](https://share.fireside.fm/episode/87RSVeFz+YtoLm80R).
 
 ## Use cases
 
