@@ -252,7 +252,7 @@ Look for the tweet with that ID on Twitter `http://twitter.com/user/status/bla` 
 
 * The website depends on the package registry (for packages pages, and for the search index) and on the citations JSON files that are hosted on GitHub pages. Therefore if GitHub pages is down see https://www.githubstatus.com/, the website can't be build. GitHub Pages often isn't down for long. Now if it is down for too long, 
 
-* Take https://github.com/ropensci-org/ropensci_citations/blob/master/citations_all_parts_clean.json and https://github.com/ropensci/roregistry/blob/gh-pages/registry.json(hopefully GitHub itself isn't down) and save them in a local folder `hack`. Drag and drop this folder to create a [new site in Netlify](https://docs.netlify.com/site-deploys/create-deploys/#drag-and-drop).
+* Take https://github.com/ropensci-org/ropensci_citations/blob/master/citations_all_parts_clean.json and https://github.com/ropensci/roregistry/blob/gh-pages/registry.json (hopefully GitHub itself isn't down) and save them in a local folder `hack`. Drag and drop this folder to create a [new site in Netlify](https://docs.netlify.com/site-deploys/create-deploys/#drag-and-drop).
 In `config.toml` change
 
 ```toml
