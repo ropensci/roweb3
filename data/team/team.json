@@ -247,6 +247,19 @@
    "home": "https://emilyriederer.netlify.com/"
 },
 {
+   "name": "Adam Sparks",
+   "url": "https://adamhsparks.netlify.app/",
+   "image" : "/img/team/emily-riederer.jpg",
+
+   "affiliation" : "State of Western Australia",
+   "roles": [
+      "editor"
+   ],
+   "twitter": "adamhsparks",
+   "github": "adamhsparks",
+   "home": "https://adamhsparks.netlify.app/"
+}, 
+{
    "name": "Kelly Hondula",
    "url": "https://www.sesync.org/users/khondula",
    "image" : "/img/team/kelly-hondula.jpg",
