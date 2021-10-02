@@ -248,16 +248,16 @@
 },
 {
    "name": "Adam Sparks",
-   "url": "https://adamhsparks.netlify.app/",
+   "url": "https://adamhsparks.com/",
    "image" : "/img/team/emily-riederer.jpg",
 
-   "affiliation" : "State of Western Australia",
+   "affiliation" : "Department of Primary Industries and Regional Development",
    "roles": [
       "editor"
    ],
    "twitter": "adamhsparks",
    "github": "adamhsparks",
-   "home": "https://adamhsparks.netlify.app/"
+   "home": "https://adamhsparks.com/"
 }, 
 {
    "name": "Kelly Hondula",
