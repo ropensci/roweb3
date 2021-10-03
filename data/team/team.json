@@ -247,6 +247,19 @@
    "home": "https://emilyriederer.netlify.com/"
 },
 {
+   "name": "Adam Sparks",
+   "url": "https://adamhsparks.com/",
+   "image" : "/img/team/adam-sparks.jpg",
+
+   "affiliation" : "Department of Primary Industries and Regional Development",
+   "roles": [
+      "editor"
+   ],
+   "twitter": "adamhsparks",
+   "github": "adamhsparks",
+   "home": "https://adamhsparks.com/"
+}, 
+{
    "name": "Kelly Hondula",
    "url": "https://www.sesync.org/users/khondula",
    "image" : "/img/team/kelly-hondula.jpg",
