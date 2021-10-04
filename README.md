@@ -270,13 +270,13 @@ to
 And open an issue for an Hugo person to change things back / change things back yourself when GitHub Pages is up again.
 With this hacky change the site should be built but if the registry and citations are updated the site is not showing the latest data.
 
-* If something like search or packages pages behave weirdly, look at error messages in the DevTools console(learn [how to open it using one of these resources](https://rmd-blogging-blr.netlify.app/webdev/devtools/) or via the browser menu, something like more tools > developer tools). Maybe one of the needed library can't be found because the related content deliver network (CDN) is down? Look at the status for that CDN (e.g. one of the JS files comes from `https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js` so you'd maybe check the Twitter account of jsdeliver). Maybe temporarily change for another CDN (e.g. `https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js` in the related partial), open an issue.
+* If something like search or packages pages behave weirdly, look at error messages in the DevTools console(learn [how to open it using one of these resources](https://rmd-blogging-blr.netlify.app/webdev/devtools/) or via the browser menu, something like more tools > developer tools). Maybe one of the needed libraries can't be found because the related content delivery network (CDN) is down? Look at the status for that CDN (e.g. one of the JS files comes from `https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js` so you'd maybe check the Twitter account of jsdeliver). Maybe temporarily change for another CDN (e.g. `https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js` in the related partial), open an issue.
 
 ### Search
 
 What if search seems broken? 
 
-* Look at error messages in the  DevTools console(learn [how to open it using one of these resources](https://rmd-blogging-blr.netlify.app/webdev/devtools/) or via the browser menu, something like more tools > developer tools). Maybe one of the needed library can't be found because the related CDN is down? Look at the status for that CDN. Maybe temporarily change for another CDN, open an issue.
+* Look at error messages in the DevTools console (learn [how to open it using one of these resources](https://rmd-blogging-blr.netlify.app/webdev/devtools/) or via the browser menu, something like more tools > developer tools). Maybe one of the needed library can't be found because the related CDN is down? Look at the status for that CDN. Maybe temporarily change for another CDN, open an issue.
 
 * Look at the address `<deploy-url>/search/index.json` and see what error there is. You might want to copy the raw JSON into a [JSON linter](https://jsonlint.com/). 
 
