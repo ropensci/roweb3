@@ -8,6 +8,7 @@ topicid: 1568
 tags:
   - Software Peer Review
   - rOpenSci team
+  - editors
 ---
 
 We are pleased to welcome Brooke Anderson and Melina Vidoni to our team of [Associate Editors](https://devguide.ropensci.org/softwarereviewintro.html#associateditors) for rOpenSci [Software Peer Review](/software-review/). They join Scott Chamberlain, Anna Krystalli, Lincoln Mullen, Karthik Ram, Noam Ross and Maëlle Salmon. With the addition of Brooke and Melina, our editorial board now includes four women and four men, located in North America, South America and Europe.
