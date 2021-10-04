@@ -26,14 +26,14 @@ Meet our new editors!
 {{< imgtxt src = "emily-riederer.jpg" width = "200" alt = "headshot of Emily Riederer">}} 
 
 Emily is a Senior Analytics Manager at Capital One, with degrees in Mathematics and Mathematical Decision Sciences (Statistics and Operations Research) from UNC Chapel Hill (USA). 
-(to be modified by Emily:) Her team focuses on reimagining their analytical infrastructure by building data products, elevating business analysis with novel data sources and statistical methods, and providing consultation and training to their partner teams.
+Emily leads a team focused on data enablement by developing "inner-source" analytical tools (including many R packages!) and designing better data structures. She enjoys sharing her thoughts on R and data on her [blog](https://emilyriederer.netlify.com/) and has contributed to two books ([R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/), [97 Things Every Data Engineer Should Know](https://www.oreilly.com/library/view/97-things-every/9781492062400/)). In her spare time, she maintains two open source R packages ([`projmgr`](https://cran.r-project.org/package=projmgr) and [`convo`](https://github.com/emilyriederer/convo)) and a dbt package ([`dbtplyr`](https://github.com/emilyriederer/dbtplyr)). 
 Emily reviewed the [tradestatistics](https://github.com/ropensci/software-review/issues/274) package for rOpenSci, has guest-edited the review of [dataspice](https://github.com/ropensci/software-review/issues/426) and is currently handling [cffr](https://github.com/ropensci/software-review/issues/463) for generating Citation File Format ('cff') metadata for R Packages.
 
 {{< /imgtxt >}}
 
 Emily on [GitHub](https://github.com/emilyriederer), [Twitter](https://twitter.com/emilyriederer), [Website](https://emilyriederer.netlify.com/)
 
-> quote here
+> I had the great fortune of stumbling upon rOpenSci relatively earliy in my career as an R programmer, and it's not exaggeration to say that this organization has had one of the single largest impacts on my career. rOpenSci's meticulous documentation helped me to embrace best packages in my development work. Perhaps even more impactful is how watching rOpenSci work shaped my perspective on community building, leadership, and teamwork. I have always admired the well-oiled machine that rOpenSci has created -- sustaining massive value with limited individual overhead by clearly defining expectations, providing opinionated infrastrcutre, and cultivating a phenomenal communtiy. I'm thrilled to be taking a formal role in an organization that has had such an impact on me. 
 
 
 
