@@ -1,7 +1,7 @@
 ---
-title: 'Announcing New Software Peer Review Editors: Emily Riederer, Adam Sparks, and Bueller?'
+title: 'Announcing New Software Peer Review Editors: Emily Riederer, Adam Sparks, and ... Bueller?'
 author: Stefanie Butland
-date: '2020-10-27'
+date: '2021-10-27'
 slug: editors2021
 tags:
   - Software Peer Review
@@ -10,14 +10,14 @@ tags:
 description: Introducing 3 new editors for rOpenSci software review
 # twitterImg: blog/2019/06/04/post-template/name-of-image.png
 ---
-EDIT
-We are pleased to welcome Emily Riederer, Adam Sparks, and Ferris Bueller to our team of [Associate Editors](/software-review/#editors) for rOpenSci [Software Peer Review](/software-review/). 
-They join [Laura DeCicco](/blog/2020/10/27/editors2020/), [Julia Gustavsen](/blog/2020/10/27/editors2020/), [Anna Krystalli](/blog/2018/06/22/new_editors/), [Mauro Lepore](/blog/2020/10/27/editors2020/), [Karthik Ram](/author/karthik-ram/), [Noam Ross](/author/noam-ross/), [Maëlle Salmon](/author/maëlle-salmon/), and [Melina Vidoni](/blog/2019/01/31/more_editors/). 
+We are excited to welcome Emily Riederer, Adam Sparks, and Ferris Bueller to our team of [Associate Editors](/software-review/#editors) for rOpenSci [Software Peer Review](/software-review/). 
+They join Laura DeCicco, Julia Gustavsen, Anna Krystalli, Mauro Lepore, Karthik Ram,Noam Ross, Maëlle Salmon, and Melina Vidoni. 
 
-EDIT
-Since 2015, rOpenSci has been running a software peer review system to combine the best of academic peer review with software review. 
-Having robust and reliable software tools is an important component of supporting open science and reproducible research.
-Editors manage the review process, performing initial package checks, identifying reviewers, and moderating the process until the package is accepted by reviewers and transferred to rOpenSci. 
+rOpenSci has been running a rigorous and collegial software peer review system since 2015. 
+Editors [manage the review process](https://devguide.ropensci.org/editorguide.html), performing initial package checks, identifying reviewers, and moderating the process until the package is accepted by reviewers and transferred to rOpenSci. 
+To address the scope and volume of packages submitted for review, it's critical that we have a team of editors with complementary expertise.
+Adam brings his broad experience with API packages and his experience from agricultural research in academia and government.
+Emily is known for openly sharing her processes-oriented approach to development based in her experience in industry.
 
 Meet our new editors!
 
@@ -25,13 +25,12 @@ Meet our new editors!
 
 {{< imgtxt src = "emily-riederer.jpg" width = "200" alt = "headshot of Emily Riederer">}} 
 
-EDIT
 Emily is a Senior Analytics Manager at Capital One, with degrees in Mathematics and Mathematical Decision Sciences (Statistics and Operations Research) from UNC Chapel Hill (USA). 
-Emily is known for xyz. She reviewed the [tradestatistics](https://github.com/ropensci/software-review/issues/274) package for rOpenSci and has guest-edited the review of [dataspice](https://github.com/ropensci/software-review/issues/426).
+(to be modified by Emily:) Her team focuses on reimagining their analytical infrastructure by building data products, elevating business analysis with novel data sources and statistical methods, and providing consultation and training to their partner teams.
+Emily reviewed the [tradestatistics](https://github.com/ropensci/software-review/issues/274) package for rOpenSci, has guest-edited the review of [dataspice](https://github.com/ropensci/software-review/issues/426) and is currently handling [cffr](https://github.com/ropensci/software-review/issues/463) for generating Citation File Format ('cff') metadata for R Packages.
 
 {{< /imgtxt >}}
 
-EDIT
 Emily on [GitHub](https://github.com/emilyriederer), [Twitter](https://twitter.com/emilyriederer), [Website](https://emilyriederer.netlify.com/)
 
 > quote here
@@ -42,17 +41,14 @@ Emily on [GitHub](https://github.com/emilyriederer), [Twitter](https://twitter.c
 
 {{< imgtxt src = "/img/team/adam-sparks.jpg" width = "200" alt = "headshot of Adam Sparks" >}} 
 
-EDIT
 Adam is a Senior Research Scientist in Bioeconomic Modelling for the [State of Western Australia](https://www.dpird.wa.gov.au/) in Perth and has a PhD in epidemiology and ecology of plant pathogens from Kansas State University (USA). 
-He specializes in simulation modelling and geographic information systems (GIS) and has developed or co-authored several R packages to help gather weather and climate data and study pathogen populations, including five that have passed rOpenSci software peer review: [bomrang](https://docs.ropensci.org/bomrang); [getCRUCLdata](https://docs.ropensci.org/getCRUCLdata); [GSODR](https://docs.ropensci.org/GSODR); [nasapower](https://docs.ropensci.org/nasapower); [chirps](https://docs.ropensci.org/chirps/).
-
-Adam has reviewed three rOpenSci packages [stats19](https://github.com/ropensci/software-review/issues/266), [rnassqs](https://github.com/ropensci/software-review/issues/298), and guest edited the review of [allodb](https://github.com/ropensci/software-review/issues/436). 
+He specializes in simulation modelling and geographic information systems (GIS) and has developed or co-authored several R packages to help gather weather and climate data and study pathogen populations. Adam has been active in rOpenSci software peer review since 2016, having five packages pass review: [bomrang](https://docs.ropensci.org/bomrang); [getCRUCLdata](https://docs.ropensci.org/getCRUCLdata); [GSODR](https://docs.ropensci.org/GSODR); [nasapower](https://docs.ropensci.org/nasapower);and  [chirps](https://docs.ropensci.org/chirps/) as co-author.
+Adam has reviewed two rOpenSci packages [stats19](https://github.com/ropensci/software-review/issues/266), [rnassqs](https://github.com/ropensci/software-review/issues/298), [bib2df](https://github.com/ropensci/software-review/issues/124), and guest edited the review of [allodb](https://github.com/ropensci/software-review/issues/436). 
 
 
 {{< /imgtxt >}}
 
-EDIT
-Adam on [GitHub](https://github.com/adamhsparks), [Twitter](https://twitter.com/adamhsparks), [Website](https://adamhsparks.netlify.com/), [rOpenSci](/author/adam-sparks/)
+Adam on [GitHub](https://github.com/adamhsparks), [Twitter](https://twitter.com/adamhsparks), [Website](https://adamhsparks.com/), [rOpenSci](/author/adam-sparks/)
 
 > add quote here
 
@@ -63,9 +59,11 @@ image and text box
 
 > quote
 
-## Resources
+## Submit your package!
 
-- About [rOpenSci Software Peer Review](/software-review/)
-- Browse the online book [rOpenSci Packages: Development, Maintenance, and Peer Review](https://devguide.ropensci.org/)
+Are you considering submitting your package for review? These resources will help.
+
+- About [rOpenSci Software Peer Review](/software-review/);
+- Browse the online book [rOpenSci Packages: Development, Maintenance, and Peer Review](https://devguide.ropensci.org/);
 - Read public [software review threads on GitHub](https://github.com/ropensci/software-review/issues)
 
