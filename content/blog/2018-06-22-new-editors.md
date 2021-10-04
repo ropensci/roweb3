@@ -5,8 +5,9 @@ date: '2018-06-22'
 author: Stefanie Butland
 topicid: 1231
 tags:
-  - community
   - Software Peer Review
+  - rOpenSci team
+  - editors
 ---
 Part of rOpenSci's mission is to create technical infrastructure in the form of carefully vetted R software tools that lower barriers to working with data sources on the web. Our open peer software review system for community-contributed tools is a key component of this. As the rOpenSci community grows and more package authors submit their work for peer review, we need to expand our editorial board to maintain a speedy process. As our [recent post](/blog/2018/05/03/onboarding-is-work/#work-done-by-editors) shows, package submissions have grown every year since we started this experiment, and we see no reason they will slow down!
 
