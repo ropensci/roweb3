@@ -6,6 +6,7 @@ slug: editors2020
 tags:
   - Software Peer Review
   - editors
+  - rOpenSci team
 description: Introducing 3 new editors for rOpenSci software review
 # twitterImg: blog/2019/06/04/post-template/name-of-image.png
 ---
