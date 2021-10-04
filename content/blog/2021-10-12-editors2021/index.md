@@ -1,7 +1,7 @@
 ---
 title: 'Announcing New Software Peer Review Editors: Emily Riederer, Adam Sparks, and ... Bueller?'
 author: Stefanie Butland
-date: '2021-10-27'
+date: '2021-10-12'
 slug: editors2021
 tags:
   - Software Peer Review
