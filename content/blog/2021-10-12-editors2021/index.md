@@ -52,10 +52,15 @@ Adam on [GitHub](https://github.com/adamhsparks), [Twitter](https://twitter.com/
 
 > add quote here
 
+## Jeff Hollister
 
-## Ferris Bueller?
+{{< imgtxt src = "/img/team/jeff-hollister.jpg" width = "200" alt = "headshot of Jeff Hollister">}} 
 
-image and text box
+Jeff is 
+
+{{< /imgtxt >}}
+
+Jeff on [GitHub](https://github.com/jhollist), [Twitter](https://twitter.com/jhollist), [Website](https://jwhollister.com/), [rOpenSci](/author/jeff-hollister/)
 
 > quote
 
