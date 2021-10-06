@@ -1,5 +1,5 @@
 ---
-title: 'Announcing New Software Peer Review Editors: Emily Riederer, Adam Sparks, and ... Bueller?'
+title: 'Announcing New Software Peer Review Editors: Emily Riederer, Adam Sparks, and Jeff Hollister'
 author: Stefanie Butland
 date: '2021-10-12'
 slug: editors2021
@@ -56,13 +56,16 @@ Adam on [GitHub](https://github.com/adamhsparks), [Twitter](https://twitter.com/
 
 {{< imgtxt src = "/img/team/jeff-hollister.jpg" width = "200" alt = "headshot of Jeff Hollister">}} 
 
-Jeff is 
+Jeff is BIO GOES HERE
+
 
 {{< /imgtxt >}}
 
 Jeff on [GitHub](https://github.com/jhollist), [Twitter](https://twitter.com/jhollist), [Website](https://jwhollister.com/), [rOpenSci](/author/jeff-hollister/)
 
-> quote
+> quote text
+
+
 
 ## Submit your package!
 
