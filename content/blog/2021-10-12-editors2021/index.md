@@ -18,7 +18,7 @@ Editors [manage the review process](https://devguide.ropensci.org/editorguide.ht
 To address the scope and volume of packages submitted for review, it's critical that we have a team of editors with complementary expertise.
 Adam brings his broad experience with API packages and his experience from agricultural research in academia and government.
 Emily is known for openly sharing her processes-oriented approach to development based in her experience in industry.
-Jeff's works hard at expanding open source tooling and skills in environmental science, particularly in government. 
+Jeff works hard at expanding open source tooling and skills in environmental science, particularly in government. 
 
 Meet our new editors!
 
@@ -57,7 +57,7 @@ Adam on [GitHub](https://github.com/adamhsparks), [Twitter](https://twitter.com/
 
 {{< imgtxt src = "/img/team/jeff-hollister.jpg" width = "200" alt = "headshot of Jeff Hollister">}} 
 
-Jeff is an ecologist with expertise in the spatial component of ecology and environmental sciences and he received his PhD in Environmental Science from the University of Rhode Island. Jeff works as a Research Ecologist with the US Environmental Protection Agency’s (USEPA) Office of Research and Development at the Atlantic Coastal Environmental Sciences Division in Narragansett, RI. His work focuses on lakes and harmful algal blooms, but a big part of his job is building tools in R for this research as well as growing the community of R users within the USEPA.  Jeff maintains four packages on CRAN including [elevatr](https://cran.r-project.org/package=elevatr), [lakemorpho](https://cran.r-project.org/package=lakemorpho), [quickmapr](https://cran.r-project.org/package=quickmapr), and [dadjokeapi](https://cran.r-project.org/package=dadjokeapi)(arguably his most important contribution).  He reviewed the [camsRad](https://github.com/ropensci/camsRad), [osmplotr](https://github.com/ropensci/osmplotr), and [NLMR](https://github.com/ropensci/NLMR) packages for rOpenSci and most recently served as guest editor for the [rsat](https://github.com/ropensci/rsat) package.
+Jeff is an ecologist with expertise in the spatial component of ecology and environmental sciences.  He received his PhD in Environmental Science from the University of Rhode Island and works as a Research Ecologist with the US Environmental Protection Agency’s (USEPA) Office of Research and Development at the Atlantic Coastal Environmental Sciences Division in Narragansett, RI. His work focuses on lakes and harmful algal blooms, but a big part of his job is building tools in R for this research as well as growing the community of R users within the USEPA.  Jeff maintains four packages on CRAN including [elevatr](https://cran.r-project.org/package=elevatr), [lakemorpho](https://cran.r-project.org/package=lakemorpho), [quickmapr](https://cran.r-project.org/package=quickmapr), and [dadjokeapi](https://cran.r-project.org/package=dadjokeapi)(arguably his most important contribution).  He reviewed the [camsRad](https://github.com/ropensci/camsRad), [osmplotr](https://github.com/ropensci/osmplotr), and [NLMR](https://github.com/ropensci/NLMR) packages for rOpenSci and most recently served as guest editor for the [rsat](https://github.com/ropensci/rsat) package.
 
 {{< /imgtxt >}}
 
