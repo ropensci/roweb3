@@ -10,14 +10,15 @@ tags:
 description: Introducing 3 new editors for rOpenSci software review
 # twitterImg: blog/2019/06/04/post-template/name-of-image.png
 ---
-We are excited to welcome Emily Riederer, Adam Sparks, and Ferris Bueller to our team of [Associate Editors](/software-review/#editors) for rOpenSci [Software Peer Review](/software-review/). 
-They join Laura DeCicco, Julia Gustavsen, Anna Krystalli, Mauro Lepore, Karthik Ram,Noam Ross, Maëlle Salmon, and Melina Vidoni. 
+We are excited to welcome Emily Riederer, Adam Sparks, and Jeff Hollister to our team of [Associate Editors](/software-review/#editors) for rOpenSci [Software Peer Review](/software-review/). 
+They join Laura DeCicco, Julia Gustavsen, Anna Krystalli, Mauro Lepore, Karthik Ram, Noam Ross, Maëlle Salmon, and Melina Vidoni. 
 
 rOpenSci has been running a rigorous and collegial software peer review system since 2015. 
 Editors [manage the review process](https://devguide.ropensci.org/editorguide.html), performing initial package checks, identifying reviewers, and moderating the process until the package is accepted by reviewers and transferred to rOpenSci. 
 To address the scope and volume of packages submitted for review, it's critical that we have a team of editors with complementary expertise.
 Adam brings his broad experience with API packages and his experience from agricultural research in academia and government.
 Emily is known for openly sharing her processes-oriented approach to development based in her experience in industry.
+Jeff's works hard at expanding open source tooling and skills in environmental science, particularly in government. 
 
 Meet our new editors!
 
@@ -56,14 +57,13 @@ Adam on [GitHub](https://github.com/adamhsparks), [Twitter](https://twitter.com/
 
 {{< imgtxt src = "/img/team/jeff-hollister.jpg" width = "200" alt = "headshot of Jeff Hollister">}} 
 
-Jeff is BIO GOES HERE
-
+Jeff is an ecologist with expertise in the spatial component of ecology and environmental sciences and he received his PhD in Environmental Science from the University of Rhode Island. Jeff works as a Research Ecologist with the US Environmental Protection Agency’s (USEPA) Office of Research and Development at the Atlantic Coastal Environmental Sciences Division in Narragansett, RI. His work focuses on lakes and harmful algal blooms, but a big part of his job is building tools in R for this research as well as growing the community of R users within the USEPA.  Jeff maintains four packages on CRAN including [elevatr](https://cran.r-project.org/package=elevatr), [lakemorpho](https://cran.r-project.org/package=lakemorpho), [quickmapr](https://cran.r-project.org/package=quickmapr), and [dadjokeapi](https://cran.r-project.org/package=dadjokeapi)(arguably his most important contribution).  He reviewed the [camsRad](https://github.com/ropensci/camsRad), [osmplotr](https://github.com/ropensci/osmplotr), and [NLMR](https://github.com/ropensci/NLMR) packages for rOpenSci and most recently served as guest editor for the [rsat](https://github.com/ropensci/rsat) package.
 
 {{< /imgtxt >}}
 
 Jeff on [GitHub](https://github.com/jhollist), [Twitter](https://twitter.com/jhollist), [Website](https://jwhollister.com/), [rOpenSci](/author/jeff-hollister/)
 
-> quote text
+> Many years ago I first started hearing about "data science", "reproducibility", and "open science."  These terms were new to me, but seemed like they were going to be important in my fields of ecology and environmental science.  Problem was, I struggled to to use these ideas and tools in my own work.  Lucky for me, I soon stumbled across rOpenSci and quickly felt at home in this community and that rOpenSci was going to help incorporate all these ideas into my fields.  In the years scince, I have watched rOpenSci closely, participated in events, done package reviews, and generally been in awe of the progress, growth, and impact rOpenSci has had.  Needless to say I was flattered to be asked to join the editorial board and am excited to have this chance to give back to the rOpenSci community.  
 
 
 
