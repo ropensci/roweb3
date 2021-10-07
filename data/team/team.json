@@ -260,6 +260,19 @@
    "home": "https://adamhsparks.com/"
 }, 
 {
+   "name": "Jeff Hollister",
+   "url": "https://jwhollister.com/",
+   "image" : "/img/team/jeff-hollister.jpg",
+
+   "affiliation" : "US Environmental Protection Agency",
+   "roles": [
+      "editor"
+   ],
+   "twitter": "jhollist",
+   "github": "jhollist",
+   "home": "https://jwhollister.com/"
+}, 
+{
    "name": "Kelly Hondula",
    "url": "https://www.sesync.org/users/khondula",
    "image" : "/img/team/kelly-hondula.jpg",
