@@ -16,7 +16,7 @@ They join Laura DeCicco, Julia Gustavsen, Anna Krystalli, Mauro Lepore, Karthik 
 rOpenSci has been running a rigorous and collegial software peer review system since 2015. 
 Editors [manage the review process](https://devguide.ropensci.org/editorguide.html), performing initial package checks, identifying reviewers, and moderating the process until the package is accepted by reviewers and transferred to rOpenSci. 
 To address the scope and volume of packages submitted for review, it's critical that we have a team of editors with complementary expertise.
-Adam brings his broad experience with API packages and his experience from agricultural research in academia and government.
+Adam brings his broad experience with API packages and his experience from agricultural research in academia, an international non-government organisation and government.
 Emily is known for openly sharing her processes-oriented approach to development based in her experience in industry.
 Jeff works hard at expanding open source tooling and skills in environmental science, particularly in government. 
 
