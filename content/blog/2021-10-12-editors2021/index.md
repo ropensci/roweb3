@@ -51,7 +51,7 @@ Adam has reviewed two rOpenSci packages [stats19](https://github.com/ropensci/so
 
 Adam on [GitHub](https://github.com/adamhsparks), [Twitter](https://twitter.com/adamhsparks), [Website](https://adamhsparks.com/), [rOpenSci](/author/adam-sparks/)
 
-> add quote here
+> I became aware of rOpenSci several years ago when I started working on writing my own R packages. I had used R extensively for my PhD research and had even published a series of teaching documents on using R in the classroom for botanical epidemiology, but I'd not written my own R packages. That's where rOpenSci came in. I had the good fortune to attend the first rOpenSci Unconf in Brisbane in 2016. While I was there [GSODR](https://docs.ropensci.org/GSODR) was accepted to CRAN and I met a great bunch of folks in the Australian R community. I then had GSODR reviewed and accepted by rOpenScie, that encouraged me and since then I've worked to make already open data more accessible through my packages and to assist with reproducibility. In the time that I've been involved with rOpenSci, the ideals and community helped inspire me to co-found [Open Plant Pathology](https://www.openplantpathology.org), which serves a similar in spirit but different purpose for the global plant pathology community. It's an honour to be a part of the editorial board and given the chance to give back to the community that has given me so much.
 
 ## Jeff Hollister
 
