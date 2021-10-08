@@ -81,11 +81,16 @@
 },
 {
    "title": "ropensci-training GitHub Organization",
-   "text": "Mostly legacy training materials",
+   "text": "Mostly legacy training materials.",
    "url": "https://github.com/ropensci-training"
 },
 {
    "title": "ropensci-org GitHub Organization",
-   "text": "Miscellaneous organization tooling",
+   "text": "Miscellaneous organization tooling.",
+   "url": "https://github.com/ropensci-org"
+},
+{
+   "title": "ropensci-archive GitHub Organization",
+   "text": "Abandoned projects.",
    "url": "https://github.com/ropensci-org"
 }]
