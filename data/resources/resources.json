@@ -93,4 +93,9 @@
    "title": "ropensci-archive GitHub Organization",
    "text": "Abandoned projects.",
    "url": "https://github.com/ropensci-org"
+},
+{
+   "title": "ropensci-docs GitHub Organization",
+   "text": "Documentation of rOpenSci packages, automatically updated.",
+   "url": "https://github.com/ropensci-docs"
 }]
