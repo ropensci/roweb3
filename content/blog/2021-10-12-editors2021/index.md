@@ -16,7 +16,7 @@ They join Laura DeCicco, Julia Gustavsen, Anna Krystalli, Mauro Lepore, Karthik 
 rOpenSci has been running a rigorous and collegial software peer review system since 2015. 
 Editors [manage the review process](https://devguide.ropensci.org/editorguide.html), performing initial package checks, identifying reviewers, and moderating the process until the package is accepted by reviewers and transferred to rOpenSci. 
 To address the scope and volume of packages submitted for review, it's critical that we have a team of editors with complementary expertise.
-Adam brings his broad experience with API packages and his experience from agricultural research in academia and government.
+Adam brings his broad experience with API packages and his experience from agricultural research in academia, an international non-government organisation and government.
 Emily is known for openly sharing her processes-oriented approach to development based in her experience in industry.
 Jeff works hard at expanding open source tooling and skills in environmental science, particularly in government. 
 
@@ -42,8 +42,8 @@ Emily on [GitHub](https://github.com/emilyriederer), [Twitter](https://twitter.c
 
 {{< imgtxt src = "/img/team/adam-sparks.jpg" width = "200" alt = "headshot of Adam Sparks" >}} 
 
-Adam is a Senior Research Scientist in Bioeconomic Modelling for the [State of Western Australia](https://www.dpird.wa.gov.au/) in Perth and has a PhD in epidemiology and ecology of plant pathogens from Kansas State University (USA). 
-He specializes in simulation modelling and geographic information systems (GIS) and has developed or co-authored several R packages to help gather weather and climate data and study pathogen populations. Adam has been active in rOpenSci software peer review since 2016, having five packages pass review: [bomrang](https://docs.ropensci.org/bomrang); [getCRUCLdata](https://docs.ropensci.org/getCRUCLdata); [GSODR](https://docs.ropensci.org/GSODR); [nasapower](https://docs.ropensci.org/nasapower);and  [chirps](https://docs.ropensci.org/chirps/) as co-author.
+Adam is a Senior Research Scientist in Bioeconomic Modelling for the [State of Western Australia](https://www.dpird.wa.gov.au/) in Perth and Adjunct Associate Professor in the Centre for Crop Health at the University of Southern Queensland and holds a PhD in epidemiology and ecology of plant pathogens from Kansas State University (USA). 
+He specializes in simulation modelling and geographic information systems (GIS) and has developed or co-authored several R packages to help gather weather and climate data, simulate plant diseases and study pathogen populations. Adam has been active in rOpenSci software peer review since 2016, having five packages pass review: [bomrang](https://docs.ropensci.org/bomrang); [getCRUCLdata](https://docs.ropensci.org/getCRUCLdata); [GSODR](https://docs.ropensci.org/GSODR); [nasapower](https://docs.ropensci.org/nasapower);and  [chirps](https://docs.ropensci.org/chirps/) as co-author.
 Adam has reviewed two rOpenSci packages [stats19](https://github.com/ropensci/software-review/issues/266), [rnassqs](https://github.com/ropensci/software-review/issues/298), [bib2df](https://github.com/ropensci/software-review/issues/124), and guest edited the review of [allodb](https://github.com/ropensci/software-review/issues/436). 
 
 
@@ -51,7 +51,7 @@ Adam has reviewed two rOpenSci packages [stats19](https://github.com/ropensci/so
 
 Adam on [GitHub](https://github.com/adamhsparks), [Twitter](https://twitter.com/adamhsparks), [Website](https://adamhsparks.com/), [rOpenSci](/author/adam-sparks/)
 
-> add quote here
+> I became aware of rOpenSci several years ago when I started working on writing my own R packages. I had used R extensively for my PhD research and had even published a series of teaching documents on using R in the classroom for botanical epidemiology, but I'd not written my own R packages. That's where rOpenSci came in. I had the good fortune to attend the first rOpenSci Unconf in Brisbane in 2016. While I was there [GSODR](https://docs.ropensci.org/GSODR) was accepted to CRAN and I met a great bunch of folks in the Australian R community. I then had GSODR reviewed and accepted by rOpenScie, that encouraged me and since then I've worked to make already open data more accessible through my packages and to assist with reproducibility. In the time that I've been involved with rOpenSci, the ideals and community helped inspire me to co-found [Open Plant Pathology](https://www.openplantpathology.org), which serves a similar in spirit but different purpose for the global plant pathology community. It's an honour to be a part of the editorial board and given the chance to give back to the community that has given me so much.
 
 ## Jeff Hollister
 
@@ -63,7 +63,7 @@ Jeff is an ecologist with expertise in the spatial component of ecology and envi
 
 Jeff on [GitHub](https://github.com/jhollist), [Twitter](https://twitter.com/jhollist), [Website](https://jwhollister.com/), [rOpenSci](/author/jeff-hollister/)
 
-> Many years ago I first started hearing about "data science", "reproducibility", and "open science."  These terms were new to me, but seemed like they were going to be important in my fields of ecology and environmental science.  Problem was, I struggled to to use these ideas and tools in my own work.  Lucky for me, I soon stumbled across rOpenSci and quickly felt at home in this community and that rOpenSci was going to help incorporate all these ideas into my fields.  In the years scince, I have watched rOpenSci closely, participated in events, done package reviews, and generally been in awe of the progress, growth, and impact rOpenSci has had.  Needless to say I was flattered to be asked to join the editorial board and am excited to have this chance to give back to the rOpenSci community.  
+> Many years ago I first started hearing about "data science", "reproducibility", and "open science."  These terms were new to me, but seemed like they were going to be important in my fields of ecology and environmental science.  Problem was, I struggled to to use these ideas and tools in my own work.  Lucky for me, I soon stumbled across rOpenSci and quickly felt at home in this community and that rOpenSci was going to help incorporate all these ideas into my fields.  In the years since, I have watched rOpenSci closely, participated in events, done package reviews, and generally been in awe of the progress, growth, and impact rOpenSci has had.  Needless to say I was flattered to be asked to join the editorial board and am excited to have this chance to give back to the rOpenSci community.  
 
 
 
