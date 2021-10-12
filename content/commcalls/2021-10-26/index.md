@@ -24,6 +24,7 @@ outputs:
 resources:
   - url: /blog/2021/03/09/commcall-stats/
     name: Summary blog post
+    details: of first community call on statistical software peer review
   - url: https://ropenscilabs.github.io/statistical-software-review-book/index.html
     name: rOpenSci Statistical Software Peer Review
     details: book
