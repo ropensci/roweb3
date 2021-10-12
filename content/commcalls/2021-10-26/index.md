@@ -68,7 +68,7 @@ deets: |
     Passcode: 088482
 zoomurl: https://zoom.us/j/93369996529?pwd=a0EwcjVuaTJjSWtodk5uR1A1bVlaZz09
 ---
-This is the second in a series of Community Calls we'll host throughout the year on our [statistical software review project](https://ropensci.org/stat-software-review/).
+_This is the second in a series of Community Calls we'll host throughout the year on our [statistical software review project](https://ropensci.org/stat-software-review/)._
 
 We at rOpenSci have expanded the scope of our software peer review system to encompass explicitly statistical software. The first Community Call in this series covered XYZ tools. This time we want to address the bigger picture of why our development of statistical package standards begins to fill a critical unmet need. Rebecca Killick, a member of the XYZ board will talk about ABC standards. Juliane Manitz will talk about XYZ perspective R Validation Hub and pharmaceutical industry. Christoph Sax will talk about his first hand experience preparing his tsbox package for review.
 
