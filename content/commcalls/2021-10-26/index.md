@@ -29,11 +29,11 @@ resources:
     name: rOpenSci Statistical Software Peer Review
     details: book
   - url: /events/nhsrconf2020/
-    name: 'Navigating open-source software: Ensuring you can rely on what you use' 
-    details: ', Rebecca Killick's NHS-R Conference 2020 talk'
+    name: "Navigating open-source software: Ensuring you can rely on what you use" 
+    details: Rebecca Killick NHS-R Conference 2020 talk
   - url: /events/asa-biop-mark/
     name: Assessment and Standardization of R Packages for Statistical Analysis by rOpenSci
-    details: ', Mark Padgham's ASA-BIOP 2021 talk'
+    details: Mark Padgham ASA-BIOP 2021 talk
   - url: https://stats-devguide.ropensci.org/
     name: 'autotest: automatic testing of R packages'
   - url: https://github.com/ropenscilabs/srr
