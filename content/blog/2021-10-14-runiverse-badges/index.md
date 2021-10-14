@@ -22,7 +22,7 @@ After [creating your personal universe](/blog/2021/06/22/setup-runiverse/), the 
 
 [![screenshot of the badges tab](screenshot.png)](https://ropensci.r-universe.dev/ui#badges)
 
-Badges provide a nice way to display the status of your repository or individual packages within external webpages, such as a README file or your personal homepage. 
+Badges provide a nice way to display the status of your repository or individual packages within external webpages, such as a README file, your personal homepage, your personal homepage, your [personal](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) or [organization](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile) profile README on GitHub. 
 
 There are currently two types of badges in r-universe: individual package badges showing the current package version, and global badges (where the endpoint is prefixed with `:`) that show the name, count, and status of the entire repository.
 
@@ -31,7 +31,7 @@ There are currently two types of badges in r-universe: individual package badges
 
 The `/badges/{pkg}` API yields a badge with the current version of the given package in the repository. A common place to display this badge is in the package README file, together with the package installation instructions.
 
-If the package is also on CRAN, you could position it next to a badge from r-pkg.org to contrast it with the current CRAN version and installation instructions, see for example the [gert package README](https://github.com/r-lib/gert/blob/master/README.md):
+If the package is also on CRAN, you could position it next to a badge from [r-pkg.org](https://docs.r-hub.io/#badges-for-cran-packages) to contrast it with the current CRAN version and installation instructions, see for example the [gert package README](https://github.com/r-lib/gert/blob/master/README.md):
 
 
 ```md
@@ -42,7 +42,7 @@ If the package is also on CRAN, you could position it next to a badge from r-pkg
 
 Which looks like below. Here users can immediately see from the README that the package is available from the ropensci universe, and that the version from r-universe is higher than the CRAN version.
 
-[![screenshot of the gert package showing the badge in action](gert.png)](https://github.com/r-lib/gert)
+[![screenshot of the gert package showing the badge in use](gert.png)](https://github.com/r-lib/gert)
 
 ## Repository status badges
 
@@ -72,9 +72,9 @@ This is what the badges look like for the ropensci universe:
 
 One of the early adopters of R-universe had [requested](https://github.com/r-universe-org/bugs/issues/87) some options to customize the visual appearance of the badges. We have added 3 http parameters to the badges API:
 
- - `scale` the size of the badge (where 1 is the default)
- - `color` the color of a badge
- - `style` set to "flat" to get retro style badges
+ - `scale` the size of the badge (where 1 is the default);
+ - `color` the color of a badge;
+ - `style` set to "flat" to get retro style badges.
 
 For example: `https://ropensci.r-universe.dev/badges/:total?scale=2&color=pink&style=flat`
 
