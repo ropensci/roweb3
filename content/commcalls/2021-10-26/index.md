@@ -35,7 +35,7 @@ resources:
   - url: https://discuss.ropensci.org/c/statistical-software-peer-review/28
     name: community forum
     details: for discussion of statistical software peer review
-  - url: https://github.com/ropenscilabs/statistical-software-review/issues
+  - url: https://github.com/ropensci/software-review/blob/master/README.md
     name: Open an issue
     details: if you're interested in submitting a package
   - url: https://www.pharmar.org/
@@ -71,6 +71,6 @@ zoomurl: https://zoom.us/j/93369996529?pwd=a0EwcjVuaTJjSWtodk5uR1A1bVlaZz09
 ---
 _This is the second in a series of 1-hour Community Calls on our [statistical software review project](https://ropensci.org/stat-software-review/)._
 
-We at rOpenSci have expanded the scope of our software peer review system to encompass explicitly statistical software. The [first Community Call in this series](/commcalls/feb2021-statsreview/) covered new tools to help people prepare their software for submission. This time, we will address the bigger picture of how our community-informed development of standards for statistical packages meets a critical need of stakeholders. Noam Ross (EcoHealth Alliance and rOpenSci Software Review Lead) will catch everyone up on the project. Rebecca Killick (Lancaster University and rOpenSci Statistical Software Peer Review advisory committee) will offer insights into standardisation and the potential role our program might play in the future of statistical software and open source software in general. Juliane Manitz (EMD Serono and R Validation Hub) will offer a perspective on the use of open source software in regulated environments. Christoph Sax (cynkra) will share his experience as the first person to submit a package for review and aligning his software with our standards.
+We at rOpenSci have expanded the scope of our software peer review system to encompass explicitly statistical software. The [first Community Call in this series](/commcalls/feb2021-statsreview/) covered new tools to help people prepare their software for submission. This time, we will address the bigger picture of how our community-informed development of standards for statistical packages meets a critical need of stakeholders. Noam Ross (EcoHealth Alliance and rOpenSci Software Review Lead) will catch everyone up on the project. Rebecca Killick (Lancaster University and rOpenSci Statistical Software Peer Review advisory committee) will offer insights into standardisation and the potential role our program might play in the future of statistical software and open source software in general. Juliane Manitz (EMD Serono and R Validation Hub) will offer a perspective on the use of open source software in regulated environments. Christoph Sax (cynkra) will share his experience as the first person to submit a package, [tsbox](https://github.com/ropensci/software-review/issues/464), for review and aligning his software with our standards.
 
 See below for speaker bios and resources.
