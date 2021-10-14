@@ -30,10 +30,10 @@ resources:
     details: book
   - url: https://youtu.be/6PV5dGpmQgk
     name: Video 
-    details: for Navigating open-source software: Ensuring you can rely on what you use, by Rebecca Killick for NHS-R Conference 2020
+    details: 'for Navigating open-source software: Ensuring you can rely on what you use, by Rebecca Killick for NHS-R Conference 2020'
   - url: https://github.com/rkillick/Presentations/blob/main/Killick.pdf
     name: Slides
-    details: for Navigating open-source software: Ensuring you can rely on what you use, by Rebecca Killick for NHS-R Conference 2020
+    details: 'for Navigating open-source software: Ensuring you can rely on what you use, by Rebecca Killick for NHS-R Conference 2020'
   - url: https://stats-devguide.ropensci.org/
     name: 'autotest: automatic testing of R packages'
   - url: https://github.com/ropenscilabs/srr
