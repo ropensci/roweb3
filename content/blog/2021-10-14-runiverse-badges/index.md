@@ -29,7 +29,7 @@ There are currently two types of badges in r-universe: individual package badges
 
 ## Package version badges
 
-The `/badges/{pkg}` api yields a badge with the current version of the given package in the repository. A common place to display this badge is in the package readme file, together with the package installation instructions.
+The `/badges/{pkg}` API yields a badge with the current version of the given package in the repository. A common place to display this badge is in the package readme file, together with the package installation instructions.
 
 If the package is also on CRAN, you could position it next to a badge from r-pkg.org to contrast it with the current CRAN version and installation instructions, see for example the [gert package readme](https://github.com/r-lib/gert/blob/master/README.md):
 
@@ -52,7 +52,7 @@ Besides badges for individual packages, the system also provides a few badges wi
  - `/badges/:total` the total number of packages in the repository
  - `/badges/:registry` if the latest monorepo update was successful, i.e. if your package registry is OK
 
-The last badge in particular may be useful for yourself. If will go red when something is wrong with your package registry file. This usually means your [packages.json](http://localhost:1313/blog/2021/06/22/setup-runiverse/#the-packagesjson-registry-file) may reference git repositories or branches that do not exist, or the system did not find a proper package in the given location.
+The last badge in particular may be useful for yourself. If will go red when something is wrong with your package registry file. This usually means your [packages.json](/blog/2021/06/22/setup-runiverse/#the-packagesjson-registry-file) may reference git repositories or branches that do not exist, or the system did not find a proper package in the given location.
 
 This is what the badges look like for the ropensci universe:
 
@@ -70,7 +70,7 @@ This is what the badges look like for the ropensci universe:
 
 ## Customize the badge style
 
-One of the early adopters of R-universe had [requested](https://github.com/r-universe-org/bugs/issues/87) some options to customize the visual appearance of the badges. We have added 3 http parameters to the badges api:
+One of the early adopters of R-universe had [requested](https://github.com/r-universe-org/bugs/issues/87) some options to customize the visual appearance of the badges. We have added 3 http parameters to the badges API:
 
  - `scale` the size of the badge (where 1 is the default)
  - `color` the color of a badge
