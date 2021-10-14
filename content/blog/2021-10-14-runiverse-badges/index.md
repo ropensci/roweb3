@@ -22,16 +22,16 @@ After [creating your personal universe](/blog/2021/06/22/setup-runiverse/), the 
 
 [![screenshot of the badges tab](screenshot.png)](https://ropensci.r-universe.dev/ui#badges)
 
-Badges provide a nice way to display the status of your repository or individual packages within external webpages, such as a readme file or your personal homepage. 
+Badges provide a nice way to display the status of your repository or individual packages within external webpages, such as a README file or your personal homepage. 
 
 There are currently two types of badges in r-universe: individual package badges showing the current package version, and global badges (where the endpoint is prefixed with `:`) that show the name, count, and status of the entire repository.
 
 
 ## Package version badges
 
-The `/badges/{pkg}` API yields a badge with the current version of the given package in the repository. A common place to display this badge is in the package readme file, together with the package installation instructions.
+The `/badges/{pkg}` API yields a badge with the current version of the given package in the repository. A common place to display this badge is in the package README file, together with the package installation instructions.
 
-If the package is also on CRAN, you could position it next to a badge from r-pkg.org to contrast it with the current CRAN version and installation instructions, see for example the [gert package readme](https://github.com/r-lib/gert/blob/master/README.md):
+If the package is also on CRAN, you could position it next to a badge from r-pkg.org to contrast it with the current CRAN version and installation instructions, see for example the [gert package README](https://github.com/r-lib/gert/blob/master/README.md):
 
 
 ```md
@@ -40,7 +40,7 @@ If the package is also on CRAN, you could position it next to a badge from r-pkg
 ![cran-badge example for gert package](http://www.r-pkg.org/badges/version/gert)
 ```
 
-Which looks like below. Here the user can immediately see from the readme that the package is available from the ropensci universe, and that the version from r-universe is more current than the CRAN version.
+Which looks like below. Here users can immediately see from the README that the package is available from the ropensci universe, and that the version from r-universe is higher than the CRAN version.
 
 [![screenshot of the gert package showing the badge in action](gert.png)](https://github.com/r-lib/gert)
 
