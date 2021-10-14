@@ -22,7 +22,7 @@ After [creating your personal universe](/blog/2021/06/22/setup-runiverse/), the 
 
 [![screenshot of the badges tab](screenshot.png)](https://ropensci.r-universe.dev/ui#badges)
 
-Badges provide a nice way to display the status of your repository or individual packages within external webpages, such as a README file, your personal homepage, your personal homepage, your [personal](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) or [organization](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile) profile README on GitHub. 
+Badges provide a nice way to display the status of your repository or individual packages within external webpages, such as a README file, your homepage, or your [personal](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) or [organization](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile) profile README on GitHub. 
 
 There are currently two types of badges in r-universe: individual package badges showing the current package version, and global badges (where the endpoint is prefixed with `:`) that show the name, count, and status of the entire repository.
 
