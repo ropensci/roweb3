@@ -35,7 +35,7 @@ resources:
   - url: https://discuss.ropensci.org/c/statistical-software-peer-review/28
     name: community forum
     details: for discussion of statistical software peer review
-  - url: https://github.com/ropenscilabs/statistical-software-review/issues
+  - url: https://github.com/ropensci/software-review/blob/master/README.md
     name: Open an issue
     details: if you're interested in submitting a package
   - url: https://www.pharmar.org/
