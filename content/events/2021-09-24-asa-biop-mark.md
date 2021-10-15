@@ -7,6 +7,7 @@ description: short summary # If you use a colon put the whole field in ""
 location: 'online' # free text
 slug: "asa-biop-mark"
 country: "\U0001F310" # emoji
+ropensci: yes
 outputs: 
 - HTML
 - Calendar 
