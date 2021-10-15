@@ -13,7 +13,7 @@ DTSTAMP:{{dateFormat "20060102T150405Z" .Params.dateStart}}
 DTSTART;TZID=Etc/UTC:{{dateFormat "20060102T150405" .Params.dateStart}}
 DTEND;TZID=Etc/UTC:{{dateFormat "20060102T150405" .Params.dateEnd}}
 LOCATION:Online
-DESCRIPTION:{{ with .Params.description}}{{ . | truncate 150 }}{{ end }}{{.Permalink}}
+DESCRIPTION:{{ with .Params.description}}{{ . | truncate 75 }}{{ end }}{{.Permalink}}
 URL:{{.Permalink}}
 END:VEVENT{{ end }}{{ end }}
 END:VCALENDAR
