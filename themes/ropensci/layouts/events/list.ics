@@ -2,8 +2,8 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//ropensci
 CALSCALE:GREGORIAN
-METHOD:PUBLISH
-{{ $pages := (where ( where .Site.RegularPages "Type" "in" .Site.Params.events ) ".Date" ">=" now.UTC ) }}{{ range $pages.Reverse }}{{ if (and (eq .Type "events" ) (not (isset .Params "ropensci") ) ) }}{{ else }}BEGIN:VEVENT
+METHOD:PUBLISH{{ $pages := (where ( where .Site.RegularPages "Type" "in" .Site.Params.events ) ".Date" ">=" now.UTC ) }}{{ range $pages.Reverse }}{{ if (and (eq .Type "events" ) (not (isset .Params "ropensci") ) ) }}{{ else }}
+BEGIN:VEVENT
 ORGANIZER;CN="rOpenSci":mailto:no-reply@ropensci.org
 SUMMARY:{{.Title}} (rOpenSci)
 UID:{{.Params.dateStart}}@ropensci-commcalls
@@ -13,7 +13,7 @@ DTSTAMP:{{dateFormat "20060102T150405Z" .Params.dateStart}}
 DTSTART;TZID=Etc/UTC:{{dateFormat "20060102T150405" .Params.dateStart}}
 DTEND;TZID=Etc/UTC:{{dateFormat "20060102T150405" .Params.dateEnd}}
 LOCATION:Online
-DESCRIPTION:{{ with .Params.description}}{{ . | truncate 75 }}{{ end }}{{.Permalink}}
+DESCRIPTION:{{.Permalink}}
 URL:{{.Permalink}}
 END:VEVENT{{ end }}{{ end }}
 END:VCALENDAR
