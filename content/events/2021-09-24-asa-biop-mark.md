@@ -1,7 +1,7 @@
 ---
 title: ASA-BIOP 2021 conference
-dateStart: 2021-09-24T15:00:00 # UTC!!
-dateEnd: 2021-09-24T16:00:00 # UTC!!
+dateStart: 2021-11-24T15:00:00 # UTC!!
+dateEnd: 2021-11-24T16:00:00 # UTC!!
 date: 2021-11-24T16:00:00 # UTC!! same as dateEnd
 description: short summary # If you use a colon put the whole field in ""
 location: 'online' # free text
