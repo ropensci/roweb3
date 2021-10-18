@@ -1,11 +1,11 @@
 [
 {
-   "title": "contributing guide",
+   "title": "Contributing Guide",
    "text": "The purpose of this guide is to welcome you to rOpenSci and help you recognize yourself as a potential contributor.",
    "url": "https://contributing.ropensci.org"
 },
 {
-   "title": "packages",
+   "title": "Packages",
    "text": "Software helping work with local and remote scientific data sources.",
    "url": "/packages"
 },
@@ -15,7 +15,7 @@
    "url": "/usecases/"
 },
 {
-   "title": "developer guide",
+   "title": "Developer Guide",
    "text": "Our best practice guide for R package development and peer-review.",
    "url": "https://devguide.ropensci.org"
 },
@@ -25,7 +25,7 @@
    "url": "/software-review"
 },
 {
-   "title": "forum",
+   "title": "Forum",
    "text": " Ask and answer questions about our packages or resources; report use cases.",
    "url": "https://discuss.ropensci.org"
 },
@@ -35,27 +35,67 @@
    "url": "/archive"
 },
 {
-   "title": "Community call archive",
+   "title": "Community Call Archive",
    "text": "All recordings from previous webinars.",
    "url": "http://localhost:1313/commcalls/"
 },
 {
-   "title": "newsletter",
+   "title": "Newsletter",
    "text": "A regular digest of recent rOpenSci activities and updates.",
    "url": "https://news.ropensci.org"
 },
 {
-   "title": "books",
+   "title": "Books",
    "text": "E-books about our tooling",
    "url": "https://books.ropensci.org"
 },
 {
-   "title": "talks and publications",
+   "title": "Talks and Publications",
    "text": "External communications about our work",
-   "url": "http://ropensci.org/talks-papers/"
+   "url": "https://ropensci.org/talks-papers/"
 },
 {
-   "title": "Our blogging guide",
+   "title": "Our Blogging Guide",
    "text": "Guide for authors and editors of blog posts and tech notes for the rOpenSci website.",
-   "url": "http://blogguide.ropensci.org/"
+   "url": "https://blogguide.ropensci.org/"
+},
+{
+   "title": "ropensci GitHub Organization",
+   "text": "Mature R packages contributed by rOpenSci staff or peer-reviewed packages.",
+   "url": "https://github.com/ropensci"
+},
+{
+   "title": "ropenscilabs GitHub Organization",
+   "text": "Incubator projects.",
+   "url": "https://github.com/ropenscilabs"
+},
+{
+   "title": "ropensci-review-tools GitHub Organization",
+   "text": "Tooling (packages) for software review.",
+   "url": "https://github.com/ropensci-review-tools"
+},
+{
+   "title": "ropensci-books GitHub Organization",
+   "text": "Books about rOpenSci packages or maintained by rOpenSci.",
+   "url": "https://github.com/ropensci-books"
+},
+{
+   "title": "ropensci-training GitHub Organization",
+   "text": "Mostly legacy training materials.",
+   "url": "https://github.com/ropensci-training"
+},
+{
+   "title": "ropensci-org GitHub Organization",
+   "text": "Miscellaneous organization tooling.",
+   "url": "https://github.com/ropensci-org"
+},
+{
+   "title": "ropensci-archive GitHub Organization",
+   "text": "Abandoned projects.",
+   "url": "https://github.com/ropensci-archive"
+},
+{
+   "title": "ropensci-docs GitHub Organization",
+   "text": "Documentation of rOpenSci packages, automatically updated.",
+   "url": "https://github.com/ropensci-docs"
 }]
