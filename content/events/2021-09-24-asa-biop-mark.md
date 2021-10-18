@@ -16,7 +16,7 @@ attendees:
 resources: # can be added later, one entry per talk (don't add while still empty, add once there are resources)
   - title: Assessment and Standardization of R Packages for Statistical Analysis by rOpenSci
     speaker: Mark Padgham
-    slides: # URL to slidedeck
+    slides: https://mpadge.github.io/presentations/2021/ASA-BIOP/#1
     video: https://vimeo.com/632375553
 ---
 
