@@ -5,7 +5,8 @@ author:
 date: '2021-10-22'
 slug: ropensci-news-digest-october-2021
 categories: []
-tags: []
+tags: 
+  - newsletter
 description: Statistical Package Standards at rOpenSci, new packages and package news
 output:
   html_document:

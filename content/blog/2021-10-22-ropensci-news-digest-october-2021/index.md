@@ -5,7 +5,8 @@ author:
 date: '2021-10-22'
 slug: ropensci-news-digest-october-2021
 categories: []
-tags: []
+tags: 
+  - newsletter
 description: Statistical Package Standards at rOpenSci, new packages and package news
 output:
   html_document:
@@ -119,10 +120,6 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 ### Software Review
 
 * [Announcing New Software Peer Review Editors: Emily Riederer, Adam Sparks, and Jeff Hollister](/blog/2021/10/12/editors2021) by Stefanie Butland. Introducing 3 new editors for rOpenSci software review.
-
-### Other topics
-
-* [rOpenSci News Digest, October 2021](/blog/2021/10/22/ropensci-news-digest-october-2021) by The rOpenSci Team. Statistical Package Standards at rOpenSci, new packages and package news.
 
 
 
