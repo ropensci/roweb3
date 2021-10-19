@@ -6,7 +6,7 @@ date: '2021-10-19'
 slug: ropensci-news-digest-october-2021
 categories: []
 tags: []
-description: keywords from the content
+description: Statistical Package Standards at rOpenSci, new packages and package news
 output:
   html_document:
     keep_md: yes
@@ -24,7 +24,16 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-<!-- to be curated manually -->
+A fantastic community call is coming up on Tuesday, 26 October 2021 18:00 UTC: [**Expanding Software Peer Review: Statistical Package Standards at rOpenSci**](/commcalls/oct2021-statsreview02/)!
+
+This 1-hour community call will address the bigger picture of **how our community-informed development of standards for statistical packages meets a critical need of stakeholders**. 
+[**Noam Ross**](/author/noam-ross/) (EcoHealth Alliance and rOpenSci Software Review Lead) will catch everyone up on the project. 
+[**Rebecca Killick**](http://localhost:1313/author/rebecca-killick/) (Lancaster University and rOpenSci Statistical Software Peer Review advisory committee) will offer insights into standardisation and the potential role our program might play in the future of statistical software and open source software in general. 
+[**Juliane Manitz**](http://localhost:1313/author/juliane-manitz/) (EMD Serono and R Validation Hub) will offer a perspective on the use of open source software in regulated environments. 
+[**Christoph Sax**](/author/christoph-sax/) (cynkra) will share his experience as the first person to submit a package, tsbox, for review and aligning his software with our standards.
+
+Follow the [community call page link](/commcalls/oct2021-statsreview02/) for practical information. 
+**Everyone is welcome, no RSVP needed!**
 
 Find out about more [events](/events).
 
@@ -35,9 +44,7 @@ Find out about more [events](/events).
 
 
 
-The following two packages recently became a part of our software suite:
-
-+ [allodb](https://docs.ropensci.org/allodb), developed by Erika Gonzalez-Akre together with Camille Piponiot, Mauro Lepore, Kristina Anderson-Teixeira: Standardize and simplify the tree biomass estimation process across globally distributed extratropical forests. It has been [reviewed](https://github.com/ropensci/software-review/issues/436) by Jeffrey Hanson, Jonas Stillhard.
+The following  package recently became a part of our software suite:
 
 + [rsat](https://docs.ropensci.org/rsat), developed by Unai Pérez - Goya together with Manuel Montesino - SanMartin, Ana F Militino, Maria Dolores Ugarte: Downloading, customizing, and processing time series of satellite images for a region of interest. rsat functions allow a unified access to multispectral images from Landsat, MODIS and Sentinel repositories. rsat also offers capabilities for customizing satellite images, such as tile mosaicking, image cropping and new variables computation. Finally, rsat covers the processing, including cloud masking, compositing and gap-filling/smoothing time series of images (Militino et al., 2018 <doi:10.3390/rs10030398> and Militino et al., 2019 <doi:10.1109/TGRS.2019.2904193>). It has been [reviewed](https://github.com/ropensci/software-review/issues/437) by Marc Weber, Kelly Hondula.
 
@@ -105,6 +112,10 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 * [Announcing New Software Peer Review Editors: Emily Riederer, Adam Sparks, and Jeff Hollister](/blog/2021/10/12/editors2021) by Stefanie Butland. Introducing 3 new editors for rOpenSci software review.
 
+### Other topics
+
+* [rOpenSci News Digest, October 2021](/blog/2021/10/19/ropensci-news-digest-october-2021) by The rOpenSci Team. Statistical Package Standards at rOpenSci, new packages and package news.
+
 
 
 ### Tech Notes
@@ -127,19 +138,41 @@ Explore [other use cases](/usecases) and [report your own](https://discuss.ropen
 
 ## Call for maintainers
 
-<!--IF CALL
-* [our guidance on _Changing package maintainers_](https://devguide.ropensci.org/changing-maintainers.html)
-* [our _Package Curation Policy_](https://devguide.ropensci.org/curationpolicy.html)
-
-IF NO CALL
 There's no open call for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
-As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. -->
+As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. 
 
 ## Package development corner
 
 Some useful tips for R package developers. :eyes:
 
-<!-- To be curated by hand -->
+### Naming your package
+
+Do you have a fantastic idea and plan for a package, but no name for it yet?
+We have some tips on this topic in our [dev guide](https://devguide.ropensci.org/building.html#naming-your-package)!
+
+* We strongly recommend short, descriptive names in lower case. If your package deals with one or more commercial services, please make sure the name does not violate branding guidelines. You can check if your package name is available, informative and not offensive by using the [`available` package](https://github.com/ropenscilabs/available). In particular, do _not_ choose a package name that's already used on CRAN or Bioconductor.
+
+* A more unique package name might be easier to track (for you and us to assess package use) and search (for users to find it and to google their questions). Obviously a _too_ unique package name might make the package less discoverable (e.g. it might be an argument for naming your package [geojson](https://github.com/ropensci/geojson)).
+Also note that removing random letter e.g. vowels from a common word to create a package name might make it less easy to remember!
+
+* Find other interesting aspects of naming your package [in this blog post by Nick Tierney](https://www.njtierney.com/post/2018/06/20/naming-things/), and in case you change your mind, find out [how to rename your package in this other blog post of Nick's](https://www.njtierney.com/post/2017/10/27/change-pkg-name/).
+
+### Two testthat tips
+
+The testthat package has been supporting [snapshot tests](https://www.tidyverse.org/blog/2020/10/testthat-3-0-0/#snapshot-testing) that "record expected output in a separate human-readable file instead of using code to describe what the expected output looks like." since its version 3.0.0.
+Their implementation is now stable.
+Note that they are skipped by default on CRAN.
+
+Now what about _input files_ for tests? 
+Maybe you can [create fake ones on the fly (and delete them)](https://blog.r-hub.io/2020/11/18/testthat-utility-belt/#create-fake-folders-and-text-files-from-your-tests).
+Or you can store them under `tests/testthat` and use [`testthat::test_path()`](https://testthat.r-lib.org/reference/test_path.html) when using them, to get a file path that "both interactively and during tests".
+So to use `tests/testthat/examples/thing` you'd write `testthat::test_path("examples", "thing")`.
+Note that the vcr package for HTTP testing has a similar function you can use to locate cassettes, [vcr_test_path()](https://docs.ropensci.org/vcr/reference/vcr_test_path.html).
+
+### URL checks
+
+CRAN [checks URL validity](https://blog.r-hub.io/2020/12/01/url-checks/).
+As recently [reminded by Jenny Bryan on Twitterr](https://twitter.com/JennyBryan/status/1450186196395520005), the [urlchecker package](https://github.com/r-lib/urlchecker/) is a great tool to help your package pass these checks.
 
 ## Last words
 
