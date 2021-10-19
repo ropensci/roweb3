@@ -35,7 +35,7 @@ Emily reviewed the [tradestatistics](https://github.com/ropensci/software-review
 Emily on [GitHub](https://github.com/emilyriederer), [Twitter](https://twitter.com/emilyriederer), [Website](https://emilyriederer.netlify.com/)
 
 > I had the great fortune of stumbling upon rOpenSci relatively early in my career as an R programmer, and it's not an exaggeration to say that this organization has had one of the single largest impacts on my career. rOpenSci's meticulous documentation helped me to embrace best practices in my development work. Perhaps even more impactful is how watching rOpenSci work shaped my perspective on community building, leadership, and teamwork. I have always admired the well-oiled machine that rOpenSci has created -- sustaining massive value with limited individual overhead by clearly defining expectations, providing opinionated infrastructure, and cultivating a phenomenal community. I'm thrilled to be taking a formal role in an organization that has had such an impact on me. 
-
+{.blockquote}
 
 
 ## Adam Sparks
@@ -51,7 +51,9 @@ Adam has reviewed two rOpenSci packages [stats19](https://github.com/ropensci/so
 
 Adam on [GitHub](https://github.com/adamhsparks), [Twitter](https://twitter.com/adamhsparks), [Website](https://adamhsparks.com/), [rOpenSci](/author/adam-sparks/)
 
-> I became aware of rOpenSci several years ago when I started working on writing my own R packages. I had used R extensively for my PhD research and had even published a series of teaching documents on using R in the classroom for botanical epidemiology, but I'd not written my own R packages. That's where rOpenSci came in. I had the good fortune to attend the first rOpenSci OzUnconf in Brisbane in 2016. While I was there [GSODR](https://docs.ropensci.org/GSODR) was accepted to CRAN and I met a great bunch of folks in the Australian R community. I then had GSODR reviewed and accepted by rOpenSci, that encouraged me and since then I've worked to make already open data more accessible through my packages and to assist with reproducibility. In the time that I've been involved with rOpenSci, the ideals and community helped inspire me to co-found [Open Plant Pathology](https://www.openplantpathology.org), which serves a similar in spirit but different purpose for the global plant pathology community. It's an honour to be a part of the editorial board and given the chance to give back to the community that has given me so much.
+{{< quote footer="Adam Sparks" cite="interview" >}}
+I became aware of rOpenSci several years ago when I started working on writing my own R packages. I had used R extensively for my PhD research and had even published a series of teaching documents on using R in the classroom for botanical epidemiology, but I'd not written my own R packages. That's where rOpenSci came in. I had the good fortune to attend the first rOpenSci OzUnconf in Brisbane in 2016. While I was there [GSODR](https://docs.ropensci.org/GSODR) was accepted to CRAN and I met a great bunch of folks in the Australian R community. I then had GSODR reviewed and accepted by rOpenSci, that encouraged me and since then I've worked to make already open data more accessible through my packages and to assist with reproducibility. In the time that I've been involved with rOpenSci, the ideals and community helped inspire me to co-found [Open Plant Pathology](https://www.openplantpathology.org), which serves a similar in spirit but different purpose for the global plant pathology community. It's an honour to be a part of the editorial board and given the chance to give back to the community that has given me so much.
+{{< /quote >}}
 
 ## Jeff Hollister
 
@@ -63,8 +65,9 @@ Jeff is an ecologist with expertise in the spatial component of ecology and envi
 
 Jeff on [GitHub](https://github.com/jhollist), [Twitter](https://twitter.com/jhollist), [Website](https://jwhollister.com/), [rOpenSci](/author/jeff-hollister/)
 
-> Many years ago I first started hearing about "data science", "reproducibility", and "open science." These terms were new to me, but seemed like they were going to be important in my fields of ecology and environmental science. Problem was, I struggled to to use these ideas and tools in my own work. Lucky for me, I soon stumbled across rOpenSci and quickly felt at home in this community and that rOpenSci was going to help incorporate all these ideas into my fields. In the years since, I have watched rOpenSci closely, participated in events, done package reviews, and generally been in awe of the progress, growth, and impact rOpenSci has had. Needless to say I was flattered to be asked to join the editorial board and am excited to have this chance to give back to the rOpenSci community.  
-
+{{< quote footer="Jeff Hollister" align="center" >}}
+Many years ago I first started hearing about "data science", "reproducibility", and "open science." These terms were new to me, but seemed like they were going to be important in my fields of ecology and environmental science. Problem was, I struggled to to use these ideas and tools in my own work. Lucky for me, I soon stumbled across rOpenSci and quickly felt at home in this community and that rOpenSci was going to help incorporate all these ideas into my fields. In the years since, I have watched rOpenSci closely, participated in events, done package reviews, and generally been in awe of the progress, growth, and impact rOpenSci has had. Needless to say I was flattered to be asked to join the editorial board and am excited to have this chance to give back to the rOpenSci community.  
+{{< /quote >}}
 
 
 ## Submit your package!
