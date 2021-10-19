@@ -2,7 +2,7 @@
 title: rOpenSci News Digest, October 2021
 author:
   - The rOpenSci Team
-date: '2021-10-19'
+date: '2021-10-22'
 slug: ropensci-news-digest-october-2021
 categories: []
 tags: []

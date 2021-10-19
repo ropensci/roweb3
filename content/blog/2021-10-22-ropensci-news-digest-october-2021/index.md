@@ -2,7 +2,7 @@
 title: rOpenSci News Digest, October 2021
 author:
   - The rOpenSci Team
-date: '2021-10-19'
+date: '2021-10-22'
 slug: ropensci-news-digest-october-2021
 categories: []
 tags: []
@@ -19,7 +19,7 @@ params:
 
 Dear rOpenSci friends, it's time for our monthly news roundup!
 <!-- blabla -->
-You can read this post [on our blog](/blog/2021/10/19/ropensci-news-digest-october-2021).
+You can read this post [on our blog](/blog/2021/10/22/ropensci-news-digest-october-2021).
 Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
