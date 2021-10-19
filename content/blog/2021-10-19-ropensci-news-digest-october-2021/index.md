@@ -24,6 +24,8 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
+### Community call about the statistical software review project!
+
 A fantastic community call is coming up on Tuesday, 26 October 2021 18:00 UTC: [**Expanding Software Peer Review: Statistical Package Standards at rOpenSci**](/commcalls/oct2021-statsreview02/)!
 
 This 1-hour community call will address the bigger picture of **how our community-informed development of standards for statistical packages meets a critical need of stakeholders**. 
@@ -36,6 +38,12 @@ Follow the [community call page link](/commcalls/oct2021-statsreview02/) for pra
 **Everyone is welcome, no RSVP needed!**
 
 Find out about more [events](/events).
+
+### Three new editors for software review
+
+We are excited to welcome Emily Riederer, Adam Sparks, and Jeff Hollister to our team of [Associate Editors](/software-review/#editors) for rOpenSci [Software Peer Review](/software-review/). 
+They join Laura DeCicco, Julia Gustavsen, Anna Krystalli, Mauro Lepore, Karthik Ram, Noam Ross, Maëlle Salmon, and Melina Vidoni.
+Find out more about the three new editors in our [introduction blog post](/blog/2021/10/12/editors2021/).
 
 ## Software :package:
 
@@ -169,10 +177,19 @@ Or you can store them under `tests/testthat` and use [`testthat::test_path()`](h
 So to use `tests/testthat/examples/thing` you'd write `testthat::test_path("examples", "thing")`.
 Note that the vcr package for HTTP testing has a similar function you can use to locate cassettes, [vcr_test_path()](https://docs.ropensci.org/vcr/reference/vcr_test_path.html).
 
-### URL checks
+### Passing CRAN URL checks
 
 CRAN [checks URL validity](https://blog.r-hub.io/2020/12/01/url-checks/).
-As recently [reminded by Jenny Bryan on Twitterr](https://twitter.com/JennyBryan/status/1450186196395520005), the [urlchecker package](https://github.com/r-lib/urlchecker/) is a great tool to help your package pass these checks.
+As recently [reminded by Jenny Bryan on Twitter](https://twitter.com/JennyBryan/status/1450186196395520005), the [urlchecker package by Jim Hester](https://github.com/r-lib/urlchecker/) is a great tool to help your package pass these checks.
+
+### Styling your package
+
+How to enforce a style guide for your package, without too much human effort?
+Two suggestions
+
+* Having a [GitHub Action workflow that allows you to call styler](https://github.com/r-lib/actions/tree/master/examples#commands-workflow) via typing `/style` in a PR comment (or amend the logic to have it work via applying a label to the PR). Or apply this idea to another continuous integration service! If for any reason your style differs from styler's default, follow one of [styler articles for developers](https://styler.r-lib.org/dev/articles/) and tweak the workflow. [Example](https://github.com/ropensci-review-tools/pkgcheck/blob/65fa9d4e77837bd122171d46177cb7db8028ac2e/.github/workflows/pr-commands.yaml#L60-L64), corresponding [style guide package](https://github.com/ropensci-review-tools/spaceout).
+
+* Using a service like [CodeFactor](https://www.codefactor.io) that integrates with GitHub directly. Thanks to [Rich FitzJohn](/author/rich-fitzjohn/) for suggesting this in [rOpenSci semi-open Slack workspace](https://contributing.ropensci.org/resources.html#channels).
 
 ## Last words
 
