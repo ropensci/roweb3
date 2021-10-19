@@ -26,7 +26,7 @@ No need to remove the field afterwards:
 
 Criteria for selecting featured posts and tech notes:
 - always one by a community member (about peer reviewed package or other); could be most-recent or most-compelling post
-- second featured post or tech note by rOpenSci team or team member about rOpenSci announcement, big collaborative post, infrastructure, package, etc. In absence of a recent compelling post this would be the most recent post or tech note by team member. Will never be 2months in 2mins. 
+- second featured post or tech note by rOpenSci team or team member about rOpenSci announcement, big collaborative post, infrastructure, package, etc. In absence of a recent compelling post this would be the most recent post or tech note by team member.
 
 ### Highlighted blog "categories"
 
