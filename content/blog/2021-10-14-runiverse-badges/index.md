@@ -3,7 +3,7 @@ slug: runiverse-badges
 title: 'Generating and customizing badges in r-universe'
 date: '2021-10-14'
 author: Jeroen Ooms
-featured: true
+featured: false
 description: ''
 tags:
   - r-universe
