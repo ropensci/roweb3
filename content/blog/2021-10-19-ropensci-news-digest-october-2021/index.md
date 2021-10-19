@@ -1,0 +1,148 @@
+---
+title: rOpenSci News Digest, October 2021
+author:
+  - The rOpenSci Team
+date: '2021-10-19'
+slug: ropensci-news-digest-october-2021
+categories: []
+tags: []
+description: keywords from the content
+output:
+  html_document:
+    keep_md: yes
+params:
+  last_newsletter: '2021-09-30'
+---
+
+
+<!-- Before sending DELETE THE INDEX_CACHE and re-knit! -->
+
+Dear rOpenSci friends, it's time for our monthly news roundup!
+<!-- blabla -->
+You can read this post [on our blog](/blog/2021/10/19/ropensci-news-digest-october-2021).
+Now let's dive into the activity at and around rOpenSci!
+
+## rOpenSci HQ
+
+<!-- to be curated manually -->
+
+Find out about more [events](/events).
+
+## Software :package:
+
+### New packages
+
+
+
+
+The following two packages recently became a part of our software suite:
+
++ [allodb](https://docs.ropensci.org/allodb), developed by Erika Gonzalez-Akre together with Camille Piponiot, Mauro Lepore, Kristina Anderson-Teixeira: Standardize and simplify the tree biomass estimation process across globally distributed extratropical forests. It has been [reviewed](https://github.com/ropensci/software-review/issues/436) by Jeffrey Hanson, Jonas Stillhard.
+
++ [rsat](https://docs.ropensci.org/rsat), developed by Unai Pérez - Goya together with Manuel Montesino - SanMartin, Ana F Militino, Maria Dolores Ugarte: Downloading, customizing, and processing time series of satellite images for a region of interest. rsat functions allow a unified access to multispectral images from Landsat, MODIS and Sentinel repositories. rsat also offers capabilities for customizing satellite images, such as tile mosaicking, image cropping and new variables computation. Finally, rsat covers the processing, including cloud masking, compositing and gap-filling/smoothing time series of images (Militino et al., 2018 <doi:10.3390/rs10030398> and Militino et al., 2019 <doi:10.1109/TGRS.2019.2904193>). It has been [reviewed](https://github.com/ropensci/software-review/issues/437) by Marc Weber, Kelly Hondula.
+
+Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
+
+### New versions
+
+
+
+The following eight packages have had an update since the latest newsletter: [gert](https://docs.ropensci.org/gert "Simple Git Client for R") ([`v1.4.1`](https://github.com/r-lib/gert/releases/tag/v1.4.1)), [GSODR](https://docs.ropensci.org/GSODR "Global Surface Summary of the Day (GSOD) Weather Data Client") ([`v3.1.4`](https://github.com/ropensci/GSODR/releases/tag/v3.1.4)), [lingtypology](https://docs.ropensci.org/lingtypology "Linguistic Typology and Mapping") ([`v1.1.6`](https://github.com/ropensci/lingtypology/releases/tag/v1.1.6)), [osmdata](https://docs.ropensci.org/osmdata "Import OpenStreetMap Data as Simple Features or Spatial Objects") ([`v0.1.7`](https://github.com/ropensci/osmdata/releases/tag/v0.1.7)), [rglobi](https://docs.ropensci.org/rglobi "R Interface to Global Biotic Interactions") ([`v0.2.26`](https://github.com/ropensci/rglobi/releases/tag/v0.2.26)), [ruODK](https://docs.ropensci.org/ruODK "An R Client for the ODK Central API") ([`v1.3.0`](https://github.com/ropensci/ruODK/releases/tag/v1.3.0)), [stplanr](https://docs.ropensci.org/stplanr "Sustainable Transport Planning") ([`v0.8.4`](https://github.com/ropensci/stplanr/releases/tag/v0.8.4)), [USAboundariesData](https://docs.ropensci.org/USAboundariesData "Datasets for the USAboundaries package") ([`v0.4.0`](https://github.com/ropensci/USAboundariesData/releases/tag/v0.4.0)).
+
+## Software Peer Review
+
+There are fourteen recently closed and active submissions and 4 submissions on hold. Issues are at different stages: 
+
+* One at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
+
+     * [rsat](https://github.com/ropensci/software-review/issues/437), Tools for Downloading, Customizing, and Processing Time Series of Satellite Images from Landsat, MODIS, and Sentinel. Submitted by [Unai Pérez-Goya](https://unai-perez.github.io/). 
+
+* Two at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
+
+     * [excluder](https://github.com/ropensci/software-review/issues/455), Checks for Exclusion Criteria in Online Data. Submitted by [Jeffrey Stevens](https://decisionslab.unl.edu/). 
+
+    * [mctq](https://github.com/ropensci/software-review/issues/434), An R Package for the Munich ChronoType Questionnaire. Submitted by [Daniel Vartanian](https://danielvartan.netlify.app). 
+
+* Four at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
+
+     * [gendercoder](https://github.com/ropensci/software-review/issues/435), Recodes Sex/Gender Descriptions Into A Standard Set. Submitted by [Emily Kothe](http://emilykothe.com). 
+
+    * [epair](https://github.com/ropensci/software-review/issues/418), Grabs data from EPA API, simplifies getting pollutant data. Submitted by [Leo Orozco-Mulfinger](https://github.com/GLOrozcoM). 
+
+    * [healthdatacsv](https://github.com/ropensci/software-review/issues/358), Access data in the healthdata.gov catalog. Submitted by [iecastro](http://iecastro.netlify.com). 
+
+    * [chemspiderapi](https://github.com/ropensci/software-review/issues/329), R Wrapper for ChemSpider's API Services. Submitted by [Raoul Wolf](https://github.com/RaoulWolf). 
+
+* Three at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
+
+     * [cffr](https://github.com/ropensci/software-review/issues/463), Generate Citation File Format (cff) Metadata for R Packages. Submitted by [Diego H.](http://dieghernan.github.io). 
+
+    * [ROriginStamp](https://github.com/ropensci/software-review/issues/433), Interface to OriginStamp API to Obtain Trusted Time Stamps. Submitted by [Rainer M Krug](https://github.com/rkrug). 
+
+    * [occCite](https://github.com/ropensci/software-review/issues/407), Querying and Managing Large Biodiversity Occurrence Datasets. Submitted by [Hannah Owens](http://hannahlowens.weebly.com/). 
+
+* Two at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
+
+     * [tidyqpcr](https://github.com/ropensci/software-review/issues/470), Quantitative PCR Analysis with the Tidyverse. Submitted by [Edward Wallace](https://scholar.google.co.uk/citations?user=7FLIJBAAAAAJ&hl=en). 
+
+    * [phruta](https://github.com/ropensci/software-review/issues/458), Phylogenetic Reconstruction and Time-dating. Submitted by [Cristian Román-Palacios](http://cromanpa94.github.io/cromanpa/). 
+
+* Two at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
+
+     * [tsbox](https://github.com/ropensci/software-review/issues/464), Class-Agnostic Time Series. Submitted by [Christoph Sax](http://www.cynkra.com).  (Stats).
+
+    * [rdbhapi](https://github.com/ropensci/software-review/issues/443), Interface to DBH-API. Submitted by [Marija Ninic](https://hkdir.no/). 
+
+Find out more about [Software Peer Review](/software-review) and how to get involved.
+
+## On the blog
+
+<!-- Do not forget to rebase your branch! -->
+
+
+
+### Software Review
+
+* [Announcing New Software Peer Review Editors: Emily Riederer, Adam Sparks, and Jeff Hollister](/blog/2021/10/12/editors2021) by Stefanie Butland. Introducing 3 new editors for rOpenSci software review.
+
+
+
+### Tech Notes
+
+* [Generating and customizing badges in r-universe](/blog/2021/10/14/runiverse-badges) by Jeroen Ooms.
+
+## Use cases
+
+
+
+Three use cases of our packages and resources have been reported since we sent the last newsletter.
+
+* [Using jsonvalidate to validate the `packages.json` file from your personal universe](https://discuss.ropensci.org/t/using-jsonvalidate-to-validate-the-packages-json-file-from-your-personal-universe/2643). Reported by Hugo Gruson.
+
+* [Creating historical Congressional maps with USABoundaries](https://discuss.ropensci.org/t/creating-historical-congressional-maps-with-usaboundaries/2648). Reported by Andrew Heiss.
+
+* [Predizendo volume de eucalipto com tidymodels, XGBoost e targets](https://discuss.ropensci.org/t/predizendo-volume-de-eucalipto-com-tidymodels-xgboost-e-targets/2656). Reported by Theilon Macêdo.
+
+Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)!
+
+## Call for maintainers
+
+<!--IF CALL
+* [our guidance on _Changing package maintainers_](https://devguide.ropensci.org/changing-maintainers.html)
+* [our _Package Curation Policy_](https://devguide.ropensci.org/curationpolicy.html)
+
+IF NO CALL
+There's no open call for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
+As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. -->
+
+## Package development corner
+
+Some useful tips for R package developers. :eyes:
+
+<!-- To be curated by hand -->
+
+## Last words
+
+Thanks for reading! If you want to get involved with rOpenSci, check out our [Contributing Guide](https://contributing.ropensci.org) that can help direct you to the right place, whether you want to make code contributions, non-code contributions, or contribute in other ways like sharing use cases.
+
+If you haven't subscribed to our newsletter yet, you can [do so via a form](/news/). Until it's time for our next newsletter, you can keep in touch with us via our [website](/) and [Twitter account](https://twitter.com/ropensci).
