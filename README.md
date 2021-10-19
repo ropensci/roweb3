@@ -19,10 +19,10 @@ featured: true
 ```
 
 to its metadata. 
-No need to remove the field afterwards:
+No need to remove the field afterwards (unless you now want to feature an older post):
 
-* the featured post or tech note at the top of the homepage is the latest featured one.
-* the two featured posts or tech notes at the bottom of the homepage and at the top of the blog list page is the latest featured ones.
+* the featured post or tech note at the top of the homepage is the latest post.
+* the two featured posts or tech notes at the bottom of the homepage and at the top of the blog list page are the latest featured ones.
 
 Criteria for selecting featured posts and tech notes:
 - always one by a community member (about peer reviewed package or other); could be most-recent or most-compelling post
