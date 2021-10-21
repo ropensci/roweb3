@@ -15,7 +15,7 @@ location: Community call (teleconference)
 country: "\U0001F310"
 attendees: All are welcome
 slug: oct2021-statsreview02
-# notes: https://docs.google.com/document/d/1o933nG1ZW2Qf8p7FdQxn8wOkk9qoBINL1fx3FlIFSJU/
+notes: https://docs.google.com/document/d/1FOpdu_jR5T6z3xhjWMBKLg_13TzQPrESnW_Cd2olXNE/
 outputs:
 - HTML
 - Calendar 
