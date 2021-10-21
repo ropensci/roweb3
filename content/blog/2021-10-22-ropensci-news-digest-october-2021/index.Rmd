@@ -67,7 +67,11 @@ Find out more about the three new editors in our [introduction blog post](/blog/
 
 ### rOpenSci at NHS-R conference
 
-Jeroen Ooms, rOpenSci Lead Infrastructure Engineer, will give a talk on [The r-universe project](/r-universe/) at the [NHS-R 2021 virtual conference](https://nhsrcommunity.com/nhs-r-community-conference-2021/) on November 9. The conference is free with registration. [Details](/events/2021-11-09-nhsr-jeroen.md).
+Jeroen Ooms, rOpenSci Lead Infrastructure Engineer, will give a talk on [The r-universe project](/r-universe/) at the [NHS-R 2021 virtual conference](https://nhsrcommunity.com/nhs-r-community-conference-2021/) on November 9. [Details](/events/nhsr-jeroen/).
+
+Will Landau, community member, will give a workshop about [targets](https://docs.ropensci.org/targets/) on [November 4](https://nhsrcommunity.com/nhs-r-conference-2021-workshop-week/).
+
+The conference is free with registration. [Conference website](https://nhsrcommunity.com/nhs-r-community-conference-2021/).
 
 ## Software :package:
 
