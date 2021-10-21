@@ -55,11 +55,19 @@ Follow the [community call page link](/commcalls/oct2021-statsreview02/) for pra
 
 Find out about more [events](/events).
 
+### November 2 social coworking and office hours
+
+Join us for [monthly coworking Tuesday, November 2nd](/events/coworking-2021-11/)! No RSVP needed. In addition to the usual quiet and noisy rooms (for Q&A and meeting peers), [Mark Pagham](/author/mark-padgham/), co-Lead of our [Statistical Software Peer Review project](/stat-software-review/), will be there to help folks check their own package with our new automated checking system.
+
 ### Three new editors for software review
 
 We are excited to welcome Emily Riederer, Adam Sparks, and Jeff Hollister to our team of [Associate Editors](/software-review/#editors) for rOpenSci [Software Peer Review](/software-review/). 
 They join Laura DeCicco, Julia Gustavsen, Anna Krystalli, Mauro Lepore, Karthik Ram, Noam Ross, Maëlle Salmon, and Melina Vidoni.
 Find out more about the three new editors in our [introduction blog post](/blog/2021/10/12/editors2021/).
+
+### rOpenSci at NHS-R conference
+
+Jeroen Ooms, rOpenSci Lead Infrastructure Engineer, will give a talk on [The r-universe project](/r-universe/) at the [NHS-R 2021 virtual conference](https://nhsrcommunity.com/nhs-r-community-conference-2021/) on November 9. The conference is free with registration. [Details](/events/2021-11-09-nhsr-jeroen.md).
 
 ## Software :package:
 
