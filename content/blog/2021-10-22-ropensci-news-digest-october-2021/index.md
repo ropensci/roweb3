@@ -170,7 +170,7 @@ Note that they are skipped by default on CRAN.
 
 Now what about _input files_ for tests? 
 Maybe you can [create fake ones on the fly (and delete them)](https://blog.r-hub.io/2020/11/18/testthat-utility-belt/#create-fake-folders-and-text-files-from-your-tests).
-Or you can store them under `tests/testthat` and use [`testthat::test_path()`](https://testthat.r-lib.org/reference/test_path.html) when using them, to get a file path that "both interactively and during tests".
+Or you can store them under `tests/testthat` and use [`testthat::test_path()`](https://testthat.r-lib.org/reference/test_path.html) when using them, to get a file path that works "both interactively and during tests".
 So to use `tests/testthat/examples/thing` you'd write `testthat::test_path("examples", "thing")`.
 Note that the vcr package for HTTP testing has a similar function you can use to locate cassettes, [vcr_test_path()](https://docs.ropensci.org/vcr/reference/vcr_test_path.html).
 
