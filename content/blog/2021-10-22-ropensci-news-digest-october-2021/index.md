@@ -31,8 +31,8 @@ A fantastic community call is coming up on Tuesday, 26 October 2021 18:00 UTC: [
 
 This 1-hour community call will address the bigger picture of **how our community-informed development of standards for statistical packages meets a critical need of stakeholders**. 
 [**Noam Ross**](/author/noam-ross/) (EcoHealth Alliance and rOpenSci Software Review Lead) will catch everyone up on the project. 
-[**Rebecca Killick**](http://localhost:1313/author/rebecca-killick/) (Lancaster University and rOpenSci Statistical Software Peer Review advisory committee) will offer insights into standardisation and the potential role our program might play in the future of statistical software and open source software in general. 
-[**Juliane Manitz**](http://localhost:1313/author/juliane-manitz/) (EMD Serono and R Validation Hub) will offer a perspective on the use of open source software in regulated environments. 
+[**Rebecca Killick**](/author/rebecca-killick/) (Lancaster University and rOpenSci Statistical Software Peer Review advisory committee) will offer insights into standardisation and the potential role our program might play in the future of statistical software and open source software in general. 
+[**Juliane Manitz**](/author/juliane-manitz/) (EMD Serono and R Validation Hub) will offer a perspective on the use of open source software in regulated environments. 
 [**Christoph Sax**](/author/christoph-sax/) (cynkra) will share his experience as the first person to submit a package, tsbox, for review and aligning his software with our standards.
 
 Follow the [community call page link](/commcalls/oct2021-statsreview02/) for practical information. 
@@ -63,7 +63,7 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following eight packages have had an update since the latest newsletter: [gert](https://docs.ropensci.org/gert "Simple Git Client for R") ([`v1.4.1`](https://github.com/r-lib/gert/releases/tag/v1.4.1)), [GSODR](https://docs.ropensci.org/GSODR "Global Surface Summary of the Day (GSOD) Weather Data Client") ([`v3.1.4`](https://github.com/ropensci/GSODR/releases/tag/v3.1.4)), [lingtypology](https://docs.ropensci.org/lingtypology "Linguistic Typology and Mapping") ([`v1.1.6`](https://github.com/ropensci/lingtypology/releases/tag/v1.1.6)), [osmdata](https://docs.ropensci.org/osmdata "Import OpenStreetMap Data as Simple Features or Spatial Objects") ([`v0.1.7`](https://github.com/ropensci/osmdata/releases/tag/v0.1.7)), [rglobi](https://docs.ropensci.org/rglobi "R Interface to Global Biotic Interactions") ([`v0.2.26`](https://github.com/ropensci/rglobi/releases/tag/v0.2.26)), [ruODK](https://docs.ropensci.org/ruODK "An R Client for the ODK Central API") ([`v1.3.0`](https://github.com/ropensci/ruODK/releases/tag/v1.3.0)), [stplanr](https://docs.ropensci.org/stplanr "Sustainable Transport Planning") ([`v0.8.4`](https://github.com/ropensci/stplanr/releases/tag/v0.8.4)), [USAboundariesData](https://docs.ropensci.org/USAboundariesData "Datasets for the USAboundaries package") ([`v0.4.0`](https://github.com/ropensci/USAboundariesData/releases/tag/v0.4.0)).
+The following nine packages have had an update since the latest newsletter: [gert](https://docs.ropensci.org/gert "Simple Git Client for R") ([`v1.4.1`](https://github.com/r-lib/gert/releases/tag/v1.4.1)), [arkdb](https://docs.ropensci.org/arkdb "Archive and Unarchive Databases Using Flat Files") ([`v0.0.14`](https://github.com/ropensci/arkdb/releases/tag/v0.0.14)), [GSODR](https://docs.ropensci.org/GSODR "Global Surface Summary of the Day (GSOD) Weather Data Client") ([`v3.1.4`](https://github.com/ropensci/GSODR/releases/tag/v3.1.4)), [lingtypology](https://docs.ropensci.org/lingtypology "Linguistic Typology and Mapping") ([`v1.1.6`](https://github.com/ropensci/lingtypology/releases/tag/v1.1.6)), [osmdata](https://docs.ropensci.org/osmdata "Import OpenStreetMap Data as Simple Features or Spatial Objects") ([`v0.1.7`](https://github.com/ropensci/osmdata/releases/tag/v0.1.7)), [rglobi](https://docs.ropensci.org/rglobi "R Interface to Global Biotic Interactions") ([`v0.2.26`](https://github.com/ropensci/rglobi/releases/tag/v0.2.26)), [ruODK](https://docs.ropensci.org/ruODK "An R Client for the ODK Central API") ([`v1.3.0`](https://github.com/ropensci/ruODK/releases/tag/v1.3.0)), [stplanr](https://docs.ropensci.org/stplanr "Sustainable Transport Planning") ([`v0.8.4`](https://github.com/ropensci/stplanr/releases/tag/v0.8.4)), [USAboundariesData](https://docs.ropensci.org/USAboundariesData "Datasets for the USAboundaries package") ([`v0.4.0`](https://github.com/ropensci/USAboundariesData/releases/tag/v0.4.0)).
 
 ## Software Peer Review
 
@@ -97,17 +97,17 @@ There are fourteen recently closed and active submissions and 4 submissions on h
 
     * [occCite](https://github.com/ropensci/software-review/issues/407), Querying and Managing Large Biodiversity Occurrence Datasets. Submitted by [Hannah Owens](http://hannahlowens.weebly.com/). 
 
-* Two at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
+* Three at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
      * [tidyqpcr](https://github.com/ropensci/software-review/issues/470), Quantitative PCR Analysis with the Tidyverse. Submitted by [Edward Wallace](https://scholar.google.co.uk/citations?user=7FLIJBAAAAAJ&hl=en). 
 
+    * [tsbox](https://github.com/ropensci/software-review/issues/464), Class-Agnostic Time Series. Submitted by [Christoph Sax](http://www.cynkra.com).  (Stats).
+
     * [phruta](https://github.com/ropensci/software-review/issues/458), Phylogenetic Reconstruction and Time-dating. Submitted by [Cristian Román-Palacios](http://cromanpa94.github.io/cromanpa/). 
 
-* Two at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
+* One at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
 
-     * [tsbox](https://github.com/ropensci/software-review/issues/464), Class-Agnostic Time Series. Submitted by [Christoph Sax](http://www.cynkra.com).  (Stats).
-
-    * [rdbhapi](https://github.com/ropensci/software-review/issues/443), Interface to DBH-API. Submitted by [Marija Ninic](https://hkdir.no/). 
+     * [rdbhapi](https://github.com/ropensci/software-review/issues/443), Interface to DBH-API. Submitted by [Marija Ninic](https://hkdir.no/). 
 
 Find out more about [Software Peer Review](/software-review) and how to get involved.
 
@@ -170,7 +170,7 @@ Note that they are skipped by default on CRAN.
 
 Now what about _input files_ for tests? 
 Maybe you can [create fake ones on the fly (and delete them)](https://blog.r-hub.io/2020/11/18/testthat-utility-belt/#create-fake-folders-and-text-files-from-your-tests).
-Or you can store them under `tests/testthat` and use [`testthat::test_path()`](https://testthat.r-lib.org/reference/test_path.html) when using them, to get a file path that works "both interactively and during tests".
+Or you can store them under `tests/testthat` and use [`testthat::test_path()`](https://testthat.r-lib.org/reference/test_path.html) when using them, to get a file path that "both interactively and during tests".
 So to use `tests/testthat/examples/thing` you'd write `testthat::test_path("examples", "thing")`.
 Note that the vcr package for HTTP testing has a similar function you can use to locate cassettes, [vcr_test_path()](https://docs.ropensci.org/vcr/reference/vcr_test_path.html).
 
@@ -184,7 +184,7 @@ As recently [reminded by Jenny Bryan on Twitter](https://twitter.com/JennyBryan/
 How to enforce a style guide for your package, without too much human effort?
 Two suggestions:
 
-* Having a [GitHub Action workflow that allows you to call styler](https://github.com/r-lib/actions/tree/master/examples#commands-workflow) via typing `/style` in a PR comment (or amend the logic to have it work via applying a label to the PR). Or apply this idea to another continuous integration service! If for any reason your style differs from styler's default, follow one of [styler articles for developers](https://styler.r-lib.org/dev/articles/) and tweak the workflow. <span class="x x-first x-last">Here's an [example</span>](https://github.com/ropensci-review-tools/pkgcheck/blob/65fa9d4e77837bd122171d46177cb7db8028ac2e/.github/workflows/pr-commands.yaml#L60-L64), corresponding<span class="x x-first x-last"> to an rOpenSci</span> [style guide package](https://github.com/ropensci-review-tools/spaceout).
+* Having a [GitHub Action workflow that allows you to call styler](https://github.com/r-lib/actions/tree/master/examples#commands-workflow) via typing `/style` in a PR comment (or amend the logic to have it work via applying a label to the PR). Or apply this idea to another continuous integration service! If for any reason your style differs from styler's default, follow one of [styler articles for developers](https://styler.r-lib.org/dev/articles/) and tweak the workflow. [Example](https://github.com/ropensci-review-tools/pkgcheck/blob/65fa9d4e77837bd122171d46177cb7db8028ac2e/.github/workflows/pr-commands.yaml#L60-L64), corresponding [style guide package](https://github.com/ropensci-review-tools/spaceout).
 
 * Using a service like [CodeFactor](https://www.codefactor.io) that integrates with GitHub directly. Thanks to [Rich FitzJohn](/author/rich-fitzjohn/) for suggesting this in [rOpenSci semi-open Slack workspace](https://contributing.ropensci.org/resources.html#channels).
 
