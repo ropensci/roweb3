@@ -46,8 +46,8 @@ A fantastic community call is coming up on Tuesday, 26 October 2021 18:00 UTC: [
 
 This 1-hour community call will address the bigger picture of **how our community-informed development of standards for statistical packages meets a critical need of stakeholders**. 
 [**Noam Ross**](/author/noam-ross/) (EcoHealth Alliance and rOpenSci Software Review Lead) will catch everyone up on the project. 
-[**Rebecca Killick**](http://localhost:1313/author/rebecca-killick/) (Lancaster University and rOpenSci Statistical Software Peer Review advisory committee) will offer insights into standardisation and the potential role our program might play in the future of statistical software and open source software in general. 
-[**Juliane Manitz**](http://localhost:1313/author/juliane-manitz/) (EMD Serono and R Validation Hub) will offer a perspective on the use of open source software in regulated environments. 
+[**Rebecca Killick**](/author/rebecca-killick/) (Lancaster University and rOpenSci Statistical Software Peer Review advisory committee) will offer insights into standardisation and the potential role our program might play in the future of statistical software and open source software in general. 
+[**Juliane Manitz**](/author/juliane-manitz/) (EMD Serono and R Validation Hub) will offer a perspective on the use of open source software in regulated environments. 
 [**Christoph Sax**](/author/christoph-sax/) (cynkra) will share his experience as the first person to submit a package, tsbox, for review and aligning his software with our standards.
 
 Follow the [community call page link](/commcalls/oct2021-statsreview02/) for practical information. 
