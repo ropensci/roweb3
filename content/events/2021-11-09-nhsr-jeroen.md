@@ -3,7 +3,7 @@ title: Jeroen Ooms on The r-universe at NHS-R Conference
 dateStart: 2021-11-09T16:05:00 # UTC!!
 dateEnd: 2021-11-09T16:25:00 # UTC!!
 date: 2021-11-09T16:25:00 # UTC!! same as dateEnd
-# description: rOpenSci at NHS-R
+description: Jeroen Ooms on The r-universe at NHS-R Conference
 location: 'online' # free text
 slug: "nhsr-jeroen"
 country: "\U0001F310" # emoji
