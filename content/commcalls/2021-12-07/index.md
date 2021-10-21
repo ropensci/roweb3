@@ -1,8 +1,8 @@
 ---
 title: "rOpenSci review-bot and Automation Tools"
-dateStart: 2021-12-07T16:00:00 # UTC!!
-dateEnd: 2021-12-07T17:00:00 # UTC!!
-date: 2021-12-07T17:00:00 # UTC!! same as dateEnd
+dateStart: 2021-12-07T17:00:00 # UTC!!
+dateEnd: 2021-12-07T18:00:00 # UTC!!
+date: 2021-12-07T18:00:00 # UTC!! same as dateEnd
 publishDate: 2021-10-28
 description: tbd 
 author:
