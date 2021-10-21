@@ -53,6 +53,18 @@ This 1-hour community call will address the bigger picture of **how our communit
 Follow the [community call page link](/commcalls/oct2021-statsreview02/) for practical information. 
 **Everyone is welcome, no RSVP needed!**
 
+### November 2 social coworking and office hours
+
+Join us for [monthly coworking Tuesday, November 2nd at 16:00 UTC](/events/coworking-2021-11/)! No RSVP needed. In addition to the usual quiet and noisy rooms (for Q&A and meeting peers), [Mark Pagham](/author/mark-padgham/), co-Lead of our [Statistical Software Peer Review project](/stat-software-review/), will be there to help folks check their own package with our new automated checking system.
+
+### rOpenSci at NHS-R conference
+
+Jeroen Ooms, rOpenSci Lead Infrastructure Engineer, will give a talk on [The r-universe project](/r-universe/) at the [NHS-R 2021 virtual conference](https://nhsrcommunity.com/nhs-r-community-conference-2021/) on November 9. [Details](/events/nhsr-jeroen/).
+
+Will Landau, community member, will give a workshop on Reproducible computation at scale in R with [targets](https://docs.ropensci.org/targets/) on [November 4](https://nhsrcommunity.com/nhs-r-conference-2021-workshop-week/).
+
+The conference is free with registration. [Conference website](https://nhsrcommunity.com/nhs-r-community-conference-2021/).
+
 Find out about more [events](/events).
 
 ### Three new editors for software review
