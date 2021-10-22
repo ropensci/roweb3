@@ -50,7 +50,7 @@ Will Landau, community member, will give a workshop on Reproducible computation 
 
 The conference is free with registration. [Conference website](https://nhsrcommunity.com/nhs-r-community-conference-2021/).
 
-Find out about more [events](/events).
+Find out about more [events](/events). You can subscribe to rOpenSci-lead events via our [ICS calendar](/events/index.ics) (copy the link, add it to your calendar service e.g. [Thunderbird](https://support.mozilla.org/en-US/kb/creating-new-calendars#w_on-the-network-connect-to-your-online-calendars) or Google Calendar). Please note that if you use Google Calendar you have to [check synchronization is turned on](https://calendar.google.com/calendar/u/0/syncselect); furthermore, synchronization might be delayed.
 
 ### Three new editors for software review
 
