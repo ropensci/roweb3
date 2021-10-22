@@ -7,7 +7,7 @@ slug: ropensci-news-digest-october-2021
 categories: []
 tags: 
   - newsletter
-description: Statistical Package Standards at rOpenSci, new packages and package news
+description: Community call about Statistical Package Standards at rOpenSci, co-working with pkgcheck intro, NHS-R, 3 new editors, new packages and package news
 output:
   html_document:
     keep_md: yes
