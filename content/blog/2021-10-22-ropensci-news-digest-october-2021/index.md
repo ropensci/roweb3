@@ -169,7 +169,7 @@ We have some tips on this topic in our [dev guide](https://devguide.ropensci.org
 
 * We strongly recommend short, descriptive names in lower case. If your package deals with one or more commercial services, please make sure the name does not violate branding guidelines. You can check if your package name is available, informative and not offensive by using the [`available` package](https://github.com/ropenscilabs/available). In particular, do _not_ choose a package name that's already used on CRAN or Bioconductor.
 
-* A more unique package name might be easier to track (for you and us to assess package use) and search (for users to find it and to google their questions). Obviously a _too_ unique package name might make the package less discoverable (e.g. it might be an argument for naming your package [geojson](https://github.com/ropensci/geojson)).
+* A more unique package name might be easier to track (for you and us to assess package use) and search (for users to find it and to find answers to their questions). Obviously a _too_ unique package name might make the package less discoverable (e.g. it might be an argument for naming your package [geojson](https://github.com/ropensci/geojson)).
 Also note that removing random letter e.g. vowels from a common word to create a package name might make it less easy to remember!
 
 * Find other interesting aspects of naming your package [in this blog post by Nick Tierney](https://www.njtierney.com/post/2018/06/20/naming-things/), and in case you change your mind, find out [how to rename your package in this other blog post of Nick's](https://www.njtierney.com/post/2017/10/27/change-pkg-name/).
