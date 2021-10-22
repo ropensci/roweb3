@@ -47,6 +47,7 @@ The featured event or comm call at the top of the events page is the nearest fea
 ### Events
 
 To add a new event, or add to the [talks list](https://ropensci.org/talks-papers/) add a Markdown file under content/events called YYYY-MM-DD-slug.md.
+Add the line `ropensci: yes` if the event is put together by rOpenSci.
 
 ````markdown
 ---
