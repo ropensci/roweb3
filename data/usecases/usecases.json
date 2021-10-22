@@ -876,9 +876,36 @@
     "title": "Using stplanr to find shortest road network distance to a TB treatment clinic from a TB patients' household.",
     "reporter": "McEwen Khundi",
     "tags": [],
-    "resource": "stplanr r package",
+    "resource": "[stplanr](https://docs.ropensci.org/stplanr)",
     "url": "https://discuss.ropensci.org/t/using-stplanr-to-find-shortest-road-network-distance-to-a-tb-treatment-clinic-from-a-tb-patients-household/2621",
     "image": "using-stplanr-to-find-shortest-road-network-distance-to-a-tb-treatment-clinic-from-a-tb-patients-household.jpeg",
     "date": "2021-09-20"
+  },
+  {
+    "title": "Using jsonvalidate to validate the `packages.json` file from your personal universe",
+    "reporter": "Hugo Gruson",
+    "tags": ["r-universe", "jsonvalidate"],
+    "resource": "jsonvalidate (and R-universe)",
+    "url": "https://discuss.ropensci.org/t/using-jsonvalidate-to-validate-the-packages-json-file-from-your-personal-universe/2643",
+    "image": "noimage",
+    "date": "2021-10-05"
+  },
+  {
+    "title": "Creating historical Congressional maps with USABoundaries",
+    "reporter": "Andrew Heiss",
+    "tags": "usaboundaries",
+    "resource": "[USAboundaries](https://docs.ropensci.org/USAboundaries)",
+    "url": "https://discuss.ropensci.org/t/creating-historical-congressional-maps-with-usaboundaries/2648",
+    "image": "creating-historical-congressional-maps-with-usaboundaries.jpeg",
+    "date": "2021-10-10"
+  },
+  {
+    "title": "Predizendo volume de eucalipto com tidymodels, XGBoost e targets",
+    "reporter": "Theilon Macêdo",
+    "tags": ["targets", "portuguese"],
+    "resource": "[targets](https://docs.ropensci.org/targets)",
+    "url": "https://discuss.ropensci.org/t/predizendo-volume-de-eucalipto-com-tidymodels-xgboost-e-targets/2656",
+    "image": "predizendo-volume-de-eucalipto-com-tidymodels-xgboost-e-targets.jpeg",
+    "date": "2021-10-13"
   }
 ]
