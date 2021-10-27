@@ -1,10 +1,10 @@
 ---
-title: "Enhancing Software Peer-Review with GitHub Automation"
+title: "Enhancing Software Peer Review with GitHub Automation"
 dateStart: 2021-12-07T17:00:00 # UTC!!
 dateEnd: 2021-12-07T18:00:00 # UTC!!
 date: 2021-12-07T18:00:00 # UTC!! same as dateEnd
 publishDate: 2021-11-02
-# description:  
+# description: Community Call on 
 author:
   - Arfon Smith
   - Karthik Ram
@@ -21,22 +21,28 @@ outputs:
 - Calendar 
 # vimeo:
 # - id: '518761488'
-# resources:
-  # - url: /blog/2021/03/09/commcall-stats/
-  #   name: Summary blog post
-  #   details: of first community call on statistical software peer review   
-speakers: 
+resources:
+  - url: /software-review/
+    name: rOpenSci Software Peer Review
+    details: 
+  - url: https://github.com/ropensci-review-tools
+    name: 'ropensci-review-tools on GitHub'
+    details: Tools for automation of software review at rOpenSci
+  - url: https://joss.theoj.org/
+    name: Journal of Open Source Software
+    details: 
+speakers:     
   - name: Arfon Smith
-    bio: Arfon Smith is BIO
+    bio: Arfon Smith is a Staff Product Manager for Data at [GitHub](https://github.com/) and Editor-in-chief of the [Journal of Open Source Software](https://joss.theoj.org/), a developer friendly, open access journal for research software packages. He has a PhD in Astrochemistry. Arfon on [GitHub](https://github.com/arfon), [Twitter](https://twitter.com/arfon), [Website](https://www.arfon.org/)
     img: /img/community/arfon-smith.jpg
   - name: Karthik Ram
-    bio: Karthik Ram is a Senior Research Scientist with the Berkeley Institute for Data Science, Director and Co-founder of rOpenSci, Editor for rOpenSci Software Peer Review. He has a PhD in Ecology and Evolution. Karthik on [GitHub](https://github.com/karthik), [Twitter](https://twitter.com/\_inundata), [Website](http://karthik.io/), [rOpenSci](/author/karthik-ram/)
+    bio: Karthik Ram is a Senior Research Scientist with the Berkeley Institute for Data Science, Director and Co-founder of rOpenSci, and Editor for rOpenSci Software Peer Review. He has a PhD in Ecology and Evolution. Karthik on [GitHub](https://github.com/karthik), [Twitter](https://twitter.com/\_inundata), [Website](http://karthik.io/), [rOpenSci](/author/karthik-ram/)
     img: /img/team/karthik-ram.png
   - name: Maëlle Salmon
-    bio: "Maëlle Salmon is a R(esearch) Software Engineer, part-time with rOpenSci where she, among other things, maintains the guide [rOpenSci Packages: Development, Maintenance, and Peer Review](https://devguide.ropensci.org/). She also created the [R-hub blog](https://blog.r-hub.io) and co-wrote the book [HTTP testing in R](https://books.ropensci.org/http-testing) with [Scott Chamberlain](/author/scott-chamberlain). She lives in Nancy, France. Maëlle on [GitHub](https://github.com/maelle), [Twitter](https://twitter.com/ma_salmon), [Website](https://masalmon.eu/), [rOpenSci](/author/maëlle-salmon/)."
+    bio: "Maëlle Salmon is a R(esearch) Software Engineer, part-time with rOpenSci where she, among other things, maintains the guide [rOpenSci Packages: Development, Maintenance, and Peer Review](https://devguide.ropensci.org/). She also created the [R-hub blog](https://blog.r-hub.io) and co-wrote the book [HTTP testing in R](https://books.ropensci.org/http-testing) with [Scott Chamberlain](/author/scott-chamberlain). She lives in Nancy, France. Maëlle has a PhD in Statistics. Maëlle on [GitHub](https://github.com/maelle), [Twitter](https://twitter.com/ma_salmon), [Website](https://masalmon.eu/), [rOpenSci](/author/maëlle-salmon/)."
     img: /img/team/maelle_salmon.jpg
   - name: Noam Ross
-    bio: Noam Ross is Principal Scientist for Computational Research at [EcoHealth Alliance](https://www.ecohealthalliance.org/) and rOpenSci Software Review Lead. He co-leads the rOpenSci Statistical Software Testing and Peer Review project. Noam on [GitHub](https://github.com/noamross), [Twitter](https://twitter.com/noamross), [Website](https://www.noamross.net/)
+    bio: Noam Ross is Principal Scientist for Computational Research at [EcoHealth Alliance](https://www.ecohealthalliance.org/) and rOpenSci Software Review Lead. He co-leads the rOpenSci Statistical Software Testing and Peer Review project. Noam has a PhD in Ecology. Noam on [GitHub](https://github.com/noamross), [Twitter](https://twitter.com/noamross), [Website](https://www.noamross.net/)
     img: /img/team/noam_ross.png
 tags:
   - community call
