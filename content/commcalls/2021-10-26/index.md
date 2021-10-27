@@ -19,8 +19,8 @@ notes: https://docs.google.com/document/d/1FOpdu_jR5T6z3xhjWMBKLg_13TzQPrESnW_Cd
 outputs:
 - HTML
 - Calendar 
-# vimeo:
-# - id: '518761488'
+vimeo:
+- id: '639727570'
 resources:
   - url: /blog/2021/03/09/commcall-stats/
     name: Summary blog post
