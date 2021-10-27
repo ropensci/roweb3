@@ -22,6 +22,12 @@ outputs:
 vimeo:
 - id: '639727570'
 resources:
+  - url: /pdfs/2021-10-26-stats-review02-killick.pdf
+    name: Rebecca Killick slides
+    details: Software Standards
+  - url: /pdfs/2021-10-26-stats-review02-manitz.pdf
+    name: Juliane Manitz slides
+    details: A Risk-based approach for assessing R package accuracy within a validated infrastructure
   - url: /blog/2021/03/09/commcall-stats/
     name: Summary blog post
     details: of first community call on statistical software peer review
@@ -80,3 +86,10 @@ _This is the second in a series of 1-hour Community Calls on our [statistical so
 We at rOpenSci have expanded the scope of our software peer review system to encompass explicitly statistical software. The [first Community Call in this series](/commcalls/feb2021-statsreview/) covered new tools to help people prepare their software for submission. This time, we will address the bigger picture of how our community-informed development of standards for statistical packages meets a critical need of stakeholders. Noam Ross (EcoHealth Alliance and rOpenSci Software Review Lead) will catch everyone up on the project. Rebecca Killick (Lancaster University and rOpenSci Statistical Software Peer Review advisory committee) will offer insights into standardisation and the potential role our program might play in the future of statistical software and open source software in general. Juliane Manitz (EMD Serono and R Validation Hub) will offer a perspective on the use of open source software in regulated environments. Christoph Sax (cynkra) will share his experience as the first person to submit a package, [tsbox](https://github.com/ropensci/software-review/issues/464), for review and aligning his software with our standards.
 
 See below for speaker bios and resources.
+
+Index of video:
+
+- 3:35 Noam Ross
+- 14:15 Rebecca Killick
+- 23:20 Christoph Sax
+- 33:30 Juliane Manitz
