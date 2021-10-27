@@ -25,12 +25,15 @@ resources:
   - url: /software-review/
     name: rOpenSci Software Peer Review
     details: 
-  - url: https://github.com/ropensci-review-tools
-    name: 'ropensci-review-tools on GitHub'
-    details: Tools for automation of software review at rOpenSci
   - url: https://joss.theoj.org/
     name: Journal of Open Source Software
     details: 
+  - url: https://github.com/ropensci-org/buffy
+    name: Buffy
+    details: is a service to provide a bot helping scientific journals manage submission reviews. Automates common editorial tasks like those needed by JOSS or rOpenSci.
+  - url: https://github.com/ropensci-review-tools
+    name: 'ropensci-review-tools on GitHub'
+    details: Tools for automation of software review at rOpenSci
 speakers:     
   - name: Arfon Smith
     bio: Arfon Smith is a Staff Product Manager for Data at [GitHub](https://github.com/) and Editor-in-chief of the [Journal of Open Source Software](https://joss.theoj.org/), a developer friendly, open access journal for research software packages. He has a PhD in Astrochemistry. Arfon on [GitHub](https://github.com/arfon), [Twitter](https://twitter.com/arfon), [Website](https://www.arfon.org/)
