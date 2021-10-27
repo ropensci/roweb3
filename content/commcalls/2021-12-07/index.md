@@ -34,13 +34,13 @@ resources:
   - url: https://github.com/ropensci-review-tools
     name: 'ropensci-review-tools on GitHub'
     details: Tools for automation of software review at rOpenSci
-speakers:     
+speakers:
+  - name: Karthik Ram
+    bio: Karthik Ram is a Senior Research Scientist with the Berkeley Institute for Data Science, Director and Co-founder of rOpenSci, and Editor for rOpenSci Software Peer Review. He has a PhD in Ecology and Evolution. Karthik on [GitHub](https://github.com/karthik), [Twitter](https://twitter.com/\_inundata), [Website](http://karthik.io/), [rOpenSci](/author/karthik-ram/)
+    img: /img/team/karthik-ram.png     
   - name: Arfon Smith
     bio: Arfon Smith is a Staff Product Manager for Data at [GitHub](https://github.com/) and Editor-in-chief of the [Journal of Open Source Software](https://joss.theoj.org/), a developer friendly, open access journal for research software packages. He has a PhD in Astrochemistry. Arfon on [GitHub](https://github.com/arfon), [Twitter](https://twitter.com/arfon), [Website](https://www.arfon.org/)
     img: /img/community/arfon-smith.jpg
-  - name: Karthik Ram
-    bio: Karthik Ram is a Senior Research Scientist with the Berkeley Institute for Data Science, Director and Co-founder of rOpenSci, and Editor for rOpenSci Software Peer Review. He has a PhD in Ecology and Evolution. Karthik on [GitHub](https://github.com/karthik), [Twitter](https://twitter.com/\_inundata), [Website](http://karthik.io/), [rOpenSci](/author/karthik-ram/)
-    img: /img/team/karthik-ram.png
   - name: Maëlle Salmon
     bio: "Maëlle Salmon is a R(esearch) Software Engineer, part-time with rOpenSci where she, among other things, maintains the guide [rOpenSci Packages: Development, Maintenance, and Peer Review](https://devguide.ropensci.org/). She also created the [R-hub blog](https://blog.r-hub.io) and co-wrote the book [HTTP testing in R](https://books.ropensci.org/http-testing) with [Scott Chamberlain](/author/scott-chamberlain). She lives in Nancy, France. Maëlle has a PhD in Statistics. Maëlle on [GitHub](https://github.com/maelle), [Twitter](https://twitter.com/ma_salmon), [Website](https://masalmon.eu/), [rOpenSci](/author/maëlle-salmon/)."
     img: /img/team/maelle_salmon.jpg
