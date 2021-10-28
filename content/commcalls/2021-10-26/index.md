@@ -25,6 +25,9 @@ resources:
   - url: /pdfs/2021-10-26-stats-review02-killick.pdf
     name: Rebecca Killick slides
     details: Software Standards
+  - url: https://christophsax.github.io/slides/2021-10-26-ropensci-tsbox/slides.html#1
+    name: Christoph Sax slides
+    details: Submitting tsbox to ropensci
   - url: /pdfs/2021-10-26-stats-review02-manitz.pdf
     name: Juliane Manitz slides
     details: A Risk-based approach for assessing R package accuracy within a validated infrastructure
