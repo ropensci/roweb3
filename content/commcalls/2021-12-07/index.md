@@ -57,10 +57,10 @@ tags:
   - pkgcheck
   - github
 deets: |
-    Meeting ID: 933 6999 6529
+    Meeting ID: 939 9725 9411
     
-    Passcode: 088482
-zoomurl: https://zoom.us/j/93369996529?pwd=a0EwcjVuaTJjSWtodk5uR1A1bVlaZz09
+    Passcode: 615476
+zoomurl: https://zoom.us/j/93997259411?pwd=Qmp5RHZlVHc0NGI1NVdnZTMvZkVkdz09
 ---
 
 Software peer-review involves coordinating and tracking many moving parts: software submissions, testing and diagnostics, assignment of editors and reviewers, and logging the progression of submissions through revisions and acceptance.
