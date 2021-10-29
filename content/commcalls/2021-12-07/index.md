@@ -13,6 +13,7 @@ author:
 organizer: Stefanie Butland
 location: Community call (teleconference)
 country: "\U0001F310"
+ropensci: yes
 attendees: All are welcome
 slug: dec2021-automation
 # notes: https://docs.google.com/document/d/1o933nG1ZW2Qf8p7FdQxn8wOkk9qoBINL1fx3FlIFSJU/
