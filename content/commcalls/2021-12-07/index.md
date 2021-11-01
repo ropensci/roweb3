@@ -28,7 +28,7 @@ resources:
   - url: https://joss.theoj.org/
     name: Journal of Open Source Software
     details: 
-  - url: https://github.com/ropensci-org/buffy
+  - url: https://buffy-ropensci.readthedocs.io/en/latest/
     name: Buffy
     details: is a service to provide a bot helping scientific journals manage submission reviews. Automates common editorial tasks like those needed by JOSS or rOpenSci.
   - url: https://github.com/ropensci-review-tools
