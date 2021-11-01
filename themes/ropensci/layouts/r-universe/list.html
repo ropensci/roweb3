@@ -18,7 +18,7 @@
 
       </div>
       
-            {{ $pages := (where .Site.Pages.ByPublishDate.Reverse ".Params.tags" "intersect" (slice "r-universe")) }}
+            {{ $pages := (where .Site.RegularPages.ByPublishDate.Reverse ".Params.tags" "intersect" (slice "r-universe")) }}
             {{ if ge (len $pages) 1 }}
      <div class="author-blog">
         <h2 class="title mt-5 mb-4">Articles about r-universe</h2>
