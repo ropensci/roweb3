@@ -1,4 +1,4 @@
 <blockquote class='blockquote text-{{ (.Get "align") | default "left" }}'>
   <p class="mb-0">{{ .Inner | markdownify}}</p>
-  {{ if (.Get "footer") }} <footer class="blockquote-footer">{{ (.Get "footer") }} {{ with .Get "cite" }} in <cite title="Source Title">{{ . }}</cite>{{ end }}</footer>{{ end }}
+  {{ if (.Get "footer") }} <footer class="blockquote-footer">{{ (.Get "footer") | markdownify }} {{ with .Get "cite" }} in <cite title="Source Title">{{ . | markdownify }}</cite>{{ end }}</footer>{{ end }}
 </blockquote>
