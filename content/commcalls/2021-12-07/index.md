@@ -31,6 +31,9 @@ resources:
   - url: https://buffy-ropensci.readthedocs.io/en/latest/
     name: Buffy
     details: is a service to provide a bot helping scientific journals manage submission reviews. Automates common editorial tasks like those needed by JOSS or rOpenSci.
+  - url: https://buffy-ropensci.readthedocs.io/en/latest/
+    name: rOpenSci version of Buffy
+    details: holding our specific configuration and commands.
   - url: https://github.com/ropensci-review-tools
     name: 'ropensci-review-tools on GitHub'
     details: Tools for automation of software review at rOpenSci
