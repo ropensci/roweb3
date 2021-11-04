@@ -16,13 +16,17 @@ tags:
   - unconf18
 ---
 
-It’s easy to come to a conference and feel intimidated by the wealth of knowledge and expertise of other attendees. As Ellen Ullman, a software engineer and writer describes,[^1] 
+It’s easy to come to a conference and feel intimidated by the wealth of knowledge and expertise of other attendees. As Ellen Ullman, a software engineer and writer describes,
 
-> I was aware at all times that I had only islands of knowledge separated by darkness; that I was surrounded by chasms of not-knowing, into one of which I was certain to fall.
+{{< quote footer="Ellen Ullman" cite="Life in Code: A Personal History of Technology. (2017)" >}}
+I was aware at all times that I had only islands of knowledge separated by darkness; that I was surrounded by chasms of not-knowing, into one of which I was certain to fall.
+{{< /quote >}}
 
 One of the best ways to start feeling less intimidated is to start talking to others. Ullman continues,
 
-> I learned I was not alone. I met a postdoctoral student in computer science at Berkeley. I talked with him about my islands, the darkness, the fear. He answered without hesitations: ‘Oh, I feel that way all the time.’
+{{< quote footer="Ellen Ullman" cite="Life in Code: A Personal History of Technology. (2017)" >}}
+I learned I was not alone. I met a postdoctoral student in computer science at Berkeley. I talked with him about my islands, the darkness, the fear. He answered without hesitations: ‘Oh, I feel that way all the time.’
+{{< /quote >}}
 
 At rOpenSci unconf18, we learned that it’s ok to feel like you don’t know everything -- indeed, that’s how just about everyone feels! In fact, being willing to share your expertise from your island of knowledge and communicating with other people who have their own islands of expertise is one part of what makes a [community](/blog/2017/06/23/community/). 
 
@@ -49,6 +53,5 @@ Contributing to open source can be intimidating if you feel like you need to bui
 
 After the unconf, we were able to write a [round-up of existing packages and resources](http://www.monicagerber.com/2018/07/roundup-of-growth-chart-packages/). We plan to continue working on this problem, in collaboration with several folks who are interested in this space. Our next steps include looking for places where goals and strategies overlap and streamlining our approach to create a useful product for public health researchers. We’d love to have you [join the conversation](https://github.com/ropenscilabs/mchtoolbox/issues).
 
-{{< tweet 998773541242683393 >}}
+{{< tweet user="mwgerber" id="998773541242683393" >}}
 
-[^1]: Ullman, Ellen. "Life in Code: A Personal History of Technology." (2017).

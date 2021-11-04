@@ -28,7 +28,7 @@ Tabula is an extremely powerful tool for extracting tabular data locked in PDFs.
 
 Unfortunately, this means that `tabulizer` is not a universal solution to data trapped in PDFs. In particular, it can only identify and extract tables that are represented as *text* in a PDF:
 
-{{< tweet 510056437033091074 >}}
+{{< tweet user="esargent184" id="510056437033091074" >}}
 
 If a PDF is a scan of a document or the table is actually an image embedded in the PDF, tabula - and thus `tabulizer` - are useless. In those cases, users might want to check out the OCR functionality of [tesseract](https://github.com/ropensci/tesseract), which Jeroen Ooms developed for rOpenSci and [discussed previously on this blog](/blog/2016/11/16/tesseract).
 

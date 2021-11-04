@@ -38,7 +38,7 @@ Each icon function also provides support for modifying the attributes of the ico
 
 ### R in icons
 The long-awaited [R Project icon](https://cran.r-project.org/logo.html) has been added to the Font Awesome library in version 5.0.11. This addition comes nearly four years since the icon's [first request](https://github.com/FortAwesome/Font-Awesome/issues/3862) after being brought into the spotlight of [#rstats](https://twitter.com/hashtag/rstats) with [LockeData](https://twitter.com/LockeData)'s tweet.
-{{< tweet 987286302721806337 >}}
+{{< tweet user="LockeData" id="987286302721806337" >}}
 
 Finally, it is possible to use an R package to include the R icon in your R Markdown documents!
 

@@ -377,7 +377,7 @@ bib2df::bib2df("refs.bib", separate_names = TRUE)$AUTHOR
 bib2df helps doing fun or serious analyses of reference databases.
 
 <!--html_preserve-->
-{{< tweet 887962776806842369 >}}
+{{< tweet user="thosjleeper" id="887962776806842369" >}}
 <!--/html_preserve-->
 
 ### handlr: from BibTeX to RIS, schema.org, etc.

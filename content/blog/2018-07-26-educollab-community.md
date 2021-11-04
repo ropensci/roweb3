@@ -57,4 +57,4 @@ Even if they are made open, the problem remains of how to discover their availab
 
 To address this larger challenge, we propose a new rOpenSci Education profile series, which will include interviews with practicing educators to share their own resources, tools, strategies, and experiences in the classroom. We hope that beginning this dialogue about education with educators will be the beginning of an rOpenSci Educators' Collaborative. We hope that this collaborative will provide a space for new and experienced educators to share what works and what doesn’t. Ideally, in the [words of one expert](https://wenger-trayner.com/introduction-to-communities-of-practice/), this community of practice would work to "develop a shared repertoire of resources: experiences, stories, tools, ways of addressing recurring problems."
 
-{{< tweet 999074538666188800 >}}
+{{< tweet user="rOpenSci" id="999074538666188800" >}}
