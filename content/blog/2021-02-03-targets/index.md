@@ -32,10 +32,13 @@ With pipelines, data science feels smoother and more rewarding, and the results 
 
 <!--html_preserve-->
 <!-- I thought about following the blog guide's recommendation to use the Hugo shortcode for this tweet, but I feel the media and emojis are a bit much. -->
-<blockquote><p lang="en" dir="ltr">...looking to get your project/s organised in the new year? hoping just to distract from feelings of impending doom/crushing loss of hope? I promise workflowing will make you feel better... and <a href="https://twitter.com/wmlandau?ref_src=twsrc%5Etfw">@wmlandau</a> has made it SO EASY.</p>&mdash; Dr Saras Windecker (@smwindecker) <a href="https://twitter.com/smwindecker/status/1347369461943177216?ref_src=twsrc%5Etfw">January 8, 2021</a></blockquote> 
+{{< quote footer="Dr Saras Windecker" cite="[a tweet](https://twitter.com/smwindecker/status/1347369461943177216)." >}}
+...looking to get your project/s organised in the new year? hoping just to distract from feelings of impending doom/crushing loss of hope? I promise workflowing will make you feel better... and [@wmlandau](https://twitter.com/wmlandau) has made it SO EASY.
+{{< /quote >}}
 
-<blockquote><p lang="en" dir="ltr">{targets} and its predecessors are visionary work. I can't imagine making pipelines in a linear script ever again.</p>&mdash; Miles McBain (@MilesMcBain) <a href="https://twitter.com/MilesMcBain/status/1347379570282954756?ref_src=twsrc%5Etfw">January 8, 2021</a></blockquote>
-<!--/html_preserve-->
+{{< quote footer="MilesMcBain" cite="[a tweet](https://twitter.com/MilesMcBain/status/1347379570282954756)." >}}
+{targets} and its predecessors are visionary work. I can't imagine making pipelines in a linear script ever again.
+{{< /quote >}}
 
 <!--html_preserve--> <h2>targets <a href="https://docs.rOpenSci.org/targets/">{{< figure src = "targets.png" alt = "targets hex logo" height = "139" class = "pull-right" >}}</a></h2> <!--/html_preserve-->
 
@@ -157,7 +160,7 @@ To help workflows scale, [`targets`](https://docs.rOpenSci.org/targets/) adopts 
 The more often you write your own functions, the nicer your experience becomes.
 
 <!--html_preserve-->
-{{< tweet 1339447101487341570 >}}
+{{< tweet user="mdneuzerling" id="1339447101487341570" >}}
 <!--/html_preserve-->
 
 But if your mind is on the domain knowledge, or if you feel pressure to work fast, then it can be hard to write functions for everything.

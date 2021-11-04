@@ -26,13 +26,13 @@ Karthik is a data scientist, an ecologist, and a world-changer. He not only co-f
 
 [rOpenSci](https://ropensci.org/) brings software developers and users together to innovate on creating new coding tools and promoting open science. It does this by deliberately creating a friendly, positive environment where folks with different backgrounds and expertise feel welcome and comfortable to learn, share ideas and innovate together. rOpenSci exists primarily online, through its extensive staff- and community-developed and ever-growing ecosystem of [R packages](https://ropensci.org/packages/), [Community Calls](https://ropensci.org/commcalls/), [discussion forum](https://discuss.ropensci.org/), [Twitter](https://twitter.com/ropensci,) and Slack. It also catalyzes relationships and strengthens community through in-person "unconf" events, bringing community members physically together to collaborate on specific projects of their choice.
 
-{{< tweet 814333386563194880 >}}
+{{< tweet user="_inundata" id="814333386563194880" >}}
 
 The [2015 rOpenSci unconf](https://unconf15.ropensci.org/) ("runconf15") was transformative for someone like me, so new to coding. Beforehand, I was pretty scarred by my experience coding, and really thought that software was a static, untouchable, and unalterable thing, sort of like a refrigerator that did Its Purpose and Too Bad if it doesn't work quite right or limits your imagination of could be possible. Honestly, my closest inkling that I could interact with software or software developers was through [Clippy](https://jules32.github.io/useR-2019-keynote/#59).  
 
 But at runconf15, I learned not only that software developers were real people, they were kind people. They were kind people who would take time to talk to a new user/marine ecologist like me, and be interested in my use cases, questions, needs, and learning process. My colleague Jamie and I were able to talk with RStudio's Joe Cheng about our pitfalls and limitations of working with raster map data in R. And then we were blown away as Joe began coding a package to make rasters faster right before our eyes, in dialogue with us as we sat together. 
 
-{{< tweet 581578558977368064 >}}
+{{< tweet user="jamiecmonty" id="581578558977368064" >}}
 
 Having these kind people (note: "kind people" not "kind of people") all together ready to innovate does not happen by accident. It takes deliberate intent and attention to bringing us together and setting the tone in a comfortable space to interact. And this was the vision of rOpenSci. This runconf15 was the first time I heard a [Code of Conduct](https://en.wikipedia.org/wiki/Code_of_conduct). And it was the first time I had experienced a large setting without hierarchy, and felt like I belonged and could contribute in a way that was welcomed. 
 
@@ -40,7 +40,7 @@ I've been thinking back to rOpenSci's runconf15 event five years ago. My interes
 
 rOpenSci made concerted efforts to continue building and nurturing this community after runconf15. This means leveraging the power of the internet, where conversations ignited at runconf15 was continued with enthusiasm and innovation. 
 
-{{< tweet 611285143857299457 >}}
+{{< tweet user="jamiecmonty" id="611285143857299457" >}}
 
 
 But rOpenSci is all about welcoming more and more people into the rOpenSci and #rstats community, as is evident in part from [runconf16](https://unconf16.ropensci.org/), [runconf17](https://unconf17.ropensci.org/), and [runconf18](https://unconf18.ropensci.org/), and the [28.2K Twitter followers](https://twitter.com/rOpenSci) (as of February 2020). rOpenSci has created a friendly watershed of innovation, with a growing network of diverse people and skillsets contributing in myriad ways, like streams joining a ever-stronger flowing river. 

@@ -41,7 +41,7 @@ image_shadow(img, geometry = "100x20+30+30")
 
 So fancy! Another cool example from Twitter:
 
-{{< tweet 1155078546102083584 >}}
+{{< tweet user="opencpu" id="1155078546102083584" >}}
 
 
 ### Separate and combine

@@ -31,9 +31,9 @@ output:
 
 While I already appreciate the importance of protecting sensitive ecosystems, including the ocean[^1], I found the idea of World Ocean Day especially touching.
 
-> On World Ocean Day, people around our blue planet celebrate and honor our one shared ocean, that connects us all.
->
-> -- About World Ocean Day - <https://worldoceanday.org/about/>
+{{< quote footer="[About World Ocean Day](https://worldoceanday.org/about/)" >}}
+On World Ocean Day, people around our blue planet celebrate and honor our one shared ocean, that connects us all.
+{{< /quote >}}
 
 This year has been hard, and like many, I often feel isolated and emotionally exhausted.
 The idea that we have only one ocean and it connects us is a lovely way to remember that as isolated as we may feel we're all here on this planet together.
@@ -169,7 +169,7 @@ Projected CRS: NSIDC Sea Ice Polar Stereographic North
 
 Here it's important to use `do_union = FALSE` because we don't want the order of the points to change (otherwise when we plot we'll get [@accidental__aRt](https://twitter.com/accidental__aRt)!)
 
-{{< tweet 1374726320047980549 >}}
+{{< tweet user="c_borstell" id="1374726320047980549" >}}
 
 
 

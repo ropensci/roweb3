@@ -30,7 +30,7 @@ The `vitae` package leverages the dynamic nature of R Markdown to quickly produc
 
 Based on the twitter community's response to the package announcement, CV maintenance is just as unenjoyable for others as it is for me! Hopefully this package makes it a little bit easier.
 
-{{< tweet 1065851259888914432 >}}
+{{< tweet user="mitchoharawild" id="1065851259888914432" >}}
 
 ### Keeping it simple
 

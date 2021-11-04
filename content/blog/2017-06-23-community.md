@@ -47,7 +47,7 @@ No community is perfect, and being willing to consider our shortcomings and thin
 
 [Alice Daish](https://twitter.com/alice_data) did a great job capturing the conversation and allowing for more discussion online:
 
-{{< tweet 868198529134510080 >}}
+{{< tweet user="alice_data" id="868198529134510080" >}}
 
 To summarize here:
 
@@ -64,7 +64,7 @@ To summarize here:
 
 And, when times get tough, look to your community. Get out there. Be active. Communicate with one another. [Tim Phan](https://twitter.com/timothy_phan) brilliantly summarized the importance of action and community in this thread:
 
-{{< tweet 868231965266325504 >}}
+{{< tweet user="timothy_phan" id="868231965266325504" >}}
 
 ## Thank you
 

@@ -123,7 +123,7 @@ Once this file is knitted the plot above will be inserted with the correct synta
 **Embed a tweet** by using a Hugo shortcode. 
 
 <!--html_preserve-->
-{{< tweet 1138216112808529920 >}}
+{{< tweet user="SanDiegoZoo" id="1453110110599868418" >}}
 <!--/html_preserve-->
 
 
