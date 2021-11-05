@@ -40,6 +40,23 @@ If you are curious about this topic, do not miss our next [community call: Enhan
 
 ## Still some work for editors 😉
 
+Fear not, software peer review volunteer editors still participate a lot in the process.
+We've formalized [editor responsabilities](https://devdevguide.netlify.app/editorguide.html#editors-responsabilities), in particular outlining editor etiquette around submissions handled by other editors.
+
+> You do not have to keep track of other submissions, but if you do notice an issue with a package that is being handled by another editor, feel free to raise that issue directly with the other editor, or post the concern to editors-only channel on slack. 
+
+We've also added a whole chapter dedicated to [editorial management](https://devdevguide.netlify.app/editorialmanagement.html) with guidance for inviting, onboarding and offboarding editors.
+Recruiting new editors and maintaining a sufficient and well-balanced editorial board is a responsibility of the [Software Review Lead](https://ropensci.org/about/#team) (Noam Ross at this point in software review history 😀), with support and advice from the editorial board.
+
+## A new form for volunteer reviewing!
+
+In an effort to gather more relevant data about potential reviewers, we've improved our [form for volunteering](https://airtable.com/shrnfDI2S9uuyxtDw).
+It has more detailed questions about technical knowledge and domain expertise.
+
+Thanks a lot to all who either updated their data or filled the form for the first time, we are very thankful for your willingness to participate to Software Peer Review!
+
+To go with the new useful data we've updated the guidance for editors to [look for reviewers](https://devdevguide.netlify.app/editorguide.html#how-to-look-for-reviewers).
+
 ## Mention relevant rOpenSci projects
 
 We've sprinkled the dev guide with mentions of rOpenSci projects relevant to software review participants:
@@ -50,30 +67,37 @@ We've sprinkled the dev guide with mentions of rOpenSci projects relevant to sof
 
 * In the packaging guide, we now give precise examples of tools for installation instructions: the r-lib remotes and pak packages but also R-universe!
 
-* 2021-11-04, add editors' responsabilities including  Editor etiquette for commenting on packages on which you aren't handling/reviewing (@jhollist, #354). 
+## Setting up your package to foster a community
 
-* 2021-11-04, give precise examples of tools for installation instructions (remotes, pak, R-universe).
+* 2021-05-20, add guidance around setting up your package to foster a community, inspired by the recent rOpenSci community call. (with help from `@Bisaloo`, #289, #308)
 
+## Updates to reviewer guidance
 
-* 2021-10-07, add guidance for editorial management (recruiting, inviting, onboarding, offboarding editors).
+The work on pkgcheck and buffy means we were able to remove some elements from reviewers' guidance: 
+
+* We no longer ask reviewers to run covr but we ask them to pay attentions to skipped tests.
+
+* We no longer ask reviewers to run goodpractice as goodpractice is run by the pkgcheck package whose checks are triggered on the cloud by the bot.
+
+We are thrilled to remove some workload from reviewers as we are aware that reviewing a package is a lot of work. 
+Thanks to all reviewers for their incredible contributions to Software Peer Review!
+
+## Miscellaneous guidance updates
+
 
 * 2021-09-14, add a requirement that there is at least one _HTML_ vignette.
 
 * 2021-09-03, add some recommendations around git. (@annakrystalli, #341)
 
-* 2021-07-14, clarify the categories data extraction and munging by adding examples. (@noamross, #337)
-
-* 2021-05-20, add guidance around setting up your package to foster a community, inspired by the recent rOpenSci community call. (with help from `@Bisaloo`, #289, #308)
-
-* 2021-04-27, no longer ask reviewers to ask covr as it'll be done by automatic tools, but ask them to pay attention to tests skipped.
 
 * 2021-04-02, add citation guidance.
 
-* 2021-04-02, stop asking reviewers to run goodpractice as this is part of editorial checks.
+* 2021-04-02, 
+
+
+* 2021-07-14, clarify the categories data extraction and munging by adding examples. (@noamross, #337)
 
 * 2021-03-23, launched a new form for reviewer volunteering.
-
-* 2021-02-24, add guidance around the use of `@ropensci-review-bot`.
 
 ## Conclusion
 
