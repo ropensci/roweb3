@@ -51,6 +51,8 @@ Thanks to the new statistical software peer-review editor [Toby Dylan Hocking](h
 We've also added a whole chapter dedicated to [editorial management](https://devdevguide.netlify.app/editorialmanagement.html) with guidance for inviting, onboarding and offboarding editors.
 Recruiting new editors and maintaining a sufficient and well-balanced editorial board is a responsibility of the [Software Review Lead](https://ropensci.org/about/#team) ([Noam Ross](https://www.noamross.net/) at this point in software review history 😀), with support and advice from the editorial board.
 
+As with the rest of the Dev Guide, we hope this section helps make our own processes more transparent, and is of use to other organizations managing peer review.
+
 ## A new form for volunteer reviewing!
 
 In an effort to gather more relevant data about potential reviewers, we've improved our [form for volunteering](https://airtable.com/shrnfDI2S9uuyxtDw).
