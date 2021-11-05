@@ -92,7 +92,7 @@ Thanks to all reviewers for their incredible contributions to Software Peer Revi
 The requirement to have a vignette is now more precise, there has to be at least one _HTML_ vignette. 
 That requirement is part of pkgcheck checks.
 
-Thanks to an idea of editor [Anna Krystalli](https://github.com/annakrystalli), the dev guide now includes an explicit [subsection about version control](https://devdevguide.netlify.app/building.html#version-control), and pkgcheck's checks include looking for "scrap files" such as `.DS_Store` files, that should be gitignored.
+Thanks to an idea of editor [Anna Krystalli](https://github.com/annakrystalli), the dev guide now includes an explicit [subsection about version control](https://devdevguide.netlify.app/building.html#version-control), and pkgcheck's checks include looking for "scrap files" such as `.DS_Store` files, that should be `.gitignore`'d.
 
 We've added some more guidance on [making packages easier to cite](https://devdevguide.netlify.app/building.html#version-control) following our [blog post on the same topic](/blog/2021/02/16/package-citation/).
 
