@@ -68,7 +68,7 @@ We've sprinkled the dev guide with mentions of rOpenSci projects relevant to sof
 
 * We present the [pkgcheck](https://docs.ropensci.org/pkgcheck/) package created and maintained by Mark Padgham in the author guide as using it enables authors to ensure their package is ready for submission.
 
-* In the packaging guide, we now give precise examples of [tools for installation instructions](https://devdevguide.netlify.app/building.html#readme): the r-lib remotes and pak packages but also R-universe!
+* In the packaging guide, we now give precise examples of [tools for installation instructions](https://devdevguide.netlify.app/building.html#readme): the r-lib remotes and pak packages but also [R-universe](/r-universe/)!
 
 ## Setting up your package to foster a community
 
