@@ -38,13 +38,13 @@ when software changes.
 Many developers of R packages for science are themselves scientists.
 They may be developing packages in their own time, or are trying to fit it into a busy schedule. 
 Without citations, most scientists don't get credit for their work. 
-This makes it hard to prioritorize work on open software projects. 
+This makes it hard to prioritize work on open software projects. 
 If we want to ensure that high-quality open software continues, 
 it's important that the developers get credit for their work.
 
 3) **Gratitude**
 Citing developer's work is also a way of showing gratitude and thanks for (often) unpaid hard work. 
-I know that every citation I get for my [weathercan](https://docs.ropensci.com/weathercan) package warms my heart `r emo::ji("heart_eyes_cat")` (and helps my CV)
+I know that every citation I get for my [weathercan](https://docs.ropensci.org/weathercan) package warms my heart `r emo::ji("heart_eyes_cat")` (and helps my CV)
 R packages have made my life so much easier, and it makes me happy to know that at least I can publicly acknowledge the hard work of the developers by citing them in my manuscripts. 
 
 ## Which packages do I cite?
@@ -52,7 +52,7 @@ R packages have made my life so much easier, and it makes me happy to know that 
 A question I often hear is, "Okay, I understand I should cite R packages, but do I cite them all?".
 This is a tricky question, and to be honest, I'm not really sure of the best answer.
 
-I always advise citing statistical packages, no question, and any package that is specific to a scientific domain or methodology (i.e. if you used [magick](https://docs.ropensci.com/magick) to process images before analysis,
+I always advise citing statistical packages, no question, and any package that is specific to a scientific domain or methodology (i.e. if you used [magick](https://docs.ropensci.org/magick) to process images before analysis,
 or if you used [tidyhydat](https://docs.ropensci.org/tidyhydat) to retrieve hydrology data, definitely cite those packages). 
 
 The tricky bit is packages that are used generally, like data munging packages, 
