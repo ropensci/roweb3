@@ -62,6 +62,8 @@ Thanks a lot to all who either updated their data or filled the form for the fir
 
 To go with the new useful data we've updated the guidance for editors to [look for reviewers](https://devdevguide.netlify.app/editorguide.html#how-to-look-for-reviewers).
 
+If you want your info removed from the database, please send an email to `privacy@ropensci.org`.
+
 ## Mention relevant rOpenSci projects
 
 We've sprinkled the dev guide with mentions of rOpenSci projects relevant to software review participants:
