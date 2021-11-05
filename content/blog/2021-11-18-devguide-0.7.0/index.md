@@ -72,7 +72,7 @@ We've sprinkled the dev guide with mentions of rOpenSci projects relevant to sof
 
 ## Setting up your package to foster a community
 
-* 2021-05-20, add guidance around setting up your package to foster a community, inspired by the recent rOpenSci community call. (with help from `@Bisaloo`, #289, #308)
+Following our community call ["Set Up Your Package to Foster a Community"](/commcalls/apr2021-pkg-community/) that has been [summarized by  Sina Rüeger](/blog/2021/04/28/commcall-pkg-community/), we've added guidance to our [collaboration guide](https://devdevguide.netlify.app/collaboration.html).
 
 ## Updates to reviewer guidance
 
