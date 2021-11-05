@@ -366,8 +366,7 @@ If we want them to keep doing what they do, the least we can do is cheer them on
 
 
 [^1]: This is my favourite method as I can use a custom `rmarkdown::render()` 
-to make sure that the reports are dated and moved to a `results` folder. 
-For example: <br>
+to make sure that the reports are dated and moved to a `results` folder. For example: <br>
 
 ```r
 rmarkdown::render(input = "Scripts/02_analysis.R",
