@@ -186,10 +186,10 @@ If we want them to keep doing what they do, the least we can do is cheer them on
 
 
 [^1]: This is my favourite method as I can use a custom `rmarkdown::render()` 
-to make sure that the reports are dated and moved to a `results` folder. For example: <br>
-```{r, eval = FALSE}
-rmarkdown::render(input = "Scripts/02_analysis.R",
-                  output_dir = "Results",
-                  output_file = paste0("02_analysis_", Sys.Date(), '.html'))
-```
+to make sure that the reports are dated and moved to a `results` folder. 
+For example:<br>
+`rmarkdown::render(input = "Scripts/02_analysis.R",
+                   output_dir = "Results",
+                   output_file = paste0("02_analysis_", Sys.Date(), '.html'))`  
 Also see [Dean Attali's blog post](https://deanattali.com/2015/03/24/knitrs-best-hidden-gem-spin/) on the subject.
+
