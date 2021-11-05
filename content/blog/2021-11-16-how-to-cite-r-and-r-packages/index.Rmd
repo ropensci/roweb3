@@ -1,0 +1,194 @@
+---
+title: How to Cite R and R Packages
+author:
+  - Steffi LaZerte
+date: '2021-11-16'
+slug: how-to-cite-r-and-r-packages
+tags:
+  - citations
+  - packages
+  - reproducibility
+description: A short primer on how to cite R and R packages to support developers and ensure reproducible science!
+tweet: How to cite R and R packages? by @steffilazerte!
+output:
+  html_document:
+    keep_md: yes
+---
+
+I teach R to a lot of scientists, those that are new to science (i.e. students) 
+as well as more established scientists, new to R. 
+I find that after all their struggles of dealing with dates, 
+or remembering where to put the comma, they're so grateful to actual have an analysis, 
+that they often forget or aren't aware of the next steps.  
+Many scientists don't know that they should be citing R packages let alone R, 
+and, if they do know, they often struggle with how.
+
+## Why cite?
+
+It's extremely important to cite both R and R packages for several reasons:
+
+1) **Reproducible Science**  
+If it isn't clear how you did a thing or how/where you got your data, your work isn't reproducible. 
+Software (like R), R packages, and their versions are important information to include in a manuscript.
+It not only helps other scientists understand and reproduce your work, but helps share important tools. 
+Including versions is also really important as a way of recording the context of your manuscript 
+when software changes.
+
+2) **Developer Credit**
+Many developers of R packages for science are themselves scientists.
+They may be developing packages in their own time, or are trying to fit it into a busy schedule. 
+Without citations, most scientists don't get credit for their work. 
+This makes it hard to prioritorize work on open software projects. 
+If we want to ensure that high-quality open software continues, 
+it's important that the developers get credit for their work.
+
+3) **Gratitude**
+Citing developer's work is also a way of showing gratitude and thanks for (often) unpaid hard work. 
+I know that every citation I get for my [weathercan](https://docs.ropensci.com/weathercan) package warms my heart `r emo::ji("heart_eyes_cat")` (and helps my CV)
+R packages have made my life so much easier, and it makes me happy to know that at least I can publicly acknowledge the hard work of the developers by citing them in my manuscripts. 
+
+## Which packages do I cite?
+
+A question I often hear is, "Okay, I understand I should cite R packages, but do I cite them all?".
+This is a tricky question, and to be honest, I'm not really sure of the best answer.
+
+I always advise citing statistical packages, no question, and any package that is specific to a scientific domain or methodology (i.e. if you used [magick](https://docs.ropensci.com/magick) to process images before analysis,
+or if you used [tidyhydat](https://docs.ropensci.org/tidyhydat) to retrieve hydrology data, definitely cite those packages). 
+
+The tricky bit is packages that are used generally, like data munging packages, 
+or packages like [osfr](https://docs.ropensci.org/osfr) which are used as part of the scientific process 
+(i.e. connecting to OSF, the Open Science Framework), 
+but not necessarily for the analysis specifically.
+In an ideal world, everything we use would be cited, but with word limits and fussy editors, it's often hard to justify citing everything in a manuscript. 
+
+My advice is to cite every package you think you can get away with, if it was a major part of your process.
+Anything else, try to make sure it's prominently displayed in your scripts, and if possible, include your scripts as supplemental to the manuscript, so any curious readers will be exposed to the packages, if nothing else. For packages like osfr, you could share your OSF page, and mention that it was managed with osfr.
+
+Now that I've convinced you of the importance of citing packages, and you've had a chance to consider which ones you want to cite,
+the next step is gathering citations.
+Luckily, there are standard ways of citing R packages, most of which you can access directly from your R console!
+
+## How to cite R
+
+Citing R is pretty straightforward.
+
+```{r}
+citation()
+```
+
+The next thing you'll want is the version of R.
+
+```{r}
+version$version.string
+```
+
+
+In the text of a manuscript, I generally suggest something like the following.
+
+> All analysis were performed using R Statistical Software 
+> (v`r version$major`.`r version$minor`; R Core Team 2021)
+
+
+## How to cite R packages
+
+Citation information for R packages can also be accessed through R.
+
+Some developers have books or articles that they want you to use as the citation.
+
+```{r}
+citation("weathercan")
+```
+
+Some have you cite the software directly.
+
+```{r}
+citation("magick")
+```
+
+You can get version information with the `packageVersion()` function.
+
+```{r}
+packageVersion("weathercan")
+packageVersion("magick")
+```
+
+For R packages, I generally recommend text along these lines in a manuscript.
+
+> All analysis were performed using R Statistical Software 
+> (v`r version$major`.`r version$minor`; R Core Team 2021).
+> Temperature data was obtained from Environment and Climate Change Canada
+> via the weathercan R package (v`r packageVersion("weathercan")`; LaZerte and Albers 2018).
+> Vegetation photos were simplified and processed prior to analysis using the magick R package (v`r packageVersion("magick")`; Ooms 2021).
+
+
+## Reproducible workflow for managing citations
+
+Being ready to cite the packages you've used will be so much easier if you keep 
+track of packages and package versions as part of your workflow.
+
+Consider keeping compiled reports of your analysis scripts 
+(either rendering your scripts with the [RStudio's Compile Report](https://rmarkdown.rstudio.com/articles_report_from_r_script.html) button,
+'spinning' your scripts via rmarkdown and knitr^[1], 
+or using Rmd files and knitting them.)
+
+This way you can include a call to `sessionInfo()` or `devtools::session_info()`,
+at the end of your script. 
+
+```{r}
+devtools::session_info()
+```
+
+
+Your compiled report will then have a complete record of your workflow, packages, 
+results *and* package versions.
+
+If you want to get even fancier, you can add specific `print()` commands to the
+end of your script which will output the citations themselves (but note that you'll 
+probably still need `session_info()` for package versions). 
+
+```{r}
+print(citation("weathercan"), style = "text")
+```
+
+Or do a bunch of packages:
+```{r}
+library(purrr)
+
+c("weathercan", "magick", "tidyhydat") %>%
+  map(citation) %>%
+  print(style = "text")
+```
+
+
+## Doing more with citations
+
+- If you want to go next level and start managing your citations in R, checkout
+the post [A Roundup of R Tools for Handling BibTeX](/blog/2020/05/07/rmd-citations/) 
+
+- Stay tuned for an upcoming blog post on the newly added [cffr](https://docs.ropensci.org/cffr) package for working with the CFF citation format for your package or in general.
+
+- Are you a package developer who would like to see their packages cited more readily?
+Check out the post [Make Your R Package Easier to Cite](blog/2021/02/16/package-citation/) 
+for tips and tricks.
+
+## Final thoughts
+
+Free and Open Source Software (FOSS) is a magical thing. 
+It equalizes financial disparity among scientific institutions and allows the
+development of highly specialized analysis in really specific domains. 
+Citing R and R packages is not only important for reproducible science, but is
+oh so meaningful to software developers. 
+
+If we want them to keep doing what they do, the least we can do is cheer them on!
+
+
+
+^[1]: This is my favourite method as I can use a custom `rmarkdown::render()` 
+to make sure that the reports are dated and moved to a `results` folder. 
+For example: <br>
+```{r, eval = FALSE}
+rmarkdown::render(input = "Scripts/02_analysis.R",
+                  output_dir = "Results",
+                  output_file = paste0("02_analysis_", Sys.Date(), '.html'))
+```
+Also see [Dean Attali's blog post](https://deanattali.com/2015/03/24/knitrs-best-hidden-gem-spin/) on the subject.
