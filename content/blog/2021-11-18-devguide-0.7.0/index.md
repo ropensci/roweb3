@@ -46,8 +46,7 @@ We've formalized [editor responsabilities](https://devdevguide.netlify.app/edito
 
 > You do not have to keep track of other submissions, but if you do notice an issue with a package that is being handled by another editor, feel free to raise that issue directly with the other editor, or post the concern to editors-only channel on slack. 
 
-Thanks to the new statistical software peer-review editor [ Avatar
-Toby Dylan Hocking](https://github.com/tdhock) we've made it explicit that editors have to look for __two__ reviewers.
+Thanks to the new statistical software peer-review editor [Toby Dylan Hocking](https://github.com/tdhock) we've made it explicit that editors have to look for __two__ reviewers.
 
 We've also added a whole chapter dedicated to [editorial management](https://devdevguide.netlify.app/editorialmanagement.html) with guidance for inviting, onboarding and offboarding editors.
 Recruiting new editors and maintaining a sufficient and well-balanced editorial board is a responsibility of the [Software Review Lead](https://ropensci.org/about/#team) ([Noam Ross](https://www.noamross.net/) at this point in software review history 😀), with support and advice from the editorial board.
