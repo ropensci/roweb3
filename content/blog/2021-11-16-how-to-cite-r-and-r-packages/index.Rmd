@@ -23,6 +23,7 @@ that they often forget or aren't aware of the next steps.
 
 Many scientists don't know that they should be citing R packages let alone R, 
 and, if they do know, they often struggle with how.
+So here's a short primer on why and how to get started!
 
 ## Why cite?
 
