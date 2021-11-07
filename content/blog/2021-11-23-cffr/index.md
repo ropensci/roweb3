@@ -103,11 +103,6 @@ citation ecosystem for software. As a proof of that, on the two following days
 [Zenodo](https://zenodo.org/) and [Zotero](https://www.zotero.org/) announced
 support for CITATION.cff files in their GitHub integration:
 
-<!--html_preserve-->
-{{< tweet user="zenodo_org" id="1420357001490706442" >}}
-{{< tweet user="zotero" id="1420515377390530560" >}}
-<!--/html_preserve-->
-
 The integration with Zenodo implies that when creating a Digital Object
 Identifier ([DOI](https://www.doi.org/)) of a GitHub repository via Zenodo, the
 DOI would be generated according to the metadata included on the CITATION.cff
