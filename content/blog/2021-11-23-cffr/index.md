@@ -45,7 +45,7 @@ A [Citation File Format (CFF)](https://citation-file-format.github.io/) is a pla
     Citation File Format (Version 1.2.0) \[Computer software\].
     <https://doi.org/10.5281/zenodo.5171937>
 
-Under the hood, a CFF file is a YAML file YAML presents the advantage of being easily understood by any user, and can be also easily converted to another data serialization languages, such as JSON or XML.
+Under the hood, a CFF file is a YAML file. YAML presents the advantage of being easily understood by any user, and can be also easily converted to another data serialization languages, such as JSON or XML.
 This is an example of the minimal content of a valid CITATION.cff file:
 
 ``` yaml
