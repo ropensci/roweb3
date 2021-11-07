@@ -58,7 +58,7 @@ Consult the Technical Guidelines for tips on changing image size, alignment, and
 
 **Embed a tweet** by using a Hugo shortcode. 
 
-{{< tweet 1138216112808529920 >}}
+{{< tweet user="SanDiegoZoo" id="1453110110599868418" >}}
 
 
 **Add citation or footnote** text by using the format below 

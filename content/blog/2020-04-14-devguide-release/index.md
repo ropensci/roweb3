@@ -36,7 +36,7 @@ Some aspects of the software review process changed.
 We've added field and laboratory reproducibility tools as a category in [scope](https://devguide.ropensci.org/policies.html#aims-and-scope). 
 _Packages that improve reproducibility of real-world workflows through standardization and automation of field and lab protocols, such as sample tracking and tagging, form and data sheet generation, interfacing with laboratory equipment or information systems, and executing experimental designs. (Example: [baRcodeR](https://docs.ropensci.org/baRcodeR/))_
 
-{{< tweet 1183811515067043840 >}}
+{{< tweet user="fistful_of_bass" id="1183811515067043840" >}}
 
 Our [reviewer guide](https://devguide.ropensci.org/reviewerguide.html) now includes guidance for off-thread interactions. We're glad for community building but don't want any important information to get lost.
 _If you interact with the package authors and talked about the review outside a review thread (in chats, DMs, in-person, issues in the project repository), please make sure that your review captures and/or links to elements from these conversations that are relevant to the process._

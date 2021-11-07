@@ -350,7 +350,7 @@ http vs https
 -------------
 
 <!--html_preserve--> 
-{{< tweet 1159812119099060224 >}} 
+{{< tweet user="b0rk" id="1159812119099060224" >}} 
 <!--/html_preserve--> 
 
 We proceeded as previously when checking external links, except we used

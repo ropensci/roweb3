@@ -84,7 +84,7 @@ Thanks [Scott Chamberlain](/author/scott-chamberlain) for the contribution, and 
 Our guide featured a quite light chapter about [Contributing to rOpenSci](https://devguide.ropensci.org/contributingguide.html).
 Now that rOpenSci Community Manager Stefanie Butland and Community Assistant Steffi LaZerte have written a whole guide about this topic, the chapter has been transformed into a teaser for it!
 
-{{< tweet 1298636325487345669 >}}
+{{< tweet user="rOpenSci" id="1298636325487345669" >}}
 
 It is the opportunity for us to congratulate Stefanie and Steffi on the contributing guide, and to encourage you to read it.
 Here's to many more versions. :grin:

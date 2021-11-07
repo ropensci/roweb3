@@ -22,3 +22,4 @@ roweb3.Rproj
 resources
 index_cache
 resources/_gen
+.hugo_build.lock
