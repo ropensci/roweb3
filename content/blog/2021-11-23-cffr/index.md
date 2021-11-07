@@ -16,7 +16,7 @@ tags:
   - Software Peer Review
   - zenodo
 slug: cffr
-package_version: 0.1.0
+package_version: 0.1.1
 description: cffr, a package for creating valid CITATION.cff files using the metadata
   of any R package.
 twitterImg: blog/2021/11/23/cffr/brain-network.png
@@ -228,6 +228,7 @@ cff_rtweet
 #>   journal: Journal of Open Source Software
 #>   volume: '4'
 #>   number: '42'
+#>   pages: '1829'
 #>   doi: 10.21105/joss.01829
 #>   url: https://joss.theoj.org/papers/10.21105/joss.01829
 #> repository: https://CRAN.R-project.org/package=rtweet
@@ -286,6 +287,7 @@ cff_rtweet$`preferred-citation`
 #> journal: Journal of Open Source Software
 #> volume: '4'
 #> number: '42'
+#> pages: '1829'
 #> doi: 10.21105/joss.01829
 #> url: https://joss.theoj.org/papers/10.21105/joss.01829
 ```
