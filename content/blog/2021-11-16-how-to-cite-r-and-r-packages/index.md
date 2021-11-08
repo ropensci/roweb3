@@ -8,7 +8,8 @@ tags:
   - citations
   - packages
   - reproducibility
-description: A short primer on how to cite R and R packages to support developers and ensure reproducible science!
+  - repeatability
+description: A short primer on how to cite R and R packages to support developers and ensure repeatable science!
 tweet: How to cite R and R packages? by @steffilazerte!
 output:
   html_document:
@@ -29,25 +30,25 @@ So here's a short primer on why and how to get started!
 
 It's extremely important to cite both R and R packages for several reasons:
 
-1) **Reproducible Science**  
-If it isn't clear how you did a thing or how/where you got your data, your work isn't reproducible. 
-Software (like R), R packages, and their versions are important information to include in a manuscript.
-It not only helps other scientists understand and reproduce your work, but helps share important and useful tools. 
-Including versions is also really important as a way of recording the context of your manuscript 
-when software changes.
-
-2) **Developer Credit**  
+1) **Developer Credit**  
 Many developers of R packages for science are themselves scientists.
 They may be developing packages in their own time, or are trying to fit it into a busy schedule. 
 Without citations, most scientists don't get credit for their work. 
 This makes it hard to prioritize work on open software projects. 
 If we want to ensure that high-quality open software continues, 
-it's important that the developers get credit for their work.
+it's important that the developers get credit for their work[^1].
 
-3) **Gratitude**  
+2) **Gratitude**  
 Citing developer's work is also a way of showing gratitude and thanks for (often) unpaid hard work. 
 I know that every citation I get for my [weathercan](https://docs.ropensci.org/weathercan) package warms my heart 😻 (and helps my CV)!
 R packages have made my life so much easier, and it makes me happy to know that at least I can publicly acknowledge the hard work of the developers by citing them in my manuscripts. 
+3) **Repeatable Science**  
+If it isn't clear how you did a thing or how/where you got your data, your work isn't repeatable. 
+Software (like R), R packages, and their versions are important information to include in a manuscript.
+It not only helps other scientists understand and repeat your work, but helps share important and useful tools. 
+Including versions is also really important as a way of recording the context of your manuscript 
+when software changes.
+
 
 ## Which packages should I cite?
 
@@ -61,10 +62,11 @@ The tricky bit is packages that are used generally, like data munging packages,
 or packages like [osfr](https://docs.ropensci.org/osfr) which are used as part of the scientific process 
 (i.e. connecting to OSF, the Open Science Framework), 
 but not necessarily for the analysis specifically.
-In an ideal world, everything we use would be cited, but with word limits and editors less aware of the importance of citing software, it's often hard to justify citing everything in a manuscript. 
+In an ideal world, everything we use would be cited, but with word and reference limits and editors less aware of the importance of citing software, it's often hard to justify citing everything in a manuscript. 
 
-My advice is to cite every package you think you can get away with, especially if it was a major part of your process.
+My advice is to cite every package you think you can fit in, especially if it was a major part of your process.
 Anything else, try to make sure it's prominently displayed in your scripts and if possible include your scripts as supplemental to the manuscript. This way any curious readers will be exposed to the packages if nothing else. For packages like osfr, you could share your OSF page/doi, and perhaps mention that it was managed with osfr.
+However, it's important to note that it *is not* sufficient to mention packages in supplemental materials, but if that's all you can do, this makes the best of a bad situation. 
 
 Now that I've convinced you of the importance of citing packages, and you've had a chance to consider which ones you want to cite,
 the next step is gathering citations.
@@ -214,7 +216,7 @@ track of packages and package versions as part of your workflow.
 
 Consider keeping compiled reports of your analysis scripts 
 (either rendering your scripts with the [RStudio's Compile Report](https://rmarkdown.rstudio.com/articles_report_from_r_script.html) button,
-'spinning' your scripts via rmarkdown and knitr[^1], 
+'spinning' your scripts via rmarkdown and knitr[^2], 
 or using Rmd files and knitting them.)
 
 This way you can include a call to `sessionInfo()` or `devtools::session_info()`,
@@ -236,7 +238,7 @@ devtools::session_info()
 ##  collate  en_CA.UTF-8                 
 ##  ctype    en_CA.UTF-8                 
 ##  tz       America/Winnipeg            
-##  date     2021-11-05                  
+##  date     2021-11-08                  
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
 ##  package     * version    date       lib source                     
@@ -255,11 +257,11 @@ devtools::session_info()
 ##  fastmap       1.1.0      2021-01-25 [1] CRAN (R 4.1.0)             
 ##  fs            1.5.0      2020-07-31 [1] CRAN (R 4.1.0)             
 ##  generics      0.1.0      2020-10-31 [1] CRAN (R 4.1.0)             
-##  glue          1.4.2      2020-08-27 [1] CRAN (R 4.1.0)             
+##  glue          1.5.0      2021-11-07 [1] CRAN (R 4.1.2)             
 ##  htmltools     0.5.2      2021-08-25 [1] CRAN (R 4.1.1)             
 ##  jquerylib     0.1.4      2021-04-26 [1] CRAN (R 4.1.0)             
 ##  jsonlite      1.7.2      2020-12-09 [1] CRAN (R 4.1.0)             
-##  knitr         1.33       2021-04-24 [1] CRAN (R 4.1.0)             
+##  knitr         1.36       2021-09-29 [1] CRAN (R 4.1.2)             
 ##  lifecycle     1.0.1      2021-09-24 [1] CRAN (R 4.1.1)             
 ##  lubridate     1.8.0      2021-10-07 [1] CRAN (R 4.1.1)             
 ##  magrittr      2.0.1      2020-11-17 [1] CRAN (R 4.1.0)             
@@ -273,7 +275,7 @@ devtools::session_info()
 ##  R6            2.5.1      2021-08-19 [1] CRAN (R 4.1.1)             
 ##  remotes       2.4.0      2021-06-02 [1] CRAN (R 4.1.0)             
 ##  rlang         0.4.12     2021-10-18 [1] CRAN (R 4.1.1)             
-##  rmarkdown     2.9        2021-06-15 [1] CRAN (R 4.1.0)             
+##  rmarkdown     2.11       2021-09-14 [1] CRAN (R 4.1.2)             
 ##  rprojroot     2.0.2      2020-11-15 [1] CRAN (R 4.1.0)             
 ##  rstudioapi    0.13       2020-11-12 [1] CRAN (R 4.1.0)             
 ##  sass          0.4.0      2021-05-12 [1] CRAN (R 4.1.0)             
@@ -283,7 +285,7 @@ devtools::session_info()
 ##  testthat      3.1.0      2021-10-04 [1] CRAN (R 4.1.1)             
 ##  usethis       2.1.3      2021-10-27 [1] CRAN (R 4.1.2)             
 ##  withr         2.4.2      2021-04-18 [1] CRAN (R 4.1.0)             
-##  xfun          0.24       2021-06-15 [1] CRAN (R 4.1.0)             
+##  xfun          0.28       2021-11-04 [1] CRAN (R 4.1.2)             
 ##  yaml          2.2.1      2020-02-01 [1] CRAN (R 4.1.0)             
 ## 
 ## [1] /home/steffi/R/x86_64-pc-linux-gnu-library/4.1
@@ -342,15 +344,26 @@ c("weathercan", "magick", "tidyhydat") %>%
 ```
 
 
+You may also consider using the `cite_packages()` function from the super cool [grateful](https://github.com/Pakillo/grateful) package to create a formatted bibliography of all the packages used in a project.
+
+
+Finally, if you're getting **serious** about ensuring your work is not only *repeatable* but
+also *reproducible*[^3], you might want to check out R packages that help control
+package versions like [renv](https://rstudio.github.io/renv/), 
+or [Docker images](https://journal.r-project.org/archive/2020/RJ-2020-007/index.html),
+which help control your build environment.
+
+
 ## Doing more with citations
 
 - If you want to go next level and start managing your citations in R, checkout
 the post [A Roundup of R Tools for Handling BibTeX](/blog/2020/05/07/rmd-citations/) 
+  - Also checkout the corresponding [Twitter thread](https://twitter.com/rOpenSci/status/1258413143480365059) listing even more tools!
 
 - Stay tuned for an upcoming blog post on the newly added [cffr](https://docs.ropensci.org/cffr) package for working with the CFF citation format for your package or in general.
 
 - Are you a package developer who would like to see their packages cited more readily?
-Check out the post [Make Your R Package Easier to Cite](blog/2021/02/16/package-citation/) 
+Check out the post [Make Your R Package Easier to Cite](/blog/2021/02/16/package-citation/) 
 for tips and tricks.
 
 ## Final thoughts
@@ -358,14 +371,15 @@ for tips and tricks.
 Free and Open Source Software (FOSS) is a magical thing. 
 It equalizes financial disparity among scientific institutions and allows the
 development of highly specialized analysis in really specific domains. 
-Citing R and R packages is not only important for reproducible science, but is
-oh so meaningful to software developers. 
+Citing R and R packages is not only important for complete and repeatable science, but is oh so meaningful to software developers. 
 
 If we want them to keep doing what they do, the least we can do is cheer them on!
 
 
+[^1]: "Every great open source math library is built on the ashes of someone's 
+academic career" - https://njt-rse-unsw.netlify.app/#24
 
-[^1]: This is my favourite method as I can use a custom `rmarkdown::render()` 
+[^2]: This is my favourite method as I can use a custom `rmarkdown::render()` 
 to make sure that the reports are dated and moved to a `results` folder. 
 For example:<br>
 `rmarkdown::render(input = "Scripts/02_analysis.R",
@@ -373,3 +387,5 @@ For example:<br>
                    output_file = paste0("02_analysis_", Sys.Date(), '.html'))`  
 Also see [Dean Attali's blog post](https://deanattali.com/2015/03/24/knitrs-best-hidden-gem-spin/) on the subject.
 
+[^3]: Repeatable means others can *repeat* an experiment and get the same results.
+Reproducible means others can *reproduce* the same analysis exactly. See https://www.nationalacademies.org/news/2019/09/reproducibility-and-replicability-in-research
