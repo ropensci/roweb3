@@ -138,7 +138,7 @@ track of packages and package versions as part of your workflow.
 
 Consider keeping compiled reports of your analysis scripts 
 (either rendering your scripts with the [RStudio's Compile Report](https://rmarkdown.rstudio.com/articles_report_from_r_script.html) button,
-'spinning' your scripts via rmarkdown and knitr[^2], 
+'spinning' your scripts via rmarkdown and knitr[^4], 
 or using Rmd files and knitting them.)
 
 This way you can include a call to `sessionInfo()` or `devtools::session_info()`,
