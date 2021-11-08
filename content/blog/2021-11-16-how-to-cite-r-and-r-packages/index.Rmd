@@ -179,7 +179,7 @@ which help control your build environment.
 - If you want to go next level and start managing your citations in R, checkout
 the post [A Roundup of R Tools for Handling BibTeX](/blog/2020/05/07/rmd-citations/)[^4]
 
-- Stay tuned for an upcoming blog post on the newly added [cffr](https://docs.ropensci.org/cffr) package for working with the CFF citation format for your package or in general.
+- Stay tuned for an upcoming blog post on the recently reviewed [cffr](https://docs.ropensci.org/cffr) package for working with the [CFF citation file format](https://citation-file-format.github.io/) for your package or in general.
 
 - Are you a package developer who would like to see their packages cited more readily?
 Check out the post [Make Your R Package Easier to Cite](/blog/2021/02/16/package-citation/) 
