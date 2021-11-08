@@ -40,7 +40,7 @@ it's important that the developers get credit for their work[^1].
 
 2) **Repeatable Science**  
 If it isn't clear how you did a thing or how/where you got your data, your work isn't repeatable. 
-The lack of citations of software in scientific publications has become a problem to the extent that working groups, such as [FORCE11 Software Citation Working Group](https://www.force11.org/group/software-citation-implementation-working-group), have been created to establish guidelines[^2] and standards[^3] for citing software.
+The lack of citations of software in scientific publications has become a problem to the extent that working groups, such as [FORCE11 Software Citation Implementation Working Group](https://www.force11.org/group/software-citation-implementation-working-group), have been created to establish guidelines[^2] and standards[^3] for citing software.
 Software (like R), R packages, and their versions are important information to include in a manuscript.
 It not only helps other scientists understand and repeat your work, but helps share important and useful tools. 
 Including versions is also really important as a way of recording the context of your manuscript 
@@ -69,7 +69,7 @@ or packages like [osfr](https://docs.ropensci.org/osfr) which are used as part o
 but not necessarily for the analysis specifically.
 In an ideal world, everything we use would be cited, but with word and reference limits and editors less aware of the importance of citing software, it's often hard to justify citing everything in a manuscript. 
 
-The general advice by the by the [FORCE11 Data Citation Working Group](https://peerj.com/articles/cs-86/#discussion) is to include software important to the research outcome. 
+The general advice by the by the [FORCE11 Software Citation Implementation Working Group](https://peerj.com/articles/cs-86/#discussion) is to include software important to the research outcome. 
 I would also add that it's not a bad thing to cite open-source software that was a major part of your workflow (for the purposes of credit, if not repeatability). 
 Anything else, try to make sure it's prominently displayed in your scripts and if possible include your scripts as supplemental to the manuscript. This way any curious readers will be exposed to the packages if nothing else. For packages like osfr, you could share your OSF page/doi, and perhaps mention that it was managed with osfr.
 However, it's important to note that it *is not* sufficient to mention packages in supplemental materials, but if that's all you can do, this makes the best of a bad situation. 
