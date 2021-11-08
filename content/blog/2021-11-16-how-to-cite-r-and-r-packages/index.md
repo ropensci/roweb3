@@ -38,22 +38,27 @@ This makes it hard to prioritize work on open software projects.
 If we want to ensure that high-quality open software continues, 
 it's important that the developers get credit for their work[^1].
 
-2) **Gratitude**  
-Citing developer's work is also a way of showing gratitude and thanks for (often) unpaid hard work. 
-I know that every citation I get for my [weathercan](https://docs.ropensci.org/weathercan) package warms my heart 😻 (and helps my CV)!
-R packages have made my life so much easier, and it makes me happy to know that at least I can publicly acknowledge the hard work of the developers by citing them in my manuscripts. 
-3) **Repeatable Science**  
+2) **Repeatable Science**  
 If it isn't clear how you did a thing or how/where you got your data, your work isn't repeatable. 
+The lack of citations of software in scientific publications has become a problem to the extent that working groups, such as [FORCE11 Software Citation Working Group](https://www.force11.org/group/software-citation-implementation-working-group), have been created to establish guidelines[^2] and standards[^3] for citing software.
 Software (like R), R packages, and their versions are important information to include in a manuscript.
 It not only helps other scientists understand and repeat your work, but helps share important and useful tools. 
 Including versions is also really important as a way of recording the context of your manuscript 
 when software changes.
 
 
+3) **Gratitude**  
+Citing developer's work is also a way of showing gratitude and thanks for (often) unpaid hard work. 
+I know that every citation I get for my [weathercan](https://docs.ropensci.org/weathercan) package warms my heart 😻 (and helps my CV)!
+R packages have made my life so much easier, and it makes me happy to know that at least I can publicly acknowledge the hard work of the developers by citing them in my manuscripts. 
+
+
+
 ## Which packages should I cite?
 
 A question I often hear is, "Okay, I understand I should cite R packages, but do I cite them all?".
-This is a tricky question, and to be honest, I'm not really sure of the best answer.
+This is a tricky question, and to be honest, I'm not really sure of the best answer, 
+and sometimes it may depend on many factors.
 
 I always advise citing statistical packages, no question, and any package that is specific to a scientific domain or methodology (i.e. if you used [magick](https://docs.ropensci.org/magick) to process images before analysis,
 or if you used [tidyhydat](https://docs.ropensci.org/tidyhydat) to retrieve hydrology data, definitely cite those packages). 
@@ -64,7 +69,8 @@ or packages like [osfr](https://docs.ropensci.org/osfr) which are used as part o
 but not necessarily for the analysis specifically.
 In an ideal world, everything we use would be cited, but with word and reference limits and editors less aware of the importance of citing software, it's often hard to justify citing everything in a manuscript. 
 
-My advice is to cite every package you think you can fit in, especially if it was a major part of your process.
+The general advice by the by the [FORCE11 Data Citation Working Group](https://peerj.com/articles/cs-86/#discussion) is to include software important to the research outcome. 
+I would also add that it's not a bad thing to cite open-source software that was a major part of your workflow (for the purposes of credit, if not repeatability). 
 Anything else, try to make sure it's prominently displayed in your scripts and if possible include your scripts as supplemental to the manuscript. This way any curious readers will be exposed to the packages if nothing else. For packages like osfr, you could share your OSF page/doi, and perhaps mention that it was managed with osfr.
 However, it's important to note that it *is not* sufficient to mention packages in supplemental materials, but if that's all you can do, this makes the best of a bad situation. 
 
@@ -348,7 +354,7 @@ You may also consider using the `cite_packages()` function from the super cool [
 
 
 Finally, if you're getting **serious** about ensuring your work is not only *repeatable* but
-also *reproducible*[^3], you might want to check out R packages that help control
+also *reproducible*[^5], you might want to check out R packages that help control
 package versions like [renv](https://rstudio.github.io/renv/), 
 or [Docker images](https://journal.r-project.org/archive/2020/RJ-2020-007/index.html),
 which help control your build environment.
@@ -357,9 +363,9 @@ which help control your build environment.
 ## Doing more with citations
 
 - If you want to go next level and start managing your citations in R, checkout
-the post [A Roundup of R Tools for Handling BibTeX](/blog/2020/05/07/rmd-citations/)[^4]
+the post [A Roundup of R Tools for Handling BibTeX](/blog/2020/05/07/rmd-citations/)[^6]
 
-- Stay tuned for an upcoming blog post on the newly added [cffr](https://docs.ropensci.org/cffr) package for working with the CFF citation format for your package or in general.
+- Stay tuned for an upcoming blog post on the recently reviewed [cffr](https://docs.ropensci.org/cffr) package for working with the [CFF citation file format](https://citation-file-format.github.io/) for your package or in general.
 
 - Are you a package developer who would like to see their packages cited more readily?
 Check out the post [Make Your R Package Easier to Cite](/blog/2021/02/16/package-citation/) 
@@ -378,7 +384,11 @@ If we want them to keep doing what they do, the least we can do is cheer them on
 [^1]: "Every great open source math library is built on the ashes of someone's 
 academic career" - https://njt-rse-unsw.netlify.app/#24
 
-[^2]: This is my favourite method as I can use a custom `rmarkdown::render()` 
+[^2]: Software Citation Checklist for Authors <https://zenodo.org/record/3479199#.YYmfT73MKAk>
+
+[^3]: Smith AM, Katz DS, Niemeyer KE, FORCE11 Software Citation Working Group. 2016. Software citation principles. PeerJ Computer Science 2:e86 <https://doi.org/10.7717/peerj-cs.86>
+
+[^4]: This is my favourite method as I can use a custom `rmarkdown::render()` 
 to make sure that the reports are dated and moved to a `results` folder. 
 For example:<br>
 `rmarkdown::render(input = "Scripts/02_analysis.R",
@@ -386,7 +396,7 @@ For example:<br>
                    output_file = paste0("02_analysis_", Sys.Date(), '.html'))`  
 Also see [Dean Attali's blog post](https://deanattali.com/2015/03/24/knitrs-best-hidden-gem-spin/) on the subject.
 
-[^3]: Repeatable means others can *repeat* an experiment and get the same results.
+[^5]: Repeatable means others can *repeat* an experiment and get the same results.
 Reproducible means others can *reproduce* the same analysis exactly. See https://www.nationalacademies.org/news/2019/09/reproducibility-and-replicability-in-research
 
-[^4]: Also checkout the corresponding [Twitter thread](https://twitter.com/rOpenSci/status/1258413143480365059) listing even more tools!
+[^6]: Also checkout the corresponding [Twitter thread](https://twitter.com/rOpenSci/status/1258413143480365059) listing even more tools!
