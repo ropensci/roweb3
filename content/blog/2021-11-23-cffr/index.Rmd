@@ -334,7 +334,7 @@ cff_create("rtweet", keys = wrong_keys) %>%
 ```
 
 The validation of the initial `cff` object is satisfactory, as displayed on the messages.
-On the second case, where I forced some invalid values using the `keys` parameter, We can check that the `doi` and `url` field are flagged as errors, as the text strings does not correspond with the expected patterns for those fields (e.g "http\*" for urls and "10XXXX/XXXX" for DOIs).
+On the second case, where I forced some invalid values using the `keys` parameter, we can check that the `doi` and `url` field are flagged as errors, as the text strings does not correspond with the expected patterns for those fields (e.g "http\*" for urls and "10XXXX/XXXX" for DOIs).
 
 ## Conclussion
 
