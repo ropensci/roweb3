@@ -209,4 +209,4 @@ Also see [Dean Attali's blog post](https://deanattali.com/2015/03/24/knitrs-best
 [^3]: Repeatable means others can *repeat* an experiment and get the same results.
 Reproducible means others can *reproduce* the same analysis exactly. See https://www.nationalacademies.org/news/2019/09/reproducibility-and-replicability-in-research
 
-[^4:] Also checkout the corresponding [Twitter thread](https://twitter.com/rOpenSci/status/1258413143480365059) listing even more tools!
+[^4]: Also checkout the corresponding [Twitter thread](https://twitter.com/rOpenSci/status/1258413143480365059) listing even more tools!
