@@ -428,7 +428,7 @@ cff_create("rtweet", keys = wrong_keys) %>%
 The validation of the initial `cff` object is satisfactory, as displayed on the messages.
 On the second case, where I forced some invalid values using the `keys` parameter, we can check that the `doi` and `url` field are flagged as errors, as the text strings does not correspond with the expected patterns for those fields (e.g "http\*" for urls and "10XXXX/XXXX" for DOIs).
 
-## Conclussion
+## Conclusion
 
 On the last few months, support of CITATION.cff files has increasingly grown on the scientific citation ecosystem.
 The cffr package allows any R-package developer to easily integrate the citation information with a wide variety of services via the creation of a CITATION.cff file leveraging on the support introduced by GitHub.
