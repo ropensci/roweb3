@@ -60,7 +60,7 @@ or if you used [tidyhydat](https://docs.ropensci.org/tidyhydat) to retrieve hydr
 
 The tricky bit is packages that are used generally, like data munging packages, 
 or packages like [osfr](https://docs.ropensci.org/osfr) which are used as part of the scientific process 
-(i.e. connecting to OSF, the Open Science Framework), 
+(i.e. connecting to [OSF, the Open Science Framework](https://osf.io/)), 
 but not necessarily for the analysis specifically.
 In an ideal world, everything we use would be cited, but with word and reference limits and editors less aware of the importance of citing software, it's often hard to justify citing everything in a manuscript. 
 
@@ -119,7 +119,7 @@ version$version.string
 
 In the text of a manuscript, I generally suggest something like the following.
 
-> All analysis were performed using R Statistical Software 
+> All analyses were performed using R Statistical Software 
 > (v4.1.2; R Core Team 2021)
 
 
@@ -202,7 +202,7 @@ packageVersion("magick")
 
 For R packages, I generally recommend text along these lines in a manuscript.
 
-> All analysis were performed using R Statistical Software 
+> All analyses were performed using R Statistical Software 
 > (v4.1.2; R Core Team 2021).
 > Temperature data was obtained from Environment and Climate Change Canada
 > via the weathercan R package (v0.6.2; LaZerte and Albers 2018).
@@ -357,8 +357,7 @@ which help control your build environment.
 ## Doing more with citations
 
 - If you want to go next level and start managing your citations in R, checkout
-the post [A Roundup of R Tools for Handling BibTeX](/blog/2020/05/07/rmd-citations/) 
-  - Also checkout the corresponding [Twitter thread](https://twitter.com/rOpenSci/status/1258413143480365059) listing even more tools!
+the post [A Roundup of R Tools for Handling BibTeX](/blog/2020/05/07/rmd-citations/)[^4]
 
 - Stay tuned for an upcoming blog post on the newly added [cffr](https://docs.ropensci.org/cffr) package for working with the CFF citation format for your package or in general.
 
@@ -389,3 +388,5 @@ Also see [Dean Attali's blog post](https://deanattali.com/2015/03/24/knitrs-best
 
 [^3]: Repeatable means others can *repeat* an experiment and get the same results.
 Reproducible means others can *reproduce* the same analysis exactly. See https://www.nationalacademies.org/news/2019/09/reproducibility-and-replicability-in-research
+
+[^4:] Also checkout the corresponding [Twitter thread](https://twitter.com/rOpenSci/status/1258413143480365059) listing even more tools!
