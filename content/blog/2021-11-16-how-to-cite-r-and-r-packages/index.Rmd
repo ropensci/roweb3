@@ -61,7 +61,7 @@ The tricky bit is packages that are used generally, like data munging packages,
 or packages like [osfr](https://docs.ropensci.org/osfr) which are used as part of the scientific process 
 (i.e. connecting to OSF, the Open Science Framework), 
 but not necessarily for the analysis specifically.
-In an ideal world, everything we use would be cited, but with word limits and editors less aware of the importance of citing software, it's often hard to justify citing everything in a manuscript. 
+In an ideal world, everything we use would be cited, but with word and references limits and editors less aware of the importance of citing software, it's often hard to justify citing everything in a manuscript. 
 
 My advice is to cite every package you think you can get away with, especially if it was a major part of your process.
 Anything else, try to make sure it's prominently displayed in your scripts and if possible include your scripts as supplemental to the manuscript. This way any curious readers will be exposed to the packages if nothing else. For packages like osfr, you could share your OSF page/doi, and perhaps mention that it was managed with osfr.
