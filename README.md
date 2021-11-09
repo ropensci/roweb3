@@ -10,6 +10,10 @@ The goal of roweb3 is to hold the source of rOpenSci website, 2020 edition.
 
 ## Developer notes
 
+### Hugo version
+
+The Hugo version used has to be recorded in netlify.toml (two places) as well as in .Rprofile.
+
 ### Featured posts and tech notes
 
 To feature a blog post or tech note add
