@@ -176,7 +176,7 @@ You may also consider using the `cite_packages()` function from the super cool [
 Finally, if you're getting **serious** about ensuring your work is not only *repeatable* but
 also *reproducible*[^5], you might want to check out R packages that help control
 package versions like [renv](https://rstudio.github.io/renv/), 
-or [Docker images](https://journal.r-project.org/archive/2020/RJ-2020-007/index.html),
+or [Docker containers](https://journal.r-project.org/archive/2020/RJ-2020-007/index.html),
 which help control your build environment.
 
 
