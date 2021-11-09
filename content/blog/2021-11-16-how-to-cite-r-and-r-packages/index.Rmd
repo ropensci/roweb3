@@ -71,7 +71,7 @@ In an ideal world, everything we use would be cited, but with word and reference
 
 The general advice by the by the [FORCE11 Software Citation Implementation Working Group](https://peerj.com/articles/cs-86/#discussion) is to include software important to the research outcome. 
 I would also add that it's not a bad thing to cite open-source software that was a major part of your workflow (for the purposes of credit, if not repeatability). 
-Anything else, try to make sure it's prominently displayed in your scripts and if possible include your scripts as supplemental to the manuscript. This way any curious readers will be exposed to the packages if nothing else. For packages like osfr, you could share your OSF page/doi, and perhaps mention that it was managed with osfr.
+Anything else, try to make sure it's prominently displayed in your scripts and if possible include your scripts as supplemental to the manuscript. This way any curious readers will be exposed to the packages if nothing else. For packages like osfr, you could share your OSF page/DOI, and perhaps mention that it was managed with osfr.
 However, it's important to note that it *is not* sufficient to mention packages in supplemental materials, but if that's all you can do, this makes the best of a bad situation. 
 
 Now that I've convinced you of the importance of citing packages, and you've had a chance to consider which ones you want to cite,
