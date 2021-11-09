@@ -44,7 +44,11 @@ The lack of citations of software in scientific publications has become a proble
 Software (like R), R packages, and their versions are important information to include in a manuscript.
 It not only helps other scientists understand and repeat your work, but helps share important and useful tools. 
 Including versions is also really important as a way of recording the context of your manuscript 
-when software changes.
+when software changes.  
+
+**Note:** *Repeatability* isn't the same as *reproducibility*.
+If you're interested in ensuring your *analysis is reproducible* (as opposed to your *research being repeatable*, you should look into more rigorous ways of keeping track 
+of software dependencies (see below, [Reproducible science](#reproducible-science)).
 
 
 3) **Gratitude**  
@@ -172,6 +176,7 @@ c("weathercan", "magick", "tidyhydat") %>%
 
 You may also consider using the `cite_packages()` function from the super cool [grateful](https://github.com/Pakillo/grateful) package to create a formatted bibliography of all the packages used in a project.
 
+### Reproducible science
 
 Finally, if you're getting **serious** about ensuring your work is not only *repeatable* but
 also *reproducible*[^5], you might want to check out R packages that help control
