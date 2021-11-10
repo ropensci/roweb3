@@ -240,6 +240,9 @@ cff_rtweet
 #>   given-names: Michael W.
 #>   email: kearneymw@missouri.edu
 #>   orcid: https://orcid.org/0000-0002-0730-4694
+#> keywords:
+#> - r
+#> - twitter
 ```
 
 There is a special field, [`preferred-citation`](https://github.com/citation-file-format/citation-file-format/blob/main/schema-guide.md#preferred-citation) that would be used to generate the citation information on GitHub.
