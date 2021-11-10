@@ -5,7 +5,7 @@ date: '2019-02-27'
 author: Scott Chamberlain
 topicid: 1598
 tags:
-  - citation
+  - citations
   - bibtex
   - handlr
   - codemeta
