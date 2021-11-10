@@ -45,7 +45,8 @@ A [Citation File Format (CFF)](https://citation-file-format.github.io/) is a pla
     Citation File Format (Version 1.2.0) \[Computer software\].
     <https://doi.org/10.5281/zenodo.5171937>
 
-Under the hood, a CFF file is a YAML file. YAML presents the advantage of being easily understood by any user, and can be also easily converted to another data serialization languages, such as JSON or XML.
+Under the hood, a CFF file is a YAML file.
+YAML presents the advantage of being easily understood by any user, and can be also easily converted to another data serialization languages, such as JSON or XML.
 This is an example of the minimal content of a valid CITATION.cff file:
 
 ``` yaml
@@ -57,57 +58,37 @@ authors:
   given-names: Diego
 ```
 
-On the previous example, the identification of the software and the author is
-quite straightforward, as it is provided by the fields `title` and `authors`.
-The information that can be included on a CFF file can be further enriched with
-additional fields (like `version`, `year` or `doi`), as the [Citation File
-Format schema version
-1.2.0](https://github.com/citation-file-format/citation-file-format/blob/main/schema-guide.md#valid-keys)
-accepts [21 different keys](#valid-keys).
+On the previous example, the identification of the software and the author is quite straightforward, as it is provided by the fields `title` and `authors`.
+The information that can be included on a CFF file can be further enriched with additional fields (like `version`, `year` or `doi`), as the [Citation File Format schema version 1.2.0](https://github.com/citation-file-format/citation-file-format/blob/main/schema-guide.md#valid-keys) accepts [21 different keys](#valid-keys).
 
 ### Why it matters?
 
-Citing a book, an article or a thesis is not difficult. The title, authors and
-publication date are easily identifiable in most of the cases. However, software
-is rarely cited on research projects. One of that reasons is "*the lack of a
-clear citation information from package developers"*, as already mentioned on a
-previous post ([Make Your R Package Easier to
-Cite](/blog/2021/02/16/package-citation/)). Developers spend thousand of hours
-on developing new and exciting software or adding new features to existing ones,
-so citing software is a matter of [giving credit where credit is
-due](https://www.esciencecenter.nl/news/code-citation-was-made-possible-by-research-software-engineers-in-germany-and-the-netherlands/).
+Citing a book, an article or a thesis is not difficult.
+The title, authors and publication date are easily identifiable in most of the cases.
+However, software is rarely cited on research projects.
+One of that reasons is "*the lack of a clear citation information from package developers"*, as already mentioned on a previous post ([Make Your R Package Easier to Cite](/blog/2021/02/16/package-citation/)).
+Developers spend thousand of hours on developing new and exciting software or adding new features to existing ones, so citing software is a matter of giving credit where credit is due.
+[Steffi LaZerte](/author/steffi-lazerte/) mentioned some other reasons of why is important citing R software on [How to Cite R and R Packages](/blog/2021/11/16/how-to-cite-r-and-r-packages/)
 
-In July 2021, GitHub announced a [built-in citation
-feature](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files)
-that enables any software user to cite any repository on
-[APA](https://apastyle.apa.org/style-grammar-guidelines/references/examples/journal-article-references#1)
-or [BibTeX](http://www.bibtex.org/Using/) style.
+In July 2021, GitHub announced a [built-in citation feature](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) that enables any software user to cite any repository on [APA](https://apastyle.apa.org/style-grammar-guidelines/references/examples/journal-article-references#1) or [BibTeX](http://www.bibtex.org/Using/) style.
 
 <!--html_preserve-->
 {{< tweet user="natfriedman" id="1420122675813441540" >}}
 <!--/html_preserve-->
 
-That built-in feature heavily relies on the CFF format, effectively rendering
-the information of the CITATION.cff file onto the aforementioned styles.
+That built-in feature heavily relies on the CFF format, effectively rendering the information of the CITATION.cff file onto the aforementioned styles.
 
-This announcement was, in my very personal opinion, a game-changer on the
-citation ecosystem for software. As a proof of that, on the two following days
-[Zenodo](https://zenodo.org/) and [Zotero](https://www.zotero.org/) announced
-support for CITATION.cff files in their GitHub integration:
+This announcement was, in my very personal opinion, a game-changer on the citation ecosystem for software.
+As a proof of that, on the two following days [Zenodo](https://zenodo.org/) and [Zotero](https://www.zotero.org/) announced support for CITATION.cff files in their GitHub integration:
 
 <!--html_preserve-->
 {{< tweet user="zenodo_org" id="1420357001490706442" >}}
 {{< tweet user="zotero" id="1420515377390530560" >}}
 <!--/html_preserve-->
 
-The integration with Zenodo implies that when creating a Digital Object
-Identifier ([DOI](https://www.doi.org/)) of a GitHub repository via Zenodo, the
-DOI would be generated according to the metadata included on the CITATION.cff
-file of the repository. This feature saves developers some extra efforts on
-making both DOI and software consistent in terms of metadata. See an example of
-the [DOI of cffr](https://www.doi.org/10.5281/zenodo.5646626), whose title,
-description and author has been gathered from the [cffr CITATION.cff
-file](https://github.com/ropensci/cffr/blob/main/CITATION.cff).
+The integration with Zenodo implies that when creating a Digital Object Identifier ([DOI](https://www.doi.org/)) of a GitHub repository via Zenodo, the DOI would be generated according to the metadata included on the CITATION.cff file of the repository.
+This feature saves developers some extra efforts on making both DOI and software consistent in terms of metadata.
+See an example of the [DOI of cffr](https://www.doi.org/10.5281/zenodo.5646626), whose title, description and author has been gathered from the [cffr CITATION.cff file](https://github.com/ropensci/cffr/blob/main/CITATION.cff).
 
 <!--html_preserve-->
 {{< imgtxt src = "zotero.png" width ="188" alt = "Screenshot of Zotero importing a GitHub repo">}}
@@ -309,12 +290,14 @@ packageDescription("rtweet",
 
 ```
 #> Title: Collecting Twitter Data
-#> Description: An implementation of calls designed to collect and organize Twitter data via
-#>           Twitter's REST and stream Application Program Interfaces (API), which can be
-#>           found at the following URL: <https://developer.twitter.com/en/docs>.  This
-#>           package has been peer-reviewed by rOpenSci (v. 0.6.9).
-#> Author: Michael W. Kearney [aut, cre] (<https://orcid.org/0000-0002-0730-4694>), Andrew
-#>           Heiss [rev] (<https://orcid.org/0000-0002-3948-3914>), Francois Briatte [rev]
+#> Description: An implementation of calls designed to collect and organize Twitter
+#>          data via Twitter's REST and stream Application Program Interfaces
+#>          (API), which can be found at the following URL:
+#>          <https://developer.twitter.com/en/docs>.  This package has been
+#>          peer-reviewed by rOpenSci (v. 0.6.9).
+#> Author: Michael W. Kearney [aut, cre] (<https://orcid.org/0000-0002-0730-4694>),
+#>          Andrew Heiss [rev] (<https://orcid.org/0000-0002-3948-3914>), Francois
+#>          Briatte [rev]
 #> Version: 0.7.0
 #> URL: https://CRAN.R-project.org/package=rtweet
 #> 
