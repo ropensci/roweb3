@@ -9,6 +9,7 @@ tags:
   - packages
   - reproducibility
   - repeatability
+featured: true
 description: A short primer on how to cite R and R packages to support developers and ensure repeatable science!
 tweet: How to cite R and R packages? by @steffilazerte!
 output:
