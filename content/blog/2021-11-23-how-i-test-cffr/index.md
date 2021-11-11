@@ -59,7 +59,7 @@ devtools::load_all()
 testthat::test_dir("tests/testthat/test_ci")
 ```
 
-And voilá! The Markdown report is created on
+And voilà! The Markdown report is created on
 `tests/testthat/test_ci/_snaps/full_cff.md`.
 
 However I was not completely comfortable with this setup. Locally, I have
