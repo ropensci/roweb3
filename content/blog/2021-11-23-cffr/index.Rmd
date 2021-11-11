@@ -374,7 +374,7 @@ those fields (e.g "http\*" for urls and "10XXXX/XXXX" for DOIs).
 ## Conclusion
 
 On the last few months, support of CITATION.cff files has increasingly grown on
-the scientific citation ecosystem. The cffr package allows any R-package
+the scientific citation ecosystem. The cffr package allows any R package
 developer to easily integrate the citation information with a wide variety of
 services via the creation of a CITATION.cff file leveraging on the support
 introduced by GitHub.
