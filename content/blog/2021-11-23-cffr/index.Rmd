@@ -371,10 +371,31 @@ messages. On the second case, where I forced some invalid values using the
 errors, as the text strings does not correspond with the expected patterns for
 those fields (e.g "http\*" for urls and "10XXXX/XXXX" for DOIs).
 
+### Keeping your CITATION.cff file up-to-date
+
+A CITATION.cff includes relevant information about the version of your package,
+the release date or the DOI of your package, so you would want to keep this
+information up-to-date. cffr includes a [GitHub
+Action](https://github.com/ropensci/cffr/blob/main/.github/workflows/update-citation-cff.yaml)
+that does the work for you.
+
+It can be installed on your repo with the
+[`cff_gha_update()`](https://docs.ropensci.org/cffr/reference/cff_gha_update.html)
+or copied on your `.github/workflows` folder, and it would update your
+CITATION.cff file on the following events:
+
+-   When you publish a new release of the package on your GitHub repo.
+
+-   Each time that you modify your DESCRIPTION or inst/CITATION files.
+
+-   Additionally, the action can be run also manually.
+
+This would ensure that the citation of your package is always accurate.
+
 ## Conclusion
 
 On the last few months, support of CITATION.cff files has increasingly grown on
-the scientific citation ecosystem. The cffr package allows any R package
+the scientific citation ecosystem. The cffr package allows any R-package
 developer to easily integrate the citation information with a wide variety of
 services via the creation of a CITATION.cff file leveraging on the support
 introduced by GitHub.

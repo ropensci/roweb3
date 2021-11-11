@@ -336,8 +336,8 @@ packageDescription("rtweet",
 ```
 #> Title: Collecting Twitter Data
 #> Description: An implementation of calls designed to collect and organize Twitter
-#>          data via Twitter's REST and stream Application Program Interfaces
-#>          (API), which can be found at the following URL:
+#>          data via Twitter's REST and stream Application Program Interfaces (API),
+#>          which can be found at the following URL:
 #>          <https://developer.twitter.com/en/docs>.  This package has been
 #>          peer-reviewed by rOpenSci (v. 0.6.9).
 #> Author: Michael W. Kearney [aut, cre] (<https://orcid.org/0000-0002-0730-4694>),
@@ -346,7 +346,7 @@ packageDescription("rtweet",
 #> Version: 0.7.0
 #> URL: https://CRAN.R-project.org/package=rtweet
 #> 
-#> -- File: C:/Users/diego/Documents/R/win-library/4.1/rtweet/Meta/package.rds 
+#> -- File: /cloud/lib/x86_64-pc-linux-gnu-library/4.1/rtweet/Meta/package.rds 
 #> -- Fields read: Title, Description, Author, Version, URL
 ```
 
@@ -467,6 +467,27 @@ messages. On the second case, where I forced some invalid values using the
 `keys` parameter, we can check that the `doi` and `url` field are flagged as
 errors, as the text strings does not correspond with the expected patterns for
 those fields (e.g "http\*" for urls and "10XXXX/XXXX" for DOIs).
+
+### Keeping your CITATION.cff file up-to-date
+
+A CITATION.cff includes relevant information about the version of your package,
+the release date or the DOI of your package, so you would want to keep this
+information up-to-date. cffr includes a [GitHub
+Action](https://github.com/ropensci/cffr/blob/main/.github/workflows/update-citation-cff.yaml)
+that does the work for you.
+
+It can be installed on your repo with the
+[`cff_gha_update()`](https://docs.ropensci.org/cffr/reference/cff_gha_update.html)
+or copied on your `.github/workflows` folder, and it would update your
+CITATION.cff file on the following events:
+
+-   When you publish a new release of the package on your GitHub repo.
+
+-   Each time that you modify your DESCRIPTION or inst/CITATION files.
+
+-   Additionally, the action can be run also manually.
+
+This would ensure that the citation of your package is always accurate.
 
 ## Conclusion
 

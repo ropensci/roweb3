@@ -1,5 +1,5 @@
 ---
-title: How I Test cffr on ~2.000 Packages using GitHub Actions and r-universe
+title: How I Test cffr on (about) 2.000 Packages using GitHub Actions and r-universe
 author: Diego Hernangómez
 date: '2021-11-23'
 tags:
@@ -12,7 +12,7 @@ tags:
   - testing
   - testthat
 slug: how-i-test-cffr
-tweet: How I Test cffr on ~2.000 Packages using GitHub Actions and r-universe by @dhernangomez
+tweet: How I test cffr on ~2.000 packages using GitHub Actions & r-universe by @dhernangomez
 ---
 
 When GitHub announced [support for CITATION.cff
