@@ -151,7 +151,7 @@ BioConductor](https://twitter.com/egonwillighagen/status/1456322595096170503)?)
     <http://doi.org/10.1145/3462204.3482889>
 
 [^3]: Druskat, Stephan. (2021, September 27). Making software citation easi(er)
-    - The Citation File Format and its integrations. *Zenodo*.
+    \- The Citation File Format and its integrations. *Zenodo*.
     <https://doi.org/10.5281/zenodo.5529914>
 
 ### Other software citation projects
@@ -335,14 +335,11 @@ packageDescription("rtweet",
 
 ```
 #> Title: Collecting Twitter Data
-#> Description: An implementation of calls designed to collect and organize Twitter
-#>          data via Twitter's REST and stream Application Program Interfaces (API),
-#>          which can be found at the following URL:
-#>          <https://developer.twitter.com/en/docs>.  This package has been
-#>          peer-reviewed by rOpenSci (v. 0.6.9).
-#> Author: Michael W. Kearney [aut, cre] (<https://orcid.org/0000-0002-0730-4694>),
-#>          Andrew Heiss [rev] (<https://orcid.org/0000-0002-3948-3914>), Francois
-#>          Briatte [rev]
+#> Description: An implementation of calls designed to collect and organize Twitter data via Twitter's REST and stream
+#>              Application Program Interfaces (API), which can be found at the following URL:
+#>              <https://developer.twitter.com/en/docs>.  This package has been peer-reviewed by rOpenSci (v. 0.6.9).
+#> Author: Michael W. Kearney [aut, cre] (<https://orcid.org/0000-0002-0730-4694>), Andrew Heiss [rev]
+#>              (<https://orcid.org/0000-0002-3948-3914>), Francois Briatte [rev]
 #> Version: 0.7.0
 #> URL: https://CRAN.R-project.org/package=rtweet
 #> 
