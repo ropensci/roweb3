@@ -16,6 +16,7 @@ tags:
   - Software Peer Review
   - zenodo
 slug: cffr
+featured: true
 package_version: 0.1.1
 description: cffr, a package for creating valid CITATION.cff files using the metadata
   of any R package.
