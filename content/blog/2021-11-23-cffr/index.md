@@ -121,7 +121,7 @@ author has been gathered from the [cffr CITATION.cff
 file](https://github.com/ropensci/cffr/blob/main/CITATION.cff).
 
 <!--html_preserve-->
-{{< imgtxt src = "zotero.png" width ="188" alt = "Screenshot of Zotero importing a GitHub repo">}}
+{{< imgtxt src = "zotero.png" width ="188" alt = "Screenshot of Zotero importing citation information for GitHub repo">}}
 <!--/html_preserve-->
 
 In the case of Zotero (reference management software), the information in the
@@ -151,7 +151,7 @@ BioConductor](https://twitter.com/egonwillighagen/status/1456322595096170503)?).
     <http://doi.org/10.1145/3462204.3482889>
 
 [^3]: Druskat, Stephan. (2021, September 27). Making software citation easi(er)
-    \- The Citation File Format and its integrations. *Zenodo*.
+    -- The Citation File Format and its integrations. *Zenodo*.
     <https://doi.org/10.5281/zenodo.5529914>
 
 ### Other software citation projects
