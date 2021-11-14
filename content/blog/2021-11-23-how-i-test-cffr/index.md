@@ -34,12 +34,13 @@ any R package, no matter if it was available on CRAN, Bioconductor, the
 the initial version, I needed to test it with the largest possible number of
 packages.
 
-I started setting up a [testthat](https://testthat.r-lib.org/)[^1] test [in a separate
+I started setting up a [testthat](https://testthat.r-lib.org/)[^1] test [in a
+separate
 folder](https://github.com/ropensci/cffr/blob/main/tests/testthat/test_ci/test-full_cff.R),
 that I ignored in .Rbuildignore. This test was basically a
 [loop](https://github.com/ropensci/cffr/blob/6260303668303010c0c90ff381518960299a18f0/tests/testthat/test_ci/test-full_cff.R#L35:L61)
 over [all the R packages installed
-locally](https://github.com/ropensci/cffr/blob/6260303668303010c0c90ff381518960299a18f0/tests/testthat/test_ci/test-full_cff.R#L4:L7), 
+locally](https://github.com/ropensci/cffr/blob/6260303668303010c0c90ff381518960299a18f0/tests/testthat/test_ci/test-full_cff.R#L4:L7),
 where I created the corresponding `cff` object for each package and validated
 it. Finally, the test created a [small report in
 Markdown](https://github.com/ropensci/cffr/blob/6260303668303010c0c90ff381518960299a18f0/tests/testthat/test_ci/test-full_cff.R#L64:L100)
@@ -78,19 +79,19 @@ integrating the previous script[^2].
 [^2]: The workflow is derived from
     [r-lib/actions/tree/master/examples](https://github.com/r-lib/actions/tree/master/examples).
 
-But still there were some open questions, such as: **how do I select a meaningful
-sample of R packages?**
+But still there were some open questions, such as: **how do I select a
+meaningful sample of R packages?**
 
 ### Initial steps
 
 The action
 [`r-lib/actions/setup-r-dependencies`](https://github.com/r-lib/actions/tree/master/setup-r-dependencies)
 was already included in my workflow, so I started using the `extra-packages`
-option to install the tidyverse and tidymodels. I decided to start with
-these two packages as they import some of the most popular R packages.
-Also, extra points for `r-lib/actions/setup-r-dependencies` as it uses caching
-for the installed packages, meaning that subsequent deploys would be
-significantly faster.
+option to install the tidyverse and tidymodels. I decided to start with these
+two packages as they import some of the most popular R packages. Also, extra
+points for `r-lib/actions/setup-r-dependencies` as it uses caching for the
+installed packages, meaning that subsequent deploys would be significantly
+faster.
 
 So it was a good start in my quest to test cffr on a large sample of packages,
 but I was not still there...
@@ -98,10 +99,11 @@ but I was not still there...
 ### Working with CRAN Task Views
 
 Do you know [CRAN Task Views](https://cran.r-project.org/web/views/)? These are
-useful collections of packages classified by relevant topics. With the [ctv](https://cran.r-project.org/web/packages/ctv/index.html)
-package[^3], it is quite straightforward to install the packages included in
-each of those views. I decided then to install the core packages of all views,
-in order to increase my package sample:
+useful collections of packages classified by relevant topics. With the
+[ctv](https://cran.r-project.org/web/packages/ctv/index.html) package[^3], it is
+quite straightforward to install the packages included in each of those views. I
+decided then to install the core packages of all views, in order to increase my
+package sample:
 
 [^3]: Zeileis A (2005). "CRAN Task Views." *R News*, **5**(1), pp. 39--40.
     <https://CRAN.R-project.org/doc/Rnews/>
@@ -121,8 +123,9 @@ packs <- dplyr::bind_rows(packs)
 core <- dplyr::filter(packs, core == TRUE)
 ```
 
-Out of interest, there are a total of **4,276** packages included in the CRAN Task Views
-(in the `packs` object) and **286** core packages (in the `core` object).
+Out of interest, there are a total of **4,276** packages included in the CRAN
+Task Views (in the `packs` object) and **286** core packages (in the `core`
+object).
 
 ### Increasing the number with the r-universe
 
@@ -130,8 +133,8 @@ Out of interest, there are a total of **4,276** packages included in the CRAN Ta
 project that, apart of the functionality of acting as a CRAN-like repo, includes
 several other components. One of those components is a specific [API
 Endpoint](https://ropensci.r-universe.dev/ui#api) for every R-universe with some
-very useful resources, such as the ability to retrieve a [list of all the packages
-included in each R-universe](https://ropensci.r-universe.dev/packages).
+very useful resources, such as the ability to retrieve a [list of all the
+packages included in each R-universe](https://ropensci.r-universe.dev/packages).
 
 This fit perfectly with my needs, so my next step was to retrieve packages of
 selected R-universes:
@@ -146,11 +149,11 @@ selected R-universes:
 
 -   [r-spatial](https://r-spatial.r-universe.dev/)
 
-I selected these well-known organizations as they host a lot of popular
-packages among use**R**s. Also, my hope was that other developers would have
-at some point checked the DESCRIPTION and the inst/CITATION of many of these
-packages as the starting point for developing their own (as I usually do 😁), so
-these packages could be considered representative enough.
+I selected these well-known organizations as they host a lot of popular packages
+among use**R**s. Also, my hope was that other developers would have at some
+point checked the DESCRIPTION and the inst/CITATION of many of these packages as
+the starting point for developing their own (as I usually do 😁), so these
+packages could be considered representative enough.
 
 Extracting a list of packages from an R-universe is as easy as:
 
@@ -221,8 +224,8 @@ update.packages(type = "binary")
 ```
 
 Note that I installed the packages using `dependencies = TRUE`. This forces the
-installation of the packages from Depends, Imports and Suggest, so by doing this I
-was substantially increasing the overall number of packages installed by my
+installation of the packages from Depends, Imports and Suggest, so by doing this
+I was substantially increasing the overall number of packages installed by my
 GitHub Actions. Thanks to caching, on a regular run the previous process of
 installing packages takes less than 4 minutes on GitHub. That, in my opinion, is
 more than satisfactory[^4].
@@ -243,9 +246,8 @@ devtools::load_all()
 testthat::test_dir("tests/testthat/test_ci")
 ```
 
-I also created a step (named "Display results") that basically prints the
-output of the Markdown report. The last bits were to include a scheduled run
-via
+I also created a step (named "Display results") that basically prints the output
+of the Markdown report. The last bits were to include a scheduled run via
 [cron](https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows#scheduled-events)
 and to use the action
 [`actions/upload-artifact@v2`](https://github.com/actions/upload-artifact) to
@@ -253,42 +255,41 @@ update the final report after each run.
 
 See here an extract of the results of the last run:
 
-``` markdown
-# Test ALL installed packages 
-    
+\`\`\` markdown \# Test ALL installed packages
+
     ## Sessioninfo 
-    
+
     R version 4.1.2 (2021-11-01)
     Platform: x86_64-w64-mingw32/x64 (64-bit)
     Running under: Windows Server x64 (build 17763)
-    
+
     Matrix products: default
-    
+
     locale:
     [1] LC_COLLATE=C                          
     [2] LC_CTYPE=English_United States.1252   
     [3] LC_MONETARY=English_United States.1252
     [4] LC_NUMERIC=C                          
     [5] LC_TIME=English_United States.1252    
-    
-< omitted >   
-    
+
+\< omitted \>
+
     ## Summary 
-    
+
     [1] "testing a sample of 1930 installed packages"
-    
+
     ---
-    
+
     ## OK rate 
-    
+
     [1] "99.74%"
-    
+
     ---
-    
+
     ## Errors 
-    
-< omitted >
-    
+
+\< omitted \>
+
     ...
 
 ## The result
@@ -311,8 +312,8 @@ that I would like to share:
     1,930[^5]. I opened a couple of
     [pull](https://github.com/selva86/InformationValue/pull/5)
     [requests](https://github.com/ropensci/photosearcher/pull/13) on some of the
-    failing packages where I saw a clear mistake in the metadata. So in some ways
-    this exercise could be also used to improve other packages by detecting
+    failing packages where I saw a clear mistake in the metadata. So in some
+    ways this exercise could be also used to improve other packages by detecting
     typos, etc. in the metadata.
 
 2.  The DESCRIPTION files are [pretty
@@ -335,10 +336,10 @@ that I would like to share:
 [^5]: At the moment of writing, CRAN hosted **18,369 packages**, so the testing
     sample is \~10.5% of the overall number of packages on CRAN.
 
-One thing I did after completing this process was to make use of the `bibentry()`
-function instead of `citEntry()` in the inst/CITATION files of all my packages.
-I chose this since the syntax is very similar to BibTeX, and the function
-also provides guidance on the possible entry types, as well as specific
+One thing I did after completing this process was to make use of the
+`bibentry()` function instead of `citEntry()` in the inst/CITATION files of all
+my packages. I chose this since the syntax is very similar to BibTeX, and the
+function also provides guidance on the possible entry types, as well as specific
 validity checks.
 
 And that's all! If you have any suggestions for how to improve the current

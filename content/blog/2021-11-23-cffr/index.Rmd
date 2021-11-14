@@ -113,9 +113,9 @@ authors:
   given-names: Diego
 ```
 
-In this example, the identification of the software and the author is
-quite straightforward, as it is provided by the fields `title` and `authors`.
-The information that can be included on a CFF file can be further enriched with
+In this example, the identification of the software and the author is quite
+straightforward, as it is provided by the fields `title` and `authors`. The
+information that can be included on a CFF file can be further enriched with
 additional fields (like `version`, `year` or `doi`), as the [Citation File
 Format schema version
 1.2.0](https://github.com/citation-file-format/citation-file-format/blob/main/schema-guide.md#valid-keys)
@@ -130,9 +130,9 @@ clear citation information from package developers"*, as already mentioned in a
 previous post ([Make Your R Package Easier to
 Cite](/blog/2021/02/16/package-citation/)). Developers spend thousand of hours
 on developing new and exciting software or adding new features to existing ones,
-so citing software is a matter of giving credit where credit is due. For more 
-reasons why it is important to cite R software 
-see [Steffi LaZerte](/author/steffi-lazerte/)'s blog post [How to Cite R and R
+so citing software is a matter of giving credit where credit is due. For more
+reasons why it is important to cite R software see [Steffi
+LaZerte](/author/steffi-lazerte/)'s blog post [How to Cite R and R
 Packages](/blog/2021/11/16/how-to-cite-r-and-r-packages/).
 
 In July 2021, GitHub announced a [built-in citation
@@ -145,8 +145,8 @@ or [BibTeX](http://www.bibtex.org/Using/) style.
 {{< tweet user="natfriedman" id="1420122675813441540" >}}
 <!--/html_preserve-->
 
-This built-in feature heavily relies on the CFF format, rendering
-the information of the CITATION.cff file into the aforementioned styles.
+This built-in feature heavily relies on the CFF format, rendering the
+information of the CITATION.cff file into the aforementioned styles.
 
 This announcement was, in my very personal opinion, a game-changer for the
 software citation ecosystem. As a proof of that, on the two following days
@@ -158,13 +158,13 @@ support for CITATION.cff files in their GitHub integration:
 {{< tweet user="zotero" id="1420515377390530560" >}}
 <!--/html_preserve-->
 
-Integration with Zenodo means that when creating a Digital Object
-Identifier ([DOI](https://www.doi.org/)) for a GitHub repository via Zenodo, the
-DOI would be generated according to the metadata included in the CITATION.cff
-file of the repository. This feature saves developers the extra effort of
-making both DOI and software consistent in terms of metadata. See an example of
-the [DOI of cffr](https://www.doi.org/10.5281/zenodo.5646626), whose title,
-description and author has been gathered from the [cffr CITATION.cff
+Integration with Zenodo means that when creating a Digital Object Identifier
+([DOI](https://www.doi.org/)) for a GitHub repository via Zenodo, the DOI would
+be generated according to the metadata included in the CITATION.cff file of the
+repository. This feature saves developers the extra effort of making both DOI
+and software consistent in terms of metadata. See an example of the [DOI of
+cffr](https://www.doi.org/10.5281/zenodo.5646626), whose title, description and
+author has been gathered from the [cffr CITATION.cff
 file](https://github.com/ropensci/cffr/blob/main/CITATION.cff).
 
 <!--html_preserve-->
@@ -177,8 +177,8 @@ library from a url.
 
 This handy feature means that a GitHub repository can effectively behave as a
 DOI, ISBN or arXiv ID. Zotero will recognize the author, title, date and other
-relevant metadata of the repository, including it in the personal Zotero reference library of the
-user.
+relevant metadata of the repository, including it in the personal Zotero
+reference library of the user.
 
 <!--html_preserve-->
 {{</ imgtxt >}}
@@ -223,8 +223,8 @@ allows you to generate codemeta.json files from R package metadata.
 
 ## Using cffr
 
-Getting started with cffr is pretty easy. There is a main function (likely
-the only one you would need for an in-development package) named
+Getting started with cffr is pretty easy. There is a main function (likely the
+only one you would need for an in-development package) named
 [`cff_write()`](https://docs.ropensci.org/cffr/reference/cff_write.html) that
 extracts the metadata of your package (already included in your DESCRIPTION and
 inst/CITATION files), converts it into a CITATION.cff file and validates it
@@ -252,8 +252,8 @@ cff_write()
 ### Working with `cff` objects
 
 It is also possible to create a `cff` object (a regular R list with a custom
-printing method) for any package installed locally on
-your machine. In the next example I create a `cff` object for the
+printing method) for any package installed locally on your machine. In the next
+example I create a `cff` object for the
 [rtweet](https://docs.ropensci.org/jsonvalidate/)[^7] package:
 
 [^7]: Kearney, M. (2019, October 24). rtweet: Collecting and analyzing Twitter
@@ -277,9 +277,9 @@ is not present, GitHub would reuse other keys of the file to auto-generate a
 citation reference.
 
 As already mentioned, cffr uses the information of the DESCRIPTION (via the
-[desc](https://github.com/r-lib/desc)[^8] package) and the inst/CITATION file to extract the metadata. I will
-focus now on comparing the citation info from rtweet and the information
-generated by cffr:
+[desc](https://github.com/r-lib/desc)[^8] package) and the inst/CITATION file to
+extract the metadata. I will focus now on comparing the citation info from
+rtweet and the information generated by cffr:
 
 [^8]: Gábor Csárdi, Kirill Müller and Jim Hester (2021). desc: Manipulate
     DESCRIPTION Files. *R package version 1.4.0*.
@@ -292,9 +292,9 @@ toBibtex(citation("rtweet"))
 cff_rtweet$`preferred-citation`
 ```
 
-We can check that the core information of the rtweet citation has been
-included in the `cff` object, and we can also check fields included in
-the DESCRIPTION file of rtweet:
+We can check that the core information of the rtweet citation has been included
+in the `cff` object, and we can also check fields included in the DESCRIPTION
+file of rtweet:
 
 ```{r cff-desc}
 
@@ -316,9 +316,9 @@ as.cff(cff_rtweet[
 
 ### Valid keys {#valid-keys}
 
-Here is a list of all the valid keys of the CFF schema. Most of them have
-an explicit mapping with the fields (or a combination of fields) in the
-DESCRIPTION and inst/CITATION files:
+Here is a list of all the valid keys of the CFF schema. Most of them have an
+explicit mapping with the fields (or a combination of fields) in the DESCRIPTION
+and inst/CITATION files:
 
 ```{r cff-keys, echo=FALSE, message=FALSE}
 library(dplyr)
@@ -336,8 +336,8 @@ how these fields are computed with several examples.
 
 Once we have created an `cff` object, we can check its validity using the
 `cff_validate()` function. This function can be used with `cff` objects and with
-CITATION.cff files. If there are any errors, output messages will help us
-debug our object:
+CITATION.cff files. If there are any errors, output messages will help us debug
+our object:
 
 ```{r validating}
 
@@ -365,17 +365,17 @@ cff_create("rtweet", keys = wrong_keys) %>%
 
 ```
 
-Validation of the initial `cff` object is satisfactory, as seen in the
-messages. But in the second example, where I forced some invalid values using the
-`keys` parameter, we can see that the `doi` and `url` field are flagged as
-errors, as the text strings does not correspond with the expected patterns for
-those fields (e.g "http\*" for urls and "10XXXX/XXXX" for DOIs).
+Validation of the initial `cff` object is satisfactory, as seen in the messages.
+But in the second example, where I forced some invalid values using the `keys`
+parameter, we can see that the `doi` and `url` field are flagged as errors, as
+the text strings does not correspond with the expected patterns for those fields
+(e.g "http\*" for urls and "10XXXX/XXXX" for DOIs).
 
 ### Keeping your CITATION.cff file up-to-date
 
-A CITATION.cff includes relevant information about the version of your package,
-the release date and the DOI of your package, so you would want to keep this
-information up-to-date. cffr includes a [GitHub
+A CITATION.cff includes relevant information about the version, the release date
+and the DOI of your package, so you would want to keep this information
+up-to-date. cffr includes a [GitHub
 Action](https://github.com/ropensci/cffr/blob/main/.github/workflows/update-citation-cff.yaml)
 that does the work for you.
 
@@ -394,8 +394,8 @@ This will ensure that the citation of your package is always accurate.
 
 ## Conclusion
 
-Over the last few months, support of CITATION.cff files has increasingly grown in
-the scientific citation ecosystem. The cffr package allows any R-package
+Over the last few months, support of CITATION.cff files has increasingly grown
+in the scientific citation ecosystem. The cffr package allows any R-package
 developer to easily integrate citation information with a wide variety of
 services via the creation of a CITATION.cff file leveraging the support
 introduced by GitHub.
