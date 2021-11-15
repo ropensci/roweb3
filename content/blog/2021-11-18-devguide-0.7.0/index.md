@@ -102,7 +102,7 @@ We've added some more guidance on [making packages easier to cite](https://devde
 
 ## Policy update: scope clarification for data extraction and munging
 
-We've clarified the definition of the [categories](https://devdevguide.netlify.app/policies.html#package-categories) " data extraction" and "data munging" by adding examples.
+We've clarified the definition of the [categories](https://devdevguide.netlify.app/policies.html#package-categories) "data extraction" and "data munging" by adding examples.
 
 ## Conclusion
 
