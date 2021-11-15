@@ -1,5 +1,5 @@
 ---
-title: "rOpenSci Dev Guide 0.6.0: Updates"
+title: "rOpenSci Dev Guide 0.7.0: Updates"
 author:
   - Maëlle Salmon
   - Laura DeCicco
