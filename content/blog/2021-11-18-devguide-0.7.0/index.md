@@ -33,7 +33,7 @@ or this blog post for more digested information.
 A big change brought in this release is the retirement of some of our multiple TODOs for editors in favor of simple bot commands such as `@ropensci-review-bot check package`. 
 Our [editor guide](https://devdevguide.netlify.app/editorguide.html) is now simpler! 
 
-For context, rOpenSci has worked with The [Journal of Open Source Software](https://joss.theoj.org/) to extend JOSS’s approach of [chatops-driven publishing](https://www.arfon.org/chatops-driven-publishing) into a new GitHub chat-bot that manages our editorial process: assigning tasks, tagging issues, running tests on software submissions, and returning reports to reviewers and editors, logging reviews in an external (Airtable) database, all from the comfort of a GitHub issue comment. 
+For context, rOpenSci has worked with The [Journal of Open Source Software](https://joss.theoj.org/) to extend JOSS’s approach of [chatops-driven publishing](https://www.arfon.org/chatops-driven-publishing) into a new GitHub chat-bot, that manages our editorial process: assigning tasks, tagging issues, running tests on software submissions, and returning reports to reviewers and editors, logging reviews in an external (Airtable) database, all from the comfort of a GitHub issue comment. 
 Chat-ops automation has been critical to JOSS’s success, and shows huge promise for automating even more tedious tasks like frequent software checks and compliance with best practices.
 
 If you are curious about this topic, do not miss our next [community call: Enhancing Software Peer Review with GitHub Automation](/dec2021-automation/)!
@@ -82,7 +82,7 @@ Following our community call ["Set Up Your Package to Foster a Community"](/comm
 
 ## Updates to reviewer guidance
 
-The work on pkgcheck and buffy means we were able to remove some elements from reviewers' guidance: 
+The work on pkgcheck and [automation](/commcalls/dec2021-automation/) means we were able to remove some elements from reviewers' guidance: 
 
 * We no longer ask reviewers to run covr but we ask them to pay attentions to skipped tests.
 
