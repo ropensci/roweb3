@@ -12,7 +12,8 @@
           </div>
         </div>
 <div class="row case-cards mt-5">
-         {{ range (first 3 (shuffle .Site.Data.help.issues) ) }}
+  {{ $issues := getJSON "https://ropensci-help-wanted.netlify.app/issues.json" }}
+         {{ range (first 3 (shuffle $issues) ) }}
           <div class="col-md-4">
             <div class="case-card">
               <img src="data:image/jpeg;base64, iVBORw0KGgoAAAANSUhEUgAAAWAAAACvCAYAAADDqASZAAAB8ElEQVR42u3UMREAMAgAsaKoEsEwHhDBHVMi4YePX50PgHNhwAAGDGDAABgwgAEDYMAABgyAAQMYMAAGDGDAABgwgAEDGLABAxgwgAEDYMAABgyAAQMYMAAGDGDAABgwgAEDYMAABgxgwAYMYMAABgyAAQMYMAAGDGDAABgwgAEDYMAABgyAAQMYMIABGzCAAQMYMAAGDGDAABgwgAEDYMAABgyAAQMYMAAGDGDAAAYsA4ABAxgwAAYMYMAAGDCAAQNgwAAGDIABAxgwAAYMYMAABgyAAQMYMAAGDGDAABgwgAEDYMAABgyAAQMYMAAGDGDAAAYMgAEDGDAABgxgwAAYMIABA2DAAAYMgAEDGDAABgxgwAAGDIABAxgwAAYMYMAAGDCAAQNgwAAGDIABAxgwAAYMYMAABgyAAQMYMAAGDGDAABgwgAEDYMAABgyAAQMYMAAGDGDAAAYMgAEDGDAABgxgwAAYMIABA2DAAAYMgAEDGDAABgxgwAAGDIABAxgwAAYMYMAAGDCAAQNgwAAGDIABAxgwAAYMYMAABgyAAQMYMAAGDGDAABgwgAEDYMAABgyAAQMYMAAGDGDAAAYMgAEDGDAABgxgwAAYMIABA2DAAAYMgAEDGDAABgxgwAAGDIABAxgwAAYMYMAArA2VgnE0VdnvaQAAAABJRU5ErkJggg==" alt="" />
@@ -48,7 +49,7 @@
   </tr>
   </thead>
       <tbody>
-      {{ range .Site.Data.help.issues }}
+      {{ range $issues }}
    <tr>
      
     <td><a href="{{ .url }}">{{ .title }}</a></td>
