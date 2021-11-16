@@ -234,6 +234,12 @@ Note that main.min.css that contains all the CSS is stored under themes/ropensci
 
 Review criteria: anything looks weird? (need to fix upstream data or code?). Special focus on manually updated sections.
 
+### Help wanted issues
+
+* They are hosted at https://ropensci-help-wanted.netlify.app/issues.json generated from a private repository.
+* This Netlify website is hosted under the Netlify ropensci team.
+* If Netlify is down, the whole website deploy anyway.
+
 ### When deploys fail or something else goes wrong
 
 * If [Netlify is down](https://www.netlifystatus.com/) or [Cloudflare is down](https://www.cloudflarestatus.com/), the easiest thing is to wait.
