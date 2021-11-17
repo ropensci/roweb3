@@ -181,7 +181,7 @@ all <- sort(unique(c(core$name, ropensci, ropenscireviewtools, rlib, rforge, rst
 ```
 
 That makes a grand total of **925 packages**. At this point, I was quite happy
-with the sample of packages, since it included a large set relevant packages.
+with the sample, since it included a large set of relevant packages.
 
 ## Final steps: installing the packages
 
