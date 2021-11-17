@@ -292,6 +292,8 @@ See here an extract of the results of the last run:
 
     ...
 
+```
+
 ## The result
 
 At this stage, I was ready to check cffr with a broad number of packages. This
