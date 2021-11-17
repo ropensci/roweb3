@@ -36,8 +36,7 @@ packages.
 
 I started setting up a [testthat](https://testthat.r-lib.org/)[^1] test [in a
 separate
-folder](https://github.com/ropensci/cffr/blob/main/tests/testthat/test_ci/test-full_cff.R),
-that I ignored in .Rbuildignore. This test was basically a
+folder](https://github.com/ropensci/cffr/blob/main/tests/testthat/test_ci/test-full_cff.R) which I ignored in .Rbuildignore. This test was basically a
 [loop](https://github.com/ropensci/cffr/blob/6260303668303010c0c90ff381518960299a18f0/tests/testthat/test_ci/test-full_cff.R#L35:L61)
 over [all the R packages installed
 locally](https://github.com/ropensci/cffr/blob/6260303668303010c0c90ff381518960299a18f0/tests/testthat/test_ci/test-full_cff.R#L4:L7),
@@ -94,7 +93,7 @@ installed packages, meaning that subsequent deploys would be significantly
 faster.
 
 So it was a good start in my quest to test cffr on a large sample of packages,
-but I was not still there...
+but I was still not there...
 
 ### Working with CRAN Task Views
 
@@ -127,7 +126,7 @@ Out of interest, there are a total of **4,276** packages included in the CRAN
 Task Views (in the `packs` object) and **286** core packages (in the `core`
 object).
 
-### Increasing the number with the r-universe
+### Increasing the number with R-universe
 
 [R-universe](/r-universe/) by [Jeroen Ooms](/author/jeroen-ooms/) is a wonderful
 project that, apart of the functionality of acting as a CRAN-like repo, includes
@@ -189,7 +188,7 @@ with the sample of packages, since it included a large set relevant packages.
 I was almost there! Now, the last step was just to install these packages and
 test them.
 
-With the aim of improving the performance, I filtered out the packages already
+With the aim of improving performance, I filtered out the packages already
 installed on the system like this:
 
 ``` r
@@ -255,7 +254,8 @@ update the final report after each run.
 
 See here an extract of the results of the last run:
 
-\`\`\` markdown \# Test ALL installed packages
+``` markdown 
+# Test ALL installed packages
 
     ## Sessioninfo 
 
@@ -272,7 +272,7 @@ See here an extract of the results of the last run:
     [4] LC_NUMERIC=C                          
     [5] LC_TIME=English_United States.1252    
 
-\< omitted \>
+< omitted >
 
     ## Summary 
 
@@ -288,7 +288,7 @@ See here an extract of the results of the last run:
 
     ## Errors 
 
-\< omitted \>
+< omitted >
 
     ...
 
@@ -343,4 +343,4 @@ function also provides guidance on the possible entry types, as well as specific
 validity checks.
 
 And that's all! If you have any suggestions for how to improve the current
-validation workflow, I would glad to hear it and include it in my checks.
+validation workflow, I would be glad to hear it and include it in my checks.
