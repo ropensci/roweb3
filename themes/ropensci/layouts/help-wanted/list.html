@@ -67,6 +67,6 @@
 {{ partial "datatables/scripts" ( dict "id" "usecases" "col" 2 "order" "desc" )  }}
        
     </section>
-    {{ partial "whole-page-fragments/volunteer"  (dict "divider" "rl" ) }}
+    {{ partial "whole-page-fragments/volunteer"  (dict "divider" "rl" "Site" .Site ) }}
 {{ partial "whole-page-fragments/newsletter"  (dict "divider" "lr" ) }}
 {{ end }}
