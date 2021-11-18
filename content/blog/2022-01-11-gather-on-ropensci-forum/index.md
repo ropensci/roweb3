@@ -89,7 +89,7 @@ If you want to discuss R in Antarctic and Southern Ocean science, use the [Antar
 
 * You can subscribe to each category via the bell icon that's at the top right. Then in your email service you could create a filter to have all emails from the forum arrive in a folder that you'd open when you have time to engage.
 
-* You can add the RSS feed of each category to your feed reader. The exactly link to the RSS feed is the URL to the category plus `.rss` e.g. `https://discuss.ropensci.org/c/package-development/29.rss` (but if you copy-paste the URL `https://discuss.ropensci.org/c/package-development/29` in e.g. Feedly the actual feed will be found without your help).
+* You can add the RSS feed of each category to your feed reader. The link to the RSS feed is the URL to the category plus `.rss` e.g. `https://discuss.ropensci.org/c/package-development/29.rss` (but if you copy-paste the URL `https://discuss.ropensci.org/c/package-development/29` in e.g. Feedly the actual feed will be found without your help).
 
 * In our semi-open slack, there's a channel, `#discuss-ropensci` with all activity from the forum, but that's probably not optimal for casual forum use.
 
