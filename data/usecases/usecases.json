@@ -882,7 +882,7 @@
     "date": "2021-09-20"
   },
   {
-    "title": "Using jsonvalidate to validate the `packages.json` file from your personal universe",
+    "title": "Using jsonvalidate to validate the packages.json file from your personal universe",
     "reporter": "Hugo Gruson",
     "tags": ["r-universe", "jsonvalidate"],
     "resource": "jsonvalidate (and R-universe)",
