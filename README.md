@@ -212,10 +212,10 @@ Note that main.min.css that contains all the CSS is stored under themes/ropensci
 
 * CHECK THE FONT!!! (see note in SendGrid instructions)
 * Check the number of subscribers in Sendgrid doesn't go over what our current plan allows.
+* Update package categories in https://github.com/ropensci-org/makeregistry/blob/master/inst/scripts/update_categories.R (not directly related to the newsletter but good to do monthly!).
 * Start a new post with the newsletter archetype, use the same title "rOpenSci News Digest, MONTH YEAR" and slug "ropensci-news-digest-month-YYYY" and tag "newsletter".
-* **Make sure you have all dependencies from roweb3 DESCRIPTION.**
 * **Make sure your branch is based on the latest commit of the default branch, re-base if needed.**
-* Run `get_use_cases.R` to update use cases data (you need a Discourse API key, contact Scott).
+* Open the Rproj in `scripts/use-cases` (in another RStudio window), run `renv::restore()` and source `get_use_cases.R` to update use cases data (you need a Discourse API key, contact Scott).
 * Change the date of the last newsletter in the new post, knit it. 
   * Manually updated sections: rOpenSci HQ (issues in https://github.com/ropensci/biweekly that you should watch; look at recent/future events including comm calls; if needed poll staff), from the forum (interesting recent posts?), package development corner (poll package-maintenance channel; your recent reads), call for maintainers.
   * Automatic sections. New packages by comparing two versions of the package registry; new versions by querying GitHub releases; software review by querying GitHub API (the submitter name and URL from their GitHub profile is used. you might need to go back and fix software-review issue formatting of the DESCRIPTION block); on the blog queries YAML of posts and sorts them based on tags (if no images, try and see if some posts could get a twitterImg and twitterAlt, add it); use cases uses the use cases JSON; citations simply counts citations in total and for the year.
@@ -232,6 +232,12 @@ Note that main.min.css that contains all the CSS is stored under themes/ropensci
 * Tweet about the newsletter from rOpenSci account, highlighting some numbers.
 
 Review criteria: anything looks weird? (need to fix upstream data or code?). Special focus on manually updated sections.
+
+### Help wanted issues
+
+* They are hosted at https://ropensci-help-wanted.netlify.app/issues.json generated from a private repository.
+* This Netlify website is hosted under the Netlify ropensci team.
+* If Netlify is down, the whole website deploy anyway.
 
 ### When deploys fail or something else goes wrong
 

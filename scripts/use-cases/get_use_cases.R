@@ -115,7 +115,7 @@ topics <- purrr::map(usecases_ids, get_info)
 
 jsonlite::write_json(
   topics, 
-  file.path("data", "usecases", "usecases.json"),
+  file.path("..", "..", "data", "usecases", "usecases.json"),
   pretty = TRUE,
   auto_unbox = TRUE
   )
