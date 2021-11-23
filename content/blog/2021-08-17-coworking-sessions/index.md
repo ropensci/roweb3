@@ -32,7 +32,7 @@ These sessions will give you the opportunity to
 We will host sessions on the first Tuesday of each month, alternating times to accommodate different parts of the world. 
 Come for the full 2 hrs or only as long as you need!
 
-Our first two sessions take place **[Tuesday September 7th 2021 9-11am Pacific](/events/coworking-2021-09/)** hosted by [Steffi LaZerte](/author/steffi-lazerte/) and **[Tuesday October 5th 2021 9-11am Australian Western](/events/coworking-2021-10/)** hosted by [Nick Tierney](/author/nicholas-tierney/).
+Our first two sessions take place **[Tuesday September 7th 2021 9-11am American Pacific time](/events/coworking-2021-09/)** hosted by [Steffi LaZerte](/author/steffi-lazerte/) and **[Tuesday October 5th 2021 9-11am Australian Western time](/events/coworking-2021-10/)** hosted by [Nick Tierney](/author/nicholas-tierney/).
 
 ## Format
 
