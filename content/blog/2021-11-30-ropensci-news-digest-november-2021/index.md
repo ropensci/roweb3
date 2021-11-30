@@ -77,11 +77,11 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following twenty packages have had an update since the latest newsletter: [gert](https://docs.ropensci.org/gert "Simple Git Client for R") ([`v1.4.2`](https://github.com/r-lib/gert/releases/tag/v1.4.2)), [pkgstats](https://docs.ropensci.org/pkgstats "Metrics of R Packages") ([`v0.0.3`](https://github.com/ropensci-review-tools/pkgstats/releases/tag/v0.0.3)), [cffr](https://docs.ropensci.org/cffr "Generate Citation File Format (cff) Metadata for R Packages") ([`v0.1.1`](https://github.com/ropensci/cffr/releases/tag/v0.1.1)), [excluder](https://docs.ropensci.org/excluder "Checks for Exclusion Criteria in Online Data") ([`v0.3.2`](https://github.com/ropensci/excluder/releases/tag/v0.3.2)), [git2rdata](https://docs.ropensci.org/git2rdata "Store and Retrieve Data.frames in a Git Repository") ([`v0.3.1`](https://github.com/ropensci/git2rdata/releases/tag/v0.3.1)), [gitignore](https://docs.ropensci.org/gitignore "Create Useful .gitignore Files for your Project") ([`v0.1.5`](https://github.com/ropensci/gitignore/releases/tag/v0.1.5)), [jqr](https://docs.ropensci.org/jqr "Client for jq, a JSON Processor") ([`v1.2.2`](https://github.com/ropensci/jqr/releases/tag/v1.2.2)), [lightr](https://docs.ropensci.org/lightr "Read Spectrometric Data and Metadata") ([`v1.6.2`](https://github.com/ropensci/lightr/releases/tag/v1.6.2)), [mapscanner](https://docs.ropensci.org/mapscanner "Print Maps, Draw on Them, Scan Them Back in") ([`v0.0.5`](https://github.com/ropensci/mapscanner/releases/tag/v0.0.5)), [mctq](https://docs.ropensci.org/mctq "Tools to Process the Munich ChronoType Questionnaire (MCTQ)") ([`v0.1.0`](https://github.com/ropensci/mctq/releases/tag/v0.1.0)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.5.0`](https://github.com/ropensci/nodbi/releases/tag/v0.5.0)), [osmextract](https://docs.ropensci.org/osmextract "Download and Import Open Street Map Data Extracts") ([`v0.4.0`](https://github.com/ropensci/osmextract/releases/tag/v0.4.0)), [patentsview](https://docs.ropensci.org/patentsview "An R Client to the PatentsView API") ([`v0.3.0`](https://github.com/ropensci/patentsview/releases/tag/v0.3.0)), [PostcodesioR](https://docs.ropensci.org/PostcodesioR "API Wrapper Around Postcodes.io") ([`cran`](https://github.com/ropensci/PostcodesioR/releases/tag/cran)), [rcites](https://docs.ropensci.org/rcites "R Interface to the Species+ Database") ([`v1.2.0`](https://github.com/ropensci/rcites/releases/tag/v1.2.0)), [rerddap](https://docs.ropensci.org/rerddap "General Purpose Client for ERDDAP Servers") ([`v0.8.0`](https://github.com/ropensci/rerddap/releases/tag/v0.8.0)), [rnoaa](https://docs.ropensci.org/rnoaa "NOAA Weather Data from R") ([`c1.3.7`](https://github.com/ropensci/rnoaa/releases/tag/c1.3.7)), [stplanr](https://docs.ropensci.org/stplanr "Sustainable Transport Planning") ([`v0.8.5`](https://github.com/ropensci/stplanr/releases/tag/v0.8.5)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.3.2`](https://github.com/ropensci/tarchetypes/releases/tag/0.3.2)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Workflows") ([`0.8.1`](https://github.com/ropensci/targets/releases/tag/0.8.1)).
+The following twenty-three packages have had an update since the latest newsletter: [gert](https://docs.ropensci.org/gert "Simple Git Client for R") ([`v1.4.2`](https://github.com/r-lib/gert/releases/tag/v1.4.2)), [pkgstats](https://docs.ropensci.org/pkgstats "Metrics of R Packages") ([`v0.0.3`](https://github.com/ropensci-review-tools/pkgstats/releases/tag/v0.0.3)), [cffr](https://docs.ropensci.org/cffr "Generate Citation File Format (cff) Metadata for R Packages") ([`v0.1.1`](https://github.com/ropensci/cffr/releases/tag/v0.1.1)), [crul](https://docs.ropensci.org/crul "HTTP Client") ([`v1.2.0`](https://github.com/ropensci/crul/releases/tag/v1.2.0)), [excluder](https://docs.ropensci.org/excluder "Checks for Exclusion Criteria in Online Data") ([`v0.3.2`](https://github.com/ropensci/excluder/releases/tag/v0.3.2)), [git2rdata](https://docs.ropensci.org/git2rdata "Store and Retrieve Data.frames in a Git Repository") ([`v0.3.1`](https://github.com/ropensci/git2rdata/releases/tag/v0.3.1)), [gitignore](https://docs.ropensci.org/gitignore "Create Useful .gitignore Files for your Project") ([`v0.1.5`](https://github.com/ropensci/gitignore/releases/tag/v0.1.5)), [jagstargets](https://docs.ropensci.org/jagstargets "Targets for JAGS Workflows") ([`0.0.1`](https://github.com/ropensci/jagstargets/releases/tag/0.0.1)), [jqr](https://docs.ropensci.org/jqr "Client for jq, a JSON Processor") ([`v1.2.2`](https://github.com/ropensci/jqr/releases/tag/v1.2.2)), [lightr](https://docs.ropensci.org/lightr "Read Spectrometric Data and Metadata") ([`v1.6.2`](https://github.com/ropensci/lightr/releases/tag/v1.6.2)), [mapscanner](https://docs.ropensci.org/mapscanner "Print Maps, Draw on Them, Scan Them Back in") ([`v0.0.6`](https://github.com/ropensci/mapscanner/releases/tag/v0.0.6)), [mctq](https://docs.ropensci.org/mctq "Tools to Process the Munich ChronoType Questionnaire (MCTQ)") ([`v0.1.0`](https://github.com/ropensci/mctq/releases/tag/v0.1.0)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.5.0`](https://github.com/ropensci/nodbi/releases/tag/v0.5.0)), [osmextract](https://docs.ropensci.org/osmextract "Download and Import Open Street Map Data Extracts") ([`v0.4.0`](https://github.com/ropensci/osmextract/releases/tag/v0.4.0)), [patentsview](https://docs.ropensci.org/patentsview "An R Client to the PatentsView API") ([`v0.3.0`](https://github.com/ropensci/patentsview/releases/tag/v0.3.0)), [PostcodesioR](https://docs.ropensci.org/PostcodesioR "API Wrapper Around Postcodes.io") ([`cran`](https://github.com/ropensci/PostcodesioR/releases/tag/cran)), [rcites](https://docs.ropensci.org/rcites "R Interface to the Species+ Database") ([`v1.2.0`](https://github.com/ropensci/rcites/releases/tag/v1.2.0)), [rerddap](https://docs.ropensci.org/rerddap "General Purpose Client for ERDDAP Servers") ([`v0.8.0`](https://github.com/ropensci/rerddap/releases/tag/v0.8.0)), [rmangal](https://docs.ropensci.org/rmangal "Mangal Client") ([`v2.1.0`](https://github.com/ropensci/rmangal/releases/tag/v2.1.0)), [rnoaa](https://docs.ropensci.org/rnoaa "NOAA Weather Data from R") ([`c1.3.7`](https://github.com/ropensci/rnoaa/releases/tag/c1.3.7)), [stplanr](https://docs.ropensci.org/stplanr "Sustainable Transport Planning") ([`v0.8.5`](https://github.com/ropensci/stplanr/releases/tag/v0.8.5)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.3.2`](https://github.com/ropensci/tarchetypes/releases/tag/0.3.2)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Workflows") ([`0.8.1`](https://github.com/ropensci/targets/releases/tag/0.8.1)).
 
 ## Software Peer Review
 
-There are seventeen recently closed and active submissions and 5 submissions on hold. Issues are at different stages: 
+There are eighteen recently closed and active submissions and 5 submissions on hold. Issues are at different stages: 
 
 * Three at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
 
@@ -101,9 +101,11 @@ There are seventeen recently closed and active submissions and 5 submissions on 
 
     * [healthdatacsv](https://github.com/ropensci/software-review/issues/358), Access data in the healthdata.gov catalog. Submitted by [iecastro](http://iecastro.netlify.com). 
 
-* Six at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
+* Seven at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 
-     * [qualR](https://github.com/ropensci/software-review/issues/474), An R package to download Sao Paulo and Rio de Janeiro air pollution data. Submitted by [Mario Gavidia Calderón](http://randroll.wordpress.com). 
+     * [rfema](https://github.com/ropensci/software-review/issues/484), Access the openFEMA API. Submitted by [Dylan Turner](http://dylanturner.org). 
+
+    * [qualR](https://github.com/ropensci/software-review/issues/474), An R package to download Sao Paulo and Rio de Janeiro air pollution data. Submitted by [Mario Gavidia Calderón](http://randroll.wordpress.com). 
 
     * [tidyqpcr](https://github.com/ropensci/software-review/issues/470), Quantitative PCR Analysis with the Tidyverse. Submitted by [Edward Wallace](https://scholar.google.co.uk/citations?user=7FLIJBAAAAAJ&hl=en). 
 
@@ -117,13 +119,13 @@ There are seventeen recently closed and active submissions and 5 submissions on 
 
 * Two at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
-     * [rfema](https://github.com/ropensci/software-review/issues/484), Access the openFEMA API. Submitted by [Dylan Turner](http://dylanturner.org). 
+     * [gittargets](https://github.com/ropensci/software-review/issues/486), Data Version Control for the Targets Package. Submitted by [Will Landau](https://wlandau.github.io). 
 
     * [OmicsMetaData](https://github.com/ropensci/software-review/issues/471), OmicsMetaData: an R-package for interoperable and re-usable biodiversity 'omics (meta)data. Submitted by [Maxime Sweetlove](https://github.com/msweetlove). 
 
 * Three at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
 
-     * [gittargets](https://github.com/ropensci/software-review/issues/486), Data Version Control for the Targets Package. Submitted by [Will Landau](https://wlandau.github.io). 
+     * [ReLTER](https://github.com/ropensci/software-review/issues/485), An interface to the eLTER for the R statistical programming environment. Submitted by [Alessandro Oggioni](https://www.cnr.it/people/alessandro.oggioni). 
 
     * [canaper](https://github.com/ropensci/software-review/issues/475), Categorical Analysis of Neo- And Paleo-Endemism. Submitted by [Joel Nitta](https://joelnitta.com).  (Stats).
 
@@ -143,9 +145,21 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 
 
+* [cffr: Create a CITATION.cff File for your R Package](/blog/2021/11/23/cffr) by Diego Hernangómez. cffr, a package for creating valid CITATION.cff files using the metadata of any R package.{{< figure src="brain-network.png" alt="The cffr package" width="400" >}}
+
+
+
 ### Other topics
 
 * [How to Cite R and R Packages](/blog/2021/11/16/how-to-cite-r-and-r-packages) by Steffi LaZerte. A short primer on how to cite R and R packages to support developers and ensure repeatable science.
+
+
+
+### Tech Notes
+
+* [How I Test cffr on (about) 2,000 Packages using GitHub Actions and R-universe](/blog/2021/11/23/how-i-test-cffr) by Diego Hernangómez.
+
+* [RSS feeds of package updates in r-universe](/blog/2021/11/24/runiverse-badges) by Jeroen Ooms. A major difference between r-universe and static repositories like CRAN and BioConductor is continuous deployment: packages in r-universe are continuously built in CI and immediately deployed to our package server. This package server stores binaries and metadata in a database, which enables us to dynamically query and expose all the package data through APIs, dashboards, feeds, etc. Based on some suggestions from twitter users, we have added support for RSS feeds of package updates.
 
 ## Use cases
 
