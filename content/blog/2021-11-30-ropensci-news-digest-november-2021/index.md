@@ -6,7 +6,7 @@ author:
 date: '2021-11-30'
 tags:
   - newsletter
-description: keywords from the content
+description: Community call on Enhancing Software Peer Review with GitHub Automation, help wanted issues, new packages and package news 
 output:
   html_document:
     keep_md: yes
