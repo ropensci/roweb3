@@ -1,9 +1,9 @@
 ---
-slug: "post-template"
-title: Latest rOpenSci News Digest
+slug: "ropensci-news-digest-november-2021"
+title: 'rOpenSci News Digest, November 2021'
 author:
   - The rOpenSci Team
-date: '2021-03-16'
+date: '2021-11-30'
 tags:
   - newsletter
 description: keywords from the content
@@ -11,7 +11,7 @@ output:
   html_document:
     keep_md: yes
 params:
-  last_newsletter: "2021-03-16"
+  last_newsletter: "2021-10-22"
 ---
 
 ```{r setup, include=FALSE}
@@ -39,11 +39,35 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-<!-- to be curated manually -->
+### Community call: @ropensci-review-bot help!
 
-<!-- Can use same coworking text every month and ping Steffi to ask if there are any special guests to add -->
+Tuesday, 07 December 2021 17:00 UTC we'll share how we are [**Enhancing Software Peer Review with GitHub Automation**](/commcalls/dec2021-automation/).
+
+Speakers [Arfon Smith](https://www.arfon.org/), [Karthik Ram](/author/karthik-ram), [Maëlle Salmon](/author/maëlle-salmon) and [Noam Ross](/author/noam-ross) will discuss how rOpenSci has worked with [The Journal of Open Source Software (JOSS)](https://joss.theoj.org/) to extend their approach of [chatops-driven publishing](https://www.arfon.org/chatops-driven-publishing) into a new GitHub chat-bot that manages our editorial process: assigning tasks, tagging issues, running tests on software submissions, and returning reports to reviewers and editors, all from the comfort of a GitHub issue comment. Chat-ops automation has been critical to JOSS’s success, and shows huge promise for automating even more tedious tasks like frequent software checks and compliance with best practices. We will show how our new review bot improves the author and editor experience, **explain how other teams can use and customize the bot**, and discuss how this approach can be extended to tackle other automation, code review, and reproducibility challenges.
+
+Come join the conversation, we'll have lots of time for Q & A.
+
+### rOpenSci help wanted issues
+
+Help Wanted issues have a home: our website's new [help-wanted page](/help-wanted/)!
+
+This page lists ALL recent(ish) issues from rOpenSci R packages labelled "help wanted". We'll still [tweet new issues](https://twitter.com/search?q=from%3Aropensci%20%5Bhelp%20wanted%5D&f=live), but this is a great place to see what's out there that needs your help.
+
+On the page you can easily find issues relevant to you by:  
+
+- Sorting (e.g, find all the issues labelled "good first issue");
+
+- Searching (e.g., look for issues in your favourite packages).
+
+### Next co-working sessions
+
 Join us for social coworking & office hours monthly on 1st Tuesdays! Hosted by Steffi LaZerte, Nick Tierney, and Stefanie Butland. Everyone welcome. No RSVP needed. Consult our [Events](/events) page to find your local time and how to join.
 
+Our next sessions are
+
+* [Monday, 06 December 2021 17:00 PST](/events/coworking-2021-12/) (9 AM Australian Western);
+
+* [Tuesday, 04 January 2022 09:00 PST](/events/coworking-2022-01/) (9 AM North American Pacific).
 
 Find out about more [events](/events).
 
@@ -56,6 +80,7 @@ cran_unquote <- function(string) {
   gsub("\\'(.*?)\\'", "\\1", string)
 }
 tidy_package <- function(entry) {
+  if (is.list(entry$onboarding)) entry$onboarding <- entry$onboarding[[1]]
   tibble::tibble(
     package = entry$name,
     description = cran_unquote(entry$description),
@@ -477,67 +502,9 @@ if (length(tech_notes) > 0) {
 }
 ```
 
-## Citations
-
-```{r cit}
-citations <- jsonlite::read_json("https://ropensci-org.github.io/ropensci_citations/citations_all_parts_clean.json")
-```
-
-Below are the citations recently added to our database of `r length(citations)` articles, that you can explore on our [citations page](/citations).
-We found use of...
-
-```{r citations, results = "asis"}
-since <- lubridate::as_date(last_newsletter) - 1
-commits <- gh::gh(
-  "GET /repos/{owner}/{repo}/commits",
-  owner = "ropensci-org",
-  repo = "ropensci_citations",
-  since = sprintf(
-    "%s-%s-%sT00:00:00Z",
-    lubridate::year(since),
-    stringr::str_pad(lubridate::month(since), 2, "0", side = "left"),
-    stringr::str_pad(lubridate::day(since), 2, "0", side = "left")
-  )
-)
-old_commit <- gh::gh("/repos/{owner}/{repo}/commits/{ref}",
-  owner = "ropensci-org",
-  repo = "ropensci_citations",
-  ref = commits[[length(commits)]]$parents[[1]]$sha
-  )
-old <- "https://raw.githubusercontent.com/ropensci-org/ropensci_citations/%s/citations_all_parts_clean.json" %>%
-    sprintf(old_commit$sha) %>%
-    jsonlite::read_json() 
-
-new <- citations[length(old):length(citations)]
-
-format_package <- function(package, packages = packages) {
-  if (package %in% packages) {
-    package <- sprintf("[**%s**](https://docs.ropensci.org/%s)", package, package)
-  } else {
-    package <- sprintf("**%s**", package)
-  }
-  package
-}
-
-format_one <- function(citation, packages) {
-  packages <- toString(purrr::map_chr(citation$name, format_package, packages = packages))
-  sprintf("* %s in %s\n\n", packages, citation$citation)
-}
-
-cat(
-  paste0(
-    sort(purrr::map_chr(new, format_one, packages = registry$package)),
-    collapse = ""
-  )
-)
-
-```
-
-Thank you for citing our tools!
-
 ## Use cases
 
-```{r usecases}
+```{r usecases, eval = FALSE}
 # rerun get_use_cases.R at the same time
 usecases <- jsonlite::read_json("../../../data/usecases/usecases.json")
 get_one_case <- function(usecase) {
@@ -554,9 +521,9 @@ usecases <- dplyr::filter(usecases, date >= as.Date(last_newsletter))
 usecases <- split(usecases, seq(nrow(usecases)))
 ```
 
-`r snakecase::to_sentence_case(english(length(usecases)))` use cases of our packages and resources have been reported since we sent the last newsletter.
+<!--` snakecase::to_sentence_case(english(length(usecases)))` use cases of our packages and resources have been reported since we sent the last newsletter.-->
 
-```{r usecases2, results='asis'}
+```{r usecases2, results='asis', eval = FALSE}
 format_case <- function(usecase) {
   string <- sprintf("* [%s](%s). Reported by %s.", sub("\\.$", "", usecase$title), usecase$url, usecase$reporter)
 }
@@ -572,19 +539,77 @@ Explore [other use cases](/usecases) and [report your own](https://discuss.ropen
 
 ## Call for maintainers
 
-<!--IF CALL
-* [our guidance on _Changing package maintainers_](https://devguide.ropensci.org/changing-maintainers.html)
-* [our _Package Curation Policy_](https://devguide.ropensci.org/curationpolicy.html)
-
-IF NO CALL
 There's no open call for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
-As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. -->
+As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. 
 
 ## Package development corner
 
 Some useful tips for R package developers. :eyes:
 
-<!-- To be curated by hand -->
+### Only use the best dependencies!
+
+Some dependencies are better than others: in particular, it's best not to depend on unmaintained packages or packages scheduled for retirement.
+
+In our dev guide we have some [scaffolding advice](https://devdevguide.netlify.app/building.html#recommended-scaffolding) (note this is a link to the development version of the dev guide!):
+
+* For HTTP requests we recommend using [curl][], [crul][], [httr][] or [httr2][] over [RCurl][]. If you like low level clients for HTTP, [curl][] is best, whereas [crul][] or [httr][] or [httr2][] are better for higher level access. 
+
+* For parsing JSON, use [jsonlite][] instead of [rjson][] or [RJSONIO][].
+
+* For parsing, creating, and manipulating XML, we strongly recommend [xml2][] for most cases. [You can refer to Daniel Nüst's notes about migration from XML to xml2](https://gist.github.com/nuest/3ed3b0057713eb4f4d75d11bb62f2d66).
+
+* For spatial data, the [sp][] package should be considered deprecated in favour of [sf][], and the packages [rgdal][], [maptools][], and [rgeos][] will be retired by the end of 2023. We recommend use of the spatial suites developed by the [r-spatial](https://github.com/r-spatial) and [rspatial](https://github.com/rspatial) communities. See [this GitHub issue](https://github.com/ropensci/software-review-meta/issues/47) for relevant discussions.
+
+Furthermore, in the recent [release notes of r-lib cli](https://www.tidyverse.org/blog/2021/11/cli-3-1-0/#what-about-the-crayon-package) it was interesting to note "Our focus will be on improving the cli package in the future, and crayon will only receive important bug fixes. If you already use both cli and crayon, then it might make sense to completely switch to cli.".
+
+As a package developer, informing users of the lifecycle is crucial.
+It's part of our [standards for statistical software](https://stats-devguide.ropensci.org/standards.html#general-standards): "Statistical Software should include a Life Cycle Statement describing current and anticipated future states of development".
+
+
+[curl]: https://github.com/jeroen/curl/
+[RCurl]: https://cran.rstudio.com/web/packages/RCurl/
+[crul]: https://github.com/ropensci/crul/
+[httr]: https://httr.r-lib.org
+[httr2]: https://httr2.r-lib.org
+[webmockr]: https://github.com/ropensci/webmockr/
+[vcr]: https://github.com/ropensci/vcr/
+[jsonlite]: https://github.com/jeroen/jsonlite
+[rjson]: https://cran.rstudio.com/web/packages/rjson/
+[RJSONIO]: https://cran.rstudio.com/web/packages/RJSONIO/
+[xml2]: https://cran.rstudio.com/web/packages/xml2/
+[sp]: https://github.com/edzer/sp/
+[sf]: https://r-spatial.github.io/sf/
+[rgdal]: https://cran.r-project.org/web/packages/rgdal/index.html
+[maptools]: https://cran.r-project.org/web/packages/maptools/index.html
+[rgeos]: https://cran.r-project.org/web/packages/rgeos/index.html
+
+For more general posts about dependencies, see
+
+* [limiting dependencies in R package development](https://recology.info/2018/10/limiting-dependencies/) by rOpenSci co-founder Scott Chamberlain;
+* [It depends - A dialog about dependencies](https://www.tidyverse.org/blog/2019/05/itdepends/) by Jim Hester;
+* our dev guide's section about [package dependencies](https://devguide.ropensci.org/building.html#pkgdependencies).
+
+### List of "Awesome R package development" tools maintained by Indrajeet Patil
+
+[Indrajeet Patil](https://github.com/IndrajeetPatil) created a list ["Awesome R package development"](https://indrajeetpatil.github.io/awesome-r-pkgtools/).
+Browse it to check you already know all of the awesome things!
+
+### Shim files
+
+Do you know what shim files are?
+If you use `devtools::load_all()`, chances are you do know _of_ them, cf [pkgload docs](https://r-lib.github.io/pkgload/reference/load_all.html#shim-files).
+"`load_all()` also inserts shim functions into the imports environment
+of the loaded package. It presently adds a replacement version of
+`system.file()` which returns different paths from
+`base::system.file()`. This is needed because installed and uninstalled
+package sources have different directory structures. Note that this is not
+a perfect replacement for `base::system.file()`."
+
+This is different from [monkey-patching](https://en.wikipedia.org/wiki/Monkey_patch) that is [not allowed in R](https://books.ropensci.org/http-testing/vcr-intro.html?q=monkey#hooks-into-http-clients).
+
+### Function-specific and package-specific environments
+
+If you are curious about the use of private environments for functions and packages, have a read of this [nice R-package-devel thread](https://www.mail-archive.com/r-package-devel@r-project.org/msg07413.html)!
 
 ## Last words
 
