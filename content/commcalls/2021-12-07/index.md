@@ -15,13 +15,16 @@ location: Community call (teleconference)
 country: "\U0001F310"
 attendees: All are welcome
 slug: dec2021-automation
-# notes: https://docs.google.com/document/d/1o933nG1ZW2Qf8p7FdQxn8wOkk9qoBINL1fx3FlIFSJU/
+notes: https://docs.google.com/document/d/1xDHZFjYBZgzBanT9b1kgByxL5A_p95zW0XCzUt98TPY/
 outputs:
 - HTML
 - Calendar 
 # vimeo:
 # - id: '518761488'
 resources:
+  - url: https://ropensci-review-bot.netlify.app/#/
+    name: Maëlle's slides
+    details: 
   - url: /software-review/
     name: rOpenSci Software Peer Review
     details: 
