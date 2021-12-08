@@ -4,7 +4,7 @@ dateStart: 2021-12-07T17:00:00 # UTC!!
 dateEnd: 2021-12-07T18:00:00 # UTC!!
 date: 2021-12-07T18:00:00 # UTC!! same as dateEnd
 publishDate: 2021-11-02
-# description: Community Call on 
+description: Community Call on rOpenSci's reviewbot
 author:
   - Arfon Smith
   - Karthik Ram
@@ -19,11 +19,20 @@ notes: https://docs.google.com/document/d/1xDHZFjYBZgzBanT9b1kgByxL5A_p95zW0XCzU
 outputs:
 - HTML
 - Calendar 
-# vimeo:
-# - id: '518761488'
+vimeo:
+- id: '654363554'
 resources:
+  - url: https://inundata.org/talks/ropensci-software-review/
+    name: Karthik's slides
+    details: 
+  - url: https://speakerdeck.com/arfon/joss-ropensci-presentation
+    name: Arfon's slides
+    details: 
   - url: https://ropensci-review-bot.netlify.app/#/
     name: Maëlle's slides
+    details: 
+  - url: /pdfs/ro-commcall-buffy-roreviewapi-noamross-2021-12-07.pdf
+    name: Noam's slides
     details: 
   - url: /software-review/
     name: rOpenSci Software Peer Review
@@ -74,3 +83,13 @@ Software peer-review involves coordinating and tracking many moving parts: softw
 On this call we will discuss how rOpenSci has worked with The [Journal of Open Source Software](https://joss.theoj.org/) to extend JOSS’s approach of [chatops-driven publishing](https://www.arfon.org/chatops-driven-publishing) into a new GitHub chat-bot that manages our editorial process: assigning tasks, tagging issues, running tests on software submissions, and returning reports to reviewers and editors, logging reviews in an external (Airtable) database, all from the comfort of a GitHub issue comment. Chat-ops automation has been critical to JOSS’s success, and shows huge promise for automating even more tedious tasks like frequent software checks and compliance with best practices.
 
 We will show how our new review bot improves the author and editor experience, demonstrate how other teams can use and customize the bot, and discuss how this approach can be extended to tackle other automation, code review, and reproducibility challenges.
+
+See below for speaker bios and resources.
+
+Index of video:
+- 0:00 Stefanie Butland, introduction
+- 4:03 Karthik Ram
+- 9:50 Arfon Smith
+- 20:42 Maëlle Salmon
+- 31:39 Noam Ross
+- 42:48 Q & A
