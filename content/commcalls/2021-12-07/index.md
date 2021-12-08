@@ -31,7 +31,7 @@ resources:
   - url: https://ropensci-review-bot.netlify.app/#/
     name: Maëlle's slides
     details: 
-  - url: https://ropensci-review-bot.netlify.app/#/
+  - url: /pdfs/ro-commcall-buffy-roreviewapi-noamross-2021-12-07.pdf
     name: Noam's slides
     details: 
   - url: /software-review/
