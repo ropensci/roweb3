@@ -4,7 +4,7 @@ dateStart: 2021-12-07T17:00:00 # UTC!!
 dateEnd: 2021-12-07T18:00:00 # UTC!!
 date: 2021-12-07T18:00:00 # UTC!! same as dateEnd
 publishDate: 2021-11-02
-# description: Community Call on 
+description: Community Call on rOpenSci's reviewbot
 author:
   - Arfon Smith
   - Karthik Ram
@@ -19,11 +19,20 @@ notes: https://docs.google.com/document/d/1xDHZFjYBZgzBanT9b1kgByxL5A_p95zW0XCzU
 outputs:
 - HTML
 - Calendar 
-# vimeo:
-# - id: '518761488'
+vimeo:
+- id: '654363554'
 resources:
+  - url: https://inundata.org/talks/ropensci-software-review/
+    name: Karthik's slides
+    details: 
+  - url: https://speakerdeck.com/arfon/joss-ropensci-presentation
+    name: Arfon's slides
+    details: 
   - url: https://ropensci-review-bot.netlify.app/#/
     name: Maëlle's slides
+    details: 
+  - url: https://ropensci-review-bot.netlify.app/#/
+    name: Noam's slides
     details: 
   - url: /software-review/
     name: rOpenSci Software Peer Review
