@@ -39,8 +39,8 @@ Look for an rOpenSci champions project launch announcement in 2022.
 
 ### References
 
-[^1]: Woodley L. and Pratt K. (2021). Center for Scientific Collaboration and Community Engagement. (2021) The CSCCE Community Participation Model -  Exploring the Champion mode. [10.5281/zenodo.5275270](https://doi.org/10.5281/zenodo.5275270)
+[^1]: Woodley L. and Pratt K. (2021). Center for Scientific Collaboration and Community Engagement. (2021) The CSCCE Community Participation Model - Exploring the Champion mode. [10.5281/zenodo.5275270](https://doi.org/10.5281/zenodo.5275270)
 
-[^2]: K. Ram, C. Boettiger, S. Chamberlain, N. Ross, M. Salmon and S. Butland, "A Community of Practice Around Peer Review for Long-Term Research Software Sustainability," in Computing in Science & Engineering, vol. 21, no. 2, pp. 59-65, 1 March-April 2019, doi: 10.1109/MCSE.2018.2882753.
+[^2]: Ram K., Boettiger C., Chamberlain S., Ross N., Salmon M. and Butland S. (2019) "A Community of Practice Around Peer Review for Long-Term Research Software Sustainability," in Computing in Science & Engineering, vol. 21, no. 2, pp. 59-65, [10.1109/MCSE.2018.2882753](https://doi.org/10.1109/MCSE.2018.2882753).
 
-[^3]: How To Improve Conference Accessibility For Screen-Reader Users—An Interview With Liz Hare [https://user2021.r-project.org/blog/2021/11/04/accessibility_interview_liz_hare/](https://user2021.r-project.org/blog/2021/11/04/accessibility_interview_liz_hare/) accessed Dec 13, 2021
+[^3]: How To Improve Conference Accessibility For Screen-Reader Users — An Interview With Liz Hare [https://user2021.r-project.org/blog/2021/11/04/accessibility_interview_liz_hare/](https://user2021.r-project.org/blog/2021/11/04/accessibility_interview_liz_hare/) accessed Dec 13, 2021
