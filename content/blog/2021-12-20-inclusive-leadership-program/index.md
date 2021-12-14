@@ -32,7 +32,7 @@ One of our most successful efforts is our [Software Peer Review System](https://
 
 ### Gratitude for those who do the hard work
 
-We would like to thank organizations like [Minorities in R](https://mircommunity.com/) for those who are often the "only ones in the room", the [Latin American R community](http://lacion.rbind.io/talk/2020_user2020_panel/), [AfricaR](https://africa-r.org/#home), the nascent AsiaR community,  [R-Ladies](https://rladies.org/about-us/) for women and other gender minorities, and [projects that encourage implementing accessibility standards](https://user2021.r-project.org/blog/2021/11/04/accessibility_interview_liz_hare/)[^3]. Their members do the hard work and show us the way.
+We would like to thank organizations like [Minorities in R](https://mircommunity.com/) for those who are often the "only ones in the room", the [Latin American R community](http://lacion.rbind.io/talk/2020_user2020_panel/), [AfricaR](https://africa-r.org/#home), the nascent AsiaR community,  [R-Ladies](https://rladies.org/about-us/) for women and other gender minorities, [Forwards](https://forwards.github.io/) and [projects that encourage implementing accessibility standards](https://user2021.r-project.org/blog/2021/11/04/accessibility_interview_liz_hare/)[^3]. Their members do the hard work and show us the way.
 
 Look for an rOpenSci champions project launch announcement in 2022.
 
