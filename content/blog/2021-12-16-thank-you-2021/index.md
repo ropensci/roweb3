@@ -14,37 +14,32 @@ tweet: "Thank you from the rOpenSci community team @stefaniebutland and @steffil
 
 Can you think of an rOpenSci community member that you'd like to thank?
 
-- A reviewer who helped your package be that much more awesome?
+- A reviewer who helped you improve your package?
 - Someone who answered your question? 
 - A community call speaker from whom you gained insight?
 - Someone who encouraged you behind the scenes?
 
 Consider leaving them a note in the comments below expressing your gratitude. 
 We often *think* our thank yous, but *expressing* thank yous can be incredibly meaningful.
+Try to be specific. 
+What did they do? 
+What impact did their actions have?
 
 On that note, we also want to take a moment to say **thank you**, to YOU.
 Thank you so much for making the rOpenSci community that much more awesome.
 
-Although it's been another hard year across the globe, this community has continued to 
-contribute.
+Although it's been another hard year across the globe, this community has continued to come together to build good things.
+We've had 20 packages successfully complete [software peer review](/software-review/)[^1] with the help of ~40 [reviewers](https://devguide.ropensci.org/softwarereviewintro.html#reviewers) and 11 [editors](/about/#team), including 3 new editors. 
+Many people contributed code or documentation. Similar to last year, 85 people made their first code contribution to rOpenSci this year! 
+Others shared [use cases](/usecases/) (88 new ones!) to help package authors see how their work is being used and help other users imagine how they can apply it.
 
-We've had 20 packages successfully complete [software peer review](/software-review/)[^1] 
-with the help of XXX [reviewers](https://devguide.ropensci.org/softwarereviewintro.html#reviewers) including several new [Editors](/about/#team). 
-
-Many people contributed code or documentation (similar to last year, 85 people made their first code contribution to rOpenSci this year!); others shared [use cases](/usecases/) (88 new ones!) to help package authors see how their work is being used and help other users imagine how they can apply it.
-
-Our [blog](/archive/) has benefited from the voices of many different authors (34 community member authors, including 13 first-time authors), 
-and the same can be said of for our [Community Calls](/commcalls/) (XXX people in XXX countries).
-
-
-> **Following is pretty much the same as last year...NEEDS UPDATING**
-
-EDIT THIS: Others have cited our software, asked or answered questions, commented on project ideas, added notes to a public doc, invited us to talk about our work, or gave us a shoutout in a presentation, a post, or on Twitter.
+Our community has benefited from the voices of many different people this year. Our [blog](/archive/) had 34 community member authors, including 13 first-time authors, [Community Calls](/commcalls/) were attended by over 200 people in 27 countries on 5 continents, and virtual social coworking and office hours brought together people from at least 12 countries to get their own work done and to join in some spirited scavenger hunts!
+Many others have continued to cite our software, ask or answer questions, open issues to report bugs or request features, make pull requests to fix things, weigh in on standards and best practices, invited us to talk about our work, or mentioned us in a presentation, a post, or on Twitter.
 
 Some people’s volunteer contributions this year warrant a special mention (alpha-sorted by first name):
 
 *   Editors for [Software Peer Review](/software-review/), [Adam Sparks](/author/adam-sparks/), [Anna Krystalli](/author/anna-krystalli/), [Emily Riederer](/emily-riederer/), [Laura DeCicco](/author/laura-decicco/), [Jeff Hollister](/author/jeff-hollister/), [Julia Gustavsen](/author/julia-gustavsen/), [Mauro Lepore](/author/mauro-lepore/), [Melina Vidoni](/author/melina-vidoni/), plus rOpenSci team members who volunteer as Editors, [Karthik Ram](/author/karthik-ram/), [Noam Ross](/author/noam-ross/), [Maëlle Salmon](/author/maëlle-salmon/);
-*   Advisory Board and Editors for [Statistical Software Peer Review](/stat-software-review/), [Ben Bolker](https://ms.mcmaster.ca/~bolker/), [Leonardo Collado-Torres](/author/leonardo-collado-torres/), [Paula Moraga](http://www.paulamoraga.com/), [Rebecca Killick](/author/rebecca-killick/), [Stephanie Hicks](https://www.stephaniehicks.com/), [Toby Hocking](https://tdhock.github.io/), and alumni [Max Kuhn](https://appliedpredictivemodeling.com/), [Martin Morgan](https://www.roswellpark.org/martin-morgan);
+*   Advisory Board and Editors for [Statistical Software Peer Review](/stat-software-review/), [Ben Bolker](https://ms.mcmaster.ca/~bolker/), [Leonardo Collado-Torres](/author/leonardo-collado-torres/), [Paula Moraga](http://www.paulamoraga.com/), [Rebecca Killick](/author/rebecca-killick/), [Stephanie Hicks](https://www.stephaniehicks.com/), [Toby Hocking](https://tdhock.github.io/), and alumni [Martin Morgan](https://www.roswellpark.org/martin-morgan), [Max Kuhn](https://appliedpredictivemodeling.com/);
 *   New maintainers of existing rOpenSci packages, [Alban Sagouis](https://github.com/AlbanSagouis), [David Selby](https://selbydavid.com/), [Hannah Owens](https://github.com/hannahlowens), [John Waller](https://github.com/jhnwllr), [Salix Dubois](https://github.com/salix-d); 
 *   Presenters in our Community Calls, [Alex Hayes](/author/alex-hayes/), [Anna Krystalli](/author/anna-krystalli/), [Arfon Smith](/author/arfon-smith/), [Christoph Sax](/author/christoph-sax/), [Hugo Gruson](/author/hugo-gruson/), [John Sakaluk](/author/john-sakaluk/), [Juliane Manitz](/author/juliane-manitz/), [Rebecca Killick](/author/rebecca-killick/), and the many many people who commented in our shared docs;
 *   Contributors to our guides
