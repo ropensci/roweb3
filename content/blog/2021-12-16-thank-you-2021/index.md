@@ -39,21 +39,20 @@ and the same can be said of for our [Community Calls](/commcalls/) (XXX people i
 
 > **Following is pretty much the same as last year...NEEDS UPDATING**
 
-Others have cited our software (XXX [citations](/citations/) of XXX [packages](/packages/all/)), asked or answered questions, commented on project ideas, added notes to a public doc, invited us to talk about our work, or gave us a shoutout in a presentation, a post, or on Twitter.
+EDIT THIS: Others have cited our software, asked or answered questions, commented on project ideas, added notes to a public doc, invited us to talk about our work, or gave us a shoutout in a presentation, a post, or on Twitter.
 
-Some people’s volunteer contributions this year warrant a special mention:
+Some people’s volunteer contributions this year warrant a special mention (alpha-sorted by first name):
 
 *   Editors for [Software Peer Review](/software-review/), [Adam Sparks](/author/adam-sparks/), [Anna Krystalli](/author/anna-krystalli/), [Emily Riederer](/emily-riederer/), [Laura DeCicco](/author/laura-decicco/), [Jeff Hollister](/author/jeff-hollister/), [Julia Gustavsen](/author/julia-gustavsen/), [Mauro Lepore](/author/mauro-lepore/), [Melina Vidoni](/author/melina-vidoni/), plus rOpenSci team members who volunteer as Editors, [Karthik Ram](/author/karthik-ram/), [Noam Ross](/author/noam-ross/), [Maëlle Salmon](/author/maëlle-salmon/);
-*   Advisory Board and Editors for [Statistical Software Peer Review](/stat-software-review/), [Ben Bolker](https://ms.mcmaster.ca/~bolker/), [Leonardo Collado-Torres](http://lcolladotor.github.io/), [Stephanie Hicks](https://www.stephaniehicks.com/), [Rebecca Killick](http://www.lancs.ac.uk/~killick/), [Max Kuhn](http://appliedpredictivemodeling.com/), [Paula Moraga](http://www.paulamoraga.com/);
-*   New maintainers of existing rOpenSci packages, [Stéphane Guillou](https://stragu.gitlab.io/), [Sergio Ibarra-Espinosa](https://github.com/ibarraespinosa), [Amanda Rehbein](https://github.com/salvatirehbein);
-*   Presenters in our Community Calls, [Carl Boettiger](/author/carl-boettiger/), [Scott Chamberlain](/author/scott-chamberlain/), [Leonardo Collado-Torres](/author/leonardo-collado-torres/), [Erin Grand](/author/erin-grand/), [Matt Jones](/author/matt-jones/), [Daniella Lowenberg](/author/daniella-lowenberg/), [Karthik Ram](/author/karthik-ram/), [Julia Silge](/author/julia-silge/), [Elin Waring](/author/elin-waring/), [Kara Woo](/author/kara-woo/);
+*   Advisory Board and Editors for [Statistical Software Peer Review](/stat-software-review/), [Ben Bolker](https://ms.mcmaster.ca/~bolker/), [Leonardo Collado-Torres](/author/leonardo-collado-torres/), [Paula Moraga](http://www.paulamoraga.com/), [Rebecca Killick](/author/rebecca-killick/), [Stephanie Hicks](https://www.stephaniehicks.com/), [Toby Hocking](https://tdhock.github.io/), and alumni [Max Kuhn](https://appliedpredictivemodeling.com/), [Martin Morgan](https://www.roswellpark.org/martin-morgan);
+*   New maintainers of existing rOpenSci packages, [Alban Sagouis](https://github.com/AlbanSagouis), [David Selby](https://selbydavid.com/), [Hannah Owens](https://github.com/hannahlowens), [John Waller](https://github.com/jhnwllr), [Salix Dubois](https://github.com/salix-d); 
+*   Presenters in our Community Calls, [Alex Hayes](/author/alex-hayes/), [Anna Krystalli](/author/anna-krystalli/), [Arfon Smith](/author/arfon-smith/), [Christoph Sax](/author/christoph-sax/), [Hugo Gruson](/author/hugo-gruson/), [John Sakaluk](/author/john-sakaluk/), [Juliane Manitz](/author/juliane-manitz/), [Rebecca Killick](/author/rebecca-killick/), and the many many people who commented in our shared docs;
 *   Contributors to our guides
-    *   [rOpenSci Statistical Software Peer Review](https://ropenscilabs.github.io/statistical-software-review-book/index.html), [François Briatte](https://github.com/briatte), [Leonardo Collado-Torres](http://lcolladotor.github.io/), [Rich FitzJohn](/author/rich-fitzjohn/), [Francisco Rodriguez-Sanchez](https://frodriguezsanchez.net/), [Yilong Zhang](https://github.com/elong0527);
-    *   [rOpenSci Packages: Development, Maintenance, and Peer Review](https://devguide.ropensci.org/), [Carl Boettiger](/author/carl-boettiger/), [Hugo Gruson](/author/hugo-gruson/), [Luke McGuinness](/author/luke-mcguinness/), [Aaron Wolen](/author/aaron-wolen/), and peer review Editors;
-    *   [rOpenSci Community Contributing Guide](https://contributing.ropensci.org/), [Toby Hodges](https://github.com/tobyhodges), [Julia Stewart Lowndes](/author/julia-stewart-lowndes/);
+    *   [rOpenSci Statistical Software Peer Review](https://ropenscilabs.github.io/statistical-software-review-book/index.html), [Christoph Sax](/author/christoph-sax/), [Jakub Nowosad](https://github.com/Nowosad), [Jem Stachelek](https://github.com/jsta), and stats peer review Editors;
+    *   [rOpenSci Packages: Development, Maintenance, and Peer Review](https://devguide.ropensci.org/), [Frans van Dunné](https://github.com/FvD), [Hugo Gruson](/author/hugo-gruson/), and peer review Editors;
+    *   [rOpenSci Community Contributing Guide](https://contributing.ropensci.org/), [Carlos Cámara](https://www.carloscamara.es/), [Jonas Hagenberg](https://github.com/jonas-hag), [Leon Lenostatos](https://github.com/Lenostatos);
 *   External member of our Code of Conduct Committee, [Kara Woo](/author/kara-woo/);
-*   rOpenSci Strategic Advisors, [Carl Boettiger](/author/carl-boettiger/), 
-[Jenny Bryan](/author/jenny-bryan/), [Rich FitzJohn](/author/rich-fitzjohn/).
+*   rOpenSci Strategic Advisors, [Carl Boettiger](/author/carl-boettiger/), [Jenny Bryan](/author/jenny-bryan/), [Rich FitzJohn](/author/rich-fitzjohn/).
 
 Thank you **all** for making rOpenSci.
 
