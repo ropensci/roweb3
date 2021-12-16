@@ -4,7 +4,7 @@ title: Thank You to the rOpenSci Community, 2021
 author:
   - Stefanie Butland
   - Steffi LaZerte
-date: 2021-12-16
+date: 2021-12-17
 tags:
   - community
   - thank you
