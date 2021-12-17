@@ -8,6 +8,7 @@ date: 2021-12-17
 tags:
   - community
   - thank you
+featured: true
 description: "Thank you for another amazing year at rOpenSci"
 tweet: "Thank you from the rOpenSci community team @stefaniebutland and @steffilazerte"
 ---
