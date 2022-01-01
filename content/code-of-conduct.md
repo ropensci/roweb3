@@ -57,7 +57,7 @@ We welcome your feedback by email to `conduct@ropensci.org`, and we thank you fo
 
 #### Alumni
 
-We thank Scott Chamberlain and Stefanie Butland for their past service on the committee
+We thank Scott Chamberlain and Stefanie Butland for their past service on the committee.
 
 #### License and Credits
 The rOpenSci Code of Conduct has been influenced by and adapted from many sources including the [Open Source and Feelings talk](https://youtu.be/nizfHxg8y3o) by [Audrey Eschright](https://lifeofaudrey.com/), the R Consortium R Community Diversity and Inclusion Working Group's draft [Code of Conduct](https://github.com/RConsortium/RCDI-WG/blob/0ca0a91dccc9296ff53a5806f52a2a49dbb8850d/conduct/code-of-conduct.md), the [Geek Feminism anti-harassment policy](https://geekfeminism.wikia.com/wiki/Community_anti-harassment/Policy), and our own Community Call: [How do I create a Code of Conduct for my event/lab/codebase?](/commcalls/2016-12-15/)
