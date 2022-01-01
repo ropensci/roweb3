@@ -9,7 +9,6 @@ date: '2022-01-13'
 slug: conduct2022
 tags:
   - code of conduct
-  - events
   - governance
   - community
 description: Updates for version 2.3 of rOpenSci's Code of Conduct
@@ -25,7 +24,7 @@ Here we report on our annual review of rOpenSci's Code of Conduct, reporting pro
 
 ## Updates
 
-1. A change to the committee. After serving on the Code of Conduct Committee for two years, Scott Chamberlain is stepping down and Mark Padgham has joined. Committee members for 2021 are [Stefanie Butland](/author/stefanie-butland) (rOpenSci Community Manager), [Mark Padgham](/author/mark-padgham) (rOpenSci Software Research Scientist) and [Kara Woo](https://karawoo.com/) (independent community member). We are responsible for receiving, investigating, deciding, enforcing and reporting on all reports of potential violations of our Code.
+1. A change to the committee. We welcome Megan Carter, ESIP Community Director, as a new independent member. [Kara Woo](https://karawoo.com/) (independent community member) is on leave from the committee until May 2022. After serving on the Code of Conduct Committee for three years, Stefanie Butland is stepping down. Committee members for 2022 are [Mark Padgham](/author/mark-padgham) (rOpenSci Software Research Scientist) and [Megan Carter] (https://www.esipfed.org/about/people/megan-carter). We are responsible for receiving, investigating, deciding, enforcing and reporting on all reports of potential violations of our Code.
 1. No changes have been made to the text of the Code.
 
 With this change of committee members, this will be version 2.3, dated January 13, 2021.
