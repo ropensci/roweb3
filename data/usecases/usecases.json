@@ -907,5 +907,14 @@
     "url": "https://discuss.ropensci.org/t/predizendo-volume-de-eucalipto-com-tidymodels-xgboost-e-targets/2656",
     "image": "predizendo-volume-de-eucalipto-com-tidymodels-xgboost-e-targets.jpeg",
     "date": "2021-10-13"
+  },
+  {
+    "title": "Evaluating semi-parametric nowcasts of COVID-19 hospital admissions in Germany",
+    "reporter": "Sam Abbott",
+    "tags": [],
+    "resource": "[targets](https://docs.ropensci.org/targets), [piggyback](https://docs.ropensci.org/piggyback)",
+    "url": "https://discuss.ropensci.org/t/evaluating-semi-parametric-nowcasts-of-covid-19-hospital-admissions-in-germany/2715",
+    "image": "evaluating-semi-parametric-nowcasts-of-covid-19-hospital-admissions-in-germany.jpeg",
+    "date": "2021-11-30"
   }
 ]
