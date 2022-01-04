@@ -3,7 +3,7 @@ slug: "post-template"
 title: Latest rOpenSci News Digest
 author:
   - The rOpenSci Team
-date: '2021-03-16'
+date: '2022-01-16'
 tags:
   - newsletter
 description: keywords from the content
@@ -11,7 +11,7 @@ output:
   html_document:
     keep_md: yes
 params:
-  last_newsletter: "2021-03-16"
+  last_newsletter: "2021-11-30"
 ---
 
 ```{r setup, include=FALSE}
@@ -28,6 +28,10 @@ url <- sprintf(
     )
 english <- function(x) {
   as.character(english::english(x))
+}
+
+nice_string <- function(...) {
+  glue::glue_collapse(..., sep = ", ", last = ", and ")
 }
 ```
 <!-- Before sending DELETE THE INDEX_CACHE and re-knit! -->
@@ -153,7 +157,7 @@ present_one <- function(package) {
   author_string <- sprintf("developed by %s", maintainer)
   
   if (length(aut) > 0) {
-    author_string <- paste0(author_string, sprintf(" together with %s", toString(aut)))
+    author_string <- paste0(author_string, sprintf(" together with %s", nice_string(aut)))
   } 
   
   string <- sprintf(
@@ -184,7 +188,7 @@ present_one <- function(package) {
   if (nzchar(package$onboarding)) {
     string <- paste0(string, sprintf("It has been [reviewed](%s)", package$onboarding))
     if (length(rev) > 0) {
-      string <- paste0(string, sprintf(" by %s.", toString(rev)))
+      string <- paste0(string, sprintf(" by %s.", nice_string(rev)))
     } else {
       string <- paste0(string, ".")
     }
@@ -257,7 +261,7 @@ format_release <- function(release) {
   )
 }
 all_releases <- purrr::map_chr(releases, format_release)
-text <- toString(all_releases)
+text <- nice_string(all_releases)
 ```
 
 The following `r if (length(releases) > 1) english(length(releases))` package`r if (length(releases) > 1) "s"` `r if (length(releases) > 1) "have" else "has"` had an update since the latest newsletter: `r text`.
@@ -388,7 +392,7 @@ parse_one_post <- function(path){
   
   meta <- tibble::tibble(
     date = anytime::anydate(yaml$date),
-    author = toString(yaml$author),
+    author = nice_string(yaml$author),
     title = yaml$title,
     software_peer_review = "Software Peer Review" %in% yaml$tags,
     tech_note = "tech notes" %in% yaml$tags && !"Software Peer Review" %in% yaml$tags,
@@ -476,64 +480,6 @@ if (length(tech_notes) > 0) {
   cat("\n\n")
 }
 ```
-
-## Citations
-
-```{r cit}
-citations <- jsonlite::read_json("https://ropensci-org.github.io/ropensci_citations/citations_all_parts_clean.json")
-```
-
-Below are the citations recently added to our database of `r length(citations)` articles, that you can explore on our [citations page](/citations).
-We found use of...
-
-```{r citations, results = "asis"}
-since <- lubridate::as_date(last_newsletter) - 1
-commits <- gh::gh(
-  "GET /repos/{owner}/{repo}/commits",
-  owner = "ropensci-org",
-  repo = "ropensci_citations",
-  since = sprintf(
-    "%s-%s-%sT00:00:00Z",
-    lubridate::year(since),
-    stringr::str_pad(lubridate::month(since), 2, "0", side = "left"),
-    stringr::str_pad(lubridate::day(since), 2, "0", side = "left")
-  )
-)
-old_commit <- gh::gh("/repos/{owner}/{repo}/commits/{ref}",
-  owner = "ropensci-org",
-  repo = "ropensci_citations",
-  ref = commits[[length(commits)]]$parents[[1]]$sha
-  )
-old <- "https://raw.githubusercontent.com/ropensci-org/ropensci_citations/%s/citations_all_parts_clean.json" %>%
-    sprintf(old_commit$sha) %>%
-    jsonlite::read_json() 
-
-new <- citations[length(old):length(citations)]
-
-format_package <- function(package, packages = packages) {
-  if (package %in% packages) {
-    package <- sprintf("[**%s**](https://docs.ropensci.org/%s)", package, package)
-  } else {
-    package <- sprintf("**%s**", package)
-  }
-  package
-}
-
-format_one <- function(citation, packages) {
-  packages <- toString(purrr::map_chr(citation$name, format_package, packages = packages))
-  sprintf("* %s in %s\n\n", packages, citation$citation)
-}
-
-cat(
-  paste0(
-    sort(purrr::map_chr(new, format_one, packages = registry$package)),
-    collapse = ""
-  )
-)
-
-```
-
-Thank you for citing our tools!
 
 ## Use cases
 
