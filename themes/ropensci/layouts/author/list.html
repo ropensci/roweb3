@@ -21,7 +21,7 @@
           {{ with .Params.github }}<a href="https://github.com/{{ . }}"> <i class="fab fa-github"></i></a>{{ end }}
          {{ with .Params.gitlab }}<a href="https://gitlab.com/{{ . }}"><i class="fab fa-gitlab"></i></a>{{ end }}
          {{ with .Params.keybase }}<a href="https://keybase.io/{{ . }}"><i class="fab fa-keybase"></i></a>{{ end }}
-          {{ if isset .Params "runiv" }}<a href="https://{{ .Params.runiv }}.r-universe.dev/ui"> <i class="fas fa-rocket"></i></a>{{ else }}{{ if isset .Params "github" }}<a href="https://{{ .Params.github }}.r-universe.dev/ui"> <i class="fas fa-rocket"></i></a>{{ end }}{{ end }}
+          {{ if isset .Params "runiv" }}<a href="https://{{ .Params.runiv }}.r-universe.dev"> <i class="fas fa-rocket"></i></a>{{ else }}{{ if isset .Params "github" }}<a href="https://{{ .Params.github }}.r-universe.dev"> <i class="fas fa-rocket"></i></a>{{ end }}{{ end }}
         </div>
       </div>
     </div>
