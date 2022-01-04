@@ -3,7 +3,7 @@ slug: "post-template"
 title: Latest rOpenSci News Digest
 author:
   - The rOpenSci Team
-date: '2021-01-16'
+date: '2022-01-16'
 tags:
   - newsletter
 description: keywords from the content
