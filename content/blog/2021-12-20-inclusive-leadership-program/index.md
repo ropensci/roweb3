@@ -1,6 +1,10 @@
 ---
 title: rOpenSci Announces $400k Award from the Chan Zuckerberg Initiative to Empower Historically Excluded Groups as Community Leaders in Scientific Open Source Projects
-author: Stefanie Butland, Karthik Ram, Noam Ross, Maëlle Salmon
+author: 
+  - Stefanie Butland
+  - Karthik Ram
+  - Noam Ross
+  - Maëlle Salmon
 date: '2021-12-20'
 slug: inclusive-leadership-program
 tags:
