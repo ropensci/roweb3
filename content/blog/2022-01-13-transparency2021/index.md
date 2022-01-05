@@ -16,6 +16,6 @@ The rOpenSci community is supported by our [Code of Conduct](/code-of-conduct) w
 
 In 2021, we did not receive any Code of Conduct incident reports.
 
-We acknowledge that a lack of incident reports does not mean everyone feels comfortable participating. If in doubt, please contact us at conduct at ropensci.org.
+We acknowledge that a lack of incident reports does not mean everyone feels comfortable participating. This code of conduct belongs to the community. We welcome your feedback at any time by emailing conduct at ropensci.org.
 
 
