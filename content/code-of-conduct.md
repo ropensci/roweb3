@@ -10,7 +10,7 @@ rOpenSci is committed to providing a safe, inclusive, welcoming, and harassment-
 
 We try to cultivate a community with shared values, where people are comfortable exploring ideas, asking questions, and saying things like "I don't understand" or "Why". Assume competence in the people you interact with. There are no stupid questions.
 
-Be considerate in speech and actions, and actively seek to acknowledge and respect the boundaries of fellow community members.
+Be considerate in speech and actions, and actively seek to acknowledge and respect the boundaries of people who participate in rOpenSci activities.
 
 Take care of each other. Alert a member of the Code of Conduct Committee (named below) if you notice a dangerous situation, someone in distress, or a potential violation of this Code of Conduct, even if it seems inconsequential.
 
