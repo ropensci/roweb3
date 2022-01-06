@@ -14,7 +14,7 @@ twitterAlt: "Two paper message balloons on a pink background"
 
 Do you have an account on [rOpenSci forum](https://discuss.ropensci.org)?
 As underlined in our [contributing guide](https://contributing.ropensci.org/resources.html#channels) our forum is where we encourage **Q&A and exploration of ideas on a various range of topics**.
-Compared to our Slack workspace, the forum is **entirely open and much easier to search**, so a great place to gather some collaborative knowledge!
+Compared to our [Slack](https://contributing.ropensci.org/resources.html#channels) semi-open workspace, the forum is **entirely open and much easier to search**, so a great place to gather some collaborative knowledge!
 We have recently **streamlined categories** so that it might be easier for you to find where to post, and what to follow.
 In this post we shall present current forum categories, and ways for you to keep up-to-date with the activity without getting overwhelmed.
 
@@ -84,7 +84,7 @@ If you want to discuss R in Antarctic and Southern Ocean science, use the [Antar
 
 * You can add the RSS feed of each category to your feed reader. The link to the RSS feed is the URL to the category plus `.rss` e.g. `https://discuss.ropensci.org/c/package-development/29.rss` (but if you copy-paste the URL `https://discuss.ropensci.org/c/package-development/29` in e.g. Feedly the actual feed will be found without your help).
 
-* In our semi-open slack, there's a channel, `#discuss-ropensci` with all activity from the forum, but that's probably not optimal for casual forum use.
+* In our [semi-open slack workspace](https://contributing.ropensci.org/resources.html#channels), there's a channel, `#discuss-ropensci` with all activity from the forum, but that's probably not optimal for casual forum use.
 
 * Subscribing to our [newsletter](/news) would mean you indirectly gain information from the forum as we summarized recent use cases, and digest package development tips.
 
