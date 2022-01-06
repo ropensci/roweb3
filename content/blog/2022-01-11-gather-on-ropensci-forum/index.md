@@ -8,15 +8,8 @@ tags:
   - forum
   - help
 description: "Why and how participate in rOpenSci forum; description of current categories."
-# If you have no preferred image for Twitter cards,
-# delete the twitterImg and twitterAlt lines below 
-# - Replace "blog" with "technotes" as needed
-# - Note "/" between year/month/day
 twitterImg: blog/2022/01/11/gather-on-ropensci-forum/convo.jpg
-twitterAlt: "Alternative description of the image"
-# the text below is for populating the "share on Twitter" button
-# if deleted, the title of the post will be used
-tweet: "A post about blabla by @username!"
+twitterAlt: "Two paper message balloons on a pink background"
 ---
 
 Do you have an account on [rOpenSci forum](https://discuss.ropensci.org)?
@@ -97,6 +90,11 @@ If you want to discuss R in Antarctic and Southern Ocean science, use the [Antar
 
 {{< figure src="cloud.jpg" alt="Thought cloud bubble on a pink background" caption="Picture by [Miguel Á. Padriñán on Pexels](https://www.pexels.com/fr-fr/@padrinan)." link="https://www.pexels.com/photo/white-bubble-illustration-1111372/" width="500px" class="center" >}}
 
+## Not forum categories
+
+Discussions about [R-universe](/r-universe) are encouraged in https://github.com/r-universe-org/bugs/discussions & bug reports to https://github.com/r-universe-org/bugs/issues.
+
+Discussions about [statistical software review](/stat-software-review/) have moved to https://github.com/ropensci/statistical-software-review-book/discussions.
 
 ## Conclusion
 
