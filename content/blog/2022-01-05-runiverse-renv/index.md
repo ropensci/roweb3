@@ -22,6 +22,8 @@ RStudio's [renv](https://rstudio.github.io/renv/) package is a powerful dependen
 
 The [latest version of renv (0.15.0)](https://rstudio.github.io/renv/news/index.html#renv-0150) now supports restoring packages that were installed from r-universe. In this post we explain how this works, and why.
 
+
+
 ## Why r-universe is not an archive
 
 The letter A in CRAN stands for 'archive': the source code for all versions of all packages that were ever released on CRAN are stored indefinitely on an ever-growing ftp server. The CRAN homepage for each package has a link to "Old sources" which lists all the source packages (with timestamps) in the archive, [some dating back over 20 years](https://cran.r-project.org/src/contrib/Archive/Matrix/). This is a fantastic service, but quite expensive. For this reason CRAN has to limit the size of source packages and release frequency per package. 
@@ -68,6 +70,9 @@ Now this gives us an unambiguous reference to the exact source code, in this cas
 This provides renv and similar tools with the required information for installing precisely this same version on another machine. There is no way to cheat: any change in source code will result in a different sha, even if the version number in the description file stays the same.
 
 ## How renv restores from r-universe
+
+![flow chart from upstream git server to r](diagram.svg)
+
 
 Depending on where a package originates from, renv uses different methods for finding an older source. For CRAN packages, it uses the CRAN archive, and for packages installed with `install_github()` it will checkout the old version from git based on the commit hash.
 
