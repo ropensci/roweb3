@@ -1,9 +1,9 @@
 ---
 slug: runiverse-renv
-title: 'How renv restores packages from r-universe'
-date: '2022-01-05'
+title: 'How renv restores packages from r-universe for reproducibility or production'
+date: '2022-01-06'
 author: Jeroen Ooms
-description: 'The latest version of renv now supports restoring packages that were installed from r-universe.'
+description: 'The latest version of renv now supports restoring packages that were installed from r-universe. In this post we explain how this works, and why it has to work this way.'
 tags:
   - r-universe
   - tech notes
@@ -18,10 +18,9 @@ For more information, visit the [r-universe project page](/r-universe/).</em></s
 
 ## What is renv
 
-RStudio's [renv](https://rstudio.github.io/renv/) package is a powerful dependency management toolkit for R. It allows you to create a *lockfile* that records the exact versions of R packages used in a given project, and provides tooling to install exactly those same versions on another machine, or at a later point in time. This is very useful to create an isolated environment for reproducibility or production purposes.
+RStudio's [renv](https://rstudio.github.io/renv/) package is a powerful dependency management toolkit for R. It allows you to create a *lockfile* that records the exact versions of R packages used in a given project, and provides tooling to install exactly those same versions on another machine, or at a later point in time. This is very useful to create an isolated project environment for reproducibility or production purposes.
 
-The [latest version of renv (0.15.0)](https://rstudio.github.io/renv/news/index.html#renv-0150) now supports restoring packages that were installed from r-universe. In this post we explain how this works, and why.
-
+The [latest version of renv (0.15.0)](https://rstudio.github.io/renv/news/index.html#renv-0150) now supports restoring packages that were installed from r-universe. In this post we explain how this works, and why it has to work this way.
 
 
 ## Why r-universe is not an archive
