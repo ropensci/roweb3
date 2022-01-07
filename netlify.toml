@@ -19,3 +19,10 @@
   from = "/*"
   to = "/404.html"
   status = 404
+  
+[[headers]]
+  # Define which paths this specific [[headers]] block will cover.
+  for = "/fonts"
+    [headers.values]
+    Access-Control-Allow-Origin = "https://docs.ropensci.org"
+    Vary = "Origin"
