@@ -22,7 +22,7 @@
   
 [[headers]]
   # Define which paths this specific [[headers]] block will cover.
-  for = "/fonts"
+  for = "/fonts/*"
     [headers.values]
     Access-Control-Allow-Origin = "https://docs.ropensci.org"
     Vary = "Origin"
