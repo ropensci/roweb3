@@ -125,7 +125,8 @@ new <- dplyr::filter(
   registry,
   !package %in% old$package,
   !grepl("ropenscilabs\\/", url),
-  !grepl("ropensci-archive\\/", url)
+  !grepl("ropensci-archive\\/", url),
+  !package == "climatrends"
 )
 ```
 
@@ -522,17 +523,33 @@ Explore [other use cases](/usecases) and [report your own](https://discuss.ropen
 
 ## Call for maintainers
 
-<!--IF CALL
-* [our guidance on _Changing package maintainers_](https://devguide.ropensci.org/changing-maintainers.html)
-* [our _Package Curation Policy_](https://devguide.ropensci.org/curationpolicy.html)
-
-IF NO CALL
 There's no open call for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
-As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. -->
+As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. 
 
 ## Package development corner
 
 Some useful tips for R package developers. :eyes:
+
+### To quote or not to quote (non-existing words in DESCRIPTION)?
+
+To avoid spelling NOTEs, it is recommended to [_"Put the names of R packages, software, and APIs inside single quotes."_ in `DESCRIPTION`](https://r-pkgs.org/description.html) (as phrased in the R packages book by Hadley Wickham and Jenny Bryan).
+
+Now, there is a hack allowing you to not add the quotes, as seen in e.g. [RPostgres](https://github.com/cran/RPostgres/tree/master/.aspell).
+Say you use the non-existing words "changelog" and "versioning" in the `DESCRIPTION` of your package `coolstuff`.
+Two steps!
+
+* Run `saveRDS(c("versioning", "changelog"), file = ".aspell/coolstuff.rds", version = 2)` which will create a file with these words!
+* Add a script `.aspell/defaults.R` that will refer to both the standard dictionary ("en_stats") and the one you just created ("coolstuff").
+
+```r
+Rd_files <- vignettes <- R_files <- description <-
+    list(encoding = "UTF-8",
+         language = "en",
+         dictionaries = c("en_stats", "coolstuff"))
+```
+
+Voilà, goodbye quotes in `DESCRIPTION`!
+Thanks to [Jim Hester and Kirill Müller](https://github.com/cynkra/fledge/pull/171#discussion_r762045958) for this cool trick that's not [used a lot](https://github.com/search?q=user%3Acran+extension%3Ards+path%3A.aspell&type=Code&l=&l=) (yet?).
 
 <!-- To be curated by hand -->
 

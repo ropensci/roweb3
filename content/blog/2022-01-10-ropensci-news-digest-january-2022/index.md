@@ -27,8 +27,12 @@ Now let's dive into the activity at and around rOpenSci!
 <!-- to be curated manually -->
 
 <!-- Can use same coworking text every month and ping Steffi to ask if there are any special guests to add -->
-Join us for social coworking & office hours monthly on 1st Tuesdays! Hosted by Steffi LaZerte, Nick Tierney, and Stefanie Butland. Everyone welcome. No RSVP needed. Consult our [Events](/events) page to find your local time and how to join.
+Join us for social coworking & office hours monthly on 1st Tuesdays! Hosted by Steffi LaZerte and Nick Tierney. Everyone welcome. No RSVP needed. Consult our [Events](/events) page to find your local time and how to join.
 
+Our next sessions are:
+
+* [Monday, 31 January 2022 17:00 PST](https://ropensci.org/events/coworking-2022-02/) (9 AM Australian Western);
+* [Tuesday, 01 March 2022 09:00 PST](https://ropensci.org/events/coworking-2022-03/) (17:00 UTC).
 
 Find out about more [events](/events).
 
@@ -39,11 +43,9 @@ Find out about more [events](/events).
 
 
 
-The following two packages recently became a part of our software suite:
+The following  package recently became a part of our software suite:
 
 + [rotemplate](https://docs.ropensci.org/rotemplate), developed by Maëlle Salmon together with Jeroen Ooms: This is a private template for use by rOpenSci packages. Please don't use it for your own non-rOpenSci package. 
-
-+ [climatrends](https://docs.ropensci.org/climatrends), developed by Kauê de Sousa: Supports analysis of trends in climate change, ecological and crop modelling. 
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
@@ -137,17 +139,33 @@ Explore [other use cases](/usecases) and [report your own](https://discuss.ropen
 
 ## Call for maintainers
 
-<!--IF CALL
-* [our guidance on _Changing package maintainers_](https://devguide.ropensci.org/changing-maintainers.html)
-* [our _Package Curation Policy_](https://devguide.ropensci.org/curationpolicy.html)
-
-IF NO CALL
 There's no open call for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
-As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. -->
+As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. 
 
 ## Package development corner
 
 Some useful tips for R package developers. :eyes:
+
+### To quote or not to quote (non-existing words in DESCRIPTION)?
+
+To avoid spelling NOTEs, it is recommended to [_"Put the names of R packages, software, and APIs inside single quotes."_ in `DESCRIPTION`](https://r-pkgs.org/description.html) (as phrased in the R packages book by Hadley Wickham and Jenny Bryan).
+
+Now, there is a hack allowing you to not add the quotes, as seen in e.g. [RPostgres](https://github.com/cran/RPostgres/tree/master/.aspell).
+Say you use the non-existing words "changelog" and "versioning" in the `DESCRIPTION` of your package `coolstuff`.
+Two steps!
+
+* Run `saveRDS(c("versioning", "changelog"), file = ".aspell/coolstuff.rds", version = 2)` which will create a file with these words!
+* Add a script `.aspell/defaults.R` that will refer to both the standard dictionary ("en_stats") and the one you just created ("coolstuff").
+
+```r
+Rd_files <- vignettes <- R_files <- description <-
+    list(encoding = "UTF-8",
+         language = "en",
+         dictionaries = c("en_stats", "coolstuff"))
+```
+
+Voilà, goodbye quotes in `DESCRIPTION`!
+Thanks to [Jim Hester and Kirill Müller](https://github.com/cynkra/fledge/pull/171#discussion_r762045958) for this cool trick that's not [used a lot](https://github.com/search?q=user%3Acran+extension%3Ards+path%3A.aspell&type=Code&l=&l=) (yet?).
 
 <!-- To be curated by hand -->
 
