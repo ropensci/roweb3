@@ -1,19 +1,19 @@
 ---
 slug: "ropensci-forum"
-title: Gather on rOpenSci Forum
+title: Gather on the rOpenSci Forum
 author:
   - The rOpenSci Team
 date: 2022-01-11
 tags:
   - forum
   - help
-description: "Why and how participate in rOpenSci forum; description of current categories."
+description: "Why and how participate in the rOpenSci forum; descriptions of current categories."
 twitterImg: blog/2022/01/11/gather-on-ropensci-forum/convo.jpg
 twitterAlt: "Two paper message balloons on a pink background"
 ---
 
-Do you have an account on [rOpenSci forum](https://discuss.ropensci.org)?
-As underlined in our [contributing guide](https://contributing.ropensci.org/resources.html#channels) our forum is where we encourage **Q&A and exploration of ideas on a various range of topics**.
+Do you have an account on the [rOpenSci forum](https://discuss.ropensci.org)?
+As underlined in our [contributing guide](https://contributing.ropensci.org/resources.html#channels), our forum is where we encourage **Q&A and exploration of ideas on a various range of topics**.
 Compared to our [Slack](https://contributing.ropensci.org/resources.html#channels) semi-open workspace, the forum is **entirely open and much easier to search**, so a great place to gather some collaborative knowledge!
 We have recently **streamlined categories** so that it might be easier for you to find where to post, and what to follow.
 In this post we shall present current forum categories, and ways for you to keep up-to-date with the activity without getting overwhelmed.
@@ -24,7 +24,7 @@ In this post we shall present current forum categories, and ways for you to keep
 
 First note that forum categories are there to serve users, not the other way round!
 So if you post in the "wrong" category, no problem! 
-We can transfer the post to a more relevant category if relevant to get more eyes on it, but really no harm done!
+If necessary, we can transfer the post to a more relevant category to make it more visible, but really no harm done!
 
 ### Package Use Questions
 
@@ -35,12 +35,12 @@ Or how to [update resources with ckanr](https://discuss.ropensci.org/t/updating-
 ### Wishlist
 
 What if you wish that, or wonder whether, a certain package existed?
-Post in the [wishlist category](https://discuss.ropensci.org/c/wishlist/6)!
+Post in the [Wishlist category](https://discuss.ropensci.org/c/wishlist/6)!
 
 ### Package Development
 
 Do you maintain or contribute to an R package, rOpenSci-affiliated or not?
-You can ask questions in the [package development category](https://discuss.ropensci.org/c/package-development/29)!
+You can ask questions in the [Package Development category](https://discuss.ropensci.org/c/package-development/29)!
 
 ###  General Q&A
 
@@ -48,12 +48,12 @@ The [Q&A category](https://discuss.ropensci.org/c/general-qa/17) is good for ask
 
 ### Jobs
 
-The [jobs category](https://discuss.ropensci.org/c/jobs/22) welcomes job postings!
+The [Jobs category](https://discuss.ropensci.org/c/jobs/22) welcomes job postings!
  Please keep your posts limited to jobs that seem like a good fit for our community. That is, jobs relating to software + science.
 
 ### Use Cases
 
-Use (:wink:) the [use cases category](https://discuss.ropensci.org/c/usecases/10) for reporting use of our [packages](/packages) or resources (e.g. our [dev guide](https://devguide.ropensci.org) or [contributing guide](https://contributing.ropensci.org)).
+Use (:wink:) the [Use Cases category](https://discuss.ropensci.org/c/usecases/10) for reporting examples of how our [packages](/packages) or resources (e.g. our [dev guide](https://devguide.ropensci.org) or [contributing guide](https://contributing.ropensci.org)) have been used in the wild.
 We then extract use cases as JSON and present them in a nice table on [this very website](/usecases).
 
 ### Blog
@@ -62,11 +62,11 @@ This is the category you'd end up in via the blog itself, as it's used for comme
 
 ### Code of Conduct
 
-The [code of conduct category](https://discuss.ropensci.org/c/conduct/25) is reserved for transparency reports made by our [code of conduct committee](/code-of-conduct).
+The [Code of Conduct category](https://discuss.ropensci.org/c/conduct/25) is reserved for transparency reports made by our [code of conduct committee](/code-of-conduct).
 
 ### Meta
 
-The [meta category](https://discuss.ropensci.org/c/meta/3) is the home for questions and ideas related to the forum itself!
+The [Meta category](https://discuss.ropensci.org/c/meta/3) is the home for questions and ideas related to the forum itself!
 
 ### Antartic
 
