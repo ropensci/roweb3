@@ -563,7 +563,7 @@ The potools package is used in particular in the pkgdown package ([user-facing d
 
 "Only use tibbles if tibble installed": this sounds great, doesn't it?
 It's the title of a [PR by Hadley Wickham](https://github.com/allisonhorst/palmerpenguins/pull/25) to the palmerpenguins package maintained by Allison Horst.
-Key to this PR is the used of `delayedAssign()` in `data/penguins.R`.
+Key to this PR is the use of `delayedAssign()` in `data/penguins.R`.
 The code changes are small enough to make this a really cool trick!
 
 <!-- To be curated by hand -->
