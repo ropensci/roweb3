@@ -166,6 +166,7 @@ Rd_files <- vignettes <- R_files <- description <-
 
 Voilà, goodbye quotes in `DESCRIPTION`!
 Thanks to [Jim Hester and Kirill Müller](https://github.com/cynkra/fledge/pull/171#discussion_r762045958) for this cool trick that's not [used a lot](https://github.com/search?q=user%3Acran+extension%3Ards+path%3A.aspell&type=Code&l=&l=) (yet?).
+It _is_ documented in R, see the sentence beginning with "Suitable values for" in https://stat.ethz.ch/R-manual/R-patched/library/utils/html/aspell-utils.html
 
 ### potools: Translate your package user-facing communications like messages, warnings, and errors
 
