@@ -8,7 +8,7 @@ tags:
   - forum
   - help
 description: "Why and how participate in the rOpenSci forum; descriptions of current categories."
-twitterImg: blog/2022/01/11/gather-on-ropensci-forum/convo.jpg
+twitterImg: blog/2022/01/11/ropensci-forum/convo.jpg
 twitterAlt: "Two paper message balloons on a pink background"
 ---
 
