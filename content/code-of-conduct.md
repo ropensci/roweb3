@@ -1,7 +1,7 @@
 +++
 title = "Code of Conduct"
 description = "rOpenSci Code of Conduct"
-subtitle = "Version 2.2 – January 5, 2021"
+subtitle = "Version 2.3 – January 13, 2022"
 +++
 
 rOpenSci's community is our best asset and we believe that our diversity is our strength. We are building a welcoming and diverse global community of software users and developers from a range of research domains. It's so important to us, it's in [our mission statement](/about/). Whether you’re a regular contributor or a newcomer, we care about making this a safe place for you and we’ve got your back.
@@ -10,9 +10,9 @@ rOpenSci is committed to providing a safe, inclusive, welcoming, and harassment-
 
 We try to cultivate a community with shared values, where people are comfortable exploring ideas, asking questions, and saying things like "I don't understand" or "Why". Assume competence in the people you interact with. There are no stupid questions.
 
-Be considerate in speech and actions, and actively seek to acknowledge and respect the boundaries of fellow community members.
+Be considerate in speech and actions, and actively seek to acknowledge and respect the boundaries of people who participate in rOpenSci activities.
 
-Take care of each other. Alert a member of the Code of Conduct Committee ([named below](#reporting-guidelines)) if you notice a dangerous situation, someone in distress, or a potential violation of this Code of Conduct, even if it seems inconsequential.
+Take care of each other. Alert a member of the Code of Conduct Committee (named below) if you notice a dangerous situation, someone in distress, or a potential violation of this Code of Conduct, even if it seems inconsequential.
 
 We do not tolerate harassment in any form. Refrain from demeaning, discriminatory, or harassing behavior and speech. Harassment includes, but is not limited to:
 
@@ -45,15 +45,19 @@ This Code of Conduct applies to all people participating in the rOpenSci communi
 
 ### Reporting Guidelines
 
-The rOpenSci Code of Conduct Committee includes [Stefanie Butland](/author/stefanie-butland) (rOpenSci Community Manager), [Mark Padgham](/author/mark-padgham) (rOpenSci Software Research Scientist) and [Kara Woo](https://karawoo.com/) (independent community member).
+The rOpenSci Code of Conduct Committee includes [Mark Padgham](/author/mark-padgham) (rOpenSci Software Research Scientist), [Megan Carter](https://www.esipfed.org/about/people/megan-carter) (independent community member) and [Kara Woo](https://karawoo.com/) (independent community member, on leave until May 2022).
 
-If you experience or witness unacceptable behavior, or have any other concerns, [please submit a report  to the Committee as soon as possible using this form](https://docs.google.com/forms/d/e/1FAIpQLSdPdhOveaz21SitTBpQ5686xEKPq8DW-Kb8CyKyX89aw5Mz_A/viewform). Alternatively, you may email `conduct@ropensci.org`, which will go to all three Committee members. You may also make a report directly to one member of the Committee by contacting them directly. If any member of the Committee has a conflict of interest with a report, they will be recused and will not have access to the content or process of the report followup. At an in-person rOpenSci event, please reach out to anyone named as a member of that event-specific Code of Conduct Committee, or to venue staff or security who will be present throughout the event.
+If you experience or witness unacceptable behavior, or have any other concerns, [please submit a report  to the Committee as soon as possible using this form](https://docs.google.com/forms/d/e/1FAIpQLSdPdhOveaz21SitTBpQ5686xEKPq8DW-Kb8CyKyX89aw5Mz_A/viewform). Alternatively, you may email `conduct@ropensci.org`, which will go to the Committee members. You may also make a report directly to one member of the Committee by contacting them directly. If any member of the Committee has a conflict of interest with a report, they will be recused and will not have access to the content or process of the report followup. At an in-person rOpenSci event, please reach out to anyone named as a member of that event-specific Code of Conduct Committee, or to venue staff or security who will be present throughout the event.
 
 If you are planning to attend an upcoming event or join an online channel, and have concerns regarding another individual who may be present, please submit a report as described above. We will work with you to take precautions to ensure your comfort and safety. These precautions may include: providing an escort, preparing onsite event staff, and/or providing on-site contact cell phone numbers for immediate contact. In some cases, we may take action to prevent a harasser from attending the conference.
 
 The Code of Conduct Committee will investigate and decide responses to reports with the aim of making a decision and implementing enforcement as soon as is reasonably possible. We are committed to transparency with our community while upholding the privacy of victims and people who report incidents. We will publish brief, anonymized summaries of incidents on the [forum](https://discuss.ropensci.org/c/conduct) in a dedicated, read-only category, and will publish on the rOpenSci blog an annual transparency report.
 
 We welcome your feedback by email to `conduct@ropensci.org`, and we thank you for working with us to make rOpenSci a safe, enjoyable, friendly and enriching experience for everyone who participates.
+
+#### Alumni
+
+We thank Scott Chamberlain and Stefanie Butland for their past service on the committee.
 
 #### License and Credits
 The rOpenSci Code of Conduct has been influenced by and adapted from many sources including the [Open Source and Feelings talk](https://youtu.be/nizfHxg8y3o) by [Audrey Eschright](https://lifeofaudrey.com/), the R Consortium R Community Diversity and Inclusion Working Group's draft [Code of Conduct](https://github.com/RConsortium/RCDI-WG/blob/0ca0a91dccc9296ff53a5806f52a2a49dbb8850d/conduct/code-of-conduct.md), the [Geek Feminism anti-harassment policy](https://geekfeminism.wikia.com/wiki/Community_anti-harassment/Policy), and our own Community Call: [How do I create a Code of Conduct for my event/lab/codebase?](/commcalls/2016-12-15/)
