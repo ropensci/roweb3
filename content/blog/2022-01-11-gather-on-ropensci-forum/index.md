@@ -68,9 +68,9 @@ The [Code of Conduct category](https://discuss.ropensci.org/c/conduct/25) is res
 
 The [Meta category](https://discuss.ropensci.org/c/meta/3) is the home for questions and ideas related to the forum itself!
 
-### Antartic
+### Antarctic
 
-If you want to discuss R in Antarctic and Southern Ocean science, use the [Antartic category](https://discuss.ropensci.org/c/antarctic/23)!
+If you want to discuss R in Antarctic and Southern Ocean science, use the [Antarctic category](https://discuss.ropensci.org/c/antarctic/23)!
 
 {{< figure src="bubble.jpeg" alt="Speech bubble on a pink background" caption="Picture by [Miguel Á. Padriñán on Pexels](https://www.pexels.com/fr-fr/@padrinan)." link="https://www.pexels.com/photo/pink-background-with-speech-bubble-1111369/" width="500px" class="center" >}}
 
