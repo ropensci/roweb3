@@ -44,9 +44,10 @@
    "affiliation": "Community Manager",
    "url": "/author/stefanie-butland",
    "image" : "/img/team/stefanie_butland.jpg",
-   "roles": [
+   "past_roles": [
       "staff"
    ],
+   "alumnus": true,
    "twitter": "StefanieButland",
    "github": "stefaniebutland",
    "home": "/author/stefanie-butland"
