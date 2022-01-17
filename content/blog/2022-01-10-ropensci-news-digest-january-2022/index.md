@@ -31,14 +31,14 @@ Join us for social coworking & office hours monthly on 1st Tuesdays! Hosted by S
 
 Our next sessions are:
 
-* [Monday, 31 January 2022 17:00 PST](https://ropensci.org/events/coworking-2022-02/) (9 AM Australian Western);
-* [Tuesday, 01 March 2022 09:00 PST](https://ropensci.org/events/coworking-2022-03/) (17:00 UTC).
+* [Monday, 31 January 2022 17:00 PST](/events/coworking-2022-02/) (9 AM Australian Western);
+* [Tuesday, 01 March 2022 09:00 PST](/events/coworking-2022-03/) (17:00 UTC).
 
 Find out about more [events](/events).
 
 ## An update on R-universe
 
-We are making steady progress on the development of [r-universe](https://r-universe.dev), rOpenSci’s open platform for publishing and discovering R packages and other research material. Currently r-universe is tracking 3548 R packages and 3602 [articles](https://r-universe.dev/articles/) from 851 [maintainers](https://r-universe.dev/maintainers/) in 384 [cranlike repositories](https://r-universe.dev/organizations/). Over the past months we have added several new API's and front-end features, including [support for badges](https://ropensci.org/blog/2021/10/14/runiverse-badges/), [rss feeds](https://ropensci.org/blog/2021/11/24/runiverse-badges/), [orcid links](https://twitter.com/opencpu/status/1468323209770582018), and [support for renv](https://ropensci.org/blog/2022/01/06/runiverse-renv/) to restore packages from r-universe for reproducibility purposes.
+We are making steady progress on the development of [r-universe](https://r-universe.dev), rOpenSci’s open platform for publishing and discovering R packages and other research material. Currently r-universe is tracking 3548 R packages and 3602 [articles](https://r-universe.dev/articles/) from 851 [maintainers](https://r-universe.dev/maintainers/) in 384 [cranlike repositories](https://r-universe.dev/organizations/). Over the past months we have added several new API's and front-end features, including [support for badges](/blog/2021/10/14/runiverse-badges/), [rss feeds](/blog/2021/11/24/runiverse-badges/), [orcid links](https://twitter.com/opencpu/status/1468323209770582018), and [support for renv](/blog/2022/01/06/runiverse-renv/) to restore packages from r-universe for reproducibility purposes.
 
 Under the hood we made a [fundamental change](https://twitter.com/opencpu/status/1468323209770582018) to give maintainers a more central role in r-universe: the dashboards and APIs for [`https://{user}.r-universe.dev`](https://hadley.r-universe.dev) now also include packages and articles from other organizations that are maintained by that user, while cross-linking maintainers and organizations. This should make it easier to browse content help you discover interesting researchers and material.
 
@@ -50,9 +50,7 @@ Under the hood we made a [fundamental change](https://twitter.com/opencpu/status
 
 
 
-The following two packages recently became a part of our software suite:
-
-+ [rotemplate](https://docs.ropensci.org/rotemplate), developed by Maëlle Salmon together with Jeroen Ooms: This is a private template for use by rOpenSci packages. Please don't use it for your own non-rOpenSci package. 
+The following  package recently became a part of our software suite:
 
 + [gittargets](https://docs.ropensci.org/gittargets), developed by William Michael Landau: Pipelines with the targets R package (2021, <doi:10.21105/joss.02959>) skip steps that are up to already date. Although this behavior reduces the runtime of subsequent runs, it comes at the cost of overwriting previous results. So if the pipeline source code is under version control, and if you revert to a previous commit or branch, the data will no longer be up to date with the code you just checked out. Ordinarily, you would need to rerun the pipeline in order to recover the targets you had before. However, gittargets preserves historical output, creating version control snapshots of data store. Each data snapshot remembers the contemporaneous Git commit of the pipeline source code, so you can recover the right data when you navigate the Git history. In other words, gittargets makes it possible to switch commits or branches without invalidating the pipeline. You can simply check out the up-to-date targets from the past instead of taking the time to recompute them from scratch.  It is available on [CRAN]( https://CRAN.R-project.org/package=gittargets). It has been [reviewed](https://github.com/ropensci/software-review/issues/486) by Saras Windecker, and David Neuzerling.
 
@@ -62,19 +60,21 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following twenty packages have had an update since the latest newsletter: [rotemplate](https://docs.ropensci.org/rotemplate "pkgdown template and utilities for rOpenSci docs") ([`bs3-final`](https://github.com/ropensci-org/rotemplate/releases/tag/bs3-final)), [aRxiv](https://docs.ropensci.org/aRxiv "Interface to the arXiv API") ([`0.6`](https://github.com/ropensci/aRxiv/releases/tag/0.6)), [cffr](https://docs.ropensci.org/cffr "Generate Citation File Format (cff) Metadata for R Packages") ([`v0.2.0`](https://github.com/ropensci/cffr/releases/tag/v0.2.0)), [chirps](https://docs.ropensci.org/chirps "API Client for CHIRPS and CHIRTS") ([`v0.1.4`](https://github.com/ropensci/chirps/releases/tag/v0.1.4)), [essurvey](https://docs.ropensci.org/essurvey "Download Data from the European Social Survey on the Fly") ([`v1.0.8`](https://github.com/ropensci/essurvey/releases/tag/v1.0.8)), [excluder](https://docs.ropensci.org/excluder "Checks for Exclusion Criteria in Online Data") ([`v0.3.3`](https://github.com/ropensci/excluder/releases/tag/v0.3.3)), [fingertipsR](https://docs.ropensci.org/fingertipsR "Fingertips Data for Public Health") ([`v1.0.8`](https://github.com/ropensci/fingertipsR/releases/tag/v1.0.8)), [gittargets](https://docs.ropensci.org/gittargets "Data Version Control for the Targets Package") ([`0.0.1`](https://github.com/ropensci/gittargets/releases/tag/0.0.1)), [jagstargets](https://docs.ropensci.org/jagstargets "Targets for JAGS Workflows") ([`1.0.1`](https://github.com/ropensci/jagstargets/releases/tag/1.0.1)), [lingtypology](https://docs.ropensci.org/lingtypology "Linguistic Typology and Mapping") ([`v1.1.8`](https://github.com/ropensci/lingtypology/releases/tag/v1.1.8)), [nasapower](https://docs.ropensci.org/nasapower "NASA POWER API Client") ([`v4.0.3`](https://github.com/ropensci/nasapower/releases/tag/v4.0.3)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.7.0`](https://github.com/ropensci/nodbi/releases/tag/v0.7.0)), [riem](https://docs.ropensci.org/riem "Accesses Weather Data from the Iowa Environment Mesonet") ([`v2.0.0`](https://github.com/ropensci/riem/releases/tag/v2.0.0)), [rotl](https://docs.ropensci.org/rotl "Interface to the Open Tree of Life API") ([`v3.0.12`](https://github.com/ropensci/rotl/releases/tag/v3.0.12)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.4.1`](https://github.com/ropensci/tarchetypes/releases/tag/0.4.1)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Workflows") ([`0.10.0`](https://github.com/ropensci/targets/releases/tag/0.10.0)), [terrainr](https://docs.ropensci.org/terrainr "Landscape Visualizations in R and Unity") ([`v0.5.1`](https://github.com/ropensci/terrainr/releases/tag/v0.5.1)), [tic](https://docs.ropensci.org/tic "CI-Agnostic Workflow Definitions") ([`v0.11.3`](https://github.com/ropensci/tic/releases/tag/v0.11.3)), [weathercan](https://docs.ropensci.org/weathercan "Download Weather Data from Environment and Climate Change Canada") ([`v0.6.2`](https://github.com/ropensci/weathercan/releases/tag/v0.6.2)), and [webchem](https://docs.ropensci.org/webchem "Chemical Information from the Web") ([`v1.1.2`](https://github.com/ropensci/webchem/releases/tag/v1.1.2)).
+The following twenty packages have had an update since the latest newsletter: [rotemplate](https://docs.ropensci.org/rotemplate "pkgdown template and utilities for rOpenSci docs") ([`bs3-final`](https://github.com/ropensci-org/rotemplate/releases/tag/bs3-final)), [aRxiv](https://docs.ropensci.org/aRxiv "Interface to the arXiv API") ([`0.6`](https://github.com/ropensci/aRxiv/releases/tag/0.6)), [cffr](https://docs.ropensci.org/cffr "Generate Citation File Format (cff) Metadata for R Packages") ([`v0.2.1`](https://github.com/ropensci/cffr/releases/tag/v0.2.1)), [chirps](https://docs.ropensci.org/chirps "API Client for CHIRPS and CHIRTS") ([`v0.1.4`](https://github.com/ropensci/chirps/releases/tag/v0.1.4)), [essurvey](https://docs.ropensci.org/essurvey "Download Data from the European Social Survey on the Fly") ([`v1.0.8`](https://github.com/ropensci/essurvey/releases/tag/v1.0.8)), [excluder](https://docs.ropensci.org/excluder "Checks for Exclusion Criteria in Online Data") ([`v0.3.3`](https://github.com/ropensci/excluder/releases/tag/v0.3.3)), [fingertipsR](https://docs.ropensci.org/fingertipsR "Fingertips Data for Public Health") ([`v1.0.8`](https://github.com/ropensci/fingertipsR/releases/tag/v1.0.8)), [gittargets](https://docs.ropensci.org/gittargets "Data Version Control for the Targets Package") ([`0.0.1`](https://github.com/ropensci/gittargets/releases/tag/0.0.1)), [jagstargets](https://docs.ropensci.org/jagstargets "Targets for JAGS Workflows") ([`1.0.1`](https://github.com/ropensci/jagstargets/releases/tag/1.0.1)), [lingtypology](https://docs.ropensci.org/lingtypology "Linguistic Typology and Mapping") ([`v1.1.8`](https://github.com/ropensci/lingtypology/releases/tag/v1.1.8)), [nasapower](https://docs.ropensci.org/nasapower "NASA POWER API Client") ([`v4.0.3`](https://github.com/ropensci/nasapower/releases/tag/v4.0.3)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.7.0`](https://github.com/ropensci/nodbi/releases/tag/v0.7.0)), [riem](https://docs.ropensci.org/riem "Accesses Weather Data from the Iowa Environment Mesonet") ([`v2.0.0`](https://github.com/ropensci/riem/releases/tag/v2.0.0)), [rotl](https://docs.ropensci.org/rotl "Interface to the Open Tree of Life API") ([`v3.0.12`](https://github.com/ropensci/rotl/releases/tag/v3.0.12)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.4.1`](https://github.com/ropensci/tarchetypes/releases/tag/0.4.1)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Workflows") ([`0.10.0`](https://github.com/ropensci/targets/releases/tag/0.10.0)), [terrainr](https://docs.ropensci.org/terrainr "Landscape Visualizations in R and Unity") ([`v0.5.1`](https://github.com/ropensci/terrainr/releases/tag/v0.5.1)), [tic](https://docs.ropensci.org/tic "CI-Agnostic Workflow Definitions") ([`v0.11.3`](https://github.com/ropensci/tic/releases/tag/v0.11.3)), [weathercan](https://docs.ropensci.org/weathercan "Download Weather Data from Environment and Climate Change Canada") ([`v0.6.2`](https://github.com/ropensci/weathercan/releases/tag/v0.6.2)), and [webchem](https://docs.ropensci.org/webchem "Chemical Information from the Web") ([`v1.1.2`](https://github.com/ropensci/webchem/releases/tag/v1.1.2)).
 
 ## Software Peer Review
 
-There are nineteen recently closed and active submissions and 4 submissions on hold. Issues are at different stages: 
+There are twenty-one recently closed and active submissions and 4 submissions on hold. Issues are at different stages: 
 
 * One at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
 
      * [gittargets](https://github.com/ropensci/software-review/issues/486), Data Version Control for the Targets Package. Submitted by [Will Landau](https://wlandau.github.io). 
 
-* One at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
+* Two at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
 
-     * [gendercoder](https://github.com/ropensci/software-review/issues/435), Recodes Sex/Gender Descriptions Into A Standard Set. Submitted by [Emily Kothe](http://emilykothe.com). 
+     * [rfema](https://github.com/ropensci/software-review/issues/484), Access the openFEMA API. Submitted by [Dylan Turner](http://dylanturner.org). 
+
+    * [gendercoder](https://github.com/ropensci/software-review/issues/435), Recodes Sex/Gender Descriptions Into A Standard Set. Submitted by [Emily Kothe](http://emilykothe.com). 
 
 * Four at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
 
@@ -110,9 +110,11 @@ There are nineteen recently closed and active submissions and 4 submissions on h
 
      * [frictionless](https://github.com/ropensci/software-review/issues/495), Read and Write Frictionless Data Packages. Submitted by [Peter Desmet](https://orcid.org/0000-0002-8442-8025). 
 
-* Three at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
+* Four at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
 
-     * [bssm](https://github.com/ropensci/software-review/issues/489), Bayesian Inference of Non-Linear and Non-Gaussian State Space. Submitted by [Jouni Helske](http://jounihelske.netlify.app).  (Stats).
+     * [EDIutils](https://github.com/ropensci/software-review/issues/498), An API Client for the Environmental Data Initiative Repository. Submitted by [Colin Smith](https://github.com/clnsmth). 
+
+    * [bssm](https://github.com/ropensci/software-review/issues/489), Bayesian Inference of Non-Linear and Non-Gaussian State Space. Submitted by [Jouni Helske](http://jounihelske.netlify.app).  (Stats).
 
     * [ReLTER](https://github.com/ropensci/software-review/issues/485), An interface to the eLTER for the R statistical programming environment. Submitted by [Alessandro Oggioni](https://www.cnr.it/people/alessandro.oggioni). 
 
@@ -131,6 +133,16 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 * [Thank You to the rOpenSci Community, 2021](/blog/2021/12/17/thank-you-2021) by Stefanie Butland, and Steffi LaZerte. Thank you for another amazing year at rOpenSci.
 
 * [rOpenSci Announces $400k Award from the Chan Zuckerberg Initiative to Empower Historically Excluded Groups as Community Leaders in Scientific Open Source Projects](/blog/2021/12/20/inclusive-leadership-program) by Stefanie Butland, Karthik Ram, Noam Ross, and Maëlle Salmon. Funding for new rOpenSci community champions program for historically excluded groups.
+
+* [Gather on the rOpenSci Forum](/blog/2022/01/11/ropensci-forum) by The rOpenSci Team. Why and how participate in the rOpenSci forum; descriptions of current categories.{{< figure src="convo.jpg" alt="Two paper message balloons on a pink background" width="400" >}}
+
+
+
+* [rOpenSci Code of Conduct Annual Review](/blog/2022/01/13/conduct2022) by Stefanie Butland, Mark Padgham, Kara Woo, and Megan Carter. Updates for version 2.3 of rOpenSci's Code of Conduct.
+
+* [rOpenSci 2021 Code of Conduct Transparency Report](/blog/2022/01/13/transparency2021) by Stefanie Butland, Mark Padgham, and Kara Woo. No Code of Conduct incidents reported in 2021.
+
+* [Community Management Transition for rOpenSci. A Message from Stefanie Butland](/blog/2022/01/14/msg-from-stefanie) by Stefanie Butland.
 
 
 
