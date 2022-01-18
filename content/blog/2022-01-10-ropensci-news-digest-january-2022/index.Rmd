@@ -60,7 +60,7 @@ Find out about more [events](/events).
 
 The fantastic Stefanie Butland has moved on from her position as rOpenSci's community manager.
 Her [blog post](/blog/2022/01/14/msg-from-stefanie/) summarized the incredible work she's done over the last 5.5 years.
-As to rOpenSci future new community manager, it might be you: keep an eye out for a job posting in February and even before that, email info@ropensci.org if you think you might be interested.
+As for rOpenSci's future new community manager, it might be you: keep an eye out for a job posting in February and even before that, email info@ropensci.org if you think you might be interested.
 
 ### An update on R-universe
 
