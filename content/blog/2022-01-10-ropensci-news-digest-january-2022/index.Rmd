@@ -56,7 +56,7 @@ Our next sessions are:
 
 Find out about more [events](/events).
 
-### Community Management Transition for rOpenSci
+### Community Management transition for rOpenSci
 
 The fantastic Stefanie Butland has moved on from her position as rOpenSci's community manager.
 Her [blog post](/blog/2022/01/14/msg-from-stefanie/) summarized the incredible work she's done over the last 5.5 years.
