@@ -283,7 +283,7 @@ all_releases <- purrr::map_chr(releases, format_release)
 text <- nice_string(all_releases)
 ```
 
-The following `r if (length(releases) > 1) english(length(releases))` package`r if (length(releases) > 1) "s"` `r if (length(releases) > 1) "have" else "has"` had an update since the latest newsletter: `r text`.
+The following `r if (length(releases) > 1) english(length(releases))` package`r if (length(releases) > 1) "s"` `r if (length(releases) > 1) "have" else "has"` had an update since the last newsletter: `r text`.
 
 ## Software Peer Review
 
