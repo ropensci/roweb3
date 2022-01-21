@@ -195,7 +195,7 @@ It _is_ documented in R, see the sentence beginning with "Suitable values for" i
 Your package might be used by people at ease in different languages than the one you initially wrote e.g. error messages in.
 The [potools package](https://michaelchirico.github.io/potools/index.html) maintained by [Michael Chirico](https://github.com/MichaelChirico) provides "Tools for Portability and Internationalization of R packages".
 It features great vignettes including one for [package developers](https://michaelchirico.github.io/potools/articles/developers.html) and one for [package translators](https://michaelchirico.github.io/potools/articles/translators.html).
-The potools package is used in particular in the pkgdown package ([user-facing docs for the language option](https://pkgdown.r-lib.org/articles/pkgdown.html?q=language#language).
+The potools package is used in particular in the pkgdown package ([user-facing docs for the language option](https://pkgdown.r-lib.org/articles/pkgdown.html?q=language#language)).
 
 ### How to provide tibbles only to those who like them
 
