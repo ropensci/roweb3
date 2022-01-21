@@ -6,7 +6,7 @@ author:
 date: '2022-01-21'
 tags:
   - newsletter
-description: keywords from the content
+description: Co-working events, Community Management transition, R-universe news, new package and package news
 output:
   html_document:
     keep_md: yes
