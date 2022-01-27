@@ -22,7 +22,7 @@ If you maintain an rOpenSci package and notice an error for your package in the 
 
 * For pkgdown errors try installing the latest pkgdown version from CRAN then run `pkgdown::build_site()`.
 * If that does not reproduce the error install [rotemplate](https://docs.ropensci.org/rotemplate/) then run `rotemplate::build_ropensci_docs()` (it might generate a logo and favicons that you'd have to delete).
-* For any tricky aspect of building your docs or packages on R-universe, feel free to ping us e.g. in the Slack #package-maintenance channel!
+* For any tricky aspect of building your docs or packages on R-universe, feel free to ping us e.g. in the Slack #package-maintenance channel, we'll be happy to help (and to collect anonymous examples for our next failures round-up :wink:)!
 
 
 ## Missing dependencies of vignettes or articles
@@ -94,7 +94,7 @@ pkgdown will build [any Markdown files in your package in `./` or `./.github`](h
 If you have e.g. an old issue template from when these files contained only HTML comments, there will be a pkgdown failure.
 The fix is to fix, move or delete the Markdown file.
 
-## Not a failure: undetected README badges
+## Not a failure but slightly annoying: undetected README badges
 
 If your README badges aren't moved to the sidebar by pkgdown, check the structure of your [badges paragraph](https://pkgdown.r-lib.org/reference/build_home.html#dev-badges).
 
