@@ -71,7 +71,7 @@ If you e.g. have no heading, you'll get an error message such as
 If you use temporary directories in your examples or tests, do not use `tempdir()` directly but rather a subdirectory of it.
 Also make sure to always clean after yourself. 
 Otherwise you might end up with a hard to debug error.
-For more info, refer to the excellente [Test fixtures testthat vignette by Jenny Bryan](https://testthat.r-lib.org/articles/test-fixtures.html).
+For more info, refer to the excellent [Test fixtures testthat vignette by Jenny Bryan](https://testthat.r-lib.org/articles/test-fixtures.html).
 
 ## Changed upstream data source
 
