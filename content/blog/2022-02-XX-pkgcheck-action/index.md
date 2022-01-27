@@ -1,10 +1,11 @@
 ---
 slug: pkgcheck-action
-title: '{pkgcheck} is now available as a GitHub action'
+title: 'pkgcheck is now available as a GitHub action'
 date: '2022-02-XX'
 author:
   - Jacob Wujciak-Jens
   - Mark Padgham
+featured: false
 description: 'All packages submitted for peer-review with rOpenSci's are checked by our {pkgcheck} package. This post describes a new GitHub action which can be used to run {pkgcheck}.'
 tags:
   - ropensci-review-bot
