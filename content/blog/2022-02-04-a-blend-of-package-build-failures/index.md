@@ -29,7 +29,7 @@ If you maintain an rOpenSci package and notice an error for your package in the 
 
 Packages needed in the vignettes should be listed in the `Suggests` dependency field of `DESCRIPTION`.
 
-For packages needed in articles (vignettes that are `.Rbuildignore`d) you can use the `extra_packages` field in [`_pkgdown.yml`](https://github.com/ropensci/weathercan/blob/bf667a694c54a04c70b51435c03a0139048e16fe/_pkgdown.yml#L2) as the docs building system will install those too.
+For packages needed in articles (vignettes that are `.Rbuildignore`d) you can (at least for the rOpenSci docs building) use the `extra_packages` field in [`_pkgdown.yml`](https://github.com/ropensci/weathercan/blob/bf667a694c54a04c70b51435c03a0139048e16fe/_pkgdown.yml#L2) as the docs building system will install those too.
 
 ### What about system dependencies
 
