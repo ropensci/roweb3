@@ -6,7 +6,10 @@ author:
   - Jacob Wujciak-Jens
   - Mark Padgham
 featured: false
-description: 'All packages submitted for peer-review with rOpenSci's are checked by our {pkgcheck} package. This post describes a new GitHub action which can be used to run {pkgcheck}.'
+description: |
+  All packages submitted for peer-review with rOpenSci's are checked by our   
+  {pkgcheck} package. 
+  This post describes a new GitHub action which can be used to run {pkgcheck}.
 tags:
   - ropensci-review-bot
   - pkgcheck
