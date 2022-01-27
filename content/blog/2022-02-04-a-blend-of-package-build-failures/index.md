@@ -100,5 +100,5 @@ If your README badges aren't moved to the sidebar by pkgdown, check the structur
 
 ## Conclusion
 
-In this post we provided you with a bouquet of some mistakes to avoid.
-If you enjoy this content, subscribe to our [monthly newsletter](/news) that features a Package Development Corner section with tips!¡ 
+In this post we provided you with a bouquet of some mistakes to avoid when developing a package.
+If you enjoyed this content, subscribe to our [monthly newsletter](/news) that features a Package Development Corner section with tips!¡ 
