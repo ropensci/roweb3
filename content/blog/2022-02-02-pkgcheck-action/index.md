@@ -1,7 +1,7 @@
 ---
 slug: pkgcheck-action
 title: 'pkgcheck is now available as a GitHub action'
-date: '2022-02-XX'
+date: '2022-02-02'
 author:
   - Jacob Wujciak-Jens
   - Mark Padgham
