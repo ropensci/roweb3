@@ -3,8 +3,8 @@ slug: pkgcheck-action
 title: 'pkgcheck is now available as a GitHub action'
 date: '2022-02-02'
 author:
-  - Jacob Wujciak-Jens
   - Mark Padgham
+  - Jacob Wujciak-Jens
 featured: false
 description: |
   All packages submitted for peer-review with rOpenSci are checked by our   
@@ -31,15 +31,7 @@ The bot will return a list of checks which should ideally look like this:
 
 ![example pkgcheck](frictionless-pkgcheck.png)
 
-To be ready for peer review, {pkgcheck} should return a series of &#10004;,
-indiciating successful checks, and there shouldn't be any &#10008; symbols,
-which indicate failed checks. Anybody preparing a package to submit is
-recommended to ["use
-pkgcheck"](https://devguide.ropensci.org/authors-guide.html) to confirm that a
-package is indeed ready to submit. Until now, this has only been possible
-through locally [installing the package and running the `pkgcheck()`
-command](https://devguide.ropensci.org/authors-guide.html). Local checks suffer
-two important disadvantages:
+To be ready for peer review, {pkgcheck} should return a series of &#10004;, indiciating successful checks, and there shouldn't be any &#10008; symbols, which indicate failed checks. Anybody preparing a package to submit is recommended to ["use pkgcheck"](https://devguide.ropensci.org/authors-guide.html) to confirm that a package is indeed ready to submit. Until now, this has only been possible through locally [installing the package and running the `pkgcheck()` command](https://devguide.ropensci.org/authors-guide.html). Local checks suffer two important disadvantages:
 
 1. Results may only be reproducible on a local system, rather than be generally reproducible; and
 2. The checks run by {pkgcheck} include all checks run by [the {rcmdcheck} package](https://r-lib.github.io/rcmdcheck/) which may take quite some time to run.
@@ -48,18 +40,7 @@ Just like the [GitHub {rcmdcheck} action](https://github.com/r-lib/actions/blob/
 
 ## The GitHub {pkgcheck-action}
 
-This post is the "official" release announcement of {pkgcheck-action}, a GitHub
-action which enables checks to be run everytime code is pushed to GitHub. The
-action was developed by one of us (Jacob), and can be found [on GitHub at
-ropensci-review-tools/pkgcheck-action](https://github.com/ropensci-review-tools/pkgcheck-action).
-The easiest way to use this action in your own repository is to install [the
-{pkgcheck} package](https://docs.ropensci.org/pkgcheck/#installation), and run
-[the `use_github_action_pkgcheck()`
-function](https://docs.ropensci.org/pkgcheck/reference/use_github_action_pkgcheck.html).
-That will place a new file in the `.github/workflows` directory of your package
-called "pkgcheck.yaml", an example of which is shown on [the main REAMDE of the
-{pkgcheck-action}
-repository](https://github.com/ropensci-review-tools/pkgcheck-action#usage). The action consists of the single job expressed in the final lines:
+This post is the "official" release announcement of {pkgcheck-action}, a GitHub action which enables checks to be run everytime code is pushed to GitHub. The action was developed by one of us (Jacob), and can be found [on GitHub at ropensci-review-tools/pkgcheck-action](https://github.com/ropensci-review-tools/pkgcheck-action). The easiest way to use this action in your own repository is to install [the {pkgcheck} package](https://docs.ropensci.org/pkgcheck/#installation), and run [the `use_github_action_pkgcheck()` function](https://docs.ropensci.org/pkgcheck/reference/use_github_action_pkgcheck.html). That will place a new file in the `.github/workflows` directory of your package called "pkgcheck.yaml", an example of which is shown on [the main REAMDE of the {pkgcheck-action} repository](https://github.com/ropensci-review-tools/pkgcheck-action#usage). The action consists of the single job expressed in the final lines:
 
 ```yaml
 jobs:
@@ -69,28 +50,28 @@ jobs:
       - uses: ropensci-review-tools/pkgcheck-action@main
 ```
 
-There are several parameters also described in that main README, which can
-either be passed as parameters to the `use_github_action_pkgcheck()` function,
-or added to the YAML workflow file as also described in the README.
+There are several parameters also described in that main README, which can either be passed as parameters to the `use_github_action_pkgcheck()` function, or added to the YAML workflow file as also described in the README. Once the action has been created in your repository, it can be activated by adding it in a git commit and pushing to GitHub.
 
 ### Posting {pkgcheck} results to a GitHub issue
 
-In addition to the workflow printing the full details returned by the main
-{pkgcheck} function, the output of {pkgcheck} can also be posted to a GitHub
-issue, where it will appear precisely like the example shown above. Once the
-workflow has finished, you'll receive a notification, and be able to view the
-check results (with a `summary-only` parameter determining whether only a
-summary of results like shown above will be posted to the issue, or whether
-full results will be posted which include the summary followed by quite a bit
-more detail). The workflow will only succeed when all {pkgcheck} checks have been passed. You can also put a {pkgcheck} badge in your README by inserting a modified version of these lines:
+In addition to the workflow printing the full details returned by the main {pkgcheck} function, the output of {pkgcheck} can also be posted to a GitHub issue, where it will appear precisely like the example shown above. Once the workflow has finished, you'll receive a notification, and be able to view the check results (with a `summary-only` parameter determining whether only a summary of results like shown above will be posted to the issue, or whether full results will be posted which include the summary followed by quite a bit more detail). The workflow will only succeed when all {pkgcheck} checks have been passed.
+
+## Using {pkgcheck-action} to prepare for submission
+
+This action makes preparing packages for submission to peer review with rOpenSci much easier, by automatically confirming whether a package the general requirements for rOpenSci submissions. You can use {pkgcheck-action} to confirm that a package is ready for submission by following these three easy steps:
+
+1. Insert the action into your repository with [`pkgcheck::use_github_action_pkgcheck()`](https://docs.ropensci.org/pkgcheck/reference/use_github_action_pkgcheck.html).
+2. Add and commit the action script to your git index, and push to GitHub to activate it.
+3. Examine results in the automatically-created issue of your GitHub repository, modify the repository to address any failing checks, and iterate.
+4. Once the action passes, you'll see "&#10004; This package may be submitted."
+
+You can also put a {pkgcheck} badge in your README by inserting a modified version of these lines:
 
 ```md
 [![pkgcheck](https://github.com/<org>/<repo>/workflows/pkgcheck/badge.svg)](https://github.com/<org>/<repo>/actions?query=workflow%3Apkgcheck)
 ```
 
-That badge will then indicate if you passed all checks or not:
-
-[![pkgcheck](https://github.com/hypertidy/geodist/workflows/pkgcheck/badge.svg)](https://github.com/hypertidy/geodist/actions?query=workflow%3Apkgcheck)
+Once your package passes all tests, the badge will turn green and look like this:
 
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="20">
   <defs>
@@ -126,5 +107,6 @@ That badge will then indicate if you passed all checks or not:
   </g>
 </svg>
 
-Should you find a bug or
-https://github.com/ropensci-review-tools/pkgcheck-action/issues
+You'll then know that your package is good to submit!
+
+And finally, feel free to ask any questions about using {pkgcheck-action}, or report any bugs, at https://github.com/ropensci-review-tools/pkgcheck-action/issues.
