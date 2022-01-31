@@ -16,6 +16,7 @@ Looking at the dashboard helps us identify failures in building the packages as 
 We then help authors fix these issues in order to comply with our [package curation policy](https://devguide.ropensci.org/curationpolicy.html).
 As a package author you should also rely on [continuous integration](https://devdevguide.netlify.app/ci.html) in your own repo for catching e.g. `R CMD check` problems.
 Following one of our latest rounds of monitoring, we summarize some common and less common mistakes.
+Many of them are *not* specific to our build system.
 
 ## Before we start: how to debug
 
