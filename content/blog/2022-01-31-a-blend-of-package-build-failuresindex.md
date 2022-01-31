@@ -24,7 +24,7 @@ If you maintain an rOpenSci package and notice an error for your package in the 
 
 * For pkgdown errors try installing the latest pkgdown version from CRAN then run `pkgdown::build_site()`.
 * If that does not reproduce the error install [rotemplate](https://docs.ropensci.org/rotemplate/) then run `rotemplate::build_ropensci_docs()` (it might generate a logo and favicons that you'd have to delete).
-* For any tricky aspect of building your docs or packages on R-universe, feel free to ping us e.g. in the Slack #package-maintenance channel, we'll be happy to help (and to collect anonymous examples for our next failures round-up :wink:)!
+* For any tricky aspect of building your docs or packages on R-universe, feel free to ping us e.g. in the [Slack #package-maintenance channel](https://contributing.ropensci.org/resources.html#channels-slack), we'll be happy to help (and to collect anonymous examples for our next failures round-up :wink:)! If not an rOpenSci package author, you can post your package development questions on our [forum](https://discuss.ropensci.org/c/package-development/29).
 
 
 ## Problems building vignettes or articles
