@@ -50,7 +50,7 @@ jobs:
       - uses: ropensci-review-tools/pkgcheck-action@main
 ```
 
-There are several parameters also described in that main README, which can either be passed as parameters to the `use_github_action_pkgcheck()` function, or added to the YAML workflow file as also described in the README. Once the action has been created in your repository, it can be activated by adding it in a git commit and pushing to GitHub.
+There are several parameters also described in that main README, which can either be passed as parameters to [the `use_github_action_pkgcheck()` function](https://docs.ropensci.org/pkgcheck/reference/use_github_action_pkgcheck.html), or added to the YAML workflow file as also described in the README. Once the action has been created in your repository, it can be activated by adding it in a git commit and pushing to GitHub.
 
 ### Posting {pkgcheck} results to a GitHub issue
 
