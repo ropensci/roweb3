@@ -1,13 +1,18 @@
 ---
-title: "A journey to gghdr"
+title: "A Journey to gghdr"
 author: Sayani Gupta
-date: '2022-01-24'
+date: '2022-01-25'
+package_version: 0.1.0
+description: "gghdr: An R package for graphing highest density regions in ggplot2"
+twitterImg: content/blog/2022-01-24-gghdr/opengraph.png
 tags:
   - data visualization
   - graphical summaries
   - highest density region
   - hdrcde
   - R
+  - packages
+  - community
 output:
   html_document:
     keep_md: yes
@@ -30,13 +35,11 @@ library(gghdr)
 > 
 > `r tufte::quote_footer('Carl W. Buehner')`
 
-This was how being a newcomer to [rOpenSci OzUnconf 2019](https://ozunconf19.ropensci.org/) felt. It is incredible to be a part of such a diverse, welcoming and inclusive environment. I thought it would be fun to blog about how we all came together to create this project and the twists and turns along the way.  
+This was how being a newcomer to [rOpenSci OzUnconf 2019](https://ozunconf19.ropensci.org/) felt. It is incredible to be a part of such a diverse, welcoming and inclusive environment. I thought it would be fun to blog about how we all came together and the twists and turns along the way. Package `gghdr` imports `hdrcde` package and provides tools for plotting highest density regions with `ggplot2`. 
 
-You can learn about our package `gghdr` at [the package website](https://Sayani07.github.io/gghdr/), and the [Github repo](https://Sayani07.github.io/gghdr/).
+## Highest density regions
 
-## Why is HDR useful?
-
-Let us look at a familiar data set `ggplot2::mpg`, containing the technical specifications of a sample of cars with variables `hwy` specifying highway miles per gallon and `cyl` specifying number of cylinders. The histogram (a) shows that cars with 6 cylinders are bimodally distributed, which is reflected in the highest density region (HDR) plots (b) but not in the standard boxplot (c). Hence, we see that HDRs are useful in displaying multimodality in the distribution. 
+The [highest density region](https://www.jstor.org/stable/2684423?seq=1) approach of summarizing a distribution is useful for analyzing multimodal distributions and can be composed of numerous disjoint subsets. Let us look at a familiar data set `ggplot2::mpg`, containing the technical specifications of a sample of cars with variables `hwy` specifying highway miles per gallon and `cyl` specifying number of cylinders. The histogram (a) shows that cars with 6 cylinders are bimodally distributed, which is reflected in the highest density region (HDR) plots (b) but not in the standard boxplot (c). Hence, we see that HDRs are useful in displaying multimodality in the distribution. 
 
 ```{r mpgBox1, fig.width = 5, fig.height = 4,echo=FALSE}
 p1 <- ggplot(data = mpg, 
@@ -61,7 +64,9 @@ p3
 
 # Initiation
 
-Initially, the aim was to visualize _Highest Density Regions_ (HDR) in one and two dimensions under the [ggplot2](https://ggplot2.tidyverse.org/) framework. This work is inspired by the package [hdrcde](https://cran.r-project.org/web/packages/hdrcde/index.html) developed by [Rob J Hyndman](https://robjhyndman.com/). Since the [paper](https://www.jstor.org/stable/2684423?seq=1) was written almost 22 years ago and the package came 14 years ago, the need to reexamine it through the ggplot2 lenses had been lurking around for a while. While I read the paper and attempted using `hdrcde`, it did feel less powerful not being able to use `ggplot2` and the flexibilities that come along with it and Rob himself suggested it would be great to nice to have a `ggplot` framework for it. There was a point when [Mitch](https://blog.mitchelloharawild.com/) had been threatening me that he would get this done overnight if I don’t. (I bet he would have had he not been raising chickens and bees). But one fine day, he suggested that the [rOpensci](https://ropensci.org/) [ozunconference](https://ozunconf19.ropensci.org/) could be the right place to do this together, and I thought this was a brilliant idea as I had read about [Nick's](https://www.njtierney.com/) [experience](https://ropensci.org/blog/2017/10/31/ozunconf2017/) earlier and was thrilled to be a part of it. 
+<!-- Initially, the aim was to visualize _Highest Density Regions_ (HDR) in one and two dimensions under the [ggplot2](https://ggplot2.tidyverse.org/) framework.  -->
+
+This work is inspired by the package [hdrcde](https://cran.r-project.org/web/packages/hdrcde/index.html) developed by [Rob J Hyndman](https://robjhyndman.com/). Since the [paper](https://www.jstor.org/stable/2684423?seq=1) was written almost 25 years ago and the package came 15 years ago, the need to reexamine it through the ggplot2 lenses had been lurking around for a while. While I read the paper and attempted using `hdrcde`, it did feel less powerful not being able to use `ggplot2` and the flexibilities that come along with it and Rob himself suggested it would be great to have a `ggplot` framework for it. There was a point when [Mitch](https://blog.mitchelloharawild.com/) had been threatening me that he would get this done overnight if I don’t. (I bet he would have had he not been raising chickens and bees). But one fine day, he suggested that the [rOpensci](https://ropensci.org/) [ozunconference](https://ozunconf19.ropensci.org/) could be the right place to do this together, and I thought this was a brilliant idea as I had read about [Nick's](https://www.njtierney.com/) [experience](https://ropensci.org/blog/2017/10/31/ozunconf2017/) earlier and was thrilled to be a part of it. 
 
 This event is quite different in the sense that it is mostly invite-only, where past attendees can recommend new ones. Mitch was a participant at [rOpenSci OzUnconf 2018](https://ozunconf18.ropensci.org/#about). So he could invite me to work on this project with him at rOpenSci ozunconf 2019. Soon I had applied and we were accepted. Thanks to the organizers of the [rOpenSci ozunconference](https://ozunconf19.ropensci.org/) for the opportunity and excellent management of what has turned out to be a highly stimulating experience. 
 
@@ -200,7 +205,7 @@ knitr::include_graphics(here::here("content/blog/2022-01-24-gghdr/conflict-tree.
 
 # Where to from here?
 
-A missing piece is to replace the `hdr.boxplot.2d()` with `geom_hdr_boxplot.2d()`, which would calculate and plot HDRs in two dimensions. With some embellishments and review, the current version is submitted and expected to be up on CRAN soon. Kudos team!! 
+A missing piece is to replace the `hdr.boxplot.2d()` with `geom_hdr_boxplot.2d()`, which would calculate and plot HDRs in two dimensions. With some embellishments and review, the current version is submitted and expected to be up on CRAN soon. Kudos team!! You can learn about our package `gghdr` at [the package website](https://Sayani07.github.io/gghdr/), and the [Github repo](https://Sayani07.github.io/gghdr/).
 
 ```{r image-team, echo = F}
 knitr::include_graphics(here::here("content/blog/2022-01-24-gghdr/team.jpg"))
