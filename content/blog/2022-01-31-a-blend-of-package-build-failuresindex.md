@@ -3,7 +3,7 @@ slug: "package-build-failures"
 title: A Blend of Package Build Failures
 author:
   - Maëlle Salmon
-date: 2022-02-04
+date: 2022-01-31
 tags:
   - r-universe
   - tech notes
@@ -93,7 +93,7 @@ The fix is to fix, move or delete the Markdown file.
 
 ## Undetected README badges
 
-This isn't a failure but is slightly annoying: If your README badges aren't moved to the sidebar by pkgdown, check the structure of your [badges paragraph](https://pkgdown.r-lib.org/reference/build_home.html#dev-badges).
+This isn't a failure but is slightly annoying: If your README badges aren't moved to the sidebar by pkgdown, check the [structure of your badges paragraph](https://pkgdown.r-lib.org/reference/build_home.html#dev-badges).
 
 ## Conclusion
 
