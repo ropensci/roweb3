@@ -29,7 +29,7 @@ submission. The `ropensci-review-bot` automatically runs pkgcheck on all submiss
 
 The bot will return a list of checks which should ideally look like this:
 
-![example pkgcheck](frictionless-pkgcheck.png)
+[![pkgcheck results for recent submission](frictionless-pkgcheck.png)](https://github.com/ropensci/software-review/issues/495#issuecomment-1005063564)
 
 To be ready for peer review, pkgcheck should return a series of &#10004;, indicating successful checks, and there shouldn't be any &#10008; symbols, which indicate failed checks. Anybody preparing a package to submit is recommended to ["use pkgcheck"](https://devguide.ropensci.org/authors-guide.html) to confirm that a package is indeed ready to submit. Until now, this has only been possible through locally [installing the package and running the `pkgcheck()` command](https://devguide.ropensci.org/authors-guide.html). Local checks suffer two important disadvantages:
 
