@@ -5,14 +5,15 @@ author:
   - Maëlle Salmon
 date: 2022-02-04
 tags:
+  - r-universe
   - tech notes
 # The summary below will be used by e.g. Twitter cards
 description: "Some common and less common problems we saw in logs of package and pkgdown website builds."
 ---
 
 The [rOpenSci R-universe](https://ropensci.r-universe.dev/ui#builds) is a bit special as, compared to other R-universes, it [builds docs](/blog/2021/09/03/runiverse-docs/) for all the packages in our [suite](/packages).
-Looking at the dashboard helps us identify failures in building the packages, in building their pkgdown websites.
-We then help authors fix those, to comply with our [package curation policy](https://devguide.ropensci.org/curationpolicy.html).
+Looking at the dashboard helps us identify failures in building the packages as well as in building the pkgdown websites.
+We then help authors fix these issues in order to comply with our [package curation policy](https://devguide.ropensci.org/curationpolicy.html).
 As a package author you should also rely on [continuous integration](https://devdevguide.netlify.app/ci.html) in your own repo for catching e.g. `R CMD check` problems.
 Following one of our latest rounds of monitoring, we summarize some common and less common mistakes.
 
@@ -25,24 +26,20 @@ If you maintain an rOpenSci package and notice an error for your package in the 
 * For any tricky aspect of building your docs or packages on R-universe, feel free to ping us e.g. in the Slack #package-maintenance channel, we'll be happy to help (and to collect anonymous examples for our next failures round-up :wink:)!
 
 
-## Missing dependencies of vignettes or articles
+## Problems building vignettes or articles
+### Missing dependencies or credentials
 
 Packages needed in the vignettes should be listed in the `Suggests` dependency field of `DESCRIPTION`.
 
 For packages needed in articles (vignettes that are `.Rbuildignore`d) you can (at least for the rOpenSci docs building) use the `extra_packages` field in [`_pkgdown.yml`](https://github.com/ropensci/weathercan/blob/bf667a694c54a04c70b51435c03a0139048e16fe/_pkgdown.yml#L2) as the docs building system will install those too.
 
-### What about system dependencies
+For system dependencies needed in the vignettes, you can also list [APT packages in `_pkgdown.yml`](https://github.com/ropensci/virtuoso/blob/7693bf77d28f3f11efe00d597048fec946771e66/_pkgdown.yml#L4). Alternatively, your code could also automatically install any dependency on pkgdown or CI (cf [example in rdataretriever](https://github.com/ropensci/rdataretriever/pull/296/files)).
 
-You can also list [APT packages in `_pkgdown.yml`](https://github.com/ropensci/virtuoso/blob/7693bf77d28f3f11efe00d597048fec946771e66/_pkgdown.yml#L4).
 
-Your code could also automatically install any dependency on pkgdown or CI, cf [this example](https://github.com/ropensci/rdataretriever/pull/296/files).
-
-## Non buildable vignettes
-
-Now, if your vignette e.g. needs credentials, those will not be available on R-universe.
+Remember that your vignette cannot be built if it's missing other necessary information (e.g. credentials), as those are not available on R-universe.
 Therefore, you need to resort to [pre-computing your vignette or article](/blog/2019/12/08/precompute-vignettes/).
 
-## Unbalanced chunk delimiters in vignettes
+### Unbalanced chunk delimiters in vignettes
 
 Before knitr 1.35, a chunk like the one below, with 4 opening back ticks but only 3 closing back ticks, would have been valid:
 
@@ -70,18 +67,18 @@ If you e.g. have no heading, you'll get an error message such as
 
 If you use temporary directories in your examples or tests, do not use `tempdir()` directly but rather a subdirectory of it.
 Also make sure to always clean after yourself. 
-Otherwise you might end up with a hard to debug error.
-For more info, refer to the excellent [Test fixtures testthat vignette by Jenny Bryan](https://testthat.r-lib.org/articles/test-fixtures.html).
+Otherwise you might end up with a hard-to-debug error.
+For more info, refer to the excellent ["Test fixtures" testthat vignette by Jenny Bryan](https://testthat.r-lib.org/articles/test-fixtures.html).
 
 ## Changed upstream data source
 
-If you have tests or a vignettes depending on non-cached API queries, and the API changes, you might end up with an error if e.g. a data station changes IDs.
+If you have tests or vignettes depending on non-cached API queries, and the API changes, you might end up with an error (e.g., if a data station changes IDs).
 Thankfully these errors are rather straightforward to fix.
 For tests, find more guidance in [HTTP testing in R](https://books.ropensci.org/http-testing/).
 
 ## Dead upstream data source
 
-Now, if the API your package was wrapping no longer is, the easiest way forward is to [archive](https://devguide.ropensci.org/curationpolicy.html#archivalguidance) your package... and maybe create another one for an alternative API if there's one?
+Now, if the API your package was wrapping no longer exists, the easiest way forward is to [archive](https://devguide.ropensci.org/curationpolicy.html#archivalguidance) your package... and maybe create another one for an alternative API if there's one?
 
 ## Treacheous `.gitignore`
 
@@ -94,9 +91,9 @@ pkgdown will build [any Markdown files in your package in `./` or `./.github`](h
 If you have e.g. an old issue template from when these files contained only HTML comments, there will be a pkgdown failure.
 The fix is to fix, move or delete the Markdown file.
 
-## Not a failure but slightly annoying: undetected README badges
+## Undetected README badges
 
-If your README badges aren't moved to the sidebar by pkgdown, check the structure of your [badges paragraph](https://pkgdown.r-lib.org/reference/build_home.html#dev-badges).
+This isn't a failure but is slightly annoying: If your README badges aren't moved to the sidebar by pkgdown, check the structure of your [badges paragraph](https://pkgdown.r-lib.org/reference/build_home.html#dev-badges).
 
 ## Conclusion
 
