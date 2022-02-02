@@ -3,8 +3,8 @@ slug: "community-manager-2022"
 title: "Community Manager"
 date: 2022-02-02
 expirydate: 2022-03-02
-location: Global
-conditions: Full-time contract position
+location: Global, 
+conditions: full-time contract position
 ---
 
 
