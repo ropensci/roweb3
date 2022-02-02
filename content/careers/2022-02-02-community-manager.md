@@ -69,7 +69,7 @@ The position is 100% remote. Costs related to a home office or co-working space 
 
 ## How to apply
 
-Please apply via the form at <https://ropensci.org/careers/community-manager-2022>. You will be asked to upload a cover letter and a resume or CV as a single PDF document with a filename of  the format "FirstName_LastName.pdf".  Please limit each of the letter and resume to no more than two pages in length. Applications will receive an automated message of receipt. Only applicants selected for an interview will be contacted.
+Please apply via the form below (at <https://ropensci.org/careers/community-manager-2022>). You will be asked to upload a cover letter and a resume or CV as a single PDF document with a filename of  the format "FirstName_LastName.pdf".  Please limit each of the letter and resume to no more than two pages in length. Applications will receive an automated message of receipt. Only applicants selected for an interview will be contacted.
 
 <hr>
 
