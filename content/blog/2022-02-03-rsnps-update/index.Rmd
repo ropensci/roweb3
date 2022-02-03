@@ -72,9 +72,9 @@ knitr::knit_hooks$set(
 
 ## Changes
 
-The [NEWS](https://github.com/ropensci/rsnps/blob/master/NEWS.md) file will tell you about the changes of rsnps 0.4.0 to 0.5.0, but the most relevant for users we would like to highlight in this blogpost. 
+The [NEWS](https://github.com/ropensci/rsnps/blob/master/NEWS.md) file will tell you about the changes of rsnps 0.4.0 to 0.5.0, but the most relevant for users we would like to highlight in this blog post. 
 
-`ncbi_snp_query()` is the function that pulls data from [NCBI's](https://www.ncbi.nlm.nih.gov/) [dbSNP](https://www.ncbi.nlm.nih.gov/snp/), a database of single-nucleotide polymorphisms (SNP). This database lets a user query for a SNP of interest and returns a plethora of information, among them genomic position, associated gene, clinical significance and - relevant for this blogpost - the allele frequency. The allele frequency varies typically between different populations, sometimes just a little (e.g. [rs562556](https://www.ncbi.nlm.nih.gov/snp/rs562556#frequency_tab)), sometimes a lot (e.g. [rs11677783](https://www.ncbi.nlm.nih.gov/snp/rs11677783#frequency_tab)). This is why [dbSNP](https://www.ncbi.nlm.nih.gov/snp/) collects allele frequency estimates from different studies and populations. Also, the database is constantly updated. 
+`ncbi_snp_query()` is the function that pulls data from [NCBI's](https://www.ncbi.nlm.nih.gov/) [dbSNP](https://www.ncbi.nlm.nih.gov/snp/), a database of single-nucleotide polymorphisms (SNP). This database lets a user query for a SNP of interest and returns a plethora of information, among them genomic position, associated gene, clinical significance, and - relevant for this blogpost - the allele frequency. The allele frequency varies typically between different populations, sometimes just a little (e.g. [rs562556](https://www.ncbi.nlm.nih.gov/snp/rs562556#frequency_tab)), sometimes a lot (e.g. [rs11677783](https://www.ncbi.nlm.nih.gov/snp/rs11677783#frequency_tab)). This is why [dbSNP](https://www.ncbi.nlm.nih.gov/snp/) collects allele frequency estimates from different studies and populations. Also, the database is constantly updated. 
 
 Until version 0.4.0 `ncbi_snp_query()` reported the allele frequnecy estimated from [gnomAD](https://gnomad.broadinstitute.org/). For example, for SNP `rs420358` the `ncbi_snp_query()` output used to look like this:
 
@@ -94,12 +94,12 @@ ncbi_snp_query("rs420358")
 We have now changed two things:
 
 1. The `maf_population` column in the `ncbi_snp_query()` output contains all reported allele frequencies, not only from one study or population (the `maf` column stays the same).
-2. To do that, `ncbi_snp_query()` returns now a tibble (and not a dataframe). 
+2. To do that, `ncbi_snp_query()` returns now a tibble (and not a data frame). 
 
 
 ## Examples
 
-Let's have a look at the output of two SNPs mentioned above. You can see that `dat` is a) a tibble and b) that the column `maf_population` is a list.
+Let's have a look at the output of the two SNPs mentioned above. You can see that `dat` is a) a tibble and b) that the column `maf_population` is a list.
 
 
 ```{r setupexample, include=FALSE}
@@ -119,7 +119,7 @@ library(rsnps)
 
 Here is a visual to show how much the allele frequencies vary per SNP. 
 
-First, we **flatten** the dataframe, so that each SNP and population/study are on **one line**. 
+First, we **flatten** the data frame, so that each SNP and population/study are on **one line**. 
 ```{r maf}
 (dat_maf <- dat %>% select(query, maf_population) %>% unnest(cols = c(maf_population)))
 ```
@@ -140,7 +140,7 @@ ggplot(data = dat_maf %>% filter(query == "rs562556") %>% mutate(study = forcats
 
 ```
 
-We can decide to turn the tibble into a dataframe again and pick a **specific study** (note that `maf_korean` is a `dbl` again): 
+We can decide to turn the tibble into a data frame again and pick a **specific study** (note that `maf_korean` is a `dbl` again): 
 
 ```{r mafkorean}
 (dat_korean <- 

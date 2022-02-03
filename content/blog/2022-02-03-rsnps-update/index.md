@@ -7,15 +7,15 @@ author:
   - Julia Gustavsen
 date: 2021-02-10
 tags:
-  - Software Peer Review
   - packages
   - R
-  - community
   - rsnps
   - dbsnp
+  - open-data
+  - tech notes
 description: "`ncbi_snp_query()` now returns all reported variant allele frequencies in dbSNP."
 twitterImg: blog/2022-02-03-rsnps-update/plot-maf-2.png
-twitterAlt: "Allele frequencies in dbSNP for rs562556 and various studies/populations"
+twitterAlt: "Allele frequencies in dbSNP for rs562556 and various studies/populations."
 output: 
   html_document:
     keep_md: true
@@ -35,7 +35,7 @@ The [NEWS](https://github.com/ropensci/rsnps/blob/master/NEWS.md) file will tell
 
 `ncbi_snp_query()` is the function that pulls data from [NCBI's](https://www.ncbi.nlm.nih.gov/) [dbSNP](https://www.ncbi.nlm.nih.gov/snp/), a database of single-nucleotide polymorphisms (SNP). This database lets a user query for a SNP of interest and returns a plethora of information, among them genomic position, associated gene, clinical significance and - relevant for this blogpost - the allele frequency. The allele frequency varies typically between different populations, sometimes just a little (e.g. [rs562556](https://www.ncbi.nlm.nih.gov/snp/rs562556#frequency_tab)), sometimes a lot (e.g. [rs11677783](https://www.ncbi.nlm.nih.gov/snp/rs11677783#frequency_tab)). This is why [dbSNP](https://www.ncbi.nlm.nih.gov/snp/) collects allele frequency estimates from different studies and populations. Also, the database is constantly updated. 
 
-Until version 0.4.0 `ncbi_snp_query()` reported the allele frequnecy estimated from [gnomAD](https://gnomad.broadinstitute.org/). For example, for SNP `rs420358` the `ncbi_snp_query` output used to look like this:
+Until version 0.4.0 `ncbi_snp_query()` reported the allele frequnecy estimated from [gnomAD](https://gnomad.broadinstitute.org/). For example, for SNP `rs420358` the `ncbi_snp_query()` output used to look like this:
 
 ```r
 ncbi_snp_query("rs420358")
@@ -53,7 +53,7 @@ ncbi_snp_query("rs420358")
 We have now changed two things:
 
 1. The `maf_population` column in the `ncbi_snp_query()` output contains all reported allele frequencies, not only from one study or population (the `maf` column stays the same).
-2. To do that, `ncbi_snp_query` returns now a tibble (and not a dataframe). 
+2. To do that, `ncbi_snp_query()` returns now a tibble (and not a dataframe). 
 
 
 ## Examples
@@ -112,21 +112,19 @@ First, we **flatten** the dataframe, so that each SNP and population/study are o
 Then we display it with the allele frequency on the x-axis and the study along the y-axis. 
 
 ```r 
-#, hugoopts=list(alt="alternative text please make it informative", caption="this is what this image shows, write it here or in the paragraph after the image as you prefer", width=300)
-
 ggplot(data = dat_maf %>% filter(query == "rs11677783") %>% mutate(study = forcats::fct_reorder(study, MAF ))) + 
   geom_vline(xintercept = c(0, 0.5, 1), linetype = 3, color ="gray") +
   geom_point(aes(MAF, study)) + 
   labs(title = "Allele frequency", subtitle = "rs11677783") 
 ```
-{{<figure src="plot-maf-1.png" >}}
+{{<figure src="plot-maf-1.png" alt="Graphical display of the allele frequency for two genetic variants (rs11677783, rs562556)." caption="Allele frequencies in dbSNP for rs11677783, rs562556 and various studies/populations." width="300">}}
 ```r 
 ggplot(data = dat_maf %>% filter(query == "rs562556") %>% mutate(study = forcats::fct_reorder(study, MAF ))) + 
   geom_vline(xintercept = c(0, 0.5, 1), linetype = 3, color ="gray") +
   geom_point(aes(MAF, study)) + 
   labs(title = "Allele frequency", subtitle = "rs562556") 
 ```
-{{<figure src="plot-maf-2.png" >}}
+{{<figure src="plot-maf-2.png" alt="Graphical display of the allele frequency for two genetic variants (rs11677783, rs562556)." caption="Allele frequencies in dbSNP for rs11677783, rs562556 and various studies/populations." width="300">}}
 
 We can decide to turn the tibble into a dataframe again and pick a **specific study** (note that `maf_korean` is a `dbl` again): 
 
