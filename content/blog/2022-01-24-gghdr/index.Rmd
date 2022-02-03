@@ -40,7 +40,7 @@ This was how being a newcomer to [rOpenSci OzUnconf 2019](https://ozunconf19.rop
 
 ## Highest density regions
 
-The [highest density region](https://www.jstor.org/stable/2684423?seq=1) approach of summarizing a distribution is useful for analyzing multimodal distributions and can be composed of numerous disjoint subsets. Let us look at a familiar data set `ggplot2::mpg`, containing the technical specifications of a sample of cars with variables `hwy` specifying highway miles per gallon and `cyl` specifying number of cylinders. The histogram (a) shows that cars with 6 cylinders are bimodally distributed, which is reflected in the highest density region (HDR) plots (b) but not in the standard boxplot (c). Hence, we see that HDRs are useful in displaying multimodality in the distribution. 
+The [highest density region](https://www.jstor.org/stable/2684423?seq=1) approach of summarizing a distribution is useful for analyzing multimodal distributions and can be composed of numerous disjoint subsets. For example, the histogram of the mpg data (a) shows that cars with 6 cylinders (`cyl`) are bimodally distributed, which is reflected in the highest density region (HDR) plot (b) but not in the standard boxplot (c). Hence, we see that HDRs are useful in displaying multimodality in the distribution. 
 
 ```{r mpgBox1, fig.width = 5, fig.height = 4,echo=FALSE}
 p1 <- ggplot(data = mpg, 
