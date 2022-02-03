@@ -7,12 +7,11 @@ author:
   - Julia Gustavsen
 date: 2021-02-10
 tags:
-  - Software Peer Review
   - packages
   - R
-  - community
   - rsnps
   - dbsnp
+  - open-data
 description: "`ncbi_snp_query()` now returns all reported variant allele frequencies in dbSNP."
 twitterImg: blog/2022-02-03-rsnps-update/plot-maf-2.png
 twitterAlt: "Allele frequencies in dbSNP for rs562556 and various studies/populations."
