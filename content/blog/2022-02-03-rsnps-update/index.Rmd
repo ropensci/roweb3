@@ -15,7 +15,7 @@ tags:
   - dbsnp
 description: "`ncbi_snp_query()` now returns all reported variant allele frequencies in dbSNP."
 twitterImg: blog/2022-02-03-rsnps-update/plot-maf-2.png
-twitterAlt: "Allele frequencies in dbSNP for rs562556 and various studies/populations"
+twitterAlt: "Allele frequencies in dbSNP for rs562556 and various studies/populations."
 output: 
   html_document:
     keep_md: true
@@ -126,8 +126,7 @@ First, we **flatten** the dataframe, so that each SNP and population/study are o
 
 Then we display it with the allele frequency on the x-axis and the study along the y-axis. 
 
-```{r plot-maf}
-#, hugoopts=list(alt="alternative text please make it informative", caption="this is what this image shows, write it here or in the paragraph after the image as you prefer", width=300)
+```{r plot-maf, hugoopts=list(alt="Graphical display of the allele frequency for two genetic variants (rs11677783, rs562556).", caption="Allele frequencies in dbSNP for rs11677783, rs562556 and various studies/populations.", width=300)}
 
 ggplot(data = dat_maf %>% filter(query == "rs11677783") %>% mutate(study = forcats::fct_reorder(study, MAF ))) + 
   geom_vline(xintercept = c(0, 0.5, 1), linetype = 3, color ="gray") +
