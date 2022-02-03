@@ -56,7 +56,7 @@ p2 <- ggplot(data = mpg,
 p3 <- ggplot(data = mpg, 
        # make sure to change x to y from geom_density to geom_hdr_boxplot
        aes(y = hwy, fill = as.factor(cyl))) + 
-  geom_hdr_boxplot()+ ggtitle("c")
+  geom_hdr_boxplot()+ ggtitle("b")
 
 p1
 p2
