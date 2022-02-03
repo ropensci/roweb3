@@ -13,7 +13,7 @@ rOpenSci seeks a _Community Manager_ to support and build our vibrant and inclus
 
 rOpenSci's mission is to expand access to scientific data and promote a culture of reproducible research and sustainable research software, primarily in the R programming language.  We do this through the development of software technical infrastructure and cultivating a community of mutual support amongst researchers and research software engineers.  We're an established community with more than a decade of history, more than 300 packages and hundreds of members having an impact on open and reproducible research. We're looking for a new community manager to help us to consolidate our existing efforts and ensure that we're supporting an increasingly diverse membership.
 
-In your role as the community manager, you will be the face of the organization welcoming new members. You will help new and experienced members collaborate with each other and contribute to communal projects such as software peer-review, R infrastructure development, and internationalization.  You will help guide the direction of the organization by organizing community events and partnerships and actively gathering input about member needs and emerging priorities.  You will also play a key role in implementing rOpenSci's [new project empowering Community Leaders from historically excluded groups (HEGs) in collaboration](https://ropensci.org/blog/2021/12/20/inclusive-leadership-program/) with the Center for Scientific Collaboration and Community Engagement ([CSCCE](https://www.cscce.org/)). 
+In your role as the community manager, you will be the face of the organization welcoming new members. You will help new and experienced members collaborate with each other and contribute to communal projects such as software peer-review, R infrastructure development, and internationalization.  You will help guide the direction of the organization by organizing community events and partnerships and actively gathering input about member needs and emerging priorities.  You will also play a key role in implementing rOpenSci's [new project empowering Community Leaders from historically excluded groups (HEGs) in collaboration](/blog/2021/12/20/inclusive-leadership-program/) with the Center for Scientific Collaboration and Community Engagement ([CSCCE](https://www.cscce.org/)). 
 
 
 ## Key responsibilities
@@ -69,7 +69,7 @@ The position is 100% remote. Costs related to a home office or co-working space 
 
 ## How to apply
 
-Please apply via the form below (at <https://ropensci.org/careers/community-manager-2022>). You will be asked to upload a cover letter and a resume or CV as a single PDF document with a filename of the format "FirstName_LastName.pdf".  Please limit the letter and resume to no more than two pages in length each. Applications will receive an automated message of receipt. Only applicants selected for an interview will be contacted.
+Please apply via the form below. You will be asked to upload a cover letter and a resume or CV as a single PDF document with a filename of the format "FirstName_LastName.pdf".  Please limit the letter and resume to no more than two pages in length each. Applications will receive an automated message of receipt. Only applicants selected for an interview will be contacted.
 
 <hr>
 
