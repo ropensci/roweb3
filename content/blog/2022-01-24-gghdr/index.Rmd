@@ -141,6 +141,7 @@ __Before:__
 library(hdrcde)
 hdr.boxplot(faithful$eruptions) 
 ```
+
 </div>
 <div class = "col-md-6">
 __After:__
