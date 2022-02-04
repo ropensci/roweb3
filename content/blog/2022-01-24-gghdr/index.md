@@ -52,7 +52,7 @@ Shortly after we were accepted, Mitch posted the idea on the [rOpenSci Github is
 
 Doing a bit of brainstorming on the project ahead of time helped us to set the expectations, and communicate them to potential team members. Although it is worth mentioning that projects don't need to be fully fleshed out ahead of time - the ozunconf organisers strongly encourage working on projects that you thought of even on that very day.
 
-Fast-forward to the first day of the conference! The participants had already suggested ideas (there were many brilliant ones - have a read [here](https://github.com/ropensci/ozunconf19/issues)) and then voting started for the projects people were excited to be associated with. Little did we know that time there would be five more enthusiasts  who would be as eager to contribute to this project and learn about ggplot2 internals (very aptly put by Mitch while advertising the project. Smart move mate)! Oh, and what a fun and collaborative team to work with! See how they won’t stop coding:
+Fast-forward to the first day of the conference! The participants had already suggested ideas (there were many brilliant ones - have a read [here](https://github.com/ropensci/ozunconf19/issues)) and then voting started for the projects people were excited to be associated with. Little did we know that time there would be more enthusiasts who would be as eager to contribute to this project and learn about ggplot2 internals (very aptly put by Mitch while advertising the project. Smart move mate)! Oh, and what a fun and collaborative team to work with! See how they won’t stop coding:
 
 {{< tweet "1205008586130149376">}}
 
@@ -64,6 +64,7 @@ At the end of the two days, we had established the following:
 
 <div class = "row">
 <div class = "col-md-6">
+
 __Before:__
 ```r 
 library(hdrcde)
@@ -98,16 +99,16 @@ hdr.den(faithful$eruptions,
 ```
 #> $hdr
 #>         [,1]     [,2]     [,3]     [,4]
-#> 99% 1.323620 2.819350 3.152475 5.282197
-#> 95% 1.500617 2.520914 3.499998 5.091759
-#> 50% 1.923691 2.024803 3.941339 4.772743
+#> 99% 1.323319 2.819363 3.152891 5.282370
+#> 95% 1.500522 2.521013 3.499998 5.091947
+#> 50% 1.923889 2.025061 3.940276 4.773396
 #> 
 #> $mode
-#> [1] 4.378576
+#> [1] 4.379507
 #> 
 #> $falpha
-#>        1%        5%       50% 
-#> 0.0677212 0.1531726 0.3605512
+#>         1%         5%        50% 
+#> 0.06794829 0.15332980 0.35994635
 ```
 </div>
 <div class = "col-md-6">
