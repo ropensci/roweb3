@@ -252,7 +252,7 @@ knitr::include_graphics("conflict-tree.png")
 We still have one thing to do (replace the `hdr.boxplot.2d()` with `geom_hdr_boxplot.2d()`, which would calculate and plot HDRs in two dimensions), but are happy to announce that with some embellishments and review, the current version is submitted and expected to be up on CRAN soon. Kudos team!! You can learn about our package `gghdr` at [the package website](https://Sayani07.github.io/gghdr/), and the [Github repo](https://Sayani07.github.io/gghdr/).
 
 ```{r image-team, echo = F}
-knitr::include_graphics(here::here("content/blog/2022-01-24-gghdr/team.jpg"))
+knitr::include_graphics("team.jpg")
 ```
 
 

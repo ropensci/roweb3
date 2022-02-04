@@ -35,6 +35,8 @@ This was how being a newcomer to [rOpenSci OzUnconf 2019](https://ozunconf19.rop
 The gghdr package provides tools for plotting highest density regions with `ggplot2` and was inspired by the package [hdrcde](https://cran.r-project.org/web/packages/hdrcde/index.html) developed by [Rob J Hyndman](https://robjhyndman.com/). The [highest density region](https://www.jstor.org/stable/2684423?seq=1) approach of summarizing a distribution is useful for analyzing multimodal distributions and can be composed of numerous disjoint subsets. For example, the histogram of the mpg data (a) shows that cars with 6 cylinders (`cyl`) are bimodally distributed, which is reflected in the highest density region (HDR) plot (c) but not in the standard boxplot (b). Hence, we see that HDRs are useful in displaying multimodality in the distribution. 
 
 {{<figure src="mpgBox1-1.png" >}}
+{{<figure src="mpgBox1-2.png" >}}
+{{<figure src="mpgBox1-3.png" >}}
 
 
 Since Rob's paper describing highest density regions was written almost 25 years ago and the package came 15 years ago, the need to reexamine it through the ggplot2 lenses had been lurking around for a while. While I read the paper and attempted using `hdrcde`, it did feel less powerful not being able to use `ggplot2` and the flexibilities that come along with it. Rob himself suggested it would be great to have a `ggplot` framework. I tried it but didn't get a chance to put it all together. There was even a point where [Mitch O'Hara-Wild](https://blog.mitchelloharawild.com/) was threatening me that he would get this done overnight if I didn’t (and I bet he would have had he not been raising chickens and bees)! But one fine day, he suggested that the rOpensci ozunconf could be the right place to do this together. I thought this was a brilliant idea as I had read about [Nick Tierney's](author/nicholas-tierney/) [experience](blog/2017/10/31/ozunconf2017/) earlier and was thrilled to be a part of it. 
@@ -43,10 +45,10 @@ This event is quite different from other conferences in the sense that it is mos
 
 # Planning and execution
 
-Shortly after we were accepted, Mitch posted the idea on the [rOpenSci Github issues page](https://github.com/ropensci/ozunconf19/issues). Posting an issue like this is a great place to start a discussion on a rough idea or to learn more or comment on any idea that you find exciting. We brainstormed for a couple of days on how [`hdrcde`](https://github.com/robjhyndman/hdrcde) worked and what are the potential functions and features we would like to have or improve in the new package. The discussion led to a workflow which pretty much looked like this: 
+Shortly after we were accepted, Mitch posted the idea on the [rOpenSci Github issues page](https://github.com/ropensci/ozunconf19/issues). Posting an issue like this is a great place to start a discussion on a rough idea or to learn more or comment on any idea that you find exciting. We brainstormed for a couple of days on how [`hdrcde`](https://github.com/robjhyndman/hdrcde) worked and what potential functions and features we would like to have or improve in the new package. The discussion led to a workflow which pretty much looked like this: 
 
 
-{{<figure src="/Users/sgup0008/Desktop/roweb3/content/blog/2022-01-24-gghdr/board.jpg" >}}
+{{<figure src="board.jpg" >}}
 
 Doing a bit of brainstorming on the project ahead of time helped us to set the expectations, and communicate them to potential team members. Although it is worth mentioning that projects don't need to be fully fleshed out ahead of time - the ozunconf organisers strongly encourage working on projects that you thought of even on that very day.
 
@@ -96,16 +98,16 @@ hdr.den(faithful$eruptions,
 ```
 #> $hdr
 #>         [,1]     [,2]     [,3]     [,4]
-#> 99% 1.324195 2.819330 3.151644 5.281796
-#> 95% 1.500804 2.520707 3.499998 5.091411
-#> 50% 1.923260 2.024389 3.943387 4.771487
+#> 99% 1.323620 2.819350 3.152475 5.282197
+#> 95% 1.500617 2.520914 3.499998 5.091759
+#> 50% 1.923691 2.024803 3.941339 4.772743
 #> 
 #> $mode
-#> [1] 4.382076
+#> [1] 4.378576
 #> 
 #> $falpha
-#>         1%         5%        50% 
-#> 0.06727616 0.15286776 0.36172878
+#>        1%        5%       50% 
+#> 0.0677212 0.1531726 0.3605512
 ```
 </div>
 <div class = "col-md-6">
@@ -190,7 +192,7 @@ ggplot(faithful, aes(x = eruptions, y = waiting)) +
 
 Now where there's a will, there's a way. Except that soon we could say where there is a merge, there is a conflict.  While most times we use [GitHub](https://github.com/) for code-sharing, publishing software and collaborating with our future self, this was the time to show how we collaborate with others. It took almost 2 hours with both GitKraken and Mitch helping us to deal with the merge conflicts!
 
-{{<figure src="/Users/sgup0008/Desktop/roweb3/content/blog/2022-01-24-gghdr/conflict-tree.png" >}}
+{{<figure src="conflict-tree.png" >}}
 
 
 <!-- - Extending ggplot2 (https://cran.r-project.org/web/packages/ggplot2/vignettes/extending-ggplot2.html). __(Writing about the scale problem that was faced.)__ -->
@@ -200,7 +202,7 @@ Now where there's a will, there's a way. Except that soon we could say where the
 
 We still have one thing to do (replace the `hdr.boxplot.2d()` with `geom_hdr_boxplot.2d()`, which would calculate and plot HDRs in two dimensions), but are happy to announce that with some embellishments and review, the current version is submitted and expected to be up on CRAN soon. Kudos team!! You can learn about our package `gghdr` at [the package website](https://Sayani07.github.io/gghdr/), and the [Github repo](https://Sayani07.github.io/gghdr/).
 
-{{<figure src="/Users/sgup0008/Desktop/roweb3/content/blog/2022-01-24-gghdr/team.jpg" >}}
+{{<figure src="team.jpg" >}}
 
 
 
