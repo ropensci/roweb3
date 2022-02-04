@@ -103,8 +103,8 @@ p3 <- ggplot(data = mpg,
   geom_hdr_boxplot()+ ggtitle("b")
 
 p1
-p2
 p3
+p2
 ```
 
 
