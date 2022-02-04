@@ -25,27 +25,21 @@ output:
 > 
 > <footer>Carl W. Buehner</footer>
 
-This was how being a newcomer to [rOpenSci OzUnconf 2019](https://ozunconf19.ropensci.org/) felt. It is incredible to be a part of such a diverse, welcoming and inclusive environment. I thought it would be fun to blog about how we all came together, and the twists and turns we experienced along the way as we developed the gghdr package together.
-
-## Highest density regions
-
-The [highest density region](https://www.jstor.org/stable/2684423?seq=1) approach of summarizing a distribution is useful for analyzing multimodal distributions and can be composed of numerous disjoint subsets. For example, the histogram of the mpg data (a) shows that cars with 6 cylinders (`cyl`) are bimodally distributed, which is reflected in the highest density region (HDR) plot (b) but not in the standard boxplot (c). Hence, we see that HDRs are useful in displaying multimodality in the distribution. 
-
-{{<figure src="mpgBox1-1.png" >}}
-{{<figure src="mpgBox1-2.png" >}}
-{{<figure src="mpgBox1-3.png" >}}
+This was how being a newcomer to [rOpenSci OzUnconf 2019](https://ozunconf19.ropensci.org/) felt. It was incredible to be a part of such a diverse, welcoming and inclusive environment. I thought it would be fun to blog about how it all began, and the twists and turns we experienced along the way as we developed the gghdr package. The other authors of this package include 
+[Mitchell O'Hara-Wild]([https://github.com/mitchelloharawild) ([Stephen Pearce](https://github.com/sparce), [Ryo Nakagawara](https://github.com/Ryo-N7), [Darya Vanichkina](https://github.com/dvanic), [Emi Tanaka](https://emitanaka.org/), [Thomas Fung](https://github.com/thomas-fung)) and [Rob J Hyndman](https://github.com/robjhyndman/).
 
 # Initiation
 
 <!-- Initially, the aim was to visualize _Highest Density Regions_ (HDR) in one and two dimensions under the [ggplot2](https://ggplot2.tidyverse.org/) framework.  -->
 
-The gghdr package provides tools for plotting highest density regions with `ggplot2` and was inspired by the package [hdrcde](https://cran.r-project.org/web/packages/hdrcde/index.html) developed by [Rob J Hyndman](https://robjhyndman.com/). 
+The gghdr package provides tools for plotting highest density regions with `ggplot2` and was inspired by the package [hdrcde](https://cran.r-project.org/web/packages/hdrcde/index.html) developed by [Rob J Hyndman](https://robjhyndman.com/). The [highest density region](https://www.jstor.org/stable/2684423?seq=1) approach of summarizing a distribution is useful for analyzing multimodal distributions and can be composed of numerous disjoint subsets. For example, the histogram of the mpg data (a) shows that cars with 6 cylinders (`cyl`) are bimodally distributed, which is reflected in the highest density region (HDR) plot (c) but not in the standard boxplot (b). Hence, we see that HDRs are useful in displaying multimodality in the distribution. 
 
-[Perhaps move the section explaining highest density regions (above), to here]
+{{<figure src="mpgBox1-1.png" >}}
 
-Since Rob's paper describing highest density regions was written almost 25 years ago and the package came 15 years ago, the need to reexamine it through the ggplot2 lenses had been lurking around for a while. While I read the paper and attempted using `hdrcde`, it did feel less powerful not being able to use `ggplot2` and the flexibilities that come along with it. Rob himself suggested it would be great to have a `ggplot` framework. [Perhaps add a transitional sentence like "I thought about it, but didn't get a chance to make it happen"] There was even a point where [Mitch O'Hara-Wild](https://blog.mitchelloharawild.com/) was threatening me that he would get this done overnight if I didn’t (and I bet he would have had he not been raising chickens and bees)! But one fine day, he suggested that the rOpensci ozunconf could be the right place to do this together. I thought this was a brilliant idea as I had read about [Nick Tierney's](author/nicholas-tierney/) [experience](blog/2017/10/31/ozunconf2017/) earlier and was thrilled to be a part of it. 
 
-This event is quite different in the sense that it is mostly invite-only, where past attendees can recommend new ones. Mitch was a participant at [rOpenSci OzUnconf 2018](https://ozunconf18.ropensci.org/#about). So he could invite me to work on this project with him at rOpenSci ozunconf 2019. Soon I had applied and we were accepted. Thanks to the organizers of the [rOpenSci ozunconference](https://ozunconf19.ropensci.org/) for the opportunity and excellent management of what has turned out to be a highly stimulating experience. 
+Since Rob's paper describing highest density regions was written almost 25 years ago and the package came 15 years ago, the need to reexamine it through the ggplot2 lenses had been lurking around for a while. While I read the paper and attempted using `hdrcde`, it did feel less powerful not being able to use `ggplot2` and the flexibilities that come along with it. Rob himself suggested it would be great to have a `ggplot` framework. I tried it but didn't get a chance to put it all together. There was even a point where [Mitch O'Hara-Wild](https://blog.mitchelloharawild.com/) was threatening me that he would get this done overnight if I didn’t (and I bet he would have had he not been raising chickens and bees)! But one fine day, he suggested that the rOpensci ozunconf could be the right place to do this together. I thought this was a brilliant idea as I had read about [Nick Tierney's](author/nicholas-tierney/) [experience](blog/2017/10/31/ozunconf2017/) earlier and was thrilled to be a part of it. 
+
+This event is quite different from other conferences in the sense that it is mostly invite-only, where past attendees can recommend new ones. Mitch was a participant at [OzUnconf 2018](https://ozunconf18.ropensci.org/#about), so he could invite me to work on this project with him at ozunconf 2019. Soon I had applied and we were accepted. Thanks go to the organizers of the ozunconf for the opportunity and excellent management of what has turned out to be a highly stimulating experience. 
 
 # Planning and execution
 
@@ -56,7 +50,7 @@ Shortly after we were accepted, Mitch posted the idea on the [rOpenSci Github is
 
 Doing a bit of brainstorming on the project ahead of time helped us to set the expectations, and communicate them to potential team members. Although it is worth mentioning that projects don't need to be fully fleshed out ahead of time - the ozunconf organisers strongly encourage working on projects that you thought of even on that very day.
 
-Fast-forward to the first day of the conference! The participants had already suggested ideas (there were many brilliant ones - have a read [here](https://github.com/ropensci/ozunconf19/issues)) and then voting started for the projects people were excited to be associated with. Little did we know that time there would be five more enthusiasts ([Stephen Pearce](https://github.com/sparce), [Ryo Nakagawara](https://github.com/Ryo-N7), [Darya Vanichkina](https://github.com/dvanic), [Emi Tanaka](https://emitanaka.org/) and [Thomas Fung](https://github.com/thomas-fung)) who would be as eager to contribute to this project and learn about ggplot2 internals (very aptly put by Mitch while advertising the project. Smart move mate)! Oh, and what a fun and collaborative team to work with! See how they won’t stop coding:
+Fast-forward to the first day of the conference! The participants had already suggested ideas (there were many brilliant ones - have a read [here](https://github.com/ropensci/ozunconf19/issues)) and then voting started for the projects people were excited to be associated with. Little did we know that time there would be five more enthusiasts  who would be as eager to contribute to this project and learn about ggplot2 internals (very aptly put by Mitch while advertising the project. Smart move mate)! Oh, and what a fun and collaborative team to work with! See how they won’t stop coding:
 
 {{< tweet "1205008586130149376">}}
 
@@ -102,16 +96,16 @@ hdr.den(faithful$eruptions,
 ```
 #> $hdr
 #>         [,1]     [,2]     [,3]     [,4]
-#> 99% 1.324086 2.819334 3.151800 5.281859
-#> 95% 1.500766 2.520746 3.499998 5.091478
-#> 50% 1.923315 2.024540 3.943004 4.771723
+#> 99% 1.324195 2.819330 3.151644 5.281796
+#> 95% 1.500804 2.520707 3.499998 5.091411
+#> 50% 1.923260 2.024389 3.943387 4.771487
 #> 
 #> $mode
-#> [1] 4.382416
+#> [1] 4.382076
 #> 
 #> $falpha
 #>         1%         5%        50% 
-#> 0.06735897 0.15292444 0.36150878
+#> 0.06727616 0.15286776 0.36172878
 ```
 </div>
 <div class = "col-md-6">
@@ -120,8 +114,10 @@ __After:__
 library(gghdr)
 library(ggplot2)
 library(dplyr)
-faithful %>% ggplot(aes(x = eruptions)) +
-  geom_density(n= 1001, bw = hdrcde::hdrbw(faithful$eruptions, mean(c(0.5, 0.95, 0.99)))) +
+hdrc_bw <- hdrcde::hdrbw(faithful$eruptions, mean(c(0.5, 0.95, 0.99)))
+faithful %>% 
+  ggplot(aes(x = eruptions)) +
+  geom_density(n= 1001, bw = hdrc_bw) +
   geom_hdr_rug(fill=  "blue") + 
   xlim(c(0.6833018, 6.0166982))
 ```

@@ -77,14 +77,14 @@ library(gghdr)
 > 
 > `r tufte::quote_footer('Carl W. Buehner')`
 
-This was how being a newcomer to [rOpenSci OzUnconf 2019](https://ozunconf19.ropensci.org/) felt. It was incredible to be a part of such a diverse, welcoming and inclusive environment. I thought it would be fun to blog about how it all began, and the twists and turns we experienced along the way as we developed the gghdr package. The other authors of this package are 
+This was how being a newcomer to [rOpenSci OzUnconf 2019](https://ozunconf19.ropensci.org/) felt. It was incredible to be a part of such a diverse, welcoming and inclusive environment. I thought it would be fun to blog about how it all began, and the twists and turns we experienced along the way as we developed the gghdr package. The other authors of this package include 
 [Mitchell O'Hara-Wild]([https://github.com/mitchelloharawild) ([Stephen Pearce](https://github.com/sparce), [Ryo Nakagawara](https://github.com/Ryo-N7), [Darya Vanichkina](https://github.com/dvanic), [Emi Tanaka](https://emitanaka.org/), [Thomas Fung](https://github.com/thomas-fung)) and [Rob J Hyndman](https://github.com/robjhyndman/).
 
 # Initiation
 
 <!-- Initially, the aim was to visualize _Highest Density Regions_ (HDR) in one and two dimensions under the [ggplot2](https://ggplot2.tidyverse.org/) framework.  -->
 
-The gghdr package provides tools for plotting highest density regions with `ggplot2` and was inspired by the package [hdrcde](https://cran.r-project.org/web/packages/hdrcde/index.html) developed by [Rob J Hyndman](https://robjhyndman.com/). The [highest density region](https://www.jstor.org/stable/2684423?seq=1) approach of summarizing a distribution is useful for analyzing multimodal distributions and can be composed of numerous disjoint subsets. For example, the histogram of the mpg data (a) shows that cars with 6 cylinders (`cyl`) are bimodally distributed, which is reflected in the highest density region (HDR) plot (b) but not in the standard boxplot (c). Hence, we see that HDRs are useful in displaying multimodality in the distribution. 
+The gghdr package provides tools for plotting highest density regions with `ggplot2` and was inspired by the package [hdrcde](https://cran.r-project.org/web/packages/hdrcde/index.html) developed by [Rob J Hyndman](https://robjhyndman.com/). The [highest density region](https://www.jstor.org/stable/2684423?seq=1) approach of summarizing a distribution is useful for analyzing multimodal distributions and can be composed of numerous disjoint subsets. For example, the histogram of the mpg data (a) shows that cars with 6 cylinders (`cyl`) are bimodally distributed, which is reflected in the highest density region (HDR) plot (c) but not in the standard boxplot (b). Hence, we see that HDRs are useful in displaying multimodality in the distribution. 
 
 ```{r mpgBox1, fig.width = 5, fig.height = 4,echo=FALSE}
 p1 <- ggplot(data = mpg, 
@@ -95,7 +95,7 @@ p1 <- ggplot(data = mpg,
 p2 <- ggplot(data = mpg, 
        # make sure to change x to y from geom_density to geom_hdr_boxplot
        aes(y = hwy, fill = as.factor(cyl))) + 
-  geom_boxplot() + ggtitle("b")
+  geom_boxplot() + ggtitle("c")
 
 p3 <- ggplot(data = mpg, 
        # make sure to change x to y from geom_density to geom_hdr_boxplot
