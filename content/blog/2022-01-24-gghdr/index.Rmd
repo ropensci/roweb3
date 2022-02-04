@@ -173,8 +173,10 @@ __After:__
 library(gghdr)
 library(ggplot2)
 library(dplyr)
-faithful %>% ggplot(aes(x = eruptions)) +
-  geom_density(n= 1001, bw = hdrcde::hdrbw(faithful$eruptions, mean(c(0.5, 0.95, 0.99)))) +
+hdrc_bw <- hdrcde::hdrbw(faithful$eruptions, mean(c(0.5, 0.95, 0.99)))
+faithful %>% 
+  ggplot(aes(x = eruptions)) +
+  geom_density(n= 1001, bw = hdrc_bw) +
   geom_hdr_rug(fill=  "blue") + 
   xlim(c(0.6833018, 6.0166982))
 ```
