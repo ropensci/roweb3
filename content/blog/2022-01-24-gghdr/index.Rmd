@@ -103,8 +103,8 @@ p3 <- ggplot(data = mpg,
   geom_hdr_boxplot()+ ggtitle("b")
 
 p1
-p2
 p3
+p2
 ```
 
 
@@ -114,7 +114,7 @@ This event is quite different from other conferences in the sense that it is mos
 
 # Planning and execution
 
-Shortly after we were accepted, Mitch posted the idea on the [rOpenSci Github issues page](https://github.com/ropensci/ozunconf19/issues). Posting an issue like this is a great place to start a discussion on a rough idea or to learn more or comment on any idea that you find exciting. We brainstormed for a couple of days on how [`hdrcde`](https://github.com/robjhyndman/hdrcde) worked and what are the potential functions and features we would like to have or improve in the new package. The discussion led to a workflow which pretty much looked like this: 
+Shortly after we were accepted, Mitch posted the idea on the [rOpenSci Github issues page](https://github.com/ropensci/ozunconf19/issues). Posting an issue like this is a great place to start a discussion on a rough idea or to learn more or comment on any idea that you find exciting. We brainstormed for a couple of days on how [`hdrcde`](https://github.com/robjhyndman/hdrcde) worked and what potential functions and features we would like to have or improve in the new package. The discussion led to a workflow which pretty much looked like this: 
 
 
 ```{r image-board, echo = F}
