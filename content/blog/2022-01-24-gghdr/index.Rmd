@@ -71,22 +71,16 @@ knitr::opts_chunk$set(echo = TRUE,
 library(tufte)
 library(ggpubr)
 library(gghdr)
+library(patchwork)
 ```
 
 > They may forget what you said, but they will never forget how you made them feel.
 > 
 > `r tufte::quote_footer('Carl W. Buehner')`
 
-This was how being a newcomer to [rOpenSci OzUnconf 2019](https://ozunconf19.ropensci.org/) felt. It was incredible to be a part of such a diverse, welcoming and inclusive environment. I thought it would be fun to blog about how it all began, and the twists and turns we experienced along the way as we developed the gghdr package. The other authors of this package include 
-[Mitchell O'Hara-Wild]([https://github.com/mitchelloharawild) ([Stephen Pearce](https://github.com/sparce), [Ryo Nakagawara](https://github.com/Ryo-N7), [Darya Vanichkina](https://github.com/dvanic), [Emi Tanaka](https://emitanaka.org/), [Thomas Fung](https://github.com/thomas-fung)) and [Rob J Hyndman](https://github.com/robjhyndman/).
+This was how being a newcomer to [rOpenSci OzUnconf 2019](https://ozunconf19.ropensci.org/) felt. It was incredible to be a part of such a diverse, welcoming and inclusive environment. I thought it would be fun to blog about how it all began, and the twists and turns we experienced along the way as we developed the `gghdr` package. The package provides tools for plotting [highest density regions](https://www.jstor.org/stable/2684423?seq=1) with `ggplot2` and was inspired by the package [hdrcde](https://cran.r-project.org/web/packages/hdrcde/index.html) developed by [Rob J Hyndman](https://robjhyndman.com/). The highest density region approach of summarizing a distribution is useful for analyzing multimodal distributions and can be composed of numerous disjoint subsets. For example, the histogram of the mpg data (a) shows that cars with 6 cylinders (`cyl`) are bimodally distributed, which is reflected in the highest density region (HDR) plot (c) but not in the standard boxplot (b). Hence, we see that HDRs are useful in displaying multimodality in the distribution. 
 
-# Initiation
-
-<!-- Initially, the aim was to visualize _Highest Density Regions_ (HDR) in one and two dimensions under the [ggplot2](https://ggplot2.tidyverse.org/) framework.  -->
-
-The gghdr package provides tools for plotting highest density regions with `ggplot2` and was inspired by the package [hdrcde](https://cran.r-project.org/web/packages/hdrcde/index.html) developed by [Rob J Hyndman](https://robjhyndman.com/). The [highest density region](https://www.jstor.org/stable/2684423?seq=1) approach of summarizing a distribution is useful for analyzing multimodal distributions and can be composed of numerous disjoint subsets. For example, the histogram of the mpg data (a) shows that cars with 6 cylinders (`cyl`) are bimodally distributed, which is reflected in the highest density region (HDR) plot (c) but not in the standard boxplot (b). Hence, we see that HDRs are useful in displaying multimodality in the distribution. 
-
-```{r mpgBox1, fig.width = 5, fig.height = 4,echo=FALSE}
+```{r mpgBox1, fig.width = 7, echo=FALSE}
 p1 <- ggplot(data = mpg, 
        aes(x = hwy, fill = as.factor(cyl))) +
   facet_grid(as.factor(cyl)~.) + 
@@ -95,18 +89,28 @@ p1 <- ggplot(data = mpg,
 p2 <- ggplot(data = mpg, 
        # make sure to change x to y from geom_density to geom_hdr_boxplot
        aes(y = hwy, fill = as.factor(cyl))) + 
-  geom_boxplot() + ggtitle("c")
+  geom_boxplot() + ggtitle("b") +
+  theme(legend.position = "bottom")
 
 p3 <- ggplot(data = mpg, 
        # make sure to change x to y from geom_density to geom_hdr_boxplot
        aes(y = hwy, fill = as.factor(cyl))) + 
-  geom_hdr_boxplot()+ ggtitle("b")
+  geom_hdr_boxplot()+ ggtitle("c")  +
+  theme(legend.position = "bottom")
 
-p1
-p3
-p2
+(p1 + p2)/p3
+# p1
+# p3
+# p2
 ```
 
+
+The other authors of this package include 
+[Mitchell O'Hara-Wild]([https://github.com/mitchelloharawild) [Stephen Pearce](https://github.com/sparce), [Ryo Nakagawara](https://github.com/Ryo-N7), [Darya Vanichkina](https://github.com/dvanic), [Emi Tanaka](https://emitanaka.org/), [Thomas Fung](https://github.com/thomas-fung) and [Rob J Hyndman](https://github.com/robjhyndman/).
+
+# Initiation
+
+<!-- Initially, the aim was to visualize _Highest Density Regions_ (HDR) in one and two dimensions under the [ggplot2](https://ggplot2.tidyverse.org/) framework.  -->
 
 Since Rob's paper describing highest density regions was written almost 25 years ago and the package came 15 years ago, the need to reexamine it through the ggplot2 lenses had been lurking around for a while. While I read the paper and attempted using `hdrcde`, it did feel less powerful not being able to use `ggplot2` and the flexibilities that come along with it. Rob himself suggested it would be great to have a `ggplot` framework. I tried it but didn't get a chance to put it all together. There was even a point where [Mitch O'Hara-Wild](https://blog.mitchelloharawild.com/) was threatening me that he would get this done overnight if I didn’t (and I bet he would have had he not been raising chickens and bees)! But one fine day, he suggested that the rOpensci ozunconf could be the right place to do this together. I thought this was a brilliant idea as I had read about [Nick Tierney's](author/nicholas-tierney/) [experience](blog/2017/10/31/ozunconf2017/) earlier and was thrilled to be a part of it. 
 

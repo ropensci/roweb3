@@ -25,19 +25,17 @@ output:
 > 
 > <footer>Carl W. Buehner</footer>
 
-This was how being a newcomer to [rOpenSci OzUnconf 2019](https://ozunconf19.ropensci.org/) felt. It was incredible to be a part of such a diverse, welcoming and inclusive environment. I thought it would be fun to blog about how it all began, and the twists and turns we experienced along the way as we developed the gghdr package. The other authors of this package include 
-[Mitchell O'Hara-Wild]([https://github.com/mitchelloharawild) ([Stephen Pearce](https://github.com/sparce), [Ryo Nakagawara](https://github.com/Ryo-N7), [Darya Vanichkina](https://github.com/dvanic), [Emi Tanaka](https://emitanaka.org/), [Thomas Fung](https://github.com/thomas-fung)) and [Rob J Hyndman](https://github.com/robjhyndman/).
+This was how being a newcomer to [rOpenSci OzUnconf 2019](https://ozunconf19.ropensci.org/) felt. It was incredible to be a part of such a diverse, welcoming and inclusive environment. I thought it would be fun to blog about how it all began, and the twists and turns we experienced along the way as we developed the `gghdr` package. The package provides tools for plotting [highest density regions](https://www.jstor.org/stable/2684423?seq=1) with `ggplot2` and was inspired by the package [hdrcde](https://cran.r-project.org/web/packages/hdrcde/index.html) developed by [Rob J Hyndman](https://robjhyndman.com/). The highest density region approach of summarizing a distribution is useful for analyzing multimodal distributions and can be composed of numerous disjoint subsets. For example, the histogram of the mpg data (a) shows that cars with 6 cylinders (`cyl`) are bimodally distributed, which is reflected in the highest density region (HDR) plot (c) but not in the standard boxplot (b). Hence, we see that HDRs are useful in displaying multimodality in the distribution. 
+
+{{<figure src="mpgBox1-1.png" >}}
+
+
+The other authors of this package include 
+[Mitchell O'Hara-Wild]([https://github.com/mitchelloharawild) [Stephen Pearce](https://github.com/sparce), [Ryo Nakagawara](https://github.com/Ryo-N7), [Darya Vanichkina](https://github.com/dvanic), [Emi Tanaka](https://emitanaka.org/), [Thomas Fung](https://github.com/thomas-fung) and [Rob J Hyndman](https://github.com/robjhyndman/).
 
 # Initiation
 
 <!-- Initially, the aim was to visualize _Highest Density Regions_ (HDR) in one and two dimensions under the [ggplot2](https://ggplot2.tidyverse.org/) framework.  -->
-
-The gghdr package provides tools for plotting highest density regions with `ggplot2` and was inspired by the package [hdrcde](https://cran.r-project.org/web/packages/hdrcde/index.html) developed by [Rob J Hyndman](https://robjhyndman.com/). The [highest density region](https://www.jstor.org/stable/2684423?seq=1) approach of summarizing a distribution is useful for analyzing multimodal distributions and can be composed of numerous disjoint subsets. For example, the histogram of the mpg data (a) shows that cars with 6 cylinders (`cyl`) are bimodally distributed, which is reflected in the highest density region (HDR) plot (c) but not in the standard boxplot (b). Hence, we see that HDRs are useful in displaying multimodality in the distribution. 
-
-{{<figure src="mpgBox1-1.png" >}}
-{{<figure src="mpgBox1-2.png" >}}
-{{<figure src="mpgBox1-3.png" >}}
-
 
 Since Rob's paper describing highest density regions was written almost 25 years ago and the package came 15 years ago, the need to reexamine it through the ggplot2 lenses had been lurking around for a while. While I read the paper and attempted using `hdrcde`, it did feel less powerful not being able to use `ggplot2` and the flexibilities that come along with it. Rob himself suggested it would be great to have a `ggplot` framework. I tried it but didn't get a chance to put it all together. There was even a point where [Mitch O'Hara-Wild](https://blog.mitchelloharawild.com/) was threatening me that he would get this done overnight if I didn’t (and I bet he would have had he not been raising chickens and bees)! But one fine day, he suggested that the rOpensci ozunconf could be the right place to do this together. I thought this was a brilliant idea as I had read about [Nick Tierney's](author/nicholas-tierney/) [experience](blog/2017/10/31/ozunconf2017/) earlier and was thrilled to be a part of it. 
 
@@ -100,16 +98,16 @@ hdr.den(faithful$eruptions,
 ```
 #> $hdr
 #>         [,1]     [,2]     [,3]     [,4]
-#> 99% 1.324139 2.819332 3.151724 5.281828
-#> 95% 1.500785 2.520727 3.499998 5.091445
-#> 50% 1.923342 2.024435 3.943191 4.771608
+#> 99% 1.323431 2.819358 3.152733 5.282306
+#> 95% 1.500559 2.520976 3.499998 5.091878
+#> 50% 1.923788 2.024948 3.940686 4.773145
 #> 
 #> $mode
-#> [1] 4.382249
+#> [1] 4.379154
 #> 
 #> $falpha
 #>         1%         5%        50% 
-#> 0.06731837 0.15289667 0.36161647
+#> 0.06786215 0.15326997 0.36017705
 ```
 </div>
 <div class = "col-md-6">
