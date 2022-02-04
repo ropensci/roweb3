@@ -118,7 +118,7 @@ Shortly after we were accepted, Mitch posted the idea on the [rOpenSci Github is
 
 
 ```{r image-board, echo = F}
-knitr::include_graphics(here::here("content/blog/2022-01-24-gghdr/board.jpg"))
+knitr::include_graphics("board.jpg")
 ```
 
 Doing a bit of brainstorming on the project ahead of time helped us to set the expectations, and communicate them to potential team members. Although it is worth mentioning that projects don't need to be fully fleshed out ahead of time - the ozunconf organisers strongly encourage working on projects that you thought of even on that very day.
