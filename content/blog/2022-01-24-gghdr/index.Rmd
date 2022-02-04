@@ -135,6 +135,7 @@ At the end of the two days, we had established the following:
 
 <div class = "row">
 <div class = "col-md-6">
+
 __Before:__
 ```{r hdrcde-boxplot, echo=TRUE, message=FALSE, warning=FALSE}
 library(hdrcde)
