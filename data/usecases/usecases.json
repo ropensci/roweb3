@@ -129,7 +129,7 @@
     "title": "Promoting R and rOpenSci packages in UK local government",
     "reporter": "Henry Partridge",
     "tags": ["r", "package", "fingertipsr", "ropenaq"],
-    "resource": "[ropenaq](https://docs.ropensci.org/ropenaq)",
+    "resource": "ropenaq",
     "url": "https://discuss.ropensci.org/t/promoting-r-and-ropensci-packages-in-uk-local-government/1776",
     "image": "noimage",
     "date": "2019-07-17"
