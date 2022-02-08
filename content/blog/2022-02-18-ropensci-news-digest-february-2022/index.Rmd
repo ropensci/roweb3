@@ -547,7 +547,14 @@ Why do this? This has two advantages
 
 * If you use [pkgdown BS5 templates](https://www.tidyverse.org/blog/2021/12/pkgdown-2-0-0/#bootstrap-5), which is the case if your package is part of rOpenSci suite, your package logo will appear on all pages, as well as in social media cards.
 
-<!-- To be curated by hand -->
+### Good resources about testing
+
+Some good links about testing your package...
+
+* When wondering what good tests look like (spoiler: they look obvious): [Why Good Developers Write Bad Unit Tests](https://mtlynch.io/good-developers-bad-tests/) (seen via [an issue in the R packages book repo](https://github.com/hadley/r-pkgs/issues/551)).
+* When things go well in one testing context (say, `devtools::test()`) but not in another one (say, `devtools::check()`): [a conversation around usual suspects](https://github.com/hadley/r-pkgs/issues/483). One prevention strategy is to read and apply the advice in testthat [Test fixtures vignette](https://testthat.r-lib.org/articles/test-fixtures.html).
+* That interacts with a database: [dittodb by Jonathan Keane and Mauricio Vargas](https://docs.ropensci.org/dittodb/).
+* That interacts with a web resource: [HTTP testing in R](https://books.ropensci.org/http-testing) (or the more recent [httptest2 package](https://enpiar.com/httptest2/) that is like httptest, but for [httr2](https://httr2.r-lib.org/)).
 
 ## Last words
 
