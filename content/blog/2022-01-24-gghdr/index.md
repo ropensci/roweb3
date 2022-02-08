@@ -71,7 +71,6 @@ hdr.boxplot(faithful$eruptions)
 {{<figure src="hdrcde-boxplot-1.png" >}}
 
 </div>
-<div class = "row">
 <div class = "col-md-6">
 __After:__
 ```r 
@@ -99,16 +98,16 @@ hdr.den(faithful$eruptions,
 ```
 #> $hdr
 #>         [,1]     [,2]     [,3]     [,4]
-#> 99% 1.323872 2.819340 3.152112 5.282040
-#> 95% 1.500694 2.520824 3.499998 5.091608
-#> 50% 1.923507 2.024651 3.942243 4.772192
+#> 99% 1.324216 2.819329 3.151614 5.281784
+#> 95% 1.500812 2.520699 3.499998 5.091398
+#> 50% 1.923250 2.024370 3.943461 4.771442
 #> 
 #> $mode
-#> [1] 4.377774
+#> [1] 4.38201
 #> 
 #> $falpha
 #>         1%         5%        50% 
-#> 0.06752537 0.15303822 0.36107004
+#> 0.06726014 0.15285676 0.36177154
 ```
 </div>
 <div class = "col-md-6">
@@ -161,7 +160,7 @@ ggplot(data = faithful,
 </div>
 
 
-4. `geom_hdrcde_boxplot()` to replace `hdr.cde()` which is used in HDRs for a conditional density estimate.
+4. `geom_hdr_boxplot()` with both `x` and `y` variables to replace `hdr.cde()` which is used in HDRs for a conditional density estimate.
 
 <div class = "row">
 <div class = "col-md-6">
@@ -201,12 +200,7 @@ Now where there's a will, there's a way. Except that soon we could say where the
 
 # Where to from here?
 
-We still have one thing to do (replace the `hdr.boxplot.2d()` with `geom_hdr_boxplot.2d()`, which would calculate and plot HDRs in two dimensions), but are happy to announce that with some embellishments and review, the current version is submitted and expected to be up on CRAN soon. Kudos team!! You can learn about our package `gghdr` at [the package website](https://Sayani07.github.io/gghdr/), and the [Github repo](https://Sayani07.github.io/gghdr/).
+We still have one thing to do (replace the `hdr.boxplot.2d()` with `geom_hdr_boxplot.2d()`, which would calculate and plot HDRs in two dimensions), but are happy to announce that with some embellishments and review, the current version is on CRAN. Kudos team!! You can learn about our package `gghdr` at [the package website](https://Sayani07.github.io/gghdr/), and the [Github repo](https://Sayani07.github.io/gghdr/).
 
 {{<figure src="team.jpg" >}}
-
-
-
-
-
 

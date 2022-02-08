@@ -84,19 +84,23 @@ This was how being a newcomer to [rOpenSci OzUnconf 2019](https://ozunconf19.rop
 p1 <- ggplot(data = mpg, 
        aes(x = hwy, fill = as.factor(cyl))) +
   facet_grid(as.factor(cyl)~.) + 
-  geom_histogram(bins = 50) + theme(legend.position = "bottom") + ggtitle("a")
+  geom_histogram(bins = 50) + theme(legend.position = "bottom") + ggtitle("a") + 
+  guides(color = guide_legend(title = "cyl")) +
+  scale_fill_discrete(name = "cyl")
 
 p2 <- ggplot(data = mpg, 
        # make sure to change x to y from geom_density to geom_hdr_boxplot
        aes(y = hwy, fill = as.factor(cyl))) + 
   geom_boxplot() + ggtitle("b") +
-  theme(legend.position = "bottom")
+  theme(legend.position = "bottom")+
+  scale_fill_discrete(name = "cyl")
 
 p3 <- ggplot(data = mpg, 
        # make sure to change x to y from geom_density to geom_hdr_boxplot
        aes(y = hwy, fill = as.factor(cyl))) + 
   geom_hdr_boxplot()+ ggtitle("c")  +
-  theme(legend.position = "bottom")
+  theme(legend.position = "bottom")+
+  scale_fill_discrete(name = "cyl")
 
 (p1 + p2)/p3
 # p1
@@ -215,7 +219,7 @@ ggplot(data = faithful,
 </div>
 
 
-4. `geom_hdrcde_boxplot()` to replace `hdr.cde()` which is used in HDRs for a conditional density estimate.
+4. `geom_hdr_boxplot()` with both `x` and `y` variables to replace `hdr.cde()` which is used in HDRs for a conditional density estimate.
 
 <div class = "row">
 <div class = "col-md-6">
