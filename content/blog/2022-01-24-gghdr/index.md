@@ -72,6 +72,7 @@ hdr.boxplot(faithful$eruptions)
 
 </div>
 <div class = "col-md-6">
+
 __After:__
 ```r 
 library(gghdr)
@@ -87,6 +88,7 @@ ggplot(faithful, aes(y = eruptions)) +
  
 <div class = "row">
 <div class = "col-md-6">
+
 __Before:__
 ```r 
 library(hdrcde)
@@ -98,19 +100,20 @@ hdr.den(faithful$eruptions,
 ```
 #> $hdr
 #>         [,1]     [,2]     [,3]     [,4]
-#> 99% 1.324216 2.819329 3.151614 5.281784
-#> 95% 1.500812 2.520699 3.499998 5.091398
-#> 50% 1.923250 2.024370 3.943461 4.771442
+#> 99% 1.325315 2.819287 3.150082 5.281123
+#> 95% 1.501192 2.520304 3.499998 5.090724
+#> 50% 1.922590 2.023529 3.947293 4.769071
 #> 
 #> $mode
-#> [1] 4.38201
+#> [1] 4.378606
 #> 
 #> $falpha
 #>         1%         5%        50% 
-#> 0.06726014 0.15285676 0.36177154
+#> 0.06643642 0.15228829 0.36399207
 ```
 </div>
 <div class = "col-md-6">
+
 __After:__
 ```r 
 library(gghdr)
@@ -140,6 +143,7 @@ ggplot(faithful, aes(y = eruptions, x = waiting)) +
 
 <div class = "row">
 <div class = "col-md-6">
+
 __Before:__
 ```r 
 hdrscatterplot(faithful$waiting,
@@ -148,6 +152,7 @@ hdrscatterplot(faithful$waiting,
 {{<figure src="hdrcde-scatterplot-1.png" >}}
 </div>
 <div class = "col-md-6">
+
 __After:__
 ```r 
 ggplot(data = faithful, 
@@ -164,6 +169,7 @@ ggplot(data = faithful,
 
 <div class = "row">
 <div class = "col-md-6">
+
 __Before:__
 ```r 
 faithful.cde <- cde(faithful$eruptions, faithful$waiting)
@@ -173,6 +179,7 @@ plot(faithful.cde, plot.fn = "hdr",
 {{<figure src="hdrcde-cde-1.png" >}}
 </div>
 <div class = "col-md-6">
+
 __After:__
 ```r 
 ggplot(faithful, aes(x = eruptions, y = waiting)) + 

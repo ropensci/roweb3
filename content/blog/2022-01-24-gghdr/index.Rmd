@@ -152,6 +152,7 @@ hdr.boxplot(faithful$eruptions)
 
 </div>
 <div class = "col-md-6">
+
 __After:__
 ```{r gghdr-boxplot, echo=TRUE, message=FALSE, warning=FALSE}
 library(gghdr)
@@ -166,6 +167,7 @@ ggplot(faithful, aes(y = eruptions)) +
  
 <div class = "row">
 <div class = "col-md-6">
+
 __Before:__
 ```{r hdrcde-den, echo=TRUE, message=FALSE, warning=FALSE}
 library(hdrcde)
@@ -174,6 +176,7 @@ hdr.den(faithful$eruptions,
 ```
 </div>
 <div class = "col-md-6">
+
 __After:__
 ```{r gghdr-den, echo=TRUE, message=FALSE, warning=FALSE}
 library(gghdr)
@@ -189,7 +192,7 @@ faithful %>%
 </div>
 </div>
 
-Also, the display of 1d marginal distributions for both variables could be a useful feature to have.
+Also, the display of 1d marginal distributions for both variables could be a useful feature to have through `geom_hdr_rug()`.
 
 ```{r}
 ggplot(faithful, aes(y = eruptions, x = waiting)) + 
@@ -201,6 +204,7 @@ ggplot(faithful, aes(y = eruptions, x = waiting)) +
 
 <div class = "row">
 <div class = "col-md-6">
+
 __Before:__
 ```{r hdrcde-scatterplot, echo=TRUE, message=FALSE, warning=FALSE}
 hdrscatterplot(faithful$waiting,
@@ -208,6 +212,7 @@ hdrscatterplot(faithful$waiting,
 ```
 </div>
 <div class = "col-md-6">
+
 __After:__
 ```{r gghdr-scatterplot, echo=TRUE, message=FALSE, warning=FALSE}
 ggplot(data = faithful, 
@@ -223,6 +228,7 @@ ggplot(data = faithful,
 
 <div class = "row">
 <div class = "col-md-6">
+
 __Before:__
 ```{r hdrcde-cde, echo=TRUE, message=FALSE, warning=FALSE}
 faithful.cde <- cde(faithful$eruptions, faithful$waiting)
@@ -231,6 +237,7 @@ plot(faithful.cde, plot.fn = "hdr",
 ```
 </div>
 <div class = "col-md-6">
+
 __After:__
 ```{r gghdr-cde, echo=TRUE, message=FALSE, warning=FALSE}
 ggplot(faithful, aes(x = eruptions, y = waiting)) + 
@@ -239,6 +246,9 @@ ggplot(faithful, aes(x = eruptions, y = waiting)) +
 ```
 </div>
 </div>
+
+
+
 
 5. We also deliberated on names of potential functions at the brainstorming stage which led to the idea of a [package design collaboration corner](https://github.com/ropensci/ozunconf19/issues/19). 
 
