@@ -132,7 +132,7 @@ knitr::include_graphics("board.jpg")
 
 Doing a bit of brainstorming on the project ahead of time helped us to set the expectations, and communicate them to potential team members. Although it is worth mentioning that projects don't need to be fully fleshed out ahead of time - the ozunconf organisers strongly encourage working on projects that you thought of even on that very day.
 
-Fast-forward to the first day of the conference! The participants had already suggested ideas (there were many brilliant ones - have a read [here](https://github.com/ropensci/ozunconf19/issues)) and then voting started for the projects people were excited to be associated with. Little did we know that time there would be more enthusiasts who would be as eager to contribute to this project and learn about ggplot2 internals (very aptly put by Mitch while advertising the project. Smart move mate)! Oh, and what a fun and collaborative team to work with! See how they won’t stop coding:
+Fast-forward to the first day of the conference! The participants had already suggested ideas ([there were many brilliant ones](https://github.com/ropensci/ozunconf19/issues)) and then voting started for the projects people were excited to be associated with. Little did we know that time there would be more enthusiasts who would be as eager to contribute to this project and learn about ggplot2 internals (very aptly put by Mitch while advertising the project. Smart move mate)! Oh, and what a fun and collaborative team to work with! See how they won’t stop coding:
 
 {{< tweet "1205008586130149376">}}
 
