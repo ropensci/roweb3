@@ -111,7 +111,7 @@ p3 <- ggplot(data = mpg,
 
 
 The other authors of this package include 
-[Mitchell O'Hara-Wild]([https://github.com/mitchelloharawild) [Stephen Pearce](https://github.com/sparce), [Ryo Nakagawara](https://github.com/Ryo-N7), [Darya Vanichkina](https://github.com/dvanic), [Emi Tanaka](https://emitanaka.org/), [Thomas Fung](https://github.com/thomas-fung) and [Rob J Hyndman](https://github.com/robjhyndman/).
+[Mitchell O'Hara-Wild](https://github.com/mitchelloharawild), [Stephen Pearce](https://github.com/sparce), [Ryo Nakagawara](https://github.com/Ryo-N7), [Darya Vanichkina](https://github.com/dvanic), [Emi Tanaka](https://emitanaka.org/), [Thomas Fung](https://github.com/thomas-fung) and [Rob J Hyndman](https://github.com/robjhyndman/).
 
 # Initiation
 
