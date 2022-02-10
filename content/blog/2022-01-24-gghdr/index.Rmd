@@ -1,5 +1,6 @@
 ---
 title: "A Journey to gghdr"
+slug: "gghdr"
 author: Sayani Gupta
 date: '2022-02-15'
 package_version: 0.1.0
