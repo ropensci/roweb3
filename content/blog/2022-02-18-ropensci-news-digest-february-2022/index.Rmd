@@ -496,10 +496,9 @@ if (length(tech_notes) > 0) {
 }
 ```
 
-<!--
 ## Use cases
 
-```{r usecases, eval=FALSE}
+```{r usecases, eval=TRUE}
 # rerun get_use_cases.R at the same time
 usecases <- jsonlite::read_json("../../../data/usecases/usecases.json")
 get_one_case <- function(usecase) {
@@ -516,9 +515,9 @@ usecases <- dplyr::filter(usecases, date >= as.Date(last_newsletter))
 usecases <- split(usecases, seq(nrow(usecases)))
 ```
 
-`snakecase::to_sentence_case(english(length(usecases)))` use cases of our packages and resources have been reported since we sent the last newsletter.
+`r snakecase::to_sentence_case(english(length(usecases)))` use cases of our packages and resources have been reported since we sent the last newsletter.
 
-```{r usecases2, results='asis', eval=FALSE}
+```{r usecases2, results='asis', eval=TRUE}
 format_case <- function(usecase) {
   string <- sprintf("* [%s](%s). Reported by %s.", sub("\\.$", "", usecase$title), usecase$url, usecase$reporter)
 }
@@ -531,7 +530,7 @@ cat(
 ```
 
 Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)!
--->
+
 
 ## Package development corner
 
