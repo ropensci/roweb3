@@ -47,7 +47,7 @@ This event is quite different from other conferences in the sense that it is mos
 Shortly after we were accepted, Mitch posted the idea on the [rOpenSci Github issues page](https://github.com/ropensci/ozunconf19/issues). Posting an issue like this is a great place to start a discussion on a rough idea or to learn more or comment on any idea that you find exciting. We brainstormed for a couple of days on how [`hdrcde`](https://github.com/robjhyndman/hdrcde) worked and what potential functions and features we would like to have or improve in the new package. The discussion led to a workflow which pretty much looked like this: 
 
 
-{{<figure src="board.jpg" >}}
+{{< figure src = "board.jpg" alt = "A white board with flow diagrams worked out in red marker. gghdr is in the centre with arrows leading to sections for confint, boxplot, bxplot2d, scatter and cde" >}}
 
 Doing a bit of brainstorming on the project ahead of time helped us to set the expectations, and communicate them to potential team members. Although it is worth mentioning that projects don't need to be fully fleshed out ahead of time - the ozunconf organisers strongly encourage working on projects that you thought of even on that very day.
 
@@ -101,16 +101,16 @@ hdr.den(faithful$eruptions,
 ```
 #> $hdr
 #>         [,1]     [,2]     [,3]     [,4]
-#> 99% 1.324422 2.819320 3.151316 5.281661
-#> 95% 1.500884 2.520621 3.499998 5.091267
-#> 50% 1.923157 2.024185 3.944202 4.770982
+#> 99% 1.324681 2.819307 3.150937 5.281498
+#> 95% 1.500975 2.520525 3.499998 5.091101
+#> 50% 1.923055 2.023937 3.945155 4.770389
 #> 
 #> $mode
-#> [1] 4.381357
+#> [1] 4.38052
 #> 
 #> $falpha
 #>         1%         5%        50% 
-#> 0.06710136 0.15274764 0.36219857
+#> 0.06689846 0.15260781 0.36274899
 ```
 </div>
 <div class = "col-md-6">
