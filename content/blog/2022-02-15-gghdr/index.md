@@ -26,7 +26,7 @@ output:
 > 
 > <footer>Carl W. Buehner</footer>
 
-This was how being a newcomer to [rOpenSci OzUnconf 2019](https://ozunconf19.ropensci.org/) felt. It was incredible to be a part of such a diverse, welcoming and inclusive environment. I thought it would be fun to blog about how it all began, and the twists and turns we experienced along the way as we developed the [gghdr](https://sayani07.github.io/gghdr/) package. The package provides tools for plotting [highest density regions](https://www.jstor.org/stable/2684423?seq=1) with ggplot2 and was inspired by the package [hdrcde](https://cran.r-project.org/web/packages/hdrcde/index.html) developed by [Rob J Hyndman](https://robjhyndman.com/). The highest density region approach of summarizing a distribution is useful for analyzing multimodal distributions and can be composed of numerous disjoint subsets. For example, the histogram of the highway mileage (`hwy`) data from the mpg dataset (a) shows that cars with 6 cylinders (`cyl`) are bimodally distributed, which is reflected in the highest density region (HDR) plot (c) but not in the standard boxplot (b). Hence, we see that HDRs are useful in displaying multimodality in the distribution. 
+This was how being a newcomer to [rOpenSci OzUnconf 2019](https://ozunconf19.ropensci.org/) felt. It was incredible to be a part of such a diverse, welcoming and inclusive environment. I thought it would be fun to blog about how it all began, and the twists and turns we experienced along the way as we developed the [gghdr](https://sayani07.github.io/gghdr/) package. The package provides tools for plotting [highest density regions](https://www.jstor.org/stable/2684423?seq=1) with ggplot2 and was inspired by the package [hdrcde](https://cran.r-project.org/web/packages/hdrcde/index.html) developed by [Rob J Hyndman](https://robjhyndman.com/). The highest density region approach of summarizing a distribution is useful for analyzing multimodal distributions and can be composed of numerous disjoint subsets. For example, the histogram of the highway mileage (`hwy`) data from the mpg dataset (a) shows that cars with 6 cylinders (`cyl`) are bimodally distributed, which is reflected in the highest density region (HDR) boxplot (c) but not in the standard boxplot (b). Hence, we see that HDRs are useful in displaying multimodality in the distribution. 
 
 {{<figure src="mpgBox1-1.png" >}}
 
@@ -67,9 +67,11 @@ At the end of the two days, we had established the following:
 __Before:__
 ```r 
 library(hdrcde)
-hdr.boxplot(faithful$eruptions) 
+hdr.boxplot(faithful$eruptions, 
+            prob = c(99, 50),
+            all.modes = FALSE) 
 ```
-{{<figure src="hdrcde-boxplot-1.png" >}}
+{{<figure src="hdrcde-boxplot-1.png" alt="The plot shows highest density region boxplots split into two disjoint boxes with mode represented by a line in the first box and other regions shaded by different probability coverage. There are three shades of gray in the boxes, with the darkest corresponding to 50% coverage and the lighest corresponding to 99% ">}}
 
 </div>
 <div class = "col-md-6">
@@ -79,9 +81,10 @@ __After:__
 library(gghdr)
 library(ggplot2)
 ggplot(faithful, aes(y = eruptions)) +
-  geom_hdr_boxplot() 
+  geom_hdr_boxplot(prob = c(0.5, 0.95, 0.99),
+                   all.modes = FALSE) 
 ```
-{{<figure src="gghdr-boxplot-1.png" >}}
+{{<figure src="gghdr-boxplot-1.png" alt="A similar plot as the left one showing highest density regions with gghdr package so that any other geom can easily be added like in the ggplot2 framework.">}}
 </div>
 </div>
 
@@ -96,21 +99,21 @@ library(hdrcde)
 hdr.den(faithful$eruptions,
         col = c("skyblue", "slateblue2", "slateblue4"))
 ```
-{{<figure src="hdrcde-den-1.png" >}}
+{{<figure src="hdrcde-den-1.png" alt="A similar plot as the left one showing highest density regions in ggplot2 framwework so that any other geom can added easily.">}}
 
 ```
 #> $hdr
 #>         [,1]     [,2]     [,3]     [,4]
-#> 99% 1.324681 2.819307 3.150937 5.281498
-#> 95% 1.500975 2.520525 3.499998 5.091101
-#> 50% 1.923055 2.023937 3.945155 4.770389
+#> 99% 1.323826 2.819342 3.152178 5.282069
+#> 95% 1.500679 2.520840 3.499998 5.091635
+#> 50% 1.923548 2.024686 3.942081 4.772291
 #> 
 #> $mode
-#> [1] 4.38052
+#> [1] 4.37792
 #> 
 #> $falpha
 #>         1%         5%        50% 
-#> 0.06689846 0.15260781 0.36274899
+#> 0.06756093 0.15306256 0.36097683
 ```
 </div>
 <div class = "col-md-6">

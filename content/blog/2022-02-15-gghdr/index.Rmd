@@ -73,13 +73,15 @@ library(tufte)
 library(ggpubr)
 library(gghdr)
 library(patchwork)
+library(ggplot2)
+theme_set(theme_bw())
 ```
 
 > They may forget what you said, but they will never forget how you made them feel.
 > 
 > `r tufte::quote_footer('Carl W. Buehner')`
 
-This was how being a newcomer to [rOpenSci OzUnconf 2019](https://ozunconf19.ropensci.org/) felt. It was incredible to be a part of such a diverse, welcoming and inclusive environment. I thought it would be fun to blog about how it all began, and the twists and turns we experienced along the way as we developed the [gghdr](https://sayani07.github.io/gghdr/) package. The package provides tools for plotting [highest density regions](https://www.jstor.org/stable/2684423?seq=1) with ggplot2 and was inspired by the package [hdrcde](https://cran.r-project.org/web/packages/hdrcde/index.html) developed by [Rob J Hyndman](https://robjhyndman.com/). The highest density region approach of summarizing a distribution is useful for analyzing multimodal distributions and can be composed of numerous disjoint subsets. For example, the histogram of the highway mileage (`hwy`) data from the mpg dataset (a) shows that cars with 6 cylinders (`cyl`) are bimodally distributed, which is reflected in the highest density region (HDR) plot (c) but not in the standard boxplot (b). Hence, we see that HDRs are useful in displaying multimodality in the distribution. 
+This was how being a newcomer to [rOpenSci OzUnconf 2019](https://ozunconf19.ropensci.org/) felt. It was incredible to be a part of such a diverse, welcoming and inclusive environment. I thought it would be fun to blog about how it all began, and the twists and turns we experienced along the way as we developed the [gghdr](https://sayani07.github.io/gghdr/) package. The package provides tools for plotting [highest density regions](https://www.jstor.org/stable/2684423?seq=1) with ggplot2 and was inspired by the package [hdrcde](https://cran.r-project.org/web/packages/hdrcde/index.html) developed by [Rob J Hyndman](https://robjhyndman.com/). The highest density region approach of summarizing a distribution is useful for analyzing multimodal distributions and can be composed of numerous disjoint subsets. For example, the histogram of the highway mileage (`hwy`) data from the mpg dataset (a) shows that cars with 6 cylinders (`cyl`) are bimodally distributed, which is reflected in the highest density region (HDR) boxplot (c) but not in the standard boxplot (b). Hence, we see that HDRs are useful in displaying multimodality in the distribution. 
 
 ```{r mpgBox1, fig.width = 7, echo=FALSE}
 p1 <- ggplot(data = mpg, 
@@ -144,20 +146,23 @@ At the end of the two days, we had established the following:
 <div class = "col-md-6">
 
 __Before:__
-```{r hdrcde-boxplot, echo=TRUE, message=FALSE, warning=FALSE, hugoopts = list(alt = "The plot shows highest density region boxplots split into two disjoint boxes with mode represented by a line in the first box and other regions shaded by different probability coverage.")}
+```{r hdrcde-boxplot, echo=TRUE, message=FALSE, warning=FALSE, hugoopts = list(alt = "The plot shows highest density region boxplots split into two disjoint boxes with mode represented by a line in the first box and other regions shaded by different probability coverage. There are three shades of gray in the boxes, with the darkest corresponding to 50% coverage and the lighest corresponding to 99% ")}
 library(hdrcde)
-hdr.boxplot(faithful$eruptions,all.modes = FALSE) 
+hdr.boxplot(faithful$eruptions, 
+            prob = c(99, 50),
+            all.modes = FALSE) 
 ```
 
 </div>
 <div class = "col-md-6">
 
 __After:__
-```{r gghdr-boxplot, echo=TRUE, message=FALSE, warning=FALSE, hugoopts = list(alt = "A similar plot as the left one showing highest density regions in ggplot2 framwework so that any other geom can added easily.")}
+```{r gghdr-boxplot, echo=TRUE, message=FALSE, warning=FALSE, hugoopts = list(alt = "A similar plot as the left one showing highest density regions with gghdr package so that any other geom can easily be added like in the ggplot2 framework.")}
 library(gghdr)
 library(ggplot2)
 ggplot(faithful, aes(y = eruptions)) +
-  geom_hdr_boxplot(all.modes = FALSE) 
+  geom_hdr_boxplot(prob = c(0.5, 0.95, 0.99),
+                   all.modes = FALSE) 
 ```
 </div>
 </div>
@@ -168,7 +173,7 @@ ggplot(faithful, aes(y = eruptions)) +
 <div class = "col-md-6">
 
 __Before:__
-```{r hdrcde-den, echo=TRUE, message=FALSE, warning=FALSE, hugoopts = list(alt = "A similar plot as the left one showing highest density regions in ggplot2 framwework so that any other geom can added easily."}
+```{r hdrcde-den, echo=TRUE, message=FALSE, warning=FALSE, hugoopts = list(alt = "A similar plot as the left one showing highest density regions in ggplot2 framwework so that any other geom can added easily.")}
 library(hdrcde)
 hdr.den(faithful$eruptions,
         col = c("skyblue", "slateblue2", "slateblue4"))
