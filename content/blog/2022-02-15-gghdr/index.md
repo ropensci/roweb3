@@ -104,16 +104,16 @@ hdr.den(faithful$eruptions,
 ```
 #> $hdr
 #>         [,1]     [,2]     [,3]     [,4]
-#> 99% 1.324693 2.819306 3.150919 5.281490
-#> 95% 1.500979 2.520520 3.499998 5.091093
-#> 50% 1.923048 2.023927 3.945199 4.770361
+#> 99% 1.325006 2.819318 3.150488 5.281301
+#> 95% 1.501086 2.520411 3.499998 5.090902
+#> 50% 1.922811 2.023740 3.946274 4.769700
 #> 
 #> $mode
-#> [1] 4.380481
+#> [1] 4.379524
 #> 
 #> $falpha
 #>         1%         5%        50% 
-#> 0.06688907 0.15260134 0.36277455
+#> 0.06665753 0.15244145 0.36339705
 ```
 </div>
 <div class = "col-md-6">
@@ -169,7 +169,7 @@ ggplot(data = faithful,
 </div>
 
 
-4. `geom_hdr_boxplot()` with both `x` and `y` variables to replace `hdr.cde()` which is used in HDRs for a conditional density estimate.
+4. `geom_hdr_boxplot()` with both `x` and `y` variables to replace `hdr.cde()` which is used in HDRs for a conditional density estimate. Modes for the conditional density estimates are represented through lines instead of dots.
 
 <div class = "row">
 <div class = "col-md-6">
@@ -206,8 +206,13 @@ ggplot(faithful, aes(x = eruptions, y = waiting)) +
 
 Now where there's a will, there's a way. Except that soon we could say where there is a merge, there is a conflict.  While most times we use [GitHub](https://github.com/) for code-sharing, publishing software and collaborating with our future self, this was the time to show how we collaborate with others. It took almost 2 hours with both GitKraken and Mitch helping us to deal with the merge conflicts!
 
-{{<figure src="conflict-tree.png" alt="A conflict tree representing merge conflicts on Github as a result of different team members making different changes to the same files. ">}}
+<!-- ```{r conflict-tree,echo=FALSE, hugoopts = list(alt = "")} -->
+<!-- knitr::include_graphics("conflict-tree.png") -->
+<!-- ``` -->
 
+
+
+{{< figure src = "conflict-tree.png" alt = "This photograph shows a conflict tree displaying a list of Github commits made by various team members. It also demonstrates how the commits are connected, which may lead to conflicts when two team members make contradictory changes to the same line of a file or when one team member edits a file while another person deletes the same file." >}}
 
 <!-- - Extending ggplot2 (https://cran.r-project.org/web/packages/ggplot2/vignettes/extending-ggplot2.html). __(Writing about the scale problem that was faced.)__ -->
 
@@ -216,5 +221,10 @@ Now where there's a will, there's a way. Except that soon we could say where the
 
 We still have one thing to do (replace the `hdr.boxplot.2d()` with `geom_hdr_boxplot.2d()`, which would calculate and plot HDRs in two dimensions), but are happy to announce that with some embellishments and review, the current version is on CRAN. Kudos team!! You can learn about our package gghdr at [the package website](https://Sayani07.github.io/gghdr/), and the [Github repo](https://Sayani07.github.io/gghdr/).
 
-{{<figure src="team.jpg" alt="A photo with all the team members posing and smiling together.">}}
+<!-- # ```{r image-team, echo = F, hugoopts = list(alt = "A photo with all the team members posing and smiling together.")} -->
+<!-- # knitr::include_graphics("team.jpg") -->
+<!-- # ``` -->
+<!-- #  -->
+<!-- #  -->
 
+{{< figure src = "team.jpg" alt = "This photograph shows all the team members posing and smiling together." >}}
