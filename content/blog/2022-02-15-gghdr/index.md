@@ -68,10 +68,10 @@ __Before:__
 ```r 
 library(hdrcde)
 hdr.boxplot(faithful$eruptions, 
-            prob = c(99, 50),
+            prob = c(99, 95, 50),
             all.modes = FALSE) 
 ```
-{{<figure src="hdrcde-boxplot-1.png" alt="The plot shows highest density region boxplots split into two disjoint boxes with mode represented by a line in the first box and other regions shaded by different probability coverage. There are three shades of gray in the boxes, with the darkest corresponding to 50% coverage and the lighest corresponding to 99% ">}}
+{{<figure src="hdrcde-boxplot-1.png" alt="A HDR boxplot of the variable eruptions from the faithful data set constructed through the hdrcde package. The plot shows the highest density region boxplots split into two disjoint boxes, with a global mode represented by a line in the first box. Each box has one or more shades corresponding to different HDR probability coverages. The boxes have three shades of gray, with the dark, medium, and light shades corresponding to 50%, 95%, and 99% probability coverage, respectively. ">}}
 
 </div>
 <div class = "col-md-6">
@@ -84,7 +84,7 @@ ggplot(faithful, aes(y = eruptions)) +
   geom_hdr_boxplot(prob = c(0.5, 0.95, 0.99),
                    all.modes = FALSE) 
 ```
-{{<figure src="gghdr-boxplot-1.png" alt="A similar plot as the left one showing highest density regions with gghdr package so that any other geom can easily be added like in the ggplot2 framework.">}}
+{{<figure src="gghdr-boxplot-1.png" alt="A HDR boxplot of the variable eruptions from the faithful data set constructed through the gghdr package. It appears identical to the previous plot, however any other geom may be readily added to this display using the ggplot2 framework.">}}
 </div>
 </div>
 
@@ -99,21 +99,21 @@ library(hdrcde)
 hdr.den(faithful$eruptions,
         col = c("skyblue", "slateblue2", "slateblue4"))
 ```
-{{<figure src="hdrcde-den-1.png" alt="A similar plot as the left one showing highest density regions in ggplot2 framwework so that any other geom can added easily.">}}
+{{<figure src="hdrcde-den-1.png" alt="A density plot with the highest density regions constructed through the hdrcde package. The plot shows the density of the eruptions variable from the faithful data set and the highest density regions with different probability coverages are represented with horizontal bars at the bottom of the density plot. The ends of the bars are joined to the densities using dotted lines. Similar to HDR box plots, HDR density plots can be shown for different colors corresponding to different HDR probability coverages.">}}
 
 ```
 #> $hdr
 #>         [,1]     [,2]     [,3]     [,4]
-#> 99% 1.323826 2.819342 3.152178 5.282069
-#> 95% 1.500679 2.520840 3.499998 5.091635
-#> 50% 1.923548 2.024686 3.942081 4.772291
+#> 99% 1.324693 2.819306 3.150919 5.281490
+#> 95% 1.500979 2.520520 3.499998 5.091093
+#> 50% 1.923048 2.023927 3.945199 4.770361
 #> 
 #> $mode
-#> [1] 4.37792
+#> [1] 4.380481
 #> 
 #> $falpha
 #>         1%         5%        50% 
-#> 0.06756093 0.15306256 0.36097683
+#> 0.06688907 0.15260134 0.36277455
 ```
 </div>
 <div class = "col-md-6">
@@ -130,7 +130,7 @@ faithful %>%
   geom_hdr_rug(fill=  "blue") + 
   xlim(c(0.6833018, 6.0166982))
 ```
-{{<figure src="gghdr-den-1.png" >}}
+{{<figure src="gghdr-den-1.png" alt="Density and HDR rug plots of the variable eruptions from the faithful data set constructed through the gghdr package. It appears identical to the previous plot, but any of the bars at the bottom are replaced by rug plots with local modes shown, and there are no dotted lines connecting the rugs and densities.">}}
 </div>
 </div>
 
@@ -141,7 +141,7 @@ ggplot(faithful, aes(y = eruptions, x = waiting)) +
   geom_hdr_rug(sides = "trbl", fill = "blue") + 
   geom_point()
 ```
-{{<figure src="unnamed-chunk-1-1.png" >}}
+{{<figure src="unnamed-chunk-1-1.png" alt="HDR rug and scatter plots in two dimensions constructed through the gghdr package. The variables eruptions and waiting time from the faithful data set are shown. The rugs have three shades of gray, with the dark, medium, and light shades corresponding to 50%, 95%, and 99% probability coverage with local modes represented by lines inside the rugs.">}}
 
 3. `hdr_bin()` to replace `hdrscatterplot()`. This would not be an independent geom, but rather a function to add in the aesthetic color with each color representing an HDR with a specified coverage.
 
@@ -153,7 +153,7 @@ __Before:__
 hdrscatterplot(faithful$waiting,
                faithful$eruptions)
 ```
-{{<figure src="hdrcde-scatterplot-1.png" >}}
+{{<figure src="hdrcde-scatterplot-1.png" alt="The scatterplot shows the highest density regions constructed through the hdrcde package. The variables eruptions is shown on the y-axis and waiting time shown on the x-axis. The points are colored according to the bivariate HDRs for probability coverages 50%, 95%, 99% and >99%.">}}
 </div>
 <div class = "col-md-6">
 
@@ -164,7 +164,7 @@ ggplot(data = faithful,
   geom_point(aes(colour = hdr_bin(x = waiting,
                                   y = eruptions)))
 ```
-{{<figure src="gghdr-scatterplot-1.png" >}}
+{{<figure src="gghdr-scatterplot-1.png" alt="A HDR scatterplot similar to the last plot constructed through the gghdr package.">}}
 </div>
 </div>
 
@@ -180,7 +180,7 @@ faithful.cde <- cde(faithful$eruptions, faithful$waiting)
 plot(faithful.cde, plot.fn = "hdr",
      xlab = "eruptions", ylab = "waiting")
 ```
-{{<figure src="hdrcde-cde-1.png" >}}
+{{<figure src="hdrcde-cde-1.png" alt="Highest density regions of waiting times (on y-axis) conditional on different values of eruptions (on x-axis) constructed through the hdrcde package. The plot consists of side-by-side bars with each bar corresponding to a conditional highest density region for probability coverages of 50%, 95%, and 99%. The mode for each conditional density is represented by a black dot.">}}
 </div>
 <div class = "col-md-6">
 
@@ -190,7 +190,7 @@ ggplot(faithful, aes(x = eruptions, y = waiting)) +
     geom_hdr_boxplot(fill="steelblue") + 
     theme_minimal()
 ```
-{{<figure src="gghdr-cde-1.png" >}}
+{{<figure src="gghdr-cde-1.png" alt="Highest density regions of waiting times (on y-axis) conditional on different values of eruptions (on x-axis) constructed through the gghdr package. It appears similar to the last plot, with lines representing the modes for the conditional density estimate instead of dots.">}}
 </div>
 </div>
 
@@ -206,7 +206,7 @@ ggplot(faithful, aes(x = eruptions, y = waiting)) +
 
 Now where there's a will, there's a way. Except that soon we could say where there is a merge, there is a conflict.  While most times we use [GitHub](https://github.com/) for code-sharing, publishing software and collaborating with our future self, this was the time to show how we collaborate with others. It took almost 2 hours with both GitKraken and Mitch helping us to deal with the merge conflicts!
 
-{{<figure src="conflict-tree.png" >}}
+{{<figure src="conflict-tree.png" alt="A conflict tree representing merge conflicts on Github as a result of different team members making different changes to the same files. ">}}
 
 
 <!-- - Extending ggplot2 (https://cran.r-project.org/web/packages/ggplot2/vignettes/extending-ggplot2.html). __(Writing about the scale problem that was faced.)__ -->
@@ -216,5 +216,5 @@ Now where there's a will, there's a way. Except that soon we could say where the
 
 We still have one thing to do (replace the `hdr.boxplot.2d()` with `geom_hdr_boxplot.2d()`, which would calculate and plot HDRs in two dimensions), but are happy to announce that with some embellishments and review, the current version is on CRAN. Kudos team!! You can learn about our package gghdr at [the package website](https://Sayani07.github.io/gghdr/), and the [Github repo](https://Sayani07.github.io/gghdr/).
 
-{{<figure src="team.jpg" >}}
+{{<figure src="team.jpg" alt="A photo with all the team members posing and smiling together.">}}
 
