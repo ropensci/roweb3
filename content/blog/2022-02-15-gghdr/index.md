@@ -28,7 +28,7 @@ output:
 
 This was how being a newcomer to [rOpenSci OzUnconf 2019](https://ozunconf19.ropensci.org/) felt. It was incredible to be a part of such a diverse, welcoming and inclusive environment. I thought it would be fun to blog about how it all began, and the twists and turns we experienced along the way as we developed the [gghdr](https://sayani07.github.io/gghdr/) package. The package provides tools for plotting [highest density regions](https://www.jstor.org/stable/2684423?seq=1) with ggplot2 and was inspired by the package [hdrcde](https://cran.r-project.org/web/packages/hdrcde/index.html) developed by [Rob J Hyndman](https://robjhyndman.com/). The highest density region approach of summarizing a distribution is useful for analyzing multimodal distributions and can be composed of numerous disjoint subsets. For example, the histogram of the highway mileage (`hwy`) data from the mpg dataset (a) shows that cars with 6 cylinders (`cyl`) are bimodally distributed, which is reflected in the highest density region (HDR) boxplot (c) but not in the standard boxplot (b). Hence, we see that HDRs are useful in displaying multimodality in the distribution. 
 
-{{<figure src="mpgBox1-1.png" >}}
+{{<figure src="mpgBox1-1.png" alt="Three plots showing the distribution of hwy by value of cyl. The first plot shows histograms by cyl, the second boxplots by cyl and the third shows highest density region plots. These look like boxes with the edges fading to nothing.">}}
 
 
 The other authors of this package include 
@@ -44,7 +44,7 @@ This event is quite different from other conferences in the sense that it is mos
 
 # Planning and execution
 
-Shortly after we were accepted, Mitch posted the idea on the [rOpenSci Github issues page](https://github.com/ropensci/ozunconf19/issues). Posting an issue like this is a great place to start a discussion on a rough idea or to learn more or comment on any idea that you find exciting. We brainstormed for a couple of days on how [`hdrcde`](https://github.com/robjhyndman/hdrcde) worked and what potential functions and features we would like to have or improve in the new package. The discussion led to a workflow which pretty much looked like this: 
+Shortly after we were accepted, Mitch posted the idea on the [rOpenSci Github issues page](https://github.com/ropensci/ozunconf19/issues). Posting an issue like this is a great place to start a discussion on a rough idea or to learn more or comment on any idea that you find exciting. We brainstormed for a couple of days on how [hdrcde](https://github.com/robjhyndman/hdrcde) worked and what potential functions and features we would like to have or improve in the new package. The discussion led to a workflow which pretty much looked like this: 
 
 
 {{< figure src = "board.jpg" alt = "A white board with flow diagrams worked out in red marker. gghdr is in the centre with arrows leading to sections for confint, boxplot, bxplot2d, scatter and cde" >}}
