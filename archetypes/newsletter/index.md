@@ -46,7 +46,7 @@ Now let's dive into the activity at and around rOpenSci!
 <!-- to be curated manually -->
 
 <!-- Can use same coworking text every month and ping Steffi to ask if there are any special guests to add -->
-Join us for social coworking & office hours monthly on 1st Tuesdays! Hosted by Steffi LaZerte and Nick Tierney. Everyone welcome. No RSVP needed. Consult our [Events](/events) page to find your local time and how to join.
+Join us for social coworking & office hours monthly on 1st Tuesdays! Hosted by Steffi LaZerte  and various community hosts. Everyone welcome. No RSVP needed. Consult our [Events](/events) page to find your local time and how to join.
 
 
 Find out about more [events](/events).
