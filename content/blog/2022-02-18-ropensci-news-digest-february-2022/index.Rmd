@@ -56,13 +56,19 @@ More details [in the job ad](/careers/community-manager-2022/).
 
 ### Next coworking sessions
 
-Join us for social coworking & office hours monthly on 1st Tuesdays! Hosted by Steffi LaZerte and Nick Tierney. Everyone welcome. No RSVP needed. Consult our [Events](/events) page to find your local time and how to join.
+Join us for social coworking & office hours monthly on 1st Tuesdays! Hosted by Steffi LaZerte and various community hosts. Everyone welcome. No RSVP needed. Consult our [Events](/events) page to find your local time and how to join.
 
 Our next sessions are:
 
-* [Tuesday, 01 March 2022, 9 AM North American Pacific / 17:00 UTC](/events/coworking-2022-03/);
+* [Tuesday, 01 March 2022, 9 AM North American Pacific / 17:00 UTC](/events/coworking-2022-03/) "Changing package maintainers", *Hosted by Steffi LaZerte and Hannah Owens*
+  - Cowork on a project of your choice;
+  - Take this time to ensure your packages are understandable to potential collaborators (or future maintainers);
+  - Or ask our community host, Hannah Owens, about her experience taking over maintenance of the rOpenSci spocc package.
 
-* [Tuesday, 05 April 2022 9 AM Australian Western / 1:00 UTC ](/events/coworking-2022-04/).
+* [Tuesday, 05 April 2022 9 AM Australian Western / 1:00 UTC ](/events/coworking-2022-04/) "PLACEHOLDER" *Hosted by Steffi LaZerte and Nick Tierney*
+  * Cowork on a project of your choice;
+  * Work on ....
+  * Ask community host, Nick Tierney, about ...
 
 Find out about more [events](/events).
 
