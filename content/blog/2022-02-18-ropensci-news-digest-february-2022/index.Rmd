@@ -7,7 +7,7 @@ slug: ropensci-news-digest-february-2022
 categories: []
 tags:
   - newsletter
-description: Community manager job ad, co-working sessions, new packages and package news
+description: Community manager job ad, co-working sessions, R Journal commentary, new packages and package news
 output:
   html_document:
     keep_md: yes
@@ -71,6 +71,13 @@ Our next sessions are:
   * Ask community host, Nick Tierney, about ...
 
 Find out about more [events](/events).
+
+### R Journal commentary "The R Developer Community Does Have a Strong Software Engineering Culture"
+
+[Maëlle Salmon](/author/maëlle-salmon/) (Research Software Engineer with rOpenSci) and [Karthik Ram](/author/karthik-ram/) (rOpenSci executive director) authored a commentary ["The R Developer Community Does Have a Strong Software Engineering Culture"](https://journal.r-project.org/archive/2021/RJ-2021-110/index.html) in the latest issue of The R Journal edited by Di Cook, 
+as a response to the discussion paper ["Software Engineering and R Programming: A Call for Research"](https://journal.r-project.org/archive/2021/RJ-2021-108/index.html) by [Melina Vidoni](author/melina-vidoni/) (who's an Associate editor of rOpenSci Software Peer Review).
+
+There are two other commentaries, ["We Need Trustworthy R Packages"](https://journal.r-project.org/archive/2021/RJ-2021-109/index.html) by [Will Landau](/author/will-landau/) (who maintains rOpenSci packages [targets](https://docs.ropensci.org/targets/) and [drake](https://docs.ropensci.org/drake/)), ["The R Quest: from Users to Developers"](https://journal.r-project.org/archive/2021/RJ-2021-111/index.html) one by Simon Urbanek.
 
 ## Software :package:
 

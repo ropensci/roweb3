@@ -7,7 +7,7 @@ slug: ropensci-news-digest-february-2022
 categories: []
 tags:
   - newsletter
-description: Community manager job ad, co-working sessions, new packages and package news
+description: Community manager job ad, co-working sessions, R Journal commentary, new packages and package news
 output:
   html_document:
     keep_md: yes
@@ -53,6 +53,13 @@ Our next sessions are:
 
 Find out about more [events](/events).
 
+### R Journal commentary "The R Developer Community Does Have a Strong Software Engineering Culture"
+
+[Maëlle Salmon](/author/maëlle-salmon/) (Research Software Engineer with rOpenSci) and [Karthik Ram](/author/karthik-ram/) (rOpenSci executive director) authored a commentary ["The R Developer Community Does Have a Strong Software Engineering Culture"](https://journal.r-project.org/archive/2021/RJ-2021-110/index.html) in the latest issue of The R Journal edited by Di Cook, 
+as a response to the discussion paper ["Software Engineering and R Programming: A Call for Research"](https://journal.r-project.org/archive/2021/RJ-2021-108/index.html) by [Melina Vidoni](author/melina-vidoni/) (who's an Associate editor of rOpenSci Software Peer Review).
+
+There are two other commentaries, ["We Need Trustworthy R Packages"](https://journal.r-project.org/archive/2021/RJ-2021-109/index.html) by [Will Landau](/author/will-landau/) (who maintains rOpenSci packages [targets](https://docs.ropensci.org/targets/) and [drake](https://docs.ropensci.org/drake/)), ["The R Quest: from Users to Developers"](https://journal.r-project.org/archive/2021/RJ-2021-111/index.html) one by Simon Urbanek.
+
 ## Software :package:
 
 ### New packages
@@ -60,7 +67,9 @@ Find out about more [events](/events).
 
 
 
-The following two packages recently became a part of our software suite:
+The following three packages recently became a part of our software suite:
+
++ [frictionless](https://docs.ropensci.org/frictionless), developed by Peter Desmet together with Damiano Oldoni: Read and write Frictionless Data Packages. A Data Package (<https://specs.frictionlessdata.io/data-package/>) is a simple container format and standard to describe and package a collection of (tabular) data. It is typically used to publish FAIR (<https://www.go-fair.org/fair-principles/>) and open datasets.  It is available on [CRAN]( https://CRAN.R-project.org/package=frictionless). It has been [reviewed](https://github.com/ropensci/software-review/issues/495) by Beatriz Milz, and João Martins.
 
 + [rfema](https://docs.ropensci.org/rfema), developed by Dylan Turner: `rfema` allows users to access The Federal Emergency Management Agencys (FEMA) publicly available data through their API. The package provides a set of functions to easily navigate and access data from the National Flood Insurance Program along with FEMAs various disaster aid programs, including the Hazard Mitigation Grant Program, the Public Assistance Grant Program, and the Individual Assistance Grant Program. It has been [reviewed](https://github.com/ropensci/software-review/issues/484) by François Michonneau, and Marcus Beck.
 
@@ -72,7 +81,7 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following thirteen packages have had an update since the last newsletter: [av](https://docs.ropensci.org/av "Working with Audio and Video in R") ([`v0.7.0`](https://github.com/ropensci/av/releases/tag/v0.7.0)), [c14bazAAR](https://docs.ropensci.org/c14bazAAR "Download and Prepare C14 Dates from Different Source Databases") ([`3.4.0`](https://github.com/ropensci/c14bazAAR/releases/tag/3.4.0)), [gittargets](https://docs.ropensci.org/gittargets "Data Version Control for the Targets Package") ([`0.0.3`](https://github.com/ropensci/gittargets/releases/tag/0.0.3)), [katex](https://docs.ropensci.org/katex "Rendering Math to HTML, MathML, or R-Documentation Format") ([`v1.4.0`](https://github.com/ropensci/katex/releases/tag/v1.4.0)), [nasapower](https://docs.ropensci.org/nasapower "NASA POWER API Client") ([`v4.0.4`](https://github.com/ropensci/nasapower/releases/tag/v4.0.4)), [osmdata](https://docs.ropensci.org/osmdata "Import OpenStreetMap Data as Simple Features or Spatial Objects") ([`v0.1.9`](https://github.com/ropensci/osmdata/releases/tag/v0.1.9)), [parzer](https://docs.ropensci.org/parzer "Parse Messy Geographic Coordinates") ([`v0.4.1`](https://github.com/ropensci/parzer/releases/tag/v0.4.1)), [rfema](https://docs.ropensci.org/rfema "Access the openFEMA API") ([`v1.0.0`](https://github.com/ropensci/rfema/releases/tag/v1.0.0)), [rgbif](https://docs.ropensci.org/rgbif "Interface to the Global Biodiversity Information Facility API") ([`v3.7.0`](https://github.com/ropensci/rgbif/releases/tag/v3.7.0)), [riem](https://docs.ropensci.org/riem "Accesses Weather Data from the Iowa Environment Mesonet") ([`v0.3.0`](https://github.com/ropensci/riem/releases/tag/v0.3.0)), [terrainr](https://docs.ropensci.org/terrainr "Landscape Visualizations in R and Unity") ([`v0.6.0`](https://github.com/ropensci/terrainr/releases/tag/v0.6.0)), [tic](https://docs.ropensci.org/tic "CI-Agnostic Workflow Definitions") ([`v0.11.4`](https://github.com/ropensci/tic/releases/tag/v0.11.4)), and [tidytags](https://docs.ropensci.org/tidytags "Importing and Analyzing Twitter Data Collected with Twitter Archiving Google Sheets") ([`v0.3.0`](https://github.com/ropensci/tidytags/releases/tag/v0.3.0)).
+The following fifteen packages have had an update since the last newsletter: [frictionless](https://docs.ropensci.org/frictionless "Read and Write Frictionless Data Packages") ([`v0.11.0`](https://github.com/frictionlessdata/frictionless-r/releases/tag/v0.11.0)), [av](https://docs.ropensci.org/av "Working with Audio and Video in R") ([`v0.7.0`](https://github.com/ropensci/av/releases/tag/v0.7.0)), [c14bazAAR](https://docs.ropensci.org/c14bazAAR "Download and Prepare C14 Dates from Different Source Databases") ([`3.4.0`](https://github.com/ropensci/c14bazAAR/releases/tag/3.4.0)), [gittargets](https://docs.ropensci.org/gittargets "Data Version Control for the Targets Package") ([`0.0.3`](https://github.com/ropensci/gittargets/releases/tag/0.0.3)), [katex](https://docs.ropensci.org/katex "Rendering Math to HTML, MathML, or R-Documentation Format") ([`v1.4.0`](https://github.com/ropensci/katex/releases/tag/v1.4.0)), [nasapower](https://docs.ropensci.org/nasapower "NASA POWER API Client") ([`v4.0.4`](https://github.com/ropensci/nasapower/releases/tag/v4.0.4)), [osmdata](https://docs.ropensci.org/osmdata "Import OpenStreetMap Data as Simple Features or Spatial Objects") ([`v0.1.9`](https://github.com/ropensci/osmdata/releases/tag/v0.1.9)), [parzer](https://docs.ropensci.org/parzer "Parse Messy Geographic Coordinates") ([`v0.4.1`](https://github.com/ropensci/parzer/releases/tag/v0.4.1)), [pdftools](https://docs.ropensci.org/pdftools "Text Extraction, Rendering and Converting of PDF Documents") ([`v3.1.0`](https://github.com/ropensci/pdftools/releases/tag/v3.1.0)), [rfema](https://docs.ropensci.org/rfema "Access the openFEMA API") ([`v1.0.0`](https://github.com/ropensci/rfema/releases/tag/v1.0.0)), [rgbif](https://docs.ropensci.org/rgbif "Interface to the Global Biodiversity Information Facility API") ([`v3.7.0`](https://github.com/ropensci/rgbif/releases/tag/v3.7.0)), [riem](https://docs.ropensci.org/riem "Accesses Weather Data from the Iowa Environment Mesonet") ([`v0.3.0`](https://github.com/ropensci/riem/releases/tag/v0.3.0)), [terrainr](https://docs.ropensci.org/terrainr "Landscape Visualizations in R and Unity") ([`v0.6.0`](https://github.com/ropensci/terrainr/releases/tag/v0.6.0)), [tic](https://docs.ropensci.org/tic "CI-Agnostic Workflow Definitions") ([`v0.11.4`](https://github.com/ropensci/tic/releases/tag/v0.11.4)), and [tidytags](https://docs.ropensci.org/tidytags "Importing and Analyzing Twitter Data Collected with Twitter Archiving Google Sheets") ([`v0.3.0`](https://github.com/ropensci/tidytags/releases/tag/v0.3.0)).
 
 ## Software Peer Review
 
@@ -84,7 +93,7 @@ There are twenty recently closed and active submissions and 4 submissions on hol
 
     * [rfema](https://github.com/ropensci/software-review/issues/484), Access the openFEMA API. Submitted by [Dylan Turner](http://dylanturner.org). 
 
-    * [tidytags](https://github.com/ropensci/software-review/issues/382), Simple Collection and Powerful Analysis of Twitter Data. Submitted by [Dr. Bret Staudt Willet](http://bretsw.com). 
+    * [tidytags](https://github.com/ropensci/software-review/issues/382), Simple Collection and Powerful Analysis of Twitter Data. Submitted by [Bret Staudt Willet](http://bretsw.com). 
 
 * Three at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
 
@@ -136,14 +145,19 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 
 
+### Other topics
+
+* [A Journey to gghdr](/blog/2022/02/15/gghdr) by Sayani Gupta. gghdr: An R package for graphing highest density regions in ggplot2.{{< figure src="opengraph.png" alt="" width="400" >}}
+
+
+
+
 
 ### Tech Notes
 
 * [A Blend of Package Build Failures](/blog/2022/01/31/package-build-failures) by Maëlle Salmon. Some common and less common problems we saw in logs of package and pkgdown website builds.
 
-* [pkgcheck now available as a GitHub action!](/blog/2022/02/01/pkgcheck-action) by Mark Padgham, and Jacob Wujciak-Jens. All packages submitted for peer-review with rOpenSci are checked by our   
-pkgcheck package. 
-This post describes a new GitHub action which can be used to run pkgcheck.
+* [pkgcheck now available as a GitHub action!](/blog/2022/02/01/pkgcheck-action) by Mark Padgham, and Jacob Wujciak-Jens. All packages submitted for peer-review with rOpenSci are checked by our   pkgcheck package. This post describes a new GitHub action which can be used to run pkgcheck.
 .
 
 ## Use cases
