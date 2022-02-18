@@ -1,5 +1,15 @@
 [
 {
+"authors": "Salmon, M., & Ram, K.",
+"year": "2022",
+"title": "The R Developer Community Does Have a Strong Software Engineering Culture",
+"journal": "The R Journal",
+"doi": "10.32614/RJ-2021-110",
+"url": "https://doi.org/10.32614/RJ-2021-110",
+"pdf": "https://journal.r-project.org/archive/2021/RJ-2021-110/RJ-2021-110.pdf",
+"type": "organization"
+},
+{
 "authors": "Ram, K., Boettiger, C., Chamberlain, S., Ross, N., Salmon, M., & Butland, S.",
 "year": "2018",
 "title": "A Community of Practice Around Peer-review for Long-term Research Software Sustainability",
