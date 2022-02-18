@@ -1,17 +1,18 @@
 ---
-slug: "post-template"
-title: Latest rOpenSci News Digest
+title: rOpenSci News Digest, February 2022
 author:
-  - The rOpenSci Team
-date: '2022-01-16'
+  - Maëlle Salmon
+date: '2022-02-18'
+slug: ropensci-news-digest-february-2022
+categories: []
 tags:
   - newsletter
-description: keywords from the content
+description: Community manager job ad, co-working sessions, R Journal commentary, new packages and package news
 output:
   html_document:
     keep_md: yes
 params:
-  last_newsletter: "2021-11-30"
+  last_newsletter: '2022-01-21'
 ---
 
 ```{r setup, include=FALSE}
@@ -43,13 +44,40 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-<!-- to be curated manually -->
+### rOpenSci is hiring its next Community Manager!
 
-<!-- Can use same coworking text every month and ping Steffi to ask if there are any special guests to add -->
-Join us for social coworking & office hours monthly on 1st Tuesdays! Hosted by Steffi LaZerte  and various community hosts. Everyone welcome. No RSVP needed. Consult our [Events](/events) page to find your local time and how to join.
+* Come be part of making our great community even better;
 
+* Help start a new program promoting diverse leadership in open source;
+
+* Join a remote, flexible, global, friendly community and team!
+
+More details [in the job ad](/careers/community-manager-2022/).
+
+### Next coworking sessions
+
+Join us for social coworking & office hours monthly on 1st Tuesdays! Hosted by Steffi LaZerte and various community hosts. Everyone welcome. No RSVP needed. Consult our [Events](/events) page to find your local time and how to join.
+
+Our next sessions are:
+
+* [Tuesday, 01 March 2022, 9 AM North American Pacific / 17:00 UTC](/events/coworking-2022-03/) "Changing package maintainers", *Hosted by Steffi LaZerte and Hannah Owens*
+  - Cowork on a project of your choice;
+  - Take this time to ensure your packages are understandable to potential collaborators (or future maintainers);
+  - Or ask our community host, Hannah Owens, about her experience taking over maintenance of the rOpenSci spocc package.
+
+* [Tuesday, 05 April 2022 9 AM Australian Western / 1:00 UTC ](/events/coworking-2022-04/) "Making figures sparkle" *Hosted by Steffi LaZerte and Nick Tierney*
+  * Cowork on a project of your choice;
+  * Work on some figures to make them glitter;
+  * Or ask our community host, Nick Tierney (author of data visualization packages including rOpenSci package [visdat](https://docs.ropensci.org/visdat/)) for some tips to make your figures sparkle!
 
 Find out about more [events](/events).
+
+### Suggested reading
+
+[Maëlle Salmon](/author/maëlle-salmon/) (Research Software Engineer with rOpenSci) and [Karthik Ram](/author/karthik-ram/) (rOpenSci executive director) authored a commentary ["The R Developer Community Does Have a Strong Software Engineering Culture"](https://journal.r-project.org/archive/2021/RJ-2021-110/index.html) in the latest issue of The R Journal edited by Di Cook, 
+as a response to the discussion paper ["Software Engineering and R Programming: A Call for Research"](https://journal.r-project.org/archive/2021/RJ-2021-108/index.html) by [Melina Vidoni](author/melina-vidoni/) (who's an Associate editor of rOpenSci Software Peer Review).
+
+Ready for more? Two other interesting reads are the commentaries ["We Need Trustworthy R Packages"](https://journal.r-project.org/archive/2021/RJ-2021-109/index.html) by [Will Landau](/author/will-landau/) (who maintains rOpenSci packages [targets](https://docs.ropensci.org/targets/) and [drake](https://docs.ropensci.org/drake/)), and ["The R Quest: from Users to Developers"](https://journal.r-project.org/archive/2021/RJ-2021-111/index.html) by Simon Urbanek.
 
 ## Software :package:
 
@@ -483,7 +511,7 @@ if (length(tech_notes) > 0) {
 
 ## Use cases
 
-```{r usecases}
+```{r usecases, eval=TRUE}
 # rerun get_use_cases.R at the same time
 usecases <- jsonlite::read_json("../../../data/usecases/usecases.json")
 get_one_case <- function(usecase) {
@@ -502,7 +530,7 @@ usecases <- split(usecases, seq(nrow(usecases)))
 
 `r snakecase::to_sentence_case(english(length(usecases)))` use cases of our packages and resources have been reported since we sent the last newsletter.
 
-```{r usecases2, results='asis'}
+```{r usecases2, results='asis', eval=TRUE}
 format_case <- function(usecase) {
   string <- sprintf("* [%s](%s). Reported by %s.", sub("\\.$", "", usecase$title), usecase$url, usecase$reporter)
 }
@@ -516,21 +544,45 @@ cat(
 
 Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)!
 
-## Call for maintainers
-
-<!--IF CALL
-* [our guidance on _Changing package maintainers_](https://devguide.ropensci.org/changing-maintainers.html)
-* [our _Package Curation Policy_](https://devguide.ropensci.org/curationpolicy.html)
-
-IF NO CALL
-There are no open calls for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
-As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. -->
 
 ## Package development corner
 
 Some useful tips for R package developers. :eyes:
 
-<!-- To be curated by hand -->
+### Make the best out of your package logo
+
+Have you designed (or commissioned) a beautiful logo for your package?
+Use [`usethis::use_logo()`](https://usethis.r-lib.org/reference/use_logo.html) that will enforce a specific size and save it under `man/figures/logo.png`, as well as providing you with the Markdown code to insert your logo in your package repo README.
+Why do this? This has two advantages:
+
+* If you have a package-level doc (i.e. a manual page for `?package-name`), or create one via [`usethis::use_package_doc()`](https://usethis.r-lib.org/reference/use_package_doc.html), roxygen2 will automatically add the logo to that doc page. Type `?usethis` in your R console for an example.
+
+* If you use [pkgdown BS5 templates](https://www.tidyverse.org/blog/2021/12/pkgdown-2-0-0/#bootstrap-5), which is the case if your package is part of rOpenSci suite, your package logo will appear on all pages, as well as in social media cards.
+
+### Resources about testing
+
+Some links about testing your package...
+
+* When wondering what good tests look like (spoiler: they look obvious): [Why Good Developers Write Bad Unit Tests](https://mtlynch.io/good-developers-bad-tests/) (seen via [an issue in the R packages book repo](https://github.com/hadley/r-pkgs/issues/551)).
+* When things go well in one testing context (say, `devtools::test()`) but not in another one (say, `devtools::check()`): [a conversation around usual suspects](https://github.com/hadley/r-pkgs/issues/483). One prevention strategy is to read and apply the advice in testthat [Test fixtures vignette](https://testthat.r-lib.org/articles/test-fixtures.html).
+* When having to put helper code somewhere: [Helper code and files for your testthat tests](https://blog.r-hub.io/2020/11/18/testthat-utility-belt/).
+* That interacts with a database: [dittodb by Jonathan Keane and Mauricio Vargas](https://docs.ropensci.org/dittodb/).
+* That interacts with a web resource: [HTTP testing in R](https://books.ropensci.org/http-testing) (or the more recent [httptest2 package](https://enpiar.com/httptest2/) that is like httptest, but for [httr2](https://httr2.r-lib.org/)).
+
+### The state of continuous integration (CI) for R packages
+
+We no longer recommend using [Travis CI](https://ropensci.org/blog/2020/11/19/moving-away-travis/).
+The development version of our dev guide has [updated advice on CI](https://devdevguide.netlify.app/ci.html).
+
+If you adopt GitHub Actions,
+
+* Have a look at the [changelog for r-lib/actions](https://github.com/r-lib/actions/releases) if these are the actions you use;
+
+* Do not miss the tech note ["pkgcheck now available as a GitHub action!"](/blog/2022/02/01/pkgcheck-action/).
+
+### Miscellaneous package building advice
+
+See the tech note [A Blend of Package Build Failures](/blog/2022/01/31/package-build-failures/).
 
 ## Last words
 

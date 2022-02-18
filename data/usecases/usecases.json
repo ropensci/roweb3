@@ -129,7 +129,7 @@
     "title": "Promoting R and rOpenSci packages in UK local government",
     "reporter": "Henry Partridge",
     "tags": ["r", "package", "fingertipsr", "ropenaq"],
-    "resource": "[ropenaq](https://docs.ropensci.org/ropenaq)",
+    "resource": "ropenaq",
     "url": "https://discuss.ropensci.org/t/promoting-r-and-ropensci-packages-in-uk-local-government/1776",
     "image": "noimage",
     "date": "2019-07-17"
@@ -916,5 +916,14 @@
     "url": "https://discuss.ropensci.org/t/evaluating-semi-parametric-nowcasts-of-covid-19-hospital-admissions-in-germany/2715",
     "image": "evaluating-semi-parametric-nowcasts-of-covid-19-hospital-admissions-in-germany.jpeg",
     "date": "2021-11-30"
+  },
+  {
+    "title": "Calculating US Residential Segregation Indices in A Reproducible Pipeline",
+    "reporter": "Boyi Guo",
+    "tags": "targets",
+    "resource": "[targets](https://docs.ropensci.org/targets)",
+    "url": "https://discuss.ropensci.org/t/calculating-us-residential-segregation-indices-in-a-reproducible-pipeline/2815",
+    "image": "calculating-us-residential-segregation-indices-in-a-reproducible-pipeline.png",
+    "date": "2022-02-11"
   }
 ]
