@@ -46,19 +46,19 @@ Our next sessions are:
   - Take this time to ensure your packages are understandable to potential collaborators (or future maintainers);
   - Or ask our community host, Hannah Owens, about her experience taking over maintenance of the rOpenSci spocc package.
 
-* [Tuesday, 05 April 2022 9 AM Australian Western / 1:00 UTC ](/events/coworking-2022-04/) "PLACEHOLDER" *Hosted by Steffi LaZerte and Nick Tierney*
+* [Tuesday, 05 April 2022 9 AM Australian Western / 1:00 UTC ](/events/coworking-2022-04/) "Making figures sparkle" *Hosted by Steffi LaZerte and Nick Tierney*
   * Cowork on a project of your choice;
-  * Work on ....
-  * Ask community host, Nick Tierney, about ...
+  * Work on some figures to make them glitter;
+  * Or ask our community host, Nick Tierney (author of data visualization packages including rOpenSci package [visdat](https://docs.ropensci.org/visdat/)) for some tips to make your figures sparkle!
 
 Find out about more [events](/events).
 
-### R Journal commentary "The R Developer Community Does Have a Strong Software Engineering Culture"
+### Suggested reading
 
 [Maëlle Salmon](/author/maëlle-salmon/) (Research Software Engineer with rOpenSci) and [Karthik Ram](/author/karthik-ram/) (rOpenSci executive director) authored a commentary ["The R Developer Community Does Have a Strong Software Engineering Culture"](https://journal.r-project.org/archive/2021/RJ-2021-110/index.html) in the latest issue of The R Journal edited by Di Cook, 
 as a response to the discussion paper ["Software Engineering and R Programming: A Call for Research"](https://journal.r-project.org/archive/2021/RJ-2021-108/index.html) by [Melina Vidoni](author/melina-vidoni/) (who's an Associate editor of rOpenSci Software Peer Review).
 
-There are two other commentaries, ["We Need Trustworthy R Packages"](https://journal.r-project.org/archive/2021/RJ-2021-109/index.html) by [Will Landau](/author/will-landau/) (who maintains rOpenSci packages [targets](https://docs.ropensci.org/targets/) and [drake](https://docs.ropensci.org/drake/)), ["The R Quest: from Users to Developers"](https://journal.r-project.org/archive/2021/RJ-2021-111/index.html) one by Simon Urbanek.
+Ready for more? Two other interesting reads are the commentaries ["We Need Trustworthy R Packages"](https://journal.r-project.org/archive/2021/RJ-2021-109/index.html) by [Will Landau](/author/will-landau/) (who maintains rOpenSci packages [targets](https://docs.ropensci.org/targets/) and [drake](https://docs.ropensci.org/drake/)), and ["The R Quest: from Users to Developers"](https://journal.r-project.org/archive/2021/RJ-2021-111/index.html) by Simon Urbanek.
 
 ## Software :package:
 
@@ -81,7 +81,7 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following fifteen packages have had an update since the last newsletter: [frictionless](https://docs.ropensci.org/frictionless "Read and Write Frictionless Data Packages") ([`v0.11.0`](https://github.com/frictionlessdata/frictionless-r/releases/tag/v0.11.0)), [av](https://docs.ropensci.org/av "Working with Audio and Video in R") ([`v0.7.0`](https://github.com/ropensci/av/releases/tag/v0.7.0)), [c14bazAAR](https://docs.ropensci.org/c14bazAAR "Download and Prepare C14 Dates from Different Source Databases") ([`3.4.0`](https://github.com/ropensci/c14bazAAR/releases/tag/3.4.0)), [gittargets](https://docs.ropensci.org/gittargets "Data Version Control for the Targets Package") ([`0.0.3`](https://github.com/ropensci/gittargets/releases/tag/0.0.3)), [katex](https://docs.ropensci.org/katex "Rendering Math to HTML, MathML, or R-Documentation Format") ([`v1.4.0`](https://github.com/ropensci/katex/releases/tag/v1.4.0)), [nasapower](https://docs.ropensci.org/nasapower "NASA POWER API Client") ([`v4.0.4`](https://github.com/ropensci/nasapower/releases/tag/v4.0.4)), [osmdata](https://docs.ropensci.org/osmdata "Import OpenStreetMap Data as Simple Features or Spatial Objects") ([`v0.1.9`](https://github.com/ropensci/osmdata/releases/tag/v0.1.9)), [parzer](https://docs.ropensci.org/parzer "Parse Messy Geographic Coordinates") ([`v0.4.1`](https://github.com/ropensci/parzer/releases/tag/v0.4.1)), [pdftools](https://docs.ropensci.org/pdftools "Text Extraction, Rendering and Converting of PDF Documents") ([`v3.1.0`](https://github.com/ropensci/pdftools/releases/tag/v3.1.0)), [rfema](https://docs.ropensci.org/rfema "Access the openFEMA API") ([`v1.0.0`](https://github.com/ropensci/rfema/releases/tag/v1.0.0)), [rgbif](https://docs.ropensci.org/rgbif "Interface to the Global Biodiversity Information Facility API") ([`v3.7.0`](https://github.com/ropensci/rgbif/releases/tag/v3.7.0)), [riem](https://docs.ropensci.org/riem "Accesses Weather Data from the Iowa Environment Mesonet") ([`v0.3.0`](https://github.com/ropensci/riem/releases/tag/v0.3.0)), [terrainr](https://docs.ropensci.org/terrainr "Landscape Visualizations in R and Unity") ([`v0.6.0`](https://github.com/ropensci/terrainr/releases/tag/v0.6.0)), [tic](https://docs.ropensci.org/tic "CI-Agnostic Workflow Definitions") ([`v0.11.4`](https://github.com/ropensci/tic/releases/tag/v0.11.4)), and [tidytags](https://docs.ropensci.org/tidytags "Importing and Analyzing Twitter Data Collected with Twitter Archiving Google Sheets") ([`v0.3.0`](https://github.com/ropensci/tidytags/releases/tag/v0.3.0)).
+The following fifteen packages have had an update since the last newsletter: [frictionless](https://docs.ropensci.org/frictionless "Read and Write Frictionless Data Packages") ([`v1.0.0`](https://github.com/frictionlessdata/frictionless-r/releases/tag/v1.0.0)), [av](https://docs.ropensci.org/av "Working with Audio and Video in R") ([`v0.7.0`](https://github.com/ropensci/av/releases/tag/v0.7.0)), [c14bazAAR](https://docs.ropensci.org/c14bazAAR "Download and Prepare C14 Dates from Different Source Databases") ([`3.4.0`](https://github.com/ropensci/c14bazAAR/releases/tag/3.4.0)), [gittargets](https://docs.ropensci.org/gittargets "Data Version Control for the Targets Package") ([`0.0.3`](https://github.com/ropensci/gittargets/releases/tag/0.0.3)), [katex](https://docs.ropensci.org/katex "Rendering Math to HTML, MathML, or R-Documentation Format") ([`v1.4.0`](https://github.com/ropensci/katex/releases/tag/v1.4.0)), [nasapower](https://docs.ropensci.org/nasapower "NASA POWER API Client") ([`v4.0.4`](https://github.com/ropensci/nasapower/releases/tag/v4.0.4)), [osmdata](https://docs.ropensci.org/osmdata "Import OpenStreetMap Data as Simple Features or Spatial Objects") ([`v0.1.9`](https://github.com/ropensci/osmdata/releases/tag/v0.1.9)), [parzer](https://docs.ropensci.org/parzer "Parse Messy Geographic Coordinates") ([`v0.4.1`](https://github.com/ropensci/parzer/releases/tag/v0.4.1)), [pdftools](https://docs.ropensci.org/pdftools "Text Extraction, Rendering and Converting of PDF Documents") ([`v3.1.0`](https://github.com/ropensci/pdftools/releases/tag/v3.1.0)), [rfema](https://docs.ropensci.org/rfema "Access the openFEMA API") ([`v1.0.0`](https://github.com/ropensci/rfema/releases/tag/v1.0.0)), [rgbif](https://docs.ropensci.org/rgbif "Interface to the Global Biodiversity Information Facility API") ([`v3.7.0`](https://github.com/ropensci/rgbif/releases/tag/v3.7.0)), [riem](https://docs.ropensci.org/riem "Accesses Weather Data from the Iowa Environment Mesonet") ([`v0.3.0`](https://github.com/ropensci/riem/releases/tag/v0.3.0)), [terrainr](https://docs.ropensci.org/terrainr "Landscape Visualizations in R and Unity") ([`v0.6.0`](https://github.com/ropensci/terrainr/releases/tag/v0.6.0)), [tic](https://docs.ropensci.org/tic "CI-Agnostic Workflow Definitions") ([`v0.11.4`](https://github.com/ropensci/tic/releases/tag/v0.11.4)), and [tidytags](https://docs.ropensci.org/tidytags "Importing and Analyzing Twitter Data Collected with Twitter Archiving Google Sheets") ([`v0.3.0`](https://github.com/ropensci/tidytags/releases/tag/v0.3.0)).
 
 ## Software Peer Review
 
@@ -115,9 +115,11 @@ There are twenty recently closed and active submissions and 4 submissions on hol
 
     * [healthdatacsv](https://github.com/ropensci/software-review/issues/358), Access data in the healthdata.gov catalog. Submitted by [iecastro](http://iecastro.netlify.com). 
 
-* Five at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
+* Six at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 
      * [EDIutils](https://github.com/ropensci/software-review/issues/498), An API Client for the Environmental Data Initiative Repository. Submitted by [Colin Smith](https://github.com/clnsmth). 
+
+    * [ReLTER](https://github.com/ropensci/software-review/issues/485), An interface to the eLTER for the R statistical programming environment. Submitted by [Alessandro Oggioni](https://www.cnr.it/people/alessandro.oggioni). 
 
     * [canaper](https://github.com/ropensci/software-review/issues/475), Categorical Analysis of Neo- And Paleo-Endemism. Submitted by [Joel Nitta](https://joelnitta.com).  (Stats).
 
@@ -127,13 +129,11 @@ There are twenty recently closed and active submissions and 4 submissions on hol
 
     * [occCite](https://github.com/ropensci/software-review/issues/407), Querying and Managing Large Biodiversity Occurrence Datasets. Submitted by [Hannah Owens](http://hannahlowens.weebly.com/). 
 
-* Four at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
+* Three at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
 
      * [octolog](https://github.com/ropensci/software-review/issues/502), Better Github Action Logging. Submitted by [Jacob Wujciak-Jens](https://github.com/assignUser). 
 
     * [bssm](https://github.com/ropensci/software-review/issues/489), Bayesian Inference of Non-Linear and Non-Gaussian State Space. Submitted by [Jouni Helske](http://jounihelske.netlify.app).  (Stats).
-
-    * [ReLTER](https://github.com/ropensci/software-review/issues/485), An interface to the eLTER for the R statistical programming environment. Submitted by [Alessandro Oggioni](https://www.cnr.it/people/alessandro.oggioni). 
 
     * [rdbhapi](https://github.com/ropensci/software-review/issues/443), Interface to DBH-API. Submitted by [Marija Ninic](https://hkdir.no/). 
 
