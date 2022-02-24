@@ -28,7 +28,7 @@ Now let's dive into the activity at and around rOpenSci!
 
 Video and resources from our past community call about [**rOpenSci's R-universe Project**](/commcalls/may2021-r-universe/) were posted. The R-universe platform is a new umbrella project under which rOpenSci experiments with new ideas for improving publication and discovery of research software packages in R. In this 1-hour community call, **Jeroen Ooms** explained the basic steps of setting up your own universe, and getting started with publishing packages (including experimental software, development versions, [research compendia](https://ropensci.org/blog/2021/04/09/r-universe-articles/)) and articles on your [personal subdomain](https://jeroen.r-universe.dev).
 
-For **getting help with R-universe** please use the [R-universe bugs repository](https://github.com/r-universe-org/bugs).
+For **getting help with R-universe** please use the [R-universe help repository](https://github.com/r-universe-org/help).
 
 ### rOpenSci at useR! 2021
 

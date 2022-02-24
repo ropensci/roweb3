@@ -70,7 +70,7 @@ This is what the badges look like for the ropensci universe:
 
 ## Customize the badge style
 
-One of the early adopters of R-universe had [requested](https://github.com/r-universe-org/bugs/issues/87) some options to customize the visual appearance of the badges. We have added 3 http parameters to the badges API:
+One of the early adopters of R-universe had [requested](https://github.com/r-universe-org/help/issues/87) some options to customize the visual appearance of the badges. We have added 3 http parameters to the badges API:
 
  - `scale` the size of the badge (where 1 is the default);
  - `color` the color of a badge;

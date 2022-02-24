@@ -94,7 +94,7 @@ If you want to discuss R in Antarctic and Southern Ocean science, use the [Antar
 
 The following topics used to be forum categories and they're still there as an archive, but all new discussions have moved.
 
-Discussions about [R-universe](/r-universe) are encouraged in https://github.com/r-universe-org/bugs/discussions & bug reports to https://github.com/r-universe-org/bugs/issues.
+Discussions about [R-universe](/r-universe) are encouraged in https://github.com/r-universe-org/help/discussions & bug reports to https://github.com/r-universe-org/help/issues.
 
 Discussions about [statistical software review](/stat-software-review/) have moved to https://github.com/ropensci/statistical-software-review-book/discussions.
 
