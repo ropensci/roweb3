@@ -5,7 +5,7 @@ package_version: 0.5.0
 author:
   - Sina Rüeger
   - Julia Gustavsen
-date: 2021-02-25
+date: 2022-02-25
 tags:
   - packages
   - R
