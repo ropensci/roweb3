@@ -2,7 +2,7 @@
 slug: "community-manager-2022"
 title: "Hiring our next Community Manager"
 date: 2022-02-02
-expirydate: 2022-03-02
+expirydate: 2022-03-30
 location: Global,
 conditions: full-time contract position
 ---
