@@ -44,11 +44,18 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-<!-- to be curated manually -->
+### Next coworking sessions
 
-<!-- Can use same coworking text every month and ping Steffi to ask if there are any special guests to add -->
-Join us for social coworking & office hours monthly on 1st Tuesdays! Hosted by Steffi LaZerte  and various community hosts. Everyone welcome. No RSVP needed. Consult our [Events](/events) page to find your local time and how to join.
+Join us for social coworking & office hours monthly on 1st Tuesdays! Hosted by Steffi LaZerte and various community hosts. Everyone welcome. No RSVP needed. Consult our [Events](/events) page to find your local time and how to join.
 
+Our next sessions are:
+
+* [Tuesday, 05 April 2022 9 AM Australian Western / 1:00 UTC ](/events/coworking-2022-04/) "Making figures sparkle" *Hosted by [Steffi LaZerte](/author/steffi-lazerte/) and [Nick Tierney](/author/nicholas-tierney/)*
+  * Cowork on a project of your choice;
+  * Work on some figures to make them glitter;
+  * Or ask our community host, Nick Tierney (author of data visualization packages including rOpenSci package [visdat](https://docs.ropensci.org/visdat/)) for some tips to make your figures sparkle!
+  
+* [Tuesday, 03 May 2022 9 AM North American Pacific / 16:00 UTC](https://ropensci.org/events/coworking-2022-05/).
 
 Find out about more [events](/events).
 
@@ -442,7 +449,7 @@ format_post <- function(post) {
 }
 ```
 
-```{r, results='asis'}
+```{r, results='asis', eval=FALSE}
 software_review <- posts[purrr::map_lgl(posts, "software_peer_review")]
 if (length(software_review) > 0) {
   cat("### Software Review\n\n")
@@ -548,6 +555,8 @@ Much easier for adding bold text, code, etc.
 
 Another good thing to know is that the roxygen2 pkgdown website has guidance on [repeating yourself](https://roxygen2.r-lib.org/articles/rd.html#do-repeat-yourself-1) in your docs (["Every page is page one"](https://www.writethedocs.org/blog/newsletter-april-2020/#book-club-an-intro-to-every-page-is-page-one)! Or, as written in our [packaging guide](https://devguide.ropensci.org/building.html), "the principle of multiple points of entry i.e. to take into account the fact that any piece of documentation may be the first encounter the user has with the package and/or the tool/data it wraps.").
 See also the blog post ["Reuse Rmd fragments in package vignettes, README, blog posts and more"](https://www.garrickadenbuie.com/blog/dry-vignette-and-readme/) by Garrick Aden-Buie.
+
+Lastly, do you know about katex by Jeroen Ooms for [displaying math in R documentation](https://docs.ropensci.org/katex/reference/math_to_rd.html)?
 
 ### Alternatives/complements to pkgdown for package docs?
 
