@@ -925,5 +925,14 @@
     "url": "https://discuss.ropensci.org/t/calculating-us-residential-segregation-indices-in-a-reproducible-pipeline/2815",
     "image": "calculating-us-residential-segregation-indices-in-a-reproducible-pipeline.png",
     "date": "2022-02-11"
+  },
+  {
+    "title": "Use rtweet to manage lists and who you follow",
+    "reporter": "Steph Locke",
+    "tags": "rtweet",
+    "resource": "[rtweet](https://docs.ropensci.org/rtweet)",
+    "url": "https://discuss.ropensci.org/t/use-rtweet-to-manage-lists-and-who-you-follow/2830",
+    "image": "use-rtweet-to-manage-lists-and-who-you-follow.jpeg",
+    "date": "2022-02-22"
   }
 ]
