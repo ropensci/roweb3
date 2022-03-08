@@ -25,6 +25,17 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
+
+### rOpenSci is hiring its next Community Manager!
+
+* Come be part of making our great community even better;
+
+* Help start a new program promoting diverse leadership in open source;
+
+* Join a remote, flexible, global, friendly community and team!
+
+More details [in the job ad](/careers/community-manager-2022/).
+
 ### Next coworking sessions
 
 Join us for social coworking & office hours monthly on 1st Tuesdays! Hosted by Steffi LaZerte and various community hosts. Everyone welcome. No RSVP needed. Consult our [Events](/events) page to find your local time and how to join.
