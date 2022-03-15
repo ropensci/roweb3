@@ -29,7 +29,7 @@ Now let's dive into the activity at and around rOpenSci!
 
 The landing page for rOpenSci's [R-universe](https://r-universe.dev) platform has gotten a makeover to facilitate easy searching through thousands of available R packages and articles. Discover new content by searching for keywords in package descriptions, authors, topics, vignettes, etc.
 
-{{< tweet user="opencpu" id="1502788402286108675" >}}
+{{< figure src="landing.jpeg" alt="Screenshot of the new R-universe landing page. There is a search bar. Below it are the logos of organizations. Above it is an animated rocket icon." >}}
 
 Give it a try at [https://r-universe.dev](https://r-universe.dev)!
 
