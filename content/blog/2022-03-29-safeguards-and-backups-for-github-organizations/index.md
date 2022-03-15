@@ -46,8 +46,8 @@ Some 2FA apps will also offer some sort of cloud synchronization so you could e.
 
 ### Organization members
 
-We prefer e.g. package regular contributors to be organization members rather than outside collaborators because it's more welcoming.
-In practice, it means they can publicize their organization ownership on their GitHub profile.
+We prefer e.g. package regular contributors to be organization members rather than outside collaborators because it's more [welcoming](https://devguide.ropensci.org/collaboration.html#welcoming-collaborators-to-ropensci).
+In practice, it means they can [publicize their organization ownership](https://docs.github.com/en/enterprise-server@3.2/admin/user-management/managing-organizations-in-your-enterprise/configuring-visibility-for-organization-membership) on their GitHub profile.
 
 Now, in our case organization members have [no base permissions](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/setting-base-permissions-for-an-organization).
 Some other organizations might choose to let every organization member have write access to all repositories.
