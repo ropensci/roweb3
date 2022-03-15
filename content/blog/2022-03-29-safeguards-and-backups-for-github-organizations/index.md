@@ -25,6 +25,8 @@ The principal ones are:
 
 To decide what role to give someone we use the [**principle of least privilege**](https://en.wikipedia.org/wiki/Principle_of_least_privilege) -- obviously balanced with trust.
 
+Note that there are not as many fine-tuning possibilities of access rights to repositories hosted in individual accounts.
+
 ### Organization owners
 
 We make sure all organization owners have enabled [two-factor authentication (2FA) for their GitHub Account](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication).
@@ -37,7 +39,7 @@ Making sure someone has enabled 2FA means asking but also answering questions!
 Once 2FA has been enabled new log-ins necessitate both a password (hopefully stored in a password manager) and a temporary code produced by an app e.g. Duo Mobile.
 So there are two log-in things, the password and the temporary code: these are the two factors!
 
-If the device with the app is unavailable (imagine your dog steals it), then the user needs to enter a recovery code that had been given by GitHub when the user enabled 2FA (hopefully the recovery codes also live in the password manager).
+If the device with the app is unavailable (imagine your dog steals it :crying_cat:), then the user needs to enter a recovery code that had been given by GitHub when the user enabled 2FA (hopefully the recovery codes also live in the password manager).
 
 Note that when using a password manager, it's useful to back up the password database.
 
@@ -46,7 +48,8 @@ Note that when using a password manager, it's useful to back up the password dat
 We prefer e.g. package regular contributors to be organization members rather than outside collaborators because it's more welcoming.
 In practice, it means they can publicize their organization ownership on their GitHub profile.
 
-Now, organization members have [no base permissions](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/setting-base-permissions-for-an-organization).
+Now, in our case organization members have [no base permissions](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/setting-base-permissions-for-an-organization).
+Some other organizations might choose to let every organization member have write access to all repositories.
 
 We add members to repositories via [teams](https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams).
 We make sure maintainers of packages have admin rights on their repositories, as the package, is, well, theirs. 🙂
@@ -70,6 +73,27 @@ The archives in question contains both the git repo (so, your code) but also iss
 
 #### Listing repositories to back-up
 
+Listing all repositories in an organization might look like
+
+```r
+repos <- gh::gh(
+  "/orgs/{org}/repos",
+  org = "ropensci",
+  type = "all",
+  per_page = 100,
+  .limit = Inf
+) |> 
+  purrr::map_chr("name")
+```
+
+However depending on the scope of your Personal Access Token, this might miss private repositories.
+You could manually list private repositories in e.g. a text file.
+
+By the way, regarding GitHub Personal Access Tokens and R especially with the `gh` package, we recommend
+- the [usethis vignette "Managing Git(Hub) Credentials"](https://usethis.r-lib.org/articles/git-credentials.html);
+- [Danielle Navarro's blog post "Managing GitHub credentials from R, difficulty level linux"](https://blog.djnavarro.net/posts/2021-08-08_git-credential-helpers/).
+
+No matter where you run your code that uses a GitHub Personal Access Token, ensure that PAT is safe.
 
 #### Creating and collecting repo archives
 
@@ -85,8 +109,8 @@ magick_migration <- gh::gh(
 
 as opposed to creating one gigantic migration archive per organization.
 
-This code snippet launches the creation of the GitHub archive. 
-After waiting a bit one can inquire about its status, and once it's exported, download the archive.
+This code snippet above launches the creation of the GitHub archive. 
+After waiting a bit one can inquire about its status, and once it's exported, download the archive:
 ```r
 migration_url <- migration[["url"]]
 repo <- "ropensci_magick"
@@ -119,9 +143,25 @@ curl::curl_download(
 
 Above we downloaded each repo archive in a specific folder e.g. `archive-ropensci_magick/ropensci_magick_migration_archive.tar.gz` as it was the file structure that worked best with the S3 storage we then uploaded the archive to.
 
+### Saving repository archives
+
+Once all archives are created one should find a place to store them.
+It could e.g. Digital Ocean (one space/bucket for all repo archives of a week) or another cloud storage service.
+
+### Regularly running all these steps
+
+Ideally the backups should be fairly regular.
+We opted for weekly backups.
+The scripts creating, downloading and uploading the archives could run on GitHub Actions (which should work until a GitHub disaster :sweat_smile:) or some other service.
+
+All in all it could be quite cheap to run the code and store the archives.
+As a bonus one could imagine using the archives for analyses over one or a few GitHub organizations: after having collected all issues as JSON files, no need to perform GitHub API calls to e.g. identify the most prolific bug reporters. :bar_chart:
 
 ## Conclusion
 
 In summary we'd recommend balancing trust with security when choosing what rights to given to indidivual organization members (what role for this person? what "base permission" for all organization members?).
-We also recommend promoting two-factor authentication (2FA) (as well as the use of password managers).
+We also recommend promoting two-factor authentication (2FA) as well as the use of password managers.
 Lastly, we suggest regularly backing up GitHub repositories via using GitHub V3 API migration endpoint.
+
+What are your own safeguards? Maybe you use a self-hosted GitLab instance and have more control?
+In any case, we welcome comments below!
