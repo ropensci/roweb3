@@ -25,9 +25,9 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-### r-universe gets advanced search!
+### R-universe gets advanced search!
 
-The landing page for rOpenSci's [r-universe](https://r-universe.dev) platform has gotten a makeover to facilitate easy searching through thousands of available R packages and articles. Discover new content by searching for keywords in package descriptions, authors, topics, vignettes, etc.
+The landing page for rOpenSci's [R-universe](https://r-universe.dev) platform has gotten a makeover to facilitate easy searching through thousands of available R packages and articles. Discover new content by searching for keywords in package descriptions, authors, topics, vignettes, etc.
 
 {{< tweet user="opencpu" id="1502788402286108675" >}}
 
@@ -67,7 +67,9 @@ Find out about more [events](/events).
 
 The following two packages recently became a part of our software suite:
 
++ [commonmark](https://docs.ropensci.org/commonmark), developed by Jeroen Ooms: The CommonMark specification defines a rationalized version of markdown syntax. This package uses the cmark reference implementation for converting markdown text into various formats including html, latex and groff man. In addition it exposes the markdown parse tree in xml format. Also includes opt-in support for GFM extensions including tables, autolinks, and strikethrough text.  It is available on [CRAN]( https://CRAN.R-project.org/package=commonmark). 
 
++ [universe](https://docs.ropensci.org/universe), developed by Jeroen Ooms: Utilities to interact with the R-universe platform. Includes functions to manage local package repositories, as well as API wrappers for retrieving data and metadata about packages in r-universe. 
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
@@ -75,11 +77,11 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following five packages have had an update since the last newsletter: [commonmark](https://docs.ropensci.org/commonmark "High Performance CommonMark and Github Markdown Rendering in R") ([`v1.8.0`](https://github.com/r-lib/commonmark/releases/tag/v1.8.0)), [biomartr](https://docs.ropensci.org/biomartr "Genomic Data Retrieval") ([`v1.0.2`](https://github.com/ropensci/biomartr/releases/tag/v1.0.2)), [nasapower](https://docs.ropensci.org/nasapower "NASA POWER API Client") ([`v4.0.6`](https://github.com/ropensci/nasapower/releases/tag/v4.0.6)), [rsnps](https://docs.ropensci.org/rsnps "Get SNP (Single-Nucleotide Polymorphism) Data on the Web") ([`v0.5.0`](https://github.com/ropensci/rsnps/releases/tag/v0.5.0)), and [tic](https://docs.ropensci.org/tic "CI-Agnostic Workflow Definitions") ([`v0.12.0`](https://github.com/ropensci/tic/releases/tag/v0.12.0)).
+The following six packages have had an update since the last newsletter: [commonmark](https://docs.ropensci.org/commonmark "High Performance CommonMark and Github Markdown Rendering in R") ([`v1.8.0`](https://github.com/r-lib/commonmark/releases/tag/v1.8.0)), [biomartr](https://docs.ropensci.org/biomartr "Genomic Data Retrieval") ([`v1.0.2`](https://github.com/ropensci/biomartr/releases/tag/v1.0.2)), [jqr](https://docs.ropensci.org/jqr "Client for jq, a JSON Processor") ([`v1.2.3`](https://github.com/ropensci/jqr/releases/tag/v1.2.3)), [nasapower](https://docs.ropensci.org/nasapower "NASA POWER API Client") ([`v4.0.6`](https://github.com/ropensci/nasapower/releases/tag/v4.0.6)), [rsnps](https://docs.ropensci.org/rsnps "Get SNP (Single-Nucleotide Polymorphism) Data on the Web") ([`v0.5.0`](https://github.com/ropensci/rsnps/releases/tag/v0.5.0)), and [tic](https://docs.ropensci.org/tic "CI-Agnostic Workflow Definitions") ([`v0.12.0`](https://github.com/ropensci/tic/releases/tag/v0.12.0)).
 
 ## Software Peer Review
 
-There are sixteen recently closed and active submissions and 4 submissions on hold. Issues are at different stages: 
+There are seventeen recently closed and active submissions and 4 submissions on hold. Issues are at different stages: 
 
 * Three at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
 
@@ -115,9 +117,11 @@ There are sixteen recently closed and active submissions and 4 submissions on ho
 
     * [ROriginStamp](https://github.com/ropensci/software-review/issues/433), Interface to OriginStamp API to Obtain Trusted Time Stamps. Submitted by [Rainer M Krug](https://github.com/rkrug). 
 
-* One at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
+* Two at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
-     * [octolog](https://github.com/ropensci/software-review/issues/502), Better Github Action Logging. Submitted by [Jacob Wujciak-Jens](https://github.com/assignUser). 
+     * [npi](https://github.com/ropensci/software-review/issues/505), Access the U.S. National Provider Identifier Registry API. Submitted by [Frank Farach](https://frankfarach.com). 
+
+    * [octolog](https://github.com/ropensci/software-review/issues/502), Better Github Action Logging. Submitted by [Jacob Wujciak-Jens](https://github.com/assignUser). 
 
 * Two at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
 
@@ -139,7 +143,7 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 
 
-One use cases of our packages and resources have been reported since we sent the last newsletter.
+One use case of our packages and resources has been reported since we sent the last newsletter.
 
 * [Use rtweet to manage lists and who you follow](https://discuss.ropensci.org/t/use-rtweet-to-manage-lists-and-who-you-follow/2830). Reported by Steph Locke.
 
@@ -147,7 +151,7 @@ Explore [other use cases](/usecases) and [report your own](https://discuss.ropen
 
 ## Call for maintainers
 
-The rrricanes package is looking for a new maintainer!
+The [rrricanes package](https://docs.ropensci.org/rrricanes/) is looking for a new maintainer!
 rrricanes is a web scraper for Atlantic and east Pacific hurricanes and tropical storms.
 See [the corresponding GitHub issue](https://github.com/ropensci/rrricanes/issues/127).
 
@@ -160,9 +164,9 @@ You can refer to:
 
 Some useful tips for R package developers. :eyes:
 
-### Get inspired by the tidyverse spring cleaning?
+### Get inspired by the tidyverse spring cleaning
 
-The tidyverse packages have been undergoing spring cleaning helped by a [public checklist](https://github.com/r-lib/usethis/blob/19c9e5e43ab430ca0ff3e3075b43b869270e01f0/R/tidy-upkeep.R?rgh-link-date=2022-03-04T14%3A53%3A56Z#L31) that is worth a read.
+The tidyverse packages have been undergoing spring cleaning helped by a [public checklist](https://github.com/r-lib/usethis/blob/19c9e5e43ab430ca0ff3e3075b43b869270e01f0/R/tidy-upkeep.R?rgh-link-date=2022-03-04T14%3A53%3A56Z#L31) that is worth a read (example in the [tidymodels package repository](https://github.com/tidymodels/recipes/issues/922)).
 Some items are specific to tidyverse-affiliated packages, but not all of them.
 Others have equivalent e.g. you could run `desc::desc_normalize()` instead of `usethis::use_tidy_description()`.
 How many boxes could you already check, how many could you check in a short time for packages of yours? :wink:
@@ -174,7 +178,7 @@ On a more meta level, the idea of checklists in issues like with `usethis::use_r
 One of the items in the aforementioned checklist is `usethis::use_roxygen_md()` for switching to use Markdown in roxygen2 docs.
 Much easier for adding bold text, code, etc.
 
-Another good thing to know is that the roxygen2 pkgdown website has guidance on [repeating yourself](https://roxygen2.r-lib.org/articles/rd.html#do-repeat-yourself-1) in your docs (["Every page is page one"](https://www.writethedocs.org/blog/newsletter-april-2020/#book-club-an-intro-to-every-page-is-page-one)! Or, as written in our [packaging guide](https://devguide.ropensci.org/building.html), "the principle of multiple points of entry i.e. to take into account the fact that any piece of documentation may be the first encounter the user has with the package and/or the tool/data it wraps.").
+Another good thing to know is that the roxygen2 pkgdown website has guidance on [repeating yourself](https://roxygen2.r-lib.org/articles/rd.html#do-repeat-yourself) in your docs (["Every page is page one"](https://www.writethedocs.org/blog/newsletter-april-2020/#book-club-an-intro-to-every-page-is-page-one)! Or, as written in our [packaging guide](https://devguide.ropensci.org/building.html), "the principle of multiple points of entry i.e. to take into account the fact that any piece of documentation may be the first encounter the user has with the package and/or the tool/data it wraps.").
 See also the blog post ["Reuse Rmd fragments in package vignettes, README, blog posts and more"](https://www.garrickadenbuie.com/blog/dry-vignette-and-readme/) by Garrick Aden-Buie.
 
 Lastly, do you know about katex by Jeroen Ooms for [displaying math in R documentation](https://docs.ropensci.org/katex/reference/math_to_rd.html)?

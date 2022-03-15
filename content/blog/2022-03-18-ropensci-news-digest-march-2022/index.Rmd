@@ -154,7 +154,7 @@ new <- dplyr::filter(
 
 The following `r if(nrow(new)>1) english(nrow(new))` package`r if(nrow(new)>1) "s"` recently became a part of our software suite:
 
-```{r, results='asis', cache = TRUE, eval=FALSE}
+```{r, results='asis', cache = TRUE, eval=TRUE}
 packages <- split(new, seq(nrow(new)))
 present_one <- function(package) {
   url_parts <- urltools::url_parse(package$url)
@@ -526,7 +526,7 @@ usecases <- dplyr::filter(usecases, date >= as.Date(last_newsletter))
 usecases <- split(usecases, seq(nrow(usecases)))
 ```
 
-`r snakecase::to_sentence_case(english(length(usecases)))` use cases of our packages and resources have been reported since we sent the last newsletter.
+`r snakecase::to_sentence_case(english(length(usecases)))` use case`r if (length(usecases) > 1) "s"` of our packages and resources ha`r if (length(usecases) > 1) "ve" else "s"` been reported since we sent the last newsletter.
 
 ```{r usecases2, results='asis'}
 format_case <- function(usecase) {
@@ -544,7 +544,7 @@ Explore [other use cases](/usecases) and [report your own](https://discuss.ropen
 
 ## Call for maintainers
 
-The rrricanes package is looking for a new maintainer!
+The [rrricanes package](https://docs.ropensci.org/rrricanes/) is looking for a new maintainer!
 rrricanes is a web scraper for Atlantic and east Pacific hurricanes and tropical storms.
 See [the corresponding GitHub issue](https://github.com/ropensci/rrricanes/issues/127).
 
@@ -557,9 +557,9 @@ You can refer to:
 
 Some useful tips for R package developers. :eyes:
 
-### Get inspired by the tidyverse spring cleaning?
+### Get inspired by the tidyverse spring cleaning
 
-The tidyverse packages have been undergoing spring cleaning helped by a [public checklist](https://github.com/r-lib/usethis/blob/19c9e5e43ab430ca0ff3e3075b43b869270e01f0/R/tidy-upkeep.R?rgh-link-date=2022-03-04T14%3A53%3A56Z#L31) that is worth a read.
+The tidyverse packages have been undergoing spring cleaning helped by a [public checklist](https://github.com/r-lib/usethis/blob/19c9e5e43ab430ca0ff3e3075b43b869270e01f0/R/tidy-upkeep.R?rgh-link-date=2022-03-04T14%3A53%3A56Z#L31) that is worth a read (example in the [tidymodels package repository](https://github.com/tidymodels/recipes/issues/922)).
 Some items are specific to tidyverse-affiliated packages, but not all of them.
 Others have equivalent e.g. you could run `desc::desc_normalize()` instead of `usethis::use_tidy_description()`.
 How many boxes could you already check, how many could you check in a short time for packages of yours? :wink:
@@ -571,7 +571,7 @@ On a more meta level, the idea of checklists in issues like with `usethis::use_r
 One of the items in the aforementioned checklist is `usethis::use_roxygen_md()` for switching to use Markdown in roxygen2 docs.
 Much easier for adding bold text, code, etc.
 
-Another good thing to know is that the roxygen2 pkgdown website has guidance on [repeating yourself](https://roxygen2.r-lib.org/articles/rd.html#do-repeat-yourself-1) in your docs (["Every page is page one"](https://www.writethedocs.org/blog/newsletter-april-2020/#book-club-an-intro-to-every-page-is-page-one)! Or, as written in our [packaging guide](https://devguide.ropensci.org/building.html), "the principle of multiple points of entry i.e. to take into account the fact that any piece of documentation may be the first encounter the user has with the package and/or the tool/data it wraps.").
+Another good thing to know is that the roxygen2 pkgdown website has guidance on [repeating yourself](https://roxygen2.r-lib.org/articles/rd.html#do-repeat-yourself) in your docs (["Every page is page one"](https://www.writethedocs.org/blog/newsletter-april-2020/#book-club-an-intro-to-every-page-is-page-one)! Or, as written in our [packaging guide](https://devguide.ropensci.org/building.html), "the principle of multiple points of entry i.e. to take into account the fact that any piece of documentation may be the first encounter the user has with the package and/or the tool/data it wraps.").
 See also the blog post ["Reuse Rmd fragments in package vignettes, README, blog posts and more"](https://www.garrickadenbuie.com/blog/dry-vignette-and-readme/) by Garrick Aden-Buie.
 
 Lastly, do you know about katex by Jeroen Ooms for [displaying math in R documentation](https://docs.ropensci.org/katex/reference/math_to_rd.html)?

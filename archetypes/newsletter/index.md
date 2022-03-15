@@ -500,7 +500,7 @@ usecases <- dplyr::filter(usecases, date >= as.Date(last_newsletter))
 usecases <- split(usecases, seq(nrow(usecases)))
 ```
 
-`r snakecase::to_sentence_case(english(length(usecases)))` use cases of our packages and resources have been reported since we sent the last newsletter.
+`r snakecase::to_sentence_case(english(length(usecases)))` use case`r if (length(usecases) > 1) "s"` of our packages and resources ha`r if (length(usecases) > 1) "ve" else "s"` been reported since we sent the last newsletter.
 
 ```{r usecases2, results='asis'}
 format_case <- function(usecase) {
