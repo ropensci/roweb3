@@ -162,7 +162,7 @@ As a bonus one could imagine using the archives for analyses over one or a few G
 
 In summary we'd recommend balancing trust with security when choosing what rights to given to indidivual organization members (what role for this person? what "base permission" for all organization members?).
 We also recommend promoting two-factor authentication (2FA) as well as the use of password managers.
-Lastly, we suggest regularly backing up GitHub repositories via using GitHub V3 API migration endpoint.
+Lastly, we suggest regularly backing up GitHub repositories via using GitHub V3 API migration endpoint and a cloud storage service.
 
 What are your own safeguards? Maybe you use a self-hosted GitLab instance and have more control?
 In any case, we welcome comments below!
