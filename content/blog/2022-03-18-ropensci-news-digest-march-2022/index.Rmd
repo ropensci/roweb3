@@ -7,7 +7,7 @@ slug: ropensci-news-digest-march-2022
 categories: []
 tags:
   - newsletter
-description: keywords from the content
+description: R-universe landing page with search, co-working, new packages and package news
 output:
   html_document:
     keep_md: yes
@@ -51,16 +51,6 @@ The landing page for rOpenSci's [R-universe](https://r-universe.dev) platform ha
 {{< figure src="landing.jpeg" alt="New R-universe landing page. There is a search bar. Below it are the logos of organizations. Above it is an animated rocket icon." >}}
 
 Give it a try at [https://r-universe.dev](https://r-universe.dev)!
-
-### rOpenSci is hiring its next Community Manager!
-
-* Come be part of making our great community even better;
-
-* Help start a new program promoting diverse leadership in open source;
-
-* Join a remote, flexible, global, friendly community and team!
-
-More details [in the job ad](/careers/community-manager-2022/).
 
 ### Next coworking sessions
 
