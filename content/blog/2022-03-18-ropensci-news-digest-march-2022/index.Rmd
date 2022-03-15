@@ -44,9 +44,9 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-### r-universe gets advanced search!
+### R-universe gets advanced search!
 
-The landing page for rOpenSci's [r-universe](https://r-universe.dev) platform has gotten a makeover to facilitate easy searching through thousands of available R packages and articles. Discover new content by searching for keywords in package descriptions, authors, topics, vignettes, etc.
+The landing page for rOpenSci's [R-universe](https://r-universe.dev) platform has gotten a makeover to facilitate easy searching through thousands of available R packages and articles. Discover new content by searching for keywords in package descriptions, authors, topics, vignettes, etc.
 
 {{< tweet user="opencpu" id="1502788402286108675" >}}
 
