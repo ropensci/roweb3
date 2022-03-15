@@ -11,7 +11,7 @@ package_version: 0.1.0
 description: Some practical steps we've taken to safeguard our GitHub organizations.
 ---
 
-At rOpenSci, much of our code, content and infrastructure is hosted on GitHub over several organizations described on our resources page.
+At rOpenSci, much of our code, content and infrastructure is hosted on GitHub over several organizations -- described on our [resources page](/resources/).
 In this post, we shall summarize some steps we've taken to safeguard our GitHub organizations.
 
 ## Paying attention to access rights & individual security setup
@@ -42,6 +42,7 @@ So there are two log-in things, the password and the temporary code: these are t
 If the device with the app is unavailable (imagine your dog steals it :crying_cat:), then the user needs to enter a recovery code that had been given by GitHub when the user enabled 2FA (hopefully the recovery codes also live in the password manager).
 
 Note that when using a password manager, it's useful to back up the password database.
+Some 2FA apps will also offer some sort of cloud synchronization so you could e.g. more easily change phones.
 
 ### Organization members
 
