@@ -14,7 +14,7 @@ description: Some practical steps we've taken to safeguard our GitHub organizati
 At rOpenSci, much of our code, content and infrastructure is hosted on GitHub over several organizations described on our resources page.
 In this post, we shall summarize some steps we've taken to safeguard our GitHub organizations.
 
-## Paying attention to access rights
+## Paying attention to access rights & individual security setup
 
 GitHub defines several possible [roles for organizations](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization).
 The principal ones are:
@@ -54,5 +54,74 @@ We make sure maintainers of packages have admin rights on their repositories, as
 We also encourage members to enable 2FA for their account, via a [note in our development guide](https://devguide.ropensci.org/package-development-security-best-practices.html#miscellaneous).
 If you're reading this and haven't enabled 2FA for your GitHub account yet, take the time to do it. :wink:
 
-
 ## GitHub backups
+
+Despite the aforementioned safeguards, something could still go wrong.
+How to limit the consequences of a GitHub disaster?
+
+### Pushing to several remotes
+
+One strategy to not lose the content of git repos is to push to several remotes.
+
+### Backing up entire repositories (issues included!)
+
+GitHub docs themselves mention ["To download an archive of your repository, you can use the API for user or organization migrations."](https://docs.github.com/en/repositories/archiving-a-github-repository/backing-up-a-repository).
+The archives in question contains both the git repo (so, your code) but also issues and PRs as JSON data.
+
+#### Listing repositories to back-up
+
+
+#### Creating and collecting repo archives
+
+We've found that it's best to launch one migration per repository e.g.
+
+```r
+magick_migration <- gh::gh(
+  "POST /orgs/{org}/migrations",
+  org = "ropensci",
+  repositories = as.list("magick")
+)
+```
+
+as opposed to creating one gigantic migration archive per organization.
+
+This code snippet launches the creation of the GitHub archive. 
+After waiting a bit one can inquire about its status, and once it's exported, download the archive.
+```r
+migration_url <- migration[["url"]]
+repo <- "ropensci_magick"
+
+status <- gh::gh(migration_url)
+ok <- (status$state == "exported")
+while (!ok) {
+  Sys.sleep(60)
+  status <- gh::gh(migration_url)
+  ok <- (status$state == "exported")
+}
+# Download
+handle <- curl::handle_setheaders(
+  curl::new_handle(followlocation = FALSE), 
+  "Authorization" = paste("token", Sys.getenv("GITHUB_PAT")),
+  "Accept" = "application/vnd.github.v3+json"
+)
+
+url <- sprintf("%s/archive", migration_url)
+req <- curl::curl_fetch_memory(url, handle = handle)
+headers <- curl::parse_headers_list(req$headers)
+final_url <- headers$location
+archive_folder <- sprintf("archive-%s", repo)
+fs::dir_create(archive_folder)
+curl::curl_download(
+  final_url, 
+  file.path(archive_folder, sprintf("%s_migration_archive.tar.gz", repo))
+)
+```
+
+Above we downloaded each repo archive in a specific folder e.g. `archive-ropensci_magick/ropensci_magick_migration_archive.tar.gz` as it was the file structure that worked best with the S3 storage we then uploaded the archive to.
+
+
+## Conclusion
+
+In summary we'd recommend balancing trust with security when choosing what rights to given to indidivual organization members (what role for this person? what "base permission" for all organization members?).
+We also recommend promoting two-factor authentication (2FA) (as well as the use of password managers).
+Lastly, we suggest regularly backing up GitHub repositories via using GitHub V3 API migration endpoint.
