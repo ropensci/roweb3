@@ -93,7 +93,7 @@ ncbi_snp_query("rs420358")
 
 We have now changed two things:
 
-1. The `maf_population` column in the `ncbi_snp_query()` output contains all reported allele frequencies, not only from one study or population (the `maf` column stays the same).
+1. `ncbi_snp_query()` output now includes a new `maf_population` column which contains all reported allele frequencies, not only from one study or population (for backwards compatibility, the `maf` column stays the same).
 2. To do that, `ncbi_snp_query()` returns now a tibble (and not a data frame). 
 
 
