@@ -121,7 +121,7 @@ library(rsnps)
 
 Here is a visual to show how much the allele frequencies vary per SNP. 
 
-First, we **flatten** the data frame, so that each SNP and population/study are on **one line**. 
+First, we **lengthen** the data frame, so that each SNP and population/study are on a **separate line**. 
 ```{r maf}
 (dat_maf <- dat %>% select(query, maf_population) %>% unnest(cols = c(maf_population)))
 ```
