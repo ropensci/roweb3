@@ -99,7 +99,7 @@ We have now changed two things:
 
 ## Examples
 
-Let's have a look at the output of the two SNPs mentioned above. You can see that `dat` is a) a tibble and b) that the column `maf_population` is a list.
+Let's have a look at the output of the two SNPs mentioned above. You can see that a) `maf_population` is a new list-column (`<list>`), and b) `dat` is a tibble.
 
 
 ```{r setupexample, include=FALSE}
