@@ -76,7 +76,7 @@ The [NEWS](https://github.com/ropensci/rsnps/blob/master/NEWS.md) file will tell
 
 `ncbi_snp_query()` is the function that pulls data from [NCBI's](https://www.ncbi.nlm.nih.gov/) [dbSNP](https://www.ncbi.nlm.nih.gov/snp/), a database of single-nucleotide polymorphisms (SNP). This database lets a user query for a SNP of interest and returns a plethora of information, among them genomic position, associated gene, clinical significance, and - relevant for this blogpost - the allele frequency. The allele frequency varies typically between different populations, sometimes just a little (e.g. [rs562556](https://www.ncbi.nlm.nih.gov/snp/rs562556#frequency_tab)), sometimes a lot (e.g. [rs11677783](https://www.ncbi.nlm.nih.gov/snp/rs11677783#frequency_tab)). This is why [dbSNP](https://www.ncbi.nlm.nih.gov/snp/) collects allele frequency estimates from different studies and populations.
 
-Until version 0.4.0 `ncbi_snp_query()` reported the allele frequnecy estimated from [gnomAD](https://gnomad.broadinstitute.org/). For example, for SNP `rs420358` the `ncbi_snp_query()` output used to look like this:
+Until version 0.4.0 `ncbi_snp_query()` reported the allele frequency estimated from [gnomAD](https://gnomad.broadinstitute.org/). For example, for SNP `rs420358` the `ncbi_snp_query()` output used to look like this:
 
 ```r
 ncbi_snp_query("rs420358")
