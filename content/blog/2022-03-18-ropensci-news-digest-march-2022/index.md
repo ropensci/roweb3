@@ -7,7 +7,7 @@ slug: ropensci-news-digest-march-2022
 categories: []
 tags:
   - newsletter
-description: R-universe landing page with search, co-working
+description: R-universe landing page with search, co-working, new packages and package news
 output:
   html_document:
     keep_md: yes
@@ -39,12 +39,15 @@ Join us for social coworking & office hours monthly on 1st Tuesdays! Hosted by S
 
 Our next sessions are:
 
-* [Tuesday, 05 April 2022 9 AM Australian Western / 1:00 UTC ](/events/coworking-2022-04/) "Making figures sparkle" *Hosted by [Steffi LaZerte](/author/steffi-lazerte/) and [Nick Tierney](/author/nicholas-tierney/)*
+* [Tuesday, 05 April 2022 9 AM Australian Western / 1:00 UTC ](/events/coworking-2022-04/) "Making figures sparkle" *Hosted by [Nick Tierney](/author/nicholas-tierney/) and [Steffi LaZerte](/author/steffi-lazerte/)*
   * Cowork on a project of your choice;
   * Work on some figures to make them glitter;
   * Or ask our community host, Nick Tierney (author of data visualization packages including rOpenSci package [visdat](https://docs.ropensci.org/visdat/)) for some tips to make your figures sparkle!
   
-* [Tuesday, 03 May 2022 9 AM North American Pacific / 16:00 UTC](https://ropensci.org/events/coworking-2022-05/).
+* [Tuesday, 03 May 2022 9 AM North American Pacific / 16:00 UTC](/events/coworking-2022-05/) "Why be a reviewer of R packages?" *Hosted by a community host (TBA) and [Steffi LaZerte](/author/steffi-lazerte/)*
+  * Cowork on a project of your choice;
+  * Prepare an R package for rOpenSci software review, work on reviewer comments, or review a package;
+  * Or ask our community host (TBA) what it's like to review packages!
 
 Find out about more [events](/events).
 
@@ -55,9 +58,13 @@ Find out about more [events](/events).
 
 
 
-The following two packages recently became a part of our software suite:
+The following four packages recently became a part of our software suite:
 
 + [commonmark](https://docs.ropensci.org/commonmark), developed by Jeroen Ooms: The CommonMark specification defines a rationalized version of markdown syntax. This package uses the cmark reference implementation for converting markdown text into various formats including html, latex and groff man. In addition it exposes the markdown parse tree in xml format. Also includes opt-in support for GFM extensions including tables, autolinks, and strikethrough text.  It is available on [CRAN]( https://CRAN.R-project.org/package=commonmark). 
+
++ [gendercoder](https://docs.ropensci.org/gendercoder), developed by Emily Kothe together with Jennifer Beaudry, Felix Singleton Thorn, Rhydwyn McGuire, Nicholas Tierney, and Mathew Ling: Provides functions and dictionaries for recoding of freetext gender responses into more consistent categories. It has been [reviewed](https://github.com/ropensci/software-review/issues/435) by Julia Silge, and Elin Waring.
+
++ [occCite](https://docs.ropensci.org/occCite), developed by Hannah L. Owens together with Cory Merow, Brian Maitner, Jamie M. Kass, Vijay Barve, and Robert P. Guralnick: Facilitates the gathering of biodiversity occurrence data from disparate sources. Metadata is managed throughout the process to facilitate reporting and enhanced ability to repeat analyses.  It is available on [CRAN]( https://CRAN.R-project.org/package=occCite). It has been [reviewed](https://github.com/ropensci/software-review/issues/407) by Damiano Oldoni.
 
 + [universe](https://docs.ropensci.org/universe), developed by Jeroen Ooms: Utilities to interact with the R-universe platform. Includes functions to manage local package repositories, as well as API wrappers for retrieving data and metadata about packages in r-universe. 
 
@@ -67,7 +74,7 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following six packages have had an update since the last newsletter: [commonmark](https://docs.ropensci.org/commonmark "High Performance CommonMark and Github Markdown Rendering in R") ([`v1.8.0`](https://github.com/r-lib/commonmark/releases/tag/v1.8.0)), [biomartr](https://docs.ropensci.org/biomartr "Genomic Data Retrieval") ([`v1.0.2`](https://github.com/ropensci/biomartr/releases/tag/v1.0.2)), [jqr](https://docs.ropensci.org/jqr "Client for jq, a JSON Processor") ([`v1.2.3`](https://github.com/ropensci/jqr/releases/tag/v1.2.3)), [nasapower](https://docs.ropensci.org/nasapower "NASA POWER API Client") ([`v4.0.6`](https://github.com/ropensci/nasapower/releases/tag/v4.0.6)), [rsnps](https://docs.ropensci.org/rsnps "Get SNP (Single-Nucleotide Polymorphism) Data on the Web") ([`v0.5.0`](https://github.com/ropensci/rsnps/releases/tag/v0.5.0)), and [tic](https://docs.ropensci.org/tic "CI-Agnostic Workflow Definitions") ([`v0.12.0`](https://github.com/ropensci/tic/releases/tag/v0.12.0)).
+The following ten packages have had an update since the last newsletter: [commonmark](https://docs.ropensci.org/commonmark "High Performance CommonMark and Github Markdown Rendering in R") ([`v1.8.0`](https://github.com/r-lib/commonmark/releases/tag/v1.8.0)), [biomartr](https://docs.ropensci.org/biomartr "Genomic Data Retrieval") ([`v1.0.2`](https://github.com/ropensci/biomartr/releases/tag/v1.0.2)), [git2r](https://docs.ropensci.org/git2r "Provides Access to Git Repositories") ([`v0.30.1`](https://github.com/ropensci/git2r/releases/tag/v0.30.1)), [jqr](https://docs.ropensci.org/jqr "Client for jq, a JSON Processor") ([`v1.2.3`](https://github.com/ropensci/jqr/releases/tag/v1.2.3)), [nasapower](https://docs.ropensci.org/nasapower "NASA POWER API Client") ([`v4.0.6`](https://github.com/ropensci/nasapower/releases/tag/v4.0.6)), [occCite](https://docs.ropensci.org/occCite "Querying and Managing Large Biodiversity Occurrence Datasets") ([`v0.5.2`](https://github.com/ropensci/occCite/releases/tag/v0.5.2)), [rsnps](https://docs.ropensci.org/rsnps "Get SNP (Single-Nucleotide Polymorphism) Data on the Web") ([`v0.5.0`](https://github.com/ropensci/rsnps/releases/tag/v0.5.0)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.5.0`](https://github.com/ropensci/tarchetypes/releases/tag/0.5.0)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Workflows") ([`0.11.0`](https://github.com/ropensci/targets/releases/tag/0.11.0)), and [tic](https://docs.ropensci.org/tic "CI-Agnostic Workflow Definitions") ([`v0.12.0`](https://github.com/ropensci/tic/releases/tag/v0.12.0)).
 
 ## Software Peer Review
 
