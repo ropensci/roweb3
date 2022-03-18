@@ -1,17 +1,18 @@
 ---
-slug: "post-template"
-title: Latest rOpenSci News Digest
+title: rOpenSci News Digest, March 2022
 author:
   - The rOpenSci Team
-date: '2022-01-16'
+date: '2022-03-18'
+slug: ropensci-news-digest-march-2022
+categories: []
 tags:
   - newsletter
-description: keywords from the content
+description: R-universe landing page with search, co-working, new packages and package news
 output:
   html_document:
     keep_md: yes
 params:
-  last_newsletter: "2021-11-30"
+  last_newsletter: '2022-02-18'
 ---
 
 ```{r setup, include=FALSE}
@@ -43,11 +44,29 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-<!-- to be curated manually -->
+### R-universe gets advanced search!
 
-<!-- Can use same coworking text every month and ping Steffi to ask if there are any special guests to add -->
-Join us for social coworking & office hours monthly on 1st Tuesdays! Hosted by Steffi LaZerte  and various community hosts. Everyone welcome. No RSVP needed. Consult our [Events](/events) page to find your local time and how to join.
+The landing page for rOpenSci's [R-universe](https://r-universe.dev) platform has gotten a makeover to facilitate easy searching through thousands of available R packages and articles. Discover new content by searching for keywords in package descriptions, authors, topics, vignettes, etc.
 
+{{< figure src="landing.jpeg" alt="New R-universe landing page. There is a search bar. Below it are the logos of organizations. Above it is an animated rocket icon." >}}
+
+Give it a try at [https://r-universe.dev](https://r-universe.dev)!
+
+### Next coworking sessions
+
+Join us for social coworking & office hours monthly on first Tuesdays! Hosted by Steffi LaZerte and various community hosts. Everyone welcome. No RSVP needed. Consult our [Events](/events) page to find your local time and how to join.
+
+Our next sessions are:
+
+* [Tuesday, 05 April 2022 9 AM Australian Western / 1:00 UTC ](/events/coworking-2022-04/) "Making figures sparkle" *Hosted by [Nick Tierney](/author/nicholas-tierney/) and [Steffi LaZerte](/author/steffi-lazerte/)*
+  * Cowork on a project of your choice;
+  * Work on some figures to make them glitter;
+  * Or ask our community host, Nick Tierney (author of data visualization packages including rOpenSci package [visdat](https://docs.ropensci.org/visdat/)) for some tips to make your figures sparkle!
+  
+* [Tuesday, 03 May 2022 9 AM North American Pacific / 16:00 UTC](/events/coworking-2022-05/) "Why be a reviewer of R packages?" *Hosted by a community host (TBA) and [Steffi LaZerte](/author/steffi-lazerte/)*
+  * Cowork on a project of your choice;
+  * Prepare an R package for rOpenSci software review, work on reviewer comments, or review a package;
+  * Or ask our community host (TBA) what it's like to review packages!
 
 Find out about more [events](/events).
 
@@ -128,7 +147,7 @@ new <- dplyr::filter(
 
 The following `r if(nrow(new)>1) english(nrow(new))` package`r if(nrow(new)>1) "s"` recently became a part of our software suite:
 
-```{r, results='asis', cache = TRUE}
+```{r, results='asis', cache = TRUE, eval=TRUE}
 packages <- split(new, seq(nrow(new)))
 present_one <- function(package) {
   url_parts <- urltools::url_parse(package$url)
@@ -184,6 +203,9 @@ present_one <- function(package) {
         package$package
       )
     )
+  }
+  if (package$package == "gendercoder") {
+    package$onboarding <- "https://github.com/ropensci/software-review/issues/435"
   }
   if (nzchar(package$onboarding)) {
     string <- paste0(string, sprintf("It has been [reviewed](%s)", package$onboarding))
@@ -441,7 +463,7 @@ format_post <- function(post) {
 }
 ```
 
-```{r, results='asis'}
+```{r, results='asis', eval=FALSE}
 software_review <- posts[purrr::map_lgl(posts, "software_peer_review")]
 if (length(software_review) > 0) {
   cat("### Software Review\n\n")
@@ -518,19 +540,45 @@ Explore [other use cases](/usecases) and [report your own](https://discuss.ropen
 
 ## Call for maintainers
 
-<!--IF CALL
+The [rrricanes package](https://docs.ropensci.org/rrricanes/) is looking for a new maintainer!
+rrricanes is a web scraper for Atlantic and east Pacific hurricanes and tropical storms.
+See [the corresponding GitHub issue](https://github.com/ropensci/rrricanes/issues/127).
+
+You can refer to:
+
 * [our guidance on _Changing package maintainers_](https://devguide.ropensci.org/changing-maintainers.html)
 * [our _Package Curation Policy_](https://devguide.ropensci.org/curationpolicy.html)
-
-IF NO CALL
-There are no open calls for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
-As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. -->
 
 ## Package development corner
 
 Some useful tips for R package developers. :eyes:
 
-<!-- To be curated by hand -->
+### Get inspired by the tidyverse spring cleaning
+
+The tidyverse packages have been undergoing spring cleaning helped by a [public checklist](https://github.com/r-lib/usethis/blob/19c9e5e43ab430ca0ff3e3075b43b869270e01f0/R/tidy-upkeep.R?rgh-link-date=2022-03-04T14%3A53%3A56Z#L31) that is worth a read (example in the [tidymodels package repository](https://github.com/tidymodels/recipes/issues/922)).
+Some items are specific to tidyverse-affiliated packages, but not all of them.
+Others have equivalent e.g. you could run `desc::desc_normalize()` instead of `usethis::use_tidy_description()`.
+How many boxes could you already check, how many could you check in a short time for packages of yours? :wink:
+
+On a more meta level, the idea of checklists in issues like with `usethis::use_release_issue()` is quite neat and generalizable.
+
+### roxygen2 tips
+
+One of the items in the aforementioned checklist is `usethis::use_roxygen_md()` for switching to use Markdown in roxygen2 docs.
+Much easier for adding bold text, code, etc.
+
+Another good thing to know is that the roxygen2 pkgdown website has guidance on [repeating yourself](https://roxygen2.r-lib.org/articles/rd.html#do-repeat-yourself) in your docs (["Every page is page one"](https://www.writethedocs.org/blog/newsletter-april-2020/#book-club-an-intro-to-every-page-is-page-one)! Or, as written in our [packaging guide](https://devguide.ropensci.org/building.html), "the principle of multiple points of entry i.e. to take into account the fact that any piece of documentation may be the first encounter the user has with the package and/or the tool/data it wraps.").
+See also the blog post ["Reuse Rmd fragments in package vignettes, README, blog posts and more"](https://www.garrickadenbuie.com/blog/dry-vignette-and-readme/) by Garrick Aden-Buie.
+
+Lastly, do you know about katex by Jeroen Ooms for [displaying math in R documentation](https://docs.ropensci.org/katex/reference/math_to_rd.html)?
+
+### Alternatives/complements to pkgdown for package docs?
+
+Documentation websites for rOpenSci packages are happily built with pkgdown.
+However depending on your preferences or needs (e.g. what if you want to integrate the docs of your R packages with docs of other non R elements of your pipeline) you might like:
+
+* [r2readthedocs](https://docs.ropensci.org/r2readthedocs/) by Mark Padgham to convert R package documentation to a ‘readthedocs’ website. It is used for documenting [rOpenSci review tools](https://readthedocs.org/projects/ropensci-review-tools/).
+* [altdoc](https://altdoc.etiennebacher.com/#/) by Etienne Bacher, that provides helper functions to use docute, docsify, and mkdocs. 
 
 ## Last words
 
