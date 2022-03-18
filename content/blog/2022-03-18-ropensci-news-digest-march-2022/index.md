@@ -128,12 +128,6 @@ There are seventeen recently closed and active submissions and 4 submissions on 
 
 Find out more about [Software Peer Review](/software-review) and how to get involved.
 
-## On the blog
-
-<!-- Do not forget to rebase your branch! -->
-
-
-
 
 
 ## Use cases
