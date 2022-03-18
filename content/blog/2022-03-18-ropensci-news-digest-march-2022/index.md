@@ -35,7 +35,7 @@ Give it a try at [https://r-universe.dev](https://r-universe.dev)!
 
 ### Next coworking sessions
 
-Join us for social coworking & office hours monthly on 1st Tuesdays! Hosted by Steffi LaZerte and various community hosts. Everyone welcome. No RSVP needed. Consult our [Events](/events) page to find your local time and how to join.
+Join us for social coworking & office hours monthly on first Tuesdays! Hosted by Steffi LaZerte and various community hosts. Everyone welcome. No RSVP needed. Consult our [Events](/events) page to find your local time and how to join.
 
 Our next sessions are:
 
