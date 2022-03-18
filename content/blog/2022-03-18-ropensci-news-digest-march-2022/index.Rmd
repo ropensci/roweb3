@@ -58,7 +58,7 @@ Join us for social coworking & office hours monthly on 1st Tuesdays! Hosted by S
 
 Our next sessions are:
 
-* [Tuesday, 05 April 2022 9 AM Australian Western / 1:00 UTC ](/events/coworking-2022-04/) "Making figures sparkle" *Hosted by [Steffi LaZerte](/author/steffi-lazerte/) and [Nick Tierney](/author/nicholas-tierney/)*
+* [Tuesday, 05 April 2022 9 AM Australian Western / 1:00 UTC ](/events/coworking-2022-04/) "Making figures sparkle" *Hosted by [Nick Tierney](/author/nicholas-tierney/) and [Steffi LaZerte](/author/steffi-lazerte/)*
   * Cowork on a project of your choice;
   * Work on some figures to make them glitter;
   * Or ask our community host, Nick Tierney (author of data visualization packages including rOpenSci package [visdat](https://docs.ropensci.org/visdat/)) for some tips to make your figures sparkle!
