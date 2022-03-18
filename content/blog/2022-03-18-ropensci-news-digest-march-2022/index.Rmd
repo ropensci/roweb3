@@ -63,7 +63,10 @@ Our next sessions are:
   * Work on some figures to make them glitter;
   * Or ask our community host, Nick Tierney (author of data visualization packages including rOpenSci package [visdat](https://docs.ropensci.org/visdat/)) for some tips to make your figures sparkle!
   
-* [Tuesday, 03 May 2022 9 AM North American Pacific / 16:00 UTC](https://ropensci.org/events/coworking-2022-05/).
+* [Tuesday, 03 May 2022 9 AM North American Pacific / 16:00 UTC](/events/coworking-2022-05/) "Why be a reviewer of R packages?" *Hosted by TBA and [Steffi LaZerte](/author/steffi-lazerte/)*
+  * Cowork on a project of your choice;
+  * Prepare an R package for rOpenSci software review, work on reviewer comments, or review a package;
+  * Or ask our community host (TBA) what it's like to review packages!
 
 Find out about more [events](/events).
 
