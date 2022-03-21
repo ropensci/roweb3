@@ -23,26 +23,35 @@ The principal ones are:
 - _Organization members_ who only have basic rights and access to specific repositories (more on that later!);
 - _Outside collaborators_ who only have access to specific repositories.
 
-To decide what role to give someone we use the [**principle of least privilege**](https://en.wikipedia.org/wiki/Principle_of_least_privilege) -- obviously balanced with trust.
+To decide what role to give someone we use the [**principle of least privilege**](https://en.wikipedia.org/wiki/Principle_of_least_privilege) -- obviously balanced with trust... and some consideration of the bus factor.
+We want everyone to be able to do their job (e.g. accessing all repo settings), to not have only one person able to perform something (in case of vacation and other vacancy reasons), but we don't want to uselessly have too many organization owners.
 
-Note that there are not as many fine-tuning possibilities of access rights to repositories hosted in individual accounts.
+Note that there are [not as many fine-tuning possibilities of access rights](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories) to repositories hosted in individual accounts.
+This might be taken into account if you're on the fence about creating a GitHub organization to host a package repository.
 
 ### Organization owners
 
 We make sure all organization owners have enabled [two-factor authentication (2FA) for their GitHub Account](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication).
 
-Making sure someone has enabled 2FA means asking but also answering questions!
+Making sure someone has enabled 2FA means asking but also answering questions from those not familiar with 2FA yet!
 
 
 #### Short two-factor authentication (2FA) primer
 
-Once 2FA has been enabled new log-ins necessitate both a password (hopefully stored in a password manager) and a temporary code produced by an app e.g. Duo Mobile.
+Before any 2FA specific advice, do you use a password manager?
+Is it unlikely someone could gain access to that password manager? (e.g. is it protected by a strong password, is it not left open on a mobile device with no PIN code)
+Is your password database synced up somewhere on the cloud?
+If not, solving those three challenges will also increase the safety of your accounts, and your peace of mind.
+
+Now to 2FA...
+
+Once 2FA has been enabled new log-ins necessitate both a password -- hopefully stored in a password manager-- and a temporary code produced by an app e.g. Duo Mobile.
 So there are two log-in things, the password and the temporary code: these are the two factors!
 
-If the device with the app is unavailable (imagine your dog steals it :crying_cat:), then the user needs to enter a recovery code that had been given by GitHub when the user enabled 2FA (hopefully the recovery codes also live in the password manager).
+If the device with the app is unavailable (imagine your dog steals it :crying_cat:), then the user needs to enter a recovery code that had been given by GitHub when the user enabled 2FA. 
+Hopefully the recovery codes also live in the password manager.
 
-Note that when using a password manager, it's useful to back up the password database.
-Some 2FA apps will also offer some sort of cloud synchronization so you could e.g. more easily change phones.
+Some 2FA apps will offer some sort of cloud synchronization so you could e.g. more easily change phones (e.g. [DuoMobile's "Duo Restore"](https://guide.duo.com/duo-restore)).
 
 ### Organization members
 
@@ -51,6 +60,8 @@ In practice, it means they can [publicize their organization ownership](https://
 
 Now, in our case organization members have [no base permissions](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/setting-base-permissions-for-an-organization).
 Some other organizations might choose to let every organization member have write access to all repositories.
+
+Other member privileges can be [tweaked](https://docs.github.com/en/organizations/managing-organization-settings) (repository creation, issue deletion, etc.).
 
 We add members to repositories via [teams](https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams).
 We make sure maintainers of packages have admin rights on their repositories, as the package, is, well, theirs. 🙂
