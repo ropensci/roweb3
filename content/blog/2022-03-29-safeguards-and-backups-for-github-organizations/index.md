@@ -98,7 +98,7 @@ repos <- gh::gh(
   purrr::map_chr("name")
 ```
 
-However depending on the scope of your Personal Access Token, this might miss private repositories.
+However depending on the scope of your [Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token), this might miss private repositories.
 You could manually list private repositories in e.g. a text file.
 
 By the way, regarding GitHub Personal Access Tokens and R especially with the `gh` package, we recommend
