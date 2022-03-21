@@ -107,7 +107,7 @@ By the way, regarding GitHub Personal Access Tokens and R especially with the `g
 - the [usethis vignette "Managing Git(Hub) Credentials"](https://usethis.r-lib.org/articles/git-credentials.html);
 - [Danielle Navarro's blog post "Managing GitHub credentials from R, difficulty level linux"](https://blog.djnavarro.net/posts/2021-08-08_git-credential-helpers/).
 
-No matter where you run your code that uses a GitHub Personal Access Token, ensure that PAT is safe.
+No matter where you run your code that uses a GitHub Personal Access Token, ensure that PAT is safe (e.g. store it as a GitHub Actions secret, not in clear text in the repository).
 
 #### Creating and collecting repo archives
 
