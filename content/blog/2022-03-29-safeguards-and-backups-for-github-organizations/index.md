@@ -45,7 +45,7 @@ If not, solving those three challenges will also increase the safety of your acc
 
 Now to 2FA...
 
-Once 2FA has been enabled new log-ins necessitate both a password -- hopefully stored in a password manager-- and a temporary code produced by an app e.g. Duo Mobile.
+Once [2FA has been enabled](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication) new log-ins necessitate both a password -- hopefully stored in a password manager-- and a temporary code produced by an app e.g. Duo Mobile.
 So there are two log-in things, the password and the temporary code: these are the two factors!
 
 If the device with the app is unavailable (imagine your dog steals it :crying_cat:), then the user needs to enter a recovery code that had been given by GitHub when the user enabled 2FA. 
@@ -65,7 +65,7 @@ We add members to repositories via [teams](https://docs.github.com/en/organizati
 We make sure maintainers of packages have admin rights on their repositories, as the package, is, well, theirs. 🙂
 
 We also encourage members to enable 2FA for their account, via a [note in our development guide](https://devguide.ropensci.org/package-development-security-best-practices.html#miscellaneous).
-If you're reading this and haven't enabled 2FA for your GitHub account yet, take the time to do it. :wink:
+If you're reading this and haven't enabled 2FA for your GitHub account yet, take the time to [do it](#short-two-factor-authentication-2fa-primer). :wink:
 
 ## GitHub backups
 
