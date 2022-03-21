@@ -59,9 +59,7 @@ We prefer e.g. package regular contributors to be organization members rather th
 In practice, it means they can [publicize their organization ownership](https://docs.github.com/en/enterprise-server@3.2/admin/user-management/managing-organizations-in-your-enterprise/configuring-visibility-for-organization-membership) on their GitHub profile.
 
 Now, in our case organization members have [no base permissions](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/setting-base-permissions-for-an-organization).
-Some other organizations might choose to let every organization member have write access to all repositories.
-
-Other member privileges can be [tweaked](https://docs.github.com/en/organizations/managing-organization-settings) (repository creation, issue deletion, etc.).
+Some other organizations might choose to let every organization member have write access to all repositories. Other member privileges can be [tweaked](https://docs.github.com/en/organizations/managing-organization-settings) (repository creation, issue deletion, etc.).
 
 We add members to repositories via [teams](https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams).
 We make sure maintainers of packages have admin rights on their repositories, as the package, is, well, theirs. 🙂
