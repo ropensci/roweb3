@@ -74,7 +74,8 @@ How to limit the consequences of a GitHub disaster?
 
 ### Pushing to several remotes
 
-One strategy to not lose the content of git repos is to push to several remotes.
+One strategy to not lose the content of git repos is to push to several remotes (say, a GitHub _and_ a GitLab repository).
+It is also great to have a remote to push to when one of them, say GitHub, is down.
 
 ### Backing up entire repositories (issues included!)
 
