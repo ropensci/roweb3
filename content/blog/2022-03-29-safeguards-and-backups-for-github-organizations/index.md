@@ -80,7 +80,8 @@ It is also great to have a remote to push to when one of them, say GitHub, is do
 ### Backing up entire repositories (issues included!)
 
 GitHub docs themselves mention ["To download an archive of your repository, you can use the API for user or organization migrations."](https://docs.github.com/en/repositories/archiving-a-github-repository/backing-up-a-repository).
-The archives in question contains both the git repo (so, your code) but also issues and PRs as JSON data.
+The archives in question contains both the git repo (so, your code) but *also issues and PRs* as JSON data.
+Having a complete repository archive is crucial as a GitHub repository is used to not only store the code but also project management aspects of package maintenance.
 
 #### Listing repositories to back-up
 
