@@ -35,6 +35,8 @@ We make sure all organization owners have enabled [two-factor authentication (2F
 
 Making sure someone has enabled 2FA means asking but also answering questions from those not familiar with 2FA yet!
 
+As an organization owner, one can see whether organization owners and members have enabled 2FA for their account.
+
 
 #### Short two-factor authentication (2FA) primer
 
