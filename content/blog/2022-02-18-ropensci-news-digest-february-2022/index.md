@@ -1,7 +1,7 @@
 ---
 title: rOpenSci News Digest, February 2022
 author:
-  - Maëlle Salmon
+  - The rOpenSci Team
 date: '2022-02-18'
 slug: ropensci-news-digest-february-2022
 categories: []
