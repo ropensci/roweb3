@@ -79,7 +79,7 @@ It is also great to have a remote to push to when one of them, say GitHub, is do
 
 ### Backing up entire repositories (issues included!)
 
-GitHub docs themselves mention ["To download an archive of your repository, you can use the API for user or organization migrations."](https://docs.github.com/en/repositories/archiving-a-github-repository/backing-up-a-repository).
+The GitHub documentation explains that ["To download an archive of your repository, you can use the API for user or organization migrations."](https://docs.github.com/en/repositories/archiving-a-github-repository/backing-up-a-repository).
 The archives in question contains both the git repo (so, your code) but *also issues and PRs* as JSON data.
 Having a complete repository archive is crucial as a GitHub repository is used to not only store the code but also project management aspects of package maintenance.
 
@@ -123,17 +123,21 @@ as opposed to creating one gigantic migration archive per organization.
 
 This code snippet above launches the creation of the GitHub archive. 
 After waiting a bit one can inquire about its status, and once it's exported, download the archive:
+
 ```r
 migration_url <- migration[["url"]]
 repo <- "ropensci_magick"
 
-status <- gh::gh(migration_url)
-ok <- (status$state == "exported")
-while (!ok) {
-  Sys.sleep(60)
+get_migration_state <- function(migration_url) {
   status <- gh::gh(migration_url)
-  ok <- (status$state == "exported")
+  status$state
 }
+
+while (get_migration_state(migration_url) != "exported") {
+  print("Waiting for export to complete...)
+  Sys.sleep(60)
+}
+
 # Download
 handle <- curl::handle_setheaders(
   curl::new_handle(followlocation = FALSE), 
@@ -157,8 +161,8 @@ Above we downloaded each repo archive in a specific folder e.g. `archive-ropensc
 
 ### Saving repository archives
 
-Once all archives are created one should find a place to store them.
-It could e.g. Digital Ocean (one space/bucket for all repo archives of a week) or another cloud storage service.
+To store the backups online, there are several cheap and convenient storage services with an S3 compatible API, such as [Amazon S3](https://blog.djnavarro.net/posts/2022-03-17_using-aws-s3-in-r/) or "Digital Ocean spaces". 
+These services can be interfaced using any S3 client, including R packages such as arrow.
 
 ### Regularly running all these steps
 
