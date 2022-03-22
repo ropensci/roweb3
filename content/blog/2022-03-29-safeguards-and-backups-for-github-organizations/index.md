@@ -67,7 +67,7 @@ We make sure maintainers of packages have admin rights on their repositories, as
 We also encourage members to enable 2FA for their account, via a [note in our development guide](https://devguide.ropensci.org/package-development-security-best-practices.html#miscellaneous).
 If you're reading this and haven't enabled 2FA for your GitHub account yet, take the time to [do it](#short-two-factor-authentication-2fa-primer). :wink:
 
-## GitHub backups
+## Backing up GitHub repositories
 
 Despite the aforementioned safeguards, something could still go wrong: data loss via an accident (deleting an upstream repository instead of a fork, force-pushing when one shouldn't) or a hacked account.
 How to limit the consequences of a GitHub disaster?
