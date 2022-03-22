@@ -45,7 +45,7 @@ If not, solving those three challenges will also increase the safety of your acc
 
 Now to 2FA...
 
-Once [2FA has been enabled](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication) new log-ins necessitate both a password -- hopefully stored in a password manager-- and a temporary code produced by an app like Duo Mobile.
+Once [2FA has been enabled](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication), new log-ins necessitate both a password -- hopefully stored in a password manager-- and a temporary code produced by an app like Duo Mobile.
 So there are two log-in things, the password and the temporary code: these are the two factors!
 
 If the device with the app is unavailable (imagine your dog steals it :crying_cat:), then the user needs to enter a recovery code that had been given by GitHub when the user enabled 2FA. 
@@ -58,7 +58,7 @@ Some 2FA apps will offer some sort of cloud synchronization so you could for exa
 We prefer package regular contributors to be organization members rather than outside collaborators because it's more [welcoming](https://devdevguide.netlify.app/collaboration.html#welcoming-collaborators-to-ropensci).
 In practice, it means they can [publicize their organization membership](https://docs.github.com/en/enterprise-server@3.2/admin/user-management/managing-organizations-in-your-enterprise/configuring-visibility-for-organization-membership) on their GitHub profile.
 
-Now, in our case organization members have [no base permissions](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/setting-base-permissions-for-an-organization).
+Now, in our case, organization members have [no base permissions](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/setting-base-permissions-for-an-organization).
 Other organizations might choose to let every organization member have write access to all repositories. Additional member privileges can be [tweaked](https://docs.github.com/en/organizations/managing-organization-settings) (repository creation, issue deletion, etc.).
 
 We add members to repositories via [GitHub teams](https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams).
@@ -134,7 +134,7 @@ get_migration_state <- function(migration_url) {
 }
 
 while (get_migration_state(migration_url) != "exported") {
-  print("Waiting for export to complete...)
+  print("Waiting for export to complete...")
   Sys.sleep(60)
 }
 
