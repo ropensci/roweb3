@@ -2,7 +2,7 @@
 title: Safeguards and Backups for GitHub Organizations
 author:
   - Maëlle Salmon
-date: '2022-03-29'
+date: '2022-03-22'
 slug: safeguards-and-backups-for-github-organizations
 categories: []
 tags:
@@ -12,7 +12,7 @@ description: Some practical steps we've taken to safeguard our GitHub organizati
 ---
 
 At rOpenSci, much of our code, content and infrastructure is hosted on GitHub over several organizations -- described on our [resources page](/resources/).
-In this post, we shall summarize some steps we've taken to safeguard our GitHub organizations.
+This post summarizes some steps we've taken to safeguard our GitHub organizations.
 
 ## Paying attention to access rights & individual security setup
 
@@ -24,17 +24,15 @@ The principal ones are:
 - _Outside collaborators_ who only have access to specific repositories.
 
 To decide what role to give someone we use the [**principle of least privilege**](https://en.wikipedia.org/wiki/Principle_of_least_privilege) -- obviously balanced with trust... and some consideration of the bus factor.
-We want everyone to be able to do their job (e.g. accessing all repo settings), to not have only one person able to perform something (in case of vacation and other vacancy reasons), but we don't want to uselessly have too many organization owners.
+We want everyone to be able to do their job (e.g. accessing all repo settings), to not have only one person able to perform something (in case of vacation and other vacancy reasons), but not give people unnecessary access to sensitive settings and information.
 
-Note that there are [not as many fine-tuning possibilities of access rights](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories) to repositories hosted in individual accounts.
+Note that GitHub organization repositories have more fine grained access rights than [repositories hosted in individual accounts](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories).
 This might be taken into account if you're on the fence about creating a GitHub organization to host a package repository.
 
 ### Organization owners
 
-We make sure all organization owners have enabled [two-factor authentication (2FA) for their GitHub Account](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication).
-
+We enforce [two-factor authentication (2FA) for their GitHub Account](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication) for all organization owners.
 Making sure someone has enabled 2FA means asking but also answering questions from those not familiar with 2FA yet!
-
 As an organization owner, one can see whether organization owners and members have enabled 2FA for their account.
 
 
@@ -57,13 +55,13 @@ Some 2FA apps will offer some sort of cloud synchronization so you could e.g. mo
 
 ### Organization members
 
-We prefer e.g. package regular contributors to be organization members rather than outside collaborators because it's more [welcoming](https://devguide.ropensci.org/collaboration.html#welcoming-collaborators-to-ropensci).
-In practice, it means they can [publicize their organization ownership](https://docs.github.com/en/enterprise-server@3.2/admin/user-management/managing-organizations-in-your-enterprise/configuring-visibility-for-organization-membership) on their GitHub profile.
+We prefer e.g. package regular contributors to be organization members rather than outside collaborators because it's more [welcoming](https://devdevguide.netlify.app/collaboration.html#welcoming-collaborators-to-ropensci).
+In practice, it means they can [publicize their organization membership](https://docs.github.com/en/enterprise-server@3.2/admin/user-management/managing-organizations-in-your-enterprise/configuring-visibility-for-organization-membership) on their GitHub profile.
 
 Now, in our case organization members have [no base permissions](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/setting-base-permissions-for-an-organization).
-Some other organizations might choose to let every organization member have write access to all repositories. Other member privileges can be [tweaked](https://docs.github.com/en/organizations/managing-organization-settings) (repository creation, issue deletion, etc.).
+Other organizations might choose to let every organization member have write access to all repositories. Additional member privileges can be [tweaked](https://docs.github.com/en/organizations/managing-organization-settings) (repository creation, issue deletion, etc.).
 
-We add members to repositories via [teams](https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams).
+We add members to repositories via [GitHub teams](https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams).
 We make sure maintainers of packages have admin rights on their repositories, as the package, is, well, theirs. 🙂
 
 We also encourage members to enable 2FA for their account, via a [note in our development guide](https://devguide.ropensci.org/package-development-security-best-practices.html#miscellaneous).
@@ -71,7 +69,7 @@ If you're reading this and haven't enabled 2FA for your GitHub account yet, take
 
 ## GitHub backups
 
-Despite the aforementioned safeguards, something could still go wrong.
+Despite the aforementioned safeguards, something could still go wrong: data loss via an accident (deleting an upstream repository instead of a fork, force-pushing when one shouldn't) or a hacked account.
 How to limit the consequences of a GitHub disaster?
 
 ### Pushing to several remotes
