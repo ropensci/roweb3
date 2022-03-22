@@ -53,7 +53,7 @@ Doing a bit of brainstorming on the project ahead of time helped us to set the e
 
 Fast-forward to the first day of the conference! The participants had already suggested ideas ([there were many brilliant ones](https://github.com/ropensci/ozunconf19/issues)) and then voting started for the projects people were excited to be associated with. Little did we know that time there would be more enthusiasts who would be as eager to contribute to this project and learn about ggplot2 internals (very aptly put by Mitch while advertising the project. Smart move mate)! Oh, and what a fun and collaborative team to work with! See how they won’t stop coding:
 
-{{< tweet "1205008586130149376">}}
+{{< tweet user="mitchoharawild" id="1205008586130149376">}}
 
 <!-- [https://twitter.com/mitchoharawild/status/1205008586130149376] (Thanks to Steph who spent a lot of effort in making this gif) -->
 
