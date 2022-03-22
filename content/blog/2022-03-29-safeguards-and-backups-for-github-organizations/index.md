@@ -31,7 +31,7 @@ This might be taken into account if you're on the fence about creating a GitHub 
 
 ### Organization owners
 
-We enforce [two-factor authentication (2FA) for their GitHub Account](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication) for all organization owners.
+We enforce [two-factor authentication (2FA)](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication) for all GitHub organization owners.
 Making sure someone has enabled 2FA means asking but also answering questions from those not familiar with 2FA yet!
 As an organization owner, one can see whether organization owners and members have enabled 2FA for their account.
 
