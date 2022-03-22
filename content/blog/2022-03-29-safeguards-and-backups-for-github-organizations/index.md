@@ -23,7 +23,7 @@ The principal ones are:
 - _Organization members_ who only have basic rights and access to specific repositories (more on that later!);
 - _Outside collaborators_ who only have access to specific repositories.
 
-To decide what role to give someone we use the [**principle of least privilege**](https://en.wikipedia.org/wiki/Principle_of_least_privilege) -- obviously balanced with trust... and some consideration of the bus factor.
+To decide what role to give someone we use the [**principle of least privilege**](https://en.wikipedia.org/wiki/Principle_of_least_privilege) -- obviously balanced with trust... and some consideration of the [bus factor](https://en.wikipedia.org/wiki/Bus_factor).
 We want everyone to be able to do their job (e.g. accessing all repo settings), to not have only one person able to perform something (in case of vacation and other vacancy reasons), but not give people unnecessary access to sensitive settings and information.
 
 Note that GitHub organization repositories have more fine grained access rights than [repositories hosted in individual accounts](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories).
