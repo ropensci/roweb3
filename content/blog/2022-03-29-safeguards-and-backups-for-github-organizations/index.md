@@ -4,9 +4,9 @@ author:
   - Maëlle Salmon
 date: '2022-03-22'
 slug: safeguards-and-backups-for-github-organizations
-categories: []
 tags:
   - tech notes
+  - github
 package_version: 0.1.0
 description: Some practical steps we've taken to safeguard our GitHub organizations.
 ---
