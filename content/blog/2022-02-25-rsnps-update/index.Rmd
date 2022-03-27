@@ -74,7 +74,7 @@ knitr::knit_hooks$set(
 
 ## Changes
 
-The [NEWS](https://github.com/ropensci/rsnps/blob/master/NEWS.md) file will tell you about the changes of rsnps 0.4.0 to 0.5.0, but the most relevant for users we would like to highlight in this blog post. 
+The [NEWS](https://github.com/ropensci/rsnps/blob/master/NEWS.md) file will tell you about the changes of rsnps 0.4.0 to 0.5.0, but there is one change that we think will be particularly relevant to users which we will highlight in this blog post.
 
 `ncbi_snp_query()` is the function that pulls data from [NCBI's](https://www.ncbi.nlm.nih.gov/) [dbSNP](https://www.ncbi.nlm.nih.gov/snp/), a database of single-nucleotide polymorphisms (SNP). This database lets a user query for a SNP of interest and returns a plethora of information, among them genomic position, associated gene, clinical significance, and - relevant for this blogpost - the allele frequency. The allele frequency varies typically (on average) between different populations, sometimes just a little (e.g. [rs562556](https://www.ncbi.nlm.nih.gov/snp/rs562556#frequency_tab)), sometimes a lot (e.g. [rs11677783](https://www.ncbi.nlm.nih.gov/snp/rs11677783#frequency_tab)). This is why [dbSNP](https://www.ncbi.nlm.nih.gov/snp/) collects allele frequency estimates from different studies and populations.
 
@@ -119,18 +119,20 @@ library(rsnps)
 ```
 
 
-### One row per study ("long")
+### One row per study ("long data")
 
 Here is a visual to show how much the allele frequencies vary per SNP. 
 
 First, we **lengthen** the data frame, so that each SNP and population/study are on a **separate line**. 
 ```{r maf}
-(dat_maf <- dat %>% select(query, maf_population) %>% unnest(cols = c(maf_population)))
+(dat_maf <- dat %>% 
+   select(query, maf_population) %>% 
+   unnest(cols = c(maf_population)))
 ```
 
 Then we display it with the allele frequency on the x-axis and the study along the y-axis. 
 
-```{r plot-maf, hugoopts=list(alt="Graphical display of the allele frequency for two genetic variants (rs11677783, rs562556).", caption="Allele frequencies in dbSNP for rs11677783, rs562556 and various studies/populations.", width=800)}
+```{r plot-maf, hugoopts=list(alt="Two figures displaying the allele frequency for two genetic variants (rs11677783, rs562556). Each figure is a dot plot with study along the vertical, y-axis and MAF along the horizontal, x-axis. The studies are arranged in ascending order of MAF", caption="Allele frequencies in dbSNP for rs11677783, rs562556 and various studies/populations.", width=800), fig.width = 10, fig.asp = 0.6}
 
 p1 <- ggplot(data = dat_maf %>% filter(query == "rs11677783") %>% mutate(study = forcats::fct_reorder(study, MAF ))) + 
   geom_vline(xintercept = c(0, 0.5, 1), linetype = 3, color ="gray") +
@@ -145,11 +147,10 @@ p2 <- ggplot(data = dat_maf %>% filter(query == "rs562556") %>% mutate(study = f
 p1 + p2
 
 ```
-
 ### One study as column 
 
-We can decide to turn the tibble into a data frame again and pick a **specific study** (note that `maf_korean` is a `dbl` again): 
-
+We can decide to turn the tibble into a data frame again and pick a **specific study**. For example, here we use the `map()` function from the [purrr](https://purrr.tidyverse.org/) package to pull out the study which matches "KOREAN" from the `maf_population` list. Note that our new column, `maf_korean` is a `dbl`, and not a `list`: 
+ 
 ```{r mafkorean}
 (dat_korean <- dat %>% 
    mutate(maf_korean = purrr::map(maf_population, ~..1$MAF[..1$study=="KOREAN"])) %>% 
@@ -157,7 +158,7 @@ We can decide to turn the tibble into a data frame again and pick a **specific s
                   
 ```
 
-### One column per study ("wide")
+### One column per study ("wide data")
 Lastly, we can decide to pivot the study allele frequencies, so that **each study** has its **own column**:
 
 ```{r mafcolumn}
@@ -168,8 +169,7 @@ dat_maf <- dat %>%
   select(query, study, MAF) %>%
   pivot_wider(values_from = "MAF", names_from = "study", values_fn = min, names_prefix = "maf_") ## if duplicate, picking the minimum
 
-(dat_wide <- 
-  dat %>% left_join(dat_maf, by = "query"))
+(dat_wide <- left_join(dat, dat_maf, by = "query"))
            
 ```
 
