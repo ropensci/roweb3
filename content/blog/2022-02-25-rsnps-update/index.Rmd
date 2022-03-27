@@ -68,6 +68,8 @@ knitr::knit_hooks$set(
 
 ## TL;DR
 
+`rsnps` is a package that enables the retrieval of single nucleotide polymorphism (SNP) data from the  [NCBI's](https://www.ncbi.nlm.nih.gov/) [dbSNP](https://www.ncbi.nlm.nih.gov/snp/) database and [openSNP](https://opensnp.org/) by providing wrappers for the APIs. Single nucleotide polymorphisms represent differences at one specific position in a detected biological sequence compared to the reference. 
+
 `ncbi_snp_query()` now returns all reported variant allele frequencies in dbSNP in column `maf_population` in form of a `tibble`. Previously (version <= 0.4.0), it reported only the allele frequency from [gnomAD](https://gnomad.broadinstitute.org/) in column `maf` as a `data.frame`. 
 
 ## Changes
