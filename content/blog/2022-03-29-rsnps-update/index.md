@@ -184,4 +184,4 @@ dat_maf <- dat %>%
 
 ## Conclusion
 
-We have highlighted important changes in `ncbi_snp_query()` whereby this function now returns a tibble, the column `maf_population` now returns all allele frequencies available in the NCBI database, and finally `maf_population` is now a list column instead of a regular column. These improvements which provide additional information and functionality to this package are available in the most recent version of rnsps available on [CRAN](https://cran.r-project.org/web/packages/rsnps/index.html) and on [Github](https://github.com/ropensci/rsnps).
+We have highlighted important changes in `ncbi_snp_query()` whereby this function now returns a tibble, the column `maf_population` now returns all allele frequencies available in the NCBI database, and finally `maf_population` is now a list column instead of a regular column. These improvements which provide additional information and functionality to this package are available in the most recent version of rnsps available on [CRAN](https://cran.r-project.org/web/packages/rsnps/index.html) and on [GitHub](https://github.com/ropensci/rsnps).
