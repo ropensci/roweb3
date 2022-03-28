@@ -5,7 +5,7 @@ package_version: 0.5.0
 author:
   - Sina Rüeger
   - Julia Gustavsen
-date: 2022-03-39
+date: 2022-03-29
 tags:
   - packages
   - R
@@ -14,7 +14,7 @@ tags:
   - open-data
   - tech notes
 description: "`ncbi_snp_query()` now returns all reported variant allele frequencies in dbSNP."
-twitterImg: blog/2022/02/25/rsnps-update/plot-maf-1.png
+twitterImg: blog/2022/03/29/rsnps-update/plot-maf-1.png
 twitterAlt: "Allele frequencies in dbSNP for various studies/populations."
 output: 
   html_document:
