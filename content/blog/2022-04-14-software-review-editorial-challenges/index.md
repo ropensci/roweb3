@@ -11,7 +11,7 @@ package_version: 0.1.0
 description: Challenges encountered by editors, and the measures we've taken to try to alleviate said problems.
 ---
 
-rOpenSci [Software Peer Review](/software-review/) and [Statistical Software Peer-Review](/stat-software-review/) rely on the volunteer work of reviewers, and editors.
+rOpenSci [Software Peer Review](/software-review/) and [Statistical Software Peer Review](/stat-software-review/) rely on the volunteer work of reviewers, and editors.
 In this post we shall describe challenges encountered by editors, and the measures we've taken to alleviate said problems.
 
 ## Scope decisions 
@@ -28,8 +28,7 @@ Note that we encourage package authors to submit a _pre-submission inquiry_ befo
 ## Recruiting reviewers
 
 Reviewing a package takes precious time out of reviewers' busy schedules.
-We hope the experience is also valuable for reviewers but we reckon that it's quite an undertaking, about the same time as reviewing a scientific paper.
-
+We hope the experience is also valuable for reviewers but we reckon that it's quite an undertaking, demanding about the same time as reviewing a scientific paper. 
 To add to the complexity of finding available reviewers, we have a list of [criteria for choosing reviewers](https://devguide.ropensci.org/editorguide.html#criteria-for-choosing-a-reviewer) to ensure diversity of reviewers (of skills, of people).
 
 Last year we launched a [new form for reviewer volunteering](/blog/2021/11/18/devguide-0.7.0/#a-new-form-for-volunteer-reviewing) that allow us to collect finer-grained data about technical and topical expertise, as well as a binary optional question "Do you consider yourself part of an underrepresented group in the fields of data science, programming, or in your primary field of work?".
@@ -49,7 +48,6 @@ The goal is to not delay the review process too much.
 
 It's a sadder state of affairs when package _authors_ stop responding, as the review process has to be stopped.
 It's especially disappointing when it happens after reviews are in, as reviewers can feel their work is wasted.
-
 Nothing can really prevent such a case, that can be out of anyone's control.
 
 However, we've recently added sentences to (the development version of) the [author guide](https://devdevguide.netlify.app/authors-guide.html) and to the submission templates: "I expect to maintain this package for at least 2 years or to find a replacement."
@@ -71,6 +69,6 @@ Furthermore, we've been consistently replacing past editors and expanding the ed
 
 In this post we summarized common problems for our two editorial boards. 
 We've found automation, but also the existence of a communication channel between editors for solution finding as well as commiserating or encouraging, very important.
-As software review continue, we will surely have to tackle new challenges.
+As software review continues, we will surely have to tackle new challenges.
 We hope our experience can inform other editorial boards.
 
