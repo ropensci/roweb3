@@ -29,7 +29,7 @@ Note that we encourage package authors to submit a _pre-submission inquiry_ befo
 
 Reviewing a package takes precious time out of reviewers' busy schedules.
 We hope the experience is also valuable for reviewers but we reckon that it's quite an undertaking, demanding about the same time as reviewing a scientific paper. 
-To add to the complexity of finding available reviewers, we have a list of [criteria for choosing reviewers](https://devguide.ropensci.org/editorguide.html#criteria-for-choosing-a-reviewer) to ensure diversity of reviewers (of skills, of people).
+To add to the difficulty of finding available reviewers, we have a list of [criteria for choosing reviewers](https://devguide.ropensci.org/editorguide.html#criteria-for-choosing-a-reviewer) to ensure diversity of reviewers (of skills, of people).
 
 Last year we launched a [new form for reviewer volunteering](/blog/2021/11/18/devguide-0.7.0/#a-new-form-for-volunteer-reviewing) that allow us to collect finer-grained data about technical and topical expertise, as well as a binary optional question "Do you consider yourself part of an underrepresented group in the fields of data science, programming, or in your primary field of work?".
 The collected data, coupled with Airtable filters, helps identifying potential reviewers.
@@ -38,7 +38,7 @@ When that is not enough, for instance after a few refusals or absences of answer
 
 One last element that's been helpful is the sentence "If I don't hear from you within a week, I will assume you are unable to review at this time." in our [review request template](https://devguide.ropensci.org/reviewrequesttemplate.html), so everyone is on the same page as to how long to wait.
 
-## Handling reviewers' dropping out 
+## Reviewers' dropping out 
 
 When a reviewer drops out of the review process (or can no longer be contacted),
 the handling editor either recruits a replacement, often a person to which they can ask for a short turnaround (say, another editor!), or the editor acts as a second reviewer.
