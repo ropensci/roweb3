@@ -41,11 +41,23 @@ One last element that's been helpful is the sentence "If I don't hear from you w
 
 ## Handling reviewers' dropping out 
 
-Our solution: sometimes recruiting a replacement, sometimes acting as a second reviewer.
+When a reviewer drops out of the review process (or can no longer be contacted),
+the handling editor either recruits a replacement, often a person to which they can ask for a short turnaround (say, another editor!), or the editor acts as a second reviewer.
+The goal is to not delay the review process too much.
 
 ## Authors' dropping out
 
-Our solution: adding some phrasing to the guide & submission templates. Also the holding label.
+It's a sadder state of affairs when package _authors_ stop responding, as the review process has to be stopped.
+It's especially disappointing when it happens after reviews are in, as reviewers can feel their work is wasted.
+
+Nothing can really prevent such a case, that can be out of anyone's control.
+
+However, we've recently added sentences to (the development version of) the [author guide](https://devdevguide.netlify.app/authors-guide.html) and to the submission templates: "I expect to maintain this package for at least 2 years or to find a replacement."
+This should prompt package authors to think about the package maintenance in the long term.
+While this won't prevent all problems, this can't hurt.
+
+Another effort we make is applying holding labels when that's needed, and revisiting them every three months.
+We also recommend authors make sure they receive their GitHub notifications as generally no communication is sent directly over email.
 
 ## Editors (and reviewers) work overload 
 
@@ -55,6 +67,7 @@ New
 ## Conclusion
 
 In this post we summarized common problems for our two editorial boards. 
+We've found automation, but also the existence of a communication channel between editors for solution finding as well as commiserating or encouraging, very important.
 As software review continue, we will surely have to tackle new challenges.
 We hope our experience can inform other editorial boards.
 
