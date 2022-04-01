@@ -54,7 +54,7 @@ However, we've recently added sentences to (the development version of) the [aut
 This should prompt package authors to think about the package maintenance in the long term.
 While this won't prevent all problems, this can't hurt.
 
-Another effort we make is applying holding labels when that's needed, and revisiting them every three months.
+Another effort we make is applying holding labels when that's needed, and revisiting them every three months, up to one year.
 We also recommend authors make sure they receive their GitHub notifications as generally no communication is sent directly over email.
 
 ## Editors (and reviewers) work overload 
