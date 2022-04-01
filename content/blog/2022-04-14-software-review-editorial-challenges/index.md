@@ -61,8 +61,11 @@ We also recommend authors make sure they receive their GitHub notifications as g
 
 ## Editors (and reviewers) work overload 
 
-Our solution: Automation; recruiting more editors.
-New
+Software review necessitates work by all: editors, reviewers, and obviously authors.
+
+To reduce editorial work in particular, we've improved automation, which was the topic of a community call, ["Enhancing Software Peer Review with GitHub Automation"](/commcalls/dec2021-automation/): many tedious aspects, including exhaustive automatic checks of package quality, are now handled by a bot!
+
+Furthermore, we've been consistently replacing past editors and expanding the editorial team: we expect editors to handle [about 4 submissions a year](https://devdevguide.netlify.app/editorguide.html#editors-responsabilities) so the board size needs to be adjusted depending on the submission volume.
 
 ## Conclusion
 
