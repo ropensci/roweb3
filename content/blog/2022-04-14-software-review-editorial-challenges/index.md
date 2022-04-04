@@ -1,5 +1,5 @@
 ---
-title: Editorial Challenges in Software Peer Review (and Solutions)
+title: Editorial Challenges and Solutions in Software Peer Review 
 author:
   - Maëlle Salmon
 date: '2022-04-14'
@@ -12,15 +12,16 @@ description: Challenges encountered by editors, and the measures we've taken to 
 ---
 
 rOpenSci [Software Peer Review](/software-review/) and [Statistical Software Peer Review](/stat-software-review/) rely on the volunteer work of reviewers, and editors.
-In this post we shall describe challenges encountered by editors, and the measures we've taken to alleviate said problems.
+Editors manage the day-to-day flow of submissions, recruit reviewers and guide the peer-review process from start to finish.  (Their role, like much of our processs, is [codified in the rOepnSci Developer Guide](https://devguide.ropensci.org/editorguide.html)).   While many in our community have participated in the peer-review process, only a few have been involved as editors and guest editors. Here we thought we'd shed some light on some of challenges our editors face, and some of the solutions we have found over the years, to make this part our work more transparent.
 
 ## Scope decisions 
 
-Even before a package enters the software review process, the editor in chief has to assess whether it is in scope, aided by other editors.
-Scope decisions can be tricky, and while there's no way around that complexity, we've found it helpful to improve the [scope descriptions](https://devguide.ropensci.org/policies.html#aims-and-scope) over time.
-Better phrasing and examples also help authors evaluating the possible scope of their package before a submission.
+After a package is submitted, before it is assigned an editor and reviewers, process, the rotating Editor-in-Chief has to assess whether it is _in scope_ for the review process.  rOpenSci's [scope](https://devguide.ropensci.org/policies.html#aims-and-scope), traditionally has focused on packages that manage the research data lifecycle. This is both so that rOpenSci packages form a coherent set of tools, and also limit us to packages that our editors and reviewers can review with relevant standards and expertise.  
 
-Editors have asynchronous discussions lead by the rotating editor in chief. 
+Scope decisions can be tricky, and while there's no way around that complexity, we've found it has gotten easier by refining the [scope descriptions](https://devguide.ropensci.org/policies.html#aims-and-scope) over time as we have  more edge-cases.
+Better phrasing and examples also help authors evaluating the possible scope of their package before a submission.  Now that our scope is [expanding to include statistical packages](https://stats-devguide.ropensci.org/overview.html#overview-categories), we expect to continue to refine these categories in the coming months and years.
+
+When the scope of a package is ambiguous, the Editor-in-Chief leads a discussion on the editorial Slack channel with other editors to come to a consensus.
 In these discussions, we acknowledge that some of us might have more expertise on some topics, and we sometimes even consult subject matters external to the board to gain more insights.
 
 Note that we encourage package authors to submit a _pre-submission inquiry_ before a full submission, to clear any doubt about scope.
@@ -29,14 +30,14 @@ Note that we encourage package authors to submit a _pre-submission inquiry_ befo
 
 Reviewing a package takes precious time out of reviewers' busy schedules.
 We hope the experience is also valuable for reviewers but we reckon that it's quite an undertaking, demanding about the same time as reviewing a scientific paper. 
-To add to the difficulty of finding available reviewers, we have a list of [criteria for choosing reviewers](https://devguide.ropensci.org/editorguide.html#criteria-for-choosing-a-reviewer) to ensure diversity of reviewers (of skills, of people).
+To add to the difficulty of finding available reviewers, we have a list of [criteria for choosing reviewers](https://devguide.ropensci.org/editorguide.html#criteria-for-choosing-a-reviewer) to ensure diversity (in both skills and background), and to continuously build up a pool of experienced reviewers without overloading any of them.
 
 Last year we launched a [new form for reviewer volunteering](/blog/2021/11/18/devguide-0.7.0/#a-new-form-for-volunteer-reviewing) that allow us to collect finer-grained data about technical and topical expertise, as well as a binary optional question "Do you consider yourself part of an underrepresented group in the fields of data science, programming, or in your primary field of work?".
-The collected data, coupled with Airtable filters, helps identifying potential reviewers.
+We keep this information in database (managed with AirTable), along with each reviewer's history of reviews.  This database is a resource for editors as they look for reviewers with particular expertise, background, or availability.
 
-When that is not enough, for instance after a few refusals or absences of answers, editors can ask for personal recommendations in our private editors channel.
+When that is not enough, for instance after a repeated refusals or nonresponses from potential reviewers, editors can ask for recommendations from other editors on our Slack channel. (Some of us are editors for traditional scientific journals, and wish we had such a useful chat with our co-editors there!)
 
-One last element that's been helpful is the sentence "If I don't hear from you within a week, I will assume you are unable to review at this time." in our [review request template](https://devguide.ropensci.org/reviewrequesttemplate.html), so everyone is on the same page as to how long to wait.
+One challenge in reaching out to reviewers is knowing when to move on after waiting for a response.  So we've added "If I don't hear from you within a week, I will assume you are unable to review at this time." to our [standard review request template](https://devguide.ropensci.org/reviewrequesttemplate.html). This puts everyone is on the same page and provides clarity to editors and potential reviewers.
 
 ## Reviewers' dropping out 
 
@@ -63,7 +64,7 @@ Software review necessitates work by all: editors, reviewers, and obviously auth
 
 To reduce editorial work in particular, we've improved automation, which was the topic of a community call, ["Enhancing Software Peer Review with GitHub Automation"](/commcalls/dec2021-automation/): many tedious aspects, including exhaustive automatic checks of package quality, are now handled by a bot!
 
-Furthermore, we've been consistently replacing past editors and expanding the editorial team: we expect editors to handle [about 4 submissions a year](https://devdevguide.netlify.app/editorguide.html#editors-responsabilities) so the board size needs to be adjusted depending on the submission volume.
+A huge part of limiting work editor load is having enough editors!  We have been expanding our editorial team [LINK TO NEW EDITOR POSTS], with the goal of only expecting editors to handle [about 4 submissions a year](https://devdevguide.netlify.app/editorguide.html#editors-responsabilities).  As our submissing volume grows, and editors rotate out (we ask for 2-year commitments with option to renew), we recruit new editors largely out of our pool of reviewers. We invite experienced reviewers to guest-edit and asking if they want to stay on if their reviewers work well.  If you want to try editing [start by volunteering as a reviewer](LINK)!
 
 ## Conclusion
 
