@@ -2,6 +2,7 @@
 title: Editorial Challenges and Solutions in Software Peer Review 
 author:
   - Maëlle Salmon
+  - Noam Ross
 date: '2022-04-14'
 slug: software-review-editorial-challenges
 tags:
