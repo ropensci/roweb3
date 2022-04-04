@@ -26,7 +26,7 @@ In these discussions, we acknowledge that some of us might have more expertise o
 
 Note that we encourage package authors to submit a _pre-submission inquiry_ before a full submission, to clear any doubt about scope.
 
-## Recruiting reviewers
+## Recruiting & replacing reviewers
 
 Reviewing a package takes precious time out of reviewers' busy schedules.
 We hope the experience is also valuable for reviewers but we reckon that it's quite an undertaking, demanding about the same time as reviewing a scientific paper. 
@@ -39,9 +39,7 @@ When that is not enough, for instance after a repeated refusals or nonresponses 
 
 One challenge in reaching out to reviewers is knowing when to move on after waiting for a response.  So we've added "If I don't hear from you within a week, I will assume you are unable to review at this time." to our [standard review request template](https://devguide.ropensci.org/reviewrequesttemplate.html). This puts everyone is on the same page and provides clarity to editors and potential reviewers.
 
-## Reviewers' dropping out 
-
-When a reviewer drops out of the review process (or can no longer be contacted),
+Lastly, when a reviewer drops out of the review process (or can no longer be contacted),
 the handling editor either recruits a replacement, often a person to which they can ask for a short turnaround (say, another editor!), or the editor acts as a second reviewer.
 The goal is to not delay the review process too much.
 
@@ -62,8 +60,22 @@ We also recommend authors make sure they receive their GitHub notifications as g
 
 Software review necessitates work by all: editors, reviewers, and obviously authors.
 
-To reduce editorial work in particular, we've improved automation, which was the topic of a community call, ["Enhancing Software Peer Review with GitHub Automation"](/commcalls/dec2021-automation/): many tedious aspects, including exhaustive automatic checks of package quality, are now handled by a bot!
+To reduce editorial work in particular, we've improved automation, which was the topic of a community call, ["Enhancing Software Peer Review with GitHub Automation"](/commcalls/dec2021-automation/): 
+rOpenSci has worked with The Journal of Open Source Software to extend JOSS’s approach of chatops-driven publishing into a new GitHub chat-bot that manages our editorial process: assigning tasks, tagging issues, running tests on software submissions, and returning reports to reviewers and editors, logging reviews in an external (Airtable) database, all from the comfort of a GitHub issue comment. 
+E.g.
 
+```
+@ropensci-review-bot check package
+```
+
+Instead of cloning a repository locally, installing dependencies, running checks, posting results oneself.
+Or
+
+```
+@ropensci-review-bot add @maelle to reviewers
+``` 
+
+to register a reviewer in the submission issue metadata as well as in our Airtable database.
 A huge part of limiting work editor load is having enough editors!  We have been [expanding our editorial team](/tags/editors/), with the goal of only expecting editors to handle [about 4 submissions a year](https://devdevguide.netlify.app/editorguide.html#editors-responsabilities).  
 As our submissing volume grows, and editors rotate out (we ask for 2-year commitments with option to renew), we recruit new editors largely out of our pool of reviewers. 
 We invite experienced reviewers to guest-edit and asking if they want to stay on if their reviewers work well.  
