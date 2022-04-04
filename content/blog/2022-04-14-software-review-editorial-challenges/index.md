@@ -64,7 +64,10 @@ Software review necessitates work by all: editors, reviewers, and obviously auth
 
 To reduce editorial work in particular, we've improved automation, which was the topic of a community call, ["Enhancing Software Peer Review with GitHub Automation"](/commcalls/dec2021-automation/): many tedious aspects, including exhaustive automatic checks of package quality, are now handled by a bot!
 
-A huge part of limiting work editor load is having enough editors!  We have been expanding our editorial team [LINK TO NEW EDITOR POSTS], with the goal of only expecting editors to handle [about 4 submissions a year](https://devdevguide.netlify.app/editorguide.html#editors-responsabilities).  As our submissing volume grows, and editors rotate out (we ask for 2-year commitments with option to renew), we recruit new editors largely out of our pool of reviewers. We invite experienced reviewers to guest-edit and asking if they want to stay on if their reviewers work well.  If you want to try editing [start by volunteering as a reviewer](LINK)!
+A huge part of limiting work editor load is having enough editors!  We have been [expanding our editorial team](/tags/editors/), with the goal of only expecting editors to handle [about 4 submissions a year](https://devdevguide.netlify.app/editorguide.html#editors-responsabilities).  
+As our submissing volume grows, and editors rotate out (we ask for 2-year commitments with option to renew), we recruit new editors largely out of our pool of reviewers. 
+We invite experienced reviewers to guest-edit and asking if they want to stay on if their reviewers work well.  
+If you want to try editing [start by volunteering as a reviewer](/software-reviewer)!
 
 ## Conclusion
 
