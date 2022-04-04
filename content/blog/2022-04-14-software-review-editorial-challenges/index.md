@@ -77,6 +77,7 @@ Or
 ``` 
 
 to register a reviewer in the submission issue metadata as well as in our Airtable database.
+
 A huge part of limiting work editor load is having enough editors!  We have been [expanding our editorial team](/tags/editors/), with the goal of only expecting editors to handle [about 4 submissions a year](https://devdevguide.netlify.app/editorguide.html#editors-responsabilities).  
 As our submissing volume grows, and editors rotate out (we ask for 2-year commitments with option to renew), we recruit new editors largely out of our pool of reviewers. 
 We invite experienced reviewers to guest-edit and asking if they want to stay on if their reviewers work well.  
