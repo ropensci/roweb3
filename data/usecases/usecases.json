@@ -934,5 +934,14 @@
     "url": "https://discuss.ropensci.org/t/use-rtweet-to-manage-lists-and-who-you-follow/2830",
     "image": "use-rtweet-to-manage-lists-and-who-you-follow.jpeg",
     "date": "2022-02-22"
+  },
+  {
+    "title": "Using vcr for HTTP testing of a package for Kobotoolbox",
+    "reporter": "Frie",
+    "tags": ["r", "package", "vcr"],
+    "resource": "vcr the excellent http testing in r book",
+    "url": "https://discuss.ropensci.org/t/using-vcr-for-http-testing-of-a-package-for-kobotoolbox/2865",
+    "image": "using-vcr-for-http-testing-of-a-package-for-kobotoolbox.png",
+    "date": "2022-03-24"
   }
 ]
