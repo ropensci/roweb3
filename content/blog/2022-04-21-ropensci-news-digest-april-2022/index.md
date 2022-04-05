@@ -154,7 +154,7 @@ You might find the [dupree package](https://russhyde.github.io/dupree/) by Russ 
 ### Security for package developers
 
 Did you know our development guide includes a short chapter on [Package Development Security Best Practices](https://devguide.ropensci.org/package-development-security-best-practices.html)?
-Starting with the recommendation to enable [two-factor authentication (2FA)](Package Development Security Best Practices) for your GitHub account.
+Starting with the recommendation to enable [two-factor authentication (2FA)](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication) for your GitHub account.
 We've also recently blogged on [Safeguards and Backups for GitHub Organizations](/blog/2022/03/22/safeguards-and-backups-for-github-organizations/)
 
 ### S3, S4, R6, R7 (not an April Fools' joke!)
