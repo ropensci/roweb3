@@ -46,6 +46,8 @@ Now let's dive into the activity at and around rOpenSci!
 
 ### pkgcheck reports now include dependencies
 
+Our automated checking system for packages submitted for peer review now has a new section, "*Package Dependencies*". This is intended to help editors and reviewers understand how package dependencies (that is, packages listed in *Imports*, *Depends*, or *Suggests* fields) are actually used by a package. The section summarises total numbers of function calls made to each package, followed by collapsible "details" sections containing numbers of calls made to the individual functions of each packages. Dependencies include base R and all recommended packages, ensuring that this section provides a comprehensive overview of how each package submitted for peer review uses and depends upon the entire R ecosystem.
+
 ### R-universe now features package individual pages
 
 ### Next coworking sessions
