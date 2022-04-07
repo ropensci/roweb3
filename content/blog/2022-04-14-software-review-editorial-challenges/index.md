@@ -40,6 +40,8 @@ When that is not enough, for instance after a repeated refusals or nonresponses 
 
 One challenge in reaching out to reviewers is knowing when to move on after waiting for a response.  So we've added "If I don't hear from you within a week, I will assume you are unable to review at this time." to our [standard review request template](https://devguide.ropensci.org/reviewrequesttemplate.html). This puts everyone is on the same page and provides clarity to editors and potential reviewers.
 
+Regarding the _onboarding_ of new editors, it is supported by the [reviewer guide](https://devguide.ropensci.org/reviewerguide.html).
+
 Lastly, when a reviewer drops out of the review process (or can no longer be contacted),
 the handling editor either recruits a replacement, often a person to which they can ask for a short turnaround (say, another editor!), or the editor acts as a second reviewer.
 The goal is to not delay the review process too much.
@@ -81,6 +83,7 @@ to register a reviewer in the submission issue metadata as well as in our Airtab
 A huge part of limiting work editor load is having enough editors!  We have been [expanding our editorial team](/tags/editors/), with the goal of only expecting editors to handle [about 4 submissions a year](https://devdevguide.netlify.app/editorguide.html#editors-responsabilities).  
 As our submission volume grows, and editors rotate out (we ask for 2-year commitments with option to renew), we recruit new editors largely out of our pool of reviewers. 
 We invite experienced reviewers to guest-edit and asking if they want to stay on if their reviewers work well.  
+Our [editor guide](https://devguide.ropensci.org/editorguide.html) facilitates onboarding... and onboarding new editors leads to feedback on and therefore improvements of that guide.
 If you want to try editing [start by volunteering as a reviewer](/software-reviewer)!
 
 ## Conclusion
