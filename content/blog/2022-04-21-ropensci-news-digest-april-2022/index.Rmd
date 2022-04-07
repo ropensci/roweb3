@@ -62,14 +62,17 @@ Join us for social coworking & office hours monthly on 1st Tuesdays! Hosted by S
 
 Our next sessions are:
 
-* [Tuesday, 03 May 2022 9 AM North American Pacific / 16:00 UTC](/events/coworking-2022-05/) "Why be a reviewer of R packages?" *Hosted by a community host (TBA) and [Steffi LaZerte](/author/steffi-lazerte/)*
+* [Tuesday, 03 May 2022 9 AM North American Pacific / 16:00 UTC](/events/coworking-2022-05/) "Why be a reviewer of R packages?" *Hosted by community host François Michonneau and [Steffi LaZerte](/author/steffi-lazerte/)*
   * Cowork on a project of your choice;
   * Prepare an R package for rOpenSci software review, work on reviewer comments, or review a package;
-  * Or ask our community host (TBA) what it's like to review packages!
+  * Or ask [François Michonneau](https://francoismichonneau.net/) what it's like to review packages!
   
-* [Tuesday, 07 June 2022 11 AM AEST / 1:00 UTC ](/events/coworking-2022-06/) TODO ADD DETAILS
+* [Tuesday, 07 June 2022 9 AM Australian Western / 1:00 UTC ](/events/coworking-2022-06/) " Tackle something you've always wanted to learn" *Hosted by community host Nick Tierney and [Steffi LaZerte](/author/steffi-lazerte/)*
+  * Take time to tackle something you've always wanted to learn;
+  * Cowork on a project of your choice.
 
 Find out about more [events](/events).
+
 
 ## Software :package:
 
