@@ -27,7 +27,13 @@ Now let's dive into the activity at and around rOpenSci!
 
 ### pkgcheck reports now include dependencies
 
-Our automated checking system for packages submitted for peer review now has a new section, "*Package Dependencies*". This is intended to help editors and reviewers understand how package dependencies (that is, packages listed in *Imports*, *Depends*, or *Suggests* fields) are actually used by a package. The section summarises total numbers of function calls made to each package, followed by collapsible "details" sections containing numbers of calls made to the individual functions of each packages. Dependencies include base R and all recommended packages, ensuring that this section provides a comprehensive overview of how each package submitted for peer review uses and depends upon the entire R ecosystem.
+Our [automated checking system for packages](/commcalls/dec2021-automation/) submitted for peer review now has a new section, "*Package Dependencies*". 
+This is intended to help editors and reviewers understand how package dependencies (that is, packages listed in *Imports*, *Depends*, or *Suggests* `DESCRIPTION` fields) are actually used by a package.
+The section summarises total numbers of function calls made to each package, followed by collapsible "details" sections containing numbers of calls made to the individual functions of each packages. 
+Dependencies include base R and all recommended packages, ensuring that this section provides a comprehensive overview of how each package submitted for peer review uses and depends upon the entire R ecosystem.
+
+Want to try it for yourself?
+Install [pkgcheck](https://docs.ropensci.org/pkgcheck/) and then run `pkgcheck::pkgcheck (<package-source-directory>)`.
 
 ### R-universe now features package individual pages
 
@@ -68,7 +74,7 @@ The following seven packages have had an update since the last newsletter: [gert
 
 ## Software Peer Review
 
-There are fourteen recently closed and active submissions and 4 submissions on hold. Issues are at different stages: 
+There are fifteen recently closed and active submissions and 4 submissions on hold. Issues are at different stages: 
 
 * Two at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
 
@@ -80,19 +86,19 @@ There are fourteen recently closed and active submissions and 4 submissions on h
 
      * [tidyqpcr](https://github.com/ropensci/software-review/issues/470), Quantitative PCR Analysis with the Tidyverse. Submitted by [Edward Wallace](https://scholar.google.co.uk/citations?user=7FLIJBAAAAAJ&hl=en). 
 
-* Three at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
+* Four at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
 
-     * [phruta](https://github.com/ropensci/software-review/issues/458), Phylogenetic Reconstruction and Time-dating. Submitted by [Cristian Román-Palacios](http://cromanpa94.github.io/cromanpa/). 
+     * [npi](https://github.com/ropensci/software-review/issues/505), Access the U.S. National Provider Identifier Registry API. Submitted by [Frank Farach](https://frankfarach.com). 
+
+    * [phruta](https://github.com/ropensci/software-review/issues/458), Phylogenetic Reconstruction and Time-dating. Submitted by [Cristian Román-Palacios](http://cromanpa94.github.io/cromanpa/). 
 
     * [epair](https://github.com/ropensci/software-review/issues/418), Grabs data from EPA API, simplifies getting pollutant data. Submitted by [Leo Orozco-Mulfinger](https://github.com/GLOrozcoM). 
 
     * [healthdatacsv](https://github.com/ropensci/software-review/issues/358), Access data in the healthdata.gov catalog. Submitted by [iecastro](http://iecastro.netlify.com). 
 
-* Four at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
+* Three at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 
-     * [npi](https://github.com/ropensci/software-review/issues/505), Access the U.S. National Provider Identifier Registry API. Submitted by [Frank Farach](https://frankfarach.com). 
-
-    * [canaper](https://github.com/ropensci/software-review/issues/475), Categorical Analysis of Neo- And Paleo-Endemism. Submitted by [Joel Nitta](https://joelnitta.com).  (Stats).
+     * [canaper](https://github.com/ropensci/software-review/issues/475), Categorical Analysis of Neo- And Paleo-Endemism. Submitted by [Joel Nitta](https://joelnitta.com).  (Stats).
 
     * [tsbox](https://github.com/ropensci/software-review/issues/464), Class-Agnostic Time Series. Submitted by [Christoph Sax](http://www.cynkra.com).  (Stats).
 
@@ -104,9 +110,11 @@ There are fourteen recently closed and active submissions and 4 submissions on h
 
     * [octolog](https://github.com/ropensci/software-review/issues/502), Better Github Action Logging. Submitted by [Jacob Wujciak-Jens](https://github.com/assignUser). 
 
-* Two at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
+* Three at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
 
-     * [bssm](https://github.com/ropensci/software-review/issues/489), Bayesian Inference of Non-Linear and Non-Gaussian State Space. Submitted by [Jouni Helske](http://jounihelske.netlify.app).  (Stats).
+     * [hudr](https://github.com/ropensci/software-review/issues/524), A R interface for accessing HUD (US Department of Housing and Urban Development) APIs. Submitted by [Emmet Tam](https://github.com/etam4260). 
+
+    * [bssm](https://github.com/ropensci/software-review/issues/489), Bayesian Inference of Non-Linear and Non-Gaussian State Space. Submitted by [Jouni Helske](http://jounihelske.netlify.app).  (Stats).
 
     * [rdbhapi](https://github.com/ropensci/software-review/issues/443), Interface to DBH-API. Submitted by [Marija Ninic](https://hkdir.no/). 
 
