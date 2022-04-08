@@ -161,7 +161,7 @@ If you just want to use the default git branch, it is safest to omit the `branch
 
 ## Auto-generated universes for CRAN developers
 
-When browsing the [r-universe homepage](https://r-universe.dev/organizations/) you may notice that some major universes that contain many CRAN packages do not have a `packages.json` registry. How is this possible?
+When browsing the [r-universe homepage](https://r-universe.dev/) you may notice that some major universes that contain many CRAN packages do not have a `packages.json` registry. How is this possible?
 
 When the r-universe app is installed on a GitHub account that does not have a proper packages.json file, the build system automatically starts adding all packages from CRAN which are owned by that particular GitHub account.
 Ownership is determined by the presence of a link to a GitHub repository in the `URL` or `BugReports` field of a CRAN package. Our scraper scans all CRAN packages for GitHub links on a daily basis and stores results in the [cran-to-git](https://github.com/r-universe-org/cran-to-git) database.

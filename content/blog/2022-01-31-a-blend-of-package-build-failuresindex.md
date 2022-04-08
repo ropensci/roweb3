@@ -11,7 +11,7 @@ tags:
 description: "Some common and less common problems we saw in logs of package and pkgdown website builds."
 ---
 
-The [rOpenSci R-universe](https://ropensci.r-universe.dev/ui#builds) is a bit special as, compared to other R-universes, it [builds docs](/blog/2021/09/03/runiverse-docs/) for all the packages in our [suite](/packages).
+The [rOpenSci R-universe](https://ropensci.r-universe.dev/) is a bit special as, compared to other R-universes, it [builds docs](/blog/2021/09/03/runiverse-docs/) for all the packages in our [suite](/packages).
 Looking at the dashboard helps us identify failures in building the packages as well as in building the pkgdown websites.
 We then help authors fix these issues in order to comply with our [package curation policy](https://devguide.ropensci.org/curationpolicy.html).
 As a package author you should also rely on [continuous integration](https://devdevguide.netlify.app/ci.html) in your own repo for catching e.g. `R CMD check` problems.
