@@ -89,7 +89,7 @@ If you want to try editing [start by volunteering as a reviewer](/software-revie
 ## Conclusion
 
 In this post we summarized common problems for our two editorial boards. 
-We've found automation, but also the existence of a communication channel between editors for solution finding as well as commiserating or encouraging, very important.
+We've found it's very important to automate processes but also to communicate between editors to find solutions, and to commiserate with and encourage each other.
 As software review continues, we will surely have to tackle new challenges.
 We hope our experience can inform other editorial boards.
 
