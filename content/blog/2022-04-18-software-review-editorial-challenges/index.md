@@ -46,7 +46,7 @@ Lastly, when a reviewer drops out of the review process (or can no longer be con
 the handling editor either recruits a replacement, often a person to which they can ask for a short turnaround (say, another editor!), or the editor acts as a second reviewer.
 The goal is to not delay the review process too much.
 
-## Authors' dropping out
+## Authors dropping out
 
 It's a sadder state of affairs when package _authors_ stop responding, as the review process has to be stopped.
 It's especially disappointing when it happens after reviews are in, as reviewers can feel their work is wasted.
