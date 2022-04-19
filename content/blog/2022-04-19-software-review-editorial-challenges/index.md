@@ -48,14 +48,17 @@ The goal is to not delay the review process too much.
 
 It's a sadder state of affairs when package _authors_ stop responding, as the review process has to be stopped.
 It's especially disappointing when it happens after reviews are in, as reviewers can feel their work is wasted.
-Nothing can really prevent such a case, that can be out of anyone's control.
+In the end, there's nothing we can really do about this as it's out of the control of our editors and reviewers (and of authors).
 
-However, we've recently added sentences to (the development version of) the [author guide](https://devdevguide.netlify.app/authors-guide.html) and to the submission templates: "I expect to maintain this package for at least 2 years or to find a replacement."
+However, to avoid simple problems with missed communications, we recommend that authors make sure they receive GitHub notifications as we try to keep communication transparent through GitHub and don't generally use email. 
+To deal with larger problems regarding time and commitment, we've recently added sentences to (the development version of) the [author guide](https://devdevguide.netlify.app/authors-guide.html) and to the submission templates: "I expect to maintain this package for at least 2 years or to find a replacement."
 This should prompt package authors to think about the package maintenance in the long term.
-While this won't prevent all problems, this can't hurt.
+While this won't prevent all problems, we hope this will prompt package authors to think about the package maintenance in the long term before submitting their packages for review.
 
-Another effort we make is applying holding labels when that's needed, and revisiting them every three months, up to one year.
-We also recommend authors make sure they receive their GitHub notifications as generally no communication is sent directly over email.
+We also understand that while authors may have good intentions, life can twist unexpectedly. 
+Therefore, another effort we make is to put holds on reviews (by applying holding labels) as needed. 
+These holds are revisited every three months, up to one year.
+
 
 ## Editors (and reviewers) work overload 
 
