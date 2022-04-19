@@ -64,32 +64,29 @@ These holds are revisited every three months, up to one year.
 
 Software review necessitates work by all: editors, reviewers, and obviously authors.
 
-To reduce editorial work in particular, we've improved automation, which was the topic of a community call, ["Enhancing Software Peer Review with GitHub Automation"](/commcalls/dec2021-automation/): 
-rOpenSci has worked with The Journal of Open Source Software to extend JOSS’s approach of chatops-driven publishing into a new GitHub chat-bot that manages our editorial process: assigning tasks, tagging issues, running tests on software submissions, and returning reports to reviewers and editors, logging reviews in an external (Airtable) database, all from the comfort of a GitHub issue comment. 
-E.g.
+To reduce editorial work in particular, we've improved automation, which was the topic of a community call, ["Enhancing Software Peer Review with GitHub Automation"](/commcalls/dec2021-automation/). 
+rOpenSci has worked with The Journal of Open Source Software to extend JOSS’s approach of chatops-driven publishing into a new GitHub chat-bot that manages our editorial process: assigning tasks, tagging issues, running tests on software submissions, returning reports to reviewers and editors, and logging reviews in an external (Airtable) database. All from the comfort of a GitHub issue comment!
+For example, you could clone a repository locally, install dependencies, run checks, and manually post the   results... **or** you could simply type the following into a GitHub issue comment:
 
 ```
 @ropensci-review-bot check package
 ```
 
-Instead of cloning a repository locally, installing dependencies, running checks, posting results oneself.
-Or
+Similarly, you can use the following to register a reviewer in the submission issue metadata as well as in our Airtable database.
 
 ```
 @ropensci-review-bot add @maelle to reviewers
 ``` 
 
-to register a reviewer in the submission issue metadata as well as in our Airtable database.
-
-A huge part of limiting work editor load is having enough editors!  We have been [expanding our editorial team](/tags/editors/), with the goal of only expecting editors to handle [about 4 submissions a year](https://devdevguide.netlify.app/editorguide.html#editors-responsabilities).  
-As our submission volume grows, and editors rotate out (we ask for 2-year commitments with option to renew), we recruit new editors largely out of our pool of reviewers. 
-We invite experienced reviewers to guest-edit and asking if they want to stay on if their reviewers work well.  
-Our [editor guide](https://devguide.ropensci.org/editorguide.html) facilitates onboarding... and onboarding new editors leads to feedback on and therefore improvements of that guide.
+A huge part of limiting editors' workloads  is having enough editors!  We have been [expanding our editorial team](/tags/editors/), with the goal of only expecting editors to handle [about 4 submissions a year](https://devdevguide.netlify.app/editorguide.html#editors-responsabilities).  
+As our submission volume grows, and editors rotate out (we ask for 2-year commitments with option to renew), we recruit new editors largely out of our pool of reviewers.
+We invite experienced reviewers to guest-edit and ask if they want to stay on if everything works out.  
+Our [editor guide](https://devguide.ropensci.org/editorguide.html) facilitates onboarding... and onboarding new editors leads to feedback on and therefore improvements to, that guide.
 If you want to try editing [start by volunteering as a reviewer](/software-reviewer)!
 
 ## Conclusion
 
-In this post we summarized common problems for our two editorial boards. 
+Here we've summarized some common problems for our editorial boards. 
 We've found it's very important to automate processes but also to communicate between editors to find solutions, and to commiserate with and encourage each other.
 As software review continues, we will surely have to tackle new challenges.
 We hope our experience can inform other editorial boards.
