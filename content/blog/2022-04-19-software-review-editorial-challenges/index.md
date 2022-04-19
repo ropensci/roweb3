@@ -34,7 +34,7 @@ We hope the experience is valuable for reviewers (and we try to make it easier w
 To add to the difficulty of finding available reviewers, we have a list of [criteria for choosing reviewers](https://devguide.ropensci.org/editorguide.html#criteria-for-choosing-a-reviewer) to ensure diversity (in both skills and background), and to continuously build up a pool of experienced reviewers without overloading any of them.
 
 Last year we launched a [new form for reviewer volunteering](/blog/2021/11/18/devguide-0.7.0/#a-new-form-for-volunteer-reviewing) that allow us to collect finer-grained data about technical and topical expertise, as well as an optional question "Do you consider yourself part of an underrepresented group in the fields of data science, programming, or in your primary field of work?".
-We keep this information in database (managed with Airtable), along with each reviewer's history of reviews.  This database is a resource for editors as they look for reviewers with particular expertise, background, or availability.
+We keep this information in a database (managed with Airtable), along with each reviewer's history of reviews.  This database is a resource for editors as they look for reviewers with particular expertise, background, or availability.
 
 When that is not enough, for instance after repeated refusals or nonresponses from potential reviewers, editors can ask for recommendations from other editors on our Slack channel. (Some of us are editors for traditional scientific journals, and wish we had such a useful chat with our co-editors there!)
 
