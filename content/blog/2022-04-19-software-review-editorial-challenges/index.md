@@ -17,7 +17,7 @@ Editors manage the day-to-day flow of submissions, recruit reviewers and guide t
 
 ## Scope decisions 
 
-After a package is submitted, before it is assigned an editor and reviewers, process, the rotating Editor-in-Chief has to assess whether it is _in scope_ for the review process.  rOpenSci's [scope](https://devguide.ropensci.org/policies.html#aims-and-scope), traditionally has focused on packages that manage the research data lifecycle. This is both so that rOpenSci packages form a coherent set of tools, and also limit us to packages that our editors and reviewers can review with relevant standards and expertise.  
+After a package is submitted, before it is assigned an editor and reviewers, the rotating Editor-in-Chief has to assess whether it is _in scope_ for the review process.  Traditionally, rOpenSci's [scope](https://devguide.ropensci.org/policies.html#aims-and-scope), has focused on packages that manage the research data lifecycle. This is both so that rOpenSci packages form a coherent set of tools, and also to limit us to packages which our editors and reviewers can review with relevant standards and expertise.  
 
 Scope decisions can be tricky, and while there's no way around that complexity, we've found it has gotten easier by refining the [scope descriptions](https://devguide.ropensci.org/policies.html#aims-and-scope) over time as we have  more edge-cases.
 Better phrasing and examples also help authors evaluating the possible scope of their package before a submission.  Now that our scope is [expanding to include statistical packages](https://stats-devguide.ropensci.org/overview.html#overview-categories), we expect to continue to refine these categories in the coming months and years.
@@ -87,7 +87,7 @@ If you want to try editing [start by volunteering as a reviewer](/software-revie
 ## Conclusion
 
 Here we've summarized some common problems for our editorial boards. 
-We've found it's very important to automate processes but also to communicate between editors to find solutions, and to commiserate with and encourage each other.
-As software review continues, we will surely have to tackle new challenges.
-We hope our experience can inform other editorial boards.
+We've found it's very important to automate processes but also for editors to be able to communicate with each other directly in order to find solutions, as well as to commiserate with and encourage each other.
+As software review continues, we will surely run into new challenges to tackle.
+We hope our experiences are useful for other editors and that they may help inform other editorial boards.
 
