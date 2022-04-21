@@ -41,7 +41,7 @@ Packages on [r-universe.dev](https://r-universe.dev) now have beautiful individu
 
 You can navigate to a package homepage directly from [search](https://r-universe.dev/search/) results or via the dashboard from its universe. It is also possible to link directly to the package homepage, for example: https://ropensci.r-universe.dev/ui#package:cffr
 
-[![example screenshot of a package homepage](homepage.png)](https://ropensci.r-universe.dev/ui#package:cffr)
+{{< figure src="homepage.png" alt="example screenshot of a package homepage." width="600" link="https://ropensci.r-universe.dev/ui#package:cffr" >}}
 
 ### Next coworking sessions
 
