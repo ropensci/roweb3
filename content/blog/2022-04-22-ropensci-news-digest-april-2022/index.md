@@ -2,7 +2,7 @@
 title: rOpenSci News Digest, April 2022
 author:
   - The rOpenSci Team
-date: '2022-04-21'
+date: '2022-04-22'
 slug: ropensci-news-digest-april-2022
 categories: []
 tags:
@@ -20,7 +20,7 @@ params:
 
 Dear rOpenSci friends, it's time for our monthly news roundup!
 <!-- blabla -->
-You can read this post [on our blog](/blog/2022/04/21/ropensci-news-digest-april-2022).
+You can read this post [on our blog](/blog/2022/04/22/ropensci-news-digest-april-2022).
 Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
@@ -46,11 +46,12 @@ Our next sessions are:
 * [Tuesday, 03 May 2022 9 AM North American Pacific / 16:00 UTC](/events/coworking-2022-05/) "Why be a reviewer of R packages?" *Hosted by community host François Michonneau and [Steffi LaZerte](/author/steffi-lazerte/)*
   * Cowork on a project of your choice;
   * Prepare an R package for rOpenSci software review, work on reviewer comments, or review a package;
-  * Or ask [François Michonneau](https://francoismichonneau.net/) what it's like to review packages!
+  * Or ask [François Michonneau](/author/francois-michonneau/) what it's like to review packages!
   
-* [Tuesday, 07 June 2022 9 AM Australian Western / 1:00 UTC ](/events/coworking-2022-06/) " Tackle something you've always wanted to learn" *Hosted by community host Nick Tierney and [Steffi LaZerte](/author/steffi-lazerte/)*
-  * Take time to tackle something you've always wanted to learn;
-  * Cowork on a project of your choice.
+* [Tuesday, 07 June 2022 9 AM Australian Western / 1:00 UTC ](/events/coworking-2022-06/) "Tackle something you've always wanted to learn" *Hosted by community host Nick Tierney and [Steffi LaZerte](/author/steffi-lazerte/)*
+  * Cowork on a project of your choice; 
+  * Take this time to tackle something you've always wanted to learn;
+  * Or talk to [Nick Tierney](https://ropensci.org/author/nicholas-tierney/) and discuss what it is you want to learn, and get some tips and resources to get yourself started!
 
 Find out about more [events](/events).
 
@@ -62,9 +63,13 @@ Find out about more [events](/events).
 
 
 
-The following  package recently became a part of our software suite:
+The following three packages recently became a part of our software suite:
+
++ [gbifdb](https://docs.ropensci.org/gbifdb), developed by Carl Boettiger: A high performance interface to the Global Biodiversity Information Facility, GBIF. In contrast to rgbif, which can access small subsets of GBIF data through web-based queries to a central server, gbifdb provides enhanced performance for R users performing large-scale analyses on servers and cloud computing providers, providing full support for arbitrary SQL or dplyr operations on the complete GBIF data tables (now over 1 billion records, and over a terabyte in size). gbifdb accesses a copy of the GBIF data in parquet format, which is already readily available in commercial computing clouds such as the Amazon Open Data portal and the Microsoft Planetary Computer, or can be accessed directly without downloading, or downloaded to any server with suitable bandwidth and storage space. 
 
 + [qualR](https://docs.ropensci.org/qualR), developed by Mario Gavidia-Calderón together with Daniel Schuch: A package to download information from CETESB QUALAR <https://cetesb.sp.gov.br/ar/qualar/> and MonitorAr <https://www.rio.rj.gov.br/web/smac/monitorar-rio1> systems. It contains function to download different parameters, a set of criteria pollutants and the most frequent meteorological parameters used in air quality data analysis and air quality model evaluation. It has been [reviewed](https://github.com/ropensci/software-review/issues/474) by Beatriz Milz, and Kaue de Sousa.
+
++ [rsvg](https://docs.ropensci.org/rsvg), developed by Jeroen Ooms: Renders vector-based svg images into high-quality custom-size bitmap arrays using librsvg2. The resulting bitmap can be written to e.g. png, jpeg or webp format. In addition, the package can convert images directly to various formats such as pdf or postscript.  It is available on [CRAN]( https://CRAN.R-project.org/package=rsvg). 
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
@@ -72,12 +77,13 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following seven packages have had an update since the last newsletter: [gert](https://docs.ropensci.org/gert "Simple Git Client for R") ([`v1.6.0`](https://github.com/r-lib/gert/releases/tag/v1.6.0)), [antiword](https://docs.ropensci.org/antiword "Extract Text from Microsoft Word Documents") ([`v1.3.1`](https://github.com/ropensci/antiword/releases/tag/v1.3.1)), [baRcodeR](https://docs.ropensci.org/baRcodeR "Label Creation for Tracking and Collecting Data from
-    Biological Samples") ([`v0.1.7`](https://github.com/ropensci/baRcodeR/releases/tag/v0.1.7)), [git2rdata](https://docs.ropensci.org/git2rdata "Store and Retrieve Data.frames in a Git Repository") ([`v0.4.0`](https://github.com/ropensci/git2rdata/releases/tag/v0.4.0)), [occCite](https://docs.ropensci.org/occCite "Querying and Managing Large Biodiversity Occurrence Datasets") ([`v0.5.4`](https://github.com/ropensci/occCite/releases/tag/v0.5.4)), [rgbif](https://docs.ropensci.org/rgbif "Interface to the Global Biodiversity Information Facility API") ([`v3.7.1`](https://github.com/ropensci/rgbif/releases/tag/v3.7.1)), and [tidyhydat](https://docs.ropensci.org/tidyhydat "Extract and Tidy Canadian Hydrometric Data") ([`0.5.5`](https://github.com/ropensci/tidyhydat/releases/tag/0.5.5)).
+The following sixteen packages have had an update since the last newsletter: [gert](https://docs.ropensci.org/gert "Simple Git Client for R") ([`v1.6.0`](https://github.com/r-lib/gert/releases/tag/v1.6.0)), [antiword](https://docs.ropensci.org/antiword "Extract Text from Microsoft Word Documents") ([`v1.3.1`](https://github.com/ropensci/antiword/releases/tag/v1.3.1)), [baRcodeR](https://docs.ropensci.org/baRcodeR "Label Creation for Tracking and Collecting Data from
+    Biological Samples") ([`v0.1.7`](https://github.com/ropensci/baRcodeR/releases/tag/v0.1.7)), [cffr](https://docs.ropensci.org/cffr "Generate Citation File Format (cff) Metadata for R Packages") ([`v0.2.2`](https://github.com/ropensci/cffr/releases/tag/v0.2.2)), [comtradr](https://docs.ropensci.org/comtradr "Interface with the United Nations Comtrade API") ([`0.3.0`](https://github.com/ropensci/comtradr/releases/tag/0.3.0)), [git2rdata](https://docs.ropensci.org/git2rdata "Store and Retrieve Data.frames in a Git Repository") ([`v0.4.0`](https://github.com/ropensci/git2rdata/releases/tag/v0.4.0)), [MODIStsp](https://docs.ropensci.org/MODIStsp "Find, Download and Process MODIS Land Products
+    Data") ([`v2.0.7`](https://github.com/ropensci/MODIStsp/releases/tag/v2.0.7)), [nasapower](https://docs.ropensci.org/nasapower "NASA POWER API Client") ([`v4.0.7`](https://github.com/ropensci/nasapower/releases/tag/v4.0.7)), [occCite](https://docs.ropensci.org/occCite "Querying and Managing Large Biodiversity Occurrence Datasets") ([`v0.5.4`](https://github.com/ropensci/occCite/releases/tag/v0.5.4)), [pdftools](https://docs.ropensci.org/pdftools "Text Extraction, Rendering and Converting of PDF Documents") ([`v3.2.0`](https://github.com/ropensci/pdftools/releases/tag/v3.2.0)), [rgbif](https://docs.ropensci.org/rgbif "Interface to the Global Biodiversity Information Facility API") ([`v3.7.2`](https://github.com/ropensci/rgbif/releases/tag/v3.7.2)), [rsvg](https://docs.ropensci.org/rsvg "Render SVG Images into PDF, PNG, (Encapsulated) PostScript, or Bitmap Arrays") ([`v2.3.1`](https://github.com/ropensci/rsvg/releases/tag/v2.3.1)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.6.0`](https://github.com/ropensci/tarchetypes/releases/tag/0.6.0)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Workflows") ([`0.12.0`](https://github.com/ropensci/targets/releases/tag/0.12.0)), [taxa](https://docs.ropensci.org/taxa "Classes for Storing and Manipulating Taxonomic Data") ([`v0.4.2`](https://github.com/ropensci/taxa/releases/tag/v0.4.2)), and [tidyhydat](https://docs.ropensci.org/tidyhydat "Extract and Tidy Canadian Hydrometric Data") ([`0.5.5`](https://github.com/ropensci/tidyhydat/releases/tag/0.5.5)).
 
 ## Software Peer Review
 
-There are fifteen recently closed and active submissions and 4 submissions on hold. Issues are at different stages: 
+There are sixteen recently closed and active submissions and 4 submissions on hold. Issues are at different stages: 
 
 * Two at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
 
@@ -87,7 +93,7 @@ There are fifteen recently closed and active submissions and 4 submissions on ho
 
 * One at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
 
-     * [tidyqpcr](https://github.com/ropensci/software-review/issues/470), Quantitative PCR Analysis with the Tidyverse. Submitted by [Edward Wallace](https://scholar.google.co.uk/citations?user=7FLIJBAAAAAJ&hl=en). 
+     * [ReLTER](https://github.com/ropensci/software-review/issues/485), An interface to the eLTER for the R statistical programming environment. Submitted by [Alessandro Oggioni](https://www.cnr.it/people/alessandro.oggioni). 
 
 * Four at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
 
@@ -99,19 +105,21 @@ There are fifteen recently closed and active submissions and 4 submissions on ho
 
     * [healthdatacsv](https://github.com/ropensci/software-review/issues/358), Access data in the healthdata.gov catalog. Submitted by [iecastro](http://iecastro.netlify.com). 
 
-* Three at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
+* Five at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 
-     * [canaper](https://github.com/ropensci/software-review/issues/475), Categorical Analysis of Neo- And Paleo-Endemism. Submitted by [Joel Nitta](https://joelnitta.com).  (Stats).
+     * [unifir](https://github.com/ropensci/software-review/issues/521), A Unifying API for Calling Unity from R. Submitted by [Michael Mahoney](https://mm218.dev/). 
+
+    * [canaper](https://github.com/ropensci/software-review/issues/475), Categorical Analysis of Neo- And Paleo-Endemism. Submitted by [Joel Nitta](https://joelnitta.com).  (Stats).
+
+    * [tidyqpcr](https://github.com/ropensci/software-review/issues/470), Quantitative PCR Analysis with the Tidyverse. Submitted by [Edward Wallace](https://scholar.google.co.uk/citations?user=7FLIJBAAAAAJ&hl=en). 
 
     * [tsbox](https://github.com/ropensci/software-review/issues/464), Class-Agnostic Time Series. Submitted by [Christoph Sax](http://www.cynkra.com).  (Stats).
 
     * [ROriginStamp](https://github.com/ropensci/software-review/issues/433), Interface to OriginStamp API to Obtain Trusted Time Stamps. Submitted by [Rainer M Krug](https://github.com/rkrug). 
 
-* Two at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
+* One at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
-     * [unifir](https://github.com/ropensci/software-review/issues/521), A Unifying API for Calling Unity from R. Submitted by [Michael Mahoney](https://mm218.dev/). 
-
-    * [octolog](https://github.com/ropensci/software-review/issues/502), Better Github Action Logging. Submitted by [Jacob Wujciak-Jens](https://github.com/assignUser). 
+     * [octolog](https://github.com/ropensci/software-review/issues/502), Better Github Action Logging. Submitted by [Jacob Wujciak-Jens](https://github.com/assignUser). 
 
 * Three at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
 
@@ -127,6 +135,11 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 <!-- Do not forget to rebase your branch! -->
 
+
+
+### Software Review
+
+* [Editorial Challenges and Solutions in Software Peer Review](/blog/2022/04/19/software-review-editorial-challenges) by Maëlle Salmon, and Noam Ross. Challenges encountered by editors, and the measures we've taken to try to alleviate said problems.
 
 
 
@@ -167,8 +180,8 @@ You might find the [dupree package](https://russhyde.github.io/dupree/) by Russ 
 ### Security for package developers
 
 Did you know our development guide includes a short chapter on [Package Development Security Best Practices](https://devguide.ropensci.org/package-development-security-best-practices.html)?
-Starting with the recommendation to enable [two-factor authentication (2FA)](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication) for your GitHub account.
-We've also recently blogged on [Safeguards and Backups for GitHub Organizations](/blog/2022/03/22/safeguards-and-backups-for-github-organizations/)
+Starting with the recommendation to enable [two-factor authentication (2FA)](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication) for your GitHub account (now required for the ropensci GitHub organization).
+We've also recently blogged on [Safeguards and Backups for GitHub Organizations](/blog/2022/03/22/safeguards-and-backups-for-github-organizations/).
 
 ### S3, S4, R6, R7 (not an April Fools' joke!)
 
