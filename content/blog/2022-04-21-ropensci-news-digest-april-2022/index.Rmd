@@ -67,9 +67,10 @@ Our next sessions are:
   * Prepare an R package for rOpenSci software review, work on reviewer comments, or review a package;
   * Or ask [François Michonneau](https://francoismichonneau.net/) what it's like to review packages!
   
-* [Tuesday, 07 June 2022 9 AM Australian Western / 1:00 UTC ](/events/coworking-2022-06/) " Tackle something you've always wanted to learn" *Hosted by community host Nick Tierney and [Steffi LaZerte](/author/steffi-lazerte/)*
-  * Take time to tackle something you've always wanted to learn;
-  * Cowork on a project of your choice.
+* [Tuesday, 07 June 2022 9 AM Australian Western / 1:00 UTC ](/events/coworking-2022-06/) "Tackle something you've always wanted to learn" *Hosted by community host Nick Tierney and [Steffi LaZerte](/author/steffi-lazerte/)*
+  * Cowork on a project of your choice; 
+  * Take this time to tackle something you've always wanted to learn;
+  * Or talk to [Nick Tierney](https://ropensci.org/author/nicholas-tierney/) and discuss what it is you want to learn, and get some tips and resources to get yourself started!
 
 Find out about more [events](/events).
 
