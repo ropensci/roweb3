@@ -163,9 +163,11 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 
 
-One use case of our packages and resources has been reported since we sent the last newsletter.
+Two use cases of our packages and resources have been reported since we sent the last newsletter.
 
 * [Using vcr for HTTP testing of a package for Kobotoolbox](https://discuss.ropensci.org/t/using-vcr-for-http-testing-of-a-package-for-kobotoolbox/2865). Reported by Frie.
+
+* [Estimating leaf temperatures worldwide](https://discuss.ropensci.org/t/estimating-leaf-temperatures-worldwide/2908). Reported by Paul Melloy.
 
 Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)!
 
