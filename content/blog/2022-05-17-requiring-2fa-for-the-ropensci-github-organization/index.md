@@ -92,3 +92,5 @@ As a further GitHub security step for us and you, dear reader, let's mention
 - pruning repositories from former, now inactive, collaborators;
 - pruning OAuth apps installed from [personal accounts](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/reviewing-your-authorized-applications-oauth) and from [organizations](https://docs.github.com/en/enterprise-cloud@latest/organizations/restricting-access-to-your-organizations-data/about-oauth-app-access-restrictions);
 - a recent GitHub post [5 simple things every developer can do to ship more secure code](https://github.blog/2022-04-22-5-simple-things-every-developer-can-do-to-ship-more-secure-code/).
+
+And more generally, we recommend the article [Ten quick tips for staying safe online](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008563) by Danielle Smalls and Greg Wilson.
