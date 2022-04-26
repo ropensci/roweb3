@@ -1,5 +1,5 @@
 ---
-title: Requiring 2fa for our main GitHub Organization
+title: Requiring 2FA for our main GitHub Organization
 author:
   - Maëlle Salmon
 date: '2022-05-17'
