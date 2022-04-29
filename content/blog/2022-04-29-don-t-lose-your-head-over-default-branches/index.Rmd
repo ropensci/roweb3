@@ -1,0 +1,19 @@
+---
+title: Don't Lose your HEAD over Default Branches
+author:
+  - Maëlle Salmon
+date: '2022-04-29'
+slug: don-t-lose-your-head-over-default-branches
+categories: []
+tags:
+  - git
+  - gert
+  - GitHub
+  - tech notes
+description: A very short summary of your post (~ 100 characters)
+output: hugodown::md_document
+---
+
+While the community standard for the default branch is now becoming main instead of master[^oppressive], and while the switch for any repo is rather [easy](https://www.hanselman.com/blog/easily-rename-your-git-default-branch-from-master-to-main) and well supported by usethis, for a while there will still be repos with different default branches in the wild.
+
+[^oppressive]: For more context on Terminology, Power and Oppressive Language see for instance https://tools.ietf.org/id/draft-knodel-terminology-00.html
