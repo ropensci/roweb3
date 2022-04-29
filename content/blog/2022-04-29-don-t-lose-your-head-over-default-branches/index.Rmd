@@ -14,6 +14,21 @@ description: A very short summary of your post (~ 100 characters)
 output: hugodown::md_document
 ---
 
-While the community standard for the default branch is now becoming main instead of master[^oppressive], and while the switch for any repo is rather [easy](https://www.hanselman.com/blog/easily-rename-your-git-default-branch-from-master-to-main) and well supported by usethis, for a while there will still be repos with different default branches in the wild.
+While the community standard for the default branch is now becoming main instead of master[^oppressive], and while the switch for any repo is rather [easy](https://www.hanselman.com/blog/easily-rename-your-git-default-branch-from-master-to-main) and [well supported by usethis](https://www.tidyverse.org/blog/2021/10/renaming-default-branch/), for a while there will still be repos with different default branches in the wild.[^roweb3]
+
+So, what to deal with the existence of different possible default branches?
+
+- [usethis tooling regarding default branches](https://www.tidyverse.org/blog/2021/10/renaming-default-branch/) including `usethis::git_default_branch()`, can be quite handy.
+- You can also use gert directly, e.g. `gert::git_remote_ls()` will help show you remote references.
+
+```{r}
+gert::git_remote_ls() |>
+  head() # another useful thing named head
+```
+
+- When linking to a file, or trying to download the same path from a gaggle of repositories, think of the HEAD reference! I.e. instead of linking to a file via `https://github.com/<owner>/<repo>/tree/<default-branch>/<path>` where you need to know what the default branch is, you can link to `https://github.com/<owner>/<repo>/tree/HEAD/<path>` that will always point to the latest version of the path in the default branch. Similarly, for raw content, you can use links à la `https://raw.githubusercontent.com/<owner>/<repo>/HEAD/<path>`.
+
+In conclusion, master or main? Hit the nail on the HEAD. :wink:
 
 [^oppressive]: For more context on Terminology, Power and Oppressive Language see for instance https://tools.ietf.org/id/draft-knodel-terminology-00.html
+[^roweb3]: Actually, this post was the occasion to change the default branch for the source of this website!
