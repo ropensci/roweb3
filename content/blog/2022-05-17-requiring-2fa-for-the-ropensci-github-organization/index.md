@@ -1,5 +1,5 @@
 ---
-title: Requiring 2FA for our main GitHub Organization
+title: Requiring 2FA for Our Main GitHub Organization
 author:
   - Maëlle Salmon
 date: '2022-05-17'
@@ -16,21 +16,21 @@ description: How we went about requiring two-factor authentication for our main 
 Following our recent post on ["Safeguards and Backups for GitHub Organizations"](/blog/2022/03/22/safeguards-and-backups-for-github-organizations/), one month ago we went one step further and made two-factor authentication (2FA) required for all members and outside collaborators of our main organization, `ropensci`.
 Here is how (and why) we went about it.
 
-## Why (not) requiring 2FA?
+## Why (not) require 2FA?
 
 We used to only require two-factor authentication of organization owners (which is not an actual setting of GitHub, just a rule we set for ourselves).
 However, requiring 2FA for the whole organization seemed like a logical step towards more security.
-Hopefully it also inspires more 2FA adoption beyond the ropensci organization as new adopters of the setting can tell their collaborators about it.
+Hopefully it also inspires more 2FA adoption beyond the `ropensci` organization as new adopters of the setting can tell their collaborators about it.
 
 When one starts requiring 2FA for an organization, all members and outside collaborators who have _not_ enabled it are removed from the organization and receive a notification from GitHub.
 
-One aspect we pondered was whether it'd be potentially unfair to require 2FA depending on people's access to mobile devices and on their location.
-In the end because GitHub provides many different 2FA methods we decided to go for it but to listen to potential feedback from organization members and collaborators.
+One aspect we pondered was whether it'd be potentially unfair to require 2FA. Many 2FA systems rely on the user having a mobile device, which could be a barrier for some.
+However, GitHub provides many different 2FA methods (not only those requiring a mobile device), so in the end we decided to go for it, but to make careful note of feedback from organization members and collaborators.
 
 ## Communicating the change in advance
 
-As [recommended in GitHub docs](https://docs.github.com/en/organizations/keeping-your-organization-secure/managing-two-factor-authentication-for-your-organization/requiring-two-factor-authentication-in-your-organization#prerequisites=) we communicated about the change in advance, sending emails to all organization members & outside collaborators without 2FA two weeks before the switch.
-This was meant to ensure as few people as possible lost access to their repositories.
+As [recommended in GitHub docs](https://docs.github.com/en/organizations/keeping-your-organization-secure/managing-two-factor-authentication-for-your-organization/requiring-two-factor-authentication-in-your-organization#prerequisites=), we communicated about the change in advance, sending emails to all organization members and outside collaborators without 2FA two weeks before the switch.
+This was meant to ensure that as few people as possible lost access to their repositories.
 
 Email addresses were collected via the GitHub API, and for those who do not have a public email address on GitHub, using a search engine as well as [email address used for recent commits](https://www.nymeria.io/blog/how-to-manually-find-email-addresses-for-github-users). 🕵️
 Taking the time to do so was also crucial to, again, remove as few people as possible from the organization.
@@ -85,7 +85,7 @@ If you were an organization member or outside collaborator who was removed from 
 ## Conclusion
 
 Two-factor authentication is now required for our main GitHub organization.
-It is a change for the best of most, but that might have created some pain and frustration for a few people depending on when they got the notification.
+It was a change made for the best for most people, but which might have created some pain and frustration for a few people depending on when they got the notification.
 We thank everyone for their collaboration and understanding.
 
 As a further GitHub security step for us and you, dear reader, let's mention
