@@ -12,7 +12,7 @@ tags:
   - tech notes
 description: Use "HEAD" instead of the default branch name in links to files on GitHub, as it will work for any default branch name.
 output: hugodown::md_document
-rmd_hash: ce1974da2dcff403
+rmd_hash: 49261b0062436e4d
 
 ---
 
@@ -44,7 +44,7 @@ So, what to deal with the existence of different possible default branches?
 
 </div>
 
--   When linking to a file, or trying to download the same path from a gaggle of repositories, think of the HEAD reference! I.e. instead of linking to a file via `https://github.com/<owner>/<repo>/tree/<default-branch>/<path>` where you need to know what the default branch is, you can link to `https://github.com/<owner>/<repo>/tree/HEAD/<path>` that will always point to the latest version of the path in the default branch. Similarly, for raw content, you can use links à la `https://raw.githubusercontent.com/<owner>/<repo>/HEAD/<path>`.
+-   When linking to a file, or trying to download the same path from a gaggle of repositories, think of the HEAD reference! I.e. instead of linking to a file via `https://github.com/<owner>/<repo>/tree/<default-branch>/<path>` where you need to know what the default branch is, you can link to `https://github.com/<owner>/<repo>/tree/HEAD/<path>` that will always point to the latest version of the path in the default branch. Similarly, for raw content (to download), you can use links à la `https://github.com/<owner>/<repo>/raw/HEAD/<path>`.
 
 In conclusion, master or main? Hit the nail on the HEAD. :wink:
 

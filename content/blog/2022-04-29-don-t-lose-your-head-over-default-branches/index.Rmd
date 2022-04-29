@@ -27,7 +27,7 @@ gert::git_remote_ls() |>
 ```
 
 - When linking to a file, or trying to download the same path from a gaggle of repositories, think of the HEAD reference!
-I.e. instead of linking to a file via `https://github.com/<owner>/<repo>/tree/<default-branch>/<path>` where you need to know what the default branch is, you can link to `https://github.com/<owner>/<repo>/tree/HEAD/<path>` that will always point to the latest version of the path in the default branch. Similarly, for raw content, you can use links à la `https://raw.githubusercontent.com/<owner>/<repo>/HEAD/<path>`.
+I.e. instead of linking to a file via `https://github.com/<owner>/<repo>/tree/<default-branch>/<path>` where you need to know what the default branch is, you can link to `https://github.com/<owner>/<repo>/tree/HEAD/<path>` that will always point to the latest version of the path in the default branch. Similarly, for raw content (to download), you can use links à la `https://github.com/<owner>/<repo>/raw/HEAD/<path>`.
 
 In conclusion, master or main? Hit the nail on the HEAD. :wink:
 
