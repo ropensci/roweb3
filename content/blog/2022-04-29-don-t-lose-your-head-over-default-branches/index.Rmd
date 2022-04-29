@@ -28,6 +28,12 @@ gert::git_remote_ls() |>
   head() # another useful thing named head
 ```
 
+`gert::git_remote_info()`  shows the head for a given remote:
+
+```{r}
+gert::git_remote_info("origin")
+```
+
 - When linking to a file, or trying to download the same path from a gaggle of repositories, think of the HEAD reference!
 I.e. instead of linking to a file via `https://github.com/<owner>/<repo>/tree/<default-branch>/<path>` where you need to know what the default branch is, you can link to `https://github.com/<owner>/<repo>/tree/HEAD/<path>` that will always point to the latest version of the path in the default branch. Similarly, for raw content (to download), you can use links à la `https://github.com/<owner>/<repo>/raw/HEAD/<path>`.
 

@@ -12,7 +12,7 @@ tags:
   - tech notes
 description: Use "HEAD" instead of the default branch name in links to files on GitHub, as it will work for any default branch name.
 output: hugodown::md_document
-rmd_hash: 786682236476626b
+rmd_hash: 556e869d41a04fc9
 
 ---
 
@@ -41,6 +41,31 @@ So, what to deal with the existence of different possible default branches?
 <span class='c'>#&gt; 4 6f8c849ef325dc597e819bffbd8829afa05ae414</span>
 <span class='c'>#&gt; 5 2f328db8fc6ce94caa50ddde7a0b021178818d8f</span>
 <span class='c'>#&gt; 6 f552c2dcac79228e929e65975c52484f5655577c</span></code></pre>
+
+</div>
+
+[`gert::git_remote_info()`](https://docs.ropensci.org/gert/reference/git_remote.html) shows the head for a given remote:
+
+<div class="highlight">
+
+<pre class='chroma'><code class='language-r' data-lang='r'><span class='nf'>gert</span><span class='nf'>::</span><span class='nf'><a href='https://docs.ropensci.org/gert/reference/git_remote.html'>git_remote_info</a></span><span class='o'>(</span><span class='s'>"origin"</span><span class='o'>)</span>
+<span class='c'>#&gt; $name</span>
+<span class='c'>#&gt; [1] "origin"</span>
+<span class='c'>#&gt; </span>
+<span class='c'>#&gt; $url</span>
+<span class='c'>#&gt; [1] "git@github.com:ropensci/roweb3.git"</span>
+<span class='c'>#&gt; </span>
+<span class='c'>#&gt; $push_url</span>
+<span class='c'>#&gt; NULL</span>
+<span class='c'>#&gt; </span>
+<span class='c'>#&gt; $head</span>
+<span class='c'>#&gt; [1] "refs/remotes/origin/main"</span>
+<span class='c'>#&gt; </span>
+<span class='c'>#&gt; $fetch</span>
+<span class='c'>#&gt; [1] "+refs/heads/*:refs/remotes/origin/*"</span>
+<span class='c'>#&gt; </span>
+<span class='c'>#&gt; $push</span>
+<span class='c'>#&gt; character(0)</span></code></pre>
 
 </div>
 
