@@ -12,11 +12,11 @@ tags:
   - tech notes
 description: Use "HEAD" instead of the default branch name in links to files on GitHub, as it will work for any default branch name.
 output: hugodown::md_document
-rmd_hash: 49261b0062436e4d
+rmd_hash: 786682236476626b
 
 ---
 
-While the community standard for the default branch is now becoming main instead of master[^1], and while the switch for any repo is rather [easy](https://www.hanselman.com/blog/easily-rename-your-git-default-branch-from-master-to-main) and is [well supported by usethis](https://www.tidyverse.org/blog/2021/10/renaming-default-branch/), for a while (forever) there will still be repos with different default branches in the wild.[^2] Especially as nothing prevents you from using any other name for the default branch (although this could trip up collaborators).
+While git has no "default" branch, online code platforms such as GitHub need to define a default for the branch that someone sees when they look at code online. While the community standard for the default branch is now becoming main instead of master[^1], and while the switch for any repo is rather [easy](https://www.hanselman.com/blog/easily-rename-your-git-default-branch-from-master-to-main) and is [well supported by usethis](https://www.tidyverse.org/blog/2021/10/renaming-default-branch/), for a while (forever) there will still be repos with different default branches in the wild.[^2] Especially as nothing prevents you from using any other name for the default branch (although this could trip up collaborators).[^3]
 
 So, what to deal with the existence of different possible default branches?
 
@@ -35,7 +35,7 @@ So, what to deal with the existence of different possible default branches?
 <span class='c'>#&gt; 5 refs/heads/fix_author_links            &lt;NA&gt;</span>
 <span class='c'>#&gt; 6        refs/heads/footnotes            &lt;NA&gt;</span>
 <span class='c'>#&gt;                                        oid</span>
-<span class='c'>#&gt; 1 891c2ad62f13f13a5487437c8a063f5eb1d178fc</span>
+<span class='c'>#&gt; 1 2ef29132be682883d1c12a957c38e1fa6599898f</span>
 <span class='c'>#&gt; 2 e4f3ef36c453dd2ede5a091c7d3f5f32c609caca</span>
 <span class='c'>#&gt; 3 7461f15e81651d5bbf6dcab078801cfa35e2f039</span>
 <span class='c'>#&gt; 4 6f8c849ef325dc597e819bffbd8829afa05ae414</span>
@@ -51,4 +51,6 @@ In conclusion, master or main? Hit the nail on the HEAD. :wink:
 [^1]: For more context on Terminology, Power and Oppressive Language see for instance <https://tools.ietf.org/id/draft-knodel-terminology-00.html>
 
 [^2]: Actually, this post was the occasion to change the default branch for the source of this website!
+
+[^3]: Some repos only have a branch called `gh-pages` (e.g. everything under <https://github.com/ropensci-docs>), in which case that is the default branch.
 
