@@ -53,7 +53,7 @@ Please email me or info@ropensci.org if you have:
 - enabled 2FA after April 18th and would like to added back.
 I will be glad to help!
 Thanks and best wishes,
-> Maëlle on behalf of the rOpenSci team.'
+> Maëlle on behalf of the rOpenSci team.
 ```
 
 With the subject `[Action required] Enable GitHub Two-Factor Authentication to Preserve Access`.
