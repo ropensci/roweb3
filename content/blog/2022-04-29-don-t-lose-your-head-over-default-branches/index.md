@@ -12,9 +12,11 @@ tags:
   - tech notes
 description: Use "HEAD" instead of the default branch name in links to files on GitHub, as it will work for any default branch name.
 output: hugodown::md_document
-rmd_hash: 556e869d41a04fc9
+rmd_hash: e6c65ab1562c60d2
 
 ---
+
+Read on for a little trick to always get the default branch...
 
 While git has no "default" branch, online code platforms such as GitHub need to define a default for the branch that someone sees when they look at code online. While the community standard for the default branch is now becoming main instead of master[^1], and while the switch for any repo is rather [easy](https://www.hanselman.com/blog/easily-rename-your-git-default-branch-from-master-to-main) and is [well supported by usethis](https://www.tidyverse.org/blog/2021/10/renaming-default-branch/), for a while (forever) there will still be repos with different default branches in the wild.[^2] Especially as nothing prevents you from using any other name for the default branch (although this could trip up collaborators).[^3]
 
