@@ -13,12 +13,12 @@ package_version: 0.1.0
 description: How we went about requiring two-factor authentication for our main GitHub organization
 ---
 
-Following our recent post on ["Safeguards and Backups for GitHub Organizations"](/blog/2022/03/22/safeguards-and-backups-for-github-organizations/), one month ago we went one step further and made two-factor authentication (2FA) required for all members and outside collaborators of our main organization, `ropensci`.
+Following our recent post on ["Safeguards and Backups for GitHub Organizations"](/blog/2022/03/22/safeguards-and-backups-for-github-organizations/), one month ago we went one step further and made two-factor authentication (2FA) required for all members and outside collaborators of our main organization, [`ropensci`](https://github.com/ropensci/).
 Here is how (and why) we went about it.
 
 ## Why (not) require 2FA?
 
-We used to only require two-factor authentication of organization owners (which is not an actual setting of GitHub, just a rule we set for ourselves).
+We used to only require [two-factor authentication](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication) of organization owners (which is not an actual setting of GitHub, just a rule we set for ourselves).
 However, requiring 2FA for the whole organization seemed like a logical step towards more security.
 Hopefully it also inspires more 2FA adoption beyond the `ropensci` organization as new adopters of the setting can tell their collaborators about it.
 
