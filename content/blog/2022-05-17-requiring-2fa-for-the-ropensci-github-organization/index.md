@@ -19,7 +19,7 @@ Here is how (and why) we went about it.
 ## Why (not) requiring 2FA?
 
 We used to only require two-factor authentication of organization owners (which is not an actual setting of GitHub, just a rule we set for ourselves).
-Requiring 2FA for the whole organization seemed like a logical step towards more security.
+However, requiring 2FA for the whole organization seemed like a logical step towards more security.
 Hopefully it also inspires more 2FA adoption beyond the ropensci organization as new adopters of the setting can tell their collaborators about it.
 
 When one starts requiring 2FA for an organization, all members and outside collaborators who have _not_ enabled it are removed from the organization and receive a notification from GitHub.
