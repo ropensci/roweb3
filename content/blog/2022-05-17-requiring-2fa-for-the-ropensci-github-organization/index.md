@@ -89,7 +89,7 @@ It was a change made for the best for most people, but which might have created 
 We thank everyone for their collaboration and understanding.
 
 As a further GitHub security step for us and you, dear reader, let's mention
-- pruning repositories from former, now inactive, collaborators;
+- pruning repositories from former, now inactive, collaborators (docs for [personal repos](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/removing-a-collaborator-from-a-personal-repository), for [repos hosted in organizations](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories));
 - pruning OAuth apps installed from [personal accounts](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/reviewing-your-authorized-applications-oauth) and from [organizations](https://docs.github.com/en/enterprise-cloud@latest/organizations/restricting-access-to-your-organizations-data/about-oauth-app-access-restrictions);
 - a recent GitHub post [5 simple things every developer can do to ship more secure code](https://github.blog/2022-04-22-5-simple-things-every-developer-can-do-to-ship-more-secure-code/).
 
