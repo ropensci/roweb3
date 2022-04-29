@@ -28,7 +28,7 @@ rssLimit = 20
     projects = ["r-universe", "software-review", "stat-software-review"]    
     blogs = ["blog", "technotes"]
     events = ["events", "commcalls"]
-    githubsource = "https://github.com/ropensci/roweb3/tree/master/content/"
+    githubsource = "https://github.com/ropensci/roweb3/tree/HEAD/content/"
     registry = "https://ropensci.github.io/roregistry/registry.json"
     citations = "https://ropensci-org.github.io/ropensci_citations/citations_all_parts_clean.json"
 
