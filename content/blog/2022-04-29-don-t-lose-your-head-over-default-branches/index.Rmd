@@ -18,7 +18,7 @@ While the community standard for the default branch is now becoming main instead
 
 So, what to deal with the existence of different possible default branches?
 
-- [usethis tooling regarding default branches](https://www.tidyverse.org/blog/2021/10/renaming-default-branch/) including `usethis::git_default_branch()`, can be quite handy.
+- [usethis tooling regarding default branches](https://www.tidyverse.org/blog/2021/10/renaming-default-branch/) including `usethis::git_default_branch()`, is very handy.
 - You can also use gert directly, e.g. `gert::git_remote_ls()` will help show you remote references. The symref for ref contains the default branch name. 
 
 ```{r}

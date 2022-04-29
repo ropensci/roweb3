@@ -12,7 +12,7 @@ tags:
   - tech notes
 description: Use "HEAD" instead of the default branch name in links to files on GitHub, as it will work for any default branch name.
 output: hugodown::md_document
-rmd_hash: c5031776691c3e13
+rmd_hash: ce1974da2dcff403
 
 ---
 
@@ -20,7 +20,7 @@ While the community standard for the default branch is now becoming main instead
 
 So, what to deal with the existence of different possible default branches?
 
--   [usethis tooling regarding default branches](https://www.tidyverse.org/blog/2021/10/renaming-default-branch/) including [`usethis::git_default_branch()`](https://usethis.r-lib.org/reference/git-default-branch.html), can be quite handy.
+-   [usethis tooling regarding default branches](https://www.tidyverse.org/blog/2021/10/renaming-default-branch/) including [`usethis::git_default_branch()`](https://usethis.r-lib.org/reference/git-default-branch.html), is very handy.
 -   You can also use gert directly, e.g. [`gert::git_remote_ls()`](https://docs.ropensci.org/gert/reference/git_fetch.html) will help show you remote references. The symref for ref contains the default branch name.
 
 <div class="highlight">
