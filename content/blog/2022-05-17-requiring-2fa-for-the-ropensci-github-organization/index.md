@@ -32,7 +32,7 @@ However, GitHub provides many different 2FA methods (not only those requiring a 
 As [recommended in GitHub docs](https://docs.github.com/en/organizations/keeping-your-organization-secure/managing-two-factor-authentication-for-your-organization/requiring-two-factor-authentication-in-your-organization#prerequisites=), we communicated about the change in advance, sending emails to all organization members and outside collaborators without 2FA two weeks before the switch.
 This was meant to ensure that as few people as possible lost access to their repositories.
 
-Email addresses were collected via the GitHub API, and for those who do not have a public email address on GitHub, using a search engine as well as [email address used for recent commits](https://www.nymeria.io/blog/how-to-manually-find-email-addresses-for-github-users). 🕵️
+Email addresses were collected via the GitHub API, and for those who do not have a public email address on GitHub, using a search engine as well as [email addresses used for recent commits](https://www.nymeria.io/blog/how-to-manually-find-email-addresses-for-github-users). 🕵️
 Taking the time to do so was also crucial to, again, remove as few people as possible from the organization.
 
 We sent emails using the [gmailr package](https://gmailr.r-lib.org/).
