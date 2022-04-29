@@ -10,24 +10,23 @@ tags:
   - gert
   - GitHub
   - tech notes
-description: A very short summary of your post (~ 100 characters)
+description: Use "HEAD" instead of the default branch name in links to files on GitHub, as it will work for any default branch name.
 output: hugodown::md_document
-rmd_hash: b80931e96bd37f81
+rmd_hash: d2733764360ed9e5
 
 ---
 
-While the community standard for the default branch is now becoming main instead of master[^1], and while the switch for any repo is rather [easy](https://www.hanselman.com/blog/easily-rename-your-git-default-branch-from-master-to-main) and [well supported by usethis](https://www.tidyverse.org/blog/2021/10/renaming-default-branch/), for a while there will still be repos with different default branches in the wild.[^2]
+While the community standard for the default branch is now becoming main instead of master[^1], and while the switch for any repo is rather [easy](https://www.hanselman.com/blog/easily-rename-your-git-default-branch-from-master-to-main) and is [well supported by usethis](https://www.tidyverse.org/blog/2021/10/renaming-default-branch/), for a while there will still be repos with different default branches in the wild.[^2]
 
 So, what to deal with the existence of different possible default branches?
 
 -   [usethis tooling regarding default branches](https://www.tidyverse.org/blog/2021/10/renaming-default-branch/) including [`usethis::git_default_branch()`](https://usethis.r-lib.org/reference/git-default-branch.html), can be quite handy.
--   You can also use gert directly, e.g. [`gert::git_remote_ls()`](https://docs.ropensci.org/gert/reference/git_fetch.html) will help show you remote references.
+-   You can also use gert directly, e.g. [`gert::git_remote_ls()`](https://docs.ropensci.org/gert/reference/git_fetch.html) will help show you remote references. The symref for ref contains the default branch name.
 
 <div class="highlight">
 
 <pre class='chroma'><code class='language-r' data-lang='r'><span class='nf'>gert</span><span class='nf'>::</span><span class='nf'><a href='https://docs.ropensci.org/gert/reference/git_fetch.html'>git_remote_ls</a></span><span class='o'>(</span><span class='o'>)</span> |&gt;
   <span class='nf'><a href='https://rdrr.io/r/utils/head.html'>head</a></span><span class='o'>(</span><span class='o'>)</span> <span class='c'># another useful thing named head</span>
-<span class='c'>#&gt; No remote set for this branch, using default remote 'origin'</span>
 <span class='c'>#&gt;                           ref          symref</span>
 <span class='c'>#&gt; 1                        HEAD refs/heads/main</span>
 <span class='c'>#&gt; 2        refs/heads/1password            &lt;NA&gt;</span>
