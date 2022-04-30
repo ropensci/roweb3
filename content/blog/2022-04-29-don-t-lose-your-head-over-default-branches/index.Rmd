@@ -14,7 +14,7 @@ description: Use "HEAD" instead of the default branch name in links to files on 
 output: hugodown::md_document
 ---
 
-Read on for a little trick to always get the default branch...
+Did you know that GitHub lets you refer to the default branch of any repository by substituting the branch name with `HEAD` in the url? This is a very useful trick to write robust code that works regardless of whether the default branch is called `main` or `master`, and will keep working when the default branch gets renamed at some point.
 
 While git has no "default" branch, online code platforms such as GitHub need to define a default for the branch that someone sees when they look at code online. While the community standard for the default branch is now becoming main instead of master[^oppressive], and while the switch for any repo is rather [easy](https://www.hanselman.com/blog/easily-rename-your-git-default-branch-from-master-to-main) and is [well supported by usethis](https://www.tidyverse.org/blog/2021/10/renaming-default-branch/), for a while (forever) there will still be repos with different default branches in the wild.[^roweb3] Especially as nothing prevents you from using any other name for the default branch (although this could trip up collaborators).[^ghpages]
 
