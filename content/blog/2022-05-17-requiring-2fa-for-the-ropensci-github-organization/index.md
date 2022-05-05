@@ -14,6 +14,7 @@ description: How we went about requiring two-factor authentication for our main 
 ---
 
 Following our recent post on ["Safeguards and Backups for GitHub Organizations"](/blog/2022/03/22/safeguards-and-backups-for-github-organizations/), one month ago we went one step further and made two-factor authentication (2FA) required for all members and outside collaborators of our main organization, [`ropensci`](https://github.com/ropensci/).
+It was a timely decision as GitHub since then announced it [_will require all users who contribute code on GitHub.com to enable one or more forms of two-factor authentication (2FA) by the end of 2023._](https://github.blog/2022-05-04-software-security-starts-with-the-developer-securing-developer-accounts-with-2fa/).
 Here is how (and why) we went about it.
 
 ## Why (not) require 2FA?
