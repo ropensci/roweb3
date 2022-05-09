@@ -947,7 +947,7 @@
   {
     "title": "Estimating leaf temperatures worldwide",
     "reporter": "Paul Melloy",
-    "tags": "r",
+    "tags": ["r", "nasapower"],
     "resource": "[nasapower](https://docs.ropensci.org/nasapower)",
     "url": "https://discuss.ropensci.org/t/estimating-leaf-temperatures-worldwide/2908",
     "image": "estimating-leaf-temperatures-worldwide.png",
