@@ -83,6 +83,8 @@ The GitHub documentation explains that ["To download an archive of your reposito
 The archives in question contains both the git repo (so, your code) but *also issues and PRs* as JSON data.
 Having a complete repository archive is crucial as a GitHub repository is used to not only store the code but also project management aspects of package maintenance.
 
+Update: we've made the code we use to download archives of repositories available in the R package [gitcellar](https://docs.ropensci.org/gitcellar/).
+
 #### Listing repositories to back-up
 
 Listing all repositories in an organization might look like
