@@ -11,7 +11,7 @@ description: R-universe new features! Co-working sessions. New packages and pack
 output: hugodown::md_document
 params:
   last_newsletter: '2022-04-22'
-rmd_hash: 17289b8d3cb4a576
+rmd_hash: fc487db81f975f37
 
 ---
 
@@ -25,11 +25,11 @@ Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> Y
 
 Packages on [r-universe.dev](https://r-universe.dev) are now described with even more metadata to help users compare and assess them: count of GitHub stars, (transitive) dependencies, dependent packages and an overall score of the package (similar to pagerank).
 
-{{\< figure src="search.png" alt="Package card on R-universe, including a count of github stars, (transitive) dependencies / dependent packages and an overall score of the package (similar to pagerank)" \>}}
+{{< figure src="search.jpeg" alt="Package card on R-universe, including a count of github stars, (transitive) dependencies / dependent packages and an overall score of the package (similar to pagerank)" >}}
 
 You will see these numbers both in the search results and in package individual pages.
 
-{{\< figure src="vroom1.png" alt="Top of a package individual pages featuring the same badges." \>}}
+{{< figure src="vroom1.jpeg" alt="Top of a package individual pages featuring the same badges." >}}
 
 Try it out as we'll be finetuning the search ranking in particular!
 
@@ -37,17 +37,22 @@ These metrics are not the only improvement to package individual pages: You migh
 
 -   installation instructions,
 
-{{\< figure src="vroom2.png" alt="Installation instructions on a package individual page, ready to be copy-pasted." \>}}
+{{< figure src="vroom2.jpeg" alt="Installation instructions on a package individual page, ready to be copy-pasted." >}}
 
 -   direct links to reverse dependencies.
 
-{{\< figure src="vroom3.png" alt="List of 'users' of a package, that is a list of links to reverse dependencies." \>}}
+{{< figure src="vroom3.jpeg" alt="List of 'users' of a package, that is a list of links to reverse dependencies." >}}
 
-Happy space flying! :rocket: Report any bug or feature requests to [our central station](https://github.com/r-universe-org/help).
+Happy space flying! :rocket: Report any bug or feature request to [our central station](https://github.com/r-universe-org/help).
 
-<!-- Can use same coworking text every month and ping Steffi to ask if there are any special guests to add -->
+### Next coworking sessions
 
 Join us for social coworking & office hours monthly on 1st Tuesdays! Hosted by Steffi LaZerte and various community hosts. Everyone welcome. No RSVP needed. Consult our [Events](/events) page to find your local time and how to join.
+
+-   [Tuesday, 07 June 2022 9 AM Australian Western / 1:00 UTC](/events/coworking-2022-06/) "Tackle something you've always wanted to learn" *Hosted by community host Nick Tierney and [Steffi LaZerte](/author/steffi-lazerte/)*
+    -   Cowork on a project of your choice;
+    -   Take this time to tackle something you've always wanted to learn;
+    -   Or talk to [Nick Tierney](https://ropensci.org/author/nicholas-tierney/) and discuss what it is you want to learn, and get some tips and resources to get yourself started!
 
 Find out about more [events](/events).
 
@@ -182,7 +187,15 @@ As the maintainer of an rOpenSci package, feel free to contact us on Slack or em
 
 Some useful tips for R package developers. :eyes:
 
-<!-- To be curated by hand -->
+### HTML \> PDF
+
+This paragraph is not about LaTeX, but about screen-reader users! Please take time to read this [email by Jonathan Godfrey on R-pkg-devel](https://stat.ethz.ch/pipermail/r-package-devel/2022q2/007953.html).
+
+> Please consider the HTML alternative to any pdf, in any context, but especially in anything relating to R.
+
+Community member Lluís Revilla Sancho also highlighted that [search.r-project.org](https://search.r-project.org/) provides HTML documentation for all CRAN documentation.
+
+### 
 
 ## Last words
 
