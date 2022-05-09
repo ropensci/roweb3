@@ -1,17 +1,16 @@
 ---
-slug: "post-template"
-title: Latest rOpenSci News Digest
+title: rOpenSci News Digest, May 2022
 author:
   - The rOpenSci Team
-date: '2022-01-16'
+date: '2022-05-09'
+slug: ropensci-news-digest-may-2022
+categories: []
 tags:
   - newsletter
-description: keywords from the content
-output:
-  html_document:
-    keep_md: yes
+description: R-universe new features! Co-working sessions. New packages and package news.
+output: hugodown::md_document
 params:
-  last_newsletter: "2022-05-20"
+  last_newsletter: '2022-04-22'
 ---
 
 ```{r setup, include=FALSE}
@@ -43,9 +42,33 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-<!-- to be curated manually -->
+### R-universe prominently displays more information on packages!
 
-<!-- Can use same coworking text every month and ping Steffi to ask if there are any special guests to add -->
+Packages on [r-universe.dev](https://r-universe.dev) are now described with even more metadata to help users compare and assess them: count of GitHub stars, (transitive) dependencies, dependent packages and an overall score of the package (similar to pagerank).
+
+{{< figure src="search.png" alt="Package card on R-universe, including a count of github stars, (transitive) dependencies / dependent packages and an overall score of the package (similar to pagerank)" >}}
+
+You will see these numbers both in the search results and in package individual pages.
+
+{{< figure src="vroom1.png" alt="Top of a package individual pages featuring the same badges." >}}
+
+Try it out as we'll be finetuning the search ranking in particular!
+
+These metrics are not the only improvement to package individual pages:
+You might have also noticed (and used!) 
+
+- installation instructions, 
+
+{{< figure src="vroom2.png" alt="Installation instructions on a package individual page, ready to be copy-pasted." >}}
+
+- direct links to reverse dependencies.
+
+{{< figure src="vroom3.png" alt="List of 'users' of a package, that is a list of links to reverse dependencies." >}}
+
+Happy space flying! :rocket: Report any bug or feature requests to [our central station](https://github.com/r-universe-org/help).
+
+### Next coworking sessions
+
 Join us for social coworking & office hours monthly on 1st Tuesdays! Hosted by Steffi LaZerte  and various community hosts. Everyone welcome. No RSVP needed. Consult our [Events](/events) page to find your local time and how to join.
 
 
