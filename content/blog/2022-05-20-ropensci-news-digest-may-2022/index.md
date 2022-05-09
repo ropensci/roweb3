@@ -2,7 +2,7 @@
 title: rOpenSci News Digest, May 2022
 author:
   - The rOpenSci Team
-date: '2022-05-09'
+date: '2022-05-20'
 slug: ropensci-news-digest-may-2022
 categories: []
 tags:
@@ -11,13 +11,13 @@ description: R-universe new features! Co-working sessions. New packages and pack
 output: hugodown::md_document
 params:
   last_newsletter: '2022-04-22'
-rmd_hash: fc487db81f975f37
+rmd_hash: 6421966969e9d82f
 
 ---
 
 <!-- Before sending DELETE THE INDEX_CACHE and re-knit! -->
 
-Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> You can read this post [on our blog](/blog/2022/05/09/ropensci-news-digest-may-2022). Now let's dive into the activity at and around rOpenSci!
+Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> You can read this post [on our blog](/blog/2022/05/20/ropensci-news-digest-may-2022). Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
@@ -175,19 +175,26 @@ Explore [other use cases](/usecases) and [report your own](https://discuss.ropen
 
 ## Call for maintainers
 
-<!--IF CALL
-* [our guidance on _Changing package maintainers_](https://devguide.ropensci.org/changing-maintainers.html)
-* [our _Package Curation Policy_](https://devguide.ropensci.org/curationpolicy.html)
+We're looking for a new maintainer, or a new maintainer *team*, for each of the following packages:
 
-IF NO CALL
-There are no open calls for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
-As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. -->
+-   [phylotaR](https://docs.ropensci.org/phylotaR/), Automated Retrieval of Orthologous DNA Sequences from GenBank. [Issue for volunteering](https://github.com/ropensci/phylotaR/issues/57).
+
+-   [restez](https://docs.ropensci.org/restez/), Locally query GenBank. [Issue for volunteering](https://github.com/ropensci/restez/issues/23).
+
+-   [outsider](https://docs.ropensci.org/outsider/), Install and run programs, outside of R, inside of R. [Issue for volunteering](https://github.com/ropensci/outsider/issues/16).
+
+If you're interested, please comment in the issues or email `info@ropensci.org`.
+
+For more info, see
+
+-   [our guidance on *Changing package maintainers*](https://devguide.ropensci.org/changing-maintainers.html);
+-   [our *Package Curation Policy*](https://devguide.ropensci.org/curationpolicy.html).
 
 ## Package development corner
 
 Some useful tips for R package developers. :eyes:
 
-### HTML \> PDF
+### Documentation: HTML \> PDF
 
 This paragraph is not about LaTeX, but about screen-reader users! Please take time to read this [email by Jonathan Godfrey on R-pkg-devel](https://stat.ethz.ch/pipermail/r-package-devel/2022q2/007953.html).
 
@@ -195,7 +202,25 @@ This paragraph is not about LaTeX, but about screen-reader users! Please take ti
 
 Community member Lluís Revilla Sancho also highlighted that [search.r-project.org](https://search.r-project.org/) provides HTML documentation for all CRAN documentation.
 
-### 
+### Twelve quick tips for software design
+
+You might enjoy the article ["Twelve quick tips for software design"](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009809) by Greg Wilson. It is not R specific but is relevant to package development. "Design with everyone in mind" can for instance remind of the previous point about HTML documentation.
+
+### Renaming the default branch
+
+If you've been considering renaming the default branch from master (oppressive language) to main, do not miss the Tidyverse blog post Jenny Bryan wrote in October 2021 ["Renaming the default branch"](https://www.tidyverse.org/blog/2021/10/renaming-default-branch/), especially as it features useful usethis functions!
+
+### Code hints: why, how?
+
+Sometimes your code can infer what the next user step should be, or what the next *possible* user *steps* could be. How to make it easy for the user to run these hints?
+
+Here's some inspiration:
+
+-   You could use [`usethis::ui_todo()`](https://usethis.r-lib.org/reference/ui.html) paired with [`usethis::ui_code()`](https://usethis.r-lib.org/reference/ui.html), as done in usethis itself.
+
+-   If your code is run in RStudio, you could use [`rstudioapi::sendToConsole()`](https://rdrr.io/pkg/rstudioapi/man/sendToConsole.html). [Example](https://github.com/cynkra/fledge/blob/520b9b2e36da7bc58136378407f1f4454bfbeadf/R/finalize-version.R#L63-L80=).
+
+-   Also in RStudio (RStudio daily at the time of writing), with the latest version of cli, you could use `cli::style_hyperlink(<code-hint>, paste0("rstudio:run:testthat::", <code-hint>))` that creates a link in messages returned by your function in the console. The user will be able to click on the link to execute the code! [Example](https://github.com/r-lib/testthat/blob/0f24eae7bd2cd7d0fbe5a5492636731d66d0dd26/R/snapshot.R#L408-L415=)
 
 ## Last words
 
