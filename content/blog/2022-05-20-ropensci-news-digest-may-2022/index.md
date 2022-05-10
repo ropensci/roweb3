@@ -11,7 +11,7 @@ description: R-universe new features! Co-working sessions. New packages and pack
 output: hugodown::md_document
 params:
   last_newsletter: '2022-04-22'
-rmd_hash: 6421966969e9d82f
+rmd_hash: 61fe6129d7d44501
 
 ---
 
@@ -112,7 +112,9 @@ There are seventeen recently closed and active submissions and 4 submissions on 
 
     -   [healthdatacsv](https://github.com/ropensci/software-review/issues/358), Access data in the healthdata.gov catalog. Submitted by [iecastro](http://iecastro.netlify.com).
 
--   Four at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
+-   Five at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
+
+    -   [datefixR](https://github.com/ropensci/software-review/issues/533), Fix Really Messy Dates. Submitted by [Nathan Constantine-Cooke](http://constantine-cooke.com).
 
     -   [yfR](https://github.com/ropensci/software-review/issues/523), Downloads and Organizes Financial Data from Yahoo Finance. Submitted by [Marcelo S. Perlin](https://www.msperlin.com/blog/).
 
@@ -124,15 +126,13 @@ There are seventeen recently closed and active submissions and 4 submissions on 
 
 -   Three at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
-    -   [datefixR](https://github.com/ropensci/software-review/issues/533), Fix Really Messy Dates. Submitted by [Nathan Constantine-Cooke](http://constantine-cooke.com).
+    -   [aorsf](https://github.com/ropensci/software-review/issues/532), Accelerated Oblique Random Survival Forests. Submitted by [Byron](https://github.com/bcjaeger).
 
     -   [octolog](https://github.com/ropensci/software-review/issues/502), Better Github Action Logging. Submitted by [Jacob Wujciak-Jens](https://github.com/assignUser).
 
     -   [bssm](https://github.com/ropensci/software-review/issues/489), Bayesian Inference of Non-Linear and Non-Gaussian State Space. Submitted by [Jouni Helske](http://jounihelske.netlify.app). (Stats).
 
--   Three at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
-
-    -   [aorsf](https://github.com/ropensci/software-review/issues/532), Accelerated Oblique Random Survival Forests. Submitted by [Byron](https://github.com/bcjaeger).
+-   Two at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
 
     -   [hudr](https://github.com/ropensci/software-review/issues/524), A R interface for accessing HUD (US Department of Housing and Urban Development) APIs. Submitted by [Emmet Tam](https://github.com/etam4260).
 
@@ -209,18 +209,6 @@ You might enjoy the article ["Twelve quick tips for software design"](https://jo
 ### Renaming the default branch
 
 If you've been considering renaming the default branch from master (oppressive language) to main, do not miss the Tidyverse blog post Jenny Bryan wrote in October 2021 ["Renaming the default branch"](https://www.tidyverse.org/blog/2021/10/renaming-default-branch/), especially as it features useful usethis functions!
-
-### Code hints: why, how?
-
-Sometimes your code can infer what the next user step should be, or what the next *possible* user *steps* could be. How to make it easy for the user to run these hints?
-
-Here's some inspiration:
-
--   You could use [`usethis::ui_todo()`](https://usethis.r-lib.org/reference/ui.html) paired with [`usethis::ui_code()`](https://usethis.r-lib.org/reference/ui.html), as done in usethis itself.
-
--   If your code is run in RStudio, you could use [`rstudioapi::sendToConsole()`](https://rdrr.io/pkg/rstudioapi/man/sendToConsole.html). [Example](https://github.com/cynkra/fledge/blob/520b9b2e36da7bc58136378407f1f4454bfbeadf/R/finalize-version.R#L63-L80=).
-
--   Also in RStudio (RStudio daily at the time of writing), with the latest version of cli, you could use `cli::style_hyperlink(<code-hint>, paste0("rstudio:run:testthat::", <code-hint>))` that creates a link in messages returned by your function in the console. The user will be able to click on the link to execute the code! [Example](https://github.com/r-lib/testthat/blob/0f24eae7bd2cd7d0fbe5a5492636731d66d0dd26/R/snapshot.R#L408-L415=)
 
 ## Last words
 
