@@ -561,6 +561,8 @@ We're looking for a new maintainer, or a new maintainer _team_, for each of the 
 
 * [outsider](https://docs.ropensci.org/outsider/), Install and run programs, outside of R, inside of R. [Issue for volunteering](https://github.com/ropensci/outsider/issues/16).
 
+* [hddtools](https://docs.ropensci.org/hddtools/), Hydrological Data Discovery Tools. [Issue for volunteering](https://github.com/ropensci/hddtools/issues/31).
+
 If you're interested, please comment in the issues or email `info@ropensci.org`.
 
 For more info, see

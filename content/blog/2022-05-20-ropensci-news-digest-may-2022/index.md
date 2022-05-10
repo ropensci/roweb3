@@ -11,7 +11,7 @@ description: R-universe new features! Co-working sessions. New packages and pack
 output: hugodown::md_document
 params:
   last_newsletter: '2022-04-22'
-rmd_hash: 61fe6129d7d44501
+rmd_hash: b31e916b6b19264c
 
 ---
 
@@ -182,6 +182,8 @@ We're looking for a new maintainer, or a new maintainer *team*, for each of the 
 -   [restez](https://docs.ropensci.org/restez/), Locally query GenBank. [Issue for volunteering](https://github.com/ropensci/restez/issues/23).
 
 -   [outsider](https://docs.ropensci.org/outsider/), Install and run programs, outside of R, inside of R. [Issue for volunteering](https://github.com/ropensci/outsider/issues/16).
+
+-   [hddtools](https://docs.ropensci.org/hddtools/), Hydrological Data Discovery Tools. [Issue for volunteering](https://github.com/ropensci/hddtools/issues/31).
 
 If you're interested, please comment in the issues or email `info@ropensci.org`.
 
