@@ -274,6 +274,108 @@
    "home": "https://jwhollister.com/"
 }, 
 {
+   "name": "Ben Bolker",
+   "url": "https://ms.mcmaster.ca/~bolker/",
+   "image": "/img/team/ben-bolker.jpg",
+   "affiliation": "McMaster University",
+   "roles": [
+      "stat peer-review advisor",
+      "editor"
+   ],
+   "stats": true,
+   "twitter": "bolkerb",
+   "home": "https://ms.mcmaster.ca/~bolker/"
+},
+{
+   "name": "Rebecca Killick",
+   "affiliation": "Lancaster University",
+   "url": "http://www.lancs.ac.uk/~killick/",
+   "image": "/img/team/rebecca-killick.jpg",
+   "roles": [
+      "stat peer-review advisor",
+      "editor"
+   ],
+   "stats": true,
+   "home": "http://www.lancs.ac.uk/~killick/"
+},
+{
+   "name": "Stephanie Hicks",
+   "url": "https://www.stephaniehicks.com/",
+   "image": "/img/team/stephanie-hicks.jpg",
+   "affiliation" : "Johns Hopkins University",
+   "roles": [
+      "stat peer-review advisor",
+      "editor"
+   ],
+   "stats": true,
+   "twitter": "stephaniehicks",
+   "home": "https://www.stephaniehicks.com/"
+},
+{
+   "name": "Paula Moraga",
+   "affiliation": "King Abdullah University of Science and Technology",
+   "url": "https://www.paulamoraga.com/",
+   "image": "/img/team/paula-moraga.jpg",
+   "roles": [
+      "stat peer-review advisor",
+      "editor"
+   ],
+   "stats": true,
+   "twitter": "Paula_Moraga_",
+   "home": "http://www.paulamoraga.com/"
+},
+{
+   "name": "Leonardo Collado-Torres",
+   "affiliation": "Lieber Institute for Brain Development",
+   "url": "https://lcolladotor.github.io",
+   "image": "/img/team/leo-torres.png",
+   "roles": [
+      "stat peer-review advisor",
+      "editor"
+   ],
+   "stats": true,
+   "twitter": "lcolladotor",
+   "home": "https://lcolladotor.github.io"
+},
+{
+    "name": "Toby Hocking",
+   "affiliation": "Northern Arizona University",
+   "url": "http://tdhock.github.io/",
+   "image": "/img/team/toby-hocking.jpg",
+   "roles": [
+      "stat peer-review advisor",
+      "editor"
+   ],
+   "stats": true,
+   "home": "https://tdhock.github.io"
+},
+{
+   "name": "Max Kuhn",
+   "affiliation": "RStudio",
+   "url": "http://appliedpredictivemodeling.com/",
+   "image": "/img/team/max-kuhn.jpg",
+   "past_roles": [
+      "stat peer-review advisor"
+   ],
+   "twitter": "topepos",
+   "stats": true,
+   "home": "https://appliedpredictivemodeling.com/",
+   "alumnus": true
+},
+{
+   "name": "Martin Morgan",
+   "affiliation": "Roswell Park Comprehensive Cancer Center",
+   "url": "https://www.roswellpark.org/martin-morgan",
+   "image": "/img/team/martin-morgan.jpg",
+   "past_roles": [
+      "stat peer-review advisor"
+   ],
+   "twitter": "mt_morgan",
+   "home": "https://www.roswellpark.org/martin-morgan",
+   "alumnus": true,
+   "stats": true
+},
+{
    "name": "Kelly Hondula",
    "url": "https://www.sesync.org/users/khondula",
    "image" : "/img/team/kelly-hondula.jpg",
