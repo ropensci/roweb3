@@ -27,7 +27,7 @@
             </p>
           </div>
         </div>
-        {{ $editors := (shuffle ( where (.Site.Data.team.team) "roles" "intersect" ( slice "editor" ) ))}}
+        {{ $editors := (shuffle (where ( where (.Site.Data.team.team) "roles" "intersect" ( slice "editor" ) ) "stats" "!=" "true" ))}}
         {{ partial "whole-page-fragments/team/team-section" (dict "team" $editors)  }}
           <div class="row about-block">
           <div class="col-md-3 text-md-right">
