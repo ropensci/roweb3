@@ -23,7 +23,7 @@ Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> Y
 
 ### R-universe prominently displays more information on packages!
 
-Packages on [r-universe.dev](https://r-universe.dev) are now described with even more metadata to help users compare and assess them: count of GitHub stars, (transitive) dependencies, dependent packages and an overall score of the package (similar to pagerank).
+Packages on [r-universe.dev](https://r-universe.dev) are now described with even more metadata to help users compare and assess them: count of GitHub stars, an overall score of the package (similar to pagerank), (transitive) dependencies, and dependent packages.
 
 {{< figure src="search.jpeg" alt="Package card on R-universe, including a count of github stars, (transitive) dependencies / dependent packages and an overall score of the package (similar to pagerank)" >}}
 
@@ -35,7 +35,7 @@ Try it out as we'll be finetuning the search ranking in particular!
 
 These metrics are not the only improvement to package individual pages: You might have also noticed (and used!)
 
--   installation instructions,
+-   installation instructions, and,
 
 {{< figure src="vroom2.jpeg" alt="Installation instructions on a package individual page, ready to be copy-pasted." >}}
 
@@ -43,7 +43,7 @@ These metrics are not the only improvement to package individual pages: You migh
 
 {{< figure src="vroom3.jpeg" alt="List of 'users' of a package, that is a list of links to reverse dependencies." >}}
 
-Happy space flying! :rocket: Report any bug or feature request to [our central station](https://github.com/r-universe-org/help).
+Happy space travels! :rocket: Report any bug or feature request to [our central station](https://github.com/r-universe-org/help).
 
 ### Next coworking sessions
 
