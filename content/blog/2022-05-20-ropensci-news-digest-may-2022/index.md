@@ -11,7 +11,7 @@ description: R-universe new features! Co-working sessions. New packages and pack
 output: hugodown::md_document
 params:
   last_newsletter: '2022-04-22'
-rmd_hash: d27eb7064bbf2d65
+rmd_hash: 69926cfd89d02789
 
 ---
 
@@ -23,27 +23,27 @@ Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> Y
 
 ### R-universe prominently displays more information on packages!
 
-Packages on [r-universe.dev](https://r-universe.dev) are now described with even more metadata to help users compare and assess them: count of GitHub stars, an overall score of the package (similar to pagerank), (transitive) dependencies, and dependent packages.
+The [r-universe.dev](https://r-universe.dev) platform now shows even more information and metadata to help users quickly find and compare relevant R packages for a given topic, maintainer or organization:
 
-{{< figure src="search.jpeg" alt="Package card on R-universe, including a count of github stars, (transitive) dependencies / dependent packages and an overall score of the package (similar to pagerank)" >}}
+{{< tweet user="opencpu" id="1525063398903402498" >}}
 
-You will see these numbers both in the search results and in package individual pages.
+In addition to static information about the package and its authors, the dashboard now shows the number of GitHub stars, (transitive) dependencies, and dependent packages, and an overall score that we use to rank search results (similar to pagerank).
 
-{{< figure src="vroom1.jpeg" alt="Top of a package individual pages featuring the same badges." >}}
+{{< figure src="search.png" alt="Package card on R-universe, including a count of github stars, (transitive) dependencies / dependent packages and an overall score of the package (similar to pagerank)" link="https://r-universe.dev/search/#imputation" >}}
 
-Try it out as we'll be finetuning the search ranking in particular!
+You will see these numbers both in the search results and in package individual pages (we'll be posting a more detailed technote about the search ranking soon).
 
-These metrics are not the only improvement to package individual pages: You might have also noticed (and used!)
+{{< figure src="vroom1.png" alt="Top of a package individual pages featuring the same badges." link="https://tidyverse.r-universe.dev/ui#package:vroom" >}}
 
--   installation instructions, and,
+These metrics are not the only improvement to package individual pages: You might have also noticed readme content and installation instructions:
 
-{{< figure src="vroom2.jpeg" alt="Installation instructions on a package individual page, ready to be copy-pasted." >}}
+{{< figure src="vroom2.png" alt="Installation instructions on a package individual page, ready to be copy-pasted." link="https://tidyverse.r-universe.dev/ui#package:vroom" >}}
 
--   direct links to reverse dependencies.
+And towards the bottom of the page you can find information about the commit and release activity, contributors, and reverse dependencies of the package:
 
-{{< figure src="vroom3.jpeg" alt="List of 'users' of a package, that is a list of links to reverse dependencies." >}}
+{{< figure src="vroom3.png" alt="List of 'users' of a package, that is a list of links to reverse dependencies." link="https://tidyverse.r-universe.dev/ui#package:vroom" >}}
 
-Happy space travels! :rocket: Report any bug or feature request to [our central station](https://github.com/r-universe-org/help).
+Happy space travels! :rocket: Please report bugs or feature requests to [our central station](https://github.com/r-universe-org/help).
 
 ### Next coworking sessions
 
@@ -86,7 +86,7 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 </div>
 
-The following ten packages have had an update since the last newsletter: [EML](https://docs.ropensci.org/EML "Read and Write Ecological Metadata Language Files") ([`v2.0.6`](https://github.com/ropensci/EML/releases/tag/v2.0.6)), [GSODR](https://docs.ropensci.org/GSODR "Global Surface Summary of the Day (GSOD) Weather Data Client") ([`3.1.5`](https://github.com/ropensci/GSODR/releases/tag/3.1.5)), [jagstargets](https://docs.ropensci.org/jagstargets "Targets for JAGS Workflows") ([`1.0.2`](https://github.com/ropensci/jagstargets/releases/tag/1.0.2)), [mctq](https://docs.ropensci.org/mctq "Tools to Process the Munich ChronoType Questionnaire (MCTQ)") ([`v0.2.0`](https://github.com/ropensci/mctq/releases/tag/v0.2.0)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.7.1`](https://github.com/ropensci/nodbi/releases/tag/v0.7.1)), [opencv](https://docs.ropensci.org/opencv "Bindings to OpenCV Computer Vision Library") ([`v0.2.2`](https://github.com/ropensci/opencv/releases/tag/v0.2.2)), [skimr](https://docs.ropensci.org/skimr "Compact and Flexible Summaries of Data") ([`v2.1.4`](https://github.com/ropensci/skimr/releases/tag/v2.1.4)), [stplanr](https://docs.ropensci.org/stplanr "Sustainable Transport Planning") ([`v0.9.0`](https://github.com/ropensci/stplanr/releases/tag/v0.9.0)), [terrainr](https://docs.ropensci.org/terrainr "Landscape Visualizations in R and Unity") ([`v0.7.0`](https://github.com/ropensci/terrainr/releases/tag/v0.7.0)), and [unifir](https://docs.ropensci.org/unifir "A Unifying API for Calling the Unity 3D Video Game Engine") ([`v0.2.0`](https://github.com/ropensci/unifir/releases/tag/v0.2.0)).
+The following ten packages have had an update since the last newsletter: [EML](https://docs.ropensci.org/EML "Read and Write Ecological Metadata Language Files") ([`v2.0.6`](https://github.com/ropensci/EML/releases/tag/v2.0.6)), [GSODR](https://docs.ropensci.org/GSODR "Global Surface Summary of the Day (GSOD) Weather Data Client") ([`3.1.5`](https://github.com/ropensci/GSODR/releases/tag/3.1.5)), [jagstargets](https://docs.ropensci.org/jagstargets "Targets for JAGS Workflows") ([`1.0.2`](https://github.com/ropensci/jagstargets/releases/tag/1.0.2)), [lightr](https://docs.ropensci.org/lightr "Read Spectrometric Data and Metadata") ([`v1.7.0`](https://github.com/ropensci/lightr/releases/tag/v1.7.0)), [mctq](https://docs.ropensci.org/mctq "Tools to Process the Munich ChronoType Questionnaire (MCTQ)") ([`v0.2.0`](https://github.com/ropensci/mctq/releases/tag/v0.2.0)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.7.1`](https://github.com/ropensci/nodbi/releases/tag/v0.7.1)), [skimr](https://docs.ropensci.org/skimr "Compact and Flexible Summaries of Data") ([`v2.1.4`](https://github.com/ropensci/skimr/releases/tag/v2.1.4)), [stplanr](https://docs.ropensci.org/stplanr "Sustainable Transport Planning") ([`v0.9.0`](https://github.com/ropensci/stplanr/releases/tag/v0.9.0)), [terrainr](https://docs.ropensci.org/terrainr "Landscape Visualizations in R and Unity") ([`v0.7.0`](https://github.com/ropensci/terrainr/releases/tag/v0.7.0)), and [unifir](https://docs.ropensci.org/unifir "A Unifying API for Calling the Unity 3D Video Game Engine") ([`v0.2.1`](https://github.com/ropensci/unifir/releases/tag/v0.2.1)).
 
 ## Software Peer Review
 

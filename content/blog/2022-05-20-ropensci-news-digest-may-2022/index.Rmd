@@ -44,36 +44,38 @@ Now let's dive into the activity at and around rOpenSci!
 
 ### R-universe prominently displays more information on packages!
 
-Packages on [r-universe.dev](https://r-universe.dev) are now described with even more metadata to help users compare and assess them: count of GitHub stars, an overall score of the package (similar to pagerank), (transitive) dependencies, and dependent packages.
+
+The [r-universe.dev](https://r-universe.dev) platform now shows even more information and metadata to help users quickly find and compare relevant R packages for a given topic, maintainer or organization:
 
 ```{=html}
-{{< figure src="search.jpeg" alt="Package card on R-universe, including a count of github stars, (transitive) dependencies / dependent packages and an overall score of the package (similar to pagerank)" >}}
+{{< tweet user="opencpu" id="1525063398903402498" >}}
 ```
 
-You will see these numbers both in the search results and in package individual pages.
+In addition to static information about the package and its authors, the dashboard now shows the number of GitHub stars, (transitive) dependencies, and dependent packages, and an overall score that we use to rank search results (similar to pagerank).
 
 ```{=html}
-{{< figure src="vroom1.jpeg" alt="Top of a package individual pages featuring the same badges." >}}
+{{< figure src="search.png" alt="Package card on R-universe, including a count of github stars, (transitive) dependencies / dependent packages and an overall score of the package (similar to pagerank)" link="https://r-universe.dev/search/#imputation" >}}
 ```
 
-Try it out as we'll be finetuning the search ranking in particular!
-
-These metrics are not the only improvement to package individual pages:
-You might have also noticed (and used!) 
-
-- installation instructions, and,
+You will see these numbers both in the search results and in package individual pages (we'll be posting a more detailed technote about the search ranking soon).
 
 ```{=html}
-{{< figure src="vroom2.jpeg" alt="Installation instructions on a package individual page, ready to be copy-pasted." >}}
+{{< figure src="vroom1.png" alt="Top of a package individual pages featuring the same badges." link="https://tidyverse.r-universe.dev/ui#package:vroom" >}}
 ```
 
-- direct links to reverse dependencies.
+These metrics are not the only improvement to package individual pages: You might have also noticed readme content and installation instructions:
 
 ```{=html}
-{{< figure src="vroom3.jpeg" alt="List of 'users' of a package, that is a list of links to reverse dependencies." >}}
+{{< figure src="vroom2.png" alt="Installation instructions on a package individual page, ready to be copy-pasted." link="https://tidyverse.r-universe.dev/ui#package:vroom" >}}
 ```
 
-Happy space travels! :rocket: Report any bug or feature request to [our central station](https://github.com/r-universe-org/help).
+And towards the bottom of the page you can find information about the commit and release activity, contributors, and reverse dependencies of the package:
+
+```{=html}
+{{< figure src="vroom3.png" alt="List of 'users' of a package, that is a list of links to reverse dependencies." link="https://tidyverse.r-universe.dev/ui#package:vroom" >}}
+```
+
+Happy space travels! :rocket: Please report bugs or feature requests to [our central station](https://github.com/r-universe-org/help).
 
 ### Next coworking sessions
 
