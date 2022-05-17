@@ -138,7 +138,7 @@ The costs linked to buffy usage are:
 * a subscription to Heroku or a similar service to ensure the app is always listening.
 
 In our experience, adopting buffy has been worth it as once it's well adopted, it
-* decreases the cognitive load needed for handling a review as one does not need to hop into different tabs or apps;
+* decreases the cognitive load needed for handling a review as one does not need to switch between different tabs or apps;
 * simplifies future process changes, as the command could remain the same whilst the background tasks change.
 
 Feel free to comment with any question you might have about buffy!
