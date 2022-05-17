@@ -36,9 +36,9 @@ It is a **Ruby codebase** that one can
 
 * **configure** and **extend**, 
 * then **deploy** on for instance Heroku where it is on all the time, 
-* and hook into **GitHub issues** via, well, **webhooks**.
+* and hook into **GitHub issues** via, well, **webhooks**. 🪝
 
-Every time a new issue is opened, every time a comment is created, their contents are sent to the deployed app.
+Every time a new issue is opened, every time an issue comment is created, their contents are sent to the deployed app.
 If it corresponds to the **regular expression** of a **registered command**, something happens: a check is launched somewhere, a database is updated, information is copied back to the GitHub issue, etc.
 
 The "visible" bot is the **GitHub account used as bot face**: commands are addressed to it, and a "Personal" Access Token of its is used to post GitHub issue comments.
@@ -49,6 +49,6 @@ Note that one of the responders allows to launch a GitHub Action Workflow which 
 
 ## The editorial bot generator buffy is for you if...
 
-* You run a submission process (of papers, software, conference abstracts) handled in GitHub issue threads?
-* Your process involves tedious steps (editing issue comments, copy-pasting URLs into an external database, running automatic checking tools) that can be automated via scripts interacting with web APIs?
-* You can recognize interesting responders in [buffy docs](https://buffy.readthedocs.io/en/latest/) or you have Ruby talent on your payroll that could [write custom responders](https://buffy.readthedocs.io/en/latest/custom_responder.html) for you?
+* You run a submission process (of papers, software, conference abstracts) that is handled in GitHub issue threads (or could be moved there)?
+* Your process involves tedious steps (editing issue comments, switching issue labels, copy-pasting URLs into an external database, running automatic checking tools) that can be automated via scripts possibly interacting with web APIs?
+* You can recognize interesting responders in [buffy docs](https://buffy.readthedocs.io/en/latest/) or you have Ruby talent on your team or contractor contacts, who could [write custom responders](https://buffy.readthedocs.io/en/latest/custom_responder.html) for you?
