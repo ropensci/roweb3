@@ -71,5 +71,25 @@ We can observe, on the left, a GitHub issue thread corresponding to a submission
 - various commenters who are the author, the editor, reviewers, the bot account.
 
 Every time an issue is created or updated with a new comment, information about that event is sent to the central app via a webhook.
-There on Heroku, if the comment corresponds to a registered command, actions are made accordingly.
+There on Heroku, if the comment corresponds to a registered command, actions (the formerly _tedious steps_ 🙂) are made accordingly.
 Possible actions include filling an Airtable base via Airtable API, launching an external software check on a [plumber API](https://www.rplumber.io/), inviting the author to the ropensci GitHub organization, posting a comment back into the GitHub issue thread with some results or confirmation.
+
+How does one achieve this?
+
+### Initial preparation & installation steps
+
+* Read / skim through [buffy readthedocs website](https://buffy.readthedocs.io/en). You can also check out the [readthedocs website of rOpenSci's version of buffy](https://buffy-ropensci.readthedocs.io/en/latest/) in case some of our custom responders are relevant for you (they are at the bottom of the list, with rOpenSci in front of their name).
+
+Follow [buffy installation instructions](https://buffy.readthedocs.io/en/latest/installation.html).
+
+* Fork the buffy codebase to an organization of yours, create a branch there. Ours is named `ropensci`. The organization does not have to be where the review repository also lives.
+* Create a test review repository, that is to say a copy of your production review repository so you can experiment without bothering serious watchers. The copy should contain the same issue templates and labels.
+* [Create a bot account](https://buffy.readthedocs.io/en/latest/installation.html#create-the-bot-github-user) (save its credentials and 2FA method into, for instance, your team's 1Password vault). Give it access to your production and test review repositories. It might even need more access to your GitHub organization based on what you'll task it to do. Follow buffy docs to create a Personal Access Token, save it temporarily on your computer as you'll need to save it in the app configuration.
+* Set up a Heroku account and app for [buffy deployment](https://buffy-ropensci.readthedocs.io/en/latest/installation.html#deploy-buffy) -- or do the same on another service such as Render. Following the instructions worked for us. Make sure your pricing tier allows for the app to listen all the time. If the app is sleeping it will not be able to digest comments from GitHub.
+* In your test and production repositories, [set up a webhook](https://buffy-ropensci.readthedocs.io/en/latest/installation.html#configure-a-webhook-to-send-events-from-github-to-buffy) to send GitHub issue comments to Heroku or your other service.
+ 
+As mentioned in the docs, at this stage in your test review repository you can write the following comment (replace the username with your bot account username)
+
+```
+@ropensci-review-bot help
+```
