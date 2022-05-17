@@ -126,7 +126,7 @@ If it works, you will be convinced you have added one feature to your system, co
 
 Afterwards, the feature should be officially released by telling actors of your system about it.
 In our case, we wrote announcements in the slack channel we have for editors, and we updated our dev guide.
-Updating guidance is particularly rewarding as bot commants typically replace lines of tedious task descriptions. :grin:
+Updating guidance is particularly rewarding as bot commands typically replace lines of tedious task descriptions. :grin:
 
 ## Conclusion
 
