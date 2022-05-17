@@ -2,6 +2,7 @@
 title: 'Editorial Automation: Why & How to Set Up Chat-Ops for your Own Review System on GitHub'
 author:
   - Maëlle Salmon
+  - Mark Padgham
 date: '2022-06-02'
 slug: chatops-review-system-github
 categories: []
