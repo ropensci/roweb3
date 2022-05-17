@@ -44,7 +44,7 @@ If it corresponds to the **regular expression** of a **registered command**, som
 The "visible" bot is the **GitHub account used as bot face**: commands are addressed to it, and a "Personal" Access Token of its is used to post GitHub issue comments.
 
 The initial set of possible commands and actions is the list of buffy **responders**.
-One can add responders by writing buffy code following documented instructions.
+One can add responders by writing buffy code following [documented instructions](https://buffy.readthedocs.io/en/latest/custom_responder.html).
 Note that one of the responders allows to launch a GitHub Action Workflow which can circumvent absence of Ruby knowledge on a team -- although a pure Ruby responder would be faster.
 You can also send a call to any API, so if you can build an external API, you can really implement many things.
 
