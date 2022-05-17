@@ -80,6 +80,9 @@ Happy space travels! :rocket: Please report bugs or feature requests to [our cen
 
 Our automated package checking system was extended [last month to include a report on package dependency use](https://ropensci.org/blog/2022/04/22/ropensci-news-digest-april-2022/#pkgcheck-reports-now-include-dependencies).
 Another check has been added this month which fails if a package has any functions with names duplicated in other packages.
+Having unique function names is the best way to avoid [namespace conflicts](https://conflicted.r-lib.org/).
+One of the easiest ways to ensure unique function names is to name all functions with a package-specific prefix, like in [the gh](https://gh.r-lib.org/reference/index.html) or [gert packages](https://docs.ropensci.org/gert/reference/index.html).
+
 Packages with duplicate function names will produce an initial check summary like this:
 
 ```{=html}
