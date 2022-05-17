@@ -108,9 +108,9 @@ Good news: you can keep doing this forever depending on how your needs evolve.
 Bad news: you _will_ keep doing this forever as you'll always see opportunies for improvement. :wink:
 
 To configure your buffy installation you will be making changes in these places
-* In the `/config/settings-production.yml` file of the branch of your buffy fork;
-* In other folders of the branch of your buffy fork if you are _adding custom responders_;
-* In issue templates (`.github/ISSUE_TEMPLATE`) and buffy templates `.buffy/templates` of your review repository (or repositories, if you created a test review repository for experimenting with buffy, which we'd recommend). Indeed, issue templates will contain placeholders/wrappers for HTML variables like `<!--editor-->  <!--end-editor-->` -- otherwise the bot won't be able to fill this information. _buffy_ templates are for comments you will want the bot to post, for instance a checklist at the end of the review process.
+* In the `/config/settings-production.yml` file of the branch of your **buffy fork**;
+* In other folders of the branch of your **buffy fork** if you are _adding custom responders_;
+* In issue templates (`.github/ISSUE_TEMPLATE`) and buffy templates `.buffy/templates` of your **review repository (or repositories**, if you created a test review repository for experimenting with buffy, which we'd recommend). Indeed, issue templates will contain placeholders/wrappers for HTML variables like `<!--editor-->  <!--end-editor-->` -- otherwise the bot won't be able to fill this information. _buffy_ templates are for comments you will want the bot to post, for instance a checklist at the end of the review process.
 
 Follow buffy docs on [configuration](https://buffy.readthedocs.io/en/latest/configuration.html).
 You will be adding (registering) responders by adding them to the YAML file `/config/settings-production.yml`, with subfields indicating some options.
@@ -118,3 +118,10 @@ For instance you might want to use the ["assign editor" responder](https://buffy
 
 You'll find responders and their parameters in buffy docs. 
 You can also check out the [readthedocs website of rOpenSci's version of buffy](https://buffy-ropensci.readthedocs.io/en/latest/) in case some of our custom responders are relevant for you (they are at the bottom of the list, with rOpenSci in front of their name).
+
+After each responder addition or configuration, try it out by creating issues and typing comments in them.
+If it works, you will be convinced you have added one feature to your system, congratulations!
+
+Afterwards, the feature should be officially released by telling actors of your system about it.
+In our case, we wrote announcements in the slack channel we have for editors, and we updated our dev guide.
+Updating guidance is particularly rewarding as bot commants typically replace lines of tedious task descriptions. :grin:
