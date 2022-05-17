@@ -125,3 +125,18 @@ If it works, you will be convinced you have added one feature to your system, co
 Afterwards, the feature should be officially released by telling actors of your system about it.
 In our case, we wrote announcements in the slack channel we have for editors, and we updated our dev guide.
 Updating guidance is particularly rewarding as bot commants typically replace lines of tedious task descriptions. :grin:
+
+## Conclusion
+
+In this post we presented the editorial bot generator buffy.
+We hope to make it easier for you to choose whether to adopt it for your own submission system, and to know _how_ to adopt it.
+The costs linked to buffy usage are:
+* developer time to set it up, tweak or add responders, document its usage, long-term maintenance;
+* users' time to learn how to use GitHub comments (lower cost for newcomers to your system, higher cost for those who had gotten used to tedious steps);
+* a subscription to Heroku or a similar service to ensure the app is always listening.
+
+In our experience, adopting buffy has been worth it as once it's well adopted, it
+* decreases the cognitive load needed for handling a review as one does not need to hop into different tabs or apps;
+* simplifies future process changes, as the command could remain the same whilst the background tasks change.
+
+Feel free to comment with any question you might have about buffy!
