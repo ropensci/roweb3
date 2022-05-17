@@ -27,38 +27,38 @@ Similarly, we can use the following command to register a reviewer in the submis
 @ropensci-review-bot add @maelle to reviewers
 ```
 
-Inspiring?
+Inspired?
 In this post we shall explain how to assess whether adopting the editorial bot generator buffy, like we did, is the right fit for your system.
 We will detail steps involved in setting buffy up for your own needs.
 
 ## What is an editorial bot generator?
 
 The editorial bot generator buffy is the tool that supports the aforementioned commands.
-It is a **Ruby codebase** that one can 
+It is a **Ruby codebase** that can 
 
-* **configure** and **extend**, 
-* then **deploy** on for instance Heroku where it is on all the time, 
+be * **configured** and **extended**, 
+* then be **deployed** on for instance Heroku where it is on all the time, 
 * and hook into **GitHub issues or pull requests** via, well, **webhooks**. 🪝
 
 Every time a new issue is opened, every time an issue comment is created, their contents are sent to the deployed app.
 If it corresponds to the **regular expression** of a **registered command**, something happens: a check is launched somewhere, a database is updated, information is copied back to the GitHub issue, etc.
 
-The "visible" bot is the **GitHub account used as bot face**: commands are addressed to it, and a "Personal" Access Token of its is used to post GitHub issue comments.
+The "visible" bot is the [**GitHub account used as bot face**](https://github.com/ropensci-review-bot): commands are addressed to it, and a "Personal" Access Token of its is used to post GitHub issue comments.
 
 The initial set of possible commands and actions is the [list](https://buffy.readthedocs.io/en/latest/available_responders.html) of buffy **responders**.
 One can add responders by writing buffy code following [documented instructions](https://buffy.readthedocs.io/en/latest/custom_responder.html).
 Note that one of the responders allows to launch a GitHub Action Workflow which can circumvent absence of Ruby knowledge on a team -- although a pure Ruby responder would be faster.
 You can also send a call to any API, so if you can build an external API, you can really implement many things.
 
-## The editorial bot generator buffy is for you if...
+## The editorial bot generator is for you if...
 
 * You run a submission process (of papers, software, conference abstracts) that is handled in GitHub issue (or pull request) threads (or could be moved there)?
 * Your process involves tedious steps (editing issue/PR comments, switching issue/PR labels, copy-pasting URLs into an external database, running automatic checking tools) that can be automated via scripts possibly interacting with web APIs?
 * You can recognize interesting responders in [buffy docs](https://buffy.readthedocs.io/en/latest/) or you have Ruby talent on your team or contractor contacts, who could [write custom responders](https://buffy.readthedocs.io/en/latest/custom_responder.html) for you?
 * You have time and resources to spend at least a few days setting it up and communicating the change of processes to your users?
-* You have, little but longer term, time to maintain the installation e.g. responding to Heroku security updates or updating your buffy codebase with upstream changes?
+* You are able to devote the small amount of time necessary to maintain the installation e.g. responding to Heroku security updates or updating your buffy codebase with upstream changes?
 
-## How to set up the editorial bot generator buffy for your system
+## How to set up the editorial bot generator for your system
 
 We shall first show how buffy usage works, afterwards we shall go into details of how to get there.
 The following diagram represents the whole automation toolset we use for rOpenSci software peer-review.
