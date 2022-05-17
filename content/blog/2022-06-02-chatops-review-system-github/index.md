@@ -38,7 +38,7 @@ It is a **Ruby codebase** that one can
 
 * **configure** and **extend**, 
 * then **deploy** on for instance Heroku where it is on all the time, 
-* and hook into **GitHub issues** via, well, **webhooks**. 🪝
+* and hook into **GitHub issues or pull requests** via, well, **webhooks**. 🪝
 
 Every time a new issue is opened, every time an issue comment is created, their contents are sent to the deployed app.
 If it corresponds to the **regular expression** of a **registered command**, something happens: a check is launched somewhere, a database is updated, information is copied back to the GitHub issue, etc.
@@ -52,8 +52,8 @@ You can also send a call to any API, so if you can build an external API, you ca
 
 ## The editorial bot generator buffy is for you if...
 
-* You run a submission process (of papers, software, conference abstracts) that is handled in GitHub issue threads (or could be moved there)?
-* Your process involves tedious steps (editing issue comments, switching issue labels, copy-pasting URLs into an external database, running automatic checking tools) that can be automated via scripts possibly interacting with web APIs?
+* You run a submission process (of papers, software, conference abstracts) that is handled in GitHub issue (or pull request) threads (or could be moved there)?
+* Your process involves tedious steps (editing issue/PR comments, switching issue/PR labels, copy-pasting URLs into an external database, running automatic checking tools) that can be automated via scripts possibly interacting with web APIs?
 * You can recognize interesting responders in [buffy docs](https://buffy.readthedocs.io/en/latest/) or you have Ruby talent on your team or contractor contacts, who could [write custom responders](https://buffy.readthedocs.io/en/latest/custom_responder.html) for you?
 * You have time and resources to spend at least a few days setting it up and communicating the change of processes to your users?
 * You have, little but longer term, time to maintain the installation e.g. responding to Heroku security updates or updating your buffy codebase with upstream changes?
@@ -85,11 +85,11 @@ How does one achieve this?
 Follow [buffy installation instructions](https://buffy.readthedocs.io/en/latest/installation.html).
 
 * Fork the buffy codebase to an organization of yours, create a branch there. Ours is named `ropensci`. The organization does not have to be where the review repository also lives.
-* Create a test review repository, that is to say a copy of your production review repository so you can experiment without bothering serious watchers. The test repository should contain the same issue templates and issue labels as the production repository.
+* Create a test review repository, that is to say a copy of your production review repository so you can experiment without bothering serious watchers. The test repository should contain the same issue/PR templates and issue/PR labels as the production repository.
 * [Create a bot account](https://buffy.readthedocs.io/en/latest/installation.html#create-the-bot-github-user) (save its credentials and 2FA method into, for instance, your team's 1Password vault). Give it access to your production and test review repositories. It might even need more access to your GitHub organization based on what you'll task it to do. Follow buffy docs to create a Personal Access Token, save it temporarily on your computer as you'll need to save it in the app configuration.
 * Set up a Heroku account and app for [buffy deployment](https://buffy-ropensci.readthedocs.io/en/latest/installation.html#deploy-buffy) -- or do the same on another service such as Render. Following the instructions worked for us. Make sure your pricing tier allows for the app to listen all the time. If the app is sleeping it will not be able to digest comments from GitHub.
 * Check the build logs of your Heroku apps indicate success.
-* In your test and production repositories, [set up a webhook](https://buffy-ropensci.readthedocs.io/en/latest/installation.html#configure-a-webhook-to-send-events-from-github-to-buffy) to send GitHub issue comments to Heroku or your other service.
+* In your test and production repositories, [set up a webhook](https://buffy-ropensci.readthedocs.io/en/latest/installation.html#configure-a-webhook-to-send-events-from-github-to-buffy) to send GitHub issue/PR comments to Heroku or your other service.
  
 As mentioned in the docs, at this stage in your test review repository you can write the following comment (replace the username with your bot account username)
 
@@ -112,7 +112,7 @@ Bad news: you _will_ keep doing this forever as you'll always see opportunies fo
 To configure your buffy installation you will be making changes in these places
 * In the `/config/settings-production.yml` file of the branch of your **buffy fork**;
 * In other folders of the branch of your **buffy fork** if you are _adding custom responders_;
-* In issue templates (`.github/ISSUE_TEMPLATE`) and buffy templates `.buffy/templates` of your **review repository (or repositories**, if you created a test review repository for experimenting with buffy, which we'd recommend). Indeed, issue templates will contain placeholders/wrappers for HTML variables like `<!--editor-->  <!--end-editor-->` -- otherwise the bot won't be able to fill this information. _buffy_ templates are for comments you will want the bot to post, for instance a checklist at the end of the review process.
+* In issue templates (`.github/ISSUE_TEMPLATE`) or PR templates (`.github/PULL_REQUEST_TEMPLATE`) and buffy templates `.buffy/templates` of your **review repository (or repositories**, if you created a test review repository for experimenting with buffy, which we'd recommend). Indeed, issue or PR templates will contain placeholders/wrappers for HTML variables like `<!--editor-->  <!--end-editor-->` -- otherwise the bot won't be able to fill this information. _buffy_ templates are for comments you will want the bot to post, for instance a checklist at the end of the review process.
 
 Follow buffy docs on [configuration](https://buffy.readthedocs.io/en/latest/configuration.html).
 You will be adding (registering) responders by adding them to the YAML file `/config/settings-production.yml`, with subfields indicating some options.
@@ -121,7 +121,7 @@ For instance you might want to use the ["assign editor" responder](https://buffy
 You'll find responders and their parameters in buffy docs. 
 You can also check out the [readthedocs website of rOpenSci's version of buffy](https://buffy-ropensci.readthedocs.io/en/latest/) in case some of our custom responders are relevant for you (they are at the bottom of the list, with rOpenSci in front of their name).
 
-After each responder addition or configuration, try it out by creating issues and typing comments in them.
+After each responder addition or configuration, try it out by creating issues (or pull requests if that's your process) and typing comments in them.
 If it works, you will be convinced you have added one feature to your system, congratulations!
 
 Afterwards, the feature should be officially released by telling actors of your system about it.
