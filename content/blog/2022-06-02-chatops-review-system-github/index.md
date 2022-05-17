@@ -34,7 +34,7 @@ We will detail steps involved in setting buffy up for your own needs.
 
 ## What is an editorial bot generator?
 
-The editorial bot generator buffy is the tool that supports the aforementioned commands.
+The editorial bot generator [Buffy](https://github.com/openjournals/buffy) is the tool that supports the aforementioned commands.
 It is a **Ruby codebase** that can 
 
 be * **configured** and **extended**, 
