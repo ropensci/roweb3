@@ -580,8 +580,6 @@ We're looking for a new maintainer, or a new maintainer _team_, for each of the 
 
 * [phylotaR](https://docs.ropensci.org/phylotaR/), Automated Retrieval of Orthologous DNA Sequences from GenBank. [Issue for volunteering](https://github.com/ropensci/phylotaR/issues/57).
 
-* [restez](https://docs.ropensci.org/restez/), Locally query GenBank. [Issue for volunteering](https://github.com/ropensci/restez/issues/23).
-
 * [outsider](https://docs.ropensci.org/outsider/), Install and run programs, outside of R, inside of R. [Issue for volunteering](https://github.com/ropensci/outsider/issues/16).
 
 * [hddtools](https://docs.ropensci.org/hddtools/), Hydrological Data Discovery Tools. [Issue for volunteering](https://github.com/ropensci/hddtools/issues/31).

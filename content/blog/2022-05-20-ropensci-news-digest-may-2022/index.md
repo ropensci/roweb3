@@ -11,7 +11,7 @@ description: R-universe new features! Co-working sessions. New packages and pack
 output: hugodown::md_document
 params:
   last_newsletter: '2022-04-22'
-rmd_hash: 69926cfd89d02789
+rmd_hash: f979871ba44f32c9
 
 ---
 
@@ -86,7 +86,7 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 </div>
 
-The following ten packages have had an update since the last newsletter: [EML](https://docs.ropensci.org/EML "Read and Write Ecological Metadata Language Files") ([`v2.0.6`](https://github.com/ropensci/EML/releases/tag/v2.0.6)), [GSODR](https://docs.ropensci.org/GSODR "Global Surface Summary of the Day (GSOD) Weather Data Client") ([`3.1.5`](https://github.com/ropensci/GSODR/releases/tag/3.1.5)), [jagstargets](https://docs.ropensci.org/jagstargets "Targets for JAGS Workflows") ([`1.0.2`](https://github.com/ropensci/jagstargets/releases/tag/1.0.2)), [lightr](https://docs.ropensci.org/lightr "Read Spectrometric Data and Metadata") ([`v1.7.0`](https://github.com/ropensci/lightr/releases/tag/v1.7.0)), [mctq](https://docs.ropensci.org/mctq "Tools to Process the Munich ChronoType Questionnaire (MCTQ)") ([`v0.2.0`](https://github.com/ropensci/mctq/releases/tag/v0.2.0)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.7.1`](https://github.com/ropensci/nodbi/releases/tag/v0.7.1)), [skimr](https://docs.ropensci.org/skimr "Compact and Flexible Summaries of Data") ([`v2.1.4`](https://github.com/ropensci/skimr/releases/tag/v2.1.4)), [stplanr](https://docs.ropensci.org/stplanr "Sustainable Transport Planning") ([`v0.9.0`](https://github.com/ropensci/stplanr/releases/tag/v0.9.0)), [terrainr](https://docs.ropensci.org/terrainr "Landscape Visualizations in R and Unity") ([`v0.7.0`](https://github.com/ropensci/terrainr/releases/tag/v0.7.0)), and [unifir](https://docs.ropensci.org/unifir "A Unifying API for Calling the Unity 3D Video Game Engine") ([`v0.2.1`](https://github.com/ropensci/unifir/releases/tag/v0.2.1)).
+The following eleven packages have had an update since the last newsletter: [EML](https://docs.ropensci.org/EML "Read and Write Ecological Metadata Language Files") ([`v2.0.6`](https://github.com/ropensci/EML/releases/tag/v2.0.6)), [GSODR](https://docs.ropensci.org/GSODR "Global Surface Summary of the Day (GSOD) Weather Data Client") ([`3.1.5`](https://github.com/ropensci/GSODR/releases/tag/3.1.5)), [jagstargets](https://docs.ropensci.org/jagstargets "Targets for JAGS Workflows") ([`1.0.2`](https://github.com/ropensci/jagstargets/releases/tag/1.0.2)), [lightr](https://docs.ropensci.org/lightr "Read Spectrometric Data and Metadata") ([`v1.7.0`](https://github.com/ropensci/lightr/releases/tag/v1.7.0)), [mctq](https://docs.ropensci.org/mctq "Tools to Process the Munich ChronoType Questionnaire (MCTQ)") ([`v0.2.0`](https://github.com/ropensci/mctq/releases/tag/v0.2.0)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.7.1`](https://github.com/ropensci/nodbi/releases/tag/v0.7.1)), [opencv](https://docs.ropensci.org/opencv "Bindings to OpenCV Computer Vision Library") ([`v0.2.2`](https://github.com/ropensci/opencv/releases/tag/v0.2.2)), [skimr](https://docs.ropensci.org/skimr "Compact and Flexible Summaries of Data") ([`v2.1.4`](https://github.com/ropensci/skimr/releases/tag/v2.1.4)), [stplanr](https://docs.ropensci.org/stplanr "Sustainable Transport Planning") ([`v0.9.0`](https://github.com/ropensci/stplanr/releases/tag/v0.9.0)), [terrainr](https://docs.ropensci.org/terrainr "Landscape Visualizations in R and Unity") ([`v0.7.0`](https://github.com/ropensci/terrainr/releases/tag/v0.7.0)), and [unifir](https://docs.ropensci.org/unifir "A Unifying API for Calling the Unity 3D Video Game Engine") ([`v0.2.1`](https://github.com/ropensci/unifir/releases/tag/v0.2.1)).
 
 ## Software Peer Review
 
@@ -112,11 +112,13 @@ There are seventeen recently closed and active submissions and 4 submissions on 
 
     -   [healthdatacsv](https://github.com/ropensci/software-review/issues/358), Access data in the healthdata.gov catalog. Submitted by [iecastro](http://iecastro.netlify.com).
 
--   Five at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
+-   Six at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 
     -   [datefixR](https://github.com/ropensci/software-review/issues/533), Fix Really Messy Dates. Submitted by [Nathan Constantine-Cooke](http://constantine-cooke.com).
 
     -   [yfR](https://github.com/ropensci/software-review/issues/523), Downloads and Organizes Financial Data from Yahoo Finance. Submitted by [Marcelo S. Perlin](https://www.msperlin.com/blog/).
+
+    -   [octolog](https://github.com/ropensci/software-review/issues/502), Better Github Action Logging. Submitted by [Jacob Wujciak-Jens](https://github.com/assignUser).
 
     -   [canaper](https://github.com/ropensci/software-review/issues/475), Categorical Analysis of Neo- And Paleo-Endemism. Submitted by [Joel Nitta](https://joelnitta.com). (Stats).
 
@@ -128,16 +130,13 @@ There are seventeen recently closed and active submissions and 4 submissions on 
 
     -   [aorsf](https://github.com/ropensci/software-review/issues/532), Accelerated Oblique Random Survival Forests. Submitted by [Byron](https://github.com/bcjaeger).
 
-    -   [octolog](https://github.com/ropensci/software-review/issues/502), Better Github Action Logging. Submitted by [Jacob Wujciak-Jens](https://github.com/assignUser).
+    -   [hudr](https://github.com/ropensci/software-review/issues/524), A R interface for accessing HUD (US Department of Housing and Urban Development) APIs. Submitted by [Emmet Tam](https://github.com/etam4260).
 
     -   [bssm](https://github.com/ropensci/software-review/issues/489), Bayesian Inference of Non-Linear and Non-Gaussian State Space. Submitted by [Jouni Helske](http://jounihelske.netlify.app). (Stats).
 
--   Two at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
-
-    -   [hudr](https://github.com/ropensci/software-review/issues/524), A R interface for accessing HUD (US Department of Housing and Urban Development) APIs. Submitted by [Emmet Tam](https://github.com/etam4260).
+-   One at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
 
     -   [rdbhapi](https://github.com/ropensci/software-review/issues/443), Interface to DBH-API. Submitted by [Marija Ninic](https://hkdir.no/).
-
         </div>
 
 Find out more about [Software Peer Review](/software-review) and how to get involved.
@@ -178,8 +177,6 @@ Explore [other use cases](/usecases) and [report your own](https://discuss.ropen
 We're looking for a new maintainer, or a new maintainer *team*, for each of the following packages:
 
 -   [phylotaR](https://docs.ropensci.org/phylotaR/), Automated Retrieval of Orthologous DNA Sequences from GenBank. [Issue for volunteering](https://github.com/ropensci/phylotaR/issues/57).
-
--   [restez](https://docs.ropensci.org/restez/), Locally query GenBank. [Issue for volunteering](https://github.com/ropensci/restez/issues/23).
 
 -   [outsider](https://docs.ropensci.org/outsider/), Install and run programs, outside of R, inside of R. [Issue for volunteering](https://github.com/ropensci/outsider/issues/16).
 
