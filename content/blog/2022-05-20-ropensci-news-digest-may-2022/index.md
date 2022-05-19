@@ -169,6 +169,8 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 -   [Don't Lose your HEAD over Default Branches](/blog/2022/04/29/don-t-lose-your-head-over-default-branches) by Maëlle Salmon. Use "HEAD" instead of the default branch name in links to files on GitHub, as it will work for any default branch name.
 
+-   [Requiring 2FA for Our Main GitHub Organization](/blog/2022/05/16/requiring-2fa-for-the-ropensci-github-organization) by Maëlle Salmon. How we went about requiring two-factor authentication for our main GitHub organization.
+
 </div>
 
 ## Use cases
