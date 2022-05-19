@@ -11,7 +11,7 @@ description: R-universe new features! Co-working sessions. New packages and pack
 output: hugodown::md_document
 params:
   last_newsletter: '2022-04-22'
-rmd_hash: f979871ba44f32c9
+rmd_hash: b8efdb655d136118
 
 ---
 
@@ -44,6 +44,20 @@ And towards the bottom of the page you can find information about the commit and
 {{< figure src="vroom3.png" alt="List of 'users' of a package, that is a list of links to reverse dependencies." link="https://tidyverse.r-universe.dev/ui#package:vroom" >}}
 
 Happy space travels! :rocket: Please report bugs or feature requests to [our central station](https://github.com/r-universe-org/help).
+
+### pkgcheck updates
+
+Our automated package checking system was extended [last month to include a report on package dependency use](/blog/2022/04/22/ropensci-news-digest-april-2022/#pkgcheck-reports-now-include-dependencies). Another check has been added this month which indicates if a package has any functions with names duplicated in other packages. Having unique function names is the best way to avoid [namespace conflicts](https://conflicted.r-lib.org/). One of the easiest ways to ensure unique function names is to name all functions with a package-specific prefix, like in [the gh](https://gh.r-lib.org/reference/index.html) or [gert packages](https://docs.ropensci.org/gert/reference/index.html).
+
+Packages with duplicate function names will produce an initial check summary like this:
+
+{{< figure src="pkgcheck_1.png" alt="pkgcheck summary with failing function name check." link="https://docs.ropensci.org/pkgcheck" >}}
+
+The "Details" section which follows will then include additional information like this:
+
+{{< figure src="pkgcheck_2.png" alt="pkgcheck details of failing function name check." link="https://docs.ropensci.org/pkgcheck" >}}
+
+This check relies on a database of the names of every function from every current CRAN package, which is also available for download [with the latest release of the pkgstats package](https://github.com/ropensci-review-tools/pkgstats/releases) in the file, "pkgstats-fn-names.Rds". Package authors can confirm the uniqueness of their function names by running [pkgcheck](https://docs.ropensci.org/pkgcheck) locally.
 
 ### Next coworking sessions
 
