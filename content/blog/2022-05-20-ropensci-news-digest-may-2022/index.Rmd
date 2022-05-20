@@ -1,17 +1,16 @@
 ---
-slug: "post-template"
-title: Latest rOpenSci News Digest
+title: rOpenSci News Digest, May 2022
 author:
   - The rOpenSci Team
-date: '2022-01-16'
+date: '2022-05-20'
+slug: ropensci-news-digest-may-2022
+categories: []
 tags:
   - newsletter
-description: keywords from the content
-output:
-  html_document:
-    keep_md: yes
+description: R-universe and pkgcheck new features! Co-working session. Call for New Maintainers. New packages and package news.
+output: hugodown::md_document
 params:
-  last_newsletter: "2022-05-20"
+  last_newsletter: '2022-04-22'
 ---
 
 ```{r setup, include=FALSE}
@@ -43,11 +42,72 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-<!-- to be curated manually -->
+### R-universe prominently displays more information on packages!
 
-<!-- Can use same coworking text every month and ping Steffi to ask if there are any special guests to add -->
+We have extended the [r-universe.dev](https://r-universe.dev) platform to provide even more real-time information and metadata about R packages to help users quickly find and compare relevant software for a given topic, maintainer or organization:
+
+```{=html}
+{{< tweet user="opencpu" id="1525063398903402498" >}}
+```
+
+In addition to descriptive information about the package and its authors, the dashboard now shows some basic usage metrics, such as the number of GitHub stars, (transitive) dependencies, and dependents, and an overall score that we use to rank search results (similar to pagerank).
+
+```{=html}
+{{< figure src="search.png" alt="Package card on R-universe, including a count of github stars, (transitive) dependencies / dependent packages and an overall score of the package (similar to pagerank)" link="https://r-universe.dev/search/#imputation" >}}
+```
+
+You will see these numbers both in the search results and in package individual pages (we'll be posting a more detailed technote about the search ranking soon).
+
+```{=html}
+{{< figure src="vroom1.png" alt="Top of a package individual pages featuring the same badges." link="https://tidyverse.r-universe.dev/ui#package:vroom" >}}
+```
+
+These metrics are not the only improvement to package individual pages: You might have also noticed readme content and installation instructions:
+
+```{=html}
+{{< figure src="vroom2.png" alt="Installation instructions on a package individual page, ready to be copy-pasted." link="https://tidyverse.r-universe.dev/ui#package:vroom" >}}
+```
+
+And towards the bottom of the page you can find information about the commit and release activity, contributors, and reverse dependencies of the package:
+
+```{=html}
+{{< figure src="vroom3.png" alt="List of 'users' of a package, that is a list of links to reverse dependencies." link="https://tidyverse.r-universe.dev/ui#package:vroom" >}}
+```
+
+Happy space travels! :rocket: Please report bugs or feature requests to [our central station](https://github.com/r-universe-org/help).
+
+### pkgcheck updates
+
+Our automated package checking system was extended [last month to include a report on package dependency use](/blog/2022/04/22/ropensci-news-digest-april-2022/#pkgcheck-reports-now-include-dependencies).
+Another check has been added this month which indicates if a package has any functions with names duplicated in other packages.
+Having unique function names is the best way to avoid [namespace conflicts](https://conflicted.r-lib.org/).
+One of the easiest ways to ensure unique function names is to name all functions with a package-specific prefix, like in [the gh](https://gh.r-lib.org/reference/index.html) or [gert packages](https://docs.ropensci.org/gert/reference/index.html).
+
+Packages with duplicate function names will produce an initial check summary like this:
+
+```{=html}
+{{< figure src="pkgcheck_1.png" alt="pkgcheck summary with failing function name check." link="https://docs.ropensci.org/pkgcheck" >}}
+```
+
+The "Details" section which follows will then include additional information like this:
+
+```{=html}
+{{< figure src="pkgcheck_2.png" alt="pkgcheck details of failing function name check." link="https://docs.ropensci.org/pkgcheck" >}}
+```
+
+This check relies on a database of the names of every function from every current CRAN package, which is also available for download [with the latest release of the pkgstats package](https://github.com/ropensci-review-tools/pkgstats/releases) in the file, "pkgstats-fn-names.Rds".
+Package authors can confirm the uniqueness of their function names by running [pkgcheck](https://docs.ropensci.org/pkgcheck) locally.
+
+### Next coworking sessions
+
 Join us for social coworking & office hours monthly on 1st Tuesdays! Hosted by Steffi LaZerte  and various community hosts. Everyone welcome. No RSVP needed. Consult our [Events](/events) page to find your local time and how to join.
 
+* [Tuesday, 07 June 2022 9 AM Australian Western / 1:00 UTC ](/events/coworking-2022-06/) "Tackle something you've always wanted to learn" *Hosted by community host Nick Tierney and [Steffi LaZerte](/author/steffi-lazerte/)*
+  * Cowork on a project of your choice; 
+  * Take this time to tackle something you've always wanted to learn;
+  * Or talk to [Nick Tierney](https://ropensci.org/author/nicholas-tierney/) and discuss what it is you want to learn, and get some tips and resources to get yourself started!
+  
+We're taking a break on Coworking events for July and August, so we'll see you in September!
 
 Find out about more [events](/events).
 
@@ -518,19 +578,47 @@ Explore [other use cases](/usecases) and [report your own](https://discuss.ropen
 
 ## Call for maintainers
 
-<!--IF CALL
-* [our guidance on _Changing package maintainers_](https://devguide.ropensci.org/changing-maintainers.html)
-* [our _Package Curation Policy_](https://devguide.ropensci.org/curationpolicy.html)
+We're looking for a new maintainer, or a new maintainer _team_, for each of the following packages:
 
-IF NO CALL
-There are no open calls for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
-As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. -->
+* [phylotaR](https://docs.ropensci.org/phylotaR/), Automated Retrieval of Orthologous DNA Sequences from GenBank. [Issue for volunteering](https://github.com/ropensci/phylotaR/issues/57).
+
+* [outsider](https://docs.ropensci.org/outsider/), Install and run programs, outside of R, inside of R. [Issue for volunteering](https://github.com/ropensci/outsider/issues/16).
+
+* [hddtools](https://docs.ropensci.org/hddtools/), Hydrological Data Discovery Tools. [Issue for volunteering](https://github.com/ropensci/hddtools/issues/31).
+
+* [gistr](https://docs.ropensci.org/gistr/), Work with GitHub Gists. [Issue for volunteering](https://github.com/ropensci/gistr/issues/85).
+
+* [geojsonio](https://docs.ropensci.org/geojsonio/), Convert many data formats to & from GeoJSON & TopoJSON. [Issue for volunteering](https://github.com/ropensci/geojsonio/issues/178).
+
+If you're interested, please comment in the issues or email `info@ropensci.org`.
+
+For more info, see
+
+* [our guidance on _Changing package maintainers_](https://devguide.ropensci.org/changing-maintainers.html);
+* [our _Package Curation Policy_](https://devguide.ropensci.org/curationpolicy.html).
 
 ## Package development corner
 
 Some useful tips for R package developers. :eyes:
 
-<!-- To be curated by hand -->
+### Documentation: HTML > PDF
+
+This paragraph is not about LaTeX, but about screen-reader users!
+Please take time to read this [email by Jonathan Godfrey on R-pkg-devel](https://stat.ethz.ch/pipermail/r-package-devel/2022q2/007953.html).
+
+> Please consider the HTML alternative to any pdf, in any context, but especially in anything relating to R.
+
+Community member Lluís Revilla Sancho also highlighted that [search.r-project.org](https://search.r-project.org/) provides HTML documentation for all CRAN documentation.
+
+### Twelve quick tips for software design
+
+You might enjoy the article ["Twelve quick tips for software design"](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009809) by Greg Wilson.
+It is not R specific but is relevant to package development.
+"Design with everyone in mind" can for instance remind of the previous point about HTML documentation.
+
+### Renaming the default branch
+
+If you've been considering renaming the default branch from master (oppressive language) to main, do not miss the Tidyverse blog post Jenny Bryan wrote in October 2021 ["Renaming the default branch"](https://www.tidyverse.org/blog/2021/10/renaming-default-branch/), especially as it features useful usethis functions!
 
 ## Last words
 

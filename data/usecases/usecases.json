@@ -515,7 +515,7 @@
   {
     "title": "Spanish and English blogs on how to use rtweet and magick",
     "reporter": "Rayna Harris",
-    "tags": ["r", "magick", "rtweet", "spanish"],
+    "tags": ["r", "rtweet", "magick", "spanish"],
     "resource": "[rtweet](https://docs.ropensci.org/rtweet), [magick](https://docs.ropensci.org/magick)",
     "url": "https://discuss.ropensci.org/t/spanish-and-english-blogs-on-how-to-use-rtweet-and-magick/2188",
     "image": "spanish-and-english-blogs-on-how-to-use-rtweet-and-magick.png",
@@ -839,7 +839,7 @@
   {
     "title": "Answering 'what colour is London?' with magick and rtweet",
     "reporter": "Matt Dray",
-    "tags": ["magick", "rtweet"],
+    "tags": ["rtweet", "magick"],
     "resource": "rtweet magick",
     "url": "https://discuss.ropensci.org/t/answering-what-colour-is-london-with-magick-and-rtweet/2562",
     "image": "answering-what-colour-is-london-with-magick-and-rtweet.jpeg",
@@ -947,10 +947,19 @@
   {
     "title": "Estimating leaf temperatures worldwide",
     "reporter": "Paul Melloy",
-    "tags": "r",
+    "tags": ["r", "nasapower"],
     "resource": "[nasapower](https://docs.ropensci.org/nasapower)",
     "url": "https://discuss.ropensci.org/t/estimating-leaf-temperatures-worldwide/2908",
     "image": "estimating-leaf-temperatures-worldwide.png",
     "date": "2022-04-21"
+  },
+  {
+    "title": "Analyze your Twitter timeline with {rtweet} and {lubridate}",
+    "reporter": "Albert Rapp",
+    "tags": ["rtweet", "lubridate", "twitter"],
+    "resource": "[rtweet](https://docs.ropensci.org/rtweet)",
+    "url": "https://discuss.ropensci.org/t/analyze-your-twitter-timeline-with-rtweet-and-lubridate/2931",
+    "image": "analyze-your-twitter-timeline-with-rtweet-and-lubridate.png",
+    "date": "2022-05-14"
   }
 ]
