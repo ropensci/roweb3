@@ -7,11 +7,11 @@ slug: ropensci-news-digest-may-2022
 categories: []
 tags:
   - newsletter
-description: R-universe new features! Co-working sessions. New packages and package news.
+description: R-universe and pkgcheck new features! Co-working session. Call for New Maintainers. New packages and package news.
 output: hugodown::md_document
 params:
   last_newsletter: '2022-04-22'
-rmd_hash: b8efdb655d136118
+rmd_hash: 8761881e95f74217
 
 ---
 
@@ -68,6 +68,8 @@ Join us for social coworking & office hours monthly on 1st Tuesdays! Hosted by S
     -   Take this time to tackle something you've always wanted to learn;
     -   Or talk to [Nick Tierney](https://ropensci.org/author/nicholas-tierney/) and discuss what it is you want to learn, and get some tips and resources to get yourself started!
 
+We're taking a break on Coworking events for July and August, so we'll see you in September!
+
 Find out about more [events](/events).
 
 ## Software :package:
@@ -86,7 +88,14 @@ The following four packages recently became a part of our software suite:
 
 -   [EDIutils](https://docs.ropensci.org/EDIutils), developed by Colin Smith: A client for the Environmental Data Initiative repository REST API. The EDI data repository <https://portal.edirepository.org/nis/home.jsp> is for publication and reuse of ecological data with emphasis on metadata accuracy and completeness. It is built upon the PASTA+ software stack <https://pastaplus-core.readthedocs.io/en/latest/index.html#> and was developed in collaboration with the US LTER Network <https://lternet.edu/>. EDIutils includes functions to search and access existing data, evaluate and upload new data, and assist other data management tasks common to repository users. It has been [reviewed](https://github.com/ropensci/software-review/issues/498) by Jasmine Lai, and Rodrigo Pires.
 
--   [ReLTER](https://docs.ropensci.org/ReLTER), developed by Alessandro Oggioni together with Micha Silver, Paolo Tagliolato, and Luigi Ranghetti: ReLTER provides access to DEIMS-SDR (<https://deims.org/>), and allows interaction with data and software implemented by eLTER Research Infrastructure (RI) thus improving data sharing among European LTER projects. ReLTER uses the R language to access and interact with the DEIMS-SDR archive of information shared by the Long Term Ecological Research (LTER) network. This package grew within eLTER H2020 as a major project that will help advance the development of European Long-Term Ecosystem Research Infrastructures (eLTER RI - <https://elter-ri.eu>). The ReLTER package functions in particular allow to: - retrieve the information about entities (e.g. sites, datasets, and activities) shared by DEIMS-SDR (see e.g. get_site_info function); - interact with the [ODSEurope](maps.opendatascience.eu) starting with the dataset shared by [DEIMS-SDR](https://deims.org/) (see e.g. [get_site_ODS](https://docs.ropensci.org/ReLTER/reference/get_site_ODS.html) function); - use the eLTER site informations to download and crop geospatial data from other platforms (see e.g. get_site_ODS function); - improve the quality of the dataset (see e.g. get_id_worms). Functions currently implemented are derived from discussions of the needs among the eLTER users community. The ReLTER package will continue to follow the progress of eLTER-RI and evolve, adding new tools and improvements as required.
+-   [ReLTER](https://docs.ropensci.org/ReLTER), developed by Alessandro Oggioni together with Micha Silver, Paolo Tagliolato, and Luigi Ranghetti: ReLTER provides access to DEIMS-SDR (<https://deims.org/>), and allows interaction with data and software implemented by eLTER Research Infrastructure (RI) thus improving data sharing among European LTER projects. ReLTER uses the R language to access and interact with the DEIMS-SDR archive of information shared by the Long Term Ecological Research (LTER) network. This package grew within eLTER H2020 as a major project that will help advance the development of European Long-Term Ecosystem Research Infrastructures (eLTER RI - <https://elter-ri.eu>). The ReLTER package functions in particular allow to: 
+    - retrieve the information about entities (e.g. sites, datasets, and activities) shared by DEIMS-SDR (see e.g. get_site_info function); 
+    - interact with the [ODSEurope](maps.opendatascience.eu) starting with the dataset shared by [DEIMS-SDR](https://deims.org/) (see e.g. [get_site_ODS](https://docs.ropensci.org/ReLTER/reference/get_site_ODS.html) function); 
+    - use the eLTER site informations to download and crop geospatial data from other platforms (see e.g. get_site_ODS function); 
+    - improve the quality of the dataset (see e.g. get_id_worms). 
+
+Functions currently implemented are derived from discussions of the needs among the eLTER users community. 
+The ReLTER package will continue to follow the progress of eLTER-RI and evolve, adding new tools and improvements as required.
 
 -   [unifir](https://docs.ropensci.org/unifir), developed by Michael Mahoney: Functions for the creation and manipulation of scenes and objects within the Unity 3D video game engine (<https://unity.com/>). Specific focuses include the creation and import of terrain data and GameObjects as well as scene management. It is available on [CRAN](https://CRAN.R-project.org/package=unifir). It has been [reviewed](https://github.com/ropensci/software-review/issues/521) by Will Jones, and Tan Tran.
 
@@ -126,9 +135,11 @@ There are seventeen recently closed and active submissions and 4 submissions on 
 
     -   [healthdatacsv](https://github.com/ropensci/software-review/issues/358), Access data in the healthdata.gov catalog. Submitted by [iecastro](http://iecastro.netlify.com).
 
--   Six at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
+-   Seven at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 
     -   [datefixR](https://github.com/ropensci/software-review/issues/533), Fix Really Messy Dates. Submitted by [Nathan Constantine-Cooke](http://constantine-cooke.com).
+
+    -   [hudr](https://github.com/ropensci/software-review/issues/524), A R interface for accessing HUD (US Department of Housing and Urban Development) APIs. Submitted by [Emmet Tam](https://github.com/etam4260).
 
     -   [yfR](https://github.com/ropensci/software-review/issues/523), Downloads and Organizes Financial Data from Yahoo Finance. Submitted by [Marcelo S. Perlin](https://www.msperlin.com/blog/).
 
@@ -140,11 +151,9 @@ There are seventeen recently closed and active submissions and 4 submissions on 
 
     -   [ROriginStamp](https://github.com/ropensci/software-review/issues/433), Interface to OriginStamp API to Obtain Trusted Time Stamps. Submitted by [Rainer M Krug](https://github.com/rkrug).
 
--   Three at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
+-   Two at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
     -   [aorsf](https://github.com/ropensci/software-review/issues/532), Accelerated Oblique Random Survival Forests. Submitted by [Byron](https://github.com/bcjaeger).
-
-    -   [hudr](https://github.com/ropensci/software-review/issues/524), A R interface for accessing HUD (US Department of Housing and Urban Development) APIs. Submitted by [Emmet Tam](https://github.com/etam4260).
 
     -   [bssm](https://github.com/ropensci/software-review/issues/489), Bayesian Inference of Non-Linear and Non-Gaussian State Space. Submitted by [Jouni Helske](http://jounihelske.netlify.app). (Stats).
 
@@ -179,11 +188,14 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 </div>
 
-One use case of our packages and resources has been reported since we sent the last newsletter.
+Two use cases of our packages and resources have been reported since we sent the last newsletter.
 
 <div class='highlight'>
 
 -   [Estimating leaf temperatures worldwide](https://discuss.ropensci.org/t/estimating-leaf-temperatures-worldwide/2908). Reported by Paul Melloy.
+
+-   [Analyze your Twitter timeline with {rtweet} and {lubridate}](https://discuss.ropensci.org/t/analyze-your-twitter-timeline-with-rtweet-and-lubridate/2931). Reported by Albert Rapp.
+
     </div>
 
 Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)!
@@ -199,6 +211,8 @@ We're looking for a new maintainer, or a new maintainer *team*, for each of the 
 -   [hddtools](https://docs.ropensci.org/hddtools/), Hydrological Data Discovery Tools. [Issue for volunteering](https://github.com/ropensci/hddtools/issues/31).
 
 -   [gistr](https://docs.ropensci.org/gistr/), Work with GitHub Gists. [Issue for volunteering](https://github.com/ropensci/gistr/issues/85).
+
+-   [geojsonio](https://docs.ropensci.org/geojsonio/), Convert many data formats to & from GeoJSON & TopoJSON. [Issue for volunteering](https://github.com/ropensci/geojsonio/issues/178).
 
 If you're interested, please comment in the issues or email `info@ropensci.org`.
 

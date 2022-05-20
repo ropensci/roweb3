@@ -7,7 +7,7 @@ slug: ropensci-news-digest-may-2022
 categories: []
 tags:
   - newsletter
-description: R-universe new features! Co-working sessions. New packages and package news.
+description: R-universe and pkgcheck new features! Co-working session. Call for New Maintainers. New packages and package news.
 output: hugodown::md_document
 params:
   last_newsletter: '2022-04-22'
@@ -106,7 +106,9 @@ Join us for social coworking & office hours monthly on 1st Tuesdays! Hosted by S
   * Cowork on a project of your choice; 
   * Take this time to tackle something you've always wanted to learn;
   * Or talk to [Nick Tierney](https://ropensci.org/author/nicholas-tierney/) and discuss what it is you want to learn, and get some tips and resources to get yourself started!
+  
 We're taking a break on Coworking events for July and August, so we'll see you in September!
+
 Find out about more [events](/events).
 
 ## Software :package:
@@ -585,6 +587,8 @@ We're looking for a new maintainer, or a new maintainer _team_, for each of the 
 * [hddtools](https://docs.ropensci.org/hddtools/), Hydrological Data Discovery Tools. [Issue for volunteering](https://github.com/ropensci/hddtools/issues/31).
 
 * [gistr](https://docs.ropensci.org/gistr/), Work with GitHub Gists. [Issue for volunteering](https://github.com/ropensci/gistr/issues/85).
+
+* [geojsonio](https://docs.ropensci.org/geojsonio/), Convert many data formats to & from GeoJSON & TopoJSON. [Issue for volunteering](https://github.com/ropensci/geojsonio/issues/178).
 
 If you're interested, please comment in the issues or email `info@ropensci.org`.
 
