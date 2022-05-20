@@ -106,7 +106,7 @@ Join us for social coworking & office hours monthly on 1st Tuesdays! Hosted by S
   * Cowork on a project of your choice; 
   * Take this time to tackle something you've always wanted to learn;
   * Or talk to [Nick Tierney](https://ropensci.org/author/nicholas-tierney/) and discuss what it is you want to learn, and get some tips and resources to get yourself started!
-
+We're taking a break on Coworking events for July and August, so we'll see you in September!
 Find out about more [events](/events).
 
 ## Software :package:
