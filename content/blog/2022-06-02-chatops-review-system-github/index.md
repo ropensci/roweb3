@@ -13,25 +13,25 @@ tags:
   - buffy
 description: Could the editorial bot generator buffy fit your needs? How to know, how to set it up.
 twitterImg: blog/2022/06/02/chatops-review-system-github/diagram.png
-twitterAlt: Diagram representing automation for rOpenSci software peer review. On the left, a GitHub issue thread with emojis as avatars, and wobbly lines as text. Under the GitHub issue thread, a legend indicating who among the emojis is Author /Editor / Reviewer / ropensci-review-bot. At the center of the diagram is an Heroku app using the buffy Ruby tool, that receives information from GitHub via webhooks. The app digests messages received and depending on the command pings an external service represented on the right (with a plumber logo); fills the Airtable-based software review database; manages ropensci GitHub organization via GitHub API; posts back or labels in the GitHub issue thread.
+twitterAlt: Diagram representing automation for rOpenSci software peer review. On the left, is a GitHub issue thread with emojis as avatars, and wobbly lines as text. Under the GitHub issue thread, a legend indicating who among the emojis is the Author /Editor / Reviewer / ropensci-review-bot. At the center of the diagram is a Heroku app using the buffy Ruby tool, that receives information from GitHub via webhooks. The app digests messages received and depending on the command pings an external service represented on the right (with a plumber logo); fills the Airtable-based software review database; manages ropensci GitHub organization via GitHub API; posts back or labels in the GitHub issue thread.
 ---
 
-At rOpenSci Software Peer-Review, processes have been enhanced with :sparkles: automation :sparkles:. 
-For instance, for checking compliance of a software package with some criteria, instead of cloning a git repository locally, installing its dependencies, running the checks, and manually posting the results… we can simply type the following **command** into a GitHub issue comment:
+At rOpenSci Software Peer-Review, our workflow has been significantly enhanced with the use of :sparkles: automation :sparkles:. 
+To ensure that a package meets our compliance standards, we would previously clone the repository locally, install dependencies, run manual checks, gather the results, and copy-paste them into the issue thread. Now we can accomplish the same outcome with just a simple **command** into a GitHub issue comment:
 
 ```
 @ropensci-review-bot check package
 ```
 
-Similarly, we can use the following command to register a reviewer in the submission issue metadata (filling YAML data) as well as in our Airtable database.
+Similarly, we can use the following command to register a reviewer named in the submission issue metadata (filling YAML data) as well as in our Airtable database.
 
 ```
 @ropensci-review-bot add @maelle to reviewers
 ```
 
-Inspired?
-In this post we shall explain how to assess whether adopting the editorial bot generator buffy, like we did, is the right fit for your system.
-We will detail steps involved in setting buffy up for your own needs.
+Feeling inspired?
+
+In this post, we explain how to assess whether the editorial bot generator buffy might be the right fit for you. We will detail the steps involved in setting buffy up for your own needs.
 
 ## What is an editorial bot generator?
 
@@ -39,17 +39,17 @@ The editorial bot generator [Buffy](https://github.com/openjournals/buffy) is th
 It is a **Ruby codebase** that can 
 
 be * **configured** and **extended**, 
-* then be **deployed** on for instance Heroku where it is on all the time, 
+* then be **deployed** on a service like Heroku where it is always on and listening, 
 * and hook into **GitHub issues or pull requests** via, well, **webhooks**. 🪝
 
-Every time a new issue is opened, every time an issue comment is created, their contents are sent to the deployed app.
-If it corresponds to the **regular expression** of a **registered command**, something happens: a check is launched somewhere, a database is updated, information is copied back to the GitHub issue, etc.
+Every time a new issue is opened, every time an issue comment is created, its contents are sent to the deployed app.
+If it corresponds to the **regular expression** of a **registered command**, predefined steps are launched: a check is launched somewhere, a database is updated, information is copied back to the GitHub issue, etc.
 
 The "visible" bot is the [**GitHub account used as bot face**](https://github.com/ropensci-review-bot): commands are addressed to it, and a "Personal" Access Token of its is used to post GitHub issue comments.
 
 The initial set of possible commands and actions is the [list](https://buffy.readthedocs.io/en/latest/available_responders.html) of buffy **responders**.
 One can add responders by writing buffy code following [documented instructions](https://buffy.readthedocs.io/en/latest/custom_responder.html).
-Note that one of the responders allows to launch a GitHub Action Workflow which can circumvent absence of Ruby knowledge on a team -- although a pure Ruby responder would be faster.
+Note that one of the responders allows launching a GitHub Action Workflow which can circumvent the absence of Ruby knowledge on a team -- although a pure Ruby responder would be faster.
 You can also send a call to any API, so if you can build an external API, you can really implement many things.
 
 ## The editorial bot generator is for you if...
@@ -57,12 +57,12 @@ You can also send a call to any API, so if you can build an external API, you ca
 * You run a submission process (of papers, software, conference abstracts) that is handled in GitHub issue (or pull request) threads (or could be moved there)?
 * Your process involves tedious steps (editing issue/PR comments, switching issue/PR labels, copy-pasting URLs into an external database, running automatic checking tools) that can be automated via scripts possibly interacting with web APIs?
 * You can recognize interesting responders in [buffy docs](https://buffy.readthedocs.io/en/latest/) or you have Ruby talent on your team or contractor contacts, who could [write custom responders](https://buffy.readthedocs.io/en/latest/custom_responder.html) for you?
-* You have time and resources to spend at least a few days setting it up and communicating the change of processes to your users?
+* Do You have time and resources to spend at least a few days setting it up and communicating the change of processes to your users?
 * You are able to devote the small amount of time necessary to maintain the installation e.g. responding to Heroku security updates or updating your buffy codebase with upstream changes?
 
 ## How to set up the editorial bot generator for your system
 
-We shall first show how buffy usage works, afterwards we shall go into details of how to get there.
+We shall first show how buffy usage works, afterwards, we shall go into details about how to get there.
 The following diagram represents the whole automation toolset we use for rOpenSci software peer-review.
 
 {{< figure src="diagram.png" alt="Diagram representing automation for rOpenSci software peer review. On the left, a GitHub issue thread with emojis as avatars, and wobbly lines as text. Under the GitHub issue thread, a legend indicating who among the emojis is Author /Editor / Reviewer / ropensci-review-bot. At the center of the diagram is an Heroku app using the buffy Ruby tool, that receives information from GitHub via webhooks. The app digests messages received and depending on the command pings an external service represented on the right (with a plumber logo); fills the Airtable-based software review database; manages ropensci GitHub organization via GitHub API; posts back or labels in the GitHub issue thread.">}}
@@ -70,9 +70,9 @@ The following diagram represents the whole automation toolset we use for rOpenSc
 We can observe, on the left, a GitHub issue thread corresponding to a submission. The submission has 
 - a title, 
 - a body that was created based on a GitHub issue template, 
-- labels indicating the progress of the submission from editorial checks to final decision, 
+- labels indicating the progress of the submission from editorial checks to the final decision, 
 - an assignee who is the editor, 
-- various commenters who are the author, the editor, reviewers, the bot account.
+- various commenters who are the author, the editor, reviewers, and the bot account.
 
 Every time an issue is created or updated with a new comment, information about that event is sent to the central app via a webhook.
 There on Heroku, if the comment corresponds to a registered command, actions (the formerly _tedious steps_ 🙂) are made accordingly.
@@ -86,8 +86,8 @@ How does one achieve this?
 
 Follow [buffy installation instructions](https://buffy.readthedocs.io/en/latest/installation.html).
 
-* Fork the buffy codebase to an organization of yours, create a branch there. Ours is named `ropensci`. The organization does not have to be where the review repository also lives.
-* Create a test review repository, that is to say a copy of your production review repository so you can experiment without bothering serious watchers. The test repository should contain the same issue/PR templates and issue/PR labels as the production repository.
+* Fork the buffy codebase to an organization of yours, and create a branch there. Ours is named `ropensci`. The organization does not have to be where the review repository also lives.
+* Create a test review repository, that is to say, a copy of your production review repository so you can experiment without bothering serious watchers. The test repository should contain the same issue/PR templates and issue/PR labels as the production repository.
 * [Create a bot account](https://buffy.readthedocs.io/en/latest/installation.html#create-the-bot-github-user) (save its credentials and 2FA method into, for instance, your team's 1Password vault). Give it access to your production and test review repositories. It might even need more access to your GitHub organization based on what you'll task it to do. Follow buffy docs to create a Personal Access Token, save it temporarily on your computer as you'll need to save it in the app configuration.
 * Set up a Heroku account and app for [buffy deployment](https://buffy-ropensci.readthedocs.io/en/latest/installation.html#deploy-buffy) -- or do the same on another service such as Render. Following the instructions worked for us. Make sure your pricing tier allows for the app to listen all the time. If the app is sleeping it will not be able to digest comments from GitHub.
 * Check the build logs of your Heroku apps indicate success.
@@ -109,16 +109,16 @@ What if it does not work?
 
 Now comes the time to adapt your buffy version to your needs!
 Good news: you can keep doing this forever depending on how your needs evolve.
-Bad news: you _will_ keep doing this forever as you'll always see opportunies for improvement. :wink:
+Bad news: you _will_ keep doing this forever as you'll always see opportunities for improvement. :wink:
 
 To configure your buffy installation you will be making changes in these places
 * In the `/config/settings-production.yml` file of the branch of your **buffy fork**;
 * In other folders of the branch of your **buffy fork** if you are _adding custom responders_;
-* In issue templates (`.github/ISSUE_TEMPLATE`) or PR templates (`.github/PULL_REQUEST_TEMPLATE`) and buffy templates `.buffy/templates` of your **review repository (or repositories**, if you created a test review repository for experimenting with buffy, which we'd recommend). Indeed, issue or PR templates will contain placeholders/wrappers for HTML variables like `<!--editor-->  <!--end-editor-->` -- otherwise the bot won't be able to fill this information. _buffy_ templates are for comments you will want the bot to post, for instance a checklist at the end of the review process.
+* In issue templates (`.github/ISSUE_TEMPLATE`) or PR templates (`.github/PULL_REQUEST_TEMPLATE`) and buffy templates `.buffy/templates` of your **review repository (or repositories**, if you created a test review repository for experimenting with buffy, which we'd recommend). Indeed, issue or PR templates will contain placeholders/wrappers for HTML variables like `<!--editor-->  <!--end-editor-->` -- otherwise the bot won't be able to fill this information. _buffy_ templates are for comments you will want the bot to post, for instance, a checklist at the end of the review process.
 
 Follow buffy docs on [configuration](https://buffy.readthedocs.io/en/latest/configuration.html).
 You will be adding (registering) responders by adding them to the YAML file `/config/settings-production.yml`, with subfields indicating some options.
-For instance you might want to use the ["assign editor" responder](https://buffy.readthedocs.io/en/latest/responders/assign_editor.html) to store the editor username in the issue comment _without assigning the issue to them_ so you'll set `add_as_assignee` to `false`. 
+For instance, you might want to use the ["assign editor" responder](https://buffy.readthedocs.io/en/latest/responders/assign_editor.html) to store the editor username in the issue comment _without assigning the issue to them_ so you'll set `add_as_assignee` to `false`. 
 
 You'll find responders and their parameters in buffy docs. 
 You can also check out the [readthedocs website of rOpenSci's version of buffy](https://buffy-ropensci.readthedocs.io/en/latest/) in case some of our custom responders are relevant for you (they are at the bottom of the list, with rOpenSci in front of their name).
@@ -126,14 +126,14 @@ You can also check out the [readthedocs website of rOpenSci's version of buffy](
 After each responder addition or configuration, try it out by creating issues (or pull requests if that's your process) and typing comments in them.
 If it works, you will be convinced you have added one feature to your system, congratulations!
 
-Afterwards, the feature should be officially released by telling actors of your system about it.
+Afterward, the feature should be officially released by telling actors of your system about it.
 In our case, we wrote announcements in the slack channel we have for editors, and we updated our dev guide.
 Updating guidance is particularly rewarding as bot commands typically replace lines of tedious task descriptions. :grin:
 
 ## Conclusion
 
-In this post we presented the editorial bot generator buffy.
-We hope to make it easier for you to choose whether to adopt it for your own submission system, and to know _how_ to adopt it.
+In this post, we presented the editorial bot generator buffy.
+We hope to make it easier for you to choose whether to adopt it for your own submission system and to know _how_ to adopt it.
 The costs linked to buffy usage are:
 * developer time to set it up, tweak or add responders, document its usage, long-term maintenance;
 * users' time to learn how to use GitHub comments (lower cost for newcomers to your system, higher cost for those who had gotten used to tedious steps);
@@ -143,4 +143,4 @@ In our experience, adopting buffy has been worth it as once it's well adopted, i
 * decreases the cognitive load needed for handling a review as one does not need to switch between different tabs or apps;
 * simplifies future process changes, as the command could remain the same whilst the background tasks change.
 
-Feel free to comment with any question you might have about buffy!
+Feel free to comment with any questions you might have about buffy!
