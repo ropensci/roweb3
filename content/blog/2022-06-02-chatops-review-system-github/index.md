@@ -16,7 +16,8 @@ twitterImg: blog/2022/06/02/chatops-review-system-github/diagram.png
 twitterAlt: Diagram representing automation for rOpenSci software peer review. On the left, is a GitHub issue thread with emojis as avatars, and wobbly lines as text. Under the GitHub issue thread, a legend indicating who among the emojis is the Author /Editor / Reviewer / ropensci-review-bot. At the center of the diagram is a Heroku app using the buffy Ruby tool, that receives information from GitHub via webhooks. The app digests messages received and depending on the command pings an external service represented on the right (with a plumber logo); fills the Airtable-based software review database; manages ropensci GitHub organization via GitHub API; posts back or labels in the GitHub issue thread.
 ---
 
-At rOpenSci Software Peer-Review, our workflow has been significantly enhanced with the use of :sparkles: automation :sparkles:. 
+At rOpenSci Software Peer-Review, our workflow has been significantly enhanced with the use of :sparkles: automation :sparkles: .
+
 To ensure that a package meets our compliance standards, we would previously clone the repository locally, install dependencies, run manual checks, gather the results, and copy-paste them into the issue thread. Now we can accomplish the same outcome with just a simple **command** into a GitHub issue comment:
 
 ```
@@ -31,7 +32,7 @@ Similarly, we can use the following command to register a reviewer named in the 
 
 Feeling inspired?
 
-In this post, we explain how to assess whether the editorial bot generator Buffy might be the right fit for you. We will detail the steps involved in setting buffy up for your own needs.
+In this post, we explain how to assess whether the editorial bot generator Buffy might be right for you. We detail the steps involved in setting buffy up for your own needs.
 
 ## What is an editorial bot generator?
 
