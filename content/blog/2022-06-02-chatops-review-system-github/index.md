@@ -31,7 +31,7 @@ Similarly, we can use the following command to register a reviewer named in the 
 
 Feeling inspired?
 
-In this post, we explain how to assess whether the editorial bot generator buffy might be the right fit for you. We will detail the steps involved in setting buffy up for your own needs.
+In this post, we explain how to assess whether the editorial bot generator Buffy might be the right fit for you. We will detail the steps involved in setting buffy up for your own needs.
 
 ## What is an editorial bot generator?
 
@@ -45,10 +45,10 @@ be * **configured** and **extended**,
 Every time a new issue is opened, every time an issue comment is created, its contents are sent to the deployed app.
 If it corresponds to the **regular expression** of a **registered command**, predefined steps are launched: a check is launched somewhere, a database is updated, information is copied back to the GitHub issue, etc.
 
-The "visible" bot is the [**GitHub account used as bot face**](https://github.com/ropensci-review-bot): commands are addressed to it, and a "Personal" Access Token of its is used to post GitHub issue comments.
+The "visible" bot is the [**GitHub account used as bot face**](https://github.com/ropensci-review-bot): commands are addressed to it, and it uses a "Personal" Access to post GitHub issue comments.
 
-The initial set of possible commands and actions is the [list](https://buffy.readthedocs.io/en/latest/available_responders.html) of buffy **responders**.
-One can add responders by writing buffy code following [documented instructions](https://buffy.readthedocs.io/en/latest/custom_responder.html).
+We have developed an initial [list of possible commands/actions](https://buffy.readthedocs.io/en/latest/available_responders.html), also known as responders. 
+One can create new responders by writing buffy code following [documented instructions](https://buffy.readthedocs.io/en/latest/custom_responder.html).
 Note that one of the responders allows launching a GitHub Action Workflow which can circumvent the absence of Ruby knowledge on a team -- although a pure Ruby responder would be faster.
 You can also send a call to any API, so if you can build an external API, you can really implement many things.
 
@@ -57,8 +57,8 @@ You can also send a call to any API, so if you can build an external API, you ca
 * You run a submission process (of papers, software, conference abstracts) that is handled in GitHub issue (or pull request) threads (or could be moved there)?
 * Your process involves tedious steps (editing issue/PR comments, switching issue/PR labels, copy-pasting URLs into an external database, running automatic checking tools) that can be automated via scripts possibly interacting with web APIs?
 * You can recognize interesting responders in [buffy docs](https://buffy.readthedocs.io/en/latest/) or you have Ruby talent on your team or contractor contacts, who could [write custom responders](https://buffy.readthedocs.io/en/latest/custom_responder.html) for you?
-* Do You have time and resources to spend at least a few days setting it up and communicating the change of processes to your users?
-* You are able to devote the small amount of time necessary to maintain the installation e.g. responding to Heroku security updates or updating your buffy codebase with upstream changes?
+* D you have time and resources to spend at least a few days setting it up and communicating the change of processes to your users?
+* Can you devote some time to maintaining the installation e.g. responding to Heroku security updates or keeping Buffy codebase to stay up to date with upstream changes?
 
 ## How to set up the editorial bot generator for your system
 
