@@ -132,10 +132,10 @@ Updating guidance is particularly rewarding as bot commands typically replace li
 
 ## Conclusion
 
-In this post, we presented the editorial bot generator buffy.
+In this post, we presented the editorial bot generator Buffy.
 We hope to make it easier for you to choose whether to adopt it for your own submission system and to know _how_ to adopt it.
 The costs linked to buffy usage are:
-* developer time to set it up, tweak or add responders, document its usage, long-term maintenance;
+* developer time to set it up, tweak or add responders, document its usage, and long-term maintenance;
 * users' time to learn how to use GitHub comments (lower cost for newcomers to your system, higher cost for those who had gotten used to tedious steps);
 * a subscription to Heroku or a similar service to ensure the app is always listening.
 
