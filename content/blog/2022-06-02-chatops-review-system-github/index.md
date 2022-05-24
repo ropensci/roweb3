@@ -34,9 +34,9 @@ Similarly, we can use the following command to register a reviewer named in the 
 @ropensci-review-bot add @maelle to reviewers
 ```
 
-Feeling inspired?
+Feeling inspired? Maybe you run a submission process (of papers, software, conference abstracts) that is handled in GitHub issue (or pull request) threads (or could be moved there)?
 
-Maybe you could benefit from the same toolset as us: a GitHub "bot" account performing actions orchestrated by a **Ruby app deployed on a cloud platform**.
+In that case, maybe you could benefit from the same toolset as us: a GitHub "bot" account performing actions orchestrated by a **Ruby app deployed on a cloud platform**.
 
 We shall explain how to assess whether that app framework, the **editorial bot generator Buffy**, might be right for you. 
 We detail the steps involved in setting Buffy up for your own needs.
@@ -55,7 +55,7 @@ If it corresponds to the **regular expression** of a **registered command**, pre
 
 The "visible" bot is the [**GitHub account used as bot face**](https://github.com/ropensci-review-bot): commands are addressed to it, and it uses a "Personal" Access to post GitHub issue comments.
 
-We have developed an initial [list of possible commands/actions](https://buffy.readthedocs.io/en/latest/available_responders.html), also known as responders. 
+The Journal of Open Source Software (JOSS) has developed an initial [list of possible commands/actions](https://buffy.readthedocs.io/en/latest/available_responders.html), also known as responders. 
 One can create new responders by writing buffy code following [documented instructions](https://buffy.readthedocs.io/en/latest/custom_responder.html).
 Note that one of the responders allows launching a GitHub Action Workflow which can circumvent the absence of Ruby knowledge on a team -- although a pure Ruby responder would be faster.
 You can also send a call to any API, so if you can build an external API, you can really implement many things.
