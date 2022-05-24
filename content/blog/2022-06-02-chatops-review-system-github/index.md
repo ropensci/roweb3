@@ -11,9 +11,9 @@ tags:
   - tech notes
   - Software Peer Review
   - buffy
-description: Could the editorial bot generator buffy fit your needs? How to know, how to set it up.
+description: Could the editorial bot generator Buffy fit your needs? How to know, how to set it up.
 twitterImg: blog/2022/06/02/chatops-review-system-github/diagram.png
-twitterAlt: Diagram representing automation for rOpenSci software peer review. On the left, is a GitHub issue thread with emojis as avatars, and wobbly lines as text. Under the GitHub issue thread, a legend indicating who among the emojis is the Author /Editor / Reviewer / ropensci-review-bot. At the center of the diagram is a Heroku app using the buffy Ruby tool, that receives information from GitHub via webhooks. The app digests messages received and depending on the command pings an external service represented on the right (with a plumber logo); fills the Airtable-based software review database; manages ropensci GitHub organization via GitHub API; posts back or labels in the GitHub issue thread.
+twitterAlt: Diagram representing automation for rOpenSci software peer review. On the left, is a GitHub issue thread with emojis as avatars, and wobbly lines as text. Under the GitHub issue thread, a legend indicating who among the emojis is the Author /Editor / Reviewer / ropensci-review-bot. At the center of the diagram is a Heroku app using the Buffy Ruby tool, that receives information from GitHub via webhooks. The app digests messages received and depending on the command pings an external service represented on the right (with a plumber logo); fills the Airtable-based software review database; manages ropensci GitHub organization via GitHub API; posts back or labels in the GitHub issue thread.
 ---
 
 Packages in our scope ([research lifecycle software](https://devguide.ropensci.org/policies.html#aims-and-scope) and [statistical software](https://stats-devguide.ropensci.org/pkgdev.html#scope)) can be contributed to rOpenSci suite via our Software Peer-Review system for a transparent, constructive, non adversarial and open review process.
@@ -56,7 +56,7 @@ If it corresponds to the **regular expression** of a **registered command**, pre
 The "visible" bot is the [**GitHub account used as bot face**](https://github.com/ropensci-review-bot): commands are addressed to it, and it uses a "Personal" Access to post GitHub issue comments.
 
 The Journal of Open Source Software (JOSS) has developed an initial [list of possible commands/actions](https://buffy.readthedocs.io/en/latest/available_responders.html), also known as responders. 
-One can create new responders by writing buffy code following [documented instructions](https://buffy.readthedocs.io/en/latest/custom_responder.html).
+One can create new responders by writing Ruby code following [documented instructions](https://buffy.readthedocs.io/en/latest/custom_responder.html).
 Note that one of the responders allows launching a GitHub Action Workflow which can circumvent the absence of Ruby knowledge on a team -- although a pure Ruby responder would be faster.
 You can also send a call to any API, so if you can build an external API, you can really implement many things.
 
@@ -64,16 +64,16 @@ You can also send a call to any API, so if you can build an external API, you ca
 
 * You run a submission process (of papers, software, conference abstracts) that is handled in GitHub issue (or pull request) threads (or could be moved there)?
 * Your process involves tedious steps (editing issue/PR comments, switching issue/PR labels, copy-pasting URLs into an external database, running automatic checking tools) that can be automated via scripts possibly interacting with web APIs?
-* You can recognize interesting responders in [buffy docs](https://buffy.readthedocs.io/en/latest/) or you have Ruby talent on your team or contractor contacts, who could [write custom responders](https://buffy.readthedocs.io/en/latest/custom_responder.html) for you?
+* You can recognize interesting responders in [Buffy docs](https://buffy.readthedocs.io/en/latest/) or you have Ruby talent on your team or contractor contacts, who could [write custom responders](https://buffy.readthedocs.io/en/latest/custom_responder.html) for you?
 * Do you have time and resources to spend at least a few days setting it up and communicating the change of processes to your users?
 * Can you devote some time to maintaining the installation e.g. responding to Heroku security updates or keeping Buffy codebase up to date with upstream changes?
 
 ## How to set up the editorial bot generator for your system
 
-We shall first show how buffy usage works, afterwards, we shall go into details about how to get there.
+We shall first show how Buffy usage works, afterwards, we shall go into details about how to get there.
 The following diagram represents the whole automation toolset we use for rOpenSci software peer-review.
 
-{{< figure src="diagram.png" alt="Diagram representing automation for rOpenSci software peer review. On the left, a GitHub issue thread with emojis as avatars, and wobbly lines as text. Under the GitHub issue thread, a legend indicating who among the emojis is Author /Editor / Reviewer / ropensci-review-bot. At the center of the diagram is an Heroku app using the buffy Ruby tool, that receives information from GitHub via webhooks. The app digests messages received and depending on the command pings an external service represented on the right (with a plumber logo); fills the Airtable-based software review database; manages ropensci GitHub organization via GitHub API; posts back or labels in the GitHub issue thread.">}}
+{{< figure src="diagram.png" alt="Diagram representing automation for rOpenSci software peer review. On the left, a GitHub issue thread with emojis as avatars, and wobbly lines as text. Under the GitHub issue thread, a legend indicating who among the emojis is Author /Editor / Reviewer / ropensci-review-bot. At the center of the diagram is an Heroku app using the Buffy Ruby tool, that receives information from GitHub via webhooks. The app digests messages received and depending on the command pings an external service represented on the right (with a plumber logo); fills the Airtable-based software review database; manages ropensci GitHub organization via GitHub API; posts back or labels in the GitHub issue thread.">}}
 
 We can observe, on the left, a GitHub issue thread corresponding to a submission. The submission has 
 - a title, 
@@ -90,14 +90,14 @@ How does one achieve this?
 
 ### Initial preparation & installation steps
 
-* Read / skim through [buffy readthedocs website](https://buffy.readthedocs.io/en).
+* Read / skim through [Buffy readthedocs website](https://buffy.readthedocs.io/en).
 
-Follow [buffy installation instructions](https://buffy.readthedocs.io/en/latest/installation.html).
+Follow [Buffy installation instructions](https://buffy.readthedocs.io/en/latest/installation.html).
 
-* Fork the buffy codebase to an organization of yours, and create a branch there. Ours is named `ropensci`. The organization does not have to be where the review repository also lives.
+* Fork the Buffy codebase to an organization of yours, and create a branch there. Ours is named `ropensci`. The organization does not have to be where the review repository also lives.
 * Create a test review repository, that is to say, a copy of your production review repository so you can experiment without bothering serious watchers. The test repository should contain the same issue/PR templates and issue/PR labels as the production repository.
-* [Create a bot account](https://buffy.readthedocs.io/en/latest/installation.html#create-the-bot-github-user) (save its credentials and 2FA method into, for instance, your team's 1Password vault). Give it access to your production and test review repositories. It might even need more access to your GitHub organization based on what you'll task it to do. Follow buffy docs to create a Personal Access Token, save it temporarily on your computer as you'll need to save it in the app configuration.
-* Set up a Heroku account and app for [buffy deployment](https://buffy-ropensci.readthedocs.io/en/latest/installation.html#deploy-buffy) -- or do the same on another service such as Render. Following the instructions worked for us. Make sure your pricing tier allows for the app to listen all the time. If the app is sleeping it will not be able to digest comments from GitHub.
+* [Create a bot account](https://buffy.readthedocs.io/en/latest/installation.html#create-the-bot-github-user) (save its credentials and 2FA method into, for instance, your team's 1Password vault). Give it access to your production and test review repositories. It might even need more access to your GitHub organization based on what you'll task it to do. Follow Buffy docs to create a Personal Access Token, save it temporarily on your computer as you'll need to save it in the app configuration.
+* Set up a Heroku account and app for [Buffy deployment](https://buffy-ropensci.readthedocs.io/en/latest/installation.html#deploy-buffy) -- or do the same on another service such as Render. Following the instructions worked for us. Make sure your pricing tier allows for the app to listen all the time. If the app is sleeping it will not be able to digest comments from GitHub.
 * Check the build logs of your Heroku apps indicate success.
 * In your test and production repositories, [set up a webhook](https://buffy-ropensci.readthedocs.io/en/latest/installation.html#configure-a-webhook-to-send-events-from-github-to-buffy) to send GitHub issue/PR comments to Heroku or your other service.
  
@@ -115,21 +115,21 @@ What if it does not work?
 
 ### Configuration, tests, documentation
 
-Now comes the time to adapt your buffy version to your needs!
+Now comes the time to adapt your Buffy version to your needs!
 Good news: you can keep doing this forever depending on how your needs evolve.
 Bad news: you _will_ keep doing this forever as you'll always see opportunities for improvement. :wink:
 
-To configure your buffy installation you will be making changes in these places
+To configure your Buffy installation you will be making changes in these places
 * In the `/config/settings-production.yml` file of the branch of your **buffy fork**;
 * In other folders of the branch of your **buffy fork** if you are _adding custom responders_;
-* In issue templates (`.github/ISSUE_TEMPLATE`) or PR templates (`.github/PULL_REQUEST_TEMPLATE`) and buffy templates `.buffy/templates` of your **review repository (or repositories**, if you created a test review repository for experimenting with buffy, which we'd recommend). Indeed, issue or PR templates will contain placeholders/wrappers for HTML variables like `<!--editor-->  <!--end-editor-->` -- otherwise the bot won't be able to fill this information. _buffy_ templates are for comments you will want the bot to post, for instance, a checklist at the end of the review process.
+* In issue templates (`.github/ISSUE_TEMPLATE`) or PR templates (`.github/PULL_REQUEST_TEMPLATE`) and buffy templates `.buffy/templates` of your **review repository (or repositories**, if you created a test review repository for experimenting with Buffy, which we'd recommend). Indeed, issue or PR templates will contain placeholders/wrappers for HTML variables like `<!--editor-->  <!--end-editor-->` -- otherwise the bot won't be able to fill this information. _buffy_ templates are for comments you will want the bot to post, for instance, a checklist at the end of the review process.
 
-Follow buffy docs on [configuration](https://buffy.readthedocs.io/en/latest/configuration.html).
+Follow Buffy docs on [configuration](https://buffy.readthedocs.io/en/latest/configuration.html).
 You will be adding (registering) responders by adding them to the YAML file `/config/settings-production.yml`, with subfields indicating some options.
 For instance, you might want to use the ["assign editor" responder](https://buffy.readthedocs.io/en/latest/responders/assign_editor.html) to store the editor username in the issue comment _without assigning the issue to them_ so you'll set `add_as_assignee` to `false`. 
 
-You'll find responders and their parameters in buffy docs. 
-You can also check out the [readthedocs website of rOpenSci's version of buffy](https://buffy-ropensci.readthedocs.io/en/latest/) in case some of our custom responders are relevant for you (they are at the bottom of the list, with rOpenSci in front of their name).
+You'll find responders and their parameters in Buffy docs. 
+You can also check out the [readthedocs website of rOpenSci's version of Buffy](https://buffy-ropensci.readthedocs.io/en/latest/) in case some of our custom responders are relevant for you (they are at the bottom of the list, with rOpenSci in front of their name).
 
 After each responder addition or configuration, try it out by creating issues (or pull requests if that's your process) and typing comments in them.
 If it works, you will be convinced you have added one feature to your system, congratulations!
@@ -142,13 +142,13 @@ Updating guidance is particularly rewarding as bot commands typically replace li
 
 In this post, we presented the editorial bot generator Buffy.
 We hope to make it easier for you to choose whether to adopt it for your own submission system and to know _how_ to adopt it.
-The costs linked to buffy usage are:
+The costs linked to Buffy usage are:
 * developer time to set it up, tweak or add responders, document its usage, and long-term maintenance;
 * users' time to learn how to use GitHub comments (lower cost for newcomers to your system, higher cost for those who had gotten used to tedious steps);
 * a subscription to Heroku or a similar service to ensure the app is always listening.
 
-In our experience, adopting buffy has been worth it as once it's well adopted, it
+In our experience, adopting Buffy has been worth it as once it's well adopted, it
 * decreases the cognitive load needed for handling a review as one does not need to switch between different tabs or apps;
 * simplifies future process changes, as the command could remain the same whilst the background tasks change.
 
-Feel free to comment with any questions you might have about buffy!
+Feel free to comment with any questions you might have about Buffy!
