@@ -68,6 +68,16 @@ You can also send a call to any API, so if you can build an external API, you ca
 * Do you have time and resources to spend at least a few days setting it up and communicating the change of processes to your users?
 * Can you devote some time to maintaining the installation e.g. responding to Heroku security updates or keeping Buffy codebase up to date with upstream changes?
 
+### They use the editorial bot generator
+
+* [Journal of Open Source Software (JOSS)](https://joss.theoj.org/) -- original instigators of Buffy!
+
+* rOpenSci :wave:
+
+* [Scipy](https://github.com/scipy-conference/scipy_proceedings) -- see their [blog post](https://blog.neater-hut.com/scipy-is-partnering-with-joss-part-1.html) on the topic.
+
+* JuliaCon is [migrating soon](https://github.com/JuliaCon/proceedings-review/issues).
+
 ## How to set up the editorial bot generator for your system
 
 We shall first show how Buffy usage works, afterwards, we shall go into details about how to get there.
