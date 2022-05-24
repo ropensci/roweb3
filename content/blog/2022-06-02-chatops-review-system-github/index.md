@@ -66,7 +66,7 @@ You can also send a call to any API, so if you can build an external API, you ca
 * Your process involves tedious steps (editing issue/PR comments, switching issue/PR labels, copy-pasting URLs into an external database, running automatic checking tools) that can be automated via scripts possibly interacting with web APIs?
 * You can recognize interesting responders in [buffy docs](https://buffy.readthedocs.io/en/latest/) or you have Ruby talent on your team or contractor contacts, who could [write custom responders](https://buffy.readthedocs.io/en/latest/custom_responder.html) for you?
 * Do you have time and resources to spend at least a few days setting it up and communicating the change of processes to your users?
-* Can you devote some time to maintaining the installation e.g. responding to Heroku security updates or keeping Buffy codebase to stay up to date with upstream changes?
+* Can you devote some time to maintaining the installation e.g. responding to Heroku security updates or keeping Buffy codebase up to date with upstream changes?
 
 ## How to set up the editorial bot generator for your system
 
