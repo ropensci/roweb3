@@ -46,9 +46,9 @@ We detail the steps involved in setting Buffy up for your own needs.
 The editorial bot generator [Buffy](https://github.com/openjournals/buffy) is the tool that supports the aforementioned commands.
 It is a **Ruby codebase** that can be 
 
-* **configured** and **extended**, 
-* then be **deployed** on a service like Heroku where it is always on and listening, 
-* and hook into **GitHub issues or pull requests** via, well, **webhooks**. 🪝
+* **configured** (and potentially **extended**), 
+* then be **deployed** on a cloud platform like Heroku where it is always on and listening, 
+* and hooked into **GitHub issues or pull requests** via, well, **webhooks**. 🪝
 
 Every time a new issue is opened, every time an issue comment is created, its contents are sent to the deployed app.
 If it corresponds to the **regular expression** of a **registered command**, predefined steps are launched: a check is launched somewhere, a database is updated, information is copied back to the GitHub issue, etc.
