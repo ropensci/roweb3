@@ -36,10 +36,10 @@ Similarly, we can use the following command to register a reviewer named in the 
 
 Feeling inspired? Maybe you run a submission process (of papers, software, conference abstracts) that is handled in GitHub issue (or pull request) threads (or could be moved there)?
 
-In that case, maybe you could benefit from the same toolset as us: a GitHub "bot" account performing actions orchestrated by a **Ruby app deployed on a cloud platform**.
+In that case, maybe you could benefit from the same toolset as us: "chat-ops" where a GitHub "bot" account performs actions orchestrated by a **Ruby app deployed on a cloud platform**.
 
 We shall explain how to assess whether that app framework, the **editorial bot generator Buffy**, might be right for you. 
-We detail the steps involved in setting Buffy up for your own needs.
+We detail the steps involved in setting up "chat-ops" with Buffy for your own needs.
 
 ## What is an editorial bot generator?
 
