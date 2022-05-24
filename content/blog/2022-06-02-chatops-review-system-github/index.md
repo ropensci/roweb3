@@ -16,7 +16,11 @@ twitterImg: blog/2022/06/02/chatops-review-system-github/diagram.png
 twitterAlt: Diagram representing automation for rOpenSci software peer review. On the left, is a GitHub issue thread with emojis as avatars, and wobbly lines as text. Under the GitHub issue thread, a legend indicating who among the emojis is the Author /Editor / Reviewer / ropensci-review-bot. At the center of the diagram is a Heroku app using the buffy Ruby tool, that receives information from GitHub via webhooks. The app digests messages received and depending on the command pings an external service represented on the right (with a plumber logo); fills the Airtable-based software review database; manages ropensci GitHub organization via GitHub API; posts back or labels in the GitHub issue thread.
 ---
 
-At rOpenSci Software Peer-Review, our workflow has been significantly enhanced with the use of :sparkles: automation :sparkles: .
+Packages in our scope can be contributed to rOpenSci suite via our Software Peer-Review system for a transparent, constructive, non adversarial and open review process.
+In practice, the review steps are all recorded in **GitHub issue threads**.
+Software peer-review involves coordinating and tracking many moving parts: software submissions (new issues), testing and diagnostics, assignment of editors and reviewers, and logging the progression of submissions through revisions and acceptance.
+
+Our editorial workflow has been significantly enhanced with the use of :sparkles: automation :sparkles: .
 
 To ensure that a package meets our compliance standards, we would previously clone the repository locally, install dependencies, run manual checks, gather the results, and copy-paste them into the issue thread. Now we can accomplish the same outcome with just a simple **command** into a GitHub issue comment:
 
@@ -58,7 +62,7 @@ You can also send a call to any API, so if you can build an external API, you ca
 * You run a submission process (of papers, software, conference abstracts) that is handled in GitHub issue (or pull request) threads (or could be moved there)?
 * Your process involves tedious steps (editing issue/PR comments, switching issue/PR labels, copy-pasting URLs into an external database, running automatic checking tools) that can be automated via scripts possibly interacting with web APIs?
 * You can recognize interesting responders in [buffy docs](https://buffy.readthedocs.io/en/latest/) or you have Ruby talent on your team or contractor contacts, who could [write custom responders](https://buffy.readthedocs.io/en/latest/custom_responder.html) for you?
-* D you have time and resources to spend at least a few days setting it up and communicating the change of processes to your users?
+* Do you have time and resources to spend at least a few days setting it up and communicating the change of processes to your users?
 * Can you devote some time to maintaining the installation e.g. responding to Heroku security updates or keeping Buffy codebase to stay up to date with upstream changes?
 
 ## How to set up the editorial bot generator for your system
