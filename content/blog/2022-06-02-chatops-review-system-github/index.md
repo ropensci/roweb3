@@ -47,7 +47,7 @@ The editorial bot generator [Buffy](https://github.com/openjournals/buffy) is th
 It is a **Ruby codebase** that can be 
 
 * **configured** (and potentially **extended**), 
-* then be **deployed** on a cloud platform like Heroku where it is always on and listening, 
+* then **deployed** on a cloud platform like Heroku where it is always on and listening, 
 * and hooked into **GitHub issues or pull requests** via, well, **webhooks**. 🪝
 
 Every time a new issue is opened, every time an issue comment is created, its contents are sent to the deployed app.
