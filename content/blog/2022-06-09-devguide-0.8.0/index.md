@@ -34,7 +34,7 @@ or this blog post for more digested information.
 
 ## Farewell Stefanie Butland
 
-After many years of fabulous contributions to the rOpenSci community, Stefanie Butland left the role of community manager. The Dev Guide included several references to Stefanie, particularly regarding preparing blog posts, as well as preparing Dev Guide releases. Her name has been removed and replaced with a generic "*Community Manager* title. We look forward to the next release, which should see this phrase once again replaced with the actual name of our new community manager.
+After many years of fabulous contributions to the rOpenSci community, Stefanie Butland [left the role of community manager](/blog/2022/01/14/msg-from-stefanie/). The Dev Guide included several references to Stefanie, particularly regarding preparing blog posts, as well as preparing Dev Guide releases. Her name has been removed and replaced with a generic "*Community Manager* title. We look forward to the next release, which should see this phrase once again replaced with the actual name of our new community manager.
 
 ## Expanded Aims and Scope
 
