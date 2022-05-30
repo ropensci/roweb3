@@ -84,7 +84,7 @@ We have updated our guidance on package evolution to include a new section on [p
 
 ## Two-Factor Autentication now required
 
-Our [*Package Security Best Practices*](https://devguide.ropensci.org/package-development-security-best-practices.html) now *recommend* the use of two-factor authentication (2FA) for GitHub, and clarify that 2FA is mandatory for all rOpenSci organization members and outside collaborators.
+Our [*Package Security Best Practices*](https://devguide.ropensci.org/package-development-security-best-practices.html) now *recommend* the use of two-factor authentication (2FA) for GitHub, and clarify that 2FA is [mandatory for all rOpenSci organization members and outside collaborators](/blog/2022/05/16/requiring-2fa-for-the-ropensci-github-organization/).
 
 ## Other guidance updates
 
