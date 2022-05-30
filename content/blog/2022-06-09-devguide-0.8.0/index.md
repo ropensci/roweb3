@@ -1,5 +1,5 @@
 ---
-title: "rOpenSci Dev Guide 0.7.0: Updates"
+title: "rOpenSci Dev Guide 0.8.0: Updates"
 author:
   - Mark Padgham
   - Laura DeCicco
