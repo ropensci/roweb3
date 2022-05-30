@@ -1,16 +1,16 @@
 ---
 title: "rOpenSci Dev Guide 0.7.0: Updates"
 author:
-  - Maëlle Salmon
+  - Mark Padgham
   - Laura DeCicco
   - Julia Gustavsen
   - Jeff Hollister
   - Anna Krystalli
   - Mauro Lepore
-  - Mark Padgham
   - Karthik Ram
   - Emily Riederer
   - Noam Ross
+  - Maëlle Salmon
   - Adam Sparks
   - Melina Vidoni
 date: '2022-06-09'
