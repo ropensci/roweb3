@@ -68,7 +68,7 @@ rOpenSci's software peer review process has have recently been enhanced through 
 
 ## Guidance on contributing.md files
 
-Having a contributing file [is compulsory for rOpenSci packages](https://devguide.ropensci.org/collaboration.html?q=contributing#contributing-guide), and is automatically checked by our automated package checks. We've updated our recommendations for contributing.md files to suggest a number of explicit approaches, including the one-line `usethis::use_tidy_contributing()` function, and links to two more extensive examples of contributing guides. We now also recommend the inclusion of a lifecycle statement in package contributing guides, to give contributings an understanding of the likely state of future development of a package.
+Having a contributing file [is compulsory for rOpenSci packages](https://devguide.ropensci.org/collaboration.html?q=contributing#contributing-guide), and is automatically checked by our automated package checks. We've updated our recommendations for `CONTRIBUTING.md` files to suggest a number of explicit approaches, including the one-line `usethis::use_tidy_contributing()` function, and links to two more extensive examples of contributing guides. We now also recommend the inclusion of a lifecycle statement in package contributing guides, to give contributings an understanding of the likely state of future development of a package.
 
 ## Authorship of included code
 
