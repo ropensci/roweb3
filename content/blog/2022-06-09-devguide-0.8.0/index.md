@@ -18,6 +18,9 @@ slug: devguide-0.8.0
 tags:
   - Software Peer Review
   - dev guide
+  - automation
+  - ropensci-review-bot
+  - GitHub
 package_version: 0.8.0
 description: "Updates in version 0.8.0 of the online book 'rOpenSci Packages: Development, Maintenance, and Peer Review rOpenSci Packages: Development, Maintenance, and Peer Review'"
 twitterImg: img/blog-images/2019-05-16-dev-guide-update/cover.png
