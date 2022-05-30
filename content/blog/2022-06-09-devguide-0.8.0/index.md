@@ -38,7 +38,7 @@ After many years of fabulous contributions to the rOpenSci community, Stefanie B
 
 ## Expanded Aims and Scope
 
-This version of the Dev Guide reflects the recent expansion of our peer-review system to include statistical softwre. The [*Aims and Scope* section](https://devguide.ropensci.org/policies.html#aims-and-scope) now explains that statistical software is also within scope, and links directly to the [*Statistical Software Dev Guide*](https://stats-devguide.ropensci.org).
+This version of the Dev Guide reflects the recent expansion of our peer-review system to include statistical software. The [*Aims and Scope* section](https://devguide.ropensci.org/policies.html#aims-and-scope) now explains that statistical software is also within scope, and links directly to the [*Statistical Software Dev Guide*](https://stats-devguide.ropensci.org).
 
 ## Updated Guide for Authors
 
