@@ -98,4 +98,4 @@ The [*Testing* section of the *Packaging Guide* chapter](https://devguide.ropens
 
 The [*Recommanded Scaffolding* section of the *Packaging Guide* chapter](https://devguide.ropensci.org/building.html#recommended-scaffolding) now includes explicit recommendation of spatial packages, and details of (soon-to-be) obsolete spatial packages. The section in that chapter on [`roxygen2` use in documentation](https://devguide.ropensci.org/building.html#roxygen2-use) also describes the `@seealso` and `@family` tags for grouping functions in package documentation sites.
 
-The [section in the *Collaboration Guide* Chapter](https://devguide.ropensci.org/collaboration.html#gitflow) on "Working with collaborators" has been streamlined, with [additional links](https://github.com/ropensci/dev_guide/pull/374) on giving and recieving code reviews.
+The [section in the *Collaboration Guide* Chapter](https://devguide.ropensci.org/collaboration.html#gitflow) on "Working with collaborators" has been streamlined, with [additional links](https://github.com/ropensci/dev_guide/pull/374) on giving and receiving code reviews.
