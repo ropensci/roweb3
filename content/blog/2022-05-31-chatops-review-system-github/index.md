@@ -55,7 +55,7 @@ The "visible" bot is the [**GitHub account used as bot face**](https://github.co
 
 The Journal of Open Source Software (JOSS) has developed an initial [list of possible commands/actions](https://buffy.readthedocs.io/en/latest/available_responders.html), also known as responders. 
 One can create new responders by writing Ruby code following [documented instructions](https://buffy.readthedocs.io/en/latest/custom_responder.html).
-Note that one of the responders allows launching a GitHub Action Workflow which can circumvent the absence of Ruby knowledge on a team -- although a pure Ruby responder would be faster.
+Note that one of the responders allows launching a GitHub Action Workflow which can circumvent the absence of Ruby knowledge on a team -- although a pure Ruby responder might be faster.
 You can also send a call to any API, so if you can build an external API, you can really implement many things.
 
 ## The editorial bot generator is for you if...
