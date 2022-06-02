@@ -32,7 +32,7 @@ Not at once, the idea is not to spam people!
 A mix of general communication channels (newsletter, mailing lists, Slack workspaces) together with more targeted communication ([ping in GitHub issues](https://github.com/datacarpentry/r-socialsci/issues/274#issuecomment-1126176378), emails), can best help deliver information... but also open the floor for questions and feedback _from_ maintainers (because at the end of the day, the most important part of the community is the community itself)!
 Answering contributor questions in a timely manner is key to trust.
 
-On a technical note, some communication can be partly automated, e.g. emails can be sent en masse using gmailr.
+On a technical note, some communication can be partly automated, e.g. emails can be sent using gmailr.
 
 ## Not rushing changes
 
