@@ -21,7 +21,7 @@ In this post, we shall share some insights from our experiences.
 
 At the time when someone takes on maintenance of something, it is helpful to make requirements explicit. 
 These requirements can contain a list of tasks and expectations of time (to respond) and duration (of the responsibility).
-At rOpenSci we have an author guide for those who submit software to review, as well as a package curation policy.
+At rOpenSci we have an [author guide](https://devguide.ropensci.org/authors-guide.html) for those who submit software to review, as well as a [package curation policy](https://devguide.ropensci.org/curationpolicy.html).
 At the Carpentries, maintainers [undergo an onboarding training](https://carpentries.org/blog/2022/05/maintainer-application/) to establish guidelines for how to work with Pull Requests to ensure our lessons align with [The Carpentries’ core values](https://carpentries.org/values) and evidenced-based teaching practices. 
 In 2022, The Carpentries a established a [yearly check-in](https://github.com/carpentries/maintainer-RFCs/issues/19) to give maintainers a chance to step down if they have decided that they need a break from maintenance. 
 
