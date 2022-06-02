@@ -44,7 +44,7 @@ We keep this in mind when defining timelines so that we can give people support 
 ## Helping without taking over
 
 It is important to us to do as much work on volunteers' behalf as possible.
-For instance, when monitoring the dashboard of R-universe builds of packages, failures are reported with as much information as possible, with clear suggestions of fixes (possibly even pull requests).
+For instance, when [monitoring](/blog/2022/01/31/package-build-failures/) the dashboard of R-universe builds of packages, failures are reported with as much information as possible, with clear suggestions of fixes (possibly even pull requests).
 However, this has to be balanced with letting maintainers have ownership: for instance, we make as few direct code edits as possible.
 
 ## Conclusion
