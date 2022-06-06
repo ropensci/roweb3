@@ -97,6 +97,8 @@ The appendix on redirecting package documentation has been updated [thanks to Pe
 
 The [*Testing* section of the *Packaging Guide* chapter](https://devguide.ropensci.org/building.html#testing) has an expanded list of recommended packages, particularly those for testing and mocking responses from web resources. That section now also suggests reading the blog post, ["*Why good developers write bad unit tests*"](https://mtlynch.io/good-developers-bad-tests/), by Michael Lynch.
 
-The [*Recommanded Scaffolding* section of the *Packaging Guide* chapter](https://devguide.ropensci.org/building.html#recommended-scaffolding) now includes explicit recommendation of spatial packages, and details of (soon-to-be) obsolete spatial packages. The section in that chapter on [`roxygen2` use in documentation](https://devguide.ropensci.org/building.html#roxygen2-use) also describes the `@seealso` and `@family` tags for grouping functions in package documentation sites.
+The [*Recommanded Scaffolding* section of the *Packaging Guide* chapter](https://devguide.ropensci.org/building.html#recommended-scaffolding) now includes explicit recommendation of spatial packages, and details of (soon-to-be) obsolete spatial packages. 
+
+The section in that chapter on [`roxygen2` use in documentation](https://devguide.ropensci.org/building.html#roxygen2-use) also describes the `@seealso` and `@family` tags for grouping functions in package documentation sites.
 
 The [section in the *Collaboration Guide* Chapter](https://devguide.ropensci.org/collaboration.html#gitflow) on "Working with collaborators" has been streamlined, with [additional links](https://github.com/ropensci/dev_guide/pull/374) on giving and receiving code reviews.
