@@ -61,7 +61,7 @@ Our [automation processes](/blog/2022/05/31/chatops-review-system-github/) conti
 
 Our [*Continuous Integration Best Practices* chapter](https://devguide.ropensci.org/ci.html) now states that all packages are checked on submission by our own internal [`pkgcheck` system](https://docs.ropensci.org/pkgcheck), and that this system is also available as [a GitHub action](/blog/2022/02/01/pkgcheck-action/) which authors are encouraged to use prior to submission. That section now also includes a general description of GitHub actions.
 
-While not exactly an automation enhancement, our review template now explicitly states that reviewers can download a local copy, and complete a review either as an Rmarkdown (`.Rmd`) or plain markdown (`.md`) document, and simply copy-and-paste into the GitHub issue to complete the review. We are indebted to [Huge Gruson for that clarificiation](https://github.com/ropensci/dev_guide/pull/375).
+While not exactly an automation enhancement, our review template now explicitly states that reviewers can download a local copy, and complete a review either as an Rmarkdown (`.Rmd`) or plain markdown (`.md`) document, and simply copy-and-paste into the GitHub issue to complete the review. We are indebted to [Hugo Gruson for that clarificiation](https://github.com/ropensci/dev_guide/pull/375).
 
 ### Automation also comes to the Dev Guide
 
