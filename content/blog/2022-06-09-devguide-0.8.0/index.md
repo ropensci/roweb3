@@ -81,7 +81,7 @@ Standard rOpenSci practice is to [acknowledge package reviewers in your DESCRIPT
 
 ## Updated package archiving practice
 
-We have updated our guidance on package evolution to include a new section on [package archiving](https://devguide.ropensci.org/evolution.html#archivalguidance). This section reflects our updated policies that archived packages should move README.md to an alternative location, and reduce reduce the main README.md to a minimal form explaining only that the package has been archived, and linking to the former README.md contents.
+We have updated our guidance on package evolution to include a new section on [package archiving](https://devguide.ropensci.org/evolution.html#archivalguidance). This section reflects our updated policies that archived packages should move README.md to an alternative location, and reduce the main README.md to a minimal form explaining only that the package has been archived, and linking to the former README.md contents.
 
 ## Two-Factor Autentication now required
 
