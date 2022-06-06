@@ -29,7 +29,7 @@ twitterAlt: cover of rOpenSci dev guide, showing a package production line with 
 ---
 
 rOpenSci Software Peer Review's guidance is gathered in an [online book](https://devguide.ropensci.org/) that keeps improving!
-This blog post summarises what's new in our Dev Guide 0.8.0, with all changes listed [in the changelog](https://devguide.ropensci.org/booknews.html).
+This blog post summarises what's new in our Dev Guide 0.8.0, with all changes listed in the [changelog](https://devguide.ropensci.org/booknews.html).
 
 ## Farewell Stefanie Butland
 
