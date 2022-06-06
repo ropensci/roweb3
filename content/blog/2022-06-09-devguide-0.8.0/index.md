@@ -69,7 +69,7 @@ In addition to the automation advances described above, this release of the Dev 
 
 ## Guidance on contributing.md files
 
-Having a contributing file [is compulsory for rOpenSci packages](https://devguide.ropensci.org/collaboration.html?q=contributing#contributing-guide), and is automatically checked by our automated package checks. We've updated our [recommendations for CONTRIBUTING.md files](https://devguide.ropensci.org/collaboration.html#contributing-guide) to suggest a number of explicit approaches, including the one-line `usethis::use_tidy_contributing()` function, and links to two more extensive examples of contributing guides. We now also recommend the inclusion of a lifecycle statement in package contributing guides, to give contributors an understanding of the likely future development of a package.
+Having a contributing file is [compulsory for rOpenSci packages](https://devguide.ropensci.org/collaboration.html?q=contributing#contributing-guide), and is automatically checked by our automated package checks. We've updated our [recommendations for CONTRIBUTING.md files](https://devguide.ropensci.org/collaboration.html#contributing-guide) to suggest a number of explicit approaches, including the one-line `usethis::use_tidy_contributing()` function, and links to two more extensive examples of contributing guides. We now also recommend the inclusion of a lifecycle statement in package contributing guides, to give contributors an understanding of the likely future development of a package.
 
 ## Authorship of included code
 
