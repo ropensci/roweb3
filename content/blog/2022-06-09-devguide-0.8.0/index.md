@@ -73,7 +73,7 @@ Having a contributing file is [compulsory for rOpenSci packages](https://devguid
 
 ## Authorship of included code
 
-In response to [an idea from Klaus Vigo](https://github.com/ropensci/dev_guide/issues/388), the [section of package authorship](https://devguide.ropensci.org/building.html#authorship) now has an additional section describing how to acknolwedge additional authors of external code included in a package.
+In response to an [idea from Klaus Vigo](https://github.com/ropensci/dev_guide/issues/388), the [section of package authorship](https://devguide.ropensci.org/building.html#authorship) now has an additional section describing how to acknolwedge additional authors of external code included in a package.
 
 ## No more CRAN notes for "rev" role in package authorship
 
