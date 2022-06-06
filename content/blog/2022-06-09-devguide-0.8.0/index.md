@@ -44,7 +44,7 @@ This version of the Dev Guide reflects the recent expansion of our peer-review s
 One of the largest changes in the current release is in the [*Guide for Authors* chapter](https://devguide.ropensci.org/authors-guide.html). This used to be a largely unstructured collection of dot points reflecting our evolving "best practices". These points were collated and refined as our peer review system evolved over the years. The updated *Guide for Authors* chapter provides a more structured reference, divided into the four main sections of:
 
 - Planning a submission or pre-submission enquiry (at what stage of the package lifecycle should it be submitted)
-- Preparing for submission
+- Preparing for submission (practical steps)
 - The submission process
 - The review process
 
