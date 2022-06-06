@@ -89,7 +89,7 @@ Our [*Package Security Best Practices*](https://devguide.ropensci.org/package-de
 
 ## Other guidance updates
 
-The [*Citation* guidelines](https://devguide.ropensci.org/building.html#citation-file) now suggest using [the `cffr` package](https://docs.ropensci.org/cffr/) to create a "CITATION.cff" file.
+The [*Citation* guidelines](https://devguide.ropensci.org/building.html#citation-file) now suggest using [the `cffr` package](/blog/2021/11/23/cffr/) to create a "CITATION.cff" file.
 
 The [*Further Guidance* on Package Development](https://devguide.ropensci.org/building.html#further-guidance) now includes a section on useful blogs.
 
