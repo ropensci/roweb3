@@ -77,7 +77,7 @@ In response to an [idea from Klaus Vigo](https://github.com/ropensci/dev_guide/i
 
 ## No more CRAN notes for "rev" role in package authorship
 
-Standard rOpenSci practice is to [acknowledge package reviewers in your DESCRIPTION file](/blog/2018/03/16/thanking-reviewers-in-metadata/) by including their names with a `role = "rev"` identifier (subject to their approval). This used to raise notes in CRAN package checks on older versions of R. That is thankfully no longer the case, and we are happy to have finally been able to remove that statement. Everybody can now simply insert `role = "rev"` to acknowledge all reviewers, and all CRAN systems will happily recognise those statements.
+Standard rOpenSci practice is to [acknowledge package reviewers in your `DESCRIPTION` file](/blog/2018/03/16/thanking-reviewers-in-metadata/) by including their names with a `role = "rev"` identifier (subject to their approval). This used to raise notes in CRAN package checks on older versions of R. That is thankfully no longer the case, and we are happy to have finally been able to remove that statement. Everybody can now simply insert `role = "rev"` to acknowledge all reviewers, and all CRAN systems will happily recognise those statements.
 
 ## Updated package archiving practice
 
