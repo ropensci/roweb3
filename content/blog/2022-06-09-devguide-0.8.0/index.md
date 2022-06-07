@@ -83,7 +83,7 @@ Standard rOpenSci practice is to [acknowledge package reviewers in your DESCRIPT
 
 We have updated our guidance on package evolution to include a new section on [package archiving](https://devguide.ropensci.org/evolution.html#archivalguidance). This section reflects our updated policies that archived packages should move README.md to an alternative location, and reduce the main README.md to a minimal form explaining only that the package has been archived, and linking to the former README.md contents.
 
-## Two-Factor Autentication now required
+## Two-Factor Authentication now required
 
 Our [*Package Security Best Practices*](https://devguide.ropensci.org/package-development-security-best-practices.html) now *recommend* the use of two-factor authentication (2FA) for GitHub, and clarify that 2FA is [mandatory for all rOpenSci organization members and outside collaborators](/blog/2022/05/16/requiring-2fa-for-the-ropensci-github-organization/).
 
