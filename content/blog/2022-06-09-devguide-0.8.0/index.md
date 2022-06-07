@@ -53,7 +53,7 @@ We also now have explicit advice under *Planning a Submission* to ensure availab
 
 ## Updated Editors' Guide
 
-The [*Editors Guide* Chapter](https://devguide.ropensci.org/editorguide.html) now includes an additional section on "Answering Reviewers Questions", with links to a few previous reviews in which editors have worked with reviewers and package authors to implement major package changes prior to ultimate acceptance.
+The [*Editors' Guide* Chapter](https://devguide.ropensci.org/editorguide.html) now includes an additional section on "Answering Reviewers' Questions", with links to a few previous reviews in which editors have worked with reviewers and package authors to implement major package changes prior to ultimate acceptance.
 
 ## More automation
 
