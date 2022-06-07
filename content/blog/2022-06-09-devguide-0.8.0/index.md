@@ -102,3 +102,7 @@ Our [*Package Security Best Practices*](https://devguide.ropensci.org/package-de
 - The section in that chapter on [`roxygen2` use in documentation](https://devguide.ropensci.org/building.html#roxygen2-use) also describes the `@seealso` and `@family` tags for grouping functions in package documentation sites.
 
 - The [section in the *Collaboration Guide* Chapter](https://devguide.ropensci.org/collaboration.html#gitflow) on "Working with collaborators" has been streamlined, with [additional links](https://github.com/ropensci/dev_guide/pull/374) on giving and receiving code reviews.
+
+## Conclusion
+
+In this post we summarized the changes incorporated into our book “rOpenSci Packages: Development, Maintenance, and Peer Review” over the last months. We are thankful for all contributions that shaped this release. We are already working on the next version, including further improvements such as guidance on [packages which wrap other software](https://discuss.ropensci.org/t/standards-for-wrapper-packages-and-some-pracical-questions/2859), and recommendations for [further automation](https://github.com/ropensci/dev_guide/issues/382).
