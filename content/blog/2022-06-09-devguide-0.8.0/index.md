@@ -67,7 +67,7 @@ While not exactly an automation enhancement, our review template now explicitly 
 
 In addition to the automation advances described above, this release of the Dev Guide has also been eased through automation, notably through collecting several scripts and helper functions in a new R package, [`devguider`](https://github.com/ropensci-org/devguider). One function, `prerelease_checklist()`, collects all current issues on the [Dev Guide GitHub repository](https://github.com/ropensci/dev_guide/issues) that are associated with the upcoming release, adds then to our [pre-release checklist](https://devguide.ropensci.org/bookreleaseissue.html), and opens a new GitHub issue with all of those items as a checklist used to guide the next release. This checklist also contains explicit instructions on using other functions from the `devguider` package.
 
-## Guidance on contributing.md files
+## Guidance on `contributing.md` files
 
 Having a contributing file is [compulsory for rOpenSci packages](https://devguide.ropensci.org/collaboration.html?q=contributing#contributing-guide), and is automatically checked by our automated package checks. We've updated our [recommendations for CONTRIBUTING.md files](https://devguide.ropensci.org/collaboration.html#contributing-guide) to suggest a number of explicit approaches, including the one-line `usethis::use_tidy_contributing()` function, and links to two more extensive examples of contributing guides. We now also recommend the inclusion of a lifecycle statement in package contributing guides, to give contributors an understanding of the likely future development of a package.
 
