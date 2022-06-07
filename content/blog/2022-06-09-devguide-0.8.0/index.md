@@ -65,7 +65,7 @@ While not exactly an automation enhancement, our review template now explicitly 
 
 ### Automation also comes to the Dev Guide
 
-In addition to the automation advances described above, this release of the Dev Guide has also been eased through automation, notably through collecting several scripts and helper functions in [a new R package, `devguider`](https://github.com/ropensci-org/devguider). One function, `prerelease_checklist()`, collects all current issues on the [Dev Guide GitHub repository](https://github.com/ropensci/dev_guide/issues) that are associated with the upcoming release, adds then to our [pre-release checklist](https://devguide.ropensci.org/bookreleaseissue.html), and opens a new GitHub issue with all of those items as a checklist used to guide the next release. This checklist also contains explicit instructions on using other functions from the `devguider` package.
+In addition to the automation advances described above, this release of the Dev Guide has also been eased through automation, notably through collecting several scripts and helper functions in a new R package, [`devguider`](https://github.com/ropensci-org/devguider). One function, `prerelease_checklist()`, collects all current issues on the [Dev Guide GitHub repository](https://github.com/ropensci/dev_guide/issues) that are associated with the upcoming release, adds then to our [pre-release checklist](https://devguide.ropensci.org/bookreleaseissue.html), and opens a new GitHub issue with all of those items as a checklist used to guide the next release. This checklist also contains explicit instructions on using other functions from the `devguider` package.
 
 ## Guidance on contributing.md files
 
