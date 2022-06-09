@@ -11,25 +11,24 @@ tags:
 description: How we interact with volunteer maintainers
 ---
 
-At rOpenSci, many [packages are maintained](/commcalls/2020-03-18/) by volunteer community members, like Carpentries [lessons are maintained](https://carpentries.org/maintainers/)  by volunteer community members.
-We're very thankful for the effort they put into that role and our organisations could literally not run without their work.
-Sometimes, some infrastructure changes are decided centrally: [requiring two-factor authentication for all GitHub organization members](/blog/2022/05/17/requiring-2fa-for-the-ropensci-github-organization/) or [overhauling the foundation of the lesson infrastructure](https://carpentries.org/blog/2022/05/workbench-beta/).
-How do we, as staff members, best support these transformations?
-In this post, we shall share some insights from our experiences.
+At rOpenSci, many [packages are maintained](/commcalls/2020-03-18/) by volunteer community members, and similarly at Carpentries [lessons are maintained](https://carpentries.org/maintainers/) by volunteer community members.
+We're very thankful for the effort our volunteers put into that role and our organisations could literally not run without their work.
+However, sometimes infrastructure changes are decided centrally. For example, [requiring two-factor authentication for all GitHub organization members at rOpenSci](/blog/2022/05/17/requiring-2fa-for-the-ropensci-github-organization/) or [overhauling the foundation of the lesson infrastructure at Carpentries](https://carpentries.org/blog/2022/05/workbench-beta/).
+In this post, we shall share some insights from our experiences regarding how we, as staff members, best support our volunteers through these transformations.
 
 ## Making requirements explicit
 
-At the time when someone takes on maintenance of something, it is helpful to make requirements explicit. 
+When volunteers take on maintenance of something (be it an R package or an R lesson), it is helpful to make expectations explicit right away. 
 These requirements can contain a list of tasks and expectations of time (to respond) and duration (of the responsibility).
 At rOpenSci we have an [author guide](https://devguide.ropensci.org/authors-guide.html) for those who submit software to review, as well as a [package curation policy](https://devguide.ropensci.org/curationpolicy.html).
 At the Carpentries, maintainers [undergo an onboarding training](https://carpentries.org/blog/2022/05/maintainer-application/) to establish guidelines for how to work with Pull Requests to ensure our lessons align with [The Carpentries’ core values](https://carpentries.org/values) and evidenced-based teaching practices. 
-In 2022, The Carpentries a established a [yearly check-in](https://github.com/carpentries/maintainer-RFCs/issues/19) to give maintainers a chance to step down if they have decided that they need a break from maintenance. 
+In 2022, the Carpentries established a [yearly check-in](https://github.com/carpentries/maintainer-RFCs/issues/19) to give maintainers a chance to step down if they have decided that they need a break from maintenance. 
 
-## Using several channels of communication, being responsive
+## Using several channels of communication and being responsive
 
 Unless there are very few people involved, messages need to be sent in several places, _with reminders_.
-Not at once, the idea is not to spam people! 
-A mix of general communication channels (newsletter, mailing lists, Slack workspaces) together with more targeted communication ([ping in GitHub issues](https://github.com/datacarpentry/r-socialsci/issues/274#issuecomment-1126176378), emails), can best help deliver information... but also open the floor for questions and feedback _from_ maintainers (because at the end of the day, the most important part of the community is the community itself)!
+Not all at once, the idea is not to spam people! 
+A mix of general communication channels (newsletter, mailing lists, Slack workspaces) together with more targeted communication ([ping in GitHub issues](https://github.com/datacarpentry/r-socialsci/issues/274#issuecomment-1126176378), emails), can best help deliver information... but also opens the floor for questions and feedback _from_ maintainers (because at the end of the day, the most important part of the community is the community itself)!
 Answering contributor questions in a timely manner is key to trust.
 
 On a technical note, some communication can be partly automated, e.g. emails can be sent collectively using gmailr.
@@ -37,7 +36,7 @@ On a technical note, some communication can be partly automated, e.g. emails can
 ## Not rushing changes
 
 Have you ever stumbled across a package dependency with a new release that [broke everything](https://github.com/dwinter/mmod/issues/2)?
-Not rushing changes is probably a good idea in general, but especially so in organizations where much work is done by volunteers juggling other responsibilities. 
+Not rushing changes is probably a good idea in general, but especially so in organizations where much of the work is done by volunteers juggling other responsibilities. 
 Even big tech organizations like GitHub [make changes slowly so that they don’t alienate their users](https://github.blog/2022-05-04-software-security-starts-with-the-developer-securing-developer-accounts-with-2fa/). 
 We keep this in mind when defining timelines so that we can give people support before the change happens.
 
