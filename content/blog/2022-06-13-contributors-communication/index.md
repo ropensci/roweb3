@@ -27,8 +27,10 @@ In this post, we shall share some insights from our experiences regarding how we
 When volunteers take on maintenance of something (be it an R package or an R lesson), it is helpful to make expectations explicit right away. 
 These requirements can contain a list of tasks and expectations of time (to respond) and duration (of the responsibility).
 At rOpenSci we have an [author guide](https://devguide.ropensci.org/authors-guide.html) for those who submit software to review, as well as a [package curation policy](https://devguide.ropensci.org/curationpolicy.html).
-At the Carpentries, maintainers [undergo an onboarding training](https://carpentries.org/blog/2022/05/maintainer-application/) to establish guidelines for how to work with Pull Requests to ensure our lessons align with [The Carpentries’ core values](https://carpentries.org/values) and evidenced-based teaching practices. 
-In 2022, the Carpentries established a [yearly check-in](https://github.com/carpentries/maintainer-RFCs/issues/19) to give maintainers a chance to step down if they have decided that they need a break from maintenance. 
+At the Carpentries, maintainers [undergo an onboarding training](https://carpentries.org/blog/2022/05/maintainer-application/) to establish guidelines for how to work with Pull Requests, and to ensure our lessons align with [The Carpentries’ core values](https://carpentries.org/values) and evidenced-based teaching practices. 
+In 2022, the Carpentries established a [yearly check-in](https://github.com/carpentries/maintainer-RFCs/issues/19) to give maintainers a chance to step down if they have decided that they need a break from maintenance.[^ro]
+
+[^ro]: This has inspired rOpenSci to think about planning a similar yearly survey.
 
 ## Using several channels of communication and being responsive
 
