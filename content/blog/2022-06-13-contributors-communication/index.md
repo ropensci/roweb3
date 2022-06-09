@@ -11,6 +11,12 @@ tags:
 description: How we interact with volunteer maintainers
 ---
 
+_Zhiam Kamvar is Lesson Infrastructure Technology Developer at [The Carpentries](https://carpentries.org/) (Software Carpentry, Data Carpentry & Library Carpentry), an open global community teaching the skills & perspectives to turn data into knowledge.[^tinkr]_
+_Maëlle Salmon is a Research Software Engineer with rOpenSci._
+_In this post they compare their experiences in the two distinct organizations The Carpentries and rOpenSci._
+
+[^tinkr]: Zhian also maintains the rOpenSci [tinkr package](https://docs.ropensci.org/tinkr/) that was first introduced on this [blog](/blog/2018/10/01/tinkr/).
+
 At rOpenSci, many [packages are maintained](/commcalls/2020-03-18/) by volunteer community members, and similarly at Carpentries [lessons are maintained](https://carpentries.org/maintainers/) by volunteer community members.
 We're very thankful for the effort our volunteers put into that role and our organisations could literally not run without their work.
 However, sometimes infrastructure changes are decided centrally. For example, [requiring two-factor authentication for all GitHub organization members at rOpenSci](/blog/2022/05/17/requiring-2fa-for-the-ropensci-github-organization/) or [overhauling the foundation of the lesson infrastructure at Carpentries](https://carpentries.org/blog/2022/05/workbench-beta/).
