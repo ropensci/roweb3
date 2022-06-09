@@ -15,7 +15,7 @@ twitterImg: blog/2019/06/04/post-template/name-of-image.png
 twitterAlt: Alternative description of the image
 tweet: A post about blabla by @username!
 output: hugodown::md_document
-rmd_hash: 96480d22f0a80f5e
+rmd_hash: b7308f53b3eebf81
 
 ---
 
@@ -83,7 +83,7 @@ Before writing an R package, you might want to assess whether the API is well ma
 
 Now, even a big commercial API could bite you: pricing could change, features can get dropped, etc.
 
-Getting informed in advance won't prevent bad surprises but should still help.
+Getting informed in advance won't prevent bad surprises but should still help. Keeping informed (via a changelog, a newsletter, regular manual checks, tests with real requests) might also help seeing changes early.
 
 One thing to keep in mind is that no matter how many flags you plant in your documentation, users of the R package might file bug reports with your package instead of with the API maintainers.
 

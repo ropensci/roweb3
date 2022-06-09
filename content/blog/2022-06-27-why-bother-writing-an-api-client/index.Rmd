@@ -88,6 +88,7 @@ That is a step useful if the API is, say, a small scientific data source.
 Now, even a big commercial API could bite you: pricing could change, features can get dropped, etc.
 
 Getting informed in advance won't prevent bad surprises but should still help.
+Keeping informed (via a changelog, a newsletter, regular manual checks, tests with real requests) might also help seeing changes early.
 
 One thing to keep in mind is that no matter how many flags you plant in your documentation, users of the R package might file bug reports with your package instead of with the API maintainers.
 
