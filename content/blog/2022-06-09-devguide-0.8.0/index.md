@@ -22,7 +22,7 @@ tags:
   - ropensci-review-bot
   - GitHub
 package_version: 0.8.0
-description: "Updates in version 0.8.0 of the online book 'rOpenSci Packages: Development, Maintenance, and Peer Review rOpenSci Packages: Development, Maintenance, and Peer Review'"
+description: "Updates in version 0.8.0 of the online book 'rOpenSci Packages: Development, Maintenance, and Peer Review'"
 twitterImg: img/blog-images/2019-05-16-dev-guide-update/cover.png
 output: 
 twitterAlt: cover of rOpenSci dev guide, showing a package production line with small humans discussing, examining and promoting packages
