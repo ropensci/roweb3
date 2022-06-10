@@ -19,4 +19,4 @@ resources: # can be added later, one entry per talk (don't add while still empty
     slides: https://docs.google.com/presentation/d/12WhtFDjHOpNvpKNZO-ZWUa0DFuI9pbKHtENL2F-XSC4/edit#slide=id.g13389be7b22_0_0
 ---
 
-<Canal de YouTube https://www.youtube.com/c/VideosUNLP>
+Canal de YouTube <https://www.youtube.com/c/VideosUNLP>
