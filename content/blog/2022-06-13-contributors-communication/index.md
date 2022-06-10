@@ -27,8 +27,8 @@ In this post, we shall share some insights from our experiences regarding how we
 When volunteers take on maintenance of something (be it an R package or an R lesson), it is helpful to make expectations explicit right away. 
 These requirements can contain a list of tasks and expectations of time (to respond) and duration (of the responsibility).
 At rOpenSci we have an [author guide](https://devguide.ropensci.org/authors-guide.html) for those who submit software to review, as well as a [package curation policy](https://devguide.ropensci.org/curationpolicy.html).
-At the Carpentries, maintainers [undergo an onboarding training](https://carpentries.org/blog/2022/05/maintainer-application/) to establish guidelines for how to work with Pull Requests, and to ensure our lessons align with [The Carpentries’ core values](https://carpentries.org/values) and evidenced-based teaching practices. 
-In 2022, the Carpentries established a [yearly check-in](https://github.com/carpentries/maintainer-RFCs/issues/19) to give maintainers a chance to step down if they have decided that they need a break from maintenance.[^ro]
+At The Carpentries, maintainers [undergo an onboarding training](https://carpentries.org/blog/2022/05/maintainer-application/) to establish guidelines for how to work with Pull Requests, and to ensure our lessons align with [The Carpentries’ core values](https://carpentries.org/values) and evidenced-based teaching practices. 
+In 2022, The Carpentries established a [yearly check-in](https://github.com/carpentries/maintainer-RFCs/issues/19) to give maintainers a chance to step down if they have decided that they need a break from maintenance.[^ro]
 
 [^ro]: This has inspired rOpenSci to think about planning a similar yearly survey.
 
@@ -53,6 +53,7 @@ We keep this in mind when defining timelines so that we can give people support 
 It is important to us to do as much work on volunteers' behalf as possible.
 For instance, when [monitoring](/blog/2022/01/31/package-build-failures/) the dashboard of R-universe builds of packages, failures are reported with as much information as possible, with clear suggestions of fixes (possibly even pull requests).
 However, this has to be balanced with letting maintainers have ownership: for instance, we make as few direct code edits as possible.
+In The Carpentries, helping without taking over means that we provide decision support for maintainers, which looks like working on pull requests during maintainer meetings, [providing clear context for contentious issues](https://github.com/swcarpentry/git-novice/issues/778#issuecomment-879242651), [aggregating issues that need help](https://carpentries.org/help-wanted-issues/), and even [providing a high-level governance structure made up of volunteers](https://carpentries.org/blog/2021/09/curriculum-advisory-committee-application/) to address [broad topics in curricula](https://github.com/datacarpentry/r-raster-vector-geospatial/issues/363#issuecomment-1129233099). 
 
 ## Conclusion
 
