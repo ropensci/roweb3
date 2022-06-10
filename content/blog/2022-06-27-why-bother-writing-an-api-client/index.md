@@ -15,7 +15,7 @@ twitterImg: blog/2019/06/04/post-template/name-of-image.png
 twitterAlt: Alternative description of the image
 tweet: Why You Should (or Shouldn't) Build an API Client, a post by @ma_salmon, @LeNematode, @grusonh
 output: hugodown::md_document
-rmd_hash: 342f6dc34af91963
+rmd_hash: 5a82ad0697c438c2
 
 ---
 
@@ -84,7 +84,7 @@ A web API might change: for instance its output could evolve, breaking your code
 
 Before writing an R package, you might want to assess whether the API is well maintained, and you might even want to contact API maintainers to get their blessing. It is also a way to see whether they are responsive. That is a step useful if the API is, say, a small scientific data source.
 
-Now, even a big commercial API (à la Twitter, wrapped by [rtweet](https://docs.ropensci.org/rtweet)) could bite you: pricing could change, features can get dropped, etc.
+Now, even a big commercial API (à la Twitter, wrapped by [rtweet](https://docs.ropensci.org/rtweet)) could bite you: pricing could change, features can get dropped, etc. Beside, commercial APIs do not necessarily offer great rates for client developers, so your involvement might depend on what subscription you have for other reasons (now, if you lose your subscription by for instance changing jobs, you might no longer be interested in maintaining a package anyway).
 
 Getting informed in advance won't prevent bad surprises but should still help. Keeping informed (via a changelog, a newsletter, regular manual checks, tests with real requests) might also help seeing changes early.
 
