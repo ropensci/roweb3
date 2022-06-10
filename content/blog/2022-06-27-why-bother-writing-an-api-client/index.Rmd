@@ -60,7 +60,7 @@ Even if not doing extremely complex things under the hood, the mere existence of
 Having to read package docs rather than web API docs can for instance lower the efforts needed.
 
 A possibly tricky aspect your package can simplify is **authentication**.
-Authentication is the fact that certain APIs ask the users to identify themselves before accessing them. This can come in several flavors: using provided API keys, using OAuth, or using HTTP authentication (see rapidapi.com/blog/api-glossary/api-authentication for examples).
+Authentication is the fact that certain APIs ask the users to identify themselves before accessing them. This can come in several flavors: using provided API keys, using OAuth, or using HTTP authentication (see https://rapidapi.com/blog/api-glossary/api-authentication for examples).
 Your package can both simplify it and promote [security best practices](https://devguide.ropensci.org/package-development-security-best-practices.html#pkgsecrets)!
 For instance, your package should not make an API key a function argument only as it would encourage writing the API key in scripts.
 Examples of packages simplifying authentication: [gh](https://gh.r-lib.org/), [rtweet](https://docs.ropensci.org/rtweet), [opencage](https://docs.ropensci.org/opencage) (whose docs encourage the use of the keyring package for storing credentials).
