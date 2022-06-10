@@ -29,7 +29,7 @@
                {{ if ne .author "" }} <a href='https://github.com/{{ .username }}'>{{ .author }}</a>{{ else }}<a href='https://github.com/{{ .username }}'>{{ .username }}</a>{{ end }}
                 </p>
                                 <p class="mt-2 case-text">
-               Opened on {{ dateFormat "January 2, 2006" .opened }}.
+               Opened on {{ dateFormat "2006-01-02" .opened }}.
                 </p>
               </div>
             </div>
@@ -56,7 +56,7 @@
      
     <td><a href="{{ .url }}">{{ .title }}</a></td>
     <td><a href="https://docs.ropensci.org/{{ .package }}">{{ .package }}</a> </td>
-    <td>{{ dateFormat "January 2, 2006" .opened }} </td>
+    <td>{{ dateFormat "2006-01-02" .opened }} </td>
     <td>{{ if ne .author "" }} <a href='https://github.com/{{ .username }}'>{{ .author }}</a>{{ else }}<a href='https://github.com/{{ .username }}'>{{ .username }}</a>{{ end }}</td>
     <td>{{ if in .labels "good first issue" }} yes {{else }} no{{ end }}</td>
   </tr>
