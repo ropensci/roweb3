@@ -1,5 +1,5 @@
 ---
-title: Why Bother Writing (and Publicizing) an API Client
+title: Why You Should (or Shouldn't) Build an API Client
 author:
   - Maëlle Salmon
   - Matthias Grenié
@@ -10,16 +10,16 @@ categories: []
 tags:
   - api
   - API client
-description: A very short summary of your post (~ 100 characters)
+description: Should you write and maintain an R package accessing a web API? Here are our tips for deciding, and for doing it if you go for it.
 twitterImg: blog/2019/06/04/post-template/name-of-image.png
 twitterAlt: Alternative description of the image
-tweet: A post about blabla by @username!
+tweet: Why You Should (or Shouldn't) Build an API Client, a post by @ma_salmon, @LeNematode, @grusonh
 output: hugodown::md_document
-rmd_hash: 2f8ce3be8dcce9bb
+rmd_hash: 342f6dc34af91963
 
 ---
 
-Do you need to write some code wrapping a web resource such as an API delivering data? Packaging it up might be useful to you or your team for the same reason as any code. Now, whether you really want to publicize the package and to guarantee its maintenance might be slightly trickier than for other packages, as the usefulness and status of your package will depend on the web API being up and running according to expectations. This creates a surface for failures that might be more or less scary depending on your trust in the upstream maintainers.
+These days web APIs are everywhere (scientific data sources, your system for Customer relationship management, cat facts API...). Do you need to write some R code wrapping a web resource such as an API? Packaging it up might be useful to you or your team for the same reason as any code. Now, whether you really want to publicize the package and to guarantee its maintenance might be slightly trickier than for other packages, as the usefulness and status of your package will depend on the web API being up and running according to expectations. This creates a surface for failures that might be more or less scary depending on your trust in the upstream maintainers.
 
 In this post, we will go over whether you should bother maintain a package wrapping a web API.
 
@@ -58,22 +58,25 @@ Not sure how to work the numbers below into the text:
 
 ## Why would your API package delight users?
 
-Even if not doing extremely complex things under the hood, the mere existence of your package can hugely lower the barrier to API usage to some R users.
+Even if not doing extremely complex things under the hood, the mere existence of your package can hugely lower the barrier to API usage to some R users. Having to read package docs rather than web API docs can for instance lower the efforts needed.
 
-A possibly tricky aspect your package can simplify is **authentication**. Your package can both simplify it and promote [security best practices](https://devguide.ropensci.org/package-development-security-best-practices.html#pkgsecrets)! For instance, your package should not make an API key a function argument only as it would encourage writing the API key in scripts. Examples of packages simplifying authentication: [gh](https://gh.r-lib.org/), [rtweet](https://docs.ropensci.org/rtweet), [opencage](https://docs.ropensci.org/opencage) (whose docs encourage the use of the keyring package for storing credentials).
+A possibly tricky aspect your package can simplify is **authentication**. Authentication is the fact that certain APIs ask the users to identify themselves before accessing them. This can come in several flavors: using provided API keys, using OAuth, or using HTTP authentication (see rapidapi.com/blog/api-glossary/api-authentication for examples). Your package can both simplify it and promote [security best practices](https://devguide.ropensci.org/package-development-security-best-practices.html#pkgsecrets)! For instance, your package should not make an API key a function argument only as it would encourage writing the API key in scripts. Examples of packages simplifying authentication: [gh](https://gh.r-lib.org/), [rtweet](https://docs.ropensci.org/rtweet), [opencage](https://docs.ropensci.org/opencage) (whose docs encourage the use of the keyring package for storing credentials).
 
-Beside authentication, aspects that your package can simplify are
+Aspects that your package can simplify are
 
+-   **Authentication** as previously stated;
 -   **API response parsing**, for instance from deeply nested lists to near tibbles;
 -   [**Input checking**](https://blog.r-hub.io/2022/03/10/input-checking/);
 -   **Input entry** (for instance better defaults, using today's date, etc.);
 -   **Getting data from several result pages**;
 -   **Limiting request rate**;
+-   **Sending a good user-agent** to signal yourself to the API;
+-   **Managing API errors** (R errors can be easier to interpret than HTTP errors for the unfamiliar users);
 -   etc.
 
 Your package might be even more useful if it wraps not only one, but more web APIs, providing an unified interface to different data sources. Examples: [specieshindex](https://jessicatytam.github.io/specieshindex/), [spocc](https://docs.ropensci.org/spocc/).
 
-An interesting pattern might be for your package to provide both high level and low level functions, where low level functions can support API calls that the high level functions do not cover (yet). The gh package only offers low level functions, that are used in for instance the incredibly useful PR helpers in usethis.
+An interesting pattern might be for your package to provide both high level and low level functions, where low level functions can support API calls that the high level functions do not cover (yet). The [gh](https://gh.r-lib.org/) package only offers low level functions, that are used in for instance the incredibly useful [PR helpers in usethis](https://usethis.r-lib.org/articles/pr-functions.html). The [zbank](https://docs.ropensci.org/zbank/) package offers a low-level API that gives back the unparsed answer as a nested list with complete information, it also offers a high-level API that sends back parsed data.frames.
 
 ## How an API can hurt you :sweat_smile:
 
@@ -81,11 +84,11 @@ A web API might change: for instance its output could evolve, breaking your code
 
 Before writing an R package, you might want to assess whether the API is well maintained, and you might even want to contact API maintainers to get their blessing. It is also a way to see whether they are responsive. That is a step useful if the API is, say, a small scientific data source.
 
-Now, even a big commercial API could bite you: pricing could change, features can get dropped, etc.
+Now, even a big commercial API (à la Twitter, wrapped by [rtweet](https://docs.ropensci.org/rtweet)) could bite you: pricing could change, features can get dropped, etc.
 
 Getting informed in advance won't prevent bad surprises but should still help. Keeping informed (via a changelog, a newsletter, regular manual checks, tests with real requests) might also help seeing changes early.
 
-One thing to keep in mind is that no matter how many flags you plant in your documentation, users of the R package might file bug reports with your package instead of with the API maintainers.
+One thing to keep in mind is that no matter how many flags you plant in your documentation, users of the R package might file bug reports with your package instead of with the API maintainers. It can help if you for example implement a once per session reminder of the link to the API and its citation to clear up the confusion.
 
 For the case when an API is *flaky*, that is to say is often down, you might want to add warnings to your documentation and retries to your code (see for instance [`httr2::req_retry()`](https://httr2.r-lib.org/reference/req_retry.html)).
 
@@ -102,6 +105,15 @@ If you make your package public but are not sure whether you want to commit to m
 Could the package be developed automatically based on an OpenAPI (formely called Swagger) specifications? Maybe, but currently there is no established tool for that so you would first need to develop the R package creating R packages. :wink:
 
 {{< tweet user="JonTheGeek" id="1516395969398595589" >}}
+
+Worth exploring are:
+
+-   [Swagger Codegen](https://github.com/swagger-api/swagger-codegen/) that seems to offer R functionalities;
+-   [crumpets](https://github.com/hrbrmstr/crumpets/) that was scaffolded using R.
+
+Now, of course not all APIs have an OpenAPI specification.
+
+More generally you might find the R-hub blog post ["Code generation in R packages"](https://blog.r-hub.io/2020/02/10/code-generation) relevant.
 
 ## Resources for API package developers
 
