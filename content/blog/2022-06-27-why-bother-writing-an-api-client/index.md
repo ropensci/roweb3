@@ -15,7 +15,7 @@ twitterImg: blog/2019/06/04/post-template/name-of-image.png
 twitterAlt: Alternative description of the image
 tweet: A post about blabla by @username!
 output: hugodown::md_document
-rmd_hash: b7308f53b3eebf81
+rmd_hash: 2f8ce3be8dcce9bb
 
 ---
 
@@ -38,7 +38,7 @@ Not sure how to work the numbers below into the text:
     <span class='o'>)</span>
   <span class='o'>)</span>
 <span class='o'>)</span><span class='o'>)</span>
-<span class='c'>#&gt; [1] 1082</span>
+<span class='c'>#&gt; [1] 1081</span>
 
 <span class='c'># Not curl as httr, httr2 and crul depend on it</span>
 <span class='o'>(</span><span class='nv'>indirect</span> <span class='o'>&lt;-</span> <span class='nf'><a href='https://rdrr.io/r/base/length.html'>length</a></span><span class='o'>(</span>
@@ -56,7 +56,7 @@ Not sure how to work the numbers below into the text:
 
 </div>
 
-## Why would your API package be great for users?
+## Why would your API package delight users?
 
 Even if not doing extremely complex things under the hood, the mere existence of your package can hugely lower the barrier to API usage to some R users.
 
