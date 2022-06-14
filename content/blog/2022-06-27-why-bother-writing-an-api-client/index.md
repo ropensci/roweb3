@@ -15,7 +15,7 @@ twitterImg: blog/2019/06/04/post-template/name-of-image.png
 twitterAlt: Alternative description of the image
 tweet: Why You Should (or Shouldn't) Build an API Client, a post by @ma_salmon, @LeNematode, @grusonh
 output: hugodown::md_document
-rmd_hash: 2ed3698712b29c7e
+rmd_hash: b74543437c6b4268
 
 ---
 
@@ -23,49 +23,32 @@ These days web APIs are everywhere (scientific data sources, your system for Cus
 
 In this post, we will go over whether you should bother maintain a package wrapping a web API.
 
-Not sure how to work the numbers below into the text:
+## Why would your API package delight users?
+
+In a world where we have great R packages to interact with internet resources (httr, httr2, crul, etc.), one might wonder if it's worth writing an API package rather than using these packages directly:
 
 <div class="highlight">
 
-<pre class='chroma'><code class='language-r' data-lang='r'><span class='o'>(</span><span class='nv'>direct</span> <span class='o'>&lt;-</span> <span class='nf'><a href='https://rdrr.io/r/base/length.html'>length</a></span><span class='o'>(</span>
-  <span class='nf'><a href='https://rdrr.io/r/base/unique.html'>unique</a></span><span class='o'>(</span>
-    <span class='nf'><a href='https://rdrr.io/r/base/unlist.html'>unlist</a></span><span class='o'>(</span>
-      <span class='nf'>tools</span><span class='nf'>::</span><span class='nf'><a href='https://rdrr.io/r/tools/package_dependencies.html'>package_dependencies</a></span><span class='o'>(</span>
-        <span class='nf'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='o'>(</span><span class='s'>"httr2"</span>, <span class='s'>"httr"</span>, <span class='s'>"crul"</span>, <span class='s'>"curl"</span><span class='o'>)</span>, 
-        recursive <span class='o'>=</span> <span class='kc'>FALSE</span>,
-        reverse <span class='o'>=</span> <span class='kc'>TRUE</span>, 
-        which <span class='o'>=</span> <span class='s'>"Imports"</span><span class='o'>)</span>
-    <span class='o'>)</span>
-  <span class='o'>)</span>
-<span class='o'>)</span><span class='o'>)</span>
-<span class='c'>#&gt; [1] 1081</span>
-
-<span class='c'># Not curl as httr, httr2 and crul depend on it</span>
-<span class='o'>(</span><span class='nv'>indirect</span> <span class='o'>&lt;-</span> <span class='nf'><a href='https://rdrr.io/r/base/length.html'>length</a></span><span class='o'>(</span>
-  <span class='nf'><a href='https://rdrr.io/r/base/unique.html'>unique</a></span><span class='o'>(</span>
-    <span class='nf'><a href='https://rdrr.io/r/base/unlist.html'>unlist</a></span><span class='o'>(</span>
-      <span class='nf'>tools</span><span class='nf'>::</span><span class='nf'><a href='https://rdrr.io/r/tools/package_dependencies.html'>package_dependencies</a></span><span class='o'>(</span>
-        <span class='nf'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='o'>(</span><span class='s'>"httr2"</span>, <span class='s'>"httr"</span>, <span class='s'>"crul"</span><span class='o'>)</span>, 
-        recursive <span class='o'>=</span> <span class='kc'>TRUE</span>,
-        reverse <span class='o'>=</span> <span class='kc'>TRUE</span>, 
-        which <span class='o'>=</span> <span class='s'>"Imports"</span><span class='o'>)</span>
-    <span class='o'>)</span>
-  <span class='o'>)</span>
-<span class='o'>)</span><span class='o'>)</span>
-<span class='c'>#&gt; [1] 1840</span></code></pre>
+<pre class='chroma'><code class='language-r' data-lang='r'><span class='nf'>httr2</span><span class='nf'>::</span><span class='nf'><a href='https://httr2.r-lib.org/reference/request.html'>request</a></span><span class='o'>(</span><span class='s'>"https://cat-fact.herokuapp.com/facts"</span><span class='o'>)</span> |&gt; 
+  <span class='nf'>httr2</span><span class='nf'>::</span><span class='nf'><a href='https://httr2.r-lib.org/reference/req_perform.html'>req_perform</a></span><span class='o'>(</span><span class='o'>)</span> |&gt; 
+  <span class='nf'>httr2</span><span class='nf'>::</span><span class='nf'><a href='https://httr2.r-lib.org/reference/resp_body_raw.html'>resp_body_json</a></span><span class='o'>(</span><span class='o'>)</span> |&gt; 
+  <span class='nf'>purrr</span><span class='nf'>::</span><span class='nf'><a href='https://purrr.tidyverse.org/reference/map.html'>map_chr</a></span><span class='o'>(</span><span class='s'>"text"</span><span class='o'>)</span>
+<span class='c'>#&gt; [1] "Cats make about 100 different sounds. Dogs make only about 10."                                        </span>
+<span class='c'>#&gt; [2] "Domestic cats spend about 70 percent of the day sleeping and 15 percent of the day grooming."          </span>
+<span class='c'>#&gt; [3] "I don't know anything about cats."                                                                     </span>
+<span class='c'>#&gt; [4] "The technical term for a cat’s hairball is a bezoar."                                                  </span>
+<span class='c'>#&gt; [5] "Cats are the most popular pet in the United States: There are 88 million pet cats and 74 million dogs."</span></code></pre>
 
 </div>
 
-## Why would your API package delight users?
+However, even if not doing extremely complex things under the hood, the mere existence of your package can hugely lower the barrier to API usage to some R users.
 
-Even if not doing extremely complex things under the hood, the mere existence of your package can hugely lower the barrier to API usage to some R users. Having to read package docs rather than web API docs can for instance lower the efforts needed.
-
-A possibly tricky aspect your package can simplify is **authentication**. Authentication is the fact that certain APIs ask the users to identify themselves before accessing them. This can come in several flavors: using provided API keys, using OAuth, or using HTTP authentication (see <https://rapidapi.com/blog/api-glossary/api-authentication> for examples). Your package can both simplify it and promote [security best practices](https://devguide.ropensci.org/package-development-security-best-practices.html#pkgsecrets)! For instance, your package should not make an API key a function argument only as it would encourage writing the API key in scripts. Examples of packages simplifying authentication: [gh](https://gh.r-lib.org/), [rtweet](https://docs.ropensci.org/rtweet), [opencage](https://docs.ropensci.org/opencage) (whose docs encourage the use of the keyring package for storing credentials).
+Having to read package docs rather than web API docs can for instance lower the efforts needed.
 
 Aspects that your package can simplify are
 
--   **Authentication** as previously stated;
--   **API response parsing**, for instance from deeply nested lists to near tibbles;
+-   **Authentication** (see below);
+-   **API response parsing**, for instance from deeply nested lists to near tibbles. When the data are complex, it may save some user time to use a well-designed package.;
 -   [**Input checking**](https://blog.r-hub.io/2022/03/10/input-checking/);
 -   **Input entry** (for instance better defaults, using today's date, etc.);
 -   **Getting data from several result pages**;
@@ -73,6 +56,8 @@ Aspects that your package can simplify are
 -   **Sending a good user-agent** to signal yourself to the API;
 -   **Managing API errors** (R errors can be easier to interpret than HTTP errors for the unfamiliar users);
 -   etc.
+
+A particularly tricky aspect your package can simplify is **authentication**. Authentication is the fact that certain APIs ask the users to identify themselves before accessing them. This can come in several flavors: using provided API keys, using OAuth, or using HTTP authentication (see <https://rapidapi.com/blog/api-glossary/api-authentication> for examples). Your package can both simplify it and promote [security best practices](https://devguide.ropensci.org/package-development-security-best-practices.html#pkgsecrets)! For instance, your package should not make an API key a function argument only as it would encourage writing the API key in scripts. Examples of packages simplifying authentication: [gh](https://gh.r-lib.org/), [rtweet](https://docs.ropensci.org/rtweet), [opencage](https://docs.ropensci.org/opencage) (whose docs encourage the use of the keyring package for storing credentials).
 
 Your package might be even more useful if it wraps not only one, but more web APIs, providing an unified interface to different data sources. Examples: [specieshindex](https://jessicatytam.github.io/specieshindex/), [spocc](https://docs.ropensci.org/spocc/).
 
@@ -82,11 +67,11 @@ An interesting pattern might be for your package to provide both high level and 
 
 A web API might change: for instance its output could evolve, breaking your code.
 
-Before writing an R package, you might want to assess whether the API is well maintained, and you might even want to contact API maintainers to get their blessing. It is also a way to see whether they are responsive. That is a step useful if the API is, say, a small scientific data source.
+Before writing an R package, you might want to assess whether the API is well maintained, and you might even want to contact API maintainers to get their blessing. Alternatively, they might advise you to wait a couple of months as major breaking changes are in the pipeline. It is also a way to see whether they are responsive. That is a step useful if the API is, say, a small scientific data source (two of us, who built [rromeo](https://github.com/ropensci-archive/rromeo) discovered the day the package was approved by rOpenSci that the API released a brand new version, with no common functions from the previous version).
 
 Now, even a big commercial API (à la Twitter, wrapped by [rtweet](https://docs.ropensci.org/rtweet)) could bite you: pricing could change, features can get dropped, etc. Beside, commercial APIs do not necessarily offer great rates for client developers, so your involvement might depend on what subscription you have for other reasons (now, if you lose your subscription by for instance changing jobs, you might no longer be interested in maintaining a package anyway).
 
-Getting informed in advance won't prevent bad surprises but should still help. Keeping informed (via a changelog, a newsletter, regular manual checks, tests with real requests) might also help seeing changes early.
+Getting informed in advance won't prevent bad surprises but should still help. Keeping informed (via a changelog, a newsletter, regular manual checks, tests with real requests) might also help seeing changes early. In **theory**, adding a custom user-agent with contact details (link to your package development repository) might allows API maintainers to contact you if your package is causing issues or if it's interacting with (soon to be) deprecated endpoints.
 
 One thing to keep in mind is that no matter how many flags you plant in your documentation, users of the R package might file bug reports with your package instead of with the API maintainers. It can help if you for example implement a once per session reminder of the link to the API and its citation to clear up the confusion.
 
