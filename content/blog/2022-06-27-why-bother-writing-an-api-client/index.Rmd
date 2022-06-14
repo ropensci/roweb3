@@ -79,6 +79,7 @@ Beside, commercial APIs do not necessarily offer great rates for client develope
 
 Getting informed in advance won't prevent bad surprises but should still help.
 Keeping informed (via a changelog, a newsletter, regular manual checks, tests with real requests) might also help seeing changes early.
+In **theory**, adding a custom user-agent with contact details (link to your package development repository) might allows API maintainers to contact you if your package is causing issues or if it's interacting with (soon to be) deprecated endpoints.
 
 One thing to keep in mind is that no matter how many flags you plant in your documentation, users of the R package might file bug reports with your package instead of with the API maintainers.
 It can help if you for example implement a once per session reminder of the link to the API and its citation to clear up the confusion.
