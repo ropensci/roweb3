@@ -15,7 +15,7 @@ twitterImg: blog/2019/06/04/post-template/name-of-image.png
 twitterAlt: Alternative description of the image
 tweet: Why You Should (or Shouldn't) Build an API Client, a post by @ma_salmon, @LeNematode, @grusonh
 output: hugodown::md_document
-rmd_hash: b74543437c6b4268
+rmd_hash: 322d384411321e8c
 
 ---
 
@@ -25,7 +25,7 @@ In this post, we will go over whether you should bother maintain a package wrapp
 
 ## Why would your API package delight users?
 
-In a world where we have great R packages to interact with internet resources (httr, httr2, crul, etc.), one might wonder if it's worth writing an API package rather than using these packages directly:
+In a world where we have great R packages to interact with internet resources (httr, httr2, curl, etc.), one might wonder if it's worth writing an API package rather than using these packages directly:
 
 <div class="highlight">
 

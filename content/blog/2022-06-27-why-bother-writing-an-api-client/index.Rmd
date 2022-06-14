@@ -27,7 +27,7 @@ In this post, we will go over whether you should bother maintain a package wrapp
 
 ## Why would your API package delight users?
 
-In a world where we have great R packages to interact with internet resources (httr, httr2, crul, etc.), one might wonder if it's worth writing an API package rather than using these packages directly:
+In a world where we have great R packages to interact with internet resources (httr, httr2, curl, etc.), one might wonder if it's worth writing an API package rather than using these packages directly:
 
 ```{r}
 httr2::request("https://cat-fact.herokuapp.com/facts") |> 
