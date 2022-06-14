@@ -27,13 +27,23 @@ In this post, we will go over whether you should bother maintain a package wrapp
 
 ## Why would your API package delight users?
 
-Even if not doing extremely complex things under the hood, the mere existence of your package can hugely lower the barrier to API usage to some R users.
+In a world where we have great R packages to interact with internet resources (httr, httr2, crul, etc.), one might wonder if it's worth writing an API package rather than using these packages directly:
+
+```{r}
+httr2::request("https://cat-fact.herokuapp.com/facts") |> 
+  httr2::req_perform() |> 
+  httr2::resp_body_json() |> 
+  purrr::map_chr("text")
+```
+
+However, even if not doing extremely complex things under the hood, the mere existence of your package can hugely lower the barrier to API usage to some R users.
+
 Having to read package docs rather than web API docs can for instance lower the efforts needed.
 
 Aspects that your package can simplify are
 
 * **Authentication** (see below);
-* **API response parsing**, for instance from deeply nested lists to near tibbles;
+* **API response parsing**, for instance from deeply nested lists to near tibbles. When the data are complex, it may save some user time to use a well-designed package.;
 * [**Input checking**](https://blog.r-hub.io/2022/03/10/input-checking/);
 * **Input entry** (for instance better defaults, using today's date, etc.);
 * **Getting data from several result pages**;
