@@ -7,7 +7,7 @@ date: '2022-06-14'
 slug: communication-with-contributors-in-an-open-source-organization
 tags:
   - community
-description: How we interact with volunteer maintainers
+description: How we interact with volunteer maintainers. Post by @ma_salmon (@rOpenSci) and @ZKamvar (@thecarpentries)
 ---
 
 _Zhiam Kamvar is Lesson Infrastructure Technology Developer at [The Carpentries](https://carpentries.org/) (Software Carpentry, Data Carpentry & Library Carpentry), an open global community teaching the skills & perspectives to turn data into knowledge.[^tinkr]_
