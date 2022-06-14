@@ -25,35 +25,6 @@ This creates a surface for failures that might be more or less scary depending o
 
 In this post, we will go over whether you should bother maintain a package wrapping a web API.
 
-Not sure how to work the numbers below into the text:
-
-```{r}
-(direct <- length(
-  unique(
-    unlist(
-      tools::package_dependencies(
-        c("httr2", "httr", "crul", "curl"), 
-        recursive = FALSE,
-        reverse = TRUE, 
-        which = "Imports")
-    )
-  )
-))
-
-# Not curl as httr, httr2 and crul depend on it
-(indirect <- length(
-  unique(
-    unlist(
-      tools::package_dependencies(
-        c("httr2", "httr", "crul"), 
-        recursive = TRUE,
-        reverse = TRUE, 
-        which = "Imports")
-    )
-  )
-))
-```
-
 ## Why would your API package delight users?
 
 Even if not doing extremely complex things under the hood, the mere existence of your package can hugely lower the barrier to API usage to some R users.
@@ -91,7 +62,7 @@ A web API might change: for instance its output could evolve, breaking your code
 Before writing an R package, you might want to assess whether the API is well maintained, and you might even want to contact API maintainers to get their blessing.
 Alternatively, they might advise you to wait a couple of months as major breaking changes are in the pipeline.
 It is also a way to see whether they are responsive.
-That is a step useful if the API is, say, a small scientific data source.
+That is a step useful if the API is, say, a small scientific data source (two of us, who built [rromeo](https://github.com/ropensci-archive/rromeo) discovered  the day the package was approved by rOpenSci that the API released a brand new version, with no common functions from the previous version).
 
 Now, even a big commercial API (à la Twitter, wrapped by [rtweet](https://docs.ropensci.org/rtweet)) could bite you: pricing could change, features can get dropped, etc.
 Beside, commercial APIs do not necessarily offer great rates for client developers, so your involvement might depend on what subscription you have for other reasons (now, if you lose your subscription by for instance changing jobs, you might no longer be interested in maintaining a package anyway).
