@@ -19,7 +19,7 @@ _In this post they compare their experiences in the two distinct organizations T
 
 At rOpenSci, many [packages are maintained](/commcalls/2020-03-18/) by volunteer community members, and similarly at The Carpentries [lessons are maintained](https://carpentries.org/maintainers/) by volunteer community members.
 We're very thankful for the effort our volunteers put into that role and our organisations could literally not run without their work.
-However, sometimes infrastructure changes are decided centrally. For example, [requiring two-factor authentication for all GitHub organization members at rOpenSci](/blog/2022/05/17/requiring-2fa-for-the-ropensci-github-organization/) or [overhauling the foundation of the lesson infrastructure at The Carpentries](https://carpentries.org/blog/2022/05/workbench-beta/).
+However, sometimes infrastructure changes are decided centrally. For example, [requiring two-factor authentication for all GitHub organization members at rOpenSci](/blog/2022/05/16/requiring-2fa-for-the-ropensci-github-organization/) or [overhauling the foundation of the lesson infrastructure at The Carpentries](https://carpentries.org/blog/2022/05/workbench-beta/).
 In this post, we shall share some insights from our experiences regarding how we, as staff members, best support our volunteers through these transformations.
 
 ## Making requirements explicit
