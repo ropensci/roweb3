@@ -120,6 +120,7 @@ Now, if you are still motivated to maintain an API package for a small (your tea
 - The [R packages book by Hadley Wickham and Jenny Bryan](https://r-pkgs.org/) (the online version corresponds to the future second edition, not completely revised at the time of writing);
 - [rOpenSci dev guide](https://devguide.ropensci.org/);
 - [httr2 "Wrapping APIs" vignette](https://httr2.r-lib.org/articles/wrapping-apis.html) (or httr vignettes, or curl docs, depending on what dependency you prefer);
+- ["The ins and outs of interacting with web APIs"](/blog/2014/04/14/webapis/) on this blog;
 - [HTTP testing in R](https://books.ropensci.org/http-testing/) including a more general chapter on ["Graceful HTTP R packages"](https://books.ropensci.org/http-testing/graceful.html);
 - Reading all docs of the API you are using, potentially subscribing to its changelog;
 - Asking questions to friendly communities ([rOpenSci forum](http://discuss.ropensci.org/) or [semi-open slack workspace](https://contributing.ropensci.org/resources.html?q=slack#channels), [package development category of RStudio community forum](https://community.rstudio.com/c/package-development/11))
