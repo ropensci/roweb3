@@ -89,6 +89,7 @@ The [zbank](https://docs.ropensci.org/zbank/) package offers a low-level API tha
 A web API might change: for instance its output could evolve, breaking your code.
 
 Before writing an R package, you might want to assess whether the API is well maintained, and you might even want to contact API maintainers to get their blessing.
+Alternatively, they might advise you to wait a couple of months as major breaking changes are in the pipeline.
 It is also a way to see whether they are responsive.
 That is a step useful if the API is, say, a small scientific data source.
 
