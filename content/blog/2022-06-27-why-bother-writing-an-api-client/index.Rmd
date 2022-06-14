@@ -30,15 +30,9 @@ In this post, we will go over whether you should bother maintain a package wrapp
 Even if not doing extremely complex things under the hood, the mere existence of your package can hugely lower the barrier to API usage to some R users.
 Having to read package docs rather than web API docs can for instance lower the efforts needed.
 
-A possibly tricky aspect your package can simplify is **authentication**.
-Authentication is the fact that certain APIs ask the users to identify themselves before accessing them. This can come in several flavors: using provided API keys, using OAuth, or using HTTP authentication (see https://rapidapi.com/blog/api-glossary/api-authentication for examples).
-Your package can both simplify it and promote [security best practices](https://devguide.ropensci.org/package-development-security-best-practices.html#pkgsecrets)!
-For instance, your package should not make an API key a function argument only as it would encourage writing the API key in scripts.
-Examples of packages simplifying authentication: [gh](https://gh.r-lib.org/), [rtweet](https://docs.ropensci.org/rtweet), [opencage](https://docs.ropensci.org/opencage) (whose docs encourage the use of the keyring package for storing credentials).
-
 Aspects that your package can simplify are
 
-* **Authentication** as previously stated;
+* **Authentication** (see below);
 * **API response parsing**, for instance from deeply nested lists to near tibbles;
 * [**Input checking**](https://blog.r-hub.io/2022/03/10/input-checking/);
 * **Input entry** (for instance better defaults, using today's date, etc.);
@@ -47,6 +41,12 @@ Aspects that your package can simplify are
 * **Sending a good user-agent** to signal yourself to the API;
 * **Managing API errors** (R errors can be easier to interpret than HTTP errors for the unfamiliar users);
 * etc.
+
+A particularly tricky aspect your package can simplify is **authentication**.
+Authentication is the fact that certain APIs ask the users to identify themselves before accessing them. This can come in several flavors: using provided API keys, using OAuth, or using HTTP authentication (see https://rapidapi.com/blog/api-glossary/api-authentication for examples).
+Your package can both simplify it and promote [security best practices](https://devguide.ropensci.org/package-development-security-best-practices.html#pkgsecrets)!
+For instance, your package should not make an API key a function argument only as it would encourage writing the API key in scripts.
+Examples of packages simplifying authentication: [gh](https://gh.r-lib.org/), [rtweet](https://docs.ropensci.org/rtweet), [opencage](https://docs.ropensci.org/opencage) (whose docs encourage the use of the keyring package for storing credentials).
 
 Your package might be even more useful if it wraps not only one, but more web APIs, providing an unified interface to different data sources.
 Examples: [specieshindex](https://jessicatytam.github.io/specieshindex/), [spocc](https://docs.ropensci.org/spocc/).
