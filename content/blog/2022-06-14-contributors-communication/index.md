@@ -3,9 +3,8 @@ title: Communication & Collaboration with Contributors in an Open-Source Organiz
 author:
   - Maëlle Salmon
   - Zhian Kamvar
-date: '2022-06-13'
+date: '2022-06-14'
 slug: communication-with-contributors-in-an-open-source-organization
-categories: []
 tags:
   - community
 description: How we interact with volunteer maintainers
