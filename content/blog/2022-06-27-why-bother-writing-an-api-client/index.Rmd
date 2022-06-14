@@ -118,6 +118,7 @@ More generally you might find the R-hub blog post ["Code generation in R package
 Now, if you are still motivated to maintain an API package for a small (your team?) or big (the world!) audience, we recommend:
 
 - The [R packages book by Hadley Wickham and Jenny Bryan](https://r-pkgs.org/) (the online version corresponds to the future second edition, not completely revised at the time of writing);
+- [rOpenSci dev guide](https://devguide.ropensci.org/);
 - [httr2 "Wrapping APIs" vignette](https://httr2.r-lib.org/articles/wrapping-apis.html) (or httr vignettes, or curl docs, depending on what dependency you prefer);
 - [HTTP testing in R](https://books.ropensci.org/http-testing/) including a more general chapter on ["Graceful HTTP R packages"](https://books.ropensci.org/http-testing/graceful.html);
 - Reading all docs of the API you are using, potentially subscribing to its changelog;
@@ -130,3 +131,4 @@ Now, whether to publicize and guarantee maintenance of the resulting tool is a c
 You should also regularly re-assess your maintaining the package.
 Onboard contributors regularly to share the load and potentially leave completely at some point without the package getting orphaned.
 Good luck, we hope you get all [`200`](https://http.cat/200)'s!
+Feel free to POST about your own experiences below.
