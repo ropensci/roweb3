@@ -15,7 +15,7 @@ twitterImg: blog/2019/06/04/post-template/name-of-image.png
 twitterAlt: Alternative description of the image
 tweet: Why You Should (or Shouldn't) Build an API Client, a post by @ma_salmon, @LeNematode, @grusonh
 output: hugodown::md_document
-rmd_hash: 27753ca8bf02be67
+rmd_hash: c7d22c24561cff5b
 
 ---
 
@@ -48,13 +48,13 @@ Having to read package docs rather than web API docs can for instance lower the 
 Aspects that your package can simplify are
 
 -   **Authentication** (see below);
--   **API response parsing**, for instance from deeply nested lists to near tibbles. When the data are complex, it may save some user time to use a well-designed package.;
--   [**Input checking**](https://blog.r-hub.io/2022/03/10/input-checking/);
+-   **API response parsing**, for instance from deeply nested lists to near tibbles (see [rcrossref](https://docs.ropensci.org/rcrossref)). When the data are complex, it may save some user time to use a well-designed package;
+-   [**Input checking**](https://blog.r-hub.io/2022/03/10/input-checking/) ([qualtRics](https://github.com/ropensci/qualtRics/blob/7d1e80ca20cb3d07cf7cfce3b0154b86c2113689/R/utils.R#L109), [nasapower](https://github.com/ropensci/nasapower/blob/beb9e2907b6d100615a0cc2396b120f785c69813/R/get_power.R#L224));
 -   **Input entry** (for instance better defaults, using today's date, etc.);
--   **Getting data from several result pages**;
--   **Limiting request rate**;
--   **Sending a good user-agent** to signal yourself to the API;
--   **Managing API errors** (R errors can be easier to interpret than HTTP errors for the unfamiliar users);
+-   **Getting data from several result pages** (example: in gh, automatically implemented in the [`gh::gh()`](https://gh.r-lib.org/reference/gh.html) action but done under the hood by <https://gh.r-lib.org/reference/gh_next.html>);
+-   **Limiting request rate** (example: <https://docs.ropensci.org/rtweet/reference/rate_limit.html> in rtweet);
+-   **Sending a good user-agent** to signal yourself to the API (gh (`User-Agent: "https://github.com/r-lib/gh"`), [rmangal](https://github.com/ropensci/rmangal/blob/8f786a83824c8b5142e1485fa5fac5993227360e/R/zzz.R#L18));
+-   **Managing API errors** as R errors can be easier to interpret than HTTP errors for the unfamiliar users ([qualtRics](https://github.com/ropensci/qualtRics/blob/7d1e80ca20cb3d07cf7cfce3b0154b86c2113689/R/utils.R#L10), [rnassqs](https://github.com/ropensci/rnassqs/blob/80564dbc076981ad9f1fd51ccf6a513fe55967b7/R/request.R#L297-L301));
 -   etc.
 
 A particularly tricky aspect your package can simplify is **authentication**. Authentication is the fact that certain APIs ask the users to identify themselves before accessing them. This can come in several flavors: using provided API keys, using OAuth, or using HTTP authentication (see <https://rapidapi.com/blog/api-glossary/api-authentication> for examples). Your package can both simplify it and promote [security best practices](https://devguide.ropensci.org/package-development-security-best-practices.html#pkgsecrets)! For instance, your package should not make an API key a function argument only as it would encourage writing the API key in scripts. Examples of packages simplifying authentication: [gh](https://gh.r-lib.org/), [rtweet](https://docs.ropensci.org/rtweet), [opencage](https://docs.ropensci.org/opencage) (whose docs encourage the use of the keyring package for storing credentials).
@@ -107,6 +107,7 @@ Now, if you are still motivated to maintain an API package for a small (your tea
 -   The [R packages book by Hadley Wickham and Jenny Bryan](https://r-pkgs.org/) (the online version corresponds to the future second edition, not completely revised at the time of writing);
 -   [rOpenSci dev guide](https://devguide.ropensci.org/);
 -   [httr2 "Wrapping APIs" vignette](https://httr2.r-lib.org/articles/wrapping-apis.html) (or httr vignettes, or curl docs, depending on what dependency you prefer);
+-   ["The ins and outs of interacting with web APIs"](/blog/2014/04/14/webapis/) on this blog;
 -   [HTTP testing in R](https://books.ropensci.org/http-testing/) including a more general chapter on ["Graceful HTTP R packages"](https://books.ropensci.org/http-testing/graceful.html);
 -   Reading all docs of the API you are using, potentially subscribing to its changelog;
 -   Asking questions to friendly communities ([rOpenSci forum](http://discuss.ropensci.org/) or [semi-open slack workspace](https://contributing.ropensci.org/resources.html?q=slack#channels), [package development category of RStudio community forum](https://community.rstudio.com/c/package-development/11))
