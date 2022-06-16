@@ -4,7 +4,7 @@ author:
   - Maëlle Salmon
   - Matthias Grenié
   - Hugo Gruson
-date: '2022-06-27'
+date: '2022-06-16'
 slug: publicize-api-client-yes-no
 categories: []
 tags:
@@ -15,7 +15,7 @@ twitterImg: blog/2019/06/04/post-template/name-of-image.png
 twitterAlt: Alternative description of the image
 tweet: Why You Should (or Shouldn't) Build an API Client, a post by @ma_salmon, @LeNematode, @grusonh
 output: hugodown::md_document
-rmd_hash: 41bd5cdbccdcb304
+rmd_hash: fe17894014377f0d
 
 ---
 
