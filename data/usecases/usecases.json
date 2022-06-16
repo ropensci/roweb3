@@ -543,7 +543,7 @@
     "title": "covidpreprints.com using europepmc and rAltmetric",
     "reporter": "Zhanghe Goh",
     "tags": ["r", "package", "raltmetric", "europepmc"],
-    "resource": "[europepmc](https://docs.ropensci.org/europepmc), [rAltmetric](https://docs.ropensci.org/rAltmetric)",
+    "resource": "[europepmc](https://docs.ropensci.org/europepmc), rAltmetric",
     "url": "https://discuss.ropensci.org/t/covidpreprints-com-using-europepmc-and-raltmetric/2210",
     "image": "noimage",
     "date": "2020-09-08"
@@ -954,12 +954,30 @@
     "date": "2022-04-21"
   },
   {
-    "title": "Analyze your Twitter timeline with {rtweet} and {lubridate}",
+    "title": "Analyze your Twitter timeline with rtweet and lubridate",
     "reporter": "Albert Rapp",
     "tags": ["rtweet", "lubridate", "twitter"],
     "resource": "[rtweet](https://docs.ropensci.org/rtweet)",
     "url": "https://discuss.ropensci.org/t/analyze-your-twitter-timeline-with-rtweet-and-lubridate/2931",
     "image": "analyze-your-twitter-timeline-with-rtweet-and-lubridate.png",
     "date": "2022-05-14"
+  },
+  {
+    "title": "Extração de dados sobre heróis negros e negras da Marvel e DC",
+    "reporter": "Fernando Almeida Barbalho",
+    "tags": "tabulizer",
+    "resource": "tabulizer [pt-br]",
+    "url": "https://discuss.ropensci.org/t/extracao-de-dados-sobre-herois-negros-e-negras-da-marvel-e-dc/2952",
+    "image": "noimage",
+    "date": "2022-05-30"
+  },
+  {
+    "title": "Map of linguae francae of Dagestan, Russia",
+    "reporter": "George Moroz",
+    "tags": "lingtypology",
+    "resource": "[lingtypology](https://docs.ropensci.org/lingtypology)",
+    "url": "https://discuss.ropensci.org/t/map-of-linguae-francae-of-dagestan-russia/2957",
+    "image": "map-of-linguae-francae-of-dagestan-russia.jpeg",
+    "date": "2022-06-02"
   }
 ]
