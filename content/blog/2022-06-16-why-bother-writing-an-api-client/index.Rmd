@@ -11,9 +11,7 @@ tags:
   - api
   - API client
 description: Should you write and maintain an R package accessing a web API? Here are our tips for deciding, and for doing it if you go for it.
-twitterImg: blog/2019/06/04/post-template/name-of-image.png
-twitterAlt: Alternative description of the image
-tweet: Why You Should (or Shouldn't) Build an API Client, a post by @ma_salmon, @LeNematode, @grusonh
+tweet: Why You Should (or Shouldn't) Build an API Client, a post by @ma_salmon (@ropensci), @LeNematode, @grusonh
 output: hugodown::md_document
 ---
 
@@ -23,7 +21,7 @@ Packaging it up might be useful to you or your team for the same reason as any c
 Now, whether you really want to publicize the package and to guarantee its maintenance might be slightly trickier than for other packages, as the usefulness and status of your package will depend on the web API being up and running according to expectations.
 This creates a surface for failures that might be more or less scary depending on your trust in the upstream maintainers.
 
-In this post, we will go over whether you should bother maintain a package wrapping a web API.
+In this post, we will go over whether you should bother maintain a package wrapping a web API and we will provide suggestions of useful resources.
 
 ## Why would your API package delight users?
 
