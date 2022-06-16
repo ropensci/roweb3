@@ -64,7 +64,7 @@ Examples: [specieshindex](https://jessicatytam.github.io/specieshindex/), [spocc
 The [gh](https://gh.r-lib.org/) package only offers low level functions, that are used in for instance the incredibly useful [PR helpers in usethis](https://usethis.r-lib.org/articles/pr-functions.html).
 The [zbank](https://docs.ropensci.org/zbank/) package offers a low-level API that gives back the unparsed answer as a nested list with complete information, it also offers a high-level API that sends back parsed data.frames.
 
-## Finding the right balance
+## Finding the right complexity/flexibility balance
 
 One of the most difficult aspect with API R packages (or any R package really, but even more so here) is to strike the right balance on the complexity/flexibility trade-off. In an attempt to simplify things, you might end up:
 
