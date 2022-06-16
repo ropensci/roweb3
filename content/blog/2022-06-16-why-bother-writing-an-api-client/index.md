@@ -13,7 +13,7 @@ tags:
 description: Should you write and maintain an R package accessing a web API? Here are our tips for deciding, and for doing it if you go for it.
 tweet: Why You Should (or Should not) Build an API Client, a post by @ma_salmon (@ropensci), @LeNematode, @grusonh
 output: hugodown::md_document
-rmd_hash: 58644f48769c7177
+rmd_hash: 7f6f2939853b92e4
 
 ---
 
@@ -97,7 +97,7 @@ If you make your package public but are not sure whether you want to commit to m
 
 ## Could the API package creating be easier?
 
-Could the package be developed automatically based on an OpenAPI (formely called Swagger) specifications? Maybe, but currently there is no established tool for that so you would first need to develop the R package creating R packages. :wink:
+Could the package be developed automatically based on an OpenAPI (formerly called Swagger) specifications? Maybe, but currently there is no established tool for that so you would first need to develop the R package creating R packages. :wink:
 
 {{< tweet user="JonTheGeek" id="1516395969398595589" >}}
 
