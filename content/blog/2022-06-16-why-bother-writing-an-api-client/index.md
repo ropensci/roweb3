@@ -103,7 +103,7 @@ Could the package be developed automatically based on an OpenAPI (formerly calle
 
 Worth exploring are:
 
--   [Swagger Codegen](https://github.com/swagger-api/swagger-codegen/) that seems to offer R functionalities;
+-   [OpenAPI generator](https://github.com/OpenAPITools/openapi-generator/tree/master/modules/openapi-generator/src/main/resources/r) that seems to offer R functionalities;
 -   [crumpets](https://github.com/hrbrmstr/crumpets/) that was scaffolded using R.
 
 Now, of course not all APIs have an OpenAPI specification.
