@@ -11,9 +11,9 @@ tags:
   - api
   - API client
 description: Should you write and maintain an R package accessing a web API? Here are our tips for deciding, and for doing it if you go for it.
-tweet: Why You Should (or Shouldn't) Build an API Client, a post by @ma_salmon (@ropensci), @LeNematode, @grusonh
+tweet: Why You Should (or Should not) Build an API Client, a post by @ma_salmon (@ropensci), @LeNematode, @grusonh
 output: hugodown::md_document
-rmd_hash: d3a54cbebadd6cde
+rmd_hash: fec44e77446cd6d2
 
 ---
 
