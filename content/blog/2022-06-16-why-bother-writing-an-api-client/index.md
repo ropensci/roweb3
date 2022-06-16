@@ -13,7 +13,7 @@ tags:
 description: Should you write and maintain an R package accessing a web API? Here are our tips for deciding, and for doing it if you go for it.
 tweet: Why You Should (or Should not) Build an API Client, a post by @ma_salmon (@ropensci), @LeNematode, @grusonh
 output: hugodown::md_document
-rmd_hash: 7f6f2939853b92e4
+rmd_hash: 06d9de6a3f7e4ce4
 
 ---
 
@@ -63,7 +63,7 @@ Your package might be even more useful if it wraps not only one, but more web AP
 
 One of the most difficult aspect with API R packages (or any R package really, but even more so here) is to strike the right balance on the complexity/flexibility trade-off. In an attempt to simplify things, you might end up:
 
--   obscuring errors returned by the API. This typically happens when you indiscriminately catch all HTTP errors (e.g., by using [`httr::http_error()`](https://httr.r-lib.org/reference/http_error.html)) and return a generic error message while each HTTP code has a precise meaning about what went wrong.
+-   obscuring errors returned by the API. This typically happens when you indiscriminately catch all [HTTP errors](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#client_error_responses) (e.g., by using [`httr::http_error()`](https://httr.r-lib.org/reference/http_error.html)) and return a generic error message while each HTTP code has a precise meaning about what went wrong (see for example, [qualtRics' `qualtrics_response_code()` function](https://github.com/ropensci/qualtRics/blob/7d1e80ca20cb3d07cf7cfce3b0154b86c2113689/R/utils.R#L10) which returns custom errors in function of the HTTP error).
 -   validating the inputs in an overly strict way, and thereby preventing the user from sending potentially valid requests.
 -   returning a truncated output. This could arise when you insist on returning a clean, rectangular data where the API returns deeply nested data. It might be tempting to drop some information you don't deem useful but that users might be interested in (e.g., <https://github.com/ropensci-archive/rromeo/issues/48>).
 
