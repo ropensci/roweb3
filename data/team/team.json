@@ -53,18 +53,16 @@
    "home": "/author/stefanie-butland"
 },
 {
-   "name": "Maëlle Salmon",
-   "affiliation": "Research Software Engineer",
-   "url": "/author/maëlle-salmon",
-   "image" : "/img/team/maelle_salmon.jpg",
+   "name": "Yanina Bellini Saibene",
+   "affiliation": "Community Manager",
+   "url": "/author/yanina-bellini-saibene/",
+   "image" : "/img/team/yanina-bellini-saibene.jpg",
    "roles": [
-      "staff",
-      "developer",
-      "editor"
+      "staff"
    ],
-   "twitter": "ma_salmon",
-   "github": "maelle",
-   "home": "/author/maëlle-salmon"
+   "twitter": "yabellini",
+   "github": "yabellini",
+   "home": "/author/yanina-bellini-saibene/"
 },
 {
    "name": "Mark Padgham",
@@ -79,6 +77,20 @@
    "twitter": "bikesRdata",
    "github": "mpadge",
    "home": "/author/mark-padgham"
+},
+{
+   "name": "Maëlle Salmon",
+   "affiliation": "Research Software Engineer",
+   "url": "/author/maëlle-salmon",
+   "image" : "/img/team/maelle_salmon.jpg",
+   "roles": [
+      "staff",
+      "developer",
+      "editor"
+   ],
+   "twitter": "ma_salmon",
+   "github": "maelle",
+   "home": "/author/maëlle-salmon"
 },
 {
    "name": "Noam Ross",
