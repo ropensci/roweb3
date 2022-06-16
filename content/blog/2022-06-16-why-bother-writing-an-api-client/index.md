@@ -13,7 +13,7 @@ tags:
 description: Should you write and maintain an R package accessing a web API? Here are our tips for deciding, and for doing it if you go for it.
 tweet: Why You Should (or Should not) Build an API Client, a post by @ma_salmon (@ropensci), @LeNematode, @grusonh
 output: hugodown::md_document
-rmd_hash: fec44e77446cd6d2
+rmd_hash: 58644f48769c7177
 
 ---
 
@@ -59,8 +59,6 @@ A particularly tricky aspect your package can simplify is **authentication**. Au
 
 Your package might be even more useful if it wraps not only one, but more web APIs, providing an unified interface to different data sources. Examples: [specieshindex](https://jessicatytam.github.io/specieshindex/), [spocc](https://docs.ropensci.org/spocc/), and [taxize](https://docs.ropensci.org/taxize).
 
-The [gh](https://gh.r-lib.org/) package only offers low level functions, that are used in for instance the incredibly useful [PR helpers in usethis](https://usethis.r-lib.org/articles/pr-functions.html). The [zbank](https://docs.ropensci.org/zbank/) package offers a low-level API that gives back the unparsed answer as a nested list with complete information, it also offers a high-level API that sends back parsed data.frames.
-
 ## Finding the right complexity/flexibility balance
 
 One of the most difficult aspect with API R packages (or any R package really, but even more so here) is to strike the right balance on the complexity/flexibility trade-off. In an attempt to simplify things, you might end up:
@@ -72,6 +70,8 @@ One of the most difficult aspect with API R packages (or any R package really, b
 Alternatively, in an attempt to preserve the API flexibility and to make sure you offer all options to the user, you might end up creating a package that is as complex, if not more complex than direct calls to the API.
 
 An interesting pattern might be for your package to provide both high-level and low-level functions, where low level functions can support API calls that the high level functions do not cover (or not yet). Expert users could then use the lower-level functions to access more detailed features of the API with more flexibility, while less experienced users would be interested in using higher-level functions that have simpler outputs.. Similarly, some packages, such as rtweet (via the `parse` argument), offer the option of getting either the raw output or the output parsed into rectangular data.
+
+The [gh](https://gh.r-lib.org/) package only offers low level functions, that are used in for instance the incredibly useful [PR helpers in usethis](https://usethis.r-lib.org/articles/pr-functions.html). The [zbank](https://docs.ropensci.org/zbank/) package offers a low-level API that gives back the unparsed answer as a nested list with complete information, it also offers a high-level API that sends back parsed data.frames.
 
 ## How an API can hurt you :sweat_smile:
 
