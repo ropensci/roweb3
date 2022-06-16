@@ -145,6 +145,17 @@ As the maintainer of an rOpenSci package, feel free to contact us on Slack or em
 
 Some useful tips for R package developers. :eyes:
 
+### New testing chapter in the R packages book
+
+Jenny Bryan has announced on [Twitter](https://twitter.com/JennyBryan/status/1535339178812067840) that the [chapter on testing](https://r-pkgs.org/tests.html) of the R packages book has been updated as she and Hadley Wickham work towards a second edition.
+A read worthy of your time especially if you're a (future) testthat user!
+
+### Conceptor role in a package?
+
+The [plumber](https://www.rplumber.io/) package has an author listed as "cpp" (conceptor): https://github.com/rstudio/plumber/blob/0c21b78669861c7cb03f98b192b660320ff8040c/DESCRIPTION#L9
+It is not an [officially recognized role](https://stat.ethz.ch/R-manual/R-devel/library/utils/html/person.html) but it is interesting to think of ways to recognize original authors when for instance [changing package maintainers](https://devguide.ropensci.org/changing-maintainers.html).
+
+
 <!-- To be curated by hand -->
 
 ## Last words
