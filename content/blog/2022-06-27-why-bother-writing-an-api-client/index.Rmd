@@ -17,7 +17,7 @@ tweet: Why You Should (or Shouldn't) Build an API Client, a post by @ma_salmon, 
 output: hugodown::md_document
 ---
 
-These days web APIs are everywhere (scientific data sources, your system for Customer relationship management, cat facts API...). 
+These days web Application Programming Interfaces (APIs) are everywhere (scientific data sources, your system for Customer relationship management, cat facts API...). 
 Do you need to write some R code wrapping a web resource such as an API?
 Packaging it up might be useful to you or your team for the same reason as any code.
 Now, whether you really want to publicize the package and to guarantee its maintenance might be slightly trickier than for other packages, as the usefulness and status of your package will depend on the web API being up and running according to expectations.
@@ -42,7 +42,7 @@ Having to read package docs rather than web API docs can for instance lower the 
 
 Other aspects that your package can simplify are:
 
-* **Authentication** (see below);
+* **Authentication** (see below).
 * **API response parsing**, for instance from deeply nested lists to near tibbles (see [rcrossref](https://docs.ropensci.org/rcrossref)). When the data are complex, it may save some user time to use a well-designed package;
 * [**Input checking**](https://blog.r-hub.io/2022/03/10/input-checking/) (as done in [qualtRics](https://github.com/ropensci/qualtRics/blob/7d1e80ca20cb3d07cf7cfce3b0154b86c2113689/R/utils.R#L109) and [nasapower](https://github.com/ropensci/nasapower/blob/beb9e2907b6d100615a0cc2396b120f785c69813/R/get_power.R#L224));
 * **Input entry** (for instance better defaults, using today's date, etc.);
@@ -59,7 +59,7 @@ For instance, your package should not make an API key a function argument only a
 Examples of packages simplifying authentication: [gh](https://gh.r-lib.org/), [rtweet](https://docs.ropensci.org/rtweet), [opencage](https://docs.ropensci.org/opencage) (whose docs encourage the use of the keyring package for storing credentials).
 
 Your package might be even more useful if it wraps not only one, but more web APIs, providing an unified interface to different data sources.
-Examples: [specieshindex](https://jessicatytam.github.io/specieshindex/), [spocc](https://docs.ropensci.org/spocc/).
+Examples: [specieshindex](https://jessicatytam.github.io/specieshindex/), [spocc](https://docs.ropensci.org/spocc/), and [taxize](https://docs.ropensci.org/taxize).
 
 The [gh](https://gh.r-lib.org/) package only offers low level functions, that are used in for instance the incredibly useful [PR helpers in usethis](https://usethis.r-lib.org/articles/pr-functions.html).
 The [zbank](https://docs.ropensci.org/zbank/) package offers a low-level API that gives back the unparsed answer as a nested list with complete information, it also offers a high-level API that sends back parsed data.frames.
@@ -82,7 +82,7 @@ A web API might change: for instance its output could evolve, breaking your code
 
 Before writing an R package, you might want to assess whether the API is well maintained, and you might even want to contact API maintainers to get their blessing.
 Alternatively, they might advise you to wait a couple of months as major breaking changes are in the pipeline.
-It is also a way to see whether they are responsive.
+It is also a way to see whether they are responsive (and maybe get moral support for your package).
 That is a step useful if the API is, say, a small scientific data source (two of us, who built [rromeo](https://github.com/ropensci-archive/rromeo) discovered  the day the package was approved by rOpenSci that the API released a brand new version, with no common functions from the previous version).
 
 Now, even a big commercial API (à la Twitter, wrapped by [rtweet](https://docs.ropensci.org/rtweet)) could bite you: pricing could change, features can get dropped, etc.
@@ -90,7 +90,7 @@ Beside, commercial APIs do not necessarily offer great rates for client develope
 
 Getting informed in advance won't prevent bad surprises but should still help.
 Keeping informed (via a changelog, a newsletter, regular manual checks, tests with real requests) might also help seeing changes early.
-In **theory**, adding a custom user-agent with contact details (link to your package development repository) might allows API maintainers to contact you if your package is causing issues or if it's interacting with (soon to be) deprecated endpoints.
+In **theory**, adding a custom [user-agent](https://en.wikipedia.org/wiki/User_agent)–a small string that goes to the server to signal yourself when you're making a query–with contact details (link to your package development repository) might allow API maintainers to contact you if your package is causing issues or if it's interacting with (soon to be) deprecated endpoints.
 
 One thing to keep in mind is that no matter how many flags you plant in your documentation, users of the R package might file bug reports with your package instead of with the API maintainers.
 It can help if you for example implement a once per session reminder of the link to the API and its citation to clear up the confusion.
@@ -138,7 +138,7 @@ Now, if you are still motivated to maintain an API package for a small (your tea
 
 ## Conclusion
 
-If you need to write code wrapping an API, you can obviously always package it up and follow best practice.
+If you need to write code wrapping an API, you can obviously always package it up and follow best practices.
 Now, whether to publicize and guarantee maintenance of the resulting tool is a conscious decision to make.
 You should also regularly re-assess your maintaining the package.
 Onboard contributors regularly to share the load and potentially leave completely at some point without the package getting orphaned.
