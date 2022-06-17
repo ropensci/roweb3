@@ -33,7 +33,9 @@ She lives in Argentina, where she has been a researcher for the last 24 years.
 She is also a professor at Universidad Nacional Guillermo Brown.
 She is part of several communities as a member of The Carpentries Executive Council, R-Ladies Global and Leadership Team, R Forwards Core Team, R Consortium Infrastructure Steering Committee, useR! Working Group, Minorities in R (MiR), and Sociedad Argentina de Informática. 
 
-> quote from blog post? link to blog post?
+In her words,
+
+> I believe in the power of open science at the service of people, that education is the best tool we have to improve lives, and that the most effective way to make changes is as part of a community. rOpenSci combines my passion for open software and open science with my favorite programming language and community. I am particularly excited by our [new project](https://ropensci.org/blog/2021/12/20/inclusive-leadership-program/) to empower community leaders from historically excluded groups and play a role in its development. I have worked to improve diversity, equity, and inclusion throughout my career, both because I am a member of groups that are historically excluded from science and because it’s the right thing to do.
 
 In the coming weeks and months, she'll be getting to know you all, listening in, and learning how she can support you and your contributions to rOpenSci.
 
