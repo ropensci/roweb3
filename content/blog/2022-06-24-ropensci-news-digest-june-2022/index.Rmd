@@ -46,6 +46,15 @@ Now let's dive into the activity at and around rOpenSci!
 
 ### New CM (PLACEHOLDER SECTION)
 
+### Current work in R-universe
+
+Whilst we don't have exciting new features to announce this time,
+exciting work is under way in R-universe!
+We've started [ingesting 9000+ CRAN packages which are developed on GitHub/Gitlab/Bitbucket](https://twitter.com/opencpu/status/1537339832980086784´).
+On the outside, it will make search even more useful.
+On the inside, it motivated a refactoring, and will help uncover edge cases.
+Stay tuned for an announcement of when the ingestion is finished!
+
 ## Software :package:
 
 ### New packages

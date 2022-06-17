@@ -27,6 +27,15 @@ Now let's dive into the activity at and around rOpenSci!
 
 ### New CM (PLACEHOLDER SECTION)
 
+### Current work in R-universe
+
+Whilst we don't have exciting new features to announce this time,
+exciting work is under way in R-universe!
+We've started [ingesting 9000+ CRAN packages which are developed on GitHub/Gitlab/Bitbucket](https://twitter.com/opencpu/status/1537339832980086784´).
+On the outside, it will make search even more useful.
+On the inside, it motivated a refactoring, and will help uncover edge cases.
+Stay tuned for an announcement of when the ingestion is finished!
+
 ## Software :package:
 
 ### New packages
@@ -51,7 +60,7 @@ The following fifteen packages have had an update since the last newsletter: [so
 
 ## Software Peer Review
 
-There are sixteen recently closed and active submissions and 3 submissions on hold. Issues are at different stages: 
+There are seventeen recently closed and active submissions and 3 submissions on hold. Issues are at different stages: 
 
 * One at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
 
@@ -81,9 +90,11 @@ There are sixteen recently closed and active submissions and 3 submissions on ho
 
     * [ROriginStamp](https://github.com/ropensci/software-review/issues/433), Interface to OriginStamp API to Obtain Trusted Time Stamps. Submitted by [Rainer M Krug](https://github.com/rkrug). 
 
-* Two at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
+* Three at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
-     * [aorsf](https://github.com/ropensci/software-review/issues/532), Accelerated Oblique Random Survival Forests. Submitted by [Byron](https://github.com/bcjaeger). 
+     * [spiro](https://github.com/ropensci/software-review/issues/541), Manage Data from Cardiopulmonary Exercise Testing. Submitted by [Simon Nolte](https://github.com/smnnlt). 
+
+    * [aorsf](https://github.com/ropensci/software-review/issues/532), Accelerated Oblique Random Survival Forests. Submitted by [Byron](https://github.com/bcjaeger). 
 
     * [bssm](https://github.com/ropensci/software-review/issues/489), Bayesian Inference of Non-Linear and Non-Gaussian State Space. Submitted by [Jouni Helske](http://jounihelske.netlify.app).  (Stats).
 
