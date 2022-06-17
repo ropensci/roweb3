@@ -25,7 +25,19 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-### New CM (PLACEHOLDER SECTION)
+### Introducing rOpenSci new Community Manager, Yanina Bellini Saibene
+
+We're excited and extremely thrilled to announce [**Yanina Bellini Saibene**](/author/yanina-bellini-saibene/) is our new community manager!
+Yanina is a computer and data scientist by training and an educator by choice.
+She lives in Argentina, where she has been a researcher for the last 24 years.
+She is also a professor at Universidad Nacional Guillermo Brown.
+She is part of several communities as a member of The Carpentries Executive Council, R-Ladies Global and Leadership Team, R Forwards Core Team, R Consortium Infrastructure Steering Committee, useR! Working Group, Minorities in R (MiR), and Sociedad Argentina de Informática. 
+
+> quote from blog post? link to blog post?
+
+In the coming weeks and months, she'll be getting to know you all, listening in, and learning how she can support you and your contributions to rOpenSci.
+
+> how to contact Yanina
 
 ### Current work in R-universe
 
