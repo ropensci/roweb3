@@ -2,7 +2,7 @@
 title: Presentamos a la nueva Community Manager de rOpenSci, Yanina Bellini Saibene
 author: Yanina Bellini Saibene
 date: '2022-06-21'
-slug: introducing-yanina
+slug: introducing-yanina-es
 tags:
   - community
   - Spanish
