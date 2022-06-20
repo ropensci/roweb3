@@ -12,7 +12,7 @@ tweet: "Introducing @yabellini, our new Community Manager"
 
 ## Hello! I am Yanina Bellini Saibene, your new community manager.
 
-I'm so excited to join rOpenSci with this role and support such an important project in open science and in the R Community.
+I'm so excited to join rOpenSci in this role, and support such an important project in open science and in the R Community.
 
 When I saw the call for the position, I thought that my over 20 years of experience as a community builder, teacher, and researcher aligned perfectly with it.
 
