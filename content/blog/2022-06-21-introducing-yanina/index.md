@@ -16,7 +16,7 @@ I'm so excited to join rOpenSci in this role, and support such an important proj
 
 When I saw the call for the position, I thought that my over 20 years of experience as a community builder, teacher, and researcher aligned perfectly with it.
 
-I believe in the power of open science at the service of people, that education is the best tool we have to improve lives, and that the most effective way to make changes is as part of a community. rOpenSci combines my passion for open software and open science with my favorite programming language and community. I am particularly excited by our [new project to empower community leaders from historically excluded groups](/blog/2021/12/20/inclusive-leadership-program/) and play a role in its development. I have worked to improve diversity, equity, and inclusion throughout my career, both because I am a member of groups that are historically excluded from science and because it’s the right thing to do.
+I believe in the power of open science at the service of people, that education is the best tool we have to improve lives, and that the most effective way to make changes is as part of a community. rOpenSci combines my passion for open software and open science with my favorite programming language and community. I am particularly excited by our [new project to empower community leaders from historically excluded groups](/blog/2021/12/20/inclusive-leadership-program/) and looking forward to playing a role in its development. I have worked to improve diversity, equity, and inclusion throughout my career, both because I am a member of groups that are historically excluded from science and because it’s the right thing to do.
 
 ## A little bit about me
 
