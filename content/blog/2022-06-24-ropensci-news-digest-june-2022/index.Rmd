@@ -54,17 +54,17 @@ She is part of several communities as a member of The Carpentries Executive Coun
 
 In her words,
 
-> I believe in the power of open science at the service of people, that education is the best tool we have to improve lives, and that the most effective way to make changes is as part of a community. rOpenSci combines my passion for open software and open science with my favorite programming language and community. I am particularly excited by our [new project](https://ropensci.org/blog/2021/12/20/inclusive-leadership-program/) to empower community leaders from historically excluded groups and play a role in its development. I have worked to improve diversity, equity, and inclusion throughout my career, both because I am a member of groups that are historically excluded from science and because it’s the right thing to do.
+> I believe in the power of open science at the service of people, that education is the best tool we have to improve lives, and that the most effective way to make changes is as part of a community. rOpenSci combines my passion for open software and open science with my favorite programming language and community. I am particularly excited by our [new project to empower community leaders from historically excluded groups](/blog/2021/12/20/inclusive-leadership-program/) and looking forward to playing a role in its development. I have worked to improve diversity, equity, and inclusion throughout my career, both because I am a member of groups that are historically excluded from science and because it’s the right thing to do.
 
 In the coming weeks and months, she'll be getting to know you all, listening in, and learning how she can support you and your contributions to rOpenSci.
 
-> how to contact Yanina
+> Please don’t hesitate to say hello! You can contact Yanina by email yabellini\@ropensci.org and also reach me on [rOpenSci semi-open Slack workspace](https://contributing.ropensci.org/resources.html?q=slack#channels). 
 
 ### Current work in R-universe
 
 Whilst we don't have exciting new features to announce this time,
 exciting work is under way in R-universe!
-We've started [ingesting 9000+ CRAN packages which are developed on GitHub/Gitlab/Bitbucket](https://twitter.com/opencpu/status/1537339832980086784´).
+We've started [ingesting 9000+ CRAN packages which are developed on GitHub/Gitlab/Bitbucket](https://twitter.com/opencpu/status/1537339832980086784).
 On the outside, it will make search even more useful.
 On the inside, it motivated a refactoring, and will help uncover edge cases.
 Stay tuned for an announcement of when the ingestion is finished!
@@ -559,7 +559,7 @@ It is not an [officially recognized role](https://stat.ethz.ch/R-manual/R-devel/
 
 ### GitHub Issue Close Labels
 
-GitHub recently tweaked their "Close Issue" button to add a down-arrow to the right which opens a pop-down menu offering two ways to label why the issue was closed: as "completed" or "not planned." They described this feature in [a recent GitHub blog entry](https://github.blog/changelog/2022-05-19-the-new-github-issues-may-19th-update/).
+GitHub recently tweaked their "Close Issue" button to add a down-arrow to the right which opens a pop-down menu offering two ways to label why the issue was closed: as "completed" or "not planned." They described this feature in [a recent GitHub blog entry](https://github.blog/changelog/2022-05-19-the-new-github-issues-may-19th-update/). See also Maëlle's recent blog post on [GitHub Tips](https://masalmon.eu/2022/04/05/github-tips/) for advice on how to keep up-to-date with ongoing GitHub development.
 
 
 <!-- To be curated by hand -->

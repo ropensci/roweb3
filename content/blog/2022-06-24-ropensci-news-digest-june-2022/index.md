@@ -181,7 +181,7 @@ It is not an [officially recognized role](https://stat.ethz.ch/R-manual/R-devel/
 
 ### GitHub Issue Close Labels
 
-GitHub recently tweaked their "Close Issue" button to add a down-arrow to the right which opens a pop-down menu offering two ways to label why the issue was closed: as "completed" or "not planned." They described this feature in [a recent GitHub blog entry](https://github.blog/changelog/2022-05-19-the-new-github-issues-may-19th-update/).
+GitHub recently tweaked their "Close Issue" button to add a down-arrow to the right which opens a pop-down menu offering two ways to label why the issue was closed: as "completed" or "not planned." They described this feature in [a recent GitHub blog entry](https://github.blog/changelog/2022-05-19-the-new-github-issues-may-19th-update/). See also Maëlle's recent blog post on [GitHub Tips](https://masalmon.eu/2022/04/05/github-tips/) for advice on how to keep up-to-date with ongoing GitHub development.
 
 
 <!-- To be curated by hand -->
