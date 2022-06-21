@@ -33,19 +33,19 @@ She lives in Argentina, where she has been a researcher for the last 24 years.
 She is also a professor at Universidad Nacional Guillermo Brown.
 She is part of several communities as a member of The Carpentries Executive Council, R-Ladies Global and Leadership Team, R Forwards Core Team, R Consortium Infrastructure Steering Committee, useR! Working Group, Minorities in R (MiR), and Sociedad Argentina de Informática. 
 
-In her words,
+In [her words](/blog/2022/06/21/introducing-yanina/),
 
-> I believe in the power of open science at the service of people, that education is the best tool we have to improve lives, and that the most effective way to make changes is as part of a community. rOpenSci combines my passion for open software and open science with my favorite programming language and community. I am particularly excited by our [new project](https://ropensci.org/blog/2021/12/20/inclusive-leadership-program/) to empower community leaders from historically excluded groups and play a role in its development. I have worked to improve diversity, equity, and inclusion throughout my career, both because I am a member of groups that are historically excluded from science and because it’s the right thing to do.
+> I believe in the power of open science at the service of people, that education is the best tool we have to improve lives, and that the most effective way to make changes is as part of a community. rOpenSci combines my passion for open software and open science with my favorite programming language and community. I am particularly excited by our [new project to empower community leaders from historically excluded groups](/blog/2021/12/20/inclusive-leadership-program/) and looking forward to playing a role in its development. I have worked to improve diversity, equity, and inclusion throughout my career, both because I am a member of groups that are historically excluded from science and because it’s the right thing to do.
 
 In the coming weeks and months, she'll be getting to know you all, listening in, and learning how she can support you and your contributions to rOpenSci.
 
-> how to contact Yanina
+> Please don’t hesitate to say hello! You can contact Yanina by email yabellini\@ropensci.org and also reach me on [rOpenSci semi-open Slack workspace](https://contributing.ropensci.org/resources.html?q=slack#channels). 
 
 ### Current work in R-universe
 
 Whilst we don't have exciting new features to announce this time,
 exciting work is under way in R-universe!
-We've started [ingesting 9000+ CRAN packages which are developed on GitHub/Gitlab/Bitbucket](https://twitter.com/opencpu/status/1537339832980086784´).
+We've started [ingesting 9000+ CRAN packages which are developed on GitHub/Gitlab/Bitbucket](https://twitter.com/opencpu/status/1537339832980086784).
 On the outside, it will make search even more useful.
 On the inside, it motivated a refactoring, and will help uncover edge cases.
 Stay tuned for an announcement of when the ingestion is finished!
@@ -69,16 +69,20 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following fifteen packages have had an update since the last newsletter: [sodium](https://docs.ropensci.org/sodium "A Modern and Easy-to-Use Crypto Library") ([`v1.2.1`](https://github.com/r-lib/sodium/releases/tag/v1.2.1)), [beastier](https://docs.ropensci.org/beastier "Call BEAST2") ([`v2.4.9`](https://github.com/ropensci/beastier/releases/tag/v2.4.9)), [beautier](https://docs.ropensci.org/beautier "BEAUti from R") ([`v2.6.4`](https://github.com/ropensci/beautier/releases/tag/v2.6.4)), [datapack](https://docs.ropensci.org/datapack "A Flexible Container to Transport and Manipulate Data and Associated
-    Resources") ([`1.4.1`](https://github.com/ropensci/datapack/releases/tag/1.4.1)), [EDIutils](https://docs.ropensci.org/EDIutils "An API Client for the Environmental Data Initiative Repository") ([`v1.0.0`](https://github.com/ropensci/EDIutils/releases/tag/v1.0.0)), [fingertipsR](https://docs.ropensci.org/fingertipsR "Fingertips Data for Public Health") ([`v1.0.9`](https://github.com/ropensci/fingertipsR/releases/tag/v1.0.9)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.8.0`](https://github.com/ropensci/nodbi/releases/tag/v0.8.0)), [nomisr](https://docs.ropensci.org/nomisr "Access Nomis UK Labour Market Data") ([`v0.4.7`](https://github.com/ropensci/nomisr/releases/tag/v0.4.7)), [osmdata](https://docs.ropensci.org/osmdata "Import OpenStreetMap Data as Simple Features or Spatial Objects") ([`v0.1.10`](https://github.com/ropensci/osmdata/releases/tag/v0.1.10)), [qualtRics](https://docs.ropensci.org/qualtRics "Download Qualtrics Survey Data") ([`v3.1.6`](https://github.com/ropensci/qualtRics/releases/tag/v3.1.6)), [restez](https://docs.ropensci.org/restez "Create and Query a Local Copy of GenBank in R") ([`v1.0.0`](https://github.com/ropensci/restez/releases/tag/v1.0.0)), [rinat](https://docs.ropensci.org/rinat "Access iNaturalist Data Through APIs") ([`v0.1.9`](https://github.com/ropensci/rinat/releases/tag/v0.1.9)), [stplanr](https://docs.ropensci.org/stplanr "Sustainable Transport Planning") ([`v1.0.0`](https://github.com/ropensci/stplanr/releases/tag/v1.0.0)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Workflows") ([`0.12.1`](https://github.com/ropensci/targets/releases/tag/0.12.1)), and [tidyqpcr](https://docs.ropensci.org/tidyqpcr "Quantitative PCR Analysis with the Tidyverse") ([`v0.5`](https://github.com/ropensci/tidyqpcr/releases/tag/v0.5)).
+The following seventeen packages have had an update since the last newsletter: [pkgstats](https://docs.ropensci.org/pkgstats "Metrics of R Packages") ([`v0.0.5`](https://github.com/ropensci-review-tools/pkgstats/releases/tag/v0.0.5)), [sodium](https://docs.ropensci.org/sodium "A Modern and Easy-to-Use Crypto Library") ([`v1.2.1`](https://github.com/r-lib/sodium/releases/tag/v1.2.1)), [beastier](https://docs.ropensci.org/beastier "Call BEAST2") ([`v2.4.9`](https://github.com/ropensci/beastier/releases/tag/v2.4.9)), [beautier](https://docs.ropensci.org/beautier "BEAUti from R") ([`v2.6.4`](https://github.com/ropensci/beautier/releases/tag/v2.6.4)), [datapack](https://docs.ropensci.org/datapack "A Flexible Container to Transport and Manipulate Data and Associated
+    Resources") ([`1.4.1`](https://github.com/ropensci/datapack/releases/tag/1.4.1)), [EDIutils](https://docs.ropensci.org/EDIutils "An API Client for the Environmental Data Initiative Repository") ([`v1.0.0`](https://github.com/ropensci/EDIutils/releases/tag/v1.0.0)), [fingertipsR](https://docs.ropensci.org/fingertipsR "Fingertips Data for Public Health") ([`v1.0.9`](https://github.com/ropensci/fingertipsR/releases/tag/v1.0.9)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.8.0`](https://github.com/ropensci/nodbi/releases/tag/v0.8.0)), [nomisr](https://docs.ropensci.org/nomisr "Access Nomis UK Labour Market Data") ([`v0.4.7`](https://github.com/ropensci/nomisr/releases/tag/v0.4.7)), [osmdata](https://docs.ropensci.org/osmdata "Import OpenStreetMap Data as Simple Features or Spatial Objects") ([`v0.1.10`](https://github.com/ropensci/osmdata/releases/tag/v0.1.10)), [qualtRics](https://docs.ropensci.org/qualtRics "Download Qualtrics Survey Data") ([`v3.1.6`](https://github.com/ropensci/qualtRics/releases/tag/v3.1.6)), [restez](https://docs.ropensci.org/restez "Create and Query a Local Copy of GenBank in R") ([`v1.0.0`](https://github.com/ropensci/restez/releases/tag/v1.0.0)), [rinat](https://docs.ropensci.org/rinat "Access iNaturalist Data Through APIs") ([`v0.1.9`](https://github.com/ropensci/rinat/releases/tag/v0.1.9)), [stplanr](https://docs.ropensci.org/stplanr "Sustainable Transport Planning") ([`v1.0.0`](https://github.com/ropensci/stplanr/releases/tag/v1.0.0)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Workflows") ([`0.12.1`](https://github.com/ropensci/targets/releases/tag/0.12.1)), [tidyqpcr](https://docs.ropensci.org/tidyqpcr "Quantitative PCR Analysis with the Tidyverse") ([`v0.5`](https://github.com/ropensci/tidyqpcr/releases/tag/v0.5)), and [webchem](https://docs.ropensci.org/webchem "Chemical Information from the Web") ([`v1.1.3`](https://github.com/ropensci/webchem/releases/tag/v1.1.3)).
 
 ## Software Peer Review
 
-There are seventeen recently closed and active submissions and 3 submissions on hold. Issues are at different stages: 
+There are eighteen recently closed and active submissions and 2 submissions on hold. Issues are at different stages: 
 
 * One at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
 
      * [tidyqpcr](https://github.com/ropensci/software-review/issues/470), Quantitative PCR Analysis with the Tidyverse. Submitted by [Edward Wallace](https://scholar.google.co.uk/citations?user=7FLIJBAAAAAJ&hl=en). 
+
+* One at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
+
+     * [readODS](https://github.com/ropensci/software-review/issues/386), Read and Write ODS Files. Submitted by [Chung-hong Chan](http://www.chainsawriot.com). 
 
 * Six at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
 
@@ -143,6 +147,10 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 * [Communication & Collaboration with Contributors in an Open-Source Organization](/blog/2022/06/14/communication-with-contributors-in-an-open-source-organization) by Maëlle Salmon, and Zhian N. Kamvar. How we interact with volunteer maintainers.
 
 * [Why You Should (or Shouldn't) Build an API Client](/blog/2022/06/16/publicize-api-client-yes-no) by Maëlle Salmon, Matthias Grenié, and Hugo Gruson. Should you write and maintain an R package accessing a web API? Here are our tips for deciding, and for doing it if you go for it.
+
+* [Introducing rOpenSci new Community Manager, Yanina Bellini Saibene](/blog/2022/06/21/introducing-yanina) by Yanina Bellini Saibene.
+
+* [Presentamos a la nueva Community Manager de rOpenSci, Yanina Bellini Saibene](/blog/2022/06/21/introducing-yanina-es) by Yanina Bellini Saibene.
 
 ## Use cases
 
