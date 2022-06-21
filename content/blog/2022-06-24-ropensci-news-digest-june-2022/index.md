@@ -179,6 +179,10 @@ A read worthy of your time especially if you're a (future) testthat user!
 The [plumber](https://www.rplumber.io/) package has an author listed as "cpp" (conceptor): https://github.com/rstudio/plumber/blob/0c21b78669861c7cb03f98b192b660320ff8040c/DESCRIPTION#L9
 It is not an [officially recognized role](https://stat.ethz.ch/R-manual/R-devel/library/utils/html/person.html) but it is interesting to think of ways to recognize original authors when for instance [changing package maintainers](https://devguide.ropensci.org/changing-maintainers.html).
 
+### GitHub Issue Close Labels
+
+GitHub recently tweaked their "Close Issue" button to add a down-arrow to the right which opens a pop-down menu offering two ways to label why the issue was closed: as "completed" or "not planned." They described this feature in [a recent GitHub blog entry](https://github.blog/changelog/2022-05-19-the-new-github-issues-may-19th-update/).
+
 
 <!-- To be curated by hand -->
 
