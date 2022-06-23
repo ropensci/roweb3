@@ -438,9 +438,13 @@ format_post <- function(post) {
     stringr::str_pad(lubridate::day(post$date), 2, "0", side = "left"),
     post$slug
     )
+  
   string <- sprintf("* [%s](%s) by %s", post$title, url, post$author)
   if (post$description != "") {
     string <- paste0(string, ". ", sub("\\?$", "", sub("\\!$", "", sub("\\.$", "", post$description), ".")), ".")
+    if (url == "/blog/2022/06/16/publicize-api-client-yes-no") {
+      string <- paste(string, "This post was discussed on the [R Weekly Highlights podcast](https://share.fireside.fm/episode/87RSVeFz+4qaUu8e0?t=540).")
+    }
   } else {
     string <- paste0(string, ".")  
   }
