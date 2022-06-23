@@ -204,6 +204,10 @@ present_one <- function(package) {
       )
     )
   }
+  if (package$package == "tidyqpcr") {
+    package$onboarding <- "https://github.com/ropensci/software-review/issues/470"
+    rev <- "Kelsey Montgomery"
+  }
   if (nzchar(package$onboarding)) {
     string <- paste0(string, sprintf("It has been [reviewed](%s)", package$onboarding))
     if (length(rev) > 0) {
