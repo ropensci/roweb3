@@ -41,14 +41,15 @@ In the coming weeks and months, she'll be getting to know you all, listening in,
 
 > Please don’t hesitate to say hello! You can contact Yanina by email yabellini\@ropensci.org and also reach me on [rOpenSci semi-open Slack workspace](https://contributing.ropensci.org/resources.html?q=slack#channels). 
 
-### Current work in R-universe
+### Over 10.000 R packages tracked on R-universe!
 
-Whilst we don't have exciting new features to announce this time,
-exciting work is under way in R-universe!
-We've started [ingesting 9000+ CRAN packages which are developed on GitHub/Gitlab/Bitbucket](https://twitter.com/opencpu/status/1537339832980086784).
-On the outside, it will make search even more useful.
-On the inside, it motivated a refactoring, and will help uncover edge cases.
-Stay tuned for an announcement of when the ingestion is finished!
+The r-universe infrastructure has been [upgraded](https://twitter.com/opencpu/status/1539869749215203333) to automatically track development of all Bioconductor/CRAN packages that are maintained on GitHub, GitLab, or BitBucket. 
+Together with other packages signed up by our users, the system now serves over 10,000 packages and 10,000 articles, providing a comprehensive database of the best software that the R ecosystem has to offer.
+
+The [r-universe website](https://r-universe.dev/search/) makes it easy to browse by topic, keyword, author, organization, and shows extensive information about each package and its development process. 
+We hope this will make it easier to discover interesting software and get a clear sense of the purpose and quality of the many R packages.
+
+If you want to create your own universe on r-universe, refer to this [post in English](https://ropensci.org/blog/2021/06/22/setup-runiverse/) or this [post in Spanish](https://ropensci.org/blog/2021/09/21/creando-tu-r-universe/).
 
 ## Software :package:
 
@@ -57,11 +58,13 @@ Stay tuned for an announcement of when the ingestion is finished!
 
 
 
-The following two packages recently became a part of our software suite:
+The following three packages recently became a part of our software suite:
 
 + [sodium](https://docs.ropensci.org/sodium), developed by Jeroen Ooms: Bindings to libsodium <https://doc.libsodium.org/>: a modern, easy-to-use software library for encryption, decryption, signatures, password hashing and more. Sodium uses curve25519, a state-of-the-art Diffie-Hellman function by Daniel Bernstein, which has become very popular after it was discovered that the NSA had backdoored Dual EC DRBG.  It is available on [CRAN]( https://CRAN.R-project.org/package=sodium). 
 
-+ [tidyqpcr](https://docs.ropensci.org/tidyqpcr), developed by Edward Wallace: This package is for reproducible quantitative PCR (qPCR) analysis using packages from the tidyverse, notably dplyr and ggplot2. It normalizes (by ddCq), summarizes, and plots pre-calculated Cq data, and plots raw amplification and melt curves from Roche lightcycler machines. It does NOT (yet) calculate Cq data from amplification curves. 
++ [tidyqpcr](https://docs.ropensci.org/tidyqpcr), developed by Edward Wallace together with Sam Haynes: For reproducible quantitative PCR (qPCR) analysis building on packages from the ’tidyverse’, notably ’dplyr’ and ’ggplot2’. It normalizes (by ddCq), summarizes, and plots pre-calculated Cq data, and plots raw amplification and melt curves from Roche Lightcycler (tm) machines. It does NOT (yet) calculate Cq data from amplification curves. 
+
++ [yfR](https://docs.ropensci.org/yfR), developed by Marcelo Perlin: Facilitates download of financial data from Yahoo Finance <https://finance.yahoo.com/>, a vast repository of stock price data across multiple financial exchanges. The package offers a local caching system and support for parallel computation. It has been [reviewed](https://github.com/ropensci/software-review/issues/523) by Nic Crane, and Alexander Fischer.
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
@@ -69,7 +72,7 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following eighteen packages have had an update since the last newsletter: [pkgstats](https://docs.ropensci.org/pkgstats "Metrics of R Packages") ([`v0.0.5`](https://github.com/ropensci-review-tools/pkgstats/releases/tag/v0.0.5)), [sodium](https://docs.ropensci.org/sodium "A Modern and Easy-to-Use Crypto Library") ([`v1.2.1`](https://github.com/r-lib/sodium/releases/tag/v1.2.1)), [beastier](https://docs.ropensci.org/beastier "Call BEAST2") ([`v2.4.9`](https://github.com/ropensci/beastier/releases/tag/v2.4.9)), [beautier](https://docs.ropensci.org/beautier "BEAUti from R") ([`v2.6.4`](https://github.com/ropensci/beautier/releases/tag/v2.6.4)), [datapack](https://docs.ropensci.org/datapack "A Flexible Container to Transport and Manipulate Data and Associated
+The following eighteen packages have had an update since the last newsletter: [pkgstats](https://docs.ropensci.org/pkgstats "Metrics of R Packages") ([`v0.1.1`](https://github.com/ropensci-review-tools/pkgstats/releases/tag/v0.1.1)), [sodium](https://docs.ropensci.org/sodium "A Modern and Easy-to-Use Crypto Library") ([`v1.2.1`](https://github.com/r-lib/sodium/releases/tag/v1.2.1)), [beastier](https://docs.ropensci.org/beastier "Call BEAST2") ([`v2.4.9`](https://github.com/ropensci/beastier/releases/tag/v2.4.9)), [beautier](https://docs.ropensci.org/beautier "BEAUti from R") ([`v2.6.4`](https://github.com/ropensci/beautier/releases/tag/v2.6.4)), [datapack](https://docs.ropensci.org/datapack "A Flexible Container to Transport and Manipulate Data and Associated
     Resources") ([`1.4.1`](https://github.com/ropensci/datapack/releases/tag/1.4.1)), [EDIutils](https://docs.ropensci.org/EDIutils "An API Client for the Environmental Data Initiative Repository") ([`v1.0.0`](https://github.com/ropensci/EDIutils/releases/tag/v1.0.0)), [excluder](https://docs.ropensci.org/excluder "Checks for Exclusion Criteria in Online Data") ([`v0.4.0`](https://github.com/ropensci/excluder/releases/tag/v0.4.0)), [fingertipsR](https://docs.ropensci.org/fingertipsR "Fingertips Data for Public Health") ([`v1.0.9`](https://github.com/ropensci/fingertipsR/releases/tag/v1.0.9)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.8.0`](https://github.com/ropensci/nodbi/releases/tag/v0.8.0)), [nomisr](https://docs.ropensci.org/nomisr "Access Nomis UK Labour Market Data") ([`v0.4.7`](https://github.com/ropensci/nomisr/releases/tag/v0.4.7)), [osmdata](https://docs.ropensci.org/osmdata "Import OpenStreetMap Data as Simple Features or Spatial Objects") ([`v0.1.10`](https://github.com/ropensci/osmdata/releases/tag/v0.1.10)), [qualtRics](https://docs.ropensci.org/qualtRics "Download Qualtrics Survey Data") ([`v3.1.6`](https://github.com/ropensci/qualtRics/releases/tag/v3.1.6)), [restez](https://docs.ropensci.org/restez "Create and Query a Local Copy of GenBank in R") ([`v1.0.0`](https://github.com/ropensci/restez/releases/tag/v1.0.0)), [rinat](https://docs.ropensci.org/rinat "Access iNaturalist Data Through APIs") ([`v0.1.9`](https://github.com/ropensci/rinat/releases/tag/v0.1.9)), [stplanr](https://docs.ropensci.org/stplanr "Sustainable Transport Planning") ([`v1.0.0`](https://github.com/ropensci/stplanr/releases/tag/v1.0.0)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Workflows") ([`0.12.1`](https://github.com/ropensci/targets/releases/tag/0.12.1)), [tidyqpcr](https://docs.ropensci.org/tidyqpcr "Quantitative PCR Analysis with the Tidyverse") ([`v1.0`](https://github.com/ropensci/tidyqpcr/releases/tag/v1.0)), and [webchem](https://docs.ropensci.org/webchem "Chemical Information from the Web") ([`v1.1.3`](https://github.com/ropensci/webchem/releases/tag/v1.1.3)).
 
 ## Software Peer Review
