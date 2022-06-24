@@ -4,10 +4,9 @@ author:
   - The rOpenSci Team
 date: '2022-06-24'
 slug: ropensci-news-digest-june-2022
-categories: []
 tags:
   - newsletter
-description: keywords from the content
+description: 'New community manager Yanina Bellini Saibene, more than 10,000 packages on R-universe, new packages and package news'
 output:
   html_document:
     keep_md: yes
