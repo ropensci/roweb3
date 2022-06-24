@@ -6,15 +6,18 @@ library("magrittr")
     x
   }
 }
-
-# install github.com/sckott/discgolf
-# read setup docs
-usecases <- discgolf::category_latest_topics("usecases", page = NULL)
-
-get_ids <- function(list) {
-  list$topic_list$topics$id
+key <- Sys.getenv("DISCOURSE_API_KEY")
+user <- Sys.getenv("DISCOURSE_USERNAME")
+get_one_page <- function(page) {
+  print(page)
+  resp <- httr2::request(sprintf("https://discuss.ropensci.org/search.json?q=category:usecases&page=%s", page)) |>
+    httr2::req_headers('Api-Key' = key, 'Api-Username' = user, Accept = 'application/json') |>
+    httr2::req_perform() |>
+    httr2::resp_body_json() 
+  purrr::map_chr(resp$topics, "id")
 }
-usecases_ids <- unlist(lapply(usecases, get_ids))
+
+usecases_ids <- unlist(purrr::map(1:4, get_one_page))
 length(usecases_ids)
 # remove intro and others
 usecases_ids <- usecases_ids[!usecases_ids %in% c(33, # intro
@@ -24,7 +27,7 @@ usecases_ids <- usecases_ids[!usecases_ids %in% c(33, # intro
                                                   1667, # post by Scott not an use case
                                                   0)]
 # only keep the ones after the template was defined
-usecases_ids <- usecases_ids[usecases_ids >= 1629] %>% 
+usecases_ids <- usecases_ids[as.numeric(usecases_ids) >= 1629] %>% 
   sort()
 .get_packages <- function() {
   "https://raw.githubusercontent.com/ropensci/roregistry/gh-pages/packages.json" %>%
@@ -112,6 +115,7 @@ get_info <- function(id, packages = packages) {
 }
 
 topics <- purrr::map(usecases_ids, get_info)
+topics <- topics[order(purrr::map_chr(topics, "date"))]
 
 jsonlite::write_json(
   topics, 
