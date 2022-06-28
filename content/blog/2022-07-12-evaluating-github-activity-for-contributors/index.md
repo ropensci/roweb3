@@ -36,6 +36,8 @@ Now it won't help you if right now you are looking at a repository you were not 
 
 If the repository has a [contributing guide](/blog/2021/04/28/commcall-pkg-community/) (file `CONTRIBUTING.md` or `.github/CONTRIBUTING.md`) and it seems to have been at list a little bit customized compared to a standard model, pay attention to it. :smile_cat:
 
+If the docs have any mention of development lifecycle (a badge, some text), also take it into account.
+
 ### How it helps
 
 It's direct information from maintainers on what they expect from contributions, so it can only be useful to be aware of it!
