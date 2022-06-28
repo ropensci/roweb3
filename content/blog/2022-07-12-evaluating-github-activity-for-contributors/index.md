@@ -4,7 +4,6 @@ author:
   - Maëlle Salmon
 date: '2022-07-12'
 slug: evaluating-github-activity-for-contributors
-categories: []
 tags:
   - GitHub
   - contributors
@@ -14,7 +13,7 @@ description: How to evaluate the activity of a GitHub repository as an user or p
 Say you have a bug report or feature request to make to a package. 
 How can you use information on GitHub to manage your expectations (will there be a quick fix) and actions (should you go ahead and fork the repository)?
 In this post, we shall go over sources of information and explain how they can be used.
-In the end, there is no magical recipe, except perhaps graciousness, as software is made by humans.
+In the end, there is no magical recipe, except perhaps graciousness, as software is made by humans. :wink:
 
 ## (Custom) watch the repository
 
