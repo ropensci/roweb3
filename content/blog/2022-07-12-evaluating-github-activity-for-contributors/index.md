@@ -25,7 +25,7 @@ Note that if you just watch a repository you are publicly listed as watcher, but
 
 Watching activity in the repository will make you aware of 
 - ongoing development, 
-- development rythms (for instance "cyclic but with quick fixes for crucial bugs""), 
+- development rhythms (for instance "cyclic but with quick fixes for crucial bugs""), 
 - workflows (are PRs welcome or do maintainers prefer to confirm interest in an issue first),
 - the tone in that repository (if the tone is not friendly, run!). 
 
