@@ -40,11 +40,14 @@ Watching activity in the repository will make you aware of
 
 Now it won't help you if right now you are looking at a repository you were not watching before, but it's good to know for next time.
 
-## Read the contributing guide
+## Read the contributing files
 
 If the repository has a [contributing guide](/blog/2021/04/28/commcall-pkg-community/) (file `CONTRIBUTING.md` or `.github/CONTRIBUTING.md`) and it seems to have been at list a little bit customized compared to a standard model, pay attention to it. :smile_cat:
 
 If the docs have any mention of development lifecycle (a badge, some text), also take it into account.
+
+Last but not least, seeing the repository has a code of conduct can help one feel safe!
+rOpenSci [code of conduct](https://ropensci.org/code-of-conduct/) applies to all rOpenSci packages.
 
 ### How it helps
 
