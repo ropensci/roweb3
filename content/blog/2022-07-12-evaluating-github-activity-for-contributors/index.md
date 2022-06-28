@@ -16,6 +16,14 @@ How can you use information on GitHub to manage your expectations (will there be
 In this post, we shall go over sources of information and explain how they can be used.
 In the end, there is no magical recipe, except perhaps graciousness, as software is made by humans. :wink:
 
+## Look whether the repository is archived
+
+Look whether the repository is [archived on GitHub](https://docs.github.com/en/repositories/archiving-a-github-repository/archiving-repositories).
+
+### How it helps
+
+If the repository is archived, clearly the authors are not going to work on it any more.
+
 ## (Custom) watch the repository
 
 If you are very invested in the fate of an R package, it might make sense to [custom watch](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications#configuring-your-watch-settings-for-an-individual-repository=) it on GitHub: you can for instance to choose to be notified of all issues and PRs or only of releases.
