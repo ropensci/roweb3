@@ -7,6 +7,7 @@ slug: evaluating-github-activity-for-contributors
 tags:
   - GitHub
   - contributors
+  - tech notes
 description: How to evaluate the activity of a GitHub repository as an user or potential contributors 
 ---
 
