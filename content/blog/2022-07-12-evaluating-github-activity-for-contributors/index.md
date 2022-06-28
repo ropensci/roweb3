@@ -20,15 +20,31 @@ In the end, there is no magical recipe, except perhaps graciousness, as software
 
 If you are very invested in the fate of an R package, it might make sense to [custom watch](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications#configuring-your-watch-settings-for-an-individual-repository=) it on GitHub: you can for instance to choose to be notified of all issues and PRs or only of releases.
 
-Watching activity in the repository will make you aware of ongoing development, of development rythms, of workflows and of the tone in that repository (if the tone is not friendly, run!). 
+Note that if you just watch a repository you are publicly listed as watcher, but to the best of my knowledge custom watchers are not publicly listed.
+
+### How it helps
+
+Watching activity in the repository will make you aware of 
+- ongoing development, 
+- development rythms (for instance "cyclic but with quick fixes for crucial bugs""), 
+- workflows (are PRs welcome or do maintainers prefer to confirm interest in an issue first),
+- the tone in that repository (if the tone is not friendly, run!). 
 
 Now it won't help you if right now you are looking at a repository you were not watching before, but it's good to know for next time.
+
+## Read the contributing guide
+
+If the repository has a [contributing guide](/blog/2021/04/28/commcall-pkg-community/) (file `CONTRIBUTING.md` or `.github/CONTRIBUTING.md`) and it seems to have been at list a little bit customized compared to a standard model, pay attention to it. :smile_cat:
+
+### How it helps
+
+It's direct information from maintainers on what they expect from contributions, so it can only be useful to be aware of it!
 
 ## Look at latest code activity
 
 On the GitHub repository homepage you can find the time since the latest commit on the default branch.
 In the branches page, see for instance <https://github.com/ropensci/readODS/branches>, you might see there's code activity in another branch.
-In the releases tab, see for instance <https://github.com/ropensci/magick/releases> you can see how old the latest released version is.
+In the releases tab, see for instance <https://github.com/ropensci/magick/releases> you can see how old the latest released version is, and whether there's a regularity in releases.
 
 ### How it helps
 
@@ -44,14 +60,37 @@ Are they expected dates of release?
 
 ### How it helps
 
-If the planning is transparent and current (it's hard to curate milestones), you might get an idea of where your contribution will fit.
-
-. Time since last commit on the default branch, latest release (both available on R-universe package page), but also active branches. It might help you see that development in the repository is "bursty", 
+If issues get a fast first human response, lucky you, you can politely ask whatever you wanted to ask and hope for a rather quick answer.
+If the planning is transparent and current (it's hard to curate milestones :sweat_smile:), you might get an idea of where your contribution will fit.
 
 ## Look at authors activity
 
-Identify main contributors. DESCRIPTION file not that informative as it can contain historic contributors. Look at the graph of contributions to see who are the current / recent active contributors. Head over to their GitHub profile: have they been working on other things, do they have a status (parent leave, vacation), is there a mismatch between the repo organization and the contributor's job (if they changed jobs, maybe they dropped the repository of interest). (does this sound like sleuthing??)
+Identify main contributors:
+- The DESCRIPTION file might not be that informative as it can contain historic contributors. 
+- Look at the graph of contributions, see for instance <https://github.com/ropensci/dev_guide/graphs/contributors>, to see who are the current / recent active contributors. 
+- Also notice who responded to the latest issues and PRs.
 
-## What about looking checks/tests to see how many failing for how long?
-Also 
+Head over to their GitHub profile, and even their [R-universe profile](https://r-universe.dev/maintainers/): have they been working on other things, do they have a status (parental leave, vacation), is there a mismatch between the repo organization and the contributor's job.
+
+### How it helps
+
+Sometimes there might be something obvious: if the maintainer changed jobs, maybe they dropped the repository of interest.
+However, more importantly, it helps a bit to be aware of the public activity of contributors but **you never know what a person is going through, so be gracious and patient**.
+
+## Look at repository checks
+
+Head over the page of continuous integration status for the repositories, for instance it might be the Actions tab.
 Look at the CRAN status if the package was ever on CRAN.
+
+### How it helps
+
+Failing checks that are not tackled might indicate the repository is not actively worked on.
+
+## Conclusion
+
+In this post we summarized some sources of information you as potential contributor can use to assess whether and how much a repository is active, to calibrate your expectations and offers of contributions.
+If a repository looks particularly abandoned, you might perhaps email authors to ask whether future work is planned and if not, whether you might take it over.
+Be considerate in all your [interactions with code maintainers](https://jacobtomlinson.dev/posts/2022/dont-be-that-open-source-user-dont-be-me/).
+
+If you are the _maintainer_ of an rOpenSci package and need some punctual help or longer term maintenance support, please get in touch with us at `info@ropensci.org`. 
+We can for instance add a call for co-maintainers in our monthly newsletter.
