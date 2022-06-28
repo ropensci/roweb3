@@ -55,7 +55,7 @@ If you see the code activity is bursty (the developers focus on it for a period 
 Sort issues and PRs by recently updated (the default when using the browser extension [RefinedGitHub](https://github.com/refined-github/refined-github)). Are repository members active answering issues?
 
 Look at milestones, see for instance <https://github.com/ropensci/dev_guide/milestones>: what's the content of the different milestones?
-Are they expected dates of release?
+Are there expected dates of release?
 
 ### How it helps
 
