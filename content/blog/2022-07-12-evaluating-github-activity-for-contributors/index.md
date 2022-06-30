@@ -34,7 +34,7 @@ Note that if you just watch a repository you are publicly listed as watcher, but
 
 Watching activity in the repository will make you aware of 
 - ongoing development, 
-- development rhythms (for instance "cyclic but with quick fixes for crucial bugs""), 
+- development rhythms (for instance "cyclic but with quick fixes for crucial bugs"), 
 - workflows (are PRs welcome or do maintainers prefer to confirm interest in an issue first),
 - the tone in that repository (if the tone is not friendly, run!). 
 
@@ -42,7 +42,7 @@ Now it won't help you if right now you are looking at a repository you were not 
 
 ## Read the contributing files
 
-If the repository has a [contributing guide](/blog/2021/04/28/commcall-pkg-community/) (file `CONTRIBUTING.md` or `.github/CONTRIBUTING.md`) and it seems to have been at list a little bit customized compared to a standard model, pay attention to it. :smile_cat:
+If the repository has a [contributing guide](/blog/2021/04/28/commcall-pkg-community/) (file `CONTRIBUTING.md` or `.github/CONTRIBUTING.md`) and it seems to have been at least a little bit customized compared to a standard model, pay attention to it. :smile_cat:
 
 If the docs have any mention of development lifecycle (a badge, some text), also take it into account.
 
@@ -51,13 +51,13 @@ rOpenSci [code of conduct](https://ropensci.org/code-of-conduct/) applies to all
 
 ### How it helps
 
-It's direct information from maintainers on what they expect from contributions, so it can only be useful to be aware of it!
+It's direct information from maintainers on what they expect from contributions, so it can help guide you in how to make contributions and what kind of contributions are welcome. 
 
 ## Look at latest code activity
 
 On the GitHub repository homepage you can find the time since the latest commit on the default branch.
-In the branches page, see for instance <https://github.com/ropensci/readODS/branches>, you might see there's code activity in another branch.
-In the releases tab, see for instance <https://github.com/ropensci/magick/releases> you can see how old the latest released version is, and whether there's a regularity in releases.
+In the branches page you might see there's code activity in another branch (see for instance <https://github.com/ropensci/readODS/branches>).
+In the releases tab you can see how old the latest released version is, and whether there's a regularity in releases (see for instance <https://github.com/ropensci/magick/releases>).
 
 ### How it helps
 
@@ -68,27 +68,28 @@ If you see the code activity is bursty (the developers focus on it for a period 
 
 Sort issues and PRs by recently updated (the default when using the browser extension [RefinedGitHub](https://github.com/refined-github/refined-github)). Are repository members actively answering issues?
 
-Look at milestones, see for instance <https://github.com/ropensci/dev_guide/milestones>: what's the content of the different milestones?
+Look at milestones: what's the content of the different milestones?
 Are there expected dates of release?
+(See for instance <https://github.com/ropensci/dev_guide/milestones>.)
 
 ### How it helps
 
 If issues get a fast first human response, lucky you, you can politely ask whatever you wanted to ask and hope for a rather quick answer.
 If the planning is transparent and current (it's hard to curate milestones :sweat_smile:), you might get an idea of where your contribution will fit.
 
-## Look at authors activity
+## Look at authors' activity
 
 Identify main contributors:
 - The DESCRIPTION file might not be that informative as it can contain historic contributors. 
-- Look at the graph of contributions, see for instance <https://github.com/ropensci/dev_guide/graphs/contributors>, to see who are the current / recent active contributors. 
+- Look at the graph of contributions to see who are the current / recent active contributors (see for instance <https://github.com/ropensci/dev_guide/graphs/contributors>). 
 - Also notice who responded to the latest issues and PRs.
 
-Head over to their GitHub profile, and even their [R-universe profile](https://r-universe.dev/maintainers/): have they been working on other things, do they have a status (parental leave, vacation), is there a mismatch between the repo organization and the contributor's job.
+Head over to their GitHub profile, and even their [R-universe profile](https://r-universe.dev/maintainers/): Have they been working on other things? Do they have a status (parental leave, vacation)? Is there a mismatch between the repo organization and the contributor's job?
 
 ### How it helps
 
 Sometimes there might be something obvious: if the maintainer changed jobs, maybe they dropped the repository of interest.
-However, more importantly, it helps a bit to be aware of the public activity of contributors but **you never know what a person is going through, so be gracious and patient**.
+However, more importantly, while it helps to be aware of the public activity of contributors **you never know what a person is going through, so be gracious and patient**.
 
 ## Look at repository checks
 
