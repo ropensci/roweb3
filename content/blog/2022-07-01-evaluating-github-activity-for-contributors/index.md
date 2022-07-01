@@ -8,7 +8,7 @@ tags:
   - GitHub
   - contributors
   - tech notes
-description: How to evaluate the activity of a GitHub repository as an user or potential contributors 
+description: How to evaluate the activity of a GitHub repository as an user or potential contributor.
 ---
 
 Say you have a bug report or feature request to make to a package. 
