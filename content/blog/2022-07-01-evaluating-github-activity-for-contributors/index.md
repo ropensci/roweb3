@@ -2,7 +2,7 @@
 title: Evaluating GitHub Activity for Contributors
 author:
   - Maëlle Salmon
-date: '2022-07-12'
+date: '2022-07-01'
 slug: evaluating-github-activity-for-contributors
 tags:
   - GitHub
