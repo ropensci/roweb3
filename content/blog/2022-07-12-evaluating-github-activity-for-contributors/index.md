@@ -102,7 +102,7 @@ Failing checks that are not tackled might indicate the repository is not activel
 
 ## Conclusion
 
-In this post we summarized some sources of information you as potential contributor can use to assess whether and how much a repository is active, to calibrate your expectations and offers of contributions.
+In this post we summarized some sources of information you, as potential contributor, can use to assess whether and how much a repository is active, to calibrate your expectations and offers of contributions.
 If a repository looks particularly abandoned, you might perhaps email authors to ask whether future work is planned and if not, whether you might take it over.
 Be considerate in all your [interactions with code maintainers](https://jacobtomlinson.dev/posts/2022/dont-be-that-open-source-user-dont-be-me/).
 
