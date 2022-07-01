@@ -8,6 +8,7 @@ categories: []
 tags:
   - r-universe
   - Spanish
+  - Español
   - community
 package_version: 0.1.0
 description: En este post te explico como crear tu r-universe, a partir de la experiencia de crear el mio.

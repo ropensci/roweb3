@@ -6,6 +6,7 @@ slug: introducing-yanina-es
 tags:
   - community
   - Spanish
+  - Español
 feature: true  
 # description: 
 tweet: "Presentando a @yabellini, nuestra nueva Community Manager" 
