@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ $paginator := .Paginator }}
+{{ $paginator := .Paginate .Pages.ByPublishDate.Reverse 5 }}
 <section class="section">
   <div class="container">
     <!-- Header text -->
