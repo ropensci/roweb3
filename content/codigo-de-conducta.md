@@ -1,10 +1,10 @@
 +++
-title = "Code of Conduct (English version)"
-description = "rOpenSci Code of Conduct"
+title = "Codigo de Conducta (versión en español)"
+description = "Codigo de Conducta de rOpenSci"
 subtitle = "Version 2.3 – January 13, 2022"
 +++
 
-_El codigo de conducta también esta disponible en [español](/codigo-de-conducta)._
+_The Code of Conduct is also available in [English](/code-of-conduct)._
 
 rOpenSci's community is our best asset and we believe that our diversity is our strength. We are building a welcoming and diverse global community of software users and developers from a range of research domains. It's so important to us, it's in [our mission statement](/about/). Whether you’re a regular contributor or a newcomer, we care about making this a safe place for you and we’ve got your back.
 
