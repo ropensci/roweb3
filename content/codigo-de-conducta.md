@@ -1,68 +1,70 @@
 +++
-title = "Codigo de Conducta (versión en español)"
-description = "Codigo de Conducta de rOpenSci"
-subtitle = "Version 2.3 – January 13, 2022"
+title = "Código de Conducta (versión en español)"
+description = "Código de Conducta de rOpenSci"
+subtitle = "Versión 2.4 - 7 de Julio de 2022"
 +++
 
 _The Code of Conduct is also available in [English](/code-of-conduct)._
 
-rOpenSci's community is our best asset and we believe that our diversity is our strength. We are building a welcoming and diverse global community of software users and developers from a range of research domains. It's so important to us, it's in [our mission statement](/about/). Whether you’re a regular contributor or a newcomer, we care about making this a safe place for you and we’ve got your back.
+La comunidad de rOpenSci es nuestro mejor activo y creemos que nuestra diversidad es nuestra fortaleza. Estamos construyendo una comunidad global amigable y diversa de personas usuarias y desarrolladoras de software de una gama de dominios de investigación. Es tan importante para nosotros que está en [nuestra misión](/about/). Tanto si eres una persona que contribuye regularmente como si eres recién llegada, nos preocupamos por hacer de este un lugar seguro para ti y te cubrimos las espaldas.
 
-rOpenSci is committed to providing a safe, inclusive, welcoming, and harassment-free experience for everyone.
+rOpenSci se compromete a proporcionar una experiencia segura, inclusiva, acogedora y libre de acoso para todo el mundo.
 
-We try to cultivate a community with shared values, where people are comfortable exploring ideas, asking questions, and saying things like "I don't understand" or "Why". Assume competence in the people you interact with. There are no stupid questions.
+Intentamos cultivar una comunidad con valores compartidos, donde la gente se sienta cómoda explorando ideas, haciendo preguntas y diciendo cosas como "no entiendo" o "por qué". Asume la idoneidad de las personas con las que te relacionas. No hay preguntas estúpidas.
 
-Be considerate in speech and actions, and actively seek to acknowledge and respect the boundaries of people who participate in rOpenSci activities.
+Sé considerado al hablar y actuar, y procura reconocer y respetar activamente los límites de las personas que participan en las actividades de rOpenSci.
 
-Take care of each other. Alert a member of the Code of Conduct Committee (named below) if you notice a dangerous situation, someone in distress, or a potential violation of this Code of Conduct, even if it seems inconsequential.
+Cuida de los demás. Alerta a un miembro del Comité del Código de Conducta ( mencionado más abajo) si observas una situación peligrosa, alguien en riesgo o una posible violación de este Código de Conducta, incluso si parece intrascendente.
 
-We do not tolerate harassment in any form. Refrain from demeaning, discriminatory, or harassing behavior and speech. Harassment includes, but is not limited to:
+No toleramos ningún tipo de acoso. Abstente de comportamientos y discursos degradantes, discriminatorios o de acoso. El acoso incluye, pero no se limita a
 
-- offensive comments related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices
-- unwelcome comments regarding a person's lifestyle choices and practices, including those related to food, health, parenting, drugs, or employment
-- sustained or willful disruption of discussions, talks, or other events
-- deliberate intimidation
-- continued one-on-one communication after requests to cease
-- unwanted photography or recording, including logging online activity for harassment purposes
-- pattern of inappropriate social contact, such as requesting/assuming inappropriate levels of intimacy with others
-- inappropriate physical contact without consent or after a request to stop
-- stalking or following
-- threats of violence or incitement of violence towards any individual, including encouraging a person to commit suicide or to engage in self-harm
-- use of sexual or discriminatory imagery, comments, or jokes
-- unwelcome sexual attention
-- deliberate ‘outing’ of any aspect of a person’s identity without their consent except as necessary to protect vulnerable people from intentional abuse
-- deliberate misgendering or use of ‘dead’ or rejected names
-- publication of non-harassing private communication
+- comentarios ofensivos relacionados con el género, la identidad y expresión de género, la edad, la orientación sexual, la discapacidad, la apariencia física, el tamaño del cuerpo, la raza, la etnia, la religión (o la falta de ella), la nacionalidad, el idioma nativo o las opciones tecnológicas
+- comentarios inoportunos sobre las opciones y prácticas de estilo de vida de una persona, incluidas las relacionadas con la alimentación, la salud, la crianza de los hijos, las drogas o el empleo
+- la interrupción continuada o intencionada de debates, charlas u otros actos, incluyendo discusiones on-line
+- intimidación deliberada
+- continuar una comunicación individual después de pedir que cese
+- fotografía o grabación no deseada, incluido el registro de la actividad en línea con fines de acoso
+- patrón de contacto social inapropiado, como solicitar/asumir niveles inapropiados de intimidad con otras personas
+- contacto físico inapropiado sin consentimiento o tras una petición de cese. En entornos virtuales, el contacto físico simulado inapropiado utilizado sin consentimiento, como descripciones textuales del tipo "abrazo" o "masaje en la espalda" o emojis que representen dichos contactos.
+- acoso o seguimiento, incluyendo, en entornos virtuales, comportamientos como la insistencia en mensajes directos no deseados, el envío de imágenes no deseadas o enlaces de malware, o el registro de la actividad en línea con fines de acoso.
+- amenazas de violencia o incitación a la violencia hacia cualquier persona, incluida la incitación al suicidio o a la autolesión
+- uso de imágenes, comentarios o bromas de carácter sexual o discriminatorio
+- atención sexual no deseada, que puede incluir preguntas inapropiadas de carácter sexual, pedir favores sexuales o solicitar repetidamente citas o información de contacto.
+- divulgación deliberada de cualquier aspecto de la identidad de una persona sin su consentimiento, excepto cuando sea necesario para proteger a las personas vulnerables de un abuso intencionado
+- la utilización deliberada de un género erróneo o el uso de nombres "muertos" o rechazados
+la publicación no consentida de comunicaciones privadas no acosadoras, incluidas las capturas de pantalla de canales de discusión privados o mensajes directos.
 
-We prioritize marginalized people's safety over privileged people's comfort. We will not act on complaints regarding:
+Damos prioridad a la seguridad de las personas marginadas sobre la comodidad de las personas privilegiadas. No actuaremos sobre las quejas relativas a
 
-- 'reverse' -isms, including 'reverse racism,' 'reverse sexism,' and 'cisphobia'
-- reasonable communication of boundaries, such as "leave me alone," "go away," or "I'm not discussing this with you"
-- communicating in a 'tone' you don't find congenial
-- criticizing racist, sexist, cissexist, or otherwise oppressive behavior or assumptions
+- ismos "inversos", incluidos el "racismo inverso", el "sexismo inverso" y la "cisfobia
+- comunicación razonable de límites, como "déjame en paz", "vete" o "no voy a discutir esto contigo"
+- comunicarse en un "tono" que no te parece agradable
+- criticar comportamientos o suposiciones racistas, sexistas, cisexistas o de otro tipo de opresión
 
-If anyone engages in harassing behavior, the Committee will take action that may include warning the offender or asking them to leave an event or an online channel either temporarily or permanently, or seeking help from law enforcement.
+Si alguien tiene un comportamiento de acoso, el Comité tomará medidas que pueden incluir advertir al infractor o pedirle que abandone un evento o un canal en línea, ya sea temporal o permanentemente, o buscar ayuda de las fuerzas del orden.
 
-This Code of Conduct applies to all people participating in the rOpenSci community, including rOpenSci staff and leadership. It applies to all modes of interaction online including GitHub project repositories, the rOpenSci discussion forum, Slack, Community Calls, and in person at rOpenSci-hosted events or events officially endorsed by rOpenSci, including social gatherings affiliated with the event.
+Este Código de Conducta se aplica a todas las personas que participan en la comunidad rOpenSci, incluyendo el personal y la dirección de rOpenSci. Se aplica a todos los modos de interacción en línea, incluyendo los repositorios del proyecto GitHub, el foro de discusión de rOpenSci, Slack, Community Calls, y en persona en eventos organizados por rOpenSci o eventos oficialmente respaldados por rOpenSci, incluyendo reuniones sociales afiliadas al evento.
 
-### Reporting Guidelines
+### Directrices para la presentación de informes
 
-The rOpenSci Code of Conduct Committee includes [Mark Padgham](/author/mark-padgham) (rOpenSci Software Research Scientist), [Megan Carter](https://www.esipfed.org/about/people/megan-carter) (independent community member) and [Kara Woo](https://karawoo.com/) (independent community member, on leave until May 2022).
+El Comité del Código de Conducta de rOpenSci incluye a [Mark Padgham](/autor/mark-padgham) (Científico de Investigación de Software de rOpenSci), [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) (Community Manager de rOpenSci) y [Kara Woo](https://karawoo.com/) (miembro independiente de la comunidad).
 
-If you experience or witness unacceptable behavior, or have any other concerns, [please submit a report  to the Committee as soon as possible using this form](https://docs.google.com/forms/d/e/1FAIpQLSdPdhOveaz21SitTBpQ5686xEKPq8DW-Kb8CyKyX89aw5Mz_A/viewform). Alternatively, you may email `conduct@ropensci.org`, which will go to the Committee members. You may also make a report directly to one member of the Committee by contacting them directly. If any member of the Committee has a conflict of interest with a report, they will be recused and will not have access to the content or process of the report followup. At an in-person rOpenSci event, please reach out to anyone named as a member of that event-specific Code of Conduct Committee, or to venue staff or security who will be present throughout the event.
+Si experimentas o eres testigo de un comportamiento inaceptable, o tienes cualquier otra preocupación, [por favor, envía un informe al Comité tan pronto como sea posible utilizando este formulario](https://forms.gle/8zKztThp2yLJ6KYa6). También puede enviar un correo electrónico a `conduct@ropensci.org`, que llegará a los miembros del Comité. También puede presentar un informe directamente a un miembro del Comité poniéndose en contacto con él directamente. Si algún miembro del Comité tiene un conflicto de intereses con un informe, será recusado y no tendrá acceso al contenido o al proceso de seguimiento del informe. 
 
-If you are planning to attend an upcoming event or join an online channel, and have concerns regarding another individual who may be present, please submit a report as described above. We will work with you to take precautions to ensure your comfort and safety. These precautions may include: providing an escort, preparing onsite event staff, and/or providing on-site contact cell phone numbers for immediate contact. In some cases, we may take action to prevent a harasser from attending the conference.
+En un evento presencial de rOpenSci, por favor, dirígete a cualquier persona nombrada como miembro del Comité del Código de Conducta específico de ese evento, o al personal del lugar o a la seguridad que estará presente durante el evento.
 
-The Code of Conduct Committee will investigate and decide responses to reports with the aim of making a decision and implementing enforcement as soon as is reasonably possible. We are committed to transparency with our community while upholding the privacy of victims and people who report incidents. We will publish brief, anonymized summaries of incidents on the [forum](https://discuss.ropensci.org/c/conduct) in a dedicated, read-only category, and will publish on the rOpenSci blog an annual transparency report.
+Si estás planeando asistir a un próximo evento o unirte a un canal en línea, y tienes preocupaciones con respecto a otra persona que pueda estar presente, por favor envía un reporte como se describe anteriormente. Trabajaremos contigo para tomar precauciones que garanticen tu comodidad y seguridad. Estas precauciones pueden incluir: proporcionar una escolta, preparar al personal del evento in situ, y/o proporcionar los números de teléfono móvil de contacto in situ para un contacto inmediato. En algunos casos, podemos tomar medidas para evitar que la persona acosadora asista a la conferencia.
 
-We welcome your feedback by email to `conduct@ropensci.org`, and we thank you for working with us to make rOpenSci a safe, enjoyable, friendly and enriching experience for everyone who participates.
+El Comité del Código de Conducta investigará y decidirá las respuestas a las denuncias con el objetivo de tomar una decisión y aplicar la normativa tan pronto como sea razonablemente posible. Nos comprometemos a ser transparentes con nuestra comunidad, al tiempo que defendemos la privacidad de las víctimas y de las personas que denuncian los incidentes. Publicaremos resúmenes breves y anónimos de los incidentes en el [foro](https://discuss.ropensci.org/c/conduct) en una categoría específica de sólo lectura, y publicaremos en el blog de rOpenSci un informe anual de transparencia.
+
+Agradecemos tus comentarios por correo electrónico a `conduct@ropensci.org`, y te damos las gracias por colaborar con nosotros para hacer de rOpenSci una experiencia segura, agradable, amistosa y enriquecedora para todas las personas que participan.
 
 #### Alumni
 
-We thank Scott Chamberlain and Stefanie Butland for their past service on the committee.
+Agradecemos a Scott Chamberlain, Stefanie Butland y a  Megan Carter sus servicios en el pasado en el comité.
 
-#### License and Credits
-The rOpenSci Code of Conduct has been influenced by and adapted from many sources including the [Open Source and Feelings talk](https://youtu.be/nizfHxg8y3o) by [Audrey Eschright](https://lifeofaudrey.com/), the R Consortium R Community Diversity and Inclusion Working Group's draft [Code of Conduct](https://github.com/RConsortium/RCDI-WG/blob/0ca0a91dccc9296ff53a5806f52a2a49dbb8850d/conduct/code-of-conduct.md), the [Geek Feminism anti-harassment policy](https://geekfeminism.wikia.com/wiki/Community_anti-harassment/Policy), and our own Community Call: [How do I create a Code of Conduct for my event/lab/codebase?](/commcalls/2016-12-15/)
+#### Licencia y créditos
+El Código de Conducta de rOpenSci ha sido influenciado y adaptado de muchas fuentes, incluyendo la [Charla sobre Código Abierto y Sentimientos](https://youtu.be/nizfHxg8y3o) de [Audrey Eschright](https://lifeofaudrey.com/), el borrador del [Código de Conducta](https://github.com/RConsortium/RCDI-WG/blob/0ca0a91dccc9296ff53a5806f52a2a49dbb8850d/conduct/code-of-conduct.md) del Grupo de Trabajo de Diversidad e Inclusión de la Comunidad R del Consorcio R , la [Política antiacoso del Feminismo Geek](https://geekfeminism.wikia.com/wiki/Community_anti-harassment/Policy), el [Código de Conducta de useR! 2021](https://user2021.r-project.org/participation/coc/) y nuestro propio Llamado a la Comunidad: [Cómo crear un Código de Conducta para mi evento/laboratorio/código fuente](/commcalls/2016-12-15/)
 
 <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
   <a rel="license"
@@ -74,9 +76,9 @@ The rOpenSci Code of Conduct has been influenced by and adapted from many source
   <a rel="dct:publisher"
      href="https://ropensci.org/">
     <span property="dct:title">rOpenSci</span></a>
-  has waived all copyright and related or neighboring rights to
-  <span property="dct:title">rOpenSci Code of Conduct</span>.
-This work is published from:
+  ha renunciado a todos los derechos de autor y derechos conexos o afines al
+  <span property="dct:title">Codigo de Conducta de rOpenSci</span>.
+Este trabajo es publicado desde:
 <span property="vcard:Country" datatype="dct:ISO3166"
       content="US" about="https://ropensci.org/">
   United States</span>.
