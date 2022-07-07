@@ -1,7 +1,7 @@
 +++
 title = "Code of Conduct (English version)"
 description = "rOpenSci Code of Conduct"
-subtitle = "Version 2.3 – January 13, 2022"
+subtitle = "Version 2.4 – July 7, 2022"
 +++
 
 _El código de conducta también está disponible en [español](/codigo-de-conducta)._
@@ -16,23 +16,23 @@ Be considerate in speech and actions, and actively seek to acknowledge and respe
 
 Take care of each other. Alert a member of the Code of Conduct Committee (named below) if you notice a dangerous situation, someone in distress, or a potential violation of this Code of Conduct, even if it seems inconsequential.
 
-We do not tolerate harassment in any form. Refrain from demeaning, discriminatory, or harassing behavior and speech. Harassment includes, but is not limited to:
+We do not tolerate harassment in any form. Adherence to our Code of Conduct requires refraining from demeaning, discriminatory, or harassing behavior and speech including, but not limited to:
 
-- offensive comments related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices
+- offensive comments related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), nationality, native language, or technology choices
 - unwelcome comments regarding a person's lifestyle choices and practices, including those related to food, health, parenting, drugs, or employment
-- sustained or willful disruption of discussions, talks, or other events
+- sustained or willful disruption of discussions, talks, or other events, including online discussion.
 - deliberate intimidation
 - continued one-on-one communication after requests to cease
 - unwanted photography or recording, including logging online activity for harassment purposes
 - pattern of inappropriate social contact, such as requesting/assuming inappropriate levels of intimacy with others
-- inappropriate physical contact without consent or after a request to stop
-- stalking or following
+- inappropriate physical contact without consent or after a request to stop. In virtual settings, inappropriate simulated physical contact used without consent, such as textual descriptions like “hug” or “backrub” or emojis representing such contacts.
+- stalking or following, including in virtual settings behavior such as persistent unwanted direct messages, sending unwanted pictures or malware links, or logging online activity for harassment purposes.
 - threats of violence or incitement of violence towards any individual, including encouraging a person to commit suicide or to engage in self-harm
 - use of sexual or discriminatory imagery, comments, or jokes
-- unwelcome sexual attention
+- unwelcome sexual attention, which can include inappropriate questions of a sexual nature, asking for sexual favors, or repeatedly asking for dates or contact information.
 - deliberate ‘outing’ of any aspect of a person’s identity without their consent except as necessary to protect vulnerable people from intentional abuse
 - deliberate misgendering or use of ‘dead’ or rejected names
-- publication of non-harassing private communication
+- non-consensual publication of non-harassing private communication, including screenshots of private discussion channels or direct messages.
 
 We prioritize marginalized people's safety over privileged people's comfort. We will not act on complaints regarding:
 
@@ -47,9 +47,9 @@ This Code of Conduct applies to all people participating in the rOpenSci communi
 
 ### Reporting Guidelines
 
-The rOpenSci Code of Conduct Committee includes [Mark Padgham](/author/mark-padgham) (rOpenSci Software Research Scientist), [Megan Carter](https://www.esipfed.org/about/people/megan-carter) (independent community member) and [Kara Woo](https://karawoo.com/) (independent community member, on leave until May 2022).
+The rOpenSci Code of Conduct Committee includes [Mark Padgham](/author/mark-padgham) (rOpenSci Software Research Scientist), [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) (rOpenSci Community Manager) and [Kara Woo](https://karawoo.com/) (independent community member).
 
-If you experience or witness unacceptable behavior, or have any other concerns, [please submit a report  to the Committee as soon as possible using this form](https://docs.google.com/forms/d/e/1FAIpQLSdPdhOveaz21SitTBpQ5686xEKPq8DW-Kb8CyKyX89aw5Mz_A/viewform). Alternatively, you may email `conduct@ropensci.org`, which will go to the Committee members. You may also make a report directly to one member of the Committee by contacting them directly. If any member of the Committee has a conflict of interest with a report, they will be recused and will not have access to the content or process of the report followup. At an in-person rOpenSci event, please reach out to anyone named as a member of that event-specific Code of Conduct Committee, or to venue staff or security who will be present throughout the event.
+If you experience or witness unacceptable behavior, or have any other concerns, [please submit a report  to the Committee as soon as possible using this form](https://forms.gle/8zKztThp2yLJ6KYa6). Alternatively, you may email `conduct@ropensci.org`, which will go to the Committee members. You may also make a report directly to one member of the Committee by contacting them directly. If any member of the Committee has a conflict of interest with a report, they will be recused and will not have access to the content or process of the report followup. At an in-person rOpenSci event, please reach out to anyone named as a member of that event-specific Code of Conduct Committee, or to venue staff or security who will be present throughout the event.
 
 If you are planning to attend an upcoming event or join an online channel, and have concerns regarding another individual who may be present, please submit a report as described above. We will work with you to take precautions to ensure your comfort and safety. These precautions may include: providing an escort, preparing onsite event staff, and/or providing on-site contact cell phone numbers for immediate contact. In some cases, we may take action to prevent a harasser from attending the conference.
 
@@ -59,10 +59,10 @@ We welcome your feedback by email to `conduct@ropensci.org`, and we thank you fo
 
 #### Alumni
 
-We thank Scott Chamberlain and Stefanie Butland for their past service on the committee.
+We thank Scott Chamberlain, Stefanie Butland, and Megan Carter for their past service on the committee. 
 
 #### License and Credits
-The rOpenSci Code of Conduct has been influenced by and adapted from many sources including the [Open Source and Feelings talk](https://youtu.be/nizfHxg8y3o) by [Audrey Eschright](https://lifeofaudrey.com/), the R Consortium R Community Diversity and Inclusion Working Group's draft [Code of Conduct](https://github.com/RConsortium/RCDI-WG/blob/0ca0a91dccc9296ff53a5806f52a2a49dbb8850d/conduct/code-of-conduct.md), the [Geek Feminism anti-harassment policy](https://geekfeminism.wikia.com/wiki/Community_anti-harassment/Policy), and our own Community Call: [How do I create a Code of Conduct for my event/lab/codebase?](/commcalls/2016-12-15/)
+The rOpenSci Code of Conduct has been influenced by and adapted from many sources including the [Open Source and Feelings talk](https://youtu.be/nizfHxg8y3o) by [Audrey Eschright](https://lifeofaudrey.com/), the R Consortium R Community Diversity and Inclusion Working Group's draft [Code of Conduct](https://github.com/RConsortium/RCDI-WG/blob/0ca0a91dccc9296ff53a5806f52a2a49dbb8850d/conduct/code-of-conduct.md), the [Geek Feminism anti-harassment policy](https://geekfeminism.wikia.com/wiki/Community_anti-harassment/Policy), the [useR! 2021 Code of Conduct](https://user2021.r-project.org/participation/coc/), and our own Community Call: [How do I create a Code of Conduct for my event/lab/codebase?](/commcalls/2016-12-15/)
 
 <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
   <a rel="license"
