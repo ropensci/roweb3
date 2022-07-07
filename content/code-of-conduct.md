@@ -25,7 +25,7 @@ We do not tolerate harassment in any form. Adherence to our Code of Conduct requ
 - continued one-on-one communication after requests to cease
 - unwanted photography or recording, including logging online activity for harassment purposes
 - pattern of inappropriate social contact, such as requesting/assuming inappropriate levels of intimacy with others
-- inappropriate physical contact without consent or after a request to stop. In virtual settings, inappropriate simulated physical contact used without consent, such as textual descriptions like “hug” or “backrub” or emojis representing such contacts.
+- inappropriate physical contact without consent or after a request to stop. In virtual settings, inappropriate simulated physical contact used without consent, such as textual descriptions like "hug" or "backrub" or emojis representing such contacts.
 - stalking or following, including in virtual settings behavior such as persistent unwanted direct messages, sending unwanted pictures or malware links, or logging online activity for harassment purposes.
 - threats of violence or incitement of violence towards any individual, including encouraging a person to commit suicide or to engage in self-harm
 - use of sexual or discriminatory imagery, comments, or jokes
