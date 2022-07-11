@@ -26,5 +26,7 @@ We welcome your feedback by email to `conduct at ropensci.org`.
 
 As always our Code of Conduct uses community sources to improve.  For these changes, we have consulted and adapted the [useR! 2021 Code of Conduct](https://user2021.r-project.org/participation/coc/). 
 
+### Committee Changes
 
+We thanks [Megan Carter](https://www.esipfed.org/about/people/megan-carter) for serving as independent community member until June, 2022 and welcome back [Kara Woo](https://karawoo.com/) to serve on this role.  [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) join the committee as the new rOpenSci Community Manager.  
 Thank you for working with us to keep rOpenSci a safe, enjoyable, friendly, and enriching experience for everyone who participates.
