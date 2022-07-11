@@ -538,7 +538,7 @@ Some useful tips for R package developers. :eyes:
 
 Say you cloned a repository and are now getting ready to debug it.
 How do you make sure you have all its development dependencies installed?
-[Simply](https://twitter.com/GaborCsardi/status/1545306904028741632) run `pak::pak()`! 
+[Simply](https://twitter.com/GaborCsardi/status/1545306904028741632) run [`pak::pak()`](https://pak.r-lib.org/reference/pak.html)! 
 Easy to remember and to type, and it works!
 
 ### Update to CRAN NEWS.md parsing
