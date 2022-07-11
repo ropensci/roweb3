@@ -137,6 +137,13 @@ For more info, see
 
 Some useful tips for R package developers. :eyes:
 
+### pak::pak()
+
+Say you cloned a repository and are now getting ready to debug it.
+How do you make sure you have all its development dependencies installed?
+[Simply](https://twitter.com/GaborCsardi/status/1545306904028741632) run `pak::pak()`! 
+Easy to remember and to type, and it works!
+
 ### Update to CRAN NEWS.md parsing
 
 If you maintain a [changelog for your package](https://blog.r-hub.io/2020/05/08/pkg-news/), as [you should](https://devguide.ropensci.org/releasing.html?q=news#news), and have chosen the Markdown format (`NEWS.md`) to do so, you might need to pay attention to its formatting for optimal parsing by
