@@ -137,7 +137,13 @@ For more info, see
 
 Some useful tips for R package developers. :eyes:
 
-<!-- To be curated by hand -->
+### Update to CRAN NEWS.md parsing
+
+If you maintain a [changelog for your package](https://blog.r-hub.io/2020/05/08/pkg-news/), as [you should](https://devguide.ropensci.org/releasing.html?q=news#news), and have chosen the Markdown format (`NEWS.md`) to do so, you might need to pay attention to its formatting for optimal parsing by
+
+* pkgdown, see the docs for [`pkgdown::build_news()`](https://pkgdown.r-lib.org/reference/build_news.html), for instance pay attention to [headings](https://ropensci.org/blog/2022/01/31/package-build-failures/#wrong-newsmd-structure);
+
+* [R itself](https://stat.ethz.ch/pipermail/r-package-devel/2022q3/008239.html) -- if all goes well a `NEWS.md` file that is correct for pkgdown will be correct for R too. You can follow the [debugging steps recommended by Henrik Bengtsson](https://stat.ethz.ch/pipermail/r-package-devel/2022q3/008238.html) to find what's wrong in your `NEWS.md` file.
 
 ## Last words
 
