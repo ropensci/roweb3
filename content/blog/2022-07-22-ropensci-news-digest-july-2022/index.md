@@ -37,7 +37,7 @@ Now let's dive into the activity at and around rOpenSci!
 
 The following  package recently became a part of our software suite:
 
-+ [readODS](https://docs.ropensci.org/readODS), developed by Chung-hong Chan together with Gerrit-Jan Schutten, and Thomas J. Leeper: Read ODS (OpenDocument Spreadsheet) into R as data frame. Also support writing data frame into ODS file.  It is available on [CRAN]( https://CRAN.R-project.org/package=readODS). It has been [reviewed](https://github.com/ropensci/software-review/issues/386).
++ [readODS](https://docs.ropensci.org/readODS), developed by Chung-hong Chan together with Gerrit-Jan Schutten, and Thomas J. Leeper: Read ODS (OpenDocument Spreadsheet) into R as data frame. Also support writing data frame into ODS file.  It is available on [CRAN]( https://CRAN.R-project.org/package=readODS). It has been [reviewed](https://github.com/ropensci/software-review/issues/386) by Emma Mendelsohn, and Adam H. Sparks.
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
