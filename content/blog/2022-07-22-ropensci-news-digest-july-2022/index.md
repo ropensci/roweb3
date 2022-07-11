@@ -152,6 +152,14 @@ If you maintain a [changelog for your package](https://blog.r-hub.io/2020/05/08/
 
 * [R itself](https://stat.ethz.ch/pipermail/r-package-devel/2022q3/008239.html) -- if all goes well a `NEWS.md` file that is correct for pkgdown will be correct for R too. You can follow the [debugging steps recommended by Henrik Bengtsson](https://stat.ethz.ch/pipermail/r-package-devel/2022q3/008238.html) to find what's wrong in your `NEWS.md` file.
 
+### How to handle CRAN checks with `_R_CHECK_DEPENDS_ONLY_`=true
+
+In some cases CRAN might run [checks without installing the Suggested dependencies](https://stat.ethz.ch/pipermail/r-package-devel/2022q2/008193.html).
+How to ensure your vignettes still "work", that is to say, that R CMD check will not produce any error or warning?
+- [pre-build](https://ropensci.org/blog/2019/12/08/precompute-vignettes/) your vignettes;
+- make them pkgdown [articles](https://usethis.r-lib.org/reference/use_vignette.html) instead (no vignette, no vignette error!);
+- execute code conditionally based on the availability of packages, with knitr `eval` chunk option for instance.
+
 ## Last words
 
 Thanks for reading! If you want to get involved with rOpenSci, check out our [Contributing Guide](https://contributing.ropensci.org) that can help direct you to the right place, whether you want to make code contributions, non-code contributions, or contribute in other ways like sharing use cases.
