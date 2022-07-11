@@ -24,7 +24,7 @@ You can access now the last version full-text in [English](/code-of-conduct/) an
 
 We welcome your feedback by email to `conduct at ropensci.org`. 
 
-As always our Code of Conduct uses community sources to improve.  For these changes, we consult and adapt the [useR! 2021 Code of Conduct](https://user2021.r-project.org/participation/coc/). 
+As always our Code of Conduct uses community sources to improve.  For these changes, we have consulted and adapted the [useR! 2021 Code of Conduct](https://user2021.r-project.org/participation/coc/). 
 
 
 Thank you for working with us to keep rOpenSci a safe, enjoyable, friendly, and enriching experience for everyone who participates.
