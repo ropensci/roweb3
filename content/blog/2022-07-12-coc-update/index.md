@@ -4,7 +4,7 @@ author:
   - Yanina Bellini Saibene
   - Mark Padgham
   - Kara Woo
-date: '2022-07-11'
+date: '2022-07-12'
 slug: coc-update
 tags:
   - community
