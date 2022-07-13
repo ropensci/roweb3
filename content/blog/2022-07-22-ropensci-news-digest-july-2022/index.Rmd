@@ -7,7 +7,7 @@ slug: ropensci-news-digest-july-2022
 categories: []
 tags:
   - newsletter
-description: keywords from the content
+description: Code of Conduct Update, new package and package news
 output:
   html_document:
     keep_md: yes
@@ -44,14 +44,17 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-### CrOpenSci Code of Conduct Update
-We are pleased to announce the release of a new version of our Code of Conduct.  Based on the feedback of our community we add greater detail about acceptable and unacceptable behaviors in online settings and we have the first translation of the text to Spanish.
+### rOpenSci Code of Conduct Update
 
-### Committee Changes
+We are pleased to announce the release of a new version of our Code of Conduct.  
+Based on the feedback of our community we added greater detail about acceptable and unacceptable behaviors in online settings and we have the first translation of the text to Spanish.
 
-We thank [Megan Carter](https://www.esipfed.org/about/people/megan-carter) for serving as independent community member until June, 2022 and welcome back [Kara Woo](https://karawoo.com/) to serve on this role. [Yanina Bellini Saibene](https://ropensci.org/author/yanina-bellini-saibene/) joins the committee as the new rOpenSci Community Manager.
+#### Committee Changes
 
-You can read all the details here: https://ropensci.org/blog/2022/07/12/coc-update/
+We thank [Megan Carter](https://www.esipfed.org/about/people/megan-carter) for serving as independent community member until June, 2022 and welcome back [Kara Woo](https://karawoo.com/) to serve on this role.
+[Yanina Bellini Saibene](https://ropensci.org/author/yanina-bellini-saibene/) joins the committee as the new rOpenSci Community Manager.
+
+You can read all the details in our [blog post](https://ropensci.org/blog/2022/07/12/coc-update/).
 
 
 ## Software :package:
@@ -429,6 +432,9 @@ format_post <- function(post) {
   string <- sprintf("* [%s](%s) by %s", post$title, url, post$author)
   if (post$description != "") {
     string <- paste0(string, ". ", sub("\\?$", "", sub("\\!$", "", sub("\\.$", "", post$description), ".")), ".")
+        if (url == "/blog/2022/07/01/evaluating-github-activity-for-contributors") {
+      string <- paste(string, "This post was discussed on the [R Weekly Highlights podcast](https://share.fireside.fm/episode/87RSVeFz+17WMAquN?t=1491).")
+    }
   } else {
     string <- paste0(string, ".")  
   }

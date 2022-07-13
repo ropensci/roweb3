@@ -7,7 +7,7 @@ slug: ropensci-news-digest-july-2022
 categories: []
 tags:
   - newsletter
-description: keywords from the content
+description: Code of Conduct Update, new package and package news
 output:
   html_document:
     keep_md: yes
@@ -25,7 +25,17 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-### COC place-holder
+### rOpenSci Code of Conduct Update
+
+We are pleased to announce the release of a new version of our Code of Conduct.  
+Based on the feedback of our community we added greater detail about acceptable and unacceptable behaviors in online settings and we have the first translation of the text to Spanish.
+
+#### Committee Changes
+
+We thank [Megan Carter](https://www.esipfed.org/about/people/megan-carter) for serving as independent community member until June, 2022 and welcome back [Kara Woo](https://karawoo.com/) to serve on this role.
+[Yanina Bellini Saibene](https://ropensci.org/author/yanina-bellini-saibene/) joins the committee as the new rOpenSci Community Manager.
+
+You can read all the details in our [blog post](https://ropensci.org/blog/2022/07/12/coc-update/).
 
 
 ## Software :package:
@@ -69,11 +79,13 @@ There are sixteen recently closed and active submissions and 2 submissions on ho
 
     * [healthdatacsv](https://github.com/ropensci/software-review/issues/358), Access data in the healthdata.gov catalog. Submitted by [iecastro](http://iecastro.netlify.com). 
 
-* Five at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
+* Six at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 
      * [spiro](https://github.com/ropensci/software-review/issues/541), Manage Data from Cardiopulmonary Exercise Testing. Submitted by [Simon Nolte](https://github.com/smnnlt). 
 
     * [datefixR](https://github.com/ropensci/software-review/issues/533), Fix Really Messy Dates. Submitted by [Nathan Constantine-Cooke](http://constantine-cooke.com). 
+
+    * [aorsf](https://github.com/ropensci/software-review/issues/532), Accelerated Oblique Random Survival Forests. Submitted by [Byron](https://github.com/bcjaeger). 
 
     * [canaper](https://github.com/ropensci/software-review/issues/475), Categorical Analysis of Neo- And Paleo-Endemism. Submitted by [Joel Nitta](https://joelnitta.com).  (Stats).
 
@@ -81,11 +93,9 @@ There are sixteen recently closed and active submissions and 2 submissions on ho
 
     * [ROriginStamp](https://github.com/ropensci/software-review/issues/433), Interface to OriginStamp API to Obtain Trusted Time Stamps. Submitted by [Rainer M Krug](https://github.com/rkrug). 
 
-* Two at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
+* One at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
-     * [aorsf](https://github.com/ropensci/software-review/issues/532), Accelerated Oblique Random Survival Forests. Submitted by [Byron](https://github.com/bcjaeger). 
-
-    * [bssm](https://github.com/ropensci/software-review/issues/489), Bayesian Inference of Non-Linear and Non-Gaussian State Space. Submitted by [Jouni Helske](http://jounihelske.netlify.app).  (Stats).
+     * [bssm](https://github.com/ropensci/software-review/issues/489), Bayesian Inference of Non-Linear and Non-Gaussian State Space. Submitted by [Jouni Helske](http://jounihelske.netlify.app).  (Stats).
 
 * Three at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
 
@@ -106,7 +116,7 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 ### Tech Notes
 
-* [Evaluating GitHub Activity for Contributors](/blog/2022/07/01/evaluating-github-activity-for-contributors) by Maëlle Salmon. How to evaluate the activity of a GitHub repository as an user or potential contributor.
+* [Evaluating GitHub Activity for Contributors](/blog/2022/07/01/evaluating-github-activity-for-contributors) by Maëlle Salmon. How to evaluate the activity of a GitHub repository as an user or potential contributor. This post was discussed on the [R Weekly Highlights podcast](https://share.fireside.fm/episode/87RSVeFz+17WMAquN?t=1491).
 
 ## Use cases
 <!--
