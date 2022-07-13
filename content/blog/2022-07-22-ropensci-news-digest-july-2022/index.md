@@ -113,6 +113,11 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 
 
+### Other topics
+
+* [rOpenSci Code of Conduct Update](/blog/2022/07/12/coc-update) by Yanina Bellini Saibene, Mark Padgham, and Kara Woo. Update on Code of Conduct 2022.
+
+
 
 ### Tech Notes
 
