@@ -203,7 +203,7 @@ The functions like `suggested_*()` have been removed as they didn't work since 2
 
 ## **Easier authentication**
 
-As part of this release there have been a big rewritte of the authentication protocol.
+As part of this release there have been a big rewrite of the authentication protocol.
 While it is version compatible it has also some new functions that are important as these functions make it easier for different use cases to work with rtweet and the  API.
 
 If you just want to test the package use the default authentication `auth_setup_default()` that comes with rtweet.
