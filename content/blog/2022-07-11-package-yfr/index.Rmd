@@ -68,12 +68,12 @@ knitr::knit_hooks$set(
 )
 ```
 
-Package `yfR` was recently approved in the peer review process of [ropensci](https://github.com/ropensci/software-review/issues/523) and is all about downloading stock price data from [Yahoo Finance (YF)](https://finance.yahoo.com/). I wrote this package to solve a particular problem I had as a teacher: I needed a large volume of clean stock price data to use in my classes. While there are several R packages to import raw data from YF, none solved my problem. 
+Package `yfR` was recently approved in the peer review process of [rOpenSci](https://github.com/ropensci/software-review/issues/523) and is all about downloading stock price data from [Yahoo Finance (YF)](https://finance.yahoo.com/). I wrote this package to solve a particular problem I had as a teacher: I needed a large volume of clean stock price data to use in my classes. While there are several R packages to import raw data from YF, none solved my problem. 
 
 Package `yfR` facilitates the importation of data, organizing it in the `tidy` format and speeding up the process using a cache system and parallel computing. `yfR` is a backwards-incompatible substitute of [BatchGetSymbols](https://CRAN.R-project.org/package=BatchGetSymbols),  released in 2016 (see vignette [yfR and BatchGetSymbols](https://docs.ropensci.org/yfR/articles/diff-batchgetsymbols.html) for details). 
 
 
-# The Data
+# The data
 
 [YF](https://finance.yahoo.com/) provides a vast repository of stock price data around the globe. It covers a significant number of markets and assets, being used extensively in academic research and teaching. In order to import the financial data from YF, all you need is a ticker (id of a stock, e.g. "GM" for [General Motors](https://finance.yahoo.com/quote/GM?p=GM&.tsrc=fin-srch)) and a time period -- first and last date. 
 
@@ -117,7 +117,7 @@ install.packages('yfR')
 # Github (dev version)
 devtools::install_github('ropensci/yfR')
 
-# ropensci
+# rOpenSci
 install.packages("yfR", repos = "https://ropensci.r-universe.dev")
 ```
 
@@ -176,7 +176,7 @@ cli::cli_alert_info(
 
 In `r min(df_yf$ref_date)`, the index was valued at `r dplyr::first(df_yf$price_adjusted)`. Today (`r Sys.Date()`), after roughly `r floor(n_years)` years, the value of the index is `r  dplyr::last(df_yf$price_adjusted)`. The total return for the SP500, without accounting for inflation, is equivalent to an impressive `r scales::percent(total_return)`! Overall, anyone holding stocks for that long  has done very well financially.
 
-Additionaly, we can also calculate performance as the coupounded annual return, which is the usual figure reported when looking stocks in the long rum:
+Additionally, we can also calculate performance as the compounded annual return, which is the usual figure reported when looking stocks in the long rum:
 
 ```{r}
 ret_comp <- (1 + total_return)^(1/n_years)  - 1
@@ -184,7 +184,7 @@ ret_comp <- (1 + total_return)^(1/n_years)  - 1
 cli::cli_alert_info("Comp Return = {scales::percent(ret_comp, accuracy = 0.01)}")
 ```
 
-Over the `r floor(n_years)` of existence, the SP500 index returned an annual coumpounded interest of `r scales::percent(ret_comp, accuracy = 0.02)`. This is quite in line with the rougly 8% per year reported in the media.
+Over the `r floor(n_years)` of existence, the SP500 index returned an annual compounded interest of `r scales::percent(ret_comp, accuracy = 0.02)`. This is quite in line with the roughly 8% per year reported in the media.
 
 To visualize the data, we can use a log plot and see the value of the SP500 index over time:
 
@@ -230,7 +230,7 @@ df_yf <- yfR::yf_get(tickers = rnd_tickers,
                      last_date = Sys.Date())
 ```
 
-Out of the `r n_tickers` stocks, one was left out due to the high number of missing days. Internaly, `yf_get` compares every ticker to a benchmark time series, in this case the SP500 index itself (see input `bench_ticker`). Whenever the proportion of missing days is higher than the default case (`thresh_bad_data = 0.75`), the algorithm drops the ticker from the output. In the end, we are left with just nine stocks.
+Out of the `r n_tickers` stocks, one was left out due to the high number of missing days. Internally, `yf_get` compares every ticker to a benchmark time series, in this case the SP500 index itself (see input `bench_ticker`). Whenever the proportion of missing days is higher than the default case (`thresh_bad_data = 0.75`), the algorithm drops the ticker from the output. In the end, we are left with just nine stocks.
 
 First, let's look at their accumulated return over time:
 
@@ -276,9 +276,9 @@ tab_perf |>
 
 ```
 
-# Final thoughs
+# Final thoughts
 
-Package `yfR` was created to facilitate the importation and organization of YF datasets. In the examples of this post, we can see how easy it is to download the data and do some simple performance statistics. We only scratched the surface, there are many ways to analyze stock data, not just financial performance. 
+Package `yfR` was created to facilitate the importation and organization of YF data sets. In the examples of this post, we can see how easy it is to download the data and do some simple performance statistics. We only scratched the surface, there are many ways to analyze stock data, not just financial performance. 
 
 
 # Acknowledgements
