@@ -14,9 +14,7 @@ tags:
   - survey data
 package_version: 3.1.6
 description: "This post summarizes how to use the qualtRics package to import Qualtrics data."
-twitterImg: blog/2022/08/02/post-template/name-of-image.png
-twitterAlt: Alternative description of the image
-tweet: A post about blabla by @username!
+tweet: "Import your Qualtrics data with the qualtRics R package (post by @JeffStevensADML)!"
 output:
   html_document:
     keep_md: yes
@@ -34,7 +32,7 @@ Having to go through this process manually every time that you want to download 
 <!--html_preserve-->
 {{< figure src = "mouseclicking.gif" width = "400" alt = "A gif of a hand furiously clicking a computer mouse." class = "center" >}}
 <!--/html_preserve-->
-![](mouseclicking.gif)
+<!-- ![](mouseclicking.gif) -->
 
 Enter, the [qualtRics](https://docs.ropensci.org/qualtRics/) package from [Julia Silge](https://juliasilge.com/) and [Jasper Ginn](https://jasperhg90.github.io/)[^3]. 
 This package allows you to use the Qualtrics API to directly connect to your survey data. 
@@ -53,14 +51,14 @@ Note this key is like your password for accessing your account, so don't share i
 <!--html_preserve-->
 {{< figure src = "qualtrics_api_token.png" width = "800" alt = "An image of the Qualtrics ID page with an example token in the API box highlighted with a red rectangle." class = "center" >}}
 <!--/html_preserve-->
-![](qualtrics_api_token.png)
+<!-- ![](qualtrics_api_token.png) -->
 
 For your datacenter ID, follow the same procedure but look in the _User_ box of the _Qualtrics ID_ page and grab the _Datacenter ID_.
 
 <!--html_preserve-->
 {{< figure src = "qualtrics_api_datacenter.png" width = "400" alt = "An image of the User box from the Qualtrics ID page with an example User ID, Organization ID, and Datacenter ID." class = "center" >}}
 <!--/html_preserve-->
-![](qualtrics_api_datacenter.png)
+<!-- ![](qualtrics_api_datacenter.png) -->
 
 Your datacenter ID can now be appended before `qualtrics.com` to generate your base URL: `yourdatacenterid.qualtrics.com` (don't include `https://`). 
 You can use the qualtRics function `qualtrics_api_credentials()` to connect your R session to the Qualtrics API.
@@ -93,7 +91,7 @@ You must decide between the security of not storing credentials on your computer
 <!--html_preserve-->
 {{< figure src = "security_convenience.jpg" width = "400" alt = "Meme with hand hovering over two red buttons, one reading Security and the other reading Convenience." class = "center" >}}
 <!--/html_preserve-->
-![](security_convenience.jpg)
+<!-- ![](security_convenience.jpg) -->
 
 Congrats---you've now registered your Qualtrics credentials! 
 If you have difficulty with this, check out the  [qualtRics documentation](https://docs.ropensci.org/qualtRics/articles/qualtRics.html#registering-your-qualtrics-credentials) or [GitHub issues](https://github.com/ropensci/qualtRics/issues) or the [Qualtrics API documentation](https://api.qualtrics.com/). 
@@ -118,7 +116,7 @@ View(surveys)
 <!--html_preserve-->
 {{< figure src = "qualtrics_surveys.png" width = "800" alt = "An image of a data frame that is the output of the all_surveys function with columns id, name, ownerID, lastModified, creationDate, and isActive." class = "center" >}}
 <!--/html_preserve-->
-![](qualtrics_surveys.png)
+<!-- ![](qualtrics_surveys.png) -->
 
 The `id` column lists the survey ID for each survey (starting with `SV_`). 
 This is a unique identifier that Qualtrics uses to label each survey. 
