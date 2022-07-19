@@ -8,9 +8,6 @@ categories: []
 tags:
   - newsletter
 description: Code of Conduct Update, new package and package news
-output:
-  html_document:
-    keep_md: yes
 params:
   last_newsletter: '2022-06-24'
 ---
@@ -25,12 +22,12 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-### rOpenSci Code of Conduct Update
+### rOpenSci Code of Conduct update
 
 We are pleased to announce the release of a new version of our Code of Conduct.  
 Based on the feedback of our community we added greater detail about acceptable and unacceptable behaviors in online settings and we have the first translation of the text to Spanish.
 
-#### Committee Changes
+#### Committee changes
 
 We thank [Megan Carter](https://www.esipfed.org/about/people/megan-carter) for serving as independent community member until June, 2022 and welcome back [Kara Woo](https://karawoo.com/) to serve on this role.
 [Yanina Bellini Saibene](https://ropensci.org/author/yanina-bellini-saibene/) joins the committee as the new rOpenSci Community Manager.
@@ -45,7 +42,9 @@ You can read all the details in our [blog post](https://ropensci.org/blog/2022/0
 
 
 
-The following  package recently became a part of our software suite:
+The following two packages recently became a part of our software suite:
+
++ [datefixR](https://docs.ropensci.org/datefixR), developed by Nathan Constantine-Cooke: There are many different formats dates are commonly represented with: the order of day, month, or year can differ, different separators ("-", "/", or whitespace) can be used, months can be numerical, names, or abbreviations and year given as two digits or four. datefixR takes dates in all these different formats and converts them to Rs built-in date class. If datefixR cannot standardize a date, such as because it is too malformed, then the user is told which date cannot be standardized and the corresponding ID for the row. datefixR' also allows the imputation of missing days and months with user-controlled behavior.  It is available on [CRAN]( https://CRAN.R-project.org/package=datefixR). It has been [reviewed](https://github.com/ropensci/software-review/issues/533) by Kaique dos S. Alves, and Al-Ahmadgaid B. Asaad.
 
 + [readODS](https://docs.ropensci.org/readODS), developed by Chung-hong Chan together with Gerrit-Jan Schutten, and Thomas J. Leeper: Read ODS (OpenDocument Spreadsheet) into R as data frame. Also support writing data frame into ODS file.  It is available on [CRAN]( https://CRAN.R-project.org/package=readODS). It has been [reviewed](https://github.com/ropensci/software-review/issues/386) by Emma Mendelsohn, and Adam H. Sparks.
 
@@ -55,15 +54,15 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following six packages have had an update since the last newsletter: [dittodb](https://docs.ropensci.org/dittodb "A Test Environment for Database Requests") ([`v0.1.4`](https://github.com/ropensci/dittodb/releases/tag/v0.1.4)), [EDIutils](https://docs.ropensci.org/EDIutils "An API Client for the Environmental Data Initiative Repository") ([`v1.0.1`](https://github.com/ropensci/EDIutils/releases/tag/v1.0.1)), [jagstargets](https://docs.ropensci.org/jagstargets "Targets for JAGS Workflows") ([`1.0.3`](https://github.com/ropensci/jagstargets/releases/tag/1.0.3)), [lingtypology](https://docs.ropensci.org/lingtypology "Linguistic Typology and Mapping") ([`v1.1.9`](https://github.com/ropensci/lingtypology/releases/tag/v1.1.9)), [restez](https://docs.ropensci.org/restez "Create and Query a Local Copy of GenBank in R") ([`v2.0.0`](https://github.com/ropensci/restez/releases/tag/v2.0.0)), and [tidyqpcr](https://docs.ropensci.org/tidyqpcr "Quantitative PCR Analysis with the Tidyverse") ([`v1.0.0`](https://github.com/ropensci/tidyqpcr/releases/tag/v1.0.0)).
+The following seven packages have had an update since the last newsletter: [datefixR](https://docs.ropensci.org/datefixR "Standardize Dates in Different Formats or with Missing Data") ([`v1.0.0`](https://github.com/ropensci/datefixR/releases/tag/v1.0.0)), [dittodb](https://docs.ropensci.org/dittodb "A Test Environment for Database Requests") ([`v0.1.4`](https://github.com/ropensci/dittodb/releases/tag/v0.1.4)), [EDIutils](https://docs.ropensci.org/EDIutils "An API Client for the Environmental Data Initiative Repository") ([`v1.0.1`](https://github.com/ropensci/EDIutils/releases/tag/v1.0.1)), [jagstargets](https://docs.ropensci.org/jagstargets "Targets for JAGS Workflows") ([`1.0.3`](https://github.com/ropensci/jagstargets/releases/tag/1.0.3)), [lingtypology](https://docs.ropensci.org/lingtypology "Linguistic Typology and Mapping") ([`v1.1.9`](https://github.com/ropensci/lingtypology/releases/tag/v1.1.9)), [restez](https://docs.ropensci.org/restez "Create and Query a Local Copy of GenBank in R") ([`v2.0.0`](https://github.com/ropensci/restez/releases/tag/v2.0.0)), and [tidyqpcr](https://docs.ropensci.org/tidyqpcr "Quantitative PCR Analysis with the Tidyverse") ([`v1.0.0`](https://github.com/ropensci/tidyqpcr/releases/tag/v1.0.0)).
 
 ## Software Peer Review
 
-There are sixteen recently closed and active submissions and 2 submissions on hold. Issues are at different stages: 
+There are fifteen recently closed and active submissions and 2 submissions on hold. Issues are at different stages: 
 
 * One at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
 
-     * [readODS](https://github.com/ropensci/software-review/issues/386), Read and Write ODS Files. Submitted by [Chung-hong Chan](http://www.chainsawriot.com). 
+     * [datefixR](https://github.com/ropensci/software-review/issues/533), Fix Really Messy Dates. Submitted by [Nathan Constantine-Cooke](http://constantine-cooke.com). 
 
 * One at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
 
@@ -79,13 +78,9 @@ There are sixteen recently closed and active submissions and 2 submissions on ho
 
     * [healthdatacsv](https://github.com/ropensci/software-review/issues/358), Access data in the healthdata.gov catalog. Submitted by [iecastro](http://iecastro.netlify.com). 
 
-* Six at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
+* Four at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 
      * [spiro](https://github.com/ropensci/software-review/issues/541), Manage Data from Cardiopulmonary Exercise Testing. Submitted by [Simon Nolte](https://github.com/smnnlt). 
-
-    * [datefixR](https://github.com/ropensci/software-review/issues/533), Fix Really Messy Dates. Submitted by [Nathan Constantine-Cooke](http://constantine-cooke.com). 
-
-    * [aorsf](https://github.com/ropensci/software-review/issues/532), Accelerated Oblique Random Survival Forests. Submitted by [Byron](https://github.com/bcjaeger). 
 
     * [canaper](https://github.com/ropensci/software-review/issues/475), Categorical Analysis of Neo- And Paleo-Endemism. Submitted by [Joel Nitta](https://joelnitta.com).  (Stats).
 
@@ -93,9 +88,11 @@ There are sixteen recently closed and active submissions and 2 submissions on ho
 
     * [ROriginStamp](https://github.com/ropensci/software-review/issues/433), Interface to OriginStamp API to Obtain Trusted Time Stamps. Submitted by [Rainer M Krug](https://github.com/rkrug). 
 
-* One at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
+* Two at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
-     * [bssm](https://github.com/ropensci/software-review/issues/489), Bayesian Inference of Non-Linear and Non-Gaussian State Space. Submitted by [Jouni Helske](http://jounihelske.netlify.app).  (Stats).
+     * [aorsf](https://github.com/ropensci/software-review/issues/532), Accelerated Oblique Random Survival Forests. Submitted by [Byron](https://github.com/bcjaeger). 
+
+    * [bssm](https://github.com/ropensci/software-review/issues/489), Bayesian Inference of Non-Linear and Non-Gaussian State Space. Submitted by [Jouni Helske](http://jounihelske.netlify.app).  (Stats).
 
 * Three at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
 
