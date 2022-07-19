@@ -13,9 +13,6 @@ tags:
   - knitr
 package_version: 0.1.0
 description: A few things I learned about R Markdown (knitr hooks), Hugo (ignoreFiles, leaf bundles, archetypes), blogdown (New Post Addin)
-output:
-  html_document:
-    keep_md: yes
 ---
 
 ```{r setup, include=FALSE}
@@ -144,7 +141,7 @@ We did not have to "convert" old posts since both systems can peacefully coexist
 Below is the directory tree of this very tech note, added as a leaf bundle.
 
 ```{r leaf, echo = FALSE}
-path <- "/home/maelle/Documents/ropensci/roweb2/content/technotes/2020-04-23-rmd-learnings"
+path <- "/home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2020-04-23-rmd-learnings"
 done <- file.remove(file.path(path, "index.html"))
 fs::dir_tree(path)
 ```

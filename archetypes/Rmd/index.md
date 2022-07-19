@@ -28,11 +28,6 @@ twitterAlt: "Alternative description of the image"
 # the text below is for populating the "share on Twitter" button
 # if deleted, the title of the post will be used
 tweet: "A post about blabla by @username!"
-# 'output' is necessary to obtain index.md
-# Do not commit index.html
-output: 
-  html_document:
-    keep_md: true
 ---
 
 This is the R Markdown (.Rmd) template for a blog post or tech note. 
