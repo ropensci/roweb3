@@ -44,12 +44,12 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-### rOpenSci Code of Conduct Update
+### rOpenSci Code of Conduct update
 
 We are pleased to announce the release of a new version of our Code of Conduct.  
 Based on the feedback of our community we added greater detail about acceptable and unacceptable behaviors in online settings and we have the first translation of the text to Spanish.
 
-#### Committee Changes
+#### Committee changes
 
 We thank [Megan Carter](https://www.esipfed.org/about/people/megan-carter) for serving as independent community member until June, 2022 and welcome back [Kara Woo](https://karawoo.com/) to serve on this role.
 [Yanina Bellini Saibene](https://ropensci.org/author/yanina-bellini-saibene/) joins the committee as the new rOpenSci Community Manager.
