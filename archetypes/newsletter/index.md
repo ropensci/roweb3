@@ -7,9 +7,6 @@ date: '2022-01-16'
 tags:
   - newsletter
 description: keywords from the content
-output:
-  html_document:
-    keep_md: yes
 params:
   last_newsletter: "2022-05-20"
 ---
