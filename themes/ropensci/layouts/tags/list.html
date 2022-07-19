@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ $paginator := .Paginator }}
+{{ $paginator := .Paginate .Pages.ByPublishDate.Reverse 5 }}
 <section class="section">
   <div class="container">
     <!-- Header text -->
@@ -7,7 +7,7 @@
       <div class="col-md-12">
         <div class="row justify-content-between align-items-center">
           <div class="col-md-8">
-            <h1>#{{ .Title | urlize }}</h1>
+            <h1>#{{ .Title }}</h1>
           </div>
           <div class="col-md-3">
             <div class="text-md-right">
