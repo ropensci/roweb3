@@ -1,6 +1,7 @@
 ---
 title: Miscellaneous Wisdom about R Markdown & Hugo Gained from Work on our Website
-author: Maëlle Salmon
+author:
+  - Maëlle Salmon
 date: '2020-04-23'
 slug: rmd-learnings
 categories: []
@@ -10,13 +11,8 @@ tags:
   - R Markdown
   - Markdown
   - knitr
-  - tech notes
 package_version: 0.1.0
-description: A few things I learned about R Markdown (knitr hooks), Hugo (ignoreFiles,
-  leaf bundles, archetypes), blogdown (New Post Addin)
-output:
-  html_document:
-    keep_md: yes
+description: A few things I learned about R Markdown (knitr hooks), Hugo (ignoreFiles, leaf bundles, archetypes), blogdown (New Post Addin)
 ---
 
 
@@ -38,17 +34,17 @@ not
 
 &nbsp;
 
-<!--html_preserve-->
+
 &#33;&#91;alternative text please make it informative	&#93;(chunkname-1.png)
-<!--/html_preserve-->
+
 
 to appear -- as the result of a chunk producing a figure -- in the `.md` after knitting the `.Rmd`?
 
 I asked this question in the friendly French-speaking R Slack workspace[^grrr] and got an answer from both [Romain Lesur](https://github.com/RLesur) and [Christophe Dervieux](https://github.com/cderv): the solution was to use a [knitr plot hook](https://yihui.org/knitr/hooks/)!
 
-<!--html_preserve-->
+
 {{< figure src ="person-holding-purple-crochet-hook-and-white-yarn-3945638.jpg" alt = "Person holding a purple crochet hook and white yarn" link = "https://www.pexels.com/photo/person-holding-purple-crochet-hook-and-white-yarn-3945638/" caption = "[Castorly Stock on Pexels](https://www.pexels.com/photo/person-holding-purple-crochet-hook-and-white-yarn-3945638/)." width = "300" class = "center" >}}
-<!--/html_preserve-->
+
 
 [knitr hooks](https://yihui.org/knitr/hooks/) are _"Customizable functions to run before / after a code chunk, tweak the output, and manipulate chunk options"_.
 
@@ -86,9 +82,9 @@ plot(1:10)
 
 produces
 
-<!--html_preserve-->
+
 {{</* figure src="chunkname-1.png" alt="alternative text please make it informative" caption="this is what this image shows, write it here or in the paragraph after the image as you prefer" width="300" */>}}
-<!--/html_preserve-->
+
 
 in the `.md` file which is what we wanted.
 
@@ -96,17 +92,17 @@ Now, a bit later in our website journey, I had a quite similar question: Hugo ha
 
 Note that when writing a `.md` post instead of knitting an `.Rmd` file, authors can use Hugo syntax directly. And when adding figures in an `.Rmd` file that come from say a stock photos website rather than a code chunk, authors can also use Hugo syntax, granted they write the shortcode between `html_preserve` markers, see below the lines I used to add the crochet hook picture in the `.Rmd` producing this post.
 
-<!--html_preserve-->
+
 &#60;!&#45;&#45;html_preserve&#45;&#45;>
-<!--/html_preserve-->
 
-<!--html_preserve-->
+
+
 {{</* figure src ="person-holding-purple-crochet-hook-and-white-yarn-3945638.jpg" alt = "Person holding a purple crochet hook and white yarn" link = "https://www.pexels.com/photo/person-holding-purple-crochet-hook-and-white-yarn-3945638/" caption = "[Castorly Stock on Pexels](https://www.pexels.com/photo/person-holding-purple-crochet-hook-and-white-yarn-3945638/)" width = "300" class = "center" */>}}
-<!--/html_preserve-->
 
-<!--html_preserve-->
+
+
 &#60;!&#45;&#45;/html_preserve&#45;&#45;>
-<!--/html_preserve-->
+
 
 ## "One post = one folder": Hugo leaf bundles
 
@@ -117,9 +113,9 @@ What an improvement over adding the post in one place, the images in another pla
 It's much smoother to explain to new contributors[^smoother].
 In Hugo speak, each post source is a [leaf bundle](https://gohugo.io/content-management/page-bundles/).
 
-<!--html_preserve-->
+
 {{< figure src="orange-mug-near-macbook-3219546.jpg" width="300" link="https://www.pexels.com/photo/orange-mug-near-macbook-3219546/" alt="Laptop keyboard with a tree leaf beside it" class="center" caption="[Engin Akyurt on Pexels](https://www.pexels.com/photo/orange-mug-near-macbook-3219546/)." >}}
-<!--/html_preserve-->
+
 
 We did not have to "convert" old posts since both systems can peacefully coexist.
 
@@ -128,15 +124,16 @@ Below is the directory tree of this very tech note, added as a leaf bundle.
 
 ```
 Warning in file.remove(file.path(path, "index.html")): impossible d'effacer le
-fichier '/home/maelle/Documents/ropensci/roweb2/content/technotes/2020-04-23-
+fichier '/home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2020-04-23-
 rmd-learnings/index.html', à cause de 'Aucun fichier ou dossier de ce type'
 ```
 
 ```
-/home/maelle/Documents/ropensci/roweb2/content/technotes/2020-04-23-rmd-learnings
+/home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2020-04-23-rmd-learnings
 ├── blogdownaddin.png
 ├── index.Rmd
-├── index.md
+├── index.Rmd.lock~
+├── index.knit.md~
 ├── orange-mug-near-macbook-3219546.jpg
 ├── person-holding-purple-crochet-hook-and-white-yarn-3945638.jpg
 └── richard-dykes-SPuHHjbSso8-unsplash.jpg
@@ -177,9 +174,9 @@ options(blogdown.title_case = TRUE)
 
 * Now from RStudio or elsewhere after installing blogdown above version 1.18.1[^blogdownv], we [recommend using the blogdown's New Post Addin](https://blogguide.ropensci.org/technical.html#blogdownaddin)!
 
-<!--html_preserve-->
+
 {{< figure src="blogdownaddin.png" alt="blogdown New Post Addin" class="center" caption="Screenshot of the blogdown New Post Addin" >}}
-<!--/html_preserve-->
+
 
 The todo list for a contributor is long but less tedious than creating folders by hand:
 
@@ -233,9 +230,9 @@ content/technotes/*/index.html
 
 so that such garbage index.html doesn't get added to pull requests, but it still made Hugo error locally.
 
-<!--html_preserve-->
+
 {{< figure src="richard-dykes-SPuHHjbSso8-unsplash.jpg" class="center" width="300" link="https://unsplash.com/photos/SPuHHjbSso8" alt="Paper thrown on the ground" caption="[Richard Dykes on Unsplash](https://unsplash.com/photos/SPuHHjbSso8)." >}}
-<!--/html_preserve-->
+
 
 Luckily Hugo recognizes a [config field called `ignoreFiles`](https://gohugo.io/getting-started/configuration/#ignore-content-files-when-rendering).
 Ours now mentions index.html.
