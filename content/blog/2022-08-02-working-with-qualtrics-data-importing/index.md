@@ -16,11 +16,17 @@ package_version: 3.1.6
 description: "This post summarizes how to use the qualtRics package to import Qualtrics data."
 tweet: "Import your Qualtrics data with the qualtRics R package (post by @JeffStevensADML)!"
 output: hugodown::md_document
-rmd_hash: a66fe95ac99ccb56
+rmd_hash: 23a86e9a0251d9eb
 
 ---
 
-The online survey system [Qualtrics](https://www.qualtrics.com/) can be a great way to collect data from research participants, customers, and stakeholders. While Qualtrics makes survey design straightforward, once the data are collected, there is a lot of work to do. Fortunately, two R packages ([qualtRics](https://docs.ropensci.org/qualtRics/)[^1] and [excluder](https://docs.ropensci.org/excluder/))[^2] can make importing data and excluding low-quality data easier. In Part 1 of this series, we'll use qualtRics to import data.
+The online survey system [Qualtrics](https://www.qualtrics.com/) can be a great way to collect data from research participants, customers, and stakeholders. I use it frequently to conduct research studies of participants or just to poll students and collaborators. While Qualtrics makes survey design straightforward, once the data are collected, there is a lot of work to do. Fortunately, two R packages ([qualtRics](https://docs.ropensci.org/qualtRics/)[^1] and [excluder](https://docs.ropensci.org/excluder/)[^2]) can make importing data and excluding low-quality data easier.
+
+Discovering the qualtRics package has saved me a lot of time importing data. It also lets me create data pipelines for sensitive data by reading files directly into R without saving them locally until they've been deidentified. So I don't accidentally save personally identifiable information in a place that is not authorized for sensitive data.
+
+After importing data, there is often a lot of clean up that needs to happen, especially for online survey respondents. I developed the excluder package to help with removing data entries based on broad metadata such as response duration, respondent location, screen resolution, etc. Combining the qualtRics and excluder packages can help you quickly get to the fun part of data analysis!
+
+Part 1 of this series will show you how to use qualtRics to import your data, and we'll cover excluding your data with excluder in Part 2.
 
 ## Importing Qualtrics data into R
 
@@ -44,13 +50,13 @@ For your datacenter ID, follow the same procedure but look in the *User* box of 
 {{< figure src = "qualtrics_api_datacenter.png" width = "400" alt = "An image of the User box from the Qualtrics ID page with an example User ID, Organization ID, and Datacenter ID." class = "center" >}}
 <!-- ![](qualtrics_api_datacenter.png) -->
 
-Your datacenter ID can now be appended before `qualtrics.com` to generate your base URL: `yourdatacenterid.qualtrics.com` (don't include `https://`). You can use the qualtRics function `qualtrics_api_credentials()` to connect your R session to the Qualtrics API.
+Your datacenter ID can now be appended before `qualtrics.com` to generate your base URL: `yourdatacenterid.qualtrics.com` (don't include `https://`). You can use the qualtRics function [`qualtrics_api_credentials()`](https://docs.ropensci.org/qualtRics/reference/qualtrics_api_credentials.html) to connect your R session to the Qualtrics API.
 
 <div class="highlight">
 
 <pre class='chroma'><code class='language-r' data-lang='r'><span><span class='kr'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='o'>(</span><span class='nv'><a href='https://docs.ropensci.org/qualtRics/'>qualtRics</a></span><span class='o'>)</span></span>
 <span></span>
-<span><span class='nf'>qualtrics_api_credentials</span><span class='o'>(</span>api_key <span class='o'>=</span> <span class='s'>"&lt;YOUR-QUALTRICS_API_TOKEN&gt;"</span>, </span>
+<span><span class='nf'><a href='https://docs.ropensci.org/qualtRics/reference/qualtrics_api_credentials.html'>qualtrics_api_credentials</a></span><span class='o'>(</span>api_key <span class='o'>=</span> <span class='s'>"&lt;YOUR-QUALTRICS_API_TOKEN&gt;"</span>, </span>
 <span>                          base_url <span class='o'>=</span> <span class='s'>"&lt;YOUR-QUALTRICS_BASE_URL&gt;"</span><span class='o'>)</span></span></code></pre>
 
 </div>
@@ -61,7 +67,7 @@ To avoid having to rerun the command, you can store your API token and base URL 
 
 <div class="highlight">
 
-<pre class='chroma'><code class='language-r' data-lang='r'><span><span class='nf'>qualtrics_api_credentials</span><span class='o'>(</span>api_key <span class='o'>=</span> <span class='s'>"&lt;YOUR-QUALTRICS_API_TOKEN&gt;"</span>, </span>
+<pre class='chroma'><code class='language-r' data-lang='r'><span><span class='nf'><a href='https://docs.ropensci.org/qualtRics/reference/qualtrics_api_credentials.html'>qualtrics_api_credentials</a></span><span class='o'>(</span>api_key <span class='o'>=</span> <span class='s'>"&lt;YOUR-QUALTRICS_API_TOKEN&gt;"</span>, </span>
 <span>                          base_url <span class='o'>=</span> <span class='s'>"&lt;YOUR-QUALTRICS_BASE_URL&gt;"</span>,</span>
 <span>                          install <span class='o'>=</span> <span class='kc'>TRUE</span><span class='o'>)</span></span></code></pre>
 
@@ -82,7 +88,7 @@ Now that you've connected to your Qualtrics account, one of the first things you
 
 <div class="highlight">
 
-<pre class='chroma'><code class='language-r' data-lang='r'><span><span class='nv'>surveys</span> <span class='o'>&lt;-</span> <span class='nf'>all_surveys</span><span class='o'>(</span><span class='o'>)</span> </span></code></pre>
+<pre class='chroma'><code class='language-r' data-lang='r'><span><span class='nv'>surveys</span> <span class='o'>&lt;-</span> <span class='nf'><a href='https://docs.ropensci.org/qualtRics/reference/all_surveys.html'>all_surveys</a></span><span class='o'>(</span><span class='o'>)</span> </span></code></pre>
 
 </div>
 
@@ -105,11 +111,11 @@ Now that we know which survey we want, we can import it using [`fetch_survey()`]
 
 <div class="highlight">
 
-<pre class='chroma'><code class='language-r' data-lang='r'><span><span class='nv'>mysurvey</span> <span class='o'>&lt;-</span> <span class='nf'>fetch_survey</span><span class='o'>(</span>surveyID <span class='o'>=</span> <span class='s'>"SV_XXXXXXXXXX"</span><span class='o'>)</span></span></code></pre>
+<pre class='chroma'><code class='language-r' data-lang='r'><span><span class='nv'>mysurvey</span> <span class='o'>&lt;-</span> <span class='nf'><a href='https://docs.ropensci.org/qualtRics/reference/fetch_survey.html'>fetch_survey</a></span><span class='o'>(</span>surveyID <span class='o'>=</span> <span class='s'>"SV_XXXXXXXXXX"</span><span class='o'>)</span></span></code></pre>
 
 </div>
 
-This imports the survey as a data frame. The `fetch_survey()` function has many arguments that are helpful in importing your data. Here's just a few:
+This imports the survey as a data frame. The [`fetch_survey()`](https://docs.ropensci.org/qualtRics/reference/fetch_survey.html) function has many arguments that are helpful in importing your data. Here's just a few:
 
 -   Set your time zone with `time_zone`. This is important because, if you don't set it in your Account Settings, Qualtrics has a default time zone that may differ from your own.
 
@@ -125,11 +131,11 @@ This imports the survey as a data frame. The `fetch_survey()` function has many 
 
 Find out more about this function in the [`fetch_survey()` documentation](https://docs.ropensci.org/qualtRics/reference/fetch_survey.html).
 
-`fetch_survey()` allows you to automatically import your Qualtrics surveys directly---no more messy and time-consuming downloads! But if you've already downloaded a file from Qualtrics, you can use qualtRics' [`read_survey()`](https://docs.ropensci.org/qualtRics/reference/read_survey.html) function to import that file and clean up some Qualtrics messiness like removing those first two obnoxious rows and allowing control over the time zone and column data types.
+[`fetch_survey()`](https://docs.ropensci.org/qualtRics/reference/fetch_survey.html) allows you to automatically import your Qualtrics surveys directly---no more messy and time-consuming downloads! But if you've already downloaded a file from Qualtrics, you can use qualtRics' [`read_survey()`](https://docs.ropensci.org/qualtRics/reference/read_survey.html) function to import that file and clean up some Qualtrics messiness like removing those first two obnoxious rows and allowing control over the time zone and column data types.
 
 ### Viewing survey info
 
-While `fetch_survey()` provides the core functionality of the qualtRics package, it includes some other helper functions that allow you to view information about your survey.
+While [`fetch_survey()`](https://docs.ropensci.org/qualtRics/reference/fetch_survey.html) provides the core functionality of the qualtRics package, it includes some other helper functions that allow you to view information about your survey.
 
 You can get a data frame that includes all survey questions and their IDs and names with [`survey_questions()`](https://docs.ropensci.org/qualtRics/reference/survey_questions.html). To really drill down into your survey, use the [`metadata()`](https://docs.ropensci.org/qualtRics/reference/metadata.html) function. Not only can you access general metadata about your survey (survey name, owner ID, organization ID, creation/modification dates), but you can get more detailed information about your questions (question labels, question type, response option descriptions), block information, and survey flow. You can access information about the survey distribution, mailing lists, etc. with other functions. Check out all of the [helper functions](https://docs.ropensci.org/qualtRics/reference/index.html).
 

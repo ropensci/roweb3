@@ -18,9 +18,14 @@ tweet: "Import your Qualtrics data with the qualtRics R package (post by @JeffSt
 output: hugodown::md_document
 ---
 
-The online survey system [Qualtrics](https://www.qualtrics.com/) can be a great way to collect data from research participants, customers, and stakeholders. While Qualtrics makes survey design straightforward, once the data are collected, there is a lot of work to do. 
-Fortunately, two R packages ([qualtRics](https://docs.ropensci.org/qualtRics/)[^1] and [excluder](https://docs.ropensci.org/excluder/))[^2] can make importing data and excluding low-quality data easier. 
-In Part 1 of this series, we'll use qualtRics to import data.
+The online survey system [Qualtrics](https://www.qualtrics.com/) can be a great way to collect data from research participants, customers, and stakeholders. I use it frequently to conduct research studies of participants or just to poll students and collaborators. While Qualtrics makes survey design straightforward, once the data are collected, there is a lot of work to do. 
+Fortunately, two R packages ([qualtRics](https://docs.ropensci.org/qualtRics/)[^1] and [excluder](https://docs.ropensci.org/excluder/)[^2]) can make importing data and excluding low-quality data easier. 
+
+Discovering the qualtRics package has saved me a lot of time importing data. It also lets me create data pipelines for sensitive data by reading files directly into R without saving them locally until they've been deidentified. So I don't accidentally save personally identifiable information in a place that is not authorized for sensitive data. 
+
+After importing data, there is often a lot of clean up that needs to happen, especially for online survey respondents. I developed the excluder package to help with removing data entries based on broad metadata such as response duration, respondent location, screen resolution, etc. Combining the qualtRics and excluder packages can help you quickly get to the fun part of data analysis!
+
+Part 1 of this series will show you how to use qualtRics to import your data, and we'll cover excluding your data with excluder in Part 2. 
 
 ## Importing Qualtrics data into R
 
