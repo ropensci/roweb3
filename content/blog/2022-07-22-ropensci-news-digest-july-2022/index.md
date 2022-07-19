@@ -30,9 +30,9 @@ Based on the feedback of our community we added greater detail about acceptable 
 #### Committee changes
 
 We thank [Megan Carter](https://www.esipfed.org/about/people/megan-carter) for serving as independent community member until June, 2022 and welcome back [Kara Woo](https://karawoo.com/) to serve on this role.
-[Yanina Bellini Saibene](https://ropensci.org/author/yanina-bellini-saibene/) joins the committee as the new rOpenSci Community Manager.
+[Yanina Bellini Saibene](/author/yanina-bellini-saibene/) joins the committee as the new rOpenSci Community Manager.
 
-You can read all the details in our [blog post](https://ropensci.org/blog/2022/07/12/coc-update/).
+You can read all the details in our [blog post](/blog/2022/07/12/coc-update/).
 
 
 ## Software :package:
@@ -160,7 +160,7 @@ Easy to remember and to type, and it works!
 
 If you maintain a [changelog for your package](https://blog.r-hub.io/2020/05/08/pkg-news/), as [you should](https://devguide.ropensci.org/releasing.html?q=news#news), and have chosen the Markdown format (`NEWS.md`) to do so, you might need to pay attention to its formatting for optimal parsing by
 
-* pkgdown, see the docs for [`pkgdown::build_news()`](https://pkgdown.r-lib.org/reference/build_news.html), for instance pay attention to [headings](https://ropensci.org/blog/2022/01/31/package-build-failures/#wrong-newsmd-structure);
+* pkgdown, see the docs for [`pkgdown::build_news()`](https://pkgdown.r-lib.org/reference/build_news.html), for instance pay attention to [headings](/blog/2022/01/31/package-build-failures/#wrong-newsmd-structure);
 
 * [R itself](https://stat.ethz.ch/pipermail/r-package-devel/2022q3/008239.html) -- if all goes well a `NEWS.md` file that is correct for pkgdown will be correct for R too. You can follow the [debugging steps recommended by Henrik Bengtsson](https://stat.ethz.ch/pipermail/r-package-devel/2022q3/008238.html) to find what's wrong in your `NEWS.md` file.
 
@@ -168,7 +168,7 @@ If you maintain a [changelog for your package](https://blog.r-hub.io/2020/05/08/
 
 In some cases CRAN might run [checks without installing the Suggested dependencies](https://stat.ethz.ch/pipermail/r-package-devel/2022q2/008193.html).
 How to ensure your vignettes still "work", that is to say, that R CMD check will not produce any error or warning?
-- [pre-build](https://ropensci.org/blog/2019/12/08/precompute-vignettes/) your vignettes;
+- [pre-build](/blog/2019/12/08/precompute-vignettes/) your vignettes;
 - make them pkgdown [articles](https://usethis.r-lib.org/reference/use_vignette.html) instead (no vignette, no vignette error!);
 - execute code conditionally based on the availability of packages, with knitr `eval` chunk option for instance.
 
