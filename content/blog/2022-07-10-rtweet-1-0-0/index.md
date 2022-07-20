@@ -11,14 +11,12 @@ tags:
   - api
   - packages
   - tech notes
-package_version: 1.0.0
-description: Update from rtweet 0.7.0 to 1.0.0.
-twitterImg: blog/2019/06/04/post-template/name-of-image.png
-twitterAlt: Alternative description of the image
-tweet: Do you use rtweet? It has been updated - read how to update your code to rtweet 1.0.0 by @Lluis_Revilla!
+package_version: 1.0.1
+description: Update from rtweet 0.7.0 to 1.0.1.
+tweet: Do you use rtweet? It has been updated - read how to update your code to rtweet 1.0.1 by @Lluis_Revilla!
 ---
 
-In this post I will provide some examples of what has changed between rtweet 0.7.0 and rtweet 1.0.0. 
+In this post I will provide some examples of what has changed between rtweet 0.7.0 and rtweet 1.0.1. 
 I hope both the changes and this guide will help all users.
 I highlight the most important and interesting changes in this blog post, and for a full list of changes you can consult it on the [NEWS](https://docs.ropensci.org/rtweet/news/index.html).
 
@@ -180,6 +178,7 @@ long <- search_tweets("weather", n = 1000, retryonratelimit = TRUE)
 
 This will keep busy your terminal until the 1000 tweets are retrieved.
 
+
 ### Saving data
 
 An unexpected consequence of returning more data (now matching that returned by the API) is that it is harder to save it in a tabular format.
@@ -192,24 +191,29 @@ They will be removed in later versions.
 
 Now, many users will benefit from saving to RDS (e.g., `saveRDS()` or `readr::write_rds()`), and those wanting to export to csv can simplify the data to include only that of interest before saving with generic R functions (e.g., `write.csv()` or `readr::write_csv()`).
 
+
 ## **Other breaking changes**
 
-Accessibility is important and for this reason if you tweet via `post_tweet()` and add an image, gif or video you'll need to provide the media alternative text. 
-Without `media_alt_text` it will not allow you to post.
+- Accessibility is important and for this reason if you tweet via `post_tweet()` and add an image, gif or video you'll need to provide the media alternative text. 
+  Without `media_alt_text` it will not allow you to post.
 
-`tweet_shot()` has been deprecated as it no longer works correctly. 
-There might be possible to bring it back, but I don't understand the code provided and can't maintain it (see the long discussion about it [on the issue](https://github.com/ropensci/rtweet/issues/458)). 
+- `tweet_shot()` has been deprecated as it no longer works correctly. 
+  There might be possible to bring it back, but I don't understand the code provided and can't maintain it (see the long discussion about it [on the issue](https://github.com/ropensci/rtweet/issues/458)). 
   
-rtweet also used to provide functions for data on `emojis()`, `langs()` and `stopwordslangs()`. These are useful resources for text mining in general - not only in tweets - however they need to be updated to be helpful and would be better placed in separate packages. Therefore they are no longer available in rtweet.
+- rtweet also used to provide functions for data on `emojis`, `langs` and `stopwordslangs`. 
+These are useful resources for text mining in general - not only in tweets - however they need to be updated to be helpful and would be better placed in other packages, for instance emojis is now on the [bdpar package](https://cran.r-project.org/package=bdpar). 
+Therefore they are no longer available in rtweet.
 
-The functions like `suggested_*()` have been removed as they have been broken since 2019.
+- The functions like `suggested_*()` have been removed as they have been broken since 2019.
+
 
 ## **Easier authentication**
 
 An exciting part of this release has been a big rewrite of the authentication protocol.
-While it is version compatible it has also some new functions that are important as these functions make it easier for different use cases to work with rtweet and the  API.
+While it is version compatible with the previous versions it has also some important new functions which make it easier to work with rtweet and the twitter API in different ways.
 
 ### Different ways to authenticate
+
 If you just want to test the package, use the default authentication `auth_setup_default()` that comes with rtweet.
 If you use it for one or two days you won't notice any problem.
 
@@ -224,7 +228,9 @@ If you plan to make heavy use of the package, I recommend registering yourself a
 
 Find more information in the [Authentication with rtweet vignette](https://docs.ropensci.org/rtweet/articles/auth.html).
 
+
 ### Storing credentials
+
 Previously rtweet saved each token created, but now non-default tokens are only saved if you ask. You can save them manually via `auth_save(token, "my_app")`. 
 Bonus, if you name your token as default (`auth_save(token, "default")`) it will be used automatically upon loading the library.
 
@@ -238,9 +244,7 @@ All the rtweet functions will use the latest token loaded with `auth_as` (unless
 If you are not sure which token you are using you can use `auth_get()` it will return the token in use, list them or ask you to authenticate.
 
 
-
-
-## **Other changes**
+## **Other changes of note**
 
 This is a list of other changes that aren't too big or are not breaking changes but are worthy enough of a mention:
 
