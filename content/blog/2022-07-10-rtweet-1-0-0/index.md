@@ -25,7 +25,7 @@ I highlight the most important and interesting changes in this blog post, and fo
 ### More consistent output
 
 This is probably what will affect the most users.
-All functions that return data about tweets[^1] return the same columns.
+All functions that return data about tweets[^1] now return the same columns.
 
 For example if we search some tweets we'll get the following columns:
 
@@ -56,7 +56,7 @@ For example if we search some tweets we'll get the following columns:
 [43] "possibly_sensitive_appealable"
 ```
 
-rtweet now minimizes the processing of tweets and only returns the same data as provided by the API but making it easier to handle by R.
+rtweet now minimizes the processing of tweets and only returns the same data as provided by the API while making it easier to handle by R.
 However, to preserve the nested nature of the data returned some fields are now nested inside other.
 For example, previously fields `"bbpx_coords"`, `"geo_coords"`, `"coords_coords"` were returned as separate columns, but they are now nested inside `"place"`, `"coordinates"` or `"geo"` depending where they are provided.
 Some columns previously calculated by rtweet are now not returned, like `"rtweet_favorite_count"`.
@@ -81,7 +81,8 @@ This data is still returned by the API but it is now made available to the rtwee
 [23] "entities" 
 ```
 
-This blog post should help you find the right data columns, but if you don't find what you are looking for it might be nested inside a column. 
+This blog post should help you find the right data columns, but if you don't find what you are looking for it might be nested inside a column.  
+Try using `dplyr::glimpse()` to explore the data and locate nested columns.
 For example the entities column (which is present in both tweets and users) have the following useful columns:
 
 ```r
@@ -143,7 +144,7 @@ You can merge them via:
 users_and_last_tweets <- cbind(users, id_str = tweets_data(users)[, "id_str"])
 ```
 
-In the future (see below), with helper functions managing the output of rtweet will become easier.
+In the future ([see below](#future)), with helper functions managing the output of rtweet will become easier.
 
 Finally, `get_followers()` and `get_friends()` now return the same columns:
 
@@ -192,7 +193,7 @@ This will keep busy your terminal until the 1000 tweets are retrieved.
 
 An unexpected consequence of returning more data (now matching that returned by the API) is that it is harder to save it in a tabular format.
 For instance one tweet might have one media, mention two users and have three hashtags.
-There isn't a simple way to saved it in a single row uniformly for all tweets or 
+There isn't a simple way to save it in a single row uniformly for all tweets or 
 it could lead to confusion.
 
 This resulted in deprecating `save_as_csv`, `read_twitter_csv` and related functions because they don't work with the new data structure and it won't be possible to load the complete data from a csv. 
@@ -220,14 +221,14 @@ Therefore they are no longer available in rtweet.
 ## **Easier authentication**
 
 An exciting part of this release has been a big rewrite of the authentication protocol.
-While it is version compatible with the previous versions it has also some important new functions which make it easier to work with rtweet and the twitter API in different ways.
+While it is compatible with previous rtweet authentication methods it has also some important new functions which make it easier to work with rtweet and the twitter API in different ways.
 
 ### Different ways to authenticate
 
 If you just want to test the package, use the default authentication `auth_setup_default()` that comes with rtweet.
 If you use it for one or two days you won't notice any problem.
 
-If you want to use the package for more than a couple of days, I recommend you to set up your own token via `rtweet_user()`.
+If you want to use the package for more than a couple of days, I recommend you set up your own token via `rtweet_user()`.
 It will open a window to authenticate via the authenticated account in your default browser.
 This authentication won't allow you to do everything but it will avoid running out of requests and being rate-limited. 
 
