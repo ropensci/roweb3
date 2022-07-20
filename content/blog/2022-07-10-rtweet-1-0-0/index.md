@@ -18,7 +18,7 @@ tweet: Do you use rtweet? It has been updated read how to update your code to rt
 
 In this post I will provide some examples of what has changed between rtweet 0.7.0 and rtweet 1.0.0. 
 I hope both the changes and this guide will help all users.
-I won't provide a full list of changes but you can consult it on the [NEWS](https://docs.ropensci.org/rtweet/news/index.html).
+I highlight the most important and interesting changes in this blog post, for a full list of changes you can consult it on the [NEWS](https://docs.ropensci.org/rtweet/news/index.html).
 
 ## **Big breaking change**
 
@@ -81,7 +81,7 @@ This data is still returned by the API but it is now made available to the rtwee
 ```
 
 This should help finding the right columns of data but if you don't find what you are looking for it might be nested inside a column. 
-For example the entities column (which is present in both tweets and users!) have the following useful columns:
+For example the entities column (which is present in both tweets and users) have the following useful columns:
 
 ```r
 > names(tweets$entities[[1]])
@@ -283,7 +283,7 @@ provide shortcuts to find out some nested information and subset tweets and the 
 While I made many breaking changes I hope this helps both users and maintainers.
 
 Feel free to ask on the [rOpenSci community](https://discuss.ropensci.org/tag/rtweet) if you have questions about the transition or find something amiss. 
-Please let me know, it will help me prioritize which endpoints I are more relevant to the community. 
+Please let me know, it will help me prioritize which endpoints are more relevant to the community. 
 Yes, the academic archive endpoint is on the radar. 
 
 It is also possible that I overlooked something and I thought the code is working but it isn't.
