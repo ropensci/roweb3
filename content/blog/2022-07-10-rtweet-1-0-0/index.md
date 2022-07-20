@@ -2,7 +2,7 @@
 title: 'Upgrading rtweet'
 author:
   - Lluís Revilla Sancho
-date: '2022-07-10'
+date: '2022-07-21'
 slug: rtweet-1-0-0
 categories:
   - blog
@@ -58,8 +58,9 @@ For example if we search some tweets we'll get the following columns:
 
 rtweet now minimizes the processing of tweets and only returns the same data as provided by the API but making it easier to handle by R.
 However, to preserve the nested nature of the data returned some fields are now nested inside other.
-Some columns previously provided by rtweet are now not returned.
-At the same time it provides with new columns about each tweet like the `withheld_*` columns.
+For example, previously fields `"bbpx_coords"`, `"geo_coords"`, `"coords_coords"` were returned as separate columns, but they are now nested inside `"place"`, `"coordinates"` or `"geo"` depending where they are provided.
+Some columns previously calculated by rtweet are now not returned, like `"rtweet_favorite_count"`.
+At the same time it provides with new columns about each tweet like the `"withheld_*"` columns.
 
 If you scanned through the columns you might have noticed that columns `"user_id"` and `"screen_name"` are no longer returned.
 This data is still returned by the API but it is now made available to the rtweet users via `users_data()`:
@@ -136,6 +137,14 @@ You can use `tweets_data()` to retrieve information about their latest tweet:
 [43] "withheld_in_countries"         "possibly_sensitive_appealable"
 ```
 
+You can merge them via:
+
+```
+users_and_last_tweets <- cbind(users, id_str = tweets_data(users)[, "id_str"])
+```
+
+In the future (see below), with helper functions managing the output of rtweet will become easier.
+
 Finally, `get_followers()` and `get_friends()` now return the same columns:
 
 ```r
@@ -189,7 +198,7 @@ it could lead to confusion.
 This resulted in deprecating `save_as_csv`, `read_twitter_csv` and related functions because they don't work with the new data structure and it won't be possible to load the complete data from a csv. 
 They will be removed in later versions.
 
-Now, many users will benefit from saving to RDS (e.g., `saveRDS()` or `readr::write_rds()`), and those wanting to export to csv can simplify the data to include only that of interest before saving with generic R functions (e.g., `write.csv()` or `readr::write_csv()`).
+Many users will benefit from saving to RDS (e.g., `saveRDS()` or `readr::write_rds()`), and those wanting to export to tabular format can simplify the data to include only that of interest before saving with generic R functions (e.g., `write.csv()` or `readr::write_csv()`).
 
 
 ## **Other breaking changes**
@@ -198,10 +207,11 @@ Now, many users will benefit from saving to RDS (e.g., `saveRDS()` or `readr::wr
   Without `media_alt_text` it will not allow you to post.
 
 - `tweet_shot()` has been deprecated as it no longer works correctly. 
-  There might be possible to bring it back, but I don't understand the code provided and can't maintain it (see the long discussion about it [on the issue](https://github.com/ropensci/rtweet/issues/458)). 
+  It might be possible to bring it back, but the code is complex and I do not understand enough to maintain it. 
+  If you're interested in seeing this feature return, checkout the discussion about this [issue](https://github.com/ropensci/rtweet/issues/458) and let me know if you have any suggestions.
   
 - rtweet also used to provide functions for data on `emojis`, `langs` and `stopwordslangs`. 
-These are useful resources for text mining in general - not only in tweets - however they need to be updated to be helpful and would be better placed in other packages, for instance emojis is now on the [bdpar package](https://cran.r-project.org/package=bdpar). 
+ These are useful resources for text mining in general - not only in tweets - however they need to be updated to be helpful and would be better placed in other packages, for instance emojis is now on the [bdpar package](https://cran.r-project.org/package=bdpar). 
 Therefore they are no longer available in rtweet.
 
 - The functions like `suggested_*()` have been removed as they have been broken since 2019.
@@ -302,6 +312,9 @@ Let me know of such or similar cases and I'll try to fix it.
 In case you find a bug, check the open issues and if it has not already been reported, open an [issue on GitHub](https://github.com/ropensci/rtweet/issues/). 
 Don't forget to make a [reprex](https://cran.r-project.org/web/packages/reprex/readme/README.html) and if possible provide the id of the tweets you are having trouble with.
 Unfortunately it has happened that when I came to look at a bug I couldn't reproduce it as I wasn't able to find the tweet which caused the error. 
+
+This release includes contributions from Hadely Wicham, Bob Rudis, Alex Hayes, Simon Heß, Diego Hernán, Michael Chirico, Jonathan Sidi, Jon Harmon, Andrew Fraser and many other that reported bugs or provided feedback.
+Many thanks all for using it, your interest to keep it working and improving rtweet for all. 
 
 Finally, you can read the whole [NEWS online](https://docs.ropensci.org/rtweet/news/index.html) and the examples.
 
