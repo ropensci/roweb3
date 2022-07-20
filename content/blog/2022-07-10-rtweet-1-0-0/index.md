@@ -8,23 +8,25 @@ categories:
   - blog
 tags:
   - rtweet
-  - R
+  - api
+  - packages
+  - tech notes
 package_version: 1.0.0
 description: Update from rtweet 0.7.0 to 1.0.0.
 twitterImg: blog/2019/06/04/post-template/name-of-image.png
 twitterAlt: Alternative description of the image
-tweet: Do you use rtweet? It has been updated read how to update your code to rtweet 1.0.0 by @Lluis_Revilla!
+tweet: Do you use rtweet? It has been updated - read how to update your code to rtweet 1.0.0 by @Lluis_Revilla!
 ---
 
 In this post I will provide some examples of what has changed between rtweet 0.7.0 and rtweet 1.0.0. 
 I hope both the changes and this guide will help all users.
-I highlight the most important and interesting changes in this blog post, for a full list of changes you can consult it on the [NEWS](https://docs.ropensci.org/rtweet/news/index.html).
+I highlight the most important and interesting changes in this blog post, and for a full list of changes you can consult it on the [NEWS](https://docs.ropensci.org/rtweet/news/index.html).
 
-## **Big breaking change**
+## **Big breaking changes**
 
 ### More consistent output
 
-This is probably what will affect more users.
+This is probably what will affect the most users.
 All functions that return data about tweets[^1] return the same columns.
 
 For example if we search some tweets we'll get the following columns:
@@ -61,7 +63,7 @@ However, to preserve the nested nature of the data returned some fields are now 
 Some columns previously provided by rtweet are now not returned.
 At the same time it provides with new columns about each tweet like the `withheld_*` columns.
 
-If you scanned through the columns you might have noticed that there aren't `"user_id"` or `"screen_name"` columns returned.
+If you scanned through the columns you might have noticed that columns `"user_id"` and `"screen_name"` are no longer returned.
 This data is still returned by the API but it is now made available to the rtweet users via `users_data()`:
 
 ```r
@@ -80,7 +82,7 @@ This data is still returned by the API but it is now made available to the rtwee
 [23] "entities" 
 ```
 
-This should help finding the right columns of data but if you don't find what you are looking for it might be nested inside a column. 
+This blog post should help you find the right data columns, but if you don't find what you are looking for it might be nested inside a column. 
 For example the entities column (which is present in both tweets and users) have the following useful columns:
 
 ```r
@@ -89,7 +91,7 @@ For example the entities column (which is present in both tweets and users) have
 [5] "media" 
 ```
 
-Similarly if you look up for a user via `search_users()` or `lookup_users()` you'll get similar data:
+Similarly if you look up a user via `search_users()` or `lookup_users()` you'll get consistent data:
 
 ```r
 > users <- lookup_users(c("twitter", "rladiesglobal", "_R_Foundation"))
@@ -136,7 +138,7 @@ You can use `tweets_data()` to retrieve information about their latest tweet:
 [43] "withheld_in_countries"         "possibly_sensitive_appealable"
 ```
 
-Now `get_followers()` and `get_friends()` return the same columns:
+Finally, `get_followers()` and `get_friends()` now return the same columns:
 
 ```r
 > colnames(get_followers("_R_Foundation"))
@@ -145,7 +147,7 @@ Now `get_followers()` and `get_friends()` return the same columns:
 [1] "from_id" "to_id"  
 ```
 
-This will make it easier to build networks of connections (Although you might want to convert screen names to ids or viceversa).
+This will make it easier to build networks of connections (although you might want to convert screen names to ids or vice versa).
 
 ### More consistent interface
 
@@ -180,51 +182,55 @@ This will keep busy your terminal until the 1000 tweets are retrieved.
 
 ### Saving data
 
-An unexpected consequence of returning more data as in the API is that it is now harder to save it in a tabular format.
-For instance one tweet might have one media, mention two user and have three hasthags.
+An unexpected consequence of returning more data (now matching that returned by the API) is that it is harder to save it in a tabular format.
+For instance one tweet might have one media, mention two users and have three hashtags.
 There isn't a simple way to saved it in a single row uniformly for all tweets or 
 it could lead to confusion.
 
-This resulted in deprecating `save_as_csv`, `read_twitter_csv` and related functions because it doesn't work with the new data structure and it won't be possible to load it from a csv. 
+This resulted in deprecating `save_as_csv`, `read_twitter_csv` and related functions because they don't work with the new data structure and it won't be possible to load the complete data from a csv. 
 They will be removed in later versions.
+
+Now, many users will benefit from saving to RDS (e.g., `saveRDS()` or `readr::write_rds()`), and those wanting to export to csv can simplify the data to include only that of interest before saving with generic R functions (e.g., `write.csv()` or `readr::write_csv()`).
 
 ## **Other breaking changes**
 
-Accessibility is important for that reason if you tweet via `post_tweet()` and add an image, gif or video you'll need to provide the media alternative text. 
+Accessibility is important and for this reason if you tweet via `post_tweet()` and add an image, gif or video you'll need to provide the media alternative text. 
 Without `media_alt_text` it will not allow you to post.
 
-`tweet_shot()` has been deprecated as it did no longer work correctly. 
+`tweet_shot()` has been deprecated as it no longer works correctly. 
 There might be possible to bring it back, but I don't understand the code provided and can't maintain it (see the long discussion about it [on the issue](https://github.com/ropensci/rtweet/issues/458)). 
   
-As emojis, langs and stopwordslangs data provided with rtweet are useful resources for text mining in general - not only in tweets - and they need to be updated to be helpful, they are no longer available on the package.
+rtweet also used to provide functions for data on `emojis()`, `langs()` and `stopwordslangs()`. These are useful resources for text mining in general - not only in tweets - however they need to be updated to be helpful and would be better placed in separate packages. Therefore they are no longer available in rtweet.
 
-The functions like `suggested_*()` have been removed as they didn't work since 2019.
+The functions like `suggested_*()` have been removed as they have been broken since 2019.
 
 ## **Easier authentication**
 
-As part of this release there have been a big rewrite of the authentication protocol.
+An exciting part of this release has been a big rewrite of the authentication protocol.
 While it is version compatible it has also some new functions that are important as these functions make it easier for different use cases to work with rtweet and the  API.
 
-If you just want to test the package use the default authentication `auth_setup_default()` that comes with rtweet.
+### Different ways to authenticate
+If you just want to test the package, use the default authentication `auth_setup_default()` that comes with rtweet.
 If you use it for one or two days you won't notice any problem.
 
-If you want to use the package more than a couple of days, I recommend you to set up your own token via `rtweet_user()`.
+If you want to use the package for more than a couple of days, I recommend you to set up your own token via `rtweet_user()`.
 It will open a window to authenticate via the authenticated account in your default browser.
 This authentication won't allow you to do everything but it will avoid running out of requests and being rate-limited. 
 
-If you want to make a heavier usage of the package I recommend to register yourself as developer and use one of the following two mechanisms for different use cases:
+If you plan to make heavy use of the package, I recommend registering yourself as developer and using one of the following two mechanisms, depending on your plans:
 
 - Collect data and analyze: `rtweet_app()`.
 - Set up a bot: `rtweet_bot()`
 
-Find more information on the [Authentication with rtweet vignette](https://docs.ropensci.org/rtweet/articles/auth.html).
+Find more information in the [Authentication with rtweet vignette](https://docs.ropensci.org/rtweet/articles/auth.html).
 
-Previously rtweet saved each token created, if you don't use the default token you'll need to save them manually via `auth_save(token, "my_app")`. 
-Bonus, if you name your token as default (`auth_save(token, "default")`) it will be used since loading the library.
+### Storing credentials
+Previously rtweet saved each token created, but now non-default tokens are only saved if you ask. You can save them manually via `auth_save(token, "my_app")`. 
+Bonus, if you name your token as default (`auth_save(token, "default")`) it will be used automatically upon loading the library.
 
-The tokens are now not saved on your home directory but via `tools::R_user_dir("rtweet", "config")`. 
+Further, tokens are now saved in the location output by `tools::R_user_dir("rtweet", "config")`, rather than in your home directory.
 If you have previous tokens saved or problems identifying which token is which use `auth_sitrep()`.
-This will provides clues to which tokens might be duplicated or misconfigurated but it won't check if they work. 
+This will provides clues to which tokens might be duplicated or misconfigured but it won't check if they work. 
 It will also automatically move your tokens to the new path.
 
 To check which credentials you have stored use `auth_list()` and load them via `auth_as("my_app")`.
@@ -258,8 +264,8 @@ There is now a function to find a thread of a user.
 You can start from any tweet and it will find all the tweets of the thread:
 `tweet_threading("1461776330584956929")`.
 
-The interest on download and keep track of interactions in twitter is big. 
-It is big enough that Twitter is releasing a new API to provide more information about this.
+There is a lot of interest in downloading and keeping track of interactions on Twitter.
+The amount of interest is big enough that Twitter is releasing a new API to provide more information of this nature.
 
 
 ## **Future**
@@ -272,26 +278,26 @@ First will be the streaming endpoints in November, so expect more (breaking?) ch
 I would also like to make it easier for users, dependencies and the package itself to handle the outputs.
 To this regard I would like to provide some classes to handle the different type of objects it returns.
 
-This would help to avoid some current shortcomings. 
+This will help avoid some of the current shortcomings. 
 Specifically I would like to provide functions to make it easier to reply to previous tweets, 
-provide shortcuts to find out some nested information and subset tweets and the accompanying user information.
+extract nested data, and subset tweets and the accompanying user information.
 
 
 ## **Conclusions**
 
-While I made many breaking changes I hope this helps both users and maintainers.
+While I made many breaking changes I hope these changes will smooth future development and help both users and maintainers.
 
 Feel free to ask on the [rOpenSci community](https://discuss.ropensci.org/tag/rtweet) if you have questions about the transition or find something amiss. 
-Please let me know, it will help me prioritize which endpoints are more relevant to the community. 
-Yes, the academic archive endpoint is on the radar. 
+Please let me know! It will help me prioritize which endpoints are more relevant to the community. 
+(And yes, the academic archive endpoint is on the radar.)
 
-It is also possible that I overlooked something and I thought the code is working but it isn't.
-For example, after several months of changing the way the API is parsed several users found it wasn't handling some elements. 
+It is also possible that I overlooked something and I thought the code is working when it isn't.
+For example, after several months of changing the way the API is parsed, several users found it wasn't handling some elements. 
 Let me know of such or similar cases and I'll try to fix it.
 
-In case you find a bug, check the open issues and if not reported previously open an [issue on github](https://github.com/ropensci/rtweet/issues/). 
+In case you find a bug, check the open issues and if it has not already been reported, open an [issue on GitHub](https://github.com/ropensci/rtweet/issues/). 
 Don't forget to make a [reprex](https://cran.r-project.org/web/packages/reprex/readme/README.html) and if possible provide the id of the tweets you are having trouble with.
-In some occasions when I came to look at a bug I couldn't reproduce it as I wasn't finding which tweet caused the error. 
+Unfortunately it has happened that when I came to look at a bug I couldn't reproduce it as I wasn't able to find the tweet which caused the error. 
 
 Finally, you can read the whole [NEWS online](https://docs.ropensci.org/rtweet/news/index.html) and the examples.
 
