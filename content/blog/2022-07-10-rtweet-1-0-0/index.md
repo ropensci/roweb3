@@ -190,14 +190,13 @@ They will be removed in later versions.
 
 ## **Other breaking changes**
 
-If you tweet via `post_tweet()` and add an image, gif or video you'll need to provide the media alternative text. 
+Accessibility is important for that reason if you tweet via `post_tweet()` and add an image, gif or video you'll need to provide the media alternative text. 
 Without `media_alt_text` it will not allow you to post.
 
 `tweet_shot()` has been deprecated as it did no longer work correctly. 
 There might be possible to bring it back, but I don't understand the code provided and can't maintain it (see the long discussion about it [on the issue](https://github.com/ropensci/rtweet/issues/458)). 
   
-emojis, langs and stopwordslangs data provided with rtweet is no longer available.
-I don't think it is the right place to provide this kind of data and I don't want to be responsible to update them. 
+As emojis, langs and stopwordslangs data provided with rtweet are useful resources for text mining in general - not only in tweets - and they need to be updated to be helpful, they are no longer available on the package.
 
 The functions like `suggested_*()` have been removed as they didn't work since 2019.
 
@@ -237,7 +236,7 @@ If you are not sure which token you are using you can use `auth_get()` it will r
 
 ## **Other changes**
 
-Some other changes aren't too big to be worth their own section or are not breaking changes but are worthy enough of a mention:
+This is a list of other changes that aren't too big or are not breaking changes but are worthy enough of a mention:
 
 ### Iteration and continuation of requests
 
