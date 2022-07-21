@@ -11,12 +11,12 @@ tags:
   - api
   - packages
   - tech notes
-package_version: 1.0.1
-description: Update from rtweet 0.7.0 to 1.0.1.
-tweet: Do you use rtweet? It has been updated - read how to update your code to rtweet 1.0.1 by @Lluis_Revilla!
+package_version: 1.0.2
+description: Update from rtweet 0.7.0 to 1.0.2.
+tweet: Do you use rtweet? It has been updated - read how to update your code to rtweet 1.0.2 by @Lluis_Revilla!
 ---
 
-In this post I will provide some examples of what has changed between rtweet 0.7.0 and rtweet 1.0.1. 
+In this post I will provide some examples of what has changed between rtweet 0.7.0 and rtweet 1.0.2. 
 I hope both the changes and this guide will help all users.
 I highlight the most important and interesting changes in this blog post, and for a full list of changes you can consult it on the [NEWS](https://docs.ropensci.org/rtweet/news/index.html).
 
