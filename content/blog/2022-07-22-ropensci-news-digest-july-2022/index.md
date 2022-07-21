@@ -42,9 +42,11 @@ You can read all the details in our [blog post](/blog/2022/07/12/coc-update/).
 
 
 
-The following two packages recently became a part of our software suite:
+The following three packages recently became a part of our software suite:
 
 + [datefixR](https://docs.ropensci.org/datefixR), developed by Nathan Constantine-Cooke: There are many different formats dates are commonly represented with: the order of day, month, or year can differ, different separators ("-", "/", or whitespace) can be used, months can be numerical, names, or abbreviations and year given as two digits or four. datefixR takes dates in all these different formats and converts them to Rs built-in date class. If datefixR cannot standardize a date, such as because it is too malformed, then the user is told which date cannot be standardized and the corresponding ID for the row. datefixR' also allows the imputation of missing days and months with user-controlled behavior.  It is available on [CRAN]( https://CRAN.R-project.org/package=datefixR). It has been [reviewed](https://github.com/ropensci/software-review/issues/533) by Kaique dos S. Alves, and Al-Ahmadgaid B. Asaad.
+
++ [epair](https://docs.ropensci.org/epair), developed by G.L. Orozco-Mulfinger together with Madyline Lawrence, and Owais Gilani: Aid the user in making queries to the EPA API site found at https://aqs.epa.gov/aqsweb/documents/data_api. This package combines API calling methods from various web scraping packages with specific strings to retrieve data from the EPA API. It also contains easy to use loaded variables that help a user navigate services offered by the API and aid the user in determining the appropriate way to make a an API call. 
 
 + [readODS](https://docs.ropensci.org/readODS), developed by Chung-hong Chan together with Gerrit-Jan Schutten, and Thomas J. Leeper: Read ODS (OpenDocument Spreadsheet) into R as data frame. Also support writing data frame into ODS file.  It is available on [CRAN]( https://CRAN.R-project.org/package=readODS). It has been [reviewed](https://github.com/ropensci/software-review/issues/386) by Emma Mendelsohn, and Adam H. Sparks.
 
@@ -54,27 +56,27 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following seven packages have had an update since the last newsletter: [datefixR](https://docs.ropensci.org/datefixR "Standardize Dates in Different Formats or with Missing Data") ([`v1.0.0`](https://github.com/ropensci/datefixR/releases/tag/v1.0.0)), [dittodb](https://docs.ropensci.org/dittodb "A Test Environment for Database Requests") ([`v0.1.4`](https://github.com/ropensci/dittodb/releases/tag/v0.1.4)), [EDIutils](https://docs.ropensci.org/EDIutils "An API Client for the Environmental Data Initiative Repository") ([`v1.0.1`](https://github.com/ropensci/EDIutils/releases/tag/v1.0.1)), [jagstargets](https://docs.ropensci.org/jagstargets "Targets for JAGS Workflows") ([`1.0.3`](https://github.com/ropensci/jagstargets/releases/tag/1.0.3)), [lingtypology](https://docs.ropensci.org/lingtypology "Linguistic Typology and Mapping") ([`v1.1.9`](https://github.com/ropensci/lingtypology/releases/tag/v1.1.9)), [restez](https://docs.ropensci.org/restez "Create and Query a Local Copy of GenBank in R") ([`v2.0.0`](https://github.com/ropensci/restez/releases/tag/v2.0.0)), and [tidyqpcr](https://docs.ropensci.org/tidyqpcr "Quantitative PCR Analysis with the Tidyverse") ([`v1.0.0`](https://github.com/ropensci/tidyqpcr/releases/tag/v1.0.0)).
+The following eight packages have had an update since the last newsletter: [datefixR](https://docs.ropensci.org/datefixR "Standardize Dates in Different Formats or with Missing Data") ([`v1.0.0`](https://github.com/ropensci/datefixR/releases/tag/v1.0.0)), [dittodb](https://docs.ropensci.org/dittodb "A Test Environment for Database Requests") ([`v0.1.4`](https://github.com/ropensci/dittodb/releases/tag/v0.1.4)), [EDIutils](https://docs.ropensci.org/EDIutils "An API Client for the Environmental Data Initiative Repository") ([`v1.0.1`](https://github.com/ropensci/EDIutils/releases/tag/v1.0.1)), [jagstargets](https://docs.ropensci.org/jagstargets "Targets for JAGS Workflows") ([`1.0.3`](https://github.com/ropensci/jagstargets/releases/tag/1.0.3)), [lingtypology](https://docs.ropensci.org/lingtypology "Linguistic Typology and Mapping") ([`v1.1.9`](https://github.com/ropensci/lingtypology/releases/tag/v1.1.9)), [restez](https://docs.ropensci.org/restez "Create and Query a Local Copy of GenBank in R") ([`v2.0.0`](https://github.com/ropensci/restez/releases/tag/v2.0.0)), [rtweet](https://docs.ropensci.org/rtweet "Collecting Twitter Data") ([`v1.0.2`](https://github.com/ropensci/rtweet/releases/tag/v1.0.2)), and [tidyqpcr](https://docs.ropensci.org/tidyqpcr "Quantitative PCR Analysis with the Tidyverse") ([`v1.0.0`](https://github.com/ropensci/tidyqpcr/releases/tag/v1.0.0)).
 
 ## Software Peer Review
 
 There are fifteen recently closed and active submissions and 2 submissions on hold. Issues are at different stages: 
 
-* One at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
+* Two at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
 
      * [datefixR](https://github.com/ropensci/software-review/issues/533), Fix Really Messy Dates. Submitted by [Nathan Constantine-Cooke](http://constantine-cooke.com). 
+
+    * [epair](https://github.com/ropensci/software-review/issues/418), Grabs data from EPA API, simplifies getting pollutant data. Submitted by [Leo Orozco-Mulfinger](https://github.com/GLOrozcoM). 
 
 * One at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
 
      * [phruta](https://github.com/ropensci/software-review/issues/458), Phylogenetic Reconstruction and Time-dating. Submitted by [Cristian Román Palacios](http://cromanpa94.github.io/cromanpa/). 
 
-* Four at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
+* Three at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
 
      * [hudr](https://github.com/ropensci/software-review/issues/524), A R interface for accessing HUD (US Department of Housing and Urban Development) APIs. Submitted by [Emmet Tam](https://github.com/etam4260/etam4260). 
 
     * [octolog](https://github.com/ropensci/software-review/issues/502), Better Github Action Logging. Submitted by [Jacob Wujciak-Jens](https://github.com/assignUser). 
-
-    * [epair](https://github.com/ropensci/software-review/issues/418), Grabs data from EPA API, simplifies getting pollutant data. Submitted by [Leo Orozco-Mulfinger](https://github.com/GLOrozcoM). 
 
     * [healthdatacsv](https://github.com/ropensci/software-review/issues/358), Access data in the healthdata.gov catalog. Submitted by [iecastro](http://iecastro.netlify.com). 
 
@@ -119,6 +121,8 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 ### Tech Notes
 
 * [Evaluating GitHub Activity for Contributors](/blog/2022/07/01/evaluating-github-activity-for-contributors) by Maëlle Salmon. How to evaluate the activity of a GitHub repository as an user or potential contributor. This post was discussed on the [R Weekly Highlights podcast](https://share.fireside.fm/episode/87RSVeFz+17WMAquN?t=1491).
+
+* [Upgrading rtweet](/blog/2022/07/21/rtweet-1-0-0) by Lluís Revilla Sancho. Update from rtweet 0.7.0 to 1.0.2.
 
 ## Use cases
 <!--
