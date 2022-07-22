@@ -176,7 +176,7 @@ cli::cli_alert_info(
 
 In `r min(df_yf$ref_date)`, the index was valued at `r dplyr::first(df_yf$price_adjusted)`. Today (`r Sys.Date()`), after roughly `r floor(n_years)` years, the value of the index is `r  dplyr::last(df_yf$price_adjusted)`. The total return for the SP500, without accounting for inflation, is equivalent to an impressive `r scales::percent(total_return)`! Overall, anyone holding stocks for that long  has done very well financially.
 
-Additionally, we can also calculate performance as the compounded annual return, which is the usual figure reported when looking stocks in the long rum:
+Additionally, we can also calculate performance as the compounded annual return, which is the usual figure reported when looking stocks in the long run:
 
 ```{r}
 ret_comp <- (1 + total_return)^(1/n_years)  - 1
