@@ -68,7 +68,7 @@ knitr::knit_hooks$set(
 )
 ```
 
-Package `yfR` was recently approved in the peer review process of [rOpenSci](https://github.com/ropensci/software-review/issues/523) and is all about downloading stock price data from [Yahoo Finance (YF)](https://finance.yahoo.com/). I wrote this package to solve a particular problem I had as a teacher: I needed a large volume of clean stock price data to use in my classes. While there are several R packages to import raw data from YF, none solved my problem. 
+Package yfR recently passed [peer review at rOpenSci](https://github.com/ropensci/software-review/issues/523) and is all about downloading stock price data from [Yahoo Finance (YF)](https://finance.yahoo.com/). I wrote this package to solve a particular problem I had as a teacher: I needed a large volume of clean stock price data to use in my classes. While there are several R packages to import raw data from YF, none solved my problem. 
 
 Package `yfR` facilitates the importation of data, organizing it in the `tidy` format and speeding up the process using a cache system and parallel computing. `yfR` is a backwards-incompatible substitute of [BatchGetSymbols](https://CRAN.R-project.org/package=BatchGetSymbols),  released in 2016 (see vignette [yfR and BatchGetSymbols](https://docs.ropensci.org/yfR/articles/diff-batchgetsymbols.html) for details). 
 
