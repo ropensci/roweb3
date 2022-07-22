@@ -7,7 +7,7 @@ slug: ropensci-news-digest-july-2022
 categories: []
 tags:
   - newsletter
-description: Code of Conduct Update, new package and package news
+description: Code of Conduct Update, new packages and package news
 params:
   last_newsletter: '2022-06-24'
 ---
