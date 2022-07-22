@@ -112,8 +112,6 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 
 
-### Other topics
-
 * [rOpenSci Code of Conduct Update](/blog/2022/07/12/coc-update) by Yanina Bellini Saibene, Mark Padgham, and Kara Woo. Update on Code of Conduct 2022.
 
 
@@ -124,8 +122,9 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 * [Upgrading rtweet](/blog/2022/07/21/rtweet-1-0-0) by Lluís Revilla Sancho. Update from rtweet 0.7.0 to 1.0.2.
 
-## Use cases
 <!--
+## Use cases
+
 
 
 `snakecase::to_sentence_case(english(length(usecases)))` use case`if (length(usecases) > 1) "s"` of our packages and resources ha`if (length(usecases) > 1) "ve" else "s"` been reported since we sent the last newsletter.
