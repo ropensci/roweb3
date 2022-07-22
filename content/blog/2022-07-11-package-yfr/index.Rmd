@@ -79,7 +79,7 @@ Package `yfR` facilitates the importation of data, organizing it in the `tidy` f
 
 ## Available columns
 
-The main function of the package, `yfR::yf_get`, returns a dataframe with the financial data. All price data is measured at the unit of the financial exchange. For example, price data for GM (NASDAQ/US) is measured in dollars, while price data for PETR3.SA (B3/BR) is measured in Reais (Brazilian currency).
+The main function of the package, `yfR::yf_get`, returns a dataframe with the financial data. All price data is measured at the unit of the financial exchange. For example, price data for GM (NASDAQ/US) is measured in US dollars, while price data for PETR3.SA (B3/BR) is measured in Reais (Brazilian currency).
 
 The returned data contains the following columns:
 
