@@ -1,0 +1,267 @@
+---
+title: 'Working with Qualtrics Data--Part 2: Excluding Data'
+author:
+  - Jeffrey R. Stevens
+date: '2022-08-09'
+slug: working-with-qualtrics-data-excluding
+categories: []
+tags:
+  - community
+  - data munging
+  - excluder
+  - packages
+  - Software Peer Review
+  - survey data
+package_version: 0.4.0
+description: "This post summarizes how to use the excluder package to exclude survey data."
+tweet: "Exclude problematic survey data with the excluder R package by @JeffStevensADML!"
+output: hugodown::md_document
+---
+
+In the last post, we used the [qualtRics](https://docs.ropensci.org/qualtRics/)[^1] package to import survey data directly from [Qualtrics](https://www.qualtrics.com/) accounts. 
+I often use Qualtrics for survey data collected via [Amazon's Mechanical Turk](https://www.mturk.com/), which is an automated system that connects online respondents to paid surveys. 
+However, sometimes those data are not super useful because the quality of the data is poor. 
+In the anonymous, large-scale market of online survey respondents, the financial incentives for completing surveys attract respondents who blast through the study just to collect the money or, worse, automated bots programmed to act like humans and reap the incentives. 
+As a scientist, I'm collecting survey data to understand human nature, so I'm looking for honest responses. 
+But low-quality data can be common in online surveys, and not just on Mechanical Turk[^2]. 
+
+There are some cues that data may come from bots, such as entries originating from outside of your specified country or multiple entries coming from the same IP address. 
+Cues of inattentive human participants include not completing the survey, completing it very quickly or slowly, or ignoring your requests to use specific types of devices (e.g., desktop computers not phones or tablets). 
+I call these kinds of cues _metadata_ because they are not direct responses from the respondents but are information about _how_ the respondent took the survey. 
+After repeatedly creating filters to deal with these problematic metadata, I formalized them into my first R package called [excluder](https://docs.ropensci.org/excluder/)[^3]. 
+
+In Part 2 of this series, we'll use excluder to remove potentially problematic metadata. First, we'll learn how to set up your Qualtrics survey to collect the relevant information. Then we'll learn how to mark, check, and exclude observations based on the metadata. Finally, we'll clean up our data sets by deidentifying them.
+
+
+## Before collecting your data
+
+As a reminder, excluder focuses on _metadata_ about an entry rather than the actual responses. 
+If you have particular questions from your specific survey that you want to use to exclude data (for example, attention check questions), you should use regular subset/filter functions from [base R](https://rdrr.io/r/base/subset.html) or [dplyr](https://dplyr.tidyverse.org/reference/filter.html). 
+Here, we're focusing on metadata collected about your survey respondents.
+
+But to use this metadata, you must first collect it! Though the excluder package can work with metadata from other survey systems, we'll focus on data coming from Qualtrics surveys. There are two options in Qualtrics that allow you to collect the metadata that excluder can work with.
+
+### Anonymous vs. non-anonymous data
+First, Qualtrics can collect either anonymous or non-anonymous data. 
+Non-anonymous data includes IP address, geolocation, and contact information provided by you (if you have Qualtrics email your respondents). 
+To collect non-anonymous data, you must toggle the switch _Off_ under _Survey_ > _Options_ > _Security_ > [_Anonymize responses_](https://www.qualtrics.com/support/survey-platform/survey-module/survey-options/survey-protection/#AnonymizingResponses). 
+If you collect non-anonymous data, just make sure that respondents know that you're collecting their IP address and location[^4]. 
+
+```{=html}
+{{< figure src = "qualtrics_anonymize.png" width = "600" alt = "A screenshot of Qualtrics Survey > Options > Security tab." class = "center" >}}
+```
+
+### Computer metadata
+
+In addition to IP address and location, Qualtrics can also collect information about the computer environment that respondents use to take your survey, such as operating system, browser type and version, and screen resolution. 
+But you will need to set this up in advance. 
+To collect the [computer metadata](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/advanced/meta-info-question/), you must create a question in your survey in a block that already has another question. 
+Click _Add a new question_ and select the _Meta info_ question type.
+
+```{=html}
+{{< figure src = "qualtrics_metadata.png" width = "600" alt = "A screenshot of adding a Meta info question to a Qualtrics survey." class = "center" >}}
+```
+
+
+## Dealing with problematic data rows
+
+Now that we've collected the proper metadata, we can use it to deal with potentially problematic data.
+
+### Metadata
+
+There are seven types of metadata that excluder works with, along with their tags that are used in excluder functions.
+
+* **Qualtrics preview status** (`preview`): 
+Qualtrics records data when your [preview your survey](https://www.qualtrics.com/support/survey-platform/survey-module/preview-survey/) before deploying it. 
+You probably always want to remove preview data.
+* **Survey progress** (`progress`): 
+Qualtrics tracks how much of the survey the respondent completes. 
+By default, excluder detects less than 100% completion, but any level of completion percentage can be set to detect.
+* **Survey completion time** (`duration`): 
+Qualtrics records the number of seconds that the respondent works on the survey. 
+excluder can detect completion times that are too fast or that take too long.
+* **IP address country** (`ip`)<sup>*</sup>: 
+If the data are non-anonymous, IP addresses are available, which can determine the country of origin for the respondent. 
+excluder can detect IP addresses outside of a specified country. 
+Note, however, that VPNs can use IP addresses outside of the country of origin, so you must weigh the possibility of false alarms in detecting IP addresses in other countries.
+* **Geolocation in US** (`location`)<sup>*</sup>: 
+Qualtrics determines geolocation (latitude and longitude) through GPS or IP addresses. 
+excluder can detect if location originates from outside of the United States but cannot detect this for other countries at the moment.
+* **Duplicate IP address** (`duplicates`)<sup>*</sup>: 
+Automated bots may spam your survey from the same IP address. 
+excluder detect if the same IP address shows up repeatedly in your data. 
+Note, however, that duplicate IP addresses may be legitimately different respondents using the same computer or recycled IP address in the same household, dormitory, or business. 
+So you must weigh the costs of losing good data against the benefits of removing bad data.
+* **Screen resolution** (`resolution`)<sup>**</sup>: 
+Sometimes, you may request that respondents use a particular kind of device for your survey, such as a desktop computer rather than a phone or tablet. 
+excluder can assess screen resolution to detect respondents who may be using the wrong type of device.
+
+<sup>*</sup> You must have enabled [non-anonymized data](https://www.qualtrics.com/support/survey-platform/survey-module/survey-options/survey-protection/#AnonymizingResponses) in Qualtrics to collect these metadata.
+
+<sup>**</sup> You must have included the [computer metadata question](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/advanced/meta-info-question/) in Qualtrics to collect these metadata.
+
+### Marking rows
+
+OK, now that we know what kind of metadata we can work with, what do we do with them? 
+The excluder package can do three actions on the metadata: mark, check, or exclude. 
+The `mark` functions are the backbone of the package.
+Mark functions make new columns with the metadata criteria output appended to the existing data frame. 
+So you pass a data frame to the mark functions to see which rows meet the metadata criteria.
+Mark function names simple prepend `mark_` to the metadata tag. So, for example, the function that marks preview metadata (`preview`) is `mark_preview()`. 
+
+Before we start marking, let's look at an example data set that we can work with. The `qualtrics_text` data set includes both non-anonymous and computer metadata. We'll just look at the first six rows by piping to `head()`.
+
+```{r}
+library(excluder)
+qualtrics_text %>%
+  head()
+```
+
+By looking at the `Status` column, we can already see that the first two rows are previews. Let's see what `mark_preview()` does by applying it to the `qualtrics_text` data.
+
+```{r}
+mark_preview(qualtrics_text) %>% 
+  head()
+```
+
+There are two important outputs. 
+First, we have an informational message telling us that _2 rows were collected as previews_. 
+Each mark function will output this kind of message letting us know how many rows meet each metadata criterion.
+Second, we now have a new column called `exclusion_preview` appended to the data frame.
+Notice that the first two rows of that column have `preview` values while the rest of the rows are blank.
+We have now marked which rows meet this metadata criterion.
+
+Of course, you may want to mark your data for multiple metadata criteria. 
+To do this, you simply have to connect multiple mark functions with a pipe (either [base R's `|>`](https://rdrr.io/r/base/pipeOp.html) or [magrittr's %>%](https://magrittr.tidyverse.org/reference/pipe.html)). 
+So if we want to mark preview data and all rows where the completion duration is less than 200 seconds or more than 600 seconds, we just chain these together. 
+In fact, we can also pull the data frame out of functions as well. 
+Note that I'm going to show just a subset of columns and rows for clarity (ignore from `dplyr::select()` on).
+
+```{r}
+qualtrics_text %>%
+  mark_preview() %>%
+  mark_duration(min_duration = 200, max_duration = 600) %>%
+  dplyr::select(Status, `Duration (in seconds)`, exclusion_preview, exclusion_duration) %>%
+  head()
+```
+
+Now we have three messages regarding rows that meet the criteria: one for previews, one for short completion times, and one for long completion times. 
+We also now have a new `exclusion_duration` column added that marks rows that are too quick or too slow.
+
+You can pipe together as many mark functions as you would like to get a feel for which data rows meet your different criteria. 
+But adding a new column for each criterion can make it difficult to visualize everything together. 
+If you want to combine all of your criteria into a single column, add the `unite_exclusions()` function at the end of the chain. 
+Rows meeting multiple criteria will separate those criteria with commas.
+
+```{r}
+qualtrics_text %>%
+  mark_preview() %>%
+  mark_duration(min_duration = 200, max_duration = 600) %>%
+  unite_exclusions() %>%
+  dplyr::select(Status, `Duration (in seconds)`, exclusions) %>%
+  head()
+
+```
+
+
+### Checking rows
+
+The mark functions are nice to view rows that meet all of your different criteria, but it can be unwieldy to use this if you have large data sets or sparse cases that meet criteria. 
+The `check` functions help with this by extracting only the rows that meet the criterion. 
+So you can view just the problematic data. 
+Here we use `check_progress()` to extract the rows with completion percentages less than 100.
+
+```{r}
+qualtrics_text %>%
+  check_progress() %>%
+  head()
+```
+
+The check functions are useful for viewing rows meeting individual criteria. 
+But you probably do not want to pipe multiple check functions together because each function outputs only the subset of the data that meets that criterion. 
+So piping multiple check functions returns the rows that meet all of the criteria at once (the _intersection_ of the criteria in set theory lingo).
+
+```{=html}
+{{< figure src = "check_venn.png" width = "400" alt = "A Venn diagram of multiple check functions overlapping with an arrow pointing to the intersection." class = "center" >}}
+```
+
+
+### Excluding rows
+
+After marking and/or checking our data, we may have decided which rows we want to remove.
+For this, we use the `exclude` functions.
+For instance to exclude all rows that come from the same IP address, we use the `exclude_duplicates()` function.
+
+```{r}
+qualtrics_text %>%
+  exclude_duplicates() %>%
+  head()
+```
+
+This leave all rows except the ones that meet the criterion, in this case, the 10 rows out of 100 that have duplicate IP addresses. 
+The exclude functions are like the opposite of the check functions.
+Therefore, we can pipe multiple exclude functions together to remove data based on multiple metadata criteria.
+
+```{r}
+qualtrics_text %>%
+  exclude_preview() %>%
+  exclude_progress() %>%
+  exclude_duplicates() %>%
+  exclude_duration(min_duration = 100) %>%
+  exclude_resolution() %>%
+  exclude_ip() %>%
+  exclude_location() %>%
+  head()
+```
+
+As we exclude, the messages tell us how many rows are returned from each functions, so we can see how the data frame gets smaller at each step. 
+While the order of the functions shouldn't influence the final data frame output, it might make sense to use criteria with many exclusions early to speed processing of subsequent exclusions.
+
+## Deidentifying data
+
+Congratulations---we have now removed all of our problematic data!
+However, those data frames may still have identifying information included in them (e.g., IP addresses and geolocation).
+Before we pass on the data set to others or post it publicly, we probably want to remove those identifying columns. 
+excluder has a `deidentify()` function that quickly removes either all metadata columns.
+
+```{r}
+deidentify(qualtrics_text) %>%
+  head()
+```
+
+You can also use the `strict = FALSE` argument to only remove the non-anonymous columns, leaving the computer metadata.
+
+```{r}
+deidentify(qualtrics_text, strict = FALSE) %>%
+  head()
+```
+
+## Conclusion
+
+Before the fun part of analyzing data, we often need to perform some more tedious steps. The [qualtRics](https://docs.ropensci.org/qualtRics/) package is a huge help in automating the import of data into R. 
+As we learned in Part 1 of this post, after connecting to the Qualtrics API, we can quickly (and powerfully) import our Qualtrics data with the `fetch_survey()` function.
+Once those data are imported, we can use the [excluder](https://docs.ropensci.org/excluder/) package to deal with potentially problematic online survey data based on respondent metadata using the mark, check, and exclude functions. 
+Then we can deidentify our data set before continuing to work with it or passing it on to others.
+Combined, these two packages can improve your data workflow by automating import and early cleaning processes, leaving the fun part of data processing up to you!
+
+```{=html}
+{{< figure src = "happy_data.jpg" width = "600" alt = "A woman sitting on a black couch with a laptop is looking left and smiling. Photo by Brooke Cagle on Unsplash." class = "center" >}}
+```
+
+If you have ideas for improvements or find bugs, please [submit an issue](https://github.com/ropensci/excluder/issues) on the [excluder GitHub repo](https://github.com/ropensci/excluder/).
+
+## Acknowledgments
+
+In developing the excluder package, I thank [Francine Goh](https://orcid.org/0000-0002-7364-4398) and Billy
+Lim for comments on an early version of the package, as well as the
+insightful feedback during [peer review](https://github.com/ropensci/software-review/issues/455) from [rOpenSci](/) editor [Mauro
+Lepore](/author/mauro-lepore/) and reviewers [Joseph
+O’Brien](https://orcid.org/0000-0001-9851-5077) and [Julia
+Silge](/author/julia-silge/). This work was funded by
+US National Science Foundation grant NSF-1658837.
+
+[^1]: Ginn J, Silge J (2022). qualtRics: Download 'Qualtrics' Survey Data. R package version 3.1.6,
+  <https://CRAN.R-project.org/package=qualtRics>
+[^2]: Eyal, P., David, R., Andrew, G., Zak, E., & Ekaterina, D. (2021). Data quality of platforms and panels for online behavioral research. Behavior Research Methods. <https://doi.org/10.3758/s13428-021-01694-3>
+[^3]: Stevens, J. R. (2021). excluder: An R package that checks for exclusion criteria in online data. _Journal of Open Source Software_, 6(67), 3893. <https://doi.org/10.21105/joss.03893>
+[^4]: In some cases, the default in Qualtrics is to collect non-anonymous data, so always check that this option is set to your desired selection for each survey.
