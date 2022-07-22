@@ -73,7 +73,7 @@ Package yfR recently passed [peer review at rOpenSci](https://github.com/ropensc
 Package `yfR` facilitates the importation of data, organizing it in the `tidy` format and speeding up the process using a cache system and parallel computing. `yfR` is a backwards-incompatible substitute of [BatchGetSymbols](https://CRAN.R-project.org/package=BatchGetSymbols),  released in 2016 (see vignette [yfR and BatchGetSymbols](https://docs.ropensci.org/yfR/articles/diff-batchgetsymbols.html) for details). 
 
 
-# The data
+# Introducing yfR
 
 [Yahoo Finance](https://finance.yahoo.com/) provides a vast repository of stock price data around the globe. It covers a significant number of markets and assets, and is therefore used extensively in academic research and teaching. In order to import the financial data from YF, all you need is a ticker (id of a stock, e.g. "GM" for [General Motors](https://finance.yahoo.com/quote/GM?p=GM&.tsrc=fin-srch)) and a time period -- first and last date. 
 
