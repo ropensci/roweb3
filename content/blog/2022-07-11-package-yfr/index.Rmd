@@ -85,7 +85,7 @@ The returned data contains the following columns:
 
 **ticker**: The requested tickers (ids of stocks);
 
-**ref_date**: The reference day (this can also be year/month/week when using argument freq_data);
+**ref_date**: The reference day (this can also be year/month/week when using argument `freq_data`);
 
 **price_open**: The opening price of the day/period;
 
