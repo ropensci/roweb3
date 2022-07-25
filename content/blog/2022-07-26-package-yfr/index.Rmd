@@ -270,8 +270,8 @@ library(dplyr)
 tab_perf <- df_yf |>
   group_by(ticker) |>
   summarise(
-    n_years = lubridate::interval(min(ref_date), 
-                                  max(ref_date))/lubridate::years(1),
+    n_years = interval(min(ref_date), 
+                       max(ref_date))/years(1),
     total_ret = last(price_adjusted)/first(price_adjusted) - 1,
     ret_comp = (1 + total_ret)^(1/n_years) - 1
   )
