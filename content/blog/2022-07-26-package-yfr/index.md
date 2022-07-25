@@ -85,13 +85,13 @@ prices;
 
 # Installation
 
-Package yfR is available in its stable version in CRAN, but you can also find the latest features and bug fixes in Github and rOpenSci repository. Below you can find the R commands for installation in each case.
+Package yfR is available in its stable version in CRAN, but you can also find the latest features and bug fixes in GitHub and rOpenSci repository. Below you can find the R commands for installation in each case.
 
 ```
 # CRAN (stable)
 install.packages('yfR')
 
-# Github (dev version)
+# GitHub (dev version)
 devtools::install_github('ropensci/yfR')
 
 # rOpenSci
@@ -117,12 +117,12 @@ first_date <- "1950-01-01"
 last_date <- Sys.Date()
 
 # fetch data
-df_yf <- yfR::yf_get(tickers = my_ticker, 
-                     first_date = first_date,
-                     last_date = last_date)
+df_yf <- yf_get(tickers = my_ticker, 
+                first_date = first_date,
+                last_date = last_date)
 
 # output is a tibble with data
-dplyr::glimpse(df_yf)
+glimpse(df_yf)
 ```
 
 ```
@@ -144,10 +144,10 @@ $ cumret_adjusted_prices <dbl> 1.000000, 1.011405, 1.016206, 1.019208, 1.02521â€
 The output of yfR is a tibble (dataframe) with the stock price data. We can use it to 1) get the number of years within the data, and 2) calculate the annual financial performance of the index:
 
 ```r 
-n_years <- lubridate::interval(min(df_yf$ref_date), 
-                               max(df_yf$ref_date))/lubridate::years(1)
+n_years <- interval(min(df_yf$ref_date), 
+                    max(df_yf$ref_date))/years(1)
 
-total_return <- dplyr::last(df_yf$price_adjusted)/dplyr::first(df_yf$price_adjusted) - 1
+total_return <- last(df_yf$price_adjusted)/first(df_yf$price_adjusted) - 1
 
 cat(paste0("n_years = ", n_years, "\n",
            "total_return = ",total_return))
@@ -178,20 +178,14 @@ Over the 72 of existence, the SP500 index returned an annual compounded interest
 To visualize the data, we can use a log plot and see the value of the SP500 index over time:
 
 ```r 
-require(ggplot2)
-```
+library(ggplot2)
 
-```
-Loading required package: ggplot2
-```
-
-```r 
 p <- ggplot(df_yf, aes(x = ref_date, y = price_adjusted)) + 
   geom_line() +
   labs(
     title = paste0("SP500 Index Value (", 
-                   lubridate::year(min(df_yf$ref_date)), ' - ',
-                   lubridate::year(max(df_yf$ref_date)), ")"
+                   year(min(df_yf$ref_date)), ' - ',
+                   year(max(df_yf$ref_date)), ")"
     ),
     x = "Time", 
     y = "Index Value",
@@ -211,7 +205,7 @@ In this second example, instead of using a single stock/index, we will investiga
 set.seed(20220713)
 
 n_tickers <- 10
-df_sp500 <- yfR::yf_index_composition("SP500")
+df_sp500 <- yf_index_composition("SP500")
 ```
 
 ```
@@ -232,9 +226,9 @@ The selected tickers are: AAPL, DHI, AMZN, CMS, FCX, NRG, EXR, CFG, CI, AWK
 And now we fetch the data using `yfR::yf_get`:
 
 ```r 
-df_yf <- yfR::yf_get(tickers = rnd_tickers,
-                     first_date = '2010-01-01',
-                     last_date = Sys.Date())
+df_yf <- yf_get(tickers = rnd_tickers,
+                first_date = '2010-01-01',
+                last_date = Sys.Date())
 ```
 
 Out of the 10 stocks, one was left out due to the high number of missing days. Internally, `yf_get` compares every ticker to a benchmark time series, in this case the SP500 index itself (see `yf_get`'s argument `bench_ticker`). Whenever the proportion of missing days is higher than the default case (`thresh_bad_data = 0.75`), the algorithm drops the ticker from the output. In the end, we are left with just nine stocks.
@@ -251,8 +245,8 @@ p <- ggplot(df_yf,
   geom_line() +
   labs(
     title = paste0("SP500 Index Value (", 
-                   lubridate::year(min(df_yf$ref_date)), ' - ',
-                   lubridate::year(max(df_yf$ref_date)), ")"
+                   year(min(df_yf$ref_date)), ' - ',
+                   year(max(df_yf$ref_date)), ")"
     ),
     x = "Time", 
     y = "Accumulated Return (from 100%)",
@@ -272,8 +266,8 @@ library(dplyr)
 tab_perf <- df_yf |>
   group_by(ticker) |>
   summarise(
-    n_years = lubridate::interval(min(ref_date), 
-                                  max(ref_date))/lubridate::years(1),
+    n_years = interval(min(ref_date), 
+                       max(ref_date))/years(1),
     total_ret = last(price_adjusted)/first(price_adjusted) - 1,
     ret_comp = (1 + total_ret)^(1/n_years) - 1
   )
