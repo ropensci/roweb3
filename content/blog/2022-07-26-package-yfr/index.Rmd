@@ -265,7 +265,7 @@ p
 As we can see, some stocks, such as AMZN and AAPL, did much better than others. We can check this numerically by reporting their compounded return over the period:
 
 ```{r, message = FALSE}
-require(dplyr)
+library(dplyr)
 
 tab_perf <- df_yf |>
   group_by(ticker) |>
