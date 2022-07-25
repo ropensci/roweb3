@@ -220,7 +220,7 @@ In this second example, instead of using a single stock/index, we will investiga
 set.seed(20220713)
 
 n_tickers <- 10
-df_sp500 <- yfR::yf_index_composition("SP500")
+df_sp500 <- yf_index_composition("SP500")
 
 rnd_tickers <- sample(df_sp500$ticker, n_tickers)
 
