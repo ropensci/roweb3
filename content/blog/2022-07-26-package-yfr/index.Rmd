@@ -277,8 +277,10 @@ tab_perf <- df_yf |>
   )
 
 tab_perf |> 
-  gt::gt() |>
-  gt::fmt_percent(columns = c("total_ret", "ret_comp"))
+  mutate(n_years = floor(n_years),
+         total_ret = scales::percent(total_ret),
+         ret_comp = scales::percent(ret_comp)) |>
+  knitr::kable(caption = "Financial Performance of Several Stocks")
 ```
 
 # Final thoughts
