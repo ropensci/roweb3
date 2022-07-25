@@ -132,7 +132,7 @@ Package yfR is available in its stable version in CRAN, but you can also find th
 # CRAN (stable)
 install.packages('yfR')
 
-# Github (dev version)
+# GitHub (dev version)
 devtools::install_github('ropensci/yfR')
 
 # rOpenSci
