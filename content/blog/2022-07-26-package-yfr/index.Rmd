@@ -158,12 +158,12 @@ first_date <- "1950-01-01"
 last_date <- Sys.Date()
 
 # fetch data
-df_yf <- yfR::yf_get(tickers = my_ticker, 
-                     first_date = first_date,
-                     last_date = last_date)
+df_yf <- yf_get(tickers = my_ticker, 
+                first_date = first_date,
+                last_date = last_date)
 
 # output is a tibble with data
-dplyr::glimpse(df_yf)
+glimpse(df_yf)
 ```
 
 The output of yfR is a tibble (dataframe) with the stock price data. We can use it to 1) get the number of years within the data, and 2) calculate the annual financial performance of the index:
