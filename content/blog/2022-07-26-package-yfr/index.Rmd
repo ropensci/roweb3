@@ -169,10 +169,10 @@ glimpse(df_yf)
 The output of yfR is a tibble (dataframe) with the stock price data. We can use it to 1) get the number of years within the data, and 2) calculate the annual financial performance of the index:
 
 ```{r}
-n_years <- lubridate::interval(min(df_yf$ref_date), 
-                               max(df_yf$ref_date))/lubridate::years(1)
+n_years <- interval(min(df_yf$ref_date), 
+                    max(df_yf$ref_date))/years(1)
 
-total_return <- dplyr::last(df_yf$price_adjusted)/dplyr::first(df_yf$price_adjusted) - 1
+total_return <- last(df_yf$price_adjusted)/first(df_yf$price_adjusted) - 1
 
 cat(paste0("n_years = ", n_years, "\n",
            "total_return = ",total_return))
