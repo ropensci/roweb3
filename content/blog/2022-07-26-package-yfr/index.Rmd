@@ -231,9 +231,9 @@ cat(paste0("The selected tickers are: ",
 And now we fetch the data using `yfR::yf_get`:
 
 ```{r, message=FALSE}
-df_yf <- yfR::yf_get(tickers = rnd_tickers,
-                     first_date = '2010-01-01',
-                     last_date = Sys.Date())
+df_yf <- yf_get(tickers = rnd_tickers,
+                first_date = '2010-01-01',
+                last_date = Sys.Date())
 ```
 
 Out of the `r n_tickers` stocks, one was left out due to the high number of missing days. Internally, `yf_get` compares every ticker to a benchmark time series, in this case the SP500 index itself (see `yf_get`'s argument `bench_ticker`). Whenever the proportion of missing days is higher than the default case (`thresh_bad_data = 0.75`), the algorithm drops the ticker from the output. In the end, we are left with just nine stocks.
