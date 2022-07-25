@@ -200,8 +200,8 @@ p <- ggplot(df_yf, aes(x = ref_date, y = price_adjusted)) +
   geom_line() +
   labs(
     title = paste0("SP500 Index Value (", 
-                   lubridate::year(min(df_yf$ref_date)), ' - ',
-                   lubridate::year(max(df_yf$ref_date)), ")"
+                   year(min(df_yf$ref_date)), ' - ',
+                   year(max(df_yf$ref_date)), ")"
     ),
     x = "Time", 
     y = "Index Value",
