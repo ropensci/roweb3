@@ -193,7 +193,7 @@ Over the `r floor(n_years)` of existence, the SP500 index returned an annual com
 
 To visualize the data, we can use a log plot and see the value of the SP500 index over time:
 
-```{r sp500-01, hugoopts=list(alt="Black and white line graph showing the SP500 index value increasing over time.The x axis is time from 1950 to 2020 and the y axis is on a log scale and shows index values increasing from <30 to >3000.", caption="SP500 index value since 1950", width=600)}
+```{r sp500-01, message = FALSE, hugoopts=list(alt="Black and white line graph showing the SP500 index value increasing over time.The x axis is time from 1950 to 2020 and the y axis is on a log scale and shows index values increasing from <30 to >3000.", caption="SP500 index value since 1950", width=600)}
 library(ggplot2)
 
 p <- ggplot(df_yf, aes(x = ref_date, y = price_adjusted)) + 
