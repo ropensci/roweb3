@@ -26,7 +26,7 @@
       </div>
     </div>
         <div class="author-blog">
-    {{ range .Data.Pages }}
+    {{ range .Data.Pages.ByPublishDate.Reverse }}
     {{ .Render "post-short-summary" }}
     {{ end }}
     </div>

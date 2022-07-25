@@ -218,10 +218,11 @@ Note that main.min.css that contains all the CSS is stored under themes/ropensci
 * Open the Rproj in `scripts/use-cases` (in another RStudio window), run `renv::restore()` and source `get_use_cases.R` to update use cases data (you need a Discourse API key, contact Scott).
 * Change the date of the last newsletter in the new post, knit it. 
   * Manually updated sections: rOpenSci HQ (issues in https://github.com/ropensci/biweekly that you should watch; look at recent/future events including comm calls; if needed poll staff), from the forum (interesting recent posts?), package development corner (poll package-maintenance channel; your recent reads), call for maintainers.
+  * If a blog post was featured on the R Weekly highlights podcast, add a link to it.
   * Automatic sections. New packages by comparing two versions of the package registry; new versions by querying GitHub releases; software review by querying GitHub API (the submitter name and URL from their GitHub profile is used. you might need to go back and fix software-review issue formatting of the DESCRIPTION block); on the blog queries YAML of posts and sorts them based on tags (if no images, try and see if some posts could get a twitterImg and twitterAlt, add it); use cases uses the use cases JSON; citations simply counts citations in total and for the year.
   * Check new packages that were peer-reviewed have a peer-reviewed badge (if they don't, less metadata in codemeta.json).
 * Update the description in YAML (keywords from content) before merging.
-* Once the post is merged use the R-bloggers feed to get an HTML version of the post with absolute URLs, to be used for SendGrid. Use `scripts/newsletter/newsletter-xml.R` Things changed:
+* Once the post is merged and deployed on ropensci.org use the R-bloggers feed to get an HTML version of the post with absolute URLs, to be used for SendGrid. Use `roblog::create_newsletter_content()` Things changed:
     * The images URL src get the URL to the post (Search and Replace in Atom) & a max-width of 100%;
     * All `<a` are replaced with [`<a clicktracking=off`](https://community.auth0.com/t/howto-disable-sendgrids-click-tracking-feature-in-an-auth0-email-template/22958);
     * All `<li` contents are wrapped in a `<p` for optimal sizing.

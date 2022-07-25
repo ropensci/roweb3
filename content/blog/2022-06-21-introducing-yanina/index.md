@@ -1,7 +1,7 @@
 ---
 title: Introducing rOpenSci new Community Manager, Yanina Bellini Saibene
 author: Yanina Bellini Saibene
-date: '2022-06-21'
+date: '2022-06-21T00:00:01-07:00'
 slug: introducing-yanina
 tags:
   - community

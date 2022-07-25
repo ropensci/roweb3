@@ -1,5 +1,6 @@
 {{ define "main" }}
-{{ $paginator := .Paginator }}
+{{ $pages :=  where .Site.Pages "Section" "blog" }}
+{{ $paginator := .Paginate $pages.ByPublishDate.Reverse 5 }}
 {{ if eq $paginator.PageNumber 1 }}
 <section class="blog-hero">
   <div class="container bg-cubes">

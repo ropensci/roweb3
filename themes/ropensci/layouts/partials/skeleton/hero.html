@@ -5,7 +5,7 @@
             <span class="news-label">New!</span
             ><span class="news-text"
               >
-                        {{ range first 1 ( where .Site.RegularPages "Type" "in" .Site.Params.blogs ) }}
+                        {{ range first 1 ( where .Site.RegularPages.ByPublishDate.Reverse "Type" "in" .Site.Params.blogs ) }}
           <a href="{{ .Permalink }}"
                 >{{ .Title }}</a
               >
