@@ -16,7 +16,7 @@ tags:
   - software-peer-review
 package_version: 1.0.0
 description: A simple tutorial for package yfR
-twitterImg: blog/2022-07-26-package-yfr/manystocks-1.png
+twitterImg: blog/2022/07/26/package-yfr/manystocks-1.png
 twitterAlt: Free stock price data with yfR
 tweet: New package yfR by @msperlin!
 output:
