@@ -126,7 +126,7 @@ prices;
 
 # Installation
 
-Package yfR is available in its stable version in CRAN, but you can also find the latest features and bug fixes in Github and rOpenSci repository. Below you can find the R commands for installation in each case.
+Package yfR is available in its stable version in CRAN, but you can also find the latest features and bug fixes in GitHub and rOpenSci repository. Below you can find the R commands for installation in each case.
 
 ```
 # CRAN (stable)
