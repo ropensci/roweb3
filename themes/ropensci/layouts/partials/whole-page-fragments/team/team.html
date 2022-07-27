@@ -11,7 +11,7 @@
   </div>
 </div>
 <!-- Users block -->
-{{ partial "whole-page-fragments/team/team-section" (dict "name" "team" "team" (where .Site.Data.team.team "roles" "intersect" (slice "staff" "leadership team" "strategic advisor" "editor" "intern") ))  }}
+{{ partial "whole-page-fragments/team/team-section" (dict "name" "team-staff-others" "team" (where .Site.Data.team.team "roles" "intersect" (slice "staff" "leadership team" "strategic advisor" "editor" "intern") ))  }}
 
 <!-- Text block -->
 <div class="row about-block">
