@@ -6,7 +6,7 @@
             <div class="event-detail-date">
               {{ .Date.Format "January 2, 2006" }}
             </div>
-            <h1>{{ .Title }}</h1>
+            <h1>{{ .Title | markdownify }}</h1>
             <div class="event-detail-author">
               <p>
                 {{ with .Params.organizer }}

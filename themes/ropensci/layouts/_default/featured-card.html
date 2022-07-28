@@ -6,7 +6,7 @@
                   <div class="date">{{ .Date.Format "January 2, 2006" }}</div>
                 </div>
                 <a href="{{ .Permalink }}" class="card-title"
-                  >{{ .Title }}
+                  >{{ .Title | markdownify }}
                 </a>
 
                 <div class="d-flex justify-content-between card-user">
