@@ -6,7 +6,7 @@
   </div>
   <div class="col-md-9">
     <a href="{{ .RelPermalink }}" class="post-title">
-    {{ .Title }}
+    {{ .Title | markdownify }}
     </a>
     <p class="post-text">
       {{ if isset .Params "description" }}
