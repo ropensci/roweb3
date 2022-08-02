@@ -1,14 +1,15 @@
 ---
-slug: "post-template"
-title: Latest rOpenSci News Digest
+title: rOpenSci News Digest, July 2022
 author:
   - The rOpenSci Team
-date: '2022-01-16'
+date: '2022-07-22'
+slug: ropensci-news-digest-july-2022
+categories: []
 tags:
   - newsletter
-description: keywords from the content
+description: Code of Conduct Update, new packages and package news
 params:
-  last_newsletter: "2022-05-20"
+  last_newsletter: '2022-06-24'
 ---
 
 ```{r setup, include=FALSE}
@@ -40,13 +41,18 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-<!-- to be curated manually -->
+### rOpenSci Code of Conduct update
 
-<!-- Can use same coworking text every month and ping Steffi to ask if there are any special guests to add -->
-Join us for social coworking & office hours monthly on 1st Tuesdays! Hosted by Steffi LaZerte  and various community hosts. Everyone welcome. No RSVP needed. Consult our [Events](/events) page to find your local time and how to join.
+We are pleased to announce the release of a new version of our Code of Conduct.  
+Based on the feedback of our community we added greater detail about acceptable and unacceptable behaviors in online settings and we have the first translation of the text to Spanish.
 
+#### Committee changes
 
-Find out about more [events](/events).
+We thank [Megan Carter](https://www.esipfed.org/about/people/megan-carter) for serving as independent community member until June, 2022 and welcome back [Kara Woo](https://karawoo.com/) to serve on this role.
+[Yanina Bellini Saibene](/author/yanina-bellini-saibene/) joins the committee as the new rOpenSci Community Manager.
+
+You can read all the details in our [blog post](/blog/2022/07/12/coc-update/).
+
 
 ## Software :package:
 
@@ -184,6 +190,9 @@ present_one <- function(package) {
   }
   if (nzchar(package$onboarding)) {
     string <- paste0(string, sprintf("It has been [reviewed](%s)", package$onboarding))
+    if (package$package == "readODS") {
+      rev <- c("Emma Mendelsohn", "Adam H. Sparks")
+    }
     if (length(rev) > 0) {
       string <- paste0(string, sprintf(" by %s.", nice_string(rev)))
     } else {
@@ -420,6 +429,9 @@ format_post <- function(post) {
   string <- sprintf("* [%s](%s) by %s", post$title, url, post$author)
   if (post$description != "") {
     string <- paste0(string, ". ", sub("\\?$", "", sub("\\!$", "", sub("\\.$", "", post$description), ".")), ".")
+        if (url == "/blog/2022/07/01/evaluating-github-activity-for-contributors") {
+      string <- paste(string, "This post was discussed on the [R Weekly Highlights podcast](https://share.fireside.fm/episode/87RSVeFz+17WMAquN?t=1491).")
+    }
   } else {
     string <- paste0(string, ".")  
   }
@@ -453,7 +465,7 @@ if (length(software_review) > 0) {
 
 others <- posts[purrr::map_lgl(posts, "other")]
 if (length(others) > 0) {
-  if (length(others) != length(posts)) cat("### Other topics\n\n")
+  if (length(software_review) > 0) cat("### Other topics\n\n")
   cat(
     paste0(
       purrr::map_chr(others, format_post),
@@ -478,9 +490,10 @@ if (length(tech_notes) > 0) {
 }
 ```
 
+<!--
 ## Use cases
 
-```{r usecases}
+```{r usecases, eval=FALSE}
 # rerun get_use_cases.R at the same time
 usecases <- jsonlite::read_json("../../../data/usecases/usecases.json")
 get_one_case <- function(usecase) {
@@ -497,9 +510,9 @@ usecases <- dplyr::filter(usecases, date >= as.Date(last_newsletter))
 usecases <- split(usecases, seq(nrow(usecases)))
 ```
 
-`r snakecase::to_sentence_case(english(length(usecases)))` use case`r if (length(usecases) > 1) "s"` of our packages and resources ha`r if (length(usecases) > 1) "ve" else "s"` been reported since we sent the last newsletter.
+`snakecase::to_sentence_case(english(length(usecases)))` use case`if (length(usecases) > 1) "s"` of our packages and resources ha`if (length(usecases) > 1) "ve" else "s"` been reported since we sent the last newsletter.
 
-```{r usecases2, results='asis'}
+```{r usecases2, results='asis', eval=FALSE}
 format_case <- function(usecase) {
   string <- sprintf("* [%s](%s). Reported by %s.", sub("\\.$", "", usecase$title), usecase$url, usecase$reporter)
 }
@@ -512,22 +525,48 @@ cat(
 ```
 
 Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)!
-
+-->
 ## Call for maintainers
 
-<!--IF CALL
-* [our guidance on _Changing package maintainers_](https://devguide.ropensci.org/changing-maintainers.html)
-* [our _Package Curation Policy_](https://devguide.ropensci.org/curationpolicy.html)
+We're looking for a new maintainer, or a new maintainer _team_, for each of the following packages:
 
-IF NO CALL
-There are no open calls for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
-As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. -->
+* [nbaR](https://docs.ropensci.org/nbaR/), R client library for the Netherlands Biodiversity Api (NBA). [Issue for volunteering](https://github.com/ropensci/nbaR/issues/64).
+
+* [elastic](https://docs.ropensci.org/elastic/), R client for the Elasticsearch HTTP API. [Issue for volunteering](https://github.com/ropensci/elastic/issues/292).
+
+If you're interested, please comment in the issues or email `info@ropensci.org`.
+
+For more info, see
+
+* [our guidance on _Changing package maintainers_](https://devguide.ropensci.org/changing-maintainers.html);
+* [our _Package Curation Policy_](https://devguide.ropensci.org/curationpolicy.html).
 
 ## Package development corner
 
 Some useful tips for R package developers. :eyes:
 
-<!-- To be curated by hand -->
+### pak::pak()
+
+Say you cloned a repository and are now getting ready to debug it.
+How do you make sure you have all its development dependencies installed?
+[Simply](https://twitter.com/GaborCsardi/status/1545306904028741632) run [`pak::pak()`](https://pak.r-lib.org/reference/pak.html)! 
+Easy to remember and to type, and it works!
+
+### Update to CRAN NEWS.md parsing
+
+If you maintain a [changelog for your package](https://blog.r-hub.io/2020/05/08/pkg-news/), as [you should](https://devguide.ropensci.org/releasing.html?q=news#news), and have chosen the Markdown format (`NEWS.md`) to do so, you might need to pay attention to its formatting for optimal parsing by
+
+* pkgdown, see the docs for [`pkgdown::build_news()`](https://pkgdown.r-lib.org/reference/build_news.html), for instance pay attention to [headings](/blog/2022/01/31/package-build-failures/#wrong-newsmd-structure);
+
+* [R itself](https://stat.ethz.ch/pipermail/r-package-devel/2022q3/008239.html) -- if all goes well a `NEWS.md` file that is correct for pkgdown will be correct for R too. You can follow the [debugging steps recommended by Henrik Bengtsson](https://stat.ethz.ch/pipermail/r-package-devel/2022q3/008238.html) to find what's wrong in your `NEWS.md` file.
+
+### How to handle CRAN checks with `_R_CHECK_DEPENDS_ONLY_`=true
+
+In some cases CRAN might run [checks without installing the Suggested dependencies](https://stat.ethz.ch/pipermail/r-package-devel/2022q2/008193.html).
+How to ensure your vignettes still "work", that is to say, that R CMD check will not produce any error or warning?
+- [pre-build](/blog/2019/12/08/precompute-vignettes/) your vignettes;
+- make them pkgdown [articles](https://usethis.r-lib.org/reference/use_vignette.html) instead (no vignette, no vignette error!);
+- execute code conditionally based on the availability of packages, with knitr `eval` chunk option for instance.
 
 ## Last words
 

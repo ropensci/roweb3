@@ -11,7 +11,7 @@
   </div>
 </div>
 <!-- Users block -->
-{{ partial "whole-page-fragments/team/team-section" (dict "team" (where .Site.Data.team.team "roles" "intersect" (slice "staff" "leadership team" "strategic advisor" "editor" "intern") ))  }}
+{{ partial "whole-page-fragments/team/team-section" (dict "name" "team-staff-others" "team" (where .Site.Data.team.team "roles" "intersect" (slice "staff" "leadership team" "strategic advisor" "editor" "intern") ))  }}
 
 <!-- Text block -->
 <div class="row about-block">
@@ -24,7 +24,7 @@
   </div>
 </div>
 
-{{ partial "whole-page-fragments/team/team-section" (dict "team" (where .Site.Data.team.team "roles" "intersect" (slice "advisor") ))  }}
+{{ partial "whole-page-fragments/team/team-section" (dict "name" "advisors" "team" (where .Site.Data.team.team "roles" "intersect" (slice "advisor") ))  }}
 
 <div class="row about-block">
   <div class="col-md-3 text-md-right">
@@ -40,7 +40,7 @@
   <div class="col-md-6 about-block__text">
   </div>
 </div>
-{{ partial "whole-page-fragments/team/team-section" (dict "team" $alumni)  }}
+{{ partial "whole-page-fragments/team/team-section" (dict "name" "alumni" "team" $alumni)  }}
 
 <div class="row about-block">
   <div class="col-md-3 text-md-right">
@@ -55,4 +55,4 @@
     </p>
   </div>
 </div>
-{{ partial "whole-page-fragments/team/team-section" (dict "team" (append (where .Site.Data.team.team "roles" "intersect" (slice "fellow" ) ) (where .Site.Data.team.team "past_roles" "intersect" (slice "fellow" ) ) ) )  }}
+{{ partial "whole-page-fragments/team/team-section" (dict "name" "fellows" "team" (append (where .Site.Data.team.team "roles" "intersect" (slice "fellow" ) ) (where .Site.Data.team.team "past_roles" "intersect" (slice "fellow" ) ) ) )  }}
