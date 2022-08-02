@@ -1,5 +1,5 @@
 ---
-title: 'Working with Qualtrics Data--Part 1: Importing Data'
+title: 'Working with Qualtrics Data - Part 1: Importing Data'
 author:
   - Jeffrey Stevens
 date: '2022-08-02'
