@@ -86,10 +86,10 @@ excluder can detect completion times that are too fast or that take too long.
 * **IP address country** (`ip`)<sup>*</sup>: 
 If IP addresses are collected, they can determine the country of origin for the respondent. 
 excluder can detect IP addresses outside of a specified country. 
-Note, however, that VPNs can use IP addresses outside of the country of origin, so you must weigh the possibility of false alarms in detecting IP addresses in other countries.
+Note, however, that VPNs can use IP addresses outside of the country of origin, so you must weigh the possibility of false alarms in detecting IP addresses from other countries.
 * **Geolocation in US** (`location`)<sup>*</sup>: 
 Qualtrics determines geolocation (latitude and longitude) through GPS or IP addresses. 
-excluder can detect if location originates from outside of the United States but cannot detect this for other countries at the moment.
+excluder can detect locations within the United States but cannot detect this for other countries at the moment.
 * **Duplicate IP address** (`duplicates`)<sup>*</sup>: 
 Automated bots may spam your survey from the same IP address. 
 excluder detects if the same IP address shows up repeatedly in your data. 
@@ -107,7 +107,7 @@ excluder can assess screen resolution to detect respondents who may be using the
 
 OK, now that we know what kind of metadata we can work with, what do we do with them? 
 The excluder package can do three actions on the metadata: mark, check, or exclude. 
-The `mark` functions are the backbone of the package.
+The mark functions are the backbone of the package.
 Mark functions make new columns with the metadata criteria output appended to the existing data frame. 
 So you pass a data frame to the mark functions to see which rows meet the metadata criteria.
 Mark function names simple prepend `mark_` to the metadata tag. So, for example, the function that marks preview metadata (`preview`) is `mark_preview()`. 
