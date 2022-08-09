@@ -461,7 +461,7 @@ deidentify(qualtrics_text, strict = FALSE) %>%
 ## Conclusion
 
 Before the fun part of analyzing data, we often need to perform some more tedious steps. The [qualtRics](https://docs.ropensci.org/qualtRics/) package is a huge help in automating the import of data into R.
-As we learned in [Part 1](blog/2022/08/02/working-with-qualtrics-data-importing/), after connecting to the Qualtrics API, we can quickly (and powerfully) import our Qualtrics data with the [`fetch_survey()`](https://docs.ropensci.org/qualtRics/reference/fetch_survey.html) function.
+As we learned in [Part 1](/blog/2022/08/02/working-with-qualtrics-data-importing/), after connecting to the Qualtrics API, we can quickly (and powerfully) import our Qualtrics data with the [`fetch_survey()`](https://docs.ropensci.org/qualtRics/reference/fetch_survey.html) function.
 Once those data are imported, we can use the [excluder](https://docs.ropensci.org/excluder/) package to deal with potentially problematic online survey data based on respondent metadata, using the mark, check, and exclude functions.
 Then we can deidentify our data set before continuing to work with it or passing it on to others.
 Combined, these two packages can improve your data workflow by automating import and early cleaning processes, leaving the fun part of data processing up to you!
