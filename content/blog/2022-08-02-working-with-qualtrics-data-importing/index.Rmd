@@ -27,7 +27,7 @@ Discovering the qualtRics package has saved me a lot of time importing data. It 
 
 After importing data, there is often a lot of clean up that needs to happen, especially for online survey respondents. I developed the excluder package to help with removing data entries based on broad metadata such as response duration, respondent location, screen resolution, etc. Combining the qualtRics and excluder packages can help you deal with the tedious part of survey data and quickly get to the fun part of data analysis!
 
-Part 1 of this series will show you how to use qualtRics to import your data, and we'll cover excluding your data with excluder in [Part 2](blog/2022/08/09/working-with-qualtrics-data-excluding/). 
+Part 1 of this series will show you how to use qualtRics to import your data, and we'll cover excluding your data with excluder in [Part 2](/blog/2022/08/09/working-with-qualtrics-data-excluding/). 
 
 ## Importing Qualtrics data into R
 
@@ -174,7 +174,7 @@ It's definitely worth exploring all of the [helper functions](https://docs.ropen
 You have learned a quick and easy way to automatically download your Qualtrics data with the qualtRics package. 😎
 Now what do you do with it? 
 Well, if you're collecting online surveys, you may have a lot of problematic data that you want to remove. 
-Check out [Part 2: Excluding Data](blog/2022/08/09/working-with-qualtrics-data-excluding/) to find out how to exclude data with the [excluder](https://docs.ropensci.org/excluder/) package.
+Check out [Part 2: Excluding Data](/blog/2022/08/09/working-with-qualtrics-data-excluding/) to find out how to exclude data with the [excluder](https://docs.ropensci.org/excluder/) package.
 
 
 [^1]: Ginn J, Silge J (2022). qualtRics: Download 'Qualtrics' Survey Data. R package version 3.1.6,
