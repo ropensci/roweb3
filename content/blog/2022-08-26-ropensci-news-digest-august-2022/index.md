@@ -6,7 +6,7 @@ date: '2022-08-26'
 slug: ropensci-news-digest-august-2022
 tags:
   - newsletter
-description: Co-working sessions resume!
+description: Co-working sessions resume; New package and package news
 params:
   last_newsletter: '2022-07-22'
 ---
@@ -35,7 +35,7 @@ Consult our [Events](/events) page to find your local time and how to join.
     * Learn teaching-related R packages;
     * Or chat with [Yanina](/author/yanina-bellini-saibene/) and others to discuss teaching in or with R.
 
-* [Tuesday, 04 October 2022 9 AM Australian Western / 1:00 UTC ](/events/coworking-2022-10/) "Start writing that package!" *Hosted by community host Nick Tierney and [Steffi LaZerte](/author/steffi-lazerte/)*
+* [Tuesday, 04 October 2022 9 AM Australian Western / 1:00 UTC ](/events/coworking-2022-10/) "Start writing that package!" *Hosted by community host [Nick Tierney](/author/nicholas-tierney/) and [Steffi LaZerte](/author/steffi-lazerte/)*
     * Cowork on a project of your choice;
     * Take time to look up how to write a package;
     * Start putting together that package you've always meant to;
@@ -118,6 +118,8 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 ### Software Review
 
+* [Working with Qualtrics Data - Part 1: Importing Data](/blog/2022/08/02/working-with-qualtrics-data-importing) by Jeffrey Stevens. This post summarizes how to use the qualtRics package to import Qualtrics data.
+
 * [Working with Qualtrics Data - Part 2: Excluding Data](/blog/2022/08/09/working-with-qualtrics-data-excluding) by Jeffrey Stevens. This post summarizes how to use the excluder package to exclude survey data.{{< figure src="excluder_hex.png" alt="Hex sticker for excluder package, which has lines representing rows and red Xes representing excluded rows." width="400" >}}
 
 
@@ -127,8 +129,6 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 * [New Package yfR](/blog/2022/07/26/package-yfr) by Marcelo S. Perlin. A simple tutorial for package yfR.{{< figure src="manystocks-1.png" alt="Free stock price data with yfR" width="400" >}}
 
 
-
-* [Working with Qualtrics Data - Part 1: Importing Data](/blog/2022/08/02/working-with-qualtrics-data-importing) by Jeffrey Stevens. This post summarizes how to use the qualtRics package to import Qualtrics data.
 
 
 
@@ -150,13 +150,20 @@ Explore [other use cases](/usecases) and [report your own](https://discuss.ropen
 
 ## Call for maintainers
 
-<!--IF CALL
-* [our guidance on _Changing package maintainers_](https://devguide.ropensci.org/changing-maintainers.html)
-* [our _Package Curation Policy_](https://devguide.ropensci.org/curationpolicy.html)
 
-IF NO CALL
-There are no open calls for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
-As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. -->
+We're looking for a new maintainer, or a new maintainer _team_, for each of the following packages:
+
+* [nbaR](https://docs.ropensci.org/nbaR/), R client library for the Netherlands Biodiversity Api (NBA). [Issue for volunteering](https://github.com/ropensci/nbaR/issues/64).
+
+* [elastic](https://docs.ropensci.org/elastic/), R client for the Elasticsearch HTTP API. [Issue for volunteering](https://github.com/ropensci/elastic/issues/292).
+
+If you're interested, please comment in the issues or email `info@ropensci.org`.
+
+For more info, see
+
+* [our guidance on _Changing package maintainers_](https://devguide.ropensci.org/changing-maintainers.html);
+* [our _Package Curation Policy_](https://devguide.ropensci.org/curationpolicy.html).
+
 
 ## Package development corner
 
@@ -180,8 +187,6 @@ If pkgdown complains about missing reference topics or articles:
 
 * Then check everything is ok with [`pkgdown::check_pkgdown`](https://pkgdown.r-lib.org/reference/check_pkgdown.html). This is faster than rebuilding the whole site to check the configuration!
 
-*️ edit _pkgdown.yml (see[ ?pkgdown::build_reference -- you can *choose* to omit topics; )
-heck everything is ok with pkgdown::check_pkgdown() https://pkgdown.r-lib.org/reference/chec
 
 ## Last words
 
