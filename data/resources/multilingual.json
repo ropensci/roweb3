@@ -1,0 +1,22 @@
+[
+{
+   "title": "Online book",
+   "text": "rOpenSci Statistical Software Peer Review",
+   "url": "https://stats-devguide.ropensci.org"
+},
+{
+   "title": "Discussion of our standards and process",
+   "text": "Threads on rOpenSci's discussion forum relating to the project",
+   "url": "https://discuss.ropensci.org/c/statistical-software-peer-review/28"
+},
+{
+   "title": "Context",
+   "text": "Posts related to the project",
+   "url": "/tags/statistical-software"
+},
+{
+   "title": "Volunteer",
+   "text": "Volunteering form for software reviewers including for statistical software.",
+   "url": "https://airtable.com/shrnfDI2S9uuyxtDw"
+}
+]
