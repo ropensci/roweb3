@@ -553,6 +553,17 @@ It was presented in a [recorded RStudio conf talk](https://www.rstudio.com/confe
 Diffify by Jumping Rivers provides you with a comparison between different versions of any R package stored on CRAN.
 Colin Gillespie presented it in a [recorded RStudio conf talk](https://www.rstudio.com/conference/2022/talks/comparing-package-versions-diffify/).
 
+### pkgdown missing topics or missing articles
+
+If pkgdown complains about missing reference topics or articles:
+
+* Edit `_pkgdown.yml` (see [`?pkgdown::build_reference`](https://pkgdown.r-lib.org/reference/build_reference.html#reference-index) -- you can *choose* to omit topics; [`?pkgdown::build_articles`](https://pkgdown.r-lib.org/reference/build_articles.html#index-and-navbar)).
+
+* Then check everything is ok with [`pkgdown::check_pkgdown`](https://pkgdown.r-lib.org/reference/check_pkgdown.html). This is faster than rebuilding the whole site to check the configuration!
+
+*️ edit _pkgdown.yml (see[ ?pkgdown::build_reference -- you can *choose* to omit topics; )
+heck everything is ok with pkgdown::check_pkgdown() https://pkgdown.r-lib.org/reference/chec
+
 ## Last words
 
 Thanks for reading! If you want to get involved with rOpenSci, check out our [Contributing Guide](https://contributing.ropensci.org) that can help direct you to the right place, whether you want to make code contributions, non-code contributions, or contribute in other ways like sharing use cases.
