@@ -548,6 +548,11 @@ Some useful tips for R package developers. :eyes:
 Barret Schloerke developed a new package for testing Shiny apps, [shinytest2](https://rstudio.github.io/shinytest2).
 It was presented in a [recorded RStudio conf talk](https://www.rstudio.com/conference/2022/talks/shinytest2-unit-testing-for-shiny/).
 
+### Comparing package versions with Diffify
+
+Diffify by Jumping Rivers provides you with a comparison between different versions of any R package stored on CRAN.
+Colin Gillespie presented it in a [recorded RStudio conf talk](https://www.rstudio.com/conference/2022/talks/comparing-package-versions-diffify/).
+
 ## Last words
 
 Thanks for reading! If you want to get involved with rOpenSci, check out our [Contributing Guide](https://contributing.ropensci.org) that can help direct you to the right place, whether you want to make code contributions, non-code contributions, or contribute in other ways like sharing use cases.
