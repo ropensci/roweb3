@@ -21,7 +21,7 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-## Coworking sessions resume!
+### Coworking sessions resume!
 
 Join us for social coworking & office hours monthly on first Tuesdays! 
 Hosted by Steffi LaZerte and various community hosts. 
