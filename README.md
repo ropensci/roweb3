@@ -212,6 +212,7 @@ Note that main.min.css that contains all the CSS is stored under themes/ropensci
 
 * CHECK THE FONT!!! (see note in SendGrid instructions)
 * Check the number of subscribers in Sendgrid doesn't go over what our current plan allows.
+* Check "New Maintainer Wanted" issues.
 * Update package categories in https://github.com/ropensci/roregistry/blob/gh-pages/scripts/update_categories.R (not directly related to the newsletter but good to do monthly!).
 * Start a new post with the newsletter archetype, use the same title "rOpenSci News Digest, MONTH YEAR" and slug "ropensci-news-digest-month-YYYY" and tag "newsletter".
 * **Make sure your branch is based on the latest commit of the default branch, re-base if needed.**

@@ -40,7 +40,7 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-## Coworking sessions resume!
+### Coworking sessions resume!
 
 Join us for social coworking & office hours monthly on first Tuesdays! 
 Hosted by Steffi LaZerte and various community hosts. 
@@ -540,6 +540,8 @@ Explore [other use cases](/usecases) and [report your own](https://discuss.ropen
 
 
 We're looking for a new maintainer, or a new maintainer _team_, for each of the following packages:
+
+* [tabulizer](https://docs.ropensci.org/tabulizer/), Extract Tables from PDFs. [Issue for volunteering](https://github.com/ropensci/tabulizer/issues/148).
 
 * [nbaR](https://docs.ropensci.org/nbaR/), R client library for the Netherlands Biodiversity Api (NBA). [Issue for volunteering](https://github.com/ropensci/nbaR/issues/64).
 

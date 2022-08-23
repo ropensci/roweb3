@@ -6,7 +6,7 @@ date: '2022-08-26'
 slug: ropensci-news-digest-august-2022
 tags:
   - newsletter
-description: Co-working sessions resume; New package and package news
+description: Co-working sessions resume; New pkgcheck check; New package and package news
 params:
   last_newsletter: '2022-07-22'
 ---
@@ -42,6 +42,13 @@ Consult our [Events](/events) page to find your local time and how to join.
     * Or talk to [Nick Tierney](/author/nicholas-tierney/) and others about how to get started.
 
 Find out about more [events](/events).
+
+### New pkgcheck check for undocumented return values
+
+Our [pkgcheck checks](https://docs.ropensci.org/pkgcheck) now include an additional check that all functions have documented return values.
+This check is [run on all new CRAN submissions](https://github.com/DavisVaughan/extrachecks), yet is not currently implemented on any other standard check systems (including R CMD check).
+Checking your packages with pkgcheck will now catch any functions which do not document return values, like in [the report on this recent submission](https://github.com/ropensci/software-review/issues/554#issuecomment-1224053977).
+All current checks are also listed in [a new vignette](https://docs.ropensci.org/pkgcheck/articles/list-checks.html).
 
 ## Software :package:
 
@@ -152,6 +159,8 @@ Explore [other use cases](/usecases) and [report your own](https://discuss.ropen
 
 
 We're looking for a new maintainer, or a new maintainer _team_, for each of the following packages:
+
+* [tabulizer](https://docs.ropensci.org/tabulizer/), Extract Tables from PDFs. [Issue for volunteering](https://github.com/ropensci/tabulizer/issues/148).
 
 * [nbaR](https://docs.ropensci.org/nbaR/), R client library for the Netherlands Biodiversity Api (NBA). [Issue for volunteering](https://github.com/ropensci/nbaR/issues/64).
 
