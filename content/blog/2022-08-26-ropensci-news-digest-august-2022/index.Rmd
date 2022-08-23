@@ -6,7 +6,7 @@ date: '2022-08-26'
 slug: ropensci-news-digest-august-2022
 tags:
   - newsletter
-description: Co-working sessions resume; New package and package news; New 'pkgcheck' check
+description: Co-working sessions resume; New pkgcheck check; New package and package news
 params:
   last_newsletter: '2022-07-22'
 ---
