@@ -103,7 +103,7 @@ There are sixteen recently closed and active submissions and 1 submission on hol
 
 * Four at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
-     * [NA](https://github.com/ropensci/software-review/issues/553), NA. Submitted by [Daniel Antal](http://nl.linkedin.com/in/antaldaniel/). 
+     * [dataset](https://github.com/ropensci/software-review/issues/553), Create Data Frames that are Easier to Exchange and Reuse. Submitted by [Daniel Antal](http://nl.linkedin.com/in/antaldaniel/). 
 
     * [aorsf](https://github.com/ropensci/software-review/issues/532), Accelerated Oblique Random Survival Forests. Submitted by [Byron](https://github.com/bcjaeger). 
 
