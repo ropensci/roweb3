@@ -4,7 +4,7 @@ author:
 - Maëlle Salmon
 - Noam Ross
 date: '2022-04-19T00:00:01-07:00'
-slug: software-review-editorial-challenges
+slug: software-review-editorial-challenges-es
 tags:
 - Software Peer Review
 - editors

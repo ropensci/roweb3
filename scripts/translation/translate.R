@@ -50,7 +50,7 @@ yaml$tags <- c(yaml$tags, "Spanish")
 
 # not featured by default
 yaml$featured <- FALSE
-
+yaml$slug <- sprintf("%s-es", yaml$slug)
 # Ensure listing order
 # need to tweak the other file manually for now
 yaml$date <- sprintf("%sT00:00:01-07:00", yaml$date)
