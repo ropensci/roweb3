@@ -1,0 +1,24 @@
+[{
+   "name": "To be disclosed",
+   "url": "https://www.pexels.com/fr-fr/photo/ordinateur-portable-noir-et-blanc-2740956/",
+   "image" : "/img/team/mentor1.jpg",
+   "affiliation": "Somewhere",
+   "roles": [
+      "champion"
+   ],
+   "twitter": "ropensci",
+   "github": "ropensci",
+   "home": "https://www.pexels.com/fr-fr/photo/ordinateur-portable-noir-et-blanc-2740956/"
+},
+{
+   "name": "To be disclosed",
+   "affiliation": "Anywhere",
+   "url": "https://www.pexels.com/fr-fr/photo/fleche-en-bois-marron-signee-66100/",
+   "image" : "/img/team/mentor2.jpg",
+   "roles": [
+      "champion"
+   ],
+   "twitter": "ropensci",
+   "github": "ropensci",
+   "home": "https://www.pexels.com/fr-fr/photo/fleche-en-bois-marron-signee-66100/"
+}]
