@@ -29,7 +29,7 @@ Otherwise, see below for a quick overview of the resources available.
 
 Do you want to know How to use an rOpenSci Package? or are you looking information on How to develop an R package?, there are several way to ask for help:
 
-* [Discussion forum](https://discuss.ropensci.org/): public forum on Discourse for use cases, Q & A about rOpenSci packages, exploration of ideas and best practices
+* [Discussion forum](https://discuss.ropensci.org/): public forum on Discourse for use cases, Q & A about rOpenSci packages, exploration of ideas, and best practices. Learn [how to gather on the rOpenSci forum](/blog/2022/01/11/ropensci-forum/)
 
 * [Packages Documentation](https://docs.ropensci.org/): This server hosts pkgdown documentation for all rOpenSci packages.
 
