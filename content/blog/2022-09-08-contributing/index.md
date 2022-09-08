@@ -40,7 +40,7 @@ Do you want to know How to use an rOpenSci Package? or are you looking informati
 * [rOpenSci Packages: Development, Maintenance, and Peer Review](https://devguide.ropensci.org/): this book contains our guidelines for creating and testing R packages and our process for peer review.
 
 * [rOpenSci Statistical Software Peer Review](https://stats-devguide.ropensci.org/): this book provides guidelines for authors on how to develop statistical software, and for editors and reviewers on our processes for peer review of statistical software.
-
+* [Talks and Publications](https://github.com/talks-papers/): talks by the rOpenSci team or community members representing us, in English, French, or Spanish.
 * _Slack_: A semi-open space for communications among people who contribute to rOpenSci. Our Slack is [open to anyone who contributes](https://ropensci.org/contact/) to an rOpenSci project or participates in our peer-review process as an author or reviewer.
 
 
