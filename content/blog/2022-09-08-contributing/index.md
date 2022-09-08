@@ -75,7 +75,7 @@ We have several channels for our information to reach you directly. Worried abou
 
 * [Multilingual Publishing](https://ropensci.org/blog/2021/12/20/inclusive-leadership-program/): we are expanding documentation for our review process beyond the English language.
 
-* [Champions Program](https://ropensci.org/blog/2021/12/20/inclusive-leadership-program/): support community champions from historically excluded groups to become contributors to rOpenSci.
+* [Champions Program](/blog/2021/12/20/inclusive-leadership-program/): support community champions from historically excluded groups to become contributors to rOpenSci.
 
 * [Package Citations](https://ropensci.org/citations/): We manually curate a dataset of all citations of our packages. If you use one of our packages, please cite it (learn here how).
 
