@@ -1,5 +1,5 @@
 ---
-title: How to get involved with rOpenSci 
+title: How to participate with rOpenSci 
 author: Yanina Bellini Saibene
 date: '2022-09-07T00:00:01-07:00'
 slug: contributing-ropensci
