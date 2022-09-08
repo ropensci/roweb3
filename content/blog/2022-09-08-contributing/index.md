@@ -25,7 +25,6 @@ If you're ready for the big dive, check out our [Contributing Guide](https://con
 
 Otherwise, see below for a quick overview of the resources available.
 
-
 ## Asking for Help
 
 Do you want to know How to use an rOpenSci Package? or are you looking information on How to develop an R package?, there are several way to ask for help:
