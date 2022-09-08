@@ -73,7 +73,7 @@ We have several channels for our information to reach you directly. Worried abou
 
 * [Statistical Software Peer-Review](/stat-software-review/): we have expanded our peer review system to include packages that implement statistical algorithms.
 
-* [Multilingual Publishing](https://ropensci.org/blog/2021/12/20/inclusive-leadership-program/): we are expanding documentation for our review process beyond the English language.
+* [Multilingual Publishing](/blog/2021/12/20/inclusive-leadership-program/): we are expanding documentation for our review process beyond the English language.
 
 * [Champions Program](/blog/2021/12/20/inclusive-leadership-program/): support community champions from historically excluded groups to become contributors to rOpenSci.
 
