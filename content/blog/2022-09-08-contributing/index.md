@@ -67,7 +67,7 @@ We have several channels for our information to reach you directly. Worried abou
 
 * [Packages](/packages/): our packages are carefully vetted, staff- and community-contributed R software tools that in particular lower barriers to working with local and remote scientific data sources.
 
-* [The R-universe](https://ropensci.org/r-universe/): improving publication and discovery of research software in R.
+* [The R-universe](/r-universe/): improving publication and discovery of research software in R.
 
 * [Package Review](https://ropensci.org/software-review/): packages contributed by the community undergo a transparent, constructive, non-adversarial and open review process.
 
