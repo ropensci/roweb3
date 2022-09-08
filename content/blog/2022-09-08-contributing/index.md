@@ -48,7 +48,7 @@ Do you want to know How to use an rOpenSci Package? or are you looking informati
 
 If you want to chat with other members of the community, in addition to the [Discussion forum](https://discuss.ropensci.org/) and _Slack_, we have meeting places such as
  
-* [Community Calls](https://discuss.ropensci.org/): join to our quarterly Community Calls, these are free and open for anyone to attend and provide an opportunity to connect with rOpenSci community members around the world
+* [Community Calls](/commcalls): join to our quarterly Community Calls, these are free and open for anyone to attend and provide an opportunity to connect with rOpenSci community members around the world.
 
 * [Remote Co-Working Sessions](https://ropensci.org/blog/2021/08/17/coworking-sessions/): monthly social coworking + office hours sessions via Zoom
 
