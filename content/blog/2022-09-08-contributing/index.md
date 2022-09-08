@@ -50,7 +50,7 @@ If you want to chat with other members of the community, in addition to the [Dis
  
 * [Community Calls](/commcalls): join to our quarterly Community Calls, these are free and open for anyone to attend and provide an opportunity to connect with rOpenSci community members around the world.
 
-* [Remote Co-Working Sessions](https://ropensci.org/blog/2021/08/17/coworking-sessions/): monthly social coworking + office hours sessions via Zoom
+* [Remote Co-Working Sessions](/blog/2021/08/17/coworking-sessions/): monthly social coworking + office hours sessions via Zoom
 
 * [Events](https://ropensci.org/events/): our staff and collaborators participate in different events and conferences.
 
