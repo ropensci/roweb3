@@ -79,7 +79,7 @@ We have several channels for our information to reach you directly. Worried abou
 
 * [Package Citations](https://ropensci.org/citations/): We manually curate a dataset of all citations of our packages. If you use one of our packages, please cite it (learn here how).
 
-* [Help Wanted](https://ropensci.org/help-wanted/): if you are ready to contribute, here is a list of issues where your expertise is needed (we have issues for different levels of expertise).
+* [Help Wanted](/help-wanted/): if you are ready to contribute, here is a list of issues where your expertise is needed (we have issues for different levels of expertise).
 
 ## Additional Resources
 
