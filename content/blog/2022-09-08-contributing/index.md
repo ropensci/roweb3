@@ -77,7 +77,7 @@ We have several channels for our information to reach you directly. Worried abou
 
 * [Champions Program](/blog/2021/12/20/inclusive-leadership-program/): support community champions from historically excluded groups to become contributors to rOpenSci.
 
-* [Package Citations](https://ropensci.org/citations/): We manually curate a dataset of all citations of our packages. If you use one of our packages, please cite it (learn here how).
+* [Package Citations](/citations/): If you use one of our packages, please cite it! [You can learn here how to cite R and R Packages](https://ropensci.org/blog/2021/11/16/how-to-cite-r-and-r-packages/).
 
 * [Help Wanted](/help-wanted/): if you are ready to contribute, here is a list of issues where your expertise is needed (we have issues for different levels of expertise).
 
