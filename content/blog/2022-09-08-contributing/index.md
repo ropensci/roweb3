@@ -71,7 +71,7 @@ We have several channels for our information to reach you directly. Worried abou
 
 * [Software Peer-Review](/software-review/): packages contributed by the community undergo a transparent, constructive, non-adversarial and open review process.
 
-* [Packages Statistical Review](https://ropensci.org/stat-software-review/): we have expanded our peer review system to include packages that implement statistical algorithms.
+* [Statistical Software Peer-Review](/stat-software-review/): we have expanded our peer review system to include packages that implement statistical algorithms.
 
 * [Multilingual Publishing](https://ropensci.org/blog/2021/12/20/inclusive-leadership-program/): we are expanding documentation for our review process beyond the English language.
 
