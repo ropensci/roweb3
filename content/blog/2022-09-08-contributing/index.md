@@ -7,7 +7,7 @@ tags:
   - community
 feature: true  
 # description: 
-tweet: "Are you curious about @rOpenSci? Do you wonder where I get started participating? 🤔 Glad you asked! A summary on how to get involved with us!" 
+tweet: "Are you curious about @rOpenSci? Wondering how to start participating? 🤔 Glad you asked! A summary on how to get involved with us!" 
 ---
 
 [Entrada en español](/blog/2022/09/07/contributing-es/)
