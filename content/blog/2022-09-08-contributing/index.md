@@ -65,7 +65,7 @@ We have several channels for our information to reach you directly. Worried abou
 
 ## Use and contribute to our infrastructure
 
-* [Packages](https://ropensci.org/packages/): our packages are carefully vetted, staff- and community-contributed R software tools that in particular lower barriers to working with local and remote scientific data sources.
+* [Packages](/packages/): our packages are carefully vetted, staff- and community-contributed R software tools that in particular lower barriers to working with local and remote scientific data sources.
 
 * [The R-universe](https://ropensci.org/r-universe/): improving publication and discovery of research software in R.
 
