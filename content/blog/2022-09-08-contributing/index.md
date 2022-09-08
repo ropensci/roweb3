@@ -83,7 +83,7 @@ We have several channels for our information to reach you directly. Worried abou
 
 ## Additional Resources
 
-* [Talks and Publications](https://ropensci.org/talks-papers/): talks by the rOpenSci team or community members representing us, in English, French, or Spanish.
+* [Talks and Publications](/talks-papers/): talks by the rOpenSci team or community members representing us, in English, French, or Spanish.
 
 * [Blog](https://ropensci.org/blog/): articles written by our community. Our [guide explains how to contribute a blog post](https://blogguide.ropensci.org/).
 
