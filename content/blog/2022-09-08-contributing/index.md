@@ -81,7 +81,6 @@ We have several channels for our information to reach you directly. Worried abou
 
 * [Help Wanted](/help-wanted/): if you are ready to contribute, here is a list of issues where your expertise is needed (we have issues for different levels of expertise).
 
-## Additional Resources
 
 * [Talks and Publications](/talks-papers/): talks by the rOpenSci team or community members representing us, in English, French, or Spanish.
 
