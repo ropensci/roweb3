@@ -69,7 +69,7 @@ We have several channels for our information to reach you directly. Worried abou
 
 * [The R-universe](/r-universe/): improving publication and discovery of research software in R.
 
-* [Package Review](https://ropensci.org/software-review/): packages contributed by the community undergo a transparent, constructive, non-adversarial and open review process.
+* [Software Peer-Review](/software-review/): packages contributed by the community undergo a transparent, constructive, non-adversarial and open review process.
 
 * [Packages Statistical Review](https://ropensci.org/stat-software-review/): we have expanded our peer review system to include packages that implement statistical algorithms.
 
