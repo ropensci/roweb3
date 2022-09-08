@@ -83,5 +83,4 @@ We have several channels for our information to reach you directly. Worried abou
 
 
 
-* [Blog](/blog/): articles written by our community. Our [guide explains how to contribute a blog post](https://blogguide.ropensci.org/).
 
