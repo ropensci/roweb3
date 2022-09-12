@@ -27,7 +27,7 @@ Now let's dive into the activity at and around rOpenSci!
 A few packages are [looking for new maintainers](#call-for-maintainers).
 Do you want to maintain software that will help fellow R users extract tables out of PDFs, access data from the IUCN Red list of endangered species, among other things?
 See if one of the calls appeal to you!
-You could volunteer as a duo of maintainers.
+You could volunteer on your own or as a duo of maintainers (the more the merrier!).
 The rOpenSci team will be happy to help you about specific aspects, providing resources, tips and PR reviews as needed.
 Thank you!
 
@@ -164,7 +164,22 @@ For more info, see
 
 Some useful tips for R package developers. :eyes:
 
-<!-- To be curated by hand -->
+### Improve your code with lintr's new linters!
+
+The most recent lintr release includes [a bunch of new linters originally authored by Google developers](https://www.tidyverse.org/blog/2022/07/lintr-3-0-0/#google-linters). 
+Have a look at the list, and run it on one of your codebases!
+Thanks to [Hugo Gruson](https://github.com/Bisaloo) for this tip.
+
+To run _all_ linters there are you could run [`lintr::lint_package(linters = lintr::linters_with_tags(tags = NULL))`](https://github.com/r-lib/lintr/issues/1482#issuecomment-1198590483) (or first filter a bit the list returned by `lintr::linters_with_tags(tags = NULL)` in case you see too many [false positives](https://github.com/r-lib/lintr/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Afalse-positive) for one of the linters).
+
+### Minimum R version dependency in R packages
+
+Curious about why and how to make your R package depend on a minimal R version?
+See this [R-hub blog post by Hugo Gruson and Maëlle Salmon](https://blog.r-hub.io/2022/09/12/r-dependency/).
+
+### Tweak the commit message obtained by merging a GitHub pull request
+
+You might be interested in [New options for controlling the default commit message when merging a pull request](https://github.blog/changelog/2022-08-23-new-options-for-controlling-the-default-commit-message-when-merging-a-pull-request/) to make the merge/squash commit messages more informative.
 
 ## Last words
 
