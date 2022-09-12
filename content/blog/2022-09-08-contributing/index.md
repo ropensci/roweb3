@@ -84,6 +84,10 @@ We have several channels for our information to reach you directly. Worried abou
 
 * [Help Wanted](/help-wanted/): if you are ready to contribute, here is a list of issues where your expertise is needed (we have issues for different levels of expertise).
 
+## Ready to contribute!
 
+We are happy you made it this far.  We hope you find some way to participate in the options.  We would be glad to learn more if you have ideas about other ways to collaborate with us.
+
+We hope to see you in some of our spaces.
 
 
