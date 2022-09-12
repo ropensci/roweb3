@@ -38,7 +38,7 @@ Do you want to know how to use an rOpenSci package? or are you looking informati
 
 * [Use Cases](/usecases/): check how our R packages or resources have been used.
 
-* [Blog](/blog/): browse our technical notes to see packages updates, how-to and examples. You can find articles written by our community members. If you feel inspired, our [guide explains how to contribute a blog post](https://blogguide.ropensci.org/).
+* [Blog](/blog/): browse our blog posts and technical notes to see packages updates, how-to and examples. You can find articles written by our community members. If you feel inspired, our [Blog Guide](https://blogguide.ropensci.org/) explains how to contribute a blog post.
 
 * [rOpenSci Packages: Development, Maintenance, and Peer Review](https://devguide.ropensci.org/): this book contains our guidelines for creating and testing R packages and our process for peer review.
 
