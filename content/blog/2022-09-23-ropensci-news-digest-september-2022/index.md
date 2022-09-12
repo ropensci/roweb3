@@ -1,0 +1,173 @@
+---
+title: rOpenSci News Digest, September 2022
+author:
+  - The rOpenSci Team
+date: '2022-09-23'
+slug: ropensci-news-digest-september-2022
+categories: []
+tags:
+  - newsletter
+description: keywords from the content
+params:
+  last_newsletter: '2022-08-26'
+---
+
+
+<!-- Before sending DELETE THE INDEX_CACHE and re-knit! -->
+
+Dear rOpenSci friends, it's time for our monthly news roundup!
+<!-- blabla -->
+You can read this post [on our blog](/blog/2022/09/23/ropensci-news-digest-september-2022).
+Now let's dive into the activity at and around rOpenSci!
+
+## rOpenSci HQ
+
+### Check out our Calls for new maintainers!
+
+A few packages are [looking for new maintainers](#call-for-maintainers).
+Do you want to maintain software that will help fellow R users extract tables out of PDFs, access data from the IUCN Red list of endangered species, among other things?
+See if one of the calls appeal to you!
+You could volunteer as a duo of maintainers.
+The rOpenSci team will be happy to help you about specific aspects, providing resources, tips and PR reviews as needed.
+Thank you!
+
+### Coworking sessions continue!
+
+Join us for social coworking & office hours monthly on first Tuesdays! 
+Hosted by Steffi LaZerte and various community hosts. 
+Everyone welcome. 
+No RSVP needed. 
+Consult our [Events](/events) page to find your local time and how to join.
+
+* [Tuesday, 04 October 2022 9 AM Australian Western / 1:00 UTC ](/events/coworking-2022-10/) "Start writing that package!" *Hosted by community host [Nick Tierney](/author/nicholas-tierney/) and [Steffi LaZerte](/author/steffi-lazerte/)*
+    * Cowork on a project of your choice;
+    * Take time to look up how to write a package;
+    * Start putting together that package you've always meant to;
+    * Or talk to [Nick Tierney](/author/nicholas-tierney/) and others about how to get started.
+
+Find out about more [events](/events).
+
+## Software :package:
+
+### New packages
+
+
+
+
+The following  package recently became a part of our software suite:
+
+
+
+Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
+
+### New versions
+
+
+
+The following seventeen packages have had an update since the last newsletter: [frictionless](https://docs.ropensci.org/frictionless "Read and Write Frictionless Data Packages") ([`v1.0.1`](https://github.com/frictionlessdata/frictionless-r/releases/tag/v1.0.1)), [gert](https://docs.ropensci.org/gert "Simple Git Client for R") ([`v1.8.0`](https://github.com/r-lib/gert/releases/tag/v1.8.0)), [binman](https://docs.ropensci.org/binman "A Binary Download Manager") ([`v0.1.3`](https://github.com/ropensci/binman/releases/tag/v0.1.3)), [EDIutils](https://docs.ropensci.org/EDIutils "An API Client for the Environmental Data Initiative Repository") ([`v1.0.2`](https://github.com/ropensci/EDIutils/releases/tag/v1.0.2)), [gittargets](https://docs.ropensci.org/gittargets "Data Version Control for the Targets Package") ([`0.0.5`](https://github.com/ropensci/gittargets/releases/tag/0.0.5)), [ijtiff](https://docs.ropensci.org/ijtiff "Comprehensive TIFF I/O with Full Support for ImageJ TIFF Files") ([`v2.2.8`](https://github.com/ropensci/ijtiff/releases/tag/v2.2.8)), [MODIStsp](https://docs.ropensci.org/MODIStsp "Find, Download and Process MODIS Land Products
+    Data") ([`v2.0.9`](https://github.com/ropensci/MODIStsp/releases/tag/v2.0.9)), [osmextract](https://docs.ropensci.org/osmextract "Download and Import Open Street Map Data Extracts") ([`v0.4.1`](https://github.com/ropensci/osmextract/releases/tag/v0.4.1)), [restez](https://docs.ropensci.org/restez "Create and Query a Local Copy of GenBank in R") ([`v2.1.2`](https://github.com/ropensci/restez/releases/tag/v2.1.2)), [rgbif](https://docs.ropensci.org/rgbif "Interface to the Global Biodiversity Information Facility API") ([`v3.7.3`](https://github.com/ropensci/rgbif/releases/tag/v3.7.3)), [spiro](https://docs.ropensci.org/spiro "Manage Data from Cardiopulmonary Exercise Testing") ([`v0.1.1`](https://github.com/ropensci/spiro/releases/tag/v0.1.1)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.7.1`](https://github.com/ropensci/tarchetypes/releases/tag/0.7.1)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Workflows") ([`0.13.2`](https://github.com/ropensci/targets/releases/tag/0.13.2)), [taxlist](https://docs.ropensci.org/taxlist "Handling Taxonomic Lists") ([`v0.2.3`](https://github.com/ropensci/taxlist/releases/tag/v0.2.3)), [tic](https://docs.ropensci.org/tic "CI-Agnostic Workflow Definitions") ([`v0.13.1`](https://github.com/ropensci/tic/releases/tag/v0.13.1)), [wdman](https://docs.ropensci.org/wdman "Webdriver/Selenium Binary Manager") ([`v0.2.6`](https://github.com/ropensci/wdman/releases/tag/v0.2.6)), and [webmockr](https://docs.ropensci.org/webmockr "Stubbing and Setting Expectations on HTTP Requests") ([`v0.8.2`](https://github.com/ropensci/webmockr/releases/tag/v0.8.2)).
+
+## Software Peer Review
+
+There are fifteen recently closed and active submissions and 2 submissions on hold. Issues are at different stages: 
+
+* One at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
+
+     * [phruta](https://github.com/ropensci/software-review/issues/458), Phylogenetic Reconstruction and Time-dating. Submitted by [Cristian Román Palacios](http://cromanpa94.github.io/cromanpa/). 
+
+* Four at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
+
+     * [melt](https://github.com/ropensci/software-review/issues/550), Multiple Empirical Likelihood Tests. Submitted by [Eunseop Kim](https://github.com/markean). 
+
+    * [hudr](https://github.com/ropensci/software-review/issues/524), A R interface for accessing HUD (US Department of Housing and Urban Development) APIs. Submitted by [Emmet Tam](https://github.com/etam4260/etam4260). 
+
+    * [octolog](https://github.com/ropensci/software-review/issues/502), Better Github Action Logging. Submitted by [Jacob Wujciak-Jens](https://github.com/assignUser). 
+
+    * [healthdatacsv](https://github.com/ropensci/software-review/issues/358), Access data in the healthdata.gov catalog. Submitted by [iecastro](http://iecastro.netlify.com). 
+
+* Six at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
+
+     * [dataset](https://github.com/ropensci/software-review/issues/553), Create Data Frames that are Easier to Exchange and Reuse. Submitted by [Daniel Antal](http://nl.linkedin.com/in/antaldaniel/). 
+
+    * [daiquiri](https://github.com/ropensci/software-review/issues/535), Data Quality Reporting for Temporal Datasets. Submitted by [Phuong Quan](https://github.com/phuongquan). 
+
+    * [aorsf](https://github.com/ropensci/software-review/issues/532), Accelerated Oblique Random Survival Forests. Submitted by [Byron](https://github.com/bcjaeger). 
+
+    * [canaper](https://github.com/ropensci/software-review/issues/475), Categorical Analysis of Neo- And Paleo-Endemism. Submitted by [Joel Nitta](https://joelnitta.com).  (Stats).
+
+    * [tsbox](https://github.com/ropensci/software-review/issues/464), Class-Agnostic Time Series. Submitted by [Christoph Sax](http://www.cynkra.com).  (Stats).
+
+    * [aorsf](https://github.com/ropensci/software-review/issues/532), Accelerated Oblique Random Survival Forests. Submitted by [Byron](https://github.com/bcjaeger). 
+
+* Two at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
+
+     * [dynamite](https://github.com/ropensci/software-review/issues/554), Bayesian Modeling and Causal Inference for Multivariate. Submitted by [Santtu Tikka](http://users.jyu.fi/~santikka/). 
+
+    * [bssm](https://github.com/ropensci/software-review/issues/489), Bayesian Inference of Non-Linear and Non-Gaussian State Space. Submitted by [Jouni Helske](http://jounihelske.netlify.app).  (Stats).
+
+* Two at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
+
+     * [stochLAB](https://github.com/ropensci/software-review/issues/551), Stochastic Collision Risk Model. Submitted by [Grant](http://www.blackbawks.net). 
+
+    * [wmm](https://github.com/ropensci/software-review/issues/522), World Magnetic Model. Submitted by [Will Frierson](https://github.com/wfrierson). 
+
+Find out more about [Software Peer Review](/software-review) and how to get involved.
+
+## On the blog
+
+<!-- Do not forget to rebase your branch! -->
+
+
+
+
+
+## Use cases
+
+
+
+`snakecase::to_sentence_case(english(length(usecases)))` use case`if (length(usecases) > 1) "s"` of our packages and resources ha`if (length(usecases) > 1) "ve" else "s"` been reported since we sent the last newsletter.
+
+
+
+Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)!
+
+## Call for maintainers
+
+We're looking for a new maintainer, or a new maintainer _team_, for each of the following packages:
+
+* [charlatan](https://docs.ropensci.org/charlatan/), Create fake data in R. [Issue for volunteering](https://github.com/ropensci/charlatan/issues/123).
+
+* [rgnparser](https://docs.ropensci.org/rgnparser/), Parse scientific names using gnparser. [Issue for volunteering](https://github.com/ropensci/rgnparser/issues/14).
+
+* [ritis](https://docs.ropensci.org/ritis), Integrated Taxonomic Information Service (ITIS) R client. [Issue for volunteering](https://github.com/ropensci/ritis/issues/23).
+
+* [rredlist](https://docs.ropensci.org/rredlist), IUCN Red List API Client. [Issue for volunteering](https://github.com/ropensci/rredlist/issues/49).
+
+* [wikitaxa](https://docs.ropensci.org/wikitaxa), taxonomy data from Wikipedia/Wikidata/Wikispecies. [Issue for volunteering](https://github.com/ropensci/wikitaxa/issues/20).
+
+* [tabulizer](https://docs.ropensci.org/tabulizer/), Extract Tables from PDFs. [Issue for volunteering](https://github.com/ropensci/tabulizer/issues/148).
+
+* [RSelenium](https://docs.ropensci.org/RSelenium/), Automate browsers locally or remotely (for instance for webscraping). [Issue for volunteering](https://github.com/ropensci/RSelenium/issues/261).
+
+* [nbaR](https://docs.ropensci.org/nbaR/), R client library for the Netherlands Biodiversity Api (NBA). [Issue for volunteering](https://github.com/ropensci/nbaR/issues/64).
+
+* [elastic](https://docs.ropensci.org/elastic/), R client for the Elasticsearch HTTP API. [Issue for volunteering](https://github.com/ropensci/elastic/issues/292).
+
+If you're interested, please comment in the issues or email `info@ropensci.org`.
+
+For more info, see
+
+* [our guidance on _Changing package maintainers_](https://devguide.ropensci.org/changing-maintainers.html);
+* [our _Package Curation Policy_](https://devguide.ropensci.org/curationpolicy.html).
+
+## Package development corner
+
+Some useful tips for R package developers. :eyes:
+
+<!-- To be curated by hand -->
+
+## Last words
+
+Thanks for reading! If you want to get involved with rOpenSci, check out our [Contributing Guide](https://contributing.ropensci.org) that can help direct you to the right place, whether you want to make code contributions, non-code contributions, or contribute in other ways like sharing use cases.
+
+If you haven't subscribed to our newsletter yet, you can [do so via a form](/news/). Until it's time for our next newsletter, you can keep in touch with us via our [website](/) and [Twitter account](https://twitter.com/ropensci).
