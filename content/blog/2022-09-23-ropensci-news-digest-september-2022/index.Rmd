@@ -564,7 +564,13 @@ For more info, see
 
 Some useful tips for R package developers. :eyes:
 
-<!-- To be curated by hand -->
+### Improve your code with lintr' new linters!
+
+The most recent lintr release includes [a bunch of new linters originally authored by Google developers](https://www.tidyverse.org/blog/2022/07/lintr-3-0-0/#google-linters). 
+Have a look at the list, and run it on one of your codebases!
+Thanks to [Hugo Gruson](https://github.com/Bisaloo) for this tip.
+
+To run _all_ linters there are you could run `lintr::lint_package(linters = lintr::linters_with_tags(tags = NULL))` (or first filter a bit the list returned by `lintr::linters_with_tags(tags = NULL)` in case you see too many [false positives](https://github.com/r-lib/lintr/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Afalse-positive) for one of the linters).
 
 ## Last words
 
