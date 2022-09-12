@@ -34,7 +34,7 @@ Do you want to know how to use an rOpenSci package? or are you looking informati
 
 * [Discussion forum](https://discuss.ropensci.org/): public forum on Discourse for use cases, Q & A about rOpenSci packages, exploration of ideas, and best practices. Learn how to[Gather on the rOpenSci Forum](/blog/2022/01/11/ropensci-forum/)
 
-* [Packages Documentation](https://docs.ropensci.org/): This site hosts pkgdown documentation for all rOpenSci packages.
+* [Packages Documentation](https://docs.ropensci.org/): this site hosts pkgdown documentation for all rOpenSci packages.
 
 * [Use Cases](/usecases/): check how our R packages or resources have been used.
 
@@ -63,7 +63,7 @@ We have several channels for our information to reach you directly. Worried abou
 
 * [Newsletter](/news/): every month receive in your inbox R package news, blog posts, tips and tricks, events and use cases. Subscribe via RSS (XML), JSON feed, or email.
 
-* _Social Media_: Follow our organization’s activities on [Twitter](https://twitter.com/rOpenSci), and [Vimeo](https://vimeo.com/ropensci). Also follow our [roknowtifier bot](https://twitter.com/roknowtifier) that tweets new rOpenSci packages or new versions of packages
+* _Social Media_: follow our organization’s activities on [Twitter](https://twitter.com/rOpenSci), and [Vimeo](https://vimeo.com/ropensci). Also follow our [roknowtifier bot](https://twitter.com/roknowtifier) that tweets new rOpenSci packages or new versions of packages
 
 
 ## Use and contribute to our infrastructure
@@ -80,13 +80,13 @@ We have several channels for our information to reach you directly. Worried abou
 
 * [Champions Program](/blog/2021/12/20/inclusive-leadership-program/): support community champions from historically excluded groups to become contributors to rOpenSci.
 
-* [Package Citations](/citations/): If you use one of our packages, please cite it! [You can learn here how to cite R and R Packages](/blog/2021/11/16/how-to-cite-r-and-r-packages/).
+* [Package Citations](/citations/): if you use one of our packages, please cite it! [You can learn here how to cite R and R Packages](/blog/2021/11/16/how-to-cite-r-and-r-packages/).
 
 * [Help Wanted](/help-wanted/): if you are ready to contribute, here is a list of issues where your expertise is needed (we have issues for different levels of expertise).
 
 ## Ready to contribute!
 
-We are happy you made it this far.  We hope you find some way to participate in the options.  We would be glad to learn more if you have ideas about other ways to collaborate with us.
+We are happy you made it this far.  We hope you find some way to participate among these options.  We would be glad to learn more if you have ideas about other ways to collaborate with us!
 
 We hope to see you in some of our spaces.
 
