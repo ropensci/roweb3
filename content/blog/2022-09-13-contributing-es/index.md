@@ -8,6 +8,8 @@ tags:
   - help
   - beginner
   - welcome
+  - español
+  - spanish
 feature: true  
 # description: 
 tweet: "¿Tienes curiosidad por @rOpenSci? Te preguntas cómo empezar a participar? 🤔 ¡Nos alegramos! Aquí tienes un resumen de cómo participar con nosotros" 
@@ -29,34 +31,36 @@ Si quires conocer todos los detalles consulta nuestra [Guía de Contribución](h
 Si no, a continuación te presentamos un resumen de los posibilidades y recursos disponibles.
 
 
-## Finding information & asking for help
+## Encontrar información y pedir ayuda
 
-Do you want to know how to use an rOpenSci package? or are you looking information on how to develop an R package? There are several way to ask for help:
+¿Quieres saber cómo utilizar un paquete de rOpenSci? o ¿estás buscando información sobre cómo desarrollar un paquete de R? Hay varias maneras de pedir ayuda:
 
-* [Discussion forum](https://discuss.ropensci.org/): public forum on Discourse for use cases, Q & A about rOpenSci packages, exploration of ideas, and best practices. Learn how to[Gather on the rOpenSci Forum](/blog/2022/01/11/ropensci-forum/)
+* [Foro de discusión](https://discuss.ropensci.org/): foro público en Discourse para casos de uso, preguntas y respuestas sobre paquetes rOpenSci, exploración de ideas y mejores prácticas. Aprende como [reunirte en el foro de rOpenSci](/blog/2022/01/11/ropensci-forum/)
 
-* [Packages Documentation](https://docs.ropensci.org/): this site hosts pkgdown documentation for all rOpenSci packages.
+* [Documentación de paquetes](https://docs.ropensci.org/): este sitio alberga la documentación pkgdown de todos los paquetes de rOpenSci.
 
-* [Use Cases](/usecases/): check how our R packages or resources have been used.
+* [Casos de uso](/usecases/): explora cómo se han utilizado nuestros paquetes o recursos de R.
 
-* [Blog](/blog/): browse our blog posts and technical notes to see packages updates, how-to and examples. You can find articles written by our community members. If you feel inspired, our [Blog Guide](https://blogguide.ropensci.org/) explains how to contribute a blog post.
+* [Blog](/blog/): navega por nuestro blog y notas técnicas para ver las actualizaciones de los paquetes, tutoriales y ejemplos. Puedes encontrar artículos escritos por nuestra comunidad. Si tienes inspiración, nuestra [Guía del blog](https://blogguide.ropensci.org/) explica cómo contribuir con un artículo.
 
-* [rOpenSci Packages: Development, Maintenance, and Peer Review](https://devguide.ropensci.org/): this book contains our guidelines for creating and testing R packages and our process for peer review.
+* [rOpenSci Paquetess: Desarrollo, mantenimiento y revisión por pares](https://devguide.ropensci.org/): este libro contiene nuestras directrices para crear y probar paquetes de R y nuestro proceso de revisión por pares.
 
-* [rOpenSci Statistical Software Peer Review](https://stats-devguide.ropensci.org/): this book provides guidelines for authors on how to develop statistical software, and for editors and reviewers on our processes for peer review of statistical software.
-* [Talks and Publications](https://ropensci.org/talks-papers/): talks by the rOpenSci team or community members representing us, in English, French, or Spanish.
-* _Slack_: A semi-open space for communications among people who contribute to rOpenSci. Our Slack is [open to anyone who contributes](/contact/) to an rOpenSci project or participates in our peer-review process as an author or reviewer.
+* [rOpenSci revisón por pares de software estadístico](https://stats-devguide.ropensci.org/): este libro contiene nuestras directrices para crear y probar paquetes de R y nuestro proceso de revisión por pares.
+
+* [Charlas y publicaciones](https://ropensci.org/talks-papers/): charlas del equipo de rOpenSci o de miembros de la comunidad que nos representan, en inglés, francés o español.
+
+* _Slack_: Un espacio semi-abierto para la comunicación entre las personas que contribuyen a rOpenSci. Nuestro Slack está [abierto a cualquiera que contribuya](/contacto/) a un proyecto de rOpenSci o que participe en nuestro proceso de revisión por pares como autor/as o revisor/as.
 
 
-## Chat with other community members
+## Charla con otras personas de la comunidad
 
-If you want to chat with other members of the community, in addition to the [Discussion forum](https://discuss.ropensci.org/) and _Slack_, we have meeting places such as
+Si quieres chatear con miembros de la comunidad, además del [Foro de discusión](https://discuss.ropensci.org/) y _Slack_, tenemos lugares de encuentro como
  
-* [Community Calls](/commcalls): join to our quarterly Community Calls, these are free and open for anyone to attend and provide an opportunity to connect with rOpenSci community members around the world.
+* [Llamadas de la comunidad](/commcalls): únete a nuestras _Community Calls_ trimestrales, son gratuitas y abiertas para que cualquiera pueda asistir y ofrecen la oportunidad de conectar con miembros de la comunidad rOpenSci de todo el mundo.
 
-* [Remote Co-Working Sessions](/blog/2021/08/17/coworking-sessions/): monthly social coworking + office hours sessions via Zoom (see upcoming sessions in [Events](/events/))
+* [Sesiones de co trabajo remoto](/blog/2021/08/17/coworking-sessions/): sesiones mensuales de coworking social + horas de oficina a través de Zoom (ver próximas sesiones en [Eventos](/events/))
 
-* [Events](/events/): our staff and collaborators participate in different events and conferences.
+* [Eventos](/events/): nuestro personal y colaboradores/as participan en diferentes eventos y conferencias.
 
 ## Receive communications
 
