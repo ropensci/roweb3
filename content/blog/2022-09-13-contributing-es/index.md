@@ -49,7 +49,7 @@ Si no, a continuación te presentamos un resumen de los posibilidades y recursos
 
 * [Charlas y publicaciones](https://ropensci.org/talks-papers/): charlas del equipo de rOpenSci o de miembros de la comunidad que nos representan, en inglés, francés o español.
 
-* _Slack_: Un espacio semi-abierto para la comunicación entre las personas que contribuyen a rOpenSci. Nuestro Slack está [abierto a cualquiera que contribuya](/contacto/) a un proyecto de rOpenSci o que participe en nuestro proceso de revisión por pares como autor/as o revisor/as.
+* _Slack_: Un espacio semi-abierto para la comunicación entre las personas que contribuyen a rOpenSci. Nuestro Slack está [abierto a cualquiera que contribuya](/contact/) a un proyecto de rOpenSci o que participe en nuestro proceso de revisión por pares como autor/as o revisor/as.
 
 
 ## Charla con otras personas de la comunidad
