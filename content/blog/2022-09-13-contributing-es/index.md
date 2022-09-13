@@ -62,37 +62,35 @@ Si quieres chatear con miembros de la comunidad, además del [Foro de discusión
 
 * [Eventos](/events/): nuestro personal y colaboradores/as participan en diferentes eventos y conferencias.
 
-## Receive communications
+## Recibir comunicaciones
 
-We have several channels for our information to reach you directly. Worried about too many communications? Don’t be! Only subscribe to the communications you want, and you can unsubscribe at any time.
+Tenemos varios canales para que nuestra información te llegue directamente. ¿Te preocupa el exceso de notificaciones? No te preocupes. Suscríbete sólo a las comunicaciones que deseas, y podras darte de baja en cualquier momento.
 
-* [Newsletter](/news/): every month receive in your inbox R package news, blog posts, tips and tricks, events and use cases. Subscribe via RSS (XML), JSON feed, or email.
+* [Boletín de noticias](/news/): todos los meses recibirás en tu bandeja de entrada noticias sobre los paquetes R, publicaciones en el blog, consejos y trucos, eventos y casos de uso. Suscríbate a través de RSS (XML), JSON feed, o correo electrónico.
 
-* _Social Media_: follow our organization’s activities on [Twitter](https://twitter.com/rOpenSci), and [Vimeo](https://vimeo.com/ropensci). Also follow our [roknowtifier bot](https://twitter.com/roknowtifier) that tweets new rOpenSci packages or new versions of packages
-
-
-## Use and contribute to our infrastructure
-
-* [Packages](/packages/): our packages are carefully vetted, staff- and community-contributed R software tools that in particular lower barriers to working with local and remote scientific data sources.
-
-* [The R-universe](/r-universe/): improving publication and discovery of research software in R.
-
-* [Software Peer-Review](/software-review/): packages contributed by the community undergo a transparent, constructive, non-adversarial and open review process.
-
-* [Statistical Software Peer-Review](/stat-software-review/): we have expanded our peer review system to include packages that implement statistical algorithms.
-
-* [Multilingual Publishing](/blog/2021/12/20/inclusive-leadership-program/): we are expanding documentation for our review process beyond the English language.
-
-* [Champions Program](/blog/2021/12/20/inclusive-leadership-program/): support community champions from historically excluded groups to become contributors to rOpenSci.
-
-* [Package Citations](/citations/): if you use one of our packages, please cite it! [You can learn here how to cite R and R Packages](/blog/2021/11/16/how-to-cite-r-and-r-packages/).
-
-* [Help Wanted](/help-wanted/): if you are ready to contribute, here is a list of issues where your expertise is needed (we have issues for different levels of expertise).
-
-## Ready to contribute!
-
-We are happy you made it this far.  We hope you find some way to participate among these options.  We would be glad to learn more if you have ideas about other ways to collaborate with us!
-
-We hope to see you in some of our spaces.
+* _Redes sociales_: sigue las actividades de nuestra organización en [Twitter](https://twitter.com/rOpenSci), y [Vimeo](https://vimeo.com/ropensci). Sigue también nuestro bot [roknowtifier](https://twitter.com/roknowtifier) que tuitea nuevos paquetes rOpenSci o nuevas versiones de paquetes
 
 
+## Utilice y contribuya a nuestra infraestructura
+
+* [Paquetes](/packages/): nuestros paquetes son herramientas de software de R cuidadosamente examinadas, aportadas por el personal de rOpenSci y la comunidad, que tienen como objetivo reducir las barreras para trabajar con fuentes de datos científicos locales y remotas.
+
+* [El R-universe](/r-universe/): mejora la publicación y el descubrimiento de software de investigación en R.
+
+* [Revisión de software por pares](/software-review/): los paquetes realizados por la comunidad se someten a un proceso de revisión transparente, constructivo, no adversario y abierto.
+
+* [Revisión por pares de software estádistico](/stat-software-review/): hemos ampliado nuestro sistema de revisión por pares para incluir paquetes que implementan algoritmos estadísticos.
+
+* [Publicación multilingüe](/blog/2021/12/20/inclusive-leadership-program/): estamos ampliando la documentación de nuestro proceso de revisión más allá del idioma inglés.
+
+* [Programa de Campeones](/blog/2021/12/20/inclusive-leadership-program/): programa para apoyar a los campeones de la comunidad de grupos que histórica y sistemáticamente han sido excluidos para que se conviertan en contribuyentes de rOpenSci.
+
+* [Citas de paquetes](/citations/): si utilizas uno de nuestros paquetes, por favor cítalo. [Puedes aprender aquí cómo citar R y paquetes R](/blog/2021/11/16/how-to-cite-r-and-r-packages/).
+
+* [Se busca ayuda](/help-wanted/): si estás dispuesto a contribuir, aquí tienes una lista de temas en los que se necesita tu experiencia (tenemos temas para diferentes niveles de experiencia).
+
+## ¡Listo/a para contribuir!
+
+Nos alegra que hayas llegado hasta aquí.  Esperamos que encuentres alguna forma de participar entre todas estas opciones.  ¡Estaremos muy felices de saber más si tienes ideas sobre otras formas de colaborar con nosotros!
+
+Esperamos verte en alguno de nuestros espacios.
