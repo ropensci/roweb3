@@ -13,7 +13,7 @@ feature: true
 tweet: "Are you curious about @rOpenSci? Wondering how to start participating? 🤔 Glad you asked! Here's a summary on how to get involved with us!" 
 ---
 
-[Entrada en español](/blog/2022/09/13/contributing-es/)
+[Entrada en español](/blog/2022/09/13/contributing-ropensci-es/)
 
 This blog post is intended to help you get started in rOpenSci community by highlighting some key links and activities. If you have questions, please get in touch with our Community Manager, Yanina Bellini Saibene [by email](mailto:yabellini@ropensci.org) or [schedule a meeting](https://calendly.com/yabellini-ropensci/). 
 
