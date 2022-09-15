@@ -66,6 +66,10 @@ Consult our [Events](/events) page to find your local time and how to join.
 
 Find out about more [events](/events).
 
+### pkgcheck updates
+
+Our [pkgcheck checks](https://docs.ropensci.org/pkgcheck) now have an additional category beyond just pass (:heavy_check_mark:) or fail (:heavy_multiplication_x:). Some checks indicate aspects which are worth considering, but which might not necessarily be considered check failures. We have introduced the symbol :eyes: to denote aspects of packages which authors might consider modifying or tweaking at their discretion, but which do not indicate failing checks. The only check in this category at present is the check for duplicated function names, but other :eyes: checks are likely to be included as our automated check system expands its scope in the future.
+
 ## Software :package:
 
 ### New packages
