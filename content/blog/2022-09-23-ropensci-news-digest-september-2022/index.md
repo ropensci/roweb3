@@ -60,7 +60,7 @@ Our [pkgcheck checks](https://docs.ropensci.org/pkgcheck) now have an additional
 
 The following  package recently became a part of our software suite:
 
-
++ [canaper](https://docs.ropensci.org/canaper), developed by Joel H. Nitta: Provides functions to conduct categorical analysis of neo- and paleo-endemism (CANAPE). 
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
@@ -131,9 +131,9 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 
 
-`snakecase::to_sentence_case(english(length(usecases)))` use case`if (length(usecases) > 1) "s"` of our packages and resources ha`if (length(usecases) > 1) "ve" else "s"` been reported since we sent the last newsletter.
+One use case of our packages and resources has been reported since we sent the last newsletter.
 
-
+* [Using taxize and highcharter in R to extract and visualize taxonomic data](https://discuss.ropensci.org/t/using-taxize-and-highcharter-in-r-to-extract-and-visualize-taxonomic-data/3096). Reported by Stepminer.
 
 Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)!
 
