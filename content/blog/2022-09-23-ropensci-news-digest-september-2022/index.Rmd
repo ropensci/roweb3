@@ -46,7 +46,7 @@ Now let's dive into the activity at and around rOpenSci!
 A few packages are [looking for new maintainers](#call-for-maintainers).
 Do you want to maintain software that will help fellow R users extract tables out of PDFs, or access data from the IUCN Red list of endangered species, or perhaps something else completely?
 See if one of these packages appeals to you!
-You could volunteer on your own or as a duo of maintainers (the more the merrier!).
+You could volunteer on your own or as a team of maintainers (the more the merrier!).
 The rOpenSci team will be happy to help you about specific aspects, providing resources, tips and PR reviews as needed.
 Thank you!
 
