@@ -246,7 +246,7 @@
     "title": "Reproducible CV using rorcid",
     "reporter": "Christopher J Lortie",
     "tags": "rorcid",
-    "resource": "[rorcid](https://docs.ropensci.org/rorcid)",
+    "resource": "rorcid",
     "url": "https://discuss.ropensci.org/t/reproducible-cv-using-rorcid/1862",
     "image": "noimage",
     "date": "2019-11-02"
@@ -327,7 +327,7 @@
     "title": "Searching Microsoft Academic & extracting the metadata",
     "reporter": "Alexei Lutay",
     "tags": ["r", "package", "metadata", "microdemic"],
-    "resource": "[microdemic](https://docs.ropensci.org/microdemic)",
+    "resource": "microdemic",
     "url": "https://discuss.ropensci.org/t/searching-microsoft-academic-extracting-the-metadata/2012",
     "image": "noimage",
     "date": "2020-03-27"
@@ -497,7 +497,7 @@
   {
     "title": "Extraindo tabelas de documentos pdf em R com Tabulizer",
     "reporter": "Pedro Rocha",
-    "tags": ["tabulizer", "portuguese"],
+    "tags": ["tabulizer", "portuguese", "português"],
     "resource": "Tabulizer",
     "url": "https://discuss.ropensci.org/t/extraindo-tabelas-de-documentos-pdf-em-r-com-tabulizer/2178",
     "image": "noimage",
@@ -515,7 +515,7 @@
   {
     "title": "Spanish and English blogs on how to use rtweet and magick",
     "reporter": "Rayna Harris",
-    "tags": ["r", "rtweet", "magick", "spanish"],
+    "tags": ["r", "rtweet", "magick", "spanish", "español"],
     "resource": "[rtweet](https://docs.ropensci.org/rtweet), [magick](https://docs.ropensci.org/magick)",
     "url": "https://discuss.ropensci.org/t/spanish-and-english-blogs-on-how-to-use-rtweet-and-magick/2188",
     "image": "spanish-and-english-blogs-on-how-to-use-rtweet-and-magick.png",
@@ -552,7 +552,7 @@
     "title": "Kontarion - a stack extending rocker/ml-verse for Bibliometric analytics",
     "reporter": "Markus Skyttner",
     "tags": ["fulltext", "refsplitr", "rcrossref", "oai", "rentrez"],
-    "resource": "[oai](https://docs.ropensci.org/oai), [rentrez](https://docs.ropensci.org/rentrez), [fulltext](https://docs.ropensci.org/fulltext), [europepmc](https://docs.ropensci.org/europepmc), [refsplitr](https://docs.ropensci.org/refsplitr), [rcrossref](https://docs.ropensci.org/rcrossref), [citecorp](https://docs.ropensci.org/citecorp), [roadoi](https://docs.ropensci.org/roadoi)",
+    "resource": "[oai](https://docs.ropensci.org/oai), [rentrez](https://docs.ropensci.org/rentrez), fulltext, [europepmc](https://docs.ropensci.org/europepmc), [refsplitr](https://docs.ropensci.org/refsplitr), [rcrossref](https://docs.ropensci.org/rcrossref), [citecorp](https://docs.ropensci.org/citecorp), [roadoi](https://docs.ropensci.org/roadoi)",
     "url": "https://discuss.ropensci.org/t/kontarion-a-stack-extending-rocker-ml-verse-for-bibliometric-analytics/2214",
     "image": "noimage",
     "date": "2020-09-15"
@@ -902,7 +902,7 @@
   {
     "title": "Predizendo volume de eucalipto com tidymodels, XGBoost e targets",
     "reporter": "Theilon Macêdo",
-    "tags": ["targets", "portuguese"],
+    "tags": ["portuguese", "targets", "português"],
     "resource": "[targets](https://docs.ropensci.org/targets)",
     "url": "https://discuss.ropensci.org/t/predizendo-volume-de-eucalipto-com-tidymodels-xgboost-e-targets/2656",
     "image": "predizendo-volume-de-eucalipto-com-tidymodels-xgboost-e-targets.jpeg",
@@ -965,7 +965,7 @@
   {
     "title": "Extração de dados sobre heróis negros e negras da Marvel e DC",
     "reporter": "Fernando Almeida Barbalho",
-    "tags": "tabulizer",
+    "tags": ["tabulizer", "portuguese", "português"],
     "resource": "tabulizer [pt-br]",
     "url": "https://discuss.ropensci.org/t/extracao-de-dados-sobre-herois-negros-e-negras-da-marvel-e-dc/2952",
     "image": "noimage",
@@ -979,5 +979,14 @@
     "url": "https://discuss.ropensci.org/t/map-of-linguae-francae-of-dagestan-russia/2957",
     "image": "map-of-linguae-francae-of-dagestan-russia.jpeg",
     "date": "2022-06-02"
+  },
+  {
+    "title": "Using taxize and highcharter in R to extract and visualize taxonomic data",
+    "reporter": "Stepminer",
+    "tags": [],
+    "resource": "[taxize](https://docs.ropensci.org/taxize)",
+    "url": "https://discuss.ropensci.org/t/using-taxize-and-highcharter-in-r-to-extract-and-visualize-taxonomic-data/3096",
+    "image": "noimage",
+    "date": "2022-09-13"
   }
 ]
