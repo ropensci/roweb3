@@ -47,6 +47,10 @@ Consult our [Events](/events) page to find your local time and how to join.
 
 Find out about more [events](/events).
 
+### pkgcheck updates
+
+Our [pkgcheck checks](https://docs.ropensci.org/pkgcheck) now have an additional category beyond just pass (:heavy_check_mark:) or fail (:heavy_multiplication_x:). Some checks indicate aspects which are worth considering, but which might not necessarily be considered check failures. We have introduced the symbol :eyes: to denote aspects of packages which authors might consider modifying or tweaking at their discretion, but which do not indicate failing checks. The only check in this category at present is the check for duplicated function names, but other :eyes: checks are likely to be included as our automated check system expands its scope in the future.
+
 ## Software :package:
 
 ### New packages
@@ -64,12 +68,16 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following eighteen packages have had an update since the last newsletter: [frictionless](https://docs.ropensci.org/frictionless "Read and Write Frictionless Data Packages") ([`v1.0.1`](https://github.com/frictionlessdata/frictionless-r/releases/tag/v1.0.1)), [gert](https://docs.ropensci.org/gert "Simple Git Client for R") ([`v1.8.0`](https://github.com/r-lib/gert/releases/tag/v1.8.0)), [binman](https://docs.ropensci.org/binman "A Binary Download Manager") ([`v0.1.3`](https://github.com/ropensci/binman/releases/tag/v0.1.3)), [EDIutils](https://docs.ropensci.org/EDIutils "An API Client for the Environmental Data Initiative Repository") ([`v1.0.2`](https://github.com/ropensci/EDIutils/releases/tag/v1.0.2)), [geojsonio](https://docs.ropensci.org/geojsonio "Convert Data from and to GeoJSON or TopoJSON") ([`v0.9.5`](https://github.com/ropensci/geojsonio/releases/tag/v0.9.5)), [gittargets](https://docs.ropensci.org/gittargets "Data Version Control for the Targets Package") ([`0.0.5`](https://github.com/ropensci/gittargets/releases/tag/0.0.5)), [ijtiff](https://docs.ropensci.org/ijtiff "Comprehensive TIFF I/O with Full Support for ImageJ TIFF Files") ([`v2.2.8`](https://github.com/ropensci/ijtiff/releases/tag/v2.2.8)), [MODIStsp](https://docs.ropensci.org/MODIStsp "Find, Download and Process MODIS Land Products
+The following eighteen packages have had an update since the last newsletter: [frictionless](https://docs.ropensci.org/frictionless "Read and Write Frictionless Data Packages") ([`v1.0.1`](https://github.com/frictionlessdata/frictionless-r/releases/tag/v1.0.1)), [gert](https://docs.ropensci.org/gert "Simple Git Client for R") ([`v1.9.0`](https://github.com/r-lib/gert/releases/tag/v1.9.0)), [binman](https://docs.ropensci.org/binman "A Binary Download Manager") ([`v0.1.3`](https://github.com/ropensci/binman/releases/tag/v0.1.3)), [EDIutils](https://docs.ropensci.org/EDIutils "An API Client for the Environmental Data Initiative Repository") ([`v1.0.2`](https://github.com/ropensci/EDIutils/releases/tag/v1.0.2)), [geojsonio](https://docs.ropensci.org/geojsonio "Convert Data from and to GeoJSON or TopoJSON") ([`v0.9.5`](https://github.com/ropensci/geojsonio/releases/tag/v0.9.5)), [gittargets](https://docs.ropensci.org/gittargets "Data Version Control for the Targets Package") ([`0.0.5`](https://github.com/ropensci/gittargets/releases/tag/0.0.5)), [ijtiff](https://docs.ropensci.org/ijtiff "Comprehensive TIFF I/O with Full Support for ImageJ TIFF Files") ([`v2.2.8`](https://github.com/ropensci/ijtiff/releases/tag/v2.2.8)), [MODIStsp](https://docs.ropensci.org/MODIStsp "Find, Download and Process MODIS Land Products
     Data") ([`v2.0.9`](https://github.com/ropensci/MODIStsp/releases/tag/v2.0.9)), [osmextract](https://docs.ropensci.org/osmextract "Download and Import Open Street Map Data Extracts") ([`v0.4.1`](https://github.com/ropensci/osmextract/releases/tag/v0.4.1)), [restez](https://docs.ropensci.org/restez "Create and Query a Local Copy of GenBank in R") ([`v2.1.2`](https://github.com/ropensci/restez/releases/tag/v2.1.2)), [rgbif](https://docs.ropensci.org/rgbif "Interface to the Global Biodiversity Information Facility API") ([`v3.7.3`](https://github.com/ropensci/rgbif/releases/tag/v3.7.3)), [spiro](https://docs.ropensci.org/spiro "Manage Data from Cardiopulmonary Exercise Testing") ([`v0.1.1`](https://github.com/ropensci/spiro/releases/tag/v0.1.1)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.7.1`](https://github.com/ropensci/tarchetypes/releases/tag/0.7.1)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Workflows") ([`0.13.3`](https://github.com/ropensci/targets/releases/tag/0.13.3)), [taxlist](https://docs.ropensci.org/taxlist "Handling Taxonomic Lists") ([`v0.2.3`](https://github.com/ropensci/taxlist/releases/tag/v0.2.3)), [tic](https://docs.ropensci.org/tic "CI-Agnostic Workflow Definitions") ([`v0.13.1`](https://github.com/ropensci/tic/releases/tag/v0.13.1)), [wdman](https://docs.ropensci.org/wdman "Webdriver/Selenium Binary Manager") ([`v0.2.6`](https://github.com/ropensci/wdman/releases/tag/v0.2.6)), and [webmockr](https://docs.ropensci.org/webmockr "Stubbing and Setting Expectations on HTTP Requests") ([`v0.8.2`](https://github.com/ropensci/webmockr/releases/tag/v0.8.2)).
 
 ## Software Peer Review
 
 There are fifteen recently closed and active submissions and 2 submissions on hold. Issues are at different stages: 
+
+* One at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
+
+     * [canaper](https://github.com/ropensci/software-review/issues/475), Categorical Analysis of Neo- And Paleo-Endemism. Submitted by [Joel Nitta](https://joelnitta.com).  (Stats).
 
 * One at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
 
@@ -85,7 +93,7 @@ There are fifteen recently closed and active submissions and 2 submissions on ho
 
     * [healthdatacsv](https://github.com/ropensci/software-review/issues/358), Access data in the healthdata.gov catalog. Submitted by [iecastro](http://iecastro.netlify.com). 
 
-* Six at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
+* Five at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 
      * [dataset](https://github.com/ropensci/software-review/issues/553), Create Data Frames that are Easier to Exchange and Reuse. Submitted by [Daniel Antal](http://nl.linkedin.com/in/antaldaniel/). 
 
@@ -96,8 +104,6 @@ There are fifteen recently closed and active submissions and 2 submissions on ho
     * [tsbox](https://github.com/ropensci/software-review/issues/464), Class-Agnostic Time Series. Submitted by [Christoph Sax](http://www.cynkra.com).  (Stats).
 
     * [aorsf](https://github.com/ropensci/software-review/issues/532), Accelerated Oblique Random Survival Forests. Submitted by [Byron](https://github.com/bcjaeger). 
-
-    * [canaper](https://github.com/ropensci/software-review/issues/475), Categorical Analysis of Neo- And Paleo-Endemism. Submitted by [Joel Nitta](https://joelnitta.com).  (Stats).
 
 * Two at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
