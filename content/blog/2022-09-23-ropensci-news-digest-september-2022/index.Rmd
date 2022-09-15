@@ -147,7 +147,7 @@ new <- dplyr::filter(
 
 The following `r if(nrow(new)>1) english(nrow(new))` package`r if(nrow(new)>1) "s"` recently became a part of our software suite:
 
-```{r, results='asis', cache = TRUE, eval=FALSE}
+```{r, results='asis', cache = TRUE}
 packages <- split(new, seq(nrow(new)))
 present_one <- function(package) {
   url_parts <- urltools::url_parse(package$url)
@@ -502,7 +502,7 @@ if (length(tech_notes) > 0) {
 
 ## Use cases
 
-```{r usecases, eval=FALSE}
+```{r usecases}
 # rerun get_use_cases.R at the same time
 usecases <- jsonlite::read_json("../../../data/usecases/usecases.json")
 get_one_case <- function(usecase) {
@@ -519,9 +519,9 @@ usecases <- dplyr::filter(usecases, date >= as.Date(last_newsletter))
 usecases <- split(usecases, seq(nrow(usecases)))
 ```
 
-`snakecase::to_sentence_case(english(length(usecases)))` use case`if (length(usecases) > 1) "s"` of our packages and resources ha`if (length(usecases) > 1) "ve" else "s"` been reported since we sent the last newsletter.
+`r snakecase::to_sentence_case(english(length(usecases)))` use case`r if (length(usecases) > 1) "s"` of our packages and resources ha`r if (length(usecases) > 1) "ve" else "s"` been reported since we sent the last newsletter.
 
-```{r usecases2, results='asis', eval=FALSE}
+```{r usecases2, results='asis'}
 format_case <- function(usecase) {
   string <- sprintf("* [%s](%s). Reported by %s.", sub("\\.$", "", usecase$title), usecase$url, usecase$reporter)
 }
