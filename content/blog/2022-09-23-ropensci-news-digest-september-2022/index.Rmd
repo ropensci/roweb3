@@ -539,8 +539,6 @@ Explore [other use cases](/usecases) and [report your own](https://discuss.ropen
 
 We're looking for a new maintainer, or a new maintainer _team_, for each of the following packages:
 
-* [charlatan](https://docs.ropensci.org/charlatan/), Create fake data in R. [Issue for volunteering](https://github.com/ropensci/charlatan/issues/123).
-
 * [rgnparser](https://docs.ropensci.org/rgnparser/), Parse scientific names using gnparser. [Issue for volunteering](https://github.com/ropensci/rgnparser/issues/14).
 
 * [ritis](https://docs.ropensci.org/ritis), Integrated Taxonomic Information Service (ITIS) R client. [Issue for volunteering](https://github.com/ropensci/ritis/issues/23).
