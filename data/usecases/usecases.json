@@ -988,5 +988,14 @@
     "url": "https://discuss.ropensci.org/t/using-taxize-and-highcharter-in-r-to-extract-and-visualize-taxonomic-data/3096",
     "image": "noimage",
     "date": "2022-09-13"
+  },
+  {
+    "title": "Using handlr to convert bibtex citation to cff",
+    "reporter": "Athanasia Monika Mowinckel",
+    "tags": [],
+    "resource": "[handlr](https://docs.ropensci.org/handlr)",
+    "url": "https://discuss.ropensci.org/t/using-handlr-to-convert-bibtex-citation-to-cff/3107",
+    "image": "noimage",
+    "date": "2022-09-16"
   }
 ]
