@@ -131,9 +131,11 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 
 
-One use case of our packages and resources has been reported since we sent the last newsletter.
+Two use cases of our packages and resources have been reported since we sent the last newsletter.
 
 * [Using taxize and highcharter in R to extract and visualize taxonomic data](https://discuss.ropensci.org/t/using-taxize-and-highcharter-in-r-to-extract-and-visualize-taxonomic-data/3096). Reported by Stepminer.
+
+* [Using handlr to convert bibtex citation to cff](https://discuss.ropensci.org/t/using-handlr-to-convert-bibtex-citation-to-cff/3107). Reported by Athanasia Monika Mowinckel.
 
 Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)!
 
