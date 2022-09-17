@@ -1,9 +1,10 @@
 +++
-title = "A mentoring & training program for Scientific Open Source Champions"
+title = "Champion Program"
 description = "rOpenSci's Champions Program"
 tags = ["champions"]
 +++
 
+## A mentoring & training program for Scientific Open Source Champions
 
 Research software _should serve everyone in our communities_, which means it needs to be _sustainable, open, and built by and for all groups_. Currently, however, there is a dismaying lack of diversity in open source communities in general and the R / research software community in particular. Developers in the R community are overwhelmingly white, male, and from a handful of countries. That lack of diversity is potentially detrimental to the sustainability, utility and productivity of projects. 
 
