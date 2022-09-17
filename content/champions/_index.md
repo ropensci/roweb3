@@ -99,21 +99,24 @@ The estimated time commitment for each Champion is, on average, _10 hours per mo
 |December 2023|Cohort meeting: Reflections on program|Champions will be invited to share takeaways from the program with the cohort and start to define future roles for champions.|1.5 h|
 |February 2024|End of term|Close cohort and define new roles for champions.|1 h|
 
+## How to apply to be a Champion
+
+Please, [fill out the application form]() ([This template shows the information we will require in the form]()) before __Friday Nov 7, 2022.__
+The application forms __have to be filled in English__.
+
+### Application Timeline
+
+|Date|Event|
+|----|-----|
+|Sep 23, 2022|Call for Application opens|
+|Oct 24, 2022|Application Community Call|
+|Nov 1, 2022|Special co-working hours|
+|Nov 7, 2022|Call for applications closed|
+|Nov 25, 2022|Communication with selected champions.|
 
 
+## Do you have any questions?
 
+Please, contact our Community Manager [by email](mailto: yabellini@ropensci.org). 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-## How to apply
+We will have a [Community Call October, 24]() and a [Coworking space on November, 1]() to help you with your application.
