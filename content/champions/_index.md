@@ -104,9 +104,9 @@ The estimated time commitment for each Champion is, on average, _10 hours per mo
 
 
 
-## How to apply to be a Champion
+## How to apply 
 
-Please, [fill out the application form]() ([This template shows the information we will require in the form]()) before __Friday Nov 7, 2022.__
+Please, [fill out the application form]() ([This template shows the information we will require in the form](champions_template.md)) before __Friday Nov 7, 2022.__
 The application forms __have to be filled in English__.
 
 ### Application Timeline
@@ -124,4 +124,4 @@ The application forms __have to be filled in English__.
 
 Please, contact our Community Manager [by email](mailto: yabellini@ropensci.org). 
 
-We will have a [Community Call October, 24]() and a [Coworking space on November, 1]() to help you with your application.
+We will have a [Community Call October, 24](/commcalls/oct2022-champions/) and a [Coworking space on November, 1](/events/coworking-2022-11/) to help you with your application.
