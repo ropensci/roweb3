@@ -38,7 +38,7 @@ This is a _12-month-long cohort-based training and personal mentorship program_.
 
   - Quarterly cohort calls
 
-See [the program time line for more detail]()
+See [the program time line for more detail](#Program-timeline)
 
 
 ## What are the benefits of taking part? 
