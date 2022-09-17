@@ -73,6 +73,8 @@ By participating in this program, you can help rOpenSci and _your community grow
 
 We will provide a _$1000 (USD) stipend_ to the selected community champions.
 
+
+
 ## Program expectations (Commitment of the Champions)
 
 Champions are committed to completing training and attending meetings with their mentors and cohorts. After training, champions will develop their project: _build a new package, take over an R package maintenance or go through the peer review process_.
@@ -99,6 +101,8 @@ The estimated time commitment for each Champion is, on average, _10 hours per mo
 |September 2023|Cohort meeting: Reflections on events |Champions will be invited to share takeaways from their events with the cohort.|1.5 h|
 |December 2023|Cohort meeting: Reflections on program|Champions will be invited to share takeaways from the program with the cohort and start to define future roles for champions.|1.5 h|
 |February 2024|End of term|Close cohort and define new roles for champions.|1 h|
+
+
 
 ## How to apply to be a Champion
 
