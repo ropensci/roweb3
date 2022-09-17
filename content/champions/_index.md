@@ -85,6 +85,18 @@ The estimated time commitment for each Champion is, on average, _10 hours per mo
 
 ## Program timeline
 
+|Date|Event|Detail|Duration|
+|----|-----|------|--------|
+|December 2022|Kick-off event|Learn about the rOpenSci program, review the program expectations, and address questions. Meet mentors.|1.5 h|
+|
+|
+|
+|
+|
+
+
+
+
 
 
 ## How to apply
