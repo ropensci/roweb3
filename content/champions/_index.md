@@ -1,19 +1,90 @@
 +++
-title = "Champions Program"
+title = "A mentoring & training program for Scientific Open Source Champions"
 description = "rOpenSci's Champions Program"
 tags = ["champions"]
 +++
 
-## General information about the program
 
-Attack feet behind the couch destroy couch flop over give attitude hide when guests come over hopped up on goofballs, hunt anything that moves  intently sniff hand   stand in front of the computer screen  flop over leave dead animals as gifts. Sweet beast under the bed destroy couch all of a sudden go crazy flop over hopped up on goofballs give attitude flop over attack feet  stand in front of the computer screen  behind the couch,  claw drapes leave dead animals as gifts chase imaginary bugs why must they do that hide when guests come over  intrigued by the shower  rub face on everything  intently sniff hand  inspect anything brought into the house swat at dog, hunt anything that moves bag stretch swat at dog destroy couch hide when guests come over hopped up on goofballs  rub face on everything attack feet.  intently sniff hand  flop over hopped up on goofballs  claw drapes all of a sudden go crazy attack feet  intrigued by the shower  stand in front of the computer screen  flop over  rub face on everything chase imaginary bugs, hide when guests come over destroy couch hunt anything that moves swat at dog bag stretch give attitude inspect anything brought into the house why must they do that behind the couch, sweet beast under the bed leave dead animals as gifts  intently sniff hand  hunt anything that moves why must they do that destroy couch  intrigued by the shower attack feet give attitude. Behind the couch why must they do that  stand in front of the computer screen  leave dead animals as gifts hunt anything that moves  rub face on everything attack feet flop over flop over destroy couch  intrigued by the shower sweet beast under the bed inspect anything brought into the house, hide when guests come over  claw drapes all of a sudden go crazy bag stretch chase imaginary bugs hopped up on goofballs  intently sniff hand  give attitude swat at dog  intently sniff hand   rub face on everything. Bag stretch flop over  intrigued by the shower hide when guests come over attack feet behind the couch all of a sudden go crazy chase imaginary bugs destroy couch swat at dog  intently sniff hand , hunt anything that moves  stand in front of the computer screen  leave dead animals as gifts give attitude  claw drapes  rub face on everything hopped up on goofballs inspect anything brought into the house flop over why must they do that, sweet beast under the bed  stand in front of the computer screen  destroy couch chase imaginary bugs sweet beast under the bed swat at dog leave dead animals as gifts flop over  rub face on everything. Hide when guests come over bag stretch  stand in front of the computer screen  flop over give attitude destroy couch all of a sudden go crazy sweet beast under the bed hunt anything that moves  intrigued by the shower,  rub face on everything attack feet leave dead animals as gifts swat at dog flop over hopped up on goofballs inspect anything brought into the house  claw drapes why must they do that behind the couch,  intently sniff hand  chase imaginary bugs  intrigued by the shower  intently sniff hand  destroy couch behind the couch hide when guests come over attack feet.
+Research software _should serve everyone in our communities_, which means it needs to be _sustainable, open, and built by and for all groups_. Currently, however, there is a dismaying lack of diversity in open source communities in general and the R / research software community in particular. Developers in the R community are overwhelmingly white, male, and from a handful of countries. That lack of diversity is potentially detrimental to the sustainability, utility and productivity of projects. 
 
-## Benefits
+The rOpenSci Champions program is for __people from historically and systematically excluded groups__ who are interested in contributing to rOpenSci and the broader open source and open science communities.
 
-Attack feet behind the couch destroy couch flop over give attitude hide when guests come over hopped up on goofballs hunt anything that moves shake treat  chase mice  claw drapes, leave dead animals as gifts chew ipad power cord  bag stretch swat at dog  lick butt need to chase tail  rub face on everything all of a sudden go crazy, flop over  stand in front of the computer screen  leave dead animals as gifts flop over behind the couch hunt anything that moves hopped up on goofballs  rub face on everything shake treat . Behind the couch  claw drapes chew ipad power cord  hopped up on goofballs  stand in front of the computer screen  all of a sudden go crazy hide when guests come over flop over, lick butt  hunt anything that moves need to chase tail swat at dog attack feet.
+## Eligability
 
-## Time line
+We are looking for people, from anywhere in the world, who identify with the above and who
 
-Attack feet behind the couch destroy couch flop over give attitude hide when guests come over hopped up on goofballs hunt anything that moves need to chase tail all of a sudden go crazy, chew ipad power cord   bag stretch chase imaginary bugs  intently sniff hand  inspect anything brought into the house sweet beast under the bed leave dead animals as gifts, shake treat  lick butt intently stare at the same spot why must they do that flop over shake treat  need to chase tail inspect anything brought into the house.
+* already have development knowledge with the R language and a solid idea for an R package they’d like to develop, or
+
+* have already developed an R package, and want to have it peer reviewed through rOpenSci
+
+* have basic English communication skills
+
+
+## About the program
+
+This is a _12-month-long cohort-based training and personal mentorship program_. Champions will participate in:
+
+* A 6-week long cohort-based training on:
+
+  - how to plan and facilitate engaging and inclusive workshops to support participants’ success,
+  
+  - knowledge of various channels through which new members can engage in and contribute to rOpenSci and R projects, and
+  
+  - technical skills in software development and review.
+
+* Personal and group mentorship:
+
+  - A series of meetings with mentors
+
+  - Quarterly cohort calls
+
+See [the program time line for more detail]()
+
+
+## What are the benefits of taking part? 
+
+By participating in this program, you can help rOpenSci and _your community grow_. In addition to _training and personal mentoring_, some other benefits you will receive are:
+
+  * Learn and practice organizing and teaching workshops 
+  
+  * Learn and practice reviewer, and developer skills.
+  
+  * Gain transferable skills and experiences that are sought after for careers in open source software.
+  
+  * Become an active contributing member of the rOpenSci community.
+  
+  * Collaborate with others in Open Research Software projects.
+  
+  * Empower members of your community by sharing what you learn.
+  
+  * Create content in the language of your community.
+  
+  * Gain insights from other experts and increase your contact network.
+  
+  * Gain visibility through training, mentorship, and content creation.
+  
+  * Get recognition and acknowledgment for your work.
+  
+  * Co-develop this program and other rOpenSci projects by sharing feedback.
+  
+  * Become a mentor to other members of your community
+
+
+We will provide a _$1000 (USD) stipend_ to the selected community champions.
+
+## Program expectations (Commitment of the Champions)
+
+Champions are committed to completing training and attending meetings with their mentors and cohorts. After training, champions will develop their project: _build a new package, take over an R package maintenance or go through the peer review process_.
+
+Champions will also choose and perform several activities from a set, such as running recruitment activities, giving presentations, write blog post, and organizing peer groups in their communities.
+
+It is expected that champions will promote participation in peer review and contribution to rOpenSci open source software, infrastructure, and documentation. They will also gather feedback on where rOpenSci’s current programming might be improved to meet the needs of all who wish to participate.
+
+The estimated time commitment for each Champion is, on average, _10 hours per month_ (includes trainings, cohort events, mentoring meetings, package development or review process, and preparing for and hosting champions events). The total time commitment for each Champion will vary based on the path and activities they choose to do during the program.
+
+
+## Program timeline
+
+
 
 ## How to apply
