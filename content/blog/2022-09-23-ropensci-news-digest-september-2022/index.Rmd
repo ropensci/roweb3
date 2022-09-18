@@ -64,6 +64,10 @@ Consult our [Events](/events) page to find your local time and how to join.
     * Start putting together that package you've always meant to;
     * Or talk to [Nick Tierney](/author/nicholas-tierney/) and others about how to get started.
 
+* [Tuesday, 01 November 2022 9 AM North American Pacific / 16:00 UTC ](/events/coworking-2022-11/) "Champions Program Application Clinic" *Hosted by rOpenSci community manager [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) and [Steffi LaZerte](/author/steffi-lazerte/)*
+    * Cowork on a project of your choice;
+    * Prepare your application for the Champions Program;
+    * Or talk to [Yanina](/author/yanina-bellini-saibene/) about the application process.
 Find out about more [events](/events).
 
 ### pkgcheck updates
