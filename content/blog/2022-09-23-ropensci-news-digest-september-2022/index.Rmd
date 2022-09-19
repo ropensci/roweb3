@@ -40,7 +40,8 @@ You can read this post [on our blog](`r url`).
 Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
-## We are thrilled to launch our Champions program!
+
+### We are thrilled to launch our Champions program!
 
 [rOpenSci Champion Program](/champions/) is part of a series of activities and projects we are carrying out to ensure our research software serves everyone in our communities. 
 That is why this program focuses __on people who belong to groups that are historically and systematically excluded__ from the open software and research software communities and who are interested in contributing to rOpenSci and the broader open source and research software communities.
@@ -561,8 +562,6 @@ We're looking for a new maintainer, or a new maintainer _team_, for each of the 
 * [tabulizer](https://docs.ropensci.org/tabulizer/), Extract Tables from PDFs. [Issue for volunteering](https://github.com/ropensci/tabulizer/issues/148).
 
 * [RSelenium](https://docs.ropensci.org/RSelenium/), Automate browsers locally or remotely (for instance for webscraping). [Issue for volunteering](https://github.com/ropensci/RSelenium/issues/261).
-
-* [nbaR](https://docs.ropensci.org/nbaR/), R client library for the Netherlands Biodiversity Api (NBA). [Issue for volunteering](https://github.com/ropensci/nbaR/issues/64).
 
 * [elastic](https://docs.ropensci.org/elastic/), R client for the Elasticsearch HTTP API. [Issue for volunteering](https://github.com/ropensci/elastic/issues/292).
 
