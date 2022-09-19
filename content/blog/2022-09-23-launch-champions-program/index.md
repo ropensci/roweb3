@@ -15,9 +15,13 @@ tweet: ""
 
 [Entrada en español](/blog/2022/09/23/launch-champions-program-es/)
 
+
 > We are thrilled to launch our Champions program!
 
+
 ## Why a Champions Program?
+
+{{< figure src = "peep8.png" width = "300" alt = "A person with his dog working on a notebook." class = "pull-right" >}}
 
 Champion programs are designed to identify, recognize, and reward passionate community members.
 
@@ -25,11 +29,13 @@ At rOpenSci, we recognize that there is a dismaying lack of diversity in the eco
 
 We also know that communities of practice can drive meaningful change. We understand the importance of supporting a diverse cohort of community leaders and contributors to all aspects of research software creation as they strive to transform our ecosystem for the better.
 
-The rOpenSci Champion Program [is part of a series of activities and projects we are carrying out to ensure our research software serves everyone in our communities](/blog/2021/12/20/inclusive-leadership-program/), which means that it needs to be sustainable and open, and built by and for all groups.
+The rOpenSci Champion Program [is part of a series of activities and projects we are carrying out to ensure our research software serves everyone in our communities](/blog/2021/12/20/inclusive-leadership-program/), which means that it needs to be sustainable and open, and built __by and for all groups.__
 
 That is why this program focuses on __people who belong to groups that are historically and systematically excluded__ from the open software and research software communities and who are interested in contributing to rOpenSci and the broader open source and research software communities.
 
 ## What is our champions program?
+
+{{< figure src = "peep3.png" width = "300" alt = "Person holding a butterfly nest." class = "pull-left" >}}
 
 We have developed a **12-month-long program including cohort-based training, project development, and personal mentorship**. 
 
