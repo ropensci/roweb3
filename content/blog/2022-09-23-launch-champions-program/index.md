@@ -71,4 +71,4 @@ Please, contact our Community Manager [by email](mailto:yabellini@ropensci.org).
 We will have a [Community Call on October 24]() and a [Coworking space on November 1]() to help you with your application.
 
 
-We look forward to meeting all of you passionate Champions out there :)
+We look forward to meeting all of you passionate Champions out there :-D
