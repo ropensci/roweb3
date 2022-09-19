@@ -43,12 +43,12 @@ Now let's dive into the activity at and around rOpenSci!
 
 ### We are thrilled to launch our Champions program!
 
-[rOpenSci Champion Program](/champions/) is part of a series of activities and projects we are carrying out to ensure our research software serves everyone in our communities. 
-That is why this program focuses __on people who belong to groups that are historically and systematically excluded__ from the open software and research software communities and who are interested in contributing to rOpenSci and the broader open source and research software communities.
+[rOpenSci Champions Program](/champions/) is part of a series of activities and projects we are carrying out to ensure our research software serves everyone in our communities. 
+That is why this program focuses on __people who belong to groups that are historically and systematically excluded__ from the open software and research software communities and who are interested in contributing to rOpenSci and the broader open source and research software communities.
 
-If you are selected as Champions, you will develop your project and get training, mentoring, and a stipend for a year. 
+If you are selected as a Champion, over the course of a year you will develop a project, get training, and be mentored. You will also receive a small stipend. 
 
-You can apply until November 7, 2022 [using this form]().  You can [read more details on this blog post]() 
+You can apply until November 7, 2022 [using this form]().  You can read more details on this [blog post]() 
 ### Check out our Calls for new maintainers!
 
 A few packages are [looking for new maintainers](#call-for-maintainers).
