@@ -35,7 +35,8 @@ We have developed a **12-month-long program including cohort-based training and 
 
 After training, Champions will develop their project, which can be one of these options: 
 
-- create a new package, take over the maintenance of an existing rOpenSci package, 
+- create a new package, 
+- take over the maintenance of an existing rOpenSci package, 
 - go through the review process with an R package they already have developed, 
 - or be a reviewer on our peer review system.  
 
