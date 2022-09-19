@@ -8,6 +8,8 @@ tags:
   - help
   - beginner
   - welcome
+  - diversity
+  - champions program
 feature: true  
 # description: 
 tweet: "" 
