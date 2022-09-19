@@ -22,6 +22,14 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
+### We are thrilled to launch our Champions program!
+
+[rOpenSci Champion Program](/champions/) is part of a series of activities and projects we are carrying out to ensure our research software serves everyone in our communities. 
+That is why this program focuses __on people who belong to groups that are historically and systematically excluded__ from the open software and research software communities and who are interested in contributing to rOpenSci and the broader open source and research software communities.
+
+If you are selected as Champions, you will develop your project and get training, mentoring, and a stipend for a year. 
+
+You can apply until November 7, 2022 [using this form]().  You can [read more details on this blog post]() 
 ### Check out our Calls for new maintainers!
 
 A few packages are [looking for new maintainers](#call-for-maintainers).
@@ -45,6 +53,10 @@ Consult our [Events](/events) page to find your local time and how to join.
     * Start putting together that package you've always meant to;
     * Or talk to [Nick Tierney](/author/nicholas-tierney/) and others about how to get started.
 
+* [Tuesday, 01 November 2022 9 AM North American Pacific / 16:00 UTC ](/events/coworking-2022-11/) "Champions Program Application Clinic" *Hosted by rOpenSci community manager [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) and [Steffi LaZerte](/author/steffi-lazerte/)*
+    * Cowork on a project of your choice;
+    * Prepare your application for the Champions Program;
+    * Or talk to [Yanina](/author/yanina-bellini-saibene/) about the application process.
 Find out about more [events](/events).
 
 ### pkgcheck updates
@@ -154,8 +166,6 @@ We're looking for a new maintainer, or a new maintainer _team_, for each of the 
 * [tabulizer](https://docs.ropensci.org/tabulizer/), Extract Tables from PDFs. [Issue for volunteering](https://github.com/ropensci/tabulizer/issues/148).
 
 * [RSelenium](https://docs.ropensci.org/RSelenium/), Automate browsers locally or remotely (for instance for webscraping). [Issue for volunteering](https://github.com/ropensci/RSelenium/issues/261).
-
-* [nbaR](https://docs.ropensci.org/nbaR/), R client library for the Netherlands Biodiversity Api (NBA). [Issue for volunteering](https://github.com/ropensci/nbaR/issues/64).
 
 * [elastic](https://docs.ropensci.org/elastic/), R client for the Elasticsearch HTTP API. [Issue for volunteering](https://github.com/ropensci/elastic/issues/292).
 
