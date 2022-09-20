@@ -41,6 +41,14 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
+### We are thrilled to launch our Champions program!
+
+[rOpenSci Champions Program](/champions/) is part of a series of activities and projects we are carrying out to ensure our research software serves everyone in our communities. 
+That is why this program focuses on __people who belong to groups that are historically and systematically excluded__ from the open software and research software communities and who are interested in contributing to rOpenSci and the broader open source and research software communities.
+
+If you are selected as a Champion, over the course of a year you will develop a project, get training, and be mentored. You will also receive a small stipend. 
+
+You can apply until November 7, 2022 [using this form]().  You can read more details on this [blog post]() 
 ### Check out our Calls for new maintainers!
 
 A few packages are [looking for new maintainers](#call-for-maintainers).
@@ -64,6 +72,10 @@ Consult our [Events](/events) page to find your local time and how to join.
     * Start putting together that package you've always meant to;
     * Or talk to [Nick Tierney](/author/nicholas-tierney/) and others about how to get started.
 
+* [Tuesday, 01 November 2022 9 AM North American Pacific / 16:00 UTC ](/events/coworking-2022-11/) "Champions Program Application Clinic" *Hosted by rOpenSci community manager [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) and [Steffi LaZerte](/author/steffi-lazerte/)*
+    * Cowork on a project of your choice;
+    * Prepare your application for the Champions Program;
+    * Or talk to [Yanina](/author/yanina-bellini-saibene/) about the application process.
 Find out about more [events](/events).
 
 ### pkgcheck updates
@@ -147,7 +159,7 @@ new <- dplyr::filter(
 
 The following `r if(nrow(new)>1) english(nrow(new))` package`r if(nrow(new)>1) "s"` recently became a part of our software suite:
 
-```{r, results='asis', cache = TRUE, eval=FALSE}
+```{r, results='asis', cache = TRUE}
 packages <- split(new, seq(nrow(new)))
 present_one <- function(package) {
   url_parts <- urltools::url_parse(package$url)
@@ -502,7 +514,7 @@ if (length(tech_notes) > 0) {
 
 ## Use cases
 
-```{r usecases, eval=FALSE}
+```{r usecases}
 # rerun get_use_cases.R at the same time
 usecases <- jsonlite::read_json("../../../data/usecases/usecases.json")
 get_one_case <- function(usecase) {
@@ -519,9 +531,9 @@ usecases <- dplyr::filter(usecases, date >= as.Date(last_newsletter))
 usecases <- split(usecases, seq(nrow(usecases)))
 ```
 
-`snakecase::to_sentence_case(english(length(usecases)))` use case`if (length(usecases) > 1) "s"` of our packages and resources ha`if (length(usecases) > 1) "ve" else "s"` been reported since we sent the last newsletter.
+`r snakecase::to_sentence_case(english(length(usecases)))` use case`r if (length(usecases) > 1) "s"` of our packages and resources ha`r if (length(usecases) > 1) "ve" else "s"` been reported since we sent the last newsletter.
 
-```{r usecases2, results='asis', eval=FALSE}
+```{r usecases2, results='asis'}
 format_case <- function(usecase) {
   string <- sprintf("* [%s](%s). Reported by %s.", sub("\\.$", "", usecase$title), usecase$url, usecase$reporter)
 }
@@ -539,8 +551,6 @@ Explore [other use cases](/usecases) and [report your own](https://discuss.ropen
 
 We're looking for a new maintainer, or a new maintainer _team_, for each of the following packages:
 
-* [charlatan](https://docs.ropensci.org/charlatan/), Create fake data in R. [Issue for volunteering](https://github.com/ropensci/charlatan/issues/123).
-
 * [rgnparser](https://docs.ropensci.org/rgnparser/), Parse scientific names using gnparser. [Issue for volunteering](https://github.com/ropensci/rgnparser/issues/14).
 
 * [ritis](https://docs.ropensci.org/ritis), Integrated Taxonomic Information Service (ITIS) R client. [Issue for volunteering](https://github.com/ropensci/ritis/issues/23).
@@ -552,8 +562,6 @@ We're looking for a new maintainer, or a new maintainer _team_, for each of the 
 * [tabulizer](https://docs.ropensci.org/tabulizer/), Extract Tables from PDFs. [Issue for volunteering](https://github.com/ropensci/tabulizer/issues/148).
 
 * [RSelenium](https://docs.ropensci.org/RSelenium/), Automate browsers locally or remotely (for instance for webscraping). [Issue for volunteering](https://github.com/ropensci/RSelenium/issues/261).
-
-* [nbaR](https://docs.ropensci.org/nbaR/), R client library for the Netherlands Biodiversity Api (NBA). [Issue for volunteering](https://github.com/ropensci/nbaR/issues/64).
 
 * [elastic](https://docs.ropensci.org/elastic/), R client for the Elasticsearch HTTP API. [Issue for volunteering](https://github.com/ropensci/elastic/issues/292).
 
