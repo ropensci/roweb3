@@ -24,12 +24,12 @@ Now let's dive into the activity at and around rOpenSci!
 
 ### We are thrilled to launch our Champions program!
 
-[rOpenSci Champion Program](/champions/) is part of a series of activities and projects we are carrying out to ensure our research software serves everyone in our communities. 
-That is why this program focuses __on people who belong to groups that are historically and systematically excluded__ from the open software and research software communities and who are interested in contributing to rOpenSci and the broader open source and research software communities.
+[rOpenSci Champions Program](/champions/) is part of a series of activities and projects we are carrying out to ensure our research software serves everyone in our communities. 
+That is why this program focuses on __people who belong to groups that are historically and systematically excluded__ from the open software and research software communities and who are interested in contributing to rOpenSci and the broader open source and research software communities.
 
-If you are selected as Champions, you will develop your project and get training, mentoring, and a stipend for a year. 
+If you are selected as a Champion, over the course of a year you will develop a project, get training, and be mentored. You will also receive a small stipend. 
 
-You can apply until November 7, 2022 [using this form]().  You can [read more details on this blog post]() 
+You can apply until November 7, 2022 [using this form]().  You can read more details on this [blog post]() 
 ### Check out our Calls for new maintainers!
 
 A few packages are [looking for new maintainers](#call-for-maintainers).
@@ -85,7 +85,7 @@ The following eighteen packages have had an update since the last newsletter: [f
 
 ## Software Peer Review
 
-There are fifteen recently closed and active submissions and 2 submissions on hold. Issues are at different stages: 
+There are fourteen recently closed and active submissions and 2 submissions on hold. Issues are at different stages: 
 
 * One at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
 
@@ -95,9 +95,13 @@ There are fifteen recently closed and active submissions and 2 submissions on ho
 
      * [phruta](https://github.com/ropensci/software-review/issues/458), Phylogenetic Reconstruction and Time-dating. Submitted by [Cristian Román Palacios](http://cromanpa94.github.io/cromanpa/). 
 
-* Four at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
+* Six at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
 
-     * [melt](https://github.com/ropensci/software-review/issues/550), Multiple Empirical Likelihood Tests. Submitted by [Eunseop Kim](https://github.com/markean). 
+     * [dataset](https://github.com/ropensci/software-review/issues/553), Create Data Frames that are Easier to Exchange and Reuse. Submitted by [Daniel Antal](http://nl.linkedin.com/in/antaldaniel/). 
+
+    * [melt](https://github.com/ropensci/software-review/issues/550), Multiple Empirical Likelihood Tests. Submitted by [Eunseop Kim](https://github.com/markean). 
+
+    * [aorsf](https://github.com/ropensci/software-review/issues/532), Accelerated Oblique Random Survival Forests. Submitted by [Byron](https://github.com/bcjaeger). 
 
     * [hudr](https://github.com/ropensci/software-review/issues/524), A R interface for accessing HUD (US Department of Housing and Urban Development) APIs. Submitted by [Emmet Tam](https://github.com/etam4260/etam4260). 
 
@@ -105,17 +109,11 @@ There are fifteen recently closed and active submissions and 2 submissions on ho
 
     * [healthdatacsv](https://github.com/ropensci/software-review/issues/358), Access data in the healthdata.gov catalog. Submitted by [iecastro](http://iecastro.netlify.com). 
 
-* Five at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
+* Two at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 
-     * [dataset](https://github.com/ropensci/software-review/issues/553), Create Data Frames that are Easier to Exchange and Reuse. Submitted by [Daniel Antal](http://nl.linkedin.com/in/antaldaniel/). 
-
-    * [daiquiri](https://github.com/ropensci/software-review/issues/535), Data Quality Reporting for Temporal Datasets. Submitted by [Phuong Quan](https://github.com/phuongquan). 
-
-    * [aorsf](https://github.com/ropensci/software-review/issues/532), Accelerated Oblique Random Survival Forests. Submitted by [Byron](https://github.com/bcjaeger). 
+     * [daiquiri](https://github.com/ropensci/software-review/issues/535), Data Quality Reporting for Temporal Datasets. Submitted by [Phuong Quan](https://github.com/phuongquan). 
 
     * [tsbox](https://github.com/ropensci/software-review/issues/464), Class-Agnostic Time Series. Submitted by [Christoph Sax](http://www.cynkra.com).  (Stats).
-
-    * [aorsf](https://github.com/ropensci/software-review/issues/532), Accelerated Oblique Random Survival Forests. Submitted by [Byron](https://github.com/bcjaeger). 
 
 * Two at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
