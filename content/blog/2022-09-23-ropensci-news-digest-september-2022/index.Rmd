@@ -61,7 +61,7 @@ Thank you!
 ### New "Peer Reviewed" badges for Statistical Software Review
 
 We are overjoyed to have the first package pass through our Statistical Software Review process.
-[The canaper package](https://github.com/ropensci/canaper) by [Joel NItta](/author/joel-nitta/) was [approved on the 14th of Sept. 2022](https://github.com/ropensci/software-review/issues/475#issuecomment-1247094903).
+[The canaper package](https://docs.ropensci.org/canaper/) by [Joel Nitta](https://www.joelnitta.com/) was [approved on the 14th of September 2022](https://github.com/ropensci/software-review/issues/475#issuecomment-1247094903).
 Among many exciting aspects of the expansion of software peer review to statistical software is the introduction of new statistics-specific "Peer Reviewed" badges.
 Until now, every rOpenSci package has used the same single badge. Our new badges for statistical packages include a "grade" of [bronze, silver, or gold](https://stats-devguide.ropensci.org/pkgdev.html#pkgdev-badges), and the version number of the [*Statistical Software Standards*](https://stats-devguide.ropensci.org/standards.html) with which a package complies.
 You can see the first statistical software badge on the front page of [Joel's canaper repository](https://github.com/ropensci/canaper#canaper), with a "silver" grade for compliance with version 0.1 of our statistical standards.
