@@ -44,7 +44,6 @@ Champions will participate in a 6-week long cohort-based training on a) planning
 After training, Champions will develop their project, which can be one of these options: 
 
 - create a new package, 
-- take over the maintenance of an existing rOpenSci package, 
 - go through the review process with an R package they already have developed, 
 - or be a reviewer for our peer review system.  
 
