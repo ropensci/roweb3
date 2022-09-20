@@ -1,7 +1,3 @@
-+++
-title = "Champions Application form template"
-description = "rOpenSci Champions Program"
-+++
 
 _La plantilla del formulario también está disponible en [español]()._
 
