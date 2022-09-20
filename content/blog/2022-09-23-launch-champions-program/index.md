@@ -21,8 +21,6 @@ tweet: ""
 
 ## Why a Champions Program?
 
-{{< figure src = "peep8.png" width = "300" alt = "A person with his dog working on a notebook." class = "pull-right" >}}
-
 Champion programs are designed to identify, recognize, and reward passionate community members.
 
 At rOpenSci, we recognize that there is a dismaying lack of diversity in the ecosystem of research software and open source communities. The R Community is no exception; its developers are overwhelmingly white, male, and from a handful of countries. This disappointing lack of diversity is potentially detrimental to the sustainability, utility and productivity of projects. 
@@ -34,8 +32,6 @@ The rOpenSci Champion Program [is part of a series of activities and projects we
 That is why this program focuses on __people who belong to groups that are historically and systematically excluded__ from the open software and research software communities and who are interested in contributing to rOpenSci and the broader open source and research software communities.
 
 ## What is our champions program?
-
-{{< figure src = "peep3.png" width = "300" alt = "Person holding a butterfly nest." class = "pull-left" >}}
 
 We have developed a **12-month-long program including cohort-based training, project development, and personal mentorship**. 
 
