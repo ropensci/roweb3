@@ -65,7 +65,7 @@ We are overjoyed to have the first package pass through our Statistical Software
 Among many exciting aspects of the expansion of software peer review to statistical software is the introduction of new statistics-specific "Peer Reviewed" badges.
 Until now, every rOpenSci package has used the same single badge. Our new badges for statistical packages include a "grade" of [bronze, silver, or gold](https://stats-devguide.ropensci.org/pkgdev.html#pkgdev-badges), and the version number of the [*Statistical Software Standards*](https://stats-devguide.ropensci.org/standards.html) with which a package complies.
 You can see the first statistical software badge on the front page of [Joel's canaper repository](https://github.com/ropensci/canaper#canaper), with a "silver" grade for compliance with version 0.1 of our statistical standards.
-There are already quite a number of other statistical packages under review, and we'll be excited to see many more of these new badges appearing on rOpenSci packages soon.
+There are already a number of other [statistical packages under review](https://github.com/ropensci/software-review/issues?q=is%3Aissue+label%3Astats+is%3Aopen), and we'll be excited to see many more of these new badges appearing on rOpenSci packages soon.
 
 
 ### Coworking sessions continue!
