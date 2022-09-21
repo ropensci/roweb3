@@ -59,7 +59,7 @@ Champions will participate in:
     - A series of meetings with mentors
     - Quarterly cohort calls
 
-See [the program time line for more detail](#tentative-program-timeline)
+See [the program time line for more detail](#Tentative-Program-timeline)
 
 
 ## What are the benefits of taking part? 
