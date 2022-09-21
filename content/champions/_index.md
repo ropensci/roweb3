@@ -15,6 +15,7 @@ The _rOpenSci Champions Program_ is for __people from historically and systemati
 
 
 <br>
+
 ## Program goals
 
 In its inaugural year, the _rOpenSci Champions Program_ aims to support R developers, from around the world, and who identify themselves as members of a group that is systematically excluded from the open software community to:
