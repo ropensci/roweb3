@@ -19,7 +19,7 @@ The _rOpenSci Champions Program_ is for __people from historically and systemati
 
 In its inaugural year, the _rOpenSci Champions Program_ aims to support R developers, from around the world, and who identify themselves as members of a group that is systematically excluded from the open software community to:
 
-* Gain skill to develop their own R package or
+* Gain the skills to develop their own R package or
 * Gain confidence in submitting an R package for peer review or become a reviewer 
 * Learn how to lead a workshop or other event about package development or software peer review -  or another rOpenSci activity - in their local community
 * Connect with a supportive network of peers and mentors within the R ecosystem
