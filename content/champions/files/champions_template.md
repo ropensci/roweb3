@@ -8,10 +8,12 @@ _La plantilla del formulario también está disponible en [español]()._
 * Country: _country of residence_.
 * Pronouns: _please share preferred pronouns (optional)_
 * Language: _what language(s) do you prefer for your communication during the training and mentoring calls?_
-* Personal links: _provide links to Website/GitHub/GitLab/Twitter (some of them)_
-* Affiliation: _please provide your affiliations to institutions (like your university or institute)_
-* Community: _please provide affiliations to Communities (like R-Ladies, MiR, RSE Groups, LatinR, ReproHack, etc.)_
-[] I self-identify as a member of a systematically excluded group from open source software community. _If you check this option, please provide a description (no more than 200 words)_
+* GitHub or GitLab: _please, provide link to your profile_
+* Twitter: _please, provide link to your profile (optional)_
+* Website: _please, provide link to your website  (optional)_
+* Affiliation: _please provide your affiliations to university/institution/organization or other employer_
+* Community: _please provide affiliations to communities (like R-Ladies, MiR, RSE Groups, LatinR, ReproHack, etc. or indicate NA)_
+[] Please, check if you self-identify as a member of a systematically excluded group from the open source software community.  
 
 ## Expertise
 
@@ -56,3 +58,9 @@ _Describe the topics you can review in a maximun of 200 words_
 ## Motivation
 
 Why would you like to be part of the rOpenSci champions program? _Please respond in a maximum of 200 words._
+
+How do you expect your role as a rOpenSci Champion will inform or support your local community? _Please respond in a maximum of 200 words._
+
+What are three things that you consider to be most important to do or keep in mind when participating in a community of practice like rOpenSci? _Please, explain in a maximum of 400 words._
+
+Please indicate how your current employment status gives you the flexibility to dedicate time to fulfilling the responsibilities of the rOpenSci Champion Program. _Please respond in a maximum of 200 words._ 
