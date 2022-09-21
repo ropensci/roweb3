@@ -41,11 +41,6 @@ _Describe your project in a maximum of 200 words._
 
 or
 
-[] I want to contribute to maintain an rOpenSci package
-_Describe your previews experiences being a manteiner in a maximum of 200 words._
-
-or
-
 [] I want to submit a package to the review process. 
 _Describe your project in a maximum of 200 words. _
 Provide a link to github or gitlab repository for the package
