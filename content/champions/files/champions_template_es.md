@@ -17,19 +17,19 @@ _The form template is also available in [English](champions_template.md)._
 
 ## Experiencia
 
-* Do you have experience developing or significantly contributing to R packages? _Choose one option_
+* ¿Tienes experiencia desarrollando o contribuyendo significativamente a paquetes de R? _Selecciona una opción_
 
-  * No, I have never developed an R package
+  * No, nunca desarrollé o contribuí a un paquete de R.
   
-  * No, I have not developed an R package, but I contribute to one or more.
+  * No he desarrollado ningún paquete R, pero contribuyo a uno o más.
   
   * Yes, I have developed an R package, but I never sent to CRAN.
   
-  * Yes, I have developed an R package, and it is published in CRAN.
+  * Sí, he desarrollado un paquete R, y está publicado en CRAN.
   
-  * Yes, I have developed an R package before, and it went through rOpenSci review process.
+  * Sí, he desarrollado un paquete R antes, y pasó por el proceso de revisión de rOpenSci.
   
-If you developed a package before please, link the github/gitlab repo:
+Si has desarrollado un paquete antes, por favor, comparte el link al repositorio de github/gitlab:
 
 
 ## Project information
