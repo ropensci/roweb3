@@ -82,7 +82,7 @@ Our [pkgcheck checks](https://docs.ropensci.org/pkgcheck) now have an additional
 
 The following two packages recently became a part of our software suite:
 
-+ [canaper](https://docs.ropensci.org/canaper), developed by Joel H. Nitta: Provides functions to conduct categorical analysis of neo- and paleo-endemism (CANAPE). It has been [reviewed](https://github.com/ropensci/software-review/issues/475) by Klaus Schliep.
++ [canaper](https://docs.ropensci.org/canaper), developed by Joel H. Nitta: Provides functions to conduct categorical analysis of neo- and paleo-endemism (CANAPE). It has been [reviewed](https://github.com/ropensci/software-review/issues/475) by Klaus Schliep, and Luis Osorio.
 
 + [melt](https://docs.ropensci.org/melt), developed by Eunseop Kim: Performs multiple empirical likelihood tests for linear and generalized linear models. The package offers an easy-to-use interface and flexibility in specifying hypotheses and calibration methods, extending the framework to simultaneous inferences. The core computational routines are implemented using the Eigen C++ library and RcppEigen interface, with OpenMP for parallel computation. Details of the testing procedures are given in Kim, MacEachern, and Peruggia (2021) <arxiv:2112.09206>. This work was supported by the U.S. National Science Foundation under Grants No. SES-1921523 and DMS-2015552.  It is available on [CRAN]( https://CRAN.R-project.org/package=melt). It has been [reviewed](https://github.com/ropensci/software-review/issues/550) by Pierre Chausse, and Alex Stringer.
 

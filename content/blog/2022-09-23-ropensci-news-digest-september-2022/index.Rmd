@@ -229,6 +229,9 @@ present_one <- function(package) {
   if (nzchar(package$onboarding)) {
     string <- paste0(string, sprintf("It has been [reviewed](%s)", package$onboarding))
     if (length(rev) > 0) {
+      if (package$package == "canaper") {
+        rev <- c("Klaus Schliep", "Luis Osorio")
+      }
       string <- paste0(string, sprintf(" by %s.", nice_string(rev)))
     } else {
       string <- paste0(string, ".")
