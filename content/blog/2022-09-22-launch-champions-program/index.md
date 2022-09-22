@@ -1,7 +1,7 @@
 ---
 title: Announcing the rOpenSci Champions Program! 
 author: Yanina Bellini Saibene
-date: '2022-09-23T00:00:01-07:00'
+date: '2022-09-22T00:00:01-07:00'
 slug: launch-champions-program
 tags:
   - community
@@ -13,7 +13,7 @@ feature: true
 tweet: "" 
 ---
 
-[Entrada en español](/blog/2022/09/23/launch-champions-program-es/)
+[Entrada en español](/blog/2022/09/22/launch-champions-program-es/)
 
 
 > We are thrilled to launch our Champions Program pilot!
