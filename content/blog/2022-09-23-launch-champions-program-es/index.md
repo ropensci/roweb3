@@ -39,17 +39,18 @@ Hemos desarrollado un **programa de doce meses que incluye, capacitación basa e
 
 Las perconas que sean seleccionadas paticiparán en una capacitación de seis semanas sobre: a) planificar y facilitar talleres atractivos e inclusivos para apoyar el éxito de quienes participan, b) conocer los diversos canales a través de los cuales se puede participar y contribuir a los proyectos de rOpenSci y de R, y c) conocimientos técnicos en desarrollo y revisión de software. 
 
-After training, Champions will develop their project, which can be one of these options: 
+Tras la formación, los campeones y las campeonas desarrollarán su proyecto, que puede ser una de estas opciones: 
 
-- create a new package, 
-- go through the review process with an R package they already have developed, 
-- or be a reviewer for our peer review system.  
+- crear un nuevo paquete, 
+- pasar por el proceso de revisión con un paquete de R que ya hayan desarrollado, 
+- o ser un/a revisor/a de nuestro sistema de revisión por pares.  
 
-Other Champions activities include options for delivering a talk, writing blog posts and teaching other community members. During this stage, Champions will receive personal and group mentorship through meetings with mentors, quarterly cohort calls, Community Manager support, and a dedicated channel on rOpenSci Slack workspace.
 
-We will provide a $1000 (USD) stipend to the selected community champions.
+Otras actividades de las personas seleccionadas incluyen opciones de dar charlas, escribir artículos para la web y enseñar a otras personas de la comunidad. Durante esta etapa, los campeones y las campeonas recibirán tutorías individuales de sus mentores y en grupo por medio de reuniones de cohorte trimestrales, ayuda de la Community Manager y un canal dedicado en el Slack de rOpenSci.
 
-You can see all details on our [Champions Program webpage](/champions/).
+Proporcionaremos un estipendio de $1000 (USD) a los campeones y las campeonas que seleccionemos.
+
+Pueden ver todos los detalles en [la página web del programa](/champions/).
 
 
 ## How to apply?
