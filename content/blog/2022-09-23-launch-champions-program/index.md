@@ -46,7 +46,9 @@ After training, Champions will develop their project, which can be one of these 
 Other Champions activities include options for delivering a talk, writing blog posts and teaching other community members. During this stage, Champions will receive personal and group mentorship through meetings with mentors, quarterly cohort calls, Community Manager support, and a dedicated channel on rOpenSci Slack workspace.
 
 We will provide a $1000 (USD) stipend to the selected community champions.
+We are looking six to nine Champions for this first pilot. We expect to co-create the rOpenSci Champion program with the selected applicants and influence future editions with their experience and feedback.
 
+We look forward to receiving many applications and are committed to directing non-selected applicants towards other ways in which they can contribute to rOpenSci.
 You can see all details on our [Champions Program webpage](/champions/).
 
 
