@@ -19,7 +19,7 @@ outputs:
 vimeo:
 - id: ''
 resources:
-  - url: 
+  - url: /blog/2022/09/23/launch-champions-program
     name: 
     details: 
 speakers:  
