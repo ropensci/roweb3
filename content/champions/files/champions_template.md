@@ -1,5 +1,5 @@
 
-_La plantilla del formulario también está disponible en [español]()._
+_La plantilla del formulario también está disponible en [español](champions_template.md)._
 
 ## General information
 
@@ -39,13 +39,9 @@ _Choose one option_
 [] I want to develop a new package. 
 _Describe your project in a maximum of 200 words._
 
-or
-
 [] I want to submit a package to the review process. 
 _Describe your project in a maximum of 200 words. _
 Provide a link to github or gitlab repository for the package
-
-or
 
 [] I want to be part of the review process as a reviewer. 
 _Describe the topics you can review in a maximun of 200 words_
