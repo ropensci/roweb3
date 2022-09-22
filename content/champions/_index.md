@@ -10,6 +10,9 @@ Research software _should serve everyone in our communities_, which means it nee
 
 The _rOpenSci Champions Program_ is for __people from historically and systematically excluded groups__ who are interested in contributing to rOpenSci and the broader open source and open science communities.
 
+The rOpenSci Champion Program [is part of a series of activities and projects we are carrying out to ensure our research software serves everyone in our communities](/blog/2021/12/20/inclusive-leadership-program/) and is supported through a grant from the Chan Zuckerberg Initiative.
+
+
 ## Program goals
 
 In its inaugural year, the _rOpenSci Champions Program_ aims to support R developers, from around the world, and who identify themselves as members of a group that is systematically excluded from the open software community to:
@@ -144,3 +147,4 @@ The application forms __have to be filled in English__.
 Please, contact our Community Manager [by email](mailto:yabellini@ropensci.org). 
 
 We will have a [Community Call October, 24](/commcalls/oct2022-champions/) to share tips for submitting your Champions Program application and a [Coworking space on November, 1](/events/coworking-2022-11/) to help you with your application to the Champions Program.
+
