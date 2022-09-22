@@ -20,10 +20,10 @@ The _rOpenSci Champions Program_ is for __people from historically and systemati
 In its inaugural year, the _rOpenSci Champions Program_ aims to support R developers, from around the world, and who identify themselves as members of a group that is systematically excluded from the open software community to:
 
 * Gain the skills to develop their own R package or;
-* Gain confidence in submitting an R package for peer review or become a reviewer;
-* Learn how to lead a workshop or other event about package development or software peer review -  or another rOpenSci activity - in their local community;
-* Connect with a supportive network of peers and mentors within the R ecosystem;
-* Provide feedback to help rOpenSci to continue to host relevant, welcoming activities for R developers;
+* Gain confidence in submitting an R package for peer review or become a reviewer.
+* Learn how to lead a workshop or other event about package development or software peer review -  or another rOpenSci activity - in their local community.
+* Connect with a supportive network of peers and mentors within the R ecosystem.
+* Provide feedback to help rOpenSci to continue to host relevant, welcoming activities for R developers.
 * Gain transferable skills and experiences that are sought after for careers in open source software.
 
 
@@ -32,13 +32,13 @@ In its inaugural year, the _rOpenSci Champions Program_ aims to support R develo
 
 We are looking for people that work on STEAM fields, from anywhere in the world, who identify with the above and who:
 
-* Already have development knowledge with the R language and a solid idea for an R package they’d like to develop, or
+* Already have development knowledge with the R language and a solid idea for an R package they’d like to develop, or;
 
-* Have already developed an R package, and want to have it peer reviewed through rOpenSci
+* Have already developed an R package, and want to have it peer reviewed through rOpenSci.
 
-* Want to become a reviewer for rOpenSci
+* Want to become a reviewer for rOpenSci.
 
-* Have basic English communication skills (written and verbal)
+* Have basic English communication skills (written and verbal).
 
 
 ## About the program
