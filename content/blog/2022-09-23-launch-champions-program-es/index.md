@@ -20,7 +20,7 @@ tweet: ""
 > ¡Estamos muy felices de lanzar nuestro programa de Campeones y Campeonas!
 
 
-## Porqué un programa de Campeones y Campeonas?
+## ¿Porqué un programa de Campeones y Campeonas?
 
 Estos programas se diseñan para identificar, reconocer y premiar a miembros apasionados de nuestras comunidades. 
 
@@ -31,13 +31,13 @@ También sabemos que las comunidades de práctica pueden impulsar un cambio sign
 
 Este programa de Campeones y Campeonas de rOpenSci [forma parte de una serie de actividades y proyectos que estamos llevando a cabo para garantizar que nuestro software de investigación esté al servicio de todas las personas de nuestras comunidades](/blog/2021/12/20/inclusive-leadership-program/), lo que significa que debe ser sustentable, abierto y construido __por y para todos los grupos.__ 
 
-That is why this program focuses on __people who belong to groups that are historically and systematically excluded__ from the open software and research software communities and who are interested in contributing to rOpenSci and the broader open source and research software communities.
+Es por esto que este programa está pensando para que participen __personas que pertenecen a grupos histórica y sistemáticamente excluidos__ de las comunidades de software abierto y de software de investigación y que están interesadas en contribuir a rOpenSci y al ecosistema más amplio de comunidades de software de código abierto y de investigación.
 
-## What is our champions program?
+## ¿En qué consiste nuestro programa? 
 
-We have developed a **12-month-long program including cohort-based training, project development, and personal mentorship**. 
+Hemos desarrollado un **programa de doce meses que incluye, capacitación basa en cohortes, el desarrollo de un proyecto y tutorías individuales**. 
 
-Champions will participate in a 6-week long cohort-based training on a) planning and facilitating engaging and inclusive workshops to support participants’ success, b) knowledge of various channels through which new members can engage in and contribute to rOpenSci and R projects, and c) technical skills in software development and review. 
+Las perconas que sean seleccionadas paticiparán en una capacitación de seis semanas sobre: a) planificar y facilitar talleres atractivos e inclusivos para apoyar el éxito de quienes participan, b) conocer los diversos canales a través de los cuales se puede participar y contribuir a los proyectos de rOpenSci y de R, y c) conocimientos técnicos en desarrollo y revisión de software. 
 
 After training, Champions will develop their project, which can be one of these options: 
 
