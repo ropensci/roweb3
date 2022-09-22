@@ -21,6 +21,10 @@ In its inaugural year, the _rOpenSci Champions Program_ aims to support R develo
 * Provide feedback to help rOpenSci to continue to host relevant, welcoming activities for R developers.
 * Gain transferable skills and experiences that are sought after for careers in open source software.
 
+We are looking six to nine Champions for this first pilot. We expect to co-create the rOpenSci Champion program with the selected applicants and influence future editions with their experience and feedback.
+
+We look forward to receiving many applications and are committed to directing non-selected applicants towards other ways in which they can contribute to rOpenSci.
+
 
 ## Eligibility
 
