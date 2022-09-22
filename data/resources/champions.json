@@ -1,0 +1,11 @@
+[
+{
+   "title": "Contributing Guide",
+   "text": "The purpose of this guide is to welcome you to rOpenSci and help you recognize yourself as a potential contributor.",
+   "url": "https://contributing.ropensci.org"
+},
+{
+   "title": "ropensci-docs GitHub Organization",
+   "text": "Documentation of rOpenSci packages, automatically updated.",
+   "url": "https://github.com/ropensci-docs"
+}]

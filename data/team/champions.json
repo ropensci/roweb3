@@ -1,0 +1,24 @@
+[{
+   "name": "You?",
+   "url": "https://www.pexels.com/fr-fr/photo/texte-mot-espace-de-copie-soutien-5912741/",
+   "image" : "/img/team/you1.jpg",
+   "affiliation": "Somewhere",
+   "roles": [
+      "champion"
+   ],
+   "twitter": "ropensci",
+   "github": "ropensci",
+   "home": "https://www.pexels.com/fr-fr/photo/texte-mot-espace-de-copie-soutien-5912741/"
+},
+{
+   "name": "And you?",
+   "affiliation": "Anywhere",
+   "url": "https://www.pexels.com/fr-fr/photo/bleu-lettres-mot-vue-de-haut-5912585/",
+   "image" : "/img/team/you2.jpg",
+   "roles": [
+      "champion"
+   ],
+   "twitter": "ropensci",
+   "github": "ropensci",
+   "home": "https://www.pexels.com/fr-fr/photo/bleu-lettres-mot-vue-de-haut-5912585/"
+}]

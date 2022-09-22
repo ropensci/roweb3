@@ -1,0 +1,46 @@
+{{ define "main" }}
+    <section class="blog-post">
+      <div class="container">
+        <!-- Header text -->
+        <div class="row">
+          <div class="col-md-8 content">
+            <h1>{{ .Title  }} — {{ .Description }}</h1>
+            {{ .Content }}
+          </div>
+        </div>
+
+        <h2 class="title mt-5">Resources</h2>
+        {{ partial "resources/resources-cards" (dict "resources" .Site.Data.resources.champions ) }}
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="row about-block">
+          <div class="col-md-3 text-md-right">
+            <h4 class="about-block__title" id="editors">
+              Champions
+            </h4>
+          </div>
+          <div class="col-md-6 about-block__text">
+            <p>
+              See <a href="#how-to-apply">how to apply</a>.
+            </p>
+          </div>
+        </div>
+        {{ $champions := .Site.Data.team.champions }}
+        {{ partial "whole-page-fragments/team/team-section" (dict "team" $champions)  }}
+          <div class="row about-block">
+          <div class="col-md-3 text-md-right">
+            <h4 class="about-block__title" id="editors">
+              Mentors
+            </h4>
+          </div>
+        </div>
+        {{ $mentors := .Site.Data.team.mentors }}
+        {{ partial "whole-page-fragments/team/team-section" (dict "team" $mentors)  }}
+        </div>
+        </section>
+{{ partial "whole-page-fragments/volunteer"  (dict "divider" "rl" "Site" .Site ) }}
+{{ partial "whole-page-fragments/newsletter"  (dict "divider" "lr" ) }}
+{{ partial "whole-page-fragments/brands"  (dict "Site" .Site "divider" "rl" ) }}
+{{ end }}
