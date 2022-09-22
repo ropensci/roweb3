@@ -1,5 +1,5 @@
 
-_La plantilla del formulario también está disponible en [español](champions_template.md)._
+_La plantilla del formulario también está disponible en [español](/champions/files/champions_template_es)._
 
 ## General information
 

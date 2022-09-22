@@ -1,5 +1,5 @@
 
-_The form template is also available in [English](champions_template.md)._
+_The form template is also available in [English](/champions/files/champions_template)._
 
 ## Información General
 
