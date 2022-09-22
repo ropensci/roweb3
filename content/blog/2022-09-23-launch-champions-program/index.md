@@ -56,7 +56,7 @@ You can see all details on our [Champions Program webpage](/champions/).
 
 ## How to apply?
 
-Please, fill out the [application form](https://airtable.com/shrAsYlSXU0coJ5Ld) (this [template](/champions/file/champions_template.md) shows the information we require) before __Friday, Nov 7, 2022__.
+Please, fill out the [application form](https://airtable.com/shrAsYlSXU0coJ5Ld) (this [template](/champions/file/champions_template) shows the information we require) before __Friday, Nov 7, 2022__.
 
 The application forms have to be filled in _English_.
 
