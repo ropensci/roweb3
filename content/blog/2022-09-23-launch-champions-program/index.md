@@ -33,7 +33,7 @@ That is why this program focuses on __people who belong to groups that are histo
 We are looking for people that work in STEAM fields, from anywhere in the world, who already have development knowledge with the R language. 
 
 
-## What is our champions program?
+## What is our Champions Program?
 
 We have developed a **12-month-long program including cohort-based training, project development, and personal mentorship**. 
 
@@ -48,7 +48,7 @@ After training, Champions will develop their project, which can be one of these 
 Other Champions activities include options for delivering a talk, writing blog posts and teaching other community members. During this stage, Champions will receive personal and group mentorship through meetings with mentors, quarterly cohort calls, Community Manager support, and a dedicated channel on rOpenSci Slack workspace.
 
 We will provide a $1000 (USD) stipend to the selected community champions.
-We are looking six to nine Champions for this first pilot. We expect to co-create the rOpenSci Champion program with the selected applicants and influence future editions with their experience and feedback.
+We are looking for six to nine Champions for this first pilot. We expect to co-create the rOpenSci Champions Program with the selected applicants and influence future editions with their experience and feedback.
 
 We look forward to receiving many applications and are committed to directing non-selected applicants towards other ways in which they can contribute to rOpenSci.
 You can see all details on our [Champions Program webpage](/champions/).
@@ -60,16 +60,15 @@ Please, fill out the [application form](https://airtable.com/shrAsYlSXU0coJ5Ld) 
 
 The application forms have to be filled in _English_.
 
-### Application Timeline
+### Application timeline
 
 |Date|Event|
 |----|-----|
 |Sep 23, 2022|Call for Applications opens|
-|Oct 24, 2022| [OPTIONAL] [Community Call](/commcalls/oct2022-champions/) -  Tips for submitting your champions program application |
-
-|Nov 1, 2022| [OPTIONAL] [Co-working hours](/events/coworking-2022-11/): receive help with your application to the champions program. |
+|Oct 24, 2022| [OPTIONAL] [Community Call](/commcalls/oct2022-champions/) -  Tips for submitting your Champions Program application |
+|Nov 1, 2022| [OPTIONAL] [Co-working hours](/events/coworking-2022-11/): receive help with your application to the Champions Program |
 |Nov 7, 2022|Call for applications closed|
-|Nov 25, 2022|Communication with selected champions.|
+|Nov 25, 2022|Communication with selected Champions |
 
 
 ## Do you have any questions?
