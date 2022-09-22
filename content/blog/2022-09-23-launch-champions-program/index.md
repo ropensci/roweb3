@@ -30,7 +30,7 @@ We also know that communities of practice can drive meaningful change. We unders
 The rOpenSci Champion Program [is part of a series of activities and projects we are carrying out to ensure our research software serves everyone in our communities](/blog/2021/12/20/inclusive-leadership-program/), which means that it needs to be sustainable and open, and built __by and for all groups.__
 
 That is why this program focuses on __people who belong to groups that are historically and systematically excluded__ from the open software and research software communities and who are interested in contributing to rOpenSci and the broader open source and research software communities.
-
+We are looking for people that work in STEAM fields, from anywhere in the world, who already have development knowledge with the R language. 
 ## What is our champions program?
 
 We have developed a **12-month-long program including cohort-based training, project development, and personal mentorship**. 
