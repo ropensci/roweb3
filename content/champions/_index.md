@@ -58,33 +58,34 @@ Champions will participate in:
     - A series of meetings with mentors;
     - Quarterly cohort calls.
 
-See [the program time line for more detail](#Tentative-Program-timeline)
+See [the program time line for more detail](#Tentative-Program-timeline).
 
 
 ## What are the benefits of taking part? 
+
 {{< figure src = "/images/volunteer/peep5.png" width = "300" alt = "Person holding a butterfly nest." class = "pull-right" >}}
 
 By participating in this program, you can help rOpenSci and your community grow. In addition to training and personal mentoring, some other benefits you will receive are:
 
-* Learn and practice organizing and teaching workshops 
+* Learn and practice organizing and teaching workshops;
 
-* Learn and practice reviewer, and developer skills
+* Learn and practice reviewer, and developer skills;
 
-* Gain insights from other experts and expand your professional network
+* Gain insights from other experts and expand your professional network;
 
-* Gain visibility through training, mentorship, and content creation
+* Gain visibility through training, mentorship, and content creation;
 
-* Get recognition and acknowledgment for your work
+* Get recognition and acknowledgment for your work;
 
-* Co-develop this program and other rOpenSci projects by sharing feedback
+* Co-develop this program and other rOpenSci projects by sharing feedback;
 
-* Become an active contributing member of the rOpenSci community
+* Become an active contributing member of the rOpenSci community;
 
-* Create content in the language of your community
+* Create content in the language of your community;
 
-* Empower members of your community by sharing what you learn
+* Empower members of your community by sharing what you learn;
 
-* Become a mentor to other members of your community
+* Become a mentor to other members of your community;
 
 We will provide a _$1000 (USD) stipend_ to the selected community Champions.
 
