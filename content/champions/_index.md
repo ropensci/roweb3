@@ -1,19 +1,14 @@
 +++
 title = "Champions Program"
-description = "rOpenSci's Champions Program"
+description = "A mentoring & training program for Scientific Open Source Champions"
 tags = ["champions"]
 +++
-
-## A mentoring & training program for Scientific Open Source Champions
 
 {{< figure src = "/images/volunteer/peep8.png" width = "300" alt = "A person with his dog working on a notebook." class = "pull-left" >}}
 
 Research software _should serve everyone in our communities_, which means it needs to be _sustainable, open, and built by and for all groups_. Currently, however, there is a dismaying lack of diversity in open source communities in general and the R / research software community in particular. Developers in the R community are overwhelmingly white, male, and from a handful of countries. That disappointing lack of diversity is potentially detrimental to the sustainability, utility and productivity of projects. 
 
 The _rOpenSci Champions Program_ is for __people from historically and systematically excluded groups__ who are interested in contributing to rOpenSci and the broader open source and open science communities.
-
-
-<br>
 
 ## Program goals
 

@@ -3,9 +3,9 @@
       <div class="container">
         <!-- Header text -->
         <div class="row">
-          <div class="col-md-8 software-content content">
-            <h1>{{ .Title }}</h1>
-            {{ .Content }}
+          <div class="col-md-8 content">
+            <h1>{{ .Title  }} — {{ .Description }}</h1>
+            {{ .Content | markdownify }}
           </div>
         </div>
 
