@@ -20,7 +20,7 @@ vimeo:
 - id: ''
 resources:
   - url: /blog/2022/09/23/launch-champions-program
-    name: 
+    name: Announcing the rOpenSci Champions Program! 
     details: 
 speakers:  
   - name: Yanina Bellini Saibene
