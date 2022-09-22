@@ -27,7 +27,8 @@ In its inaugural year, the _rOpenSci Champions Program_ aims to support R develo
 * Gain transferable skills and experiences that are sought after for careers in open source software.
 
 
-## Eligability
+## Eligibility
+
 {{< figure src = "/images/volunteer/peep3.png" width = "300" alt = "Person holding a butterfly nest." class = "pull-right" >}}
 
 We are looking for people that work on STEAM fields, from anywhere in the world, who identify with the above and who:
