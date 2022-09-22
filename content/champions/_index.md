@@ -85,7 +85,7 @@ By participating in this program, you can help rOpenSci and your community grow.
 
 * Empower members of your community by sharing what you learn;
 
-* Become a mentor to other members of your community;
+* Become a mentor to other members of your community.
 
 We will provide a _$1000 (USD) stipend_ to the selected community Champions.
 
