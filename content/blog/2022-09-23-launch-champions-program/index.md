@@ -63,7 +63,8 @@ The application forms have to be filled in _English_.
 |Date|Event|
 |----|-----|
 |Sep 23, 2022|Call for Applications opens|
-|Oct 24, 2022|Applications Community Call|
+|Oct 24, 2022| [OPTIONAL] Community Call| -  Tips for submitting your champions program application
+
 |Nov 1, 2022|Special [co-working](/events/coworking-2022-11/) hours|
 |Nov 7, 2022|Call for applications closed|
 |Nov 25, 2022|Communication with selected champions.|
