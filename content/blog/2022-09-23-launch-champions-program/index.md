@@ -74,7 +74,7 @@ The application forms have to be filled in _English_.
 
 Please, contact our Community Manager [by email](mailto:yabellini@ropensci.org). 
 
-We will have a [Community Call on October 24]() and a [Coworking space on November 1](/events/coworking-2022-11/) to help you with your application.
+We will have a [Community Call on October 24](/commcalls/oct2022-champions/) and a [Coworking space on November 1](/events/coworking-2022-11/) to help you with your application.
 
 
 **We look forward to meeting all of you passionate Champions out there :-D**
