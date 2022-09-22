@@ -133,7 +133,7 @@ The application forms __have to be filled in English__.
 |Date|Event|
 |----|-----|
 |Sep 23, 2022|Call for Application opens|
-|Oct 24, 2022|[OPTIONAL] Community Call - Tips for submitting your Champions Program application|
+|Oct 24, 2022|[OPTIONAL] [Community Call - Tips for submitting your Champions Program application](/commcalls/oct2022-champions/)|
 |Nov 1, 2022|[OPTIONAL] Co-working hours: receive help with your application to the Champions Program.|
 |Nov 7, 2022|Call for applications closed|
 |Nov 25, 2022|Communication with selected Champions.|
