@@ -17,14 +17,14 @@ tweet: ""
 
 [Post in English](/blog/2022/09/23/launch-champions-program/)
 
-> We are thrilled to launch our Champions program!
+> ¡Estamos muy felices de lanzar nuestro programa de Campeones y Campeonas!
 
 
-## Why a Champions Program?
+## Porqué un programa de Campeones y Campeonas?
 
-Champion programs are designed to identify, recognize, and reward passionate community members.
+Estos programas se diseñan para identificar, reconocer y premiar a miembros apasionados de nuestras comunidades. 
 
-At rOpenSci, we recognize that there is a dismaying lack of diversity in the ecosystem of research software and open source communities. The R Community is no exception; its developers are overwhelmingly white, male, and from a handful of countries. This disappointing lack of diversity is potentially detrimental to the sustainability, utility and productivity of projects. 
+En rOpenSci, reconocemos que existe una consternadora falta de diversidad en el ecosistema de las comunidades de software de investigación y de código abierto. La Comunidad R no es una excepción; las personas que realizan el desarrollo de software son abrumadoramente blancas, hombres y de un puñado de países. Esta decepcionante falta de diversidad es potencialmente perjudicial para la sostenibilidad, la utilidad y la productividad de los proyectos.  
 
 We also know that communities of practice can drive meaningful change. We understand the importance of supporting a diverse cohort of community leaders and contributors to all aspects of research software creation as they strive to transform our ecosystem for the better.
 
