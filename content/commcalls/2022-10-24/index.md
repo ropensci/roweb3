@@ -19,9 +19,12 @@ outputs:
 vimeo:
 - id: ''
 resources:
-  - url: /blog/2022/09/23/launch-champions-program
+  - url: /blog/2022/09/22/launch-champions-program
     name: Announcing the rOpenSci Champions Program! 
-    details: 
+    details:
+  - url: /blog/2022/09/22/launch-champions-program-es
+    name: Anuncio del lanzamiento del programa de Campeones y Campeonas de rOpenSci
+    details:
 speakers:  
   - name: Yanina Bellini Saibene
     bio: rOpenSci Community Manager
