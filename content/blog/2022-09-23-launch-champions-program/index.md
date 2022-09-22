@@ -16,7 +16,7 @@ tweet: ""
 [Entrada en español](/blog/2022/09/23/launch-champions-program-es/)
 
 
-> We are thrilled to launch our Champions program pilot!
+> We are thrilled to launch our Champions Program pilot!
 
 
 ## Why a Champions Program?
