@@ -50,31 +50,31 @@ Otras actividades de las personas seleccionadas incluyen opciones de dar charlas
 
 Proporcionaremos un estipendio de $1000 (USD) a los campeones y las campeonas que seleccionemos.
 
-Pueden ver todos los detalles en [la página web del programa](/champions/).
+Puedes ver todos los detalles en [la página web del programa](/champions/).
 
 
-## How to apply?
+## ¿Cómo aplicar?
 
-Please, fill out the [application form]() (this [template]() shows the information we require) before __Friday, Nov 7, 2022__.
+Por favor, completa el [formulario de aplicación](https://airtable.com/shrAsYlSXU0coJ5Ld) (esta [plantilla](/champions/file/champions_template_es) muestra la información requerida) antes del __Viernes, 7 de Noviembre de 2022__.
 
-The application forms have to be filled in _English_.
+El formulario debe ser completado en _Inglés_.
 
-### Application Timeline
+### Cronograma
 
-|Date|Event|
+|Fecha|Evento|
 |----|-----|
-|Sep 23, 2022|Call for Applications opens|
-|Oct 24, 2022|Applications Community Call|
-|Nov 1, 2022|Special [co-working](/events/coworking-2022-11/) hours|
-|Nov 7, 2022|Call for applications closed|
-|Nov 25, 2022|Communication with selected champions.|
+|Sep 23, 2022|Se abre el llamado a postulaciones|
+|Oct 24, 2022|[Opcional] [Charlas de la comunidad](/commcalls/oct2022-champions/) - Consejos para que escribas y envies tu postulación al programa|
+|Nov 1, 2022|[Opcional] [Horas de co-trabajo](/events/coworking-2022-11/) - recibe ayuda con tu postulación para el programa de campeones |
+|Nov 7, 2022|Se cierra el llamado a postulaciones|
+|Nov 25, 2022|Comunicación con las personas seleccionadas|
 
 
-## Do you have any questions?
+## ¿Tienes preguntas?
 
-Please, contact our Community Manager [by email](mailto:yabellini@ropensci.org). 
+Por favor, contacta a nuestra Community Manager [por email](mailto:yabellini@ropensci.org). 
 
-We will have a [Community Call on October 24]() and a [Coworking space on November 1](/events/coworking-2022-11/) to help you with your application.
+Recuerda que tendremos una [Charla de la comunidad el 24 de Octubre](/commcalls/oct2022-champions/) y un [espacio de co-trabajo el 1 de Noviembre](/events/coworking-2022-11/) para ayudarte con tu postulación.
 
 
 **Estamos deseando conocer a todas las personas apasionadas que hay por ahí :-D**
