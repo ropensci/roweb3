@@ -1,5 +1,5 @@
 ---
-title: ¡Anunciamos el programa de campeones y campeonas de rOpenSci! 
+title: ¡Anunciamos el programa de Campeones y Campeonas de rOpenSci! 
 author: Yanina Bellini Saibene
 date: '2022-09-22T00:00:01-07:00'
 slug: launch-champions-program-es
