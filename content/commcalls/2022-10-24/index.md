@@ -23,7 +23,7 @@ resources:
     name: Announcing the rOpenSci Champions Program! 
     details:
   - url: /blog/2022/09/22/launch-champions-program-es
-    name: Anuncio del lanzamiento de nuestro programa de Campeones y Campeonas
+    name: Anuncio del lanzamiento del programa de Campeones y Campeonas de rOpenSci
     details:
 speakers:  
   - name: Yanina Bellini Saibene
