@@ -26,9 +26,10 @@ Estos programas se diseñan para identificar, reconocer y premiar a miembros apa
 
 En rOpenSci, reconocemos que existe una consternadora falta de diversidad en el ecosistema de las comunidades de software de investigación y de código abierto. La Comunidad R no es una excepción; las personas que realizan el desarrollo de software son abrumadoramente blancas, hombres y de un puñado de países. Esta decepcionante falta de diversidad es potencialmente perjudicial para la sostenibilidad, la utilidad y la productividad de los proyectos.  
 
-We also know that communities of practice can drive meaningful change. We understand the importance of supporting a diverse cohort of community leaders and contributors to all aspects of research software creation as they strive to transform our ecosystem for the better.
+También sabemos que las comunidades de práctica pueden impulsar un cambio significativo. Comprendemos la importancia de apoyar a una cohorte diversa de personas que colaboran en todos los aspectos de la creación de software de investigación y que son líderes comunitarios mientras se esfuerzan por transformar nuestro ecosistema para mejor.
 
-The rOpenSci Champion Program [is part of a series of activities and projects we are carrying out to ensure our research software serves everyone in our communities](/blog/2021/12/20/inclusive-leadership-program/), which means that it needs to be sustainable and open, and built __by and for all groups.__
+
+Este programa de Campeones y Campeonas de rOpenSci [forma parte de una serie de actividades y proyectos que estamos llevando a cabo para garantizar que nuestro software de investigación esté al servicio de todas las personas de nuestras comunidades](/blog/2021/12/20/inclusive-leadership-program/), lo que significa que debe ser sustentable, abierto y construido __por y para todos los grupos.__ 
 
 That is why this program focuses on __people who belong to groups that are historically and systematically excluded__ from the open software and research software communities and who are interested in contributing to rOpenSci and the broader open source and research software communities.
 
