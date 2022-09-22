@@ -55,8 +55,8 @@ Champions will participate in:
 
 * Personal and group mentorship:
 
-    - A series of meetings with mentors
-    - Quarterly cohort calls
+    - A series of meetings with mentors;
+    - Quarterly cohort calls.
 
 See [the program time line for more detail](#Tentative-Program-timeline)
 
