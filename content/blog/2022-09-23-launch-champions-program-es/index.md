@@ -10,6 +10,8 @@ tags:
   - welcome
   - diversity
   - champions program
+  - español
+  - spanish
 feature: true  
 # description: 
 tweet: "" 
