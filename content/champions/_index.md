@@ -100,7 +100,7 @@ Champions will also choose and perform several activities, such as running recru
 
 It is expected that Champions will promote participation in peer review and contribution to rOpenSci open source software, infrastructure, and documentation. They will also gather feedback on where rOpenSci’s current programming might be improved to meet the needs of all who wish to participate.
 
-The estimated time commitment for each Champion is, on average, __10 hours per month__  (includes trainings, cohort events, mentoring meetings, package development or review process, and preparing for and hosting events). The total time commitment for each Champion will vary based on the path and activities they choose to do during the program.
+The estimated time commitment for each Champion is, on average, __10 hours per month__  (including trainings, cohort events, mentoring meetings, package development or review process, and preparing for and hosting events). The total time commitment for each Champion will vary based on the path and activities they choose to do during the program.
 
 
 
