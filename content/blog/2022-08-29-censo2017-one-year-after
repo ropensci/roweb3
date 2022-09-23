@@ -43,11 +43,6 @@ with specific software for that format. To my surprise, the task got
 incredibly challenging, and I exported the data to SQL for more
 accessible data extraction.
 
-My goal wasn’t to extract statistical secrets, which is impossible with
-these datasets. I just wanted to obtain population values by age
-intervals for different regions, among other similar aggregations that
-are easy to get with `dplyr`.
-
 What I initially organized in PostgreSQL, ended up being organized in a
 local (embedded) database, which is more convenient for end-users and
 can be installed with two lines of code.
