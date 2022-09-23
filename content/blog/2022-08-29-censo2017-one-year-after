@@ -787,6 +787,6 @@ We shouldn’t forget to close the database connection.
 
 The examples shown here were simplified. Most of the inquiries I get are
 about data summaries at sub-communal level (i.e., neighbourhoods). By
-using `censo2017` we can extract useful information for evidence-based
+using censo2017 we can extract useful information for evidence-based
 public policy when it comes, for example, to prioritize budget
 decisions.
