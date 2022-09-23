@@ -7,7 +7,7 @@ slug: ropensci-news-digest-september-2022
 categories: []
 tags:
   - newsletter
-description: keywords from the content
+description: Champions program launch, first 3 packages to pass stat software review, call for maintainers, coworking sessions
 params:
   last_newsletter: '2022-08-26'
 ---
@@ -48,17 +48,9 @@ That is why this program focuses on __people who belong to groups that are histo
 
 If you are selected as a Champion, over the course of a year you will develop a project, get training, and be mentored. You will also receive a small stipend. 
 
-You can apply until November 7, 2022 [using this form]().  You can read more details on this [blog post]() 
-### Check out our Calls for new maintainers!
+You can apply until November 7, 2022 [using a form](/champions/#how-to-apply).  You can read more details in this [blog post](/blog/2022/09/22/launch-champions-program/).
 
-A few packages are [looking for new maintainers](#call-for-maintainers).
-Do you want to maintain software that will help fellow R users extract tables out of PDFs, or access data from the IUCN Red list of endangered species, or perhaps something else completely?
-See if one of these packages appeals to you!
-You could volunteer on your own or as a team of maintainers (the more the merrier!).
-The rOpenSci team will be happy to help you with specifics, and will provide resources, tips and PR reviews as needed.
-Thank you!
-
-### New "Peer Reviewed" badges for Statistical Software Review
+### First three packages to pass Statistical Software Review!
 
 We are overjoyed to have the first three packages pass through our Statistical Software Review process.
 [The canaper package](https://docs.ropensci.org/canaper/) by [Joel Nitta](https://www.joelnitta.com/) was [approved on the 14th of September 2022](https://github.com/ropensci/software-review/issues/475#issuecomment-1247094903), followed shortly after by [the melt package](https://github.com/ropensci/melt) by [Eunseop Kim](https://github.com/markean) on [the 20th of September](https://github.com/ropensci/software-review/issues/550#issuecomment-1252237325), and then [the aorsf package](https://github.com/ropensci/aorsf) by [Byron Jaeger](https://github.com/bcjaeger) on [the 22nd of September](https://github.com/ropensci/software-review/issues/532#issuecomment-1255257167).
@@ -67,6 +59,14 @@ Until now, every rOpenSci package has used the same single badge. Our new badges
 You can see the first statistical software badges on the front pages of the [canaper](https://github.com/ropensci/canaper#canaper), [melt](https://github.com/ropensci/melt#readme) and [aorsf](https://github.com/ropensci/aorsf#readme) repositories, the first two with a "silver" badge for compliance with version 0.1 of our statistical standards, and aorsf with a "gold" badge.
 There are already a number of other [statistical packages under review](https://github.com/ropensci/software-review/issues?q=is%3Aissue+label%3Astats+is%3Aopen), and we'll be excited to see many more of these new badges appearing on rOpenSci packages soon.
 
+### Check out our Calls for new maintainers!
+
+A few packages are [looking for new maintainers](#call-for-maintainers).
+Do you want to maintain software that will help fellow R users extract tables out of PDFs, or access data from the IUCN Red list of endangered species, or perhaps something else completely?
+See if one of these packages appeals to you!
+You could volunteer on your own or as a team of maintainers (the more the merrier!).
+The rOpenSci team will be happy to help you with specifics, and will provide resources, tips and PR reviews as needed.
+Thank you!
 
 ### Coworking sessions continue!
 
@@ -485,7 +485,7 @@ format_post <- function(post) {
 }
 ```
 
-```{r, results='asis', eval=FALSE}
+```{r, results='asis'}
 software_review <- posts[purrr::map_lgl(posts, "software_peer_review")]
 if (length(software_review) > 0) {
   cat("### Software Review\n\n")

@@ -13,8 +13,7 @@ tags:
   - español
   - spanish
 feature: true  
-# description: 
-tweet: "" 
+description: "¡Estamos muy felices de realizar el lanzamiento nuestro programa de Campeones y Campeonas!" 
 ---
 
 [Post in English](/blog/2022/09/22/launch-champions-program/)
