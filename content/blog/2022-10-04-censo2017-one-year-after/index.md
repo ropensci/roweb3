@@ -23,16 +23,17 @@ description: >
 > See the Spanish version of this blog post:
 > [COMPLETAR](/blog/2022/09/COMPLETAR/COMPLETAR)
 
-# Summary
+## Summary
 
 This post is about the surprising uses I’ve noticed and the questions
-about the [censo2017](https://docs.ropensci.org/censo2017) R package I’ve gotten since it was peer-reviewed through
-rOpenSci one year ago. The [original
+about the [censo2017](https://docs.ropensci.org/censo2017) R package, a tool for
+accessing the Chilean census 2017 data, I’ve gotten since it was peer-reviewed 
+through rOpenSci one year ago. The [original
 post](/blog/2021/07/27/censo2017/) about the
 package one year ago didn’t cover the different examples I present here,
 including a Python port of the R package.
 
-# Organizing the census data
+## Organizing the census data
 
 Three years ago, I had to complete an assignment that required me to
 extract data from Windows-only software in DVD format, which got very
@@ -59,7 +60,7 @@ Installation in Python:
     import censo2017
     censo2017.descargar()
 
-# Unexpected use I: Substandard housing (in R)
+## Unexpected use I: Substandard housing (in R)
 
 We can use the census data to determine where substandard housing
 concentrates, raising a valuable insight for Public Policy. That is
@@ -664,10 +665,12 @@ We shouldn’t forget to close the database connection.
 
     censo_desconectar()
 
-# Unexpected use II: Water source (in Python)
+## Unexpected use II: Water source (in Python)
 
 The variable for the water source is `p05`. The analysis is very similar
-to the previous one, and we start by looking at its description.
+to the previous one, and we start by looking at its description. This particular
+example is relevant, as it allows to quantify the number of people that might
+be exposed to water contamination in a certain area.
 
     import censo2017
     import duckdb
@@ -783,10 +786,12 @@ We shouldn’t forget to close the database connection.
 
     con.close()
 
-# Concluding remarks
+## Concluding remarks
 
 The examples shown here were simplified. Most of the inquiries I get are
-about data summaries at sub-communal level (i.e., neighbourhoods). By
+about data summaries at sub-communal level, for example how to count the
+occurrences of a categorical variable in a neighborhood, as it can be 
+water access (i.e., well or public network). By
 using censo2017 we can extract useful information for evidence-based
 public policy when it comes, for example, to prioritize budget
 decisions.
