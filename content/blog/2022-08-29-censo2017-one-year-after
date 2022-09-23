@@ -25,10 +25,10 @@ description: >
 
 # Summary
 
-This post is about the surprising uses I’ve noticed after the questions
-about the `censo2017` R package I’ve gotten since it was published in
+This post is about the surprising uses I’ve noticed and the questions
+about the [censo2017](https://docs.ropensci.org/censo2017) R package I’ve gotten since it was peer-reviewed through
 rOpenSci one year ago. The [original
-post](https://ropensci.org/blog/2021/07/27/censo2017-es/) about the
+post](/blog/2021/07/27/censo2017/) about the
 package one year ago didn’t cover the different examples I present here,
 including a Python port of the R package.
 
