@@ -13,7 +13,7 @@ _The form template is also available in [English](/champions/files/champions_tem
 * Sitio Web: _por favor, facilita el enlace a tu sitio web  (optional)_
 * Afiliación: _por favor, indica tu afiliación a una universidad/institución/organización u otro empleador_
 * Comunidad: _por favor, indica tu participación en comunidades (como R-Ladies, MiR, Grupos RSE, LatinR, ReproHack, etc. o indica NA)_
-[] Si te identificas como miembro de un grupo sistemáticamente excluido de la comunidad del software de código abierto, por favor, tilda esta casilla.
+* [] Si te identificas como miembro de un grupo sistemáticamente excluido de la comunidad del software de código abierto, por favor, tilda esta casilla.
 
 ## Experiencia
 
@@ -47,10 +47,10 @@ _Describe los temas sobre los que puedes revisar en un máximo de 200 palabras_
 
 ## Motivación
 
-¿Por qué te gustaría formar parte del Programa de Ccampeonas/es de rOpenSci? _Por favor, responde en un máximo de 200 palabras._
+* ¿Por qué te gustaría formar parte del Programa de Ccampeonas/es de rOpenSci? _Por favor, responde en un máximo de 200 palabras._
 
-¿Cómo esperas que tu rol de campeón/a de rOpenSci apoye a tu comunidad u organización/institución o empleador? _Por favor, responde en un máximo de 200 palabras._
+* ¿Cómo esperas que tu rol de campeón/a de rOpenSci apoye a tu comunidad u organización/institución o empleador? _Por favor, responde en un máximo de 200 palabras._
 
-¿Cuáles son las tres cosas que consideras más importantes para hacer o tener en cuenta cuando se participa en una comunidad de práctica como rOpenSci? _Por favor, explícalo en un máximo de 400 palabras._
+* ¿Cuáles son las tres cosas que consideras más importantes para hacer o tener en cuenta cuando se participa en una comunidad de práctica como rOpenSci? _Por favor, explícalo en un máximo de 400 palabras._
 
-Por favor, indica cómo tu situación laboral actual te da la flexibilidad para dedicar el tiempo necesario para cumplir con las responsabilidades del Programa de Campeones/as de rOpenSci. _Por favor, responde en un máximo de 200 palabras._ 
+* Por favor, indica cómo tu situación laboral actual te da la flexibilidad para dedicar el tiempo necesario para cumplir con las responsabilidades del Programa de Campeones/as de rOpenSci. _Por favor, responde en un máximo de 200 palabras._ 
