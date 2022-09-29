@@ -36,7 +36,7 @@ Es por esto que este programa está enfocado y pensando para que participen __pe
 
 ## ¿En qué consiste nuestro programa? 
 
-Hemos desarrollado un **programa de doce meses que incluye, capacitación basa en cohortes, el desarrollo de un proyecto y tutorías individuales**. 
+Hemos desarrollado un **programa de doce meses que incluye, capacitación basado en cohortes, el desarrollo de un proyecto y tutorías individuales**. 
 
 Las personas que sean seleccionadas paticiparán en una capacitación de seis semanas sobre: a) planificar y facilitar talleres atractivos e inclusivos para apoyar el éxito de quienes participan, b) conocer los diversos canales a través de los cuales se puede participar y contribuir a los proyectos de rOpenSci y de R, y c) conocimientos técnicos en desarrollo y revisión de software. 
 
@@ -56,7 +56,7 @@ Puedes ver todos los detalles en [la página web del programa](/champions/).
 
 ## ¿Cómo aplicar?
 
-Se debe completar el [formulario de aplicación](https://airtable.com/shrAsYlSXU0coJ5Ld) antes del __Viernes, 7 de Noviembre de 2022__. Esta [plantilla](/champions/file/champions_template_es) muestra la información requerida en el formulario. 
+Se debe completar el [formulario de aplicación](https://airtable.com/shrAsYlSXU0coJ5Ld) antes del __Viernes, 7 de Noviembre de 2022__. Esta [plantilla](/champions/files/champions_template_es) muestra la información requerida en el formulario. 
 
 El formulario se debe completar en _Inglés_.
 
