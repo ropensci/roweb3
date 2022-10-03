@@ -9,6 +9,7 @@ categories:
   - blog
 tags:
   - open-science
+  - tech-notes
   - reproducible-research
   - data-access
   - data-extraction
@@ -35,7 +36,7 @@ including a Python port of the R package.
 
 ## Organizing the census data
 
-Three years ago, I had to complete an assignment that required me to
+[Three years ago](/blog/2021/07/27/censo2017/), I had to complete an assignment that required me to
 extract data from Windows-only software in DVD format, which got very
 complicated.
 
@@ -62,9 +63,11 @@ Installation in Python:
 
 ## Unexpected use I: Substandard housing (in R)
 
-We can use the census data to determine where substandard housing
-concentrates, raising a valuable insight for Public Policy. That is
-something I never contemplated when creating the software.
+We can use the census data to determine where substandard housing concentrates, 
+which means any dwelling in a condition that it endangers the life, limb, 
+property, safety or welfare of the occupants or general public, leading to 
+valuable insights for Public Policy. That is something I never contemplated when
+creating the software.
 
 What kind of housing information can we look for in the census? To keep
 it simple, let’s explore the `p01` variable, which we can look at in the
@@ -245,9 +248,8 @@ role="doc-endnotes">
 <ol>
 <li id="fn1" role="doc-endnote"><p>traditional Mapuche house type<a
 href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2" role="doc-endnote"><p>A building to pack as many people as
-possible into as little space as possible for the least money
-possible.<a href="#fnref2" class="footnote-back"
+<li id="fn2" role="doc-endnote"><p>A building designed to house as many people as
+possible in a small space at a low cost.<a href="#fnref2" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
@@ -259,10 +261,10 @@ of housing per region, we need to:
     geographical code in the zones table.
 2.  Join the zones (“zonas”) table with the households (“viviendas”)
     table to match each unit to its location (i.e., household ID 100 is
-    in the “Los Ríos (14th)” region.
+    in the “Los Ríos (14th)” region).
 3.  Group by `p01` and count the number of units.
 
-One way to do this could be:
+For example, if we want to look at the 14th region specifically, one way to do this could be:
 
     tbl(con, "zonas") %>% 
       mutate(region = str_sub(geocodigo, 1, 2)) %>% 
@@ -658,14 +660,21 @@ Pae u Otras)</td>
 </tbody>
 </table>
 
-Here we can see that in the capitol, we have 52,710 individuals are
-living in substandard housing.
+From the previous summarised data we can see that in the capitol, 52,710 
+individuals are living in substandard housing, in this case expressed in the
+"Mediagua, Mejora, Rancho o Choza" category.
 
 We shouldn’t forget to close the database connection.
 
     censo_desconectar()
 
 ## Unexpected use II: Water source (in Python)
+
+The motivation for this example is to show that the goal of organizing the 
+census data was not to spread R, but to show some of the benefits of having the 
+data organized in an open format, regardless of the programming language used 
+for the analysis. For me it' s easier to complete this example in R, but I 
+wanted to readch those using the census and Python.
 
 The variable for the water source is `p05`. The analysis is very similar
 to the previous one, and we start by looking at its description. This particular
@@ -793,5 +802,5 @@ about data summaries at sub-communal level, for example how to count the
 occurrences of a categorical variable in a neighborhood, as it can be 
 water access (i.e., well or public network). By
 using censo2017 we can extract useful information for evidence-based
-public policy when it comes, for example, to prioritize budget
+Public Policy when it comes, for example, to prioritize budget
 decisions.
