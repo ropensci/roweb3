@@ -2,7 +2,7 @@
 title: 'Interesting Uses of censo2017 a Year After Publishing'
 author:
   - Pachá (aka Mauricio Vargas Sepúlveda)
-date: '2022-10-04'
+date: '2022-10-11'
 version: 0.5
 slug: censo2017-one-year-after
 categories:
