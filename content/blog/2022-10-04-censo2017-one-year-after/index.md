@@ -235,7 +235,7 @@ Dwelling)</td>
 <td style="text-align: left;">Missing Value</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">12</td>
+<td style="text-align: right;">0</td>
 <td style="text-align: left;">Not applicable</td>
 </tr>
 </tbody>
