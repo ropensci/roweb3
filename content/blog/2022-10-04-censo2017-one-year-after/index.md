@@ -671,10 +671,10 @@ We shouldn’t forget to close the database connection.
 ## Unexpected use II: Water source (in Python)
 
 The motivation for this example is to show that the goal of organizing the 
-census data was not to spread R, but to show some of the benefits of having the 
+census data was not to promote R, but to show some of the benefits of having the 
 data organized in an open format, regardless of the programming language used 
-for the analysis. For me it' s easier to complete this example in R, but I 
-wanted to readch those using the census and Python.
+for the analysis. For me it's easier to complete this example in R, but I 
+wanted to include those using this census data and Python.
 
 The variable for the water source is `p05`. The analysis is very similar
 to the previous one, and we start by looking at its description. This particular
