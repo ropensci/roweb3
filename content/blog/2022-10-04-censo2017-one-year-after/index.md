@@ -796,9 +796,9 @@ We shouldn’t forget to close the database connection.
 ## Concluding remarks
 
 The examples shown here were simplified. Most of the inquiries I get are
-about data summaries at sub-communal level, for example how to count the
-occurrences of a categorical variable in a neighborhood, as it can be 
+about data summaries at the sub-communal level, for example how to count the
+occurrences of a categorical variable in a neighborhood, as we did in our example of
 water access (i.e., well or public network). By
 using censo2017 we can extract useful information for evidence-based
-Public Policy when it comes, for example, to prioritize budget
+public policy when it comes to, for example, prioritizing budget
 decisions.
