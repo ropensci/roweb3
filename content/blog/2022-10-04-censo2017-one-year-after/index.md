@@ -659,8 +659,8 @@ Pae u Otras)</td>
 </table>
 
 From the previous summarised data we can see that in the capitol, 52,710 
-individuals are living in substandard housing, in this case expressed in the
-"Mediagua, Mejora, Rancho o Choza" category.
+individuals are living in substandard housing
+(Mediagua, Mejora, Rancho o Choza).
 
 We shouldn’t forget to close the database connection.
 
