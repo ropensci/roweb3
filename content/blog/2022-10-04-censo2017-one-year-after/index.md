@@ -171,7 +171,7 @@ Vivienda)</td>
 </table>
 
 The variable refers to “Tipo de Vivienda” (Housing Type) and contains
-twelve numeric values that mean:
+ten numeric values that mean:
 
 <table>
 <colgroup>
