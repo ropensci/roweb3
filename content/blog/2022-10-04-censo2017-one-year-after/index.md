@@ -253,7 +253,7 @@ possible in a small space at a low cost.<a href="#fnref2" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
-
+In this example, I consider dwellings coded as 5 (Half Hut, Improvement, Ranch or Shack / Mediagua, Mejora, Rancho o Choza) as substandard.
 Because of the census data organization, to get the share of these types
 of housing per region, we need to:
 
