@@ -63,10 +63,8 @@ Installation in Python:
 
 ## Unexpected use I: Substandard housing (in R)
 
-We can use the census data to determine where substandard housing concentrates, 
-which means any dwelling in a condition that it endangers the life, limb, 
-property, safety or welfare of the occupants or general public, leading to 
-valuable insights for Public Policy. That is something I never contemplated when
+We can use the census data to determine where substandard housing is common, 
+leading to valuable insights for public policy. That is something I never contemplated when
 creating the software.
 
 What kind of housing information can we look for in the census? To keep
