@@ -1,0 +1,24 @@
+---
+title: Maintain or Co-Maintain an rOpenSci Package!
+author:
+  - Maëlle Salmon
+date: '2022-10-28'
+slug: maintain-or-co-maintain-an-ropensci-package
+categories: []
+tags:
+  - community
+package_version: 0.1.0
+description: A list of packages who need your help, and a list of reasons why to help.
+---
+
+rOpenSci suite of packages is mainly composed of packages contributed by the community through peer-review, and of packages maintained by staff. 
+Over time, the commitments and availabilities of the original developers of a package change, which leads to some stepping down from their maintainer role, or hoping for more teamwork and therefore looking for co-maintainers.
+
+## Why maintain or co-maintain a package?
+
+
+## How to choose a package to (co-)maintain?
+
+Although general technical skills will make you a good contributor to many packages, it is **crucial** to have specific interest in what a package does or the toolset it uses.
+You might have that interest, because you use that package at work or because its scope falls under your topics of interest, for instance.
+Being very interested in a package will make you more motivated, furthermore the user community will likely be a community of your peers.
