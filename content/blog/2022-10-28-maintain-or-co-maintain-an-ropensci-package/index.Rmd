@@ -11,11 +11,33 @@ package_version: 0.1.0
 description: A list of packages who need your help, and a list of reasons why to help.
 ---
 
-rOpenSci suite of packages is mainly composed of packages contributed by the community through peer-review, and of packages maintained by staff. 
-Over time, the commitments and availabilities of the original developers of a package change, which leads to some stepping down from their maintainer role, or hoping for more teamwork and therefore looking for co-maintainers.
+rOpenSci [suite of packages](/packages) is mainly composed of packages contributed by the community through [peer-review](/software-peer-review), and of packages maintained by staff. 
+Over time, the commitments and availability of the original developers of a package change, which leads to some stepping down from their maintainer role, or hoping for more teamwork and therefore looking for co-maintainers.
+In this blog post we will explain why **you** might want to help, and we'll list the packages currently up for adoption or collaboration.
 
 ## Why maintain or co-maintain a package?
 
+Beside being very invested in a package in particular (more on that later!), maintaining or co-maintaining a package can have some advantages!
+It'll allow you to gain and practice software development skills (writing R functions, using GitHub interface, unit testing, technical writing in the documentation).
+It will give these skills of yours a public record.
+
+Being an author of an _rOpenSci_ package means you have access to rOpenSci infrastructure (pkgdown docs building for all packages) and community (through our forum, our semi-open slack).
+We're grateful for all contributions that help us provide a healthy suite of packages!
+
+Co-maintaining might allow for more team work and more work division, and if that appeals to you, even as a the sole maintainer of a package, you could look for co-maintainers. :wink:
+
+## What does it take to maintain or co-maintain a package?
+
+Sadly the answers is "it depends".
+In the list of packages in this post, some require a large overhaul (for instance essurvey whose data source underwent many changes) while others are more stable (for instance [robotstxt](https://github.com/ropensci/robotstxt/)).
+Other criteria that might increase the workload are: popularity (many users' requests), code health (maybe a dependency could or should be swapped for a more modern or better maintained one), whether the package is on CRAN or you'd want it to be, etc.
+Have a look at the repository before volunteering, and don't hesitate to ask questions.
+
+## How long would you maintain or co-maintain a package?
+
+Until you no longer want to.
+Ideally, if you are reasonably confident you can spend some of your time on the package for at least one year, that'd be great.
+As a maintainer, if you want to step down, please reach out to `info@ropensci.org` -- no need to wait for the next annual survey and suffer in silence.
 
 ## How to choose a package to (co-)maintain?
 
