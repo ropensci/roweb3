@@ -12,12 +12,12 @@ description: A list of packages who need your help, and a list of reasons why to
 
 rOpenSci [suite of packages](/packages) is mainly composed of packages contributed by the community through [peer-review](/software-peer-review), and of packages maintained by staff. 
 Over time, the commitments and availability of the original developers of a package change, which leads to some maintainers' stepping down from their maintainer role, or some maintainers' hoping for more teamwork and therefore looking for co-maintainers.
-In this blog post we will explain why **you** might want to help, and we'll list the packages currently up for adoption or collaboration.
+Following our recent annual maintainer survey, in this blog post we will explain why **you** might want to help, and we'll list the packages currently up for adoption or collaboration.
 
 ## Why maintain or co-maintain a package?
 
 Maintaining or co-maintaining a package can have some advantages, on top of the big motivator "keep a cool package alive".
-Maintenance work allow you to gain and practice software development skills (writing R functions, using GitHub interface, unit testing, technical writing in the documentation...).
+Maintenance work allow you to gain and practice software development skills (writing R functions, using GitHub interface, unit testing and continuous integration, technical writing in the documentation...).
 Furthermore, it will give these skills of yours a public record.
 
 Being an author of an _rOpenSci_ package means you have access to rOpenSci infrastructure (pkgdown docs building for all packages) and community (through our forum, our semi-open slack).
@@ -45,6 +45,6 @@ Although general technical skills will make you a good contributor to many packa
 You might have that interest because you use that package at work or because its scope falls under your topics of interest, for instance.
 Being very interested in a package will make you more motivated, furthermore the user community will likely be a community of your peers.
 
-Last but not least, if you use the package you maintain at work, you might be able to tackle maintenance during your normal working hours which might be more sustainable than carving time for it on the side.
+Last but not least, if you use the package you maintain at work, you might be able to tackle maintenance during your normal working hours, which might be more sustainable than carving time for it on the side.
 
 ## Packages looking for maintainers!
