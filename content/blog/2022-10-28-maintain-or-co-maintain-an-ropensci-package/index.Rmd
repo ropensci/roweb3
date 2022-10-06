@@ -23,12 +23,12 @@ Furthermore, it will give these skills of yours a public record.
 Being an author of an _rOpenSci_ package means you have access to rOpenSci infrastructure ([pkgdown docs building for all packages](/blog/2021/09/03/runiverse-docs/)) and community support and camaraderie (through our [forum](/blog/2022/01/11/ropensci-forum/), our semi-open slack).
 We're grateful for all contributions that help us provide a healthy suite of packages!
 
-Co-maintaining might allow for more team work and more work division, and if that appeals to you, even as a the sole maintainer of a package, you could look for co-maintainers. :wink:
+Co-maintaining might allow for more team work and more work division, and if that appeals to you, even as a the sole maintainer of a package, you could look for co-maintainers. 
 
 ## What does it take to maintain or co-maintain a package?
 
 How much time, what skills in particular?
-Sadly the answers is "it depends". :wink:
+Sadly the answers is "it depends".
 In the list of packages in this post, some require a large overhaul (for instance essurvey whose data source underwent many changes) while others are more stable (for instance [robotstxt](https://github.com/ropensci/robotstxt/)).
 Other criteria that might increase the workload are: popularity (many users' requests), code health (maybe a dependency could or should be swapped for a more modern or better maintained one), whether the package is on CRAN or you'd want it to be, etc.
 Have a [look at the repository](/blog/2022/07/01/evaluating-github-activity-for-contributors/) to assess its needs and its toolset before volunteering, and don't hesitate to ask questions (in the volunteering issue, in a new issue if there is no volunteering issue).
