@@ -20,7 +20,7 @@ Maintaining or co-maintaining a package can have some advantages, on top of the 
 Maintenance work allow you to gain and practice software development skills (writing R functions, using GitHub interface, unit testing and continuous integration, technical writing in the documentation...).
 Furthermore, it will give these skills of yours a public record.
 
-Being an author of an _rOpenSci_ package means you have access to rOpenSci infrastructure (pkgdown docs building for all packages) and community (through our forum, our semi-open slack).
+Being an author of an _rOpenSci_ package means you have access to rOpenSci infrastructure ([pkgdown docs building for all packages](/blog/2021/09/03/runiverse-docs/)) and community support and camaraderie (through our [forum](/blog/2022/01/11/ropensci-forum/), our semi-open slack).
 We're grateful for all contributions that help us provide a healthy suite of packages!
 
 Co-maintaining might allow for more team work and more work division, and if that appeals to you, even as a the sole maintainer of a package, you could look for co-maintainers. :wink:
@@ -48,3 +48,87 @@ Being very interested in a package will make you more motivated, furthermore the
 Last but not least, if you use the package you maintain at work, you might be able to tackle maintenance during your normal working hours, which might be more sustainable than carving time for it on the side.
 
 ## Packages looking for maintainers!
+
+To volunteer, comment in the corresponding volunteering issue. Thank you!
+
+```{r, cache = TRUE, results='asis', echo=FALSE}
+issues <- c(
+  "https://github.com/ropensci/ramlegacy/issues/8",
+  "https://github.com/ropensci/robotstxt/issues/62",
+  "https://github.com/ropensci/chromer/issues/33",
+  "https://github.com/ropensci/essurvey/issues/57",
+  "https://github.com/ropensci/wikitaxa/issues/20",
+  "https://github.com/ropensci/rgnparser/issues/14",
+  "https://github.com/ropensci/tabulizer/issues/148",
+  "https://github.com/ropensci/RSelenium/issues/261",
+  "https://github.com/ropensci/elastic/issues/292"
+)
+
+registry <- jsonlite::read_json("https://ropensci.github.io/roregistry/registry.json")[["packages"]]
+
+parse_issue <- function(issue, registry = registry) {
+  pkg <- sub("/.*", "", sub(".*ropensci/", "", issue))
+  entry <- registry[purrr::map_chr(registry, "name") == pkg][[1]]
+  sprintf(
+    "- **%s, %s**. %s [Issue for volunteering](%s).",
+    pkg,
+    entry$description, 
+    entry$details, 
+    issue
+  )
+}
+issues_text <- purrr::map_chr(issues, parse_issue, registry = registry)
+cat("\n")
+cat(
+  glue::glue_collapse(issues_text, sep = "\n")
+)
+```
+
+## Packages looking for co-maintainers!
+
+To volunteer, open an issue in the GitHub repository or email the maintainer.
+Thank you!
+
+```{r, cache = TRUE, results='asis', echo=FALSE}
+repos <- c(
+  "https://github.com/ropensci/taxlist",
+  "https://github.com/ropensci/tidync",
+  "https://github.com/ropensci/googleLanguageR",
+  "https://github.com/ropensci/nlrx",
+  "https://github.com/ropensci/refsplitr",
+  "https://github.com/ropensci/rtika",
+  "https://github.com/ropensci/tidyqpcr",
+  "https://github.com/ropensci/dbparser",
+  "https://github.com/ropensci/assertr"
+)
+
+registry <- jsonlite::read_json("https://ropensci.github.io/roregistry/registry.json")[["packages"]]
+
+parse_repo <- function(repo, registry = registry) {
+  pkg <- sub(".*ropensci/", "", repo)
+  entry <- registry[purrr::map_chr(registry, "name") == pkg][[1]]
+  sprintf(
+    "- **%s, %s**. %s [Repository](%s).",
+    pkg,
+    entry$description, 
+    entry$details, 
+    repo
+  )
+}
+repos_text <- purrr::map_chr(repos, parse_repo, registry = registry)
+cat("\n")
+cat(
+  glue::glue_collapse(repos_text, sep = "\n")
+)
+```
+
+TODOS:
+- check clarifications when both step down and co maintainers checked.
+- ask maintainers to open issues?
+- provide an email template?
+
+## Conclusion
+
+In this post we listed some rOpenSci packages for which new maintainers or co-maintainers are needed.
+We also explained why one would volunteer.
+If you are interested in rOpenSci mission but not in the idea of maintaining a package, have a look at our [contributing guide](https://contributing.ropensci.org/)!
