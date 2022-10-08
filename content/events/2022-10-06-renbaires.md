@@ -18,5 +18,6 @@ resources: # can be added later, one entry per talk (don't add while still empty
     speaker: Yanina Bellini Saibene
     slides: https://docs.google.com/presentation/d/1amYxhEIUTUsulOsrJezqjwW4On6ftw-S9Ozbxv-NFaI/edit#slide=id.g13389be7b22_0_0
     video: https://www.youtube.com/watch?v=Oh-N4V9KhAc&t=1s
+    language: es
 ---
 
