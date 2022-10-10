@@ -22,17 +22,39 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-### Call for mentors
+### rOpenSci Champions Program: call for Champions and call for Mentors
 
-### Reminder for champions
+[rOpenSci Champions Program](/champions/) is part of a series of activities and projects we are carrying out to ensure our research software serves everyone in our communities. 
+That is why this program focuses on __people who belong to groups that are historically and systematically excluded__ from the open software and research software communities and who are interested in contributing to rOpenSci and the broader open source and research software communities.
+
+#### Call for Champions
+
+If you are selected as a Champion, over the course of a year you will develop a project, get training, and be mentored. You will also receive a small stipend. 
+
+You can apply until **November 7, 2022** [using a form](/champions/#how-to-apply).  You can read more details in this [blog post](/blog/2022/09/22/launch-champions-program/).
+
+#### Call for Mentors
 
 ### Better search on R-universe
 
 <!-- to be curated manually -->
 
-<!-- Can use same coworking text every month and ping Steffi to ask if there are any special guests to add -->
-Join us for social coworking & office hours monthly on 1st Tuesdays! Hosted by Steffi LaZerte  and various community hosts. Everyone welcome. No RSVP needed. Consult our [Events](/events) page to find your local time and how to join.
+### Coworking sessions continue!
 
+Join us for social coworking & office hours monthly on first Tuesdays! 
+Hosted by Steffi LaZerte and various community hosts. 
+Everyone welcome. 
+No RSVP needed. 
+Consult our [Events](/events) page to find your local time and how to join.
+
+* [Tuesday, 01 November 2022 9 AM North American Pacific / 16:00 UTC ](/events/coworking-2022-11/) "Champions Program Application Clinic" *Hosted by rOpenSci community manager [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) and [Steffi LaZerte](/author/steffi-lazerte/)*
+    * Cowork on a project of your choice;
+    * Prepare your application for the Champions Program;
+    * Or talk to [Yanina](/author/yanina-bellini-saibene/) about the application process.
+    
+* [Tuesday, December 6th, 9 AM Australian Western / 1:00 UTC](/events/coworking-2022-12/) "Getting started with targets!" *Hosted by community host [Nick Tierney](/author/nicholas-tierney/) and [Steffi LaZerte](/author/steffi-lazerte/)*
+    - Dive into the world of targets! Do some studying; Start setting it up for some of your projects.
+    - Cowork independently on work related to R. Work on packages that tend to be neglected; What ever you need to get done!
 
 Find out about more [events](/events).
 
@@ -45,7 +67,7 @@ Find out about more [events](/events).
 
 The following  package recently became a part of our software suite:
 
-+ [aorsf](https://docs.ropensci.org/aorsf), developed by Byron Jaeger: Fit, interpret, and make predictions with oblique random survival forests. Oblique decision trees are notoriously slow compared to their axis based counterparts, but aorsf runs as fast or faster than axis-based decision tree algorithms for right-censored time-to-event outcomes. Methods to accelerate and interpret the oblique random survival forest are described in Jaeger et al., (2022) <arXiv:2208.01129>.  It is available on [CRAN]( https://CRAN.R-project.org/package=aorsf). It has been [reviewed](https://github.com/ropensci/software-review/issues/532/) by Christopher Jackson, Marvin Wright, and Lukas Burk.
+
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
