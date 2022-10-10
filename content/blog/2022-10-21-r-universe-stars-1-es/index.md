@@ -14,27 +14,28 @@ description: ""
 
 [post in English](/blog/2022/10/21/r-universe-stars-1-en/)
 
-Esta es la primera entrega de nuestra serie de entrevistas __"Conciendo a las estrellas del universo R"__
+Esta es la primera entrega de nuestra serie de entrevistas __"Conciendo a las estrellas del universo R"__. Iniciamos nuestro recorrido en _Argentina_ y con un equipo que utiliza R y desarrolla paquetes de R en el estado Argentino.
 
+<FIXME: agregar video>
 
 
 ## La experiencia de trabajar con paquetes de R en el estado argentino
 
-<FIXME: Fotos>
+Desde hace dos años, [Juan Pablo Ruiz Nicolini](https://twitter.com/TuQmano) dirige un equipo que tiene a R y a la comunidad de R como un actor sumamente importante en su trabajo. Cuando fue invitado a formar parte de la Dirección de Mercados y Estadística del Ministerio de Deporte y Turismo de la Nación, a cargo de Matías Lammens, se encontró con un gran volumen de datos y con posibilidades de utilizar esos datos con múltiples objetivos. 
+{{< figure src = "tq-picture.jpg" class = "center" width = "300" alt = "Foto de perfil de Juan Pablo Ruiz Nicolini" caption = "__Juan Pablo Ruiz Nicolini__ - Director Nacional de Mercados y Estadísticas de la Subsecretaría de Desarrollo Estratégico del Ministerio de Turismo y Deportes de la Nación.">}}
 
-__Juan Pablo Ruiz Nicolini__ - Director Nacional de Mercados y Estadísticas de la Subsecretaría de Desarrollo Estratégico del Ministerio de Turismo y Deportes de la Nación.
-
-__Pablo Tiscornia__ - Coordinador de procesos - Ministerio de Deporte y Turismo de la Nación Dirección Nacional de Mercados y estadísticas - 
-
-Desde hace dos años, _Juan Pablo Ruiz Nicolini_ dirige un equipo que tiene a R y a la comunidad de R como un actor sumamente importante en su trabajo. Cuando fue invitado a formar parte de la Dirección de Mercados y Estadística del Ministerio de Deporte y Turismo de la Nación, a cargo de Matías Lammens, se encontró con un gran volumen de datos y con posibilidades de utilizar esos datos con múltiples objetivos. 
 El equipo de trabajo con el que cuentan es grande en comparación con otras reparticiones del Estado y con proyectos permanentes de gran envergadura como los que desarrollan en conjunto con el Indec (Instituto Nacional de Estadísticas y Censos de la Argentina).
 
 _“Cuando empezamos, nuestro diagnóstico fue que había un montón de cosas buenísimas, un montón de datos, un montón de procesos (...) había mucho espacio para sacarle jugo a toda esa información que estaba viviendo adentro de las computadoras de los equipos que trabajaban en la dirección”_, así explica Juan Pablo el desafío y la oportunidad que representaba sumarse a esa oficina. 
 La idea además era poder compartir toda es información hacia afuera y con procesos accesibles para distintos públicos.
 
+
 Desde un comienzo, el proceso incluyó varios pasos. Primero tomaron la decisión de que los paquetes de R y el software libre eran el camino. Después vino la etapa de la capacitación interna. 
 
-_Pablo Tiscornia_ forma parte del equipo de Juan Pablo o _el Tucu_ -así es como lo conocen a Juan Pablo Ruiz Nicolini-  y explica que el punto de partida del trabajo en una oficina que hasta hace poco tiempo combinaba procesos manuales y casi todo estaba en software propietario fue todo lo que comunidad de R venía ofreciendo y la filosofía del software libre. Tanto Pablo como el Tucu se encontraron con un equipo de 17 personas aproximadamente que trabajaban de alguna manera con procesamiento de datos y que todos estaban muy involucrados con los procesos: _“Primero, necesitábamos resolver una dinámica de trabajo interna (...) había mucho para hacer y hoy, creo que de esas 17 personas, 15, 14 todas saben abrir R, saben armar un Script y saben involucrarse en el proceso de trabajo que definimos desde que se tiene un dato hasta que se lo comunica al final.”_
+
+{{< figure src = "pablo-picture.jpeg" class = "center" width = "300" alt = "Foto de perfil de Pablo Tiscornia" caption = "__Pablo Tiscornia__ - Coordinador de procesos - Ministerio de Deporte y Turismo de la Nación Dirección Nacional de Mercados y Estadísticas.">}}
+
+[Pablo Tiscornia](https://twitter.com/pabblo_h) forma parte del equipo de Juan Pablo o _el Tucu_ -así es como lo conocen a Juan Pablo Ruiz Nicolini-  y explica que el punto de partida del trabajo en una oficina que hasta hace poco tiempo combinaba procesos manuales y casi todo estaba en software propietario fue todo lo que comunidad de R venía ofreciendo y la filosofía del software libre. Tanto Pablo como el Tucu se encontraron con un equipo de 17 personas aproximadamente que trabajaban de alguna manera con procesamiento de datos y que todos estaban muy involucrados con los procesos: _“Primero, necesitábamos resolver una dinámica de trabajo interna (...) había mucho para hacer y hoy, creo que de esas 17 personas, 15, 14 todas saben abrir R, saben armar un Script y saben involucrarse en el proceso de trabajo que definimos desde que se tiene un dato hasta que se lo comunica al final.”_
 
 En esta etapa el objetivo estaba cumplido: que el equipo conozca la herramienta y conozca la dinámica de trabajo que habían definido como la más adecuada.
 
@@ -53,7 +54,14 @@ __Intercambiar con la comunidad y aprender de la comunidad parece ser el mantra 
 
 ## Un trabajo para la comunidad
 
-Los públicos que reciben el trabajo que se desarrolla en el área de turismo son múltiples. Hoy cuentan con un sitio llamado [SINTA (Sistema de Información Turístico de la Argentina)](https://www.yvera.tur.ar/sinta/) donde presentan de manera ordenada las _“distintas maneras de entrarle a la información”_. Juan Pablo explica que _“el trabajo fue ir desarrollando herramientas, y en esto R tiene mucho que ver, para poder acercarle la información a distintos públicos”_. Esos públicos incluyen el académico (personas que investigan y enseñan), las distintas oficinas de diferentes niveles de estado que necesitan de esos datos, la dirección para la que trabajan que utiliza la información para la toma de decisiones y el establecimiento de políticas públicas y también para todas las personas que quieran interactuar con la información que se encuentra en el portal de datos abiertos.
+Los públicos que reciben el trabajo que se desarrolla en el área de turismo son múltiples. Hoy cuentan con un sitio llamado [SINTA (Sistema de Información Turístico de la Argentina)](https://www.yvera.tur.ar/sinta/) donde presentan de manera ordenada las _“distintas maneras de entrarle a la información”_. Juan Pablo explica que _“el trabajo fue ir desarrollando herramientas, y en esto R tiene mucho que ver, para poder acercarle la información a distintos públicos”_. 
+
+
+{{< figure src = "sinta.png" class = "center" width = "350" alt = "Pagina de inicio del sistema SINTA con accesos a sus conjuntos de datos abiertos" >}}
+
+
+
+Esos públicos incluyen el académico (personas que investigan y enseñan), las distintas oficinas de diferentes niveles de estado que necesitan de esos datos, la dirección para la que trabajan que utiliza la información para la toma de decisiones y el establecimiento de políticas públicas y también para todas las personas que quieran interactuar con la información que se encuentra en el portal de datos abiertos.
 
 <FIXME: agregar captura de pantalla del sistema>
 
