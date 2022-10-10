@@ -53,7 +53,6 @@ To volunteer, comment in the corresponding volunteering issue. Thank you!
 
 ```{r, cache = TRUE, results='asis', echo=FALSE}
 issues <- c(
-  "https://github.com/ropensci/ramlegacy/issues/8",
   "https://github.com/ropensci/robotstxt/issues/62",
   "https://github.com/ropensci/chromer/issues/33",
   "https://github.com/ropensci/essurvey/issues/57",
