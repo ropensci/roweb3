@@ -61,7 +61,8 @@ issues <- c(
   "https://github.com/ropensci/tabulizer/issues/148",
   "https://github.com/ropensci/RSelenium/issues/261",
   "https://github.com/ropensci/elastic/issues/292",
-  "https://github.com/ropensci/ckanr/issues/186"
+  "https://github.com/ropensci/ckanr/issues/186",
+  "https://github.com/ropensci/Rclean/issues/213"
 )
 
 registry <- jsonlite::read_json("https://ropensci.github.io/roregistry/registry.json")[["packages"]]
