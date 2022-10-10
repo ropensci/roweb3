@@ -54,17 +54,17 @@ __Intercambiar con la comunidad y aprender de la comunidad parece ser el mantra 
 
 ## Un trabajo para la comunidad
 
-Los públicos que reciben el trabajo que se desarrolla en el área de turismo son múltiples. Hoy cuentan con un sitio llamado [SINTA (Sistema de Información Turístico de la Argentina)](https://www.yvera.tur.ar/sinta/) donde presentan de manera ordenada las _“distintas maneras de entrarle a la información”_. Juan Pablo explica que _“el trabajo fue ir desarrollando herramientas, y en esto R tiene mucho que ver, para poder acercarle la información a distintos públicos”_. 
+Los públicos que reciben el trabajo que se desarrolla en el área de turismo son múltiples. 
+
+{{< figure src = "sinta.png" class = "pull-left" width = "380" alt = "Pagina de inicio del sistema SINTA con accesos a sus conjuntos de datos abiertos" >}}
 
 
-{{< figure src = "sinta.png" class = "center" width = "350" alt = "Pagina de inicio del sistema SINTA con accesos a sus conjuntos de datos abiertos" >}}
-
-
+Hoy cuentan con un sitio llamado [SINTA (Sistema de Información Turístico de la Argentina)](https://www.yvera.tur.ar/sinta/) donde presentan de manera ordenada las _“distintas maneras de entrarle a la información”_. Juan Pablo explica que _“el trabajo fue ir desarrollando herramientas, y en esto R tiene mucho que ver, para poder acercarle la información a distintos públicos”_. 
 
 Esos públicos incluyen el académico (personas que investigan y enseñan), las distintas oficinas de diferentes niveles de estado que necesitan de esos datos, la dirección para la que trabajan que utiliza la información para la toma de decisiones y el establecimiento de políticas públicas y también para todas las personas que quieran interactuar con la información que se encuentra en el portal de datos abiertos.
 
-<FIXME: agregar captura de pantalla del sistema>
 
+</br>
 ## La experiencia R Universe
 
 El concepto de comunidad tiene mucha relación con las redes sociales y de comunicación y fue precisamente Twitter la que acercó por primera vez a Juan Pablo a [R-universe](https://r-universe.dev/search/) donde descubrió [el paso a paso sobre cómo construir su propio universo de R](https://ropensci.org/blog/2021/09/21/creando-tu-r-universe/).
