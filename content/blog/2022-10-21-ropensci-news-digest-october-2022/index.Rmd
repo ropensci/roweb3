@@ -534,7 +534,18 @@ As the maintainer of an rOpenSci package, feel free to contact us on Slack or em
 
 Some useful tips for R package developers. :eyes:
 
-<!-- To be curated by hand -->
+### Are you ready to develop packages?
+
+### How to run code during package installation?
+
+### Optional (Suggests) dependency that has been archived on CRAN
+
+An interesting challenge reported on [rOpenSci forum](https://discuss.ropensci.org/t/optional-suggests-dependency-that-has-been-archived-on-cran/3071): can a package on CRAN depend on a package that has been archived on CRAN?
+[Jeffrey Hanson](https://jeffrey-hanson.com/) wrote, after successfully updating the [prioritizr](https://cran.r-project.org/web/packages/prioritizr/index.html) package on CRAN despite its (Suggests) depending on [cplexAPI](https://cran.r-project.org/web/packages/cplexAPI/index.html),
+
+> Just to follow up in case this helps anyone else, it would appear that it’s fine to have archived packages listed as Suggests for CRAN submission - as long as conditions for non-CRAN packages are met (e.g., listing URL for package install in the DESCRIPTION file).
+
+Thanks to [Lluís Revilla Sancho](https://llrs.dev/) for his insights [in that same thread](https://discuss.ropensci.org/t/optional-suggests-dependency-that-has-been-archived-on-cran/3071/3).
 
 ## Last words
 
