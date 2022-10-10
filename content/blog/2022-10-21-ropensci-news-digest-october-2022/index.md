@@ -22,6 +22,12 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
+### Call for mentors
+
+### Reminder for champions
+
+### Better search on R-universe
+
 <!-- to be curated manually -->
 
 <!-- Can use same coworking text every month and ping Steffi to ask if there are any special guests to add -->
@@ -115,7 +121,35 @@ As the maintainer of an rOpenSci package, feel free to contact us on Slack or em
 
 Some useful tips for R package developers. :eyes:
 
-<!-- To be curated by hand -->
+### Are you ready to develop packages?
+
+If the question applies to _you_ as an R user, please refer to the resources listed in our [dev guide](https://devguide.ropensci.org/building.html#learning-about-package-development).
+Now, in [Susan Johnston’s wise words](https://github.com/susjoh/fibonacci), if you can open R, if you can install a package, if you can write functions or learn how to write functions, you can write an R package!
+
+If the question applies to _your machine_, you might like:
+
+* [`devtools::dev_sitrep()`](https://devtools.r-lib.org/reference/dev_sitrep.html);
+* [`devtools::has_devel()`](https://rdrr.io/cran/pkgbuild/man/has_compiler.html);
+* [`usethis::git_sitrep()`](https://usethis.r-lib.org/reference/git_sitrep.html).
+
+These functions can also be run at any point during your package development work, even once you're used to such work, as they might help you understand why something "weird" is happening.
+
+### How to run code during package installation?
+
+If for any reason you ever need to run code during the installation of your package, know that it is possible as [noted by Gábor Csárdi on RStudio community forum](https://community.rstudio.com/t/is-it-possible-to-run-a-command-during-package-install/147192/4).
+The example given, from [purrr](https://github.com/tidyverse/purrr/blob/f67f77134cd258fced27834595c4091f49be62e1/configure), consists in adding a [note before examples for older versions of R](https://github.com/tidyverse/purrr/blob/f67f77134cd258fced27834595c4091f49be62e1/inst/tools/examples.R).
+
+Now if your goal is to install an external software, as noted in the forum answer it might be better to provide a function for the users to install the software.
+Then you could also provide a sitrep function for checking the installation, like the sitrep functions mentioned in the previous tip!
+
+### Optional (Suggests) dependency that has been archived on CRAN
+
+An interesting challenge reported on [rOpenSci forum](https://discuss.ropensci.org/t/optional-suggests-dependency-that-has-been-archived-on-cran/3071): can a package on CRAN depend on a package that has been archived on CRAN?
+[Jeffrey Hanson](https://jeffrey-hanson.com/) wrote, after successfully updating the [prioritizr](https://cran.r-project.org/web/packages/prioritizr/index.html) package on CRAN despite its (Suggests) depending on [cplexAPI](https://cran.r-project.org/web/packages/cplexAPI/index.html),
+
+> Just to follow up in case this helps anyone else, it would appear that it’s fine to have archived packages listed as Suggests for CRAN submission - as long as conditions for non-CRAN packages are met (e.g., listing URL for package install in the DESCRIPTION file).
+
+Thanks to [Lluís Revilla Sancho](https://llrs.dev/) for his insights [in that same thread](https://discuss.ropensci.org/t/optional-suggests-dependency-that-has-been-archived-on-cran/3071/3).
 
 ## Last words
 
