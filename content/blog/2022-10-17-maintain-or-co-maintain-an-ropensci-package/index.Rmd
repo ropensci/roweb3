@@ -2,7 +2,7 @@
 title: Maintain or Co-Maintain an rOpenSci Package!
 author:
   - Maëlle Salmon
-date: '2022-10-28'
+date: '2022-10-17'
 slug: maintain-or-co-maintain-an-ropensci-package
 categories: []
 tags:
@@ -92,45 +92,46 @@ Thank you!
 
 ```{r, cache = TRUE, results='asis', echo=FALSE}
 repos <- c(
-  "https://github.com/ropensci/taxlist",
-  "https://github.com/ropensci/tidync",
-  "https://github.com/ropensci/googleLanguageR",
-  "https://github.com/ropensci/nlrx",
-  "https://github.com/ropensci/refsplitr",
-  "https://github.com/ropensci/rtika",
-  "https://github.com/ropensci/tidyqpcr",
-  "https://github.com/ropensci/dbparser",
-  "https://github.com/ropensci/assertr"
+  "taxlist" = "https://github.com/ropensci/taxlist",
+  "tidync" = "https://github.com/ropensci/tidync",
+  "googleLanguageR" = "https://github.com/ropensci/googleLanguageR",
+  "nlrx" = "https://github.com/ropensci/nlrx",
+  "refsplitr" = "https://github.com/ropensci/refsplitr",
+  "rtika" = "https://github.com/ropensci/rtika",
+  "https://github.com/ropensci/tidyqpcr/issues/196" = "https://github.com/ropensci/tidyqpcr",
+  "dbparser" = "https://github.com/ropensci/dbparser",
+  "dbparser" = "https://github.com/ropensci/dbparser",
+  "https://github.com/ropensci/MODIStsp/issues/262" = "https://github.com/ropensci/MODIStsp"
 )
 
 registry <- jsonlite::read_json("https://ropensci.github.io/roregistry/registry.json")[["packages"]]
 
-parse_repo <- function(repo, registry = registry) {
+parse_repo <- function(repo, issue, registry = registry) {
   pkg <- sub(".*ropensci/", "", repo)
   entry <- registry[purrr::map_chr(registry, "name") == pkg][[1]]
-  sprintf(
+  text <- sprintf(
     "- **%s, %s**. %s [Repository](%s).",
     pkg,
     entry$description, 
     entry$details, 
     repo
   )
+  if (grepl("github", issue)) {
+    text <- paste(text, sprintf("[Issue with details](%s).", issue))
+  }
+  text
 }
-repos_text <- purrr::map_chr(repos, parse_repo, registry = registry)
+repos_text <- purrr::map2_chr(repos, names(repos), parse_repo, registry = registry)
 cat("\n")
 cat(
   glue::glue_collapse(repos_text, sep = "\n")
 )
 ```
-https://github.com/ropensci/MODIStsp/issues/262
-https://github.com/ropensci/tidyqpcr/issues/196
-TODOS:
-- check clarifications when both step down and co maintainers checked.
-- ask maintainers to open issues?
-- provide an email template?
+
 
 ## Conclusion
 
 In this post we listed some rOpenSci packages for which new maintainers or co-maintainers are needed.
+Help requests including calls for maintainers and co-maintainers are always listed on our [help wanted](/help-wanted) page.
 We also explained why one would volunteer.
 If you are interested in rOpenSci mission but not in the idea of maintaining a package, have a look at our [contributing guide](https://contributing.ropensci.org/)!

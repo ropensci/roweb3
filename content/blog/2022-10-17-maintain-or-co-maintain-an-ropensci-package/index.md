@@ -2,7 +2,7 @@
 title: Maintain or Co-Maintain an rOpenSci Package!
 author:
   - Maëlle Salmon
-date: '2022-10-28'
+date: '2022-10-17'
 slug: maintain-or-co-maintain-an-ropensci-package
 categories: []
 tags:
@@ -77,18 +77,16 @@ Thank you!
 - **refsplitr, author name disambiguation, author georeferencing, and mapping of 
     coauthorship networks with 'Web of Science' data**. Tools to parse and organize reference records downloaded from the 'Web of Science' citation database into an R-friendly format, disambiguate the names of authors, geocode their locations, and generate/visualize coauthorship networks. This package has been peer-reviewed by rOpenSci (v. 1.0). [Repository](https://github.com/ropensci/refsplitr).
 - **rtika, R Interface to 'Apache Tika'**. Extract text or metadata from over a thousand file types, using Apache Tika <https://tika.apache.org/>. Get either plain text or structured XHTML content.  [Repository](https://github.com/ropensci/rtika).
-- **tidyqpcr, Quantitative PCR Analysis with the Tidyverse**. For reproducible quantitative PCR (qPCR) analysis building on packages from the ’tidyverse’, notably ’dplyr’ and ’ggplot2’. It normalizes (by ddCq), summarizes, and plots pre-calculated Cq data, and plots raw amplification and melt curves from Roche Lightcycler (tm) machines. It does NOT (yet) calculate Cq data from amplification curves. [Repository](https://github.com/ropensci/tidyqpcr).
+- **tidyqpcr, Quantitative PCR Analysis with the Tidyverse**. For reproducible quantitative PCR (qPCR) analysis building on packages from the ’tidyverse’, notably ’dplyr’ and ’ggplot2’. It normalizes (by ddCq), summarizes, and plots pre-calculated Cq data, and plots raw amplification and melt curves from Roche Lightcycler (tm) machines. It does NOT (yet) calculate Cq data from amplification curves. [Repository](https://github.com/ropensci/tidyqpcr). [Issue with details](https://github.com/ropensci/tidyqpcr/issues/196).
 - **dbparser, 'DrugBank' Database XML Parser**. This tool is for parsing the 'DrugBank' XML database <https://www.drugbank.ca/>. The parsed data are then returned in a proper 'R' dataframe with the ability to save them in a given database. [Repository](https://github.com/ropensci/dbparser).
-- **assertr, Assertive Programming for R Analysis Pipelines**. Provides functionality to assert conditions that have to be met so that errors in data used in analysis pipelines can fail quickly. Similar to 'stopifnot()' but more powerful, friendly, and easier for use in pipelines. [Repository](https://github.com/ropensci/assertr).
-https://github.com/ropensci/MODIStsp/issues/262
-https://github.com/ropensci/tidyqpcr/issues/196
-TODOS:
-- check clarifications when both step down and co maintainers checked.
-- ask maintainers to open issues?
-- provide an email template?
+- **dbparser, 'DrugBank' Database XML Parser**. This tool is for parsing the 'DrugBank' XML database <https://www.drugbank.ca/>. The parsed data are then returned in a proper 'R' dataframe with the ability to save them in a given database. [Repository](https://github.com/ropensci/dbparser).
+- **MODIStsp, Find, Download and Process MODIS Land Products
+    Data**. Allows automating the creation of time series of rasters derived from MODIS satellite land products data. It performs several typical preprocessing steps such as download, mosaicking, reprojecting and resizing data acquired on a specified time period. All processing parameters can be set using a user-friendly GUI. Users can select which layers of the original MODIS HDF files they want to process, which additional quality indicators should be extracted from aggregated MODIS quality assurance layers and, in the case of surface reflectance products, which spectral indexes should be computed from the original reflectance bands. For each output layer, outputs are saved as single-band raster files corresponding to each available acquisition date. Virtual files allowing access to the entire time series as a single file are also created. Command-line execution exploiting a previously saved processing options file is also possible, allowing users to automatically update time series related to a MODIS product whenever a new image is available. For additional documentation refer to the following article: Busetto and Ranghetti (2016) <doi:10.1016/j.cageo.2016.08.020>. [Repository](https://github.com/ropensci/MODIStsp). [Issue with details](https://github.com/ropensci/MODIStsp/issues/262).
+
 
 ## Conclusion
 
 In this post we listed some rOpenSci packages for which new maintainers or co-maintainers are needed.
+Help requests including calls for maintainers and co-maintainers are always listed on our [help wanted](/help-wanted) page.
 We also explained why one would volunteer.
 If you are interested in rOpenSci mission but not in the idea of maintaining a package, have a look at our [contributing guide](https://contributing.ropensci.org/)!
