@@ -74,6 +74,9 @@ Pablo agrega que fue parte del proceso donde se presentó casi de manera lógica
 
 Además suman dos objetivos importantes para todo el proceso: allanar el lenguaje y transformarlo en accesible para todas las personas, incluso para quienes no vengan necesariamente de la programación y desarrollar los paquetes _“lo más en castellano posible que se pueda”_. El objetivo era el mismo: _no tener que pensar si el equipo sabe o no inglés o si el idioma se transforma en una barrera para realizar el trabajo._
 
+{{< figure src = "dnme-r-universe.png" class = "pull-right" width = "500" alt = "Perfil de r-universe con los paquetes de la Dirección" >}}
+
+
 Tanto Pablo como Juan Pablo coinciden en que el principal potencial de R-universe para la oficina es _poder alojar todos los paquetes que tienen en desarrollo._ Pablo lo define así: _“El principal uso que hoy le veo a priori es ser un gran armario en donde poner todas nuestras cajas de herramientas y que incluso también podamos mostrar eso (...) que tenemos un [armario de herramientas que tienen un sentido común y que tienen una filosofía común de trabajo también](https://dnme-minturdep.r-universe.dev/ui#packages)”_.
 
 El trabajo de Juan Pablo y de Pablo como el de R-universe se inscriben en un mundo que ha cambiado sus estructuras y tal como lo definen en la charla. En palabras de Pablo: _“Estamos en un mundo en donde la programación ya no es de programadores en término de quien estudió para eso estamos en un mundo en donde hay muchas personas que colaboran y quieren colaborar con solo una parte o un gramo”_.
