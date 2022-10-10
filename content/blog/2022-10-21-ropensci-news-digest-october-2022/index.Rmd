@@ -45,6 +45,8 @@ Now let's dive into the activity at and around rOpenSci!
 
 ### Reminder for champions
 
+### Better search on R-universe
+
 <!-- to be curated manually -->
 
 <!-- Can use same coworking text every month and ping Steffi to ask if there are any special guests to add -->
