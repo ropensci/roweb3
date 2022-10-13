@@ -10,7 +10,7 @@ tags:
 description: A list of packages who need your help, and a list of reasons why to help.
 ---
 
-rOpenSci [suite of packages](/packages) is mainly composed of packages contributed by the community through [peer-review](/software-peer-review), and of packages maintained by staff. 
+The rOpenSci [suite of packages](/packages) is mainly composed of packages contributed by the community through [peer-review](/software-review), but also includes some packages maintained by staff. 
 Over time, the commitments and availability of the original developers of a package change, which leads to some maintainers' stepping down from their maintainer role, or some maintainers' hoping for more teamwork and therefore looking for co-maintainers.
 Following our recent annual maintainer survey, in this blog post we will explain why **you** might want to help, and we'll list the packages currently up for adoption or collaboration.
 
