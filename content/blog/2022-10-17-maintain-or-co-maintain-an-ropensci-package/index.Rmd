@@ -38,7 +38,7 @@ In the list of packages in this post, some require a large overhaul (for instanc
 Other criteria that might increase the workload are: popularity (many users' requests), code health (maybe a dependency could or should be swapped for a more modern or better maintained one), whether the package is on CRAN or you'd want it to be, etc.
 Have a [look at the repository](/blog/2022/07/01/evaluating-github-activity-for-contributors/) to assess its needs and its toolset before volunteering, and don't hesitate to ask questions (in the volunteering issue, in a new issue if there is no volunteering issue).
 
-## How long would you maintain or co-maintain a package?
+## How long would you (co-)maintain a package?
 
 Until you no longer want to. :wink:
 Ideally, it'd be great for you to be reasonably confident you can spend some of your time on the package for at least one year.
