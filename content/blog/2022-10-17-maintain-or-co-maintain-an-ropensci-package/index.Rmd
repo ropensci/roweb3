@@ -34,7 +34,7 @@ Co-maintaining can allow for more team work and more division of labour, so if t
 
 How much time, what skills in particular?
 Sadly the answers is "it depends".
-In the list of packages in this post, some require a large overhaul (for instance essurvey whose data source underwent many changes) while others are more stable (for instance [robotstxt](https://github.com/ropensci/robotstxt/)).
+In the list of packages in this post, some require a large overhaul (for instance [essurvey](https://github.com/ropensci/essurvey) whose data source underwent many changes) while others are more stable (for instance [robotstxt](https://github.com/ropensci/robotstxt/)).
 Other criteria that might increase the workload are: popularity (many users' requests), code health (maybe a dependency could or should be swapped for a more modern or better maintained one), whether the package is on CRAN or you'd want it to be, etc.
 Have a [look at the repository](/blog/2022/07/01/evaluating-github-activity-for-contributors/) to assess its needs and its toolset before volunteering, and don't hesitate to ask questions (in the volunteering issue, in a new issue if there is no volunteering issue).
 
