@@ -16,12 +16,16 @@ description: ""
 
 Esta es la primera entrega de nuestra serie de entrevistas __"Conciendo a las estrellas del universo R"__. Iniciamos nuestro recorrido en _Argentina_ y con un equipo que utiliza R y desarrolla paquetes de R en el estado Argentino.
 
-<FIXME: agregar video>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://player.vimeo.com/video/759138370" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="Entrevista a Juan Pablo y Pablo></iframe>
+</div>
 
 
 ## La experiencia de trabajar con paquetes de R en el estado argentino
 
 Desde hace dos años, [Juan Pablo Ruiz Nicolini](https://twitter.com/TuQmano) dirige un equipo que tiene a R y a la comunidad de R como un actor sumamente importante en su trabajo. Cuando fue invitado a formar parte de la Dirección de Mercados y Estadística del Ministerio de Deporte y Turismo de la Nación, a cargo de Matías Lammens, se encontró con un gran volumen de datos y con posibilidades de utilizar esos datos con múltiples objetivos. 
+
 {{< figure src = "tq-picture.jpg" class = "center" width = "300" alt = "Foto de perfil de Juan Pablo Ruiz Nicolini" caption = "__Juan Pablo Ruiz Nicolini__ - Director Nacional de Mercados y Estadísticas de la Subsecretaría de Desarrollo Estratégico del Ministerio de Turismo y Deportes de la Nación.">}}
 
 El equipo de trabajo con el que cuentan es grande en comparación con otras reparticiones del Estado y con proyectos permanentes de gran envergadura como los que desarrollan en conjunto con el Indec (Instituto Nacional de Estadísticas y Censos de la Argentina).
