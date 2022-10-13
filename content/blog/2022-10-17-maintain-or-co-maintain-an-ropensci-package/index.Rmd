@@ -26,7 +26,7 @@ Maintenance work allows you to gain and practice software development skills (wr
 Furthermore, it becomes a public record of these awesome skills you have developed and will contribute to your online developer portfolio.
 
 Being an author of an _rOpenSci_ package means you have access to rOpenSci infrastructure (such as [pkgdown docs building for all packages](/blog/2021/09/03/runiverse-docs/)) as well as community support and camaraderie (through our [forum](/blog/2022/01/11/ropensci-forum/), and our semi-open slack where there are other package maintainers, including rOpenSci staff).
-We're grateful for all contributions that help us provide a healthy suite of packages!
+We're grateful for all contributors that help us provide a healthy suite of packages!
 
 Co-maintaining might allow for more team work and more work division, and if that appeals to you, even as a the sole maintainer of a package, you could look for co-maintainers. 
 
