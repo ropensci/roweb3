@@ -35,9 +35,18 @@ You can apply until **November 7, 2022** with this [form](/champions/#how-to-app
 
 #### Call for Mentors
 
-### Better search on R-universe
+### Introducing R-universe power search
 
-<!-- to be curated manually -->
+Earlier this year we announced [r-universe search](https://ropensci.org/blog/2022/03/23/runiverse-search/) which lets you easily browse and discover R packages across the various R ecosystems. We have now upgraded the search system to support advanced search queries, to search for particular properties of an R package.
+
+{{< tweet user="opencpu" id="1573334441849667584" >}}
+
+Advanced search lets you query packages that specifially match a particular author, maintainer, keyword, or topic. But you can also filter based on metadata derived by the build system, for example packages that contain a particular function or dataset, or packages with a particular contributor or dependency.
+
+To give it a try, simply go to https://r-universe.dev and click the advanced search icon:
+
+
+[![screenshot of the advanced search box](advanced.png)](https://r-universe.dev/search)
 
 ### Coworking sessions continue!
 
