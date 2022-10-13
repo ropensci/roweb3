@@ -7,6 +7,9 @@ slug: maintain-or-co-maintain-an-ropensci-package
 categories: []
 tags:
   - community
+  - packages
+  - welcome
+  - maintenance
 description: A list of packages who need your help, and a list of reasons why to help.
 ---
 
