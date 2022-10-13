@@ -56,7 +56,7 @@ You can apply until **November 7, 2022** with this [form](/champions/#how-to-app
 
 ### Introducing R-universe power search
 
-Earlier this year we announced [r-universe search](https://ropensci.org/blog/2022/03/23/runiverse-search/) which lets you easily browse and discover R packages across the various R ecosystems. We have now upgraded the search system to support advanced search queries, to search for particular properties of an R package.
+Earlier this year we announced [R-universe search](https://ropensci.org/blog/2022/03/23/runiverse-search/) which lets you easily browse and discover R packages across the various R ecosystems. We have now upgraded the search system to support advanced search queries, to search for particular properties of an R package.
 
 {{< tweet user="opencpu" id="1573334441849667584" >}}
 
