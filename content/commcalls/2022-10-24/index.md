@@ -17,8 +17,8 @@ notes:
 outputs:
 - HTML
 - Calendar 
-vimeo:
-- id: ''
+#vimeo:
+#- id: ''
 resources:
   - url: /blog/2022/09/22/launch-champions-program
     name: Announcing the rOpenSci Champions Program! 
