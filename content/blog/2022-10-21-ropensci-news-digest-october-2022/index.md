@@ -7,7 +7,7 @@ slug: ropensci-news-digest-october-2022
 categories: []
 tags:
   - newsletter
-description: keywords from the content
+description: rOpenSci Champions Program call for champions and mentors; R-universe search; coworking
 params:
   last_newsletter: '2022-09-23'
 ---
@@ -24,14 +24,14 @@ Now let's dive into the activity at and around rOpenSci!
 
 ### rOpenSci Champions Program: call for Champions and call for Mentors
 
-[rOpenSci Champions Program](/champions/) is part of a series of activities and projects we are carrying out to ensure our research software serves everyone in our communities. 
+The [rOpenSci Champions Program](/champions/) is part of a series of activities and projects we are carrying out to ensure our research software serves everyone in our communities. 
 That is why this program focuses on __people who belong to groups that are historically and systematically excluded__ from the open software and research software communities and who are interested in contributing to rOpenSci and the broader open source and research software communities.
 
 #### Call for Champions
 
 If you are selected as a Champion, over the course of a year you will develop a project, get training, and be mentored. You will also receive a small stipend. 
 
-You can apply until **November 7, 2022** [using a form](/champions/#how-to-apply).  You can read more details in this [blog post](/blog/2022/09/22/launch-champions-program/).
+You can apply until **November 7, 2022** with this [form](/champions/#how-to-apply).  You can read more details in this [blog post](/blog/2022/09/22/launch-champions-program/).
 
 #### Call for Mentors
 
@@ -47,13 +47,14 @@ Everyone welcome.
 No RSVP needed. 
 Consult our [Events](/events) page to find your local time and how to join.
 
-* [Tuesday, 01 November 2022 9 AM North American Pacific / 16:00 UTC ](/events/coworking-2022-11/) "Champions Program Application Clinic" *Hosted by rOpenSci community manager [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) and [Steffi LaZerte](/author/steffi-lazerte/)*
-    * Cowork on a project of your choice;
-    * Prepare your application for the Champions Program;
-    * Or talk to [Yanina](/author/yanina-bellini-saibene/) about the application process.
+* [Tuesday, November 1st 9 AM North American Pacific / 16:00 UTC ](/events/coworking-2022-11/) "Champions Program Application Clinic" *Hosted by rOpenSci community manager [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) and [Steffi LaZerte](/author/steffi-lazerte/)*
+    * Prepare your application for the Champions Program.
+    * Talk to [Yanina](/author/yanina-bellini-saibene/) about the application process.
+    * Cowork independently on work related to R. Work on packages that tend to be neglected; What ever you need to get done!
     
 * [Tuesday, December 6th, 9 AM Australian Western / 1:00 UTC](/events/coworking-2022-12/) "Getting started with targets!" *Hosted by community host [Nick Tierney](/author/nicholas-tierney/) and [Steffi LaZerte](/author/steffi-lazerte/)*
-    - Dive into the world of targets! Do some studying; Start setting it up for some of your projects.
+    - Dive into the world of targets! Do some studying; Start setting it up for some of your projects;
+    - Ask [Nick](/author/nicholas-tierney/) for suggestions how how to get started or tips and tricks;
     - Cowork independently on work related to R. Work on packages that tend to be neglected; What ever you need to get done!
 
 Find out about more [events](/events).
@@ -75,7 +76,8 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following twelve packages have had an update since the last newsletter: [gert](https://docs.ropensci.org/gert "Simple Git Client for R") ([`v1.9.1`](https://github.com/r-lib/gert/releases/tag/v1.9.1)), [aorsf](https://docs.ropensci.org/aorsf "Accelerated Oblique Random Survival Forests") ([`v0.0.3`](https://github.com/ropensci/aorsf/releases/tag/v0.0.3)), [bibtex](https://docs.ropensci.org/bibtex "Bibtex Parser") ([`v0.5.0`](https://github.com/ropensci/bibtex/releases/tag/v0.5.0)), [canaper](https://docs.ropensci.org/canaper "Categorical Analysis of Neo- And Paleo-Endemism") ([`v1.0.0`](https://github.com/ropensci/canaper/releases/tag/v1.0.0)), [cffr](https://docs.ropensci.org/cffr "Generate Citation File Format (cff) Metadata for R Packages") ([`v0.3.0`](https://github.com/ropensci/cffr/releases/tag/v0.3.0)), [geojsonio](https://docs.ropensci.org/geojsonio "Convert Data from and to GeoJSON or TopoJSON") ([`v0.10.0`](https://github.com/ropensci/geojsonio/releases/tag/v0.10.0)), [osfr](https://docs.ropensci.org/osfr "Interface to the Open Science Framework (OSF)") ([`v0.2.9`](https://github.com/ropensci/osfr/releases/tag/v0.2.9)), [pdftools](https://docs.ropensci.org/pdftools "Text Extraction, Rendering and Converting of PDF Documents") ([`v3.2.1`](https://github.com/ropensci/pdftools/releases/tag/v3.2.1)), [qpdf](https://docs.ropensci.org/qpdf "Split, Combine and Compress PDF Files") ([`v1.3.0`](https://github.com/ropensci/qpdf/releases/tag/v1.3.0)), [RefManageR](https://docs.ropensci.org/RefManageR "Straightforward BibTeX and BibLaTeX Bibliography Management") ([`new`](https://github.com/ropensci/RefManageR/releases/tag/new)), [rerddap](https://docs.ropensci.org/rerddap "General Purpose Client for ERDDAP Servers") ([`v1.0.0`](https://github.com/ropensci/rerddap/releases/tag/v1.0.0)), and [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Workflows") ([`0.13.5`](https://github.com/ropensci/targets/releases/tag/0.13.5)).
+The following thirteen packages have had an update since the last newsletter: [gert](https://docs.ropensci.org/gert "Simple Git Client for R") ([`v1.9.1`](https://github.com/r-lib/gert/releases/tag/v1.9.1)), [aorsf](https://docs.ropensci.org/aorsf "Accelerated Oblique Random Survival Forests") ([`v0.0.3`](https://github.com/ropensci/aorsf/releases/tag/v0.0.3)), [bibtex](https://docs.ropensci.org/bibtex "Bibtex Parser") ([`v0.5.0`](https://github.com/ropensci/bibtex/releases/tag/v0.5.0)), [canaper](https://docs.ropensci.org/canaper "Categorical Analysis of Neo- And Paleo-Endemism") ([`v1.0.0`](https://github.com/ropensci/canaper/releases/tag/v1.0.0)), [cffr](https://docs.ropensci.org/cffr "Generate Citation File Format (cff) Metadata for R Packages") ([`v0.3.0`](https://github.com/ropensci/cffr/releases/tag/v0.3.0)), [FedData](https://docs.ropensci.org/FedData "Functions to Automate Downloading Geospatial Data Available from
+    Several Federated Data Sources") ([`v3.0.0`](https://github.com/ropensci/FedData/releases/tag/v3.0.0)), [geojsonio](https://docs.ropensci.org/geojsonio "Convert Data from and to GeoJSON or TopoJSON") ([`v0.10.0`](https://github.com/ropensci/geojsonio/releases/tag/v0.10.0)), [osfr](https://docs.ropensci.org/osfr "Interface to the Open Science Framework (OSF)") ([`v0.2.9`](https://github.com/ropensci/osfr/releases/tag/v0.2.9)), [pdftools](https://docs.ropensci.org/pdftools "Text Extraction, Rendering and Converting of PDF Documents") ([`v3.2.1`](https://github.com/ropensci/pdftools/releases/tag/v3.2.1)), [qpdf](https://docs.ropensci.org/qpdf "Split, Combine and Compress PDF Files") ([`v1.3.0`](https://github.com/ropensci/qpdf/releases/tag/v1.3.0)), [RefManageR](https://docs.ropensci.org/RefManageR "Straightforward BibTeX and BibLaTeX Bibliography Management") ([`new`](https://github.com/ropensci/RefManageR/releases/tag/new)), [rerddap](https://docs.ropensci.org/rerddap "General Purpose Client for ERDDAP Servers") ([`v1.0.0`](https://github.com/ropensci/rerddap/releases/tag/v1.0.0)), and [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Workflows") ([`0.13.5`](https://github.com/ropensci/targets/releases/tag/0.13.5)).
 
 ## Software Peer Review
 
@@ -123,9 +125,11 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 
 
-One use case of our packages and resources has been reported since we sent the last newsletter.
+Two use cases of our packages and resources have been reported since we sent the last newsletter.
 
 * [Using a targets pipeline to query data from the Water Quality Portal](https://discuss.ropensci.org/t/using-a-targets-pipeline-to-query-data-from-the-water-quality-portal/3140). Reported by Julie.
+
+* [Backing up GitHub organisation with gitcellar](https://discuss.ropensci.org/t/backing-up-github-organisation-with-gitcellar/3153). Reported by Hugo Gruson.
 
 Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)!
 
@@ -145,13 +149,12 @@ Some useful tips for R package developers. :eyes:
 
 ### Are you ready to develop packages?
 
-If the question applies to _you_ as an R user, please refer to the resources listed in our [dev guide](https://devguide.ropensci.org/building.html#learning-about-package-development).
-Now, in [Susan Johnston’s wise words](https://github.com/susjoh/fibonacci), if you can open R, if you can install a package, if you can write functions or learn how to write functions, you can write an R package!
+If the question applies to _you_ as an R user, know that in [Susan Johnston’s wise words](https://github.com/susjoh/fibonacci), if you can open R, if you can install a package, if you can write functions or learn how to write functions, you can write an R package! If you're still not sure please refer to the resources listed in our [dev guide](https://devguide.ropensci.org/building.html#learning-about-package-development).
 
-If the question applies to _your machine_, you might like:
+On the other hand, if this question applies to _your machine_, you might use the following functions to find out:
 
 * [`devtools::dev_sitrep()`](https://devtools.r-lib.org/reference/dev_sitrep.html);
-* [`devtools::has_devel()`](https://rdrr.io/cran/pkgbuild/man/has_compiler.html);
+* [`devtools::has_devel()`](https://r-lib.github.io/pkgbuild/reference/has_compiler.html);
 * [`usethis::git_sitrep()`](https://usethis.r-lib.org/reference/git_sitrep.html).
 
 These functions can also be run at any point during your package development work, even once you're used to such work, as they might help you understand why something "weird" is happening.
