@@ -90,6 +90,6 @@ Thank you!
 
 ## Conclusion
 
-In this post I explained that there is a cycle to package maintenance, why maintainers may step down, and why one would want to step up! Hopefully I've inspired some soon-to-be maintainers, who've taken a look at our list of rOpenSci packages for which new maintainers or co-maintainers are needed.
+In this post we explained that there is a cycle to package maintenance, why maintainers may step down, and why one would want to step up! Hopefully we've inspired some soon-to-be maintainers, who've taken a look at our list of rOpenSci packages for which new maintainers or co-maintainers are needed.
 Not sure you're ready to tackle these packages, but think you might be interested in the future? Help requests including calls for maintainers and co-maintainers are always listed on our [help wanted](/help-wanted) page.
 If you are interested in rOpenSci mission but not in the idea of maintaining a package, have a look at our [contributing guide](https://contributing.ropensci.org/) for other ways you can contribute to rOpenSci and benefit from being part of the rOpenSci community!
