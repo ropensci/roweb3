@@ -1006,5 +1006,14 @@
     "url": "https://discuss.ropensci.org/t/using-a-targets-pipeline-to-query-data-from-the-water-quality-portal/3140",
     "image": "noimage",
     "date": "2022-10-03"
+  },
+  {
+    "title": "Backing up GitHub organisation with gitcellar",
+    "reporter": "Hugo Gruson",
+    "tags": [],
+    "resource": "gitcellar blog post: Safeguards and Backups for GitHub Organizations",
+    "url": "https://discuss.ropensci.org/t/backing-up-github-organisation-with-gitcellar/3153",
+    "image": "backing-up-github-organisation-with-gitcellar.png",
+    "date": "2022-10-12"
   }
 ]
