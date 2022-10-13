@@ -12,7 +12,9 @@ description: A list of packages who need your help, and a list of reasons why to
 
 The rOpenSci [suite of packages](/packages) is mainly composed of packages contributed by the community through [peer-review](/software-review), but also includes some packages maintained by staff. 
 Over time, the commitments and availability of the original developers of a package can change. This leads to some maintainers stepping down from their maintainer role, or other maintainers looking to lower their workload through more teamwork and therefore looking for co-maintainers.
-Following our recent annual maintainer survey, in this blog post we will explain why **you** might want to help, and we'll list the packages currently up for adoption or collaboration.
+
+We're so grateful for all our community maintainers and want to make sure that they feel good about the work they do and not burdened by the responsibility. This is why we conduct annual maintainer surveys, to ensure that maintainers feel supported and feel free to say when they need help, or are ready to move on. 
+Following our recent annual maintainer survey, we have projects looking for both new maintainers and co-maintainers. Therefore, we say **thank you!** to our maintainers looking to move on, and in this blog post we will explain why **you** might want to help, and we'll list the packages currently up for adoption or collaboration.
 
 ## Why maintain or co-maintain a package?
 
