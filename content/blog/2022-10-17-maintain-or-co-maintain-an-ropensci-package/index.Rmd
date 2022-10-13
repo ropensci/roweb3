@@ -30,7 +30,7 @@ We're grateful for all contributors that help us provide a healthy suite of pack
 
 Co-maintaining can allow for more team work and more division of labour, so if that appeals to you, you could also look for co-maintainers. 
 
-## What does it take to maintain or co-maintain a package?
+## What does it take to (co-)maintain a package?
 
 How much time, what skills in particular?
 Sadly the answers is "it depends".
