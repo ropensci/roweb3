@@ -20,7 +20,7 @@ Following our recent annual maintainer survey, we have projects looking for both
 
 Maintaining or co-maintaining a package can have some specific advantages, on top of the big motivator "keep a cool package alive".
 Maintenance work allows you to gain and practice software development skills (writing R functions, using GitHub interface, unit testing and continuous integration, technical writing in the documentation...).
-Furthermore, it will give these skills of yours a public record.
+Furthermore, it becomes a public record of these awesome skills you have developed and will contribute to your online developer portfolio.
 
 Being an author of an _rOpenSci_ package means you have access to rOpenSci infrastructure ([pkgdown docs building for all packages](/blog/2021/09/03/runiverse-docs/)) and community support and camaraderie (through our [forum](/blog/2022/01/11/ropensci-forum/), our semi-open slack where there are other package maintainers, including rOpenSci staff).
 We're grateful for all contributions that help us provide a healthy suite of packages!
