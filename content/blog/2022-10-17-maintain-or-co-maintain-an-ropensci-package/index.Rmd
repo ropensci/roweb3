@@ -18,7 +18,7 @@ Following our recent annual maintainer survey, we have projects looking for both
 
 ## Why maintain or co-maintain a package?
 
-Maintaining or co-maintaining a package can have some advantages, on top of the big motivator "keep a cool package alive".
+Maintaining or co-maintaining a package can have some specific advantages, on top of the big motivator "keep a cool package alive".
 Maintenance work allows you to gain and practice software development skills (writing R functions, using GitHub interface, unit testing and continuous integration, technical writing in the documentation...).
 Furthermore, it will give these skills of yours a public record.
 
