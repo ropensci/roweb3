@@ -2,6 +2,7 @@
 title: Maintain or Co-Maintain an rOpenSci Package!
 author:
   - Maëlle Salmon
+  - Steffi LaZerte
 date: '2022-10-17'
 slug: maintain-or-co-maintain-an-ropensci-package
 categories: []
