@@ -124,7 +124,7 @@ cat(
 
 ## Packages looking for co-maintainers!
 
-To volunteer, open an issue in the GitHub repository or email the maintainer.
+To volunteer, comment in the corresponding issue or email the maintainer.
 Thank you!
 
 ```{r, cache = TRUE, results='asis', echo=FALSE}
