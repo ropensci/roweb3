@@ -4,7 +4,7 @@ dateStart: 2022-10-24T18:00:00 # UTC!!
 dateEnd: 2022-10-24T19:00:00 # UTC!!
 date: 2022-10-24T19:00:00 # UTC!! same as dateEnd
 publishDate: 2022-09-23
-description: Details about the program and tips for submitting your Champions Program application
+description: Details about the Champions Program + tips for submitting your application + the experience of being a champion in other open source communities
 author:
   - Santosh Yadav
   - Emanuele Bartolesi
