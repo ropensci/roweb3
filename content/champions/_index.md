@@ -128,7 +128,7 @@ The table below outlines a draft timeline for year one of the Champions Program.
 
 ## How to apply 
 
-Please, [fill out the application form](https://airtable.com/shrAsYlSXU0coJ5Ld) (this [template shows the information we will require](/champions/files/champions_template)) before __Friday Nov 7, 2022.__
+Please, [fill out the application form](https://airtable.com/shrAsYlSXU0coJ5Ld) (this [template shows the information we will require](/champions/files/champions_template)) before __Monday Nov 7, 2022.__
 The application forms __have to be filled in English__.
 
 ### Application Timeline
