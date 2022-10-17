@@ -35,6 +35,12 @@
     <p>
       {{ .package.details | replaceRE "\\'(.*?)\\'" "$1" | replaceRE "<doi:(.*?)>" "[doi:$1](https://doi.org/$1)"  | replaceRE "<arXiv(.*?)>" "[arXiv:$1](https://arxiv.org/abs/$1)"  | markdownify }}
     </p>
+    {{ if ne .package.type "archived" }}
+    <a class="btn btn-linear" href="https://docs.ropensci.org/{{ .package.name }}">View Documentation</a>
+    {{ else }}
+    <a class="btn btn-linear" href="{{ .package.url }}">View Source</a>
+    {{ end }}
+    <br/>
     {{ with .citations }}
     <strong>Scientific use cases</strong>
     <ol>
@@ -44,11 +50,6 @@
       </li>
       {{ end }}
     </ol>
-    {{ end }}
-    {{ if ne .package.type "archived" }}
-    <a class="btn btn-linear" href="https://docs.ropensci.org/{{ .package.name }}">View Documentation</a>
-    {{ else }}
-    <a class="btn btn-linear" href="{{ .package.url }}">View Source</a>
     {{ end }}
   </div>
 </div>
