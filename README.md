@@ -16,7 +16,7 @@ The Hugo version used has to be recorded in netlify.toml (two places) as well as
 
 ### Featured posts and tech notes
 
-To feature a blog post or tech note add
+To feature a blog post or tech note add:
 
 ```yaml
 featured: true
