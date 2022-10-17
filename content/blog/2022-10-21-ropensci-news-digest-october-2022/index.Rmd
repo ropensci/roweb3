@@ -67,9 +67,6 @@ To give it a try, simply go to https://r-universe.dev and click the advanced sea
 
 [![screenshot of the advanced search box](advanced.png)](https://r-universe.dev/search)
 
-
-<!-- to be curated manually -->
-
 ### Coworking sessions continue!
 
 Join us for social coworking & office hours monthly on first Tuesdays! 
@@ -87,8 +84,18 @@ Consult our [Events](/events) page to find your local time and how to join.
     - Dive into the world of targets! Do some studying; Start setting it up for some of your projects;
     - Ask [Nick](/author/nicholas-tierney/) for suggestions how how to get started or tips and tricks;
     - Cowork independently on work related to R. Work on packages that tend to be neglected; What ever you need to get done!
+    
+### We reboot our Community Calls !
 
-Find out about more [events](/events).
+and we do it with a [meeting to talk about Mentoring & training program for Scientific Open Source Champions](/commcalls/oct2022-champions/).
+
+On this call _Santosh Yadav_ and _Emanuele Bartolesi_ will share their experience of being champions in their communities. We will highlight the benefits of being part of a champions program for you and for your community, and what kind of learning, activities, and opportunities an open source community champions program provides. _Yani_ will present the details of our Champion Program and answer all your questions about it.
+
+You can [access all the meeting details on this post.]((/commcalls/oct2022-champions/)). We look forward to seeing you!
+
+### Check out our Calls for new maintainers!
+
+Some of our packages are looking for new maintainers or co-maintainers, read the [blog post presenting them](/blog/2022/10/17/maintain-or-co-maintain-an-ropensci-package/).
 
 ## Software :package:
 
@@ -558,13 +565,8 @@ Explore [other use cases](/usecases) and [report your own](https://discuss.ropen
 
 ## Call for maintainers
 
-<!--IF CALL
-* [our guidance on _Changing package maintainers_](https://devguide.ropensci.org/changing-maintainers.html)
-* [our _Package Curation Policy_](https://devguide.ropensci.org/curationpolicy.html)
-
-IF NO CALL
-There are no open calls for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
-As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. -->
+Following our annual maintainer survey, we identified packages in need of a new maintainer or of co-maintainer.
+Read more about them, and why to maintain or co-maintain a package, in our dedicated blog post ["Maintain or Co-Maintain an rOpenSci Package!"](/blog/2022/10/17/maintain-or-co-maintain-an-ropensci-package/).
 
 ## Package development corner
 

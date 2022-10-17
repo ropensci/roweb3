@@ -37,7 +37,7 @@ You can apply until **November 7, 2022** with this [form](/champions/#how-to-app
 
 ### Introducing R-universe power search
 
-Earlier this year we announced [r-universe search](https://ropensci.org/blog/2022/03/23/runiverse-search/) which lets you easily browse and discover R packages across the various R ecosystems. We have now upgraded the search system to support advanced search queries, to search for particular properties of an R package.
+Earlier this year we announced [R-universe search](https://ropensci.org/blog/2022/03/23/runiverse-search/) which lets you easily browse and discover R packages across the various R ecosystems. We have now upgraded the search system to support advanced search queries, to search for particular properties of an R package.
 
 {{< tweet user="opencpu" id="1573334441849667584" >}}
 
@@ -65,8 +65,18 @@ Consult our [Events](/events) page to find your local time and how to join.
     - Dive into the world of targets! Do some studying; Start setting it up for some of your projects;
     - Ask [Nick](/author/nicholas-tierney/) for suggestions how how to get started or tips and tricks;
     - Cowork independently on work related to R. Work on packages that tend to be neglected; What ever you need to get done!
+    
+### We reboot our Community Calls !
 
-Find out about more [events](/events).
+and we do it with a [meeting to talk about Mentoring & training program for Scientific Open Source Champions](/commcalls/oct2022-champions/).
+
+On this call _Santosh Yadav_ and _Emanuele Bartolesi_ will share their experience of being champions in their communities. We will highlight the benefits of being part of a champions program for you and for your community, and what kind of learning, activities, and opportunities an open source community champions program provides. _Yani_ will present the details of our Champion Program and answer all your questions about it.
+
+You can [access all the meeting details on this post.]((/commcalls/oct2022-champions/)). We look forward to seeing you!
+
+### Check out our Calls for new maintainers!
+
+Some of our packages are looking for new maintainers or co-maintainers, read the [blog post presenting them](/blog/2022/10/17/maintain-or-co-maintain-an-ropensci-package/).
 
 ## Software :package:
 
@@ -90,13 +100,13 @@ The following thirteen packages have had an update since the last newsletter: [g
 
 ## Software Peer Review
 
-There are ten recently closed and active submissions and 3 submissions on hold. Issues are at different stages: 
+There are twelve recently closed and active submissions and 3 submissions on hold. Issues are at different stages: 
 
 * One at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
 
      * [phruta](https://github.com/ropensci/software-review/issues/458), Phylogenetic Reconstruction and Time-dating. Submitted by [Cristian Román Palacios](http://cromanpa94.github.io/cromanpa/). 
 
-* Five at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
+* Six at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
 
      * [daiquiri](https://github.com/ropensci/software-review/issues/535), Data Quality Reporting for Temporal Datasets. Submitted by [Phuong Quan](https://github.com/phuongquan). 
 
@@ -107,6 +117,8 @@ There are ten recently closed and active submissions and 3 submissions on hold. 
     * [tsbox](https://github.com/ropensci/software-review/issues/464), Class-Agnostic Time Series. Submitted by [Christoph Sax](http://www.cynkra.com).  (Stats).
 
     * [healthdatacsv](https://github.com/ropensci/software-review/issues/358), Access data in the healthdata.gov catalog. Submitted by [iecastro](http://iecastro.netlify.com). 
+
+    * [daiquiri](https://github.com/ropensci/software-review/issues/535), Data Quality Reporting for Temporal Datasets. Submitted by [Phuong Quan](https://github.com/phuongquan). 
 
 * One at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 
@@ -119,6 +131,10 @@ There are ten recently closed and active submissions and 3 submissions on hold. 
     * [wmm](https://github.com/ropensci/software-review/issues/522), World Magnetic Model. Submitted by [Will Frierson](https://github.com/wfrierson). 
 
     * [bssm](https://github.com/ropensci/software-review/issues/489), Bayesian Inference of Non-Linear and Non-Gaussian State Space. Submitted by [Jouni Helske](http://jounihelske.netlify.app).  (Stats).
+
+* One at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
+
+     * [dfms](https://github.com/ropensci/software-review/issues/556), Dynamic Factor Models. Submitted by [Sebastian Krantz](https://github.com/SebKrantz). 
 
 Find out more about [Software Peer Review](/software-review) and how to get involved.
 
@@ -144,13 +160,8 @@ Explore [other use cases](/usecases) and [report your own](https://discuss.ropen
 
 ## Call for maintainers
 
-<!--IF CALL
-* [our guidance on _Changing package maintainers_](https://devguide.ropensci.org/changing-maintainers.html)
-* [our _Package Curation Policy_](https://devguide.ropensci.org/curationpolicy.html)
-
-IF NO CALL
-There are no open calls for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
-As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. -->
+Following our annual maintainer survey, we identified packages in need of a new maintainer or of co-maintainer.
+Read more about them, and why to maintain or co-maintain a package, in our dedicated blog post ["Maintain or Co-Maintain an rOpenSci Package!"](/blog/2022/10/17/maintain-or-co-maintain-an-ropensci-package/).
 
 ## Package development corner
 
