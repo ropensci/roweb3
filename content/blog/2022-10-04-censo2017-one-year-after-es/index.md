@@ -1,5 +1,5 @@
 ---
-title: 'Interesting Uses of censo2017 a Year After Publishing'
+title: 'Usos Interesantes de censo2017 un Año Después de su Publicación'
 author:
   - Pachá (aka Mauricio Vargas Sepúlveda)
 date: '2022-10-19'
@@ -18,58 +18,57 @@ tags:
   - software-peer-review
   - censo2017
 description: >
-  Chilean census tables at a glance.
+  Tablas del censo chileno al instante.
 ---
 
-> See the Spanish version of this blog post:
-> [Usos Interesantes de censo2017 un Año Después de su Publicación](/blog/2022/10/19/COMPLETE)
+> Vea la versión en inglés de esta entrada del blog:
+> [Interesting Uses of censo2017 a Year After Publishing](/blog/2022/10/19/COMPLETE)
 
-## Summary
+## Resumen
 
-This post is about the surprising uses I’ve noticed and the questions
-about the [censo2017](https://docs.ropensci.org/censo2017) R package, a tool for
-accessing the Chilean census 2017 data, I’ve gotten since it was peer-reviewed 
-through rOpenSci one year ago. The [original
-post](/blog/2021/07/27/censo2017/) about the
-package one year ago didn’t cover the different examples I present here,
-including a Python port of the R package.
+Este post trata sobre los sorprendentes usos que he observado y las preguntas
+sobre el paquete R [censo2017](https://docs.ropensci.org/censo2017), una herramienta para
+acceder a los datos del censo chileno de 2017, que he recibido desde que fue revisado por pares 
+a través de rOpenSci hace un año. El [post original](/blog/2021/07/27/censo2017/) sobre el
+paquete hace un año no cubría los diferentes ejemplos que presento aquí,
+incluyendo una versión Python del paquete R.
 
-## Organizing the census data
+## Organizar los datos del censo
 
-[Three years ago](/blog/2021/07/27/censo2017/), I had to complete an assignment that required me to
-extract data from Windows-only software in DVD format, which got very
-complicated.
+[Hace tres años](/blog/2021/07/27/censo2017/), tuve que realizar una tarea que me exigía
+extraer los datos de un software sólo para Windows en formato DVD, lo que se hizo muy
+complicado.
 
-I needed to access REDATAM files and obtain a few population summaries
-with specific software for that format. To my surprise, the task got
-incredibly challenging, and I exported the data to SQL for more
-accessible data extraction.
+Necesitaba acceder a los archivos REDATAM y obtener unos resúmenes de población
+con un software específico para ese formato. Para mi sorpresa, la tarea se
+increíblemente difícil, y exporté los datos a SQL para una extracción de datos más
+extracción de datos más accesible.
 
-What I initially organized in PostgreSQL, ended up being organized in a
-local (embedded) database, which is more convenient for end-users and
-can be installed with two lines of code.
+Lo que inicialmente organicé en PostgreSQL, terminó siendo organizado en una
+base de datos local (embebida), que es más conveniente para los usuarios finales y
+puede instalarse con dos líneas de código.
 
-Installation in R:
+Instalación en R:
 
     remotes::install_github("ropensci/censo2017")
     censo2017::censo_descargar()
 
-Installation in Python:
+Instalación en Python:
 
     pip install git+https://github.com/pachadotdev/censo2017python.git#egg=censo2017
 
     import censo2017
     censo2017.descargar()
 
-## Unexpected use I: Substandard housing (in R)
+## Uso inesperado I: Viviendas precarias (en R)
 
-We can use the census data to determine where substandard housing is common, 
-leading to valuable insights for public policy. That is something I never contemplated when
-creating the software.
+Podemos utilizar los datos del censo para determinar dónde son comunes las viviendas precarias, 
+lo que nos permite obtener ideas valiosas para la política pública. Esto es algo que nunca contemplé cuando
+hice el software.
 
-What kind of housing information can we look for in the census? To keep
-it simple, let’s explore the `p01` variable, which we can look at in the
-`variables_codificacion`, a table that I created to organize my work.
+¿Qué tipo de información sobre la vivienda podemos buscar en el censo? Para simplificar
+para simplificar, vamos a explorar la variable `p01`, que podemos consultar en la tabla
+`variables_codificación`, la cual creé para organizar mi trabajo.
 
     library(censo2017)
     library(dplyr)
@@ -107,6 +106,8 @@ it simple, let’s explore the `p01` variable, which we can look at in the
       select(valor, descripcion) %>% 
       collect() %>% 
       kable()
+
+La variable se refiere al "Tipo de Vivienda" y contiene diez valores numéricos que significan:
 
 <table>
 <thead>
@@ -170,99 +171,16 @@ Vivienda)</td>
 </tbody>
 </table>
 
-The variable refers to “Tipo de Vivienda” (Housing Type) and contains
-ten numeric values that mean:
+En este ejemplo, considero las viviendas codificadas como 5 (Mediagua, Mejora, Rancho o Choza) como subestándar. Debido a la organización de los datos del censo, para obtener la proporción de estos tipos
+de vivienda por región, necesitamos
 
-<table>
-<colgroup>
-<col style="width: 13%" />
-<col style="width: 86%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: right;">Value</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: right;">1</td>
-<td style="text-align: left;">House</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">2</td>
-<td style="text-align: left;">Apartment Building</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">3</td>
-<td style="text-align: left;">Traditional Indigenous Dwelling (Ruka<a
-href="#fn1" class="footnote-ref" id="fnref1"
-role="doc-noteref"><sup>1</sup></a> or Others)</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">4</td>
-<td style="text-align: left;">Bedroom in an Old House or in a
-Conventillo<a href="#fn2" class="footnote-ref" id="fnref2"
-role="doc-noteref"><sup>2</sup></a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">5</td>
-<td style="text-align: left;">Half Hut, Improvement, Ranch or Shack</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">6</td>
-<td style="text-align: left;">Mobile (Tent, Mobile Home or Similar)</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">7</td>
-<td style="text-align: left;">Other Type of Private Housing</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">8</td>
-<td style="text-align: left;">Collective Housing</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">9</td>
-<td style="text-align: left;">Persons in Transit Operative (Not a
-Dwelling)</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">10</td>
-<td style="text-align: left;">Street Operative (Not Housing)</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">11</td>
-<td style="text-align: left;">Missing Value</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">0</td>
-<td style="text-align: left;">Not applicable</td>
-</tr>
-</tbody>
-</table>
-<section class="footnotes footnotes-end-of-document"
-role="doc-endnotes">
-<hr />
-<ol>
-<li id="fn1" role="doc-endnote"><p>traditional Mapuche house type<a
-href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2" role="doc-endnote"><p>A building designed to house as many people as
-possible in a small space at a low cost.<a href="#fnref2" class="footnote-back"
-role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section>
-In this example, I consider dwellings coded as 5 (Half Hut, Improvement, Ranch or Shack / Mediagua, Mejora, Rancho o Choza) as substandard.
-Because of the census data organization, to get the share of these types
-of housing per region, we need to:
+1.  Crear el código de cada división política (es decir, región) a partir del
+    código geográfico de la tabla de zonas.
+2.  Unir la tabla de zonas con la tabla de viviendas para hacer coincidir cada unidad con 
+    su ubicación (por ejemplo, el hogar ID 100 está en la región "Los Ríos (14)").
+3.  Agrupar por `p01` y contar el número de unidades.
 
-1.  Create the code for each political division (i.e., region) from the
-    geographical code in the zones table.
-2.  Join the zones (“zonas”) table with the households (“viviendas”)
-    table to match each unit to its location (i.e., household ID 100 is
-    in the “Los Ríos (14th)” region).
-3.  Group by `p01` and count the number of units.
-
-For example, if we want to look at the 14th region specifically, one way to do this could be:
+Por ejemplo, si queremos ver la 14ava región específicamente, una forma de hacerlo podría ser:
 
     tbl(con, "zonas") %>% 
       mutate(region = str_sub(geocodigo, 1, 2)) %>% 
@@ -327,8 +245,8 @@ For example, if we want to look at the 14th region specifically, one way to do t
 </tbody>
 </table>
 
-We can improve this a little bit with an optional join and a step to
-extract the percentages:
+Podemos mejorar esto un poco con una unión opcional y un paso para
+extraer los porcentajes:
 
     tbl(con, "zonas") %>% 
       mutate(region = str_sub(geocodigo, 1, 2)) %>% 
@@ -435,10 +353,10 @@ Vivienda)</td>
 </tbody>
 </table>
 
-For the 14th region, housing quality seems not to be a problem. What if
-we wonder for the number of people living in each of these unit types?
-This would need additional steps to match people (“personas”) to homes
-(“hogares”), and homes to households.
+Para la 14ava región, la calidad de la vivienda no parece ser un problema. ¿Y si
+nos preguntamos por el número de personas que viven en cada uno de estos tipos de unidades?
+Esto requeriría pasos adicionales para unir a las personas con los hogares y los hogares con 
+las viviendas.
 
     tbl(con, "zonas") %>% 
       mutate(region = str_sub(geocodigo, 1, 2)) %>% 
@@ -548,7 +466,7 @@ Pae u Otras)</td>
 </tbody>
 </table>
 
-How does the previous result compare with the capitol (13th region)?
+¿Cómo se compara el resultado anterior con el de la capital (13ava región)?
 
     tbl(con, "zonas") %>% 
       mutate(region = str_sub(geocodigo, 1, 2)) %>% 
@@ -658,26 +576,25 @@ Pae u Otras)</td>
 </tbody>
 </table>
 
-From the previous summarised data we can see that in the capitol, 52,710 
-individuals are living in substandard housing
-(Mediagua, Mejora, Rancho o Choza).
+De los datos resumidos anteriores podemos ver que en la capital, 52.710 
+personas viven en viviendas precarias (Mediagua, Mejora, Rancho o Choza).
 
-We shouldn’t forget to close the database connection.
+No debemos olvidar cerrar la conexión de base de datos.
 
     censo_desconectar()
 
-## Unexpected use II: Water source (in Python)
+## Uso inesperado II: Fuente de agua (en Python)
 
-The motivation for this example is to show that the goal of organizing the 
-census data was not to promote R, but to show some of the benefits of having the 
-data organized in an open format, regardless of the programming language used 
-for the analysis. For me it's easier to complete this example in R, but I 
-wanted to include those using this census data and Python.
+La motivación de este ejemplo es mostrar que el objetivo de organizar los 
+datos del censo no era promover R, sino mostrar algunos de los beneficios de tener los 
+datos organizados en un formato abierto, independientemente del lenguaje de programación utilizado 
+para el análisis. Para mí es más fácil completar este ejemplo en R, pero quería 
+quería incluir a los que utilizan estos datos del censo y Python.
 
-The variable for the water source is `p05`. The analysis is very similar
-to the previous one, and we start by looking at its description. This particular
-example is relevant, as it allows to quantify the number of people that might
-be exposed to water contamination in a certain area.
+La variable para la fuente de agua es `p05`. El análisis es muy similar
+al anterior, y empezamos por ver su descripción. Este ejemplo
+es relevante, ya que permite cuantificar el número de personas que podrían
+estar expuestas a agua contaminada en una zona determinada.
 
     import censo2017
     import duckdb
@@ -694,44 +611,8 @@ be exposed to water contamination in a certain area.
     ## 4  viviendas      p05     99                              Valor Perdido
     ## 5  viviendas      p05     98                                  No Aplica
 
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: right;">Value</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: right;">1</td>
-<td style="text-align: left;">Public Network</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">2</td>
-<td style="text-align: left;">Well or Noria</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">3</td>
-<td style="text-align: left;">Cistern Truck</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">4</td>
-<td style="text-align: left;">River, Stream, Estuary, Canal, Lake,
-Etc.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">99</td>
-<td style="text-align: left;">Missing Value</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">98</td>
-<td style="text-align: left;">Not Applicable</td>
-</tr>
-</tbody>
-</table>
-
-By using this variable, we can know the number of people for each water
-source in the same way as the previous case.
+Utilizando esta variable, podemos conocer el número de personas para cada fuente de agua
+de la misma manera que en el caso anterior.
 
     con.execute("""
     SELECT "p05", "p05_desc", "n",
@@ -783,22 +664,21 @@ source in the same way as the previous case.
     ## 4    3                              Camión Aljibe    3558   0.92
     ## 5   99                              Valor Perdido    2386   0.62
 
-Where we see that for the 14th region, 22.18% of the population doesn’t
-have access to the public tap water network. The advantage of this
-approach is that here we used pure SQL for querying, which would work in
-any language where we can pass SQL queries. The disadvantage is not
-having a tool such as `dplyr` and the need to learn the SQL syntax.
+Aquí vemos que para la 14ava región, el 22,18% de la población no
+tiene acceso a la red pública de agua corriente. La ventaja de este
+enfoque es que aquí utilizamos SQL puro para la consulta, que funcionaría en
+cualquier lenguaje en el que podamos pasar consultas SQL. La desventaja es que no
+tenemos una herramienta como `dplyr` y está la necesidad de aprender la sintaxis SQL.
 
-We shouldn’t forget to close the database connection.
+No debemos olvidar cerrar la conexión a la base de datos.
 
     con.close()
 
-## Concluding remarks
+## Observaciones finales
 
-The examples shown here were simplified. Most of the inquiries I get are
-about data summaries at the sub-communal level, for example how to count the
-occurrences of a categorical variable in a neighborhood, as we did in our example of
-water access (i.e., well or public network). By
-using censo2017 we can extract useful information for evidence-based
-public policy when it comes to, for example, prioritizing budget
-decisions.
+Los ejemplos mostrados aquí se han simplificado. La mayoría de las consultas que 
+recibo son sobre resúmenes de datos a nivel subcomunitario, por ejemplo cómo contar las
+ocurrencias de una variable categórica en un barrio, como hicimos en nuestro ejemplo de
+acceso al agua (es decir, pozo o red pública). Usando censo2017 podemos extraer información 
+útil para las políticas públicas basada en la evidencia cuando se trata, por ejemplo, de 
+priorizar las decisiones presupuestarias.
