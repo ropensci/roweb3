@@ -245,7 +245,7 @@ Por ejemplo, si queremos ver la 14ava región específicamente, una forma de hac
 </tbody>
 </table>
 
-Podemos mejorar esto un poco con una unión opcional y un paso para
+Podemos mejorar esta salida con una unión opcional y un paso para
 extraer los porcentajes:
 
     tbl(con, "zonas") %>% 
