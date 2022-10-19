@@ -29,7 +29,7 @@ description: >
 Este post trata sobre los sorprendentes usos que he observado y las preguntas
 que recibo sobre el paquete R [censo2017](https://docs.ropensci.org/censo2017), una herramienta para
 acceder a los datos del censo chileno de 2017, que he recibido desde que fue revisado por pares 
-a través de rOpenSci hace un año. El [post original](/blog/2021/07/27/censo2017/) sobre el
+a través de rOpenSci hace un año. El [artículo original](/blog/2021/07/27/censo2017/) sobre el
 paquete no cubría los diferentes ejemplos que presento aquí,
 incluyendo una versión Python del paquete R.
 
