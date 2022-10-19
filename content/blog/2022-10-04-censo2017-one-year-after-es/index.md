@@ -22,7 +22,7 @@ description: >
 ---
 
 > Vea la versión en inglés de esta entrada del blog:
-> [Interesting Uses of censo2017 a Year After Publishing](/blog/2022/10/19/COMPLETE)
+> [Interesting Uses of censo2017 a Year After Publishing](/blog/2022/10/19/censo2017-one-year-after)
 
 ## Resumen
 
