@@ -67,7 +67,7 @@ lo que nos permite obtener ideas valiosas para la política pública. Esto es al
 hice el software.
 
 ¿Qué tipo de información sobre la vivienda podemos buscar en el censo? Para simplificar
-para simplificar, vamos a explorar la variable `p01`, que podemos consultar en la tabla
+vamos a explorar la variable `p01`, que podemos consultar en la tabla
 `variables_codificación`, la cual creé para organizar mi trabajo.
 
     library(censo2017)
