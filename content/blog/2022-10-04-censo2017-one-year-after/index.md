@@ -22,7 +22,7 @@ description: >
 ---
 
 > See the Spanish version of this blog post:
-> [Usos Interesantes de censo2017 un Año Después de su Publicación](/blog/2022/10/19/COMPLETE)
+> [Usos Interesantes de censo2017 un Año Después de su Publicación](/blog/2022/10/19/censo2017-one-year-after-es)
 
 ## Summary
 
