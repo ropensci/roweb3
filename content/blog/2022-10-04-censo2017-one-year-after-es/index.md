@@ -41,7 +41,7 @@ complicado.
 
 Necesitaba acceder a los archivos REDATAM y obtener unos resúmenes de población
 con un software específico para ese formato. Para mi sorpresa, la tarea se
-increíblemente difícil, y exporté los datos a SQL para una extracción de datos más
+increíblemente difícil, y exporté los datos a SQL para una 
 extracción de datos más accesible.
 
 Lo que inicialmente organicé en PostgreSQL, terminó siendo organizado en una
