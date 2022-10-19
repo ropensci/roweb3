@@ -17,6 +17,8 @@ tags:
   - community
   - software-peer-review
   - censo2017
+  - spanish
+  - español
 description: >
   Tablas del censo chileno al instante.
 ---
