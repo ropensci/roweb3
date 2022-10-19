@@ -589,7 +589,7 @@ La motivación de este ejemplo es mostrar que el objetivo de organizar los
 datos del censo no era promover R, sino mostrar algunos de los beneficios de tener los 
 datos organizados en un formato abierto, independientemente del lenguaje de programación utilizado 
 para el análisis. Para mí es más fácil completar este ejemplo en R, pero quería 
-quería incluir a los que utilizan estos datos del censo y Python.
+incluir a las personas que utilizan estos datos del censo con Python.
 
 La variable para la fuente de agua es `p05`. El análisis es muy similar
 al anterior, y empezamos por ver su descripción. Este ejemplo
