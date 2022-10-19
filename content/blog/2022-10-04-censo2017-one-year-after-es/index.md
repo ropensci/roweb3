@@ -40,7 +40,7 @@ extraer los datos de un software sólo para Windows en formato DVD, lo que se hi
 complicado.
 
 Necesitaba acceder a los archivos REDATAM y obtener unos resúmenes de población
-con un software específico para ese formato. Para mi sorpresa, la tarea se
+con un software específico para ese formato. Para mi sorpresa, la tarea fue
 increíblemente difícil, y exporté los datos a SQL para una 
 extracción de datos más accesible.
 
