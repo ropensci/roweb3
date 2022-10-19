@@ -1,5 +1,5 @@
 ---
-title: 'Usos Interesantes de censo2017 un Año Después de su Publicación'
+title: 'Usos interesantes de censo2017 un año después de su publicación'
 author:
   - Pachá (aka Mauricio Vargas Sepúlveda)
 date: '2022-10-19'
