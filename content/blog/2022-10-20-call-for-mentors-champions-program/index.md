@@ -89,4 +89,4 @@ Please, fill out the [application form](https://airtable.com/shrlrLdQbb4wphosK) 
 
 Please, contact our Community Manager by [email](mailto:yabellini@ropensci.org) or [book a 15 minutes meeting with her](https://calendly.com/yabellini-ropensci/15min).
 
-We will have a [Community Call on October 24th](/commcalls/oct2022-champions/) to share tips for submitting your Champions Program application and a [Coworking slot on November 1st](/events/coworking-2022-11/) to help you with your application to the Champions Program.
+We will have a [Community Call on October 24th](/commcalls/oct2022-champions/)to explain and explore the benefits of Champions Programs and a [Coworking slot on November 1st](/events/coworking-2022-11/) to answer any questions you might have about mentoring in this program.
