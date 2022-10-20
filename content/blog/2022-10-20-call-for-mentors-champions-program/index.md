@@ -6,14 +6,12 @@ slug: mentors-champions-program
 tags:
   - community
   - help
-  - beginner
-  - welcome
   - diversity
   - champions program
+  - welcome
 feature: true  
 description: "rOpenSci is seeking mentors to support our inaugural cohort of rOpenSci Champions. Could you offer insight and advice to our selected Champions? Learn the details and express your interest!" 
 ---
-
 
 
 ## rOpenSci is seeking mentors to support our inaugural cohort of rOpenSci Champions!
@@ -64,7 +62,7 @@ The total time commitment is expected to be approximately 1-2 hours per month fr
 |Jun 2023|Cohort meeting: Reflections on projects|Champions will be invited to share takeaways from their projects with the cohort.|1.5 h|
 |August - November 2023|Meeting with mentee|Provide feedback and guidance on mentee project.  Connect with other experts, mentors or community members. Recommend training, resources for the mentee project. |1 meeting per month 0.5 h|
 |September 2023|Cohort meeting: Reflections on events|Champions will be invited to share takeaways from their events with the cohort.|1.5 h|
-|December 2023|Cohort meeting: Reflections on program|Mentors will be invited to share takeaways from the program and help to define future roles for Champions.|1.5 h
+|December 2023|Cohort meeting: Reflections on program|Mentors will be invited to share takeaways from the program and help to define future roles for Champions.|1.5 h|
 
 
 ### Benefits of being a mentor
