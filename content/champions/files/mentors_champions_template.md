@@ -29,26 +29,26 @@
 If you developed a package before please, link the github/gitlab repo:
 
 
-* Do you have experience doing code review? 
+* Do you have experience reviewing code? 
 
-  * No, I have never review code.
+  * No, I have never reviewed code.
   
-  * No, I have not review code, but I went through the rOpenSci review process.
+  * No, I have not to reviewed code, but I went through the rOpenSci review process.
   
-  * Yes, I have review code for rOpenSci or other organization.
+  * Yes, I have reviewed code for rOpenSci.
   
   * Yes, I have been editor for rOpenSci.
 
 
 ## Mentoring information
 
-* Would you prefer to mentor a person that: _Choose all that apply_
+* Would you prefer to mentor a person that wants to: _Choose all that apply_
 
-  * Wants to develop a new package
+  * Develop a new package
 
-  * Wants to send their package to rOpenSci’s review process
+  * Send their package to rOpenSci’s review process
   
-  * Wants to be a reviewer for rOpenSci
+  * Be a reviewer for rOpenSci
 
 * Why would you like to be a mentor for the rOpenSci champions program? _Please respond in a maximum of 200 words._
 
