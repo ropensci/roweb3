@@ -47,7 +47,7 @@ We are seeking mentors from the rOpenSci community who have:
   
   * Package development and/or peer code review.
 
-Mentors will gain tutoring experience and skills, be acknowledged on the rOpenSci website and social media channels, and make new connections across the champions networks. This is a great way to give back to the rOpenSci community by mentoring our selected champions and helping to shape this program by providing feedback on this pilot year. 
+Mentors will gain mentoring experience and skills, be acknowledged on the rOpenSci website and social media channels, and make new connections across the Champions' networks. By mentoring our selected Champions and helping to shape this program by providing feedback on this pilot year, mentors will also be giving back to the rOpenSci community in a great and meaningful way!
 
 ### Expectations
 
