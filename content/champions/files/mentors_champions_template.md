@@ -1,6 +1,3 @@
-
-_La plantilla del formulario también está disponible en [español](/champions/files/champions_template_es)._
-
 ## General information
 
 * Full Name
