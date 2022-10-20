@@ -82,7 +82,7 @@ Mentors will participate in a training about mentoring and program logistics as 
 
 
 ### How to apply
-Please, fill out the [application form](https://airtable.com/shrlrLdQbb4wphosK) ([this template shows the information we will require]()) before __Monday Nov 7, 2022__. The application forms have to be completed _in English_.
+Please, fill out the [application form](https://airtable.com/shrlrLdQbb4wphosK) ([this template shows the information we will require](/champions/files/mentors_champions_template)) before __Monday Nov 7, 2022__. The application forms have to be completed _in English_.
 
 
 ## Do you have any questions? 
