@@ -71,7 +71,7 @@ The total time commitment is expected to be approximately 1-2 hours per month fr
 
 By becoming an rOpenSci mentor you will:
 
-* Empower members of our community by sharing your expertise with others; 
+* Empower members of historically and systematically excluded groups by sharing your expertise with others; 
 * Connect with other mentors and with the champion community, expanding your professional network;
 * Be the bridge between your mentee and other community members;
 * Gain exposure, recognition and acknowledgment for your work as a mentor in rOpenSci spaces (website, socal media, events)
