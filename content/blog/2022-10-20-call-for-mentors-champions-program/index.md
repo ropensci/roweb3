@@ -39,7 +39,7 @@ We are seeking mentors from the rOpenSci community who have:
 
 * Previous experience with any of the following: 
 
-  * Developing, maintaining or contributing to any rOpenSci package or package which have gone through rOpenSci review, or
+  * Developing, maintaining or contributing to any rOpenSci package or package which has gone through rOpenSci review, or
   
   * Participating in the rOpenSci review process, or 
   
