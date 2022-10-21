@@ -902,7 +902,7 @@
   {
     "title": "Predizendo volume de eucalipto com tidymodels, XGBoost e targets",
     "reporter": "Theilon Macêdo",
-    "tags": ["portuguese", "targets", "português"],
+    "tags": ["targets", "portuguese", "português"],
     "resource": "[targets](https://docs.ropensci.org/targets)",
     "url": "https://discuss.ropensci.org/t/predizendo-volume-de-eucalipto-com-tidymodels-xgboost-e-targets/2656",
     "image": "predizendo-volume-de-eucalipto-com-tidymodels-xgboost-e-targets.jpeg",
@@ -997,5 +997,23 @@
     "url": "https://discuss.ropensci.org/t/using-handlr-to-convert-bibtex-citation-to-cff/3107",
     "image": "noimage",
     "date": "2022-09-16"
+  },
+  {
+    "title": "Using a targets pipeline to query data from the Water Quality Portal",
+    "reporter": "Julie",
+    "tags": ["r", "targets"],
+    "resource": "targetsdataRetrieval",
+    "url": "https://discuss.ropensci.org/t/using-a-targets-pipeline-to-query-data-from-the-water-quality-portal/3140",
+    "image": "noimage",
+    "date": "2022-10-03"
+  },
+  {
+    "title": "Backing up GitHub organisation with gitcellar",
+    "reporter": "Hugo Gruson",
+    "tags": [],
+    "resource": "gitcellar blog post: Safeguards and Backups for GitHub Organizations",
+    "url": "https://discuss.ropensci.org/t/backing-up-github-organisation-with-gitcellar/3153",
+    "image": "backing-up-github-organisation-with-gitcellar.png",
+    "date": "2022-10-12"
   }
 ]
