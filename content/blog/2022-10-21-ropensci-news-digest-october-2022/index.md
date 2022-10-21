@@ -149,10 +149,8 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 * [Maintain or Co-Maintain an rOpenSci Package!](/blog/2022/10/17/maintain-or-co-maintain-an-ropensci-package) by Maëlle Salmon, and Steffi LaZerte. A list of packages who need your help, and a list of reasons why to help.
 
 * [Interesting Uses of censo2017 a Year After Publishing](/blog/2022/10/19/censo2017-one-year-after) by Pachá (aka Mauricio Vargas Sepúlveda). Chilean census tables at a glance.
-.
 
 * [Usos interesantes de censo2017 un año después de su publicación](/blog/2022/10/19/censo2017-one-year-after-es) by Pachá (aka Mauricio Vargas Sepúlveda). Tablas del censo chileno al instante.
-.
 
 * [Become a Mentor for rOpenSci Champions!](/blog/2022/10/20/mentors-champions-program) by Yanina Bellini Saibene. rOpenSci is seeking mentors to support our inaugural cohort of rOpenSci Champions. Could you offer insight and advice to our selected Champions? Learn the details and express your interest.
 
