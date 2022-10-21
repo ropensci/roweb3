@@ -4,10 +4,9 @@ author:
   - The rOpenSci Team
 date: '2022-10-21'
 slug: ropensci-news-digest-october-2022
-categories: []
 tags:
   - newsletter
-description: rOpenSci Champions Program call for champions and mentors; R-universe search; coworking
+description: rOpenSci Champions Program call for champions and mentors; R-universe search; coworking; community calls; calls for package (co)maintainers
 params:
   last_newsletter: '2022-09-23'
 ---
@@ -59,9 +58,9 @@ Mentors will play a vital role in the rOpenSci Champions Program by helping sele
  
 [Learn the details](/blog/2022/10/20/mentors-champions-program/) and [express your interest](https://airtable.com/shrlrLdQbb4wphosK) by __Monday November 7, 2022__.
 
-If you have any questions, please, contact our Community Manager by [email](mailto:yabellini@ropensci.org) or [book a 15 minutes meeting with her](https://calendly.com/yabellini-ropensci/15min).
+If you have any questions, please contact our Community Manager by [email](mailto:yabellini@ropensci.org) or [book a 15 minutes meeting with her](https://calendly.com/yabellini-ropensci/15min).
 
-We will have a [Community Call on October 24th](/commcalls/oct2022-champions/)to explain and explore the benefits of Champions Programs and a [Coworking slot on November 1st](/events/coworking-2022-11/) to answer any questions you might have about mentoring in this program.
+We will have a [Community Call on October 24th](/commcalls/oct2022-champions/) to explain and explore the benefits of Champions Programs and a [Coworking slot on November 1st](/events/coworking-2022-11/) to answer any questions you might have about mentoring in this program.
 ### Introducing R-universe power search
 
 Earlier this year we announced [R-universe search](https://ropensci.org/blog/2022/03/23/runiverse-search/) which lets you easily browse and discover R packages across the various R ecosystems. We have now upgraded the search system to support advanced search queries, to search for particular properties of an R package.
@@ -99,7 +98,7 @@ and we do it with a [meeting to talk about Mentoring & training program for Scie
 
 On this call _Santosh Yadav_ and _Emanuele Bartolesi_ will share their experience of being champions in their communities. We will highlight the benefits of being part of a champions program for you and for your community, and what kind of learning, activities, and opportunities an open source community champions program provides. _Yani_ will present the details of our Champion Program and answer all your questions about it.
 
-You can [access all the meeting details on this post.]((/commcalls/oct2022-champions/)). We look forward to seeing you!
+You can access all the [meeting details]((/commcalls/oct2022-champions/)). We look forward to seeing you!
 
 ### Check out our Calls for new maintainers!
 
@@ -107,159 +106,11 @@ Some of our packages are looking for new maintainers or co-maintainers, read the
 
 ## Software :package:
 
-### New packages
-
 ```{r new-packages, cache = TRUE}
 cran_unquote <- function(string) {
   gsub("\\'(.*?)\\'", "\\1", string)
 }
-tidy_package <- function(entry) {
-  tibble::tibble(
-    package = entry$name,
-    description = cran_unquote(entry$description),
-    details = cran_unquote(entry$details),
-    on_cran = entry$on_cran,
-    on_bioc = entry$on_bioc,
-    onboarding = entry$onboarding,
-    url = entry$url,
-    maintainer = entry$maintainer # use desc for more info
-    
-  )
-}
-
-registry <- "https://raw.githubusercontent.com/ropensci/roregistry/gh-pages/registry.json" %>%
-  jsonlite::read_json() %>%
-  purrr::pluck("packages") %>%
-  purrr::map_df(tidy_package)
-  
-since <- lubridate::as_date(last_newsletter) - 1
-until <- lubridate::as_date(last_newsletter) + 1
-commits <- gh::gh(
-  "GET /repos/{owner}/{repo}/commits",
-  owner = "ropensci",
-  repo = "roregistry",
-  since = sprintf(
-    "%s-%s-%sT00:00:00Z",
-    lubridate::year(since),
-    stringr::str_pad(lubridate::month(since), 2, "0", side = "left"),
-    stringr::str_pad(lubridate::day(since), 2, "0", side = "left")
-  ),
-  until = sprintf(
-    "%s-%s-%sT00:00:00Z",
-    lubridate::year(until),
-    stringr::str_pad(lubridate::month(until), 2, "0", side = "left"),
-    stringr::str_pad(lubridate::day(until), 2, "0", side = "left")
-  )
-)
-
-empty <- TRUE
-i <- length(commits)
-while (empty == TRUE) {
-  old <- "https://raw.githubusercontent.com/ropensci/roregistry/%s/packages.json" %>%
-    sprintf(commits[[i]]$sha) %>%
-    jsonlite::read_json() %>%
-    purrr::map_df(function(x) tibble::tibble(package = x$package, url = x$url, branch = x$branch))
-  i <- i - 1
-  if (nrow(old) > 100) {
-    empty <- FALSE
-  }
-}
-
-old <- dplyr::filter(
-  old,
-  !grepl("ropenscilabs\\/", url),
-  !grepl("ropensci-archive\\/", url)
-)
-
-new <- dplyr::filter(
-  registry,
-  !package %in% old$package,
-  package != "aorsf",
-  !grepl("ropenscilabs\\/", url),
-  !grepl("ropensci-archive\\/", url)
-)
 ```
-
-
-The following `r if(nrow(new)>1) english(nrow(new))` package`r if(nrow(new)>1) "s"` recently became a part of our software suite:
-
-```{r, results='asis', cache = TRUE, eval=FALSE}
-packages <- split(new, seq(nrow(new)))
-present_one <- function(package) {
-  url_parts <- urltools::url_parse(package$url)
-  desc_link <- gh::gh(
-    "/repos/{owner}/{repo}/contents/{path}",
-    owner = strsplit(url_parts$path, "\\/")[[1]][1],
-    repo = strsplit(url_parts$path, "\\/")[[1]][2],
-    path = "DESCRIPTION"
-  ) %>%
-    purrr::pluck("download_url")
-  withr::with_tempfile(
-    "tf", {
-      download.file(desc_link, tf) 
-      desc <<- desc::desc(file = tf)
-    }
-  )
-  # as in pkgdown
-  authors <- unclass(desc$get_authors())
-  aut <- purrr::keep(authors, function(x) {any( x$role %in% "aut") && all(x$role != "cre") })
-  aut <- purrr::map_chr(aut, function(x) paste(x$given, x$family))
-  rev <- purrr::keep(authors, function(x) {any( x$role %in% "rev") && all(x$role != "cre") })
-  rev <- purrr::map_chr(rev, function(x) paste(x$given, x$family))
-  maintainer <- purrr::keep(authors, function(x) {any( x$role %in% "cre") })
-  maintainer <- paste(c(maintainer[[1]]$given, maintainer[[1]]$family), collapse = " ")
-  
-  author_string <- sprintf("developed by %s", maintainer)
-  
-  if (length(aut) > 0) {
-    author_string <- paste0(author_string, sprintf(" together with %s", nice_string(aut)))
-  } 
-  
-  string <- sprintf(
-    "[%s](https://docs.ropensci.org/%s), %s: %s. ",
-    package$package, 
-    package$package, 
-    author_string,
-    stringr::str_remove(stringr::str_squish(package$details), "\\.$")
-  )
-  
-  if (package$on_cran) {
-    string <- paste0(
-      string, 
-      sprintf(
-        " It is available on [CRAN]( https://CRAN.R-project.org/package=%s). ",
-        package$package
-      )
-    )
-  }
-  if (package$on_bioc) {
-    string <- paste0(
-      string, sprintf(
-        " It is available on [Bioconductor](https://bioconductor.org/packages/%s/). ",
-        package$package
-      )
-    )
-  }
-  if (nzchar(package$onboarding)) {
-    string <- paste0(string, sprintf("It has been [reviewed](%s)", package$onboarding))
-    if (length(rev) > 0) {
-      string <- paste0(string, sprintf(" by %s.", nice_string(rev)))
-    } else {
-      string <- paste0(string, ".")
-    }
-  }
-  
-  paste("+", string)
-
-}
-text <- purrr::map_chr(
-  packages,
-  present_one
-)
-cat(paste0(text, collapse = "\n\n"))
-```
-
-Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
 ### New versions
 
@@ -594,7 +445,7 @@ These functions can also be run at any point during your package development wor
 
 ### How to run code during package installation?
 
-If for any reason you ever need to run code during the installation of your package, know that it is possible as [noted by Gábor Csárdi on RStudio community forum](https://community.rstudio.com/t/is-it-possible-to-run-a-command-during-package-install/147192/4).
+If for any reason you ever need to run code during the installation of your package, know that it is possible as [noted by Gábor Csárdi on the RStudio community forum](https://community.rstudio.com/t/is-it-possible-to-run-a-command-during-package-install/147192/4).
 The example given, from [purrr](https://github.com/tidyverse/purrr/blob/f67f77134cd258fced27834595c4091f49be62e1/configure), consists in adding a [note before examples for older versions of R](https://github.com/tidyverse/purrr/blob/f67f77134cd258fced27834595c4091f49be62e1/inst/tools/examples.R).
 
 Now if your goal is to install an external software, as noted in the forum answer it might be better to provide a function for the users to install the software.
@@ -602,7 +453,7 @@ Then you could also provide a sitrep function for checking the installation, lik
 
 ### Optional (Suggests) dependency that has been archived on CRAN
 
-An interesting challenge reported on [rOpenSci forum](https://discuss.ropensci.org/t/optional-suggests-dependency-that-has-been-archived-on-cran/3071): can a package on CRAN depend on a package that has been archived on CRAN?
+An interesting challenge reported on the [rOpenSci forum](https://discuss.ropensci.org/t/optional-suggests-dependency-that-has-been-archived-on-cran/3071): can a package on CRAN depend on a package that has been archived on CRAN?
 [Jeffrey Hanson](https://jeffrey-hanson.com/) wrote, after successfully updating the [prioritizr](https://cran.r-project.org/web/packages/prioritizr/index.html) package on CRAN despite its (Suggests) depending on [cplexAPI](https://cran.r-project.org/web/packages/cplexAPI/index.html),
 
 > Just to follow up in case this helps anyone else, it would appear that it’s fine to have archived packages listed as Suggests for CRAN submission - as long as conditions for non-CRAN packages are met (e.g., listing URL for package install in the DESCRIPTION file).

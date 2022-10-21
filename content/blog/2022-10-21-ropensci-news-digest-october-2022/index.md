@@ -4,10 +4,9 @@ author:
   - The rOpenSci Team
 date: '2022-10-21'
 slug: ropensci-news-digest-october-2022
-categories: []
 tags:
   - newsletter
-description: rOpenSci Champions Program call for champions and mentors; R-universe search; coworking
+description: rOpenSci Champions Program call for champions and mentors; R-universe search; coworking; community calls; calls for package (co)maintainers
 params:
   last_newsletter: '2022-09-23'
 ---
@@ -34,7 +33,15 @@ If you are selected as a Champion, over the course of a year you will develop a 
 You can apply until **November 7, 2022** with this [form](/champions/#how-to-apply).  You can read more details in this [blog post](/blog/2022/09/22/launch-champions-program/).
 
 #### Call for Mentors
+We are seeking **mentors** to support our inaugural cohort of rOpenSci Champions.
 
+Mentors will play a vital role in the rOpenSci Champions Program by helping select the first cohort of Champions and advising and inspiring their mentees. Mentors will also __connect__ their mentees to people, programs, and organizations; __recommend__, resources, readings, training, and experiences; and provide __feedback__ on the mentee's project.
+ 
+[Learn the details](/blog/2022/10/20/mentors-champions-program/) and [express your interest](https://airtable.com/shrlrLdQbb4wphosK) by __Monday November 7, 2022__.
+
+If you have any questions, please contact our Community Manager by [email](mailto:yabellini@ropensci.org) or [book a 15 minutes meeting with her](https://calendly.com/yabellini-ropensci/15min).
+
+We will have a [Community Call on October 24th](/commcalls/oct2022-champions/) to explain and explore the benefits of Champions Programs and a [Coworking slot on November 1st](/events/coworking-2022-11/) to answer any questions you might have about mentoring in this program.
 ### Introducing R-universe power search
 
 Earlier this year we announced [R-universe search](https://ropensci.org/blog/2022/03/23/runiverse-search/) which lets you easily browse and discover R packages across the various R ecosystems. We have now upgraded the search system to support advanced search queries, to search for particular properties of an R package.
@@ -72,7 +79,7 @@ and we do it with a [meeting to talk about Mentoring & training program for Scie
 
 On this call _Santosh Yadav_ and _Emanuele Bartolesi_ will share their experience of being champions in their communities. We will highlight the benefits of being part of a champions program for you and for your community, and what kind of learning, activities, and opportunities an open source community champions program provides. _Yani_ will present the details of our Champion Program and answer all your questions about it.
 
-You can [access all the meeting details on this post.]((/commcalls/oct2022-champions/)). We look forward to seeing you!
+You can access all the [meeting details]((/commcalls/oct2022-champions/)). We look forward to seeing you!
 
 ### Check out our Calls for new maintainers!
 
@@ -80,23 +87,14 @@ Some of our packages are looking for new maintainers or co-maintainers, read the
 
 ## Software :package:
 
-### New packages
 
-
-
-
-The following  package recently became a part of our software suite:
-
-
-
-Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
 ### New versions
 
 
 
-The following fourteen packages have had an update since the last newsletter: [gert](https://docs.ropensci.org/gert "Simple Git Client for R") ([`v1.9.1`](https://github.com/r-lib/gert/releases/tag/v1.9.1)), [aorsf](https://docs.ropensci.org/aorsf "Accelerated Oblique Random Survival Forests") ([`v0.0.3`](https://github.com/ropensci/aorsf/releases/tag/v0.0.3)), [bibtex](https://docs.ropensci.org/bibtex "Bibtex Parser") ([`v0.5.0`](https://github.com/ropensci/bibtex/releases/tag/v0.5.0)), [canaper](https://docs.ropensci.org/canaper "Categorical Analysis of Neo- And Paleo-Endemism") ([`v1.0.0`](https://github.com/ropensci/canaper/releases/tag/v1.0.0)), [cffr](https://docs.ropensci.org/cffr "Generate Citation File Format (cff) Metadata for R Packages") ([`v0.3.0`](https://github.com/ropensci/cffr/releases/tag/v0.3.0)), [FedData](https://docs.ropensci.org/FedData "Functions to Automate Downloading Geospatial Data Available from
-    Several Federated Data Sources") ([`v3.0.0`](https://github.com/ropensci/FedData/releases/tag/v3.0.0)), [geojsonio](https://docs.ropensci.org/geojsonio "Convert Data from and to GeoJSON or TopoJSON") ([`v0.10.0`](https://github.com/ropensci/geojsonio/releases/tag/v0.10.0)), [osfr](https://docs.ropensci.org/osfr "Interface to the Open Science Framework (OSF)") ([`v0.2.9`](https://github.com/ropensci/osfr/releases/tag/v0.2.9)), [pdftools](https://docs.ropensci.org/pdftools "Text Extraction, Rendering and Converting of PDF Documents") ([`v3.2.1`](https://github.com/ropensci/pdftools/releases/tag/v3.2.1)), [qpdf](https://docs.ropensci.org/qpdf "Split, Combine and Compress PDF Files") ([`v1.3.0`](https://github.com/ropensci/qpdf/releases/tag/v1.3.0)), [RefManageR](https://docs.ropensci.org/RefManageR "Straightforward BibTeX and BibLaTeX Bibliography Management") ([`new`](https://github.com/ropensci/RefManageR/releases/tag/new)), [rerddap](https://docs.ropensci.org/rerddap "General Purpose Client for ERDDAP Servers") ([`v1.0.0`](https://github.com/ropensci/rerddap/releases/tag/v1.0.0)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Workflows") ([`0.13.5`](https://github.com/ropensci/targets/releases/tag/0.13.5)), and [tidytags](https://docs.ropensci.org/tidytags "Importing and Analyzing Twitter Data Collected with Twitter Archiving Google Sheets") ([`v1.0.3`](https://github.com/ropensci/tidytags/releases/tag/v1.0.3)).
+The following sixteen packages have had an update since the last newsletter: [gert](https://docs.ropensci.org/gert "Simple Git Client for R") ([`v1.9.1`](https://github.com/r-lib/gert/releases/tag/v1.9.1)), [aorsf](https://docs.ropensci.org/aorsf "Accelerated Oblique Random Survival Forests") ([`v0.0.3`](https://github.com/ropensci/aorsf/releases/tag/v0.0.3)), [bibtex](https://docs.ropensci.org/bibtex "Bibtex Parser") ([`v0.5.0`](https://github.com/ropensci/bibtex/releases/tag/v0.5.0)), [canaper](https://docs.ropensci.org/canaper "Categorical Analysis of Neo- And Paleo-Endemism") ([`v1.0.0`](https://github.com/ropensci/canaper/releases/tag/v1.0.0)), [cffr](https://docs.ropensci.org/cffr "Generate Citation File Format (cff) Metadata for R Packages") ([`v0.3.0`](https://github.com/ropensci/cffr/releases/tag/v0.3.0)), [datefixR](https://docs.ropensci.org/datefixR "Standardize Dates in Different Formats or with Missing Data") ([`v1.3.0`](https://github.com/ropensci/datefixR/releases/tag/v1.3.0)), [FedData](https://docs.ropensci.org/FedData "Functions to Automate Downloading Geospatial Data Available from
+    Several Federated Data Sources") ([`v3.0.0`](https://github.com/ropensci/FedData/releases/tag/v3.0.0)), [geojsonio](https://docs.ropensci.org/geojsonio "Convert Data from and to GeoJSON or TopoJSON") ([`v0.10.0`](https://github.com/ropensci/geojsonio/releases/tag/v0.10.0)), [osfr](https://docs.ropensci.org/osfr "Interface to the Open Science Framework (OSF)") ([`v0.2.9`](https://github.com/ropensci/osfr/releases/tag/v0.2.9)), [pdftools](https://docs.ropensci.org/pdftools "Text Extraction, Rendering and Converting of PDF Documents") ([`v3.2.1`](https://github.com/ropensci/pdftools/releases/tag/v3.2.1)), [qpdf](https://docs.ropensci.org/qpdf "Split, Combine and Compress PDF Files") ([`v1.3.0`](https://github.com/ropensci/qpdf/releases/tag/v1.3.0)), [RefManageR](https://docs.ropensci.org/RefManageR "Straightforward BibTeX and BibLaTeX Bibliography Management") ([`new`](https://github.com/ropensci/RefManageR/releases/tag/new)), [rerddap](https://docs.ropensci.org/rerddap "General Purpose Client for ERDDAP Servers") ([`v1.0.0`](https://github.com/ropensci/rerddap/releases/tag/v1.0.0)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Workflows") ([`0.13.5`](https://github.com/ropensci/targets/releases/tag/0.13.5)), [tidyhydat](https://docs.ropensci.org/tidyhydat "Extract and Tidy Canadian Hydrometric Data") ([`0.5.7`](https://github.com/ropensci/tidyhydat/releases/tag/0.5.7)), and [tidytags](https://docs.ropensci.org/tidytags "Importing and Analyzing Twitter Data Collected with Twitter Archiving Google Sheets") ([`v1.0.3`](https://github.com/ropensci/tidytags/releases/tag/v1.0.3)).
 
 ## Software Peer Review
 
@@ -150,6 +148,14 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 * [Maintain or Co-Maintain an rOpenSci Package!](/blog/2022/10/17/maintain-or-co-maintain-an-ropensci-package) by Maëlle Salmon, and Steffi LaZerte. A list of packages who need your help, and a list of reasons why to help.
 
+* [Interesting Uses of censo2017 a Year After Publishing](/blog/2022/10/19/censo2017-one-year-after) by Pachá (aka Mauricio Vargas Sepúlveda). Chilean census tables at a glance.
+.
+
+* [Usos interesantes de censo2017 un año después de su publicación](/blog/2022/10/19/censo2017-one-year-after-es) by Pachá (aka Mauricio Vargas Sepúlveda). Tablas del censo chileno al instante.
+.
+
+* [Become a Mentor for rOpenSci Champions!](/blog/2022/10/20/mentors-champions-program) by Yanina Bellini Saibene. rOpenSci is seeking mentors to support our inaugural cohort of rOpenSci Champions. Could you offer insight and advice to our selected Champions? Learn the details and express your interest.
+
 ## Use cases
 
 
@@ -185,7 +191,7 @@ These functions can also be run at any point during your package development wor
 
 ### How to run code during package installation?
 
-If for any reason you ever need to run code during the installation of your package, know that it is possible as [noted by Gábor Csárdi on RStudio community forum](https://community.rstudio.com/t/is-it-possible-to-run-a-command-during-package-install/147192/4).
+If for any reason you ever need to run code during the installation of your package, know that it is possible as [noted by Gábor Csárdi on the RStudio community forum](https://community.rstudio.com/t/is-it-possible-to-run-a-command-during-package-install/147192/4).
 The example given, from [purrr](https://github.com/tidyverse/purrr/blob/f67f77134cd258fced27834595c4091f49be62e1/configure), consists in adding a [note before examples for older versions of R](https://github.com/tidyverse/purrr/blob/f67f77134cd258fced27834595c4091f49be62e1/inst/tools/examples.R).
 
 Now if your goal is to install an external software, as noted in the forum answer it might be better to provide a function for the users to install the software.
@@ -193,7 +199,7 @@ Then you could also provide a sitrep function for checking the installation, lik
 
 ### Optional (Suggests) dependency that has been archived on CRAN
 
-An interesting challenge reported on [rOpenSci forum](https://discuss.ropensci.org/t/optional-suggests-dependency-that-has-been-archived-on-cran/3071): can a package on CRAN depend on a package that has been archived on CRAN?
+An interesting challenge reported on the [rOpenSci forum](https://discuss.ropensci.org/t/optional-suggests-dependency-that-has-been-archived-on-cran/3071): can a package on CRAN depend on a package that has been archived on CRAN?
 [Jeffrey Hanson](https://jeffrey-hanson.com/) wrote, after successfully updating the [prioritizr](https://cran.r-project.org/web/packages/prioritizr/index.html) package on CRAN despite its (Suggests) depending on [cplexAPI](https://cran.r-project.org/web/packages/cplexAPI/index.html),
 
 > Just to follow up in case this helps anyone else, it would appear that it’s fine to have archived packages listed as Suggests for CRAN submission - as long as conditions for non-CRAN packages are met (e.g., listing URL for package install in the DESCRIPTION file).
