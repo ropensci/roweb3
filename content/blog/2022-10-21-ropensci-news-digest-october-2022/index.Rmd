@@ -53,7 +53,15 @@ If you are selected as a Champion, over the course of a year you will develop a 
 You can apply until **November 7, 2022** with this [form](/champions/#how-to-apply).  You can read more details in this [blog post](/blog/2022/09/22/launch-champions-program/).
 
 #### Call for Mentors
+We are seeking **mentors** to support our inaugural cohort of rOpenSci Champions.
 
+Mentors will play a vital role in the rOpenSci Champions Program by helping select the first cohort of Champions and advising and inspiring their mentees. Mentors will also __connect__ their mentees to people, programs, and organizations; __recommend__, resources, readings, training, and experiences; and provide __feedback__ on the mentee's project.
+ 
+[Learn the details](/blog/2022/10/20/mentors-champions-program/) and [express your interest](https://airtable.com/shrlrLdQbb4wphosK) by __Monday November 7, 2022__.
+
+If you have any questions, please, contact our Community Manager by [email](mailto:yabellini@ropensci.org) or [book a 15 minutes meeting with her](https://calendly.com/yabellini-ropensci/15min).
+
+We will have a [Community Call on October 24th](/commcalls/oct2022-champions/)to explain and explore the benefits of Champions Programs and a [Coworking slot on November 1st](/events/coworking-2022-11/) to answer any questions you might have about mentoring in this program.
 ### Introducing R-universe power search
 
 Earlier this year we announced [R-universe search](https://ropensci.org/blog/2022/03/23/runiverse-search/) which lets you easily browse and discover R packages across the various R ecosystems. We have now upgraded the search system to support advanced search queries, to search for particular properties of an R package.
