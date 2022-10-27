@@ -20,7 +20,9 @@
               {{ $image := (print "usecases/" .image )}}
               {{- $original := resources.Get $image -}}
               {{ $image := $original.Fill "352x175" }}
+              {{ with $image }}
               <img src="{{ $image.RelPermalink }}" alt="" />
+              {{ end }}
               <div class="case-card-body">
                 <div class="d-flex flex-wrap align-items-center">
                   <a href="{{ .url }}" class="case-title mr-2">{{ .title }}</a>
