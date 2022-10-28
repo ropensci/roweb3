@@ -37,7 +37,7 @@
 {
    "title": "Community Call Archive",
    "text": "All recordings from previous webinars.",
-   "url": "http://localhost:1313/commcalls/"
+   "url": "/commcalls/"
 },
 {
    "title": "Newsletter",

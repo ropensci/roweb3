@@ -43,4 +43,4 @@ In addition to manually specified keywords, the build system may also add some k
 
 Currently, r-universe is serving 3324 packages and 3291 articles by 929 maintainers. Want to add your own packages? Signing up is easy and only takes a minute. Packages on r-universe may be, but don't need to be on CRAN. In fact, packages that are not on CRAN may especially benefit from the extra visibility by publishing them on r-universe!
 
-For more details read our blog post: [how to create your personal CRAN-like repository on R-universe](http://localhost:1313/blog/2021/06/22/setup-runiverse/).
+For more details read our blog post: [how to create your personal CRAN-like repository on R-universe](/blog/2021/06/22/setup-runiverse/).

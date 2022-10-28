@@ -1,0 +1,587 @@
+---
+title: rOpenSci News Digest, August 2022
+author:
+  - The rOpenSci Team
+date: '2022-08-26'
+slug: ropensci-news-digest-august-2022
+tags:
+  - newsletter
+description: Co-working sessions resume; New pkgcheck check; New package and package news
+params:
+  last_newsletter: '2022-07-22'
+---
+
+```{r setup, include=FALSE}
+library("magrittr")
+library("rlang")
+last_newsletter <- anytime::anytime(params$last_newsletter)
+knitr::opts_chunk$set(echo = FALSE)
+url <- sprintf(
+    "/blog/%s/%s/%s/%s",
+    lubridate::year(rmarkdown::yaml_front_matter(knitr::current_input())$date),
+    stringr::str_pad(lubridate::month(rmarkdown::yaml_front_matter(knitr::current_input())$date), 2, "0", side = "left"),
+    stringr::str_pad(lubridate::day(rmarkdown::yaml_front_matter(knitr::current_input())$date), 2, "0", side = "left"),
+    rmarkdown::yaml_front_matter(knitr::current_input())$slug
+    )
+english <- function(x) {
+  as.character(english::english(x))
+}
+
+nice_string <- function(...) {
+  glue::glue_collapse(..., sep = ", ", last = ", and ")
+}
+```
+<!-- Before sending DELETE THE INDEX_CACHE and re-knit! -->
+
+Dear rOpenSci friends, it's time for our monthly news roundup!
+<!-- blabla -->
+You can read this post [on our blog](`r url`).
+Now let's dive into the activity at and around rOpenSci!
+
+## rOpenSci HQ
+
+### Coworking sessions resume!
+
+Join us for social coworking & office hours monthly on first Tuesdays! 
+Hosted by Steffi LaZerte and various community hosts. 
+Everyone welcome. 
+No RSVP needed. 
+Consult our [Events](/events) page to find your local time and how to join.
+
+* [Tuesday, 06 September 2022 9 AM North American Pacific / 16:00 UTC ](/events/coworking-2022-09/) "Teaching with R" *Hosted by rOpenSci community manager [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) and [Steffi LaZerte](/author/steffi-lazerte/)*
+    * Cowork on a project of your choice;
+    * Work on R-related lessons;
+    * Learn teaching-related R packages;
+    * Or chat with [Yanina](/author/yanina-bellini-saibene/) and others to discuss teaching in or with R.
+
+* [Tuesday, 04 October 2022 9 AM Australian Western / 1:00 UTC ](/events/coworking-2022-10/) "Start writing that package!" *Hosted by community host [Nick Tierney](/author/nicholas-tierney/) and [Steffi LaZerte](/author/steffi-lazerte/)*
+    * Cowork on a project of your choice;
+    * Take time to look up how to write a package;
+    * Start putting together that package you've always meant to;
+    * Or talk to [Nick Tierney](/author/nicholas-tierney/) and others about how to get started.
+
+Find out about more [events](/events).
+
+### New pkgcheck check for undocumented return values
+
+Our [pkgcheck checks](https://docs.ropensci.org/pkgcheck) now include an additional check that all functions have documented return values.
+This check is [run on all new CRAN submissions](https://github.com/DavisVaughan/extrachecks), yet is not currently implemented on any other standard check systems (including R CMD check).
+Checking your packages with pkgcheck will now catch any functions which do not document return values, like in [the report on this recent submission](https://github.com/ropensci/software-review/issues/554#issuecomment-1224053977).
+All current checks are also listed in [a new vignette](https://docs.ropensci.org/pkgcheck/articles/list-checks.html).
+
+## Software :package:
+
+### New packages
+
+```{r new-packages, cache = TRUE}
+cran_unquote <- function(string) {
+  gsub("\\'(.*?)\\'", "\\1", string)
+}
+tidy_package <- function(entry) {
+  tibble::tibble(
+    package = entry$name,
+    description = cran_unquote(entry$description),
+    details = cran_unquote(entry$details),
+    on_cran = entry$on_cran,
+    on_bioc = entry$on_bioc,
+    onboarding = entry$onboarding,
+    url = entry$url,
+    maintainer = entry$maintainer # use desc for more info
+    
+  )
+}
+
+registry <- "https://raw.githubusercontent.com/ropensci/roregistry/gh-pages/registry.json" %>%
+  jsonlite::read_json() %>%
+  purrr::pluck("packages") %>%
+  purrr::map_df(tidy_package)
+  
+since <- lubridate::as_date(last_newsletter) - 1
+until <- lubridate::as_date(last_newsletter) + 1
+commits <- gh::gh(
+  "GET /repos/{owner}/{repo}/commits",
+  owner = "ropensci",
+  repo = "roregistry",
+  since = sprintf(
+    "%s-%s-%sT00:00:00Z",
+    lubridate::year(since),
+    stringr::str_pad(lubridate::month(since), 2, "0", side = "left"),
+    stringr::str_pad(lubridate::day(since), 2, "0", side = "left")
+  ),
+  until = sprintf(
+    "%s-%s-%sT00:00:00Z",
+    lubridate::year(until),
+    stringr::str_pad(lubridate::month(until), 2, "0", side = "left"),
+    stringr::str_pad(lubridate::day(until), 2, "0", side = "left")
+  )
+)
+
+empty <- TRUE
+i <- length(commits)
+while (empty == TRUE) {
+  old <- "https://raw.githubusercontent.com/ropensci/roregistry/%s/packages.json" %>%
+    sprintf(commits[[i]]$sha) %>%
+    jsonlite::read_json() %>%
+    purrr::map_df(function(x) tibble::tibble(package = x$package, url = x$url, branch = x$branch))
+  i <- i - 1
+  if (nrow(old) > 100) {
+    empty <- FALSE
+  }
+}
+
+old <- dplyr::filter(
+  old,
+  !grepl("ropenscilabs\\/", url),
+  !grepl("ropensci-archive\\/", url)
+)
+
+new <- dplyr::filter(
+  registry,
+  !package %in% old$package,
+  !grepl("ropenscilabs\\/", url),
+  !grepl("ropensci-archive\\/", url)
+)
+```
+
+
+The following `r if(nrow(new)>1) english(nrow(new))` package`r if(nrow(new)>1) "s"` recently became a part of our software suite:
+
+```{r, results='asis', cache = TRUE}
+packages <- split(new, seq(nrow(new)))
+present_one <- function(package) {
+  url_parts <- urltools::url_parse(package$url)
+  desc_link <- gh::gh(
+    "/repos/{owner}/{repo}/contents/{path}",
+    owner = strsplit(url_parts$path, "\\/")[[1]][1],
+    repo = strsplit(url_parts$path, "\\/")[[1]][2],
+    path = "DESCRIPTION"
+  ) %>%
+    purrr::pluck("download_url")
+  withr::with_tempfile(
+    "tf", {
+      download.file(desc_link, tf) 
+      desc <<- desc::desc(file = tf)
+    }
+  )
+  # as in pkgdown
+  authors <- unclass(desc$get_authors())
+  aut <- purrr::keep(authors, function(x) {any( x$role %in% "aut") && all(x$role != "cre") })
+  aut <- purrr::map_chr(aut, function(x) paste(x$given, x$family))
+  rev <- purrr::keep(authors, function(x) {any( x$role %in% "rev") && all(x$role != "cre") })
+  rev <- purrr::map_chr(rev, function(x) paste(x$given, x$family))
+  maintainer <- purrr::keep(authors, function(x) {any( x$role %in% "cre") })
+  maintainer <- paste(c(maintainer[[1]]$given, maintainer[[1]]$family), collapse = " ")
+  
+  author_string <- sprintf("developed by %s", maintainer)
+  
+  if (length(aut) > 0) {
+    author_string <- paste0(author_string, sprintf(" together with %s", nice_string(aut)))
+  } 
+  
+  string <- sprintf(
+    "[%s](https://docs.ropensci.org/%s), %s: %s. ",
+    package$package, 
+    package$package, 
+    author_string,
+    stringr::str_remove(stringr::str_squish(package$details), "\\.$")
+  )
+  
+  if (package$on_cran) {
+    string <- paste0(
+      string, 
+      sprintf(
+        " It is available on [CRAN]( https://CRAN.R-project.org/package=%s). ",
+        package$package
+      )
+    )
+  }
+  if (package$on_bioc) {
+    string <- paste0(
+      string, sprintf(
+        " It is available on [Bioconductor](https://bioconductor.org/packages/%s/). ",
+        package$package
+      )
+    )
+  }
+  if (nzchar(package$onboarding)) {
+    string <- paste0(string, sprintf("It has been [reviewed](%s)", package$onboarding))
+    if (length(rev) > 0) {
+      string <- paste0(string, sprintf(" by %s.", nice_string(rev)))
+    } else {
+      string <- paste0(string, ".")
+    }
+  }
+  
+  paste("+", string)
+
+}
+text <- purrr::map_chr(
+  packages,
+  present_one
+)
+cat(paste0(text, collapse = "\n\n"))
+```
+
+Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
+
+### New versions
+
+```{r news, cache=TRUE}
+registry <- dplyr::filter(
+  registry,
+  !grepl("ropenscilabs\\/", url),
+  !grepl("ropensci-archive\\/", url)
+)
+
+registry <- registry %>%
+  dplyr::rowwise() %>%
+  dplyr::mutate(
+  owner = strsplit(urltools::path(url), "/")[[1]][1],
+  repo = strsplit(urltools::path(url), "/")[[1]][2]
+) %>%
+  dplyr::filter(
+    !is.na(owner)
+  )
+packages <- split(registry, seq(nrow(registry)))
+get_release <- function(repo) {
+  info <- gh::gh(
+    "GET /repos/{owner}/{repo}/releases",
+    owner = repo$owner,
+    repo = repo$repo,
+    per_page = 3,
+    description = repo$description
+  )
+  info <- info[!purrr::map_lgl(info, "draft")]
+  if(length(info) == 0 || anytime::anytime(info[[1]]$published_at) < last_newsletter) {
+    return(NULL)
+  }
+  
+  tibble::tibble(
+    package = repo$package,
+    version = info[[1]]$tag_name,
+    url = info[[1]]$html_url,
+    description = repo$description
+  )
+}
+releases <- purrr::map_df(
+  packages,
+  get_release
+)
+releases <- split(releases, seq(nrow(releases)))
+format_release <- function(release) {
+  sprintf(
+    '[%s](https://docs.ropensci.org/%s "%s") ([`%s`](%s))',
+    release$package,
+    release$package,
+    release$description,
+    release$version,
+    release$url
+  )
+}
+all_releases <- purrr::map_chr(releases, format_release)
+text <- nice_string(all_releases)
+```
+
+The following `r if (length(releases) > 1) english(length(releases))` package`r if (length(releases) > 1) "s"` `r if (length(releases) > 1) "have" else "has"` had an update since the last newsletter: `r text`.
+
+## Software Peer Review
+
+```{r software-review, results='asis'}
+# from pkgdown https://github.com/r-lib/pkgdown/blob/1ca166905f1b019ed4af9642617ea09fa2b8fc17/R/utils.r#L176
+
+get_description <- function(body) {
+  lines <- strsplit(body, "\n")[[1]]
+  name <- stringr::str_squish(sub("Package:", "", lines[grepl("^Package", lines)][1]))
+  description <- stringr::str_squish(sub("Title:", "", lines[grepl("^Title", lines)][1]))
+  description <- cran_unquote(sub("\\.$", "", description))
+  list(name = name, description = description)
+}
+
+get_user_text <- function(issue) {
+  info <- gh::gh("GET /users/{username}", username = issue$user$login)
+  name <- info$name %||% issue$user$login
+  url <- if (nzchar(info$blog)) info$blog else info$html_url
+  if (!grepl("^https?:", url)) url <- paste0("http://", url)
+  sprintf("[%s](%s)", name, url)
+  
+}
+
+tidy_issue <- function(issue) {
+  labels <- purrr::map_chr(issue$labels, "name")
+  label <- labels[grepl("[0-9]\\/.*", labels)][1]
+  df <- tibble::tibble(
+    label = label,
+    name = get_description(issue$body)$name,
+    description = get_description(issue$body)$description,
+    title = issue$title,
+    holding = "holding" %in% purrr::map_chr(issue$labels, "name"),
+    others = toString(purrr::map_chr(issue$labels, "name")),
+    closed_at = issue$closed_at %||% NA,
+    url = issue$html_url,
+    user = get_user_text(issue),
+    stats = dplyr::if_else("stats" %in% purrr::map_chr(issue$labels, "name"), " (Stats).", "")
+  )
+  
+  dplyr::rowwise(df) %>%
+    dplyr::mutate(text = sprintf("    * [%s](%s), %s. Submitted by %s. %s", name, url, description, user, stats))
+}
+
+get_issues <- function(label, state) {
+  issues <- gh::gh(
+    "GET /repos/{owner}/{repo}/issues",
+    owner = "ropensci",
+    repo = "software-review",
+    state = state, 
+    labels = label
+  )
+  
+  purrr::map_df(issues, tidy_issue)
+}
+  
+active_issues <- purrr::map_df(
+  c("1/editor-checks","2/seeking-reviewer(s)","3/reviewer(s)-assigned","4/review(s)-in-awaiting-changes","5/awaiting-reviewer(s)-response","6/approved"),
+  get_issues,
+  state = "open"
+)
+
+closed_issues <- get_issues(state = "closed", label  ="6/approved")
+
+ok_date <- function(date) {
+  if (is.na(date)) {
+    return(TRUE)
+  } 
+  
+  anytime::anytime(date) >= last_newsletter
+}
+
+closed_issues <- dplyr::rowwise(closed_issues) %>%
+  dplyr::filter(ok_date(closed_at))
+
+issues <- dplyr::bind_rows(active_issues, closed_issues)
+
+
+no_holding <- sum(issues$holding)
+issues <- dplyr::filter(issues, !holding)
+text <- sprintf("There are %s recently closed and active submissions", english(nrow(issues)))
+if (no_holding > 0) {
+  text <- paste0(
+    text,
+    sprintf(
+      " and %s submission%s on hold.",
+      no_holding,
+      if (no_holding > 1) "s" else ""
+    )
+  )
+} else {
+  text <- paste0(text, ".")
+}
+
+count_label <- function(label) {
+  no <- snakecase::to_sentence_case(english(sum(issues$label == label, na.rm = TRUE)))
+  url <- paste0("https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A", label)
+  sprintf("* %s at ['%s'](%s):\n\n %s", no, label, url, paste0(issues$text[!is.na(issues$label)][ issues$label == label], collapse = "\n\n"))
+}
+
+cat(text)
+cat(
+  paste0(
+    " Issues are at different stages: \n\n",
+    paste0(
+      purrr::map_chr(sort(unique(issues$label[!is.na(issues$label)]), decreasing = TRUE), count_label),
+      collapse = "\n\n"
+    )
+  )
+)
+```
+
+Find out more about [Software Peer Review](/software-review) and how to get involved.
+
+## On the blog
+
+<!-- Do not forget to rebase your branch! -->
+
+```{r blog}
+
+parse_one_post <- function(path){
+  lines <- suppressWarnings(readLines(path, encoding = "UTF-8"))
+  yaml <- blogdown:::split_yaml_body(lines)$yaml
+  yaml <- glue::glue_collapse(yaml, sep = "\n")
+  yaml <- yaml::yaml.load(yaml)
+  
+  meta <- tibble::tibble(
+    date = anytime::anydate(yaml$date),
+    author = nice_string(yaml$author),
+    title = yaml$title,
+    software_peer_review = "Software Peer Review" %in% yaml$tags,
+    tech_note = "tech notes" %in% yaml$tags && !"Software Peer Review" %in% yaml$tags,
+    other = !"tech notes" %in% yaml$tags && !"Software Peer Review" %in% yaml$tags,
+    twitterImg = yaml$twitterImg %||% "",
+    twitterAlt = yaml$twitterAlt %||% "",
+    description = yaml$description %||% "",
+    newsletter = "newsletter" %in% yaml$tags,
+    slug = yaml$slug
+    )
+
+  meta
+}
+paths <- fs::dir_ls("..", recurse = TRUE, glob = "*.md")
+paths <- paths[!paths %in% c("../_index.md", "../2021-02-03-targets/raw_data_source.md",
+  "../2021-02-03-targets/README.md")]
+posts <- purrr::map_df(paths, parse_one_post)
+posts <- dplyr::filter(posts, date >= as.Date(last_newsletter), !newsletter)
+posts <- split(posts, seq(nrow(posts)))
+format_post <- function(post) {
+  url <- sprintf(
+    "/blog/%s/%s/%s/%s",
+    lubridate::year(post$date),
+    stringr::str_pad(lubridate::month(post$date), 2, "0", side = "left"),
+    stringr::str_pad(lubridate::day(post$date), 2, "0", side = "left"),
+    post$slug
+    )
+  string <- sprintf("* [%s](%s) by %s", post$title, url, post$author)
+  if (post$description != "") {
+    string <- paste0(string, ". ", sub("\\?$", "", sub("\\!$", "", sub("\\.$", "", post$description), ".")), ".")
+  } else {
+    string <- paste0(string, ".")  
+  }
+  
+  if (post$twitterImg != "") {
+    img_file <- fs::path_file(post$twitterImg)
+    download.file(sprintf("https://ropensci.org/%s", post$twitterImg), img_file)
+    img_file %>% magick::image_read() %>% magick::image_scale("400x") %>% magick::image_write(img_file)
+    string <- paste0(
+      string,
+      sprintf('{{< figure src="%s" alt="%s" width="400" >}}\n\n', img_file, post$twitterAlt)
+    )
+  }
+  
+  string
+}
+```
+
+```{r, results='asis'}
+software_review <- posts[purrr::map_lgl(posts, "software_peer_review")]
+if (length(software_review) > 0) {
+  cat("### Software Review\n\n")
+  cat(
+    paste0(
+      purrr::map_chr(software_review, format_post),
+      collapse = "\n\n"
+    )
+  )
+  cat("\n\n")
+}
+
+others <- posts[purrr::map_lgl(posts, "other")]
+if (length(others) > 0) {
+  if (length(others) != length(posts)) cat("### Other topics\n\n")
+  cat(
+    paste0(
+      purrr::map_chr(others, format_post),
+      collapse = "\n\n"
+    )
+  )
+  cat("\n\n")
+}
+
+
+tech_notes <- posts[purrr::map_lgl(posts, "tech_note")]
+if (length(tech_notes) > 0) {
+  cat("\n\n")
+  cat("### Tech Notes\n\n")
+  cat(
+    paste0(
+      purrr::map_chr(tech_notes, format_post),
+      collapse = "\n\n"
+    )
+  )
+  cat("\n\n")
+}
+```
+
+<!--
+## Use cases
+
+```{r usecases, eval=FALSE}
+# rerun get_use_cases.R at the same time
+usecases <- jsonlite::read_json("../../../data/usecases/usecases.json")
+get_one_case <- function(usecase) {
+  tibble::tibble(
+    title = usecase$title,
+    reporter = usecase$reporter,
+    url = usecase$url,
+    image = usecase$image,
+    date = anytime::anydate(usecase$date)
+  )
+}
+usecases <- purrr::map_df(usecases, get_one_case)
+usecases <- dplyr::filter(usecases, date >= as.Date(last_newsletter))
+usecases <- split(usecases, seq(nrow(usecases)))
+```
+
+`snakecase::to_sentence_case(english(length(usecases)))` use case`if (length(usecases) > 1) "s"` of our packages and resources ha`if (length(usecases) > 1) "ve" else "s"` been reported since we sent the last newsletter.
+
+```{r usecases2, results='asis', eval=FALSE}
+format_case <- function(usecase) {
+  string <- sprintf("* [%s](%s). Reported by %s.", sub("\\.$", "", usecase$title), usecase$url, usecase$reporter)
+}
+cat(
+  paste0(
+    purrr::map_chr(usecases, format_case),
+    collapse = "\n\n"
+  )
+)
+```
+
+Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)!
+-->
+
+## Call for maintainers
+
+
+We're looking for a new maintainer, or a new maintainer _team_, for each of the following packages:
+
+* [tabulizer](https://docs.ropensci.org/tabulizer/), Extract Tables from PDFs. [Issue for volunteering](https://github.com/ropensci/tabulizer/issues/148).
+
+* [RSelenium](https://docs.ropensci.org/RSelenium/), Automate browsers locally or remotely (for instance for webscraping). [Issue for volunteering](https://github.com/ropensci/RSelenium/issues/261).
+
+* [nbaR](https://docs.ropensci.org/nbaR/), R client library for the Netherlands Biodiversity Api (NBA). [Issue for volunteering](https://github.com/ropensci/nbaR/issues/64).
+
+* [elastic](https://docs.ropensci.org/elastic/), R client for the Elasticsearch HTTP API. [Issue for volunteering](https://github.com/ropensci/elastic/issues/292).
+
+If you're interested, please comment in the issues or email `info@ropensci.org`.
+
+For more info, see
+
+* [our guidance on _Changing package maintainers_](https://devguide.ropensci.org/changing-maintainers.html);
+* [our _Package Curation Policy_](https://devguide.ropensci.org/curationpolicy.html).
+
+
+## Package development corner
+
+Some useful tips for R package developers. :eyes:
+
+### Test your Shiny app with shinytest2!
+
+Barret Schloerke developed a new package for testing Shiny apps, [shinytest2](https://rstudio.github.io/shinytest2).
+It was presented in a [recorded RStudio conf talk](https://www.rstudio.com/conference/2022/talks/shinytest2-unit-testing-for-shiny/).
+
+### Comparing package versions with Diffify
+
+Diffify by Jumping Rivers provides you with a comparison between different versions of any R package stored on CRAN.
+Colin Gillespie presented it in a [recorded RStudio conf talk](https://www.rstudio.com/conference/2022/talks/comparing-package-versions-diffify/).
+
+### pkgdown missing topics or missing articles
+
+If pkgdown complains about missing reference topics or articles:
+
+* Edit `_pkgdown.yml` (see [`?pkgdown::build_reference`](https://pkgdown.r-lib.org/reference/build_reference.html#reference-index) -- you can *choose* to omit topics; [`?pkgdown::build_articles`](https://pkgdown.r-lib.org/reference/build_articles.html#index-and-navbar)).
+
+* Then check everything is ok with [`pkgdown::check_pkgdown`](https://pkgdown.r-lib.org/reference/check_pkgdown.html). This is faster than rebuilding the whole site to check the configuration!
+
+
+## Last words
+
+Thanks for reading! If you want to get involved with rOpenSci, check out our [Contributing Guide](https://contributing.ropensci.org) that can help direct you to the right place, whether you want to make code contributions, non-code contributions, or contribute in other ways like sharing use cases.
+
+If you haven't subscribed to our newsletter yet, you can [do so via a form](/news/). Until it's time for our next newsletter, you can keep in touch with us via our [website](/) and [Twitter account](https://twitter.com/ropensci).
