@@ -257,6 +257,7 @@ Review criteria: anything looks weird? (need to fix upstream data or code?). Spe
 ```
 
 Look for the tweet with that ID on Twitter `http://twitter.com/user/status/bla` (Twitter will re-direct to the correct user). Was it deleted, or is the account now private? 
+
     * If the tweet was deleted or is now private, amend the Markdown file(s) where it was embedded.
     * If the tweet is available, try re-triggering the deploy.
 
