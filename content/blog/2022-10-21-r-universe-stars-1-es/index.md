@@ -16,11 +16,6 @@ description: ""
 
 Esta es la primera entrega de nuestra serie de entrevistas __"Conciendo a las estrellas del universo R"__. Iniciamos nuestro recorrido en _Argentina_ y con un equipo que utiliza R y desarrolla paquetes de R en el estado Argentino.
 
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://player.vimeo.com/video/759138370?h=b3116c79b8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="Entrevista a Juan Pablo y Pablo></iframe>
-</div>
-
 ## La experiencia de trabajar con paquetes de R en el estado argentino
 
 Desde hace dos años, [Juan Pablo Ruiz Nicolini](https://twitter.com/TuQmano) dirige un equipo que tiene a R y a la comunidad de R como un actor sumamente importante en su trabajo. Cuando fue invitado a formar parte de la Dirección de Mercados y Estadística del Ministerio de Deporte y Turismo de la Nación, a cargo de Matías Lammens, se encontró con un gran volumen de datos y con posibilidades de utilizar esos datos con múltiples objetivos. 
@@ -86,3 +81,7 @@ El trabajo de Juan Pablo y de Pablo como el de R-universe se inscriben en un mun
 
 Juan Pablo finaliza diciendo: _“Hay más barreras que se pueden seguir bajando y sobre todo para quienes no venimos de la programación, venimos de las ciencias sociales y empezamos a programar y empezamos a usar herramientas que nos facilitaron el trabajo. Ahí hay una instancia para facilitar aún más el trabajo que podemos escribir con la filosofía tidy con su manifiesto y que además lo podemos hacer en castellano”_. 
 
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://player.vimeo.com/video/759138370?h=b3116c79b8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="Entrevista a Juan Pablo y Pablo></iframe>
+</div>
