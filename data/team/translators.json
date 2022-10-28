@@ -1,0 +1,24 @@
+[{
+   "name": "Elio Campitelli",
+   "url": "https://eliocamp.github.io/",
+   "image" : "https://github.com/eliocamp.png",
+   "affiliation": "Spanish",
+   "roles": [
+      "translator"
+   ],
+   "twitter": "d_olivaw",
+   "github": "eliocamp",
+   "home": "https://eliocamp.github.io/"
+},
+{
+   "name": "Pao Corrales",
+   "affiliation": "Spanish",
+   "url": "https://paocorrales.github.io/",
+   "image" : "https://github.com/paocorrales.png",
+   "roles": [
+      "champion"
+   ],
+   "twitter": "paobcorrales",
+   "github": "paocorrales",
+   "home": "https://paocorrales.github.io/"
+}]

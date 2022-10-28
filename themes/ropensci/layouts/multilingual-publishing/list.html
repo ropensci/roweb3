@@ -11,6 +11,9 @@
 
         <h2 class="title mt-5">Resources</h2>
         {{ partial "resources/resources-cards" (dict "resources" .Site.Data.resources.multilingual ) }}
+        <h2 class="title mt-5">Translators</h2>
+        {{ $translators := (shuffle .Site.Data.team.translators) }}
+        {{ partial "whole-page-fragments/team/team-section" (dict "team" $translators)  }}
       </div>
     </section>
 {{ partial "whole-page-fragments/volunteer"  (dict "divider" "rl" "Site" .Site ) }}
