@@ -8,6 +8,8 @@ tags:
   - help
   - beginner
   - welcome
+  - español
+  - spanish
 featured: true
 description: "" 
 ---
