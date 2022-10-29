@@ -20,9 +20,9 @@ Esta es la primera entrega de nuestra serie de entrevistas __"Conciendo a las es
 
 Desde hace dos años, [Juan Pablo Ruiz Nicolini](https://twitter.com/TuQmano) dirige un equipo que tiene a R y a la comunidad de R como un actor sumamente importante en su trabajo. Cuando fue invitado a formar parte de la Dirección de Mercados y Estadística del Ministerio de Deporte y Turismo de la Nación, a cargo de Matías Lammens, se encontró con un gran volumen de datos y con posibilidades de utilizar esos datos con múltiples objetivos. 
 
-{{< figure src = "TQPT.png" class = "center" width = "300" alt = "Foto de perfil de Juan Pablo Ruiz Nicolini y de Pablo Tiscornia" caption = "__Juan Pablo Ruiz Nicolini__ - Director Nacional de Mercados y Estadísticas de la Subsecretaría de Desarrollo Estratégico del Ministerio de Turismo y Deportes de la Nación. __Pablo Tiscornia__ - Coordinador de procesos - Ministerio de Deporte y Turismo de la Nación Dirección Nacional de Mercados y Estadísticas.">}}
+{{< figure src = "TQPT.png" class = "center" width = "500" alt = "Foto de perfil de Juan Pablo Ruiz Nicolini y de Pablo Tiscornia" caption = "__Juan Pablo Ruiz Nicolini__ - Director Nacional de Mercados y Estadísticas de la Subsecretaría de Desarrollo Estratégico del Ministerio de Turismo y Deportes de la Nación. __Pablo Tiscornia__ - Coordinador de procesos - Ministerio de Deporte y Turismo de la Nación Dirección Nacional de Mercados y Estadísticas.">}}
 
-El equipo de trabajo con el que cuentan es grande en comparación con otras reparticiones del Estado y con proyectos permanentes de gran envergadura como los que desarrollan en conjunto con el Indec (Instituto Nacional de Estadísticas y Censos de la Argentina).
+El equipo de trabajo con el que cuentan es grande en comparación con otras reparticiones del Estado y con proyectos permanentes de gran envergadura como los que desarrollan en conjunto con el INDEC (Instituto Nacional de Estadísticas y Censos de la Argentina).
 
 _“Cuando empezamos, nuestro diagnóstico fue que había un montón de cosas buenísimas, un montón de datos, un montón de procesos (...) había mucho espacio para sacarle jugo a toda esa información que estaba viviendo adentro de las computadoras de los equipos que trabajaban en la dirección”_, así explica Juan Pablo el desafío y la oportunidad que representaba sumarse a esa oficina. 
 La idea además era poder compartir toda es información hacia afuera y con procesos accesibles para distintos públicos.
@@ -60,7 +60,9 @@ Esos públicos incluyen el académico (personas que investigan y enseñan), las 
 
 
 </br>
-## La experiencia R Universe
+
+
+## La experiencia R-universe
 
 El concepto de comunidad tiene mucha relación con las redes sociales y de comunicación y fue precisamente Twitter la que acercó por primera vez a Juan Pablo a [R-universe](https://r-universe.dev/search/) donde descubrió [el paso a paso sobre cómo construir su propio universo de R](https://ropensci.org/blog/2021/09/21/creando-tu-r-universe/).
 
