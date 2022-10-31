@@ -8,4 +8,15 @@
    "title": "ropensci-docs GitHub Organization",
    "text": "Documentation of rOpenSci packages, automatically updated.",
    "url": "https://github.com/ropensci-docs"
+},
+{
+   "title": "Presentación de rOpenSci y el programa de campeones",
+   "text": "Video y presentación del programa en español. Organizado junto al grupo de usuarios RenBuenosAires.",
+   "url": "https://ropensci.org/events/renbaires-2022/"
+},
+{
+   "title": "rOpenSci and rOpenSci's Champions Program presentation",
+   "text": "Video and slides in English presenting rOpenSci and the Champion program. Organize with Abuja R User Group.",
+   "url": "https://ropensci.org/events/abuja-2022/"
+   
 }]
