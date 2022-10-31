@@ -16,6 +16,11 @@
    "url": "https://ropensci.org/blog/2022/10/20/mentors-champions-program/"
 },
 {
+   "title": "¡Anunciamos el programa de Campeones y Campeonas de rOpenSci!",
+   "text": "Estos programas se diseñan para identificar, reconocer y premiar a líderes de nuestras comunidades.",
+   "url": "https://ropensci.org/blog/2022/10/20/mentors-champions-program/"
+},
+{
    "title": "Contributing Guide",
    "text": "The purpose of this guide is to welcome you to rOpenSci and help you recognize yourself as a potential contributor.",
    "url": "https://contributing.ropensci.org"
@@ -25,3 +30,5 @@
    "text": "Documentation of rOpenSci packages, automatically updated.",
    "url": "https://github.com/ropensci-docs"
 }]
+
+
