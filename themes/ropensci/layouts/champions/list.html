@@ -29,23 +29,22 @@
         </div>
         {{ $champions := .Site.Data.team.champions }}
         {{ partial "whole-page-fragments/team/team-section" (dict "team" $champions)  }}
-          <div class="row about-block">
-			<div class="col-md-3 text-md-right">
-				<h4 class="about-block__title" id="editors">
-					Mentors
-				</h4>
-			</div>	
-			<div class="col-md-6 about-block__text">
-				<p>
-					See <a href="https://ropensci.org/blog/2022/10/20/mentors-champions-program/#how-to-apply">how to apply</a>.
-				</p>
-			</div>
+        <div class="row about-block">
+   			 <div class="col-md-3 text-md-right">
+  				<h4 class="about-block__title" id="editors">
+  					Mentors
+  				</h4>
+  			</div>	
+  			 <div class="col-md-6 about-block__text">
+  				<p>
+  					See <a href="https://ropensci.org/blog/2022/10/20/mentors-champions-program/#how-to-apply">how to apply</a>.
+  				</p>
+  			</div>
 		  </div>
-		 </div>
         {{ $mentors := .Site.Data.team.mentors }}
         {{ partial "whole-page-fragments/team/team-section" (dict "team" $mentors)  }}
-        </div>
-        </section>
+      </div>
+    </section>
 {{ partial "whole-page-fragments/volunteer"  (dict "divider" "rl" "Site" .Site ) }}
 {{ partial "whole-page-fragments/newsletter"  (dict "divider" "lr" ) }}
 {{ partial "whole-page-fragments/brands"  (dict "Site" .Site "divider" "rl" ) }}
