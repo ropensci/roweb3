@@ -12,6 +12,8 @@
 * Community: _affiliations to communities (like R-Ladies, MiR, RSE Groups, LatinR, ReproHack, etc. or indicate NA)_
 * [] Please, check if you self-identify as a member of a systematically excluded group from the open source software community.  
 
+* How do you participate in the rOpenSci community? _Please respond in a maximum of 200 words._
+
 ## Expertise
 
 * Do you have experience developing or significantly contributing to R packages? _Choose one option_
@@ -25,9 +27,6 @@
   * Yes, I have developed an R package, and it is published on CRAN.
   
   * Yes, I have developed an R package, and it went through the rOpenSci review process.
-  
-If you developed a package before please, provide the link to the GitHub/GitLab repository:
-
 
 * Do you have experience reviewing code? 
 
