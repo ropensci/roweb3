@@ -19,9 +19,9 @@ This is the first post of our interview series __"Meeting the stars of the R-uni
 
 ## The experience of working with R packages in the Argentine state
 
-Desde hace dos años, [Juan Pablo Ruiz Nicolini](https://twitter.com/TuQmano) dirige un equipo que tiene a R y a la comunidad de R como un actor sumamente importante en su trabajo. Cuando fue invitado a formar parte de la Dirección de Mercados y Estadística del Ministerio de Deporte y Turismo de la Nación, a cargo de Matías Lammens, se encontró con un gran volumen de datos y con posibilidades de utilizar esos datos con múltiples objetivos. 
+For the last two years, [Juan Pablo Ruiz Nicolini](https://twitter.com/TuQmano) has been leading a team with R and the R community as a significant factor in its work. Therefore, when he was invited to join the Markets and Statistics Department of the National Ministry of Sports and Tourism, headed by Matías Lammens, he face a large volume of data and the possibility of using it for multiple purposes.
 
-{{< figure src = "TQPT.png" class = "center" width = "500" alt = "Foto de perfil de Juan Pablo Ruiz Nicolini y de Pablo Tiscornia" caption = "__Juan Pablo Ruiz Nicolini__ - Director Nacional de Mercados y Estadísticas de la Subsecretaría de Desarrollo Estratégico del Ministerio de Turismo y Deportes de la Nación. __Pablo Tiscornia__ - Coordinador de procesos - Ministerio de Deporte y Turismo de la Nación Dirección Nacional de Mercados y Estadísticas.">}}
+{{< figure src = "TQPT.png" class = "center" width = "500" alt = "Profile photo of Juan Pablo Ruiz Nicolini and Pablo Tiscornia." caption = "__Juan Pablo Ruiz Nicolini__ - Director Nacional de Mercados y Estadísticas de la Subsecretaría de Desarrollo Estratégico del Ministerio de Turismo y Deportes de la Nación. __Pablo Tiscornia__ - Coordinador de procesos - Ministerio de Deporte y Turismo de la Nación Dirección Nacional de Mercados y Estadísticas.">}}
 
 El equipo de trabajo con el que cuentan es grande en comparación con otras reparticiones del Estado y con proyectos permanentes de gran envergadura como los que desarrollan en conjunto con el INDEC (Instituto Nacional de Estadísticas y Censos de la Argentina).
 
