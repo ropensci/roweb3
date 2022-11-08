@@ -530,6 +530,10 @@ Some useful tips for R package developers. :eyes:
 
 <!-- To be curated by hand -->
 
+### Display a message or warning only once per session?
+
+If that's your need, know that [`rlang::warn()` and `rlang::inform()`](https://rlang.r-lib.org/reference/abort.html) have a handy `.frequency` argument, as reported by [Jon Harmon on Posit Community forum](https://community.rstudio.com/t/how-to-print-a-once-only-package-startup-message/151468/3).
+
 ### Run some tests on continuous integration only?
 
 Say you have some slow and fragile tests querying an API.
