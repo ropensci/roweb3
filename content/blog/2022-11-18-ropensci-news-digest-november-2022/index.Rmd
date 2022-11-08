@@ -540,6 +540,20 @@ Say you have some slow and fragile tests querying an API.
 If you want to run them on continuous integration only,
 refer to [Bryce Mecum's blog post](https://brycemecum.com/2020/08/05/testing-r-api-packages/).
 
+### How to use additional packages for the pkgdown website only
+
+Say a package is needed for a pkgdown article of your package (but not a vignette), or for nicer autolinking of a reference to a function (for instance if you recommend `usethis::create_package()`). 
+Assuming you're building your website with GitHub Actions from [r-lib/actions](https://github.com/r-lib/actions/tree/v2-branch/examples) (that you might have gotten via [usethis](https://usethis.r-lib.org/reference/github_actions.html)).
+
+If so, you can use the `Config/Needs/website` field in `DESCRIPTION`.
+Here is an example, in [pkgdown itself](https://github.com/r-lib/pkgdown/blob/7fe9e802df2964d483d0267f1d5a59aa7b3c685d/DESCRIPTION#L64)
+
+```
+Config/Needs/website: usethis, servr
+```
+
+The idea of custom fields is mentioned in the second edition of the [R packages book](https://r-pkgs.org/Metadata.html#custom-fields).
+
 ## Last words
 
 Thanks for reading! If you want to get involved with rOpenSci, check out our [Contributing Guide](https://contributing.ropensci.org) that can help direct you to the right place, whether you want to make code contributions, non-code contributions, or contribute in other ways like sharing use cases.
