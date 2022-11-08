@@ -528,7 +528,28 @@ As the maintainer of an rOpenSci package, feel free to contact us on Slack or em
 
 Some useful tips for R package developers. :eyes:
 
-<!-- To be curated by hand -->
+### Tired of typing #' before function examples?
+
+You can write your [function examples](https://blog.r-hub.io/2020/01/27/examples) in separate scripts and then refer to them using the [roxygen2 `@example` (no s!) tag](https://roxygen2.r-lib.org/articles/rd.html#examples).
+
+You'd write
+
+```r
+#' @example man/examples/foo.R
+```
+
+and in `man/examples/foo.R`
+
+```r
+# basic usage of foo
+foo(basic = TRUE)
+# elaborate usage of foo
+foo(basic = FALSE)
+```
+
+Downsides of using this are that it might surprise contributors, and that someone who'd look for the source of the example through, say, the link indicated on a pkgdown reference page, would not get to the example source directly.
+
+Thanks to Hugo Gruson for reminding this in the [rOpenSci semi-open slack](https://contributing.ropensci.org/resources.html#channels).
 
 ### Display a message or warning only once per session?
 
