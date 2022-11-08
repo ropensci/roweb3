@@ -590,6 +590,8 @@ Config/Needs/website: usethis, servr
 
 The idea of custom fields is mentioned in the second edition of the [R packages book](https://r-pkgs.org/Metadata.html#custom-fields).
 
+Note that it works for rOpenSci packages, whose documentation websites are [built with R-universe](/blog/2021/09/03/runiverse-docs/)!
+
 ## Last words
 
 Thanks for reading! If you want to get involved with rOpenSci, check out our [Contributing Guide](https://contributing.ropensci.org) that can help direct you to the right place, whether you want to make code contributions, non-code contributions, or contribute in other ways like sharing use cases.
