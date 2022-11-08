@@ -43,11 +43,19 @@ Now let's dive into the activity at and around rOpenSci!
 
 <!-- to be curated manually -->
 
-<!-- Can use same coworking text every month and ping Steffi to ask if there are any special guests to add -->
-Join us for social coworking & office hours monthly on 1st Tuesdays! Hosted by Steffi LaZerte  and various community hosts. Everyone welcome. No RSVP needed. Consult our [Events](/events) page to find your local time and how to join.
+### Coworking sessions continue!
 
+Join us for social coworking & office hours monthly on first Tuesdays! 
+Hosted by Steffi LaZerte and various community hosts. 
+Everyone welcome. 
+No RSVP needed. 
+Consult our [Events](/events) page to find your local time and how to join.
 
-Find out about more [events](/events).
+* [Tuesday, December 6th, 9 AM Australian Western / 1:00 UTC](/events/coworking-2022-12/) "Getting started with targets!" *Hosted by community host [Nick Tierney](/author/nicholas-tierney/) and [Steffi LaZerte](/author/steffi-lazerte/)*
+    - Dive into the world of targets! Do some studying; Start setting it up for some of your projects;
+    - Ask [Nick](/author/nicholas-tierney/) for suggestions how how to get started or tips and tricks;
+    - Cowork independently on work related to R. Work on packages that tend to be neglected; What ever you need to get done!
+    
 
 ## Software :package:
 
@@ -380,7 +388,7 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 <!-- Do not forget to rebase your branch! -->
 
-```{r blog}
+```{r blog, eval=FALSE}
 
 parse_one_post <- function(path){
   lines <- suppressWarnings(readLines(path, encoding = "UTF-8"))
@@ -439,7 +447,7 @@ format_post <- function(post) {
 }
 ```
 
-```{r, results='asis'}
+```{r, results='asis', eval=FALSE}
 software_review <- posts[purrr::map_lgl(posts, "software_peer_review")]
 if (length(software_review) > 0) {
   cat("### Software Review\n\n")
@@ -481,7 +489,7 @@ if (length(tech_notes) > 0) {
 
 ## Use cases
 
-```{r usecases}
+```{r usecases, eval=FALSE}
 # rerun get_use_cases.R at the same time
 usecases <- jsonlite::read_json("../../../data/usecases/usecases.json")
 get_one_case <- function(usecase) {
@@ -498,9 +506,9 @@ usecases <- dplyr::filter(usecases, date >= as.Date(last_newsletter))
 usecases <- split(usecases, seq(nrow(usecases)))
 ```
 
-`r snakecase::to_sentence_case(english(length(usecases)))` use case`r if (length(usecases) > 1) "s"` of our packages and resources ha`r if (length(usecases) > 1) "ve" else "s"` been reported since we sent the last newsletter.
+`snakecase::to_sentence_case(english(length(usecases)))` use case`if (length(usecases) > 1) "s"` of our packages and resources ha`if (length(usecases) > 1) "ve" else "s"` been reported since we sent the last newsletter.
 
-```{r usecases2, results='asis'}
+```{r usecases2, results='asis', eval=FALSE}
 format_case <- function(usecase) {
   string <- sprintf("* [%s](%s). Reported by %s.", sub("\\.$", "", usecase$title), usecase$url, usecase$reporter)
 }
