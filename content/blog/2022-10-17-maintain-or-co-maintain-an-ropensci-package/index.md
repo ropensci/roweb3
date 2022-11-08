@@ -6,6 +6,7 @@ author:
 date: '2022-10-17'
 slug: maintain-or-co-maintain-an-ropensci-package
 categories: []
+featured: true 
 tags:
   - community
   - packages
