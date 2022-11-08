@@ -522,15 +522,22 @@ cat(
 
 Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)!
 
-## Call for maintainers
+## Call for package (co-)maintainers
 
-<!--IF CALL
-* [our guidance on _Changing package maintainers_](https://devguide.ropensci.org/changing-maintainers.html)
-* [our _Package Curation Policy_](https://devguide.ropensci.org/curationpolicy.html)
+### Call for maintainers
 
-IF NO CALL
-There are no open calls for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
-As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. -->
+There are still a few packages to adopt [from our recent blog post](/blog/2022/10/17/maintain-or-co-maintain-an-ropensci-package/). To volunteer, comment in the corresponding volunteering issue. Thank you!
+
+- **wikitaxa, Taxonomic Information from 'Wikipedia'**. 'Taxonomic' information from 'Wikipedia', 'Wikicommons', 'Wikispecies', and 'Wikidata'. Functions included for getting taxonomic information from each of the sources just listed, as well performing taxonomic search. [Issue for volunteering](https://github.com/ropensci/wikitaxa/issues/20).
+- **rgnparser, Parse Scientific Names**. Parse scientific names using ['gnparser'](https://github.com/gnames/gnparser), written in Go. 'gnparser' parses scientific names into their component parts; it utilizes a Parsing Expression Grammar specifically for scientific names. [Issue for volunteering](https://github.com/ropensci/rgnparser/issues/14).
+- **RSelenium, R Bindings for 'Selenium WebDriver'**. Provides a set of R bindings for the ['Selenium 2.0 WebDriver'](https://www.selenium.dev/documentation/) using the ['JsonWireProtocol'](https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol). 'Selenium 2.0 WebDriver' allows driving a web browser natively as a user would either locally or on a remote machine using the Selenium server it marks a leap forward in terms of web browser automation. [Issue for volunteering](https://github.com/ropensci/RSelenium/issues/261).
+- **elastic, General Purpose Interface to 'Elasticsearch'**. Connect to 'Elasticsearch', a 'NoSQL' database built on the 'Java' Virtual Machine. Interacts with the ['Elasticsearch' 'HTTP' API](https://www.elastic.co/elasticsearch/), including functions for setting connection details to 'Elasticsearch' instances, loading bulk data, searching for documents with both 'HTTP' query variables and 'JSON' based body requests. [Issue for volunteering](https://github.com/ropensci/elastic/issues/292).
+- **ckanr, Client for the Comprehensive Knowledge Archive Network ('CKAN') API**. Client for ['CKAN' API](https://ckan.org/). Includes interface to 'CKAN' 'APIs' for search, list, show for packages, organizations, and resources. In addition, provides an interface to the 'datastore' API. [Issue for volunteering](https://github.com/ropensci/ckanr/issues/186).
+- **Rclean, A Tool for Writing Cleaner, More Transparent Code**. To create clearer, more concise code provides this toolbox helps coders to isolate the essential parts of a script that produces a chosen result, such as an object, tables and figures written to disk. [Issue for volunteering](https://github.com/ropensci/Rclean/issues/213).
+
+### Call for comaintainers
+
+Refer to our [recent blog post](/blog/2022/10/17/maintain-or-co-maintain-an-ropensci-package/#packages-looking-for-co-maintainers) to identify packages where help is especially wished for!
 
 ## Package development corner
 
