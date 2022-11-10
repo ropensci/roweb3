@@ -22,7 +22,25 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-<!-- to be curated manually -->
+### Multilingual Publishing 
+
+Open Source and Open Science are global movements, but most of their material and resources are published in English. 
+Non-English speakers face a significant barrier to being part of these movements.  
+Publishing multilingual resources can lower the barrier to access to knowledge, help democratize access to quality resources and increase the possibilities of contributing to software and open science projects.
+
+With the the support of the [Chan-Zuckerberg Initiative](/blog/2021/12/20/inclusive-leadership-program/) and [NumFOCUS](https://numfocus.org/) we start to translate rOpenSci’s material on best practices for software development, code review, and contribution to open source projects beyond the English language. 
+As part of this effort we are also developping guidelines for translating open source resources to a wider audience.
+
+Learn more about this project and how you can contribute on this blog post.
+
+### Past community Call on Mentoring & training program for Scientific Open Source Champions
+
+We relaunched our community calls with an edition dedicated to our champions program.   
+In order to learn more about what it is to be a champion, why apply to these programs, how it can benefit not only us, but also our communities, we invited champions from other spaces and communities to share their experiences, tips and learnings.
+
+On this call Santosh Yadav and Emanuele Bartolesi moderated by Yani Bellini Saibene shared their experience of being champions in their communities and give advice on how to create a path to become a champion in open source software communities.
+
+You can [watch the video](/commcalls/oct2022-champions/) and [access all the materials](/commcalls/oct2022-champions/)  on our website.
 
 ### Coworking sessions continue!
 
@@ -45,9 +63,11 @@ Consult our [Events](/events) page to find your local time and how to join.
 
 
 
-The following  package recently became a part of our software suite:
+The following two packages recently became a part of our software suite:
 
 + [daiquiri](https://docs.ropensci.org/daiquiri), developed by T. Phuong Quan: Generate reports that enable quick visual review of temporal shifts in record-level data. Time series plots showing aggregated values are automatically created for each data field (column) depending on its contents (e.g. min/max/mean values for numeric data, no. of distinct values for categorical data), as well as overviews for missing values, non-conformant values, and duplicated rows. The resulting reports are sharable and can contribute to forming a transparent record of the entire analysis process. It is designed with Electronic Health Records in mind, but can be used for any type of record-level temporal data (i.e. tabular data where each row represents a single “event”, one column contains the "event date", and other columns contain any associated values for the event). 
+
++ [npi](https://docs.ropensci.org/npi), developed by Frank Farach: Access the United States National Provider Identifier Registry API (if available) and provide informative error messages when it's not. Obtain rich administrative data linked to a specific individual or organizational healthcare provider, or perform advanced searches based on provider name, location, type of service, credentials, and many other attributes. It has been [reviewed](https://github.com/ropensci/software-review/issues/505) by Matthias Grenié, and Emily C. Zabor.
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
@@ -55,7 +75,7 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following twelve packages have had an update since the last newsletter: [aorsf](https://docs.ropensci.org/aorsf "Accelerated Oblique Random Survival Forests") ([`v0.0.4`](https://github.com/ropensci/aorsf/releases/tag/v0.0.4)), [assertr](https://docs.ropensci.org/assertr "Assertive Programming for R Analysis Pipelines") ([`v3.0.0`](https://github.com/ropensci/assertr/releases/tag/v3.0.0)), [chromer](https://docs.ropensci.org/chromer "Interface to Chromosome Counts Database API") ([`v0.3`](https://github.com/ropensci/chromer/releases/tag/v0.3)), [daiquiri](https://docs.ropensci.org/daiquiri "Data Quality Reporting for Temporal Datasets") ([`v1.0.0`](https://github.com/ropensci/daiquiri/releases/tag/v1.0.0)), [jagstargets](https://docs.ropensci.org/jagstargets "Targets for JAGS Workflows") ([`1.0.4`](https://github.com/ropensci/jagstargets/releases/tag/1.0.4)), [mctq](https://docs.ropensci.org/mctq "Tools to Process the Munich ChronoType Questionnaire (MCTQ)") ([`v0.3.1`](https://github.com/ropensci/mctq/releases/tag/v0.3.1)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.9.0`](https://github.com/ropensci/nodbi/releases/tag/v0.9.0)), [stantargets](https://docs.ropensci.org/stantargets "Targets for Stan Workflows") ([`0.0.6`](https://github.com/ropensci/stantargets/releases/tag/0.0.6)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.7.2`](https://github.com/ropensci/tarchetypes/releases/tag/0.7.2)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Workflows") ([`0.14.0`](https://github.com/ropensci/targets/releases/tag/0.14.0)), [vcr](https://docs.ropensci.org/vcr "Record HTTP Calls to Disk") ([`v1.1.0`](https://github.com/ropensci/vcr/releases/tag/v1.1.0)), and [webchem](https://docs.ropensci.org/webchem "Chemical Information from the Web") ([`v1.2.0`](https://github.com/ropensci/webchem/releases/tag/v1.2.0)).
+The following fourteen packages have had an update since the last newsletter: [aorsf](https://docs.ropensci.org/aorsf "Accelerated Oblique Random Survival Forests") ([`v0.0.4`](https://github.com/ropensci/aorsf/releases/tag/v0.0.4)), [assertr](https://docs.ropensci.org/assertr "Assertive Programming for R Analysis Pipelines") ([`v3.0.0`](https://github.com/ropensci/assertr/releases/tag/v3.0.0)), [chromer](https://docs.ropensci.org/chromer "Interface to Chromosome Counts Database API") ([`v0.3`](https://github.com/ropensci/chromer/releases/tag/v0.3)), [daiquiri](https://docs.ropensci.org/daiquiri "Data Quality Reporting for Temporal Datasets") ([`v1.0.0`](https://github.com/ropensci/daiquiri/releases/tag/v1.0.0)), [jagstargets](https://docs.ropensci.org/jagstargets "Targets for JAGS Workflows") ([`1.0.4`](https://github.com/ropensci/jagstargets/releases/tag/1.0.4)), [mctq](https://docs.ropensci.org/mctq "Tools to Process the Munich ChronoType Questionnaire (MCTQ)") ([`v0.3.1`](https://github.com/ropensci/mctq/releases/tag/v0.3.1)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.9.0`](https://github.com/ropensci/nodbi/releases/tag/v0.9.0)), [oai](https://docs.ropensci.org/oai "General Purpose Oai-PMH Services Client") ([`v0.4.0`](https://github.com/ropensci/oai/releases/tag/v0.4.0)), [stantargets](https://docs.ropensci.org/stantargets "Targets for Stan Workflows") ([`0.0.6`](https://github.com/ropensci/stantargets/releases/tag/0.0.6)), [stplanr](https://docs.ropensci.org/stplanr "Sustainable Transport Planning") ([`v1.0.2`](https://github.com/ropensci/stplanr/releases/tag/v1.0.2)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.7.2`](https://github.com/ropensci/tarchetypes/releases/tag/0.7.2)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Workflows") ([`0.14.0`](https://github.com/ropensci/targets/releases/tag/0.14.0)), [vcr](https://docs.ropensci.org/vcr "Record HTTP Calls to Disk") ([`v1.1.0`](https://github.com/ropensci/vcr/releases/tag/v1.1.0)), and [webchem](https://docs.ropensci.org/webchem "Chemical Information from the Web") ([`v1.2.0`](https://github.com/ropensci/webchem/releases/tag/v1.2.0)).
 
 ## Software Peer Review
 
