@@ -128,23 +128,23 @@ The table below outlines a draft timeline for year one of the Champions Program.
 
 ## How to apply 
 
-Please, [fill out the application form](https://airtable.com/shrAsYlSXU0coJ5Ld) (this [template shows the information we will require](/champions/files/champions_template)) before __Monday Nov 7, 2022.__
-The application forms __have to be filled in English__.
+The call for this year has already closed.
+
+We will make another call, next year.  We will announce it in our [newsletter](https://ropensci.org/news/) and our social networks.
 
 ### Application Timeline
 
-|Date|Event|
+|Date|Event|Status|
 |----|-----|
-|Sep 23, 2022|Call for Application opens|
-|Oct 24, 2022|[OPTIONAL] [Community Call - Tips for submitting your Champions Program application](/commcalls/oct2022-champions/)|
-|Nov 1, 2022|[OPTIONAL] [Co-working hours](/events/coworking-2022-11/): receive help with your application to the Champions Program.|
-|Nov 7, 2022|Call for applications closed|
-|Nov 25, 2022|Communication with selected Champions.|
+|Sep 23, 2022|Call for Application opens| Done |
+|Oct 24, 2022|[OPTIONAL] [Community Call - Tips for submitting your Champions Program application](/commcalls/oct2022-champions/)| Done |
+|Nov 1, 2022|[OPTIONAL] [Co-working hours](/events/coworking-2022-11/): receive help with your application to the Champions Program.| Done |
+|Nov 7, 2022|Call for applications closed| Close |
+|Nov 30, 2022|Communication with selected Champions.| |
 
 
 ## Do you have any questions?
 
 Please, contact our Community Manager [by email](mailto:yabellini@ropensci.org). 
 
-We will have a [Community Call October, 24](/commcalls/oct2022-champions/) to share tips for submitting your Champions Program application and a [Coworking space on November, 1](/events/coworking-2022-11/) to help you with your application to the Champions Program.
-
+You can also check our resources about the program in English and Spanish.
