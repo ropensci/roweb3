@@ -32,15 +32,16 @@ From the beginning, the process involved several steps. First they made the deci
 
 [Pablo Tiscornia](https://twitter.com/pabblo_h) is part of Juan Pablo's team or _el Tucu_ -that's how Juan Pablo Ruiz Nicolini is known- and explains that the starting point of their working is use everything that the R community had been offering and the free software philosophy.  Until now the work in the office combined manual processes and almost everything was in proprietary software. Pablo and Tucu met with a team of approximately 17 people who worked in some way with data processing and who were all very involved with the processes: _“first we needed to solve an internal work dynamic (...) there was a lot to do. Today I think out of those 17 people 15, 14 all of them know how to open R, they know how to put together a script and they know how they want to be involved in the process we define. From the moment you have a piece of data until you communicate at the end.”_
 
-En esta etapa el objetivo estaba cumplido: que el equipo conozca la herramienta y conozca la dinámica de trabajo que habían definido como la más adecuada.
+At this stage, the objective was achieved: the team learn the tool and the work dynamics that they had defined as the most appropriate.
 
-El segundo paso era _"abrir el proceso”_ además de _“mejorar el flujo de trabajo”_. Pablo explica que también incorporaron la _“dinámica de un estado abierto con una apertura de proceso,  de no ocultar cómo hacemos las cosas”_. Un concepto que incluye en un futuro también la posibilidad de recibir aportes de la comunidad y de poner a revisión sus propios códigos. 
+The second step was to _"open the process"_ as well as _"improve the workflow"_. Pablo explains that they also incorporated the _"dynamics of an open State, open our process, not hiding how we do our work."_. A concept that in the future will also include the possibility of receiving contributions from the community and or our code to be reviewed.
 
-Como todos los procesos son complejos y en muchos casos con pasos en simultáneos y hasta “caóticos” como lo relata el _Tucu_ donde distintas personas con conocimientos diversos hicieron sus aportes para poder diseñar los proyectos que hoy tienen en desarrollo.
+As all processes are complex and many of them involve simultaneous and even "chaotic" steps, as _Tucu_ describes, where different people with diverse knowledge contributed to the design of the projects that are currently under development.
 
-El _Tucu_ pone como ejemplo la _reunión de los jueves_ donde muestran y comparten sus códigos para que otras personas puedan utilizarlos en otras partes del proceso: _“Eso es código en vivo donde planteamos dudas y hacemos ejercicios (...) tratamos de generar una dinámica en la cual vamos compartiendo de una manera hasta lúdica a veces mostrando cada parte que van haciendo para ser compartida con los demás.”_
+_Tucu_ gives as an example the _Thursday meeting_ where they show and share their codes so that other people can use them in other parts of the process: _"We do live coding where we raise doubts and do exercises (...) we try to generate a dynamic in which we share in a ludic way, sometimes showing each part and what they are doing to be shared with others."_
 
-## Software libre y en nuestro idioma
+
+## Free software and in our language
 
 Además de la gratuidad del software libre y de la importancia del manejo de los recursos para un estado, Pablo Tiscornia explica lo que aparece casi como una declaración de principios: _“Es una filosofía de trabajo y de concepción sobre cómo desarrollamos y promovemos el conocimiento. Creo que somos gracias al software libre, lo que hoy podemos darle al estado entonces sería casi un acto irresponsable no promover lo que a nosotros nos formó.”_
 Juan Pablo refuerza la idea con su experiencia personal: _“Yo era un tesista de maestría en ciencias políticas y hace siete años me obligué a hacer la tesis en R para aprender (...) y lo que rápidamente encontré, por suerte, fue la comunidad de R”._
