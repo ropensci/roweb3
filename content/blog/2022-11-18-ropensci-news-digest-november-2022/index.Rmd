@@ -606,7 +606,7 @@ If that's your need, know that [`rlang::warn()` and `rlang::inform()`](https://r
 
 ### Run some tests on continuous integration only?
 
-Say you have some slow and fragile tests querying an API.
+Say you have some slow and fragile [tests querying an API](https://books.ropensci.org/http-testing/).
 If you want to run them on continuous integration only,
 refer to [Bryce Mecum's blog post](https://brycemecum.com/2020/08/05/testing-r-api-packages/).
 
