@@ -7,7 +7,7 @@ slug: ropensci-news-digest-november-2022
 categories: []
 tags:
   - newsletter
-description: keywords from the content
+description: Multilingual publishing (Spanish!), champions program, community call recording, coworking, new packages and package news
 params:
   last_newsletter: '2022-10-21'
 ---
@@ -27,8 +27,8 @@ Open Source and Open Science are global movements, but most of their material an
 Non-English speakers face a significant barrier to being part of these movements.  
 Publishing multilingual resources can lower the barrier to access to knowledge, help democratize access to quality resources and increase the possibilities of contributing to software and open science projects.
 
-With the the support of the [Chan-Zuckerberg Initiative](/blog/2021/12/20/inclusive-leadership-program/) and [NumFOCUS](https://numfocus.org/) we start to translate rOpenSci’s material on best practices for software development, code review, and contribution to open source projects beyond the English language.
-As part of this effort we are also developping guidelines for translating open source resources to a wider audience.
+With the the support of the [Chan-Zuckerberg Initiative](/blog/2021/12/20/inclusive-leadership-program/), [NumFOCUS](https://numfocus.org/) and the [R Consortium](https://www.r-consortium.org/), we have started translate rOpenSci’s material on best practices for software development, code review, and contribution to open source projects beyond the English language.
+As part of this effort we are also developing guidelines for translating open source resources to a wider audience.
 
 [Learn more about this project](/multilingual-publishing/) on our webpage.
 
