@@ -12,6 +12,12 @@ The _rOpenSci Champions Program_ is for __people from historically and systemati
 
 The rOpenSci Champion Program [is part of a series of activities and projects we are carrying out to ensure our research software serves everyone in our communities](/blog/2021/12/20/inclusive-leadership-program/) and is supported through a grant from the Chan Zuckerberg Initiative.
 
+> **The 2022 calls for Champions and mentors have closed.**
+> <br>
+> Consider getting involved in 2023! 
+> <br>
+> The 2023 calls will be announced in September or October 2023, on this page, 
+> in our [newsletter](https://ropensci.org/news/) and our social networks.
 
 ## Program goals
 
