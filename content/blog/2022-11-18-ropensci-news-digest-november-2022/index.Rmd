@@ -50,7 +50,7 @@ Publishing multilingual resources can lower the barrier to access to knowledge, 
 With the the support of the [Chan-Zuckerberg Initiative](/blog/2021/12/20/inclusive-leadership-program/) and [NumFOCUS](https://numfocus.org/) we start to translate rOpenSci’s material on best practices for software development, code review, and contribution to open source projects beyond the English language. 
 As part of this effort we are also developping guidelines for translating open source resources to a wider audience.
 
-Learn more about this project and how you can contribute on this blog post.
+[Learn more about this project](/multilingual-publishing/) on our webpage.
 
 ### Past community Call on Mentoring & training program for Scientific Open Source Champions
 
