@@ -1,0 +1,1 @@
+https://toot.kytta.dev/?text={{ if isset .Params "tweet" }}{{ .Params.tweet | replaceRE "&" "%26" }}{{ else }}{{ .Title  | replaceRE "&" "%26" }}{{ end }} {{ .Permalink }}
