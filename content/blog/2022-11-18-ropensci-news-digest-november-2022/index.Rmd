@@ -51,6 +51,17 @@ With the the support of the [Chan-Zuckerberg Initiative](/blog/2021/12/20/inclus
 As part of this effort we are also developping guidelines for translating open source resources to a wider audience.
 
 [Learn more about this project](/multilingual-publishing/) on our webpage.
+## Champions Program
+
+The application period for our champions program is now closed.
+
+We are very excited about the response from the community: we received 74 applications for champions and 28 for mentors from 31 countries.
+
+We are very grateful to those who took the time to apply and all those who helped us spread the word about these calls.
+
+Over the next few weeks, we will review the proposals and select the nominees.  All applicants will receive feedback on their applications.
+
+You can learn more about it on the [program web page](/champions/).
 
 ### Past community Call on Mentoring & training program for Scientific Open Source Champions
 
