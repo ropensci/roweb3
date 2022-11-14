@@ -61,6 +61,7 @@
       "staff"
    ],
    "twitter": "yabellini",
+   "mastodon": "https://fosstodon.org/@yabellini",
    "github": "yabellini",
    "home": "/author/yanina-bellini-saibene/"
 },
@@ -75,6 +76,7 @@
       "developer"
    ],
    "twitter": "bikesRdata",
+   "mastodon": "https://nerdculture.de/@mpadge",
    "github": "mpadge",
    "home": "/author/mark-padgham"
 },
@@ -89,6 +91,7 @@
       "editor"
    ],
    "twitter": "ma_salmon",
+   "mastodon": "https://mastodon.social/@maelle",
    "github": "maelle",
    "home": "/author/maëlle-salmon"
 },
