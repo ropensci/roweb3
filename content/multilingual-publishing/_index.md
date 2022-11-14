@@ -14,4 +14,4 @@ After [successfully piloted](/blog/2021/07/27/censo2017/) our first [Spanish-lan
 
 The project's documentation will be useful to extend this effort to other languages and for other communities and projects with translation efforts.
 
-This effort is supported by the [Chan-Zuckerberg Initiative](/blog/2021/12/20/inclusive-leadership-program/), [NumFOCUS](https://numfocus.org/) and the [RConsortium](https://www.r-consortium.org/).
+This effort is supported by the [Chan-Zuckerberg Initiative](/blog/2021/12/20/inclusive-leadership-program/), [NumFOCUS](https://numfocus.org/) and the [R Consortium](https://www.r-consortium.org/).
