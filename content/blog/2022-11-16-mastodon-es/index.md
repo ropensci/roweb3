@@ -2,7 +2,9 @@
 slug: mastodon-es
 title: 'Canales de comunicación de rOpenSci. Twitter y Mastodon'
 date: '2022-11-16'
-author: Yanina Bellini Saibene and Steffi LaZerte
+author: 
+  - Yanina Bellini Saibene
+  - Steffi LaZerte
 description: 'Anunciamos nuestras acciones en los canales de comunicación de rOpenSci como alternativas a Twitter.'
 tags:
   - community
