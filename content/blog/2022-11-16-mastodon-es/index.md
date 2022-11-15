@@ -1,14 +1,13 @@
 ---
-slug: runiverse-renv
-title: 'How renv restores packages from r-universe for reproducibility or production'
-date: '2022-01-06'
-author: Jeroen Ooms
-description: 'The latest version of renv now supports restoring packages that were installed from r-universe. In this post we explain how this works, and why it has to work this way.'
+slug: mastodon-es
+title: 'Canales de comunicación de rOpenSci: Twitter y Mastodon'
+date: '2022-11-16'
+author: Yanina Bellini Saibene and Steffi LaZerte
+description: ''
 tags:
-  - r-universe
-  - tech notes
-  - reproducibility
-  - renv
+  - community
+  - spanish
+  - español
 ---
 
 Twitter es una de las plataformas y redes sociales preferidas por la comunidad de R y por las comunidades de datos, ciencia abierta e investigación. Desde el comienzo de rOpenSci hemos utilizado Twitter para conectarnos con nuestra comunidad y otras comunidades similares, para compartir lo que hacemos y para formar parte de las conversaciones en torno a los temas importantes para nuestra [misión](https://ropensci.org/about/).
