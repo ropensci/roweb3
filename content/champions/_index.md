@@ -12,6 +12,12 @@ The _rOpenSci Champions Program_ is for __people from historically and systemati
 
 The rOpenSci Champion Program [is part of a series of activities and projects we are carrying out to ensure our research software serves everyone in our communities](/blog/2021/12/20/inclusive-leadership-program/) and is supported through a grant from the Chan Zuckerberg Initiative.
 
+> **The 2022 calls for Champions and mentors have closed.**
+> <br>
+> Consider getting involved in 2023! 
+> <br>
+> The 2023 calls will be announced in September or October 2023, on this page, 
+> in our [newsletter](https://ropensci.org/news/) and our social networks.
 
 ## Program goals
 
@@ -128,23 +134,23 @@ The table below outlines a draft timeline for year one of the Champions Program.
 
 ## How to apply 
 
-Please, [fill out the application form](https://airtable.com/shrAsYlSXU0coJ5Ld) (this [template shows the information we will require](/champions/files/champions_template)) before __Monday Nov 7, 2022.__
-The application forms __have to be filled in English__.
+The call for this year has already closed.
+
+We will make another call, next year.  We will announce it in our [newsletter](https://ropensci.org/news/) and our social networks.
 
 ### Application Timeline
 
-|Date|Event|
-|----|-----|
-|Sep 23, 2022|Call for Application opens|
-|Oct 24, 2022|[OPTIONAL] [Community Call - Tips for submitting your Champions Program application](/commcalls/oct2022-champions/)|
-|Nov 1, 2022|[OPTIONAL] [Co-working hours](/events/coworking-2022-11/): receive help with your application to the Champions Program.|
-|Nov 7, 2022|Call for applications closed|
-|Nov 25, 2022|Communication with selected Champions.|
+|Date|Event|Status|
+|----|-----|------|
+|Sep 23, 2022|Call for Application opens| Done |
+|Oct 24, 2022|[OPTIONAL] [Community Call - Tips for submitting your Champions Program application](/commcalls/oct2022-champions/)| Done |
+|Nov 1, 2022|[OPTIONAL] [Co-working hours](/events/coworking-2022-11/): receive help with your application to the Champions Program.| Done |
+|Nov 7, 2022|Call for applications closed| Close |
+|Nov 30, 2022|Communication with selected Champions.| |
 
 
 ## Do you have any questions?
 
 Please, contact our Community Manager [by email](mailto:yabellini@ropensci.org). 
 
-We will have a [Community Call October, 24](/commcalls/oct2022-champions/) to share tips for submitting your Champions Program application and a [Coworking space on November, 1](/events/coworking-2022-11/) to help you with your application to the Champions Program.
-
+You can also check our resources about the program in English and Spanish.
