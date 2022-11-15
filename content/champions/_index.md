@@ -141,7 +141,7 @@ We will make another call, next year.  We will announce it in our [newsletter](h
 ### Application Timeline
 
 |Date|Event|Status|
-|----|-----|
+|----|-----|------|
 |Sep 23, 2022|Call for Application opens| Done |
 |Oct 24, 2022|[OPTIONAL] [Community Call - Tips for submitting your Champions Program application](/commcalls/oct2022-champions/)| Done |
 |Nov 1, 2022|[OPTIONAL] [Co-working hours](/events/coworking-2022-11/): receive help with your application to the Champions Program.| Done |
