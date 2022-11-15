@@ -1,6 +1,6 @@
 ---
 slug: mastodon-en
-title: 'rOpenSci’s Communication channels. Twitter and Mastodon'
+title: "rOpenSci's Communication channels. Twitter and Mastodon"
 date: '2022-11-16'
 author: Yanina Bellini Saibene, Steffi LaZerte
 description: 'We announce our actions on rOpenSci's communication channels as alternatives to Twitter.'
