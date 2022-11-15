@@ -43,37 +43,36 @@ Now let's dive into the activity at and around rOpenSci!
 
 ### Multilingual Publishing 
 
-Open Source and Open Science are global movements, but most of their material and resources are published in English. 
-Non-English speakers face a significant barrier to being part of these movements.  
-Publishing multilingual resources can lower the barrier to access to knowledge, help democratize access to quality resources and increase the possibilities of contributing to software and open science projects.
+Open Source and Open Science are global movements, but most of their material and resources are published in English, meaning non-English speakers face a significant barrier to being part of these movements.  
+Publishing multilingual resources can lower these barriers by increasing access to knowledge, which helps democratize access to quality resources, and therefore increases the potential for contributing to software and open science projects.
 
-With the the support of the [Chan-Zuckerberg Initiative](/blog/2021/12/20/inclusive-leadership-program/),  [NumFOCUS](https://numfocus.org/) and the [R Consortium](https://www.r-consortium.org/), we have started translate rOpenSci’s material on best practices for software development, code review, and contribution to open source projects beyond the English language. 
+We're exited to announce that with the support of the [Chan-Zuckerberg Initiative](/blog/2021/12/20/inclusive-leadership-program/),  [NumFOCUS](https://numfocus.org/) and the [R Consortium](https://www.r-consortium.org/), we have started translating rOpenSci’s material on best practices for software development, code review, and contribution to open source projects into Spanish.
 As part of this effort we are also developing guidelines for translating open source resources to a wider audience.
 
-[Learn more about this project](/multilingual-publishing/) on our webpage.
+Learn more about our [Multilingual Publishing project](/multilingual-publishing/).
 
 ### Champions Program
 
 The application period for our champions program is now closed.
 
-We are very excited about the response from the community: we received 74 applications for champions and 28 for mentors from 31 countries.
+We are very excited about the response from the community! We received 74 applications for Champions and 28 for mentors from 31 countries.
 
-We are very grateful to those who took the time to apply and all those who helped us spread the word about these calls.
+We are very grateful to those who took the time to apply and to all who helped us spread the word about these calls.
 
 Over the next few weeks, we will review the proposals and select the nominees.  All applicants will receive feedback on their applications.
 
-You can learn more about it on the [program web page](/champions/).
+Learn more about our [Champions Program](/champions/).
 
 ```{=html}
 {{< figure src="map.png" alt="World Maps with the applicant's countries colored. The map shows America almost all painted and then some few countries from Asia, Africa, Europe and Oceania.">}}
 ```
 
-### Past community Call on Mentoring & training program for Scientific Open Source Champions
+### Community Call recap: "Mentoring & training program for Scientific Open Source Champions"
 
-We relaunched our community calls with an edition dedicated to our champions program.   
-In order to learn more about what it is to be a champion, why apply to these programs, how it can benefit not only us, but also our communities, we invited champions from other spaces and communities to share their experiences, tips and learnings.
+After a brief hiatus, we returned to community calls with a session dedicated to our Champions Program.   
+We invited open source software Champions from other spaces and communities to share their experiences, to help us learn more about what it is to be a Champion, the benefit of applying to these programs, and how being a Champion can benefit not only us, but also our communities.
 
-On this call Santosh Yadav and Emanuele Bartolesi moderated by Yani Bellini Saibene shared their experience of being champions in their communities and give advice on how to create a path to become a champion in open source software communities.
+In this call, moderated by rOpenSci Community Manager [Yani Bellini Saibene](/author/yanina-bellini-saibene/), Santosh Yadav and Emanuele Bartolesi shared their experiences of being Champions in their communities and gave advice on how to create a path to becoming a Champion in open source software communities.
 
 You can [watch the video](/commcalls/oct2022-champions/) and [access all the materials](/commcalls/oct2022-champions/)  on our website.
 
@@ -85,11 +84,19 @@ Everyone welcome.
 No RSVP needed. 
 Consult our [Events](/events) page to find your local time and how to join.
 
-* [Tuesday, December 6th, 9 AM Australian Western / 1:00 UTC](/events/coworking-2022-12/) "Getting started with targets!" *Hosted by community host [Nick Tierney](/author/nicholas-tierney/) and [Steffi LaZerte](/author/steffi-lazerte/)*
+* [Tuesday, December 6th, 9:00 Australian Western / 1:00 UTC](/events/coworking-2022-12/) "Getting started with targets!" *Hosted by community host [Nick Tierney](/author/nicholas-tierney/) and [Steffi LaZerte](/author/steffi-lazerte/)*
     - Dive into the world of targets! Do some studying; Start setting it up for some of your projects;
-    - Ask [Nick](/author/nicholas-tierney/) for suggestions how how to get started or tips and tricks;
-    - Cowork independently on work related to R. Work on packages that tend to be neglected; What ever you need to get done!
-    
+    - Ask [Nick](/author/nicholas-tierney/) for suggestions how how to get started or tips and tricks.
+
+* [Tuesday, Jan 10th, 14:00 European Central / 13:00 UTC](/events/coworking-2023-01/) "Working with new R users" *Hosted by community host [Alex Koiter](https://alexkoiter.ca) and [Steffi LaZerte](/author/steffi-lazerte/)*
+    - Brainstorm ideas for supporting and encouraging new R users; Annotate a script for a friend or colleague to help them learn;
+    - Talk to [Alex](https://alexkoiter.ca) and discuss how to share the love of R with new R users.
+
+* [Tuesday, Feb 7th, 9:00 Americas Pacific / 17:00 UTC](/events/coworking-2023-02/) "Setting up Continuous Integration" *Hosted by community host [Hugo Gruson](/author/hugo-gruson/) and [Steffi LaZerte](/author/steffi-lazerte/)*
+    - Do some reading to learn about Continuous Integration; Setup Continuous Integration on one (or more) of your projects;
+    - Talk to [Hugo](/author/hugo-gruson/) and discuss how Continuous Integration can simplify your development process and how to get set up.
+
+And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
 ## Software :package:
 
