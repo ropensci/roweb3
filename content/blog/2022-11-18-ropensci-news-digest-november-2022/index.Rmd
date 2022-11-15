@@ -198,6 +198,9 @@ present_one <- function(package) {
   aut <- purrr::map_chr(aut, function(x) paste(x$given, x$family))
   rev <- purrr::keep(authors, function(x) {any( x$role %in% "rev") && all(x$role != "cre") })
   rev <- purrr::map_chr(rev, function(x)  paste(c(x$given, x$family), collapse = " "))
+  if (package$package == "daiquiri") {
+    rev <- c("Brad Cannell", "Mauro Lepore")
+  }
   maintainer <- purrr::keep(authors, function(x) {any( x$role %in% "cre") })
   maintainer <- paste(c(maintainer[[1]]$given, maintainer[[1]]$family), collapse = " ")
   

@@ -23,35 +23,34 @@ Now let’s dive into the activity at and around rOpenSci!
 
 ### Multilingual Publishing
 
-Open Source and Open Science are global movements, but most of their material and resources are published in English.
-Non-English speakers face a significant barrier to being part of these movements.  
-Publishing multilingual resources can lower the barrier to access to knowledge, help democratize access to quality resources and increase the possibilities of contributing to software and open science projects.
+Open Source and Open Science are global movements, but most of their material and resources are published in English, meaning non-English speakers face a significant barrier to being part of these movements.  
+Publishing multilingual resources can lower these barriers by increasing access to knowledge, which helps democratize access to quality resources, and therefore increases the potential for contributing to software and open science projects.
 
-With the the support of the [Chan-Zuckerberg Initiative](/blog/2021/12/20/inclusive-leadership-program/), [NumFOCUS](https://numfocus.org/) and the [R Consortium](https://www.r-consortium.org/), we have started translate rOpenSci’s material on best practices for software development, code review, and contribution to open source projects beyond the English language.
+We’re exited to announce that with the support of the [Chan-Zuckerberg Initiative](/blog/2021/12/20/inclusive-leadership-program/), [NumFOCUS](https://numfocus.org/) and the [R Consortium](https://www.r-consortium.org/), we have started translating rOpenSci’s material on best practices for software development, code review, and contribution to open source projects into Spanish.
 As part of this effort we are also developing guidelines for translating open source resources to a wider audience.
 
-[Learn more about this project](/multilingual-publishing/) on our webpage.
+Learn more about our [Multilingual Publishing project](/multilingual-publishing/).
 
 ### Champions Program
 
 The application period for our champions program is now closed.
 
-We are very excited about the response from the community: we received 74 applications for champions and 28 for mentors from 31 countries.
+We are very excited about the response from the community! We received 74 applications for Champions and 28 for mentors from 31 countries.
 
-We are very grateful to those who took the time to apply and all those who helped us spread the word about these calls.
+We are very grateful to those who took the time to apply and to all who helped us spread the word about these calls.
 
 Over the next few weeks, we will review the proposals and select the nominees. All applicants will receive feedback on their applications.
 
-You can learn more about it on the [program web page](/champions/).
+Learn more about our [Champions Program](/champions/).
 
 {{< figure src="map.png" alt="World Maps with the applicant's countries colored. The map shows America almost all painted and then some few countries from Asia, Africa, Europe and Oceania.">}}
 
-### Past community Call on Mentoring & training program for Scientific Open Source Champions
+### Community Call recap: “Mentoring & training program for Scientific Open Source Champions”
 
-We relaunched our community calls with an edition dedicated to our champions program.  
-In order to learn more about what it is to be a champion, why apply to these programs, how it can benefit not only us, but also our communities, we invited champions from other spaces and communities to share their experiences, tips and learnings.
+After a brief hiatus, we returned to community calls with a session dedicated to our Champions Program.  
+We invited open source software Champions from other spaces and communities to share their experiences, to help us learn more about what it is to be a Champion, the benefit of applying to these programs, and how being a Champion can benefit not only us, but also our communities.
 
-On this call Santosh Yadav and Emanuele Bartolesi moderated by Yani Bellini Saibene shared their experience of being champions in their communities and give advice on how to create a path to become a champion in open source software communities.
+In this call, moderated by rOpenSci Community Manager [Yani Bellini Saibene](/author/yanina-bellini-saibene/), Santosh Yadav and Emanuele Bartolesi shared their experiences of being Champions in their communities and gave advice on how to create a path to becoming a Champion in open source software communities.
 
 You can [watch the video](/commcalls/oct2022-champions/) and [access all the materials](/commcalls/oct2022-champions/) on our website.
 
@@ -63,10 +62,17 @@ Everyone welcome.
 No RSVP needed.
 Consult our [Events](/events) page to find your local time and how to join.
 
--   [Tuesday, December 6th, 9 AM Australian Western / 1:00 UTC](/events/coworking-2022-12/) “Getting started with targets!” *Hosted by community host [Nick Tierney](/author/nicholas-tierney/) and [Steffi LaZerte](/author/steffi-lazerte/)*
-    -   Dive into the world of targets! Do some studying; Start setting it up for some of your projects;
-    -   Ask [Nick](/author/nicholas-tierney/) for suggestions how how to get started or tips and tricks;
-    -   Cowork independently on work related to R. Work on packages that tend to be neglected; What ever you need to get done!
+- [Tuesday, December 6th, 9:00 Australian Western / 1:00 UTC](/events/coworking-2022-12/) “Getting started with targets!” *Hosted by community host [Nick Tierney](/author/nicholas-tierney/) and [Steffi LaZerte](/author/steffi-lazerte/)*
+  - Dive into the world of targets! Do some studying; Start setting it up for some of your projects;
+  - Ask [Nick](/author/nicholas-tierney/) for suggestions how how to get started or tips and tricks.
+- [Tuesday, Jan 10th, 14:00 European Central / 13:00 UTC](/events/coworking-2023-01/) “Working with new R users” *Hosted by community host [Alex Koiter](https://alexkoiter.ca) and [Steffi LaZerte](/author/steffi-lazerte/)*
+  - Brainstorm ideas for supporting and encouraging new R users; Annotate a script for a friend or colleague to help them learn;
+  - Talk to [Alex](https://alexkoiter.ca) and discuss how to share the love of R with new R users.
+- [Tuesday, Feb 7th, 9:00 Americas Pacific / 17:00 UTC](/events/coworking-2023-02/) “Setting up Continuous Integration” *Hosted by community host [Hugo Gruson](/author/hugo-gruson/) and [Steffi LaZerte](/author/steffi-lazerte/)*
+  - Do some reading to learn about Continuous Integration; Setup Continuous Integration on one (or more) of your projects;
+  - Talk to [Hugo](/author/hugo-gruson/) and discuss how Continuous Integration can simplify your development process and how to get set up.
+
+And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
 ## Software :package:
 
@@ -74,57 +80,57 @@ Consult our [Events](/events) page to find your local time and how to join.
 
 The following two packages recently became a part of our software suite:
 
--   [daiquiri](https://docs.ropensci.org/daiquiri), developed by T. Phuong Quan: Generate reports that enable quick visual review of temporal shifts in record-level data. Time series plots showing aggregated values are automatically created for each data field (column) depending on its contents (e.g. min/max/mean values for numeric data, no. of distinct values for categorical data), as well as overviews for missing values, non-conformant values, and duplicated rows. The resulting reports are shareable and can contribute to forming a transparent record of the entire analysis process. It is designed with Electronic Health Records in mind, but can be used for any type of record-level temporal data (i.e. tabular data where each row represents a single “event”, one column contains the “event date”, and other columns contain any associated values for the event). It is available on [CRAN](https://CRAN.R-project.org/package=daiquiri).
+- [daiquiri](https://docs.ropensci.org/daiquiri), developed by T. Phuong Quan: Generate reports that enable quick visual review of temporal shifts in record-level data. Time series plots showing aggregated values are automatically created for each data field (column) depending on its contents (e.g. min/max/mean values for numeric data, no. of distinct values for categorical data), as well as overviews for missing values, non-conformant values, and duplicated rows. The resulting reports are shareable and can contribute to forming a transparent record of the entire analysis process. It is designed with Electronic Health Records in mind, but can be used for any type of record-level temporal data (i.e. tabular data where each row represents a single “event”, one column contains the “event date”, and other columns contain any associated values for the event). It is available on [CRAN](https://CRAN.R-project.org/package=daiquiri). It has been [reviewed](https://github.com/ropensci/software-review/issues/535) by Brad Cannell, and Mauro Lepore.
 
--   [npi](https://docs.ropensci.org/npi), developed by Frank Farach: Access the United States National Provider Identifier Registry API (if available) and provide informative error messages when it’s not. Obtain rich administrative data linked to a specific individual or organizational healthcare provider, or perform advanced searches based on provider name, location, type of service, credentials, and many other attributes. It has been [reviewed](https://github.com/ropensci/software-review/issues/505) by Matthias Grenié, and Emily C. Zabor.
+- [npi](https://docs.ropensci.org/npi), developed by Frank Farach: Access the United States National Provider Identifier Registry API <https://npiregistry.cms.hhs.gov/api/>. Obtain and transform administrative data linked to a specific individual or organizational healthcare provider, or perform advanced searches based on provider name, location, type of service, credentials, and other attributes exposed by the API. It is available on [CRAN](https://CRAN.R-project.org/package=npi). It has been [reviewed](https://github.com/ropensci/software-review/issues/505) by Matthias Grenié, and Emily C. Zabor.
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
 ### New versions
 
-The following sixteen packages have had an update since the last newsletter: [aorsf](https://docs.ropensci.org/aorsf "Accelerated Oblique Random Survival Forests") ([`v0.0.4`](https://github.com/ropensci/aorsf/releases/tag/v0.0.4)), [assertr](https://docs.ropensci.org/assertr "Assertive Programming for R Analysis Pipelines") ([`v3.0.0`](https://github.com/ropensci/assertr/releases/tag/v3.0.0)), [chromer](https://docs.ropensci.org/chromer "Interface to Chromosome Counts Database API") ([`v0.3`](https://github.com/ropensci/chromer/releases/tag/v0.3)), [daiquiri](https://docs.ropensci.org/daiquiri "Data Quality Reporting for Temporal Datasets") ([`v1.0.1`](https://github.com/ropensci/daiquiri/releases/tag/v1.0.1)), [jagstargets](https://docs.ropensci.org/jagstargets "Targets for JAGS Workflows") ([`1.0.4`](https://github.com/ropensci/jagstargets/releases/tag/1.0.4)), [mctq](https://docs.ropensci.org/mctq "Tools to Process the Munich ChronoType Questionnaire (MCTQ)") ([`v0.3.1`](https://github.com/ropensci/mctq/releases/tag/v0.3.1)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.9.0`](https://github.com/ropensci/nodbi/releases/tag/v0.9.0)), [oai](https://docs.ropensci.org/oai "General Purpose Oai-PMH Services Client") ([`v0.4.0`](https://github.com/ropensci/oai/releases/tag/v0.4.0)), [rcrossref](https://docs.ropensci.org/rcrossref "Client for Various CrossRef APIs") ([`v1.2.0`](https://github.com/ropensci/rcrossref/releases/tag/v1.2.0)), [restez](https://docs.ropensci.org/restez "Create and Query a Local Copy of GenBank in R") ([`v2.1.3`](https://github.com/ropensci/restez/releases/tag/v2.1.3)), [stantargets](https://docs.ropensci.org/stantargets "Targets for Stan Workflows") ([`0.0.6`](https://github.com/ropensci/stantargets/releases/tag/0.0.6)), [stplanr](https://docs.ropensci.org/stplanr "Sustainable Transport Planning") ([`v1.0.2`](https://github.com/ropensci/stplanr/releases/tag/v1.0.2)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.7.2`](https://github.com/ropensci/tarchetypes/releases/tag/0.7.2)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Workflows") ([`0.14.0`](https://github.com/ropensci/targets/releases/tag/0.14.0)), [vcr](https://docs.ropensci.org/vcr "Record HTTP Calls to Disk") ([`v1.1.0`](https://github.com/ropensci/vcr/releases/tag/v1.1.0)), and [webchem](https://docs.ropensci.org/webchem "Chemical Information from the Web") ([`v1.2.0`](https://github.com/ropensci/webchem/releases/tag/v1.2.0)).
+The following seventeen packages have had an update since the last newsletter: [aorsf](https://docs.ropensci.org/aorsf "Accelerated Oblique Random Survival Forests") ([`v0.0.4`](https://github.com/ropensci/aorsf/releases/tag/v0.0.4)), [assertr](https://docs.ropensci.org/assertr "Assertive Programming for R Analysis Pipelines") ([`v3.0.0`](https://github.com/ropensci/assertr/releases/tag/v3.0.0)), [chromer](https://docs.ropensci.org/chromer "Interface to Chromosome Counts Database API") ([`v0.3`](https://github.com/ropensci/chromer/releases/tag/v0.3)), [daiquiri](https://docs.ropensci.org/daiquiri "Data Quality Reporting for Temporal Datasets") ([`v1.0.1`](https://github.com/ropensci/daiquiri/releases/tag/v1.0.1)), [jagstargets](https://docs.ropensci.org/jagstargets "Targets for JAGS Workflows") ([`1.0.4`](https://github.com/ropensci/jagstargets/releases/tag/1.0.4)), [mctq](https://docs.ropensci.org/mctq "Tools to Process the Munich ChronoType Questionnaire (MCTQ)") ([`v0.3.1`](https://github.com/ropensci/mctq/releases/tag/v0.3.1)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.9.0`](https://github.com/ropensci/nodbi/releases/tag/v0.9.0)), [npi](https://docs.ropensci.org/npi "Access the U.S. National Provider Identifier Registry API") ([`v0.2.0`](https://github.com/ropensci/npi/releases/tag/v0.2.0)), [oai](https://docs.ropensci.org/oai "General Purpose Oai-PMH Services Client") ([`v0.4.0`](https://github.com/ropensci/oai/releases/tag/v0.4.0)), [rcrossref](https://docs.ropensci.org/rcrossref "Client for Various CrossRef APIs") ([`v1.2.0`](https://github.com/ropensci/rcrossref/releases/tag/v1.2.0)), [restez](https://docs.ropensci.org/restez "Create and Query a Local Copy of GenBank in R") ([`v2.1.3`](https://github.com/ropensci/restez/releases/tag/v2.1.3)), [stantargets](https://docs.ropensci.org/stantargets "Targets for Stan Workflows") ([`0.0.6`](https://github.com/ropensci/stantargets/releases/tag/0.0.6)), [stplanr](https://docs.ropensci.org/stplanr "Sustainable Transport Planning") ([`v1.0.2`](https://github.com/ropensci/stplanr/releases/tag/v1.0.2)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.7.2`](https://github.com/ropensci/tarchetypes/releases/tag/0.7.2)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Workflows") ([`0.14.0`](https://github.com/ropensci/targets/releases/tag/0.14.0)), [vcr](https://docs.ropensci.org/vcr "Record HTTP Calls to Disk") ([`v1.1.0`](https://github.com/ropensci/vcr/releases/tag/v1.1.0)), and [webchem](https://docs.ropensci.org/webchem "Chemical Information from the Web") ([`v1.2.0`](https://github.com/ropensci/webchem/releases/tag/v1.2.0)).
 
 ## Software Peer Review
 
 There are thirteen recently closed and active submissions and 2 submissions on hold. Issues are at different stages:
 
--   Two at [‘6/approved’](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
+- Two at [‘6/approved’](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
 
-    -   [daiquiri](https://github.com/ropensci/software-review/issues/535), Data Quality Reporting for Temporal Datasets. Submitted by [Phuong Quan](https://github.com/phuongquan).
+  - [daiquiri](https://github.com/ropensci/software-review/issues/535), Data Quality Reporting for Temporal Datasets. Submitted by [Phuong Quan](https://github.com/phuongquan).
 
-    -   [npi](https://github.com/ropensci/software-review/issues/505), Access the U.S. National Provider Identifier Registry API. Submitted by [Frank Farach](https://frankfarach.com).
+  - [npi](https://github.com/ropensci/software-review/issues/505), Access the U.S. National Provider Identifier Registry API. Submitted by [Frank Farach](https://frankfarach.com).
 
--   One at [‘5/awaiting-reviewer(s)-response’](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
+- One at [‘5/awaiting-reviewer(s)-response’](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
 
-    -   [phruta](https://github.com/ropensci/software-review/issues/458), Phylogenetic Reconstruction and Time-dating. Submitted by [Cristian Román Palacios](http://cromanpa94.github.io/cromanpa/).
+  - [phruta](https://github.com/ropensci/software-review/issues/458), Phylogenetic Reconstruction and Time-dating. Submitted by [Cristian Román Palacios](http://cromanpa94.github.io/cromanpa/).
 
--   Four at [‘4/review(s)-in-awaiting-changes’](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
+- Four at [‘4/review(s)-in-awaiting-changes’](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
 
-    -   [hudr](https://github.com/ropensci/software-review/issues/524), A R interface for accessing HUD (US Department of Housing and Urban Development) APIs. Submitted by [Emmet Tam](https://github.com/etam4260/etam4260).
+  - [hudr](https://github.com/ropensci/software-review/issues/524), A R interface for accessing HUD (US Department of Housing and Urban Development) APIs. Submitted by [Emmet Tam](https://github.com/etam4260/etam4260).
 
-    -   [octolog](https://github.com/ropensci/software-review/issues/502), Better Github Action Logging. Submitted by [Jacob Wujciak-Jens](https://github.com/assignUser).
+  - [octolog](https://github.com/ropensci/software-review/issues/502), Better Github Action Logging. Submitted by [Jacob Wujciak-Jens](https://github.com/assignUser).
 
-    -   [tsbox](https://github.com/ropensci/software-review/issues/464), Class-Agnostic Time Series. Submitted by [Christoph Sax](http://www.cynkra.com). (Stats).
+  - [tsbox](https://github.com/ropensci/software-review/issues/464), Class-Agnostic Time Series. Submitted by [Christoph Sax](http://www.cynkra.com). (Stats).
 
-    -   [healthdatacsv](https://github.com/ropensci/software-review/issues/358), Access data in the healthdata.gov catalog. Submitted by [iecastro](http://iecastro.netlify.com).
+  - [healthdatacsv](https://github.com/ropensci/software-review/issues/358), Access data in the healthdata.gov catalog. Submitted by [iecastro](http://iecastro.netlify.com).
 
--   Three at [‘3/reviewer(s)-assigned’](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
+- Three at [‘3/reviewer(s)-assigned’](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 
-    -   [dynamite](https://github.com/ropensci/software-review/issues/554), Bayesian Modeling and Causal Inference for Multivariate. Submitted by [Santtu Tikka](http://users.jyu.fi/~santikka/). (Stats).
+  - [dynamite](https://github.com/ropensci/software-review/issues/554), Bayesian Modeling and Causal Inference for Multivariate. Submitted by [Santtu Tikka](http://users.jyu.fi/~santikka/). (Stats).
 
-    -   [stochLAB](https://github.com/ropensci/software-review/issues/551), Stochastic Collision Risk Model. Submitted by [Grant](http://www.blackbawks.net). (Stats).
+  - [stochLAB](https://github.com/ropensci/software-review/issues/551), Stochastic Collision Risk Model. Submitted by [Grant](http://www.blackbawks.net). (Stats).
 
-    -   [wmm](https://github.com/ropensci/software-review/issues/522), World Magnetic Model. Submitted by [Will Frierson](https://github.com/wfrierson).
+  - [wmm](https://github.com/ropensci/software-review/issues/522), World Magnetic Model. Submitted by [Will Frierson](https://github.com/wfrierson).
 
--   One at [‘2/seeking-reviewer(s)’](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
+- One at [‘2/seeking-reviewer(s)’](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
-    -   [bssm](https://github.com/ropensci/software-review/issues/489), Bayesian Inference of Non-Linear and Non-Gaussian State Space. Submitted by [Jouni Helske](http://jounihelske.netlify.app). (Stats).
+  - [bssm](https://github.com/ropensci/software-review/issues/489), Bayesian Inference of Non-Linear and Non-Gaussian State Space. Submitted by [Jouni Helske](http://jounihelske.netlify.app). (Stats).
 
--   Two at [‘1/editor-checks’](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
+- Two at [‘1/editor-checks’](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
 
-    -   [openalexR](https://github.com/ropensci/software-review/issues/560), Getting Bibliographic Records from OpenAlex Database Using DSL. Submitted by [Trang Le](http://trang.page).
+  - [openalexR](https://github.com/ropensci/software-review/issues/560), Getting Bibliographic Records from OpenAlex Database Using DSL. Submitted by [Trang Le](http://trang.page).
 
-    -   [dfms](https://github.com/ropensci/software-review/issues/556), Dynamic Factor Models. Submitted by [Sebastian Krantz](https://github.com/SebKrantz).
+  - [dfms](https://github.com/ropensci/software-review/issues/556), Dynamic Factor Models. Submitted by [Sebastian Krantz](https://github.com/SebKrantz).
 
 Find out more about [Software Peer Review](/software-review) and how to get involved.
 
@@ -144,12 +150,12 @@ Explore [other use cases](/usecases) and [report your own](https://discuss.ropen
 
 There are still a few packages to adopt [from our recent blog post](/blog/2022/10/17/maintain-or-co-maintain-an-ropensci-package/). To volunteer, comment in the corresponding volunteering issue. Thank you!
 
--   **wikitaxa, Taxonomic Information from ‘Wikipedia’**. ‘Taxonomic’ information from ‘Wikipedia’, ‘Wikicommons’, ‘Wikispecies’, and ‘Wikidata’. Functions included for getting taxonomic information from each of the sources just listed, as well performing taxonomic search. [Issue for volunteering](https://github.com/ropensci/wikitaxa/issues/20).
--   **rgnparser, Parse Scientific Names**. Parse scientific names using [‘gnparser’](https://github.com/gnames/gnparser), written in Go. ‘gnparser’ parses scientific names into their component parts; it utilizes a Parsing Expression Grammar specifically for scientific names. [Issue for volunteering](https://github.com/ropensci/rgnparser/issues/14).
--   **RSelenium, R Bindings for ‘Selenium WebDriver’**. Provides a set of R bindings for the [‘Selenium 2.0 WebDriver’](https://www.selenium.dev/documentation/) using the [‘JsonWireProtocol’](https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol). ‘Selenium 2.0 WebDriver’ allows driving a web browser natively as a user would either locally or on a remote machine using the Selenium server it marks a leap forward in terms of web browser automation. [Issue for volunteering](https://github.com/ropensci/RSelenium/issues/261).
--   **elastic, General Purpose Interface to ‘Elasticsearch’**. Connect to ‘Elasticsearch’, a ‘NoSQL’ database built on the ‘Java’ Virtual Machine. Interacts with the [‘Elasticsearch’ ‘HTTP’ API](https://www.elastic.co/elasticsearch/), including functions for setting connection details to ‘Elasticsearch’ instances, loading bulk data, searching for documents with both ‘HTTP’ query variables and ‘JSON’ based body requests. [Issue for volunteering](https://github.com/ropensci/elastic/issues/292).
--   **ckanr, Client for the Comprehensive Knowledge Archive Network (‘CKAN’) API**. Client for [‘CKAN’ API](https://ckan.org/). Includes interface to ‘CKAN’ ‘APIs’ for search, list, show for packages, organizations, and resources. In addition, provides an interface to the ‘datastore’ API. [Issue for volunteering](https://github.com/ropensci/ckanr/issues/186).
--   **Rclean, A Tool for Writing Cleaner, More Transparent Code**. To create clearer, more concise code provides this toolbox helps coders to isolate the essential parts of a script that produces a chosen result, such as an object, tables and figures written to disk. [Issue for volunteering](https://github.com/ropensci/Rclean/issues/213).
+- **wikitaxa, Taxonomic Information from ‘Wikipedia’**. ‘Taxonomic’ information from ‘Wikipedia’, ‘Wikicommons’, ‘Wikispecies’, and ‘Wikidata’. Functions included for getting taxonomic information from each of the sources just listed, as well performing taxonomic search. [Issue for volunteering](https://github.com/ropensci/wikitaxa/issues/20).
+- **rgnparser, Parse Scientific Names**. Parse scientific names using [‘gnparser’](https://github.com/gnames/gnparser), written in Go. ‘gnparser’ parses scientific names into their component parts; it utilizes a Parsing Expression Grammar specifically for scientific names. [Issue for volunteering](https://github.com/ropensci/rgnparser/issues/14).
+- **RSelenium, R Bindings for ‘Selenium WebDriver’**. Provides a set of R bindings for the [‘Selenium 2.0 WebDriver’](https://www.selenium.dev/documentation/) using the [‘JsonWireProtocol’](https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol). ‘Selenium 2.0 WebDriver’ allows driving a web browser natively as a user would either locally or on a remote machine using the Selenium server it marks a leap forward in terms of web browser automation. [Issue for volunteering](https://github.com/ropensci/RSelenium/issues/261).
+- **elastic, General Purpose Interface to ‘Elasticsearch’**. Connect to ‘Elasticsearch’, a ‘NoSQL’ database built on the ‘Java’ Virtual Machine. Interacts with the [‘Elasticsearch’ ‘HTTP’ API](https://www.elastic.co/elasticsearch/), including functions for setting connection details to ‘Elasticsearch’ instances, loading bulk data, searching for documents with both ‘HTTP’ query variables and ‘JSON’ based body requests. [Issue for volunteering](https://github.com/ropensci/elastic/issues/292).
+- **ckanr, Client for the Comprehensive Knowledge Archive Network (‘CKAN’) API**. Client for [‘CKAN’ API](https://ckan.org/). Includes interface to ‘CKAN’ ‘APIs’ for search, list, show for packages, organizations, and resources. In addition, provides an interface to the ‘datastore’ API. [Issue for volunteering](https://github.com/ropensci/ckanr/issues/186).
+- **Rclean, A Tool for Writing Cleaner, More Transparent Code**. To create clearer, more concise code provides this toolbox helps coders to isolate the essential parts of a script that produces a chosen result, such as an object, tables and figures written to disk. [Issue for volunteering](https://github.com/ropensci/Rclean/issues/213).
 
 ### Call for comaintainers
 
