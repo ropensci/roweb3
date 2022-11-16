@@ -1,6 +1,6 @@
 ---
 slug: mastodon-es
-title: 'Canales de comunicación de rOpenSci. Twitter y Mastodon'
+title: 'Canales de comunicación de rOpenSci: Twitter y Mastodon'
 date: '2022-11-16'
 author: 
   - Yanina Bellini Saibene
@@ -11,8 +11,9 @@ tags:
   - spanish
   - español
 ---
-
-Twitter es una de las plataformas y redes sociales preferidas por la comunidad de R y por las comunidades de datos, ciencia abierta e investigación. Desde el comienzo de rOpenSci hemos utilizado Twitter para conectarnos con nuestra comunidad y otras comunidades similares, para compartir lo que hacemos y para formar parte de las conversaciones en torno a los temas importantes para nuestra [misión](https://ropensci.org/about/).
+> Vea la versión en inglés de esta entrada del blog:
+> [rOpenSci's Communication Channels: Twitter and Mastodon](/blog/2022/11/15/mastodon-en)
+Twitter es una de las plataformas y redes sociales preferidas por la comunidad de R y por las comunidades de datos, ciencia abierta e investigación. Desde el comienzo de rOpenSci hemos utilizado Twitter para conectarnos con nuestra comunidad y otras comunidades similares, para compartir lo que hacemos y para formar parte de las conversaciones en torno a los temas importantes para nuestra [misión](/about/).
 
 Nuestro objetivo es proporcionar un espacio seguro y amigable para todas las personas que son parte de nuestra comunidad, y esto influye en cómo elegimos los espacios que utilizamos para interactuar.
 
@@ -32,4 +33,4 @@ Por el momento, basándonos en discusiones internas e [inspirándonos en las med
 
 La ciencia abierta y reproducible es nuestra pasión, y creemos firmemente que una de las mejores formas de promover estos conceptos es garantizar que nuestros espacios comunitarios sean seguros, accesibles y abiertos; lugares donde las discusiones y el desarrollo sean diversos y amistosos y donde puedan confluir muchas opiniones.
 
-Si tienes preguntas, dudas o comentarios, puedes ponerte en contacto con nosotros por correo electrónico a info@ropensci.org.
+Si tienes preguntas, dudas o comentarios, puedes ponerte en contacto con nosotros por correo electrónico a _<info@ropensci.org>_.

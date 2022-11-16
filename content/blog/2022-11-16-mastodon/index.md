@@ -1,6 +1,6 @@
 ---
 slug: mastodon-en
-title: "rOpenSci's Communication channels. Twitter and Mastodon"
+title: "rOpenSci's Communication Channels: Twitter and Mastodon"
 date: '2022-11-16'
 author: 
   - Yanina Bellini Saibene
@@ -9,8 +9,9 @@ description: "We announce our actions on rOpenSci's communication channels as al
 tags:
   - community
 ---
-
-Twitter is one of the preferred social media platforms and networks for the R community and for the data, open science and research communities. Since the beginning of rOpenSci we have used Twitter to connect with our community and other parallel communities, to share what we do, and to be part of conversations around the topics important to our [mission](https://ropensci.org/about/).
+> See the Spanish version of this blog post:
+> [Canales de comunicación de rOpenSci: Twitter y Mastodon](/blog/2022/11/15/mastodon-es)
+Twitter is one of the preferred social media platforms and networks for the R community and for the data, open science and research communities. Since the beginning of rOpenSci we have used Twitter to connect with our community and other parallel communities, to share what we do, and to be part of conversations around the topics important to our [mission](/about/).
 
 We aim to provide a safe and friendly space for everyone in our community, and this influences how we choose which  spaces we use to interact with our community members.
 
@@ -30,6 +31,6 @@ For the moment, based on internal discussions and [inspired by other communities
 
 Open and reproducible science is our passion, and we strongly believe that one of the best ways of promoting these concepts is to ensure our community spaces are safe, accessible, and open; places where discussions and development are diverse and friendly and where many opinions can come together.
 
-If you have questions, concerns or comments, please contact us by email at _info@ropensci.org_.
+If you have questions, concerns or comments, please contact us by email at _<info@ropensci.org>_.
 
 
