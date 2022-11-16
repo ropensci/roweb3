@@ -103,7 +103,7 @@ In most cases, I don't know before hand the sizes of the figures, so I like to s
 
 However, there are no formal recommendations to save ggplot2 objects in targets workflow. These can have different consequences for the size of stored cache, the loading time, the flexibility, and ease of use of the plots.
 
-In this blog post I explore the different possible options and discuss their pros and cons, with some insights from both `ggplot2` and `targets` communities.
+In this blog post I explore the different possible options and discuss their pros and cons, with some insights from both `ggplot2` and `targets` communities. I will show the consequences of using each one of them through a simple workflow making a plot with the `mtcars` dataset.
 
 
 ## First solution: saving the entire `ggplot2` objects without worrying
