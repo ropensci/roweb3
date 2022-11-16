@@ -27,7 +27,7 @@ Por el momento, basándonos en discusiones internas e [inspirándonos en las med
 
 * Explorar instancias alternativas de Mastodon que nos permitan comunicarnos en varios idiomas (no solo en inglés) y colaborar con comunidades hermanas.
 
-* Centrar más nuestros esfuerzos de comunicación en nuestras otras plataformas, como nuestro [boletín mensual](/noticias), nuestro [foro de debate](https://discuss.ropensci.org) y nuestro [blog](/blog).
+* Centrar más nuestros esfuerzos de comunicación en nuestras otras plataformas, como nuestro [boletín mensual](/news), nuestro [foro de debate](https://discuss.ropensci.org) y nuestro [blog](/blog).
 
 * Seguir vigilando los cambios en Twitter para determinar si seguiremos utilizando esta plataforma.
 
