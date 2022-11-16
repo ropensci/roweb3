@@ -1,6 +1,6 @@
 ---
 slug: mastodon-en
-title: "rOpenSci's Communication Channels: Twitter and Mastodon"
+title: "rOpenSci's Communication Channels: Twitter"
 date: '2022-11-16'
 author: 
   - Yanina Bellini Saibene
@@ -9,8 +9,10 @@ description: "We announce our actions on rOpenSci's communication channels as al
 tags:
   - community
 ---
+
 > See the Spanish version of this blog post:
-> [Canales de comunicación de rOpenSci: Twitter y Mastodon](/blog/2022/11/15/mastodon-es)
+> [Canales de comunicación de rOpenSci: Twitter](/blog/2022/11/16/mastodon-es)
+
 Twitter is one of the preferred social media platforms and networks for the R community and for the data, open science and research communities. Since the beginning of rOpenSci we have used Twitter to connect with our community and other parallel communities, to share what we do, and to be part of conversations around the topics important to our [mission](/about/).
 
 We aim to provide a safe and friendly space for everyone in our community, and this influences how we choose which  spaces we use to interact with our community members.
