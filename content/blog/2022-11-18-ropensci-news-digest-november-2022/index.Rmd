@@ -46,7 +46,7 @@ Now let's dive into the activity at and around rOpenSci!
 Open Source and Open Science are global movements, but most of their material and resources are published in English, meaning non-English speakers face a significant barrier to being part of these movements.  
 Publishing multilingual resources can lower these barriers by increasing access to knowledge, which helps democratize access to quality resources, and therefore increases the potential for contributing to software and open science projects.
 
-We're exited to announce that with the support of the [Chan-Zuckerberg Initiative](/blog/2021/12/20/inclusive-leadership-program/),  [NumFOCUS](https://numfocus.org/) and the [R Consortium](https://www.r-consortium.org/), we have started translating rOpenSci’s material on best practices for software development, code review, and contribution to open source projects into Spanish.
+We're excited to announce that with the support of the [Chan-Zuckerberg Initiative](/blog/2021/12/20/inclusive-leadership-program/),  [NumFOCUS](https://numfocus.org/) and the [R Consortium](https://www.r-consortium.org/), we have started translating rOpenSci’s material on best practices for software development, code review, and contribution to open source projects into Spanish.
 As part of this effort we are also developing guidelines for translating open source resources to a wider audience.
 
 Learn more about our [Multilingual Publishing project](/multilingual-publishing/).
