@@ -148,6 +148,8 @@ For now, the plot is pretty simple and low weight. We'll be using the `obj_size(
 lobstr::obj_size(tar_read(simple_plot))
 ```
 
+The problem arises when you start having plots with a lot going on in the plot environment
+
 ### Pros
 
 * Works out of the box
