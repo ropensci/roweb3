@@ -108,7 +108,45 @@ In this blog post I explore the different possible options and discuss their pro
 
 ## First solution: saving the entire `ggplot2` objects without worrying
 
-My first solution was to not worry about the plots and leverage the very clever system from targets that saves object. 
+My first solution was to not worry about the plots and leverage the very clever system from targets that saves object.
+
+Let's say our workflow loads the data and make a simple plot:
+
+```{r first-workflow}
+# Create a simple demo workflow
+tar_script({
+  library("ggplot2")
+  library("targets")
+  
+  list(
+    tar_target(mtcars_df, mtcars),
+    tar_target(
+      simple_plot,
+      ggplot(mtcars_df, aes(cyl, mpg)) +
+        geom_point()
+    )
+  )
+}, ask = FALSE)
+
+# Run the workflow
+tar_make()
+```
+
+Then if you want to access the plot you can use `tar_read()` or `tar_load()` and you'll get back a modifiable ggplot2 object
+
+```{r first-load-plot}
+tar_read(simple_plot)
+
+# It's modifiable (we can add a theme after the fact)
+tar_read(simple_plot) +
+  theme_bw()
+```
+
+For now, the plot is pretty simple and low weight. We'll be using the `obj_size()` function from  `lobstr` package to evaluate the package size.
+
+```{r first-size}
+lobstr::obj_size(tar_read(simple_plot))
+```
 
 ### Pros
 
