@@ -941,7 +941,7 @@
     "tags": ["r", "package", "vcr"],
     "resource": "vcr the excellent http testing in r book",
     "url": "https://discuss.ropensci.org/t/using-vcr-for-http-testing-of-a-package-for-kobotoolbox/2865",
-    "image": "noimage",
+    "image": "using-vcr-for-http-testing-of-a-package-for-kobotoolbox.png",
     "date": "2022-03-24"
   },
   {
@@ -1015,5 +1015,14 @@
     "url": "https://discuss.ropensci.org/t/backing-up-github-organisation-with-gitcellar/3153",
     "image": "backing-up-github-organisation-with-gitcellar.png",
     "date": "2022-10-12"
+  },
+  {
+    "title": "Adding missing EXIF data to wildlife trail camera images",
+    "reporter": "Neil Saunders",
+    "tags": ["r", "magick"],
+    "resource": "[magick](https://docs.ropensci.org/magick)",
+    "url": "https://discuss.ropensci.org/t/adding-missing-exif-data-to-wildlife-trail-camera-images/3203",
+    "image": "adding-missing-exif-data-to-wildlife-trail-camera-images.jpeg",
+    "date": "2022-11-10"
   }
 ]

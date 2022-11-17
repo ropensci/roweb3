@@ -97,13 +97,16 @@ Consult our [Events](/events) page to find your local time and how to join.
     - Talk to [Hugo](/author/hugo-gruson/) and discuss how Continuous Integration can simplify your development process and how to get set up.
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
-### rOpenSci communication channels as an alternative to Twitter:
-🐘 Mastodon account (if you like social media): https://fosstodon.org/web/@ropensci
-💬  Discussion forum: https://discuss.ropensci.org/
-🗞️ Newsletter: https://ropensci.org/news/
-✍️ Blog: https://ropensci.org/blog/
 
-You can read more on our blog post: https://ropensci.org/blog/2022/11/16/mastodon-en/
+### rOpenSci communication channels as an alternative to Twitter:
+
+🐘 [Mastodon account](https://fosstodon.org/web/@ropensci) (if you like social media)
+💬 [Discussion forum](https://discuss.ropensci.org/)
+🗞️ [Newsletter](/news)
+✍️ [Blog](/blog) 
+
+You can read more in our [blog post](/blog/2022/11/16/mastodon-en/).
+
 ## Software :package:
 
 ### New packages
@@ -539,7 +542,7 @@ if (length(tech_notes) > 0) {
 
 ## Use cases
 
-```{r usecases, eval=FALSE}
+```{r usecases}
 # rerun get_use_cases.R at the same time
 usecases <- jsonlite::read_json("../../../data/usecases/usecases.json")
 get_one_case <- function(usecase) {
@@ -556,9 +559,9 @@ usecases <- dplyr::filter(usecases, date >= as.Date(last_newsletter))
 usecases <- split(usecases, seq(nrow(usecases)))
 ```
 
-`snakecase::to_sentence_case(english(length(usecases)))` use case`if (length(usecases) > 1) "s"` of our packages and resources ha`if (length(usecases) > 1) "ve" else "s"` been reported since we sent the last newsletter.
+`r snakecase::to_sentence_case(english(length(usecases)))` use case`r if (length(usecases) > 1) "s"` of our packages and resources ha`r if (length(usecases) > 1) "ve" else "s"` been reported since we sent the last newsletter.
 
-```{r usecases2, results='asis', eval=FALSE}
+```{r usecases2, results='asis'}
 format_case <- function(usecase) {
   string <- sprintf("* [%s](%s). Reported by %s.", sub("\\.$", "", usecase$title), usecase$url, usecase$reporter)
 }

@@ -74,6 +74,15 @@ Consult our [Events](/events) page to find your local time and how to join.
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
+### rOpenSci communication channels as an alternative to Twitter:
+
+🐘 [Mastodon account](https://fosstodon.org/web/@ropensci) (if you like social media)
+💬 [Discussion forum](https://discuss.ropensci.org/)
+🗞️ [Newsletter](/news)
+✍️ [Blog](/blog)
+
+You can read more in our [blog post](/blog/2022/11/16/mastodon-en/).
+
 ## Software :package:
 
 ### New packages
@@ -88,7 +97,7 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 ### New versions
 
-The following seventeen packages have had an update since the last newsletter: [aorsf](https://docs.ropensci.org/aorsf "Accelerated Oblique Random Survival Forests") ([`v0.0.4`](https://github.com/ropensci/aorsf/releases/tag/v0.0.4)), [assertr](https://docs.ropensci.org/assertr "Assertive Programming for R Analysis Pipelines") ([`v3.0.0`](https://github.com/ropensci/assertr/releases/tag/v3.0.0)), [chromer](https://docs.ropensci.org/chromer "Interface to Chromosome Counts Database API") ([`v0.3`](https://github.com/ropensci/chromer/releases/tag/v0.3)), [daiquiri](https://docs.ropensci.org/daiquiri "Data Quality Reporting for Temporal Datasets") ([`v1.0.1`](https://github.com/ropensci/daiquiri/releases/tag/v1.0.1)), [jagstargets](https://docs.ropensci.org/jagstargets "Targets for JAGS Workflows") ([`1.0.4`](https://github.com/ropensci/jagstargets/releases/tag/1.0.4)), [mctq](https://docs.ropensci.org/mctq "Tools to Process the Munich ChronoType Questionnaire (MCTQ)") ([`v0.3.1`](https://github.com/ropensci/mctq/releases/tag/v0.3.1)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.9.0`](https://github.com/ropensci/nodbi/releases/tag/v0.9.0)), [npi](https://docs.ropensci.org/npi "Access the U.S. National Provider Identifier Registry API") ([`v0.2.0`](https://github.com/ropensci/npi/releases/tag/v0.2.0)), [oai](https://docs.ropensci.org/oai "General Purpose Oai-PMH Services Client") ([`v0.4.0`](https://github.com/ropensci/oai/releases/tag/v0.4.0)), [rcrossref](https://docs.ropensci.org/rcrossref "Client for Various CrossRef APIs") ([`v1.2.0`](https://github.com/ropensci/rcrossref/releases/tag/v1.2.0)), [restez](https://docs.ropensci.org/restez "Create and Query a Local Copy of GenBank in R") ([`v2.1.3`](https://github.com/ropensci/restez/releases/tag/v2.1.3)), [stantargets](https://docs.ropensci.org/stantargets "Targets for Stan Workflows") ([`0.0.6`](https://github.com/ropensci/stantargets/releases/tag/0.0.6)), [stplanr](https://docs.ropensci.org/stplanr "Sustainable Transport Planning") ([`v1.0.2`](https://github.com/ropensci/stplanr/releases/tag/v1.0.2)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.7.2`](https://github.com/ropensci/tarchetypes/releases/tag/0.7.2)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Workflows") ([`0.14.0`](https://github.com/ropensci/targets/releases/tag/0.14.0)), [vcr](https://docs.ropensci.org/vcr "Record HTTP Calls to Disk") ([`v1.1.0`](https://github.com/ropensci/vcr/releases/tag/v1.1.0)), and [webchem](https://docs.ropensci.org/webchem "Chemical Information from the Web") ([`v1.2.0`](https://github.com/ropensci/webchem/releases/tag/v1.2.0)).
+The following eighteen packages have had an update since the last newsletter: [aorsf](https://docs.ropensci.org/aorsf "Accelerated Oblique Random Survival Forests") ([`v0.0.4`](https://github.com/ropensci/aorsf/releases/tag/v0.0.4)), [assertr](https://docs.ropensci.org/assertr "Assertive Programming for R Analysis Pipelines") ([`v3.0.0`](https://github.com/ropensci/assertr/releases/tag/v3.0.0)), [chromer](https://docs.ropensci.org/chromer "Interface to Chromosome Counts Database API") ([`v0.3`](https://github.com/ropensci/chromer/releases/tag/v0.3)), [daiquiri](https://docs.ropensci.org/daiquiri "Data Quality Reporting for Temporal Datasets") ([`v1.0.1`](https://github.com/ropensci/daiquiri/releases/tag/v1.0.1)), [jagstargets](https://docs.ropensci.org/jagstargets "Targets for JAGS Workflows") ([`1.0.4`](https://github.com/ropensci/jagstargets/releases/tag/1.0.4)), [mctq](https://docs.ropensci.org/mctq "Tools to Process the Munich ChronoType Questionnaire (MCTQ)") ([`v0.3.1`](https://github.com/ropensci/mctq/releases/tag/v0.3.1)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.9.0`](https://github.com/ropensci/nodbi/releases/tag/v0.9.0)), [npi](https://docs.ropensci.org/npi "Access the U.S. National Provider Identifier Registry API") ([`v0.2.0`](https://github.com/ropensci/npi/releases/tag/v0.2.0)), [oai](https://docs.ropensci.org/oai "General Purpose Oai-PMH Services Client") ([`v0.4.0`](https://github.com/ropensci/oai/releases/tag/v0.4.0)), [rcrossref](https://docs.ropensci.org/rcrossref "Client for Various CrossRef APIs") ([`v1.2.0`](https://github.com/ropensci/rcrossref/releases/tag/v1.2.0)), [restez](https://docs.ropensci.org/restez "Create and Query a Local Copy of GenBank in R") ([`v2.1.3`](https://github.com/ropensci/restez/releases/tag/v2.1.3)), [spiro](https://docs.ropensci.org/spiro "Manage Data from Cardiopulmonary Exercise Testing") ([`v0.1.2`](https://github.com/ropensci/spiro/releases/tag/v0.1.2)), [stantargets](https://docs.ropensci.org/stantargets "Targets for Stan Workflows") ([`0.0.6`](https://github.com/ropensci/stantargets/releases/tag/0.0.6)), [stplanr](https://docs.ropensci.org/stplanr "Sustainable Transport Planning") ([`v1.0.2`](https://github.com/ropensci/stplanr/releases/tag/v1.0.2)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.7.2`](https://github.com/ropensci/tarchetypes/releases/tag/0.7.2)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Workflows") ([`0.14.0`](https://github.com/ropensci/targets/releases/tag/0.14.0)), [vcr](https://docs.ropensci.org/vcr "Record HTTP Calls to Disk") ([`v1.1.0`](https://github.com/ropensci/vcr/releases/tag/v1.1.0)), and [webchem](https://docs.ropensci.org/webchem "Chemical Information from the Web") ([`v1.2.0`](https://github.com/ropensci/webchem/releases/tag/v1.2.0)).
 
 ## Software Peer Review
 
@@ -140,7 +149,9 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 ## Use cases
 
-`snakecase::to_sentence_case(english(length(usecases)))` use case`if (length(usecases) > 1) "s"` of our packages and resources ha`if (length(usecases) > 1) "ve" else "s"` been reported since we sent the last newsletter.
+One use case of our packages and resources has been reported since we sent the last newsletter.
+
+- [Adding missing EXIF data to wildlife trail camera images](https://discuss.ropensci.org/t/adding-missing-exif-data-to-wildlife-trail-camera-images/3203). Reported by Neil Saunders.
 
 Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)!
 
