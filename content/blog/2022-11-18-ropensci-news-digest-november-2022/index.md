@@ -74,11 +74,16 @@ Consult our [Events](/events) page to find your local time and how to join.
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
-### rOpenSci communication channels as an alternative to Twitter:
+### rOpenSci communication channels as an alternative to Twitter
+
+Our Twitter account is still active for now but here are alternatives:
 
 🐘 [Mastodon account](https://fosstodon.org/web/@ropensci) (if you like social media)
+
 💬 [Discussion forum](https://discuss.ropensci.org/)
+
 🗞️ [Newsletter](/news)
+
 ✍️ [Blog](/blog)
 
 You can read more in our [blog post](/blog/2022/11/16/mastodon-en/).
@@ -146,6 +151,12 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 ## On the blog
 
 <!-- Do not forget to rebase your branch! -->
+
+- [Become a Mentor for rOpenSci Champions!](/blog/2022/10/20/mentors-champions-program) by Yanina Bellini Saibene. rOpenSci is seeking mentors to support our inaugural cohort of rOpenSci Champions. Could you offer insight and advice to our selected Champions? Learn the details and express your interest.
+
+- [rOpenSci’s Communication Channels: Twitter](/blog/2022/11/16/mastodon-en) by Yanina Bellini Saibene, and Steffi LaZerte. We announce our actions on rOpenSci’s communication channels as alternatives to Twitter.
+
+- [Canales de comunicación de rOpenSci: Twitter](/blog/2022/11/16/mastodon-es) by Yanina Bellini Saibene, and Steffi LaZerte. Anunciamos nuestras acciones en los canales de comunicación de rOpenSci como alternativas a Twitter.
 
 ## Use cases
 

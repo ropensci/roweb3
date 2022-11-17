@@ -98,11 +98,16 @@ Consult our [Events](/events) page to find your local time and how to join.
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
-### rOpenSci communication channels as an alternative to Twitter:
+### rOpenSci communication channels as an alternative to Twitter
+
+Our Twitter account is still active for now but here are alternatives:
 
 🐘 [Mastodon account](https://fosstodon.org/web/@ropensci) (if you like social media)
+
 💬 [Discussion forum](https://discuss.ropensci.org/)
+
 🗞️ [Newsletter](/news)
+
 ✍️ [Blog](/blog) 
 
 You can read more in our [blog post](/blog/2022/11/16/mastodon-en/).
@@ -441,7 +446,7 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 <!-- Do not forget to rebase your branch! -->
 
-```{r blog, eval=FALSE}
+```{r blog}
 
 parse_one_post <- function(path){
   lines <- suppressWarnings(readLines(path, encoding = "UTF-8"))
@@ -500,7 +505,7 @@ format_post <- function(post) {
 }
 ```
 
-```{r, results='asis', eval=FALSE}
+```{r, results='asis'}
 software_review <- posts[purrr::map_lgl(posts, "software_peer_review")]
 if (length(software_review) > 0) {
   cat("### Software Review\n\n")
