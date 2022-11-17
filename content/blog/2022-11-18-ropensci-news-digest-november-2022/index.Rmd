@@ -97,7 +97,13 @@ Consult our [Events](/events) page to find your local time and how to join.
     - Talk to [Hugo](/author/hugo-gruson/) and discuss how Continuous Integration can simplify your development process and how to get set up.
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
+### rOpenSci communication channels as an alternative to Twitter:
+🐘 Mastodon account (if you like social media): https://fosstodon.org/web/@ropensci
+💬  Discussion forum: https://discuss.ropensci.org/
+🗞️ Newsletter: https://ropensci.org/news/
+✍️ Blog: https://ropensci.org/blog/
 
+You can read more on our blog post: https://ropensci.org/blog/2022/11/16/mastodon-en/
 ## Software :package:
 
 ### New packages
