@@ -43,8 +43,9 @@ _Tucu_ gives as an example the _Thursday meeting_ where they show and share thei
 
 ## Free software and in our language
 
-Además de la gratuidad del software libre y de la importancia del manejo de los recursos para un estado, Pablo Tiscornia explica lo que aparece casi como una declaración de principios: _“Es una filosofía de trabajo y de concepción sobre cómo desarrollamos y promovemos el conocimiento. Creo que somos gracias al software libre, lo que hoy podemos darle al estado entonces sería casi un acto irresponsable no promover lo que a nosotros nos formó.”_
-Juan Pablo refuerza la idea con su experiencia personal: _“Yo era un tesista de maestría en ciencias políticas y hace siete años me obligué a hacer la tesis en R para aprender (...) y lo que rápidamente encontré, por suerte, fue la comunidad de R”._
+In addition to the free nature of open source software and the importance of resource management for a State, Pablo Tiscornia explains what appears almost as a declaration of principles: _“It is a work philosophy, and an idea about how we develop and promote knowledge. I think what we can give, today to the State, is thanks to free software. So, it would be almost irresponsible not to promote what formed us.”_
+
+Juan Pablo reinforces the idea with his personal experience: _“Yo era un tesista de maestría en ciencias políticas y hace siete años me obligué a hacer la tesis en R para aprender (...) y lo que rápidamente encontré, por suerte, fue la comunidad de R”._
 __Intercambiar con la comunidad y aprender de la comunidad parece ser el mantra principal de la comunidad R que tanto el Tucu como Pablo comparten con el equipo.__
 
 
