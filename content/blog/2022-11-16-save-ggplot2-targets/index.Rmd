@@ -149,7 +149,7 @@ tar_script({
         mtcars_df4 = rbind(mtcars_df3, mtcars_df3)
         
         # Note how the code of the plot hasn't changed
-        ggplot(mtcars_df, aes(cyl, mpg)) +
+        ggplot(mtcars_df4, aes(cyl, mpg)) +
           geom_point()
         
       }
@@ -223,7 +223,7 @@ tar_script({
         mtcars_df4 = rbind(mtcars_df3, mtcars_df3)
         
         # Note how the code of the plot hasn't changed
-        ggplot(mtcars_df, aes(cyl, mpg)) +
+        ggplot(mtcars_df4, aes(cyl, mpg)) +
           geom_point()
         
       }
@@ -285,7 +285,7 @@ tar_script({
         mtcars_df4 = rbind(mtcars_df3, mtcars_df3)
         
         # Note how the code of the plot hasn't changed
-        ggplot(mtcars_df, aes(cyl, mpg)) +
+        ggplot(mtcars_df4, aes(cyl, mpg)) +
           geom_point()
         
       }
@@ -337,7 +337,7 @@ A third solution would be to save all of the plots as images. This can be done t
 
 We thus have to fix an image size and a file location in advance but at least the saved object would be clear: an actual image.
 
-Here's how we could proceed with our previous workflow:
+Here's how we could proceed with our previous workflow (and without the targets hooks):
 
 ```{r third-workflow}
 tar_script({
@@ -348,32 +348,48 @@ tar_script({
     tar_target(mtcars_df, mtcars),
     tar_target(
       simple_plot,
-      ggplot(mtcars_df, aes(cyl, mpg)) +
-        geom_point()
+      {
+        given_plot = ggplot(mtcars_df, aes(cyl, mpg)) +
+          geom_point()
+        
+        ggsave("simple_plot.png", simple_plot)
+      },
+      format = "file"
     ),
     tar_target(
       complex_plot,
       {
         
-        # Add many useless manipulations here to mimick object creation
         mtcars_df2 = mtcars_df
         mtcars_df3 = rbind(mtcars_df, mtcars_df2)
         mtcars_df4 = rbind(mtcars_df3, mtcars_df3)
         
-        # Note how the code of the plot hasn't changed
-        ggplot(mtcars_df, aes(cyl, mpg)) +
+        given_plot = ggplot(mtcars_df4, aes(cyl, mpg)) +
           geom_point()
         
-      }
-    ),
-    tar_target(simple_grob, ggplotGrob(simple_plot)),
-    tar_target(complex_grob, ggplotGrob(complex_plot))
+        ggsave("complex_plot.png", complex_plot)
+      },
+      format = "file"
+    )
   )
 }, ask = FALSE)
 
 # Run the workflow
 tar_make()
 ```
+Note that because `ggsave()` returns a filepath, we had to indicate to `tar_target()` that the target was a file using the argument `format = "file"`. We can now check our saved targets:
+
+```{r third-saved-targets}
+tar_read(simple_plot)
+```
+
+We only got `"simple_plot.png"` because the target in itself only stores the filepath to the actual saved file. So to visualize it, we need to go into the folder and open the file:
+
+{{< figure src = "simple_plot.png" alt = "Scatter plot representing mileage of cars in function of number of cylinders based on the mtcars dataset" >}}
+
+And our plots were saved! I will leave adapting this workflow to use tarchetypes hooks as an exercise to the reader 😉
+
+I generally dislike saving my plots as images at first, because I don't know their final size a priori, I like to be able to tweak them after the fact, to tailor them to the context where they are going to be displayed. So that's why I'm going to add my final solution.
 
 ### Pros
 
@@ -389,9 +405,67 @@ tar_make()
 
 ## Fourth (& final) solution: save `ggplot2` objects but thin the plotting environment
 
-example of plot and change in size of object. (Where are we getting)
+As you may have guessed, the solution was in front of our eyes all this time: instead of trying to bypass the ggplot2 limitations, by saving plots into intermediate objects, we could embrace ggplot2 specificity and tackle the problem at its source, by limiting what the environment to only what is strictly needed for the plot.
 
-Need to care about whatever is floating around when creating
+One way to do it is before calling `ggplot()` in the plotting functions to use `rm()` to remove any objects lying around in the function environment. With our workflow example it would mean:
+
+```{r fourth-workflow}
+tar_script({
+  library("ggplot2")
+  library("targets")
+  
+  list(
+    tar_target(mtcars_df, mtcars),
+    tar_target(
+      simple_plot,
+      ggplot(mtcars_df, aes(cyl, mpg)) +
+        geom_point()
+    ),
+    tar_target(
+      complex_plot,
+      {
+      
+        mtcars_df2 = mtcars_df
+        mtcars_df3 = rbind(mtcars_df, mtcars_df2)
+        mtcars_df4 = rbind(mtcars_df3, mtcars_df3)
+        
+        ggplot(mtcars_df4, aes(cyl, mpg)) +
+          geom_point()
+        
+      }
+    ),
+    tar_target(
+      complex_but_slim_plot,
+      
+      {
+        
+        # Add many useless manipulations here to mimick object creation
+        mtcars_df2 = mtcars_df
+        mtcars_df3 = rbind(mtcars_df, mtcars_df2)
+        mtcars_df4 = rbind(mtcars_df3, mtcars_df3)
+        
+        # Remove all unnecessary objects
+        rm(mtcars_df, mtcars_df2, mtcars_df3)
+        
+        ggplot(mtcars_df4, aes(cyl, mpg)) +
+          geom_point()
+        
+      }
+    )
+  )
+}, ask = FALSE)
+
+# Run the workflow
+tar_make()
+```
+
+Now we added a new target `complex_but_slim_plot` that still plot the same thing as `complex_plot` but has a specific line where it removes all intermediate objects lying around. We can compare their sizes:
+
+```{r fourth-sizes}
+lobstr::obj_size(tar_read(complex_plot))
+lobstr::obj_size(tar_read(complex_but_slim_plot))
+```
+Indeed, the second plot takes less size on the disk! So this strategy works by using the strength (and weakness) of ggplot2 objects and tidying up the local environments before generating the plot. Of course our toy example only show a reduction of around 20 kB, but as I said above, if your plotting function requires a lot of data wrangling, this gain can be substantial. With this trick you can reduce the file size of your targets workflow and the speed at which your saved plot objects load.
 
 ### Pros
 
@@ -408,12 +482,12 @@ Need to care about whatever is floating around when creating
 
 ## Summary
 
-We explored solutions to save ggplot2 objects in target workflows:
+In this blog post, we explored solutions to save ggplot2 objects in targets workflows:
 
-* Saving `ggplot2` objects directly without consideration may accidentally save bigger objects because it saves the plot environment
-* `targets` hooks can help you post-process targets automatically
-* Saving `ggplot2` as `Grob` is not recommended and shouldn't be done
-* The solution is to save `ggplot2` and thinning any object that may be staying in the environment
+* The first option is to use `ggplot2` objects directly without consideration, which may accidentally save bigger objects because it saves the entire plot environment.
+* The second option is to convert `ggplot2` objects into `Grobs`, which are much lighter, this can be painlessly implemented through targets hooks, however, saving the ggplot2 grobs is officially discouraged by the ggplot2 maintainers.
+* The third option is to save images directly (with or without targets hooks) through `ggsave`, this makes sure that only the images are saved (and not the plot environments), but is much less flexible regarding the re-styling of the plot after the fact.
+* The fourth (and my recommended) solution is to use `ggplot2` while paying great attention to what objects are present in the plot environment. By thinning any object that may be staying in the environment, the size of the final object can decrease dramatically (and as such the size of the saved targets). This is only a concern if your plotting functions contain a lot of data wrangling with many intermediate objects.
 
 
 ## Conclusion
@@ -421,7 +495,8 @@ We explored solutions to save ggplot2 objects in target workflows:
 
 ## Going Further
 
-* R environments, Advanced R
-* grid Grobs, ?
-* ggplot2 plotting system, ggplot2 vignette or blog?
-* targets serialization, targets book?
+* To learn more about R environments, read [Chapter 7 of Advanced R](https://adv-r.hadley.nz/environments.html), it's carefully examines the properties of environments and build up your understanding progressively.
+* To understand better the grid package which is the basis ontop of which ggplot2 is built, you can read ["Fun with the R Grid Package"](https://doi.org/10.1080/10691898.2010.11889587) by Lutong Zhou & W. John Braun which is a tutorial to use and understand the grid package.
+* To understand the interaction between the grid pacakge and ggplot2, Roger D. Peng provides [a great tutorial](https://bookdown.org/rdpeng/RProgDA/the-grid-package.html).
+* To go even deeper into the understanding of ggplot2, the [3rd version of "ggplot2: elegant graphics for data analysis"](https://ggplot2-book.org/index.html) has (a full chapter on "ggplot2 internals"](https://ggplot2-book.org/internals.html).
+* To learn more about targets hooks, read [the dedicated section in the targets manual](https://ggplot2-book.org/index.html).
