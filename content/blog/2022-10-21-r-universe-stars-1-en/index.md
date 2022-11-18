@@ -52,20 +52,19 @@ __Exchanging with the community and learning from the community seems to be the 
 
 ## A work for the community
 
-Los públicos que reciben el trabajo que se desarrolla en el área de turismo son múltiples. 
+The audiences that receive the work developed in the office are multiple.
 
-{{< figure src = "sinta.png" class = "pull-left" width = "380" alt = "Pagina de inicio del sistema SINTA con accesos a sus conjuntos de datos abiertos" >}}
+{{< figure src = "sinta.png" class = "pull-left" width = "380" alt = "SINTA system home page with access to its open datasets." >}}
 
+Today they have a site called [SINTA (Sistema de Información Turístico de la Argentina)](https://www.yvera.tur.ar/sinta/) where they present in an orderly fashion the _"different ways of accessing information"_. Juan Pablo explains that _"the work was to develop tools. R has much to do with this, bringing the information closer to different audiences"_.
 
-Hoy cuentan con un sitio llamado [SINTA (Sistema de Información Turístico de la Argentina)](https://www.yvera.tur.ar/sinta/) donde presentan de manera ordenada las _“distintas maneras de entrarle a la información”_. Juan Pablo explica que _“el trabajo fue ir desarrollando herramientas, y en esto R tiene mucho que ver, para poder acercarle la información a distintos públicos”_. 
-
-Esos públicos incluyen el académico (personas que investigan y enseñan), las distintas oficinas de diferentes niveles de estado que necesitan de esos datos, la dirección para la que trabajan que utiliza la información para la toma de decisiones y el establecimiento de políticas públicas y también para todas las personas que quieran interactuar con la información que se encuentra en el portal de datos abiertos.
+Those audiences include academics (people who research and teach) and government. So, for example, different offices at different levels of the State need the data, and the office they work for that uses the information for decision-making and public policy setting. Also, all the people that want to interact with the information in the open data portal.
 
 
 </br>
 
 
-## La experiencia R-universe
+## The R-universe experience
 
 El concepto de comunidad tiene mucha relación con las redes sociales y de comunicación y fue precisamente Twitter la que acercó por primera vez a Juan Pablo a [R-universe](https://r-universe.dev/search/) donde descubrió [el paso a paso sobre cómo construir su propio universo de R](https://ropensci.org/blog/2021/09/21/creando-tu-r-universe/).
 
