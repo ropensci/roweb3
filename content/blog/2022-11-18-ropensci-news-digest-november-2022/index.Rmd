@@ -7,7 +7,7 @@ slug: ropensci-news-digest-november-2022
 categories: []
 tags:
   - newsletter
-description: Multilingual publishing (Spanish!), champions program, community call recording, coworking, new packages and package news
+description: Multilingual publishing (Spanish!), champions program, coworking, Twitter alternatives, new packages and package news
 params:
   last_newsletter: '2022-10-21'
 ---
@@ -66,15 +66,6 @@ Learn more about our [Champions Program](/champions/).
 ```{=html}
 {{< figure src="map.png" alt="World Maps with the applicant's countries colored. The map shows America almost all painted and then some few countries from Asia, Africa, Europe and Oceania.">}}
 ```
-
-### Community Call recap: "Mentoring & training program for Scientific Open Source Champions"
-
-After a brief hiatus, we returned to community calls with a session dedicated to our Champions Program.   
-We invited open source software Champions from other spaces and communities to share their experiences, to help us learn more about what it is to be a Champion, the benefit of applying to these programs, and how being a Champion can benefit not only us, but also our communities.
-
-In this call, moderated by rOpenSci Community Manager [Yani Bellini Saibene](/author/yanina-bellini-saibene/), Santosh Yadav and Emanuele Bartolesi shared their experiences of being Champions in their communities and gave advice on how to create a path to becoming a Champion in open source software communities.
-
-You can [watch the video](/commcalls/oct2022-champions/) and [access all the materials](/commcalls/oct2022-champions/)  on our website.
 
 ### Coworking sessions continue!
 
@@ -590,7 +581,6 @@ There are still a few packages to adopt [from our recent blog post](/blog/2022/1
 - **rgnparser, Parse Scientific Names**. Parse scientific names using ['gnparser'](https://github.com/gnames/gnparser), written in Go. 'gnparser' parses scientific names into their component parts; it utilizes a Parsing Expression Grammar specifically for scientific names. [Issue for volunteering](https://github.com/ropensci/rgnparser/issues/14).
 - **RSelenium, R Bindings for 'Selenium WebDriver'**. Provides a set of R bindings for the ['Selenium 2.0 WebDriver'](https://www.selenium.dev/documentation/) using the ['JsonWireProtocol'](https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol). 'Selenium 2.0 WebDriver' allows driving a web browser natively as a user would either locally or on a remote machine using the Selenium server it marks a leap forward in terms of web browser automation. [Issue for volunteering](https://github.com/ropensci/RSelenium/issues/261).
 - **elastic, General Purpose Interface to 'Elasticsearch'**. Connect to 'Elasticsearch', a 'NoSQL' database built on the 'Java' Virtual Machine. Interacts with the ['Elasticsearch' 'HTTP' API](https://www.elastic.co/elasticsearch/), including functions for setting connection details to 'Elasticsearch' instances, loading bulk data, searching for documents with both 'HTTP' query variables and 'JSON' based body requests. [Issue for volunteering](https://github.com/ropensci/elastic/issues/292).
-- **ckanr, Client for the Comprehensive Knowledge Archive Network ('CKAN') API**. Client for ['CKAN' API](https://ckan.org/). Includes interface to 'CKAN' 'APIs' for search, list, show for packages, organizations, and resources. In addition, provides an interface to the 'datastore' API. [Issue for volunteering](https://github.com/ropensci/ckanr/issues/186).
 - **Rclean, A Tool for Writing Cleaner, More Transparent Code**. To create clearer, more concise code provides this toolbox helps coders to isolate the essential parts of a script that produces a chosen result, such as an object, tables and figures written to disk. [Issue for volunteering](https://github.com/ropensci/Rclean/issues/213).
 
 ### Call for comaintainers
