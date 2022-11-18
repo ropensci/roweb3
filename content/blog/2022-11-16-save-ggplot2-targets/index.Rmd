@@ -287,26 +287,74 @@ grid::grid.draw(tar_read(simple_grob))
 
 We got our plot back! It is still resizable, can still be exported as a file through RStudio or graphical devices. However, as it's not a ggplot2 object anymore, we cannot tweak its theme nor use the `ggsave` function.
 
-If you have tens of plots, it maybe quite cumbersome to call `ggplot2::ggplotGrob()` at the end of all your plot functions. That's where someone in the community suggested using [`tarchetypes` hooks](). I wasn't aware at the time, but tarchetypes, which is an extension of targets to more easily generate a list of targets, has a system of "hooks" that can apply functions to your targets automatically (all or based on their names). These are accessible through the functions `tar_hook_before()`, `tar_hook_inner()`, and `tar_hook_outer()` in `tarchetypes`.
-Learnt about target hooks.
+If you have tens of plots, it maybe quite cumbersome to call `ggplot2::ggplotGrob()` at the end of all your plot functions. That's where someone in the community suggested using [`tarchetypes` hooks](). I wasn't aware at the time, but tarchetypes, which is an extension of targets to more easily generate a list of targets, has a system of "hooks" that can apply functions to your targets automatically (all or a subset based on their names). These are accessible through the functions `tar_hook_before()`, `tar_hook_inner()`, and `tar_hook_outer()` in `tarchetypes`. They will respectively transform the target to execute a function *before*, wrap the target in, or (??? what's the difference between inner and outer?). We have to indicate with `.x` where is the previous commond supposed to be executed. This means that using `tar_hook_outer()` we would be able to automatically execute `ggplotGrob()` to all our plot targets like so:
 
-But not recommended at all by ggplot2 folks. Risk of being very brittle. Didn't work as well. Was less clear to manipulate them.
+```{r second-workflow-hooks}
+tar_script({
+  library("ggplot2")
+  library("targets")
+  
+  list(
+    tar_target(mtcars_df, mtcars),
+    tar_target(
+      simple_plot,
+      ggplot(mtcars_df, aes(cyl, mpg)) +
+        geom_point()
+    ),
+    tar_target(
+      complex_plot,
+      {
+        
+        # Add many useless manipulations here to mimick object creation
+        mtcars_df2 = mtcars_df
+        mtcars_df3 = rbind(mtcars_df, mtcars_df2)
+        mtcars_df4 = rbind(mtcars_df3, mtcars_df3)
+        
+        # Note how the code of the plot hasn't changed
+        ggplot(mtcars_df, aes(cyl, mpg)) +
+          geom_point()
+        
+      }
+    )
+  ) |>
+    # The hook from tarchetypes
+    tarchetypes::tar_hook_outer(
+      ggplot2::ggplotGrob(.x),
+      names = ends_with("plot")
+    )
+}, ask = FALSE)
 
-Do this are you own risk (if you really know about `grid` and `Grob`s probably)
+# Run the workflow
+tar_make()
+```
 
+We can check our plot objects:
+
+```{r second-hook-grob}
+tar_read(simple_plot)
+tar_read(complex_plot)
+```
+
+Both our plot objects indeed got transformed intro `Grob` objects! With the adapted sizes. With the hooks, we could easily transform all of the figures of a workflow into `Grobs`.
+
+If this solution seems to solve all of our problems (though not as flexible), then why does this post continues?
+
+Well, ggplot2 maintainers officially [discourage users to save `ggplotGrobs`](https://github.com/tidyverse/ggplot2/issues/4649#issuecomment-952029317). This is because they are not guaranteed to be reloadable. So this is quite a big concern for reusability of future objects.
+
+We will explore other options in the next sections, but in this one we have learnt about what happens in ggplot2 to generate an actual plot through transforming into a grob, then we have learned about tarchetypes hooks.
 
 ### Pros
 
-* Very lightweight total
-* Flexible in the final size of the image
-* Leverages the amazing (and not so known) hooks in a targets workflow
+* Very lightweight total.
+* Flexible in the final size of the image.
+* Leverages the amazing (and not so known) hooks in a targets workflow.
 
 ### Cons
 
-* Can't edit the ggplot2 object after the fact
-* Has to add a post-hook to the `targets` workflow.
+* Can't edit the ggplot2 object after the fact.
+* Has to add a hook to the `targets` workflow.
+* `grid` objects can be strange to work with.
 * Officially not recommended by ggplot2 maintainers.
-* `grid` objects can be strange to work with
 
 
 ## Third solution: save the plots as images
