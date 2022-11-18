@@ -93,7 +93,7 @@ And remember, you can always cowork independently on work related to R, work on 
 
 Our Twitter account is still active for now but here are alternatives:
 
-🐘 [Mastodon account](https://fosstodon.org/web/@ropensci) (if you like social media)
+🐘 [Mastodon account](https://fosstodon.org/@ropensci) (if you like social media)
 
 💬 [Discussion forum](https://discuss.ropensci.org/)
 
