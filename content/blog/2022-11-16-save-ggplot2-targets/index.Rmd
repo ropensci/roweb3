@@ -174,7 +174,7 @@ lobstr::obj_size(tar_read(complex_plot))
 ```
 
 We observe that the `complex_plot` is larger in size than `simple_plot`! This seems very surprising as we haven't changed a line of the plotting code *per se*. So what is happening here?
-Well the issue comes from the way ggplot2 works: it doesn't save the graphical plots in themselves, it saves their **environment** and generates the plot only when called from this saved environment. If you're not familiar with the concept of environment, don't worry! It's a rather hard concept to grasp (and I'm not sure I do understand it, if you want to know more about it you can read the [dedicated chapter]() in [Advanced R](https://adv-r.hadley.nz/)). If we simplify the concept, the `ggplot()` function saves the plotting function in themselves **plus** all of the object lying around where it's called, because they may be useful for the plot (which one are useful ggplot2 can't tell because remember that the plot is only really rendered when called).
+Well the issue comes from the way ggplot2 works: it doesn't save the graphical plots in themselves, it saves their **environment** and generates the plot only when called from this saved environment (see it in [this GitHub issue](https://github.com/tidyverse/ggplot2/issues/4056) for example). If you're not familiar with the concept of environment, don't worry! It's a rather hard concept to grasp (and I'm not sure I do understand it, if you want to know more about it you can read the [dedicated chapter](https://adv-r.hadley.nz/environments.html) in [Advanced R](https://adv-r.hadley.nz/)). If we simplify the concept, the `ggplot()` function saves the plotting function in themselves **plus** all of the object lying around where it's called, because they may be useful for the plot (which one are useful ggplot2 can't tell because remember that the plot is only really rendered when called). Because targets saves the entire object it also save its entire environment. This problem was [also](https://github.com/ropensci/drake/issues/882) [known](https://github.com/ropensci/drake/issues/1258) with targets' predecessor `drake`.
 
 In our workflow example above, the size difference between both objects isn't much different, so it does not change the performance of the plot nor the total size taken by the saved targets workflow. However, with a real life example with many complex objects and many intermediate computations in the plotting function, it can increase loading and plotting times dramatically. So we need to think about solutions to circumvent the issue.
 
@@ -492,6 +492,8 @@ In this blog post, we explored solutions to save ggplot2 objects in targets work
 
 ## Conclusion
 
+From my simple problem of finding the "best" way of saving ggplot2 objects in targets workflows, I've learned quite a ton about both targets and ggplot2 internals. I hope you liked the journey as much as I
+
 
 ## Going Further
 
@@ -500,3 +502,8 @@ In this blog post, we explored solutions to save ggplot2 objects in targets work
 * To understand the interaction between the grid pacakge and ggplot2, Roger D. Peng provides [a great tutorial](https://bookdown.org/rdpeng/RProgDA/the-grid-package.html).
 * To go even deeper into the understanding of ggplot2, the [3rd version of "ggplot2: elegant graphics for data analysis"](https://ggplot2-book.org/index.html) has (a full chapter on "ggplot2 internals"](https://ggplot2-book.org/internals.html).
 * To learn more about targets hooks, read [the dedicated section in the targets manual](https://ggplot2-book.org/index.html).
+
+## Acknowledgments
+
+Thanks to Will Landau for creating `targets` and always answering the silly questions I may ask in the dedicated channel of the rOpenSci slack.
+Thanks as well to Noam Ross & Miles McBain who both wrote first about that issue that I also experienced.
