@@ -113,6 +113,9 @@ My first solution was to not worry about the plots and leverage the very clever 
 Let's say our workflow loads the data and make a simple plot:
 
 ```{r first-workflow}
+library("targets")
+library("ggplot2")
+
 # Create a simple demo workflow
 tar_script({
   library("ggplot2")
@@ -148,7 +151,59 @@ For now, the plot is pretty simple and low weight. We'll be using the `obj_size(
 lobstr::obj_size(tar_read(simple_plot))
 ```
 
-The problem arises when you start having plots with a lot going on in the plot environment
+The problem arises when you start having plots with a lot going on in the plot function. If retake the same targets workflow but have a more busy plot function we'll be able to measure the size of the plot object again:
+
+```{r first-busy-workflow}
+tar_script({
+  library("ggplot2")
+  library("targets")
+  
+  list(
+    tar_target(mtcars_df, mtcars),
+    tar_target(
+      simple_plot,
+      ggplot(mtcars_df, aes(cyl, mpg)) +
+        geom_point()
+    ),
+    tar_target(
+      complex_plot,
+      {
+        
+        # Add many useless manipulations here to mimick object creation
+        mtcars_df2 = mtcars_df
+        mtcars_df3 = rbind(mtcars_df, mtcars_df2)
+        mtcars_df4 = rbind(mtcars_df3, mtcars_df3)
+        
+        # Note how the code of the plot hasn't changed
+        ggplot(mtcars_df, aes(cyl, mpg)) +
+          geom_point()
+        
+      }
+    )
+  )
+}, ask = FALSE)
+
+# Run the workflow
+tar_make()
+```
+
+We now have two plot targets, the `simple_plot` target which is the same as previously and `complex_plot` which differs from `simple_plot` only from data manipulation prior to the plotting, **that are not affecting the plot object in itself**.
+
+If we compare their sizes:
+
+```{r first-complex-sizes}
+# The 'simple_plot' object hasn't changed size
+lobstr::obj_size(tar_read(simple_plot))
+
+# The 'complex_plot' object is actually larger
+lobstr::obj_size(tar_read(complex_plot))
+```
+
+We observe that the `complex_plot` is larger in size than `simple_plot`! This seems very surprising as we haven't changed a line of the plotting code *per se*. So what is happening here?
+Well the issue comes from the way ggplot2 works: it doesn't save the graphical plots in themselves, it saves their **environment** and generates the plot only when called from this saved environment. If you're not familiar with the concept of environment, don't worry! It's a rather hard concept to grasp (and I'm not sure I do understand it, if you want to know more about it you can read the [dedicated chapter]() in [Advanced R](https://adv-r.hadley.nz/)). If we simplify the concept, the `ggplot()` function saves the plotting function in themselves **plus** all of the object lying around where it's called, because they may be useful for the plot (which one are useful ggplot2 can't tell because remember that the plot is only really rendered when called).
+
+In our workflow example above, the size difference between both objects isn't much different, so it does not change the performance of the plot nor the total size taken by the saved targets workflow. However, with a real life example with many complex objects and many intermediate computations in the plotting function, it can increase loading and plotting times dramatically. So we need to think about solutions to circumvent the issue.
+
 
 ### Pros
 
@@ -160,11 +215,79 @@ The problem arises when you start having plots with a lot going on in the plot e
 
 * Increased saved object size (and thus workflow size)
 * If object is big, than slow to load
-* 
 
 
-## Second (partial) solution: transform ggplot2 objects into grobs using target hooks
+## Second (partial) solution: transform ggplot2 objects into `grObs` using target hooks
 
+My workflows started to grow big and the plots were slow, so I asked around to the targets community for a solution. While it was considered at one point to propose [a specific storage for ggplot2 object], the reliance of the objects on environments made it impossible to solve. These objects need to be stored including all of their environment.
+
+ggplot2 needs to render the plots when they are shown. This transformation relies on the framework of the `grid` package and the transformation of ggplot2 objects into `Grob` objects (short for **Gr**aphical **ob**jects). The plots then are purely graphical and contain no more the initial data nor the plotting environment. These objects are thus much lighter.
+
+So a natural idea would be to save, within the targets workflow, the ggplot2 plots as `Grobs` to keep only the information to the plots themselves and not the initial data. This can be done using the `ggplot2::ggplotGrob()` function.
+
+We can compare the size of the stored objects using our previous workflow and adding conversion to Grobs:
+
+```{r second-workflow}
+tar_script({
+  library("ggplot2")
+  library("targets")
+  
+  list(
+    tar_target(mtcars_df, mtcars),
+    tar_target(
+      simple_plot,
+      ggplot(mtcars_df, aes(cyl, mpg)) +
+        geom_point()
+    ),
+    tar_target(
+      complex_plot,
+      {
+        
+        # Add many useless manipulations here to mimick object creation
+        mtcars_df2 = mtcars_df
+        mtcars_df3 = rbind(mtcars_df, mtcars_df2)
+        mtcars_df4 = rbind(mtcars_df3, mtcars_df3)
+        
+        # Note how the code of the plot hasn't changed
+        ggplot(mtcars_df, aes(cyl, mpg)) +
+          geom_point()
+        
+      }
+    ),
+    tar_target(simple_grob, ggplotGrob(simple_plot)),
+    tar_target(complex_grob, ggplotGrob(complex_plot))
+  )
+}, ask = FALSE)
+
+# Run the workflow
+tar_make()
+```
+
+We added 2 new targets `simple_grob` and `complex_grob` that transform the previous plots into Grobs.
+
+If we compare their sizes now:
+
+```{r second-grob-sizes}
+lobstr::obj_size(tar_read(simple_grob))
+lobstr::obj_size(tar_read(complex_grob))
+```
+Both objects are more than twice as small as the original plot object, and now they are both of the same size! So this may seem like a solution to us.
+
+Let's check if we still can display them:
+
+```{r second-grob-failed-plot}
+tar_read(simple_grob)
+```
+
+This doesn't display a plot but shows us how the plot is stored as a `Grob` in the `grid` system. To display it we need to have a function that transform this object into an actual plot. For example, with the `grid::grid.draw()` function:
+
+```{r second-grob-plot}
+grid::grid.draw(tar_read(simple_grob))
+```
+
+We got our plot back! It is still resizable, can still be exported as a file through RStudio or graphical devices. However, as it's not a ggplot2 object anymore, we cannot tweak its theme nor use the `ggsave` function.
+
+If you have tens of plots, it maybe quite cumbersome to call `ggplot2::ggplotGrob()` at the end of all your plot functions. That's where someone in the community suggested using [`tarchetypes` hooks](). I wasn't aware at the time, but tarchetypes, which is an extension of targets to more easily generate a list of targets, has a system of "hooks" that can apply functions to your targets automatically (all or based on their names). These are accessible through the functions `tar_hook_before()`, `tar_hook_inner()`, and `tar_hook_outer()` in `tarchetypes`.
 Learnt about target hooks.
 
 But not recommended at all by ggplot2 folks. Risk of being very brittle. Didn't work as well. Was less clear to manipulate them.
@@ -235,6 +358,13 @@ We explored solutions to save ggplot2 objects in target workflows:
 
 ## Conclusion
 
+
+## Going Further
+
+* R environments, Advanced R
+* grid Grobs, ?
+* ggplot2 plotting system, ggplot2 vignette or blog?
+* targets serialization, targets book?
 
 ## Citation
 
