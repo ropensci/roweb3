@@ -1,15 +1,18 @@
 ---
+slug: "r-universe-stars-1-en"
 title: R community, exchange and learn
-author: Yanina Bellini Saibene, Alejandra Bellini, Lucio Casalla y Steffi LaZerte
+author:
+  - Yanina Bellini Saibene
+  - Alejandra Bellini
+  - Lucio Casalla  
+  - Steffi LaZerte
 date: '2022-11-22T00:00:01-07:00'
-slug: r-universe-stars-1-en
 tags:
   - community
-  - help
-  - beginner
-  - welcome
-featured: true
-description: "This is the first post of our interview series __"Meeting the stars of the R-universe"__. We begin our journey in _Argentina_  with a team that uses R and develops R packages in the Argentinean State." 
+  - r-universe
+  
+# The summary below will be used by e.g. Twitter cards
+description: "This is the first post of our interview series __"Meeting the stars of the R-universe"__. We begin our journey in _Argentina_  with a team that uses R and develops R packages in the Argentinean State."
 ---
 
 [Artículo en español](/blog/2022/11/22/r-universe-stars-1-es/)

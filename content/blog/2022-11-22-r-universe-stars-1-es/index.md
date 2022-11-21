@@ -11,7 +11,7 @@ tags:
   - español
   - spanish
 featured: true
-description: "" 
+description: "Esta es la primera entrega de nuestra serie de entrevistas __"Conciendo a las estrellas del universo R"__. Iniciamos nuestro recorrido en _Argentina_ y con un equipo que utiliza R y desarrolla paquetes de R en el estado Argentino." 
 ---
 
 [post in English](/blog/2022/11/22/r-universe-stars-1-en/)
