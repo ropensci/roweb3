@@ -10,6 +10,7 @@ date: '2022-11-22'
 tags:
   - community
   - r-universe
+  - interviews
 # The summary below will be used by e.g. Twitter cards
 description: "This is the first post of our interview series __\"Meeting the stars of the R-universe\"__. We begin our journey in _Argentina_ with a team that uses R and develops R packages in the Argentinean State."
 ---
