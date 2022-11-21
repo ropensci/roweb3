@@ -1,8 +1,8 @@
 ---
 title: Comunidad R, intercambiar y aprender
-author: Yanina Bellini Saibene, Alejandra Bellini y Lucio Casalla
-date: '2022-10-21T00:00:01-07:00'
-slug: r-universe-stars-1
+author: Yanina Bellini Saibene, Alejandra Bellini, Lucio Casalla y Steffi LaZerte
+date: '2022-11-22T00:00:01-07:00'
+slug: r-universe-stars-1-es
 tags:
   - community
   - help
