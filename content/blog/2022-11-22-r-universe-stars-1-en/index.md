@@ -8,13 +8,11 @@ tags:
   - help
   - beginner
   - welcome
-  - spanish
-  - español
 featured: true
 description: "This is the first post of our interview series __"Meeting the stars of the R-universe"__. We begin our journey in _Argentina_  with a team that uses R and develops R packages in the Argentinean State." 
 ---
 
-[Artículo en español](/blog/2022/10/21/r-universe-stars-1-es/)
+[Artículo en español](/blog/2022/11/22/r-universe-stars-1-es/)
 
 This is the first post of our interview series __"Meeting the stars of the R-universe"__. We begin our journey in _Argentina_  with a team that uses R and develops R packages in the Argentinean State.
 

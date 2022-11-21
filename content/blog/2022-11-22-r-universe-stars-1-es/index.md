@@ -14,7 +14,7 @@ featured: true
 description: "" 
 ---
 
-[post in English](/blog/2022/10/21/r-universe-stars-1-en/)
+[post in English](/blog/2022/11/22/r-universe-stars-1-en/)
 
 Esta es la primera entrega de nuestra serie de entrevistas __"Conciendo a las estrellas del universo R"__. Iniciamos nuestro recorrido en _Argentina_ y con un equipo que utiliza R y desarrolla paquetes de R en el estado Argentino.
 
@@ -78,7 +78,7 @@ Además suman dos objetivos importantes para todo el proceso: allanar el lenguaj
 
 Tanto Pablo como Juan Pablo coinciden en que el principal potencial de R-universe para la oficina es _poder alojar todos los paquetes que tienen en desarrollo._ Pablo lo define así: _“El principal uso que hoy le veo a priori es ser un gran armario en donde poner todas nuestras cajas de herramientas y que incluso también podamos mostrar eso (...) que tenemos un [armario de herramientas que tienen un sentido común y que tienen una filosofía común de trabajo también](https://dnme-minturdep.r-universe.dev/ui#packages)”_.
 
-El trabajo de Juan Pablo y de Pablo como el de R-universe se inscriben en un mundo que ha cambiado sus estructuras y tal como lo definen en la charla. En palabras de Pablo: _“Estamos en un mundo en donde la programación ya no es de programadores en término de quien estudió para eso estamos en un mundo en donde hay muchas personas que colaboran y quieren colaborar con solo una parte o un gramo”_.
+El trabajo de Juan Pablo y de Pablo como el de R-universe se inscriben en un mundo que ha cambiado sus estructuras y tal como lo definen en la charla. En palabras de Pablo: _“Estamos en un mundo en donde la programación ya no es de programadores en término de quien estudió para eso estamos en un mundo en donde hay muchas personas que colaboran y quieren colaborar con solo una parte o un granito de arena”_.
 
 Juan Pablo finaliza diciendo: _“Hay más barreras que se pueden seguir bajando y sobre todo para quienes no venimos de la programación, venimos de las ciencias sociales y empezamos a programar y empezamos a usar herramientas que nos facilitaron el trabajo. Ahí hay una instancia para facilitar aún más el trabajo que podemos escribir con la filosofía tidy con su manifiesto y que además lo podemos hacer en castellano”_. 
 
