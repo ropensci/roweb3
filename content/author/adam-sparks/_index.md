@@ -1,6 +1,6 @@
 ---
 name: Adam Sparks
 link: https://adamhsparks.netlify.com/
-twitter: adamhsparks
+mastodon: https://fosstodon.org/@adamhsparks
 github: adamhsparks
 ---

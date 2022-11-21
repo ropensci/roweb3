@@ -9,6 +9,7 @@
       "editor"
    ],
    "twitter": "_inundata",
+   "mastodon": "https://mastodon.social/@inundata",
    "github": "karthik",
    "home": "https://inundata.org/"
 },
@@ -61,6 +62,7 @@
       "staff"
    ],
    "twitter": "yabellini",
+   "mastodon": "https://fosstodon.org/@yabellini",
    "github": "yabellini",
    "home": "/author/yanina-bellini-saibene/"
 },
@@ -75,6 +77,7 @@
       "developer"
    ],
    "twitter": "bikesRdata",
+   "mastodon": "https://nerdculture.de/@mpadge",
    "github": "mpadge",
    "home": "/author/mark-padgham"
 },
@@ -89,6 +92,7 @@
       "editor"
    ],
    "twitter": "ma_salmon",
+   "mastodon": "https://mastodon.social/@maelle",
    "github": "maelle",
    "home": "/author/maëlle-salmon"
 },
@@ -102,6 +106,7 @@
       "editor"
    ],
    "twitter": "noamross",
+   "mastodon": "https://ecoevo.social/@noamross",
    "github": "noamross",
    "home": "/author/noam-ross"
 },
@@ -172,6 +177,7 @@
       "editor"
    ],
    "twitter": "annakrystalli",
+   "mastodon": "https://fosstodon.org/@annakrystalli",
    "github": "annakrystalli",
    "home": "https://annakrystalli.me/"
 },
@@ -207,6 +213,7 @@
       "editor"
    ],
    "twitter": "melvidoni",
+   "mastodon": "https://mastodon.social/@drmelvidoni",
    "github": "melvidoni",
    "home": "https://melvidoni.rbind.io/"
 },
@@ -230,7 +237,7 @@
    "roles": [
       "editor"
    ],
-   "twitter": "DeCiccoDonk",
+   "mastodon": "https://fosstodon.org/@ldecicco",
    "github": "ldecicco-USGS"
 },
 {
@@ -261,14 +268,14 @@
 },
 {
    "name": "Adam Sparks",
-   "url": "https://adamhsparks.com/",
+   "url": "https://adamhsparks.netlify.app/",
    "image" : "/img/team/adam-sparks.jpg",
 
    "affiliation" : "Department of Primary Industries and Regional Development",
    "roles": [
       "editor"
    ],
-   "twitter": "adamhsparks",
+   "mastodon": "https://fosstodon.org/@adamhsparks",
    "github": "adamhsparks",
    "home": "https://adamhsparks.com/"
 }, 
@@ -281,7 +288,7 @@
    "roles": [
       "editor"
    ],
-   "twitter": "jhollist",
+   "mastodon": "https://fosstodon.org/@jhollist",
    "github": "jhollist",
    "home": "https://jwhollister.com/"
 }, 

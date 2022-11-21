@@ -18,6 +18,7 @@
          {{ with .Params.link }}<a href="{{ . }}"><i class="fas fa-home"></i></a>{{ end }}
          {{ with .Params.orcid }}<a href="https://orcid.org/{{ . }}"><i class="fab fa-orcid"></i></a>{{ end }}
            {{ with .Params.twitter }}<a href="https://twitter.com/{{ . }}"> <i class="fab fa-twitter"></i></a>{{ end }}
+         {{ with .Params.mastodon }}<a rel="me" href="{{ . }}"><i class="fab fa-mastodon"></i></a>{{ end }}
           {{ with .Params.github }}<a href="https://github.com/{{ . }}"> <i class="fab fa-github"></i></a>{{ end }}
          {{ with .Params.gitlab }}<a href="https://gitlab.com/{{ . }}"><i class="fab fa-gitlab"></i></a>{{ end }}
          {{ with .Params.keybase }}<a href="https://keybase.io/{{ . }}"><i class="fab fa-keybase"></i></a>{{ end }}
