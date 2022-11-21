@@ -19,7 +19,7 @@ description: "This is the first post of our interview series __\"Meeting the sta
 This is the first post of our interview series __"Meeting the stars of the R-universe"__. We begin our journey in _Argentina_  with a team that uses R and develops R packages in the Argentinean State.
 
 
-## The experience of working with R packages in the Argentine state
+## Working with R packages in the Argentinian state
 
 For the last two years, [Juan Pablo Ruiz Nicolini](https://twitter.com/TuQmano) has been leading a team with R and the R community as a significant factor in its work. Therefore, when he was invited to join the Markets and Statistics Department of the National Ministry of Sports and Tourism, headed by Matías Lammens, he face a large volume of data and the possibility of using it for multiple purposes.
 
