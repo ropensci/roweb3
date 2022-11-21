@@ -20,7 +20,7 @@ This is the first post of our interview series __"Meeting the stars of the R-uni
 
 
 ## Working with R packages in the Argentinian state
-
+{{< figure src = "tq-picture.jpg" class = "pull-right" width = "300" alt = "Profile photo of Juan Pablo Ruiz Nicolini." caption = "<center><strong>Juan Pablo Ruiz Nicolini</strong><br>National Director of Markets and Statistics<br>of the vicesecretary of Strategic Development <br>of the Ministry of Tourism and Sports of the Nation</center>">}}
 For the last two years, [Juan Pablo Ruiz Nicolini](https://twitter.com/TuQmano) has been leading a team with R and the R community as a significant factor in its work. Therefore, when he was invited to join the Markets and Statistics Department of the National Ministry of Sports and Tourism, headed by Matías Lammens, he face a large volume of data and the possibility of using it for multiple purposes.
 
 {{< figure src = "TQPT.png" class = "center" width = "500" alt = "Profile photo of Juan Pablo Ruiz Nicolini and Pablo Tiscornia." caption = "__Juan Pablo Ruiz Nicolini__ - National Director of Markets and Statistics of the vicesecretary of Strategic Development of the Ministry of Tourism and Sports of the Nation. __Pablo Tiscornia__ - Coordinador de procesos - Ministerio de Deporte y Turismo de la Nación. National Markets and Statistics Division.">}}
