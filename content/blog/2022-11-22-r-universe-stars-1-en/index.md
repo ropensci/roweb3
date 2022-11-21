@@ -76,7 +76,7 @@ Pablo adds that developing packages was the logical next step of the process aft
 
 They also add two important objectives to the whole process: to smooth the language and make it accessible to all people, even those who do not necessarily come from programming backgrounds, and to _"develop the packages in Spanish as much as possible”_. The target was the same: _We couldn't get into thinking whether we know English, if we don't know English, or even how much English we know. We wanted to get that barrier out of the way._
 
-{{< figure src = "dnme-r-universe.png" class = "pull-right" width = "500" alt = "r-universe profile with SINTA's packages" >}}
+{{< figure src = "dnme-r-universe.png" class = "pull-right" width = "500" alt = "Screenshot of an R-Universe profile showing SINTA's packages" >}}
 
 
 Both Pablo and Juan Pablo agree that the main potential of R-universe for the office is _being able to host all the packages they have under development._ Pablo defines it like this: _“So it seems to me that the main use I see today, a priori, is to be a great place where we can put all of our toolboxes and we can even show our packages as well. [We have a place with our tools that are consistent with each other, that has a common philosophy of work](https://dnme-minturdep.r-universe.dev/ui#packages)”_.
