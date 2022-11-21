@@ -48,7 +48,7 @@ _Tucu_ gives as an example the _Thursday meeting_ where they show and share thei
 In addition to the free nature of open source software and the importance of resource management for a State, Pablo Tiscornia explains what appears almost as a declaration of principles: _“It is a work philosophy, and an idea about how we develop and promote knowledge. I think what we can give, today to the State, is thanks to free software. So, it would be almost irresponsible not to promote what formed us.”_
 
 Juan Pablo reinforces the idea with his personal experience: _“I was a master's thesis student in political science and seven years ago I forced myself to do my thesis in R in order to learn (...) and what I quickly found, luckily, was the R community.”._
-
+> "and what I quickly found, luckily, was the R community"
 __Exchanging with the community and learning from the community seems to be the main mantra of the R community that both Tucu and Pablo share with the team.__
 
 
