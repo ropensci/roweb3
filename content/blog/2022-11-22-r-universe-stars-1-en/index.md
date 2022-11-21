@@ -1,6 +1,6 @@
 ---
 slug: "r-universe-stars-1-en"
-title: R Community,Exchange and Learn
+title: Meeting the stars of the R-universe: R Community, Exchange and Learn
 author:
   - Yanina Bellini Saibene
   - Alejandra Bellini
