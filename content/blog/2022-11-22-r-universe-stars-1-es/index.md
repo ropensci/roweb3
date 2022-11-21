@@ -1,7 +1,7 @@
 ---
 title: Comunidad R, intercambiar y aprender
 author: Yanina Bellini Saibene, Alejandra Bellini, Lucio Casalla y Steffi LaZerte
-date: '2022-11-22T00:00:01-07:00'
+date: '2022-11-22'
 slug: r-universe-stars-1-es
 tags:
   - community
@@ -11,7 +11,7 @@ tags:
   - español
   - spanish
 featured: true
-description: "Esta es la primera entrega de nuestra serie de entrevistas __"Conciendo a las estrellas del universo R"__. Iniciamos nuestro recorrido en _Argentina_ y con un equipo que utiliza R y desarrolla paquetes de R en el estado Argentino." 
+description: "Esta es la primera entrega de nuestra serie de entrevistas __\"Conciendo a las estrellas del universo R\"__. Iniciamos nuestro recorrido en _Argentina_ y con un equipo que utiliza R y desarrolla paquetes de R en el estado Argentino." 
 ---
 
 [post in English](/blog/2022/11/22/r-universe-stars-1-en/)
