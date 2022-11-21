@@ -1,6 +1,6 @@
 ---
 title: R community, exchange and learn
-author: Yanina Bellini Saibene, Alejandra Bellini y Lucio Casalla
+author: Yanina Bellini Saibene, Alejandra Bellini, Lucio Casalla y Steffi LaZerte
 date: '2022-10-21T00:00:01-07:00'
 slug: r-universe-stars-1-en
 tags:
@@ -68,8 +68,9 @@ Those audiences include academics (people who research and teach) and government
 
 The concept of community is closely related to social and communication networks, and it was precisely Twitter that first brought Juan Pablo closer to [R-universe](https://r-universe.dev/search/) where he discovered [the step-by-step on how to build his own R universe.](https://ropensci.org/blog/2021/09/21/creando-tu-r-universe/).
 
-_“El paso medio lógico en esto de estar compartiendo las cosas que estamos haciendo hacia fuera, era poder disponibilizar también a los paquetes que están en nuestro GitHub, es poder abrir nuestro pequeño mercadito (...) y R-universe sirve para compartir ahí las librerías que estamos empezando a armar”_, así explica el _Tucu_ el primer uso que le dieron a la plataforma y agrega: _“Lo que me parece espectacular, es cómo se va modificando en el tiempo, lo completo que es la manera de visualizar todo el desarrollo que uno está compartiendo en R-universe”_.
-Pablo agrega que fue parte del proceso donde se presentó casi de manera lógica después de la capacitación y de la incorporación del lenguaje R a la oficina, empezar a desarrollar paquetes: _“Armamos, por un lado, las herramientas que nos mejoraban el flujo de trabajo, el paquete {herramientas}. Y por el otro, el paquete de {comunicación} donde la idea era principalmente y hoy todavía sigue siendo, mejorar el flujo de trabajo de nuestro equipo, de nuestro día a día”_.
+_“It is the logical next place to share the things that we're doing openly, to make the packages in our GitHub available. It is possible to open up our little marketplace,our mini CRAN, in R-Universe, to share the libraries that we're starting to develop.”_, this is how the _Tucu_ explains the first use of the platform and adds: _“to me it looks spectacular, as I see how it is changing over time, how comprehensive it is, the way one can visualize all the development that one is sharing in the R-Universe”_.
+
+Pablo adds that developing packages was the logical next step of the process after the training and the incorporation of the R language in the office: _“we put together, on the one hand, the toolswith which we improve our workflow, the package {Herramientas}, and on the other hand, the package {Comunicación}, that the idea was mainly, and still is today, mainly to improve the workflow of our team, our day-to-day work.”_.
 
 They also add two important objectives to the whole process: to smooth the language and make it accessible to all people, even those who do not necessarily come from programming backgrounds, and to develop the packages. _“lo más en castellano posible que se pueda”_. El objetivo era el mismo: _no tener que pensar si el equipo sabe o no inglés o si el idioma se transforma en una barrera para realizar el trabajo._
 
