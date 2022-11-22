@@ -92,6 +92,8 @@ Juan Pablo concludes by saying: _“There are more barriers that can be lowered,
 
 ## Video of the interview
 
+If you want to hear more details about the experience, be sure to watch the protagonists in the video with excerpts from the interview. You can activate the subtitles in English and Spanish.
+
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://player.vimeo.com/video/759138370?h=b3116c79b8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="Entrevista a Juan Pablo y Pablo></iframe>
 </div>
