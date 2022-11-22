@@ -75,7 +75,7 @@ Those audiences include academics (people who research and teach) and government
 
 ## The R-Universe experience
 
-The concept of community is closely related to social and communication networks, and it was precisely Twitter that first brought Juan Pablo closer to [R-universe](https://r-universe.dev/search/) where he discovered [the step-by-step on how to build his own R universe.](/blog/2021/09/21/creando-tu-r-universe/).
+The concept of community is closely related to social and communication networks, and it was precisely Twitter that first brought Juan Pablo closer to the [R-Universe](https://r-universe.dev/search/) where he discovered [step-by-step instructions on how to build his own R universe](/blog/2021/09/21/creando-tu-r-universe/).
 
 _“It is the logical next place to share the things that we're doing openly, to make the packages in our GitHub available. It is possible to open up our little marketplace,our mini CRAN, in R-Universe, to share the libraries that we're starting to develop.”_, this is how the _Tucu_ explains the first use of the platform and adds: _“to me it looks spectacular, as I see how it is changing over time, how comprehensive it is, the way one can visualize all the development that one is sharing in the R-Universe”_.
 
