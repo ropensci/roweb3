@@ -85,7 +85,7 @@ Both Pablo and Juan Pablo agree that the main potential of R-universe for the of
 
 The work of Juan Pablo and Pablo as well as that of R-universe are inscribed in a world that has changed its structures and as they define it in the talk. In Pablo's words: _“We are in a world where programming is no longer for programmers in terms of who studied for it, we are in a world where there are many people who collaborate and want to collaborate even with only one little piece.”_.
 
-Juan Pablo concludes by saying: _“There are more barriers that can be lowered, especially for those of us who do not come from programming, we come from the social sciences and began to program and started using tools that made our work easier. There is an instance to facilitate even more the work that we can write with the tidy philosophy with its manifesto and that "we can also do it in Spanish."_. 
+Juan Pablo concludes by saying: _“There are more barriers that can be lowered, especially for those of us who do not come from programming, we come from the social sciences and began to program and started using tools that made our work easier"_  and importantly, _"we can also do it in Spanish."_ 
 
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
