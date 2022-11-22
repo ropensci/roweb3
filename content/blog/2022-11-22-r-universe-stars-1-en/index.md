@@ -67,7 +67,7 @@ The work developed by this office serves a many different audiences.
 
 Today they have a site called [SINTA (Sistema de Información Turístico de la Argentina)](https://www.yvera.tur.ar/sinta/) where the _"different ways of accessing information"_ are present in an organized fashion. Juan Pablo explains that _"the work was to develop tools. R has much to do with this, bringing the information closer to different audiences."_
 
-Those audiences include academics (people who research and teach) and government. So, for example, different offices at different levels of the State need the data, and the office they work for that uses the information for decision-making and public policy setting. Also, all the people that want to interact with the information in the open data portal.
+Those audiences include academics (people who research and teach) and government. For example, offices at different levels of the State can use the information for decision-making and setting public policy. As this is an open data portal, the information is also available to anyone else who wants to interact with it.
 
 
 </br>
