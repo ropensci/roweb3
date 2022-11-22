@@ -53,7 +53,7 @@ In addition to the free nature of open source software and the importance of res
 
 Juan Pablo reinforces the idea with his personal experience: _“I was a master's thesis student in political science and seven years ago I forced myself to do my thesis in R in order to learn (...) and what I quickly found, luckily, was the R community.”._
 
-> "and what I quickly found, luckily, was the R community"
+> and what I quickly found, luckily, was the R community"
 __Exchanging with the community and learning from the community seems to be the main mantra of the R community that both Tucu and Pablo share with the team.__
 
 
@@ -90,6 +90,7 @@ The work of Juan Pablo and Pablo as well as that of R-universe are inscribed in 
 
 Juan Pablo concludes by saying: _“There are more barriers that can be lowered, especially for those of us who do not come from programming, we come from the social sciences and began to program and started using tools that made our work easier"_  and importantly, _"we can also do it in Spanish."_ 
 
+## Video of the interview
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://player.vimeo.com/video/759138370?h=b3116c79b8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="Entrevista a Juan Pablo y Pablo></iframe>
