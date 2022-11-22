@@ -29,7 +29,7 @@ Two years ago, [Juan Pablo Ruiz Nicolini](https://twitter.com/TuQmano) (also kno
 
 The team is large in comparison with other similar government agencies and with permanent large-scale projects such as those developed in conjunction with INDEC (National Institute of Statistics and Census of Argentina).
 
-_“There is a large amount of work and information available and when we started our review we found that there was a lot of great stuff, a lot of data, a lot of processes.(...) there was a lot of room to take advantage of all the information that was living inside the computers of the teams working in our office.”_, This is how Juan Pablo explains the challenge and the opportunity that joining this office represented. The idea was also to be able to share all the information externally and with accessible processes for different audiences.
+_“There is a large amount of work and information available and when we started our review we found that there was a lot of great stuff, a lot of data, a lot of processes(...) there was a lot of room to take advantage of all the information that was living inside the computers of the teams working in our office.”_ This is how Juan Pablo explains the challenge and the opportunity that joining this office represented. Their goals were to collect this information and also to be able to share it externally and accessibly with different audiences.
 
 
 From the beginning, the process involved several steps. First they made the decision that R packages and open source software were the way to go. Then came the internal training stage. 
