@@ -88,7 +88,7 @@ They also add two important objectives to the whole process: to smooth the langu
 
 Both Pablo and Juan Pablo agree that the main benefit of the R-Universe to their office is being able to host all the packages they have under development. Pablo describes the R-Universe as _"a great place where we can put all of our toolboxes and we can even show our packages as well. We have a [place](https://dnme-minturdep.r-universe.dev/ui#packages) with our tools that are consistent with each other, that have a common philosophy of work.”_
 
-The work of Juan Pablo and Pablo as well as that of R-universe are inscribed in a world that has changed its structures and as they define it in the talk. In Pablo's words: _“We are in a world where programming is no longer for programmers in terms of who studied for it, we are in a world where there are many people who collaborate and want to collaborate even with only one little piece.”_.
+The work of Juan Pablo and Pablo as well as that of the R-Universe are in a world that has changed how programming is used. In Pablo's words: _“We are in a world where programming is no longer for programmers in terms of who studied for it, we are in a world where there are many people who collaborate and want to collaborate even with only one little piece.”_
 
 Juan Pablo concludes by saying: _“There are more barriers that can be lowered, especially for those of us who do not come from programming, we come from the social sciences and began to program and started using tools that made our work easier"_  and importantly, _"we can also do it in Spanish."_ 
 
