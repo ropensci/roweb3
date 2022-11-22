@@ -15,7 +15,9 @@ tags:
 description: "This is the first post of our interview series __\"Meeting the stars of the R-universe\"__. We begin our journey in _Argentina_ with a team that uses R and develops R packages in the Argentinean State."
 ---
 
-> [Lee la versión en español de este artículo](/blog/2022/11/22/r-universe-stars-1-es/)
+<div class="alert alert-info" role="alert">
+<a href="/blog/2022/11/22/r-universe-stars-1-es/" target="_blank">Lee la versión en español de este artículo</a>
+</div>
 
 This is the first post of our interview series __"Meeting the stars of the R-universe"__. We aim to share with the community the working groups and people behind the development of the software and packages that many of us use and that are available in _r-universe_.  We want to show and know different projects around the world, the work they do, their processes and users. We begin our journey in _Argentina_  with a team that uses R and develops R packages in the Argentinean State (be sure to watch the video with excerpts from the interview).
 
