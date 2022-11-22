@@ -40,7 +40,7 @@ From the beginning, the process involved several steps. First they made the deci
 
 At this stage, their objective was achieved: the team learned the tool and the work dynamics that they had defined as the most appropriate.
 
-The second step was to _"open the process"_ as well as _"improve the workflow"_. Pablo explains that they also incorporated the _"dynamics of an open State, open our process, not hiding how we do our work."_. A concept that in the future will also include the possibility of receiving contributions from the community and or our code to be reviewed.
+The second step was to _"open the process"_ as well as to _"improve the workflow"_. Pablo explains that they also incorporated the _"dynamics of an open State"_ by _"[opening] our process, not hiding how we do our work."_ It is hoped that the future will also include the opportunity to receive contributions from the community and for their code to be reviewed by others.
 
 As all processes are complex and many of them involve simultaneous and even "chaotic" steps, as _Tucu_ describes, where different people with diverse knowledge contributed to the design of the projects that are currently under development.
 
