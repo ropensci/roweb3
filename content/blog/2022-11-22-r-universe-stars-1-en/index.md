@@ -42,7 +42,7 @@ At this stage, their objective was achieved: the team learned the tool and the w
 
 The second step was to _"open the process"_ as well as to _"improve the workflow"_. Pablo explains that they also incorporated the _"dynamics of an open State"_ by _"[opening] our process, not hiding how we do our work."_ It is hoped that the future will also include the opportunity to receive contributions from the community and for their code to be reviewed by others.
 
-As all processes are complex and many of them involve simultaneous and even "chaotic" steps, as _Tucu_ describes, where different people with diverse knowledge contributed to the design of the projects that are currently under development.
+All processes are complex and many of them involve simultaneous and even "chaotic" steps, as _Tucu_ describes. These involve different people with diverse knowledge contributing to the design of the projects that are currently under development.
 
 _Tucu_ gives as an example the _Thursday meeting_ where they show and share their codes so that other people can use them in other parts of the process: _"We do live coding where we raise doubts and do exercises (...) we try to generate a dynamic in which we share in a ludic way, sometimes showing each part and what they are doing to be shared with others."_
 
