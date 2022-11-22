@@ -63,7 +63,7 @@ __Exchanging with the community and learning from the community seems to be the 
 
 The work developed by this office serves a many different audiences.
 
-{{< figure src = "sinta.png" class = "pull-left" width = "380" alt = "SINTA system home page with access to its open datasets." >}}
+{{< figure src = "sinta.png" class = "pull-left" width = "380" alt = "Screenshot of the SINTA system home page showing access to its open datasets." >}}
 
 Today they have a site called [SINTA (Sistema de Información Turístico de la Argentina)](https://www.yvera.tur.ar/sinta/) where they present in an orderly fashion the _"different ways of accessing information"_. Juan Pablo explains that _"the work was to develop tools. R has much to do with this, bringing the information closer to different audiences"_.
 
