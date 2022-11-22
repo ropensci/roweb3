@@ -61,7 +61,7 @@ __Exchanging with the community and learning from the community seems to be the 
 
 ## A work for the community
 
-The audiences that receive the work developed in the office are multiple.
+The work developed by this office serves a many different audiences.
 
 {{< figure src = "sinta.png" class = "pull-left" width = "380" alt = "SINTA system home page with access to its open datasets." >}}
 
