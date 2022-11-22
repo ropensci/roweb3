@@ -26,7 +26,7 @@ Esta es la primera entrega de nuestra serie de entrevistas __"Conciendo a las es
 
 Hace dos años, [Juan Pablo Ruiz Nicolini](https://twitter.com/TuQmano) (también conocido como _Tucu_) fue invitado a formar parte de la Dirección de Mercados y Estadística del Ministerio de Deporte y Turismo de la Nación, a cargo de Matías Lammens. Como parte de su trabajo, Juan Pablo dirige un equipo que gestiona un gran volumen de datos y con posibilidades de utilizar esos datos con múltiples objetivos y por estas razones tienen a R y a la comunidad de R como un actor sumamente importante en su trabajo.
 
-{{< figure src = "tq-picture.jpg" class = "pull-right" width = "300" alt = "Foto de perfil de Juan Pablo Ruiz Nicolini." caption = "<center><strong>Juan Pablo Ruiz Nicolini</strong><br>Director Nacional de Mercados y Estadísticas de la Subsecretaría de Desarrollo Estratégico del <br>Ministerio de Turismo y Deportes de la Nación.</center>">}}
+{{< figure src = "tq-picture.jpg" class = "pull-right" width = "300" alt = "Foto de perfil de Juan Pablo Ruiz Nicolini." caption = "<center><strong>Juan Pablo Ruiz Nicolini</strong><br>Director Nacional de Mercados y Estadísticas <br>de la Subsecretaría de Desarrollo Estratégico del <br>Ministerio de Turismo y Deportes de la Nación.</center>">}}
 
 El equipo de trabajo con el que cuentan es grande en comparación con otras reparticiones del Estado similares y con proyectos permanentes de gran envergadura como los que desarrollan en conjunto con el INDEC (Instituto Nacional de Estadísticas y Censos de la Argentina).
 
@@ -36,7 +36,7 @@ La idea además era poder compartir toda es información hacia afuera y con proc
 
 Desde un comienzo, el proceso incluyó varios pasos. Primero tomaron la decisión de que los paquetes de R y el software libre eran el camino. Después vino la etapa de la capacitación interna. 
 
-{{< figure src = "pablo-picture.jpeg" class = "pull-left" width = "300" alt = "Foto de perfil de Pablo Tiscornia." caption = "<center><strong>Pablo Tiscornia</strong><br>Coordinador de procesos.<br>Ministerio de Turismo y Deportes de la Nación. Dirección Nacional de Mercados y Estadísticas.</center>">}}
+{{< figure src = "pablo-picture.jpeg" class = "pull-left" width = "300" alt = "Foto de perfil de Pablo Tiscornia." caption = "<center><strong>Pablo Tiscornia</strong><br>Coordinador de procesos.<br>Ministerio de Turismo y Deportes de la Nación. <br>Dirección Nacional de Mercados y Estadísticas.</center>">}}
 
 
 [Pablo Tiscornia](https://twitter.com/pabblo_h) forma parte del equipo de Juan Pablo o _el Tucu_ -así es como lo conocen a Juan Pablo Ruiz Nicolini-  y explica que el punto de partida del trabajo, en una oficina que hasta hace poco tiempo combinaba procesos manuales y casi todo estaba en software propietario, fue la filosofía del software libre suamda a todo lo que comunidad de R venía ofreciendo en la región. Tanto Pablo como el Tucu se encontraron con un equipo de 17 personas aproximadamente que trabajaban de alguna manera con procesamiento de datos y que todos estaban muy involucrados con los procesos: _“Primero, necesitábamos resolver una dinámica de trabajo interna (...) había mucho para hacer y hoy, creo que de esas 17 personas, 15, 14 todas saben abrir R, saben armar un Script y saben involucrarse en el proceso de trabajo que definimos desde que se tiene un dato hasta que se lo comunica al final.”_
@@ -53,6 +53,8 @@ El _Tucu_ pone como ejemplo la _reunión de los jueves_ donde muestran y compart
 
 Además de la gratuidad del software libre y de la importancia del manejo de los recursos para un estado, Pablo Tiscornia explica lo que aparece casi como una declaración de principios: _“Es una filosofía de trabajo y de concepción sobre cómo desarrollamos y promovemos el conocimiento. Creo que somos gracias al software libre, lo que hoy podemos darle al estado entonces sería casi un acto irresponsable no promover lo que a nosotros nos formó.”_
 Juan Pablo refuerza la idea con su experiencia personal: _“Yo era un tesista de maestría en ciencias políticas y hace siete años me obligué a hacer la tesis en R para aprender (...) y lo que rápidamente encontré, por suerte, fue la comunidad de R”._
+
+> y lo que rápidamente encontré, por suerte, fue la comunidad de R”
 __Intercambiar con la comunidad y aprender de la comunidad parece ser el mantra principal de la comunidad R que tanto el Tucu como Pablo comparten con el equipo.__
 
 
