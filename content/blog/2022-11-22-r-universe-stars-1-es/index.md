@@ -20,7 +20,7 @@ description: "Esta es la primera entrega de nuestra serie de entrevistas __\"Con
 
 > [See the English version of this blog post](/blog/2022/11/22/r-universe-stars-1-en/)
 
-Esta es la primera entrega de nuestra serie de entrevistas __"Conciendo a las estrellas del universo R"__. Tenemos como objetivo compartir con la comunidad los grupos de trabajo y las personas que están detrás del desarrollo del software y paquetes que muchos utilizamos y que se encuentran disponibles en _r-universe_.  Queremos mostrar y conocer diferentes proyectos alrededor del mundo, el trabajo que hacen, sus procesos y usuarios. Iniciamos nuestro recorrido en _Argentina_ y con un equipo que utiliza R y desarrolla paquetes de R en el estado Argentino.
+Esta es la primera entrega de nuestra serie de entrevistas __"Conciendo a las estrellas del universo R"__. Tenemos como objetivo compartir con la comunidad los grupos de trabajo y las personas que están detrás del desarrollo del software y paquetes que muchos utilizamos y que se encuentran disponibles en _r-universe_.  Queremos mostrar y conocer diferentes proyectos alrededor del mundo, el trabajo que hacen, sus procesos y usuarios. Iniciamos nuestro recorrido en _Argentina_ y con un equipo que utiliza R y desarrolla paquetes de R en el estado Argentino (no deje de ver el vídeo con extractos de la entrevista).
 
 ## La experiencia de trabajar con paquetes de R en el estado argentino
 

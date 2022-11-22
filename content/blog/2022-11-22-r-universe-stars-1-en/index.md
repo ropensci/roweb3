@@ -17,7 +17,7 @@ description: "This is the first post of our interview series __\"Meeting the sta
 
 > [Lee la versión en español de este artículo](/blog/2022/11/22/r-universe-stars-1-es/)
 
-This is the first post of our interview series __"Meeting the stars of the R-universe"__. We aim to share with the community the working groups and people behind the development of the software and packages that many of us use and that are available in _r-universe_.  We want to show and know different projects around the world, the work they do, their processes and users. We begin our journey in _Argentina_  with a team that uses R and develops R packages in the Argentinean State.
+This is the first post of our interview series __"Meeting the stars of the R-universe"__. We aim to share with the community the working groups and people behind the development of the software and packages that many of us use and that are available in _r-universe_.  We want to show and know different projects around the world, the work they do, their processes and users. We begin our journey in _Argentina_  with a team that uses R and develops R packages in the Argentinean State (be sure to watch the video with excerpts from the interview).
 
 
 ## Working with R packages in the Argentinian state
@@ -34,7 +34,7 @@ _“There is a large amount of work and information available and when we starte
 
 From the beginning, the process involved several steps. First they made the decision that R packages and open source software were the way to go. Then came the internal training stage. 
 
-{{< figure src = "pablo-picture.jpeg" class = "pull-left" width = "300" alt = "Profile picture of Pablo Tiscornia." caption = "<center><strong>Pablo Tiscornia</strong><br>Process coordinator.<br>Ministry of Tourism and Sports of the Nation. National Office of Markets and Statistics</center>">}}
+{{< figure src = "pablo-picture.jpeg" class = "pull-left" width = "300" alt = "Profile picture of Pablo Tiscornia." caption = "<center><strong>Pablo Tiscornia</strong><br>Process coordinator.<br>Ministry of Tourism and Sports of the Nation. <br>National Office of Markets and Statistics</center>">}}
 
 [Pablo Tiscornia](https://twitter.com/pabblo_h) is part of Juan Pablo's team or _el Tucu_ -that's how Juan Pablo Ruiz Nicolini is known- and explains that the starting point of their working is use everything that the R community had been offering and the free software philosophy.  Until now the work in the office combined manual processes and almost everything was in proprietary software. Pablo and Tucu met with a team of approximately 17 people who worked in some way with data processing and who were all very involved with the processes: _“first we needed to solve an internal work dynamic (...) there was a lot to do. Today I think out of those 17 people 15, 14 all of them know how to open R, they know how to put together a script and they know how they want to be involved in the process we define. From the moment you have a piece of data until you communicate at the end.”_
 
