@@ -19,7 +19,7 @@ description: "This is the first post of our interview series __\"Meeting the sta
 <a href="/blog/2022/11/22/r-universe-stars-1-es/" target="_blank">Lee la versión en español de este artículo</a>
 </div>
 
-This is the first post of our interview series __"Meeting the stars of the R-universe"__. We aim to share with the community the working groups and people behind the development of the software and packages that many of us use and that are available in _r-universe_.  We want to show and know different projects around the world, the work they do, their processes and users. We begin our journey in _Argentina_  with a team that uses R and develops R packages in the Argentinean State (be sure to watch the video with excerpts from the interview).
+This is the first post of our interview series __"Meeting the stars of the R-universe"__. We aim to introduce the working groups and people behind the development of software and packages many of us use and which are available through the _R-Universe_.  We want to highlight and explore different teams and projects around the world, the work they do, their processes and users. We begin our journey in _Argentina_  with a team that uses R and develops R packages for the Argentinean State. Be sure to watch the [video](#video-of-the-interview) at the end with excerpts from the interview.
 
 
 ## Working with R packages in the Argentinian state
@@ -56,7 +56,7 @@ In addition to the free nature of open source software and the importance of res
 Juan Pablo reinforces the idea with his personal experience: _“I was a master's thesis student in political science and seven years ago I forced myself to do my thesis in R in order to learn (...) and what I quickly found, luckily, was the R community.”_
 
 > and what I quickly found, luckily, was the R community"
-__Exchanging with the community and learning from the community seems to be the main mantra of the R community that both Tucu and Pablo share with the team.__
+__"Exchange with the R community and learn from the R community" seems to be the main mantra that both _Tucu_ and Pablo share with the team.__
 
 
 ## A work for the community
@@ -81,7 +81,7 @@ _“It is the logical next place to share the things that we're doing openly, to
 
 Pablo adds that developing packages was the logical next step of the process after incorporating the R language and training: _“we put together, on the one hand, the tools with which we improve our workflow, the package {Herramientas}, and on the other hand, the package {Comunicación}, that the idea was mainly, and still is today, mainly to improve the workflow of our team, our day-to-day work.”_
 
-They also add two important objectives to the whole process: to smooth the language and make it accessible to all people, even those who do not necessarily come from programming backgrounds, and to _"develop the packages in Spanish as much as possible”_. The target was the same: _We couldn't get into thinking whether we know English, if we don't know English, or even how much English we know. We wanted to get that barrier out of the way._
+They also add two important objectives to the whole process: to smooth the language and make it accessible to all people, even those who do not necessarily come from programming backgrounds, and to _"develop the packages in Spanish as much as possible”_. This helped reduce barriers for the team: _"We couldn't get into thinking whether we know English, if we don't know English, or even how much English we know. We wanted to get that barrier out of the way."_
 
 {{< figure src = "dnme-r-universe.png" class = "pull-right" width = "500" alt = "Screenshot of an R-Universe profile showing SINTA's packages" >}}
 
