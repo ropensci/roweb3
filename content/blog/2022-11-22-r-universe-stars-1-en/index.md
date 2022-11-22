@@ -73,7 +73,7 @@ Those audiences include academics (people who research and teach) and government
 </br>
 
 
-## The R-universe experience
+## The R-Universe experience
 
 The concept of community is closely related to social and communication networks, and it was precisely Twitter that first brought Juan Pablo closer to [R-universe](https://r-universe.dev/search/) where he discovered [the step-by-step on how to build his own R universe.](/blog/2021/09/21/creando-tu-r-universe/).
 
