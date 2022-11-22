@@ -26,7 +26,6 @@ Two years ago, [Juan Pablo Ruiz Nicolini](https://twitter.com/TuQmano) (also kno
 
 [^1]:National Director of Markets and Statistics of the vicesecretary of Strategic Development of the Ministry of Tourism and Sports of the Nation.
 
-{{< figure src = "TQPT.png" class = "center" width = "500" alt = "Profile photo of Juan Pablo Ruiz Nicolini and Pablo Tiscornia." caption = "__Juan Pablo Ruiz Nicolini__ - National Director of Markets and Statistics of the vicesecretary of Strategic Development of the Ministry of Tourism and Sports of the Nation. __Pablo Tiscornia__ - Coordinador de procesos - Ministerio de Deporte y Turismo de la Nación. National Markets and Statistics Division.">}}
 
 The team is large in comparison with other similar government agencies and with permanent large-scale projects such as those developed in conjunction with INDEC (National Institute of Statistics and Census of Argentina).
 
