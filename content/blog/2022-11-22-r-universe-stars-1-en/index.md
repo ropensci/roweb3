@@ -46,7 +46,7 @@ The second step was to _"open the process"_ as well as to _"improve the workflow
 
 All processes are complex and many of them involve simultaneous and even "chaotic" steps, as _Tucu_ describes. These involve different people with diverse knowledge contributing to the design of the projects that are currently under development.
 
-_Tucu_ gives as an example the _Thursday meeting_ where they show and share their codes so that other people can use them in other parts of the process: _"We do live coding where we raise doubts and do exercises (...) we try to generate a dynamic in which we share in a ludic way, sometimes showing each part and what they are doing to be shared with others."_
+To integrate these different elements, _Tucu_ gives as an example the _Thursday meeting_. There, they show and share their code so that others can use them in different parts of the process. _"We do live coding where we raise doubts and do exercises (...) we try to generate a dynamic in which we share in a playful way, sometimes showing each part and what they are doing to be shared with others."_
 
 
 ## Free software and in our language
