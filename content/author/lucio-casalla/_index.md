@@ -1,8 +1,5 @@
 ---
 name: Lucio Casalla
-link: 
 bio:  Audiovisual Communication
-twitter: 
-github: 
-orcid: 
+img: img/community/lucio-casalla.JPG
 ---
