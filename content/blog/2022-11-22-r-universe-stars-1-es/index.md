@@ -2,7 +2,7 @@
 title: "Conciendo a las estrellas del universo R: comunidad R, intercambiar y aprender"
 author: 
 - Yanina Bellini Saibene
-- Alejandra Bellini, 
+- Alejandra Bellini 
 - Lucio Casalla 
 - Steffi LaZerte
 date: '2022-11-22'
@@ -18,9 +18,9 @@ featured: true
 description: "Esta es la primera entrega de nuestra serie de entrevistas __\"Conciendo a las estrellas del universo R\"__. Iniciamos nuestro recorrido en _Argentina_ y con un equipo que utiliza R y desarrolla paquetes de R en el estado Argentino." 
 ---
 
-> [See the English version of this blog post:](/blog/2022/11/22/r-universe-stars-1-en/)
+> [See the English version of this blog post](/blog/2022/11/22/r-universe-stars-1-en/)
 
-Esta es la primera entrega de nuestra serie de entrevistas __"Conciendo a las estrellas del universo R"__. Iniciamos nuestro recorrido en _Argentina_ y con un equipo que utiliza R y desarrolla paquetes de R en el estado Argentino.
+Esta es la primera entrega de nuestra serie de entrevistas __"Conciendo a las estrellas del universo R"__. Tenemos como objetivo compartir con la comunidad los grupos de trabajo y las personas que están detrás del desarrollo del software y paquetes que muchos utilizamos y que se encuentran disponibles en _r-universe_.  Queremos mostrar y conocer diferentes proyectos alrededor del mundo, el trabajo que hacen, sus procesos y usuarios. Iniciamos nuestro recorrido en _Argentina_ y con un equipo que utiliza R y desarrolla paquetes de R en el estado Argentino.
 
 ## La experiencia de trabajar con paquetes de R en el estado argentino
 
@@ -36,7 +36,7 @@ La idea además era poder compartir toda es información hacia afuera y con proc
 
 Desde un comienzo, el proceso incluyó varios pasos. Primero tomaron la decisión de que los paquetes de R y el software libre eran el camino. Después vino la etapa de la capacitación interna. 
 
-{{< figure src = "pablo-picture.jpg" class = "pull-right" width = "300" alt = "Foto de perfil de Pablo Tiscornia." caption = "<center><strong>Pablo Tiscornia</strong><br>Coordinador de procesos.<br>Ministerio de Turismo y Deportes de la Nación. Dirección Nacional de Mercados y Estadísticas.</center>">}}
+{{< figure src = "pablo-picture.jpeg" class = "pull-left" width = "300" alt = "Foto de perfil de Pablo Tiscornia." caption = "<center><strong>Pablo Tiscornia</strong><br>Coordinador de procesos.<br>Ministerio de Turismo y Deportes de la Nación. Dirección Nacional de Mercados y Estadísticas.</center>">}}
 
 
 [Pablo Tiscornia](https://twitter.com/pabblo_h) forma parte del equipo de Juan Pablo o _el Tucu_ -así es como lo conocen a Juan Pablo Ruiz Nicolini-  y explica que el punto de partida del trabajo, en una oficina que hasta hace poco tiempo combinaba procesos manuales y casi todo estaba en software propietario, fue la filosofía del software libre suamda a todo lo que comunidad de R venía ofreciendo en la región. Tanto Pablo como el Tucu se encontraron con un equipo de 17 personas aproximadamente que trabajaban de alguna manera con procesamiento de datos y que todos estaban muy involucrados con los procesos: _“Primero, necesitábamos resolver una dinámica de trabajo interna (...) había mucho para hacer y hoy, creo que de esas 17 personas, 15, 14 todas saben abrir R, saben armar un Script y saben involucrarse en el proceso de trabajo que definimos desde que se tiene un dato hasta que se lo comunica al final.”_
@@ -89,6 +89,7 @@ El trabajo de Juan Pablo y de Pablo como el de R-universe se inscriben en un mun
 
 Juan Pablo finaliza diciendo: _“Hay más barreras que se pueden seguir bajando y sobre todo para quienes no venimos de la programación, venimos de las ciencias sociales y empezamos a programar y empezamos a usar herramientas que nos facilitaron el trabajo."_ y lo más importante, _"que además lo podemos hacer en castellano”_. 
 
+## Video de la entrevista
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://player.vimeo.com/video/759138370?h=b3116c79b8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="Entrevista a Juan Pablo y Pablo></iframe>
