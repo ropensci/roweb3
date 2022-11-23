@@ -38,7 +38,7 @@ From the beginning, the process involved several steps. First they made the deci
 
 {{< figure src = "pablo-picture.jpeg" class = "pull-left" width = "300" alt = "Profile picture of Pablo Tiscornia." caption = "<center><strong>Pablo Tiscornia</strong><br>Process coordinator.<br>Ministry of Tourism and Sports of the Nation. <br>National Office of Markets and Statistics</center>">}}
 
-[Pablo Tiscornia](https://twitter.com/pabblo_h) is part of _el Tucu_'s team--how Juan Pablo is known--and explains that from the beginning their work used everything the R community offered along with a free software philosophy.  Until now, the work in the office combined manual processes and almost everything used proprietary software. Pablo and Tucu met with a team of approximately 17 people who worked in some way with data processing and who were all very involved with the processes: _“first we needed to solve an internal work dynamic (...) there was a lot to do. Today I think out of those 17 people 15, 14 all of them know how to open R, they know how to put together a script and they know how they want to be involved in the process we define. From the moment you have a piece of data until you communicate at the end.”_
+[Pablo Tiscornia](https://twitter.com/pabblo_h) is part of _Tucu_'s team, and explains that the starting point of the work, in an office that until recently combined manual processes and almost everything was in proprietary software, was the free software philosophy added to all that the R community had been offering in the region.  Until now, the work in the office combined manual processes and almost everything used proprietary software. Pablo and Tucu met with a team of approximately 17 people who worked in some way with data processing and who were all very involved with the processes: _“first we needed to solve an internal work dynamic (...) there was a lot to do. Today I think out of those 17 people 15, 14 all of them know how to open R, they know how to put together a script and they know how they want to be involved in the process we define. From the moment you have a piece of data until you communicate at the end.”_
 
 At this stage, their objective was achieved: the team learned the tool and the work dynamics that they had defined as the most appropriate.
 
@@ -46,7 +46,7 @@ The second step was to _"open the process"_ as well as to _"improve the workflow
 
 All processes are complex and many of them involve simultaneous and even "chaotic" steps, as _Tucu_ describes. These involve different people with diverse knowledge contributing to the design of the projects that are currently under development.
 
-To integrate these different elements, _Tucu_ gives as an example the _Thursday meeting_. There, they show and share their code so that others can use them in different parts of the process. _"We do live coding where we raise doubts and do exercises (...) we try to generate a dynamic in which we share in a playful way, sometimes showing each part and what they are doing to be shared with others."_
+To integrate these different elements, _Tucu_ gives as an example the _Thursday meeting_. There, they show and share their code so that others can use them in different parts of the process. _"We do live coding where we raise doubts and do exercises (...) we try to generate a dynamic in which we share, sometimes even in a playful way, showing each part and what they are doing to be shared with others."_
 
 
 ## Free software and in our language
@@ -56,7 +56,7 @@ In addition to the free nature of open source software and the importance of res
 Juan Pablo reinforces the idea with his personal experience: _“I was a master's thesis student in political science and seven years ago I forced myself to do my thesis in R in order to learn (...) and what I quickly found, luckily, was the R community.”_
 
 > and what I quickly found, luckily, was the R community"
-__"Exchange with the R community and learn from the R community" seems to be the main mantra that both _Tucu_ and Pablo share with the team.__
+__Exchange with the R community and learn from the R community" seems to be the main mantra that both _Tucu_ and Pablo share with the team.__
 
 
 ## A work for the community
@@ -65,7 +65,7 @@ The work developed by this office serves a many different audiences.
 
 {{< figure src = "sinta.png" class = "pull-left" width = "380" alt = "Screenshot of the SINTA system home page showing access to its open datasets." >}}
 
-Today they have a site called [SINTA (Sistema de Información Turístico de la Argentina)](https://www.yvera.tur.ar/sinta/) where the _"different ways of accessing information"_ are present in an organized fashion. Juan Pablo explains that _"the work was to develop tools. R has much to do with this, bringing the information closer to different audiences."_
+Today they have a site called [SINTA (Sistema de Información Turístico de la Argentina -- Argentina's Tourist Information System)](https://www.yvera.tur.ar/sinta/) where the _"different ways of accessing information"_ are present in an organized fashion. Juan Pablo explains that _"the work was to develop tools. R has much to do with this, bringing the information closer to different audiences."_
 
 Those audiences include academics (people who research and teach) and government. For example, offices at different levels of the State can use the information for decision-making and setting public policy. As this is an open data portal, the information is also available to anyone else who wants to interact with it.
 
@@ -79,9 +79,9 @@ The concept of community is closely related to social and communication networks
 
 _“It is the logical next place to share the things that we're doing openly, to make the packages in our GitHub available. It is possible to open up our little marketplace, our mini CRAN, in R-Universe, to share the libraries that we're starting to develop”_, this is how _Tucu_ explains the first use of the platform and adds, _“to me it looks spectacular, as I see how it is changing over time, how comprehensive it is, the way one can visualize all the development that one is sharing in the R-Universe.”_
 
-Pablo adds that developing packages was the logical next step of the process after incorporating the R language and training: _“we put together, on the one hand, the tools with which we improve our workflow, the package {Herramientas}, and on the other hand, the package {Comunicación}, that the idea was mainly, and still is today, mainly to improve the workflow of our team, our day-to-day work.”_
+Pablo adds that developing packages was the logical next step of the process after incorporating the R language and training: _“we put together, on the one hand, the tools with which we improve our workflow, the package [{Herramientas}](https://dnme-minturdep.r-universe.dev/ui#package:herramientas), and on the other hand, the package [{Comunicación}](https://dnme-minturdep.r-universe.dev/ui#package:comunicacion), that the idea was mainly, and still is today, to improve the workflow of our team, our day-to-day work.”_
 
-They also add two important objectives to the whole process: to smooth the language and make it accessible to all people, even those who do not necessarily come from programming backgrounds, and to _"develop the packages in Spanish as much as possible”_. This helped reduce barriers for the team: _"We couldn't get into thinking whether we know English, if we don't know English, or even how much English we know. We wanted to get that barrier out of the way."_
+They also add two important objectives to the whole process: to present the R language in a way that is accessible to all people, even those who do not necessarily come from programming backgrounds, and to _"develop the packages in Spanish as much as possible”_. This helped reduce barriers for the team: _"We couldn't get into thinking whether we know English, if we don't know English, or even how much English we know. We wanted to get that barrier out of the way."_
 
 {{< figure src = "dnme-r-universe.png" class = "pull-right" width = "500" alt = "Screenshot of an R-Universe profile showing SINTA's packages" >}}
 
