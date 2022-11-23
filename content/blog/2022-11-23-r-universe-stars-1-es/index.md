@@ -5,7 +5,7 @@ author:
 - Alejandra Bellini 
 - Lucio Casalla 
 - Steffi LaZerte
-date: '2022-11-22'
+date: '2022-11-23'
 slug: r-universe-stars-1-es
 tags:
   - community
@@ -22,7 +22,7 @@ description: "Esta es la primera entrega de nuestra serie de entrevistas __\"Con
 <a href="/blog/2022/11/22/r-universe-stars-1-en/" target="_blank">See the English version of this blog post</a>
 </div>
 
-Esta es la primera entrega de nuestra serie de entrevistas __"Conociendo a las estrellas del universo R"__. Tenemos como objetivo introducir los grupos de trabajo y las personas que están detrás del desarrollo del software y paquetes que muchos utilizamos y que se encuentran disponibles en _R-Universe_.  Queremos resaltar y conocer diferentes proyectos alrededor del mundo, el trabajo que hacen, sus procesos y usuarios. Iniciamos nuestro recorrido en _Argentina_ y con un equipo que utiliza R y desarrolla paquetes de R en el estado Argentino (no deje de ver el [vídeo](#video-de-la-entrevista) con extractos de la entrevista).
+Esta es la primera entrega de nuestra serie de entrevistas __"Conociendo a las estrellas del universo R"__. Tenemos como objetivo introducir los grupos de trabajo y las personas que están detrás del desarrollo del software y paquetes que muchos utilizamos y que se encuentran disponibles en _R-Universe_.  Queremos resaltar y conocer diferentes proyectos alrededor del mundo, el trabajo que hacen, sus procesos y usuarios. Iniciamos nuestro recorrido en _Argentina_ y con un equipo que utiliza R y desarrolla paquetes de R en el estado Argentino (no dejes de ver el [vídeo](#video-de-la-entrevista) con extractos de la entrevista).
 
 ## La experiencia de trabajar con paquetes de R en el estado argentino
 
@@ -59,7 +59,7 @@ Juan Pablo refuerza la idea con su experiencia personal: _“Yo era un tesista d
 > y lo que rápidamente encontré, por suerte, fue la comunidad de R”
 __Intercambiar con la comunidad y aprender de la comunidad parece ser el mantra principal de la comunidad R que tanto el Tucu como Pablo comparten con el equipo.__
 
-Además suman dos objetivos importantes para todo el proceso: allanar el lenguaje y transformarlo en accesible para todas las personas, incluso para quienes no vengan necesariamente de la programación y desarrollar los paquetes _“lo más en castellano posible que se pueda”_. El objetivo era el mismo: _no tener que pensar si el equipo sabe o no inglés o si el idioma se transforma en una barrera para realizar el trabajo._
+Además suman dos objetivos importantes para todo el proceso: allanar el lenguaje de programación R y transformarlo en accesible para todas las personas, incluso para quienes no vengan necesariamente de la programación, y "desarrollar los paquetes _lo más en castellano posible que se pueda”_. El objetivo era el mismo, reducir las barreras para el equipo: _no tener que pensar si el equipo sabe o no inglés o si el idioma se transforma en una barrera para realizar el trabajo._
 
 
 ## Un trabajo para la comunidad
@@ -79,9 +79,9 @@ Esos públicos incluyen el académico (personas que investigan y enseñan), las 
 
 ## La experiencia R-universe
 
-El concepto de comunidad tiene mucha relación con las redes sociales y de comunicación y fue precisamente Twitter la que acercó por primera vez a Juan Pablo a [R-universe](https://r-universe.dev/search/) donde descubrió [el paso a paso sobre cómo construir su propio universo de R](/blog/2021/09/21/creando-tu-r-universe/).
+El concepto de comunidad tiene mucha relación con las redes sociales y de comunicación y fue precisamente Twitter la que acercó por primera vez a Juan Pablo a [R-Universe](https://r-universe.dev/search/) donde descubrió [el paso a paso sobre cómo construir su propio universo de R](/blog/2021/09/21/creando-tu-r-universe/).
 
-_“El paso medio lógico en esto de estar compartiendo las cosas que estamos haciendo hacia fuera, era poder disponibilizar también a los paquetes que están en nuestro GitHub, es poder abrir nuestro pequeño mercadito, nuestro mini CRAN (...) y R-universe sirve para compartir ahí las librerías que estamos empezando a armar”_, así explica el _Tucu_ el primer uso que le dieron a la plataforma y agrega: _“Lo que me parece espectacular, es cómo se va modificando en el tiempo, lo completo que es la manera de visualizar todo el desarrollo que uno está compartiendo en R-Universe”_.
+_“Es el siguiente lugar medio lógico en esto de estar compartiendo las cosas que estamos haciendo hacia fuera, era poder disponibilizar también a los paquetes que están en nuestro GitHub, es poder abrir nuestro pequeño mercadito, nuestro mini CRAN (...) y R-universe sirve para compartir ahí las librerías que estamos empezando a armar”_, así explica el _Tucu_ el primer uso que le dieron a la plataforma y agrega: _“Lo que me parece espectacular, es cómo se va modificando en el tiempo, lo completo que es la manera de visualizar todo el desarrollo que uno está compartiendo en R-Universe”_.
 
 Pablo agrega que desarrollar paquetes fue el paso lógico en el proceso, después de la capacitación y de la incorporación del lenguaje R a la oficina: _“Armamos, por un lado, las herramientas que nos mejoraban el flujo de trabajo, el paquete [{Herramientas}](https://dnme-minturdep.r-universe.dev/ui#package:herramientas). Y por el otro, el paquete de [{Comunicación}](https://dnme-minturdep.r-universe.dev/ui#package:comunicacion) donde la idea era principalmente y hoy todavía sigue siendo, mejorar el flujo de trabajo de nuestro equipo, de nuestro día a día”_.
 
