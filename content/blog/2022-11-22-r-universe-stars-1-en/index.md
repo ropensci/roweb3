@@ -58,6 +58,8 @@ Juan Pablo reinforces the idea with his personal experience: _“I was a master'
 > and what I quickly found, luckily, was the R community"
 __Exchange with the R community and learn from the R community" seems to be the main mantra that both _Tucu_ and Pablo share with the team.__
 
+They also add two important objectives to the whole process: to present the R language in a way that is accessible to all people, even those who do not necessarily come from programming backgrounds, and to _"develop the packages in Spanish as much as possible”_. This helped reduce barriers for the team: _"We couldn't get into thinking whether we know English, if we don't know English, or even how much English we know. We wanted to get that barrier out of the way."_
+
 
 ## A work for the community
 
@@ -81,7 +83,6 @@ _“It is the logical next place to share the things that we're doing openly, to
 
 Pablo adds that developing packages was the logical next step of the process after incorporating the R language and training: _“we put together, on the one hand, the tools with which we improve our workflow, the package [{Herramientas}](https://dnme-minturdep.r-universe.dev/ui#package:herramientas), and on the other hand, the package [{Comunicación}](https://dnme-minturdep.r-universe.dev/ui#package:comunicacion), that the idea was mainly, and still is today, to improve the workflow of our team, our day-to-day work.”_
 
-They also add two important objectives to the whole process: to present the R language in a way that is accessible to all people, even those who do not necessarily come from programming backgrounds, and to _"develop the packages in Spanish as much as possible”_. This helped reduce barriers for the team: _"We couldn't get into thinking whether we know English, if we don't know English, or even how much English we know. We wanted to get that barrier out of the way."_
 
 {{< figure src = "dnme-r-universe.png" class = "pull-right" width = "500" alt = "Screenshot of an R-Universe profile showing SINTA's packages" >}}
 

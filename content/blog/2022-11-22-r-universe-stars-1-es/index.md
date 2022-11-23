@@ -59,6 +59,8 @@ Juan Pablo refuerza la idea con su experiencia personal: _“Yo era un tesista d
 > y lo que rápidamente encontré, por suerte, fue la comunidad de R”
 __Intercambiar con la comunidad y aprender de la comunidad parece ser el mantra principal de la comunidad R que tanto el Tucu como Pablo comparten con el equipo.__
 
+Además suman dos objetivos importantes para todo el proceso: allanar el lenguaje y transformarlo en accesible para todas las personas, incluso para quienes no vengan necesariamente de la programación y desarrollar los paquetes _“lo más en castellano posible que se pueda”_. El objetivo era el mismo: _no tener que pensar si el equipo sabe o no inglés o si el idioma se transforma en una barrera para realizar el trabajo._
+
 
 ## Un trabajo para la comunidad
 
@@ -83,7 +85,6 @@ _“El paso medio lógico en esto de estar compartiendo las cosas que estamos ha
 
 Pablo agrega que desarrollar paquetes fue el paso lógico en el proceso, después de la capacitación y de la incorporación del lenguaje R a la oficina: _“Armamos, por un lado, las herramientas que nos mejoraban el flujo de trabajo, el paquete [{Herramientas}](https://dnme-minturdep.r-universe.dev/ui#package:herramientas). Y por el otro, el paquete de [{Comunicación}](https://dnme-minturdep.r-universe.dev/ui#package:comunicacion) donde la idea era principalmente y hoy todavía sigue siendo, mejorar el flujo de trabajo de nuestro equipo, de nuestro día a día”_.
 
-Además suman dos objetivos importantes para todo el proceso: allanar el lenguaje y transformarlo en accesible para todas las personas, incluso para quienes no vengan necesariamente de la programación y desarrollar los paquetes _“lo más en castellano posible que se pueda”_. El objetivo era el mismo: _no tener que pensar si el equipo sabe o no inglés o si el idioma se transforma en una barrera para realizar el trabajo._
 
 {{< figure src = "dnme-r-universe.png" class = "pull-right" width = "500" alt = "Perfil de r-universe con los paquetes de la Dirección" >}}
 
