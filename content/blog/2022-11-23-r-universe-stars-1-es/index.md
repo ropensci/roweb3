@@ -1,5 +1,5 @@
 ---
-title: "Conciendo a las estrellas del universo R: comunidad R, intercambiar y aprender"
+title: "Conociendo a las estrellas del universo R: comunidad R, intercambiar y aprender"
 author: 
 - Yanina Bellini Saibene
 - Alejandra Bellini 
@@ -15,12 +15,9 @@ tags:
   - español
   - spanish
 featured: true
-description: "Esta es la primera entrega de nuestra serie de entrevistas __\"Conciendo a las estrellas del universo R\"__. Iniciamos nuestro recorrido en _Argentina_ y con un equipo que utiliza R y desarrolla paquetes de R en el estado Argentino." 
+description: "Esta es la primera entrega de nuestra serie de entrevistas __\"Conociendo a las estrellas del universo R\"__. Iniciamos nuestro recorrido en _Argentina_ y con un equipo que utiliza R y desarrolla paquetes de R en el estado Argentino."
+preface: "[See the English version of this blog post](/blog/2022/11/23/r-universe-stars-1-en/)"
 ---
-
-<div class="alert alert-info" role="alert">
-<a href="/blog/2022/11/23/r-universe-stars-1-en/" target="_blank">See the English version of this blog post</a>
-</div>
 
 Esta es la primera entrega de nuestra serie de entrevistas __"Conociendo a las estrellas del universo R"__. Tenemos como objetivo introducir los grupos de trabajo y las personas que están detrás del desarrollo del software y paquetes que muchos utilizamos y que se encuentran disponibles en _R-Universe_.  Queremos resaltar y conocer diferentes proyectos alrededor del mundo, el trabajo que hacen, sus procesos y usuarios. Iniciamos nuestro recorrido en _Argentina_ y con un equipo que utiliza R y desarrolla paquetes de R en el estado Argentino (no dejes de ver el [vídeo](#video-de-la-entrevista) con extractos de la entrevista).
 
@@ -99,6 +96,4 @@ Juan Pablo finaliza diciendo: _“Hay más barreras que se pueden seguir bajando
 
 Si quieres escuchar más detalles sobre la experiencia, no dejes de ver a los protagonistas en el vídeo con extractos de la entrevista. Puedes activar los subtítulos en español y en inglés.
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://player.vimeo.com/video/759138370?h=b3116c79b8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="Entrevista a Juan Pablo y Pablo></iframe>
-</div>
+{{< vimeo id=759138370 title="Entrevista a Juan Pablo y Pablo" >}}
