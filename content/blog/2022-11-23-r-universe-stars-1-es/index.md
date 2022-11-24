@@ -96,4 +96,4 @@ Juan Pablo finaliza diciendo: _“Hay más barreras que se pueden seguir bajando
 
 Si quieres escuchar más detalles sobre la experiencia, no dejes de ver a los protagonistas en el vídeo con extractos de la entrevista. Puedes activar los subtítulos en español y en inglés.
 
-{{< vimeo 759138370 title="Entrevista a Juan Pablo y Pablo >}}
+{{< vimeo id=759138370 title="Entrevista a Juan Pablo y Pablo" >}}
