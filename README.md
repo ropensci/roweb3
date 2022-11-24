@@ -204,7 +204,7 @@ If the person also authors blog post, also make sure the file under author/ uses
 
 ### Author
 * Create a folder with the name of the author on content/author
-* Copy a pictuyre for the profile in themes/ropensci/static/img/community
+* Copy a picture for the profile in themes/ropensci/static/img/community unless they have a GitHub profile with a picture, which will be used by default.
 * Create an _index.md with the following content:
 
 ```markdown
