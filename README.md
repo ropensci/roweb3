@@ -202,6 +202,20 @@ The data is used for the about page and, for the editors, for the software-revie
 
 If the person also authors blog post, also make sure the file under author/ uses the right title and img.
 
+### Author
+* Create a folder with the name of the author on content/author
+* Copy a picture for the profile in themes/ropensci/static/img/community unless they have a GitHub profile with a picture, which will be used by default.
+* Create an _index.md with the following content:
+
+```markdown
+---
+name: Name Of The Author
+github: github user
+link: web page link
+img: img/community/name-of-the-author-picture.png
+---
+```
+
 ### Tweaking CSS, JS
 
 Cf https://github.com/ropensci-org/roweb3-styles
