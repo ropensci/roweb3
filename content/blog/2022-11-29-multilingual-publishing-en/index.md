@@ -109,12 +109,22 @@ translate technical documents.
 
 ## Building Community
 
-Translating rOpenSci material to Spanish will help democratize access to these quality resources to learn and teach the necessary digital skills to become contributors to Open Source projects not only because you can now learn how to be a developer, a maintainer, a reviewer or an editor; but also because translation is often a good first way to contribute, and is recognized as valuable by the community. This material is also useful for learning and teaching how to have a workflow to perform computationally reproducible Open Science.
+Translating rOpenSci material to Spanish will help democratize access to these quality resources to learn and
+teach the necessary digital skills to become contributors to Open Source projects not only because you can now
+learn how to be a developer, a maintainer, a reviewer or an editor; but also because translation is often a good
+first way to contribute, and is recognized as valuable by the community. This material is also useful for
+learning and teaching how to have a workflow to perform computationally reproducible Open Science.
 
-At rOpenSci, we understand review as a way of building community, the material for our review process in Spanish will allow rOpenSci to continue building the community in Spanish-speaking regions, like Latin America, to increase the pull of contributors and get feedback on how our tools and processes can be improved to serve these community members better.  
+At rOpenSci, we understand review as a way of building community, the material for our review process in Spanish
+will allow rOpenSci to continue building the community in Spanish-speaking regions, like Latin America, to
+increase the pull of contributors and get feedback on how our tools and processes can be improved to serve these
+community members better.  
 
-We also expect the project's documentation and tooling will be useful to extend this effort to other languages and for other communities and projects with translation efforts.
+We also expect the project's documentation and tooling will be useful to extend this effort to other languages
+and for other communities and projects with translation efforts.
 
 ### Sources
 
-[^1] Hilary Carter and Jessica Groopman, “Diversity, Equity, and Inclusion in Open Source: Exploring the Challenges and Opportunities to Create Equity and Agency Across Open Source Ecosystems,” foreword by Jim Zemlin, The Linux Foundation, December, 2021.
+[^1] Hilary Carter and Jessica Groopman, “Diversity, Equity, and Inclusion in Open Source: Exploring the
+Challenges and Opportunities to Create Equity and Agency Across Open Source Ecosystems,” foreword by Jim Zemlin,
+The Linux Foundation, December, 2021.
