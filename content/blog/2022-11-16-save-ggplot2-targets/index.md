@@ -121,7 +121,7 @@ tar_script({
       complex_plot,
       {
         
-        # Add many useless manipulations here to mimick object creation
+        # Add many useless manipulations here to mimic object creation
         mtcars_df2 = mtcars_df
         mtcars_df3 = rbind(mtcars_df, mtcars_df2)
         mtcars_df4 = rbind(mtcars_df3, mtcars_df3)
@@ -214,7 +214,7 @@ tar_script({
       complex_plot,
       {
         
-        # Add many useless manipulations here to mimick object creation
+        # Add many useless manipulations here to mimic object creation
         mtcars_df2 = mtcars_df
         mtcars_df3 = rbind(mtcars_df, mtcars_df2)
         mtcars_df4 = rbind(mtcars_df3, mtcars_df3)
@@ -240,7 +240,7 @@ tar_make()
 ✔ skip target complex_plot
 ✔ skip target simple_grob
 ✔ skip target complex_grob
-✔ skip pipeline [0.11 seconds]
+✔ skip pipeline [0.09 seconds]
 Message d'avis :
 le package 'ggplot2' a été compilé avec la version R 4.2.2 
 ```
@@ -304,7 +304,7 @@ grid::grid.draw(tar_read(simple_grob))
 
 We got our plot back! It is still resizable, can still be exported as a file through RStudio or graphical devices. However, as it's not a ggplot2 object anymore, we cannot tweak its theme nor use the `ggsave` function.
 
-If you have tens of plots, it maybe quite cumbersome to call `ggplot2::ggplotGrob()` at the end of all your plot functions. That's where someone in the community suggested using [`tarchetypes` hooks](). I wasn't aware at the time, but tarchetypes, which is an extension of targets to more easily generate a list of targets, has a system of "hooks" that can apply functions to your targets automatically (all or a subset based on their names). These are accessible through the functions `tar_hook_before()`, `tar_hook_inner()`, and `tar_hook_outer()` in `tarchetypes`. They will respectively transform the target to execute a function *before*, wrap the dependencies of given target in a function call, or call a function around each target. We have to indicate with `.x` where is the previous commond supposed to be executed. This means that using `tar_hook_outer()` we would be able to automatically execute `ggplotGrob()` to all our plot targets like so:
+If you have tens of plots, it maybe quite cumbersome to call `ggplot2::ggplotGrob()` at the end of all your plot functions. That's where someone in the community suggested using [`tarchetypes` hooks](). I wasn't aware at the time, but tarchetypes, which is an extension of targets to more easily generate a list of targets, has a system of "hooks" that can apply functions to your targets automatically (all or a subset based on their names). These are accessible through the functions `tar_hook_before()`, `tar_hook_inner()`, and `tar_hook_outer()` in `tarchetypes`. They will respectively transform the target to execute a function *before*, wrap the dependencies of given target in a function call, or call a function around each target. We have to indicate with `.x` where is the previous command supposed to be executed. This means that using `tar_hook_outer()` we would be able to automatically execute `ggplotGrob()` to all our plot targets like so:
 
 ```r 
 tar_script({
@@ -322,7 +322,7 @@ tar_script({
       complex_plot,
       {
         
-        # Add many useless manipulations here to mimick object creation
+        # Add many useless manipulations here to mimic object creation
         mtcars_df2 = mtcars_df
         mtcars_df3 = rbind(mtcars_df, mtcars_df2)
         mtcars_df4 = rbind(mtcars_df3, mtcars_df3)
@@ -348,10 +348,10 @@ tar_make()
 ```
 ✔ skip target mtcars_df
 • start target simple_plot
-• built target simple_plot [0.11 seconds]
+• built target simple_plot [0.13 seconds]
 • start target complex_plot
-• built target complex_plot [0.05 seconds]
-• end pipeline [0.29 seconds]
+• built target complex_plot [0.03 seconds]
+• end pipeline [0.3 seconds]
 Message d'avis :
 le package 'ggplot2' a été compilé avec la version R 4.2.2 
 ```
@@ -485,15 +485,15 @@ tar_make()
 ✔ skip target mtcars_df
 • start target simple_plot
 Saving 7 x 7 in image
-• built target simple_plot [0.6 seconds]
+• built target simple_plot [0.61 seconds]
 • start target complex_plot
 Saving 7 x 7 in image
-• built target complex_plot [0.3 seconds]
-• end pipeline [0.98 seconds]
+• built target complex_plot [0.28 seconds]
+• end pipeline [1.02 seconds]
 Message d'avis :
 le package 'ggplot2' a été compilé avec la version R 4.2.2 
 ```
-Note that because `ggsave()` returns a filepath, we had to indicate to `tar_target()` that the target was a file using the argument `format = "file"`. We can now check our saved targets:
+Note that because `ggsave()` returns a file path, we had to indicate to `tar_target()` that the target was a file using the argument `format = "file"`. We can now check our saved targets:
 
 ```r 
 tar_read(simple_plot)
@@ -503,7 +503,7 @@ tar_read(simple_plot)
 [1] "simple_plot.png"
 ```
 
-We only got `"simple_plot.png"` because the target in itself only stores the filepath to the actual saved file. So to visualize it, we need to go into the folder and open the file:
+We only got `"simple_plot.png"` because the target in itself only stores the file path to the actual saved file. So to visualize it, we need to go into the folder and open the file:
 
 
 {{< figure src = "simple_plot.png" alt = "Scatter plot representing mileage of cars in function of number of cylinders based on the mtcars dataset" >}}
@@ -511,7 +511,7 @@ We only got `"simple_plot.png"` because the target in itself only stores the fil
 
 And our plots were saved! I will leave adapting this workflow to use tarchetypes hooks as an exercise to the reader 😉
 
-I generally dislike saving my plots as images at first, because I don't know their final size a priori, I like to be able to tweak them after the fact, to tailor them to the context where they are going to be displayed. So that's why I'm going to add my final solution.
+I generally dislike saving my plots as images at first, because I don't know their final size beforehand, I like to be able to tweak them after the fact, to tailor them to the context where they are going to be displayed. So that's why I'm going to add my final solution.
 
 ### Pros
 
@@ -561,7 +561,7 @@ tar_script({
       
       {
         
-        # Add many useless manipulations here to mimick object creation
+        # Add many useless manipulations here to mimic object creation
         mtcars_df2 = mtcars_df
         mtcars_df3 = rbind(mtcars_df, mtcars_df2)
         mtcars_df4 = rbind(mtcars_df3, mtcars_df3)
@@ -588,7 +588,7 @@ tar_make()
 ✔ skip target complex_but_slim_plot
 • start target complex_plot
 • built target complex_plot [0 seconds]
-• end pipeline [0.18 seconds]
+• end pipeline [0.19 seconds]
 Message d'avis :
 le package 'ggplot2' a été compilé avec la version R 4.2.2 
 ```
@@ -644,8 +644,8 @@ From my simple problem of finding the "best" way of saving ggplot2 objects in ta
 ## Going Further
 
 * To learn more about R environments, read [Chapter 7 of Advanced R](https://adv-r.hadley.nz/environments.html), it's carefully examines the properties of environments and build up your understanding progressively.
-* To understand better the grid package which is the basis ontop of which ggplot2 is built, you can read ["Fun with the R Grid Package"](https://doi.org/10.1080/10691898.2010.11889587) by Lutong Zhou & W. John Braun which is a tutorial to use and understand the grid package.
-* To understand the interaction between the grid pacakge and ggplot2, Roger D. Peng provides [a great tutorial](https://bookdown.org/rdpeng/RProgDA/the-grid-package.html).
+* To understand better the grid package which is the basis on top of which ggplot2 is built, you can read ["Fun with the R Grid Package"](https://doi.org/10.1080/10691898.2010.11889587) by Lutong Zhou & W. John Braun which is a tutorial to use and understand the grid package.
+* To understand the interaction between the grid package and ggplot2, Roger D. Peng provides [a great tutorial](https://bookdown.org/rdpeng/RProgDA/the-grid-package.html).
 * To go even deeper into the understanding of ggplot2, the [3rd version of "ggplot2: elegant graphics for data analysis"](https://ggplot2-book.org/index.html) has (a full chapter on "ggplot2 internals"](https://ggplot2-book.org/internals.html).
 * To learn more about targets hooks, read [the dedicated section in the targets manual](https://ggplot2-book.org/index.html).
 
