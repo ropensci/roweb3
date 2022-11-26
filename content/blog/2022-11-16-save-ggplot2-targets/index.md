@@ -75,7 +75,7 @@ tar_make()
 ```
 ✔ skip target mtcars_df
 ✔ skip target simple_plot
-✔ skip pipeline [0.08 seconds]
+✔ skip pipeline [0.06 seconds]
 Message d'avis :
 le package 'ggplot2' a été compilé avec la version R 4.2.2 
 ```
@@ -348,10 +348,10 @@ tar_make()
 ```
 ✔ skip target mtcars_df
 • start target simple_plot
-• built target simple_plot [0.13 seconds]
+• built target simple_plot [0.12 seconds]
 • start target complex_plot
-• built target complex_plot [0.03 seconds]
-• end pipeline [0.3 seconds]
+• built target complex_plot [0.05 seconds]
+• end pipeline [0.29 seconds]
 Message d'avis :
 le package 'ggplot2' a été compilé avec la version R 4.2.2 
 ```
@@ -485,11 +485,11 @@ tar_make()
 ✔ skip target mtcars_df
 • start target simple_plot
 Saving 7 x 7 in image
-• built target simple_plot [0.61 seconds]
+• built target simple_plot [0.58 seconds]
 • start target complex_plot
 Saving 7 x 7 in image
-• built target complex_plot [0.28 seconds]
-• end pipeline [1.02 seconds]
+• built target complex_plot [0.31 seconds]
+• end pipeline [1 seconds]
 Message d'avis :
 le package 'ggplot2' a été compilé avec la version R 4.2.2 
 ```
@@ -584,11 +584,11 @@ tar_make()
 ```
 ✔ skip target mtcars_df
 • start target simple_plot
-• built target simple_plot [0 seconds]
+• built target simple_plot [0.02 seconds]
 ✔ skip target complex_but_slim_plot
 • start target complex_plot
-• built target complex_plot [0 seconds]
-• end pipeline [0.19 seconds]
+• built target complex_plot [0.01 seconds]
+• end pipeline [0.18 seconds]
 Message d'avis :
 le package 'ggplot2' a été compilé avec la version R 4.2.2 
 ```
