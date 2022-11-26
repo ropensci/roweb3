@@ -4,7 +4,7 @@ title: How to Save ggplot2 plots in a targets Workflow?
 author:
   - Matthias Grenié
 # Set the date below to the publication date of your post
-date: 2020-03-10
+date: 2022-11-16
 # Minimal tags for a post about a community-contributed package 
 # that has passed software peer review are listed below
 # Consult the Technical Guidelines for information on choosing tags
@@ -14,17 +14,15 @@ tags:
   - workflow
   - tech notes
 # The summary below will be used by e.g. Twitter cards
-description: "A very short summary of your post (~ 100 characters)"
+description: "A short exploration of how to save ggplot2 objects in targets workflow"
 # If you have no preferred image for Twitter cards,
 # delete the twitterImg and twitterAlt lines below 
 # - Replace "blog" with "technotes" as needed
 # - Note no "/" symbol before "blog" here
 # - Note "/" between year/month/day
-twitterImg: blog/2019/06/04/post-template/name-of-image.png
-twitterAlt: "Alternative description of the image"
 # the text below is for populating the "share on Twitter" button
 # if deleted, the title of the post will be used
-tweet: "A post about blabla by @username!"
+tweet: "A post about saving efficiently {ggplot2} objects in a {targets} workflow by @LeNematode!"
 ---
 
 ```{r setup, include=FALSE}
@@ -352,7 +350,7 @@ tar_script({
         given_plot = ggplot(mtcars_df, aes(cyl, mpg)) +
           geom_point()
         
-        ggsave("simple_plot.png", simple_plot)
+        ggsave("simple_plot.png", given_plot)
       },
       format = "file"
     ),
@@ -367,7 +365,7 @@ tar_script({
         given_plot = ggplot(mtcars_df4, aes(cyl, mpg)) +
           geom_point()
         
-        ggsave("complex_plot.png", complex_plot)
+        ggsave("complex_plot.png", given_plot)
       },
       format = "file"
     )
@@ -385,7 +383,9 @@ tar_read(simple_plot)
 
 We only got `"simple_plot.png"` because the target in itself only stores the filepath to the actual saved file. So to visualize it, we need to go into the folder and open the file:
 
+<!--html_preserve-->
 {{< figure src = "simple_plot.png" alt = "Scatter plot representing mileage of cars in function of number of cylinders based on the mtcars dataset" >}}
+<!--/html_preserve-->
 
 And our plots were saved! I will leave adapting this workflow to use tarchetypes hooks as an exercise to the reader 😉
 
