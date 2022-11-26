@@ -25,48 +25,7 @@ description: "A short exploration of how to save ggplot2 objects in targets work
 tweet: "A post about saving efficiently {ggplot2} objects in a {targets} workflow by @LeNematode!"
 ---
 
-```{r setup, include=FALSE}
-# Options to have images saved in the post folder
-# And to disable symbols before output
-knitr::opts_chunk$set(fig.path = "", comment = "")
 
-# knitr hook to make images output use Hugo options
-knitr::knit_hooks$set(
-  plot = function(x, options) {
-    hugoopts <- options$hugoopts
-    paste0(
-      "{{<figure src=",
-      '"', x, '" ',
-      if (!is.null(hugoopts)) {
-        glue::glue_collapse(
-          glue::glue('{names(hugoopts)}="{hugoopts}"'),
-          sep = " "
-        )
-      },
-      ">}}\n"
-    )
-  }
-)
-
-# knitr hook to use Hugo highlighting options
-knitr::knit_hooks$set(
-  source = function(x, options) {
-  hlopts <- options$hlopts
-    paste0(
-      "```r ",
-      if (!is.null(hlopts)) {
-      paste0("{",
-        glue::glue_collapse(
-          glue::glue('{names(hlopts)}={hlopts}'),
-          sep = ","
-        ), "}"
-        )
-      },
-      "\n", glue::glue_collapse(x, sep = "\n"), "\n```\n"
-    )
-  }
-)
-```
 
 
 I really enjoy using [`targets`](https://docs.ropensci.org/targets) for all of my data analysis projects. They help me structure all of the projects nicely in the same folder. For them I often produce several figures using `ggplot2`. I want to keep my plots accessible to be able to revisit them anytime and to assemble them with [`patchwork`](https://patchwork.data-imaginist.com/) into more complex figures for a potential paper. In a regular project I generate 10 to 20 figures, some only diagnostic ones and some polished ones for the finished manuscript. I do revisit the list of figures often, as co-authors or reviewers ask me for more detailed analyses and visualizations.
@@ -84,10 +43,16 @@ My first solution was to not worry about the plots and leverage the very clever 
 
 Let's say our workflow loads the data and makes a simple plot:
 
-```{r first-workflow}
+```r 
 library("targets")
 library("ggplot2")
+```
 
+```
+Warning: le package 'ggplot2' a été compilé avec la version R 4.2.2
+```
+
+```r 
 # Create a simple demo workflow
 tar_script({
   library("ggplot2")
@@ -107,25 +72,40 @@ tar_script({
 tar_make()
 ```
 
+```
+✔ skip target mtcars_df
+✔ skip target simple_plot
+✔ skip pipeline [0.08 seconds]
+Message d'avis :
+le package 'ggplot2' a été compilé avec la version R 4.2.2 
+```
+
 Then if you want to access the plot you can use `tar_read()` or `tar_load()` and you'll get back a modifiable ggplot2 object
 
-```{r first-load-plot}
+```r 
 tar_read(simple_plot)
-
+```
+{{<figure src="first-load-plot-1.png" >}}
+```r 
 # It's modifiable (we can add a theme after the fact)
 tar_read(simple_plot) +
   theme_bw()
 ```
+{{<figure src="first-load-plot-2.png" >}}
 
 For now, the plot is pretty simple and low weight. We'll be using the `obj_size()` function from  `lobstr` package to evaluate the package size.
 
-```{r first-size}
+```r 
 lobstr::obj_size(tar_read(simple_plot))
+```
+
+```
+880.76 kB
 ```
 
 The problem arises when you start having plots with a lot going on in the plot function. If retake the same targets workflow but have a more busy plot function we'll be able to measure the size of the plot object again:
 
-```{r first-busy-workflow}
+```r 
 tar_script({
   library("ggplot2")
   library("targets")
@@ -159,16 +139,35 @@ tar_script({
 tar_make()
 ```
 
+```
+✔ skip target mtcars_df
+✔ skip target simple_plot
+✔ skip target complex_plot
+✔ skip pipeline [0.09 seconds]
+Message d'avis :
+le package 'ggplot2' a été compilé avec la version R 4.2.2 
+```
+
 We now have two plot targets, the `simple_plot` target which is the same as previously, and `complex_plot` which differs from `simple_plot` only from data manipulation prior to the plotting, **that is not affecting the plot in itself**.
 
 If we compare their sizes:
 
-```{r first-complex-sizes}
+```r 
 # The 'simple_plot' object hasn't changed size
 lobstr::obj_size(tar_read(simple_plot))
+```
 
+```
+880.76 kB
+```
+
+```r 
 # The 'complex_plot' object is actually larger
 lobstr::obj_size(tar_read(complex_plot))
+```
+
+```
+921.75 kB
 ```
 
 We observe that the `complex_plot` is larger in size than `simple_plot`! This seems very surprising as we haven't changed a line of the plotting code *per se*. So what is happening here?
@@ -199,7 +198,7 @@ So a natural idea would be to save, within the targets workflow, the ggplot2 plo
 
 We can compare the size of the stored objects using our previous workflow and adding conversion to Grobs:
 
-```{r second-workflow}
+```r 
 tar_script({
   library("ggplot2")
   library("targets")
@@ -235,33 +234,79 @@ tar_script({
 tar_make()
 ```
 
+```
+✔ skip target mtcars_df
+✔ skip target simple_plot
+✔ skip target complex_plot
+✔ skip target simple_grob
+✔ skip target complex_grob
+✔ skip pipeline [0.11 seconds]
+Message d'avis :
+le package 'ggplot2' a été compilé avec la version R 4.2.2 
+```
+
 We added 2 new targets `simple_grob` and `complex_grob` that transform the previous plots into Grobs.
 
 If we compare their sizes now:
 
-```{r second-grob-sizes}
+```r 
 lobstr::obj_size(tar_read(simple_grob))
+```
+
+```
+339.66 kB
+```
+
+```r 
 lobstr::obj_size(tar_read(complex_grob))
+```
+
+```
+344.66 kB
 ```
 Both objects are more than twice as small as the original plot object, and now they are both of the same size! So this may seem like a solution to us.
 
 Let's check if we still can display them:
 
-```{r second-grob-failed-plot}
+```r 
 tar_read(simple_grob)
+```
+
+```
+TableGrob (12 x 9) "layout": 18 grobs
+    z         cells       name                                         grob
+1   0 ( 1-12, 1- 9) background               rect[plot.background..rect.40]
+2   5 ( 6- 6, 4- 4)     spacer                               zeroGrob[NULL]
+3   7 ( 7- 7, 4- 4)     axis-l           absoluteGrob[GRID.absoluteGrob.27]
+4   3 ( 8- 8, 4- 4)     spacer                               zeroGrob[NULL]
+5   6 ( 6- 6, 5- 5)     axis-t                               zeroGrob[NULL]
+6   1 ( 7- 7, 5- 5)      panel                      gTree[panel-1.gTree.17]
+7   9 ( 8- 8, 5- 5)     axis-b           absoluteGrob[GRID.absoluteGrob.22]
+8   4 ( 6- 6, 6- 6)     spacer                               zeroGrob[NULL]
+9   8 ( 7- 7, 6- 6)     axis-r                               zeroGrob[NULL]
+10  2 ( 8- 8, 6- 6)     spacer                               zeroGrob[NULL]
+11 10 ( 5- 5, 5- 5)     xlab-t                               zeroGrob[NULL]
+12 11 ( 9- 9, 5- 5)     xlab-b titleGrob[axis.title.x.bottom..titleGrob.31]
+13 12 ( 7- 7, 3- 3)     ylab-l   titleGrob[axis.title.y.left..titleGrob.34]
+14 13 ( 7- 7, 7- 7)     ylab-r                               zeroGrob[NULL]
+15 14 ( 4- 4, 5- 5)   subtitle         zeroGrob[plot.subtitle..zeroGrob.36]
+16 15 ( 3- 3, 5- 5)      title            zeroGrob[plot.title..zeroGrob.35]
+17 16 (10-10, 5- 5)    caption          zeroGrob[plot.caption..zeroGrob.38]
+18 17 ( 2- 2, 2- 2)        tag              zeroGrob[plot.tag..zeroGrob.37]
 ```
 
 This doesn't display a plot but shows us how the plot is stored as a `Grob` in the `grid` system. To display it we need to have a function that transform this object into an actual plot. For example, with the `grid::grid.draw()` function:
 
-```{r second-grob-plot}
+```r 
 grid::grid.draw(tar_read(simple_grob))
 ```
+{{<figure src="second-grob-plot-1.png" >}}
 
 We got our plot back! It is still resizable, can still be exported as a file through RStudio or graphical devices. However, as it's not a ggplot2 object anymore, we cannot tweak its theme nor use the `ggsave` function.
 
 If you have tens of plots, it maybe quite cumbersome to call `ggplot2::ggplotGrob()` at the end of all your plot functions. That's where someone in the community suggested using [`tarchetypes` hooks](). I wasn't aware at the time, but tarchetypes, which is an extension of targets to more easily generate a list of targets, has a system of "hooks" that can apply functions to your targets automatically (all or a subset based on their names). These are accessible through the functions `tar_hook_before()`, `tar_hook_inner()`, and `tar_hook_outer()` in `tarchetypes`. They will respectively transform the target to execute a function *before*, wrap the dependencies of given target in a function call, or call a function around each target. We have to indicate with `.x` where is the previous commond supposed to be executed. This means that using `tar_hook_outer()` we would be able to automatically execute `ggplotGrob()` to all our plot targets like so:
 
-```{r second-workflow-hooks}
+```r 
 tar_script({
   library("ggplot2")
   library("targets")
@@ -300,11 +345,71 @@ tar_script({
 tar_make()
 ```
 
+```
+✔ skip target mtcars_df
+• start target simple_plot
+• built target simple_plot [0.11 seconds]
+• start target complex_plot
+• built target complex_plot [0.05 seconds]
+• end pipeline [0.29 seconds]
+Message d'avis :
+le package 'ggplot2' a été compilé avec la version R 4.2.2 
+```
+
 We can check our plot objects:
 
-```{r second-hook-grob}
+```r 
 tar_read(simple_plot)
+```
+
+```
+TableGrob (12 x 9) "layout": 18 grobs
+    z         cells       name                                         grob
+1   0 ( 1-12, 1- 9) background               rect[plot.background..rect.40]
+2   5 ( 6- 6, 4- 4)     spacer                               zeroGrob[NULL]
+3   7 ( 7- 7, 4- 4)     axis-l           absoluteGrob[GRID.absoluteGrob.27]
+4   3 ( 8- 8, 4- 4)     spacer                               zeroGrob[NULL]
+5   6 ( 6- 6, 5- 5)     axis-t                               zeroGrob[NULL]
+6   1 ( 7- 7, 5- 5)      panel                      gTree[panel-1.gTree.17]
+7   9 ( 8- 8, 5- 5)     axis-b           absoluteGrob[GRID.absoluteGrob.22]
+8   4 ( 6- 6, 6- 6)     spacer                               zeroGrob[NULL]
+9   8 ( 7- 7, 6- 6)     axis-r                               zeroGrob[NULL]
+10  2 ( 8- 8, 6- 6)     spacer                               zeroGrob[NULL]
+11 10 ( 5- 5, 5- 5)     xlab-t                               zeroGrob[NULL]
+12 11 ( 9- 9, 5- 5)     xlab-b titleGrob[axis.title.x.bottom..titleGrob.31]
+13 12 ( 7- 7, 3- 3)     ylab-l   titleGrob[axis.title.y.left..titleGrob.34]
+14 13 ( 7- 7, 7- 7)     ylab-r                               zeroGrob[NULL]
+15 14 ( 4- 4, 5- 5)   subtitle         zeroGrob[plot.subtitle..zeroGrob.36]
+16 15 ( 3- 3, 5- 5)      title            zeroGrob[plot.title..zeroGrob.35]
+17 16 (10-10, 5- 5)    caption          zeroGrob[plot.caption..zeroGrob.38]
+18 17 ( 2- 2, 2- 2)        tag              zeroGrob[plot.tag..zeroGrob.37]
+```
+
+```r 
 tar_read(complex_plot)
+```
+
+```
+TableGrob (12 x 9) "layout": 18 grobs
+    z         cells       name                                         grob
+1   0 ( 1-12, 1- 9) background               rect[plot.background..rect.77]
+2   5 ( 6- 6, 4- 4)     spacer                               zeroGrob[NULL]
+3   7 ( 7- 7, 4- 4)     axis-l           absoluteGrob[GRID.absoluteGrob.65]
+4   3 ( 8- 8, 4- 4)     spacer                               zeroGrob[NULL]
+5   6 ( 6- 6, 5- 5)     axis-t                               zeroGrob[NULL]
+6   1 ( 7- 7, 5- 5)      panel                      gTree[panel-1.gTree.57]
+7   9 ( 8- 8, 5- 5)     axis-b           absoluteGrob[GRID.absoluteGrob.61]
+8   4 ( 6- 6, 6- 6)     spacer                               zeroGrob[NULL]
+9   8 ( 7- 7, 6- 6)     axis-r                               zeroGrob[NULL]
+10  2 ( 8- 8, 6- 6)     spacer                               zeroGrob[NULL]
+11 10 ( 5- 5, 5- 5)     xlab-t                               zeroGrob[NULL]
+12 11 ( 9- 9, 5- 5)     xlab-b titleGrob[axis.title.x.bottom..titleGrob.68]
+13 12 ( 7- 7, 3- 3)     ylab-l   titleGrob[axis.title.y.left..titleGrob.71]
+14 13 ( 7- 7, 7- 7)     ylab-r                               zeroGrob[NULL]
+15 14 ( 4- 4, 5- 5)   subtitle         zeroGrob[plot.subtitle..zeroGrob.73]
+16 15 ( 3- 3, 5- 5)      title            zeroGrob[plot.title..zeroGrob.72]
+17 16 (10-10, 5- 5)    caption          zeroGrob[plot.caption..zeroGrob.75]
+18 17 ( 2- 2, 2- 2)        tag              zeroGrob[plot.tag..zeroGrob.74]
 ```
 
 Both our plot objects indeed got transformed intro `Grob` objects! With the adapted sizes. With the hooks, we could easily transform all of the figures of a workflow into `Grobs`.
@@ -337,7 +442,7 @@ We thus have to fix an image size and a file location in advance but at least th
 
 Here's how we could proceed with our previous workflow (and without the targets hooks):
 
-```{r third-workflow}
+```r 
 tar_script({
   library("ggplot2")
   library("targets")
@@ -375,17 +480,34 @@ tar_script({
 # Run the workflow
 tar_make()
 ```
+
+```
+✔ skip target mtcars_df
+• start target simple_plot
+Saving 7 x 7 in image
+• built target simple_plot [0.6 seconds]
+• start target complex_plot
+Saving 7 x 7 in image
+• built target complex_plot [0.3 seconds]
+• end pipeline [0.98 seconds]
+Message d'avis :
+le package 'ggplot2' a été compilé avec la version R 4.2.2 
+```
 Note that because `ggsave()` returns a filepath, we had to indicate to `tar_target()` that the target was a file using the argument `format = "file"`. We can now check our saved targets:
 
-```{r third-saved-targets}
+```r 
 tar_read(simple_plot)
+```
+
+```
+[1] "simple_plot.png"
 ```
 
 We only got `"simple_plot.png"` because the target in itself only stores the filepath to the actual saved file. So to visualize it, we need to go into the folder and open the file:
 
-<!--html_preserve-->
+
 {{< figure src = "simple_plot.png" alt = "Scatter plot representing mileage of cars in function of number of cylinders based on the mtcars dataset" >}}
-<!--/html_preserve-->
+
 
 And our plots were saved! I will leave adapting this workflow to use tarchetypes hooks as an exercise to the reader 😉
 
@@ -409,7 +531,7 @@ As you may have guessed, the solution was in front of our eyes all this time: in
 
 One way to do it is before calling `ggplot()` in the plotting functions to use `rm()` to remove any objects lying around in the function environment. With our workflow example it would mean:
 
-```{r fourth-workflow}
+```r 
 tar_script({
   library("ggplot2")
   library("targets")
@@ -459,11 +581,34 @@ tar_script({
 tar_make()
 ```
 
+```
+✔ skip target mtcars_df
+• start target simple_plot
+• built target simple_plot [0 seconds]
+✔ skip target complex_but_slim_plot
+• start target complex_plot
+• built target complex_plot [0 seconds]
+• end pipeline [0.18 seconds]
+Message d'avis :
+le package 'ggplot2' a été compilé avec la version R 4.2.2 
+```
+
 Now we added a new target `complex_but_slim_plot` that still plot the same thing as `complex_plot` but has a specific line where it removes all intermediate objects lying around. We can compare their sizes:
 
-```{r fourth-sizes}
+```r 
 lobstr::obj_size(tar_read(complex_plot))
+```
+
+```
+921.75 kB
+```
+
+```r 
 lobstr::obj_size(tar_read(complex_but_slim_plot))
+```
+
+```
+905.67 kB
 ```
 
 Indeed, the second plot takes less size on the disk! So this strategy works by using the strength (and weakness) of ggplot2 objects and tidying up the local environments before generating the plot. Of course our toy example only show a reduction of around 20 kB, but as I said above, if your plotting function requires a lot of data wrangling, this gain can be substantial. With this trick you can reduce the file size of your targets workflow and the speed at which your saved plot objects load.
