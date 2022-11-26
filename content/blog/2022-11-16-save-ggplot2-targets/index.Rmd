@@ -71,9 +71,9 @@ knitr::knit_hooks$set(
 ```
 
 
-I really enjoy using [`targets`](https://doc.ropensci.org/targets) for all of my data analysis projects. They help me structure all of the projects nicely in the same folder. For them I often produce several figures using `ggplot2`. I want to keep my plots accessible to be able to revisit them anytime and to assemble them with `patchwork` into more complex figures for a potential paper. In a regular project I generate 10 to 20 figures, some only diagnostic ones and some final polished one for the potential finished manuscript. I do revisit the list of figures often, as co-authors or reviewers ask me for more detailed analyses and visualizations.
+I really enjoy using [`targets`](https://doc.ropensci.org/targets) for all of my data analysis projects. They help me structure all of the projects nicely in the same folder. For them I often produce several figures using `ggplot2`. I want to keep my plots accessible to be able to revisit them anytime and to assemble them with [`patchwork`](https://patchwork.data-imaginist.com/) into more complex figures for a potential paper. In a regular project I generate 10 to 20 figures, some only diagnostic ones and some polished ones for the finished manuscript. I do revisit the list of figures often, as co-authors or reviewers ask me for more detailed analyses and visualizations.
 
-In most cases, I don't know before hand the sizes of the figures, so I like to save the ggplot2 plots as R objects and not images in my `targets` workflow. I sometimes edit them for a presentation, a paper, or a poster, so I like to the flexibility of saving them as R objects.
+In most cases, I don't know before hand the sizes of the figures, so I like to save the ggplot2 plots as R objects and not images in my `targets` workflow. I sometimes edit them for a presentation, a paper, or a poster, so I like  the flexibility of saving them as R objects. This allows me to change their aspect ratio or their style on the fly.
 
 However, there are no formal recommendations to save ggplot2 objects in targets workflow. These can have different consequences for the size of stored cache, the loading time, the flexibility, and ease of use of the plots.
 
@@ -84,7 +84,7 @@ In this blog post I explore the different possible options and discuss their pro
 
 My first solution was to not worry about the plots and leverage the very clever system from targets that saves object.
 
-Let's say our workflow loads the data and make a simple plot:
+Let's say our workflow loads the data and makes a simple plot:
 
 ```{r first-workflow}
 library("targets")
@@ -161,7 +161,7 @@ tar_script({
 tar_make()
 ```
 
-We now have two plot targets, the `simple_plot` target which is the same as previously and `complex_plot` which differs from `simple_plot` only from data manipulation prior to the plotting, **that are not affecting the plot object in itself**.
+We now have two plot targets, the `simple_plot` target which is the same as previously, and `complex_plot` which differs from `simple_plot` only from data manipulation prior to the plotting, **that is not affecting the plot in itself**.
 
 If we compare their sizes:
 
@@ -193,7 +193,7 @@ In our workflow example above, the size difference between both objects isn't mu
 
 ## Second (partial) solution: transform ggplot2 objects into `grObs` using target hooks
 
-My workflows started to grow big and the plots were slow, so I asked around to the targets community for a solution. While it was considered at one point to propose [a specific storage for ggplot2 object], the reliance of the objects on environments made it impossible to solve. These objects need to be stored including all of their environment.
+My workflows started to grow big and the plots were slow, so I asked around to the targets community for a solution. While it was considered at one point to propose [a specific storage for ggplot2 object](https://github.com/ropensci/drake/issues/882#issuecomment-580053751) on `drake` the predecessor of `targets`, the reliance of the objects on environments made it impossible to solve. These objects need to be stored including all of their environment.
 
 ggplot2 needs to render the plots when they are shown. This transformation relies on the framework of the `grid` package and the transformation of ggplot2 objects into `Grob` objects (short for **Gr**aphical **ob**jects). The plots then are purely graphical and contain no more the initial data nor the plotting environment. These objects are thus much lighter.
 
@@ -261,7 +261,7 @@ grid::grid.draw(tar_read(simple_grob))
 
 We got our plot back! It is still resizable, can still be exported as a file through RStudio or graphical devices. However, as it's not a ggplot2 object anymore, we cannot tweak its theme nor use the `ggsave` function.
 
-If you have tens of plots, it maybe quite cumbersome to call `ggplot2::ggplotGrob()` at the end of all your plot functions. That's where someone in the community suggested using [`tarchetypes` hooks](). I wasn't aware at the time, but tarchetypes, which is an extension of targets to more easily generate a list of targets, has a system of "hooks" that can apply functions to your targets automatically (all or a subset based on their names). These are accessible through the functions `tar_hook_before()`, `tar_hook_inner()`, and `tar_hook_outer()` in `tarchetypes`. They will respectively transform the target to execute a function *before*, wrap the target in, or (??? what's the difference between inner and outer?). We have to indicate with `.x` where is the previous commond supposed to be executed. This means that using `tar_hook_outer()` we would be able to automatically execute `ggplotGrob()` to all our plot targets like so:
+If you have tens of plots, it maybe quite cumbersome to call `ggplot2::ggplotGrob()` at the end of all your plot functions. That's where someone in the community suggested using [`tarchetypes` hooks](). I wasn't aware at the time, but tarchetypes, which is an extension of targets to more easily generate a list of targets, has a system of "hooks" that can apply functions to your targets automatically (all or a subset based on their names). These are accessible through the functions `tar_hook_before()`, `tar_hook_inner()`, and `tar_hook_outer()` in `tarchetypes`. They will respectively transform the target to execute a function *before*, wrap the dependencies of given target in a function call, or call a function around each target. We have to indicate with `.x` where is the previous commond supposed to be executed. This means that using `tar_hook_outer()` we would be able to automatically execute `ggplotGrob()` to all our plot targets like so:
 
 ```{r second-workflow-hooks}
 tar_script({
@@ -465,6 +465,7 @@ Now we added a new target `complex_but_slim_plot` that still plot the same thing
 lobstr::obj_size(tar_read(complex_plot))
 lobstr::obj_size(tar_read(complex_but_slim_plot))
 ```
+
 Indeed, the second plot takes less size on the disk! So this strategy works by using the strength (and weakness) of ggplot2 objects and tidying up the local environments before generating the plot. Of course our toy example only show a reduction of around 20 kB, but as I said above, if your plotting function requires a lot of data wrangling, this gain can be substantial. With this trick you can reduce the file size of your targets workflow and the speed at which your saved plot objects load.
 
 ### Pros
@@ -492,7 +493,7 @@ In this blog post, we explored solutions to save ggplot2 objects in targets work
 
 ## Conclusion
 
-From my simple problem of finding the "best" way of saving ggplot2 objects in targets workflows, I've learned quite a ton about both targets and ggplot2 internals. I hope you liked the journey as much as I
+From my simple problem of finding the "best" way of saving ggplot2 objects in targets workflows, I've learned a ton about both targets and ggplot2 internals. I hope you liked the journey as much as I enjoyed writing about it. For sure, writing this tech note led me to dive into the details of what's happening on both targets and ggplot2 side.
 
 
 ## Going Further
