@@ -65,7 +65,7 @@ their time and helped piloted this new system! Also to our [statistical advisory
 board](https://stats-devguide.ropensci.org/) and all the community members that
 have provided input on our standards and processes.
 
-We're currently accepting packages in Bayesian statistics, expoloratory data analysis, machine-learning, regression and supervised learning, spatial and time-series statistics, and dimensionality reduction, clustering, and unsupervised learning. We will be expanding our standards to cover other areas such as network analysis in the the near future. 
+We're currently accepting packages in Bayesian statistics, exploratory data analysis, machine-learning, regression, supervised learning, spatial and time-series statistics, dimensionality reduction, clustering, and unsupervised learning. We will be expanding our standards to cover other areas such as network analysis in the the near future. 
 
 If you are interested in participating in statistical software peer review at rOpenSci? Here are some ways to get involved:
 
