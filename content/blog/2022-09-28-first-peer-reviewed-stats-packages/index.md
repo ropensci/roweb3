@@ -49,7 +49,7 @@ statistical packages to pass peer review are:
     by Joel H. Nitta, reviewed by Luis Osorio and Klaus Schliep, edited by Toby
     Dylan Hocking
 
-These packages are peer-reviewed by statisticians and developers to conform to a
+These packages were peer-reviewed by statisticians and developers to conform to a
 set of [standards](https://stats-devguide.ropensci.org/standards.html) we've developed
 with community input. These cover areas such as documentation, testing, algorithm
 design and interoperability.  As part of the review process, authors have also
