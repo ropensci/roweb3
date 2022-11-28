@@ -62,7 +62,7 @@ for editors and reviewers. To help them we've also built
 and diagnostics that help both authors and reviewers navigate the review. 
 
 An enormous thank-you to the authors, editors, and reviewers who volunteered
-their time and helped piloted this new system! Also to our [statistical advisory
+their time and helped pilot this new system! Also to our [statistical advisory
 board](https://stats-devguide.ropensci.org/) and all the community members that
 have provided input on our standards and processes.
 
