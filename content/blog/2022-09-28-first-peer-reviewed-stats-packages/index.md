@@ -51,7 +51,7 @@ statistical packages to pass peer review are:
 
 These packages were peer-reviewed by statisticians and developers to conform to a
 set of [standards](https://stats-devguide.ropensci.org/standards.html) we've developed
-with community input. These cover areas such as documentation, testing, algorithm
+with community input. These standards cover areas such as documentation, testing, algorithm
 design and interoperability.  As part of the review process, authors have also
 [annotated their source code](https://ropensci-review-tools.github.io/srr/) to
 document how and where they comply with these standards.  
