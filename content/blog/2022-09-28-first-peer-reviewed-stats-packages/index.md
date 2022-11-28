@@ -27,7 +27,7 @@ cycle](https://devguide.ropensci.org/policies.html#aims-and-scope). Now, thanks
 to work over the past two years [supported by the Sloan
 Foundation](https://ropensci.org/blog/2019/07/15/expanding-software-review/) we
 also facilitate peer-review of packages that implement statistical algorithms. The first
-three packages passed peer review last week:
+statistical packages to pass peer review are:
 
 <!-- Note, I excluded package authors here that were listed as data providers, thesis advisors, etc. Should I include them? Probably... -->
 
