@@ -73,6 +73,6 @@ If you are interested in participating in statistical software peer review at rO
  - Watch or listen to some of our recent [community Cclls](https://ropensci.org/commcalls/)
  - [Submit your own package for review or make a pre-submission inquiry](https://github.com/ropensci/software-review/issues/new/choose)
  - [Volunteer to be a peer-reviewer](https://airtable.com/shrnfDI2S9uuyxtDw)
- - Apply to our [Community Champions program](https://ropensci.org/champions/) to get support and training in package development and review.
+ - During the next call for applications, apply to our [Community Champions program](https://ropensci.org/champions/) to get support and training in package development and review.
 
 
