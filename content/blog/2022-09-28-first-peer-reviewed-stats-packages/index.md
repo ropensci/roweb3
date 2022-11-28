@@ -27,7 +27,7 @@ Historically, we have focused on R packages that manage
 the [research data life
 cycle](https://devguide.ropensci.org/policies.html#aims-and-scope). Now, thanks
 to work over the past two years [supported by the Sloan
-Foundation](https://ropensci.org/blog/2019/07/15/expanding-software-review/) we
+Foundation](/blog/2019/07/15/expanding-software-review/) we
 also facilitate peer-review of packages that implement statistical algorithms. The first
 statistical packages to pass peer review are:
 
