@@ -58,7 +58,7 @@ document how and where they comply with these standards.
 
 Evaluating and reviewing statistical packages is a complex and difficult task
 for editors and reviewers.To help them we've also built
-[automated infrastructure](https://ropensci.org/commcalls/dec2021-automation/) for checking submissions for compliance and producing metrics
+[automated infrastructure](/commcalls/dec2021-automation/) for checking submissions for compliance and producing metrics
 and diagnostics that help authors and reviewers navigate the review. 
 
 An enormous thank-you to the authors, editors, and reviewers who volunteered
