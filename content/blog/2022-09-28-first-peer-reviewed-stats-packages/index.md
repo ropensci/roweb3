@@ -57,7 +57,7 @@ design and interoperability.  As part of the review process, authors have also
 document how and where they comply with these standards.  
 
 Evaluating and reviewing statistical packages is a complex and difficult task
-for editors and reviewers.To help them we've also built
+for editors and reviewers. To help them we've also built
 [automated infrastructure](/commcalls/dec2021-automation/) for checking submissions for compliance and producing metrics
 and diagnostics that help authors and reviewers navigate the review. 
 
