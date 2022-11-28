@@ -59,7 +59,7 @@ document how and where they comply with these standards.
 Evaluating and reviewing statistical packages is a complex and difficult task
 for editors and reviewers. To help them we've also built
 [automated infrastructure](/commcalls/dec2021-automation/) for checking submissions for compliance and producing metrics
-and diagnostics that help authors and reviewers navigate the review. 
+and diagnostics that help both authors and reviewers navigate the review. 
 
 An enormous thank-you to the authors, editors, and reviewers who volunteered
 their time and helped piloted this new system! Also to our [statistical advisory
