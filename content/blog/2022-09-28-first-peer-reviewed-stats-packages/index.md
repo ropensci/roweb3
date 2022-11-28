@@ -32,9 +32,8 @@ statistical packages to pass peer review are:
 <!-- Note, I excluded package authors here that were listed as data providers, thesis advisors, etc. Should I include them? Probably... -->
 
 -   [**aorsf: Accelerated Oblique Random Survival
-    Forests**](https://github.com/ropensci/aorsf) [![Status at rOpenSci Software
-    Peer
-    Review](https://badges.ropensci.org/532_status.svg)](https://github.com/ropensci/software-review/issues/532/),
+    Forests**](https://github.com/ropensci/aorsf) [![Gold Statistical Software Peer Review
+    badge](https://badges.ropensci.org/532_status.svg)](https://github.com/ropensci/software-review/issues/532/),
     by Byron Jaeger, Nicholas Pajewski, and Sawyer Welden, reviewed by Lukas
     Burk, Marvin N. Wright, edited by Toby Dylan Hocking
 -   [**melt: Multiple Empirical Likelihood
