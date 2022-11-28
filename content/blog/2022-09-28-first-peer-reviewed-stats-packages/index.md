@@ -63,7 +63,7 @@ and diagnostics that help both authors and reviewers navigate the review.
 
 We extend an enormous thank-you to the authors, editors, and reviewers who volunteered
 their time and helped pilot this new system! Also to our [statistical advisory
-board](https://stats-devguide.ropensci.org/) and all the community members that
+board](https://stats-devguide.ropensci.org/) and all the community members who
 have provided input on our standards and processes.
 
 We're currently accepting packages in Bayesian statistics, exploratory data analysis, machine-learning, regression, supervised learning, spatial and time-series statistics, dimensionality reduction, clustering, and unsupervised learning. We will be expanding our standards to cover other areas such as network analysis in the the near future. 
