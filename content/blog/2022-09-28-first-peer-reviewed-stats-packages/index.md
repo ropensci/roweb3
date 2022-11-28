@@ -71,7 +71,7 @@ We're currently accepting packages in Bayesian statistics, exploratory data anal
 If you are interested in participating in statistical software peer review at rOpenSci? Here are some ways to get involved:
 
  - Read about our process and standards (and suggest changes!) in the [rOpenSci Statistical Software Development Guide!]
- - Watch or listen to some of our recent [community Cclls](https://ropensci.org/commcalls/)
+ - Watch or listen to some of our recent [community Calls](/commcalls/)
  - [Submit your own package for review or make a pre-submission inquiry](https://github.com/ropensci/software-review/issues/new/choose)
  - [Volunteer to be a peer-reviewer](https://airtable.com/shrnfDI2S9uuyxtDw)
  - During the next call for applications, apply to our [Community Champions program](https://ropensci.org/champions/) to get support and training in package development and review.
