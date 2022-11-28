@@ -42,8 +42,8 @@ statistical packages to pass peer review are:
     by Eunseop Kim, reviewed by Alex Stringer and Pierre Chausse, edited by
     Paula Moraga
 -   [**canaper: Categorical Analysis of Neo- And Paleo-Endemism in
-    R**](https://github.com/ropensci/canaper) [![ropensci
-    review](https://badges.ropensci.org/475_status.svg)](https://github.com/ropensci/software-review/issues/475),
+    R**](https://github.com/ropensci/canaper) [![Silver Statistical Software Peer Review 
+    badge](https://badges.ropensci.org/475_status.svg)](https://github.com/ropensci/software-review/issues/475),
     by Joel H. Nitta, reviewed by Luis Osorio and Klaus Schliep, edited by Toby
     Dylan Hocking
 
