@@ -37,8 +37,8 @@ statistical packages to pass peer review are:
     by Byron Jaeger, Nicholas Pajewski, and Sawyer Welden, reviewed by Lukas
     Burk, Marvin N. Wright, edited by Toby Dylan Hocking
 -   [**melt: Multiple Empirical Likelihood
-    Tests**](https://github.com/ropensci/melt) [![ropensci
-    review](https://badges.ropensci.org/550_status.svg)](https://github.com/ropensci/software-review/issues/550)
+    Tests**](https://github.com/ropensci/melt) [![Silver Statistical Software Peer Review
+   badge](https://badges.ropensci.org/550_status.svg)](https://github.com/ropensci/software-review/issues/550)
     by Eunseop Kim, reviewed by Alex Stringer and Pierre Chausse, edited by
     Paula Moraga
 -   [**canaper: Categorical Analysis of Neo- And Paleo-Endemism in
