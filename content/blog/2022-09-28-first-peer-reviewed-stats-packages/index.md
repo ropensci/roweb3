@@ -1,6 +1,8 @@
 ---
 title: Our First Peer-Reviewed Statistical R Packages! 
-author: Noam Ross and Mark Padgham
+author: 
+  - Noam Ross
+  - Mark Padgham
 date: '2022-09-28T00:00:01-07:00'
 slug: first-peer-reviewed-stats-packages
 tags:
