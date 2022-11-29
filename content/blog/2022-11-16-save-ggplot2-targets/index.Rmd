@@ -13,6 +13,7 @@ tags:
   - ggplot2
   - workflow
   - tech notes
+  - community
 # The summary below will be used by e.g. Twitter cards
 description: "A short exploration of how to save ggplot2 objects in targets workflow"
 # If you have no preferred image for Twitter cards,
@@ -69,7 +70,9 @@ knitr::knit_hooks$set(
 ```
 
 
-I really enjoy using [`targets`](https://docs.ropensci.org/targets) for all of my data analysis projects. They help me structure all of the projects nicely in the same folder. For them I often produce several figures using `ggplot2`. I want to keep my plots accessible to be able to revisit them anytime and to assemble them with [`patchwork`](https://patchwork.data-imaginist.com/) into more complex figures for a potential paper. In a regular project I generate 10 to 20 figures, some only diagnostic ones and some polished ones for the finished manuscript. I do revisit the list of figures often, as co-authors or reviewers ask me for more detailed analyses and visualizations.
+I really enjoy using [`targets`](https://docs.ropensci.org/targets) for all of my data analysis projects, especially because it helps me structure all of the projects nicely in the same folder. For targets projects I often produce several figures using ggplot2. However, there are no formal recommendations for saving ggplot2 objects (as opposed to static images) in a targets workflow.
+
+I want to keep my plots accessible to be able to revisit them any time and to assemble them with [patchwork](https://patchwork.data-imaginist.com/) into more complex figures for a potential paper. In a regular project I generate 10 to 20 figures, some only diagnostic ones and some polished ones for the finished manuscript. I do revisit the list of figures often, as co-authors or reviewers ask me for more detailed analyses and visualizations.
 
 In most cases, I don't know before hand the sizes of the figures, so I like to save the ggplot2 plots as R objects and not images in my `targets` workflow. I sometimes edit them for a presentation, a paper, or a poster, so I like  the flexibility of saving them as R objects. This allows me to change their aspect ratio or their style on the fly.
 
