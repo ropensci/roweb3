@@ -1,6 +1,6 @@
 ---
 slug: "save-ggplot2-targets"
-title: How to Save ggplot2 plots in a targets Workflow?
+title: How to Save ggplot2 Plots in a targets Workflow?
 author:
   - Matthias Grenié
 # Set the date below to the publication date of your post
@@ -70,23 +70,23 @@ knitr::knit_hooks$set(
 ```
 
 
-I really enjoy using [`targets`](https://docs.ropensci.org/targets) for all of my data analysis projects, especially because it helps me structure all of the projects nicely in the same folder. For targets projects I often produce several figures using ggplot2. However, there are no formal recommendations for saving ggplot2 objects (as opposed to static images) in a targets workflow.
+I really enjoy using [targets](https://docs.ropensci.org/targets) for all of my data analysis projects, especially because it helps me structure all of the projects nicely in the same folder. For targets projects I often produce several figures using ggplot2. However, there are no formal recommendations for saving ggplot2 objects (as opposed to static images) in a targets workflow.
 
 I want to keep my plots accessible to be able to revisit them any time and to assemble them with [patchwork](https://patchwork.data-imaginist.com/) into more complex figures for a potential paper. In a regular project I generate 10 to 20 figures, some only diagnostic ones and some polished ones for the finished manuscript. I do revisit the list of figures often, as co-authors or reviewers ask me for more detailed analyses and visualizations.
 
-In most cases, I don't know before hand the sizes of the figures, so I like to save the ggplot2 plots as R objects and not images in my `targets` workflow. I sometimes edit them for a presentation, a paper, or a poster, so I like  the flexibility of saving them as R objects. This allows me to change their aspect ratio or their style on the fly without having to re-create them.
+In most cases, I don't know before hand the sizes of the figures, so I like to save the ggplot2 plots as R objects and not images in my targets workflow. I sometimes edit them for a presentation, a paper, or a poster, so I like  the flexibility of saving them as R objects. This allows me to change their aspect ratio or their style on the fly without having to re-create them.
 
 However, how the plot objects are saved can have different consequences for the size of stored cache, the loading time, the flexibility, and ease of use of the plots.
 In this blog post I explore the different possible options for saving plots in a targets workflow and discuss their pros and cons, with some insights from both ggplot2 and targets communities. I will show the consequences of using each one of them through a simple workflow making a plot with the `mtcars` dataset.
 
 
-## First solution: saving the entire `ggplot2` objects without worrying
+## First solution: saving the entire ggplot2 objects without worrying
 
 My first solution was to not worry about the plots and leverage the very clever system from targets that saves objects.
 
 Let's say our workflow loads the data and makes a simple plot:
 
-```{r first-workflow}
+```{r first-workflow, warning=FALSE}
 library("targets")
 library("ggplot2")
 
@@ -193,7 +193,7 @@ In our workflow example above, the size difference between both objects isn't mu
 * If object is big, than slow to load
 
 
-## Second (partial) solution: transform ggplot2 objects into `grObs` using target hooks
+## Second (partial) solution: transform ggplot2 objects into `grobs` using target hooks
 
 My workflows started to grow big and the plots were slow, so I asked around the targets community for a solution. While it was proposed at one point to create [a specific storage for ggplot2 objects](https://github.com/ropensci/drake/issues/882#issuecomment-580053751) in drake (the predecessor of targets), the reliance of the objects on environments made it impossible to solve. These objects need to be stored including all of their environment.
 
@@ -261,9 +261,9 @@ This doesn't display a plot but shows us how the plot is stored as a `Grob` in t
 grid::grid.draw(tar_read(simple_grob))
 ```
 
-We got our plot back! It is still resizable, can still be exported as a file through RStudio or graphical devices. However, as it's not a ggplot2 object anymore, we cannot tweak its theme nor use the `ggsave` function.
+We got our plot back! It is still resizable, can still be exported as a file through RStudio or graphical devices. However, as it's not a ggplot2 object anymore, we cannot tweak its theme nor use the `ggsave()` function.
 
-If you have tens of plots, it maybe quite cumbersome to call `ggplot2::ggplotGrob()` at the end of all your plot functions. That's where someone in the community suggested using [tarchetypes hooks](). I wasn't aware at the time, but tarchetypes, which is an extension of targets to more easily generate a list of targets, has a system of "hooks" that can apply functions to your targets automatically (to all or to a subset based on their names). These are accessible through the functions `tar_hook_before()`, `tar_hook_inner()`, and `tar_hook_outer()` in tarchetypes. They will respectively, transform the target to execute a function *before*, wrap the dependencies of given target in a function call, or call a function around each target. We have to indicate with `.x` where the previous command should be executed. This means that if using `tar_hook_outer()` we would be able to automatically execute `ggplotGrob()` on all our plot targets like so:
+If you have tens of plots, it maybe quite cumbersome to call `ggplot2::ggplotGrob()` at the end of all your plot functions. That's where someone in the community (it was [Miles McBain](/author/miles-mcbain/) on rOpenSci Slack space :tada:) suggested using [tarchetypes](http://docs.ropensci.org/tarchetypes) [hooks](https://docs.ropensci.org/tarchetypes/reference/index.html#hooks). I wasn't aware at the time, but tarchetypes, which is an extension of targets to more easily generate a list of targets, has a system of ["hooks"](https://docs.ropensci.org/tarchetypes/reference/index.html#hooks) that can apply functions to your targets automatically (to all or to a subset based on their names). These are accessible through the functions `tar_hook_before()`, `tar_hook_inner()`, and `tar_hook_outer()` in tarchetypes. They will respectively, transform the target to execute a function *before*, wrap the dependencies of given target in a function call, or call a function around each target. We have to indicate with `.x` where the previous command should be executed. This means that if using `tar_hook_outer()` we would be able to automatically execute `ggplotGrob()` on all our plot targets like so:
 
 ```{r second-workflow-hooks}
 tar_script({
@@ -489,10 +489,10 @@ Indeed, the second plot takes less size on the disk! So this strategy works by u
 
 In this blog post, we explored solutions to save ggplot2 objects in targets workflows:
 
-* The first solution is to use `ggplot2` objects directly without consideration, which may accidentally save bigger objects because it saves the entire plot environment.
-* The second solution is to convert `ggplot2` objects into `Grobs`, which are much lighter, this can be painlessly implemented through targets hooks, however, saving the ggplot2 grobs is officially discouraged by the ggplot2 maintainers.
+* The first solution is to use ggplot2 objects directly without consideration, which may accidentally save bigger objects because it saves the entire plot environment.
+* The second solution is to convert ggplot2 objects into `Grobs`, which are much lighter, this can be painlessly implemented through targets hooks, however, saving the ggplot2 grobs is officially discouraged by the ggplot2 maintainers.
 * The third solution is to save images directly (with or without targets hooks) through `ggsave`, this makes sure that only the images are saved (and not the plot environments), but is much less flexible regarding the re-styling of the plot after the fact.
-* The fourth (and my recommended) solution is to use `ggplot2` while paying great attention to what objects are present in the plot environment. By thinning any object that may be staying in the environment, the size of the final object can decrease dramatically (and as such the size of the saved targets). This is only a concern if your plotting functions contain a lot of data wrangling with many intermediate objects.
+* The fourth (and my recommended) solution is to use ggplot2 while paying great attention to what objects are present in the plot environment. By thinning any object that may be staying in the environment, the size of the final object can decrease dramatically (and as such the size of the saved targets). This is only a concern if your plotting functions contain a lot of data wrangling with many intermediate objects.
 
 
 ## Conclusion
@@ -511,4 +511,4 @@ From my simple problem of finding the "best" way of saving ggplot2 objects in ta
 ## Acknowledgments
 
 Thanks to [Will Landau](/author/will-landau/) for creating targets and always answering the silly questions I may ask in the dedicated channel of the rOpenSci slack.
-Thanks as well to [Noam Ross](/author/noam-ross/) & [Miles McBain](/author/miles-mcbain/) who both wrote first about that issue that I also experienced.
+Thanks as well to [Noam Ross](/author/noam-ross/) & [Miles McBain](/author/miles-mcbain/) who both wrote first about that issue that I also experienced and inspired me to dive deeper into the solutions.
