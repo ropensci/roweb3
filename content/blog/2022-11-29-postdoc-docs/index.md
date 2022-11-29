@@ -37,7 +37,14 @@ We have recently started building the reference manuals for each package r-unive
 
 
 [![screenshot from the targets webpage on r-universe](targets.png)](https://ropensci.r-universe.dev/ui#package:targets)
+Below some random examples of refence manuals from popular packages to get an impression:
 
+ - [`https://ropensci.r-universe.dev/manual/targets.html`](https://ropensci.r-universe.dev/manual/targets.html)
+ - [`https://tidyverse.r-universe.dev/manual/dplyr.html`](https://tidyverse.r-universe.dev/manual/dplyr.html)
+ - [`https://jeroen.r-universe.dev/manual/jsonlite.html`](https://jeroen.r-universe.dev/manual/jsonlite.html)
+ - [`https://rstudio.r-universe.dev/manual/shiny.html`](https://rstudio.r-universe.dev/manual/shiny.html)
+ - [`https://r-universe.dev/manuals/MASS.html`](https://r-universe.dev/manuals/MASS.html)
+ - [`https://r-universe.dev/manuals/Matrix.html`](https://r-universe.dev/manuals/Matrix.html) (lots of math)
 
 ## What is nice about a reference manual
 
