@@ -76,7 +76,6 @@
       "researcher",
       "developer"
    ],
-   "twitter": "bikesRdata",
    "mastodon": "https://nerdculture.de/@mpadge",
    "github": "mpadge",
    "home": "/author/mark-padgham"
@@ -91,7 +90,6 @@
       "developer",
       "editor"
    ],
-   "twitter": "ma_salmon",
    "mastodon": "https://mastodon.social/@maelle",
    "github": "maelle",
    "home": "/author/maëlle-salmon"
@@ -177,6 +175,7 @@
       "editor"
    ],
    "twitter": "annakrystalli",
+   "mastodon": "https://fosstodon.org/@annakrystalli",
    "github": "annakrystalli",
    "home": "https://annakrystalli.me/"
 },
@@ -212,6 +211,7 @@
       "editor"
    ],
    "twitter": "melvidoni",
+   "mastodon": "https://mastodon.social/@drmelvidoni",
    "github": "melvidoni",
    "home": "https://melvidoni.rbind.io/"
 },
@@ -266,7 +266,7 @@
 },
 {
    "name": "Adam Sparks",
-   "url": "https://adamhsparks.com/",
+   "url": "https://adamhsparks.netlify.app/",
    "image" : "/img/team/adam-sparks.jpg",
 
    "affiliation" : "Department of Primary Industries and Regional Development",
