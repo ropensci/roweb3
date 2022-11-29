@@ -4,7 +4,7 @@ title: How to Save ggplot2 plots in a targets Workflow?
 author:
   - Matthias Grenié
 # Set the date below to the publication date of your post
-date: 2022-11-16
+date: 2022-12-06
 # Minimal tags for a post about a community-contributed package 
 # that has passed software peer review are listed below
 # Consult the Technical Guidelines for information on choosing tags
