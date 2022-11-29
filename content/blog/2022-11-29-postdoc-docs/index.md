@@ -10,7 +10,6 @@ tags:
   - documentation
   - syntax highlighting
   - postdoc
-featured: true
 ---
 
 <small><em>This post is part of a series of technotes about [r-universe](https://r-universe.dev), a new umbrella project by rOpenSci under which we experiment with various ideas for improving publication and discovery of research software in R.
