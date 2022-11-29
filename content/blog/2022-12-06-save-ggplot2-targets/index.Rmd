@@ -111,9 +111,11 @@ tar_make()
 
 Then if you want to access the plot you can use `tar_read()` or `tar_load()` and you'll get back a modifiable ggplot2 object
 
-```{r first-load-plot}
+```{r first-load-plot, hugoopts=list(alt="Scatterplot of the mtcars dataset showing miles per gallon in function of number of cylinders."}
 tar_read(simple_plot)
+```
 
+```{r first-mod-plot, hugoopts=list(alt="Same scatterplot as before but styled differently with a white background instead of grey background."}
 # It's modifiable (we can add a theme after the fact)
 tar_read(simple_plot) +
   theme_bw()
@@ -257,7 +259,7 @@ tar_read(simple_grob)
 
 This doesn't display a plot but shows us how the plot is stored as a `Grob` in the grid system. To display it we need to use a function that transforms this object into an actual plot. For example, with the `grid::grid.draw()` function:
 
-```{r second-grob-plot}
+```{r second-grob-plot, hugoopts=list(alt="Scatterplot of the mtcars dataset showing miles per gallon in function of number of cylinders."}
 grid::grid.draw(tar_read(simple_grob))
 ```
 
@@ -306,7 +308,7 @@ tar_make()
 
 We can check our plot objects:
 
-```{r second-hook-grob}
+```{r second-hook-grob, hugoopts=list(alt="Scatterplot of the mtcars dataset showing miles per gallon in function of number of cylinders."}
 tar_read(simple_plot)
 tar_read(complex_plot)
 ```
@@ -381,7 +383,7 @@ tar_make()
 ```
 Note that because `ggsave()` returns a file path, we had to indicate to `tar_target()` that the target was a file using the argument `format = "file"`. We can now check our saved targets:
 
-```{r third-saved-targets}
+```{r third-saved-targets, hugoopts=list(alt="Scatterplot of the mtcars dataset showing miles per gallon in function of number of cylinders."}
 tar_read(simple_plot)
 ```
 
