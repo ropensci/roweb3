@@ -407,11 +407,11 @@ I generally dislike saving my plots as images because I don't know their final s
 
 
 
-## Fourth (& final) solution: save `ggplot2` objects but thin the plotting environment
+## Fourth (& final) solution: save ggplot2 objects but thin the plotting environment
 
-As you may have guessed, the solution was in front of our eyes all this time: instead of trying to bypass the ggplot2 limitations, by saving plots into intermediate objects, we could embrace ggplot2 specificity and tackle the problem at its source, by limiting what the environment to only what is strictly needed for the plot.
+As you may have guessed, the solution was in front of our eyes all this time: instead of trying to bypass the ggplot2 limitations by saving plots into intermediate objects, we could embrace ggplot2 specificity and tackle the problem at its source, by limiting the environment to only what is strictly needed for the plot.
 
-One way to do it is before calling `ggplot()` in the plotting functions to use `rm()` to remove any objects lying around in the function environment. With our workflow example it would mean:
+One way to do it is to use `rm()` before calling `ggplot()` in the plotting functions to remove any objects lying around in the function environment. With our workflow example it would mean:
 
 ```{r fourth-workflow}
 tar_script({
@@ -470,7 +470,7 @@ lobstr::obj_size(tar_read(complex_plot))
 lobstr::obj_size(tar_read(complex_but_slim_plot))
 ```
 
-Indeed, the second plot takes less size on the disk! So this strategy works by using the strength (and weakness) of ggplot2 objects and tidying up the local environments before generating the plot. Of course our toy example only show a reduction of around 20 kB, but as I said above, if your plotting function requires a lot of data wrangling, this gain can be substantial. With this trick you can reduce the file size of your targets workflow and the speed at which your saved plot objects load.
+Indeed, the second plot takes less size on the disk! So this strategy works by using the strength (and weakness) of ggplot2 objects and tidying up the local environments before generating the plot. Of course our toy example only shows a reduction of around 20 kB, but as I said above, if your plotting function requires a lot of data wrangling, this gain can be substantial. With this trick you can reduce the file size of your targets workflow and the speed at which your saved plot objects load.
 
 ### Pros
 
@@ -489,26 +489,26 @@ Indeed, the second plot takes less size on the disk! So this strategy works by u
 
 In this blog post, we explored solutions to save ggplot2 objects in targets workflows:
 
-* The first option is to use `ggplot2` objects directly without consideration, which may accidentally save bigger objects because it saves the entire plot environment.
-* The second option is to convert `ggplot2` objects into `Grobs`, which are much lighter, this can be painlessly implemented through targets hooks, however, saving the ggplot2 grobs is officially discouraged by the ggplot2 maintainers.
-* The third option is to save images directly (with or without targets hooks) through `ggsave`, this makes sure that only the images are saved (and not the plot environments), but is much less flexible regarding the re-styling of the plot after the fact.
+* The first solution is to use `ggplot2` objects directly without consideration, which may accidentally save bigger objects because it saves the entire plot environment.
+* The second solution is to convert `ggplot2` objects into `Grobs`, which are much lighter, this can be painlessly implemented through targets hooks, however, saving the ggplot2 grobs is officially discouraged by the ggplot2 maintainers.
+* The third solution is to save images directly (with or without targets hooks) through `ggsave`, this makes sure that only the images are saved (and not the plot environments), but is much less flexible regarding the re-styling of the plot after the fact.
 * The fourth (and my recommended) solution is to use `ggplot2` while paying great attention to what objects are present in the plot environment. By thinning any object that may be staying in the environment, the size of the final object can decrease dramatically (and as such the size of the saved targets). This is only a concern if your plotting functions contain a lot of data wrangling with many intermediate objects.
 
 
 ## Conclusion
 
-From my simple problem of finding the "best" way of saving ggplot2 objects in targets workflows, I've learned a ton about both targets and ggplot2 internals. I hope you liked the journey as much as I enjoyed writing about it. For sure, writing this tech note led me to dive into the details of what's happening on both targets and ggplot2 side.
+From my simple problem of finding the "best" way of saving ggplot2 objects in targets workflows, I've learned a ton about both targets and ggplot2 internals. I hope you liked the journey as much as I enjoyed writing about it. For sure, writing this tech note led me to dive into the details of what's happening on both the targets and ggplot2 side.
 
 
 ## Going Further
 
-* To learn more about R environments, read [Chapter 7 of Advanced R](https://adv-r.hadley.nz/environments.html), it's carefully examines the properties of environments and build up your understanding progressively.
-* To understand better the grid package which is the basis on top of which ggplot2 is built, you can read ["Fun with the R Grid Package"](https://doi.org/10.1080/10691898.2010.11889587) by Lutong Zhou & W. John Braun which is a tutorial to use and understand the grid package.
+* To learn more about R environments, read [Chapter 7 of Advanced R](https://adv-r.hadley.nz/environments.html), it carefully examines the properties of environments and builds up your understanding progressively.
+* To better understand the grid package which is the base upon which ggplot2 is built, you can read the tutorial ["Fun with the R Grid Package"](https://doi.org/10.1080/10691898.2010.11889587) by Lutong Zhou & W. John Braun.
 * To understand the interaction between the grid package and ggplot2, Roger D. Peng provides [a great tutorial](https://bookdown.org/rdpeng/RProgDA/the-grid-package.html).
-* To go even deeper into the understanding of ggplot2, the [3rd version of "ggplot2: elegant graphics for data analysis"](https://ggplot2-book.org/index.html) has (a full chapter on "ggplot2 internals"](https://ggplot2-book.org/internals.html).
+* To go even deeper into the understanding of ggplot2, the [3rd version of "ggplot2: elegant graphics for data analysis"](https://ggplot2-book.org/index.html) has [a full chapter on "ggplot2 internals"](https://ggplot2-book.org/internals.html).
 * To learn more about targets hooks, read [the dedicated section in the targets manual](https://ggplot2-book.org/index.html).
 
 ## Acknowledgments
 
-Thanks to Will Landau for creating `targets` and always answering the silly questions I may ask in the dedicated channel of the rOpenSci slack.
-Thanks as well to Noam Ross & Miles McBain who both wrote first about that issue that I also experienced.
+Thanks to [Will Landau](/author/will-landau/) for creating targets and always answering the silly questions I may ask in the dedicated channel of the rOpenSci slack.
+Thanks as well to [Noam Ross](/author/noam-ross/) & [Miles McBain](/author/miles-mcbain/) who both wrote first about that issue that I also experienced.
