@@ -74,16 +74,15 @@ I really enjoy using [`targets`](https://docs.ropensci.org/targets) for all of m
 
 I want to keep my plots accessible to be able to revisit them any time and to assemble them with [patchwork](https://patchwork.data-imaginist.com/) into more complex figures for a potential paper. In a regular project I generate 10 to 20 figures, some only diagnostic ones and some polished ones for the finished manuscript. I do revisit the list of figures often, as co-authors or reviewers ask me for more detailed analyses and visualizations.
 
-In most cases, I don't know before hand the sizes of the figures, so I like to save the ggplot2 plots as R objects and not images in my `targets` workflow. I sometimes edit them for a presentation, a paper, or a poster, so I like  the flexibility of saving them as R objects. This allows me to change their aspect ratio or their style on the fly.
+In most cases, I don't know before hand the sizes of the figures, so I like to save the ggplot2 plots as R objects and not images in my `targets` workflow. I sometimes edit them for a presentation, a paper, or a poster, so I like  the flexibility of saving them as R objects. This allows me to change their aspect ratio or their style on the fly without having to re-create them.
 
-However, there are no formal recommendations to save ggplot2 objects in targets workflow. These can have different consequences for the size of stored cache, the loading time, the flexibility, and ease of use of the plots.
-
-In this blog post I explore the different possible options and discuss their pros and cons, with some insights from both `ggplot2` and `targets` communities. I will show the consequences of using each one of them through a simple workflow making a plot with the `mtcars` dataset.
+However, how the plot objects are saved can have different consequences for the size of stored cache, the loading time, the flexibility, and ease of use of the plots.
+In this blog post I explore the different possible options for saving plots in a targets workflow and discuss their pros and cons, with some insights from both ggplot2 and targets communities. I will show the consequences of using each one of them through a simple workflow making a plot with the `mtcars` dataset.
 
 
 ## First solution: saving the entire `ggplot2` objects without worrying
 
-My first solution was to not worry about the plots and leverage the very clever system from targets that saves object.
+My first solution was to not worry about the plots and leverage the very clever system from targets that saves objects.
 
 Let's say our workflow loads the data and makes a simple plot:
 
@@ -120,13 +119,13 @@ tar_read(simple_plot) +
   theme_bw()
 ```
 
-For now, the plot is pretty simple and low weight. We'll be using the `obj_size()` function from  `lobstr` package to evaluate the package size.
+For now, the plot is pretty simple and low weight. We'll be using the `obj_size()` function from  [lobstr](https://lobstr.r-lib.org/) package to evaluate the package size.
 
 ```{r first-size}
 lobstr::obj_size(tar_read(simple_plot))
 ```
 
-The problem arises when you start having plots with a lot going on in the plot function. If retake the same targets workflow but have a more busy plot function we'll be able to measure the size of the plot object again:
+The problem arises when you start having plots with a lot going on in the plot function. If we retake the same targets workflow but have a more busy plot function we'll be able to measure the size of the plot object again:
 
 ```{r first-busy-workflow}
 tar_script({
@@ -162,7 +161,7 @@ tar_script({
 tar_make()
 ```
 
-We now have two plot targets, the `simple_plot` target which is the same as previously, and `complex_plot` which differs from `simple_plot` only from data manipulation prior to the plotting, **that is not affecting the plot in itself**.
+We now have two plot targets, the `simple_plot` target which is the same as previously, and `complex_plot` which differs from `simple_plot` only by having data manipulation and object creation prior to the plotting, **which does not affect the plot in itself**.
 
 If we compare their sizes:
 
@@ -175,9 +174,11 @@ lobstr::obj_size(tar_read(complex_plot))
 ```
 
 We observe that the `complex_plot` is larger in size than `simple_plot`! This seems very surprising as we haven't changed a line of the plotting code *per se*. So what is happening here?
-Well the issue comes from the way ggplot2 works: it doesn't save the graphical plots in themselves, it saves their **environment** and generates the plot only when called from this saved environment (see it in [this GitHub issue](https://github.com/tidyverse/ggplot2/issues/4056) for example). If you're not familiar with the concept of environment, don't worry! It's a rather hard concept to grasp (and I'm not sure I do understand it, if you want to know more about it you can read the [dedicated chapter](https://adv-r.hadley.nz/environments.html) in [Advanced R](https://adv-r.hadley.nz/)). If we simplify the concept, the `ggplot()` function saves the plotting function in themselves **plus** all of the object lying around where it's called, because they may be useful for the plot (which one are useful ggplot2 can't tell because remember that the plot is only really rendered when called). Because targets saves the entire object it also save its entire environment. This problem was [also](https://github.com/ropensci/drake/issues/882) [known](https://github.com/ropensci/drake/issues/1258) with targets' predecessor `drake`.
+Well the issue comes from the way ggplot2 works: it doesn't save the graphical plots in themselves, it saves their **environment** and generates the plot only when called from this saved environment (see [this GitHub issue](https://github.com/tidyverse/ggplot2/issues/4056) for example). If you're not familiar with the concept of environment, don't worry! It's a rather hard concept to grasp (and I'm not even sure I do understand it). If you want to know more about it you can read the [dedicated chapter](https://adv-r.hadley.nz/environments.html) in [Advanced R](https://adv-r.hadley.nz/).
 
-In our workflow example above, the size difference between both objects isn't much different, so it does not change the performance of the plot nor the total size taken by the saved targets workflow. However, with a real life example with many complex objects and many intermediate computations in the plotting function, it can increase loading and plotting times dramatically. So we need to think about solutions to circumvent the issue.
+If we simplify the concept, the `ggplot()` function saves the plotting function in themselves **plus** all of the object lying around where it's called, because they may be useful for the plot (which one are actually useful ggplot2 can't tell because remember that the plot is only really rendered when called). Because targets saves the entire object it also saves its entire environment. This problem was [also](https://github.com/ropensci/drake/issues/882) [known](https://github.com/ropensci/drake/issues/1258) with targets' predecessor [drake](https://docs.ropensci.org/drake).
+
+In our workflow example above, the size difference between both objects isn't much, so it does not change the performance of the plot nor the total size taken by the saved targets workflow. However, with a real life example with many complex objects and many intermediate computations in the plotting function, it can increase loading and plotting times dramatically. So we need to think about solutions to circumvent the issue.
 
 
 ### Pros
@@ -194,9 +195,9 @@ In our workflow example above, the size difference between both objects isn't mu
 
 ## Second (partial) solution: transform ggplot2 objects into `grObs` using target hooks
 
-My workflows started to grow big and the plots were slow, so I asked around to the targets community for a solution. While it was considered at one point to propose [a specific storage for ggplot2 object](https://github.com/ropensci/drake/issues/882#issuecomment-580053751) on `drake` the predecessor of `targets`, the reliance of the objects on environments made it impossible to solve. These objects need to be stored including all of their environment.
+My workflows started to grow big and the plots were slow, so I asked around the targets community for a solution. While it was proposed at one point to create [a specific storage for ggplot2 objects](https://github.com/ropensci/drake/issues/882#issuecomment-580053751) in drake (the predecessor of targets), the reliance of the objects on environments made it impossible to solve. These objects need to be stored including all of their environment.
 
-ggplot2 needs to render the plots when they are shown. This transformation relies on the framework of the `grid` package and the transformation of ggplot2 objects into `Grob` objects (short for **Gr**aphical **ob**jects). The plots then are purely graphical and contain no more the initial data nor the plotting environment. These objects are thus much lighter.
+ggplot2 needs to render the plots when they are shown. This transformation relies on the framework of the grid package and the transformation of ggplot2 objects into `Grob` objects (short for **Gr**aphical **ob**jects). The plots then are purely graphical and do not contain the initial data nor the plotting environment. These objects are thus much lighter.
 
 So a natural idea would be to save, within the targets workflow, the ggplot2 plots as `Grobs` to keep only the information to the plots themselves and not the initial data. This can be done using the `ggplot2::ggplotGrob()` function.
 
