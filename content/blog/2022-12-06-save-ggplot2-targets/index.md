@@ -30,14 +30,14 @@ tweet: "A post about saving efficiently {ggplot2} objects in a {targets} workflo
 
 
 I really enjoy using [targets](https://docs.ropensci.org/targets) for all of my data analysis projects, especially because it helps me structure all of the projects nicely in the same folder.
-For targets projects I often produce several figures using ggplot2.
+For targets projects, I often produce several figures using ggplot2.
 However, there are no formal recommendations for saving ggplot2 objects (as opposed to static images) in a targets workflow.
 
 I want to keep my plots accessible to be able to revisit them any time and to assemble them with [patchwork](https://patchwork.data-imaginist.com/) into more complex figures for a potential paper.
 In a regular project I generate 10 to 20 figures, some only diagnostic ones and some polished ones for the finished manuscript.
 I do revisit the list of figures often, as co-authors or reviewers ask me for more detailed analyses and visualizations.
 
-In most cases, I don't know before hand the sizes of the figures, so I like to save the ggplot2 plots as R objects and not images in my targets workflow.
+In most cases, I don't know before hand the sizes of the figures nor their formats, so I like to save the ggplot2 plots as R objects and not images in my targets workflow.
 I sometimes edit them for a presentation, a paper, or a poster, so I like  the flexibility of saving them as R objects.
 This allows me to change their aspect ratio or their style on the fly without having to re-create them.
 
@@ -76,11 +76,11 @@ tar_make()
 ```
 
 ```
-✔ skip target mtcars_df
-✔ skip target simple_plot
-✔ skip pipeline [0.06 seconds]
-Message d'avis :
-le package 'ggplot2' a été compilé avec la version R 4.2.2 
+• start target mtcars_df
+• built target mtcars_df [0 seconds]
+• start target simple_plot
+• built target simple_plot [0.02 seconds]
+• end pipeline [0.18 seconds]
 ```
 
 Then if you want to access the plot you can use `tar_read()` or `tar_load()` and you'll get back a modifiable ggplot2 object
@@ -88,7 +88,7 @@ Then if you want to access the plot you can use `tar_read()` or `tar_load()` and
 ```r 
 tar_read(simple_plot)
 ```
-{{<figure src="first-load-plot-1.png" alt="Scatterplot of the mtcars dataset showing miles per gallon in function of number of cylinders.">}}
+{{<figure src="first-load-plot-1.png" alt="Scatterplot of the mtcars dataset showing miles per gallon as a function of number of cylinders.">}}
 
 ```r 
 # It's modifiable (we can add a theme after the fact)
@@ -97,8 +97,8 @@ tar_read(simple_plot) +
 ```
 {{<figure src="first-mod-plot-1.png" alt="Same scatterplot as before but styled differently with a white background instead of grey background.">}}
 
-For now, the plot is pretty simple and low weight.
-We'll be using the `obj_size()` function from  [lobstr](https://lobstr.r-lib.org/) package to evaluate the package size.
+For now, the plot is pretty simple and lightweight.
+Throughout the blog post, we'll be using the `obj_size()` function from  [lobstr](https://lobstr.r-lib.org/) package to evaluate the object size.
 
 ```r 
 lobstr::obj_size(tar_read(simple_plot))
@@ -133,7 +133,7 @@ tar_script({
         mtcars_df4 = rbind(mtcars_df3, mtcars_df3)
         
         # Note how the code of the plot hasn't changed
-        ggplot(mtcars_df4, aes(cyl, mpg)) +
+        ggplot(mtcars_df, aes(cyl, mpg)) +
           geom_point()
         
       }
@@ -148,10 +148,9 @@ tar_make()
 ```
 ✔ skip target mtcars_df
 ✔ skip target simple_plot
-✔ skip target complex_plot
-✔ skip pipeline [0.08 seconds]
-Message d'avis :
-le package 'ggplot2' a été compilé avec la version R 4.2.2 
+• start target complex_plot
+• built target complex_plot [0.02 seconds]
+• end pipeline [0.17 seconds]
 ```
 
 We now have two plot targets, the `simple_plot` target which is the same as previously, and `complex_plot` which differs from `simple_plot` only by having data manipulation and object creation prior to the plotting, **which does not affect the plot in itself**.
@@ -173,22 +172,22 @@ lobstr::obj_size(tar_read(complex_plot))
 ```
 
 ```
-921.75 kB
+912.54 kB
 ```
 
 We observe that the `complex_plot` is larger in size than `simple_plot`! This seems very surprising as we haven't changed a line of the plotting code *per se*.
 So what is happening here?
-Well the issue comes from the way ggplot2 works: it doesn't save the graphical plots in themselves, it saves their **environment** and generates the plot only when called from this saved environment (see [this GitHub issue](https://github.com/tidyverse/ggplot2/issues/4056) for example).
+Well the issue comes from the way ggplot2 works: it doesn't save the graphical plots in themselves, it saves their **environments** and generates the plots only when called from this saved environment (see [this GitHub issue](https://github.com/tidyverse/ggplot2/issues/4056) for example).
 If you're not familiar with the concept of environment, don't worry!
 It's a rather hard concept to grasp (and I'm not even sure I do understand it).
 If you want to know more about it you can read the [dedicated chapter](https://adv-r.hadley.nz/environments.html) in [Advanced R](https://adv-r.hadley.nz/).
 
-If we simplify the concept, the `ggplot()` function saves the plotting function in themselves **plus** all of the object lying around where it's called, because they may be useful for the plot (which one are actually useful ggplot2 can't tell because remember that the plot is only really rendered when called).
+If we simplify the concept, the `ggplot()` function saves the plotting functions themselves **plus** all of the objects lying around where it's called, because they may be useful for the plot (which ones are actually useful, ggplot2 doesn't know yet; remember that the plot is only really rendered when called).
 Because targets saves the entire object it also saves its entire environment.
 This problem was [also](https://github.com/ropensci/drake/issues/882) [known](https://github.com/ropensci/drake/issues/1258) with targets' predecessor [drake](https://docs.ropensci.org/drake).
 
 In our workflow example above, the size difference between both objects isn't much, so it does not change the performance of the plot nor the total size taken by the saved targets workflow.
-However, with a real life example with many complex objects and many intermediate computations in the plotting function, it can increase loading and plotting times dramatically.
+However, with a real life example including many complex objects and several intermediate computations in the plotting function, it can increase loading and plotting times dramatically.
 So we need to think about solutions to circumvent the issue.
 
 
@@ -201,14 +200,14 @@ So we need to think about solutions to circumvent the issue.
 ### Cons
 
 * Increased saved object size (and thus workflow size)
-* If object is big, than slow to load
+* If object is big, then slow to load
 
 
 ## Second (partial) solution: transform ggplot2 objects into `grobs` using target hooks
 
 My workflows started to grow big and the plots were slow, so I asked around the targets community for a solution.
-While it was proposed at one point to create [a specific storage for ggplot2 objects](https://github.com/ropensci/drake/issues/882#issuecomment-580053751) in drake (the predecessor of targets), the reliance of the objects on environments made it impossible to solve.
-These objects need to be stored including all of their environment.
+While it was proposed at one point to create [a specific storage for ggplot2 objects](https://github.com/ropensci/drake/issues/882#issuecomment-580053751) in drake (the predecessor of targets), the reliance of the objects on environments made this problem impossible to solve.
+These objects simply had to be stored with their environment.
 
 ggplot2 needs to render the plots when they are shown.
 This transformation relies on the framework of the grid package and the transformation of ggplot2 objects into `Grob` objects (short for **Gr**aphical **ob**jects).
@@ -242,7 +241,7 @@ tar_script({
         mtcars_df4 = rbind(mtcars_df3, mtcars_df3)
         
         # Note how the code of the plot hasn't changed
-        ggplot(mtcars_df4, aes(cyl, mpg)) +
+        ggplot(mtcars_df, aes(cyl, mpg)) +
           geom_point()
         
       }
@@ -260,11 +259,11 @@ tar_make()
 ✔ skip target mtcars_df
 ✔ skip target simple_plot
 ✔ skip target complex_plot
-✔ skip target simple_grob
-✔ skip target complex_grob
-✔ skip pipeline [0.08 seconds]
-Message d'avis :
-le package 'ggplot2' a été compilé avec la version R 4.2.2 
+• start target simple_grob
+• built target simple_grob [0.15 seconds]
+• start target complex_grob
+• built target complex_grob [0.07 seconds]
+• end pipeline [0.37 seconds]
 ```
 
 We added 2 new targets `simple_grob` and `complex_grob` that transform the previous plots into Grobs.
@@ -284,7 +283,7 @@ lobstr::obj_size(tar_read(complex_grob))
 ```
 
 ```
-344.66 kB
+339.66 kB
 ```
 
 Both objects are more than twice as small as the original plot object, and now they are both almost the same size!
@@ -319,21 +318,21 @@ TableGrob (12 x 9) "layout": 18 grobs
 18 17 ( 2- 2, 2- 2)        tag              zeroGrob[plot.tag..zeroGrob.37]
 ```
 
-This doesn't display a plot but shows us how the plot is stored as a `Grob` in the grid system.
+This doesn't display a plot but shows us how the plot is stored as a `Grob` in the grid package system (it's included as a base package in R).
 To display it we need to use a function that transforms this object into an actual plot.
 For example, with the `grid::grid.draw()` function:
 
 ```r 
 grid::grid.draw(tar_read(simple_grob))
 ```
-{{<figure src="second-grob-plot-1.png" alt="Scatterplot of the mtcars dataset showing miles per gallon in function of number of cylinders.">}}
+{{<figure src="second-grob-plot-1.png" alt="Scatterplot of the mtcars dataset showing miles per gallon as a function of number of cylinders.">}}
 
 We got our plot back!
 It is still resizable, can still be exported as a file through RStudio or graphical devices.
-However, as it's not a ggplot2 object anymore, we cannot tweak its theme nor use the `ggsave()` function.
+However, as it's not a ggplot2 object anymore, we cannot tweak its theme nor use the `ggsave()` function to save it with custom dimensions.
 
 If you have tens of plots, it maybe quite cumbersome to call `ggplot2::ggplotGrob()` at the end of all your plot functions.
-That's where someone in the community (it was [Miles McBain](/author/miles-mcbain/) on rOpenSci Slack space :tada:) suggested using [tarchetypes](http://docs.ropensci.org/tarchetypes) [hooks](https://docs.ropensci.org/tarchetypes/reference/index.html#hooks).
+That's where someone in the community (it was [Miles McBain](/author/miles-mcbain/) on rOpenSci Slack space 🎉) suggested using [tarchetypes](https://docs.ropensci.org/tarchetypes) [hooks](https://docs.ropensci.org/tarchetypes/reference/index.html#hooks).
 I wasn't aware at the time, but tarchetypes, which is an extension of targets to more easily generate a list of targets, has a system of ["hooks"](https://docs.ropensci.org/tarchetypes/reference/index.html#hooks) that can apply functions to your targets automatically (to all or to a subset based on their names).
 These are accessible through the functions `tar_hook_before()`, `tar_hook_inner()`, and `tar_hook_outer()` in tarchetypes.
 They will respectively, transform the target to execute a function *before*, wrap the dependencies of given target in a function call, or call a function around each target.
@@ -362,7 +361,7 @@ tar_script({
         mtcars_df4 = rbind(mtcars_df3, mtcars_df3)
         
         # Note how the code of the plot hasn't changed
-        ggplot(mtcars_df4, aes(cyl, mpg)) +
+        ggplot(mtcars_df, aes(cyl, mpg)) +
           geom_point()
         
       }
@@ -382,12 +381,10 @@ tar_make()
 ```
 ✔ skip target mtcars_df
 • start target simple_plot
-• built target simple_plot [0.13 seconds]
+• built target simple_plot [0.15 seconds]
 • start target complex_plot
-• built target complex_plot [0.05 seconds]
-• end pipeline [0.26 seconds]
-Message d'avis :
-le package 'ggplot2' a été compilé avec la version R 4.2.2 
+• built target complex_plot [0.06 seconds]
+• end pipeline [0.36 seconds]
 ```
 
 We can check our plot objects:
@@ -446,14 +443,14 @@ TableGrob (12 x 9) "layout": 18 grobs
 18 17 ( 2- 2, 2- 2)        tag              zeroGrob[plot.tag..zeroGrob.74]
 ```
 
-Both our plot objects were indeed transformed intro `Grob` objects! And with the adapted sizes.
+Both our plot objects were indeed transformed intro `Grob` objects! And with the smaller sizes.
 With the hooks, we could easily transform all of the figures of a workflow into `Grobs`.
 
 If this solution seems to solve all of our problems (though not as flexible), then why does this post continue?
 
 Well, ggplot2 maintainers officially [discourage users from saving `ggplotGrobs`](https://github.com/tidyverse/ggplot2/issues/4649#issuecomment-952029317).
 This is because they are not guaranteed to be reloadable.
-So presents quite a big concern for the reusability of objects in the future.
+So this presents quite a big concern for the reusability of objects in the future.
 
 So, let's continue to explore other options in the next sections.
 However, we still learned what happens in ggplot2 to generate an actual plot and how to transform it into a `grob`, and we have learned about tarchetypes hooks.
@@ -461,7 +458,7 @@ However, we still learned what happens in ggplot2 to generate an actual plot and
 ### Pros
 
 * Very lightweight
-* Flexible final image size
+* Flexible final image size and format
 * Leverages the amazing (and not so known) hooks in a targets workflow
 
 ### Cons
@@ -506,7 +503,7 @@ tar_script({
         mtcars_df3 = rbind(mtcars_df, mtcars_df2)
         mtcars_df4 = rbind(mtcars_df3, mtcars_df3)
         
-        given_plot = ggplot(mtcars_df4, aes(cyl, mpg)) +
+        given_plot = ggplot(mtcars_df, aes(cyl, mpg)) +
           geom_point()
         
         ggsave("complex_plot.png", given_plot)
@@ -524,15 +521,14 @@ tar_make()
 ✔ skip target mtcars_df
 • start target simple_plot
 Saving 7 x 7 in image
-• built target simple_plot [0.45 seconds]
+• built target simple_plot [0.6 seconds]
 • start target complex_plot
 Saving 7 x 7 in image
-• built target complex_plot [0.26 seconds]
-• end pipeline [0.82 seconds]
-Message d'avis :
-le package 'ggplot2' a été compilé avec la version R 4.2.2 
+• built target complex_plot [0.41 seconds]
+• end pipeline [1.12 seconds]
 ```
-Note that because `ggsave()` returns a file path, we had to indicate to `tar_target()` that the target was a file using the argument `format = "file"`.
+
+Note that because `ggsave()` returns a file path, we had to indicate to `tar_target()` that the target was a file using the argument `format = "file"` (to learn more about file targets refer to the [dedicated section](https://books.ropensci.org/targets/data.html#external-files) of the targets manual).
 We can now check our saved targets:
 
 ```r 
@@ -547,7 +543,7 @@ We only got `"simple_plot.png"` because the target in itself only stores the fil
 So to visualize it, we need to go into the folder and open the file:
 
 
-{{< figure src = "simple_plot.png" alt = "Scatter plot representing mileage of cars in function of number of cylinders based on the mtcars dataset" >}}
+{{< figure src = "simple_plot.png" alt = "Scatterplot of the mtcars dataset showing miles per gallon as a function of number of cylinders." >}}
 
 
 And our plots were saved! I will leave adapting this workflow to use tarchetypes hooks as an exercise to the reader 😉
@@ -563,8 +559,7 @@ So that's why I'm going to add my final solution.
 ### Cons
 
 * Fixed size a priori
-* Can't edit easily the object after the fact
-
+* Can't edit easily the object after the fact (unless using external software)
 
 
 ## Fourth (& final) solution: save ggplot2 objects but thin the plotting environment
@@ -594,7 +589,7 @@ tar_script({
         mtcars_df3 = rbind(mtcars_df, mtcars_df2)
         mtcars_df4 = rbind(mtcars_df3, mtcars_df3)
         
-        ggplot(mtcars_df4, aes(cyl, mpg)) +
+        ggplot(mtcars_df, aes(cyl, mpg)) +
           geom_point()
         
       }
@@ -610,9 +605,9 @@ tar_script({
         mtcars_df4 = rbind(mtcars_df3, mtcars_df3)
         
         # Remove all unnecessary objects
-        rm(mtcars_df, mtcars_df2, mtcars_df3)
+        rm(mtcars_df4, mtcars_df2, mtcars_df3)
         
-        ggplot(mtcars_df4, aes(cyl, mpg)) +
+        ggplot(mtcars_df, aes(cyl, mpg)) +
           geom_point()
         
       }
@@ -628,12 +623,11 @@ tar_make()
 ✔ skip target mtcars_df
 • start target simple_plot
 • built target simple_plot [0 seconds]
-✔ skip target complex_but_slim_plot
+• start target complex_but_slim_plot
+• built target complex_but_slim_plot [0 seconds]
 • start target complex_plot
-• built target complex_plot [0.01 seconds]
-• end pipeline [0.14 seconds]
-Message d'avis :
-le package 'ggplot2' a été compilé avec la version R 4.2.2 
+• built target complex_plot [0 seconds]
+• end pipeline [0.25 seconds]
 ```
 
 Now we added a new target `complex_but_slim_plot` that still plot the same thing as `complex_plot` but has a specific line where it removes all intermediate objects lying around.
@@ -644,7 +638,7 @@ lobstr::obj_size(tar_read(complex_plot))
 ```
 
 ```
-921.75 kB
+912.54 kB
 ```
 
 ```r 
@@ -652,7 +646,7 @@ lobstr::obj_size(tar_read(complex_but_slim_plot))
 ```
 
 ```
-905.67 kB
+880.76 kB
 ```
 
 Indeed, the second plot takes less size on the disk! So this strategy works by using the strength (and weakness) of ggplot2 objects and tidying up the local environments before generating the plot.
@@ -677,7 +671,7 @@ With this trick you can reduce the file size of your targets workflow and the sp
 In this blog post, we explored solutions to save ggplot2 objects in targets workflows:
 
 * The first solution is to use ggplot2 objects directly without consideration, which may accidentally save bigger objects because it saves the entire plot environment.
-* The second solution is to convert ggplot2 objects into `Grobs`, which are much lighter, this can be painlessly implemented through targets hooks, however, saving the ggplot2 grobs is officially discouraged by the ggplot2 maintainers.
+* The second solution is to convert ggplot2 objects into `Grobs`, which are much lighter, this can be painlessly implemented through targets hooks, however, saving the ggplot2 grobs is **officially discouraged by the ggplot2 maintainers** as it could break anytime.
 * The third solution is to save images directly (with or without targets hooks) through `ggsave`, this makes sure that only the images are saved (and not the plot environments), but is much less flexible regarding the re-styling of the plot after the fact.
 * The fourth (and my recommended) solution is to use ggplot2 while paying great attention to what objects are present in the plot environment.
 By thinning any object that may be staying in the environment, the size of the final object can decrease dramatically (and as such the size of the saved targets).
