@@ -8,8 +8,7 @@ tags:
   - help
   - beginner
   - welcome
-feature: true  
-# description: 
+description: "Are you curious about rOpenSci? Wondering how to start participating? 🤔 Glad you asked! Here's a summary on how to get involved with us!" 
 tweet: "Are you curious about @rOpenSci? Wondering how to start participating? 🤔 Glad you asked! Here's a summary on how to get involved with us!" 
 ---
 

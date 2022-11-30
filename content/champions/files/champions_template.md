@@ -13,7 +13,7 @@ _La plantilla del formulario también está disponible en [español](/champions/
 * Website: _please, provide link to your website  (optional)_
 * Affiliation: _please provide your affiliations to university/institution/organization or other employer_
 * Community: _please provide affiliations to communities (like R-Ladies, MiR, RSE Groups, LatinR, ReproHack, etc. or indicate NA)_
-[] Please, check if you self-identify as a member of a systematically excluded group from the open source software community.  
+* [] Please, check if you self-identify as a member of a systematically excluded group from the open source software community.  
 
 ## Expertise
 
@@ -40,18 +40,17 @@ _Choose one option_
 _Describe your project in a maximum of 200 words._
 
 [] I want to submit a package to the review process. 
-_Describe your project in a maximum of 200 words. _
-Provide a link to github or gitlab repository for the package
+_Describe your project in a maximum of 200 words. Provide a link to github or gitlab repository for the package_
 
 [] I want to be part of the review process as a reviewer. 
 _Describe the topics you can review in a maximun of 200 words_
 
 ## Motivation
 
-Why would you like to be part of the rOpenSci champions program? _Please respond in a maximum of 200 words._
+* Why would you like to be part of the rOpenSci champions program? _Please respond in a maximum of 200 words._
 
-How do you expect your role as a rOpenSci Champion will inform or support your local community? _Please respond in a maximum of 200 words._
+* How do you expect your role as a rOpenSci Champion will inform or support your local community? _Please respond in a maximum of 200 words._
 
-What are three things that you consider to be most important to do or keep in mind when participating in a community of practice like rOpenSci? _Please, explain in a maximum of 400 words._
+* What are three things that you consider to be most important to do or keep in mind when participating in a community of practice like rOpenSci? _Please, explain in a maximum of 400 words._
 
-Please indicate how your current employment status gives you the flexibility to dedicate time to fulfilling the responsibilities of the rOpenSci Champion Program. _Please respond in a maximum of 200 words._ 
+* Please indicate how your current employment status gives you the flexibility to dedicate time to fulfilling the responsibilities of the rOpenSci Champion Program. _Please respond in a maximum of 200 words._ 

@@ -16,7 +16,7 @@ The Hugo version used has to be recorded in netlify.toml (two places) as well as
 
 ### Featured posts and tech notes
 
-To feature a blog post or tech note add
+To feature a blog post or tech note add:
 
 ```yaml
 featured: true
@@ -202,6 +202,20 @@ The data is used for the about page and, for the editors, for the software-revie
 
 If the person also authors blog post, also make sure the file under author/ uses the right title and img.
 
+### Author
+* Create a folder with the name of the author on content/author
+* Copy a picture for the profile in themes/ropensci/static/img/community unless they have a GitHub profile with a picture, which will be used by default.
+* Create an _index.md with the following content:
+
+```markdown
+---
+name: Name Of The Author
+github: github user
+link: web page link
+img: img/community/name-of-the-author-picture.png
+---
+```
+
 ### Tweaking CSS, JS
 
 Cf https://github.com/ropensci-org/roweb3-styles
@@ -210,10 +224,10 @@ Note that main.min.css that contains all the CSS is stored under themes/ropensci
 
 ### Newsletter
 
-* CHECK THE FONT!!! (see note in SendGrid instructions)
 * Check the number of subscribers in Sendgrid doesn't go over what our current plan allows.
 * Check "New Maintainer Wanted" issues.
 * Update package categories in https://github.com/ropensci/roregistry/blob/gh-pages/scripts/update_categories.R (not directly related to the newsletter but good to do monthly!).
+* Update pinned repositories of github.com/ropensci to feature new packages.
 * Start a new post with the newsletter archetype, use the same title "rOpenSci News Digest, MONTH YEAR" and slug "ropensci-news-digest-month-YYYY" and tag "newsletter".
 * **Make sure your branch is based on the latest commit of the default branch, re-base if needed.**
 * Open the Rproj in `scripts/use-cases` (in another RStudio window), run `renv::restore()` and source `get_use_cases.R` to update use cases data (you need a Discourse API key, contact Scott).
@@ -257,6 +271,7 @@ Review criteria: anything looks weird? (need to fix upstream data or code?). Spe
 ```
 
 Look for the tweet with that ID on Twitter `http://twitter.com/user/status/bla` (Twitter will re-direct to the correct user). Was it deleted, or is the account now private? 
+
     * If the tweet was deleted or is now private, amend the Markdown file(s) where it was embedded.
     * If the tweet is available, try re-triggering the deploy.
 
@@ -285,7 +300,7 @@ to
 And open an issue for an Hugo person to change things back / change things back yourself when GitHub Pages is up again.
 With this hacky change the site should be built but if the registry and citations are updated the site is not showing the latest data.
 
-* If something like search or packages pages behave weirdly, look at error messages in the DevTools console(learn [how to open it using one of these resources](https://rmd-blogging-blr.netlify.app/webdev/devtools/) or via the browser menu, something like more tools > developer tools). Maybe one of the needed libraries can't be found because the related content delivery network (CDN) is down? Look at the status for that CDN (e.g. one of the JS files comes from `https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js` so you'd maybe check the Twitter account of jsdeliver). Maybe temporarily change for another CDN (e.g. `https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js` in the related partial), open an issue. For search the problem might be the file https://ropensci.org/search/index.json, try reading it with jsonlite to see if there is a wrong sign somewhere in a content file. For an example see https://github.com/ropensci/roweb3/pull/322.
+* If something like search or packages pages behave weirdly, look at error messages in the DevTools console (learn [how to open it using one of these resources](https://rmd-blogging-blr.netlify.app/webdev/devtools/) or via the browser menu, something like more tools > developer tools). Maybe one of the needed libraries can't be found because the related content delivery network (CDN) is down? Look at the status for that CDN (e.g. one of the JS files comes from `https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js` so you'd maybe check the Twitter account of jsdeliver). Maybe temporarily change for another CDN (e.g. `https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js` in the related partial), open an issue. For search the problem might be the file https://ropensci.org/search/index.json, try reading it with jsonlite to see if there is a wrong sign somewhere in a content file. For an example see https://github.com/ropensci/roweb3/pull/322.
 
 ### Search
 

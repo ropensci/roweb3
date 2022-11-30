@@ -48,7 +48,7 @@ Maintaining a piece of software is both a technical and social venture that can 
 - [Relaunching the qualtRics package](/blog/2019/04/30/qualtrics-relaunch/), by Julia Silge
 - [Package evolution - changing stuff in your package](https://devguide.ropensci.org/evolution.html), Chapter 14 in the rOpenSci software development guide
 - [The mail must get through](http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/ar01s02.html), by Eric Steven Raymond
-- [Learning a new codebase with Patrcia Aas](https://www.allthingsgit.com/episodes/learning_a_new_codebase_with_patricia_aas.html)
+- [Learning a new codebase with Patricia Aas](https://www.allthingsgit.com/episodes/learning_a_new_codebase_with_patricia_aas.html)
 
 #### Speakers {#speakers}
 

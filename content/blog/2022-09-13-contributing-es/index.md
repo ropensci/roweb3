@@ -11,7 +11,7 @@ tags:
   - español
   - spanish
 feature: true  
-# description: 
+description: "¿Tienes curiosidad por rOpenSci? Te preguntas cómo empezar a participar? 🤔 ¡Nos alegramos! Aquí tienes un resumen de cómo participar con nosotros" 
 tweet: "¿Tienes curiosidad por @rOpenSci? Te preguntas cómo empezar a participar? 🤔 ¡Nos alegramos! Aquí tienes un resumen de cómo participar con nosotros" 
 ---
 
