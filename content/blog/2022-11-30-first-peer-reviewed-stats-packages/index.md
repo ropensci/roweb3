@@ -7,7 +7,7 @@ date: '2022-11-30T00:00:01-07:00'
 slug: first-peer-reviewed-stats-packages
 tags:
   - community
-  - software-peer-review
+  - Software Peer Review
   - editor
   - statistics
 feature: true  
