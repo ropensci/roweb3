@@ -43,11 +43,25 @@ Now let's dive into the activity at and around rOpenSci!
 
 <!-- to be curated manually -->
 
-<!-- Can use same coworking text every month and ping Steffi to ask if there are any special guests to add -->
-Join us for social coworking & office hours monthly on 1st Tuesdays! Hosted by Steffi LaZerte  and various community hosts. Everyone welcome. No RSVP needed. Consult our [Events](/events) page to find your local time and how to join.
 
+### Coworking sessions continue!
 
-Find out about more [events](/events).
+Join us for social coworking & office hours monthly on first Tuesdays! 
+Hosted by Steffi LaZerte and various community hosts. 
+Everyone welcome. 
+No RSVP needed. 
+Consult our [Events](/events) page to find your local time and how to join.
+
+* [Tuesday, Jan 10th, 14:00 European Central / 13:00 UTC](/events/coworking-2023-01/) "Working with new R users" *Hosted by community host [Alex Koiter](https://alexkoiter.ca) and [Steffi LaZerte](/author/steffi-lazerte/)*
+    - Brainstorm ideas for supporting and encouraging new R users; Annotate a script for a friend or colleague to help them learn;
+    - Talk to [Alex](https://alexkoiter.ca) and discuss how to share the love of R with new R users.
+
+* [Tuesday, Feb 7th, 9:00 Americas Pacific / 17:00 UTC](/events/coworking-2023-02/) "Setting up Continuous Integration" *Hosted by community host [Hugo Gruson](/author/hugo-gruson/) and [Steffi LaZerte](/author/steffi-lazerte/)*
+    - Do some reading to learn about Continuous Integration; Setup Continuous Integration on one (or more) of your projects;
+    - Talk to [Hugo](/author/hugo-gruson/) and discuss how Continuous Integration can simplify your development process and how to get set up.
+
+And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
+
 
 ## Software :package:
 
@@ -392,7 +406,7 @@ parse_one_post <- function(path){
     date = anytime::anydate(yaml$date),
     author = nice_string(yaml$author),
     title = yaml$title,
-    software_peer_review = "Software Peer Review" %in% yaml$tags,
+    software_peer_review = "Software Peer Review" %in% yaml$tags || "software-peer-review" %in% yaml$tags,
     tech_note = "tech notes" %in% yaml$tags && !"Software Peer Review" %in% yaml$tags,
     other = !"tech notes" %in% yaml$tags && !"Software Peer Review" %in% yaml$tags,
     twitterImg = yaml$twitterImg %||% "",
@@ -532,7 +546,7 @@ Some useful tips for R package developers. :eyes:
 
 You might have heard of the reprex package, which we'd recommend using.
 However, it's not necessarily adapted to _package development problems_.
-To illustrate a problem you are having when developing a package, a reprex consists in
+To illustrate a problem you are having when developing a package, a reproducible example might consist in
 
 * Creating an empty package, potentially with [`usethis::create_package()`](https://usethis.r-lib.org/reference/create_package.html);
 * Adding as little elements as possible to it until you can illustrate the problem you have;
