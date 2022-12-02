@@ -1024,5 +1024,14 @@
     "url": "https://discuss.ropensci.org/t/adding-missing-exif-data-to-wildlife-trail-camera-images/3203",
     "image": "adding-missing-exif-data-to-wildlife-trail-camera-images.jpeg",
     "date": "2022-11-10"
+  },
+  {
+    "title": "Delete all your tweets using rtweet",
+    "reporter": "Julia Silge",
+    "tags": "rtweet",
+    "resource": "[rtweet](https://docs.ropensci.org/rtweet)",
+    "url": "https://discuss.ropensci.org/t/delete-all-your-tweets-using-rtweet/3217",
+    "image": "delete-all-your-tweets-using-rtweet.png",
+    "date": "2022-11-22"
   }
 ]
