@@ -7,7 +7,7 @@ slug: ropensci-news-digest-december-2022
 categories: []
 tags:
   - newsletter
-description: keywords from the content
+description: Community call video, coworking
 params:
   last_newsletter: '2022-11-18'
 ---
@@ -528,15 +528,15 @@ cat(
 
 Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)!
 
-## Call for maintainers
+## Call for package (co-)maintainers
 
-<!--IF CALL
-* [our guidance on _Changing package maintainers_](https://devguide.ropensci.org/changing-maintainers.html)
-* [our _Package Curation Policy_](https://devguide.ropensci.org/curationpolicy.html)
+### Call for maintainers
 
-IF NO CALL
-There are no open calls for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
-As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. -->
+* [onekp](https://docs.ropensci.org/onekp), Access sequences from the 1000 Plant Initiative (1KP). [Issue for volunteering](https://github.com/ropensci/onekp/issues/9) 
+
+### Call for comaintainers
+
+Refer to our [recent blog post](/blog/2022/10/17/maintain-or-co-maintain-an-ropensci-package/#packages-looking-for-co-maintainers) to identify packages where help is especially wished for!
 
 ## Package development corner
 

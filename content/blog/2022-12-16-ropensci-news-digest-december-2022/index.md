@@ -7,7 +7,7 @@ slug: ropensci-news-digest-december-2022
 categories: []
 tags:
   - newsletter
-description: keywords from the content
+description: Community call video, coworking
 params:
   last_newsletter: '2022-11-18'
 ---
@@ -63,7 +63,7 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following ten packages have had an update since the last newsletter: [cffr](https://docs.ropensci.org/cffr "Generate Citation File Format (cff) Metadata for R Packages") ([`v0.4.0`](https://github.com/ropensci/cffr/releases/tag/v0.4.0)), [daiquiri](https://docs.ropensci.org/daiquiri "Data Quality Reporting for Temporal Datasets") ([`v1.0.2`](https://github.com/ropensci/daiquiri/releases/tag/v1.0.2)), [katex](https://docs.ropensci.org/katex "Rendering Math to HTML, MathML, or R-Documentation Format") ([`v1.4.1`](https://github.com/ropensci/katex/releases/tag/v1.4.1)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.9.1`](https://github.com/ropensci/nodbi/releases/tag/v0.9.1)), [prismjs](https://docs.ropensci.org/prismjs "Server-Side Syntax Highlighting") ([`v1.1.0`](https://github.com/ropensci/prismjs/releases/tag/v1.1.0)), [qualtRics](https://docs.ropensci.org/qualtRics "Download Qualtrics Survey Data") ([`v3.1.7`](https://github.com/ropensci/qualtRics/releases/tag/v3.1.7)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.7.3`](https://github.com/ropensci/tarchetypes/releases/tag/0.7.3)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Workflows") ([`0.14.1`](https://github.com/ropensci/targets/releases/tag/0.14.1)), [tic](https://docs.ropensci.org/tic "CI-Agnostic Workflow Definitions") ([`v0.13.2`](https://github.com/ropensci/tic/releases/tag/v0.13.2)), and [tidytags](https://docs.ropensci.org/tidytags "Importing and Analyzing Twitter Data Collected with Twitter Archiving Google Sheets") ([`v1.1`](https://github.com/ropensci/tidytags/releases/tag/v1.1)).
+The following fourteen packages have had an update since the last newsletter: [gert](https://docs.ropensci.org/gert "Simple Git Client for R") ([`v1.9.2`](https://github.com/r-lib/gert/releases/tag/v1.9.2)), [cffr](https://docs.ropensci.org/cffr "Generate Citation File Format (cff) Metadata for R Packages") ([`v0.4.0`](https://github.com/ropensci/cffr/releases/tag/v0.4.0)), [daiquiri](https://docs.ropensci.org/daiquiri "Data Quality Reporting for Temporal Datasets") ([`v1.0.2`](https://github.com/ropensci/daiquiri/releases/tag/v1.0.2)), [katex](https://docs.ropensci.org/katex "Rendering Math to HTML, MathML, or R-Documentation Format") ([`v1.4.1`](https://github.com/ropensci/katex/releases/tag/v1.4.1)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.9.1`](https://github.com/ropensci/nodbi/releases/tag/v0.9.1)), [phylocomr](https://docs.ropensci.org/phylocomr "Interface to Phylocom") ([`v0.3.3`](https://github.com/ropensci/phylocomr/releases/tag/v0.3.3)), [postdoc](https://docs.ropensci.org/postdoc "Minimal and Uncluttered Package Documentation") ([`v1.1.0`](https://github.com/ropensci/postdoc/releases/tag/v1.1.0)), [prismjs](https://docs.ropensci.org/prismjs "Server-Side Syntax Highlighting") ([`v1.1.0`](https://github.com/ropensci/prismjs/releases/tag/v1.1.0)), [qualtRics](https://docs.ropensci.org/qualtRics "Download Qualtrics Survey Data") ([`v3.1.7`](https://github.com/ropensci/qualtRics/releases/tag/v3.1.7)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.7.3`](https://github.com/ropensci/tarchetypes/releases/tag/0.7.3)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Workflows") ([`0.14.1`](https://github.com/ropensci/targets/releases/tag/0.14.1)), [tic](https://docs.ropensci.org/tic "CI-Agnostic Workflow Definitions") ([`v0.13.2`](https://github.com/ropensci/tic/releases/tag/v0.13.2)), [tidytags](https://docs.ropensci.org/tidytags "Importing and Analyzing Twitter Data Collected with Twitter Archiving Google Sheets") ([`v1.1`](https://github.com/ropensci/tidytags/releases/tag/v1.1)), and [unifir](https://docs.ropensci.org/unifir "A Unifying API for Calling the Unity 3D Video Game Engine") ([`v0.2.3`](https://github.com/ropensci/unifir/releases/tag/v0.2.3)).
 
 ## Software Peer Review
 
@@ -93,13 +93,11 @@ There are eleven recently closed and active submissions and 2 submissions on hol
 
     * [wmm](https://github.com/ropensci/software-review/issues/522), World Magnetic Model. Submitted by [Will Frierson](https://github.com/wfrierson). 
 
-* One at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
-
-     * [bssm](https://github.com/ropensci/software-review/issues/489), Bayesian Inference of Non-Linear and Non-Gaussian State Space. Submitted by [Jouni Helske](http://jounihelske.netlify.app).  (Stats).
-
-* One at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
+* Two at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
      * [dfms](https://github.com/ropensci/software-review/issues/556), Dynamic Factor Models. Submitted by [Sebastian Krantz](https://github.com/SebKrantz). 
+
+    * [bssm](https://github.com/ropensci/software-review/issues/489), Bayesian Inference of Non-Linear and Non-Gaussian State Space. Submitted by [Jouni Helske](http://jounihelske.netlify.app).  (Stats).
 
 Find out more about [Software Peer Review](/software-review) and how to get involved.
 
@@ -137,15 +135,15 @@ One use case of our packages and resources has been reported since we sent the l
 
 Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)!
 
-## Call for maintainers
+## Call for package (co-)maintainers
 
-<!--IF CALL
-* [our guidance on _Changing package maintainers_](https://devguide.ropensci.org/changing-maintainers.html)
-* [our _Package Curation Policy_](https://devguide.ropensci.org/curationpolicy.html)
+### Call for maintainers
 
-IF NO CALL
-There are no open calls for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
-As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. -->
+* [onekp](https://docs.ropensci.org/onekp), Access sequences from the 1000 Plant Initiative (1KP). [Issue for volunteering](https://github.com/ropensci/onekp/issues/9) 
+
+### Call for comaintainers
+
+Refer to our [recent blog post](/blog/2022/10/17/maintain-or-co-maintain-an-ropensci-package/#packages-looking-for-co-maintainers) to identify packages where help is especially wished for!
 
 ## Package development corner
 
