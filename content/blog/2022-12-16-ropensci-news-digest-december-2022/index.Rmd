@@ -576,6 +576,11 @@ That's the kind of workflow recommended in [pkgdown contributing guide](https://
 It will serve you well in any package development Q&A channel.
 Now, if you can't reduce your problem, hopefully you can show your actual package to someone, as opposed to describing it with words.
 
+### How to distribute data with your package?
+
+Because of size limitations on CRAN for instance, it might seem tricky to distribute data with your package.
+You could publish it on [R-universe](https://ggseg.r-universe.dev/ui#packages), and also explore solutions presented in a [R-hub blog post](https://blog.r-hub.io/2020/05/29/distribute-data/) and in a [posit community forum answer by Gábor Csárdi](https://community.rstudio.com/t/distributing-data-with-a-package/152848).
+
 ## Last words
 
 Thanks for reading! If you want to get involved with rOpenSci, check out our [Contributing Guide](https://contributing.ropensci.org) that can help direct you to the right place, whether you want to make code contributions, non-code contributions, or contribute in other ways like sharing use cases.
