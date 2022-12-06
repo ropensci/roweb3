@@ -48,7 +48,7 @@ Now let's dive into the activity at and around rOpenSci!
 We have recently started building the reference manuals for each package r-universe: for packages that have had an update in the past 3 weeks, the reference manual is now linked from the package homepage on [r-universe.dev](https://r-universe.dev). All packages in in r-universe gets rebuilt at least once per month, so soon all packages should have the manual. 
 You can also find [reference manuals for base-R packages](https://r-universe.dev/manuals/).
 
-We released the two packages we use for creating these manuals: [postdoc](https://docs.ropensci.org/postdoc/) and [prismjs](https://docs.ropensci.org/prismjs/).
+We released the three packages used creating these manuals: [postdoc](https://docs.ropensci.org/postdoc/), [katex](https://docs.ropensci.org/katex/) and [prismjs](https://docs.ropensci.org/prismjs/).
 
 Find more information in our [tech note](/blog/2022/11/18/ropensci-news-digest-november-2022/).
 
