@@ -24,6 +24,15 @@ Now let's dive into the activity at and around rOpenSci!
 
 <!-- to be curated manually -->
 
+### One-page HTML package manuals on R-universe and elsewhere with {postdoc}!
+
+We have recently started building the reference manuals for each package r-universe: for packages that have had an update in the past 3 weeks, the reference manual is now linked from the package homepage on [r-universe.dev](https://r-universe.dev). All packages in in r-universe gets rebuilt at least once per month, so soon all packages should have the manual. 
+You can also find [reference manuals for base-R packages](https://r-universe.dev/manuals/).
+
+We released the two packages we use for creating these manuals: [postdoc](https://docs.ropensci.org/postdoc/) and [prismjs](https://docs.ropensci.org/prismjs/).
+
+Find more information in our [tech note](/blog/2022/11/18/ropensci-news-digest-november-2022/).
+
 
 ### Coworking sessions continue!
 
@@ -116,8 +125,6 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 * [Meeting the stars of the R-universe: R Community, Exchange and Learn](/blog/2022/11/23/r-universe-stars-1-en) by Yanina Bellini Saibene, Alejandra Bellini, Lucio Casalla, and Steffi LaZerte. This is the first post of our interview series __"Meeting the stars of the R-universe"__. We begin our journey in _Argentina_ with a team that uses R and develops R packages in the Argentinean State.
 
 * [Conociendo a las estrellas del universo R: comunidad R, intercambiar y aprender](/blog/2022/11/23/r-universe-stars-1-es) by Yanina Bellini Saibene, Alejandra Bellini, Lucio Casalla, and Steffi LaZerte. Esta es la primera entrega de nuestra serie de entrevistas __"Conociendo a las estrellas del universo R"__. Iniciamos nuestro recorrido en _Argentina_ y con un equipo que utiliza R y desarrolla paquetes de R en el estado Argentino.
-
-* [Our First Peer-Reviewed Statistical R Packages!](/blog/2022/11/30/first-peer-reviewed-stats-packages) by Noam Ross, and Mark Padgham.
 
 
 
