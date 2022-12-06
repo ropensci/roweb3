@@ -52,6 +52,3 @@ Contributing to open source can be intimidating if you feel like you need to bui
 ### Next steps
 
 After the unconf, we were able to write a [round-up of existing packages and resources](http://www.monicagerber.com/2018/07/roundup-of-growth-chart-packages/). We plan to continue working on this problem, in collaboration with several folks who are interested in this space. Our next steps include looking for places where goals and strategies overlap and streamlining our approach to create a useful product for public health researchers. We’d love to have you [join the conversation](https://github.com/ropenscilabs/mchtoolbox/issues).
-
-{{< tweet user="mwgerber" id="998773541242683393" >}}
-
