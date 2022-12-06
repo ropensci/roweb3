@@ -34,6 +34,13 @@ We released the two packages we use for creating these manuals: [postdoc](https:
 Find more information in our [tech note](/blog/2022/11/18/ropensci-news-digest-november-2022/).
 
 
+### Meeting the stars of the R-Universe
+
+Knowing our community's stories, to learn about the people behind our software brings us closer and offers us new opportunities. We introduce you to the rOpenSci interview series _"Meeting the stars of the R-Universe"_.
+
+The first interview it is a bilingüal (Spanish & English) story starting in Latin America: The experience of working with R packages in the Argentine state. 
+
+Don't miss the [blog post and the video](/blog/2022/11/23/r-universe-stars-1-en/) (with subtitles in English and Spanish)
 ### Coworking sessions continue!
 
 Join us for social coworking & office hours monthly on first Tuesdays! 
