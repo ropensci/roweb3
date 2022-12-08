@@ -59,7 +59,8 @@ Knowing our community's stories, to learn about the people behind our software b
 
 The first interview it is a bilingüal (Spanish & English) story starting in Latin America: The experience of working with R packages in the Argentine state. 
 
-Don't miss the [blog post and the video](/blog/2022/11/23/r-universe-stars-1-en/) (with subtitles in English and Spanish)
+Don't miss the [blog post and the video](/blog/2022/11/23/r-universe-stars-1-en/) (with subtitles in English and Spanish).
+
 ### Coworking sessions continue!
 
 Join us for social coworking & office hours monthly on first Tuesdays! 
