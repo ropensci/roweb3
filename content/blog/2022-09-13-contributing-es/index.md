@@ -68,7 +68,7 @@ Tenemos varios canales para que nuestra información te llegue directamente. ¿T
 
 * [Boletín de noticias](/news/): todos los meses recibirás en tu bandeja de entrada noticias sobre los paquetes R, publicaciones en el blog, consejos y trucos, eventos y casos de uso. Suscríbate a través de RSS (XML), JSON feed, o correo electrónico.
 
-* _Redes sociales_: sigue las actividades de nuestra organización en [Twitter](https://twitter.com/rOpenSci), y [Vimeo](https://vimeo.com/ropensci). Sigue también nuestro bot [roknowtifier](https://twitter.com/roknowtifier) que tuitea nuevos paquetes rOpenSci o nuevas versiones de paquetes
+* _Redes sociales_: sigue las actividades de nuestra organización en [Twitter](https://twitter.com/rOpenSci), y [Vimeo](https://vimeo.com/ropensci).
 
 
 ## Utilice y contribuya a nuestra infraestructura
