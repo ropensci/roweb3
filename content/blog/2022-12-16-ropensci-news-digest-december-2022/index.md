@@ -7,7 +7,7 @@ slug: ropensci-news-digest-december-2022
 categories: []
 tags:
   - newsletter
-description: Community call video, coworking
+description: Community call recording, one-page HTML package docs, R-universe stars interview, coworking
 params:
   last_newsletter: '2022-11-18'
 ---
@@ -42,6 +42,14 @@ The first interview it is a bilingual (Spanish & English) story starting in Lati
 
 Don't miss the [blog post and the video](/blog/2022/11/23/r-universe-stars-1-en/) (with subtitles in English and Spanish).
 
+## Community Call recap: "Mentoring & training program for Scientific Open Source Champions"
+
+After a brief hiatus, we returned to community calls with a session dedicated to our Champions Program.   
+We invited open source software Champions from other spaces and communities to share their experiences, to help us learn more about what it is to be a Champion, the benefit of applying to these programs, and how being a Champion can benefit not only us, but also our communities.
+
+In this call, moderated by rOpenSci Community Manager [Yani Bellini Saibene](/author/yanina-bellini-saibene/), Santosh Yadav and Emanuele Bartolesi shared their experiences of being Champions in their communities and gave advice on how to create a path to becoming a Champion in open source software communities.
+
+You can [watch the video](/commcalls/oct2022-champions/) and [access all the materials](/commcalls/oct2022-champions/)  on our website.
 ### Coworking sessions continue!
 
 Join us for social coworking & office hours monthly on first Tuesdays! 
@@ -80,15 +88,17 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following sixteen packages have had an update since the last newsletter: [gert](https://docs.ropensci.org/gert "Simple Git Client for R") ([`v1.9.2`](https://github.com/r-lib/gert/releases/tag/v1.9.2)), [cffr](https://docs.ropensci.org/cffr "Generate Citation File Format (cff) Metadata for R Packages") ([`v0.4.0`](https://github.com/ropensci/cffr/releases/tag/v0.4.0)), [daiquiri](https://docs.ropensci.org/daiquiri "Data Quality Reporting for Temporal Datasets") ([`v1.0.3`](https://github.com/ropensci/daiquiri/releases/tag/v1.0.3)), [katex](https://docs.ropensci.org/katex "Rendering Math to HTML, MathML, or R-Documentation Format") ([`v1.4.1`](https://github.com/ropensci/katex/releases/tag/v1.4.1)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.9.1`](https://github.com/ropensci/nodbi/releases/tag/v0.9.1)), [phylocomr](https://docs.ropensci.org/phylocomr "Interface to Phylocom") ([`v0.3.3`](https://github.com/ropensci/phylocomr/releases/tag/v0.3.3)), [postdoc](https://docs.ropensci.org/postdoc "Minimal and Uncluttered Package Documentation") ([`v1.1.0`](https://github.com/ropensci/postdoc/releases/tag/v1.1.0)), [prismjs](https://docs.ropensci.org/prismjs "Server-Side Syntax Highlighting") ([`v1.1.0`](https://github.com/ropensci/prismjs/releases/tag/v1.1.0)), [qualtRics](https://docs.ropensci.org/qualtRics "Download Qualtrics Survey Data") ([`v3.1.7`](https://github.com/ropensci/qualtRics/releases/tag/v3.1.7)), [rgbif](https://docs.ropensci.org/rgbif "Interface to the Global Biodiversity Information Facility API") ([`v3.7.4`](https://github.com/ropensci/rgbif/releases/tag/v3.7.4)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.7.3`](https://github.com/ropensci/tarchetypes/releases/tag/0.7.3)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Workflows") ([`0.14.1`](https://github.com/ropensci/targets/releases/tag/0.14.1)), [terrainr](https://docs.ropensci.org/terrainr "Landscape Visualizations in R and Unity") ([`v0.7.2`](https://github.com/ropensci/terrainr/releases/tag/v0.7.2)), [tic](https://docs.ropensci.org/tic "CI-Agnostic Workflow Definitions") ([`v0.13.2`](https://github.com/ropensci/tic/releases/tag/v0.13.2)), [tidytags](https://docs.ropensci.org/tidytags "Importing and Analyzing Twitter Data Collected with Twitter Archiving Google Sheets") ([`v1.1`](https://github.com/ropensci/tidytags/releases/tag/v1.1)), and [unifir](https://docs.ropensci.org/unifir "A Unifying API for Calling the Unity 3D Video Game Engine") ([`v0.2.3`](https://github.com/ropensci/unifir/releases/tag/v0.2.3)).
+The following eighteen packages have had an update since the last newsletter: [gert](https://docs.ropensci.org/gert "Simple Git Client for R") ([`v1.9.2`](https://github.com/r-lib/gert/releases/tag/v1.9.2)), [pkgstats](https://docs.ropensci.org/pkgstats "Metrics of R Packages") ([`v0.1.2`](https://github.com/ropensci-review-tools/pkgstats/releases/tag/v0.1.2)), [cffr](https://docs.ropensci.org/cffr "Generate Citation File Format (cff) Metadata for R Packages") ([`v0.4.0`](https://github.com/ropensci/cffr/releases/tag/v0.4.0)), [daiquiri](https://docs.ropensci.org/daiquiri "Data Quality Reporting for Temporal Datasets") ([`v1.0.3`](https://github.com/ropensci/daiquiri/releases/tag/v1.0.3)), [katex](https://docs.ropensci.org/katex "Rendering Math to HTML, MathML, or R-Documentation Format") ([`v1.4.1`](https://github.com/ropensci/katex/releases/tag/v1.4.1)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.9.1`](https://github.com/ropensci/nodbi/releases/tag/v0.9.1)), [phylocomr](https://docs.ropensci.org/phylocomr "Interface to Phylocom") ([`v0.3.3`](https://github.com/ropensci/phylocomr/releases/tag/v0.3.3)), [postdoc](https://docs.ropensci.org/postdoc "Minimal and Uncluttered Package Documentation") ([`v1.1.0`](https://github.com/ropensci/postdoc/releases/tag/v1.1.0)), [prismjs](https://docs.ropensci.org/prismjs "Server-Side Syntax Highlighting") ([`v1.1.0`](https://github.com/ropensci/prismjs/releases/tag/v1.1.0)), [qualtRics](https://docs.ropensci.org/qualtRics "Download Qualtrics Survey Data") ([`v3.1.7`](https://github.com/ropensci/qualtRics/releases/tag/v3.1.7)), [rerddap](https://docs.ropensci.org/rerddap "General Purpose Client for ERDDAP Servers") ([`v1.0.1`](https://github.com/ropensci/rerddap/releases/tag/v1.0.1)), [rgbif](https://docs.ropensci.org/rgbif "Interface to the Global Biodiversity Information Facility API") ([`v3.7.4`](https://github.com/ropensci/rgbif/releases/tag/v3.7.4)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.7.3`](https://github.com/ropensci/tarchetypes/releases/tag/0.7.3)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Workflows") ([`0.14.1`](https://github.com/ropensci/targets/releases/tag/0.14.1)), [terrainr](https://docs.ropensci.org/terrainr "Landscape Visualizations in R and Unity") ([`v0.7.2`](https://github.com/ropensci/terrainr/releases/tag/v0.7.2)), [tic](https://docs.ropensci.org/tic "CI-Agnostic Workflow Definitions") ([`v0.13.2`](https://github.com/ropensci/tic/releases/tag/v0.13.2)), [tidytags](https://docs.ropensci.org/tidytags "Importing and Analyzing Twitter Data Collected with Twitter Archiving Google Sheets") ([`v1.1`](https://github.com/ropensci/tidytags/releases/tag/v1.1)), and [unifir](https://docs.ropensci.org/unifir "A Unifying API for Calling the Unity 3D Video Game Engine") ([`v0.2.3`](https://github.com/ropensci/unifir/releases/tag/v0.2.3)).
 
 ## Software Peer Review
 
 There are eleven recently closed and active submissions and 2 submissions on hold. Issues are at different stages: 
 
-* One at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
+* Two at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
 
-     * [phruta](https://github.com/ropensci/software-review/issues/458), Phylogenetic Reconstruction and Time-dating. Submitted by [Cristian Román Palacios](http://cromanpa94.github.io/cromanpa/). 
+     * [dynamite](https://github.com/ropensci/software-review/issues/554), Bayesian Modeling and Causal Inference for Multivariate. Submitted by [Santtu Tikka](http://users.jyu.fi/~santikka/).  (Stats).
+
+    * [phruta](https://github.com/ropensci/software-review/issues/458), Phylogenetic Reconstruction and Time-dating. Submitted by [Cristian Román Palacios](http://cromanpa94.github.io/cromanpa/). 
 
 * Four at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
 
@@ -100,11 +110,9 @@ There are eleven recently closed and active submissions and 2 submissions on hol
 
     * [healthdatacsv](https://github.com/ropensci/software-review/issues/358), Access data in the healthdata.gov catalog. Submitted by [iecastro](http://iecastro.netlify.com). 
 
-* Four at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
+* Three at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 
      * [openalexR](https://github.com/ropensci/software-review/issues/560), Getting Bibliographic Records from OpenAlex Database Using DSL. Submitted by [Trang Le](http://trang.page). 
-
-    * [dynamite](https://github.com/ropensci/software-review/issues/554), Bayesian Modeling and Causal Inference for Multivariate. Submitted by [Santtu Tikka](http://users.jyu.fi/~santikka/).  (Stats).
 
     * [stochLAB](https://github.com/ropensci/software-review/issues/551), Stochastic Collision Risk Model. Submitted by [Grant](http://www.blackbawks.net).  (Stats).
 

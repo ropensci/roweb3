@@ -7,7 +7,7 @@ slug: ropensci-news-digest-december-2022
 categories: []
 tags:
   - newsletter
-description: Community call video, coworking
+description: Community call recording, one-page HTML package docs, R-universe stars interview, coworking
 params:
   last_newsletter: '2022-11-18'
 ---
@@ -60,6 +60,7 @@ Knowing our community's stories, to learn about the people behind our software b
 The first interview it is a bilingual (Spanish & English) story starting in Latin America: The experience of working with R packages in the Argentine state. 
 
 Don't miss the [blog post and the video](/blog/2022/11/23/r-universe-stars-1-en/) (with subtitles in English and Spanish).
+
 ## Community Call recap: "Mentoring & training program for Scientific Open Source Champions"
 
 After a brief hiatus, we returned to community calls with a session dedicated to our Champions Program.   
