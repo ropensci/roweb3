@@ -43,7 +43,7 @@ Now let's dive into the activity at and around rOpenSci!
 
 <!-- to be curated manually -->
 
-### One-page HTML package manuals on R-universe and elsewhere with {postdoc}!
+### One-page HTML package manuals on R-universe!
 
 We have recently started building the reference manuals for each package r-universe: for packages that have had an update in the past 3 weeks, the reference manual is now linked from the package homepage on [r-universe.dev](https://r-universe.dev). All packages in in r-universe gets rebuilt at least once per month, so soon all packages should have the manual. 
 You can also find [reference manuals for base-R packages](https://r-universe.dev/manuals/).
