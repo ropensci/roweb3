@@ -57,7 +57,7 @@ Find more information in our [tech note](/blog/2022/11/18/ropensci-news-digest-n
 
 Knowing our community's stories helps us to learn about the people behind our software, brings us closer and offers us new opportunities. To share some of these community stories, we introduce you to the rOpenSci interview series [_"Meeting the stars of the R-Universe"_](/tags/r-universe-stars/).
 
-The first interview showcases a bilingual (Spanish & English) story from Latin America: The experience of working with R packages in the Argentinian state. 
+The first interview showcases a bilingual (Spanish & English) story from Latin America: The experience of working with R packages in the Argentinian State. 
 
 Don't miss the [blog post and the video](/blog/2022/11/23/r-universe-stars-1-en/) (with subtitles in English and Spanish).
 
