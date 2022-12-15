@@ -77,7 +77,7 @@ Everyone welcome.
 No RSVP needed. 
 Consult our [Events](/events) page to find your local time and how to join.
 
-* [Tuesday, Jan 10th*, 14:00 European Central / 13:00 UTC](/events/coworking-2023-01/) "Working with new R users" *Hosted by community host [Alex Koiter](https://alexkoiter.ca) and [Steffi LaZerte](/author/steffi-lazerte/)*
+* [Tuesday, Jan 10th\*, 14:00 European Central / 13:00 UTC](/events/coworking-2023-01/) "Working with new R users" *Hosted by community host [Alex Koiter](https://alexkoiter.ca) and [Steffi LaZerte](/author/steffi-lazerte/)*
     - Brainstorm ideas for supporting and encouraging new R users; Annotate a script for a friend or colleague to help them learn;
     - Talk to [Alex](https://alexkoiter.ca) and discuss how to share the love of R with new R users.
 
@@ -87,7 +87,7 @@ Consult our [Events](/events) page to find your local time and how to join.
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
-\* Note that the January Co-working session is on the *second* Tuesday in Januray
+\* Note that the January Co-working session is on the *second* Tuesday in January.
 
 ## Software :package:
 
@@ -558,12 +558,14 @@ Explore [other use cases](/usecases) and [report your own](https://discuss.ropen
 
 ### Calls for maintainers
 
-* [onekp](https://docs.ropensci.org/onekp), Access sequences from the 1000 Plant Initiative (1KP). [Issue for volunteering](https://github.com/ropensci/onekp/issues/9) 
+* **[onekp](https://docs.ropensci.org/onekp), Access sequences from the 1000 Plant Initiative (1KP)**. The 1000 Plants Initiative (www.onekp.com) has sequenced the transcriptomes of over 1000 plant species. This package allows these sequences and metadata to be retrieved and filtered by code, species or recursively by clade. Scientific names and NCBI taxonomy IDs are both supported. [Issue for volunteering](https://github.com/ropensci/onekp/issues/9) 
 
 
-- **RSelenium, R Bindings for 'Selenium WebDriver'**. Provides a set of R bindings for the ['Selenium 2.0 WebDriver'](https://www.selenium.dev/documentation/) using the ['JsonWireProtocol'](https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol). 'Selenium 2.0 WebDriver' allows driving a web browser natively as a user would either locally or on a remote machine using the Selenium server it marks a leap forward in terms of web browser automation. [Issue for volunteering](https://github.com/ropensci/RSelenium/issues/261).
+- **[RSelenium](https://docs.ropensci.org/RSelenium), R Bindings for 'Selenium WebDriver'**. Provides a set of R bindings for the ['Selenium 2.0 WebDriver'](https://www.selenium.dev/documentation/) using the ['JsonWireProtocol'](https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol). 'Selenium 2.0 WebDriver' allows driving a web browser natively as a user would either locally or on a remote machine using the Selenium server it marks a leap forward in terms of web browser automation. [Issue for volunteering](https://github.com/ropensci/RSelenium/issues/261).
 
-- **elastic, General Purpose Interface to 'Elasticsearch'**. Connect to 'Elasticsearch', a 'NoSQL' database built on the 'Java' Virtual Machine. Interacts with the ['Elasticsearch' 'HTTP' API](https://www.elastic.co/elasticsearch/), including functions for setting connection details to 'Elasticsearch' instances, loading bulk data, searching for documents with both 'HTTP' query variables and 'JSON' based body requests. [Issue for volunteering](https://github.com/ropensci/elastic/issues/292).### Call for comaintainers
+- **[elastic](https://docs.ropensci.org/elastic), General Purpose Interface to 'Elasticsearch'**. Connect to 'Elasticsearch', a 'NoSQL' database built on the 'Java' Virtual Machine. Interacts with the ['Elasticsearch' 'HTTP' API](https://www.elastic.co/elasticsearch/), including functions for setting connection details to 'Elasticsearch' instances, loading bulk data, searching for documents with both 'HTTP' query variables and 'JSON' based body requests. [Issue for volunteering](https://github.com/ropensci/elastic/issues/292).
+
+### Call for comaintainers
 
 Refer to our [recent blog post](/blog/2022/10/17/maintain-or-co-maintain-an-ropensci-package/#packages-looking-for-co-maintainers) to identify packages where help is especially wished for!
 
