@@ -573,12 +573,12 @@ Some useful tips for R package developers. :eyes:
 
 ### What is a reproducible example for package development problems?
 
-You might have heard of the reprex package, which we'd recommend using.
+You might have heard of the [reprex](https://reprex.tidyverse.org/) package, which we'd recommend using.
 However, it's not necessarily adapted to _package development problems_.
 To illustrate a problem you are having when developing a package, a reproducible example might consist in
 
 * Creating an empty package, potentially with [`usethis::create_package()`](https://usethis.r-lib.org/reference/create_package.html);
-* Adding as little elements as possible to it until you can illustrate the problem you have;
+* Adding as few elements as possible to it until you can illustrate the problem you have;
 * Sharing it on a public platform (or a platform accessible to your target helper), potentially on GitHub with [`usethis::use_github()`](https://usethis.r-lib.org/reference/use_github.html);
 * Optionally, adding GitHub Actions workflows to it to have a log to show. See [`usethis::use_github_actions()`](https://usethis.r-lib.org/reference/github_actions.html).
 
@@ -586,8 +586,8 @@ You do not need to use the usethis package.
 However, it is crucial you find a way to quickly create the package skeleton and to quickly share it, as it will lessen the energy needed to get started, and leave you more time for the trickier reproducible example creation!
 
 That's the kind of workflow recommended in [pkgdown contributing guide](https://pkgdown.r-lib.org/CONTRIBUTING.html#package-reprexes).
-It will serve you well in any package development Q&A channel.
-Now, if you can't reduce your problem, hopefully you can show your actual package to someone, as opposed to describing it with words.
+It will also serve you well in any package development Q&A channel.
+Alternatively, if you can't reduce your problem to a minimal example, hopefully you can show your actual package to someone, as opposed to describing it with words.
 
 ### How to distribute data with your package?
 
