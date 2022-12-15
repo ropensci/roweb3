@@ -45,19 +45,19 @@ Now let's dive into the activity at and around rOpenSci!
 
 ### One-page HTML package manuals on R-universe!
 
-We have recently started building the reference manuals for each package r-universe: for packages that have had an update in the past 3 weeks, the reference manual is now linked from the package homepage on [r-universe.dev](https://r-universe.dev). All packages in in r-universe gets rebuilt at least once per month, so soon all packages should have the manual. 
+We have recently started building HTML reference manuals for each package in the R-universe! For packages that have had an update in the past 3 weeks, the reference manual is now linked from the package homepage on [R-universe.dev](https://r-universe.dev). All packages in the R-universe are rebuilt at least once per month, so soon all packages should have an online HTML manual. 
 You can also find [reference manuals for base-R packages](https://r-universe.dev/manuals/).
 
-We released the three packages used creating these manuals: [postdoc](https://docs.ropensci.org/postdoc/), [katex](https://docs.ropensci.org/katex/) and [prismjs](https://docs.ropensci.org/prismjs/).
+We released the three packages used to create these manuals: [postdoc](https://docs.ropensci.org/postdoc/), [katex](https://docs.ropensci.org/katex/) and [prismjs](https://docs.ropensci.org/prismjs/).
 
 Find more information in our [tech note](/blog/2022/11/18/ropensci-news-digest-november-2022/).
 
 
-### Meeting the stars of the R-Universe
+### Meeting the stars of the R-universe
 
-Knowing our community's stories, to learn about the people behind our software brings us closer and offers us new opportunities. We introduce you to the rOpenSci interview series [_"Meeting the stars of the R-Universe"_](/tags/r-universe-stars/).
+Knowing our community's stories helps us to learn about the people behind our software, brings us closer and offers us new opportunities. To share some of these community stories, we introduce you to the rOpenSci interview series [_"Meeting the stars of the R-Universe"_](/tags/r-universe-stars/).
 
-The first interview it is a bilingual (Spanish & English) story starting in Latin America: The experience of working with R packages in the Argentine state. 
+The first interview showcases a bilingual (Spanish & English) story from Latin America: The experience of working with R packages in the Argentinian state. 
 
 Don't miss the [blog post and the video](/blog/2022/11/23/r-universe-stars-1-en/) (with subtitles in English and Spanish).
 
@@ -77,7 +77,7 @@ Everyone welcome.
 No RSVP needed. 
 Consult our [Events](/events) page to find your local time and how to join.
 
-* [Tuesday, Jan 10th, 14:00 European Central / 13:00 UTC](/events/coworking-2023-01/) "Working with new R users" *Hosted by community host [Alex Koiter](https://alexkoiter.ca) and [Steffi LaZerte](/author/steffi-lazerte/)*
+* [Tuesday, Jan 10th*, 14:00 European Central / 13:00 UTC](/events/coworking-2023-01/) "Working with new R users" *Hosted by community host [Alex Koiter](https://alexkoiter.ca) and [Steffi LaZerte](/author/steffi-lazerte/)*
     - Brainstorm ideas for supporting and encouraging new R users; Annotate a script for a friend or colleague to help them learn;
     - Talk to [Alex](https://alexkoiter.ca) and discuss how to share the love of R with new R users.
 
@@ -87,6 +87,7 @@ Consult our [Events](/events) page to find your local time and how to join.
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
+\* Note that the January Co-working session is on the *second* Tuesday in Januray
 
 ## Software :package:
 
