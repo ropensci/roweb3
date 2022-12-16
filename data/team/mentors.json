@@ -57,4 +57,16 @@
    "twitter": "",
    "github": "cmaimone",
    "home": ""
+},
+{
+   "name": "Mauro Lepore",
+   "affiliation": "2degrees",
+   "url": "",
+   "image" : "/img/team/mauro-lepore-mentor.jpg",
+   "roles": [
+      "mentor"
+   ],
+   "twitter": "",
+   "github": "maurolepore",
+   "home": ""
 }]
