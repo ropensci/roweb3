@@ -17,7 +17,7 @@ The rOpenSci Champion Program [is part of a series of activities and projects we
 > Consider getting involved in 2023! 
 > <br>
 > The 2023 calls will be announced in September or October 2023, on this page, 
-> in our [newsletter](https://ropensci.org/news/) and our social networks.
+> in our [newsletter](/news/) and our social networks.
 
 ## Program goals
 
@@ -136,7 +136,7 @@ The table below outlines a draft timeline for year one of the Champions Program.
 
 The call for this year has already closed.
 
-We will make another call, next year.  We will announce it in our [newsletter](https://ropensci.org/news/) and our social networks.
+We will make another call, next year.  We will announce it in our [newsletter](/news/) and our social networks.
 
 ### Application Timeline
 
