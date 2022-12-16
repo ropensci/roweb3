@@ -32,5 +32,17 @@
    ],
    "twitter": "BeaMilz",
    "github": "beatrizmilz",
-   "home": "https://adamhsparks.netlify.app/"
+   "home": ""
+},
+{
+   "name": "Elio Campitelli",
+   "affiliation": "Universidad de Buenos Aires Centro de Investigaciones del Mar y la Atmósfera",
+   "url": "https://eliocamp.github.io",
+   "image" : "/img/team/beatriz-milz-mentor.jpeg",
+   "roles": [
+      "mentor"
+   ],
+   "twitter": "BeaMilz",
+   "github": "beatrizmilz",
+   "home": "https://eliocamp.github.io"
 }]
