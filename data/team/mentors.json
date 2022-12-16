@@ -1,24 +1,36 @@
 [{
-   "name": "To be disclosed",
-   "url": "https://www.pexels.com/fr-fr/photo/ordinateur-portable-noir-et-blanc-2740956/",
-   "image" : "/img/team/mentor1.jpg",
-   "affiliation": "Somewhere",
+   "name": "Laura DeCicco",
+   "url": "https://www.usgs.gov/staff-profiles/laura-decicco",
+   "image" : "/img/team/laura-decicco-mentor.png",
+   "affiliation": "United States Geological Survey",
    "roles": [
-      "champion"
+      "mentor"
    ],
-   "twitter": "ropensci",
-   "github": "ropensci",
-   "home": "https://www.pexels.com/fr-fr/photo/ordinateur-portable-noir-et-blanc-2740956/"
+   "twitter": "DeCiccoDonk",
+   "github": "ldecicco-usgs",
+   "home": "https://www.usgs.gov/staff-profiles/laura-decicco"
 },
 {
-   "name": "To be disclosed",
-   "affiliation": "Anywhere",
-   "url": "https://www.pexels.com/fr-fr/photo/fleche-en-bois-marron-signee-66100/",
-   "image" : "/img/team/mentor2.jpg",
+   "name": "Adam Sparks",
+   "affiliation": "Department of Primary Industries and Regional Development of Western Australia, Centre for Crop Health, University of Southern Queensland",
+   "url": "https://adamhsparks.netlify.app/",
+   "image" : "/img/team/adam-sparks-mentor.jpg",
    "roles": [
-      "champion"
+      "mentor"
    ],
-   "twitter": "ropensci",
-   "github": "ropensci",
-   "home": "https://www.pexels.com/fr-fr/photo/fleche-en-bois-marron-signee-66100/"
+   "twitter": "adamhsparks",
+   "github": "adamhsparks",
+   "home": "https://adamhsparks.netlify.app/"
+},
+{
+   "name": "Beatriz Milz",
+   "affiliation": "University of Sao Paulo - Curso-R",
+   "url": "",
+   "image" : "/img/team/beatriz-milz-mentor.jpeg",
+   "roles": [
+      "mentor"
+   ],
+   "twitter": "BeaMilz",
+   "github": "beatrizmilz",
+   "home": "https://adamhsparks.netlify.app/"
 }]
