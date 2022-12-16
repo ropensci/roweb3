@@ -1,6 +1,6 @@
 <div class="col-md-3 col-6">
       <div class="user-card">
-        <img class="user-img" src="{{ .image }}" alt="" />
+        <img class="user-img" src="{{ .image }}" alt="" {{ with .credit }}title="{{ . }}"{{ end }}/>
         <a href="{{ .url }}" class="user-name">{{ .name }}</a>
         {{ with .affiliation }}
         <div class="user-role">
