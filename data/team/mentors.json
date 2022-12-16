@@ -90,4 +90,15 @@
    ],
    "github": "arendsee",
    "home": ""
+},
+{
+   "name": "Lukas Wallrich",
+   "affiliation": "Lecturer in Organisational Psychology at Birkbeck, University of London",
+   "url": "https://lukaswallrich.coffee",
+   "image" : "/img/team/lukas-mentor.jpeg",
+   "roles": [
+      "mentor"
+   ],
+   "github": "LukasWallrich",
+   "home": "https://lukaswallrich.coffee"
 }]
