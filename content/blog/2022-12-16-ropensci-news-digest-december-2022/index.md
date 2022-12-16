@@ -42,12 +42,12 @@ The first interview showcases a bilingual (Spanish & English) story from Latin A
 
 Don't miss the [blog post and the video](/blog/2022/11/23/r-universe-stars-1-en/) (with subtitles in English and Spanish).
 
-## Community Call recap: "Mentoring & training program for Scientific Open Source Champions"
+### Community Call recap: "Mentoring & training program for Scientific Open Source Champions"
 
 After a brief hiatus, we returned to community calls with a session dedicated to our Champions Program.   
 We invited open source software Champions from other spaces and communities to share their experiences, to help us learn more about what it is to be a Champion, the benefit of applying to these programs, and how being a Champion can benefit not only us, but also our communities.
 
-In this call, moderated by rOpenSci Community Manager [Yani Bellini Saibene](/author/yanina-bellini-saibene/), Santosh Yadav and Emanuele Bartolesi shared their experiences of being Champions in their communities and gave advice on how to create a path to becoming a Champion in open source software communities.
+In this call, moderated by rOpenSci Community Manager [Yani Bellini Saibene](/author/yanina-bellini-saibene/), [Santosh Yadav](/author/santosh-yadav/) and [Emanuele Bartolesi](/author/emanuele-bartolesi/) shared their experiences of being Champions in their communities and gave advice on how to create a path to becoming a Champion in open source software communities.
 
 You can [watch the video](/commcalls/oct2022-champions/) and [access all the materials](/commcalls/oct2022-champions/)  on our website.
 ### Coworking sessions continue!
@@ -79,7 +79,7 @@ And remember, you can always cowork independently on work related to R, work on 
 
 The following three packages recently became a part of our software suite:
 
-+ [dynamite](https://docs.ropensci.org/dynamite), developed by Santtu Tikka together with Jouni Helske: Easy-to-use and efficient interface for Bayesian inference of complex panel (time series) data. The package supports joint modeling of multiple measurements per individual, time-varying and time-invariant effects, and a wide range of discrete and continuous distributions. Estimation of the models is carried out via Stan. It has been [reviewed](https://github.com/ropensci/software-review/issues/554) by Nicholas Clark, and Lucy McGowan.
++ [dynamite](https://docs.ropensci.org/dynamite), developed by Santtu Tikka together with Jouni Helske: Easy-to-use and efficient interface for Bayesian inference of complex panel (time series) data. The package supports joint modeling of multiple measurements per individual, time-varying and time-invariant effects, and a wide range of discrete and continuous distributions. Estimation of these dynamic multivariate panel models is carried out via Stan. It has been [reviewed](https://github.com/ropensci/software-review/issues/554) by Nicholas Clark, and Lucy McGowan.
 
 + [postdoc](https://docs.ropensci.org/postdoc), developed by Jeroen Ooms: Generates simple and beautiful one-page HTML reference manuals with package documentation. Math rendering and syntax highlighting are done server-side in R such that no JavaScript libraries are needed in the browser, which makes the documentation portable and fast to load.  It is available on [CRAN]( https://CRAN.R-project.org/package=postdoc). 
 
