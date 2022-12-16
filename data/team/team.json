@@ -147,7 +147,7 @@
    "name": "Jenny Bryan",
    "url": "https://jennybryan.org/",
    "image" : "/img/team/jenny_bryan.jpg",
-   "affiliation" : "RStudio",
+   "affiliation" : "Posit",
    "roles": [
       "strategic advisor"
    ],
@@ -369,7 +369,7 @@
 },
 {
    "name": "Max Kuhn",
-   "affiliation": "RStudio",
+   "affiliation": "Posit",
    "url": "http://appliedpredictivemodeling.com/",
    "image": "/img/team/max-kuhn.jpg",
    "past_roles": [
@@ -450,7 +450,7 @@
    "name": "Hadley Wickham",
    "url": "http://hadley.nz/",
    "image" : "/img/team/hadley-wickham.jpg",
-   "affiliation" : "RStudio",
+   "affiliation" : "Posit",
    "roles": [
       "advisor"
    ]
@@ -459,7 +459,7 @@
    "name": "JJ Allaire",
    "url": "https://github.com/jjallaire",
    "image" : "/img/team/jj-allaire.jpg",
-   "affiliation" : "RStudio",
+   "affiliation" : "Posit",
    "roles": [
       "advisor"
    ]
