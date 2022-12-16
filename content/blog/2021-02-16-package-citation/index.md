@@ -15,9 +15,6 @@ tags:
 
 Scientists rarely cite research software they use as part of a research project. As a consequence, the software and the time spent developing and maintaining it becomes an invisible scholarly contribution. Furthermore, this lack of visibility means that incentives to produce high quality, sustainable software are missing. Among many reasons why software is not cited, one is the lack of a clear citation information from package developers. In this tech note we provide some tips on how to make it really easy to cite your software.
 
-
-{{< tweet user="LeafyEricScott" id="1273605411577442304" >}}
-
 We shall also give some insights on hurdles the users of your package might face when wanting to cite your package, as well as a brief presentation of our monitoring of the literature to find use cases of our packages.
 We are planning to include this topic in our [package dev guide](https://devguide.ropensci.org/).
 By commenting on this post you can help us strengthen our package citation guidance!

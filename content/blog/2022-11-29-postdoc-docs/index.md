@@ -3,7 +3,7 @@ slug: postdoc-docs
 title: 'postdoc 1.0: minimal and uncluttered HTML package manuals'
 date: '2022-11-29'
 author: Jeroen Ooms
-description: 'postdoc 1.0: minimal and uncluttered HTML package manuals'
+description: 'We released two new packages that we are using in R-universe to render package documentation: postdoc and prismjs'
 tags:
   - r-universe
   - tech notes
