@@ -69,4 +69,16 @@
    "twitter": "",
    "github": "maurolepore",
    "home": ""
+},
+{
+   "name": "Athanasia Monika Mowinckel",
+   "affiliation": "Center for Lifespan Changes in Brain and Cognition, University of Oslo, Norway",
+   "url": "https://drmowinckels.io/",
+   "image" : "/img/team/.jpg",
+   "roles": [
+      "mentor"
+   ],
+   "twitter": "DrMowinckels",
+   "github": "drmowinckels",
+   "home": "https://drmowinckels.io/"
 }]
