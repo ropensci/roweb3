@@ -54,7 +54,6 @@
    "roles": [
       "mentor"
    ],
-   "twitter": "",
    "github": "cmaimone",
    "home": ""
 },
@@ -66,7 +65,6 @@
    "roles": [
       "mentor"
    ],
-   "twitter": "",
    "github": "maurolepore",
    "home": ""
 },
@@ -81,4 +79,15 @@
    "twitter": "DrMowinckels",
    "github": "drmowinckels",
    "home": "https://drmowinckels.io/"
+},
+{
+   "name": "Zebulun Arendsee",
+   "affiliation": "Regeneron Pharmaceuticals",
+   "url": "",
+   "image" : "/img/team/zebulun-zrendsee-mentor.png",
+   "roles": [
+      "mentor"
+   ],
+   "github": "arendsee",
+   "home": ""
 }]
