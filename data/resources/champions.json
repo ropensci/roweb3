@@ -1,34 +1,21 @@
 [
 {
+   "icon": "video fa",
    "title": "Presentación de rOpenSci y el programa de campeon(a|e)s",
    "text": "Video y presentación del programa en español. Organizado junto al grupo de usuarios RenBuenosAires.",
-   "url": "https://ropensci.org/events/renbaires-2022/"
+   "url": "/events/renbaires-2022/"
 },
 {
+   "icon": "video fa",
    "title": "rOpenSci and rOpenSci's Champions Program presentation",
    "text": "Video and slides in English presenting rOpenSci and the Champion program. Organize with Abuja R User Group.",
-   "url": "https://ropensci.org/events/abuja-2022/"
+   "url": "/events/abuja-2022/"
    
 },
 {
-   "title": "Become a Mentor for rOpenSci Champions!",
-   "text": "rOpenSci is seeking mentors to support our inaugural cohort of rOpenSci Champions!",
-   "url": "https://ropensci.org/blog/2022/10/20/mentors-champions-program/"
-},
-{
-   "title": "¡Anunciamos el programa de Campeon(a|e)s de rOpenSci!",
-   "text": "Estos programas se diseñan para identificar, reconocer y premiar a líderes de nuestras comunidades.",
-   "url": "https://ropensci.org/blog/2022/10/20/mentors-champions-program/"
-},
-{
-   "title": "Contributing Guide",
-   "text": "The purpose of this guide is to welcome you to rOpenSci and help you recognize yourself as a potential contributor.",
-   "url": "https://contributing.ropensci.org"
-},
-{
-   "title": "ropensci-docs GitHub Organization",
-   "text": "Documentation of rOpenSci packages, automatically updated.",
-   "url": "https://github.com/ropensci-docs"
+   "title": "Posts about the program",
+   "text": "",
+   "url": "/tags/champions-program"
 }]
 
 

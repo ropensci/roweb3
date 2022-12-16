@@ -1,51 +1,49 @@
 {{ define "main" }}
-    <section class="blog-post">
-      <div class="container">
+<section class="blog-post">
+    <div class="container">
         <!-- Header text -->
         <div class="row">
-          <div class="col-md-8 content">
-            <h1>{{ .Title  }} — {{ .Description }}</h1>
-            {{ .Content }}
-          </div>
+            <div class="col-lg-8 software-content content">
+                <h1>{{ .Title }}</h1>
+                {{ .Content }}
+            </div>
+        <div class="col-lg-4 mt-4">
+            <aside>
+                {{ range .Site.Data.resources.champions }}
+                <a href="{{ .url }}" class="arrow-card"><i class="fa-{{ .icon }} pr-2"></i>{{ .title }}</a> {{ end }}
+            </aside>
         </div>
-
-        <h2 class="title mt-5">Resources</h2>
-        {{ partial "resources/resources-cards" (dict "resources" .Site.Data.resources.champions ) }}
       </div>
-    </section>
-    <section class="section">
-      <div class="container">
+    </div>
+</section>
+<section class="section">
+    <div class="container">
         <div class="row about-block">
-          <div class="col-md-3 text-md-right">
-            <h4 class="about-block__title" id="editors">
-              Champions
-            </h4>
-          </div>
-          <div class="col-md-6 about-block__text">
-            <p>
-              See <a href="#how-to-apply">how to apply</a>.
-            </p>
-          </div>
+            <div class="col-md-3 text-md-right">
+                <h4 class="about-block__title" id="editors">
+                    Champions
+                </h4>
+            </div>
+            <div class="col-md-6 about-block__text">
+                <p>
+                    See <a href="#how-to-apply">how to apply</a>.
+                </p>
+            </div>
         </div>
-        {{ $champions := .Site.Data.team.champions }}
-        {{ partial "whole-page-fragments/team/team-section" (dict "team" $champions)  }}
+        {{ $champions := .Site.Data.team.champions }} {{ partial "whole-page-fragments/team/team-section" (dict "team" $champions) }}
         <div class="row about-block">
-   			 <div class="col-md-3 text-md-right">
-  				<h4 class="about-block__title" id="editors">
-  					Mentors
-  				</h4>
-  			</div>	
-  			 <div class="col-md-6 about-block__text">
-  				<p>
-  					See <a href="https://ropensci.org/blog/2022/10/20/mentors-champions-program/#how-to-apply">how to apply</a>.
-  				</p>
-  			</div>
-		  </div>
-        {{ $mentors := .Site.Data.team.mentors }}
-        {{ partial "whole-page-fragments/team/team-section" (dict "team" $mentors)  }}
-      </div>
-    </section>
-{{ partial "whole-page-fragments/volunteer"  (dict "divider" "rl" "Site" .Site ) }}
-{{ partial "whole-page-fragments/newsletter"  (dict "divider" "lr" ) }}
-{{ partial "whole-page-fragments/brands"  (dict "Site" .Site "divider" "rl" ) }}
-{{ end }}
+            <div class="col-md-3 text-md-right">
+                <h4 class="about-block__title" id="editors">
+                    Mentors
+                </h4>
+            </div>
+            <div class="col-md-6 about-block__text">
+                <p>
+                    See <a href="https://ropensci.org/blog/2022/10/20/mentors-champions-program/#how-to-apply">how to apply</a>.
+                </p>
+            </div>
+        </div>
+        {{ $mentors := .Site.Data.team.mentors }} {{ partial "whole-page-fragments/team/team-section" (dict "team" $mentors) }}
+    </div>
+</section>
+{{ partial "whole-page-fragments/volunteer" (dict "divider" "rl" "Site" .Site ) }} {{ partial "whole-page-fragments/newsletter" (dict "divider" "lr" ) }} {{ partial "whole-page-fragments/brands" (dict "Site" .Site "divider" "rl" ) }} {{ end }}
