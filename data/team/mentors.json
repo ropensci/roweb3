@@ -45,4 +45,16 @@
    "twitter": "d_olivaw",
    "github": "eliocamp",
    "home": "https://eliocamp.github.io"
+},
+{
+   "name": "Christina Maimone",
+   "affiliation": "Northwestern University",
+   "url": "",
+   "image" : "/img/team/christina-maimone-mentor.jpg",
+   "roles": [
+      "mentor"
+   ],
+   "twitter": "",
+   "github": "cmaimone",
+   "home": ""
 }]
