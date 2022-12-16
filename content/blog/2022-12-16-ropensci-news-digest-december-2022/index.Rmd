@@ -61,7 +61,7 @@ The first interview showcases a bilingual (Spanish & English) story from Latin A
 
 Don't miss the [blog post and the video](/blog/2022/11/23/r-universe-stars-1-en/) (with subtitles in English and Spanish).
 
-## Community Call recap: "Mentoring & training program for Scientific Open Source Champions"
+### Community Call recap: "Mentoring & training program for Scientific Open Source Champions"
 
 After a brief hiatus, we returned to community calls with a session dedicated to our Champions Program.   
 We invited open source software Champions from other spaces and communities to share their experiences, to help us learn more about what it is to be a Champion, the benefit of applying to these programs, and how being a Champion can benefit not only us, but also our communities.
