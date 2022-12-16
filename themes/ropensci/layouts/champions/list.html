@@ -24,11 +24,6 @@
                     Champions
                 </h4>
             </div>
-            <div class="col-md-6 about-block__text">
-                <p>
-                    See <a href="#how-to-apply">how to apply</a>.
-                </p>
-            </div>
         </div>
         {{ $champions := .Site.Data.team.champions }} {{ partial "whole-page-fragments/team/team-section" (dict "team" $champions) }}
         <div class="row about-block">
@@ -36,11 +31,6 @@
                 <h4 class="about-block__title" id="editors">
                     Mentors
                 </h4>
-            </div>
-            <div class="col-md-6 about-block__text">
-                <p>
-                    See <a href="https://ropensci.org/blog/2022/10/20/mentors-champions-program/#how-to-apply">how to apply</a>.
-                </p>
             </div>
         </div>
         {{ $mentors := .Site.Data.team.mentors }} {{ partial "whole-page-fragments/team/team-section" (dict "team" $mentors) }}
