@@ -10,9 +10,9 @@
     </a>
     <p class="post-text">
       {{ if isset .Params "description" }}
-      {{ .Params.description }}
+      {{ .Params.description | markdownify }}
       {{ else }}
-      {{ .Summary }}...
+      {{ .Summary | markdownify }}...
       {{ end }}
     </p>
     <div class="post-authors">
