@@ -1,24 +1,115 @@
 [{
-   "name": "To be disclosed",
-   "url": "https://www.pexels.com/fr-fr/photo/ordinateur-portable-noir-et-blanc-2740956/",
-   "image" : "/img/team/mentor1.jpg",
-   "affiliation": "Somewhere",
+   "name": "Laura DeCicco",
+   "url": "https://www.usgs.gov/staff-profiles/laura-decicco",
+   "image" : "/img/team/laura-decicco-mentor.png",
+   "affiliation": "United States Geological Survey",
    "roles": [
-      "champion"
+      "mentor"
    ],
-   "twitter": "ropensci",
-   "github": "ropensci",
-   "home": "https://www.pexels.com/fr-fr/photo/ordinateur-portable-noir-et-blanc-2740956/"
+   "twitter": "DeCiccoDonk",
+   "github": "ldecicco-usgs",
+   "home": "https://www.usgs.gov/staff-profiles/laura-decicco"
 },
 {
-   "name": "To be disclosed",
-   "affiliation": "Anywhere",
-   "url": "https://www.pexels.com/fr-fr/photo/fleche-en-bois-marron-signee-66100/",
-   "image" : "/img/team/mentor2.jpg",
+   "name": "Adam Sparks",
+   "affiliation": "Department of Primary Industries and Regional Development of Western Australia, Centre for Crop Health, University of Southern Queensland",
+   "url": "https://adamhsparks.netlify.app/",
+   "image" : "/img/team/adam-sparks-mentor.jpeg",
    "roles": [
-      "champion"
+      "mentor"
    ],
-   "twitter": "ropensci",
-   "github": "ropensci",
-   "home": "https://www.pexels.com/fr-fr/photo/fleche-en-bois-marron-signee-66100/"
+   "twitter": "adamhsparks",
+   "github": "adamhsparks",
+   "home": "https://adamhsparks.netlify.app/"
+},
+{
+   "name": "Beatriz Milz",
+   "affiliation": "University of Sao Paulo - Curso-R",
+   "url": "",
+   "image" : "/img/team/beatriz-milz-mentor.jpeg",
+   "roles": [
+      "mentor"
+   ],
+   "twitter": "BeaMilz",
+   "github": "beatrizmilz",
+   "home": ""
+},
+{
+   "name": "Elio Campitelli",
+   "affiliation": "Universidad de Buenos Aires Centro de Investigaciones del Mar y la Atmósfera",
+   "url": "https://eliocamp.github.io",
+   "image" : "/img/team/elio-campitelli-mentor.jpg",
+   "roles": [
+      "mentor"
+   ],
+   "twitter": "d_olivaw",
+   "github": "eliocamp",
+   "home": "https://eliocamp.github.io"
+},
+{
+   "name": "Christina Maimone",
+   "affiliation": "Northwestern University",
+   "url": "",
+   "image" : "/img/team/christina-maimone-mentor.jpg",
+   "roles": [
+      "mentor"
+   ],
+   "github": "cmaimone",
+   "home": ""
+},
+{
+   "name": "Mauro Lepore",
+   "affiliation": "2degrees",
+   "url": "",
+   "image" : "/img/team/mauro-lepore-mentor.jpg",
+   "roles": [
+      "mentor"
+   ],
+   "github": "maurolepore",
+   "home": ""
+},
+{
+   "name": "Athanasia Monika Mowinckel",
+   "affiliation": "Center for Lifespan Changes in Brain and Cognition, University of Oslo, Norway",
+   "url": "https://drmowinckels.io/",
+   "image" : "/img/team/mo-mentor.png",
+   "roles": [
+      "mentor"
+   ],
+   "twitter": "DrMowinckels",
+   "github": "drmowinckels",
+   "home": "https://drmowinckels.io/"
+},
+{
+   "name": "Zebulun Arendsee",
+   "affiliation": "Regeneron Pharmaceuticals",
+   "url": "",
+   "image" : "/img/team/zebulun-zrendsee-mentor.jpg",
+   "roles": [
+      "mentor"
+   ],
+   "github": "arendsee",
+   "home": ""
+},
+{
+   "name": "Lukas Wallrich",
+   "affiliation": "Lecturer in Organisational Psychology at Birkbeck, University of London",
+   "url": "https://lukaswallrich.coffee",
+   "image" : "/img/team/lukas-mentor.jpeg",
+   "roles": [
+      "mentor"
+   ],
+   "github": "LukasWallrich",
+   "home": "https://lukaswallrich.coffee"
+},
+{
+   "name": "Marc Choisy",
+   "affiliation": "Centre for Tropical Medicine and Global Health, Nuffield Department of Medicine, University of Oxford, Oxford, United Kingdom. Oxford University Clinical Research Unit, Ho Chi Minh city, Vietnam. School of Public Health, University of Hong Kong",
+   "url": "https://www.ndm.ox.ac.uk/team/marc-choisy",
+   "image" : "/img/team/marc-choisy-mentor.png",
+   "roles": [
+      "mentor"
+   ],
+   "github": "choisy",
+   "home": ""
 }]
