@@ -21,7 +21,7 @@ of people who experience or report incidents.
 
 In 2022, we received one Code of Conduct incident report. 
 
-_Summary of Reported Incidents_
+### Summary of Reported Incidents
 
 * _Description of the incident:_ During a package review process, a reviewer became extremely negative on a public 
 channel and posted messages publicly shaming the package's authors with non-constructive feedback and comments.
