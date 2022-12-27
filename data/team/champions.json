@@ -47,28 +47,28 @@
    "home": ""
 },
 {
-   "name": "",
-   "affiliation": "",
-   "url": "",
-   "image" : "/img/team/victor-ordu-mentee.jpg",
+   "name": "Bilikisu Wunmi Olatunji",
+   "affiliation": "Business Data Laboratory Limited, Data Scientist Network(Nigeria)",
+   "url": "https://www.linkedin.com/in/bilikisuolatunji/",
+   "image" : "/img/team/bilikisu-wunmi-olatunji-mentee.jpeg",
    "roles": [
       "champion"
    ],
-   "twitter": "",
-   "github": "",
-   "home": ""
+   "twitter": "qbwoa",
+   "github": "BWOlatunji",
+   "home": "https://www.linkedin.com/in/bilikisuolatunji/"
 },
 {
-   "name": "",
-   "affiliation": "",
-   "url": "",
-   "image" : "/img/team/victor-ordu-mentee.jpg",
+   "name": "Cesar Luis Aybar Camacho",
+   "affiliation": "Research, Trillium Europe. Image Processing Laboratory, University of Valencia. High Mountain Ecosystem Research Group, National University of San Marcos, Peru.",
+   "url": "http://csaybar.github.io/",
+   "image" : "/img/team/cesar-luis-aybar-camacho-mentee.jpeg",
    "roles": [
       "champion"
    ],
-   "twitter": "",
-   "github": "",
-   "home": ""
+   "twitter": "csaybar",
+   "github": "csaybar",
+   "home": "http://csaybar.github.io/"
 },
 {
    "name": "",
