@@ -23,27 +23,27 @@
    "home": "https://victorordu.wordpress.com"
 },
 {
-   "name": "",
-   "affiliation": "",
+   "name": "Cheryl Isabella Lim",
+   "affiliation": "Maastricht University",
    "url": "",
-   "image" : "/img/team/victor-ordu-mentee.jpg",
+   "image" : "/img/team/cheryl-isabella-lim-mentee.jpg",
    "roles": [
       "champion"
    ],
    "twitter": "",
-   "github": "",
+   "github": "cherylisabella",
    "home": ""
 },
 {
-   "name": "",
-   "affiliation": "",
+   "name": "Marcos Miguel Prunello",
+   "affiliation": "School of Statistics at the National University of Rosario, Argentina.",
    "url": "",
-   "image" : "/img/team/victor-ordu-mentee.jpg",
+   "image" : "/img/team/marcos-prunello-mentee.jpg",
    "roles": [
       "champion"
    ],
-   "twitter": "",
-   "github": "",
+   "twitter": "mrqtsp",
+   "github": "mpru",
    "home": ""
 },
 {
