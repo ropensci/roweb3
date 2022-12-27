@@ -14,6 +14,18 @@
 },
 {
    "icon": "clipboard fa",
+   "title": "Program Details - Champions",
+   "text": "",
+   "url": "programdetails"
+},
+{
+   "icon": "clipboard fa",
+   "title": "Program Details - Mentors",
+   "text": "",
+   "url": "programdetailsmentors"
+},
+{
+   "icon": "clipboard fa",
    "title": "Posts about the program",
    "text": "",
    "url": "/tags/champions-program"
