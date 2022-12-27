@@ -95,10 +95,10 @@
    "home": ""
 },
 {
-   "name": "",
-   "affiliation": "",
+   "name": "Alican Cagri Gokcek",
+   "affiliation": "University of Nevada, Reno",
    "url": "",
-   "image" : "/img/team/victor-ordu-mentee.jpg",
+   "image" : "",
    "roles": [
       "champion"
    ],
@@ -107,26 +107,14 @@
    "home": ""
 },
 {
-   "name": "",
-   "affiliation": "",
+   "name": "Carolina Pradier",
+   "affiliation": "Center for population, employment and development Studies (CEPED) - Institute for Economic Research (IIE) - Faculty of Economic Sciences. Faculty of Social Sciences. University of Buenos Aires",
    "url": "",
-   "image" : "/img/team/victor-ordu-mentee.jpg",
+   "image" : "/img/team/carolina-pradier-mentee.jpg",
    "roles": [
       "champion"
    ],
    "twitter": "",
-   "github": "",
-   "home": ""
-},
-{
-   "name": "",
-   "affiliation": "",
-   "url": "",
-   "image" : "/img/team/victor-ordu-mentee.jpg",
-   "roles": [
-      "champion"
-   ],
-   "twitter": "",
-   "github": "",
+   "github": "caropradier",
    "home": ""
 }]
