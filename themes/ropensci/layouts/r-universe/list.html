@@ -1,35 +1,30 @@
 {{ define "main" }}
-    <section class="blog-post">
-      <style>.software-content h1, .software-content h2{padding-left:0}</style>
-      <div class="container">
+<section class="blog-post">
+    <style>
+        .software-content h1, .software-content h2{padding-left:0}
+    </style>
+    <div class="container">
         <!-- Header text -->
         <div class="row">
-          <div class="col-lg-8 software-content content">
-            <h1>{{ .Title }}</h1>
-            {{ .Content }}
-          </div>
-              <div class="col-lg-4 mt-4">
-                <aside>
-                  {{ range .Site.Data.resources.runiverse }}
-                  <a href="{{ .url }}" class="arrow-card"><i class="fa-{{ .icon }} pr-2"></i>{{ .title }}</a>
-                  {{ end }}
-                </aside>
-              </div>
+            <div class="col-lg-8 software-content content">
+                <h1>{{ .Title }}</h1>
+                {{ .Content }}
+            </div>
+        </div>
+        <div class="col-lg-4 mt-4">
+            <aside>
+                {{ range .Site.Data.resources.runiverse }}
+                <a href="{{ .url }}" class="arrow-card"><i class="fa-{{ .icon }} pr-2"></i>{{ .title }}</a> {{ end }}
+            </aside>
+        </div>
 
-      </div>
-      
-            {{ $pages := (where .Site.RegularPages.ByPublishDate.Reverse ".Params.tags" "intersect" (slice "r-universe")) }}
-            {{ if ge (len $pages) 1 }}
-     <div class="author-blog">
+    </div>
+
+    {{ $pages := (where .Site.RegularPages.ByPublishDate.Reverse ".Params.tags" "intersect" (slice "r-universe")) }} {{ if ge (len $pages) 1 }}
+    <div class="author-blog">
         <h2 class="title mt-5 mb-4">Articles about r-universe</h2>
-        {{ range $pages }}
-{{ .Render "post-short-summary-author" }}
-{{ end }}
-{{ end }}
-</div>
-      </div>
-    </section>
-{{ partial "whole-page-fragments/volunteer" (dict "divider" "rl" "Site" .Site ) }}
-{{ partial "whole-page-fragments/newsletter"  (dict "divider" "lr" ) }}
-{{ partial "whole-page-fragments/brands"  (dict "Site" .Site "divider" "rl" ) }}
-{{ end }}
+        {{ range $pages }} {{ .Render "post-short-summary-author" }} {{ end }} {{ end }}
+    </div>
+    </div>
+</section>
+{{ partial "whole-page-fragments/volunteer" (dict "divider" "rl" "Site" .Site ) }} {{ partial "whole-page-fragments/newsletter" (dict "divider" "lr" ) }} {{ partial "whole-page-fragments/brands" (dict "Site" .Site "divider" "rl" ) }} {{ end }}
