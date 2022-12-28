@@ -65,7 +65,7 @@ Besides, technical translations of living documents have two well-defined stages
 
   2. keeping the material updated and synchronized between the different languages.
 
-There are many solutions for internationalizing and localizing content and software. _Translation_ is typically the most time-consuming component of these efforts. [^3]
+There are many solutions for internationalizing and localizing content and software. _Translation_ is typically the most time-consuming component of these efforts[^3]. 
 
 Based on the experience gain on the previews projects and the characteristics of our community, this project aims to advance in stage 1 achieving a first revised translation in Spanish of the rOpenSci materials, and testing a technical workflow to perform the translations.
 
