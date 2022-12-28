@@ -69,7 +69,7 @@ There are many solutions for internationalizing and localizing content and softw
 
 Based on the experience gain on the previews projects and the characteristics of our community, this project aims to advance in stage 1 achieving a first revised translation in Spanish of the rOpenSci materials, and testing a technical workflow to perform the translations.
 
-Our approach will test to generate a workflow using an API of an automatic translator to generate a first translated version of the documents that will be later reviewed by professional bilingual developers using GitHUb as platform.
+Our approach will test and generate a workflow using an API of an automatic translator to generate a first translated version of the documents that will be later reviewed by professional bilingual developers using GitHUb as platform.
 
 
 The advantage of this workflow is to reduce the time it takes to produce a quality translation.
