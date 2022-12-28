@@ -62,7 +62,7 @@ We have several channels for our information to reach you directly. Worried abou
 
 * [Newsletter](/news/): every month receive in your inbox R package news, blog posts, tips and tricks, events and use cases. Subscribe via RSS (XML), JSON feed, or email.
 
-* _Social Media_: follow our organization’s activities on [Twitter](https://twitter.com/rOpenSci), and [Vimeo](https://vimeo.com/ropensci). Also follow our [roknowtifier bot](https://twitter.com/roknowtifier) that tweets new rOpenSci packages or new versions of packages
+* _Social Media_: follow our organization’s activities on [Twitter](https://twitter.com/rOpenSci), and [Vimeo](https://vimeo.com/ropensci).
 
 
 ## Use and contribute to our infrastructure

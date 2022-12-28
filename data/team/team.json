@@ -85,6 +85,7 @@
    "affiliation": "Research Software Engineer",
    "url": "/author/maëlle-salmon",
    "image" : "/img/team/maelle_salmon.jpg",
+   "credit": "Photo Julie Noury Soyer https://www.photographe-julienourysoyer.com/",
    "roles": [
       "staff",
       "developer",
@@ -103,7 +104,6 @@
       "strategic advisor",
       "editor"
    ],
-   "twitter": "noamross",
    "mastodon": "https://ecoevo.social/@noamross",
    "github": "noamross",
    "home": "/author/noam-ross"
@@ -118,6 +118,7 @@
       "developer"
    ],
    "twitter": "steffilazerte",
+   "mastodon": "https://fosstodon.org/@steffilazerte",
    "github": "steffilazerte",
    "home": "/author/steffi-lazerte"
 },
@@ -146,7 +147,7 @@
    "name": "Jenny Bryan",
    "url": "https://jennybryan.org/",
    "image" : "/img/team/jenny_bryan.jpg",
-   "affiliation" : "RStudio",
+   "affiliation" : "Posit",
    "roles": [
       "strategic advisor"
    ],
@@ -368,7 +369,7 @@
 },
 {
    "name": "Max Kuhn",
-   "affiliation": "RStudio",
+   "affiliation": "Posit",
    "url": "http://appliedpredictivemodeling.com/",
    "image": "/img/team/max-kuhn.jpg",
    "past_roles": [
@@ -449,7 +450,7 @@
    "name": "Hadley Wickham",
    "url": "http://hadley.nz/",
    "image" : "/img/team/hadley-wickham.jpg",
-   "affiliation" : "RStudio",
+   "affiliation" : "Posit",
    "roles": [
       "advisor"
    ]
@@ -458,7 +459,7 @@
    "name": "JJ Allaire",
    "url": "https://github.com/jjallaire",
    "image" : "/img/team/jj-allaire.jpg",
-   "affiliation" : "RStudio",
+   "affiliation" : "Posit",
    "roles": [
       "advisor"
    ]

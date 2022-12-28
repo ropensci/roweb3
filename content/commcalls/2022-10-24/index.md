@@ -13,12 +13,12 @@ location: Community call (teleconference)
 country: "\U0001F310"
 attendees: All are welcome
 slug: oct2022-champions
-notes: 
+notes: https://docs.google.com/document/d/11G9Eed5bVf54TR1d6CoJD_HD-3qlMlOI0_ecpcbUOEQ/
 outputs:
 - HTML
 - Calendar 
-#vimeo:
-#- id: ''
+vimeo:
+- id: '772203897'
 resources:
   - url: /blog/2022/09/22/launch-champions-program
     name: Announcing the rOpenSci Champions Program! 
