@@ -21,6 +21,10 @@ According to a recent report from The Linux Foundation, _language access_ is one
 
 > The predominant language of open source is English—in code, content, and community interactions—and English proficiency is a metric by which performance and personality can be judged[^1]. 
 
+This might remind some readers of the famous [quote](https://www.imdb.com/title/tt4166966/characters/nm0005527) from [Modern Family](https://www.tiktok.com/@primevideouk/video/6899066588121713921), where a character called Gloria exclaims:
+
+> Do you even know how smart I am in Spanish?
+
 By publishing multilingual resources, we can lower these barriers by increasing access to knowledge and democratizing access to quality resources, thereby increasing the potential for individuals to contribute to software and open science projects.
 
 ## Language representation
