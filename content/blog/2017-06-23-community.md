@@ -45,12 +45,6 @@ In addition to twitter, there are _many_ resources available within the R commun
 
 No community is perfect, and being willing to consider our shortcomings and think about ways in which we can improve is so important. The group came up with a lot of great suggestions, including many I had not previously thought of personally.
 
-[Alice Daish](https://twitter.com/alice_data) did a great job capturing the conversation and allowing for more discussion online:
-
-{{< tweet user="alice_data" id="868198529134510080" >}}
-
-To summarize here:
-
 - Take the time to welcome new people. A simple hello can go a long way!
 - Reach out to people we may be missing: high school students, people of different backgrounds, individuals in other countries, etc.
 - Avoid the word "just" when helping others. "Here's one way of thinking about that" >> "Just do it this way"
