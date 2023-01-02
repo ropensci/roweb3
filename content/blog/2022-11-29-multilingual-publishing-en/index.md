@@ -14,7 +14,8 @@ description: ""
 
 ---
 
-We are excited to announce that, with the support of the Chan-Zuckerberg Initiative, NumFOCUS, and the R Consortium, we have begun the process of translating rOpenSci's materials on best practices for software development, code review, and contribution to open source projects into Spanish. As part of this effort, we are also developing guidelines and tools for translating open source resources to reach a wider audience.
+We are excited to announce that, with the support of the Chan Zuckerberg Initiative, NumFOCUS, and the R Consortium, we have begun the process of translating rOpenSci's materials on best practice for software development, code review, and contribution to open source projects into Spanish. 
+As part of this effort, we are also developing guidelines and tools for translating open source resources to reach a wider audience.
 
 According to a recent report from The Linux Foundation, _language access_ is one of the _environmental barriers to equity in open source_. The report states that 
 
@@ -24,13 +25,13 @@ By publishing multilingual resources, we can lower these barriers by increasing 
 
 ## Language representation
 
-The Spanish-speaking R community has been very active and growing in recent years, and has undertaken various translation activities for technical materials such as books, cheat sheets, guides, and datasets.
+The Spanish-speaking R community has been very active and growing in recent years, and has undertaken various translation activities for technical materials such as books, cheatsheets, guides, and datasets.
 
 In 2017, several Latin American R-Ladies began translating the R-Ladies' [Code of Conduct](https://github.com/rladies/starter-kit/wiki/Code-of-Conduct#spanish) and their Rules and Guidelines into Spanish.
 
-In 2018, the R community in Latin America collectively translated the [R for Data Science](https://es.r4ds.hadley.nz/) book into Spanish. This included the translation of all the data sets used in the book, which were compiled in the [datos](https://github.com/cienciadedatos/datos) package, making it an excellent tool for teaching.
+In 2018, the [R community in Latin America collectively translated](https://youtu.be/kuHjpdgkSxg) the [R for Data Science](https://es.r4ds.hadley.nz/) book into Spanish. This included the translation of all the data sets used in the book, which were compiled in the [datos](https://github.com/cienciadedatos/datos) package, making it an excellent tool for teaching.
 
-The community continued with the translation of [Teaching Tech Together](http://teachtogether.tech/es/index.html) and contributed to the translations into Spanish of the [Posit CheatSheets](https://posit.co/resources/cheatsheets/?type=translations/#translation-12),
+The community continued with the translation of [Teaching Tech Together](http://teachtogether.tech/es/index.html) and contributed to the translations into Spanish of the [Posit Cheatsheets](https://posit.co/resources/cheatsheets/?type=translations/#translation-12),
 [The Carpentries](https://software-carpentry.org/lessons/)’ 
 and [The Programming Historian](https://programminghistorian.org/es/) lessons.
 
@@ -49,7 +50,7 @@ Multilingual publishing of documentation and resources involves two aspects:
 
 * The _internationalization_ refers to the technological solution allowing the software to adapt to different regions without requiring engineering changes to the source code. It is what enables us to localize our content[^3].
 
-* The _localization_ is the process of taking a piece of content in its original form and converting it into something more accessible and suitable for another region, country, or audience [^3]. This includes language, date formats, currency, measurement units, and support for different character sets. 
+* The _localization_ is the process of taking a piece of content in its original form and converting it into something more accessible and suitable for another region, country, or audience[^3]. This includes language, date formats, currency, measurement units, and support for different character sets. 
 
 
 In addition, technical translations of living documents have two well-defined stages that involve different resources:
