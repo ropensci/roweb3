@@ -10,7 +10,7 @@ slug: multilingual-publishing-en
 tags:
   - community
   - multilingual
-description: ""
+description: "We are translating rOpenSci's materials on best practice for software development, code review, and contribution to open source projects into Spanish! We are also developing guidelines and tools for translating open source resources to reach a wider audience. Learn about the project in this blog post."
 
 ---
 
