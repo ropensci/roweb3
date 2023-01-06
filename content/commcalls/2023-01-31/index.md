@@ -22,10 +22,10 @@ outputs:
 # - id: ''
 resources:
   - url: https://books.ropensci.org/targets/
-    name: The {targets} R package user manual
+    name: 'The {targets} R package user manual'
     details:
   - url: https://docs.ropensci.org/targets
-    name: {targets} package docs
+    name: '{targets} package docs'
     details:
 speakers:  
   - name: Will Landau
