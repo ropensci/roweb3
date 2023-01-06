@@ -24,9 +24,9 @@ resources:
   - url: https://books.ropensci.org/targets/
     name: The {targets} R package user manual
     details:
-   - url: https://docs.ropensci.org/targets
-     name: {targets} package docs
-     details:
+  - url: https://docs.ropensci.org/targets
+    name: {targets} package docs
+    details:
 speakers:  
   - name: Will Landau
     bio: Will Landau is the author of rOpenSci's {targets} R package. He earned his PhD in Statistics from Iowa State University in 2016, and he now works at Eli Lilly and Company, where he develops methods and software for clinical statisticians.
