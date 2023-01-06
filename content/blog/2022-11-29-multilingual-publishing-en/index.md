@@ -42,7 +42,7 @@ and [The Programming Historian](https://programminghistorian.org/es/) lessons.
 Driven by this active and growing Spanish-speaking community, rOpenSci [successfully piloted](/blog/2021/07/27/censo2017/) our first [Spanish-language peer review](/commcalls/2019-06-28/), where the submission itself, as well as all reviews and editorial responses, were in Spanish.
 
 
-All of this work and previous experience created the right conditions for us to start our multilingual publishing with _Spanish_. 
+All of this work and previous experience created the right conditions for us to start our multilingual publishing in Spanish!
 Spanish is the second most-spoken native language in the world and is one of the most geographically widespread languages, being an official language in many countries[^2].
 
 ## Technical materials, technical solutions
