@@ -65,7 +65,7 @@ In addition, technical translations of living documents have two well-defined st
 
 There are many solutions for internationalizing and localizing content and software. _Translation_ is typically the most time-consuming component of these efforts[^3].
 
-Based on the experience gained from our first experiences and the characteristics of our community, this project aims to progress to stage 1 by achieving a first revised translation in Spanish of the rOpenSci materials, and testing a technical workflow for performing the translations.
+Based on our previous experiences and using the characteristics of our community, this project aims to complete Stage 1 by creating initial Spanish translations of rOpenSci materials, and testing a technical workflow for performing translations.
 
 Our approach will test and develop a workflow using the automatic translator [DeepL](https://www.deepl.com) API to generate an initial translated version of the documents, which will be later reviewed by professional bilingual developers using GitHub as a platform.
 
