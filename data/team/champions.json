@@ -1,24 +1,120 @@
 [{
-   "name": "You?",
-   "url": "https://www.pexels.com/fr-fr/photo/texte-mot-espace-de-copie-soutien-5912741/",
-   "image" : "/img/team/you1.jpg",
-   "affiliation": "Somewhere",
+   "name": "Paola Corrales",
+   "url": "https://paocorrales.github.io/",
+   "image" : "/img/team/paola_corrales-mentee.jpg",
+   "affiliation": "Centro de Investigaciones del Mar y la Atmósfera - UBA - CONICET",
    "roles": [
       "champion"
    ],
-   "twitter": "ropensci",
-   "github": "ropensci",
-   "home": "https://www.pexels.com/fr-fr/photo/texte-mot-espace-de-copie-soutien-5912741/"
+   "twitter": "PaobCorrales",
+   "github": "paocorrales",
+   "home": "https://paocorrales.github.io/"
 },
 {
-   "name": "And you?",
-   "affiliation": "Anywhere",
-   "url": "https://www.pexels.com/fr-fr/photo/bleu-lettres-mot-vue-de-haut-5912585/",
-   "image" : "/img/team/you2.jpg",
+   "name": "Victor Ordu",
+   "affiliation": "DevSolutions Ltd",
+   "url": "https://victorordu.wordpress.com",
+   "image" : "/img/team/victor-ordu-mentee.jpg",
    "roles": [
       "champion"
    ],
-   "twitter": "ropensci",
-   "github": "ropensci",
-   "home": "https://www.pexels.com/fr-fr/photo/bleu-lettres-mot-vue-de-haut-5912585/"
+   "twitter": "BroVic",
+   "github": "BroVic",
+   "home": "https://victorordu.wordpress.com"
+},
+{
+   "name": "Cheryl Isabella Lim",
+   "affiliation": "Maastricht University",
+   "url": "",
+   "image" : "/img/team/cheryl-isabella-lim-mentee.jpg",
+   "roles": [
+      "champion"
+   ],
+   "twitter": "",
+   "github": "cherylisabella",
+   "home": ""
+},
+{
+   "name": "Marcos Miguel Prunello",
+   "affiliation": "School of Statistics at the National University of Rosario, Argentina.",
+   "url": "",
+   "image" : "/img/team/marcos-prunello-mentee.jpg",
+   "roles": [
+      "champion"
+   ],
+   "twitter": "mrqtsp",
+   "github": "mpru",
+   "home": ""
+},
+{
+   "name": "Bilikisu Wunmi Olatunji",
+   "affiliation": "Business Data Laboratory Limited, Data Scientist Network(Nigeria)",
+   "url": "https://www.linkedin.com/in/bilikisuolatunji/",
+   "image" : "/img/team/bilikisu-wunmi-olatunji-mentee.jpeg",
+   "roles": [
+      "champion"
+   ],
+   "twitter": "qbwoa",
+   "github": "BWOlatunji",
+   "home": "https://www.linkedin.com/in/bilikisuolatunji/"
+},
+{
+   "name": "Cesar Luis Aybar Camacho",
+   "affiliation": "Research, Trillium Europe. Image Processing Laboratory, University of Valencia. High Mountain Ecosystem Research Group, National University of San Marcos, Peru.",
+   "url": "http://csaybar.github.io/",
+   "image" : "/img/team/cesar-luis-aybar-camacho-mentee.jpeg",
+   "roles": [
+      "champion"
+   ],
+   "twitter": "csaybar",
+   "github": "csaybar",
+   "home": "http://csaybar.github.io/"
+},
+{
+   "name": "Ghozayel Elotteebi",
+   "affiliation": "Open Science Community Saudi Arabia (OSCSA). Jubail Industrial College. Royal Commission in Jubail and Yanbu, Saudi Arabi. University of Nottingham, UK",
+   "url": "",
+   "image" : "/img/team/chozayel-elotteebi-mentee.jpg",
+   "roles": [
+      "champion"
+   ],
+   "twitter": "gzl_atb",
+   "github": "Ghozayel",
+   "home": ""
+},
+{
+   "name": "Haydee Svab",
+   "affiliation": "ASK-AR",
+   "url": "",
+   "image" : "/img/team/haydee-svab-mentee.jpeg",
+   "roles": [
+      "champion"
+   ],
+   "twitter": "hsvab",
+   "github": "hsvab",
+   "home": ""
+},
+{
+   "name": "Alican Cagri Gokcek",
+   "affiliation": "University of Nevada, Reno",
+   "url": "",
+   "image" : "",
+   "roles": [
+      "champion"
+   ],
+   "twitter": "acagrigokcek",
+   "github": "",
+   "home": ""
+},
+{
+   "name": "Carolina Pradier",
+   "affiliation": "Center for population, employment and development Studies (CEPED) - Institute for Economic Research (IIE) - Faculty of Economic Sciences. Faculty of Social Sciences. University of Buenos Aires",
+   "url": "",
+   "image" : "/img/team/carolina-pradier-mentee.jpg",
+   "roles": [
+      "champion"
+   ],
+   "twitter": "",
+   "github": "caropradier",
+   "home": ""
 }]
