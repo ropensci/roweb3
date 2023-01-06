@@ -2,7 +2,7 @@
 title: Expanding our Community through Multilingual Publishing 
 author:
   - Yanina Bellini Saibene
-  - Paola Corrales
+  - Pao Corrales
   - Elio Campitelli
   - Maëlle Salmon
 date: '2023-01-12'
