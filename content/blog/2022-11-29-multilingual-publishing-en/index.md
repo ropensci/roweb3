@@ -10,14 +10,14 @@ slug: multilingual-publishing-en
 tags:
   - community
   - multilingual
-description: "We are translating rOpenSci's materials on best practice for software development, code review, and contribution to open source projects into Spanish! We are also developing guidelines and tools for translating open source resources to reach a wider audience. Learn about the project in this blog post."
+description: "We are translating rOpenSci's materials on best practices for software development, code review, and contribution to open source projects into Spanish! We are also developing guidelines and tools for translating open source resources to reach a wider audience. Learn about the project in this blog post."
 
 ---
 
-We are excited to announce that, with the support of the Chan Zuckerberg Initiative, NumFOCUS, and the R Consortium, we have begun the process of translating rOpenSci's materials on best practice for software development, code review, and contribution to open source projects into Spanish. 
+We are excited to announce that, with the support of the Chan Zuckerberg Initiative, NumFOCUS, and the R Consortium, we have begun the process of translating rOpenSci's materials on best practices for software development, code review, and contribution to open source projects into Spanish. 
 As part of this effort, we are also developing guidelines and tools for translating open source resources to reach a wider audience.
 
-According to a recent report from The Linux Foundation, _language access_ is one of the _environmental barriers to equity in open source_. The report states that 
+According to a [recent report](https://www.linuxfoundation.org/research/the-2021-linux-foundation-report-on-diversity-equity-and-inclusion-in-open-source) from The Linux Foundation, _language access_ is one of the _environmental barriers to equity in open source_. The report states that 
 
 > The predominant language of open source is English—in code, content, and community interactions—and English proficiency is a metric by which performance and personality can be judged[^1]. 
 
@@ -35,15 +35,15 @@ In 2017, several Latin American R-Ladies began translating the R-Ladies' [Code o
 
 In 2018, the [R community in Latin America collectively translated](https://youtu.be/kuHjpdgkSxg) the [R for Data Science](https://es.r4ds.hadley.nz/) book into Spanish. This included the translation of all the data sets used in the book, which were compiled in the [datos](https://github.com/cienciadedatos/datos) package, making it an excellent tool for teaching.
 
-The community continued with the translation of [Teaching Tech Together](http://teachtogether.tech/es/index.html) and contributed to the translations into Spanish of the [Posit Cheatsheets](https://posit.co/resources/cheatsheets/?type=translations/#translation-12),
+The community continued with the translation of [Teaching Tech Together](https://teachtogether.tech/es/index.html) and contributed to the translations into Spanish of the [Posit Cheatsheets](https://posit.co/resources/cheatsheets/?type=translations/#translation-12),
 [The Carpentries](https://software-carpentry.org/lessons/)’ 
 and [The Programming Historian](https://programminghistorian.org/es/) lessons.
 
-Driven by this active and growing Spanish-speaking community, rOpenSci [successfully piloted](https://ropensci.org/blog/2021/07/27/censo2017/) our first [Spanish-language peer review](https://ropensci.org/commcalls/2019-06-28/), where the submission itself, as well as all reviews and editorial responses, were in Spanish.
+Driven by this active and growing Spanish-speaking community, rOpenSci [successfully piloted](/blog/2021/07/27/censo2017/) our first [Spanish-language peer review](/commcalls/2019-06-28/), where the submission itself, as well as all reviews and editorial responses, were in Spanish.
 
 
 All of this work and previous experience created the right conditions for us to start our multilingual publishing with _Spanish_. 
-Spanish is the second most-spoken native language in the world and is one of the most geographically widespread languages, being an official language in many countries. [^2]
+Spanish is the second most-spoken native language in the world and is one of the most geographically widespread languages, being an official language in many countries[^2].
 
 ## Technical materials, technical solutions
 
@@ -67,7 +67,7 @@ There are many solutions for internationalizing and localizing content and softw
 
 Based on the experience gained from our first experiences and the characteristics of our community, this project aims to progress to stage 1 by achieving a first revised translation in Spanish of the rOpenSci materials, and testing a technical workflow for performing the translations.
 
-Our approach will test and develop a workflow using the automatic translator DeepL API to generate a first translated version of the documents, which will be later reviewed by professional bilingual developers using GitHub as a platform.
+Our approach will test and develop a workflow using the automatic translator [DeepL](https://www.deepl.com) API to generate an initial translated version of the documents, which will be later reviewed by professional bilingual developers using GitHub as a platform.
 
 The advantage of this workflow is that it reduces the time it takes to produce a quality translation. 
 Reviewers will focus on linguistic tasks such as the use of inclusive language, the localization of examples, and the correct translation of phrases, metaphors, or analogies. 
@@ -77,16 +77,16 @@ In addition, if the workflow proves feasible and useful, it could be incorporate
 Besides systematizing the experiences, other products of the project will be:
 
 * a general guide of rules to follow when translating technical documents,
-* a particular guide for the Spanish language,
-* a list of technical terms that are translated into Spanish and those that are not,
+* a specific guide for the Spanish language,
+* a list of technical terms which will be translated into Spanish and a list of those that will not be,
 * an R package with our workflow for translating technical documents.
 
-## Building Community
+## Building community
 
 Multilingual publishing will help democratize access to quality resources for learning and teaching the necessary digital skills to become contributors to open source projects and to have a workflow for performing computationally reproducible open science.
 
 At rOpenSci, we understand review as a way of building community.
-The material for our review process in Spanish will allow rOpenSci to continue building the community in Spanish-speaking regions, such as Latin America, to increase the number of contributors and get feedback on how our tools and processes can be improved to better serve these community members.
+Developing the material for our review process in Spanish will allow rOpenSci to continue building the community in Spanish-speaking regions (such as Latin America), to increase the number of contributors, and to get feedback on how our tools and processes can be improved to better serve these community members.
 
 In addition to learning how to be a developer, maintainer, reviewer, or editor, people can also contribute through translation.
 This type of contribution is often a good first step and is recognized as valuable by the community.
