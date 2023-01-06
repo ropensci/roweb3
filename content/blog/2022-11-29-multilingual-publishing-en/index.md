@@ -5,7 +5,7 @@ author:
   - Paola Corrales
   - Elio Campitelli
   - Maëlle Salmon
-date: '2022-11-29'
+date: '2023-01-12'
 slug: multilingual-publishing-en
 tags:
   - community
