@@ -72,7 +72,7 @@ Our approach will test and develop a workflow using the automatic translator [De
 The advantage of this workflow is that it reduces the time it takes to produce a quality translation. 
 Reviewers will focus on linguistic tasks such as the use of inclusive language, the localization of examples, and the correct translation of phrases, metaphors, or analogies. 
 They will also look for reference material in the language of the translation.
-In addition, if the workflow proves feasible and useful, it could be incorporated into the pipeline to keep the texts in different languages synchronized, contributing to solve stage 2.
+In addition, if the workflow proves feasible and useful, it could be incorporated into the pipeline to keep the texts in different languages synchronized, contributing to solve challenges we may encounter in Stage 2.
 
 Besides systematizing the experiences, other products of the project will be:
 
