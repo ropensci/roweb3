@@ -35,7 +35,7 @@ speakers:
     bio:  Eric Scott is a Scientific Programmer & Educator at University of Arizona.  He has a background in chemical ecology and plant ecology and is a regular contributor to the {webchem} package.  He has now attempted to make it easy to set up {targets} to harness the power of HPC from the comfort of an RStudio window at three universities—and succeeded at two!      
     img: /img/community/eric-scott.jpg    
   - name: Joel Nitta 
-    bio:        
+    bio: Joel Nitta is a Project Research Associate at the University of Tokyo. He studies the evolution and ecology of ferns, and is passionate about reproducible data analysis using R.
     img: /img/community/joel-nitta.jpeg  
 tags:
   - community call
@@ -49,7 +49,7 @@ zoomurl: https://numfocus-org.zoom.us/j/85641283923?pwd=dG9RR2RNRjUyVlBGejJYVFFh
 
 The [{targets}](https://docs.ropensci.org/targets/) package is a pipeline tool for Statistics and data science in R. With {targets}, you can maintain a reproducible workflow without repeating yourself. {targets} learns how your pipeline fits together, skips costly runtime for tasks that are already up to date, runs only the necessary computation, supports implicit parallel computing, abstracts files as R objects, and shows tangible evidence that the results match the underlying code and data.
 
-On this call Will, Eric and Joel will share their experience putting **targets into action**. Eric will share with us _Using {targets} with HPC_ and Joel will talk about _Using {targets} for bioinformatics pipelines_, then Will will demonstrate _Debugging {targets} pipelines_.
+On this call Will, Eric and Joel will share their experience putting **{targets} into action**. Eric will share with us _Using {targets} with HPC_ and Joel will talk about _Using {targets} for bioinformatics pipelines_, then Will will demonstrate _Debugging {targets} pipelines_.
 
 
 See below for speaker bios and resources.
