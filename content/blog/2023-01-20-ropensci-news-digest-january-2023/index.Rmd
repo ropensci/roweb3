@@ -561,6 +561,11 @@ And remember [testthat always believes in you](https://github.com/r-lib/testthat
 
 If you ever dreamed of [writing an R package from R Markdown](https://yihui.org/en/2023/01/litr-package/), check out the [fusen](https://thinkr-open.github.io/fusen/) package by Sébastien Rochette or the [litr](https://faculty.marshall.usc.edu/jacob-bien/litr/docs/) package by Jacob Bien and Patrick Vossler.
 
+### Example of help guidance
+
+The targets manual (by targets maintainer Will Landau) has an interesting chapter on [how to as for help](https://books.ropensci.org/targets/help.html) that might inspire other contributing guides?
+Note the explanation of ["out of office" periods](https://books.ropensci.org/targets/help.html#out-of-office).
+
 ## Last words
 
 Thanks for reading! If you want to get involved with rOpenSci, check out our [Contributing Guide](https://contributing.ropensci.org) that can help direct you to the right place, whether you want to make code contributions, non-code contributions, or contribute in other ways like sharing use cases.
