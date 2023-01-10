@@ -148,6 +148,7 @@ Some useful tips for R package developers. :eyes:
 
 Why not feel code shame when looking at older, less good code of yours?
 In case you might ignore it, this 2015 blog post by David Robinson underlines how important it is to not code shame anyone lest they lose the courage to keep coding and improving: ["A Million Lines of Bad Code"](http://varianceexplained.org/programming/bad-code/).
+And remember [testthat always believes in you](https://github.com/r-lib/testthat/blob/9cd6e01be008376b1f7f2d8d528d725b87c0d01e/R/praise.R#L50-L57). :wink:
 
 ### Write an R Package from R Markdown?
 
