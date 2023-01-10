@@ -46,6 +46,11 @@ Consult our [Events](/events) page to find your local time and how to join.
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
+### Code of Conduct annual review and transparency report
+
+Find [our annual review of the rOpenSci Code of Conduct, reporting process, and internal guidelines for handling reports and enforcement](/blog/2023/01/06/conduct2023/) as well as our [transparency report](/blog/2023/01/06/transparency2022/).
+We thank our two independent community members [Megan Carter](https://www.esipfed.org/about/people/megan-carter) (until June 2022) and [Kara Woo](https://karawoo.com/).
+
 ## Software :package:
 
 ### New packages
@@ -125,19 +130,28 @@ Explore [other use cases](/usecases) and [report your own](https://discuss.ropen
 
 ## Call for maintainers
 
-<!--IF CALL
-* [our guidance on _Changing package maintainers_](https://devguide.ropensci.org/changing-maintainers.html)
-* [our _Package Curation Policy_](https://devguide.ropensci.org/curationpolicy.html)
+### Calls for maintainers
 
-IF NO CALL
-There are no open calls for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
-As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. -->
+- **[RSelenium](https://docs.ropensci.org/RSelenium), R Bindings for 'Selenium WebDriver'**. Provides a set of R bindings for the ['Selenium 2.0 WebDriver'](https://www.selenium.dev/documentation/) using the ['JsonWireProtocol'](https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol). 'Selenium 2.0 WebDriver' allows driving a web browser natively as a user would either locally or on a remote machine using the Selenium server it marks a leap forward in terms of web browser automation. [Issue for volunteering](https://github.com/ropensci/RSelenium/issues/261).
+
+- **[elastic](https://docs.ropensci.org/elastic), General Purpose Interface to 'Elasticsearch'**. Connect to 'Elasticsearch', a 'NoSQL' database built on the 'Java' Virtual Machine. Interacts with the ['Elasticsearch' 'HTTP' API](https://www.elastic.co/elasticsearch/), including functions for setting connection details to 'Elasticsearch' instances, loading bulk data, searching for documents with both 'HTTP' query variables and 'JSON' based body requests. [Issue for volunteering](https://github.com/ropensci/elastic/issues/292).
+
+### Call for comaintainers
+
+Refer to our [recent blog post](/blog/2022/10/17/maintain-or-co-maintain-an-ropensci-package/#packages-looking-for-co-maintainers) to identify packages where help is especially wished for!
 
 ## Package development corner
 
 Some useful tips for R package developers. :eyes:
 
-<!-- To be curated by hand -->
+### Bad code? Good code?
+
+Why not feel code shame when looking at older, less good code of yours?
+In case you might ignore it, this 2015 blog post by David Robinson underlines how important it is to not code shame anyone lest they lose the courage to keep coding and improving: ["A Million Lines of Bad Code"](http://varianceexplained.org/programming/bad-code/).
+
+### Write an R Package from R Markdown?
+
+If you ever dreamed of [writing an R package from R Markdown](https://yihui.org/en/2023/01/litr-package/), check out the [fusen](https://thinkr-open.github.io/fusen/) package by Sébastien Rochette or the [litr](https://faculty.marshall.usc.edu/jacob-bien/litr/docs/) package by Jacob Bien and Patrick Vossler.
 
 ## Last words
 
