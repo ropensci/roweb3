@@ -65,6 +65,11 @@ Consult our [Events](/events) page to find your local time and how to join.
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
+### Code of Conduct annual review and transparency report
+
+Find [our annual review of the rOpenSci Code of Conduct, reporting process, and internal guidelines for handling reports and enforcement](/blog/2023/01/06/conduct2023/) as well as our [transparency report](/blog/2023/01/06/transparency2022/).
+We thank our two independent community members [Megan Carter](https://www.esipfed.org/about/people/megan-carter) (until June 2022) and [Kara Woo](https://karawoo.com/).
+
 ## Software :package:
 
 ### New packages
