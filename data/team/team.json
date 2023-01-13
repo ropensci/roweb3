@@ -208,9 +208,10 @@
    "url": "https://melvidoni.rbind.io/",
    "image" : "/img/team/melina-vidoni.jpg",
    "affiliation" : "RMIT University",
-   "roles": [
+   "past_roles": [
       "editor"
    ],
+   "alumnus": true,
    "twitter": "melvidoni",
    "mastodon": "https://mastodon.social/@drmelvidoni",
    "github": "melvidoni",
