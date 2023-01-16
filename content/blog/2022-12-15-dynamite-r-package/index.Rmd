@@ -154,9 +154,9 @@ fit
 
 The coefficient estimates are pretty much in line with the data generation, but notice the relatively large posterior standard errors of the coefficients related to $z$; this is due to the fact that we have only a single series and single changepoint at time $t=81$.
 
-We can now perform some posterior predictive checks. First, we can check how well the posterior samples of our one-step-ahead predictions match with the observations by using the [`fitted()`](https://docs.ropensci.org/dynamite/reference/fitted.dynamitefit.html) method and visualizing these posterior predictive distributions:
+We can now perform some posterior predictive checks. First, we can check how well the posterior samples of our one-step-ahead predictions match with the observations by using the [`fitted()`](https://docs.ropensci.org/dynamite/reference/fitted.dynamitefit.html) method and visualizing these posterior predictive distributions (I'll one plot the estimates for the variable y for simplicity):
 
-```{r}
+```{r, hugoopts=list(alt="Figure showing the one-step ahead predictions ("fitted values") of variable y of the model.")}
 out <- fitted(fit) |> 
   group_by(time) |>
   summarise(
