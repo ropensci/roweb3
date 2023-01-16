@@ -70,7 +70,7 @@ Panel data contains measurements from multiple subjects measured over multiple t
 Such data can be encountered for example in many social science applications such as when analysing register data or cohort studies. 
 Often the aim is to perform causal inference based on such observational data (instead of randomized control trials).
 
-A new [rOpensci-approved](https://github.com/ropensci/software-review/issues/554) R package [dynamite](https://docs.ropensci.org/dynamite) implements a new class of panel models called the Bayesian dynamic multivariate panel model (DMPM) which supports 
+A new [rOpensci-approved](https://github.com/ropensci/software-review/issues/554) R package [dynamite](https://docs.ropensci.org/dynamite) available at CRAN implements a new class of panel models called the Bayesian dynamic multivariate panel model (DMPM) which supports 
 * Joint modelling of multiple response variables potentially from mixed distributions (e.g. Gaussian and categorical responses)
 * Time-varying regression coefficients modelled as splines
 * Probabilistic posterior-predictive simulations for long-term causal effect estimation (including not only the average causal effects but the full interventional distributions of interest)
