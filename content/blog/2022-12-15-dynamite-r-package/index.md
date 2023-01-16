@@ -2,8 +2,8 @@
 title: Dynamite for Causal Inference from Panel Data using Dynamic Multivariate Panel
   Models
 author: "Jouni Helske"
-date: '2022-12-15'
-slug: dynamite-r-package
+date: "2022-12-15"
+slug: "dynamite-r-package"
 tags:
 - dynamite
 - Bayesian
@@ -14,10 +14,10 @@ tags:
 - packages
 - R
 - community
-package_version: 1.0.1
+package_version: 1.0.2
 description: Dynamite is a new R package for Bayesian modelling of complex panel data
   using dynamic multivariate panel models.
-tweet: "A post about {dynamite} R package by @jouni_helske!"
+tweet: A post about {dynamite} R package by @jouni_helske!
 ---
 
 
@@ -35,7 +35,7 @@ A new [rOpensci-approved](https://github.com/ropensci/software-review/issues/554
 * Probabilistic posterior-predictive simulations for long-term causal effect estimation (including not only the average causal effects but the full interventional distributions of interest)
 
 The theory regarding the model and the subsequent causal effect estimation for panel data, with some examples, can be found in the [SocArxiv preprint](https://osf.io/preprints/socarxiv/mdwu5/)[^1] and the package [vignette](https://docs.ropensci.org/dynamite/articles/dynamite.html). 
-In this post, I will illustrate the use of `dynamite` in an univariate synthetic control setting (where we have data only on a single "individual") popularized by the [`CausalImpact`](https://CRAN.R-project.org/package=CausalImpact)[^2] package.
+In this post, I will illustrate the use of `dynamite` for a synthetic control approach popularized by the [`CausalImpact`](https://CRAN.R-project.org/package=CausalImpact)[^2] package in univariate time series setting where we have data only on a single "individual".
 
 
 ## Data generation
@@ -82,6 +82,7 @@ ggplot(d, aes(time)) +
     theme_bw()
 ```
 {{<figure src="data-1.png" alt="Figure showing the simulated x and y variables.">}}
+
 ## Causal inference based on synthetic control with dynamite
 
 While in the data generation the `\(y_t\)` variable did not depend on the lagged value `\(y_{t-1}\)`and `\(z_t\)`, I will nevertheless estimate a model where both `\(x_t\)` and `\(y_t\)` depend on the `\(x_{t-1}\)` and `\(y_{t-1}\)`, as well as `\(z\)`, mimicking the fact that I'm not sure about the true causal graph (structure of DGP). 
@@ -94,7 +95,7 @@ f <- obs(y ~ z, family = "gaussian") + obs(x ~ z, family = "gaussian") + lags()
 #   obs(x ~ z + lag(y) + lag(x), "gaussian)
 ```
 
-We can now estimate our model with `dynamite` for which we need to define the data, the variable in the data defining the time index, and the grouping variable, which can be ignored in this univariate case:
+We can now estimate our model with `dynamite` for which we need to define the data, the variable in the data defining the time index (argument `time`), and the grouping variable (argument `group`), which can be ignored in this univariate case:
 ```r 
 fit <- dynamite(f,
   data = d,
@@ -108,7 +109,7 @@ Compiling Stan model.
 
 The actual estimation delegated to [Stan](mc-stan.org) using either [rstan](https://cran.r-project.org/package=rstan) (default) or [cmdstanr](https://github.com/stan-dev/cmdstanr) backend. 
 The last arguments are passed to `rstan:sampling` which runs the Markov chain Monte Carlo for us. 
-While `rstan` is the default backend as it is available at CRAN, we recommend more efficient `cmdstanr` or the latest development version of `rstan``, available at [Stan's repo for R packages](http://mc-stan.org/r-packages/).
+While `rstan` is the default backend as it is available at CRAN, we recommend often more efficient `cmdstanr` or the latest development version of `rstan``, available at [Stan's repo for R packages](http://mc-stan.org/r-packages/).
 
 Let's see some results:
 ```r 
@@ -132,10 +133,10 @@ Largest Rhat: 1.003 (sigma_y)
 
 Elapsed time (seconds):
         warmup sample
-chain:1  4.446  3.933
-chain:2  4.575  4.296
-chain:3  4.375  3.667
-chain:4  4.343  4.018
+chain:1  4.482  4.090
+chain:2  4.545  4.381
+chain:3  4.252  3.778
+chain:4  4.333  4.139
 
 Summary statistics of the time-invariant parameters:
 # A tibble: 10 × 10
@@ -154,10 +155,37 @@ Summary statistics of the time-invariant parameters:
 # … with abbreviated variable names ¹​variable, ²​ess_bulk, ³​ess_tail
 ```
 
-The coefficient estimates are pretty much in line with the data generation, but notice the relatively large posterior standard errors of the coefficients related to `\(z\)`; this is due to the fact that we have only a single series and single changepoint at time `\(t=151\)`.
+The coefficient estimates are pretty much in line with the data generation, but notice the relatively large posterior standard errors of the coefficients related to `\(z\)`; this is due to the fact that we have only a single series and single changepoint at time `\(t=81\)`.
 
-Given the posterior samples of the model parameters, I can make some predictions. 
-First I create new data frame where `\(z=0\)` for all time points, and where `\(y\)` and `\(x\)` are set to missing values starting from `\(t=811\)` (the time point where started our intervention `\(z=1\)`):
+We can now perform some posterior predictive checks. First, we can check how well the posterior samples of our one-step-ahead predictions match with the observations by using the [`fitted()`](https://docs.ropensci.org/dynamite/reference/fitted.dynamitefit.html) method and visualizing these posterior predictive distributions:
+
+```r 
+out <- fitted(fit) |> 
+  group_by(time) |>
+  summarise(
+    mean = mean(y_fitted),
+    lwr80 = quantile(y_fitted, 0.1, na.rm = TRUE), # na.rm as t = 1 is fixed
+    upr80 = quantile(y_fitted, 0.9, na.rm = TRUE),
+    lwr95 = quantile(y_fitted, 0.025, na.rm = TRUE),
+    upr95 = quantile(y_fitted, 0.975, na.rm = TRUE))
+ggplot(out, aes(time, mean)) +
+  geom_ribbon(aes(ymin = lwr95, ymax = upr95), alpha = 0.3, fill = "#ED3535") +
+  geom_ribbon(aes(ymin = lwr80, ymax = upr80), alpha = 0.3, fill = "#ED3535") +
+  geom_line(colour = "#ED3535") +
+  geom_line(data = d, aes(y = y), colour = "black") +
+  xlab("Time") + ylab("Value") +
+  theme_bw()
+```
+
+```
+Warning: Removed 1 row(s) containing missing values (geom_path).
+```
+
+{{<figure src="unnamed-chunk-5-1.png" >}}
+Note that these are not real out-of-sample predictions as the posterior samples of model parameters used for these predictions are based on all our observations, which would be especially problematic for a model containing time-varying components (e.g., splines). More "honest" (and time consuming) approach would be to use approximate leave-future-out cross-validation via [`lfo()`](https://docs.ropensci.org/dynamite/reference/lfo.html) function.
+
+Given the posterior samples of the model parameters, I can also make some counterfactual predictions. 
+First I create new data frame where `\(z=0\)` for all time points, and where `\(y\)` and `\(x\)` are set to missing values starting from `\(t=81\)` (the time point where started our intervention `\(z=1\)`):
 ```r 
 newdata <- d
 newdata$z <- 0
@@ -165,7 +193,7 @@ newdata$y[81:100] <- NA
 newdata$x[81:100] <- NA
 ```
 
-I then input this new data to the `predict` method and define that I want predictions of means instead of new observations by using `type = "mean"` (new observations are still simulated behind the scenes in order to move forward in time):
+I then input this new data to the [`predict()`](https://docs.ropensci.org/dynamite/reference/predict.dynamitefit.html) method and define that I want posterior samples of expected values instead of new observations by using `type = "mean"` (new observations are still simulated behind the scenes in order to move forward in time):
 ```r 
 pred <- predict(fit, newdata = newdata, type = "mean") |> 
   filter(time > 80)
@@ -173,40 +201,52 @@ head(pred)
 ```
 
 ```
-       y_mean     x_mean .group time .draw z  y  x
-1 -0.06056405 -0.4600755      1   81     1 0 NA NA
-2 -0.15246709 -0.4605619      1   82     1 0 NA NA
-3 -0.35474296 -0.1925523      1   83     1 0 NA NA
-4  0.01013159 -0.3013338      1   84     1 0 NA NA
-5 -0.24533037 -0.3359187      1   85     1 0 NA NA
-6 -0.08941339 -0.2118341      1   86     1 0 NA NA
+        y_mean     x_mean .group time .draw z  y  x
+1  0.095638896 -0.4543729      1   81     1 0 NA NA
+2 -0.001717773 -0.5486151      1   82     1 0 NA NA
+3 -0.420702197 -0.4444779      1   83     1 0 NA NA
+4 -0.042682583 -0.5119842      1   84     1 0 NA NA
+5 -0.332072878 -0.5593297      1   85     1 0 NA NA
+6 -0.193385491 -0.4175845      1   86     1 0 NA NA
 ```
 
-From these I compute the posterior mean and 95% intervals for each time point:
+From these I compute the posterior mean, 80% and 95% intervals for each time point:
 ```r 
 sumr <- pred |> 
   group_by(time) |>
   summarise(
     mean = mean(y_mean),
-    lwr = quantile(y_mean, 0.025),
-    upr = quantile(y_mean, 0.975))
+    lwr80 = quantile(y_mean, 0.1),
+    upr80 = quantile(y_mean, 0.9),
+    lwr95 = quantile(y_mean, 0.025),
+    upr95 = quantile(y_mean, 0.975))
 ```
 
-And finally some figures, the actual predictions, difference compared to observed values, and finaly cumulative differences:
+And some figures following similar visualization style as popularized by the `CausalImpact` consisting of the actual predictions, difference compared to observed values, and cumulative differences of these:
 ```r 
 p1 <- ggplot(sumr, aes(time, mean)) +
-  geom_ribbon(aes(ymin = lwr, ymax = upr), alpha = 0.5) +
-  geom_line() +
+  geom_ribbon(aes(ymin = lwr95, ymax = upr95), alpha = 0.3, fill = "#ED3535") +
+  geom_ribbon(aes(ymin = lwr80, ymax = upr80), alpha = 0.3, fill = "#ED3535") +
+  geom_line(colour = "#ED3535") +
   geom_line(data = d, aes(y = y), colour = "black") +
   xlab("Time") + ylab("Value") +
   theme_bw()
 
 sumr$y_obs <- y[81:100]
 p2 <- sumr |> 
-  mutate(y_obs_diff = y_obs - mean, lwr_diff = y_obs-lwr, upr_diff = y_obs - upr ) |>
+  mutate(
+    y_obs_diff = y_obs - mean, 
+    lwr_diff80 = y_obs - lwr80, 
+    upr_diff80 = y_obs - upr80,
+    lwr_diff95 = y_obs - lwr95, 
+    upr_diff95 = y_obs - upr95
+  ) |>
   ggplot(aes(time, y_obs_diff)) +
-  geom_ribbon(aes(ymin = lwr_diff,ymax = upr_diff), alpha = 0.5) +
-  geom_line() +
+  geom_ribbon(aes(ymin = lwr_diff95, ymax = upr_diff95), 
+    alpha = 0.3, fill = "#ED3535") +
+  geom_ribbon(aes(ymin = lwr_diff80, ymax = upr_diff80), 
+    alpha = 0.3, fill = "#ED3535") +
+  geom_line(colour = "#ED3535") +
   xlab("Time") + ylab("Predicted value - observed value") +
   theme_bw()
 
@@ -227,8 +267,8 @@ cs_sumr <- pred |>
 
 ```r 
 p3 <- ggplot(cs_sumr, aes(time, mean)) +
-  geom_ribbon(aes(ymin = lwr, ymax = upr), alpha = 0.5) +
-  geom_line() +
+  geom_ribbon(aes(ymin = lwr, ymax = upr), alpha = 0.3, fill = "#ED3535") +
+  geom_line(colour = "#ED3535") +
   xlab("Time") + 
   ylab("Cumulative difference") +
   theme_bw()
@@ -251,22 +291,34 @@ sumr_fixed_x <- pred_fixed_x |>
   group_by(time) |>
   summarise(
     mean = mean(y_mean),
-    lwr = quantile(y_mean, 0.025),
-    upr = quantile(y_mean, 0.975))
+    lwr80 = quantile(y_mean, 0.1),
+    upr80 = quantile(y_mean, 0.9),
+    lwr95 = quantile(y_mean, 0.025),
+    upr95 = quantile(y_mean, 0.975))
 
 p1 <- ggplot(sumr_fixed_x, aes(time, mean)) +
-  geom_ribbon(aes(ymin = lwr, ymax = upr), alpha = 0.5) +
-  geom_line() +
+  geom_ribbon(aes(ymin = lwr95, ymax = upr95), alpha = 0.3, fill = "#ED3535") +
+  geom_ribbon(aes(ymin = lwr80, ymax = upr80), alpha = 0.3, fill = "#ED3535") +
+  geom_line(colour = "#ED3535") +
   geom_line(data = d, aes(y = y), colour = "black") +
   xlab("Time") + ylab("Value") +
   theme_bw()
 
 sumr_fixed_x$y_obs <- y[81:100]
 p2 <- sumr_fixed_x |> 
-  mutate(y_obs_diff = y_obs - mean, lwr_diff = y_obs-lwr, upr_diff = y_obs - upr ) |>
+mutate(
+    y_obs_diff = y_obs - mean, 
+    lwr_diff80 = y_obs - lwr80, 
+    upr_diff80 = y_obs - upr80,
+    lwr_diff95 = y_obs - lwr95, 
+    upr_diff95 = y_obs - upr95
+  ) |>
   ggplot(aes(time, y_obs_diff)) +
-  geom_ribbon(aes(ymin = lwr_diff,ymax = upr_diff), alpha = 0.5) +
-  geom_line() +
+  geom_ribbon(aes(ymin = lwr_diff95, ymax = upr_diff95), 
+    alpha = 0.3, fill = "#ED3535") +
+  geom_ribbon(aes(ymin = lwr_diff80, ymax = upr_diff80), 
+    alpha = 0.3, fill = "#ED3535") +
+  geom_line(colour = "#ED3535") +
   xlab("Time") + ylab("Predicted value - observed value") +
   theme_bw()
 
@@ -287,8 +339,8 @@ cs_sumr_fixed_x <- pred_fixed_x |>
 
 ```r 
 p3 <- ggplot(cs_sumr_fixed_x, aes(time, mean)) +
-  geom_ribbon(aes(ymin = lwr, ymax = upr), alpha = 0.5) +
-  geom_line() +
+  geom_ribbon(aes(ymin = lwr, ymax = upr), alpha = 0.3, fill = "#ED3535") +
+  geom_line(colour = "#ED3535") +
   xlab("Time") + 
   ylab("Cumulative difference") +
   theme_bw()
@@ -300,8 +352,8 @@ As expected, the (wrong) conclusion would be that our original intervention did 
 
 ## Future directions
 
-In future, we plan to also support group-specific effects for time-invariant effects, and more distributions such as Weibull, multinomial, and `\(t\)`-distribution. 
-We would also be very interested in seeing and hearing how the package is used in various applications, especially if you can share your data openly.
+In future, we plan to also support group-specific effects for time-invariant effects, and more distributions such as Weibull, multinomial, and `\(t\)`-distribution for the response variables. 
+We would also be very interested in hearing how the package is used in various applications, especially if you can share your data openly.
 Pull requests and other contributions are very welcome.
 
 
