@@ -7,7 +7,7 @@ slug: ropensci-news-digest-january-2023
 categories: []
 tags:
   - newsletter
-description: keywords from the content
+description: targets community call, coworking, code of conduct report, new packages and package news
 params:
   last_newsletter: '2022-12-16'
 ---
@@ -127,6 +127,8 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 * [rOpenSci 2022 Code of Conduct Transparency Report](/blog/2023/01/06/transparency2022) by Yanina Bellini Saibene, Mark Padgham, and Kara Woo. rOpenSci 2022 Code of Conduct Transparency Report.
 
 * [Expanding our Community through Multilingual Publishing](/blog/2023/01/12/multilingual-publishing-en) by Yanina Bellini Saibene, Pao Corrales, Elio Campitelli, and Maëlle Salmon. We are translating rOpenSci's materials on best practices for software development, code review, and contribution to open source projects into Spanish! We are also developing guidelines and tools for translating open source resources to reach a wider audience. Learn about the project in this blog post.
+
+* [Agrandando nuestra comunidad con publicaciones multi-idioma](/blog/2023/01/12/multilingual-publishing-es) by Yanina Bellini Saibene, Pao Corrales, Elio Campitelli, and Maëlle Salmon. Estamos traduciendo los materiales de rOpenSci sobre buenas prácticas de desarrollo de software, revisión de código y contribución a proyectos de código abierto al español! También estamos desarrollando guías y herramientas para traducir recursos de código abierto y alcanzar una mayor audiencia. Entérate de este proyecto en este artículo.
 
 
 

@@ -7,7 +7,7 @@ slug: ropensci-news-digest-january-2023
 categories: []
 tags:
   - newsletter
-description: keywords from the content
+description: targets community call, coworking, code of conduct report, new packages and package news
 params:
   last_newsletter: '2022-12-16'
 ---
