@@ -95,27 +95,29 @@ The following twenty packages have had an update since the last newsletter: [ger
 
 ## Software Peer Review
 
-There are eleven recently closed and active submissions and 2 submissions on hold. Issues are at different stages: 
+There are twelve recently closed and active submissions and 2 submissions on hold. Issues are at different stages: 
 
-* Two at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
+* One at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
 
      * [dynamite](https://github.com/ropensci/software-review/issues/554), Bayesian Modeling and Causal Inference for Multivariate. Submitted by [Santtu Tikka](http://users.jyu.fi/~santikka/).  (Stats).
 
-    * [phruta](https://github.com/ropensci/software-review/issues/458), Phylogenetic Reconstruction and Time-dating. Submitted by [Cristian Román Palacios](http://cromanpa94.github.io/cromanpa/). 
+* One at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
 
-* Two at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
+     * [phruta](https://github.com/ropensci/software-review/issues/458), Phylogenetic Reconstruction and Time-dating. Submitted by [Cristian Román Palacios](http://cromanpa94.github.io/cromanpa/). 
+
+* Six at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
 
      * [stochLAB](https://github.com/ropensci/software-review/issues/551), Stochastic Collision Risk Model. Submitted by [Grant](http://www.blackbawks.net).  (Stats).
 
-    * [rb3](https://github.com/ropensci/software-review/issues/534), Download and Parse Public Data Released by B3 Exchange. Submitted by [Marcelo S. Perlin](https://www.msperlin.com/). 
+    * [hudr](https://github.com/ropensci/software-review/issues/524), A R interface for accessing HUD (US Department of Housing and Urban Development) APIs. Submitted by [Emmet Tam](https://github.com/etam4260/etam4260). 
 
-* Three at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
-
-     * [octolog](https://github.com/ropensci/software-review/issues/502), Better Github Action Logging. Submitted by [Jacob Wujciak-Jens](https://github.com/assignUser). 
+    * [octolog](https://github.com/ropensci/software-review/issues/502), Better Github Action Logging. Submitted by [Jacob Wujciak-Jens](https://github.com/assignUser). 
 
     * [tsbox](https://github.com/ropensci/software-review/issues/464), Class-Agnostic Time Series. Submitted by [Christoph Sax](http://www.cynkra.com).  (Stats).
 
     * [healthdatacsv](https://github.com/ropensci/software-review/issues/358), Access data in the healthdata.gov catalog. Submitted by [iecastro](http://iecastro.netlify.com). 
+
+    * [stochLAB](https://github.com/ropensci/software-review/issues/551), Stochastic Collision Risk Model. Submitted by [Grant](http://www.blackbawks.net).  (Stats).
 
 * Three at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 
@@ -147,10 +149,6 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 * [Conociendo a las estrellas del universo R: comunidad R, intercambiar y aprender](/blog/2022/11/23/r-universe-stars-1-es) by Yanina Bellini Saibene, Alejandra Bellini, Lucio Casalla, and Steffi LaZerte. Esta es la primera entrega de nuestra serie de entrevistas __"Conociendo a las estrellas del universo R"__. Iniciamos nuestro recorrido en _Argentina_ y con un equipo que utiliza R y desarrolla paquetes de R en el estado Argentino.
 
-* [rOpenSci Code of Conduct Annual Review](/blog/2023/01/06/conduct2023) by Yanina Bellini Saibene, Mark Padgham, Kara Woo, and Megan Carter. Updates for version 2.4 of rOpenSci's Code of Conduct.
-
-* [rOpenSci 2022 Code of Conduct Transparency Report](/blog/2023/01/06/transparency2022) by Yanina Bellini Saibene, Mark Padgham, and Kara Woo. rOpenSci 2022 Code of Conduct Transparency Report.
-
 
 
 ### Tech Notes
@@ -174,11 +172,6 @@ Explore [other use cases](/usecases) and [report your own](https://discuss.ropen
 ### Calls for maintainers
 
 * **[onekp](https://docs.ropensci.org/onekp), Access sequences from the 1000 Plant Initiative (1KP)**. The 1000 Plants Initiative (www.onekp.com) has sequenced the transcriptomes of over 1000 plant species. This package allows these sequences and metadata to be retrieved and filtered by code, species or recursively by clade. Scientific names and NCBI taxonomy IDs are both supported. [Issue for volunteering](https://github.com/ropensci/onekp/issues/9) 
-
-- **[citesdb](https://docs.ropensci.org/citesdb/)**,a high-performance database of shipment-level CITES trade data. Provides convenient access to over 40 years and 20 million records of
-endangered wildlife trade data from the Convention on International Trade
-in Endangered Species of Wild Fauna and Flora, stored on a local on-disk,
-out-of memory 'DuckDB' database for bulk analysis. [Issue for volunteering](https://github.com/ropensci/citesdb/issues/21)
 
 
 - **[RSelenium](https://docs.ropensci.org/RSelenium), R Bindings for 'Selenium WebDriver'**. Provides a set of R bindings for the ['Selenium 2.0 WebDriver'](https://www.selenium.dev/documentation/) using the ['JsonWireProtocol'](https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol). 'Selenium 2.0 WebDriver' allows driving a web browser natively as a user would either locally or on a remote machine using the Selenium server it marks a leap forward in terms of web browser automation. [Issue for volunteering](https://github.com/ropensci/RSelenium/issues/261).
