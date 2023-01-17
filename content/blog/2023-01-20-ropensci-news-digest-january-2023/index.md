@@ -40,10 +40,14 @@ Everyone welcome.
 No RSVP needed. 
 Consult our [Events](/events) page to find your local time and how to join.
 
-- Tuesday, Feb 7th, 9:00 Americas Pacific / 17:00 UTC](/events/coworking-2023-02/) "Setting up Continuous Integration" *Hosted by community host [Hugo Gruson](/author/hugo-gruson/) and [Steffi LaZerte](/author/steffi-lazerte/)*
+- [Tuesday, Feb 7th, 9:00 Americas Pacific / 17:00 UTC](/events/coworking-2023-02/) "Setting up Continuous Integration" *Hosted by community host [Hugo Gruson](/author/hugo-gruson/) and [Steffi LaZerte](/author/steffi-lazerte/)*
     - Do some reading to learn about Continuous Integration; Setup Continuous Integration on one (or more) of your projects;
     - Talk to [Hugo](/author/hugo-gruson/) and discuss how Continuous Integration can simplify your development process and how to get set up.
 
+* [Tuesday, Mar 7th, 9:00 Australian Western / 01:00 UTC](/events/coworking-2023-03/) "Checking data with naniar, visdat, assertr, and skimr" *Hosted by community host [Nick Tierney](/author/nicholas-tierney/) and [Steffi LaZerte](/author/steffi-lazerte/)*
+    - Explore documentation, use cases and tutorials on these packages, or check your data!
+    - Talk to [Nick](/author/nicholas-tierney//) and discuss how to use these packages in your workflow.
+    
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
 ### Code of Conduct annual review and transparency report
@@ -58,9 +62,11 @@ We thank our two independent community members [Megan Carter](https://www.esipfe
 
 
 
-The following  package recently became a part of our software suite:
+The following two packages recently became a part of our software suite:
 
-+ [phruta](https://docs.ropensci.org/phruta), developed by Cristian Roman Palacios: The phruta R package is designed to simplify the basic phylogenetic pipeline. Specifically, all code is run within the same program and data from intermediate steps are saved in independent folders. Furthrmore, all code is run within the same environment which increases the reproducibility of your analysis. phruta retrieves gene sequences, combines newly downloaded and local gene sequences, and performs sequence alignments. It has been [reviewed](https://github.com/ropensci/software-review/issues/458) by Anna Krystalli, Rayna Harris, and Frederick Boehm.
++ [hoardr](https://docs.ropensci.org/hoardr), developed by Scott Chamberlain: Suite of tools for managing cached files, targeting use in other R packages. Uses rappdirs for cross-platform paths. Provides utilities to manage cache directories, including targeting files by path or by key; cached directories can be compressed and uncompressed easily to save disk space.  It is available on [CRAN]( https://CRAN.R-project.org/package=hoardr). 
+
++ [phruta](https://docs.ropensci.org/phruta), developed by Cristian Roman Palacios: The phruta R package is designed to simplify the basic phylogenetic pipeline. Specifically, all code is run within the same program and data from intermediate steps are saved in independent folders. Furthermore, all code is run within the same environment which increases the reproducibility of your analysis. phruta retrieves gene sequences, combines newly downloaded and local gene sequences, and performs sequence alignments. It has been [reviewed](https://github.com/ropensci/software-review/issues/458) by Anna Krystalli, Rayna Harris, and Frederick Boehm.
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
@@ -78,25 +84,25 @@ There are eleven recently closed and active submissions and 2 submissions on hol
 
      * [phruta](https://github.com/ropensci/software-review/issues/458), Phylogenetic Reconstruction and Time-dating. Submitted by [Cristian Román Palacios](http://cromanpa94.github.io/cromanpa/). 
 
-* One at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
-
-     * [rb3](https://github.com/ropensci/software-review/issues/534), Download and Parse Public Data Released by B3 Exchange. Submitted by [Marcelo S. Perlin](https://www.msperlin.com/). 
-
-* Five at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
+* Two at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
 
      * [stochLAB](https://github.com/ropensci/software-review/issues/551), Stochastic Collision Risk Model. Submitted by [Grant](http://www.blackbawks.net).  (Stats).
 
-    * [octolog](https://github.com/ropensci/software-review/issues/502), Better Github Action Logging. Submitted by [Jacob Wujciak-Jens](https://github.com/assignUser). 
+    * [rb3](https://github.com/ropensci/software-review/issues/534), Download and Parse Public Data Released by B3 Exchange. Submitted by [Marcelo S. Perlin](https://www.msperlin.com/). 
+
+* Three at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
+
+     * [octolog](https://github.com/ropensci/software-review/issues/502), Better Github Action Logging. Submitted by [Jacob Wujciak-Jens](https://github.com/assignUser). 
 
     * [tsbox](https://github.com/ropensci/software-review/issues/464), Class-Agnostic Time Series. Submitted by [Christoph Sax](http://www.cynkra.com).  (Stats).
 
     * [healthdatacsv](https://github.com/ropensci/software-review/issues/358), Access data in the healthdata.gov catalog. Submitted by [iecastro](http://iecastro.netlify.com). 
 
-    * [stochLAB](https://github.com/ropensci/software-review/issues/551), Stochastic Collision Risk Model. Submitted by [Grant](http://www.blackbawks.net).  (Stats).
+* Four at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 
-* Three at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
+     * [waywiser](https://github.com/ropensci/software-review/issues/571), Ergonomic Methods for Assessing Spatial Models. Submitted by [Michael Mahoney](https://mm218.dev/).  (Stats).
 
-     * [openalexR](https://github.com/ropensci/software-review/issues/560), Getting Bibliographic Records from OpenAlex Database Using DSL. Submitted by [Trang Le](http://trang.page). 
+    * [openalexR](https://github.com/ropensci/software-review/issues/560), Getting Bibliographic Records from OpenAlex Database Using DSL. Submitted by [Trang Le](http://trang.page). 
 
     * [dfms](https://github.com/ropensci/software-review/issues/556), Dynamic Factor Models. Submitted by [Sebastian Krantz](https://github.com/SebKrantz). 
 
@@ -114,9 +120,19 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 
 
+### Other topics
+
 * [rOpenSci Code of Conduct Annual Review](/blog/2023/01/06/conduct2023) by Yanina Bellini Saibene, Mark Padgham, Kara Woo, and Megan Carter. Updates for version 2.4 of rOpenSci's Code of Conduct.
 
 * [rOpenSci 2022 Code of Conduct Transparency Report](/blog/2023/01/06/transparency2022) by Yanina Bellini Saibene, Mark Padgham, and Kara Woo. rOpenSci 2022 Code of Conduct Transparency Report.
+
+* [Expanding our Community through Multilingual Publishing](/blog/2023/01/12/multilingual-publishing-en) by Yanina Bellini Saibene, Pao Corrales, Elio Campitelli, and Maëlle Salmon. We are translating rOpenSci's materials on best practices for software development, code review, and contribution to open source projects into Spanish! We are also developing guidelines and tools for translating open source resources to reach a wider audience. Learn about the project in this blog post.
+
+
+
+### Tech Notes
+
+* [curl 5.0.0: massive concurrent downloads and HTTP/2](/blog/2023/01/13/curl5-release) by Jeroen Ooms. A new major version of the curl package has been released to CRAN. This release both brings major big internal improvements as well as new user-facing functionality, in particular with respect to concurrent downloads.
 
 ## Use cases
 
@@ -135,6 +151,12 @@ Explore [other use cases](/usecases) and [report your own](https://discuss.ropen
 - **[RSelenium](https://docs.ropensci.org/RSelenium), R Bindings for 'Selenium WebDriver'**. Provides a set of R bindings for the ['Selenium 2.0 WebDriver'](https://www.selenium.dev/documentation/) using the ['JsonWireProtocol'](https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol). 'Selenium 2.0 WebDriver' allows driving a web browser natively as a user would either locally or on a remote machine using the Selenium server it marks a leap forward in terms of web browser automation. [Issue for volunteering](https://github.com/ropensci/RSelenium/issues/261).
 
 - **[elastic](https://docs.ropensci.org/elastic), General Purpose Interface to 'Elasticsearch'**. Connect to 'Elasticsearch', a 'NoSQL' database built on the 'Java' Virtual Machine. Interacts with the ['Elasticsearch' 'HTTP' API](https://www.elastic.co/elasticsearch/), including functions for setting connection details to 'Elasticsearch' instances, loading bulk data, searching for documents with both 'HTTP' query variables and 'JSON' based body requests. [Issue for volunteering](https://github.com/ropensci/elastic/issues/292).
+
+- **[citesdb](https://docs.ropensci.org/citesdb/)**,a high-performance database of shipment-level CITES trade data. Provides convenient access to over 40 years and 20 million records of
+endangered wildlife trade data from the Convention on International Trade
+in Endangered Species of Wild Fauna and Flora, stored on a local on-disk,
+out-of memory 'DuckDB' database for bulk analysis. [Issue for volunteering](https://github.com/ropensci/citesdb/issues/21)
+
 
 ### Call for comaintainers
 
@@ -156,8 +178,17 @@ If you ever dreamed of [writing an R package from R Markdown](https://yihui.org/
 
 ### Example of help guidance
 
-The targets manual (by targets maintainer Will Landau) has an interesting chapter on [how to as for help](https://books.ropensci.org/targets/help.html) that might inspire other contributing guides?
+The targets manual (by targets maintainer Will Landau) has an interesting chapter on [how to ask for help](https://books.ropensci.org/targets/help.html) that might inspire other contributing guides!
 Note the explanation of ["out of office" periods](https://books.ropensci.org/targets/help.html#out-of-office).
+
+### External libraries and the rOpenSci build system
+
+Packages needing external system libraries should specify those libraries in the ["SystemRequirements" field of the "DESCRIPTION" file](https://r-pkgs.org/description.html#other-fields).
+Most package installation systems will parse "SystemRequirements" entries using the rules provided at [rstudio/r-system-requirements](https://github.com/rstudio/r-system-requirements).
+Any packages not listed in the "rules" sub-folder of that repository will generally not be automatically installed.
+It is nevertheless still useful to list all external dependencies, to at least aid manual installation.
+Our rOpenSci build system includes libraries listed in the [r-universe-org/base-image](https://github.com/r-universe-org/base-image/blob/master/Dockerfile).
+That list of libraries can easily be extended, so please contact us, or submit a pull request, if you'd like our system to include any additional system libraries.
 
 ## Last words
 
