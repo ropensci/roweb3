@@ -135,16 +135,6 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 * [curl 5.0.0: massive concurrent downloads and HTTP/2](/blog/2023/01/13/curl5-release) by Jeroen Ooms. A new major version of the curl package has been released to CRAN. This release both brings major big internal improvements as well as new user-facing functionality, in particular with respect to concurrent downloads.
 
-## Use cases
-
-
-
-`snakecase::to_sentence_case(english(length(usecases)))` use case`if (length(usecases) > 1) "s"` of our packages and resources ha`if (length(usecases) > 1) "ve" else "s"` been reported since we sent the last newsletter.
-
-
-
-Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)!
-
 ## Call for maintainers
 
 ### Calls for maintainers
