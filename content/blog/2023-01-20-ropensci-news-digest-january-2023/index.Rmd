@@ -1,15 +1,15 @@
 ---
-title: rOpenSci News Digest, December 2022
+title: rOpenSci News Digest, January 2023
 author:
-  - The rOpenSci Team
-date: '2022-12-16'
-slug: ropensci-news-digest-december-2022
+  - Maëlle Salmon
+date: '2023-01-20'
+slug: ropensci-news-digest-january-2023
 categories: []
 tags:
   - newsletter
-description: Community call recording, one-page HTML package docs, R-universe stars interview, coworking
+description: targets community call, coworking, code of conduct report, new packages and package news
 params:
-  last_newsletter: '2022-11-18'
+  last_newsletter: '2022-12-16'
 ---
 
 ```{r setup, include=FALSE}
@@ -41,35 +41,17 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-<!-- to be curated manually -->
+### {targets} in Action Community Call
 
-### One-page HTML package manuals on R-universe!
+Tuesday, 31 January 2023 20:00 UTC / Tuesday, 31 January 2023 15:00 EST / Wednesday, 1st February 07:00 AEDT.
 
-We have recently started building HTML reference manuals for each package in the R-universe! For packages that have had an update in the past 3 weeks, the reference manual is now linked from the package homepage on [R-universe.dev](https://r-universe.dev). All packages in the R-universe are rebuilt at least once per month, so soon all packages should have an online HTML manual. 
-You can also find [reference manuals for base-R packages](https://r-universe.dev/manuals/).
+The [{targets}](https://docs.ropensci.org/targets/) package is a pipeline tool for Statistics and data science in R. With {targets}, you can maintain a reproducible workflow without repeating yourself. {targets} learns how your pipeline fits together, skips costly runtime for tasks that are already up to date, runs only the necessary computation, supports implicit parallel computing, abstracts files as R objects, and shows tangible evidence that the results match the underlying code and data.
 
-We released the three packages used to create these manuals: [postdoc](https://docs.ropensci.org/postdoc/), [katex](https://docs.ropensci.org/katex/) and [prismjs](https://docs.ropensci.org/prismjs/).
+On this call Will, Eric and Joel will share their experience putting **{targets} into action**. Eric will share with us _Using {targets} with HPC_ and Joel will talk about _Using {targets} for bioinformatics pipelines_, then Will will demonstrate _Debugging {targets} pipelines_.
 
-Find more information in our [tech note](/blog/2022/11/18/ropensci-news-digest-november-2022/).
+More info on the [event page](/commcalls/jan2023-targets/).
 
-
-### Meeting the stars of the R-universe
-
-Knowing our community's stories helps us to learn about the people behind our software, brings us closer and offers us new opportunities. To share some of these community stories, we introduce you to the rOpenSci interview series [_"Meeting the stars of the R-Universe"_](/tags/r-universe-stars/).
-
-The first interview showcases a bilingual (Spanish & English) story from Latin America: The experience of working with R packages in the Argentinian State. 
-
-Don't miss the [blog post and the video](/blog/2022/11/23/r-universe-stars-1-en/) (with subtitles in English and Spanish).
-
-### Community Call recap: "Mentoring & training program for Scientific Open Source Champions"
-
-After a brief hiatus, we returned to community calls with a session dedicated to our Champions Program.   
-We invited open source software Champions from other spaces and communities to share their experiences, to help us learn more about what it is to be a Champion, the benefit of applying to these programs, and how being a Champion can benefit not only us, but also our communities.
-
-In this call, moderated by rOpenSci Community Manager [Yani Bellini Saibene](/author/yanina-bellini-saibene/), [Santosh Yadav](/author/santosh-yadav/) and [Emanuele Bartolesi](/author/emanuele-bartolesi/) shared their experiences of being Champions in their communities and gave advice on how to create a path to becoming a Champion in open source software communities.
-
-You can [watch the video](/commcalls/oct2022-champions/) and [access all the materials](/commcalls/oct2022-champions/)  on our website.
-### Coworking sessions continue!
+### Coworking
 
 Join us for social coworking & office hours monthly on first Tuesdays! 
 Hosted by Steffi LaZerte and various community hosts. 
@@ -77,17 +59,20 @@ Everyone welcome.
 No RSVP needed. 
 Consult our [Events](/events) page to find your local time and how to join.
 
-* [Tuesday, Jan 10th\*, 14:00 European Central / 13:00 UTC](/events/coworking-2023-01/) "Working with new R users" *Hosted by community host [Alex Koiter](https://alexkoiter.ca) and [Steffi LaZerte](/author/steffi-lazerte/)*
-    - Brainstorm ideas for supporting and encouraging new R users; Annotate a script for a friend or colleague to help them learn;
-    - Talk to [Alex](https://alexkoiter.ca) and discuss how to share the love of R with new R users.
-
-* [Tuesday, Feb 7th, 9:00 Americas Pacific / 17:00 UTC](/events/coworking-2023-02/) "Setting up Continuous Integration" *Hosted by community host [Hugo Gruson](/author/hugo-gruson/) and [Steffi LaZerte](/author/steffi-lazerte/)*
+- [Tuesday, Feb 7th, 9:00 Americas Pacific / 17:00 UTC](/events/coworking-2023-02/) "Setting up Continuous Integration" *Hosted by community host [Hugo Gruson](/author/hugo-gruson/) and [Steffi LaZerte](/author/steffi-lazerte/)*
     - Do some reading to learn about Continuous Integration; Setup Continuous Integration on one (or more) of your projects;
     - Talk to [Hugo](/author/hugo-gruson/) and discuss how Continuous Integration can simplify your development process and how to get set up.
 
+* [Tuesday, Mar 7th, 9:00 Australian Western / 01:00 UTC](/events/coworking-2023-03/) "Checking data with naniar, visdat, assertr, and skimr" *Hosted by community host [Nick Tierney](/author/nicholas-tierney/) and [Steffi LaZerte](/author/steffi-lazerte/)*
+    - Explore documentation, use cases and tutorials on these packages, or check your data!
+    - Talk to [Nick](/author/nicholas-tierney//) and discuss how to use these packages in your workflow.
+    
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
-\* Note that the January Co-working session is on the *second* Tuesday in January.
+### Code of Conduct annual review and transparency report
+
+Find [our annual review of the rOpenSci Code of Conduct, reporting process, and internal guidelines for handling reports and enforcement](/blog/2023/01/06/conduct2023/) as well as our [transparency report](/blog/2023/01/06/transparency2022/).
+We thank our two independent community members [Megan Carter](https://www.esipfed.org/about/people/megan-carter) (until June 2022) and [Kara Woo](https://karawoo.com/).
 
 ## Software :package:
 
@@ -432,7 +417,7 @@ parse_one_post <- function(path){
     date = anytime::anydate(yaml$date),
     author = nice_string(yaml$author),
     title = yaml$title,
-    software_peer_review = "Software Peer Review" %in% yaml$tags || "software-peer-review" %in% yaml$tags,
+    software_peer_review = "Software Peer Review" %in% yaml$tags,
     tech_note = "tech notes" %in% yaml$tags && !"Software Peer Review" %in% yaml$tags,
     other = !"tech notes" %in% yaml$tags && !"Software Peer Review" %in% yaml$tags,
     twitterImg = yaml$twitterImg %||% "",
@@ -521,7 +506,7 @@ if (length(tech_notes) > 0) {
 
 ## Use cases
 
-```{r usecases}
+```{r usecases, eval=FALSE}
 # rerun get_use_cases.R at the same time
 usecases <- jsonlite::read_json("../../../data/usecases/usecases.json")
 get_one_case <- function(usecase) {
@@ -538,9 +523,9 @@ usecases <- dplyr::filter(usecases, date >= as.Date(last_newsletter))
 usecases <- split(usecases, seq(nrow(usecases)))
 ```
 
-`r snakecase::to_sentence_case(english(length(usecases)))` use case`r if (length(usecases) > 1) "s"` of our packages and resources ha`r if (length(usecases) > 1) "ve" else "s"` been reported since we sent the last newsletter.
+`snakecase::to_sentence_case(english(length(usecases)))` use case`if (length(usecases) > 1) "s"` of our packages and resources ha`if (length(usecases) > 1) "ve" else "s"` been reported since we sent the last newsletter.
 
-```{r usecases2, results='asis'}
+```{r usecases2, results='asis', eval=FALSE}
 format_case <- function(usecase) {
   string <- sprintf("* [%s](%s). Reported by %s.", sub("\\.$", "", usecase$title), usecase$url, usecase$reporter)
 }
@@ -554,16 +539,19 @@ cat(
 
 Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)!
 
-## Call for package (co-)maintainers
+## Call for maintainers
 
 ### Calls for maintainers
-
-* **[onekp](https://docs.ropensci.org/onekp), Access sequences from the 1000 Plant Initiative (1KP)**. The 1000 Plants Initiative (www.onekp.com) has sequenced the transcriptomes of over 1000 plant species. This package allows these sequences and metadata to be retrieved and filtered by code, species or recursively by clade. Scientific names and NCBI taxonomy IDs are both supported. [Issue for volunteering](https://github.com/ropensci/onekp/issues/9) 
-
 
 - **[RSelenium](https://docs.ropensci.org/RSelenium), R Bindings for 'Selenium WebDriver'**. Provides a set of R bindings for the ['Selenium 2.0 WebDriver'](https://www.selenium.dev/documentation/) using the ['JsonWireProtocol'](https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol). 'Selenium 2.0 WebDriver' allows driving a web browser natively as a user would either locally or on a remote machine using the Selenium server it marks a leap forward in terms of web browser automation. [Issue for volunteering](https://github.com/ropensci/RSelenium/issues/261).
 
 - **[elastic](https://docs.ropensci.org/elastic), General Purpose Interface to 'Elasticsearch'**. Connect to 'Elasticsearch', a 'NoSQL' database built on the 'Java' Virtual Machine. Interacts with the ['Elasticsearch' 'HTTP' API](https://www.elastic.co/elasticsearch/), including functions for setting connection details to 'Elasticsearch' instances, loading bulk data, searching for documents with both 'HTTP' query variables and 'JSON' based body requests. [Issue for volunteering](https://github.com/ropensci/elastic/issues/292).
+
+- **[citesdb](https://docs.ropensci.org/citesdb/)**,a high-performance database of shipment-level CITES trade data. Provides convenient access to over 40 years and 20 million records of
+endangered wildlife trade data from the Convention on International Trade
+in Endangered Species of Wild Fauna and Flora, stored on a local on-disk,
+out-of memory 'DuckDB' database for bulk analysis. [Issue for volunteering](https://github.com/ropensci/citesdb/issues/21)
+
 
 ### Call for comaintainers
 
@@ -573,28 +561,29 @@ Refer to our [recent blog post](/blog/2022/10/17/maintain-or-co-maintain-an-rope
 
 Some useful tips for R package developers. :eyes:
 
-### What is a reproducible example for package development problems?
+### Bad code? Good code?
 
-You might have heard of the [reprex](https://reprex.tidyverse.org/) package, which we'd recommend using.
-However, it's not necessarily adapted to _package development problems_.
-To illustrate a problem you are having when developing a package, a reproducible example might consist in
+Why not feel code shame when looking at older, less good code of yours?
+In case you might ignore it, this 2015 blog post by David Robinson underlines how important it is to not code shame anyone lest they lose the courage to keep coding and improving: ["A Million Lines of Bad Code"](http://varianceexplained.org/programming/bad-code/).
+And remember [testthat always believes in you](https://github.com/r-lib/testthat/blob/9cd6e01be008376b1f7f2d8d528d725b87c0d01e/R/praise.R#L50-L57). :wink:
 
-* Creating an empty package, potentially with [`usethis::create_package()`](https://usethis.r-lib.org/reference/create_package.html);
-* Adding as few elements as possible to it until you can illustrate the problem you have;
-* Sharing it on a public platform (or a platform accessible to your target helper), potentially on GitHub with [`usethis::use_github()`](https://usethis.r-lib.org/reference/use_github.html);
-* Optionally, adding GitHub Actions workflows to it to have a log to show. See [`usethis::use_github_actions()`](https://usethis.r-lib.org/reference/github_actions.html).
+### Write an R Package from R Markdown?
 
-You do not need to use the usethis package.
-However, it is crucial you find a way to quickly create the package skeleton and to quickly share it, as it will lessen the energy needed to get started, and leave you more time for the trickier reproducible example creation!
+If you ever dreamed of [writing an R package from R Markdown](https://yihui.org/en/2023/01/litr-package/), check out the [fusen](https://thinkr-open.github.io/fusen/) package by Sébastien Rochette or the [litr](https://faculty.marshall.usc.edu/jacob-bien/litr/docs/) package by Jacob Bien and Patrick Vossler.
 
-That's the kind of workflow recommended in [pkgdown contributing guide](https://pkgdown.r-lib.org/CONTRIBUTING.html#package-reprexes).
-It will also serve you well in any package development Q&A channel.
-Alternatively, if you can't reduce your problem to a minimal example, hopefully you can show your actual package to someone, as opposed to describing it with words.
+### Example of help guidance
 
-### How to distribute data with your package?
+The targets manual (by targets maintainer Will Landau) has an interesting chapter on [how to ask for help](https://books.ropensci.org/targets/help.html) that might inspire other contributing guides!
+Note the explanation of ["out of office" periods](https://books.ropensci.org/targets/help.html#out-of-office).
 
-Because of size limitations on CRAN for instance, it might seem tricky to distribute data with your package.
-You could publish it on [R-universe](https://ggseg.r-universe.dev/ui#packages), and also explore solutions presented in a [R-hub blog post](https://blog.r-hub.io/2020/05/29/distribute-data/) and in a [posit community forum answer by Gábor Csárdi](https://community.rstudio.com/t/distributing-data-with-a-package/152848).
+### External libraries and the rOpenSci build system
+
+Packages needing external system libraries should specify those libraries in the ["SystemRequirements" field of the "DESCRIPTION" file](https://r-pkgs.org/description.html#other-fields).
+Most package installation systems will parse "SystemRequirements" entries using the rules provided at [rstudio/r-system-requirements](https://github.com/rstudio/r-system-requirements).
+Any packages not listed in the "rules" sub-folder of that repository will generally not be automatically installed.
+It is nevertheless still useful to list all external dependencies, to at least aid manual installation.
+Our rOpenSci build system includes libraries listed in the [r-universe-org/base-image](https://github.com/r-universe-org/base-image/blob/master/Dockerfile).
+That list of libraries can easily be extended, so please contact us, or submit a pull request, if you'd like our system to include any additional system libraries.
 
 ## Last words
 
