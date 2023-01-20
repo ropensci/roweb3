@@ -120,11 +120,6 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 ## On the blog
 
-<!-- Do not forget to rebase your branch! -->
-
-
-
-### Other topics
 
 * [rOpenSci Code of Conduct Annual Review](/blog/2023/01/06/conduct2023) by Yanina Bellini Saibene, Mark Padgham, Kara Woo, and Megan Carter. Updates for version 2.4 of rOpenSci's Code of Conduct.
 
