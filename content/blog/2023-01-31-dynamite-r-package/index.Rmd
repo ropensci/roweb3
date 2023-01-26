@@ -2,7 +2,7 @@
 title: Dynamite for Causal Inference from Panel Data using Dynamic Multivariate Panel
   Models
 author: "Jouni Helske"
-date: "2022-12-15"
+date: "2022-01-31"
 slug: "dynamite-r-package"
 tags:
 - dynamite
@@ -73,20 +73,22 @@ Often the aim is to perform causal inference based on such observational data (i
 A new [rOpensci-reviewed](https://github.com/ropensci/software-review/issues/554) R package [dynamite](https://docs.ropensci.org/dynamite) available on CRAN implements a new class of panel models called the Bayesian dynamic multivariate panel model (DMPM) which supports 
 * Joint modelling of multiple response variables potentially from mixed distributions (e.g. Gaussian and categorical responses)
 * Time-varying regression coefficients modelled as splines
-* Random group-level effects
+* Group-level random effects (coming soon)
 * Probabilistic posterior predictive simulations for long-term causal effect estimation, including not only the average causal effects but the full interventional distributions of interest (i.e. the distribution of the response variable after an intervention).
 
 The theory regarding the model and the subsequent causal effect estimation for panel data, with some examples, can be found in the [SocArxiv preprint](https://osf.io/preprints/socarxiv/mdwu5/)[^1] and the package [vignette](https://docs.ropensci.org/dynamite/articles/dynamite.html). 
-In this post, I will illustrate the use of dynamite for a synthetic control approach for time series causal inference, originally suggested by Abadie et al.[^2], and further extended and popularized by Brodersen et al.[^3] and their [CausalImpact](https://CRAN.R-project.org/package=CausalImpact) package. 
+In this post, I will illustrate the use of dynamite for causal inference in a non-panel setting (i.e. we have time series data on only a single "individual").
 
-The basic idea of the synthetic control method is that you have a time series of interest $y_1,\ldots,y_T$, for example daily sales of some product. 
-Then an intervention was made at some time point $t<T$ (e.g., an ad campaign was started). 
-Typically you also have one or more "control times series" $x$ which have an effect on $y$ but for which the intervention did not affect (e.g. price and some properties of the product, demographic variables etc.). 
+The idea of the following example is similar to a synthetic control approach for time series causal inference, originally suggested by Abadie et al.[^2], and further extended and popularized by Brodersen et al.[^3] and their [CausalImpact](https://CRAN.R-project.org/package=CausalImpact) package. 
+
+The basic idea of the synthetic control method is that you have a time series of interest $y_1,\ldots,y_T$, for example daily sales of some product, and an intervention was made at some time point $t<T$ (e.g., change in the value-added tax, VAT). 
+You would then like to know what was the effect of the intervention on $y_{t},\ldots,y_{T}$, for example how much did the sales increase due to the decrease or removal of the VAT.
+Typically you also have one or more "control times series" $x$ which predict the behaviour of $y$ but for which the intervention did not affect (e.g. some time-varying properties of the product, the demographic variables of the market, or sales of the product in some other markets). 
 You then build a statistical model for $y_1,\ldots, y_{t-1}$ using the control series for the same time points, use your estimated model to predict the values of $y$ in the intervention period $t, \ldots, T$ using the observed control series and compare these predictions to the observed values of $y_t,\ldots, y_T$.
 
-In the synthetic control approach one of the key assumptions is that the control series itself are not affected by the intervention.
-Here I'll show how the dynamite package can be used for synthetic control when also the control series are subject to the interventions, by jointly modelling both the main response variable of interest as well as the control time series. While I here focus on a univariate, non-panel data (i.e. we have data on only a single "individual"), the same approach can easily be used for panel data as well.
-
+In the synthetic control approach one of the key assumptions is that the control series itself are not affected by the intervention. 
+In the sales example above, using sales data of some distant market could be suitable control, but the change in VAT could have an effect on the sales in the neighboring markets as well, so using such time series as control would then violate this assumption.
+While applicable also to valid synthetic control cases, the dynamite package can be used also in cases where not only the main response variable of interest (i.e. sales in the above example) but also the other control series (sales of neighboring markets) are affected by the intervention. This is done by jointly modelling both the main response variable of interest as well as the control time series (it could be argued that they should not be called control series in this case). 
 
 ## Data generation
 
@@ -107,9 +109,13 @@ y_t & \sim N(0.7x_{t-1}, 0.3^2)\\
 $$
 for $t=2, \ldots, 100$, where the initial values $x_1$ and $y_1$ are drawn from the standard normal distribution (in subsequent modelling we condition on these first observations, i.e. they are treated as fixed data).
 
-For $z_t$, I fixed the first 80 time points to zero, and the last 20 to one. 
+Variable $z_t$ is our intervention variable, which I fixed to zero for the first 80 time points, and to one for the the last 20 time points, i.e. the intervention starts at time $t=81$.
+Following the terminology in the DMPM paper, this is a recurring intervention, in contrast to an atomic intervention where $z_{81}=1$ and zero otherwise.
+Naturally it would be possible to also consider interventions such as $z_t=1$ for $80<t<90$ and $z_t=0$ otherwise (e.g. a ad campaign starts at time 81 and ends at time 89).
+
 Our hypothetical research question is how does $z$ affect $y$? 
-Looking at our data generating process it is clear that $z_t$ does not affect $y_t$, but it still affects $y_{t+1},y_{t+2},\ldots$ via $x_t,x_{t+1},\ldots$.
+Looking at our data generating process it is clear that $z_t$ does not affect $y_t$, but it still affects $y_{t+1},y_{t+2},\ldots$ via $x_t,x_{t+1},\ldots$. 
+Note that I chose this model just to exemplify the modelling, and these coefficients clearly does not reflect the sales example in the introduction.
 
 I will first simulate some data according to our true model:
 ```{r data, hugoopts=list(alt="Line plot with a pink line labelled x and a blue line labelled y. The axes are Value on the Y and Time on the X. The two lines follow each other fluctuating around zero, and both jump to fluctuating around 2.5 after time 80.")}
@@ -131,10 +137,9 @@ ggplot(d, aes(time)) +
     ylab("Value") + xlab("Time") +
     theme_bw()
 ```
-
 ## Causal inference based on synthetic control with dynamite
 
-While in the data generation the $y_t$ variable did not depend on the lagged value $y_{t-1}$and $z_t$, I will nevertheless estimate a model where both $x_t$ and $y_t$ depend on the $x_{t-1}$ and $y_{t-1}$, as well as $z$, mimicking the fact that I'm not sure about the true causal graph (structure of DGP). 
+While in the data generation the $y_t$ variable did not depend on the lagged value $y_{t-1}$ and $z_t$, I will nevertheless estimate a model where both $x_t$ and $y_t$ depend on the $x_{t-1}$ and $y_{t-1}$, as well as $z$, mimicking the fact that I'm not sure about the true causal graph (structure of DGP). 
 The model formula for the main function of the package, [`dynamite()`](https://docs.ropensci.org/dynamite/reference/dynamite.html), is defined by calling a special function [`obs()`](https://docs.ropensci.org/dynamite/reference/dynamiteformula.html) once for each "channel", i.e. response variable. 
 The lagged variables can be defined in the formula as `lag(y)`, but here I use a special function [`lags()`](https://docs.ropensci.org/dynamite/reference/lags.html) which by default adds lagged values of all channels to each channel:
 ```{r}
@@ -144,7 +149,7 @@ f <- obs(y ~ z, family = "gaussian") + obs(x ~ z, family = "gaussian") + lags()
 #   obs(x ~ z + lag(y) + lag(x), "gaussian)
 ```
 
-We can now estimate our model with `dynamite` for which we need to define the data, the variable in the data defining the time index (argument `time`), and the grouping variable (argument `group`), which can be ignored in this univariate case:
+We can now estimate our model with `dynamite()` for which we need to define the data, the variable in the data defining the time index (argument `time`), and the grouping variable (argument `group`), which can be ignored in this univariate case:
 ```{r}
 fit <- dynamite(f,
   data = d,
@@ -158,6 +163,7 @@ While rstan is the default backend as it is available at CRAN, we recommend ofte
 
 Let's see some results:
 ```{r}
+options(width = 90) # expand the width so that the column names are not cut off
 fit
 ```
 
@@ -165,7 +171,7 @@ The coefficient estimates are pretty much in line with the data generation, but 
 
 We can now perform some posterior predictive checks. First, we can check how well the posterior samples of our one-step-ahead predictions match with the observations by using the [`fitted()`](https://docs.ropensci.org/dynamite/reference/fitted.dynamitefit.html) method and visualizing these posterior predictive distributions (I'll one plot the estimates for the variable y for simplicity):
 
-```{r, hugoopts=list(alt="Figure showing the one-step ahead predictions ("fitted values") of variable y of the model.")}
+```{r, hugoopts=list(alt="Figure showing the one-step ahead predictions (fitted values) of variable y of the model.")}
 out <- fitted(fit) |> 
   group_by(time) |>
   summarise(
@@ -184,7 +190,7 @@ ggplot(out, aes(time, mean)) +
 ```
 Note that these are not real out-of-sample predictions as the posterior samples of model parameters used for these predictions are based on all our observations, which would be especially problematic for a model containing time-varying components (e.g., splines). A more "honest" (and time consuming) approach would be to use approximate leave-future-out cross-validation via dynamite's [`lfo()`](https://docs.ropensci.org/dynamite/reference/lfo.html) function.
 
-Given the posterior samples of the model parameters, I can also make some counterfactual predictions. 
+Given the posterior samples of the model parameters, I can also make some counterfactual predictions (how $y_{81},\ldots,y_{100}$ would have looked like if no intervention was made, i.e. if $z_t$ was zero for all $t$). 
 First I create a new data frame where $z=0$ for all time points, and where $y$ and $x$ are set to missing values starting from $t=81$ (the time point where started our intervention $z=1$):
 ```{r}
 newdata <- d
@@ -258,11 +264,12 @@ p3 <- ggplot(cs_sumr, aes(time, mean)) +
 p1 + p2 + p3 + plot_layout(ncol = 1)
 ```
 
-In the top figure, we see the predictions in the counterfactual (synthetic control) case where no intervention was done ($z_t=0$ for all $t$; pink ribbon/red line), whereas in the middle figure I have drawn the difference between predicted values and the actual observations for times $t=81,\ldots,100$. 
-In the bottom figure we see the cumulative difference between observations and our predictions, which show clear effect of intervention.
+In the top figure, we see the predictions for the counterfactual case where no intervention was done ($z_t=0$ for all $t$; pink ribbon/red line), whereas in the middle figure I have drawn the difference between predicted values and the actual observations for times $t=81,\ldots,100$, which show clear effect of intervention (the difference between between observations and predictions do not fluctuate around zero). 
+In the bottom figure we see the cumulative difference between observations and our predictions, which emphasise how the cumulative effect keeps increasing during the whole study period instead of tapering off or disappearing completely.
 
-Finally we can consider a case where we assume that the intervention affects only a single response variable, $y$. Which, since we created this data, we know would be incorrect. 
-For this purpose, I repeat the previous simulation but I keep variable $x$ fixed to its observed values:
+Finally we can consider a case where we assume that the intervention affects only a single response variable, $y$, and $x$ does not depend on $y$, Which, since we created this data, we know would be incorrect. 
+This is essentially same as treating $x$ as exogenous and estimating a single-response model for $y$.
+But in our case we can also proceed with our original model, and just modify the previous simulation so that the variable $x$ is fixed to its observed values:
 ```{r fixed_x, hugoopts=list(alt="Three stacked line plots, each with time as the x axis. From top to bottom, the y-axes are Value, Predicted minus Observed value, and Cumulative differences. The top figure shows a pink ribbon matching a black line in the 80-100 time range. The middle figure shows a fluctuating pink ribbon. The bottom figure shows a ribbon funnelling wider around zero.")}
 newdata <- d
 newdata$z <- 0
@@ -322,11 +329,11 @@ p3 <- ggplot(cs_sumr_fixed_x, aes(time, mean)) +
 p1 + p2 + p3 + plot_layout(ncol = 1)
 ```
 
-As expected, the (wrong) conclusion would be that our original intervention did not affect $y$.
+As expected, because we treated variable $x$ as fixed, and the intervention only affects $y$ only via $x$, we see that the counterfactual predictions and the observed series are very similar and would  (incorrecly) conclude that our original intervention did not affect $y$.
 
 ## Future directions
 
-In future, we plan to also support group-specific effects for time-invariant effects, and more distributions such as Weibull, multinomial, and $t$-distribution for the response variables. 
+In future, we plan to add more distributions such as Weibull, multinomial, and $t$-distribution for the response variables and improve the tools for visualization of the model parameters and predictions.
 We would also be very interested in hearing how the package is used in various applications, especially if you can share your data openly.
 [Pull requests](https://github.com/ropensci/dynamite) and other contributions are very welcome.
 
