@@ -159,9 +159,6 @@ To help workflows scale, [`targets`](https://docs.rOpenSci.org/targets/) adopts 
 
 The more often you write your own functions, the nicer your experience becomes.
 
-<!--html_preserve-->
-<!--/html_preserve-->
-
 But if your mind is on the domain knowledge, or if you feel pressure to work fast, then it can be hard to write functions for everything.
 
 ## Target factories
