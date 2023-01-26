@@ -67,10 +67,10 @@ knitr::knit_hooks$set(
 
 
 Panel data contains measurements from multiple subjects measured over multiple time points. 
-Such data can be encountered for example in many social science applications such as when analysing register data or cohort studies. 
+Such data can be encountered in many social science applications such as when analysing register data or cohort studies (for example). 
 Often the aim is to perform causal inference based on such observational data (instead of randomized control trials).
 
-A new [rOpensci-approved](https://github.com/ropensci/software-review/issues/554) R package [dynamite](https://docs.ropensci.org/dynamite) available at CRAN implements a new class of panel models called the Bayesian dynamic multivariate panel model (DMPM) which supports 
+A new [rOpensci-reviewed](https://github.com/ropensci/software-review/issues/554) R package [dynamite](https://docs.ropensci.org/dynamite) available on CRAN implements a new class of panel models called the Bayesian dynamic multivariate panel model (DMPM) which supports 
 * Joint modelling of multiple response variables potentially from mixed distributions (e.g. Gaussian and categorical responses)
 * Time-varying regression coefficients modelled as splines
 * Probabilistic posterior-predictive simulations for long-term causal effect estimation (including not only the average causal effects but the full interventional distributions of interest)
@@ -84,9 +84,9 @@ In this post, I will illustrate the use of `dynamite` for a synthetic control ap
 Load some packages:
 ```{r, message = FALSE}
 library(dynamite)
-library(dplyr)
-library(ggplot2)
-library(patchwork)
+library(dplyr)     # Data manipulation
+library(ggplot2)   # Figures
+library(patchwork) # Combining Figures
 ```
 
 I will consider the following true data generating process (DGP):
@@ -98,12 +98,12 @@ y_t & \sim N(0.7x_{t-1}, 0.3^2)\\
 $$
 for $t=2, \ldots, 100$, where the initial values $x_1$ and $y_1$ are drawn from the standard normal distribution (in subsequent modelling we condition on these first observations, i.e. they are treated as fixed data).
 
-For $z_t$, I fix the first 80 time points to zero, and the last 20 to one. 
+For $z_t$, I fixed the first 80 time points to zero, and the last 20 to one. 
 Our hypothetical research question is how does $z$ affect $y$? 
 Looking at our data generating process it is clear that $z_t$ does not affect $y_t$, but it still affects $y_{t+1},y_{t+2},\ldots$ via $x_t,x_{t+1},\ldots$.
 
 I will first simulate some data according to our true model:
-```{r data, hugoopts=list(alt="Figure showing the simulated x and y variables.")}
+```{r data, hugoopts=list(alt="Line plot with a pink line labelled x and a blue line labelled y. The axes are Value on the Y and Time on the X. The two lines follow each other fluctuating around zero, and both jump to fluctuating around 2.5 after time 80.")}
 set.seed(1)
 n <- 100
 x <- y <- numeric(n)
@@ -126,7 +126,7 @@ ggplot(d, aes(time)) +
 ## Causal inference based on synthetic control with dynamite
 
 While in the data generation the $y_t$ variable did not depend on the lagged value $y_{t-1}$and $z_t$, I will nevertheless estimate a model where both $x_t$ and $y_t$ depend on the $x_{t-1}$ and $y_{t-1}$, as well as $z$, mimicking the fact that I'm not sure about the true causal graph (structure of DGP). 
-The model formula for the main function of the package, [`dynamite()`](https://docs.ropensci.org/dynamite/reference/dynamite.html) is defined using special functions [`obs()`](https://docs.ropensci.org/dynamite/reference/dynamiteformula.html), one for each "channel", i.e. response variable. 
+The model formula for the main function of the package, [`dynamite()`](https://docs.ropensci.org/dynamite/reference/dynamite.html), is defined by calling a special function [`obs()`](https://docs.ropensci.org/dynamite/reference/dynamiteformula.html) once for each "channel", i.e. response variable. 
 The lagged variables can be defined in the formula as `lag(y)`, but here I use a special function [`lags()`](https://docs.ropensci.org/dynamite/reference/lags.html) which by default adds lagged values of all channels to each channel:
 ```{r}
 f <- obs(y ~ z, family = "gaussian") + obs(x ~ z, family = "gaussian") + lags()
@@ -143,9 +143,9 @@ fit <- dynamite(f,
   chains = 4, cores = 4, refresh = 0)
 ```
 
-The actual estimation delegated to [Stan](mc-stan.org) using either [rstan](https://cran.r-project.org/package=rstan) (default) or [cmdstanr](https://github.com/stan-dev/cmdstanr) backend. 
-The last arguments are passed to `rstan:sampling` which runs the Markov chain Monte Carlo for us. 
-While `rstan` is the default backend as it is available at CRAN, we recommend often more efficient `cmdstanr` or the latest development version of `rstan``, available at [Stan's repo for R packages](http://mc-stan.org/r-packages/).
+The actual estimation is delegated to [Stan](https://mc-stan.org) using either [rstan](https://cran.r-project.org/package=rstan) (default) or [cmdstanr](https://github.com/stan-dev/cmdstanr) backend. 
+The last arguments are passed to `rstan::sampling()` which runs the Markov chain Monte Carlo for us. 
+While rstan is the default backend as it is available at CRAN, we recommend often more efficient cmdstanr or the latest development version of rstan, available at [Stan's repo for R packages](https://mc-stan.org/r-packages/).
 
 Let's see some results:
 ```{r}
@@ -173,10 +173,10 @@ ggplot(out, aes(time, mean)) +
   xlab("Time") + ylab("Value") +
   theme_bw()
 ```
-Note that these are not real out-of-sample predictions as the posterior samples of model parameters used for these predictions are based on all our observations, which would be especially problematic for a model containing time-varying components (e.g., splines). More "honest" (and time consuming) approach would be to use approximate leave-future-out cross-validation via [`lfo()`](https://docs.ropensci.org/dynamite/reference/lfo.html) function.
+Note that these are not real out-of-sample predictions as the posterior samples of model parameters used for these predictions are based on all our observations, which would be especially problematic for a model containing time-varying components (e.g., splines). A more "honest" (and time consuming) approach would be to use approximate leave-future-out cross-validation via dynamite's [`lfo()`](https://docs.ropensci.org/dynamite/reference/lfo.html) function.
 
 Given the posterior samples of the model parameters, I can also make some counterfactual predictions. 
-First I create new data frame where $z=0$ for all time points, and where $y$ and $x$ are set to missing values starting from $t=81$ (the time point where started our intervention $z=1$):
+First I create a new data frame where $z=0$ for all time points, and where $y$ and $x$ are set to missing values starting from $t=81$ (the time point where started our intervention $z=1$):
 ```{r}
 newdata <- d
 newdata$z <- 0
@@ -203,8 +203,8 @@ sumr <- pred |>
     upr95 = quantile(y_mean, 0.975))
 ```
 
-And some figures following similar visualization style as popularized by the `CausalImpact` consisting of the actual predictions, difference compared to observed values, and cumulative differences of these:
-```{r preds, hugoopts=list(alt="Figure showing the causal effect estimates, the actual predictions, difference with the observations, and cumulative differences.")}
+And some figures, following similar visualization style as popularized by the CausalImpact package, consisting of the actual predictions, difference compared to observed values, and cumulative differences of these:
+```{r preds, hugoopts=list(alt="Three stacked line plots, each with time as the x axis. From top to bottom, the y-axes are Value, Predicted minus Observed value, and Cumulative differences. The top figure shows a pink ribbon deviating from a black line in the 80-100 time range. The middle figure shows a fluctuating pink ribbon. The bottom figure shows an increasing ribbon.")}
 p1 <- ggplot(sumr, aes(time, mean)) +
   geom_ribbon(aes(ymin = lwr95, ymax = upr95), alpha = 0.3, fill = "#ED3535") +
   geom_ribbon(aes(ymin = lwr80, ymax = upr80), alpha = 0.3, fill = "#ED3535") +
@@ -249,12 +249,12 @@ p3 <- ggplot(cs_sumr, aes(time, mean)) +
 p1 + p2 + p3 + plot_layout(ncol = 1)
 ```
 
-In the top figure, we see the actual predictions in the counterfactual (synthetic control) case where no intervention was done ($z_t=0$ for all $t$), whereas in the middle figure I have drawn the difference between predicted values and the actual observations for times $t=81,\ldots,100$. 
+In the top figure, we see the predictions in the counterfactual (synthetic control) case where no intervention was done ($z_t=0$ for all $t$; pink ribbon/red line), whereas in the middle figure I have drawn the difference between predicted values and the actual observations for times $t=81,\ldots,100$. 
 In the bottom figure we see the cumulative difference between observations and our predictions, which show clear effect of intervention.
 
-Finally we can consider a case where we assume that the intervention affects only variable $y$ (this is also what is assumed in `CausalImpact`). 
+Finally we can consider a case where we assume that the intervention affects only a single response variable, $y$. Which, since we created this data, we know would be incorrect. 
 For this purpose, I repeat the previous simulation but I keep variable $x$ fixed to its observed values:
-```{r fixed_x, hugoopts=list(alt="Figure showing the incorrect causal effect estimates with fixed x.")}
+```{r fixed_x, hugoopts=list(alt="Three stacked line plots, each with time as the x axis. From top to bottom, the y-axes are Value, Predicted minus Observed value, and Cumulative differences. The top figure shows a pink ribbon matching a black line in the 80-100 time range. The middle figure shows a fluctuating pink ribbon. The bottom figure shows a ribbon funnelling wider around zero.")}
 newdata <- d
 newdata$z <- 0
 newdata$y[81:100] <- NA
@@ -319,7 +319,7 @@ As expected, the (wrong) conclusion would be that our original intervention did 
 
 In future, we plan to also support group-specific effects for time-invariant effects, and more distributions such as Weibull, multinomial, and $t$-distribution for the response variables. 
 We would also be very interested in hearing how the package is used in various applications, especially if you can share your data openly.
-Pull requests and other contributions are very welcome.
+[Pull requests](https://github.com/ropensci/dynamite) and other contributions are very welcome.
 
 
 ## Acknowledgements
@@ -330,5 +330,5 @@ The package was [reviewed](https://github.com/ropensci/software-review/issues/55
 [^1]: Helske J, Tikka S (2022). Estimating Causal Effects from Panel Data with Dynamic Multivariate Panel
   Models. https://osf.io/preprints/socarxiv/mdwu5/.
 [^2]: Brodersen et al., 2015, Annals of Applied Statistics. Inferring causal impact using Bayesian
-  structural time-series models. https://research.google/pubs/pub41854/
+  structural time-series models. doi.org/10.1214/14-AOAS788
 
