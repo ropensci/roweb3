@@ -73,10 +73,19 @@ Often the aim is to perform causal inference based on such observational data (i
 A new [rOpensci-reviewed](https://github.com/ropensci/software-review/issues/554) R package [dynamite](https://docs.ropensci.org/dynamite) available on CRAN implements a new class of panel models called the Bayesian dynamic multivariate panel model (DMPM) which supports 
 * Joint modelling of multiple response variables potentially from mixed distributions (e.g. Gaussian and categorical responses)
 * Time-varying regression coefficients modelled as splines
-* Probabilistic posterior-predictive simulations for long-term causal effect estimation (including not only the average causal effects but the full interventional distributions of interest)
+* Random group-level effects
+* Probabilistic posterior predictive simulations for long-term causal effect estimation, including not only the average causal effects but the full interventional distributions of interest (i.e. the distribution of the response variable after an intervention).
 
 The theory regarding the model and the subsequent causal effect estimation for panel data, with some examples, can be found in the [SocArxiv preprint](https://osf.io/preprints/socarxiv/mdwu5/)[^1] and the package [vignette](https://docs.ropensci.org/dynamite/articles/dynamite.html). 
-In this post, I will illustrate the use of `dynamite` for a synthetic control approach popularized by the [`CausalImpact`](https://CRAN.R-project.org/package=CausalImpact)[^2] package in univariate time series setting where we have data only on a single "individual".
+In this post, I will illustrate the use of dynamite for a synthetic control approach for time series causal inference, originally suggested by Abadie et al.[^2], and further extended and popularized by Brodersen et al.[^3] and their [CausalImpact](https://CRAN.R-project.org/package=CausalImpact) package. 
+
+The basic idea of the synthetic control method is that you have a time series of interest $y_1,\ldots,y_T$, for example daily sales of some product. 
+Then an intervention was made at some time point $t<T$ (e.g., an ad campaign was started). 
+Typically you also have one or more "control times series" $x$ which have an effect on $y$ but for which the intervention did not affect (e.g. price and some properties of the product, demographic variables etc.). 
+You then build a statistical model for $y_1,\ldots, y_{t-1}$ using the control series for the same time points, use your estimated model to predict the values of $y$ in the intervention period $t, \ldots, T$ using the observed control series and compare these predictions to the observed values of $y_t,\ldots, y_T$.
+
+In the synthetic control approach one of the key assumptions is that the control series itself are not affected by the intervention.
+Here I'll show how the dynamite package can be used for synthetic control when also the control series are subject to the interventions, by jointly modelling both the main response variable of interest as well as the control time series. While I here focus on a univariate, non-panel data (i.e. we have data on only a single "individual"), the same approach can easily be used for panel data as well.
 
 
 ## Data generation
@@ -328,7 +337,7 @@ The package was created by [Santtu Tikka](https://github.com/santikka) and [Joun
 The package was [reviewed](https://github.com/ropensci/software-review/issues/554) by [Nicholas Clark](https://github.com/nicholasjclark) and [Lucy D'Agostino McGowan](https://github.com/LucyMcGowan).
 
 [^1]: Helske J, Tikka S (2022). Estimating Causal Effects from Panel Data with Dynamic Multivariate Panel
-  Models. https://osf.io/preprints/socarxiv/mdwu5/.
-[^2]: Brodersen et al., 2015, Annals of Applied Statistics. Inferring causal impact using Bayesian
-  structural time-series models. doi.org/10.1214/14-AOAS788
+  Models. SocArxiv Preprint. doi.org/10.31235/osf.io/mdwu5.
+[^2]: Abadie, A, Gardeazabal, J (2003). The Economic Costs of Conflict: A Case Study of the Basque Country. The American Economic Review, 93(1), 113–132. doi.org/10.1257/000282803321455188
+[^3]: Brodersen KH, Gallusser F, Koehler J, Remy N, and Scott SL (2015). Annals of Applied Statistics. Inferring causal impact using Bayesian structural time-series models. doi.org/10.1214/14-AOAS788
 
