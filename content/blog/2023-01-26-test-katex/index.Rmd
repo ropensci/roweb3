@@ -54,6 +54,8 @@ knitr::knit_hooks$set(
 
 
 
+`r katex::katex_html("y_1,\\ldots,y_T", displayMode = FALSE)`
+
 ```{r chunkname, hugoopts=list(alt="alternative text please make it informative", caption="this is what this image shows, write it here or in the paragraph after the image as you prefer", width=300)}
 plot(1:10)
 ```
