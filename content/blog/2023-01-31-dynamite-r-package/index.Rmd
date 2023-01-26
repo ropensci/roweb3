@@ -280,7 +280,7 @@ p3 <- ggplot(cs_sumr, aes(time, mean)) +
 p1 + p2 + p3 + plot_layout(ncol = 1)
 ```
 
-In the top figure, we see the predictions for the counterfactual case where no intervention was done (", displayMode = FALSE)`z_t=0", displayMode = FALSE)` for all `r katex::katex_html("t", displayMode = FALSE)`; pink ribbon/red line), whereas in the middle figure I have drawn the difference between predicted values and the actual observations for times `r katex::katex_html("t=81,\\ldots,100", displayMode = FALSE)`, which show clear effect of intervention (the difference between between observations and predictions do not fluctuate around zero). 
+In the top figure, we see the predictions for the counterfactual case where no intervention was done (`r katex::katex_html("z_t=0", displayMode = FALSE)` for all `r katex::katex_html("t", displayMode = FALSE)`; pink ribbon/red line), whereas in the middle figure I have drawn the difference between predicted values and the actual observations for times `r katex::katex_html("t=81,\\ldots,100", displayMode = FALSE)`, which show clear effect of intervention (the difference between between observations and predictions do not fluctuate around zero). 
 In the bottom figure we see the cumulative difference between observations and our predictions, which emphasise how the cumulative effect keeps increasing during the whole study period instead of tapering off or disappearing completely.
 
 Finally we can consider a case where we assume that the intervention affects only a single response variable, `r katex::katex_html("y", displayMode = FALSE)`, and `r katex::katex_html("x", displayMode = FALSE)` does not depend on `r katex::katex_html("y", displayMode = FALSE)`, Which, since we created this data, we know would be incorrect. 
