@@ -2,7 +2,7 @@
 title: Dynamite for Causal Inference from Panel Data using Dynamic Multivariate Panel
   Models
 author: "Jouni Helske"
-date: "2022-01-31"
+date: "2023-01-31"
 slug: "dynamite-r-package"
 tags:
 - dynamite
@@ -64,6 +64,7 @@ knitr::knit_hooks$set(
 )
 ```
 
+
 ## Introduction
 
 
@@ -94,6 +95,7 @@ While applicable also to valid synthetic control cases, the dynamite package can
 ## Data generation
 
 Load some packages:
+
 ```{r, message = FALSE}
 library(dynamite)
 library(dplyr)     # Data manipulation
@@ -122,6 +124,7 @@ Looking at our data generating process it is clear that `r katex::katex_html("z_
 Note that I chose this model just to exemplify the modelling, and these coefficients clearly does not reflect the sales example in the introduction.
 
 I will first simulate some data according to our true model:
+
 ```{r data, hugoopts=list(alt="Line plot with a pink line labelled x and a blue line labelled y. The axes are Value on the Y and Time on the X. The two lines follow each other fluctuating around zero, and both jump to fluctuating around 2.5 after time 80.")}
 set.seed(1)
 n <- 100
@@ -141,11 +144,13 @@ ggplot(d, aes(time)) +
     ylab("Value") + xlab("Time") +
     theme_bw()
 ```
+
 ## Causal inference based on synthetic control with dynamite
 
 While in the data generation the `r katex::katex_html("y_t", displayMode = FALSE)` variable did not depend on the lagged value `r katex::katex_html("y_{t-1}", displayMode = FALSE)` and `r katex::katex_html("z_t", displayMode = FALSE)`, I will nevertheless estimate a model where both `r katex::katex_html("x_t", displayMode = FALSE)` and `r katex::katex_html("y_t", displayMode = FALSE)` depend on the `r katex::katex_html("x_{t-1}", displayMode = FALSE)` and `r katex::katex_html("y_{t-1}", displayMode = FALSE)`, as well as `r katex::katex_html("z", displayMode = FALSE)`, mimicking the fact that I'm not sure about the true causal graph (structure of DGP). 
 The model formula for the main function of the package, [`dynamite()`](https://docs.ropensci.org/dynamite/reference/dynamite.html), is defined by calling a special function [`obs()`](https://docs.ropensci.org/dynamite/reference/dynamiteformula.html) once for each "channel", i.e. response variable. 
 The lagged variables can be defined in the formula as `lag(y)`, but here I use a special function [`lags()`](https://docs.ropensci.org/dynamite/reference/lags.html) which by default adds lagged values of all channels to each channel:
+
 ```{r}
 f <- obs(y ~ z, family = "gaussian") + obs(x ~ z, family = "gaussian") + lags()
 ## same as 
@@ -154,6 +159,7 @@ f <- obs(y ~ z, family = "gaussian") + obs(x ~ z, family = "gaussian") + lags()
 ```
 
 We can now estimate our model with `dynamite()` for which we need to define the data, the variable in the data defining the time index (argument `time`), and the grouping variable (argument `group`), which can be ignored in this univariate case:
+
 ```{r}
 fit <- dynamite(f,
   data = d,
@@ -166,6 +172,7 @@ The last arguments are passed to `rstan::sampling()` which runs the Markov chain
 While rstan is the default backend as it is available at CRAN, we recommend often more efficient cmdstanr or the latest development version of rstan, available at [Stan's repo for R packages](https://mc-stan.org/r-packages/).
 
 Let's see some results:
+
 ```{r}
 options(width = 90) # expand the width so that the column names are not cut off
 fit
@@ -192,10 +199,12 @@ ggplot(out, aes(time, mean)) +
   xlab("Time") + ylab("Value") +
   theme_bw()
 ```
+
 Note that these are not real out-of-sample predictions as the posterior samples of model parameters used for these predictions are based on all our observations, which would be especially problematic for a model containing time-varying components (e.g., splines). A more "honest" (and time consuming) approach would be to use approximate leave-future-out cross-validation via dynamite's [`lfo()`](https://docs.ropensci.org/dynamite/reference/lfo.html) function.
 
 Given the posterior samples of the model parameters, I can also make some counterfactual predictions (how `r katex::katex_html("y_{81},\\ldots,y_{100}", displayMode = FALSE)` would have looked like if no intervention was made, i.e. if `r katex::katex_html("z_t", displayMode = FALSE)` was zero for all `r katex::katex_html("t", displayMode = FALSE)`). 
 First I create a new data frame where `r katex::katex_html("z=0", displayMode = FALSE)` for all time points, and where `r katex::katex_html("y", displayMode = FALSE)` and `r katex::katex_html("x", displayMode = FALSE)` are set to missing values starting from `r katex::katex_html("t=81", displayMode = FALSE)` (the time point where started our intervention `r katex::katex_html("z=1", displayMode = FALSE)`):
+
 ```{r}
 newdata <- d
 newdata$z <- 0
@@ -204,6 +213,7 @@ newdata$x[81:100] <- NA
 ```
 
 I then input this new data to the [`predict()`](https://docs.ropensci.org/dynamite/reference/predict.dynamitefit.html) method and define that I want posterior samples of expected values instead of new observations by using `type = "mean"` (new observations are still simulated behind the scenes in order to move forward in time):
+
 ```{r}
 pred <- predict(fit, newdata = newdata, type = "mean") |> 
   filter(time > 80)
@@ -211,6 +221,7 @@ head(pred)
 ```
 
 From these I compute the posterior mean, 80% and 95% intervals for each time point:
+
 ```{r}
 sumr <- pred |> 
   group_by(time) |>
@@ -223,6 +234,7 @@ sumr <- pred |>
 ```
 
 And some figures, following similar visualization style as popularized by the CausalImpact package, consisting of the actual predictions, difference compared to observed values, and cumulative differences of these:
+
 ```{r preds, hugoopts=list(alt="Three stacked line plots, each with time as the x axis. From top to bottom, the y-axes are Value, Predicted minus Observed value, and Cumulative differences. The top figure shows a pink ribbon deviating from a black line in the 80-100 time range. The middle figure shows a fluctuating pink ribbon. The bottom figure shows an increasing ribbon.")}
 p1 <- ggplot(sumr, aes(time, mean)) +
   geom_ribbon(aes(ymin = lwr95, ymax = upr95), alpha = 0.3, fill = "#ED3535") +
@@ -274,6 +286,7 @@ In the bottom figure we see the cumulative difference between observations and o
 Finally we can consider a case where we assume that the intervention affects only a single response variable, `r katex::katex_html("y", displayMode = FALSE)`, and `r katex::katex_html("x", displayMode = FALSE)` does not depend on `r katex::katex_html("y", displayMode = FALSE)`, Which, since we created this data, we know would be incorrect. 
 This is essentially same as treating `r katex::katex_html("x", displayMode = FALSE)` as exogenous and estimating a single-response model for `r katex::katex_html("y", displayMode = FALSE)`.
 But in our case we can also proceed with our original model, and just modify the previous simulation so that the variable `r katex::katex_html("x", displayMode = FALSE)` is fixed to its observed values:
+
 ```{r fixed_x, hugoopts=list(alt="Three stacked line plots, each with time as the x axis. From top to bottom, the y-axes are Value, Predicted minus Observed value, and Cumulative differences. The top figure shows a pink ribbon matching a black line in the 80-100 time range. The middle figure shows a fluctuating pink ribbon. The bottom figure shows a ribbon funnelling wider around zero.")}
 newdata <- d
 newdata$z <- 0
