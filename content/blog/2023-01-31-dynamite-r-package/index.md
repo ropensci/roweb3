@@ -98,10 +98,7 @@ ggplot(d, aes(time)) +
     theme_bw()
 ```
 
-{{
-<figure src="data-1.png" alt="Line plot with a pink line labelled x and a blue line labelled y. The axes are Value on the Y and Time on the X. The two lines follow each other fluctuating around zero, and both jump to fluctuating around 2.5 after time 80.">
-
-}}
+{{<figure src="data-1.png" alt="Line plot with a pink line labelled x and a blue line labelled y. The axes are Value on the Y and Time on the X. The two lines follow each other fluctuating around zero, and both jump to fluctuating around 2.5 after time 80.">}}
 
 ## Causal inference based on synthetic control with dynamite
 
@@ -148,31 +145,31 @@ fit
     Grouping variable: .group (Number of groups: 1)
     Time index variable: time (Number of time points: 100)
 
-    Smallest bulk-ESS: 2259 (beta_y_x_lag1)
-    Smallest tail-ESS: 2353 (beta_y_x_lag1)
+    Smallest bulk-ESS: 2322 (beta_y_x_lag1)
+    Smallest tail-ESS: 2391 (beta_y_x_lag1)
     Largest Rhat: 1.003 (beta_x_z)
 
     Elapsed time (seconds):
-            warmup sample
-    chain:1  7.379  6.776
-    chain:2  4.299  3.362
-    chain:3  9.795  9.422
-    chain:4  4.091  3.729
+             warmup  sample
+    chain:1 2.87647 2.83180
+    chain:2 2.83050 2.82209
+    chain:3 2.85837 2.96460
+    chain:4 2.79671 3.61496
 
     Summary statistics of the time-invariant parameters:
     # A tibble: 10 × 10
        variable          mean   median     sd    mad      q5     q95  rhat ess_bulk ess_tail
        <chr>            <dbl>    <dbl>  <dbl>  <dbl>   <dbl>   <dbl> <dbl>    <dbl>    <dbl>
-     1 alpha_x        0.0115   0.0114  0.0320 0.0325 -0.0416  0.0652  1.00    5866.    2920.
-     2 alpha_y       -0.00536 -0.00514 0.0322 0.0317 -0.0574  0.0483  1.00    5476.    2733.
-     3 beta_x_x_lag1  0.989    0.988   0.0573 0.0557  0.897   1.08    1.00    2362.    2566.
-     4 beta_x_y_lag1 -0.572   -0.572   0.0683 0.0682 -0.685  -0.458   1.00    3211.    3189.
-     5 beta_x_z       1.22     1.22    0.141  0.139   0.991   1.46    1.00    3166.    3016.
-     6 beta_y_x_lag1  0.656    0.657   0.0614 0.0637  0.556   0.757   1.00    2259.    2353.
-     7 beta_y_y_lag1  0.0837   0.0839  0.0706 0.0690 -0.0341  0.197   1.00    2682.    2559.
-     8 beta_y_z      -0.0115  -0.0120  0.148  0.144  -0.253   0.236   1.00    3186.    2381.
-     9 sigma_x        0.278    0.277   0.0201 0.0202  0.247   0.313   1.00    3508.    2605.
-    10 sigma_y        0.290    0.289   0.0209 0.0205  0.258   0.326   1.00    3874.    3218.
+     1 alpha_x        0.0119   0.0116  0.0319 0.0311 -0.0415  0.0643  1.00    5846.    3051.
+     2 alpha_y       -0.00551 -0.00556 0.0329 0.0315 -0.0591  0.0487  1.00    5682.    3107.
+     3 beta_x_x_lag1  0.986    0.987   0.0590 0.0582  0.888   1.08    1.00    2505.    2542.
+     4 beta_x_y_lag1 -0.570   -0.571   0.0680 0.0667 -0.679  -0.460   1.00    2914.    2808.
+     5 beta_x_z       1.22     1.22    0.147  0.145   0.985   1.47    1.00    3487.    2693.
+     6 beta_y_x_lag1  0.656    0.655   0.0607 0.0597  0.555   0.757   1.00    2322.    2391.
+     7 beta_y_y_lag1  0.0883   0.0906  0.0706 0.0699 -0.0285  0.202   1.00    2707.    2685.
+     8 beta_y_z      -0.0173  -0.0164  0.144  0.140  -0.260   0.220   1.00    3127.    2756.
+     9 sigma_x        0.279    0.277   0.0213 0.0203  0.246   0.316   1.00    4092.    2579.
+    10 sigma_y        0.290    0.289   0.0214 0.0213  0.257   0.327   1.00    4503.    2902.
 
 The coefficient estimates are pretty much in line with the data generation, but notice the relatively large posterior standard errors of the coefficients related to <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>z</mi></mrow><annotation encoding="application/x-tex">z</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.04398em;">z</span></span></span></span>; this is due to the fact that we have only a single series and single changepoint at time <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>t</mi><mo>=</mo><mn>81</mn></mrow><annotation encoding="application/x-tex">t=81</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6151em;"></span><span class="mord mathnormal">t</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">81</span></span></span></span>.
 
@@ -196,12 +193,9 @@ ggplot(out, aes(time, mean)) +
   theme_bw()
 ```
 
-    Warning: Removed 1 row(s) containing missing values (geom_path).
+    Warning: Removed 1 row containing missing values (`geom_line()`).
 
-{{
-<figure src="unnamed-chunk-6-1.png" alt="Figure showing the one-step ahead predictions (fitted values) of variable y of the model.">
-
-}}
+{{<figure src="unnamed-chunk-6-1.png" alt="Figure showing the one-step ahead predictions (fitted values) of variable y of the model.">}}
 
 Note that these are not real out-of-sample predictions as the posterior samples of model parameters used for these predictions are based on all our observations, which would be especially problematic for a model containing time-varying components (e.g., splines). A more “honest” (and time consuming) approach would be to use approximate leave-future-out cross-validation via dynamite’s [`lfo()`](https://docs.ropensci.org/dynamite/reference/lfo.html) function.
 
@@ -223,13 +217,13 @@ pred <- predict(fit, newdata = newdata, type = "mean") |>
 head(pred)
 ```
 
-          y_mean      x_mean .group time .draw z  y  x
-    1 -0.1818258 -0.46352029      1   81     1 0 NA NA
-    2 -0.7098537 -0.77369747      1   82     1 0 NA NA
-    3 -0.3853048 -0.11099955      1   83     1 0 NA NA
-    4 -0.3257349 -0.05917091      1   84     1 0 NA NA
-    5  0.1496607  0.36550030      1   85     1 0 NA NA
-    6  0.2197226  0.41247417      1   86     1 0 NA NA
+           y_mean      x_mean .group time .draw z  y  x
+    1 -0.05218672 -0.37438488      1   81     1 0 NA NA
+    2 -0.18633781 -0.23522447      1   82     1 0 NA NA
+    3 -0.01072874 -0.01234722      1   83     1 0 NA NA
+    4 -0.28215904 -0.29928312      1   84     1 0 NA NA
+    5 -0.37051155 -0.35416407      1   85     1 0 NA NA
+    6 -0.33667305 -0.38280582      1   86     1 0 NA NA
 
 From these I compute the posterior mean, 80% and 95% intervals for each time point:
 
@@ -296,10 +290,7 @@ p3 <- ggplot(cs_sumr, aes(time, mean)) +
 p1 + p2 + p3 + plot_layout(ncol = 1)
 ```
 
-{{
-<figure src="preds-1.png" alt="Three stacked line plots, each with time as the x axis. From top to bottom, the y-axes are Value, Predicted minus Observed value, and Cumulative differences. The top figure shows a pink ribbon deviating from a black line in the 80-100 time range. The middle figure shows a fluctuating pink ribbon. The bottom figure shows an increasing ribbon.">
-
-}}
+{{<figure src="preds-1.png" alt="Three stacked line plots, each with time as the x axis. From top to bottom, the y-axes are Value, Predicted minus Observed value, and Cumulative differences. The top figure shows a pink ribbon deviating from a black line in the 80-100 time range. The middle figure shows a fluctuating pink ribbon. The bottom figure shows an increasing ribbon.">}}
 
 In the top figure, we see the predictions for the counterfactual case where no intervention was done (<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>z</mi><mi>t</mi></msub><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">z_t=0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5806em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.04398em;">z</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.2806em;"><span style="top:-2.55em;margin-left:-0.044em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">t</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0</span></span></span></span> for all <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>t</mi></mrow><annotation encoding="application/x-tex">t</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6151em;"></span><span class="mord mathnormal">t</span></span></span></span>; pink ribbon/red line), whereas in the middle figure I have drawn the difference between predicted values and the actual observations for times <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>t</mi><mo>=</mo><mn>81</mn><mo separator="true">,</mo><mo>…</mo><mo separator="true">,</mo><mn>100</mn></mrow><annotation encoding="application/x-tex">t=81,\ldots,100</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6151em;"></span><span class="mord mathnormal">t</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8389em;vertical-align:-0.1944em;"></span><span class="mord">81</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner">…</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">100</span></span></span></span>, which show clear effect of intervention (the difference between between observations and predictions do not fluctuate around zero).
 In the bottom figure we see the cumulative difference between observations and our predictions, which emphasise how the cumulative effect keeps increasing during the whole study period instead of tapering off or disappearing completely.
@@ -372,10 +363,7 @@ p3 <- ggplot(cs_sumr_fixed_x, aes(time, mean)) +
 p1 + p2 + p3 + plot_layout(ncol = 1)
 ```
 
-{{
-<figure src="fixed_x-1.png" alt="Three stacked line plots, each with time as the x axis. From top to bottom, the y-axes are Value, Predicted minus Observed value, and Cumulative differences. The top figure shows a pink ribbon matching a black line in the 80-100 time range. The middle figure shows a fluctuating pink ribbon. The bottom figure shows a ribbon funnelling wider around zero.">
-
-}}
+{{<figure src="fixed_x-1.png" alt="Three stacked line plots, each with time as the x axis. From top to bottom, the y-axes are Value, Predicted minus Observed value, and Cumulative differences. The top figure shows a pink ribbon matching a black line in the 80-100 time range. The middle figure shows a fluctuating pink ribbon. The bottom figure shows a ribbon funnelling wider around zero.">}}
 
 As expected, because we treated variable <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">x</span></span></span></span> as fixed, and the intervention only affects <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>y</mi></mrow><annotation encoding="application/x-tex">y</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span></span></span></span> only via <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">x</span></span></span></span>, we see that the counterfactual predictions and the observed series are very similar and would (incorrecly) conclude that our original intervention did not affect <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>y</mi></mrow><annotation encoding="application/x-tex">y</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span></span></span></span>.
 
