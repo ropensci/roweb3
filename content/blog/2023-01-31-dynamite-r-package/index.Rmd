@@ -72,7 +72,8 @@ Panel data contains measurements from multiple subjects measured over multiple t
 Such data can be encountered in many social science applications such as when analysing register data or cohort studies (for example). 
 Often the aim is to perform causal inference based on such observational data (instead of randomized control trials).
 
-A new [rOpensci-reviewed](https://github.com/ropensci/software-review/issues/554) R package [dynamite](https://docs.ropensci.org/dynamite) available on CRAN implements a new class of panel models called the Bayesian dynamic multivariate panel model (DMPM) which supports 
+A new [rOpensci-reviewed](https://github.com/ropensci/software-review/issues/554) R package [dynamite](https://docs.ropensci.org/dynamite) available on CRAN implements a new class of panel models called the Bayesian dynamic multivariate panel model (DMPM) which supports
+
 * Joint modelling of multiple response variables potentially from mixed distributions (e.g. Gaussian and categorical responses)
 * Time-varying regression coefficients modelled as splines
 * Group-level random effects (coming soon)
@@ -105,7 +106,7 @@ library(patchwork) # Combining Figures
 
 I will consider the following true data generating process (DGP):
 
-```{r}
+```{r, echo = FALSE}
 string <- "\\begin{aligned}
 x_t & \\sim N(-0.5 y_{t-1} + x_{t-1} + z_{t-1}, 0.3^2)\\\\
 y_t & \\sim N(0.7x_{t-1}, 0.3^2)\\\\
@@ -164,7 +165,7 @@ We can now estimate our model with `dynamite()` for which we need to define the 
 fit <- dynamite(f,
   data = d,
   time = "time",
-  chains = 4, cores = 4, refresh = 0)
+  chains = 4, cores = 4, refresh = 0, seed = 1)
 ```
 
 The actual estimation is delegated to [Stan](https://mc-stan.org) using either [rstan](https://cran.r-project.org/package=rstan) (default) or [cmdstanr](https://github.com/stan-dev/cmdstanr) backend. 
