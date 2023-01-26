@@ -14,6 +14,7 @@ tags:
 - packages
 - R
 - community
+math: true
 package_version: 1.0.2
 description: Dynamite is a new R package for Bayesian modelling of complex panel data
   using dynamic multivariate panel models.
@@ -81,10 +82,10 @@ In this post, I will illustrate the use of dynamite for causal inference in a no
 
 The idea of the following example is similar to a synthetic control approach for time series causal inference, originally suggested by Abadie et al.[^2], and further extended and popularized by Brodersen et al.[^3] and their [CausalImpact](https://CRAN.R-project.org/package=CausalImpact) package. 
 
-The basic idea of the synthetic control method is that you have a time series of interest $y_1,\ldots,y_T$, for example daily sales of some product, and an intervention was made at some time point $t<T$ (e.g., change in the value-added tax, VAT). 
-You would then like to know what was the effect of the intervention on $y_{t},\ldots,y_{T}$, for example how much did the sales increase due to the decrease or removal of the VAT.
-Typically you also have one or more "control times series" $x$ which predict the behaviour of $y$ but for which the intervention did not affect (e.g. some time-varying properties of the product, the demographic variables of the market, or sales of the product in some other markets). 
-You then build a statistical model for $y_1,\ldots, y_{t-1}$ using the control series for the same time points, use your estimated model to predict the values of $y$ in the intervention period $t, \ldots, T$ using the observed control series and compare these predictions to the observed values of $y_t,\ldots, y_T$.
+The basic idea of the synthetic control method is that you have a time series of interest `r katex::katex_html("y_1,\\ldots,y_T", displayMode = FALSE)`, for example daily sales of some product, and an intervention was made at some time point `r katex::katex_html("t<T", displayMode = FALSE)` (e.g., change in the value-added tax, VAT). 
+You would then like to know what was the effect of the intervention on `r katex::katex_html("y_{t},\\ldots,y_{T}", displayMode = FALSE)`, for example how much did the sales increase due to the decrease or removal of the VAT.
+Typically you also have one or more "control times series" `r katex::katex_html("x", displayMode = FALSE)` which predict the behaviour of `r katex::katex_html("y", displayMode = FALSE)` but for which the intervention did not affect (e.g. some time-varying properties of the product, the demographic variables of the market, or sales of the product in some other markets). 
+You then build a statistical model for `r katex::katex_html("y_1,\\ldots, y_{t-1}", displayMode = FALSE)` using the control series for the same time points, use your estimated model to predict the values of `r katex::katex_html("y", displayMode = FALSE)` in the intervention period `r katex::katex_html("t, \\ldots, T", displayMode = FALSE)` using the observed control series and compare these predictions to the observed values of `r katex::katex_html("y_t,\\ldots, y_T", displayMode = FALSE)`.
 
 In the synthetic control approach one of the key assumptions is that the control series itself are not affected by the intervention. 
 In the sales example above, using sales data of some distant market could be suitable control, but the change in VAT could have an effect on the sales in the neighboring markets as well, so using such time series as control would then violate this assumption.
@@ -101,20 +102,23 @@ library(patchwork) # Combining Figures
 ```
 
 I will consider the following true data generating process (DGP):
-$$
-\begin{aligned}
-x_t & \sim N(-0.5 y_{t-1} + x_{t-1} + z_{t-1}, 0.3^2)\\
-y_t & \sim N(0.7x_{t-1}, 0.3^2)\\
-\end{aligned}
-$$
-for $t=2, \ldots, 100$, where the initial values $x_1$ and $y_1$ are drawn from the standard normal distribution (in subsequent modelling we condition on these first observations, i.e. they are treated as fixed data).
 
-Variable $z_t$ is our intervention variable, which I fixed to zero for the first 80 time points, and to one for the the last 20 time points, i.e. the intervention starts at time $t=81$.
-Following the terminology in the DMPM paper, this is a recurring intervention, in contrast to an atomic intervention where $z_{81}=1$ and zero otherwise.
-Naturally it would be possible to also consider interventions such as $z_t=1$ for $80<t<90$ and $z_t=0$ otherwise (e.g. a ad campaign starts at time 81 and ends at time 89).
+```{r}
+string <- "\\begin{aligned}
+x_t & \\sim N(-0.5 y_{t-1} + x_{t-1} + z_{t-1}, 0.3^2)\\\\
+y_t & \\sim N(0.7x_{t-1}, 0.3^2)\\\\
+\\end{aligned}"
+katex::katex_html(string)
+```
 
-Our hypothetical research question is how does $z$ affect $y$? 
-Looking at our data generating process it is clear that $z_t$ does not affect $y_t$, but it still affects $y_{t+1},y_{t+2},\ldots$ via $x_t,x_{t+1},\ldots$. 
+for `r katex::katex_html("t=2, \\ldots, 100", displayMode = FALSE)`, where the initial values `r katex::katex_html("x_1", displayMode = FALSE)` and `r katex::katex_html("y_1", displayMode = FALSE)` are drawn from the standard normal distribution (in subsequent modelling we condition on these first observations, i.e. they are treated as fixed data).
+
+Variable `r katex::katex_html("z_t", displayMode = FALSE)` is our intervention variable, which I fixed to zero for the first 80 time points, and to one for the the last 20 time points, i.e. the intervention starts at time `r katex::katex_html("t=81", displayMode = FALSE)`.
+Following the terminology in the DMPM paper, this is a recurring intervention, in contrast to an atomic intervention where `r katex::katex_html("z_{81}=1", displayMode = FALSE)` and zero otherwise.
+Naturally it would be possible to also consider interventions such as `r katex::katex_html("z_t=1", displayMode = FALSE)` for `r katex::katex_html("80<t<90", displayMode = FALSE)` and `r katex::katex_html("z_t=0", displayMode = FALSE)` otherwise (e.g. a ad campaign starts at time 81 and ends at time 89).
+
+Our hypothetical research question is how does `r katex::katex_html("z", displayMode = FALSE)` affect `r katex::katex_html("y", displayMode = FALSE)`? 
+Looking at our data generating process it is clear that `r katex::katex_html("z_t", displayMode = FALSE)` does not affect `r katex::katex_html("y_t", displayMode = FALSE)`, but it still affects `r katex::katex_html("y_{t+1},y_{t+2},\\ldots", displayMode = FALSE)` via `r katex::katex_html("x_t,x_{t+1},\\ldots", displayMode = FALSE)`. 
 Note that I chose this model just to exemplify the modelling, and these coefficients clearly does not reflect the sales example in the introduction.
 
 I will first simulate some data according to our true model:
@@ -139,7 +143,7 @@ ggplot(d, aes(time)) +
 ```
 ## Causal inference based on synthetic control with dynamite
 
-While in the data generation the $y_t$ variable did not depend on the lagged value $y_{t-1}$ and $z_t$, I will nevertheless estimate a model where both $x_t$ and $y_t$ depend on the $x_{t-1}$ and $y_{t-1}$, as well as $z$, mimicking the fact that I'm not sure about the true causal graph (structure of DGP). 
+While in the data generation the `r katex::katex_html("y_t", displayMode = FALSE)` variable did not depend on the lagged value `r katex::katex_html("y_{t-1}", displayMode = FALSE)` and `r katex::katex_html("z_t", displayMode = FALSE)`, I will nevertheless estimate a model where both `r katex::katex_html("x_t", displayMode = FALSE)` and `r katex::katex_html("y_t", displayMode = FALSE)` depend on the `r katex::katex_html("x_{t-1}", displayMode = FALSE)` and `r katex::katex_html("y_{t-1}", displayMode = FALSE)`, as well as `r katex::katex_html("z", displayMode = FALSE)`, mimicking the fact that I'm not sure about the true causal graph (structure of DGP). 
 The model formula for the main function of the package, [`dynamite()`](https://docs.ropensci.org/dynamite/reference/dynamite.html), is defined by calling a special function [`obs()`](https://docs.ropensci.org/dynamite/reference/dynamiteformula.html) once for each "channel", i.e. response variable. 
 The lagged variables can be defined in the formula as `lag(y)`, but here I use a special function [`lags()`](https://docs.ropensci.org/dynamite/reference/lags.html) which by default adds lagged values of all channels to each channel:
 ```{r}
@@ -167,7 +171,7 @@ options(width = 90) # expand the width so that the column names are not cut off
 fit
 ```
 
-The coefficient estimates are pretty much in line with the data generation, but notice the relatively large posterior standard errors of the coefficients related to $z$; this is due to the fact that we have only a single series and single changepoint at time $t=81$.
+The coefficient estimates are pretty much in line with the data generation, but notice the relatively large posterior standard errors of the coefficients related to `r katex::katex_html("z", displayMode = FALSE)`; this is due to the fact that we have only a single series and single changepoint at time `r katex::katex_html("t=81", displayMode = FALSE)`.
 
 We can now perform some posterior predictive checks. First, we can check how well the posterior samples of our one-step-ahead predictions match with the observations by using the [`fitted()`](https://docs.ropensci.org/dynamite/reference/fitted.dynamitefit.html) method and visualizing these posterior predictive distributions (I'll one plot the estimates for the variable y for simplicity):
 
@@ -190,8 +194,8 @@ ggplot(out, aes(time, mean)) +
 ```
 Note that these are not real out-of-sample predictions as the posterior samples of model parameters used for these predictions are based on all our observations, which would be especially problematic for a model containing time-varying components (e.g., splines). A more "honest" (and time consuming) approach would be to use approximate leave-future-out cross-validation via dynamite's [`lfo()`](https://docs.ropensci.org/dynamite/reference/lfo.html) function.
 
-Given the posterior samples of the model parameters, I can also make some counterfactual predictions (how $y_{81},\ldots,y_{100}$ would have looked like if no intervention was made, i.e. if $z_t$ was zero for all $t$). 
-First I create a new data frame where $z=0$ for all time points, and where $y$ and $x$ are set to missing values starting from $t=81$ (the time point where started our intervention $z=1$):
+Given the posterior samples of the model parameters, I can also make some counterfactual predictions (how `r katex::katex_html("y_{81},\\ldots,y_{100}", displayMode = FALSE)` would have looked like if no intervention was made, i.e. if `r katex::katex_html("z_t", displayMode = FALSE)` was zero for all `r katex::katex_html("t", displayMode = FALSE)`). 
+First I create a new data frame where `r katex::katex_html("z=0", displayMode = FALSE)` for all time points, and where `r katex::katex_html("y", displayMode = FALSE)` and `r katex::katex_html("x", displayMode = FALSE)` are set to missing values starting from `r katex::katex_html("t=81", displayMode = FALSE)` (the time point where started our intervention `r katex::katex_html("z=1", displayMode = FALSE)`):
 ```{r}
 newdata <- d
 newdata$z <- 0
@@ -264,12 +268,12 @@ p3 <- ggplot(cs_sumr, aes(time, mean)) +
 p1 + p2 + p3 + plot_layout(ncol = 1)
 ```
 
-In the top figure, we see the predictions for the counterfactual case where no intervention was done ($z_t=0$ for all $t$; pink ribbon/red line), whereas in the middle figure I have drawn the difference between predicted values and the actual observations for times $t=81,\ldots,100$, which show clear effect of intervention (the difference between between observations and predictions do not fluctuate around zero). 
+In the top figure, we see the predictions for the counterfactual case where no intervention was done (", displayMode = FALSE)`z_t=0", displayMode = FALSE)` for all `r katex::katex_html("t", displayMode = FALSE)`; pink ribbon/red line), whereas in the middle figure I have drawn the difference between predicted values and the actual observations for times `r katex::katex_html("t=81,\\ldots,100", displayMode = FALSE)`, which show clear effect of intervention (the difference between between observations and predictions do not fluctuate around zero). 
 In the bottom figure we see the cumulative difference between observations and our predictions, which emphasise how the cumulative effect keeps increasing during the whole study period instead of tapering off or disappearing completely.
 
-Finally we can consider a case where we assume that the intervention affects only a single response variable, $y$, and $x$ does not depend on $y$, Which, since we created this data, we know would be incorrect. 
-This is essentially same as treating $x$ as exogenous and estimating a single-response model for $y$.
-But in our case we can also proceed with our original model, and just modify the previous simulation so that the variable $x$ is fixed to its observed values:
+Finally we can consider a case where we assume that the intervention affects only a single response variable, `r katex::katex_html("y", displayMode = FALSE)`, and `r katex::katex_html("x", displayMode = FALSE)` does not depend on `r katex::katex_html("y", displayMode = FALSE)`, Which, since we created this data, we know would be incorrect. 
+This is essentially same as treating `r katex::katex_html("x", displayMode = FALSE)` as exogenous and estimating a single-response model for `r katex::katex_html("y", displayMode = FALSE)`.
+But in our case we can also proceed with our original model, and just modify the previous simulation so that the variable `r katex::katex_html("x", displayMode = FALSE)` is fixed to its observed values:
 ```{r fixed_x, hugoopts=list(alt="Three stacked line plots, each with time as the x axis. From top to bottom, the y-axes are Value, Predicted minus Observed value, and Cumulative differences. The top figure shows a pink ribbon matching a black line in the 80-100 time range. The middle figure shows a fluctuating pink ribbon. The bottom figure shows a ribbon funnelling wider around zero.")}
 newdata <- d
 newdata$z <- 0
@@ -329,11 +333,11 @@ p3 <- ggplot(cs_sumr_fixed_x, aes(time, mean)) +
 p1 + p2 + p3 + plot_layout(ncol = 1)
 ```
 
-As expected, because we treated variable $x$ as fixed, and the intervention only affects $y$ only via $x$, we see that the counterfactual predictions and the observed series are very similar and would  (incorrecly) conclude that our original intervention did not affect $y$.
+As expected, because we treated variable `r katex::katex_html("x", displayMode = FALSE)` as fixed, and the intervention only affects `r katex::katex_html("y", displayMode = FALSE)` only via `r katex::katex_html("x", displayMode = FALSE)`, we see that the counterfactual predictions and the observed series are very similar and would  (incorrecly) conclude that our original intervention did not affect `r katex::katex_html("y", displayMode = FALSE)`.
 
 ## Future directions
 
-In future, we plan to add more distributions such as Weibull, multinomial, and $t$-distribution for the response variables and improve the tools for visualization of the model parameters and predictions.
+In future, we plan to add more distributions such as Weibull, multinomial, and `r katex::katex_html("t", displayMode = FALSE)`-distribution for the response variables and improve the tools for visualization of the model parameters and predictions.
 We would also be very interested in hearing how the package is used in various applications, especially if you can share your data openly.
 [Pull requests](https://github.com/ropensci/dynamite) and other contributions are very welcome.
 
