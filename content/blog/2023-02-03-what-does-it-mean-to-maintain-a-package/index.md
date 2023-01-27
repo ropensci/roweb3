@@ -27,7 +27,7 @@ As a package maintainer (or maintainer team),
 However you do not only own these technical and productivity aspects.
 In our past community call about [Maintaining an R Package](/commcalls/2020-03-18/), Erin Grand defined maintaining a package as "ownership around package community".
 What a great way to underline the _people_ creating and using a piece of software!
-One of your roles is supporting a thriving community of users of contributors... Also the topic of a former community call: [Set Up Your Package to Foster a Community](/commcalls/apr2021-pkg-community/).
+One of your roles is supporting a thriving community of users and contributors... Also the topic of a former community call: [Set Up Your Package to Foster a Community](/commcalls/apr2021-pkg-community/).
 
 ## Package maintenance as responsiveness
 
@@ -64,7 +64,7 @@ If such work does not sound fun, again doing it as a team might help, or you mig
 ## Conclusion
 
 In this post we tried giving an overview of what maintaining a package entails: ownership of the scope, code and community; self-controlled responsiveness to external requests; regular housekeeping.
-All of this can be a lot of work, to be balanced against the rewards one gets as a package developer (depending on your case: money? experience? personal satisfaction? recognition?).
+All of this can be a lot of work, to be balanced against the rewards one gets as a package developer (depending on your case, in no particular order: personal satisfaction of creating an useful tool? joy of collaborating with others? money? experience? recognition?).
 
 If the balance feels off, it might be time to try and recruit co-maintainers or join a community of other developers; or more drastically to find a new maintainer or retire the package.
 For rOpenSci packages, we can help by advertising your package's need for help, so feel free to contact us.
