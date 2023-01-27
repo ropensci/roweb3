@@ -117,7 +117,7 @@ katex::katex_html(string)
 for `r katex::katex_html("t=2, \\ldots, 100", displayMode = FALSE)`, where the initial values `r katex::katex_html("x_1", displayMode = FALSE)` and `r katex::katex_html("y_1", displayMode = FALSE)` are drawn from the standard normal distribution (in subsequent modelling we condition on these first observations, i.e. they are treated as fixed data).
 
 Variable `r katex::katex_html("z_t", displayMode = FALSE)` is our intervention variable, which I fixed to zero for the first 80 time points, and to one for the the last 20 time points, i.e. the intervention starts at time `r katex::katex_html("t=81", displayMode = FALSE)`.
-Following the terminology in the DMPM paper, this is a recurring intervention, in contrast to an atomic intervention where `r katex::katex_html("z_{81}=1", displayMode = FALSE)` and zero otherwise.
+Following the terminology in our DMPM paper`r katex::katex_html("^{1}", displayMode = FALSE)`, this is a recurring intervention, in contrast to an atomic intervention where `r katex::katex_html("z_{81}=1", displayMode = FALSE)` and zero otherwise.
 Naturally it would be possible to also consider interventions such as `r katex::katex_html("z_t=1", displayMode = FALSE)` for `r katex::katex_html("80<t<90", displayMode = FALSE)` and `r katex::katex_html("z_t=0", displayMode = FALSE)` otherwise (e.g. an ad campaign starts at time 81 and ends at time 89).
 
 Our hypothetical research question is how does `r katex::katex_html("z", displayMode = FALSE)` affect `r katex::katex_html("y", displayMode = FALSE)`? 
