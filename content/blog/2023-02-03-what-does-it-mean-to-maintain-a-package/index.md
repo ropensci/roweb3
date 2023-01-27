@@ -65,5 +65,8 @@ If such work does not sound fun, again doing it as a team might help, or you mig
 
 In this post we tried giving an overview of what maintaining a package entails: ownership of the scope, code and community; self-controlled responsiveness to external requests; regular housekeeping.
 All of this can be a lot of work, to be balanced against the rewards one gets as a package developer (depending on your case: money? experience? personal satisfaction? recognition?).
+
 If the balance feels off, it might be time to try and recruit co-maintainers or join a community of other developers; or more drastically to find a new maintainer or retire the package.
 For rOpenSci packages, we can help by advertising your package's need for help, so feel free to contact us.
+You might also try to find some _funding_ for your work if that makes a difference, see for instance the [R Consortium call for proposals (twice a year)](https://www.r-consortium.org/all-projects/call-for-proposals).
+Last but not least, we at rOpenSci actively think about ways to support package maintainers, so feel free to add a comment below with suggestions.
