@@ -2,7 +2,7 @@
 title: What Does It Mean to Maintain a Package
 author:
   - Maëlle Salmon
-date: '2023-02-03'
+date: '2023-02-07'
 slug: what-does-it-mean-to-maintain-a-package
 categories:
   - blog
