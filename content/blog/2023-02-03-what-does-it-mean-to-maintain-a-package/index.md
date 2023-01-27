@@ -12,7 +12,7 @@ package_version: 0.1.0
 description: An attempt at defining what package maintenance entails, with a few tips.
 ---
 
-Part of what we do at rOpenSci is nurturing a community of package maintainers that help each other.
+Part of what we do at rOpenSci is nurturing a community of package maintainers who help each other.
 Often we also advertise packages to take over, with some advice à la "look around to see what needs fixing, then do routine maintenance".
 But what is routine maintenance? This post is an attempt at defining what package maintenance entails, with a few tips.
 
