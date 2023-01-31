@@ -6,7 +6,7 @@ author: Jeroen Ooms
 description: 'We have improved the URL schema for the r-universe.dev front-end to make it even easier to find and share a link to an R package, article, API, or other resource.'
 tags:
   - r-universe
-  - tech-notes
+  - tech notes
   - front-end
   - documentation
   - dashboard
