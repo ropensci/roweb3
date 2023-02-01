@@ -50,6 +50,12 @@ En el video que incluye esta nota podrán ver un ejemplo de cómo Sébastien y T
 
 ## Universo R
 
+ThinkR encontró en R-universe una plataforma flexible para poder publicar y generar los instaladores de todos sus paquetes.  Esta funcionalidad hace mas sencillo el acceso y uso de sus paquetes por parte de sus clientes, que pueden instalarlos de la forma que ya conocen siendo transparente para ellos el origen del paquete (R-universe, CRAN or GitHub). 
+
+También facilita la actualización y disponibilidad de estos paquetes porque R-universe no tiene políticas de cambios y actualizaciones estrictas y con tiempos límites, como en CRAN, por ejemplo. 
+
+Finalmente, encuentran muy útiles la funcionalidad de generar las viñetas y que estén disponibles en el espacio del paquete en R-universe.
+
 
 ## Video de la entrevista
 
