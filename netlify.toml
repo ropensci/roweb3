@@ -26,3 +26,9 @@
     [headers.values]
     Access-Control-Allow-Origin = "https://docs.ropensci.org"
     Vary = "Origin"
+
+[[headers]]
+  for = "/r-universe/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Vary = "Origin"
