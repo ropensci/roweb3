@@ -22,23 +22,23 @@ vimeo:
  - id: '795053980'
 resources:
   - url: https://cct-datascience.quarto.pub/harnessing-hpc-power-with-targets/
-    name: Eric Scott slides  
+    name: Eric Scott's slides  
     details: Harnessing HPC power with {targets}
   - url: https://joelnitta.github.io/comm-call-bioinfo-targets/
-    name: Joel Nitta slides
+    name: Joel Nitta's slides
     details: Using {targets} for bioinformatics pipelines
-  - url: https://www.joelnitta.com/posts/2021-11-16_r-bioinfo-flow/
-    name: Joel Nitta Blog post
-    details:     
-  - url: https://github.com/joelnitta/targets_vcf_example
-    name: Joel Nitta code
-    details:     
   - url: https://wlandau.github.io/targets-debug/
-    name: Will Landau slides
-    details: Debugging {targets} pipelines.    
+    name: Will Landau's slides
+    details: Debugging {targets} pipelines.      
   - url: https://github.com/wlandau/targets-debug 
-    name: Will Landau code
-    details:     
+    name: Will Landau's code
+    details: Live demo code example
+   - url: https://github.com/joelnitta/targets_vcf_example
+    name: Joel Nitta's code
+    details:  Example code
+  - url: https://www.joelnitta.com/posts/2021-11-16_r-bioinfo-flow/
+    name: Joel Nitta's Blog post
+    details:  Managing bioinformatics pipelines with R   
   - url: https://books.ropensci.org/targets/
     name: 'The {targets} R package user manual'
     details:
