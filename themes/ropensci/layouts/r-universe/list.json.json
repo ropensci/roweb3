@@ -1,0 +1,12 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Feed with posts about r-universe",
+    "feed_url": "{{ .Permalink}}index.json",
+    "items": [	{{ $pages := (where .Site.RegularPages.ByPublishDate.Reverse ".Params.tags" "intersect" (slice "r-universe")) }}{{ range $i, $e := $pages }}{{ if $i }}, {{ end }}
+        {
+            "title": "{{ .Title }}",
+            "url": "{{ .Permalink }}",
+            "date": "{{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}"
+        }{{ end }}
+    ]
+}
