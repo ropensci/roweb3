@@ -54,11 +54,11 @@ La siguiente figura resume los pasos a seguir para crear el resposirio necesario
 {{< figure src = "r_univserse_crear_repo.png" alt = "Ventana de github para crear un repositorio nuevo con los pasos 1 a 5 que se explican en el texto debajo de esta figura marcado en la imágen." >}}
 
 
-a. Crea un nuevo repositorio llamado `universe` en tu cuenta de GitHub. Para eso ingresas a tu cuenta de github (paso 1),
+a. Crea un nuevo repositorio llamado `{yourname}.r-universe.dev` en tu cuenta de GitHub. Para eso ingresas a tu cuenta de github (paso 1),
 
 b. luego haces click en el signo más (+) que se encuentra arriba a la derecha y seleccionas la opción *New repository (nuevo repositorio)* (paso 2).
 
-c. En la pantalla *Create new repository* completamos el *repository name (nombre del repositorio)* con **universe** (paso 3), seleccionamos el repositorio como *public (público)* (paso 4) y lo generamos presionando el botón *Create repository (crear repositorio)* (paso 5).
+c. En la pantalla *Create new repository* completamos el *repository name (nombre del repositorio)* con **{yourname}.r-universe.dev** (paso 3), seleccionamos el repositorio como *public (público)* (paso 4) y lo generamos presionando el botón *Create repository (crear repositorio)* (paso 5).
 
 ### Paso 2. detallar los paquetes que agregaremos a nuestro universo
 Una vez que el repositorio se creó se nos mostrará una pantalla con opciones para iniciar ese repo (ver figura siguiente).
