@@ -51,7 +51,7 @@ knitr::knit_hooks$set(
   plot = function(x, options) {
     hugoopts <- options$hugoopts
     paste0(
-      "{{<figure src=",
+      "`{{<figure src=",
       '"', x, '" ',
       if (!is.null(hugoopts)) {
         glue::glue_collapse(
@@ -59,7 +59,7 @@ knitr::knit_hooks$set(
           sep = " "
         )
       },
-      ">}}\n"
+      ">}}`{=html}\n"
     )
   }
 )

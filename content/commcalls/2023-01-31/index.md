@@ -14,13 +14,31 @@ location: Community call (teleconference)
 country: "\U0001F310"
 attendees: All are welcome
 slug: jan2023-targets
-notes: 
+notes: https://docs.google.com/document/d/1iuIOIxuK30gPYlUmEDDPP__N6dZ9mFu6gsgL8-f2lQI/edit?usp=sharing
 outputs:
 - HTML
 - Calendar 
-# vimeo:
-# - id: ''
+vimeo:
+ - id: '795053980'
 resources:
+  - url: https://cct-datascience.quarto.pub/harnessing-hpc-power-with-targets/
+    name: Eric Scott's slides  
+    details: Harnessing HPC power with {targets}
+  - url: https://joelnitta.github.io/comm-call-bioinfo-targets/
+    name: Joel Nitta's slides
+    details: Using {targets} for bioinformatics pipelines
+  - url: https://wlandau.github.io/targets-debug/
+    name: Will Landau's slides
+    details: Debugging {targets} pipelines.      
+  - url: https://github.com/wlandau/targets-debug 
+    name: Will Landau's code
+    details: Live demo code example
+  - url: https://github.com/joelnitta/targets_vcf_example
+    name: Joel Nitta's code
+    details:  Example code
+  - url: https://www.joelnitta.com/posts/2021-11-16_r-bioinfo-flow/
+    name: Joel Nitta's Blog post
+    details:  Managing bioinformatics pipelines with R   
   - url: https://books.ropensci.org/targets/
     name: 'The {targets} R package user manual'
     details:
