@@ -20,7 +20,7 @@ For more information, visit the [r-universe project page](/r-universe/).</em></s
 
 Tiny update for [r-universe](https://r-universe.dev) users whos run their own package registry: we have changed the preferred git repo name where you host your `packages.json` registry file.
 
-Previously the git repository was simply called `universe`, i.e. the registry for [tiledb-inc.r-universe.dev](https://tiledb-inc.r-universe.dev) was in the GitHub repository `tiledb-inc/universe`. We now recommend to instead use the full lowercase name of your r-universe domain as the repo name, i.e [`TileDB-Inc/tiledb-inc.r-universe.dev`](https://github.com/TileDB-Inc/tiledb-inc.r-universe.dev).
+Previously the git repository was simply called `universe`, i.e. the registry for [tiledb-inc.r-universe.dev](https://tiledb-inc.r-universe.dev) was in the GitHub repository `TileDB-Inc/universe`. We now recommend to instead use the full lowercase name of your r-universe domain as the repo name, i.e [`TileDB-Inc/tiledb-inc.r-universe.dev`](https://github.com/TileDB-Inc/tiledb-inc.r-universe.dev).
 
 The old name `universe` will keep working as well, so this should not break any existing registries, but we recommend renaming it.
 
