@@ -1,5 +1,5 @@
 ---
-title: What Does It Mean to Maintain a Package
+title: What Does It Mean to Maintain a Package?
 author:
   - Maëlle Salmon
 date: '2023-02-07'
