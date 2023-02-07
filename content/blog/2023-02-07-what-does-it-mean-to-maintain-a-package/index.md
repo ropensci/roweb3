@@ -23,7 +23,7 @@ As a package maintainer (or maintainer team),
 
 + you are responsible for the scope of the package: Want to add a feature? Your call!
 + you are in charge of planning work on the codebase: Think of improvements and organize them into milestones.
-+ you are in control of code quality: Want to spend more time on this pull request? Or will you accept and accrue a bit of technical debt? Again, your call!
++ you are in control of code quality: Want to spend more time on this pull request? Or will you accept and accrue a bit of [technical debt](https://en.wikipedia.org/wiki/Technical_debt)? Again, your call!
 
 However you do not own only these technical and productivity aspects.
 In our past community call about [Maintaining an R Package](/commcalls/2020-03-18/), Erin Grand defined maintaining a package as "ownership around package community".
@@ -48,6 +48,7 @@ Well, unfortunately, this is a common situation. However, while there is no magi
 * Make sure you catch notifications (is your right email address listed, do you watch your own repository?). You don't need to read or act on them immediately but it's nice to not lose them.
 * You can choose where your package is published. If the rules of a publication repository are a source of too much pain compared to the ease of distribution, you can choose to leave it.
 * You might also try to find funding for your work. See for instance the [R Consortium call for proposals](https://www.r-consortium.org/all-projects/call-for-proposals) (twice a year).
+
 ## Package maintenance as housekeeping
 
 Beside exciting feature requests, package maintenance often warrants more "routine" work.
