@@ -33,7 +33,7 @@ resources:
   - url: https://github.com/wlandau/targets-debug 
     name: Will Landau's code
     details: Live demo code example
-   - url: https://github.com/joelnitta/targets_vcf_example
+  - url: https://github.com/joelnitta/targets_vcf_example
     name: Joel Nitta's code
     details:  Example code
   - url: https://www.joelnitta.com/posts/2021-11-16_r-bioinfo-flow/
