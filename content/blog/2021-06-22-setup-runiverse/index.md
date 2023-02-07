@@ -33,7 +33,7 @@ The initial pilot was mostly focused mainly on CRAN/rOpenSci developers, but as 
 
 Creating a universe for your R packages is easy and can be done in a few simple steps:
 
- 1. Create a git repository named [universe](https://github.com/maelle/universe) on your GitHub account, containing a [`packages.json`](https://github.com/maelle/universe/blob/master/packages.json) file which lists the git repositories with R packages to include.
+ 1. Create a git repository named (all lowercase) [`<yourname>.r-universe.dev`](https://github.com/maelle/maelle.r-universe.dev) on your GitHub account, containing a [`packages.json`](https://github.com/maelle/maelle.r-universe.dev/blob/main/packages.json) file which lists the git repositories with R packages to include.
  2. Install the [r-universe app](https://github.com/apps/r-universe/installations/new) on this same GitHub account for which you want to create the universe.
  3. That's it. Wait for your packages to start appearing on `https://<yourname>.r-universe.dev` once they have finished building.
 
@@ -49,7 +49,7 @@ If your R packages are hosted on another git service, such as Gitlab, or a unive
 
 ## The packages.json registry file
 
-In order to publish content on r-universe, you need to create a registry file called [packages.json](https://github.com/maelle/universe/blob/master/packages.json), which lists the git urls containing the R packages you want to include in your universe. The file is formatted as a JSON array with required fields `package` and `url` for each entry, for example:
+In order to publish content on r-universe, you need to create a registry file called [packages.json](https://github.com/maelle/maelle.r-universe.dev/blob/main/packages.json), which lists the git urls containing the R packages you want to include in your universe. The file is formatted as a JSON array with required fields `package` and `url` for each entry, for example:
 
 ```json
 [
@@ -85,7 +85,7 @@ The `url` value __must be a public git url__. This is important; our build serve
 
 When creating a new universe, start by adding no more than a few packages. You can easily add more packages later by updating your packages.json file.
 
-To publish your registry, simply create a git repository called `universe` on your GitHub account and push your `packages.json` file. See for example: https://github.com/maelle/universe.
+To publish your registry, simply create a git repository called `<yourname>.r-universe.dev` on your GitHub account and push your `packages.json` file. See for example: https://github.com/maelle/maelle.r-universe.dev.
 
 ## Installing the GitHub app
 
