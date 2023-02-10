@@ -154,11 +154,15 @@ Some useful tips for R package developers. :eyes:
 CRAN requires CITATION files to be declared as [`bibentry` items](https://stat.ethz.ch/R-manual/R-devel/library/utils/html/bibentry.html), and not in the previously-accepted form of [`citEntry()`](https://stat.ethz.ch/R-manual/R-devel/library/utils/html/citEntry.html).
 As an example see [the dynamite CITATION file](https://github.com/ropensci/dynamite/blob/main/inst/CITATION) which refers to the R manual as well as other associated publications.
 
-### Reference organization
+### Reference organization: the `@family` tag
 
 In a package with more than a few help topics, reference organization is key to the user's experience.
 Alphabetical order is rarely informative. :wink:
 A powerful tool for organizing both the local and pkgdown reference is the [`@family` tag](https://roxygen2.r-lib.org/articles/index-crossref.html#family).
+
+```r
+#' @family datawrangling
+```
 
 - Locally it populates the "See also" section. You can tweak the title of the See also section for it not to be, say, "Other datawrangling" but rather "Data wrangling functionality", by having in `man/roxygen/meta.R`:
 
@@ -169,6 +173,29 @@ list(
 ```
 
 - In the pkgdown configuration for the reference index you can use [topic matching helpers](https://pkgdown.r-lib.org/reference/build_reference.html#topic-matching) such as `has_concept()` and `lacks_concepts()`.
+
+### Gotcha: `invisible()` needs `return()`
+
+The official man entry for `invisible()` [says that it](https://stat.ethz.ch/R-manual/R-devel/library/base/html/invisible.html):
+
+> Return[s] a (temporarily) invisible copy of an object"
+
+This might make it sound like `invisible()` directly implements an active **return** function, which it does not. While not strictly wrong, this statement is potentially misleading, especially followed as it is by the *Details*:
+
+> This function can be useful when it is desired to have functions return values which can be assigned, but which do not print when they are not assigned. 
+
+`invisible()` will only directly *return* from a function when it is wrapped in an active `return()` statement: `return(invisible())`; or when it's the very last line of the function code. 
+
+This is all very nicely explained by [Peter Meissner on Stack Overflow](https://stackoverflow.com/a/38905341).
+
+### A testing pattern: adding switches to your code
+
+A recent R-hub blog post [explains a pattern for testing your package's behavior in for instance the absence of an internet connection, without turning off wifi](https://blog.r-hub.io/2023/01/23/code-switch-escape-hatch-test/).
+It's based on using an early return in a helper function based on the presence of a specifically named environment variable (`MYPKG.TEST.NOINTERNET`) and on setting that environment variable locally in a test through `withr::local_envvar()`.
+
+### Code comments tips
+
+Another R-hub blog post [presents tips for writing as few comments as possible, while making the code as readable as possible](https://blog.r-hub.io/2023/01/26/code-comments-self-explaining-code/).
 
 <!-- To be curated by hand -->
 
