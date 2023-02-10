@@ -149,6 +149,27 @@ Refer to our [recent blog post](/blog/2022/10/17/maintain-or-co-maintain-an-rope
 
 Some useful tips for R package developers. :eyes:
 
+### New CRAN guideline on CITATION file
+
+CRAN requires CITATION files to be declared as [`bibentry` items](https://stat.ethz.ch/R-manual/R-devel/library/utils/html/bibentry.html), and not in the previously-accepted form of [`citEntry()`](https://stat.ethz.ch/R-manual/R-devel/library/utils/html/citEntry.html).
+As an example see [the dynamite CITATION file](https://github.com/ropensci/dynamite/blob/main/inst/CITATION) which refers to the R manual as well as other associated publications.
+
+### Reference organization
+
+In a package with more than a few help topics, reference organization is key to the user's experience.
+Alphabetical order is rarely informative. :wink:
+A powerful tool for organizing both the local and pkgdown reference is the [`@family` tag](https://roxygen2.r-lib.org/articles/index-crossref.html#family).
+
+- Locally it populates the "See also" section. You can tweak the title of the See also section for it not to be, say, "Other datawrangling" but rather "Data wrangling functionality", by having in `man/roxygen/meta.R`:
+
+```r
+list(
+  rd_family_title = list(datawrangling = "Data wrangling functionality")
+)
+```
+
+- In the pkgdown configuration for the reference index you can use [topic matching helpers](https://pkgdown.r-lib.org/reference/build_reference.html#topic-matching) such as `has_concept()` and `lacks_concepts()`.
+
 <!-- To be curated by hand -->
 
 ## Last words
