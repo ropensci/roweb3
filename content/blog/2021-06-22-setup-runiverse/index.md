@@ -11,12 +11,6 @@ tags:
   - tech notes
 ---
 
-<small><em>This post is part of a series of technotes about [r-universe](https://r-universe.dev), a new umbrella project by rOpenSci under which we experiment with various ideas for improving publication and discovery of research software in R.
-As the project evolves, we will post updates to document features and technical details.
-For more information, visit the [r-universe project page](/r-universe/).</em></small>
-
----
-
 ## R-universe: your personal R space
 
 The [r-universe](https://r-universe.dev) platform provides users and organizations with a personal CRAN-like repository for publishing software, rmarkdown articles, and other content that fits in an R package.
