@@ -21,6 +21,11 @@
            {{ if .Params.preface }}
                 <div class="alert alert-info" role="alert">{{ .Params.preface | markdownify }}</div>
                 {{ end }}
+          {{ if  (in .Params.tags "r-universe") }}
+          <small><em>This post is part of a series of technotes about [r-universe](https://r-universe.dev), a new umbrella project by rOpenSci under which we experiment with various ideas for improving publication and discovery of research software in R.
+As the project evolves, we will post updates to document features and technical details.
+For more information, visit the <a href="/r-universe/">r-universe project page</a>.</em></small>
+          {{ end }}
         {{ .Content }}
       </div>
       

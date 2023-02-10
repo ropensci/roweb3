@@ -10,12 +10,6 @@ tags:
   - tech notes
 ---
 
-<small><em>This post is part of a series of technotes about [R-universe](https://r-universe.dev), a new umbrella project by rOpenSci under which we experiment with various new ideas for improving publication and discovery of research software in R.
-As the project evolves, we will post updates to document features and technical details.
-For more information, visit the [r-universe project page](/r-universe/).</em></small>
-
----
-
 ## Browsing articles on R-universe
 
 In the past weeks we have extended the R-universe build system and front-ends with some new features for publishing *articles*. Articles can be used for documentation of R packages, but also for other purposes, such as reports, tutorials, papers, or research compendia.
