@@ -24,9 +24,9 @@ substitute called Smart Balance all have in common?
 
 <!-- These are open source images taken from: https://pixabay.com/ -->
 {{< gallery >}}
-{{< figure src="/img/blog-images/2017-09-19-patentsview/iphone.png" caption="Iphone" alt="IPhone" >}}
-{{< figure src="/img/blog-images/2017-09-19-patentsview/google.jpg" caption="Google homepage screenshot" alt="Google homepage screenshot" >}}
-{{< figure src="/img/blog-images/2017-09-19-patentsview/butter.png" caption="Butter" alt="Butter" >}}
+{{< figureforgallery src="/img/blog-images/2017-09-19-patentsview/iphone.png" caption="Iphone" alt="IPhone" >}}
+{{< figureforgallery src="/img/blog-images/2017-09-19-patentsview/google.jpg" caption="Google homepage screenshot" alt="Google homepage screenshot" >}}
+{{< figureforgallery src="/img/blog-images/2017-09-19-patentsview/butter.png" caption="Butter" alt="Butter" >}}
 {{< /gallery >}}
 
 ...They all probably wouldn't be here if not for patents. A patent
