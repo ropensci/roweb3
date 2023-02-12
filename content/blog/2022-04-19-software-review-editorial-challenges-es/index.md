@@ -48,7 +48,7 @@ Por último, cuando la persona que revisa abandona el proceso de revisión (o ya
 la persona encargada de la edición busca alguien como reemplazo, a menudo una persona a la que se le puede pedir un plazo breve (por ejemplo, alguien del equipo de edición), o ella misma realiza la segunda revisión.
 El objetivo es no retrasar demasiado el proceso de revisión.
 
-## Responsables de paqutes que abandonan
+## Responsables de paquetes que abandonan
 
 Es una situación más triste cuando las persona *responsable del paquete* deja de responder, ya que hay que detener el proceso de revisión.
 Es especialmente decepcionante cuando ocurre después de las revisiones, ya que las personas que revisaron pueden sentir que su trabajo se ha desperdiciado.
