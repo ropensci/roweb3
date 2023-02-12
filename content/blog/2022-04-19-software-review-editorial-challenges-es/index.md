@@ -32,7 +32,7 @@ Hay que tener en cuenta que recomendamos presentar una *consulta previa al enví
 
 ## Reclutar y sustituir personas revisoras
 
-La revisión de un paquete requiere un tiempo precioso de una apretada agenda.
+La revisión de un paquete requiere un tiempo precioso de la apretada agenda de las personas que revisan.
 Esperamos que la experiencia resulte valiosa (y tratamos de facilitarla con nuestra [guía de revisión](https://devguide.ropensci.org/reviewerguide.html)), pero reconocemos que es una tarea ardua, que exige más o menos el mismo tiempo que la revisión de un artículo científico.
 Nuestra lista de [criterios para elegir personas para revisar paquetes](https://devguide.ropensci.org/editorguide.html#criteria-for-choosing-a-reviewer) busca garantizar la diversidad (tanto en habilidades como en antecedentes), y crear continuamente un grupo de personas experimentadas en revisar sin sobrecargar a ninguna de ellas. Sin embargo, dificulta aún más la tarea de encontrar personas disponibles. 
 
