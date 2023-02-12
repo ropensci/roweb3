@@ -40,7 +40,7 @@ El año pasado lanzamos un [nuevo formulario para proponerse para realizar revis
 Mantenemos esta información en una base de datos (gestionada con Airtable), junto con el historial de revisiones de cada persona. 
 Esta base de datos es un recurso para el equipo editorial cuando se necesitan personas con una experiencia, una formación o una disponibilidad particulares.
 
-Cuando esto no es suficiente, por ejemplo, después de repetidas negativas o falta de respuesta de parte de posibles personas, quien es responsable de la revisión del paquete puede pedir recomendaciones al resto del equipo editorial en nuestro canal de Slack. (Parte del equipo también participa en la edición de revistas científicas tradicionales, y desearía poder tener una charla tan útil con el resto del equipo allí).
+Cuando esto no es suficiente, por ejemplo, después de repetidas negativas o falta de respuesta de parte de posibles personas, quien es responsable de la revisión del paquete puede pedir recomendaciones al resto del equipo editorial en nuestro canal de Slack. (Parte del equipo también participa en la edición de revistas científicas tradicionales, y desearíamos poder tener una charla tan útil con el resto del equipo allí).
 
 Un reto a la hora de ponerse en contacto con las personas que pueden revisar es saber cuándo hay que seguir adelante después de esperar una respuesta. Así que hemos añadido "Si no tengo noticias tuyas en el plazo de una semana, asumiré que no puedes revisar en este momento" a nuestra [plantilla de solicitud de revisión estándar](https://devguide.ropensci.org/reviewrequesttemplate.html). Esto pone a todo el mundo en la misma página y proporciona claridad tanto a quienes editan como a quienes potencialmente revisarían. 
 
