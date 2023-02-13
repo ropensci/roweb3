@@ -20,13 +20,19 @@ We received a total of **102** applications from **31** different countries. Sev
 
 Champions could select one of three project options: **51%** chose to **develop a new package**, **25%** to be part of our **review process**, and **24%** to **submit a package to our peer review** process.
 
+{{< figure src="countriesApplications.png" alt="Map of the world with the countries colored according to the number of applications. Applications are shown in America, Europe, Oceania, Asia and Africa (in that order with respect to the number of applications)." >}}
+
 After carefully reviewing each application, we selected [ten champions and ten mentors](/champions/) for this first cohort.  **Three** of our champions will **develop a new package**, **four** will **prepare and submit their package to the review process**, and **three** will **become rOpenSci reviewers**.
 
 The mentors will accompany their mentees throughout the process of executing their projects.
 
 These first participants are from **Argentina, Brazil, Peru, Nigeria, Turkey, Australia, France, Norway, Saudi Arabia, the United States, and the United Kingdom**.
 
-## Start of activities
+
+<FIXME: add collage with champions and mentors pictures>
+
+
+## Kick-off meetings
 
 As scheduled, during January, we held the kick-off meetings for the program. Due to time zone differences, we have at least two versions of all planned activities.
 
