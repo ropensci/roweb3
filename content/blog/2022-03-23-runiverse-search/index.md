@@ -12,11 +12,6 @@ tags:
 featured: true
 ---
 
-<small><em>This post is part of a series of technotes about [r-universe](https://r-universe.dev), a new umbrella project by rOpenSci under which we experiment with various ideas for improving publication and discovery of research software in R.
-As the project evolves, we will post updates to document features and technical details.
-For more information, visit the [r-universe project page](/r-universe/).</em></small>
-
-
 ## R-universe now has search!
 
 We made a series of structural improvements in r-universe to make it easier to browse and discover interesting R packages and articles.
