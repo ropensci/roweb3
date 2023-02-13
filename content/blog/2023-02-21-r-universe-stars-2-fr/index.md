@@ -1,64 +1,58 @@
 ---
-title: "Aprender, ayudar y compartir: el método de ThinkR para crear una comunidad cada vez más grande y amigable de R"
+title: "Enseigner, aider et partager : l'approche de ThinkR pour contribuer à la croissance d’une communauté R conviviale"
 author: 
 - Yanina Bellini Saibene
 - Alejandra Bellini 
 - Lucio Casalla 
 - Steffi LaZerte
 date: '2023-02-09'
-slug: r-universe-stars-2-es
+slug: r-universe-stars-2-fr
 tags:
   - community
   - help
   - beginner
   - welcome
-  - español
-  - spanish
+  - français
 featured: true
 description: "Una nueva entrega de nuestra serie de entrevistas __\"Conociendo a las estrellas del universo R\"__. Nos vamos a Francia para conocer más de cerca el trabajo que hace la gente de ThinkR."
 preface: "[See the English version of this blog post](/blog/2023/02/09/r-universe-stars-2-en/)"
 ---
 
-[ThinkR]() es sinónimo de expertos y líderes en formación en R con personas apasionadas por el código abierto y los colaboradores. Así puede leerse en su página web y así puede introducirse a [Sébastien Rochette](), un apasionado.
+ThinkR est synonyme d'experts et leaders en matière de formation R, de personnes passionnées par l'open source et de contributeurs à la communauté. C'est ce que l'on peut lire sur leur site Web et c'est ainsi que l'on peut présenter Sébastien Rochette, un passionné.
+
+Selon ses propres explications, le travail qu'il effectue depuis 5 ans dans l'entreprise française consiste à enseigner, développer et aussi conseiller les clients sur R. Le travail est divisé en deux, la moitié pour enseigner et l'autre pour développer des outils avec R :
+"Ce que nous aimons faire, c'est apprendre le plus possible sur R afin de pouvoir aider nos clients à continuer à travailler avec R et à aller plus loin dans leurs missions professionnelles."
+
+ThinkR est agréé par l'État français pour pouvoir délivrer des certifications R officielles.  Cela implique un audit exigeant pour garantir la qualité de l'enseignement et de l'accompagnement des apprenants. Sébastien explique qu'ils ont trois niveaux de formation R : "Le premier niveau est pour les débutants où ils expliquent ce qu'est R et comment construire des analyses de données reproductibles et documentées avec R, afin que vous puissiez rapidement connaître tous les outils essentiels pour travailler avec vos propres données. Le deuxième niveau porte sur le développement de paquets R, car nous sommes convaincus que la meilleure façon de partager et de collaborer dans le cadre d'un travail durable passe par le développement de paquets R. Et le troisième niveau est d'apprendre à construire des applications Shiny prêtes pour la production, pour lesquelles vous aurez besoin de savoir comment construire des packages." Tous les cours sont donnés à distance, en petits groupes, sur une plateforme web préinstallée qu'ils ont développée, appelée Bakacode, qui garantit que le matériel de cours, R et tous les packages nécessaires sont déjà installés et disponibles lorsque les participants se connectent.
+
+Dans une explication résumée de son travail, Sébastien explique de manière simple le but de l'organisation : "Aider davantage de personnes à acquérir les compétences nécessaires pour travailler avec R, diffuser et partager cet apprentissage, et contribuer à l'expansion d'une communauté R accueillante et amicale".
+
+ThinkR souhaite que ses clients soient indépendants à la fin de chaque service, qu'il s'agisse de formation ou de développement sur mesure. Ainsi, les clients peuvent poursuivre le développement par eux-mêmes. "Si les clients veulent revenir, nous les accueillons à bras ouverts" explique Sébastien, et d’ajouter, "mais s'ils considèrent qu'ils sont assez autonomes pour continuer par eux-mêmes, nous sommes heureux aussi car nous recherchons principalement une communauté R plus grande et plus amicale." L'autonomie de travail des clients est une valeur importante au sein de l'entreprise.
+
+La valeur de l'enseignement
+
+Sébastien explique que chez ThinkR, ils appliquent une logique de travail qui combine enseignement et consultance : "Pour être un bon enseignant, il faut mettre les mains dans le code et donc connaître les enjeux de ses clients (...) et pour être un bon consultant, il faut enseigner pour pouvoir expliquer clairement et simplement ce que l'on fait, comment et pourquoi on le fait". C'est pourquoi l'entreprise essaie de passer du temps dans les deux endroits : l'enseignement et le développement sur-mesure.
+
+Cela implique également de partager leurs connaissances par le biais d'articles de blog et de tutoriels, d'un livre, de leur présence et du financement de conférences et autres événements de la communauté, à distance ou sur place.
 
 
-Según su propia explicación, el trabajo que realiza desde hace 10 años en la compañía francesa consiste en dar cursos, enseñar y también asesorar acerca de R. El trabajo se divide en dos, la mitad para enseñar y la mitad para desarrollar su propio software: 
+Open source
 
-> “Lo que nos gusta hacer es conocer y saber absolutamente todo lo que podamos sobre R para ayudar a nuestros clientes a seguir trabajando con R y lograr ir más allá en sus compañías”.
+La troisième partie dont Sébastien parle est l'open-source. Il explique que dans l'entreprise, ils consacrent au moins un jour par semaine aux développements open source. Ils ont intégré que toute l'entreprise fonde son travail sur l'open-source et qu'il est important de le rendre à la communauté par le développement et la contribution aux packages R. ThinkR développe de nombreux packages pour ses propres besoins, et la grande majorité d'entre eux sont open-source. Si ces packages sont utiles pour eux, ils peuvent l'être pour d'autres. Ainsi, parmi ces paquets, vous trouverez des outils pour aider à développer des produits R documentés, testés et maintenables : {fusen} pour faciliter la construction et le partage de paquets R prêts à l'emploi tout en restant dans un environnement Rmarkdown, {golem} pour structurer la construction d'applications Shiny prêtes la production, {attachment} pour aider à gérer les dépendances des packages ou {checkhelper} pour automatiser certaines vérifications supplémentaires avant la soumission au CRAN. Il existe d'autres outils dans le ThinkR r-universe pour présenter la qualité de votre travail R comme {gitdown} et {testdown}, des outils pour aider à la gestion de projet avec des outils externes comme {gitlabr}, {togglr}, {todoist}, ... Tout cela ramène à fournir des outils qui permettent à de plus en plus de personnes de construire des fondations robustes, durables et maintenables pour travailler avec leurs données, les analyser et les partager de manière plus facile.
 
-
-ThinkR cuenta con una certificación del estado francés que les costó mucho trabajo conseguir y garantiza la calidad de la enseñanza. Sébastian explica que tienen tres niveles de formación: _“El primer nivel es para principiantes donde se explica qué es R, como construir algo reproducible y analizable con R para poder trabajar con sus propios datos. El segundo nivel es cómo desarrollar paquetes de R porque estamos convencidos de que la mejor manera de compartir tu trabajo es a través de paquetes. Y el tercer nivel es para aprender a construir aplicaciones, para producir y para eso necesitas del nivel anterior, necesitas saber cómo construir paquetes.”_
-
-En esta explicación resumida de su trabajo Sébastien explica de una manera simple el propósito de la organización: 
-
-> “Ayudar a más personas para que puedan trabajar con R, difundir y compartir ese aprendizaje.”
-
-Lo que ThinkR busca es que los clientes puedan utilizar las herramientas que les ofrecen de manera autónoma y que sigan desarrollandolas y así lograr que la comunidad de R y los usuarios sean cada vez más. _“Si los clientes quieren volver, los recibimos con las puertas abiertas”_, explica Sébastien y agrega: _“pero queremos tener cada vez más usuarios para tener una comunidad cada vez más grande y amigable”_. La autonomía para trabajar de los clientes es un valor importante dentro de la compañía. 
-
-## El valor de la enseñanza 
-
-Sébastien explica que en ThinkR aplican una lógica de trabajo que relaciona la enseñanza con la consultoría: _“Para ser buen docente, hay que meter las manos en el código y así conocer los desafío de los clientes (...) y para ser un buen consultor tienes que enseñar para poder explicar de manera clara y sencilla lo que haces, cómo y porqué lo haces”_. Es por esto que en la compañía intentan pasar tiempo en ambos lugares: en la docencia y en la consultoría.
-
-## Código abierto
-
-La tercera parte de la que habla Sébastien es el código abierto y explica que en la compañía le dedican un día a la semana porque entienden que trabajan sobre código abierto y por eso es importante para la comunidad que ellos participen construyendo nuevos paquetes y no sólo para utilizar lo que ya existe. Muchos de los paquetes que desarrollan para su empresa los comparten con la comunidad porque están convencidos que si les sirve a ellos también puede servirle a alguien más. Todo se reduce a proporcionar herramientas que le permita cada vez a más personas trabajar con sus datos, analizarlos y compartilos de una manera mucho más sencilla. 
-
-## La experiencia en el Universo R 
-
-Para cumplir con el objetivo de ayudar a sus clientes de la manera más sencilla posible es que la compañía llega al [Universo R]() donde pueden registrar cada uno de los procesos y las herramientas desarrolladas de manera ordenada y con información útil. 
-En el video que incluye esta nota podrán ver un ejemplo de cómo Sébastien y ThinkR se ven en el Universo R.
-
-## Universo R
-
-ThinkR encontró en R-universe una plataforma flexible para poder publicar y generar los instaladores de todos sus paquetes.  Esta funcionalidad hace mas sencillo el acceso y uso de sus paquetes por parte de sus clientes, que pueden instalarlos de la forma que ya conocen siendo transparente para ellos el origen del paquete (R-universe, CRAN or GitHub). 
-
-También facilita la actualización y disponibilidad de estos paquetes porque R-universe no tiene políticas de cambios y actualizaciones estrictas y con tiempos límites, como en CRAN, por ejemplo. 
-
-Finalmente, encuentran muy útiles la funcionalidad de generar las viñetas y que estén disponibles en el espacio del paquete en R-universe.
+Expérience avec le “R Universe”
 
 
-## Video de la entrevista
+Afin de répondre à l'objectif d'aider ses clients de la manière la plus simple possible, l'entreprise s’est mise à utiliser “R-universe” où elle peut partager chacun des processus et outils développés de manière ordonnée et avec des informations utiles.
+Dans la vidéo incluse dans cet article, vous pouvez voir un exemple de la façon dont Sébastien et ThinkR se voient avec “R-universe”.
 
-Si quieres escuchar más detalles sobre la experiencia, no dejes de ver al protagonista en el vídeo con extractos de la entrevista. Puedes activar los subtítulos.
+ThinkR a trouvé dans “R-universe” une plateforme flexible pour publier et générer les installateurs de tous ses packages open-source. Cette fonctionnalité permet à ses clients d'accéder et d'utiliser plus facilement les dernières versions de ses paquets. Les clients peuvent installer les paquets comme ils savent déjà faire, en étant transparent sur l'origine, et en réduisant les limitations des installations directes depuis GitHub.  
+
+Cela facilite également la mise à jour et la mise à disposition de ces packages car “R-universe” n'a pas de politiques de changement et de mise à jour strictes et limitées dans le temps, comme dans CRAN, par exemple.  
+
+Enfin, ils trouvent aussi utile la fonctionnalité permettant de générer les vignettes et de les rendre disponibles dans l'espace des packages de R-universe.
+Video de l’interview
+
+Si vous voulez entendre plus de détails sur son expérience, ne manquez pas de regarder Sébastien dans la vidéo avec des extraits de l'interview (en anglais). Vous pouvez activer les sous-titres.
 
 {{< vimeo id= title="Entrevista a Sébastien Rochette" >}}
