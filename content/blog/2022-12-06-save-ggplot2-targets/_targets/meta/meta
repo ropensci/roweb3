@@ -1,0 +1,7 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+complex_but_slim_plot|stem|cd50c411250787ea|d35cdde1863ac973|6b9572d8dd6aad10|1707968423||t19326.4125210871s|c36d0844f83c159a|41659|rds|local|vector|||0||
+complex_grob|stem|94ef260161020a12|bb6a7b46e3313f43|d1677c90283eaf86|1853699150||t19326.4124305433s|9c6bb90c3904bdce|5131|rds|local|vector|||0.07||
+complex_plot|stem|500855d77c201c02|efdc7dc04cd5e700|7993d3d6072bf759|-377587585||t19326.4125216781s|029aa6d628bfd07c|42671|rds|local|vector|||0||
+mtcars_df|stem|f3c2a2faf0b44676|4217939c98110879|8f31b3fe34436a40|1582075762||t19326.4123674812s|13ed62eeab93771c|1224|rds|local|vector|||0||
+simple_grob|stem|1037ef06e2dfdcee|208002348288c1cc|3c07a7534d7bbd21|-2009543770||t19326.4124294345s|35c24f88332c5dfb|5146|rds|local|vector|||0.15||
+simple_plot|stem|cd50c411250787ea|96ae0b9b9652189d|f58c8f79f85b27f5|676362477||t19326.4125204824s|c36d0844f83c159a|41659|rds|local|vector|||0||

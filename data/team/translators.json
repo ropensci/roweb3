@@ -1,0 +1,25 @@
+[{
+   "name": "Elio Campitelli",
+   "url": "https://eliocamp.github.io/",
+   "image" : "/img/team/elio-campitelli.jpg",
+   "affiliation": "Spanish",
+   "roles": [
+      "translator"
+   ],
+   "twitter": "d_olivaw",
+   "mastodon": "https://mastodon.social/@eliocamp",
+   "github": "eliocamp",
+   "home": "https://eliocamp.github.io/"
+},
+{
+   "name": "Pao Corrales",
+   "affiliation": "Spanish",
+   "url": "https://paocorrales.github.io/",
+   "image" : "/img/team/paola-corrales.png",
+   "roles": [
+      "translator"
+   ],
+   "twitter": "paobcorrales",
+   "github": "paocorrales",
+   "home": "https://paocorrales.github.io/"
+}]

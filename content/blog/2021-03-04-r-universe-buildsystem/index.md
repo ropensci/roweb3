@@ -9,10 +9,6 @@ tags:
   - tech notes
 ---
 
-*This post is part of a series of technotes about our new R development platform called [r-universe](https://r-universe.dev).
-As the project evolves, we will post updates to document features and technical details.
-In this first article, we take a global look at the the core build system.*
-
 ## The R-universe build system
 
 The R-universe system is a complex effort, consisting of numerous frontend and backend pieces that operate across various platforms. A key challenge in developing such a system is managing overall complexity by finding ways to reduce the problem into smaller, loosely coupled components, which can be thought of, and developed, somewhat independently.

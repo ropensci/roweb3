@@ -9,6 +9,7 @@
       "editor"
    ],
    "twitter": "_inundata",
+   "mastodon": "https://mastodon.social/@inundata",
    "github": "karthik",
    "home": "https://inundata.org/"
 },
@@ -61,6 +62,7 @@
       "staff"
    ],
    "twitter": "yabellini",
+   "mastodon": "https://fosstodon.org/@yabellini",
    "github": "yabellini",
    "home": "/author/yanina-bellini-saibene/"
 },
@@ -74,7 +76,7 @@
       "researcher",
       "developer"
    ],
-   "twitter": "bikesRdata",
+   "mastodon": "https://nerdculture.de/@mpadge",
    "github": "mpadge",
    "home": "/author/mark-padgham"
 },
@@ -83,12 +85,13 @@
    "affiliation": "Research Software Engineer",
    "url": "/author/maëlle-salmon",
    "image" : "/img/team/maelle_salmon.jpg",
+   "credit": "Photo Julie Noury Soyer https://www.photographe-julienourysoyer.com/",
    "roles": [
       "staff",
       "developer",
       "editor"
    ],
-   "twitter": "ma_salmon",
+   "mastodon": "https://mastodon.social/@maelle",
    "github": "maelle",
    "home": "/author/maëlle-salmon"
 },
@@ -101,7 +104,7 @@
       "strategic advisor",
       "editor"
    ],
-   "twitter": "noamross",
+   "mastodon": "https://ecoevo.social/@noamross",
    "github": "noamross",
    "home": "/author/noam-ross"
 },
@@ -115,6 +118,7 @@
       "developer"
    ],
    "twitter": "steffilazerte",
+   "mastodon": "https://fosstodon.org/@steffilazerte",
    "github": "steffilazerte",
    "home": "/author/steffi-lazerte"
 },
@@ -143,7 +147,7 @@
    "name": "Jenny Bryan",
    "url": "https://jennybryan.org/",
    "image" : "/img/team/jenny_bryan.jpg",
-   "affiliation" : "RStudio",
+   "affiliation" : "Posit",
    "roles": [
       "strategic advisor"
    ],
@@ -172,6 +176,7 @@
       "editor"
    ],
    "twitter": "annakrystalli",
+   "mastodon": "https://fosstodon.org/@annakrystalli",
    "github": "annakrystalli",
    "home": "https://annakrystalli.me/"
 },
@@ -203,10 +208,12 @@
    "url": "https://melvidoni.rbind.io/",
    "image" : "/img/team/melina-vidoni.jpg",
    "affiliation" : "RMIT University",
-   "roles": [
+   "past_roles": [
       "editor"
    ],
+   "alumnus": true,
    "twitter": "melvidoni",
+   "mastodon": "https://mastodon.social/@drmelvidoni",
    "github": "melvidoni",
    "home": "https://melvidoni.rbind.io/"
 },
@@ -230,7 +237,7 @@
    "roles": [
       "editor"
    ],
-   "twitter": "DeCiccoDonk",
+   "mastodon": "https://fosstodon.org/@ldecicco",
    "github": "ldecicco-USGS"
 },
 {
@@ -261,14 +268,14 @@
 },
 {
    "name": "Adam Sparks",
-   "url": "https://adamhsparks.com/",
+   "url": "https://adamhsparks.netlify.app/",
    "image" : "/img/team/adam-sparks.jpg",
 
    "affiliation" : "Department of Primary Industries and Regional Development",
    "roles": [
       "editor"
    ],
-   "twitter": "adamhsparks",
+   "mastodon": "https://fosstodon.org/@adamhsparks",
    "github": "adamhsparks",
    "home": "https://adamhsparks.com/"
 }, 
@@ -281,7 +288,7 @@
    "roles": [
       "editor"
    ],
-   "twitter": "jhollist",
+   "mastodon": "https://fosstodon.org/@jhollist",
    "github": "jhollist",
    "home": "https://jwhollister.com/"
 }, 
@@ -363,7 +370,7 @@
 },
 {
    "name": "Max Kuhn",
-   "affiliation": "RStudio",
+   "affiliation": "Posit",
    "url": "http://appliedpredictivemodeling.com/",
    "image": "/img/team/max-kuhn.jpg",
    "past_roles": [
@@ -444,7 +451,7 @@
    "name": "Hadley Wickham",
    "url": "http://hadley.nz/",
    "image" : "/img/team/hadley-wickham.jpg",
-   "affiliation" : "RStudio",
+   "affiliation" : "Posit",
    "roles": [
       "advisor"
    ]
@@ -453,7 +460,7 @@
    "name": "JJ Allaire",
    "url": "https://github.com/jjallaire",
    "image" : "/img/team/jj-allaire.jpg",
-   "affiliation" : "RStudio",
+   "affiliation" : "Posit",
    "roles": [
       "advisor"
    ]

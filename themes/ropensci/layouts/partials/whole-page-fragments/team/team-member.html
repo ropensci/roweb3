@@ -1,6 +1,6 @@
 <div class="col-md-3 col-6">
       <div class="user-card">
-        <img class="user-img" src="{{ .image }}" alt="" />
+        <img class="user-img" src="{{ .image }}" alt="" {{ with .credit }}title="{{ . }}"{{ end }}/>
         <a href="{{ .url }}" class="user-name">{{ .name }}</a>
         {{ with .affiliation }}
         <div class="user-role">
@@ -23,6 +23,7 @@
         {{ end }}
         <div class="user-social d-flex">
           {{ with .twitter }}<a href="https://twitter.com/{{ . }}"><img src="/images/users/twitter.svg" alt="" /></a>{{ end }}
+          {{ with .mastodon }}<a rel="me" href="{{ . }}"><img src="/images/users/mastodon.svg" alt="" style="max-width:16px;max-height:16px;"/></a>{{ end }}
           {{ with .github }}<a href="https://github.com/{{ . }}"><img src="/images/users/github.svg" alt="" /></a>{{ end }}
          {{ with .home }}<a href="{{ . }}"><img src="/images/users/rss.svg" alt="" /></a>{{ end }}
         </div>

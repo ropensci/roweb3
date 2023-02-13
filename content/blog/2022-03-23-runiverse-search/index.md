@@ -12,11 +12,6 @@ tags:
 featured: true
 ---
 
-<small><em>This post is part of a series of technotes about [r-universe](https://r-universe.dev), a new umbrella project by rOpenSci under which we experiment with various ideas for improving publication and discovery of research software in R.
-As the project evolves, we will post updates to document features and technical details.
-For more information, visit the [r-universe project page](/r-universe/).</em></small>
-
-
 ## R-universe now has search!
 
 We made a series of structural improvements in r-universe to make it easier to browse and discover interesting R packages and articles.
@@ -43,4 +38,4 @@ In addition to manually specified keywords, the build system may also add some k
 
 Currently, r-universe is serving 3324 packages and 3291 articles by 929 maintainers. Want to add your own packages? Signing up is easy and only takes a minute. Packages on r-universe may be, but don't need to be on CRAN. In fact, packages that are not on CRAN may especially benefit from the extra visibility by publishing them on r-universe!
 
-For more details read our blog post: [how to create your personal CRAN-like repository on R-universe](http://localhost:1313/blog/2021/06/22/setup-runiverse/).
+For more details read our blog post: [how to create your personal CRAN-like repository on R-universe](/blog/2021/06/22/setup-runiverse/).

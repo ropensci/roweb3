@@ -12,14 +12,6 @@ tags:
   - tech notes
 ---
 
-<small><em>This post is part of a series of technotes about [r-universe](https://r-universe.dev), a new umbrella project by rOpenSci under which we experiment with various ideas for improving publication and discovery of research software in R.
-As the project evolves, we will post updates to document features and technical details.
-For more information, visit the [r-universe project page](/r-universe/).</em></small>
-
----
-
-
-
 __TLDR:__ As of today, the pkgdown sites for all rOpenSci packages on our [docs server](https://docs.ropensci.org/) are built on [r-universe](https://ropensci.r-universe.dev). This is an internal change; no action is required for package maintainers.
 
 

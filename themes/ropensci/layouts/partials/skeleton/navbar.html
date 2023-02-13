@@ -42,7 +42,7 @@
         <li class="nav-item drp">
           <a class="nav-link" href="/about/">Projects</a>
           <ul class="sub-menu">
-            {{ range $index, $page := ( where .Site.Pages "Type" "in" .Site.Params.projects ) }}
+            {{ range $index, $page := ( where (where .Site.Pages "Kind" "section") "Type" "in" .Site.Params.projects ) }}
             <li><a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></li>
             {{ end }}
           </ul>
