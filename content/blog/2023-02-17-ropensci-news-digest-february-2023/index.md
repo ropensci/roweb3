@@ -8,7 +8,7 @@ categories:
   - blog
 tags:
   - newsletter
-description: R-universe improvements, coworking, champions program kick-off
+description: R-universe improvements, coworking, champions program kick-off, targets community call resources and recording
 params:
   last_newsletter: '2023-01-20'
 ---
@@ -43,6 +43,34 @@ Consult our [Events](/events) page to find your local time and how to join.
     - Talk to [Nick](/author/nicholas-tierney//) and discuss how to use these packages in your workflow.
     
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
+
+### Community Call {targets} in Action
+
+On January 31 we enjoyed a Community Call about the [targets package](https://books.ropensci.org/targets/).
+
+As the name of the call indicates, we had three presentations were the speakers share their experience putting targets into action.
+
+Eric Scott start the panel sharing his [attempt to make it easy to set up targets to harness the power of HPC from the comfort of an RStudio window](https://cct-datascience.quarto.pub/harnessing-hpc-power-with-targets/).  Then Joel Nitta talked about [using targets for bioinformatics pipelines](https://joelnitta.github.io/comm-call-bioinfo-targets/), and finally Will Landau demonstrated [how to debugg {targets} pipelines](https://wlandau.github.io/targets-debug/).
+
+You can see [the video](https://vimeo.com/795053980) and access to all the material (slides, code, and shares notes with transcription and Q&A) in our [community call webpage.](/commcalls/jan2023-targets/)
+
+*What would YOU like to hear about in an rOpenSci Community Call?*, [let us know here](https://github.com/ropensci-org/community-calls)
+
+### The champions program got off to a great start in 2023
+
+We started 2023 activities of our champions program with two kick-off meetings. 
+
+During these meetings, [mentors and champions](/champions/) introduced themselves and shared where they are from, what their project is about, and something that excites them about the program. 
+
+We have a diverse group of peopke from Argentina, Brazil, Peru, Nigeria, Turkey, Australia, France, Norway, Saudi Arabia, the United States, and the United Kingdom.
+
+**Three** of our champions will **develop a new package**, **four** will **prepare and submit their package to the review process**, and **three** will **become rOpenSci reviewers**. Mentors will accompany their mentees throughout the process of executing their projects.
+
+We also went over the logistics of the program, the potential agenda, and scheduled activities.  
+
+In these meetings, we noticed the participants' enthusiasm to learn, share, execute their projects, and give back to the community.
+
+Stay tuned for more information about our mentors, champions, and their projects!
 
 ## Software :package:
 
