@@ -34,7 +34,7 @@ These first participants are from **Argentina, Brazil, Peru, Nigeria, Turkey, Au
 
 ## Kick-off meetings
 
-As scheduled, during January, we held the kick-off meetings for the program. Due to time zone differences, we have at least two versions of all planned activities.
+During January, we held the kick-off meetings for the program. Because we our Champions and Mentors have such a wide geographic spread, we had (and will be having) at least two different time for all planned activities to accommodate the breadth of timezones.
 
 During these meetings, mentors and champions introduced themselves and shared where they are from, what your project is about, and something that excites them about the program.   We also went over the logistics of the program, the potential agenda, and scheduled activities.  In these meetings, we noticed the participants' enthusiasm to learn, share, execute their projects, and give back to the community.
 
