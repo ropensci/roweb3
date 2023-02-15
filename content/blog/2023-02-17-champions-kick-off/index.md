@@ -22,7 +22,7 @@ Champions could select one of three project options: **51%** chose to **develop 
 
 {{< figure src="countriesApplications.png" alt="Map of the world with the countries colored according to the number of applications. Applications are shown in America, Europe, Oceania, Asia and Africa (in that order with respect to the number of applications)." >}}
 
-After carefully reviewing each application, we selected [ten champions and ten mentors](/champions/) for this first cohort.  **Three** of our champions will **develop a new package**, **four** will **prepare and submit their package to the review process**, and **three** will **become rOpenSci reviewers**.
+After carefully reviewing each application, we selected ten champions and ten mentors for this first cohort.  **Three** of our champions will **develop a new package**, **four** will **prepare and submit their package to the review process**, and **three** will **become rOpenSci reviewers**.
 
 The mentors will accompany their mentees throughout the process of executing their projects.
 
