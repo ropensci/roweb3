@@ -14,7 +14,7 @@ tweet: ""
 
 ## The Champions Program got off to a great start in 2023!
 
-From September to November 2022, we [launched the rOpenSci Champions Program](/champions/).
+We're happy to report on the first couple of months in our first run of the [rOpenSci Champions Program](/champions/). In September 2022, we launched the program, advertising for both mentors and mentees to apply.
 
 We received a total of **102** applications from **31** different countries. Seventy-four applications were for champions and twenty eight for mentors. We are very grateful to everyone who took the time to apply to our program.
 
