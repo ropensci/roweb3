@@ -12,7 +12,7 @@ feature: true
 tweet: "" 
 ---
 
-## The champions program got off to a great start in 2023
+## The Champions Program got off to a great start in 2023!
 
 From September to November 2022, we [launched the rOpenSci Champions Program](/champions/).
 
