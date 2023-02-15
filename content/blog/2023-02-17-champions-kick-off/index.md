@@ -42,6 +42,6 @@ During these meetings, mentors and champions introduced themselves, shared where
 
 During February and March, champions and mentors will receive training in different topics that will provide them with useful tools to carry out their projects.
 
-In April and May, we will conduct workshops for those not selected to be champions. These workshops will teach tools for open-source software development.  We hope that this offer can serve to gain skills for their tasks as research software developers and help them with future applications to this or other similar programs.  We will be publishing details about these workshops in March.
+We're also happy to note that in April and May, we will conduct workshops for those not selected to be champions. These workshops will provide an opportunity for all applicants to develop skills in open-source software development for supporting career opportunities as well as future applications to this or other similar programs.  We will be publishing details about these workshops in March.
 
 Stay tuned for more information about our mentors, champions, and their projects!
