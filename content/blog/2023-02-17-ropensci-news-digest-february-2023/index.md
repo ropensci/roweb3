@@ -25,7 +25,7 @@ Now let's dive into the activity at and around rOpenSci!
 
 ### R-universe improvements!
 
-We have changed the preferred git repo name where you host your `packages.json` registry for r-universe, see our post [New preferred repo name for r-universe registries](/blog/2023/02/07/runiverse-registry-repo/).
+We have changed the preferred git repo name where you host your `packages.json` registry for R-universe, see our post [New preferred repo name for r-universe registries](/blog/2023/02/07/runiverse-registry-repo/).
 We now recommend to use the full lowercase name of your R-universe domain as the repo name, for instance `TileDB-Inc/tiledb-inc.r-universe.dev`.
 
 Speaking of domains and URLs, we have [improved the URL schema for the r-universe.dev front-end](/blog/2023/01/30/runiverse-permanent-urls/) to make it even easier to find and share a link to an R package, article, API, or other resource.
@@ -40,7 +40,12 @@ Consult our [Events](/events) page to find your local time and how to join.
 
 * [Tuesday, Mar 7th, 9:00 Australian Western / 01:00 UTC](/events/coworking-2023-03/) "Checking data with naniar, visdat, assertr, and skimr" *Hosted by community host [Nick Tierney](/author/nicholas-tierney/) and [Steffi LaZerte](/author/steffi-lazerte/)*
     - Explore documentation, use cases and tutorials on these packages, or check your data!
-    - Talk to [Nick](/author/nicholas-tierney//) and discuss how to use these packages in your workflow.
+    - Talk to [Nick](/author/nicholas-tierney/) and discuss how to use these packages in your workflow.
+    
+* [Tuesday, Apr 4th, 14:00 European Central / 12:00 UTC](/events/coworking-2023-04/) "Working with taxonomic lists in R" *Hosted by community host [Miguel Alvarez](/author/miguel-alvarez/) and [Steffi LaZerte](/author/steffi-lazerte/)*
+    - Explore R packages for working with lists (such as [taxlist](https://docs.ropensci.org/taxlist/))
+    - Organize some taxonomy in your data using taxlist
+    - Talk to [Miguel](/author/miguel-alvarez/) and discuss tips for working with taxonomic lists.
     
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
@@ -48,27 +53,26 @@ And remember, you can always cowork independently on work related to R, work on 
 
 On January 31 we enjoyed a Community Call about the [targets package](https://books.ropensci.org/targets/).
 
-As the name of the call indicates, we had three presentations were the speakers share their experience putting targets into action.
+As the name of the call indicates, we had three presentations where the speakers shared their experiences putting targets into action.
 
-Eric Scott start the panel sharing his [attempt to make it easy to set up targets to harness the power of HPC from the comfort of an RStudio window](https://cct-datascience.quarto.pub/harnessing-hpc-power-with-targets/).  Then Joel Nitta talked about [using targets for bioinformatics pipelines](https://joelnitta.github.io/comm-call-bioinfo-targets/), and finally Will Landau demonstrated [how to debugg {targets} pipelines](https://wlandau.github.io/targets-debug/).
+Eric Scott started the panel, sharing his [attempt to make it easy to set up targets to harness the power of HPC from the comfort of an RStudio window](https://cct-datascience.quarto.pub/harnessing-hpc-power-with-targets/).  Next, Joel Nitta talked about [using targets for bioinformatics pipelines](https://joelnitta.github.io/comm-call-bioinfo-targets/), and finally Will Landau demonstrated [how to debug {targets} pipelines](https://wlandau.github.io/targets-debug/).
 
-You can see [the video](https://vimeo.com/795053980) and access to all the material (slides, code, and shares notes with transcription and Q&A) in our [community call webpage.](/commcalls/jan2023-targets/)
+You can see [the video](https://vimeo.com/795053980) and access to all the material (slides, code, and shared notes with transcription and Q&A) on the [community call webpage](/commcalls/jan2023-targets/).
 
 *What would YOU like to hear about in an rOpenSci Community Call?*, [let us know here](https://github.com/ropensci-org/community-calls)
 
-### The champions program got off to a great start in 2023
+### The Champions Program is off to a great start in 2023!
 
-We started 2023 activities of our champions program with two kick-off meetings. 
+We started the 2023 activities of our champions program with two kick-off meetings. 
 
-During these meetings, [mentors and champions](/champions/) introduced themselves and shared where they are from, what their project is about, and something that excites them about the program. 
+During these meetings, [mentors and champions](/champions/) introduced themselves, shared where they are from, what their project is about, and something that excites them about the program. We also went over the logistics of the program, the potential agenda, and scheduled activities.  
 
-We have a diverse group of peopke from Argentina, Brazil, Peru, Nigeria, Turkey, Australia, France, Norway, Saudi Arabia, the United States, and the United Kingdom.
+We have a diverse group of people from Argentina, Brazil, Peru, Nigeria, Turkey, Australia, France, Norway, Saudi Arabia, the United States, and the United Kingdom.
 
-**Three** of our champions will **develop a new package**, **four** will **prepare and submit their package to the review process**, and **three** will **become rOpenSci reviewers**. Mentors will accompany their mentees throughout the process of executing their projects.
+We're excited to share that **three** of our champions will **develop a new package**, **four** will **prepare and submit their package to the review process**, and **three** will **become rOpenSci reviewers**. Mentors will work with their mentees throughout the process of executing their projects.
 
-We also went over the logistics of the program, the potential agenda, and scheduled activities.  
 
-In these meetings, we noticed the participants' enthusiasm to learn, share, execute their projects, and give back to the community.
+It was lovely to see the participants' enthusiasm to learn, share, execute their projects, and give back to the community!
 
 Stay tuned for more information about our mentors, champions, and their projects!
 
@@ -97,21 +101,21 @@ There are fourteen recently closed and active submissions and 2 submissions on h
 
 * Two at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
 
-     * [stochLAB](https://github.com/ropensci/software-review/issues/551), Stochastic Collision Risk Model. Submitted by [Grant](http://www.blackbawks.net).  (Stats).
+     * [stochLAB](https://github.com/ropensci/software-review/issues/551), Stochastic Collision Risk Model. Submitted by [Grant](https://www.blackbawks.net).  (Stats).
 
     * [rb3](https://github.com/ropensci/software-review/issues/534), Download and Parse Public Data Released by B3 Exchange. Submitted by [Marcelo S. Perlin](https://www.msperlin.com/). 
 
 * Five at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
 
-     * [openalexR](https://github.com/ropensci/software-review/issues/560), Getting Bibliographic Records from OpenAlex Database Using DSL. Submitted by [Trang Le](http://trang.page). 
+     * [openalexR](https://github.com/ropensci/software-review/issues/560), Getting Bibliographic Records from OpenAlex Database Using DSL. Submitted by [Trang Le](https://trang.page). 
 
     * [wmm](https://github.com/ropensci/software-review/issues/522), World Magnetic Model. Submitted by [Will Frierson](https://github.com/wfrierson). 
 
     * [octolog](https://github.com/ropensci/software-review/issues/502), Better Github Action Logging. Submitted by [Jacob Wujciak-Jens](https://github.com/assignUser). 
 
-    * [tsbox](https://github.com/ropensci/software-review/issues/464), Class-Agnostic Time Series. Submitted by [Christoph Sax](http://www.cynkra.com).  (Stats).
+    * [tsbox](https://github.com/ropensci/software-review/issues/464), Class-Agnostic Time Series. Submitted by [Christoph Sax](https://www.cynkra.com).  (Stats).
 
-    * [healthdatacsv](https://github.com/ropensci/software-review/issues/358), Access data in the healthdata.gov catalog. Submitted by [iecastro](http://iecastro.netlify.com). 
+    * [healthdatacsv](https://github.com/ropensci/software-review/issues/358), Access data in the healthdata.gov catalog. Submitted by [iecastro](https://iecastro.netlify.com). 
 
 * Four at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 
@@ -125,9 +129,9 @@ There are fourteen recently closed and active submissions and 2 submissions on h
 
 * Two at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
-     * [ohun](https://github.com/ropensci/software-review/issues/568), Optimizing Acoustic Signal Detection. Submitted by [Marcelo Araya-Salas](http://marceloarayasalas.weebly.com/). 
+     * [ohun](https://github.com/ropensci/software-review/issues/568), Optimizing Acoustic Signal Detection. Submitted by [Marcelo Araya-Salas](https://marceloarayasalas.weebly.com/). 
 
-    * [bssm](https://github.com/ropensci/software-review/issues/489), Bayesian Inference of Non-Linear and Non-Gaussian State Space. Submitted by [Jouni Helske](http://jounihelske.netlify.app).  (Stats).
+    * [bssm](https://github.com/ropensci/software-review/issues/489), Bayesian Inference of Non-Linear and Non-Gaussian State Space. Submitted by [Jouni Helske](https://jounihelske.netlify.app).  (Stats).
 
 * One at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
 
@@ -147,7 +151,7 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 ### Other topics
 
-* [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package) by Maëlle Salmon. An attempt to define what package maintenance entails, with a few tips.
+* [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package) by Maëlle Salmon. This post was discussed on the [R Weekly highlights podcast](https://rweekly.fireside.fm/111) hosted by Eric Nantz and Mike Thomas. An attempt to define what package maintenance entails, with a few tips.
 
 
 
@@ -161,7 +165,7 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 ### Call for maintainers
 
-If you're interested in maintaining any of the R packages below, you might enjoy reading our blog post [What Does It Mean to Maintain a Package?](https://ropensci.org/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/)!
+If you're interested in maintaining any of the R packages below, you might enjoy reading our blog post [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/) (or listening to its discussion on the [R Weekly highlights podcast](https://rweekly.fireside.fm/111) hosted by Eric Nantz and Mike Thomas)!
 
 - **[citesdb](https://docs.ropensci.org/citesdb/)**,a high-performance database of shipment-level CITES trade data. Provides convenient access to over 40 years and 20 million records of
 endangered wildlife trade data from the Convention on International Trade
@@ -171,7 +175,9 @@ out-of memory 'DuckDB' database for bulk analysis. [Issue for volunteering](http
 
 ### Call for comaintainers
 
-Refer to our [recent blog post](/blog/2022/10/17/maintain-or-co-maintain-an-ropensci-package/#packages-looking-for-co-maintainers) to identify packages where help is especially wished for!
+- rtweet, that interfaces Twitter API, is looking for a [co-maintainer](https://github.com/ropensci/rtweet/issues/763).
+
+- Refer to our [recent blog post](/blog/2022/10/17/maintain-or-co-maintain-an-ropensci-package/#packages-looking-for-co-maintainers) to identify other packages where help is especially wished for!
 
 ## Package development corner
 
