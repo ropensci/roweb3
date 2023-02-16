@@ -29,7 +29,7 @@ Grid Layout Styles
     /* Small desktop / ipad view: 3 tiles */
     .gallery .box {
         width: 33.3%;
-        padding-bottom: 33.3%; /*  */
+        padding-bottom: 25%; /*  */
     }
 }
 @media only screen and (min-width : 9999px) {
@@ -58,6 +58,7 @@ figure styles
 figure {
     position:relative; /* purely to allow absolution positioning of figcaption */
     overflow: hidden;
+
 }
 .gallery figure {
     position: absolute;
