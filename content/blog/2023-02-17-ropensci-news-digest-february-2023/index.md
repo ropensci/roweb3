@@ -225,7 +225,7 @@ This is all very nicely explained by [Peter Meissner on Stack Overflow](https://
 ### A testing pattern: adding switches to your code
 
 A recent R-hub blog post [explains a pattern for testing your package's behavior in for instance the absence of an internet connection, without turning off wifi](https://blog.r-hub.io/2023/01/23/code-switch-escape-hatch-test/).
-It's based on using an early return in a helper function based on the presence of a specifically named environment variable (`MYPKG.TEST.NOINTERNET`) and on setting that environment variable locally in a test through `withr::local_envvar()`.
+It consists in using an early return in a helper function based on the presence of a specifically named environment variable (`MYPKG.TEST.NOINTERNET`) and on setting that environment variable locally in a test through `withr::local_envvar()`.
 
 ### Code comments tips
 
