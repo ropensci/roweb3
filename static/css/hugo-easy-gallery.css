@@ -90,7 +90,7 @@ img / a styles
     right: 0;
     top: 0;
     bottom: 0;
-    background-size: cover;
+    background-size: contain;
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
@@ -157,3 +157,7 @@ figcaption p {
     margin: auto; /* override style in theme */
 }
 
+/* hack for css conflict with class 'content' */
+.content .pswp {
+    margin-top: unset;
+}
