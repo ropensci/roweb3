@@ -59,7 +59,7 @@ Eric Scott started the panel, sharing his [attempt to make it easy to set up tar
 
 You can see [the video](https://vimeo.com/795053980) and access to all the material (slides, code, and shared notes with transcription and Q&A) on the [community call webpage](/commcalls/jan2023-targets/).
 
-*What would YOU like to hear about in an rOpenSci Community Call?*, [let us know](https://github.com/ropensci-org/community-calls).
+*What would YOU like to hear about in an rOpenSci Community Call?*, [let us know](https://github.com/ropensci-org/community-calls)
 
 ### The Champions Program is off to a great start in 2023!
 
@@ -151,7 +151,7 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 ### Other topics
 
-* [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package) by Maëlle Salmon. This post was discussed on the [R Weekly highlights podcast](https://rweekly.fireside.fm/111) hosted by Eric Nantz and Mike Thomas. An attempt to define what package maintenance entails, with a few tips.
+* [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package) by Maëlle Salmon. An attempt to define what package maintenance entails, with a few tips. This post was discussed on the [R Weekly highlights podcast](https://rweekly.fireside.fm/111) hosted by Eric Nantz and Mike Thomas.
 
 
 
@@ -167,10 +167,10 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 If you're interested in maintaining any of the R packages below, you might enjoy reading our blog post [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/) (or listening to its discussion on the [R Weekly highlights podcast](https://rweekly.fireside.fm/111) hosted by Eric Nantz and Mike Thomas)!
 
-- **[citesdb](https://docs.ropensci.org/citesdb/)**,a high-performance database of shipment-level CITES trade data. Provides convenient access to over 40 years and 20 million records of
+- **[citesdb](https://docs.ropensci.org/citesdb/)**, a high-performance database of shipment-level CITES trade data. Provides convenient access to over 40 years and 20 million records of
 endangered wildlife trade data from the Convention on International Trade
 in Endangered Species of Wild Fauna and Flora, stored on a local on-disk,
-out-of memory 'DuckDB' database for bulk analysis. [Issue for volunteering](https://github.com/ropensci/citesdb/issues/21)
+out-of memory 'DuckDB' database for bulk analysis. [Issue for volunteering](https://github.com/ropensci/citesdb/issues/21).
 
 
 ### Call for comaintainers

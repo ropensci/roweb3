@@ -490,15 +490,15 @@ format_post <- function(post) {
     post$slug
     )
   string <- sprintf("* [%s](%s) by %s", post$title, url, post$author)
-  if (url == "/blog/2023/02/07/what-does-it-mean-to-maintain-a-package") {
-    string <- paste0(
-      string,
-      ". This post was discussed on the [R Weekly highlights podcast](https://rweekly.fireside.fm/111) hosted by Eric Nantz and Mike Thomas")
-  }
   if (post$description != "") {
     string <- paste0(string, ". ", sub("\\?$", "", sub("\\!$", "", sub("\\.$", "", post$description), ".")), ".")
   } else {
     string <- paste0(string, ".")  
+  }
+  if (url == "/blog/2023/02/07/what-does-it-mean-to-maintain-a-package") {
+    string <- paste0(
+      string,
+      " This post was discussed on the [R Weekly highlights podcast](https://rweekly.fireside.fm/111) hosted by Eric Nantz and Mike Thomas.")
   }
   
   if (post$twitterImg != "") {
@@ -561,10 +561,10 @@ if (length(tech_notes) > 0) {
 
 If you're interested in maintaining any of the R packages below, you might enjoy reading our blog post [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/) (or listening to its discussion on the [R Weekly highlights podcast](https://rweekly.fireside.fm/111) hosted by Eric Nantz and Mike Thomas)!
 
-- **[citesdb](https://docs.ropensci.org/citesdb/)**,a high-performance database of shipment-level CITES trade data. Provides convenient access to over 40 years and 20 million records of
+- **[citesdb](https://docs.ropensci.org/citesdb/)**, a high-performance database of shipment-level CITES trade data. Provides convenient access to over 40 years and 20 million records of
 endangered wildlife trade data from the Convention on International Trade
 in Endangered Species of Wild Fauna and Flora, stored on a local on-disk,
-out-of memory 'DuckDB' database for bulk analysis. [Issue for volunteering](https://github.com/ropensci/citesdb/issues/21)
+out-of memory 'DuckDB' database for bulk analysis. [Issue for volunteering](https://github.com/ropensci/citesdb/issues/21).
 
 
 ### Call for comaintainers
