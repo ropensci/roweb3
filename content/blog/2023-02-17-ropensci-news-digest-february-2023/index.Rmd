@@ -62,8 +62,8 @@ Consult our [Events](/events) page to find your local time and how to join.
     - Talk to [Nick](/author/nicholas-tierney/) and discuss how to use these packages in your workflow.
     
 * [Tuesday, Apr 4th, 14:00 European Central / 12:00 UTC](/events/coworking-2023-04/) "Working with taxonomic lists in R" *Hosted by community host [Miguel Alvarez](/author/miguel-alvarez/) and [Steffi LaZerte](/author/steffi-lazerte/)*
-    - Explore R packages for working with lists (such as [taxlist](https://docs.ropensci.org/taxlist/))
-    - Organize some taxonomy in your data using taxlist
+    - Explore R packages for working with lists (such as [taxlist](https://docs.ropensci.org/taxlist/)),
+    - Organize some taxonomy in your data using taxlist,
     - Talk to [Miguel](/author/miguel-alvarez/) and discuss tips for working with taxonomic lists.
     
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
@@ -78,7 +78,7 @@ Eric Scott started the panel, sharing his [attempt to make it easy to set up tar
 
 You can see [the video](https://vimeo.com/795053980) and access to all the material (slides, code, and shared notes with transcription and Q&A) on the [community call webpage](/commcalls/jan2023-targets/).
 
-*What would YOU like to hear about in an rOpenSci Community Call?*, [let us know here](https://github.com/ropensci-org/community-calls)
+*What would YOU like to hear about in an rOpenSci Community Call?*, [let us know](https://github.com/ropensci-org/community-calls)
 
 ### The Champions Program is off to a great start in 2023!
 
