@@ -337,7 +337,7 @@ get_description <- function(body) {
     url <- "https://iecastro.netlify.com/"
   }
   if (url == "http://rwparsons.github.io/") {
-    url <- "http://rwparsons.github.io/"
+    url <- "https://rwparsons.github.io/"
   }
   if (url == "http://marceloarayasalas.weebly.com/") {
     url <- "https://marceloarayasalas.weebly.com/"
