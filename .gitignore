@@ -25,4 +25,4 @@ Thumbs.db
 index_cache
 resources/_gen
 .hugo_build.lock
-/layouts/
+/layouts/shortcodes/blogdown
