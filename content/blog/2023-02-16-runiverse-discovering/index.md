@@ -4,6 +4,7 @@ title: 'Finding the best R packages with r-universe'
 date: '2023-02-16'
 author: Jeroen Ooms
 description: 'The goal of r-universe is to provide a central place for browsing through the R ecosystem to discover what is out there, get a sense of the purpose and quality of individual packages, and help you get started in seconds.'
+photogallery: true
 tags:
   - r-universe
   - registry
@@ -11,8 +12,6 @@ tags:
   - packages
   - dashboard
 ---
-
-{{< load-photoswipe >}}
 
 ## Finding the right tool for the job
 

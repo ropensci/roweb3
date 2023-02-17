@@ -156,8 +156,3 @@ figcaption styles
 figcaption p {
     margin: auto; /* override style in theme */
 }
-
-/* hack for css conflict with class 'content' */
-.content .pswp {
-    margin-top: unset;
-}
