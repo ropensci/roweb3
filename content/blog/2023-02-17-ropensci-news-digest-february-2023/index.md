@@ -78,9 +78,7 @@ Stay tuned for more information about our mentors, champions, and their projects
 
 ## Software :package:
 
-### New packages
-
-
+### New package
 
 
 The following  package recently became a part of our software suite:
