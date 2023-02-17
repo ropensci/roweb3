@@ -1,7 +1,7 @@
 ---
 title: rOpenSci News Digest, February 2023
 author:
-  - Maëlle Salmon
+  - The rOpenSci Team
 date: '2023-02-17'
 slug: ropensci-news-digest-february-2023
 categories:
