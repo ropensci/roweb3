@@ -78,7 +78,16 @@ Stay tuned for more information about our mentors, champions, and their projects
 
 ## Software :package:
 
+### New packages
 
+
+
+
+The following  package recently became a part of our software suite:
+
++ [rb3](https://docs.ropensci.org/rb3), developed by Wilson Freitas together with Marcelo Perlin: Download and parse public files released by B3 and convert them into useful formats and data structures common to data analysis practitioners.  It is available on [CRAN]( https://CRAN.R-project.org/package=rb3). It has been [reviewed](https://github.com/ropensci/software-review/issues/534) by Pachá (aka Mauricio Vargas Sepúlveda) and Mario Gavidia Calderón.
+
+Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
 ### New versions
 
