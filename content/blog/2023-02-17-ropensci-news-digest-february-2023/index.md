@@ -78,22 +78,14 @@ Stay tuned for more information about our mentors, champions, and their projects
 
 ## Software :package:
 
-### New packages
 
-
-
-
-The following  package recently became a part of our software suite:
-
-
-
-Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
 ### New versions
 
 
 
-The following fifteen packages have had an update since the last newsletter: [cffr](https://docs.ropensci.org/cffr "Generate Citation File Format (cff) Metadata for R Packages") ([`v0.4.1`](https://github.com/ropensci/cffr/releases/tag/v0.4.1)), [datefixR](https://docs.ropensci.org/datefixR "Standardize Dates in Different Formats or with Missing Data") ([`v1.4.1`](https://github.com/ropensci/datefixR/releases/tag/v1.4.1)), [excluder](https://docs.ropensci.org/excluder "Checks for Exclusion Criteria in Online Data") ([`v0.5.0`](https://github.com/ropensci/excluder/releases/tag/v0.5.0)), [fingertipsR](https://docs.ropensci.org/fingertipsR "Fingertips Data for Public Health") ([`v1.0.10`](https://github.com/ropensci/fingertipsR/releases/tag/v1.0.10)), [gittargets](https://docs.ropensci.org/gittargets "Data Version Control for the Targets Package") ([`0.0.6`](https://github.com/ropensci/gittargets/releases/tag/0.0.6)), [hoardr](https://docs.ropensci.org/hoardr "Manage Cached Files") ([`v0.5.3`](https://github.com/ropensci/hoardr/releases/tag/v0.5.3)), [ijtiff](https://docs.ropensci.org/ijtiff "Comprehensive TIFF I/O with Full Support for ImageJ TIFF Files") ([`v2.3.0`](https://github.com/ropensci/ijtiff/releases/tag/v2.3.0)), [opentripplanner](https://docs.ropensci.org/opentripplanner "Setup and connect to OpenTripPlanner") ([`v0.5.1`](https://github.com/ropensci/opentripplanner/releases/tag/v0.5.1)), [osmdata](https://docs.ropensci.org/osmdata "Import OpenStreetMap Data as Simple Features or Spatial Objects") ([`v0.2.0`](https://github.com/ropensci/osmdata/releases/tag/v0.2.0)), [readODS](https://docs.ropensci.org/readODS "Read and Write ODS Files") ([`cran_v1.8`](https://github.com/ropensci/readODS/releases/tag/cran_v1.8)), [ReLTER](https://docs.ropensci.org/ReLTER "An Interface for the eLTER Community") ([`2.1.1`](https://github.com/ropensci/ReLTER/releases/tag/2.1.1)), [rerddap](https://docs.ropensci.org/rerddap "General Purpose Client for ERDDAP Servers") ([`v1.0.2`](https://github.com/ropensci/rerddap/releases/tag/v1.0.2)), [ruODK](https://docs.ropensci.org/ruODK "An R Client for the ODK Central API") ([`v1.4.0`](https://github.com/ropensci/ruODK/releases/tag/v1.4.0)), [terrainr](https://docs.ropensci.org/terrainr "Landscape Visualizations in R and Unity") ([`v0.7.3`](https://github.com/ropensci/terrainr/releases/tag/v0.7.3)), and [visdat](https://docs.ropensci.org/visdat "Preliminary Visualisation of Data") ([`v0.6.0`](https://github.com/ropensci/visdat/releases/tag/v0.6.0)).
+The following sixteen packages have had an update since the last newsletter: [cffr](https://docs.ropensci.org/cffr "Generate Citation File Format (cff) Metadata for R Packages") ([`v0.4.1`](https://github.com/ropensci/cffr/releases/tag/v0.4.1)), [datefixR](https://docs.ropensci.org/datefixR "Standardize Dates in Different Formats or with Missing Data") ([`v1.4.1`](https://github.com/ropensci/datefixR/releases/tag/v1.4.1)), [dynamite](https://docs.ropensci.org/dynamite "Bayesian Modeling and Causal Inference for Multivariate
+    Longitudinal Data") ([`1.2.0`](https://github.com/ropensci/dynamite/releases/tag/1.2.0)), [excluder](https://docs.ropensci.org/excluder "Checks for Exclusion Criteria in Online Data") ([`v0.5.0`](https://github.com/ropensci/excluder/releases/tag/v0.5.0)), [fingertipsR](https://docs.ropensci.org/fingertipsR "Fingertips Data for Public Health") ([`v1.0.10`](https://github.com/ropensci/fingertipsR/releases/tag/v1.0.10)), [gittargets](https://docs.ropensci.org/gittargets "Data Version Control for the Targets Package") ([`0.0.6`](https://github.com/ropensci/gittargets/releases/tag/0.0.6)), [hoardr](https://docs.ropensci.org/hoardr "Manage Cached Files") ([`v0.5.3`](https://github.com/ropensci/hoardr/releases/tag/v0.5.3)), [ijtiff](https://docs.ropensci.org/ijtiff "Comprehensive TIFF I/O with Full Support for ImageJ TIFF Files") ([`v2.3.0`](https://github.com/ropensci/ijtiff/releases/tag/v2.3.0)), [opentripplanner](https://docs.ropensci.org/opentripplanner "Setup and connect to OpenTripPlanner") ([`v0.5.1`](https://github.com/ropensci/opentripplanner/releases/tag/v0.5.1)), [osmdata](https://docs.ropensci.org/osmdata "Import OpenStreetMap Data as Simple Features or Spatial Objects") ([`v0.2.0`](https://github.com/ropensci/osmdata/releases/tag/v0.2.0)), [readODS](https://docs.ropensci.org/readODS "Read and Write ODS Files") ([`cran_v1.8`](https://github.com/ropensci/readODS/releases/tag/cran_v1.8)), [ReLTER](https://docs.ropensci.org/ReLTER "An Interface for the eLTER Community") ([`2.1.1`](https://github.com/ropensci/ReLTER/releases/tag/2.1.1)), [rerddap](https://docs.ropensci.org/rerddap "General Purpose Client for ERDDAP Servers") ([`v1.0.2`](https://github.com/ropensci/rerddap/releases/tag/v1.0.2)), [ruODK](https://docs.ropensci.org/ruODK "An R Client for the ODK Central API") ([`v1.4.0`](https://github.com/ropensci/ruODK/releases/tag/v1.4.0)), [terrainr](https://docs.ropensci.org/terrainr "Landscape Visualizations in R and Unity") ([`v0.7.4`](https://github.com/ropensci/terrainr/releases/tag/v0.7.4)), and [visdat](https://docs.ropensci.org/visdat "Preliminary Visualisation of Data") ([`v0.6.0`](https://github.com/ropensci/visdat/releases/tag/v0.6.0)).
 
 ## Software Peer Review
 
@@ -107,7 +99,7 @@ There are fourteen recently closed and active submissions and 2 submissions on h
 
 * Five at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
 
-     * [openalexR](https://github.com/ropensci/software-review/issues/560), Getting Bibliographic Records from OpenAlex Database Using DSL. Submitted by [Trang Le](https://trang.page). 
+     * [openalexR](https://github.com/ropensci/software-review/issues/560), Getting Bibliographic Records from OpenAlex Database Using DSL. Submitted by [Trang Le](https://trang.page/). 
 
     * [wmm](https://github.com/ropensci/software-review/issues/522), World Magnetic Model. Submitted by [Will Frierson](https://github.com/wfrierson). 
 

@@ -97,8 +97,6 @@ Stay tuned for more information about our mentors, champions, and their projects
 
 ## Software :package:
 
-### New packages
-
 ```{r new-packages, cache = TRUE}
 cran_unquote <- function(string) {
   gsub("\\'(.*?)\\'", "\\1", string)
@@ -168,87 +166,6 @@ new <- dplyr::filter(
   !grepl("ropensci-archive\\/", url)
 )
 ```
-
-
-The following `r if(nrow(new)>1) english(nrow(new))` package`r if(nrow(new)>1) "s"` recently became a part of our software suite:
-
-```{r, results='asis', cache = TRUE, eval=FALSE}
-packages <- split(new, seq(nrow(new)))
-present_one <- function(package) {
-  url_parts <- urltools::url_parse(package$url)
-  desc_link <- gh::gh(
-    "/repos/{owner}/{repo}/contents/{path}",
-    owner = strsplit(url_parts$path, "\\/")[[1]][1],
-    repo = strsplit(url_parts$path, "\\/")[[1]][2],
-    path = "DESCRIPTION"
-  ) %>%
-    purrr::pluck("download_url")
-  withr::with_tempfile(
-    "tf", {
-      download.file(desc_link, tf) 
-      desc <<- desc::desc(file = tf)
-    }
-  )
-  # as in pkgdown
-  authors <- unclass(desc$get_authors())
-  aut <- purrr::keep(authors, function(x) {any( x$role %in% "aut") && all(x$role != "cre") })
-  aut <- purrr::map_chr(aut, function(x) paste(x$given, x$family))
-  rev <- purrr::keep(authors, function(x) {any( x$role %in% "rev") && all(x$role != "cre") })
-  rev <- purrr::map_chr(rev, function(x) paste(x$given, x$family))
-  maintainer <- purrr::keep(authors, function(x) {any( x$role %in% "cre") })
-  maintainer <- paste(c(maintainer[[1]]$given, maintainer[[1]]$family), collapse = " ")
-  
-  author_string <- sprintf("developed by %s", maintainer)
-  
-  if (length(aut) > 0) {
-    author_string <- paste0(author_string, sprintf(" together with %s", nice_string(aut)))
-  } 
-  
-  string <- sprintf(
-    "[%s](https://docs.ropensci.org/%s), %s: %s. ",
-    package$package, 
-    package$package, 
-    author_string,
-    stringr::str_remove(stringr::str_squish(package$details), "\\.$")
-  )
-  
-  if (package$on_cran) {
-    string <- paste0(
-      string, 
-      sprintf(
-        " It is available on [CRAN]( https://CRAN.R-project.org/package=%s). ",
-        package$package
-      )
-    )
-  }
-  if (package$on_bioc) {
-    string <- paste0(
-      string, sprintf(
-        " It is available on [Bioconductor](https://bioconductor.org/packages/%s/). ",
-        package$package
-      )
-    )
-  }
-  if (nzchar(package$onboarding)) {
-    string <- paste0(string, sprintf("It has been [reviewed](%s)", package$onboarding))
-    if (length(rev) > 0) {
-      string <- paste0(string, sprintf(" by %s.", nice_string(rev)))
-    } else {
-      string <- paste0(string, ".")
-    }
-  }
-  
-  paste("+", string)
-
-}
-text <- purrr::map_chr(
-  packages,
-  present_one
-)
-cat(paste0(text, collapse = "\n\n"))
-```
-
-Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
 ### New versions
 
