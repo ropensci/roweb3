@@ -127,7 +127,6 @@
 {{ else }}
 <script type="text/javascript" src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
 {{ if .Params.photogallery }}
-<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
 <script src={{ "js/load-photoswipe.js" | relURL }}></script>
 
 <!-- Photoswipe css/js libraries -->
