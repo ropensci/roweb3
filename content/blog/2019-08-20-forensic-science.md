@@ -4,6 +4,7 @@ title: Introducing Open Forensic Science in R
 author: Sam Tyner
 date: '2019-08-20'
 topicid: 1805
+photogallery: true
 preface: This work was funded by a [2018 rOpenSci Research Fellowship](/blog/2018/02/14/announcing-2018-ropensci-fellows/)
   to Sam Tyner. See the [related post](https://forensicstats.org/news-posts/discover-forensic-applications-of-the-statistical-language-r-in-new-csafe-book)
   from the Center for Statistics and Applications in Forensic Evidence (CSAFE).
@@ -34,9 +35,9 @@ CSAFE is [committed](https://forensicstats.org/blog/2017/11/29/open-source-softw
 
 The chapter ["Firearms: bullets"](https://sctyner.github.io/OpenForSciR/bullets.html) begins by introducing the reader to the terminology of firearms and bullets, and describes the methods used in forensic science to compare bullets. Then, the chapter discusses the open source work by current and former CSAFE researchers. Three dimensional bullet scans, the data of interest, are stored in the [x3p](https://sourceforge.net/p/open-gps/mwiki/X3p/) standard format, and the R package [`x3ptools`](https://heike.github.io/x3ptools/) is used to read the bullet scans in R [^1]. Then, the bullet data are analyzed with the [`bulletxtrctr`](https://heike.github.io/bulletxtrctr/) package [^2]. Each bullet is comprised of many surface scans corresponding to the number of [lands](https://sctyner.github.io/OpenForSciR/glossary.html#def:gunbarrel) on the bullet which came in contact with the gun barrel when fired. The number of surface scans varies by type and manufacturer of the gun. For a comparison of two bullets, a representative cross-section of each 3D surface scan is selected, the curve is removed, some noise is removed, and only the smoothed *bullet signature* remains. (See Figure 2.) This procedure is repeated for all lands of the bullets of interest, and the signatures are compared to each other using a trained random forest available in the package, resulting in scores from zero to one indicating how similar the two signatures are [^3]. In this case, bullets 1 and 2 were fired from the same gun, which can be seen by comparing the bullet 1 lands 2, 3, 4, 5, 6, 1 to the bullet 2 lands 3, 4, 5, 6, 1, 2, respectively. For complete details, see the [Case Study](https://sctyner.github.io/OpenForSciR/bullets.html#case-study-1) section of the chapter. 
 
-{{< gallery caption="Figure 2: At left, the representative cross-sections from two bullets with 6 lands each. At right, the resulting smoothed bullet signatures (dark gray) and the raw signatures (light gray).">}}
-{{< img src="https://sctyner.github.io/OpenForSciR/open-forensic-science-in-r_files/figure-html/bullets-cscrosscut-1.png" width="50%" >}} 
-{{< img src="https://sctyner.github.io/OpenForSciR/open-forensic-science-in-r_files/figure-html/bullets-cssigs-1.png" width="50%"  >}}
+{{< gallery caption="Figure 2: At left, the representative cross-sections from two bullets with 6 lands each. At right, the resulting smoothed bullet signatures (dark gray) and the raw signatures (light gray)." >}}
+{{< figureforgallery src="https://sctyner.github.io/OpenForSciR/open-forensic-science-in-r_files/figure-html/bullets-cscrosscut-1.png" width="50%" >}} 
+{{< figureforgallery src="https://sctyner.github.io/OpenForSciR/open-forensic-science-in-r_files/figure-html/bullets-cssigs-1.png" width="50%"  >}}
 {{< /gallery >}}
 
 
