@@ -11,11 +11,6 @@ tags:
   - tech notes
 ---
 
-<small><em>This post is part of a series of technotes about [r-universe](https://r-universe.dev), a new umbrella project by rOpenSci under which we experiment with various ideas for improving publication and discovery of research software in R.
-As the project evolves, we will post updates to document features and technical details.
-For more information, visit the [r-universe project page](/r-universe/).</em></small>
-
-
 ## Badges in r-universe
 
 After [creating your personal universe](/blog/2021/06/22/setup-runiverse/), the dashboard on `https://{yourname}.r-universe.dev` shows the version and other details for each package in your repository. We have also added a new tab that lists the available badges for the repository.

@@ -12,10 +12,6 @@ tags:
   - dashboard
 ---
 
-<small><em>This post is part of a series of technotes about [r-universe](https://r-universe.dev), a new umbrella project by rOpenSci under which we experiment with various ideas for improving publication and discovery of research software in R.
-As the project evolves, we will post updates to document features and technical details.
-For more information, visit the [r-universe project page](/r-universe/).</em></small>
-
 ## Running your own package registry
 
 Tiny update for [r-universe](https://r-universe.dev) users who run their own package registry: we have changed the preferred git repo name where you host your `packages.json` registry file.
