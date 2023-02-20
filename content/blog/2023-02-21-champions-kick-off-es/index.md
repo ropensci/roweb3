@@ -1,9 +1,9 @@
 ---
-title: Ya empezó nuestro programa de campeonas y campeones
+title: Puntapié inicial de nuestro programa de campeonas y campeones
 author: 
     - Yanina Bellini Sainbene
-date: '2022-11-30T00:00:01-07:00'
-slug: 
+date: '2023-02-21T00:00:01-07:00'
+slug: champions-program-kick-off-es
 tags:
   - community
   - champions
@@ -11,10 +11,10 @@ tags:
   - español
 feature: true  
 # description: 
-tweet: "" 
+preface: "[See the English version of this blog post](/blog/2023/02/09/champions-program-kick-off/)" 
 ---
 
-El programa de campeones arrancó con todo este 2023.
+## ¡El programa de campeones arrancó con todo este 2023!
 
 Durante los meses de septiembre a noviembre de 2022 realizamos el lanzamiento y primer llamado del programa de campeones de rOpenSci.
 
