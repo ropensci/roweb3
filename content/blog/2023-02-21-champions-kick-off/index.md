@@ -29,7 +29,7 @@ The mentors will accompany their mentees throughout the process of executing the
 These first participants are from **Argentina, Brazil, Peru, Nigeria, Turkey, Australia, France, Norway, Saudi Arabia, the United States, and the United Kingdom**.
 
 
-<FIXME: add collage with champions and mentors pictures>
+{{< figure src="ourteam.png" alt="Collage of headshot of all champions and mentors." >}}
 
 
 ## Kick-off meetings

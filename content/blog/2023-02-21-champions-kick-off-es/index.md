@@ -16,26 +16,38 @@ preface: "[See the English version of this blog post](/blog/2023/02/09/champions
 
 ## ¡El programa de campeones arrancó con todo este 2023!
 
-Durante los meses de septiembre a noviembre de 2022 realizamos el lanzamiento y primer llamado del programa de campeones de rOpenSci.
+Nos complace informar sobre los dos primeros meses de nuestro primer programa [de campeones y campeonas](/champions/). En septiembre de 2022 hicimos el lanzamiento del programa, anunciando el llamado a aplicar a personas que quisieran participar.
 
-Recibimos un total de 102 aplicaciones de 31 países diferentes. 74 aplicaciones fueron para ser campeones y 28 para ser mentores.
+Recibimos un total de 102 solicitudes de 31 países diferentes. Setenta y cuatro solicitudes eran para campeones o campeonas y veintiocho para tareas de mentoreo. La comunidad de rOpenSci está muy agradecida con todas las personas que se han interesado y aplicaron a nuestro programa.
 
-Los campeones podían seleccionar una de tres opciones de proyectos, el 51% seleccionó desarrollar un nuevo paquete, el 25% seleccionó ser parte de nuestro proceso de revisión y  el 24% eligió enviar un paquete a nuestro proceso de revisión por pares. 
+Las y los aspirantes podían elegir una de tres opciones de proyecto: El **51%** optó por **desarrollar un nuevo paquete**, el **25%** por participar en nuestro **proceso de revisión** y el **24%** por **presentar un paquete a nuestro proceso de revisión** por pares.
 
-<FIX ME: Mapa del mundo con los países coloreados según el número de aplicaciones. Se ven aplicaciones en America, Europa, Oceania, Asia y Africa (en ese orden con respecto de la cantidad).>
 
-Después de una cuidadosa revisión de cada aplicación, seleccionamos 10 campeones y 10 mentores para esta primera cohorte.  Tres de nuestros campeones desarrollarán un nuevo paquete, cuatro prepararán y enviarán su paquete al proceso de revisión y tres se convertirán en revisores de rOpenSci.  Los menores acompañarán a sus mentoreados durante todo el proceso de ejecución de su proyecto.
+{{< figure src="countriesApplications.png" alt="Mapa del mundo con los países coloreados según el número de solicitudes. Se muestran aplicaciones en América, Europa, Oceanía, Asia y África (en ese orden con respecto al número de solicitudes)." >}}
 
-Estos primeros participantes son de Argentina, Brasil, Perú, Nigeria, Turquía, Australia, Francia, Noruega, Arabia Saudita, Estados Unidos y Reino Unido. 
+Después de revisar cuidadosamente cada solicitud, seleccionamos diez campeonas/es y diez mentoras/es para esta primera cohorte.  **Tres** personas **desarrollarán un nuevo paquete**, **cuatro** **prepararán y someterán su paquete al proceso de revisión**, y **tres** **se convertirán en revisores y revisoras de rOpenSci**.
+
+Los mentores y las mentoras acompañarán a sus campeones y campeonas durante todo el proceso de ejecución de sus proyectos.
+
+Las personas de esta primera cohorte proceden de **Argentina, Brasil, Perú, Nigeria, Turquía, Australia, Francia, Noruega, Arabia Saudí, Estados Unidos y Reino Unido**.
+
+{{< figure src="ourteam.png" alt="Collage de fotos de los y las participantes." >}}
+
 
 ## Inicio de actividades
 
-Como lo teníamos programado, durante Enero realizamos las reuniones de inicio del programa. Debido a las diferencias en las zonas horarias, estamos realizando al menos dos versiones de todos los eventos programados. 
+En enero celebramos las reuniones de lanzamiento del programa. Debido a que nuestros y nuestras participantes tienen una distribución geográfica tan amplia, tuvimos (y tendremos) al menos dos horarios diferentes para todas las actividades planificadas con el fin de adaptarnos a la amplitud de las zonas horarias.
 
-Durante esas reuniones tanto mentores como campeones se presentaron, compartieron de donde son, de que se trata tu proyecto y algo que los entusiasma del programa.   También repasamos la logística del programa, la agenda potencial y las actividades programadas.  En estos encuentros se notó el entusiasmo de todos los participantes por aprender, compartir y ejecutar sus proyectos.
+Durante estas reuniones, los y las participantes se presentaron, compartieron de dónde son, de qué trata su proyecto y algo que les entusiasmara del programa. También repasamos la logística, la posible agenda y las actividades programadas.  Nos llenó de satisfacción ver el entusiasmo de las personas participantes por aprender, compartir, ejecutar sus proyectos y devolver algo a la comunidad.
 
 ## Capacitación
 
-Durante Febrero y Marzo tanto campeones como mentores recibirán entrenamiento en diferentes temas que les brindarán herramientas útiles para poder realizar sus proyectos.
+Durante febrero y marzo, los y lsa participantes recibirán entrenamiento sobre distintos temas que les proporcionarán herramientas útiles para llevar a cabo sus proyectos.
 
-En los meses de Abril y Mayo realizaremos una serie de talleres para aquellas personas que no fueron seleccionadas para ser campeones. Estos talleres estarán orientados a herramientas para el desarrollo de software.  Esperamos que esta oferta pueda servir para ganar habilidades para sus tareas de desarrolladores de software de investigación y estar mejor posicionados en futuras aplicaciones a este u otros programas similares.  Estaremos publicando detalles sobre estas capacitaciones en el mes de Marzo. 
+También nos complace anunciar que en abril y mayo realizaremos talleres para quienes no hayan sido seleccionados para ser parte de esta primera cohortes. Estos talleres brindarán a todas las personas que aplicaron la oportunidad de desarrollar habilidades en el desarrollo de software de código abierto para apoyar sus oportunidades profesionales, así como futuras solicitudes a este u otros programas similares.  En marzo publicaremos más detalles sobre estos talleres.
+
+Durante febrero y marzo, los campeones y mentores recibirán formación sobre distintos temas que les proporcionarán herramientas útiles para llevar a cabo sus proyectos.
+
+También nos complace anunciar que en abril y mayo realizaremos talleres para quienes no hayan sido seleccionados para ser campeones. Estos talleres brindarán a todos los solicitantes la oportunidad de desarrollar habilidades en el desarrollo de software de código abierto para apoyar sus oportunidades profesionales, así como futuras solicitudes a este u otros programas similares.  En marzo publicaremos más detalles sobre estos talleres.
+
+Mantente alerta para conocer más sobre esta primera cohorte y sus proyectos.
