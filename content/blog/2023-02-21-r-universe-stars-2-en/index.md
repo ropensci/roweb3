@@ -7,7 +7,7 @@ author:
   - Alejandra Bellini
   - Lucio Casalla  
   - Steffi LaZerte
-date: '2023-02-09'
+date: '2023-02-23'
 tags:
   - community
   - r-universe
@@ -15,7 +15,7 @@ tags:
   - r-universe-stars
 # The summary below will be used by e.g. Twitter cards
 description: ""
-preface: "[Lee la versión en español de este artículo](/blog/2023/02/21/r-universe-stars-2-es/), [Lire la version française de cet article](/blog/2023/02/21/r-universe-stars-2-fr/)"
+preface: "[Lee la versión en español de este artículo](/blog/2023/02/23/r-universe-stars-2-es/), [Lire la version française de cet article](/blog/2023/02/23/r-universe-stars-2-fr/)"
 ---
 
 ThinkR is synonymous with experts and leaders in R training with people passionate about open source and contributors to the community. This is what you can read on their [website](https://rtask.thinkr.fr) and this is how you can introduce Sébastien Rochette, a passionate person.
