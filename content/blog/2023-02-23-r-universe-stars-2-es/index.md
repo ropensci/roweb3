@@ -2,10 +2,11 @@
 title: "Aprender, ayudar y compartir. El método de ThinkR para crear una comunidad cada vez más grande y amigable de R"
 author: 
 - Yanina Bellini Saibene
+- Sébastien Rochette
 - Alejandra Bellini 
 - Lucio Casalla 
 - Steffi LaZerte
-date: '2023-02-09'
+date: '2023-02-23'
 slug: r-universe-stars-2-es
 tags:
   - community
