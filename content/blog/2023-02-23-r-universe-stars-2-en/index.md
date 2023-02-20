@@ -39,12 +39,14 @@ Sébastien explains that at ThinkR they apply a work logic that links teaching w
 
 This also involves sharing their knowledge through [blog posts](https://rtask.thinkr.fr/blog/) and [tutorials](https://thinkr.fr/blog/), a [book](https://engineering-shiny.org/), their presence and funding of conferences, and other remote or on-site community events.
 
-
 ## Open source
 
 The third part Sébastien talks about is open source. He explains that in the company they dedicate at least one day a week to open-source developments. They understand that the whole company works on open source and that it is important to give back to the community through the development and contribution of R packages. 
 
 ThinkR develops multiple packages for their own needs, and the vast majority of them are open-source. If it is useful for them, it can be useful for others. Indeed, among these packages, you will find tools to help develop documented, tested and maintainable R products: [{fusen}](https://thinkr-open.r-universe.dev/fusen#) to ease the build and the share of prod-ready R packages while staying in a Rmarkdown environment, [{golem}](https://thinkr-open.r-universe.dev/golem#) to structure the build of prod-ready shiny apps, [{attachment}](https://thinkr-open.r-universe.dev/attachment) to help deal with package dependencies or [{checkhelper}](https://thinkr-open.r-universe.dev/checkhelper#) to automate some extra checks before CRAN submission. 
+
+
+{{< figure src = "R-universe thinkr-open.png" class = "center" width = "600" alt = "ThinkR R Universe screenshot" caption = "<center><strong>ThinkR R-Universe</strong></center>">}}
 
 There are other tools in the [ThinkR r-universe](https://thinkr-open.r-universe.dev/) to present the quality of your R work like {gitdown}, {testdown}, tools to help in project management with external tools like {gitlabr}, {togglr}, {todoist}, … It all comes down to providing tools that allow more and more people to build robust, sustainable and maintainable foundations to work with their data, analyze it and share it in an easier way.
 

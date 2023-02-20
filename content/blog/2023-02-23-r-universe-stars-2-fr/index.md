@@ -47,6 +47,8 @@ La troisième partie dont Sébastien parle est l'open-source. Il explique que da
 
 ThinkR développe de nombreux packages pour ses propres besoins, et la grande majorité d'entre eux sont open-source. Si ces packages sont utiles pour eux, ils peuvent l'être pour d'autres. Ainsi, parmi ces paquets, vous trouverez des outils pour aider à développer des produits R documentés, testés et maintenables : [{fusen}](https://thinkr-open.r-universe.dev/fusen) pour faciliter la construction et le partage de paquets R prêts à l'emploi tout en restant dans un environnement Rmarkdown, [{golem}](https://thinkr-open.r-universe.dev/golem) pour structurer la construction d'applications Shiny prêtes la production, [{attachment}](https://thinkr-open.r-universe.dev/attachment) pour aider à gérer les dépendances des packages ou [{checkhelper}](https://thinkr-open.r-universe.dev/checkhelper) pour automatiser certaines vérifications supplémentaires avant la soumission au CRAN. 
 
+{{< figure src = "R-universe thinkr-open.png" class = "center" width = "600" alt = "ThinkR R Universe" caption = "<center><strong>ThinkR R-Universe</strong></center>">}}
+
 Il existe d'autres outils dans le [ThinkR r-universe](https://thinkr-open.r-universe.dev/) pour présenter la qualité de votre travail R comme {gitdown} et {testdown}, des outils pour aider à la gestion de projet avec des outils externes comme {gitlabr}, {togglr}, {todoist}, ... Tout cela ramène à fournir des outils qui permettent à de plus en plus de personnes de construire des fondations robustes, durables et maintenables pour travailler avec leurs données, les analyser et les partager de manière plus facile.
 
 ## Expérience avec le “R Universe”

@@ -49,6 +49,8 @@ La tercera parte de la que habla Sébastien es el código abierto. Explica que e
 
 ThinkR desarrolla múltiples paquetes para sus propias necesidades, y la gran mayoría de ellos son de código abierto. Si es útil para ellos, puede serlo para otras personas. De hecho, entre estos paquetes, encontrarás herramientas que ayudan a desarrollar productos de R documentados, probados y mantenibles: [{fusen}](https://thinkr-open.r-universe.dev/fusen#) para facilitar la construcción y distribución de paquetes R listos para producción mientras se permanece en un entorno Rmarkdown, [{golem}](https://thinkr-open.r-universe.dev/golem#) para estructurar la construcción de aplicaciones shiny listas para producción, [{attachment}](https://thinkr-open.r-universe.dev/attachment) para ayudar a lidiar con las dependencias de paquetes o [{checkhelper}](https://thinkr-open.r-universe.dev/checkhelper#) para automatizar algunas comprobaciones extra antes del envío a CRAN. 
 
+{{< figure src = "R-universe thinkr-open.png" class = "center" width = "600" alt = "Captura de pantalla del R-Universe de ThinkR" caption = "<center><strong>ThinkR R-Universe</strong></center>">}}
+
 Hay otras herramientas en el [Universo R de ThinkR](https://thinkr-open.r-universe.dev/) para presentar la calidad de tu trabajo en R como {gitdown}, {testdown}, herramientas para ayudar en la gestión de proyectos con herramientas externas como {gitlabr}, {togglr}, {todoist}, ... Todo se reduce a proporcionar herramientas que permitan a más y más personas construir bases robustas, sostenibles y mantenibles para trabajar con sus datos, analizarlos y compartirlos de una manera más sencilla.
 
 ## La experiencia en el Universo R 
