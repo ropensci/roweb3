@@ -34,28 +34,33 @@ En esta explicación resumida de su trabajo, Sébastien explica de una manera si
 
 > “Ayudar a más personas a adquirir las habilidades necesarias para trabajar con R, difundir y compartir ese aprendizaje, y contribuir a ampliar una comunidad R acogedora y amigable.”
 
-Lo que ThinkR busca es que los clientes puedan utilizar las herramientas que les ofrecen de manera autónoma y que sigan desarrollandolas y así lograr que la comunidad de R y los usuarios sean cada vez más. _“Si los clientes quieren volver, los recibimos con las puertas abiertas”_, explica Sébastien y agrega: _“pero queremos tener cada vez más usuarios para tener una comunidad cada vez más grande y amigable”_. La autonomía para trabajar de los clientes es un valor importante dentro de la compañía. 
+Lo que ThinkR busca es que sus clientes sean independientes al final de cada servicio, ya sea de formación o de desarrollo a medida. De este modo, los clientes pueden continuar el desarrollo por sí mismos. _“Si los clientes quieren volver, los recibimos con las puertas abiertas”_, explica Sébastien y agrega: _“pero si consideran que son lo suficientemente autónomos como para continuar por sí mismos, también nos alegramos, ya que principalmente buscamos una comunidad R más grande y amigable.”_ La autonomía de los clientes para trabajar es un valor importante dentro de la empresa.
 
 ## El valor de la enseñanza 
 
-Sébastien explica que en ThinkR aplican una lógica de trabajo que relaciona la enseñanza con la consultoría: _“Para ser buen docente, hay que meter las manos en el código y así conocer los desafío de los clientes (...) y para ser un buen consultor tienes que enseñar para poder explicar de manera clara y sencilla lo que haces, cómo y porqué lo haces”_. Es por esto que en la compañía intentan pasar tiempo en ambos lugares: en la docencia y en la consultoría.
+Sébastien explica que en ThinkR aplican una lógica de trabajo que relaciona la enseñanza con la consultoría: _“Para ser buen docente, hay que meter las manos en el código y así conocer los desafíos de tus clientes (...) y para ser un buen consultor tienes que enseñar para poder explicar de manera clara y sencilla lo que haces, cómo y porqué lo haces”_. Es por esto que en la empresa intentan pasar tiempo en ambos lugares: en la docencia y en la consultoría.
+
+Esto también implica compartir sus conocimientos a través de [artículos de blog](https://rtask.thinkr.fr/blog/) y [tutoriales](https://thinkr.fr/blog/), un [libro](https://engineering-shiny.org/), presencia y financiación de conferencias y otros eventos comunitarios a distancia o in situ.
 
 ## Código abierto
 
-La tercera parte de la que habla Sébastien es el código abierto y explica que en la compañía le dedican un día a la semana porque entienden que trabajan sobre código abierto y por eso es importante para la comunidad que ellos participen construyendo nuevos paquetes y no sólo para utilizar lo que ya existe. Muchos de los paquetes que desarrollan para su empresa los comparten con la comunidad porque están convencidos que si les sirve a ellos también puede servirle a alguien más. Todo se reduce a proporcionar herramientas que le permita cada vez a más personas trabajar con sus datos, analizarlos y compartilos de una manera mucho más sencilla. 
+La tercera parte de la que habla Sébastien es el código abierto. Explica que en la empresa dedican al menos un día a la semana a desarrollos de código abierto. Entienden que toda la empresa trabaja con código abierto y que es importante devolver algo a la comunidad a través del desarrollo y la contribución de paquetes R. 
+
+ThinkR desarrolla múltiples paquetes para sus propias necesidades, y la gran mayoría de ellos son de código abierto. Si es útil para ellos, puede serlo para otras personas. De hecho, entre estos paquetes, encontrarás herramientas que ayudan a desarrollar productos de R documentados, probados y mantenibles: [{fusen}](https://thinkr-open.r-universe.dev/fusen#) para facilitar la construcción y distribución de paquetes R listos para producción mientras se permanece en un entorno Rmarkdown, [{golem}](https://thinkr-open.r-universe.dev/golem#) para estructurar la construcción de aplicaciones shiny listas para producción, [{attachment}](https://thinkr-open.r-universe.dev/attachment) para ayudar a lidiar con las dependencias de paquetes o [{checkhelper}](https://thinkr-open.r-universe.dev/checkhelper#) para automatizar algunas comprobaciones extra antes del envío a CRAN. 
+
+Hay otras herramientas en el [Universo R de ThinkR](https://thinkr-open.r-universe.dev/) para presentar la calidad de tu trabajo en R como {gitdown}, {testdown}, herramientas para ayudar en la gestión de proyectos con herramientas externas como {gitlabr}, {togglr}, {todoist}, ... Todo se reduce a proporcionar herramientas que permitan a más y más personas construir bases robustas, sostenibles y mantenibles para trabajar con sus datos, analizarlos y compartirlos de una manera más sencilla.
 
 ## La experiencia en el Universo R 
 
-Para cumplir con el objetivo de ayudar a sus clientes de la manera más sencilla posible es que la compañía llega al [Universo R]() donde pueden registrar cada uno de los procesos y las herramientas desarrolladas de manera ordenada y con información útil. 
+Para cumplir con el objetivo de ayudar a sus clientes de la manera más sencilla posible es que la compañía llega al Universo R donde pueden registrar cada uno de los procesos y las herramientas desarrolladas de manera ordenada y con información útil. 
 En el video que incluye esta nota podrán ver un ejemplo de cómo Sébastien y ThinkR se ven en el Universo R.
 
-## Universo R
 
-ThinkR encontró en R-universe una plataforma flexible para poder publicar y generar los instaladores de todos sus paquetes.  Esta funcionalidad hace mas sencillo el acceso y uso de sus paquetes por parte de sus clientes, que pueden instalarlos de la forma que ya conocen siendo transparente para ellos el origen del paquete (R-universe, CRAN or GitHub). 
+ThinkR encontró en R-universe una plataforma flexible para poder publicar y generar los instaladores de todos sus paquetes. Esta funcionalidad facilita a sus clientes el acceso y uso de las últimas versiones de sus paquetes. Los usuarios pueden instalar los paquetes de la forma que ya conocen, siendo transparentes sobre el origen, y reduciendo las limitaciones de las instalaciones directas de GitHub.
 
-También facilita la actualización y disponibilidad de estos paquetes porque R-universe no tiene políticas de cambios y actualizaciones estrictas y con tiempos límites, como en CRAN, por ejemplo. 
+También facilita la actualización y disponibilidad de estos paquetes porque R-Universe no tiene políticas de cambios y actualizaciones estrictas y con tiempos límites, como en CRAN, por ejemplo. 
 
-Finalmente, encuentran muy útiles la funcionalidad de generar las viñetas y que estén disponibles en el espacio del paquete en R-universe.
+Finalmente, encuentran muy útiles la funcionalidad de generar las viñetas y que estén disponibles en el espacio del paquete en R-Universe.
 
 
 ## Video de la entrevista
