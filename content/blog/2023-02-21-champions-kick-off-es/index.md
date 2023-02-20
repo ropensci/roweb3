@@ -10,7 +10,7 @@ tags:
   - spanish
   - español
 feature: true  
-# description: 
+description: "El programa de campeones y campeonas ya inició las primeras actividades de este 2023. Lee de donde son los y las participantes y que van a estar haciendo."
 preface: "[See the English version of this blog post](/blog/2023/02/21/champions-program-kick-off/)" 
 ---
 
