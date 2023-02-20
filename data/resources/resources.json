@@ -90,6 +90,11 @@
    "url": "https://github.com/ropensci-org"
 },
 {
+   "title": "r-universe GitHub Organization",
+   "text": "R-universe infrastructure.",
+   "url": "https://github.com/r-universe-org"
+},
+{
    "title": "ropensci-archive GitHub Organization",
    "text": "Abandoned projects.",
    "url": "https://github.com/ropensci-archive"
