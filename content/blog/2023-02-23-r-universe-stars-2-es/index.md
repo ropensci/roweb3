@@ -1,5 +1,5 @@
 ---
-title: "Aprender, ayudar y compartir: el método de ThinkR para crear una comunidad cada vez más grande y amigable de R"
+title: "Aprender, ayudar y compartir. El método de ThinkR para crear una comunidad cada vez más grande y amigable de R"
 author: 
 - Yanina Bellini Saibene
 - Alejandra Bellini 

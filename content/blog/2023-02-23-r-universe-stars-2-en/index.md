@@ -1,6 +1,6 @@
 ---
 slug: "r-universe-stars-2-en"
-title: "Teach, help, and share: ThinkR's approach to contribute to a growing and friendly R community"
+title: "Teach, help, and share. ThinkR's approach to contribute to a growing and friendly R community"
 author:
   - Yanina Bellini Saibene
   - Sébastien Rochette

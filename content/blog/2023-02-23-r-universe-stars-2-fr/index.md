@@ -1,5 +1,5 @@
 ---
-title: "Enseigner, aider et partager : l'approche de ThinkR pour contribuer à la croissance d’une communauté R conviviale"
+title: "Enseigner, aider et partager. L'approche de ThinkR pour contribuer à la croissance d’une communauté R conviviale"
 author: 
 - Yanina Bellini Saibene
 - Sébastien Rochette
