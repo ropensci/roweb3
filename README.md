@@ -248,7 +248,7 @@ Note that main.min.css that contains all the CSS is stored under themes/ropensci
     * change its pre-header (use the YAML field "description"). 
     * Send test email.
     * After checking it send to all recipients.
-* Tweet about the newsletter from rOpenSci account, highlighting some numbers.
+* Tweet & toot about the newsletter from rOpenSci account, highlighting some numbers.
 
 Review criteria: anything looks weird? (need to fix upstream data or code?). Special focus on manually updated sections.
 
