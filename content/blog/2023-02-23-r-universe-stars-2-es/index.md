@@ -67,4 +67,4 @@ Finalmente, encuentran muy útiles la funcionalidad de generar las viñetas y qu
 
 Si quieres escuchar más detalles sobre la experiencia, no dejes de ver al protagonista en el vídeo con extractos de la entrevista. Puedes activar los subtítulos.
 
-{{< vimeo id= title="Entrevista a Sébastien Rochette" >}}
+{{< vimeo id=800166375 title="Entrevista a Sébastien Rochette" >}}
