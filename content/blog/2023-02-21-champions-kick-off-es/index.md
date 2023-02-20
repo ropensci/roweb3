@@ -11,7 +11,7 @@ tags:
   - español
 feature: true  
 # description: 
-preface: "[See the English version of this blog post](/blog/2023/02/09/champions-program-kick-off/)" 
+preface: "[See the English version of this blog post](/blog/2023/02/21/champions-program-kick-off/)" 
 ---
 
 ## ¡El programa de campeones arrancó con todo este 2023!
