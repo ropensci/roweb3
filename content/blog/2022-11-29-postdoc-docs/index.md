@@ -12,10 +12,6 @@ tags:
   - postdoc
 ---
 
-<small><em>This post is part of a series of technotes about [r-universe](https://r-universe.dev), a new umbrella project by rOpenSci under which we experiment with various ideas for improving publication and discovery of research software in R.
-As the project evolves, we will post updates to document features and technical details.
-For more information, visit the [r-universe project page](/r-universe/).</em></small>
-
 ## Two new packages!
 
 We released two new packages that we are using in [r-universe](https://r-universe.dev) to render package documentation: [postdoc](https://docs.ropensci.org/postdoc/) and [prismjs](https://docs.ropensci.org/prismjs/).
