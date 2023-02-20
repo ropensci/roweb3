@@ -16,22 +16,23 @@ tags:
   - spanish
 featured: true
 description: "Una nueva entrega de nuestra serie de entrevistas __\"Conociendo a las estrellas del universo R\"__. Nos vamos a Francia para conocer más de cerca el trabajo que hace la gente de ThinkR."
-preface: "[See the English version of this blog post](/blog/2023/02/09/r-universe-stars-2-en/)"
+preface: "[See the English version of this blog post](/blog/2023/02/09/r-universe-stars-2-en/),
+[Lire la version française de cet article](/blog/2023/02/23/r-universe-stars-2-fr/)"
 ---
 
-[ThinkR]() es sinónimo de expertos y líderes en formación en R con personas apasionadas por el código abierto y los colaboradores. Así puede leerse en su página web y así puede introducirse a [Sébastien Rochette](), un apasionado.
+ThinkR es sinónimo de expertos y líderes en formación en R con personas apasionadas por el código abierto y colaboradores de la comunidad. Así puede leerse en su [página web](https://rtask.thinkr.fr) y así puede introducirse a Sébastien Rochette, un apasionado.
 
 
-Según su propia explicación, el trabajo que realiza desde hace 10 años en la compañía francesa consiste en dar cursos, enseñar y también asesorar acerca de R. El trabajo se divide en dos, la mitad para enseñar y la mitad para desarrollar su propio software: 
+Según su propia explicación, el trabajo que realiza desde hace 5 años en la compañía francesa consiste en enseñar, desarrollar y también asesorar a los clientes acerca de R. El trabajo se divide en dos, la mitad para enseñar y la mitad para desarrollar herramientas de R: 
 
-> “Lo que nos gusta hacer es conocer y saber absolutamente todo lo que podamos sobre R para ayudar a nuestros clientes a seguir trabajando con R y lograr ir más allá en sus compañías”.
+> “Lo que nos gusta es aprender todo lo que podamos sobre R para poder ayudar a nuestros clientes a seguir trabajando con R y lograr ir más allá en sus compañías”.
 
 
-ThinkR cuenta con una certificación del estado francés que les costó mucho trabajo conseguir y garantiza la calidad de la enseñanza. Sébastian explica que tienen tres niveles de formación: _“El primer nivel es para principiantes donde se explica qué es R, como construir algo reproducible y analizable con R para poder trabajar con sus propios datos. El segundo nivel es cómo desarrollar paquetes de R porque estamos convencidos de que la mejor manera de compartir tu trabajo es a través de paquetes. Y el tercer nivel es para aprender a construir aplicaciones, para producir y para eso necesitas del nivel anterior, necesitas saber cómo construir paquetes.”_
+ThinkR está certificada por el Estado francés para poder impartir certificaciones R oficiales.  Esto exige una rigurosa auditoría para garantizar la calidad de la enseñanza y del apoyo a los estudiantes. Sébastien explica que tienen [tres niveles de formación en R](https://rtask.thinkr.fr/remote-trainings-and-certification/): "El primer nivel es para principiantes, en el que se explica qué es R y cómo crear análisis de datos reproducibles y documentados con R, de modo que puedas obtener rápidamente todas las herramientas esenciales para trabajar con tus propios datos. El segundo nivel es cómo desarrollar paquetes de R porque estamos convencidos de que la mejor forma de compartir y cooperar en un trabajo sostenible es a través de paquetes. Y el tercer nivel es aprender a construir aplicaciones Shiny listas para producción, para lo cual, necesitarás saber cómo construir paquetes." Todos los cursos se imparten a distancia, en grupos reducidos, en una plataforma web preinstalada que han desarrollado, llamada [Bakacode](https://thinkr.fr/what-is-bakacode.pdf), que garantiza que el material del curso, R y todos los paquetes necesarios ya están instalados y disponibles cuando los asistentes se conectan.
 
-En esta explicación resumida de su trabajo Sébastien explica de una manera simple el propósito de la organización: 
+En esta explicación resumida de su trabajo, Sébastien explica de una manera simple el propósito de la organización: 
 
-> “Ayudar a más personas para que puedan trabajar con R, difundir y compartir ese aprendizaje.”
+> “Ayudar a más personas a adquirir las habilidades necesarias para trabajar con R, difundir y compartir ese aprendizaje, y contribuir a ampliar una comunidad R acogedora y amigable.”
 
 Lo que ThinkR busca es que los clientes puedan utilizar las herramientas que les ofrecen de manera autónoma y que sigan desarrollandolas y así lograr que la comunidad de R y los usuarios sean cada vez más. _“Si los clientes quieren volver, los recibimos con las puertas abiertas”_, explica Sébastien y agrega: _“pero queremos tener cada vez más usuarios para tener una comunidad cada vez más grande y amigable”_. La autonomía para trabajar de los clientes es un valor importante dentro de la compañía. 
 
