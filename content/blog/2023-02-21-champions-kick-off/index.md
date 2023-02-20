@@ -2,7 +2,7 @@
 title: rOpenSci Champions Program Kick off
 author: 
   - Yanina Bellini Saibene
-date: '2023-01-21T00:00:01-06:00'
+date: '2023-02-21T00:00:01-06:00'
 slug: champions-program-kick-off
 tags:
   - community
