@@ -1,6 +1,6 @@
 ---
 slug: "r-universe-stars-2-en"
-title: "Teach, help, and share. ThinkR's approach to contribute to a growing and friendly R community"
+title: "Meeting the Stars of the R-universe: ThinkR's Approach to Contributing to a Growing and Friendly R Community"
 author:
   - Yanina Bellini Saibene
   - Sébastien Rochette
@@ -17,20 +17,20 @@ tags:
 description: ""
 preface: "[Lee la versión en español de este artículo](/blog/2023/02/23/r-universe-stars-2-es/), [Lire la version française de cet article](/blog/2023/02/23/r-universe-stars-2-fr/)"
 ---
-
+This is the second post of our interview series [“Meeting the stars of the R-universe”](/tags/r-universe-stars/). We aim to introduce the working groups and people behind the development of software and packages many of us use and which are available through the R-universe. We want to highlight and explore different teams and projects around the world, the work they do, their processes and users. We continue our journey in France with Sébastien Rochette, R Expert at [ThinkR](https://rtask.thinkr.fr), a company focused on teaching and training as well as developing open source R packages. Be sure to watch the [video](2023/02/23/r-universe-stars-2-en/#video-of-the-interview) at the end with excerpts from the interview.
 ThinkR is synonymous with experts and leaders in R training with people passionate about open source and contributors to the community. This is what you can read on their [website](https://rtask.thinkr.fr) and this is how you can introduce Sébastien Rochette, a passionate person.
 
 According to his own explanation, the work he has been doing for 5 years in the French company consists of teaching, developing and also advising clients about R. The work is divided in two, half to teach and half to develop R tools:
 
-> "What we like to do is learn as much as we can about R so that we can help our clients continue to work with R and go further in their business missions."
+> What we like to do is learn as much as we can about R so that we can help our clients continue to work with R and go further in their business missions.
 
 ThinkR is certified by the French state to be able to deliver official R certifications.  This requires a rigorous audit to ensure the quality of the teaching and of the support of the learners. Sébastien explains that they have [three levels of R training](https://rtask.thinkr.fr/remote-trainings-and-certification/): "The first level is for beginners where they explain what R is and how to build reproducible and documented data analyses with R, so you can quickly get all essential tools to work with your own data. The second level is how to develop R packages because we are convinced that the best way to share and cooperate on a sustainable work is through packages. And the third level is to learn how to build production-ready Shiny applications, for which, you will need to know how to build packages." All courses are given remotely, in small groups, on a pre-installed web platform they developed, called [Bakacode](https://thinkr.fr/what-is-bakacode.pdf), which ensures course material, R and all necessary packages are already installed and available when attendees connect.
 
 In a summarized explanation of his work, Sébastien explains in a simple way the purpose of the organization: 
 
-> "To help more people to get the skills to work with R, to spread and share that learning, and help expand a welcoming and friendly R community".
+> To help more people to get the skills to work with R, to spread and share that learning, and help expand a welcoming and friendly R community.
 
-ThinkR is looking for their customers to be independent at the end of each service, whether it be training or tailored development. This way, clients can continue the development by themselves. "If customers want to come back, we welcome them with open doors" Sébastien explains and adds, "but if they consider them autonomous enough to continue by themselves, we are happy too as we mainly seek a bigger and friendlier R community." The clients' autonomy to work is an important value within the company.
+ThinkR wants their clients to be independent at the end of each service, whether it be training or tailored development. This way, clients can continue the development by themselves. "If customers want to come back, we welcome them with open doors" Sébastien explains and adds, "but if they consider them autonomous enough to continue by themselves, we are happy too as we mainly seek a bigger and friendlier R community." Clients' ability to work autonomously is an important value within the company.
 
 
 ## The value of teaching
@@ -46,20 +46,20 @@ The third part Sébastien talks about is open source. He explains that in the co
 ThinkR develops multiple packages for their own needs, and the vast majority of them are open-source. If it is useful for them, it can be useful for others. Indeed, among these packages, you will find tools to help develop documented, tested and maintainable R products: [{fusen}](https://thinkr-open.r-universe.dev/fusen#) to ease the build and the share of prod-ready R packages while staying in a Rmarkdown environment, [{golem}](https://thinkr-open.r-universe.dev/golem#) to structure the build of prod-ready shiny apps, [{attachment}](https://thinkr-open.r-universe.dev/attachment) to help deal with package dependencies or [{checkhelper}](https://thinkr-open.r-universe.dev/checkhelper#) to automate some extra checks before CRAN submission. 
 
 
-{{< figure src = "R-universe thinkr-open.png" class = "center" width = "600" alt = "ThinkR R Universe screenshot" caption = "<center><strong>ThinkR R-Universe</strong></center>">}}
+{{< figure src = "R-universe thinkr-open.png" class = "center" width = "600" alt = "Screenshot of the ThinkR R-universe landing page featuring packages 'checkhelper', 'fusen', 'covrpage', and 'gitlabr'" caption = "<center><strong>ThinkR R-universe</strong></center>">}}
 
 There are other tools in the [ThinkR r-universe](https://thinkr-open.r-universe.dev/) to present the quality of your R work like {gitdown}, {testdown}, tools to help in project management with external tools like {gitlabr}, {togglr}, {todoist}, … It all comes down to providing tools that allow more and more people to build robust, sustainable and maintainable foundations to work with their data, analyze it and share it in an easier way.
 
 
-## The R Universe experience
+## The R-universe experience
 
-In order to meet the objective of helping its clients in the simplest way possible, the company has reached the R Universe where they can register each of the processes and tools developed in an orderly manner and with useful information. In the video included in this article you can see an example of how Sébastien and ThinkR see themselves in R-universe.
+In order to meet the objective of helping their clients in the simplest way possible, ThinkR uses the R-universe to list each of the tools they have developed in an orderly manner and with useful information. In the video interview included in this article you can see an example of how Sébastien and ThinkR see themselves in the R-universe.
 
-ThinkR found in R-universe a flexible platform to publish and generate the installers of all its packages. This functionality makes it easier for its customers to access and use the last versions of its packages. Clients can install packages in the way they already know, being transparent on the origin, and reducing the limitations of direct GitHub installations.  
+ThinkR found in the R-universe a flexible platform to publish and generate the installers of all their packages. This functionality makes it easier for their clients and others to access and use the latest package versions. Package origins are transparent and they have avoided the limitations of direct GitHub installations.  
 
-It also facilitates the update and availability of these packages because R-universe does not have strict and time-bound change and update policies, as in CRAN, for example.  
+It also facilitates the update and availability of these packages because R-universe does not have strict and time-bound change and update policies.  
 
-Finally, they find useful the functionality to generate the vignettes and make them available in the package space of the R-universe.
+Finally, they find the ability to generate vignettes and make them available in the R-universe useful.
 
 ## Video of the interview
 
