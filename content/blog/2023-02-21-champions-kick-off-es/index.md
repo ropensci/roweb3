@@ -47,6 +47,5 @@ Durante febrero y marzo, los y las participantes recibirán entrenamiento sobre 
 También nos complace anunciar que en abril y mayo realizaremos talleres para quienes no hayan sido seleccionados para ser parte de esta primera cohortes. Estos talleres brindarán a todas las personas que aplicaron la oportunidad de desarrollar habilidades en el desarrollo de software de código abierto para apoyar sus oportunidades profesionales, así como futuras solicitudes a este u otros programas similares.  En marzo publicaremos más detalles sobre estos talleres.
 
 
-También nos complace anunciar que en abril y mayo realizaremos talleres para quienes no hayan sido seleccionados para ser campeones. Estos talleres brindarán a todos los solicitantes la oportunidad de desarrollar habilidades en el desarrollo de software de código abierto para apoyar sus oportunidades profesionales, así como futuras solicitudes a este u otros programas similares.  En marzo publicaremos más detalles sobre estos talleres.
 
 Mantente alerta para conocer más sobre esta primera cohorte y sus proyectos.
