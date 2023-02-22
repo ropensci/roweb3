@@ -19,27 +19,27 @@ tags:
 
 The hardest part about effectively using R is finding the best packages for the problem you are trying to solve. I think this is even more important than being fluent in the language itself, which you will pick up along the way as you start using R more frequently. However, building your code on reliable foundations is essential for good results, and difficult to fix later on in a project.
 
-There are about 20.000 packages on CRAN, and more on other networks such as BioConductor and GitHub. New packages are released every day. The developers are a mix of volunteers, ranging from professional software engineers to students and hobbyist. The quality and scope of packages varies enormously, which can make it difficult to know what tool is the best choice for a given task.
+There are about 20.000 packages on CRAN, and more on other networks such as BioConductor and GitHub. New packages are released every day. The developers are a mix of volunteers, ranging from professional software engineers to students and hobbyist. The quality and scope of packages varies enormously, which can make it difficult to judge which tools are the best choice for a given task.
 
 The ultimate goal of r-universe is to help you effectively navigate the R ecosystem to discover what is out there, get a sense of the purpose and quality of individual packages, their developers, and get started using packages immediately and without any hassle.
 
 ## Three levels of navigation in r-universe
 
-We can distinguish three levels of navigation to explore R packages in r-universe:
+We can distinguish three levels of navigation in r-universe:
 
  1. Search the global ecosystem: find packages, by topic, keyword, ranking, etc.
  2. Browse by maintainer/organization: explore all work from a given group or researcher.
- 3. Zoom in to the individual package: detailed information on everything there is to know about a project and instructions to start using it.
+ 3. The individual package: get detailed information on everything there is to know about a project and instructions how to start using it.
 
-If you are new to R, or are exploring packages for a certain task, you may start by searching everything that is out there using the r-universe search engine. Once you become more familiar with the ecosystem, you may get interested to zoom in and learn more about a specific suite of packages from a given organization, and the details of individual packages.
+If you are new to R or are exploring packages for a certain task, you may start by searching everything that is out there using the r-universe search engine. Once you become more familiar with the ecosystem, you may get interested to zoom in to a specific suite of packages from a given maintainer or organization, and eventually learn more about the details of some particular packages.
 
 ## Level 1: searching the entire R ecosystem
 
-The landing page on https://r-universe.dev takes you directly to the global search engine. Here you can perform free-text search for a keyword, which is matched against package names, descriptions, topics, and titles of manual pages, vignettes, and so on. Results are ordered using a combination of a matching score (how often, and where, the search term appears in the package), and a quality ranking[^1].
+The landing page on https://r-universe.dev takes you directly to the global search engine. Here you can perform free-text search for a keyword, which is matched against package names, descriptions, topics, and titles of manual pages, vignettes, and so on. Results are ordered using a combination of a matching score (how often and where the search term appears), and a quality ranking[^1].
 
 {{< figureforgallery src="search1.png" alt="Screenshot of r-universe search engine landing page." >}}
 
-Moreover the page above also shows a shuffeling list of organizations publishing packages (sorted by recent activity) which is fun to discover what is currently being developed in the R ecosystem.
+Moreover the search page also shows a shuffeling list of organizations (sorted by recent activity) which is fun to discover what is currently being developed in the R ecosystem.
 
 {{< gallery >}}
 {{< figureforgallery src="search2.png" alt="Screenshot of r-universe simple search results." >}}
@@ -56,9 +56,9 @@ Each user and organization in r-universe has a unique subdomain under `r-univers
 
 {{< figureforgallery src="user1.png" alt="Screenshot of builds tab of a repository." >}}
 
-The top tabs allow you to explore different resources in this universe. The __builds__ tab shows  the current state of the repository: a table with the name and version of each package, including the commit date, author, and build status. Clicking on the package name in the table sends you to the homepage of the package (more on this below), and the maintainer name links to the subdomain of that maintainer, listing other projects maintained by this person.
+The top tabs allow you to explore different resources within universe. The __builds__ tab shows  the current state of the repository: a table with the name and version of each package, including the commit date, author, and build status. Clicking on the package name in the table sends you to the homepage of the package (more on this below), and the maintainer name links to the subdomain of that maintainer, listing other projects maintained by this person.
 
-The __packages__ tab on each universe lists descriptions from all packages in the repository, and the __articles__ tab shows all articles (e.g. vignettes). The __contributors__ tab shows contributor statistics for the organization or maintainer. Clicking on the names again allows you to navigate to another universe, to explore work by this other person.
+The __packages__ tab lists descriptions from all packages in the repository, and the __articles__ tab shows all articles (e.g. vignettes). The __contributors__ tab shows a chart with contributor statistics for the organization or maintainer. Clicking on the a bar in the chart sends you to this other universe where you can explore more work by this person.
 
 {{< gallery >}}
 {{< figureforgallery src="user2.png" alt="Screenshot of packages tab of a repository." >}}
@@ -66,7 +66,7 @@ The __packages__ tab on each universe lists descriptions from all packages in th
 {{< figureforgallery src="user4.png" alt="Screenshot of contributors tab of a repository." >}}
 {{< /gallery >}}
 
-The same subdomain hosts the actual cran-like package repository for this user or organization. Hence in order to list or install packages in R from ropensci, you would use for example:
+The same subdomain hosts the actual cran-like package repository for this user or organization. Hence in order to list or install packages from ropensci in R, you would use:
 
 ```r
 # List available packages
@@ -82,11 +82,11 @@ Finally we arrive at the individual package level. Clicking on a package in sear
 
 {{< figureforgallery src="package1.png" alt="Screenshot of r-universe package homepage" >}}
 
-The package homepages are generated automatically, provide detailed information about everything there is to know about a project, and make it easy to install the package locally and give it a try.
+These package pages are generated automatically and provide detailed information about each project, and all the information and resources to quickly install and try the package locally in R.
 
 ### Package desciptives
 
-The initial section of the homepage shows descriptive data and links to resources from this package, such as source/binary files, the package manual and NEWS file. Further down we show installation instructions to install the package in R. Installation is quick and easy because we provide pre-compiled binaries for Windows and MacOS, so no compilers are required on the user end.
+The initial section of the homepage shows descriptive data and links to resources from this package, such as source/binary files, the package manual and NEWS file. Further down we show installation instructions to install the package in R. Installation is quick and easy because we provide pre-compiled binaries for Windows and MacOS, so no special tools or setup is required on your end.
 
 {{< gallery >}}
 {{< figureforgallery src="package2.png" alt="Screenshot of r-universe package homepage with annotations." >}}
@@ -119,7 +119,7 @@ After the readme follows a section named "reference manual" containing a table w
 
 Besides familiarizing yourself with what the package does, you may be interested in who is working on it, who else is using it, and if it is still actively developed.
 
-The "contributors" section shows a bar chart with the number of commits per week for the last year, and who the main contributors are. Finally the section "usage by other packages" shows other packages on r-universe depending on this package, grouped by owner. This gives you some indication on how active the project is, and who are involved.
+The "development and contributors" section shows a bar chart with the number of commits per week for the last year, and who the main contributors are. Finally the section "usage by other packages" shows other packages on r-universe depending on this package, grouped by owner. This gives you some indication on how active the project is, and who are involved.
 
 {{< figureforgallery src="package7.png" alt="Screenshot of recent development activity and users of a package." >}}
 
