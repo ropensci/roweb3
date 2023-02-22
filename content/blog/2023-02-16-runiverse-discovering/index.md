@@ -1,6 +1,6 @@
 ---
 slug: runiverse-discovering
-title: 'Discovering and learning the best R packages using r-universe'
+title: 'Discovering and learning everything there is to know about R packages using r-universe'
 date: '2023-02-16'
 author: Jeroen Ooms
 description: 'The goal of r-universe is to provide a central place for browsing through the R ecosystem to discover what is out there, get a sense of the purpose and quality of individual packages, and help you get started in seconds.'
@@ -17,29 +17,29 @@ tags:
 
 ## Finding the right tool for the job
 
-The hardest part about effectively using R is finding the best packages for the problem you are trying to solve. I think this is even more important than being fluent in the language itself, which you will pick up along the way, as you start using R more frequently. However, building on solid foundations from the start is essential to getting reliable results, and increasingly difficult to fix later on in a project.
+The hardest part about effectively using R is finding the best packages for the problem you are trying to solve. I think this is even more important than being fluent in the language itself, which you will pick up along the way as you start using R more frequently. However, building your code on reliable foundations is essential for good results, and difficult to fix later on in a project.
 
-There are about 20.000 packages on CRAN alone, and more on other networks such as BioConductor and GitHub. New packages are released every day. The developers are a mix of volunteers, ranging from professional software engineers to students and hobbyist. The quality and scope of packages varies enourmously, which can make it difficult to know which tools are the best choice for a given task.
+There are about 20.000 packages on CRAN, and more on other networks such as BioConductor and GitHub. New packages are released every day. The developers are a mix of volunteers, ranging from professional software engineers to students and hobbyist. The quality and scope of packages varies enormously, which can make it difficult to know what tool is the best choice for a given task.
 
-The ultimate goal of r-universe is to help you effectively browse through the R ecosystem to discover what is out there, get a sense of the purpose and quality of individual packages and their developers, and get started using them immediately without any hassle.
+The ultimate goal of r-universe is to help you effectively navigate the R ecosystem to discover what is out there, get a sense of the purpose and quality of individual packages, their developers, and get started using packages immediately and without any hassle.
 
 ## Three levels of navigation in r-universe
 
-To browse through R packages in r-universe, we distinguish three levels of navigation:
+We can distinguish three levels of navigation to explore R packages in r-universe:
 
- 1. The global ecosystem level: search all packages, by topic, keyword, ranking, etc.
- 2. The maintainer/organization level: browse all work from a given group or researcher.
- 3. The individual package level: detailed information on everything there is to know about a single package and instructions to start using it.
+ 1. Search the global ecosystem: find packages, by topic, keyword, ranking, etc.
+ 2. Browse by maintainer/organization: explore all work from a given group or researcher.
+ 3. Zoom in to the individual package: detailed information on everything there is to know about a project and instructions to start using it.
 
-If you are new to R, or are exploring packages for a new project, you may start by searching everything that is out there using the r-universe search engine. Once you become more familiar with the ecosystem, you may get interested to zoom in further, to learn more about the suite of packages from a given organization, and the details of individual projects.
+If you are new to R, or are exploring packages for a certain task, you may start by searching everything that is out there using the r-universe search engine. Once you become more familiar with the ecosystem, you may get interested to zoom in and learn more about a specific suite of packages from a given organization, and the details of individual packages.
 
 ## Level 1: searching the entire R ecosystem
 
-The landing page on https://r-universe.dev takes you directly to the global search engine. Here you can perform free-text search for a keyword, which is matched against package names, descriptions, topics, and titles of manual pages, vignettes, and so on. Results are ordered using a combination of a matching score (how often, and where, the search term appears in the package), and a quality ranking.
+The landing page on https://r-universe.dev takes you directly to the global search engine. Here you can perform free-text search for a keyword, which is matched against package names, descriptions, topics, and titles of manual pages, vignettes, and so on. Results are ordered using a combination of a matching score (how often, and where, the search term appears in the package), and a quality ranking[^1].
 
 {{< figureforgallery src="search1.png" alt="Screenshot of r-universe search engine landing page." >}}
 
-The landing page above also shows a shuffeling list of organizations publishing packages (sorted by recent activity) that is fun to discover what is currently being developed in the R ecosystem.
+Moreover the page above also shows a shuffeling list of organizations publishing packages (sorted by recent activity) which is fun to discover what is currently being developed in the R ecosystem.
 
 {{< gallery >}}
 {{< figureforgallery src="search2.png" alt="Screenshot of r-universe simple search results." >}}
@@ -56,7 +56,7 @@ Each user and organization in r-universe has a unique subdomain under `r-univers
 
 {{< figureforgallery src="user1.png" alt="Screenshot of builds tab of a repository." >}}
 
-The top tabs allow you to explore different resources. The __builds__ tab shows  the current state of the repository: a table with the name and version of each package, including the commit date, author, and build status. Clicking on the package name in the table sends you to the homepage of the package (more on this below), and the maintainer name links to the subdomain of that maintainer, listing other projects maintained by this person.
+The top tabs allow you to explore different resources in this universe. The __builds__ tab shows  the current state of the repository: a table with the name and version of each package, including the commit date, author, and build status. Clicking on the package name in the table sends you to the homepage of the package (more on this below), and the maintainer name links to the subdomain of that maintainer, listing other projects maintained by this person.
 
 The __packages__ tab on each universe lists descriptions from all packages in the repository, and the __articles__ tab shows all articles (e.g. vignettes). The __contributors__ tab shows contributor statistics for the organization or maintainer. Clicking on the names again allows you to navigate to another universe, to explore work by this other person.
 
@@ -94,7 +94,7 @@ The initial section of the homepage shows descriptive data and links to resource
 {{< figureforgallery src="package4.png" alt="Screenshot of r-universe package: how to cite the package." >}}
 {{< /gallery >}}
 
-Below this you can find more information derived by the build system, such as which system libraries the package builds on, topics, and if the package is on CRAN. The badges show statistics about the package, such as dependencies, reverse dependencies, and GitHub stars. Clicking on the 'exports' badge will show a list of all functions and datasets exported by the package, which again link to the respective sections in the manual page. If available, we also show how the package should be cited in papers.
+You can also find more information derived by the build system, such as which system libraries the package builds on, topics, and if the package is on CRAN. The badges underneath show statistics about the package, such as dependencies, reverse dependencies, and GitHub stars. Clicking on the 'exports' badge will show all functions and datasets exported by the package, which again link to the respective sections in the manual page. If available, we also show how the package should be cited in papers.
 
 ### All the documentation
 
@@ -110,14 +110,14 @@ Most R packages have 3 forms of documentation: a readme file, a reference manual
 
 Further down the page you can see the content from the package readme. Most packages these days include a README.md file which can nicely be rendered into HTML.
 
-After the readme follows a section named "reference manual" containing a table with all the help pages. These link to the respective chapters in the html reference manual[^1], which provide the most extensive documentation for each function in the package, including descriptions, parameters, examples, etc.
+After the readme follows a section named "reference manual" containing a table with all the help pages. These link to the respective chapters in the html reference manual[^2], which provide the most extensive documentation for each function in the package, including descriptions, parameters, examples, etc.
 
 {{< figureforgallery src="refman.png" alt="Screenshot of a chapter in the HTML reference manual for a package, showing descriptions, parameters, and examples for a function." >}}
 
 
 ### Usage and development activity
 
-Finally, besides familiarizing yourself with what the package does, you may be interested in who is working on it, who else is using it, and if it is still actively developed.
+Besides familiarizing yourself with what the package does, you may be interested in who is working on it, who else is using it, and if it is still actively developed.
 
 The "contributors" section shows a bar chart with the number of commits per week for the last year, and who the main contributors are. Finally the section "usage by other packages" shows other packages on r-universe depending on this package, grouped by owner. This gives you some indication on how active the project is, and who are involved.
 
@@ -127,5 +127,5 @@ The "contributors" section shows a bar chart with the number of commits per week
 ## Conclusion
 
 
-[^1]: Blog post: [postdoc 1.0: minimal and uncluttered HTML package manuals](/blog/2022/11/29/postdoc-docs/).
-
+[^1]: More information about this ranking: [how is the package-rank score calculated](https://github.com/r-universe-org/help#how-is-the-package-rank-score-calculated)
+[^2]: Blog post: [postdoc 1.0: minimal and uncluttered HTML package manuals](/blog/2022/11/29/postdoc-docs/).
