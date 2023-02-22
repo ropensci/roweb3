@@ -8,6 +8,7 @@ photogallery: true
 featured: true
 tags:
   - r-universe
+  - tech notes
   - registry
   - search
   - packages
