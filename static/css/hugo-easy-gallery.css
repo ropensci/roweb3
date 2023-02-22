@@ -58,7 +58,7 @@ figure styles
 figure {
     position:relative; /* purely to allow absolution positioning of figcaption */
     overflow: hidden;
-
+    margin-bottom: 0;
 }
 .gallery figure {
     position: absolute;
