@@ -21,7 +21,7 @@ The hardest part about effectively using R is finding the best packages for the 
 
 There are about 20.000 packages on CRAN, and more on other networks such as BioConductor and GitHub. New packages are released every day. The developers are a mix of volunteers, ranging from professional software engineers to students and hobbyists. The quality and scope of packages varies enormously, which can make it difficult to judge which tools are the best choice for a given task.
 
-The ultimate goal of r-universe is to help you effectively navigate the R ecosystem to discover what is out there, get a sense of the purpose and quality of individual packages, their developers, and get started using packages immediately and without any hassle.
+The ultimate goal of [r-universe](https://r-universe.dev) is to help you effectively navigate the R ecosystem to discover what is out there, get a sense of the purpose and quality of individual packages, their developers, and get started using packages immediately and without any hassle.
 
 ## Three levels of navigation in r-universe
 
@@ -31,7 +31,7 @@ We can distinguish three levels of navigation in r-universe when you go shopping
  2. Browse by maintainer/organization: explore all work from a given group or researcher.
  3. The individual package: get detailed information on everything there is to know about a project and instructions to start using it.
 
-If you are new to R or are exploring packages for a certain task, you may start by searching everything that is out there using the r-universe search engine. Once you become more familiar with the ecosystem, you may become interested to zoom in to a specific suite of packages from a given maintainer or organization, and eventually learn more about the details of particular packages.
+If you are new to R or are exploring packages for a certain task, you may start by searching everything that is out there using the r-universe search engine. Once you become more familiar with the ecosystem, you may get interested to zoom in to a specific suite of packages from a given maintainer or organization, and eventually learn more about the details of particular packages.
 
 ## Level 1: searching the entire R ecosystem
 
