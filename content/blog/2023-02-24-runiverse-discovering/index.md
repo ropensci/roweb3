@@ -129,7 +129,7 @@ This post explained different ways in which you can use [r-universe](https://r-u
 
 Once you become more familiar with the ecosystem, you may get interested to zoom in to a specific suite of packages from a given group or researcher. The r-universe domain structure lets you browse packages and articles by organization, and discover related work with similar maintainers, contributors, or users.
 
-Finally, for each R package, r-universe provides a beautiful homepage containing a wealth of information on `https://{owner}.r-universe.dev/{package}`. This page gives a quick sense of what a package is about, who develops it, the status of the project, and also provides all nicely rendered documentation and installation instructions to start using the package immediately, without hassle.
+Finally, for each R package, r-universe provides a beautiful homepage containing a wealth of information at: `https://{owner}.r-universe.dev/{package}`. This page shows exactly what a package is about, who is developing it, the status of the project, and also provides all nicely rendered documentation and installation instructions to start using the package immediately, without hassle.
 
 
 [^1]: More information about this ranking: [how is the package-rank score calculated](https://github.com/r-universe-org/help#how-is-the-package-rank-score-calculated)
