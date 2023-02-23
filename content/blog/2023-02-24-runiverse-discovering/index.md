@@ -1,7 +1,7 @@
 ---
 slug: runiverse-discovering
 title: 'Discovering and learning everything there is to know about R packages using r-universe'
-date: '2023-02-16'
+date: '2023-02-24'
 author: Jeroen Ooms
 description: 'The goal of r-universe is to provide a central place for browsing through the R ecosystem to discover what is out there, get a sense of the purpose and quality of individual packages, and help you get started in seconds.'
 photogallery: true
@@ -25,7 +25,7 @@ The ultimate goal of r-universe is to help you effectively navigate the R ecosys
 
 ## Three levels of navigation in r-universe
 
-We can distinguish three levels of navigation in r-universe:
+We can distinguish three levels of navigation in r-universe when shopping for R packages:
 
  1. Search the global ecosystem: find packages, by topic, keyword, ranking, etc.
  2. Browse by maintainer/organization: explore all work from a given group or researcher.
