@@ -1,14 +1,16 @@
 ---
-slug: "post-template"
-title: Latest rOpenSci News Digest
+title: rOpenSci News Digest, February 2023
 author:
-  - The rOpenSci Team
-date: '2022-01-16'
+  - Maëlle Salmon
+date: '2023-02-17'
+slug: ropensci-news-digest-february-2023
+categories:
+  - blog
 tags:
   - newsletter
-description: keywords from the content
+description: R-universe improvements, coworking, champions program kick-off, targets community call resources and recording
 params:
-  last_newsletter: "2022-05-20"
+  last_newsletter: '2023-01-20'
 ---
 
 ```{r setup, include=FALSE}
@@ -40,13 +42,58 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-<!-- to be curated manually -->
+### R-universe improvements!
 
-<!-- Can use same coworking text every month and ping Steffi to ask if there are any special guests to add -->
-Join us for social coworking & office hours monthly on 1st Tuesdays! Hosted by Steffi LaZerte  and various community hosts. Everyone welcome. No RSVP needed. Consult our [Events](/events) page to find your local time and how to join.
+We have changed the preferred git repo name where you host your `packages.json` registry for R-universe, see our post [New preferred repo name for r-universe registries](/blog/2023/02/07/runiverse-registry-repo/).
+We now recommend to use the full lowercase name of your R-universe domain as the repo name, for instance `TileDB-Inc/tiledb-inc.r-universe.dev`.
+
+Speaking of domains and URLs, we have [improved the URL schema for the r-universe.dev front-end](/blog/2023/01/30/runiverse-permanent-urls/) to make it even easier to find and share a link to an R package, article, API, or other resource.
+
+### Coworking
+
+Join us for social coworking & office hours monthly on first Tuesdays! 
+Hosted by Steffi LaZerte and various community hosts. 
+Everyone welcome. 
+No RSVP needed. 
+Consult our [Events](/events) page to find your local time and how to join.
+
+* [Tuesday, Mar 7th, 9:00 Australian Western / 01:00 UTC](/events/coworking-2023-03/) "Checking data with naniar, visdat, assertr, and skimr" *Hosted by community host [Nick Tierney](/author/nicholas-tierney/) and [Steffi LaZerte](/author/steffi-lazerte/)*
+    - Explore documentation, use cases and tutorials on these packages, or check your data!
+    - Talk to [Nick](/author/nicholas-tierney/) and discuss how to use these packages in your workflow.
+    
+* [Tuesday, Apr 4th, 14:00 European Central / 12:00 UTC](/events/coworking-2023-04/) "Working with taxonomic lists in R" *Hosted by community host [Miguel Alvarez](/author/miguel-alvarez/) and [Steffi LaZerte](/author/steffi-lazerte/)*
+    - Explore R packages for working with lists (such as [taxlist](https://docs.ropensci.org/taxlist/)),
+    - Organize some taxonomy in your data using taxlist,
+    - Talk to [Miguel](/author/miguel-alvarez/) and discuss tips for working with taxonomic lists.
+    
+And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
+
+### Community Call {targets} in Action
+
+On January 31 we enjoyed a Community Call about the [targets package](https://books.ropensci.org/targets/).
+
+As the name of the call indicates, we had three presentations where the speakers shared their experiences putting targets into action.
+
+Eric Scott started the panel, sharing his [attempt to make it easy to set up targets to harness the power of HPC from the comfort of an RStudio window](https://cct-datascience.quarto.pub/harnessing-hpc-power-with-targets/).  Next, Joel Nitta talked about [using targets for bioinformatics pipelines](https://joelnitta.github.io/comm-call-bioinfo-targets/), and finally Will Landau demonstrated [how to debug {targets} pipelines](https://wlandau.github.io/targets-debug/).
+
+You can see [the video](https://vimeo.com/795053980) and access to all the material (slides, code, and shared notes with transcription and Q&A) on the [community call webpage](/commcalls/jan2023-targets/).
+
+*What would YOU like to hear about in an rOpenSci Community Call?*, [let us know](https://github.com/ropensci-org/community-calls).
+
+### The Champions Program is off to a great start in 2023!
+
+We started the 2023 activities of our champions program with two kick-off meetings. 
+
+During these meetings, [mentors and champions](/champions/) introduced themselves, shared where they are from, what their project is about, and something that excites them about the program. We also went over the logistics of the program, the potential agenda, and scheduled activities.  
+
+We have a diverse group of people from Argentina, Brazil, Peru, Nigeria, Turkey, Australia, France, Norway, Saudi Arabia, the United States, and the United Kingdom.
+
+We're excited to share that **three** of our champions will **develop a new package**, **four** will **prepare and submit their package to the review process**, and **three** will **become rOpenSci reviewers**. Mentors will work with their mentees throughout the process of executing their projects.
 
 
-Find out about more [events](/events).
+It was lovely to see the participants' enthusiasm to learn, share, execute their projects, and give back to the community!
+
+Stay tuned for more information about our mentors, champions, and their projects!
 
 ## Software :package:
 
@@ -114,19 +161,24 @@ old <- dplyr::filter(
   !grepl("ropensci-archive\\/", url)
 )
 
-new <- dplyr::filter(
-  registry,
-  !package %in% old$package,
-  !grepl("ropenscilabs\\/", url),
-  !grepl("ropensci-archive\\/", url)
+
+new <- tibble::tibble(
+  package = "rb3",
+  url = "https://github.com/ropensci/rb3",
+  on_bioc = FALSE,
+  on_cran = TRUE,
+  details = "Download and parse public files released by B3 and convert them
+    into useful formats and data structures common to data analysis
+    practitioners.",
+  onboarding = "https://github.com/ropensci/software-review/issues/534"
 )
 ```
 
 
 The following `r if(nrow(new)>1) english(nrow(new))` package`r if(nrow(new)>1) "s"` recently became a part of our software suite:
 
-```{r, results='asis', cache = TRUE}
-packages <- split(new, seq(nrow(new)))
+```{r, results='asis', cache = TRUE, eval=TRUE}
+packages <- list(new)
 present_one <- function(package) {
   url_parts <- urltools::url_parse(package$url)
   desc_link <- gh::gh(
@@ -183,12 +235,7 @@ present_one <- function(package) {
     )
   }
   if (nzchar(package$onboarding)) {
-    string <- paste0(string, sprintf("It has been [reviewed](%s)", package$onboarding))
-    if (length(rev) > 0) {
-      string <- paste0(string, sprintf(" by %s.", nice_string(rev)))
-    } else {
-      string <- paste0(string, ".")
-    }
+    string <- paste0(string, sprintf("It has been [reviewed](%s) by Pachá (aka Mauricio Vargas Sepúlveda) and Mario Gavidia Calderón.", package$onboarding))
   }
   
   paste("+", string)
@@ -276,12 +323,36 @@ get_description <- function(body) {
   list(name = name, description = description)
 }
 
+  fix_url <- function(url) {
+      if (url == "http://www.blackbawks.net") {
+    url <- "https://www.blackbawks.net"
+  }
+  if (url == "http://trang.page/") {
+    url <- "https://trang.page/"
+  }
+  if (url == "http://www.cynkra.com") {
+    url <- "https://www.cynkra.com"
+  }
+  if (url == "http://iecastro.netlify.com/") {
+    url <- "https://iecastro.netlify.com/"
+  }
+  if (url == "http://rwparsons.github.io/") {
+    url <- "https://rwparsons.github.io/"
+  }
+  if (url == "http://marceloarayasalas.weebly.com/") {
+    url <- "https://marceloarayasalas.weebly.com/"
+  }
+  if (url == "http://jounihelske.netlify.app/") {
+    url <- "https://jounihelske.netlify.app/"
+  }
+    url
+  }
 get_user_text <- function(issue) {
   info <- gh::gh("GET /users/{username}", username = issue$user$login)
   name <- info$name %||% issue$user$login
   url <- if (nzchar(info$blog)) info$blog else info$html_url
-  if (!grepl("^https?:", url)) url <- paste0("http://", url)
-  sprintf("[%s](%s)", name, url)
+  if (!grepl("^https?:", url)) url <- paste0("https://", url)
+  sprintf("[%s](%s)", name, fix_url(url))
   
 }
 
@@ -300,6 +371,7 @@ tidy_issue <- function(issue) {
     user = get_user_text(issue),
     stats = dplyr::if_else("stats" %in% purrr::map_chr(issue$labels, "name"), " (Stats).", "")
   )
+
   
   dplyr::rowwise(df) %>%
     dplyr::mutate(text = sprintf("    * [%s](%s), %s. Submitted by %s. %s", name, url, description, user, stats))
@@ -423,6 +495,11 @@ format_post <- function(post) {
   } else {
     string <- paste0(string, ".")  
   }
+  if (url == "/blog/2023/02/07/what-does-it-mean-to-maintain-a-package") {
+    string <- paste0(
+      string,
+      " This post was discussed on the [R Weekly highlights podcast](https://rweekly.fireside.fm/111) hosted by Eric Nantz and Mike Thomas.")
+  }
   
   if (post$twitterImg != "") {
     img_file <- fs::path_file(post$twitterImg)
@@ -478,54 +555,75 @@ if (length(tech_notes) > 0) {
 }
 ```
 
-## Use cases
-
-```{r usecases}
-# rerun get_use_cases.R at the same time
-usecases <- jsonlite::read_json("../../../data/usecases/usecases.json")
-get_one_case <- function(usecase) {
-  tibble::tibble(
-    title = usecase$title,
-    reporter = usecase$reporter,
-    url = usecase$url,
-    image = usecase$image,
-    date = anytime::anydate(usecase$date)
-  )
-}
-usecases <- purrr::map_df(usecases, get_one_case)
-usecases <- dplyr::filter(usecases, date >= as.Date(last_newsletter))
-usecases <- split(usecases, seq(nrow(usecases)))
-```
-
-`r snakecase::to_sentence_case(english(length(usecases)))` use case`r if (length(usecases) > 1) "s"` of our packages and resources ha`r if (length(usecases) > 1) "ve" else "s"` been reported since we sent the last newsletter.
-
-```{r usecases2, results='asis'}
-format_case <- function(usecase) {
-  string <- sprintf("* [%s](%s). Reported by %s.", sub("\\.$", "", usecase$title), usecase$url, usecase$reporter)
-}
-cat(
-  paste0(
-    purrr::map_chr(usecases, format_case),
-    collapse = "\n\n"
-  )
-)
-```
-
-Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)!
-
 ## Call for maintainers
 
-<!--IF CALL
-* [our guidance on _Changing package maintainers_](https://devguide.ropensci.org/changing-maintainers.html)
-* [our _Package Curation Policy_](https://devguide.ropensci.org/curationpolicy.html)
+### Call for maintainers
 
-IF NO CALL
-There are no open calls for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
-As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. -->
+If you're interested in maintaining any of the R packages below, you might enjoy reading our blog post [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/) (or listening to its discussion on the [R Weekly highlights podcast](https://rweekly.fireside.fm/111) hosted by Eric Nantz and Mike Thomas)!
+
+- **[citesdb](https://docs.ropensci.org/citesdb/)**, a high-performance database of shipment-level CITES trade data. Provides convenient access to over 40 years and 20 million records of
+endangered wildlife trade data from the Convention on International Trade
+in Endangered Species of Wild Fauna and Flora, stored on a local on-disk,
+out-of memory 'DuckDB' database for bulk analysis. [Issue for volunteering](https://github.com/ropensci/citesdb/issues/21).
+
+
+### Call for comaintainers
+
+- rtweet, that interfaces Twitter API, is looking for a [co-maintainer](https://github.com/ropensci/rtweet/issues/763).
+
+- Refer to our [recent blog post](/blog/2022/10/17/maintain-or-co-maintain-an-ropensci-package/#packages-looking-for-co-maintainers) to identify other packages where help is especially wished for!
 
 ## Package development corner
 
 Some useful tips for R package developers. :eyes:
+
+### New CRAN guideline on CITATION file
+
+CRAN requires CITATION files to be declared as [`bibentry` items](https://stat.ethz.ch/R-manual/R-devel/library/utils/html/bibentry.html), and not in the previously-accepted form of [`citEntry()`](https://stat.ethz.ch/R-manual/R-devel/library/utils/html/citEntry.html).
+As an example see [the dynamite CITATION file](https://github.com/ropensci/dynamite/blob/main/inst/CITATION) which refers to the R manual as well as other associated publications.
+
+### Reference organization: the `@family` tag
+
+In a package with more than a few help topics, reference organization is key to the user's experience.
+Alphabetical order is rarely informative. :wink:
+A powerful tool for organizing both the local and pkgdown reference is the [`@family` tag](https://roxygen2.r-lib.org/articles/index-crossref.html#family).
+
+```r
+#' @family datawrangling
+```
+
+- Locally it populates the "See also" section. You can tweak the title of the See also section for it not to be, say, "Other datawrangling" but rather "Data wrangling functionality", by having in `man/roxygen/meta.R`:
+
+```r
+list(
+  rd_family_title = list(datawrangling = "Data wrangling functionality")
+)
+```
+
+- In the pkgdown configuration for the reference index you can use [topic matching helpers](https://pkgdown.r-lib.org/reference/build_reference.html#topic-matching) such as `has_concept()` and `lacks_concepts()`.
+
+### Gotcha: `invisible()` needs `return()`
+
+The official man entry for `invisible()` [says that it](https://stat.ethz.ch/R-manual/R-devel/library/base/html/invisible.html):
+
+> Return[s] a (temporarily) invisible copy of an object"
+
+This might make it sound like `invisible()` directly implements an active **return** function, which it does not. While not strictly wrong, this statement is potentially misleading, especially followed as it is by the *Details*:
+
+> This function can be useful when it is desired to have functions return values which can be assigned, but which do not print when they are not assigned. 
+
+`invisible()` will only directly *return* from a function when it is wrapped in an active `return()` statement: `return(invisible())`; or when it's the very last line of the function code. 
+
+This is all very nicely explained by [Peter Meissner on Stack Overflow](https://stackoverflow.com/a/38905341).
+
+### A testing pattern: adding switches to your code
+
+A recent R-hub blog post [explains a pattern for testing your package's behavior in for instance the absence of an internet connection, without turning off wifi](https://blog.r-hub.io/2023/01/23/code-switch-escape-hatch-test/).
+It consists in using an early return in a helper function based on the presence of a specifically named environment variable (`MYPKG.TEST.NOINTERNET`) and on setting that environment variable locally in a test through `withr::local_envvar()`.
+
+### Code comments tips
+
+Another R-hub blog post [presents tips for writing as few comments as possible, while making the code as readable as possible](https://blog.r-hub.io/2023/01/26/code-comments-self-explaining-code/).
 
 <!-- To be curated by hand -->
 
@@ -533,4 +631,4 @@ Some useful tips for R package developers. :eyes:
 
 Thanks for reading! If you want to get involved with rOpenSci, check out our [Contributing Guide](https://contributing.ropensci.org) that can help direct you to the right place, whether you want to make code contributions, non-code contributions, or contribute in other ways like sharing use cases.
 
-If you haven't subscribed to our newsletter yet, you can [do so via a form](/news/). Until it's time for our next newsletter, you can keep in touch with us via our [website](/) and [Mastodon account](https://hachyderm.io/@rOpenSci).
+If you haven't subscribed to our newsletter yet, you can [do so via a form](/news/). Until it's time for our next newsletter, you can keep in touch with us via our [website](/) and [Twitter account](https://twitter.com/ropensci).
