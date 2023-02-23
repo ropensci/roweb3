@@ -126,6 +126,12 @@ The "development and contributors" section shows a bar chart with the number of 
 
 ## Conclusion
 
+This post explained different ways in which you can use [r-universe](https://r-universe.dev) to explore R packages. The [search engine](https://r-universe.dev/search) lets you find packages from anywhere in the ecosystem matching certain keywords or specific criteria. This is a good place to get stated and get a sense of what is available in a given domain.
+
+Once you become more familiar with the ecosystem, you may get interested to zoom in to a specific suite of packages from a given group or researcher. The r-universe domain structure lets you browse packages and articles by organization, and discover related work with similar maintainers, contributors, or users.
+
+Finally, for each R package, r-universe provides a beautiful homepage containing a wealth of information on `https://{owner}.r-universe.dev/{package}`. This page gives a quick sense of what a package is about, who develops it, and the status of the project, and also provides all documentation and installation instructions to start using the immediately, without hassle.
+
 
 [^1]: More information about this ranking: [how is the package-rank score calculated](https://github.com/r-universe-org/help#how-is-the-package-rank-score-calculated)
 [^2]: Blog post: [postdoc 1.0: minimal and uncluttered HTML package manuals](/blog/2022/11/29/postdoc-docs/).
