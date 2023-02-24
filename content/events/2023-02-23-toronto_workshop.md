@@ -10,7 +10,7 @@ attendees:
   - Yanina Bellini Saibene
 resources: # can be added later, one entry per talk (don't add while still empty, add once there are resources)
   - title: "rOpenSci. Reproducible Open Science for (and by) All"
-    speaker: Maëlle Salmon
+    speaker: Yanina Bellini Saibene
     slides: https://docs.google.com/presentation/d/1AA0k9D4BAR1sU6xHhBMMQdvAGw05LSXhg8b0K3nq88w/edit?usp=sharing
     language: en
 ---
