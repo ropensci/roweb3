@@ -15,4 +15,3 @@ resources: # can be added later, one entry per talk (don't add while still empty
     slides: https://docs.google.com/presentation/d/1DqWsaDkFZOMmxtcHt8Z6LBOLFUxhG4rMYICpAfYCuOw/edit?usp=sharing
     language: en
 ---
-
