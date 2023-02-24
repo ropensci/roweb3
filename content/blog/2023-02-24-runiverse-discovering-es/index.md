@@ -5,8 +5,8 @@ title: Descubrir y aprender todo lo que hay que saber sobre los paquetes de R ut
 date: '2023-02-24'
 author: Jeroen Ooms
 description: El objetivo de r-universe es proporcionar un lugar central para navegar
-  por el ecosistema de R y descubrir lo que hay ahí fuera, hacerse una idea de la
-  finalidad y la calidad de los paquetes individuales, y ayudarte a empezar en cuestión
+  por el ecosistema de R y descubrir lo que existe; hacerse una idea de la
+  finalidad y la calidad de cada paquete, y ayudar a empezar en cuestión
   de segundos.
 photogallery: yes
 featured: yes
@@ -19,21 +19,21 @@ tags:
 
 ## Encontrar la herramienta adecuada para el trabajo
 
-Lo más difícil de utilizar R con eficacia es encontrar los mejores paquetes para el problema que intentas resolver. Creo que esto es incluso más importante que dominar el lenguaje en sí, que irás adquiriendo a medida que empieces a utilizar R con más frecuencia. Sin embargo, construir tu código sobre bases fiables es esencial para obtener buenos resultados, y difícil de arreglar más adelante en un proyecto.
+Lo más difícil de usar R con eficacia es encontrar los mejores paquetes para el problema que intentas resolver. Creo que esto es incluso, más importante que dominar el lenguaje en sí. Cosa que irás adquiriendo a medida que empieces a utilizar R con más frecuencia. Sin embargo, construir tu código sobre bases fiables es esencial para obtener buenos resultados, y difícil de arreglar más adelante en un proyecto.
 
-Hay unos 20.000 paquetes en CRAN, y más en otras redes como BioConductor y GitHub. Todos los días se publican nuevos paquetes. Los desarrolladores son una mezcla de voluntarios, desde ingenieros de software profesionales hasta estudiantes y aficionados. La calidad y el alcance de los paquetes varían enormemente, lo que puede hacer difícil juzgar qué herramientas son la mejor opción para una tarea determinada.
+Hay unos 20.000 paquetes en CRAN, y más en otras redes como BioConductor y GitHub. Todos los días se publican nuevos paquetes. Las personas que desarrollan son una mezcla de voluntarios y voluntarias, desde ingenieros de software profesionales hasta estudiantes y aficionadas. La calidad y el alcance de los paquetes varían enormemente, lo que puede hacer difícil juzgar qué herramientas son la mejor opción para una tarea determinada.
 
-El objetivo último de [r-universo](https://r-universe.dev) es ayudarte a navegar eficazmente por el ecosistema de R para descubrir lo que hay ahí fuera, hacerte una idea de la finalidad y la calidad de los paquetes individuales, de sus desarrolladores, y empezar a utilizar los paquetes inmediatamente y sin complicaciones.
+El objetivo último de [r-universe](https://r-universe.dev) es ayudarte a navegar eficazmente por el ecosistema de R para descubrir lo que hay disponible, hacerte una idea de la finalidad y la calidad de cada paquete, del equipo que los desarrolla y empezar a utilizar estos paquetes inmediatamente y sin complicaciones.
 
-## Tres niveles de navegación en r-universo
+## Tres niveles de navegación en r-universe
 
-Podemos distinguir tres niveles de navegación en r-universo cuando vayas a comprar paquetes de R:
+Podemos distinguir tres niveles de navegación en r-universe cuando vayas a buscar paquetes de R:
 
 1. Buscar en el ecosistema global: encontrar paquetes, por tema, palabra clave, clasificación, etc.
-2. Busca por mantenedor/organización: explora todo el trabajo de un grupo o investigador determinado.
-3. El paquete individual: obtén información detallada sobre todo lo que hay que saber sobre un proyecto e instrucciones para empezar a utilizarlo.
+2. Busca por la persona/organización que lo mantiene: explora todo el trabajo de un grupo o de un investigador o investigadora particular.
+3. Busca por el paquete individual: obtén información detallada sobre todo lo que hay que saber sobre un proyecto e instrucciones para empezar a utilizarlo.
 
-Si eres nuevo en R o estás explorando paquetes para una determinada tarea, puedes empezar buscando todo lo que hay utilizando el motor de búsqueda r-universe. Una vez que te familiarices con el ecosistema, puede que te interese acercarte a un conjunto específico de paquetes de un determinado mantenedor u organización, y con el tiempo aprender más sobre los detalles de paquetes concretos.
+Si recien empiezas con R o estás explorando paquetes para una determinada tarea, puedes empezar buscando todo lo que hay utilizando el motor de búsqueda r-universe. Una vez que te familiarices con el ecosistema, puede que te interese acercarte a un conjunto específico de paquetes de una determinada persona u organización y con el tiempo aprender más sobre los detalles de paquetes concretos.
 
 ## Nivel 1: buscar en todo el ecosistema R
 
