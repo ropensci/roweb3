@@ -23,7 +23,7 @@ For the moment, based on internal discussions and [inspired by other communities
 
 * Continue to post on Twitter to ensure that we connect with as many people in our community as possible.
 
-* Continue to develop our [presence on Mastodon](https://fosstodon.org/web/@ropensci), the platform to which many of our community members have migrated.  
+* Continue to develop our [presence on Mastodon](https://hachyderm.io/@rOpenSci), the platform to which many of our community members have migrated.  
 
 * Explore alternative instances of Mastodon which would allow us to communicate in multiple languages (not only English) and collaborate with sister communities.
 
