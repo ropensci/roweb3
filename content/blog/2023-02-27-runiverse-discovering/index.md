@@ -1,7 +1,7 @@
 ---
 slug: runiverse-discovering
 title: 'Discovering and learning everything there is to know about R packages using r-universe'
-date: '2023-02-24'
+date: '2023-02-27'
 author: Jeroen Ooms
 description: 'The goal of r-universe is to provide a central place for browsing through the R ecosystem to discover what is out there, get a sense of the purpose and quality of individual packages, and help you get started in seconds.'
 photogallery: true

@@ -2,7 +2,7 @@
 slug: runiverse-discovering-es
 title: Descubrir y aprender todo lo que hay que saber sobre los paquetes de R utilizando
   r-universe
-date: '2023-02-24'
+date: '2023-02-27'
 author: Jeroen Ooms
 description: El objetivo de r-universe es proporcionar un lugar central para navegar
   por el ecosistema de R y descubrir lo que existe; hacerse una idea de la
