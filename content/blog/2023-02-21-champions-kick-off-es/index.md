@@ -1,7 +1,7 @@
 ---
 title: Puntapié inicial de nuestro programa de campeonas y campeones
 author: 
-    - Yanina Bellini Sainbene
+    - Yanina Bellini Saibene
 date: '2023-02-21T00:00:01-07:00'
 slug: champions-program-kick-off-es
 tags:
