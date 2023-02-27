@@ -55,19 +55,18 @@ La tercera parte de la que habla Sébastien es el código abierto. Explica que e
 
 ThinkR desarrolla múltiples paquetes para sus propias necesidades, y la gran mayoría de ellos son de código abierto. Si es útil para ellos, puede serlo para otras personas. De hecho, entre estos paquetes, encontrarás herramientas que ayudan a desarrollar productos de R documentados, probados y mantenibles: [{fusen}](https://thinkr-open.r-universe.dev/fusen#) para facilitar la construcción y distribución de paquetes R listos para producción mientras se permanece en un entorno Rmarkdown, [{golem}](https://thinkr-open.r-universe.dev/golem#) para estructurar la construcción de aplicaciones shiny listas para producción, [{attachment}](https://thinkr-open.r-universe.dev/attachment) para ayudar a lidiar con las dependencias de paquetes o [{checkhelper}](https://thinkr-open.r-universe.dev/checkhelper#) para automatizar algunas comprobaciones extra antes del envío a CRAN. 
 
-{{< figure src = "R-universe thinkr-open.png" class = "center" width = "600" alt = "Captura de pantalla del R-Universe de ThinkR" caption = "<center><strong>ThinkR R-Universe</strong></center>">}}
+{{< figure src = "R-universe thinkr-open.png" class = "center" width = "600" alt = "R-Universe de ThinkR" caption = "<center><strong>R-Universe de ThinkR</strong></center>">}}
 
-Hay otras herramientas en el [Universo R de ThinkR](https://thinkr-open.r-universe.dev/) para presentar la calidad de tu trabajo en R como {gitdown}, {testdown}, herramientas para ayudar en la gestión de proyectos con herramientas externas como {gitlabr}, {togglr}, {todoist}, ... Todo se reduce a proporcionar herramientas que permitan a más y más personas construir bases robustas, sostenibles y mantenibles para trabajar con sus datos, analizarlos y compartirlos de una manera más sencilla.
+Hay otras herramientas en el [Universo R de ThinkR](https://thinkr-open.r-universe.dev/). Todo se reduce a proporcionar herramientas que permitan a más y más personas construir bases robustas, sostenibles y mantenibles para trabajar con sus datos, analizarlos y compartirlos de una manera más sencilla.
 
 ## La experiencia en el Universo R 
 
 Para cumplir con el objetivo de ayudar a sus clientes de la manera más sencilla posible es que la compañía llega al Universo R donde pueden registrar cada uno de los procesos y las herramientas desarrolladas de manera ordenada y con información útil. 
 En el video que incluye esta nota podrán ver un ejemplo de cómo Sébastien y ThinkR se ven en el Universo R.
 
+ThinkR encontró en R-universe una plataforma flexible para poder publicar y generar los instaladores de todos sus paquetes. Esta funcionalidad facilita a sus clientes y a otras personas el acceso y uso de las últimas versiones de sus paquetes. Los orígenes de los paquetes son transparentes y han evitado las limitaciones de las instalaciones directas de GitHub.  
 
-ThinkR encontró en R-universe una plataforma flexible para poder publicar y generar los instaladores de todos sus paquetes. Esta funcionalidad facilita a sus clientes el acceso y uso de las últimas versiones de sus paquetes. Los usuarios pueden instalar los paquetes de la forma que ya conocen, siendo transparentes sobre el origen, y reduciendo las limitaciones de las instalaciones directas de GitHub.
-
-También facilita la actualización y disponibilidad de estos paquetes porque R-Universe no tiene políticas de cambios y actualizaciones estrictas y con tiempos límites, como en CRAN, por ejemplo. 
+También facilita la actualización y disponibilidad de estos paquetes porque R-universe no tiene políticas de cambio y actualización estrictas y con tiempos límites.  
 
 Finalmente, encuentran muy útiles la funcionalidad de generar las viñetas y que estén disponibles en el espacio del paquete en R-Universe.
 

@@ -54,7 +54,7 @@ ThinkR develops multiple packages for their own needs, and the vast majority of 
 
 {{< figure src = "R-universe thinkr-open.png" class = "center" width = "600" alt = "Screenshot of the ThinkR R-universe landing page featuring packages 'checkhelper', 'fusen', 'covrpage', and 'gitlabr'" caption = "<center><strong>ThinkR R-universe</strong></center>">}}
 
-There are other tools in the [ThinkR r-universe](https://thinkr-open.r-universe.dev/) to present the quality of your R work like {gitdown}, {testdown}, tools to help in project management with external tools like {gitlabr}, {togglr}, {todoist}, … It all comes down to providing tools that allow more and more people to build robust, sustainable and maintainable foundations to work with their data, analyze it and share it in an easier way.
+There are other tools in the [ThinkR r-universe](https://thinkr-open.r-universe.dev/). It all comes down to providing tools that allow more and more people to build robust, sustainable and maintainable foundations to work with their data, analyze it and share it in an easier way.
 
 
 ## The R-universe experience
