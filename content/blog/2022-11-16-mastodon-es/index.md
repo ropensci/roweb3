@@ -10,9 +10,8 @@ tags:
   - community
   - spanish
   - español
+preface: "[See the English version of this blog post](/blog/2022/11/16/mastodon-en)"
 ---
-> Lee la versión en inglés de esta entrada del blog:
-> [rOpenSci's Communication Channels: Twitter](/blog/2022/11/16/mastodon-en)
 
 Twitter es una de las plataformas y redes sociales preferidas por la comunidad de R y por las comunidades de datos, ciencia abierta e investigación. Desde el comienzo de rOpenSci hemos utilizado Twitter para conectarnos con nuestra comunidad y otras comunidades similares, para compartir lo que hacemos y para formar parte de las conversaciones en torno a los temas importantes para nuestra [misión](/about/).
 
@@ -24,7 +23,7 @@ Por el momento, basándonos en discusiones internas e [inspirándonos en las med
 
 * Seguir publicando en Twitter para asegurarnos de que conectamos con el mayor número posible de personas de nuestra comunidad.
 
-* Continuar desarrollando nuestra [presencia en Mastodon](https://fosstodon.org/web/@ropensci), la plataforma a la que han migrado un número importante de las y los miembros de nuestra comunidad.  
+* Continuar desarrollando nuestra [presencia en Mastodon](https://hachyderm.io/@rOpenSci), la plataforma a la que han migrado un número importante de las y los miembros de nuestra comunidad.  
 
 * Explorar instancias alternativas de Mastodon que nos permitan comunicarnos en varios idiomas (no solo en inglés) y colaborar con comunidades hermanas.
 

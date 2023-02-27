@@ -29,10 +29,10 @@ resources:
 speakers:  
   - name: Santosh
     bio: Santosh works as Senior Software Engineer at Celonis, He is a GDE for Angular, GitHub Star, and an Auth0 Ambassador, he loves contributing to Angular, NgRx and Nx. He is co-founder for _This is Learning_ where we run free publication and the _This is Tech Talks_ show.
-    img: /img/team/santosh.png
+    img: /img/community/santosh.png
   - name: Emanuele Bartolesi
     bio: Emanuele. I'm a Microsoft 365 Architect and I'm passionate about frontend technologies and everything related to the cloud, especially Microsoft Azure. I currently live in Zurich and actively participate in local and international community activities and events. I share my love for technology through my blog https://www.emanuelebartolesi.com. I also became Twitch Affiliate as a live coder and you can follow me at https://twitch.tv/kasuken to write some code together. Since 2014 I'm Microsoft MVP in the Developer Technologies category. I am a GitHub Star since 2022.       
-    img: /img/team/emanuele-bartolesi.png    
+    img: /img/community/emanuele-bartolesi.png    
   - name: Yanina Bellini Saibene
     bio: rOpenSci Community Manager. Yani also participates in leadership roles in several communities, such as R-Ladies, The Carpentries, R-Forwards and LatinR. She is the co-founder of MetaDocencia, LatinR, and R-Ladies Santa Rosa. She is an adjunct professor at the Universidad Nacional Guillermo Brown in Argentina and a GitHub Star since 2022.
     img: /img/team/yanina-bellini-saibene.jpg

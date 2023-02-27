@@ -8,10 +8,8 @@ author:
 description: "We announce our actions on rOpenSci's communication channels as alternatives to Twitter."
 tags:
   - community
+preface: "[Lee la versión en español de este artículo](/blog/2022/11/16/mastodon-es)"
 ---
-
-> See the Spanish version of this blog post:
-> [Canales de comunicación de rOpenSci: Twitter](/blog/2022/11/16/mastodon-es)
 
 Twitter is one of the preferred social media platforms and networks for the R community and for the data, open science and research communities. Since the beginning of rOpenSci we have used Twitter to connect with our community and other parallel communities, to share what we do, and to be part of conversations around the topics important to our [mission](/about/).
 
@@ -23,7 +21,7 @@ For the moment, based on internal discussions and [inspired by other communities
 
 * Continue to post on Twitter to ensure that we connect with as many people in our community as possible.
 
-* Continue to develop our [presence on Mastodon](https://fosstodon.org/web/@ropensci), the platform to which many of our community members have migrated.  
+* Continue to develop our [presence on Mastodon](https://hachyderm.io/@rOpenSci), the platform to which many of our community members have migrated.  
 
 * Explore alternative instances of Mastodon which would allow us to communicate in multiple languages (not only English) and collaborate with sister communities.
 
