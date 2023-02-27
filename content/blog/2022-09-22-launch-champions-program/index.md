@@ -8,6 +8,7 @@ tags:
   - help
   - beginner
   - welcome
+  - champions program
 featured: true 
 description: We are thrilled to launch our Champions Program pilot!
 ---

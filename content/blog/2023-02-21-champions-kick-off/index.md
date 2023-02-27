@@ -6,7 +6,7 @@ date: '2023-02-21T00:00:01-06:00'
 slug: champions-program-kick-off
 tags:
   - community
-  - champions
+  - champions program
 feature: true  
 description: "The champions program has already started the first activities of 2023. Read where the participants are from and what they will be doing."
 preface: "[Lee la versión en español de este artículo](/blog/2023/02/21/champions-program-kick-off-es/)"
