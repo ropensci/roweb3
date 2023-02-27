@@ -23,11 +23,10 @@ preface: "[See the English version of this blog post](/blog/2023/02/09/r-univers
 
 Este es el segundo artículo de nuestra serie de entrevistas ["Conociendo a las estrellas del universo R"](/tags/r-universe-stars/). Nuestro objetivo es presentar a los grupos de trabajo y a las personas que están detrás del desarrollo de software y paquetes que utilizamos y que están disponibles a través del R-universe. Queremos destacar y explorar diferentes equipos y proyectos de todo el mundo, el trabajo que realizan, sus procesos y las personas que usuan sus desarrollos. Continuamos nuestro viaje en Francia con Sébastien Rochette, experto en R de [ThinkR](https://rtask.thinkr.fr), una empresa centrada en la enseñanza y la formación, así como en el desarrollo de paquetes R de código abierto. No dejes de ver el [vídeo](2023/02/23/r-universe-stars-2-es/#vídeo-de-la-entrevista) al final con extractos de la entrevista.
 
+[ThinkR](https://rtask.thinkr.fr) es un equipo de personas expertas y líderes en formación sobre R. Les apasiona el código abierto y contribuir a la comunidad. Y así es como podemos presentar a Sébastien Rochette, como alguien apasionado por su trabajo.
 
-ThinkR es sinónimo de expertos y líderes en formación en R con personas apasionadas por el código abierto y colaboradores de la comunidad. Así puede leerse en su [página web](https://rtask.thinkr.fr) y así puede introducirse a Sébastien Rochette, un apasionado.
 
-
-Según su propia explicación, el trabajo que realiza desde hace 5 años en la compañía francesa consiste en enseñar, desarrollar y también asesorar a los clientes acerca de R. El trabajo se divide en dos, la mitad para enseñar y la mitad para desarrollar herramientas de R: 
+Desde hace 5 años, Sébastien trabaja en esta empresa francesa enseñando, desarrollando y también asesorando a clientes sobre R. El trabajo se divide en dos, la mitad del tiempo para enseñar y la otra mitad para desarrollar herramientas con R:
 
 > “Lo que nos gusta es aprender todo lo que podamos sobre R para poder ayudar a nuestros clientes a seguir trabajando con R y lograr ir más allá en sus compañías”.
 
