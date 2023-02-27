@@ -18,7 +18,9 @@ description: ""
 preface: "[Lee la versión en español de este artículo](/blog/2023/02/23/r-universe-stars-2-es/), [Lire la version française de cet article](/blog/2023/02/23/r-universe-stars-2-fr/)"
 ---
 This is the second post of our interview series [“Meeting the stars of the R-universe”](/tags/r-universe-stars/). We aim to introduce the working groups and people behind the development of software and packages many of us use and which are available through the R-universe. We want to highlight and explore different teams and projects around the world, the work they do, their processes and users. We continue our journey in France with Sébastien Rochette, R Expert at [ThinkR](https://rtask.thinkr.fr), a company focused on teaching and training as well as developing open source R packages. Be sure to watch the [video](2023/02/23/r-universe-stars-2-en/#video-of-the-interview) at the end with excerpts from the interview.
-ThinkR is synonymous with experts and leaders in R training with people passionate about open source and contributors to the community. This is what you can read on their [website](https://rtask.thinkr.fr) and this is how you can introduce Sébastien Rochette, a passionate person.
+
+
+[ThinkR](https://rtask.thinkr.fr) is a team of experts and leaders in R training. They are passionate about open source and contributing to the community. And this is how you can introduce Sébastien Rochette, as someone passionate about their work.
 
 For the past 5 years, Sébastien has been working in this French company by teaching, developing and also advising clients about R. The work is divided in two, half to teach and half to develop R tools:
 
