@@ -6,7 +6,7 @@ date: '2023-02-21T00:00:01-07:00'
 slug: champions-program-kick-off-es
 tags:
   - community
-  - champions
+  - champions program
   - spanish
   - español
 feature: true  
