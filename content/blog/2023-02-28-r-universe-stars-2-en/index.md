@@ -36,12 +36,12 @@ In a summarized explanation of his work, Sébastien explains in a simple way the
 
 > To help more people to get the skills to work with R, to spread and share that learning, and help expand a welcoming and friendly R community.
 
-ThinkR wants their clients to be independent at the end of each service, whether it be training or tailored development. This way, clients can continue the development by themselves. "If customers want to come back, we welcome them with open doors" Sébastien explains and adds, "but if they consider them autonomous enough to continue by themselves, we are happy too as we mainly seek a bigger and friendlier R community." Clients' ability to work autonomously is an important value within the company.
+ThinkR wants their clients to be independent at the end of each service, whether it be training or tailored development. This way, clients can continue the development by themselves. _"If customers want to come back, we welcome them with open doors"_ Sébastien explains and adds, _"but if they consider them autonomous enough to continue by themselves, we are happy too as we mainly seek a bigger and friendlier R community."_ Clients' ability to work autonomously is an important value within the company.
 
 
 ## The value of teaching
 
-Sébastien explains that at ThinkR they apply a work logic that links teaching with consulting: "To be a good teacher, you have to get your hands in the code and thus know your clients' challenges (...) and to be a good consultant you have to teach to be able to explain clearly and simply what you do, how and why you do it". This is why the company tries to spend time in both places: teaching and consulting.
+Sébastien explains that at ThinkR they apply a work logic that links teaching with consulting: _"To be a good teacher, you have to get your hands in the code and thus know your clients' challenges (...) and to be a good consultant you have to teach to be able to explain clearly and simply what you do, how and why you do it"_. This is why the company tries to spend time in both places: teaching and consulting.
 
 This also involves sharing their knowledge through [blog posts](https://rtask.thinkr.fr/blog/) and [tutorials](https://thinkr.fr/blog/), a [book](https://engineering-shiny.org/), their presence and funding of conferences, and other remote or on-site community events.
 
