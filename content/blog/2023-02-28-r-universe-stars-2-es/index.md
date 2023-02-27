@@ -21,6 +21,9 @@ preface: "[See the English version of this blog post](/blog/2023/02/09/r-univers
 [Lire la version française de cet article](/blog/2023/02/23/r-universe-stars-2-fr/)"
 ---
 
+Este es el segundo artículo de nuestra serie de entrevistas ["Conociendo a las estrellas del universo R"](/tags/r-universe-stars/). Nuestro objetivo es presentar a los grupos de trabajo y a las personas que están detrás del desarrollo de software y paquetes que utilizamos y que están disponibles a través del R-universe. Queremos destacar y explorar diferentes equipos y proyectos de todo el mundo, el trabajo que realizan, sus procesos y las personas que usuan sus desarrollos. Continuamos nuestro viaje en Francia con Sébastien Rochette, experto en R de [ThinkR](https://rtask.thinkr.fr), una empresa centrada en la enseñanza y la formación, así como en el desarrollo de paquetes R de código abierto. No dejes de ver el [vídeo](2023/02/23/r-universe-stars-2-es/#vídeo-de-la-entrevista) al final con extractos de la entrevista.
+
+
 ThinkR es sinónimo de expertos y líderes en formación en R con personas apasionadas por el código abierto y colaboradores de la comunidad. Así puede leerse en su [página web](https://rtask.thinkr.fr) y así puede introducirse a Sébastien Rochette, un apasionado.
 
 
