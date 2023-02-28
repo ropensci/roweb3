@@ -33,7 +33,7 @@ Depuis 5 ans, Sébastien travaille dans cette entreprise française où il ensei
 
 > "Ce que nous aimons faire, c'est apprendre le plus possible sur R afin de pouvoir aider nos clients à continuer à travailler avec R et à aller plus loin dans leurs missions professionnelles."
 
-ThinkR est certifié par l'État français pour pouvoir fournir des certifications R officielles.  Cela nécessite un audit rigoureux pour garantir la qualité de l'enseignement et du soutien aux élèves. Sébastien explique qu'ils ont [trois niveaux de formation R](https://rtask.thinkr.fr/remote-trainings-and-certification/):
+ThinkR est certifié par l'État français pour pouvoir fournir des certifications R officielles.  Cela nécessite un audit rigoureux pour garantir la qualité de l'enseignement et du soutien aux élèves. Sébastien explique qu'ils ont [trois niveaux de formation R](https://thinkr.fr/formation-au-logiciel-r/):
 
 > "Le premier niveau s'adresse aux débutant·e·s et explique ce qu'est R et comment créer des analyses de données reproductibles et documentées avec R, afin que tu puisses rapidement obtenir tous les outils essentiels pour travailler avec tes propres données. Le deuxième niveau est comment développer des paquets R, car nous sommes convaincu·e·s que la meilleure façon de partager et de coopérer sur le travail durable est de créer des paquets. Et le troisième niveau est d'apprendre à créer des applications Shiny prêtes pour la production, pour lesquelles tu devras savoir comment créer des paquets".
 
