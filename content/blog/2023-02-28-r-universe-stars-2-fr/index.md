@@ -73,7 +73,6 @@ ThinkR a trouvé dans R-universe une plateforme flexible pour publier et génér
 Il est également plus facile de mettre à jour et de rendre ces paquets disponibles car R-universe n'a pas de politiques de modification et de mise à jour strictes et limitées dans le temps. 
 
 Enfin, ils trouvent aussi utile la fonctionnalité permettant de générer les vignettes et de les rendre disponibles dans l'espace des packages de R-universe.
-Video de l’interview
 
 Si vous voulez entendre plus de détails sur son expérience, ne manquez pas de regarder Sébastien dans la vidéo avec des extraits de l'interview (en anglais). Vous pouvez activer les sous-titres.
 
