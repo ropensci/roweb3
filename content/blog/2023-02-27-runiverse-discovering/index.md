@@ -15,6 +15,8 @@ tags:
   - dashboard
 ---
 
+Language: __English__ | [Español](../runiverse-discovering-es)
+
 ## Finding the right tool for the job
 
 The hardest part about effectively using R is finding the best packages for the problem you are trying to solve. I think this is even more important than being fluent in the language itself, which you will pick up along the way as you start using R more frequently. However, building your code on reliable foundations is essential for good results, and difficult to fix later on in a project.
