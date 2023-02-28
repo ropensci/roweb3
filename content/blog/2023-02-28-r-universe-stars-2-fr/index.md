@@ -58,9 +58,9 @@ La troisième partie dont Sébastien parle est l'open-source. Il explique que da
 
 ThinkR développe de nombreux packages pour ses propres besoins, et la grande majorité d'entre eux sont open-source. Si ces packages sont utiles pour eux, ils peuvent l'être pour d'autres. Ainsi, parmi ces paquets, vous trouverez des outils pour aider à développer des produits R documentés, testés et maintenables : [{fusen}](https://thinkr-open.r-universe.dev/fusen) pour faciliter la construction et le partage de paquets R prêts à l'emploi tout en restant dans un environnement Rmarkdown, [{golem}](https://thinkr-open.r-universe.dev/golem) pour structurer la construction d'applications Shiny prêtes la production, [{attachment}](https://thinkr-open.r-universe.dev/attachment) pour aider à gérer les dépendances des packages ou [{checkhelper}](https://thinkr-open.r-universe.dev/checkhelper) pour automatiser certaines vérifications supplémentaires avant la soumission au CRAN. 
 
-{{< figure src = "R-universe thinkr-open.png" class = "center" width = "600" alt = "ThinkR R Universe" caption = "<center><strong>ThinkR R-Universe</strong></center>">}}
+{{< figure src = "R-universe-thinkr-open.png" class = "center" width = "600" alt = "R Universe de ThinkR" caption = "<center><strong>ThinkR R-Universe</strong></center>">}}
 
-Il existe d'autres outils dans le [ThinkR r-universe](https://thinkr-open.r-universe.dev/) pour présenter la qualité de votre travail R comme {gitdown} et {testdown}, des outils pour aider à la gestion de projet avec des outils externes comme {gitlabr}, {togglr}, {todoist}, ... Tout cela ramène à fournir des outils qui permettent à de plus en plus de personnes de construire des fondations robustes, durables et maintenables pour travailler avec leurs données, les analyser et les partager de manière plus facile.
+Il existe d'autres outils dans le [R Universe de ThinkR](https://thinkr-open.r-universe.dev/). Tout se résume à fournir des outils qui permettent à de plus en plus de personnes de construire des bases robustes, durables et maintenables pour travailler avec, analyser et partager leurs données de manière plus simple.
 
 ## Expérience avec le “R Universe”
 
@@ -68,9 +68,9 @@ Il existe d'autres outils dans le [ThinkR r-universe](https://thinkr-open.r-univ
 Afin de répondre à l'objectif d'aider ses clients de la manière la plus simple possible, l'entreprise s’est mise à utiliser “R-universe” où elle peut partager chacun des processus et outils développés de manière ordonnée et avec des informations utiles.
 Dans la vidéo incluse dans cet article, vous pouvez voir un exemple de la façon dont Sébastien et ThinkR se voient avec “R-universe”.
 
-ThinkR a trouvé dans “R-universe” une plateforme flexible pour publier et générer les installateurs de tous ses packages open-source. Cette fonctionnalité permet à ses clients d'accéder et d'utiliser plus facilement les dernières versions de ses paquets. Les clients peuvent installer les paquets comme ils savent déjà faire, en étant transparent sur l'origine, et en réduisant les limitations des installations directes depuis GitHub.  
+ThinkR a trouvé dans R-universe une plateforme flexible pour publier et générer des installateurs pour tous ses paquets. Cette fonctionnalité permet à leurs client·e·s et à d'autres personnes d'accéder facilement aux dernières versions de leurs paquets et de les utiliser. Les sources des paquets sont transparentes, et les utilisateur·rice·s évitent les limitations des installations directes de GitHub.
 
-Cela facilite également la mise à jour et la mise à disposition de ces packages car “R-universe” n'a pas de politiques de changement et de mise à jour strictes et limitées dans le temps, comme dans CRAN, par exemple.  
+Il est également plus facile de mettre à jour et de rendre ces paquets disponibles car R-universe n'a pas de politiques de modification et de mise à jour strictes et limitées dans le temps. 
 
 Enfin, ils trouvent aussi utile la fonctionnalité permettant de générer les vignettes et de les rendre disponibles dans l'espace des packages de R-universe.
 Video de l’interview
