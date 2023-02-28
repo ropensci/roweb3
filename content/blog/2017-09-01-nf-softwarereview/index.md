@@ -1,10 +1,10 @@
 ---
 slug: nf-softwarereview
 title: How rOpenSci uses Code Review to Promote Reproducible Science
-preface: This is cross-posted from the NumFOCUS blog. NumFOCUS is a nonprofit that
-  supports and promotes world-class, innovative, open source scientific computing,
-  including rOpenSci.
 date: '2017-09-01'
+preface: '[Lee la versión en español de este artículo](/blog/2017/09/01/nf-softwarereview-es/). <br/> This is cross-posted from the NumFOCUS blog.  NumFOCUS is a nonprofit that
+  supports and promotes world-class, innovative, open source scientific computing,
+  including rOpenSci.'
 author:
   - Noam Ross
   - Scott Chamberlain
