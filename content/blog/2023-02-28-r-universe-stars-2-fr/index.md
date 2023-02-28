@@ -26,9 +26,10 @@ Nous voulons mettre en avant et explorer différentes équipes et projets du mon
 Nous poursuivons notre voyage en France avec Sébastien Rochette, expert R chez [ThinkR](https://rtask.thinkr.fr) une entreprise axée sur l'enseignement et la formation, ainsi que sur le développement de paquets R open source. 
 N'oublie pas de regarder la [vidéo](2023/02/23/r-universe-stars-2-es/#vídeo-de-la-entrevista) à la fin avec des extraits de l'interview.
 
-ThinkR est synonyme d'experts et leaders en matière de formation R, de personnes passionnées par l'open source et de contributeurs à la communauté. C'est ce que l'on peut lire sur leur [site Web](https://thinkr.fr/) et c'est ainsi que l'on peut présenter Sébastien Rochette, un passionné.
+[ThinkR](https://rtask.thinkr.fr) est une équipe d'expert·e·s et de leaders de la formation R. Il·elle·s sont passionné·e·s par l'open source et la contribution à la communauté. 
+Et c'est ainsi que nous pouvons présenter Sébastien Rochette, comme quelqu'un de passionné par son travail."
 
-Selon ses propres explications, le travail qu'il effectue depuis 5 ans dans l'entreprise française consiste à enseigner, développer et aussi conseiller les clients sur R. Le travail est divisé en deux, la moitié pour enseigner et l'autre pour développer des outils avec R :
+Depuis 5 ans, Sébastien travaille dans cette entreprise française où il enseigne, développe et conseille également les client·e·s sur R. Le travail est divisé en deux, la moitié du temps pour l'enseignement et l'autre moitié pour le développement d'outils avec R :
 
 > "Ce que nous aimons faire, c'est apprendre le plus possible sur R afin de pouvoir aider nos clients à continuer à travailler avec R et à aller plus loin dans leurs missions professionnelles."
 
