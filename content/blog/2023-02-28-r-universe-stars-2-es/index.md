@@ -17,7 +17,7 @@ tags:
   - spanish
 featured: true
 description: "Una nueva entrega de nuestra serie de entrevistas __\"Conociendo a las estrellas del universo R\"__. Nos vamos a Francia para conocer más de cerca el trabajo que hace la gente de ThinkR."
-preface: "[See the English version of this blog post](/blog/2023/02/28/r-universe-stars-2-en/), [Lire la version française de cet article](/blog/2023/02/28/r-universe-stars-2-fr/)
+preface: "[See the English version of this blog post](/blog/2023/02/28/r-universe-stars-2-en/)
 [Lire la version française de cet article](/blog/2023/02/28/r-universe-stars-2-fr/)"
 ---
 
