@@ -39,7 +39,7 @@ ThinkR est certifié par l'État français pour pouvoir fournir des certificatio
 
 > "Le premier niveau s'adresse aux débutant·e·s et explique ce qu'est R et comment créer des analyses de données reproductibles et documentées avec R, afin que tu puisses rapidement obtenir tous les outils essentiels pour travailler avec tes propres données. Le deuxième niveau est comment développer des paquets R, car nous sommes convaincu·e·s que la meilleure façon de partager et de coopérer sur le travail durable est de créer des paquets. Et le troisième niveau est d'apprendre à créer des applications Shiny prêtes pour la production, pour lesquelles tu devras savoir comment créer des paquets".
 
-Tous les cours sont enseignés à distance, en petits groupes, sur une plateforme web préinstallée qu'ils ont développée, appelée [Bakacode](thinkr.fr/cest-quoi-bakacode.pdf) qui garantit que le matériel de cours, R et tous les paquets nécessaires sont déjà installés et disponibles lorsque les participants se connectent.
+Tous les cours sont enseignés à distance, en petits groupes, sur une plateforme web préinstallée qu'ils ont développée, appelée [Bakacode](https://thinkr.fr/cest-quoi-bakacode.pdf) qui garantit que le matériel de cours, R et tous les paquets nécessaires sont déjà installés et disponibles lorsque les participants se connectent.
 
 Dans une explication résumée de son travail, Sébastien explique de manière simple le but de l'organisation : 
 
