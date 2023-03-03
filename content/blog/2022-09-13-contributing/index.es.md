@@ -4,12 +4,10 @@ author: Yanina Bellini Saibene
 date: '2022-09-13T00:00:01-07:00'
 slug: contributing-ropensci-es
 tags:
-  - community
-  - help
-  - beginner
-  - welcome
-  - español
-  - spanish
+  - comunidad
+  - ayuda
+  - principiante
+  - bienvenidad
 feature: true  
 description: "¿Tienes curiosidad por rOpenSci? Te preguntas cómo empezar a participar? 🤔 ¡Nos alegramos! Aquí tienes un resumen de cómo participar con nosotros" 
 tweet: "¿Tienes curiosidad por @rOpenSci? Te preguntas cómo empezar a participar? 🤔 ¡Nos alegramos! Aquí tienes un resumen de cómo participar con nosotros" 

@@ -4,9 +4,7 @@ author: Yanina Bellini Saibene
 date: '2022-06-21T00:00:01-07:00'
 slug: introducing-yanina-es
 tags:
-  - community
-  - Spanish
-  - Español
+  - comunidad
 feature: true  
 # description: 
 tweet: "Presentando a @yabellini, nuestra nueva Community Manager" 

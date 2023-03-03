@@ -10,16 +10,14 @@ categories:
   - blog
 featured: true
 tags:
-  - open-science
-  - reproducible-research
-  - data-access
-  - data-extraction
-  - geospatial
-  - community
-  - software-peer-review
+  - ciencia-abierta
+  - investigación reproducible
+  - acceso a datos
+  - extracción de datos
+  - geoespacial
+  - comunidad
+  - revista software por pares
   - censo2017
-  - Spanish
-  - Español
 description: >
   Las tablas del Censo de Chile al instante.
 ---

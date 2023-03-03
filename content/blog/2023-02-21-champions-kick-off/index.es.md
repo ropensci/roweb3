@@ -5,10 +5,8 @@ author:
 date: '2023-02-21T00:00:01-07:00'
 slug: champions-program-kick-off-es
 tags:
-  - community
-  - champions program
-  - spanish
-  - español
+  - comunidad
+  - campiones
 feature: true  
 description: "El programa de campeones y campeonas ya inició las primeras actividades de este 2023. Lee de donde son los y las participantes y que van a estar haciendo."
 ---

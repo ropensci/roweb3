@@ -11,10 +11,10 @@ description: El objetivo de r-universe es proporcionar un lugar central para nav
 photogallery: yes
 featured: yes
 tags:
-- registry
-- search
-- packages
-- dashboard
+- registro
+- búsqueda
+- paquetes
+- tablero de indicadores
 ---
 
 ## Encontrar la herramienta adecuada para el trabajo

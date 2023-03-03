@@ -8,7 +8,7 @@ author:
 date: '2023-01-12'
 slug: multilingual-publishing-es
 tags:
-  - community
+  - comunidad
   - multilingual
 description: "Estamos traduciendo los materiales de rOpenSci sobre buenas prácticas de desarrollo de software, revisión de código y contribución a proyectos de código abierto al español! También estamos desarrollando guías y herramientas para traducir recursos de código abierto y alcanzar una mayor audiencia. Entérate de este proyecto en este artículo."
 

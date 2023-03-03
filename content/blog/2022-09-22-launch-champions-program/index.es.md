@@ -4,14 +4,12 @@ author: Yanina Bellini Saibene
 date: '2022-09-22T00:00:01-07:00'
 slug: launch-champions-program-es
 tags:
-  - community
-  - help
-  - beginner
-  - welcome
-  - diversity
-  - champions program
-  - español
-  - spanish
+  - comunidad
+  - ayuda
+  - principiante
+  - bienvenidad
+  - diversidad
+  - campiones
 feature: true  
 description: "¡Estamos muy felices de realizar el lanzamiento nuestro programa de Campeones y Campeonas!" 
 ---

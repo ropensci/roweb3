@@ -8,12 +8,10 @@ author:
 date: '2022-11-23'
 slug: r-universe-stars-1-es
 tags:
-  - community
-  - help
-  - beginner
-  - welcome
-  - español
-  - spanish
+  - comunidad
+  - ayuda
+  - principiante
+  - bienvenidad
 featured: true
 description: "Esta es la primera entrega de nuestra serie de entrevistas __\"Conociendo a las estrellas del universo R\"__. Iniciamos nuestro recorrido en _Argentina_ y con un equipo que utiliza R y desarrolla paquetes de R en el estado Argentino."
 ---

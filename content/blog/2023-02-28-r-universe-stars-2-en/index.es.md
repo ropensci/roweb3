@@ -8,12 +8,10 @@ author:
 - Steffi LaZerte
 date: '2023-02-28'
 tags:
-  - community
-  - help
-  - beginner
-  - welcome
-  - español
-  - spanish
+  - comunidad
+  - ayuda
+  - principiante
+  - bienvenidad
 featured: true
 slug: r-universe-stars-2-es
 description: "Una nueva entrega de nuestra serie de entrevistas __\"Conociendo a las estrellas del universo R\"__. Nos vamos a Francia para conocer más de cerca el trabajo que hace la gente de ThinkR."

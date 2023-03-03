@@ -8,17 +8,15 @@ slug: censo2017-one-year-after-es
 categories:
   - blog
 tags:
-  - open-science
+  - ciencia-abierta
   - tech-notes
-  - reproducible-research
-  - data-access
-  - data-extraction
-  - geospatial
-  - community
-  - software-peer-review
+  - investigación reproducible
+  - acceso a datos
+  - extracción de datos
+  - geoespacial
+  - comunidad
+  - revista software por pares
   - censo2017
-  - spanish
-  - español
 description: >
   Tablas del censo chileno al instante.
 ---

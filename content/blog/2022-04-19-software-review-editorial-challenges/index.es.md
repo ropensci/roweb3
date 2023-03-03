@@ -7,7 +7,7 @@ date: '2022-04-19T00:00:01-07:00'
 slug: software-review-editorial-challenges-es
 tags:
 - Software Peer Review
-- editors
+- equipo editorial
 - Spanish
 package_version: 0.1.0
 description: Un detalle de los desafíos que enfrentan nuestro equipo editorial y las medidas que hemos

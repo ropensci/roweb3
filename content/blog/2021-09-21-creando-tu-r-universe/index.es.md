@@ -7,9 +7,7 @@ slug: creando-tu-r-universe
 categories: []
 tags:
   - r-universe
-  - Spanish
-  - Español
-  - community
+  - comunidad
 package_version: 0.1.0
 description: En este post te explico como crear tu r-universe, a partir de la experiencia de crear el mio.
 tweet: En este post @yabellini te explica como crear tu r-universe usando como ejemplo el paso a paso de crear el suyo.
