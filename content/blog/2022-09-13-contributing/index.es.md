@@ -15,8 +15,6 @@ description: "¿Tienes curiosidad por rOpenSci? Te preguntas cómo empezar a par
 tweet: "¿Tienes curiosidad por @rOpenSci? Te preguntas cómo empezar a participar? 🤔 ¡Nos alegramos! Aquí tienes un resumen de cómo participar con nosotros" 
 ---
 
-[Post in English](/blog/2022/09/13/contributing-ropensci/)
-
 Esta entrada del blog pretende ayudarte a iniciarte en la comunidad rOpenSci destacando algunos links y actividades clave. Si tienes alguna pregunta, no dudes en ponerte en contacto con nuestra Community Manager, Yanina Bellini Saibene [por correo electrónico](mailto:yabellini@ropensci.org) o [programa una reunión con ella](https://calendly.com/yabellini-ropensci/). 
 
 Estamos a tu disposición para que comiences tu camino con nuestra comunidad. ¡Te damos la bienvenida!
