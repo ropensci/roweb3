@@ -1,2 +1,29 @@
 [translations]
   other = 'Autres langues'
+
+[By]
+  other = 'Par'
+  
+[Filed-under]
+  other = 'Catégories'
+  
+[Browse]
+  other = 'Explore'
+  
+[Share]
+  other = 'Partage'
+  
+[Suggest-an-edit]
+  other = 'Suggère une modification'
+  
+[open-pr]
+  other = 'Ouvre une pull request'
+  
+[By-Tag]
+  other = 'Par étiquette'
+  
+[By-Author]
+  other = 'Par auteur·rice'
+  
+[All-Posts]
+  other = 'Tous les articles'

@@ -8,7 +8,7 @@
           <h1>{{ .Title | markdownify }}</h1>
           <div class="post-author">
           <span>
-          By
+          {{ i18n "By" }}
           </span> 
           {{ partial "blogs/pretty_author_names" .Params.author }}
           </div>
@@ -34,7 +34,7 @@ For more information, visit the <a href="/r-universe/">r-universe project page</
       </div>
     <div class="col-lg-3 pl-4 d-print-none">
       <div class="field-under">
-        <span>Filed under</span>
+        <span>{{ i18n "Filed-under" }}</span>
         <ul class="post-tags">
         {{ range .Params.tags }}
           <li><a href="/tags/{{ . | urlize }}" class="tag">{{ . }}</a></li>
@@ -52,35 +52,35 @@ For more information, visit the <a href="/r-universe/">r-universe project page</
       </div>
       {{ end }}
       <div class="field-under mt-4">
-        <span>Share</span>
+        <span>{{ i18n "Share" }}</span>
         {{ partial "twitter/share-link" . }}
         {{ partial "mastodon/share-link" . }}
         {{ partial "linkedin/share-link" . }}
         {{ partial "email/share-link" . }}
       </div>
       <div class="field-under mt-4">
-        <span>Suggest an edit</span>
-        <a href="{{ partial "edit-link/edit-link" . }}" class="link mt-2">Open a pull request <i class="fas fa-external-link-alt"></i></a>
+        <span>{{ i18n "Suggest-an-edit" }}</span>
+        <a href="{{ partial "edit-link/edit-link" . }}" class="link mt-2">{{ i18n "open-pr" }} <i class="fas fa-external-link-alt"></i></a>
       </div>
       <div class="field-under mt-4">
-        <span>Browse</span>
+        <span>{{ i18n "Browse" }}</span>
         <a href="/tags" class="btn btn-share btn-twitter" >
   <span class="btn-icon">
     <i class="fas fa-tags"></i>
   </span>
-  By Tag
+  {{ i18n "By-Tag" }}
 </a>
         <a href="/author" class="btn btn-share btn-twitter" >
   <span class="btn-icon">
     <i class="fas fa-users"></i>
   </span>
-  By Author
+  {{ i18n "By-Author" }}
 </a>
         <a href="/archive" class="btn btn-share btn-twitter" >
   <span class="btn-icon">
     <i class="fas fa-archive"></i>
   </span>
-  All Posts
+  {{ i18n "All-Posts" }}
 </a>
       </div>
       </div>

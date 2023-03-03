@@ -11,11 +11,11 @@ DefaultContentLanguage = "en"
     weight = 2
   [languages.es]
     title = "rOpenSci - open tools for open science"
-    languageName = "Spanish"
+    languageName = "Español"
     weight = 2
   [languages.fr]
     title = "rOpenSci - open tools for open science"
-    languageName = "French"
+    languageName = "Français"
     weight = 3
 
 
