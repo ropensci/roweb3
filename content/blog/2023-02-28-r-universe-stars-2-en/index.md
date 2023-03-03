@@ -14,6 +14,7 @@ tags:
   - r-universe-stars
 # The summary below will be used by e.g. Twitter cards
 description: ""
+featured: true
 ---
 
 
