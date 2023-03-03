@@ -6,7 +6,6 @@ author:
   - Elio Campitelli
   - Maëlle Salmon
 date: '2023-01-12'
-preface: '[Lee la versión en español de este artículo](/blog/2023/01/12/multilingual-publishing-es/)'
 slug: multilingual-publishing-en
 tags:
   - community

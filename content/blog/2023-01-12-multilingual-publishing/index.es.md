@@ -7,7 +7,6 @@ author:
   - Maëlle Salmon
 date: '2023-01-12'
 slug: multilingual-publishing-es
-preface: '[See the English version of this blog post](/blog/2023/01/12/multilingual-publishing-en/)'
 tags:
   - community
   - multilingual
