@@ -8,7 +8,6 @@ slug: software-review-editorial-challenges-es
 tags:
 - Software Peer Review
 - equipo editorial
-- Spanish
 package_version: 0.1.0
 description: Un detalle de los desafíos que enfrentan nuestro equipo editorial y las medidas que hemos
   tomado para mitigarlos.
