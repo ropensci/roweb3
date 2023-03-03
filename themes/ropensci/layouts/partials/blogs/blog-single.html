@@ -37,7 +37,7 @@ For more information, visit the <a href="/r-universe/">r-universe project page</
         <span>{{ i18n "Filed-under" }}</span>
         <ul class="post-tags">
         {{ range .Params.tags }}
-          <li><a href="/tags/{{ . | urlize }}" class="tag">{{ . }}</a></li>
+          <li><a href='{{ absLangURL "tags" }}/{{ . | urlize }}' class="tag">{{ . }}</a></li>
         {{ end }}
         </ul>
       </div>
@@ -64,19 +64,19 @@ For more information, visit the <a href="/r-universe/">r-universe project page</
       </div>
       <div class="field-under mt-4">
         <span>{{ i18n "Browse" }}</span>
-        <a href="/tags" class="btn btn-share btn-twitter" >
+        <a href='{{ absLangURL "tags" }}' class="btn btn-share btn-twitter" >
   <span class="btn-icon">
     <i class="fas fa-tags"></i>
   </span>
   {{ i18n "By-Tag" }}
 </a>
-        <a href="/author" class="btn btn-share btn-twitter" >
+        <a href='{{ absLangURL "author" }}' class="btn btn-share btn-twitter" >
   <span class="btn-icon">
     <i class="fas fa-users"></i>
   </span>
   {{ i18n "By-Author" }}
 </a>
-        <a href="/archive" class="btn btn-share btn-twitter" >
+        <a href='{{ absLangURL "archive" }}' class="btn btn-share btn-twitter" >
   <span class="btn-icon">
     <i class="fas fa-archive"></i>
   </span>
