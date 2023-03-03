@@ -12,8 +12,6 @@ feature: true
 tweet: "Presentando a @yabellini, nuestra nueva Community Manager" 
 ---
 
-[Post in English](/blog/2022/06/21/introducing-yanina/)
-
 ## ¡Hola! Soy Yanina Bellini Saibene, tu nueva Community Manager.
 
 Estoy muy entusiasmada de unirme a rOpenSci con este rol y así poder apoyar un proyecto tan importante en la ciencia abierta y en la Comunidad R.
