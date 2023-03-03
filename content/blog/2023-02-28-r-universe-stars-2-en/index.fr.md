@@ -1,5 +1,6 @@
 ---
 title: "Enseigner, aider et partager. L'approche de ThinkR pour contribuer à la croissance d’une communauté R conviviale"
+slug: r-universe-stars-2-fr
 author: 
 - Yanina Bellini Saibene
 - Sébastien Rochette
@@ -7,7 +8,6 @@ author:
 - Lucio Casalla 
 - Steffi LaZerte
 date: '2023-02-28'
-slug: r-universe-stars-2-fr
 tags:
   - community
   - help
@@ -16,8 +16,6 @@ tags:
   - français
 featured: true
 description: "A new installment of our interview series __\"Meeting the stars of the R-Universe\"__. We go to France to get a closer look at the work of the people at ThinkR."
-preface: "[See the English version of this blog post](/blog/2023/02/28/r-universe-stars-2-en/),
-[Lee la versión en español de este artículo](/blog/2023/02/28/r-universe-stars-2-es/)"
 ---
 
 Ceci est le deuxième article de notre série d'entretiens ["Rencontre les stars de l'univers R"](/tags/r-universe-stars/). 

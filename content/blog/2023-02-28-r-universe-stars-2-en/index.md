@@ -1,5 +1,4 @@
 ---
-slug: "r-universe-stars-2-en"
 title: "Meeting the Stars of the R-universe: ThinkR's Approach to Contributing to a Growing and Friendly R Community"
 author:
   - Yanina Bellini Saibene
@@ -15,7 +14,6 @@ tags:
   - r-universe-stars
 # The summary below will be used by e.g. Twitter cards
 description: ""
-preface: "[Lee la versión en español de este artículo](/blog/2023/02/28/r-universe-stars-2-es/), [Lire la version française de cet article](/blog/2023/02/28/r-universe-stars-2-fr/)"
 ---
 
 

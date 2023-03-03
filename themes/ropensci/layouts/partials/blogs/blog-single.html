@@ -18,6 +18,7 @@
   <div class="row justify-content-between">
     <div class="col-lg-9">
       <div class="content">
+        
            {{ if .Params.preface }}
                 <div class="alert alert-info" role="alert">{{ .Params.preface | markdownify }}</div>
                 {{ end }}
@@ -40,6 +41,16 @@ For more information, visit the <a href="/r-universe/">r-universe project page</
         {{ end }}
         </ul>
       </div>
+            {{ if .IsTranslated }}
+      <div class="field-under mt-4">
+      <span>{{ i18n "translations" }}</span>
+        {{ range .Translations }}
+          <div><a href="{{ .Permalink }}" class="btn btn-share btn-twitter"><span class="btn-icon">
+    <i class="fa fa-globe"></i>
+  </span>{{ .Language.LanguageName }}</a></div>
+        {{ end }}
+      </div>
+      {{ end }}
       <div class="field-under mt-4">
         <span>Share</span>
         {{ partial "twitter/share-link" . }}

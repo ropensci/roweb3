@@ -7,7 +7,6 @@ author:
 - Lucio Casalla 
 - Steffi LaZerte
 date: '2023-02-28'
-slug: r-universe-stars-2-es
 tags:
   - community
   - help
@@ -16,9 +15,8 @@ tags:
   - español
   - spanish
 featured: true
+slug: r-universe-stars-2-es
 description: "Una nueva entrega de nuestra serie de entrevistas __\"Conociendo a las estrellas del universo R\"__. Nos vamos a Francia para conocer más de cerca el trabajo que hace la gente de ThinkR."
-preface: "[See the English version of this blog post](/blog/2023/02/28/r-universe-stars-2-en/)
-[Lire la version française de cet article](/blog/2023/02/28/r-universe-stars-2-fr/)"
 ---
 
 Este es el segundo artículo de nuestra serie de entrevistas ["Conociendo a las estrellas del universo R"](/tags/r-universe-stars/). Nuestro objetivo es presentar a los grupos de trabajo y a las personas que están detrás del desarrollo de software y paquetes que utilizamos y que están disponibles a través del R-Universe. Queremos destacar y explorar diferentes equipos y proyectos de todo el mundo, el trabajo que realizan, sus procesos y las personas que usan sus desarrollos. 

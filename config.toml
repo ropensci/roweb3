@@ -2,6 +2,23 @@ baseurl = "https://ropensci.org/"
 # languageCode = "en-us"
 title = "rOpenSci - open tools for open science"
 theme = "ropensci"
+
+DefaultContentLanguage = "en"
+[languages]
+  [languages.en]
+    title = "rOpenSci - open tools for open science"
+    languageName = "English"
+    weight = 2
+  [languages.es]
+    title = "rOpenSci - open tools for open science"
+    languageName = "Spanish"
+    weight = 2
+  [languages.fr]
+    title = "rOpenSci - open tools for open science"
+    languageName = "French"
+    weight = 3
+
+
 googleAnalytics = "UA-462421-6"
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "(^|/)renv$", "renv\\.lock$", "_cache$", "index\\.html"]
