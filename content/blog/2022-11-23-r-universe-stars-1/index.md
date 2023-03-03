@@ -14,7 +14,6 @@ tags:
   - r-universe-stars
 # The summary below will be used by e.g. Twitter cards
 description: "This is the first post of our interview series __\"Meeting the stars of the R-universe\"__. We begin our journey in _Argentina_ with a team that uses R and develops R packages in the Argentinean State."
-preface: "[Lee la versión en español de este artículo](/blog/2022/11/23/r-universe-stars-1-es/)"
 ---
 
 This is the first post of our interview series __"Meeting the stars of the R-universe"__. We aim to introduce the working groups and people behind the development of software and packages many of us use and which are available through the _R-Universe_.  We want to highlight and explore different teams and projects around the world, the work they do, their processes and users. We begin our journey in _Argentina_  with a team that uses R and develops R packages for the Argentinean State. Be sure to watch the [video](#video-of-the-interview) at the end with excerpts from the interview.
