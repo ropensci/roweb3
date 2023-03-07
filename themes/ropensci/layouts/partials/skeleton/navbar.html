@@ -42,7 +42,7 @@
         <li class="nav-item drp">
           <a class="nav-link" href="/about/">Projects</a>
           <ul class="sub-menu">
-            {{ range $index, $page := ( where (where .Site.Pages "Kind" "section") "Type" "in" .Site.Params.projects ) }}
+            {{ range $index, $page := ( where (where .Site.AllPages "Kind" "section") "Type" "in" .Site.Params.projects ) }}
             <li><a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></li>
             {{ end }}
           </ul>
@@ -92,6 +92,11 @@
 
 
       </ul>
+      {{ if ne .Language.Lang "en"}}
+      <div class="navbar-right d-none d-xl-block">
+        <a href="/multilingual-publishing/">🚧 {{ i18n "Translation" }}</a>
+      </div>
+      {{ end }}
       {{ if partial "careers/we-are-hiring" . }}
       <div class="navbar-right d-none d-xl-block">
         <a href="/careers/">👋 We are hiring!</a>
