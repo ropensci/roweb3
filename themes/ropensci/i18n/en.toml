@@ -27,3 +27,9 @@
   
 [All-Posts]
   other = 'All Posts'
+  
+[Browse-By-Tag]
+  other = 'Browse By Tag'
+  
+[Browse-By-Author]
+  other = 'Browse By Author'

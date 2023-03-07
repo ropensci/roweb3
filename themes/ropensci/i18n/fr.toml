@@ -30,3 +30,9 @@
   
 [Translation]
   other = 'Traduction'
+  
+[Browse-By-Tag]
+  other = 'Explore par étiquette'
+  
+[Browse-By-Author]
+  other = 'Explore par auteur·rice'

@@ -9,7 +9,7 @@ categories:
   - blog
 tags:
   - open-science
-  - tech-notes
+  - tech notes
   - reproducible-research
   - data-access
   - data-extraction

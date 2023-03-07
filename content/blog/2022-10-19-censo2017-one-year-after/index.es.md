@@ -9,7 +9,7 @@ categories:
   - blog
 tags:
   - ciencia-abierta
-  - tech-notes
+  - tech notes
   - investigación reproducible
   - acceso a datos
   - extracción de datos
