@@ -1,7 +1,7 @@
 <div class="row post-card">
   <div class="col-md-3">
     <div class="post-date">
-      {{ .Date.Format "January 2, 2006" }}
+      {{ .Date | time.Format ":date_full" }}
       </div>
   </div>
   <div class="col-md-9">
@@ -17,7 +17,7 @@
     </p>
     <div class="post-authors">
       <span>
-        By
+        {{ i18n "By" }}
       </span>
       {{ partial "blogs/pretty_author_names" .Params.author }}
     </div>

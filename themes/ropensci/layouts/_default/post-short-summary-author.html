@@ -1,7 +1,7 @@
 <div class="row">
   <div class="col-md-2 text-md-right">
     <div class="author-blog-date">
-      {{ .Date.Format "Jan 2, 2006" }}
+      {{ .Date | time.Format ":date_full" }}
     </div>
   </div>
   <div class="col-md-8 session-info">

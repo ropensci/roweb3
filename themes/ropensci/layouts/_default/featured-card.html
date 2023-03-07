@@ -3,7 +3,7 @@
               <div class="card-body">
                 <div class="d-flex">
                   <div class="tag">Featured</div>
-                  <div class="date">{{ .Date.Format "January 2, 2006" }}</div>{{ if .IsTranslated }}
+                  <div class="date">{{ .Date | time.Format ":date_full" }}</div>{{ if .IsTranslated }}
           <div class="date">
         {{ range .Translations }}
           <a href="{{ .Permalink }}"><i class="fa fa-globe"></i>
@@ -30,7 +30,7 @@
                     {{ end }}
                     </span>
                   <a class="card-link link-arrow" href="{{ .Permalink }}"
-                    ><span class="d-none d-lg-inline-block">Read more</span></a
+                    ><span class="d-none d-lg-inline-block">{{ i18n "Read-more" }}</span></a
                   >
                 </div>
               </div>
