@@ -1,4 +1,4 @@
-{{ if eq .RelPermalink "/" }}
+{{ if eq .Kind "home" }}
 <header class="header d-print-none">
 {{ partial "skeleton/navbar" (dict "Site" .Site) }}
 {{ else }}
