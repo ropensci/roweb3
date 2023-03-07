@@ -45,7 +45,7 @@ For more information, visit the <a href="/r-universe/">r-universe project page</
       <div class="field-under mt-4">
       <span>{{ i18n "translations" }}</span>
         {{ range .Translations }}
-          <div><a href="{{ .Permalink }}" class="btn btn-share btn-twitter"><span class="btn-icon">
+          <div><a href="{{ .Permalink }}" class="btn btn-share btn-twitter" lang="{{ .Language }}"><span class="btn-icon">
     <i class="fa fa-globe"></i>
   </span>{{ .Language.LanguageName }}</a></div>
         {{ end }}
