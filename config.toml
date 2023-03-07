@@ -10,7 +10,7 @@ DefaultContentLanguage = "en"
     languageName = "English"
     weight = 2
   [languages.es]
-    title = "rOpenSci - open tools for open science"
+    title = "rOpenSci - herramientas abiertas para una ciencia abierta"
     languageName = "Español"
     weight = 2
   [languages.fr]
