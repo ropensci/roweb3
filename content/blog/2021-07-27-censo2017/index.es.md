@@ -16,7 +16,7 @@ tags:
   - extracción de datos
   - geoespacial
   - comunidad
-  - revista software por pares
+  - revisión de software por pares
   - censo2017
 description: >
   Las tablas del Censo de Chile al instante.
