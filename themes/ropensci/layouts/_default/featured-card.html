@@ -3,18 +3,18 @@
               <div class="card-body">
                 <div class="d-flex">
                   <div class="tag">Featured</div>
-                  <div class="date">{{ .Date.Format "January 2, 2006" }}</div>
+                  <div class="date">{{ .Date.Format "January 2, 2006" }}</div>{{ if .IsTranslated }}
+          <div class="date">
+        {{ range .Translations }}
+          <a href="{{ .Permalink }}"><i class="fa fa-globe"></i>
+  {{ .Language.LanguageName }}</a>
+                   {{ end }}</div>
+                {{ end }}
                 </div>
                 <a href="{{ .Permalink }}" class="card-title"
                   >{{ .Title | markdownify }}
                 </a>
-                 {{ if .IsTranslated }}
-          <span>{{ i18n "translations" }}:
-        {{ range .Translations }}
-          <a href="{{ .Permalink }}"><i class="fa fa-globe"></i>
-  {{ .Language.LanguageName }}</a>
-                   {{ end }}</span>
-                {{ end }}
+                 
                 <div class="d-flex justify-content-between card-user">
                     <span class="card-user__name">
                     {{ with .Params.author }}
