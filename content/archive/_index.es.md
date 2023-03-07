@@ -1,5 +1,5 @@
 +++
 title = "Archivo"
-description = "Todas las entradas, por fechas"
+description = "Todos los artículos, por fechas"
 partials = ["archive.html"]
 +++

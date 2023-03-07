@@ -1,6 +1,6 @@
 ---
 name: Alejandra Bellini
-bio: Social Communication. Journalist. Specialization in Political Journalism and Digital Marketing.  
+bio: Comunicadora Social. Periodista. Especialita en periodísmo político y Marketing Digital.  
 twitter: alejabellini
 img: img/community/ale-bellini.jpeg
 ---
