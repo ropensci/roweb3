@@ -27,7 +27,7 @@ committee as the new rOpenSci Community Manager.
 
 These changes were released July 7, 2022 as version 2.4. 
 
-You can explore the [English](/code-of-conduct/) and/or [Spanish](/codigo-de-conducta/) Code of Conducts, as well as the [original blog post](/blog/2022/07/12/coc-update/) regarding this release. 
+You can explore the [English](/code-of-conduct/) and/or [Spanish](/es/codigo-de-conducta/) Code of Conducts, as well as the [original blog post](/blog/2022/07/12/coc-update/) regarding this release. 
 
 We welcome your feedback by email to <conduct@ropensci.org>, and we thank you for continuing to work with us to make rOpenSci 
 a safe, enjoyable, friendly and enriching environment for everyone who participates.
