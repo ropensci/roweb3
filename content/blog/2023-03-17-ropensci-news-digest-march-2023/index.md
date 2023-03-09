@@ -22,6 +22,14 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
+### Meeting the stars of the R-universe: Sébastien Rochette
+
+Knowing our community's stories helps us to learn about the people behind our software, brings us closer and offers us new opportunities. To share some of these community stories, we created the rOpenSci interview series [_"Meeting the stars of the R-Universe"_](/tags/r-universe-stars/).
+
+The latest interview with [Sébastien Rochette introduces ThinkR’s Approach to Contributing to a Growing and Friendly R Community](/blog/2023/02/28/r-universe-stars-2-en/).
+The post is available in Spanish and French too!
+Don't miss the trilingual post and the video.
+
 ### Coworking
 
 Join us for social coworking & office hours monthly on first Tuesdays! 
@@ -171,6 +179,35 @@ out-of memory 'DuckDB' database for bulk analysis. [Issue for volunteering](http
 ## Package development corner
 
 Some useful tips for R package developers. :eyes:
+
+### R Consortium's call for proposals!
+
+The R Consortium's Internal Steering Committee has a [call for proposals](https://www.r-consortium.org/all-projects/call-for-proposals) open until April 1st.
+
+- The funds can be used for different sizes of projects.  The project must have a software development component.
+- Proofs of concept are not funded. No scientific publications or equipment.
+- The idea is that the funds can cover people's time to develop software.
+
+This might be relevant for your R package work so make sure to read the call, and good luck if you send a proposal! :rocket:
+
+### To cache, or not to cache testthat results?
+
+Have you ever wished you could cache testthat results?
+You'll find argument both in favor of and against that idea in this [testthat issue](https://github.com/r-lib/testthat/issues/1703) -- testthat maintainer Hadley Wickham being against the idea.
+
+You might be interested in Kirill Müller's experimental package [lazytest](https://krlmlr.github.io/lazytest/) that helps you rerun only the tests that have failed during the last run.
+
+### Check if an R package name is available 
+
+The function [`pak::pkg_name_check()`](https://pak.r-lib.org/reference/pkg_name_check.html) by Gábor Csárdi can be viewed as a replacement for the available package. It has a very nice output.
+
+### What if your httptest mock files are suddenly ignored?
+
+Imagine you've set up [HTTP testing](https://books.ropensci.org/http-testing/index.html) in your package with [httptest](https://books.ropensci.org/http-testing/httptest.html) and all goes well until one day, where the httptest mock files are _ignored_.
+Don't panick! 
+Check whether the calls that are mocked are still made with httr.
+Maybe one of your package's dependencies upgraded their [stack](https://books.ropensci.org/http-testing/http-in-r-101.html#http-requests-in-r-what-package)?
+If the calls are made with httr2, the tests need to be updated to [httptest2](https://books.ropensci.org/http-testing/httptest2.html) which thankfully isn't too hard.
 
 <!-- To be curated by hand -->
 
