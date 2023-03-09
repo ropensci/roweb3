@@ -8,16 +8,16 @@
   other = 'Catégories'
   
 [Browse]
-  other = 'Explore'
+  other = 'Explorer'
   
 [Share]
-  other = 'Partage'
+  other = 'Partager'
   
 [Suggest-an-edit]
-  other = 'Suggère une modification'
+  other = 'Suggérer une modification'
   
 [open-pr]
-  other = 'Ouvre une pull request'
+  other = 'Ouvrir une pull request'
   
 [By-Tag]
   other = 'Par étiquette'
@@ -32,10 +32,10 @@
   other = 'Traduction'
   
 [Browse-By-Tag]
-  other = 'Explore par étiquette'
+  other = 'Explorer par étiquette'
   
 [Browse-By-Author]
-  other = 'Explore par auteur·rice'
+  other = 'Explorer par auteur·rice'
   
 [Read-more]
-  other = 'Lis plus'
+  other = 'Lire plus'
