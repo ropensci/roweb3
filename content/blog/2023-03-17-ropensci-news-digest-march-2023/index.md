@@ -164,6 +164,10 @@ If you're interested in maintaining any of the R packages below, you might enjoy
 
 - **[sofa](https://cran.r-project.org/web/packages/sofa/index.html)**. Provides an interface to the NoSQL database CouchDB (<http://couchdb.apache.org>). Methods are provided for managing databases within CouchDB, including creating/deleting/updating/transferring, and managing documents within databases. One can connect with a local CouchDB instance, or a remote 'CouchDB' databases such as Cloudant. Documents can be inserted directly from vectors, lists, data.frames, and JSON. Targeted at CouchDB v2 or greater. [Issue for volunteering](https://github.com/ropensci-archive/sofa/issues/81).
 
+- **[geojson](https://cran.r-project.org/web/packages/geojson/index.html)**, Classes for GeoJSON to make working with GeoJSON easier. Includes S3 classes for GeoJSON classes with brief summary output, and a few methods such as extracting and adding bounding boxes, properties, and coordinate reference systems; working with newline delimited GeoJSON; linting through the geojsonlint package; and serializing to/from Geobuf binary GeoJSON format. [Issue for volunteering](https://github.com/ropensci-archive/geojson/issues/42).
+
+- **[geojsonlint](https://cran.r-project.org/web/packages/geojsonlint/index.html)**, Tools for linting GeoJSON. Includes tools for interacting with the online tool <http://geojsonlint.com>, the Javascript library geojsonhint (<https://www.npmjs.com/package/geojsonhint>), and validating against a GeoJSON schema via the Javascript library (<https://www.npmjs.com/package/is-my-json-valid>). Some tools work locally while others require an internet connection. [Issue for volunteering](https://github.com/ropensci-archive/geojsonlint/issues/22).
+
 - **[citesdb](https://docs.ropensci.org/citesdb/)**, a high-performance database of shipment-level CITES trade data. Provides convenient access to over 40 years and 20 million records of
 endangered wildlife trade data from the Convention on International Trade
 in Endangered Species of Wild Fauna and Flora, stored on a local on-disk,
