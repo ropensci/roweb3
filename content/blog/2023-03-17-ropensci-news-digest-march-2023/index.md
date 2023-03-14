@@ -30,6 +30,18 @@ The latest interview with [Sébastien Rochette introduces ThinkR’s Approach to
 The post is available in Spanish and French too!
 Don't miss the trilingual post and the video.
 
+
+### Discovering and learning everything there is to know about R packages using R-universe
+
+Jeroen Ooms explains [how to use R-universe to discover and assess new packages](/blog/2023/02/27/runiverse-discovering/).
+He wrote that we can distinguish three levels of navigation in r-universe when you go shopping for R packages:
+
+1. Search the global ecosystem: find packages, by topic, keyword, ranking, etc.
+1. Browse by maintainer/organization: explore all work from a given group or researcher.
+1. The individual package: get detailed information on everything there is to know about a project and instructions to start using it.
+
+That post was also discussed on the [R Weekly highlights podcast](https://rweekly.fireside.fm/114?t=576) hosted by Eric Nantz and Mike Thomas!
+
 ### Coworking
 
 Join us for social coworking & office hours monthly on first Tuesdays! 
