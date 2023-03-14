@@ -550,7 +550,7 @@ If you're interested in maintaining any of the R packages below, you might enjoy
 
 - **[rvertnet](https://cran.r-project.org/web/packages/rvertnet/index.html)**, Retrieve, map and summarize data from the VertNet.org archives (<http://vertnet.org/>). Functions allow searching by many parameters, including taxonomic names, places, and dates. In addition, there is an interface for conducting spatially delimited searches, and another for requesting large datasets via email. [Issue for volunteering](https://github.com/ropensci-archive/rvertnet/issues/71).
 
-- **[natserv](https://cran.r-project.org/web/packages/natserv/index.html)**. Interface to NatureServe (<https://www.natureserve.org/>). Includes methods to get data, image metadata, search taxonomic names, and make maps.[Issue for volunteering](https://github.com/ropensci-archive/natserv/issues/29).
+- **[natserv](https://cran.r-project.org/web/packages/natserv/index.html)**. Interface to NatureServe (<https://www.natureserve.org/>). Includes methods to get data, image metadata, search taxonomic names, and make maps. [Issue for volunteering](https://github.com/ropensci-archive/natserv/issues/29).
 
 - **[sofa](https://cran.r-project.org/web/packages/sofa/index.html)**. Provides an interface to the NoSQL database CouchDB (<http://couchdb.apache.org>). Methods are provided for managing databases within CouchDB, including creating/deleting/updating/transferring, and managing documents within databases. One can connect with a local CouchDB instance, or a remote 'CouchDB' databases such as Cloudant. Documents can be inserted directly from vectors, lists, data.frames, and JSON. Targeted at CouchDB v2 or greater. [Issue for volunteering](https://github.com/ropensci-archive/sofa/issues/81).
 
@@ -576,7 +576,7 @@ Some useful tips for R package developers. :eyes:
 
 The R Consortium's Internal Steering Committee has a [call for proposals](https://www.r-consortium.org/all-projects/call-for-proposals) open until April 1st.
 
-- The funds can be used for different sizes of projects.  The project must have a software development component.
+- The funds can be used for different sizes of projects. The project must have a software development component.
 - Proofs of concept are not funded. No scientific publications or equipment.
 - The idea is that the funds can cover people's time to develop software.
 
@@ -585,7 +585,7 @@ This might be relevant for your R package work so make sure to read the call, an
 ### To cache, or not to cache testthat results?
 
 Have you ever wished you could cache testthat results?
-You'll find argument both in favor of and against that idea in this [testthat issue](https://github.com/r-lib/testthat/issues/1703) -- testthat maintainer Hadley Wickham being against the idea.
+You'll find arguments both in favor of and against that idea in this [testthat issue](https://github.com/r-lib/testthat/issues/1703) -- testthat maintainer Hadley Wickham being against the idea.
 
 You might be interested in Kirill Müller's experimental package [lazytest](https://krlmlr.github.io/lazytest/) that helps you rerun only the tests that have failed during the last run.
 
@@ -600,8 +600,6 @@ Don't panick!
 Check whether the calls that are mocked are still made with httr.
 Maybe one of your package's dependencies upgraded their [stack](https://books.ropensci.org/http-testing/http-in-r-101.html#http-requests-in-r-what-package)?
 If the calls are made with httr2, the tests need to be updated to [httptest2](https://books.ropensci.org/http-testing/httptest2.html) which thankfully isn't too hard.
-
-<!-- To be curated by hand -->
 
 ## Last words
 
