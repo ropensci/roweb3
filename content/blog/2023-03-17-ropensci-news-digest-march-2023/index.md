@@ -149,11 +149,11 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 * [Puntapié inicial de nuestro programa de campeonas y campeones](/blog/2023/02/21/champions-program-kick-off-es) by Yanina Bellini Saibene. El programa de campeones y campeonas ya inició las primeras actividades de este 2023. Lee de donde son los y las participantes y que van a estar haciendo.
 
-* [Meeting the Stars of the R-universe: ThinkR's Approach to Contributing to a Growing and Friendly R Community](/blog/2023/02/28/r-universe-stars-2-en) by Yanina Bellini Saibene, Sébastien Rochette, Alejandra Bellini, Lucio Casalla, and Steffi LaZerte.
+* [Meeting the Stars of the R-universe: ThinkR's Approach to Contributing to a Growing and Friendly R Community](/blog/2023/02/28/r-universe-stars-2-en) by Yanina Bellini Saibene, Sébastien Rochette, Alejandra Bellini, Lucio Casalla, and Steffi LaZerte. A new installment of our interview series __"Meeting the stars of the R-Universe"__. We go to France to get a closer look at the work of the people at ThinkR.
 
 * [Aprender, ayudar y compartir. El método de ThinkR para crear una comunidad cada vez más grande y amigable de R](/blog/2023/02/28/r-universe-stars-2-es) by Yanina Bellini Saibene, Sébastien Rochette, Alejandra Bellini, Lucio Casalla, and Steffi LaZerte. Una nueva entrega de nuestra serie de entrevistas __"Conociendo a las estrellas del universo R"__. Nos vamos a Francia para conocer más de cerca el trabajo que hace la gente de ThinkR.
 
-* [Enseigner, aider et partager. L'approche de ThinkR pour contribuer à la croissance d’une communauté R conviviale](/blog/2023/02/28/r-universe-stars-2-fr) by Yanina Bellini Saibene, Sébastien Rochette, Alejandra Bellini, Lucio Casalla, and Steffi LaZerte. A new installment of our interview series __"Meeting the stars of the R-Universe"__. We go to France to get a closer look at the work of the people at ThinkR.
+* [Enseigner, aider et partager. L'approche de ThinkR pour contribuer à la croissance d’une communauté R conviviale](/blog/2023/02/28/r-universe-stars-2-fr) by Yanina Bellini Saibene, Sébastien Rochette, Alejandra Bellini, Lucio Casalla, and Steffi LaZerte. Un nouvel entretien de notre série __"Meeting the stars of the R-Universe"__. Nous allons en France voir de plus près le travail de ThinkR.
 
 
 
