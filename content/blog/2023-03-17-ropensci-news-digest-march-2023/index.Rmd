@@ -548,7 +548,7 @@ cat(
 
 Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)! -->
 
-## Call for maintainers
+## Call for (co)maintainers
 
 ### Call for maintainers
 
@@ -570,7 +570,7 @@ out-of memory 'DuckDB' database for bulk analysis. [Issue for volunteering](http
 
 ### Call for comaintainers
 
-- rtweet, that interfaces Twitter API, is looking for a [co-maintainer](https://github.com/ropensci/rtweet/issues/763).
+- **[rtweet](https://docs.ropensci.org/rtweet)**, that interfaces Twitter API, is looking for a [co-maintainer](https://github.com/ropensci/rtweet/issues/763).
 
 - Refer to our [recent blog post](/blog/2022/10/17/maintain-or-co-maintain-an-ropensci-package/#packages-looking-for-co-maintainers) to identify other packages where help is especially wished for!
 
