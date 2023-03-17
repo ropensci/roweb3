@@ -608,6 +608,7 @@ You might be interested in Kirill Müller's experimental package [lazytest](http
 ### Check if an R package name is available 
 
 The function [`pak::pkg_name_check()`](https://pak.r-lib.org/reference/pkg_name_check.html) by Gábor Csárdi can be viewed as a replacement for the available package. It has a very nice output.
+(Also keep in mind that our [pkgcheck::pkgcheck()](https://docs.ropensci.org/pkgcheck) function reports on potentially duplicated function names.)
 
 ### What if your httptest mock files are suddenly ignored?
 
@@ -616,6 +617,14 @@ Don't panic!
 Check whether the calls that are mocked are still made with httr.
 Maybe one of your package's dependencies upgraded their [stack](https://books.ropensci.org/http-testing/http-in-r-101.html#http-requests-in-r-what-package)?
 If the calls are made with httr2, the tests need to be updated to [httptest2](https://books.ropensci.org/http-testing/httptest2.html) which thankfully isn't too hard.
+
+### Updates to package checks
+
+We added one new check this month to [our pkgcheck system](https://docs.ropensci.org/pkgcheck), specifically for statistics packages.
+Standards are expected to be documented with [the srr package](https://docs.ropensci.org/srr) throughout the entire code of a package, including within all or most files in the /R and /tests directories.
+Having documentation distributed throughout code is particularly important to enable reviewers to judge compliance with standards at the relevant locations within the code.
+Packages which leave a large portion of standards documentation in a default location within a single file now produce an error when checked with pkgcheck, as well as with the srr function, [srr_stats_pre_submit](https://docs.ropensci.org/srr/reference/srr_stats_pre_submit.html).
+
 
 ## Last words
 
