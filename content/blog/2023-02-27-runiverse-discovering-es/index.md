@@ -15,6 +15,7 @@ tags:
 - search
 - packages
 - dashboard
+- tech notes
 ---
 
 Language: __Español__ | [English](../runiverse-discovering)
