@@ -7,7 +7,7 @@ slug: ropensci-news-digest-march-2023
 categories: []
 tags:
   - newsletter
-description: keywords from the content
+description: Interview of ThinkR Sébastien Rochette, package discovery on R-universe, coworking, new packages and package news
 params:
   last_newsletter: '2023-02-17'
 ---
@@ -27,18 +27,18 @@ Now let's dive into the activity at and around rOpenSci!
 Knowing our community's stories helps us to learn about the people behind our software, brings us closer and offers us new opportunities. To share some of these community stories, we created the rOpenSci interview series [_"Meeting the stars of the R-Universe"_](/tags/r-universe-stars/).
 
 The latest interview with [Sébastien Rochette introduces ThinkR’s Approach to Contributing to a Growing and Friendly R Community](/blog/2023/02/28/r-universe-stars-2-en/).
-The post is available in Spanish and French too!
+The post is available in [Spanish](/blog/2023/02/28/r-universe-stars-2-es/) and [French](/blog/2023/02/28/r-universe-stars-2-fr/) too!
 Don't miss the trilingual post and the video.
 
 
 ### Discovering and learning everything there is to know about R packages using R-universe
 
 Jeroen Ooms explains [how to use R-universe to discover and assess new packages](/blog/2023/02/27/runiverse-discovering/).
-He wrote that we can distinguish three levels of navigation in r-universe when you go shopping for R packages:
+He wrote that we can distinguish three levels of navigation in the R-universe when you go shopping for R packages:
 
 1. Search the global ecosystem: find packages, by topic, keyword, ranking, etc.
-1. Browse by maintainer/organization: explore all work from a given group or researcher.
-1. The individual package: get detailed information on everything there is to know about a project and instructions to start using it.
+1. Browse by maintainer/organization: explore all work from a given group or developer.
+1. The individual package: get detailed information on everything there is to know about a project and instructions for how to start using it.
 
 That post was also discussed on the [R Weekly highlights podcast](https://rweekly.fireside.fm/114?t=576) hosted by Eric Nantz and Mike Thomas!
 
@@ -57,6 +57,12 @@ Consult our [Events](/events) page to find your local time and how to join.
     
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
+* Tuesday, May 2nd, 9:00 Americas Pacific / 16:00 UTC Tentative theme: "Spring Cleaning for R packages and scripts" *Hosted by community host TBD and [Steffi LaZerte](/author/steffi-lazerte/)*
+    - Explore how other organizations keep their scripts/packages nice and clean
+    - Take a look at your R packages and scripts and give them a good spring cleaning\*
+    - Talk to our community host and other attendees and discuss tips for keeping on top of it all.
+    
+\* in the northern hemisphere at least, otherwise, give them a good *fall* cleaning!
 
 ## Software :package:
 
@@ -65,7 +71,9 @@ And remember, you can always cowork independently on work related to R, work on 
 
 
 
-The following four packages recently became a part of our software suite:
+The following five packages recently became a part of our software suite:
+
++ [geojson](https://docs.ropensci.org/geojson), developed by Scott Chamberlain together with Jeroen Ooms: Classes for GeoJSON to make working with GeoJSON easier. Includes S3 classes for GeoJSON classes with brief summary output, and a few methods such as extracting and adding bounding boxes, properties, and coordinate reference systems; working with newline delimited GeoJSON; linting through the geojsonlint package; and serializing to/from Geobuf binary GeoJSON format.  It is available on [CRAN]( https://CRAN.R-project.org/package=geojson). 
 
 + [openalexR](https://docs.ropensci.org/openalexR), developed by Massimo Aria together with Trang Le: A set of tools to extract bibliographic content from OpenAlex database using API <https://docs.openalex.org>.  It is available on [CRAN]( https://CRAN.R-project.org/package=openalexR). It has been [reviewed](https://github.com/ropensci/software-review/issues/560).
 
@@ -81,9 +89,9 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following thirteen packages have had an update since the last newsletter: [c14bazAAR](https://docs.ropensci.org/c14bazAAR "Download and Prepare C14 Dates from Different Source Databases") ([`3.4.1`](https://github.com/ropensci/c14bazAAR/releases/tag/3.4.1)), [dynamite](https://docs.ropensci.org/dynamite "Bayesian Modeling and Causal Inference for Multivariate
+The following fifteen packages have had an update since the last newsletter: [c14bazAAR](https://docs.ropensci.org/c14bazAAR "Download and Prepare C14 Dates from Different Source Databases") ([`3.4.1`](https://github.com/ropensci/c14bazAAR/releases/tag/3.4.1)), [dynamite](https://docs.ropensci.org/dynamite "Bayesian Modeling and Causal Inference for Multivariate
     Longitudinal Data") ([`1.2.0`](https://github.com/ropensci/dynamite/releases/tag/1.2.0)), [FedData](https://docs.ropensci.org/FedData "Functions to Automate Downloading Geospatial Data Available from
-    Several Federated Data Sources") ([`v3.0.3`](https://github.com/ropensci/FedData/releases/tag/v3.0.3)), [geojsonio](https://docs.ropensci.org/geojsonio "Convert Data from and to GeoJSON or TopoJSON") ([`v0.11.0`](https://github.com/ropensci/geojsonio/releases/tag/v0.11.0)), [lingtypology](https://docs.ropensci.org/lingtypology "Linguistic Typology and Mapping") ([`v1.1.12`](https://github.com/ropensci/lingtypology/releases/tag/v1.1.12)), [mctq](https://docs.ropensci.org/mctq "Tools to Process the Munich ChronoType Questionnaire (MCTQ)") ([`v0.3.2`](https://github.com/ropensci/mctq/releases/tag/v0.3.2)), [osmdata](https://docs.ropensci.org/osmdata "Import OpenStreetMap Data as Simple Features or Spatial Objects") ([`v0.2.1`](https://github.com/ropensci/osmdata/releases/tag/v0.2.1)), [pathviewr](https://docs.ropensci.org/pathviewr "Wrangle, Analyze, and Visualize Animal Movement Data") ([`v1.1.7`](https://github.com/ropensci/pathviewr/releases/tag/v1.1.7)), [spocc](https://docs.ropensci.org/spocc "Interface to Species Occurrence Data Sources") ([`v1.2.1`](https://github.com/ropensci/spocc/releases/tag/v1.2.1)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.7.5`](https://github.com/ropensci/tarchetypes/releases/tag/0.7.5)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`0.14.3`](https://github.com/ropensci/targets/releases/tag/0.14.3)), [webmockr](https://docs.ropensci.org/webmockr "Stubbing and Setting Expectations on HTTP Requests") ([`v0.9.0`](https://github.com/ropensci/webmockr/releases/tag/v0.9.0)), and [xslt](https://docs.ropensci.org/xslt "Extensible Style-Sheet Language Transformations") ([`v1.4.4`](https://github.com/ropensci/xslt/releases/tag/v1.4.4)).
+    Several Federated Data Sources") ([`v3.0.3`](https://github.com/ropensci/FedData/releases/tag/v3.0.3)), [geojsonio](https://docs.ropensci.org/geojsonio "Convert Data from and to GeoJSON or TopoJSON") ([`v0.11.0`](https://github.com/ropensci/geojsonio/releases/tag/v0.11.0)), [lingtypology](https://docs.ropensci.org/lingtypology "Linguistic Typology and Mapping") ([`v1.1.12`](https://github.com/ropensci/lingtypology/releases/tag/v1.1.12)), [mctq](https://docs.ropensci.org/mctq "Tools to Process the Munich ChronoType Questionnaire (MCTQ)") ([`v0.3.2`](https://github.com/ropensci/mctq/releases/tag/v0.3.2)), [osmdata](https://docs.ropensci.org/osmdata "Import OpenStreetMap Data as Simple Features or Spatial Objects") ([`v0.2.1`](https://github.com/ropensci/osmdata/releases/tag/v0.2.1)), [pathviewr](https://docs.ropensci.org/pathviewr "Wrangle, Analyze, and Visualize Animal Movement Data") ([`v1.1.7`](https://github.com/ropensci/pathviewr/releases/tag/v1.1.7)), [qualR](https://docs.ropensci.org/qualR "An R package to download São Paulo and Rio de Janeiro air pollution data") ([`v0.9.7`](https://github.com/ropensci/qualR/releases/tag/v0.9.7)), [rredlist](https://docs.ropensci.org/rredlist "IUCN Red List Client") ([`v0.7.1`](https://github.com/ropensci/rredlist/releases/tag/v0.7.1)), [spocc](https://docs.ropensci.org/spocc "Interface to Species Occurrence Data Sources") ([`v1.2.1`](https://github.com/ropensci/spocc/releases/tag/v1.2.1)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.7.5`](https://github.com/ropensci/tarchetypes/releases/tag/0.7.5)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`0.14.3`](https://github.com/ropensci/targets/releases/tag/0.14.3)), [webmockr](https://docs.ropensci.org/webmockr "Stubbing and Setting Expectations on HTTP Requests") ([`v0.9.0`](https://github.com/ropensci/webmockr/releases/tag/v0.9.0)), and [xslt](https://docs.ropensci.org/xslt "Extensible Style-Sheet Language Transformations") ([`v1.4.4`](https://github.com/ropensci/xslt/releases/tag/v1.4.4)).
 
 ## Software Peer Review
 
@@ -103,19 +111,19 @@ There are fifteen recently closed and active submissions and 2 submissions on ho
 
     * [octolog](https://github.com/ropensci/software-review/issues/502), Better Github Action Logging. Submitted by [Jacob Wujciak-Jens](https://github.com/assignUser). 
 
-* Three at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
+* Four at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 
-     * [predictNMB](https://github.com/ropensci/software-review/issues/566), Evaluate Clinical Prediction Models by Net Monetary Benefit. Submitted by [Rex Parsons](https://rwparsons.github.io/).  (Stats).
+     * [credit](https://github.com/ropensci/software-review/issues/576), Generate CRediT Author Statements. Submitted by [Josep Pueyo-Ros](https://github.com/jospueyo). 
+
+    * [predictNMB](https://github.com/ropensci/software-review/issues/566), Evaluate Clinical Prediction Models by Net Monetary Benefit. Submitted by [Rex Parsons](https://rwparsons.github.io/).  (Stats).
 
     * [dfms](https://github.com/ropensci/software-review/issues/556), Dynamic Factor Models. Submitted by [Sebastian Krantz](https://github.com/SebKrantz). 
 
     * [waywiser](https://github.com/ropensci/software-review/issues/571), Ergonomic Methods for Assessing Spatial Models. Submitted by [Michael Mahoney](https://mm218.dev/).  (Stats).
 
-* Five at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
+* Four at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
      * [birdsize](https://github.com/ropensci/software-review/issues/577), Estimate Avian Body Size Distributions. Submitted by [Renata Diaz](https://diazrenata.github.io/home/). 
-
-    * [credit](https://github.com/ropensci/software-review/issues/576), Generate CRediT Author Statements. Submitted by [Josep Pueyo-Ros](https://github.com/jospueyo). 
 
     * [dwctaxon](https://github.com/ropensci/software-review/issues/574), Tools for Working with Darwin Core Taxon Data. Submitted by [Joel Nitta](https://joelnitta.com). 
 
@@ -143,8 +151,6 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 * [Puntapié inicial de nuestro programa de campeonas y campeones](/blog/2023/02/21/champions-program-kick-off-es) by Yanina Bellini Saibene. El programa de campeones y campeonas ya inició las primeras actividades de este 2023. Lee de donde son los y las participantes y que van a estar haciendo.
 
-* [Descubrir y aprender todo lo que hay que saber sobre los paquetes de R utilizando r-universe](/blog/2023/02/27/runiverse-discovering-es) by Jeroen Ooms. El objetivo de r-universe es proporcionar un lugar central para navegar por el ecosistema de R y descubrir lo que existe; hacerse una idea de la finalidad y la calidad de cada paquete, y ayudar a empezar en cuestión de segundos.
-
 * [Meeting the Stars of the R-universe: ThinkR's Approach to Contributing to a Growing and Friendly R Community](/blog/2023/02/28/r-universe-stars-2-en) by Yanina Bellini Saibene, Sébastien Rochette, Alejandra Bellini, Lucio Casalla, and Steffi LaZerte.
 
 * [Aprender, ayudar y compartir. El método de ThinkR para crear una comunidad cada vez más grande y amigable de R](/blog/2023/02/28/r-universe-stars-2-es) by Yanina Bellini Saibene, Sébastien Rochette, Alejandra Bellini, Lucio Casalla, and Steffi LaZerte. Una nueva entrega de nuestra serie de entrevistas __"Conociendo a las estrellas del universo R"__. Nos vamos a Francia para conocer más de cerca el trabajo que hace la gente de ThinkR.
@@ -157,6 +163,8 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 * [Discovering and learning everything there is to know about R packages using r-universe](/blog/2023/02/27/runiverse-discovering) by Jeroen Ooms. The goal of r-universe is to provide a central place for browsing through the R ecosystem to discover what is out there, get a sense of the purpose and quality of individual packages, and help you get started in seconds.
 
+* [Descubrir y aprender todo lo que hay que saber sobre los paquetes de R utilizando r-universe](/blog/2023/02/27/runiverse-discovering-es) by Jeroen Ooms. El objetivo de r-universe es proporcionar un lugar central para navegar por el ecosistema de R y descubrir lo que existe; hacerse una idea de la finalidad y la calidad de cada paquete, y ayudar a empezar en cuestión de segundos.
+
 <!-- ## Use cases
 
 
@@ -167,7 +175,7 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)! -->
 
-## Call for maintainers
+## Call for (co)maintainers
 
 ### Call for maintainers
 
@@ -189,7 +197,7 @@ out-of memory 'DuckDB' database for bulk analysis. [Issue for volunteering](http
 
 ### Call for comaintainers
 
-- rtweet, that interfaces Twitter API, is looking for a [co-maintainer](https://github.com/ropensci/rtweet/issues/763).
+- **[rtweet](https://docs.ropensci.org/rtweet)**, that interfaces Twitter API, is looking for a [co-maintainer](https://github.com/ropensci/rtweet/issues/763).
 
 - Refer to our [recent blog post](/blog/2022/10/17/maintain-or-co-maintain-an-ropensci-package/#packages-looking-for-co-maintainers) to identify other packages where help is especially wished for!
 
