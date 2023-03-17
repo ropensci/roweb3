@@ -612,7 +612,7 @@ The function [`pak::pkg_name_check()`](https://pak.r-lib.org/reference/pkg_name_
 ### What if your httptest mock files are suddenly ignored?
 
 Imagine you've set up [HTTP testing](https://books.ropensci.org/http-testing/index.html) in your package with [httptest](https://books.ropensci.org/http-testing/httptest.html) and all goes well until one day, where the httptest mock files are _ignored_.
-Don't panick! 
+Don't panic! 
 Check whether the calls that are mocked are still made with httr.
 Maybe one of your package's dependencies upgraded their [stack](https://books.ropensci.org/http-testing/http-in-r-101.html#http-requests-in-r-what-package)?
 If the calls are made with httr2, the tests need to be updated to [httptest2](https://books.ropensci.org/http-testing/httptest2.html) which thankfully isn't too hard.
