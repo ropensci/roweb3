@@ -7,7 +7,7 @@ slug: ropensci-news-digest-march-2023
 categories: []
 tags:
   - newsletter
-description: keywords from the content
+description: Interview of ThinkR Sébastien Rochette, package discovery on R-universe, coworking, new packages and package news
 params:
   last_newsletter: '2023-02-17'
 ---
@@ -151,7 +151,7 @@ old <- dplyr::filter(
 
 new <- dplyr::filter(
   registry,
-  !package %in% c("babeldown", old$package),
+  !package %in% c("babeldown", "geojson", old$package),
   !grepl("ropenscilabs\\/", url),
   !grepl("ropensci-archive\\/", url)
 )
@@ -192,6 +192,10 @@ present_one <- function(package) {
     author_string <- paste0(author_string, sprintf(" together with %s", nice_string(aut)))
   } 
   
+  if (package$package == "waywiser") {
+    package$details <- "Assessing predictive models of spatial data can be challenging, both because these models are typically built for extrapolating outside the original region represented by training data and due to potential spatially structured errors, with “hot spots” of higher than expected error clustered geographically due to spatial structure in the underlying data. Methods are provided for assessing models fit to spatial data, including approaches for measuring the spatial structure of model errors, assessing model predictions at multiple spatial scales, and evaluating where predictions can be made safely. Methods are particularly useful for models fit using the tidymodels framework. "
+  }
+  
   string <- sprintf(
     "[%s](https://docs.ropensci.org/%s), %s: %s. ",
     package$package, 
@@ -219,6 +223,12 @@ present_one <- function(package) {
   }
   if (nzchar(package$onboarding)) {
     string <- paste0(string, sprintf("It has been [reviewed](%s)", package$onboarding))
+    if (package$package == "openalexR") {
+      string <- paste0(string, " by Brianna Lind and Pachá (aka Mauricio Vargas Sepúlveda)")
+    }
+    if (package$package == "rb3") {
+      string <- paste0(string, " by Mario Gavidia Calderón and Pachá (aka Mauricio Vargas Sepúlveda)")
+    }
     if (length(rev) > 0) {
       string <- paste0(string, sprintf(" by %s.", nice_string(rev)))
     } else {
