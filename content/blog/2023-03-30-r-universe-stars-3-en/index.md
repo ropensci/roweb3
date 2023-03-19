@@ -19,7 +19,7 @@ preface: "[Lee la versión en español de este artículo](/blog/2023/03/30/r-uni
 
 A new post of our interview series [“Meeting the stars of the R-universe”](/tags/r-universe-stars/). We aim to introduce the working groups and people behind the development of software and packages many of us use and which are available through the R-universe. We want to highlight and explore different teams and projects around the world, the work they do, their processes and users. Our third stop is __Norway__ to talk with __Athanasia Monika Mowinckel__.
 
-Working with the human brain requires specific software and complex developments. However R appears as the natural way to collect hundreds of data that need to be analyzed and the R Universe as the most friendly place to share and invite to collaborate.
+Working with the human brain requires specific software and complex developments. However R appears as the natural way to collect hundreds of data that need to be analyzed and the R-Universe as the most friendly place to share and invite to collaborate.
 
 Athanasia Monika Mowinckel introduces herself simply as Mo, which is her nickname. But her CV is much more extensive and includes, amog many other activities, her current work at the [Center for Lifespan Changes in Brain and Cognition](https://www.sv.uio.no/psi/english/research/groups/lcbc/index.html) at the University of Oslo in Norway. She works there as a scientist and tell us that her work _“involves research software engineering or research data management”_ and because of that 
 
@@ -30,11 +30,15 @@ In her work, they use specialized software because of the information they need 
 > having our R packages in our tool belt when we are working is super important for our staff.
 
 
-Athanasia is working on a project called [Life Brain](https://www.lifebrain.uio.no/), funded by the European Union for the Human Life brand and involving 13 European centers. Mo explains that they have developed a lot of research and made publications, and many results have been expressed in the R packages. Asked about the project, with passion and great enthusiasm, Mo says: "We are trying to investigate how people are aging, what their brain aging is like, what their cognitive aging is like".
+Athanasia is working on a project called [Life Brain](https://www.lifebrain.uio.no/), funded by the European Union for the Human Life brand and involving 13 European centers. Mo explains that they have developed a lot of research and made publications, and many results have been implemented in R packages. Asked about the project, with passion and great enthusiasm, Mo says: 
 
-The R Universe
+> We are trying to investigate how people are aging, what their brain aging is like, what their cognitive aging is like.
 
-“The R universe actually came at an extremely timely point for us”, this is how Athanasia explains the possibility that this tool offered them to show in a simple way all the material they were working on. This is explained because, in the development of the research they carry out, there are different types and sources of funding.  Even though they have a collective organization in GitHub, they needed a clear way to show all the work that is distributed in different repositories in the personal accounts of the researchers or in the accounts of the organizations. That is why Mo assures that in R Universe "we can create a place for all our universe and thus show the packages".
+## R-Universe
+
+> The R universe actually came at an extremely timely point for us, 
+
+this is how Athanasia explains the possibility that this tool offered them to show in a simple way all the material they were working on. This is explained because, in the development of the research they carry out, there are different types and sources of funding.  Even though they have a collective organization in GitHub, they needed a clear way to show all the work that is distributed in different repositories in the personal accounts of the researchers or in the accounts of the organizations. That is why Mo assures that in R Universe "we can create a place for all our universe and thus show the packages".
 
 In addition, as Athanasia explains in R-Universe it is very clear who the developers or maintainers are and that means that everyone keeps their corresponding credits and contributions. 
 One of the interesting points of the shared work in R-Universe that Mo showed us is the possibility of accessing the data but also some extra functions that are the same as that they used in the analysis. For example, those found in the survey they conducted globally on brain health where obtained more than 27 thousand responses and from which they produced different articles and papers (You can see more information about this work in the video below).  
