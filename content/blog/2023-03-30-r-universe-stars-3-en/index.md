@@ -21,11 +21,16 @@ A new post of our interview series [“Meeting the stars of the R-universe”](/
 
 Working with the human brain requires specific software and complex developments. However R appears as the natural way to collect hundreds of data that need to be analyzed and the R Universe as the most friendly place to share and invite to collaborate.
 
-Athanasia Monika Mowinckel introduces herself simply as Mo, which is her nickname, but her CV is much more extensive and includes her current work at the center for lifespan Changes in Brain and Cognition at the University of Oslo in Norway. There she works as a scientist and tell us that her work “involves research software engineering or research data management” and because of that “R is like more or less the default statistical program we use for our day-to-day work at the center, at least for like tabular data”.
+Athanasia Monika Mowinckel introduces herself simply as Mo, which is her nickname. But her CV is much more extensive and includes, amog many other activities, her current work at the [Center for Lifespan Changes in Brain and Cognition](https://www.sv.uio.no/psi/english/research/groups/lcbc/index.html) at the University of Oslo in Norway. She works there as a scientist and tell us that her work _“involves research software engineering or research data management”_ and because of that 
 
-In their work, they use specialized software because of the information they need to process, such as brain images.Athanasia explains that "at the end of the day all their statistics are in R, and because of that “having our packages in our tool belt when we're working is super important for our staff”.
+> R is the default statistical program we use for our daily work at the center, and we generate results in the form of R packages.
 
-Athanasia is working on a project called Life Brain, funded by the European Union for the Human Life brand and involving 13 European centers. Mo explains that they have developed a lot of research and made publications, and many results have been expressed in the R packages. Asked about the project, with passion and great enthusiasm, Mo says: "We are trying to investigate how people are aging, what their brain aging is like, what their cognitive aging is like".
+In her work, they use specialized software because of the information they need to process, such as brain images.Athanasia explains that "at the end of the day all their statistics are in R, and because of that 
+
+> having our R packages in our tool belt when we are working is super important for our staff.
+
+
+Athanasia is working on a project called [Life Brain](https://www.lifebrain.uio.no/), funded by the European Union for the Human Life brand and involving 13 European centers. Mo explains that they have developed a lot of research and made publications, and many results have been expressed in the R packages. Asked about the project, with passion and great enthusiasm, Mo says: "We are trying to investigate how people are aging, what their brain aging is like, what their cognitive aging is like".
 
 The R Universe
 
