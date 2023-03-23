@@ -1,6 +1,6 @@
 ---
 slug: "r-universe-stars-3-en"
-title: "Meeting the Stars of the R-universe: Researching our brain with the magic of R-Universe"
+title: "Meeting the Stars of the R-Universe:Researching Our Brain with the Magic of R-Universe"
 author:
   - Yanina Bellini Saibene
   - Alejandra Bellini
