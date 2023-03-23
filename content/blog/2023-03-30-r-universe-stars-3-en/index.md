@@ -38,19 +38,24 @@ Athanasia is working on a project called [Life Brain](https://www.lifebrain.uio.
 
 > The R universe actually came at an extremely timely point for us, 
 
-is how Athanasia explains the possibilities this platform offered them to show in a simple way all the software they were working on. In this research development, there are different types and sources of funding.  Even though they have a collective organization in GitHub, they needed a clear way to show all the work that is distributed in different repositories in the personal accounts of the researchers or the accounts of the research centers. That is why Mo assures that in R-Universe 
+is how Athanasia explains the possibilities this platform offered them to [show in a simple way all the software they were working on](https://lifebrain.r-universe.dev/). In this research development, there are different types and sources of funding.  Even though they have a collective organization in GitHub, they needed a clear way to show all the work that is distributed in different repositories in the personal accounts of the researchers or the accounts of the research centers. That is why Mo assures that in R-Universe 
 
 > we can create a place for all our universe and thus show the packages.
 
 In addition, as Athanasia explains, in R-Universe it is very clear who the developers or maintainers are and that means that everyone keeps their corresponding credits and contributions. 
-One of the interesting points of the shared work in R-Universe that Mo showed us is the possibility of accessing the data but also some extra functions that are the same as that they used in the analysis. For example, those found in the survey they conducted globally on brain health where obtained more than 27 thousand responses and from which they produced different articles and papers (You can see more information about this work in the video below).  
+Another interesting use of R-Universe to share work, and Mo showed us is the possibility of accessing the data but also some extra functions, the same functions they used in their analysis. For example, those in the survey they conducted globally on brain health where obtained more than 27 thousand responses and from which they produced different articles and papers (You can see more information about this work in the video below).  
 
-While we go through all the packages in the R Universe by Athanasia and Life Brain's work, she shows us her greatest pride: ggseg, a development to create images of the brain that can be analyzed from different functions. It was precisely with all this work that Mo found in R Universe the solution to a  series of problems with the size of the data and the installation of the tools needed to work: "When the data packages are too big and cannot be reduced, it is not possible to publish them in CRAN (...) and failures appear when users want to install them in their development version that took us a long time to solve and with non-optimal results".
+While we go through all the packages in the R Universe by Athanasia and Life Brain's work, she shows us her greatest pride: [ggseg](https://ggseg.r-universe.dev/), a development to create images of the brain that can be analyzed from different functions. It was precisely with all this work that Mo found in R-Universe the solution to a  series of problems with the size of the data and the installation of the tools needed to work: 
 
-In this context is when R Universe presents her with a definitive solution: "This is the real solution to be able to have everything we work on the project with a working installation and not waste any more time troubleshooting our users".
+> When the data packages are too big and cannot be reduced, it is not possible to publish them in CRAN (...) and failures appear when users want to install them in their development version that took us a long time to solve and with non-optimal results.
 
-In Athanasia's experience, R Universe allowed him to publish all the packages in one place, with easy accessibility and the possibility to receive contributions, maintenance and no installation problems for the users. 
-In her own words: "R-Universe is magic for me".
+In this context is when R Universe presents her with a definitive solution: 
+
+> This is the real solution to be able to have everything we work on the project with a working installation and not waste any more time troubleshooting our users.
+
+In Athanasia's experience, R-Universe allowed him to publish all the packages in one place, with easy accessibility and the possibility to receive contributions, maintenance and no installation problems for the users. In her own words: 
+
+> R-Universe is magic for me.
 
 Remember that the R Universe generates the installers of all the packages that belong to the universe for different operating systems, and there are no limits on the package size. One of the platform's objectives is to make it easier to publish and discover R packages.
 
