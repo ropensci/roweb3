@@ -46,7 +46,7 @@ Además, según explica Athanasia, en el Universo R queda muy claro quiénes son
 Uno de los puntos interesantes del trabajo compartido en el Universo R que Mo nos mostró es la posibilidad de acceder a los datos pero también a algunas funciones extras que son las mismas que ellos utilizaron en el análisis. Por ejemplo las que se encuentran en la encuesta que realizaron a nivel global sobre salud del cerebro donde obtuvieron más de 27 mil respuestas y a partir del cual produjeron diferentes artículos y trabajos (Puedes ver más información de este trabajo en el video).  
 
 
-{{< figure src = "brain_plot_3.png" class = "center" width = "600" alt = "Example of a subcortical map ploted with ggseg" caption = "<center><strong>Subcortical map plot with ggseg</strong></center>">}}
+{{< figure src = "brain_plot_3.png" class = "center" width = "600" alt = "Ejemplo de mapa subcortical graficado con ggseg" caption = "<center><strong>Mapa subcortical graficado con ggseg</strong></center>">}}
 
 Mientras recorremos los paquetes que contiene el Universo R del trabajo de Athanasia y Life Brain, nos muestra su mayor orgullo: [ggseg](https://ggseg.r-universe.dev/), un desarrollo para crear imágenes del cerebro que permitan ser analizadas desde distintas funciones. Fue precisamente con todo ese trabajo que Mo encontró en el Universo R la solución a una serie de problemas con el tamaño de los datos y la instalación de las herramientas necesarias para trabajar: 
 
@@ -58,7 +58,7 @@ En ese contexto es cuando el Universo R le presenta  una solución definitiva:
 > Esta es la verdadera solución para poder tener todo lo que trabajamos en el proyecto con una instalación que funciona y no perder más tiempo en solucionar problemas de nuestros usuarios.
 
 
-{{< figure src = "brain_plots.png" class = "center" width = "600" alt = "A serie of three examples plots of different brain atlas" caption = "<center><strong>ggseg in action: ploting brain atlas</strong></center>">}}
+{{< figure src = "brain_plots.png" class = "center" width = "600" alt = "Una serie de tres ejemplos de gráficos de diferentes atlas cerebrales" caption = "<center><strong>ggseg en acción: graficando atlas del cerebro</strong></center>">}}
 
 Según la experiencia de Athanasia el Universo R le permitió publicar todos los paquetes en un sólo lugar, con fácil accesibilidad y la posibilidad de recibir contribuciones, mantenimiento y sin problemas de instalación para los usuarios. En sus propias palabras: 
 
