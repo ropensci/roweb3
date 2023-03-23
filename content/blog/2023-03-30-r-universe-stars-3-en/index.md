@@ -64,7 +64,7 @@ In Athanasia's experience, R-Universe allowed him to publish all the packages in
 
 > R-Universe is magic for me.
 
-Remember that the R Universe generates the installers of all the packages that belong to the universe for different operating systems, and there are no limits on the package size. One of the platform's objectives is to make it easier to publish and discover R packages.
+Remember that R Universe generates binaries for different operating systems for all packages that belong to the universe, with no limit on the package size. One of the platform’s objectives is to make it easier to publish and install R packages.
 
 In the following video, Athanasia explains in more detail the development of their Life Brain project, how they use R to organize and work with information, and how R-Universe allowed them to organize and share all their packages.
 
