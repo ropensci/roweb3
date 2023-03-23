@@ -25,7 +25,7 @@ Working with the human brain requires specific software and complex developments
 
 Athanasia Monika Mowinckel introduces herself simply as Mo, which is her nickname. But her CV is much more extensive and includes, amog many other activities, her current work at the [Center for Lifespan Changes in Brain and Cognition](https://www.sv.uio.no/psi/english/research/groups/lcbc/index.html) at the University of Oslo in Norway. She works there as a scientist and tell us that her work _"involves research software engineering or research data management"_ and because of that _"R is the default statistical program we use for our daily work at the center, and we generate results in the form of R packages."_
 
-In her work, they use specialized software because of the information they need to process, such as brain images. Athanasia explains that at the end of the day all their statistics are in R, and because of that _"having our R packages in our tool belt when we are working is super important for our staff."_
+In her work, they use specialized software because of the information they need to process, such as brain images. Athanasia explains that _"at the end of the day all their statistics are in R, and because of that having our R packages in our tool belt when we are working is super important for our staff."_
 
 Athanasia is working on a project called [Life Brain](https://www.lifebrain.uio.no/), funded by the European Union for the Human Life brand and involving 13 European centers. Mo explains that they have developed a lot of research and made publications, and many results have been implemented in R packages. Asked about the project, with passion and great enthusiasm, Mo says: 
 
