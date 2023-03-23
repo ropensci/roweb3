@@ -19,6 +19,9 @@ preface: "[Lee la versión en español de este artículo](/blog/2023/03/30/r-uni
 
 A new post of our interview series [“Meeting the stars of the R-universe”](/tags/r-universe-stars/). We aim to introduce the working groups and people behind the development of software and packages many of us use and which are available through the R-universe. We want to highlight and explore different teams and projects around the world, the work they do, their processes and users. Our third stop is __Norway__ to talk with __Athanasia Monika Mowinckel__.
 
+
+{{< figure src = "/img/team/mo-mentor.png" class = "pull-left" width = "300" alt = "Profile photo of Athanasia Monika Mowinckel." caption = "<center><strong>Athanasia Monika Mowinckel</strong><br>Researcher and RSE</center>">}}
+
 Working with the human brain requires specific software and complex developments. However R appears as the natural way to collect hundreds of data that need to be analyzed and the R-Universe as the most friendly place to share and invite to collaborate.
 
 Athanasia Monika Mowinckel introduces herself simply as Mo, which is her nickname. But her CV is much more extensive and includes, amog many other activities, her current work at the [Center for Lifespan Changes in Brain and Cognition](https://www.sv.uio.no/psi/english/research/groups/lcbc/index.html) at the University of Oslo in Norway. She works there as a scientist and tell us that her work _“involves research software engineering or research data management”_ and because of that 
@@ -43,7 +46,9 @@ is how Athanasia explains the possibilities this platform offered them to [show 
 > we can create a place for all our universe and thus show the packages.
 
 In addition, as Athanasia explains, in R-Universe it is very clear who the developers or maintainers are and that means that everyone keeps their corresponding credits and contributions. 
-Another interesting use of R-Universe to share work, and Mo showed us is the possibility of accessing the data but also some extra functions, the same functions they used in their analysis. For example, those in the survey they conducted globally on brain health where obtained more than 27 thousand responses and from which they produced different articles and papers (You can see more information about this work in the video below).  
+Another interesting use of R-Universe to share work, and Mo showed us is the possibility of accessing the data but also some extra functions, the same functions they used in their analysis. For example, those in the survey they conducted globally on brain health where obtained more than 27 thousand responses and from which they produced different articles and papers (you can see more information about this work in the video below).  
+
+{{< figure src = "brain_plot_3.png" class = "center" width = "600" alt = "Example of a subcortical map ploted with ggseg" caption = "<center><strong>Subcortical map plot with ggseg</strong></center>">}}
 
 While we go through all the packages in the R Universe by Athanasia and Life Brain's work, she shows us her greatest pride: [ggseg](https://ggseg.r-universe.dev/), a development to create images of the brain that can be analyzed from different functions. It was precisely with all this work that Mo found in R-Universe the solution to a  series of problems with the size of the data and the installation of the tools needed to work: 
 
@@ -53,28 +58,16 @@ In this context is when R Universe presents her with a definitive solution:
 
 > This is the real solution to be able to have everything we work on the project with a working installation and not waste any more time troubleshooting our users.
 
+{{< figure src = "brain_plots.png" class = "center" width = "600" alt = "A serie of three examples plots of different brain atlas" caption = "<center><strong>ggseg in action: ploting brain atlas</strong></center>">}}
+
 In Athanasia's experience, R-Universe allowed him to publish all the packages in one place, with easy accessibility and the possibility to receive contributions, maintenance and no installation problems for the users. In her own words: 
 
 > R-Universe is magic for me.
 
 Remember that the R Universe generates the installers of all the packages that belong to the universe for different operating systems, and there are no limits on the package size. One of the platform's objectives is to make it easier to publish and discover R packages.
 
-In the following video, Athanasia explains in more detail the development of their Life Brain project, how they use R to organize and work with information, and how R Universe allowed them to organize and share all their packages.
+In the following video, Athanasia explains in more detail the development of their Life Brain project, how they use R to organize and work with information, and how R-Universe allowed them to organize and share all their packages.
 
 
+{{< vimeo id=807731911 title="Meeting R-Universe Stars - Athanasia Monika Mowinckel" >}}
 
-
-# ---- 
-
-
-Be sure to watch the [video](2023/02/23/r-universe-stars-2-en/#video-of-the-interview) at the end with excerpts from the interview.
-
-{{< figure src = "/img/community/.jpeg" class = "pull-left" width = "300" alt = "Profile photo of Mo." caption = "<center><strong>Monika</strong><br> </center>">}}
-
-
-## Video of the interview
-
-If you want to hear more details about his experience, be sure to watch Sébastien in the video with excerpts from the interview. You can activate the subtitles.
-
-
-{{< vimeo id=800166375 title="Meeting R-Universe Stars - ThinkR" >}}
