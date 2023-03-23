@@ -44,7 +44,7 @@ In addition, as Athanasia explains, in R-Universe it is very clear who the devel
 
 Another interesting use of R-Universe to share work, and Mo showed us is the possibility of accessing the data but also some extra functions, the same functions they used in their analysis. For example, those in the survey they conducted globally on brain health where obtained more than 27 thousand responses and from which they produced different articles and papers (you can see more information about this work in the video below).  
 
-{{< figure src = "brain_plot_3.png" class = "center" width = "600" alt = "Example of a subcortical map ploted with ggseg" caption = "<center><strong>Subcortical map plot with ggseg</strong></center>">}}
+{{< figure src = "brain_plot_3.png" class = "center" width = "600" alt = "Example of a subcortical map plotted with ggseg" caption = "<center><strong>Subcortical map plot with ggseg</strong></center>">}}
 
 While we go through all the packages in the R Universe by Athanasia and Life Brain's work, she shows us her greatest pride: [ggseg](https://ggseg.r-universe.dev/), a development to create images of the brain that can be analyzed from different functions. It was precisely with all this work that Mo found in R-Universe the solution to a  series of problems with the size of the data and the installation of the tools needed to work: 
 
