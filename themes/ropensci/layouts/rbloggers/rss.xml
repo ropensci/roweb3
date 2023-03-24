@@ -21,6 +21,11 @@
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
       <description>
+        {{ if .IsTranslated }}
+        {{ range .Translations }}
+          <p><i><a href="{{ .Permalink }}">Read it in: {{ .Language.LanguageName }}</a></i></p>
+        {{ end }}
+        {{ end }}
         {{ if .Params.cover }}
         &lt;img src=&quot;{{ .Params.cover | safeHTML }}&quot; alt=&quot;cover image&quot;&gt;
         {{ end }}
