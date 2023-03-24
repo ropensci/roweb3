@@ -23,7 +23,7 @@
       <description>
         {{ if .IsTranslated }}
         {{ range .Translations }}
-          <i><a href="{{ .Permalink }}">Read it in: {{ .Language.LanguageName }}</a></i>
+          <i><a href="{{ .Permalink }}">Read it in: {{ .Language.LanguageName }}</a>.</i>
         {{ end }}
         {{ end }}
         {{ if .Params.cover }}
