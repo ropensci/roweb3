@@ -81,6 +81,19 @@ rssLimit = 20
     useSessionStorage = true
 
 [markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = false
+    noHl = false
+    tabWidth = 4
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
