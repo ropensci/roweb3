@@ -1,10 +1,8 @@
 {{ define "main" }}
-{{ range ( where .Site.RegularPages "Type" "in" .Site.Params.events ) }}
-{{ printf "%#v" .Title }}
-
-{{ end }}
-{{ printf "%#v" now.UTC }}
 {{ $pages := (partial "calendar/future-events" (dict "Site" .Site)) }}
+{{ range $pages }}
+{{ printf "%#v" .Title }}
+{{ end }}
 {{ $featured := ( where $pages "Params.featured" true ) }}
 {{ if gt (len $featured) 0 }}
     <section class="section event-hero">
