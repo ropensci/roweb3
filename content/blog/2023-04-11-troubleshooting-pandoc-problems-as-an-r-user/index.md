@@ -116,7 +116,7 @@ Keeping up with Pandoc is really not mandatory and reading the changelog could b
 You _could_ subscribe to [Pandoc mailing list](https://groups.google.com/g/pandoc-announce).
 But you might definitely need to comb through the [changelog](https://pandoc.org/releases.html) when noticing something amiss.
 
-Pay attention to the Pandoc version that you're using locally, on continuous integration, etc. 
+Pay attention to the Pandoc version that you're using locally, on continuous integration, especially when something only works on your machine. 
 To know what Pandoc version you're running you can use [`pandoc::pandoc_version()`](https://cderv.github.io/pandoc/reference/pandoc_version.html).
 With Quarto it is less of an issue as with say R Markdown since Quarto will pin a Pandoc version.
 
