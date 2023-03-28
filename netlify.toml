@@ -9,11 +9,11 @@
   HUGO_VERSION = "0.89.0"
   
 [context.deploy-preview]
-  command = "hugo -b $DEPLOY_PRIME_URL"
+  command = "hugo --buildFuture -b $DEPLOY_PRIME_URL"
   environment = { HUGO_VERSION = "0.89.0" }
 
 [context.branch-deploy]
-  command = "hugo -b $DEPLOY_PRIME_URL"
+  command = "hugo --buildFuture -b $DEPLOY_PRIME_URL"
 
 [[redirects]]
   from = "/*"
