@@ -16,6 +16,7 @@ tags:
   - geospatial
   - tidymodels
   - community
+package_version: 0.3.0
 # The summary below will be used by e.g. Twitter cards
 description: "Plus version 0.3.0 now on CRAN, and a new preprint"
 preface: This post was originally published on [Mike Mahoney's personal blog](https://www.mm218.dev/posts/2023-03-21-waywiser-ropensci/).
