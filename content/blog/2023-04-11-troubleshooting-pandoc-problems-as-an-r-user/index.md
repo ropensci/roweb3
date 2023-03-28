@@ -63,15 +63,27 @@ She first looked for “raw/naked links”, before (re)discovering they're calle
 Speaking of extensions! What is the basic vocabulary one needs to troubleshoot a Pandoc issue? It comes with time but a good starting list would be
 
 - **format**. The format (doh) Pandoc converts from and to. There's an impressive list on [Pandoc homepage](https://pandoc.org/). docx, gfm (GitHub flavored Markdown), HTML, RTF...
+
 - **extension**. [Extensions](https://pandoc.org/MANUAL.html#extensions) are modifiers of the behavior of Pandoc readers and writers. Extensions are extensions (or contractions, since they can be turned off) of _formats_, not of _Pandoc_. For instance, the ["smart" extension](https://pandoc.org/MANUAL.html#extension-smart) that interprets some typography, for instance two dashes as en-dash[^dash], is enabled by default for markdown so if you want to convert from Markdown to HTML without transforming the two dashes, you'd use `markdown-smart` as input format. Not all extensions work for a format, make sure you read the docs (:wink:), use [`pandoc::pandoc_list_extensions()`](https://cderv.github.io/pandoc/reference/pandoc_list_extensions.html) to list extensions available for a format.
+A format Maëlle has used when producing slide with Quarto is
+
+``` yaml
+format:
+  revealjs:  
+    from: markdown+emoji
+```
+
+to turn on the indispensable emoji support. :tada:
+
 - **option**. See how we refrained to frame extensions as options, because [options](https://pandoc.org/MANUAL.html#options) are another thing! They're sort of arguments to Pandoc calls. For instance `--mathml` is an option for rendering math to MathML. 
+
 - **variable**. [variables](https://pandoc.org/MANUAL.html#variables) are the metadata you might be used to passing to Pandoc via YAML metadata (for R Markdown and Quarto).
 - **raw attribute**. Say you have raw HTML in your Markdown document. You can protect it from Pandoc parsing by wrapping it in a "raw attribute". This is for instance used by [hugodown](https://github.com/r-lib/hugodown/pull/53) to protect Hugo shortcodes. 
 
 What you _need_ to solve a given Pandoc challenge might be a format or extension or option.
 It's up to you to find the correct combination, but having some vague understanding of what these things are and how to use them, will help you.
 
-
+## How to experiment with Pandoc?
 
 
 [Lua filters for Quarto](https://quarto.org/docs/extensions/filters.html)
