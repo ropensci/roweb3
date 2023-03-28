@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ range ( where .Site.RegularPages "Type" "in" .Site.Params.events ) }}
 {{ printf "%#v" .Date }}
-
+{{ printf "%#v" (gt .Date now.UTC) }}
 {{ end }}
 {{ printf "%#v" now.UTC }}
 {{ $pages := (partial "calendar/future-events" (dict "Site" .Site)) }}
