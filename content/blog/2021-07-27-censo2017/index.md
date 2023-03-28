@@ -19,8 +19,7 @@ tags:
 description: >
   Chilean census tables at a glance.
 ---
-> See the Spanish version of this blog post: 
-> [La Historia de censo2017, el Primer Paquete de rOpenSci Revisado en Español](/blog/2021/07/27/censo2017-es)
+
 ## Summary
 
 [censo2017](https://docs.ropensci.org/censo2017) is an R package designed to

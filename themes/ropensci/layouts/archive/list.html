@@ -10,8 +10,8 @@
           </div>
           <div class="col-md-3">
             <div class="text-md-right">
-              <a href="/rbloggers/index.xml" class="btn btn-primary">RSS</a>
-              <a href="/rbloggers/index.json" class="btn btn-primary">JSON</a>
+              <a href='{{ absLangURL "rbloggers/index.xml" }}' class="btn btn-primary">RSS</a>
+              <a href='{{ absLangURL "rbloggers/index.json" }}' class="btn btn-primary">JSON</a>
             </div>
           </div>
         </div>
@@ -25,8 +25,8 @@
               </div>
               <div class="col-md-3 offset-md-1">
                 <aside>
-                  <a href="/tags" class="arrow-card">Browse By Tag</a>
-                  <a href="/author" class="arrow-card">Browse By Author</a>
+                  <a href='{{ absLangURL "tags" }}' class="arrow-card">{{ i18n "Browse-By-Tag" }}</a>
+                  <a href='{{ absLangURL "author" }}' class="arrow-card">{{ i18n "Browse-By-Author" }}</a>
                 </aside>
               </div>
             </div>
