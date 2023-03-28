@@ -80,4 +80,10 @@
 
 <meta name="twitter:creator" content="@rOpenSci">
 <meta name="twitter:site" content="@rOpenSci">
+
+{{ if .IsTranslated }}
+{{ range .Translations }}
+<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" />
+{{ end }}
+{{ end }}
 </head>

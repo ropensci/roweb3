@@ -1,0 +1,38 @@
+[translations]
+  other = 'Read it in...'
+
+[By]
+  other = 'By'
+  
+[Filed-under]
+  other = 'Filed under'
+  
+[Browse]
+  other = 'Browse'
+  
+[Share]
+  other = 'Share'
+  
+[Suggest-an-edit]
+  other = 'Suggest an edit'
+  
+[open-pr]
+  other = 'Open a pull request'
+  
+[By-Tag]
+  other = 'By Tag'
+  
+[By-Author]
+  other = 'By Author'
+  
+[All-Posts]
+  other = 'All Posts'
+  
+[Browse-By-Tag]
+  other = 'Browse By Tag'
+  
+[Browse-By-Author]
+  other = 'Browse By Author'
+  
+[Read-more]
+  other = 'Read more'

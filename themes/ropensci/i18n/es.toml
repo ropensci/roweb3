@@ -1,0 +1,41 @@
+[translations]
+  other = 'Leelo en...'
+
+[By]
+  other = 'Por'
+  
+[Filed-under]
+  other = 'Categorias'
+  
+[Browse]
+  other = 'Explora'
+  
+[Share]
+  other = 'Comparte'
+  
+[Suggest-an-edit]
+  other = 'Suggere un cambio'
+  
+[open-pr]
+  other = 'Abre una pull request'
+  
+[By-Tag]
+  other = 'Por etiqueta'
+  
+[By-Author]
+  other = 'Por autores'
+  
+[All-Posts]
+  other = 'Todas las entradas'
+  
+[Translation]
+  other = 'Traducción'
+  
+[Browse-By-Tag]
+  other = 'Explora por etiqueta'
+  
+[Browse-By-Author]
+  other = 'Explora por autores'
+  
+[Read-more]
+  other = 'Lee más'
