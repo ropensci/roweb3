@@ -83,6 +83,8 @@ to turn on the indispensable emoji support. 🎉
 What you _need_ to solve a given Pandoc challenge might be a format or extension or option.
 It's up to you to find the correct combination, but having some vague understanding of what these things are and how to use them, will help you.
 
+Note that if you use `pandoc::pandoc_convert()`, you pass the options flags in the `args` argument.
+
 ## How to experiment with Pandoc?
 
 Once you know your issue is Pandoc, how do you create a reproducible example?
@@ -118,7 +120,7 @@ Pay attention to the Pandoc version that you're using locally, on continuous int
 To know what Pandoc version you're running you can use [`pandoc::pandoc_version()`](https://cderv.github.io/pandoc/reference/pandoc_version.html).
 With Quarto it is less of an issue as with say R Markdown since Quarto will pin a Pandoc version.
 
-The pandoc package also has very handly withr-like helpers to run code with a given Pandoc version: [`pandoc::local_pandoc_version()` and `pandoc::with_pandoc_version()`](https://cderv.github.io/pandoc/reference/with_pandoc_version.html)
+The pandoc package also has very handly withr-like helpers to run code with a given Pandoc version: [`pandoc::local_pandoc_version()` and `pandoc::with_pandoc_version()`](https://cderv.github.io/pandoc/reference/with_pandoc_version.html); as well as a `version` argument in `pandoc::pandoc_convert()`.
 
 ## Beyond the official docs, beyond Pandoc
 
