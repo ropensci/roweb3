@@ -24,7 +24,7 @@ Pandoc is not only anecdotically useful: it's part of the [R Markdown](https://b
 So, whether you're juggling documents in various formats or simply trying to publish your reproducible analysis, you might have been using Pandoc, or maybe you _should_ be using Pandoc.
 
 Sometimes, all goes well, sometimes, you think of Pandoc because it seems to be the source of an error.
-In such cases, Maëlle, who's witnessed Christophe's detective work in several GitHub issues, tend to wonder "What would Christophe do?".
+In such cases, Maëlle, who's witnessed Christophe's detective work in several GitHub issues, tends to wonder "What would Christophe do?".
 The answer is probably "read the docs and investigate".
 In this post, we gather resources and tips to help you troubleshoot Pandoc as an R user.
 
