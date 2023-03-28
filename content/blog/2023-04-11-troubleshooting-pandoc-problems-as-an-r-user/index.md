@@ -138,7 +138,7 @@ Maëlle hasn't learnt about them yet, and tends to convert things into HTML then
 
 - The rarest case would be to open a Pandoc feature request.
 
-- You could use something else than Pandoc, like the [commonmark R package by Jeroen Ooms](https://docs.ropensci.org/commonmark/) or the [markdown package by Yihui Xie](https://github.com/rstudio/markdown) that builds upon it.
+- You could use something else than Pandoc, like the [commonmark R package by Jeroen Ooms](https://docs.ropensci.org/commonmark/) or the [markdown package by Yihui Xie](https://github.com/rstudio/markdown) or the [tinkr package by Zhian Kamvar](https://docs.ropensci.org/tinkr/) that build upon it.
 
 ## Conclusion
 
