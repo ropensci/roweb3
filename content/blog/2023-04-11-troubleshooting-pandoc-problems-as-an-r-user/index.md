@@ -73,7 +73,7 @@ format:
     from: markdown+emoji
 ```
 
-to turn on the indispensable emoji support. :tada:
+to turn on the indispensable emoji support. 🎉
 
 - **option**. See how we refrained to frame extensions as options, because [options](https://pandoc.org/MANUAL.html#options) are another thing! They're sort of arguments to Pandoc calls. For instance `--mathml` is an option for rendering math to MathML. 
 
