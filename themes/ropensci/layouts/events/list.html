@@ -1,4 +1,9 @@
 {{ define "main" }}
+{{ range ( where .Site.RegularPages "Type" "in" .Site.Params.events ) }}
+{{ printf "%#v" .Title }}
+
+{{ end }}
+{{ printf "%#v" now.UTC }}
 {{ $pages := (partial "calendar/future-events" (dict "Site" .Site)) }}
 {{ $featured := ( where $pages "Params.featured" true ) }}
 {{ if gt (len $featured) 0 }}
