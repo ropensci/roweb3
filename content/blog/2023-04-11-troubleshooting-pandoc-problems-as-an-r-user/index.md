@@ -20,7 +20,7 @@ Pandoc by John MacFarlane is a really useful tool: for instance,
 rOpenSci community manager Yanina Bellini Saibene recently asked Maëlle whether she could convert a Google Docs into a Quarto book.
 Maëlle solved the request with a combination of Pandoc (conversion from docx to HTML then to Markdown through [`pandoc::pandoc_convert()`](https://cderv.github.io/pandoc/reference/pandoc_convert.html)) and XPath.
 You can find the resulting experimental package [quartificate](https://github.com/ropenscilabs/quartificate) on GitHub.
-Pandoc is not only anecdotically useful: it's part of the R Markdown machinery, and powers Quarto.
+Pandoc is not only anecdotically useful: it's part of the [R Markdown](https://bookdown.org/yihui/rmarkdown-cookbook/) machinery, and powers [Quarto](https://quarto.org/).
 So, whether you're juggling documents in various formats or simply trying to publish your reproducible analysis, you might have been using Pandoc, or maybe you _should_ be using Pandoc.
 
 Sometimes, all goes well, sometimes, you think of Pandoc because it seems to be the source of an error.
