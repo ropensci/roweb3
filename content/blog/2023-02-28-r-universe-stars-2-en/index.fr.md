@@ -15,7 +15,7 @@ tags:
   - welcome
   - français
 featured: true
-description: "A new installment of our interview series __\"Meeting the stars of the R-Universe\"__. We go to France to get a closer look at the work of the people at ThinkR.
+description: "A new installment of our interview series __\"Meeting the stars of the R-Universe\"__. We go to France to get a closer look at the work of the people at ThinkR."
 ---
 
 Ceci est le deuxième article de notre série d'entretiens ["Rencontre les stars de l'univers R"](/tags/r-universe-stars/). 
