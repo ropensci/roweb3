@@ -75,7 +75,7 @@ format:
 
 to turn on the indispensable emoji support. 🎉
 
-- **option**. See how we refrained to frame extensions as options, because [options](https://pandoc.org/MANUAL.html#options) are another thing! They're sort of arguments to Pandoc calls. For instance `--mathml` is an option for rendering math to MathML. 
+- **option**. See how we refrained from framing extensions as "options", because [options](https://pandoc.org/MANUAL.html#options) are another thing! They're sort of arguments to Pandoc calls. For instance `--mathml` is an option for rendering math to MathML. 
 
 - **variable**. [variables](https://pandoc.org/MANUAL.html#variables) are the metadata you might be used to passing to Pandoc via YAML metadata (for R Markdown and Quarto).
 - **raw attribute**. Say you have raw HTML in your Markdown document. You can protect it from Pandoc parsing by wrapping it in a "raw attribute". This is for instance used by [hugodown](https://github.com/r-lib/hugodown/pull/53) to protect Hugo shortcodes. 
