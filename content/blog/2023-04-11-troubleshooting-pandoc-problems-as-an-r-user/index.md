@@ -57,7 +57,7 @@ you will have a better idea of what's there... and of how things are called in t
 
 Now, how else does one learn how to "speak Pandoc"?
 
-You can use a search engine to refine your keywords: you might find threads with questions by people using the same rough vocabulary as yours, with more refined answers. For instance, Maëlle was recently looking for an option that she knew existed, to transform things that look like URLs, say `https://ropensci.org` in Markdown, into links in HTML, say `<href="https://ropensci.org">https://ropensci.org</a>`.
+You can use a search engine to refine your keywords: you might find threads with questions by people using the same rough vocabulary as yours, with more refined answers. For instance, Maëlle was recently looking for an option that she knew existed, to transform things that look like URLs, say `https://ropensci.org` in Markdown, into links in HTML, say `<a href="https://ropensci.org">https://ropensci.org</a>`.
 She first looked for “raw/naked links”, before (re)discovering they're called bare URIs, with the extension called `autolink_bare_uris`.
 
 Speaking of extensions! What is the basic vocabulary one needs to troubleshoot a Pandoc issue? It comes with time but a good starting list would be
