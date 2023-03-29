@@ -14,7 +14,7 @@ tags:
   - r-universe-stars
 # The summary below will be used by e.g. Twitter cards
 description: "Working with the human brain requires specific software and complex developments, however R appears as the natural way to collect hundreds of data that need to be analyzed and the R-Universe as the most friendly place to share and invite to collaborate. Our third stop bring us to __Norway__ to talk with __Athanasia Monika Mowinckel__."
-preface: "[Lee la versión en español de este artículo](/blog/2023/03/30/r-universe-stars-3-es/)"
+
 ---
 
 A new post of our interview series [“Meeting the stars of the R-universe”](/tags/r-universe-stars/). We aim to introduce the teams and people behind the development of software and packages many of us use and which are available through the R-Universe. We want to highlight and explore different teams and projects around the world, the work they do, their processes and users. Our third stop is __Norway__ to talk with __Athanasia Monika Mowinckel__. Be sure to watch the [video](/blog/2023/03/30/r-universe-stars-3-en/#video-of-the-interview) at the end with excerpts from the interview.
