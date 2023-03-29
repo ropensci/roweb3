@@ -12,6 +12,7 @@ tags:
   - r-universe
   - interviews
   - r-universe-stars
+featured: true
 # The summary below will be used by e.g. Twitter cards
 description: "Working with the human brain requires specific software and complex developments, however R appears as the natural way to collect hundreds of data that need to be analyzed and the R-Universe as the most friendly place to share and invite to collaborate. Our third stop bring us to __Norway__ to talk with __Athanasia Monika Mowinckel__."
 
