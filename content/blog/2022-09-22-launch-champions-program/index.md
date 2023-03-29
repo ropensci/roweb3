@@ -13,9 +13,6 @@ featured: true
 description: We are thrilled to launch our Champions Program pilot!
 ---
 
-[Entrada en español](/blog/2022/09/22/launch-champions-program-es/)
-
-
 > We are thrilled to launch our Champions Program pilot!
 
 

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ .Lang }}">
 {{ partial "skeleton/head" . }}
 <body>
-{{ partial "skeleton/header" (dict "Site" .Site "RelPermalink" .RelPermalink ) }}
+{{ partial "skeleton/header" (dict "Kind" .Kind "Site" .Site "RelPermalink" .RelPermalink "Language" .Language ) }}
 
  {{ block "main" . }}
       <!-- The part of the page that begins to differ between templates -->

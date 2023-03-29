@@ -2,13 +2,13 @@
 <div class="container bg-cubes">
   <div class="row content">
     <div class="col-lg-9">
-      <p class="post-date">{{ .Date.Format "January 2, 2006" }}
+      <p class="post-date">{{ .Date | time.Format ":date_full" }}
       <span class="d-none d-print-inline" style ="font-style: italic;">From rOpenSci ({{ .Permalink }}). Except where otherwise noted, content on this site is licensed under the <a href ="https://creativecommons.org/licenses/by/4.0/">CC-BY license</a>.</span></p>
         <div class="content">
           <h1>{{ .Title | markdownify }}</h1>
           <div class="post-author">
           <span>
-          By
+          {{ i18n "By" }}
           </span> 
           {{ partial "blogs/pretty_author_names" .Params.author }}
           </div>
@@ -18,6 +18,7 @@
   <div class="row justify-content-between">
     <div class="col-lg-9">
       <div class="content">
+        
            {{ if .Params.preface }}
                 <div class="alert alert-info" role="alert">{{ .Params.preface | markdownify }}</div>
                 {{ end }}
@@ -33,43 +34,56 @@ For more information, visit the <a href="/r-universe/">r-universe project page</
       </div>
     <div class="col-lg-3 pl-4 d-print-none">
       <div class="field-under">
-        <span>Filed under</span>
+        <span>{{ i18n "Filed-under" }}</span>
         <ul class="post-tags">
         {{ range .Params.tags }}
-          <li><a href="/tags/{{ . | urlize }}" class="tag">{{ . }}</a></li>
+          <li><a href='{{ absLangURL "tags" }}/{{ . | urlize }}' class="tag">{{ . }}</a></li>
         {{ end }}
         </ul>
       </div>
+            {{ if .IsTranslated }}
       <div class="field-under mt-4">
-        <span>Share</span>
+      <span>{{ i18n "translations" }}</span>
+          <div><a href="{{ .Permalink }}" style="font-weight: bold;" class="btn btn-share btn-twitter" lang="{{ .Language }}"><span class="btn-icon">
+    <i class="fa fa-globe"></i>
+  </span>{{ .Language.LanguageName }}</a></div>
+        {{ range .Translations }}
+          <div><a href="{{ .Permalink }}" class="btn btn-share btn-twitter" lang="{{ .Language }}"><span class="btn-icon">
+    <i class="fa fa-globe"></i>
+  </span>{{ .Language.LanguageName }}</a></div>
+        {{ end }}
+      </div>
+      {{ end }}
+      <div class="field-under mt-4">
+        <span>{{ i18n "Share" }}</span>
         {{ partial "twitter/share-link" . }}
         {{ partial "mastodon/share-link" . }}
         {{ partial "linkedin/share-link" . }}
         {{ partial "email/share-link" . }}
       </div>
       <div class="field-under mt-4">
-        <span>Suggest an edit</span>
-        <a href="{{ partial "edit-link/edit-link" . }}" class="link mt-2">Open a pull request <i class="fas fa-external-link-alt"></i></a>
+        <span>{{ i18n "Suggest-an-edit" }}</span>
+        <a href="{{ partial "edit-link/edit-link" . }}" class="link mt-2">{{ i18n "open-pr" }} <i class="fas fa-external-link-alt"></i></a>
       </div>
       <div class="field-under mt-4">
-        <span>Browse</span>
-        <a href="/tags" class="btn btn-share btn-twitter" >
+        <span>{{ i18n "Browse" }}</span>
+        <a href='{{ absLangURL "tags" }}' class="btn btn-share btn-twitter" >
   <span class="btn-icon">
     <i class="fas fa-tags"></i>
   </span>
-  By Tag
+  {{ i18n "By-Tag" }}
 </a>
-        <a href="/author" class="btn btn-share btn-twitter" >
+        <a href='{{ absLangURL "author" }}' class="btn btn-share btn-twitter" >
   <span class="btn-icon">
     <i class="fas fa-users"></i>
   </span>
-  By Author
+  {{ i18n "By-Author" }}
 </a>
-        <a href="/archive" class="btn btn-share btn-twitter" >
+        <a href='{{ absLangURL "archive" }}' class="btn btn-share btn-twitter" >
   <span class="btn-icon">
     <i class="fas fa-archive"></i>
   </span>
-  All Posts
+  {{ i18n "All-Posts" }}
 </a>
       </div>
       </div>

@@ -2,6 +2,23 @@ baseurl = "https://ropensci.org/"
 # languageCode = "en-us"
 title = "rOpenSci - open tools for open science"
 theme = "ropensci"
+
+DefaultContentLanguage = "en"
+[languages]
+  [languages.en]
+    title = "rOpenSci - open tools for open science"
+    languageName = "English"
+    weight = 2
+  [languages.es]
+    title = "rOpenSci - herramientas abiertas para una ciencia abierta"
+    languageName = "Español"
+    weight = 2
+  [languages.fr]
+    title = "rOpenSci - open tools for open science"
+    languageName = "Français"
+    weight = 3
+
+
 googleAnalytics = "UA-462421-6"
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "(^|/)renv$", "renv\\.lock$", "_cache$", "index\\.html"]
@@ -64,6 +81,19 @@ rssLimit = 20
     useSessionStorage = true
 
 [markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = false
+    noHl = false
+    tabWidth = 4
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true

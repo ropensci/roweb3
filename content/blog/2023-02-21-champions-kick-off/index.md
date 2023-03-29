@@ -9,7 +9,6 @@ tags:
   - champions program
 feature: true  
 description: "The champions program has already started the first activities of 2023. Read where the participants are from and what they will be doing."
-preface: "[Lee la versión en español de este artículo](/blog/2023/02/21/champions-program-kick-off-es/)"
 ---
 
 ## The Champions Program got off to a great start in 2023!

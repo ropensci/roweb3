@@ -1,0 +1,41 @@
+[translations]
+  other = 'Lire en...'
+
+[By]
+  other = 'Par'
+  
+[Filed-under]
+  other = 'Catégories'
+  
+[Browse]
+  other = 'Explorer'
+  
+[Share]
+  other = 'Partager'
+  
+[Suggest-an-edit]
+  other = 'Suggérer une modification'
+  
+[open-pr]
+  other = 'Ouvrir une pull request'
+  
+[By-Tag]
+  other = 'Par étiquette'
+  
+[By-Author]
+  other = 'Par auteur·rice'
+  
+[All-Posts]
+  other = 'Tous les articles'
+  
+[Translation]
+  other = 'Traduction'
+  
+[Browse-By-Tag]
+  other = 'Explorer par étiquette'
+  
+[Browse-By-Author]
+  other = 'Explorer par auteur·rice'
+  
+[Read-more]
+  other = 'Lire plus'
