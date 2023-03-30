@@ -54,7 +54,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/RtmpRD4f8I/file15fe1db2c62a
+## /tmp/RtmpNB3hSZ/file1758a57186371
 ```
 
 ```r
@@ -83,7 +83,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/RtmpRD4f8I/file15fe1db2c62a
+## /tmp/RtmpNB3hSZ/file1758a57186371
 ```
 
 ```r
@@ -139,7 +139,7 @@ The format (doh) Pandoc converts from and to. There's an impressive list on [Pan
 ### Extension
 
 [Extensions](https://pandoc.org/MANUAL.html#extensions) are modifiers of the behavior of Pandoc readers and writers. Extensions are extensions (or contractions, since they can be turned off) of _formats_, not of _Pandoc_. For instance, the ["smart"](https://pandoc.org/MANUAL.html#extension-smart) extension will interpret some typography elements, like two dashes as en-dash[^dash], is enabled by default for markdown so if you want to convert from Markdown to HTML without transforming the two dashes, you'd use `markdown-smart` as input format. Not all extensions work for a format, make sure you read the docs (😉), use [`pandoc::pandoc_list_extensions()`](https://cderv.github.io/pandoc/reference/pandoc_list_extensions.html) to list extensions available for a format.
-A format Maëlle has used when producing slide with Quarto is
+A format Maëlle has used when producing slides with Quarto is
 
 ``` yaml
 format:
