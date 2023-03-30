@@ -54,7 +54,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/Rtmpkdwxp2/file14f1b9dcbaf9
+## /tmp/RtmpeplR6S/file15bdc276b75ac
 ```
 
 ```r
@@ -83,7 +83,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/Rtmpkdwxp2/file14f1b9dcbaf9
+## /tmp/RtmpeplR6S/file15bdc276b75ac
 ```
 
 ```r
@@ -184,7 +184,7 @@ pandoc::pandoc_convert(
 
 See how we refrained from framing extensions as "options", because [options](https://pandoc.org/MANUAL.html#options) are another thing! They're sort of arguments to Pandoc calls. For instance `--mathml` is an option for rendering math to MathML. 
 
-Some options might be hidden by the tool you use to call Pandoc, or handily renamed: for instance, the `to` argument of the `pandoc::pandoc_convert()` function is actually a Pandoc option.
+Some options might be hidden by the tool you use to call Pandoc, or handily exposed as argument: for instance, the `to` argument of the `pandoc::pandoc_convert()` function is actually a Pandoc option.
 
 Below, we use an option to shift heading levels by 1 which increases the heading level number therefore reduce the heading importance.
 
@@ -233,6 +233,8 @@ Another thing that will help you, is to know how to pass these things to Pandoc 
 Once you know your issue is Pandoc, how do you create a reproducible example?
 Interestingly, although it's great to create a Pandoc reprex, you **cannot** create it with reprex, because reprex uses R Markdown machinery.
 
+In this post we've shown a few examples, calling Pandoc directly on strings, or on [temporary files created with withr](#pandoc-101).
+
 Here's Christophe's usual Rmd reprex [snippet](https://support.posit.co/hc/en-us/articles/204463668-Code-Snippets-in-the-RStudio-IDE):
 
 ```r
@@ -253,6 +255,8 @@ unlink(tmp_dir, recursive = TRUE)
 
 In any case, as with any reprex you'll want to make it minimal.
 
+Note that you can test Pandoc in your browser on [pandoc.org/try](https://pandoc.org/try/).
+
 ## Keeping up with Pandoc, or freezing Pandoc!
 
 Keeping up with Pandoc is really not mandatory and reading the changelog could be hard to follow without proper understanding of how Pandoc is working. 
@@ -262,6 +266,9 @@ But you might definitely need to comb through the [changelog](https://pandoc.org
 Pay attention to the Pandoc version that you're using locally, on continuous integration, especially when something only works on your machine. 
 To know what Pandoc version you're running you can use [`pandoc::pandoc_version()`](https://cderv.github.io/pandoc/reference/pandoc_version.html).
 With Quarto it is less of an issue as with say R Markdown since Quarto will pin a Pandoc version.
+You can imitate this behavior: if you have a Pandoc version that works well for your use case, just install that one on your production GitHub Actions workflow for instance.[^hugo]
+
+[^hugo]: That's the strategy one can use with Hugo when building a static website with Hugo! Saving oneself many headaches.
 
 The pandoc package also has very handly withr-like helpers to run code with a given Pandoc version: [`pandoc::local_pandoc_version()` and `pandoc::with_pandoc_version()`](https://cderv.github.io/pandoc/reference/with_pandoc_version.html); as well as a `version` argument in `pandoc::pandoc_convert()`.
 
@@ -277,7 +284,9 @@ Or what if Pandoc is not enough for your use case?
 - You could _build upon_ Pandoc.
 Christophe recommends learning about [Lua filters](https://pandoc.org/lua-filters.html). See also [Lua filters for Quarto](https://quarto.org/docs/extensions/filters.html);
 [Lua filters for R Markdown](https://bookdown.org/yihui/rmarkdown-cookbook/lua-filters.html).
-Maëlle hasn't learnt about them yet, and tends to convert things into HTML then parse them with xml2.
+Maëlle hasn't learnt about them yet, and tends to convert things into HTML then parse them with xml2[^hammer].
+
+[^hammer]: It might make workflows feel like [The Incredible Machine](https://en.wikipedia.org/wiki/The_Incredible_Machine_(video_game)).
 
 - The rarest case would be to open a Pandoc feature request.
 
