@@ -54,7 +54,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/RtmpeplR6S/file15bdc276b75ac
+## /tmp/RtmpRD4f8I/file15fe1db2c62a
 ```
 
 ```r
@@ -83,7 +83,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/RtmpeplR6S/file15bdc276b75ac
+## /tmp/RtmpRD4f8I/file15fe1db2c62a
 ```
 
 ```r
@@ -299,6 +299,6 @@ It's crucial to remember your Pandoc skills and vocabulary will improve with pra
 
 As an R user, do not forget that Pandoc is under a lot of your publication tools; and that there's a handy R package to interact with Pandoc: pandoc.
 
-
+If you enjoy playing with files in various formats, you might also appreciate reading about [rtika](/blog/2018/04/25/rtika-introduction/) by Sasha Goodman.
 
 [^dash]: Maëlle thought these were called "long dashes". Speaking Pandoc sometimes required having some typography vocabulary!
