@@ -28,7 +28,7 @@ Athanasia Monika Mowinckel introduces herself simply as Mo, which is her nicknam
 
 Research at the center involves specialized software because of the information they need to process, such as brain images. Athanasia explains that at the end of the day all their statistics are in R, and because of that, _"having our R packages in our tool belt when we are working is super important for our staff."_
 
-Athanasia is working on a project called [Life Brain](https://www.lifebrain.uio.no/), funded by the European Union for the Human Life project and involving 13 European centers. Mo explains that they have developed a lot of research, written publications, and many results have been implemented in R packages. Asked about the project, with passion and great enthusiasm, Mo says: 
+Athanasia is working on a project called [LifeBrain](https://www.lifebrain.uio.no/), funded by the European Union, involving 13 European centers. Mo explains that they have developed a lot of research, written publications, and many results have been implemented in R packages. Asked about the project, with passion and great enthusiasm, Mo says: 
 
 > We are trying to investigate how people are aging, what their brain aging is like, what their cognitive aging is like.
 
@@ -45,7 +45,7 @@ Another interesting use of the R-Universe for sharing work that Mo showed us, is
 
 {{< figure src = "brain_plot_3.png" class = "center" width = "600" alt = "A figure showing two line drawing outlines of a brain. On the left is a top-down image, on the right a side-on image. Both show patches of colour highlighting spots in the centre corresponding to different parts of the brain." caption = "<center><strong>Subcortical map plot with ggseg</strong></center>">}}
 
-As we explore the packages in the [Lifebrain R-Universe](https://lifebrain.r-universe.dev/), Athanasia shows us her greatest pride: [ggseg](https://ggseg.r-universe.dev/), software to create images of the brain that can be analyzed with different functions. It was precisely with this work that Mo found in R-Universe the solution to a series of problems with the size of the data and the installation of the tools needed to work: 
+As we explore the packages in the [Lifebrain R-Universe](https://lifebrain.r-universe.dev/), Athanasia shows us her greatest pride: [ggseg](https://ggseg.r-universe.dev/), software to create images of the brain that have been analyzed with different functions. It was precisely with this work that Mo found in R-Universe the solution to a series of problems with the size of the data and the installation of the tools needed to work: 
 
 > When the data packages are too big and cannot be reduced, it is not possible to publish them in CRAN (...) and failures appear when users want to install them in their development version that took us a long time to solve and with non-optimal results.
 
