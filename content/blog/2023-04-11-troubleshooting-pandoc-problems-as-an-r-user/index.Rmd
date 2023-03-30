@@ -35,8 +35,7 @@ In this post, we gather resources and tips to help you troubleshoot Pandoc as an
 Say we have a Markdown file and want to convert it to HTML.
 We can do it calling the [`pandoc::pandoc_convert()`](https://cderv.github.io/pandoc/reference/pandoc_convert.html) function that handily wraps Pandoc.
 
-
-```r
+```{r}
 md_lines <- c(
   "# Important announcement", "",
   "[Pandoc](https://pandoc.org/) is **great**!"
@@ -51,20 +50,7 @@ pandoc::pandoc_convert(
   to = "html", 
   output = html_file
 )
-```
-
-```
-## /tmp/Rtmpkdwxp2/file14f1b9dcbaf9
-```
-
-```r
 brio::read_lines(html_file)
-```
-
-```
-## [1] "<h1 id=\"important-announcement\">Important announcement</h1>"
-## [2] "<p><a href=\"https://pandoc.org/\">Pandoc</a> is"             
-## [3] "<strong>great</strong>!</p>"
 ```
 
 That magic of **going from one Markup language to another** is Pandoc's job.
@@ -72,28 +58,14 @@ Pandoc supports many input and output formats, with tweaks available for various
 
 For instance, we could change the call slightly to not get an identifier for the h1 heading in the HTML.
 
-
-```r
+```{r}
 pandoc::pandoc_convert(
   file = md_file, 
   from = "markdown-auto_identifiers", 
   to = "html", 
   output = html_file
 )
-```
-
-```
-## /tmp/Rtmpkdwxp2/file14f1b9dcbaf9
-```
-
-```r
 brio::read_lines(html_file)
-```
-
-```
-## [1] "<h1>Important announcement</h1>"                 
-## [2] "<p><a href=\"https://pandoc.org/\">Pandoc</a> is"
-## [3] "<strong>great</strong>!</p>"
 ```
 
 This is just a glimpse of what Pandoc can do.
@@ -152,31 +124,21 @@ to turn on the indispensable emoji support. 🎉
 Below is an example where we call Pandoc directly.
 Note we do it on strings directly, without writing anything to files, which can be handy at times!
 
-
-```r
+```{r}
 # no emoji, terrible sadness
 pandoc::pandoc_convert(
   text = "I :heart: Pandoc!",
   from = "markdown",
   to = "html"
 )
-```
 
-```
-## <p>I :heart: Pandoc!</p>
-```
-
-```r
 # emoji, immense joy
 pandoc::pandoc_convert(
   text = "I :heart: Pandoc!",
   from = "markdown+emoji",
   to = "html"
 )
-```
 
-```
-## <p>I <span class="emoji" data-emoji="heart">❤️</span> Pandoc!</p>
 ```
 
 
@@ -188,19 +150,13 @@ Some options might be hidden by the tool you use to call Pandoc, or handily rena
 
 Below, we use an option to shift heading levels by 1 which increases the heading level number therefore reduce the heading importance.
 
-
-```r
+```{r}
 pandoc::pandoc_convert(
   text = "# Important announcement\n\nPandoc is cool!",
   from = "markdown",
   to = "HTML", 
   args = c("--shift-heading-level-by=1")
 )
-```
-
-```
-## <h2 id="important-announcement">Important announcement</h2>
-## <p>Pandoc is cool!</p>
 ```
 
 See how the "Important announcement" header becomes a h _2_ in the output.
