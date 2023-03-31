@@ -2,7 +2,7 @@
 title: rOpenSci News Digest, April 2023
 author:
   - The rOpenSci Team
-date: '2023-04-14'
+date: '2023-04-21'
 slug: ropensci-news-digest-april-2023
 categories: []
 tags:
@@ -17,7 +17,7 @@ params:
 
 Dear rOpenSci friends, it's time for our monthly news roundup!
 <!-- blabla -->
-You can read this post [on our blog](/blog/2023/04/14/ropensci-news-digest-april-2023).
+You can read this post [on our blog](/blog/2023/04/21/ropensci-news-digest-april-2023).
 Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
@@ -122,7 +122,7 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 
 
-* [Meeting the Stars of the R-Universe: Researching Our Brain with the Magic of the R-Universe](/blog/2023/04/14/ropensci-news-digest-april-2023) by Yanina Bellini Saibene, Alejandra Bellini, Lucio Casalla, and Steffi LaZerte. Working with the human brain requires specific software and complex developments, however R appears as the natural way to collect hundreds of data that need to be analyzed and the R-Universe as the most friendly place to share and invite to collaborate. Our third stop bring us to __Norway__ to talk with __Athanasia Monika Mowinckel__. Other languages: <a href='/es/blog/2023/03/30/r-universe-stars-3-es' lang='es'>Conociendo a las estrellas del Universo R: Investigando nuestro cerebro con la magia del universo R (es)</a>.
+* [Meeting the Stars of the R-Universe: Researching Our Brain with the Magic of the R-Universe](/blog/2023/04/21/ropensci-news-digest-april-2023) by Yanina Bellini Saibene, Alejandra Bellini, Lucio Casalla, and Steffi LaZerte. Working with the human brain requires specific software and complex developments, however R appears as the natural way to collect hundreds of data that need to be analyzed and the R-Universe as the most friendly place to share and invite to collaborate. Our third stop bring us to __Norway__ to talk with __Athanasia Monika Mowinckel__. Other languages: <a href='/es/blog/2023/03/30/r-universe-stars-3-es' lang='es'>Conociendo a las estrellas del Universo R: Investigando nuestro cerebro con la magia del universo R (es)</a>.
 
 <!-- ## Use cases
 
