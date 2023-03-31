@@ -160,6 +160,27 @@ Refer to our [recent blog post](/blog/2022/10/17/maintain-or-co-maintain-an-rope
 
 Some useful tips for R package developers. :eyes:
 
+### Deprecated data in a package with `delayedAssign()`
+
+If you need to change something like a function or function arguments in your package, you'll find many resources in say [rOpenSci dev guide](https://devguide.ropensci.org/evolution.html), or the [lifecycle package docs](https://lifecycle.r-lib.org/).
+Now what if you want to deprecate a **dataset**?
+Read the [solution proposed by Matthijs Berends on Stack Overflow](https://stackoverflow.com/questions/33304651/data-deprecation-in-r-package/75192818#75192818), linking to [a 3-step method in Bioconductor guidance](https://contributions.bioconductor.org/deprecation.html#deprecate-dataset).
+Key is the usage of `delayedAssign()` to save a promise that will serve both a warning, and the data.
+We might mention this approach in a future version of our [dev guide](https://github.com/ropensci/dev_guide/issues/649).
+
+You might remember `delayedAssign()` from a [strategy to provide data as tibble only when tibble is installed](/blog/2022/01/21/ropensci-news-digest-january-2022/#how-to-provide-tibbles-only-to-those-who-like-them).
+Useful function!
+
+### Important change for CRAN packages with compiled code
+
+Andy Teucher, R Package Developer Educator at Posit PBC, wrote a post about ["New CRAN requirements for packages with C and C++"](https://www.tidyverse.org/blog/2023/03/cran-checks-compiled-code/).
+Good to know for packages on CRAN, or to be submitted to CRAN, with compiled code!
+
+### Let dependabot monitor updates to your GitHub Actions
+
+A tip by Jacob Wujciak-Jens.
+Dependabot alerts are really easy to set up to monitor for updates to actions, like this [example](https://github.com/ropensci-review-tools/pkgcheck/blob/main/.github/dependabot.yml). 
+See the [Full GitHub docs](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuring-dependabot-version-updates#enabling-dependabot-version-updates).
 
 ## Last words
 
