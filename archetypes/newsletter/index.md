@@ -471,8 +471,9 @@ format_post <- function(dir) {
     other_langs <- split(other_langs, sort(as.numeric(rownames(other_langs))))
     other_langs_text <- purrr::map_chr(
       other_langs,
-      ~ sprintf("[%s](%s) (%s)", .x[["title"]], .x[["url"]], .x[["language"]])
-    ) %>% toString
+      ~ sprintf("<a href='%s' lang='%s'>%s (%s)</a>", .x[["url"]], .x[["language"]], .x[["title"]], .x[["language"]])
+      ) %>% 
+      toString
     other_langs_text <- sprintf("Other languages: %s.", other_langs_text)
     string <- sprintf("%s %s", string, other_langs_text)
   }
