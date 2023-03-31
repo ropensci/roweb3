@@ -419,6 +419,16 @@ parse_one_post <- function(path){
   yaml <- glue::glue_collapse(yaml, sep = "\n")
   yaml <- yaml::yaml.load(yaml)
   
+  language <- function(path) {
+    name <- fs::path_ext_remove(fs::path_file(path))
+    if (grepl("\\.[a-z][a-z]", name)) {
+      sub(".*\\.", "", name)
+    } else {
+      "en"
+    }
+  }
+
+  
   meta <- tibble::tibble(
     date = anytime::anydate(yaml$date),
     author = nice_string(yaml$author),
@@ -430,9 +440,31 @@ parse_one_post <- function(path){
     twitterAlt = yaml$twitterAlt %||% "",
     description = yaml$description %||% "",
     newsletter = "newsletter" %in% yaml$tags,
-    slug = yaml$slug
+    slug = yaml$slug,
+    dir = fs::path_dir(path),
+    language = language(path)
     )
 
+  post_url <- if (meta[["language"]] == "en") {
+    sprintf(
+      "/blog/%s/%s/%s/%s",
+      lubridate::year(meta$date),
+      stringr::str_pad(lubridate::month(meta$date), 2, "0", side = "left"),
+      stringr::str_pad(lubridate::day(meta$date), 2, "0", side = "left"),
+      meta$slug
+    )
+  } else {
+    sprintf(
+      "/%s/blog/%s/%s/%s/%s",
+      meta[["language"]],
+      lubridate::year(meta$date),
+      stringr::str_pad(lubridate::month(meta$date), 2, "0", side = "left"),
+      stringr::str_pad(lubridate::day(meta$date), 2, "0", side = "left"),
+      meta$slug
+    )
+  }
+
+  meta$url <- post_url
   meta
 }
 paths <- fs::dir_ls("..", recurse = TRUE, glob = "*.md")
@@ -440,15 +472,17 @@ paths <- paths[!paths %in% c("../_index.md", "../2021-02-03-targets/raw_data_sou
   "../2021-02-03-targets/README.md")]
 posts <- purrr::map_df(paths, parse_one_post)
 posts <- dplyr::filter(posts, date >= as.Date(last_newsletter), !newsletter)
-posts <- split(posts, seq(nrow(posts)))
-format_post <- function(post) {
-  url <- sprintf(
-    "/blog/%s/%s/%s/%s",
-    lubridate::year(post$date),
-    stringr::str_pad(lubridate::month(post$date), 2, "0", side = "left"),
-    stringr::str_pad(lubridate::day(post$date), 2, "0", side = "left"),
-    post$slug
-    )
+posts <- split(posts, posts[["dir"]])
+format_post <- function(dir) {
+  browser()
+  
+  main_language <- if (any(dir[["language"]] == "en")) {
+    "en"
+  } else {
+    dir[["language"]][[1]]
+  }
+  
+  post <- dir[which(dir[["language"]] == main_language),]
   string <- sprintf("* [%s](%s) by %s", post$title, url, post$author)
   if (post$description != "") {
     string <- paste0(string, ". ", sub("\\?$", "", sub("\\!$", "", sub("\\.$", "", post$description), ".")), ".")
@@ -464,6 +498,17 @@ format_post <- function(post) {
       string,
       sprintf('{{< figure src="%s" alt="%s" width="400" >}}\n\n', img_file, post$twitterAlt)
     )
+  }
+  
+  if (length(dir > 1)) {
+    other_langs <- dir[which(dir[["language"]] != main_language),]
+    other_langs <- split(other_langs, sort(as.numeric(rownames(other_langs))))
+    other_langs_text <- purrr::map_chr(
+      other_langs,
+      ~ sprintf("[%s](%s) (%s)", .x[["title"]], .x[["url"]], .x[["language"]])
+    ) |> toString
+    other_langs_text <- sprintf("Other languages: %s.", other_langs_text)
+    string <- sprintf("%s %s", string, other_langs_text)
   }
   
   string
