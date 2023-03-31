@@ -2,7 +2,7 @@
 title: rOpenSci News Digest, April 2023
 author:
   - The rOpenSci Team
-date: '2023-04-14'
+date: '2023-04-21'
 slug: ropensci-news-digest-april-2023
 categories: []
 tags:
