@@ -1,6 +1,7 @@
 ---
-slug: "post-template"
+
 title: waywiser is Now a Part of rOpenSci
+slug: waywiser-is-now-a-part-of-ropensci
 author:
   - Mike Mahoney
 # Set the date below to the publication date of your post
@@ -24,7 +25,7 @@ preface: This post was originally published on [Mike Mahoney's personal blog](ht
 
 I'm thrilled to share that [waywiser](https://docs.ropensci.org/waywiser/), my R package focused on providing framework-agnostic (but [tidymodels](https://www.tidymodels.org/)-friendly) methods for assessing models fit to spatial data[^terminology], has passed [peer review](/software-review/) and been accepted to [rOpenSci](/). As always, [the review process](https://github.com/ropensci/software-review/issues/571) improved the package immensely, thanks to the thoughtful reviews of [Virgilio Gómez-Rubio](https://becarioprecario.github.io/) and [Jakub Nowosad](https://jakubnowosad.com/)[^book], as well as the shepherding of [Anna Krystalli](https://www.r-rse.eu/) and [Paula Moraga](https://www.paulamoraga.com/) as editors.
 
-As of Monday, March the 20th, the reviewed version has officially [made its way to CRAN](https://cran.r-project.org/package=waywiser). This is a [huge update](https://docs.ropensci.org/waywiser/news/index.html#waywiser-030), bringing in a ton of new functions and improving consistency and speed across the package, and I'm excited to have it officially released.
+As of Monday, March 20th, the reviewed version has officially [made its way to CRAN](https://cran.r-project.org/package=waywiser). This is a [huge update](https://docs.ropensci.org/waywiser/news/index.html#waywiser-030), bringing in a ton of new functions and improving consistency and speed across the package, and I'm excited to have it officially released.
 
 I'm also very excited to have put out a [preprint describing the package](https://arxiv.org/abs/2303.11312), which goes a bit deeper into the logic of why and how the package implements the features it does. This is my first solo-authored paper[^solo], and by far and away the one with the most equations[^eq]. Despite both of those, I'm pretty pleased with how this paper turned out; I think it's a useful addition to the package documentation for users who want a more thorough explication of the scholarly background of package features.
 
