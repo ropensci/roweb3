@@ -69,8 +69,6 @@ The following two packages recently became a part of our software suite:
 
 + [predictNMB](https://docs.ropensci.org/predictNMB), developed by Rex Parsons together with Robin Blythe, and Adrian Barnett: Estimates when and where a model-guided treatment strategy may outperform a treat-all or treat-none approach by Monte Carlo simulation and evaluation of the Net Monetary Benefit (NMB). It has been [reviewed](https://github.com/ropensci/software-review/issues/566) by Emi Tanaka, and Tinula Kariyawasam.
 
-+ [sofa](https://docs.ropensci.org/sofa), developed by Scott Chamberlain: Provides an interface to the NoSQL database CouchDB (<http://couchdb.apache.org>). Methods are provided for managing databases within CouchDB, including creating/deleting/updating/transferring, and managing documents within databases. One can connect with a local CouchDB instance, or a remote CouchDB databases such as Cloudant. Documents can be inserted directly from vectors, lists, data.frames, and JSON. Targeted at CouchDB v2 or greater.  It is available on [CRAN]( https://CRAN.R-project.org/package=sofa). 
-
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
 ### New versions
