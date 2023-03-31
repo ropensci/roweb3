@@ -3,7 +3,6 @@ title: "rOpenSci Champions Program Teams: Meet Pao Corrales and Adam Sparks"
 author:
   - Pao Corrales
   - Adam Sparks
-  - Yanina Bellini Saibene
 date: '2023-04-13'
 tags:
   - community
