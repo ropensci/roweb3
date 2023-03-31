@@ -138,7 +138,7 @@ old <- dplyr::filter(
 
 new <- dplyr::filter(
   registry,
-  !package %in% c("babeldown", "geojson", old$package),
+  !package %in% c("sofa", old$package),
   !grepl("ropenscilabs\\/", url),
   !grepl("ropensci-archive\\/", url)
 )
@@ -179,10 +179,6 @@ present_one <- function(package) {
     author_string <- paste0(author_string, sprintf(" together with %s", nice_string(aut)))
   } 
   
-  if (package$package == "waywiser") {
-    package$details <- "Assessing predictive models of spatial data can be challenging, both because these models are typically built for extrapolating outside the original region represented by training data and due to potential spatially structured errors, with “hot spots” of higher than expected error clustered geographically due to spatial structure in the underlying data. Methods are provided for assessing models fit to spatial data, including approaches for measuring the spatial structure of model errors, assessing model predictions at multiple spatial scales, and evaluating where predictions can be made safely. Methods are particularly useful for models fit using the tidymodels framework. "
-  }
-  
   string <- sprintf(
     "[%s](https://docs.ropensci.org/%s), %s: %s. ",
     package$package, 
@@ -210,12 +206,6 @@ present_one <- function(package) {
   }
   if (nzchar(package$onboarding)) {
     string <- paste0(string, sprintf("It has been [reviewed](%s)", package$onboarding))
-    if (package$package == "openalexR") {
-      string <- paste0(string, " by Brianna Lind and Pachá (aka Mauricio Vargas Sepúlveda)")
-    }
-    if (package$package == "rb3") {
-      string <- paste0(string, " by Mario Gavidia Calderón and Pachá (aka Mauricio Vargas Sepúlveda)")
-    }
     if (length(rev) > 0) {
       string <- paste0(string, sprintf(" by %s.", nice_string(rev)))
     } else {
@@ -253,6 +243,8 @@ registry <- registry %>%
   dplyr::filter(
     !is.na(owner)
   )
+registry[registry[["package"]] == "commonmark",][["owner"]] <- "r-lib"
+registry[registry[["package"]] == "commonmark",][["repo"]] <- "commonmark"
 packages <- split(registry, seq(nrow(registry)))
 get_release <- function(repo) {
   info <- gh::gh(
@@ -294,7 +286,6 @@ text <- nice_string(all_releases)
 ```
 
 The following `r if (length(releases) > 1) english(length(releases))` package`r if (length(releases) > 1) "s"` `r if (length(releases) > 1) "have" else "has"` had an update since the last newsletter: `r text`.
-
 ## Software Peer Review
 
 ```{r software-review, results='asis'}
@@ -474,8 +465,6 @@ posts <- purrr::map_df(paths, parse_one_post)
 posts <- dplyr::filter(posts, date >= as.Date(last_newsletter), !newsletter)
 posts <- split(posts, posts[["dir"]])
 format_post <- function(dir) {
-  browser()
-  
   main_language <- if (any(dir[["language"]] == "en")) {
     "en"
   } else {
@@ -506,7 +495,7 @@ format_post <- function(dir) {
     other_langs_text <- purrr::map_chr(
       other_langs,
       ~ sprintf("[%s](%s) (%s)", .x[["title"]], .x[["url"]], .x[["language"]])
-    ) |> toString
+    ) %>% toString
     other_langs_text <- sprintf("Other languages: %s.", other_langs_text)
     string <- sprintf("%s %s", string, other_langs_text)
   }
@@ -516,7 +505,7 @@ format_post <- function(dir) {
 ```
 
 ```{r, results='asis'}
-software_review <- posts[purrr::map_lgl(posts, "software_peer_review")]
+software_review <- posts[purrr::map_lgl(posts, ~any(.x[["software_peer_review"]]))]
 if (length(software_review) > 0) {
   cat("### Software Review\n\n")
   cat(
@@ -528,7 +517,7 @@ if (length(software_review) > 0) {
   cat("\n\n")
 }
 
-others <- posts[purrr::map_lgl(posts, "other")]
+others <- posts[purrr::map_lgl(posts, ~any(.x[["other"]]))]
 if (length(others) > 0) {
   if (length(others) != length(posts)) cat("### Other topics\n\n")
   cat(
@@ -541,7 +530,7 @@ if (length(others) > 0) {
 }
 
 
-tech_notes <- posts[purrr::map_lgl(posts, "tech_note")]
+tech_notes <- posts[purrr::map_lgl(posts, ~any(.x[["tech_note"]]))]
 if (length(tech_notes) > 0) {
   cat("\n\n")
   cat("### Tech Notes\n\n")
