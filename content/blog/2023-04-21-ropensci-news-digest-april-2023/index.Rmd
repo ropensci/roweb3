@@ -622,6 +622,12 @@ Useful function!
 Andy Teucher, R Package Developer Educator at Posit PBC, wrote a post about ["New CRAN requirements for packages with C and C++"](https://www.tidyverse.org/blog/2023/03/cran-checks-compiled-code/).
 Good to know for packages on CRAN, or to be submitted to CRAN, with compiled code!
 
+### Let dependabot monitor updates to your GitHub Actions
+
+A tip by Jacob Wujciak-Jens.
+Dependabot alerts are really easy to set up to monitor for updates to actions, like this [example](https://github.com/ropensci-review-tools/pkgcheck/blob/main/.github/dependabot.yml). 
+See the [Full GitHub docs](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuring-dependabot-version-updates#enabling-dependabot-version-updates).
+
 ## Last words
 
 Thanks for reading! If you want to get involved with rOpenSci, check out our [Contributing Guide](https://contributing.ropensci.org) that can help direct you to the right place, whether you want to make code contributions, non-code contributions, or contribute in other ways like sharing use cases.
