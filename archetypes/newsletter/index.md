@@ -387,6 +387,16 @@ parse_one_post <- function(path){
   yaml <- glue::glue_collapse(yaml, sep = "\n")
   yaml <- yaml::yaml.load(yaml)
   
+  language <- function(path) {
+    name <- fs::path_ext_remove(fs::path_file(path))
+    if (grepl("\\.[a-z][a-z]", name)) {
+      sub(".*\\.", "", name)
+    } else {
+      "en"
+    }
+  }
+
+  
   meta <- tibble::tibble(
     date = anytime::anydate(yaml$date),
     author = nice_string(yaml$author),
@@ -398,9 +408,31 @@ parse_one_post <- function(path){
     twitterAlt = yaml$twitterAlt %||% "",
     description = yaml$description %||% "",
     newsletter = "newsletter" %in% yaml$tags,
-    slug = yaml$slug
+    slug = yaml$slug,
+    dir = fs::path_dir(path),
+    language = language(path)
     )
 
+  post_url <- if (meta[["language"]] == "en") {
+    sprintf(
+      "/blog/%s/%s/%s/%s",
+      lubridate::year(meta$date),
+      stringr::str_pad(lubridate::month(meta$date), 2, "0", side = "left"),
+      stringr::str_pad(lubridate::day(meta$date), 2, "0", side = "left"),
+      meta$slug
+    )
+  } else {
+    sprintf(
+      "/%s/blog/%s/%s/%s/%s",
+      meta[["language"]],
+      lubridate::year(meta$date),
+      stringr::str_pad(lubridate::month(meta$date), 2, "0", side = "left"),
+      stringr::str_pad(lubridate::day(meta$date), 2, "0", side = "left"),
+      meta$slug
+    )
+  }
+
+  meta$url <- post_url
   meta
 }
 paths <- fs::dir_ls("..", recurse = TRUE, glob = "*.md")
@@ -408,15 +440,15 @@ paths <- paths[!paths %in% c("../_index.md", "../2021-02-03-targets/raw_data_sou
   "../2021-02-03-targets/README.md")]
 posts <- purrr::map_df(paths, parse_one_post)
 posts <- dplyr::filter(posts, date >= as.Date(last_newsletter), !newsletter)
-posts <- split(posts, seq(nrow(posts)))
-format_post <- function(post) {
-  url <- sprintf(
-    "/blog/%s/%s/%s/%s",
-    lubridate::year(post$date),
-    stringr::str_pad(lubridate::month(post$date), 2, "0", side = "left"),
-    stringr::str_pad(lubridate::day(post$date), 2, "0", side = "left"),
-    post$slug
-    )
+posts <- split(posts, posts[["dir"]])
+format_post <- function(dir) {
+  main_language <- if (any(dir[["language"]] == "en")) {
+    "en"
+  } else {
+    dir[["language"]][[1]]
+  }
+  
+  post <- dir[which(dir[["language"]] == main_language),]
   string <- sprintf("* [%s](%s) by %s", post$title, url, post$author)
   if (post$description != "") {
     string <- paste0(string, ". ", sub("\\?$", "", sub("\\!$", "", sub("\\.$", "", post$description), ".")), ".")
@@ -434,12 +466,23 @@ format_post <- function(post) {
     )
   }
   
+  if (length(dir > 1)) {
+    other_langs <- dir[which(dir[["language"]] != main_language),]
+    other_langs <- split(other_langs, sort(as.numeric(rownames(other_langs))))
+    other_langs_text <- purrr::map_chr(
+      other_langs,
+      ~ sprintf("[%s](%s) (%s)", .x[["title"]], .x[["url"]], .x[["language"]])
+    ) %>% toString
+    other_langs_text <- sprintf("Other languages: %s.", other_langs_text)
+    string <- sprintf("%s %s", string, other_langs_text)
+  }
+  
   string
 }
 ```
 
 ```{r, results='asis'}
-software_review <- posts[purrr::map_lgl(posts, "software_peer_review")]
+software_review <- posts[purrr::map_lgl(posts, ~any(.x[["software_peer_review"]]))]
 if (length(software_review) > 0) {
   cat("### Software Review\n\n")
   cat(
@@ -451,7 +494,7 @@ if (length(software_review) > 0) {
   cat("\n\n")
 }
 
-others <- posts[purrr::map_lgl(posts, "other")]
+others <- posts[purrr::map_lgl(posts, ~any(.x[["other"]]))]
 if (length(others) > 0) {
   if (length(others) != length(posts)) cat("### Other topics\n\n")
   cat(
@@ -464,7 +507,7 @@ if (length(others) > 0) {
 }
 
 
-tech_notes <- posts[purrr::map_lgl(posts, "tech_note")]
+tech_notes <- posts[purrr::map_lgl(posts, ~any(.x[["tech_note"]]))]
 if (length(tech_notes) > 0) {
   cat("\n\n")
   cat("### Tech Notes\n\n")
@@ -477,6 +520,42 @@ if (length(tech_notes) > 0) {
   cat("\n\n")
 }
 ```
+
+<!-- ## Use cases
+
+```{r usecases, eval=FALSE}
+# rerun get_use_cases.R at the same time
+usecases <- jsonlite::read_json("../../../data/usecases/usecases.json")
+get_one_case <- function(usecase) {
+  tibble::tibble(
+    title = usecase$title,
+    reporter = usecase$reporter,
+    url = usecase$url,
+    image = usecase$image,
+    date = anytime::anydate(usecase$date)
+  )
+}
+usecases <- purrr::map_df(usecases, get_one_case)
+usecases <- dplyr::filter(usecases, date >= as.Date(last_newsletter))
+usecases <- split(usecases, seq(nrow(usecases)))
+```
+
+`snakecase::to_sentence_case(english(length(usecases)))` use case` if (length(usecases) > 1) "s"` of our packages and resources ha` if (length(usecases) > 1) "ve" else "s"` been reported since we sent the last newsletter.
+
+```{r usecases2, results='asis', eval=FALSE}
+format_case <- function(usecase) {
+  string <- sprintf("* [%s](%s). Reported by %s.", sub("\\.$", "", usecase$title), usecase$url, usecase$reporter)
+}
+cat(
+  paste0(
+    purrr::map_chr(usecases, format_case),
+    collapse = "\n\n"
+  )
+)
+```
+
+Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)! -->
+
 
 ## Use cases
 
