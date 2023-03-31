@@ -160,6 +160,12 @@ Refer to our [recent blog post](/blog/2022/10/17/maintain-or-co-maintain-an-rope
 
 Some useful tips for R package developers. :eyes:
 
+### Caching the results of functions of your R package
+
+The R-hub blog has a post on [Caching the results of functions of your R package](https://blog.r-hub.io/2021/07/30/cache/) by Maëlle Salmon and Christophe Dervieux.
+It presents different approaches.
+A recent PR by Lukas Wallrich to rcrossref maintained by Najko Jahn illustrates the approach of [saving results to an environment](https://github.com/ropensci/rcrossref/pull/237) (and reminded us about the topic of caching!).
+
 ### Deprecated data in a package with `delayedAssign()`
 
 If you need to change something like a function or function arguments in your package, you'll find many resources in say [rOpenSci dev guide](https://devguide.ropensci.org/evolution.html), or the [lifecycle package docs](https://lifecycle.r-lib.org/).
