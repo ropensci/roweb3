@@ -51,7 +51,12 @@ You can also read the post in [Spanish](/es/blog/2023/03/30/r-universe-stars-3-e
 
 ### Multilingual posts
 
-TODO
+Have you noticed several of our recent blog posts were translated to Spanish, and in one case, French?
+We've started adding actual multilingual infrastructure to our website.
+You can find all posts in Spanish in <https://ropensci.org/es/archive> (and the lone French post in <https://ropensci.org/fr/archive>).
+From any post that has a translation, the sidebar on the right (or... at the bottom if you're reading on mobile!) has a link to translations of the post, see this [example](/blog/2023/02/28/r-universe-stars-2-en/).
+
+We plan to improve the multilingualism of our website over time.
 
 ### Coworking
 
