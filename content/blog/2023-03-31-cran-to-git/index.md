@@ -15,9 +15,9 @@ tags:
 
 ## How packages appear in r-universe
 
-Last month we explained how r-universe lets you easily search and browse for R packages, articles, and datasets to [discover and learn](/blog/2023/02/27/runiverse-discovering/) about everything that the R ecosystem has to offer.
+Last month we explained how r-universe lets you easily search and browse through the countless R packages, articles, and datasets to [discover and learn](/blog/2023/02/27/runiverse-discovering/) relevant work. We are continuously trying to grow this database and track more projects, to show you everything the R ecosystem has to offer.
 
-Currently r-universe is tracking and indexing of over 18.000 R packages. These are a mix of packages found on popular networks like [CRAN](https://cran.r-project.org/) and [Bioconductor](https://www.bioconductor.org/) and packages that have been registered by users. We try to keep growing to build the most extensive database of searchable R content.
+Currently r-universe is tracking and indexing of over 18.000 R packages. These are a mix of packages found on popular networks like [CRAN](https://cran.r-project.org/) or [Bioconductor](https://www.bioconductor.org/), and packages that were registered by users.
 
 In previous posts we already explained [how to create your personal CRAN-like repository](/blog/2021/06/22/setup-runiverse/) and add the packages to be included your r-universe. This post explains the other part: how the system automatically finds packages on CRAN and Bioconductor that can be included in r-universe.
 
@@ -43,7 +43,7 @@ For all R packages on CRAN and BioConductor we perform the following steps to tr
  2. If this fails, but the maintainer has a GitHub account, we look for the package under this Github account. If the package is found and the version is equal or greater than the version on CRAN or Bioconductor, this is used as the official source.
  3. Finally if the maintainer has a Github account, but we could not find the package there either, we add a copy of the package from [metacran](https://github.com/cran) in the universe of the maintainer. As explained earlier, for this set of packages we do not have upstream metadata, but we can still index the package content and maintainer information.
 
-This data is updated every night and published in our [crantogit](https://github.com/r-universe-org/cran-to-git/blob/master/crantogit.csv) registry. Today's statistics are:
+This list of package URLs is updated every night and published in [crantogit](https://github.com/r-universe-org/cran-to-git/blob/master/crantogit.csv). Today's statistics are:
 
  - 10.805 CRAN/Bioc packages found at the Git url from the description (yay, you rule!)
  - 1.983 packages found under the maintainer's Github account
@@ -58,10 +58,10 @@ This is roughly how it works, but there are a lot of subtleties to the process. 
 
 If you maintain an R package, regardless of where you publish it, I highly recommend these two things to let us (and others) identify the official source and maintainer of the project:
 
- - Put the Github/Gitlab/R-forge/Bitbucket home of your project in the `URL` and/or `BugReports` fields in the package DESCRIPTION file when[^2] you publish on CRAN/BioConductor. This makes it clear where to report bugs, and also prevents confusion about the official source if someone forks your package, or creates a package with the same name.
+ - Put the Github/Gitlab/R-forge/Bitbucket home of your project in the `URL` and/or `BugReports` fields in the package DESCRIPTION file when you publish on CRAN/BioConductor[^2]. This makes it clear where to report bugs, and also prevents confusion about the official source if someone forks your package, or creates a package with the same name.
  - If you have a GitHub account (even if you never use it!), do register your maintainer email address(es) in your [Github account settings](https://github.com/settings/emails) (see also [this faq](https://github.com/r-universe-org/help#how-to-link-a-maintainer-email-addresses-to-a-username-on-r-universe)). This way the maintainer can be linked to your github account/picture and systems like r-universe and metacran can correctly identify ownership and contributions.
 
-Finally I want to emphasize again that packages do not need to be on CRAN to be included in r-universe. It is super easy to [setup your own universe](/blog/2021/06/22/setup-runiverse/) and get the same benefits!
+Finally I want to emphasize again that packages do not need to be on CRAN or Bioconductor to be included in r-universe. It is super easy to [setup your own universe](/blog/2021/06/22/setup-runiverse/) and get the same benefits!
 
 
 [^1]: One notable exception is [r-forge](https://r-forge.r-project.org/) which uses SVN, but has a live Git mirror on [github.com/r-forge](https://github.com/r-forge)
