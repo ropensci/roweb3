@@ -1,7 +1,7 @@
 ---
 slug: cran-to-git
 title: 'How r-universe searches for packages on CRAN / Bioconductor'
-date: '2023-03-31'
+date: '2023-04-03'
 author: Jeroen Ooms
 description: 'How r-universe searches for, and includes, packages on CRAN / Bioconductor that are available on GitHub or GitLab or R-forge.'
 tags:
