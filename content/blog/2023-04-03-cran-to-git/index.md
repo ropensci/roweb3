@@ -15,11 +15,11 @@ tags:
 
 ## How packages appear in r-universe
 
-Last month we explained how r-universe makes it easy to search and browse through the countless R packages, articles, and datasets to let you [discover and learn](/blog/2023/02/27/runiverse-discovering/) new things. We are continuously growing this database and track more R projects, to guide you through everything the R ecosystem has to offer.
+Last month we explained how r-universe makes it easy to search and browse through the countless R packages, articles, and datasets to let you [discover and learn](/blog/2023/02/27/runiverse-discovering/) new things. We are continuously growing this database by adding more R projects, to guide you through everything the R ecosystem has to offer.
 
 Currently r-universe is tracking and indexing of over 18.000 R packages. These are a mix of packages found on popular networks like [CRAN](https://cran.r-project.org/) or [Bioconductor](https://www.bioconductor.org/), and packages that were registered by users.
 
-In previous posts we already explained [how to create your personal CRAN-like repository](/blog/2021/06/22/setup-runiverse/) and publish packages on r-universe. This post explains the other part: how the scraper automatically finds packages on CRAN and Bioconductor that can be included in r-universe.
+In previous posts we already explained [how to create your personal CRAN-like repository](/blog/2021/06/22/setup-runiverse/) and publish packages on r-universe yourself. This post explains the other part: how the scraper automatically finds packages on CRAN and Bioconductor that should be included in r-universe.
 
 ## Why we look for the upstream package source
 
@@ -33,7 +33,7 @@ We strongly prefer tracking projects from their official upstream Git source, wh
  - Historical statistics on development activity and contributors
  - Project metadata, such as keywords
 
-R-universe automatically analyses all this information, uses it to rank and classify packages, and presents the data via the [r-universe.dev](https://r-universe.dev) web user interfaces and APIs. For this reason we really want to know the true Git home and owner of a package, regardless of wether there is a copy on CRAN or BioConductor.
+R-universe automatically analyses all this information, uses it to rank and classify packages, and presents the data via the [r-universe.dev](https://r-universe.dev) web user interfaces and APIs. For this reason we really want to know the official Git url and owner, even when a copy of the package exists on CRAN or BioConductor.
 
 ## How we determine the upstream source
 
@@ -41,15 +41,15 @@ For all R packages on CRAN and BioConductor we perform the following steps to tr
 
  1. Inspect the `URL` and `BugReports` field in the DESCRIPTION file to look for a github/gitlab/bitbucket/r-forge url. If the package can be found here, this is the preferred method.
  2. If this fails, but the maintainer has a GitHub account, we look for the package under this Github account. If the package is found and the version is equal or greater than the version on CRAN or Bioconductor, this is treated as the official source.
- 3. Finally if the maintainer has a Github account, but we could not find the package there either, we add a copy of the package from [metacran](https://github.com/cran) in the universe of the maintainer. As explained earlier, for this set of packages we do not have upstream metadata, but we can still index the package content and maintainer information.
+ 3. Finally if the maintainer has a Github account, but we could not find the package there either, we add a copy of the package from [metacran](https://github.com/cran) in the universe of the maintainer. As explained earlier, for this set of packages we do not have upstream metadata, so we can only index the package content and some maintainer information.
 
 This list of package URLs is updated every night and published in [crantogit](https://github.com/r-universe-org/cran-to-git/blob/master/crantogit.csv). Today's statistics are:
 
- - 10.805 CRAN/Bioc packages found at the Git url from the description (yay, you rule!)
- - 1.983 packages found under the maintainer's Github account
+ - 10.805 CRAN/Bioc packages found at the Git url mentioned in the DESCRIPTION file (yay, you rule!)
+ - 1.983 packages found under the maintainer's personal Github account
  - 4.613 packages ingested from the CRAN/Bioc mirror in the maintainer's universe
 
-Currently we do not process CRAN/Bioc packages that have no public Git source, and also the maintainer has no Github account, because we cannot assign an owner (and hence a r-universe subdomain).
+Currently we do not process CRAN/Bioc packages that have no public Git source, and also the maintainer has no Github account, because we cannot determine the owner (and hence r-universe subdomain).
 
 This is roughly how it works, but there are some caveats. For example, the scraper may not be able to find a package if it is stored in an unusual subdirectory within a Git repository. Also, CRAN has an unusual practice of unpredictably archiving and unarchiving packages. Therefore, packages that get archived on CRAN and are also not part of any other registry, still remain on r-universe for 2 months.
 
