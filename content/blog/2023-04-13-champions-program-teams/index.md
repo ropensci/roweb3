@@ -15,7 +15,7 @@ description: "Introducing Champions and Mentors - Pao Corrales and Adam Sparks"
 
 *In this series of blog posts, we introduce you to the ten teams of this first cohort and what they will be working on in the program.*
 
-First, meet **Paola Corrales** from Argentina and **Adam Spark** from Australia!
+First, meet **Paola Corrales** from Argentina and **Adam Sparks** from Australia!
 
 
 ## Pao Corrales - Champion
@@ -40,7 +40,7 @@ I'm a co-founder of [Open Plant Pathology](https://openplantpathology.org/), and
 I have authored or co-authored more than seven R packages for CRAN and maintain one registered Julia package.
 
 I was born in Indiana, USA and earned an undergraduate degree in agronomy from Purdue University, a graduate certificate in geographic information science (GIS) and my PhD in plant pathology on the epidemiology and ecology of plant pathogens from Kansas State University in the USA.
-Initially, when I moved to Australia I lived in Queensland for five years and more recently I became a naturalized citizen, and I am now usually found in Perth, WA, Australia these days.
+Initially, when I moved to Australia I lived in Queensland for five years and more recently moved to Western Australia where I became a naturalized citizen, and I am now usually found in Perth, WA, Australia these days.
 
 I'm excited for the Champions program because it's a great way for me to contribute back to the broader R community and more specifically rOpenSci, which has been so supportive in my development as an R user and developer.
 
