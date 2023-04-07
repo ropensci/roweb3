@@ -34,10 +34,14 @@ I'm also looking forward to sharing experiences between Champions and learning f
 ## Adam Sparks - Mentor
 
 {{< figure src = "/img/team/adam-sparks.jpg" class = "pull-left" width = "300" alt = "Profile photo of Adam Sparks" caption = "<center><strong>Adam Sparks</strong></center>">}}
-Adam leads a research group for the Department of Primary Industries and Regional Development in Western Australia, Australia that conducts research in the areas of agricultural systems modelling and climate change, maintains a weather station network and provides biometry (statistical) support for the department. 
+I lead a research group for the Department of Primary Industries and Regional Development (DPIRD) of Western Australia in Perth, WA, Australia that conducts research in the areas of agricultural systems modelling and climate change, maintains a weather station network and provides biometry (statistical) support for the department.
 
-He is a co-founder of [Open Plant Pathology](https://openplantpathology.org/), and is currently serving as an editor for rOpenSci. He has authored or co-authored more than seven R packages for CRAN and maintains one registered Julia package. 
+I'm a co-founder of [Open Plant Pathology](https://openplantpathology.org/), and currently serve as an editor for rOpenSci.
+I have authored or co-authored more than seven R packages for CRAN and maintain one registered Julia package.
 
-Adam was born in Indiana, USA and earned his undergraduate degree in agronomy from Purdue University, a graduate certificate in geographic information science and his PhD in plant pathology on the epidemiology and ecology of plant pathogens from Kansas State University in the USA. After immigrating to Australia, he is now usually found in Perth, WA, Australia these days.
+I was born in Indiana, USA and earned an undergraduate degree in agronomy from Purdue University, a graduate certificate in geographic information science (GIS) and my PhD in plant pathology on the epidemiology and ecology of plant pathogens from Kansas State University in the USA.
+Initially, when I moved to Australia I lived in Queensland for five years and more recently I became a naturalized citizen, and I am now usually found in Perth, WA, Australia these days.
+
+I'm excited for the Champions program because it's a great way for me to contribute back to the broader R community and more specifically rOpenSci, which has been so supportive in my development as an R user and developer.
 
 We're excited to have both Pao and Adam be part of the Champions program and can't wait to see what this partnership yields. Stay-tuned for the next series of introductions 😉 .
