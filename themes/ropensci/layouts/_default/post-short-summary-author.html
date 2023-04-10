@@ -1,11 +1,12 @@
 <div class="row">
-  <div class="col-md-2 text-md-right">
-    <div class="author-blog-date">
-      {{ .Date | time.Format ":date_full" }}
-    </div>
-  </div>
-  <div class="col-md-8 session-info">
+
+  <div class="col-md-9 session-info">
     <a href="{{ .RelPermalink }}" class="session-title">{{ .Title }}</a>
     <p class="author-blog-date">{{ with.Params.author }}{{ if ne (substr (jsonify . ) 0 1) "[" }}{{ . }}{{ else }}{{ delimit . ", " }}{{ end }}{{ end }}</p>
+  </div>
+  <div class="col-md-3 text-md-right">
+    <div class="author-blog-date">
+      {{ .Date | time.Format "January 2, 2006" }}
+    </div>
   </div>
 </div>
