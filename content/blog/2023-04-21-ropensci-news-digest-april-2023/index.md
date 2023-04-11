@@ -47,6 +47,20 @@ In previous posts we already explained [how to create your personal CRAN-like re
 
 All in all, R-universe provides a great way to [discover and explore many packages](/blog/2023/02/27/runiverse-discovering/).
 
+## Help us put together the rOpenSci Community Call calendar for the year!
+
+After a break, we have resumed our community calls.  🎉  
+And we want to know what topics **you** would like us to cover. 
+
+We hold [Community Calls](/commcalls/) every 3 months to share knowledge that is relevant to our community and consistent with [our vision and mission](/about/). These are free and open for anyone to attend and provide opportunities for us to connect with rOpenSci community members around the world.
+
+We’ve [opened an issue in this repository for each topic we’re considering](https://github.com/ropensci-org/community-calls/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc). We'd like **your input and "votes"** on these, and **your suggestions for other topics** we haven't though of.
+
+We will also be very grateful if you suggest speakers, resources, or encourage others to weigh in by sharing the link to your favorite topic.
+
+You can [read more details on our community calls repository](https://github.com/ropensci-org/community-calls). 
+
+We look forward to hearing your ideas. Let's build the schedule together.     
 
 ### Coworking
 
