@@ -22,7 +22,11 @@ Meet **Victor Ordu** from Nigeria and **Laura DeCicco** from United States!
 
 {{< figure src = "/img/team/victor-ordu-mentee.jpg" class = "pull-left" width = "300" alt = "Profile photo of Victor Ordu" caption = "<center><strong>Victor Ordu</strong></center>">}}
 
+Victor Ordu is a medical doctor with many years of experience in the Nigerian healthcare space. Having spent the first ten years of his career in clinical medicine he found a niche in health policy and environmental health regulation when he switched to the public health domain. 
 
+Victor has worked in various capacities in both the public and private sectors including as a field consultant for the Global Polio Eradication Initiative in the WHO EMRO Region. Public health exposed him to the centrality of data management in determining health outcomes.  The quest for the right tooling for the job began with EpiInfo and SPSS until he discovered R and instantly fell in love with the language. Since then he has not looked back. 
+
+Now an independent consultant for the UN and international NGOs working in Nigeria, R has been the focus of much of his work. He also conducts R training programs for public and private organizations in Nigeria. Victor is an alumnus of the University of Nigeria and has also acquired certifications from the University of Heidelberg (Germany), the World Bank Institute, and Galilee Management Institute (Israel), to mention a few. He is an active member of the R community and has authored R packages that have found great use among R enthusiasts worldwide.
 
 </br>
 
@@ -30,6 +34,6 @@ Meet **Victor Ordu** from Nigeria and **Laura DeCicco** from United States!
 
 {{< figure src = "/img/team/lukas-mentor.jpeg" class = "pull-left" width = "300" alt = "Profile photo of Laura DeCicco" caption = "<center><strong>Laura DeCicco</strong></center>">}}
 
+Laura comes from Madison, WI USA. She works for the United States Geological Survey developing and maintaining several R packages. She is excited to be a mentor for the inaugural cohort of rOpenSci Champions.
 
-
-We're excited to have both xxxx and xxx be part of the Champions program and can't wait to see what this partnership yields. Stay-tuned for the next series of introductions 😉 .
+We're excited to have Victor's project on the Champions program and Laura as his mentor.  We can't wait to see the results of the work of this team. Stay-tuned for the next team introduction 😉 .
