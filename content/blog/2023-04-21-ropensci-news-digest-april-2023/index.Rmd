@@ -503,9 +503,9 @@ format_post <- function(dir) {
     )
   }
   
-  if (length(dir > 1)) {
-    other_langs <- dir[which(dir[["language"]] != main_language),]
-    other_langs <- split(other_langs, sort(as.numeric(rownames(other_langs))))
+  other_langs <- dir[which(dir[["language"]] != main_language),]
+  other_langs <- split(other_langs, sort(as.numeric(rownames(other_langs))))
+  if (length(other_langs) > 0) {
     other_langs_text <- purrr::map_chr(
       other_langs,
       ~ sprintf("<a href='%s' lang='%s'>%s (%s)</a>", .x[["url"]], .x[["language"]], .x[["title"]], .x[["language"]])
