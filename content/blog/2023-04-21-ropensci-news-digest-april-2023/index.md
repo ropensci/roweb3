@@ -7,7 +7,7 @@ slug: ropensci-news-digest-april-2023
 categories: []
 tags:
   - newsletter
-description: Interview of Athanasia Monika Mowinckel, multilingual blog, coworking, new packages and package news
+description: Interview of Athanasia Monika Mowinckel, multilingual blog, coworking, R-universe, new packages and package news
 params:
   last_newsletter: '2023-03-17'
 ---
@@ -38,6 +38,15 @@ You can find all posts in Spanish in <https://ropensci.org/es/archive> (and the 
 From any post that has a translation, the sidebar on the right (or... at the bottom if you're reading on mobile!) has a link to translations of the post, see this [example](/blog/2023/02/28/r-universe-stars-2-en/).
 
 We plan to improve the multilingualism of our website over time.
+
+### 18.000 packages tracked on R-universe!
+
+Currently r-universe is tracking and indexing of over 18.000 R packages! These are a mix of packages found on popular networks like [CRAN](https://cran.r-project.org/) or [Bioconductor](https://www.bioconductor.org/), and packages that were registered by users.
+
+In previous posts we already explained [how to create your personal CRAN-like repository](/blog/2021/06/22/setup-runiverse/) and publish packages on r-universe yourself. A new post explains the other part: how the scraper [automatically finds packages on CRAN and Bioconducto/blog/2023/04/03/cran-to-git/r]() that should be included in r-universe.
+
+All in all, R-universe provides a great way to [discover and explore many packages](/blog/2023/02/27/runiverse-discovering/).
+
 
 ### Coworking
 
@@ -87,17 +96,17 @@ There are thirteen recently closed and active submissions and 2 submissions on h
 
     * [concstats](https://github.com/ropensci/software-review/issues/559), Market Structure, Concentration and Inequality Measures. Submitted by [Andreas Schneider](https://github.com/schneiderpy). 
 
-* Two at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
-
-     * [wmm](https://github.com/ropensci/software-review/issues/522), World Magnetic Model. Submitted by [Will Frierson](https://github.com/wfrierson). 
-
-    * [octolog](https://github.com/ropensci/software-review/issues/502), Better Github Action Logging. Submitted by [Jacob Wujciak-Jens](https://github.com/assignUser). 
-
-* Four at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
+* Three at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
 
      * [birdsize](https://github.com/ropensci/software-review/issues/577), Estimate Avian Body Size Distributions. Submitted by [Renata Diaz](https://diazrenata.github.io/home/). 
 
-    * [CRediTas](https://github.com/ropensci/software-review/issues/576), Generate CRediT Author Statements. Submitted by [Josep Pueyo-Ros](https://github.com/jospueyo). 
+    * [wmm](https://github.com/ropensci/software-review/issues/522), World Magnetic Model. Submitted by [Will Frierson](https://github.com/wfrierson). 
+
+    * [octolog](https://github.com/ropensci/software-review/issues/502), Better Github Action Logging. Submitted by [Jacob Wujciak-Jens](https://github.com/assignUser). 
+
+* Three at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
+
+     * [CRediTas](https://github.com/ropensci/software-review/issues/576), Generate CRediT Author Statements. Submitted by [Josep Pueyo-Ros](https://github.com/jospueyo). 
 
     * [dwctaxon](https://github.com/ropensci/software-review/issues/574), Tools for Working with Darwin Core Taxon Data. Submitted by [Joel Nitta](https://joelnitta.com). 
 
@@ -125,7 +134,19 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 
 
+### Software Review
+
+* [waywiser is Now a Part of rOpenSci](/blog/2023/04/21/ropensci-news-digest-april-2023) by Mike Mahoney. Plus version 0.3.0 now on CRAN, and a new preprint. Other languages: .
+
+### Other topics
+
 * [Meeting the Stars of the R-Universe: Researching Our Brain with the Magic of the R-Universe](/blog/2023/04/21/ropensci-news-digest-april-2023) by Yanina Bellini Saibene, Alejandra Bellini, Lucio Casalla, and Steffi LaZerte. Working with the human brain requires specific software and complex developments, however R appears as the natural way to collect hundreds of data that need to be analyzed and the R-Universe as the most friendly place to share and invite to collaborate. Our third stop bring us to __Norway__ to talk with __Athanasia Monika Mowinckel__. Other languages: <a href='/es/blog/2023/03/30/r-universe-stars-3-es' lang='es'>Conociendo a las estrellas del Universo R: Investigando nuestro cerebro con la magia del universo R (es)</a>.
+
+
+
+### Tech Notes
+
+* [How r-universe searches for packages on CRAN / Bioconductor](/blog/2023/04/21/ropensci-news-digest-april-2023) by Jeroen Ooms. How r-universe searches for, and includes, packages on CRAN / Bioconductor that are available on GitHub or GitLab or R-forge. Other languages: .
 
 <!-- ## Use cases
 

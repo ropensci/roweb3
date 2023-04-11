@@ -7,7 +7,7 @@ slug: ropensci-news-digest-april-2023
 categories: []
 tags:
   - newsletter
-description: Interview of Athanasia Monika Mowinckel, multilingual blog, coworking, new packages and package news
+description: Interview of Athanasia Monika Mowinckel, multilingual blog, coworking, R-universe, new packages and package news
 params:
   last_newsletter: '2023-03-17'
 ---
@@ -57,6 +57,15 @@ You can find all posts in Spanish in <https://ropensci.org/es/archive> (and the 
 From any post that has a translation, the sidebar on the right (or... at the bottom if you're reading on mobile!) has a link to translations of the post, see this [example](/blog/2023/02/28/r-universe-stars-2-en/).
 
 We plan to improve the multilingualism of our website over time.
+
+### 18.000 packages tracked on R-universe!
+
+Currently r-universe is tracking and indexing of over 18.000 R packages! These are a mix of packages found on popular networks like [CRAN](https://cran.r-project.org/) or [Bioconductor](https://www.bioconductor.org/), and packages that were registered by users.
+
+In previous posts we already explained [how to create your personal CRAN-like repository](/blog/2021/06/22/setup-runiverse/) and publish packages on r-universe yourself. A new post explains the other part: how the scraper [automatically finds packages on CRAN and Bioconducto/blog/2023/04/03/cran-to-git/r]() that should be included in r-universe.
+
+All in all, R-universe provides a great way to [discover and explore many packages](/blog/2023/02/27/runiverse-discovering/).
+
 
 ### Coworking
 
