@@ -43,7 +43,7 @@ We plan to improve the multilingualism of our website over time.
 
 Currently r-universe is tracking and indexing of over 18.000 R packages! These are a mix of packages found on popular networks like [CRAN](https://cran.r-project.org/) or [Bioconductor](https://www.bioconductor.org/), and packages that were registered by users.
 
-In previous posts we already explained [how to create your personal CRAN-like repository](/blog/2021/06/22/setup-runiverse/) and publish packages on r-universe yourself. A new post explains the other part: how the scraper [automatically finds packages on CRAN and Bioconducto/blog/2023/04/03/cran-to-git/r]() that should be included in r-universe.
+In previous posts we already explained [how to create your personal CRAN-like repository](/blog/2021/06/22/setup-runiverse/) and publish packages on r-universe yourself. A new post explains the other part: how the scraper [automatically finds packages on CRAN and Bioconductor](/blog/2023/04/03/cran-to-git/) that should be included in r-universe.
 
 All in all, R-universe provides a great way to [discover and explore many packages](/blog/2023/02/27/runiverse-discovering/).
 
@@ -90,9 +90,11 @@ The following sixteen packages have had an update since the last newsletter: [co
 
 There are thirteen recently closed and active submissions and 2 submissions on hold. Issues are at different stages: 
 
-* Two at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
+* Three at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
 
-     * [predictNMB](https://github.com/ropensci/software-review/issues/566), Evaluate Clinical Prediction Models by Net Monetary Benefit. Submitted by [Rex Parsons](https://rwparsons.github.io/).  (Stats).
+     * [CRediTas](https://github.com/ropensci/software-review/issues/576), Generate CRediT Author Statements. Submitted by [Josep Pueyo-Ros](https://github.com/jospueyo). 
+
+    * [predictNMB](https://github.com/ropensci/software-review/issues/566), Evaluate Clinical Prediction Models by Net Monetary Benefit. Submitted by [Rex Parsons](https://rwparsons.github.io/).  (Stats).
 
     * [concstats](https://github.com/ropensci/software-review/issues/559), Market Structure, Concentration and Inequality Measures. Submitted by [Andreas Schneider](https://github.com/schneiderpy). 
 
@@ -104,11 +106,9 @@ There are thirteen recently closed and active submissions and 2 submissions on h
 
     * [octolog](https://github.com/ropensci/software-review/issues/502), Better Github Action Logging. Submitted by [Jacob Wujciak-Jens](https://github.com/assignUser). 
 
-* Three at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
+* Two at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 
-     * [CRediTas](https://github.com/ropensci/software-review/issues/576), Generate CRediT Author Statements. Submitted by [Josep Pueyo-Ros](https://github.com/jospueyo). 
-
-    * [dwctaxon](https://github.com/ropensci/software-review/issues/574), Tools for Working with Darwin Core Taxon Data. Submitted by [Joel Nitta](https://joelnitta.com). 
+     * [dwctaxon](https://github.com/ropensci/software-review/issues/574), Tools for Working with Darwin Core Taxon Data. Submitted by [Joel Nitta](https://joelnitta.com). 
 
     * [dfms](https://github.com/ropensci/software-review/issues/556), Dynamic Factor Models. Submitted by [Sebastian Krantz](https://github.com/SebKrantz). 
 
