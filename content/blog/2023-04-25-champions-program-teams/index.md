@@ -31,6 +31,6 @@ I’ll be working on package to ease the use of geospatial data for Microplannin
 
 {{< figure src = "/img/team/christina-maimone-mentor.jpg" class = "pull-left" width = "300" alt = "Profile photo of Christina Maimone" caption = "<center><strong>Christina Maimone</strong></center>">}}
 
-
+Christina Maimone is a mentor in the Champions Program.  She leads a team of data scientists who support researchers at Northwestern University in the United States, as well as teaching in the Health Analytics program.  Her background is in computational social science, with a PhD in political science and MS in statistics from Stanford University.  She has been using and teaching R for over 20 years.  Christina is active in the research software and research computing communities as a member of the US Research Software Engineer Association (US-RSE) Steering Committee, co-chair of the CaRCC Research Computing and Data Professionalization working group, and a reviewer for JOSS.
 
 We're excited to have both xxx and xxx be part of the Champions program and can't wait to see what this partnership yields. Stay-tuned for the next series of introductions 😉 .
