@@ -44,4 +44,4 @@ Initially, when I moved to Australia I lived in Queensland for five years and mo
 
 I'm excited for the Champions program because it's a great way for me to contribute back to the broader R community and more specifically rOpenSci, which has been so supportive in my development as an R user and developer.
 
-We're excited to have both Pao and Adam be part of the Champions program and can't wait to see what this partnership yields. Stay-tuned for the next series of introductions 😉 .
+_We're excited to have both Pao and Adam be part of the Champions program and can't wait to see what this partnership yields. Stay-tuned for the next series of introductions_ 😉 .
