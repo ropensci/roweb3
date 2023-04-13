@@ -3,6 +3,18 @@ baseurl = "https://ropensci.org/"
 title = "rOpenSci - open tools for open science"
 theme = "ropensci"
 
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "(^|/)renv$", "renv\\.lock$", "_cache$", "index\\.html"]
+footnotereturnlinkcontents = "↩"
+buildFuture = true
+preserveTaxonomyNames = true
+pygmentsUseClasses=true
+enableEmoji=true
+
+paginate = 5
+paginatePath = "page"
+rssLimit = 20
+
 DefaultContentLanguage = "en"
 [languages]
   [languages.en]
@@ -18,19 +30,6 @@ DefaultContentLanguage = "en"
     languageName = "Français"
     weight = 3
 
-
-googleAnalytics = "UA-462421-6"
-disqusShortname = ""
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "(^|/)renv$", "renv\\.lock$", "_cache$", "index\\.html"]
-footnotereturnlinkcontents = "↩"
-buildFuture = true
-preserveTaxonomyNames = true
-pygmentsUseClasses=true
-enableEmoji=true
-
-paginate = 5
-paginatePath = "page"
-rssLimit = 20
 
 [permalinks]
     blog = "/blog/:year/:month/:day/:slug/"
