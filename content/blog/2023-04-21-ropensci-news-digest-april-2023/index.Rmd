@@ -166,7 +166,7 @@ old <- dplyr::filter(
 
 new <- dplyr::filter(
   registry,
-  !package %in% c("sofa", old$package),
+  !package %in% c("sofa", "geojson", old$package),
   !grepl("ropenscilabs\\/", url),
   !grepl("ropensci-archive\\/", url)
 )
