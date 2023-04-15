@@ -21,7 +21,13 @@ Meet **Bilikisu Wunmi Olatunji** from Nigeria and **Christina Maimone** from Uni
 ## Bilikisu Wunmi Olatunji - Champion
 
 {{< figure src = "/img/team/bilikisu-wunmi-olatunji-mentee.jpeg" class = "pull-left" width = "300" alt = "Profile photo of Bilikisu Wunmi Olatunji" caption = "<center><strong>Bilikisu Wunmi Olatunji</strong></center>">}}
-Bilikisu Wunmi Olatunji, MSc., University of Liverpool, UK. I’m a Data Scientist and RShiny Developer from Nigeria based in the country’s capital city, Abuja. I’m a certified RStudio Instructor for Tidyverse and R Shiny. I’m also. the founder and co-organizer of Abuja R Users Group and R-Ladies Abuja.  My interest is in geospatial data science and I have been working on several related projects using R. As an independent consultant, I’m a certified Scrum Master, Product Owner, and Agile Coach.
+Bilikisu Wunmi Olatunji, MSc., University of Liverpool, UK. I'm a Data
+Scientist and RShiny Developer from Nigeria based in the country's capital
+city, Abuja. I'm a certified RStudio Instructor for Tidyverse and R Shiny.
+
+I'm also the founder and co-organizer of Abuja R Users Group and R-Ladies
+Abuja. My interest is in geospatial data science and I have been working on
+several related projects using R. 
 
 I’ll be working on package to ease the use of geospatial data for Microplanning in public health. I’ll also be volunteering on other projects to strengthen the r open science community.
 
