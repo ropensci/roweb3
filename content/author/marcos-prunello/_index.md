@@ -1,7 +1,7 @@
 ---
 name: Marcos Prunello
 link: 
-bio: rOpenSci Champion 
+bio: School of Statistics at the National University of Rosario, Argentina - rOpenSci Champion 
 twitter: mrqtsp
 github: mpru
 ---
