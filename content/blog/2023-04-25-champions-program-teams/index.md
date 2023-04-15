@@ -29,7 +29,9 @@ I'm also the founder and co-organizer of Abuja R Users Group and R-Ladies
 Abuja. My interest is in geospatial data science and I have been working on
 several related projects using R. 
 
-I’ll be working on package to ease the use of geospatial data for Microplanning in public health. I’ll also be volunteering on other projects to strengthen the r open science community.
+I'll be working on a package to ease the
+use of geospatial data for Microplanning in public health. I'll also be volunteering on other projects to strengthen the R open science community.
+
 
 </br>
 
