@@ -21,7 +21,7 @@ Meet **Bilikisu Wunmi Olatunji** from Nigeria and **Christina Maimone** from Uni
 ## Bilikisu Wunmi Olatunji - Champion
 
 {{< figure src = "/img/team/bilikisu-wunmi-olatunji-mentee.jpeg" class = "pull-left" width = "300" alt = "Profile photo of Bilikisu Wunmi Olatunji" caption = "<center><strong>Bilikisu Wunmi Olatunji</strong></center>">}}
-Bilikisu Wunmi Olatunji, MSc., University of Liverpool, UK. I'm a Data
+I'm a Data
 Scientist and RShiny Developer from Nigeria based in the country's capital
 city, Abuja. I'm a certified RStudio Instructor for Tidyverse and R Shiny.
 
