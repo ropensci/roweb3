@@ -219,6 +219,7 @@ present_one <- function(package) {
     author_string,
     stringr::str_remove(stringr::str_squish(package$details), "\\.$")
   )
+  string <- sub("make more informed decisions.*", "make more informed decisions.", string)
   
   if (package$on_cran) {
     string <- paste0(

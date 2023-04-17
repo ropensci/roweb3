@@ -26,7 +26,7 @@ Now let's dive into the activity at and around rOpenSci!
 
 Knowing our community's stories helps us to learn about the people behind our software, brings us closer and offers us new opportunities. To share some of these community stories, we created the rOpenSci interview series [_"Meeting the stars of the R-Universe"_](/tags/r-universe-stars/).
 
-Working with the human brain requires specific software and complex developments, however R appears as the natural way to collect hundreds of data that need to be analyzed and the R-Universe as the most friendly place to share and invite to collaborate. Our third stop bring us to Norway to talk with [Athanasia Monika Mowinckel](/blog/2023/03/30/r-universe-stars-3-en/).
+Working with the human brain requires specific software and complex developments. However R appears to be the natural way to collect and analyze the huge amount of data needed, and the R-Universe the most friendly place to share and invite collaborations. Our third stop brings us to Norway to talk with [Athanasia Monika Mowinckel](/blog/2023/03/30/r-universe-stars-3-en/).
 You can also read the post in [Spanish](/es/blog/2023/03/30/r-universe-stars-3-es/).
 
 
@@ -37,30 +37,30 @@ We've started adding actual multilingual infrastructure to our website.
 You can find all posts in Spanish in <https://ropensci.org/es/archive> (and the lone French post in <https://ropensci.org/fr/archive>).
 From any post that has a translation, the sidebar on the right (or... at the bottom if you're reading on mobile!) has a link to translations of the post, see this [example](/blog/2023/02/28/r-universe-stars-2-en/).
 
-We plan to improve the multilingualism of our website over time.
+Over time we plan to further improve the multilingualism of our website.
 
-### 18.000 packages tracked on R-universe!
+### 18,000 packages tracked on R-Universe!
 
-Currently r-universe is tracking and indexing of over 18.000 R packages! These are a mix of packages found on popular networks like [CRAN](https://cran.r-project.org/) or [Bioconductor](https://www.bioconductor.org/), and packages that were registered by users.
+Currently R-Universe is tracking and indexing over 18,000 R packages! These are a mix of packages found on popular networks like [CRAN](https://cran.r-project.org/) or [Bioconductor](https://www.bioconductor.org/), and packages that were registered by users.
 
-In previous posts we already explained [how to create your personal CRAN-like repository](/blog/2021/06/22/setup-runiverse/) and publish packages on r-universe yourself. A new post explains the other part: how the scraper [automatically finds packages on CRAN and Bioconductor](/blog/2023/04/03/cran-to-git/) that should be included in r-universe.
+In previous posts we explained [how to create your personal CRAN-like repository](/blog/2021/06/22/setup-runiverse/) and publish packages on R-Universe yourself. A new post explains the other part: how the scraper [automatically finds packages on CRAN and Bioconductor](/blog/2023/04/03/cran-to-git/) to include in the R-Universe.
 
-All in all, R-universe provides a great way to [discover and explore many packages](/blog/2023/02/27/runiverse-discovering/).
+All in all, R-Universe provides a great way to [discover and explore many packages](/blog/2023/02/27/runiverse-discovering/)!
 
-## Help us put together the rOpenSci Community Call calendar for the year!
+### Help us put together the rOpenSci Community Call calendar for the year!
 
-After a break, we have resumed our community calls.  🎉  
-And we want to know what topics **you** would like us to cover. 
+We've had [some](https://ropensci.org/commcalls/oct2022-champions/) [great](https://ropensci.org/commcalls/jan2023-targets/) community calls lately,  🎉  
+and now we'd like to know what topics **you** would like us to cover in the future!
 
-We hold [Community Calls](/commcalls/) every 3 months to share knowledge that is relevant to our community and consistent with [our vision and mission](/about/). These are free and open for anyone to attend and provide opportunities for us to connect with rOpenSci community members around the world.
+We hold [Community Calls](/commcalls/) about every 3 months to share knowledge that is relevant to our community and consistent with [our vision and mission](/about/). These are free and open for anyone to attend and provide opportunities for us to connect with rOpenSci community members around the world.
 
-We’ve [opened an issue in this repository for each topic we’re considering](https://github.com/ropensci-org/community-calls/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc). We'd like **your input and "votes"** on these, and **your suggestions for other topics** we haven't though of.
+We’ve [opened an issue in this repository for each topic we’re considering](https://github.com/ropensci-org/community-calls/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc). We'd like **your input and "votes"** on these, and **your suggestions for other topics** we haven't thought of.
 
 We will also be very grateful if you suggest speakers, resources, or encourage others to weigh in by sharing the link to your favorite topic.
 
 You can [read more details on our community calls repository](https://github.com/ropensci-org/community-calls). 
 
-We look forward to hearing your ideas. Let's build the schedule together.     
+We look forward to hearing your ideas. Let's build the schedule together!    
 
 ### Coworking
 
@@ -79,6 +79,11 @@ And remember, you can always cowork independently on work related to R, work on 
     
 \* in the northern hemisphere at least, otherwise, give them a good *fall* cleaning!
 
+* Tuesday, June 6th, 9:00 Australia Western / 01:00 UTC ["Integrating and merging datasets from different sources"](/events/coworking-2023-06/) *Hosted by community host [Cynthia Huang](/author/cynthia-huang) and [Steffi LaZerte](/author/steffi-lazerte/)*
+    - Spend time integrating datasets for your own work
+    - Explore how others tackle the problem of merging datasets from different sources or different data versions
+    - Talk to our community host and other attendees and discuss strategies for integrating datasets.
+    
 ## Software :package:
 
 ### New packages
@@ -86,11 +91,13 @@ And remember, you can always cowork independently on work related to R, work on 
 
 
 
-The following two packages recently became a part of our software suite:
+The following three packages recently became a part of our software suite:
 
-+ [concstats](https://docs.ropensci.org/concstats), developed by Andreas Schneider: Based on individual market shares of all participants in a market or space, the package offers a set of different structural and concentration measures frequently - and not so frequently - used in research and in practice. Measures can be calculated in groups or individually. The calculated measure or the resulting vector in table format should help practitioners make more informed decisions. Methods used in this package are from: 1. Chang, E. J., Guerra, S. M., de Souza Penaloza, R. A. & Tabak, B. M. (2005) "Banking concentration: the Brazilian case". 2. Cobham, A. and A. Summer (2013). "Is It All About the Tails? The Palma Measure of Income Inequality". 3. Garcia Alba Idunate, P. (1994). "Un Indice de dominancia para el analisis de la estructura de los mercados". 4. Ginevicius, R. and S. Cirba (2009). "Additive measurement of market concentration" <doi:10.3846/1611-1699.2009.10.191-198>. 5. Herfindahl, O. C. (1950), "Concentration in the steel industry" (PhD thesis). 6. Hirschmann, A. O. (1945), "National power and structure of foreign trade". 7. Melnik, A., O. Shy, and R. Stenbacka (2008), "Assessing market dominance" <doi:10.1016/j.jebo.2008.03.010>. 8. Palma, J. G. (2006). "Globalizing Inequality: Centrifugal and Centripetal Forces at Work". 9. Shannon, C. E. (1948). "A Mathematical Theory of Communication". 10. Simpson, E. H. (1949). "Measurement of Diversity" <doi:10.1038/163688a0>.  It is available on [CRAN]( https://CRAN.R-project.org/package=concstats). It has been [reviewed](https://github.com/ropensci/software-review/issues/559) by Sebastian Wojcik, and Christopher T. Kenny.
++ [concstats](https://docs.ropensci.org/concstats), developed by Andreas Schneider: Based on individual market shares of all participants in a market or space, the package offers a set of different structural and concentration measures frequently - and not so frequently - used in research and in practice. Measures can be calculated in groups or individually. The calculated measure or the resulting vector in table format should help practitioners make more informed decisions. It is available on [CRAN]( https://CRAN.R-project.org/package=concstats). It has been [reviewed](https://github.com/ropensci/software-review/issues/559) by Sebastian Wojcik, and Christopher T. Kenny.
 
-+ [predictNMB](https://docs.ropensci.org/predictNMB), developed by Rex Parsons together with Robin Blythe, and Adrian Barnett: Estimates when and where a model-guided treatment strategy may outperform a treat-all or treat-none approach by Monte Carlo simulation and evaluation of the Net Monetary Benefit (NMB). It has been [reviewed](https://github.com/ropensci/software-review/issues/566) by Emi Tanaka, and Tinula Kariyawasam.
++ [CRediTas](https://docs.ropensci.org/CRediTas), developed by Josep Pueyo-Ros: A tiny package to generate CRediT author statements (<https://credit.niso.org/>). It provides three functions: create a template, read it back and generate the CRediT author statement in a text file.  It is available on [CRAN]( https://CRAN.R-project.org/package=CRediTas). It has been [reviewed](https://github.com/ropensci/software-review/issues/576) by Marcelo S. Perlin, and João Martins.
+
++ [predictNMB](https://docs.ropensci.org/predictNMB), developed by Rex Parsons together with Robin Blythe, and Adrian Barnett: Estimates when and where a model-guided treatment strategy may outperform a treat-all or treat-none approach by Monte Carlo simulation and evaluation of the Net Monetary Benefit. Details can be viewed in Parsons et al. (2023) <doi:10.21105/joss.05328>.  It is available on [CRAN]( https://CRAN.R-project.org/package=predictNMB). It has been [reviewed](https://github.com/ropensci/software-review/issues/566) by Emi Tanaka, and Tinula Kariyawasam.
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
@@ -98,7 +105,7 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following seventeen packages have had an update since the last newsletter: [commonmark](https://docs.ropensci.org/commonmark "High Performance CommonMark and Github Markdown Rendering in R") ([`v1.9.0`](https://github.com/r-lib/commonmark/releases/tag/v1.9.0)), [chromer](https://docs.ropensci.org/chromer "Interface to Chromosome Counts Database API") ([`v0.4`](https://github.com/ropensci/chromer/releases/tag/v0.4)), [ckanr](https://docs.ropensci.org/ckanr "Client for the Comprehensive Knowledge Archive Network (CKAN) API") ([`v0.7.0`](https://github.com/ropensci/ckanr/releases/tag/v0.7.0)), [concstats](https://docs.ropensci.org/concstats "Market Structure, Concentration and Inequality Measures") ([`v0.1.6`](https://github.com/ropensci/concstats/releases/tag/v0.1.6)), [dbparser](https://docs.ropensci.org/dbparser "Drugs Databases Parser") ([`v2.0.1`](https://github.com/ropensci/dbparser/releases/tag/v2.0.1)), [drake](https://docs.ropensci.org/drake "A Pipeline Toolkit for Reproducible Computation at Scale") ([`7.13.5`](https://github.com/ropensci/drake/releases/tag/7.13.5)), [dynamite](https://docs.ropensci.org/dynamite "Bayesian Modeling and Causal Inference for Multivariate
+The following eighteen packages have had an update since the last newsletter: [commonmark](https://docs.ropensci.org/commonmark "High Performance CommonMark and Github Markdown Rendering in R") ([`v1.9.0`](https://github.com/r-lib/commonmark/releases/tag/v1.9.0)), [chromer](https://docs.ropensci.org/chromer "Interface to Chromosome Counts Database API") ([`v0.4`](https://github.com/ropensci/chromer/releases/tag/v0.4)), [ckanr](https://docs.ropensci.org/ckanr "Client for the Comprehensive Knowledge Archive Network (CKAN) API") ([`v0.7.0`](https://github.com/ropensci/ckanr/releases/tag/v0.7.0)), [concstats](https://docs.ropensci.org/concstats "Market Structure, Concentration and Inequality Measures") ([`v0.1.6`](https://github.com/ropensci/concstats/releases/tag/v0.1.6)), [dbparser](https://docs.ropensci.org/dbparser "Drugs Databases Parser") ([`v2.0.1`](https://github.com/ropensci/dbparser/releases/tag/v2.0.1)), [dittodb](https://docs.ropensci.org/dittodb "A Test Environment for Database Requests") ([`v0.1.5`](https://github.com/ropensci/dittodb/releases/tag/v0.1.5)), [drake](https://docs.ropensci.org/drake "A Pipeline Toolkit for Reproducible Computation at Scale") ([`7.13.5`](https://github.com/ropensci/drake/releases/tag/7.13.5)), [dynamite](https://docs.ropensci.org/dynamite "Bayesian Modeling and Causal Inference for Multivariate
     Longitudinal Data") ([`1.3.0`](https://github.com/ropensci/dynamite/releases/tag/1.3.0)), [ezknitr](https://docs.ropensci.org/ezknitr "Avoid the Typical Working Directory Pain When Using knitr") ([`v0.6.2`](https://github.com/ropensci/ezknitr/releases/tag/v0.6.2)), [git2r](https://docs.ropensci.org/git2r "Provides Access to Git Repositories") ([`v0.32.0`](https://github.com/ropensci/git2r/releases/tag/v0.32.0)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.9.2`](https://github.com/ropensci/nodbi/releases/tag/v0.9.2)), [predictNMB](https://docs.ropensci.org/predictNMB "Evaluate Clinical Prediction Models by Net Monetary Benefit") ([`v0.1.0`](https://github.com/ropensci/predictNMB/releases/tag/v0.1.0)), [qpdf](https://docs.ropensci.org/qpdf "Split, Combine and Compress PDF Files") ([`v1.3.2`](https://github.com/ropensci/qpdf/releases/tag/v1.3.2)), [rgbif](https://docs.ropensci.org/rgbif "Interface to the Global Biodiversity Information Facility API") ([`v3.7.7`](https://github.com/ropensci/rgbif/releases/tag/v3.7.7)), [rtweet](https://docs.ropensci.org/rtweet "Collecting Twitter Data") ([`v1.2.0`](https://github.com/ropensci/rtweet/releases/tag/v1.2.0)), [taxizedb](https://docs.ropensci.org/taxizedb "Tools for Working with Taxonomic Databases") ([`v0.3.1`](https://github.com/ropensci/taxizedb/releases/tag/v0.3.1)), [tinkr](https://docs.ropensci.org/tinkr "Cast (R)Markdown Files to XML and Back Again") ([`0.2.0`](https://github.com/ropensci/tinkr/releases/tag/0.2.0)), and [waywiser](https://docs.ropensci.org/waywiser "Ergonomic Methods for Assessing Spatial Models") ([`v0.3.0`](https://github.com/ropensci/waywiser/releases/tag/v0.3.0)).
 ## Software Peer Review
 
@@ -178,11 +185,11 @@ Explore [other use cases](/usecases) and [report your own](https://discuss.ropen
 
 If you're interested in maintaining any of the R packages below, you might enjoy reading our blog post [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/) (or listening to its discussion on the [R Weekly highlights podcast](https://rweekly.fireside.fm/111) hosted by Eric Nantz and Mike Thomas)!
 
-- **[rvertnet](https://cran.r-project.org/web/packages/rvertnet/index.html)**, Retrieve, map and summarize data from the VertNet.org archives (<http://vertnet.org/>). Functions allow searching by many parameters, including taxonomic names, places, and dates. In addition, there is an interface for conducting spatially delimited searches, and another for requesting large datasets via email. [Issue for volunteering](https://github.com/ropensci-archive/rvertnet/issues/71).
+- **[rvertnet](https://cran.r-project.org/web/packages/rvertnet/index.html)**, Retrieve, map and summarize data from the VertNet.org archives (<https://vertnet.org/>). Functions allow searching by many parameters, including taxonomic names, places, and dates. In addition, there is an interface for conducting spatially delimited searches, and another for requesting large datasets via email. [Issue for volunteering](https://github.com/ropensci-archive/rvertnet/issues/71).
 
 - **[natserv](https://cran.r-project.org/web/packages/natserv/index.html)**. Interface to NatureServe (<https://www.natureserve.org/>). Includes methods to get data, image metadata, search taxonomic names, and make maps. [Issue for volunteering](https://github.com/ropensci-archive/natserv/issues/29).
 
-- **[geojsonlint](https://cran.r-project.org/web/packages/geojsonlint/index.html)**, Tools for linting GeoJSON. Includes tools for interacting with the online tool <http://geojsonlint.com>, the Javascript library geojsonhint (<https://www.npmjs.com/package/geojsonhint>), and validating against a GeoJSON schema via the Javascript library (<https://www.npmjs.com/package/is-my-json-valid>). Some tools work locally while others require an internet connection. [Issue for volunteering](https://github.com/ropensci-archive/geojsonlint/issues/22).
+- **[geojsonlint](https://cran.r-project.org/web/packages/geojsonlint/index.html)**, Tools for linting GeoJSON. Includes tools for interacting with the online tool <https://geojsonlint.com>, the Javascript library geojsonhint (<https://www.npmjs.com/package/geojsonhint>), and validating against a GeoJSON schema via the Javascript library (<https://www.npmjs.com/package/is-my-json-valid>). Some tools work locally while others require an internet connection. [Issue for volunteering](https://github.com/ropensci-archive/geojsonlint/issues/22).
 
 - **[citesdb](https://docs.ropensci.org/citesdb/)**, a high-performance database of shipment-level CITES trade data. Provides convenient access to over 40 years and 20 million records of
 endangered wildlife trade data from the Convention on International Trade
@@ -206,7 +213,7 @@ A recent PR by Lukas Wallrich to rcrossref maintained by Najko Jahn illustrates 
 
 ### Deprecated data in a package with `delayedAssign()`
 
-If you need to change something like a function or function arguments in your package, you'll find many resources in say [rOpenSci dev guide](https://devguide.ropensci.org/evolution.html), or the [lifecycle package docs](https://lifecycle.r-lib.org/).
+If you need to change something like a function or function arguments in your package, you'll find many resources in, say, the [rOpenSci dev guide](https://devguide.ropensci.org/evolution.html), or the [lifecycle package docs](https://lifecycle.r-lib.org/).
 Now what if you want to deprecate a **dataset**?
 Read the [solution proposed by Matthijs Berends on Stack Overflow](https://stackoverflow.com/questions/33304651/data-deprecation-in-r-package/75192818#75192818), linking to [a 3-step method in Bioconductor guidance](https://contributions.bioconductor.org/deprecation.html#deprecate-dataset).
 Key is the usage of `delayedAssign()` to save a promise that will serve both a warning, and the data.
