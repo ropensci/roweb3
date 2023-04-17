@@ -14,7 +14,7 @@ tags:
   - r-universe-stars
 featured: true
 # The summary below will be used by e.g. Twitter cards
-description: "Working with the human brain requires specific software and complex developments, however R appears as the natural way to collect hundreds of data that need to be analyzed and the R-Universe as the most friendly place to share and invite to collaborate. Our third stop bring us to __Norway__ to talk with __Athanasia Monika Mowinckel__."
+description: "Working with the human brain requires specific software and complex developments. However R appears to be the natural way to collect and analyze the huge amount of data needed, and the R-Universe the most friendly place to share and invite collaborations. Our third stop brings us to Norway to talk with Athanasia Monika Mowinckel."
 
 ---
 
