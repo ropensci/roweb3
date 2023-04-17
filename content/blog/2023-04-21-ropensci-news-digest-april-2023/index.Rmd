@@ -45,7 +45,7 @@ Now let's dive into the activity at and around rOpenSci!
 
 Knowing our community's stories helps us to learn about the people behind our software, brings us closer and offers us new opportunities. To share some of these community stories, we created the rOpenSci interview series [_"Meeting the stars of the R-Universe"_](/tags/r-universe-stars/).
 
-Working with the human brain requires specific software and complex developments, however R appears as the natural way to collect hundreds of data that need to be analyzed and the R-Universe as the most friendly place to share and invite to collaborate. Our third stop bring us to Norway to talk with [Athanasia Monika Mowinckel](/blog/2023/03/30/r-universe-stars-3-en/).
+Working with the human brain requires specific software and complex developments. However R appears to be the natural way to collect and analyze the huge amount of data needed, and the R-Universe the most friendly place to share and invite collaborations. Our third stop brings us to Norway to talk with [Athanasia Monika Mowinckel](/blog/2023/03/30/r-universe-stars-3-en/).
 You can also read the post in [Spanish](/es/blog/2023/03/30/r-universe-stars-3-es/).
 
 
@@ -56,30 +56,30 @@ We've started adding actual multilingual infrastructure to our website.
 You can find all posts in Spanish in <https://ropensci.org/es/archive> (and the lone French post in <https://ropensci.org/fr/archive>).
 From any post that has a translation, the sidebar on the right (or... at the bottom if you're reading on mobile!) has a link to translations of the post, see this [example](/blog/2023/02/28/r-universe-stars-2-en/).
 
-We plan to improve the multilingualism of our website over time.
+Over time we plan to further improve the multilingualism of our website.
 
-### 18.000 packages tracked on R-universe!
+### 18,000 packages tracked on R-Universe!
 
-Currently r-universe is tracking and indexing of over 18.000 R packages! These are a mix of packages found on popular networks like [CRAN](https://cran.r-project.org/) or [Bioconductor](https://www.bioconductor.org/), and packages that were registered by users.
+Currently R-Universe is tracking and indexing over 18,000 R packages! These are a mix of packages found on popular networks like [CRAN](https://cran.r-project.org/) or [Bioconductor](https://www.bioconductor.org/), and packages that were registered by users.
 
-In previous posts we already explained [how to create your personal CRAN-like repository](/blog/2021/06/22/setup-runiverse/) and publish packages on r-universe yourself. A new post explains the other part: how the scraper [automatically finds packages on CRAN and Bioconductor](/blog/2023/04/03/cran-to-git/) that should be included in r-universe.
+In previous posts we explained [how to create your personal CRAN-like repository](/blog/2021/06/22/setup-runiverse/) and publish packages on R-Universe yourself. A new post explains the other part: how the scraper [automatically finds packages on CRAN and Bioconductor](/blog/2023/04/03/cran-to-git/) to include in the R-Universe.
 
-All in all, R-universe provides a great way to [discover and explore many packages](/blog/2023/02/27/runiverse-discovering/).
+All in all, R-Universe provides a great way to [discover and explore many packages](/blog/2023/02/27/runiverse-discovering/)!
 
-## Help us put together the rOpenSci Community Call calendar for the year!
+### Help us put together the rOpenSci Community Call calendar for the year!
 
-After a break, we have resumed our community calls.  🎉  
-And we want to know what topics **you** would like us to cover. 
+We've had [some](https://ropensci.org/commcalls/oct2022-champions/) [great](https://ropensci.org/commcalls/jan2023-targets/) community calls lately,  🎉  
+and now we'd like to know what topics **you** would like us to cover in the future!
 
-We hold [Community Calls](/commcalls/) every 3 months to share knowledge that is relevant to our community and consistent with [our vision and mission](/about/). These are free and open for anyone to attend and provide opportunities for us to connect with rOpenSci community members around the world.
+We hold [Community Calls](/commcalls/) about every 3 months to share knowledge that is relevant to our community and consistent with [our vision and mission](/about/). These are free and open for anyone to attend and provide opportunities for us to connect with rOpenSci community members around the world.
 
-We’ve [opened an issue in this repository for each topic we’re considering](https://github.com/ropensci-org/community-calls/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc). We'd like **your input and "votes"** on these, and **your suggestions for other topics** we haven't though of.
+We’ve [opened an issue in this repository for each topic we’re considering](https://github.com/ropensci-org/community-calls/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc). We'd like **your input and "votes"** on these, and **your suggestions for other topics** we haven't thought of.
 
 We will also be very grateful if you suggest speakers, resources, or encourage others to weigh in by sharing the link to your favorite topic.
 
 You can [read more details on our community calls repository](https://github.com/ropensci-org/community-calls). 
 
-We look forward to hearing your ideas. Let's build the schedule together.     
+We look forward to hearing your ideas. Let's build the schedule together!    
 
 ### Coworking
 
@@ -98,6 +98,11 @@ And remember, you can always cowork independently on work related to R, work on 
     
 \* in the northern hemisphere at least, otherwise, give them a good *fall* cleaning!
 
+* Tuesday, June 6th, 9:00 Australia Western / 01:00 UTC ["Integrating and merging datasets from different sources"](/events/coworking-2023-06/) *Hosted by community host [Cynthia Huang](/author/cynthia-huang) and [Steffi LaZerte](/author/steffi-lazerte/)*
+    - Spend time integrating datasets for your own work
+    - Explore how others tackle the problem of merging datasets from different sources or different data versions
+    - Talk to our community host and other attendees and discuss strategies for integrating datasets.
+    
 ## Software :package:
 
 ### New packages
@@ -642,7 +647,7 @@ A recent PR by Lukas Wallrich to rcrossref maintained by Najko Jahn illustrates 
 
 ### Deprecated data in a package with `delayedAssign()`
 
-If you need to change something like a function or function arguments in your package, you'll find many resources in say [rOpenSci dev guide](https://devguide.ropensci.org/evolution.html), or the [lifecycle package docs](https://lifecycle.r-lib.org/).
+If you need to change something like a function or function arguments in your package, you'll find many resources in, say, the [rOpenSci dev guide](https://devguide.ropensci.org/evolution.html), or the [lifecycle package docs](https://lifecycle.r-lib.org/).
 Now what if you want to deprecate a **dataset**?
 Read the [solution proposed by Matthijs Berends on Stack Overflow](https://stackoverflow.com/questions/33304651/data-deprecation-in-r-package/75192818#75192818), linking to [a 3-step method in Bioconductor guidance](https://contributions.bioconductor.org/deprecation.html#deprecate-dataset).
 Key is the usage of `delayedAssign()` to save a promise that will serve both a warning, and the data.
