@@ -27,7 +27,7 @@
           {{ $runivurl := ( printf "https://%s.r-universe.dev" .Params.github )}}
           {{ $req := resources.GetRemote $runivurl }}
           {{ if $req }}
-          <a href="$runivurl"> <i class="fas fa-rocket"></i></a>
+          <a href="{{ $runivurl }}"> <i class="fas fa-rocket"></i></a>
           {{ end }}
           {{ end }}
           {{ end }}
