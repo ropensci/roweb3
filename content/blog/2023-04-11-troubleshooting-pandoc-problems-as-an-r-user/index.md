@@ -56,7 +56,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/RtmpMtRzoa/file37d8376caf04
+## /tmp/RtmpG1NFYX/file3ec12c624484
 ```
 
 ```r
@@ -85,7 +85,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/RtmpMtRzoa/file37d8376caf04
+## /tmp/RtmpG1NFYX/file3ec12c624484
 ```
 
 ```r
@@ -213,7 +213,7 @@ See how the "Important announcement" header becomes a h _2_ in the output.
 
 ### Variables
 
-[Variables](https://pandoc.org/MANUAL.html#variables) are the metadata you might be used to passing to Pandoc via YAML header (for R Markdown and Quarto).
+[Variables](https://pandoc.org/MANUAL.html#variables) are the metadata you might be used to passing to Pandoc via the YAML header (for R Markdown and Quarto).
 
 ### Templates
 
