@@ -13,7 +13,7 @@ tags:
   - pandoc
   - rmarkdown
   - publication
-description: "How to solve your Pandoc problems thanks to documentation reading, experimentation"
+description: "How to solve your Pandoc problems thanks to documentation reading, experimentation... and a bit of experience 😅 "
 ---
 
 Pandoc by John MacFarlane is a really useful tool: for instance, 
