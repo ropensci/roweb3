@@ -33,7 +33,7 @@ In this post, we gather resources and tips to help you troubleshoot Pandoc as an
 ## Pandoc 101
 
 Say we have a Markdown file and want to convert it to HTML.
-We can do it calling the [`pandoc::pandoc_convert()`](https://cderv.github.io/pandoc/reference/pandoc_convert.html) function that handily wraps Pandoc.
+We can do it from R calling the [`pandoc::pandoc_convert()`](https://cderv.github.io/pandoc/reference/pandoc_convert.html) function that handily wraps Pandoc. If you are rather a terminal first user, obviously [`pandoc` CLI tool](https://pandoc.org/MANUAL.html) is your friend. In the rest of the post, we will use the pandoc R 📦 for examples.
 
 ```{r}
 md_lines <- c(
