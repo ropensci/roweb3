@@ -13,14 +13,16 @@ tags:
   - pandoc
   - rmarkdown
   - publication
-description: "How to solve your Pandoc problems thanks to documentation reading, experimentation"
+  - quarto
+  - markdown
+description: "How to solve your Pandoc problems thanks to documentation reading, experimentation... and a bit of experience 😅 "
 ---
 
-Pandoc by John MacFarlane is a really useful tool: for instance, 
+The Pandoc CLI by [John MacFarlane](https://johnmacfarlane.net/) is a really useful tool: for instance, 
 rOpenSci community manager Yanina Bellini Saibene recently asked Maëlle whether she could convert a Google Document into a Quarto book.
 Maëlle solved the request with a combination of Pandoc (conversion from docx to HTML then to Markdown through [`pandoc::pandoc_convert()`](https://cderv.github.io/pandoc/reference/pandoc_convert.html)) and XPath.
 You can find the resulting experimental package [quartificate](https://github.com/ropenscilabs/quartificate) on GitHub.
-Pandoc is not only anecdotically useful: it's part of the [R Markdown](https://bookdown.org/yihui/rmarkdown-cookbook/) machinery, and powers [Quarto](https://quarto.org/).
+Pandoc is not only anecdotically useful: it's part of the [R Markdown](https://rmarkdown.rstudio.com/) machinery, and powers [Quarto](https://quarto.org/).
 So, whether you're juggling documents in various formats or simply trying to publish your reproducible analysis, you might have been using Pandoc, or maybe you _should_ be using Pandoc.
 
 Sometimes, all goes well, sometimes, you think of Pandoc because it seems to be the source of an error.
@@ -33,7 +35,7 @@ In this post, we gather resources and tips to help you troubleshoot Pandoc as an
 ## Pandoc 101
 
 Say we have a Markdown file and want to convert it to HTML.
-We can do it calling the [`pandoc::pandoc_convert()`](https://cderv.github.io/pandoc/reference/pandoc_convert.html) function that handily wraps Pandoc.
+We can do it from R calling the [`pandoc::pandoc_convert()`](https://cderv.github.io/pandoc/reference/pandoc_convert.html) function that handily wraps Pandoc. If you are rather a terminal first user, obviously [`pandoc` CLI tool](https://pandoc.org/MANUAL.html) is your friend. In the rest of the post, we will use the pandoc R 📦 for examples.
 
 
 ```r
@@ -54,7 +56,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/RtmpNB3hSZ/file1758a57186371
+## /tmp/RtmpMtRzoa/file37d8376caf04
 ```
 
 ```r
@@ -83,7 +85,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/RtmpNB3hSZ/file1758a57186371
+## /tmp/RtmpMtRzoa/file37d8376caf04
 ```
 
 ```r
@@ -135,6 +137,10 @@ Speaking of extensions! What is the basic vocabulary one needs to troubleshoot a
 ### Formats
 
 The format (doh) Pandoc converts from and to. There's an impressive list on [Pandoc homepage](https://pandoc.org/). docx, gfm (GitHub flavored Markdown), HTML, RTF...
+
+In Quarto and R Markdown you are by default[^default] expected to be writing Pandoc's Markdown which is a special flavour of Markdown.
+
+[^default]: So many things to customize! The format, the extensions (see below) of the format...
 
 ### Extension
 
@@ -207,17 +213,20 @@ See how the "Important announcement" header becomes a h _2_ in the output.
 
 ### Variables
 
-[Variables](https://pandoc.org/MANUAL.html#variables) are the metadata you might be used to passing to Pandoc via YAML metadata (for R Markdown and Quarto).
+[Variables](https://pandoc.org/MANUAL.html#variables) are the metadata you might be used to passing to Pandoc via YAML header (for R Markdown and Quarto).
 
 ### Templates
 
 If you ask Pandoc to create a reveal.js slidedeck, it will do so using its default [reveal.js template](https://github.com/jgm/pandoc-templates/blob/master/default.revealjs).
 The template is filled with your Markup content but also with the variables like author names.
 You can use [custom templates](https://pandoc.org/MANUAL.html#templates) by using the `--template` option.
+[pandoc::pandoc_export_template()](https://cderv.github.io/pandoc/reference/pandoc_export_template.html) will create a file with the default template for a version of Pandoc.
 
 ### Raw attributes
 
 Say you have raw HTML in your Markdown document. You can protect it from Pandoc parsing by wrapping it in a ["raw attribute"](https://pandoc.org/MANUAL.html#generic-raw-attribute). This is for instance used by [hugodown](https://github.com/r-lib/hugodown/pull/53) to protect Hugo shortcodes. 
+
+Be careful, this is part of the `raw_attribute` extension so might not be included by default, or supported for, your chosen format. 
 
 ### How to use these things?
 
@@ -264,7 +273,17 @@ You _could_ subscribe to [Pandoc mailing list](https://groups.google.com/g/pando
 But you might definitely need to comb through the [changelog](https://pandoc.org/releases.html) when noticing something amiss.
 
 Pay attention to the Pandoc version that you're using locally, on continuous integration, especially when something only works on your machine. 
-To know what Pandoc version you're running you can use [`pandoc::pandoc_version()`](https://cderv.github.io/pandoc/reference/pandoc_version.html).
+
+To know what Pandoc version you're running you can use...
+
+- `rmarkdown::pandoc_version()` which returns the version used by **rmarkdown**;
+- `quarto pandoc --version` (in a command line) which returns the version internal to Quarto;
+- [`pandoc::pandoc_version()`](https://cderv.github.io/pandoc/reference/pandoc_version.html) which returns the version for the default  pandoc (the active one, usually the most recent one among the pandoc version **installed with the R package**);
+- `pandoc::pandoc_system_version()` which returns the version of `pandoc` found in PATH;
+- `pandoc::pandoc_rstudio_version()` which returns the version of the Pandoc built in the IDE (could be different version of `rmarkdown::pandoc_version()` which could be one from PATH or `RSTUDIO_PANDOC` environment variable).
+
+So yes, paying attention to the Pandoc version does require some, hum, attention.
+
 With Quarto it is less of an issue as with say R Markdown since Quarto will pin a Pandoc version.
 You can imitate this behavior: if you have a Pandoc version that works well for your use case, just install that one on your production GitHub Actions workflow for instance.[^hugo]
 
@@ -277,10 +296,11 @@ The pandoc package also has very handly withr-like helpers to run code with a gi
 If reading the docs and experimenting doesn't get you where you need to be, what to do?
 - John MacFarlane's answers in GitHub issues can be enlightening. See this [example](https://github.com/jgm/pandoc/issues/6259#issuecomment-841859989).
 - You could scour, or participate in, the [Pandoc discussion mailing list](https://groups.google.com/g/pandoc-discuss).
-- If your problem is related to Pandoc for R Markdown or Quarto specifically, head over to the [Posit community forum](https://community.rstudio.com/).
+- If your problem is related to Pandoc for R Markdown or Quarto specifically, head over to the [Posit community forum](https://community.rstudio.com/) or their respective Github Repo.
 
 Or what if Pandoc is not enough for your use case?
 
+- [Quarto](https://quarto.org/) is in fact a very user friendly layer of Pandoc with a lot of additional features and new defaults to make Pandoc better for scientific publishing. So usually if Pandoc is not enough (or hard to use), go look at Quarto (which has projects, etc.). Quarto with .md file is a like a cleverer Pandoc (no computation or else, only like Pandoc some text to convert).
 - You could _build upon_ Pandoc.
 Christophe recommends learning about [Lua filters](https://pandoc.org/lua-filters.html). See also [Lua filters for Quarto](https://quarto.org/docs/extensions/filters.html);
 [Lua filters for R Markdown](https://bookdown.org/yihui/rmarkdown-cookbook/lua-filters.html).
@@ -290,7 +310,7 @@ Maëlle hasn't learnt about them yet, and tends to convert things into HTML then
 
 - The rarest case would be to open a Pandoc feature request.
 
-- You could use something else than Pandoc, like the [commonmark R package by Jeroen Ooms](https://docs.ropensci.org/commonmark/) or the [markdown package by Yihui Xie](https://github.com/rstudio/markdown) or the [tinkr package by Zhian Kamvar](https://docs.ropensci.org/tinkr/) that build upon it.
+- You could use something else than Pandoc, like the [commonmark R package by Jeroen Ooms](https://docs.ropensci.org/commonmark/) or the [markdown package by Yihui Xie](https://pkgs.rstudio.com/rmarkdown/articles/rmarkdown.html) or the [tinkr package by Zhian Kamvar](https://docs.ropensci.org/tinkr/) that build upon it.
 
 ## Conclusion
 
