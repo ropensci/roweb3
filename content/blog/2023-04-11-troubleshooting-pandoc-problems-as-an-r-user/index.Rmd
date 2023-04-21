@@ -233,7 +233,7 @@ The pandoc package also has very handly withr-like helpers to run code with a gi
 If reading the docs and experimenting doesn't get you where you need to be, what to do?
 - John MacFarlane's answers in GitHub issues can be enlightening. See this [example](https://github.com/jgm/pandoc/issues/6259#issuecomment-841859989).
 - You could scour, or participate in, the [Pandoc discussion mailing list](https://groups.google.com/g/pandoc-discuss).
-- If your problem is related to Pandoc for R Markdown or Quarto specifically, head over to the [Posit community forum](https://community.rstudio.com/).
+- If your problem is related to Pandoc for R Markdown or Quarto specifically, head over to the [Posit community forum](https://community.rstudio.com/) or their respective Github Repo.
 
 Or what if Pandoc is not enough for your use case?
 
