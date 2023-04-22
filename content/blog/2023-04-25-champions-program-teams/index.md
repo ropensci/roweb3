@@ -18,7 +18,7 @@ description: "Introducing Champions and Mentors - Bilikisu Wunmi Olatunji and Ch
 Meet **Bilikisu Wunmi Olatunji** from Nigeria and **Christina Maimone** from United States!
 
 
-## Bilikisu Wunmi Olatunji, MSc., University of Liverpool, UK - Champion
+## Bilikisu Wunmi Olatunji - Champion
 
 {{< figure src = "/img/team/bilikisu-wunmi-olatunji-mentee.jpeg" class = "pull-left" width = "300" alt = "Profile photo of Bilikisu Wunmi Olatunji" caption = "<center><strong>Bilikisu Wunmi Olatunji</strong></center>">}}
 I'm a Data
