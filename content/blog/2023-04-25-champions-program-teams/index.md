@@ -21,6 +21,7 @@ Meet **Bilikisu Wunmi Olatunji** from Nigeria and **Christina Maimone** from Uni
 ## Bilikisu Wunmi Olatunji - Champion
 
 {{< figure src = "/img/team/bilikisu-wunmi-olatunji-mentee.jpeg" class = "pull-left" width = "300" alt = "Profile photo of Bilikisu Wunmi Olatunji" caption = "<center><strong>Bilikisu Wunmi Olatunji</strong></center>">}}
+
 I'm a Data
 Scientist and RShiny Developer from Nigeria based in the country's capital
 city, Abuja. I'm a certified RStudio Instructor for Tidyverse and R Shiny and have a Master's of Science from the University of Liverpool, UK. 
@@ -34,6 +35,7 @@ use of geospatial data for Microplanning in public health. I'll also be voluntee
 
 
 </br>
+</br>
 
 ## Christina Maimone - Mentor
 
@@ -43,6 +45,6 @@ I am the associate director of research data services for Northwestern Universit
 
 I've been using and teaching R for over 20 years. My background is in computational social science. I have a PhD in political science and MS in statistics from Stanford University.
 
-I've been a reviewer for JOSS, but not for any rOpenSci packages yet, so the Champions program is a way for me to help contribute to the community. Building and maintaining communities is hard, so I'm happy to support efforts that encourage more people to actively engage and become new leaders. I hope to see more R developers active in the research software engineering community as well.
+I've been a reviewer for [JOSS](https://joss.theoj.org/), but not for any rOpenSci packages yet, so the Champions program is a way for me to help contribute to the community. Building and maintaining communities is hard, so I'm happy to support efforts that encourage more people to actively engage and become new leaders. I hope to see more R developers active in the research software engineering community as well.
 
 _We're excited to have both Bilikisu and Christina as part of the Champions program and can't wait to see what this partnership yields. Stay-tuned for the next series of introductions_ 😉 .
