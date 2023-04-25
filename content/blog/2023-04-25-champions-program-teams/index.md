@@ -26,8 +26,8 @@ I'm a Data
 Scientist and RShiny Developer from Nigeria based in the country's capital
 city, Abuja. I'm a certified RStudio Instructor for Tidyverse and R Shiny and have a Master's of Science from the University of Liverpool, UK. 
 
-I'm also the founder and co-organizer of Abuja R Users Group and R-Ladies
-Abuja. My interest is in geospatial data science and I have been working on
+I'm also the founder and co-organizer of [Abuja R Users Group](https://www.meetup.com/es/Abuja-R-User-Group-Meetup/) and 
+[R-Ladies Abuja](https://www.meetup.com/es/rladies-abuja/). My interest is in geospatial data science, and I have been working on
 several related projects using R. 
 
 I'll be working on a package to ease the
