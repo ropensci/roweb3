@@ -3,7 +3,7 @@ title: "rOpenSci Champions Program Teams: Meet Victor Ordu and Laura DeCicco"
 author:
   - Victor Ordu
   - Laura DeCicco
-date: '2023-04-20'
+date: '2023-05-11'
 tags:
   - community
   - champions program
@@ -36,4 +36,4 @@ Now an independent consultant for the UN and international NGOs working in Niger
 
 Laura comes from Madison, WI USA. She works for the United States Geological Survey developing and maintaining several R packages. She is excited to be a mentor for the inaugural cohort of rOpenSci Champions.
 
-We're excited to have Victor's project on the Champions program and Laura as his mentor.  We can't wait to see the results of the work of this team. Stay-tuned for the next team introduction 😉 .
+_We're excited to have Victor's project on the Champions program and Laura as his mentor.  We can't wait to see the results of the work of this team. Stay-tuned for the next team introduction_ .
