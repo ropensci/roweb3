@@ -1,7 +1,7 @@
 ---
 title: CRediTas is now part of rOpenSci
 author: "Josep Pueyo-Ros"
-date: "2023-04-26"
+date: "2023-04-28"
 slug: "creditas-is-now-part"
 tags:
 - tech notes
