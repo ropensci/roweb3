@@ -1,7 +1,7 @@
 ---
 title: CRediTas is now part of rOpenSci
 author: "Josep Pueyo-Ros"
-date: "2023-04-26"
+date: "2023-04-28"
 slug: "creditas-is-now-part"
 tags:
 - tech notes
@@ -52,10 +52,10 @@ Once the `cras_table` is populated, for instance:
 
 |Authors                | Conceptualization| Methodology| Software| Validation| Formal Analysis| Investigation| Resources| Data curation| Writing - original draft| Writing - review & editing| Visualization| Supervision| Project administration| Funding acquisition|
 |:----------------------|-----------------:|-----------:|--------:|----------:|---------------:|-------------:|---------:|-------------:|------------------------:|--------------------------:|-------------:|-----------:|----------------------:|-------------------:|
-|Friedrich Ratzel       |                 0|           0|        0|          0|               0|             0|         0|             0|                        0|                          1|             1|           0|                      0|                   0|
-|Pau Vidal de la Blache |                 1|           1|        0|          0|               1|             1|         0|             1|                        0|                          0|             0|           0|                      1|                   0|
+|Friedrich Ratzel       |                 0|           1|        0|          1|               1|             1|         1|             0|                        0|                          1|             0|           0|                      0|                   0|
+|Pau Vidal de la Blache |                 1|           0|        0|          0|               1|             1|         1|             0|                        0|                          0|             0|           1|                      0|                   1|
 |Pau Vila               |                 0|           0|        0|          0|               0|             0|         0|             0|                        0|                          0|             0|           0|                      0|                   0|
-|Élisée Reclus          |                 0|           0|        0|          0|               1|             1|         0|             1|                        1|                          0|             0|           1|                      0|                   1|
+|Élisée Reclus          |                 1|           0|        1|          0|               1|             0|         0|             0|                        1|                          0|             0|           1|                      1|                   1|
 
 Then, a text file can be generated following the CRediT author statement format:
 
@@ -66,7 +66,7 @@ cras_write(cras_table, textfile.txt, markdown = TRUE, quiet = TRUE)
 
 If you open the text file, you will find this:
 
-**Friedrich Ratzel:** Writing - review & editing, Visualization **Pau Vidal de la Blache:** Conceptualization, Methodology, Formal Analysis, Investigation, Data curation, Project administration **Élisée Reclus:** Formal Analysis, Investigation, Data curation, Writing - original draft, Supervision, Funding acquisition
+**Friedrich Ratzel:** Methodology, Validation, Formal Analysis, Investigation, Resources, Writing - review & editing **Pau Vidal de la Blache:** Conceptualization, Formal Analysis, Investigation, Resources, Supervision, Funding acquisition **Élisée Reclus:** Conceptualization, Software, Formal Analysis, Writing - original draft, Supervision, Project administration, Funding acquisition
 
 You can also print the statement directly in a Rmarkdown file using an inline chunk: `` `r
 cras_write(cras_table, markdown = TRUE)` ``.
