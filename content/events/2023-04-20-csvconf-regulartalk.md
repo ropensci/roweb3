@@ -8,6 +8,7 @@ location: 'CSV,Conf,v7, Buenos Aires'
 country: "Argentina" # emoji
 attendees:
   - Yanina Bellini Saibene
+  - Sandro Camargo
 resources: # can be added later, one entry per talk (don't add while still empty, add once there are resources)
   - title: "Tell me who you hang out with and I will tell you who you are. A collaborations analysis using social networks analysis"
     speaker: Yanina Bellini Saibene
