@@ -7,7 +7,7 @@ description: 'Communities of practice are spaces where people share knowledge an
 location: 'CSV,Conf,v7, Buenos Aires'
 country: "Argentina" # emoji
 attendees:
-  - Karthik Ram
+  - Yanina Bellini Saibene
 resources: # can be added later, one entry per talk (don't add while still empty, add once there are resources)
   - title: "Tell me who you hang out with and I will tell you who you are. A collaborations analysis using social networks analysis"
     speaker: Yanina Bellini Saibene
