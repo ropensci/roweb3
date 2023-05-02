@@ -22,7 +22,9 @@ Meet **Ghozayel Elotteebi** from Argentina and **Zebulun Arendsee** from United 
 
 {{< figure src = "/img/team/chozayel-elotteebi-mentee.jpg" class = "pull-left" width = "300" alt = "Profile photo of Ghozayel Elotteebi" caption = "<center><strong>Ghozayel Elotteebi</strong></center>">}}
 
+Hi, I'm Ghozayel Elotteebi, an [Open Science Community Saudi Arabia (OSCSA)] (https://osc-ksa.com/) member with an MA in applied linguistics. I'm based in the UK, completing my PhD at [the University of Nottingham] (https://www.nottingham.ac.uk/). 
 
+I've developed a new package called [Lextale] (https://ghozayel.github.io/Lextale/). To my knowledge, this is the first R package in the field of linguistics developed in Saudi Arabia and would be the first local contribution to [rOpenSci] (https://ropensci.org/). I would love to create a community of contributors around the packages and promote advocacy for a culture of data sharing and reusable software, especially from MENA regions. Being part of [rOpenSci] (https://ropensci.org/) is an opportunity for networking with other champions/mentors from around the world, a potential to support the community, share experiences, and contribute to the existing body of reproducible science.
 
 </br>
 
