@@ -22,7 +22,7 @@ Meet **Haydee Svab** and **Beatriz Milz** both from Brazil!
 
 {{< figure src = "/img/team/haydee-svab-mentee.jpeg" class = "pull-left" width = "300" alt = "Profile photo of Haydee Svab" caption = "<center><strong>Haydee Svab</strong></center>">}}
 
-I'm Haydee Svab, graduated in civil engineering, master of science - speciality transport and planning engineering. For the last few years I've been working as a researcher and consultant in my own company, ASK-AR. Our main projects deal with data analysis, smart cities, urban mobility and gender perspective. I was born and have always lived in Brazil, more specifically in São Paulo, where I founded the local RLadies chapter together with other amazing women. 
+I'm Haydee Svab, graduated in civil engineering, master of science - speciality transport and planning engineering. For the last few years I've been working as a researcher and consultant in my own company, ASK-AR. Our main projects deal with data analysis, smart cities, urban mobility and gender perspective. I was born and have always lived in Brazil, more specifically in São Paulo, where I founded the [local RLadies chapter](https://www.meetup.com/rladies-sao-paulo/) together with other amazing women. 
 
 Despite loving and  professionally working with the R language, I don't know how to make packages - and I always wanted to make one, with data and model derived from my master's dissertation. So, I saw in the Champion Program the opportunity to make that wish come true. 
 
@@ -38,7 +38,7 @@ Finally, I am super excited for the learning period we will have and to get to k
 
 My name is Beatriz Milz, and I am an R-Lady from São Paulo - Brazil. I am currently doing a Ph.D. in Environmental Science and also work as a Data Scientist and an R teacher at Curso-R. 
 
-I am a tidyverse instructor certified by RStudio, and a co-organizer of communities and events, such as R-Ladies São Paulo, Latin-R, and satRday São Paulo. I also [have a blog](https://beamilz.com/) where I write about R: 
+I am a tidyverse instructor certified by RStudio, and a co-organizer of communities and events, such as [R-Ladies São Paulo](https://rladies-sp.org/), [Latin-R](https://latin-r.com/), and [satRday São Paulo](https://saopaulo2019.satrdays.org/). I also [have a blog](https://beamilz.com/) where I write about R.
 
 I will be a mentor in this edition of the Champions program, and I hope to help 
 participants to create R packages and also review them for rOpenSci!
