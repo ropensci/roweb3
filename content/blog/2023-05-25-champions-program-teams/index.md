@@ -20,7 +20,7 @@ Meet **Ghozayel Elotteebi** from Argentina and **Zebulun Arendsee** from United 
 
 ## Ghozayel Elotteebi - Champion
 
-{{< figure src = "/img/team/marcos-prunello-mentee.jpg" class = "pull-left" width = "300" alt = "Profile photo of Ghozayel Elotteebi" caption = "<center><strong>Ghozayel Elotteebi</strong></center>">}}
+{{< figure src = "/img/team/chozayel-elotteebi-mentee.jpg" class = "pull-left" width = "300" alt = "Profile photo of Ghozayel Elotteebi" caption = "<center><strong>Ghozayel Elotteebi</strong></center>">}}
 
 
 
@@ -28,7 +28,7 @@ Meet **Ghozayel Elotteebi** from Argentina and **Zebulun Arendsee** from United 
 
 ## Zebulun Arendsee - Mentor
 
-{{< figure src = "/img/team/lukas-mentor.jpeg" class = "pull-left" width = "300" alt = "Profile photo of Zebulun Arendsee" caption = "<center><strong>Zebulun Arendsee</strong></center>">}}
+{{< figure src = "/img/team/zebulun-zrendsee-mentor.jpg" class = "pull-left" width = "300" alt = "Profile photo of Zebulun Arendsee" caption = "<center><strong>Zebulun Arendsee</strong></center>">}}
 
 Hi! I'm Zebulun Arendsee (Zeb) and hope to serve as a mentor in R package development. 
 
