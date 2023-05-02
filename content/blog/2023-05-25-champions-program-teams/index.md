@@ -39,4 +39,4 @@ I am a bioinformatics scientist at Regeneron working on sequencing, annotation, 
 So that's me in a nutshell, I'm really excited about the Champion Program and am looking forward to helping where I can!
 
 
-_We're excited to have both Ghozayel and Zebulun be part of the Champions program and enjoying the outcomes of their project. _
+_We're excited to have both Ghozayel and Zebulun be part of the Champions program and enjoying the outcomes of their project._
