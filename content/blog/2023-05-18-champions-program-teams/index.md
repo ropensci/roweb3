@@ -24,7 +24,7 @@ Meet **Carolina Pradier** from Argentina and **Athanasia Monika Mowinckel** from
 
 My name is Carolina Pradier, I am an economist and data scientist. I have a degree in Economics, and I am currently finishing my Master's degree in Labour Studies, both at the University of Buenos Aires. 
 
-I work as a research assistant at CEPED-UBA and I'm also an active member of Ecofeminita's economics and data team (ecofemidata) and maintainer of the eph R package. 
+I work as a research and teaching assistant at [CEPED-UBA](https://www.economicas.uba.ar/institutos_y_centros/ceped/) and I'm also an active member of Ecofeminita's economics and data team ([ecofemidata](https://ecofeminita.com/ecofemidata)) and maintainer of the [eph](https://github.com/holatam/eph) R package. 
 Throughout the rOpenSci Champions Program I intend to enhance the eph R package (reorganizing the package, reducing its dependencies, improving the package’s functions’ processing speed, upgrading the user experience, etc.).
 
 I applied to the Program in order to improve my skills and bring new tools to the social scientists’ communities in which I am actively involved and thus strengthen our capacities to transform reality. Furthermore, I intend to bring researchers from my country closer to the R community and hope to meet new professionals I can collaborate with in the future. Needless to say, I am particularly excited about the prospect of participating in a program aimed at making the R community more inclusive.
