@@ -8,12 +8,14 @@ tags:
 - R
 - contributors
 - scientific publications
+- Software Peer Review
+- CRediTas
 package_version: 0.2.0
 description: CRediTas is a package to generate CrediT author statements for scientific publications.
 tweet: CRediTas is now part of rOpenSci by @jospueyo
 ---
 
-I'm thrilled to share that [CRediTas](https://docs.ropensci.org/CRediTas/) has passed [peer review](https://github.com/ropensci/software-review/issues/576) and been accepted to rOpenSci as well as to [CRAN](https://cran.r-project.org/web/packages/CRediTas/index.html).
+I'm thrilled to share that [CRediTas](https://docs.ropensci.org/CRediTas/) has passed [peer review](https://github.com/ropensci/software-review/issues/576) and been accepted to rOpenSci as well as to [CRAN](https://cran.r-project.org/web/packages/CRediTas/index.html). I am glad to acknowledge the editor [Emily Riedered](https://ropensci.org/author/emily-riederer/) and the two reviewers [Marcelo S. Perlin](https://ropensci.org/author/marcelo-s.-perlin/) and [João Martins](https://zambujo.github.io/). Their comments and support were really insightful.
 
 CRediTas is a tiny package to facilitate the tedious job of creating CRediT authors statements for scientific publications. Normally, the first author of a scientific paper organizes a table in a spreadsheet where all the authors self-state their contributions. Often too, it is the first author's responsibility to state the contributions of all co-authors. However, at the end, the information has to be translated to the CRediT statement format of “Author 1: roles Authors 2: roles …” which is prone to errors and tedious, especially if there are many co-authors. The CRediTas package aims to make this easier by providing a template to be filled in form of a table (csv) and then converting this table to CRediT statement format.
 

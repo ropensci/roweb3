@@ -8,12 +8,14 @@ tags:
 - R
 - contributors
 - scientific publications
+- Software Peer Review
+- CRediTas
 package_version: 0.2.0
 description: CRediTas is a package to generate CrediT author statements for scientific publications.
 tweet: CRediTas is now part of rOpenSci by @jospueyo
 ---
 
-I'm thrilled to share that [CRediTas](https://docs.ropensci.org/CRediTas/) has passed [peer review](https://github.com/ropensci/software-review/issues/576) and been accepted to rOpenSci as well as to [CRAN](https://cran.r-project.org/web/packages/CRediTas/index.html).
+I'm thrilled to share that [CRediTas](https://docs.ropensci.org/CRediTas/) has passed [peer review](https://github.com/ropensci/software-review/issues/576) and been accepted to rOpenSci as well as to [CRAN](https://cran.r-project.org/web/packages/CRediTas/index.html). I am glad to acknowledge the editor [Emily Riedered](https://ropensci.org/author/emily-riederer/) and the two reviewers [Marcelo S. Perlin](https://ropensci.org/author/marcelo-s.-perlin/) and [João Martins](https://zambujo.github.io/). Their comments and support were really insightful.
 
 CRediTas is a tiny package to facilitate the tedious job of creating CRediT authors statements for scientific publications. Normally, the first author of a scientific paper organizes a table in a spreadsheet where all the authors self-state their contributions. Often too, it is the first author's responsibility to state the contributions of all co-authors. However, at the end, the information has to be translated to the CRediT statement format of “Author 1: roles Authors 2: roles …” which is prone to errors and tedious, especially if there are many co-authors. The CRediTas package aims to make this easier by providing a template to be filled in form of a table (csv) and then converting this table to CRediT statement format.
 
@@ -52,10 +54,10 @@ Once the `cras_table` is populated, for instance:
 
 |Authors                | Conceptualization| Methodology| Software| Validation| Formal Analysis| Investigation| Resources| Data curation| Writing - original draft| Writing - review & editing| Visualization| Supervision| Project administration| Funding acquisition|
 |:----------------------|-----------------:|-----------:|--------:|----------:|---------------:|-------------:|---------:|-------------:|------------------------:|--------------------------:|-------------:|-----------:|----------------------:|-------------------:|
-|Friedrich Ratzel       |                 0|           1|        0|          1|               1|             1|         1|             0|                        0|                          1|             0|           0|                      0|                   0|
-|Pau Vidal de la Blache |                 1|           0|        0|          0|               1|             1|         1|             0|                        0|                          0|             0|           1|                      0|                   1|
+|Friedrich Ratzel       |                 1|           0|        1|          0|               0|             0|         0|             1|                        0|                          1|             0|           0|                      0|                   0|
+|Pau Vidal de la Blache |                 0|           0|        1|          0|               0|             0|         1|             1|                        1|                          1|             0|           0|                      0|                   0|
 |Pau Vila               |                 0|           0|        0|          0|               0|             0|         0|             0|                        0|                          0|             0|           0|                      0|                   0|
-|Élisée Reclus          |                 1|           0|        1|          0|               1|             0|         0|             0|                        1|                          0|             0|           1|                      1|                   1|
+|Élisée Reclus          |                 1|           1|        1|          0|               0|             0|         0|             1|                        0|                          1|             1|           1|                      0|                   0|
 
 Then, a text file can be generated following the CRediT author statement format:
 
@@ -66,7 +68,7 @@ cras_write(cras_table, textfile.txt, markdown = TRUE, quiet = TRUE)
 
 If you open the text file, you will find this:
 
-**Friedrich Ratzel:** Methodology, Validation, Formal Analysis, Investigation, Resources, Writing - review & editing **Pau Vidal de la Blache:** Conceptualization, Formal Analysis, Investigation, Resources, Supervision, Funding acquisition **Élisée Reclus:** Conceptualization, Software, Formal Analysis, Writing - original draft, Supervision, Project administration, Funding acquisition
+**Friedrich Ratzel:** Conceptualization, Software, Data curation, Writing - review & editing **Pau Vidal de la Blache:** Software, Resources, Data curation, Writing - original draft, Writing - review & editing **Élisée Reclus:** Conceptualization, Methodology, Software, Data curation, Writing - review & editing, Visualization, Supervision
 
 You can also print the statement directly in a Rmarkdown file using an inline chunk: `` `r
 cras_write(cras_table, markdown = TRUE)` ``.
