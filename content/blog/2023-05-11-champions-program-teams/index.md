@@ -32,8 +32,8 @@ Now an independent consultant for the UN and international NGOs working in Niger
 
 ## Laura DeCicco - Mentor
 
-{{< figure src = "/img/team/lukas-mentor.jpeg" class = "pull-left" width = "300" alt = "Profile photo of Laura DeCicco" caption = "<center><strong>Laura DeCicco</strong></center>">}}
+{{< figure src = "/img/team/laura-decicco.jpg" class = "pull-left" width = "300" alt = "Profile photo of Laura DeCicco" caption = "<center><strong>Laura DeCicco</strong></center>">}}
 
 Laura comes from Madison, WI USA. She works for the United States Geological Survey developing and maintaining several R packages. She is excited to be a mentor for the inaugural cohort of rOpenSci Champions.
 
-_We're excited to have Victor's project on the Champions program and Laura as his mentor.  We can't wait to see the results of the work of this team. Stay-tuned for the next team introduction_ .
+_We're excited to have Victor in the Champions program and Laura as his mentor.  We can't wait to see the results of the work of this team. Stay-tuned for the next team introduction_.
