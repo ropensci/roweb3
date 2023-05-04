@@ -23,20 +23,20 @@
          {{ with .Params.gitlab }}<a href="https://gitlab.com/{{ . }}"><i class="fab fa-gitlab"></i></a>{{ end }}
          {{ with .Params.keybase }}<a href="https://keybase.io/{{ . }}"><i class="fab fa-keybase"></i></a>{{ end }}
          {{ .Scratch.Set "runiverse" "" }}
-          {{ $runivapi := getJSON "https://r-universe.dev/stats/everyone" }}
-          {{ $runiverses := (union $runivapi.universes $runivapi.maintainers )}}
-          {{ if isset .Params "runiv" }}
-          {{ .Scratch.Set "runiverse" .Params.runiv }}
-          {{ else }}
-          {{ if isset .Params "github" }}
-          {{ .Scratch.Set "runiverse" .Params.github }}
-          {{ end }}
-          {{ if ne (.Scratch.Get "runiverse") "" }}
-          {{ if in $runiverses (.Scratch.Get "runiverse") }}
-          <a href="https://{{ (.Scratch.Get "runiverse") }}.r-universe.dev"> <i class="fas fa-rocket"></i></a>
-          {{ end }}
-          {{ end }}
-          {{ end }}
+         {{ if isset .Params "runiv" }}
+           {{ .Scratch.Set "runiverse" .Params.runiv }}
+         {{ else }}
+           {{ if isset .Params "github" }}
+             {{ .Scratch.Set "runiverse" .Params.github }}
+           {{ end }}
+         {{ end }}
+         {{ if ne (.Scratch.Get "runiverse") "" }}
+           {{ $runivapi := getJSON "https://r-universe.dev/stats/everyone" }}
+           {{ $runiverses := (union $runivapi.universes $runivapi.maintainers )}}
+           {{ if in $runiverses (.Scratch.Get "runiverse") }}
+             <a href="https://{{ (.Scratch.Get "runiverse") }}.r-universe.dev"> <i class="fas fa-rocket"></i></a>
+           {{ end }}
+         {{ end }}
         </div>
       </div>
     </div>
