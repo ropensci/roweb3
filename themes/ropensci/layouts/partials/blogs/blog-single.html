@@ -25,19 +25,20 @@
           {{ if  (in .Params.tags "r-universe") }}
           <small><em>
             {{ if (eq .Lang "es") }}
-            Este post es parte de una serie de posts sobre <a  lang="en" href="https://r-universe.dev">r-universe</a>, un nuevo proyecto paraguas de rOpenSci bajo el cual experimentamos con varias ideas para mejorar la publicación y el descubrimiento de software de investigación en R. A medida que el proyecto evolucione, publicaremos actualizaciones para documentar características y detalles técnicos. Para más información, visite la <a lang="en" href="/r-universe/">página del proyecto r-universe</a>.</em></small>
+            Este post es parte de una serie de artículos sobre <a  lang="en" href="https://r-universe.dev">r-universe</a>, un nuevo proyecto marco de rOpenSci bajo el cual experimentamos con varias ideas para mejorar la publicación y el descubrimiento de software de investigación en R. A medida que el proyecto evolucione, publicaremos actualizaciones para documentar características y detalles técnicos. Para más información, visita la <a lang="en" href="/r-universe/">página del proyecto r-universe</a>.
             {{ else if (eq .Lang "fr") }}
             Cet article fait partie d'une série sur <a lang="en" href="https://r-universe.dev">r-universe</a>, 
   un projet par rOpenSci dans le cadre duquel nous expérimentions avec plusieurs idées
   pour améliorer la publication et la découverte de logiciel de recherche en R.
   Avec l'évolution du projet, nous publierons des nouvelles pour documenter
   les capacités et détails techniques.
-  Pour plus d'informations, visitez la <a lang="en" href="/r-universe/">page du projet R-universe</a>.</em></small>
+  Pour plus d'informations, visitez la <a lang="en" href="/r-universe/">page du projet R-universe</a>.
             {{ else }}
             This post is part of a series of technotes about <a href="https://r-universe.dev">r-universe</a>, a new umbrella project by rOpenSci under which we experiment with various ideas for improving publication and discovery of research software in R.
 As the project evolves, we will post updates to document features and technical details.
-For more information, visit the <a href="/r-universe/">r-universe project page</a>.</em></small>
+For more information, visit the <a href="/r-universe/">r-universe project page</a>.
           {{ end }}
+          </em></small>
           {{ end }}
         {{ .Content }}
       </div>
