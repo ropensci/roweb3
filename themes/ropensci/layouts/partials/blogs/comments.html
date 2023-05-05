@@ -5,7 +5,11 @@ group 2. posts that have topicid in their yaml header - get discourse embed code
 group 3. posts we're trying to automate embeds for, no topicid and newer than 2019
   (to differentiate from older posts that also don't have topicid in their yaml)
 -->
-
+ {{ if  (in .Params.tags "r-universe") }}
+ <hr>
+ <p><a href="https://github.com/r-universe-org/help/discussions" lang="en">Start discussion</a></p>
+ <hr>
+ {{ else }}
 {{ with .Params.topicid }}
 
   <div id='discourse-comments' class="d-print-none">
@@ -36,3 +40,4 @@ group 3. posts we're trying to automate embeds for, no topicid and newer than 20
         </div>
           {{ end }}
         {{ end }}
+{{ end }}
