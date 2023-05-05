@@ -43,4 +43,4 @@ A lot of my work centers around creating data pipelines and work flows for my co
 I am a mentor in the rOpenSci Champions program and am looking forward to learning about mentor roles and be inspired by new R users expanding their community roles. I'm hoping the Champions program will give me new insight into how a younger generation interacts with the community either as reviewers or as developers, and to learn with them about how we can open up and enabled more users to take part in our activities. I also look forward to connecting and interacting with other mentors and learning about how to be a good counsellor to others.
 
 
-_Carolina and Mo are already working on the eph package. we’re excited to see how it goes! Be sure to not miss the next series of introductions_
+_Carolina and Mo are already working on the eph package. We’re excited to see how it goes! Be sure to not miss the next series of introductions_
