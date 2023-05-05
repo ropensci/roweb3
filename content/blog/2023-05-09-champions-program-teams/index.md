@@ -3,7 +3,7 @@ title: "rOpenSci Champions Program Teams: Meet Haydee Svab and Beatriz Milz"
 author:
   - Haydee Svab
   - Beatriz Milz
-date: '2023-05-23'
+date: '2023-05-09'
 tags:
   - community
   - champions program
