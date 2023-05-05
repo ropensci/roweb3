@@ -2,7 +2,7 @@ baseurl = "https://ropensci.org/"
 # languageCode = "en-us"
 title = "rOpenSci - open tools for open science"
 theme = "ropensci"
-
+ignoreErrors = ["error-remote-getjson"]
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "(^|/)renv$", "renv\\.lock$", "_cache$", "index\\.html"]
 footnotereturnlinkcontents = "↩"
