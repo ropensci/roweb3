@@ -26,7 +26,7 @@ Victor Ordu is a medical doctor with many years of experience in the Nigerian he
 
 Victor has worked in various capacities in both the public and private sectors including as a field consultant for the Global Polio Eradication Initiative in the WHO EMRO Region. Public health exposed him to the centrality of data management in determining health outcomes.  The quest for the right tooling for the job began with EpiInfo and SPSS until he discovered R and instantly fell in love with the language. Since then he has not looked back. 
 
-Now an independent consultant for the UN and international NGOs working in Nigeria, R has been the focus of much of his work. He also conducts R training programs for public and private organizations in Nigeria. Victor is an alumnus of the University of Nigeria and has also acquired certifications from the University of Heidelberg (Germany), the World Bank Institute, and Galilee Management Institute (Israel), to mention a few. He is an active member of the R community and has authored R packages that have found great use among R enthusiasts worldwide.
+Now an independent consultant for the UN and international NGOs working in Nigeria, R has been the focus of much of his work. He also conducts R training programs for public and private organizations in Nigeria. Victor is an alumnus of the University of Nigeria and has also acquired certifications from the University of Heidelberg (Germany), the World Bank Institute, and Galilee Management Institute (Israel), to mention a few. He is an active member of the R community and has authored R packages, like [naijR](https://github.com/BroVic/naijR) that have found great use among R enthusiasts worldwide.
 
 </br>
 
