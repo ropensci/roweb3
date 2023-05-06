@@ -38,7 +38,7 @@ Hopefully, this inaugural programme will be followed by collaborations and meani
 
 I’m Mauro Lepore. I grew up in Argentina, studied biology at the University of Buenos Aires, then did a PhD in coral reefs ecology at the University of Queensland, Australia.
 
-I’m now a research software developer at 2 Degrees Investing Initiative, and an editor for rOpenSci. I’m excited to join the rOpenSci Champions Program as a mentor. 
+I’m now a research software developer at [2 Degrees Investing Initiative](https://2degrees-investing.org/), and an editor for rOpenSci. I’m excited to join the rOpenSci Champions Program as a mentor. 
 
 This program should help more people experience the great support that our community provides.
 
