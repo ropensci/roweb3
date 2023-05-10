@@ -75,4 +75,4 @@ cras_write(cras_table, markdown = TRUE)` ``.
 
 More information on [the package vignette](https://docs.ropensci.org/CRediTas/articles/get_started.html).
 
-Hopefully, this simplifies your life as it simplified mine and allows you to spend more time on actually writing your articles. Also, to better manage your co-authors contributions. Please report any issues you have!
+Hopefully, this simplifies your life as it simplified mine and allows you to spend more time on actually writing your articles. Also, to better manage your co-authors contributions. Please [report](https://github.com/ropensci/CRediTas/issues) any issues you have!
