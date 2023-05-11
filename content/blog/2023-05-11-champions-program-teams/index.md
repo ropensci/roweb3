@@ -4,6 +4,7 @@ author:
   - Victor Ordu
   - Laura DeCicco
 date: '2023-05-11'
+slug: "intro-champion-program-team-victor-laura"
 tags:
   - community
   - champions program
