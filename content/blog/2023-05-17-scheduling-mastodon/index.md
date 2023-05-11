@@ -6,7 +6,7 @@ author:
 # Set the date below to the publication date of your post
 date: 2023-05-17
 tags:
-  - technote
+  - tech notes
   - Community
   - GitHub Actions
   - Community Manager Tools
@@ -53,8 +53,6 @@ can find an
 [example of this workflow](https://github.com/ropensci-org/ro-cmtoolkit/tree/main/scheduled_socials_example) 
 in our new 
 [`ro-cmtools` repository](https://github.com/ropensci-org/ro-cmtoolkit/). 
-
-## In a nutshell...
 
 ### What does this workflow entail?
 - Using a private repository on GitHub (Mastodon credentials are stored as GitHub Secrets)
