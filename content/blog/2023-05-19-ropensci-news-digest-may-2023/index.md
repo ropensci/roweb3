@@ -149,6 +149,13 @@ Check out the new project by Jon Harmon, recently funded by the R Consortium:
 
 Exciting to follow!
 
+### Upkeep for packages
+
+Did you miss the recent coworking session on Spring/Fall cleaning of R packages?
+One nice function that was shared during that meeting, by Andy Teucher, R Package Developer Educator at Posit PBC (Steffi: correct?) is [`usethis::use_upkeep_issue()`](https://usethis.r-lib.org/dev/reference/use_upkeep_issue.html) in the development version of usethis.
+"This opens an issue in your package repository with a checklist of tasks for regular maintenance of your package."
+Why not try it on one of your packages?
+
 ### Tidyverse PR guidance
 
 The tidyverse team drafted a [guide about their code review process](https://tidyverse.github.io/code-review/).
@@ -162,6 +169,14 @@ It seems the CRAN team is now [looking for new maintainers for them](https://mas
 See also the [relevant thread](https://github.com/RConsortium/r-repositories-wg/issues/26) of the R Consortium's repositories working group.
 This piece of news is at least one more reason to move your package away from XML and RCurl when you can!
 
+### Reminder about spatial packages' retirement (rgdal, maptools, and rgeos)
+
+As stated in the [dev guide](https://devguide.ropensci.org/building.html#recommended-scaffolding)
+
+> For spatial data, the sp package should be considered deprecated in favor of sf, and the packages rgdal, maptools, and rgeos will be retired by the end of 2023. We recommend use of the spatial suites developed by the [r-spatial](https://github.com/r-spatial) and [rspatial](https://github.com/rspatial) communities. See [this GitHub issue](https://github.com/ropensci/software-review-meta/issues/47) for relevant discussions.
+
+
+Please tell your friends!
 
 ## Last words
 
