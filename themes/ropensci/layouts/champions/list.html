@@ -47,7 +47,8 @@
             </div>
         <div class="row">
     <div class="talk-cards">
-      {{ range ( first 3 (where ( where ( where .Site.RegularPages "Section" "events" ) ".Params.resources" "!=" nil  )  ".Params.tags" "intersect" (slice "champions"))) }}
+      {{ $pages := (where ( where ( where .Site.RegularPages "Section" "events" ) ".Params.resources" "!=" nil  )  ".Params.tags" "intersect" (slice "champions")) }}
+      {{ range $pages.ByDate.Reverse }}
       {{ partial "resources/talk-card" . }}
       {{ end }}
     </div>

@@ -2,7 +2,7 @@
 title: 'Package Development: the Mechanics (champions training)'
 dateStart: '2023-03-14T11:00:00'
 dateEnd: '2023-03-14T11:00:00'
-date: 2023-03-23T14:00:00 # UTC!! same as dateEnd
+date: 2023-03-14T14:00:00 # UTC!! same as dateEnd
 description: ""
 location: 'online'
 country: "\U0001F310" # emoji
