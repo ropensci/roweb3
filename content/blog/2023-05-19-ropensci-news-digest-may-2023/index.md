@@ -155,6 +155,14 @@ The tidyverse team drafted a [guide about their code review process](https://tid
 
 On the same topic, have you heard of [optimistic merging](https://dmerej.info/blog/post/optimistic-merging/)?
 
+### {XML}'s and {RCurl}'s fate
+
+At rOpenSci, we've [recommended against](https://devguide.ropensci.org/building.html#recommended-scaffolding) using the unmaintained XML and RCurl packages for a long time.
+It seems the CRAN team is now [looking for new maintainers for them](https://mastodon.social/@henrikbengtsson/110186925898457474).
+See also the [relevant thread](https://github.com/RConsortium/r-repositories-wg/issues/26) of the R Consortium's repositories working group.
+This piece of news is at least one more reason to move your package away from XML and RCurl when you can!
+
+
 ## Last words
 
 Thanks for reading! If you want to get involved with rOpenSci, check out our [Contributing Guide](https://contributing.ropensci.org) that can help direct you to the right place, whether you want to make code contributions, non-code contributions, or contribute in other ways like sharing use cases.
