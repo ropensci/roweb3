@@ -591,7 +591,15 @@ See also our [help wanted page](https://ropensci.org/help-wanted/) -- before ope
 
 Some useful tips for R package developers. :eyes:
 
-<!-- To be curated by hand -->
+### Cool new experimental packages for building API packages!
+
+Are you thinking about building an [API client](https://ropensci.org/blog/2022/06/16/publicize-api-client-yes-no/)?
+Check out the new project by Jon Harmon, recently funded by the R Consortium:
+
+- [beekeeper](https://jonthegeek.github.io/beekeeper/) _ will allow users to automatically generate R package skeletons from APIs that follow the OpenAPI Specification (OAS) (and probably other specifications, such as swagger, the predecessor to OpenAPI). The skeletons will implement best practices to streamline package development._
+- [nectar](https://jonthegeek.github.io/nectar/) is _an opinionated framework for use within api-wrapping R packages._
+
+Exciting to follow!
 
 ## Last words
 
