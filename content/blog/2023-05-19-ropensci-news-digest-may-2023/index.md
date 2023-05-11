@@ -149,6 +149,12 @@ Check out the new project by Jon Harmon, recently funded by the R Consortium:
 
 Exciting to follow!
 
+### Tidyverse PR guidance
+
+The tidyverse team drafted a [guide about their code review process](https://tidyverse.github.io/code-review/).
+
+On the same topic, have you heard of [optimistic merging](https://dmerej.info/blog/post/optimistic-merging/)?
+
 ## Last words
 
 Thanks for reading! If you want to get involved with rOpenSci, check out our [Contributing Guide](https://contributing.ropensci.org) that can help direct you to the right place, whether you want to make code contributions, non-code contributions, or contribute in other ways like sharing use cases.
