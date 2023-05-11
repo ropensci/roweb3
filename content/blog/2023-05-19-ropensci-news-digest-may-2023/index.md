@@ -21,6 +21,18 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
+### Stat software review
+
+TODO Mark ;-)
+
+### rOpenSci at csvconf
+
+TODO Yani ;-)
+
+### Export package data from R-universe thanks to webr
+
+The R-universe node stack now provides data export links, which use [webr](https://docs.r-wasm.org/webr/latest/) to convert pkg datasets on-the-fly to JSON (via jsonlite), xlsx (via writexl), csv (via data.table), etc. Try it yourself, for instance with the [webchem package's two datasets](https://ropensci.r-universe.dev/webchem#)
+
 <!-- to be curated manually -->
 
 <!-- Can use same coworking text every month and ping Steffi to ask if there are any special guests to add -->
@@ -117,11 +129,6 @@ If you're interested in maintaining any of the R packages below, you might enjoy
 - **[natserv](https://cran.r-project.org/web/packages/natserv/index.html)**. Interface to NatureServe (<https://www.natureserve.org/>). Includes methods to get data, image metadata, search taxonomic names, and make maps. [Issue for volunteering](https://github.com/ropensci-archive/natserv/issues/29).
 
 - **[geojsonlint](https://cran.r-project.org/web/packages/geojsonlint/index.html)**, Tools for linting GeoJSON. Includes tools for interacting with the online tool <https://geojsonlint.com>, the Javascript library geojsonhint (<https://www.npmjs.com/package/geojsonhint>), and validating against a GeoJSON schema via the Javascript library (<https://www.npmjs.com/package/is-my-json-valid>). Some tools work locally while others require an internet connection. [Issue for volunteering](https://github.com/ropensci-archive/geojsonlint/issues/22).
-
-- **[citesdb](https://docs.ropensci.org/citesdb/)**, a high-performance database of shipment-level CITES trade data. Provides convenient access to over 40 years and 20 million records of
-endangered wildlife trade data from the Convention on International Trade
-in Endangered Species of Wild Fauna and Flora, stored on a local on-disk,
-out-of memory 'DuckDB' database for bulk analysis. [Issue for volunteering](https://github.com/ropensci/citesdb/issues/21).
 
 ### Call for comaintainers
 
