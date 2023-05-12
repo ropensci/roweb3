@@ -14,12 +14,12 @@ description: "How to schedule Mastodon Posts using rtoot and GitHub Actions"
 
 A lot of what I do as rOpenSci's community assistant is related to social media.
 I check for posts about rOpenSci packages, invite people to share [usecases](/usecases),
-and advertise [upcoming events](/events) as well as 
-[new packages finishing software peer review](/software-review).
+advertise [upcoming events](/events), as well as promoting
+[new packages which completed software peer review](/software-review).
 
 Up [until this past year](/blog/2022/11/16/mastodon-en/) most of this work was 
 focused on Twitter and because we want to reach an international audience, 
-we use Tweetdeck to schedule posts for different timezones[^1]. 
+we used Tweetdeck to schedule posts for different timezones[^1]. 
 
 [^1]: I already get up early for the European Central Coworking session and am 
 lazy enough not to want to get up even earlier just to tweet the 1-hr reminder!
@@ -30,7 +30,7 @@ Mastodon posts as there are for Twitter. There are some schedulers available,
 but we thought this might be an opportunity to develop one of our own; 
 one that worked programatically and allowed us to design it the way we wanted it to work. 
 
-In particular, we wanted a workflow that did allow us to...
+In particular, we wanted a workflow that allowed us to...
 
 - schedule multiple posts at a time
 - easily see and modify these posts
@@ -74,9 +74,9 @@ By using this workflow we can
 - Keep track of old posts (closed issues)
 - Modify scheduled posts
 - Use issue templates to create post templates
-- Can post from anywhere with an Internet connection (no R setup required)
-- Can specify different time zones to make posting across time zones simpler ([in theory at least](https://fosstodon.org/@ropensci/109458205543474658))
-- It's very flexible, add your own YAML keys to cue any specific behaviour you need[^3]
+- Post from anywhere with an Internet connection (no R setup required)
+- Specify different time zones to make posting across time zones simpler ([in theory at least](https://fosstodon.org/@ropensci/109458205543474658))
+- Embrace flexibility, we can add/change YAML keys to cue any specific behaviour required[^3]
 
 [^3]: For example, I've been toying with the idea of adding a YAML key for post id, 
 so we could set up scheduled replies to existing posts.
@@ -87,11 +87,11 @@ This workflow does have some limitations
 
 - **It can be fragile**   
   If someone creates a post with the incorrect metadata it will fail, 
-  but only when run, not while writing the post which can be frustrating. 
+  but only when run, not while writing the post, which can be frustrating. 
 - **Interactions**  
   While not impossible[^4], it can be tricky or at least a bit clunky to 
   interact with existing posts using this workflow.
-- **It can burn GitHub Action Minutes**
+- **It can burn GitHub Action Minutes**  
   If you set the CRON to run every hour, this might burn through more GitHub
   Action minutes than you would like, even with caching. This is why we set it
   to run only on specific hours that we need.
