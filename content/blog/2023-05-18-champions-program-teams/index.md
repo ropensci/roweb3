@@ -3,7 +3,7 @@ title: "rOpenSci Champions Program Teams: Meet César and Marc"
 author:
   - Cesar Luis Aybar Camacho
   - Marc Choisy
-date: '2023-05-04'
+date: '2023-05-18'
 tags:
   - community
   - champions program
