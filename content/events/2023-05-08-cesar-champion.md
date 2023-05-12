@@ -3,7 +3,7 @@ title: 'Preparing remote sensing data for deep learning using r-spatial'
 dateStart: '2023-05-08T08:00:00'
 dateEnd: '2023-05-08T09:00:00'
 date: 2023-05-08T09:00:00 # UTC!! same as dateEnd
-description: "Open-source: Preparing remote sensing data for deep learning using r-spatial"
+description: "Open-source: Preparing remote sensing data for deep learning using r-spatial. Event hosted by EDS book, Climate Informatics and Environmental Data Science Journal"
 location: 'online'
 country: "\U0001F310" # emoji
 attendees:
