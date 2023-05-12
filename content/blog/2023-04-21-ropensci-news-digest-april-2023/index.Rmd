@@ -1,14 +1,15 @@
 ---
-slug: "post-template"
-title: Latest rOpenSci News Digest
+title: rOpenSci News Digest, April 2023
 author:
   - The rOpenSci Team
-date: '2022-01-16'
+date: '2023-04-21'
+slug: ropensci-news-digest-april-2023
+categories: []
 tags:
   - newsletter
-description: keywords from the content
+description: Interview of Athanasia Monika Mowinckel, multilingual blog, coworking, R-universe, new packages and package news
 params:
-  last_newsletter: "2022-05-20"
+  last_newsletter: '2023-03-17'
 ---
 
 ```{r setup, include=FALSE}
@@ -40,14 +41,68 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-<!-- to be curated manually -->
+### Meeting the stars of the R-universe: Athanasia Monika Mowinckel
 
-<!-- Can use same coworking text every month and ping Steffi to ask if there are any special guests to add -->
-Join us for social coworking & office hours monthly on 1st Tuesdays! Hosted by Steffi LaZerte  and various community hosts. Everyone welcome. No RSVP needed. Consult our [Events](/events) page to find your local time and how to join.
+Knowing our community's stories helps us to learn about the people behind our software, brings us closer and offers us new opportunities. To share some of these community stories, we created the rOpenSci interview series [_"Meeting the stars of the R-Universe"_](/tags/r-universe-stars/).
+
+Working with the human brain requires specific software and complex developments. However R appears to be the natural way to collect and analyze the huge amount of data needed, and the R-Universe the most friendly place to share and invite collaborations. Our third stop brings us to Norway to talk with [Athanasia Monika Mowinckel](/blog/2023/03/30/r-universe-stars-3-en/).
+You can also read the post in [Spanish](/es/blog/2023/03/30/r-universe-stars-3-es/).
 
 
-Find out about more [events](/events).
+### Multilingual posts
 
+Have you noticed several of our recent blog posts were translated to Spanish, and in one case, French?
+We've started adding actual multilingual infrastructure to our website.
+You can find all posts in Spanish in <https://ropensci.org/es/archive> (and the lone French post in <https://ropensci.org/fr/archive>).
+From any post that has a translation, the sidebar on the right (or... at the bottom if you're reading on mobile!) has a link to translations of the post, see this [example](/blog/2023/02/28/r-universe-stars-2-en/).
+
+Over time we plan to further improve the multilingualism of our website.
+
+### 18,000 packages tracked on R-Universe!
+
+Currently R-Universe is tracking and indexing over 18,000 R packages! These are a mix of packages found on popular networks like [CRAN](https://cran.r-project.org/) or [Bioconductor](https://www.bioconductor.org/), and packages that were registered by users.
+
+In previous posts we explained [how to create your personal CRAN-like repository](/blog/2021/06/22/setup-runiverse/) and publish packages on R-Universe yourself. A new post explains the other part: how the scraper [automatically finds packages on CRAN and Bioconductor](/blog/2023/04/03/cran-to-git/) to include in the R-Universe.
+
+All in all, R-Universe provides a great way to [discover and explore many packages](/blog/2023/02/27/runiverse-discovering/)!
+
+### Help us put together the rOpenSci Community Call calendar for the year!
+
+We've had [some](https://ropensci.org/commcalls/oct2022-champions/) [great](https://ropensci.org/commcalls/jan2023-targets/) community calls lately,  🎉  
+and now we'd like to know what topics **you** would like us to cover in the future!
+
+We hold [Community Calls](/commcalls/) about every 3 months to share knowledge that is relevant to our community and consistent with [our vision and mission](/about/). These are free and open for anyone to attend and provide opportunities for us to connect with rOpenSci community members around the world.
+
+We’ve [opened an issue in this repository for each topic we’re considering](https://github.com/ropensci-org/community-calls/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc). We'd like **your input and "votes"** on these, and **your suggestions for other topics** we haven't thought of.
+
+We will also be very grateful if you suggest speakers, resources, or encourage others to weigh in by sharing the link to your favorite topic.
+
+You can [read more details on our community calls repository](https://github.com/ropensci-org/community-calls). 
+
+We look forward to hearing your ideas. Let's build the schedule together!    
+
+### Coworking
+
+Join us for social coworking & office hours monthly on first Tuesdays! 
+Hosted by Steffi LaZerte and various community hosts. 
+Everyone welcome. 
+No RSVP needed. 
+Consult our [Events](/events) page to find your local time and how to join.
+    
+And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
+
+* Tuesday, May 2nd, 9:00 Americas Pacific / 16:00 UTC ["Spring Cleaning for R packages and scripts"](/events/coworking-2023-05/) *Hosted by [Steffi LaZerte](/author/steffi-lazerte/) and [Yanina Bellini Saibene](/author/yanina-bellini-saibene/)*
+    - Explore how other organizations keep their scripts/packages nice and clean
+    - Take a look at your R packages and scripts and give them a good spring cleaning\*
+    - Talk to our community host and other attendees and discuss tips for keeping on top of it all.
+    
+\* in the northern hemisphere at least, otherwise, give them a good *fall* cleaning!
+
+* Tuesday, June 6th, 9:00 Australia Western / 01:00 UTC ["Integrating and merging datasets from different sources"](/events/coworking-2023-06/) *Hosted by community host [Cynthia Huang](/author/cynthia-huang) and [Steffi LaZerte](/author/steffi-lazerte/)*
+    - Spend time integrating datasets for your own work
+    - Explore how others tackle the problem of merging datasets from different sources or different data versions
+    - Talk to our community host and other attendees and discuss strategies for integrating datasets.
+    
 ## Software :package:
 
 ### New packages
@@ -116,7 +171,7 @@ old <- dplyr::filter(
 
 new <- dplyr::filter(
   registry,
-  !package %in% old$package,
+  !package %in% c("sofa", "geojson", old$package),
   !grepl("ropenscilabs\\/", url),
   !grepl("ropensci-archive\\/", url)
 )
@@ -164,6 +219,7 @@ present_one <- function(package) {
     author_string,
     stringr::str_remove(stringr::str_squish(package$details), "\\.$")
   )
+  string <- sub("make more informed decisions.*", "make more informed decisions.", string)
   
   if (package$on_cran) {
     string <- paste0(
@@ -221,6 +277,8 @@ registry <- registry %>%
   dplyr::filter(
     !is.na(owner)
   )
+registry[registry[["package"]] == "commonmark",][["owner"]] <- "r-lib"
+registry[registry[["package"]] == "commonmark",][["repo"]] <- "commonmark"
 packages <- split(registry, seq(nrow(registry)))
 get_release <- function(repo) {
   info <- gh::gh(
@@ -262,7 +320,6 @@ text <- nice_string(all_releases)
 ```
 
 The following `r if (length(releases) > 1) english(length(releases))` package`r if (length(releases) > 1) "s"` `r if (length(releases) > 1) "have" else "has"` had an update since the last newsletter: `r text`.
-
 ## Software Peer Review
 
 ```{r software-review, results='asis'}
@@ -466,9 +523,9 @@ format_post <- function(dir) {
     )
   }
   
-  if (length(dir > 1)) {
-    other_langs <- dir[which(dir[["language"]] != main_language),]
-    other_langs <- split(other_langs, sort(as.numeric(rownames(other_langs))))
+  other_langs <- dir[which(dir[["language"]] != main_language),]
+  other_langs <- split(other_langs, sort(as.numeric(rownames(other_langs))))
+  if (length(other_langs) > 0) {
     other_langs_text <- purrr::map_chr(
       other_langs,
       ~ sprintf("<a href='%s' lang='%s'>%s (%s)</a>", .x[["url"]], .x[["language"]], .x[["title"]], .x[["language"]])
@@ -557,57 +614,59 @@ cat(
 
 Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)! -->
 
+## Call for (co)maintainers
 
-## Use cases
+### Call for maintainers
 
-```{r usecases}
-# rerun get_use_cases.R at the same time
-usecases <- jsonlite::read_json("../../../data/usecases/usecases.json")
-get_one_case <- function(usecase) {
-  tibble::tibble(
-    title = usecase$title,
-    reporter = usecase$reporter,
-    url = usecase$url,
-    image = usecase$image,
-    date = anytime::anydate(usecase$date)
-  )
-}
-usecases <- purrr::map_df(usecases, get_one_case)
-usecases <- dplyr::filter(usecases, date >= as.Date(last_newsletter))
-usecases <- split(usecases, seq(nrow(usecases)))
-```
+If you're interested in maintaining any of the R packages below, you might enjoy reading our blog post [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/) (or listening to its discussion on the [R Weekly highlights podcast](https://rweekly.fireside.fm/111) hosted by Eric Nantz and Mike Thomas)!
 
-`r snakecase::to_sentence_case(english(length(usecases)))` use case`r if (length(usecases) > 1) "s"` of our packages and resources ha`r if (length(usecases) > 1) "ve" else "s"` been reported since we sent the last newsletter.
+- **[rvertnet](https://cran.r-project.org/web/packages/rvertnet/index.html)**, Retrieve, map and summarize data from the VertNet.org archives (<https://vertnet.org/>). Functions allow searching by many parameters, including taxonomic names, places, and dates. In addition, there is an interface for conducting spatially delimited searches, and another for requesting large datasets via email. [Issue for volunteering](https://github.com/ropensci-archive/rvertnet/issues/71).
 
-```{r usecases2, results='asis'}
-format_case <- function(usecase) {
-  string <- sprintf("* [%s](%s). Reported by %s.", sub("\\.$", "", usecase$title), usecase$url, usecase$reporter)
-}
-cat(
-  paste0(
-    purrr::map_chr(usecases, format_case),
-    collapse = "\n\n"
-  )
-)
-```
+- **[natserv](https://cran.r-project.org/web/packages/natserv/index.html)**. Interface to NatureServe (<https://www.natureserve.org/>). Includes methods to get data, image metadata, search taxonomic names, and make maps. [Issue for volunteering](https://github.com/ropensci-archive/natserv/issues/29).
 
-Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)!
+- **[geojsonlint](https://cran.r-project.org/web/packages/geojsonlint/index.html)**, Tools for linting GeoJSON. Includes tools for interacting with the online tool <https://geojsonlint.com>, the Javascript library geojsonhint (<https://www.npmjs.com/package/geojsonhint>), and validating against a GeoJSON schema via the Javascript library (<https://www.npmjs.com/package/is-my-json-valid>). Some tools work locally while others require an internet connection. [Issue for volunteering](https://github.com/ropensci-archive/geojsonlint/issues/22).
 
-## Call for maintainers
+- **[citesdb](https://docs.ropensci.org/citesdb/)**, a high-performance database of shipment-level CITES trade data. Provides convenient access to over 40 years and 20 million records of
+endangered wildlife trade data from the Convention on International Trade
+in Endangered Species of Wild Fauna and Flora, stored on a local on-disk,
+out-of memory 'DuckDB' database for bulk analysis. [Issue for volunteering](https://github.com/ropensci/citesdb/issues/21).
 
-<!--IF CALL
-* [our guidance on _Changing package maintainers_](https://devguide.ropensci.org/changing-maintainers.html)
-* [our _Package Curation Policy_](https://devguide.ropensci.org/curationpolicy.html)
 
-IF NO CALL
-There are no open calls for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
-As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. -->
+### Call for comaintainers
+
+Refer to our [recent blog post](/blog/2022/10/17/maintain-or-co-maintain-an-ropensci-package/#packages-looking-for-co-maintainers) to identify other packages where help is especially wished for!
 
 ## Package development corner
 
 Some useful tips for R package developers. :eyes:
 
-<!-- To be curated by hand -->
+### Caching the results of functions of your R package
+
+The R-hub blog has a post on [Caching the results of functions of your R package](https://blog.r-hub.io/2021/07/30/cache/) by Maëlle Salmon and Christophe Dervieux.
+It presents different approaches.
+A recent PR by Lukas Wallrich to rcrossref maintained by Najko Jahn illustrates the approach of [saving results to an environment](https://github.com/ropensci/rcrossref/pull/237) (and reminded us about the topic of caching!).
+
+### Deprecated data in a package with `delayedAssign()`
+
+If you need to change something like a function or function arguments in your package, you'll find many resources in, say, the [rOpenSci dev guide](https://devguide.ropensci.org/evolution.html), or the [lifecycle package docs](https://lifecycle.r-lib.org/).
+Now what if you want to deprecate a **dataset**?
+Read the [solution proposed by Matthijs Berends on Stack Overflow](https://stackoverflow.com/questions/33304651/data-deprecation-in-r-package/75192818#75192818), linking to [a 3-step method in Bioconductor guidance](https://contributions.bioconductor.org/deprecation.html#deprecate-dataset).
+Key is the usage of `delayedAssign()` to save a promise that will serve both a warning, and the data.
+We might mention this approach in a future version of our [dev guide](https://github.com/ropensci/dev_guide/issues/649).
+
+You might remember `delayedAssign()` from a [strategy to provide data as tibble only when tibble is installed](/blog/2022/01/21/ropensci-news-digest-january-2022/#how-to-provide-tibbles-only-to-those-who-like-them).
+Useful function!
+
+### Important change for CRAN packages with compiled code
+
+Andy Teucher, R Package Developer Educator at Posit PBC, wrote a post about ["New CRAN requirements for packages with C and C++"](https://www.tidyverse.org/blog/2023/03/cran-checks-compiled-code/).
+Good to know for packages on CRAN, or to be submitted to CRAN, with compiled code!
+
+### Let dependabot monitor updates to your GitHub Actions
+
+A tip by Jacob Wujciak-Jens.
+Dependabot alerts are really easy to set up to monitor for updates to actions, like this [example](https://github.com/ropensci-review-tools/pkgcheck/blob/main/.github/dependabot.yml). 
+See the [Full GitHub docs](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuring-dependabot-version-updates#enabling-dependabot-version-updates).
 
 ## Last words
 
