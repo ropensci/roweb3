@@ -109,7 +109,7 @@ And that's that! There are definitely other options out there, but I have to adm
 I thoroughly enjoyed the experience of making our own. Even if testing it was a 
 bit [terrifying]() 😉
 
-{{< figure src = "toot.png" alt = "A screen shot of a Mastodon post by Steffi LaZerte with a photo of a cat in a canoe looking at trees on a distance short. The text states 'Hi! Hopefully a final test of rtoot (https://github.com/schochastics/rtoot) and this time scheduled via GitHub actions 😱 Oh the thrill of accidentally sending a million toots 😉 And because there are never enough kitties, a photo of Vivi canoe camping! #RStats'" class = "center">}}
+{{< figure src = "toot_sm.png" width = "500" alt = "A screen shot of a Mastodon post by Steffi LaZerte with a photo of a cat in a canoe looking at trees on a distance short. The text states 'Hi! Hopefully a final test of rtoot (https://github.com/schochastics/rtoot) and this time scheduled via GitHub actions 😱 Oh the thrill of accidentally sending a million toots 😉 And because there are never enough kitties, a photo of Vivi canoe camping! #RStats'" class = "center">}}
 
 
 
