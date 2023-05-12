@@ -50,8 +50,16 @@ TODO Yani ;-)
 
 ### Export package data from R-universe thanks to webr
 
-The R-universe node stack now provides data export links, which use [webr](https://docs.r-wasm.org/webr/latest/) to convert pkg datasets on-the-fly to JSON (via jsonlite), xlsx (via writexl), csv (via data.table), etc. Try it yourself, for instance with the [webchem package's two datasets](https://ropensci.r-universe.dev/webchem#).
+The R-universe node stack now provides data export links, which use [webr](https://docs.r-wasm.org/webr/latest/) to convert pkg datasets on-the-fly to JSON (via jsonlite), xlsx (via writexl), csv (via data.table), etc. 
 
+Try it yourself, for instance with the [webchem package's two datasets](https://ropensci.r-universe.dev/webchem#).
+You can click on the download icons near their names, or use the direct URLs, for instance https://ropensci.r-universe.dev/webchem/data/lc50/json for the lc50 dataset (Acute toxicity data from U.S. EPA ECOTOX).
+
+The permanent URL to a dataset in a given format can be used in your browser, from R, or from any other tools: this means R-universe helps publish your data to the world!
+
+On the technical side, R-universe actually uses webr (with its own [webr bundle](https://github.com/r-universe-org/webr-bundle)) [server-side](https://github.com/r-universe-org/cranlike-server), so not in a browser!
+
+Note that R-universe already had a few features related to datasets beside listing them on a package page: datasets are indexed for [search](/blog/2023/02/27/runiverse-discovering/#level-1-searching-the-entire-r-ecosystem), and the [standard API output for a package](https://ropensci.r-universe.dev/webchem/json) includes some info about datasets.
 
 ### Coworking
 
