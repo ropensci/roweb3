@@ -1,6 +1,6 @@
 ---
 slug: "scheduling-mastodon"
-title: Scheduling Mastodon Posts with rtoot and GitHub Actions
+title: Scheduling Mastodon Posts in R with rtoot and GitHub Actions
 author:
   - Steffi LaZerte
 date: 2023-05-17
@@ -9,6 +9,8 @@ tags:
   - Community
   - GitHub Actions
   - Community Manager Tools
+  - social media
+  - mastodon
 description: "How to schedule Mastodon Posts using rtoot and GitHub Actions"
 ---
 
@@ -25,7 +27,7 @@ better plan our post timing.
 
 
 [^1]: I already get up early for the European Central Coworking session and am 
-lazy enough not to want to get up even earlier just to tweet the 1-hr reminder!
+not excited about getting up even earlier just to tweet the 1-hr reminder!
 
 However, we're also now developing a [presence on Mastodon](https://hachyderm.io/@rOpenSci).
 We've enjoyed exploring this new community, but unfortunately there aren't as many tools for working with
@@ -37,26 +39,27 @@ In particular, we wanted a workflow that allowed us to...
 
 - schedule multiple posts at a time
 - easily see and modify these posts
-- have posts with images *and* Alt text
+- have posts with images *and* [alternative text](https://axesslab.com/alt-texts/)
 - handle multiple timezones
 
 and did not
 
 - require us to give Mastodon credentials to an unknown third party
 - require a poster to have access to the main account credentials
-- cost much (or ideally anything)
+- have a subscription cost
 
 This led us to create a workflow for scheduling Mastodon posts using R, 
 [rtoot](https://schochastics.github.io/rtoot), and GitHub actions 🎉!
 
-We hope to continue sharing examples of our Community Management Tools so you
-can find an 
+You can find an 
 [example of this workflow](https://github.com/ropensci-org/ro-cmtoolkit/tree/main/scheduled_socials_example) 
 in our new 
-[`ro-cmtools` repository](https://github.com/ropensci-org/ro-cmtoolkit/). 
+[`ro-cmtools` repository](https://github.com/ropensci-org/ro-cmtoolkit/)
+where we hope to continue sharing examples of our Community Management Tools.
 
 ### What does this workflow entail?
-- Using a private repository on GitHub (Mastodon credentials are stored as GitHub Secrets)
+
+- Using a private repository on GitHub (Mastodon token is stored as GitHub Secrets)
 - Issues are Mastodon posts (which is why the repo needs to be private!) -> See the [Issue Template](https://github.com/ropensci-org/ro-cmtoolkit/blob/main/scheduled_socials_example/.github/ISSUE_TEMPLATE/schedule-post.md)
 - Actions run hourly (or as needed) to run a script  -> See the [Action Workflow](https://github.com/ropensci-org/ro-cmtoolkit/blob/main/scheduled_socials_example/.github/workflows/schedule_posts.yaml)
 - R script posts issues to Mastodon  -> See the [R script](https://github.com/ropensci-org/ro-cmtoolkit/blob/main/scheduled_socials_example/schedule_posts.R)
@@ -94,7 +97,7 @@ This workflow does have some limitations
 - **Interactions**  
   While not impossible[^4], it can be tricky or at least a bit clunky to 
   interact with existing posts using this workflow.
-- **It can burn GitHub Action Minutes**  
+- **It can burn [GitHub Action Minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions)**  
   If you set the CRON to run every hour, this might burn through more GitHub
   Action minutes than you would like, even with caching. This is why we set it
   to run only on specific hours that we need.
@@ -110,9 +113,9 @@ existing workflow is that I can easily see and modify the queue.
 
 And that's that! There are definitely other options out there, but I have to admit that
 I thoroughly enjoyed the experience of making our own. Even if testing it was a 
-bit [terrifying]() 😉
+bit [terrifying](https://fosstodon.org/@steffilazerte/109433645817562816) 😉
 
-{{< figure src = "toot_sm.png" width = "500" alt = "A screen shot of a Mastodon post by Steffi LaZerte with a photo of a cat in a canoe looking at trees on a distance short. The text states 'Hi! Hopefully a final test of rtoot (https://github.com/schochastics/rtoot) and this time scheduled via GitHub actions 😱 Oh the thrill of accidentally sending a million toots 😉 And because there are never enough kitties, a photo of Vivi canoe camping! #RStats'" class = "center">}}
+{{< figure src = "toot_sm.png" width = "500" alt = "A screen shot of a Mastodon post by Steffi LaZerte with a photo of a cat in a canoe looking at trees in the a distance. The text states 'Hi! Hopefully a final test of rtoot and this time scheduled via GitHub actions 😱 Oh the thrill of accidentally sending a million toots 😉 And because there are never enough kitties, a photo of Vivi canoe camping! #RStats'." class = "center">}}
 
 
 
