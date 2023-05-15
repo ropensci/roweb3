@@ -44,7 +44,7 @@ Now let's dive into the activity at and around rOpenSci!
 
 TODO Mark ;-)
 
-### rOpenSci at csvconf
+### rOpenSci at Csv,Conf,v7
 
 TODO Yani ;-)
 
