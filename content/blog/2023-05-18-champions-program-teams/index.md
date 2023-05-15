@@ -37,7 +37,7 @@ Feel free to contact me after or during this program to assist or mentor your R 
 {{< figure src = "/img/team/marc-choisy-mentor.png" class = "pull-left" width = "300" alt = "Profile photo of Marc Choisy" caption = "<center><strong>Marc Choisy</strong></center>">}}
 
 
-I am French and have been working in Vietnam since 2012 and as the head of Mathematical Modelling at the Oxford University Clinical Research Unit. I hold MSc degrees in biology and mathematics and a PhD in biology and work mostly on the epidemiology of infectious diseases. One of my expectations in contributing to the Champion Program is get more involved in reproducibility science community.
+I am French and have been working in Vietnam since 2012 and as the head of Mathematical Modelling at the Oxford University Clinical Research Unit. I hold MSc degrees in biology and mathematics and a PhD in biology and work mostly on the epidemiology of infectious diseases. One of my expectations in contributing to the Champions Program is to get more involved in the science reproducibility community.
 
 
 _César and Marc are already working together on the project to develop this new package.  We look forward to seeing the results of this team. Stay-tuned for the next series of introductions._
