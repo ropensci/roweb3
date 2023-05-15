@@ -24,7 +24,7 @@ Meet **Cesar Luis Aybar Camacho** from Perú and **Marc Choisy** from Vietnam!
 
 My name is Cesar Luis Aybar Camacho. I am a Peruvian PhD student at the University of Valencia's Image Processing Laboratory. I am also the main maintainer of the [rgee package](https://r-spatial.github.io/rgee/reference/rgee-package.html), which allows the integration of R and Google Earth Engine (GEE) in the same workflow. 
 
-I applyied to the rOpenSci champion program because I want to contribute to developing a robust and diverse R community in Latin America. Besides, this is an excellent opportunity to gain insights from experts in the R community. 
+I applied to the rOpenSci Champions Program because I want to contribute to developing a robust and diverse R community in Latin America. Besides, this is an excellent opportunity to gain insights from experts in the R community. 
 
 As part of the program, I plan to create the _rgeeExtra_ package, which will make GEE syntax more accessible to R users. 
 
