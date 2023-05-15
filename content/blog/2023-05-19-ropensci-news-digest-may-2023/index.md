@@ -25,9 +25,13 @@ Now let's dive into the activity at and around rOpenSci!
 
 TODO Mark ;-)
 
-### rOpenSci at csvconf
+### rOpenSci at Csv,Conf,v7
 
-TODO Yani ;-)
+We participated in the [CSV,Conf,v7](https://csvconf.com/) in Buenos Aires during April 19-20, 2023.
+
+On the first day of the conference, [Karthik Ram](/author/karthik-ram) was one of the keynotes presenting ["How to enable and sustain thriving Open Source Ecosystems (OSE)."](/events/2023-04-19-csvconf_keynote/). The next day, [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) presented ["Tell me who you hang out with, and I will tell you who you are. A collaborations analysis using social networks analysis"](/events/2023-04-20-csvconf-regulartalk/), a work done together with Sandro Camargo. 
+
+This was a very special edition as it was the first time the event took place in the Southern Hemisphere, allowing several Latin American projects to be part of the conference.
 
 ### Export package data from R-universe thanks to webr
 
@@ -79,7 +83,7 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following seven packages have had an update since the last newsletter: [biomartr](https://docs.ropensci.org/biomartr "Genomic Data Retrieval") ([`v1.0.3`](https://github.com/ropensci/biomartr/releases/tag/v1.0.3)), [cffr](https://docs.ropensci.org/cffr "Generate Citation File Format (cff) Metadata for R Packages") ([`v0.5.0`](https://github.com/ropensci/cffr/releases/tag/v0.5.0)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.9.3`](https://github.com/ropensci/nodbi/releases/tag/v0.9.3)), [osmdata](https://docs.ropensci.org/osmdata "Import OpenStreetMap Data as Simple Features or Spatial Objects") ([`v0.2.2`](https://github.com/ropensci/osmdata/releases/tag/v0.2.2)), [spiro](https://docs.ropensci.org/spiro "Manage Data from Cardiopulmonary Exercise Testing") ([`v0.2.0`](https://github.com/ropensci/spiro/releases/tag/v0.2.0)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.7.6`](https://github.com/ropensci/tarchetypes/releases/tag/0.7.6)), and [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.0.0`](https://github.com/ropensci/targets/releases/tag/1.0.0)).
+The following eight packages have had an update since the last newsletter: [biomartr](https://docs.ropensci.org/biomartr "Genomic Data Retrieval") ([`v1.0.3`](https://github.com/ropensci/biomartr/releases/tag/v1.0.3)), [cffr](https://docs.ropensci.org/cffr "Generate Citation File Format (cff) Metadata for R Packages") ([`v0.5.0`](https://github.com/ropensci/cffr/releases/tag/v0.5.0)), [crul](https://docs.ropensci.org/crul "HTTP Client") ([`v1.4`](https://github.com/ropensci/crul/releases/tag/v1.4)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.9.3`](https://github.com/ropensci/nodbi/releases/tag/v0.9.3)), [osmdata](https://docs.ropensci.org/osmdata "Import OpenStreetMap Data as Simple Features or Spatial Objects") ([`v0.2.2`](https://github.com/ropensci/osmdata/releases/tag/v0.2.2)), [spiro](https://docs.ropensci.org/spiro "Manage Data from Cardiopulmonary Exercise Testing") ([`v0.2.0`](https://github.com/ropensci/spiro/releases/tag/v0.2.0)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.7.6`](https://github.com/ropensci/tarchetypes/releases/tag/0.7.6)), and [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.0.0`](https://github.com/ropensci/targets/releases/tag/1.0.0)).
 
 ## Software Peer Review
 
