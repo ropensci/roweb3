@@ -19,7 +19,10 @@ advertise [upcoming events](/events), as well as promoting
 
 Up [until this past year](/blog/2022/11/16/mastodon-en/) most of this work was 
 focused on Twitter and because we want to reach an international audience, 
-we used Tweetdeck to schedule posts for different timezones[^1]. 
+we used Tweetdeck to schedule posts for different timezones[^1].
+Being able to see when posts were queued was also important for us as a team to 
+better plan our post timing.
+
 
 [^1]: I already get up early for the European Central Coworking session and am 
 lazy enough not to want to get up even earlier just to tweet the 1-hr reminder!
@@ -71,7 +74,7 @@ By using this workflow we can
 
 - Schedule posts in the future
 - Allow people to post without giving them admin access to the Mastodon account
-- Keep track of old posts (closed issues)
+- Have a clear picture of queued posts (both future and past)
 - Modify scheduled posts
 - Use issue templates to create post templates
 - Post from anywhere with an Internet connection (no R setup required)
