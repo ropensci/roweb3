@@ -66,10 +66,7 @@ where we hope to continue sharing examples of our Community Management Tools.
   - The script uses [gh](https://gh.r-lib.org/) to get the issue, 
     and [rtoot](https://schochastics.github.io/rtoot) to post it
   - Then the script closes the issue
-  - Multiple posts are separated by 5 min[^2]
-
-[^2]: Although this might benefit from using the Mastodon API scheduler, as
-waiting 5 min between posts in an Action still uses 5 Action minutes 🤔
+  - Multiple posts are separated by 5 min
 
 ### Why use this workflow?
 
@@ -82,10 +79,7 @@ By using this workflow we can
 - Use issue templates to create post templates
 - Post from anywhere with an Internet connection (no R setup required)
 - Specify different time zones to make posting across time zones simpler ([in theory at least](https://fosstodon.org/@ropensci/109458205543474658))
-- Embrace flexibility, we can add/change YAML keys to cue any specific behaviour required[^3]
-
-[^3]: For example, I've been toying with the idea of adding a YAML key for post id, 
-so we could set up scheduled replies to existing posts.
+- Embrace flexibility, we can add/change YAML keys to cue any specific behaviour required
 
 ### Why not use this workflow?
 
@@ -95,24 +89,47 @@ This workflow does have some limitations
   If someone creates a post with the incorrect metadata it will fail, 
   but only when run, not while writing the post, which can be frustrating. 
 - **Interactions**  
-  While not impossible[^4], it can be tricky or at least a bit clunky to 
+  While not impossible, it can be tricky or at least a bit clunky to 
   interact with existing posts using this workflow.
 - **It can burn [GitHub Action Minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions)**  
   If you set the CRON to run every hour, this might burn through more GitHub
   Action minutes than you would like, even with caching. This is why we set it
   to run only on specific hours that we need.
 
-[^4]: Replies should be possible via rtoot, but boosting and favouriting will
-probably require using `rtoot::rtoot()` to create a custom 
-[API query](https://docs.joinmastodon.org/methods/statuses/).
+### Future ideas
 
+**Incorporating the Mastodon API scheduler**
 
 The Mastodon API and `rtoot::post_toot()` do have options to schedule posts, 
 but I'm unclear how easy it is to see the queue. One thing I like about our
-existing workflow is that I can easily see and modify the queue.
+existing workflow is that we can easily see and modify the queue as a team.
+
+However, it might be a good idea to incorporate the scheduler API into this tool
+at least when posting multiple posts at the same time. Currently, we wait 5 min 
+(using `Sys.sleep()`) between posts in order to space things out a bit more 
+gradually. But this still uses 5 GitHub Action minutes 🤔
+
+**Interacting with posts**
+
+Right now our work flow doesn't have the capability to interact with posts on 
+Mastodon. However, I've been toying with the idea of adding a YAML key for post id, 
+so we could set up scheduled replies to existing posts.
+
+Boosting and favouriting seem possible, but would probably require using 
+`rtoot::rtoot()` to create a custom 
+[API queries](https://docs.joinmastodon.org/methods/statuses/). For this workflow
+that may be a bit too clunky, but it could be possible to set up a different type
+of issue template where post ids to be boosted/favourtied could be listed.
+
+Finally, although post threads aren't common on Mastodon (due to the generally
+sufficient character limit), it should be possible to use comments on an issue to 
+create a threaded post. I don't think we'll implement this as we like to be able
+to use the comments for notes to each other or to our future selves, but 
+depending on your workflow, this could be a useful feature to add!
+
 
 And that's that! There are definitely other options out there, but I have to admit that
-I thoroughly enjoyed the experience of making our own. Even if testing it was a 
+I thoroughly enjoyed the experience of making our own system. Even if testing it was a 
 bit [terrifying](https://fosstodon.org/@steffilazerte/109433645817562816) 😉
 
 {{< figure src = "toot_sm.png" width = "500" alt = "A screen shot of a Mastodon post by Steffi LaZerte with a photo of a cat in a canoe looking at trees in the a distance. The text states 'Hi! Hopefully a final test of rtoot and this time scheduled via GitHub actions 😱 Oh the thrill of accidentally sending a million toots 😉 And because there are never enough kitties, a photo of Vivi canoe camping! #RStats'." class = "center">}}
