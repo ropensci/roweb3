@@ -59,7 +59,7 @@ where we hope to continue sharing examples of our Community Management Tools.
 
 ### What does this workflow entail?
 
-- Using a private repository on GitHub (Mastodon token is stored as GitHub Secrets)
+- Using a private repository on GitHub (Mastodon token is stored as a GitHub Secret)
 - Issues are Mastodon posts (which is why the repo needs to be private!) -> See the [Issue Template](https://github.com/ropensci-org/ro-cmtoolkit/blob/main/scheduled_socials_example/.github/ISSUE_TEMPLATE/schedule-post.md)
 - Actions run hourly (or as needed) to run a script  -> See the [Action Workflow](https://github.com/ropensci-org/ro-cmtoolkit/blob/main/scheduled_socials_example/.github/workflows/schedule_posts.yaml)
 - R script posts issues to Mastodon  -> See the [R script](https://github.com/ropensci-org/ro-cmtoolkit/blob/main/scheduled_socials_example/schedule_posts.R)
@@ -107,11 +107,11 @@ existing workflow is that we can easily see and modify the queue as a team.
 However, it might be a good idea to incorporate the scheduler API into this tool
 at least when posting multiple posts at the same time. Currently, we wait 5 min 
 (using `Sys.sleep()`) between posts in order to space things out a bit more 
-gradually. But this still uses 5 GitHub Action minutes 🤔
+gradually. But this still uses 5 GitHub Action minutes 🤔.
 
 **Interacting with posts**
 
-Right now our work flow doesn't have the capability to interact with posts on 
+Right now our workflow doesn't have the capability to interact with posts on 
 Mastodon. However, I've been toying with the idea of adding a YAML key for post id, 
 so we could set up scheduled replies to existing posts.
 
