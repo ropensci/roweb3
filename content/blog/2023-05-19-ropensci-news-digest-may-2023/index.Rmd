@@ -52,14 +52,14 @@ On the first day of the conference, [Karthik Ram](/author/karthik-ram) was one o
 
 This was a very special edition as it was the first time the event took place in the Southern Hemisphere, allowing several Latin American projects to be part of the conference.
 
-### Export package data from R-universe thanks to webr
+### Export package data from the R-Universe thanks to webr
 
-The R-universe node stack now provides data export links, which use [webr](https://docs.r-wasm.org/webr/latest/) to convert pkg datasets on-the-fly to JSON (via jsonlite), xlsx (via writexl), csv (via data.table), etc. 
+The R-Universe node stack now provides data export links, which use [webr](https://docs.r-wasm.org/webr/latest/) to convert pkg datasets on-the-fly to JSON (via jsonlite), xlsx (via writexl), csv (via data.table), etc. 
 
 Try it yourself, for instance with the [webchem package's two datasets](https://ropensci.r-universe.dev/webchem#).
 You can click on the download icons near their names, or use the direct URLs, for instance https://ropensci.r-universe.dev/webchem/data/lc50/json for the lc50 dataset (Acute toxicity data from U.S. EPA ECOTOX).
 
-The permanent URL to a dataset in a given format can be used in your browser, from R, or from any other tools: this means R-universe helps publish your data to the world!
+The permanent URL to a dataset in a given format can be used in your browser, from R, or from any other tools: this means the R-Universe helps publish your data to the world!
 
 On the technical side, R-universe actually uses webr (with its own [webr bundle](https://github.com/r-universe-org/webr-bundle)) [server-side](https://github.com/r-universe-org/cranlike-server), so not in a browser!
 
@@ -73,7 +73,6 @@ Everyone welcome.
 No RSVP needed. 
 Consult our [Events](/events) page to find your local time and how to join.
     
-And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
 * Tuesday, June 6th, 9:00 Australia Western / 01:00 UTC ["Integrating and merging datasets from different sources"](/events/coworking-2023-06/) *Hosted by community host [Cynthia Huang](/author/cynthia-huang) and [Steffi LaZerte](/author/steffi-lazerte/)*
     - Spend time integrating datasets for your own work
@@ -84,6 +83,8 @@ And remember, you can always cowork independently on work related to R, work on 
     - Explore what goes into a [‘Happy File’](https://twitter.com/JennyBryan/status/1582862196870373377)/[‘Brag Document’](https://jvns.ca/blog/brag-documents/) and why you need one
     - Start collecting items to add to your ‘Happy File’
     - Talk to our community host and other attendees and discuss strategies for integrating datasets.
+
+And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
 ## Software :package:
 
