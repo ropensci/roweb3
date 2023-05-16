@@ -46,7 +46,7 @@ TODO Mark ;-)
 
 ### rOpenSci at Csv,Conf,v7
 
-We participated in the [CSV,Conf,v7](https://csvconf.com/) in Buenos Aires during April 19-20, 2023.
+We participated in the [CSV,Conf,v7](https://csvconf.com/) in Buenos Aires April 19-20, 2023.
 
 On the first day of the conference, [Karthik Ram](/author/karthik-ram) was one of the keynotes presenting ["How to enable and sustain thriving Open Source Ecosystems (OSE)."](/events/2023-04-19-csvconf_keynote/). The next day, [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) presented ["Tell me who you hang out with, and I will tell you who you are. A collaborations analysis using social networks analysis"](/events/2023-04-20-csvconf-regulartalk/), a work done together with Sandro Camargo. 
 
