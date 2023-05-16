@@ -40,7 +40,7 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-### Stat software review
+### Statistical software review updates
 
 We are very happy to welcome [Jouni Helske](/author/jouni-helski) to the editorial team for statistical software review.
 Jouni jumped straight in to act as editor for the [bssm submission](https://github.com/ropensci/software-review/issues/546), an exciting first extension of our system beyond R alone to include functions in the Julia language.
