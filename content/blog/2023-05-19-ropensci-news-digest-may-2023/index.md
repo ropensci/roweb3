@@ -46,6 +46,10 @@ On the technical side, R-universe actually uses webr (with its own [webr bundle]
 
 Note that R-universe already had a few features related to datasets beside listing them on a package page: datasets are indexed for [search](/blog/2023/02/27/runiverse-discovering/#level-1-searching-the-entire-r-ecosystem), and the [standard API output for a package](https://ropensci.r-universe.dev/webchem/json) includes some info about datasets.
 
+### HTTP testing in R book
+
+Maëlle Salmon was [interviewed about her and Scott Chamberlain's HTTP testing in R book](https://www.r-consortium.org/blog/2023/05/15/better-understanding-your-tools-choices-online-book-http-testing-r) on the R Consortium blog.
+
 ### Coworking
 
 Join us for social coworking & office hours monthly on first Tuesdays! 
@@ -118,7 +122,7 @@ There are ten recently closed and active submissions and 3 submissions on hold. 
 
 * One at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
 
-     * [qualtdict](https://github.com/ropensci/software-review/issues/572), Generating Variable Dictionaries and Labelled Data Exports of Qualtrics. Submitted by [lyh970817](https://github.com/lyh970817). 
+     * [qualtdict](https://github.com/ropensci/software-review/issues/572), Generating Variable Dictionaries and Labelled Data Exports of Qualtrics. Submitted by [Yuhao Lin](https://github.com/lyh970817). 
 
 Find out more about [Software Peer Review](/software-review) and how to get involved.
 

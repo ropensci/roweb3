@@ -65,6 +65,10 @@ On the technical side, R-universe actually uses webr (with its own [webr bundle]
 
 Note that R-universe already had a few features related to datasets beside listing them on a package page: datasets are indexed for [search](/blog/2023/02/27/runiverse-discovering/#level-1-searching-the-entire-r-ecosystem), and the [standard API output for a package](https://ropensci.r-universe.dev/webchem/json) includes some info about datasets.
 
+### HTTP testing in R book
+
+Maëlle Salmon was [interviewed about her and Scott Chamberlain's HTTP testing in R book](https://www.r-consortium.org/blog/2023/05/15/better-understanding-your-tools-choices-online-book-http-testing-r) on the R Consortium blog.
+
 ### Coworking
 
 Join us for social coworking & office hours monthly on first Tuesdays! 
@@ -316,6 +320,8 @@ get_description <- function(body) {
 }
 
 get_user_text <- function(issue) {
+  if (issue$number == 572) return("[Yuhao Lin](https://github.com/lyh970817)")
+  
   info <- gh::gh("GET /users/{username}", username = issue$user$login)
   name <- info$name %||% issue$user$login
   url <- if (nzchar(info$blog)) info$blog else info$html_url
@@ -336,7 +342,7 @@ tidy_issue <- function(issue) {
     others = toString(purrr::map_chr(issue$labels, "name")),
     closed_at = issue$closed_at %||% NA,
     url = issue$html_url,
-    user = if (get_user_text(issue) == "lyh970817") "Yuhao Lin" else (get_user_text(issue)),
+    user = get_user_text(issue),
     stats = dplyr::if_else("stats" %in% purrr::map_chr(issue$labels, "name"), " (Stats).", "")
   )
   
