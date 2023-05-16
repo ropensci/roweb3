@@ -336,7 +336,7 @@ tidy_issue <- function(issue) {
     others = toString(purrr::map_chr(issue$labels, "name")),
     closed_at = issue$closed_at %||% NA,
     url = issue$html_url,
-    user = get_user_text(issue),
+    user = if (get_user_text(issue) == "lyh970817") "Yuhao Lin" else (get_user_text(issue)),
     stats = dplyr::if_else("stats" %in% purrr::map_chr(issue$labels, "name"), " (Stats).", "")
   )
   
@@ -489,7 +489,7 @@ format_post <- function(dir) {
   
   post <- dir[which(dir[["language"]] == main_language),]
   string <- sprintf("* [%s](%s) by %s", post$title, url, post$author)
-  if (post$description != "") {
+  if (post$description != "" && !grepl("Introducing Champions and Mentors", post$description)) {
     string <- paste0(string, ". ", sub("\\?$", "", sub("\\!$", "", sub("\\.$", "", post$description), ".")), ".")
   } else {
     string <- paste0(string, ".")  
