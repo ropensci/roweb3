@@ -119,7 +119,7 @@ Boosting and favouriting seem possible, but would probably require using
 `rtoot::rtoot()` to create a custom 
 [API queries](https://docs.joinmastodon.org/methods/statuses/). For this workflow
 that may be a bit too clunky, but it could be possible to set up a different type
-of issue template where post ids to be boosted/favourtied could be listed.
+of issue template where post ids to be boosted/favourited could be listed.
 
 Finally, although post threads aren't common on Mastodon (due to the generally
 sufficient character limit), it should be possible to use comments on an issue to 
