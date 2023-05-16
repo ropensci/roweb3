@@ -611,7 +611,7 @@ If you're interested in maintaining any of the R packages below, you might enjoy
 ### Call for comaintainers
 
 Refer to our somewhat [recent blog post](/blog/2022/10/17/maintain-or-co-maintain-an-ropensci-package/#packages-looking-for-co-maintainers) to identify other packages where help is especially wished for!
-See also our [help wanted page](https://ropensci.org/help-wanted/) -- before opening a PR, we recommend asking in the issue whether help is still needed.
+See also our [help wanted page](/help-wanted/) -- before opening a PR, we recommend asking in the issue whether help is still needed.
 
 ## Package development corner
 
@@ -619,7 +619,7 @@ Some useful tips for R package developers. :eyes:
 
 ### Cool new experimental packages for building API packages!
 
-Are you thinking about building an [API client](https://ropensci.org/blog/2022/06/16/publicize-api-client-yes-no/)?
+Are you thinking about building an [API client](/blog/2022/06/16/publicize-api-client-yes-no/)?
 Check out the new project by Jon Harmon, recently funded by the R Consortium:
 
 - [beekeeper](https://jonthegeek.github.io/beekeeper/) _will allow users to automatically generate R package skeletons from APIs that follow the OpenAPI Specification (OAS) (and probably other specifications, such as swagger, the predecessor to OpenAPI). The skeletons will implement best practices to streamline package development._
@@ -630,7 +630,7 @@ Exciting to follow!
 ### Upkeep for packages
 
 Did you miss the recent coworking session on Spring/Fall cleaning of R packages?
-One nice function that was shared during that meeting, by Andy Teucher, R Package Developer Educator at Posit PBC (Steffi: correct?) is [`usethis::use_upkeep_issue()`](https://usethis.r-lib.org/dev/reference/use_upkeep_issue.html) in the development version of usethis.
+One nice function that was shared during that meeting, by Andy Teucher, R Package Developer Educator at Posit PBC is [`usethis::use_upkeep_issue()`](https://usethis.r-lib.org/dev/reference/use_upkeep_issue.html) in the development version of usethis.
 "This opens an issue in your package repository with a checklist of tasks for regular maintenance of your package."
 Why not try it on one of your packages?
 
@@ -642,10 +642,10 @@ On the same topic, have you heard of [optimistic merging](https://dmerej.info/bl
 
 ### {XML}'s and {RCurl}'s fate
 
-At rOpenSci, we've [recommended against](https://devguide.ropensci.org/building.html#recommended-scaffolding) using the unmaintained XML and RCurl packages for a long time.
+At rOpenSci, we've [recommended](https://devguide.ropensci.org/building.html#recommended-scaffolding) using more actively maintained packages (like xml2 and crul or curl) rather than the unmaintained XML and RCurl packages for a long time.
 It seems the CRAN team is now [looking for new maintainers for them](https://mastodon.social/@henrikbengtsson/110186925898457474).
 See also the [relevant thread](https://github.com/RConsortium/r-repositories-wg/issues/26) of the R Consortium's repositories working group.
-This piece of news is at least one more reason to move your package away from XML and RCurl when you can!
+This last item suggests that maintenance of these packages may be moving towards graceful deprecation, and is another reason to move your package away from XML and RCurl when you can!
 
 ### Reminder about spatial packages' retirement (rgdal, maptools, and rgeos)
 
