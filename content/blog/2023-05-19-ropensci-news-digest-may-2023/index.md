@@ -24,7 +24,7 @@ Now let's dive into the activity at and around rOpenSci!
 ### Statistical software review updates
 
 We are very happy to welcome [Jouni Helske](/author/jouni-helske) to the editorial team for statistical software review.
-Jouni jumped straight in to act as editor for the [bssm submission](https://github.com/ropensci/software-review/issues/546), an exciting first extension of our system beyond R alone to include functions in the Julia language.
+Jouni jumped straight in to act as editor for the [fwildclusterboot submission](https://github.com/ropensci/software-review/issues/546), an exciting first extension of our system beyond R alone to include functions in the Julia language.
 We have so far approved [eight packages](https://github.com/ropensci/software-review/issues?q=is%3Aissue+sort%3Aupdated-desc+label%3Astats+is%3Aclosed+label%3A6%2Fapproved), five of which have a silver badge, and three gold, with two further packages currently under review.
 
 ### rOpenSci at Csv,Conf,v7
