@@ -6,7 +6,7 @@ author:
 date: '2023-05-19'
 tags:
   - newsletter
-description: keywords from the content
+description: statistical software review, csv,conf, R-universe data exports, HTTP testing in R
 params:
   last_newsletter: "2023-04-21"
 ---
@@ -21,9 +21,11 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-### Stat software review
+### Statistical software review updates
 
-TODO Mark ;-)
+We are very happy to welcome [Jouni Helske](/author/jouni-helske) to the editorial team for statistical software review.
+Jouni jumped straight in to act as editor for the [bssm submission](https://github.com/ropensci/software-review/issues/546), an exciting first extension of our system beyond R alone to include functions in the Julia language.
+We have so far approved [eight packages](https://github.com/ropensci/software-review/issues?q=is%3Aissue+sort%3Aupdated-desc+label%3Astats+is%3Aclosed+label%3A6%2Fapproved), five of which have a silver badge, and three gold, with two further packages currently under review.
 
 ### rOpenSci at Csv,Conf,v7
 
@@ -88,7 +90,7 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following eight packages have had an update since the last newsletter: [biomartr](https://docs.ropensci.org/biomartr "Genomic Data Retrieval") ([`v1.0.3`](https://github.com/ropensci/biomartr/releases/tag/v1.0.3)), [cffr](https://docs.ropensci.org/cffr "Generate Citation File Format (cff) Metadata for R Packages") ([`v0.5.0`](https://github.com/ropensci/cffr/releases/tag/v0.5.0)), [crul](https://docs.ropensci.org/crul "HTTP Client") ([`v1.4`](https://github.com/ropensci/crul/releases/tag/v1.4)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.9.4`](https://github.com/ropensci/nodbi/releases/tag/v0.9.4)), [osmdata](https://docs.ropensci.org/osmdata "Import OpenStreetMap Data as Simple Features or Spatial Objects") ([`v0.2.2`](https://github.com/ropensci/osmdata/releases/tag/v0.2.2)), [spiro](https://docs.ropensci.org/spiro "Manage Data from Cardiopulmonary Exercise Testing") ([`v0.2.0`](https://github.com/ropensci/spiro/releases/tag/v0.2.0)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.7.6`](https://github.com/ropensci/tarchetypes/releases/tag/0.7.6)), and [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.0.0`](https://github.com/ropensci/targets/releases/tag/1.0.0)).
+The following twelve packages have had an update since the last newsletter: [biomartr](https://docs.ropensci.org/biomartr "Genomic Data Retrieval") ([`v1.0.3`](https://github.com/ropensci/biomartr/releases/tag/v1.0.3)), [cffr](https://docs.ropensci.org/cffr "Generate Citation File Format (cff) Metadata for R Packages") ([`v0.5.0`](https://github.com/ropensci/cffr/releases/tag/v0.5.0)), [crul](https://docs.ropensci.org/crul "HTTP Client") ([`v1.4`](https://github.com/ropensci/crul/releases/tag/v1.4)), [geojsonio](https://docs.ropensci.org/geojsonio "Convert Data from and to GeoJSON or TopoJSON") ([`v0.11.1`](https://github.com/ropensci/geojsonio/releases/tag/v0.11.1)), [nlrx](https://docs.ropensci.org/nlrx "Setup, Run and Analyze NetLogo Model Simulations from R via XML") ([`v0.4.4`](https://github.com/ropensci/nlrx/releases/tag/v0.4.4)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.9.4`](https://github.com/ropensci/nodbi/releases/tag/v0.9.4)), [osmdata](https://docs.ropensci.org/osmdata "Import OpenStreetMap Data as Simple Features or Spatial Objects") ([`v0.2.2`](https://github.com/ropensci/osmdata/releases/tag/v0.2.2)), [phruta](https://docs.ropensci.org/phruta "Phylogenetic Reconstruction and Time-dating") ([`MEE`](https://github.com/ropensci/phruta/releases/tag/MEE)), [spiro](https://docs.ropensci.org/spiro "Manage Data from Cardiopulmonary Exercise Testing") ([`v0.2.0`](https://github.com/ropensci/spiro/releases/tag/v0.2.0)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.7.6`](https://github.com/ropensci/tarchetypes/releases/tag/0.7.6)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.0.0`](https://github.com/ropensci/targets/releases/tag/1.0.0)), and [waywiser](https://docs.ropensci.org/waywiser "Ergonomic Methods for Assessing Spatial Models") ([`v0.4.0`](https://github.com/ropensci/waywiser/releases/tag/v0.4.0)).
 
 ## Software Peer Review
 
@@ -132,6 +134,12 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 
 
+### Software Review
+
+* [CRediTas is Now Part of rOpenSci](/blog/2023/05/19/ropensci-news-digest-may-2023) by Josep Pueyo-Ros. CRediTas is an R package for generating CrediT author statements for scientific publications.
+
+### Other topics
+
 * [rOpenSci Champions Program Teams: Meet Bilikisu Wunmi Olatunji and Christina Maimone](/blog/2023/05/19/ropensci-news-digest-may-2023) by Bilikisu Wunmi Olatunji, and Christina Maimone.
 
 * [rOpenSci Champions Program Teams: Meet Carolina Pradier and Athanasia Monika Mowinckel](/blog/2023/05/19/ropensci-news-digest-may-2023) by Carolina Pradier, and Athanasia Monika Mowinckel.
@@ -139,6 +147,14 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 * [rOpenSci Champions Program Teams: Meet Haydee Svab and Beatriz Milz](/blog/2023/05/19/ropensci-news-digest-may-2023) by Haydee Svab, and Beatriz Milz.
 
 * [rOpenSci Champions Program Teams: Meet Victor Ordu and Laura DeCicco](/blog/2023/05/19/ropensci-news-digest-may-2023) by Victor Ordu, and Laura DeCicco.
+
+* [rOpenSci Champions Program Teams: Meet César and Marc](/blog/2023/05/19/ropensci-news-digest-may-2023) by Cesar Luis Aybar Camacho, and Marc Choisy.
+
+
+
+### Tech Notes
+
+* [Scheduling Mastodon Posts in R with rtoot and GitHub Actions](/blog/2023/05/19/ropensci-news-digest-may-2023) by Steffi LaZerte. How to schedule Mastodon Posts using rtoot and GitHub Actions.
 
 <!-- ## Use cases
 
