@@ -111,6 +111,10 @@ Using this intermediate being the input for Pandoc can help understand what will
 
 ## Speaking Pandoc linguo
 
+Now that you understand the relation with Pandoc, next step is to understand how Pandoc works.
+You never thought going that far would be happening ?
+Unfortunately, it is when we start troubleshooting a tool that all the *magic* unveiled :wink:.
+
 First of all, how do you find Pandoc docs?
 You can type [`pandoc::pandoc_browse_manual()`](https://cderv.github.io/pandoc/reference/pandoc_browse_manual.html).
 Or you can bookmark the [Pandoc manual URL](https://pandoc.org/MANUAL.html).
