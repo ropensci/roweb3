@@ -240,7 +240,7 @@ It's up to you to find the correct combination, but having some vague understand
 Another thing that will help you, is to know how to pass these things to Pandoc using the Pandoc interface of your choice:
 
 -   If you're calling Pandoc directly or with the pandoc package, it should be relatively straightforward.
--   If you're using R Markdown or Quarto you might need to search for, say ["R Markdown custom Pandoc templates"](https://bookdown.org/yihui/rmarkdown/template-pandoc.html). Besides, there might be a more native R Markdown or Quarto way to reach your goal without messing with Pandoc.
+-   If you're using R Markdown or Quarto you might need to search for, say ["R Markdown custom Pandoc templates"](https://bookdown.org/yihui/rmarkdown/template-pandoc.html). Besides, there might be a more native R Markdown or Quarto way to reach your goal without messing with Pandoc. It is important to keep in mind that those tools leverage Pandoc extensively and aim to make it more user friendly: concepts are the same but they should be easier to use.
 
 ## How to experiment with Pandoc?
 
