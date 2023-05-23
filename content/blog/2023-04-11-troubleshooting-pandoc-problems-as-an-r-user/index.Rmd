@@ -182,6 +182,8 @@ pandoc::pandoc_convert(
 
 ```
 
+Usually, using R Markdown or Quarto, there is not need to modify extension but they can be the source of the troubles or differences you see sometimes.
+
 ### Options
 
 See how we refrained from framing extensions as "options", because [options](https://pandoc.org/MANUAL.html#options) are another thing!
