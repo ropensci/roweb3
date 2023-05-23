@@ -190,7 +190,7 @@ See how we refrained from framing extensions as "options", because [options](htt
 They're sort of arguments to Pandoc calls.
 For instance `--mathml` is an option for rendering math to MathML.
 
-Some options might be hidden by the tool you use to call Pandoc, or handily exposed as argument: for instance, the `to` argument of the `pandoc::pandoc_convert()` function is actually a Pandoc option.
+Some options might be hidden by the tool you use to call Pandoc, or handily exposed as argument: for instance, the `to` argument of the [`pandoc::pandoc_convert()`](https://cderv.github.io/pandoc/reference/pandoc_convert.html) function is actually a Pandoc option.
 
 Below, we use an option to shift heading levels by 1 which increases the heading level number therefore reduce the heading importance.
 
@@ -295,8 +295,8 @@ To know what Pandoc version you're running you can use...
 -   [`rmarkdown::pandoc_version()`](https://pkgs.rstudio.com/rmarkdown/reference/pandoc_available.html) which returns the version used by **rmarkdown**;
 -   `quarto pandoc --version` (in a command line) which returns the version internal to Quarto;
 -   [`pandoc::pandoc_version()`](https://cderv.github.io/pandoc/reference/pandoc_version.html) which returns the version for the default pandoc (the active one, usually the most recent one among the pandoc version **installed with the R package**);
--   `pandoc::pandoc_system_version()` which returns the version of `pandoc` found in PATH;
--   `pandoc::pandoc_rstudio_version()` which returns the version of the Pandoc built in the IDE (could be different version of [`rmarkdown::pandoc_version()`](https://pkgs.rstudio.com/rmarkdown/reference/pandoc_available.html) which could be one from PATH or `RSTUDIO_PANDOC` environment variable).
+-   [`pandoc::pandoc_system_version()`](https://cderv.github.io/pandoc/reference/system_pandoc.html) which returns the version of `pandoc` found in PATH;
+-   [`pandoc::pandoc_rstudio_version()`](https://cderv.github.io/pandoc/reference/rstudio_pandoc.html) which returns the version of the Pandoc built in the IDE (could be different version of [`rmarkdown::pandoc_version()`](https://pkgs.rstudio.com/rmarkdown/reference/pandoc_available.html) which could be one from PATH or `RSTUDIO_PANDOC` environment variable).
 
 So yes, paying attention to the Pandoc version does require some, hum, attention.
 
@@ -310,7 +310,7 @@ Special advice if you build with Pandoc on CI: Pin a pandoc version for your pro
 [^6]: That's the strategy one can use with Hugo when building a static website with Hugo!
     Saving oneself many headaches.
 
-The pandoc package also has very handly withr-like helpers to run code with a given Pandoc version: [`pandoc::local_pandoc_version()` and `pandoc::with_pandoc_version()`](https://cderv.github.io/pandoc/reference/with_pandoc_version.html); as well as a `version` argument in `pandoc::pandoc_convert()`.
+The pandoc package also has very handly withr-like helpers to run code with a given Pandoc version: [`pandoc::local_pandoc_version()` and `pandoc::with_pandoc_version()`](https://cderv.github.io/pandoc/reference/with_pandoc_version.html); as well as a `version` argument in [`pandoc::pandoc_convert()`](https://cderv.github.io/pandoc/reference/pandoc_convert.html).
 This special feature aims at making testing and debugging between several Pandoc versions very easy!
 
 ## Beyond the official docs, beyond Pandoc
