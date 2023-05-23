@@ -60,7 +60,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/Rtmp76u4Lz/file94da76e1777f
+## /tmp/Rtmp06Ylhs/fileb9c83d815222
 ```
 
 ```r
@@ -89,7 +89,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/Rtmp76u4Lz/file94da76e1777f
+## /tmp/Rtmp06Ylhs/fileb9c83d815222
 ```
 
 ```r
@@ -347,7 +347,7 @@ So yes, paying attention to the Pandoc version does require some  attention.
 With Quarto it is less of an issue as with say R Markdown since Quarto will pin a Pandoc version.
 With R Markdown, the design is to work well with latest Pandoc version while still working with older version.
 This is important to understand as you can have in some specific situation different result on different systems with the same rmarkdown version because Pandoc version is not the same.
-As often with R, update regularly unless you know what you do.
+As often with R, [update regularly](https://bookdown.org/yihui/rmarkdown-cookbook/install-pandoc.html) unless you know what you do.
   
 Special advice if you build with Pandoc on CI: Pin a pandoc version for your production setup (GitHub Actions workflow for instance) so that it match your local dev environment.[^6]
 
