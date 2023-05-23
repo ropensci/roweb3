@@ -36,7 +36,7 @@ In this post, we gather resources and tips to help you troubleshoot Pandoc as an
 Say we have a Markdown file and want to convert it to HTML.
 We can do it from R calling the [`pandoc::pandoc_convert()`](https://cderv.github.io/pandoc/reference/pandoc_convert.html)[^2] function that handily wraps Pandoc.
 If you are rather a terminal first user, obviously [`pandoc` CLI tool](https://pandoc.org/MANUAL.html) is your friend.
-In the rest of the post, we will use the pandoc R :package: for examples.
+In the rest of the post, we will use the pandoc R package for examples.
 
 [^2]: R package pandoc is quite recent <https://github.com/cderv/pandoc>, dedicated to use Pandoc CLI from R.
     You can also use the more usual [`rmarkdown::pandoc_convert()`](https://pkgs.rstudio.com/rmarkdown/reference/pandoc_convert.html) to access pandoc used with R Markdown.
@@ -279,7 +279,7 @@ When troubleshooting pandoc behavior through other tools here is some useful tip
 -   With R Markdown, [`rmarkdown::find_pandoc()`](https://pkgs.rstudio.com/rmarkdown/reference/find_pandoc.html) will allow you to know where is the Pandoc binary located.
     You can run it in terminal, or use the [`rmarkdown::pandoc_*` family of functions](https://pkgs.rstudio.com/rmarkdown/reference/index.html#pandoc).
 
--   Within R, the pandoc :package:can help you run a specific version, compare between version and isolate your Pandoc work.
+-   Within R, the pandoc package can help you run a specific version, compare between version and isolate your Pandoc work.
     Whichever tool you are using, once you know the version number, you can easily run Pandoc itself.
 
 ## Keeping up with Pandoc, or freezing Pandoc!
