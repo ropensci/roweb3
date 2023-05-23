@@ -13,7 +13,7 @@ author:
 attendees:
   - Heather Turner
 resources: # can be added later, one entry per talk (don't add while still empty, add once there are resources)
-  - title: ""
+  - title: "How to contribute to base R (champions training)"
     speaker: Heather Turner
     slides: https://hturner.github.io/rOpenSci_champions/
     video: https://www.youtube.com/watch?v=VOlF8fPf9v8
