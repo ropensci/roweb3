@@ -113,7 +113,7 @@ Using this intermediate being the input for Pandoc can help understand what will
 
 Now that you understand the relation with Pandoc, next step is to understand how Pandoc works.
 You never thought going that far would be happening ?
-Unfortunately, it is when we start troubleshooting a tool that all the *magic* unveiled :wink:.
+Unfortunately, it is when we start troubleshooting a tool that all the *magic* is unveiled :wink:.
 
 First of all, how do you find Pandoc docs?
 You can type [`pandoc::pandoc_browse_manual()`](https://cderv.github.io/pandoc/reference/pandoc_browse_manual.html).
@@ -160,7 +160,7 @@ format:
 ```
 
 to turn on the indispensable emoji support.
-:tada:
+🎉
 
 Below is an example where we call Pandoc directly.
 Note we do it on strings directly, without writing anything to files, which can be handy at times!
@@ -216,7 +216,7 @@ This is another level of advanced details that will be skip in this post... but 
 [Variables](https://pandoc.org/MANUAL.html#variables) are the metadata you might be used to passing to Pandoc via the YAML header (for R Markdown and Quarto).
 They will generally be used in templates to opt-in some specific content and behavior for the output format.
 
-They can also be passed at command line, for instance rmarkdown's output format function caan use this with `rmarkdown::pandoc_variable_arg()`.
+They can also be passed at command line, for instance rmarkdown's output format function can use this with `rmarkdown::pandoc_variable_arg()`.
 
 ### Templates
 
