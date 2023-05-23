@@ -1,11 +1,11 @@
 ---
-slug: "post-template"
+slug: "troubleshooting-pandoc-problems-as-an-r-user"
 title: Troubleshooting Pandoc problems as an R user
 author:
   - Maëlle Salmon
   - Christophe Dervieux
 # Set the date below to the publication date of your post
-date: 2023-04-10
+date: 2023-06-01
 # Minimal tags for a post about a community-contributed package 
 # that has passed software peer review are listed below
 # Consult the Technical Guidelines for information on choosing tags
@@ -39,7 +39,7 @@ If you are rather a terminal first user, obviously [`pandoc` CLI tool](https://p
 In the rest of the post, we will use the pandoc R :package: for examples.
 
 [^2]: R package pandoc is quite recent <https://github.com/cderv/pandoc>, dedicated to use Pandoc CLI from R.
-    You can also use the more usual `rmarkdown::pandoc_convert()` to access pandoc used with R Markdown.
+    You can also use the more usual [`rmarkdown::pandoc_convert()`](https://pkgs.rstudio.com/rmarkdown/reference/pandoc_convert.html) to access pandoc used with R Markdown.
 
 ```{r}
 md_lines <- c(
@@ -216,7 +216,7 @@ This is another level of advanced details that will be skip in this post... but 
 [Variables](https://pandoc.org/MANUAL.html#variables) are the metadata you might be used to passing to Pandoc via the YAML header (for R Markdown and Quarto).
 They will generally be used in templates to opt-in some specific content and behavior for the output format.
 
-They can also be passed at command line, for instance rmarkdown's output format function can use this with `rmarkdown::pandoc_variable_arg()`.
+They can also be passed at command line, for instance rmarkdown's output format function can use this with [`rmarkdown::pandoc_variable_arg()`](https://pkgs.rstudio.com/rmarkdown/reference/pandoc_args.html).
 
 ### Templates
 
@@ -276,8 +276,8 @@ When troubleshooting pandoc behavior through other tools here is some useful tip
 -   With Quarto, you can access bundled pandoc with `quarto pandoc` command.
     It will be like calling `pandoc` directly, but using the version bundled with the Quarto version you are using
 
--   With R Markdown, `rmarkdown::find_pandoc()` will allow you to know where is the Pandoc binary located.
-    You can run it in terminal, or use `rmarkdown::pandoc_*` family of function
+-   With R Markdown, [`rmarkdown::find_pandoc()`](https://pkgs.rstudio.com/rmarkdown/reference/find_pandoc.html) will allow you to know where is the Pandoc binary located.
+    You can run it in terminal, or use the [`rmarkdown::pandoc_*` family of functions](https://pkgs.rstudio.com/rmarkdown/reference/index.html#pandoc).
 
 -   Within R, the pandoc :package:can help you run a specific version, compare between version and isolate your Pandoc work.
     Whichever tool you are using, once you know the version number, you can easily run Pandoc itself.
@@ -292,11 +292,11 @@ Pay attention to the Pandoc version that you're using locally, on continuous int
 
 To know what Pandoc version you're running you can use...
 
--   `rmarkdown::pandoc_version()` which returns the version used by **rmarkdown**;
+-   [`rmarkdown::pandoc_version()`](https://pkgs.rstudio.com/rmarkdown/reference/pandoc_available.html) which returns the version used by **rmarkdown**;
 -   `quarto pandoc --version` (in a command line) which returns the version internal to Quarto;
 -   [`pandoc::pandoc_version()`](https://cderv.github.io/pandoc/reference/pandoc_version.html) which returns the version for the default pandoc (the active one, usually the most recent one among the pandoc version **installed with the R package**);
 -   `pandoc::pandoc_system_version()` which returns the version of `pandoc` found in PATH;
--   `pandoc::pandoc_rstudio_version()` which returns the version of the Pandoc built in the IDE (could be different version of `rmarkdown::pandoc_version()` which could be one from PATH or `RSTUDIO_PANDOC` environment variable).
+-   `pandoc::pandoc_rstudio_version()` which returns the version of the Pandoc built in the IDE (could be different version of [`rmarkdown::pandoc_version()`](https://pkgs.rstudio.com/rmarkdown/reference/pandoc_available.html) which could be one from PATH or `RSTUDIO_PANDOC` environment variable).
 
 So yes, paying attention to the Pandoc version does require some, hum, attention.
 
