@@ -271,6 +271,17 @@ In any case, as with any reprex you'll want to make it minimal.
 
 Note that you can test Pandoc in your browser on [pandoc.org/try](https://pandoc.org/try/).
 
+When troubleshooting pandoc behavior through other tools here is some useful tips:
+
+-   With Quarto, you can access bundled pandoc with `quarto pandoc` command.
+    It will be like calling `pandoc` directly, but using the version bundled with the Quarto version you are using
+
+-   With R Markdown, `rmarkdown::find_pandoc()` will allow you to know where is the Pandoc binary located.
+    You can run it in terminal, or use `rmarkdown::pandoc_*` family of function
+
+-   Within R, the pandoc :package:can help you run a specific version, compare between version and isolate your Pandoc work.
+    Whichever tool you are using, once you know the version number, you can easily run Pandoc itself.
+
 ## Keeping up with Pandoc, or freezing Pandoc!
 
 Keeping up with Pandoc is really not mandatory and reading the changelog could be hard to follow without proper understanding of how Pandoc is working.
