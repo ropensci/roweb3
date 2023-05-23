@@ -205,6 +205,12 @@ pandoc::pandoc_convert(
 
 See how the "Important announcement" header becomes a h *2* in the output.
 
+Those options can be set with Pandoc using YAML format through a [default file](https://pandoc.org/MANUAL.html#defaults-files).
+This is another level of advanced details that will be skip in this post... but now you know about default file[^5]
+
+[^5]: By the way, this is what Quarto leverages internally so that YAML options from document can be passed to Pandoc.
+    Useful to know if you happen to debug Pandoc within Quarto.
+
 ### Variables
 
 [Variables](https://pandoc.org/MANUAL.html#variables) are the metadata you might be used to passing to Pandoc via the YAML header (for R Markdown and Quarto).
@@ -281,9 +287,9 @@ To know what Pandoc version you're running you can use...
 So yes, paying attention to the Pandoc version does require some, hum, attention.
 
 With Quarto it is less of an issue as with say R Markdown since Quarto will pin a Pandoc version.
-You can imitate this behavior: if you have a Pandoc version that works well for your use case, just install that one on your production GitHub Actions workflow for instance.[^5]
+You can imitate this behavior: if you have a Pandoc version that works well for your use case, just install that one on your production GitHub Actions workflow for instance.[^6]
 
-[^5]: That's the strategy one can use with Hugo when building a static website with Hugo!
+[^6]: That's the strategy one can use with Hugo when building a static website with Hugo!
     Saving oneself many headaches.
 
 The pandoc package also has very handly withr-like helpers to run code with a given Pandoc version: [`pandoc::local_pandoc_version()` and `pandoc::with_pandoc_version()`](https://cderv.github.io/pandoc/reference/with_pandoc_version.html); as well as a `version` argument in `pandoc::pandoc_convert()`.
@@ -299,9 +305,9 @@ If reading the docs and experimenting doesn't get you where you need to be, what
 Or what if Pandoc is not enough for your use case?
 
 -   [Quarto](https://quarto.org/) is in fact a very user friendly layer of Pandoc with a lot of additional features and new defaults to make Pandoc better for scientific publishing. So usually if Pandoc is not enough (or hard to use), go look at Quarto (which has projects, etc.). Quarto with .md file is a like a cleverer Pandoc (no computation or else, only like Pandoc some text to convert).
--   You could *build upon* Pandoc. Christophe recommends learning about [Lua filters](https://pandoc.org/lua-filters.html). See also [Lua filters for Quarto](https://quarto.org/docs/extensions/filters.html); [Lua filters for R Markdown](https://bookdown.org/yihui/rmarkdown-cookbook/lua-filters.html). Maëlle hasn't learnt about them yet, and tends to convert things into HTML then parse them with xml2[^6].
+-   You could *build upon* Pandoc. Christophe recommends learning about [Lua filters](https://pandoc.org/lua-filters.html). See also [Lua filters for Quarto](https://quarto.org/docs/extensions/filters.html); [Lua filters for R Markdown](https://bookdown.org/yihui/rmarkdown-cookbook/lua-filters.html). Maëlle hasn't learnt about them yet, and tends to convert things into HTML then parse them with xml2[^7].
 
-[^6]: It might make workflows feel like [The Incredible Machine](https://en.wikipedia.org/wiki/The_Incredible_Machine_(video_game)).
+[^7]: It might make workflows feel like [The Incredible Machine](https://en.wikipedia.org/wiki/The_Incredible_Machine_(video_game)).
 
 ```{=html}
 <!-- -->
