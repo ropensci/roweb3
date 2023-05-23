@@ -60,7 +60,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/RtmpyM5poK/file76be75deec9d
+## /tmp/RtmpMblz8Y/file7b0b40849449
 ```
 
 ```r
@@ -89,7 +89,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/RtmpyM5poK/file76be75deec9d
+## /tmp/RtmpMblz8Y/file7b0b40849449
 ```
 
 ```r
@@ -118,7 +118,7 @@ Here are some elements to help you pinpoint whether Pandoc is the thing tripping
 
 -   You might actually see a Pandoc error in the output, which usually mean something wrongs during Pandoc conversion step.
     Debugging using the input file passed to Pandoc will be the easiest.
-    If the tool you use is creating this input for you (like R Markdown or Quarto), add the configuration to keep the markdown input.
+    If the tool you use is creating this input for you (like R Markdown or Quarto), add the configuration to keep the Markdown input. See next subsection for more details!
 
 -   If you're having a case of "but it worked yesterday!", for instance "I did not change anything on R side but this does not work anymore: maybe the Pandoc version changed? Switching the Pandoc version, perhaps using [the pandoc package's functionality for handling the Pandoc version](https://cderv.github.io/pandoc/reference/index.html#handle-pandoc-version), can show a problem with a new Pandoc version, however this is rare.
 
