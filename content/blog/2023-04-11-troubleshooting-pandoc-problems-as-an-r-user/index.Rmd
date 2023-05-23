@@ -301,12 +301,17 @@ To know what Pandoc version you're running you can use...
 So yes, paying attention to the Pandoc version does require some, hum, attention.
 
 With Quarto it is less of an issue as with say R Markdown since Quarto will pin a Pandoc version.
-You can imitate this behavior: if you have a Pandoc version that works well for your use case, just install that one on your production GitHub Actions workflow for instance.[^6]
+With R Markdown, the design is to work well with latest Pandoc version while still working with older version.
+This is important to understand as you can have in some specific situation different result on different system with same rmarkdown verison because Pandoc version is not the same.
+As often with R, update regularly unless you know what you do.
+  
+Special advice if you build with Pandoc on CI: Pin a pandoc version for your production setup (GitHub Actions workflow for instance) so that it match your local dev environment.[^6]
 
 [^6]: That's the strategy one can use with Hugo when building a static website with Hugo!
     Saving oneself many headaches.
 
 The pandoc package also has very handly withr-like helpers to run code with a given Pandoc version: [`pandoc::local_pandoc_version()` and `pandoc::with_pandoc_version()`](https://cderv.github.io/pandoc/reference/with_pandoc_version.html); as well as a `version` argument in `pandoc::pandoc_convert()`.
+This special feature aims at making testing and debugging between several Pandoc versions very easy!
 
 ## Beyond the official docs, beyond Pandoc
 
