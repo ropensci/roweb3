@@ -249,7 +249,7 @@ Interestingly, although it's great to create a Pandoc reprex, you **cannot** cre
 
 In this post we've shown a few examples, calling Pandoc directly on strings, or on [temporary files created with withr](#pandoc-101).
 
-Here's Christophe's usual Rmd reprex [snippet](https://support.posit.co/hc/en-us/articles/204463668-Code-Snippets-in-the-RStudio-IDE):
+Here's Christophe's usual Rmd reprex RStudio's [snippet](https://support.posit.co/hc/en-us/articles/204463668-Code-Snippets-in-the-RStudio-IDE):
 
 ``` r
 dir.create(tmp_dir <- tempfile())
