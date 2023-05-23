@@ -325,15 +325,10 @@ Or what if Pandoc is not enough for your use case?
 
 -   [Quarto](https://quarto.org/) is in fact a very user friendly layer of Pandoc with a lot of additional features and new defaults to make Pandoc better for scientific publishing. So usually if Pandoc is not enough (or hard to use), go look at Quarto (which has projects, etc.). Quarto with .md file is a like a cleverer Pandoc (no computation or else, only like Pandoc some text to convert).
 -   You could *build upon* Pandoc. Christophe recommends learning about [Lua filters](https://pandoc.org/lua-filters.html). See also [Lua filters for Quarto](https://quarto.org/docs/extensions/filters.html); [Lua filters for R Markdown](https://bookdown.org/yihui/rmarkdown-cookbook/lua-filters.html). Maëlle hasn't learnt about them yet, and tends to convert things into HTML then parse them with xml2[^7].
+-   The rarest case would be to open a Pandoc feature request.
+-   You could use something else than Pandoc, like the [commonmark R package by Jeroen Ooms](https://docs.ropensci.org/commonmark/) or the [markdown package by Yihui Xie](https://pkgs.rstudio.com/rmarkdown/articles/rmarkdown.html) or the [tinkr package by Zhian Kamvar](https://docs.ropensci.org/tinkr/) that build upon it.
 
 [^7]: It might make workflows feel like [The Incredible Machine](https://en.wikipedia.org/wiki/The_Incredible_Machine_(video_game)).
-
-```{=html}
-<!-- -->
-```
--   The rarest case would be to open a Pandoc feature request.
-
--   You could use something else than Pandoc, like the [commonmark R package by Jeroen Ooms](https://docs.ropensci.org/commonmark/) or the [markdown package by Yihui Xie](https://pkgs.rstudio.com/rmarkdown/articles/rmarkdown.html) or the [tinkr package by Zhian Kamvar](https://docs.ropensci.org/tinkr/) that build upon it.
 
 ## Conclusion
 
