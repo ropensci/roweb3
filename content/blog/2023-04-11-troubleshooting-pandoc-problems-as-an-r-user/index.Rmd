@@ -119,6 +119,7 @@ First of all, how do you find Pandoc docs?
 You can type [`pandoc::pandoc_browse_manual()`](https://cderv.github.io/pandoc/reference/pandoc_browse_manual.html).
 Or you can bookmark the [Pandoc manual URL](https://pandoc.org/MANUAL.html).
 It's actually all-caps MANUAL which underlines the importance of reading it: if you skim through it at least once, you will have a better idea of what's there... and of how things are called in the Pandoc world, so you can ask better questions to your search engine or collaborators!
+You can even be [rewarded for having read the Pandoc MANUAL](https://yihui.org/en/2017/11/thanks-tj-mahr/) !
 
 Now, how else does one learn how to "speak Pandoc"?
 
