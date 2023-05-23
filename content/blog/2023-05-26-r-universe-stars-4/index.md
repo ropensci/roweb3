@@ -14,14 +14,14 @@ tags:
   - r-universe-stars
 featured: true
 # The summary below will be used by e.g. Twitter cards
-description: ""
+description: "Climate change and research in the area have a diversity and complexity of data that demand increasingly complex analysis models. The PEcAn project works to develop this ability."
 
 ---
 
-A new post of our interview series [“Meeting the stars of the R-universe”](/tags/r-universe-stars/). We aim to introduce the teams and people behind the development of software and packages many of us use and which are available through the R-Universe. We want to highlight and explore different teams and projects around the world, the work they do, their processes and users. Our third stop is __Norway__ to talk with __Athanasia Monika Mowinckel__. Be sure to watch the [video](/blog/2023/03/30/r-universe-stars-3-en/#video-of-the-interview) at the end with excerpts from the interview.
+A new post of our interview series [“Meeting the stars of the R-universe”](/tags/r-universe-stars/). We aim to introduce the teams and people behind the development of software and packages many of us use and which are available through the R-Universe. We want to highlight and explore different teams and projects around the world, the work they do, their processes and users. Our third stop is __Unite States__ to talk with __  __, representing the PEcAN project. Be sure to watch the [video](/blog/2023/03/30/r-universe-stars-3-en/#video-of-the-interview) at the end with excerpts from the interview.
 
 
-{{< figure src = "/img/team/mo-mentor.png" class = "pull-left" width = "300" alt = "Profile photo of Athanasia Monika Mowinckel." caption = "<center><strong>Athanasia Monika Mowinckel</strong><br>Researcher and RSE</center>">}}
+{{< figure src = "team.jpeg" class = "pull-left" width = "300" alt = "Profile photo of ." caption = "<center><strong></strong><br></center>">}}
 
 Climate change and research in the area have a diversity and complexity of data that demand increasingly complex analysis models. The PEcAn project works to develop this ability.
 
@@ -37,18 +37,19 @@ In the job description, the concept of community quickly comes up. They have a l
 
 An example of this practice is the project they are developing with Brooklyn National Laboratory, where they are working on NASA carbon monitoring that uses a data simulation system. In this case, two students are developing their PhDs and postdocs.
 
-A tree that keeps growing 
+## A tree that keeps growing 
 
 In this work structure, one of the main objectives is to become a kind of "Hacker" that solves problems in a more general sense that can then be applied in other contexts and in other areas. According to Rob, knowledge can be sustained and grow thanks to the research developed across multiple institutions including University of Illinois, Boston University, University of Arizona, University of Wisconsin and Brookhaven National Laboratory. 
 
 In relation to the experience of working together with Google, where they are looking to develop and promote ecosystem modeling tools, Chris explains that part of the success is that it is not just one university doing research but a large team of people all over the world working together. Although it takes longer, the result is used by a much wider community.
 
 <fig 2: diagram of models shown during the interview>
-The R Universe experience
+
+## The R Universe experience
 
 Their packages are organized into different groups where you can find basic packages, useful tools, and modules that include packages for data management and also packages to do statistical analysis on the inputs and outputs of the models.
 
-One of the most important points of having all the packages in an orderly manner in the R-Universe is to simplify the work of researchers. The models save them years of work and resources.
+One of the most important points of[ having all the packages in an orderly manner in the R-Universe](https://pecanproject.r-universe.dev/builds) is to simplify the work of researchers. The models save them years of work and resources.
 
 In addition, with many people working on the packages, errors are more likely to decrease. Although the whole team knows that the PEcAn project code is not bug-free, they have a better chance of finding and fixing bugs by having more eyes looking at the same thing.
 

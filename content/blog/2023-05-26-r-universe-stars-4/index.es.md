@@ -14,14 +14,14 @@ tags:
   - r-universe-stars
 featured: true
 # The summary below will be used by e.g. Twitter cards
-description: ""
+description: "El cambio climático y las investigaciones en el área tienen una diversidad y complejidad de datos que demandan modelos de análisis cada vez más complejos. El proyecto PEcAn trabaja para desarrollar esa habilidad."
 
 ---
 
 Un nuevo artículo de nuestra serie de entrevistas ["Conociendo a las estrellas del universo R"](/tags/r-universe-stars/). Nuestro objetivo es presentar a los equipos y personas que están detrás del desarrollo de software y paquetes que utilizamos y que están disponibles a través del R-universe. Queremos destacar y explorar diferentes equipos y proyectos de todo el mundo, el trabajo que realizan, sus procesos y usuarios. Nuestra tercera parada es __Estados Unidos__ para hablar con __ __, representantes del proyecto PEcAn.
 
 
-{{< figure src = "/img/team/mo-mentor.png" class = "pull-left" width = "300" alt = "Foto de perfil de Athanasia Monika Mowinckel." caption = "<center><strong>Athanasia Monika Mowinckel</strong><br>Investigadora e Ingeniera de Software de Investigación</center>">}}
+{{< figure src = "team.png" class = "pull-left" width = "300" alt = "Foto de perfil de ." caption = "<center><strong></strong><br></center>">}}
 
 
 
