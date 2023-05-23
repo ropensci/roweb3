@@ -97,7 +97,7 @@ Here are some elements to help you pinpoint whether Pandoc is the thing tripping
 In all cases, Pandoc might also be your problem if you're pushing the limits of what to achieve with another tool using Pandoc.
 For instance, if you want some particular conversion, like having emojis à la `:grin:` rendered to actual emojis in your Quarto reveal.js slides, you might need to tweak something related to Pandoc.
 
-## Focus on accessing Pandoc's input
+### How to access Pandoc's input
 
 Even if Pandoc is a generic converter that can handle several formats as inputs and outputs, in the R Markdown and Quarto ecosystem, the input format will be Markdown through a `.md` file.
 
@@ -111,9 +111,9 @@ Using this intermediate being the input for Pandoc can help understand what will
 
 ## Speaking Pandoc linguo
 
-Now that you understand the relation with Pandoc, next step is to understand how Pandoc works.
-You never thought going that far would be happening ?
-Unfortunately, it is when we start troubleshooting a tool that all the *magic* is unveiled :wink:.
+Now that you understand the relation with Pandoc, the next step is to understand how Pandoc works.
+You never thought going that far would be happening?
+Unfortunately, it is when we start troubleshooting a tool that all the *magic* is unveiled 😉.
 
 First of all, how do you find Pandoc docs?
 You can type [`pandoc::pandoc_browse_manual()`](https://cderv.github.io/pandoc/reference/pandoc_browse_manual.html).
@@ -129,7 +129,7 @@ She first looked for "raw/naked links", before (re)discovering they're called ba
 
 Speaking of extensions!
 What is the basic vocabulary one needs to troubleshoot a Pandoc issue?
-It comes with time but a good starting list would be
+It comes with time but a good starting list would be...
 
 ### Formats
 
@@ -147,7 +147,7 @@ In Quarto and R Markdown you are by default[^3] expected to be writing Pandoc's 
 [Extensions](https://pandoc.org/MANUAL.html#extensions) are modifiers of the behavior of Pandoc readers and writers.
 Extensions are extensions (or contractions, since they can be turned off) of *formats*, not of *Pandoc*.
 For instance, the ["smart"](https://pandoc.org/MANUAL.html#extension-smart) extension will interpret some typography elements, like two dashes as en-dash[^4], is enabled by default for markdown so if you want to convert from Markdown to HTML without transforming the two dashes, you'd use `markdown-smart` as input format.
-Not all extensions work for a format, make sure you read the docs (:wink:), use [`pandoc::pandoc_list_extensions()`](https://cderv.github.io/pandoc/reference/pandoc_list_extensions.html) to list extensions available for a format.
+Not all extensions work for a format, make sure you read the docs (😉), use [`pandoc::pandoc_list_extensions()`](https://cderv.github.io/pandoc/reference/pandoc_list_extensions.html) to list extensions available for a format.
 A format Maëlle has used when producing slides with Quarto is
 
 [^4]: Maëlle thought these were called "long dashes".
@@ -159,7 +159,7 @@ format:
     from: markdown+emoji
 ```
 
-to turn on the indispensable emoji support.
+to turn on the _indispensable_ emoji support.
 🎉
 
 Below is an example where we call Pandoc directly.
@@ -182,7 +182,7 @@ pandoc::pandoc_convert(
 
 ```
 
-Usually, using R Markdown or Quarto, there is not need to modify extension but they can be the source of the troubles or differences you see sometimes.
+Usually, using R Markdown or Quarto, there is not need to modify extensions but they can be the source of the troubles or differences you see sometimes.
 
 ### Options
 
@@ -206,7 +206,7 @@ pandoc::pandoc_convert(
 See how the "Important announcement" header becomes a h *2* in the output.
 
 Those options can be set with Pandoc using YAML format through a [default file](https://pandoc.org/MANUAL.html#defaults-files).
-This is another level of advanced details that will be skip in this post... but now you know about default file[^5]
+This is another level of advanced details that will be skip in this post... but now you know about default files[^5].
 
 [^5]: By the way, this is what Quarto leverages internally so that YAML options from document can be passed to Pandoc.
     Useful to know if you happen to debug Pandoc within Quarto.
@@ -298,11 +298,11 @@ To know what Pandoc version you're running you can use...
 -   [`pandoc::pandoc_system_version()`](https://cderv.github.io/pandoc/reference/system_pandoc.html) which returns the version of `pandoc` found in PATH;
 -   [`pandoc::pandoc_rstudio_version()`](https://cderv.github.io/pandoc/reference/rstudio_pandoc.html) which returns the version of the Pandoc built in the IDE (could be different version of [`rmarkdown::pandoc_version()`](https://pkgs.rstudio.com/rmarkdown/reference/pandoc_available.html) which could be one from PATH or `RSTUDIO_PANDOC` environment variable).
 
-So yes, paying attention to the Pandoc version does require some, hum, attention.
+So yes, paying attention to the Pandoc version does require some  attention.
 
 With Quarto it is less of an issue as with say R Markdown since Quarto will pin a Pandoc version.
 With R Markdown, the design is to work well with latest Pandoc version while still working with older version.
-This is important to understand as you can have in some specific situation different result on different system with same rmarkdown verison because Pandoc version is not the same.
+This is important to understand as you can have in some specific situation different result on different systems with the same rmarkdown version because Pandoc version is not the same.
 As often with R, update regularly unless you know what you do.
   
 Special advice if you build with Pandoc on CI: Pin a pandoc version for your production setup (GitHub Actions workflow for instance) so that it match your local dev environment.[^6]
@@ -335,6 +335,6 @@ Or what if Pandoc is not enough for your use case?
 In this post we shared some useful resources for troubleshooting your Pandoc problems.
 It's crucial to remember your Pandoc skills and vocabulary will improve with practice.
 
-As an R user, do not forget that Pandoc is under a lot of your publication tools; and that there's a handy R package to interact with Pandoc: pandoc.
+As an R user, do not forget that Pandoc supports a lot of your publication tools; and that there's a handy R package to interact with Pandoc: pandoc.
 
 If you enjoy playing with files in various formats, you might also appreciate reading about [rtika](/blog/2018/04/25/rtika-introduction/) by Sasha Goodman.
