@@ -1,18 +1,5 @@
 [
 {
-   "icon": "video fa",
-   "title": "Presentación de rOpenSci y el programa de campeon(a|e)s",
-   "text": "Video y presentación del programa en español. Organizado junto al grupo de usuarios RenBuenosAires.",
-   "url": "/events/renbaires-2022/"
-},
-{
-   "icon": "video fa",
-   "title": "rOpenSci and rOpenSci's Champions Program presentation",
-   "text": "Video and slides in English presenting rOpenSci and the Champion program. Organize with Abuja R User Group.",
-   "url": "/events/abuja-2022/"
-   
-},
-{
    "icon": "clipboard fa",
    "title": "Program Details - Champions",
    "text": "",
@@ -29,24 +16,7 @@
    "title": "Posts about the program",
    "text": "",
    "url": "/tags/champions-program"
-},
-{
-   "icon": "clipboard fa",
-   "title": "Beginner package development training",
-   "text": "",
-   "url": "https://rpkgdev-mechanics.netlify.app/"
-},
-{
-   "icon": "clipboard fa",
-   "title": "Advanced package development training",
-   "text": "",
-   "url": "https://rpkgdev-rocket.netlify.app/"
-},
-{
-   "icon": "clipboard fa",
-   "title": "Mentorship Training and Orientation",
-   "text": "",
-   "url": "https://ropensci-training.github.io/ropensci-mentors/"
-}]
+}
+]
 
 
