@@ -9,9 +9,9 @@ country: "\U0001F310" # emoji
 tags: 
   - champions
 author:
-  - Paola Corrales
+  - Pao Corrales
 attendees:
-  - Paola Corrales
+  - Pao Corrales
   - Yanina Bellini Saibene
 resources: # can be added later, one entry per talk (don't add while still empty, add once there are resources)
   - title: "Developing Software Together (training for champions program applicants)"
