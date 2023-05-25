@@ -15,7 +15,7 @@ attendees:
   - Yanina Bellini Saibene
 resources: # can be added later, one entry per talk (don't add while still empty, add once there are resources)
   - title: "Developing Software Together (training for champions program applicants)"
-    speaker: Paola Corrales
+    speaker: Pao Corrales
     slides: https://paocorrales.github.io/git-developing-software-together/
     language: en
 ---
