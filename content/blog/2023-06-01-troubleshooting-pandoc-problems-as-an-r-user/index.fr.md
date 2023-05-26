@@ -59,7 +59,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/RtmpFxHMIt/filed5f0285e5797
+## /tmp/RtmpqT9Ht9/filed8a86834e0aa
 ```
 
 ```r
@@ -89,7 +89,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/RtmpFxHMIt/filed5f0285e5797
+## /tmp/RtmpqT9Ht9/filed8a86834e0aa
 ```
 
 ```r
@@ -264,7 +264,7 @@ Ils peuvent également être passés via la ligne de commande, par exemple la fo
 
 ### Templates (Modèles)
 
-Si tu demandes à Pandoc de créer un slidedeck reveal.js, il le fera en utilisant son [modèle par défaut](https://github.com/jgm/pandoc-templates/blob/master/default.revealjs).
+Si tu demandes à Pandoc de créer un diaporama reveal.js, il le fera en utilisant son [modèle par défaut](https://github.com/jgm/pandoc-templates/blob/master/default.revealjs).
 Le modèle est rempli avec ton contenu Markup mais aussi avec des variables comme les noms des auteurs.
 Tu peux fournir tes propres ["custom templates" (modèles personnalisés)](https://pandoc.org/MANUAL.html#templates) en utilisant l'outil `--template` option.
 [pandoc::pandoc\_export\_template()](https://cderv.github.io/pandoc/reference/pandoc_export_template.html) crée un fichier contenant le modèle par défaut pour une version spécifique de Pandoc, que tu peux explorer ou utiliser comme point de départ pour créer ton propre modèle.
