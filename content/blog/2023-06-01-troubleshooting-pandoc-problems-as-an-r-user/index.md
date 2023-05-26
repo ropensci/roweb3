@@ -62,7 +62,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/RtmpI1gULz/file45c23a2ef57c
+## /tmp/RtmpsRb33a/file48383885bdaa
 ```
 
 ```r
@@ -92,7 +92,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/RtmpI1gULz/file45c23a2ef57c
+## /tmp/RtmpsRb33a/file48383885bdaa
 ```
 
 ```r
@@ -328,7 +328,7 @@ When troubleshooting pandoc behavior through other tools here is some useful tip
     You can run it in a terminal, or use the [`rmarkdown::pandoc_*` family of functions](https://pkgs.rstudio.com/rmarkdown/reference/index.html#pandoc).
 
 -   Within R, the pandoc package can help you run a specific version, compare between versions and isolate your Pandoc work.
-    Whichever tool you are using, once you know the version number, you can easily run Pandoc itself.
+    Whichever tool you are using, once you know the version number, you can run Pandoc itself (from R with the pandoc package, from a terminal) by installing the correct version.
 
 ## Keeping up with Pandoc, or freezing Pandoc!
 
