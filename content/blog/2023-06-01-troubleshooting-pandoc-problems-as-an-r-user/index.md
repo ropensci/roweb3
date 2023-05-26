@@ -62,7 +62,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/RtmpNm031Q/file4b6853d3190b
+## /tmp/Rtmp6RDdWA/file50c470a14b9f
 ```
 
 ```r
@@ -79,7 +79,7 @@ brio::read_lines(html_file)
 That magic of **going from one Markup language to another** is Pandoc's job.
 Pandoc supports many input and output formats, with tweaks available for various elements.
 
-For instance, we could change the call slightly to not get an identifier for the h1 heading in the HTML (i.e., remove the `id` part of the `<h1>` tag).
+For instance, we could change the call slightly to not get an identifier for the h1 heading in the HTML (that is to say, remove the `id` part of the `<h1>` tag).
 
 
 ```r
@@ -92,7 +92,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/RtmpNm031Q/file4b6853d3190b
+## /tmp/Rtmp6RDdWA/file50c470a14b9f
 ```
 
 ```r
