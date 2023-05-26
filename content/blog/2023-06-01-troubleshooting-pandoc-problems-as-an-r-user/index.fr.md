@@ -59,7 +59,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/RtmpAQ9s7k/filee3e175db0a7f
+## /tmp/RtmphZ5h91/filee71065430ffa
 ```
 
 ```r
@@ -89,7 +89,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/RtmpAQ9s7k/filee3e175db0a7f
+## /tmp/RtmphZ5h91/filee71065430ffa
 ```
 
 ```r
@@ -172,14 +172,14 @@ Dans Quarto et R Markdown, tu es censé·e écrire par défaut en "Pandoc's Mark
 
 Les [Extensions](https://pandoc.org/MANUAL.html#extensions) modifient le comportement des lecteurs et des rédacteurs de Pandoc.
 Les extensions sont des prolongements (ou des contractions, puisqu'elles peuvent être désactivées) de *formats* et non de *Pandoc*.
-Par exemple, ["smart"](https://pandoc.org/MANUAL.html#extension-smart) interprétera certains éléments typographiques, comme deux tirets, comme en-dash[^4], et est activée par défaut pour Markdown.
+Par exemple, ["smart"](https://pandoc.org/MANUAL.html#extension-smart) interprétera certains éléments typographiques, par exemple deux tirets en tiret long[^4], et est activée par défaut pour Markdown.
 Donc, si tu veux convertir du Markdown en HTML sans transformer les deux tirets, tu utiliseras `markdown-smart` comme format d'entrée.
 Cela signifie que `markdown` *moins* l'extension `smart`.
 Toutes les extensions ne fonctionnent pas pour un format, alors assure-toi de lire la documentation (😉 ). Tu peux utiliser [`pandoc::pandoc_list_extensions()`](https://cderv.github.io/pandoc/reference/pandoc_list_extensions.html) pour lister les extensions disponibles pour un format.
 Un format que Maëlle utilise souvent lorsqu'elle produit des diapositives avec Quarto est le suivant
 
-[^4]: Maëlle pensait qu'il s'agissait de "tirets longs".
-Parler pandoc nécessitait parfois d'avoir un peu de vocabulaire typographique !
+[^4]: Maëlle pensait qu'il s'agissait de "long dashes" en anglais alors qu'on les appelle "em dash" en anglais.
+Parler pandoc nécessitait parfois d'avoir un peu de vocabulaire typographique anglais !
 
 ```yaml
 format:
