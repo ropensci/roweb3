@@ -38,7 +38,8 @@ Dans la suite de ce billet, nous utiliserons le paquet R pandoc pour les exemple
 [^2] : Le paquet R pandoc[https://github.com/cderv/pandoc](https://github.com/cderv/pandoc) est un développement assez récent et permet d'accéder à l'interface de programmation Pandoc à partir de R.
 Tu peux aussi utiliser la méthode plus habituelle [`rmarkdown::pandoc_convert()`](https://pkgs.rstudio.com/rmarkdown/reference/pandoc_convert.html) pour accéder à Pandoc utilisé avec R Markdown.
 
-```{r}
+
+```r
 # Créons un fichier temporaire d'exemple Markdown
 md_lines <- c(
   "# Important announcement", "",
@@ -55,8 +56,21 @@ pandoc::pandoc_convert(
   to = "html", 
   output = html_file
 )
+```
+
+```
+## /tmp/RtmpBONo8N/filec3fa673e309
+```
+
+```r
 # Lisons le résultat !
 brio::read_lines(html_file)
+```
+
+```
+## [1] "<h1 id=\"important-announcement\">Important announcement</h1>"
+## [2] "<p><a href=\"https://pandoc.org/\">Pandoc</a> is"             
+## [3] "<strong>great</strong>!</p>"
 ```
 
 Cette magie de **passer d'un langage de balisage à un autre** est le travail de Pandoc.
@@ -64,14 +78,28 @@ Pandoc prend en charge de nombreux formats d'entrée et de sortie, avec des rég
 
 Par exemple, nous pourrions modifier légèrement l'appel pour ne pas obtenir d'identifiant pour l'en-tête h1 dans le HTML (c'est-à-dire supprimer l'élément `id` de l'en-tête `<h1>` ).
 
-```{r}
+
+```r
 pandoc::pandoc_convert(
   file = md_file, 
   from = "markdown-auto_identifiers", 
   to = "html", 
   output = html_file
 )
+```
+
+```
+## /tmp/RtmpBONo8N/filec3fa673e309
+```
+
+```r
 brio::read_lines(html_file)
+```
+
+```
+## [1] "<h1>Important announcement</h1>"                 
+## [2] "<p><a href=\"https://pandoc.org/\">Pandoc</a> is"
+## [3] "<strong>great</strong>!</p>"
 ```
 
 Ce n'est qu'un aperçu de ce que Pandoc peut faire.
@@ -165,21 +193,31 @@ pour avoir l'*indispensable* conversion des emojis.
 Tu trouveras ci-dessous un exemple dans lequel nous appelons directement Pandoc.
 Note que dans cet exemple, nous utilisons directement des chaînes de texte, sans rien écrire dans des fichiers, ce qui peut être pratique parfois !
 
-```{r}
+
+```r
 # em dash
 pandoc::pandoc_convert(
   text = "I like Pandoc -- when it works as I want it to!",
   from = "markdown",
   to = "html"
 )
+```
 
+```
+## <p>I like Pandoc – when it works as I want it to!</p>
+```
+
+```r
 # no em dash
 pandoc::pandoc_convert(
   text = "I like Pandoc -- when it works as I want it to!",
   from = "markdown-smart",
   to = "html"
 )
+```
 
+```
+## <p>I like Pandoc -- when it works as I want it to!</p>
 ```
 
 Généralement, en utilisant R Markdown ou Quarto, il n'y a pas besoin de modifier les extensions mais elles peuvent être la source des ennuis ou des différences que tu vois parfois.
@@ -194,13 +232,19 @@ Certaines options peuvent être cachées par l'outil que tu utilises pour appele
 
 Ci-dessous, nous utilisons une option pour décaler les niveaux d'en-tête de 1, ce qui augmente le numéro de niveau de l'en-tête et réduit ainsi l'importance de l'en-tête.
 
-```{r}
+
+```r
 pandoc::pandoc_convert(
   text = "# Important announcement\n\nPandoc is cool!",
   from = "markdown",
   to = "HTML", 
   args = c("--shift-heading-level-by=1")
 )
+```
+
+```
+## <h2 id="important-announcement">Important announcement</h2>
+## <p>Pandoc is cool!</p>
 ```
 
 Vois comment l'en-tête "Annonce importante" devient un h *2* dans le résultat.
