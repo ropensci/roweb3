@@ -276,9 +276,9 @@ When troubleshooting pandoc behavior through other tools here is some useful tip
 -   You can test Pandoc in your browser on [pandoc.org/try](https://pandoc.org/try/).
 
 -   With Quarto, you can access the bundled pandoc with `quarto pandoc` command.
-    It will be like calling `pandoc` directly, but using the version bundled with the Quarto version you are using
+    It will be like calling `pandoc` directly, but using the version bundled with the Quarto version you are using.
 
--   With R Markdown, [`rmarkdown::find_pandoc()`](https://pkgs.rstudio.com/rmarkdown/reference/find_pandoc.html) will allow you to know where is the Pandoc binary located.
+-   With R Markdown, [`rmarkdown::find_pandoc()`](https://pkgs.rstudio.com/rmarkdown/reference/find_pandoc.html) will allow you to know where the Pandoc binary is located.
     You can run it in a terminal, or use the [`rmarkdown::pandoc_*` family of functions](https://pkgs.rstudio.com/rmarkdown/reference/index.html#pandoc).
 
 -   Within R, the pandoc package can help you run a specific version, compare between versions and isolate your Pandoc work.
@@ -296,7 +296,7 @@ To know what Pandoc version you're running you can use...
 
 -   [`rmarkdown::pandoc_version()`](https://pkgs.rstudio.com/rmarkdown/reference/pandoc_available.html) which returns the version used by **rmarkdown**;
 -   `quarto pandoc --version` (in a command line) which returns the version internal to Quarto;
--   [`pandoc::pandoc_version()`](https://cderv.github.io/pandoc/reference/pandoc_version.html) which returns the version for the default pandoc (the active one, usually the most recent one among the pandoc version **installed with the R package**);
+-   [`pandoc::pandoc_version()`](https://cderv.github.io/pandoc/reference/pandoc_version.html) which returns the version for the default pandoc (the active one, usually the most recent one among the pandoc versions **installed with the R package**);
 -   [`pandoc::pandoc_system_version()`](https://cderv.github.io/pandoc/reference/system_pandoc.html) which returns the version of `pandoc` found in PATH;
 -   [`pandoc::pandoc_rstudio_version()`](https://cderv.github.io/pandoc/reference/rstudio_pandoc.html) which returns the version of the Pandoc built in the IDE (could be different version of [`rmarkdown::pandoc_version()`](https://pkgs.rstudio.com/rmarkdown/reference/pandoc_available.html) which could be one from PATH or `RSTUDIO_PANDOC` environment variable).
 
@@ -327,7 +327,7 @@ Or what if Pandoc is not enough for your use case?
 
 -   [Quarto](https://quarto.org/) is in fact a very user friendly layer of Pandoc with a lot of additional features and new defaults to make Pandoc better for scientific publishing. So usually if Pandoc is not enough (or hard to use), go look at Quarto (which has projects, etc.). Using Quarto with straight Markdown files (.md) is a like using a cleverer Pandoc (no R, no computation, only text conversion).
 -   You could *build upon* Pandoc. Christophe recommends learning about [Lua filters](https://pandoc.org/lua-filters.html). See also [Lua filters for Quarto](https://quarto.org/docs/extensions/filters.html); [Lua filters for R Markdown](https://bookdown.org/yihui/rmarkdown-cookbook/lua-filters.html). Maëlle hasn't learnt about them yet, and tends to convert things into HTML then parse them with xml2[^7].
--   You could open a Pandoc feature request
+-   You could open a Pandoc feature request.
 -   You could use something else than Pandoc, like the [commonmark R package by Jeroen Ooms](https://docs.ropensci.org/commonmark/) or the [markdown package by Yihui Xie](https://pkgs.rstudio.com/rmarkdown/articles/rmarkdown.html) or the [tinkr package by Zhian Kamvar](https://docs.ropensci.org/tinkr/) that build upon it.
 
 [^7]: Although this might might make workflows feel like [The Incredible Machine](https://en.wikipedia.org/wiki/The_Incredible_Machine_(video_game)).
