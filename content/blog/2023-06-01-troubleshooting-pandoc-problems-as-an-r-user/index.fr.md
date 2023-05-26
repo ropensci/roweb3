@@ -59,7 +59,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/RtmpGSmZ3I/filed36b2d1cf0a2
+## /tmp/RtmpFxHMIt/filed5f0285e5797
 ```
 
 ```r
@@ -89,7 +89,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/RtmpGSmZ3I/filed36b2d1cf0a2
+## /tmp/RtmpFxHMIt/filed5f0285e5797
 ```
 
 ```r
@@ -170,7 +170,7 @@ Dans Quarto et R Markdown, tu es censé·e écrire par défaut en "Pandoc's Mark
 
 ### Extension
 
-Kes [Extensions](https://pandoc.org/MANUAL.html#extensions) modifient le comportement des lecteurs et des rédacteurs de Pandoc.
+Les [Extensions](https://pandoc.org/MANUAL.html#extensions) modifient le comportement des lecteurs et des rédacteurs de Pandoc.
 Les extensions sont des prolongements (ou des contractions, puisqu'elles peuvent être désactivées) de *formats* et non de *Pandoc*.
 Par exemple, ["smart"](https://pandoc.org/MANUAL.html#extension-smart) interprétera certains éléments typographiques, comme deux tirets, comme en-dash[^4], et est activée par défaut pour Markdown.
 Donc, si tu veux convertir du Markdown en HTML sans transformer les deux tirets, tu utiliseras `markdown-smart` comme format d'entrée.
