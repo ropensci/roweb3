@@ -62,7 +62,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/Rtmp6RDdWA/file50c470a14b9f
+## /tmp/RtmpYEBbLg/file541b316ffedc
 ```
 
 ```r
@@ -92,7 +92,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/Rtmp6RDdWA/file50c470a14b9f
+## /tmp/RtmpYEBbLg/file541b316ffedc
 ```
 
 ```r
@@ -126,7 +126,7 @@ Here are some elements to help you pinpoint whether Pandoc is the thing tripping
 -   If you're having a case of "but it worked yesterday!", for instance "I did not change anything on R side but this does not work anymore: maybe the Pandoc version changed? Switching the Pandoc version, perhaps using [the pandoc package's functionality for handling the Pandoc version](https://cderv.github.io/pandoc/reference/index.html#handle-pandoc-version), can show a problem with a new Pandoc version, however this is rare.
 
 In all cases, Pandoc might also be your problem if you're pushing the limits of what you can achieve with another tool using Pandoc.
-For instance, if you want some particular conversion, like having emojis à la `:grin:` rendered to actual emojis in your Quarto reveal.js slides, you might need to tweak something related to Pandoc.
+For instance, if you want some particular conversion, like having emojis à la `:​grin:` rendered to actual emojis in your Quarto reveal.js slides, you might need to tweak something related to Pandoc.
 
 ### How to access Pandoc's input
 
