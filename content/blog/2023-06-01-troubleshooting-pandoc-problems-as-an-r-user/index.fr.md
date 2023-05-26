@@ -59,7 +59,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/Rtmpfu9QLD/filedc3f6dcd2152
+## /tmp/Rtmp9QHkip/filedeaa4c7d3fd
 ```
 
 ```r
@@ -89,7 +89,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/Rtmpfu9QLD/filedc3f6dcd2152
+## /tmp/Rtmp9QHkip/filedeaa4c7d3fd
 ```
 
 ```r
@@ -289,7 +289,7 @@ Une autre chose qui t'aidera, c'est de savoir comment passer ces choses à Pando
 ## Comment expérimenter avec Pandoc ?
 
 Une fois que tu sais que ton problème vient de Pandoc, comment créer un exemple reproductible ?
-De manière peut-être surprenante, c'est que même si c'est très bien de créer un "reprex" Pandoc, tu *ne peux pas** le créer avec le paquet reprex, parce que reprex utilise la machinerie R Markdown.
+De manière peut-être surprenante, c'est que même si c'est très bien de créer un "reprex" Pandoc, tu *ne peux pas* le créer avec le paquet reprex, parce que reprex utilise la machinerie R Markdown.
 
 Dans ce billet, nous avons montré quelques exemples, en appelant Pandoc directement sur des chaînes de caractères, ou sur [des fichiers temporaires créés avec withr](#pandoc-101).
 
