@@ -62,7 +62,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/RtmpsRb33a/file48383885bdaa
+## /tmp/RtmpNm031Q/file4b6853d3190b
 ```
 
 ```r
@@ -92,7 +92,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/RtmpsRb33a/file48383885bdaa
+## /tmp/RtmpNm031Q/file4b6853d3190b
 ```
 
 ```r
@@ -381,7 +381,7 @@ Or what if Pandoc is not enough for your use case?
 ## Conclusion
 
 In this post we shared some useful resources for troubleshooting your Pandoc problems.
-It's crucial to remember that while this can seem like a lot, your Pandoc skills and vocabulary will improve with practice!
+It's crucial to remember that while this can seem like a lot, your Pandoc skills and vocabulary will improve with practice, such as [converting Google docs](https://docs.ropensci.org/quartificate/) for a colleague! :wink:
 
 As an R user, do not forget that Pandoc supports a lot of your publication tools; and that there's a handy R package for interacting with Pandoc: pandoc 🎉.
 
