@@ -17,7 +17,7 @@ description: "Comment résoudre ses problèmes Pandoc grâce à la lecture de do
 
 Le logiciel libre Pandoc par [John MacFarlane](https://johnmacfarlane.net/) est un outil très utile : par exemple, Yanina Bellini Saibene, community manager de rOpenSci, a récemment demandé à Maëlle si elle pouvait convertir un document Google en livre Quarto.
 Maëlle a répondu à la demande en combinant Pandoc (conversion de docx en HTML puis en Markdown par le biais de [`pandoc::pandoc_convert()`](https://cderv.github.io/pandoc/reference/pandoc_convert.html)) et XPath.
-Tu peux trouver le paquet expérimental qui en résulte [quartificate](https://github.com/ropenscilabs/quartificate) sur GitHub.
+Tu peux trouver le paquet expérimental qui en résulte, [quartificate](https://github.com/ropenscilabs/quartificate), sur GitHub.
 Pandoc n'est pas seulement utile de manière anecdotique : il est utilisé par [R Markdown](https://rmarkdown.rstudio.com/) et par [Quarto](https://quarto.org/).
 Alors, que tu jongles avec des documents de différents formats ou que tu cherches simplement à publier tes analyses reproductibles, tu as peut-être utilisé Pandoc (même si tu ne le savais pas !), ou peut-être que tu... *devrais* utiliser Pandoc.
 
@@ -26,7 +26,7 @@ Dans ces cas-là, Maëlle, qui a assisté au travail de détective de Christophe
 La réponse est probablement "lire la doc et enquêter".
 Dans ce billet, nous rassemblons des ressources et des astuces pour t'aider à dépanner tes soucis Pandoc en tant qu'utilisateur·rice de R.
 
-[^1] : Si tu veux lire des exemples de dépannage, vois ceci: [_issue_ dans rmarkdown](https://github.com/rstudio/rmarkdown/issues/2437) et [l'_issue_ correspondante de Pandoc](https://github.com/jgm/pandoc/issues/8499); ou ceci [Question pandoc](https://github.com/jgm/pandoc/issues/7352).
+[^1]: Si tu veux lire des exemples de dépannage, vois ceci: [_issue_ dans rmarkdown](https://github.com/rstudio/rmarkdown/issues/2437) et [l'_issue_ correspondante de Pandoc](https://github.com/jgm/pandoc/issues/8499); ou ceci [Question pandoc](https://github.com/jgm/pandoc/issues/7352).
 
 ## Pandoc 101
 
@@ -35,7 +35,7 @@ Nous pouvons le faire à partir de R en appelant la fonction [`pandoc::pandoc_co
 Si tu préfères le terminal, l'interface en ligne de commande [`pandoc`](https://pandoc.org/MANUAL.html) te sera utile.
 Dans la suite de ce billet, nous utiliserons le paquet R pandoc pour les exemples.
 
-[^2] : Le paquet R pandoc[https://github.com/cderv/pandoc](https://github.com/cderv/pandoc) est un développement assez récent et permet d'accéder à l'interface de programmation Pandoc à partir de R.
+[^2]: Le paquet R pandoc[https://github.com/cderv/pandoc](https://github.com/cderv/pandoc) est un développement assez récent et permet d'accéder à l'interface de programmation Pandoc à partir de R.
 Tu peux aussi utiliser la méthode plus habituelle [`rmarkdown::pandoc_convert()`](https://pkgs.rstudio.com/rmarkdown/reference/pandoc_convert.html) pour accéder à Pandoc utilisé avec R Markdown.
 
 
@@ -59,7 +59,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/Rtmp6M1HYp/filecaee31dd50f8
+## /tmp/RtmpMQgJe1/filece448a102bb
 ```
 
 ```r
@@ -89,7 +89,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/Rtmp6M1HYp/filecaee31dd50f8
+## /tmp/RtmpMQgJe1/filece448a102bb
 ```
 
 ```r
@@ -178,7 +178,7 @@ Cela signifie que `markdown` *moins* l'extension `smart`.
 Toutes les extensions ne fonctionnent pas pour un format, alors assure-toi de lire la documentation (😉 ). Tu peux utiliser [`pandoc::pandoc_list_extensions()`](https://cderv.github.io/pandoc/reference/pandoc_list_extensions.html) pour lister les extensions disponibles pour un format.
 Un format que Maëlle utilise souvent lorsqu'elle produit des diapositives avec Quarto est le suivant
 
-[^4] : Maëlle pensait qu'il s'agissait de "tirets longs".
+[^4]: Maëlle pensait qu'il s'agissait de "tirets longs".
 Parler pandoc nécessitait parfois d'avoir un peu de vocabulaire typographique !
 
 ```yaml
@@ -252,7 +252,7 @@ Vois comment l'en-tête "Annonce importante" devient un h *2* dans le résultat.
 Ces options peuvent être définies avec Pandoc en utilisant le format YAML à l'aide d'un fichier par défaut, ["default file"](https://pandoc.org/MANUAL.html#defaults-files).
 Il s'agit d'une autre technique avancée que nous n'aborderons pas en détail... mais tu connais maintenant les "default files"[^5].
 
-[^5] : Au fait, c'est ce que Quarto exploite en interne pour que les options YAML du document puissent être transmises à Pandoc.
+[^5]: Au fait, c'est ce que Quarto exploite en interne pour que les options YAML du document puissent être transmises à Pandoc.
 Utile à savoir si tu débogues Pandoc dans Quarto.
 
 ### Variables
@@ -351,7 +351,7 @@ Comme souvent avec R, [mettre à jour régulièrement](https://bookdown.org/yihu
 
 Conseil particulier si tu construis quelque chose avec Pandoc sur un système d'intégration continue : épingle une version de Pandoc pour ta configuration de production (GitHub Actions workflow par exemple) afin qu'elle corresponde à ton environnement de développement local[^6].
 
-[^6] : C'est aussi une stratégie que l'on peut utiliser avec Hugo lors de la construction d'un site web statique !
+[^6]: C'est aussi une stratégie que l'on peut utiliser avec Hugo lors de la construction d'un site web statique !
 Cela permet de s'épargner bien des maux de tête.
 
 Le paquet pandoc possède également des aides très pratiques de type withr pour exécuter le code avec une version donnée de Pandoc : [`pandoc::local_pandoc_version()` et `pandoc::with_pandoc_version()`](https://cderv.github.io/pandoc/reference/with_pandoc_version.html); ainsi qu'un `version` argument en [`pandoc::pandoc_convert()`](https://cderv.github.io/pandoc/reference/pandoc_convert.html).
@@ -372,7 +372,7 @@ Et si Pandoc n'est pas suffisant pour ton cas d'utilisation ?
 - Tu pourrais ouvrir une "feature request" (demande de fonctionnalité) de Pandoc.
 - Tu peux utiliser autre chose que Pandoc, comme le paquet [commonmark de Jeroen Ooms](https://docs.ropensci.org/commonmark/); ou le paquet [markdown de Yihui Xie](https://pkgs.rstudio.com/rmarkdown/articles/rmarkdown.html) ou le paquet [tinkr de Zhian Kamvar](https://docs.ropensci.org/tinkr/) qui utilisent commonmark.
 
-[^7] : Bien que cela puisse faire en sorte que les flux de travail ressemblent au jeu [The incredible machine](https://en.wikipedia.org/wiki/The_Incredible_Machine_\(video_game\)).
+[^7]: Bien que cela puisse faire en sorte que les flux de travail ressemblent au jeu [The incredible machine](https://en.wikipedia.org/wiki/The_Incredible_Machine_\(video_game\)).
 
 ## Conclusion
 
