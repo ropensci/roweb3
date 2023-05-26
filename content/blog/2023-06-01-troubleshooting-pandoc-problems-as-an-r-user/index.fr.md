@@ -1,6 +1,6 @@
 ---
 slug: troubleshooting-pandoc-problems-as-an-r-user
-title: Résolution des problèmes de Pandoc en tant qu'utilisateur·rice de R
+title: Résoudre ses problèmes de Pandoc en tant qu'utilisateur·rice de R
 author:
 - Maëlle Salmon
 - Christophe Dervieux
@@ -59,7 +59,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/RtmpBONo8N/filec3fa673e309
+## /tmp/Rtmp6M1HYp/filecaee31dd50f8
 ```
 
 ```r
@@ -89,7 +89,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/RtmpBONo8N/filec3fa673e309
+## /tmp/Rtmp6M1HYp/filecaee31dd50f8
 ```
 
 ```r
