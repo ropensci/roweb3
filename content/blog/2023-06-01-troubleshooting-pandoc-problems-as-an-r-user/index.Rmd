@@ -164,13 +164,15 @@ format:
 to turn on the _indispensable_ emoji support.
 🎉
 
-Below is an example where we call Pandoc directly.
+Below is an example[^hugo] where we call Pandoc directly.
 Note that in this example, we use text strings directly, without writing anything to files, which can be handy at times!
+
+[^hugo]: Also note that because the Hugo settings for ropensci.org means emojis strings are converted [even in code](https://github.com/gohugoio/hugo/issues/7332), the example didn't exactly work so we added an invisible whitespace.
 
 ```{r}
 # no emoji, terrible sadness
 pandoc::pandoc_convert(
-  text = "I :heart: Pandoc!",
+  text = "I :​heart: Pandoc!",
   from = "markdown",
   to = "html"
 )
