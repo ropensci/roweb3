@@ -281,7 +281,7 @@ When troubleshooting pandoc behavior through other tools here is some useful tip
     It will be like calling `pandoc` directly, but using the version bundled with the Quarto version you are using
 
 -   With R Markdown, [`rmarkdown::find_pandoc()`](https://pkgs.rstudio.com/rmarkdown/reference/find_pandoc.html) will allow you to know where is the Pandoc binary located.
-    You can run it in terminal, or use the [`rmarkdown::pandoc_*` family of functions](https://pkgs.rstudio.com/rmarkdown/reference/index.html#pandoc).
+    You can run it in a terminal, or use the [`rmarkdown::pandoc_*` family of functions](https://pkgs.rstudio.com/rmarkdown/reference/index.html#pandoc).
 
 -   Within R, the pandoc package can help you run a specific version, compare between versions and isolate your Pandoc work.
     Whichever tool you are using, once you know the version number, you can easily run Pandoc itself.
