@@ -59,7 +59,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/Rtmp9QHkip/filedeaa4c7d3fd
+## /tmp/RtmpCKgLBe/filee1085f2a674b
 ```
 
 ```r
@@ -89,7 +89,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/Rtmp9QHkip/filedeaa4c7d3fd
+## /tmp/RtmpCKgLBe/filee1085f2a674b
 ```
 
 ```r
@@ -330,7 +330,7 @@ Pour dépanner le comportement de Pandoc à l'aide d'autres outils, voici quelqu
 
 Suivre l'évolution de Pandoc n'est vraiment pas obligatoire et la lecture du "changelog" (journal des modifications) pourrait être difficile à suivre sans une bonne compréhension du fonctionnement de Pandoc.
 Tu *pourrais* t'abonner à la [liste de diffusion Pandoc](https://groups.google.com/g/pandoc-announce).
-Mais il se peut, rarement, que tu aies besoin de passer au peigne fin la liste de diffusion de Pandoc. [changelog](https://pandoc.org/releases.html) lorsque tu remarqueras quelque chose d'anormal.
+Mais il se peut, rarement, que tu aies besoin de passer au peigne fin la [liste de modifications de Pandoc](https://pandoc.org/releases.html) lorsque tu remarqueras quelque chose d'anormal.
 
 Fais attention à la version de Pandoc que tu utilises localement et en intégration continue, surtout quand quelque chose ne fonctionne que sur ta machine.
 
