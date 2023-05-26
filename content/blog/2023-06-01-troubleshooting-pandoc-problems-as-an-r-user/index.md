@@ -62,7 +62,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/RtmpYEBbLg/file541b316ffedc
+## /tmp/Rtmpltwv1V/file59ab2715f08d
 ```
 
 ```r
@@ -92,7 +92,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/RtmpYEBbLg/file541b316ffedc
+## /tmp/Rtmpltwv1V/file59ab2715f08d
 ```
 
 ```r
@@ -192,36 +192,34 @@ format:
 to turn on the _indispensable_ emoji support.
 🎉
 
-Below is an example[^hugo] where we call Pandoc directly.
+Below is an example where we call Pandoc directly.
 Note that in this example, we use text strings directly, without writing anything to files, which can be handy at times!
-
-[^hugo]: Also note that because the Hugo settings for ropensci.org means emojis strings are converted [even in code](https://github.com/gohugoio/hugo/issues/7332), the example didn't exactly work so we added an invisible whitespace.
 
 
 ```r
-# no emoji, terrible sadness
+# em dash
 pandoc::pandoc_convert(
-  text = "I :​heart: Pandoc!",
+  text = "I like Pandoc -- when it works as I want it to!",
   from = "markdown",
   to = "html"
 )
 ```
 
 ```
-## <p>I :​heart: Pandoc!</p>
+## <p>I like Pandoc – when it works as I want it to!</p>
 ```
 
 ```r
-# emoji, immense joy
+# no em dash
 pandoc::pandoc_convert(
-  text = "I :heart: Pandoc!",
-  from = "markdown+emoji",
+  text = "I like Pandoc -- when it works as I want it to!",
+  from = "markdown-smart",
   to = "html"
 )
 ```
 
 ```
-## <p>I <span class="emoji" data-emoji="heart">❤️</span> Pandoc!</p>
+## <p>I like Pandoc -- when it works as I want it to!</p>
 ```
 
 Usually, using R Markdown or Quarto, there is not need to modify extensions but they can be the source of the troubles or differences you see sometimes.
