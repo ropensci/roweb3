@@ -59,7 +59,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/RtmpCKgLBe/filee1085f2a674b
+## /tmp/RtmpAQ9s7k/filee3e175db0a7f
 ```
 
 ```r
@@ -89,7 +89,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/RtmpCKgLBe/filee1085f2a674b
+## /tmp/RtmpAQ9s7k/filee3e175db0a7f
 ```
 
 ```r
@@ -377,7 +377,7 @@ Et si Pandoc n'est pas suffisant pour ton cas d'utilisation ?
 ## Conclusion
 
 Dans ce billet, nous avons partagé quelques ressources utiles pour dépanner tes problèmes avec Pandoc.
-Il est crucial de se rappeler que même si cela peut sembler insurmontable, tes compétences et ton vocabulaire Pandoc s'amélioreront avec la pratique, comme par exemple en [convertissant des documents Google](https://docs.ropensci.org/quartificate/) pour une collègue ! :wink :
+Il est crucial de se rappeler que même si cela peut sembler insurmontable, tes compétences et ton vocabulaire Pandoc s'amélioreront avec la pratique, comme par exemple en [convertissant des documents Google](https://docs.ropensci.org/quartificate/) pour une collègue ! :wink:
 
 En tant qu'utilisateur·rice de R, n'oublie pas que Pandoc soutient un grand nombre de tes outils de publication ; et qu'il existe un paquet R pratique pour interagir avec Pandoc : pandoc 🎉.
 
