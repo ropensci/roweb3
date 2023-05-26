@@ -119,7 +119,7 @@ Malheureusement, c'est lorsqu'on commence à explorer le fonctionnement d'un out
 Tout d'abord, comment trouver la documentation de Pandoc ?
 Tu peux taper [`pandoc::pandoc_browse_manual()`](https://cderv.github.io/pandoc/reference/pandoc_browse_manual.html).
 Ou tu peux mettre un signet sur la page [URL du manuel Pandoc](https://pandoc.org/MANUAL.html).
-Il s'agit en fait d'un MANUEL tout en majuscules, ce qui souligne l'importance de le lire : si tu le parcours au moins une fois, tu auras une meilleure idée de ce qu'il contient... et de la façon dont les choses sont référencées dans le monde Pandoc, de sorte que tu pourras poser de meilleures questions à ton moteur de recherche ou à tes collaborateurs !
+Il s'agit en fait d'un MANUEL tout en majuscules, ce qui souligne l'importance de le lire : si tu le parcours au moins une fois, tu auras une meilleure idée de ce qu'il contient... et de la façon dont les choses sont référencées dans le monde Pandoc, de sorte que tu pourras poser de meilleures questions à ton moteur de recherche ou à tes collaborateur·rice·s !
 Tu peux même être [récompensé pour avoir lu le MANUEL Pandoc](https://yihui.org/en/2017/11/thanks-tj-mahr/) !
 
 Ensuite, comment apprendre à "parler Pandoc" ?
