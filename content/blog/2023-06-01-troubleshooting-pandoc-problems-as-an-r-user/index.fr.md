@@ -59,7 +59,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/RtmpDU0js9/filed10360207a78
+## /tmp/RtmpGSmZ3I/filed36b2d1cf0a2
 ```
 
 ```r
@@ -89,7 +89,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/RtmpDU0js9/filed10360207a78
+## /tmp/RtmpGSmZ3I/filed36b2d1cf0a2
 ```
 
 ```r
@@ -166,7 +166,7 @@ Le format que Pandoc convertit depuis et vers.
 Il y a une liste impressionnante sur le site [page d'accueil de Pandoc](https://pandoc.org/).
 docx, gfm (GitHub flavored Markdown), HTML, RTF...
 
-Dans Quarto et R Markdown, tu es censé écrire par défaut en "Pandoc's Markdown", qui est une variante spéciale de Markdown.
+Dans Quarto et R Markdown, tu es censé·e écrire par défaut en "Pandoc's Markdown", qui est une variante spéciale de Markdown.
 
 ### Extension
 
