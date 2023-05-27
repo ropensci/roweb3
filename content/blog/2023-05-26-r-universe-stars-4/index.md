@@ -27,7 +27,7 @@ In this new interview, we will go into the science of climate change, where data
 
 The talk was attended by Rob Kooper, Chris Black, Eric Scott, Michael C. Dietze, and David LeBauer, all members of the PEcAn project, with the same goal: to find more and better ways to integrate the enormous amount of existing data.
 
-{{< figure src = "team.jpg" width = "300" alt = "Profile photos of Rob Kooper, Chris Black, Eric Scott, Michael C. Dietze, and David LeBauer." caption = "<center><strong>Rob Kooper, Chris Black, Eric Scott, Michael C. Dietze, and David LeBauer</strong></center>">}}
+{{< figure src = "team.jpg" alt = "Profile photos of Rob Kooper, Chris Black, Eric Scott, Michael C. Dietze, and David LeBauer." caption = "<center><strong>Rob Kooper, Chris Black, Eric Scott, Michael C. Dietze, and David LeBauer</strong></center>">}}
 
 According to Michael C. Dietze's own account, the project _"is like a kind of computerized data modeling system. It's a set of tools that facilitate the combination of process and data models, with a special focus on ecological models."_
 
@@ -41,7 +41,16 @@ In this work structure, one of the main objectives is to become a kind of "Hacke
 
 In relation to the experience of working together with Google, where they are looking to develop and promote ecosystem modeling tools, Chris explains that part of the success is that it is not just one university doing research but a large team of people all over the world working together. Although it takes longer, the result is used by a much wider community.
 
-<fig 2: diagram of models shown during the interview>
+## Doing more in less time with standars
+
+During the talk, the team shared the work [""]() as an example, where they explain with a diagram how the PEcAn project makes the life of researchers who have to do multi-model analysis "352" times easier.
+
+{{< figure src = "diagram.png" width = "300" alt = "" caption = "<center><strong></strong></center>">}}
+
+By using standards and having packages that can solve the reading, embedding and writing of all the data involved in the process, researchers don't need to know how many different formats work, or communicate with many different research teams, in order to do this kind of work.  
+
+This allows an individual researcher to run a whole ensemble models. Just a couple of years ago analyzing multi-models was not something that was accessible to individual researchers. 
+
 
 ## The R Universe experience
 
