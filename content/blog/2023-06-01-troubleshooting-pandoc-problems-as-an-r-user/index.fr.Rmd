@@ -15,6 +15,8 @@ description: "Comment résoudre ses problèmes Pandoc grâce à la lecture de do
   l'expérimentation... et un peu d'expérience \U0001F605."
 ---
 
+_Merci à [Hugo Gruson](/author/hugo-gruson) pour ses commentaires utiles sur cette traduction!_
+
 Le logiciel libre Pandoc par [John MacFarlane](https://johnmacfarlane.net/) est un outil très utile : par exemple, Yanina Bellini Saibene, community manager de rOpenSci, a récemment demandé à Maëlle si elle pouvait convertir un document Google en livre Quarto.
 Maëlle a répondu à la demande en combinant Pandoc (conversion de docx en HTML puis en Markdown par le biais de [`pandoc::pandoc_convert()`](https://cderv.github.io/pandoc/reference/pandoc_convert.html)) et XPath.
 Tu peux trouver le paquet expérimental qui en résulte, [quartificate](https://github.com/ropenscilabs/quartificate), sur GitHub.
@@ -88,7 +90,7 @@ Voici quelques éléments pour t'aider à déterminer si c'est Pandoc qui te fai
 
 - Si tu obtiens une erreur avec ton code R, Pandoc n'est pas en cause.
 
-- Si tu peux ¡voir une erreur Pandoc dans la sortie, cela signifie généralement que quelque chose ne va pas pendant l'étape de conversion Pandoc.
+- Si tu peux voir une erreur Pandoc dans la sortie, cela signifie généralement que quelque chose ne va pas pendant l'étape de conversion Pandoc.
   Le débogage à l'aide du fichier d'entrée transmis à Pandoc sera le plus facile.
   Si l'outil que tu utilises crée cette entrée pour toi (comme R Markdown ou Quarto), ajoute la configuration pour conserver l'entrée Markdown. Lis la sous-section suivante pour plus de détails !
 
@@ -318,7 +320,7 @@ Cette fonction spéciale a pour but de faciliter les tests et le débogage entre
 
 Si la lecture de la documentation et l'expérimentation ne te permettent pas d'arriver à tes fins, que faire ?
 
-- Les réponses de John MacFarlane dans les questions GitHub peuvent être instructives. Voir ce qui suit [exemple](https://github.com/jgm/pandoc/issues/6259#issuecomment-841859989).
+- Les réponses de John MacFarlane dans les questions GitHub peuvent être instructives. Voir cet [exemple](https://github.com/jgm/pandoc/issues/6259#issuecomment-841859989).
 - Tu pourrais parcourir, ou participer, à la [liste de discussion Pandoc](https://groups.google.com/g/pandoc-discuss).
 - Si ton problème est lié à Pandoc pour R Markdown ou Quarto en particulier, rends-toi sur le [forum de la communauté Posit](https://community.rstudio.com/) ou dans leurs dépôts Github respectifs.
 
