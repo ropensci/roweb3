@@ -27,7 +27,7 @@ In this new interview, we will go into the science of climate change, where data
 
 The talk was attended by Rob Kooper, Chris Black, Eric Scott, Michael C. Dietze, and David LeBauer, all members of the PEcAn project, with the same goal: to find more and better ways to integrate the enormous amount of existing data.
 
-{{< figure src = "team.jpg" alt = "Profile photos of Rob Kooper, Chris Black, Eric Scott, Michael C. Dietze, and David LeBauer." caption = "<center><strong>Rob Kooper, Chris Black, Eric Scott, Michael C. Dietze, and David LeBauer</strong></center>">}}
+{{< figure src = "team.jpg" alt = "Profile photos of David LeBauer, Michael C. Dietze, Rob Kooper, Eric Scott, and Chris Black" caption = "<center><strong>David LeBauer, Michael C. Dietze, Rob Kooper, Eric Scott, and Chris Black</strong></center>">}}
 
 According to Michael C. Dietze's own account, the project _"is like a kind of computerized data modeling system. It's a set of tools that facilitate the combination of process and data models, with a special focus on ecological models."_
 
