@@ -283,7 +283,7 @@ Pour dépanner le comportement de Pandoc à l'aide d'autres outils, voici quelqu
 
 Quel que soit l'outil que tu utilises, une fois que tu connais le numéro de version, tu peux exécuter Pandoc lui-même (à partir de R avec le paquet pandoc, à partir d'un terminal) en installant la bonne version.
 
-## Suivre l'évolution de Pandoc, ou geler Pandoc !
+## Suivre l'évolution de Pandoc, ou épingler une version Pandoc !
 
 Suivre l'évolution de Pandoc n'est vraiment pas obligatoire et la lecture du "changelog" (journal des modifications) pourrait être difficile à suivre sans une bonne compréhension du fonctionnement de Pandoc.
 Tu *pourrais* t'abonner à la [liste de diffusion Pandoc](https://groups.google.com/g/pandoc-announce).
