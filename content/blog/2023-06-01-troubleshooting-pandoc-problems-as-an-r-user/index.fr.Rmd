@@ -30,7 +30,7 @@ Dans ce billet, nous rassemblons des ressources et des astuces pour t'aider à d
 
 ## Pandoc 101
 
-Disons que nous avons un fichier Markdown et que nous voulons le convertir en HTML.
+Supposons que nous ayons un fichier Markdown et que nous voulons le convertir en HTML.
 Nous pouvons le faire à partir de R en appelant la fonction [`pandoc::pandoc_convert()`](https://cderv.github.io/pandoc/reference/pandoc_convert.html)[^2] qui est une interface Pandoc pour R.
 Si tu préfères le terminal, l'interface en ligne de commande [`pandoc`](https://pandoc.org/MANUAL.html) te sera utile.
 Dans la suite de ce billet, nous utiliserons le paquet R pandoc pour les exemples.
@@ -227,7 +227,7 @@ Tu peux fournir tes propres ["custom templates" (modèles personnalisés)](https
 
 ### Raw attributes (Attributs bruts)
 
-Disons que tu as du HTML brut dans ton document Markdown.
+Supposons que tu aies du HTML brut dans ton document Markdown.
 Tu peux le protéger de l'analyse Pandoc en l'enveloppant dans un ["raw attribute"](https://pandoc.org/MANUAL.html#generic-raw-attribute).
 Ceci est par exemple utilisé par [hugodown](https://github.com/r-lib/hugodown/pull/53) pour protéger les shortcodes Hugo.
 
