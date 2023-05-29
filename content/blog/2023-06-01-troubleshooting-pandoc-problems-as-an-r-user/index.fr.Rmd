@@ -102,7 +102,7 @@ Par exemple, si tu veux une conversion particulière, comme avoir des emojis à 
 
 Même si Pandoc est un convertisseur générique qui peut gérer plusieurs formats en entrée et en sortie, dans l'écosystème R Markdown et Quarto, le format d'entrée sera toujours Markdown par le biais d'un fichier `.md`.
 
-Lorsque l'on utilise un `.Rmd` ou un `.qmd` le document sera converti en `.md` par knitr avec tout le code et les résultats cousus ensemble.
+Lorsque l'on utilise un `.Rmd` ou un `.qmd` le document sera converti en `.md` par knitr avec tout le code et les résultats assemblés.
 C'est l'entrée que Pandoc utilisera pour convertir le document en sortie souhaitée.
 Le "cookbook" R Markdown de Yihui Xie, Christophe Dervieux et Emily Riederer propose un [diagramme pratique](https://bookdown.org/yihui/rmarkdown-cookbook/rmarkdown-process.html) pour comprendre cette relation.
 
