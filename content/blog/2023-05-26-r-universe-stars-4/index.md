@@ -1,6 +1,6 @@
 ---
 slug: "r-universe-stars-3-en"
-title: "Meeting the Stars of the R-Universe: PEcAn: an open source project to take care of the planet"
+title: "Meeting the Stars of the R-Universe: PEcAn, an open source project to take care of the planet"
 author:
   - Yanina Bellini Saibene
   - Alejandra Bellini
@@ -43,13 +43,14 @@ In relation to the experience of working together with Google, where they are lo
 
 ## Doing more in less time with standars
 
-During the talk, the team shared the work [""]() as an example, where they explain with a diagram how the PEcAn project makes the life of researchers who have to do multi-model analysis "352" times easier.
+During the talk, the team shared the work ["Beyond ecosystem modeling: A roadmap to community
+cyberinfrastructure for ecological data-model integration"](https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/gcb.15409) as an example, where they explain with a diagram how the PEcAn project makes the life of researchers who have to do multi-model analysis "352" times easier.
 
-{{< figure src = "diagram.png" width = "300" alt = "" caption = "<center><strong></strong></center>">}}
+{{< figure src = "diagram.png" alt = "Reduction in redundant work when adopting common formats. There are “ n” data types that must be linked to “m” simulation models and “k” post-simulation analyses. In the top panel, the conventional approach where modeling teams work independently requires implementing n × m different input and m × k different output conversions. As data, models, and analyses are added, and effort scales quadratically. On the other hand, the bottom panel shows that by working as a community, and adopting common formats and shared analytical tools, the number of converters necessary to link models, data, and analyses reduces to an m + n and m + k problem, and scales linearly. " caption = "<center><strong>Conventional and Standars approach to modeling. PEcAn project is an example of the standars approach for modeling.</strong></center>">}}
 
 By using standards and having packages that can solve the reading, embedding and writing of all the data involved in the process, researchers don't need to know how many different formats work, or communicate with many different research teams, in order to do this kind of work.  
 
-This allows an individual researcher to run a whole ensemble models. Just a couple of years ago analyzing multi-models was not something that was accessible to individual researchers. 
+This allows an individual researcher to run a whole ensemble models. "Just a couple of years ago analyzing multi-models was not something that was accessible to individual researchers." <PI name> explain.  
 
 
 ## The R Universe experience
