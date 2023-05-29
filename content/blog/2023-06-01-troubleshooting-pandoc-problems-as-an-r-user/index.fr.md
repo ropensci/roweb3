@@ -61,7 +61,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/Rtmp7vaHRz/file3991511f8cfb
+## /tmp/Rtmp1xdbdw/file273fd5b95f546
 ```
 
 ```r
@@ -91,7 +91,7 @@ pandoc::pandoc_convert(
 ```
 
 ```
-## /tmp/Rtmp7vaHRz/file3991511f8cfb
+## /tmp/Rtmp1xdbdw/file273fd5b95f546
 ```
 
 ```r
@@ -134,7 +134,7 @@ Même si Pandoc est un convertisseur générique qui peut gérer plusieurs forma
 
 Lorsque l'on utilise un `.Rmd` ou un `.qmd` le document sera converti en `.md` par knitr avec tout le code et les résultats assemblés.
 C'est l'entrée que Pandoc utilisera pour convertir le document en sortie souhaitée.
-Le "cookbook" R Markdown de Yihui Xie, Christophe Dervieux et Emily Riederer propose un [diagramme pratique](https://bookdown.org/yihui/rmarkdown-cookbook/rmarkdown-process.html) pour comprendre cette relation.
+Le _cookbook_ (livre de recettes) R Markdown de Yihui Xie, Christophe Dervieux et Emily Riederer propose un [diagramme pratique](https://bookdown.org/yihui/rmarkdown-cookbook/rmarkdown-process.html) pour comprendre cette relation.
 
 En général, les outils de ce type ont une certaine configuration qui te permet de garder les intermédiaires pour déboguer plus facilement : `keep_md` ou `keep-md` respectivement pour les formats R Markdown et Quarto.
 
@@ -251,8 +251,8 @@ pandoc::pandoc_convert(
 
 Vois comment l'en-tête "Annonce importante" devient un h *2* dans le résultat.
 
-Ces options peuvent être définies avec Pandoc en utilisant le format YAML à l'aide d'un fichier de défauts, ["defaults file"](https://pandoc.org/MANUAL.html#defaults-files).
-Il s'agit d'une autre technique avancée que nous n'aborderons pas en détail... mais tu connais maintenant les "defaults files"[^5].
+Ces options peuvent être définies avec Pandoc en utilisant le format YAML à l'aide d'un fichier de défauts, [_defaults file_](https://pandoc.org/MANUAL.html#defaults-files).
+Il s'agit d'une autre technique avancée que nous n'aborderons pas en détail... mais tu connais maintenant les _defaults file_[^5].
 
 [^5]: Au fait, c'est ce que Quarto exploite en interne pour que les options YAML du document puissent être transmises à Pandoc.
 Utile à savoir si tu débogues Pandoc dans Quarto.
@@ -268,13 +268,13 @@ Elles peuvent également être passées via la ligne de commande, par exemple la
 
 Si tu demandes à Pandoc de créer un diaporama reveal.js, il le fera en utilisant son [modèle par défaut](https://github.com/jgm/pandoc-templates/blob/master/default.revealjs).
 Le modèle est rempli avec ton contenu Markup mais aussi avec des variables comme les noms des auteurs.
-Tu peux fournir tes propres ["custom templates" (modèles personnalisés)](https://pandoc.org/MANUAL.html#templates) en utilisant l'option `--template`.
+Tu peux fournir tes propres [_custom templates_ (modèles personnalisés)](https://pandoc.org/MANUAL.html#templates) en utilisant l'option `--template`.
 [pandoc::pandoc\_export\_template()](https://cderv.github.io/pandoc/reference/pandoc_export_template.html) crée un fichier contenant le modèle par défaut pour une version spécifique de Pandoc, que tu peux explorer ou utiliser comme point de départ pour créer ton propre modèle.
 
 ### Raw attributes (Attributs bruts)
 
 Supposons que tu aies du HTML brut dans ton document Markdown.
-Tu peux le protéger de l'analyse Pandoc en l'enveloppant dans un ["raw attribute"](https://pandoc.org/MANUAL.html#generic-raw-attribute).
+Tu peux le protéger de l'analyse Pandoc en l'enveloppant dans un [_raw attribute_ (attribut brut)](https://pandoc.org/MANUAL.html#generic-raw-attribute).
 Ceci est par exemple utilisé par [hugodown](https://github.com/r-lib/hugodown/pull/53) pour protéger les shortcodes Hugo.
 
 Attention, cela fait partie de l'extension `raw_attribute` et peut donc ne pas être incluse par défaut et ne pas être prise en charge par le format que tu as choisi.
@@ -286,12 +286,12 @@ C'est à toi de trouver la bonne combinaison, mais avoir une vague compréhensio
 Une autre chose qui t'aidera, c'est de savoir comment passer ces choses à Pandoc en utilisant l'interface Pandoc de ton choix :
 
 - Si tu appelles Pandoc directement ou avec le paquetage pandoc, cela devrait être relativement simple (voir les liens et les exemples ci-dessus).
-- Si tu utilises R Markdown ou Quarto, tu devras peut-être rechercher, par exemple ["R Markdown custom Pandoc templates" (modèles Pandoc personnalisés pour R Markdown)](https://bookdown.org/yihui/rmarkdown/template-pandoc.html). Par ailleurs, il existe peut-être une façon plus native d'utiliser R Markdown ou Quarto pour atteindre ton objectif sans avoir à utiliser Pandoc. Il est important de garder à l'esprit que ces outils exploitent largement Pandoc et visent à le rendre plus simple à prendre en main : les concepts sont les mêmes mais ils devraient être plus faciles à utiliser, même s'ils ne sont pas aussi variés.
+- Si tu utilises R Markdown ou Quarto, tu devras peut-être rechercher, par exemple [_"R Markdown custom Pandoc templates"_ (modèles Pandoc personnalisés pour R Markdown)](https://bookdown.org/yihui/rmarkdown/template-pandoc.html). Par ailleurs, il existe peut-être une façon plus native d'utiliser R Markdown ou Quarto pour atteindre ton objectif sans avoir à utiliser Pandoc. Il est important de garder à l'esprit que ces outils exploitent largement Pandoc et visent à le rendre plus simple à prendre en main : les concepts sont les mêmes mais ils devraient être plus faciles à utiliser, même s'ils ne sont pas aussi variés.
 
 ## Comment expérimenter avec Pandoc ?
 
 Une fois que tu sais que ton problème vient de Pandoc, comment créer un exemple reproductible ?
-De manière peut-être surprenante, même si c'est très bien de créer un "reprex" Pandoc, tu *ne peux pas* le créer avec le paquet reprex, parce que reprex utilise la machinerie R Markdown.
+De manière peut-être surprenante, même si c'est très bien de créer un _reprex_ (exemple reproductible) Pandoc, tu *ne peux pas* le créer avec le paquet reprex, parce que reprex utilise la machinerie R Markdown.
 
 Dans ce billet, nous avons montré quelques exemples, en appelant Pandoc directement sur des chaînes de caractères, ou sur [des fichiers temporaires créés avec withr](#pandoc-101).
 
@@ -331,7 +331,7 @@ Quel que soit l'outil que tu utilises, une fois que tu connais le numéro de ver
 
 ## Suivre l'évolution de Pandoc, ou épingler une version Pandoc !
 
-Suivre l'évolution de Pandoc n'est vraiment pas obligatoire et la lecture du "changelog" (journal des modifications) pourrait être difficile à suivre sans une bonne compréhension du fonctionnement de Pandoc.
+Suivre l'évolution de Pandoc n'est vraiment pas obligatoire et la lecture du _changelog_ (journal des modifications) pourrait être difficile à suivre sans une bonne compréhension du fonctionnement de Pandoc.
 Tu *pourrais* t'abonner à la [liste de diffusion Pandoc](https://groups.google.com/g/pandoc-announce).
 Mais il se peut, rarement, que tu aies besoin de passer au peigne fin la [liste de modifications de Pandoc](https://pandoc.org/releases.html) lorsque tu remarqueras quelque chose d'anormal.
 
@@ -372,7 +372,7 @@ Et si Pandoc n'est pas suffisant pour ton cas d'utilisation ?
 
 - [Quarto](https://quarto.org/) est en fait une interface plus facile à utiliser de Pandoc avec beaucoup de fonctionnalités supplémentaires et de nouveaux paramètres par défaut pour améliorer Pandoc pour la publication scientifique. Donc en général, si Pandoc n'est pas suffisant (ou difficile à utiliser), va voir Quarto (qui a des projets, etc.). Utiliser Quarto avec des fichiers Markdown (.md) revient à utiliser un Pandoc plus intelligent (pas de R, pas de calcul, seulement une conversion de texte).
 - Tu pourrais *construire sur* Pandoc. Christophe recommande de se renseigner sur [les filtres Lua](https://pandoc.org/lua-filters.html). Voir [Filtres Lua pour Quarto](https://quarto.org/docs/extensions/filters.html); [Filtres Lua pour R Markdown](https://bookdown.org/yihui/rmarkdown-cookbook/lua-filters.html). Maëlle n'a pas encore appris à les utiliser, et a tendance à convertir les choses en HTML puis à les analyser avec xml2[^7].
-- Tu pourrais ouvrir une "feature request" (demande de fonctionnalité) de Pandoc.
+- Tu pourrais ouvrir une _feature request_ (demande de fonctionnalité) de Pandoc.
 - Tu peux utiliser autre chose que Pandoc, comme le paquet [commonmark de Jeroen Ooms](https://docs.ropensci.org/commonmark/); ou le paquet [markdown de Yihui Xie](https://pkgs.rstudio.com/rmarkdown/articles/rmarkdown.html) ou le paquet [tinkr de Zhian Kamvar](https://docs.ropensci.org/tinkr/) qui utilisent commonmark.
 
 [^7]: Bien que cela puisse faire en sorte que les flux de travail ressemblent au jeu [The incredible machine](https://en.wikipedia.org/wiki/The_Incredible_Machine_\(video_game\)).
