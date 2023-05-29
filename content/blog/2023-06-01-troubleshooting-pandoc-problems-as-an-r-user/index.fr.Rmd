@@ -86,9 +86,9 @@ Même chose avec Quarto qui appellera knitr ou jupyter avant d'appeler Pandoc.
 
 Voici quelques éléments pour t'aider à déterminer si c'est Pandoc qui te fait trébucher :
 
-- En fait, si tu obtiens une erreur avec ton code R, Pandoc n'est pas en cause.
+- Si tu obtiens une erreur avec ton code R, Pandoc n'est pas en cause.
 
-- Tu peux en fait voir une erreur Pandoc dans la sortie, ce qui signifie généralement que quelque chose ne va pas pendant l'étape de conversion Pandoc.
+- Si tu peux ¡voir une erreur Pandoc dans la sortie, cela signifie généralement que quelque chose ne va pas pendant l'étape de conversion Pandoc.
   Le débogage à l'aide du fichier d'entrée transmis à Pandoc sera le plus facile.
   Si l'outil que tu utilises crée cette entrée pour toi (comme R Markdown ou Quarto), ajoute la configuration pour conserver l'entrée Markdown. Lis la sous-section suivante pour plus de détails !
 
@@ -119,7 +119,7 @@ Malheureusement, c'est lorsqu'on commence à explorer le fonctionnement d'un out
 Tout d'abord, comment trouver la documentation de Pandoc ?
 Tu peux taper [`pandoc::pandoc_browse_manual()`](https://cderv.github.io/pandoc/reference/pandoc_browse_manual.html).
 Ou tu peux mettre un signet sur la page [URL du manuel Pandoc](https://pandoc.org/MANUAL.html).
-Il s'agit en fait d'un MANUEL tout en majuscules, ce qui souligne l'importance de le lire : si tu le parcours au moins une fois, tu auras une meilleure idée de ce qu'il contient... et de la façon dont les choses sont référencées dans le monde Pandoc, de sorte que tu pourras poser de meilleures questions à ton moteur de recherche ou à tes collaborateur·rice·s !
+Il s'agit d'un MANUEL tout en majuscules, ce qui souligne l'importance de le lire : si tu le parcours au moins une fois, tu auras une meilleure idée de ce qu'il contient... et de la façon dont les choses sont référencées dans le monde Pandoc, de sorte que tu pourras poser de meilleures questions à ton moteur de recherche ou à tes collaborateur·rice·s !
 Tu peux même être [récompensé pour avoir lu le MANUEL Pandoc](https://yihui.org/en/2017/11/thanks-tj-mahr/) !
 
 Ensuite, comment apprendre à "parler Pandoc" ?
