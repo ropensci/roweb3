@@ -166,14 +166,14 @@ Tu trouveras ci-dessous un exemple dans lequel nous appelons directement Pandoc.
 Note que dans cet exemple, nous utilisons directement des chaînes de texte, sans rien écrire dans des fichiers, ce qui peut être pratique parfois !
 
 ```{r}
-# em dash
+# tiret long
 pandoc::pandoc_convert(
   text = "I like Pandoc -- when it works as I want it to!",
   from = "markdown",
   to = "html"
 )
 
-# no em dash
+# pas de tiret long
 pandoc::pandoc_convert(
   text = "I like Pandoc -- when it works as I want it to!",
   from = "markdown-smart",
