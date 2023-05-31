@@ -36,4 +36,23 @@
         {{ $mentors := .Site.Data.team.mentors }} {{ partial "whole-page-fragments/team/team-section" (dict "team" $mentors) }}
     </div>
 </section>
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 text-md-right">
+                <h4 class="about-block__title" id="editors">
+                    Resources
+                </h4>
+            </div>
+            </div>
+        <div class="row">
+    <div class="talk-cards">
+      {{ $pages := (where ( where ( where .Site.RegularPages "Section" "events" ) ".Params.resources" "!=" nil  )  ".Params.tags" "intersect" (slice "champions")) }}
+      {{ range $pages.ByDate.Reverse }}
+      {{ partial "resources/talk-card" . }}
+      {{ end }}
+    </div>
+        </div>
+    </div>
+</section>
 {{ partial "whole-page-fragments/volunteer" (dict "divider" "rl" "Site" .Site ) }} {{ partial "whole-page-fragments/newsletter" (dict "divider" "lr" ) }} {{ partial "whole-page-fragments/brands" (dict "Site" .Site "divider" "rl" ) }} {{ end }}
