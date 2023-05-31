@@ -92,7 +92,7 @@
         {{ .title }}
       </div>
       <div class="talk-info">
-        <span class="talk-date">{{ .speaker }}</span>
+        <span class="talk-date">{{ .speaker }}</span>{{with .summary}}<br/><div>{{ . }}</div>{{ end }}
       </div>
     </div>
     <div class="col-md-2 text-md-center"><a href="{{ .slides }}"><i class="fas fa-desktop"></i></a>
