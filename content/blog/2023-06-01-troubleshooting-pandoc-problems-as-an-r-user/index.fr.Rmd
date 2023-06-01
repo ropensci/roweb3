@@ -11,6 +11,7 @@ tags:
 - publication
 - quarto
 - markdown
+- tech notes
 description: "Comment résoudre ses problèmes Pandoc grâce à la lecture de documentation,
   l'expérimentation... et un peu d'expérience \U0001F605."
 ---

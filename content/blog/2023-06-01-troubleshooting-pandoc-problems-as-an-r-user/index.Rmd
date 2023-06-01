@@ -15,6 +15,7 @@ tags:
   - publication
   - quarto
   - markdown
+  - tech notes
 description: "How to solve your Pandoc problems thanks to documentation reading, experimentation... and a bit of experience 😅 "
 ---
 
