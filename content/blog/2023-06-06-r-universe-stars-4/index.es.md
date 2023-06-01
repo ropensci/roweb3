@@ -1,6 +1,6 @@
 ---
 slug: "r-universe-stars-4-es"
-title: "Conociendo a las estrellas del Universo R: PEcAn: un proyecto de código abierto para cuidar el planeta"
+title: "Conociendo a las estrellas del Universo R: PEcAn, un proyecto de código abierto para cuidar el planeta"
 author:
   - Yanina Bellini Saibene
   - Alejandra Bellini
@@ -18,18 +18,16 @@ description: "El cambio climático y las investigaciones en el área tienen una 
 
 ---
 
-Un nuevo artículo de nuestra serie de entrevistas ["Conociendo a las estrellas del universo R"](/tags/r-universe-stars/). Nuestro objetivo es presentar a los equipos y personas que están detrás del desarrollo de software y paquetes que utilizamos y que están disponibles a través del R-universe. Queremos destacar y explorar diferentes equipos y proyectos de todo el mundo, el trabajo que realizan, sus procesos y usuarios. Nuestra tercera parada es __Estados Unidos__ para hablar con __ __, representantes del proyecto PEcAn.
+Un nuevo artículo de nuestra serie de entrevistas ["Conociendo a las estrellas del universo R"](/tags/r-universe-stars/). Nuestro objetivo es presentar a los equipos y personas que están detrás del desarrollo de software y paquetes que utilizamos y que están disponibles a través del R-universe. Queremos destacar y explorar diferentes equipos y proyectos de todo el mundo, el trabajo que realizan, sus procesos y usuarios. Nuestra tercera parada es __Estados Unidos__ para hablar con representantes del proyecto PEcAn. No te olvides de mirar el video al final del artículo con extractos de la entrevista.
 
 
-{{< figure src = "team.png" class = "pull-left" width = "300" alt = "Foto de perfil de ." caption = "<center><strong></strong><br></center>">}}
+### El cambio climático y la investigación en este ámbito cuentan con datos diversos y complejos que exigen modelos de análisis cada vez más complejos. El proyecto PEcAn trabaja para desarrollar esta capacidad.
 
+En este nuevo encuentro vamos a adentrarnos en la ciencia del cambio climático y exploraar el desarrollo de herramientas de análisis de datos y modelización de ecosistemas. Ese es el principal objetivo del [proyecto PEcAn](https://pecanproject.github.io/) donde de manera colaborativa buscan nuevas formas de recopilación y sintetización de datos y desarrollan herramientas accesibles para realizar estas tareas de forma reproducible.
 
+De la charla participaron Rob Kooper, Chris Black, Eric Scott,  Michael C. Dietze y David LeBauer, todos integrantes del proyecto PEcAn con un mismo objetivo: encontrar más y mejores formas de integrar la enorme cantidad de datos existentes relacionados al cambio climático.
 
-### El cambio climático y las investigaciones en el área tienen una diversidad y complejidad de datos que demandan modelos de análisis cada vez más complejos. El proyecto PEcAn trabaja para desarrollar esa habilidad.
-
-En este nuevo encuentro vamos a adentrarnos en la ciencia del cambio climático donde se desarrollan herramientas de análisis de datos y modelización de ecosistemas. Ese es el principal objetivo del [proyecto pecan](https://pecanproject.github.io/) donde de manera colaborativa buscan nuevas formas de recopilación y sintetización de datos y desarrollan herramientas accesibles para realizar estas tareas de forma reproducible.
-
-De la charla participaron Rob Kooper, Chris Black, Eric Scott,  Michael C. Dietze y David LeBauer, todos integrantes del proyecto PEcAn con un mismo objetivo: encontrar más y mejores formas de integrar la enorme cantidad de datos existentes.
+{{< figure src = "team.png" class = "pull-left" width = "300" alt = "Foto de perfil de David LeBauer, Michael C. Dietze, Rob Kooper, Eric Scott, y Chris Black." caption = "<center><strong>David LeBauer, Michael C. Dietze, Rob Kooper, Eric Scott y Chris Black</strong><br></center>">}}
 
 Según el propio relato de Michael C. Dietze el proyecto “es como una especie de sistema informático de modelos de datos”. Se trata de un conjunto de herramientas que facilitan la combinación de modelos de procesos y datos, con especial atención en los modelos ecológicos”
 
