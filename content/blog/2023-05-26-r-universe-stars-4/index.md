@@ -39,7 +39,7 @@ An example of this practice is the project they are developing with Brooklyn Nat
 
 In this work structure, one of the main objectives is to become a kind of "Hacker" that solves problems in a more general sense that can then be applied in other contexts and in other areas. According to Rob, knowledge can be sustained and grow thanks to the research developed across multiple institutions including University of Illinois, Boston University, University of Arizona, University of Wisconsin and Brookhaven National Laboratory. 
 
-In relation to the experience of working together with Google, where they are looking to develop and promote ecosystem modeling tools, Chris explains that part of the success is that it is not just one university doing research but a large team of people all over the world working together. Although it takes longer, the result is used by a much wider community.
+Working with Google Summer of Code, which has helped with developing and promoting an ecosystem of modeling tools, Chris explains that part of the success is that it is not just one university doing research but a large team of people all over the world working together. Although it takes longer, the result is used by a much wider community.
 
 ## Doing more in less time with standards
 
