@@ -1,5 +1,5 @@
 ---
-slug: "r-universe-stars-3-es"
+slug: "r-universe-stars-4-es"
 title: "Conociendo a las estrellas del Universo R: PEcAn: un proyecto de código abierto para cuidar el planeta"
 author:
   - Yanina Bellini Saibene
