@@ -50,7 +50,7 @@ cyberinfrastructure for ecological data-model integration"](https://onlinelibrar
 
 By using standards and having packages that can solve the reading, embedding and writing of all the data involved in the process, researchers don't need to know how many different formats work, or communicate with many different research teams, in order to do this kind of work.  
 
-This allows an individual researcher to run a whole ensemble models. "Just a couple of years ago analyzing multi-models was not something that was accessible to individual researchers" NAME? explains.  
+This allows an individual researcher to run a whole ensemble models. "Just a couple of years ago analyzing multi-models was not something that was accessible to individual researchers" Michael explains.  
 
 
 ## The R-Universe experience
