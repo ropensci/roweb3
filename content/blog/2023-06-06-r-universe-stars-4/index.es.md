@@ -27,9 +27,9 @@ En este nuevo encuentro vamos a adentrarnos en la ciencia del cambio climático 
 
 De la charla participaron Rob Kooper, Chris Black, Eric Scott,  Michael C. Dietze y David LeBauer, todos integrantes del proyecto PEcAn con un mismo objetivo: encontrar más y mejores formas de integrar la enorme cantidad de datos existentes relacionados al cambio climático.
 
-{{< figure src = "team.png" class = "pull-left" width = "300" alt = "Foto de perfil de David LeBauer, Michael C. Dietze, Rob Kooper, Eric Scott, y Chris Black." caption = "<center><strong>David LeBauer, Michael C. Dietze, Rob Kooper, Eric Scott y Chris Black</strong><br></center>">}}
+{{< figure src = "team.png" alt = "Foto de perfil de David LeBauer, Michael C. Dietze, Rob Kooper, Eric Scott, y Chris Black." caption = "<center><strong>David LeBauer, Michael C. Dietze, Rob Kooper, Eric Scott y Chris Black</strong><br></center>">}}
 
-Según el propio relato de Michael C. Dietze el proyecto “es como una especie de sistema informático de modelos de datos”. Se trata de un conjunto de herramientas que facilitan la combinación de modelos de procesos y datos, con especial atención en los modelos ecológicos”
+Según Michael C. Dietze el proyecto _“es como una especie de sistema informático de modelos de datos. Se trata de un conjunto de herramientas que facilitan la combinación de modelos de procesos y datos, con especial atención en los modelos ecológicos”_.
 
 En la descripción del trabajo, rápidamente aparece el concepto de comunidad. Cuentan con una gran red de personas distribuidas geográfica y estratégicamente que les permite llegar a más estudiantes que participan en distintas partes del proceso y en distintos proyectos. Así, pueden compartir el trabajo con muchas personas al mismo tiempo, contar con un número importante de colaboradores y difundir conocimiento más allá de los límites académicos porque como explica Rob esos estudiantes seguirán sus desarrollos en otros lugares donde es probable que lleven sus herramientas y paquetes de datos. En esas conexiones y en ese trabajo colaborativo radica gran parte de la fortaleza del proyecto PEcAn.
 
