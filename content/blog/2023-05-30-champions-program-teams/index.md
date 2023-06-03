@@ -24,7 +24,7 @@ Meet **Cheryl Isabella Lim** from Singapore and **Mauro Lepore** from Argentina!
 
 Hi! I'm Cheryl Isabella, an R enthusiast from Singapore. 
 
-As the first female Asian POC to be inducted into this program, I'll be trained as a Software Reviewer for ropensci's peer review process. This means combining elements from academic peer review and production code review to apply Github features to packages from a range of broadly-defined categories. 
+As the first female Asian POC to be inducted into this program, I'll be trained as a Software Reviewer for rOpenSci's peer review process. This means combining elements from academic peer review and production code review to apply GitHub features to packages from a range of broadly-defined categories. 
 
 Through my role as an rOpenSci Champion, I expect to gain transferable skills and advocate for greater visibility of previously marginalised communities in STEM. 
 
