@@ -47,14 +47,17 @@ Durante la charla, el equipo compartió el trabajo ["Beyond ecosystem modeling: 
 
 {{< figure src = "diagram.png" alt = "Un diagrama de flujo que muestra el enfoque con estándares para reducir el trabajo redundante cuando se adoptan formatos comunes. Hay "n" tipos de datos que deben vincularse a "m" modelos de simulación y "k" análisis posteriores a la simulación. En el panel superior, el enfoque convencional en el que los equipos de modelización trabajan de forma independiente requiere implementar n × m diferentes conversiones de entrada y m × k diferentes conversiones de salida. A medida que se añaden datos, modelos y análisis, el esfuerzo se escala cuadráticamente. Por otro lado, el panel inferior muestra que trabajando en comunidad y adoptando formatos comunes y herramientas analíticas compartidas, el número de conversores necesarios para enlazar modelos, datos y análisis se reduce a un problema de m + n y m + k, y se escala linealmente." caption = "<center><strong>Enfoque convencional y enfoque con estándares de la modelización. El proyecto PEcAn es un ejemplo del enfoque con estándares para la modelización.</strong></center>">}}
 
+Al utilizar estándares y disponer de paquetes que pueden resolver la lectura, integración y escritura de todos los datos implicados en el proceso, quienes investigan no necesitan saber cómo funcionan muchos formatos diferentes, ni comunicarse con muchos equipos de investigación distintos, para realizar este tipo de trabajo.
+
+Esto permite a un investigador o investigadora individual ejecutar un conjunto completo de modelos. "Hace sólo un par de años, analizar modelos múltiples no era algo accesible para los investigadores individuales", explica Michael.
 
 ## La experiencia en el Universo R
 
-Los paquetes con los que cuentan están organizados en distintos grupos donde se pueden encontrar los paquetes básicos, las herramientas útiles y los módulos que incluyen paquetes para la gestión de datos y también paquetes para hacer análisis estadísticos sobre las entradas y salidas de los modelos.
+Los paquetes de PEcAn están organizados en distintos grupos, como los paquetes básicos,  herramientas útiles y los módulos que incluyen paquetes para la gestión de datos y también paquetes para hacer análisis estadísticos sobre las entradas y salidas de los modelos.
 
-Uno de los puntos más importantes de poder [tener todos los paquetes de manera ordenada en el Universo R](https://pecanproject.r-universe.dev/) es poder simplificar el trabajo de los investigadores. Los modelos les ahorran años de trabajo y de recursos. 
+Uno de los puntos más importantes de poder [tener todos los paquetes de manera ordenada en el Universo R](https://pecanproject.r-universe.dev/) es poder simplificar el trabajo de los investigadores e investigadoras. Tener un acceso sencillo y organizado a estos modelos les ahorra años de trabajo y de recursos. 
 
-Además, al haber muchas personas trabajando sobre los paquetes, es más probable que los errores disminuyan. Aunque todo el equipo sabe que el código de PEcAn Project no está libre de errores tienen más chances de encontrarlos y solucionarlos por tener más ojos observando lo mismo.
+Además, con tanta gente trabajando en los paquetes, es más probable que se descubran errores. Aunque el equipo sabe que el código del proyecto PEcAn no está libre de errores, tienen más posibilidades de encontrarlos y corregirlos al tener más ojos mirando lo mismo.
 
 En el siguiente video, el equipo muestra y cuenta cómo organizan los paquetes en el Universo R y cuáles son las fortalezas de esta herramienta:
 
