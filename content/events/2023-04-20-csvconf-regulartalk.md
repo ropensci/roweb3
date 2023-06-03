@@ -13,7 +13,10 @@ resources: # can be added later, one entry per talk (don't add while still empty
   - title: "Tell me who you hang out with and I will tell you who you are. A collaborations analysis using social networks analysis"
     speaker: Yanina Bellini Saibene
     slides: https://csvconfv7.netlify.app/#/
+    video: https://youtu.be/oXDW1oR0Fvk
     language: en
+    
+    
 ---
 
 
