@@ -21,7 +21,7 @@ description: "El cambio climático y las investigaciones en el área tienen una 
 Un nuevo artículo de nuestra serie de entrevistas ["Conociendo a las estrellas del universo R"](/tags/r-universe-stars/). Nuestro objetivo es presentar a los equipos y personas que están detrás del desarrollo de software y paquetes que utilizamos y que están disponibles a través del R-universe. Queremos destacar y explorar diferentes equipos y proyectos de todo el mundo, el trabajo que realizan, sus procesos y usuarios. Nuestra tercera parada es __Estados Unidos__ para hablar con representantes del proyecto PEcAn. No te olvides de mirar el video al final del artículo con extractos de la entrevista.
 
 
-### El cambio climático y la investigación en este ámbito cuentan con datos diversos y complejos que exigen modelos de análisis cada vez más complejos. El proyecto PEcAn trabaja para desarrollar esta capacidad.
+#### El cambio climático y la investigación en este ámbito cuentan con datos diversos y complejos que exigen modelos de análisis cada vez más complejos. El proyecto PEcAn trabaja para desarrollar esta capacidad.
 
 En este nuevo encuentro vamos a adentrarnos en la ciencia del cambio climático y exploraar el desarrollo de herramientas de análisis de datos y modelización de ecosistemas. Ese es el principal objetivo del [proyecto PEcAn](https://pecanproject.github.io/) donde de manera colaborativa buscan nuevas formas de recopilación y sintetización de datos y desarrollan herramientas accesibles para realizar estas tareas de forma reproducible.
 
