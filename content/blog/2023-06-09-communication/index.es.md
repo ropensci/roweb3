@@ -18,10 +18,10 @@ han generado un espacio menos seguro y amigable para nuestra comunidad.
 Es por eso que a partir de _Junio de 2023_, dejaremos de interactuar en esa plataforma.  
 Solo realizaremos las tareas necesarias para que la cuenta no pueda ser suplantada.
 
-Entendemos que es una de las plataformas de referencia para las comunidad de R, 
+Entendemos que hasta hoy ha sido una de las plataformas de referencia para las comunidad de R, 
 de datos, investigación y ciencia abierta pero tenemos que ser responsables y 
 coherentes con los espacios que elegimos para el intercambio y 
-la interacción y [nuestros valores como comunidad y organización](/about/).
+la interacción y [nuestros valores como comunidad](/es/codigo-de-conducta/) y [organización](/about/).
 
 Hemos estado trabajando para ofrecer otros puntos de encuentro que nos 
 permiten trabajar en una _comunidad acogedora y diversa_.  
@@ -34,7 +34,7 @@ para que utilices la que mejor se adapte a tus necesidades.
 
 Es [la plataforma a la que migramos en Noviembre](https://hachyderm.io/@rOpenSci) y a la que 
 han migrado también gran cantidad de comunidades amigas y miembros de nuestra comunidad. 
-Exploramos instancias que se alinean a nuestra misión y que nos permien comunicarnos 
+Luego de explorar diferentes instancias, seleccionamos una que se alinea a nuestra misión y que nos permite comunicarnos 
 en varios idiomas y [desarrollamos herramientas para compartir nuestro contenido](/blog/2023/05/17/scheduling-mastodon/). 
 
 ## El Newsletter y el blog de rOpenSci
@@ -48,14 +48,14 @@ Podes leerlo desde la web, recibirlo con el newsletter o consumirlo desde [el fe
 ## Foro de debate 
 
 Los intercambios siempre son enriquecedores para nuestro trabajo y es en 
-esos espacios donde surgen nuevos desafíos e ideas. Podés sumarte a nuestro [foro de debate](https://discuss.ropensci.org/). 
+esos espacios donde surgen nuevos desafíos e ideas. Podés sumarte a nuestro [foro de debate](https://discuss.ropensci.org/). Conocé más sobre [como podes interactuar en este espacio](/blog/2022/01/11/ropensci-forum/). 
 
 ## Eventos
 
 Las [llamadas de la comunidad](/commcalls/), nuestras [sesiones de trabajo](/events/) y nuestra 
 [participación en eventos y conferencias](/talks/) son otros espacios para poder interactuar 
 con otros miembros de la comunidad y con el equipo de rOpenSci.  
-Chequea nuestro calendario para saber cuando y donde van a ocurrir. 
+Chequea nuestro calendario (o lee el newsletter) para saber cuando y donde van a ocurrir. 
 
 En todos nuestros espacios y vías de comunicación, nos comprometemos a garantizar 
 espacios seguros, accesibles, abiertos, diversos y amigables.  
