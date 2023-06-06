@@ -27,7 +27,7 @@ En este nuevo encuentro vamos a adentrarnos en la ciencia del cambio climático 
 
 De la charla participaron Rob Kooper, Chris Black, Eric Scott,  Michael C. Dietze y David LeBauer, todos integrantes del proyecto PEcAn con un mismo objetivo: encontrar más y mejores formas de integrar la enorme cantidad de datos existentes relacionados al cambio climático.
 
-{{< figure src = "team.png" alt = "Foto de perfil de David LeBauer, Michael C. Dietze, Rob Kooper, Eric Scott, y Chris Black." caption = "<center><strong>David LeBauer, Michael C. Dietze, Rob Kooper, Eric Scott y Chris Black</strong><br></center>">}}
+{{< figure src = "team.jpg" alt = "Foto de perfil de David LeBauer, Michael C. Dietze, Rob Kooper, Eric Scott, y Chris Black." caption = "<center><strong>David LeBauer, Michael C. Dietze, Rob Kooper, Eric Scott y Chris Black</strong><br></center>">}}
 
 Según Michael C. Dietze el proyecto _“es como una especie de sistema informático de modelos de datos. Se trata de un conjunto de herramientas que facilitan la combinación de modelos de procesos y datos, con especial atención en los modelos ecológicos”_.
 
