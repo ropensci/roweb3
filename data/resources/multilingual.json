@@ -1,7 +1,17 @@
 [
 {
-   "title": "Online book",
-   "text": "rOpenSci Contributing Guide",
-   "url": "https://contributing.ropensci.org"
+   "title": "Translation Guidelines",
+   "text": "rOpenSci's guide for translations",
+   "url": "https://translationguide.ropensci.org/"
+},
+{
+   "title": "babeldown R package",
+   "text": "Translate Markdown-based content via DeepL API",
+   "url": "https://docs.ropensci.org/babeldown/"
+},
+{
+   "title": "babelquarto R package",
+   "text": "Set up and render a multilingual Quarto book",
+   "url": "https://docs.ropensci.org/babelquarto/"
 }
 ]
