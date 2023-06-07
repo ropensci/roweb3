@@ -16,7 +16,7 @@ Tal como [lo anticipamos en noviembre del 2022](/es/blog/2022/11/16/mastodon-es)
 han generado un espacio menos seguro y amigable para nuestra comunidad. 
 
 Es por eso que a partir de _Junio de 2023_, dejaremos de interactuar en esa plataforma.  
-Solo realizaremos las tareas necesarias para que la cuenta no pueda ser suplantada.
+Solo realizaremos las tareas necesarias para que la cuenta no se desactive y pueda ser suplantada.
 
 Entendemos que hasta hoy ha sido una de las plataformas de referencia para las comunidad de R, 
 de datos, investigación y ciencia abierta pero tenemos que ser responsables y 
