@@ -1,5 +1,5 @@
 ---
-slug: "ropensci-communication-channels"
+slug: "ropensci-communication-channels-es"
 title: "Los canales de comunicación de rOpenSci para un intercambio seguro y amigable"
 author:
   - Yanina Bellini Saibene
@@ -62,5 +62,4 @@ espacios seguros, accesibles, abiertos, diversos y amigables.
 Nuestro [código de conducta](https://ropensci.org/code-of-conduct/) aplica a todos ellos.
 
 Si tenes alguna duda, comentario o sugerencia también podes 
-escribirnos a info@ropensci.org. Además, podes sugerirnos a qué canales podemos sumarnos para seguir
-compartiendo nuestros contenidos. 
+escribirnos a info@ropensci.org. Además, podes sugerirnos a qué canales podemos sumarnos para seguir compartiendo nuestros contenidos. 
