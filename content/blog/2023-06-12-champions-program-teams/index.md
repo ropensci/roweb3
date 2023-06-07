@@ -3,7 +3,7 @@ title: "rOpenSci Champions Program Teams: Meet Cheryl Isabella Lim and Mauro Lep
 author:
   - Cheryl Isabella Lim
   - Mauro Lepore
-date: '2023-05-30'
+date: '2023-06-12'
 tags:
   - community
   - champions program
