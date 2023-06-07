@@ -26,15 +26,15 @@ resources:
     details: 
  
 speakers:  
-  - name: Will Landau
-    bio: Will Landau is the author of rOpenSci's {targets} R package. He earned his PhD in Statistics from Iowa State University in 2016, and he now works at Eli Lilly and Company, where he develops methods and software for clinical statisticians.
-    img: /img/community/will-landau.jpeg
-  - name: Eric Scott
-    bio:  Eric Scott is a Scientific Programmer & Educator at University of Arizona.  He has a background in chemical ecology and plant ecology and is a regular contributor to the {webchem} package.  He has now attempted to make it easy to set up {targets} to harness the power of HPC from the comfort of an RStudio window at three universities—and succeeded at two!      
-    img: /img/community/eric-scott.jpg    
-  - name: Joel Nitta 
-    bio: Joel Nitta is a Project Research Associate at the University of Tokyo. He studies the evolution and ecology of ferns, and is passionate about reproducible data analysis using R.
-    img: /img/community/joel-nitta.jpeg  
+  - name: 
+    bio: .
+    img: /img/community/picture.jpeg
+  - name:
+    bio:        
+    img: /img/community/picture.jpeg
+  - name:  
+    bio: 
+    img: /img/community/picture.jpeg  
 tags:
   - community call
   - events
