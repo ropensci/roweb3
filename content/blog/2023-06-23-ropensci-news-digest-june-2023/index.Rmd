@@ -621,6 +621,11 @@ cli::cli_text("Run {.run praise::praise(template)} now!")
 
 * If your code is run in RStudio IDE (checkable with [`rstudioapi::isAvailable()`](https://rstudio.github.io/rstudioapi/reference/isAvailable.html)), you could use [`rstudioapi::sendToConsole()`](https://rstudio.github.io/rstudioapi/reference/sendToConsole.html). [Example](https://github.com/cynkra/fledge/blob/520b9b2e36da7bc58136378407f1f4454bfbeadf/R/finalize-version.R#L63-L80=).
 
+### devtag: Restrict Some Help Files to Development 
+
+The new [devtag package by Antoine Fabri](https://github.com/moodymudskipper/devtag) "allows you to use `@dev` tags in your roxygen2 headers so you’ll generate help files for unexported objects, that you will enjoy during development but won’t be accessible for users that install your package".
+This might be nicer to read than the classical [`@NoRd` docs for internal functions](https://blog.r-hub.io/2019/12/12/internal-functions/#how-to-document-internal-functions)!
+
 ### Useful post on the retirement of popular spatial packages
 
 Don't miss Jakub Nowosad' blog post ["Upcoming changes to popular R packages for spatial data: what you need to do"](https://geocompx.org/post/2023/rgdal-retirement/)!
