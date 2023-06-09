@@ -5,8 +5,8 @@ author:
   - The rOpenSci Team
 date: '2023-06-23'
 tags:
-  - R-universe stars PEcAn project, R-universe snapshots, coworking
-description: keywords from the content
+  - newsletter
+description: R-universe stars PEcAn project, R-universe snapshots, coworking
 params:
   last_newsletter: "2023-05-19"
 ---
@@ -35,6 +35,10 @@ You can also read the post in [Spanish](/es/blog/2023/06/06/r-universe-stars-4-e
 ### Downloading snapshots and creating stable R packages repositories using R-universe!
 
 The [new snapshot API](/blog/2023/05/31/runiverse-snapshots/) lets you download a full copy of any CRAN-like repository on R-universe. You can use such a snapshot to mirror the entire CRAN-like repository on your own servers, or for example to build a stable, validated release of your package suite.
+
+### PLACEHOLDER STAT REVIEW
+
+### PLACEHOLDER TWITTER BYEBYE
 
 ### Coworking
 
@@ -120,8 +124,6 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 * [Meeting the Stars of the R-Universe: PEcAn, an Open Source Project to Take Care of the Planet](/blog/2023/06/23/ropensci-news-digest-june-2023) by Yanina Bellini Saibene, Alejandra Bellini, Lucio Casalla, and Steffi LaZerte. Climate change and research in this area have diverse and complex data that demand increasingly complex analysis models. The PEcAn project works to develop this ability. Other languages: <a href='/es/blog/2023/06/06/r-universe-stars-4-es' lang='es'>Conociendo a las estrellas del Universo R: PEcAn, un proyecto de código abierto para cuidar el planeta (es)</a>.
 
-* [rOpenSci News Digest, June 2023](/blog/2023/06/23/ropensci-news-digest-june-2023) by The rOpenSci Team. keywords from the content.
-
 
 
 ### Tech Notes
@@ -174,8 +176,7 @@ Here's some inspiration:
 * Also in the cli package, a special kind of links that runs the code if it is clicked on, in RStudio IDE: ["Click to run code"](https://cli.r-lib.org/reference/links.html?q=run#click-to-run-code). You might know that from running snapshot tests with testthat, and getting told to review/accept them with these special links.
 
 ```r
-template <- "Your code is ${adjective}!"
-cli::cli_text("Run {.run praise::praise(template)} now!")
+cli::cli_text("Run {.run praise::praise()} now!")
 ```
 
 * If your code is run in RStudio IDE (checkable with [`rstudioapi::isAvailable()`](https://rstudio.github.io/rstudioapi/reference/isAvailable.html)), you could use [`rstudioapi::sendToConsole()`](https://rstudio.github.io/rstudioapi/reference/sendToConsole.html). [Example](https://github.com/cynkra/fledge/blob/520b9b2e36da7bc58136378407f1f4454bfbeadf/R/finalize-version.R#L63-L80=).
