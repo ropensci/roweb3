@@ -5,7 +5,7 @@ author:
   - The rOpenSci Team
 date: '2023-06-23'
 tags:
-  - newsletter
+  - R-universe stars PEcAn project, R-universe snapshots, coworking
 description: keywords from the content
 params:
   last_newsletter: "2023-05-19"
@@ -474,7 +474,7 @@ format_post <- function(dir) {
   
   post <- dir[which(dir[["language"]] == main_language),]
   string <- sprintf("* [%s](%s) by %s", post$title, url, post$author)
-  if (post$description != "") {
+  if (post$description != "" && !grepl("Introducing Champions and Mentors", post$description)) {
     string <- paste0(string, ". ", sub("\\?$", "", sub("\\!$", "", sub("\\.$", "", post$description), ".")), ".")
   } else {
     string <- paste0(string, ".")  
@@ -620,6 +620,16 @@ cli::cli_text("Run {.run praise::praise(template)} now!")
 ```
 
 * If your code is run in RStudio IDE (checkable with [`rstudioapi::isAvailable()`](https://rstudio.github.io/rstudioapi/reference/isAvailable.html)), you could use [`rstudioapi::sendToConsole()`](https://rstudio.github.io/rstudioapi/reference/sendToConsole.html). [Example](https://github.com/cynkra/fledge/blob/520b9b2e36da7bc58136378407f1f4454bfbeadf/R/finalize-version.R#L63-L80=).
+
+### Useful post on the retirement of popular spatial packages
+
+Don't miss Jakub Nowosad' blog post ["Upcoming changes to popular R packages for spatial data: what you need to do"](https://geocompx.org/post/2023/rgdal-retirement/)!
+And again, tell your spatial R friends about this big change.
+
+### More on CRAN C++ requirements
+
+Do you remember the tidyverse article ["New CRAN requirements for packages with C and C++"](https://www.tidyverse.org/blog/2023/03/cran-checks-compiled-code/)?
+You might also enjoy this [repo](https://github.com/mpadge/settest) by rOpenSci Mark Padgham, "Test R package compilation with >= C++17".
 
 <!-- To be curated by hand -->
 
