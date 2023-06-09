@@ -5,7 +5,7 @@ author:
   - The rOpenSci Team
 date: '2023-06-23'
 tags:
-  - newsletter
+  - R-universe stars PEcAn project, R-universe snapshots, coworking
 description: keywords from the content
 params:
   last_newsletter: "2023-05-19"
@@ -116,9 +116,11 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 ### Other topics
 
-* [rOpenSci Champions Program Teams: Meet César and Marc](/blog/2023/06/23/ropensci-news-digest-june-2023) by Cesar Luis Aybar Camacho, and Marc Choisy. Introducing Champions and Mentors - Cesar Luis Aybar Camacho and Marc Choisy.
+* [rOpenSci Champions Program Teams: Meet César and Marc](/blog/2023/06/23/ropensci-news-digest-june-2023) by Cesar Luis Aybar Camacho, and Marc Choisy.
 
 * [Meeting the Stars of the R-Universe: PEcAn, an Open Source Project to Take Care of the Planet](/blog/2023/06/23/ropensci-news-digest-june-2023) by Yanina Bellini Saibene, Alejandra Bellini, Lucio Casalla, and Steffi LaZerte. Climate change and research in this area have diverse and complex data that demand increasingly complex analysis models. The PEcAn project works to develop this ability. Other languages: <a href='/es/blog/2023/06/06/r-universe-stars-4-es' lang='es'>Conociendo a las estrellas del Universo R: PEcAn, un proyecto de código abierto para cuidar el planeta (es)</a>.
+
+* [rOpenSci News Digest, June 2023](/blog/2023/06/23/ropensci-news-digest-june-2023) by The rOpenSci Team. keywords from the content.
 
 
 
@@ -177,6 +179,21 @@ cli::cli_text("Run {.run praise::praise(template)} now!")
 ```
 
 * If your code is run in RStudio IDE (checkable with [`rstudioapi::isAvailable()`](https://rstudio.github.io/rstudioapi/reference/isAvailable.html)), you could use [`rstudioapi::sendToConsole()`](https://rstudio.github.io/rstudioapi/reference/sendToConsole.html). [Example](https://github.com/cynkra/fledge/blob/520b9b2e36da7bc58136378407f1f4454bfbeadf/R/finalize-version.R#L63-L80=).
+
+### devtag: Restrict Some Help Files to Development 
+
+The new [devtag package by Antoine Fabri](https://github.com/moodymudskipper/devtag) "allows you to use `@dev` tags in your roxygen2 headers so you’ll generate help files for unexported objects, that you will enjoy during development but won’t be accessible for users that install your package".
+This might be nicer to read than the classical [`@NoRd` docs for internal functions](https://blog.r-hub.io/2019/12/12/internal-functions/#how-to-document-internal-functions)!
+
+### Useful post on the retirement of popular spatial packages
+
+Don't miss Jakub Nowosad' blog post ["Upcoming changes to popular R packages for spatial data: what you need to do"](https://geocompx.org/post/2023/rgdal-retirement/)!
+And again, tell your spatial R friends about this big change.
+
+### More on CRAN C++ requirements
+
+Do you remember the tidyverse article ["New CRAN requirements for packages with C and C++"](https://www.tidyverse.org/blog/2023/03/cran-checks-compiled-code/)?
+You might also enjoy this [repo](https://github.com/mpadge/settest) by rOpenSci Mark Padgham, "Test R package compilation with >= C++17".
 
 <!-- To be curated by hand -->
 
