@@ -1,14 +1,14 @@
 ---
-title: "Arrow"
-dateStart: 2023-06-30T20:00:00 # UTC!!
-dateEnd: 2023-06-30T21:00:00 # UTC!!
-date: 2023-06-30T21:00:00 # UTC!! same as dateEnd
-publishDate: 2023-06-30
+title: "A Journey through Arrow in R"
+dateStart: 2023-06-28T16:00:00 # UTC!!
+dateEnd: 2023-06-28T17:00:00 # UTC!!
+date: 2023-06-28T16:00:00 # UTC!! same as dateEnd
+publishDate: 2023-06-28
 description: Community Call covering {arrow} intro and use cases.
 author:
-  - 
-  - 
-  - 
+  - Stephanie Hazlitt
+  - Jonathan Keane
+  - Nic Crane
 organizer: Yanina Bellini Saibene
 location: Community call (teleconference)
 country: "\U0001F310"
@@ -26,15 +26,15 @@ resources:
     details: 
  
 speakers:  
-  - name: 
-    bio: .
-    img: /img/community/picture.jpeg
-  - name:
-    bio:        
-    img: /img/community/picture.jpeg
-  - name:  
+  - name: Nic Crane
     bio: 
-    img: /img/community/picture.jpeg  
+    img: /img/community/nic-crane.png
+  - name: Jonathan Keane
+    bio:        
+    img: /img/community/jonathan-keane.png
+  - name: Stephanie Hazlitt 
+    bio: 
+    img: /img/community/stephanie-hazlitt.jpeg  
 tags:
   - community call
   - events
@@ -44,6 +44,8 @@ deets: |
     Passcode: 845032
 zoomurl: https://numfocus-org.zoom.us/j/85641283923?pwd=dG9RR2RNRjUyVlBGejJYVFFhb2ZkZz09
 ---
+
+Apache Arrow is a software development platform for building high performance applications that process and transport large data sets. It is designed to improve the performance of data analysis methods, and to increase the efficiency of moving data from one system or programming language to another.
 
 
 
