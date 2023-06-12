@@ -21,9 +21,9 @@ outputs:
 vimeo:
  - id: ''
 resources:
-  - url: 
-    name:   
-    details: 
+  - url: https://arrow.apache.org/docs/r/index.html
+    name: Arrow R Package Documentation  
+    details: The arrow R package exposes an interface to the Arrow C++ library, enabling access to many of its features in R. It provides low-level access to the Arrow C++ library API and higher-level access through a dplyr backend and familiar R functions.
  
 speakers:  
   - name: Nic Crane
