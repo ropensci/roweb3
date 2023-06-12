@@ -47,6 +47,6 @@ zoomurl: https://numfocus-org.zoom.us/j/85641283923?pwd=dG9RR2RNRjUyVlBGejJYVFFh
 
 Apache Arrow is a software development platform for building high performance applications that process and transport large data sets. It is designed to improve the performance of data analysis methods, and to increase the efficiency of moving data from one system or programming language to another.
 
-
+In this community call moderate by Stephanie Hazlitt our speakers, Nic Crane and Jonathan Keane, will lead us through the Arrow package.
 
 See below for speaker bios and resources.
