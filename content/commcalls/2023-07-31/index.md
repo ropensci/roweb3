@@ -29,7 +29,7 @@ speakers:
   - name: Beatriz Milz
     bio: 
     img: /img/community/picture.jpeg
-  - name: 
+  - name: Victor Ordu
     bio:        
     img: /img/community/picture.jpg    
   - name:  
