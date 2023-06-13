@@ -3,7 +3,7 @@ slug: "ropensci-communication-channels-en"
 title: "rOpenSci's Communication Channels for Safe and Friendly Exchange"
 author:
   - Yanina Bellini Saibene
-date: '2023-06-09'
+date: '2023-06-14'
 tags:
   - community
 featured: true

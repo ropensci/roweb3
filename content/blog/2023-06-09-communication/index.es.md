@@ -3,34 +3,33 @@ slug: "ropensci-communication-channels-es"
 title: "Los canales de comunicación de rOpenSci para un intercambio seguro y amigable"
 author:
   - Yanina Bellini Saibene
-date: '2023-06-09'
+date: '2023-06-14'
 tags:
   - community
 featured: true
 # The summary below will be used by e.g. Twitter cards
-description: "Anuncio sobre nuestros canales de comunicación. rOpenSci deja de interactuar en Twitter."
+description: "Anuncio sobre nuestros canales de comunicación. rOpenSci deja de interactuar en Twitter pero puedes encontrarnos en muchos otros espacios."
 
 ---
 
-Tal como [lo anticipamos en noviembre del 2022](/es/blog/2022/11/16/mastodon-es) los cambios aplicados en Twitter 
-han generado un espacio menos seguro y amigable para nuestra comunidad. 
+Tal como [lo anticipamos en noviembre del 2022](/es/blog/2022/11/16/mastodon-es) los cambios aplicados en Twitter han generado un espacio menos seguro y amigable para nuestra comunidad. Es por eso que a partir de _Junio de 2023_, dejaremos de interactuar en esa plataforma.  
+Mantendremos la cuenta con la esperanza de poder volver cuando Twitter vuelva a ser un espacio seguro y solidario, pero mientras tanto centraremos nuestros esfuerzos de comunicación en otros lugares.
 
-Es por eso que a partir de _Junio de 2023_, dejaremos de interactuar en esa plataforma.  
-Solo realizaremos las tareas necesarias para que la cuenta no se desactive y pueda ser suplantada.
-
-Entendemos que hasta hoy ha sido una de las plataformas de referencia para las comunidad de R, 
-de datos, investigación y ciencia abierta pero tenemos que ser responsables y 
+Entendemos que hasta hoy Twitter ha sido una de las plataformas de referencia para las comunidad de R, de datos, investigación y ciencia abierta pero tenemos que ser responsables y 
 coherentes con los espacios que elegimos para el intercambio y 
 la interacción y [nuestros valores como comunidad](/es/codigo-de-conducta/) y [organización](/about/).
 
-Hemos estado trabajando para ofrecer otros puntos de encuentro que nos 
-permiten trabajar en una _comunidad acogedora y diversa_.  
-La construcción y consolidación de estos espacios, llevan tiempo y necesitan 
-de la colaboración de toda la comunidad para hacerlos crecer. 
-Por eso te compartimos todas las vías de comunicación de rOpenSci 
-para que utilices la que mejor se adapte a tus necesidades.
 
-## rOpenSci en Mastodon
+Sin embargo, hay muchos otros espacios en línea que pueden ser utilizados por nuestra comunidad y hemos estado trabajando para desarrollar nuestra presencia en plataformas que nos permitan promover una _comunidad acogedora y diversa_.
+
+
+Te compartimos todas las vías de comunicación de rOpenSci. Recuerda que siempre puedes visitar la [Guía de Contribución](https://contributing.ropensci.org/resources.html#channels) para tener más detalles sobre cómo puedes participar en rOpenSci y que beneficios puedes tener al hacerlo. 
+
+Como siempre, en todos nuestros espacios y vías de comunicación, nos comprometemos a garantizar 
+espacios seguros, accesibles, abiertos, diversos y amigables.  
+Nuestro [código de conducta](https://ropensci.org/code-of-conduct/) aplica a todos ellos.
+
+## Mastodon
 
 Es [la plataforma a la que migramos en Noviembre](https://hachyderm.io/@rOpenSci) y a la que 
 han migrado también gran cantidad de comunidades amigas y miembros de nuestra comunidad. 
@@ -57,9 +56,6 @@ Las [llamadas de la comunidad](/commcalls/), nuestras [sesiones de trabajo](/eve
 con otros miembros de la comunidad y con el equipo de rOpenSci.  
 Chequea nuestro calendario (o lee el newsletter) para saber cuando y donde van a ocurrir. 
 
-En todos nuestros espacios y vías de comunicación, nos comprometemos a garantizar 
-espacios seguros, accesibles, abiertos, diversos y amigables.  
-Nuestro [código de conducta](https://ropensci.org/code-of-conduct/) aplica a todos ellos.
 
 Si tenes alguna duda, comentario o sugerencia también podes 
 escribirnos a info@ropensci.org. Además, podes sugerirnos a qué canales podemos sumarnos para seguir compartiendo nuestros contenidos. 
