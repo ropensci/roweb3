@@ -27,13 +27,13 @@ resources:
  
 speakers:  
   - name: Nic Crane
-    bio: 
+    bio:  Nic Crane is an R developer, educator, and general enthusiast, with a background in data science and software engineering.  Nic is a member of the Apache Arrow Project Management Committee (PMC) and is the current maintainer of the arrow R package.
     img: /img/community/nic-crane.png
   - name: Jonathan Keane
-    bio:        
+    bio:  Jonathan Keane is an engineering manager with a background in software engineering and data science. Jonathan is a part of the team who maintains the Arrow project including the Arrow R package.      
     img: /img/community/jonathan-keane.png
   - name: Stephanie Hazlitt 
-    bio: 
+    bio: Director, Data Science Partnerships @ BC Stats 🇨🇦
     img: /img/community/stephanie-hazlitt.jpeg  
 tags:
   - community call
