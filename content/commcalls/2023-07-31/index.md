@@ -32,7 +32,7 @@ speakers:
   - name: Victor Ordu
     bio:        
     img: /img/community/picture.jpg    
-  - name:  
+  - name:  Carolina Pradier
     bio: 
     img: /img/community/picture.jpeg  
 tags:
