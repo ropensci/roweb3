@@ -3,11 +3,12 @@ slug: "ropensci-champions-impact-en"
 title: "How do you measure the impact of a champions program? "
 author:
   - Yanina Bellini Saibene
-date: '2023-06-16'
+  - CSCEE Staff
+date: '2023-06-15'
 tags:
   - community
-
-description: ""
+  - champions program
+description: "A summary of the discussion session on measuring the impact of champion programs at _CZI’s Accelerating Open Science in Latin America_ workshop."
 ---
 
 How do you measure the impact of a champions program? This was the central question of a working session at _CZI’s Accelerating Open Science in Latin America_ workshop, convened by rOpenSci’s Community Manager Yani Bellini Saibene and attended by CSCCE’s Founder and Director, Lou Woodley. 
@@ -31,7 +32,7 @@ The session took the form of a facilitated discussion of these points that all o
 Community champions are individuals who take on more responsibility for the success, sustainability, and/or running of a community ([read more in CCSCE’s guidebook](https://doi.org/10.5281/zenodo.5275270)). Champions programs formalize these roles, and may offer champions incentives, opportunities to connect and access to training and other support. They also offer community managers a means of maintaining, growing, or evolving a community by partnering with champions to further the community’s mission.
 
 
-<FIXME: add picture>
+{{< figure src="function-champions.png" alt="Table presenting the roles of community champions with a definition and an example. The maintain role. The champions support the day-to-day running of the community. For example, they welcome new members or are part of the code of conduct committee. The Grow role. Champions support the growth of the community and extend the community's impact on its results. For example, recommending new members and sharing resources outside the community. Evolve role: champions contribute to steering the direction of the community. Example, serve on a steering committee, task force or participate in focus groups. >}}
 
 Image taken from: Center for Scientific Collaboration and Community Engagement. (2021) The CSCCE Community Participation Model - Exploring the Champion mode. Woodley and Pratt doi: 10.5281/zenodo.5275270
 
