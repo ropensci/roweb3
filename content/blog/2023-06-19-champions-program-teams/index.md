@@ -3,7 +3,7 @@ title: "rOpenSci Champions Program Teams: Meet Alican Cagri Gokcek and Elio Camp
 author:
   - Alican Cagri Gokcek
   - Elio Campitelli
-date: '2023-06-15'
+date: '2023-06-19'
 tags:
   - community
   - champions program
