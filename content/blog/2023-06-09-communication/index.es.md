@@ -25,29 +25,26 @@ Sin embargo, hay muchos otros espacios en línea que pueden ser utilizados por n
 
 Te compartimos todas las vías de comunicación de rOpenSci. Recuerda que siempre puedes visitar la [Guía de Contribución](https://contributing.ropensci.org/resources.html#channels) para tener más detalles sobre cómo puedes participar en rOpenSci y que beneficios puedes tener al hacerlo. 
 
-Como siempre, en todos nuestros espacios y vías de comunicación, nos comprometemos a garantizar 
-espacios seguros, accesibles, abiertos, diversos y amigables.  
+Como siempre, en todos nuestros espacios y vías de comunicación, nos comprometemos a garantizar espacios seguros, accesibles, abiertos, diversos y amigables.  
 Nuestro [código de conducta](https://ropensci.org/code-of-conduct/) aplica a todos ellos.
 
 ## Mastodon
 
-Es [la plataforma a la que migramos en Noviembre](https://hachyderm.io/@rOpenSci) y a la que 
-han migrado también gran cantidad de comunidades amigas y miembros de nuestra comunidad. 
-Luego de explorar diferentes instancias, seleccionamos una que se alinea a nuestra misión y que nos permite comunicarnos 
-en varios idiomas y [desarrollamos herramientas para compartir nuestro contenido](/blog/2023/05/17/scheduling-mastodon/). 
+Es [la plataforma a la que migramos en Noviembre](https://hachyderm.io/@rOpenSci) junto con un gran número de comunidades amigas y miembros de nuestra comunidad. 
+Luego de explorar diferentes instancias, seleccionamos una que se alinea a nuestra misión y que nos permite comunicarnos en varios idiomas. También [desarrollamos herramientas para compartir nuestro contenido](/blog/2023/05/17/scheduling-mastodon/). 
 
-## El Newsletter y el blog de rOpenSci
+## Newsletter y Blog
 
 [Nuestro boletín mensual](/news/) es una actualización permanente de las 
 novedades más importantes y el desarrollo de nuestros proyectos, 
-podes suscribirte para recibirlo en tu mail. 
-En nuestro blog encontras artículos, notas tecnicas, entrevistas y actualizaciones. 
-Podes leerlo desde la web, recibirlo con el newsletter o consumirlo desde [el feed RSS](/rbloggers/index.xml).
+podes suscribirte para recibirlo en tu  o leerlo en nuestra web. 
+En nuestro blog encuentras artículos, notas técnicas, entrevistas y actualizaciones. 
+Podes leerlo desde la web, recibir un resumen con el newsletter o consumirlo desde [el feed RSS](/rbloggers/index.xml).
 
 ## Foro de debate 
 
 Los intercambios siempre son enriquecedores para nuestro trabajo y es en 
-esos espacios donde surgen nuevos desafíos e ideas. Podés sumarte a nuestro [foro de debate](https://discuss.ropensci.org/). Conocé más sobre [como podes interactuar en este espacio](/blog/2022/01/11/ropensci-forum/). 
+esos espacios donde surgen nuevos desafíos e ideas. Puedes sumarte a nuestro [foro de debate](https://discuss.ropensci.org/). Conoce más sobre [como podes interactuar en este espacio](/blog/2022/01/11/ropensci-forum/). 
 
 ## Eventos
 
@@ -56,6 +53,9 @@ Las [llamadas de la comunidad](/commcalls/), nuestras [sesiones de trabajo](/eve
 con otros miembros de la comunidad y con el equipo de rOpenSci.  
 Chequea nuestro calendario (o lee el newsletter) para saber cuando y donde van a ocurrir. 
 
+## ¡Nos vemos!
+
+Así que, mientras las cosas cambian, esperamos que puedas seguir uniéndote a nuestra comunidad en espacios en línea nuevos y divertidos, y que podamos seguir apoyándonos mutuamente a lo largo de nuestros viajes hacia una ciencia abierta y reproducible.
 
 Si tenes alguna duda, comentario o sugerencia también podes 
-escribirnos a info@ropensci.org. Además, podes sugerirnos a qué canales podemos sumarnos para seguir compartiendo nuestros contenidos. 
+escribirnos a info@ropensci.org. Además, nos encataría escuchar tus sugerencias sobre otros canales que piensas que debemos explorar. 
