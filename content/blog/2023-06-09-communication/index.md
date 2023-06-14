@@ -7,7 +7,7 @@ date: '2023-06-14'
 tags:
   - community
 featured: true
-description: "Communication channels announcement. rOpenSci stop interacting on Twitter."
+description: "Communication channels announcement. rOpenSci stop interacting on Twitter, bu we can meet in many other spaces."
 ---
 
 As [we anticipated in November 2022](/blog/2022/11/16/mastodon-en) the changes implemented by Twitter have generated a less safe and friendly space for our community.  That is why from _June 2023_, we will stop interacting on this platform. We will maintain the account in hopes that we can return when Twitter is once again a safe and supportive space, but in the meanwhile will focus our communication efforts elsewhere.
