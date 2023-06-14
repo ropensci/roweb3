@@ -12,8 +12,7 @@ description: "Anuncio sobre nuestros canales de comunicación. rOpenSci deja de 
 
 ---
 
-Tal como [lo anticipamos en noviembre del 2022](/es/blog/2022/11/16/mastodon-es) los cambios aplicados en Twitter han generado un espacio menos seguro y amigable para nuestra comunidad. Es por eso que a partir de _Junio de 2023_, dejaremos de interactuar en esa plataforma.  
-Mantendremos la cuenta con la esperanza de poder volver cuando Twitter vuelva a ser un espacio seguro y solidario, pero mientras tanto centraremos nuestros esfuerzos de comunicación en otros lugares.
+Tal como [lo anticipamos en noviembre del 2022](/es/blog/2022/11/16/mastodon-es) los cambios aplicados en Twitter han generado un espacio menos seguro y amigable para nuestra comunidad. Es por eso que a partir de _Junio de 2023_, dejaremos de interactuar en esa plataforma. Mantendremos la cuenta con la esperanza de poder volver cuando Twitter vuelva a ser un espacio seguro y solidario, pero mientras tanto centraremos nuestros esfuerzos de comunicación en otros lugares.
 
 Entendemos que hasta hoy Twitter ha sido una de las plataformas de referencia para las comunidad de R, de datos, investigación y ciencia abierta pero tenemos que ser responsables y 
 coherentes con los espacios que elegimos para el intercambio y 
