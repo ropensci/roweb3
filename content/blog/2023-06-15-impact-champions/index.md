@@ -11,6 +11,9 @@ tags:
 description: "A summary of the discussion session on measuring the impact of champion programs at _CZI’s Accelerating Open Science in Latin America_ workshop."
 ---
 
+> This post can also be [found on the CSCCE blog](www.cscce.org/2023/06/14/how-do-you-measure-the-impact-of-a-community-champions-program)."
+
+
 How do you measure the impact of a champions program? This was the central question of a working session at _CZI’s Accelerating Open Science in Latin America_ workshop, convened by rOpenSci’s Community Manager Yani Bellini Saibene and attended by CSCCE’s Founder and Director, Lou Woodley. 
 
 Measuring the impact of any kind of community program presents a series of challenges: 
