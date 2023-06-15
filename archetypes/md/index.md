@@ -16,17 +16,16 @@ tags:
   - packages
   - R
   - community
-# The summary below will be used by e.g. Twitter cards
+# The summary below will be used by e.g. Mastodon preview cards
 description: "A very short summary of your post (~ 100 characters)"
-# If you have no preferred image for Twitter cards,
-# delete the twitterImg and twitterAlt lines below 
-# - Replace "blog" with "technotes" as needed
+# If you have no preferred image for Mastodon preview cards,
+# delete the socialImg and socialAlt lines below 
 # - Note "/" between year/month/day
-twitterImg: blog/2019/06/04/post-template/name-of-image.png
-twitterAlt: "Alternative description of the image"
+socialImg: blog/2019/06/04/post-template/name-of-image.png
+socialAlt: "Alternative description of the image"
 # the text below is for populating the "share on Twitter" button
 # if deleted, the title of the post will be used
-tweet: "A post about blabla by @username!"
+social: "A post about blabla by @username@server.extension!"
 ---
 
 This is the Markdown (.md) template for a blog post or tech note. 
