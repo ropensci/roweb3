@@ -23,7 +23,7 @@ description: "A very short summary of your post (~ 100 characters)"
 # - Note "/" between year/month/day
 socialImg: blog/2019/06/04/post-template/name-of-image.png
 socialAlt: "Alternative description of the image"
-# the text below is for populating the "share on Twitter" button
+# the text below is for populating the "share on Mastodon" button
 # if deleted, the title of the post will be used
 social: "A post about blabla by @username@server.extension!"
 ---
