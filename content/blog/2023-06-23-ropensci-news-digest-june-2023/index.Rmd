@@ -57,7 +57,14 @@ The [new snapshot API](/blog/2023/05/31/runiverse-snapshots/) lets you download 
 
 ### PLACEHOLDER STAT REVIEW
 
-### PLACEHOLDER TWITTER BYEBYE
+### rOpenSci's Communication Channels for Safe and Friendly Exchange
+
+As [we anticipated in November 2022](/blog/2022/11/16/mastodon-en) the changes implemented by Twitter have generated a less safe and friendly space for our community.  
+That is why from _June 2023_, we will stop interacting on this platform. 
+We will maintain the account in hopes that we can return when Twitter is once again a safe and supportive space, but in the meanwhile will focus our communication efforts elsewhere.
+Read more in our [announcement](/blog/2023/06/14/ropensci-communication-channels-en/).
+
+### PLACEHOLDER ARROW COMM CALL
 
 ### Coworking
 
