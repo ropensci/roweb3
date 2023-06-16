@@ -33,7 +33,7 @@ speakers:
     bio:  Jonathan Keane is an engineering manager with a background in software engineering and data science. Jonathan is a part of the team who maintains the Arrow project including the Arrow R package.      
     img: /img/community/jonathan-keane.png
   - name: Stephanie Hazlitt 
-    bio: Director, Data Science Partnerships @ BC Stats 🇨🇦
+    bio: Steph Hazlitt is a data scientist, researcher and R enthusiast. She has spent the better part of her career wrangling data with R and supporting people and teams in learning, creating and sharing data science-related products and open source software.
     img: /img/community/stephanie-hazlitt.jpeg  
 tags:
   - community call
