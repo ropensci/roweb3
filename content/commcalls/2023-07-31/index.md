@@ -21,9 +21,9 @@ outputs:
 # vimeo:
 # - id: 
 resources:
-  - url: 
-    name:   
-    details: 
+  - url: https://github.com/BroVic/naijR
+    name:   R package on Nigeria and for Nigeria 
+    details: The goal of naijR is to make it easier for R users to work with data related to Nigeria. This package is going through the rOpenSci software peer review. 
 
 speakers:  
   - name: Beatriz Milz
