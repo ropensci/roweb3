@@ -7,8 +7,8 @@ publishDate: 2023-06-30
 description: Details about the Champions Program + tips for submitting your application + the experience of being an rOpenSci champion or mentor
 author:
   - Beatriz Milz
-  - 
-  - 
+  - Carolina Pradier
+  - Victor Ordu
 organizer: Yanina Bellini Saibene
 location: Community call (teleconference)
 country: "\U0001F310"
@@ -27,21 +27,13 @@ resources:
 
 speakers:  
   - name: Beatriz Milz
-    bio: I'm a mentor in the rOpenSci's Champions Program . I'm an R-Lady from São Paulo - Brazil and a Ph.D. Candidate 
-    in Environmental Sciences at University of São Paulo and I also work as a Data Scientist and an R teacher at Curso-R. 
-    I am a tidyverse instructor certified by Posit, and a co-organizer of communities and events, such as Latin-R, and satRday São Paulo.
+    bio: I'm a mentor in the rOpenSci's Champions Program . I'm an R-Lady from São Paulo - Brazil and a Ph.D. Candidate in Environmental Sciences at University of São Paulo and I also work as a Data Scientist and an R teacher at Curso-R. I am a tidyverse instructor certified by Posit, and a co-organizer of communities and events, such as Latin-R, and satRday São Paulo.
     img: /img/team/beatriz-milz-mentor.jpeg
   - name: Victor Ordu
-    bio: I'm a medical doctor with many years of experience in the Nigerian healthcare space. I'm an independent consultant 
-    for the UN and international NGOs working in Nigeria, R has been the focus of much of my work. I also conducts R training 
-    programs for public and private organizations in Nigeria and I'm the author of R packages, one of them is part of my project
-    as rOpenSci Champion.        
+    bio: I'm a medical doctor with many years of experience in the Nigerian healthcare space. I'm an independent consultant for the UN and international NGOs working in Nigeria, R has been the focus of much of my work. I also conducts R training programs for public and private organizations in Nigeria and I'm the author of R packages, one of them is part of my project as rOpenSci Champion.        
     img: /img/team/victor-ordu-mentee.jpg  
   - name:  Carolina Pradier
-    bio:  I am an economist and data scientist. I have a degree in Economics, and I am currently finishing my Master’s degree 
-    in Labour Studies, both at the University of Buenos Aires. I work as a research and teaching assistant at CEPED-UBA 
-    and I’m also an active member of Ecofeminita’s economics and data team (ecofemidata) and maintainer of the eph R package, which
-    is my project as rOpenSci Champion. 
+    bio:  I am an economist and data scientist. I have a degree in Economics, and I am currently finishing my Master’s degree in Labour Studies, both at the University of Buenos Aires. I work as a research and teaching assistant at CEPED-UBA and I’m also an active member of Ecofeminita’s economics and data team (ecofemidata) and maintainer of the eph R package, which is my project as rOpenSci Champion. 
     img: /img/team/carolina-pradier-mentee.jpg  
 tags:
   - community call
