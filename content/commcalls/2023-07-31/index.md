@@ -29,7 +29,7 @@ resources:
     details: package to download and manipulate the Permanent Household Survey from Argentina (eph is the Spanish acronym for Permanent Household Survey)
 speakers:  
   - name: Beatriz Milz
-    bio: I'm a mentor in the rOpenSci's Champions Program . I'm an R-Lady from São Paulo - Brazil and a Ph.D. Candidate in Environmental Sciences at University of São Paulo and I also work as a Data Scientist and an R teacher at Curso-R. I am a tidyverse instructor certified by Posit, and a co-organizer of communities and events, such as Latin-R, and satRday São Paulo.
+    bio: I'm a mentor in the rOpenSci's Champions Program. I'm an R-Ladies co-organizer in São Paulo - Brazil and a Ph.D. Candidate in Environmental Sciences at University of São Paulo. I also work as a Data Scientist and an R teacher at Curso-R. I am a tidyverse instructor certified by Posit, and a co-organizer of communities and events, such as Latin-R, R-Ladies São Paulo and satRday São Paulo.
     img: /img/team/beatriz-milz-mentor.jpeg
   - name: Victor Ordu
     bio: I'm a medical doctor with many years of experience in the Nigerian healthcare space. I'm an independent consultant for the UN and international NGOs working in Nigeria, and R has been the focus of much of my work. I also conduct R training programs for public and private organizations in Nigeria. I'm the author of R packages; one is part of my project as rOpenSci Champion.        
