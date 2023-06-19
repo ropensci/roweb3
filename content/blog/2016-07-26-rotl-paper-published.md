@@ -3,7 +3,7 @@ slug: rotl-paper-published
 title: rotl paper published
 date: '2016-07-26'
 author:
-  - Francois Michonneau
+  - François Michonneau
   - Joseph Brown
   - David Winter
 tags:
