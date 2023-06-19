@@ -27,6 +27,9 @@ resources:
   - url: https://github.com/holatam/eph
     name:  eph - Toolbox for the processing of the Permanent Household Survey in Argentina
     details: package to download and manipulate the Permanent Household Survey from Argentina (eph is the Spanish acronym for Permanent Household Survey)
+  - url: /champions/
+    name:   Champions Program
+    details: web page with details about the champion program.
 speakers:  
   - name: Beatriz Milz
     bio: I'm a mentor in the rOpenSci's Champions Program. I'm an R-Ladies co-organizer in São Paulo - Brazil and a Ph.D. Candidate in Environmental Sciences at University of São Paulo. I also work as a Data Scientist and an R teacher at Curso-R. I am a tidyverse instructor certified by Posit, and a co-organizer of communities and events, such as Latin-R, R-Ladies São Paulo and satRday São Paulo.
