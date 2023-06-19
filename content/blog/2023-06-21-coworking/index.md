@@ -113,12 +113,12 @@ and to add any relevant links you can think of to the community document.
 We will promote the event on social media and in various R community spaces and you should feel free to promote the event to your friends and colleagues and through your own channels, but otherwise that's it!
 
 {{< gallery caption = "Slides">}}
-{{< figureforgallery src="slide_alex.png" caption="January Community Host, Alex 🎉" alt="Example slide introducing the January community host, Alex" >}}
-{{< figureforgallery src="slide_hugo.png" caption="February Community Host, Hugo 🎉" alt="Example slide introducing the February community host, Hugo" >}}
-{{< figureforgallery src="slide_nick.png" caption="March Community Host, Nick 🎉" alt="Example slide introducing the March community host, Nick" >}}
-{{< figureforgallery src="slide_miguel.png" caption="April Community Host, Miguel 🎉" alt="Example slide introducing the April community host, Miguel" >}}
-{{< figureforgallery src="slide_steffi.png" caption="May Community Host, Steffi 🎉" alt="Example slide introducing the May community host, Steffi" >}}
-{{< figureforgallery src="slide_cynthia.png" caption="June Community Host, Cynthia 🎉" alt="Example slide introducing the June community host, Cynthia" >}}
+{{< figureforgallery src="slide_alex_sm.png" caption="January Community Host, Alex 🎉" alt="Example slide introducing the January community host, Alex" >}}
+{{< figureforgallery src="slide_hugo_sm.png" caption="February Community Host, Hugo 🎉" alt="Example slide introducing the February community host, Hugo" >}}
+{{< figureforgallery src="slide_nick_sm.png" caption="March Community Host, Nick 🎉" alt="Example slide introducing the March community host, Nick" >}}
+{{< figureforgallery src="slide_miguel_sm.png" caption="April Community Host, Miguel 🎉" alt="Example slide introducing the April community host, Miguel" >}}
+{{< figureforgallery src="slide_steffi_sm.png" caption="May Community Host, Steffi 🎉" alt="Example slide introducing the May community host, Steffi" >}}
+{{< figureforgallery src="slide_cynthia_sm.png" caption="June Community Host, Cynthia 🎉" alt="Example slide introducing the June community host, Cynthia" >}}
 {{< /gallery >}}
 
 If you're interested in helping me host a coworking session, contact me on 
