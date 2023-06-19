@@ -1,6 +1,6 @@
 ---
 slug: "coworking"
-title: All About Coworking with rOpenSci
+title: All About Coworking Sessions with rOpenSci
 author:
   - Steffi LaZerte
 date: 2023-06-21
