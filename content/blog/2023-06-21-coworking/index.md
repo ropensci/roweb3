@@ -7,9 +7,10 @@ date: 2023-06-21
 tags:
   - R
   - community
+  - community-manager-tools
   - coworking
   - events
-description: "An update on how rOpenSci coworking sessions have evolved to include themes and community hosts!"
+description: "Discover how rOpenSci coworking sessions have evolved to include themes and community hosts, while still providing a place of community to work and chat!"
 ---
 
 We first [introduced](/blog/2021/08/17/coworking-sessions) our Coworking and 
@@ -23,12 +24,14 @@ a facilitator. It's been a lovely change and we thought it was time to share the
 ## What are these sessions?
 
 Our coworking sessions are generally held on the first Tuesday of the month, rotating
-through different timezones (Americas Pacific, Australia Western, and European Central). 
+through different timezones (Americas Pacific at 9am, Australia Western at 9am, and European Central at 14h). 
 We meet on Zoom for two hours with introductions followed by two 40-min coworking 
 sessions with a mini-break and scavenger hunts 🔎 in the middle. 
-People join us from all over the world, and we generally have ~7-14 people at a session.
+People join us from all over the world, and we generally have &#8764;7-14 people at a session.
 
-{{< figure src = "scavenger_hunt.jpg" caption = "April Scavenger hunt: Find something that reminds you of the season!<br>People shared a variety of findings from tulips to touques, and sunshine to sunglasses!" alt = "A screenshot of a Zoom meeting showing 6 different video participants each holding something different: Decorated Easter egg, Sunglasses, Tulips, Allergy medicine, Sunbeam, and Touque" class = "center" >}}
+{{< figure src = "scavenger_hunt.jpg" caption = "April Scavenger hunt: Find something that reminds you of the season!<br>People shared a variety of findings from tulips to touques\*, and sunshine to sunglasses!" alt = "A screenshot of a Zoom meeting showing 6 different video participants each holding something different: Decorated Easter egg, Sunglasses, Tulips, Allergy medicine, Sunbeam, and Touque*" class = "center" >}}
+
+\* 'Touque' is [Canadian](https://www.thecanadianencyclopedia.ca/en/article/tuque) for a warm knitted winter hat.
 
 While coworking we have two 'rooms', a Quiet room (🤫) where I hang out and where people silently work on their tasks, 
 and a Noisy room with the community host and where chatter is welcome (but not required).
@@ -40,7 +43,7 @@ to hold ideas and links that people share.
 You don't need to know anything about it, or be invested in it to participate.**
 
 As these events are in the rOpenSci community space, they are governed by our
-code of conduct ([English](code-of-conduct)/[Spanish](es/codigo-de-conducta/))
+code of conduct ([English](/code-of-conduct)/[Spanish](/es/codigo-de-conducta/))
 
 ## Coworking and Office Hours
 
@@ -65,7 +68,7 @@ The only rule of the Noisy room is to be kind!
 
 As I say at the start of nearly every coworking session, I live in a small town, and there aren't many R enthusiasts around. Sessions like these 
 are good for my soul as they really give me the chance to connect with other R 
-developers/users that I don't get every day.
+developers/users which I don't get every day.
 
 Coworking helps reduce social isolation and gives you opportunities to socialize as well
 as accountability and motivation to work on projects that tend to be neglected
@@ -78,7 +81,7 @@ For example, in June we had
 "[Integrating and merging datasets from different sources](/events/coworking-2023-06)", 
 hosted by [Cynthia Huang](/author/cynthia-huang), a PhD Student working on principals and methods for data preparation and preprocessing;
 this July we'll have "[Create/Update your 'happy file'/'brag document'](/events/coworking-2023-07/)"
-hosted by [Maëlle Salmon](/author/maelle-salmon), rOpenSci Research Software Engineer; 
+hosted by [Maëlle Salmon](/author/maëlle-salmon), rOpenSci Research Software Engineer; 
 and in August "[Spatial data in R](/events/coworking-2023-08)" with [Mike Mahoney](/author/mike-mahoney), 
 author of several rOpenSci spatial packages.
 
@@ -105,15 +108,27 @@ If things are a little quiet a good tactic to get the conversation rolling is to
 think of the theme or what their familiarity with it is.
 
 The only other tasks I will ask of you as a community host are to create a slide in our deck to 
-introduce yourself and to add any relevant links you can think of to the community document. 
-Feel free to promote the event to your friends and colleagues, but otherwise that's it!
+introduce yourself (see example slides from this year, below),
+and to add any relevant links you can think of to the community document. 
+We will promote the event on social media and in various R community spaces and you should feel free to promote the event to your friends and colleagues and through your own channels, but otherwise that's it!
+
+{{< gallery caption = "Slides">}}
+{{< figureforgallery src="slide_alex.png" caption="January Community Host, Alex 🎉" alt="Example slide introducing the January community host, Alex" >}}
+{{< figureforgallery src="slide_hugo.png" caption="February Community Host, Hugo 🎉" alt="Example slide introducing the February community host, Hugo" >}}
+{{< figureforgallery src="slide_nick.png" caption="March Community Host, Nick 🎉" alt="Example slide introducing the March community host, Nick" >}}
+{{< figureforgallery src="slide_miguel.png" caption="April Community Host, Miguel 🎉" alt="Example slide introducing the April community host, Miguel" >}}
+{{< figureforgallery src="slide_steffi.png" caption="May Community Host, Steffi 🎉" alt="Example slide introducing the May community host, Steffi" >}}
+{{< figureforgallery src="slide_cynthia.png" caption="June Community Host, Cynthia 🎉" alt="Example slide introducing the June community host, Cynthia" >}}
+{{< /gallery >}}
 
 If you're interested in helping me host a coworking session, contact me on 
 the rOpenSci Slack, [Mastodon](@steffilazerte@fosstodon.org),
-or via our Community Manager, [Yani](yabellini@ropensci.org) and let me know if
+or via our Community Manager, [Yani](mailto:yabellini@ropensci.org), and let me know if
 you have a theme in mind (or I can help come up with one).
 
-Remember that all you need is interest and kindness and perhaps a bit of enthusiasm 😉!
+Logistically you will need access to Zoom via a device (mobile or computer) and
+an internet connection. 
+But beyond that, all you need is interest, kindness, and perhaps a bit of enthusiasm 😉!
 
 ## See you next time!
 
