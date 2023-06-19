@@ -55,7 +55,21 @@ You can also read the post in [Spanish](/es/blog/2023/06/06/r-universe-stars-4-e
 
 The [new snapshot API](/blog/2023/05/31/runiverse-snapshots/) lets you download a full copy of any CRAN-like repository on R-universe. You can use such a snapshot to mirror the entire CRAN-like repository on your own servers, or for example to build a stable, validated release of your package suite.
 
-### PLACEHOLDER STAT REVIEW
+### Statistical software review now completely integrated with standard review process
+
+Statistical software review has finally reached a stable and mature state, with all organizational processes now entirely integrated with the standard review process.
+Developers submitting software should notice little difference, except hopefully faster initial processing of submissions.
+Each submission is now smoothly handled by members of our team of statistical software editors:
+
+-   [Adam Sparks](/author/adam-sparks/)
+-   [Emi Tanaka](https://emitanaka.org/)
+-   [Jouni Helske](/author/jouni-helske/)
+-   [Paula Moraga](http://www.paulamoraga.com/)
+-   [Rebecca Killick](/author/rebecca-killick/)
+-   [Toby Hocking](http://tdhock.github.io/)
+
+We current accept software in the eight categories described in our [*Statistical Software Development Guide*](https://stats-devguide.ropensci.org/standards.html), and are still working on integrating the two additional categories of statistical workflow and network software.
+We encourage anybody thinking about submitting to contact any one of the editors, or the two leaders of the software review team, [Noam Ross](/author/noam-ross/) and [Mark Padgham](/author/mark-padgham/), at any time, including anybody interested in submitting software in the upcoming categories of workflow or network software.
 
 ### rOpenSci's Communication Channels for Safe and Friendly Exchange
 
