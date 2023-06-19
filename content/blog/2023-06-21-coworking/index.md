@@ -30,7 +30,7 @@ People join us from all over the world, and we generally have ~7-14 people at a 
 
 {{< figure src = "scavenger_hunt.jpg" caption = "April Scavenger hunt: Find something that reminds you of the season!<br>People shared a variety of findings from tulips to touques, and sunshine to sunglasses!" alt = "A screenshot of a Zoom meeting showing 6 different video participants each holding something different: Decorated Easter egg, Sunglasses, Tulips, Allergy medicine, Sunbeam, and Touque" class = "center" >}}
 
-While coworking we have two 'rooms', a Quiet room (🤫) where I hang out, 
+While coworking we have two 'rooms', a Quiet room (🤫) where I hang out and where people silently work on their tasks, 
 and a Noisy room with the community host and where chatter is welcome (but not required).
 
 Each session we have a theme and a [shared document](https://docs.google.com/document/d/1RhLBS20uH7uoD89NYS9LxVqUC1oWTlpeeMe40Z6ua3M/edit?usp=sharing)
@@ -47,7 +47,7 @@ code of conduct ([English](code-of-conduct)/[Spanish](es/codigo-de-conducta/))
 > **Coworking:** Working with others, but on your own work.
 > A bit like a joint study session, where you can do some work, but also a bit of socializing. 
 
-> **Office Hours:** A time when you can go chat with someone and ask questions
+> **Office Hours:** A time when you can go chat with someone and ask questions.
 
 We call these sessions Coworking and Office Hours because we have a bit of both, 
 depending what you want for the day. 
@@ -77,7 +77,7 @@ Every month we try to have a different theme hosted by a community host interest
 For example, in June we had 
 "[Integrating and merging datasets from different sources](/events/coworking-2023-06)", 
 hosted by [Cynthia Huang](/author/cynthia-huang), a PhD Student working on principals and methods for data preparation and preprocessing;
-this July we'll have "[Create/Update your brag document](/events/coworking-2023-07/)"
+this July we'll have "[Create/Update your 'happy file'/'brag document'](/events/coworking-2023-07/)"
 hosted by [Maëlle Salmon](/author/maelle-salmon), rOpenSci Research Software Engineer; 
 and in August "[Spatial data in R](/events/coworking-2023-08)" with [Mike Mahoney](/author/mike-mahoney), 
 author of several rOpenSci spatial packages.
