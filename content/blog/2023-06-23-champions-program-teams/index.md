@@ -3,7 +3,7 @@ title: "rOpenSci Champions Program Teams: Meet Ghozayel Elotteebi and Zebulun Ar
 author:
   - Ghozayel Elotteebi
   - Zebulun Arendsee
-date: '2023-05-25'
+date: '2023-06-23'
 tags:
   - community
   - champions program
