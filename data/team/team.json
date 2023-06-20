@@ -275,6 +275,7 @@
    "roles": [
       "editor"
    ],
+   "stats": true,
    "mastodon": "https://fosstodon.org/@adamhsparks",
    "github": "adamhsparks",
    "home": "https://adamhsparks.com/"
@@ -301,7 +302,7 @@
       "stat peer-review advisor",
       "editor"
    ],
-   "stats": true,
+   "alumnus": true,
    "twitter": "bolkerb",
    "home": "https://ms.mcmaster.ca/~bolker/"
 },
@@ -326,7 +327,7 @@
       "stat peer-review advisor",
       "editor"
    ],
-   "stats": true,
+   "alumnus": true,
    "twitter": "stephaniehicks",
    "home": "https://www.stephaniehicks.com/"
 },
@@ -352,7 +353,7 @@
       "stat peer-review advisor",
       "editor"
    ],
-   "stats": true,
+   "alumnus": true,
    "twitter": "lcolladotor",
    "home": "https://lcolladotor.github.io"
 },
@@ -377,9 +378,8 @@
       "stat peer-review advisor"
    ],
    "twitter": "topepos",
-   "stats": true,
+   "alumnus": true,
    "home": "https://appliedpredictivemodeling.com/",
-   "alumnus": true
 },
 {
    "name": "Martin Morgan",
@@ -391,7 +391,30 @@
    ],
    "twitter": "mt_morgan",
    "home": "https://www.roswellpark.org/martin-morgan",
-   "alumnus": true,
+   "alumnus": true
+},
+{
+   "name": "Emi Tanaka",
+   "affiliation": "Biological Data Science Institute, Australian National University",
+   "url": "https://emitanaka.org/",
+   "image": "/img/team/emi-tanaka.jpg",
+   "roles": [
+      "editor"
+   ],
+   "twitter": "statsgen",
+   "home": "https://emitanaka.org/",
+   "stats": true
+},
+{
+   "name": "Jouni Helske",
+   "affiliation": "University of Jyväskylä, Finland",
+   "url": "https://jounihelske.netlify.app/",
+   "image": "/img/team/jouni-helske.jpg",
+   "roles": [
+      "editor"
+   ],
+   "twitter": "jouni_helske",
+   "home": "https://jounihelske.netlify.app/",
    "stats": true
 },
 {
