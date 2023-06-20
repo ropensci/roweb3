@@ -36,7 +36,21 @@ You can also read the post in [Spanish](/es/blog/2023/06/06/r-universe-stars-4-e
 
 The [new snapshot API](/blog/2023/05/31/runiverse-snapshots/) lets you download a full copy of any CRAN-like repository on R-universe. You can use such a snapshot to mirror the entire CRAN-like repository on your own servers, or for example to build a stable, validated release of your package suite.
 
-### PLACEHOLDER STAT REVIEW
+### Statistical software review now completely integrated with standard review process
+
+Statistical software review has finally reached a stable and mature state, with all organizational processes now entirely integrated with the standard review process.
+Developers submitting software should notice little difference, except hopefully faster initial processing of submissions.
+Each submission is now smoothly handled by members of our team of statistical software editors:
+
+-   [Adam Sparks](/author/adam-sparks/)
+-   [Emi Tanaka](https://emitanaka.org/)
+-   [Jouni Helske](/author/jouni-helske/)
+-   [Paula Moraga](http://www.paulamoraga.com/)
+-   [Rebecca Killick](/author/rebecca-killick/)
+-   [Toby Hocking](http://tdhock.github.io/)
+
+We current accept software in the eight categories described in our [*Statistical Software Development Guide*](https://stats-devguide.ropensci.org/standards.html), and are still working on integrating the two additional categories of statistical workflow and network software.
+We encourage anybody thinking about submitting to contact any one of the editors, or the two leaders of the software review team, [Noam Ross](/author/noam-ross/) and [Mark Padgham](/author/mark-padgham/), at any time, including anybody interested in submitting software in the upcoming categories of workflow or network software.
 
 ### rOpenSci's Communication Channels for Safe and Friendly Exchange
 
@@ -45,7 +59,26 @@ That is why from _June 2023_, we will stop interacting on this platform.
 We will maintain the account in hopes that we can return when Twitter is once again a safe and supportive space, but in the meanwhile will focus our communication efforts elsewhere.
 Read more in our [announcement](/blog/2023/06/14/ropensci-communication-channels-en/).
 
-### PLACEHOLDER ARROW COMM CALL
+### Two upcoming community calls!
+
+#### A Journey through Arrow in R
+
+Wednesday, 28 June 2023 16:00 UTC. [More info](/commcalls/jun2023-arrow/).
+
+Apache Arrow is a software development platform for building high performance applications that process and transport large data sets. It is designed to improve the performance of data analysis methods, and to increase the efficiency of moving data from one system or programming language to another.
+
+In this [community call](/commcalls/jun2023-arrow/) moderated by Stephanie Hazlitt, our speakers, Nic Crane and Jonathan Keane, will lead us through the Arrow R package.
+
+#### Mentoring & training program for Scientific Open Source Champions
+
+Tuesday, 25 July 2023 14:00 UTC. [More info](/commcalls/july2023-championprogram/).
+
+Champions programs are designed to identify, recognize, and reward emerging leaders within a community. The [rOpenSci Champions Program](/champions/) is part of a series of activities and projects we are carrying out to ensure our research software serves everyone in our communities, which means that it needs to be sustainable and open, and built by and for all groups.
+
+On this [call](/commcalls/july2023-championprogram/) _Beatriz_, _Victor Ordu_ and _Carolina Pradier_ will share their experience of being rOpenSci mentors and champions. 
+We will highlight the benefits of being part of the program for you and for your community, what kind of learning, 
+activities and opportunities an open source community champions program provides. 
+_Yani_ will present the details of our Champion Program and answer all your question about it.
 
 ### Coworking
 
@@ -56,9 +89,12 @@ No RSVP needed.
 Consult our [Events](/events) page to find your local time and how to join.
 
 * Tuesday, July 4th, 14:00 European Central / 12:00 UTC ["Create/Update your 'Happy File'/'Brag Document'!"](/events/coworking-2023-07/) *Hosted by [Maëlle Salmon](/author/maëlle-salmon) and [Steffi LaZerte](/author/steffi-lazerte/)*
-    - Explore what goes into a [‘Happy File’](https://twitter.com/JennyBryan/status/1582862196870373377)/[‘Brag Document’](https://jvns.ca/blog/brag-documents/) and why you need one
-    - Start collecting items to add to your ‘Happy File’
-    - Talk to our community host and other attendees and discuss strategies for integrating datasets.
+    - Explore what goes into a [‘Happy File’](https://twitter.com/JennyBryan/status/1582862196870373377)/[‘Brag Document’](https://jvns.ca/blog/brag-documents/) and why you need one.
+    - Start collecting items to add to your ‘Happy File’.
+    
+- Tuesday, August 1st, 09:00 Americas Pacific (16:00 UTC), [Spatial data in R](/events/coworking-2023-08/) *Hosted by [Mike Mahoney](/author/mike-mahoney) and [Steffi LaZerte](/author/steffi-lazerte/)*
+    - Work on a project related to spatial data.
+    - Explore R packages for working with spatial data.
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
@@ -80,8 +116,9 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following nine packages have had an update since the last newsletter: [dwctaxon](https://docs.ropensci.org/dwctaxon "Edit and Validate Darwin Core Taxon Data") ([`v2.0.2`](https://github.com/ropensci/dwctaxon/releases/tag/v2.0.2)), [FedData](https://docs.ropensci.org/FedData "Functions to Automate Downloading Geospatial Data Available from
-    Several Federated Data Sources") ([`v3.0.4`](https://github.com/ropensci/FedData/releases/tag/v3.0.4)), [lingtypology](https://docs.ropensci.org/lingtypology "Linguistic Typology and Mapping") ([`v1.1.14`](https://github.com/ropensci/lingtypology/releases/tag/v1.1.14)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.9.5`](https://github.com/ropensci/nodbi/releases/tag/v0.9.5)), [osmdata](https://docs.ropensci.org/osmdata "Import OpenStreetMap Data as Simple Features or Spatial Objects") ([`v0.2.3`](https://github.com/ropensci/osmdata/releases/tag/v0.2.3)), [predictNMB](https://docs.ropensci.org/predictNMB "Evaluate Clinical Prediction Models by Net Monetary Benefit") ([`v0.2.1`](https://github.com/ropensci/predictNMB/releases/tag/v0.2.1)), [rnaturalearth](https://docs.ropensci.org/rnaturalearth "World Map Data from Natural Earth") ([`v0.3.3`](https://github.com/ropensci/rnaturalearth/releases/tag/v0.3.3)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.1.3`](https://github.com/ropensci/targets/releases/tag/1.1.3)), and [tic](https://docs.ropensci.org/tic "CI-Agnostic Workflow Definitions") ([`v0.13.3`](https://github.com/ropensci/tic/releases/tag/v0.13.3)).
+The following fifteen packages have had an update since the last newsletter: [biomartr](https://docs.ropensci.org/biomartr "Genomic Data Retrieval") ([`v1.0.4`](https://github.com/ropensci/biomartr/releases/tag/v1.0.4)), [dwctaxon](https://docs.ropensci.org/dwctaxon "Edit and Validate Darwin Core Taxon Data") ([`v2.0.2`](https://github.com/ropensci/dwctaxon/releases/tag/v2.0.2)), [FedData](https://docs.ropensci.org/FedData "Functions to Automate Downloading Geospatial Data Available from
+    Several Federated Data Sources") ([`v3.0.4`](https://github.com/ropensci/FedData/releases/tag/v3.0.4)), [lingtypology](https://docs.ropensci.org/lingtypology "Linguistic Typology and Mapping") ([`v1.1.14`](https://github.com/ropensci/lingtypology/releases/tag/v1.1.14)), [MODIStsp](https://docs.ropensci.org/MODIStsp "Find, Download and Process MODIS Land Products
+    Data") ([`v2.0.10`](https://github.com/ropensci/MODIStsp/releases/tag/v2.0.10)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.9.5`](https://github.com/ropensci/nodbi/releases/tag/v0.9.5)), [osmdata](https://docs.ropensci.org/osmdata "Import OpenStreetMap Data as Simple Features or Spatial Objects") ([`v0.2.3`](https://github.com/ropensci/osmdata/releases/tag/v0.2.3)), [predictNMB](https://docs.ropensci.org/predictNMB "Evaluate Clinical Prediction Models by Net Monetary Benefit") ([`v0.2.1`](https://github.com/ropensci/predictNMB/releases/tag/v0.2.1)), [rnaturalearth](https://docs.ropensci.org/rnaturalearth "World Map Data from Natural Earth") ([`v0.3.3`](https://github.com/ropensci/rnaturalearth/releases/tag/v0.3.3)), [rotl](https://docs.ropensci.org/rotl "Interface to the Open Tree of Life API") ([`v3.1.0`](https://github.com/ropensci/rotl/releases/tag/v3.1.0)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.7.7`](https://github.com/ropensci/tarchetypes/releases/tag/0.7.7)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.1.3`](https://github.com/ropensci/targets/releases/tag/1.1.3)), [tic](https://docs.ropensci.org/tic "CI-Agnostic Workflow Definitions") ([`v0.13.3`](https://github.com/ropensci/tic/releases/tag/v0.13.3)), [UCSCXenaTools](https://docs.ropensci.org/UCSCXenaTools "Download and Explore Datasets from UCSC Xena Data Hubs") ([`v1.4.8`](https://github.com/ropensci/UCSCXenaTools/releases/tag/v1.4.8)), and [webchem](https://docs.ropensci.org/webchem "Chemical Information from the Web") ([`v1.3.0`](https://github.com/ropensci/webchem/releases/tag/v1.3.0)).
 
 ## Software Peer Review
 
@@ -136,6 +173,8 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 * [rOpenSci Champions Program Teams: Meet Cheryl Isabella Lim and Mauro Lepore](/blog/2023/06/23/ropensci-news-digest-june-2023) by Cheryl Isabella Lim, and Mauro Lepore.
 
 * [How do you measure the impact of a champions program? ](/blog/2023/06/23/ropensci-news-digest-june-2023) by Yanina Bellini Saibene, and CSCCE Staff. A summary of the discussion session on measuring the impact of champion programs at _CZI’s Accelerating Open Science in Latin America_ workshop.
+
+* [rOpenSci Champions Program Teams: Meet Alican Cagri Gokcek and Elio Campitelli](/blog/2023/06/23/ropensci-news-digest-june-2023) by Alican Cagri Gokcek, and Elio Campitelli.
 
 
 

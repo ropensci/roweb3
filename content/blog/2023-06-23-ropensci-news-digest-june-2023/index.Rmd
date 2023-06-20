@@ -78,7 +78,26 @@ That is why from _June 2023_, we will stop interacting on this platform.
 We will maintain the account in hopes that we can return when Twitter is once again a safe and supportive space, but in the meanwhile will focus our communication efforts elsewhere.
 Read more in our [announcement](/blog/2023/06/14/ropensci-communication-channels-en/).
 
-### PLACEHOLDER ARROW COMM CALL
+### Two upcoming community calls!
+
+#### A Journey through Arrow in R
+
+Wednesday, 28 June 2023 16:00 UTC. [More info](/commcalls/jun2023-arrow/).
+
+Apache Arrow is a software development platform for building high performance applications that process and transport large data sets. It is designed to improve the performance of data analysis methods, and to increase the efficiency of moving data from one system or programming language to another.
+
+In this [community call](/commcalls/jun2023-arrow/) moderated by Stephanie Hazlitt, our speakers, Nic Crane and Jonathan Keane, will lead us through the Arrow R package.
+
+#### Mentoring & training program for Scientific Open Source Champions
+
+Tuesday, 25 July 2023 14:00 UTC. [More info](/commcalls/july2023-championprogram/).
+
+Champions programs are designed to identify, recognize, and reward emerging leaders within a community. The [rOpenSci Champions Program](/champions/) is part of a series of activities and projects we are carrying out to ensure our research software serves everyone in our communities, which means that it needs to be sustainable and open, and built by and for all groups.
+
+On this [call](/commcalls/july2023-championprogram/) _Beatriz_, _Victor Ordu_ and _Carolina Pradier_ will share their experience of being rOpenSci mentors and champions. 
+We will highlight the benefits of being part of the program for you and for your community, what kind of learning, 
+activities and opportunities an open source community champions program provides. 
+_Yani_ will present the details of our Champion Program and answer all your question about it.
 
 ### Coworking
 
