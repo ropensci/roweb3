@@ -19,7 +19,7 @@
   </tr>
   </thead>
       <tbody>
-      {{ range (where ( where .Site.RegularPages.ByDate "Section" "events" ) ".Params.resources" "!=" nil  )}}
+      {{ range (where ( where .Site.RegularPages.ByDate.Reverse "Section" "events" ) ".Params.resources" "!=" nil  )}}
       {{ $year := .Date.Format "2006" }}
       {{ range .Params.resources }}
    <tr>
