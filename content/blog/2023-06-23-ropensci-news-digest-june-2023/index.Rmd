@@ -89,9 +89,12 @@ No RSVP needed.
 Consult our [Events](/events) page to find your local time and how to join.
 
 * Tuesday, July 4th, 14:00 European Central / 12:00 UTC ["Create/Update your 'Happy File'/'Brag Document'!"](/events/coworking-2023-07/) *Hosted by [Maëlle Salmon](/author/maëlle-salmon) and [Steffi LaZerte](/author/steffi-lazerte/)*
-    - Explore what goes into a [‘Happy File’](https://twitter.com/JennyBryan/status/1582862196870373377)/[‘Brag Document’](https://jvns.ca/blog/brag-documents/) and why you need one
-    - Start collecting items to add to your ‘Happy File’
-    - Talk to our community host and other attendees and discuss strategies for integrating datasets.
+    - Explore what goes into a [‘Happy File’](https://twitter.com/JennyBryan/status/1582862196870373377)/[‘Brag Document’](https://jvns.ca/blog/brag-documents/) and why you need one.
+    - Start collecting items to add to your ‘Happy File’.
+    
+- Tuesday, August 1st, 09:00 Americas Pacific (16:00 UTC), [Spatial data in R](/events/coworking-2023-08/) *Hosted by [Mike Mahoney](/author/mike-mahoney) and [Steffi LaZerte](/author/steffi-lazerte/)*
+    - Work on a project related to spatial data.
+    - Explore R packages for working with spatial data.
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
