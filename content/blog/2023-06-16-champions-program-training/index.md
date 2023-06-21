@@ -91,4 +91,12 @@ The training was developed by Paola Corrales and taught by Paola and Yanina Bell
 
 ## What do our participants think of the training received?
 
+At the end of each workshop, we asked those who participated to fill out an anonymous survey telling us three things: 
+* What did you like the most?
+* What did you like the least? 
+* Can you rate this meeting? (in a scale from 1-worst to 5-best). 
+
+We use this feedback to improve the next sesion of the training. The result show the average score for all the training is 4.6. which let us know that the attendees are satisfied with the workshops. 
+
+
 
