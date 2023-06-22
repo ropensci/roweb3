@@ -302,6 +302,7 @@
       "stat peer-review advisor",
       "editor"
    ],
+   "stats": true,
    "alumnus": true,
    "twitter": "bolkerb",
    "home": "https://ms.mcmaster.ca/~bolker/"
@@ -327,6 +328,7 @@
       "stat peer-review advisor",
       "editor"
    ],
+   "stats": true,
    "alumnus": true,
    "twitter": "stephaniehicks",
    "home": "https://www.stephaniehicks.com/"
@@ -353,12 +355,13 @@
       "stat peer-review advisor",
       "editor"
    ],
+   "stats": true,
    "alumnus": true,
    "twitter": "lcolladotor",
    "home": "https://lcolladotor.github.io"
 },
 {
-    "name": "Toby Hocking",
+   "name": "Toby Hocking",
    "affiliation": "Northern Arizona University",
    "url": "http://tdhock.github.io/",
    "image": "/img/team/toby-hocking.jpg",
@@ -377,8 +380,9 @@
    "past_roles": [
       "stat peer-review advisor"
    ],
-   "twitter": "topepos",
+   "stats": true,
    "alumnus": true,
+   "twitter": "topepos",
    "home": "https://appliedpredictivemodeling.com/"
 },
 {
@@ -389,9 +393,10 @@
    "past_roles": [
       "stat peer-review advisor"
    ],
+   "stats": true,
+   "alumnus": true,
    "twitter": "mt_morgan",
-   "home": "https://www.roswellpark.org/martin-morgan",
-   "alumnus": true
+   "home": "https://www.roswellpark.org/martin-morgan"
 },
 {
    "name": "Emi Tanaka",
