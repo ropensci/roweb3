@@ -298,7 +298,7 @@
    "url": "https://ms.mcmaster.ca/~bolker/",
    "image": "/img/team/ben-bolker.jpg",
    "affiliation": "McMaster University",
-   "roles": [
+   "past_roles": [
       "stat peer-review advisor",
       "editor"
    ],
@@ -323,7 +323,7 @@
    "url": "https://www.stephaniehicks.com/",
    "image": "/img/team/stephanie-hicks.jpg",
    "affiliation" : "Johns Hopkins University",
-   "roles": [
+   "past_roles": [
       "stat peer-review advisor",
       "editor"
    ],
@@ -349,7 +349,7 @@
    "affiliation": "Lieber Institute for Brain Development",
    "url": "https://lcolladotor.github.io",
    "image": "/img/team/leo-torres.png",
-   "roles": [
+   "past_roles": [
       "stat peer-review advisor",
       "editor"
    ],
