@@ -16,7 +16,7 @@ params:
 
 Dear rOpenSci friends, it's time for our monthly news roundup!
 <!-- blabla -->
-You can read this post [on our blog](/blog/2023/06/23/ropensci-news-digest-june-2023).
+You can read this post [on our blog](/blog/2023/06/22/ropensci-news-digest-june-2023).
 Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
@@ -164,25 +164,25 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 ### Other topics
 
-* [rOpenSci Champions Program Teams: Meet César and Marc](/blog/2023/06/23/ropensci-news-digest-june-2023) by Cesar Luis Aybar Camacho, and Marc Choisy.
+* [rOpenSci Champions Program Teams: Meet César and Marc](/blog/2023/05/18/ropensci-champions-program-teams-meet-césar-and-marc) by Cesar Luis Aybar Camacho, and Marc Choisy.
 
-* [Meeting the Stars of the R-Universe: PEcAn, an Open Source Project to Take Care of the Planet](/blog/2023/06/23/ropensci-news-digest-june-2023) by Yanina Bellini Saibene, Alejandra Bellini, Lucio Casalla, and Steffi LaZerte. Climate change and research in this area have diverse and complex data that demand increasingly complex analysis models. The PEcAn project works to develop this ability. Other languages: <a href='/es/blog/2023/06/06/r-universe-stars-4-es' lang='es'>Conociendo a las estrellas del Universo R: PEcAn, un proyecto de código abierto para cuidar el planeta (es)</a>.
+* [Meeting the Stars of the R-Universe: PEcAn, an Open Source Project to Take Care of the Planet](/blog/2023/06/06/r-universe-stars-4-en) by Yanina Bellini Saibene, Alejandra Bellini, Lucio Casalla, and Steffi LaZerte. Climate change and research in this area have diverse and complex data that demand increasingly complex analysis models. The PEcAn project works to develop this ability. Other languages: <a href='/es/blog/2023/06/06/r-universe-stars-4-es' lang='es'>Conociendo a las estrellas del Universo R: PEcAn, un proyecto de código abierto para cuidar el planeta (es)</a>.
 
-* [rOpenSci's Communication Channels for Safe and Friendly Exchange](/blog/2023/06/23/ropensci-news-digest-june-2023) by Yanina Bellini Saibene. Communication channels announcement. rOpenSci stop interacting on Twitter, but we can meet in many other spaces. Other languages: <a href='/es/blog/2023/06/14/ropensci-communication-channels-es' lang='es'>Los canales de comunicación de rOpenSci para un intercambio seguro y amigable (es)</a>.
+* [rOpenSci's Communication Channels for Safe and Friendly Exchange](/blog/2023/06/14/ropensci-communication-channels-en) by Yanina Bellini Saibene. Communication channels announcement. rOpenSci stop interacting on Twitter, but we can meet in many other spaces. Other languages: <a href='/es/blog/2023/06/14/ropensci-communication-channels-es' lang='es'>Los canales de comunicación de rOpenSci para un intercambio seguro y amigable (es)</a>.
 
-* [rOpenSci Champions Program Teams: Meet Cheryl Isabella Lim and Mauro Lepore](/blog/2023/06/23/ropensci-news-digest-june-2023) by Cheryl Isabella Lim, and Mauro Lepore.
+* [rOpenSci Champions Program Teams: Meet Cheryl Isabella Lim and Mauro Lepore](/blog/2023/06/12/ropensci-champions-program-teams-meet-cheryl-isabella-lim-and-mauro-lepore) by Cheryl Isabella Lim, and Mauro Lepore.
 
-* [How do you measure the impact of a champions program? ](/blog/2023/06/23/ropensci-news-digest-june-2023) by Yanina Bellini Saibene, and CSCCE Staff. A summary of the discussion session on measuring the impact of champion programs at _CZI’s Accelerating Open Science in Latin America_ workshop.
+* [How do you measure the impact of a champions program? ](/blog/2023/06/15/ropensci-champions-impact-en) by Yanina Bellini Saibene, and CSCCE Staff. A summary of the discussion session on measuring the impact of champion programs at _CZI’s Accelerating Open Science in Latin America_ workshop.
 
-* [rOpenSci Champions Program Teams: Meet Alican Cagri Gokcek and Elio Campitelli](/blog/2023/06/23/ropensci-news-digest-june-2023) by Alican Cagri Gokcek, and Elio Campitelli.
+* [rOpenSci Champions Program Teams: Meet Alican Cagri Gokcek and Elio Campitelli](/blog/2023/06/19/ropensci-champions-program-teams-meet-alican-cagri-gokcek-and-elio-campitelli) by Alican Cagri Gokcek, and Elio Campitelli.
 
 
 
 ### Tech Notes
 
-* [Downloading snapshots and creating stable R packages repositories using r-universe](/blog/2023/06/23/ropensci-news-digest-june-2023) by Jeroen Ooms. We added a a new API on R-universe to download a full snapshot of any CRAN-like repo plus documentation, which you can use to mirror somewhere or just for backup.
+* [Downloading snapshots and creating stable R packages repositories using r-universe](/blog/2023/05/31/runiverse-snapshots) by Jeroen Ooms. We added a a new API on R-universe to download a full snapshot of any CRAN-like repo plus documentation, which you can use to mirror somewhere or just for backup.
 
-* [Troubleshooting Pandoc Problems as an R User](/blog/2023/06/23/ropensci-news-digest-june-2023) by Maëlle Salmon, and Christophe Dervieux. How to solve your Pandoc problems thanks to documentation reading, experimentation... and a bit of experience 😅 . Other languages: <a href='/fr/blog/2023/06/01/troubleshooting-pandoc-problems-as-an-r-user' lang='fr'>Résoudre ses problèmes de Pandoc en tant qu'utilisateur·rice de R (fr)</a>.
+* [Troubleshooting Pandoc Problems as an R User](/blog/2023/06/01/troubleshooting-pandoc-problems-as-an-r-user) by Maëlle Salmon, and Christophe Dervieux. How to solve your Pandoc problems thanks to documentation reading, experimentation... and a bit of experience 😅 . Other languages: <a href='/fr/blog/2023/06/01/troubleshooting-pandoc-problems-as-an-r-user' lang='fr'>Résoudre ses problèmes de Pandoc en tant qu'utilisateur·rice de R (fr)</a>.
 
 <!-- ## Use cases
 
