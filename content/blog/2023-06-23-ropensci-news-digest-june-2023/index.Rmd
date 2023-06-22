@@ -659,7 +659,7 @@ Here's some inspiration:
 
 * You could use [`cli::ui_todo()`](https://usethis.r-lib.org/reference/ui.html), as done in usethis. By the way if your package is using `ui_` functions from usethis, don't miss the cli article on how to [migrate your code to using cli instead](https://cli.r-lib.org/articles/usethis-ui.html), as that's what's recommended. 
 
-* Also in the cli package, a special kind of links that runs the code if it is clicked on, in RStudio IDE: ["Click to run code"](https://cli.r-lib.org/reference/links.html?q=run#click-to-run-code). You might know that from running snapshot tests with testthat, and getting told to review/accept them with these special links.
+* Also in the cli package, a you can provide a special kind of link that runs the code if clicked in the RStudio IDE: ["Click to run code"](https://cli.r-lib.org/reference/links.html?q=run#click-to-run-code). You might recognize this from running snapshot tests with testthat, and receiving the message to review/accept them with these special links.
 
 ```r
 cli::cli_text("Run {.run praise::praise()} now!")
