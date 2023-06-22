@@ -6,7 +6,7 @@ author:
 date: '2023-06-22'
 tags:
   - newsletter
-description: R-universe stars PEcAn project, R-universe snapshots, coworking
+description: Statistical software review, next community calls, R-universe stars PEcAn project, R-universe snapshots, coworking
 params:
   last_newsletter: "2023-05-19"
 ---
@@ -81,6 +81,8 @@ activities and opportunities an open source community champions program provides
 _Yani_ will present the details of our Champion Program and answer all your question about it.
 
 ### Coworking
+
+Read [all about coworking](/blog/2023/06/21/coworking/) in our new [post](/blog/2023/06/21/coworking/)!
 
 Join us for social coworking & office hours monthly on first Tuesdays! 
 Hosted by Steffi LaZerte and various community hosts. 
@@ -158,12 +160,6 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 ## On the blog
 
-<!-- Do not forget to rebase your branch! -->
-
-
-
-### Other topics
-
 * [rOpenSci Champions Program Teams: Meet César and Marc](/blog/2023/05/18/ropensci-champions-program-teams-meet-césar-and-marc) by Cesar Luis Aybar Camacho, and Marc Choisy.
 
 * [Meeting the Stars of the R-Universe: PEcAn, an Open Source Project to Take Care of the Planet](/blog/2023/06/06/r-universe-stars-4-en) by Yanina Bellini Saibene, Alejandra Bellini, Lucio Casalla, and Steffi LaZerte. Climate change and research in this area have diverse and complex data that demand increasingly complex analysis models. The PEcAn project works to develop this ability. Other languages: <a href='/es/blog/2023/06/06/r-universe-stars-4-es' lang='es'>Conociendo a las estrellas del Universo R: PEcAn, un proyecto de código abierto para cuidar el planeta (es)</a>.
@@ -175,6 +171,8 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 * [How do you measure the impact of a champions program? ](/blog/2023/06/15/ropensci-champions-impact-en) by Yanina Bellini Saibene, and CSCCE Staff. A summary of the discussion session on measuring the impact of champion programs at _CZI’s Accelerating Open Science in Latin America_ workshop.
 
 * [rOpenSci Champions Program Teams: Meet Alican Cagri Gokcek and Elio Campitelli](/blog/2023/06/19/ropensci-champions-program-teams-meet-alican-cagri-gokcek-and-elio-campitelli) by Alican Cagri Gokcek, and Elio Campitelli.
+
+* [All About Coworking Sessions with rOpenSci](/blog/2023/06/21/coworking) by Steffi LaZerte. Discover how rOpenSci coworking sessions have evolved to include themes and community hosts, while still providing a place of community to work and chat.
 
 
 
