@@ -657,7 +657,7 @@ How to make it easy for the user to run these hints?
 
 Here's some inspiration:
 
-* You could use [`cli::ui_todo()`](https://usethis.r-lib.org/reference/ui.html), as done in usethis. By the way if your package is using `ui_` functions from usethis, don't miss the cli article on how to [migrate your code to using cli instead](https://cli.r-lib.org/articles/usethis-ui.html), as that's what's recommended. 
+* You could use [`cli::ui_todo()`](https://usethis.r-lib.org/reference/ui.html), as done in usethis. By the way if your package is using `ui_` functions from usethis, don't miss the cli article on how to [migrate your code to using cli instead](https://cli.r-lib.org/articles/usethis-ui.html), as that's what's currently recommended. 
 
 * Also in the cli package, a you can provide a special kind of link that runs the code if clicked in the RStudio IDE: ["Click to run code"](https://cli.r-lib.org/reference/links.html?q=run#click-to-run-code). You might recognize this from running snapshot tests with testthat, and receiving the message to review/accept them with these special links.
 
@@ -665,7 +665,7 @@ Here's some inspiration:
 cli::cli_text("Run {.run praise::praise()} now!")
 ```
 
-* If your code is run in RStudio IDE (checkable with [`rstudioapi::isAvailable()`](https://rstudio.github.io/rstudioapi/reference/isAvailable.html)), you could use [`rstudioapi::sendToConsole()`](https://rstudio.github.io/rstudioapi/reference/sendToConsole.html). [Example](https://github.com/cynkra/fledge/blob/520b9b2e36da7bc58136378407f1f4454bfbeadf/R/finalize-version.R#L63-L80=).
+* If your code is run in RStudio IDE (checkable with [`rstudioapi::isAvailable()`](https://rstudio.github.io/rstudioapi/reference/isAvailable.html)), you could use [`rstudioapi::sendToConsole()`](https://rstudio.github.io/rstudioapi/reference/sendToConsole.html) to send example code to the console for the user to consider ([example](https://github.com/cynkra/fledge/blob/520b9b2e36da7bc58136378407f1f4454bfbeadf/R/finalize-version.R#L63-L80=)).
 
 ### devtag: Restrict Some Help Files to Development 
 
