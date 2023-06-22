@@ -275,6 +275,7 @@
    "roles": [
       "editor"
    ],
+   "stats": true,
    "mastodon": "https://fosstodon.org/@adamhsparks",
    "github": "adamhsparks",
    "home": "https://adamhsparks.com/"
@@ -297,11 +298,12 @@
    "url": "https://ms.mcmaster.ca/~bolker/",
    "image": "/img/team/ben-bolker.jpg",
    "affiliation": "McMaster University",
-   "roles": [
+   "past_roles": [
       "stat peer-review advisor",
       "editor"
    ],
    "stats": true,
+   "alumnus": true,
    "twitter": "bolkerb",
    "home": "https://ms.mcmaster.ca/~bolker/"
 },
@@ -322,11 +324,12 @@
    "url": "https://www.stephaniehicks.com/",
    "image": "/img/team/stephanie-hicks.jpg",
    "affiliation" : "Johns Hopkins University",
-   "roles": [
+   "past_roles": [
       "stat peer-review advisor",
       "editor"
    ],
    "stats": true,
+   "alumnus": true,
    "twitter": "stephaniehicks",
    "home": "https://www.stephaniehicks.com/"
 },
@@ -348,16 +351,17 @@
    "affiliation": "Lieber Institute for Brain Development",
    "url": "https://lcolladotor.github.io",
    "image": "/img/team/leo-torres.png",
-   "roles": [
+   "past_roles": [
       "stat peer-review advisor",
       "editor"
    ],
    "stats": true,
+   "alumnus": true,
    "twitter": "lcolladotor",
    "home": "https://lcolladotor.github.io"
 },
 {
-    "name": "Toby Hocking",
+   "name": "Toby Hocking",
    "affiliation": "Northern Arizona University",
    "url": "http://tdhock.github.io/",
    "image": "/img/team/toby-hocking.jpg",
@@ -376,10 +380,10 @@
    "past_roles": [
       "stat peer-review advisor"
    ],
-   "twitter": "topepos",
    "stats": true,
-   "home": "https://appliedpredictivemodeling.com/",
-   "alumnus": true
+   "alumnus": true,
+   "twitter": "topepos",
+   "home": "https://appliedpredictivemodeling.com/"
 },
 {
    "name": "Martin Morgan",
@@ -389,9 +393,33 @@
    "past_roles": [
       "stat peer-review advisor"
    ],
-   "twitter": "mt_morgan",
-   "home": "https://www.roswellpark.org/martin-morgan",
+   "stats": true,
    "alumnus": true,
+   "twitter": "mt_morgan",
+   "home": "https://www.roswellpark.org/martin-morgan"
+},
+{
+   "name": "Emi Tanaka",
+   "affiliation": "Biological Data Science Institute, Australian National University",
+   "url": "https://emitanaka.org/",
+   "image": "/img/team/emi-tanaka.jpg",
+   "roles": [
+      "editor"
+   ],
+   "twitter": "statsgen",
+   "home": "https://emitanaka.org/",
+   "stats": true
+},
+{
+   "name": "Jouni Helske",
+   "affiliation": "University of Jyväskylä, Finland",
+   "url": "https://jounihelske.netlify.app/",
+   "image": "/img/team/jouni-helske.jpg",
+   "roles": [
+      "editor"
+   ],
+   "twitter": "jouni_helske",
+   "home": "https://jounihelske.netlify.app/",
    "stats": true
 },
 {
