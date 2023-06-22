@@ -45,16 +45,16 @@ Each submission is now smoothly handled by members of our team of statistical so
 -   [Adam Sparks](/author/adam-sparks/)
 -   [Emi Tanaka](https://emitanaka.org/)
 -   [Jouni Helske](/author/jouni-helske/)
--   [Paula Moraga](http://www.paulamoraga.com/)
+-   [Paula Moraga](https://www.paulamoraga.com/)
 -   [Rebecca Killick](/author/rebecca-killick/)
--   [Toby Hocking](http://tdhock.github.io/)
+-   [Toby Hocking](https://tdhock.github.io/)
 
-We current accept software in the eight categories described in our [*Statistical Software Development Guide*](https://stats-devguide.ropensci.org/standards.html), and are still working on integrating the two additional categories of statistical workflow and network software.
+We currently accept software in the eight categories described in our [*Statistical Software Development Guide*](https://stats-devguide.ropensci.org/standards.html), and are still working on integrating the two additional categories of Statistical Workflow and Network Software.
 We encourage anybody thinking about submitting to contact any one of the editors, or the two leaders of the software review team, [Noam Ross](/author/noam-ross/) and [Mark Padgham](/author/mark-padgham/), at any time, including anybody interested in submitting software in the upcoming categories of workflow or network software.
 
 ### rOpenSci's Communication Channels for Safe and Friendly Exchange
 
-As [we anticipated in November 2022](/blog/2022/11/16/mastodon-en) the changes implemented by Twitter have generated a less safe and friendly space for our community.  
+As [we anticipated in November 2022](/blog/2022/11/16/mastodon-en) the changes implemented by Twitter have generated a less safe and friendly space for our community.
 That is why from _June 2023_, we will stop interacting on this platform. 
 We will maintain the account in hopes that we can return when Twitter is once again a safe and supportive space, but in the meanwhile will focus our communication efforts elsewhere.
 Read more in our [announcement](/blog/2023/06/14/ropensci-communication-channels-en/).
@@ -75,7 +75,7 @@ Tuesday, 25 July 2023 14:00 UTC. [More info](/commcalls/july2023-championprogram
 
 Champions programs are designed to identify, recognize, and reward emerging leaders within a community. The [rOpenSci Champions Program](/champions/) is part of a series of activities and projects we are carrying out to ensure our research software serves everyone in our communities, which means that it needs to be sustainable and open, and built by and for all groups.
 
-On this [call](/commcalls/july2023-championprogram/) _Beatriz_, _Victor Ordu_ and _Carolina Pradier_ will share their experience of being rOpenSci mentors and champions. 
+On this [call](/commcalls/july2023-championprogram/) _Beatriz Milz_, _Victor Ordu_ and _Carolina Pradier_ will share their experience of being rOpenSci mentors and champions. 
 We will highlight the benefits of being part of the program for you and for your community, what kind of learning, 
 activities and opportunities an open source community champions program provides. 
 _Yani_ will present the details of our Champion Program and answer all your question about it.
@@ -92,7 +92,7 @@ Consult our [Events](/events) page to find your local time and how to join.
     - Explore what goes into a [‘Happy File’](https://twitter.com/JennyBryan/status/1582862196870373377)/[‘Brag Document’](https://jvns.ca/blog/brag-documents/) and why you need one.
     - Start collecting items to add to your ‘Happy File’.
     
-- Tuesday, August 1st, 09:00 Americas Pacific (16:00 UTC), [Spatial data in R](/events/coworking-2023-08/) *Hosted by [Mike Mahoney](/author/mike-mahoney) and [Steffi LaZerte](/author/steffi-lazerte/)*
+- Tuesday, August 1st, 09:00 Americas Pacific (16:00 UTC), ["Spatial data in R"](/events/coworking-2023-08/) *Hosted by [Mike Mahoney](/author/mike-mahoney) and [Steffi LaZerte](/author/steffi-lazerte/)*
     - Work on a project related to spatial data.
     - Explore R packages for working with spatial data.
 
@@ -223,15 +223,15 @@ How to make it easy for the user to run these hints?
 
 Here's some inspiration:
 
-* You could use [`cli::ui_todo()`](https://usethis.r-lib.org/reference/ui.html), as done in usethis. By the way if your package is using `ui_` functions from usethis, don't miss the cli article on how to [migrate your code to using cli instead](https://cli.r-lib.org/articles/usethis-ui.html), as that's what's recommended. 
+* You could use [`cli::ui_todo()`](https://usethis.r-lib.org/reference/ui.html), as done in usethis. By the way if your package is using `ui_` functions from usethis, don't miss the cli article on how to [migrate your code to using cli instead](https://cli.r-lib.org/articles/usethis-ui.html), as that's what's currently recommended. 
 
-* Also in the cli package, a special kind of links that runs the code if it is clicked on, in RStudio IDE: ["Click to run code"](https://cli.r-lib.org/reference/links.html?q=run#click-to-run-code). You might know that from running snapshot tests with testthat, and getting told to review/accept them with these special links.
+* Also in the cli package, a you can provide a special kind of link that runs the code if clicked in the RStudio IDE: ["Click to run code"](https://cli.r-lib.org/reference/links.html?q=run#click-to-run-code). You might recognize this from running snapshot tests with testthat, and receiving the message to review/accept them with these special links.
 
 ```r
 cli::cli_text("Run {.run praise::praise()} now!")
 ```
 
-* If your code is run in RStudio IDE (checkable with [`rstudioapi::isAvailable()`](https://rstudio.github.io/rstudioapi/reference/isAvailable.html)), you could use [`rstudioapi::sendToConsole()`](https://rstudio.github.io/rstudioapi/reference/sendToConsole.html). [Example](https://github.com/cynkra/fledge/blob/520b9b2e36da7bc58136378407f1f4454bfbeadf/R/finalize-version.R#L63-L80=).
+* If your code is run in RStudio IDE (checkable with [`rstudioapi::isAvailable()`](https://rstudio.github.io/rstudioapi/reference/isAvailable.html)), you could use [`rstudioapi::sendToConsole()`](https://rstudio.github.io/rstudioapi/reference/sendToConsole.html) to send example code to the console for the user to consider ([example](https://github.com/cynkra/fledge/blob/520b9b2e36da7bc58136378407f1f4454bfbeadf/R/finalize-version.R#L63-L80=)).
 
 ### devtag: Restrict Some Help Files to Development 
 
