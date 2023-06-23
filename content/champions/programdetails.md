@@ -108,7 +108,7 @@ If the package already exists, the possible project is to send it for review.  I
 
 ### Does the program have a cost for participants?
 
-No, the program it is free.  The champions will get a small stipend for being part of the program.
+No, the program it is free.  The champions will get a small stipend for being part of the program after they complete it.
 
 ### Can we apply it as a team?
 
