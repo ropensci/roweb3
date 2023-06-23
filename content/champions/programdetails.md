@@ -113,7 +113,7 @@ No, the program it is free.  The champions will get a small stipend for being pa
 ### Can we apply it as a team?
 
 No in this call.  You can pick some of the member of the team and they can apply with your project. 
-Please note that if the person has not contributed to the package previously, please accompany the application with a note that he/she is part of the team and has permission from the authors and maintainers to work on the package.
+Please note that if the person has not contributed to the package previously, you need to accompany the application with a note that he/she/they is part of the team and has permission from the authors and maintainers to work on the package.
 
 ### What does it mean to belong to a historically and systematically excluded group?
 
