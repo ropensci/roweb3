@@ -41,4 +41,4 @@ So that's me in a nutshell, I'm really excited about the Champion Program and am
 
 _We're excited to have both Ghozayel and Zebulun be part of the Champions program and look forward to enjoying the outcomes of their project._
 
-_This is the last introduction and we hope you've enjoyed meeting our 2022/2023 Champions and Mentors!__
+_This is the last introduction and we hope you've enjoyed meeting our 2022/2023 Champions and Mentors!_
