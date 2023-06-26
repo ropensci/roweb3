@@ -77,7 +77,11 @@ This training was developed for the Champion Program, taught by [Hether Turner](
 Training material: https://ropensci.org/events/2023-05-18-how-to-contribute-base-r/ 
 
 ## Trainning for the Mentors
+Mentors gain mentoring skills during this training and orientation (active listening, effective questioning, and giving feedback). They receive resources for their mentoring roles, such as the Mentors Guidelines, Meeting Templates, and details of the logistics of the champions program.
 
+This training was developed for the Champion Program, taught by [Yani Bellini Saibene](/author/yanina-bellini-saibene/), and all mentors must complete it. 
+
+Training material: https://ropensci-training.github.io/ropensci-mentors/
 ## Training for non-selected applicants
 
 We also conduct workshops for those not selected to be champions. The aim of this workshops is to provide an opportunity for all applicants to develop skills in open-source software development for supporting career opportunities as well as future applications to this or other similar programs.
