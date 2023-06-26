@@ -1,5 +1,5 @@
 ---
-title: "rOpenSci Champions Program Teams: Meet César and Marc"
+title: "Training at the rOpenSci Champions Program Pilot"
 author:
   - Yanina Bellini Saibene
   - Camille Santistevan
