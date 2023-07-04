@@ -2,7 +2,6 @@
 name: Yanina Bellini Saibene
 link: https://yabellini.netlify.app/
 bio: rOpenSci Community Manager
-twitter: yabellini
 github: yabellini
 linkedin: yabellini
 mastodon: https://fosstodon.org/@yabellini
