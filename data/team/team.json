@@ -10,6 +10,7 @@
    ],
    "twitter": "_inundata",
    "mastodon": "https://mastodon.social/@inundata",
+   "linkedin": "https://www.linkedin.com/in/karthik-ram-93334954",
    "github": "karthik",
    "home": "https://inundata.org/"
 },
@@ -37,8 +38,10 @@
       "developer"
    ],
    "twitter": "opencpu",
+   "mastodon": "https://fosstodon.org/@jeroenooms",
    "github": "jeroen",
-   "home": "/author/jeroen-ooms"
+   "home": "/author/jeroen-ooms",
+   "linkedin": "https://www.linkedin.com/in/datajeroen"
 },
 {
    "name": "Stefanie Butland",
@@ -63,6 +66,7 @@
    ],
    "twitter": "yabellini",
    "mastodon": "https://fosstodon.org/@yabellini",
+   "linkedin": "https://www.linkedin.com/in/yabellini",
    "github": "yabellini",
    "home": "/author/yanina-bellini-saibene/"
 },
@@ -105,6 +109,7 @@
       "editor"
    ],
    "mastodon": "https://ecoevo.social/@noamross",
+   "linkedin": "https://www.linkedin.com/in/noamross",
    "github": "noamross",
    "home": "/author/noam-ross"
 },
@@ -119,6 +124,7 @@
    ],
    "twitter": "steffilazerte",
    "mastodon": "https://fosstodon.org/@steffilazerte",
+   "linkedin": "https://www.linkedin.com/in/steffi-lazerte",
    "github": "steffilazerte",
    "home": "/author/steffi-lazerte"
 },
