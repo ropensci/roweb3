@@ -30,8 +30,13 @@ resources:
   - url: https://github.com/thisisnic/journey_through_arrow_in_r/blob/main/demo_script.R
     name: Demo script  
     details: R code used during the live demo
+  - url: https://arrow.apache.org/cookbook/r/index.html 
+    name: Apache Arrow R Cookbook 
+    details: This cookbook aims to provide a number of recipes showing how to perform common tasks using arrow. 
+  - url: https://arrow-user2022.netlify.app/
+    name: Larger-Than-Memory Data Workflows with Apache Arrow  
+    details: useR 2022 workshop on how to use the arrow R package to create seamless engineering-to-analysis data pipelines. 
     
- 
 speakers:  
   - name: Nic Crane
     bio:  Nic Crane is an R developer, educator, and general enthusiast, with a background in data science and software engineering.  Nic is a member of the Apache Arrow Project Management Committee (PMC) and is the current maintainer of the arrow R package.
