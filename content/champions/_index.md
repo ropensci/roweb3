@@ -1,4 +1,9 @@
-+++ title = "Champions Program" description = "A mentoring & training program for Scientific Open Source Champions" tags = ["champions"] +++
++++
+title = "Champions Program"
+description = "A mentoring & training program for Scientific Open Source Champions"
+tags = ["champions"]
++++
+
 
 {{< quote align="center">}}
 **The 2023 calls for Champions and Mentors is open!.** 
