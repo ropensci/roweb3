@@ -69,7 +69,6 @@ By becoming an rOpenSci mentor you will:
 Mentors will participate in a training about mentoring and program logistics as part of their onboarding process and have the support of the Community Manager throughout the program.
 
 
-### How to apply
 
 
 
