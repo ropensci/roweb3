@@ -14,7 +14,7 @@ location: Community call (teleconference)
 country: "\U0001F310"
 attendees: All are welcome
 slug: jun2023-arrow
-notes: 
+notes: https://docs.google.com/document/d/1k2K8bnSRNpg7MNOcGlzFk3-yB5uzjosabA4k96PEen8/edit?usp=sharing
 outputs:
 - HTML
 - Calendar 
