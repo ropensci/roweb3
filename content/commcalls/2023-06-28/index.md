@@ -24,6 +24,13 @@ resources:
   - url: https://arrow.apache.org/docs/r/index.html
     name: Arrow R Package Documentation  
     details: The arrow R package exposes an interface to the Arrow C++ library, enabling access to many of its features in R. It provides low-level access to the Arrow C++ library API and higher-level access through a dplyr backend and familiar R functions.
+  - url: https://github.com/thisisnic/journey_through_arrow_in_r/
+    name: Slides  
+    details: presentating arrow concept.
+  - url: https://github.com/thisisnic/journey_through_arrow_in_r/blob/main/demo_script.R
+    name: Demo script  
+    details: R code used during the live demo
+    
  
 speakers:  
   - name: Nic Crane
