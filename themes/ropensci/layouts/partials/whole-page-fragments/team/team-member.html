@@ -24,7 +24,7 @@
         <div class="user-social d-flex">
           {{ with .twitter }}<a href="https://twitter.com/{{ . }}"><img src="/images/users/twitter.svg" alt="" /></a>{{ end }}
           {{ with .mastodon }}<a rel="me" href="{{ . }}"><img src="/images/users/mastodon.svg" alt="" style="max-width:16px;max-height:16px;"/></a>{{ end }}
-          {{ with .linkedin }}<a href="https://www.linkedin.com/in/{{ . }}"><img src="/images/users/linkedin.svg" alt="" style="max-width:16px;max-height:16px;"/></a>{{ end }}
+          {{ with .linkedin }}<a href="{{ . }}"><img src="/images/users/linkedin.svg" alt="" style="max-width:16px;max-height:16px;"/></a>{{ end }}
           {{ with .github }}<a href="https://github.com/{{ . }}"><img src="/images/users/github.svg" alt="" /></a>{{ end }}
          {{ with .home }}<a href="{{ . }}"><img src="/images/users/rss.svg" alt="" /></a>{{ end }}
         </div>
