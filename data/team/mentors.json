@@ -18,7 +18,7 @@
    "roles": [
       "mentor"
    ],
-   "twitter": "adamhsparks",
+   "mastodon": "https://fosstodon.org/@adamhsparks",
    "github": "adamhsparks",
    "home": "https://adamhsparks.netlify.app/"
 },
