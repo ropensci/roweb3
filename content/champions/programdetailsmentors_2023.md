@@ -18,7 +18,7 @@ Mentors may also support Champions with delivering other activities including: g
 
 ### Role description
 
-Mentors will play a vital role in the rOpenSci Champions Program by helping select the [first cohort of Champions](/blog/2022/09/22/launch-champions-program/#how-to-apply) and advising and inspiring their mentees. Mentors will also __connect__ their mentees to people, programs, and organizations; __recommend__, resources, readings, training, and experiences; and provide __feedback__ on the mentee's project.
+Mentors will play a vital role in the rOpenSci Champions Program by helping select [Champions](/blog/2023/07/14/call-champions-program/) and advising and inspiring their mentees. Mentors will also __connect__ their mentees to people, programs, and organizations; __recommend__, resources, readings, training, and experiences; and provide __feedback__ on the mentee's project.
 
 We are seeking mentors from the rOpenSci community who have:
 
@@ -34,7 +34,7 @@ We are seeking mentors from the rOpenSci community who have:
   
   * Package development and/or peer code review.
 
-Mentors will gain mentoring experience and skills, be acknowledged on the rOpenSci website and social media channels, and make new connections across the Champions' networks. By mentoring our selected Champions and helping to shape this program by providing feedback on this pilot year, mentors will also be giving back to the rOpenSci community in a great and meaningful way!
+Mentors will gain mentoring experience and skills, be acknowledged on the rOpenSci website and social media channels, and make new connections across the Champions' networks. By mentoring our selected Champions and helping to shape this program by providing feedback, mentors will also be giving back to the rOpenSci community in a great and meaningful way!
 
 ### Expectations
 
@@ -85,4 +85,4 @@ Mentor are not paid.
 
 ### How many mentees will I have? 
 
-You will mentor one champion.
+You will mentor one Champion.

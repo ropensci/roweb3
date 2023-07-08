@@ -8,18 +8,20 @@ tags = ["champions"]
 
 ## Program goals
 
-After the inaugural year of the _rOpenSci Champions Program_ we open the second call!!
+We're excited to open our second call for the _rOpenSci Champions Program_!
 
-The program aims to support R developers, from around the world, and who identify themselves as members of a group that is systematically excluded from the open software community to:
+The program aims to support R developers from around the world who identify themselves as members of groups which are systematically excluded from the open software community.
+
+Through this program, Champions will:
 
 * Gain the skills to develop their own R package or;
 * Gain confidence in submitting an R package for peer review or become a reviewer.
-* Learn how to lead a workshop or other event about package development or software peer review -  or another rOpenSci activity - in their local community.
+* Learn how to lead a workshop, event, or other rOpenSci activity on the topic of package development or software peer review in their local community.
 * Connect with a supportive network of peers and mentors within the R ecosystem.
 * Provide feedback to help rOpenSci to continue to host relevant, welcoming activities for R developers.
-* Gain transferable skills and experiences that are sought after for careers in open source software.
+* Gain valuable and transferable skills and experiences relevant to careers in open source software.
 
-We are looking six to nine Champions for this second group. We expect to co-create the rOpenSci Champion program with the selected applicants and influence future editions with their experience and feedback.
+We are looking six to nine Champions for this second group. We expect to co-create this iteration of the rOpenSci Champions Program with the selected applicants and refine future editions with their experience and feedback.
 
 We look forward to receiving many applications and are committed to directing non-selected applicants towards other ways in which they can contribute to rOpenSci.
 
@@ -28,13 +30,13 @@ We look forward to receiving many applications and are committed to directing no
 
 {{< figure src = "/images/volunteer/peep3.png" width = "300" alt = "Person holding a butterfly nest." class = "pull-right" >}}
 
-We are looking for people that work on STEAM fields, from anywhere in the world, who identify with the above and who:
+We are looking for people who work in STEAM fields, from anywhere in the world, who identify with the above and who:
 
 * Already have development knowledge with the R language and a solid idea for an R package they’d like to develop, or;
 
-* Have already developed an R package that is in [rOpenSci scope](https://devguide.ropensci.org/policies.html?q=scope#aims-and-scope), and want to have it [peer reviewed](/software-review/) through rOpenSci.
+* Have already developed an R package that is within [rOpenSci scope](https://devguide.ropensci.org/policies.html?q=scope#aims-and-scope), and want to have it [peer reviewed](/software-review/) through rOpenSci, or;
 
-* Want to become a [reviewer](https://devguide.ropensci.org/reviewerguide.html) for rOpenSci.
+* Want to become a [reviewer](https://devguide.ropensci.org/reviewerguide.html) for rOpenSci, and;
 
 * Have basic English communication skills (written and verbal).
 
@@ -65,7 +67,7 @@ By participating in this program, you can help rOpenSci and your community grow.
 
 * Learn and practice organizing and teaching workshops;
 
-* Learn and practice reviewer, and developer skills;
+* Learn and practice reviewer and developer skills;
 
 * Gain insights from other experts and expand your professional network;
 
@@ -100,20 +102,20 @@ The estimated time commitment for each Champion is, on average, __16 hours per m
 
 ## Frequently Asked Questions
 
-### I don't have my own package to work on, can I apply with other people's package?
+### I don't have my own package to work on, can I apply with another's package?
 
-If the package already exists, the possible project is to send it for review.  In that case the requirements are:
-1) Have written permission (can be an email) from the authors or maintainers of the package.
-2) Commit to maintain the package for two years.
+If the package already exists, it is possible to participate by sending the package in for Peer-Review. In this case the requirements would be:
+1) Written permission (can be an email) from the authors or maintainers of the package for you to take over maintenance and submit the package for review.
+2) A commitment from you to maintain the package for at least two years.
 
 ### Does the program have a cost for participants?
 
-No, the program it is free.  The champions will get a small stipend for being part of the program after they complete it.
+No, the program it is free.  The champions will get a small stipend for being part of the program after completion.
 
-### Can we apply it as a team?
+### Can we apply as a team?
 
-No in this call.  You can pick some of the member of the team and they can apply with your project. 
-Please note that if the person has not contributed to the package previously, you need to accompany the application with a note that he/she/they is part of the team and has permission from the authors and maintainers to work on the package.
+Not in this call.  You can pick a team member and they can apply with the project. 
+Please note that if the person has not contributed to the package previously, they will need to submit a note that they are part of the package team and have permission from the authors and maintainers to work on the package.
 
 ### What does it mean to belong to a historically and systematically excluded group?
 
@@ -121,22 +123,22 @@ To belong to a historically and systematically excluded group means being part o
 
 ### Can I propose more than one package?
 
-The time involved in the program only allows you to work on one package. To help you decide which one to propose in the application, check that the package is in [rOpenSci peer-review scope](https://devguide.ropensci.org/policies.html?q=scope#aims-and-scope) or [rOpenSci stat peer review scope](https://ropensci.org/stat-software-review/).
+The time involved in the program only allows you to work on one package. To help you decide which one to propose in the application, check that the package is within [rOpenSci Peer-review scope](https://devguide.ropensci.org/policies.html?q=scope#aims-and-scope) or [rOpenSci Stats Peer-review scope](https://ropensci.org/stat-software-review/).
 
-### Can I apply for a project type and then change it?
+### Can I change the type of project I want to do?
 
 No. We seek to have a balance in the number of each type of project and we assign mentors also according to the type of project.    
 
 ### What does a solid idea mean for a package? What is the appropriate scope? 
 
-A solid idea refers to a well-conceived concept for the package that you can work on inmeadiately. We don't expect project to explore ideas of packages and we don't provide ideas for new packages. 
+A solid idea refers to a well-conceived concept for the package that you can start work on immediately. After the program starts there will not be enough time to explore different ideas for packages and we don't provide ideas for new packages. 
 
-This are [rOpenSci Review](https://devguide.ropensci.org/policies.html?q=scope#aims-and-scope) and [Stats Review](https://ropensci.org/stat-software-review/) scopes for packages. We expect projects related with research software. 
+These are [rOpenSci Peer-Review](https://devguide.ropensci.org/policies.html?q=scope#aims-and-scope) and [Stats Peer-Review](https://ropensci.org/stat-software-review/) scopes for packages. We expect projects related with research software. 
 
 ### I don't have much experience programming in R, can I apply?
 
-The program is aimed at people who already have experience in R. We expect you to know how to work with projects, control structures and how to write functions.  If you already have experience developing packages (either their own or contributing to other people's packages) all the better. We also expect you to have basic knowledge of git and GitHub. 
+The program is designed for people who already have experience in R. We expect you to know how to work with projects, control structures and how to write functions. You **do not** have to have experience in writing packages (either your own or contributing to other people's packages), but if you do all the better! However, we do expect you to have basic knowledge of git and GitHub. 
 
 ### I have a package that is under review on CRAN, which option should I choose?
 
-If you want to work on that package during the program then the option would be to Submit your package to the peer review process, even though we advise to go through our review first and then submit the package to CRAN.
+If you want to work on that package during the program then the option to choose would be "Submit your package to the Peer-Review process". However, we generally advise people to go through our review first and *then* submit the package to CRAN.

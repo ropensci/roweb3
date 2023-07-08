@@ -21,7 +21,7 @@ The rOpenSci Champion Program [is part of a series of activities and projects we
 
 ### Champions
 
-You need to fill out an application form. [This template shows the information we will require](/champions/files/champions_template). The application forms have to be completed *in English*.
+Please fill out an application form! [This template shows the information we require](/champions/files/champions_template). Applications need to be submitted *in English*.
 
 ### Mentors
 
