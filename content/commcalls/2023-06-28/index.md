@@ -18,8 +18,8 @@ notes: https://docs.google.com/document/d/1k2K8bnSRNpg7MNOcGlzFk3-yB5uzjosabA4k9
 outputs:
 - HTML
 - Calendar 
-# vimeo:
-#  - id: ''
+vimeo:
+  - id: '841548305'
 resources:
   - url: https://arrow.apache.org/docs/r/index.html
     name: Arrow R Package Documentation  
