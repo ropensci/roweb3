@@ -91,4 +91,3 @@ You will mentor one Champion.
 
 Yes, we offer a training for mentors on how to be a mentor and the program logistic. We also offer a guide and resources for the mentoring task.
 
-#### 
