@@ -1,1 +1,0 @@
-https://twitter.com/intent/tweet?original_referer={{ .Permalink }}&text={{ if isset .Params "tweet" }}{{ .Params.tweet | replaceRE "&" "%26" }}{{ else }}{{ .Title  | replaceRE "&" "%26" }}{{ end }}&url={{ .Permalink }}&via=ropensci

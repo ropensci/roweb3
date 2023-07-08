@@ -404,8 +404,8 @@ parse_one_post <- function(path){
     software_peer_review = "Software Peer Review" %in% yaml$tags,
     tech_note = "tech notes" %in% yaml$tags && !"Software Peer Review" %in% yaml$tags,
     other = !"tech notes" %in% yaml$tags && !"Software Peer Review" %in% yaml$tags,
-    twitterImg = yaml$twitterImg %||% "",
-    twitterAlt = yaml$twitterAlt %||% "",
+    socialImg = yaml$socialImg %||% "",
+    socialAlt = yaml$socialAlt %||% "",
     description = yaml$description %||% "",
     newsletter = "newsletter" %in% yaml$tags,
     slug = yaml$slug,
@@ -456,13 +456,13 @@ format_post <- function(dir) {
     string <- paste0(string, ".")  
   }
   
-  if (post$twitterImg != "") {
-    img_file <- fs::path_file(post$twitterImg)
-    download.file(sprintf("https://ropensci.org/%s", post$twitterImg), img_file)
+  if (post$socialImg != "") {
+    img_file <- fs::path_file(post$socialImg)
+    download.file(sprintf("https://ropensci.org/%s", post$socialImg), img_file)
     img_file %>% magick::image_read() %>% magick::image_scale("400x") %>% magick::image_write(img_file)
     string <- paste0(
       string,
-      sprintf('{{< figure src="%s" alt="%s" width="400" >}}\n\n', img_file, post$twitterAlt)
+      sprintf('{{< figure src="%s" alt="%s" width="400" >}}\n\n', img_file, post$socialAlt)
     )
   }
   
