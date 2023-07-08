@@ -45,7 +45,7 @@ The total time commitment is expected to be approximately 1-2 hours per month fr
 |----|-----|------|--------|
 |October, 2023|Select Champions |Review, rank and select 1-2 reviewed projects to mentor.|2 h|
 |November 2023|Kick-off event|Learn about the program, review the program expectations, and address questions. Meet mentees.|1.5 h|
-|January - February 2023|Training|How to mentor and logistics on the program.|1 h|
+|January - February 2024|Training|How to mentor and logistics on the program.|1 h|
 |March 2023|Cohort meeting: Presentation of projects|Champions give 5 minutes presentations on their project (package review or development) and get feedback.|1.5 h|
 |March-July 2023|Meeting with mentee|Provide feedback and guidance on mentee project.  Connect with other experts, mentors or community members. Recommend training, resources for the mentee project.|1 meeting per month 0.5 h|
 |Jun 2023|Cohort meeting: Reflections on projects|Champions will be invited to share takeaways from their projects with the cohort.|1.5 h|
