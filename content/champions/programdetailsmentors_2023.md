@@ -79,10 +79,16 @@ Please, contact our Community Manager by [email](mailto:yabellini@ropensci.org) 
 
 ## Frequently Asked Questions
 
-### Are mentors paid? 
+#### Are mentors paid? 
 
 Mentor are not paid.
 
-### How many mentees will I have? 
+#### How many mentees will I have? 
 
 You will mentor one Champion.
+
+#### Do we have training?
+
+Yes, we offer a training for mentors on how to be a mentor and the program logistic. We also offer a guide and resources for the mentoring task.
+
+#### 
