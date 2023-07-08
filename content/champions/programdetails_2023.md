@@ -102,43 +102,43 @@ The estimated time commitment for each Champion is, on average, __16 hours per m
 
 ## Frequently Asked Questions
 
-### I don't have my own package to work on, can I apply with another's package?
+#### I don't have my own package to work on, can I apply with another's package?
 
 If the package already exists, it is possible to participate by sending the package in for Peer-Review. In this case the requirements would be:
 1) Written permission (can be an email) from the authors or maintainers of the package for you to take over maintenance and submit the package for review.
 2) A commitment from you to maintain the package for at least two years.
 
-### Does the program have a cost for participants?
+#### Does the program have a cost for participants?
 
 No, the program it is free.  The champions will get a small stipend for being part of the program after completion.
 
-### Can we apply as a team?
+#### Can we apply as a team?
 
 Not in this call.  You can pick a team member and they can apply with the project. 
 Please note that if the person has not contributed to the package previously, they will need to submit a note that they are part of the package team and have permission from the authors and maintainers to work on the package.
 
-### What does it mean to belong to a historically and systematically excluded group?
+#### What does it mean to belong to a historically and systematically excluded group?
 
 To belong to a historically and systematically excluded group means being part of a community or identity that has faced long-standing patterns of marginalization, discrimination, and disadvantage. It encompasses groups that have been historically oppressed, discriminated against, or denied equal opportunities based on various factors such as race, ethnicity, gender, sexual orientation, religion, disability, socioeconomic status, geographic location, or any combination thereof.
 
-### Can I propose more than one package?
+#### Can I propose more than one package?
 
 The time involved in the program only allows you to work on one package. To help you decide which one to propose in the application, check that the package is within [rOpenSci Peer-review scope](https://devguide.ropensci.org/policies.html?q=scope#aims-and-scope) or [rOpenSci Stats Peer-review scope](https://ropensci.org/stat-software-review/).
 
-### Can I change the type of project I want to do?
+#### Can I change the type of project I want to do?
 
 No. We seek to have a balance in the number of each type of project and we assign mentors also according to the type of project.    
 
-### What does a solid idea mean for a package? What is the appropriate scope? 
+#### What does a solid idea mean for a package? What is the appropriate scope? 
 
 A solid idea refers to a well-conceived concept for the package that you can start work on immediately. After the program starts there will not be enough time to explore different ideas for packages and we don't provide ideas for new packages. 
 
 These are [rOpenSci Peer-Review](https://devguide.ropensci.org/policies.html?q=scope#aims-and-scope) and [Stats Peer-Review](https://ropensci.org/stat-software-review/) scopes for packages. We expect projects related with research software. 
 
-### I don't have much experience programming in R, can I apply?
+#### I don't have much experience programming in R, can I apply?
 
 The program is designed for people who already have experience in R. We expect you to know how to work with projects, control structures and how to write functions. You **do not** have to have experience in writing packages (either your own or contributing to other people's packages), but if you do all the better! However, we do expect you to have basic knowledge of git and GitHub. 
 
-### I have a package that is under review on CRAN, which option should I choose?
+#### I have a package that is under review on CRAN, which option should I choose?
 
 If you want to work on that package during the program then the option to choose would be "Submit your package to the Peer-Review process". However, we generally advise people to go through our review first and *then* submit the package to CRAN.
