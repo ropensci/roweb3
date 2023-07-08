@@ -6,7 +6,7 @@
    "roles": [
       "mentor"
    ],
-   "twitter": "DeCiccoDonk",
+   "mastodon": "https://fosstodon.org/@ldecicco",
    "github": "ldecicco-usgs",
    "home": "https://www.usgs.gov/staff-profiles/laura-decicco"
 },
@@ -18,7 +18,7 @@
    "roles": [
       "mentor"
    ],
-   "twitter": "adamhsparks",
+   "mastodon": "https://fosstodon.org/@adamhsparks",
    "github": "adamhsparks",
    "home": "https://adamhsparks.netlify.app/"
 },
@@ -43,6 +43,7 @@
       "mentor"
    ],
    "twitter": "d_olivaw",
+   "mastodon": "https://mastodon.social/@eliocamp",
    "github": "eliocamp",
    "home": "https://eliocamp.github.io"
 },
