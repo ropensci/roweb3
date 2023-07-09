@@ -38,20 +38,21 @@ Mentors will gain mentoring experience and skills, be acknowledged on the rOpenS
 
 ### Expectations
 
-The total time commitment is expected to be approximately 1-2 hours per month from October 2023 - October 2024 to complete the following tentative program timeline.
+The total time commitment is expected to be approximately 1-2 hours per month from October 2023 - November 2024 to complete the following tentative program timeline.
 
 
 |Date|Event|Detail|Duration|
 |----|-----|------|--------|
 |October, 2023|Select Champions |Review, rank and select 1-2 reviewed projects to mentor.|2 h|
 |November 2023|Kick-off event|Learn about the program, review the program expectations, and address questions. Meet mentees.|1.5 h|
-|January - February 2024|Training|How to mentor and logistics on the program.|1 h|
-|March 2023|Cohort meeting: Presentation of projects|Champions give 5 minutes presentations on their project (package review or development) and get feedback.|1.5 h|
-|March-July 2023|Meeting with mentee|Provide feedback and guidance on mentee project.  Connect with other experts, mentors or community members. Recommend training, resources for the mentee project.|1 meeting per month 0.5 h|
-|Jun 2023|Cohort meeting: Reflections on projects|Champions will be invited to share takeaways from their projects with the cohort.|1.5 h|
+|January - April 2024|Training|How to mentor and logistics on the program.|2 h|
+|March-July 2024|Meeting with mentee|Provide feedback and guidance on mentee project.  Connect with other experts, mentors or community members. Recommend training, resources for the mentee project.|1 meeting per month 0.5 h|
+|May 2024|Cohort meeting [optional]: Champions will present their project and get feedback. |1.5 h|
 |August - November 2023|Meeting with mentee|Provide feedback and guidance on mentee project.  Connect with other experts, mentors or community members. Recommend training, resources for the mentee project. |1 meeting per month 0.5 h|
-|September 2023|Cohort meeting: Reflections on events|Champions will be invited to share takeaways from their events with the cohort.|1.5 h|
-|December 2023|Cohort meeting: Reflections on program|Mentors will be invited to share takeaways from the program and help to define future roles for Champions.|1.5 h|
+|July 2024 | Cohort meeting [optional]: Reflections on projects|Champions will be invited to share takeaways from their projects with the cohort. | 1.5 h|
+|September 2024|Cohort meeting [optional]: Reflections on events|Champions will be invited to share takeaways from their events with the cohort.|1.5 h|
+|October 2024|Cohort meeting: Reflections on program|Mentors will be invited to share takeaways from the program and help to define future roles for Champions.|1.5 h|
+|November 2024|End of term|Close cohort and define new roles for Champions and Mentors.|1 h|
 
 {{< figure src = "/images/volunteer/peep2.png" width = "300" alt = "A person with his dog working on a notebook." class = "pull-right" >}}
 
@@ -67,9 +68,6 @@ By becoming an rOpenSci mentor you will:
 * Co-develop this program and other rOpenSci projects by sharing feedback;
 
 Mentors will participate in a training about mentoring and program logistics as part of their onboarding process and have the support of the Community Manager throughout the program.
-
-
-
 
 
 ## Do you have any questions? 
