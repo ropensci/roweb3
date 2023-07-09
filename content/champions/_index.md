@@ -48,6 +48,10 @@ Please fill out an application form! [This template shows the information we wil
 |May-Oct, 2024 | Outreach activities, mentoring and cohort meetings, develop project|
 |Nov, 2024 |End of term|
 
+Please refer to the [program timeline document for a more detailed program schedule for champions](program_timeline).  
+
+If you are interested in [more details of the mentoring agenda, please refer to the mentoring details document](programdetailsmentors_2023/#expectations). 
+
 ## Do you have any questions?
 
-Please, check our [frequentely asked question for champions](/champions/programdetails_2023/#frequently-asked-questions) and [for mentors]().  You can also contact our Community Manager [by email](mailto:yabellini@ropensci.org) and check our resources about the program in English and Spanish.
+Please, check our [frequentely asked question for champions](/champions/programdetails_2023/#frequently-asked-questions) and [for mentors](programdetailsmentors_2023/#frequently-asked-questions).  You can also contact our Community Manager [by email](mailto:yabellini@ropensci.org) and check our resources about the program in English and Spanish.
