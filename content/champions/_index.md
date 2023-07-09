@@ -33,7 +33,7 @@ Please fill out an application form! [This template shows the information we req
 
 Please fill out an application form! [This template shows the information we will require](/champions/files/mentors_champions_template). Applications need to be submitted *in English*.
 
-## Application and Program timeline
+## Application 2023 and Program 2023-2024 timeline
 
 |Date|Event|
 |----|-----|
