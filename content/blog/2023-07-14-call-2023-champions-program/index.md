@@ -15,8 +15,6 @@ description: We open the call for the second cohort of Champions and Mentors!
 
 We are pleased to open the call for the second cohort of Champions and mentors for the rOpenSci Champions Program 🎉 ! This program will continue to support our goal of identifying, recognizing, and rewarding passionate community members who help the community grow and improve.
 
-
-
 The Champions Program [is part of a series of activities and projects we are carrying out to ensure our research software serves everyone in our communities](/blog/2021/12/20/inclusive-leadership-program/), which means that it needs to be sustainable and open, and built __by and for all groups.__
 
 We strive to drive meaningful change in the Open Science ecosystem and the R Community in particular, and for that  we recognize the need to support a diverse cohort of community leaders and contributors to all aspects of research software creation through our Champions Program.
@@ -39,15 +37,18 @@ After training, Champions will develop their project, which can be one of these 
 
 Other Champions activities include options for delivering a talk, writing blog posts and teaching other community members. During this stage, Champions will receive personal and group mentorship through meetings with mentors, quarterly cohort calls, Community Manager support, and a dedicated channel on rOpenSci Slack workspace.
 
-We will provide a $1000 (USD) stipend to the selected community champions.
+We will provide a $1000 (USD) stipend to the selected community champions after they complete the program.
 We are looking for **six to nine** Champions for this second cohort. We expect to co-create this iteration of the rOpenSci Champions Program with the selected applicants and to refine future editions with their experience and feedback.
 
 We look forward to receiving many applications and are committed to directing non-selected applicants towards other ways in which they can contribute to rOpenSci.
 
+<FIXME: Add information about mentors>
 
 ## How to apply?
 
-Please, fill out the [application form](https://airtable.com/shrAsYlSXU0coJ5Ld) (this [template](/champions/files/champions_template) shows the information we require) before __Friday, Nov 7, 2022__.
+* **Champions:** Please, fill out the [application form](https://airtable.com/shrAsYlSXU0coJ5Ld) (this [template](/champions/files/champions_template) shows the information we require) before __Monday, Sep 4, 2023__.
+
+* **Mentors:** Please, fill out the [application form](https://airtable.com/shrAsYlSXU0coJ5Ld) (this [template](/champions/files/champions_template) shows the information we require) before __Monday, Sep 4, 2023__.
 
 The application forms have to be filled in _English_.
 
@@ -55,11 +56,12 @@ The application forms have to be filled in _English_.
 
 |Date|Event|
 |----|-----|
-|Sep 23, 2022|Call for Applications opens|
-|Oct 24, 2022| [OPTIONAL] [Community Call](/commcalls/oct2022-champions/) -  Tips for submitting your Champions Program application |
-|Nov 1, 2022| [OPTIONAL] [Co-working hours](/events/coworking-2022-11/): receive help with your application to the Champions Program |
-|Nov 7, 2022|Call for applications closed|
-|Nov 25, 2022|Communication with selected Champions |
+|Jul 14, 2023|Call for Champions and Mentor Applications opens|
+|Jul 25, 2023| [OPTIONAL] [Community Call](/commcalls/july2023-championprogram/) - Learn from other mentors and champions and get tips for submitting your application |
+|Aug 1, 2022| [OPTIONAL] [Co-working hours](/events/coworking-2023-08/): receive help with your application to the Champions Program |
+|Sep 4, 2023|Call for applications closed|
+|Sep 22, 2023|Communication with selected Mentors |
+|Oct 27, 2023|Communication with selected Champions |
 
 
 ## Do you have any questions?
