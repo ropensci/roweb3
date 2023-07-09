@@ -23,7 +23,7 @@ That is why this program focuses on __people who belong to groups that are histo
 We are looking for people that work in STEAM fields, from anywhere in the world, who already have development knowledge and experience with the R language. 
 
 
-## What is our Champions Program?
+## What are the expectation for Champions?
 
 We have developed a **12-month-long program including cohort-based training, project development, and personal mentorship**. 
 
@@ -42,7 +42,26 @@ We are looking for **six to nine** Champions for this second cohort. We expect t
 
 We look forward to receiving many applications and are committed to directing non-selected applicants towards other ways in which they can contribute to rOpenSci.
 
-<FIXME: Add information about mentors>
+
+## What are the expectation for Mentors?
+
+Mentors will play a vital role in the rOpenSci Champions Program by helping select the Champions and advising and inspiring their mentees. Mentors will also connect their mentees to people, programs, and organizations; recommend, resources, readings, training, and experiences; and provide feedback on the mentee’s project.
+
+We are seeking mentors from the rOpenSci community who have:
+
+  * Demonstrated an understanding and ability to work openly and collaboratively;
+
+  * The willingness to guide and teach others;
+
+  * Previous experience with any of the following:
+
+      * Developing, maintaining or contributing to any rOpenSci package or package which has gone through rOpenSci review, or
+
+      * Participating in the rOpenSci review process, or
+
+      * Package development and/or peer code review.
+
+Mentors will gain mentoring experience and skills, be acknowledged on the rOpenSci website and social media channels, and make new connections across the Champions’ networks. By mentoring our selected Champions and helping to shape this program mentors will also be giving back to the rOpenSci community in a great and meaningful way!
 
 ## How to apply?
 
