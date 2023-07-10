@@ -5,10 +5,10 @@ _The form template is also available in [English](/champions/files/champions_tem
 
 * Nombre completo
 * Email
-* Zona horaria: _zona horaria de tu ciudad de residencia expresada en UTC_.
 * [] Por favor, tilda esta casilla si te presentaste al programa campeones anteriormente.
   * [] Por favor, tilda esta casilla si asististe al taller que ofrecimos para personas que no fueron seleccionadas en la última convocatoria.  
 * País: _país de residencia_.
+* Zona horaria: _zona horaria de tu ciudad de residencia expresada en UTC_.
 * Pronombres: _por favor, comparte tus pronombres preferidos (opcional)_
 * Idioma: _qué idioma(s) prefieres para comunicarte durante las capacitaciones y las tutorías?_
 * GitHub o GitLab: _por favor, facilita el enlace a tu perfil_
