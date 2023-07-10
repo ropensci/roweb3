@@ -83,9 +83,11 @@ The application forms have to be filled in _English_.
 
 ## Do you have any questions?
 
-Please, contact our Community Manager [by email](mailto:yabellini@ropensci.org). 
+See the [Champions Program page](/champions/) for all details regarding applying, timelines and eligibility. 
 
 We will have a [Community Call on Tuesday, 25 July 2023 14:00 UTC](/commcalls/july2023-championprogram/) and a [Coworking space on August](/events/coworking-2023-08/) to help you with your application.
+
+You can also contact our Community Manager [by email](mailto:yabellini@ropensci.org). 
 
 
 **We look forward to meeting all of you passionate Champions and Mentors out there :-D**
