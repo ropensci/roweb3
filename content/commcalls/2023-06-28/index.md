@@ -14,17 +14,29 @@ location: Community call (teleconference)
 country: "\U0001F310"
 attendees: All are welcome
 slug: jun2023-arrow
-notes: 
+notes: https://docs.google.com/document/d/1k2K8bnSRNpg7MNOcGlzFk3-yB5uzjosabA4k96PEen8/edit?usp=sharing
 outputs:
 - HTML
 - Calendar 
-# vimeo:
-#  - id: ''
+vimeo:
+  - id: '841548305'
 resources:
   - url: https://arrow.apache.org/docs/r/index.html
     name: Arrow R Package Documentation  
     details: The arrow R package exposes an interface to the Arrow C++ library, enabling access to many of its features in R. It provides low-level access to the Arrow C++ library API and higher-level access through a dplyr backend and familiar R functions.
- 
+  - url: https://github.com/thisisnic/journey_through_arrow_in_r/
+    name: Slides  
+    details: presenting arrow concept and resources.
+  - url: https://github.com/thisisnic/journey_through_arrow_in_r/blob/main/demo_script.R
+    name: Demo script  
+    details: R code used during the live demo
+  - url: https://arrow.apache.org/cookbook/r/index.html 
+    name: Apache Arrow R Cookbook 
+    details: This cookbook aims to provide a number of recipes showing how to perform common tasks using arrow. 
+  - url: https://arrow-user2022.netlify.app/
+    name: Larger-Than-Memory Data Workflows with Apache Arrow  
+    details: useR 2022 workshop on how to use the arrow R package to create seamless engineering-to-analysis data pipelines. 
+    
 speakers:  
   - name: Nic Crane
     bio:  Nic Crane is an R developer, educator, and general enthusiast, with a background in data science and software engineering.  Nic is a member of the Apache Arrow Project Management Committee (PMC) and is the current maintainer of the arrow R package.
