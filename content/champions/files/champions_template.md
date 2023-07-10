@@ -5,7 +5,10 @@ _La plantilla del formulario también está disponible en [español](/champions/
 
 * Full Name
 * Email
+* [] Please, check if you applied to the champions program before.
+  * [] Please, check if you attended to the workshop we offer for people that wasn't selected in the last call.  
 * Country: _country of residence_.
+* Timezone: _your residency city timezone expressed in UTC_
 * Pronouns: _please share preferred pronouns (optional)_
 * Language: _what language(s) do you prefer for your communication during the training and mentoring calls?_
 * GitHub or GitLab: _please, provide link to your profile_

@@ -3,6 +3,7 @@
 * Full Name
 * Email
 * Country: _country of residence_.
+* Timezone: _your residency city timezone expressed in UTC_
 * Pronouns: _what pronouns do you use? (optional)_
 * Language: _what language(s) do you prefer for your communication during the training and mentoring calls?_
 * GitHub or GitLab: _please, provide link to your profile_
