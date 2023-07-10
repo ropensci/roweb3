@@ -79,8 +79,6 @@ The application forms have to be filled in _English_.
 |Jul 25, 2023| [OPTIONAL] [Community Call](/commcalls/july2023-championprogram/) - Learn from other mentors and champions and get tips for submitting your application |
 |Aug 1, 2022| [OPTIONAL] [Co-working hours](/events/coworking-2023-08/): receive help with your application to the Champions Program |
 |Sep 4, 2023|Call for applications closed|
-|Sep 22, 2023|Communication with selected Mentors |
-|Oct 27, 2023|Communication with selected Champions |
 
 
 ## Do you have any questions?
