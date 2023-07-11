@@ -1,0 +1,59 @@
+{{ define "main" }}
+<section class="section section-community-calls">
+  <div class="container">
+    <!-- Header text -->
+    <div class="row">
+      <div class="col-md-8">
+        <h1>{{ .Title }}</h1>
+        </div>
+      </div>
+    <div class="row">
+      <div class="col-md-8">
+        <div class="pmt">
+        {{ .Content }}
+        </div>
+      </div>
+    <div class="col-md-4">
+      <img class="commcalls" src="/images/coworking-img.jpg" alt="" />
+    </div>
+    </div>
+    {{ $utcnow := now.UTC }}
+    {{ $pages :=  (where (where ( where .Site.RegularPages "Type" "in" .Site.Params.events ) ".Date" ">=" now.UTC ) ".Params.coworking" true) }}
+    {{ $no := len $pages }}
+      <h2 class="title mt-5">Our Next Coworking Session{{ if gt $no 1 }}s{{ end }}</h2>
+    {{ if eq $no 0 }}
+      To be announced
+    {{ end }}
+    {{ range $pages.Reverse }}
+  <div class="career-cards mt-4">
+    <a href="{{ .RelPermalink }}" class="career-card">
+      <span>{{ replaceRE "Social Coworking and Office Hours -" "" .Title 1 }}</span>
+      <p>With {{ delimit .Params.author ", " " and " }}. {{ .Description }}</p>
+      <span><strong>{{ (time .Params.dateStart).Local | dateFormat "Monday, 02 January 2006 15:04 MST" }} • teleconference 🌐</strong></span>
+    </a>
+  </div>
+  {{ end }}
+  <h2 class="title mt-5">
+  Past Sessions
+</h2>
+<div class="session-list">
+    {{ $pages :=  (where (where ( where .Site.RegularPages "Type" "in" .Site.Params.events ) ".Date" "<" now.UTC ) ".Params.coworking" true) }}
+  {{ range $pages  }}
+            <div class="row">
+            <div class="col-md-2">
+              <div class="session-date">
+                {{ .Date.Format "January 2, 2006" }}
+              </div>
+            </div>
+            <div class="col-md-8 session-info">
+              <a href="{{ .RelPermalink }}" class="session-title">{{ replaceRE "Social Coworking and Office Hours -" "" .Title 1 }}</a>
+              <p class="session-team">{{ with .Params.attendees }} With {{ delimit . ", " }}{{ end }}</p>
+            </div>
+          </div>
+  {{ end }}
+  </div>
+  </div>
+</section>
+{{ partial "whole-page-fragments/newsletter"  (dict "divider" "lr" ) }}         
+{{ partial "whole-page-fragments/brands" (dict "Site" .Site "divider" "rl" ) }}
+{{ end }}
