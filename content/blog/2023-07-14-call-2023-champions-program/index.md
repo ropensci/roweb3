@@ -67,7 +67,7 @@ Mentors will gain mentoring experience and skills, be acknowledged on the rOpenS
 
 * **Champions:** Please, fill out the [application form](https://airtable.com/shrAsYlSXU0coJ5Ld) (this [template](/champions/files/champions_template) shows the information we require) before __Monday, Sep 4, 2023__.
 
-* **Mentors:** Please, fill out the [application form](https://airtable.com/shrlrLdQbb4wphosK) (this [template](/champions/files/champions_template) shows the information we require) before __Monday, Sep 4, 2023__.
+* **Mentors:** Please, fill out the [application form](https://airtable.com/shrlrLdQbb4wphosK) (this [template](/champions/files/mentors_champions_template) shows the information we require) before __Monday, Sep 4, 2023__.
 
 The application forms have to be filled in _English_.
 
