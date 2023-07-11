@@ -11,7 +11,7 @@ tags:
   - repeatability
 featured: true
 description: A short primer on how to cite R and R packages to support developers and ensure repeatable science!
-tweet: How to cite R and R packages? by @steffilazerte!
+social: How to cite R and R packages? by @steffilazerte@fosstodon.org!
 output:
   html_document:
     keep_md: yes
