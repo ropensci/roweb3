@@ -131,8 +131,6 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 * [rOpenSci Champions Program Teams: Meet Ghozayel Elotteebi and Zebulun Arendsee](/blog/2023/06/23/ropensci-champions-program-teams-meet-ghozayel-elotteebi-and-zebulun-arendsee) by Ghozayel Elotteebi, and Zebulun Arendsee. Introducing Champions and Mentors - Ghozayel Elotteebi and Zebulun Arendsee.
 
-* [rOpenSci News Digest, July 2023](/blog/2023/07/21/news-july-2023) by The rOpenSci Team. keywords from the content.
-
 ## Use cases
 
 
@@ -194,6 +192,11 @@ Condition
 [Example commit fixing this, in usethis](https://github.com/r-lib/usethis/commit/a5e80b516154309dd28d09e642ea7e7b6c7e723a).
 
 Thanks to [Zhian Kamvar](https://zkamvar.netlify.app/) for this!
+
+### How to take vacation as an open-source maintainer
+
+Some inspiration by Will Landau: https://mastodon.social/@landau@fosstodon.org/110636695153363955
+Take care, y'all.
 
 <!-- To be curated by hand -->
 
