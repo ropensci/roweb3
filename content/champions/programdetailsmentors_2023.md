@@ -14,7 +14,7 @@ The rOpenSci Champions Program is for _people from historically and systematical
 
 * Serve as a reviewer for the rOpenSci software peer review system.
 
-Mentors may also support Champions with delivering other activities including: giving a talk, writing blog posts, and teaching other community members.
+Mentors may also support Champions with delivering other activities like: giving a talk, writing blog posts, and teaching other community members.
 
 ### Role description
 
