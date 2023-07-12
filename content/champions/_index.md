@@ -5,8 +5,10 @@ tags = ["champions"]
 +++
 
 
+# Open Call for rOpenSci Champions Program Applications! 
+
 {{< quote align="center">}}
-**The 2023 calls for Champions and Mentors is open!.** 
+**The 2023 calls for Champions and Mentors is open!** 
 {{< /quote >}}
 
 {{< figure src = "/images/volunteer/peep8.png" width = "300" alt = "A person with his dog working on a notebook." class = "pull-left" >}}
@@ -17,21 +19,23 @@ The *rOpenSci Champions Program* is for **people from historically and systemati
 
 The rOpenSci Champion Program [is part of a series of activities and projects we are carrying out to ensure our research software serves everyone in our communities](/blog/2021/12/20/inclusive-leadership-program/) and is supported through a grant from the Chan Zuckerberg Initiative.
 
-## Program Details
-
-If you want to be one of our champions [here you can find goals, elegibility, benefits, and expectations for our program](programdetails_2023)
-
-Mentors support our cohort of rOpenSci Champions. Could you offer insight and advice to our selected Champions? [Learn the details and express your interest!](programdetailsmentors_2023)
 
 ## How to apply
 
 ### Champions
 
-Please fill out an application form! [This template shows the information we require](/champions/files/champions_template). Applications need to be submitted *in English*.
+If you want to be one of our champions [here you can find goals, elegibility, benefits, and expectations for our program](programdetails_2023)
+
+Please, fill out the [application form](https://airtable.com/shrAsYlSXU0coJ5Ld) (this [template](/champions/files/champions_template) shows the information we require) before __Monday, Sep 4, 2023__.
+
+The application forms have to be filled in _English_.
 
 ### Mentors
 
-Please fill out an application form! [This template shows the information we will require](/champions/files/mentors_champions_template). Applications need to be submitted *in English*.
+Mentors support our cohort of rOpenSci Champions. Could you offer insight and advice to our selected Champions? [Learn the details and express your interest!](programdetailsmentors_2023) by filling out the [application form](https://airtable.com/shrlrLdQbb4wphosK) (this [template](/champions/files/mentors_champions_template) shows the information we require) before __Monday, Sep 4, 2023__.
+
+The application forms have to be filled in _English_.
+
 
 ## Application 2023 and Program 2023-2024 timeline
 
