@@ -5,11 +5,7 @@ tags = ["champions"]
 +++
 
 
-# Open Call for rOpenSci Champions Program Applications! 
-
-{{< quote align="center">}}
-**The 2023 calls for Champions and Mentors is open!** 
-{{< /quote >}}
+## Open Call for rOpenSci Champions Program 2023 Applications! 
 
 {{< figure src = "/images/volunteer/peep8.png" width = "300" alt = "A person with his dog working on a notebook." class = "pull-left" >}}
 
@@ -32,7 +28,7 @@ The application forms have to be filled in _English_.
 
 ### Mentors
 
-Mentors support our cohort of rOpenSci Champions. Could you offer insight and advice to our selected Champions? [Learn the details and express your interest!](programdetailsmentors_2023) by filling out the [application form](https://airtable.com/shrlrLdQbb4wphosK) (this [template](/champions/files/mentors_champions_template) shows the information we require) before __Monday, Sep 4, 2023__.
+Mentors support our cohort of rOpenSci Champions. Could you offer insight and advice to our selected Champions? [Learn the details and express your interest](programdetailsmentors_2023) by filling out the [application form](https://airtable.com/shrlrLdQbb4wphosK) (this [template](/champions/files/mentors_champions_template) shows the information we require) before __Monday, Sep 4, 2023__.
 
 The application forms have to be filled in _English_.
 
@@ -52,7 +48,7 @@ The application forms have to be filled in _English_.
 |May-Oct, 2024 | Outreach activities, mentoring and cohort meetings, develop project|
 |Nov, 2024 |End of term|
 
-Please refer to the [program timeline document for a more detailed program schedule for champions](program_timeline).  
+Please refer to the [program timeline document for a more detailed program schedule for champions](program_timeline_2023).  
 
 If you are interested in [more details of the mentoring agenda, please refer to the mentoring details document](programdetailsmentors_2023/#expectations). 
 
