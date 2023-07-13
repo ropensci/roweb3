@@ -22,15 +22,15 @@ The rOpenSci Champion Program [is part of a series of activities and projects we
 
 If you want to be one of our champions [here you can find goals, elegibility, benefits, and expectations for our program](programdetails_2023)
 
-Please, fill out the [application form](https://airtable.com/shrAsYlSXU0coJ5Ld) (this [template](/champions/files/champions_template) shows the information we require) before __Monday, Sep 4, 2023__.
+Please, fill out the [application form](https://airtable.com/shrAsYlSXU0coJ5Ld) before __Monday, Sep 4, 2023__.
 
-The application forms have to be filled in _English_.
+The application forms have to be filled in _English_. This [template](/champions/files/champions_template) shows the information we require.
 
 ### Mentors
 
-Mentors support our cohort of rOpenSci Champions. Could you offer insight and advice to our selected Champions? [Learn the details and express your interest](programdetailsmentors_2023) by filling out the [application form](https://airtable.com/shrlrLdQbb4wphosK) (this [template](/champions/files/mentors_champions_template) shows the information we require) before __Monday, Sep 4, 2023__.
+Mentors support our cohort of rOpenSci Champions. Could you offer insight and advice to our selected Champions? [Learn the details and express your interest](programdetailsmentors_2023) by filling out the [application form](https://airtable.com/shrlrLdQbb4wphosK) before __Monday, Sep 4, 2023__.
 
-The application forms have to be filled in _English_.
+The application forms have to be filled in _English_. This [template](/champions/files/mentors_champions_template) shows the information we require. 
 
 
 ## Application 2023 and Program 2023-2024 timeline
