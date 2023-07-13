@@ -11,7 +11,7 @@ _La plantilla del formulario también está disponible en [español](/champions/
 * Language: _what language(s) do you prefer for your communication during the training and mentoring calls?_
 * GitHub or GitLab: _please, provide link to your profile. Share the full url, for example, https://github.com/ropensci_
 _We recommend that you make your profile informative: Fill your GitHub profile information (and to keep it up-to-date); Pin your most important repositories. They can be repositories you contributed to; Publicize the organization memberships you want to show; Add a profile README._
-* Redes sociales: _please, provide link to your Masotodon/LinkedIn, etc., profile (optional)_
+* Social network: _please, provide link to your Masotodon/LinkedIn, etc., profile (optional)_
 * Website: _please, provide link to your website  (optional)_
 * Affiliation: _please provide your affiliations to university/institution/organization or other employer_
 * Community: _please provide affiliations to communities (like R-Ladies, MiR, RSE Groups, LatinR, ReproHack, etc. or indicate NA)_

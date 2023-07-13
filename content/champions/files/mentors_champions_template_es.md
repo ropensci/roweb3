@@ -1,13 +1,16 @@
+
+_The form template is also available in [English](/champions/files/mentors_champions_template)._
+
 ## Información general
 
-* Nombre completo
-* Correo electrónico
+* Nombre completo: _nombre(s) y apellido(s)_
+* Email: _correo electrónico que quiere que usemos para comunicarnos contigo._
 * País: _país de residencia_.
 * Zona horaria: _zona horaria de tu ciudad de residencia expresada en UTC_.
-* Pronombres: _por favor, comparte tus pronombres preferidos (opcional)_
+* Pronombres: _por favor, comparte los pronombres que quieres que usemos para referirnos a tí (opcional)_
 * Idioma: _qué idioma(s) prefieres para comunicarte durante las capacitaciones y las tutorías?_
 * GitHub o GitLab: _por favor, facilita el enlace a tu perfil_
-* Twitter: _por favor, facilita el enlace a tu perfil (opcional)_
+* Redes sociales: _por favor, facilita el enlace a tu perfil de LinkedIn/mastodos, etc. (opcional)_
 * Sitio Web: _por favor, facilita el enlace a tu sitio web  (optional)_
 * Afiliación: _por favor, indica tu afiliación a una universidad/institución/organización u otro empleador_
 * Comunidad: _por favor, indica tu participación en comunidades (como R-Ladies, MiR, Grupos RSE, LatinR, ReproHack, etc. o indica NA)_
@@ -33,9 +36,7 @@
 
   * No, no he revisado código.
   
-  * No, no he revisado código, pero pasé por el proceso de revisión de rOpenSci.
-  
-    * No, no he revisado código, pero he pasado por el proceso de revisión de rOpenSci.
+  * No, no he revisado código, pero he pasado por el proceso de revisión de rOpenSci.
   
   * Sí, he revisado código para rOpenSci (u otra organización).
   
@@ -52,6 +53,6 @@
   
   * Ser revisor de rOpenSci
 
-* ¿Por qué le gustaría ser mentor/a del programa de campeones de rOpenSci? Por favor, responda en un máximo de 200 palabras.
+* ¿Por qué le gustaría ser mentor/a del programa de campeones de rOpenSci? _Por favor, responda en un máximo de 200 palabras._
 
-* Por favor, comparta un ejemplo de cuando ayudó con éxito a otra persona. Por favor, no mencione el nombre de la(s) persona(s), sólo nos interesa saber cómo le ayudó y cuál fue el resultado.  
+* Por favor, comparta un ejemplo de cuando ayudó con éxito a otra persona. _Por favor, no mencione el nombre de la(s) persona(s), sólo nos interesa saber cómo le ayudó y cuál fue el resultado._  

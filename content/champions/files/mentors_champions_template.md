@@ -10,7 +10,7 @@ _La plantilla del formulario también está disponible en [español](/champions/
 * Pronouns: _Please share the pronouns you would like us to use when referring to you (optional)_
 * Language: _what language(s) do you prefer for your communication during the training and mentoring calls?_
 * GitHub or GitLab: _please, provide link to your profile_
-* Twitter: _link to your profile (optional)_
+* Social network: _link to your profile (optional)_
 * Website: _link to your website  (optional)_
 * Affiliation: _affiliations to university/institution/organization or other employer_
 * Community: _affiliations to communities (like R-Ladies, MiR, RSE Groups, LatinR, ReproHack, etc. or indicate NA)_
