@@ -3,11 +3,11 @@ _La plantilla del formulario también está disponible en [español](/champions/
 
 ## General information
 
-* Full Name
-* Email
+* Full Name: _Your given and family names_
+* Email: _The email address we should use to contact you_
 * Country: _country of residence_.
 * Timezone: _your residency city timezone expressed in UTC_
-* Pronouns: _what pronouns do you use? (optional)_
+* Pronouns: _Please share the pronouns you would like us to use when referring to you (optional)_
 * Language: _what language(s) do you prefer for your communication during the training and mentoring calls?_
 * GitHub or GitLab: _please, provide link to your profile_
 * Twitter: _link to your profile (optional)_
