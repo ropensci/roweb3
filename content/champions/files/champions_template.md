@@ -48,6 +48,8 @@ _Describe your project in a maximum of 200 words._
 [] I want to submit a package to rOpenSci's peer review process. 
 _Describe your project in a maximum of 200 words. Provide a link to github or gitlab repository for the package_
 
+   Upload agreement document. _If you want to work on a package, but you are not the author or co-maintainer, please add a document (an email printed as PDF) from the author/maintainer where they express their agreement with your project._ 
+
 [] I want to be part of the review process as a reviewer. 
 _Describe the topics you can review in a maximun of 200 words_
 
