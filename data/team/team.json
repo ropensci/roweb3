@@ -8,6 +8,7 @@
       "staff",
       "editor"
    ],
+   "generalreview": true,
    "twitter": "_inundata",
    "mastodon": "https://mastodon.social/@inundata",
    "linkedin": "https://www.linkedin.com/in/karthik-ram-93334954",
@@ -94,6 +95,7 @@
       "developer",
       "editor"
    ],
+   "generalreview": true,
    "mastodon": "https://mastodon.social/@maelle",
    "github": "maelle",
    "home": "/author/maëlle-salmon"
@@ -107,6 +109,7 @@
       "strategic advisor",
       "editor"
    ],
+   "generalreview": true,
    "mastodon": "https://ecoevo.social/@noamross",
    "linkedin": "https://www.linkedin.com/in/noamross",
    "github": "noamross",
@@ -180,6 +183,7 @@
    "roles": [
       "editor"
    ],
+   "generalreview": true,
    "twitter": "annakrystalli",
    "mastodon": "https://fosstodon.org/@annakrystalli",
    "github": "annakrystalli",
@@ -230,6 +234,7 @@
    "roles": [
       "editor"
    ],
+   "generalreview": true,
    "twitter": "mauro_lepore",
    "github": "maurolepore",
    "home": "https://maurolepore.github.io/"
@@ -242,6 +247,7 @@
    "roles": [
       "editor"
    ],
+   "generalreview": true,
    "mastodon": "https://fosstodon.org/@ldecicco",
    "github": "ldecicco-USGS"
 },
@@ -267,6 +273,7 @@
    "roles": [
       "editor"
    ],
+   "generalreview": true,
    "twitter": "emilyriederer",
    "github": "emilyriederer",
    "home": "https://emilyriederer.netlify.com/"
@@ -280,6 +287,7 @@
    "roles": [
       "editor"
    ],
+   "generalreview": true,
    "stats": true,
    "mastodon": "https://fosstodon.org/@adamhsparks",
    "github": "adamhsparks",
@@ -294,6 +302,7 @@
    "roles": [
       "editor"
    ],
+   "generalreview": true,
    "mastodon": "https://fosstodon.org/@jhollist",
    "github": "jhollist",
    "home": "https://jwhollister.com/"
