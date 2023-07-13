@@ -100,6 +100,13 @@ It is expected that Champions will promote participation in peer review and cont
 
 The estimated time commitment for each Champion is, on average, __16 hours per month__  (including trainings, cohort events, mentoring meetings, package development or review process, and preparing for and hosting events). The total time commitment for each Champion will vary based on the path and activities they choose to do during the program.
 
+## Templates
+
+We create a [template with the information we request in the form](/champions/files/champions_template) so that you can prepare before to fill out (there is a [spanish version](/champions/files/champions_template_es) of this template).
+
+If you want to work on a package that you are not the author or maintainer of, you need to have the endorsement of the developers.  [Here is a sample of the text that the email should contain](/champions/files/author_email_template), and here is the [spanish version](/champions/files/author_email_template_es). 
+
+
 ## Frequently Asked Questions
 
 #### I don't have my own package to work on, can I apply with another's package?
