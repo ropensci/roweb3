@@ -10,12 +10,8 @@ _La plantilla del formulario también está disponible en [español](/champions/
 * Pronouns: _Please share the pronouns you would like us to use when referring to you (optional)_
 * Language: _what language(s) do you prefer for your communication during the training and mentoring calls?_
 * GitHub or GitLab: _please, provide link to your profile. Share the full url, for example, https://github.com/ropensci_
-_We recommend that you make your profile informative._ 
-- _Fill your GitHub profile information (and to keep it up-to-date)._
-- _Pin your most important repositories. They can be repositories you contributed to._
-- _Publicize the organization memberships you want to show._
-- _Add a profile README_
-* Twitter: _please, provide link to your profile (optional)_
+_We recommend that you make your profile informative: Fill your GitHub profile information (and to keep it up-to-date); Pin your most important repositories. They can be repositories you contributed to; Publicize the organization memberships you want to show; Add a profile README._
+* Redes sociales: _please, provide link to your Masotodon/LinkedIn, etc., profile (optional)_
 * Website: _please, provide link to your website  (optional)_
 * Affiliation: _please provide your affiliations to university/institution/organization or other employer_
 * Community: _please provide affiliations to communities (like R-Ladies, MiR, RSE Groups, LatinR, ReproHack, etc. or indicate NA)_
@@ -48,7 +44,7 @@ _Describe your project in a maximum of 200 words._
 [] I want to submit a package to rOpenSci's peer review process. 
 _Describe your project in a maximum of 200 words. Provide a link to github or gitlab repository for the package_
 
-   Upload agreement document. _If you want to work on a package, but you are not the author or co-maintainer, please add a document (an email printed as PDF) from the author/maintainer where they express their agreement with your project._ 
+   * Upload agreement document. _If you want to work on a package, but you are not the author or co-maintainer, please add a document (an email printed as PDF) from the author/maintainer where they express their agreement with your project._ 
 
 [] I want to be part of the review process as a reviewer. 
 _Describe the topics you can review in a maximun of 200 words_
