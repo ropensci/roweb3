@@ -16,7 +16,7 @@ tags:
 
 **Is your analysis reproducible?**  
 Many researchers are becoming more aware of the importance of reproducibility.
-Although reproducibility involves a diverse array of topics and tools, one [rOpenSci](https://ropensci.org/) package has gained considerable attention for enabling reproducible analysis pipelines in R: [targets](https://books.ropensci.org/targets/), by Will Landau.
+Although reproducibility involves a diverse array of topics and tools, one rOpenSci package has gained considerable attention for enabling reproducible analysis pipelines in R: [targets](https://books.ropensci.org/targets/), by Will Landau.
 
 ## Why a targets workshop?
 
