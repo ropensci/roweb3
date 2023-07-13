@@ -3,15 +3,18 @@ _La plantilla del formulario también está disponible en [español](/champions/
 
 ## General information
 
-* Full Name
-* Email
-* [] Please, check if you applied to the champions program before.
-  * [] Please, check if you attended to the workshop we offer for people that wasn't selected in the last call.  
+* Full Name: _Your given and family names_
+* Email: _The email address we should use to contact you_
 * Country: _country of residence_.
 * Timezone: _your residency city timezone expressed in UTC_
-* Pronouns: _please share preferred pronouns (optional)_
+* Pronouns: _Please share the pronouns you would like us to use when referring to you (optional)_
 * Language: _what language(s) do you prefer for your communication during the training and mentoring calls?_
-* GitHub or GitLab: _please, provide link to your profile_
+* GitHub or GitLab: _please, provide link to your profile. Share the full url, for example, https://github.com/ropensci_
+_We recommend that you make your profile informative._ 
+- _Fill your GitHub profile information (and to keep it up-to-date)._
+- _Pin your most important repositories. They can be repositories you contributed to._
+- _Publicize the organization memberships you want to show._
+- _Add a profile README_
 * Twitter: _please, provide link to your profile (optional)_
 * Website: _please, provide link to your website  (optional)_
 * Affiliation: _please provide your affiliations to university/institution/organization or other employer_
@@ -26,11 +29,11 @@ _La plantilla del formulario también está disponible en [español](/champions/
   
   * No, I have not developed an R package, but I contribute to one or more.
   
-  * Yes, I have developed an R package, but I never sent to CRAN.
+  * Yes, I have developed an R package, but did not submit it to CRAN.
   
   * Yes, I have developed an R package, and it is published in CRAN.
   
-  * Yes, I have developed an R package before, and it went through rOpenSci review process.
+  * Yes, I have developed an R package before, and it went through rOpenSci's peer review.
   
 If you developed a package before please, link the github/gitlab repo:
 
@@ -42,7 +45,7 @@ _Choose one option_
 [] I want to develop a new package. 
 _Describe your project in a maximum of 200 words._
 
-[] I want to submit a package to the review process. 
+[] I want to submit a package to rOpenSci's peer review process. 
 _Describe your project in a maximum of 200 words. Provide a link to github or gitlab repository for the package_
 
 [] I want to be part of the review process as a reviewer. 
@@ -56,4 +59,5 @@ _Describe the topics you can review in a maximun of 200 words_
 
 * What are three things that you consider to be most important to do or keep in mind when participating in a community of practice like rOpenSci? _Please, explain in a maximum of 400 words._
 
-* Please indicate how your current employment status gives you the flexibility to dedicate time to fulfilling the responsibilities of the rOpenSci Champion Program. _Please respond in a maximum of 200 words._ 
+* Please indicate how your current employment status gives you the flexibility to dedicate time to fulfilling the responsibilities of the rOpenSci Champion Program. 
+_The estimated time commitment for each Champion is, on average, 16 hours per month (includes trainings, cohort events, mentoring meetings, package development or review process, and preparing for and hosting events). The total time commitment for each Champion will vary based on the path and activities they choose to do during the program. Please respond in a maximum of 200 words._ 
