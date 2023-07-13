@@ -69,6 +69,10 @@ By becoming an rOpenSci mentor you will:
 
 Mentors will participate in a training about mentoring and program logistics as part of their onboarding process and have the support of the Community Manager throughout the program.
 
+## Templates
+
+We create a [template with the information we request in the form](/champions/files/mentors_champions_template) so that you can prepare before to fill out (there is a [spanish version](/champions/files/mentors_champions_template_es) of this template).
+
 
 ## Do you have any questions? 
 
