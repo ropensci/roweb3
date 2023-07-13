@@ -23,7 +23,7 @@ That is why this program focuses on __people who belong to groups that are histo
 We are looking for people that work in STEAM fields, from anywhere in the world, who already have development knowledge and experience with the R language. 
 
 
-## What are the expectation for Champions?
+## What is expected of a Champion?
 
 We have developed a **12-month-long program including cohort-based training, project development, and personal mentorship**. 
 
@@ -32,20 +32,20 @@ Champions will participate in a 6-week long cohort-based training on a) planning
 After training, Champions will develop their project, which can be one of these options: 
 
 - create a new package, 
-- go through the review process with an R package they already have developed, 
+- go through the review process with an R package they have already developed, 
 - or be a reviewer for our peer review system.  
 
 Other Champions activities include options for delivering a talk, writing blog posts and teaching other community members. During this stage, Champions will receive personal and group mentorship through meetings with mentors, quarterly cohort calls, Community Manager support, and a dedicated channel on rOpenSci Slack workspace.
 
-We will provide a $1000 (USD) stipend to the selected community champions after they complete the program.
+We will provide a $1000 (USD) stipend to the selected community Champions after they complete the program.
 We are looking for **six to nine** Champions for this second cohort. We expect to co-create this iteration of the rOpenSci Champions Program with the selected applicants and to refine future editions with their experience and feedback.
 
-We look forward to receiving many applications and are committed to directing non-selected applicants towards other ways in which they can contribute to rOpenSci.
+We look forward to receiving many applications and are committed to directing non-selected applicants towards other ways in which they can develop skills and contribute to rOpenSci.
 
 
-## What are the expectation for Mentors?
+## What is expected of a Mentor?
 
-Mentors will play a vital role in the rOpenSci Champions Program by helping select the Champions and advising and inspiring their mentees. Mentors will also connect their mentees to people, programs, and organizations; recommend, resources, readings, training, and experiences; and provide feedback on the mentee’s project.
+Mentors will play a vital role in the rOpenSci Champions Program by helping select the Champions and advising and inspiring their mentees. Mentors will also connect their mentees to people, programs, and organizations; recommend resources, readings, training, and experiences; and provide feedback on the mentee’s project.
 
 We are seeking mentors from the rOpenSci community who have:
 
@@ -71,21 +71,21 @@ Mentors will gain mentoring experience and skills, be acknowledged on the rOpenS
 
 The application forms have to be filled in _English_.
 
-### Application timeline
+### 2023 Application timeline
 
 |Date|Event|
 |----|-----|
-|Jul 14, 2023|Call for Champions and Mentor Applications opens|
-|Jul 25, 2023| [OPTIONAL] [Community Call](/commcalls/july2023-championprogram/) - Learn from other mentors and champions and get tips for submitting your application |
-|Aug 1, 2022| [OPTIONAL] [Co-working hours](/events/coworking-2023-08/): receive help with your application to the Champions Program |
-|Sep 4, 2023|Call for applications closed|
+|Jul 14|Call for Champions and Mentor Applications opens 🎉 |
+|Jul 25| [OPTIONAL] [Community Call](/commcalls/july2023-championprogram/) - Learn from other Mentors and Champions and get tips for submitting your application |
+|Aug 17 & 23| [OPTIONAL] Coworking Champions Application Clinics in different timezones ([Aug 17](/events/coworking-2023-08-17/) and [Aug 23](/events/coworking-2023-08-23/)): receive help with your application to the Champions Program |
+|Sep 4|Call for applications closes|
 
 
 ## Do you have any questions?
 
 See the [Champions Program page](/champions/) for all details regarding applying, timelines and eligibility. 
 
-We will have a [Community Call on Tuesday, 25 July 2023 14:00 UTC](/commcalls/july2023-championprogram/) and a [Coworking space on August](/events/coworking-2023-08/) to help you with your application.
+We will have a [Community Call on Tuesday, 25 July 2023 14:00 UTC](/commcalls/july2023-championprogram/) and two Coworking sessions in August ([Aug 17](/events/coworking-2023-08-17/) and [Aug 23](/events/coworking-2023-08-23/)) to help you with your application.
 
 You can also contact our Community Manager [by email](mailto:yabellini@ropensci.org). 
 
