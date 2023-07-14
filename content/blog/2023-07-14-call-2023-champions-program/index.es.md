@@ -81,7 +81,7 @@ Se debe completar el formulario de aplicación antes del _lunes 4 de septiembre 
 |----|-----|
 |Julio 14, 2023|Se abre el llamado a postulaciones  🎉|
 |julio 25, 2023|[Opcional] [Charlas de la comunidad](/commcalls/july2023-championprogram/) - Aprende de otros campeones y mentoras. Recibe consejos para que escribas y envies tu postulación al programa|
-|Agosto 17 y 23, 2023|[Opcional] Coworking Champions Application Clinics en diferentes zonas horarias ([Agosto 17](/events/coworking-2023-08-17/) y [Agosto 23](/events/coworking-2023-08-23/): recibe ayuda con tu aplicación para el Programa |
+|Agosto 17 y 23, 2023|[Opcional] Coworking Champions Application Clinics en diferentes zonas horarias ([Agosto 17](/events/coworking-2023-08-17/) y [Agosto 23](/events/coworking-2023-08-23/)): recibe ayuda con tu aplicación para el Programa |
 |Septiembre 4, 2023|Se cierra el llamado a postulaciones|
 
 
