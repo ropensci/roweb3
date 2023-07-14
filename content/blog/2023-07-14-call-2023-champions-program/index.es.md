@@ -49,7 +49,8 @@ Proporcionaremos un estipendio de $1000 (USD) a los campeones y las campeonas qu
 Buscamos de **seis a nueve** personas para esta segunda cohorte. Esperamos co-crear esta iteración del programa con los y las solicitantes que seleccionemos y perfeccionar futuras ediciones con su experiencia y comentarios.
 
 Esperamos recibir muchas solicitudes y nos comprometemos a orientar a quienes no seleccionemos hacia otras formas en las que puedan desarrollar habilidades y contribuir a rOpenSci.
-## ¿Qué se espera de un/a Mentor/a?
+
+## ¿Qué se espera de una Mentora o un Mentor?
 Mentores y mentoras desempeñarán un papel fundamental en el programa de rOpenSci, ayudando a seleccionar a los campeones y campeonas y también asesorando e inspirando a quienes mentoreen. Los mentores y mentoras pondrán en contacto a sus campeones/as con personas, programas y organizaciones; recomendarán recursos, lecturas, formación y experiencias; y proporcionarán comentarios sobre el proyecto de su campeón o campeona.
 
 Buscamos personas de la comunidad rOpenSci que:
