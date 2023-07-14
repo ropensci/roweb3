@@ -74,7 +74,7 @@ Los mentores y mentoras adquirirán experiencia y habilidades para realizar su t
 Se debe completar el formulario de aplicación antes del _lunes 4 de septiembre de 2023_. Los formularios deben completarse en _inglés_.
 
 * [**Formulario para aplicar como campeón/a**](https://airtable.com/shrAsYlSXU0coJ5Ld) . [Esta plantilla presenta la información requerida en el formulario en español](/champions/files/champions_template_es).
-* [**Formulario para aplicar como mentor/a**](https://airtable.com/shrlrLdQbb4wphosK)
+* [**Formulario para aplicar como mentor/a**](https://airtable.com/shrlrLdQbb4wphosK). [Esta plantilla presenta la información requerida en el formulario en español](/champions/files/mentors_champions_template_es).
 
 
 ### Cronograma
