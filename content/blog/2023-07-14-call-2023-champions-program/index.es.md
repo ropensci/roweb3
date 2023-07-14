@@ -28,7 +28,8 @@ Nos esforzamos por impulsar un cambio significativo en el ecosistema de la Cienc
 Es por esto que este programa está enfocado y pensando para que participen __personas que pertenecen a grupos histórica y sistemáticamente excluidos__ de las comunidades de software abierto y de software de investigación y que están interesadas en contribuir a rOpenSci y al ecosistema más amplio de comunidades de software de código abierto y de investigación.
 
 Buscamos personas que trabajen en campos STEAM, de cualquier parte del mundo, que ya tengan conocimientos de desarrollo y experiencia con el lenguaje R.
-## ¿Qué se espera de un/a Campeón/a?
+
+## ¿Qué se espera de un Campeón o Campeona?
 
 Hemos desarrollado un **programa de doce meses que incluye, capacitación basado en cohortes, el desarrollo de un proyecto y tutorías individuales**. 
 
