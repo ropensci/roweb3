@@ -94,6 +94,8 @@ Puedes ver todos los detalles sobre la solicitud, los plazos y la admisibilidad 
 Recuerda que tendremos una [Community Call el martes 25 de julio de 2023 a las 14:00 UTC](/commcalls/july2023-championprogram/) y dos sesiones de Coworking en agosto ([17 de Agosto](/events/coworking-2023-08-17/) y [23 de Agosto](/events/coworking-2023-08-23/)) para ayudarte con tu aplicación.
 
 También puedes contactar a nuestra Community Manager [por email](mailto:yabellini@ropensci.org). 
+
+
 **Estamos deseando conocer a todas las personas apasionadas con R que hay por ahí :-D**
 
 
