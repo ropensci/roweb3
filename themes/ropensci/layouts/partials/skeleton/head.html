@@ -57,7 +57,12 @@
     <meta property="description" content="{{ $description | default $defaultDescription }}">
     <meta property="og:description" content="{{ $description | default $defaultDescription }}">
   <meta property="og:type" content="article">
-
+{{ if .Params.socialImg }}
+    <meta name="og:image" content="{{ .Params.socialImg | absURL }}" >
+    {{ with .Params.socialAlt }}
+    <meta name="og:image:alt" content="{{ . }}">
+    {{ end }}
+{{ else }}
   {{ if .Params.twitterImg }}
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="{{ .Params.twitterImg | absURL }}" >
@@ -73,6 +78,8 @@
     <meta name="twitter:image" content="{{ "android-chrome-512x512.png"  | absURL }}" >
     <meta name="og:image" content="{{ "android-chrome-512x512.png"  | absURL }}" >
   {{ end }}
+  {{ end }}
+  
 {{ if .Params.math }}
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
 {{ end }}

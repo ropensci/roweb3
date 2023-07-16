@@ -21,7 +21,7 @@ description: "A short exploration of how to save ggplot2 objects in targets work
 # - Replace "blog" with "technotes" as needed
 # - Note no "/" symbol before "blog" here
 # - Note "/" between year/month/day
-# the text below is for populating the "share on Twitter" button
+# the text below is for populating the "share on Mastodon" button
 # if deleted, the title of the post will be used
 tweet: "A post about saving efficiently {ggplot2} objects in a {targets} workflow by @LeNematode!"
 ---
