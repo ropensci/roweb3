@@ -8,7 +8,7 @@ author:
   - Mauro Lepore
   - Heather Turner
   - Paola Corrales
-date: '2023-06-16'
+date: '2023-07-21'
 tags:
   - community
   - champions program
@@ -73,7 +73,7 @@ This training was developed and taught by [Hether Turner](/author/heather-turner
 
 Mentors gain mentoring skills during this training and orientation (active listening, effective questioning, and giving feedback). They receive resources for their mentoring roles, such as the Mentors Guidelines, Meeting Templates, and details of the logistics of the champions program.
 
-This training was developed for the Champion Program, taught by [Yani Bellini Saibene](/author/yanina-bellini-saibene/), and all mentors must complete it. 
+This training was developed for the Champion Program, taught by [Yanina Bellini Saibene](/author/yanina-bellini-saibene/), and all mentors must complete it. 
 
 
 In addition mentors are invited to all the training offered to champions as an optional activity.
@@ -127,7 +127,7 @@ With this actions we intend to address some of the dificulties related to time z
 
 We developed a new curriculum involving not only rOpenSci staff but also champions and mentors and other communities, contributing to the grow of the connection of our community. 
 
-We also published all the material with open licenses, that allow other organization like the The Netherlands eScience Center adap and reuse our material for trainig mentors for their fellow program.  
+We also published all the material with open licenses, that allow other organization, like the The Netherlands eScience Center. adapt and reuse our material for trainig mentors for their fellow program.  
 
 Overall, the rOpenSci Champions Program successfully trained participants in essential skills for their role as champions and mentors while fostering engagement and collaboration in open-source research software development. 
 
