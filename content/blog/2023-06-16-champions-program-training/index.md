@@ -113,6 +113,21 @@ The comments highlight the need for more time to cover content, the desire for b
 
 {{< figure src = "feedback_toimprove.jpg" class = "pull-right" alt = "Ranked quantities of five areas of improvement in a bar plot. The aspect are Nothing (12 mentions), Level (5 mentions), More time (4 mentions), Tools (4 mentions), Exercises (3 mentions), and "Pace" (3 mentions). Each aspect have a comment explaining the specific improvement suggestion or feedback.">}}
 
-Overall, the survey data provides us with valuable insights into the participants' perspectives on the strengths and areas for enhancement in the mentioned event and allow us to take action to improve them in each iteraction.
+The survey data provides us with valuable insights into the participants' perspectives on the strengths and areas for enhancement our trainings and allow us to take action to further enhance future iterations of the training.
 
+
+## Next Step
+
+With a new cohort starting this year we plan to improve our schedulle of each training session allowing participat to choose between two options of date taking into account time zones, and recording the material to allow them to watch after the meeting. We will develop guidelines for increase the accesibility of each session and we will change the order od the workshops. 
+
+With this actions we intend to address some of the dificulties related to time zone, accesibility and participants' commitments in their jobs or studies. 
+
+
+## Achivements
+
+We developed a new curriculum involving not only rOpenSci staff but also champions and mentors and other communities, contributing to the grow of the connection of our community. 
+
+We also published all the material with open licenses, that allow other organization like the The Netherlands eScience Center adap and reuse our material for trainig mentors for their fellow program.  
+
+Overall, the rOpenSci Champions Program successfully trained participants in essential skills for their role as champions and mentors while fostering engagement and collaboration in open-source research software development. 
 
