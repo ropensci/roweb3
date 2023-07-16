@@ -67,7 +67,6 @@ The workshop shows tools and strategies to find a bug to work on and what featur
 
 This training was developed and taught by [Hether Turner](/author/heather-turner/), and is open to all champions and mentors.
 
-
 ## Trainning for the Mentors
 
 ### [rOpenSci Champions Program. Mentorship Training and Orientation](https://ropensci-training.github.io/ropensci-mentors/)
@@ -93,11 +92,27 @@ The training was developed by [Paola Corrales](https://ropensci.org/author/pao-c
 ## What do our participants think of the training received?
 
 At the end of each workshop, we asked those who participated to fill out an anonymous survey telling us three things: 
+
 * What did you like the most?
+
 * What did you like the least? 
+
 * Can you rate this meeting? (in a scale from 1-worst to 5-best). 
 
 We use this feedback to improve the next sesion of the training. The result show the average score for all the training is **4.6**. which let us know that the attendees are satisfied with the workshops. 
 
+When we analyze the responses to "What did you like the most?" in detail we found four positive aspects mentioned: _Interaction with other participants_, _Structure_ of the workshop, _Material and Resources_ shared during the workshop, and _Exercises_ performed during training. 
+
+In the following plot is the detail of the number of mention for each aspect and an example comment explaining why it was perceived positively by the participants. The comments highlight various aspects of the trainings, such as enjoyable interactions, valuable tools provided, opportunity for reflection and a good structure base on practice after instruction.
+
+{{< figure src = "feedback_positive.jpg" class = "pull-left" alt = "Ranked quantities of four different positive aspects in a bar plot. The aspect are Material and Resources (15 mentions), Interaction with other participants, (10 mentions), Exercises (8 mentions), and Structure (7 mentions). Each aspect is followed by a comment explaining why it was perceived positively by the participants.">}}
+
+Even when the answers to "What did you like the least?" show that most attendees think there is _Nothing_ they liked the least we identify five areas for improvement: _Level_ of the training, _More time_ for all the content or exercises, _Tools_ used during the workshops,  _Exercises_ during the workshop, _Pace_ of the teaching. In the plot we show the number of mention and each aspect is followed by a comment explaining the specific improvement suggestion or feedback. 
+
+The comments highlight the need for more time to cover content, the desire for better collaboration tools, the request for additional exercises, and the suggestion to offer different levels of the training, for begginers and for competent practictioners. The comments also includes expression of overall satisfaction while mentioning challanges, like time zones. 
+
+{{< figure src = "feedback_toimprove.jpg" class = "pull-right" alt = "Ranked quantities of five areas of improvement in a bar plot. The aspect are Nothing (12 mentions), Level (5 mentions), More time (4 mentions), Tools (4 mentions), Exercises (3 mentions), and "Pace" (3 mentions). Each aspect have a comment explaining the specific improvement suggestion or feedback.">}}
+
+Overall, the survey data provides us with valuable insights into the participants' perspectives on the strengths and areas for enhancement in the mentioned event and allow us to take action to improve them in each iteraction.
 
 
