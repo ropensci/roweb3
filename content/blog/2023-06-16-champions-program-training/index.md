@@ -111,7 +111,7 @@ Even when the answers to "What did you like the least?" show that most attendees
 
 The comments highlight the need for more time to cover content, the desire for better collaboration tools, the request for additional exercises, and the suggestion to offer different levels of the training, for begginers and for competent practictioners. The comments also includes expression of overall satisfaction while mentioning challanges, like time zones. 
 
-{{< figure src = "feedback_toimprove.jpg" class = "pull-right" alt = "Ranked quantities of five areas of improvement in a bar plot. The aspect are Nothing (12 mentions), Level (5 mentions), More time (4 mentions), Tools (4 mentions), Exercises (3 mentions), and "Pace" (3 mentions). Each aspect have a comment explaining the specific improvement suggestion or feedback.">}}
+{{< figure src = "feedback_toimprove.jpg" class = "pull-right" alt = "Ranked quantities of five areas of improvement in a bar plot. The aspect are Nothing (12 mentions), Level (5 mentions), More time (4 mentions), Tools (4 mentions), Exercises (3 mentions), and Pace (3 mentions). Each aspect have a comment explaining the specific improvement suggestion or feedback.">}}
 
 The survey data provides us with valuable insights into the participants' perspectives on the strengths and areas for enhancement our trainings and allow us to take action to further enhance future iterations of the training.
 
