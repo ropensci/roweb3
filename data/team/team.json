@@ -8,8 +8,10 @@
       "staff",
       "editor"
    ],
+   "generalreview": true,
    "twitter": "_inundata",
    "mastodon": "https://mastodon.social/@inundata",
+   "linkedin": "https://www.linkedin.com/in/karthik-ram-93334954",
    "github": "karthik",
    "home": "https://inundata.org/"
 },
@@ -37,8 +39,10 @@
       "developer"
    ],
    "twitter": "opencpu",
+   "mastodon": "https://fosstodon.org/@jeroenooms",
    "github": "jeroen",
-   "home": "/author/jeroen-ooms"
+   "home": "/author/jeroen-ooms",
+   "linkedin": "https://www.linkedin.com/in/datajeroen"
 },
 {
    "name": "Stefanie Butland",
@@ -61,8 +65,8 @@
    "roles": [
       "staff"
    ],
-   "twitter": "yabellini",
    "mastodon": "https://fosstodon.org/@yabellini",
+   "linkedin": "https://www.linkedin.com/in/yabellini",
    "github": "yabellini",
    "home": "/author/yanina-bellini-saibene/"
 },
@@ -91,6 +95,7 @@
       "developer",
       "editor"
    ],
+   "generalreview": true,
    "mastodon": "https://mastodon.social/@maelle",
    "github": "maelle",
    "home": "/author/maëlle-salmon"
@@ -104,7 +109,9 @@
       "strategic advisor",
       "editor"
    ],
+   "generalreview": true,
    "mastodon": "https://ecoevo.social/@noamross",
+   "linkedin": "https://www.linkedin.com/in/noamross",
    "github": "noamross",
    "home": "/author/noam-ross"
 },
@@ -119,6 +126,7 @@
    ],
    "twitter": "steffilazerte",
    "mastodon": "https://fosstodon.org/@steffilazerte",
+   "linkedin": "https://www.linkedin.com/in/steffi-lazerte",
    "github": "steffilazerte",
    "home": "/author/steffi-lazerte"
 },
@@ -175,6 +183,7 @@
    "roles": [
       "editor"
    ],
+   "generalreview": true,
    "twitter": "annakrystalli",
    "mastodon": "https://fosstodon.org/@annakrystalli",
    "github": "annakrystalli",
@@ -225,6 +234,7 @@
    "roles": [
       "editor"
    ],
+   "generalreview": true,
    "twitter": "mauro_lepore",
    "github": "maurolepore",
    "home": "https://maurolepore.github.io/"
@@ -237,6 +247,7 @@
    "roles": [
       "editor"
    ],
+   "generalreview": true,
    "mastodon": "https://fosstodon.org/@ldecicco",
    "github": "ldecicco-USGS"
 },
@@ -262,6 +273,7 @@
    "roles": [
       "editor"
    ],
+   "generalreview": true,
    "twitter": "emilyriederer",
    "github": "emilyriederer",
    "home": "https://emilyriederer.netlify.com/"
@@ -275,6 +287,8 @@
    "roles": [
       "editor"
    ],
+   "generalreview": true,
+   "stats": true,
    "mastodon": "https://fosstodon.org/@adamhsparks",
    "github": "adamhsparks",
    "home": "https://adamhsparks.com/"
@@ -288,6 +302,7 @@
    "roles": [
       "editor"
    ],
+   "generalreview": true,
    "mastodon": "https://fosstodon.org/@jhollist",
    "github": "jhollist",
    "home": "https://jwhollister.com/"
@@ -297,11 +312,12 @@
    "url": "https://ms.mcmaster.ca/~bolker/",
    "image": "/img/team/ben-bolker.jpg",
    "affiliation": "McMaster University",
-   "roles": [
+   "past_roles": [
       "stat peer-review advisor",
       "editor"
    ],
    "stats": true,
+   "alumnus": true,
    "twitter": "bolkerb",
    "home": "https://ms.mcmaster.ca/~bolker/"
 },
@@ -322,11 +338,12 @@
    "url": "https://www.stephaniehicks.com/",
    "image": "/img/team/stephanie-hicks.jpg",
    "affiliation" : "Johns Hopkins University",
-   "roles": [
+   "past_roles": [
       "stat peer-review advisor",
       "editor"
    ],
    "stats": true,
+   "alumnus": true,
    "twitter": "stephaniehicks",
    "home": "https://www.stephaniehicks.com/"
 },
@@ -348,16 +365,17 @@
    "affiliation": "Lieber Institute for Brain Development",
    "url": "https://lcolladotor.github.io",
    "image": "/img/team/leo-torres.png",
-   "roles": [
+   "past_roles": [
       "stat peer-review advisor",
       "editor"
    ],
    "stats": true,
+   "alumnus": true,
    "twitter": "lcolladotor",
    "home": "https://lcolladotor.github.io"
 },
 {
-    "name": "Toby Hocking",
+   "name": "Toby Hocking",
    "affiliation": "Northern Arizona University",
    "url": "http://tdhock.github.io/",
    "image": "/img/team/toby-hocking.jpg",
@@ -376,10 +394,10 @@
    "past_roles": [
       "stat peer-review advisor"
    ],
-   "twitter": "topepos",
    "stats": true,
-   "home": "https://appliedpredictivemodeling.com/",
-   "alumnus": true
+   "alumnus": true,
+   "twitter": "topepos",
+   "home": "https://appliedpredictivemodeling.com/"
 },
 {
    "name": "Martin Morgan",
@@ -389,9 +407,33 @@
    "past_roles": [
       "stat peer-review advisor"
    ],
-   "twitter": "mt_morgan",
-   "home": "https://www.roswellpark.org/martin-morgan",
+   "stats": true,
    "alumnus": true,
+   "twitter": "mt_morgan",
+   "home": "https://www.roswellpark.org/martin-morgan"
+},
+{
+   "name": "Emi Tanaka",
+   "affiliation": "Biological Data Science Institute, Australian National University",
+   "url": "https://emitanaka.org/",
+   "image": "/img/team/emi-tanaka.jpg",
+   "roles": [
+      "editor"
+   ],
+   "twitter": "statsgen",
+   "home": "https://emitanaka.org/",
+   "stats": true
+},
+{
+   "name": "Jouni Helske",
+   "affiliation": "University of Jyväskylä, Finland",
+   "url": "https://jounihelske.netlify.app/",
+   "image": "/img/team/jouni-helske.jpg",
+   "roles": [
+      "editor"
+   ],
+   "twitter": "jouni_helske",
+   "home": "https://jounihelske.netlify.app/",
    "stats": true
 },
 {

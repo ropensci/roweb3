@@ -22,4 +22,16 @@
    "mastodon": "https://fosstodon.org/@paocorrales",
    "github": "paocorrales",
    "home": "https://paocorrales.github.io/"
+},
+{
+   "name": "Pedro Faria",
+   "affiliation": "Portuguese",
+   "url": "https://pedro-faria.netlify.app/",
+   "image" : "/img/community/pedro-faria.jpg",
+   "roles": [
+      "translator"
+   ],
+   "mastodon": "https://fosstodon.org/@pedropark99",
+   "github": "pedropark99",
+   "home": "https://pedro-faria.netlify.app/"
 }]

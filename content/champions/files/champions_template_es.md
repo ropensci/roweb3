@@ -3,13 +3,15 @@ _The form template is also available in [English](/champions/files/champions_tem
 
 ## Información General
 
-* Nombre completo
-* Email
+* Nombre completo: _nombre(s) y apellido(s)_
+* Email: _correo electrónico que quiere que usemos para comunicarnos contigo._
 * País: _país de residencia_.
-* Pronombres: _por favor, comparte tus pronombres preferidos (opcional)_
+* Zona horaria: _zona horaria de tu ciudad de residencia expresada en UTC_.
+* Pronombres: _por favor, comparte los pronombres que quieres que usemos para referirnos a tí (opcional)_
 * Idioma: _qué idioma(s) prefieres para comunicarte durante las capacitaciones y las tutorías?_
-* GitHub o GitLab: _por favor, facilita el enlace a tu perfil_
-* Twitter: _por favor, facilita el enlace a tu perfil (opcional)_
+* GitHub o GitLab: _Por favor, proporciona el enlace a tu perfil. Comparte la url completa, por ejemplo, https://github.com/ropensci_
+_Recomendamos que tu perfil sea informativo: completa la información de tu perfil de GitHub (y mantenla actualizada); Anota tus repositorios más importantes. Pueden ser repositorios a los que hayas contribuido; Publica las afiliaciones a organizaciones que quieras mostrar; Añade un README del perfil._
+* Redes sociales: _por favor, facilita el enlace a tu perfil de LinkedIn/mastodos, etc. (opcional)_
 * Sitio Web: _por favor, facilita el enlace a tu sitio web  (optional)_
 * Afiliación: _por favor, indica tu afiliación a una universidad/institución/organización u otro empleador_
 * Comunidad: _por favor, indica tu participación en comunidades (como R-Ladies, MiR, Grupos RSE, LatinR, ReproHack, etc. o indica NA)_
@@ -42,12 +44,14 @@ _Describe tu proyecto en un máximo de 200 palabras._
 [] Quiero enviar un paquete al proceso de revisión. 
 _Describe tu proyecto en un máximo de 200 palabras. Incluye el enlace al repositorio de github/gitlab del paquete._
 
+  *    Subir documento de acuerdo. _Si quieres trabajar en un paquete, pero no eres la persona que lo creó o lo mantiene, por favor añade un documento (un email impreso como PDF) del/la autor(a)/mantenedor(a) donde exprese(n) su acuerdo con tu proyecto._ 
+
 [] Quiero participar en el proceso de revisión como revisor/a. 
 _Describe los temas sobre los que puedes revisar en un máximo de 200 palabras_
 
 ## Motivación
 
-* ¿Por qué te gustaría formar parte del Programa de Ccampeonas/es de rOpenSci? _Por favor, responde en un máximo de 200 palabras._
+* ¿Por qué te gustaría formar parte del Programa de Campeonas/es de rOpenSci? _Por favor, responde en un máximo de 200 palabras._
 
 * ¿Cómo esperas que tu rol de campeón/a de rOpenSci apoye a tu comunidad u organización/institución o empleador? _Por favor, responde en un máximo de 200 palabras._
 

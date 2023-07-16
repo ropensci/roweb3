@@ -17,8 +17,8 @@ tags:
 package_version: 0.4.0
 description: "This post summarizes how to use the excluder package to exclude survey data."
 tweet: "Exclude problematic survey data with the excluder R package by @JeffStevensADML!"
-twitterImg: blog/2022/08/09/working-with-qualtrics-data-excluding/excluder_hex.png
-twitterAlt: "Hex sticker for excluder package, which has lines representing rows and red Xes representing excluded rows."
+socialImg: blog/2022/08/09/working-with-qualtrics-data-excluding/excluder_hex.png
+socialAlt: "Hex sticker for excluder package, which has lines representing rows and red Xes representing excluded rows."
 ---
 
 In the [last post](/blog/2022/08/02/working-with-qualtrics-data-importing/), we used the [qualtRics](https://docs.ropensci.org/qualtRics/)[^1] package to import survey data directly from [Qualtrics](https://www.qualtrics.com/) accounts.
