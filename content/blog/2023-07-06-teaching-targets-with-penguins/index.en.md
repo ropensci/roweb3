@@ -27,7 +27,7 @@ One of the authors (Joel) had been using targets since the time of its predecess
 The idea for a full, one-day workshop came out of a fortuitous set of events.
 Joel was planning to visit Oslo, Norway, for one week to teach a completely separate [workshop on Spatial Phylogenetics](https://www.forbio.uio.no/events/courses/2023/Workshop%20in%20Spatial%20Phylogenetics).
 He reached out to his colleague Mo, another active member of rOpenSci, to ask about getting together for a coffee, whereupon Mo asked if Joel would be up for teaching another workshop during his visit.
-Mo had seen Joel on an rOpenSci [community call about targets](https://ropensci.org/commcalls/jan2023-targets/) just a couple of weeks prior, and really wanted to take advantage of his experience to really start digging into it.
+Mo had seen Joel on an rOpenSci [community call about targets](/commcalls/jan2023-targets/) just a couple of weeks prior, and really wanted to take advantage of his experience to start digging into targets.
 Joel, on his side, realized this was just the motivation he needed to fully flesh out the workshop materials, so he happily agreed.
 
 In this post, we will describe the process of designing the curriculum, share highlights from the first (and so far, only) workshop, and end with a look toward the future.
