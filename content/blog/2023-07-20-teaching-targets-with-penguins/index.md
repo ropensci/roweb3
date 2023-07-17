@@ -3,7 +3,7 @@ title: Teaching Targets with Penguins
 author:
   - Athanasia Mo Mowinckel
   - Joel Nitta
-date: '2023-07-06'
+date: '2023-07-20'
 slug: teaching-targets-with-penguins
 categories:
   - blog
@@ -12,6 +12,8 @@ tags:
   - teaching
   - meetings
   - community
+description: |
+    An inspiring collaboration for reproducibility! rOpenSci members Joel and Mo's fortuitous encounter led to an exciting targets workshop in Oslo. 
 ---
 
 **Is your analysis reproducible?**  
