@@ -54,7 +54,7 @@ This training was developed for the Champion Program and taught by [Maëlle Salm
 
 ### [How rOpenSci Performs Peer Review](https://github.com/maurolepore/ropensci-review)
 
-This one-hour workshop is for people wanting to try the rOpenSci review process. We review the way we communicate, build, and review software with selected examples and resources with some time for Questions and comments. This training is for champions who will send a package to review or become reviewers.
+This one-hour workshop is for people wanting to try the rOpenSci review process, particularly for champions who will send a package to review or become reviewers. We review the way we communicate, build, and review software with selected examples and resources with some time for questions and comments.
 
 This training was developed for the Champion Program and taught by [Mauro Lepore](/author/mauro-lepore/). 
 
@@ -99,7 +99,7 @@ At the end of each workshop, we asked those who participated to fill out an anon
 
 * Can you rate this meeting? (in a scale from 1-worst to 5-best). 
 
-We use this feedback to improve the next sesion of the training. The result show the average score for all the training is **4.6**. which let us know that the attendees are satisfied with the workshops. 
+We use this feedback to improve the next session of the training. The results show the average score for all the training is **4.6**. which let us know that the attendees are satisfied with the workshops. 
 
 When we analyze the responses to "What did you like the most?" in detail we found four positive aspects mentioned: _Interaction with other participants_, _Structure_ of the workshop, _Material and Resources_ shared during the workshop, and _Exercises_ performed during training. 
 
@@ -127,7 +127,7 @@ With this actions we intend to address some of the dificulties related to time z
 
 We developed a new curriculum involving not only rOpenSci staff but also champions and mentors and other communities, contributing to the grow of the connection of our community. 
 
-We also published all the material with open licenses, that allow other organization, like the The Netherlands eScience Center. adapt and reuse our material for trainig mentors for their fellow program.  
+We also published all the material with open licenses, that allow other organization, like the The Netherlands eScience Center adapt and reuse our material for trainig mentors for their fellow program.  
 
 Overall, the rOpenSci Champions Program successfully trained participants in essential skills for their role as champions and mentors while fostering engagement and collaboration in open-source research software development. 
 
