@@ -80,11 +80,11 @@ In addition mentors are invited to all the training offered to champions as an o
 
 ## Training for non-selected applicants
 
-We also conduct workshops for those not selected to be champions. The aim of this workshops is to provide an opportunity for all applicants to develop skills in open-source software development for supporting career opportunities as well as future applications to this or other similar programs.
+We also conduct workshops for those not selected to be champions. The aim of these workshops is to provide an opportunity for all applicants to develop skills in open-source software development for supporting career opportunities as well as future applications to this or other similar programs.
 
 ### [Developing Software Together](https://paocorrales.github.io/git-developing-software-together/)  
 
-It is a three-hour course on using Git and GitHub to collaboratively develop open-source software with the R language. The workshop presents how to work with Git, using the command line, RStudio, and GitHub. Introduce the concept of version control systems, local and remote repositories, and actions like stage, commit, push, pull, and merge.  Also, show how to collaborate with others through forks and pull requests. The workshop has hands-on and group exercises.
+It is a three-hour course on using Git and GitHub to collaboratively develop open-source software with the R language. The workshop presents how to work with Git, using the command line, RStudio, and GitHub. It introduces the concept of version control systems, local and remote repositories, and actions like stage, commit, push, pull, and merge.  Also, show how to collaborate with others through forks and pull requests. The workshop has hands-on and group exercises.
 
 The training was developed by [Paola Corrales](https://ropensci.org/author/pao-corrales/) and taught by Paola and Yanina Bellini Saibene. 
 
@@ -103,13 +103,13 @@ We use this feedback to improve the next session of the training. The results sh
 
 When we analyze the responses to "What did you like the most?" in detail we found four positive aspects mentioned: _Interaction with other participants_, _Structure_ of the workshop, _Material and Resources_ shared during the workshop, and _Exercises_ performed during training. 
 
-In the following plot is the detail of the number of mention for each aspect and an example comment explaining why it was perceived positively by the participants. The comments highlight various aspects of the trainings, such as enjoyable interactions, valuable tools provided, opportunity for reflection and a good structure base on practice after instruction.
+In the following plot is the detail of the number of mentions for each aspect and an example comment explaining why it was perceived positively by the participants. The comments highlight various aspects of the training, such as enjoyable interactions, valuable tools provided, opportunities for reflection and a good structure base on practice after instruction.
 
 {{< figure src = "feedback_positive.jpg" class = "pull-left" alt = "Ranked quantities of four different positive aspects in a bar plot. The aspect are Material and Resources (15 mentions), Interaction with other participants, (10 mentions), Exercises (8 mentions), and Structure (7 mentions). Each aspect is followed by a comment explaining why it was perceived positively by the participants.">}}
 
-Even when the answers to "What did you like the least?" show that most attendees think there is _Nothing_ they liked the least we identify five areas for improvement: _Level_ of the training, _More time_ for all the content or exercises, _Tools_ used during the workshops,  _Exercises_ during the workshop, _Pace_ of the teaching. In the plot we show the number of mention and each aspect is followed by a comment explaining the specific improvement suggestion or feedback. 
+Even when the answers to "What did you like the least?" show that most attendees think there is _Nothing_ they liked the least we identify five areas for improvement: _Level_ of the training, _More time_ for all the content or exercises, _Tools_ used during the workshops,  _Exercises_ during the workshop, _Pace_ of the teaching. In the plot we show the number of mentions and each aspect is followed by a comment explaining the specific improvement suggestion or feedback. 
 
-The comments highlight the need for more time to cover content, the desire for better collaboration tools, the request for additional exercises, and the suggestion to offer different levels of the training, for begginers and for competent practictioners. The comments also includes expression of overall satisfaction while mentioning challanges, like time zones. 
+The comments highlight the need for more time to cover content, the desire for better collaboration tools, the request for additional exercises, and the suggestion to offer different levels of training, for beginners and for competent practitioners. The comments also include expressions of overall satisfaction while mentioning challenges, like time zones. 
 
 {{< figure src = "feedback_toimprove.jpg" class = "pull-right" alt = "Ranked quantities of five areas of improvement in a bar plot. The aspect are Nothing (12 mentions), Level (5 mentions), More time (4 mentions), Tools (4 mentions), Exercises (3 mentions), and Pace (3 mentions). Each aspect have a comment explaining the specific improvement suggestion or feedback.">}}
 
@@ -118,7 +118,7 @@ The survey data provides us with valuable insights into the participants' perspe
 
 ## Next Step
 
-With a new cohort starting this year we plan to improve our schedulle of each training session allowing participat to choose between two options of date taking into account time zones, and recording the material to allow them to watch after the meeting. We will develop guidelines for increase the accesibility of each session and we will change the order od the workshops. 
+With a new cohort starting this year we plan to improve our schedule of each training session allowing participants to choose between two options of date taking into account time zones, and recording the material to allow them to watch after the meeting. We will develop guidelines to increase the accessibility of each session and change the order of the workshops. 
 
 With this actions we intend to address some of the dificulties related to time zone, accesibility and participants' commitments in their jobs or studies. 
 
