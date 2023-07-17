@@ -74,7 +74,7 @@ In short, organising the workshop was made very smooth by the expert and friendl
 
 ### Participants
 
-We had 19 participants sign up, and a little over half came (about normal no-show rate for DSC workshops). The participants covered a wide range of disciplines, from psychology to biology and humanities, and in every academic stage.  This varied group was perfect to test the workshop on!
+We had 19 participants sign up, and more than half of those who signed up came (about normal no-show rate for DSC workshops). The participants covered a wide range of disciplines, from psychology to biology to humanities, and in every academic stage.  This diverse group was perfect to test the workshop on!
 
 ### Feedback
 
