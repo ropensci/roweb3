@@ -30,7 +30,7 @@ He reached out to his colleague Mo, another active member of rOpenSci, to ask ab
 Mo had seen Joel on an rOpenSci [community call about targets](https://ropensci.org/commcalls/jan2023-targets/) just a couple of weeks prior, and really wanted to take advantage of his experience to really start digging into it.
 Joel, on his side, realized this was just the motivation he needed to fully flesh out the workshop materials, so he happily agreed.
 
-In this blog, we will describe the process of designing the curriculum, share highlights from the first (and so far, only) workshop, and end with a look toward the future.
+In this post, we will describe the process of designing the curriculum, share highlights from the first (and so far, only) workshop, and end with a look toward the future.
 
 ## Curriculum design
 
