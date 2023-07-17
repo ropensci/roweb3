@@ -69,7 +69,7 @@ This made a really nice dynamic between the two of us, and made the total experi
 
 The workshop was hosted by the [Digital Scholarship Center](https://www.ub.uio.no/english/libraries/dsc/) (DSC) at the University of Oslo, which also hosts the local [Carpentries community (Carpentry@UiO)](https://www.ub.uio.no/english/libraries/dsc/carpentry-uio/).
 The DSC took care of the important administrative tasks when hosting a workshop; setting up a website to announce the workshop, a sign-up solution (with waiting list), booking an accessible and suitable room, etc.
-They additionally provided sticky-notes and extension cords for the room on the day.
+Additionally, they provided sticky-notes and extension cords for the room on the day.
 In short, organising the workshop was made very smooth by the expert and friendly staff of the DSC.
 
 ### Participants
