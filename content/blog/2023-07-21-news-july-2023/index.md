@@ -32,7 +32,15 @@ We have now indexed all CRAN packages on r-universe.dev. You can use the r-unive
 You can now use cran.dev shortlinks: `https://cran.dev/{package}`, `https://docs.cran.dev/{package}` to fly directly to the r-universe dev page or html manual for any CRAN package!
 
 Example: <https://cran.dev/xml2> and <https://docs.cran.dev/xml2>.
+### Open Call for rOpenSci Champions Program Applications! 
 
+We are pleased to open the call for the second cohort of Champions and Mentors for the rOpenSci Champions Program 🎉 ! 
+
+This 12-month-long program will continue to support our goal of identifying, recognizing, and rewarding passionate community members who help the community grow and improve.  The activities include cohort-based training, project development, and personal mentorship.
+
+You can apply, for being a _champion_ or a _mentor_, until **September 4th**.
+
+More information on eligibility, timeline, curriculum, application process, etc. is [on the program webpage](https://ropensci.org/blog/2023/07/14/call-champions-program/). 
 ### Community call: Mentoring & training program for Scientific Open Source Champions
 
 Tuesday, 25 July 2023 14:00 UTC. [More info](/commcalls/july2023-championprogram/).
