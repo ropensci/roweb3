@@ -36,9 +36,9 @@ speakers:
   - name: 
     bio:         
     img: /img/team/victor-ordu-mentee.jpg  
-  - name: 
-    bio:  
-    img: /img/team/carolina-pradier-mentee.jpg  
+  - name: Maëlle Salmon
+    bio: "Maëlle Salmon is a R(esearch) Software Engineer, part-time with rOpenSci where she, among other things, created and maintains the babeldown and babelquarto R packages, and maintains the guide [rOpenSci Packages: Development, Maintenance, and Peer Review](https://devguide.ropensci.org/). She also created the [R-hub blog](https://blog.r-hub.io) and co-wrote the book [HTTP testing in R](https://books.ropensci.org/http-testing) with [Scott Chamberlain](/author/scott-chamberlain). She lives in Nancy, France. She's an enthusiastic polyglot (of Latin and Germanic languages). Maëlle on [GitHub](https://github.com/maelle), [Mastodon](https://mastodon.social/@maelle), [Website](https://masalmon.eu/), [rOpenSci](/author/maëlle-salmon/)."
+    img: /img/team/maelle_salmon.jpg
 tags:
   - community call
   - events
