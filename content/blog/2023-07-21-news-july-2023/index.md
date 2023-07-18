@@ -33,18 +33,6 @@ You can apply, for being a _champion_ or a _mentor_, until **September 4th**.
 
 More information on eligibility, timeline, curriculum, application process, etc. is [on the program webpage](/blog/2023/07/14/call-champions-program/). 
 
-### CRAN packages on R-universe
-
-#### All CRAN packages indexed on R-universe!
-
-We have now indexed all CRAN packages on r-universe.dev. You can use the r-universe [powersearch](/blog/2023/02/27/runiverse-discovering/#level-1-searching-the-entire-r-ecosystem) to find any CRAN package with a particular topic, author, datasets etc.
-
-#### R-universe cran.dev shortlinks
-
-You can now use cran.dev shortlinks: `https://cran.dev/{package}`, `https://docs.cran.dev/{package}` to fly directly to the r-universe dev page or html manual for any CRAN package!
-
-Example: <https://cran.dev/xml2> and <https://docs.cran.dev/xml2>.
-
 ### Community call: Mentoring & training program for Scientific Open Source Champions
 
 Tuesday, 25 July 2023 14:00 UTC. [More info](/commcalls/july2023-championprogram/).
@@ -56,6 +44,19 @@ We will highlight the benefits of being part of the program for you and for your
 activities and opportunities an open source community champions program provides. 
 _Yani_ will present the details of our Champion Program and answer all your question about it.
 
+
+
+### CRAN packages on R-universe
+
+#### All CRAN packages indexed on R-universe!
+
+We have now indexed all CRAN packages on r-universe.dev. You can use the r-universe [powersearch](/blog/2023/02/27/runiverse-discovering/#level-1-searching-the-entire-r-ecosystem) to find any CRAN package with a particular topic, author, datasets etc.
+
+#### R-universe cran.dev shortlinks
+
+You can now use cran.dev shortlinks: `https://cran.dev/{package}`, `https://docs.cran.dev/{package}` to fly directly to the r-universe dev page or html manual for any CRAN package!
+
+Example: <https://cran.dev/xml2> and <https://docs.cran.dev/xml2>.
 
 ### Coworking
 
@@ -155,13 +156,16 @@ Explore [other use cases](/usecases) and [report your own](https://discuss.ropen
 
 ## Call for maintainers
 
-<!--IF CALL
-* [our guidance on _Changing package maintainers_](https://devguide.ropensci.org/changing-maintainers.html)
-* [our _Package Curation Policy_](https://devguide.ropensci.org/curationpolicy.html)
+If you're interested in maintaining any of the R packages below, you might enjoy reading our blog post [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/) (or listening to its discussion on the [R Weekly highlights podcast](https://rweekly.fireside.fm/111) hosted by Eric Nantz and Mike Thomas)!
 
-IF NO CALL
-There are no open calls for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
-As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. -->
+- **[rvertnet](https://cran.r-project.org/web/packages/rvertnet/index.html)**, Retrieve, map and summarize data from the VertNet.org archives (<https://vertnet.org/>). Functions allow searching by many parameters, including taxonomic names, places, and dates. In addition, there is an interface for conducting spatially delimited searches, and another for requesting large datasets via email. [Issue for volunteering](https://github.com/ropensci-archive/rvertnet/issues/71).
+
+- **[natserv](https://cran.r-project.org/web/packages/natserv/index.html)**. Interface to NatureServe (<https://www.natureserve.org/>). Includes methods to get data, image metadata, search taxonomic names, and make maps. [Issue for volunteering](https://github.com/ropensci-archive/natserv/issues/29).
+
+### Call for comaintainers
+
+Refer to our somewhat [recent blog post](/blog/2022/10/17/maintain-or-co-maintain-an-ropensci-package/#packages-looking-for-co-maintainers) to identify other packages where help is especially wished for!
+See also our [help wanted page](/help-wanted/) -- before opening a PR, we recommend asking in the issue whether help is still needed.
 
 ## Package development corner
 
