@@ -5,7 +5,7 @@ date: '2023-07-21'
 tags:
   - newsletter
 slug: news-july-2023
-description: CRAN packages indexed on R-universe, community call, coworking
+description: Open Call for Champions program, CRAN packages indexed on R-universe, community call, coworking
 params:
   last_newsletter: "2023-06-22"
 ---
@@ -21,6 +21,18 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
+### Open Call for rOpenSci Champions Program Applications! 
+
+We are pleased to [open the call](/blog/2023/07/14/call-champions-program/) for the second cohort of Champions and Mentors for the rOpenSci Champions Program 🎉 ! 
+
+This 12-month-long program will continue to support our goal of identifying, recognizing, and rewarding passionate community members who help the community grow and improve.  The activities include cohort-based training, project development, and personal mentorship.
+
+This program focuses on people who belong to groups that are historically and systematically excluded from the open software and research software communities and who are interested in contributing to rOpenSci and the broader open source and research software communities.
+
+You can apply, for being a _champion_ or a _mentor_, until **September 4th**.
+
+More information on eligibility, timeline, curriculum, application process, etc. is [on the program webpage](/blog/2023/07/14/call-champions-program/). 
+
 ### CRAN packages on R-universe
 
 #### All CRAN packages indexed on R-universe!
@@ -32,15 +44,7 @@ We have now indexed all CRAN packages on r-universe.dev. You can use the r-unive
 You can now use cran.dev shortlinks: `https://cran.dev/{package}`, `https://docs.cran.dev/{package}` to fly directly to the r-universe dev page or html manual for any CRAN package!
 
 Example: <https://cran.dev/xml2> and <https://docs.cran.dev/xml2>.
-### Open Call for rOpenSci Champions Program Applications! 
 
-We are pleased to open the call for the second cohort of Champions and Mentors for the rOpenSci Champions Program 🎉 ! 
-
-This 12-month-long program will continue to support our goal of identifying, recognizing, and rewarding passionate community members who help the community grow and improve.  The activities include cohort-based training, project development, and personal mentorship.
-
-You can apply, for being a _champion_ or a _mentor_, until **September 4th**.
-
-More information on eligibility, timeline, curriculum, application process, etc. is [on the program webpage](https://ropensci.org/blog/2023/07/14/call-champions-program/). 
 ### Community call: Mentoring & training program for Scientific Open Source Champions
 
 Tuesday, 25 July 2023 14:00 UTC. [More info](/commcalls/july2023-championprogram/).
@@ -88,7 +92,7 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following five packages have had an update since the last newsletter: [datefixR](https://docs.ropensci.org/datefixR "Standardize Dates in Different Formats or with Missing Data") ([`v1.5.0`](https://github.com/ropensci/datefixR/releases/tag/v1.5.0)), [phylotaR](https://docs.ropensci.org/phylotaR "Automated Phylogenetic Sequence Cluster Identification from
+The following six packages have had an update since the last newsletter: [datefixR](https://docs.ropensci.org/datefixR "Standardize Dates in Different Formats or with Missing Data") ([`v1.5.0`](https://github.com/ropensci/datefixR/releases/tag/v1.5.0)), [ijtiff](https://docs.ropensci.org/ijtiff "Comprehensive TIFF I/O with Full Support for ImageJ TIFF Files") ([`v2.3.2`](https://github.com/ropensci/ijtiff/releases/tag/v2.3.2)), [phylotaR](https://docs.ropensci.org/phylotaR "Automated Phylogenetic Sequence Cluster Identification from
     GenBank") ([`v1.3.0`](https://github.com/ropensci/phylotaR/releases/tag/v1.3.0)), [rsnps](https://docs.ropensci.org/rsnps "Get SNP (Single-Nucleotide Polymorphism) Data on the Web") ([`v0.6.0`](https://github.com/ropensci/rsnps/releases/tag/v0.6.0)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.2.0`](https://github.com/ropensci/targets/releases/tag/1.2.0)), and [waywiser](https://docs.ropensci.org/waywiser "Ergonomic Methods for Assessing Spatial Models") ([`v0.4.1`](https://github.com/ropensci/waywiser/releases/tag/v0.4.1)).
 
 ## Software Peer Review

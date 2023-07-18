@@ -5,7 +5,7 @@ date: '2023-07-21'
 tags:
   - newsletter
 slug: news-july-2023
-description: CRAN packages indexed on R-universe, community call, coworking
+description: Open Call for Champions program, CRAN packages indexed on R-universe, community call, coworking
 params:
   last_newsletter: "2023-06-22"
 ---
@@ -39,6 +39,18 @@ You can read this post [on our blog](`r url`).
 Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
+
+### Open Call for rOpenSci Champions Program Applications! 
+
+We are pleased to [open the call](/blog/2023/07/14/call-champions-program/) for the second cohort of Champions and Mentors for the rOpenSci Champions Program 🎉 ! 
+
+This 12-month-long program will continue to support our goal of identifying, recognizing, and rewarding passionate community members who help the community grow and improve.  The activities include cohort-based training, project development, and personal mentorship.
+
+This program focuses on people who belong to groups that are historically and systematically excluded from the open software and research software communities and who are interested in contributing to rOpenSci and the broader open source and research software communities.
+
+You can apply, for being a _champion_ or a _mentor_, until **September 4th**.
+
+More information on eligibility, timeline, curriculum, application process, etc. is [on the program webpage](/blog/2023/07/14/call-champions-program/). 
 
 ### CRAN packages on R-universe
 
