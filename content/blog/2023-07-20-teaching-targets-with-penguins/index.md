@@ -1,5 +1,5 @@
 ---
-title: Teaching Targets with Penguins
+title: Teaching targets with Penguins
 author:
   - Athanasia Mo Mowinckel
   - Joel Nitta
