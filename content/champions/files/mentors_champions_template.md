@@ -1,12 +1,16 @@
+
+_La plantilla del formulario también está disponible en [español](/champions/files/mentors_champions_template_es)._
+
 ## General information
 
-* Full Name
-* Email
+* Full Name: _Your given and family names_
+* Email: _The email address we should use to contact you_
 * Country: _country of residence_.
-* Pronouns: _what pronouns do you use? (optional)_
+* Timezone: _your residency city timezone expressed in UTC_
+* Pronouns: _Please share the pronouns you would like us to use when referring to you (optional)_
 * Language: _what language(s) do you prefer for your communication during the training and mentoring calls?_
 * GitHub or GitLab: _please, provide link to your profile_
-* Twitter: _link to your profile (optional)_
+* Social network: _link to your profile (optional)_
 * Website: _link to your website  (optional)_
 * Affiliation: _affiliations to university/institution/organization or other employer_
 * Community: _affiliations to communities (like R-Ladies, MiR, RSE Groups, LatinR, ReproHack, etc. or indicate NA)_
