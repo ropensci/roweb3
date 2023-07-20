@@ -2,7 +2,7 @@
 title: "rOpenSci Champions Program Teams: Meet Carolina Pradier and Athanasia Monika Mowinckel"
 author:
   - Carolina Pradier
-  - Athanasia Monika Mowinckel
+  - Athanasia Mo Mowinckel
 date: '2023-05-05'
 tags:
   - community
