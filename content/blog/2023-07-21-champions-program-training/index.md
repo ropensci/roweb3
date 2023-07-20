@@ -118,16 +118,16 @@ The survey data provides us with valuable insights into the participants' perspe
 
 ## Next Step
 
-With a new cohort starting this year we plan to improve our schedule of each training session allowing participants to choose between two options of date taking into account time zones, and recording the material to allow them to watch after the meeting. We will develop guidelines to increase the accessibility of each session and change the order of the workshops. 
+With a new cohort starting this year we plan to improve the schedule for each training session, allowing participants to choose between two runs of the session that cover different time zones, and recording the sessions for participants to watch after the meeting. We will develop guidelines to increase the accessibility of each session and change the order of the workshops. 
 
-With this actions we intend to address some of the dificulties related to time zone, accesibility and participants' commitments in their jobs or studies. 
+With these actions we intend to address some of the difficulties related to time zones, accessibility and participants' other commitments. 
 
 
 ## Achivements
 
-We developed a new curriculum involving not only rOpenSci staff but also champions and mentors and other communities, contributing to the grow of the connection of our community. 
+We developed a new curriculum involving not only rOpenSci staff but also champions and mentors from other communities, growing and strengthening the connections of our community. 
 
-We also published all the material with open licenses, that allow other organization, like the The Netherlands eScience Center adapt and reuse our material for trainig mentors for their fellow program.  
+We also published all the material with open licenses, that allow other organizations, like The Netherlands eScience Center to adapt and reuse our material for training mentors for their fellow program.  
 
 Overall, the rOpenSci Champions Program successfully trained participants in essential skills for their role as champions and mentors while fostering engagement and collaboration in open-source research software development. 
 
