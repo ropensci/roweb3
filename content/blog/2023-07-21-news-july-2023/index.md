@@ -205,7 +205,7 @@ Condition
 
 [Example commit fixing this, in usethis](https://github.com/r-lib/usethis/commit/a5e80b516154309dd28d09e642ea7e7b6c7e723a).
 
-Thanks to [Zhian Kamvar](author/zhian-n.-kamvar/) for this!
+Thanks to [Zhian Kamvar](author/zhian-n.-kamvar/) for this tip!
 
 ### How to take vacation as an open-source maintainer
 
