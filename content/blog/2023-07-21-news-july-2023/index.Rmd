@@ -1,15 +1,15 @@
 ---
-slug: "post-template"
-title: Latest rOpenSci News Digest
-author:
-  - The rOpenSci Team
-date: '2022-01-16'
+title: 'rOpenSci News Digest, July 2023'
+author: 'The rOpenSci Team'
+date: '2023-07-21'
 tags:
   - newsletter
-description: keywords from the content
+slug: news-july-2023
+description: Open Call for Champions program, CRAN packages indexed on R-universe, community call, coworking
 params:
-  last_newsletter: "2022-05-20"
+  last_newsletter: "2023-06-22"
 ---
+
 
 ```{r setup, include=FALSE}
 library("magrittr")
@@ -40,17 +40,64 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-<!-- to be curated manually -->
+### Open Call for rOpenSci Champions Program Applications! 
 
-<!-- Can use same coworking text every month and ping Steffi to ask if there are any special guests to add -->
-Join us for social coworking & office hours monthly on 1st Tuesdays! Hosted by Steffi LaZerte  and various community hosts. Everyone welcome. No RSVP needed. Consult our [Events](/events) page to find your local time and how to join.
+We are pleased to [open the call](/blog/2023/07/14/call-champions-program/) for the second cohort of Champions and Mentors for the rOpenSci Champions Program 🎉 ! 
+
+This 12-month-long program will continue to support our goal of identifying, recognizing, and rewarding passionate community members who help the community grow and improve.  The activities include cohort-based training, project development, and personal mentorship.
+
+This program focuses on people who belong to groups that are historically and systematically excluded from the open software and research software communities and who are interested in contributing to rOpenSci and the broader open source and research software communities.
+
+You can apply to be a _champion_ or a _mentor_ until **September 4th**.
+
+More information on eligibility, timeline, curriculum, application process, etc. is [on the program webpage](/champions/). 
+
+### Community call: Mentoring & Training Program for Scientific Open Source Champions
+
+Tuesday, 25 July 2023 14:00 UTC. [More info](/commcalls/july2023-championprogram/).
+
+Champions programs are designed to identify, recognize, and reward emerging leaders within a community. The [rOpenSci Champions Program](/champions/) is part of a series of activities and projects we are carrying out to ensure our research software serves everyone in our communities, which means that it needs to be sustainable and open, and built by and for all groups.
+
+On this [call](/commcalls/july2023-championprogram/) _Beatriz Milz_, _Victor Ordu_ and _Carolina Pradier_ will share their experience of being rOpenSci mentors and champions. 
+We will highlight the benefits of being part of the program for you and for your community, what kind of learning, 
+activities and opportunities an open source community champions program provides. 
+rOpenSci Community Manager _Yani_ will present the details of our Champion Program and answer all your questions about it.
 
 
-Find out about more [events](/events).
+
+### CRAN packages on R-universe
+
+#### All CRAN packages indexed on R-universe!
+
+We have now indexed all CRAN packages on [r-universe.dev](https://r-universe.dev). You can use the R-universe [powersearch](/blog/2023/02/27/runiverse-discovering/#level-1-searching-the-entire-r-ecosystem) to find any CRAN package with a particular topic, author, datasets etc.
+
+#### R-universe cran.dev shortlinks
+
+You can now use cran.dev shortlinks: `https://cran.dev/{package}`, `https://docs.cran.dev/{package}` to fly directly to the R-universe dev page or html manual for any CRAN package!
+
+Example: <https://cran.dev/xml2> and <https://docs.cran.dev/xml2>.
+
+### Coworking
+
+Read [all about coworking](/blog/2023/06/21/coworking/) in our new [post](/blog/2023/06/21/coworking/)!
+
+Join us for social coworking & office hours monthly on first Tuesdays! 
+Hosted by Steffi LaZerte and various community hosts. 
+Everyone welcome. 
+No RSVP needed. 
+Consult our [Events](/events) page to find your local time and how to join.
+
+- Tuesday, August 1st, 09:00 Americas Pacific (16:00 UTC), ["Spatial data in R"](/events/coworking-2023-08/) *Hosted by [Mike Mahoney](/author/mike-mahoney) and [Steffi LaZerte](/author/steffi-lazerte/)*
+    - Work on a project related to spatial data.
+    - Explore R packages for working with spatial data.
+- Tuesday, September 5th, 09:00 Australia Western (01:00 UTC), TBA
+- **Note** October coworking is cancelled (see you in November!)
+
+And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
+
+
 
 ## Software :package:
-
-### New packages
 
 ```{r new-packages, cache = TRUE}
 cran_unquote <- function(string) {
@@ -75,133 +122,7 @@ registry <- "https://raw.githubusercontent.com/ropensci/roregistry/gh-pages/regi
   purrr::pluck("packages") %>%
   purrr::map_df(tidy_package)
   
-since <- lubridate::as_date(last_newsletter) - 1
-until <- lubridate::as_date(last_newsletter) + 1
-commits <- gh::gh(
-  "GET /repos/{owner}/{repo}/commits",
-  owner = "ropensci",
-  repo = "roregistry",
-  since = sprintf(
-    "%s-%s-%sT00:00:00Z",
-    lubridate::year(since),
-    stringr::str_pad(lubridate::month(since), 2, "0", side = "left"),
-    stringr::str_pad(lubridate::day(since), 2, "0", side = "left")
-  ),
-  until = sprintf(
-    "%s-%s-%sT00:00:00Z",
-    lubridate::year(until),
-    stringr::str_pad(lubridate::month(until), 2, "0", side = "left"),
-    stringr::str_pad(lubridate::day(until), 2, "0", side = "left")
-  )
-)
-
-empty <- TRUE
-i <- length(commits)
-while (empty == TRUE) {
-  old <- "https://raw.githubusercontent.com/ropensci/roregistry/%s/packages.json" %>%
-    sprintf(commits[[i]]$sha) %>%
-    jsonlite::read_json() %>%
-    purrr::map_df(function(x) tibble::tibble(package = x$package, url = x$url, branch = x$branch))
-  i <- i - 1
-  if (nrow(old) > 100) {
-    empty <- FALSE
-  }
-}
-
-old <- dplyr::filter(
-  old,
-  !grepl("ropenscilabs\\/", url),
-  !grepl("ropensci-archive\\/", url)
-)
-
-new <- dplyr::filter(
-  registry,
-  !package %in% old$package,
-  !grepl("ropenscilabs\\/", url),
-  !grepl("ropensci-archive\\/", url)
-)
 ```
-
-
-The following `r if(nrow(new)>1) english(nrow(new))` package`r if(nrow(new)>1) "s"` recently became a part of our software suite:
-
-```{r, results='asis', cache = TRUE}
-packages <- split(new, seq(nrow(new)))
-present_one <- function(package) {
-  url_parts <- urltools::url_parse(package$url)
-  desc_link <- gh::gh(
-    "/repos/{owner}/{repo}/contents/{path}",
-    owner = strsplit(url_parts$path, "\\/")[[1]][1],
-    repo = strsplit(url_parts$path, "\\/")[[1]][2],
-    path = "DESCRIPTION"
-  ) %>%
-    purrr::pluck("download_url")
-  withr::with_tempfile(
-    "tf", {
-      download.file(desc_link, tf) 
-      desc <<- desc::desc(file = tf)
-    }
-  )
-  # as in pkgdown
-  authors <- unclass(desc$get_authors())
-  aut <- purrr::keep(authors, function(x) {any( x$role %in% "aut") && all(x$role != "cre") })
-  aut <- purrr::map_chr(aut, function(x) paste(x$given, x$family))
-  rev <- purrr::keep(authors, function(x) {any( x$role %in% "rev") && all(x$role != "cre") })
-  rev <- purrr::map_chr(rev, function(x) paste(x$given, x$family))
-  maintainer <- purrr::keep(authors, function(x) {any( x$role %in% "cre") })
-  maintainer <- paste(c(maintainer[[1]]$given, maintainer[[1]]$family), collapse = " ")
-  
-  author_string <- sprintf("developed by %s", maintainer)
-  
-  if (length(aut) > 0) {
-    author_string <- paste0(author_string, sprintf(" together with %s", nice_string(aut)))
-  } 
-  
-  string <- sprintf(
-    "[%s](https://docs.ropensci.org/%s), %s: %s. ",
-    package$package, 
-    package$package, 
-    author_string,
-    stringr::str_remove(stringr::str_squish(package$details), "\\.$")
-  )
-  
-  if (package$on_cran) {
-    string <- paste0(
-      string, 
-      sprintf(
-        " It is available on [CRAN]( https://CRAN.R-project.org/package=%s). ",
-        package$package
-      )
-    )
-  }
-  if (package$on_bioc) {
-    string <- paste0(
-      string, sprintf(
-        " It is available on [Bioconductor](https://bioconductor.org/packages/%s/). ",
-        package$package
-      )
-    )
-  }
-  if (nzchar(package$onboarding)) {
-    string <- paste0(string, sprintf("It has been [reviewed](%s)", package$onboarding))
-    if (length(rev) > 0) {
-      string <- paste0(string, sprintf(" by %s.", nice_string(rev)))
-    } else {
-      string <- paste0(string, ".")
-    }
-  }
-  
-  paste("+", string)
-
-}
-text <- purrr::map_chr(
-  packages,
-  present_one
-)
-cat(paste0(text, collapse = "\n\n"))
-```
-
-Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
 ### New versions
 
@@ -222,6 +143,7 @@ registry <- registry %>%
     !is.na(owner)
   )
 packages <- split(registry, seq(nrow(registry)))
+packages <- packages[purrr::map_chr(packages, "package") != "commonmark"]
 get_release <- function(repo) {
   info <- gh::gh(
     "GET /repos/{owner}/{repo}/releases",
@@ -522,42 +444,6 @@ if (length(tech_notes) > 0) {
 }
 ```
 
-<!-- ## Use cases
-
-```{r usecases, eval=FALSE}
-# rerun get_use_cases.R at the same time
-usecases <- jsonlite::read_json("../../../data/usecases/usecases.json")
-get_one_case <- function(usecase) {
-  tibble::tibble(
-    title = usecase$title,
-    reporter = usecase$reporter,
-    url = usecase$url,
-    image = usecase$image,
-    date = anytime::anydate(usecase$date)
-  )
-}
-usecases <- purrr::map_df(usecases, get_one_case)
-usecases <- dplyr::filter(usecases, date >= as.Date(last_newsletter))
-usecases <- split(usecases, seq(nrow(usecases)))
-```
-
-`snakecase::to_sentence_case(english(length(usecases)))` use case` if (length(usecases) > 1) "s"` of our packages and resources ha` if (length(usecases) > 1) "ve" else "s"` been reported since we sent the last newsletter.
-
-```{r usecases2, results='asis', eval=FALSE}
-format_case <- function(usecase) {
-  string <- sprintf("* [%s](%s). Reported by %s.", sub("\\.$", "", usecase$title), usecase$url, usecase$reporter)
-}
-cat(
-  paste0(
-    purrr::map_chr(usecases, format_case),
-    collapse = "\n\n"
-  )
-)
-```
-
-Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)! -->
-
-
 ## Use cases
 
 ```{r usecases}
@@ -595,17 +481,63 @@ Explore [other use cases](/usecases) and [report your own](https://discuss.ropen
 
 ## Call for maintainers
 
-<!--IF CALL
-* [our guidance on _Changing package maintainers_](https://devguide.ropensci.org/changing-maintainers.html)
-* [our _Package Curation Policy_](https://devguide.ropensci.org/curationpolicy.html)
+If you're interested in maintaining any of the R packages below, you might enjoy reading our blog post [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/) (or listening to its discussion on the [R Weekly highlights podcast](https://rweekly.fireside.fm/111) hosted by Eric Nantz and Mike Thomas)!
 
-IF NO CALL
-There are no open calls for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
-As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. -->
+- **[rvertnet](https://cran.r-project.org/web/packages/rvertnet/index.html)**, Retrieve, map and summarize data from the VertNet.org archives (<https://vertnet.org/>). Functions allow searching by many parameters, including taxonomic names, places, and dates. In addition, there is an interface for conducting spatially delimited searches, and another for requesting large datasets via email. [Issue for volunteering](https://github.com/ropensci-archive/rvertnet/issues/71).
+
+- **[natserv](https://cran.r-project.org/web/packages/natserv/index.html)**. Interface to NatureServe (<https://www.natureserve.org/>). Includes methods to get data, image metadata, search taxonomic names, and make maps. [Issue for volunteering](https://github.com/ropensci-archive/natserv/issues/29).
+
+### Call for comaintainers
+
+Refer to our somewhat [recent blog post](/blog/2022/10/17/maintain-or-co-maintain-an-ropensci-package/#packages-looking-for-co-maintainers) to identify other packages where help is especially wished for!
+See also our [help wanted page](/help-wanted/) -- before opening a PR, we recommend asking in the issue whether help is still needed.
 
 ## Package development corner
 
 Some useful tips for R package developers. :eyes:
+
+### Check for partial matching as part of your testing & CI process
+
+You can change your options to generate warnings on partial matching:
+
+```r
+options(
+  warnPartialMatchAttr = TRUE,
+  warnPartialMatchDollar = TRUE,
+  warnPartialMatchArgs = TRUE 
+)
+```
+
+But your options and [Rprofile](https://rstats.wtf/r-startup.html#rprofile) are ignored by R CMD check.
+
+A way to still get warnings in your continuous integration is to integrate it to testthat by creating a [special `setup-options.R` file](https://blog.r-hub.io/2020/11/18/testthat-utility-belt/), as in https://github.com/epiverse-trace/packagetemplate/pull/61. This file could also be used to change any other options (but use with caution to not create situations where it's too difficult to debug).
+
+Thanks to [Hugo Gruson](/author/hugo-gruson/) for this tip!
+
+### Change in R-devel for comparing versions
+
+Does your package compare version with code snippets like `some_version >= 1.5`?
+If so, you might encounter the warning below with R-devel.
+
+```
+Condition
+  Warning in `.make_numeric_version()`:
+  invalid non-character version specification 'x' (type: double)
+```
+
+[Reference](https://bugs.r-project.org/show_bug.cgi?id=18548), [toot](https://mastodon.social/@zkamvar@fosstodon.org/110634968544104625).
+
+> To avoid it, you need to make your comparison a character vector:
+`some_version >= '1.5'` 
+
+[Example commit fixing this, in usethis](https://github.com/r-lib/usethis/commit/a5e80b516154309dd28d09e642ea7e7b6c7e723a).
+
+Thanks to [Zhian Kamvar](author/zhian-n.-kamvar/) for this!
+
+### How to take vacation as an open-source maintainer
+
+Some inspiration by Will Landau: https://mastodon.social/@landau@fosstodon.org/110636695153363955
+Take care, y'all.
 
 <!-- To be curated by hand -->
 
