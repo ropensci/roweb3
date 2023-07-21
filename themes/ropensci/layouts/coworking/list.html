@@ -47,7 +47,8 @@
             </div>
             <div class="col-md-8 session-info">
               <a href="{{ .RelPermalink }}" class="session-title">{{ replaceRE "Social Coworking and Office Hours -" "" .Title 1 }}</a>
-              <p class="session-team">{{ with .Params.attendees }} With {{ delimit . ", " }}{{ end }}</p>
+              <p class="session-team">{{ with .Params.attendees }} With {{ delimit . ", " }}{{ end }} {{ with .Params.notes }}🔗 <a href="{{ . }}">Collaborative notes</a>
+          {{ end }}</p>
             </div>
           </div>
   {{ end }}
