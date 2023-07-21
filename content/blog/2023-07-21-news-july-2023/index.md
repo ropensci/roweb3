@@ -29,11 +29,11 @@ This 12-month-long program will continue to support our goal of identifying, rec
 
 This program focuses on people who belong to groups that are historically and systematically excluded from the open software and research software communities and who are interested in contributing to rOpenSci and the broader open source and research software communities.
 
-You can apply, for being a _champion_ or a _mentor_, until **September 4th**.
+You can apply to be a _champion_ or a _mentor_ until **September 4th**.
 
-More information on eligibility, timeline, curriculum, application process, etc. is [on the program webpage](/blog/2023/07/14/call-champions-program/). 
+More information on eligibility, timeline, curriculum, application process, etc. is [on the program webpage](/champions/). 
 
-### Community call: Mentoring & training program for Scientific Open Source Champions
+### Community call: Mentoring & Training Program for Scientific Open Source Champions
 
 Tuesday, 25 July 2023 14:00 UTC. [More info](/commcalls/july2023-championprogram/).
 
@@ -42,7 +42,7 @@ Champions programs are designed to identify, recognize, and reward emerging lead
 On this [call](/commcalls/july2023-championprogram/) _Beatriz Milz_, _Victor Ordu_ and _Carolina Pradier_ will share their experience of being rOpenSci mentors and champions. 
 We will highlight the benefits of being part of the program for you and for your community, what kind of learning, 
 activities and opportunities an open source community champions program provides. 
-_Yani_ will present the details of our Champion Program and answer all your question about it.
+rOpenSci Community Manager _Yani_ will present the details of our Champion Program and answer all your questions about it.
 
 
 
@@ -50,11 +50,11 @@ _Yani_ will present the details of our Champion Program and answer all your ques
 
 #### All CRAN packages indexed on R-universe!
 
-We have now indexed all CRAN packages on r-universe.dev. You can use the r-universe [powersearch](/blog/2023/02/27/runiverse-discovering/#level-1-searching-the-entire-r-ecosystem) to find any CRAN package with a particular topic, author, datasets etc.
+We have now indexed all CRAN packages on [r-universe.dev](https://r-universe.dev). You can use the R-universe [powersearch](/blog/2023/02/27/runiverse-discovering/#level-1-searching-the-entire-r-ecosystem) to find any CRAN package with a particular topic, author, datasets etc.
 
 #### R-universe cran.dev shortlinks
 
-You can now use cran.dev shortlinks: `https://cran.dev/{package}`, `https://docs.cran.dev/{package}` to fly directly to the r-universe dev page or html manual for any CRAN package!
+You can now use cran.dev shortlinks: `https://cran.dev/{package}`, `https://docs.cran.dev/{package}` to fly directly to the R-universe dev page or html manual for any CRAN package!
 
 Example: <https://cran.dev/xml2> and <https://docs.cran.dev/xml2>.
 
@@ -71,6 +71,8 @@ Consult our [Events](/events) page to find your local time and how to join.
 - Tuesday, August 1st, 09:00 Americas Pacific (16:00 UTC), ["Spatial data in R"](/events/coworking-2023-08/) *Hosted by [Mike Mahoney](/author/mike-mahoney) and [Steffi LaZerte](/author/steffi-lazerte/)*
     - Work on a project related to spatial data.
     - Explore R packages for working with spatial data.
+- Tuesday, September 5th, 09:00 Australia Western (01:00 UTC), TBA
+- **Note** October coworking is cancelled (see you in November!)
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
@@ -78,23 +80,14 @@ And remember, you can always cowork independently on work related to R, work on 
 
 ## Software :package:
 
-### New packages
 
-
-
-
-The following  package recently became a part of our software suite:
-
-
-
-Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
 ### New versions
 
 
 
-The following six packages have had an update since the last newsletter: [datefixR](https://docs.ropensci.org/datefixR "Standardize Dates in Different Formats or with Missing Data") ([`v1.5.0`](https://github.com/ropensci/datefixR/releases/tag/v1.5.0)), [ijtiff](https://docs.ropensci.org/ijtiff "Comprehensive TIFF I/O with Full Support for ImageJ TIFF Files") ([`v2.3.2`](https://github.com/ropensci/ijtiff/releases/tag/v2.3.2)), [phylotaR](https://docs.ropensci.org/phylotaR "Automated Phylogenetic Sequence Cluster Identification from
-    GenBank") ([`v1.3.0`](https://github.com/ropensci/phylotaR/releases/tag/v1.3.0)), [rsnps](https://docs.ropensci.org/rsnps "Get SNP (Single-Nucleotide Polymorphism) Data on the Web") ([`v0.6.0`](https://github.com/ropensci/rsnps/releases/tag/v0.6.0)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.2.0`](https://github.com/ropensci/targets/releases/tag/1.2.0)), and [waywiser](https://docs.ropensci.org/waywiser "Ergonomic Methods for Assessing Spatial Models") ([`v0.4.1`](https://github.com/ropensci/waywiser/releases/tag/v0.4.1)).
+The following eight packages have had an update since the last newsletter: [daiquiri](https://docs.ropensci.org/daiquiri "Data Quality Reporting for Temporal Datasets") ([`v1.1.1`](https://github.com/ropensci/daiquiri/releases/tag/v1.1.1)), [datefixR](https://docs.ropensci.org/datefixR "Standardize Dates in Different Formats or with Missing Data") ([`v1.5.0`](https://github.com/ropensci/datefixR/releases/tag/v1.5.0)), [ijtiff](https://docs.ropensci.org/ijtiff "Comprehensive TIFF I/O with Full Support for ImageJ TIFF Files") ([`v2.3.2`](https://github.com/ropensci/ijtiff/releases/tag/v2.3.2)), [phylotaR](https://docs.ropensci.org/phylotaR "Automated Phylogenetic Sequence Cluster Identification from
+    GenBank") ([`v1.3.0`](https://github.com/ropensci/phylotaR/releases/tag/v1.3.0)), [rerddap](https://docs.ropensci.org/rerddap "General Purpose Client for ERDDAP Servers") ([`v1.0.3`](https://github.com/ropensci/rerddap/releases/tag/v1.0.3)), [rsnps](https://docs.ropensci.org/rsnps "Get SNP (Single-Nucleotide Polymorphism) Data on the Web") ([`v0.6.0`](https://github.com/ropensci/rsnps/releases/tag/v0.6.0)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.2.0`](https://github.com/ropensci/targets/releases/tag/1.2.0)), and [waywiser](https://docs.ropensci.org/waywiser "Ergonomic Methods for Assessing Spatial Models") ([`v0.4.1`](https://github.com/ropensci/waywiser/releases/tag/v0.4.1)).
 
 ## Software Peer Review
 
@@ -120,15 +113,15 @@ There are eleven recently closed and active submissions and 3 submissions on hol
 
     * [fwildclusterboot](https://github.com/ropensci/software-review/issues/546), Fast Wild Cluster Bootstrap Inference for Linear Models. Submitted by [Alexander Fischer](https://s3alfisc.github.io/blog/).  (Stats).
 
-* One at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
-
-     * [bssm](https://github.com/ropensci/software-review/issues/489), Bayesian Inference of Non-Linear and Non-Gaussian State Space. Submitted by [Jouni Helske](https://jounihelske.netlify.app).  (Stats).
-
-* Three at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
+* Two at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
      * [rangr](https://github.com/ropensci/software-review/issues/595), Mechanistic Simulation of Species Range Dynamics. Submitted by [Katarzyna Markowska](https://github.com/katarzynam-165). 
 
-    * [eph](https://github.com/ropensci/software-review/issues/593), Argentina's Permanent Household Survey Data and Manipulation Utilities. Submitted by [Carolina Pradier](https://drive.google.com/file/d/1mlRCWYoqmLKUejy4eF-jtVBDUAHlS4go/view?usp=sharing). 
+    * [bssm](https://github.com/ropensci/software-review/issues/489), Bayesian Inference of Non-Linear and Non-Gaussian State Space. Submitted by [Jouni Helske](https://jounihelske.netlify.app).  (Stats).
+
+* Two at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
+
+     * [eph](https://github.com/ropensci/software-review/issues/593), Argentina's Permanent Household Survey Data and Manipulation Utilities. Submitted by [Carolina Pradier](https://drive.google.com/file/d/1mlRCWYoqmLKUejy4eF-jtVBDUAHlS4go/view?usp=sharing). 
 
     * [qualtdict](https://github.com/ropensci/software-review/issues/572), Generating Variable Dictionaries and Labelled Data Exports of Qualtrics. Submitted by [lyh970817](https://github.com/lyh970817). 
 
@@ -143,6 +136,11 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 * [All About Coworking Sessions with rOpenSci](/blog/2023/06/21/coworking) by Steffi LaZerte. Discover how rOpenSci coworking sessions have evolved to include themes and community hosts, while still providing a place of community to work and chat.
 
 * [rOpenSci Champions Program Teams: Meet Ghozayel Elotteebi and Zebulun Arendsee](/blog/2023/06/23/ropensci-champions-program-teams-meet-ghozayel-elotteebi-and-zebulun-arendsee) by Ghozayel Elotteebi, and Zebulun Arendsee. Introducing Champions and Mentors - Ghozayel Elotteebi and Zebulun Arendsee.
+
+* [Open Call for rOpenSci Champions Program Applications!](/blog/2023/07/14/call-champions-program) by Yanina Bellini Saibene. We open the call for the second cohort of Champions and Mentors. Other languages: <a href='/es/blog/2023/07/14/launch-champions-program-es' lang='es'>¡Convocatoria abierta para la presentación de candidaturas al Programa de Campeonas y Campeones de rOpenSci! (es)</a>.
+
+* [Teaching targets with Penguins](/blog/2023/07/20/teaching-targets-with-penguins) by Athanasia Mo Mowinckel, and Joel Nitta. An inspiring collaboration for reproducibility! rOpenSci members Joel and Mo's fortuitous encounter led to an exciting targets workshop in Oslo.
+
 
 ## Use cases
 
@@ -187,7 +185,7 @@ But your options and [Rprofile](https://rstats.wtf/r-startup.html#rprofile) are 
 
 A way to still get warnings in your continuous integration is to integrate it to testthat by creating a [special `setup-options.R` file](https://blog.r-hub.io/2020/11/18/testthat-utility-belt/), as in https://github.com/epiverse-trace/packagetemplate/pull/61. This file could also be used to change any other options (but use with caution to not create situations where it's too difficult to debug).
 
-Thanks to [Hugo Gruson](https://hugogruson.fr/) for this tip!
+Thanks to [Hugo Gruson](/author/hugo-gruson/) for this tip!
 
 ### Change in R-devel for comparing versions
 
@@ -207,7 +205,7 @@ Condition
 
 [Example commit fixing this, in usethis](https://github.com/r-lib/usethis/commit/a5e80b516154309dd28d09e642ea7e7b6c7e723a).
 
-Thanks to [Zhian Kamvar](https://zkamvar.netlify.app/) for this!
+Thanks to [Zhian Kamvar](author/zhian-n.-kamvar/) for this!
 
 ### How to take vacation as an open-source maintainer
 
