@@ -77,7 +77,7 @@ headcolor: 414141
 output: vitae::awesomecv
 ---
 
-```{r setup, include=FALSE}
+```r
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
 ```

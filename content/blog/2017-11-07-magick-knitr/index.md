@@ -14,7 +14,7 @@ tags:
 
 This week [magick](https://cran.r-project.org/web/packages/magick/vignettes/intro.html) 1.5 appeared on CRAN. The latest update adds support for using images in knitr documents and shiny apps. In this post we show how this nicely ties together a reproducible image workflow in R, from source image or plot directly into your report or application.
 
-```{r}
+```r
 library(magick)
 stopifnot(packageVersion('magick') >= 1.5)
 ```
@@ -26,7 +26,7 @@ Also the magick [intro vignette](https://cran.r-project.org/web/packages/magick/
 
 Magick 1.5 is now fully compatible with knitr. To embed magick images in your rmarkdown report, simply use standard code chunk syntax in your `Rmd` file. No special options or packages are required; the image automatically appears in your documents when printed!
 
-```{r}
+```r
 # Example from our post last week
 image_read('logo:') %>%
   image_convolve('DoG:0,0,2') %>%
@@ -38,7 +38,7 @@ image_read('logo:') %>%
 
 You can also combine this with the magick graphics device to post process or animate your plots and figures directly in knitr. Again no special packages or system dependencies are required.
 
-```{r}
+```r
 # Produce graphic
 fig <- image_graph(width = 800, height = 600, res = 96)
 ggplot2::qplot(factor(cyl), data = mtcars, fill = factor(gear))
@@ -49,7 +49,7 @@ print(fig)
 
 ![fig2](zFLcHws.png)
 
-```{r}
+```r
 
 # Some post-processing
 frink <- image_read("https://jeroen.github.io/images/frink.png")
@@ -65,7 +65,7 @@ fig %>%
 
 Same works for animation with `image_animate()`; the figure shows automatically up in the report as a gif image:
 
-```{r}
+```r
 image_read("https://jeroen.github.io/images/banana.gif") %>%
   image_apply( function(banana){
     image_composite(fig, banana, offset = "+200+200")

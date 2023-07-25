@@ -206,7 +206,7 @@ ggplot(faithful, aes(x = eruptions, y = waiting)) +
 
 Now where there's a will, there's a way. Except that soon we could say where there is a merge, there is a conflict.  While most times we use [GitHub](https://github.com/) for code-sharing, publishing software and collaborating with our future self, this was the time to show how we collaborate with others. It took almost 2 hours with both GitKraken and Mitch helping us to deal with the merge conflicts!
 
-<!-- ```{r conflict-tree,echo=FALSE, hugoopts = list(alt = "")} -->
+<!-- ```r -->
 <!-- knitr::include_graphics("conflict-tree.png") -->
 <!-- ``` -->
 
@@ -221,7 +221,7 @@ Now where there's a will, there's a way. Except that soon we could say where the
 
 We still have one thing to do (replace the `hdr.boxplot.2d()` with `geom_hdr_boxplot.2d()`, which would calculate and plot HDRs in two dimensions), but are happy to announce that with some embellishments and review, the current version is on CRAN. Kudos team!! You can learn about our package gghdr at [the package website](https://Sayani07.github.io/gghdr/), and the [Github repo](https://Sayani07.github.io/gghdr/).
 
-<!-- # ```{r image-team, echo = F, hugoopts = list(alt = "A photo with all the team members posing and smiling together.")} -->
+<!-- # ```r -->
 <!-- # knitr::include_graphics("team.jpg") -->
 <!-- # ``` -->
 <!-- #  -->

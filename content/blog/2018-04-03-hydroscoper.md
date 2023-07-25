@@ -144,7 +144,7 @@ Flow data appears to have a monthly time step. But, how can someone infer if the
 
  * Firstly, subset the data to a narrower time window:
 
-```{r}
+```r
 min_date <- "1990-01-01 UTC"
 max_date <- "2000-01-01 UTC"
 flow <- subset(flow, date >= min_date & date <= max_date)
@@ -152,7 +152,7 @@ prec <- subset(prec, date >= min_date & date <= max_date)
 ```
  * Finally, create the Precipitation Hyetograph and Stream-flow Hydrograph:
 
-```{r}
+```r
 library(gridExtra)
 
 g.top <- ggplot(prec, aes(x = date, y = value, ymin=0, ymax=value)) +
