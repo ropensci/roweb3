@@ -40,7 +40,7 @@ All champions must complete this training.
 
 ### [Package Development: The Mechanics](https://rpkgdev-mechanics.netlify.app/)
 
-In this two-hour session with a live demo, a rOpenSci trainer demystifies the creation of an R package. R packages are mostly well-organized folders, with automatic tools to help, such as usethis.
+In this two-hour session with a live demo, an rOpenSci trainer demystifies the creation of an R package. R packages are mostly well-organized folders, with automatic tools to help, such as usethis.
 
 This training was developed for the Champion Program and taught by [Maëlle Salmon](/author/maëlle-salmon/).  It is intended for champions planning to develop a package who have not previously developed or contributed to packages.
 
@@ -75,8 +75,7 @@ Mentors gain mentoring skills during this training and orientation (active liste
 
 This training was developed for the Champion Program, taught by [Yanina Bellini Saibene](/author/yanina-bellini-saibene/), and all mentors must complete it. 
 
-
-In addition mentors are invited to all the training offered to champions as an optional activity.
+In addition mentors are invited to all the trainings offered to champions as an optional activity.
 
 ## Training for non-selected applicants
 
@@ -123,7 +122,7 @@ With a new cohort starting this year we plan to improve the schedule for each tr
 With these actions we intend to address some of the difficulties related to time zones, accessibility and participants' other commitments. 
 
 
-## Achivements
+## Achievements
 
 We developed a new curriculum involving not only rOpenSci staff but also champions and mentors from other communities, growing and strengthening the connections of our community. 
 
