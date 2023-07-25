@@ -6,7 +6,7 @@
     <img {{ if eq .Type "events" }}src="/images/svg/calendart.svg"{{ else }}src="/images/svg/event.svg"{{ end }} alt="" class="event-img" />
     <div class="event-info">
       <a href="{{ .RelPermalink }}" style="color: inherit"><h4 class="event-title">{{ .Title }}{{ if ne .Type "events" }} (Community Call){{ end }}</h4></a>
-      <p class="event-text">{{ (time .Params.dateStart).Local | dateFormat "Monday, 02 January 2006 15:04 MST" }} • {{ if eq .Type "events" }}{{ .Params.location }} {{ .Params.country }}{{ else }}teleconference 🌐{{ end }}</p>
+      <p class="event-text">{{ (time .Params.dateStart).Local | dateFormat "Monday, 02 January 2006 15:04 MST" }} • {{ if eq .Type "events" }}{{ .Params.location }} {{ .Params.country }}{{ else }}online 🌐{{ end }}</p>
     </div>
   </div>
   <a href="{{ .RelPermalink }}" class="event-link">Find out more</a>
