@@ -79,7 +79,7 @@ In addition mentors are invited to all the trainings offered to champions as an 
 
 ## Training for non-selected applicants
 
-We also conduct workshops for those not selected to be champions. The aim of these workshops is to provide an opportunity for all applicants to develop skills in open-source software development for supporting career opportunities as well as future applications to this or other similar programs.
+We also conduct a workshop for those not selected to be champions. The aim of this workshop is to provide an opportunity for all applicants to develop skills in open-source software development for supporting career opportunities as well as future applications to this or other similar programs.
 
 ### [Developing Software Together](https://paocorrales.github.io/git-developing-software-together/)  
 
