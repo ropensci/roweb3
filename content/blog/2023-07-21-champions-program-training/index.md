@@ -16,7 +16,7 @@ tags:
 description: ""
 ---
 
-Our first cohort of the [rOpenSci Champions Program](/champions/) have finished the first phase of their training. In this article, we share the curriculum created for the champions, mentors, and applicants, and what we learned in this pilot.
+Our first cohort of the [rOpenSci Champions Program](/champions/) has now completed the first phase of their training. In this article, we share the curriculum created for the champions, mentors, and applicants, and what we learned in this pilot.
 
 ## Training for the Champions
 
@@ -33,8 +33,8 @@ The final curriculum for this pilot consisted of 5 courses:
 In this 90-minute mini-workshop hosted by the [Center for Scientific Collaboration and Community Engagement](https://www.cscce.org/),
 participants explore designing and facilitating engaging and productive virtual meetings and events.
 
-Participants discuss the opportunities and challenges of working together online and explore the “Making a PACT” framework for effective meeting design. In addition to examples of the framework in action, attendees apply it directly to some example scenarios, so they feel empowered to use the framework in their own work.
-Participants are invited to review the CSCCE’s free guidebook on Zenodo ahead of the session: [A guide to using virtual events to facilitation community building: Making a PACT for more engaging virtual meetings and events](https://zenodo.org/record/4987666#.Y-1Y4nbMK5c)
+Participants discuss the opportunities and challenges of working together online and outline the “Making a PACT” framework for effective meeting design. In addition to reviewing examples of the framework in action, attendees practice applying it  to some example scenarios to empower them to try using  the framework in their own work.
+Participants are welcome to review the CSCCE’s free guidebook on Zenodo ahead of the session: [A guide to using virtual events to facilitation community building: Making a PACT for more engaging virtual meetings and events](https://zenodo.org/record/4987666#.Y-1Y4nbMK5c)
 
 All champions must complete this training.
 
@@ -47,7 +47,7 @@ This training was developed for the Champion Program and taught by [Maëlle Salm
 
 ### [Package Development: Not Rocket Science](https://rpkgdev-rocket.netlify.app/)
 
-This two-hour workshop is for R users who’ve already developed or contributed to packages or have taken the Package Development: The Mechanics workshop. It is intended for champions planning to develop a package or send it to review who want to learn several tips and tricks on package development.
+This two-hour workshop is for R users who’ve already developed or contributed to packages or have taken the Package Development: The Mechanics workshop. It is intended for champions planning to develop a package or submit it for review and who want to learn several tips and tricks on package development.
 Ideally, participants attend with a package of their own to use as a playground.
 
 This training was developed for the Champion Program and taught by [Maëlle Salmon](/author/maëlle-salmon/).  
