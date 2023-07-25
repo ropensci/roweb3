@@ -54,24 +54,24 @@ This training was developed for the Champion Program and taught by [Maëlle Salm
 
 ### [How rOpenSci Performs Peer Review](https://github.com/maurolepore/ropensci-review)
 
-This one-hour workshop is for people wanting to try the rOpenSci review process, particularly for champions who will send a package to review or become reviewers. We review the way we communicate, build, and review software with selected examples and resources with some time for questions and comments.
+This one-hour workshop is for people wanting to try the rOpenSci review process, particularly for champions who will send a package to review or become reviewers. We review the way we communicate, build, and review software with selected examples and resources, with some time for questions and comments.
 
 This training was developed for the Champion Program and taught by [Mauro Lepore](/author/mauro-lepore/). 
 
 
 ### [How to contribute to base R](https://ropensci.org/events/2023-05-18-how-to-contribute-base-r/ )
 
-This workshop is a 60-minute walkthrough of how to contribute to base R. The outline includes How to contribute to a bug, confirm a bug, diagnose a bug, and propose a fix to code/documentation.  
+This workshop is a 60-minute walkthrough of how to contribute to base R. The outline includes how to contribute to a bug, confirm a bug, diagnose a bug, and propose a fix to code/documentation.  
 
-The workshop shows tools and strategies to find a bug to work on and what features make it good for first-timer to work on. It has examples and exercises on how to triage bugs.  Then show how to debug code/documentation with collaborative hand on. Next, show how to fix a bug by commenting on Bugzilla and a demo on creating a patch with git workflow. Finally, share pointers to further help and resources.
+The workshop presents tools and strategies to find a bug to work on and discusses what features make a bug good for a first-timer. Using real bug reports, participants practice identifying good first issues. Then the process of debugging code/documentation is introduced in a collaborative exercise. Participants are briefly shown how to propose a bug fix by commenting on Bugzilla or creating a patch using GitHub. Finally, pointers are shared to further help and resources.
 
-This training was developed and taught by [Hether Turner](/author/heather-turner/), and is open to all champions and mentors.
+This training was developed and taught by [Heather Turner](/author/heather-turner/), and is open to all champions and mentors.
 
-## Trainning for the Mentors
+## Training for the Mentors
 
 ### [rOpenSci Champions Program. Mentorship Training and Orientation](https://ropensci-training.github.io/ropensci-mentors/)
 
-Mentors gain mentoring skills during this training and orientation (active listening, effective questioning, and giving feedback). They receive resources for their mentoring roles, such as the Mentors Guidelines, Meeting Templates, and details of the logistics of the champions program.
+Mentors develop their mentoring skills during this training and orientation, which covers active listening, effective questioning, and giving feedback. They receive resources for their mentoring roles, such as the Mentors' Guidelines, Meeting Templates, and details of the logistics of the champions program.
 
 This training was developed for the Champion Program, taught by [Yanina Bellini Saibene](/author/yanina-bellini-saibene/), and all mentors must complete it. 
 
@@ -98,24 +98,24 @@ At the end of each workshop, we asked those who participated to fill out an anon
 
 * Can you rate this meeting? (in a scale from 1-worst to 5-best). 
 
-We use this feedback to improve the next session of the training. The results show the average score for all the training is **4.6**. which let us know that the attendees are satisfied with the workshops. 
+We will use this feedback to improve the next run of the champions program. The average score for all the training sessions is **4.6**, which shows that the attendees are very satisfied with the workshops. 
 
-When we analyze the responses to "What did you like the most?" in detail we found four positive aspects mentioned: _Interaction with other participants_, _Structure_ of the workshop, _Material and Resources_ shared during the workshop, and _Exercises_ performed during training. 
+When we analyze the responses to "What did you like the most?" we found four positive aspects mentioned: _Interaction with other participants_, _Structure_ of the workshop, _Material and Resources_ shared during the workshop, and _Exercises_ performed during training. 
 
 In the following plot is the detail of the number of mentions for each aspect and an example comment explaining why it was perceived positively by the participants. The comments highlight various aspects of the training, such as enjoyable interactions, valuable tools provided, opportunities for reflection and a good structure base on practice after instruction.
 
-{{< figure src = "feedback_positive.jpg" class = "pull-left" alt = "Ranked quantities of four different positive aspects in a bar plot. The aspect are Material and Resources (15 mentions), Interaction with other participants, (10 mentions), Exercises (8 mentions), and Structure (7 mentions). Each aspect is followed by a comment explaining why it was perceived positively by the participants.">}}
+{{< figure src = "feedback_positive.jpg" class = "pull-left" alt = "Ranked quantities of four different positive aspects in a bar plot. The aspects are Material and Resources (15 mentions), Interaction with other participants, (10 mentions), Exercises (8 mentions), and Structure (7 mentions). Each aspect is followed by a comment explaining why it was perceived positively by the participants.">}}
 
 Even when the answers to "What did you like the least?" show that most attendees think there is _Nothing_ they liked the least we identify five areas for improvement: _Level_ of the training, _More time_ for all the content or exercises, _Tools_ used during the workshops,  _Exercises_ during the workshop, _Pace_ of the teaching. In the plot we show the number of mentions and each aspect is followed by a comment explaining the specific improvement suggestion or feedback. 
 
 The comments highlight the need for more time to cover content, the desire for better collaboration tools, the request for additional exercises, and the suggestion to offer different levels of training, for beginners and for competent practitioners. The comments also include expressions of overall satisfaction while mentioning challenges, like time zones. 
 
-{{< figure src = "feedback_toimprove.jpg" class = "pull-right" alt = "Ranked quantities of five areas of improvement in a bar plot. The aspect are Nothing (12 mentions), Level (5 mentions), More time (4 mentions), Tools (4 mentions), Exercises (3 mentions), and Pace (3 mentions). Each aspect have a comment explaining the specific improvement suggestion or feedback.">}}
+{{< figure src = "feedback_toimprove.jpg" class = "pull-right" alt = "Ranked quantities of five areas of improvement in a bar plot. The aspect are Nothing (12 mentions), Level (5 mentions), More time (4 mentions), Tools (4 mentions), Exercises (3 mentions), and Pace (3 mentions). Each aspect has a comment explaining the specific improvement suggestion or feedback.">}}
 
-The survey data provides us with valuable insights into the participants' perspectives on the strengths and areas for enhancement our trainings and allow us to take action to further enhance future iterations of the training.
+The survey data provide us with valuable insights into the participants' perspectives on the strengths and areas for enhancement of our trainings and allow us to take action to further enhance future iterations of the training.
 
 
-## Next Step
+## Next Steps
 
 With a new cohort starting this year we plan to improve the schedule for each training session, allowing participants to choose between two runs of the session that cover different time zones, and recording the sessions for participants to watch after the meeting. We will develop guidelines to increase the accessibility of each session and change the order of the workshops. 
 
