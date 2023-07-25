@@ -38,6 +38,8 @@ Participants are welcome to review the CSCCE’s free guidebook on Zenodo ahead 
 
 All champions must complete this training.
 
+This training was taught by Camille Santistevan and Maya Sanghvi.
+
 ### [Package Development: The Mechanics](https://rpkgdev-mechanics.netlify.app/)
 
 In this two-hour session with a live demo, an rOpenSci trainer demystifies the creation of an R package. R packages are mostly well-organized folders, with automatic tools to help, such as usethis.
@@ -67,6 +69,8 @@ The workshop presents tools and strategies to find a bug to work on and discusse
 
 This training was developed and taught by [Heather Turner](/author/heather-turner/), and is open to all champions and mentors.
 
+In addition, champions are invited to the training session for non-selected applicants as an optional activity.
+
 ## Training for the Mentors
 
 ### [rOpenSci Champions Program. Mentorship Training and Orientation](https://ropensci-training.github.io/ropensci-mentors/)
@@ -75,15 +79,15 @@ Mentors develop their mentoring skills during this training and orientation, whi
 
 This training was developed for the Champion Program, taught by [Yanina Bellini Saibene](/author/yanina-bellini-saibene/), and all mentors must complete it. 
 
-In addition mentors are invited to all the trainings offered to champions as an optional activity.
+In addition, mentors are invited to all the trainings sessions offered to champions and non-selected applicants as an optional activity.
 
 ## Training for non-selected applicants
 
-We also conduct a workshop for those not selected to be champions. The aim of this workshop is to provide an opportunity for all applicants to develop skills in open-source software development for supporting career opportunities as well as future applications to this or other similar programs.
+We also conduct a workshop for those not selected to be champions. The aim of this workshop is to provide an opportunity for all applicants to develop skills in open-source software development to support their their professional advancement, which may include future applications to this or other similar programs.
 
 ### [Developing Software Together](https://paocorrales.github.io/git-developing-software-together/)  
 
-It is a three-hour course on using Git and GitHub to collaboratively develop open-source software with the R language. The workshop presents how to work with Git, using the command line, RStudio, and GitHub. It introduces the concept of version control systems, local and remote repositories, and actions like stage, commit, push, pull, and merge.  Also, show how to collaborate with others through forks and pull requests. The workshop has hands-on and group exercises.
+It is a three-hour course on using Git and GitHub to collaboratively develop open-source software with the R language. The training presents how to work with Git, using the command line, RStudio, and GitHub. The workshop introduces the concept of version control systems, local and remote repositories, and actions like stage, commit, push, pull, and merge.  It also shows how to collaborate with others through forks and pull requests. The workshop has hands-on and group exercises.
 
 The training was developed by [Paola Corrales](https://ropensci.org/author/pao-corrales/) and taught by Paola and Yanina Bellini Saibene. 
 
@@ -96,9 +100,9 @@ At the end of each workshop, we asked those who participated to fill out an anon
 
 * What did you like the least? 
 
-* Can you rate this meeting? (in a scale from 1-worst to 5-best). 
+* Can you rate this meeting? (on a scale from 1-worst to 5-best). 
 
-We will use this feedback to improve the next run of the champions program. The average score for all the training sessions is **4.6**, which shows that the attendees are very satisfied with the workshops. 
+We plan to use this feedback to improve the next run of the champions program. The average score for all the training sessions is **4.6**, which shows that the attendees are very satisfied with the workshops. 
 
 When we analyze the responses to "What did you like the most?" we found four positive aspects mentioned: _Interaction with other participants_, _Structure_ of the workshop, _Material and Resources_ shared during the workshop, and _Exercises_ performed during training. 
 
