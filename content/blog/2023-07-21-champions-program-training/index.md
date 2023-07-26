@@ -106,7 +106,7 @@ We plan to use this feedback to improve the next run of the champions program. T
 
 When we analyze the responses to "What did you like the most?" we found four positive aspects mentioned: _Interaction with other participants_, _Structure_ of the workshop, _Material and Resources_ shared during the workshop, and _Exercises_ performed during training. 
 
-In the following plot is the detail of the number of mentions for each aspect and an example comment explaining why it was perceived positively by the participants. The comments highlight various aspects of the training, such as enjoyable interactions, valuable tools provided, opportunities for reflection and a good structure base on practice after instruction.
+The following plot shows the number of mentions for each aspect and an example comment explaining why it was perceived positively by the participants. The comments highlight various aspects of the training, such as enjoyable interactions, valuable tools provided, opportunities for reflection and a good structure based on practice after instruction.
 
 {{< figure src = "feedback_positive.jpg" class = "pull-left" alt = "Ranked quantities of four different positive aspects in a bar plot. The aspects are Material and Resources (15 mentions), Interaction with other participants, (10 mentions), Exercises (8 mentions), and Structure (7 mentions). Each aspect is followed by a comment explaining why it was perceived positively by the participants.">}}
 
