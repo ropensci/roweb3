@@ -3,7 +3,7 @@ title = "Coworking"
 +++
 
 **Join us for social coworking & office hours monthly on first Tuesdays! 
-Hosted by [Steffi LaZerte](/author/steffi-lazerte) and various community hosts. 
+Hosted by rOpenSci Community Assistant [Steffi LaZerte](/author/steffi-lazerte) and various community hosts. 
 Everyone welcome. 
 No registration needed.**
 
@@ -16,8 +16,6 @@ Want more details? Explore [All about coworking](/blog/2023/06/21/coworking/)!
 
 **Have suggestions for future themes? Interested in being a community host?**  
 
-Contact [Steffi](/author/steffi-lazerte) on the rOpenSci Slack, Mastodon, 
-or our Community Manager, [Yani](/author/yanina-bellini-saibene), 
-and let us know! 
+Contact [Steffi](/author/steffi-lazerte) our Community Manager, [Yani](/author/yanina-bellini-saibene), on the rOpenSci Slack, Mastodon, or via [email](yabellini@ropensci.org), and let us know! 
 If you're interested in hosting but aren't sure of a theme, we're happy to 
 help you come up with one!
