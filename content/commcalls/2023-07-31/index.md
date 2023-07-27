@@ -2,7 +2,7 @@
 title: "Mentoring & training program for Scientific Open Source Champions"
 dateStart: 2023-07-25T14:00:00 # UTC!!
 dateEnd: 2023-07-25T15:00:00 # UTC!!
-date: 2023-07-31T15:00:00 # UTC!! same as dateEnd
+date: 2023-07-25T15:00:00 # UTC!!
 publishDate: 2023-06-30
 description: Details about the Champions Program + tips for submitting your application + the experience of being an rOpenSci champion or mentor
 author:
