@@ -63,7 +63,7 @@ Before the r-universe, there were three ways to provide users with your in-devel
    (this is how dev versions of the {ape} package used to be distributed)
    
 All of these solutions either required an extra package and syntax for your users (option 1) or it involved extra work on your end to build and provide updates for the packages on your server (options 2 and 3).
-Unless you happen to have access to a Linux, Windows, and MacOS machine, you are only able to serve the source version of the packages.
+Unless you happen to have access to a Linux, Windows, and macOS machine, you are only able to serve the source version of the packages.
 
 
 **The R universe changes all of that** by allowing us to specify that we want to
@@ -97,7 +97,7 @@ deploy releases in our JSON file:
 
 Because of this, we are able to _deploy releases quickly_ and continue to test development versions when we need to. 
 
-## Using R-unvierse as an extension for CRAN {#alt-cran}
+## Using R-universe as an extension for CRAN {#alt-cran}
 
 ### Problem
 
@@ -143,7 +143,7 @@ You can add the development version of this package to your `packages.json` file
 ]
 ```
 
-Because the r-universe will build package binaries within an hour, if someone attempts to install a package that was _just_ released to CRAN, they will not see the dialoge above, because R will detect that a binary is available from your r-universe.
+Because the r-universe will build package binaries within an hour, if someone attempts to install a package that was _just_ released to CRAN, they will not see the dialogue above, because R will detect that a binary is available from your r-universe.
 
 
 There are some caveats with this however:
