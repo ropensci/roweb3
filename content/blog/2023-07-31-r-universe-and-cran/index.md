@@ -4,12 +4,12 @@ title: My life with the r-universe
 author: Zhian N. Kamvar
 date: '2023-07-31'
 tags:
-  - R
-  - CRAN
-  - Carpentries
+  - community
+  - r-universe
+  - cran
+  - carpentries
   - packages
-  - installation
-  - rOpenSci
+  - github
 description: >
   Using the r-universe to rapidly deploy releases, dependencies, and bugfixes
 ---
