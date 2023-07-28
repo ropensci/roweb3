@@ -94,5 +94,5 @@ If you have any suggestions about the material, please feel free to submit a PR 
 
 Happy workflowing!
 
-{{< figure src = "mo-joel.jgp" alt = "Joel and Mo posing with grins after the workshop in front of a large projector screen showing the rOpenSci website behind them." caption = "Joel and Mo after the workshop" class = "center" >}}
+{{< figure src = "mo-joel.jpg" alt = "Joel and Mo posing with grins after the workshop in front of a large projector screen showing the rOpenSci website behind them." caption = "Joel and Mo after the workshop" class = "center" >}}
 

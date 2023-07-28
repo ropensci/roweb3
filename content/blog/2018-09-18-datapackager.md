@@ -195,7 +195,7 @@ author: Greg Finak
 date: September 5, 2018
 output_format: html_document
 ---
-```{r}
+```r
 library(dplyr)
 cars <- read.csv(project_extdata_path('cars.csv'))
 tidy_cars <- cars %>% rename(speed_mph = speed, stopping_distace = dist)
