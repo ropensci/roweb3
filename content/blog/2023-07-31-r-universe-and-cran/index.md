@@ -2,7 +2,7 @@
 slug: "r-universe-and-cran"
 title: My Life with the R-universe
 author: Zhian N. Kamvar
-date: '2023-07-31'
+date: '2023-08-01'
 tags:
   - community
   - r-universe
@@ -12,6 +12,7 @@ tags:
   - github
 description: >
   Using the R-universe to rapidly deploy releases, dependencies, and bugfixes
+preface: This is cross-posted on [Zhian Kamvar's Blog](https://zkamvar.netlify.app/blog/r-universe-and-cran/)
 ---
 
 ## Summary
@@ -126,7 +127,7 @@ The reason for this message is because CRAN can take up to 3 days to build the M
 {{< figure src = "httpuv-cran-2022-01-06.png" alt = "image of the available downloads for the httpuv package showing half of the binary versions at 1.6.5 and the other half at 1.6.4" >}}
 
 
-So the question is, if your depends on packages that require a complex setup to install the source version, how do you prevent this situation from happening?
+So the question is, if your package depends on packages that require a complex setup to install the source version, how do you prevent this situation from happening?
 **How can the R-universe provide just-in-time binaries of released versions of packages _that you do not control_**?
 
 ### Solution
