@@ -20,7 +20,7 @@ Installing a package that has _just_ been released to CRAN is painful for many u
 When I was designing [The Carpentries Workbench](https://carpentries.github.io/workbench), I needed to make sure that people could reliably install R packages at _any time_ regardless of whether or not they had a compiler set up. 
 
 I use a hybrid model of the R-universe and CRAN to host in-development packages that are not on CRAN alongside their dependencies that are released to CRAN, but also require compilation via their latest release tag on GitHub.
-This provides end users with **a repository that will always contain the most up-to-date binary packages that can be easily restored via {renv} without the need of a compiler.** 
+This provides end users with **a repository that will always contain the most up-to-date binary packages that can be easily restored via [renv](https://rstudio.github.io/renv/) without the need of a compiler.** 
 
 In this blog post, I will provide a summary of the following:
 
@@ -58,15 +58,15 @@ After that, your universe will be available for use at `https://[yourname].r-uni
 Before the R-universe, there were three ways to provide users with your in-development version of a package:
 
 1. have people install from GitHub via `remotes::install_github("user/repo")` or `pak::pkg_install("user/repo")`
-2. provide a {drat} repository (I've [posted about auto-building a drat repository previously](https://zkamvar.netlify.app/blog/gh-drat/))
+2. provide a [drat](https://eddelbuettel.github.io/drat/) repository (I've [posted about auto-building a drat repository previously](https://zkamvar.netlify.app/blog/gh-drat/))
 3. host a cran-like repository on your personal site that contains the tarball
-   (this is how dev versions of the {ape} package used to be distributed)
+   (this is how dev versions of the [ape](http://ape-package.ird.fr/) package used to be distributed)
    
 All of these solutions either required an extra package and syntax for your users (option 1) or it involved extra work on your end to build and provide updates for the packages on your server (options 2 and 3).
 Unless you happen to have access to a Linux, Windows, and macOS machine, you are only able to serve the source version of the packages.
 
 
-**The R universe changes all of that** by allowing us to specify that we want to
+**The R-universe changes all of that** by allowing us to specify that we want to
 deploy releases in our JSON file: 
 
 ```json
@@ -101,9 +101,9 @@ Because of this, we are able to _deploy releases quickly_ and continue to test d
 
 ### Problem
 
-Back in January 2022, [a blog post explaining how {renv} 0.15.0 interacts with the R-universe](/blog/2022/01/06/runiverse-renv/) was put up on the rOpenSci blog.
-It describes the model by which {renv} will restore package versions in R.
-In brief, if {renv} sees a binary package version that's on CRAN or a CRAN archive, it will use that version, and if it does not find that version there, it will install from the R-universe if the SHA hash matches the package DESCRIPTION, and then from the GitHub hash if it does not match.
+Back in January 2022, [a blog post explaining how renv 0.15.0 interacts with the R-universe](/blog/2022/01/06/runiverse-renv/) was put up on the rOpenSci blog.
+It describes the model by which renv will restore package versions in R.
+In brief, if renv sees a binary package version that's on CRAN or a CRAN archive, it will use that version, and if it does not find that version there, it will install from the R-universe if the SHA hash matches the package DESCRIPTION, and then from the GitHub hash if it does not match.
 
 We had initially put up our packages on the R-universe because it was a good way to distribute them without taxing the user's GitHub API calls, but there were some issues to hosting only our packages.
 Imagine that you are a macOS or Windows user and you find that a new-to-you package has just updated on CRAN.
@@ -123,7 +123,7 @@ Do you want to install from sources the packages which need compilation?
 It's clear that [many users simply do not know what to do with this message](https://stackoverflow.com/q/54346839/2752888) and run into problems if they try to install the source version.
 The reason for this message is because CRAN can take up to 3 days to build the MacOS and Windows binary versions of a package that is newly released to CRAN.
 
-{{< figure src = "httpuv-cran-2022-01-06.png" alt = "image of the available downloads for the {httpuv} package showing half of the binary versions at 1.6.5 and the other half at 1.6.4" >}}
+{{< figure src = "httpuv-cran-2022-01-06.png" alt = "image of the available downloads for the httpuv package showing half of the binary versions at 1.6.5 and the other half at 1.6.4" >}}
 
 
 So the question is, if your depends on packages that require a complex setup to install the source version, how do you prevent this situation from happening?
@@ -155,13 +155,13 @@ If either of these are not met, this solution will not work, but you might be ab
 
 ## Seamless bugfixes ahead of cran {#pre-cran}
 
-In March 2023, {renv} released version 0.17.0, and subsequently [caused chaos
-with lesson workflows using {sandpaper}](https://github.com/carpentries/sandpaper/issues/406).
+In March 2023, renv released version 0.17.0, and subsequently [caused chaos
+with lesson workflows using sandpaper](https://github.com/carpentries/sandpaper/issues/406).
 
-Thanks to the rapid response from Kevin Ushey, I was able to get him to provide bugfixes that addressed these issues to the dev version of {renv}.
+Thanks to the rapid response from Kevin Ushey, I was able to get him to provide bugfixes that addressed these issues to the dev version of renv.
 However, he was also dealing with other bugfixes before he could resubmit to CRAN, so how was I to deploy these fixes to my community before he submitted the fix to CRAN, which could take days?
 
-I added **the specific bugfix tag/commit**[^commit] from {renv} to my `packages.json` file:
+I added **the specific bugfix tag/commit**[^commit] from renv to my `packages.json` file:
 
 ```json
 [
@@ -175,7 +175,7 @@ I added **the specific bugfix tag/commit**[^commit] from {renv} to my `packages.
 
 [^commit]: I could have also specified `"branch": "fd9181395e13652d2b3dc942ac1bf807e9564c25"`
 
-When users installed {renv} from The Carpentries R-universe, they would get version 0.17.0-38 until Kevin pushed the bugfix to CRAN.
+When users installed renv from The Carpentries R-universe, they would get version 0.17.0-38 until Kevin pushed the bugfix to CRAN.
 Note that Kevin was very diligent about bumping the development version number and adding a tag to every fix, but this would still work as long as the developer used _any form of development version_ on GitHub.
 
 The reason this works is because of the same reason that we can serve binaries before they are built on CRAN: `install.packages()` will always look for the latest version of a package and install that if a binary is available.
@@ -191,13 +191,13 @@ The R-universe solves these problems by providing a way for authors and organisa
 
 ### Grace for my past self
 
-When I was a grad student, I wrote my very first R package, [{poppr}](https://grunwaldlab.github.io/poppr), which I had released to CRAN on 2013-05-26.
-In 2014, we released the paper describing {poppr} and were preparing to give [our first workshop](https://grunwaldlab.github.io/Population_Genetics_in_R/) for plant pathologists at the annual American Phytopathological Meeting.
+When I was a grad student, I wrote my very first R package, [poppr](https://grunwaldlab.github.io/poppr), which I had released to CRAN on 2013-05-26.
+In 2014, we released the paper describing poppr and were preparing to give [our first workshop](https://grunwaldlab.github.io/Population_Genetics_in_R/) for plant pathologists at the annual American Phytopathological Meeting.
 The only catch: I was working on a new version that would introduce many new features that we wanted to highlight in our workshop.
-To get people prepared, I had them to (1) install R, (2) install a C compiler, (3) install {devtools}, and then (4) use `devtools::install_github("grunwaldlab/poppr@candidate-1.1")`.
+To get people prepared, I had them to (1) install R, (2) install a C compiler, (3) install [devtools](https://devtools.r-lib.org/), and then (4) use `devtools::install_github("grunwaldlab/poppr@candidate-1.1")`.
 
 My question to you: how do you think that went over? If the answer is: it was a success, then you are correct! But there is a big caveat to this success: it was only because I had asked each of the >40 participants to email me the results of their installation and then I would troubleshoot these installations via email several weeks before the workshop.
-**If the R-universe had existed back then**, I would have been able to tell people to (1) install R and (2) run `install.packages("poppr", repos = c("https://zkamvar.r-universe.dev", getOptions("repos")))` without having them to wonder why they needed a C compiler (or what it was) and why they needed {devtools}.
+**If the R-universe had existed back then**, I would have been able to tell people to (1) install R and (2) run `install.packages("poppr", repos = c("https://zkamvar.r-universe.dev", getOptions("repos")))` without having them to wonder why they needed a C compiler (or what it was) and why they needed devtools.
 
 
 It's very hard to overstate just how much benefit the R-universe provides to the R community.
