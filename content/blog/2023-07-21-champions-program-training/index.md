@@ -49,7 +49,7 @@ This training was developed for the Champion Program and taught by [Maëlle Salm
 
 ### [Package Development: Not Rocket Science](https://rpkgdev-rocket.netlify.app/)
 
-This two-hour workshop is for R users who’ve already developed or contributed to packages or have taken the Package Development: The Mechanics workshop. It is intended for champions planning to develop a package or submit it for review and who want to learn several tips and tricks on package development.
+This two-hour workshop is for R users who’ve already developed or contributed to packages or have taken the "Package Development: The Mechanics workshop". It is intended for champions planning to develop a package or submit it for review and who want to learn several tips and tricks on package development.
 Ideally, participants attend with a package of their own to use as a playground.
 
 This training was developed for the Champion Program and taught by [Maëlle Salmon](/author/maëlle-salmon/).  
@@ -112,25 +112,37 @@ The following plot shows the number of mentions for each aspect and an example c
 
 Even though the answers to "What did you like the least?" show that most attendees think there is _Nothing_ they liked the least, we identify five areas for improvement: _Level_ of the training, _More time_ for all the content or exercises, _Tools_ used during the workshops,  _Exercises_ during the workshop, _Pace_ of the teaching. In the plot we show the number of mentions and each aspect is followed by a comment explaining the specific improvement, suggestion, or feedback. 
 
-The comments highlight the need for more time to cover content, the desire for better collaboration tools, the request for additional exercises, and the suggestion to offer different levels of training, one for beginners and for competent practitioners. The comments also include expressions of overall satisfaction while mentioning challenges, like time zones. 
+The comments highlight the need for more time to cover content, the desire for better collaboration tools, the request for additional exercises, and the suggestion to offer different levels of training, one for beginners and one for competent practitioners. The comments also include expressions of overall satisfaction while mentioning challenges, like time zones. 
 
 {{< figure src = "feedback_toimprove.jpg" class = "pull-right" alt = "Ranked quantities of five areas of improvement in a bar plot. The aspect are Nothing (12 mentions), Level (5 mentions), More time (4 mentions), Tools (4 mentions), Exercises (3 mentions), and Pace (3 mentions). Each aspect has a comment explaining the specific improvement suggestion or feedback.">}}
 
-The survey data provide us with valuable insights into the participants' perspectives on the strengths and areas for enhancement of our trainings and allow us to take action to further enhance future iterations of the training.
+The survey data provide us with valuable insights into the participants' perspectives on the strengths and areas for improvement of our trainings and will allow us to take action to further enhance future iterations of the training.
 
 
 ## Next Steps
 
-With a new cohort starting this year we plan to improve the schedule for each training session, allowing participants to choose between two runs of the session that cover different time zones, and recording the sessions for participants to watch after the meeting. We will develop guidelines to increase the accessibility of each session and change the order of the workshops. 
+With a new cohort starting this year we plan to improve the schedule for each training session, allowing participants to choose between two runs of the session that cover different time zones, and recording the sessions for participants to watch after the meeting. We will develop guidelines to increasing the accessibility of each session and change the order of the workshops. Specifically, training on how to organize events will be conducted closer to the time when champions should start planning their outreach activities. In this way they will be able to use the workshop to work on their concrete proposals and receive feedback from the instructors and the rest of their peers. 
 
-With these actions we intend to address some of the difficulties related to time zones, accessibility and participants' other commitments. 
+With these actions we intend to address some of the difficulties related to time zones, accessibility, and participants' other commitments. 
 
 
 ## Achievements
 
-We developed a new curriculum involving not only rOpenSci staff but also champions and mentors from other communities, growing and strengthening the connections of our community. 
+We developed a new curriculum involving not only rOpenSci staff but also champions,  mentors, and individuals from other communities, which has strengthened the connections between rOpenSci and others in our shared ecosystem. 
 
-We also published all the material with open licenses, that allow other organizations, like The Netherlands eScience Center to adapt and reuse our material for training mentors for their fellow program.  
+We also published all the training material with open licenses. This has enabled other organizations, such as The Netherlands eScience Center, to adapt and reuse our materials for training mentors for their own fellows programs.  
 
 Overall, the rOpenSci Champions Program successfully trained participants in essential skills for their role as champions and mentors while fostering engagement and collaboration in open-source research software development. 
 
+
+## Acknowledgements
+
+This phase of the champions program was made possible by the work and feedback of many people.
+
+We want to thank the CSCCE team, especially _Lou Woodley_, _Camille Santistevan_, and _Maya Sanghvi_, for their support in designing the overall program and for their "Making a PACT" workshop for the champions.
+
+We also want to thank _Maëlle Salmon_, _Mauro Lepore_, _Paola Corrales_, _Heather Turner_, and _Yanina Bellini Saibene_ for developing and teaching the rest of the workshops in the program and to _Yanina_ for supporting the design of the new workshops, the support infrastructure and organizing all the training.
+
+We also thank _Batool Almarzouq_ for her feedback on the idea of mentor training and _Abigail Cabunoc Mayes_ for her advice and material in developing the mentors workshop.
+
+Finally, thanks to our [champions and mentors](/champions/) for actively participating and sharing their recommendations to improve the training of the program.
