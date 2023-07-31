@@ -4,6 +4,7 @@ author:
   - Yanina Bellini Saibene
   - Camille Santistevan
   - Maya Sanghvi
+  - Lou Woodley
   - Maëlle Salmon
   - Mauro Lepore
   - Heather Turner
@@ -39,7 +40,7 @@ Participants are welcome to review the CSCCE’s free guidebook on Zenodo ahead 
 
 All champions must complete this training.
 
-This training was taught by Camille Santistevan and Maya Sanghvi.
+This training was taught by [Camille Santistevan](/author/camille-santistevan/) and [Maya Sanghvi](/author/maya-sanghvi/).
 
 ### [Package Development: The Mechanics](https://rpkgdev-mechanics.netlify.app/)
 
@@ -90,7 +91,7 @@ We also conduct a workshop for those not selected to be champions. The aim of th
 
 It is a three-hour course on using Git and GitHub to collaboratively develop open-source software with the R language. The training presents how to work with Git, using the command line, RStudio, and GitHub. The workshop introduces the concept of version control systems, local and remote repositories, and actions like stage, commit, push, pull, and merge.  It also shows how to collaborate with others through forks and pull requests. The workshop has hands-on and group exercises.
 
-The training was developed by [Paola Corrales](https://ropensci.org/author/pao-corrales/) and taught by Paola and Yanina Bellini Saibene. 
+The training was developed by [Paola Corrales](/author/pao-corrales/) and taught by Paola and Yanina Bellini Saibene. 
 
 
 ## What do our participants think of the training received?
