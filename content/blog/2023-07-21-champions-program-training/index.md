@@ -18,6 +18,7 @@ description: ""
 
 Our first cohort of the [rOpenSci Champions Program](/champions/) has now completed the first phase of their training. In this article, we share the curriculum created for the champions, mentors, and applicants, and what we learned in this pilot.
 
+
 ## Training for the Champions
 
 We planned a six-week training that covered the following topics:
@@ -121,7 +122,7 @@ The survey data provide us with valuable insights into the participants' perspec
 
 ## Next Steps
 
-With a new cohort starting this year we plan to improve the schedule for each training session, allowing participants to choose between two runs of the session that cover different time zones, and recording the sessions for participants to watch after the meeting. We will develop guidelines to increasing the accessibility of each session and change the order of the workshops. Specifically, training on how to organize events will be conducted closer to the time when champions should start planning their outreach activities. In this way they will be able to use the workshop to work on their concrete proposals and receive feedback from the instructors and the rest of their peers. 
+With a new cohort starting this year ([you can apply now](/blog/2023/07/14/call-champions-program/)!) we plan to improve the schedule for each training session, allowing participants to choose between two runs of the session that cover different time zones, and recording the sessions for participants to watch after the meeting. We will develop guidelines to increasing the accessibility of each session and change the order of the workshops. Specifically, training on how to organize events will be conducted closer to the time when champions should start planning their outreach activities. In this way they will be able to use the workshop to work on their concrete proposals and receive feedback from the instructors and the rest of their peers. 
 
 With these actions we intend to address some of the difficulties related to time zones, accessibility, and participants' other commitments. 
 
@@ -130,7 +131,7 @@ With these actions we intend to address some of the difficulties related to time
 
 We developed a new curriculum involving not only rOpenSci staff but also champions,  mentors, and individuals from other communities, which has strengthened the connections between rOpenSci and others in our shared ecosystem. 
 
-We also published all the training material with open licenses. This has enabled other organizations, such as The Netherlands eScience Center, to adapt and reuse our materials for training mentors for their own fellows programs.  
+We also published all the training material with open licenses. This has enabled other organizations, such as The Netherlands eScience Center, to adapt and reuse our materials for training mentors for their own fellows programs.  If you use our training materials, please consider [tell us by sharing your use case](/usecases/).
 
 Overall, the rOpenSci Champions Program successfully trained participants in essential skills for their role as champions and mentors while fostering engagement and collaboration in open-source research software development. 
 
