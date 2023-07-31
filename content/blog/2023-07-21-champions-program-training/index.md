@@ -108,13 +108,13 @@ When we analyze the responses to "What did you like the most?" we found four pos
 
 The following plot shows the number of mentions for each aspect and an example comment explaining why it was perceived positively by the participants. The comments highlight various aspects of the training, such as enjoyable interactions, valuable tools provided, opportunities for reflection and a good structure based on practice after instruction.
 
-{{< figure src = "feedback_positive.jpg" class = "pull-left" alt = "Ranked quantities of four different positive aspects in a bar plot. The aspects are Material and Resources (15 mentions), Interaction with other participants, (10 mentions), Exercises (8 mentions), and Structure (7 mentions). Each aspect is followed by a comment explaining why it was perceived positively by the participants.">}}
+{{< figure src = "feedback_positive.png" class = "pull-left" alt = "Ranked quantities of four different positive aspects in a bar plot. The aspects are Material and Resources (15 mentions), Interaction with other participants, (10 mentions), Exercises (8 mentions), and Structure (7 mentions). Each aspect is followed by a comment explaining why it was perceived positively by the participants.">}}
 
 Even though the answers to "What did you like the least?" show that most attendees think there is _Nothing_ they liked the least, we identify five areas for improvement: _Level_ of the training, _More time_ for all the content or exercises, _Tools_ used during the workshops,  _Exercises_ during the workshop, _Pace_ of the teaching. In the plot we show the number of mentions and each aspect is followed by a comment explaining the specific improvement, suggestion, or feedback. 
 
 The comments highlight the need for more time to cover content, the desire for better collaboration tools, the request for additional exercises, and the suggestion to offer different levels of training, one for beginners and one for competent practitioners. The comments also include expressions of overall satisfaction while mentioning challenges, like time zones. 
 
-{{< figure src = "feedback_toimprove.jpg" class = "pull-right" alt = "Ranked quantities of five areas of improvement in a bar plot. The aspect are Nothing (12 mentions), Level (5 mentions), More time (4 mentions), Tools (4 mentions), Exercises (3 mentions), and Pace (3 mentions). Each aspect has a comment explaining the specific improvement suggestion or feedback.">}}
+{{< figure src = "feedback_toimprove.png" class = "pull-right" alt = "Ranked quantities of five areas of improvement in a bar plot. The aspect are Nothing (12 mentions), Level (5 mentions), More time (4 mentions), Tools (4 mentions), Exercises (3 mentions), and Pace (3 mentions). Each aspect has a comment explaining the specific improvement suggestion or feedback.">}}
 
 The survey data provide us with valuable insights into the participants' perspectives on the strengths and areas for improvement of our trainings and will allow us to take action to further enhance future iterations of the training.
 
