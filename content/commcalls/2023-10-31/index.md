@@ -1,5 +1,5 @@
 ---
-title: "R in Goverment"
+title: "Multilingual Publishing"
 dateStart: 2023-10-21T12:00:00 # UTC!!
 dateEnd: 2023-10-21T13:00:00 # UTC!!
 date: 2023-10-21T13:00:00 # UTC!! same as dateEnd
