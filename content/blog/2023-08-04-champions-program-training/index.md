@@ -10,7 +10,7 @@ author:
   - Mauro Lepore
   - Heather Turner
   - Pao Corrales
-date: '2023-07-21'
+date: '2023-08-04'
 tags:
   - community
   - champions program
