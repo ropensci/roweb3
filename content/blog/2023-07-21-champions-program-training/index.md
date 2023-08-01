@@ -77,32 +77,31 @@ The workshop presented tools and strategies to find a bug to work on and discuss
 
 This training was developed and taught by [Heather Turner](/author/heather-turner/), and was open to all Champions and Mentors.
 
-In addition, champions are invited to the training session for non-selected applicants as an optional activity.
 
 ## Training for the Mentors
+In addition to the following workshop, Mentors were invited to all the training sessions offered to Champions and non-selected applicants as an optional activity.
 
 ### [rOpenSci Champions Program. Mentorship Training and Orientation](https://ropensci-training.github.io/ropensci-mentors/)
 
-Mentors develop their mentoring skills during this training and orientation, which covers active listening, effective questioning, and giving feedback. They receive resources for their mentoring roles, such as the Mentors' Guidelines, Meeting Templates, and details of the logistics of the champions program.
+Mentors developed their mentoring skills during this training and orientation, which covered active listening, effective questioning, and giving feedback. They received resources for their mentoring roles, such as the Mentors' Guidelines, Meeting Templates, and details of the logistics of the Champions Program.
 
-This training was developed for the Champion Program, taught by [Yanina Bellini Saibene](/author/yanina-bellini-saibene/), and all mentors must complete it. 
+This training was mandatory for all Mentors. It was developed for the Champions Program and taught by [Yanina Bellini Saibene](/author/yanina-bellini-saibene/).
 
-In addition, mentors are invited to all the trainings sessions offered to champions and non-selected applicants as an optional activity.
 
 ## Training for non-selected applicants
 
-We also conduct a workshop for those not selected to be champions. The aim of this workshop is to provide an opportunity for all applicants to develop skills in open-source software development to support their their professional advancement, which may include future applications to this or other similar programs.
+We also conducted a workshop for those not selected to be Champions. The aim of this workshop was to provide an opportunity for all applicants to develop skills in open-source software development to support their their professional advancement, which may include future applications to this or other similar programs.
 
 ### [Developing Software Together](https://paocorrales.github.io/git-developing-software-together/)  
 
-It is a three-hour course on using Git and GitHub to collaboratively develop open-source software with the R language. The training presents how to work with Git, using the command line, RStudio, and GitHub. The workshop introduces the concept of version control systems, local and remote repositories, and actions like stage, commit, push, pull, and merge.  It also shows how to collaborate with others through forks and pull requests. The workshop has hands-on and group exercises.
+This was a three-hour course on using Git and GitHub to collaboratively develop open-source software with the R language. The training presented how to work with Git, using the command line, RStudio, and GitHub. The workshop introduced the concept of version control systems, local and remote repositories, and actions like stage, commit, push, pull, and merge.  It also demonstrated how to collaborate with others through forks and pull requests. The workshop had hands-on and group exercises.
 
-The training was developed by [Paola Corrales](/author/pao-corrales/) and taught by Paola and Yanina Bellini Saibene. 
+This training was developed by [Paola Corrales](/author/pao-corrales/) and taught by Paola and Yanina Bellini Saibene. 
 
 
 ## What do our participants think of the training received?
 
-At the end of each workshop, we asked those who participated to fill out an anonymous survey telling us three things: 
+At the end of each workshop, we asked those who participated to fill out an anonymous survey asking three questions: 
 
 * What did you like the most?
 
@@ -110,9 +109,9 @@ At the end of each workshop, we asked those who participated to fill out an anon
 
 * Can you rate this meeting? (on a scale from 1-worst to 5-best). 
 
-We plan to use this feedback to improve the next run of the champions program. The average score for all the training sessions is **4.6**, which shows that the attendees are very satisfied with the workshops. 
+We plan to use this feedback to improve the next run of the Champions Program. The average score for all the training sessions was **4.6**, which shows that the attendees are very satisfied with the workshops. 
 
-When we analyze the responses to "What did you like the most?" we found four positive aspects mentioned: _Interaction with other participants_, _Structure_ of the workshop, _Material and Resources_ shared during the workshop, and _Exercises_ performed during training. 
+When we analyze the responses to "What did you like the most?" we found four positive aspects mentioned: _Interaction with other participants_, _Structure_ of the workshop, _Materials and Resources_ shared during the workshop, and _Exercises_ performed during training. 
 
 The following plot shows the number of mentions for each aspect and an example comment explaining why it was perceived positively by the participants. The comments highlight various aspects of the training, such as enjoyable interactions, valuable tools provided, opportunities for reflection and a good structure based on practice after instruction.
 
@@ -124,33 +123,32 @@ The comments highlight the need for more time to cover content, the desire for b
 
 {{< figure src = "feedback_toimprove.png" class = "pull-right" alt = "Ranked quantities of five areas of improvement in a bar plot. The aspect are Nothing (12 mentions), Level (5 mentions), More time (4 mentions), Tools (4 mentions), Exercises (3 mentions), and Pace (3 mentions). Each aspect has a comment explaining the specific improvement suggestion or feedback.">}}
 
-The survey data provide us with valuable insights into the participants' perspectives on the strengths and areas for improvement of our trainings and will allow us to take action to further enhance future iterations of the training.
+The survey data provided us with valuable insights into the participants' perspectives on the strengths and areas for improvement of our workshops. We're looking forward to taking these comments into account when we develop the next set of training sessions.
 
 
 ## Next Steps
 
-With a new cohort starting this year ([you can apply now](/blog/2023/07/14/call-champions-program/)!) we plan to improve the schedule for each training session, allowing participants to choose between two runs of the session that cover different time zones, and recording the sessions for participants to watch after the meeting. We will develop guidelines to increasing the accessibility of each session and change the order of the workshops. Specifically, training on how to organize events will be conducted closer to the time when champions should start planning their outreach activities. In this way they will be able to use the workshop to work on their concrete proposals and receive feedback from the instructors and the rest of their peers. 
+With a new cohort starting this year ([you can apply now](/blog/2023/07/14/call-champions-program/)!) we plan to improve the schedule for each training session, allowing participants to choose between two runs of the session that cover different time zones, and recording the sessions for participants to watch after the meeting. We will develop guidelines to increase accessibility of each session and will change the order of the workshops. Specifically, training on how to organize events will be conducted closer to the time when Champions should start planning their outreach activities. In this way they will be able to use the workshop to work on their concrete proposals and receive feedback from the instructors and the rest of their peers. 
 
-With these actions we intend to address some of the difficulties related to time zones, accessibility, and participants' other commitments. 
 
 
 ## Achievements
 
-We developed a new curriculum involving not only rOpenSci staff but also champions,  mentors, and individuals from other communities, which has strengthened the connections between rOpenSci and others in our shared ecosystem. 
+We developed a new curriculum involving not only rOpenSci staff but also Champions, Mentors, and individuals from other communities, which has strengthened connections among rOpenSci and others in our shared ecosystem. 
 
-We also published all the training material with open licenses. This has enabled other organizations, such as The Netherlands eScience Center, to adapt and reuse our materials for training mentors for their own fellows programs.  If you use our training materials, please consider [tell us by sharing your use case](/usecases/).
+We also published all the training material with open licenses. This has enabled other organizations, such as [The Netherlands eScience Center](https://www.esciencecenter.nl/), to adapt and reuse our materials for training Mentors for their own [Fellowship program](https://www.esciencecenter.nl/fellowship-programme/).  If you use our training materials, please let us know [by sharing your use case](/usecases/).
 
-Overall, the rOpenSci Champions Program successfully trained participants in essential skills for their role as champions and mentors while fostering engagement and collaboration in open-source research software development. 
+Overall, the rOpenSci Champions Program successfully trained participants in essential skills for their role as Champions and Mentors while fostering engagement and collaboration in open-source research software development. 
 
 
 ## Acknowledgements
 
-This phase of the champions program was made possible by the work and feedback of many people.
+This phase of the Champions Program was made possible by the work and feedback of many people.
 
-We want to thank the CSCCE team, especially _Lou Woodley_, _Camille Santistevan_, and _Maya Sanghvi_, for their support in designing the overall program and for their "Making a PACT" workshop for the champions.
+We want to thank the CSCCE team, especially _Lou Woodley_, _Camille Santistevan_, and _Maya Sanghvi_, for their support in designing the overall program and for their "Making a PACT" workshop for the Champions.
 
 We also want to thank _Maëlle Salmon_, _Mauro Lepore_, _Paola Corrales_, _Heather Turner_, and _Yanina Bellini Saibene_ for developing and teaching the rest of the workshops in the program and to _Yanina_ for supporting the design of the new workshops, the support infrastructure and organizing all the training.
 
-We also thank _Batool Almarzouq_ for her feedback on the idea of mentor training and _Abigail Cabunoc Mayes_ for her advice and material in developing the mentors workshop.
+We also thank _Batool Almarzouq_ for her feedback on the idea of Mentor training and _Abigail Cabunoc Mayes_ for her advice and material in developing the Mentor's workshop.
 
-Finally, thanks to our [champions and mentors](/champions/) for actively participating and sharing their recommendations to improve the training of the program.
+Finally, thanks to our [Champions and Mentors](/champions/) for actively participating and sharing their recommendations to improve the training sessions in this program.
