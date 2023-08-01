@@ -71,11 +71,11 @@ This training was developed for the Champion Program and taught by [Mauro Lepore
 
 ### [How to contribute to base R](/events/2023-05-18-how-to-contribute-base-r/ )
 
-This workshop is a 60-minute walkthrough of how to contribute to base R. The outline includes how to contribute to a bug, confirm a bug, diagnose a bug, and propose a fix to code/documentation.  
+This workshop was a 60-minute walk-through of how to contribute to base R. It included how to contribute to a bug, confirm a bug, diagnose a bug, and propose a fix to code/documentation.  
 
-The workshop presents tools and strategies to find a bug to work on and discusses what features make a bug good for a first-timer. Using real bug reports, participants practice identifying good first issues. Then the process of debugging code/documentation is introduced in a collaborative exercise. Participants are briefly shown how to propose a bug fix by commenting on Bugzilla or creating a patch using GitHub. Finally, pointers are shared to further help and resources.
+The workshop presented tools and strategies to find a bug to work on and discussed which features make a bug good for a first-timer. Using real bug reports, participants practiced identifying good first issues. Then the process of debugging code/documentation was introduced in a collaborative exercise. Participants were briefly shown how to propose a bug fix by commenting on Bugzilla or creating a patch using GitHub. Finally, pointers and resources were shared.
 
-This training was developed and taught by [Heather Turner](/author/heather-turner/), and is open to all champions and mentors.
+This training was developed and taught by [Heather Turner](/author/heather-turner/), and was open to all Champions and Mentors.
 
 In addition, champions are invited to the training session for non-selected applicants as an optional activity.
 
