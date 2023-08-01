@@ -1,5 +1,6 @@
 ---
 title: "rOpenSci Champions Pilot Year: Training Wrap-Up"
+slug: "champions-program-training"
 author:
   - Yanina Bellini Saibene
   - Camille Santistevan
@@ -18,12 +19,16 @@ tags:
 description: ""
 ---
 
-Our first cohort of the [rOpenSci Champions Program](/champions/) has now completed the first phase of their training. In this article, we share the curriculum created for the champions, mentors, and applicants, and what we learned in this pilot.
+Our first cohort of the [rOpenSci Champions Program](/champions/) has now completed the first phase of their training.
+One of the goals of this program was to ensure that all participants gained new skills and understanding.
+We wanted to support Champions and Mentors, but also those who applied to the program but were not selected. 
+Therefore we ensured that all groups had access to different training opportunities.
 
+In this article, we share the curriculum created for the Champions, Mentors, and non-selected applicants, as well as what we learned during this pilot.
 
 ## Training for the Champions
 
-We planned a six-week training that covered the following topics:
+We planned six weeks of training that covered the following topics:
 
 * how to plan and facilitate engaging and inclusive workshops to support participants’ success,
 * knowledge of various channels through which new members can engage in and contribute to rOpenSci and R projects, and
