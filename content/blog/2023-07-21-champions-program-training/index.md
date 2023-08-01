@@ -1,5 +1,5 @@
 ---
-title: "Training at the rOpenSci Champions Program Pilot"
+title: "rOpenSci Champions Pilot Year: Training Wrap-Up"
 author:
   - Yanina Bellini Saibene
   - Camille Santistevan
@@ -8,12 +8,13 @@ author:
   - Maëlle Salmon
   - Mauro Lepore
   - Heather Turner
-  - Paola Corrales
+  - Pao Corrales
 date: '2023-07-21'
 tags:
   - community
   - champions program
   - training
+  - workshops
 description: ""
 ---
 
