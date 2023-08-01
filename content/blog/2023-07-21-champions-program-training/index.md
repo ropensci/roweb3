@@ -34,42 +34,42 @@ We planned six weeks of training that covered the following topics:
 * knowledge of various channels through which new members can engage in and contribute to rOpenSci and R projects, and
 * technical skills in software development and review.
 
-The final curriculum for this pilot consisted of 5 courses:
+The final curriculum for this pilot consisted of 5 courses.
+In addition, Champions were invited to the [training session for non-selected applicants](#training-for-non-selected-applicants) as an optional activity.
 
 ### Making a PACT for engaging virtual meetings and events
 
 In this 90-minute mini-workshop hosted by the [Center for Scientific Collaboration and Community Engagement](https://www.cscce.org/),
-participants explore designing and facilitating engaging and productive virtual meetings and events.
+participants explored designing and facilitating engaging and productive virtual meetings and events.
 
-Participants discuss the opportunities and challenges of working together online and outline the “Making a PACT” framework for effective meeting design. In addition to reviewing examples of the framework in action, attendees practice applying it  to some example scenarios to empower them to try using  the framework in their own work.
-Participants are welcome to review the CSCCE’s free guidebook on Zenodo ahead of the session: [A guide to using virtual events to facilitation community building: Making a PACT for more engaging virtual meetings and events](https://zenodo.org/record/4987666#.Y-1Y4nbMK5c)
+Participants discussed the opportunities and challenges of working together online and outlined the “Making a PACT” framework for effective meeting design. In addition to reviewing examples of the framework in action, attendees practiced applying it to some example scenarios to empower them to try using the framework in their own work.
+Participants were welcome to review the CSCCE’s free guidebook on Zenodo ahead of the session: [A guide to using virtual events to facilitation community building: Making a PACT for more engaging virtual meetings and events](https://zenodo.org/record/4987666#.Y-1Y4nbMK5c)
 
-All champions must complete this training.
-
-This training was taught by [Camille Santistevan](/author/camille-santistevan/) and [Maya Sanghvi](/author/maya-sanghvi/).
+This training was mandatory for all Champions, and was taught by [Camille Santistevan](/author/camille-santistevan/) and [Maya Sanghvi](/author/maya-sanghvi/).
 
 ### [Package Development: The Mechanics](https://rpkgdev-mechanics.netlify.app/)
 
-In this two-hour session with a live demo, an rOpenSci trainer demystifies the creation of an R package. R packages are mostly well-organized folders, with automatic tools to help, such as usethis.
+In this two-hour session with a live demo, an rOpenSci trainer demystified the creation of R packages. R packages are mostly well-organized folders, with automatic tools to help, such as usethis.
+This workshop was intended for Champions planning to develop a package who had not previously developed or contributed to packages.
 
-This training was developed for the Champion Program and taught by [Maëlle Salmon](/author/maëlle-salmon/).  It is intended for champions planning to develop a package who have not previously developed or contributed to packages.
+This training was developed for the Champions Program and taught by [Maëlle Salmon](/author/maëlle-salmon/).
 
 
 ### [Package Development: Not Rocket Science](https://rpkgdev-rocket.netlify.app/)
 
-This two-hour workshop is for R users who’ve already developed or contributed to packages or have taken the "Package Development: The Mechanics workshop". It is intended for champions planning to develop a package or submit it for review and who want to learn several tips and tricks on package development.
-Ideally, participants attend with a package of their own to use as a playground.
+This two-hour workshop was for R users who had already developed or contributed to packages or had taken the "Package Development: The Mechanics workshop". It was intended for Champions planning to develop a package or submit it for review and who wanted to learn several tips and tricks on package development.
+Ideally, participants attended with a package of their own to use as a playground.
 
 This training was developed for the Champion Program and taught by [Maëlle Salmon](/author/maëlle-salmon/).  
 
 ### [How rOpenSci Performs Peer Review](https://github.com/maurolepore/ropensci-review)
 
-This one-hour workshop is for people wanting to try the rOpenSci review process, particularly for champions who will send a package to review or become reviewers. We review the way we communicate, build, and review software with selected examples and resources, with some time for questions and comments.
+This one-hour workshop was for people wanting to try the rOpenSci review process, particularly for Champions planning to send a package to review or become reviewers. We reviewed the way we communicate, build, and review software with selected examples and resources, with some time for questions and comments.
 
 This training was developed for the Champion Program and taught by [Mauro Lepore](/author/mauro-lepore/). 
 
 
-### [How to contribute to base R](https://ropensci.org/events/2023-05-18-how-to-contribute-base-r/ )
+### [How to contribute to base R](/events/2023-05-18-how-to-contribute-base-r/ )
 
 This workshop is a 60-minute walkthrough of how to contribute to base R. The outline includes how to contribute to a bug, confirm a bug, diagnose a bug, and propose a fix to code/documentation.  
 
