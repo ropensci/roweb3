@@ -90,7 +90,7 @@ This training was mandatory for all Mentors. It was developed for the Champions 
 
 ## Training for non-selected applicants
 
-We also conducted a workshop for those not selected to be Champions. The aim of this workshop was to provide an opportunity for all applicants to develop skills in open-source software development to support their their professional advancement, which may include future applications to this or other similar programs.
+We also conducted a workshop for those not selected to be Champions. The aim of this workshop was to provide an opportunity for all applicants to develop skills in open-source software development to support their professional advancement, which may include future applications to this or other similar programs.
 
 ### [Developing Software Together](https://paocorrales.github.io/git-developing-software-together/)  
 
@@ -117,7 +117,7 @@ The following plot shows the number of mentions for each aspect and an example c
 
 {{< figure src = "feedback_positive.png" class = "pull-left" alt = "Ranked quantities of four different positive aspects in a bar plot. The aspects are Material and Resources (15 mentions), Interaction with other participants, (10 mentions), Exercises (8 mentions), and Structure (7 mentions). Each aspect is followed by a comment explaining why it was perceived positively by the participants.">}}
 
-Even though the answers to "What did you like the least?" show that most attendees think there is _Nothing_ they liked the least, we identify five areas for improvement: _Level_ of the training, _More time_ for all the content or exercises, _Tools_ used during the workshops,  _Exercises_ during the workshop, _Pace_ of the teaching. In the plot we show the number of mentions and each aspect is followed by a comment explaining the specific improvement, suggestion, or feedback. 
+Even though the answers to "What did you like the least?" show that most attendees think there is _Nothing_ they liked the least, we identify five areas for improvement: _Level_ of the training, _More time_ for all the content or exercises, _Tools_ used during the workshops, _Exercises_ during the workshop, and _Pace_ of the teaching. In the plot we show the number of mentions and each aspect is followed by a comment explaining the specific improvement, suggestion, or feedback. 
 
 The comments highlight the need for more time to cover content, the desire for better collaboration tools, the request for additional exercises, and the suggestion to offer different levels of training, one for beginners and one for competent practitioners. The comments also include expressions of overall satisfaction while mentioning challenges, like time zones. 
 
