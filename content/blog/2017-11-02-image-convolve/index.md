@@ -21,7 +21,7 @@ was requested by Thomas L. Pedersen. In this post we explain what this is all ab
 
 The new `image_convolve()` function applies a [kernel](https://en.wikipedia.org/wiki/Kernel_(image_processing)) over the image. Kernel convolution means that each pixel value is recalculated using the *weighted neighborhood sum* defined in the kernel matrix. For example lets look at this simple kernel:
 
-```{r}
+```r
 library(magick)
 
 kern <- matrix(0, ncol = 3, nrow = 3)
@@ -37,7 +37,7 @@ kern
 
 This kernel changes each pixel to the mean of its horizontal and vertical neighboring pixels, which results in a slight blurring effect in the right-hand image below:
 
-```{r}
+```r
 img <- image_read('logo:')
 img_blurred <- image_convolve(img, kern)
 image_append(c(img, img_blurred))
@@ -53,7 +53,7 @@ actually special cases of image convolution. The benefit of explicitly using
 it together with the original image in one step by mixing a blurring kernel with the
 unit kernel:
 
-```{r}
+```r
 img %>% image_convolve('Gaussian:0x5', scaling = '60,40%')
 ```
 
@@ -74,7 +74,7 @@ Another area where kernels are of use is in edge detection. A simple example of
 a direction-aware edge detection kernel is the [*Sobel*](https://en.wikipedia.org/wiki/Sobel_operator) kernel.
 As can be seen below, vertical edges are detected while horizontals are not.
 
-```{r}
+```r
 img %>% image_convolve('Sobel') %>% image_negate()
 ```
 
@@ -86,7 +86,7 @@ To combat this it is possible to add a `bias` to the result. Often you'll end up
 scaling the kernel to 50% and adding 50% bias to move the midpoint of the result to 50%
 grey:
 
-```{r}
+```r
 img %>% image_convolve('Sobel', scaling = '50%', bias = '50%')
 ```
 
@@ -98,7 +98,7 @@ ImageMagick has many more edge detection kernels, some of which are insensitive 
 the direction of the edge. To emulate a classic high-pass filter from photoshop use
 [difference of gaussians](https://en.wikipedia.org/wiki/Difference_of_Gaussians) kernel:
 
-```{r}
+```r
 img %>% image_convolve('DoG:0,0,2') %>% image_negate()
 ```
 
@@ -106,7 +106,7 @@ img %>% image_convolve('DoG:0,0,2') %>% image_negate()
 
 As with the blurring, the original image can be blended in with the transformed one, effectively sharpening the image along edges.
 
-```{r}
+```r
 img %>% image_convolve('DoG:0,0,2', scaling = '100, 100%')
 ```
 

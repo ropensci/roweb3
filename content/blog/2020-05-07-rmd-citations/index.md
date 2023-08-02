@@ -177,7 +177,7 @@ To produce the bibliography, we combined everything together in an R code chunk.
 It came before the definition of another, non-citation, footnote.[^footnote]
 
 ````markdown
-```{r bib, echo = FALSE, results = "asis"} 
+```r 
 get_doi <- function(paper) {
   if (is.null(paper$doi)) {
     ""
