@@ -6,9 +6,9 @@ date: 2023-11-23T13:00:00 # UTC!! same as dateEnd
 publishDate: 2023-08-03
 description: 
 author:
-  - 
-  - 
-  - 
+  - Paola Corrales
+  - Elio Campitelli
+  - Maëlle Salmon
 organizer: Yanina Bellini Saibene
 location: Community call (teleconference)
 country: "\U0001F310"
@@ -23,7 +23,7 @@ outputs:
 resources:
   - url: https://devdevguide.netlify.app/es/preface.es.html
     name: rOpenSci DEvelopment Guide in Spanish
-    details:  First version of the rOpenSci Packages: Development, Maintenance, and Peer Review in Spanish
+    details: first version of the rOpenSci Packages. Development, Maintenance, and Peer Review in Spanish
   - url: https://docs.ropensci.org/babeldown/
     name: babeldown R package
     details: Translate Markdown-based content via DeepL API
@@ -31,7 +31,7 @@ resources:
     name: babelquarto R package
     details: Set up and render a multilingual Quarto book
   - url: /multilingual-publishing/
-    name:   Multilingual Publishing
+    name: Multilingual Publishing
     details: web page with details about the Multilingual Publishing project.
 speakers:  
   - name: Pao Corrales
@@ -53,8 +53,7 @@ deets: |
 zoomurl: https://numfocus-org.zoom.us/j/83866783222?pwd=Y1k3OEJnakc3WVRISlZxQ3NTUU1yZz09
 ---
 
-
-On this call _Maëlle_, _Paola_ and _elio_ will share their experience of 
+On this call _Maëlle_, _Paola_ and _Elio_ will share details of the rOpenSci multilingual project. Maëlle will present the R packages that allow us to have our content in several languages while Elio and Paola will share how is the translation process and present the Translation Guide that was written to document this process. 
 
 
 See below for speaker bios and resources.
