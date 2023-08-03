@@ -25,10 +25,10 @@ resources:
     name: Guía de desarrollo de rOpenSci en Español 
     details: primera versión en español de Paquetes de rOpenSci. Desarrollo, mantenimiento y revisión por pares.
   - url: https://docs.ropensci.org/babeldown/
-    name: paquete de R babeldown 
+    name: Paquete de R babeldown 
     details: Traduce contenido basado en Markdown-based via la API de DeepL
   - url: https://docs.ropensci.org/babelquarto/
-    name: paquete de R babelquarto
+    name: Paquete de R babelquarto
     details: Configura y genera un libro multilingüe con Quarto
   - url: /multilingual-publishing/
     name: Publicaciones Multilingües
@@ -36,7 +36,7 @@ resources:
 speakers:  
   - name: Pao Corrales
     bio: "Pao es candidata a doctora en ciencias atmosféricas y trabaja en la predicción de condiciones meteorológicas adversas en Argentina. También es profesora en la Universidad Nacional Guillermo Brown enseñando R y herramientas relacionadas. También desarrolla materiales de enseñanza con licencia abierta y contribuye a varias comunidades de práctica relacionadas con R."
-    img: /img/team/paola-corrales.jpeg
+    img: /img/team/paola-corrales.png
   - name: Elio Campitelli
     bio: "Elio es estudiante de doctorado en ciencias atmosféricas en el Centro de Investigación Oceánica y Atmosférica. También mantiene varios paquetes R de código abierto (por ejemplo, ggnewscale; metR) y contribuye a otros paquetes, como data.table y ggplot2. Sígele en [mastodon](https://mastodon.social/@eliocamp) y consulta su [sitio web](https://eliocamp.github.io/)."
     img: /img/team/elio-campitelli.jpg
