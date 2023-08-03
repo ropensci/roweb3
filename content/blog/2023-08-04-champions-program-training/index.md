@@ -143,7 +143,7 @@ Overall, the rOpenSci Champions Program successfully trained participants in ess
 
 ## Acknowledgements
 
-This phase of the Champions Program was made possible by the work and feedback of many people.
+The rOpenSci Champions Program is funded by [The Chan Zuckerberg Initiative](https://chanzuckerberg.com/). This phase of the Champions Program was made possible by the work and feedback of many people.
 
 We want to thank the [CSCCE](https://www.cscce.org/) team, especially _Lou Woodley_, _Camille Santistevan_, and _Maya Sanghvi_, for their support in designing the overall program and for their "Making a PACT" workshop for the Champions.
 
