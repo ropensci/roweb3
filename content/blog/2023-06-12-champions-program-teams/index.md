@@ -1,5 +1,6 @@
 ---
 title: "rOpenSci Champions Program Teams: Meet Cheryl Isabella Lim and Mauro Lepore"
+slug: ropensci-champions-program-teams-meet-cheryl-isabella-lim-and-mauro-lepore
 author:
   - Cheryl Isabella Lim
   - Mauro Lepore

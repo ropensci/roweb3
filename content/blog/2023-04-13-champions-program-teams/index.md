@@ -1,5 +1,6 @@
 ---
 title: "rOpenSci Champions Program Teams: Meet Pao Corrales and Adam Sparks"
+slug: ropensci-champions-program-teams-meet-pao-corrales-and-adam-sparks
 author:
   - Pao Corrales
   - Adam Sparks

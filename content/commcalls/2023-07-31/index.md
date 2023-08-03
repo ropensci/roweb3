@@ -2,7 +2,7 @@
 title: "Mentoring & training program for Scientific Open Source Champions"
 dateStart: 2023-07-25T14:00:00 # UTC!!
 dateEnd: 2023-07-25T15:00:00 # UTC!!
-date: 2023-07-31T15:00:00 # UTC!! same as dateEnd
+date: 2023-07-25T15:00:00 # UTC!!
 publishDate: 2023-06-30
 description: Details about the Champions Program + tips for submitting your application + the experience of being an rOpenSci champion or mentor
 author:
@@ -14,12 +14,12 @@ location: Community call (teleconference)
 country: "\U0001F310"
 attendees: All are welcome
 slug: july2023-championprogram
-notes: 
+notes: https://docs.google.com/document/d/1GecPz7czaYOAmFSx1fIH0kwWgDJ1JQ1DhAbJg7xgBbg
 outputs:
 - HTML
 - Calendar 
-# vimeo:
-# - id: 
+vimeo:
+ - id: '848537831'
 resources:
   - url: https://github.com/BroVic/naijR
     name:   R package on Nigeria and for Nigeria 
@@ -52,7 +52,7 @@ zoomurl: https://numfocus-org.zoom.us/j/87549477466?pwd=b0cydVpIYW5yMm9MKzZONG16
 
 Champions programs are designed to identify, recognize, and reward emerging leaders within a community. The [rOpenSci Champions Program](/champions/) is part of a series of activities and projects we are carrying out to ensure our research software serves everyone in our communities, which means that it needs to be sustainable and open, and built by and for all groups.
 
-On this call _Beatriz_, _Victor Ordu_ and _Carolina Pradier_ will share their experience of being rOpenSci mentors and champions. 
+On this call _Beatriz Milz_, _Victor Ordu_ and _Carolina Pradier_ will share their experience of being rOpenSci mentors and champions. 
 We will highlight the benefits of being part of the program for you and for your community, what kind of learning, 
 activities and opportunities an open source community champions program provides. 
 _Yani_ will present the details of our Champion Program and answer all your question about it.

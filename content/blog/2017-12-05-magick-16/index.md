@@ -17,7 +17,7 @@ This week [magick](https://cran.r-project.org/web/packages/magick/vignettes/intr
 The [NEWS](https://cran.r-project.org/web/packages/magick/NEWS) file gives an overview of changes in this version. In this post we highlight some changes.
 
 
-```{r}
+```r
 library(magick)
 stopifnot(packageVersion('magick') >= 1.6)
 ```
