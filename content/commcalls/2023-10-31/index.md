@@ -24,8 +24,9 @@ resources:
   - url: https://devdevguide.netlify.app/es/preface.es.html
     name:   rOpenSci DEvelopment Guide in Spanish
     details:  First version of the rOpenSci Packages: Development, Maintenance, and Peer Review in Spanish
-  - url: 
-    name: 
+  - url: https://docs.ropensci.org/babeldown/
+    name: babeldown R package
+    details: Translate Markdown-based content via DeepL API
   - url: /multilingual-publishing/
     name:   Multilingual Publishing
     details: web page with details about the Multilingual Publishing project.
