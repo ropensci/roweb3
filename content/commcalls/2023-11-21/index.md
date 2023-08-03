@@ -1,5 +1,5 @@
 ---
-title: "Multilingual Publishing"
+title: "Proyecto Miltilingüe"
 dateStart: 2023-11-21T12:00:00 # UTC!!
 dateEnd: 2023-11-21T13:00:00 # UTC!!
 date: 2023-11-21T13:00:00 # UTC!! same as dateEnd
@@ -44,9 +44,9 @@ tags:
   - events
   - multilingual
 deets: |
-    Meeting ID:  875-494-77466
-    Passcode: 516675
-zoomurl: https://numfocus-org.zoom.us/j/87549477466?pwd=b0cydVpIYW5yMm9MKzZONG16RTVsUT09
+    Meeting ID:  874-1993-2577 
+    Passcode: 396025
+zoomurl: https://numfocus-org.zoom.us/j/87419932577?pwd=MGpLbGdRVG5UNUk2dmpkUnE1NjdCUT09
 ---
 
 
