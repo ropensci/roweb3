@@ -1,8 +1,8 @@
 ---
 title: "Multilingual Publishing"
-dateStart: 2023-11-23T12:00:00 # UTC!!
-dateEnd: 2023-11-23T13:00:00 # UTC!!
-date: 2023-11-23T13:00:00 # UTC!! same as dateEnd
+dateStart: 2023-11-21T12:00:00 # UTC!!
+dateEnd: 2023-11-21T13:00:00 # UTC!!
+date: 2023-11-21T13:00:00 # UTC!! same as dateEnd
 publishDate: 2023-08-03
 description: 
 author:
