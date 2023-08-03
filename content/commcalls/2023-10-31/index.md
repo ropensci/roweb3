@@ -1,9 +1,9 @@
 ---
 title: "Multilingual Publishing"
-dateStart: 2023-10-21T12:00:00 # UTC!!
-dateEnd: 2023-10-21T13:00:00 # UTC!!
-date: 2023-10-21T13:00:00 # UTC!! same as dateEnd
-publishDate: 2023-08-19
+dateStart: 2023-11-23T12:00:00 # UTC!!
+dateEnd: 2023-11-23T13:00:00 # UTC!!
+date: 2023-11-23T13:00:00 # UTC!! same as dateEnd
+publishDate: 2023-08-03
 description: 
 author:
   - 
@@ -21,14 +21,14 @@ outputs:
 # vimeo:
 # - id: 
 resources:
-  - url: 
-    name:   
-    details:  
+  - url: https://devdevguide.netlify.app/es/preface.es.html
+    name:   rOpenSci DEvelopment Guide in Spanish
+    details:  First version of the rOpenSci Packages: Development, Maintenance, and Peer Review in Spanish
   - url: 
     name: 
-  - url: /champions/
-    name:   Champions Program
-    details: web page with details about the champion program.
+  - url: /multilingual-publishing/
+    name:   Multilingual Publishing
+    details: web page with details about the Multilingual Publishing project.
 speakers:  
   - name: Pao Corrales
     bio: Pao is a PhD candidate in atmospheric sciences working on severe weather forecasts in Argentina. She is also a professor at Universidad Nacional Guillermo Brown teaching R and related tools. She also develops open-licensed teaching materials and contributes to several communities of practise related to R.
@@ -44,9 +44,9 @@ tags:
   - events
   - multilingual
 deets: |
-    Meeting ID:  875-494-77466
-    Passcode: 516675
-zoomurl: https://numfocus-org.zoom.us/j/87549477466?pwd=b0cydVpIYW5yMm9MKzZONG16RTVsUT09
+    Meeting ID:  838-6678-3222
+    Passcode: 584914
+zoomurl: https://numfocus-org.zoom.us/j/83866783222?pwd=Y1k3OEJnakc3WVRISlZxQ3NTUU1yZz09
 ---
 
 
