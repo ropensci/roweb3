@@ -1,5 +1,5 @@
 ---
-title: "Proyecto Miltilingüe"
+title: "Proyecto Multilingüe"
 dateStart: 2023-11-23T12:00:00 # UTC!!
 dateEnd: 2023-11-23T13:00:00 # UTC!!
 date: 2023-11-23T13:00:00 # UTC!! same as dateEnd
