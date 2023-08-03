@@ -36,7 +36,7 @@ resources:
 speakers:  
   - name: Pao Corrales
     bio: Pao is a PhD candidate in atmospheric sciences working on severe weather forecasts in Argentina. She is also a professor at Universidad Nacional Guillermo Brown teaching R and related tools. She also develops open-licensed teaching materials and contributes to several communities of practise related to R.
-    img: /img/team/paola-corrales.jpeg
+    img: /img/team/paola-corrales.png
   - name: Elio Campitelli
     bio: "Elio is a a PhD student in atmospheric sciences at the Centre for Ocean and Atmospheric Research. They also maintain several open-source R packages (e.g., ggnewscale; metR) and contribute to other packages, such as data.table and ggplot2. Follow them on [mastodon](https://mastodon.social/@eliocamp) and check out their [website](https://eliocamp.github.io/)."
     img: /img/team/elio-campitelli.jpg
