@@ -27,6 +27,9 @@ resources:
   - url: https://docs.ropensci.org/babeldown/
     name: babeldown R package
     details: Translate Markdown-based content via DeepL API
+  - url: https://docs.ropensci.org/babelquarto/
+    name: babelquarto R package
+    details: Set up and render a multilingual Quarto book
   - url: /multilingual-publishing/
     name:   Multilingual Publishing
     details: web page with details about the Multilingual Publishing project.
