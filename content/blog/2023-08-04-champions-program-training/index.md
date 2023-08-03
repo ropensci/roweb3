@@ -130,7 +130,7 @@ The survey data provided us with valuable insights into the participants' perspe
 
 With a new cohort starting this year ([you can apply now](/blog/2023/07/14/call-champions-program/)!) we plan to improve the schedule for each training session, allowing participants to choose between two runs of the session that cover different time zones, and recording the sessions for participants to watch after the meeting. We will develop guidelines to increase accessibility of each session and will change the order of the workshops. Specifically, training on how to organize events will be conducted closer to the time when Champions should start planning their outreach activities. In this way they will be able to use the workshop to work on their concrete proposals and receive feedback from the instructors and the rest of their peers. 
 
-
+We also plan to complete another assessment at the end of the program, including a final survey and interviews with Mentors and Champions with the support of CSCCE team.
 
 ## Achievements
 
@@ -145,7 +145,7 @@ Overall, the rOpenSci Champions Program successfully trained participants in ess
 
 This phase of the Champions Program was made possible by the work and feedback of many people.
 
-We want to thank the CSCCE team, especially _Lou Woodley_, _Camille Santistevan_, and _Maya Sanghvi_, for their support in designing the overall program and for their "Making a PACT" workshop for the Champions.
+We want to thank the [CSCCE](https://www.cscce.org/) team, especially _Lou Woodley_, _Camille Santistevan_, and _Maya Sanghvi_, for their support in designing the overall program and for their "Making a PACT" workshop for the Champions.
 
 We also want to thank _Maëlle Salmon_, _Mauro Lepore_, _Paola Corrales_, _Heather Turner_, and _Yanina Bellini Saibene_ for developing and teaching the rest of the workshops in the program and to _Yanina_ for supporting the design of the new workshops, the support infrastructure and organizing all the training.
 
