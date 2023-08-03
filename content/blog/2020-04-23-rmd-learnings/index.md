@@ -75,7 +75,7 @@ that reads options from the chunk, and uses options from the `hugoopts` named li
 The chunk
 
 ````markdown
-```{r chunkname, hugoopts=list(alt="alternative text please make it informative", caption="this is what this image shows, write it here or in the paragraph after the image as you prefer", width=300)} 
+```r 
 plot(1:10)
 ```
 ````

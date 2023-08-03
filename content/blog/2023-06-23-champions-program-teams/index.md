@@ -1,5 +1,6 @@
 ---
 title: "rOpenSci Champions Program Teams: Meet Ghozayel Elotteebi and Zebulun Arendsee"
+slug: ropensci-champions-program-teams-meet-ghozayel-elotteebi-and-zebulun-arendsee
 author:
   - Ghozayel Elotteebi
   - Zebulun Arendsee

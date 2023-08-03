@@ -1,5 +1,6 @@
 ---
 title: "rOpenSci Champions Program Teams: Meet Marcos Prunello and Lukas Wallrich"
+slug: "ropensci-champions-program-teams-meet-marcos-prunello-and-lukas-wallrich"
 author:
   -  Marcos Prunello
   - Lukas Wallrich
