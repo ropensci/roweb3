@@ -3,7 +3,7 @@ title: "Proyecto Miltilingüe"
 dateStart: 2023-11-21T12:00:00 # UTC!!
 dateEnd: 2023-11-21T13:00:00 # UTC!!
 date: 2023-11-21T13:00:00 # UTC!! same as dateEnd
-publishDate: 2023-07-19
+publishDate: 2023-08-03
 description: 
 author:
   - Maëlle Salmon
