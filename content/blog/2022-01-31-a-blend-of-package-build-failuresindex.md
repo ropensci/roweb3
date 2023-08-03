@@ -45,7 +45,7 @@ Therefore, you need to resort to [pre-computing your vignette or article](/blog/
 Before knitr 1.35, a chunk like the one below, with 4 opening back ticks but only 3 closing back ticks, would have been valid:
 
 `````markdown
-````{r}
+````r
 1 + 1
 ```
 `````

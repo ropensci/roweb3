@@ -120,7 +120,7 @@
     "title": "Using bomrang to correlate weather conditions to sorghum stalk rot (charcoal rot)",
     "reporter": "Adam Sparks",
     "tags": ["weather", "bomrang"],
-    "resource": "[bomrang](https://docs.ropensci.org/bomrang)",
+    "resource": "bomrang",
     "url": "https://discuss.ropensci.org/t/using-bomrang-to-correlate-weather-conditions-to-sorghum-stalk-rot-charcoal-rot/1758",
     "image": "using-bomrang-to-correlate-weather-conditions-to-sorghum-stalk-rot-charcoal-rot.png",
     "date": "2019-07-01"
@@ -174,7 +174,7 @@
     "title": "Using rorcid to generate a website CV",
     "reporter": "Noam Ross",
     "tags": "rorcid",
-    "resource": "rorcid: GitHub - ropensci/rorcid: A programmatic interface the Orcid.org API",
+    "resource": "rorcid: GitHub - ropensci-archive/rorcid: ARCHIVED A programmatic interface the Orcid.org API",
     "url": "https://discuss.ropensci.org/t/using-rorcid-to-generate-a-website-cv/1806",
     "image": "using-rorcid-to-generate-a-website-cv.gif",
     "date": "2019-08-20"
@@ -408,7 +408,7 @@
     "title": "bomrang with a third party package, stationaRy, to get hourly weather data and clifro to plot wind roses",
     "reporter": "Adam Sparks",
     "tags": ["r", "weather", "bomrang", "research-compendia"],
-    "resource": "[bomrang](https://docs.ropensci.org/bomrang), [clifro](https://docs.ropensci.org/clifro)",
+    "resource": "bomrang, [clifro](https://docs.ropensci.org/clifro)",
     "url": "https://discuss.ropensci.org/t/bomrang-with-a-third-party-package-stationary-to-get-hourly-weather-data-and-clifro-to-plot-wind-roses/2082",
     "image": "bomrang-with-a-third-party-package-stationary-to-get-hourly-weather-data-and-clifro-to-plot-wind-roses.png",
     "date": "2020-05-17"
@@ -497,7 +497,7 @@
   {
     "title": "Extraindo tabelas de documentos pdf em R com Tabulizer",
     "reporter": "Pedro Rocha",
-    "tags": ["tabulizer", "portuguese", "português"],
+    "tags": ["tabulizer", "português", "portuguese"],
     "resource": "Tabulizer",
     "url": "https://discuss.ropensci.org/t/extraindo-tabelas-de-documentos-pdf-em-r-com-tabulizer/2178",
     "image": "noimage",
@@ -551,7 +551,7 @@
   {
     "title": "Kontarion - a stack extending rocker/ml-verse for Bibliometric analytics",
     "reporter": "Markus Skyttner",
-    "tags": ["fulltext", "refsplitr", "rcrossref", "oai", "rentrez"],
+    "tags": ["fulltext", "refsplitr", "rcrossref", "rentrez", "oai"],
     "resource": "[oai](https://docs.ropensci.org/oai), [rentrez](https://docs.ropensci.org/rentrez), fulltext, [europepmc](https://docs.ropensci.org/europepmc), [refsplitr](https://docs.ropensci.org/refsplitr), [rcrossref](https://docs.ropensci.org/rcrossref), [citecorp](https://docs.ropensci.org/citecorp), [roadoi](https://docs.ropensci.org/roadoi)",
     "url": "https://discuss.ropensci.org/t/kontarion-a-stack-extending-rocker-ml-verse-for-bibliometric-analytics/2214",
     "image": "noimage",
@@ -902,7 +902,7 @@
   {
     "title": "Predizendo volume de eucalipto com tidymodels, XGBoost e targets",
     "reporter": "Theilon Macêdo",
-    "tags": ["targets", "portuguese", "português"],
+    "tags": ["targets", "português", "portuguese"],
     "resource": "[targets](https://docs.ropensci.org/targets)",
     "url": "https://discuss.ropensci.org/t/predizendo-volume-de-eucalipto-com-tidymodels-xgboost-e-targets/2656",
     "image": "predizendo-volume-de-eucalipto-com-tidymodels-xgboost-e-targets.jpeg",
@@ -956,7 +956,7 @@
   {
     "title": "Analyze your Twitter timeline with rtweet and lubridate",
     "reporter": "Albert Rapp",
-    "tags": ["rtweet", "lubridate", "twitter"],
+    "tags": ["rtweet", "twitter", "lubridate"],
     "resource": "[rtweet](https://docs.ropensci.org/rtweet)",
     "url": "https://discuss.ropensci.org/t/analyze-your-twitter-timeline-with-rtweet-and-lubridate/2931",
     "image": "analyze-your-twitter-timeline-with-rtweet-and-lubridate.png",
@@ -965,7 +965,7 @@
   {
     "title": "Extração de dados sobre heróis negros e negras da Marvel e DC",
     "reporter": "Fernando Almeida Barbalho",
-    "tags": ["tabulizer", "portuguese", "português"],
+    "tags": ["tabulizer", "português", "portuguese"],
     "resource": "tabulizer [pt-br]",
     "url": "https://discuss.ropensci.org/t/extracao-de-dados-sobre-herois-negros-e-negras-da-marvel-e-dc/2952",
     "image": "noimage",
@@ -1033,5 +1033,14 @@
     "url": "https://discuss.ropensci.org/t/delete-all-your-tweets-using-rtweet/3217",
     "image": "delete-all-your-tweets-using-rtweet.png",
     "date": "2022-11-22"
+  },
+  {
+    "title": "Using targets for an omics analysis and report / manuscript",
+    "reporter": "Robert M Flight",
+    "tags": "targets",
+    "resource": "[targets](https://docs.ropensci.org/targets)",
+    "url": "https://discuss.ropensci.org/t/using-targets-for-an-omics-analysis-and-report-manuscript/3541",
+    "image": "using-targets-for-an-omics-analysis-and-report-manuscript.png",
+    "date": "2023-06-26"
   }
 ]

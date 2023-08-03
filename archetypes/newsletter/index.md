@@ -449,7 +449,7 @@ format_post <- function(dir) {
   }
   
   post <- dir[which(dir[["language"]] == main_language),]
-  string <- sprintf("* [%s](%s) by %s", post$title, url, post$author)
+  string <- sprintf("* [%s](%s) by %s", post$title, post$url, post$author)
   if (post$description != "") {
     string <- paste0(string, ". ", sub("\\?$", "", sub("\\!$", "", sub("\\.$", "", post$description), ".")), ".")
   } else {

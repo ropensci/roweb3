@@ -28,58 +28,51 @@ _Thanks to [Adam Sparks](/author/adam-sparks/) for commenting on a draft of this
 
 To make it really easy for users to cite your package, you should store citation metadata in the expected places and advertise it very clearly.
 
-* Create and populate the CITATION file, as thousands of R packages have done (3,386 out of 16,002 packages on CRAN as of the 15th of January, 2021[^thxmark]). It's easy to create a boilerplate with `usethis::use_citation()`.
+* Create and populate the CITATION file, as thousands of R packages have done (3,386 out of 16,002 packages on CRAN as of the 15th of January, 2021[^thxmark]). It's easy to create a boilerplate with `usethis::use_citation()` (update to usethis >= 2.2.0).
 * Archive each release of your GitHub repo on Zenodo and add the [Zenodo top-level DOI](https://help.zenodo.org/#versioning) to the CITATION file.
 * If your software has a clear research application, you can also publish a paper at the Journal of Open Source Software, Journal of Open Research Software among others. You can append a software publication to your CITATION file.
-* Less related to your package itself but to what supports it: if your package wraps a particular resource such as data source or, say, statistical algorithm, remind users of how to cite that resource via e.g. `citHeader()`. [Maybe even add the reference for the resource](https://discuss.ropensci.org/t/citation-of-original-article-when-implementing-specific-methods/2312)?  
+* Less related to your package itself but to what supports it: if your package wraps a particular resource such as data source or, say, statistical algorithm, remind users of how to cite that resource via e.g. `bibentry()`. [Maybe even add the reference for the resource](https://discuss.ropensci.org/t/citation-of-original-article-when-implementing-specific-methods/2312)?  
 
 [^thxmark]: Thanks to [Mark Padgham](/author/mark-padgham/) for computing this in a CRAN mirror.
 
-As an example see [nasapower CITATION file](https://github.com/ropensci/nasapower/blob/master/inst/CITATION) that refers to both the manual and a paper.
-All it lacks is a [Zenodo DOI](https://discuss.ropensci.org/t/should-the-ropensci-dev-guide-include-package-citation-best-practices/1551/15) for the manual -- although most users would probably end up citing the JOSS paper.
+As an example see [dynamite CITATION file](https://github.com/ropensci/dynamite/blob/main/inst/CITATION) that refers to both the manual and a paper.
 
 ```r
-citHeader("While nasapower does not redistribute the data in any way,\n",
-          "we encourage users to follow the requests of the POWER\n",
-          "Project Team:\n",
-          "\n",
-          "'When POWER data products are used in a publication, we\n",
-          "request the following acknowledgment be included:\n",
-          "These data were obtained from the NASA Langley Research\n",
-          "Center POWER Project funded through the NASA Earth Science\n",
-          "Directorate Applied Science Program.'\n",
-          "\n",
-          "To cite nasapower in publications, please use:")
+citHeader("To cite dynamite in publications use:")
 
-citEntry(
-  entry = "Article",
-  author = as.person("Adam H Sparks"),
-  title = "nasapower: A NASA POWER Global Meteorology, Surface Solar Energy and Climatology Data Client for R",
-  doi = "10.21105/joss.01035",
-  year = 2018,
-  month = "oct",
-  publisher = "The Open Journal",
-  volume = 3,
-  number = 30,
-  pages = 1035,
-  journal = "The Journal of Open Source Software",
+bibentry(
+  key = "dynamitepaper",
+  bibtype  = "Misc",
+  doi = "10.48550/ARXIV.2302.01607",
+  url = "https://arxiv.org/abs/2302.01607",
+  author = c(person("Santtu", "Tikka"), person("Jouni", "Helske")),
+  title = "dynamite: An R Package for Dynamic Multivariate Panel Models",
+  publisher = "arXiv",
+  year = "2023"
+)
+bibentry(
+  key = "dmpmpaper",
+  bibtype  = "Misc",
+  title    = "Estimating Causal Effects from Panel Data with Dynamic
+    Multivariate Panel Models",
+  author = c(person("Santtu", "Tikka"), person("Jouni", "Helske")),
+  publisher = "SocArxiv",
+  year     = "2022",
+  url      = "https://osf.io/preprints/socarxiv/mdwu5/"
+)
 
-  textVersion = paste("Sparks, Adam (2018). nasapower: A NASA POWER Global Meteorology, Surface Solar Energy and Climatology Data Client for R. Journal of Open Source Software, 3(30), 1035, https://doi.org/10.21105/joss.01035"))
+bibentry(
+  key = "dynamite",
+  bibtype  = "Manual",
+  title    = "Bayesian Modeling and Causal Inference for Multivariate
+    Longitudinal Data",
+  author = c(person("Santtu", "Tikka"), person("Jouni", "Helske")),
+  note  = "R package version 1.0.0",
+  year     = "2022",
+  url      = "https://github.com/ropensci/dynamite"
+)
 
-year <- sub("-.*", "", meta$Date)
-note <- sprintf("R package version %s", meta$Version)
 
-bibentry(bibtype = "Manual",
-         title = "{nasapower}: NASA-POWER Data from R",
-         author = c(person("Adam", "Sparks")),
-         year = year,
-         note = note,
-	 url = "https://CRAN.R-project.org/package=nasapower")
-
- textVersion = paste0("Adam H Sparks, (", year, ").",
-  " nasapower: A NASA POWER Global Meteorology, Surface Solar Energy and Climatology Data Client for R. ",
-  note, ".",
-  " https://CRAN.R-project.org/package=nasapower")
 ```
 
 * Direct potential readers to the preferred citation in the README by adding boilerplate text "here's how to cite my package". See e.g. [ecmwfr README](https://github.com/bluegreen-labs/ecmwfr#how-to-cite-this-package-in-your-article).

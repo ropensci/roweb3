@@ -316,7 +316,7 @@ knitr::knit_hooks$set(
 The chunk[^chunk]
 
 ````markdown
-```{r name-your-chunks, hlopts=list(linenos="table")} 
+```r 
 a <- 1+1
 b <- 1+2
 c <- 1+3
@@ -345,7 +345,7 @@ What Chroma highlights are code blocks with code fences, which you might as well
 
 ````markdown
 
-```{r, results="asis"} 
+```r 
 script <- c(
   "a <- 1",
   "b <- 2",

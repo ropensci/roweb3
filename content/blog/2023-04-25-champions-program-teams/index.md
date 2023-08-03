@@ -1,5 +1,6 @@
 ---
 title: "rOpenSci Champions Program Teams: Meet Bilikisu Wunmi Olatunji and Christina Maimone"
+slug: ropensci-champions-program-teams-meet-bilikisu-wunmi-olatunji-and-christina-maimone
 author:
   - Bilikisu Wunmi Olatunji
   - Christina Maimone

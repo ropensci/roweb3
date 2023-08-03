@@ -1,5 +1,6 @@
 ---
 title: "rOpenSci Champions Program Teams: Meet Alican Cagri Gokcek and Elio Campitelli"
+slug: ropensci-champions-program-teams-meet-alican-cagri-gokcek-and-elio-campitelli
 author:
   - Alican Cagri Gokcek
   - Elio Campitelli
