@@ -52,7 +52,9 @@ deets: |
     Passcode: 584914
 zoomurl: https://numfocus-org.zoom.us/j/83866783222?pwd=Y1k3OEJnakc3WVRISlZxQ3NTUU1yZz09
 ---
+Open Source and Open Science, as global movements, faces language-based exclusion as most resources are in English. This affects scientists and research software engineers (RSE) working in R, particularly those who don't have English as first language. 
 
+rOpenSci multilingual efforts aim to lower access barriers, democratize quality resources, and increase the possibilities of contributing to open software and science. We successfully piloted our Spanish-language peer review and the localization to Spanish of our comprehensive guide to software development, with Portuguese translation underway.
 On this call _Maëlle_, _Paola_ and _Elio_ will share details of the rOpenSci multilingual project. Maëlle will present the R packages that allow us to have our content in several languages while Elio and Paola will share how is the translation process and present the Translation Guide that was written to document this process. 
 
 
