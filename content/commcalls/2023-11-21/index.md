@@ -60,4 +60,6 @@ Los esfuerzos multilingües de rOpenSci pretenden reducir las barreras de acceso
 
 Maëlle, Paola y Elio compartirán los detalles del proyecto de publicaciones multilingüe de rOpenSci en esta llamada. Maëlle presentará los paquetes de R que nos permiten tener nuestro contenido en varios idiomas. A continuación, Elio y Paola compartirán el flujo de trabajo de traducción y mostrarán la Guía de Traducción escrita para documentar el proceso.
 
+__Este evento se realizará en español__
+
 A continuación puedes consultar las biografías de les panelistas y varios recursos.
