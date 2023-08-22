@@ -53,7 +53,7 @@ Want to hear more from the protagonists?
 In these videos (in [English](https://vimeo.com/848537831) and [Spanish](https://vimeo.com/854320485)) our champions and mentors tell us what it's like to be part of the program. 
 More information on eligibility, timeline, curriculum, application process, etc. is [on the program webpage](/champions/). 
 
-### Our first community call in Spanish!
+### Our first community call in Spanish (and English too)!
 
 As global movements, Open Source and Open Science face language-based exclusion as most resources are in English. This affects scientists and research software engineers working in R, particularly those who don’t have English as their first language.
 

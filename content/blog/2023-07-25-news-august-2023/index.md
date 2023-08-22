@@ -24,15 +24,29 @@ Now let's dive into the activity at and around rOpenSci!
 ### Open Call for rOpenSci Champions Program Applications! 
 Still open: [our call](/blog/2023/07/14/call-champions-program/) for the second cohort of Champions and Mentors for the rOpenSci Champions Program 🎉 ! 
 
-This 12-month-long program will continue to support our goal of identifying, recognizing, and rewarding passionate community members who help the community grow and improve.  The activities include cohort-based training, project development, and personal mentorship.
+This 12-month-long program will continue to support our goal of identifying, recognizing, and rewarding passionate community members who help the community grow and improve.  The activities include [cohort-based training](/blog/2023/08/04/champions-program-training/), project development, and personal mentorship.
 
 This program focuses on people who belong to groups that are historically and systematically excluded from the open software and research software communities and who are interested in contributing to rOpenSci and the broader open source and research software communities.
 
-You can apply to be a _champion_ or a _mentor_ until **September 4th**.
+You can apply to be a [champion](https://airtable.com/shrAsYlSXU0coJ5Ld) or a [mentor](https://airtable.com/shrlrLdQbb4wphosK) until **September 4th**.
+Want to hear more from the protagonists?
 
+In these videos (in [English](https://vimeo.com/848537831) and [Spanish](https://vimeo.com/854320485)) our champions and mentors tell us what it's like to be part of the program. 
 More information on eligibility, timeline, curriculum, application process, etc. is [on the program webpage](/champions/). 
 
-### Com
+### Our first community call in Spanish (and English too)!
+
+As global movements, Open Source and Open Science face language-based exclusion as most resources are in English. This affects scientists and research software engineers working in R, particularly those who don’t have English as their first language.
+
+rOpenSci multilingual efforts aim to lower access barriers, democratize quality resources, and increase the possibilities of contributing to open software and science. We successfully piloted our Spanish-language peer review and the localization to Spanish of our comprehensive guide to software development, with Portuguese translation underway.
+
+[Maëlle Salmon](/author/ma%C3%ABlle-salmon/), [Paola Corrales](/author/paola-corrales/), and [Elio Campitelli](/author/elio-campitelli/),  will share the rOpenSci Multilingual project details on this call. Maëlle will present the R packages that allow us to have our content in several languages. Then Elio and Paola will share the translation workflow and show the Translation Guide written to document the process.
+
+- **Multilingual Publishing**:  Tuesday, 21 November 2023 12:00 UTC. [More information](/commcalls/nov2023-multilingual/)
+
+- **Proyecto Multilingüe**: Thursday, 23 November 2023 12:00 UTC. [More information](/commcalls/nov2023-multilenguaje/)
+
+
 
 ### Community call recording: Mentoring & Training Program for Scientific Open Source Champions
 
