@@ -51,6 +51,8 @@ You can apply to be a _champion_ or a _mentor_ until **September 4th**.
 
 More information on eligibility, timeline, curriculum, application process, etc. is [on the program webpage](/champions/). 
 
+### Com
+
 ### Community call recording: Mentoring & Training Program for Scientific Open Source Champions
 
 [Video and resources](/commcalls/july2023-championprogram/).
@@ -130,8 +132,7 @@ get_release <- function(repo) {
     "GET /repos/{owner}/{repo}/releases",
     owner = repo$owner,
     repo = repo$repo,
-    per_page = 3,
-    description = repo$description
+    per_page = 3
   )
   info <- info[!purrr::map_lgl(info, "draft")]
   if(length(info) == 0 || anytime::anytime(info[[1]]$published_at) < last_newsletter) {
@@ -145,6 +146,8 @@ get_release <- function(repo) {
     description = repo$description
   )
 }
+packages[purrr::map_chr(packages, "package") == "gert"][[1]]$owner <- "r-lib"
+packages[purrr::map_chr(packages, "package") == "gert"][[1]]$repo <- "gert"
 releases <- purrr::map_df(
   packages,
   get_release
@@ -425,41 +428,6 @@ if (length(tech_notes) > 0) {
 }
 ```
 
-## Use cases
-
-```{r usecases}
-# rerun get_use_cases.R at the same time
-usecases <- jsonlite::read_json("../../../data/usecases/usecases.json")
-get_one_case <- function(usecase) {
-  tibble::tibble(
-    title = usecase$title,
-    reporter = usecase$reporter,
-    url = usecase$url,
-    image = usecase$image,
-    date = anytime::anydate(usecase$date)
-  )
-}
-usecases <- purrr::map_df(usecases, get_one_case)
-usecases <- dplyr::filter(usecases, date >= as.Date(last_newsletter))
-usecases <- split(usecases, seq(nrow(usecases)))
-```
-
-`r snakecase::to_sentence_case(english(length(usecases)))` use case`r if (length(usecases) > 1) "s"` of our packages and resources ha`r if (length(usecases) > 1) "ve" else "s"` been reported since we sent the last newsletter.
-
-```{r usecases2, results='asis'}
-format_case <- function(usecase) {
-  string <- sprintf("* [%s](%s). Reported by %s.", sub("\\.$", "", usecase$title), usecase$url, usecase$reporter)
-}
-cat(
-  paste0(
-    purrr::map_chr(usecases, format_case),
-    collapse = "\n\n"
-  )
-)
-```
-
-Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)!
-
 ## Call for maintainers
 
 If you're interested in maintaining any of the R packages below, you might enjoy reading our blog post [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/) (or listening to its discussion on the [R Weekly highlights podcast](https://rweekly.fireside.fm/111) hosted by Eric Nantz and Mike Thomas)!
@@ -477,6 +445,27 @@ See also our [help wanted page](/help-wanted/) -- before opening a PR, we recomm
 
 Some useful tips for R package developers. :eyes:
 
+### Register a package author in DESCRIPTION in one function call...
+
+with [`desc::desc_add_author_gh()`](https://desc.r-lib.org/reference/desc_add_author_gh.html)!
+For instance, `desc::desc_add_author_gh("maelle", role = "aut")`.
+
+You can also register _yourself_ with [`desc::desc_add_me()`](https://desc.r-lib.org/reference/desc_add_me.html).
+
+These functions are great tools to implement our advice ["Be generous with attributions"](https://devguide.ropensci.org/collaboration.html#attributions).
+
+### Hadley Wickham's newsletter "Tidy design principles"
+
+Hadley Wickham started a [free newsletter](https://tidydesign.substack.com/) to share his "semi-regular thoughts on writing good R code", as part of work on his [new book](https://design.tidyverse.org/).
+
+### Broken `@docType` package documentation
+
+If you got an email from CRAN about a broken `@docType` package documentation (package-level manual page), you might want to read this
+[roxygen2 GitHub issue](https://github.com/r-lib/roxygen2/issues/1491).
+[Example fix](https://github.com/ropensci/rnaturalearth/commit/7191a22b8277a31caeef944fcbe78367ebdfeca5).
+
+rOpenSci dev guide recommends having a package-level manual page.
+You can create it by running [`usethis::use_package_doc()`](https://usethis.r-lib.org/reference/use_package_doc.html).
 
 ## Last words
 
