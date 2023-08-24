@@ -43,9 +43,9 @@ rOpenSci multilingual efforts aim to lower access barriers, democratize quality 
 
 [Maëlle Salmon](/author/ma%C3%ABlle-salmon/), [Paola Corrales](/author/paola-corrales/), and [Elio Campitelli](/author/elio-campitelli/),  will share the rOpenSci Multilingual project details on this call. Maëlle will present the R packages that allow us to have our content in several languages. Then Elio and Paola will share the translation workflow and show the Translation Guide written to document the process.
 
-- **Multilingual Publishing**:  Tuesday, 21 November 2023 12:00 UTC. [More information](/commcalls/nov2023-multilingual/)
+- [**Multilingual Publishing**:  Tuesday, 21 November 2023 12:00 UTC](/commcalls/nov2023-multilingual/).
 
-- **Proyecto Multilingüe**: Thursday, 23 November 2023 12:00 UTC. [More information](/commcalls/nov2023-multilenguaje/)
+- [**Proyecto Multilingüe**: Thursday, 23 November 2023 12:00 UTC](/commcalls/nov2023-multilenguaje/).
 
 
 
@@ -77,6 +77,7 @@ And remember, you can always cowork independently on work related to R, work on 
 
 
 ## Software :package:
+
 
 
 
@@ -134,8 +135,6 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 <!-- Do not forget to rebase your branch! -->
 
 
-
-### Other topics
 
 * [Teaching targets with Penguins](/blog/2023/07/20/teaching-targets-with-penguins) by Athanasia Mo Mowinckel, and Joel Nitta. An inspiring collaboration for reproducibility! rOpenSci members Joel and Mo's fortuitous encounter led to an exciting targets workshop in Oslo.
 
