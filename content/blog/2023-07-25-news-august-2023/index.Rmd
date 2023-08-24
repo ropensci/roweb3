@@ -4,7 +4,7 @@ author: 'The rOpenSci Team'
 date: '2023-08-25'
 tags:
   - newsletter
-slug: news-july-2023
+slug: news-august-2023
 description: Open Call for Champions program, coworking
 params:
   last_newsletter: "2023-07-21"
