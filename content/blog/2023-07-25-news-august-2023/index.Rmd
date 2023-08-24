@@ -89,7 +89,7 @@ Consult our [Events](/events) page to find your local time and how to join.
 - Tuesday, September 5th, 09:00 Australia Western (01:00 UTC), [" AI in/for R"](/events/coworking-2023-09/) *Hosted by [Joel Nitta](/author/joel-nitta/) and [Steffi LaZerte](/author/steffi-lazerte/)*
     - Explore how R can inform/perform AI as well as how AI can inform/perform R.
     - Cowork independently on work related to R.
-- **Note** October coworking is cancelled (see you in November!)
+- ~~**Note** October coworking is cancelled (see you in November!)~~ **Nope, it's back on!** Stay tuned for coworking Tuesday, October 3rd, 14h00 Europe Central (12:00 UTC), Theme TBA
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
