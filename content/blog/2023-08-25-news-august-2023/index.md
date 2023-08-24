@@ -4,8 +4,8 @@ author: 'The rOpenSci Team'
 date: '2023-08-25'
 tags:
   - newsletter
-slug: news-july-2023
-description: Open Call for Champions program, coworking
+slug: news-august-2023
+description: Open Call for Champions program, community call in Spanish and English, coworking
 params:
   last_newsletter: "2023-07-21"
 ---
@@ -16,7 +16,7 @@ params:
 
 Dear rOpenSci friends, it's time for our monthly news roundup!
 <!-- blabla -->
-You can read this post [on our blog](/blog/2023/08/25/news-july-2023).
+You can read this post [on our blog](/blog/2023/08/25/news-august-2023).
 Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
@@ -32,6 +32,7 @@ You can apply to be a [champion](https://airtable.com/shrAsYlSXU0coJ5Ld) or a [m
 
 Want to hear more from the protagonists?
 In these videos (in [English](https://vimeo.com/848537831) and [Spanish](https://vimeo.com/854320485)) our champions and mentors tell us what it's like to be part of the program. 
+
 More information on eligibility, timeline, curriculum, application process, etc. is [on the program webpage](/champions/). 
 
 ### Our first community call in Spanish (and English too)!
@@ -69,7 +70,7 @@ Consult our [Events](/events) page to find your local time and how to join.
 - Tuesday, September 5th, 09:00 Australia Western (01:00 UTC), [" AI in/for R"](/events/coworking-2023-09/) *Hosted by [Joel Nitta](/author/joel-nitta/) and [Steffi LaZerte](/author/steffi-lazerte/)*
     - Explore how R can inform/perform AI as well as how AI can inform/perform R.
     - Cowork independently on work related to R.
-- **Note** October coworking is cancelled (see you in November!)
+- ~~**Note** October coworking is cancelled (see you in November!)~~ **Nope, it's back on!** Stay tuned for coworking Tuesday, October 3rd, 14h00 Europe Central (12:00 UTC), Theme TBA
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
@@ -88,7 +89,7 @@ The following twenty packages have had an update since the last newsletter: [ger
 
 ## Software Peer Review
 
-There are twelve recently closed and active submissions and 3 submissions on hold. Issues are at different stages: 
+There are fourteen recently closed and active submissions and 3 submissions on hold. Issues are at different stages: 
 
 * One at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
 
@@ -120,9 +121,13 @@ There are twelve recently closed and active submissions and 3 submissions on hol
 
      * [bssm](https://github.com/ropensci/software-review/issues/489), Bayesian Inference of Non-Linear and Non-Gaussian State Space. Submitted by [Jouni Helske](https://jounihelske.netlify.app).  (Stats).
 
-* One at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
+* Three at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
 
-     * [qualtdict](https://github.com/ropensci/software-review/issues/572), Generating Variable Dictionaries and Labelled Data Exports of Qualtrics. Submitted by [lyh970817](https://github.com/lyh970817). 
+     * [NA](https://github.com/ropensci/software-review/issues/600), NA. Submitted by [Victor Ordu ](https://victorordu.wordpress.com). 
+
+    * [weatherOz](https://github.com/ropensci/software-review/issues/598), An API Client for Australian Weather and Climate Data Resources. Submitted by [Rodrigo Pires](https://github.com/bozaah). 
+
+    * [qualtdict](https://github.com/ropensci/software-review/issues/572), Generating Variable Dictionaries and Labelled Data Exports of Qualtrics. Submitted by [lyh970817](https://github.com/lyh970817). 
 
 Find out more about [Software Peer Review](/software-review) and how to get involved.
 
@@ -135,10 +140,8 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 ### Other topics
 
 * [Teaching targets with Penguins](/blog/2023/07/20/teaching-targets-with-penguins) by Athanasia Mo Mowinckel, and Joel Nitta. An inspiring collaboration for reproducibility! rOpenSci members Joel and Mo's fortuitous encounter led to an exciting targets workshop in Oslo.
-.
 
-* [My Life with the R-universe](/blog/2023/08/01/r-universe-and-cran) by Zhian N. Kamvar. Using the R-universe to rapidly deploy releases, dependencies, and bugfixes
-.
+* [My Life with the R-universe](/blog/2023/08/01/r-universe-and-cran) by Zhian N. Kamvar. Using the R-universe to rapidly deploy releases, dependencies, and bugfixes.
 
 * [rOpenSci Champions Pilot Year: Training Wrap-Up](/blog/2023/08/04/champions-program-training) by Yanina Bellini Saibene, Camille Santistevan, Maya Sanghvi, Lou Woodley, Maëlle Salmon, Mauro Lepore, Heather Turner, and Pao Corrales.
 

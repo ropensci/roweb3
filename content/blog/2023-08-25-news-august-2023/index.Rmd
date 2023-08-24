@@ -5,7 +5,7 @@ date: '2023-08-25'
 tags:
   - newsletter
 slug: news-august-2023
-description: Open Call for Champions program, coworking
+description: Open Call for Champions program, community call in Spanish and English, coworking
 params:
   last_newsletter: "2023-07-21"
 ---
@@ -327,7 +327,7 @@ parse_one_post <- function(path){
     other = !"tech notes" %in% yaml$tags && !"Software Peer Review" %in% yaml$tags,
     socialImg = yaml$socialImg %||% "",
     socialAlt = yaml$socialAlt %||% "",
-    description = yaml$description %||% "",
+    description = stringr::str_squish(yaml$description %||% ""),
     newsletter = "newsletter" %in% yaml$tags,
     slug = yaml$slug,
     dir = fs::path_dir(path),
