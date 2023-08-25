@@ -13,9 +13,9 @@
   {{ partial $path  (dict "context" . "Site" $Site ) }}
   {{ else }}
     {{ if ( modBool $counter 2 ) }}
-      {{ partial $path  (dict "context" . "Site" $Site "divider" "rl" ) }}
-    {{ else }}
       {{ partial $path  (dict "context" . "Site" $Site "divider" "lr" ) }}
+    {{ else }}
+      {{ partial $path  (dict "context" . "Site" $Site "divider" "rl" ) }}
     {{ end }}
   {{ end }}
   {{ $.Scratch.Add "counter" 1}}
