@@ -122,7 +122,7 @@ There are thirteen recently closed and active submissions and 3 submissions on h
 
 * Three at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
 
-     * [NA](https://github.com/ropensci/software-review/issues/600), NA. Submitted by [Victor Ordu ](https://victorordu.wordpress.com). 
+     * [naijR](https://github.com/ropensci/software-review/issues/600), Operations to Ease Data Analyses Specific to Nigeria. Submitted by [Victor Ordu ](https://victorordu.wordpress.com). 
 
     * [weatherOz](https://github.com/ropensci/software-review/issues/598), An API Client for Australian Weather and Climate Data Resources. Submitted by [Rodrigo Pires](https://github.com/bozaah). 
 
