@@ -1,6 +1,6 @@
 ---
 name: Zhian N. Kamvar
-mastodon: https://fosstodon.org/@zkamvar
+mastodon: https://hachyderm.io/@zkamvar
 twitter: zkamvar
 github: zkamvar
 link: https://zkamvar.netlify.app/
