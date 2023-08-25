@@ -1,4 +1,6 @@
-{{ partial "whole-page-fragments/divider" .divider }}
+{{ with .divider }}
+  {{ partial "whole-page-fragments/divider" . }}
+{{ end }}
 
     <!-- Volunteer section -->
     <section class="section section-volunteer">

@@ -1,4 +1,6 @@
-{{ partial "whole-page-fragments/divider" .divider }}
+{{ with .divider }}
+  {{ partial "whole-page-fragments/divider" . }}
+{{ end }}
 
     <!-- Review section   -->
     <section class="section soft-review d-none d-md-block">

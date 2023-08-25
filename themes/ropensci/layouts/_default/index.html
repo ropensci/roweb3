@@ -4,15 +4,19 @@
 </div>
 <img class="divider-lg" src="/images/svg/divider-lg.svg" alt="" />
 {{ $.Scratch.Set "counter" 0}}
-{{ $partials := (slice "packages/packages" "review" "community") }}
+{{ $partials := (slice "packages/packages" "review" "community" "r-universe") }}
 {{ $Site := .Site }}
 {{ range (shuffle $partials )}}
   {{ $counter := $.Scratch.Get "counter" }}
   {{ $path := printf "whole-page-fragments/%s" . }}
-  {{ if eq ( modBool $counter 2 ) 1 }}
-    {{ partial $path  (dict "context" . "Site" $Site "divider" "rl" ) }}
+  {{ if eq $counter 0 }}
+  {{ partial $path  (dict "context" . "Site" $Site ) }}
   {{ else }}
-    {{ partial $path  (dict "context" . "Site" $Site "divider" "lr" ) }}
+    {{ if eq ( modBool $counter 2 ) 1 }}
+      {{ partial $path  (dict "context" . "Site" $Site "divider" "rl" ) }}
+    {{ else }}
+      {{ partial $path  (dict "context" . "Site" $Site "divider" "lr" ) }}
+    {{ end }}
   {{ end }}
   {{ $.Scratch.Add "counter" 1}}
 {{ end }}

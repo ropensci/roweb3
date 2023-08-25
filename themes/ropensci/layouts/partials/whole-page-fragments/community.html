@@ -1,4 +1,6 @@
-{{ partial "whole-page-fragments/divider" .divider }}
+{{ with .divider }}
+  {{ partial "whole-page-fragments/divider" . }}
+{{ end }}
     <!-- Community section -->
     <section class="section community">
       <div class="container">
