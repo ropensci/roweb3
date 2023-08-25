@@ -12,7 +12,7 @@
   {{ if eq $counter 0 }}
   {{ partial $path  (dict "context" . "Site" $Site ) }}
   {{ else }}
-    {{ if eq ( modBool $counter 2 ) 1 }}
+    {{ if ( modBool $counter 2 ) }}
       {{ partial $path  (dict "context" . "Site" $Site "divider" "rl" ) }}
     {{ else }}
       {{ partial $path  (dict "context" . "Site" $Site "divider" "lr" ) }}
