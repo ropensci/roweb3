@@ -4,7 +4,7 @@
 </div>
 <img class="divider-lg" src="/images/svg/divider-lg.svg" alt="" />
 {{ $.Scratch.Set "counter" 0}}
-{{ $partials := (slice "packages/packages" "review" "community" "r-universe") }}
+{{ $partials := (slice "packages/packages" "review" "community" "r-universe" "champions") }}
 {{ $Site := .Site }}
 {{ range (shuffle $partials )}}
   {{ $counter := $.Scratch.Get "counter" }}
