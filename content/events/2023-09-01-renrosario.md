@@ -1,5 +1,5 @@
 ---
-title: 'Cómo crear un paquete de R... ¡y que sea multilingüe! + Qué es ROpenSci y cómo ser parte'
+title: 'Cómo crear un paquete de R... ¡y que sea multilingüe! + Qué es rOpenSci y cómo ser parte'
 dateStart: '2023-09-01T22:00:00'
 dateEnd: '2023-09-01T23:00:00'
 date: 2023-09-01T23:00:00 # UTC!! same as dateEnd
