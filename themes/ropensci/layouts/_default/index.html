@@ -3,9 +3,19 @@
 <!-- Hero divider -->
 </div>
 <img class="divider-lg" src="/images/svg/divider-lg.svg" alt="" />
-{{ partial "whole-page-fragments/packages/packages" . }}
-{{ partial "whole-page-fragments/review" (dict "context" . "divider" "rl" ) }}
-{{ partial "whole-page-fragments/community" (dict "context" . "divider" "lr" ) }}
+{{ $.Scratch.Set "counter" 0}}
+{{ $partials := (slice "packages/packages" "review" "community") }}
+{{ $Site := .Site }}
+{{ range (shuffle $partials )}}
+  {{ $counter := $.Scratch.Get "counter" }}
+  {{ $path := printf "whole-page-fragments/%s" . }}
+  {{ if eq ( modBool $counter 2 ) 1 }}
+    {{ partial $path  (dict "context" . "Site" $Site "divider" "rl" ) }}
+  {{ else }}
+    {{ partial $path  (dict "context" . "Site" $Site "divider" "lr" ) }}
+  {{ end }}
+  {{ $.Scratch.Add "counter" 1}}
+{{ end }}
 {{ partial "whole-page-fragments/news" (dict "Site" .Site "divider" "rl" ) }}
 {{ partial "whole-page-fragments/newsletter" (dict "divider" "lr" ) }}
 {{ partial "whole-page-fragments/brands" (dict "Site" .Site "divider" "rl" )  }}
