@@ -10,6 +10,7 @@ buildFuture = true
 preserveTaxonomyNames = true
 pygmentsUseClasses=true
 enableEmoji=true
+enableGitInfo=true
 
 paginate = 5
 paginatePath = "page"
