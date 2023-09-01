@@ -33,7 +33,7 @@
       "avatar": "{{ ( partial "blogs/author-img" . ) }}"
     }{{ end }}{{ end }}{{ end }}],
 				"tags": {{ .Params.tags | jsonify}},
-				"content_html": "{{ .Content | replaceRE `"` `\"` | replaceRE "\n" "" | replaceRE "(\\s)" " " }}",
+				"content_html": {{ .Content | replaceRE "\n" "" | replaceRE "(\\s)" " " | jsonify }},
 				"url": "{{ .Permalink }}",
 				"date_published": "{{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}",
 				"date_modified": "{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" | safeHTML }}"
