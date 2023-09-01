@@ -1,5 +1,9 @@
+{{ $data := newScratch }}
+{{ $pages := .Site.Pages.ByPublishDate.Reverse }}
+{{ $data.Set "pages" $pages }}
+{{ $data.Set "permalink" .Permalink }}
 {
-    "version": "https://jsonfeed.org/version/1",
+    "version": "https://jsonfeed.org/version/1.1",
     "title": "{{ .Site.Title }}",
     "favicon": "{{ .Permalink}}/apple-touch-icon.png",
     "home_page_url": "{{ .Permalink }}",
@@ -13,17 +17,27 @@
     "items": [
     {{ range $i, $e := ( where .Pages ".Date.UTC" "<" now.UTC ) }}
 		{{ if $i }}, {{ end }}
-  		{{ if eq .Params.author "string" }}
-  		{{ .Scratch.Set "authors" "[{{ .Params.author }}]" }}	
-  		{{ else }}
-  		{{ .Scratch.Set "authors" (.Params.author | jsonify) }}
-  		{{ end }}
+  		{{ if eq (substr (jsonify .Params.author) 0 1) "[" }}
+        {{ $data.Set "authors" .Params.author }}
+     {{ else }}
+       {{  $data.Set "authors" (slice .Params.author) }}
+    {{ end }}
 			{
 				"id": "{{ .Permalink }}",
 				"title": "{{ .Title }}",
-				"authors": {{ .Scratch.Get "authors" }},
+				"authors": {{ range $i, $e := ($data.Get "authors") }}
+  {{ range first 1 (where ($data.Get "pages") ".Params.name" $e) }}
+    {{ $params := .Params }}
+    {{ $name := $params.name }}
+    {{ if $i }}, {{ end }}
+    {{ range first 1 (where ($data.Get "pages") ".Params.name" $e) }}
+    {
+      "name": "{{ $name }}",
+      "url": "{{ if isset .Params "orcid" }}https://orcid.org/{{ .Params.orcid }} {{ else }} {{ .Permalink }} {{ end }}",
+      "avatar": "{{ ( partial "blogs/author-img" . ) }}"
+    }{{ end }}{{ end }}{{ end }},
 				"tags": {{ .Params.tags | jsonify}},
-				"content_html": "{{ .Content }}",
+				"content_html": "{{ .RawContent }}",
 				"url": "{{ .Permalink }}",
 				"date_published": "{{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}",
 				"date_modified": "{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" | safeHTML }}"
