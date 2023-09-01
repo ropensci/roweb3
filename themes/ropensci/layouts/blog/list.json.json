@@ -25,6 +25,7 @@
 			{
 				"id": "{{ .Permalink }}",
 				"title": "{{ .Title }}",
+				"language" : "{{ .Lang }}"
 				"authors": {{ range $i, $e := ($data.Get "authors") }}
   {{ range first 1 (where ($data.Get "pages") ".Params.name" $e) }}
     {{ $params := .Params }}
