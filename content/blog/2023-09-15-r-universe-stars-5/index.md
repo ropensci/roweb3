@@ -25,7 +25,7 @@ _Infectious diseases continue to generate multiple problems in human health. The
 
 The talk begins with Rich FitzJohn, who leads the research software engineering team at the [MRC Centre for Global Infectious Disease Analysis](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis). This center works on the global analysis of infectious diseases. It is a center for research and development of tools for epidemiological analysis and modeling of infectious diseases to collaborate with the work of national and international agencies to plan public policy responses to potential infectious disease threats.
 
-This team was one of the first to use our R-Universe; therefore, it is a relevant testimony to share and to know why they joined our platform.
+This team was one of the first to use our R-Universe and their testimony is very relevant to learn and share why they joined our platform.
 
 As Rich explains, their work consists of providing answers to general and specific epidemiology problems and responding to more than 200 different companies. Within these developments, R-Universe is a way to distribute their packages mainly for internal work and a good way to present them.
 
@@ -35,6 +35,11 @@ This development can then be used by researchers worldwide, and that is where R-
 Multiple users can access the [CRM universe](https://mrc-ide.r-universe.dev) to use the packages and have the necessary material available to develop some type of research. However, it is likely that they will need some training or knowledge to be able to use them because of the level of specificity. R-Universe is also a place to see what scientists are studying and developing because they also use the platform to upload their packages and find other packages to use in their research. 
 
 Recalling how they first entered the R-universe, Rich says it was by trying out a project that rOpenSci was working on.  When they were invited, they realized that it represented the possibility of saving hours of work in different processes. Over time the features and functionalities of R-Universe changed and expanded.
+
+It was at this point in the talk that they discussed possible future features that could be useful in R-Universe; from archiving different versions of the binaries of each package according to a researcher's reproducibility needs, to automatic generation of package documentation, to different ideas for increasing R-Universe's package search and discovery capabilities.
+
+Some of these challenges are under development and R-Universe already has features that respond to these ideas from Rich and Rob's team. For example: [Downloading snapshots and creating stable R packages repositories using r-universe](https://ropensci.org/blog/2023/05/31/runiverse-snapshots/) and [Discovering and learning everything there is to know about R packages using r-universe](https://ropensci.org/blog/2023/02/27/runiverse-discovering/).
+
 
 In the following video, Rich and Rob share more details of their work in the MRC and share in the rOpenSci R-Universe.
 
