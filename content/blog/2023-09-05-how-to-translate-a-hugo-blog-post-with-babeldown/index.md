@@ -1,0 +1,278 @@
+---
+title: How to Translate a Hugo Blog Post with Babeldown
+author: Maëlle Salmon
+date: '2023-09-05'
+slug: how-to-translate-a-hugo-blog-post-with-babeldown
+categories: []
+tags:
+  - tech notes
+  - multilingual
+---
+
+As part of our [multilingual publishing project](/multilingual-publishing/), and with [funding from the R Consortium](https://www.r-consortium.org/all-projects/awarded-projects/2022-group-2), we've worked on the R package [babeldown](https://docs.ropensci.org/babeldown/) for translation of Markdown based content through DeepL API.
+In this tech note, we'll see how to use babeldown to translate a Hugo blog post!
+
+
+## Motivation
+
+Translating a blog post from your R console is not only more comfortable when you've already written said blog post in R.
+With babeldown, compared to copy-pasting the content of a blog post into some translation service, you should not break the Markdown syntax, and code chunks won't be translated.
+Under the hood, babeldown uses [tinkr](https://docs.ropensci.org/) to produce XML to send to DeepL API, flagging some tags as not to be translated, and to convert the XML translated by DeepL into Markdown again.
+
+Now, obviously, machine-translated content isn't perfect yet!
+A human or two will need to review and amend the translation.
+Why not have the humans translate the post from scratch then?
+We have observed that editing an automatic translation is faster than translating the whole post, and that it frees up mental space for implementing translation rules such as gender-neutral phrasing.
+
+## Setup
+
+### Pre-requisites on the Hugo website
+
+`babeldown::deepl_translate_hugo()` assumes the Hugo website uses
+
+- leaf bundles (each post in a folder, `content/path-to-leaf-bundle/index.md`);
+- multilingualism so that a post in say Spanish lives in `content/path-to-leaf-bundle/index.es.md`.
+
+We could envision extending this to other Hugo multilingual setups, please open an issue in [babeldown repository](https://github.com/ropensci-review-tools/babeldown/) if you'd be interested in using babeldown for a Hugo website you set up differently.
+
+### DeepL pre-requisites
+
+First check your desired source and target languages are supported by DeepL API!
+The API docs has a list of [target languages](https://www.deepl.com/docs-api/general/get-languages).
+Finding a list of _source languages_ might require going through the [Help Center](https://support.deepl.com/).
+Or it might just be quicker to register for an account and use `babeldown::deepl_languages()`.
+We'll put the current lists below using our API key.
+
+
+
+
+```r
+babeldown::deepl_languages(type = "target") |> knitr::kable()
+```
+
+
+
+|language |name                   |supports_formality |
+|:--------|:----------------------|:------------------|
+|BG       |Bulgarian              |FALSE              |
+|CS       |Czech                  |FALSE              |
+|DA       |Danish                 |FALSE              |
+|DE       |German                 |TRUE               |
+|EL       |Greek                  |FALSE              |
+|EN-GB    |English (British)      |FALSE              |
+|EN-US    |English (American)     |FALSE              |
+|ES       |Spanish                |TRUE               |
+|ET       |Estonian               |FALSE              |
+|FI       |Finnish                |FALSE              |
+|FR       |French                 |TRUE               |
+|HU       |Hungarian              |FALSE              |
+|ID       |Indonesian             |FALSE              |
+|IT       |Italian                |TRUE               |
+|JA       |Japanese               |TRUE               |
+|KO       |Korean                 |FALSE              |
+|LT       |Lithuanian             |FALSE              |
+|LV       |Latvian                |FALSE              |
+|NB       |Norwegian              |FALSE              |
+|NL       |Dutch                  |TRUE               |
+|PL       |Polish                 |TRUE               |
+|PT-BR    |Portuguese (Brazilian) |TRUE               |
+|PT-PT    |Portuguese (European)  |TRUE               |
+|RO       |Romanian               |FALSE              |
+|RU       |Russian                |TRUE               |
+|SK       |Slovak                 |FALSE              |
+|SL       |Slovenian              |FALSE              |
+|SV       |Swedish                |FALSE              |
+|TR       |Turkish                |FALSE              |
+|UK       |Ukrainian              |FALSE              |
+|ZH       |Chinese (simplified)   |FALSE              |
+
+```r
+babeldown::deepl_languages(type = "source") |> knitr::kable()
+```
+
+
+
+|language |name       |
+|:--------|:----------|
+|BG       |Bulgarian  |
+|CS       |Czech      |
+|DA       |Danish     |
+|DE       |German     |
+|EL       |Greek      |
+|EN       |English    |
+|ES       |Spanish    |
+|ET       |Estonian   |
+|FI       |Finnish    |
+|FR       |French     |
+|HU       |Hungarian  |
+|ID       |Indonesian |
+|IT       |Italian    |
+|JA       |Japanese   |
+|KO       |Korean     |
+|LT       |Lithuanian |
+|LV       |Latvian    |
+|NB       |Norwegian  |
+|NL       |Dutch      |
+|PL       |Polish     |
+|PT       |Portuguese |
+|RO       |Romanian   |
+|RU       |Russian    |
+|SK       |Slovak     |
+|SL       |Slovenian  |
+|SV       |Swedish    |
+|TR       |Turkish    |
+|UK       |Ukrainian  |
+|ZH       |Chinese    |
+
+Once you know you'll be able to take advantage of the DeepL API, you'll need to create an account for the [API of the translation service DeepL](https://www.deepl.com/en/docs-api/).
+Even getting a free account demands registering a payment method with them.
+
+### R pre-requisites
+
+You'll need to install babeldown from rOpenSci R-universe:
+
+```r
+install.packages('babeldown', repos = c('https://ropensci.r-universe.dev', 'https://cloud.r-project.org'))
+```
+
+Then set your DeepL API key via the environment variable DEEPL_API_KEY. You could store it with the [keyring](https://r-lib.github.io/keyring/index.html) package and retrieve it like so:
+
+```r
+Sys.setenv(DEEPL_API_KEY = keyring::key_get("deepl"))
+```
+
+Lastly, the DeepL API URL depends on your API plan. 
+babeldown uses the DeepL free API URL by default. 
+If you use a Pro plan, set the API URL via
+
+```r
+Sys.setenv("DEEPL_API_URL" = "https://api.deepl.com")
+```
+
+## Translation!
+
+You could simply run the code below
+
+```r
+babeldown::deepl_translate_hugo(
+  post_path = <path-to-post>,
+  source_lang = "EN",
+  target_lang = "ES",
+  formality = "less" # that's we roll here!
+)
+```
+
+but we'd recommend a tad more work for your own good.
+
+### A workflow for Git and GitHub
+
+If you use version control, having the translation as a diff is very handy!
+
+#### In words
+
+- Save your original blog post under the target blog post name and commit it.
+- Create a new branch.
+- Run `babeldown::deepl_translate_hugo()` with `force = TRUE`.
+- Commit the result and open a PR.
+
+#### In code
+
+With code using fs and gert (but you do you!), assuming your current directory is the root of the website folder, and also the root of the git repository, and a translation from Spanish to English...
+
+- Save your original blog post under the target blog post name and commit it.
+
+```r
+fs::file_copy(
+  file.path("content", "blog", "2023-09-15-r-universe-stars-5", "index.es.md"),
+  file.path("content", "blog", "2023-09-15-r-universe-stars-5", "index.md")
+)
+gert::git_add(file.path("content", "blog", "2023-09-15-r-universe-stars-5", "index.md"))
+gert::git_commit("Add translation placeholder")
+```
+
+- Create a new branch.
+
+```r
+gert::git_branch_create("translation-tech-note")
+```
+
+- Run `babeldown::deepl_translate_hugo()` with `force = TRUE`.
+
+```r
+babeldown::deepl_translate_hugo(
+  post_path = file.path("content", "blog", "2023-09-15-r-universe-stars-5", "index.md"),
+  force = TRUE,
+  yaml_fields = c("title", "description", "tags"),
+  source_lang = "ES",
+  target_lang = "EN-US",
+  formality = "less"
+)
+```
+
+- Commit the result and open a PR.
+
+```r
+gert::git_add(file.path("content", "blog", "2023-09-15-r-universe-stars-5", "index.md"))
+gert::git_commit("Add translation")
+gert::git_push()
+# and on to GitHub interface, or use `usethis::pr_init()` + `usethis::pr_push()`
+```
+
+The human translators can then a open a _second_ PR to the translation branch with their edits!
+
+### YAML fields
+
+By default babeldown translates the YAML fields "title" and "description". 
+If you have text in more of them, use the `yaml_fields` argument of `babeldown::deepl_translate_hugo()`.
+
+Note that if babeldown translates the title, it updates the slug.
+
+### Glossary
+
+Image you have a few preferences for some words -- something you'll build up over time.
+
+
+```r
+readr::read_csv(
+  system.file("example-es-en.csv", package = "babeldown"), 
+  show_col_types = FALSE
+)
+```
+
+```
+## # A tibble: 2 × 2
+##   Spanish     English   
+##   <chr>       <chr>     
+## 1 paquete     package   
+## 2 repositorio repository
+```
+
+You can record this in a glossary in your DeepL account
+
+```r
+deepl_upsert_glossary(
+  <path-to-csv-file>,
+  glossary_name = "rstats-glosario",
+  target_lang = "Spanish",
+  source_lang = "English"
+)
+```
+
+You'd use the exact same code to _update_ the glossary hence the name "upsert" for the function.
+You need one glossary per source language / target language pair: the English-Spanish glossary can't be used for Spanish to English for instance.
+
+In your `babeldown::deepl_translate_hugo()` call you then use the glossary name (here "rstats-glosario") for the `glossary` argument. 
+
+## Conclusion
+
+In this post we explained how to translate a Hugo blog post using babeldown.
+Although the gist is to use one call to `babeldown::deepl_translate_hugo()`,
+- one needs to indicate the API URL and key, 
+- one can improve results by using the function's different arguments,
+- we recommend pairing the translation with a Git + GitHub (or GitLab, gitea...) workflow.
+
+babeldown has [functions](https://docs.ropensci.org/babeldown/reference/index.html) for translating Quarto book chapters, any Markdown file, any Markdown string, with similar arguments and recommended usage, so explore its reference!
+
+We'd be happy to hear about your [use cases](/usecases/).
+
+
