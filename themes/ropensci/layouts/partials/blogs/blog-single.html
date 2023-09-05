@@ -2,7 +2,7 @@
 <div class="container bg-cubes">
   <div class="row content">
     <div class="col-lg-9">
-      <p class="post-date">{{ .Date | time.Format ":date_full" }}
+      <p class="post-date">{{ .Date | time.Format ":date_full" }} — <a href="https://doi.org/10.59349/zh4g1-q7e26" style="color:inherit;">doi.org/10.59349/zh4g1-q7e26</a>
       <span class="d-none d-print-inline" style ="font-style: italic;">From rOpenSci ({{ .Permalink }}). Except where otherwise noted, content on this site is licensed under the <a href ="https://creativecommons.org/licenses/by/4.0/">CC-BY license</a>.</span></p>
         <div class="content">
           <h1>{{ .Title | markdownify }}</h1>
@@ -76,6 +76,10 @@ For more information, visit the <a href="/r-universe/">r-universe project page</
       <div class="field-under mt-4">
         <span>{{ i18n "Suggest-an-edit" }}</span>
         <a href="{{ partial "edit-link/edit-link" . }}" class="link mt-2">{{ i18n "open-pr" }} <i class="fas fa-external-link-alt"></i></a>
+      </div>
+      <div class="field-under mt-4">
+        <span>{{ i18n "Cite" }}</span><br/>
+        <a href="https://doi.org/10.59349/zh4g1-q7e26" class="link mt-2">doi.org/10.59349/zh4g1-q7e26 <i class="fas fa-university"></i></a>
       </div>
       <div class="field-under mt-4">
         <span>{{ i18n "Browse" }}</span>
