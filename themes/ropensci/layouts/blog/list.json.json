@@ -32,7 +32,7 @@
       "url": "{{ if isset .Params "orcid" }}https://orcid.org/{{ .Params.orcid }}{{ else }}{{ .Permalink }}{{ end }}",
       "avatar": "{{ ( partial "blogs/author-img" . ) }}"
     }{{ end }}{{ end }}{{ end }}],
-				"tags": {{ .Params.tags | jsonify}},
+				{{ with .Params.tags }} "tags": {{ . | uniq | jsonify}},{{ end }}
 				"content_html": {{ .Content | replaceRE "\n" "" | jsonify }},
 				"url": "{{ .Permalink }}",
 				"date_published": "{{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}",
