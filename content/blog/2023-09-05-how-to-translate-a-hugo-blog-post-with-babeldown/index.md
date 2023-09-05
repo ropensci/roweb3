@@ -215,7 +215,8 @@ babeldown::deepl_translate_hugo(
 gert::git_add(file.path("content", "blog", "2023-09-15-r-universe-stars-5", "index.md"))
 gert::git_commit("Add translation")
 gert::git_push()
-# and on to GitHub interface, or use `usethis::pr_init()` + `usethis::pr_push()`
+usethis::pr_init("translation-tech-note")
+usethis::pr_push()
 ```
 
 The human translators can then a open a _second_ PR to the translation branch with their edits!
