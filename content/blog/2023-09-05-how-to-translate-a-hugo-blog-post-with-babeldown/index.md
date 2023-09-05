@@ -173,7 +173,7 @@ If you use version control, having the translation as a diff is very handy!
 - Save your original blog post under the target blog post name and commit it.
 - Create a new branch.
 - Run `babeldown::deepl_translate_hugo()` with `force = TRUE`.
-- Commit the result and open a PR.
+- Commit the result and open a PR. The diff for the target blog post will be the diff between the source and target language! If you have the good habit to start a new line after each sentence / sentence part, it's even better.
 
 #### In code
 
