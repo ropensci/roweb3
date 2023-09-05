@@ -66,7 +66,7 @@ You'll need to install babeldown from rOpenSci R-universe:
 install.packages('babeldown', repos = c('https://ropensci.r-universe.dev', 'https://cloud.r-project.org'))
 ```
 
-Then set your DeepL API key via the environment variable DEEPL_API_KEY. You could store it with the [keyring](https://r-lib.github.io/keyring/index.html) package and retrieve it like so:
+Then, in each R session, set your DeepL API key via the environment variable DEEPL_API_KEY. You could store it once and for all with the [keyring](https://r-lib.github.io/keyring/index.html) package and retrieve it in your scripts like so:
 
 ```r
 Sys.setenv(DEEPL_API_KEY = keyring::key_get("deepl"))
@@ -74,7 +74,7 @@ Sys.setenv(DEEPL_API_KEY = keyring::key_get("deepl"))
 
 Lastly, the DeepL API URL depends on your API plan. 
 babeldown uses the DeepL free API URL by default. 
-If you use a Pro plan, set the API URL via
+If you use a Pro plan, set the API URL in each R session/script via
 
 ```r
 Sys.setenv("DEEPL_API_URL" = "https://api.deepl.com")
