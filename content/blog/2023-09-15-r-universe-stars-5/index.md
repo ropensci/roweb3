@@ -27,7 +27,7 @@ The chat begins with [Rich FitzJohn](/author/rich-fitzjohn/), who leads the rese
 
 This team was one of the first to use our R-Universe and we're interested in understanding and sharing their reasons for joining the platform.
 
-As Rich explains, their work consists of providing answers to general and specific epidemiology problems and responding to more than 200 different companies. Within these developments, R-Universe is a way to distribute their packages mainly for internal work and a good way to present them.
+As Rich explains, their work consists of providing answers to general and specific epidemiology problems and responding to more than 200 different companies. Within this framework, they use the R-Universe as a way to distribute and present packages they develop and use in their work.
 
 In this sense, Rob, a software engineer who works with John, adds that the packages allow them to deliver the work to all the users in a simple, useful, and responsible way. Especially if you consider that it is very collaborative work and many times against the clock. That is why they try to be all working at the same time on the same code with a permanent development and revision cycle to meet the needs of the researchers.
 This development can then be used by researchers worldwide, and that is where R-Universe becomes a fundamental tool.
