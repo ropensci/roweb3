@@ -25,7 +25,7 @@ _Infectious diseases continue to generate multiple problems in human health. The
 
 The chat begins with [Rich FitzJohn](/author/rich-fitzjohn/), who leads the research software engineering team at the [MRC Centre for Global Infectious Disease Analysis](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis). This center works on the global analysis of infectious diseases. It is a center for research and development of tools for epidemiological analysis and modeling of infectious diseases to collaborate with the work of national and international agencies to plan public policy responses to potential infectious disease threats.
 
-This team was one of the first to use our R-Universe and their testimony is very relevant to learn and share why they joined our platform.
+This team was one of the first to use our R-Universe and we're interested in understanding and sharing their reasons for joining the platform.
 
 As Rich explains, their work consists of providing answers to general and specific epidemiology problems and responding to more than 200 different companies. Within these developments, R-Universe is a way to distribute their packages mainly for internal work and a good way to present them.
 
