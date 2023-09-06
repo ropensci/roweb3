@@ -1,6 +1,6 @@
 ---
 slug: "r-universe-stars-5-es"
-title: "Conociendo a las estrellas del Universo R. El universo R contra las enfermedades."
+title: "Conociendo a las estrellas del Universo R: El universo R contra las enfermedades."
 author:
   - Yanina Bellini Saibene
   - Alejandra Bellini
