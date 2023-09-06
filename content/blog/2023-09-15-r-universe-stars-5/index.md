@@ -21,7 +21,7 @@ description: "."
 A new post of our interview series [“Meeting the stars of the R-universe”](/tags/r-universe-stars/). We aim to introduce the teams and people behind the development of software and packages many of us use and which are available through the R-Universe. We want to highlight and explore different teams and projects around the world, the work they do, their processes and users. This stop is at the __United Kingdom__ to talk with members of the Centre for Global Infectious Disease Analysis. Be sure to watch the video at the end with excerpts from the interview.
 
 
-_Infectious diseases continue to generate multiple problems in human health. The pandemic experience taught us the importance of research to fight epidemics. Today we will meet a team of developers who use R-Universe to host packages that help in that work._
+_Infectious diseases continue to generate multiple problems in human health. The pandemic experience taught us the importance of research to fight epidemics. Today we will meet a team of developers who use the R-Universe to host packages that help in this work._
 
 The talk begins with Rich FitzJohn, who leads the research software engineering team at the [MRC Centre for Global Infectious Disease Analysis](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis). This center works on the global analysis of infectious diseases. It is a center for research and development of tools for epidemiological analysis and modeling of infectious diseases to collaborate with the work of national and international agencies to plan public policy responses to potential infectious disease threats.
 
