@@ -30,7 +30,7 @@ This team was one of the first to use our R-Universe and we're interested in und
 As Rich explains, their work consists of providing answers to general and specific epidemiology problems and responding to more than 200 different companies. Within this framework, they use the R-Universe as a way to distribute and present packages they develop and use in their work.
 
 In this sense, Rob, a software engineer who works with John, adds that the packages allow them to deliver the work to all the users in a simple, useful, and responsible way. Especially if you consider that it is very collaborative work and many times against the clock. That is why they try to be all working at the same time on the same code with a permanent development and revision cycle to meet the needs of the researchers.
-This development can then be used by researchers worldwide, and that is where R-Universe becomes a fundamental tool.
+This work will then be used by researchers worldwide, and that is where the R-Universe becomes a fundamental tool.
 
 Multiple users can access the [MRC universe](https://mrc-ide.r-universe.dev) to use the packages and have the necessary material available to develop some type of research. However, it is likely that they will need some training or knowledge to be able to use them because of the level of specificity. R-Universe is also a place to see what scientists are studying and developing because they also use the platform to upload their packages and find other packages to use in their research. 
 
