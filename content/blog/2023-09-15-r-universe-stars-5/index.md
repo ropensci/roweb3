@@ -1,6 +1,6 @@
 ---
 slug: "r-universe-stars-5-en"
-title: "Meeting the Stars of the R-Universe. The R-Universe against diseases."
+title: "Meeting the Stars of the R-Universe: The R-Universe Against Diseases."
 author:
   - Yanina Bellini Saibene
   - Alejandra Bellini
