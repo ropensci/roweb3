@@ -38,7 +38,7 @@ Recalling how they first entered the R-universe, Rich says it was by being invit
 
 It was at this point in the interview that Rich and Rob discussed possible future features that could be useful in the R-Universe; from archiving different versions of the binaries of each package according to a researcher's reproducibility needs, to automatic generation of package documentation, to different ideas for increasing the R-Universe's package search and discovery capabilities.
 
-Some of these challenges are under development and R-Universe already has features that respond to these ideas from Rich and Rob's team. For example: [Downloading snapshots and creating stable R packages repositories using r-universe](https://ropensci.org/blog/2023/05/31/runiverse-snapshots/) and [Discovering and learning everything there is to know about R packages using r-universe](https://ropensci.org/blog/2023/02/27/runiverse-discovering/).
+Some of these features are currently under development and others have already been implemented. For example: [Downloading snapshots and creating stable R packages repositories using R-Universe](/blog/2023/05/31/runiverse-snapshots/) and [Discovering and learning everything there is to know about R packages using R-Universe](/blog/2023/02/27/runiverse-discovering/).
 
 
 In the following video, Rich and Rob share more details of their work in the MRC and share in the rOpenSci R-Universe.
