@@ -34,7 +34,7 @@ This development can then be used by researchers worldwide, and that is where R-
 
 Multiple users can access the [MRC universe](https://mrc-ide.r-universe.dev) to use the packages and have the necessary material available to develop some type of research. However, it is likely that they will need some training or knowledge to be able to use them because of the level of specificity. R-Universe is also a place to see what scientists are studying and developing because they also use the platform to upload their packages and find other packages to use in their research. 
 
-Recalling how they first entered the R-universe, Rich says it was by trying out a project that rOpenSci was working on.  When they were invited, they realized that it represented the possibility of saving hours of work in different processes. Over time the features and functionalities of R-Universe changed and expanded.
+Recalling how they first entered the R-universe, Rich says it was by being invited to try out a new project that rOpenSci was working on. They then quickly realized that it represented the possibility of saving hours of work in different tasks. Over time the features and functionalities of the R-Universe changed and expanded as the project matured.
 
 It was at this point in the talk that they discussed possible future features that could be useful in R-Universe; from archiving different versions of the binaries of each package according to a researcher's reproducibility needs, to automatic generation of package documentation, to different ideas for increasing R-Universe's package search and discovery capabilities.
 
