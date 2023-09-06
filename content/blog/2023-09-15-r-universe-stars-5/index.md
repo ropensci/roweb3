@@ -36,7 +36,7 @@ Multiple users can access the [MRC universe](https://mrc-ide.r-universe.dev) to 
 
 Recalling how they first entered the R-universe, Rich says it was by being invited to try out a new project that rOpenSci was working on. They then quickly realized that it represented the possibility of saving hours of work in different tasks. Over time the features and functionalities of the R-Universe changed and expanded as the project matured.
 
-It was at this point in the talk that they discussed possible future features that could be useful in R-Universe; from archiving different versions of the binaries of each package according to a researcher's reproducibility needs, to automatic generation of package documentation, to different ideas for increasing R-Universe's package search and discovery capabilities.
+It was at this point in the interview that Rich and Rob discussed possible future features that could be useful in the R-Universe; from archiving different versions of the binaries of each package according to a researcher's reproducibility needs, to automatic generation of package documentation, to different ideas for increasing the R-Universe's package search and discovery capabilities.
 
 Some of these challenges are under development and R-Universe already has features that respond to these ideas from Rich and Rob's team. For example: [Downloading snapshots and creating stable R packages repositories using r-universe](https://ropensci.org/blog/2023/05/31/runiverse-snapshots/) and [Discovering and learning everything there is to know about R packages using r-universe](https://ropensci.org/blog/2023/02/27/runiverse-discovering/).
 
