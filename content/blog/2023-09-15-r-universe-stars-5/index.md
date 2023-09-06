@@ -41,7 +41,7 @@ It was at this point in the interview that Rich and Rob discussed possible futur
 Some of these features are currently under development and others have already been implemented. For example: [Downloading snapshots and creating stable R packages repositories using R-Universe](/blog/2023/05/31/runiverse-snapshots/) and [Discovering and learning everything there is to know about R packages using R-Universe](/blog/2023/02/27/runiverse-discovering/).
 
 
-In the following video, Rich and Rob share more details of their work in the MRC and share in the rOpenSci R-Universe.
+In the following video, Rich and Rob share more details of their work in the MRC and with the rOpenSci R-Universe.
 
 
 {{< vimeo id=829850626 title="Meeting R-Universe Stars - xxxxx project" >}}
