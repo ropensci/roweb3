@@ -95,6 +95,7 @@ If you use version control, having the translation as a diff is very handy!
 - Create a new branch.
 - Run `babeldown::deepl_translate_hugo()` with `force = TRUE`.
 - Commit the result and open a PR. The diff for the target blog post will be the diff between the source and target language! If you have the good habit to start a new line after each sentence / sentence part, it's even better.
+- The human translators can then a open a second PR to the translation branch with their edits!
 
 #### In code
 
@@ -151,7 +152,7 @@ usethis::pr_init("translation-tech-note")
 usethis::pr_push()
 ```
 
-The human translators can then a open a _second_ PR to the translation branch with their edits!
+- The human translators can then a open a _second_ PR to the translation branch with their edits!
 
 ### YAML fields
 
