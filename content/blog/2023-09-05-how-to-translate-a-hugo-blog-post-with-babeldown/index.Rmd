@@ -15,8 +15,10 @@ In this tech note, we'll see how to use babeldown to translate a Hugo blog post!
 ## Motivation
 
 Translating a blog post from your R console is not only more comfortable when you've already written said blog post in R.
-With babeldown, compared to copy-pasting the content of a blog post into some translation service, you should not break the Markdown syntax, and code chunks won't be translated.
-Under the hood, babeldown uses [tinkr](https://docs.ropensci.org/) to produce XML to send to DeepL API, flagging some tags as not to be translated, and to convert the XML translated by DeepL into Markdown again.
+With babeldown, compared to copy-pasting the content of a blog post into some translation service, the Markdown syntax won't be broken[^md], and code chunks won't be translated.
+Under the hood, babeldown uses [tinkr](https://docs.ropensci.org/tinkr) to produce XML to send to DeepL API, flagging some tags as not to be translated, and to convert the XML translated by DeepL into Markdown again.
+
+[^md]: Refer to [tinkr docs](https://docs.ropensci.org/tinkr/#loss-of-markdown-style) to see what might change in the Markdown syntax style.
 
 Now, obviously, machine-translated content isn't perfect yet!
 A human or two will need to review and amend the translation.
