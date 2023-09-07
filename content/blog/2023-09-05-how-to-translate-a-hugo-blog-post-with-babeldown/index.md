@@ -105,10 +105,10 @@ With code using fs and gert (but you do you!), assuming your current directory i
 
 ```r
 fs::file_copy(
-  file.path("content", "blog", "2023-10-01-r-universe-interviews", "index.es.md"),
-  file.path("content", "blog", "2023-10-01-r-universe-interviews", "index.en.md")
+  file.path("content", "blog", "2023-08-24-divide-y-venceras-de-polar-al-polarverse", "index.es.md"),
+  file.path("content", "blog", "2023-08-24-divide-y-venceras-de-polar-al-polarverse", "index.en.md")
 )
-gert::git_add(file.path("content", "blog", "2023-10-01-r-universe-interviews", "index.en.md"))
+gert::git_add(file.path("content", "blog", "2023-08-24-divide-y-venceras-de-polar-al-polarverse", "index.en.md"))
 gert::git_commit("Add translation placeholder")
 gert::git_push()
 ```
@@ -123,7 +123,7 @@ gert::git_branch_create("translation-tech-note")
 
 ```r
 babeldown::deepl_translate_hugo(
-  post_path = file.path("content", "blog", "2023-10-01-r-universe-interviews", "index.es.md"),
+  post_path = file.path("content", "blog", "2023-08-24-divide-y-venceras-de-polar-al-polarverse", "index.es.md"),
   force = TRUE,
   yaml_fields = c("title", "description", "tags"),
   source_lang = "ES",
@@ -145,7 +145,7 @@ babeldown::deepl_translate_hugo(
 - Commit the result and open a PR.
 
 ```r
-gert::git_add(file.path("content", "blog", "2023-10-01-r-universe-interviews", "index.md"))
+gert::git_add(file.path("content", "blog", "2023-08-24-divide-y-venceras-de-polar-al-polarverse", "index.en.md"))
 gert::git_commit("Add translation")
 gert::git_push()
 usethis::pr_init("translation-tech-note")
