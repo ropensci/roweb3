@@ -1,6 +1,8 @@
 ---
 title: How to Translate a Hugo Blog Post with Babeldown
-author: Maëlle Salmon
+author: 
+- Maëlle Salmon
+- Yanina Bellini Saibene
 date: '2023-09-05'
 slug: how-to-translate-a-hugo-blog-post-with-babeldown
 categories: []
@@ -97,6 +99,7 @@ If you use version control, having the translation as a diff is very handy!
 - Commit the result and open a PR. The diff for the target blog post will be the diff between the source and target language! If you have the good habit to start a new line after each sentence / sentence part, it's even better.
 - The human translators can then a open a second PR to the translation branch with their edits!
 
+
 #### In code
 
 With code using fs and gert (but you do you!), assuming your current directory is the root of the website folder, and also the root of the git repository, and a translation from Spanish to English...
@@ -153,6 +156,19 @@ usethis::pr_push()
 ```
 
 - The human translators can then a open a _second_ PR to the translation branch with their edits!
+
+#### Summary of branches and PRs
+
+In the end there should be three branches:
+- branch A with blog post in Spanish and placeholder blog post for English (with Spanish content) -- PR to main;
+- branch B with blog post automatically translated to English. PR to branch -- A;
+- branch C with blog post's English automatic translation edited by a human -- PR to branch B.
+
+The PR are merged in this order:
+
+- PR to branch B;
+- PR to branch A;
+- PR to main.
 
 ### YAML fields
 
