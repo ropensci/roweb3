@@ -43,7 +43,7 @@ Note that babeldown won't be able to determine the default language of your webs
 ### DeepL pre-requisites
 
 First check your desired source and target languages are supported by DeepL API!
-Look up the [docs of `source_lang` and `target_lang` parameters](https://www.deepl.com/docs-api/translate-text) for a full list.
+Look up the [docs of the `source_lang` and `target_lang` API parameters](https://www.deepl.com/docs-api/translate-text) for a full list.
 
 Once you know you'll be able to take advantage of the DeepL API, you'll need to create an account for the [API of the translation service DeepL](https://www.deepl.com/en/docs-api/).
 Even getting a free account demands registering a payment method with them.
@@ -190,7 +190,7 @@ In your `babeldown::deepl_translate_hugo()` call you then use the glossary name 
 ### Formality
 
 `deepl_translate_hugo()` has a `formality` argument.
-Now, DeepL API only supports this for some languages as explained in the [documentation of the `formality` parameter](https://www.deepl.com/docs-api/translate-text): 
+Now, DeepL API only supports this for some languages as explained in the [documentation of the `formality` API parameter](https://www.deepl.com/docs-api/translate-text): 
 
 > Sets whether the translated text should lean towards formal or informal language. This feature currently only works for target languages DE (German), FR (French), IT (Italian), ES (Spanish), NL (Dutch), PL (Polish), PT-BR and PT-PT (Portuguese), JA (Japanese), and RU (Russian). (...) Setting this parameter with a target language that does not support formality will fail, unless one of the prefer_... options are used. 
 
