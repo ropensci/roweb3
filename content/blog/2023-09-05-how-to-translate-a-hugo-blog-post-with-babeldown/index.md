@@ -89,7 +89,7 @@ If you use version control, having the translation as a diff is very handy!
 
 #### In words
 
-- Save your original blog post under the target blog post name and commit it.
+- Save your original blog post under the target blog post name and commit it, then push.
 - Create a new branch.
 - Run `babeldown::deepl_translate_hugo()` with `force = TRUE`.
 - Commit the result and open a PR. The diff for the target blog post will be the diff between the source and target language! If you have the good habit to start a new line after each sentence / sentence part, it's even better.
@@ -98,7 +98,7 @@ If you use version control, having the translation as a diff is very handy!
 
 With code using fs and gert (but you do you!), assuming your current directory is the root of the website folder, and also the root of the git repository, and a translation from Spanish to English...
 
-- Save your original blog post under the target blog post name and commit it.
+- Save your original blog post under the target blog post name and commit it, then push.
 
 ```r
 fs::file_copy(
@@ -107,6 +107,7 @@ fs::file_copy(
 )
 gert::git_add(file.path("content", "blog", "2023-10-01-r-universe-interviews", "index.en.md"))
 gert::git_commit("Add translation placeholder")
+gert::git_push()
 ```
 
 - Create a new branch.
