@@ -12,7 +12,6 @@ tags:
 As part of our [multilingual publishing project](/multilingual-publishing/), and with [funding from the R Consortium](https://www.r-consortium.org/all-projects/awarded-projects/2022-group-2), we've worked on the R package [babeldown](https://docs.ropensci.org/babeldown/) for translation of Markdown based content through DeepL API.
 In this tech note, we'll see how to use babeldown to translate a Hugo blog post!
 
-
 ## Motivation
 
 Translating a blog post from your R console is not only more comfortable when you've already written said blog post in R.
@@ -34,6 +33,10 @@ We have observed that editing an automatic translation is faster than translatin
 - multilingualism so that a post in say Spanish lives in `content/path-to-leaf-bundle/index.es.md`.
 
 We could envision extending this to other Hugo multilingual setups, please open an issue in [babeldown repository](https://github.com/ropensci-review-tools/babeldown/) if you'd be interested in using babeldown for a Hugo website you set up differently.
+
+Note that babeldown won't be able to determine the default language of your website[^config] so even if your website's default language is English, babeldown will place an English translation in a file ".en.md" not ".md".
+
+[^config]: adding code to handle Hugo's ["bewildering array of possible config locations"](https://github.com/r-lib/hugodown/issues/14#issuecomment-632850506) and two possible formats (YAML and TOML) is out of scope for babeldown at this point.
 
 ### DeepL pre-requisites
 
@@ -100,9 +103,9 @@ With code using fs and gert (but you do you!), assuming your current directory i
 ```r
 fs::file_copy(
   file.path("content", "blog", "2023-10-01-r-universe-interviews5", "index.es.md"),
-  file.path("content", "blog", "2023-10-01-r-universe-interviews", "index.md")
+  file.path("content", "blog", "2023-10-01-r-universe-interviews", "index.en.md")
 )
-gert::git_add(file.path("content", "blog", "2023-10-01-r-universe-interviews", "index.md"))
+gert::git_add(file.path("content", "blog", "2023-10-01-r-universe-interviews", "index.en.md"))
 gert::git_commit("Add translation placeholder")
 ```
 
@@ -116,12 +119,11 @@ gert::git_branch_create("translation-tech-note")
 
 ```r
 babeldown::deepl_translate_hugo(
-  post_path = file.path("content", "blog", "2023-10-01-r-universe-interviews", "index.md"),
+  post_path = file.path("content", "blog", "2023-10-01-r-universe-interviews", "index.es.md"),
   force = TRUE,
   yaml_fields = c("title", "description", "tags"),
   source_lang = "ES",
-  target_lang = "EN-US",
-  formality = "less"
+  target_lang = "EN-US"
 )
 ```
 
@@ -170,6 +172,15 @@ You'd use the exact same code to _update_ the glossary hence the name "upsert" f
 You need one glossary per source language / target language pair: the English-Spanish glossary can't be used for Spanish to English for instance.
 
 In your `babeldown::deepl_translate_hugo()` call you then use the glossary name (here "rstats-glosario") for the `glossary` argument. 
+
+### Formality
+
+`deepl_translate_hugo()` has a `formality` argument.
+Now, DeepL API only supports this for some languages as explained in the [documentation of the `formality` parameter](https://www.deepl.com/docs-api/translate-text): 
+
+> Sets whether the translated text should lean towards formal or informal language. This feature currently only works for target languages DE (German), FR (French), IT (Italian), ES (Spanish), NL (Dutch), PL (Polish), PT-BR and PT-PT (Portuguese), JA (Japanese), and RU (Russian). (...) Setting this parameter with a target language that does not support formality will fail, unless one of the prefer_... options are used. 
+
+Therefore to be sure a translation will work, instead of writing `formality = "less"` you should write `formality = "prefer_less"`.
 
 ## Conclusion
 
