@@ -38,91 +38,7 @@ We could envision extending this to other Hugo multilingual setups, please open 
 ### DeepL pre-requisites
 
 First check your desired source and target languages are supported by DeepL API!
-The API docs has a list of [target languages](https://www.deepl.com/docs-api/general/get-languages).
-Finding a list of _source languages_ might require going through the [Help Center](https://support.deepl.com/).
-Or it might just be quicker to register for an account and use `babeldown::deepl_languages()`.
-We'll put the current lists below using our API key.
-
-
-
-
-```r
-babeldown::deepl_languages(type = "target") |> knitr::kable()
-```
-
-
-
-|language |name                   |supports_formality |
-|:--------|:----------------------|:------------------|
-|BG       |Bulgarian              |FALSE              |
-|CS       |Czech                  |FALSE              |
-|DA       |Danish                 |FALSE              |
-|DE       |German                 |TRUE               |
-|EL       |Greek                  |FALSE              |
-|EN-GB    |English (British)      |FALSE              |
-|EN-US    |English (American)     |FALSE              |
-|ES       |Spanish                |TRUE               |
-|ET       |Estonian               |FALSE              |
-|FI       |Finnish                |FALSE              |
-|FR       |French                 |TRUE               |
-|HU       |Hungarian              |FALSE              |
-|ID       |Indonesian             |FALSE              |
-|IT       |Italian                |TRUE               |
-|JA       |Japanese               |TRUE               |
-|KO       |Korean                 |FALSE              |
-|LT       |Lithuanian             |FALSE              |
-|LV       |Latvian                |FALSE              |
-|NB       |Norwegian              |FALSE              |
-|NL       |Dutch                  |TRUE               |
-|PL       |Polish                 |TRUE               |
-|PT-BR    |Portuguese (Brazilian) |TRUE               |
-|PT-PT    |Portuguese (European)  |TRUE               |
-|RO       |Romanian               |FALSE              |
-|RU       |Russian                |TRUE               |
-|SK       |Slovak                 |FALSE              |
-|SL       |Slovenian              |FALSE              |
-|SV       |Swedish                |FALSE              |
-|TR       |Turkish                |FALSE              |
-|UK       |Ukrainian              |FALSE              |
-|ZH       |Chinese (simplified)   |FALSE              |
-
-```r
-babeldown::deepl_languages(type = "source") |> knitr::kable()
-```
-
-
-
-|language |name       |
-|:--------|:----------|
-|BG       |Bulgarian  |
-|CS       |Czech      |
-|DA       |Danish     |
-|DE       |German     |
-|EL       |Greek      |
-|EN       |English    |
-|ES       |Spanish    |
-|ET       |Estonian   |
-|FI       |Finnish    |
-|FR       |French     |
-|HU       |Hungarian  |
-|ID       |Indonesian |
-|IT       |Italian    |
-|JA       |Japanese   |
-|KO       |Korean     |
-|LT       |Lithuanian |
-|LV       |Latvian    |
-|NB       |Norwegian  |
-|NL       |Dutch      |
-|PL       |Polish     |
-|PT       |Portuguese |
-|RO       |Romanian   |
-|RU       |Russian    |
-|SK       |Slovak     |
-|SL       |Slovenian  |
-|SV       |Swedish    |
-|TR       |Turkish    |
-|UK       |Ukrainian  |
-|ZH       |Chinese    |
+Look up the [docs of `source_lang` and `target_lang` parameters](https://www.deepl.com/docs-api/translate-text) for a full list.
 
 Once you know you'll be able to take advantage of the DeepL API, you'll need to create an account for the [API of the translation service DeepL](https://www.deepl.com/en/docs-api/).
 Even getting a free account demands registering a payment method with them.
@@ -183,10 +99,10 @@ With code using fs and gert (but you do you!), assuming your current directory i
 
 ```r
 fs::file_copy(
-  file.path("content", "blog", "2023-09-15-r-universe-stars-5", "index.es.md"),
-  file.path("content", "blog", "2023-09-15-r-universe-stars-5", "index.md")
+  file.path("content", "blog", "2023-10-01-r-universe-interviews5", "index.es.md"),
+  file.path("content", "blog", "2023-10-01-r-universe-interviews", "index.md")
 )
-gert::git_add(file.path("content", "blog", "2023-09-15-r-universe-stars-5", "index.md"))
+gert::git_add(file.path("content", "blog", "2023-10-01-r-universe-interviews", "index.md"))
 gert::git_commit("Add translation placeholder")
 ```
 
@@ -200,7 +116,7 @@ gert::git_branch_create("translation-tech-note")
 
 ```r
 babeldown::deepl_translate_hugo(
-  post_path = file.path("content", "blog", "2023-09-15-r-universe-stars-5", "index.md"),
+  post_path = file.path("content", "blog", "2023-10-01-r-universe-interviews", "index.md"),
   force = TRUE,
   yaml_fields = c("title", "description", "tags"),
   source_lang = "ES",
@@ -212,7 +128,7 @@ babeldown::deepl_translate_hugo(
 - Commit the result and open a PR.
 
 ```r
-gert::git_add(file.path("content", "blog", "2023-09-15-r-universe-stars-5", "index.md"))
+gert::git_add(file.path("content", "blog", "2023-10-01-r-universe-interviews", "index.md"))
 gert::git_commit("Add translation")
 gert::git_push()
 usethis::pr_init("translation-tech-note")
