@@ -9,14 +9,14 @@ tags:
   - multilingual
 ---
 
-As part of our [multilingual publishing project](/multilingual-publishing/), and with [funding from the R Consortium](https://www.r-consortium.org/all-projects/awarded-projects/2022-group-2), we've worked on the R package [babeldown](https://docs.ropensci.org/babeldown/) for translation of Markdown based content through DeepL API.
+As part of our [multilingual publishing project](/multilingual-publishing/), and with [funding from the R Consortium](https://www.r-consortium.org/all-projects/awarded-projects/2022-group-2), we've worked on the R package [babeldown](https://docs.ropensci.org/babeldown/) for translation of Markdown based content through the DeepL API.
 In this tech note, we'll see how to use babeldown to translate a Hugo blog post!
 
 ## Motivation
 
 Translating a blog post from your R console is not only more comfortable when you've already written said blog post in R.
 With babeldown, compared to copy-pasting the content of a blog post into some translation service, the Markdown syntax won't be broken[^md], and code chunks won't be translated.
-Under the hood, babeldown uses [tinkr](https://docs.ropensci.org/tinkr) to produce XML to send to DeepL API, flagging some tags as not to be translated, and to convert the XML translated by DeepL into Markdown again.
+Under the hood, babeldown uses [tinkr](https://docs.ropensci.org/tinkr) to produce XML to send to the DeepL API, flagging some tags as not to be translated, and to convert the XML translated by DeepL into Markdown again.
 
 [^md]: Refer to [tinkr docs](https://docs.ropensci.org/tinkr/#loss-of-markdown-style) to see what might change in the Markdown syntax style.
 
@@ -42,7 +42,7 @@ Note that babeldown won't be able to determine the default language of your webs
 
 ### DeepL pre-requisites
 
-First check your desired source and target languages are supported by DeepL API!
+First check your desired source and target languages are supported by the DeepL API!
 Look up the [docs of the `source_lang` and `target_lang` API parameters](https://www.deepl.com/docs-api/translate-text) for a full list.
 
 Once you know you'll be able to take advantage of the DeepL API, you'll need to create an account for the [API of the translation service DeepL](https://www.deepl.com/en/docs-api/).
@@ -190,7 +190,7 @@ In your `babeldown::deepl_translate_hugo()` call you then use the glossary name 
 ### Formality
 
 `deepl_translate_hugo()` has a `formality` argument.
-Now, DeepL API only supports this for some languages as explained in the [documentation of the `formality` API parameter](https://www.deepl.com/docs-api/translate-text): 
+Now, the DeepL API only supports this for some languages as explained in the [documentation of the `formality` API parameter](https://www.deepl.com/docs-api/translate-text): 
 
 > Sets whether the translated text should lean towards formal or informal language. This feature currently only works for target languages DE (German), FR (French), IT (Italian), ES (Spanish), NL (Dutch), PL (Polish), PT-BR and PT-PT (Portuguese), JA (Japanese), and RU (Russian). (...) Setting this parameter with a target language that does not support formality will fail, unless one of the prefer_... options are used. 
 
