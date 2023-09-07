@@ -102,7 +102,7 @@ With code using fs and gert (but you do you!), assuming your current directory i
 
 ```r
 fs::file_copy(
-  file.path("content", "blog", "2023-10-01-r-universe-interviews5", "index.es.md"),
+  file.path("content", "blog", "2023-10-01-r-universe-interviews", "index.es.md"),
   file.path("content", "blog", "2023-10-01-r-universe-interviews", "index.en.md")
 )
 gert::git_add(file.path("content", "blog", "2023-10-01-r-universe-interviews", "index.en.md"))
@@ -120,6 +120,17 @@ gert::git_branch_create("translation-tech-note")
 ```r
 babeldown::deepl_translate_hugo(
   post_path = file.path("content", "blog", "2023-10-01-r-universe-interviews", "index.es.md"),
+  force = TRUE,
+  yaml_fields = c("title", "description", "tags"),
+  source_lang = "ES",
+  target_lang = "EN-US"
+)
+```
+
+You can also omit the `post_path` argument if you're running the code from RStudio IDE and if the open file is the post to be translated.
+
+```r
+babeldown::deepl_translate_hugo(
   force = TRUE,
   yaml_fields = c("title", "description", "tags"),
   source_lang = "ES",
