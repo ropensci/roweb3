@@ -76,7 +76,7 @@ You could simply run the code below
 
 ```r
 babeldown::deepl_translate_hugo(
-  post_path = <path-to-post>,
+  post_path = <path-to-post>, # or omit this parameter if the file is the one open in RStudio IDE!
   source_lang = "EN",
   target_lang = "ES",
   formality = "less" # that's we roll here!
