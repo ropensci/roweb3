@@ -181,7 +181,7 @@ readr::read_csv(
 ## 2 repositorio repository
 ```
 
-You can record this in a glossary in your DeepL account
+You can record these preferred translations in a glossary in your DeepL account
 
 ```r
 deepl_upsert_glossary(
