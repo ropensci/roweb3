@@ -51,13 +51,13 @@ Al tiempo que finalizaba el primer paso de la tesis, me enteraba de la organizac
 
 
 
-**El nacimiento de {polAr}**
+## El nacimiento de {polAr}
 
 Con el objetivo de llegar a presentar en la tercera edición de LatinR, desarrollé [`{geofacetAR}`](https://electorarg.github.io/geofaceteAR/): una versión pulida y con funciones para trabajar con el diseño de grillas como si fueran mapas de Argentina.
 
 Se desató la pandemia por el Covid19. Y el aprendizaje de cómo desarrollar paquetes, en tiempos de confinamiento y muchas horas frente a la computadora, convirtieron el trabajo de procesamiento de datos electorales, de mi vida como politólogo y consultor, en un nuevo paquete: [`{polAr}`](https://github.com/electorArg/polAr); que el 16 de mayo de 2020 [viajaba a CRAN](https://twitter.com/CRANberriesFeed/status/1261597845808975872).
 
-**El universo polAr**
+## El universo polAr
 
 Si bien originalmente el paquete buscaba facilitar el acceso y herramientas para el análisis de datos electorales en Argentina, con el tiempo se fueron integrando otros flujos de trabajo y fuentes de datos (geográficos, discursos presidenciales o votaciones legislativas), con un correlativo incremento de dependencias y dificultad de administrar cada vez más funciones. De hecho esto fue un tema relevante que [discutimos con colegas en el panel Desarrollo de paquetes durante la III edición de LatinR (2020)](https://www.youtube.com/watch?v=UYvSv8StDa8&t=10872s).
 
@@ -83,19 +83,19 @@ Presentamos "[Divide y Vencerás: de {polAr} al polarverse](https://github.com/T
 
 Adicionalmente trabajamos en una librería auxiliar llamada [`{polarViz}`](https://politicaargentina.r-universe.dev/polArViz), para facilitar la tarea de visualización de los otros paquetes, y un metapaquete [`{polArverse}`](https://politicaargentina.r-universe.dev/polArverse)que emula el funcionamiento de `{tidyverse}`, para la carga del conjunto de librerías asociadas.
 
-**🌠 Encuentro de universos: [el *polArverse* en *r-universe*](https://politicaargentina.r-universe.dev/builds)**
+## 🌠 Encuentro de universos: [el *polArverse* en *r-universe*](https://politicaargentina.r-universe.dev/builds)
 
 Durante este proceso incorporamos r-universe en el flujo de trabajo. No solo proveyó de un espacio autónomo y autoadministrado en el cual publicar estos nuevos paquetes (no ya simplemente como repositorios de Github), sino que es de gran ayuda para el chequeo en diferentes sistemas operativos y versiones de software. Sin duda una herramienta relevante para su mejor mantenimiento.
 
 ![](https://lh4.googleusercontent.com/VHMVype__IRMsC3OkW3SHS68Htr8eJD58TPfZpCkycy6iReA_sDjbasHGqwP7RptmvPoD1C6KIYW3RUEEh1NjIxDJNRpmgTdebOz6n1Nzgpc3jLGN8DHYVbkUmYxYGISTc80HuCS-Y3rDl0BtahstFc)
 
-**Seguimos dando pasos importantes para nuestro universo:**
+### Seguimos dando pasos importantes para nuestro universo:
 
 En primer lugar, ¡volvimos a CRAN! En febrero de 2023 se envío `{geoAr}` que, como señalamos, permite acceder y facilitar el procesamiento de datos con relevancia espacial. Una versión en desarrollo (accesible desde r-universe) permite también interactuar con la [API del Servicio de Normalización de Datos Geográficos de Argentina](https://georef-ar-api.readthedocs.io/es/latest/).
 
 Por otro lado, incoporamos un histórico pendiente a la caja de herramientas polAr para trabajar con datos censales: [`{censAr}`](https://github.com/PoliticaArgentina/censAr). El paquete,  actualmente en desarrollo, está basado en el código de [`{censo2017}`](https://docs.ropensci.org/censo2017/), desarrollado por [Mauricio "Pacha" Vargas](https://ropensci.org/author/pach%C3%A1-aka-mauricio-vargas-sep%C3%BAlveda/) y parte de la suite de rOpenSci.
 
-**Mi experiencia como desarrollador de software con R**
+## Mi experiencia como desarrollador de software con R
 
 -   Empecé a trabajar con este lengüaje - o dialécto, [como gusta decir a un colega](https://tuqmano.github.io/CienciaDeDatosCiPol/clases/clase1.html#12), a proposito del antecedente del `S` de *Bell* en la década de 1970- un poco por fortuna.
 
