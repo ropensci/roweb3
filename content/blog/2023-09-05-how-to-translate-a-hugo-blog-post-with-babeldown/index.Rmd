@@ -76,7 +76,7 @@ You could simply run the code below
 
 ```r
 babeldown::deepl_translate_hugo(
-  post_path = <path-to-post>, # or omit this parameter if the file is the one open in RStudio IDE!
+  post_path = <path-to-post>, # or omit this parameter if the file is the one open and focused in RStudio IDE (the one you see above your console)!
   source_lang = "EN",
   target_lang = "ES",
   formality = "less" # that's we roll here!
@@ -131,7 +131,7 @@ babeldown::deepl_translate_hugo(
 )
 ```
 
-You can also omit the `post_path` argument if you're running the code from RStudio IDE and if the open file is the post to be translated.
+You can also omit the `post_path` argument if you're running the code from RStudio IDE and if the open and focused file (the one you see above your console) is the post to be translated.
 
 ```r
 babeldown::deepl_translate_hugo(
