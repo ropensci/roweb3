@@ -23,11 +23,15 @@ A new post of our interview series [“Meeting the stars of the R-universe”](/
 
 _Infectious diseases continue to generate multiple problems in human health. The pandemic experience taught us the importance of research to fight epidemics. Today we will meet a team of developers who use the R-Universe to host packages that help in this work._
 
+{{< figure src = "rich.jpeg" class = "pull-right" width = "300" alt = "Profile photo of Rich FitzJohn." caption = "<center><strong>Rich FitzJohn</strong><br>Principal Architect<br>Research Software Engineering Group</center>">}}
+
 The chat begins with [Rich FitzJohn](/author/rich-fitzjohn/), who leads the research software engineering team at the [MRC Centre for Global Infectious Disease Analysis](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis). This center works on the global analysis of infectious diseases. It is a center for research and development of tools for epidemiological analysis and modeling of infectious diseases to collaborate with the work of national and international agencies to plan public policy responses to potential infectious disease threats.
 
 This team was one of the first to use our R-Universe and we're interested in understanding and sharing their reasons for joining the platform.
 
 As Rich explains, their work consists of providing answers to general and specific epidemiology problems and responding to more than 200 different companies. Within this framework, they use the R-Universe as a way to distribute and present packages they develop and use in their work.
+
+{{< figure src = "rob.jpeg" class = "pull-left" width = "300" alt = "Profile picture of Rob Ashton." caption = "<center><strong>Robert Ashton</strong><br>Senior Research Software Engineer</center>">}}
 
 Rob Ashton, a software engineer who works with Rich, adds that these packages are important as they allow them to deliver the work to all the users in a simple, useful, and responsible way. Especially if you consider that it is very collaborative work and often they are working against the clock. That is why they try to all work at the same time on the same code with a permanent development and revision cycle to meet the needs of the researchers.
 This work will then be used by researchers worldwide, and that is where the R-Universe becomes a fundamental tool.
