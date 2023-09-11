@@ -41,8 +41,21 @@ En este artículo resumimos las entrevistas de la serie _Conociendo a las estrel
 
 - _[Investigando nuestro cerebro con la magia del Universo R](/es/blog/2023/03/30/r-universe-stars-3-es/)_. En esta entrevista conocemos las razones por las que el Universo R llegó en el momento justo para solucionar los problemas del tamaño de los datos y las herramientas que necesitan para trabajar en la investigación del cerebro humano.
 
+{{< gallery >}}
+{{< figureforgallery src="lifebrain1.png" alt="Una serie de tres ejemplos de gráficos de diferentes atlas cerebrales. Cada fila muestra cuatro contornos cerebrales con formas de distintos colores." >}}
+{{< figureforgallery src="lifebrain2.png" alt="Dos contornos de un cerebro dibujados con líneas. A la izquierda, una imagen de arriba; a la derecha, una imagen de lado. Ambas muestran manchas de color que resaltan puntos en el centro correspondientes a distintas partes del cerebro." >}}
+{{< figureforgallery src="lifebrain3.png" alt="Universo R de Life Brain, vista de paquetes." >}}
+{{< /gallery >}}
+
+
 - _[PEcAn: un proyecto de código abierto para cuidar el planeta](/es/blog/2023/06/06/r-universe-stars-4-es/)_. En este encuentro conocemos el universo de un equipo que trabaja con el cambio climático y las investigaciones en el área que tienen una diversidad y complejidad que demandan modelos que permitan ahorrar tiempo y recursos a los investigadores. 
  
+
+{{< gallery >}}
+{{< figureforgallery src="pecan0.png" alt="Sitio Web del proyecto PEcAn" >}}
+{{< figureforgallery src="pecan.png" alt="diagrama de flujo que muestra el enfoque con estándares para reducir el trabajo redundante cuando se adoptan formatos comunes. Hay “n” tipos de datos que deben vincularse a “m” modelos de simulación y “k” análisis posteriores a la simulación. En el panel superior, el enfoque convencional en el que los equipos de modelización trabajan de forma independiente requiere implementar n × m diferentes conversiones de entrada y m × k diferentes conversiones de salida. A medida que se añaden datos, modelos y análisis, el esfuerzo se escala cuadráticamente. Por otro lado, el panel inferior muestra que trabajando en comunidad y adoptando formatos comunes y herramientas analíticas compartidas, el número de conversores necesarios para enlazar modelos, datos y análisis se reduce a un problema de m + n y m + k, y se escala linealmente." >}}
+{{< figureforgallery src="pecan2.png" alt="Universo R del proyecto PEcAn, vista de paquetes" >}}
+{{< /gallery >}}
 
 - _[El universo R contra las enfermedades](/es/blog/2023/06/06/r-universe-stars-4-es/)_. En este quinto encuentro, descubriremos el trabajo que hace un equipo de desarrolladores para luchar contra las enfermedades infecciosas y cómo utilizan el Universo R para alojar sus paquetes. La experiencia de la pandemia que vivimos en el mundo nos ayuda a comprender la dimensión y la importancia de este trabajo.
 
