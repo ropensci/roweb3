@@ -26,7 +26,18 @@ En este artículo resumimos las entrevistas de la serie _Conociendo a las estrel
 
 - _[comunidad R, intercambiar y aprender](/es/blog/2022/11/23/r-universe-stars-1-es/)_. En esta entrevista repasamos la experiencia de trabajar con paquetes de R en el estado argentino. Desde el Ministerio de Turismo y Deporte trabajan para optimizar los flujos de trabajos en procesos abiertos y accesibles a todos. Definen al universo R como un “gran armario donde poner nuestras cajas de herramientas”.
 
+{{< gallery >}}
+{{< figureforgallery src="sinta.png" alt="Sitio web de SINTA. Datos Abiertos de Turismo." >}}
+{{< figureforgallery src="sinta2.png" alt="Universo R de SINTA." >}}
+{{< /gallery >}}
+
 - _[Aprender, ayudar y compartir: el método de ThinkR para crear una comunidad cada vez más grande y amigable de R](es/blog/2023/02/28/r-universe-stars-2-es/)_. En este encuentro hablamos de R en la educación a través de la historia de una organización francesa que busca ayudar a que más personas puedan trabajar con R. Definen a Universo R como un lugar donde registrar todos los procesos y las herramientas de manera ordenada y con información útil.
+
+{{< gallery >}}
+{{< figureforgallery src="thinkr.png" alt="Universo R de Thinkr, vista de paquetes" >}}
+{{< figureforgallery src="thinkr2.png" alt="Universo R Thinkr, vista de Build." >}}
+{{< /gallery >}}
+
 
 - _[Investigando nuestro cerebro con la magia del Universo R](/es/blog/2023/03/30/r-universe-stars-3-es/)_. En esta entrevista conocemos las razones por las que el Universo R llegó en el momento justo para solucionar los problemas del tamaño de los datos y las herramientas que necesitan para trabajar en la investigación del cerebro humano.
 
