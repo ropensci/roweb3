@@ -12,7 +12,7 @@ tags:
   - r-universe-stars
 featured: true
 # The summary below will be used 
-description: "."
+description: "En este artículo resumimos las entrevistas de la serie _Conociendo a las estrellas del universo R_, les traemos cinco ejemplos de organizaciones y equipos que eligen el Universo R para facilitar el acceso y promover el intercambio de datos y software en comunidad."
 
 ---
 
@@ -53,12 +53,17 @@ En este artículo resumimos las entrevistas de la serie _Conociendo a las estrel
 
 {{< gallery >}}
 {{< figureforgallery src="pecan0.png" alt="Sitio Web del proyecto PEcAn" >}}
-{{< figureforgallery src="pecan.png" alt="diagrama de flujo que muestra el enfoque con estándares para reducir el trabajo redundante cuando se adoptan formatos comunes. Hay “n” tipos de datos que deben vincularse a “m” modelos de simulación y “k” análisis posteriores a la simulación. En el panel superior, el enfoque convencional en el que los equipos de modelización trabajan de forma independiente requiere implementar n × m diferentes conversiones de entrada y m × k diferentes conversiones de salida. A medida que se añaden datos, modelos y análisis, el esfuerzo se escala cuadráticamente. Por otro lado, el panel inferior muestra que trabajando en comunidad y adoptando formatos comunes y herramientas analíticas compartidas, el número de conversores necesarios para enlazar modelos, datos y análisis se reduce a un problema de m + n y m + k, y se escala linealmente." >}}
+{{< figureforgallery src="pecan.png" alt="diagrama de flujo que muestra el enfoque con estándares para reducir el trabajo redundante cuando se adoptan formatos comunes." >}}
 {{< figureforgallery src="pecan2.png" alt="Universo R del proyecto PEcAn, vista de paquetes" >}}
 {{< /gallery >}}
 
 - _[El universo R contra las enfermedades](/es/blog/2023/06/06/r-universe-stars-4-es/)_. En este quinto encuentro, descubriremos el trabajo que hace un equipo de desarrolladores para luchar contra las enfermedades infecciosas y cómo utilizan el Universo R para alojar sus paquetes. La experiencia de la pandemia que vivimos en el mundo nos ayuda a comprender la dimensión y la importancia de este trabajo.
 
+{{< gallery >}}
+{{< figureforgallery src="mrc1.png" alt="Universo R de MRC mostrando quienes contribuyen" >}}
+{{< figureforgallery src="mrc2.png" alt="Universo R de MRC mostrando la vista de builds" >}}
+{{< figureforgallery src="mrc3.png" alt="Universo R de MRC, vista de paquetes" >}}
+{{< /gallery >}}
 
 Esta es una pequeña muestra de un amplio universo donde conviven profesionales de diversas áreas, todas personas que usan R. Te invitamos a que [nos sugieras qué otros universos te gustaría que entrevistaramos](mailto:yabellini@ropensci.org) en una segunda etapa para conocer aún más los equipos y paquetes que forman parte del Multiverso de rOpenSci.
 
