@@ -16,15 +16,15 @@ description: "En este artículo resumimos las entrevistas de la serie _Conociend
 
 ---
 
-El Universo R Nuestras es utilizado por profesionales de distintos ámbitos, aunque todos persiguen el mismo objetivo: __ofrecer sus paquetes de R de manera simple y accesible__.
+El Universo R es utilizado por profesionales de distintos ámbitos, aunque todos persiguen el mismo objetivo: __ofrecer sus paquetes de R de manera simple y accesible__.
 
-Desde rOpenSci trabajamos para ofrecer herramientas que faciliten el acceso a datos con buenas prácticas de desarrollo y en una comunidad amigable. Básicamente un universo para encontrar el paquete más adecuado para resolver un problema.
+Desde rOpenSci trabajamos para ofrecer herramientas que faciliten el acceso a datos y software de investigación generado con buenas prácticas de desarrollo de software y en una comunidad amigable. Con la plataforma Universo R básicamente buscamos presentar todo el universo #rstats para que cualquiera pueda encontrar el paquete más adecuado para resolver un problema.
 
-En nuestro universo encontramos paquetes muy diversos. Desde equipos que analizan datos estadísticos en el estado argentino a investigaciones sobre el cerebro humano en Noruega.  
+En el Universo R encontramos paquetes muy diversos. Desde equipos que analizan datos estadísticos en el estado argentino a investigaciones sobre el cerebro humano en Noruega.  
 
 En este artículo resumimos las entrevistas de la serie _Conociendo a las estrellas del universo R_, les traemos cinco ejemplos de organizaciones y equipos que eligen el Universo R para facilitar el acceso y promover el intercambio de datos y software en comunidad.
 
-- _[comunidad R, intercambiar y aprender](/es/blog/2022/11/23/r-universe-stars-1-es/)_. En esta entrevista repasamos la experiencia de trabajar con paquetes de R en el estado argentino. Desde el Ministerio de Turismo y Deporte trabajan para optimizar los flujos de trabajos en procesos abiertos y accesibles a todos. Definen al universo R como un “gran armario donde poner nuestras cajas de herramientas”.
+- _[SINTA: comunidad R, intercambiar y aprender](/es/blog/2022/11/23/r-universe-stars-1-es/)_. En esta entrevista repasamos la experiencia de trabajar con paquetes de R en el estado argentino. Desde el Ministerio de Turismo y Deporte trabajan para optimizar los flujos de trabajos en procesos abiertos y accesibles a todas las personas. Definen al Universo R como un “gran armario donde poner nuestras cajas de herramientas”.
 
 {{< gallery >}}
 {{< figureforgallery src="sinta.png" alt="Sitio web de SINTA. Datos Abiertos de Turismo." >}}
@@ -57,7 +57,7 @@ En este artículo resumimos las entrevistas de la serie _Conociendo a las estrel
 {{< figureforgallery src="pecan2.png" alt="Universo R del proyecto PEcAn, vista de paquetes" >}}
 {{< /gallery >}}
 
-- _[El universo R contra las enfermedades](/es/blog/2023/06/06/r-universe-stars-4-es/)_. En este quinto encuentro, descubriremos el trabajo que hace un equipo de desarrolladores para luchar contra las enfermedades infecciosas y cómo utilizan el Universo R para alojar sus paquetes. La experiencia de la pandemia que vivimos en el mundo nos ayuda a comprender la dimensión y la importancia de este trabajo.
+- _[El universo R contra las enfermedades](/es/blog/2023/06/06/r-universe-stars-4-es/)_. En este quinto encuentro, descubrimos el trabajo que hace un equipo de desarrolladores para luchar contra las enfermedades infecciosas y cómo utilizan el Universo R para alojar sus paquetes. La experiencia de la pandemia que vivimos en el mundo nos ayuda a comprender la dimensión y la importancia de este trabajo.
 
 {{< gallery >}}
 {{< figureforgallery src="mrc1.png" alt="Universo R de MRC mostrando quienes contribuyen" >}}
