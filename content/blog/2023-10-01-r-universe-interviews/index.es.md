@@ -36,7 +36,6 @@ En este artículo resumimos las entrevistas de la serie _Conociendo a las estrel
 - _[El universo R contra las enfermedades](/es/blog/2023/06/06/r-universe-stars-4-es/)_. En este quinto encuentro, descubriremos el trabajo que hace un equipo de desarrolladores para luchar contra las enfermedades infecciosas y cómo utilizan el Universo R para alojar sus paquetes. La experiencia de la pandemia que vivimos en el mundo nos ayuda a comprender la dimensión y la importancia de este trabajo.
 
 
-
 Esta es una pequeña muestra de un amplio universo donde conviven profesionales de diversas áreas, todas personas que usan R. Te invitamos a que [nos sugieras qué otros universos te gustaría que entrevistaramos](mailto:yabellini@ropensci.org) en una segunda etapa para conocer aún más los equipos y paquetes que forman parte del Multiverso de rOpenSci.
 
-También podes formar parte de nuestra comunidad suscribiéndote a nuestro [Newsletter]() y podés seguirnos en nuestras redes sociales en [Mastodon]() y [Linkedin](). 
+También podes formar parte de nuestra comunidad suscribiéndote a nuestro [Newsletter](/news/) y podés seguirnos en nuestras redes sociales en [Mastodon](https://hachyderm.io/@rOpenSci) y [Linkedin](https://www.linkedin.com/company/ropensci/). 
