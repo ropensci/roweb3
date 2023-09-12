@@ -1,5 +1,5 @@
 ---
-title: Attract (and retain) new contributors with help-wanted issues
+title: 'Attract (and retain) new contributors with "help wanted" issues'
 author:
   - Maëlle Salmon
 date: '2023-10-03'
