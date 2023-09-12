@@ -74,7 +74,7 @@ Sys.setenv("DEEPL_API_URL" = "https://api.deepl.com")
 
 ## Translation!
 
-You could simply run the code below
+You could run the code below
 
 ```r
 babeldown::deepl_translate_hugo(
@@ -93,10 +93,12 @@ If you use version control, having the translation as a diff is very handy!
 
 #### In words
 
-- Save your original blog post under the target blog post name and commit it, then push.
+- In the branch of your post, let's say "new-post", create a placeholder: save your original blog post under the target blog post name and commit it, then push.
 - Create a new branch.
 - Run `babeldown::deepl_translate_hugo()` with `force = TRUE`.
-- Commit the result and open a PR. The diff for the target blog post will be the diff between the source and target language! If you have the good habit to start a new line after each sentence / sentence part, it's even better.
+- Commit and push the result. 
+- Open a PR from the **"translation-tech-note"** branch to the **"new-post"** branch. 
+The only difference between the two branches is the automatic translation of `"2023-08-24-divide-y-venceras-de-polar-al-polarverse", "index.en.md"`.. The diff for the target blog post will be the diff between the source and target language! If you have the good habit to start a new line after each sentence / sentence part, it's even better.
 - The human translators can then a open a second PR to the translation branch with their edits!
 
 
@@ -104,7 +106,7 @@ If you use version control, having the translation as a diff is very handy!
 
 With code using fs and gert (but you do you!), assuming your current directory is the root of the website folder, and also the root of the git repository, and a translation from Spanish to English...
 
-- Save your original blog post under the target blog post name and commit it, then push.
+- In the post branch, let's call it "new-post", save your original blog post under the target blog post name and commit it, then push.
 
 ```r
 fs::file_copy(
@@ -145,15 +147,16 @@ babeldown::deepl_translate_hugo(
 )
 ```
 
-- Commit the result and open a PR.
+- Commit the result with the code below.
 
 ```r
 gert::git_add(file.path("content", "blog", "2023-08-24-divide-y-venceras-de-polar-al-polarverse", "index.en.md"))
 gert::git_commit("Add translation")
 gert::git_push()
-usethis::pr_init("translation-tech-note")
-usethis::pr_push()
 ```
+
+- Open a PR from the **"translation-tech-note"** branch to the **"new-post"** branch. 
+The only difference between the two branches is the automatic translation of `"2023-08-24-divide-y-venceras-de-polar-al-polarverse", "index.en.md"`.
 
 - The human translators can then a open a _second_ PR to the translation branch with their edits!
 
