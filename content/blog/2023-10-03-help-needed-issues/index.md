@@ -69,7 +69,7 @@ First of all, "help wanted" issues of rOpenSci packages are broadcasted to the c
 
 Then you could also share it within your own networks: rOpenSci slack workspace, your Mastodon account, a local R User Group communication channel, etc.
 
-Some tools or people browse public GitHub issues labelled "help wanted", for Hacktoberfest for instance, but you can't count on someone's discovering your tiny issue in that sea of issues.
+Some tools or people browse public GitHub issues labelled "help wanted", for [Hacktoberfest](https://hacktoberfest.com/) for instance, but you can't count on someone's discovering your tiny issue in that sea of issues.
 
 ## Thank contributors
 
