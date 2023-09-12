@@ -82,5 +82,11 @@ In that case, alternatives or complements might be to broadcast it again, ask fo
 ## Conclusion
 
 Opening "help wanted" issues can be a way to grow your package contributors' community.
+They might be a better door to contribution than less specific issues with a laundry list of needed tasks, as they're less overwhelming.
+Contributors might fix one "help wanted" issue and then leave, or go ahead and solve more of them.
+
+As a contributor, always comment in an issue before tackling it, to ensure it's still up-to-date, and that no one else is preparing a duplicate PR right now!
+How vexing would that be to work for nothing.
+
 They might appear as a potential loss of time if no one tackles the issue in the end, but it might be good to have thought about the issue resolution even if you solve it yourself in the end.
 For further thoughts on how to foster a community around your package, you might enjoy the recording and materials on our past [community call on the topic](/commcalls/apr2021-pkg-community/).
