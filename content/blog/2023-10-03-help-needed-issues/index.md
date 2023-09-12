@@ -23,7 +23,8 @@ _Note that this post uses GitHub-specific terminology like issues and labels. If
 ## What are "help wanted" issues?
 
 "Help wanted" issues are issues for which you'd accept or need external contributions.
-They are labelled with the community standard "help wanted" label.
+They are labelled with the community standard "help wanted" label (or the equivalent with an emoji, if you ran [`usethis::use_tidy_github_labels()`](https://usethis.r-lib.org/reference/use_github_labels.html)).
+[Example](https://github.com/ropensci/osmextract/issues/286).
 
 For some of them, if they're not too involved, or a good onboarding ramp to your codebase, you can also use the ["good first issue" label](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/encouraging-helpful-contributions-to-your-project-with-labels).
 
