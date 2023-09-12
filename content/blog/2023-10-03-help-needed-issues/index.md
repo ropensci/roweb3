@@ -16,20 +16,20 @@ description: Tips on how to create and advertise help-wanted issues.
 
 Maintaining a package can be a lonesome activity, which sometimes poses a problem if you'd prefer team work or if you encounter a very thorny for you problem.
 Beside belonging to a supportive community of maintainers, like rOpenSci :wink:, for collaborative help and commiseration, you can try to build a community of contributors around your package!
-In this post, we'll underline one tool helping you towards that goal: help-wanted issues, with which your repository could attract, and retain, new developers!
+In this post, we'll underline one tool helping you towards that goal: "help wanted" issues, with which your repository could attract, and retain, new developers!
 
-## What are help wanted issues?
+## What are "help wanted" issues?
 
-Help wanted issues are issues for which you'd accept or need external contributions.
+"Help wanted" issues are issues for which you'd accept or need external contributions.
 They are labelled with the community standard "help wanted" label.
 
 For some of them, if they're not too involved, or a good onboarding ramp to your codebase, you can also use the ["good first issue" label](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/encouraging-helpful-contributions-to-your-project-with-labels).
 
-## Select (or unwillingly incur) help-wanted topics
+## Select (or unwillingly incur) "help wanted" topics
 
 ### The topics you don't choose: development hurdles
 
-You don't get to choose all the help wanted issue: sometimes a hurdle very clearly appear on the road to your next development milestone.
+You don't get to choose all the "help wanted" issues: sometimes a hurdle very clearly appear on the road to your next development milestone.
 At this stage you can either
 - ask for help in an usual channel (rOpenSci Slack's package-maintenance channel if you're in that workspace; Posit community forum...);
 - open an issue in an upstream dependency if that's where the actual problem is;
@@ -48,7 +48,7 @@ By listing them in your issue tracker,
 
 - you show curious users that they're on your mind, 
 - you can organize your own work... 
-- and you can receive external help if you signal it's ok, with the "help-wanted" label.
+- and you can receive external help if you signal it's ok, with the "help wanted" label.
 
 ## Polish your issue and contributing guide
 
@@ -63,7 +63,7 @@ Do not overload or scare off contributors by having too strict requirements: you
 
 ## Broadcast your need for help
 
-First of all, help-wanted issues of rOpenSci packages are broadcasted to the community via a [dedicated page on the website](/help-wanted), and social media posts!
+First of all, "help wanted" issues of rOpenSci packages are broadcasted to the community via a [dedicated page on the website](/help-wanted), and social media posts!
 
 Then you could also share it within your own networks: rOpenSci slack workspace, your Mastodon account, a local R User Group communication channel, etc.
 
@@ -81,6 +81,6 @@ In that case, alternatives or complements might be to broadcast it again, ask fo
 
 ## Conclusion
 
-Opening help-wanted issues can be a way to grow your package contributors' community.
+Opening "help wanted" issues can be a way to grow your package contributors' community.
 They might appear as a potential loss of time if no one tackles the issue in the end, but it might be good to have thought about the issue resolution even if you solve it yourself in the end.
 For further thoughts on how to foster a community around your package, you might enjoy the recording and materials on our past [community call on the topic](/commcalls/apr2021-pkg-community/).
