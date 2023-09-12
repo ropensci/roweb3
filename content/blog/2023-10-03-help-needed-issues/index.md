@@ -38,7 +38,7 @@ At this stage you can either
 - open an issue in an upstream dependency if that's where the actual problem is;
 - open an issue in your repository describing your problem.
 
-For instance, when working on tinkr Maëlle opened a [very specific issue](https://github.com/ropensci/tinkr/issues/9) that did end up getting miraculous outside help.
+For instance, when working on the tinkr package, Maëlle opened a [very specific issue](https://github.com/ropensci/tinkr/issues/9) that did end up getting miraculous outside help.
 
 You can also add the "help wanted" label to a bug report or feature request someone else opened in your package!
 With a bit of luck, the issue creator themselves will be able to participate?
