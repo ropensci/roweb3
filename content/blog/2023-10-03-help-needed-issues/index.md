@@ -18,6 +18,8 @@ Maintaining a package can be a lonesome activity, which sometimes poses a proble
 Beside belonging to a supportive community of maintainers, like rOpenSci :wink:, for collaborative help and commiseration, you can try to build a community of contributors around your package!
 In this post, we'll underline one tool helping you towards that goal: "help wanted" issues, with which your repository could attract, and retain, new developers!
 
+_Note that this post uses GitHub-specific terminology like issues and labels. If you use GitLab or another git platform, there's probably an equivalent. :slightly_smiling_face:_
+
 ## What are "help wanted" issues?
 
 "Help wanted" issues are issues for which you'd accept or need external contributions.
@@ -66,6 +68,8 @@ Do not overload or scare off contributors by having too strict requirements: you
 First of all, "help wanted" issues of rOpenSci packages are broadcasted to the community via a [dedicated page on the website](/help-wanted), and social media posts!
 
 Then you could also share it within your own networks: rOpenSci slack workspace, your Mastodon account, a local R User Group communication channel, etc.
+
+Some tools or people browse public GitHub issues labelled "help wanted", for Hacktoberfest for instance, but you can't count on someone's discovering your tiny issue in that sea of issues.
 
 ## Thank contributors
 
