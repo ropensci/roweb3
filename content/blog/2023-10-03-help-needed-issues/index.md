@@ -34,7 +34,7 @@ For some of them, if they're not too involved, or a good onboarding ramp to your
 
 You don't get to choose all the "help wanted" issues: sometimes a hurdle very clearly appear on the road to your next development milestone.
 At this stage you can either
-- ask for help in an usual channel (rOpenSci Slack's package-maintenance channel if you're in that workspace; Posit community forum...);
+- ask for help in an usual channel (rOpenSci Slack's package-maintenance channel if you're in that workspace; [rOpenSci discussion forum](/blog/2022/01/11/ropensci-forum/); [Posit community forum](https://community.rstudio.com/)...);
 - open an issue in an upstream dependency if that's where the actual problem is;
 - open an issue in your repository describing your problem.
 
