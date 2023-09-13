@@ -23,7 +23,7 @@ From rOpenSci we work to provide tools that facilitate access to data and resear
 
 In the R Universe we find very diverse packages. From teams analyzing statistical data in the Argentine state to research on the human brain in Norway.
 
-In this article, we summarize the interviews of the series *Meeting the stars of the R universe* In this article, we bring you five examples of organizations and teams that choose the R Universe to facilitate access and promote community sharing of data and software.
+In this blog post, we summarize the interviews of the series *Meeting the stars of the R universe* In this article, we bring you five examples of organizations and teams that choose the R-Universe to facilitate access and promote community sharing of data and software.
 
 - *[SINTA: R community, sharing and learning](/es/blog/2022/11/23/r-universe-stars-1-es/)*. In this interview we review the experience of working with R packages in the Argentine state. From the Ministry of Tourism and Sports they work to optimize workflows in open processes and accessible to everyone. They define R Universe as a "big closet where to put our toolboxes".
 
@@ -32,14 +32,14 @@ In this article, we summarize the interviews of the series *Meeting the stars of
 {{\< figureforgallery src="sinta2.png" alt="SINTA's R Universe."  >}}
 {{\< /gallery >}}
 
-- *[Learn, help and share: ThinkR's method to create a growing and friendly R community.](es/blog/2023/02/28/r-universe-stars-2-es/)*. In this meeting we talk about R in education through the story of a French organization that seeks to help more people to work with R. They define Universe R as a place to record all the processes and tools in an orderly way and with useful information.
+- *[Learn, help and share: ThinkR's method to create a growing and friendly R community.](es/blog/2023/02/28/r-universe-stars-2-es/)*. In this meeting we talk about R in education through the story of a French organization that seeks to help more people to work with R. They define R-Universe as a place to record all the processes and tools in an orderly way and with useful information.
 
 {{\< gallery >}}
 {{\< figureforgallery src="thinkr.png" alt="Thinkr R Universe, package view."  >}}
 {{\< figureforgallery src="thinkr2.png" alt="R Thinkr Universe, Build view."  >}}
 {{\< /gallery >}}
 
-- *[Investigating our brain with the magic of Universe R](/es/blog/2023/03/30/r-universe-stars-3-es/)*. In this interview we learn about the reasons why Universe R came at the right time to solve the problems of data size and the tools they need to work on human brain research.
+- *[Researching our brain with the magic of the R-Universe](/es/blog/2023/03/30/r-universe-stars-3-es/)*. In this interview we learn about the reasons why R-Universe came at the right time to solve the problems of data size and the tools they need to work on human brain research.
 
 {{\< gallery >}}
 {{\< figureforgallery src="lifebrain1.png" alt="A series of three examples of graphs of different brain atlases. Each row shows four brain outlines with different colored shapes."  >}}
@@ -55,7 +55,7 @@ In this article, we summarize the interviews of the series *Meeting the stars of
 {{\< figureforgallery src="pecan2.png" alt="PEcAn project R universe, package view."  >}}
 {{\< /gallery >}}
 
-- *[The R universe against diseases](/es/blog/2023/06/06/r-universe-stars-4-es/)*. In this fifth meeting, we discover the work done by a team of developers to fight against infectious diseases and how they use the R Universe to host their packages. The experience of the pandemic we are living in the world helps us to understand the dimension and importance of this work.
+- *[The R universe against diseases](/es/blog/2023/06/06/r-universe-stars-4-es/)*. In this fifth meeting, we discover the work done by a team of developers to fight against infectious diseases and how they use the R-Universe to host their packages. The experience of the pandemic we are living in the world helps us to understand the dimension and importance of this work.
 
 {{\< gallery >}}
 {{\< figureforgallery src="mrc1.png" alt="MRC R Universe showing who contributes."  >}}
@@ -63,7 +63,15 @@ In this article, we summarize the interviews of the series *Meeting the stars of
 {{\< figureforgallery src="mrc3.png" alt="MRC R Universe, package view."  >}}
 {{\< /gallery >}}
 
-This is a small sample of a wide universe where professionals from different areas coexist, all of them people who use R. We invite you to [suggest what other universes you would like us to interview.](mailto:yabellini@ropensci.org) in a second stage to learn even more about the teams and packages that are part of the rOpenSci Multiverse.
+This is a small sample of a wide universe where professionals from different areas coexist, all of them people who use R. Each team highlights different benefits of our platform:
+
+- Automate the building of binaries for different operating systems and thus
+- Facilitate the release and installation of packages and save hours of work related to these tasks.
+- Publish packages with large amounts of data,
+- Publish all your software tools in one place in an organized way.
+- Show joint software development efforts of many organizations in one place 
+
+There is a lot more other R-universe out there! We invite you to [suggest what other universes you would like us to interview.](mailto:yabellini@ropensci.org) in a second stage to learn even more about the teams and packages that are part of the rOpenSci Multiverse.
 
 You can also become a part of our community by subscribing to our [Newsletter](/news/) and you can follow us on our social networks at [Mastodon](https://hachyderm.io/@rOpenSci) y [Linkedin](https://www.linkedin.com/company/ropensci/).
 
