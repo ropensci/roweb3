@@ -65,6 +65,14 @@ En este artículo resumimos las entrevistas de la serie _Conociendo a las estrel
 {{< figureforgallery src="mrc3.png" alt="Universo R de MRC, vista de paquetes" >}}
 {{< /gallery >}}
 
-Esta es una pequeña muestra de un amplio universo donde conviven profesionales de diversas áreas, todas personas que usan R. Te invitamos a que [nos sugieras qué otros universos te gustaría que entrevistaramos](mailto:yabellini@ropensci.org) en una segunda etapa para conocer aún más los equipos y paquetes que forman parte del Multiverso de rOpenSci.
+Esta es una pequeña muestra de un amplio universo donde conviven profesionales de diversas áreas, todas personas que usan R.  Cada equipo destaca distintas ventajas de nuestra plataforma:
+
+- Automatizar la construcción de binarios para diferentes sistemas operativos y así
+- Facilitar la publicación e instalación de paquetes y ahorrar horas de trabajo relacionadas con estas tareas.
+- Publicar paquetes con grandes cantidades de datos,
+- Publique todas sus herramientas de software en un solo lugar de forma organizada.
+- Mostrar los esfuerzos conjuntos de desarrollo de software de muchas organizaciones en un solo lugar. 
+
+¡Hay muchos más universos R por ahí! Te invitamos a que [nos sugieras qué otros universos te gustaría que entrevistaramos](mailto:yabellini@ropensci.org) en una segunda etapa para conocer aún más los equipos y paquetes que forman parte del Multiverso de rOpenSci.
 
 También podes formar parte de nuestra comunidad suscribiéndote a nuestro [Newsletter](/news/) y podés seguirnos en nuestras redes sociales en [Mastodon](https://hachyderm.io/@rOpenSci) y [Linkedin](https://www.linkedin.com/company/ropensci/). 
