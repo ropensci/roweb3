@@ -14,6 +14,9 @@ resources: # can be added later, one entry per talk (don't add while still empty
 
 ---
 
+Los 14 capítulos de R-Ladies en México se juntan para celebrar su encuentro anual.  Nuestra community manager Yani estará dando una charla sobre rOpenSci y como participar en nuestra comunidad durante este evento on-line.
+
+podes registrarte en cualquiera de los capítulos en meetup.com
 
 
 
