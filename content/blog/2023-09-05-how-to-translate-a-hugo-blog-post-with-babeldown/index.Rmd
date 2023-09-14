@@ -98,7 +98,7 @@ If you use version control, having the translation as a diff is very handy!
 - Run `babeldown::deepl_translate_hugo()` with `force = TRUE`.
 - Commit and push the result. 
 - Open a PR from the **"translation-tech-note"** branch to the **"new-post"** branch. 
-The only difference between the two branches is the automatic translation of `"2023-08-24-divide-y-venceras-de-polar-al-polarverse", "index.en.md"`.. The diff for the target blog post will be the diff between the source and target language! If you have the good habit to start a new line after each sentence / sentence part, it's even better.
+The only difference between the two branches is the automatic translation of `"2023-10-01-r-universe-interviews/index.en.md"`.. The diff for the target blog post will be the diff between the source and target language! If you have the good habit to start a new line after each sentence / sentence part, it's even better.
 - The human translators can then a open a second PR to the translation branch with their edits!
 
 
@@ -110,10 +110,10 @@ With code using fs and gert (but you do you!), assuming your current directory i
 
 ```r
 fs::file_copy(
-  file.path("content", "blog", "2023-08-24-divide-y-venceras-de-polar-al-polarverse", "index.es.md"),
-  file.path("content", "blog", "2023-08-24-divide-y-venceras-de-polar-al-polarverse", "index.en.md")
+  file.path("content", "blog", "2023-10-01-r-universe-interviews", "index.es.md"),
+  file.path("content", "blog", "2023-10-01-r-universe-interviews", "index.en.md")
 )
-gert::git_add(file.path("content", "blog", "2023-08-24-divide-y-venceras-de-polar-al-polarverse", "index.en.md"))
+gert::git_add(file.path("content", "blog", "2023-10-01-r-universe-interviews", "index.en.md"))
 gert::git_commit("Add translation placeholder")
 gert::git_push()
 ```
@@ -128,7 +128,7 @@ gert::git_branch_create("translation-tech-note")
 
 ```r
 babeldown::deepl_translate_hugo(
-  post_path = file.path("content", "blog", "2023-08-24-divide-y-venceras-de-polar-al-polarverse", "index.es.md"),
+  post_path = file.path("content", "blog", "2023-10-01-r-universe-interviews", "index.es.md"),
   force = TRUE,
   yaml_fields = c("title", "description", "tags"),
   source_lang = "ES",
@@ -150,13 +150,13 @@ babeldown::deepl_translate_hugo(
 - Commit the result with the code below.
 
 ```r
-gert::git_add(file.path("content", "blog", "2023-08-24-divide-y-venceras-de-polar-al-polarverse", "index.en.md"))
+gert::git_add(file.path("content", "blog", "2023-10-01-r-universe-interviews", "index.en.md"))
 gert::git_commit("Add translation")
 gert::git_push()
 ```
 
 - Open a PR from the **"translation-tech-note"** branch to the **"new-post"** branch. 
-The only difference between the two branches is the automatic translation of `"2023-08-24-divide-y-venceras-de-polar-al-polarverse", "index.en.md"`.
+The only difference between the two branches is the automatic translation of `"2023-10-01-r-universe-interviews", "index.en.md"`.
 
 - The human translators can then a open a _second_ PR to the translation branch with their edits!
 
