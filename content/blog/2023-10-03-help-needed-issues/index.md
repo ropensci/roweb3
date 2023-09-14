@@ -2,9 +2,9 @@
 title: 'Attract (and retain) new contributors with "help wanted" issues'
 author:
   - Maëlle Salmon
+  - Yanina Bellini Saibene
 date: '2023-10-03'
 slug: help-wanted
-categories: []
 featured: true 
 tags:
   - community
@@ -60,9 +60,11 @@ Even if you are the one fixing the issue in the end, future you will be happy yo
 Link to resources as needed, indicate context.
 Approach the issue writing as you approach the issue writing in a repo that isn't yours: challenge description, desired outcome, trade-offs, etc.
 
-Beyond efforts in the individual issue, it's crucial to have a [contributing guide](https://devguide.ropensci.org/collaboration.html#contributing-guide) underlining anything that is good to know about contributing to your package: tooling used, style and design preferences.
+Beyond efforts in the individual issue, it's crucial to have a [contributing guide](https://devguide.ropensci.org/collaboration.html#contributing-guide) underlining anything that is good to know about contributing to your package: tooling used, style and design preferences.[^ctb]
 Do not duplicate external resources, point to them instead.
 Do not overload or scare off contributors by having too strict requirements: you can probably finish off PRs yourself, or teach them little by little. 
+
+[^ctb]: You might find https://contributing.streamlit.app/ helpful, but another way to improve your contributing guide is to keep amending it based on your experience with new contributors.
 
 ## Broadcast your need for help
 
@@ -83,6 +85,7 @@ Acknowledge contributions [generously](https://devguide.ropensci.org/collaborati
 
 Even if you wrote an excellent issue, it might just not get picked up.
 In that case, alternatives or complements might be to broadcast it again, ask for general tips to your fellow maintainers, try and get funding (therefore time, either yours or an external contractor's?) for your maintenance efforts.
+See for instance the [R Consortium's two yearly calls for proposals](https://www.r-consortium.org/all-projects/call-for-proposals#Rstats).
 
 ## Conclusion
 
@@ -93,5 +96,6 @@ Contributors might fix one "help wanted" issue and then leave, or go ahead and s
 As a contributor, always comment in an issue before tackling it, to ensure it's still up-to-date, and that no one else is preparing a duplicate PR right now!
 How vexing would that be to work for nothing.
 
-They might appear as a potential loss of time if no one tackles the issue in the end, but it might be good to have thought about the issue resolution even if you solve it yourself in the end.
+Even if no one tackles the issue in the end, it might be good to think about the resolution, which can help you solve it. 
+Also, a well-documented issue is a way to document your decisions about your software transparently and can help future users and contributors understand the reasons for your choices.
 For further thoughts on how to foster a community around your package, you might enjoy the recording and materials on our past [community call on the topic](/commcalls/apr2021-pkg-community/).
