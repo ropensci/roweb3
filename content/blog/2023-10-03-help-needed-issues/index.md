@@ -87,6 +87,9 @@ Even if you wrote an excellent issue, it might just not get picked up.
 In that case, alternatives or complements might be to broadcast it again, ask for general tips to your fellow maintainers, try and get funding (therefore time, either yours or an external contractor's?) for your maintenance efforts.
 See for instance the [R Consortium's two yearly calls for proposals](https://www.r-consortium.org/all-projects/call-for-proposals#Rstats).
 
+Even if no one tackles the issue in the end, it might be good to have thought about the possible resolution, which can help you solve your problem. 
+Also, a well-documented issue is a way to document your decisions about your software transparently and can help future users and contributors understand the reasons for your choices.
+
 ## Conclusion
 
 Opening "help wanted" issues can be a way to grow your package contributors' community.
@@ -96,6 +99,4 @@ Contributors might fix one "help wanted" issue and then leave, or go ahead and s
 As a contributor, always comment in an issue before tackling it, to ensure it's still up-to-date, and that no one else is preparing a duplicate PR right now!
 How vexing would that be to work for nothing.
 
-Even if no one tackles the issue in the end, it might be good to think about the resolution, which can help you solve it. 
-Also, a well-documented issue is a way to document your decisions about your software transparently and can help future users and contributors understand the reasons for your choices.
 For further thoughts on how to foster a community around your package, you might enjoy the recording and materials on our past [community call on the topic](/commcalls/apr2021-pkg-community/).
