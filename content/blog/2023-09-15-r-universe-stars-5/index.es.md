@@ -42,5 +42,5 @@ Parte de esos desafíos están en desarrollo y el Universo R ya cuenta con funci
 En el siguiente video Rich y Rob cuentan más detalles del trabajo que realizan en el MRC y que comparten en el Universo R de rOpenSci.
 
 
-{{< vimeo id=829850626 title="Conociendo a las estrellas del Universo R - Proyecto xxxxxx" >}}
+{{< vimeo id=861836969 title="Conociendo a las estrellas del Universo R - Proyecto del Centre for Global Infectious Disease Analysis" >}}
 

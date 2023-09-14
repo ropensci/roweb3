@@ -48,5 +48,4 @@ Some of these features are currently under development and others have already b
 In the following video, Rich and Rob share more details of their work in the MRC and with the rOpenSci R-Universe.
 
 
-{{< vimeo id=829850626 title="Meeting R-Universe Stars - xxxxx project" >}}
-
+{{< vimeo id=861836969 title="Meeting R-Universe Stars - Centre for Global Infectious Disease Analysis project" >}}
