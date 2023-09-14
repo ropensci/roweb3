@@ -98,7 +98,7 @@ If you use version control, having the translation as a diff is very handy!
 - Run `babeldown::deepl_translate_hugo()` with `force = TRUE`.
 - Commit and push the result. 
 - Open a PR from the **"translation-tech-note"** branch to the **"new-post"** branch. 
-The only difference between the two branches is the automatic translation of `"2023-10-01-r-universe-interviews/index.en.md"`.. The diff for the target blog post will be the diff between the source and target language! If you have the good habit to start a new line after each sentence / sentence part, it's even better.
+The only difference between the two branches is the automatic translation of your post. The diff for the target blog post will be the diff between the source and target languages! If you have the good habit to start a new line after each sentence / sentence part, it's even better.
 - The human translators can then a open a second PR to the translation branch with their edits!
 
 
@@ -156,22 +156,33 @@ gert::git_push()
 ```
 
 - Open a PR from the **"translation-tech-note"** branch to the **"new-post"** branch. 
-The only difference between the two branches is the automatic translation of `"2023-10-01-r-universe-interviews", "index.en.md"`.
+The only difference between the two branches is the automatic translation of `"content/blog/2023-10-01-r-universe-interviews/index.en.md"`.
 
-- The human translators can then a open a _second_ PR to the translation branch with their edits!
+- The human translators can then a open a _second_ PR to the translation branch with their edits! Or they can add their edits as [PR suggestions](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request#adding-comments-to-a-pull-request).
 
 #### Summary of branches and PRs
 
-In the end there should be three branches:
+In the end there should be two to three branches:
 - branch A with blog post in Spanish and placeholder blog post for English (with Spanish content) -- PR to main;
-- branch B with blog post automatically translated to English. PR to branch -- A;
-- branch C with blog post's English automatic translation edited by a human -- PR to branch B.
+- branch B with blog post automatically translated to English -- PR to branch A;
+- Optionally branch C with blog post's English automatic translation edited by a human -- PR to branch B. If branch C does not exist, edits by a human are made as PR review suggestions in the PR from B to A.
 
 The PR are merged in this order:
 
 - PR to branch B;
 - PR to branch A;
 - PR to main.
+
+#### Real example
+
+- [PR adding a post to the rOpenSci blog](https://github.com/ropensci/roweb3/pull/629), notice it's a PR from the **"r-universe-interviews"** branch to the **"main" (default)** branch;
+- [PR adding the automatic translation](https://github.com/ropensci/roweb3/pull/639), notice it's a PR to the **"r-universe-interviews"** branch.
+
+{{< figure src="pr-diff.png" alt="Screenshot of the files tab of the pull request adding the automatic translation, where we observe Spanish text in the YAML metadata and Markdown content has been translated to English." >}}
+
+Yanina tweaked the automatic translation by suggesting changes on the PR, then accepting them.
+
+{{< figure src="pr-comments.png" alt="Screenshot of the main tab of the pull request adding the automatic translation, where we observe a comment by Yanina replacing the word 'article' with 'blog post' and fixing the name of 'R-universe'." >}}
 
 ### YAML fields
 
