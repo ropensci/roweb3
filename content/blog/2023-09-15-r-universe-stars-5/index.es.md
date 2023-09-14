@@ -22,7 +22,7 @@ Un nuevo artículo de nuestra serie de entrevistas ["Conociendo a las estrellas 
 
 _Las enfermedades infecciosas siguen generando múltiples problemas en la salud humana. La experiencia de la pandemia nos enseñó la importancia de las investigaciones para luchar contra las epidemias. Hoy conoceremos a un equipo de desarrolladores que utilizan el Universo R para alojar paquetes que ayudan en ese trabajo._
 
-{{< figure src = "rich.jpeg" class = "pull-right" width = "300" alt = "Foto de perfil de Rich FitzJohn." caption = "<center><strong>Rich FitzJohn</strong><br>PArquitecto principal<br>Grupo de Ingeniería de Software de Investigación</center>">}}
+{{< figure src = "rich.jpeg" class = "pull-right" width = "300" alt = "Foto de perfil de Rich FitzJohn." caption = "<center><strong>Rich FitzJohn</strong><br>Arquitecto principal<br>Grupo de Ingeniería de Software de Investigación</center>">}}
 
 La charla comienza con Rich FitzJohn, quien dirige el equipo de ingeniería de software de investigación en el [MRC Centre for Global Infectious Disease Analysis](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis). Este centro trabaja en el análisis global de enfermedades infecciosas y es un centro de investigación y desarrollo de herramientas para el análisis epidemiológico y la modelización de enfermedades infecciosas con el objetivo de colaborar con el trabajo de organismos nacionales e internacionales para planificar políticas públicas de respuesta a las posibles amenazas de las enfermedades infecciosas. 
 
