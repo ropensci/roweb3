@@ -91,14 +91,24 @@ but we'd recommend a tad more work for your own good.
 
 If you use version control, having the translation as a diff is very handy!
 
-#### In words
+#### In words and pictures
 
 - In the branch of your post, let's say "new-post", create a placeholder: save your original blog post under the target blog post name and commit it, then push.
-- Create a new branch.
+
+{{< figure src="placeholder.png" alt="Diagram with on the left the leaf folder in the new-post branch with the post in Spanish with the text 'Hola' and an image; on the right the leaf folder in the new-post branch with the post in Spanish with the text 'hola', the post with the English target filename with the text 'hola', and the image." >}}
+
+- Create a new branch, "auto-translate" for instance.
 - Run `babeldown::deepl_translate_hugo()` with `force = TRUE`.
+
+{{< figure src="translate.png" alt="Diagram with on the left the leaf folder in the auto-translate branch with the post in Spanish with the text 'hola', the post with the English target filename with the text 'hola', and the image; on the right the only thing that changed is that the content of the post with the English target filename is now 'hello'." >}}
+
 - Commit and push the result. 
 - Open a PR from the **"translation-tech-note"** branch to the **"new-post"** branch. 
 The only difference between the two branches is the automatic translation of your post. The diff for the target blog post will be the diff between the source and target languages! If you have the good habit to start a new line after each sentence / sentence part, it's even better.
+
+
+{{< figure src="pr.png" alt="Drawing of the pull request from the auto-translate to the new-post branch where the difference is that the content of the post with the English target filename has now been translated to English." >}}
+
 - The human translators can then a open a second PR to the translation branch with their edits!
 
 
