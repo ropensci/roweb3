@@ -41,7 +41,7 @@ The application forms have to be filled in _English_. This [template](/champions
 |Jul 25, 2023| [OPTIONAL] [Community Call](/commcalls/july2023-championprogram/) - Learn from other mentors and champions and get tips for submitting your application |
 |Aug 17 & 23| [OPTIONAL] Coworking Champions Application Clinics in different timezones ([Aug 17](/events/coworking-2023-08-17/) and [Aug 23](/events/coworking-2023-08-23/)): receive help with your application to the Champions Program |
 |Sep 4, 2023|Call for applications closed|
-|Sep 22, 2023|Communication with selected Mentors |
+|Sep 29, 2023|Communication with selected Mentors |
 |Oct 27, 2023|Communication with selected Champions |
 |Nov, 2023   |Kick-off event |
 |Jan-Apr, 2024 | Training session, mentoring meetings, develop project |
