@@ -11,6 +11,7 @@ tags:
   - packages
   - welcome
   - maintenance
+  - contributors
 description: Tips on how to create and advertise help-wanted issues.
 ---
 
