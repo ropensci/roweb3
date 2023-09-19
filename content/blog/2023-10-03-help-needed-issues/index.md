@@ -19,7 +19,7 @@ Maintaining a package can be a lonesome activity, which sometimes poses a proble
 Beside belonging to a supportive community of maintainers (like rOpenSci :wink:), for collaborative help and commiseration you can try to build a community of contributors around your package!
 In this post, we'll explore one tool helping you towards that goal: "help wanted" issues, with which your repository could attract and retain new developers! We'll discuss what "help wanted" issues are, four steps for soliciting external help, and remind you that this can be a beneficial process, even if you don't end up attracting help.
 
-_Note that this post uses GitHub-specific terminology like issues and labels. If you use GitLab or another git platform, there's probably an equivalent. :slightly_smiling_face:_
+_Note that this post uses GitHub-specific terminology like issues and labels. If you use GitLab or another git platform, there's probably an equivalent._ :slightly_smiling_face:
 
 ## What are "help wanted" issues?
 
