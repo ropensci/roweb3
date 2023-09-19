@@ -1,5 +1,5 @@
 ---
-title: 'Attract (and retain) new contributors with "help wanted" issues'
+title: 'Attract contributors with "help wanted" issues'
 author:
   - Maëlle Salmon
   - Yanina Bellini Saibene
