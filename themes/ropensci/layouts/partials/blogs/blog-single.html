@@ -82,11 +82,18 @@ For more information, visit the <a href="/r-universe/">r-universe project page</
         <span>{{ i18n "Cite" }}</span><br/>
         {{ $url := (printf "https://ropensci.org%s" .RelPermalink | replaceRE "/$" "" ) }}
         {{ with $roguescholar }}
+        {{ $ok := "no" }}
           {{ range $roguescholar.items }}
-          {{ if in $url .url }}<a href="{{ .doi }}" class="cite link mt-2">{{ .doi | replaceRE "https://" "" }}</a>{{ end }}
+            {{ if in $url .url }}
+              <a href="{{ .doi }}" class="cite link mt-2">{{ .doi | replaceRE "https://" "" }}</a>
+              {{ $ok = "yes" }}
+            {{ end }}
+          {{ end }}
+          {{ if eq $ok "no" }}
+          <a href="rogue-scholar.org/blogs/ropensci " class="cite link mt-2">rogue-scholar.org/blogs/ropensci </a>
           {{ end }}
         {{ else }}
-        See <a href="rogue-scholar.org/blogs/ropensci " class="cite link mt-2">rogue-scholar.org/blogs/ropensci </a>
+        <a href="rogue-scholar.org/blogs/ropensci " class="cite link mt-2">rogue-scholar.org/blogs/ropensci </a>
         {{ end }}
         <button type='button' class='btn btn-primary btn-copy-ex' title='Copy to clipboard' aria-label='Copy to clipboard' data-toggle='tooltip' data-placement='left' data-trigger='hover' data-clipboard-text="https://doi.org/10.59349/zh4g1-q7e26"><i class='fa fa-copy'></i></button>
         </div>
