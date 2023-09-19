@@ -32,18 +32,18 @@ Next we'll cover four steps for soliciting external help.
 
 ## Step 1. Select "help wanted" topics
 
-### The topics you don't choose: development hurdles
+### Topics you *really* need help on: development hurdles
 
-You don't get to choose all the "help wanted" issues: sometimes a hurdle very clearly appear on the road to your next development milestone.
+Sometimes a hurdle you are unsure how to handle looms ahead on the road to your next development milestone.
 At this stage you can either
-- ask for help in an usual channel (rOpenSci Slack's package-maintenance channel if you're in that [workspace](https://contributing.ropensci.org/resources.html#channels); [rOpenSci discussion forum](/blog/2022/01/11/ropensci-forum/); [Posit community forum](https://community.rstudio.com/)...);
+- ask for help in an usual channel (for example, rOpenSci Slack's package-maintenance channel if you're in that [workspace](https://contributing.ropensci.org/resources.html#channels); [rOpenSci discussion forum](/blog/2022/01/11/ropensci-forum/); [Posit community forum](https://community.rstudio.com/));
 - open an issue in an upstream dependency if that's where the actual problem is;
 - open an issue in your repository describing your problem.
 
 For instance, when working on the tinkr package, Maëlle opened a [very specific issue](https://github.com/ropensci/tinkr/issues/9) that did end up getting miraculous outside help.
 
 You can also add the "help wanted" label to a bug report or feature request someone else opened in your package!
-With a bit of luck, the issue creator themselves will be able to participate?
+With a bit of luck, the issue creator themselves will be able to participate 🎉 .
 
 ### The topics you choose: delegating out of necessity or willingness to grow your team
 
