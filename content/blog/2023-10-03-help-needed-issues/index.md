@@ -15,7 +15,7 @@ tags:
 description: Tips on how to create and advertise help-wanted issues.
 ---
 
-Maintaining a package can be a lonesome activity, which sometimes poses a problem if you'd prefer team work or if you encounter a very thorny for you problem.
+Maintaining a package can be a lonesome activity, which sometimes poses a problem if you prefer team work or if you encounter a very thorny-for-you problem.
 Beside belonging to a supportive community of maintainers, like rOpenSci :wink:, for collaborative help and commiseration, you can try to build a community of contributors around your package!
 In this post, we'll underline one tool helping you towards that goal: "help wanted" issues, with which your repository could attract, and retain, new developers!
 
