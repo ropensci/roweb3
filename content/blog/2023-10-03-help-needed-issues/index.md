@@ -55,7 +55,7 @@ By listing them in your issue tracker,
 - you can organize your own work,
 - and you can receive external help, especially if you explicitly solicit help with the "help wanted" label.
 
-## Polish your issue and contributing guide
+## Step 2. Polish your issue and contributing guide
 
 Once you have a topic in mind, make the issue title and text as clear as possible.
 Even if you are the one fixing the issue in the end, future-you will be happy you didn't jot down an undecipherable comment.
@@ -70,11 +70,11 @@ Try to be a bit flexible so you don't overload or scare off contributors by havi
 
 ## Step 3. Broadcast your need for help
 
-First of all, "help wanted" issues of rOpenSci packages are broadcasted to the community via a [dedicated page on the website](/help-wanted), and social media posts!
+First of all, for rOpenSci packages "help wanted" issues are broadcast to the community via the [website](/help-wanted) and social media posts!
 
-Then you could also share it within your own networks: rOpenSci slack workspace, your Mastodon account, a local R User Group communication channel, etc.
+You can also share it within your own networks: rOpenSci slack workspace, your social media, a local R User Group communication channel, etc.
 
-Some tools or people browse public GitHub issues labelled "help wanted", for [Hacktoberfest](https://hacktoberfest.com/) for instance if you add the ["hacktoberfest" topic to your repository](https://hacktoberfest.com/participation/), but you can't count on someone's discovering your tiny issue in that sea of issues.
+You can also consider leveraging hack-a-thon events like [Hacktoberfest](https://hacktoberfest.com/) for instance (if you add the ["hacktoberfest" topic to your repository](https://hacktoberfest.com/participation/)), but with really large events like this you can't necessarily count on someone discovering your tiny issue in that sea of issues.
 
 ## Thank contributors
 
