@@ -25,6 +25,13 @@ Now let's dive into the activity at and around rOpenSci!
 
 Thanks to some help from George Stagg, we added experimental support for building WebAssembly binary packages. This makes it possible to install packages in [webr](https://docs.r-wasm.org/webr/latest/), directly from r-universe.
 
+### First champion package to go through peer-review, in Spanish!
+
+[Carolina Pradier](/blog/2023/05/05/ropensci-champions-program-teams-meet-carolina-pradier-and-athanasia-monika-mowinckel/#carolina-pradier---champion)'s package [eph](https://docs.ropensci.org/eph/) was approved after a [review process in Spanish](https://github.com/ropensci/software-review/issues/593)!
+Congratulations to Carolina, and thanks to editor [Mauro Lepore](/author/mauro-lepore/), reviewers [Guadalupe Gonzalez](https://github.com/guadag12) and [Denisse Fierro Arcos](https://github.com/lidefi87), and mentor [Athanasia Monika Mowinckel](/blog/2023/05/05/ropensci-champions-program-teams-meet-carolina-pradier-and-athanasia-monika-mowinckel/#athanasia-monika-mowinckel---mentor).
+
+eph helps processing data from the Argentina household survey.
+
 ### 123 Applications to our Champions Program 2023-2024
 
 We are excited we received 123 applications from 41 countries on 5 continents!  
@@ -42,7 +49,9 @@ Everyone welcome.
 No RSVP needed. 
 Consult our [Events](/events) page to find your local time and how to join.
 
-- ~~**Note** October coworking is cancelled (see you in November!)~~ **Nope, it's back on!** Stay tuned for coworking Tuesday, October 3rd, 14h00 Europe Central (12:00 UTC), Theme TBA
+- [Tuesday, October 3rd, 14h00 Europe Central (12:00 UTC)](/events/coworking-2023-10/), Learn about cli and how to make nice command-line interfaces in R! With [community host Athanasia Monika Mowinckel](/author/athanasia-mo-mowinckel/) and [Steffi LaZerte](/author/steffi-lazerte/).
+    - Read up on making nice command line interfaces with [cli](https://cli.r-lib.org/);
+    - Update some scripts or packages to include cleaner and effective interfaces.
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
@@ -156,6 +165,31 @@ See also our [help wanted page](/help-wanted/) -- before opening a PR, we recomm
 ## Package development corner
 
 Some useful tips for R package developers. :eyes:
+
+### Help needed issues
+
+Don't miss our blog post [Attract Contributors with ‘help wanted’ Issues](/blog/2023/09/19/help-wanted/)! :smile_cat:
+
+### Check your contributing guide...
+
+... with this [evaluation tool](https://contributing.streamlit.app/).
+
+### Regularly check your pkgdown configuration file
+
+Using a pkgdown configuration file to [group and order functions](https://pkgdown.r-lib.org/reference/build_reference.html#reference-index) on your package's reference page is great for users, but also mean you need to maintain the file as pkgdown will error if a help topic is missing from the configuration.
+
+If your package documentation is built by rOpenSci, it might be easier to miss a failure.
+
+You can:
+
+- Remember to update the configuration when you add a new function;
+- Run [`pkgdown::check_pkgdown()`](https://pkgdown.r-lib.org/reference/check_pkgdown.html) in a [Git pre-commit hook](https://github.com/ropensci/BaseSet/issues/66#issuecomment-1706561644);
+- Run [`pkgdown::check_pkgdown()`](https://pkgdown.r-lib.org/reference/check_pkgdown.html) in a [GitHub Actions workflow](https://github.com/ropensci/webchem/blob/master/.github/workflows/check-pkgdown.yml).
+
+### Submit your package to the R Journal with rjtools
+
+As a reminder, the [rjtools package](https://rjournal.github.io/rjtools/#) will help you prepare a submission of a paper to the [R Journal](https://journal.r-project.org/).
+This could be a good way to spread the word about a CRAN package of yours!
 
 ## Last words
 
