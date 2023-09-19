@@ -1,8 +1,9 @@
+{{ $roguescholar := getJSON "https://rogue-scholar.org/api/blogs/e22ws68" }}
 <section class="blog-post">
 <div class="container bg-cubes">
   <div class="row content">
     <div class="col-lg-9">
-      <p class="post-date">{{ .Date | time.Format ":date_full" }} — <a href="https://doi.org/10.59349/zh4g1-q7e26" style="color:inherit;">doi.org/10.59349/zh4g1-q7e26</a>
+      <p class="post-date">{{ .Date | time.Format ":date_full" }}
       <span class="d-none d-print-inline" style ="font-style: italic;">From rOpenSci ({{ .Permalink }}). Except where otherwise noted, content on this site is licensed under the <a href ="https://creativecommons.org/licenses/by/4.0/">CC-BY license</a>.</span></p>
         <div class="content">
           <h1>{{ .Title | markdownify }}</h1>
@@ -79,7 +80,14 @@ For more information, visit the <a href="/r-universe/">r-universe project page</
       </div>
       <div class="cite field-under mt-4">
         <span>{{ i18n "Cite" }}</span><br/>
-        <a href="https://doi.org/10.59349/zh4g1-q7e26" class="cite link mt-2">doi.org/10.59349/zh4g1-q7e26</a>
+        {{ $url := (printf "https://ropensci.org%s" .RelPermalink | replaceRE "/$" "" ) }}
+        {{ with $roguescholar }}
+          {{ range $roguescholar.items }}
+          {{ if in $url .url }}<a href="{{ .doi }}" class="cite link mt-2">{{ .doi | replaceRE "https://" "" }}</a>{{ end }}
+          {{ end }}
+        {{ else }}
+        See <a href="rogue-scholar.org/blogs/ropensci " class="cite link mt-2">rogue-scholar.org/blogs/ropensci </a>
+        {{ end }}
         <button type='button' class='btn btn-primary btn-copy-ex' title='Copy to clipboard' aria-label='Copy to clipboard' data-toggle='tooltip' data-placement='left' data-trigger='hover' data-clipboard-text="https://doi.org/10.59349/zh4g1-q7e26"><i class='fa fa-copy'></i></button>
         </div>
       <div class="field-under mt-4">
