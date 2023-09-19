@@ -44,6 +44,12 @@ Now let's dive into the activity at and around rOpenSci!
 
 Thanks to some help from George Stagg, we added experimental support for building WebAssembly binary packages. This makes it possible to install packages in [webr](https://docs.r-wasm.org/webr/latest/), directly from r-universe.
 
+### 123 Applications to our Champions Program 2023-2024
+
+We are excited we received 123 applications from 41 countries on 5 continents!  
+We are very grateful to everyone who submitted their proposals to our program.
+The review process is starting. 
+Stay tuned for updates!
 
 ### Coworking
 
