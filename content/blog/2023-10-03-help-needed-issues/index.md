@@ -45,15 +45,15 @@ For instance, when working on the tinkr package, Maëlle opened a [very specific
 You can also add the "help wanted" label to a bug report or feature request someone else opened in your package!
 With a bit of luck, the issue creator themselves will be able to participate 🎉 .
 
-### The topics you choose: delegating out of necessity or willingness to grow your team
+### Topics you could use help on: delegating or willingness to grow your team
 
-Now sometimes there are some upkeep or enhancement ideas you have for your package for which you don't have time right now, or that are not urgent.
+Now sometimes there are some upkeep or enhancement ideas you have for your package for which you don't have time right now, or which are not urgent.
 For instance, [updating the testing infrastructure to testthat third edition](https://github.com/ropensci/geojsonio/issues/183), or [adding terra support to a spatial package](https://github.com/ropensci/landscapetools/issues/33).
 By listing them in your issue tracker, 
 
 - you show curious users that they're on your mind, 
-- you can organize your own work... 
-- and you can receive external help if you signal it's ok, with the "help wanted" label.
+- you can organize your own work,
+- and you can receive external help, especially if you explicitly solicit help with the "help wanted" label.
 
 ## Polish your issue and contributing guide
 
