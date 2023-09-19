@@ -21,9 +21,18 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-### WebAssembly support in R-universe!
+### WIP: WebAssembly support in R-universe!
 
 Thanks to some help from George Stagg, we added experimental support for building WebAssembly binary packages. This makes it possible to install packages in [webr](https://docs.r-wasm.org/webr/latest/), directly from r-universe.
+
+For instance: 
+
+```r
+webr::install('jsonlite', repos = c('https://jeroen.r-universe.dev', 'https://repo.r-wasm.org'))
+```
+
+This only works if the package and all of its dependencies support webassembly.
+For CRAN packages you can look at https://repo.r-wasm.org/; for other packages... you have to try.
 
 ### First champion package to go through peer-review, in Spanish!
 
