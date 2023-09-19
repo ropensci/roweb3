@@ -30,7 +30,7 @@ For some of them, if they're not too involved, or if they're a good onboarding r
 
 Next we'll cover four steps for soliciting external help.
 
-## Select (or unwillingly incur) "help wanted" topics
+## Step 1. Select "help wanted" topics
 
 ### The topics you don't choose: development hurdles
 
