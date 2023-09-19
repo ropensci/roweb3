@@ -68,6 +68,14 @@ And remember, you can always cowork independently on work related to R, work on 
 
 
 
+### R Consortium Call for Proposals until October 1!
+
+Do you have a project idea that is likely to have a broad impact on the R community and has a focused scope?
+Don't miss the [twice-yearly R Consortium Call for Proposals](https://www.r-consortium.org/all-projects/call-for-proposals)!
+Past funded projects include rOpenSci projects like the [HTTP testing in R book](https://www.r-consortium.org/all-projects/awarded-projects/2020-group-1#http+testing+in+r+book), and work on the <a href="https://www.r-consortium.org/all-projects/awarded-projects/2022-group-2#Tooling%20and%20Guidance%20for%20Translations%20of%20Markdown-Based%20R%20Content%20(Quarto,%20R%20Markdown">babeldown package</a>.
+
+
+
 
 ### Reminder: Our first community call in Spanish (and English too)
 

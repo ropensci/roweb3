@@ -25,6 +25,12 @@ Now let's dive into the activity at and around rOpenSci!
 
 Thanks to some help from George Stagg, we added experimental support for building WebAssembly binary packages. This makes it possible to install packages in [webr](https://docs.r-wasm.org/webr/latest/), directly from r-universe.
 
+### 123 Applications to our Champions Program 2023-2024
+
+We are excited we received 123 applications from 41 countries on 5 continents!  
+We are very grateful to everyone who submitted their proposals to our program.
+The review process is starting. 
+Stay tuned for updates!
 
 ### Coworking
 
@@ -40,6 +46,14 @@ Consult our [Events](/events) page to find your local time and how to join.
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
+
+
+
+### R Consortium Call for Proposals until October 1!
+
+Do you have a project idea that is likely to have a broad impact on the R community and has a focused scope?
+Don't miss the [twice-yearly R Consortium Call for Proposals](https://www.r-consortium.org/all-projects/call-for-proposals)!
+Past funded projects include rOpenSci projects like the [HTTP testing in R book](https://www.r-consortium.org/all-projects/awarded-projects/2020-group-1#http+testing+in+r+book), and work on the <a href="https://www.r-consortium.org/all-projects/awarded-projects/2022-group-2#Tooling%20and%20Guidance%20for%20Translations%20of%20Markdown-Based%20R%20Content%20(Quarto,%20R%20Markdown">babeldown package</a>.
 
 
 
