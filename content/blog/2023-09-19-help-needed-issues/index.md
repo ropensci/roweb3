@@ -3,7 +3,8 @@ title: 'Attract contributors with "help wanted" issues'
 author:
   - Maëlle Salmon
   - Yanina Bellini Saibene
-date: '2023-10-03'
+  - Steffi LaZerte
+date: '2023-09-19'
 slug: help-wanted
 featured: true 
 tags:
