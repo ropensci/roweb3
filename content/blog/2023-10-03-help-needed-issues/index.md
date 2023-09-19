@@ -28,6 +28,8 @@ They are labelled with the community standard "help wanted" label ([example](htt
 
 For some of them, if they're not too involved, or if they're a good onboarding ramp to your codebase, you can also use the ["good first issue" label](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/encouraging-helpful-contributions-to-your-project-with-labels).
 
+Next we'll cover four steps for soliciting external help.
+
 ## Select (or unwillingly incur) "help wanted" topics
 
 ### The topics you don't choose: development hurdles
