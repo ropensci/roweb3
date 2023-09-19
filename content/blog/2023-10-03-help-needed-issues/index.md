@@ -86,7 +86,7 @@ Acknowledge contributions [generously](https://devguide.ropensci.org/collaborati
 ## Don't despair
 
 Even if you wrote an excellent issue, it just might not get picked up.
-In that case, alternatives or complements might be to broadcast it again, ask for general tips to your fellow maintainers, try and get funding (therefore time, either yours or an external contractor's?) for your maintenance efforts.
+In that case, consider broadcasting again, ask for general tips from your fellow maintainers, and consider applying for funding (therefore time, either yours or an external contractor's) for your maintenance efforts.
 See for instance the [R Consortium's two yearly calls for proposals](https://www.r-consortium.org/all-projects/call-for-proposals#Rstats).
 
 Even if no one tackles the issue in the end, going through this process can be helpful as it gives you a chance to think through this issue in detail and to consider possible resolutions, which can help you solve your problem your own. 
@@ -94,9 +94,10 @@ Also, a well-documented issue is a great way to document your decisions about yo
 
 ## Conclusion
 
-Opening "help wanted" issues can be a way to grow your package contributors' community.
+Opening "help wanted" issues can be a way to grow your package's contributor community.
 They might be a better door to contribution than less specific issues with a laundry list of needed tasks, as they're less overwhelming.
 Contributors might fix one "help wanted" issue and then leave, or go ahead and solve more of them.
+Sometimes a conversation in the comments can help you find a solution even if a contributor doesn't submit a PR.
 
 As a contributor, always comment in an issue before tackling it, to ensure it's still up-to-date, and that no one else is preparing a duplicate PR right now!
 How vexing would that be to work for nothing.
