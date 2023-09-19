@@ -1,6 +1,6 @@
 {{ if isset .Params "img" }}
   {{ $src := print "/" .Params.img }}
-  {{ .Scratch.Set "src" $src }}
+  {{ .Scratch.Set "src" ( $src | absURL ) }}
 {{ else if isset .Params "github" }}
   {{ $src := print "https://github.com/" .Params.github }}
   {{ $src := print $src ".png" }}
