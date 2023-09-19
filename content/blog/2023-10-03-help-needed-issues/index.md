@@ -58,17 +58,17 @@ By listing them in your issue tracker,
 ## Polish your issue and contributing guide
 
 Once you have a topic in mind, make the issue title and text as clear as possible.
-Even if you are the one fixing the issue in the end, future you will be happy you didn't jot down an undecipherable comment.
-Link to resources as needed, indicate context.
-Approach the issue writing as you approach the issue writing in a repo that isn't yours: challenge description, desired outcome, trade-offs, etc.
+Even if you are the one fixing the issue in the end, future-you will be happy you didn't jot down an undecipherable comment.
+Link to resources as needed, and make sure to include context.
+Approach writing an issue in your own repo the same way you would in a repo that isn't yours: challenge description, desired outcome, trade-offs, etc.
 
 Beyond efforts in the individual issue, it's crucial to have a [contributing guide](https://devguide.ropensci.org/collaboration.html#contributing-guide) underlining anything that is good to know about contributing to your package: tooling used, style and design preferences.[^ctb]
 Do not duplicate external resources, point to them instead.
-Do not overload or scare off contributors by having too strict requirements: you can probably finish off PRs yourself, or teach them little by little. 
+Try to be a bit flexible so you don't overload or scare off contributors by having requirements which are too strict: you can probably finish off PRs yourself, or teach them little by little. 
 
 [^ctb]: You might find https://contributing.streamlit.app/ helpful, but another way to improve your contributing guide is to keep amending it based on your experience with new contributors.
 
-## Broadcast your need for help
+## Step 3. Broadcast your need for help
 
 First of all, "help wanted" issues of rOpenSci packages are broadcasted to the community via a [dedicated page on the website](/help-wanted), and social media posts!
 
