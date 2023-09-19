@@ -510,6 +510,22 @@ See also our [help wanted page](/help-wanted/) -- before opening a PR, we recomm
 
 Some useful tips for R package developers. :eyes:
 
+### Help needed issues
+
+Don't miss our blog post [Attract Contributors with ‘help wanted’ Issues](/blog/2023/09/19/help-wanted/)! :smile_cat:
+
+### Regularly check your pkgdown configuration file
+
+Using a pkgdown configuration file to [group and order functions](https://pkgdown.r-lib.org/reference/build_reference.html#reference-index) on your package's reference page is great for users, but also mean you need to maintain the file as pkgdown will error if a help topic is missing from the configuration.
+
+If your package documentation is built by rOpenSci, it might be easier to miss a failure.
+
+You can:
+
+- Remember to update the configuration when you add a new function;
+- Run [`pkgdown::check_pkgdown()`](https://pkgdown.r-lib.org/reference/check_pkgdown.html) in a [Git pre-commit hook](https://github.com/ropensci/BaseSet/issues/66#issuecomment-1706561644);
+- Run [`pkgdown::check_pkgdown()`](https://pkgdown.r-lib.org/reference/check_pkgdown.html) in a [GitHub Actions workflow](https://github.com/ropensci/webchem/blob/master/.github/workflows/check-pkgdown.yml).
+
 ## Last words
 
 Thanks for reading! If you want to get involved with rOpenSci, check out our [Contributing Guide](https://contributing.ropensci.org) that can help direct you to the right place, whether you want to make code contributions, non-code contributions, or contribute in other ways like sharing use cases.
