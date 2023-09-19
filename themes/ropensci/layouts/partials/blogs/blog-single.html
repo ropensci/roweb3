@@ -77,10 +77,11 @@ For more information, visit the <a href="/r-universe/">r-universe project page</
         <span>{{ i18n "Suggest-an-edit" }}</span>
         <a href="{{ partial "edit-link/edit-link" . }}" class="link mt-2">{{ i18n "open-pr" }} <i class="fas fa-external-link-alt"></i></a>
       </div>
-      <div class="field-under mt-4">
+      <div class="cite field-under mt-4">
         <span>{{ i18n "Cite" }}</span><br/>
-        <a href="https://doi.org/10.59349/zh4g1-q7e26" class="link mt-2">doi.org/10.59349/zh4g1-q7e26 <i class="fas fa-university"></i></a>
-      </div>
+        <a href="https://doi.org/10.59349/zh4g1-q7e26" class="cite link mt-2">doi.org/10.59349/zh4g1-q7e26</a>
+        <button type='button' class='btn btn-primary btn-copy-ex' title='Copy to clipboard' aria-label='Copy to clipboard' data-toggle='tooltip' data-placement='left' data-trigger='hover' data-clipboard-text="https://doi.org/10.59349/zh4g1-q7e26"><i class='fa fa-copy'></i></button>
+        </div>
       <div class="field-under mt-4">
         <span>{{ i18n "Browse" }}</span>
         <a href='{{ absLangURL "tags" }}' class="btn btn-share btn-twitter" >

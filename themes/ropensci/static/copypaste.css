@@ -1,0 +1,17 @@
+// copy button
+.hasCopyButton {
+  position: relative;
+}
+.btn-copy-ex {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  visibility: hidden;
+}
+.hasCopyButton:hover button.btn-copy-ex {
+  visibility: visible;
+}
+// Ensure there's enough space for the copy button
+pre {
+  padding: 1rem 0.5rem;
+}

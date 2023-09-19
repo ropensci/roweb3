@@ -7,11 +7,14 @@
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
 <script src="/scripts/matomo.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script>
+
 <noscript><p><img src="https://ropensci.matomo.cloud/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
 <!-- End Matomo Code -->
 
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     {{ $css := resources.Get "main.min.css" }}
+    <link rel="stylesheet" type ="text/css" href="copypaste.css">
 {{ $secureCSS := $css | resources.Fingerprint "sha512" }}
   <link href="{{ $secureCSS.Permalink }}" rel="stylesheet" integrity="{{ $secureCSS.Data.Integrity }}">
  <link
