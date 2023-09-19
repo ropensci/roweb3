@@ -76,21 +76,21 @@ You can also share it within your own networks: rOpenSci slack workspace, your s
 
 You can also consider leveraging hack-a-thon events like [Hacktoberfest](https://hacktoberfest.com/) for instance (if you add the ["hacktoberfest" topic to your repository](https://hacktoberfest.com/participation/)), but with really large events like this you can't necessarily count on someone discovering your tiny issue in that sea of issues.
 
-## Thank contributors
+## Step 4. Thank contributors
 
 If someone answers in the issue or open a PR, try to be somewhat responsive.
 Check your settings allow you to be notified of issue comments and PRs, you might need to [watch](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/managing-subscriptions-for-activity-on-github/viewing-your-subscriptions) your repository.
 
-Acknowledge contributions [generously](https://devguide.ropensci.org/collaboration.html?q=generous#attributions).
+Acknowledge contributions [generously](https://devguide.ropensci.org/collaboration.html?q=generous#attributions)! 🙏🏼 
 
 ## Don't despair
 
-Even if you wrote an excellent issue, it might just not get picked up.
+Even if you wrote an excellent issue, it just might not get picked up.
 In that case, alternatives or complements might be to broadcast it again, ask for general tips to your fellow maintainers, try and get funding (therefore time, either yours or an external contractor's?) for your maintenance efforts.
 See for instance the [R Consortium's two yearly calls for proposals](https://www.r-consortium.org/all-projects/call-for-proposals#Rstats).
 
-Even if no one tackles the issue in the end, it might be good to have thought about the possible resolution, which can help you solve your problem. 
-Also, a well-documented issue is a way to document your decisions about your software transparently and can help future users and contributors understand the reasons for your choices.
+Even if no one tackles the issue in the end, going through this process can be helpful as it gives you a chance to think through this issue in detail and to consider possible resolutions, which can help you solve your problem your own. 
+Also, a well-documented issue is a great way to document your decisions about your software transparently and can help future users and contributors understand the reasons for your choices.
 
 ## Conclusion
 
