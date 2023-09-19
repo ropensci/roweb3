@@ -44,6 +44,13 @@ Now let's dive into the activity at and around rOpenSci!
 
 Thanks to some help from George Stagg, we added experimental support for building WebAssembly binary packages. This makes it possible to install packages in [webr](https://docs.r-wasm.org/webr/latest/), directly from r-universe.
 
+### First champion package to go through peer-review, in Spanish!
+
+[Carolina Pradier](/blog/2023/05/05/ropensci-champions-program-teams-meet-carolina-pradier-and-athanasia-monika-mowinckel/#carolina-pradier---champion)'s package [eph](https://docs.ropensci.org/eph/) was approved after a [review process in Spanish](https://github.com/ropensci/software-review/issues/593)!
+Congratulations to Carolina, and thanks to editor [Mauro Lepore](/author/mauro-lepore/), reviewers [Guadalupe Gonzalez](https://github.com/guadag12) and [Denisse Fierro Arcos](https://github.com/lidefi87), and mentor [Athanasia Monika Mowinckel](/blog/2023/05/05/ropensci-champions-program-teams-meet-carolina-pradier-and-athanasia-monika-mowinckel/#athanasia-monika-mowinckel---mentor).
+
+eph helps processing data from the Argentina household survey.
+
 ### 123 Applications to our Champions Program 2023-2024
 
 We are excited we received 123 applications from 41 countries on 5 continents!  
