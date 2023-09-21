@@ -42,7 +42,7 @@ Now let's dive into the activity at and around rOpenSci!
 
 ### WIP: WebAssembly support in R-universe!
 
-Thanks to some help from George Stagg, we added experimental support for building WebAssembly binary packages. This makes it possible to install packages in [webr](https://docs.r-wasm.org/webr/latest/), directly from r-universe.
+Thanks to some help from George Stagg, we added experimental support for building WebAssembly binary packages. This makes it possible to install packages in [webr](https://docs.r-wasm.org/webr/latest/), directly from the R-universe.
 
 For instance: 
 
@@ -51,14 +51,12 @@ webr::install('jsonlite', repos = c('https://jeroen.r-universe.dev', 'https://re
 ```
 
 This only works if the package and all of its dependencies support webassembly.
-For CRAN packages you can look at https://repo.r-wasm.org/; for other packages... you have to try.
+For CRAN packages you can look at https://repo.r-wasm.org/; for other packages... you'll have to give it a try!
 
-### First champion package to go through peer-review, in Spanish!
+### First rOpenSci Champion's package to go through peer-review, in Spanish!
 
 [Carolina Pradier](/blog/2023/05/05/ropensci-champions-program-teams-meet-carolina-pradier-and-athanasia-monika-mowinckel/#carolina-pradier---champion)'s package [eph](https://docs.ropensci.org/eph/) was approved after a [review process in Spanish](https://github.com/ropensci/software-review/issues/593)!
-Congratulations to Carolina, and thanks to editor [Mauro Lepore](/author/mauro-lepore/), reviewers [Guadalupe Gonzalez](https://github.com/guadag12) and [Denisse Fierro Arcos](https://github.com/lidefi87), and mentor [Athanasia Monika Mowinckel](/blog/2023/05/05/ropensci-champions-program-teams-meet-carolina-pradier-and-athanasia-monika-mowinckel/#athanasia-monika-mowinckel---mentor).
-
-eph helps processing data from the Argentina household survey.
+Congratulations to Carolina, and thanks to editor [Mauro Lepore](/author/mauro-lepore/), reviewers [Guadalupe Gonzalez](https://github.com/guadag12) and [Denisse Fierro Arcos](https://github.com/lidefi87), and mentor [Athanasia Monika Mowinckel](/blog/2023/05/05/ropensci-champions-program-teams-meet-carolina-pradier-and-athanasia-monika-mowinckel/#athanasia-monika-mowinckel---mentor). eph is a package which helps process data from the Argentina household survey.
 
 ### 123 Applications to our Champions Program 2023-2024
 
@@ -77,9 +75,13 @@ Everyone welcome.
 No RSVP needed. 
 Consult our [Events](/events) page to find your local time and how to join.
 
-- [Tuesday, October 3rd, 14h00 Europe Central (12:00 UTC)](/events/coworking-2023-10/), Learn about cli and how to make nice command-line interfaces in R! With [community host Athanasia Monika Mowinckel](/author/athanasia-mo-mowinckel/) and [Steffi LaZerte](/author/steffi-lazerte/).
+- [Tuesday, October 3rd, 14h00 Europe Central (12:00 UTC)](/events/coworking-2023-10/), Learn about cli and how to make nice command-line interfaces in R! With community host [Athanasia Monika Mowinckel](/author/athanasia-mo-mowinckel/) and [Steffi LaZerte](/author/steffi-lazerte/).
     - Read up on making nice command line interfaces with [cli](https://cli.r-lib.org/);
-    - Update some scripts or packages to include cleaner and effective interfaces.
+    - Update some scripts or packages to include cleaner and effective interfaces;
+    - Chat with Mo about using cli
+- [Tuesday, Nov 7th, 9:00 America Pacific (17:00 UTC)](/events/coworking-2023-11/), Fixing scary bugs 😱🐛 With community host [Salix Dubois](/author/salix-dubois/) and [Steffi LaZerte](/author/steffi-lazerte/).
+    - Identify/fix some scary bugs;
+    - Chat with Salix about scary bugs!
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
