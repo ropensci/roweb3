@@ -23,7 +23,7 @@ Now let's dive into the activity at and around rOpenSci!
 
 ### WIP: WebAssembly support in R-universe!
 
-Thanks to some help from George Stagg, we added experimental support for building WebAssembly binary packages. This makes it possible to install packages in [webr](https://docs.r-wasm.org/webr/latest/), directly from r-universe.
+Thanks to some help from George Stagg, we added experimental support for building WebAssembly binary packages. This makes it possible to install packages in [webr](https://docs.r-wasm.org/webr/latest/), directly from the R-universe.
 
 For instance: 
 
@@ -32,14 +32,12 @@ webr::install('jsonlite', repos = c('https://jeroen.r-universe.dev', 'https://re
 ```
 
 This only works if the package and all of its dependencies support webassembly.
-For CRAN packages you can look at https://repo.r-wasm.org/; for other packages... you have to try.
+For CRAN packages you can look at https://repo.r-wasm.org/; for other packages... you'll have to give it a try!
 
-### First champion package to go through peer-review, in Spanish!
+### First rOpenSci Champion's package to go through peer-review, in Spanish!
 
 [Carolina Pradier](/blog/2023/05/05/ropensci-champions-program-teams-meet-carolina-pradier-and-athanasia-monika-mowinckel/#carolina-pradier---champion)'s package [eph](https://docs.ropensci.org/eph/) was approved after a [review process in Spanish](https://github.com/ropensci/software-review/issues/593)!
-Congratulations to Carolina, and thanks to editor [Mauro Lepore](/author/mauro-lepore/), reviewers [Guadalupe Gonzalez](https://github.com/guadag12) and [Denisse Fierro Arcos](https://github.com/lidefi87), and mentor [Athanasia Monika Mowinckel](/blog/2023/05/05/ropensci-champions-program-teams-meet-carolina-pradier-and-athanasia-monika-mowinckel/#athanasia-monika-mowinckel---mentor).
-
-eph helps processing data from the Argentina household survey.
+Congratulations to Carolina, and thanks to editor [Mauro Lepore](/author/mauro-lepore/), reviewers [Guadalupe Gonzalez](https://github.com/guadag12) and [Denisse Fierro Arcos](https://github.com/lidefi87), and mentor [Athanasia Monika Mowinckel](/blog/2023/05/05/ropensci-champions-program-teams-meet-carolina-pradier-and-athanasia-monika-mowinckel/#athanasia-monika-mowinckel---mentor). eph is a package which helps process data from the Argentina household survey.
 
 ### 123 Applications to our Champions Program 2023-2024
 
@@ -58,9 +56,13 @@ Everyone welcome.
 No RSVP needed. 
 Consult our [Events](/events) page to find your local time and how to join.
 
-- [Tuesday, October 3rd, 14h00 Europe Central (12:00 UTC)](/events/coworking-2023-10/), Learn about cli and how to make nice command-line interfaces in R! With [community host Athanasia Monika Mowinckel](/author/athanasia-mo-mowinckel/) and [Steffi LaZerte](/author/steffi-lazerte/).
+- [Tuesday, October 3rd, 14h00 Europe Central (12:00 UTC)](/events/coworking-2023-10/), Learn about cli and how to make nice command-line interfaces in R! With community host [Athanasia Monika Mowinckel](/author/athanasia-mo-mowinckel/) and [Steffi LaZerte](/author/steffi-lazerte/).
     - Read up on making nice command line interfaces with [cli](https://cli.r-lib.org/);
-    - Update some scripts or packages to include cleaner and effective interfaces.
+    - Update some scripts or packages to include cleaner and effective interfaces;
+    - Chat with Mo about using cli
+- [Tuesday, Nov 7th, 9:00 America Pacific (17:00 UTC)](/events/coworking-2023-11/), Fixing scary bugs 😱🐛 With community host [Salix Dubois](/author/salix-dubois/) and [Steffi LaZerte](/author/steffi-lazerte/).
+    - Identify/fix some scary bugs;
+    - Chat with Salix about scary bugs!
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
@@ -91,14 +93,25 @@ rOpenSci multilingual efforts aim to lower access barriers, democratize quality 
 
 ## Software :package:
 
+### New packages
 
+
+
+
+The following two packages recently became a part of our software suite:
+
++ [eph](https://docs.ropensci.org/eph), developed by Carolina Pradier together with Diego Kozlowski, Pablo Tiscornia, Guido Weksler, Natsumi Shokida, and German Rosati: Tools to download and manipulate the Permanent Household Survey from Argentina (EPH is the Spanish acronym for Permanent Household Survey). e.g: get_microdata() for downloading the datasets, get_poverty_lines() for downloading the official poverty baskets, calculate_poverty() for the calculation of stating if a household is in poverty or not, following the official methodology. organize_panels() is used to concatenate observations from different periods, and organize_labels() adds the official labels to the data. The implemented methods are based on INDEC (2016) <http://www.estadistica.ec.gba.gov.ar/dpe/images/SOCIEDAD/EPH_metodologia_22_pobreza.pdf>. As this package works with the argentinian Permanent Household Survey and its main audience is from this country, the documentation was written in Spanish.  It is available on [CRAN]( https://CRAN.R-project.org/package=eph). 
+
++ [ohun](https://docs.ropensci.org/ohun), developed by Marcelo Araya-Salas: Facilitates the automatic detection of acoustic signals, providing functions to diagnose and optimize the performance of detection routines. Detections from other software can also be explored and optimized. Araya-Salas et al. (2022) <doi:10.1101/2022.12.13.520253>.  It is available on [CRAN]( https://CRAN.R-project.org/package=ohun). It has been [reviewed](https://github.com/ropensci/software-review/issues/568) by Alec L. Robitaille, and Sam Lapp.
+
+Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
 
 ### New versions
 
 
 
-The following eleven packages have had an update since the last newsletter: [bold](https://docs.ropensci.org/bold "Interface to Bold Systems API") ([`v1.3.0`](https://github.com/ropensci/bold/releases/tag/v1.3.0)), [charlatan](https://docs.ropensci.org/charlatan "Make Fake Data") ([`v0.5.1`](https://github.com/ropensci/charlatan/releases/tag/v0.5.1)), [eph](https://docs.ropensci.org/eph "Argentina's Permanent Household Survey Data and Manipulation Utilities") ([`v1.0.0`](https://github.com/ropensci/eph/releases/tag/v1.0.0)), [geojsonio](https://docs.ropensci.org/geojsonio "Convert Data from and to GeoJSON or TopoJSON") ([`v0.11.3`](https://github.com/ropensci/geojsonio/releases/tag/v0.11.3)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.9.7`](https://github.com/ropensci/nodbi/releases/tag/v0.9.7)), [readODS](https://docs.ropensci.org/readODS "Read and Write ODS Files") ([`v2.1.0`](https://github.com/ropensci/readODS/releases/tag/v2.1.0)), [rgbif](https://docs.ropensci.org/rgbif "Interface to the Global Biodiversity Information Facility API") ([`v3.7.8`](https://github.com/ropensci/rgbif/releases/tag/v3.7.8)), [spatsoc](https://docs.ropensci.org/spatsoc "Group Animal Relocation Data by Spatial and Temporal Relationship") ([`v0.2.2`](https://github.com/ropensci/spatsoc/releases/tag/v0.2.2)), [stplanr](https://docs.ropensci.org/stplanr "Sustainable Transport Planning") ([`v1.1.2`](https://github.com/ropensci/stplanr/releases/tag/v1.1.2)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.7.8`](https://github.com/ropensci/tarchetypes/releases/tag/0.7.8)), and [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.3.0`](https://github.com/ropensci/targets/releases/tag/1.3.0)).
+The following twelve packages have had an update since the last newsletter: [bold](https://docs.ropensci.org/bold "Interface to Bold Systems API") ([`v1.3.0`](https://github.com/ropensci/bold/releases/tag/v1.3.0)), [charlatan](https://docs.ropensci.org/charlatan "Make Fake Data") ([`v0.5.1`](https://github.com/ropensci/charlatan/releases/tag/v0.5.1)), [eph](https://docs.ropensci.org/eph "Argentina's Permanent Household Survey Data and Manipulation Utilities") ([`v1.0.0`](https://github.com/ropensci/eph/releases/tag/v1.0.0)), [geojsonio](https://docs.ropensci.org/geojsonio "Convert Data from and to GeoJSON or TopoJSON") ([`v0.11.3`](https://github.com/ropensci/geojsonio/releases/tag/v0.11.3)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.9.7`](https://github.com/ropensci/nodbi/releases/tag/v0.9.7)), [readODS](https://docs.ropensci.org/readODS "Read and Write ODS Files") ([`v2.1.0`](https://github.com/ropensci/readODS/releases/tag/v2.1.0)), [rgbif](https://docs.ropensci.org/rgbif "Interface to the Global Biodiversity Information Facility API") ([`v3.7.8`](https://github.com/ropensci/rgbif/releases/tag/v3.7.8)), [spatsoc](https://docs.ropensci.org/spatsoc "Group Animal Relocation Data by Spatial and Temporal Relationship") ([`v0.2.2`](https://github.com/ropensci/spatsoc/releases/tag/v0.2.2)), [stplanr](https://docs.ropensci.org/stplanr "Sustainable Transport Planning") ([`v1.1.2`](https://github.com/ropensci/stplanr/releases/tag/v1.1.2)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.7.8`](https://github.com/ropensci/tarchetypes/releases/tag/0.7.8)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.3.0`](https://github.com/ropensci/targets/releases/tag/1.3.0)), and [weathercan](https://docs.ropensci.org/weathercan "Download Weather Data from Environment and Climate Change Canada") ([`v0.7.1`](https://github.com/ropensci/weathercan/releases/tag/v0.7.1)).
 
 ## Software Peer Review
 
@@ -163,8 +176,6 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 If you're interested in maintaining any of the R packages below, you might enjoy reading our blog post [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/) (or listening to its discussion on the [R Weekly highlights podcast](https://rweekly.fireside.fm/111) hosted by Eric Nantz and Mike Thomas)!
 
 - **[rvertnet](https://cran.r-project.org/web/packages/rvertnet/index.html)**, Retrieve, map and summarize data from the VertNet.org archives (<https://vertnet.org/>). Functions allow searching by many parameters, including taxonomic names, places, and dates. In addition, there is an interface for conducting spatially delimited searches, and another for requesting large datasets via email. [Issue for volunteering](https://github.com/ropensci-archive/rvertnet/issues/71).
-
-- **[natserv](https://cran.r-project.org/web/packages/natserv/index.html)**. Interface to NatureServe (<https://www.natureserve.org/>). Includes methods to get data, image metadata, search taxonomic names, and make maps. [Issue for volunteering](https://github.com/ropensci-archive/natserv/issues/29).
 
 ### Call for comaintainers
 
