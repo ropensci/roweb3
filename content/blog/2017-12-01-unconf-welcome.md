@@ -3,6 +3,9 @@ slug: unconf-welcome
 title: 'The Value of Welcome, part 2: How to prepare 40 new community members for
   an unconference'
 date: '2017-12-01'
+crossposts:
+- name: Trellis blog
+  url: https://www.cscce.org/2017/08/11/the-value-of-welcome-part-2-how-to-prepare-40-new-community-members-for-an-unconference/
 preface: I’m participating in the [AAAS Community Engagement Fellows Program](https://www.cscce.org/cefp/),
   funded by the Alfred P. Sloan Foundation. The inaugural cohort of [Fellows](https://www.cscce.org/2016/12/05/introducing-the-2017-community-engagement-fellows/)
   comprises 17 community managers working in a wide range of scientific communities.

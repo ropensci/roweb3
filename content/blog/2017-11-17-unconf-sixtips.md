@@ -2,6 +2,9 @@
 slug: unconf-sixtips
 title: Six tips for running a successful unconference
 date: '2017-11-17'
+crossposts:
+- name: Trellis blog
+  url: https://www.cscce.org/2017/08/09/six-tips-for-running-a-successful-unconference/
 preface: I’m participating in the [AAAS Community Engagement Fellows Program](https://www.cscce.org/cefp/),
   funded by the Alfred P. Sloan Foundation. The inaugural cohort of [Fellows](https://www.cscce.org/2016/12/05/introducing-the-2017-community-engagement-fellows/)
   comprises 17 community managers working in a wide range of scientific communities.

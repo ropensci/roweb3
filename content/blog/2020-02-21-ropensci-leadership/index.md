@@ -9,6 +9,9 @@ tags:
   - unconf
   - unconf15
   - welcome
+crossposts:
+- name: Openscapes blog
+  url: https://www.openscapes.org/blog/2020/02/21/ropensci-leadership/
 preface: This is cross-posted at [openscapes](https://www.openscapes.org/blog/2020/02/21/ropensci-leadership/).
 ---
 

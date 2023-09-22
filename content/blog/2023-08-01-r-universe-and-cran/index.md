@@ -12,6 +12,9 @@ tags:
   - github
 description: >
   Using the R-universe to rapidly deploy releases, dependencies, and bugfixes
+crossposts:
+- name: Zhian Kamvar's Blog
+  url: https://zkamvar.netlify.app/blog/r-universe-and-cran/
 preface: This is cross-posted on [Zhian Kamvar's Blog](https://zkamvar.netlify.app/blog/r-universe-and-cran/)
 ---
 

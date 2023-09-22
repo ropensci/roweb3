@@ -10,6 +10,9 @@ tags:
   - rOpenSci team
   - welcome
   - cefp
+crossposts:
+- name: Trellis blog
+  url: https://www.cscce.org/2017/07/13/the-value-of-welcome/
 preface: I’m participating in the [AAAS Community Engagement Fellows Program (CEFP)](https://www.cscce.org/cefp/), funded by the Alfred P. Sloan Foundation. The inaugural [cohort of Fellows](https://www.cscce.org/2016/12/05/introducing-the-2017-community-engagement-fellows/) is made up of 17 community managers working in a wide range of scientific communities. This is cross-posted from the [Trellis blog](https://www.cscce.org/2017/07/13/the-value-of-welcome/) as part of a [series of reflections](https://www.cscce.org/tag/fellows-blog-series) that the CEFP Fellows are sharing.
 ---
 

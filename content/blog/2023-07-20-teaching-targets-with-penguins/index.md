@@ -14,6 +14,9 @@ tags:
   - community
 description: |
     An inspiring collaboration for reproducibility! rOpenSci members Joel and Mo's fortuitous encounter led to an exciting targets workshop in Oslo.
+crossposts:
+- name: The Carpentries Blog
+  url: https://carpentries.org/blog/2023/07/teaching-targets-with-penguinds/
 preface: This is cross-posted on [The Carpentries Blog](https://carpentries.org/blog/2023/07/teaching-targets-with-penguinds/)
 ---
 

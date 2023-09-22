@@ -8,6 +8,9 @@ tags:
   - sustainability
   - researchsoftware
   - infrastructure
+crossposts:
+- name: Dan's blog
+  url: https://danielskatzblog.wordpress.com/2016/05/25/software-sustainability-research-with-ropensci/
 ---
 
 

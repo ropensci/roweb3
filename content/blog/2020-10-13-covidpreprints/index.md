@@ -7,6 +7,9 @@ author:
   - Jonny Coates
   - Hugo Gruson
 date: '2020-10-13'
+crossposts:
+- name: preLights
+  url: https://prelights.biologists.com/news/covidpreprints-com-automating-website-updates-with-the-europepmc-and-raltmetric-packages/
 preface: Cross-posted with [preLights](https://prelights.biologists.com/news/covidpreprints-com-automating-website-updates-with-the-europepmc-and-raltmetric-packages/)
 tags:
   - community
