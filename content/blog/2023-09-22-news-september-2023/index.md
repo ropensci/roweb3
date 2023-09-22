@@ -39,7 +39,7 @@ webr::install(
 ```
 
 This only works if the package and all of its dependencies support webassembly.
-For CRAN packages you can look at https://repo.r-wasm.org/; for other packages... you'll have to give it a try!
+For CRAN packages you can look at https://repo.r-wasm.org/. For other packages... you'll have to give it a try!
 
 ### First rOpenSci Champion's package to go through peer-review, in Spanish!
 
