@@ -5,9 +5,9 @@
 {
     "version": "https://jsonfeed.org/version/1.1",
     "title": "{{ .Site.Title }}",
-    "favicon": "{{ .Permalink}}/apple-touch-icon.png",
+    "favicon": "{{ .Permalink}}apple-touch-icon.png",
     "home_page_url": "{{ .Permalink }}",
-    "feed_url": "{{ .Permalink}}/index.json",
+    "feed_url": "{{ .Permalink}}index.json",
 	{{ if isset .Site.Params "description" }}
 	"description": "{{ .Site.Params.description }}",
 	{{ end }}
