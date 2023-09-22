@@ -27,9 +27,7 @@ Thanks to some help from George Stagg, we added experimental support for buildin
 
 For instance: 
 
-```r
-webr::install('jsonlite', repos = c('https://jeroen.r-universe.dev', 'https://repo.r-wasm.org'))
-```
+
 
 This only works if the package and all of its dependencies support webassembly.
 For CRAN packages you can look at https://repo.r-wasm.org/; for other packages... you'll have to give it a try!
@@ -155,7 +153,7 @@ There are sixteen recently closed and active submissions and 3 submissions on ho
 
 * Two at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
 
-     * [agromet](https://github.com/ropensci/software-review/issues/599), Índices y Estadísticos Climáticos e Hidrológicos. Submitted by [Paola Corrales](https://paocorrales.github.io). 
+     * [agromet](https://github.com/ropensci/software-review/issues/599), Índices y Estadísticos Climáticos e Hidrológicos. Submitted by [Paola Corrales](http://paocorrales.github.io). 
 
     * [qualtdict](https://github.com/ropensci/software-review/issues/572), Generating Variable Dictionaries and Labelled Data Exports of Qualtrics. Submitted by [lyh970817](https://github.com/lyh970817). 
 
