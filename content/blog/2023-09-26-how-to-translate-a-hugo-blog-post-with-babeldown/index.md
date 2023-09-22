@@ -3,7 +3,7 @@ title: How to Translate a Hugo Blog Post with Babeldown
 author: 
 - Maëlle Salmon
 - Yanina Bellini Saibene
-date: '2023-09-05'
+date: '2023-09-26'
 slug: how-to-translate-a-hugo-blog-post-with-babeldown
 categories: []
 tags:
@@ -205,11 +205,20 @@ Note that if babeldown translates the title, it updates the slug.
 
 Imagine you have a few preferences for some words -- something you'll build up over time.
 
-```{r}
+
+```r
 readr::read_csv(
   system.file("example-es-en.csv", package = "babeldown"), 
   show_col_types = FALSE
 )
+```
+
+```
+## # A tibble: 2 × 2
+##   Spanish     English   
+##   <chr>       <chr>     
+## 1 paquete     package   
+## 2 repositorio repository
 ```
 
 You can record these preferred translations in a glossary in your DeepL account
