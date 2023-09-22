@@ -46,7 +46,7 @@ Thanks to some help from George Stagg, we added experimental support for buildin
 
 For instance: 
 
-```{r, eval=FALSE}
+```{r, eval=FALSE, echo=TRUE}
 webr::install(
   'jsonlite', 
   repos = c(

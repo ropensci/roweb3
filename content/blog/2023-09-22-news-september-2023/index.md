@@ -28,6 +28,15 @@ Thanks to some help from George Stagg, we added experimental support for buildin
 For instance: 
 
 
+```r
+webr::install(
+  'jsonlite', 
+  repos = c(
+    'https://jeroen.r-universe.dev',
+    'https://repo.r-wasm.org'
+  )
+)
+```
 
 This only works if the package and all of its dependencies support webassembly.
 For CRAN packages you can look at https://repo.r-wasm.org/; for other packages... you'll have to give it a try!
