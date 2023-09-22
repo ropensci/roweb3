@@ -67,7 +67,7 @@ DefaultContentLanguage = "en"
   [privacy.twitter]
     disable = false
     enableDNT = true
-    simple = false
+    simple = true
   [privacy.instagram]
     disable = false
     simple = true
