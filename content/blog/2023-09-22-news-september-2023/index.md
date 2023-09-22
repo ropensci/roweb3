@@ -126,7 +126,7 @@ There are sixteen recently closed and active submissions and 3 submissions on ho
 
 * Two at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
 
-     * [eph](https://github.com/ropensci/software-review/issues/593), Argentina's Permanent Household Survey Data and Manipulation Utilities. Submitted by [Carolina Pradier](https://drive.google.com/file/d/1mlRCWYoqmLKUejy4eF-jtVBDUAHlS4go/view?usp=sharing). 
+     * [eph](https://github.com/ropensci/software-review/issues/593), Argentina's Permanent Household Survey Data and Manipulation Utilities. Submitted by [Carolina Pradier](/blog/2023/05/05/ropensci-champions-program-teams-meet-carolina-pradier-and-athanasia-monika-mowinckel/#carolina-pradier---champion). 
 
     * [ohun](https://github.com/ropensci/software-review/issues/568), Optimizing Acoustic Signal Detection. Submitted by [Marcelo Araya-Salas](https://marceloarayasalas.weebly.com/). 
 
