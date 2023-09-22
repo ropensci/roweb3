@@ -5,7 +5,7 @@ date: '2023-09-22'
 tags:
   - newsletter
 slug: news-september-2023
-description: Open Call for Champions program, community call in Spanish and English, coworking
+description: WebAssembly in R-universe, champions program updates, coworking, new packages and package news
 params:
   last_newsletter: "2023-08-25"
 ---
