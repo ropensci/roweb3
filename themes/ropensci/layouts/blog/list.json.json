@@ -36,12 +36,13 @@
 				"content_html": {{ .Content | replaceRE "\n" "" | jsonify }},
 				"url": "{{ .Permalink }}",
 				"date_published": "{{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}",
-				{{ with .Params.crossposts }}"_crossposts":{[{{ range $index, $element := . }}
+				{{ with .Params.crossposts }}{{ range $index, $element := . }}
+				"_crossposts{{$index}}":
 				{
 				  "name": "{{ .name }}",
-				  "url": "{{.url }}"{{ if $index}},{{end}}
-				}
-				{{ end }}]},{{ end }}
+				  "url": "{{ .url }}"
+				}{{ if $index}},{{end}}
+				{{ end }},{{ end }}
 				"date_modified": "{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" | safeHTML }}"
 			}
 		{{ end }}
