@@ -31,7 +31,7 @@ We have observed that editing an automatic translation is faster than translatin
 
 ### Pre-requisites on the Hugo website
 
-`babeldown::deepl_translate_hugo()` assumes the Hugo website uses
+[`babeldown::deepl_translate_hugo()`](https://docs.ropensci.org/babeldown/reference/deepl_translate_hugo.html) assumes the Hugo website uses
 
 - leaf bundles (each post in a folder, `content/path-to-leaf-bundle/index.md`);
 - multilingualism so that a post in (for example) Spanish lives in `content/path-to-leaf-bundle/index.es.md`.
@@ -39,6 +39,7 @@ We have observed that editing an automatic translation is faster than translatin
 babeldown could be extended work with other Hugo multilingual setups. If you'd be interested in using babeldown with a different setup, please open an issue in the [babeldown repository](https://github.com/ropensci-review-tools/babeldown/)!
 
 Note that babeldown won't be able to determine the default language of your website[^config] so even if your website's default language is English, babeldown will place an English translation in a file called ".en.md" not ".md".
+Hugo will recognize the new file all the same (at least in our setup).
 
 [^config]: adding code to handle Hugo's ["bewildering array of possible config locations"](https://github.com/r-lib/hugodown/issues/14#issuecomment-632850506) and two possible formats (YAML and TOML) is out of scope for babeldown at this point.
 
