@@ -1,81 +1,81 @@
 ---
-title: How to Translate a Hugo Blog Post with Babeldown
-author: 
+title: Cómo traducir un artículo de blog de Hugo con Babeldown
+author:
 - Maëlle Salmon
 - Yanina Bellini Saibene
 date: '2023-09-26'
-slug: how-to-translate-a-hugo-blog-post-with-babeldown
+slug: cómo_traducir_una_entrada_de_blog_de_hugo_con_babeldown
 categories: []
 tags:
-  - tech notes
-  - multilingual
+- notas técnicas
+- multilingüe
 ---
 
-As part of our [multilingual publishing project](/multilingual-publishing/), and with [funding from the R Consortium](https://www.r-consortium.org/all-projects/awarded-projects/2022-group-2), we've worked on the R package [babeldown](https://docs.ropensci.org/babeldown/) for translating Markdown-based content using the DeepL API.
-In this tech note, we'll show how you can use babeldown to translate a Hugo blog post!
+Como parte de nuestro [proyecto editorial multilingüe](/multilingual-publishing/) y con [financiación del Consorcio R](https://www.r-consortium.org/all-projects/awarded-projects/2022-group-2) hemos trabajado en el paquete R [babeldown](https://docs.ropensci.org/babeldown/) para traducir contenido basado en Markdown utilizando la API de DeepL.
+En esta nota técnica, mostraremos cómo puedes utilizar babeldown para traducir un artículo de blog que utiliza Hugo.
 
-## Motivation
+## Motivación
 
-Translating a Markdown blog post from your R console is not only more comfortable (when you've already written said blog post in R), but also less frustrating.
-With babeldown, compared to copy-pasting the content of a blog post into some translation service, the Markdown syntax won't be broken[^md], and code chunks won't be translated.
-This works, because under the hood, babeldown uses [tinkr](https://docs.ropensci.org/tinkr) to produce XML which it then sends to the DeepL API, flagging some tags as not to be translated. It then converts the XML translated by DeepL back into Markdown again.
+Traducir un artículo de blog en Markdown desde tu consola de R no sólo es más cómodo (cuando ya has escrito dicho artículo en R), sino también menos frustrante.
+Con babeldown, en comparación con copiar y pegar el contenido del artículo en algún servicio de traducción, no se romperá la sintaxis Markdown[^md], ni se traducirán las líneas de código.
+Esto funciona porque, detrás de escena, babeldown utiliza [tinkr](https://docs.ropensci.org/tinkr) para producir XML que luego envía a la API DeepL, marcando algunas etiquetas como no traducibles. A continuación, convierte el XML traducido por DeepL de nuevo en Markdown.
 
-[^md]: But you should refer to [tinkr docs](https://docs.ropensci.org/tinkr/#loss-of-markdown-style) to see what might change in the Markdown syntax style.
+[^md]: Pero deberías consultar [tinkr docs](https://docs.ropensci.org/tinkr/#loss-of-markdown-style) para ver qué puede cambiar en el estilo de sintaxis Markdown.
 
-Now, as you might expect this machine-translated content isn't perfect yet!
-You will still need a human or two to review and amend the translation.
-Why not have the humans translate the post from scratch then?
-We have observed that editing an automatic translation is faster than translating the whole post, and that it frees up mental space for focusing on implementing translation rules such as gender-neutral phrasing.
+Ahora bien, como era de esperar, ¡este contenido traducido por la máquina aún no es perfecto!
+Aún necesitarás una o dos personas para revisar y corregir la traducción.
+Entonces, ¿por qué no hacer que una persona traduzcan el artículo desde cero?
+Hemos observado que para las personas voluntarias que participan en nuestras traduciones, editar una traducción automática es más rápido que traducir todo el artículo, y que libera espacio mental para centrarse en la aplicación de reglas de traducción como la redacción neutra en cuanto al género.
 
-## Setup
+## Configuración
 
-### Pre-requisites on the Hugo website
+### Requisitos previos en el sitio web de Hugo
 
-[`babeldown::deepl_translate_hugo()`](https://docs.ropensci.org/babeldown/reference/deepl_translate_hugo.html) assumes the Hugo website uses
+[`babeldown::deepl_translate_hugo()`](https://docs.ropensci.org/babeldown/reference/deepl_translate_hugo.html) asume que el sitio web de Hugo utiliza
 
-- leaf bundles (each post in a folder, `content/path-to-leaf-bundle/index.md`);
-- multilingualism so that a post in (for example) Spanish lives in `content/path-to-leaf-bundle/index.es.md`.
+- grupo de hojas (cada artículo en una carpeta, `content/camino-a-la-hoja/index.md`);
+- multilingüismo para que un post en (por ejemplo) español viva en `content/camino-a-la-hoja/index.es.md`.
 
-babeldown could be extended work with other Hugo multilingual setups. If you'd be interested in using babeldown with a different setup, please open an issue in the [babeldown repository](https://github.com/ropensci-review-tools/babeldown/)!
+babeldown podría ampliarse para funcionar con otras configuraciones multilingües de Hugo. Si estás interesado en utilizar babeldown con una configuración diferente, ¡ abre un _issue_ en la sección correspondiente en el [repositorio de babeldow](https://github.com/ropensci-review-tools/babeldown/)! 
 
-Note that babeldown won't be able to determine the default language of your website[^config] so even if your website's default language is English, babeldown will place an English translation in a file called ".en.md" not ".md".
-Hugo will recognize the new file all the same (at least in our setup).
+Ten en cuenta que babeldown no podrá determinar el idioma por defecto de tu sitio web[^config], así que aunque el idioma por defecto de tu sitio web sea el inglés, babeldown colocará una traducción al inglés en un archivo llamado ".en.md" y no ".md".
+Hugo reconocerá el nuevo archivo igualmente (al menos en nuestra configuración).
 
-[^config]: adding code to handle Hugo's ["bewildering array of possible config locations"](https://github.com/r-lib/hugodown/issues/14#issuecomment-632850506) and two possible formats (YAML and TOML) is out of scope for babeldown at this point.
+[^config]: añadir código para manejar la ["desconcertante variedad de posibles ubicaciones de configuración"](https://github.com/r-lib/hugodown/issues/14#issuecomment-632850506) de Hugo y dos formatos posibles (YAML y TOML) está fuera del alcance de babeldown en este momento.
 
-### DeepL pre-requisites
+### Requisitos previos de DeepL 
 
-First check that your desired source and target languages are supported by the DeepL API!
-Look up the [docs of the `source_lang` and `target_lang` API parameters](https://www.deepl.com/docs-api/translate-text) for a full list.
+Comprueba primero que la API DeepL admite los idiomas de origen y destino que desees.
+Busca la [documentación de los parámetros `source_lang` y `target_lang` de la API](https://www.deepl.com/docs-api/translate-text) para obtener una lista completa.
 
-Once you know you'll be able to take advantage of the DeepL API, you'll need to create an account for [DeepL's translation service API](https://www.deepl.com/en/docs-api/).
-Note that even getting a free account requires registering a payment method with them.
+Una vez que sepas que podrás aprovechar la API de DeepL, tendrás que crear una cuenta para [la API del servicio de traducción de DeepL](https://www.deepl.com/en/docs-api/).
+Ten en cuenta que incluso para obtener una cuenta gratuita es necesario registrar un método de pago con ellos.
 
-### R pre-requisites
+### Requisitos previos de R
 
-You'll need to install babeldown from rOpenSci R-universe:
+Necesitarás instalar babeldown desde el Universo R de rOpenSci:
 
 ```r
 install.packages('babeldown', repos = c('https://ropensci.r-universe.dev', 'https://cloud.r-project.org'))
 ```
 
-Then, in each R session, set your DeepL API key via the environment variable DEEPL_API_KEY. You could store it once and for all with the [keyring](https://r-lib.github.io/keyring/index.html) package and retrieve it in your scripts like so:
+A continuación, en cada sesión de R, establece tu clave de API DeepL mediante la variable de entorno DEEPL\_API\_KEY. Puedes almacenarla de una vez por todas con el paquete [keyring](https://r-lib.github.io/keyring/index.html) y recuperarla en tus scripts de la siguiente manera:
 
 ```r
 Sys.setenv(DEEPL_API_KEY = keyring::key_get("deepl"))
 ```
 
-Lastly, the DeepL API URL depends on your API plan. 
-babeldown uses the DeepL free API URL by default. 
-If you use a Pro plan, set the API URL in each R session/script via
+Por último, la URL de la API DeepL depende de tu plan.
+babeldown utiliza por defecto la URL de API gratuita DeepL.
+Si utilizas un plan Pro, establece la URL de la API en cada sesión/script de R mediante
 
 ```r
 Sys.setenv("DEEPL_API_URL" = "https://api.deepl.com")
 ```
 
-## Translation!
+## ¡Traducción!
 
-You could run the code below
+Puedes ejecutar el siguiente código:
 
 ```r
 babeldown::deepl_translate_hugo(
@@ -86,38 +86,36 @@ babeldown::deepl_translate_hugo(
 )
 ```
 
-but we'd recommend a tad more work for your own good.
+pero te recomendamos que trabajes un poco más por tu propio bien.
 
-## Translation using a Git/GitHub workflow
+## Traducción utilizando un flujo de trabajo Git/GitHub
 
-If you use version control, having the translation as a diff is very handy!
+Si utilizas el control de versiones, ¡tener la traducción como un diff es muy práctico!
 
-### First: In words and pictures
+### Primero: En palabras e imágenes
 
-- In the branch of your post (let's call it "new-post") create a placeholder: save your original blog post (`index.es.md`) under the target blog post name (`index.en.md`) and commit it, then push.
+- En la rama de tu artículo (llamémosla "new-post") crea un marcador de posición: guarda tu artículo original del blog (`index.es.md`) bajo el nombre del artículo de destino (`index.en.md`) haz _commit_ y luego _push_.
 
-{{< figure src="placeholder.png" alt="Diagram with on the left the leaf folder in the new-post branch with the post in Spanish with the text 'Hola' and an image; on the right the leaf folder in the new-post branch with the post in Spanish with the text 'hola', the post with the English target filename with the text 'hola', and the image." >}}
+{{< figure src="placeholder.png" alt="Diagrama de dos partes. A la izquierda una carpeta de hojas de Hugo en la rama new-post con el artículo en español con el texto 'Hola' y una imagen; a la derecha la carpeta de hojas de Hugo en la misma rama con el post en español con el texto 'Hola', el post con el nombre de archivo de destino en inglés con el texto 'Hola', y la imagen."  >}}
 
-- Create a new branch, "auto-translate" for instance.
-- Run `babeldown::deepl_translate_hugo()` with `force = TRUE`.
+- Crea una nueva rama, "auto-traducción" por ejemplo.
+- Ejecuta `babeldown::deepl_translate_hugo()` con `force = TRUE`.
 
-{{< figure src="translate.png" alt="Diagram with on the left the leaf folder in the auto-translate branch with the post in Spanish with the text 'hola', the post with the English target filename with the text 'hola', and the image; on the right the only thing that changed is that the content of the post with the English target filename is now 'hello'." >}}
+{{< figure src="translate.png" alt="Diagrama con dos partes. A la izquierda la carpeta de hojas de Hugo en la rama de auto-translate con el artículo en español con el texto 'Hola', el post con el nombre de archivo de destino en inglés con el texto 'Hola', y la imagen; a la derecha lo único que cambió es que el contenido del post con el nombre de archivo de destino en inglés es ahora 'Hello'."  >}}
 
-- Commit and push the result. 
-- Open a PR from the **"translation-tech-note"** branch to the **"new-post"** branch. 
-The only difference between the two branches is the automatic translation of your post. The diff for the target blog post will be the diff between the source and target languages! If you have the good habit to start a new line after each sentence / sentence part, it's even better.
+- _Commit_ y _push_ el resultado.
+- Abre un PR desde el **"translation-tech-note"** a la rama **"new-post"**.
+  La única diferencia entre las dos ramas es la traducción automática de tu artículo. La diferencia para el artículo de destino será la diferencia entre los idiomas de origen y de destino. Si tienes la buena costumbre de empezar una nueva línea después de cada frase/parte de una frase, aún mejor.
 
+{{< figure src="pr.png" alt="Dibujo del pull request de la rama auto-translate a la rama new-post donde la diferencia es que ahora se ha traducido al inglés el contenido de la entrada con el nombre de archivo de destino en inglés."  >}}
 
-{{< figure src="pr.png" alt="Drawing of the pull request from the auto-translate to the new-post branch where the difference is that the content of the post with the English target filename has now been translated to English." >}}
+- Las personas que traducen o revisan pueden abrir un segundo PR en la rama de traducción con sus ediciones. O pueden añadir sus ediciones como [sugerencias](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request#adding-comments-to-a-pull-request).
 
-- The human translators can then a open a second PR to the translation branch with their edits! Or they can add their edits as [PR suggestions](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request#adding-comments-to-a-pull-request).
+### De nuevo pero en código
 
+Ahora vamos a repasar esto de nuevo, pero con un flujo de trabajo de programación. Utilizaremos fs y gert (¡pero hazlo como mejor te resulte a ti!). Suponemos que tu directorio actual es la raíz de la carpeta del sitio web, y también la raíz del repositorio git.
 
-### Again: In code
-
-Now let's go over this again, but with a coding workflow. Here, we'll use fs and gert (but you do you!), and we'll assume your current directory is the root of the website folder, and also the root of the git repository.
-
-- In the post branch, (again, let's call it "new-post"), save your original blog post (`index.es.md`) under the target blog post name (`index.en.md`) and commit it, then push.
+- En la rama del artículo, (de nuevo, llamémosla "new-post"), guarda tu artículo original del blog (`index.es.md`) con el nombre del artículo de blog de destino (`index.en.md`). Haz _commit_ y luego _push_.
 
 ```r
 fs::file_copy(
@@ -129,13 +127,13 @@ gert::git_commit("Add translation placeholder")
 gert::git_push()
 ```
 
-- Create a new branch, "auto-translate" for instance.
+- Crea una nueva rama, "auto-translate" por ejemplo.
 
 ```r
 gert::git_branch_create("translation-tech-note")
 ```
 
-- Run `babeldown::deepl_translate_hugo()` with `force = TRUE`.
+- Ejecuta `babeldown::deepl_translate_hugo()` con `force = TRUE`.
 
 ```r
 babeldown::deepl_translate_hugo(
@@ -147,7 +145,7 @@ babeldown::deepl_translate_hugo(
 )
 ```
 
-You can also omit the `post_path` argument if you're running the code from RStudio IDE and if the open and focused file (the one you see above your console) is the post to be translated.
+También puedes omitir `post_path` si estás ejecutando el código desde la IDE de RStudio y si el archivo abierto y en foco (el que ves encima de tu consola) es el post que hay que traducir.
 
 ```r
 babeldown::deepl_translate_hugo(
@@ -158,7 +156,7 @@ babeldown::deepl_translate_hugo(
 )
 ```
 
-- Commit the result with the code below.
+- Haz _commit_ del resultado con el código que aparece a continuación.
 
 ```r
 gert::git_add(file.path("content", "blog", "2023-10-01-r-universe-interviews", "index.en.md"))
@@ -166,46 +164,46 @@ gert::git_commit("Add translation")
 gert::git_push()
 ```
 
-- Open a PR from the **"translation-tech-note"** branch to the **"new-post"** branch. 
-The only difference between the two branches is the automatic translation of `"content/blog/2023-10-01-r-universe-interviews/index.en.md"`.
+- Abre un PR desde el **"translation-tech-note"** a la rama **"new-post"**.
+  La única diferencia entre las dos ramas es la traducción automática de `"content/blog/2023-10-01-r-universe-interviews/index.en.md"`.
 
-- The human translators can then a open a _second_ PR to the translation branch with their edits! Or they can add their edits as [PR suggestions](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request#adding-comments-to-a-pull-request).
+- Las personas que traducen o revisan pueden entonces ¡abrir un *segundo* PR a la rama de traducción con sus ediciones! O pueden añadir sus ediciones como [sugerencias](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request#adding-comments-to-a-pull-request).
 
-### Summary of branches and PRs
+### Resumen de ramas y PRs
 
-In the end there should be two to three branches:
-- branch A with blog post in Spanish and placeholder blog post for English (with Spanish content) -- PR to main;
-- branch B with blog post automatically translated to English -- PR to branch A;
-- Optionally branch C with blog post's English automatic translation edited by a human -- PR to branch B. If branch C does not exist, edits by a human are made as PR review suggestions in the PR from B to A.
+Al final debería haber dos o tres ramas:
 
-The PR are merged in this order:
+- branch A con artículo en español y marcador de posición de artículo en inglés (con contenido en español) -- PR to main;
+- rama B con el artículo traducido automáticamente al inglés -- PR a la rama A;
+- Opcionalmente, la rama C con la edición de una persona de la traducción automática al inglés del artículo -- PR a la rama B. Si la rama C no existe, las ediciones realizadas por una persona se hacen como sugerencias de revisión de PR en el PR de B a A.
 
-- PR to branch B;
-- PR to branch A;
-- PR to main.
+Los PR se fusionan en este orden:
 
-### Real example
+- PR a la rama B;
+- PR a la rama A;
+- PR a main.
 
-- [PR adding a post to the rOpenSci blog](https://github.com/ropensci/roweb3/pull/629), notice it's a PR from the **"r-universe-interviews"** branch to the **"main" (default)** branch;
-- [PR adding the automatic translation](https://github.com/ropensci/roweb3/pull/639), notice it's a PR to the **"r-universe-interviews"** branch.
+### Ejemplo real
 
-{{< figure src="pr-diff.png" alt="Screenshot of the files tab of the pull request adding the automatic translation, where we observe Spanish text in the YAML metadata and Markdown content has been translated to English." >}}
+- [PR añadiendo un artículo al blog de rOpenSci](https://github.com/ropensci/roweb3/pull/629), observa que es un PR del **"r-universe-interviews"** a la rama **"main" (por defecto)**;
+- [PR añadiendo la traducción automática](https://github.com/ropensci/roweb3/pull/639), observa que es un PR para la rama **"r-universe-interviews"**.
 
-Yanina tweaked the automatic translation by suggesting changes on the PR, then accepting them.
+{{< figure src="pr-diff.png" alt="Captura de pantalla de la pestaña de archivos del pull request que añade la traducción automática, donde observamos que el texto en español de los metadatos YAML y el contenido Markdown se ha traducido al inglés."  >}}
 
-{{< figure src="pr-comments.png" alt="Screenshot of the main tab of the pull request adding the automatic translation, where we observe a comment by Yanina replacing the word 'article' with 'blog post' and fixing the name of 'R-universe'." >}}
+Yanina retocó la traducción automática sugiriendo cambios en el PR, y luego aceptándolos.
 
-### YAML fields
+{{< figure src="pr-comments.png" alt="Captura de pantalla de la pestaña principal del pull request que añade la traducción automática, donde observamos un comentario de Yanina sustituyendo la palabra 'artículo' por 'entrada de blog' y arreglando el nombre de 'R-universo'."  >}}
 
-By default babeldown translates the YAML fields "title" and "description". 
-If you have text in more of them, use the `yaml_fields` argument of `babeldown::deepl_translate_hugo()`.
+### Campos YAML
 
-Note that if babeldown translates the title, it updates the slug.
+Por defecto, babeldown traduce los campos YAML "título" y "descripción".
+Si tienes texto en más campos, utiliza la opción `yaml_fields` argumento de `babeldown::deepl_translate_hugo()`.
 
-### Glossary
+Ten en cuenta que si babeldown traduce el título, actualiza el slug.
 
-Imagine you have a few preferences for some words -- something you'll build up over time.
+### Glosario
 
+Imagina que tienes algunas preferencias para algunas palabras, algo que irás construyendo con el tiempo.
 
 ```r
 readr::read_csv(
@@ -222,7 +220,7 @@ readr::read_csv(
 ## 2 repositorio repository
 ```
 
-You can record these preferred translations in a glossary in your DeepL account
+Puedes registrar estas traducciones preferidas en un glosario en tu cuenta de DeepL.
 
 ```r
 deepl_upsert_glossary(
@@ -233,30 +231,31 @@ deepl_upsert_glossary(
 )
 ```
 
-You'd use the exact same code to _update_ the glossary hence the name "upsert" for the function.
-You need one glossary per source language / target language pair: the English-Spanish glossary can't be used for Spanish to English for instance.
+Utilizarías exactamente el mismo código para *actualizar* el glosario, de ahí el nombre "upsert" de la función.
+Necesitas un glosario por cada par de idiomas de origen y destino: el glosario inglés-español no puede utilizarse, por ejemplo, para el español-inglés.
 
-In your `babeldown::deepl_translate_hugo()` call you then use the glossary name (here "rstats-glosario") for the `glossary` argument. 
+En tu `babeldown::deepl_translate_hugo()` llamada utilizarás el nombre del glosario (aquí "rstats-glosario") para el argumento `glossary`.
 
-### Formality
+### Formalidad
 
-`deepl_translate_hugo()` has a `formality` argument.
-Now, the DeepL API only supports this for some languages as explained in the [documentation of the `formality` API parameter](https://www.deepl.com/docs-api/translate-text): 
+`deepl_translate_hugo()` tiene un `formality` argumento.
+Ahora bien, la API de DeepL sólo admite esto para algunos idiomas, como se explica en el apartado de la [documentación del parámetro `formality` de la API](https://www.deepl.com/docs-api/translate-text):
 
-> Sets whether the translated text should lean towards formal or informal language. This feature currently only works for target languages DE (German), FR (French), IT (Italian), ES (Spanish), NL (Dutch), PL (Polish), PT-BR and PT-PT (Portuguese), JA (Japanese), and RU (Russian). (...) Setting this parameter with a target language that does not support formality will fail, unless one of the prefer_... options are used. 
+> Establece si el texto traducido debe inclinarse hacia un lenguaje formal o informal. Actualmente, esta opción sólo funciona para las lenguas de destino DE (alemán), FR (francés), IT (italiano), ES (español), NL (neerlandés), PL (polaco), PT-BR y PT-PT (portugués), JA (japonés) y RU (ruso). (...) La configuración de este parámetro con una lengua de destino que no admita la formalidad fallará, a menos que se utilice una de las opciones prefer\_...
 
-Therefore to be sure a translation will work, instead of writing `formality = "less"` you can write `formality = "prefer_less"` which will only use formality if available.
+Por tanto, para asegurarnos de que una traducción funcionará, en lugar de escribir `formality = "less"` puedes escribir `formality = "prefer_less"` que sólo utilizará la formalidad si está disponible.
 
-## Conclusion
+## Conclusión
 
-In this post we explained how to translate a Hugo blog post using babeldown.
-Although the gist is to use one call to `babeldown::deepl_translate_hugo()`,
-- one needs to indicate the API URL and key, 
-- one can improve results by using the function's different arguments,
-- we recommend pairing the translation with a Git + GitHub (or GitLab, gitea...) workflow.
+En este post hemos explicado cómo traducir una entrada del blog de Hugo utilizando babeldown.
+Aunque lo esencial es utilizar una llamada a `babeldown::deepl_translate_hugo()`,
 
-babeldown has [functions](https://docs.ropensci.org/babeldown/reference/index.html) for translating Quarto book chapters, any Markdown file, and any Markdown string, with similar arguments and recommended usage, so explore its reference!
+- es necesario indicar la URL de la API y la clave,
+- se pueden mejorar los resultados utilizando los distintos argumentos de la función,
+- recomendamos emparejar la traducción con un flujo de trabajo Git + GitHub (o GitLab, gitea...).
 
-We'd be happy to hear about your [use cases](/usecases/).
+babeldown tiene [funciones](https://docs.ropensci.org/babeldown/reference/index.html) para traducir capítulos de libros Quarto, cualquier archivo Markdown y cualquier cadena Markdown, con argumentos similares y uso recomendado, ¡así que explora su referencia!
+
+Nos encantaría que nos cuentes tus [casos de uso](/usecases/).
 
 
