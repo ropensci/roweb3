@@ -94,17 +94,17 @@ Si utilizas el control de versiones, ¡tener la traducción como un diff es muy 
 
 ### Primero: En palabras e imágenes
 
-- En la rama de tu entrada (llamémosla "nueva-entrada") crea un marcador de posición: guarda tu entrada original del blog (`index.es.md`) bajo el nombre de la entrada de destino (`index.en.md`) haz _commit_ y luego _push_.
+- En la rama de tu artículo (llamémosla "new-post") crea un marcador de posición: guarda tu artículo original del blog (`index.es.md`) bajo el nombre del artículo de destino (`index.en.md`) haz _commit_ y luego _push_.
 
-{{< figure src="placeholder.png" alt="Diagrama de dos partes. A la izquierda una carpeta de hojas de Hugo en la rama nuevo-post con el artículo en español con el texto 'Hola' y una imagen; a la derecha la carpeta de hojas de Hugo en la misma rama con el post en español con el texto 'Hola', el post con el nombre de archivo de destino en inglés con el texto 'Hola', y la imagen."  >}}
+{{< figure src="placeholder.png" alt="Diagrama de dos partes. A la izquierda una carpeta de hojas de Hugo en la rama new-post con el artículo en español con el texto 'Hola' y una imagen; a la derecha la carpeta de hojas de Hugo en la misma rama con el post en español con el texto 'Hola', el post con el nombre de archivo de destino en inglés con el texto 'Hola', y la imagen."  >}}
 
 - Crea una nueva rama, "auto-traducción" por ejemplo.
 - Ejecuta `babeldown::deepl_translate_hugo()` con `force = TRUE`.
 
-{{< figure src="translate.png" alt="Diagrama con dos partes. A la izquierda la carpeta de hojas de Hugo en la rama de auto-traducción con el artículo en español con el texto 'Hola', el post con el nombre de archivo de destino en inglés con el texto 'Hola', y la imagen; a la derecha lo único que cambió es que el contenido del post con el nombre de archivo de destino en inglés es ahora 'Hello'."  >}}
+{{< figure src="translate.png" alt="Diagrama con dos partes. A la izquierda la carpeta de hojas de Hugo en la rama de auto-translate con el artículo en español con el texto 'Hola', el post con el nombre de archivo de destino en inglés con el texto 'Hola', y la imagen; a la derecha lo único que cambió es que el contenido del post con el nombre de archivo de destino en inglés es ahora 'Hello'."  >}}
 
 - _Commit_ y _push_ el resultado.
-- Abre un PR desde el **"traducción-nota-técnica"** a la rama **"nuevo-post"**.
+- Abre un PR desde el **"translation-tech-note"** a la rama **"new-post"**.
   La única diferencia entre las dos ramas es la traducción automática de tu artículo. La diferencia para el artículo de destino será la diferencia entre los idiomas de origen y de destino. Si tienes la buena costumbre de empezar una nueva línea después de cada frase/parte de una frase, aún mejor.
 
 {{< figure src="pr.png" alt="Dibujo del pull request de la rama auto-translate a la rama new-post donde la diferencia es que ahora se ha traducido al inglés el contenido de la entrada con el nombre de archivo de destino en inglés."  >}}
@@ -127,7 +127,7 @@ gert::git_commit("Add translation placeholder")
 gert::git_push()
 ```
 
-- Crea una nueva rama, "auto-traducción" por ejemplo.
+- Crea una nueva rama, "auto-translate" por ejemplo.
 
 ```r
 gert::git_branch_create("translation-tech-note")
@@ -164,7 +164,7 @@ gert::git_commit("Add translation")
 gert::git_push()
 ```
 
-- Abre un PR desde el **"nota-técnica-de-traducción"** a la rama **"nuevo-post"**.
+- Abre un PR desde el **"translation-tech-note"** a la rama **"new-post"**.
   La única diferencia entre las dos ramas es la traducción automática de `"content/blog/2023-10-01-r-universe-interviews/index.en.md"`.
 
 - Las personas que traducen o revisan pueden entonces ¡abrir un *segundo* PR a la rama de traducción con sus ediciones! O pueden añadir sus ediciones como [sugerencias](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request#adding-comments-to-a-pull-request).
