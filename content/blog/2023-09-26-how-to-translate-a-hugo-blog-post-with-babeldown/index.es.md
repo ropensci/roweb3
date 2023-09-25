@@ -239,7 +239,7 @@ En tu `babeldown::deepl_translate_hugo()` llamada utilizarás el nombre del glos
 ### Formalidad
 
 `deepl_translate_hugo()` tiene un `formality` argumento.
-Ahora bien, la API de DeepL sólo admite esto para algunos idiomas, como se explica en el apartado [documentación del parámetro `formality` de la API](https://www.deepl.com/docs-api/translate-text):
+Ahora bien, la API de DeepL sólo admite esto para algunos idiomas, como se explica en el apartado de la [documentación del parámetro `formality` de la API](https://www.deepl.com/docs-api/translate-text):
 
 > Establece si el texto traducido debe inclinarse hacia un lenguaje formal o informal. Actualmente, esta opción sólo funciona para las lenguas de destino DE (alemán), FR (francés), IT (italiano), ES (español), NL (neerlandés), PL (polaco), PT-BR y PT-PT (portugués), JA (japonés) y RU (ruso). (...) La configuración de este parámetro con una lengua de destino que no admita la formalidad fallará, a menos que se utilice una de las opciones prefer\_...
 
