@@ -25,7 +25,7 @@ Esto funciona porque, detrás de escena, babeldown utiliza [tinkr](https://docs.
 Ahora bien, como era de esperar, ¡este contenido traducido por la máquina aún no es perfecto!
 Aún necesitarás una o dos personas para revisar y corregir la traducción.
 Entonces, ¿por qué no hacer que una persona traduzcan el artículo desde cero?
-Hemos observado que editar una traducción automática es más rápido que traducir toda la entrada, y que libera espacio mental para centrarse en la aplicación de reglas de traducción como la redacción neutra en cuanto al género.
+Hemos observado que para las personas voluntarias que participan en nuestras traduciones, editar una traducción automática es más rápido que traducir todo el artículo, y que libera espacio mental para centrarse en la aplicación de reglas de traducción como la redacción neutra en cuanto al género.
 
 ## Configuración
 
@@ -115,7 +115,7 @@ Si utilizas el control de versiones, ¡tener la traducción como un diff es muy 
 
 Ahora vamos a repasar esto de nuevo, pero con un flujo de trabajo de programación. Utilizaremos fs y gert (¡pero hazlo como mejor te resulte a ti!). Suponemos que tu directorio actual es la raíz de la carpeta del sitio web, y también la raíz del repositorio git.
 
-- En la branch post, (de nuevo, llamémosla "new-post"), guarda tu entrada original del blog (`index.es.md`) con el nombre de la entrada del blog de destino (`index.en.md`) y envíalo, luego push.
+- En la rama del artículo, (de nuevo, llamémosla "new-post"), guarda tu artículo original del blog (`index.es.md`) con el nombre del artículo de blog de destino (`index.en.md`). Haz _commit_ y luego _push_.
 
 ```r
 fs::file_copy(
@@ -185,8 +185,8 @@ Los PR se fusionan en este orden:
 
 ### Ejemplo real
 
-- [RP añadiendo una entrada al blog de rOpenSci](https://github.com/ropensci/roweb3/pull/629), observa que es un RP del **"r-entrevistas-universo** a la rama **"main" (por defecto)** branch;
-- [PR añadiendo la traducción automática](https://github.com/ropensci/roweb3/pull/639), observa que es un PR para la rama **"r-universo-entrevistas"**.
+- [PR añadiendo un artículo al blog de rOpenSci](https://github.com/ropensci/roweb3/pull/629), observa que es un PR del **"r-universe-interviews"** a la rama **"main" (por defecto)**;
+- [PR añadiendo la traducción automática](https://github.com/ropensci/roweb3/pull/639), observa que es un PR para la rama **"r-universe-interviews"**.
 
 {{< figure src="pr-diff.png" alt="Captura de pantalla de la pestaña de archivos del pull request que añade la traducción automática, donde observamos que el texto en español de los metadatos YAML y el contenido Markdown se ha traducido al inglés."  >}}
 
