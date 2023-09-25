@@ -243,7 +243,7 @@ Ahora bien, la API de DeepL sólo admite esto para algunos idiomas, como se expl
 
 > Establece si el texto traducido debe inclinarse hacia un lenguaje formal o informal. Actualmente, esta opción sólo funciona para las lenguas de destino DE (alemán), FR (francés), IT (italiano), ES (español), NL (neerlandés), PL (polaco), PT-BR y PT-PT (portugués), JA (japonés) y RU (ruso). (...) La configuración de este parámetro con una lengua de destino que no admita la formalidad fallará, a menos que se utilice una de las opciones prefer\_...
 
-Por tanto, para estar seguro de que una traducción funcionará, en lugar de escribir `formality = "less"` puedes escribir `formality = "prefer_less"` que sólo utilizará la formalidad si está disponible.
+Por tanto, para asegurarnos de que una traducción funcionará, en lugar de escribir `formality = "less"` puedes escribir `formality = "prefer_less"` que sólo utilizará la formalidad si está disponible.
 
 ## Conclusión
 
