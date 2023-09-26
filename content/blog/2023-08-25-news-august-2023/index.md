@@ -106,7 +106,7 @@ There are thirteen recently closed and active submissions and 3 submissions on h
 
      * [rangr](https://github.com/ropensci/software-review/issues/595), Mechanistic Simulation of Species Range Dynamics. Submitted by [Katarzyna Markowska](https://github.com/katarzynam-165). 
 
-    * [eph](https://github.com/ropensci/software-review/issues/593), Argentina's Permanent Household Survey Data and Manipulation Utilities. Submitted by [Carolina Pradier](https://drive.google.com/file/d/1mlRCWYoqmLKUejy4eF-jtVBDUAHlS4go/view?usp=sharing). 
+    * [eph](https://github.com/ropensci/software-review/issues/593), Argentina's Permanent Household Survey Data and Manipulation Utilities. Submitted by [Carolina Pradier](/blog/2023/05/05/ropensci-champions-program-teams-meet-carolina-pradier-and-athanasia-monika-mowinckel/#carolina-pradier---champion). 
 
     * [mregions2](https://github.com/ropensci/software-review/issues/590), Access Data from Marineregions.org: The Marine Regions Gazetteer and the Marine Regions Data Products. Submitted by [salvafern](https://linktr.ee/salvafern). 
 

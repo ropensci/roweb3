@@ -1,0 +1,645 @@
+---
+title: 'rOpenSci News Digest, September 2023'
+author: 'The rOpenSci Team'
+date: '2023-09-22'
+tags:
+  - newsletter
+slug: news-september-2023
+description: WebAssembly in R-universe, champions program updates, coworking, new packages and package news
+params:
+  last_newsletter: "2023-08-25"
+---
+
+
+```{r setup, include=FALSE}
+library("magrittr")
+library("rlang")
+last_newsletter <- anytime::anytime(params$last_newsletter)
+knitr::opts_chunk$set(echo = FALSE)
+url <- sprintf(
+    "/blog/%s/%s/%s/%s",
+    lubridate::year(rmarkdown::yaml_front_matter(knitr::current_input())$date),
+    stringr::str_pad(lubridate::month(rmarkdown::yaml_front_matter(knitr::current_input())$date), 2, "0", side = "left"),
+    stringr::str_pad(lubridate::day(rmarkdown::yaml_front_matter(knitr::current_input())$date), 2, "0", side = "left"),
+    rmarkdown::yaml_front_matter(knitr::current_input())$slug
+    )
+english <- function(x) {
+  as.character(english::english(x))
+}
+
+nice_string <- function(...) {
+  glue::glue_collapse(..., sep = ", ", last = ", and ")
+}
+```
+<!-- Before sending DELETE THE INDEX_CACHE and re-knit! -->
+
+Dear rOpenSci friends, it's time for our monthly news roundup!
+<!-- blabla -->
+You can read this post [on our blog](`r url`).
+Now let's dive into the activity at and around rOpenSci!
+
+## rOpenSci HQ
+
+### WIP: WebAssembly support in R-universe!
+
+Thanks to some help from George Stagg, we added experimental support for building WebAssembly binary packages. This makes it possible to install packages in [webr](https://docs.r-wasm.org/webr/latest/), directly from the R-universe.
+
+For instance: 
+
+```{r, eval=FALSE, echo=TRUE}
+webr::install(
+  'jsonlite', 
+  repos = c(
+    'https://jeroen.r-universe.dev',
+    'https://repo.r-wasm.org'
+  )
+)
+```
+
+This only works if the package and all of its dependencies support webassembly.
+For CRAN packages you can look at https://repo.r-wasm.org/; for other packages... you'll have to give it a try!
+
+### First rOpenSci Champion's package to go through peer-review, in Spanish!
+
+[Carolina Pradier](/blog/2023/05/05/ropensci-champions-program-teams-meet-carolina-pradier-and-athanasia-monika-mowinckel/#carolina-pradier---champion)'s package [eph](https://docs.ropensci.org/eph/) was approved after a [review process in Spanish](https://github.com/ropensci/software-review/issues/593)!
+Congratulations to Carolina, and thanks to editor [Mauro Lepore](/author/mauro-lepore/), reviewers [Guadalupe Gonzalez](https://github.com/guadag12) and [Denisse Fierro Arcos](https://github.com/lidefi87), and mentor [Athanasia Monika Mowinckel](/blog/2023/05/05/ropensci-champions-program-teams-meet-carolina-pradier-and-athanasia-monika-mowinckel/#athanasia-monika-mowinckel---mentor). eph is a package which helps process data from the Argentina household survey.
+
+### 123 Applications to our Champions Program 2023-2024
+
+We are excited we received 123 applications from 41 countries on 5 continents!  
+We are very grateful to everyone who submitted their proposals to our program.
+The review process is starting. 
+Stay tuned for updates!
+
+### Coworking
+
+Read [all about coworking](/blog/2023/06/21/coworking/) in our recent [post](/blog/2023/06/21/coworking/)!
+
+Join us for social coworking & office hours monthly on first Tuesdays! 
+Hosted by Steffi LaZerte and various community hosts. 
+Everyone welcome. 
+No RSVP needed. 
+Consult our [Events](/events) page to find your local time and how to join.
+
+- [Tuesday, October 3rd, 14h00 Europe Central (12:00 UTC)](/events/coworking-2023-10/), Learn about cli and how to make nice command-line interfaces in R! With community host [Athanasia Monika Mowinckel](/author/athanasia-mo-mowinckel/) and [Steffi LaZerte](/author/steffi-lazerte/).
+    - Read up on making nice command line interfaces with [cli](https://cli.r-lib.org/);
+    - Update some scripts or packages to include cleaner and effective interfaces;
+    - Chat with Mo about using cli
+- [Tuesday, Nov 7th, 9:00 America Pacific (17:00 UTC)](/events/coworking-2023-11/), Fixing scary bugs 😱🐛 With community host [Salix Dubois](/author/salix-dubois/) and [Steffi LaZerte](/author/steffi-lazerte/).
+    - Identify/fix some scary bugs;
+    - Chat with Salix about scary bugs!
+
+And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
+
+
+
+
+### R Consortium Call for Proposals until October 1!
+
+Do you have a project idea that is likely to have a broad impact on the R community and has a focused scope?
+Don't miss the [twice-yearly R Consortium Call for Proposals](https://www.r-consortium.org/all-projects/call-for-proposals)!
+Past funded projects include rOpenSci projects like the [HTTP testing in R book](https://www.r-consortium.org/all-projects/awarded-projects/2020-group-1#http+testing+in+r+book), and work on the <a href="https://www.r-consortium.org/all-projects/awarded-projects/2022-group-2#Tooling%20and%20Guidance%20for%20Translations%20of%20Markdown-Based%20R%20Content%20(Quarto,%20R%20Markdown">babeldown package</a>.
+
+
+
+
+### Reminder: Our first community call in Spanish (and English too)
+
+As global movements, Open Source and Open Science face language-based exclusion as most resources are in English. This affects scientists and research software engineers working in R, particularly those who don’t have English as their first language.
+
+rOpenSci multilingual efforts aim to lower access barriers, democratize quality resources, and increase the possibilities of contributing to open software and science. We successfully piloted our Spanish-language peer review and the localization to Spanish of our comprehensive guide to software development, with Portuguese translation underway.
+
+[Maëlle Salmon](/author/ma%C3%ABlle-salmon/), [Paola Corrales](/author/paola-corrales/), and [Elio Campitelli](/author/elio-campitelli/),  will share the rOpenSci Multilingual project details on this call. Maëlle will present the R packages that allow us to have our content in several languages. Then Elio and Paola will share the translation workflow and show the Translation Guide written to document the process.
+
+- [**Multilingual Publishing**:  Tuesday, 21 November 2023 12:00 UTC](/commcalls/nov2023-multilingual/).
+
+- [**Proyecto Multilingüe**: Thursday, 23 November 2023 12:00 UTC](/commcalls/nov2023-multilenguaje/).
+
+
+## Software :package:
+
+### New packages
+
+```{r new-packages, cache = TRUE}
+cran_unquote <- function(string) {
+  gsub("\\'(.*?)\\'", "\\1", string)
+}
+tidy_package <- function(entry) {
+  tibble::tibble(
+    package = entry$name,
+    description = cran_unquote(entry$description),
+    details = cran_unquote(entry$details),
+    on_cran = entry$on_cran,
+    on_bioc = entry$on_bioc,
+    onboarding = entry$onboarding,
+    url = entry$url,
+    maintainer = entry$maintainer # use desc for more info
+    
+  )
+}
+
+registry <- "https://raw.githubusercontent.com/ropensci/roregistry/gh-pages/registry.json" %>%
+  jsonlite::read_json() %>%
+  purrr::pluck("packages") %>%
+  purrr::map_df(tidy_package)
+  
+since <- lubridate::as_date(last_newsletter) - 1
+until <- lubridate::as_date(last_newsletter) + 1
+commits <- gh::gh(
+  "GET /repos/{owner}/{repo}/commits",
+  owner = "ropensci",
+  repo = "roregistry",
+  since = sprintf(
+    "%s-%s-%sT00:00:00Z",
+    lubridate::year(since),
+    stringr::str_pad(lubridate::month(since), 2, "0", side = "left"),
+    stringr::str_pad(lubridate::day(since), 2, "0", side = "left")
+  ),
+  until = sprintf(
+    "%s-%s-%sT00:00:00Z",
+    lubridate::year(until),
+    stringr::str_pad(lubridate::month(until), 2, "0", side = "left"),
+    stringr::str_pad(lubridate::day(until), 2, "0", side = "left")
+  )
+)
+
+empty <- TRUE
+i <- length(commits)
+while (empty == TRUE) {
+  old <- "https://raw.githubusercontent.com/ropensci/roregistry/%s/packages.json" %>%
+    sprintf(commits[[i]]$sha) %>%
+    jsonlite::read_json() %>%
+    purrr::map_df(function(x) tibble::tibble(package = x$package, url = x$url, branch = x$branch))
+  i <- i - 1
+  if (nrow(old) > 100) {
+    empty <- FALSE
+  }
+}
+
+old <- dplyr::filter(
+  old,
+  !grepl("ropenscilabs\\/", url),
+  !grepl("ropensci-archive\\/", url)
+)
+
+new <- dplyr::filter(
+  registry,
+  !package %in% old$package,
+  !grepl("ropenscilabs\\/", url),
+  !grepl("ropensci-archive\\/", url)
+)
+```
+
+
+The following two packages recently became a part of our software suite:
+
+```{r, results='asis', cache = TRUE}
+packages <- split(new, seq(nrow(new)))
+present_one <- function(package) {
+  if (package$package == "natserv") return(NULL)
+  url_parts <- urltools::url_parse(package$url)
+  desc_link <- gh::gh(
+    "/repos/{owner}/{repo}/contents/{path}",
+    owner = strsplit(url_parts$path, "\\/")[[1]][1],
+    repo = strsplit(url_parts$path, "\\/")[[1]][2],
+    path = "DESCRIPTION"
+  ) %>%
+    purrr::pluck("download_url")
+  withr::with_tempfile(
+    "tf", {
+      download.file(desc_link, tf) 
+      desc <<- desc::desc(file = tf)
+    }
+  )
+  # as in pkgdown
+  authors <- unclass(desc$get_authors())
+  aut <- purrr::keep(authors, function(x) {any( x$role %in% "aut") && all(x$role != "cre") })
+  aut <- purrr::map_chr(aut, function(x) paste(x$given, x$family))
+  rev <- purrr::keep(authors, function(x) {any( x$role %in% "rev") && all(x$role != "cre") })
+  rev <- purrr::map_chr(rev, function(x) paste(x$given, x$family))
+  maintainer <- purrr::keep(authors, function(x) {any( x$role %in% "cre") })
+  maintainer <- paste(c(maintainer[[1]]$given, maintainer[[1]]$family), collapse = " ")
+  
+  author_string <- sprintf("developed by %s", maintainer)
+  
+  if (length(aut) > 0) {
+    author_string <- paste0(author_string, sprintf(" together with %s", nice_string(aut)))
+  } 
+  
+  string <- sprintf(
+    "[%s](https://docs.ropensci.org/%s), %s: %s. ",
+    package$package, 
+    package$package, 
+    author_string,
+    stringr::str_remove(stringr::str_squish(package$details), "\\.$")
+  )
+  
+  if (package$on_cran) {
+    string <- paste0(
+      string, 
+      sprintf(
+        " It is available on [CRAN]( https://CRAN.R-project.org/package=%s). ",
+        package$package
+      )
+    )
+  }
+  if (package$on_bioc) {
+    string <- paste0(
+      string, sprintf(
+        " It is available on [Bioconductor](https://bioconductor.org/packages/%s/). ",
+        package$package
+      )
+    )
+  }
+  if (nzchar(package$onboarding)) {
+    string <- paste0(string, sprintf("It has been [reviewed](%s)", package$onboarding))
+    if (length(rev) > 0) {
+      string <- paste0(string, sprintf(" by %s.", nice_string(rev)))
+    } else {
+      string <- paste0(string, ".")
+    }
+  }
+  
+  paste("+", string)
+
+}
+text <- purrr::map(
+  packages,
+  present_one
+) %>%
+  purrr::compact() %>%
+  unlist()
+cat(paste0(text, collapse = "\n\n"))
+```
+
+Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
+
+
+### New versions
+
+```{r news, cache=TRUE}
+registry <- dplyr::filter(
+  registry,
+  !grepl("ropenscilabs\\/", url),
+  !grepl("ropensci-archive\\/", url)
+)
+
+registry <- registry %>%
+  dplyr::rowwise() %>%
+  dplyr::mutate(
+  owner = strsplit(urltools::path(url), "/")[[1]][1],
+  repo = strsplit(urltools::path(url), "/")[[1]][2]
+) %>%
+  dplyr::filter(
+    !is.na(owner)
+  )
+packages <- split(registry, seq(nrow(registry)))
+get_release <- function(repo) {
+  info <- gh::gh(
+    "GET /repos/{owner}/{repo}/releases",
+    owner = repo$owner,
+    repo = repo$repo,
+    per_page = 3
+  )
+  info <- info[!purrr::map_lgl(info, "draft")]
+  if(length(info) == 0 || anytime::anytime(info[[1]]$published_at) < last_newsletter) {
+    return(NULL)
+  }
+  
+  tibble::tibble(
+    package = repo$package,
+    version = info[[1]]$tag_name,
+    url = info[[1]]$html_url,
+    description = repo$description
+  )
+}
+packages[purrr::map_chr(packages, "package") == "gert"][[1]]$owner <- "r-lib"
+packages[purrr::map_chr(packages, "package") == "gert"][[1]]$repo <- "gert"
+packages[purrr::map_chr(packages, "package") == "credentials"][[1]]$owner <- "r-lib"
+packages[purrr::map_chr(packages, "package") == "credentials"][[1]]$repo <- "credentials"
+packages[purrr::map_chr(packages, "package") == "commonmark"][[1]]$owner <- "r-lib"
+packages[purrr::map_chr(packages, "package") == "commonmark"][[1]]$repo <- "commonmark"
+releases <- purrr::map_df(
+  packages,
+  get_release
+)
+releases <- split(releases, seq(nrow(releases)))
+format_release <- function(release) {
+  sprintf(
+    '[%s](https://docs.ropensci.org/%s "%s") ([`%s`](%s))',
+    release$package,
+    release$package,
+    release$description,
+    release$version,
+    release$url
+  )
+}
+all_releases <- purrr::map_chr(releases, format_release)
+text <- nice_string(all_releases)
+```
+
+The following `r if (length(releases) > 1) english(length(releases))` package`r if (length(releases) > 1) "s"` `r if (length(releases) > 1) "have" else "has"` had an update since the last newsletter: `r text`.
+
+## Software Peer Review
+
+```{r software-review, results='asis'}
+# from pkgdown https://github.com/r-lib/pkgdown/blob/1ca166905f1b019ed4af9642617ea09fa2b8fc17/R/utils.r#L176
+
+get_description <- function(body) {
+  lines <- strsplit(body, "\n")[[1]]
+  name <- stringr::str_squish(sub("Package:", "", lines[grepl("^Package", lines)][1]))
+  description <- stringr::str_squish(sub("Title:", "", lines[grepl("^Title", lines)][1]))
+  description <- cran_unquote(sub("\\.$", "", description))
+  list(name = name, description = description)
+}
+
+get_user_text <- function(issue) {
+  info <- gh::gh("GET /users/{username}", username = issue$user$login)
+  name <- info$name %||% issue$user$login
+  url <- if (nzchar(info$blog)) info$blog else info$html_url
+  if (!grepl("^https?:", url)) url <- paste0("http://", url)
+  sprintf("[%s](%s)", name, url)
+  
+}
+
+tidy_issue <- function(issue) {
+  labels <- purrr::map_chr(issue$labels, "name")
+  label <- labels[grepl("[0-9]\\/.*", labels)][1]
+  df <- tibble::tibble(
+    label = label,
+    name = get_description(issue$body)$name,
+    description = get_description(issue$body)$description,
+    title = issue$title,
+    holding = "holding" %in% purrr::map_chr(issue$labels, "name"),
+    others = toString(purrr::map_chr(issue$labels, "name")),
+    closed_at = issue$closed_at %||% NA,
+    url = issue$html_url,
+    user = get_user_text(issue),
+    stats = dplyr::if_else("stats" %in% purrr::map_chr(issue$labels, "name"), " (Stats).", "")
+  )
+  
+  dplyr::rowwise(df) %>%
+    dplyr::mutate(text = sprintf("    * [%s](%s), %s. Submitted by %s. %s", name, url, description, user, stats))
+}
+
+get_issues <- function(label, state) {
+  issues <- gh::gh(
+    "GET /repos/{owner}/{repo}/issues",
+    owner = "ropensci",
+    repo = "software-review",
+    state = state, 
+    labels = label
+  )
+  
+  purrr::map_df(issues, tidy_issue)
+}
+  
+active_issues <- purrr::map_df(
+  c("1/editor-checks","2/seeking-reviewer(s)","3/reviewer(s)-assigned","4/review(s)-in-awaiting-changes","5/awaiting-reviewer(s)-response","6/approved"),
+  get_issues,
+  state = "open"
+)
+
+closed_issues <- get_issues(state = "closed", label  ="6/approved")
+
+ok_date <- function(date) {
+  if (is.na(date)) {
+    return(TRUE)
+  } 
+  
+  anytime::anytime(date) >= last_newsletter
+}
+
+closed_issues <- dplyr::rowwise(closed_issues) %>%
+  dplyr::filter(ok_date(closed_at))
+
+issues <- dplyr::bind_rows(active_issues, closed_issues)
+
+
+no_holding <- sum(issues$holding)
+issues <- dplyr::filter(issues, !holding)
+text <- sprintf("There are %s recently closed and active submissions", english(nrow(issues)))
+if (no_holding > 0) {
+  text <- paste0(
+    text,
+    sprintf(
+      " and %s submission%s on hold.",
+      no_holding,
+      if (no_holding > 1) "s" else ""
+    )
+  )
+} else {
+  text <- paste0(text, ".")
+}
+
+count_label <- function(label) {
+  no <- snakecase::to_sentence_case(english(sum(issues$label == label, na.rm = TRUE)))
+  url <- paste0("https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A", label)
+  sprintf("* %s at ['%s'](%s):\n\n %s", no, label, url, paste0(issues$text[!is.na(issues$label)][ issues$label == label], collapse = "\n\n"))
+}
+
+cat(text)
+cat(
+  paste0(
+    " Issues are at different stages: \n\n",
+    paste0(
+      purrr::map_chr(sort(unique(issues$label[!is.na(issues$label)]), decreasing = TRUE), count_label),
+      collapse = "\n\n"
+    )
+  )
+)
+```
+
+Find out more about [Software Peer Review](/software-review) and how to get involved.
+
+## On the blog
+
+<!-- Do not forget to rebase your branch! -->
+
+```{r blog}
+
+parse_one_post <- function(path){
+  lines <- suppressWarnings(readLines(path, encoding = "UTF-8"))
+  yaml <- blogdown:::split_yaml_body(lines)$yaml
+  yaml <- glue::glue_collapse(yaml, sep = "\n")
+  yaml <- yaml::yaml.load(yaml)
+  
+  language <- function(path) {
+    name <- fs::path_ext_remove(fs::path_file(path))
+    if (grepl("\\.[a-z][a-z]", name)) {
+      sub(".*\\.", "", name)
+    } else {
+      "en"
+    }
+  }
+
+  
+  meta <- tibble::tibble(
+    date = anytime::anydate(yaml$date),
+    author = nice_string(yaml$author),
+    title = yaml$title,
+    software_peer_review = "Software Peer Review" %in% yaml$tags,
+    tech_note = "tech notes" %in% yaml$tags && !"Software Peer Review" %in% yaml$tags,
+    other = !"tech notes" %in% yaml$tags && !"Software Peer Review" %in% yaml$tags,
+    socialImg = yaml$socialImg %||% "",
+    socialAlt = yaml$socialAlt %||% "",
+    description = stringr::str_squish(yaml$description %||% ""),
+    newsletter = "newsletter" %in% yaml$tags,
+    slug = yaml$slug,
+    dir = fs::path_dir(path),
+    language = language(path)
+    )
+
+  post_url <- if (meta[["language"]] == "en") {
+    sprintf(
+      "/blog/%s/%s/%s/%s",
+      lubridate::year(meta$date),
+      stringr::str_pad(lubridate::month(meta$date), 2, "0", side = "left"),
+      stringr::str_pad(lubridate::day(meta$date), 2, "0", side = "left"),
+      meta$slug
+    )
+  } else {
+    sprintf(
+      "/%s/blog/%s/%s/%s/%s",
+      meta[["language"]],
+      lubridate::year(meta$date),
+      stringr::str_pad(lubridate::month(meta$date), 2, "0", side = "left"),
+      stringr::str_pad(lubridate::day(meta$date), 2, "0", side = "left"),
+      meta$slug
+    )
+  }
+
+  meta$url <- post_url
+  meta
+}
+paths <- fs::dir_ls("..", recurse = TRUE, glob = "*.md")
+paths <- paths[!paths %in% c("../_index.md", "../2021-02-03-targets/raw_data_source.md",
+  "../2021-02-03-targets/README.md")]
+posts <- purrr::map_df(paths, parse_one_post)
+posts <- dplyr::filter(posts, date >= as.Date(last_newsletter), !newsletter)
+posts <- split(posts, posts[["dir"]])
+format_post <- function(dir) {
+  main_language <- if (any(dir[["language"]] == "en")) {
+    "en"
+  } else {
+    dir[["language"]][[1]]
+  }
+  
+  post <- dir[which(dir[["language"]] == main_language),]
+  string <- sprintf("* [%s](%s) by %s", post$title, post$url, post$author)
+  if (post$description != "") {
+    string <- paste0(string, ". ", sub("\\?$", "", sub("\\!$", "", sub("\\.$", "", post$description), ".")), ".")
+  } else {
+    string <- paste0(string, ".")  
+  }
+  
+  if (post$socialImg != "") {
+    img_file <- fs::path_file(post$socialImg)
+    download.file(sprintf("https://ropensci.org/%s", post$socialImg), img_file)
+    img_file %>% magick::image_read() %>% magick::image_scale("400x") %>% magick::image_write(img_file)
+    string <- paste0(
+      string,
+      sprintf('{{< figure src="%s" alt="%s" width="400" >}}\n\n', img_file, post$socialAlt)
+    )
+  }
+  
+other_langs <- dir[which(dir[["language"]] != main_language),]
+  other_langs <- split(other_langs, sort(as.numeric(rownames(other_langs))))
+  if (length(other_langs) > 0) {
+    other_langs_text <- purrr::map_chr(
+      other_langs,
+      ~ sprintf("<a href='%s' lang='%s'>%s (%s)</a>", .x[["url"]], .x[["language"]], .x[["title"]], .x[["language"]])
+      ) %>% 
+      toString
+    other_langs_text <- sprintf("Other languages: %s.", other_langs_text)
+    string <- sprintf("%s %s", string, other_langs_text)
+  }
+  
+  string
+}
+```
+
+```{r, results='asis'}
+software_review <- posts[purrr::map_lgl(posts, ~any(.x[["software_peer_review"]]))]
+if (length(software_review) > 0) {
+  cat("### Software Review\n\n")
+  cat(
+    paste0(
+      purrr::map_chr(software_review, format_post),
+      collapse = "\n\n"
+    )
+  )
+  cat("\n\n")
+}
+
+others <- posts[purrr::map_lgl(posts, ~any(.x[["other"]]))]
+if (length(others) > 0) {
+  cat(
+    paste0(
+      purrr::map_chr(others, format_post),
+      collapse = "\n\n"
+    )
+  )
+  cat("\n\n")
+}
+
+
+tech_notes <- posts[purrr::map_lgl(posts, ~any(.x[["tech_note"]]))]
+if (length(tech_notes) > 0) {
+  cat("\n\n")
+  cat("### Tech Notes\n\n")
+  cat(
+    paste0(
+      purrr::map_chr(tech_notes, format_post),
+      collapse = "\n\n"
+    )
+  )
+  cat("\n\n")
+}
+```
+
+## Call for maintainers
+
+If you're interested in maintaining any of the R packages below, you might enjoy reading our blog post [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/) (or listening to its discussion on the [R Weekly highlights podcast](https://rweekly.fireside.fm/111) hosted by Eric Nantz and Mike Thomas)!
+
+- **[rvertnet](https://cran.r-project.org/web/packages/rvertnet/index.html)**, Retrieve, map and summarize data from the VertNet.org archives (<https://vertnet.org/>). Functions allow searching by many parameters, including taxonomic names, places, and dates. In addition, there is an interface for conducting spatially delimited searches, and another for requesting large datasets via email. [Issue for volunteering](https://github.com/ropensci-archive/rvertnet/issues/71).
+
+### Call for comaintainers
+
+Refer to our somewhat [recent blog post](/blog/2022/10/17/maintain-or-co-maintain-an-ropensci-package/#packages-looking-for-co-maintainers) to identify other packages where help is especially wished for!
+See also our [help wanted page](/help-wanted/) -- before opening a PR, we recommend asking in the issue whether help is still needed.
+
+## Package development corner
+
+Some useful tips for R package developers. :eyes:
+
+### Help needed issues
+
+Don't miss our blog post [Attract Contributors with ‘help wanted’ Issues](/blog/2023/09/19/help-wanted/)! :smile_cat:
+
+### Check your contributing guide...
+
+... with this [evaluation tool](https://contributing.streamlit.app/).
+
+### Regularly check your pkgdown configuration file
+
+Using a pkgdown configuration file to [group and order functions](https://pkgdown.r-lib.org/reference/build_reference.html#reference-index) on your package's reference page is great for users, but also mean you need to maintain the file as pkgdown will error if a help topic is missing from the configuration.
+
+If your package documentation is built by rOpenSci, it might be easier to miss a failure.
+
+You can:
+
+- Remember to update the configuration when you add a new function;
+- Run [`pkgdown::check_pkgdown()`](https://pkgdown.r-lib.org/reference/check_pkgdown.html) in a [Git pre-commit hook](https://github.com/ropensci/BaseSet/issues/66#issuecomment-1706561644);
+- Run [`pkgdown::check_pkgdown()`](https://pkgdown.r-lib.org/reference/check_pkgdown.html) in a [GitHub Actions workflow](https://github.com/ropensci/webchem/blob/master/.github/workflows/check-pkgdown.yml).
+
+### Submit your package to the R Journal with rjtools
+
+As a reminder, the [rjtools package](https://rjournal.github.io/rjtools/#) will help you prepare a submission of a paper to the [R Journal](https://journal.r-project.org/).
+This could be a good way to spread the word about a CRAN package of yours!
+
+## Last words
+
+Thanks for reading! If you want to get involved with rOpenSci, check out our [Contributing Guide](https://contributing.ropensci.org) that can help direct you to the right place, whether you want to make code contributions, non-code contributions, or contribute in other ways like sharing use cases.
+
+If you haven't subscribed to our newsletter yet, you can [do so via a form](/news/). Until it's time for our next newsletter, you can keep in touch with us via our [website](/) and [Mastodon account](https://hachyderm.io/@rOpenSci).
