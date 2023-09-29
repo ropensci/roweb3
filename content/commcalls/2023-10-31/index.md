@@ -26,16 +26,16 @@ resources:
 speakers:  
   - name: Luíza Andrade
     bio: ""
-    img: /img/team/paola-corrales.png
+    img: luisa-andrade.png
   - name: Karly Harker
     bio: ""
-    img: /img/team/elio-campitelli.jpg
+    img: karly-harker.jpg
   - name: Ahmadou Dicko
     bio: ""
-    img: /img/team/maelle_salmon.jpg
+    img: ahmadou-dicko.jpg
   - name: Pablo Tiscornia
     bio: ""
-    img: /img/team/maelle_salmon.jpg
+    img: pablo-tiscornia.jpg
 tags:
   - community call
   - events
