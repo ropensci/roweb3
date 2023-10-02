@@ -25,17 +25,17 @@ resources:
 
 speakers:  
   - name: Luíza Andrade
-    bio: ""
-    img: luisa-andrade.png
+    bio: "Luiza Andrade is the Data Analytics Lead at the University of Chicago's Development Innovation Lab. Her work focuses on incorporating non-traditional data sources into development research, promoting transparency and reproducibility in social sciences, and developing software tools to simplify research data work. Prior to joining DIL, she was a Junior Data Scientist at the World Bank’s Development Impact Evaluation department. Luiza is a Brazilian national and holds a BA and an MSc in economics from the University of Sao Paulo."
+    img: img/community/luiza-andrade.jpg
   - name: Karly Harker
     bio: ""
     img: karly-harker.jpg
   - name: Ahmadou Dicko
-    bio: "I am a statistician and R enthusiast. I believe in the use of data science for social good and have worked with several non-profit and research organizations."
-    img: ahmadou-dicko.jpg
+    bio: "Ahmadou Dicko is a humanitarian data scientist, currently serving as a Statistics and Data Analysis officer at UNHCR regional bureau for West and Central Africa. He is a fervent advocate for reproducibility in the humanitarian sector and has built several R packages and tools to streamline data processes. With M.Sc. in Statistics and a Ph.D. in Climate Change Economics, Ahmadou combines his profound knowledge of economics and data science to drive transformative change in the humanitarian sector. He is the founder and co-organizer of the Dakar R User Group and a recognized leader in promoting data literacy and community building around humanitarian data science."
+    img: img/community/ahmadou-dicko.jpg
   - name: Pablo Tiscornia
     bio: ""
-    img: pablo-tiscornia.jpg
+    img: img/community/pablo-tiscornia.jpeg
 tags:
   - community call
   - events
