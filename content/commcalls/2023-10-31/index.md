@@ -25,7 +25,7 @@ resources:
 
 speakers:  
   - name: Luíza Andrade
-    bio: ""
+    bio: "Luiza Andrade is the Data Analytics Lead at the University of Chicago's Development Innovation Lab. Her work focuses on incorporating non-traditional data sources into development research, promoting transparency and reproducibility in social sciences, and developing software tools to simplify research data work. Prior to joining DIL, she was a Junior Data Scientist at the World Bank’s Development Impact Evaluation department. Luiza is a Brazilian national and holds a BA and an MSc in economics from the University of Sao Paulo."
     img: luisa-andrade.png
   - name: Karly Harker
     bio: ""
