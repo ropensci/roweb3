@@ -31,7 +31,7 @@ speakers:
     bio: ""
     img: karly-harker.jpg
   - name: Ahmadou Dicko
-    bio: ""
+    bio: "I am a statistician and R enthusiast. I believe in the use of data science for social good and have worked with several non-profit and research organizations."
     img: ahmadou-dicko.jpg
   - name: Pablo Tiscornia
     bio: ""
