@@ -42,9 +42,9 @@ tags:
   - events
   - goverment
 deets: |
-    Meeting ID:  
-    Passcode: 
-zoomurl: 
+    Meeting ID:  831 0029 0068 
+    Passcode: 042189
+zoomurl: https://numfocus-org.zoom.us/j/83100290068?pwd=c4bloSdA1zNaQ7IzJD83BHD3I54zab.1
 ---
 
 
