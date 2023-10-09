@@ -47,6 +47,6 @@ deets: |
 zoomurl: https://numfocus-org.zoom.us/j/83100290068?pwd=c4bloSdA1zNaQ7IzJD83BHD3I54zab.1
 ---
 
-
+In this community call, our panelist will share their experiences and examples of projects with R at different levels of government and in different countries.  We invite you to learn about the challenges and lessons learned from our panelists and attendees in their efforts to make their government data, processes, and analysis more open and reproducible.    
 
 See below for speaker bios and resources.
