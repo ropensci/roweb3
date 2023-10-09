@@ -34,7 +34,8 @@ speakers:
     bio: "Ahmadou Dicko is a humanitarian data scientist, currently serving as a Statistics and Data Analysis officer at UNHCR regional bureau for West and Central Africa. He is a fervent advocate for reproducibility in the humanitarian sector and has built several R packages and tools to streamline data processes. With M.Sc. in Statistics and a Ph.D. in Climate Change Economics, Ahmadou combines his profound knowledge of economics and data science to drive transformative change in the humanitarian sector. He is the founder and co-organizer of the Dakar R User Group and a recognized leader in promoting data literacy and community building around humanitarian data science."
     img: /img/community/ahmadou-dicko.jpg
   - name: Pablo Tiscornia
-    bio: ""
+    bio: "Pablo is a graduate in Sociology from the University of Buenos Aires, Argentina. Currently, he works at C40 Cities as a Data Scientist, with a focus on improving data workflows related to Climate Change. He also serves as an instructor for Data Processing with R for Social Sciences at several National Universities in Argentina.
+He has made significant contributions to the development of R as a co-author of various packages used by Argentina's leading official statistical offices (INDEC, MINTURyDEP, and DGEyC). He has also been a co-organizer of the R community in Buenos Aires."
     img: /img/community/pablo-tiscornia.jpeg
 tags:
   - community call
