@@ -1,5 +1,5 @@
 ---
-title: "R in Goverment"
+title: "R in Government"
 dateStart: 2023-10-31T16:00:00 # UTC!!
 dateEnd: 2023-10-31T17:00:00 # UTC!!
 date: 2023-10-31T17:00:00 # UTC!! same as dateEnd
