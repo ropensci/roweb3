@@ -14,7 +14,7 @@ organizer: Yanina Bellini Saibene
 location: Community call (teleconference)
 country: "\U0001F310"
 attendees: All are welcome
-slug: oct2023-goverment
+slug: oct2023-government
 notes: 
 outputs:
 - HTML
