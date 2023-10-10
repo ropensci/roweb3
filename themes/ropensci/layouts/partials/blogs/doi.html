@@ -1,0 +1,18 @@
+{{ $roguescholar := getJSON "https://rogue-scholar.org/api/blogs/e22ws68" }}
+{{ $url := (printf "https://ropensci.org%s" .RelPermalink | replaceRE "/$" "" ) }}
+{{ $doi := "" }}
+{{ with $roguescholar }}
+{{ $ok := "no" }}
+  {{ range $roguescholar.items }}
+    {{ if in $url .url }}
+      $doi = .doi 
+      {{ $ok = "yes" }}
+    {{ end }}
+  {{ end }}
+  {{ if eq $ok "no" }}
+  $doi = ''
+  {{ end }}
+{{ else }}
+$doi = ''
+{{ end }}
+{{ return $doi }}
