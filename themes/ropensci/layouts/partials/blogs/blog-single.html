@@ -79,7 +79,7 @@ For more information, visit the <a href="/r-universe/">r-universe project page</
       </div>
       <div class="cite field-under mt-4">
         <span>{{ i18n "Cite" }}</span><br/>
-        {{ $doi := (partial "blogs/doi" . ) }}
+        {{ $doi := (partial "blogs/doi" ( dict "RelPermalink" .RelPermalink )) }}
         {{ if ne $doi "" }}
         <a href="{{ $doi }}" class="cite link mt-2">{{ $doi | replaceRE "https://" "" }}</a>
         {{ else }}
