@@ -8,15 +8,26 @@ location: 'online' # free text
 slug: "RLadies-Mexico-2023"
 country: "\U0001F310" # emoji
 ropensci: no
+outputs: 
+- HTML
+- Calendar 
+tags: 
+- community
+author:
+  - Yanina Bellini Saibene
 attendees:
   - Yanina Bellini Saibene
 resources: # can be added later, one entry per talk (don't add while still empty, add once there are resources)
-
+  - title: "rOpenSci. Ciencia Abierta Reproducible por y para todes"
+    speaker: Yanina Bellini Saibene
+    slides: https://docs.google.com/presentation/d/1fXtbMDMR-EGMszJvIp1uoJ4LxZ5hhuKNBQwYjVKbcoQ/edit
+    language: es
 ---
 
-Los 14 capítulos de R-Ladies en México se juntan para celebrar su encuentro anual.  Nuestra community manager Yani estará dando una charla sobre rOpenSci y como participar en nuestra comunidad durante este evento on-line.
+Los 14 capítulos de R-Ladies en México se juntan para celebrar su encuentro anual.  
+Nuestra community manager Yani dioó una charla sobre rOpenSci y como participar en nuestra comunidad durante este evento on-line.
 
-Puedes registrarte en cualquiera de los capítulos en meetup.com
+
 
 
 
