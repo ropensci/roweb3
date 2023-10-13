@@ -82,10 +82,12 @@
   {{ end }}
   {{ end }}
 {{ if (in .Section "blog") }}
-{{ if eq .Kind "term" }}
+{{ if .IsPage }}
 <meta name="citation_title" content="{{ .Title }}">
 <meta name="citation_date" content="{{ .PublishDate }}">
 <meta name="citation_language" content= "{{ .Language.Lang }}">
+
+<meta name="citation_doi" content= "{{ (partial "blogs/doi" ( dict "RelPermalink" .RelPermalink )) }}">
 {{ end }}
 {{ end }}
 {{ if .Params.math }}
