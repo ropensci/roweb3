@@ -42,7 +42,13 @@ Now let's dive into the activity at and around rOpenSci!
 
 ### Help us translate our dev guide to Portuguese
 
-TODO YANI
+Since last year we started the translation and localization of our Spanish version of our [comprehensive guide to software development](https://devguide.ropensci.org/). We have a [first version in Spanish](https://devdevguide.netlify.app/es/preface.es.html) and now, thanks to the R Community initiative, we are working on the Portuguese version.
+
+Our process includes the review of automatic translations by two people, and we need your help! 
+
+If you are interested in collaborating with this community effort, please check the "TODO - Second Review" tab of [this project on GitHub](https://github.com/orgs/ropensci/projects/7) and let us know you want to collaborate by leaving a comment in the corresponding Pull Request.
+
+All contributors will be added to the rOpenSci Slack, [listed on our multilingual publishing project webpage](/multilingual-publishing/) and acknowledged as authors of the Portuguese translation.
 
 ### Coworking
 
@@ -61,7 +67,17 @@ Consult our [Events](/events) page to find your local time and how to join.
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
 
-### Reminder: Our first community call in Spanish (and English too)
+### Reminder: Three upcoming community call, and our first one in Spanish!
+### [R in Government](/commcalls/oct2023-government/)
+
+In this community call, our panelists will share their experiences and examples of projects with R at different levels of government and in different countries.
+We invite you to learn about the challenges and lessons learned from our panelists and attendees in their efforts to make their government data, processes, and analyses more open and reproducible. 
+
+With [Luíza Andrade](https://ropensci.org/author/lu%C3%ADza-andrade/), [Karly Harker](https://ropensci.org/author/karly-harker/), [Ahmadou Dicko](https://ropensci.org/author/ahmadou-dicko/), [Pablo Tiscornia](https://ropensci.org/author/pablo-tiscornia/). 
+
+**Tuesday, 31 October 2023 16:00 UTC** 
+
+## Multilingual Publishing
 
 As global movements, Open Source and Open Science face language-based exclusion as most resources are in English. This affects scientists and research software engineers working in R, particularly those who don’t have English as their first language.
 
