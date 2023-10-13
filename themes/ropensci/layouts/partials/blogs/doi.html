@@ -1,4 +1,4 @@
-{{ $roguescholar := getJSON "https://rogue-scholar.org/api/blogs/e22ws68" }}
+{{ $roguescholar := getJSON "https://api.rogue-scholar.org/blogs/ropensci" }}
 {{ $url := (printf "https://ropensci.org%s" .RelPermalink | replaceRE "/$" "" ) }}
 {{ $doi := "" }}
 {{ with $roguescholar }}
