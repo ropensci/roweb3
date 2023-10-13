@@ -5,7 +5,7 @@ date: '2023-10-20'
 tags:
   - newsletter
 slug: news-october-2023
-description: Champions program updates, coworking, new packages and package news
+description: Dev guide translation to Portuguese, community call in Spanish, coworking, new packages and package news
 params:
   last_newsletter: "2023-09-22"
 ---
@@ -23,7 +23,13 @@ Now let's dive into the activity at and around rOpenSci!
 
 ### Help us translate our dev guide to Portuguese
 
-TODO YANI
+Since last year we started the translation and localization of our Spanish version of our [comprehensive guide to software development](https://devguide.ropensci.org/). We have a [first version in Spanish](https://devdevguide.netlify.app/es/preface.es.html) and now, thanks to the R Community initiative, we are working on the Portuguese version.
+
+Our process includes the review of automatic translations by two people, and we need your help! 
+
+If you are interested in collaborating with this community effort, please check the "TODO - Second Review" tab of [this project on GitHub](https://github.com/orgs/ropensci/projects/7) and let us know you want to collaborate by leaving a comment in the corresponding Pull Request.
+
+All contributors will be added to the rOpenSci Slack, [listed on our multilingual publishing project webpage](/multilingual-publishing/) and acknowledged as authors of the Portuguese translation.
 
 ### Coworking
 
@@ -42,7 +48,18 @@ Consult our [Events](/events) page to find your local time and how to join.
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
 
-### Reminder: Our first community call in Spanish (and English too)
+### Reminder: Three upcoming community call, and our first one in Spanish!
+
+#### [R in Government](/commcalls/oct2023-government/)
+
+In this community call, our panelists will share their experiences and examples of projects with R at different levels of government and in different countries.
+We invite you to learn about the challenges and lessons learned from our panelists and attendees in their efforts to make their government data, processes, and analyses more open and reproducible. 
+
+With [Luíza Andrade](https://ropensci.org/author/lu%C3%ADza-andrade/), [Karly Harker](https://ropensci.org/author/karly-harker/), [Ahmadou Dicko](https://ropensci.org/author/ahmadou-dicko/), [Pablo Tiscornia](https://ropensci.org/author/pablo-tiscornia/). 
+
+**Tuesday, 31 October 2023 16:00 UTC** 
+
+#### Multilingual Publishing
 
 As global movements, Open Source and Open Science face language-based exclusion as most resources are in English. This affects scientists and research software engineers working in R, particularly those who don’t have English as their first language.
 
@@ -72,8 +89,8 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following twelve packages have had an update since the last newsletter: [beastier](https://docs.ropensci.org/beastier "Call BEAST2") ([`v2.4.12`](https://github.com/ropensci/beastier/releases/tag/v2.4.12)), [beautier](https://docs.ropensci.org/beautier "BEAUti from R") ([`v2.6.9`](https://github.com/ropensci/beautier/releases/tag/v2.6.9)), [biomartr](https://docs.ropensci.org/biomartr "Genomic Data Retrieval") ([`v1.0.5`](https://github.com/ropensci/biomartr/releases/tag/v1.0.5)), [epubr](https://docs.ropensci.org/epubr "Read EPUB File Metadata and Text") ([`v0.6.4`](https://github.com/ropensci/epubr/releases/tag/v0.6.4)), [FedData](https://docs.ropensci.org/FedData "Functions to Automate Downloading Geospatial Data Available from
-    Several Federated Data Sources") ([`v4.0.0`](https://github.com/ropensci/FedData/releases/tag/v4.0.0)), [hunspell](https://docs.ropensci.org/hunspell "High-Performance Stemmer, Tokenizer, and Spell Checker") ([`v3.0.3`](https://github.com/ropensci/hunspell/releases/tag/v3.0.3)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.9.8`](https://github.com/ropensci/nodbi/releases/tag/v0.9.8)), [rglobi](https://docs.ropensci.org/rglobi "Interface to Global Biotic Interactions") ([`v0.3.4`](https://github.com/ropensci/rglobi/releases/tag/v0.3.4)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.7.9`](https://github.com/ropensci/tarchetypes/releases/tag/0.7.9)), [terrainr](https://docs.ropensci.org/terrainr "Landscape Visualizations in R and Unity") ([`v0.7.5`](https://github.com/ropensci/terrainr/releases/tag/v0.7.5)), [tiler](https://docs.ropensci.org/tiler "Create Geographic and Non-Geographic Map Tiles") ([`v0.3.1`](https://github.com/ropensci/tiler/releases/tag/v0.3.1)), and [tracerer](https://docs.ropensci.org/tracerer "Tracer from R") ([`v2.2.3`](https://github.com/ropensci/tracerer/releases/tag/v2.2.3)).
+The following seventeen packages have had an update since the last newsletter: [gert](https://docs.ropensci.org/gert "Simple Git Client for R") ([`v2.0.0`](https://github.com/r-lib/gert/releases/tag/v2.0.0)), [beastier](https://docs.ropensci.org/beastier "Call BEAST2") ([`v2.4.12`](https://github.com/ropensci/beastier/releases/tag/v2.4.12)), [beautier](https://docs.ropensci.org/beautier "BEAUti from R") ([`v2.6.9`](https://github.com/ropensci/beautier/releases/tag/v2.6.9)), [biomartr](https://docs.ropensci.org/biomartr "Genomic Data Retrieval") ([`v1.0.5`](https://github.com/ropensci/biomartr/releases/tag/v1.0.5)), [EDIutils](https://docs.ropensci.org/EDIutils "An API Client for the Environmental Data Initiative Repository") ([`v1.0.3`](https://github.com/ropensci/EDIutils/releases/tag/v1.0.3)), [epubr](https://docs.ropensci.org/epubr "Read EPUB File Metadata and Text") ([`v0.6.4`](https://github.com/ropensci/epubr/releases/tag/v0.6.4)), [FedData](https://docs.ropensci.org/FedData "Functions to Automate Downloading Geospatial Data Available from
+    Several Federated Data Sources") ([`v4.0.0`](https://github.com/ropensci/FedData/releases/tag/v4.0.0)), [hunspell](https://docs.ropensci.org/hunspell "High-Performance Stemmer, Tokenizer, and Spell Checker") ([`v3.0.3`](https://github.com/ropensci/hunspell/releases/tag/v3.0.3)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.9.8`](https://github.com/ropensci/nodbi/releases/tag/v0.9.8)), [rdhs](https://docs.ropensci.org/rdhs "API Client and Dataset Management for the Demographic and Health Survey (DHS) Data") ([`v0.8.0`](https://github.com/ropensci/rdhs/releases/tag/v0.8.0)), [rglobi](https://docs.ropensci.org/rglobi "Interface to Global Biotic Interactions") ([`v0.3.4`](https://github.com/ropensci/rglobi/releases/tag/v0.3.4)), [stats19](https://docs.ropensci.org/stats19 "Work with Open Road Traffic Casualty Data from Great Britain") ([`v3.0.0`](https://github.com/ropensci/stats19/releases/tag/v3.0.0)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.7.9`](https://github.com/ropensci/tarchetypes/releases/tag/0.7.9)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.3.2`](https://github.com/ropensci/targets/releases/tag/1.3.2)), [terrainr](https://docs.ropensci.org/terrainr "Landscape Visualizations in R and Unity") ([`v0.7.5`](https://github.com/ropensci/terrainr/releases/tag/v0.7.5)), [tiler](https://docs.ropensci.org/tiler "Create Geographic and Non-Geographic Map Tiles") ([`v0.3.1`](https://github.com/ropensci/tiler/releases/tag/v0.3.1)), and [tracerer](https://docs.ropensci.org/tracerer "Tracer from R") ([`v2.2.3`](https://github.com/ropensci/tracerer/releases/tag/v2.2.3)).
 
 ## Software Peer Review
 

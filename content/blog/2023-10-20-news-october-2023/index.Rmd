@@ -5,7 +5,7 @@ date: '2023-10-20'
 tags:
   - newsletter
 slug: news-october-2023
-description: Champions program updates, coworking, new packages and package news
+description: Dev guide translation to Portuguese, community call in Spanish, coworking, new packages and package news
 params:
   last_newsletter: "2023-09-22"
 ---
@@ -68,7 +68,8 @@ And remember, you can always cowork independently on work related to R, work on 
 
 
 ### Reminder: Three upcoming community call, and our first one in Spanish!
-### [R in Government](/commcalls/oct2023-government/)
+
+#### [R in Government](/commcalls/oct2023-government/)
 
 In this community call, our panelists will share their experiences and examples of projects with R at different levels of government and in different countries.
 We invite you to learn about the challenges and lessons learned from our panelists and attendees in their efforts to make their government data, processes, and analyses more open and reproducible. 
@@ -77,7 +78,7 @@ With [Luíza Andrade](https://ropensci.org/author/lu%C3%ADza-andrade/), [Karly H
 
 **Tuesday, 31 October 2023 16:00 UTC** 
 
-## Multilingual Publishing
+#### Multilingual Publishing
 
 As global movements, Open Source and Open Science face language-based exclusion as most resources are in English. This affects scientists and research software engineers working in R, particularly those who don’t have English as their first language.
 
@@ -445,15 +446,18 @@ parse_one_post <- function(path){
       "en"
     }
   }
-
+  software_peer_review <- "Software Peer Review" %in% yaml$tags
+  tech_note <- "tech notes" %in% yaml$tags && !software_peer_review
+  other <- !software_peer_review && !tech_note
+  
   
   meta <- tibble::tibble(
     date = anytime::anydate(yaml$date),
     author = nice_string(yaml$author),
     title = yaml$title,
-    software_peer_review = "Software Peer Review" %in% yaml$tags,
-    tech_note = "tech notes" %in% yaml$tags && !"Software Peer Review" %in% yaml$tags,
-    other = !("tech notes" %in% yaml$tags || "Software Peer Review" %in% yaml$tags),
+    software_peer_review = software_peer_review,
+    tech_note = tech_note,
+    other = other,
     socialImg = yaml$socialImg %||% "",
     socialAlt = yaml$socialAlt %||% "",
     description = stringr::str_squish(yaml$description %||% ""),
