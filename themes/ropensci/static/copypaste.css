@@ -1,7 +1,11 @@
 pre {
   position: relative;
 }
-button.btn.copy-button {
+button.copy-button {
   display: inline-block;
-  position: absolute;
+  font-size: 10px;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  padding-left: 0.1 !important;
+  padding-right: 0.1 !important;
 }

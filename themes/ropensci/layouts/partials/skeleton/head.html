@@ -13,7 +13,7 @@
 
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     {{ $css := resources.Get "main.min.css" }}
-    <link rel="stylesheet" type ="text/css" href="copypaste.css">
+    <link rel="stylesheet" type ="text/css" href="/copypaste.css">
 {{ $secureCSS := $css | resources.Fingerprint "sha512" }}
   <link href="{{ $secureCSS.Permalink }}" rel="stylesheet" integrity="{{ $secureCSS.Data.Integrity }}">
  <link
