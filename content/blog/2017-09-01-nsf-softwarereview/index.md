@@ -1,7 +1,10 @@
 ---
 slug: nf-softwarereview
 title: How rOpenSci uses Code Review to Promote Reproducible Science
-preface: This is cross-posted from the NumFOCUS blog. NumFOCUS is a nonprofit that
+crossposts:
+- name: NumFOCUS blog
+  url: https://numfocus.org/blog/how-ropensci-uses-code-review-to-promote-reproducible-science
+preface: NumFOCUS is a nonprofit that
   supports and promotes world-class, innovative, open source scientific computing,
   including rOpenSci.
 date: '2017-09-01'

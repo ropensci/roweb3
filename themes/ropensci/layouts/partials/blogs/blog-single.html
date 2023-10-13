@@ -19,8 +19,17 @@
     <div class="col-lg-9">
       <div class="content">
         
-           {{ if .Params.preface }}
-                <div class="alert alert-info" role="alert">{{ .Params.preface | markdownify }}</div>
+           {{ if or ( .Params.preface ) ( .Params.crossposts ) }}
+                <div class="alert alert-info" role="alert">
+                  {{ with .Params.crossposts }} 
+                    {{ range .}}
+                    This is cross-posted on <a href="{{ .url }}">{{ .name }}</a>.<br/>
+                    {{ end }}
+                  {{ end }}
+                  {{ with .Params.preface }}{{ . | markdownify }}{{ end }}
+                  
+                  
+                </div>
                 {{ end }}
           {{ if  (in .Params.tags "r-universe") }}
           <small><em>
