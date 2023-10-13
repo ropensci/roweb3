@@ -16,6 +16,9 @@
 [Suggest-an-edit]
   other = 'Suggere un cambio'
   
+[Cite]
+  other = 'Cita'
+  
 [open-pr]
   other = 'Abre una pull request'
   

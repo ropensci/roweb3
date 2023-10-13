@@ -1,0 +1,7 @@
+pre {
+  position: relative;
+}
+button.btn.copy-button {
+  display: inline-block;
+  position: absolute;
+}

@@ -7,11 +7,13 @@
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
 <script src="/scripts/matomo.js"></script>
+
 <noscript><p><img src="https://ropensci.matomo.cloud/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
 <!-- End Matomo Code -->
 
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     {{ $css := resources.Get "main.min.css" }}
+    <link rel="stylesheet" type ="text/css" href="copypaste.css">
 {{ $secureCSS := $css | resources.Fingerprint "sha512" }}
   <link href="{{ $secureCSS.Permalink }}" rel="stylesheet" integrity="{{ $secureCSS.Data.Integrity }}">
  <link
@@ -79,7 +81,15 @@
     <meta name="og:image" content="{{ "android-chrome-512x512.png"  | absURL }}" >
   {{ end }}
   {{ end }}
-  
+{{ if (in .Section "blog") }}
+{{ if .IsPage }}
+<meta name="citation_title" content="{{ .Title }}">
+<meta name="citation_date" content="{{ .PublishDate }}">
+<meta name="citation_language" content= "{{ .Language.Lang }}">
+
+<meta name="citation_doi" content= "{{ (partial "blogs/doi" ( dict "RelPermalink" .RelPermalink )) }}">
+{{ end }}
+{{ end }}
 {{ if .Params.math }}
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
 {{ end }}
