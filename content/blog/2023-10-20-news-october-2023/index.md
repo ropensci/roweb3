@@ -142,12 +142,6 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 ## On the blog
 
-<!-- Do not forget to rebase your branch! -->
-
-
-
-* [How to Translate a Hugo Blog Post with Babeldown](/blog/2023/09/26/how-to-translate-a-hugo-blog-post-with-babeldown) by Maëlle Salmon, and Yanina Bellini Saibene. Other languages: <a href='/es/blog/2023/09/26/cómo_traducir_una_entrada_de_blog_de_hugo_con_babeldown' lang='es'>Cómo traducir un artículo de blog de Hugo con Babeldown (es)</a>, <a href='/fr/blog/2023/09/26/comment_traduire_un_billet_de_blog_hugo_avec_babeldown' lang='fr'>Comment traduire un billet de blog Hugo avec Babeldown (fr)</a>.
-
 
 
 ### Tech Notes
