@@ -48,7 +48,7 @@ Consult our [Events](/events) page to find your local time and how to join.
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
 
-### Reminder: Three upcoming community call, and our first one in Spanish!
+### Reminder: Three upcoming community calls, and our first one in Spanish!
 
 #### [R in Government](/commcalls/oct2023-government/)
 
