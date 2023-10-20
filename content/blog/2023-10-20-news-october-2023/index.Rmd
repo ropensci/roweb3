@@ -5,7 +5,7 @@ date: '2023-10-20'
 tags:
   - newsletter
 slug: news-october-2023
-description: Dev guide translation to Portuguese, community call in Spanish, coworking, new packages and package news
+description: Dev guide translation to Portuguese, R in government community call, multilingualism community call, coworking, new packages and package news
 params:
   last_newsletter: "2023-09-22"
 ---
@@ -91,9 +91,7 @@ rOpenSci multilingual efforts aim to lower access barriers, democratize quality 
 - [**Proyecto Multilingüe**: Thursday, 23 November 2023 12:00 UTC](/commcalls/nov2023-multilenguaje/).
 
 
-## Software :package:
-
-### New packages
+## Software :package:: new versions
 
 ```{r new-packages, cache = TRUE, eval=TRUE}
 cran_unquote <- function(string) {
@@ -164,9 +162,6 @@ new <- dplyr::filter(
   !grepl("ropensci-archive\\/", url)
 )
 ```
-
-
-The following packages recently became a part of our software suite:
 
 ```{r, results='asis', cache = TRUE, eval=FALSE}
 packages <- split(new, seq(nrow(new)))
@@ -246,10 +241,6 @@ text <- purrr::map(
   unlist()
 cat(paste0(text, collapse = "\n\n"))
 ```
-
-Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
-
-### New versions
 
 ```{r news, cache=TRUE}
 registry <- dplyr::filter(

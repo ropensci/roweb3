@@ -5,7 +5,7 @@ date: '2023-10-20'
 tags:
   - newsletter
 slug: news-october-2023
-description: Dev guide translation to Portuguese, community call in Spanish, coworking, new packages and package news
+description: Dev guide translation to Portuguese, R in government community call, multilingualism community call, coworking, new packages and package news
 params:
   last_newsletter: "2023-09-22"
 ---
@@ -72,29 +72,21 @@ rOpenSci multilingual efforts aim to lower access barriers, democratize quality 
 - [**Proyecto Multilingüe**: Thursday, 23 November 2023 12:00 UTC](/commcalls/nov2023-multilenguaje/).
 
 
-## Software :package:
-
-### New packages
+## Software :package:: new versions
 
 
 
 
-The following packages recently became a part of our software suite:
 
 
 
-Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
-
-### New versions
-
-
-
-The following seventeen packages have had an update since the last newsletter: [gert](https://docs.ropensci.org/gert "Simple Git Client for R") ([`v2.0.0`](https://github.com/r-lib/gert/releases/tag/v2.0.0)), [beastier](https://docs.ropensci.org/beastier "Call BEAST2") ([`v2.4.12`](https://github.com/ropensci/beastier/releases/tag/v2.4.12)), [beautier](https://docs.ropensci.org/beautier "BEAUti from R") ([`v2.6.9`](https://github.com/ropensci/beautier/releases/tag/v2.6.9)), [biomartr](https://docs.ropensci.org/biomartr "Genomic Data Retrieval") ([`v1.0.5`](https://github.com/ropensci/biomartr/releases/tag/v1.0.5)), [EDIutils](https://docs.ropensci.org/EDIutils "An API Client for the Environmental Data Initiative Repository") ([`v1.0.3`](https://github.com/ropensci/EDIutils/releases/tag/v1.0.3)), [epubr](https://docs.ropensci.org/epubr "Read EPUB File Metadata and Text") ([`v0.6.4`](https://github.com/ropensci/epubr/releases/tag/v0.6.4)), [FedData](https://docs.ropensci.org/FedData "Functions to Automate Downloading Geospatial Data Available from
-    Several Federated Data Sources") ([`v4.0.0`](https://github.com/ropensci/FedData/releases/tag/v4.0.0)), [hunspell](https://docs.ropensci.org/hunspell "High-Performance Stemmer, Tokenizer, and Spell Checker") ([`v3.0.3`](https://github.com/ropensci/hunspell/releases/tag/v3.0.3)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.9.8`](https://github.com/ropensci/nodbi/releases/tag/v0.9.8)), [rdhs](https://docs.ropensci.org/rdhs "API Client and Dataset Management for the Demographic and Health Survey (DHS) Data") ([`v0.8.0`](https://github.com/ropensci/rdhs/releases/tag/v0.8.0)), [rglobi](https://docs.ropensci.org/rglobi "Interface to Global Biotic Interactions") ([`v0.3.4`](https://github.com/ropensci/rglobi/releases/tag/v0.3.4)), [stats19](https://docs.ropensci.org/stats19 "Work with Open Road Traffic Casualty Data from Great Britain") ([`v3.0.0`](https://github.com/ropensci/stats19/releases/tag/v3.0.0)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.7.9`](https://github.com/ropensci/tarchetypes/releases/tag/0.7.9)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.3.2`](https://github.com/ropensci/targets/releases/tag/1.3.2)), [terrainr](https://docs.ropensci.org/terrainr "Landscape Visualizations in R and Unity") ([`v0.7.5`](https://github.com/ropensci/terrainr/releases/tag/v0.7.5)), [tiler](https://docs.ropensci.org/tiler "Create Geographic and Non-Geographic Map Tiles") ([`v0.3.1`](https://github.com/ropensci/tiler/releases/tag/v0.3.1)), and [tracerer](https://docs.ropensci.org/tracerer "Tracer from R") ([`v2.2.3`](https://github.com/ropensci/tracerer/releases/tag/v2.2.3)).
+The following twenty-three packages have had an update since the last newsletter: [gert](https://docs.ropensci.org/gert "Simple Git Client for R") ([`v2.0.0`](https://github.com/r-lib/gert/releases/tag/v2.0.0)), [aorsf](https://docs.ropensci.org/aorsf "Accelerated Oblique Random Survival Forests") ([`v0.1.1`](https://github.com/ropensci/aorsf/releases/tag/v0.1.1)), [beastier](https://docs.ropensci.org/beastier "Call BEAST2") ([`v2.4.12`](https://github.com/ropensci/beastier/releases/tag/v2.4.12)), [beautier](https://docs.ropensci.org/beautier "BEAUti from R") ([`v2.6.9`](https://github.com/ropensci/beautier/releases/tag/v2.6.9)), [biomartr](https://docs.ropensci.org/biomartr "Genomic Data Retrieval") ([`v1.0.5`](https://github.com/ropensci/biomartr/releases/tag/v1.0.5)), [drake](https://docs.ropensci.org/drake "A Pipeline Toolkit for Reproducible Computation at Scale") ([`7.13.6`](https://github.com/ropensci/drake/releases/tag/7.13.6)), [EDIutils](https://docs.ropensci.org/EDIutils "An API Client for the Environmental Data Initiative Repository") ([`v1.0.3`](https://github.com/ropensci/EDIutils/releases/tag/v1.0.3)), [epubr](https://docs.ropensci.org/epubr "Read EPUB File Metadata and Text") ([`v0.6.4`](https://github.com/ropensci/epubr/releases/tag/v0.6.4)), [FedData](https://docs.ropensci.org/FedData "Functions to Automate Downloading Geospatial Data Available from
+    Several Federated Data Sources") ([`v4.0.0`](https://github.com/ropensci/FedData/releases/tag/v4.0.0)), [hunspell](https://docs.ropensci.org/hunspell "High-Performance Stemmer, Tokenizer, and Spell Checker") ([`v3.0.3`](https://github.com/ropensci/hunspell/releases/tag/v3.0.3)), [MODIStsp](https://docs.ropensci.org/MODIStsp "Find, Download and Process MODIS Land Products
+    Data") ([`v2.1.0`](https://github.com/ropensci/MODIStsp/releases/tag/v2.1.0)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.9.8`](https://github.com/ropensci/nodbi/releases/tag/v0.9.8)), [prism](https://docs.ropensci.org/prism "Access Data from the Oregon State Prism Climate Project") ([`v0.2.1`](https://github.com/ropensci/prism/releases/tag/v0.2.1)), [rdhs](https://docs.ropensci.org/rdhs "API Client and Dataset Management for the Demographic and Health Survey (DHS) Data") ([`v0.8.0`](https://github.com/ropensci/rdhs/releases/tag/v0.8.0)), [rglobi](https://docs.ropensci.org/rglobi "Interface to Global Biotic Interactions") ([`v0.3.4`](https://github.com/ropensci/rglobi/releases/tag/v0.3.4)), [rtweet](https://docs.ropensci.org/rtweet "Collecting Twitter Data") ([`v1.2.1`](https://github.com/ropensci/rtweet/releases/tag/v1.2.1)), [stats19](https://docs.ropensci.org/stats19 "Work with Open Road Traffic Casualty Data from Great Britain") ([`v3.0.0`](https://github.com/ropensci/stats19/releases/tag/v3.0.0)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.7.9`](https://github.com/ropensci/tarchetypes/releases/tag/0.7.9)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.3.2`](https://github.com/ropensci/targets/releases/tag/1.3.2)), [terrainr](https://docs.ropensci.org/terrainr "Landscape Visualizations in R and Unity") ([`v0.7.5`](https://github.com/ropensci/terrainr/releases/tag/v0.7.5)), [tiler](https://docs.ropensci.org/tiler "Create Geographic and Non-Geographic Map Tiles") ([`v0.3.1`](https://github.com/ropensci/tiler/releases/tag/v0.3.1)), [tracerer](https://docs.ropensci.org/tracerer "Tracer from R") ([`v2.2.3`](https://github.com/ropensci/tracerer/releases/tag/v2.2.3)), and [waywiser](https://docs.ropensci.org/waywiser "Ergonomic Methods for Assessing Spatial Models") ([`v0.5.0`](https://github.com/ropensci/waywiser/releases/tag/v0.5.0)).
 
 ## Software Peer Review
 
-There are seventeen recently closed and active submissions and 3 submissions on hold. Issues are at different stages: 
+There are eighteen recently closed and active submissions and 3 submissions on hold. Issues are at different stages: 
 
 * Four at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
 
@@ -122,9 +114,11 @@ There are seventeen recently closed and active submissions and 3 submissions on 
 
     * [GLMMcosinor](https://github.com/ropensci/software-review/issues/603), Fit a cosinor model using a generalised mixed modelling framework. Submitted by [Rex Parsons](https://rwparsons.github.io/). 
 
-* Three at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
+* Four at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
-     * [baRulho](https://github.com/ropensci/software-review/issues/609), Quantifying (Animal) Sound Degradation. Submitted by [Marcelo Araya-Salas](https://marceloarayasalas.weebly.com/). 
+     * [comtradr](https://github.com/ropensci/software-review/issues/613), Interface with the United Nations Comtrade API. Submitted by [paulbochtler](https://github.com/datapumpernickel). 
+
+    * [baRulho](https://github.com/ropensci/software-review/issues/609), Quantifying (Animal) Sound Degradation. Submitted by [Marcelo Araya-Salas](https://marceloarayasalas.weebly.com/). 
 
     * [weatherOz](https://github.com/ropensci/software-review/issues/598), An API Client for Australian Weather and Climate Data Resources. Submitted by [Rodrigo Pires](https://github.com/bozaah). 
 
@@ -142,9 +136,9 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 ## On the blog
 
+<!-- Do not forget to rebase your branch! -->
 
 
-### Tech Notes
 
 * [How to Translate a Hugo Blog Post with Babeldown](/blog/2023/09/26/how-to-translate-a-hugo-blog-post-with-babeldown) by Maëlle Salmon, and Yanina Bellini Saibene. Other languages: <a href='/es/blog/2023/09/26/cómo_traducir_una_entrada_de_blog_de_hugo_con_babeldown' lang='es'>Cómo traducir un artículo de blog de Hugo con Babeldown (es)</a>, <a href='/fr/blog/2023/09/26/comment_traduire_un_billet_de_blog_hugo_avec_babeldown' lang='fr'>Comment traduire un billet de blog Hugo avec Babeldown (fr)</a>.
 
