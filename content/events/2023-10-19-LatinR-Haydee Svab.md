@@ -5,7 +5,7 @@ dateEnd: 2023-08-30T12:40:00 # UTC!!
 date: 2023-08-30T12:40:00 # UTC!! same as dateEnd
 description: ""
 location: 'online' # free text
-slug: "CSCCE-CommCalls-GitHub"
+slug: "LatinR2023-Champions-Program"
 country: "\U0001F310" # emoji
 ropensci: no
 outputs: 
