@@ -1,10 +1,10 @@
 ---
 title: "Programa de Campeãs e Campeões na América Latina "
 dateStart: 2023-10-19T12:00:00 # UTC!!
-dateEnd: 2023-08-30T12:40:00 # UTC!!
-date: 2023-08-30T12:40:00 # UTC!! same as dateEnd
+dateEnd: 2023-10-19T12:40:00 # UTC!!
+date: 2023-10-19T12:40:00 # UTC!! same as dateEnd
 description: ""
-location: 'online' # free text
+location: 'Montevideo, Uruguay' # free text
 slug: "LatinR2023-Champions-Program"
 country: "\U0001F310" # emoji
 ropensci: no
