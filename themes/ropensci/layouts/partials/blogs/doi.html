@@ -1,0 +1,8 @@
+{{ $roguescholar := getJSON "https://api.rogue-scholar.org/blogs/ropensci" }}
+{{ $url := (printf "https://ropensci.org%s" .RelPermalink | replaceRE "/$" "" ) }}
+{{ $doi := "" }}
+{{ with $roguescholar }}
+  {{ $rightpage := ( where $roguescholar.items "url" $url ) }}
+    {{ with $rightpage }}{{ range ( first 1 . ) }}{{ $doi = .doi }}{{ end }}{{ end }}
+{{ end }}
+{{ return $doi }}
