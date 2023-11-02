@@ -11,6 +11,7 @@ tags:
 - interviews
 - r-universe-stars
 featured: yes
+photogallery: true
 description: In this article we summarize the interviews of the series *Meeting the
   stars of the R universe* In this article, we bring you five examples of organizations
   and teams that choose the R Universe to facilitate access and promote community

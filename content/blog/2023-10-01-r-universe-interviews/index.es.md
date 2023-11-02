@@ -11,6 +11,7 @@ tags:
   - interviews
   - r-universe-stars
 featured: true
+photogallery: true
 # The summary below will be used 
 description: "En este artículo resumimos las entrevistas de la serie _Conociendo a las estrellas del universo R_, les traemos cinco ejemplos de organizaciones y equipos que eligen el Universo R para facilitar el acceso y promover el intercambio de datos y software en comunidad."
 
