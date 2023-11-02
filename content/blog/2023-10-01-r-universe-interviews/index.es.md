@@ -58,7 +58,7 @@ En este artículo resumimos las entrevistas de la serie _Conociendo a las estrel
 {{< figureforgallery src="pecan2.png" alt="Universo R del proyecto PEcAn, vista de paquetes" >}}
 {{< /gallery >}}
 
-- _[El universo R contra las enfermedades](/es/blog/2023/09/15/r-universe-stars-5-es/)_. En este quinto encuentro, descubrimos el trabajo que hace un equipo de desarrolladores para luchar contra las enfermedades infecciosas y cómo utilizan el Universo R para alojar sus paquetes. La experiencia de la pandemia que vivimos en el mundo nos ayuda a comprender la dimensión y la importancia de este trabajo.
+- _[El universo R contra las enfermedades](/es/blog/2023/09/15/r-universe-stars-5-es/)_. En este quinto encuentro, descubrimos el trabajo que hace un equipo de desarrolladores en el MRC Centre for Global Infectious Disease Analysi spara luchar contra las enfermedades infecciosas y cómo utilizan el Universo R para alojar sus paquetes. La experiencia de la pandemia que vivimos nos ayuda a comprender la dimensión y la importancia de este trabajo.
 
 {{< gallery >}}
 {{< figureforgallery src="mrc1.png" alt="Universo R de MRC mostrando quienes contribuyen" >}}
