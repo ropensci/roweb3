@@ -40,7 +40,7 @@ En este artículo resumimos las entrevistas de la serie _Conociendo a las estrel
 {{< /gallery >}}
 
 
-- _[Investigando nuestro cerebro con la magia del Universo R](/es/blog/2023/03/30/r-universe-stars-3-es/)_. En esta entrevista conocemos las razones por las que el Universo R llegó en el momento justo para solucionar los problemas del tamaño de los datos y las herramientas que necesitan para trabajar en la investigación del cerebro humano.
+- _[Investigando nuestro cerebro con la magia del Universo R](/es/blog/2023/03/30/r-universe-stars-3-es/)_. En esta entrevista conocemos las razones por las que el Universo R llegó en el momento justo para solucionar los problemas del tamaño de los datos y las herramientas que necesitan para trabajar en la investigación del cerebro humano como parte del consorcio LifeBrain.
 
 {{< gallery >}}
 {{< figureforgallery src="lifebrain1.png" alt="Una serie de tres ejemplos de gráficos de diferentes atlas cerebrales. Cada fila muestra cuatro contornos cerebrales con formas de distintos colores." >}}
@@ -76,4 +76,4 @@ Esta es una pequeña muestra de un amplio universo donde conviven profesionales 
 
 ¡Hay muchos más universos R por ahí! Te invitamos a que [nos sugieras qué otros universos te gustaría que entrevistaramos](mailto:yabellini@ropensci.org) en una segunda etapa para conocer aún más los equipos y paquetes que forman parte del Multiverso de rOpenSci.
 
-También podes formar parte de nuestra comunidad suscribiéndote a nuestro [Newsletter](/news/) y podés seguirnos en nuestras redes sociales en [Mastodon](https://hachyderm.io/@rOpenSci) y [Linkedin](https://www.linkedin.com/company/ropensci/). 
+También podes formar parte de nuestra comunidad suscribiéndote a nuestro [Newsletter](/news/) y podés seguirnos en nuestras redes sociales en [Mastodon](https://hachyderm.io/@rOpenSci) y [LinkedIn](https://www.linkedin.com/company/ropensci/). 
