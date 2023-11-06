@@ -4,7 +4,7 @@ title: "El multiverso de rOpenSci"
 author:
   - Alejandra Bellini
   - Yanina Bellini Saibene
-date: '2023-10-01'
+date: '2023-11-06'
 tags:
   - community
   - r-universe
