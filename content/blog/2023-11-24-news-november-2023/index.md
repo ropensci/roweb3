@@ -192,7 +192,7 @@ Source: a [toot of Jenny Bryan's](https://mastodon.social/@jennybryan@fosstodon.
 
 ### Evercran: run historical R versions on today's computers
 
-Gábor Csárdi's experimental [evercran project](https://github.com/r-hub/evercran#readme) helps you n historical R versions on today's computers
+Gábor Csárdi's experimental [evercran project](https://github.com/r-hub/evercran#readme) helps you run historical R versions on today's computers
 
 ## Last words
 
