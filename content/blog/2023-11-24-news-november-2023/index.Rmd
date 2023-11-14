@@ -593,7 +593,7 @@ The third one will surprise you. :wink: (Yes, this is a click bait.)
 ### Null coalescing operator soon in base R
 
 The `%||%` operator that you [might know](https://masalmon.eu/2023/06/06/basic-patterns/#use-a-default-if-the-user-provided-null) from rlang has been added to [the development version of base R](https://github.com/wch/r-source/commit/10df7eac991c297271e16c7a1888240196d540f2)!
-Source: a [toot of Jenny Bryan's](https://mastodon.social/@jennybryan@fosstodon.org/111302964212692505)
+Source: a [toot of Jenny Bryan's](https://mastodon.social/@jennybryan@fosstodon.org/111302964212692505).
 
 ### Evercran: run historical R versions on today's computers
 
