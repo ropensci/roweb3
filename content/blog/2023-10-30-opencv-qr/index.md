@@ -11,6 +11,8 @@ tags:
   - opencv
 ---
 
+_This post was featured in the [R Weekly Highlights podcast](https://rweekly.fireside.fm/143) hosted by Eric Nantz and Mike Thomas._
+
 The latest version of the [opencv R package](https://ropensci.r-universe.dev/opencv) can detect and decode QR codes!
 
 ```r
