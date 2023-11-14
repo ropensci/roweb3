@@ -5,7 +5,7 @@ date: '2023-11-24'
 tags:
   - newsletter
 slug: news-november-2023
-description: Donate to rOpenSci, Web assemly and R-universe, package news and new packages
+description: Donate to rOpenSci, Web assembly and R-universe, package news and new packages
 params:
   last_newsletter: "2023-10-20"
 ---
