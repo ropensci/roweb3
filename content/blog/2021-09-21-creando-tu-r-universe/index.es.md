@@ -11,15 +11,13 @@ tags:
 package_version: 0.1.0
 description: En este post te explico como crear tu r-universe, a partir de la experiencia de crear el mio.
 tweet: En este post @yabellini te explica como crear tu r-universe usando como ejemplo el paso a paso de crear el suyo.
+crossposts:
+- name: Yanina Bellini Saibene's blog
+  url: https://yabellini.netlify.app/es/post/r_universe/
 output:
   html_document:
     keep_md: yes
 ---
-
-
-> This is a cross-post from 
-> [Yanina Bellini Saibene's blog](https://yabellini.netlify.app/es/post/r_universe/), 
-> originally published July 17th 2021
 
 Durante [useR! 2021](https://user2021.r-project.org/) Jeroen Ooms presentó [el proyecto universo R](https://jeroen.github.io/user2021/#1) en su *keynote*. 
 Comentó sobre el proyecto, los casos de uso y repasó las instrucciones para crear tu propio *universo-r*. En este post the explico como crear el tuyo a partir de la experiencia de crear el mio.
