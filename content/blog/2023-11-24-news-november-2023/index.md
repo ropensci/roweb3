@@ -132,6 +132,20 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 * [Scanning QR codes in R](/blog/2023/10/30/opencv-qr) by Jeroen Ooms. The new version of the opencv package includes a cool QR code scanner. This post was featured in the [R Weekly Highlights podcast](https://rweekly.fireside.fm/143) hosted by Eric Nantz and Mike Thomas.
 
+## Use cases
+
+
+
+Three use cases of our packages and resources have been reported since we sent the last newsletter.
+
+* [A toolkit workflow for climate-sensitive infectious disease modelling](https://discuss.ropensci.org/t/a-toolkit-workflow-for-climate-sensitive-infectious-disease-modelling/3659). Reported by Raphael Saldanha.
+
+* [Targets and other tools to make college comparison website](https://discuss.ropensci.org/t/targets-and-other-tools-to-make-college-comparison-website/3680). Reported by Brian O'Meara.
+
+* [Unlock R functions with QR codes](https://discuss.ropensci.org/t/unlock-r-functions-with-qr-codes/3681). Reported by Matt Dray.
+
+Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)!
+
 ## Call for maintainers
 
 If you're interested in maintaining any of the R packages below, you might enjoy reading our blog post [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/) (or listening to its discussion on the [R Weekly highlights podcast](https://rweekly.fireside.fm/111) hosted by Eric Nantz and Mike Thomas)!
