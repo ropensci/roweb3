@@ -56,7 +56,7 @@ And remember, you can always cowork independently on work related to R, work on 
 
 The following  package recently became a part of our software suite:
 
-+ [fastMatMR](https://docs.ropensci.org/fastMatMR), developed by Rohit Goswami: An interface to the fast_matrix_market C++ library, this package offers efficient read and write operations for Matrix Market files in R. It supports both sparse and dense matrix formats. Peer-reviewed at ROpenSci (<https://github.com/ropensci/software-review/issues/606>).  It is available on [CRAN]( https://CRAN.R-project.org/package=fastMatMR). It has been [reviewed](https://github.com/ropensci/software-review/issues/606) by Ildiko Czeller.
++ [fastMatMR](https://docs.ropensci.org/fastMatMR), developed by Rohit Goswami: An interface to the fast_matrix_market C++ library, this package offers efficient read and write operations for Matrix Market files in R. It supports both sparse and dense matrix formats. Peer-reviewed at ROpenSci (<https://github.com/ropensci/software-review/issues/606>).  It is available on [CRAN]( https://CRAN.R-project.org/package=fastMatMR). It has been [reviewed](https://github.com/ropensci/software-review/issues/606) by Øystein Sørensen, and Ildikó Czeller.
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
