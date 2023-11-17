@@ -52,7 +52,7 @@ Now that we have a working version of R in WebAssembly, the next challenge is to
 
 One thing that is perhaps not immediately obvious, is that it won't be possible to install packages directly *from source* the way we typically do in R, because the toolchains needed to compile WASM themselves to not run under WASM. To make it possible to use R packages in WebR, they first have to be compiled on another platform using e.g. [emscripten](https://emscripten.org) and/or [rust](https://www.rust-lang.org/) toolchains. The resulting *binary package* can be served in a package repository from where WebR can download and install it.
 
-As you can imagine, doing this manually is quite an exercise. But with some help from George we were able to create a docker container that has all the tooling to build R packages for WebAssembly, and plugged this into the r-universe build workflow. So now r-universe automated builds WebR compatible binary packages for each upstream commit in any of the 23k+ packages we are tracking. This allows users and authors of these packages to see if the package builds with WebAssembly or test fixes.
+As you can imagine, doing this manually is quite an exercise. But with some help from George we were able to create a docker container that has all the tooling to build R packages for WebAssembly, and plugged this into the r-universe build workflow. So now r-universe automated builds WebR compatible binary packages for each upstream commit in any of the packages we are tracking. This allows users and authors of these packages to see if the package builds with WebAssembly or test fixes.
 
 The packages can be installed simply using as described above `install.packages`. A direct link to the wasm binary package (if available) is also available on the package homepage.
 
@@ -67,3 +67,11 @@ The docker build image currently includes about 25 external C/C++ libraries whic
 
 In order to expand the coverage of R packages available in WebR, we would need to expand this list. If your R package requires a system library that is currently unavailable, you could try sending a PR to the above recipes (but please make sure that you first test it by building the docker image locally). Hopefully at some point a proper emscripten package manager will appear that provides these libraries for us.
 
+
+## WebAssembly Coverage
+
+Currently R-universe is tracking 41086 packages of which 38677 have a WASM binary. However note that these are not all unique packages: for CRAN packages we both track the latest CRAN release, as well as upstream Git repo (aka devel version) if known.
+
+There is another important caviat: many R packages can themselves be compiled to WebAssembly, but they depend on one or more other R packages that currently are not available, and therefore cannot be used yet. This is actually a significant share: many of the packages mentioned above that require system libraries are actually important packages used by many others. So if that system library is not available, it makes all the dependents unavailable as well.
+
+The webR project maintains a [shiny app to monitor WASM status for CRAN packages](https://repo.r-wasm.org/) (the app is slow to load, be patient). So here we can see that currently 19356 out of 20040 CRAN packages can be built for WebAssembly, and 10483 are available in the sense that all their dependencies are available as well.
