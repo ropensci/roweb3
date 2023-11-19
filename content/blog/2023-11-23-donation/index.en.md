@@ -1,6 +1,6 @@
 ---
 slug: "donation-2023"
-title: Empowering open science: Donate to support our mission
+title: "Empowering open science: Donate to support our mission"
 author: 'The rOpenSci Team'
 date: '2023-11-23'
 tags:
