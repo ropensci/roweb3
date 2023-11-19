@@ -25,7 +25,10 @@ install.packages('dplyr',
 
 As explained below, not all R packages are supported yet; some packages need some fixes to work in WebAssembly, but coverage is rapidly growing. The r-universe dashboards shows which packages are available and link to the build logs to help you debug issues.
 
+__Update:__ Have a look at this [observable notebook](https://observablehq.com/d/6936259b898a25ce) for more ideas on how to use WebR on websites.
+
 {{< figureforgallery src="screenshot.png" alt="Screenshot of rOpenSci dashboard with WebAssembly icons highlighted" >}}
+
 
 
 ## What is WebAssembly
