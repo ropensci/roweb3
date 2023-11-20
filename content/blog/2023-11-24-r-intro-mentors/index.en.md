@@ -18,3 +18,49 @@ This year, rOpenSci Team reviewed 28 applications from community member in vario
 
 We are pleased to introduce you to our mentors for the cohort 2023-2024.
 
+### Bruna Wundervald
+
+I am a Data Scientist graduated in Statistics, with a Ph.D. in Bayesian Machine Learning from the Hamilton Institute, Maynooth, Ireland. My main interests are causality and experimentation, Bayesian inference, multivariate analysis, feature extraction, and natural language processing. I am happy to be giving back to the community that has helped me immensely in the past :) 
+
+### Eunseop Kim
+
+I am a data scientist at Eli Lilly and Company, specializing in the development of AI/ML methods for sales and marketing analytics. I hold a Ph.D. in Statistics from The Ohio State University, USA, and have degrees in Economics, both a Master's and a Bachelor's, from Seoul National University, South Korea. Originally from South Korea, I currently reside in the USA.
+
+I enjoy developing and sharing software for reproducible scientific computing. Throughout my academic and professional experience, I have been actively involved in the creation and maintenance of R packages and Shiny applications. Additionally, I am the author of the "melt" package and have served as an rOpenSci package reviewer.
+
+As a mentor of the Champions Program, I look forward to sharing my experiences and knowledge, contributing to the ongoing success of the rOpenSci community.
+
+
+### Emi Tanaka
+
+Dr. Emi Tanaka is a Senior Lecturer in Statistics at the Biological Data Science Institute (and the Research School of Finance, Actuarial Studies and Statistics) at the Australian National University. She has developed numerous open-source tools, primarily as R-packages, and resources aimed at making statistical methods accessible to a diverse audience. Emi demonstrates a proactive approach to community development and education through her involvement in the branches of the Statistical Society of Australia (SSA) and other committees. Emi highly values research software as an enabler of science and as part of encouraging software development in the statistical community, she created the Di Cook Award (an open-source statistical software award) for students.
+
+### François Michonneau
+
+I am an educator specializing in modern data systems. My interest in data education started when I was working on my PhD in marine biology at the University of Florida. After leaving academia, I worked at The Carpentries, and he is currently a Senior Training Engineer at Voltron Data. I co-authored several R packages, and one of them went through the rOpenSci review process. I'm excited to be a mentor to help others participate in and grow the R community.
+
+### Francisco Cardozo
+
+My name is Francisco Cardozo. I am currently a Ph.D. student at the University of Miami, where I am part of the Prevention Science and Community Health program. I have worked on evaluating prevention programs in various countries across Latin America. At the moment, I am developing workshops to teach the use of software that enhances the reproducibility and rigor of research. These workshops focus on the use of R and statistical analysis techniques, such as machine learning and latent variables. I am deeply committed to strengthening technical capacities within communities; I believe in equipping people with the necessary tools to execute their projects in the best way possible.
+
+### Luis D. Verde Arregoitia	
+
+Postdoctoral researcher in evolutionary macroecology. 
+Mammalogist . Biology background (BSc. Biology, Universidad Nacional Autónoma de México; PhD in Conservation Science, University of Queensland).
+
+In addition to my research I spend time writing tools, blog posts, and teaching materials to help others work with messy data and spreadsheets (unheadr package) and improve their R scripts for reproducibility (annotater package).
+
+Mentor for the Champions program. Happy to guide others in their software development journey in a way that benefits both users and developers and ultimately enriches the open tools community in terms of packages and people.  
+
+### Erle Holgersen
+
+Hi! I'm Erle Holgersen, and hope to serve as a mentor in R package development. I am a computational biologist at Deep Genomics, where I collaborate closely with lab teams and build tools for streamlining data analysis. Looking forward to helping with the Champions program!
+
+### Marie C Vendettuoli	
+
+Marie Vendettuoli (she/her) holds a PhD in Bioinformatics/Computational Biology & Human Computer Interaction from Iowa State University. She has spent over a decade developing R packages for scientists subject to regulatory oversight, both in the animal and human health domains. Marie values the challenge of bringing open source R tools to new audiences and looks forward to working with Champions to address their projects with an emphasis on curiosity. A PNW native, Marie is in the process of relocating to the Portland area (USA) after several years working in Seattle.	
+
+### Jonathan Keane
+
+Jonathan Keane is an engineering leader with a background in software
+engineering and data science. Jonathan is a maintainer of the Arrow project including the Arrow R package. Jonathan lives in Chicago, IL, USA and has a PhD in Linguistics from the University of Chicago. 
