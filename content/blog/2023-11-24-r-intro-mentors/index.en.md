@@ -54,14 +54,18 @@ Mentor for the Champions program. Happy to guide others in their software develo
 
 ### Erle Holgersen
 
+{{< figure src = "/img/team/erle-holgersen.jpg" class = "pull-right" width = "300" alt = "Profile photo of Erle Holgersen." caption = "<center><strong>Erle Holgersen</strong></center>">}}
+
 Hi! I'm Erle Holgersen, and hope to serve as a mentor in R package development. I am a computational biologist at Deep Genomics, where I collaborate closely with lab teams and build tools for streamlining data analysis. Looking forward to helping with the Champions program!
 
-### Marie C Vendettuoli	
+### Marie C. Vendettuoli	
+
+{{< figure src = "/img/team/marie-vendettuoli.jpg" class = "pull-right" width = "300" alt = "Profile photo of Marie C Vendettuoli" caption = "<center><strong>Marie C. Vendettuoli	</strong></center>">}}
 
 Marie Vendettuoli (she/her) holds a PhD in Bioinformatics/Computational Biology & Human Computer Interaction from Iowa State University. She has spent over a decade developing R packages for scientists subject to regulatory oversight, both in the animal and human health domains. Marie values the challenge of bringing open source R tools to new audiences and looks forward to working with Champions to address their projects with an emphasis on curiosity. A PNW native, Marie is in the process of relocating to the Portland area (USA) after several years working in Seattle.	
 
 ### Jonathan Keane
-{{< figure src = "/img/team/" class = "pull-right" width = "300" alt = "Profile photo of Jonathan Keane." caption = "<center><strong>Jonathan Keane</strong></center>">}}
+{{< figure src = "/img/team/jon.png" class = "pull-right" width = "300" alt = "Profile photo of Jonathan Keane." caption = "<center><strong>Jonathan Keane</strong></center>">}}
 
 Jonathan Keane is an engineering leader with a background in software
 engineering and data science. Jonathan is a maintainer of the Arrow project including the Arrow R package. Jonathan lives in Chicago, IL, USA and has a PhD in Linguistics from the University of Chicago. 
