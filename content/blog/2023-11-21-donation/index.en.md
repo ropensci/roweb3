@@ -2,7 +2,7 @@
 slug: "donation-2023"
 title: "Empowering Open Science: Donate to Support our Mission"
 author: 'The rOpenSci Team'
-date: '2023-11-23'
+date: '2023-11-21'
 tags:
 - community
 featured: yes
