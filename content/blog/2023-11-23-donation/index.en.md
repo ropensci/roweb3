@@ -22,7 +22,7 @@ By supporting us, you’re not just donating; you’re contributing to a communi
 
 ## Being part of the community
 
-The concept of community gives meaning to the work of rOpenSci, and it is in this way that the projects are developed. Therefore, it is natural for us to look to the community to help us move forward.
+The concept of community gives meaning to rOpenSci's work and it is within this framework that we develop projects. Therefore, it is natural for us to look to the community to help us move forward.
 
 Every little bit helps. That is why we invite you to collaborate with us or to share this information with all those people or organizations that may be interested.
 
