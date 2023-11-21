@@ -12,7 +12,7 @@ description: rOpenSci is a nonprofit organization that is funded entirely by gra
 
 rOpenSci is a nonprofit organization that is funded entirely by grants and donations. These collaborations enable us to sustain our projects and meet our goals.
 
-Sustaining an open project with a quality infrastructure that allows free access to the global and diverse community of R software users and research software developers and engineers requires different resources. Our organization's ongoing costs are supported by grants and donations from individuals and organizations that share our vision and mission.
+However, sustaining an open project with quality infrastructure freely accessible to the global and diverse community of R software users, research software developers, and engineers requires many different resources. Our organization's ongoing costs are supported by grants and donations from individuals and organizations which share our vision and mission.
 
 These contributions enable us to keep our projects and infrastructure active and accessible to the community. Our projects are dedicated to establishing and upholding both technical and social infrastructure that supports open and reproducible science for all our members. This means our efforts must be sustainable, inclusive, and created collaboratively by and for all groups.
 
