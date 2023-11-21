@@ -19,7 +19,6 @@ Each action taken by rOpenSci seeks to break down barriers to accessing knowledg
 Sustaining an open project with quality infrastructure freely accessible to the global and diverse community of R software users, research software developers, and engineers requires many different resources. Our organization's ongoing costs are supported by grants and donations from individuals and organizations which share our vision and mission.
 
 
-
 By supporting us, you’re not just donating; you’re contributing to a community that’s breaking down barriers, creating opportunities, and shaping the future of open and reproducible science for everyone. Join us in this vital mission today!
 
 ## Being part of the community
