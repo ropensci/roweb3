@@ -78,7 +78,10 @@ window.addEventListener('load', function () {
                 }
             }
         }
-    }
-});
+    }});
+    $('#cookielink').click(function(e){
+        e.preventDefault();
+        CookieConsent.show(true);
+    })
 
 })
