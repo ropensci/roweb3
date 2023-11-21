@@ -24,15 +24,10 @@ window.addEventListener('load', function () {
 
     guiOptions: {
         consentModal: {
-            layout: 'cloud inline',
-            position: 'bottom center',
-            equalWeightButtons: true,
-            flipButtons: false
+            layout: 'cloud inline'
         },
         preferencesModal: {
-            layout: 'box',
-            equalWeightButtons: true,
-            flipButtons: false
+            layout: 'box'
         }
     },
 
