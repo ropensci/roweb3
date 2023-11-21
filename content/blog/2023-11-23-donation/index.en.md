@@ -34,4 +34,4 @@ rOpenSci is a project sponsored by NumFOCUS, a U.S. 501(c)(3) non-profit charita
 
 You can donate here: https://ropensci.org/donate/
 
-Thank you for helping us to keep rOpenSci active.
+Thank you for helping us to keep rOpenSci active!
