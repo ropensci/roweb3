@@ -58,7 +58,7 @@ DefaultContentLanguage = "en"
   home = ["HTML", "RSS", "JSON"]
   section = ["HTML", "RSS", "JSON"]
   taxonomy = ["HTML", "RSS", "JSON"]
-  taxonomyTerm = ["HTML", "RSS", "JSON"]
+  term = ["HTML", "RSS", "JSON"]
 
 [outputFormats.Calendar]
 	protocol = "https://"
