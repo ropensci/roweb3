@@ -14,15 +14,19 @@ One important aspect of rOpenSci mission is to build capacity and promote passio
 
 rOpenSci champions program is a unique opportunity for us to identifying, recognizing, and rewarding such individuals and suppor them in their work to improve their communities and the wider ecosystem.  Mentors play a vital role in the our Program by guide and ispire our Champions. 
 
-This year, rOpenSci Team reviewed 28 applications from community member in various disciplines and from different countries to select ten mentors.
+This year, rOpenSci Team reviewed 28 applications from community member in various disciplines and from different countries to select ten mentors. 
 
-We are pleased to introduce you to our mentors for the cohort 2023-2024.
+We are pleased to introduce you to our mentors for the cohort 2023-2024!
 
 ### Bruna Wundervald
+
+{{< figure src = "/img/team/bruna-wundervald.jpeg" class = "pull-right" width = "300" alt = "Profile photo of Bruna Wundervald" caption = "<center><strong>Bruna Wundervald</strong></center>">}}
 
 I am a Data Scientist graduated in Statistics, with a Ph.D. in Bayesian Machine Learning from the Hamilton Institute, Maynooth, Ireland. My main interests are causality and experimentation, Bayesian inference, multivariate analysis, feature extraction, and natural language processing. I am happy to be giving back to the community that has helped me immensely in the past :) 
 
 ### Eunseop Kim
+
+{{< figure src = "/img/team/eunseop-kim.jpg" class = "pull-right" width = "300" alt = "Profile photo of Eunseop Kim." caption = "<center><strong>Eunseop Kim</strong></center>">}}
 
 I am a data scientist at Eli Lilly and Company, specializing in the development of AI/ML methods for sales and marketing analytics. I hold a Ph.D. in Statistics from The Ohio State University, USA, and have degrees in Economics, both a Master's and a Bachelor's, from Seoul National University, South Korea. Originally from South Korea, I currently reside in the USA.
 
@@ -33,20 +37,28 @@ As a mentor of the Champions Program, I look forward to sharing my experiences a
 
 ### Emi Tanaka
 
+{{< figure src = "/img/team/emi-tanaka.jpg" class = "pull-right" width = "300" alt = "Profile photo of Emi Tanaka." caption = "<center><strong>Emi Tanaka</strong></center>">}}
+
 Dr. Emi Tanaka is a Senior Lecturer in Statistics at the Biological Data Science Institute (and the Research School of Finance, Actuarial Studies and Statistics) at the Australian National University. She has developed numerous open-source tools, primarily as R-packages, and resources aimed at making statistical methods accessible to a diverse audience. Emi demonstrates a proactive approach to community development and education through her involvement in the branches of the Statistical Society of Australia (SSA) and other committees. Emi highly values research software as an enabler of science and as part of encouraging software development in the statistical community, she created the Di Cook Award (an open-source statistical software award) for students.
 
 ### François Michonneau
+
+{{< figure src = "/img/team/françois-michonneau.jpg" class = "pull-right" width = "300" alt = "Profile photo of François Michonneau." caption = "<center><strong>François Michonneau</strong></center>">}}
+
 
 I am an educator specializing in modern data systems. My interest in data education started when I was working on my PhD in marine biology at the University of Florida. After leaving academia, I worked at The Carpentries, and he is currently a Senior Training Engineer at Voltron Data. I co-authored several R packages, and one of them went through the rOpenSci review process. I'm excited to be a mentor to help others participate in and grow the R community.
 
 ### Francisco Cardozo
 
+{{< figure src = "/img/team/francisco-cardozo.jpeg" class = "pull-right" width = "300" alt = "Profile photo of Francisco Cardozo." caption = "<center><strong>Francisco Cardozo</strong></center>">}}
+
 My name is Francisco Cardozo. I am currently a Ph.D. student at the University of Miami, where I am part of the Prevention Science and Community Health program. I have worked on evaluating prevention programs in various countries across Latin America. At the moment, I am developing workshops to teach the use of software that enhances the reproducibility and rigor of research. These workshops focus on the use of R and statistical analysis techniques, such as machine learning and latent variables. I am deeply committed to strengthening technical capacities within communities; I believe in equipping people with the necessary tools to execute their projects in the best way possible.
 
 ### Luis D. Verde Arregoitia	
 
-Postdoctoral researcher in evolutionary macroecology. 
-Mammalogist . Biology background (BSc. Biology, Universidad Nacional Autónoma de México; PhD in Conservation Science, University of Queensland).
+{{< figure src = "/img/team/luis-verde.jpeg" class = "pull-right" width = "300" alt = "Profile photo of Luis D. Verde Arregoitia." caption = "<center><strong>Luis D. Verde Arregoitia</strong></center>">}}
+
+Postdoctoral researcher in evolutionary macroecology. Mammalogist . Biology background (BSc. Biology, Universidad Nacional Autónoma de México; PhD in Conservation Science, University of Queensland).
 
 In addition to my research I spend time writing tools, blog posts, and teaching materials to help others work with messy data and spreadsheets (unheadr package) and improve their R scripts for reproducibility (annotater package).
 
