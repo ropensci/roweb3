@@ -6,7 +6,7 @@ date: 2023-11-21T13:00:00 # UTC!! same as dateEnd
 publishDate: 2023-08-03
 description: 
 author:
-  - Paola Corrales
+  - Pao Corrales
   - Elio Campitelli
   - Maëlle Salmon
 organizer: Yanina Bellini Saibene
