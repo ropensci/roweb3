@@ -127,14 +127,14 @@
    "home": ""
 },
 {
-   "name": "",
-   "affiliation": "",
-   "url": "",
-   "image" : "/img/team/",
+   "name": "Apoorv Anand",
+   "affiliation": "CivicDataLab",
+   "url": "https://behindbars.netlify.app/",
+   "image" : "/img/team/apoorv-anand.jpeg",
    "roles": [
       "mentor 2023-2024"
    ],
-   "github": "",
+   "github": "apoorv74",
    "home": ""
 },
 {
