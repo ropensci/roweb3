@@ -12,7 +12,7 @@ description:
 
 One important aspect of rOpenSci mission is to build capacity and promote passionate community members who help the open science and open source software community grow and improve.
 
-rOpenSci champions program is a unique opportunity for us to identifying, recognizing, and rewarding such individuals and suppor them in their work to improve their communities and the wider ecosystem. Mentors play a vital role in the rOpenSci Champions Program by helping select Champions and advising and inspiring their mentees. They also help to shape this program by providing feedback and proposing activities and tools.   
+rOpenSci champions program is a unique opportunity for us to identify, recognize, and reward such individuals and support them in their work to improve their communities and the wider ecosystem. Mentors play a vital role in the rOpenSci Champions Program by helping select Champions and advising and inspiring their mentees. They also help to shape this program by providing feedback and proposing activities and tools.   
 
 This year, rOpenSci Team reviewed 28 applications from community member in various disciplines and from different countries to select ten mentors.
 
@@ -56,7 +56,7 @@ Emi highly values research software as an enabler of science and as part of enco
 
 {{< figure src = "/img/team/françois-michonneau.JPG" width = "300" alt = "Profile photo of François Michonneau." caption = "<strong>François Michonneau</strong>">}}
 
-I am an educator specializing in modern data systems. My interest in data education started when I was working on my PhD in marine biology at the University of Florida. After leaving academia, I worked at The Carpentries, and he is currently a Senior Training Engineer at Voltron Data. I co-authored several R packages, and one of them went through the rOpenSci review process.
+I am an educator specializing in modern data systems. My interest in data education started when I was working on my PhD in marine biology at the University of Florida. After leaving academia, I worked at The Carpentries, and I am currently a Senior Training Engineer at Voltron Data. I co-authored several R packages, and one of them went through the rOpenSci review process.
 
 I'm excited to be a mentor to help others participate in and grow the R community.
 
