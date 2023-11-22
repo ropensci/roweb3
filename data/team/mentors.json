@@ -116,14 +116,14 @@
    "home": ""
 },
 {
-   "name": "",
-   "affiliation": "",
-   "url": "",
-   "image" : "/img/team/",
+   "name": "Bruna Wundervald",
+   "affiliation": "ABI Inbev, Maynooth University",
+   "url": "https://brunaw.com/",
+   "image" : "/img/team/bruna-wundervald.jpeg
    "roles": [
       "mentor 2023-2024"
    ],
-   "github": "",
+   "github": "brunaw",
    "home": ""
 },
 {
