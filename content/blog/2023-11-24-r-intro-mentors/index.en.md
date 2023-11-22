@@ -54,7 +54,7 @@ Emi highly values research software as an enabler of science and as part of enco
 
 ### François Michonneau
 
-{{< figure src = "/img/team/françois-michonneau.jpg" width = "300" alt = "Profile photo of François Michonneau." caption = "<strong>François Michonneau</strong>">}}
+{{< figure src = "/img/team/françois-michonneau.JPG" width = "300" alt = "Profile photo of François Michonneau." caption = "<strong>François Michonneau</strong>">}}
 
 I am an educator specializing in modern data systems. My interest in data education started when I was working on my PhD in marine biology at the University of Florida. After leaving academia, I worked at The Carpentries, and he is currently a Senior Training Engineer at Voltron Data. I co-authored several R packages, and one of them went through the rOpenSci review process.
 
@@ -62,7 +62,7 @@ I'm excited to be a mentor to help others participate in and grow the R communit
 
 ### Francisco Cardozo
 
-{{< figure src = "/img/team/francisco-cardozo.jpeg" width = "300" alt = "Profile photo of Francisco Cardozo." caption = "<strong>Francisco Cardozo</strong>">}}
+{{< figure src = "/img/team/francisco-cardozo.JPEG" width = "300" alt = "Profile photo of Francisco Cardozo." caption = "<strong>Francisco Cardozo</strong>" >}}
 
 My name is Francisco Cardozo. I am currently a Ph.D. student at the University of Miami, where I am part of the Prevention Science and Community Health program.
 
@@ -97,7 +97,7 @@ Marie Vendettuoli (she/her) holds a PhD in Bioinformatics/Computational Biology 
 
 ### Jonathan Keane
 
-{{< figure src = "/img/team/jon.png" class = "pull-left" alt = "Profile photo of Jonathan Keane." caption = "<strong>Jonathan Keane</strong>">}} 
+{{< figure src = "/img/team/jonathan-keane.png" width = "300" alt = "Profile photo of Jonathan Keane." caption = "<strong>Jonathan Keane</strong>">}} 
 
 Jonathan Keane is an engineering leader with a background in software engineering and data science. Jonathan is a maintainer of the Arrow project including the Arrow R package. Jonathan lives in Chicago, IL, USA and has a PhD in Linguistics from the University of Chicago.
 
