@@ -21,13 +21,20 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-### Giving season
+### Giving season: consider donating to rOpenSci
 
-PLACEHOLDER FOR SUMMARY OF YANI'S POST
+This Giving Season consider donating to rOpenSci to support our mission of empowering Open Science.
 
-### Web assembly and R-universe
+Sustaining an open project with quality infrastructure freely accessible to the global and diverse community of R software users, research software developers, and engineers requires many different resources. Our organization’s ongoing costs are supported by grants and donations from individuals and organizations which share our vision and mission.
 
-PLACEHOLDER, JEROEN TO WRITE A TECH NOTE
+By supporting us, you’re not just donating; you’re contributing to a community that’s breaking down barriers, creating opportunities, and shaping the future of open and reproducible science for everyone. 
+
+Join us in this vital mission today! You can donate here: https://ropensci.org/donate/
+
+### R-universe now builds WASM binaries for all R packages!
+
+R-universe now builds WebAssembly binaries for all R packages for use in WebR applications such as shinylive.
+Read more in our [tech note](/blog/2023/11/17/runiverse-wasm/).
 
 ### Coworking
 
@@ -41,9 +48,19 @@ Consult our [Events](/events) page to find your local time and how to join.
 
 - [Tuesday, December 5th, 9:00 Australian Western (01:00 UTC)](/events/coworking-2023-12/), Why won't it pass?! Troubleshooting R package checks. With community host [Adam Sparks](/author/adam-sparks/) and [Steffi LaZerte](/author/steffi-lazerte/).
     - Explore what R package checks are and where they might fail;
-    - Work on an R package and run some checks;
-    - Spend some time troubleshooting your own failing package checks.
+    - Spend some time troubleshooting your own failing package checks;
+    - Discuss tips and tricks for troubleshooting package checks with our community host and other attendees.
 
+- [Tuesday, January 9th, 14:00 Europe Central (13:00 UTC)](/events/coworking-2024-01/), Working with APIs. With community host [Jon Harmon](/author/jon-harmon/) and [Steffi LaZerte](/author/steffi-lazerte/).
+    - Explore using APIs in your own work;
+    - Learn about packages that can help;
+    - Discuss using APIs in R with our community host and other attendees.
+
+- [Tuesday, February 6th, 9:00 Americas Pacific (17:00 UTC)](/events/coworking-2024-02/), R-Universe Office Hours. With cohost [Jeroen Ooms](/author/jeroen-ooms/) and [Steffi LaZerte](/author/steffi-lazerte/).
+    - Explore what the [R-Universe](https://r-universe.dev/) has to offer;
+    - Create your own R-Universe
+    - Ask questions or troubleshoot your R-Universe problems with the cohost and other attendees.
+    
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
 
@@ -64,11 +81,11 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following ten packages have had an update since the last newsletter: [beastier](https://docs.ropensci.org/beastier "Call BEAST2") ([`v2.5`](https://github.com/ropensci/beastier/releases/tag/v2.5)), [beautier](https://docs.ropensci.org/beautier "BEAUti from R") ([`v2.6.11`](https://github.com/ropensci/beautier/releases/tag/v2.6.11)), [biomartr](https://docs.ropensci.org/biomartr "Genomic Data Retrieval") ([`v1.0.6`](https://github.com/ropensci/biomartr/releases/tag/v1.0.6)), [drake](https://docs.ropensci.org/drake "A Pipeline Toolkit for Reproducible Computation at Scale") ([`7.13.8`](https://github.com/ropensci/drake/releases/tag/7.13.8)), [eia](https://docs.ropensci.org/eia "API Wrapper for US Energy Information Administration Open Data") ([`v0.4.0`](https://github.com/ropensci/eia/releases/tag/v0.4.0)), [fastMatMR](https://docs.ropensci.org/fastMatMR "High-Performance Matrix Market File Operations") ([`v1.2.4`](https://github.com/ropensci/fastMatMR/releases/tag/v1.2.4)), [gutenbergr](https://docs.ropensci.org/gutenbergr "Download and Process Public Domain Works from Project Gutenberg") ([`v0.2.4`](https://github.com/ropensci/gutenbergr/releases/tag/v0.2.4)), [opencv](https://docs.ropensci.org/opencv "Bindings to OpenCV Computer Vision Library") ([`v0.4.0`](https://github.com/ropensci/opencv/releases/tag/v0.4.0)), [stats19](https://docs.ropensci.org/stats19 "Work with Open Road Traffic Casualty Data from Great Britain") ([`v3.0.2`](https://github.com/ropensci/stats19/releases/tag/v3.0.2)), and [waywiser](https://docs.ropensci.org/waywiser "Ergonomic Methods for Assessing Spatial Models") ([`v0.5.1`](https://github.com/ropensci/waywiser/releases/tag/v0.5.1)).
+The following eleven packages have had an update since the last newsletter: [assertr](https://docs.ropensci.org/assertr "Assertive Programming for R Analysis Pipelines") ([`v3.0.1`](https://github.com/ropensci/assertr/releases/tag/v3.0.1)), [beastier](https://docs.ropensci.org/beastier "Call BEAST2") ([`v2.5`](https://github.com/ropensci/beastier/releases/tag/v2.5)), [beautier](https://docs.ropensci.org/beautier "BEAUti from R") ([`v2.6.11`](https://github.com/ropensci/beautier/releases/tag/v2.6.11)), [biomartr](https://docs.ropensci.org/biomartr "Genomic Data Retrieval") ([`v1.0.6`](https://github.com/ropensci/biomartr/releases/tag/v1.0.6)), [drake](https://docs.ropensci.org/drake "A Pipeline Toolkit for Reproducible Computation at Scale") ([`7.13.8`](https://github.com/ropensci/drake/releases/tag/7.13.8)), [eia](https://docs.ropensci.org/eia "API Wrapper for US Energy Information Administration Open Data") ([`v0.4.1`](https://github.com/ropensci/eia/releases/tag/v0.4.1)), [fastMatMR](https://docs.ropensci.org/fastMatMR "High-Performance Matrix Market File Operations") ([`v1.2.4`](https://github.com/ropensci/fastMatMR/releases/tag/v1.2.4)), [gutenbergr](https://docs.ropensci.org/gutenbergr "Download and Process Public Domain Works from Project Gutenberg") ([`v0.2.4`](https://github.com/ropensci/gutenbergr/releases/tag/v0.2.4)), [opencv](https://docs.ropensci.org/opencv "Bindings to OpenCV Computer Vision Library") ([`v0.4.0`](https://github.com/ropensci/opencv/releases/tag/v0.4.0)), [stats19](https://docs.ropensci.org/stats19 "Work with Open Road Traffic Casualty Data from Great Britain") ([`v3.0.2`](https://github.com/ropensci/stats19/releases/tag/v3.0.2)), and [waywiser](https://docs.ropensci.org/waywiser "Ergonomic Methods for Assessing Spatial Models") ([`v0.5.1`](https://github.com/ropensci/waywiser/releases/tag/v0.5.1)).
 
 ## Software Peer Review
 
-There are eighteen recently closed and active submissions and 3 submissions on hold. Issues are at different stages: 
+There are seventeen recently closed and active submissions and 3 submissions on hold. Issues are at different stages: 
 
 * Two at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
 
@@ -76,17 +93,19 @@ There are eighteen recently closed and active submissions and 3 submissions on h
 
     * [wmm](https://github.com/ropensci/software-review/issues/522), World Magnetic Model. Submitted by [Will Frierson](https://github.com/wfrierson). 
 
-* Two at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
+* Three at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
 
-     * [naijR](https://github.com/ropensci/software-review/issues/600), Operations to Ease Data Analyses Specific to Nigeria. Submitted by [Victor Ordu ](https://victorordu.wordpress.com). 
+     * [GLMMcosinor](https://github.com/ropensci/software-review/issues/603), Fit a cosinor model using a generalised mixed modelling framework. Submitted by [Rex Parsons](https://rwparsons.github.io/). 
+
+    * [naijR](https://github.com/ropensci/software-review/issues/600), Operations to Ease Data Analyses Specific to Nigeria. Submitted by [Victor Ordu ](https://victorordu.wordpress.com). 
 
     * [octolog](https://github.com/ropensci/software-review/issues/502), Better Github Action Logging. Submitted by [Jacob Wujciak-Jens](https://github.com/assignUser). 
 
-* Eight at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
+* Seven at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 
      * [comtradr](https://github.com/ropensci/software-review/issues/613), Interface with the United Nations Comtrade API. Submitted by [paulbochtler](https://github.com/datapumpernickel). 
 
-    * [GLMMcosinor](https://github.com/ropensci/software-review/issues/603), Fit a cosinor model using a generalised mixed modelling framework. Submitted by [Rex Parsons](https://rwparsons.github.io/). 
+    * [baRulho](https://github.com/ropensci/software-review/issues/609), Quantifying (Animal) Sound Degradation. Submitted by [Marcelo Araya-Salas](https://marceloarayasalas.weebly.com/). 
 
     * [rangr](https://github.com/ropensci/software-review/issues/595), Mechanistic Simulation of Species Range Dynamics. Submitted by [Katarzyna Markowska](https://github.com/katarzynam-165). 
 
@@ -98,13 +117,9 @@ There are eighteen recently closed and active submissions and 3 submissions on h
 
     * [fwildclusterboot](https://github.com/ropensci/software-review/issues/546), Fast Wild Cluster Bootstrap Inference for Linear Models. Submitted by [Alexander Fischer](https://s3alfisc.github.io/blog/).  (Stats).
 
-    * [GLMMcosinor](https://github.com/ropensci/software-review/issues/603), Fit a cosinor model using a generalised mixed modelling framework. Submitted by [Rex Parsons](https://rwparsons.github.io/). 
+* Two at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
-* Three at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
-
-     * [baRulho](https://github.com/ropensci/software-review/issues/609), Quantifying (Animal) Sound Degradation. Submitted by [Marcelo Araya-Salas](https://marceloarayasalas.weebly.com/). 
-
-    * [weatherOz](https://github.com/ropensci/software-review/issues/598), An API Client for Australian Weather and Climate Data Resources. Submitted by [Rodrigo Pires](https://github.com/bozaah). 
+     * [weatherOz](https://github.com/ropensci/software-review/issues/598), An API Client for Australian Weather and Climate Data Resources. Submitted by [Rodrigo Pires](https://github.com/bozaah). 
 
     * [bssm](https://github.com/ropensci/software-review/issues/489), Bayesian Inference of Non-Linear and Non-Gaussian State Space. Submitted by [Jouni Helske](https://jounihelske.netlify.app).  (Stats).
 
@@ -124,13 +139,17 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 
 
-* [The rOpenSci Multiverse](/blog/2023/11/06/r-universe-stars-finale) by Alejandra Bellini, and Yanina Bellini Saibene. In this article we summarize the interviews of the series *Meeting the stars of the R universe* In this article, we bring you five examples of organizations and teams that choose the R Universe to facilitate access and promote community sharing of data and software. Other languages: <a href='/es/blog/2023/11/06/r-universe-stars-finale-es' lang='es'>El multiverso de rOpenSci (es)</a>.
+* [The rOpenSci Multiverse](/blog/2023/11/06/r-universe-stars-finale) by Alejandra Bellini and Yanina Bellini Saibene. In this article we summarize the interviews of the series *Meeting the stars of the R universe* In this article, we bring you five examples of organizations and teams that choose the R Universe to facilitate access and promote community sharing of data and software. Other languages: <a href='/es/blog/2023/11/06/r-universe-stars-finale-es' lang='es'>El multiverso de rOpenSci (es)</a>.
+
+* [Empowering Open Science: Donate to Support our Mission](/blog/2023/11/21/donation-2023) by The rOpenSci Team. rOpenSci is a nonprofit organization that is funded entirely by grants and donations. These collaborations enable us to sustain our projects and meet our goals.
 
 
 
 ### Tech Notes
 
 * [Scanning QR codes in R](/blog/2023/10/30/opencv-qr) by Jeroen Ooms. The new version of the opencv package includes a cool QR code scanner. This post was featured in the [R Weekly Highlights podcast](https://rweekly.fireside.fm/143) hosted by Eric Nantz and Mike Thomas.
+
+* [R-universe now builds WASM binaries for all R packages](/blog/2023/11/17/runiverse-wasm) by Jeroen Ooms. R-universe now builds WebAssembly binaries for all R packages for use in WebR applications such as shinylive.
 
 ## Use cases
 
@@ -183,7 +202,7 @@ An important topic not only for package developers.
 ### Lesser-known reasons to prefer `apply()` over for loops
 
 Hugo Gruson wrote a very informative blog post on ["Lesser-known reasons to prefer `apply()` over for loops"](https://epiverse-trace.github.io/posts/for-vs-apply/).
-The third one will surprise you. :wink: (Yes, this is a click bait.)
+The third one will surprise you. :wink: (Yes, this is click bait.)
 
 ### Null coalescing operator soon in base R
 

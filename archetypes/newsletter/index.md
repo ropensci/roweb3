@@ -28,6 +28,9 @@ english <- function(x) {
 }
 
 nice_string <- function(...) {
+  if (length(...) == 2) {
+    return(paste(c(...), collapse = " and "))
+  }
   glue::glue_collapse(..., sep = ", ", last = ", and ")
 }
 ```

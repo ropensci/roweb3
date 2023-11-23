@@ -28,6 +28,9 @@ english <- function(x) {
 }
 
 nice_string <- function(...) {
+  if (length(...) == 2) {
+    return(paste(c(...), collapse = " and "))
+  }
   glue::glue_collapse(..., sep = ", ", last = ", and ")
 }
 ```
@@ -327,6 +330,8 @@ get_user_text <- function(issue) {
   name <- info$name %||% issue$user$login
   url <- if (nzchar(info$blog)) info$blog else info$html_url
   if (!grepl("^https?:", url)) url <- paste0("http://", url)
+  if (url == "http://csaybar.github.io/") url <- "https://csaybar.github.io/"
+  if (url == "http://paocorrales.github.io/") url <- "https://paocorrales.github.io/"
   sprintf("[%s](%s)", name, url)
   
 }
