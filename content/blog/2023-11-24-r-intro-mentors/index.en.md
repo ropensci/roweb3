@@ -47,7 +47,7 @@ As a mentor of the Champions Program, I look forward to sharing my experiences a
 
 Dr. Emi Tanaka is a Senior Lecturer in Statistics at the Biological Data Science Institute (and the Research School of Finance, Actuarial Studies and Statistics) at the Australian National University.
 
-She has developed numerous open-source tools, primarily as R-packages, and resources aimed at making statistical methods accessible to a diverse audience. Emi demonstrates a proactive approach to community development and education through her involvement in the branches of the Statistical Society of Australia (SSA) and other committees.
+She has developed numerous open-source tools, primarily as R packages, and resources aimed at making statistical methods accessible to a diverse audience. Emi demonstrates a proactive approach to community development and education through her involvement in the branches of the Statistical Society of Australia (SSA) and other committees.
 
 Emi highly values research software as an enabler of science and as part of encouraging software development in the statistical community, she created the Di Cook Award (an open-source statistical software award) for students.
 
