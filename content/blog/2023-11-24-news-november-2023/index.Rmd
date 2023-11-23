@@ -42,7 +42,6 @@ Now let's dive into the activity at and around rOpenSci!
 
 ### Giving season
 
-
 This Giving Season consider donating to rOpenSci to support our mission of empowering Open Science.
 
 Sustaining an open project with quality infrastructure freely accessible to the global and diverse community of R software users, research software developers, and engineers requires many different resources. Our organization’s ongoing costs are supported by grants and donations from individuals and organizations which share our vision and mission.
@@ -51,9 +50,10 @@ By supporting us, you’re not just donating; you’re contributing to a communi
 
 Join us in this vital mission today! You can donate here: https://ropensci.org/donate/
 
-### Web assembly and R-universe
+### R-universe now builds WASM binaries for all R packages!
 
-PLACEHOLDER, JEROEN TO WRITE A TECH NOTE
+R-universe now builds WebAssembly binaries for all R packages for use in WebR applications such as shinylive.
+Read more in our [tech note](/blog/2023/11/17/runiverse-wasm/).
 
 ### Coworking
 
