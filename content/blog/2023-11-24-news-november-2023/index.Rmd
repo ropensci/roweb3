@@ -42,7 +42,14 @@ Now let's dive into the activity at and around rOpenSci!
 
 ### Giving season
 
-PLACEHOLDER FOR SUMMARY OF YANI'S POST
+
+This Giving Season consider donating to rOpenSci to support our mission of empowering Open Science.
+
+Sustaining an open project with quality infrastructure freely accessible to the global and diverse community of R software users, research software developers, and engineers requires many different resources. Our organization’s ongoing costs are supported by grants and donations from individuals and organizations which share our vision and mission.
+
+By supporting us, you’re not just donating; you’re contributing to a community that’s breaking down barriers, creating opportunities, and shaping the future of open and reproducible science for everyone. 
+
+Join us in this vital mission today! You can donate here: https://ropensci.org/donate/
 
 ### Web assembly and R-universe
 
@@ -60,9 +67,19 @@ Consult our [Events](/events) page to find your local time and how to join.
 
 - [Tuesday, December 5th, 9:00 Australian Western (01:00 UTC)](/events/coworking-2023-12/), Why won't it pass?! Troubleshooting R package checks. With community host [Adam Sparks](/author/adam-sparks/) and [Steffi LaZerte](/author/steffi-lazerte/).
     - Explore what R package checks are and where they might fail;
-    - Work on an R package and run some checks;
-    - Spend some time troubleshooting your own failing package checks.
+    - Spend some time troubleshooting your own failing package checks;
+    - Discuss tips and tricks for troubleshooting package checks with our community host and other attendees.
 
+- [Tuesday, January 9th, 14:00 Europe Central (13:00 UTC)](/events/coworking-2024-01/), Working with APIs. With community host [Jon Harmon](/author/jon-harmon/) and [Steffi LaZerte](/author/steffi-lazerte/).
+    - Explore using APIs in your own work;
+    - Learn about packages that can help;
+    - Discuss using APIs in R with our community host and other attendees.
+
+- [Tuesday, February 6th, 9:00 Americas Pacific (17:00 UTC)](/events/coworking-2024-02/), R-Universe Office Hours. With cohost [Jeroen Ooms](/author/jeroen-ooms/) and [Steffi LaZerte](/author/steffi-lazerte/).
+    - Explore what the [R-Universe](https://r-universe.dev/) has to offer;
+    - Create your own R-Universe
+    - Ask questions or troubleshoot your R-Universe problems with the cohost and other attendees.
+    
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
 
@@ -628,7 +645,7 @@ An important topic not only for package developers.
 ### Lesser-known reasons to prefer `apply()` over for loops
 
 Hugo Gruson wrote a very informative blog post on ["Lesser-known reasons to prefer `apply()` over for loops"](https://epiverse-trace.github.io/posts/for-vs-apply/).
-The third one will surprise you. :wink: (Yes, this is a click bait.)
+The third one will surprise you. :wink: (Yes, this is click bait.)
 
 ### Null coalescing operator soon in base R
 
