@@ -80,7 +80,7 @@ Consult our [Events](/events) page to find your local time and how to join.
 
 - [Tuesday, February 6th, 9:00 Americas Pacific (17:00 UTC)](/events/coworking-2024-02/), R-Universe Office Hours. With cohost [Jeroen Ooms](/author/jeroen-ooms/) and [Steffi LaZerte](/author/steffi-lazerte/).
     - Explore what the [R-Universe](https://r-universe.dev/) has to offer;
-    - Create your own R-Universe
+    - Create your own R-Universe;
     - Ask questions or troubleshoot your R-Universe problems with the cohost and other attendees.
     
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
@@ -664,6 +664,6 @@ Gábor Csárdi's experimental [evercran project](https://github.com/r-hub/evercr
 ## Last words
 
 Thanks for reading! If you want to get involved with rOpenSci, check out our [Contributing Guide](https://contributing.ropensci.org) that can help direct you to the right place, whether you want to make code contributions, non-code contributions, or contribute in other ways like sharing use cases.
+You can also support our work through [donations](/donate).
 
 If you haven't subscribed to our newsletter yet, you can [do so via a form](/news/). Until it's time for our next newsletter, you can keep in touch with us via our [website](/) and [Mastodon account](https://hachyderm.io/@rOpenSci).
-You can support our work through [donations](/donate).

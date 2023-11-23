@@ -615,6 +615,6 @@ Some useful tips for R package developers. :eyes:
 ## Last words
 
 Thanks for reading! If you want to get involved with rOpenSci, check out our [Contributing Guide](https://contributing.ropensci.org) that can help direct you to the right place, whether you want to make code contributions, non-code contributions, or contribute in other ways like sharing use cases.
+You can also support our work through [donations](/donate).
 
 If you haven't subscribed to our newsletter yet, you can [do so via a form](/news/). Until it's time for our next newsletter, you can keep in touch with us via our [website](/) and [Mastodon account](https://hachyderm.io/@rOpenSci).
-You can support our work through [donations](/donate).
