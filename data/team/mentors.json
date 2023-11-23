@@ -119,7 +119,7 @@
    "name": "Bruna Wundervald",
    "affiliation": "ABI Inbev, Maynooth University",
    "url": "https://brunaw.com/",
-   "image" : "/img/team/bruna-wundervald.jpeg
+   "image" : "/img/team/bruna-wundervald.jpeg",
    "roles": [
       "mentor 2023-2024"
    ],
@@ -129,7 +129,7 @@
 {
    "name": "Apoorv Anand",
    "affiliation": "CivicDataLab",
-   "url": "https://behindbars.netlify.app/",
+   "url": "https://behindbars.netlify.app",
    "image" : "/img/team/apoorv-anand.jpeg",
    "roles": [
       "mentor 2023-2024"
@@ -138,14 +138,14 @@
    "home": ""
 },
 {
-   "name": "",
-   "affiliation": "",
-   "url": "",
-   "image" : "/img/team/",
+   "name": "Emi Tanaka",
+   "affiliation": "Australian National University",
+   "url": "https://emitanaka.org/",
+   "image" : "/img/team/emi-tanaka.jpg",
    "roles": [
       "mentor 2023-2024"
    ],
-   "github": "",
+   "github": "emitanaka",
    "home": ""
 },
 {
