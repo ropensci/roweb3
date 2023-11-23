@@ -74,7 +74,7 @@ I am deeply committed to strengthening technical capacities within communities; 
 
 {{< figure src = "/img/team/luis-verde.jpeg" width = "300" alt = "Profile photo of Luis D. Verde Arregoitia." caption = "<strong>Luis D. Verde Arregoitia</strong>">}}
 
-Postdoctoral researcher in evolutionary macroecology. Mammalogist . Biology background (BSc. Biology, Universidad Nacional Autónoma de México; PhD in Conservation Science, University of Queensland).
+I'm a postdoctoral researcher in evolutionary macroecology. I'm a mammalogist with a Biology background. I have a BSc in Biology from the Universidad Nacional Autónoma de México and a Ph.D. in Conservation Science, from the University of Queensland.
 
 In addition to my research I spend time writing tools, blog posts, and teaching materials to help others work with messy data and spreadsheets (unheadr package) and improve their R scripts for reproducibility (annotater package).
 
