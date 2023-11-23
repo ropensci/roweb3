@@ -40,7 +40,7 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-### Giving season
+### Giving season: consider donating to rOpenSci
 
 This Giving Season consider donating to rOpenSci to support our mission of empowering Open Science.
 
