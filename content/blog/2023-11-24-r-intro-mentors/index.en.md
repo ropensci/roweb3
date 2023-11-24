@@ -105,7 +105,7 @@ Jonathan Keane is an engineering leader with a background in software engineerin
 
 {{< figure src = "/img/team/apoorv-anand.jpeg" width = "300" alt = "Profile photo of Apoorv Anand." caption = "<strong>Apoorv Anand</strong>">}}
 
-Member of Civic Data Lab and Justice Hub.  Apoorv started his "open data" journey as a volunteer, with DataKind, to do "Data-for-good". He joined CivicDataLab team, in 2018, and started collaborating to make public datasets more accessible to citizens.
+Member of CivicDataLab and Justice Hub.  Apoorv started his "open data" journey as a volunteer, with DataKind, to do "Data-for-good". He joined CivicDataLab team, in 2018, and started collaborating to make public datasets more accessible to citizens.
 
-"I would like to contribute by not just being an active user of packages but also by helping others develop them and write about their process and experiences. This program will surely help me to grow as a developer and a mentor and will provide an opportunity to learn from and give back to this community. "
+"I would like to contribute by not just being an active user of packages but also by helping others develop them and write about their process and experiences. This program will surely help me to grow as a developer and a mentor and will provide an opportunity to learn from and give back to this community."
 
