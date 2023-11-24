@@ -36,6 +36,12 @@ Join us in this vital mission today! You can donate here: https://ropensci.org/d
 R-universe now builds WebAssembly binaries for all R packages for use in WebR applications such as shinylive.
 Read more in our [tech note](/blog/2023/11/17/runiverse-wasm/).
 
+### Recording of comm call [R in Government](/commcalls/oct2023-government/)
+
+In this [community call](/commcalls/oct2023-government/), our panelists shared their experiences and examples of projects with R at different levels of government and in different countries.
+
+With [Luíza Andrade](https://ropensci.org/author/lu%C3%ADza-andrade/), [Karly Harker](https://ropensci.org/author/karly-harker/), [Ahmadou Dicko](https://ropensci.org/author/ahmadou-dicko/), [Pablo Tiscornia](https://ropensci.org/author/pablo-tiscornia/). 
+
 ### Coworking
 
 Read [all about coworking](/blog/2023/06/21/coworking/) in our recent [post](/blog/2023/06/21/coworking/)!
@@ -73,7 +79,7 @@ And remember, you can always cowork independently on work related to R, work on 
 
 The following  package recently became a part of our software suite:
 
-+ [fastMatMR](https://docs.ropensci.org/fastMatMR), developed by Rohit Goswami: An interface to the fast_matrix_market C++ library, this package offers efficient read and write operations for Matrix Market files in R. It supports both sparse and dense matrix formats. Peer-reviewed at ROpenSci (<https://github.com/ropensci/software-review/issues/606>).  It is available on [CRAN]( https://CRAN.R-project.org/package=fastMatMR). It has been [reviewed](https://github.com/ropensci/software-review/issues/606) by Øystein Sørensen, and Ildikó Czeller.
++ [fastMatMR](https://docs.ropensci.org/fastMatMR), developed by Rohit Goswami: An interface to the fast_matrix_market C++ library, this package offers efficient read and write operations for Matrix Market files in R. It supports both sparse and dense matrix formats. Peer-reviewed at ROpenSci (<https://github.com/ropensci/software-review/issues/606>).  It is available on [CRAN]( https://CRAN.R-project.org/package=fastMatMR). It has been [reviewed](https://github.com/ropensci/software-review/issues/606) by Øystein Sørensen and Ildikó Czeller.
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
@@ -85,7 +91,7 @@ The following eleven packages have had an update since the last newsletter: [ass
 
 ## Software Peer Review
 
-There are seventeen recently closed and active submissions and 3 submissions on hold. Issues are at different stages: 
+There are eighteen recently closed and active submissions and 3 submissions on hold. Issues are at different stages: 
 
 * Two at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
 
@@ -123,11 +129,13 @@ There are seventeen recently closed and active submissions and 3 submissions on 
 
     * [bssm](https://github.com/ropensci/software-review/issues/489), Bayesian Inference of Non-Linear and Non-Gaussian State Space. Submitted by [Jouni Helske](https://jounihelske.netlify.app).  (Stats).
 
-* Three at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
+* Four at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
 
-     * [rgeeExtra](https://github.com/ropensci/software-review/issues/608), Extensions for rgee. Submitted by [Cesar Aybar](http://csaybar.github.io). 
+     * [fellingdateR](https://github.com/ropensci/software-review/issues/618), Estimate, report and combine felling dates of historical tree-ring. Submitted by [KriHa](https://wwww.researchgate.net/profile/Kristof_Haneca). 
 
-    * [agromet](https://github.com/ropensci/software-review/issues/599), Índices y Estadísticos Climáticos e Hidrológicos. Submitted by [Paola Corrales](http://paocorrales.github.io). 
+    * [rgeeExtra](https://github.com/ropensci/software-review/issues/608), Extensions for rgee. Submitted by [Cesar Aybar](http://csaybar.github.io). 
+
+    * [agromet](https://github.com/ropensci/software-review/issues/599), Índices y Estadísticos Climáticos e Hidrológicos. Submitted by [Paola Corrales](https://paocorrales.github.io). 
 
     * [qualtdict](https://github.com/ropensci/software-review/issues/572), Generating Variable Dictionaries and Labelled Data Exports of Qualtrics. Submitted by [lyh970817](https://github.com/lyh970817). 
 

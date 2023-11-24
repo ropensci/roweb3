@@ -58,6 +58,12 @@ Join us in this vital mission today! You can donate here: https://ropensci.org/d
 R-universe now builds WebAssembly binaries for all R packages for use in WebR applications such as shinylive.
 Read more in our [tech note](/blog/2023/11/17/runiverse-wasm/).
 
+### Recording of comm call [R in Government](/commcalls/oct2023-government/)
+
+In this [community call](/commcalls/oct2023-government/), our panelists shared their experiences and examples of projects with R at different levels of government and in different countries.
+
+With [Luíza Andrade](https://ropensci.org/author/lu%C3%ADza-andrade/), [Karly Harker](https://ropensci.org/author/karly-harker/), [Ahmadou Dicko](https://ropensci.org/author/ahmadou-dicko/), [Pablo Tiscornia](https://ropensci.org/author/pablo-tiscornia/). 
+
 ### Coworking
 
 Read [all about coworking](/blog/2023/06/21/coworking/) in our recent [post](/blog/2023/06/21/coworking/)!
