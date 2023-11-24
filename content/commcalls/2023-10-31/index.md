@@ -22,8 +22,14 @@ outputs:
 vimeo:
  - id: '880550075'
 resources:
-- url: https://podcasts.apple.com/au/podcast/using-government-data-to-improve-peoples-lives/id950926314?i=1000628188910
+  - url: https://podcasts.apple.com/au/podcast/using-government-data-to-improve-peoples-lives/id950926314?i=1000628188910
     name: Grattan Podcast interview to Adam H. Sparks as a goverment employee  
+  - url: https://bcgov.r-universe.dev/
+    name: BC R-Universe
+  - url: https://unhcrverse.r-universe.dev/
+    name: A collection of R packages and projects developped by UNHCR Staff
+  - url: https://humanitarian-user-group.r-universe.dev/
+    name: HumanitaRian-useR-group
 speakers:  
   - name: Luíza Andrade
     bio: "Luiza Andrade is the Data Analytics Lead at the University of Chicago's Development Innovation Lab. Her work focuses on incorporating non-traditional data sources into development research, promoting transparency and reproducibility in social sciences, and developing software tools to simplify research data work. Prior to joining DIL, she was a Junior Data Scientist at the World Bank’s Development Impact Evaluation department. Luiza is a Brazilian national and holds a BA and an MSc in economics from the University of Sao Paulo."
