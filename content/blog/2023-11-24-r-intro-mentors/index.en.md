@@ -78,7 +78,7 @@ I'm a postdoctoral researcher in evolutionary macroecology. I'm a mammalogist wi
 
 In addition to my research I spend time writing tools, blog posts, and teaching materials to help others work with messy data and spreadsheets (unheadr package) and improve their R scripts for reproducibility (annotater package).
 
-Mentor for the Champions program. Happy to guide others in their software development journey in a way that benefits both users and developers and ultimately enriches the open tools community in terms of packages and people.
+Happy to guide others in their software development journey in a way that benefits both users and developers and ultimately enriches the open tools community in terms of packages and people.
 
 
 ### Erle Holgersen
