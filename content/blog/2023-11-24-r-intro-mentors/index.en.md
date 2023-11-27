@@ -109,3 +109,4 @@ Member of CivicDataLab and Justice Hub.  Apoorv started his "open data" journey 
 
 "I would like to contribute by not just being an active user of packages but also by helping others develop them and write about their process and experiences. This program will surely help me to grow as a developer and a mentor and will provide an opportunity to learn from and give back to this community."
 
+We're so happy to have this wonderful group of mentors for the 2023-2024 cohort of the Champions Program. We are currently finalizing the selection of mentees and are looking forward to announcing them next!
