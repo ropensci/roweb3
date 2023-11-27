@@ -1,5 +1,5 @@
 ---
-title: 'DIVIDE AND YOU WILL WIN: From {polar} To the Polarverse'
+title: 'Divide and You will Win: From {polar} To the Polarverse'
 author: Juan Pablo Ruiz Nicolini
 date: '2023-08-24'
 slug: divide_and_you_will_win_from_polar_to_the_polarverse
