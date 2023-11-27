@@ -2,6 +2,16 @@
 slug: "champions-program-mentors-2023"
 title: Introducing rOpenSci Mentors - Cohort 2023-2024
 author:
+- Apoorv Anand
+- Bruna Wundervald
+- Eunseop Kim
+- Emi Tanaka
+- François Michonneau
+- Francisco Cardozo
+- Luis D. Verde Arregoitia
+- Erle Holgersen
+- Marie C Vendettuoli
+- Jonathan Keane
 - Yanina Bellini Saibene
 date: '2023-11-24'
 tags:
