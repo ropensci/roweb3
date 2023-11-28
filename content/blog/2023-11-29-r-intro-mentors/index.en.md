@@ -30,7 +30,7 @@ We are pleased to introduce you to our mentors for the cohort 2023-2024!
 
 ### Apoorv Anand
 
-{{< figure src = "/img/team/apoorv-anand.jpeg" width = "300" alt = "Profile photo of Apoorv Anand." caption = "<strong>Apoorv Anand</strong>">}}
+{{< figure src = "/img/team/apoorv-anand.jpeg" width = "300" alt = "Profile photo of Apoorv Anand." caption = "<strong>Apoorv Anand - CivicDataLab</strong>">}}
 
 Member of CivicDataLab and Justice Hub.  Apoorv started his "open data" journey as a volunteer, with DataKind, to do "Data-for-good". He joined CivicDataLab team in 2018, and started collaborating to make public datasets more accessible to citizens.
 
@@ -39,7 +39,7 @@ Member of CivicDataLab and Justice Hub.  Apoorv started his "open data" journey 
 
 ### Bruna Wundervald
 
-{{< figure src = "/img/team/bruna-wundervald.jpeg" width = "300" alt = "Profile photo of Bruna Wundervald" caption = "<strong>Bruna Wundervald</strong>">}}
+{{< figure src = "/img/team/bruna-wundervald.jpeg" width = "300" alt = "Profile photo of Bruna Wundervald" caption = "<strong>Bruna Wundervald - Maynooth University, ABI Inbev</strong>">}}
 
 I am a Data Scientist graduated in Statistics, with a Ph.D. in Bayesian Machine Learning from the Hamilton Institute, Maynooth, Ireland.
 
@@ -50,7 +50,7 @@ I am happy to be giving back to the community that has helped me immensely in th
 
 ### Eunseop Kim
 
-{{< figure src = "/img/team/eunseop-kim.jpg" width = "300" alt = "Profile photo of Eunseop Kim." caption = "<strong>Eunseop Kim</strong>">}} 
+{{< figure src = "/img/team/eunseop-kim.jpg" width = "300" alt = "Profile photo of Eunseop Kim." caption = "<strong>Eunseop Kim - Eli Lilly and Company</strong>">}} 
 
 I am a data scientist at Eli Lilly and Company, specializing in the development of AI/ML methods for sales and marketing analytics. I hold a Ph.D. in Statistics from The Ohio State University, USA, and have degrees in Economics, both a Master's and a Bachelor's, from Seoul National University, South Korea. Originally from South Korea, I currently reside in the USA.
 
@@ -60,7 +60,7 @@ As a mentor in the Champions Program, I look forward to sharing my experiences a
 
 ### Emi Tanaka
 
-{{< figure src = "/img/team/emi-tanaka.jpg" width = "300" alt = "Profile photo of Emi Tanaka." caption = "<strong>Emi Tanaka</strong>">}}
+{{< figure src = "/img/team/emi-tanaka.jpg" width = "300" alt = "Profile photo of Emi Tanaka." caption = "<strong>Emi Tanaka - Australian National University</strong>">}}
 
 Dr. Emi Tanaka is a Senior Lecturer in Statistics at the Biological Data Science Institute (and the Research School of Finance, Actuarial Studies and Statistics) at the Australian National University.
 
@@ -71,7 +71,7 @@ Emi highly values research software as an enabler of science and as part of enco
 
 ### François Michonneau
 
-{{< figure src = "/img/team/françois-michonneau.JPG" width = "300" alt = "Profile photo of François Michonneau." caption = "<strong>François Michonneau</strong>">}}
+{{< figure src = "/img/team/françois-michonneau.JPG" width = "300" alt = "Profile photo of François Michonneau." caption = "<strong>François Michonneau - Voltron Data</strong>">}}
 
 I am an educator specializing in modern data systems. My interest in data education started when I was working on my PhD in marine biology at the University of Florida. After leaving academia, I worked at The Carpentries, and I am currently a Senior Training Engineer at Voltron Data. I co-authored several R packages, one of which went through the rOpenSci software peer review process.
 
@@ -79,7 +79,7 @@ I'm excited to be a mentor to help others participate in and grow the R communit
 
 ### Francisco Cardozo
 
-{{< figure src = "/img/team/francisco-cardozo.JPEG" width = "300" alt = "Profile photo of Francisco Cardozo." caption = "<strong>Francisco Cardozo</strong>" >}}
+{{< figure src = "/img/team/francisco-cardozo.JPEG" width = "300" alt = "Profile photo of Francisco Cardozo." caption = "<strong>Francisco Cardozo - University of Miami</strong>" >}}
 
 My name is Francisco Cardozo. I am currently a Ph.D. student at the University of Miami, USA, where I am part of the Prevention Science and Community Health program.
 
@@ -89,7 +89,7 @@ I am deeply committed to strengthening technical capacities within communities; 
 
 ### Luis D. Verde Arregoitia
 
-{{< figure src = "/img/team/luis-verde.jpeg" width = "300" alt = "Profile photo of Luis D. Verde Arregoitia." caption = "<strong>Luis D. Verde Arregoitia</strong>">}}
+{{< figure src = "/img/team/luis-verde.jpeg" width = "300" alt = "Profile photo of Luis D. Verde Arregoitia." caption = "<strong>Luis D. Verde Arregoitia - Instituto de Ecología AC (INECOL)</strong>">}}
 
 I'm a postdoctoral researcher in evolutionary macroecology. I'm a mammalogist with a Biology background. I have a BSc in Biology from the Universidad Nacional Autónoma de México and a Ph.D. in Conservation Science, from the University of Queensland, Australia.
 
@@ -100,7 +100,7 @@ Happy to guide others in their software development journey in a way that benefi
 
 ### Erle Holgersen
 
-{{< figure src = "/img/team/erle-holgersen.jpg" width = "300" alt = "Profile photo of Erle Holgersen." caption = "<strong>Erle Holgersen</strong>">}}
+{{< figure src = "/img/team/erle-holgersen.jpg" width = "300" alt = "Profile photo of Erle Holgersen." caption = "<strong>Erle Holgersen - Deep Genomics</strong>">}}
 
 Hi! I'm Erle Holgersen, and hope to serve as a mentor in R package development. I am a computational biologist at Deep Genomics, where I collaborate closely with lab teams and build tools for streamlining data analysis.
 
@@ -108,13 +108,13 @@ Looking forward to helping with the Champions Program!
 
 ### Marie C. Vendettuoli
 
-{{< figure src = "/img/team/marie-vendettuoli.jpg" width = "300" alt = "Profile photo of Marie C Vendettuoli" caption = "<strong>Marie C. Vendettuoli </strong>">}}
+{{< figure src = "/img/team/marie-vendettuoli.jpg" width = "300" alt = "Profile photo of Marie C Vendettuoli" caption = "<strong>Marie C. Vendettuoli - Fred Hutchinson Cancer Center (2019 - 2023) and Bonneville Power Administration (2023-present)</strong>">}}
 
 Marie Vendettuoli (she/her) holds a PhD in Bioinformatics/Computational Biology & Human Computer Interaction from Iowa State University, USA. She has spent over a decade developing R packages for scientists subject to regulatory oversight, both in the animal and human health domains. Marie values the challenge of bringing open source R tools to new audiences and looks forward to working with Champions to address their projects with an emphasis on curiosity. A Pacific Northwest native, Marie is in the process of relocating to the Portland area (USA) after several years working in Seattle.
 
 ### Jonathan Keane
 
-{{< figure src = "/img/team/jonathan-keane.png" width = "300" alt = "Profile photo of Jonathan Keane." caption = "<strong>Jonathan Keane</strong>">}} 
+{{< figure src = "/img/team/jonathan-keane.png" width = "300" alt = "Profile photo of Jonathan Keane." caption = "<strong>Jonathan Keane - Independent</strong>">}} 
 
 Jonathan Keane is an engineering leader with a background in software engineering and data science. Jonathan is a maintainer of the Arrow project including the Arrow R package. Jonathan lives in Chicago, IL, USA and has a PhD in Linguistics from the University of Chicago.
 
