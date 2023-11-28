@@ -116,7 +116,7 @@ Marie Vendettuoli (she/her) holds a PhD in Bioinformatics/Computational Biology 
 
 {{< figure src = "/img/team/jonathan-keane.png" width = "300" alt = "Profile photo of Jonathan Keane." caption = "<strong>Jonathan Keane - Independent</strong>">}} 
 
-Jonathan Keane is an engineering leader with a background in software engineering and data science. Jonathan is a maintainer of the Arrow project including the Arrow R package. Jonathan lives in Chicago, IL, USA and has a PhD in Linguistics from the University of Chicago.
+Jonathan Keane (they/them) is an engineering leader with a background in software engineering and data science. Jonathan is a maintainer of the Arrow project including the Arrow R package. Jonathan lives in Chicago, IL, USA and has a PhD in Linguistics from the University of Chicago.
 
 
 We're so happy to have this wonderful group of mentors for the 2023-2024 cohort of the Champions Program. We are currently finalizing the selection of mentees and are looking forward to announcing them next!
