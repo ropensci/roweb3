@@ -14,7 +14,7 @@ location: Community call (teleconference)
 country: "\U0001F310"
 attendees: All are welcome
 slug: nov2023-multilingual
-notes: 
+notes: https://docs.google.com/document/d/18RxPUbvnglPA1rVFLfnuRIXRZ_T9zvpIQyRPdfH4-lk/edit?usp=sharing
 outputs:
 - HTML
 - Calendar 
@@ -33,6 +33,15 @@ resources:
   - url: /multilingual-publishing/
     name: Multilingual Publishing
     details: web page with details about the Multilingual Publishing project.
+  - url: https://multilingual-ropensci.netlify.app/ 
+    name: Paola Slides
+    details: Paola Corrales slides with details about the Multilingual Publishing project.    
+  - url: https://babel-en.netlify.app/#/ 
+    name: Maëlle Salmon Slides
+    details: Slides with details about babelquarto and babeldown  
+  - url: https://docs.google.com/presentation/d/1dw-sSYd4PD-MpGA0UL5CzKII5nOSr1_UxfqhaM7OL3w/edit?usp=sharing
+    name: Elio Slides
+    details: Slides with details about the translation process and results
 speakers:  
   - name: Pao Corrales
     bio: Pao is a PhD candidate in atmospheric sciences working on severe weather forecasts in Argentina. She is also a professor at Universidad Nacional Guillermo Brown teaching R and related tools. She also develops open-licensed teaching materials and contributes to several communities of practise related to R.
