@@ -28,6 +28,13 @@ This year, the rOpenSci Team reviewed 28 applications from community member in v
 
 We are pleased to introduce you to our mentors for the cohort 2023-2024!
 
+### Apoorv Anand
+
+{{< figure src = "/img/team/apoorv-anand.jpeg" width = "300" alt = "Profile photo of Apoorv Anand." caption = "<strong>Apoorv Anand</strong>">}}
+
+Member of CivicDataLab and Justice Hub.  Apoorv started his "open data" journey as a volunteer, with DataKind, to do "Data-for-good". He joined CivicDataLab team in 2018, and started collaborating to make public datasets more accessible to citizens.
+
+"I would like to contribute by not just being an active user of packages but also by helping others develop them and write about their process and experiences. This program will surely help me to grow as a developer and a mentor and will provide an opportunity to learn from and give back to this community."
 
 
 ### Bruna Wundervald
@@ -111,12 +118,5 @@ Marie Vendettuoli (she/her) holds a PhD in Bioinformatics/Computational Biology 
 
 Jonathan Keane is an engineering leader with a background in software engineering and data science. Jonathan is a maintainer of the Arrow project including the Arrow R package. Jonathan lives in Chicago, IL, USA and has a PhD in Linguistics from the University of Chicago.
 
-### Apoorv Anand
-
-{{< figure src = "/img/team/apoorv-anand.jpeg" width = "300" alt = "Profile photo of Apoorv Anand." caption = "<strong>Apoorv Anand</strong>">}}
-
-Member of CivicDataLab and Justice Hub.  Apoorv started his "open data" journey as a volunteer, with DataKind, to do "Data-for-good". He joined CivicDataLab team in 2018, and started collaborating to make public datasets more accessible to citizens.
-
-"I would like to contribute by not just being an active user of packages but also by helping others develop them and write about their process and experiences. This program will surely help me to grow as a developer and a mentor and will provide an opportunity to learn from and give back to this community."
 
 We're so happy to have this wonderful group of mentors for the 2023-2024 cohort of the Champions Program. We are currently finalizing the selection of mentees and are looking forward to announcing them next!
