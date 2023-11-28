@@ -34,14 +34,14 @@ resources:
     name: Multilingual Publishing
     details: web page with details about the Multilingual Publishing project.
   - url: https://multilingual-ropensci.netlify.app/ 
-    name: Paola Slides
-    details: Paola Corrales slides with details about the Multilingual Publishing project.    
+    name: Paola Corrales Slides
+    details: slides with details about the Multilingual Publishing project.    
   - url: https://babel-en.netlify.app/#/ 
     name: Maëlle Salmon Slides
-    details: Slides with details about babelquarto and babeldown  
+    details: slides with details about babelquarto and babeldown  
   - url: https://docs.google.com/presentation/d/1dw-sSYd4PD-MpGA0UL5CzKII5nOSr1_UxfqhaM7OL3w/edit?usp=sharing
     name: Elio Slides
-    details: Slides with details about the translation process and results
+    details: slides with details about the translation process and results
 speakers:  
   - name: Pao Corrales
     bio: Pao is a PhD candidate in atmospheric sciences working on severe weather forecasts in Argentina. She is also a professor at Universidad Nacional Guillermo Brown teaching R and related tools. She also develops open-licensed teaching materials and contributes to several communities of practise related to R.
