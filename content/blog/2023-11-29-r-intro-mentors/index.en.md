@@ -10,10 +10,10 @@ author:
 - Francisco Cardozo
 - Luis Verde Arregoitia
 - Erle Holgersen
-- Marie C Vendettuoli
+- Marie Vendettuoli
 - Jonathan Keane
 - Yanina Bellini Saibene
-date: '2023-11-24'
+date: '2023-11-29'
 tags:
 - community
 - champions program
