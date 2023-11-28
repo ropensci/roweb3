@@ -18,8 +18,8 @@ notes: https://docs.google.com/document/d/18RxPUbvnglPA1rVFLfnuRIXRZ_T9zvpIQyRPd
 outputs:
 - HTML
 - Calendar 
-# vimeo:
-# - id: 
+vimeo:
+ - id: '888156474'
 resources:
   - url: https://devdevguide.netlify.app/es/preface.es.html
     name: rOpenSci DEvelopment Guide in Spanish
