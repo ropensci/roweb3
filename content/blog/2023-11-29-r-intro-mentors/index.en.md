@@ -110,7 +110,7 @@ Looking forward to helping with the Champions Program!
 
 {{< figure src = "/img/team/marie-vendettuoli.jpg" width = "300" alt = "Profile photo of Marie C Vendettuoli" caption = "<strong>Marie C. Vendettuoli - Fred Hutchinson Cancer Center (2019 - 2023) and Bonneville Power Administration (2023-present)</strong>">}}
 
-Marie Vendettuoli (she/her) holds a PhD in Bioinformatics/Computational Biology & Human Computer Interaction from Iowa State University, USA. She has spent over a decade developing R packages for scientists subject to regulatory oversight, both in the animal and human health domains. Marie values the challenge of bringing open source R tools to new audiences and looks forward to working with Champions to address their projects with an emphasis on curiosity. A Pacific Northwest native, Marie is in the process of relocating to the Portland area (USA) after several years working in Seattle.
+Marie Vendettuoli (she/her) holds a PhD in Bioinformatics/Computational Biology & Human Computer Interaction from Iowa State University, USA. She has spent over a decade developing R packages for scientists subject to regulatory oversight, both in the animal and human health domains. Marie values the challenge of bringing open source R tools to new audiences and looks forward to working with Champions to address their projects with an emphasis on curiosity. Originally from the Pacific Northwest, Marie is in the process of relocating to the Portland area (USA) after several years working in Seattle.
 
 ### Jonathan Keane
 
