@@ -79,7 +79,7 @@ I'm excited to be a mentor to help others participate in and grow the R communit
 
 ### Francisco Cardozo
 
-{{< figure src = "/img/team/francisco-cardozo.JPEG" width = "300" alt = "Profile photo of Francisco Cardozo." caption = "<strong>Francisco Cardozo - University of Miami</strong>" >}}
+{{< figure src = "/img/team/francisco-cardozo.jpg" width = "300" alt = "Profile photo of Francisco Cardozo." caption = "<strong>Francisco Cardozo - University of Miami</strong>" >}}
 
 My name is Francisco Cardozo. I am currently a Ph.D. student at the University of Miami, USA, where I am part of the Prevention Science and Community Health program.
 
