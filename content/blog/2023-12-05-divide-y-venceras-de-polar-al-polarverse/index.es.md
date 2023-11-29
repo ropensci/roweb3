@@ -1,9 +1,9 @@
 ---
-title: 'Divide y venceras: de polar al Polarverse'
-author: 'Juan Pablo Ruiz Nicolini'
+title: 'Divide y venceras: de {polar} al Polarverse'
+author: "Juan Pablo Ruiz Nicolini"
 date: '2023-12-05'
 slug: 2023-12-05-divide-y-venceras-de-polar-al-polarverse
-description: 'La Ciencia Política se encuentra con la Programación: Creando el polarverse con R y la Influencia de LatinR'
+descritpion: La Ciencia Política se encuentra con la Programación: Creando el polarverse con R y la Influencia de LatinR
 tags: 
   - comunidad
   - paquetes
@@ -47,7 +47,7 @@ De todas las cualidades que tiene `R`, **la comunidad** fue el factor determinan
 
 Al tiempo que finalizaba el primer paso de la tesis, me enteraba de la organización de la primera [Conferencia Latinoamericana de R para I+D (LatinR)](https://latin-r.com/), comunidad a la que le debo mi segundo (y tercero... y enesimo) paso en mi relación con R. En la primera edición presenté casos de uso para análisis político desde R, implementando [grillas de Argentina para usar con `{ggplot}` como si fueran mapas con `{geofacet}`](https://www.researchgate.net/publication/327382101_Geofaceting_Argentina_LatinR_2018). En la segunda edición, presentamos la *Shiny App* [Inteligencia Electoral](http://inteligenciaelectoral.mentacomunicacion.com.ar/) para el análisis de resultados electorales de Argentina y pude participar del taller  _Desarrollo de Paquetes_ con [Hadley Wickham](https://hadley.nz/). Fue éste el punto de partida ideal para empezar con la idea de empaquetar código yo mismo.
 
-{{< figure src = "geofacetar-hex.png" alt = "geofecetAR R package hex logo" width="200" >}}{{< figure src = "polar-hex.png" alt = "Original polAr R package hex logo" > width="200"}}
+{{< figure src = "geofacetar-hex.png" alt = "geofecetAR R package hex logo" width="200" >}}{{< figure src = "polar-hex.png" alt = "Original polAr R package hex logo"  width="200" >}}
 
 
 ## El nacimiento de {polAr}
