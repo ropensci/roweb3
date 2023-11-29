@@ -1042,5 +1042,32 @@
     "url": "https://discuss.ropensci.org/t/using-targets-for-an-omics-analysis-and-report-manuscript/3541",
     "image": "using-targets-for-an-omics-analysis-and-report-manuscript.png",
     "date": "2023-06-26"
+  },
+  {
+    "title": "A toolkit workflow for climate-sensitive infectious disease modelling",
+    "reporter": "Raphael Saldanha",
+    "tags": ["package", "targets", "climate", "health"],
+    "resource": "[targets](https://docs.ropensci.org/targets), [tarchetypes](https://docs.ropensci.org/tarchetypes)",
+    "url": "https://discuss.ropensci.org/t/a-toolkit-workflow-for-climate-sensitive-infectious-disease-modelling/3659",
+    "image": "a-toolkit-workflow-for-climate-sensitive-infectious-disease-modelling.png",
+    "date": "2023-10-05"
+  },
+  {
+    "title": "Targets and other tools to make college comparison website",
+    "reporter": "Brian O'Meara",
+    "tags": ["targets", "tarchetypes"],
+    "resource": "The {targets} R package user manual for the targets and tarchetypes packages",
+    "url": "https://discuss.ropensci.org/t/targets-and-other-tools-to-make-college-comparison-website/3680",
+    "image": "targets-and-other-tools-to-make-college-comparison-website.jpeg",
+    "date": "2023-11-01"
+  },
+  {
+    "title": "Unlock R functions with QR codes",
+    "reporter": "Matt Dray",
+    "tags": "opencv",
+    "resource": "The opencv package",
+    "url": "https://discuss.ropensci.org/t/unlock-r-functions-with-qr-codes/3681",
+    "image": "unlock-r-functions-with-qr-codes.gif",
+    "date": "2023-11-02"
   }
 ]
