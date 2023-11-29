@@ -1,10 +1,13 @@
 ---
-title: 'Divide y venceras: de {polar} al Polarverse'
+title: 'Divide y venceras: de polar al Polarverse'
 author: "Juan Pablo Ruiz Nicolini"
-date: '2023-08-24'
-slug: 2023-08-24-divide-y-venceras-de-polar-al-polarverse
-categories: []
-tags: []
+date: '2023-12-05'
+slug: 2023-12-05-divide-y-venceras-de-polar-al-polarverse
+descritpion: La Ciencia Política se encuentra con la Programación: Creando el polarverse con R y la Influencia de LatinR
+tags: 
+  - comunidad
+  - paquetes
+  - desarrollo
 ---
 
 > *"Solo soy un politólogo, parado frente a la consola de `R`, pidiendole que le ayude a terminar una tesis"*
@@ -38,17 +41,13 @@ SALTA$ListaF[ SALTA$Lista == "AGRUPACION FEDERALISTA POPULAR TARTAGAL" & SALTA$Y
 
 **La mejor decisión que tomé en mi carrera profesional.**
 
-`R` desde entonces en una herramienta fundamental de mi día a día. Lo es en el ámbito académico y [como docente universitario](https://tuqmano.github.io/geo_utdt/); en mis trabajos como [consultor y analista](https://twitter.com/menta_arg); en mis [tareas como funcionario público](https://ropensci.org/es/blog/2022/11/23/r-universe-stars-1-es/); y en mis ratos libres, como un pasatiempo.
+`R` desde entonces en una herramienta fundamental de mi día a día. Lo es en el ámbito académico y [como docente universitario](https://tuqmano.github.io/geo_utdt/); en mis trabajos como [consultor y analista](https://twitter.com/menta_arg); en mis [tareas como funcionario público](https://ropensci.org/es/blog/2022/11/23/r-universe-stars-1-es/); en mis ratos libres, [como un pasatiempo](https://twitter.com/TuQmano/status/1426882408574595072); y en mi trabajo actual, coordinando el equipo de Datos de [fundar](https://fund.ar/), un _think tank_ que estudia y elabora políticas públicas para  el desarrollo sostenible e inclusivo de Argentina.  
 
 De todas las cualidades que tiene `R`, **la comunidad** fue el factor determinante en mi recorrido con este lenguaje de programación.
 
 Al tiempo que finalizaba el primer paso de la tesis, me enteraba de la organización de la primera [Conferencia Latinoamericana de R para I+D (LatinR)](https://latin-r.com/), comunidad a la que le debo mi segundo (y tercero... y enesimo) paso en mi relación con R. En la primera edición presenté casos de uso para análisis político desde R, implementando [grillas de Argentina para usar con `{ggplot}` como si fueran mapas con `{geofacet}`](https://www.researchgate.net/publication/327382101_Geofaceting_Argentina_LatinR_2018). En la segunda edición, presentamos la *Shiny App* [Inteligencia Electoral](http://inteligenciaelectoral.mentacomunicacion.com.ar/) para el análisis de resultados electorales de Argentina y pude participar del taller  _Desarrollo de Paquetes_ con [Hadley Wickham](https://hadley.nz/). Fue éste el punto de partida ideal para empezar con la idea de empaquetar código yo mismo.
 
-
-<img src="https://lh5.googleusercontent.com/L0544tZ7i2883QLp7qQGoix1hqLwjppjd9LYnE95Csh-Sq78J_FjRBYh_GZ6Hu1D0QVBzWf0unNjhTOWwClpNkoSjYoNWUjRtE7sVt5-s8KtOGr646jorwPSIJaPduvDSkJJ-bzpArzD-2HfpHGTsew" width="200">
-<img src="https://lh3.googleusercontent.com/JhbZ-qOlqRNW-AVAho4A_xjEVw_NUSwwBPy2fM7DwirTKXclyuJfmPm0puMqv1MxaLCIH6ljZ6yU0pDvH-t4TPZenzjHbekNpChPuSrKiWSNH_cKRqxy4iMDdYztWJnjHNM9q10VJ0JC2VZKDHLEBpY" width="200">
-
-
+{{< figure src = "geofacetar-hex.png" alt = "geofecetAR R package hex logo" width="200" >}}{{< figure src = "polar-hex.png" alt = "Original polAr R package hex logo" > width="200"}}
 
 
 ## El nacimiento de {polAr}
@@ -107,4 +106,8 @@ Por otro lado, incoporamos un histórico pendiente a la caja de herramientas pol
 
 -   El surgimiento del proyecto *R-Universe* para mejorar la experiencia de publicación y descubrimiento de paquetes desarrollados en `R` resulta muy valioso.
 
-El *polarverse* es un proyecto paralelo, sobre el que avanzo en tiempos libres y sin financiamiento. Surgió casi lúdicamente, como experimento para aprender cómo desarrollar software. Probamos exitosamente publicar en CRAN. Nos frustramos y enojamos. Aprendimos. Sumamos nuevas herramientas. Seguimos avanzando. De a poco. "Lento, pero seguro".
+El *polarverse* fue un proyecto paralelo en el que trabajé en mis momentos libres y sin financiamiento. Surgió casi lúdicamente, como un experimento para aprender a desarrollar software. Probamos exitosamente la publicación en CRAN. Nos frustramos y enojamos. Aprendimos. Sumamos nuevas herramientas. 
+
+Seguimos avanzando. De a poco. "Lento, pero seguro". Ahora, con el apoyo y estimulo que supone en gran equipo de [fundar](https://fund.ar/), en general, y del área de [datos](https://fund.ar/area/datos/) que me toca coordinar, en particular. 
+
+
