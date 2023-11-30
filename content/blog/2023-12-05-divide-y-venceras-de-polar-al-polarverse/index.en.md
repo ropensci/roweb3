@@ -41,7 +41,7 @@ SALTA$ListaF[ SALTA$Lista == "AGRUPACION FEDERALISTA POPULAR TARTAGAL" & SALTA$Y
 
 Looking at it in perspective (like my scripts) I can say that learning R was the **best decision I made in my professional career.**
 
-`R` Since then it has become a fundamental tool in my daily life: As [academic](https://tuqmano.github.io/geo_utdt/) in my work as a [consultant and analyst](https://twitter.com/menta_arg); in my role [as a public servant](https://ropensci.org/es/blog/2022/11/23/r-universe-stars-1-es/); in my spare time, [as a hobby](https://twitter.com/TuQmano/status/1426882408574595072); and in my current role, coordinating the Data team at [fundar](https://fund.ar/), a think tank that studies and formulates public policies for the sustainable and inclusive development of Argentina.
+R Since then it has become a fundamental tool in my daily life: As [academic](https://tuqmano.github.io/geo_utdt/) in my work as a [consultant and analyst](https://twitter.com/menta_arg); in my role [as a public servant](https://ropensci.org/es/blog/2022/11/23/r-universe-stars-1-es/); in my spare time, [as a hobby](https://twitter.com/TuQmano/status/1426882408574595072); and in my current role, coordinating the Data team at [fundar](https://fund.ar/), a think tank that studies and formulates public policies for the sustainable and inclusive development of Argentina.
 
 Of all the qualities that R has, the **community** was the determining factor in my journey with this programming language.
 
