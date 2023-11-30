@@ -95,7 +95,7 @@ During this process, I incorporated  the R-Universe into the workflow. It provid
 
 First, we returned to CRAN! In February 2023, we shipped geoAr, which, as noted, provides access to and facilitates the processing of spatially relevant data. A version under development (accessible from the R-Universe) also allows you to interact with the [API of the Argentine Geographic Data Standardization Service (Servicio de Normalización de Datos Geográficos de Argentina](https://georef-ar-api.readthedocs.io/es/latest/).
 
-On the other hand, I added a pending tool to the polAr toolbox to work with census data: [censAr](https://github.com/PoliticaArgentina/censAr). The package, currently under development, is based on the code from [`{censo2017](https://docs.ropensci.org/censo2017/) developed by [Mauricio "Pacha" Vargas](https://ropensci.org/author/pach%C3%A1-aka-mauricio-vargas-sep%C3%BAlveda/) and part of the rOpenSci suite.
+On the other hand, I added a pending tool to the polAr toolbox to work with census data: [censAr](https://github.com/PoliticaArgentina/censAr). The package, currently under development, is based on the code from [censo2017](https://docs.ropensci.org/censo2017/) developed by [Mauricio "Pacha" Vargas](https://ropensci.org/author/pach%C3%A1-aka-mauricio-vargas-sep%C3%BAlveda/) and part of the rOpenSci suite.
 
 ## Summarizinig my experience 
 
