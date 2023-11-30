@@ -10,6 +10,7 @@ buildFuture = true
 preserveTaxonomyNames = true
 pygmentsUseClasses=true
 enableEmoji=true
+enableGitInfo=true
 
 paginate = 5
 paginatePath = "page"
@@ -57,7 +58,7 @@ DefaultContentLanguage = "en"
   home = ["HTML", "RSS", "JSON"]
   section = ["HTML", "RSS", "JSON"]
   taxonomy = ["HTML", "RSS", "JSON"]
-  taxonomyTerm = ["HTML", "RSS", "JSON"]
+  term = ["HTML", "RSS", "JSON"]
 
 [outputFormats.Calendar]
 	protocol = "https://"
@@ -66,7 +67,7 @@ DefaultContentLanguage = "en"
   [privacy.twitter]
     disable = false
     enableDNT = true
-    simple = false
+    simple = true
   [privacy.instagram]
     disable = false
     simple = true

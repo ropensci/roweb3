@@ -4,6 +4,6 @@ twitter: opencpu
 bio: rOpenSci Lead Infrastructure Engineer
 linkedin: datajeroen
 github: jeroen
-gitlab: jeroen
+mastodon: https://fosstodon.org/@jeroenooms
 img: img/team/jeroen_ooms.jpg
 ---

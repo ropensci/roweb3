@@ -7,7 +7,7 @@ publishDate: 2023-08-03
 description: 
 author:
   - Maëlle Salmon
-  - Paola Corrales
+  - Pao Corrales
   - Elio Campitelli
 organizer: Yanina Bellini Saibene
 location: Community call (teleconference)

@@ -121,7 +121,7 @@ There are eleven recently closed and active submissions and 3 submissions on hol
 
 * Two at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
 
-     * [eph](https://github.com/ropensci/software-review/issues/593), Argentina's Permanent Household Survey Data and Manipulation Utilities. Submitted by [Carolina Pradier](https://drive.google.com/file/d/1mlRCWYoqmLKUejy4eF-jtVBDUAHlS4go/view?usp=sharing). 
+     * [eph](https://github.com/ropensci/software-review/issues/593), Argentina's Permanent Household Survey Data and Manipulation Utilities. Submitted by [Carolina Pradier](/blog/2023/05/05/ropensci-champions-program-teams-meet-carolina-pradier-and-athanasia-monika-mowinckel/#carolina-pradier---champion). 
 
     * [qualtdict](https://github.com/ropensci/software-review/issues/572), Generating Variable Dictionaries and Labelled Data Exports of Qualtrics. Submitted by [lyh970817](https://github.com/lyh970817). 
 

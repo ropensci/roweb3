@@ -3,9 +3,9 @@ slug: peer-review-value
 title: Where is the value in package peer review?
 author: Miles McBain
 date: '2018-04-06'
-preface: This reflection on the value of package peer review is a cross-post of the
-  original that appeared on Miles McBain's [personal blog](https://milesmcbain.xyz)
-  on 2018-03-26.
+crossposts:
+- name: Miles McBain's personal blog
+  url: https://milesmcbain.xyz/posts/ropensci-onboarding2/
 topicid: 1132
 tags:
   - community

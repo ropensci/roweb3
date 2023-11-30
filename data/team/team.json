@@ -323,6 +323,15 @@
    "home": "https://ms.mcmaster.ca/~bolker/"
 },
 {
+   "name": "Ted Hart",
+   "image": "/img/team/ted_hart.jpg",
+   "affiliation": "-",
+   "past_roles": [
+      "former core team member"
+   ],
+   "alumnus": true
+},
+{
    "name": "Rebecca Killick",
    "affiliation": "Lancaster University",
    "url": "http://www.lancs.ac.uk/~killick/",

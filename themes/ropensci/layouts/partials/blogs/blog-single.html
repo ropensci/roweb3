@@ -19,8 +19,19 @@
     <div class="col-lg-9">
       <div class="content">
         
-           {{ if .Params.preface }}
-                <div class="alert alert-info" role="alert">{{ .Params.preface | markdownify }}</div>
+           {{ if or ( .Params.preface ) ( .Params.crossposts ) }}
+                <div class="alert alert-info" role="alert">
+                  {{ with .Params.crossposts }} 
+                  <p style="margin-bottom:1rem;">
+                    {{ range .}}
+                    This is cross-posted on <a href="{{ .url }}">{{ .name }}</a>.
+                    {{ end }}
+                    </p>
+                  {{ end }}
+                  {{ with .Params.preface }}<p>{{ . | markdownify }}</p>{{ end }}
+                  
+                  
+                </div>
                 {{ end }}
           {{ if  (in .Params.tags "r-universe") }}
           <small><em>
@@ -77,6 +88,15 @@ For more information, visit the <a href="/r-universe/">r-universe project page</
         <span>{{ i18n "Suggest-an-edit" }}</span>
         <a href="{{ partial "edit-link/edit-link" . }}" class="link mt-2">{{ i18n "open-pr" }} <i class="fas fa-external-link-alt"></i></a>
       </div>
+      <div class="cite field-under mt-4">
+        <span>{{ i18n "Cite" }}</span><br/>
+        {{ $doi := (partial "blogs/doi" ( dict "RelPermalink" .RelPermalink )) }}
+        {{ if ne $doi "" }}
+        <a href="{{ $doi }}" class="cite link mt-2">{{ $doi | replaceRE "https://" "" }} <i class='fas fa-copy copy-cite-link'></i></a>
+        {{ else }}
+        <a href="https://rogue-scholar.org/blogs/ropensci " class="cite link mt-2">rogue-scholar.org/blogs/ropensci <i class='fas fa-copy copy-cite-link'></i></a>
+        {{ end }}
+        </div>
       <div class="field-under mt-4">
         <span>{{ i18n "Browse" }}</span>
         <a href='{{ absLangURL "tags" }}' class="btn btn-share btn-twitter" >
