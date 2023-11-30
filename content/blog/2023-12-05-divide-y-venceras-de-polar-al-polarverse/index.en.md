@@ -52,7 +52,7 @@ While I was finishing the first step of the thesis, I found out about the organi
 {{< figure src = "polar-hex.png" width = "300" alt = "Original polAr R package hex logo" >}}
 
 
-## The birth of {polAr}
+## The birth of polAr
 
 With the aim of presenting at the third LatinR conference, I developed a polished version of [geofacetAR](https://electorarg.github.io/geofaceteAR/) with functions to work with the design of grids as if they were maps of Argentina.
 
