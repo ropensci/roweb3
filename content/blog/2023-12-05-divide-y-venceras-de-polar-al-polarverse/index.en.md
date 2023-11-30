@@ -16,7 +16,7 @@ It was 2015, a Political Science master's student had to process data to hand in
 
 Years later, [as I review scripts from the thesis code](https://github.com/TuQmano/evoteSALTA_UTDT), I smile to see long lines of code to recode variables with a structure like this:
 
-```{r}
+```r
 
 #PARTY LABELS A GOBERNADOR
 # 0 VOTOS EN BLANCO
