@@ -47,7 +47,9 @@ Of all the qualities that R has, the **community** was the determining factor in
 
 While I was finishing the first step of the thesis, I found out about the organization of the first [Latin American Conference on R for R\&D (LatinR)](https://latin-r.com/) to which I owe my second (and third... and umpteenth) step in my relationship with R. In the first conference I presented use cases for political analyses from R, implementing [grids from Argentina to use with `{ggplot as if they were maps with `{geofacet](https://www.researchgate.net/publication/327382101_Geofaceting_Argentina_LatinR_2018). In the second conference, we presented the *Shiny App* [Electoral Intelligence](http://inteligenciaelectoral.mentacomunicacion.com.ar/) for the analysis of electoral results in Argentina and I was able to participate in the *Package Development* workshop with [Hadley Wickham](https://hadley.nz/). This was the ideal starting point to get started with the idea of packaging code myself.
 
-{{< figure src = "geofacetar-hex.png" alt = "geofecetAR R package hex logo" >}}{{< figure src = "polar-hex.png" alt = "Original polAr R package hex logo" > }}
+{{< figure src = "geofacetar-hex.png" width = "300" alt = "geofecetAR R package hex logo" >}}
+
+{{< figure src = "polar-hex.png" width = "300" alt = "Original polAr R package hex logo" >}}
 
 
 ## The birth of {polAr}
@@ -60,12 +62,12 @@ The Covid19 pandemic hit. Learning how to develop packages, in times of confinem
 
 Although originally the package sought to facilitate access and tools for the analysis of electoral data in Argentina, over time, other workflows and data sources (geographic, presidential speeches, and legislative votes) were integrated, with an increase in dependencies and difficulty in managing more and more functions. This was a problematic issue that [was discussed with colleagues in the Package Development panel during the third LatinR confernce (2020)](https://www.youtube.com/watch?v=UYvSv8StDa8&t=10872s).
 
-{{< figure src = "latinr-rpkg.png" alt = "LatinR Confernce (20202) - Package Development Ronund Table" link = "https://www.youtube.com/watch?v=UYvSv8StDa8&t=10872s"}}
+{{< figure src = "latinr-rpkg.png" alt = "LatinR Confernce (2022) - Package Development Ronund Table" link = "https://www.youtube.com/watch?v=UYvSv8StDa8&t=10872s" >}}
 
 
 polAr had reached 4000 downloads when I received an email from the CRAN team informing me that I had to fix a policy violation to prevent the package from being archived. DUnfortunately my submitted fix did not appear to correct the problem and the package was archived.
 
-{{< figure src = "latinr-rpkg.png" alt = "The polarverse" link = "https://github.com/politicaargentina/polarverse"}}
+{{< figure src = "polarverse.png" alt = "The polarverse" link = "https://github.com/politicaargentina/polarverse" >}}
 
 If the conversation at LatinR made me think about splitting polAr into multiple packages as a possibility, the CRAN archiving gave me the opportunity to do so. The decision was to generate independent workflows; a strategy that made it possible to move forward at different paces, making specific decisions for each topic, trying to address it at the same time as part of a whole, emulating the *Tidyverse* paradigm: a similar philosophy and grammar of operation for the [collection of packages](https://tuqmano.ar/2021/06/05/de-polar-al-polarverse/). The goal was to improve the development of that which led to the archiving of polAr.
 
@@ -87,9 +89,7 @@ In addition, we worked on an auxiliary library called [polarViz](https://politic
 
 During this process, I incorporated  the R-Universe into the workflow. It provides an autonomous and self-managed space in which to publish these new packages (no longer simply as GitHub repositories) and provides support for testing on different operating systems and software versions. Undoubtedly, it is an important tool for better maintenance.
 
-
-
-{{< figure src = "politicaargentina-r-universe.png" alt = "polAr R-Universe" }}
+{{< figure src = "politicaargentina-r-universe.png" alt = "polAr R-Universe" >}}
 
 ### We continue to take important steps for our universe:
 
