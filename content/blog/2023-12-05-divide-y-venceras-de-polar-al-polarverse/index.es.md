@@ -16,7 +16,7 @@ Corría el año 2015, un estudiante de maestría de Ciencia Política tenía que
 
 Años después [reviso scripts del código de la tesis](https://github.com/TuQmano/evoteSALTA_UTDT) y me sonrío al ver extensas líneas de código para recodificar variables con esta una estructura como esta:
 
-```{r}
+```r
 
 #PARTY LABELS A GOBERNADOR
 # 0 VOTOS EN BLANCO
