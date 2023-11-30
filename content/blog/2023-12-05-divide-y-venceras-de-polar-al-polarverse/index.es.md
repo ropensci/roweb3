@@ -39,7 +39,7 @@ SALTA$ListaF[ SALTA$Lista == "AGRUPACION FEDERALISTA POPULAR MOSCONI" & SALTA$Ye
 SALTA$ListaF[ SALTA$Lista == "AGRUPACION FEDERALISTA POPULAR TARTAGAL" & SALTA$Year == 2011] <-3
 ```
 
-**La mejor decisión que tomé en mi carrera profesional.**
+Mirando en restropectiva, como a mis scripts, aprender R fue **la mejor decisión que tomé en mi carrera profesional.**
 
 `R` desde entonces en una herramienta fundamental de mi día a día. Lo es en el ámbito académico y [como docente universitario](https://tuqmano.github.io/geo_utdt/); en mis trabajos como [consultor y analista](https://twitter.com/menta_arg); en mis [tareas como funcionario público](https://ropensci.org/es/blog/2022/11/23/r-universe-stars-1-es/); en mis ratos libres, [como un pasatiempo](https://twitter.com/TuQmano/status/1426882408574595072); y en mi trabajo actual, coordinando el equipo de Datos de [fundar](https://fund.ar/), un _think tank_ que estudia y elabora políticas públicas para  el desarrollo sostenible e inclusivo de Argentina.  
 
