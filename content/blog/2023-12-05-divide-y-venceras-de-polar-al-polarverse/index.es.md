@@ -41,7 +41,7 @@ SALTA$ListaF[ SALTA$Lista == "AGRUPACION FEDERALISTA POPULAR TARTAGAL" & SALTA$Y
 
 Mirando en restropectiva, como a mis scripts, aprender R fue **la mejor decisión que tomé en mi carrera profesional.**
 
-R desde entonces en una herramienta fundamental de mi día a día. Lo es en el ámbito académico y [como docente universitario](https://tuqmano.github.io/geo_utdt/); en mis trabajos como [consultor y analista](https://twitter.com/menta_arg); en mis [tareas como funcionario público](https://ropensci.org/es/blog/2022/11/23/r-universe-stars-1-es/); en mis ratos libres, [como un pasatiempo](https://twitter.com/TuQmano/status/1426882408574595072); y en mi trabajo actual, coordinando el equipo de Datos de [fundar](https://fund.ar/), un _think tank_ que estudia y elabora políticas públicas para  el desarrollo sostenible e inclusivo de Argentina.  
+R desde entonces en una herramienta fundamental de mi día a día. Lo es en el ámbito académico y [como docente universitario](https://tuqmano.github.io/geo_utdt/); en mis trabajos como [consultor y analista](https://twitter.com/menta_arg); en mis [tareas como funcionario público](https://ropensci.org/es/blog/2022/11/23/r-universe-stars-1-es/); en mis ratos libres, [como un pasatiempo](https://twitter.com/TuQmano/status/1426882408574595072); y en mi trabajo actual, coordinando el equipo de Datos de [Fundar](https://fund.ar/), un _think tank_ que estudia y elabora políticas públicas para  el desarrollo sostenible e inclusivo de Argentina.  
 
 De todas las cualidades que tiene R, **la comunidad** fue el factor determinante en mi recorrido con este lenguaje de programación.
 
@@ -108,6 +108,6 @@ Por otro lado, incoporamos un histórico pendiente a la caja de herramientas pol
 
 El *polarverse* fue un proyecto paralelo en el que trabajé en mis momentos libres y sin financiamiento. Surgió casi lúdicamente, como un experimento para aprender a desarrollar software. Probamos exitosamente la publicación en CRAN. Nos frustramos y enojamos. Aprendimos. Sumamos nuevas herramientas. 
 
-Seguimos avanzando. De a poco.  Ahora, con el apoyo y estimulo que supone en gran equipo de [fundar](https://fund.ar/), en general, y del área de [datos](https://fund.ar/area/datos/) que me toca coordinar, en particular. "Lento, pero seguro".
+Seguimos avanzando. De a poco.  Ahora, con el apoyo y estimulo que supone en gran equipo de [Fundar](https://fund.ar/), en general, y del área de [datos](https://fund.ar/area/datos/) que me toca coordinar, en particular. "Lento, pero seguro".
 
 
