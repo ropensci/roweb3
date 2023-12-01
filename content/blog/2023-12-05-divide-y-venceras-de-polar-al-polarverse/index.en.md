@@ -41,7 +41,7 @@ SALTA$ListaF[ SALTA$Lista == "AGRUPACION FEDERALISTA POPULAR TARTAGAL" & SALTA$Y
 
 Looking at it in perspective (like my scripts) I can say that learning R was the **best decision I made in my professional career.**
 
-R Since then it has become a fundamental tool in my daily life: As [academic](https://tuqmano.github.io/geo_utdt/) in my work as a [consultant and analyst](https://twitter.com/menta_arg); in my role [as a public servant](https://ropensci.org/es/blog/2022/11/23/r-universe-stars-1-es/); in my spare time, [as a hobby](https://twitter.com/TuQmano/status/1426882408574595072); and in my current role, coordinating the Data team at [fundar](https://fund.ar/), a think tank that studies and formulates public policies for the sustainable and inclusive development of Argentina.
+R Since then it has become a fundamental tool in my daily life: As [academic](https://tuqmano.github.io/geo_utdt/) in my work as a [consultant and analyst](https://twitter.com/menta_arg); in my role [as a public servant](https://ropensci.org/es/blog/2022/11/23/r-universe-stars-1-es/); in my spare time, [as a hobby](https://twitter.com/TuQmano/status/1426882408574595072); and in my current role, coordinating the Data team at [Fundar](https://fund.ar/), a think tank that studies and formulates public policies for the sustainable and inclusive development of Argentina.
 
 Of all the qualities that R has, the **community** was the determining factor in my journey with this programming language.
 
@@ -110,6 +110,6 @@ On the other hand, I added a pending tool to the polAr toolbox to work with cens
 
 The *polarverse* was a side project where I worked in my free time and without funding. It emerged almost playfully, as an experiment to learn how to develop software. We successfully published it in CRAN. We got frustrated and angry. We learned. We added new tools. 
 
-Now, with the support and encouragement provided by the great team at [fundar](https://fund.ar/), in general, and the [data](https://fund.ar/area/datos/) area that I coordinate, in particular. We kept moving forward. Little by little. "Slowly, but steady".
+Now, with the support and encouragement provided by the great team at [Fundar](https://fund.ar/), in general, and the [data](https://fund.ar/area/datos/) area that I coordinate, in particular. We kept moving forward. Little by little. "Slowly, but steady".
 
 
