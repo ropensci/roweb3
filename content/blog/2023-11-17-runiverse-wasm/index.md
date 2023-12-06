@@ -25,7 +25,10 @@ install.packages('dplyr',
 
 As explained below, not all R packages are supported yet; some packages need some fixes to work in WebAssembly, but coverage is rapidly growing. The r-universe dashboards shows which packages are available and link to the build logs to help you debug issues.
 
+__Update:__ Have a look at this [observable notebook](https://observablehq.com/d/6936259b898a25ce) for more ideas on how to use WebR on websites.
+
 {{< figureforgallery src="screenshot.png" alt="Screenshot of rOpenSci dashboard with WebAssembly icons highlighted" >}}
+
 
 
 ## What is WebAssembly
@@ -72,6 +75,6 @@ In order to expand the coverage of R packages available in WebR, we would need t
 
 Currently R-universe is tracking 41086 packages of which 38677 have a WASM binary. However note that these are not all unique packages: for CRAN packages we both track the latest CRAN release, as well as upstream Git repo (aka devel version) if known.
 
-There is another important caviat: many R packages can themselves be compiled to WebAssembly, but they depend on one or more other R packages that currently are not available, and therefore cannot be used yet. This is actually a significant share: many of the packages mentioned above that require system libraries are actually important packages used by many others. So if that system library is not available, it makes all the dependents unavailable as well.
+There is another important caveat: many R packages can themselves be compiled to WebAssembly, but they depend on one or more other R packages that currently are not available, and therefore cannot be used yet. This is actually a significant share: many of the packages mentioned above that require system libraries are actually important packages used by many others. So if that system library is not available, it makes all the dependents unavailable as well.
 
 The webR project maintains a [shiny app to monitor WASM status for CRAN packages](https://repo.r-wasm.org/) (the app is slow to load, be patient). So here we can see that currently 19356 out of 20040 CRAN packages can be built for WebAssembly, but only 10483 are are ready to use in the sense that all their dependencies are available as well.
