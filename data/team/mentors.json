@@ -149,79 +149,84 @@
    "home": ""
 },
 {
-   "name": "",
-   "affiliation": "",
-   "url": "",
-   "image" : "/img/team/",
+  
+   "name": "Erle Holgersen",
+   "affiliation": "Deep Genomics",
+   "url": "https://erle.bio/",
+   "image" : "/img/team/erle-holgersen.jpg",
    "roles": [
       "mentor 2023-2024"
    ],
-   "github": "",
+   "github": "erleholgersen",
    "home": ""
 },
 {
-   "name": "",
-   "affiliation": "",
+ 
+   "name": "Eunseop Kim",
+   "affiliation": "Eli Lilly and Company",
    "url": "",
-   "image" : "/img/team/",
+   "image" : "/img/team/eunseop-kim.jpg",
    "roles": [
       "mentor 2023-2024"
    ],
-   "github": "",
+   "github": "markean",
    "home": ""
 },
 {
-   "name": "",
-   "affiliation": "",
-   "url": "",
-   "image" : "/img/team/",
+
+   "name": "Francisco Cardozo",
+   "affiliation": "University of Miami",
+   "url": "https://focardozom.github.io/",
+   "image" : "/img/team/francisco-cardozo.jpg",
    "roles": [
       "mentor 2023-2024"
    ],
-   "github": "",
+   "github": "focardozom",
    "home": ""
 },
 {
-   "name": "",
-   "affiliation": "",
-   "url": "",
-   "image" : "/img/team/",
+
+   "name": "Luis D. Verde Arregoitia",
+   "affiliation": "Instituto de Ecología AC (INECOL)",
+   "url": "https://liomys.mx",
+   "image" : "/img/team/luis-verde.jpeg",
    "roles": [
       "mentor 2023-2024"
    ],
-   "github": "",
+   "github": "luisDVA",
    "home": ""
 },
 {
-   "name": "",
-   "affiliation": "",
+  
+   "name": "Marie Vendettuoli",
+   "affiliation": "Fred Hutchinson Cancer Center (2019 - 2023) and Bonneville Power Administration (2023-present)",
    "url": "",
-   "image" : "/img/team/",
+   "image" : "/img/team/marie-vendettuoli.jpg",
    "roles": [
       "mentor 2023-2024"
    ],
-   "github": "",
+   "github": "mariev",
    "home": ""
 },
 {
-   "name": "",
-   "affiliation": "",
-   "url": "",
-   "image" : "/img/team/",
+   "name": "François Michonneau",
+   "affiliation": "Voltron Data",
+   "url": "https://francoismichonneau.net/",
+   "image" : "/img/team/françois-michonneau.JPG",
    "roles": [
       "mentor 2023-2024"
    ],
-   "github": "",
+   "github": "fmichonneau",
    "home": ""
 },
 {
-   "name": "",
+   "name": "Jonathan Keane",
    "affiliation": "",
-   "url": "",
-   "image" : "/img/team/",
+   "url": "https://jonkeane.com",
+   "image" : "/img/team/jonathan-keane.png",
    "roles": [
       "mentor 2023-2024"
    ],
-   "github": "",
+   "github": "jonkeane",
    "home": ""
 }]
