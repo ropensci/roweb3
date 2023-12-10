@@ -60,14 +60,14 @@ We have several channels for our information to reach you directly. Worried abou
 
 * [Newsletter](/news/): every month receive in your inbox R package news, blog posts, tips and tricks, events and use cases. Subscribe via RSS (XML), JSON feed, or email.
 
-* _Social Media_: follow our organization’s activities on [Twitter](https://twitter.com/rOpenSci), and [Vimeo](https://vimeo.com/ropensci).
+* _Social Media_: follow our organization’s activities on [Mastodon](https://hachyderm.io/@rOpenSci), [LinkedIn](https://www.linkedin.com/company/ropensci/), and [Vimeo](https://vimeo.com/ropensci).
 
 
 ## Use and contribute to our infrastructure
 
-* [Packages](/packages/): our packages are carefully vetted, staff- and community-contributed R software tools that in particular lower barriers to working with local and remote scientific data sources.
+* [Packages](/packages/): our packages are carefully vetted, staff- and community-contributed R software tools that, in particular, lower barriers to working with local and remote scientific data sources.
 
-* [The R-universe](/r-universe/): improving publication and discovery of research software in R.
+* [The R-universe](/r-universe/): improving research software publication and discovery in R.
 
 * [Software Peer-Review](/software-review/): packages contributed by the community undergo a transparent, constructive, non-adversarial and open review process.
 
