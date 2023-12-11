@@ -6,7 +6,7 @@ date: 2023-10-20T23:00:00 # UTC!! same as dateEnd
 description: "LatinR"
 location: 'Universidad de La Republica'
 country: "Uruguay" # emoji
-slug: "latinr-champions"
+slug: "latinr-champions-2023"
 ropensci: no
 outputs: 
 - HTML
