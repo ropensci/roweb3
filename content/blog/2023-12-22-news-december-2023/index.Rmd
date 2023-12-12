@@ -238,14 +238,18 @@ present_one <- function(package) {
   if (nzchar(package$onboarding)) {
     string <- paste0(string, sprintf("It has been [reviewed](%s)", package$onboarding))
     if (length(rev) > 0) {
-      if (package$package == "fastMatMR") {
-        
-      string <- paste0(string, sprintf(" by %s.", nice_string(c("Øystein Sørensen", "Ildikó Czeller"))))
-      } else {
+      
+   
       string <- paste0(string, sprintf(" by %s.", nice_string(rev)))
-      }
+      
+    } else {
+       if (package$package == "wmm") {
+      string <- paste0(string, " by Athanasia Monika Mowinckel and Rohit Goswami.")
+    } else if (package$package == "naijR") {
+      string <- paste0(string, " by Margaret Siple and Alican Cagri Gokcek.")
     } else {
       string <- paste0(string, ".")
+    }
     }
   }
   
@@ -592,41 +596,6 @@ if (length(tech_notes) > 0) {
   cat("\n\n")
 }
 ```
-
-## Use cases
-
-```{r usecases}
-# rerun get_use_cases.R at the same time
-usecases <- jsonlite::read_json("../../../data/usecases/usecases.json")
-get_one_case <- function(usecase) {
-  tibble::tibble(
-    title = usecase$title,
-    reporter = usecase$reporter,
-    url = usecase$url,
-    image = usecase$image,
-    date = anytime::anydate(usecase$date)
-  )
-}
-usecases <- purrr::map_df(usecases, get_one_case)
-usecases <- dplyr::filter(usecases, date >= anytime::anydate("2023-10-01"))
-usecases <- split(usecases, seq(nrow(usecases)))
-```
-
-`r snakecase::to_sentence_case(english(length(usecases)))` use case`r if (length(usecases) > 1) "s"` of our packages and resources ha`r if (length(usecases) > 1) "ve" else "s"` been reported since we sent the last newsletter.
-
-```{r usecases2, results='asis'}
-format_case <- function(usecase) {
-  string <- sprintf("* [%s](%s). Reported by %s.", sub("\\.$", "", usecase$title), usecase$url, usecase$reporter)
-}
-cat(
-  paste0(
-    purrr::map_chr(usecases, format_case),
-    collapse = "\n\n"
-  )
-)
-```
-
-Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)!
 
 ## Call for maintainers
 
