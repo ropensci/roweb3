@@ -63,6 +63,11 @@ rOpenSci Mark Padgham was interviewed on the R Consortium blog about his [deposi
 
 This interview was furthermore featured on the [R Weekly highlights podcast](https://rweekly.fireside.fm/145?t=848) hosted by Eric Nantz and Mike Thomas.
 
+### "A package a day" series on Mastodon!
+
+We've started sharing about one package a day from our federated community of open source software developers, on [Mastodon](https://mastodon.social/@rOpenSci@hachyderm.io/111522245481433695)!
+Follow us on Mastodon, or search for `from:@rOpenSci@hachyderm.io #apackageaday` to find all posts until now.
+
 ### Resources for [multilingual publishing](/commcalls/nov2023-multilingual/) community call
 
 On this [community call](/commcalls/nov2023-multilingual/), [Maëlle Salmon](/author/ma%C3%ABlle-salmon/), [Paola Corrales](/author/paola-corrales/), and [Elio Campitelli](/author/elio-campitelli/), shared the rOpenSci Multilingual project details. Maëlle presented the R packages that allow us to have our content in several languages. Elio and Paola shared about the translation workflow and showed the Translation Guide written to document the process.
@@ -638,6 +643,30 @@ See also our [help wanted page](/help-wanted/) -- before opening a PR, we recomm
 
 Some useful tips for R package developers. :eyes:
 
+### An older post about dependencies
+
+Do you know of the post ["Playing on the same team as your dependency"](https://www.tidyverse.org/blog/2022/09/playing-on-the-same-team-as-your-dependecy/) by Thomas Lin Pedersen?
+It's a take from the maintainer perspective, on how maintainers of reverse dependencies can help make the relationship two-ways.
+
+### Cliff notes about the cli package
+
+If you missed our [October coworking session hosted by Athanasia Mo Mowinckel](/events/coworking-2023-10/), or attended and enjoyed it, you might want to read Athanasia's and Maëlle's [post about the cli package](https://blog.r-hub.io/2023/11/30/cliff-notes-about-cli/)!
+The cli package maintained by Gábor Csárdi allows you to build pretty user-interfaces (messages, including error messages and progress bars).
+
+### "Prepare for CRAN" list of resources
+
+Do you know about the GitHub repository ["Prepare for CRAN"](https://github.com/ThinkR-open/prepare-for-cran) maintained by ThinkR with help from the R community?
+It contains good tips and gotchas for CRAN submissions.
+
+### More accessible and usable cheatsheets: HTML format!
+
+If you plan to create, or already maintain, a cheatsheet for a package of yours, you might be inspired from Posit's recent publication of [cheatsheets in HTML format](https://posit.co/blog/posit-cheatsheets-now-in-html/) for better accessibility and improved usage in the browser.
+The cheatsheet are Quarto documents, see their [source](https://github.com/rstudio/cheatsheets/).
+Another example of HTML cheatsheet is the one for the dm package, which is actually integrated as an [article in a pkgdown website](https://dm.cynkra.com/articles/cheatsheet.html) ([source](https://github.com/cynkra/dm/blob/main/vignettes/articles/cheatsheet.Rmd)).
+
+### Code Smell: Error Handling Eclipse
+
+Don't miss Nick Tierney's post ["Code Smell: Error Handling Eclipse"](https://www.njtierney.com/post/2023/12/06/long-errors-smell/), on why and how to refactor your code so that error-handling code doesn't crowd your function body.
 
 ## Last words
 
