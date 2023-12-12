@@ -5,7 +5,7 @@ date: '2023-12-22'
 tags:
   - newsletter
 slug: news-december-2023
-description: 
+description: donate to rOpenSci; deposits package for data publishing; a package a day; new packags and package news
 params:
   last_newsletter: "2023-11-24"
 ---
