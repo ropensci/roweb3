@@ -5,7 +5,7 @@ date: '2023-12-22'
 tags:
   - newsletter
 slug: news-december-2023
-description: donate to rOpenSci; deposits package for data publishing; a package a day; new packags and package news
+description: donate to rOpenSci; deposits package for data publishing; a package a day; new packages and package news
 params:
   last_newsletter: "2023-11-24"
 ---
@@ -31,7 +31,7 @@ By supporting us, you’re not just donating; you’re contributing to a communi
 
 Join us in this vital mission today! You can donate here: https://ropensci.org/donate/
 
-Thanks to those who already donated!
+We are grateful for the donations we have already received. 
 
 ### Easier data publishing: An interview of Mark Padgham about the deposits package!
 
@@ -48,7 +48,7 @@ Follow us on Mastodon, or search for `from:@rOpenSci@hachyderm.io #apackageaday`
 
 ### Resources for [multilingual publishing](/commcalls/nov2023-multilingual/) community call
 
-On this [community call](/commcalls/nov2023-multilingual/), [Maëlle Salmon](/author/ma%C3%ABlle-salmon/), [Paola Corrales](/author/paola-corrales/), and [Elio Campitelli](/author/elio-campitelli/), shared the rOpenSci Multilingual project details. Maëlle presented the R packages that allow us to have our content in several languages. Elio and Paola shared about the translation workflow and showed the Translation Guide written to document the process.
+On this [community call](/commcalls/nov2023-multilingual/), [Maëlle Salmon](/author/ma%C3%ABlle-salmon/), [Paola Corrales](/author/pao-corrales/), and [Elio Campitelli](/author/elio-campitelli/), shared the rOpenSci Multilingual project details. Maëlle presented the R packages that allow us to have our content in several languages. Elio and Paola shared about the translation workflow and showed the Translation Guide written to document the process.
 
 We've now [posted](/commcalls/nov2023-multilingual/):
 - video + captions
@@ -88,7 +88,7 @@ And remember, you can always cowork independently on work related to R, work on 
 
 The following two packages recently became a part of our software suite:
 
-+ [wmm](https://docs.ropensci.org/wmm), developed by Will Frierson: Calculate magnetic field at a given location and time according to the World Magnetic Model (WMM). Both the main field and secular variation components are returned. This functionality is useful for physicists and geophysicists who need orthogonal components from WMM. Currently, this package supports annualized time inputs between 2000 and 2025. If desired, users can specify which WMM version to use, e.g., the original WMM2015 release or the recent out-of-cycle WMM2015 release. Methods used to implement WMM, including the Gauss coefficients for each release, are described in the following publications: Chulliat et al (2020) <doi:10.25923/ytk1-yx35>, Chulliat et al (2019) <doi:10.25921/xhr3-0t19>, Chulliat et al (2015) <doi:10.7289/V5TB14V7>, Maus et al (2010) <https://www.ngdc.noaa.gov/geomag/WMM/data/WMMReports/WMM2010_Report.pdf>, McLean et al (2004) <https://www.ngdc.noaa.gov/geomag/WMM/data/WMMReports/TRWMM_2005.pdf>, and Macmillian et al (2000) <https://www.ngdc.noaa.gov/geomag/WMM/data/WMMReports/wmm2000.pdf>.  It is available on [CRAN]( https://CRAN.R-project.org/package=wmm). It has been [reviewed](https://github.com/ropensci/software-review/issues/522) by Athanasia Monika Mowinckel and Rohit Goswami.
++ [wmm](https://docs.ropensci.org/wmm), developed by Will Frierson: Calculate magnetic field at a given location and time according to the World Magnetic Model (WMM). Both the main field and secular variation components are returned. This functionality is useful for physicists and geophysicists who need orthogonal components from WMM. Currently, this package supports annualized time inputs between 2000 and 2025. If desired, users can specify which WMM version to use, e.g., the original WMM2015 release or the recent out-of-cycle WMM2015 release.  It is available on [CRAN]( https://CRAN.R-project.org/package=wmm). It has been [reviewed](https://github.com/ropensci/software-review/issues/522) by Athanasia Monika Mowinckel and Rohit Goswami.
 
 + [naijR](https://docs.ropensci.org/naijR), developed by Victor Ordu: A set of convenience functions as well as geographical/political data about Nigeria, aimed at simplifying work with data and information that are specific to the country.  It is available on [CRAN]( https://CRAN.R-project.org/package=naijR). It has been [reviewed](https://github.com/ropensci/software-review/issues/600) by Margaret Siple and Alican Cagri Gokcek.
 
@@ -126,15 +126,15 @@ There are nineteen recently closed and active submissions and 2 submissions on h
 
 * Nine at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 
-     * [rgeeExtra](https://github.com/ropensci/software-review/issues/608), Extensions for rgee. Submitted by [Cesar Aybar](http://csaybar.github.io). 
+     * [rgeeExtra](https://github.com/ropensci/software-review/issues/608), Extensions for rgee. Submitted by [Cesar Aybar](https://csaybar.github.io). 
 
-    * [fellingdateR](https://github.com/ropensci/software-review/issues/618), Estimate, report and combine felling dates of historical tree-ring. Submitted by [KriHa](https://wwww.researchgate.net/profile/Kristof_Haneca). 
+    * [fellingdateR](https://github.com/ropensci/software-review/issues/618), Estimate, report and combine felling dates of historical tree-ring. Submitted by [KriHa](https://www.researchgate.net/profile/Kristof_Haneca). 
 
-    * [rOPTRAM](https://github.com/ropensci/software-review/issues/612), Derive soil moisture using the OPTRAM algorithm. Submitted by [Micha Silver](https://www.surfaces.co.il). 
+    * [rOPTRAM](https://github.com/ropensci/software-review/issues/612), Derive soil moisture using the OPTRAM algorithm. Submitted by [Micha Silver](https://github.com/micha-silver). 
 
     * [baRulho](https://github.com/ropensci/software-review/issues/609), Quantifying (Animal) Sound Degradation. Submitted by [Marcelo Araya-Salas](https://marce10.github.io/). 
 
-    * [rgeeExtra](https://github.com/ropensci/software-review/issues/608), Extensions for rgee. Submitted by [Cesar Aybar](http://csaybar.github.io). 
+    * [rgeeExtra](https://github.com/ropensci/software-review/issues/608), Extensions for rgee. Submitted by [Cesar Aybar](https://csaybar.github.io). 
 
     * [weatherOz](https://github.com/ropensci/software-review/issues/598), An API Client for Australian Weather and Climate Data Resources. Submitted by [Rodrigo Pires](https://github.com/bozaah). 
 
@@ -184,7 +184,7 @@ Some useful tips for R package developers. :eyes:
 ### An older post about dependencies
 
 Do you know of the post ["Playing on the same team as your dependency"](https://www.tidyverse.org/blog/2022/09/playing-on-the-same-team-as-your-dependecy/) by Thomas Lin Pedersen?
-It's a take from the maintainer perspective, on how maintainers of reverse dependencies can help make the relationship two-ways.
+It's a take from the maintainer perspective, on how maintainers of reverse dependencies can help make the relationship a two-way one.
 
 ### Cliff notes about the cli package
 

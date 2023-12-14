@@ -215,7 +215,11 @@ present_one <- function(package) {
     package$package, 
     package$package, 
     author_string,
-    stringr::str_remove(stringr::str_squish(package$details), "\\.$")
+    sub(
+      "Methods used to implement.*",
+      "",
+      stringr::str_remove(stringr::str_squish(package$details), "\\.$")
+    )
   )
   
   if (package$on_cran) {
@@ -236,7 +240,12 @@ present_one <- function(package) {
     )
   }
   if (nzchar(package$onboarding)) {
-    string <- paste0(string, sprintf("It has been [reviewed](%s)", package$onboarding))
+    string <- 
+    sub(
+      "\\. \\. ",
+      ". ",
+      paste0(string, sprintf("It has been [reviewed](%s)", package$onboarding))
+    )
     if (length(rev) > 0) {
       
    
@@ -349,8 +358,9 @@ get_user_text <- function(issue) {
   name <- info$name %||% issue$user$login
   url <- if (nzchar(info$blog)) info$blog else info$html_url
   if (!grepl("^https?:", url)) url <- paste0("http://", url)
-  if (url == "http://csaybar.github.io/") url <- "https://csaybar.github.io/"
-  if (url == "http://paocorrales.github.io/") url <- "https://paocorrales.github.io/"
+  if (url == "https://wwww.researchgate.net/profile/Kristof_Haneca") url <- "https://www.researchgate.net/profile/Kristof_Haneca"
+  if (url == "https://www.surfaces.co.il") url <- "https://github.com/micha-silver"
+  if (url == "http://csaybar.github.io") url <- "https://csaybar.github.io"
   sprintf("[%s](%s)", name, url)
   
 }
