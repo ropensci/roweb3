@@ -63,10 +63,10 @@ rOpenSci Mark Padgham was interviewed on the R Consortium blog about his [deposi
 
 This interview was furthermore featured on the [R Weekly highlights podcast](https://rweekly.fireside.fm/145?t=848) hosted by Eric Nantz and Mike Thomas.
 
-### "A package a day" series on Mastodon!
+### "A package a day" series on Mastodon and LinkedIn!
 
-We've started sharing about one package a day from our federated community of open source software developers, on [Mastodon](https://mastodon.social/@rOpenSci@hachyderm.io/111522245481433695)!
-Follow us on Mastodon, or search for `from:@rOpenSci@hachyderm.io #apackageaday` to find all posts until now.
+We've started sharing about packages from our federated community of open source software developers, once a day on [Mastodon](https://mastodon.social/@rOpenSci@hachyderm.io/111522245481433695); and as a weekly digest on [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7140023562223943680)!
+On Mastodon: follow us, or search for `from:@rOpenSci@hachyderm.io #apackageaday` to find all posts until now.
 
 ### Resources for [multilingual publishing](/commcalls/nov2023-multilingual/) community call
 
