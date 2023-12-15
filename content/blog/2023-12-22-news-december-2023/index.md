@@ -41,6 +41,20 @@ rOpenSci Mark Padgham was interviewed on the R Consortium blog about his [deposi
 
 This interview was furthermore featured on the [R Weekly highlights podcast](https://rweekly.fireside.fm/145?t=848) hosted by Eric Nantz and Mike Thomas.
 
+### rOpenSci Developer Guide Translation to Portuguese 
+
+We want to express our gratitude to the community members who have been actively contributing to the localization and translation of the rOpenSci Developer Guide into Portuguese. 
+Your dedication and efforts are making this valuable resource accessible to an even wider audience.  
+Here's a quick update on the progress:
+
+* 18% of the book is already translated!
+* 2 chapters are awaiting a second review. 
+* 24 chapters are still awaiting translation. 
+* 7 amazing contributors are driving this initiative: _Pedro Duarte Faria, Daniel Vartanian, Marcelo Perlin, Beatriz Milz, João Granja-Correia, António Pedro and Mariana._ Thank you for the incredible work you've done so far! 
+
+We're not done yet, and we invite more members of our community to join this collaborative effort. 
+If you want to contribute to the translation project, join us on GitHub: [rOpenSci Developer Guide Translation Project](https://github.com/orgs/ropensci/projects/7).
+
 ### "A package a day" series on Mastodon and LinkedIn!
 
 We've started sharing about packages from our federated community of open source software developers, once a day on [Mastodon](https://mastodon.social/@rOpenSci@hachyderm.io/111522245481433695); and as a weekly digest on [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7140023562223943680)!
