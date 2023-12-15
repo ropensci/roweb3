@@ -62,6 +62,16 @@ rOpenSci Mark Padgham was interviewed on the R Consortium blog about his [deposi
 > "Publicly depositing datasets associated with published research is becoming more common, partly due to journals increasingly requiring data sharing and partly through more general and ongoing cultural changes with data sharing. Yet data sharing is often seen as time-consuming, particularly to meet the expectations of individual data repositories. While documentation and training can help familiarize users with data-sharing processes, browser-based data, and metadata submission workflows can only be so fast, are not easily reproduced, and do not facilitate regular or automated data and metadata updates. Better programmatic tools can transform data sharing from a mountainous climb into a pit of success."
 
 This interview was furthermore featured on the [R Weekly highlights podcast](https://rweekly.fireside.fm/145?t=848) hosted by Eric Nantz and Mike Thomas.
+## rOpenSci Developer Guide Translation to Portuguese 
+
+We want to express our gratitude to the community members who have been actively contributing to the localization and translation of the rOpenSci Developer Guide into Portuguese. Your dedication and efforts are making this valuable resource accessible to an even wider audience.  Here's a quick update on the progress:
+
+* 18% of the book is already translated! 📚
+*   2 chapters are awaiting a second review. 👀
+* 24 chapters are still awaiting translation. 🌐
+*   7 amazing contributors are driving this initiative: _Pedro Duarte Faria, Daniel Vartanian, Marcelo Perlin, Beatriz Milz, João Granja-Correia, António Pedro and Mariana._ 👏  Thank you for the incredible work you've done so far! 🙌
+
+We're not done yet, and we invite more members of our community to join this collaborative effort. If you want to contribute to the translation project, join us on GitHub: [rOpenSci Developer Guide Translation Project](https://github.com/orgs/ropensci/projects/7). 🚀
 
 ### "A package a day" series on Mastodon and LinkedIn!
 
