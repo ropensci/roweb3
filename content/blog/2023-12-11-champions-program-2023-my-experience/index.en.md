@@ -23,6 +23,7 @@ As I went through several training sessions and mentoring meetings, I stumbled u
 [ChartkickR](https://github.com/BWOlatunji/chartkickR), at its core, is an htmlwidget that seamlessly integrates with the [Chartkick JavaScript library](https://chartkick.com/). It provides R users with a straightforward interface to generate beautiful and interactive charts using R code. From line charts to pie charts, ChartkickR empowers users to visualize their data effortlessly using a single line of code.
 
 ## Examples of ChartkickR code
+
 The package has ten types of plots, and all are very simple to build; here are three classic examples using the Palmer Penguins package as data. 
 
 ### Scatter plot
