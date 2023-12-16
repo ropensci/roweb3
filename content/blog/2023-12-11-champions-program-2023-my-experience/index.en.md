@@ -68,6 +68,7 @@ chartkickR(data = p_data,
                   x = year, y = n, 
                   type = "BarChart",
                   group = species, curve = TRUE)
+```
 
 {{< figure src = "serie-plot.png" width = "500" alt = "Multiple Series Bar Plot example - Showing a series of horizontal bars depicting the numbers of each species in each year" class = "center">}}
 
