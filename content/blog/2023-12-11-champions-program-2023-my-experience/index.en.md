@@ -73,7 +73,7 @@ chartkickR(data = p_data,
 ## Developing a new package as rOpenSci Champion
 
 
-Developing [ChartkickR ](https://github.com/BWOlatunji/chartkickR)was not without its challenges. I encountered hurdles in the coding process, faced moments of doubt, and navigated through the complexities of integrating R with JavaScript. However, each challenge was met with perseverance, and every triumph brought a sense of accomplishment that fuelled my passion for the project. I would like to appreciate the support of [John Coene](https://www.linkedin.com/in/johncoene/) and the guidance from my mentor, [Christina Maimone](/author/christina-maimone/).
+Developing [ChartkickR ](https://github.com/BWOlatunji/chartkickR)was not without its challenges. I encountered hurdles in the coding process, faced moments of doubt, and navigated through the complexities of integrating R with JavaScript. However, each challenge, like having to learn JavaScript to understand the library and create the package in R, was met with perseverance, and every triumph brought a sense of accomplishment that fuelled my passion for the project. I would like to appreciate the support of [John Coene](https://www.linkedin.com/in/johncoene/) and the guidance from my mentor, [Christina Maimone](/author/christina-maimone/).
 
 
 One of the most rewarding aspects of the rOpenSci champion program was the collaboration with a diverse and supportive community led by Yanina Bellini Saibene. Through discussions, feedback, and shared insights, [ChartkickR](https://github.com/BWOlatunji/chartkickR) evolved into a tool that not only met my initial vision but also exceeded it with the input of fellow rOpenSci champions and mentors.
