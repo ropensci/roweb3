@@ -3,7 +3,7 @@ slug: "champions-program-2023-experience"
 title: '2023 rOpensci Champions Program: My Experience'
 author:
 - Bilikisu Wunmi Olatunji
-date: '2023-12-11'
+date: '2023-12-19'
 tags:
 - community
 - champions program
