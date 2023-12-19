@@ -14,12 +14,12 @@ location: Community call (teleconference)
 country: "\U0001F310"
 attendees: All are welcome
 slug: nov2023-multilenguaje
-notes: 
+notes: https://docs.google.com/document/d/1IbOHfUY2qilzW5DMJbDSEJ0U-LdD8OiPQEllse0qxr8/edit?usp=sharing
 outputs:
 - HTML
 - Calendar 
-# vimeo:
-# - id: 
+vimeo:
+- id: '888160235'
 resources:
   - url: https://devdevguide.netlify.app/es/preface.es.html
     name: Guía de desarrollo de rOpenSci en Español 
@@ -33,6 +33,15 @@ resources:
   - url: /multilingual-publishing/
     name: Publicaciones Multilingües
     details: página web con detalles sobre el proyecto de publicaciones multilingües de rOpenSci 
+  - url: https://multilingual-ropensci.netlify.app/
+    name: Slides de Paola
+    details: presentación de Paola
+  - url: https://babel-es.netlify.app/#/
+    name: Slides de Maëlle
+    details: presentación de Maëlle    
+  - url: https://docs.google.com/presentation/d/1GljZnPddRq4u4uexZs46ow0aZwuwslcaJlQx75rzgpg/edit?usp=sharing
+    name: Slides de Elio
+    details: presentación de Elio
 speakers:  
   - name: Pao Corrales
     bio: "Pao es candidata a doctora en ciencias atmosféricas y trabaja en la predicción de condiciones meteorológicas adversas en Argentina. También es profesora en la Universidad Nacional Guillermo Brown enseñando R y herramientas relacionadas. También desarrolla materiales de enseñanza con licencia abierta y contribuye a varias comunidades de práctica relacionadas con R."
