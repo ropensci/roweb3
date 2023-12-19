@@ -44,7 +44,7 @@ resources:
     details: presentación de Elio
 speakers:  
   - name: Pao Corrales
-    bio: "Pao es candidata a doctora en ciencias atmosféricas y trabaja en la predicción de condiciones meteorológicas adversas en Argentina. También es profesora en la Universidad Nacional Guillermo Brown enseñando R y herramientas relacionadas. También desarrolla materiales de enseñanza con licencia abierta y contribuye a varias comunidades de práctica relacionadas con R."
+    bio: "Pao es doctora en ciencias atmosféricas y trabaja en la predicción de condiciones meteorológicas adversas en Argentina. También es profesora en la Universidad Nacional Guillermo Brown enseñando R y herramientas relacionadas. También desarrolla materiales de enseñanza con licencia abierta y contribuye a varias comunidades de práctica relacionadas con R."
     img: /img/team/paola-corrales.png
   - name: Elio Campitelli
     bio: "Elio es estudiante de doctorado en ciencias atmosféricas en el Centro de Investigación Oceánica y Atmosférica. También mantiene varios paquetes R de código abierto (por ejemplo, ggnewscale; metR) y contribuye a otros paquetes, como data.table y ggplot2. Sígele en [mastodon](https://mastodon.social/@eliocamp) y consulta su [sitio web](https://eliocamp.github.io/)."
