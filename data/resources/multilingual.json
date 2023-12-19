@@ -5,6 +5,17 @@
    "url": "https://translationguide.ropensci.org/"
 },
 {
+  "title": "Paquetes de rOpenSci: Desarrollo, mantenimiento y revisión por pares",
+  "text": "Guía de desarrollo de paquetes en Español",
+  "url": "https://devdevguide.netlify.app/es/",
+  "lang": "es"
+},
+{
+  "title": "Portuguese Translation Project on GitHub",
+  "text": "Find out where to contribute!",
+  "url": "https://github.com/orgs/ropensci/projects/7"
+},
+{
    "title": "babeldown R package",
    "text": "Translate Markdown-based content via DeepL API",
    "url": "https://docs.ropensci.org/babeldown/"
