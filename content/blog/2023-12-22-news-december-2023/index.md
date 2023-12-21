@@ -100,11 +100,13 @@ And remember, you can always cowork independently on work related to R, work on 
 
 
 
-The following two packages recently became a part of our software suite:
+The following three packages recently became a part of our software suite:
 
 + [wmm](https://docs.ropensci.org/wmm), developed by Will Frierson: Calculate magnetic field at a given location and time according to the World Magnetic Model (WMM). Both the main field and secular variation components are returned. This functionality is useful for physicists and geophysicists who need orthogonal components from WMM. Currently, this package supports annualized time inputs between 2000 and 2025. If desired, users can specify which WMM version to use, e.g., the original WMM2015 release or the recent out-of-cycle WMM2015 release.  It is available on [CRAN]( https://CRAN.R-project.org/package=wmm). It has been [reviewed](https://github.com/ropensci/software-review/issues/522) by Athanasia Monika Mowinckel and Rohit Goswami.
 
-+ [naijR](https://docs.ropensci.org/naijR), developed by Victor Ordu: A set of convenience functions as well as geographical/political data about Nigeria, aimed at simplifying work with data and information that are specific to the country.  It is available on [CRAN]( https://CRAN.R-project.org/package=naijR). It has been [reviewed](https://github.com/ropensci/software-review/issues/600) by Margaret Siple and Alican Cagri Gokcek.
++ [birdsize](https://docs.ropensci.org/birdsize), developed by Renata Diaz: Generate estimated body size distributions for populations or communities of birds, given either species ID or species' mean body size. Designed to work naturally with the North American Breeding Bird Survey, or with any dataset of bird species, abundance, and/or mean size data. It has been [reviewed](https://github.com/ropensci/software-review/issues/577).
+
++ [naijR](https://docs.ropensci.org/naijR), developed by Victor Ordu: A set of convenience functions as well as geographical/political data about Nigeria, aimed at simplifying work with data and information that are specific to the country.  It is available on [CRAN]( https://CRAN.R-project.org/package=naijR). It has been [reviewed](https://github.com/ropensci/software-review/issues/600) by Emily Riederer, Margaret Siple, and Cagri Alican.
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
@@ -112,11 +114,11 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following six packages have had an update since the last newsletter: [biomartr](https://docs.ropensci.org/biomartr "Genomic Data Retrieval") ([`v1.0.7`](https://github.com/ropensci/biomartr/releases/tag/v1.0.7)), [datefixR](https://docs.ropensci.org/datefixR "Standardize Dates in Different Formats or with Missing Data") ([`v1.6.1`](https://github.com/ropensci/datefixR/releases/tag/v1.6.1)), [git2r](https://docs.ropensci.org/git2r "Provides Access to Git Repositories") ([`v0.33.0`](https://github.com/ropensci/git2r/releases/tag/v0.33.0)), [gittargets](https://docs.ropensci.org/gittargets "Data Version Control for the Targets Package") ([`0.0.7`](https://github.com/ropensci/gittargets/releases/tag/0.0.7)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.7.10`](https://github.com/ropensci/tarchetypes/releases/tag/0.7.10)), and [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.4.0`](https://github.com/ropensci/targets/releases/tag/1.4.0)).
+The following eleven packages have had an update since the last newsletter: [biomartr](https://docs.ropensci.org/biomartr "Genomic Data Retrieval") ([`v1.0.7`](https://github.com/ropensci/biomartr/releases/tag/v1.0.7)), [datefixR](https://docs.ropensci.org/datefixR "Standardize Dates in Different Formats or with Missing Data") ([`v1.6.1`](https://github.com/ropensci/datefixR/releases/tag/v1.6.1)), [dwctaxon](https://docs.ropensci.org/dwctaxon "Edit and Validate Darwin Core Taxon Data") ([`v2.0.3`](https://github.com/ropensci/dwctaxon/releases/tag/v2.0.3)), [git2r](https://docs.ropensci.org/git2r "Provides Access to Git Repositories") ([`v0.33.0`](https://github.com/ropensci/git2r/releases/tag/v0.33.0)), [gitignore](https://docs.ropensci.org/gitignore "Create Useful .gitignore Files for your Project") ([`v0.1.6`](https://github.com/ropensci/gitignore/releases/tag/v0.1.6)), [gittargets](https://docs.ropensci.org/gittargets "Data Version Control for the Targets Package") ([`0.0.7`](https://github.com/ropensci/gittargets/releases/tag/0.0.7)), [magick](https://docs.ropensci.org/magick "Advanced Graphics and Image-Processing in R") ([`v2.8.2`](https://github.com/ropensci/magick/releases/tag/v2.8.2)), [rnaturalearth](https://docs.ropensci.org/rnaturalearth "World Map Data from Natural Earth") ([`v1.0.1`](https://github.com/ropensci/rnaturalearth/releases/tag/v1.0.1)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.7.10`](https://github.com/ropensci/tarchetypes/releases/tag/0.7.10)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.4.0`](https://github.com/ropensci/targets/releases/tag/1.4.0)), and [tic](https://docs.ropensci.org/tic "CI-Agnostic Workflow Definitions") ([`v0.14.0`](https://github.com/ropensci/tic/releases/tag/v0.14.0)).
 
 ## Software Peer Review
 
-There are nineteen recently closed and active submissions and 2 submissions on hold. Issues are at different stages: 
+There are twenty recently closed and active submissions and 2 submissions on hold. Issues are at different stages: 
 
 * Two at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
 
@@ -158,13 +160,15 @@ There are nineteen recently closed and active submissions and 2 submissions on h
 
     * [fwildclusterboot](https://github.com/ropensci/software-review/issues/546), Fast Wild Cluster Bootstrap Inference for Linear Models. Submitted by [Alexander Fischer](https://s3alfisc.github.io/blog/).  (Stats).
 
-* One at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
+* Two at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
-     * [bssm](https://github.com/ropensci/software-review/issues/489), Bayesian Inference of Non-Linear and Non-Gaussian State Space. Submitted by [Jouni Helske](https://jounihelske.netlify.app).  (Stats).
+     * [agromet](https://github.com/ropensci/software-review/issues/599), Índices y Estadísticos Climáticos e Hidrológicos. Submitted by [Paola Corrales](https://paocorrales.github.io). 
+
+    * [bssm](https://github.com/ropensci/software-review/issues/489), Bayesian Inference of Non-Linear and Non-Gaussian State Space. Submitted by [Jouni Helske](https://jounihelske.netlify.app).  (Stats).
 
 * Two at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
 
-     * [agromet](https://github.com/ropensci/software-review/issues/599), Índices y Estadísticos Climáticos e Hidrológicos. Submitted by [Paola Corrales](https://paocorrales.github.io). 
+     * [quadkeyr](https://github.com/ropensci/software-review/issues/619), Tools for converting QuadKeys used in Microsoft's Bing Maps Tile System into raster images. Submitted by [Florencia D'Andrea](https://github.com/flor14). 
 
     * [qualtdict](https://github.com/ropensci/software-review/issues/572), Generating Variable Dictionaries and Labelled Data Exports of Qualtrics. Submitted by [lyh970817](https://github.com/lyh970817). 
 
@@ -179,6 +183,8 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 * [Introducing rOpenSci Mentors - Cohort 2023-2024](/blog/2023/11/29/champions-program-mentors-2023) by Apoorv Anand, Bruna Wundervald, Eunseop Kim, Emi Tanaka, François Michonneau, Francisco Cardozo, Luis Verde Arregoitia, Erle Holgersen, Marie Vendettuoli, Jonathan Keane, and Yanina Bellini Saibene.
 
 * [Divide and Conquer: From polar To the Polarverse](/blog/2023/12/05/divide_and_you_will_win_from_polar_to_the_polarverse) by Juan Pablo Ruiz Nicolini. Political Science Meets Coding: Crafting the polarverse with R and the LatinR Connection. Other languages: <a href='/es/blog/2023/12/05/2023-12-05-divide-y-venceras-de-polar-al-polarverse' lang='es'>Divide y venceras: de polar al Polarverse (es)</a>.
+
+* [2023 rOpensci Champions Program: My Experience](/blog/2023/12/19/champions-program-2023-experience) by Bilikisu Wunmi Olatunji.
 
 ## Call for maintainers
 
