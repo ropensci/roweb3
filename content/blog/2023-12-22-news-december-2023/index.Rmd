@@ -268,6 +268,8 @@ present_one <- function(package) {
     } else {
        if (package$package == "wmm") {
       string <- paste0(string, " by Athanasia Monika Mowinckel and Rohit Goswami.")
+       } else if (package$package == "birdsize") {
+      string <- paste0(string, " by Quentin Read and Matt Strimas-Mackey.")
     } else if (package$package == "naijR") {
       string <- paste0(string, " by Margaret Siple and Alican Cagri Gokcek.")
     } else {
