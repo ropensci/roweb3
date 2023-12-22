@@ -1,13 +1,13 @@
 ---
-title: 'rOpenSci News Digest, October 2023'
+title: 'rOpenSci News Digest, December 2023'
 author: 'The rOpenSci Team'
-date: '2023-10-20'
+date: '2023-12-22'
 tags:
   - newsletter
-slug: news-october-2023
-description: Dev guide translation to Portuguese, R in government community call, multilingualism community call, coworking, new packages and package news
+slug: news-december-2023
+description: donate to rOpenSci; deposits package for data publishing; a package a day; new packages and package news
 params:
-  last_newsletter: "2023-09-22"
+  last_newsletter: "2023-11-24"
 ---
 
 
@@ -28,6 +28,9 @@ english <- function(x) {
 }
 
 nice_string <- function(...) {
+  if (length(...) == 2) {
+    return(paste(c(...), collapse = " and "))
+  }
   glue::glue_collapse(..., sep = ", ", last = ", and ")
 }
 ```
@@ -40,15 +43,54 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-### Help us translate our dev guide to Portuguese
+### Reminder about giving season: consider donating to rOpenSci
 
-Since last year we started the translation and localization of our Spanish version of our [comprehensive guide to software development](https://devguide.ropensci.org/). We have a [first version in Spanish](https://devdevguide.netlify.app/es/preface.es.html) and now, thanks to the R Community initiative, we are working on the Portuguese version.
+This Giving Season consider donating to rOpenSci to support our mission of empowering Open Science.
 
-Our process includes the review of automatic translations by two people, and we need your help! 
+Sustaining an open project with quality infrastructure freely accessible to the global and diverse community of R software users, research software developers, and engineers requires many different resources. Our organization’s ongoing costs are supported by grants and donations from individuals and organizations which share our vision and mission.
 
-If you are interested in collaborating with this community effort, please check the "TODO - Second Review" tab of [this project on GitHub](https://github.com/orgs/ropensci/projects/7) and let us know you want to collaborate by leaving a comment in the corresponding Pull Request.
+By supporting us, you’re not just donating; you’re contributing to a community that’s breaking down barriers, creating opportunities, and shaping the future of open and reproducible science for everyone. 
 
-All contributors will be added to the rOpenSci Slack, [listed on our multilingual publishing project webpage](/multilingual-publishing/) and acknowledged as authors of the Portuguese translation.
+Join us in this vital mission today! You can donate here: https://ropensci.org/donate/
+
+We are grateful for the donations we have already received. 
+
+### Easier data publishing: An interview of Mark Padgham about the deposits package!
+
+rOpenSci Mark Padgham was interviewed on the R Consortium blog about his [deposits package](https://www.r-consortium.org/blog/2023/11/30/deposits-r-package-delivers-a-common-workflow-for-r-users) that simplifies data sharing.
+
+> "Publicly depositing datasets associated with published research is becoming more common, partly due to journals increasingly requiring data sharing and partly through more general and ongoing cultural changes with data sharing. Yet data sharing is often seen as time-consuming, particularly to meet the expectations of individual data repositories. While documentation and training can help familiarize users with data-sharing processes, browser-based data, and metadata submission workflows can only be so fast, are not easily reproduced, and do not facilitate regular or automated data and metadata updates. Better programmatic tools can transform data sharing from a mountainous climb into a pit of success."
+
+This interview was furthermore featured on the [R Weekly highlights podcast](https://rweekly.fireside.fm/145?t=848) hosted by Eric Nantz and Mike Thomas.
+
+### rOpenSci Developer Guide Translation to Portuguese 
+
+We want to express our gratitude to the community members who have been actively contributing to the localization and translation of the rOpenSci Developer Guide into Portuguese. 
+Your dedication and efforts are making this valuable resource accessible to an even wider audience.  
+Here's a quick update on the progress:
+
+* 18% of the book is already translated!
+* 2 chapters are awaiting a second review. 
+* 24 chapters are still awaiting translation. 
+* 7 amazing contributors are driving this initiative: _Pedro Duarte Faria, Daniel Vartanian, Marcelo Perlin, Beatriz Milz, João Granja-Correia, António Pedro and Mariana._ Thank you for the incredible work you've done so far! 
+
+We're not done yet, and we invite more members of our community to join this collaborative effort. 
+If you want to contribute to the translation project, join us on GitHub: [rOpenSci Developer Guide Translation Project](https://github.com/orgs/ropensci/projects/7).
+
+### "A package a day" series on Mastodon and LinkedIn!
+
+We've started sharing about packages from our federated community of open source software developers, once a day on [Mastodon](https://mastodon.social/@rOpenSci@hachyderm.io/111522245481433695); and as a weekly digest on [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7140023562223943680)!
+On Mastodon: follow us, or search for `from:@rOpenSci@hachyderm.io #apackageaday` to find all posts until now.
+
+### Resources for [multilingual publishing](/commcalls/nov2023-multilingual/) community call, English and Spanish
+
+On this [community call](/commcalls/nov2023-multilingual/) ([Spanish](/commcalls/nov2023-multilenguaje/)), [Maëlle Salmon](/author/ma%C3%ABlle-salmon/), [Paola Corrales](/author/pao-corrales/), and [Elio Campitelli](/author/elio-campitelli/), shared the rOpenSci Multilingual project details. Maëlle presented the R packages that allow us to have our content in several languages. Elio and Paola shared about the translation workflow and showed the Translation Guide written to document the process.
+
+We've now posted, for the [call in English](/commcalls/nov2023-multilingual/) and the [call in Spanish](/commcalls/nov2023-multilenguaje/):
+- video + captions
+- speakers slides
+- collaborative notes with Q&A
+- links to R packages + localization guidelines + Dev Guide English + Spanish + Portuguese (WIP).
 
 ### Coworking
 
@@ -60,40 +102,24 @@ Everyone welcome.
 No RSVP needed. 
 Consult our [Events](/events) page to find your local time and how to join.
 
-- [Tuesday, Nov 7th, 9:00 America Pacific (17:00 UTC)](/events/coworking-2023-11/), Fixing scary bugs 😱🐛 With community host [Salix Dubois](/author/salix-dubois/) and [Steffi LaZerte](/author/steffi-lazerte/).
-    - Identify/fix some scary bugs;
-    - Chat with Salix about scary bugs!
+- [Tuesday, January 9th, 14:00 Europe Central (13:00 UTC)](/events/coworking-2024-01/), Working with APIs. With community host [Jon Harmon](/author/jon-harmon/) and [Steffi LaZerte](/author/steffi-lazerte/).
+    - Explore using APIs in your own work;
+    - Learn about packages that can help;
+    - Discuss using APIs in R with our community host and other attendees.
 
+- [Tuesday, February 6th, 9:00 Americas Pacific (17:00 UTC)](/events/coworking-2024-02/), R-Universe Office Hours. With cohost [Jeroen Ooms](/author/jeroen-ooms/) and [Steffi LaZerte](/author/steffi-lazerte/).
+    - Explore what the [R-Universe](https://r-universe.dev/) has to offer;
+    - Create your own R-Universe;
+    - Ask questions or troubleshoot your R-Universe problems with the cohost and other attendees.
+    
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
 
-### Reminder: Three upcoming community calls, and our first one in Spanish!
+## Software :package:
 
-#### [R in Government](/commcalls/oct2023-government/)
+### New packages
 
-In this community call, our panelists will share their experiences and examples of projects with R at different levels of government and in different countries.
-We invite you to learn about the challenges and lessons learned from our panelists and attendees in their efforts to make their government data, processes, and analyses more open and reproducible. 
-
-With [Luíza Andrade](https://ropensci.org/author/lu%C3%ADza-andrade/), [Karly Harker](https://ropensci.org/author/karly-harker/), [Ahmadou Dicko](https://ropensci.org/author/ahmadou-dicko/), [Pablo Tiscornia](https://ropensci.org/author/pablo-tiscornia/). 
-
-**Tuesday, 31 October 2023 16:00 UTC** 
-
-#### Multilingual Publishing
-
-As global movements, Open Source and Open Science face language-based exclusion as most resources are in English. This affects scientists and research software engineers working in R, particularly those who don’t have English as their first language.
-
-rOpenSci multilingual efforts aim to lower access barriers, democratize quality resources, and increase the possibilities of contributing to open software and science. We successfully piloted our Spanish-language peer review and the localization to Spanish of our comprehensive guide to software development, with Portuguese translation underway.
-
-[Maëlle Salmon](/author/ma%C3%ABlle-salmon/), [Paola Corrales](/author/pao-corrales/), and [Elio Campitelli](/author/elio-campitelli/),  will share the rOpenSci Multilingual project details on this call. Maëlle will present the R packages that allow us to have our content in several languages. Then Elio and Paola will share the translation workflow and show the Translation Guide written to document the process.
-
-- [**Multilingual Publishing**:  Tuesday, 21 November 2023 12:00 UTC](/commcalls/nov2023-multilingual/).
-
-- [**Proyecto Multilingüe**: Thursday, 23 November 2023 12:00 UTC](/commcalls/nov2023-multilenguaje/).
-
-
-## Software :package:: new versions
-
-```{r new-packages, cache = TRUE, eval=TRUE}
+```{r new-packages, cache = TRUE}
 cran_unquote <- function(string) {
   gsub("\\'(.*?)\\'", "\\1", string)
 }
@@ -163,10 +189,12 @@ new <- dplyr::filter(
 )
 ```
 
-```{r, results='asis', cache = TRUE, eval=FALSE}
+
+The following `r if(nrow(new)>1) english(nrow(new))` package`r if(nrow(new)>1) "s"` recently became a part of our software suite:
+
+```{r, results='asis', cache = TRUE}
 packages <- split(new, seq(nrow(new)))
 present_one <- function(package) {
-  if (package$package == "natserv") return(NULL)
   url_parts <- urltools::url_parse(package$url)
   desc_link <- gh::gh(
     "/repos/{owner}/{repo}/contents/{path}",
@@ -201,7 +229,11 @@ present_one <- function(package) {
     package$package, 
     package$package, 
     author_string,
-    stringr::str_remove(stringr::str_squish(package$details), "\\.$")
+    sub(
+      "Methods used to implement.*",
+      "",
+      stringr::str_remove(stringr::str_squish(package$details), "\\.$")
+    )
   )
   
   if (package$on_cran) {
@@ -222,25 +254,43 @@ present_one <- function(package) {
     )
   }
   if (nzchar(package$onboarding)) {
-    string <- paste0(string, sprintf("It has been [reviewed](%s)", package$onboarding))
+    string <- 
+    sub(
+      "\\. \\. ",
+      ". ",
+      paste0(string, sprintf("It has been [reviewed](%s)", package$onboarding))
+    )
     if (length(rev) > 0) {
+      
+   
       string <- paste0(string, sprintf(" by %s.", nice_string(rev)))
+      
+    } else {
+       if (package$package == "wmm") {
+      string <- paste0(string, " by Athanasia Monika Mowinckel and Rohit Goswami.")
+       } else if (package$package == "birdsize") {
+      string <- paste0(string, " by Quentin Read and Matt Strimas-Mackey.")
+    } else if (package$package == "naijR") {
+      string <- paste0(string, " by Margaret Siple and Alican Cagri Gokcek.")
     } else {
       string <- paste0(string, ".")
+    }
     }
   }
   
   paste("+", string)
 
 }
-text <- purrr::map(
+text <- purrr::map_chr(
   packages,
   present_one
-) %>%
-  purrr::compact() %>%
-  unlist()
+)
 cat(paste0(text, collapse = "\n\n"))
 ```
+
+Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
+
+### New versions
 
 ```{r news, cache=TRUE}
 registry <- dplyr::filter(
@@ -264,7 +314,8 @@ get_release <- function(repo) {
     "GET /repos/{owner}/{repo}/releases",
     owner = repo$owner,
     repo = repo$repo,
-    per_page = 3
+    per_page = 3,
+    description = repo$description
   )
   info <- info[!purrr::map_lgl(info, "draft")]
   if(length(info) == 0 || anytime::anytime(info[[1]]$published_at) < last_newsletter) {
@@ -323,6 +374,9 @@ get_user_text <- function(issue) {
   name <- info$name %||% issue$user$login
   url <- if (nzchar(info$blog)) info$blog else info$html_url
   if (!grepl("^https?:", url)) url <- paste0("http://", url)
+  if (url == "https://wwww.researchgate.net/profile/Kristof_Haneca") url <- "https://www.researchgate.net/profile/Kristof_Haneca"
+  if (url == "https://www.surfaces.co.il") url <- "https://github.com/micha-silver"
+  if (url == "http://csaybar.github.io") url <- "https://csaybar.github.io"
   sprintf("[%s](%s)", name, url)
   
 }
@@ -500,6 +554,9 @@ format_post <- function(dir) {
   } else {
     string <- paste0(string, ".")  
   }
+  if (post$title == "Scanning QR codes in R") {
+    string <- paste0(string, " This post was featured in the [R Weekly Highlights podcast](https://rweekly.fireside.fm/143) hosted by Eric Nantz and Mike Thomas.")
+  }
   
   if (post$socialImg != "") {
     img_file <- fs::path_file(post$socialImg)
@@ -568,7 +625,7 @@ if (length(tech_notes) > 0) {
 
 ## Call for maintainers
 
-If you're interested in maintaining any of the R packages below, you might enjoy reading our blog post [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/) (or listening to its discussion on the [R Weekly highlights podcast](https://rweekly.fireside.fm/111) hosted by Eric Nantz and Mike Thomas)!
+If you're interested in maintaining any of the R packages below, you might enjoy reading our blog post [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/).
 
 - **[rvertnet](https://cran.r-project.org/web/packages/rvertnet/index.html)**, Retrieve, map and summarize data from the VertNet.org archives (<https://vertnet.org/>). Functions allow searching by many parameters, including taxonomic names, places, and dates. In addition, there is an interface for conducting spatially delimited searches, and another for requesting large datasets via email. [Issue for volunteering](https://github.com/ropensci-archive/rvertnet/issues/71).
 
@@ -581,28 +638,34 @@ See also our [help wanted page](/help-wanted/) -- before opening a PR, we recomm
 
 Some useful tips for R package developers. :eyes:
 
-### System Dependencies in R Packages & Automatic Testing
+### An older post about dependencies
 
-Are you curious about, or stalled by, the installation of system dependencies in your continuous integration workflows?
-Refer to [Hugo Gruson's clear and extensive post](https://blog.r-hub.io/2023/09/26/system-dependency/) on the R-hub blog.
+Do you know of the post ["Playing on the same team as your dependency"](https://www.tidyverse.org/blog/2022/09/playing-on-the-same-team-as-your-dependecy/) by Thomas Lin Pedersen?
+It's a take from the maintainer perspective, on how maintainers of reverse dependencies can help make the relationship a two-way one.
 
-### Translate your package's messages with {potools}
+### Cliff notes about the cli package
 
-The [potools](https://michaelchirico.github.io/potools/) package by Michael Chirico is to translation files what roxygen2 is to Rd documentation files: it very much simplifies your writing and maintaining them!
-Refer to [potools documentation](https://michaelchirico.github.io/potools/) or a recent [tutorial](https://masalmon.eu/2023/10/06/potools-mwe/).
+If you missed our [October coworking session hosted by Athanasia Mo Mowinckel](/events/coworking-2023-10/), or attended and enjoyed it, you might want to read Athanasia's and Maëlle's [post about the cli package](https://blog.r-hub.io/2023/11/30/cliff-notes-about-cli/)!
+The cli package maintained by Gábor Csárdi allows you to build pretty user-interfaces (messages, including error messages and progress bars).
 
+### "Prepare for CRAN" list of resources
 
-### testthat new release
+Do you know about the GitHub repository ["Prepare for CRAN"](https://github.com/ThinkR-open/prepare-for-cran) maintained by ThinkR with help from the R community?
+It contains good tips and gotchas for CRAN submissions.
 
-If you use testthat for your package tests, don't miss the [release announcement](https://www.tidyverse.org/blog/2023/10/testthat-3-2-0/) of testthat 3.2.0!
-That post describes the major features such as the return of mocking support within testthat itself.
+### More accessible and usable cheatsheets: HTML format!
 
-Among [minor features](https://testthat.r-lib.org/news/index.html#minor-features-and-bug-fixes-3-2-0) you might notice the new `desc` argument of `testthat::test_file()` to run a single test at a time.
-You can now for instance run `devtools::test_active_file(desc = 'blop() runs')`
+If you plan to create, or already maintain, a cheatsheet for a package of yours, you might be inspired from Posit's recent publication of [cheatsheets in HTML format](https://posit.co/blog/posit-cheatsheets-now-in-html/) for better accessibility and improved usage in the browser.
+The cheatsheet are Quarto documents, see their [source](https://github.com/rstudio/cheatsheets/).
+Another example of HTML cheatsheet is the one for the dm package, which is actually integrated as an [article in a pkgdown website](https://dm.cynkra.com/articles/cheatsheet.html) ([source](https://github.com/cynkra/dm/blob/main/vignettes/articles/cheatsheet.Rmd)).
 
+### Code Smell: Error Handling Eclipse
+
+Don't miss Nick Tierney's post ["Code Smell: Error Handling Eclipse"](https://www.njtierney.com/post/2023/12/06/long-errors-smell/), on why and how to refactor your code so that error-handling code doesn't crowd your function body.
 
 ## Last words
 
 Thanks for reading! If you want to get involved with rOpenSci, check out our [Contributing Guide](https://contributing.ropensci.org) that can help direct you to the right place, whether you want to make code contributions, non-code contributions, or contribute in other ways like sharing use cases.
+You can also support our work through [donations](/donate).
 
 If you haven't subscribed to our newsletter yet, you can [do so via a form](/news/). Until it's time for our next newsletter, you can keep in touch with us via our [website](/) and [Mastodon account](https://hachyderm.io/@rOpenSci).
