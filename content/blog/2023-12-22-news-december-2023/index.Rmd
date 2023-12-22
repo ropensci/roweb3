@@ -82,11 +82,11 @@ If you want to contribute to the translation project, join us on GitHub: [rOpenS
 We've started sharing about packages from our federated community of open source software developers, once a day on [Mastodon](https://mastodon.social/@rOpenSci@hachyderm.io/111522245481433695); and as a weekly digest on [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7140023562223943680)!
 On Mastodon: follow us, or search for `from:@rOpenSci@hachyderm.io #apackageaday` to find all posts until now.
 
-### Resources for [multilingual publishing](/commcalls/nov2023-multilingual/) community call
+### Resources for [multilingual publishing](/commcalls/nov2023-multilingual/) community call, English and Spanish
 
-On this [community call](/commcalls/nov2023-multilingual/), [Maëlle Salmon](/author/ma%C3%ABlle-salmon/), [Paola Corrales](/author/pao-corrales/), and [Elio Campitelli](/author/elio-campitelli/), shared the rOpenSci Multilingual project details. Maëlle presented the R packages that allow us to have our content in several languages. Elio and Paola shared about the translation workflow and showed the Translation Guide written to document the process.
+On this [community call](/commcalls/nov2023-multilingual/) ([Spanish](/commcalls/nov2023-multilenguaje/)), [Maëlle Salmon](/author/ma%C3%ABlle-salmon/), [Paola Corrales](/author/pao-corrales/), and [Elio Campitelli](/author/elio-campitelli/), shared the rOpenSci Multilingual project details. Maëlle presented the R packages that allow us to have our content in several languages. Elio and Paola shared about the translation workflow and showed the Translation Guide written to document the process.
 
-We've now [posted](/commcalls/nov2023-multilingual/):
+We've now posted, for the [call in English](/commcalls/nov2023-multilingual/) and the [call in Spanish](/commcalls/nov2023-multilenguaje/):
 - video + captions
 - speakers slides
 - collaborative notes with Q&A
