@@ -28,7 +28,18 @@
       "champion 2023-2024"
    ],
    "github": "erikaris"
-},  
+},
+{
+   "name": "Ezekiel Adebayo Ogundepo",
+   "url": "https://bit.ly/gbganalyst",
+   "image" : "/img/team/",
+   "affiliation": "GBG Analytics Limited",
+   "roles": [
+      "champion 2023-2024"
+   ],
+   "github": "gbganalyst",
+   "home": "https://bit.ly/gbganalyst"
+},
   {
    "name": "Paola Corrales",
    "url": "https://paocorrales.github.io/",
