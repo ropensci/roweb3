@@ -1,9 +1,8 @@
 ---
-name: Yanina Bellini Saibene
-link: https://yabellini.netlify.app/
-bio: rOpenSci Community Manager
-github: yabellini
-linkedin: yabellini
-mastodon: https://fosstodon.org/@yabellini
-orcid: 0000-0002-4522-7466 
+name: Liz Hare
+link: http://doggenetics.com
+bio: Dog Genetics LLC, ManyDogs Project, The Turing Way
+github: lizharedogs
+linkedin: liz-hare-phd-1a50925/
+mastodon: https://fosstodon.org/@lizhare
 ---
