@@ -1,4 +1,17 @@
 [{
+   "name": "Andrea Gomez Vargas",
+   "url": "https://soyandrea.netlify.app/",
+   "image" : "/img/team/",
+   "affiliation": "INDEC Argentina, R-Ladies Global, Latin-R",
+   "roles": [
+      "champion 2023-2024"
+   ],
+   "github": "SoyAndrea",
+   "home": "https://soyandrea.netlify.app/"
+},
+
+  
+  {
    "name": "Paola Corrales",
    "url": "https://paocorrales.github.io/",
    "image" : "/img/team/paola-corrales.png",
