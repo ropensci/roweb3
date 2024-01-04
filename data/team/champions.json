@@ -9,7 +9,17 @@
    "github": "SoyAndrea",
    "home": "https://soyandrea.netlify.app/"
 },
-
+{
+   "name": "YBinod Jung Bogati",
+   "url": "https://bjungbogati.com.np/",
+   "image" : "/img/team/",
+   "affiliation": "R User Group Nepal, Numeric Mind",
+   "roles": [
+      "champion 2023-2024"
+   ],
+   "github": "bjungbogati",
+   "home": "https://bjungbogati.com.np/"
+},
   
   {
    "name": "Paola Corrales",
