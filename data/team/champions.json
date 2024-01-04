@@ -20,7 +20,15 @@
    "github": "bjungbogati",
    "home": "https://bjungbogati.com.np/"
 },
-  
+{
+   "name": "Erika Siregar",
+   "image" : "/img/team/",
+   "affiliation": "BPS-Statistics Indonesia",
+   "roles": [
+      "champion 2023-2024"
+   ],
+   "github": "erikaris"
+},  
   {
    "name": "Paola Corrales",
    "url": "https://paocorrales.github.io/",
