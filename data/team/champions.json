@@ -60,6 +60,17 @@
    ],
    "github": "Jacqui-123"
 },
+{
+   "name": "Liz Hare",
+   "url": "http://doggenetics.com",
+   "image" : "/img/team/",
+   "affiliation": "Dog Genetics LLC, ManyDogs Project, The Turing Way",
+   "roles": [
+      "champion 2023-2024"
+   ],
+   "github": "lizharedogs",
+   "home": "http://doggenetics.com"
+},
   {
    "name": "Paola Corrales",
    "url": "https://paocorrales.github.io/",
