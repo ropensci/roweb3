@@ -71,6 +71,26 @@
    "github": "lizharedogs",
    "home": "http://doggenetics.com"
 },
+{
+   "name": "Mirna Vazquez Rosas Landa",
+   "url": "https://mirnavazquez.netlify.app/",
+   "image" : "/img/team/",
+   "affiliation": "UNAM, Instituto de Ciencias del Mar y Limnología",
+   "roles": [
+      "champion 2023-2024"
+   ],
+   "github": "mirnavazquez",
+   "home": "https://mirnavazquez.netlify.app/"
+},
+{
+   "name": "Sehrish Kanwal",
+   "image" : "/img/team/",
+   "affiliation": "The University of Mebourne",
+   "roles": [
+      "champion 2023-2024"
+   ],
+   "github": "skanwal"
+},
   {
    "name": "Paola Corrales",
    "url": "https://paocorrales.github.io/",
