@@ -1,9 +1,7 @@
 ---
-name: Yanina Bellini Saibene
-link: https://yabellini.netlify.app/
-bio: rOpenSci Community Manager
-github: yabellini
-linkedin: yabellini
-mastodon: https://fosstodon.org/@yabellini
-orcid: 0000-0002-4522-7466 
+name: Mirna Vazquez Rosas Landa
+link: https://mirnavazquez.netlify.app/
+bio: UNAM, Instituto de Ciencias del Mar y Limnología
+github: mirnavazquez
+linkedin: mirna-v%C3%A1zquez-rosas-landa-ph-d-7159ab140
 ---
