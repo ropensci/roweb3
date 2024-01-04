@@ -1,7 +1,7 @@
 [{
    "name": "Andrea Gomez Vargas",
    "url": "https://soyandrea.netlify.app/",
-   "image" : "/img/team/",
+   "image" : "/img/team/andrea-vargas.png",
    "affiliation": "INDEC Argentina, R-Ladies Global, Latin-R",
    "roles": [
       "champion 2023-2024"
@@ -12,7 +12,7 @@
 {
    "name": "YBinod Jung Bogati",
    "url": "https://bjungbogati.com.np/",
-   "image" : "/img/team/",
+   "image" : "/img/team/binod-bogati.jpeg",
    "affiliation": "R User Group Nepal, Numeric Mind",
    "roles": [
       "champion 2023-2024"
@@ -32,7 +32,7 @@
 {
    "name": "Ezekiel Adebayo Ogundepo",
    "url": "https://bit.ly/gbganalyst",
-   "image" : "/img/team/",
+   "image" : "/img/team/ezekiel-ogundepo.png",
    "affiliation": "GBG Analytics Limited",
    "roles": [
       "champion 2023-2024"
@@ -43,7 +43,7 @@
 {
    "name": "Francesca Belem Lopes Palmeira",
    "url": "https://fblpalmeira.github.io/",
-   "image" : "/img/team/",
+   "image" : "/img/team/francesca-palmeira.jpg",
    "affiliation": "RLadies Ribeirão Preto",
    "roles": [
       "champion 2023-2024"
@@ -63,7 +63,7 @@
 {
    "name": "Liz Hare",
    "url": "http://doggenetics.com",
-   "image" : "/img/team/",
+   "image" : "/img/team/liz-hare.jpg",
    "affiliation": "Dog Genetics LLC, ManyDogs Project, The Turing Way",
    "roles": [
       "champion 2023-2024"
@@ -74,7 +74,7 @@
 {
    "name": "Mirna Vazquez Rosas Landa",
    "url": "https://mirnavazquez.netlify.app/",
-   "image" : "/img/team/",
+   "image" : "/img/team/mirna-vazquez.jpg",
    "affiliation": "UNAM, Instituto de Ciencias del Mar y Limnología",
    "roles": [
       "champion 2023-2024"
@@ -84,7 +84,7 @@
 },
 {
    "name": "Sehrish Kanwal",
-   "image" : "/img/team/",
+   "image" : "/img/team/sehrish-kanwal.jpg",
    "affiliation": "The University of Mebourne",
    "roles": [
       "champion 2023-2024"
@@ -94,7 +94,7 @@
 {
    "name": "Yi-Chin Sunny Tseng",
    "url": "https://sunshineland.netlify.app/",
-   "image" : "/img/team/",
+   "image" : "/img/team/sunny-tseng.jpg",
    "affiliation": "University of Northern British Columbia",
    "roles": [
       "champion 2023-2024"
