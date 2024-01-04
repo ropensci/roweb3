@@ -51,6 +51,15 @@
    "github": "fblpalmeira",
    "home": "https://fblpalmeira.github.io/"
 },
+{
+   "name": "Jacqui Levy",
+   "image" : "/img/team/",
+   "affiliation": "Environment and Climate Change Canada, rOpenSci",
+   "roles": [
+      "champion 2023-2024"
+   ],
+   "github": "Jacqui-123"
+},
   {
    "name": "Paola Corrales",
    "url": "https://paocorrales.github.io/",
