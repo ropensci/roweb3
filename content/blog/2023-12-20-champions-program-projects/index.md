@@ -11,12 +11,35 @@ tags:
 description: ""
 ---
 
-Our first cohort of the [rOpenSci Champions Program](/champions/) has now completed the second phase of their program.
-
-In this article, we share each champions projects, their progress and outreach activities. 
+Our first cohort of the [rOpenSci Champions Program](/champions/) has now completed the second phase of their program. In this article, we share each champions projects, their progress and outreach activities. 
 
 ## Champions' Projects
 
+### Package Peer Review
+
+
+### Developing new packages
+
+
+### Outreach Activities
+
+Our champions carried out a wide range of activities: talks, conference papers, workshops, blog articles, community calls and meetups. Let's review some of them.
+
+
+## Talks and papers
+
+## Events
+
+
+
+## Workshops
+
+
+
+
+Biblikisu with Chirstina
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7113276364912308224" height="362" width="504" frameborder="0" allowfullscreen="" title="Publicación integrada"></iframe>
 
 ## Next Steps
 
