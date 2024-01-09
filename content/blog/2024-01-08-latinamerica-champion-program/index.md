@@ -9,7 +9,7 @@ author:
 - Beatriz Milz
 - Carolina Pradier
 - Cesar Luis Aybar Camacho
-- Paola Corrales
+- Pao Corrales
 date: '2024-01-08'
 tags:
   - champions-program
@@ -29,19 +29,19 @@ El programa prevé tres tipos de proyectos: crear un nuevo paquete, pasar por la
 
 * [Cesar Aybar](/author/cesar-luis-aybar-camacho/) desarrolló el paquete [rgeeExtra](https://r-earthengine.com/rgeeExtra/index.html) que extiende las funcionalidades de {rgee} para poder acceder y procesar información espacial de sensores remotos con una sintaxis amigable para usuarios de R. Cesar trabajó en agregar funcionalidades y reemplazó las dependencias de espaciales que serán retirados. Su paquete esta en [proceso de revisión](https://github.com/ropensci/software-review/issues/608).  
 
-* [Haydee Svab]() desarrolló un nuevo paquete llamado [odbr](https://github.com/hsvab/odbr) que permite acceder y procesar datos de las encuestas de origen y destino (od) de Brasil e implemente muchos de los algoritmos que Haydée desarrolló para su tesis de maestría. [El paquete fue publicado en CRAN](https://cran.r-project.org/web/packages/odbr/index.html).
+* [Haydee Svab](/author/haydee-svab/) desarrolló un nuevo paquete llamado [odbr](https://github.com/hsvab/odbr) que permite acceder y procesar datos de las encuestas de origen y destino (od) de Brasil e implemente muchos de los algoritmos que Haydée desarrolló para su tesis de maestría. [El paquete fue publicado en CRAN](https://cran.r-project.org/web/packages/odbr/index.html).
 
-* [Marcos Prunello]() trabajó sobre su paquete karel, el cual implementa en R a Karel the robot, una herramienta útil para enseñar conceptos introductorios sobre programación de una manera interactiva y divertida, mediante la escritura de programas para que Karel complete tareas. Además el paquete provee funciones, argumentos y mensajes tanto en inglés como en español, proponiendo una infraestructura que permite agregar más idiomas. 
+* [Marcos Prunello](/author/marcos-prunello/) trabajó sobre su paquete karel, el cual implementa en R a Karel the robot, una herramienta útil para enseñar conceptos introductorios sobre programación de una manera interactiva y divertida, mediante la escritura de programas para que Karel complete tareas. Además el paquete provee funciones, argumentos y mensajes tanto en inglés como en español, proponiendo una infraestructura que permite agregar más idiomas. 
 
-* [Paola Corrales]() desarrolló el paquete agromet que calcula índices climáticos e hidrológicos y estadísticas a partir de datos ordenados, incluida una función para graficar resultados georreferenciados e información cartográfica. Paola reemplazó dependencias, mejoró los mensajes de error y aumentó la cobertura de tests.
+* [Paola Corrales](/author/pao-corrales/) desarrolló el paquete agromet que calcula índices climáticos e hidrológicos y estadísticas a partir de datos ordenados, incluida una función para graficar resultados georreferenciados e información cartográfica. Paola reemplazó dependencias, mejoró los mensajes de error y aumentó la cobertura de tests.
 
 ## Entrenamiento 
 
 El programa también ofreció entrenamiento en forma de talleres y mentorías individuales.
 
-Beatriz Milz, Mauro Lepore y Elio Campitelli son las personas de Latinoamérica que participaron del programa siendo mentores. Su rol fue el de guiar, conectar, inspirar y dar feedback a sus campeones/as sobre su proyecto.
+[Beatriz Milz](/author/beatriz-milz/), [Mauro Lepore](/author/mauro-lepore/) y [Elio Campitelli](/author/elio-campitelli/) son las personas de Latinoamérica que participaron del programa siendo mentores. Su rol fue el de guiar, conectar, inspirar y dar feedback a sus campeones/as sobre su proyecto.
 
-Además, Mauro dictó un taller sobre el funcionamiento del proceso de revisión de software de rOpenSci y contestó muchas preguntas en base a su experiencia de haber cumplido distintos roles en ese proceso. Yanina Bellini Saibene dictó la capacitación para mentores, basada en los materiales y experiencia del programa Mozilla Open Leaders. Finalmente, Paola Corrales desarrolló y dictó un taller con asistencia de Yanina para las personas que aplicaron y no fueron seleccionadas por el programa sobre el uso de Git y GitHub en el desarrollo colaborativo de proyectos de software.
+Además, Mauro dictó un taller sobre el funcionamiento del proceso de revisión de software de rOpenSci y contestó muchas preguntas en base a su experiencia de haber cumplido distintos roles en ese proceso. Yani Bellini Saibene dictó la capacitación para mentores, basada en los materiales y experiencia del programa Mozilla Open Leaders. Finalmente, Pao Corrales desarrolló y dictó un taller con asistencia de Yanina para las personas que aplicaron y no fueron seleccionadas por el programa sobre el uso de Git y GitHub en el desarrollo colaborativo de proyectos de software.
 
 ## Lecciones aprendidas 
 
