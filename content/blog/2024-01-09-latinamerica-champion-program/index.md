@@ -22,7 +22,7 @@ Las personas _campeonas_ de una comunidad son _personas que asumen una mayor res
 
 El programa ya tuvo una cohorte y este 2024 inicia el segundo grupo.  En este articulo, presentamos a todas las personas de latinoamerica que participaron de la primera cohorte del programa, que roles tuvieron y que proyecto estan desarrollando, para animar aún más participacion en el programa. 😄 🏆 
 
-El programa tiene una fuerte influencia latinoamericana. De los 10 campeones y 10 mentores de la primera cohorte, cinco y tres son de Latinoamérica, respectivamente. Además, tres personas de la región han dictado capacitaciones y quien lidera el programa también es de la región. Para las revisiones en español han participado personas de latinoamerica en el proceso para edición y revisión. 
+El programa tiene una fuerte influencia latinoamericana. De los 10 campeones y 10 mentores de la primera cohorte, cinco y tres son de Latinoamérica, respectivamente. Además, tres personas de la región han dictado capacitaciones y quien lidera el programa también es de la región. Para las revisiones de software por pares en español, han participado personas de latinoamerica en el proceso con roles de edición y de revisión. 
 
 ## Proyectos 
 
