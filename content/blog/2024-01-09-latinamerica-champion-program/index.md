@@ -1,5 +1,5 @@
 ---
-title: 'Paeticipación  Latinoamérica en el Programa de Campeonas y Campeones de rOpenSci'
+title: 'Participación  Latinoamérica en el Programa de Campeonas y Campeones de rOpenSci'
 author: 
 - Yanina Bellini Saibene 
 - Elio Campitelli
@@ -15,14 +15,14 @@ tags:
   - champions-program
   - community
 slug: champions-program-latinr
-description: detalles de la participación latinoamericana en el primer año del programa de campeonas y campeones de rOpenSci.
+description: Detalles de la participación latinoamericana en el primer año del programa de campeonas y campeones de rOpenSci.
 ---
 
-Las personas _campeonas_ de una comunidad son _personas que asumen una mayor responsabilidad en el éxito, la sostenibilidad y/o el funcionamiento de una comunidad_.[^1]. rOpenSci desarrolla un [programa de campeones y campeonas](/champions/) enfocado y pensado para que participen personas que pertenecen a grupos histórica y sistemáticamente excluidos de las comunidades de software abierto y de software de investigación. Con una duración de doce meses, la iniciativa incluye capacitación en cohortes, el desarrollo de un proyecto y tutorías individuales.
+Las personas _campeonas_ de una comunidad son _personas que asumen una mayor responsabilidad en el éxito, la sostenibilidad y/o el funcionamiento de una comunidad_.[^1] rOpenSci desarrolla un [programa de campeones y campeonas](/champions/) enfocado y pensado para que participen personas que pertenecen a grupos histórica y sistemáticamente excluidos de las comunidades de software abierto y de software de investigación. Con una duración de doce meses, la iniciativa incluye capacitación en cohortes, el desarrollo de un proyecto y tutorías individuales.
 
 El programa ya tuvo una cohorte y este 2024 inicia el segundo grupo.  En este articulo, presentamos a todas las personas de latinoamerica que participaron de la primera cohorte del programa, que roles tuvieron y que proyecto estan desarrollando, para animar aún más participacion en el programa. 😄 🏆 
 
-El programa tiene una fuerte influencia latinoamericana. De los 10 campeones y 10 mentores de la primera cohorte, cinco y tres son de Latinoamérica, respectivamente. Además, tres personas de la región han dictado capacitaciones y quien lidera el programa también es de la región.
+El programa tiene una fuerte influencia latinoamericana. De los 10 campeones y 10 mentores de la primera cohorte, cinco y tres son de Latinoamérica, respectivamente. Además, tres personas de la región han dictado capacitaciones y quien lidera el programa también es de la región. Para las revisiones en español han participado personas de latinoamerica en el proceso para edición y revisión. 
 
 ## Proyectos 
 
