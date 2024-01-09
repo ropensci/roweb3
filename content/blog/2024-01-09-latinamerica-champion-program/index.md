@@ -10,7 +10,7 @@ author:
 - Carolina Pradier
 - Cesar Luis Aybar Camacho
 - Pao Corrales
-date: '2024-01-08'
+date: '2024-01-09'
 tags:
   - champions-program
   - community
