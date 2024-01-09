@@ -25,15 +25,15 @@ El programa tiene una fuerte influencia latinoamericana. De los 10 campeones y 1
 
 El programa prevé tres tipos de proyectos: crear un nuevo paquete, pasar por la revisión con un paquete de R que ya hayan desarrollado o revisar un paquete.
 
-* [Carolina Pradier](/author/carolina-pradier/) trabajó sobre el paquete [eph](https://holatam.github.io/eph/) el cual facilita tiene por objeto facilitar el trabajo de quienes usan datos de la Encuesta Permanente de Hogares - INDEC y deseen procesar datos de la misma usando R. Carolina agregó funcionalidad al paquete, redujo la cantidad de dependencias, mejoró los mensajes de error e incrementó la cobertura de tests antes de enviar el paquete a revisión. Su paquete ya forma parte de la suite rOpenSci tras una [revisión por pares en español](https://github.com/ropensci/software-review/issues/593).
+* [Carolina Pradier](/author/carolina-pradier/) trabajó sobre el paquete [eph](https://holatam.github.io/eph/) el cual facilita tiene por objeto facilitar el trabajo de quienes usan datos de la Encuesta Permanente de Hogares - INDEC y deseen procesar datos de la misma usando R. Carolina agregó funcionalidad al paquete, redujo la cantidad de dependencias, mejoró los mensajes de error e incrementó la cobertura de tests antes de enviar el paquete a revisión. Su paquete ya forma parte de la suite rOpenSci tras una [revisión por pares en español](https://github.com/ropensci/software-review/issues/593) y fue [publicado en CRAN](https://cran.r-project.org/web/packages/eph/index.html).
 
-* [Cesar Aybar](/author/cesar-luis-aybar-camacho/) desarrolló el paquete [rgeeExtra](https://r-earthengine.com/rgeeExtra/index.html) que extiende las funcionalidades de {rgee} para poder acceder y procesar información espacial de sensores remotos con una sintaxis amigable para usuarios de R. Cesar trabajó en agregar funcionalidades y reemplazó las dependencias de espaciales que serán retirados. Su paquete esta en proceso de revisión.  
+* [Cesar Aybar](/author/cesar-luis-aybar-camacho/) desarrolló el paquete [rgeeExtra](https://r-earthengine.com/rgeeExtra/index.html) que extiende las funcionalidades de {rgee} para poder acceder y procesar información espacial de sensores remotos con una sintaxis amigable para usuarios de R. Cesar trabajó en agregar funcionalidades y reemplazó las dependencias de espaciales que serán retirados. Su paquete esta en [proceso de revisión](https://github.com/ropensci/software-review/issues/608).  
 
-* Haydee Svab desarrolló un nuevo paquete llamado odbr que permite acceder y procesar datos de las encuestas de origen y destino (od) de Brasil e implemente muchos de los algoritmos que Haydée desarrolló para su tesis de maestría. 
+* [Haydee Svab]() desarrolló un nuevo paquete llamado [odbr](https://github.com/hsvab/odbr) que permite acceder y procesar datos de las encuestas de origen y destino (od) de Brasil e implemente muchos de los algoritmos que Haydée desarrolló para su tesis de maestría. [El paquete fue publicado en CRAN](https://cran.r-project.org/web/packages/odbr/index.html).
 
-* Marcos Prunello trabajó sobre su paquete karel, el cual implementa en R a Karel the robot, una herramienta útil para enseñar conceptos introductorios sobre programación de una manera interactiva y divertida, mediante la escritura de programas para que Karel complete tareas. Además el paquete provee funciones, argumentos y mensajes tanto en inglés como en español, proponiendo una infraestructura que permite agregar más idiomas. 
+* [Marcos Prunello]() trabajó sobre su paquete karel, el cual implementa en R a Karel the robot, una herramienta útil para enseñar conceptos introductorios sobre programación de una manera interactiva y divertida, mediante la escritura de programas para que Karel complete tareas. Además el paquete provee funciones, argumentos y mensajes tanto en inglés como en español, proponiendo una infraestructura que permite agregar más idiomas. 
 
-* Paola Corrales desarrolló el paquete agromet que calcula índices climáticos e hidrológicos y estadísticas a partir de datos ordenados, incluida una función para graficar resultados georreferenciados e información cartográfica. Paola reemplazó dependencias, mejoró los mensajes de error y aumentó la cobertura de tests.
+* [Paola Corrales]() desarrolló el paquete agromet que calcula índices climáticos e hidrológicos y estadísticas a partir de datos ordenados, incluida una función para graficar resultados georreferenciados e información cartográfica. Paola reemplazó dependencias, mejoró los mensajes de error y aumentó la cobertura de tests.
 
 ## Entrenamiento 
 
@@ -50,5 +50,7 @@ El programa brinda herramientas y espacio para que tanto campeones como mentores
 Es una buena oportunidad para desarrollar un paquete de R (o mejorar uno propio) bajo la guía de mentores y con el soporte de una comunidad. El aspecto formal de las etapas del programa ayuda a tener foco en la tarea y poder completarla en un tiempo razonable.
 
 Esperamos que más personas de nuestra región se sumen a este programa, tanto como mentores, docentes o campeones/as y a rOpenSci en los diversos roles de los que puede ser parte. Para conocer más sobre cómo contribuir a rOpenSci se puede consultar la guía de contribución.
+
+> Este resumen fue aceptado para la conferencia [LatinR 2023](https://latin-r.com/cronograma/programa/presentaciones.html) que se realizo en Montevideo, Uruguay y fue presentado por Haydee Svab.
 
 [^1]: The CSCCE Community Participation Model - Exploring the Champion mode. (2021). Woodley and Pratt doi 10.5281/zenodo.5275270
