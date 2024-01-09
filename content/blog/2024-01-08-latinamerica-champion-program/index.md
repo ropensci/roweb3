@@ -13,6 +13,7 @@ author:
 date: '2024-01-08'
 tags:
   - champions-program
+  - community
 slug: champions-program-latinr
 description: detalles de la participación latinoamericana en el primer año del programa de campeonas y campeones de rOpenSci.
 ---
