@@ -23,10 +23,8 @@ In 2023, we received one Code of Conduct incident report.
 
 ### Summary of reported incident
 
-* _Description of the incident:_ 
+* _Description of the incident:_  We received a Code of Conduct report regarding sharing a paywalled article in Slack. After review, we found that this conversation did not violate the Code of Conduct guidelines. The conversation was voluntarily deleted from Slack by its participants.
 * _Community space:_ Slack
-* _Actions:_  We followed our protocols to investigate the incident and informed the reported and reporter of our decision and the outcome. 
-* _Observations:_ 
 
 
 This code of conduct belongs to the community. We welcome your feedback at any time by emailing <conduct@ropensci.org>.
