@@ -25,7 +25,7 @@ resources: # can be added later, one entry per talk (don't add while still empty
   - title: "Traduzindo o guia Dev da rOpenSci para o Português"
     speaker: Pedro Duarte Faria
     slides: https://docs.google.com/presentation/d/1bLeMIjSNL_v0QXxN6qlM5ni5Qcsa6jWwjGl4mZucIpY/edit?usp=sharing
-#    video: 
+    video: https://vimeo.com/899603912?share=copy
     language: pt
 ---
 
