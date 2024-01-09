@@ -51,6 +51,6 @@ Es una buena oportunidad para desarrollar un paquete de R (o mejorar uno propio)
 
 **Esperamos que más personas de nuestra región se sumen a este programa**, tanto como mentores, docentes o campeones/as y a rOpenSci en los diversos roles de los que puede ser parte. Para conocer más sobre cómo contribuir a rOpenSci se puede consultar la [guía de contribución](https://contributing.ropensci.org/).
 
-> Este resumen fue aceptado para la conferencia [LatinR 2023](https://latin-r.com/cronograma/programa/presentaciones.html) que se realizó en Montevideo, Uruguay y fue presentado por Haydee Svab en representación de todos los autores.
+> Este resumen fue aceptado para la conferencia [LatinR 2023](https://latin-r.com/cronograma/programa/presentaciones.html) que se realizó en Montevideo, Uruguay y fue [presentado por Haydee Svab en representación de todos los autores](https://ropensci.org/events/latinr-champions-2023/).
 
 [^1]: The CSCCE Community Participation Model - Exploring the Champion mode. (2021). Woodley and Pratt doi 10.5281/zenodo.5275270
