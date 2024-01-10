@@ -23,22 +23,20 @@ Our first cohort of the [rOpenSci Champions Program](/champions/) has now comple
 
 -   **Alican Cagri Gokcek** from Turkey [reviewed Victor’s package](https://github.com/ropensci/software-review/issues/600). As a blind developer, Cagri add a focus on the accessibility of the visualization the package created in his review. 
 
-
 -   **Cesar Aybar** from Peru, developed the [rgeeExtra](https://r-earthengine.com/rgeeExtra/index.html) package that extends the functionality of {rgee} to be able to access and process remote sensing spatial data with a friendly syntax for R users. Cesar worked on adding functionality and replaced spatial dependencies that will be removed. His package is in the [review process](https://github.com/ropensci/software-review/issues/608).
 
--   **Paola Corrales** from Argentina, developed the agroclimatico package (<https://github.com/AgRoMeteorologiaINTA/agroclimatico>) that calculates climatic and hydrological indices and statistics from sorted data, including a function to plot geo-referenced results and cartographic information. Paola replaced dependencies, improved error messages, and increased test coverage. She had to make difficult decisions, such as changing the package’s name and some of the functions to avoid confusion with other existing packages. Agroclimatico is in the review process in Spanish.
+-   **Paola Corrales** from Argentina, developed the [agroclimatico package](https://github.com/AgRoMeteorologiaINTA/agroclimatico) that calculates climatic and hydrological indices and statistics from sorted data, including a function to plot geo-referenced results and cartographic information. Paola replaced dependencies, improved error messages, and increased test coverage. She had to make difficult decisions, such as changing the package’s name and some of the functions to avoid confusion with other existing packages. Agroclimatico is in the review process in Spanish.
 
-
--   **Marcos Prunello** from Argentina, worked on his package karel (<https://mpru.github.io/karel/>), which implements Karel the robot in R, a useful tool to teach introductory concepts about programming in an interactive and fun way, by writing programs for Karel to complete tasks. In addition, the package provides functions, arguments, messages, and documentation in both English and Spanish, proposing an infrastructure that allows the addition of more languages. The package is in the process of review, being the first to have a **bilingual review**! 
+-   **Marcos Prunello** from Argentina, worked on his package [karel](https://mpru.github.io/karel/), which implements Karel the robot in R, a useful tool to teach introductory concepts about programming in an interactive and fun way, by writing programs for Karel to complete tasks. In addition, the package provides functions, arguments, messages, and documentation in both English and Spanish, proposing an infrastructure that allows the addition of more languages. The package is in the process of review, being the first to have a **bilingual review**! 
 
 
 ### Developing new packages
 
 -   **Haydee Svab**, from Brazil, developed a new package called [odbr](https://cran.r-project.org/web/packages/odbr/index.html) that allows accessing and processing data from the Brazilian origin and destination (od) surveys and implements many of the algorithms that Haydee developed for her master's thesis. The package was published in CRAN.
 
--   **Bilikisu Wunmi Olatunji** from Nigeria, developed the new package ChartkickR (<https://github.com/BWOlatunji/chartkickR>)  is an htmlwidget that seamlessly integrates with the Chartkick JavaScript library. It provides R users with a straightforward interface to generate beautiful and interactive charts using R code. The package provides ten types of plots.
+-   **Bilikisu Wunmi Olatunji** from Nigeria, developed the new package [ChartkickR](https://github.com/BWOlatunji/chartkickR) is an htmlwidget that seamlessly integrates with the Chartkick JavaScript library. It provides R users with a straightforward interface to generate beautiful and interactive charts using R code. The package provides ten types of plots.
 
--   **Ghozayel Elotteebi** from Saudi Arabia, worked on a new package called Lextale (<https://ghozayel.github.io/Lextale/> ). To my knowledge, this is the first R package in the field of linguistics developed in Saudi Arabia and would be the first local contribution to rOpenSci. 
+-   **Ghozayel Elotteebi** from Saudi Arabia, worked on a new package called [Lextale](https://ghozayel.github.io/Lextale/). To my knowledge, this is the first R package in the field of linguistics developed in Saudi Arabia and would be the first local contribution to rOpenSci.
 
 
 ### Outreach Activities
