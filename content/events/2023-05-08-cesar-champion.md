@@ -7,7 +7,7 @@ description: "Open-source: Preparing remote sensing data for deep learning using
 location: 'online'
 country: "\U0001F310" # emoji
 attendees:
-  - Cesar Aybar
+  - Cesar Luis Aybar Camacho
 resources: # can be added later, one entry per talk (don't add while still empty, add once there are resources)
   - title: "Preparing remote sensing data for deep learning using r-spatial"
     speaker: Cesar Aybar
