@@ -48,7 +48,7 @@ Este Código de Conducta se aplica a todas las personas que participan en la com
 
 ### Directrices para la presentación de informes
 
-El Comité del Código de Conducta de rOpenSci incluye a [Mark Padgham](/autor/mark-padgham) (Científico de Investigación de Software de rOpenSci), [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) (Community Manager de rOpenSci) y [Kara Woo](https://karawoo.com/) (miembro independiente de la comunidad).
+El Comité del Código de Conducta de rOpenSci incluye a [Mark Padgham](/autor/mark-padgham) (Científico de Investigación de Software de rOpenSci) and [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) (Community Manager de rOpenSci).
 
 Si experimentas o eres testigo de un comportamiento inaceptable, o tienes cualquier otra preocupación, [por favor, envía un informe al Comité tan pronto como sea posible utilizando este formulario](https://forms.gle/8zKztThp2yLJ6KYa6). También puede enviar un correo electrónico a `conduct@ropensci.org`, que llegará a los miembros del Comité. También puede presentar un informe directamente a un miembro del Comité poniéndose en contacto con él directamente. Si algún miembro del Comité tiene un conflicto de intereses con un informe, será recusado y no tendrá acceso al contenido o al proceso de seguimiento del informe. 
 
@@ -62,7 +62,7 @@ Agradecemos tus comentarios por correo electrónico a `conduct@ropensci.org`, y 
 
 #### Alumni
 
-Agradecemos a Scott Chamberlain, Stefanie Butland y a  Megan Carter sus servicios en el pasado en el comité.
+Agradecemos a Scott Chamberlain, Stefanie Butland, Megan Carter y a Kara Woo sus servicios en el pasado en el comité.
 
 #### Licencia y créditos
 El Código de Conducta de rOpenSci ha sido influenciado y adaptado de muchas fuentes, incluyendo la [Charla sobre Código Abierto y Sentimientos](https://youtu.be/nizfHxg8y3o) de [Audrey Eschright](https://lifeofaudrey.com/), el borrador del [Código de Conducta](https://github.com/RConsortium/RCDI-WG/blob/0ca0a91dccc9296ff53a5806f52a2a49dbb8850d/conduct/code-of-conduct.md) del Grupo de Trabajo de Diversidad e Inclusión de la Comunidad R del Consorcio R , la [Política antiacoso del Feminismo Geek](https://geekfeminism.wikia.com/wiki/Community_anti-harassment/Policy), el [Código de Conducta de useR! 2021](https://user2021.r-project.org/participation/coc/) y nuestro propio Llamado a la Comunidad: [Cómo crear un Código de Conducta para mi evento/laboratorio/código fuente](/commcalls/2016-12-15/)
