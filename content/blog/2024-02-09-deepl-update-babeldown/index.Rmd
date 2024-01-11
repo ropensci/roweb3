@@ -87,32 +87,64 @@ gert::git_log(repo = dir)
 Now imagine we change the English document.
 
 ```{r}
+new_english_text <- c("# a title", "", "this is some text", "", "awesome", "", "## subtitle", "")
 brio::write_lines(
-  c("# a title", "", "this is some text", "", "awesome", "", "## subtitle", ""),
+  new_english_text,
   file
 )
 gert::git_add(fs::path_file(file), repo = dir)
 gert::git_commit("Second commit", repo = dir)
 ```
 
+```{r, echo=FALSE}
+cat(paste(new_english_text, collapse = "\n"))
+```
+
 ## Updating the translation
 
 We don't want to send the whole document to DeepL API again!
-Indeed, the translation of text that hasn't changed shouldn't change: that translation results from careful work by human translators. 
+Indeed, the translation of text fragments that haven't changed shouldn't change: that translation results from careful work by human translators. 
 Furthermore, if we were to send it to the API again, we'd use credits again.
 
 Fortunately we have two babeldown functions at our disposal:
 
-- `babeldown::deepl_translate_markdown_string()` in case we can easily see what fragment of text has bee changed. 
+- `babeldown::deepl_translate_markdown_string()` in case we can easily see what fragment of text has bee changed. In that case we copy-paste it into the function. We won't exemplify this approach here.
 - `babeldown::deepl_update()` that operates more automatically, but might change more text than needed as it will send a whole paragraph to DeepL API if it changed, as opposed to a single sentence.
+
+```{r, cache=TRUE}
+Sys.setenv("DEEPL_API_URL" = "https://api.deepl.com")
+Sys.setenv(DEEPL_API_KEY = keyring::key_get("deepl"))
+babeldown::deepl_update(
+ path = file,
+ out_path = out_file,
+ source_lang = "EN",
+ target_lang = "FR",
+ formality = "less",
+ yaml_fields = NULL
+)
+```
+
+Let's look at the new French document:
+
+```{r, echo=FALSE}
+cat(paste(brio::read_lines(out_file), collapse = "\n"))
+```
+
+One would then carefully look at the Git diff to ensure only what was needed was changed, then commit the automatic translation.
+That translation would then be reviewed by human translators, at least in rOpenSci's processes.
+
+You can also find an example of `babeldown::deepl_update()` in a [Pull request](https://github.com/maelle/auto-update-translations/pull/1): the first two commits update the English document, the third one uses the function to update the Spanish document.
 
 ## How `babeldown::deepl_update()` works under the hood
 
-In case you're curious, `babeldown::deepl_update()` doesn't use the Git diff at all!
+Contrary to what one might guess, `babeldown::deepl_update()` doesn't use the Git diff at all!
 Although that definitely was the first idea we explored.
 
 `babeldown::deepl_update()` does scour the Git log to use the snapshot of the main language version that was in sync with the translation.
 It's the "old English document", that goes with the "old French document".
+The old English document is the English document as it was the last time the French document was featured in a Git commit.
+The French document is the French document was it was in that same commit snapshot.
+
 We have the "new English document" and what's missing is the "new French document".
 We want that new French document to use as much as possible of the old French document, only using an automatic translation for the parts that are new.
 
@@ -123,8 +155,11 @@ For each child of the body of the new English document (a paragraph, a list, a h
 If it finds the same tag, it uses the tag located at the same position in the old French document.
 If it does not find it, it sends it to DeepL API.
 
+A limitation of the approach is that for a list where we changed one item for instance, the whole list would be sent to the API, as opposed to only the item.
+
 ## Conclusion
 
 In this post we explained how to use babeldown to update translations of living document.
 We at rOpenSci are ourselves users of babeldown for this scenario!
 Maintaining translations is time consuming but important work.
+We'd be thrilled to hear your feedback if you use `babeldown::deepl_update()`!
