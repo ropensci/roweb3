@@ -16,7 +16,7 @@ tags:
 
 ## Abstract / TLDR
 
-[R-universe](https://r-universe.dev) now provides MacOS arm64 binaries for all R packages. This means that MacOS users on Apple Silicon hardware (aka M1/M2/M3) can install the very latest builds of any R package without the need for any compliation:
+[R-universe](https://r-universe.dev) now provides MacOS arm64 binaries for all R packages. This means that MacOS users on Apple Silicon hardware (aka M1/M2/M3) can install the very latest builds of any R package without the need for any compilation:
 
 ```r
 install.packages('arrow',
@@ -50,14 +50,14 @@ For those interested how the cross compilation works, here are the main ingredie
  - The same collection of [system libs](https://mac.r-project.org/bin/darwin20/arm64/) used by CRAN is preinstalled in the build environment.
  - R packages with a configure script are built with `--configure-args="--build=x86_64-apple-darwin20 --host=aarch64-apple-darwin20"`. These flags are [needed by autoconf scripts](https://www.gnu.org/software/autoconf/manual/autoconf-2.68/html_node/Specifying-Target-Triplets.html), but other packages can use them as well.
  - The r-universe [macos-cross workflow](https://github.com/r-universe-org/build-and-check/blob/v1/macos-cross/action.yml) overrides some more files and variables to target arm64.
- - We put some shell [shims](https://github.com/r-universe-org/prepare-macos/tree/master/shims) on the PATH to help packages that shell out to `uname` or `arch` to determine the architectrue.
+ - We put some shell [shims](https://github.com/r-universe-org/prepare-macos/tree/master/shims) on the PATH to help packages that shell out to `uname` or `arch` to determine the architecture.
  - A clever [cargo shim](https://github.com/r-universe-org/prepare-macos/blob/master/shims/cargo.sh) is used to override the default cargo build target to `aarch64-apple-darwin` and copy outputs to the expected directory after the build.
 
 With this setup, almost any R package can be built in the cross environment exactly the same way they do on normal arm64 hardware. However if your package does not work and you need some help fixing it, please feel free to [open an issue](https://github.com/r-universe-org/help/issues).
 
-## On univeral binaries
+## On universal binaries
 
-Finally, some R packages download precompiled libraries which are too big or complicated to build on the fly. It is strongly recommended to distribute such libraries in the form of [universal binaries](https://en.wikipedia.org/wiki/Universal_binary) which contain both the x86_64 and arm64 libs. This way the R package does not need to make any guesses about the target architecture it is building for: the libs can be linked on eiter target.
+Finally, some R packages download precompiled libraries which are too big or complicated to build on the fly. It is strongly recommended to distribute such libraries in the form of [universal binaries](https://en.wikipedia.org/wiki/Universal_binary) which contain both the x86_64 and arm64 libs. This way the R package does not need to make any guesses about the target architecture it is building for: the libs can be linked on either target.
 
 Creating a universal binary can be done for both static and dynamic libraries and is really easy. If you have a `x86_64` and `arm64` version of `libfoo.a` you can glue them together with lipo:
 
