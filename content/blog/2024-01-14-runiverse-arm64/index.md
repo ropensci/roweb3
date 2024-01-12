@@ -53,4 +53,16 @@ For those interested how the cross compilation works, here are the main ingredie
  - We put some shell [shims](https://github.com/r-universe-org/prepare-macos/tree/master/shims) on the PATH to trick packages that shell out to `uname` or `arch` to determine the architectrue.
  - A clever [cargo shim](https://github.com/r-universe-org/prepare-macos/blob/master/shims/cargo.sh) is used to override the default cargo build target to `aarch64-apple-darwin` and copy outputs to the expected directory after the build.
 
-With this setup, almost any R package can be built in the cross environment exactly the same way they do on actual arm64 hardware. However if you find your package does not work and you would like some help fixing it, please feel free to [open an issue](https://github.com/r-universe-org/help/issues).
+With this setup, almost any R package can be built in the cross environment exactly the same way they do on actual arm64 hardware. However if you your package does not work and you need some help fixing it, please feel free to [open an issue](https://github.com/r-universe-org/help/issues).
+
+## On univeral binaries
+
+Finally, some R packages download precompiled libraries which are too big or complicated to build on the fly. It is strongly recommended to distribute such libraries in the form of [universal binaries](https://en.wikipedia.org/wiki/Universal_binary) which contain both the x86_64 and arm64 build. This way the R package does not need to make any assumptions or guesses about the target architecture it is building for: the same files can be used for eiter target.
+
+Creating a universal binary can be done for both static and dynamic libraries and is really easy. If you have a `x86_64` and `arm64` version of `libfoo.a` you can glue them together with lipo:
+
+```sh
+lipo -create x86_64/libfoo.a arm64/libfoo.a -output universal/libfoo.a
+```
+
+And this new `libfoo.a` can be used when building either for intel or arm. Again if you need any help with this feel free to reach out.
