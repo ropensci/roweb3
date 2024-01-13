@@ -1,11 +1,11 @@
 ---
 slug: runiverse-arm64
-title: 'R-universe now builds MacOS ARM64 binaries for used on Apple Silicon (aka M1/M2/M3) systems'
+title: 'R-universe now builds MacOS ARM64 binaries for use on Apple Silicon (aka M1/M2/M3) systems'
 date: '2024-01-14'
 author: Jeroen Ooms
 photogallery: true
 featured: true
-description: 'R-universe now builds MacOS ARM64 binaries for used on Apple Silicon (aka M1/M2/M3) systems.'
+description: 'R-universe now builds MacOS ARM64 binaries for use on Apple Silicon (aka M1/M2/M3) systems.'
 tags:
   - tech notes
   - r-universe
@@ -31,7 +31,7 @@ Because GitHub Actions currently does not offer arm64 runners for OSS projects, 
 
 The r-universe workflow only builds arm64 binaries when needed, i.e. for packages that include compiled code (C/C++/Fortran/Rust). Packages that do not include any compiled code are portable by design, so for these packages the binaries built for MacOS on intel are served both in the x86_64 and arm64 cranlike repositories, without the need for an additional cross compile step.
 
-Just like CRAN, the r-universe package homepage shows a link to the `r-4.3-arm64` binaries. Packages without compiled code only have a `r-4.3-any` binary which is served for either architecture.
+Just like CRAN, the r-universe package homepage shows a link to the `r-4.3-x86_64` and `r-4.3-arm64` binaries. Packages without compiled code have a `r-4.3-any` binary which is used for either architecture.
 
 {{< figureforgallery src="example-arrow.png" alt="Screenshot of r-universe apache arrow homepage" >}}
 
@@ -43,7 +43,7 @@ On this page you can find the arm64 build log specifically by expanding the `r-r
 
 ## Some technical details
 
-For those interested how the cross compilation works, here are the main ingredients:
+For those interested how the cross compilation is set up, here are the main ingredients:
 
  - The standard MacOS Xcode toolchains are used to cross compile C/C++ code by passing the `-arch arm64` flag to clang and clang++.
  - The [universal gfortran 12.2](https://mac.r-project.org/tools/) version from CRAN (thanks to Simon Urbanek) is used to cross compile fortran code, also by passing `gfortran -arch arm64`.
@@ -53,11 +53,11 @@ For those interested how the cross compilation works, here are the main ingredie
  - We put some shell [shims](https://github.com/r-universe-org/prepare-macos/tree/master/shims) on the PATH to help packages that shell out to `uname` or `arch` to determine the architecture.
  - A clever [cargo shim](https://github.com/r-universe-org/prepare-macos/blob/master/shims/cargo.sh) is used to override the default cargo build target to `aarch64-apple-darwin` and copy outputs to the expected directory after the build.
 
-With this setup, almost any R package can be built in the cross environment exactly the same way they do on normal arm64 hardware. However if your package does not work and you need some help fixing it, please feel free to [open an issue](https://github.com/r-universe-org/help/issues).
+With this setup, almost any R package can be built in the cross environment exactly the same way they do on normal arm64 hardware. But if your package does not work and you need some help fixing it, please feel free to [open an issue](https://github.com/r-universe-org/help/issues).
 
-## On universal binaries
+## Universal binaries
 
-Finally, some R packages download precompiled libraries which are too big or complicated to build on the fly. It is strongly recommended to distribute such libraries in the form of [universal binaries](https://en.wikipedia.org/wiki/Universal_binary) which contain both the x86_64 and arm64 libs. This way the R package does not need to make any guesses about the target architecture it is building for: the libs can be linked on either target.
+Finally, some R packages download precompiled binaries for libraries too big or complicated to build on the fly. It is strongly recommended to distribute such libraries in the form of [universal binaries](https://en.wikipedia.org/wiki/Universal_binary) which contain both the x86_64 and arm64 libs. This way the R package does not need to make any guesses about the target architecture it is building for: the libs can be linked on either target.
 
 Creating a universal binary can be done for both static and dynamic libraries and is really easy. If you have a `x86_64` and `arm64` version of `libfoo.a` you can glue them together with lipo:
 
