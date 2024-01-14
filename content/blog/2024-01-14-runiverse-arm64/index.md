@@ -52,6 +52,7 @@ For those interested how the cross compilation is set up, here are the main ingr
  - The r-universe [macos-cross workflow](https://github.com/r-universe-org/build-and-check/blob/v1/macos-cross/action.yml) overrides some more files and variables to target arm64.
  - We put some shell [shims](https://github.com/r-universe-org/prepare-macos/tree/master/shims) on the PATH to help packages that shell out to `uname` or `arch` to determine the architecture.
  - A clever [cargo shim](https://github.com/r-universe-org/prepare-macos/blob/master/shims/cargo.sh) is used to override the default cargo build target to `aarch64-apple-darwin` and copy outputs to the expected directory after the build.
+ - Packages are [built with strict linking](https://stat.ethz.ch/pipermail/r-sig-mac/2024-January/014912.html) (without the `-undefined dynamic_lookup` flag).
 
 With this setup, almost any R package can be built in the cross environment exactly the same way they do on normal arm64 hardware. But if your package does not work and you need some help fixing it, please feel free to [open an issue](https://github.com/r-universe-org/help/issues).
 
