@@ -2,7 +2,7 @@
 title: How to Update a Translation with Babeldown
 author: 
 - Maëlle Salmon
-date: '2024-02-09'
+date: '2024-01-16'
 slug: deepl-update-babeldown
 categories: []
 output: hugodown::md_document
@@ -103,7 +103,7 @@ gert::git_commit_all("First commit", repo = dir)
 ```
 
 ```
-[1] "72e675e669a23e54f066f91882c2d2368082d736"
+[1] "00e47c1906ffbbe3a986ef85ba201ad0deb64874"
 ```
 
 ```r
@@ -112,9 +112,9 @@ gert::git_log(repo = dir)
 
 ```
                                     commit                      author
-1 72e675e669a23e54f066f91882c2d2368082d736 Jane Doe <jane@example.com>
+1 00e47c1906ffbbe3a986ef85ba201ad0deb64874 Jane Doe <jane@example.com>
                  time files merge        message
-1 2024-01-16 15:53:43     2 FALSE First commit\n
+1 2024-01-16 15:54:55     2 FALSE First commit\n
 ```
 
 ## Changing the English document
@@ -141,7 +141,7 @@ gert::git_commit("Second commit", repo = dir)
 ```
 
 ```
-[1] "6eec7280bdfc153db614111d263bdfa724593f7e"
+[1] "52c9b420f7c2653eed96651d66c09a00a83e9ab2"
 ```
 
 

@@ -2,7 +2,7 @@
 title: How to Update a Translation with Babeldown
 author: 
 - Maëlle Salmon
-date: '2024-02-09'
+date: '2024-01-16'
 slug: deepl-update-babeldown
 categories: []
 output: hugodown::md_document
