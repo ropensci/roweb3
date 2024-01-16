@@ -111,8 +111,8 @@ Furthermore, if we were to send all the text to the API again, we'd be spending 
 
 Fortunately we have two babeldown functions at our disposal:
 
-- `babeldown::deepl_translate_markdown_string()`, which sends an individual string for translation.  We could copy-and-paste the changed text into this function. We won't show this approach here.
-- `babeldown::deepl_update()` that operates more automatically by sending the lines or blocks of text that have changed for translation.  This may be more text than needed, as it will send whole paragraphs to DeepL API if it changed, even if a single sentence or less changed.
+- [`babeldown::deepl_translate_markdown_string()`](http://docs.ropensci.org/babeldown/reference/deepl_translate_markdown_string.html), which sends an individual string for translation.  We could copy-and-paste the changed text into this function. We won't show this approach here.
+- [`babeldown::deepl_update()`](http://docs.ropensci.org/babeldown/reference/deepl_update.html) that operates more automatically by sending the lines or blocks of text that have changed for translation.  This may be more text than needed, as it will send whole paragraphs to DeepL API if it changed, even if a single sentence or less changed.
 
 ```{r, cache=TRUE}
 Sys.setenv("DEEPL_API_URL" = "https://api.deepl.com")

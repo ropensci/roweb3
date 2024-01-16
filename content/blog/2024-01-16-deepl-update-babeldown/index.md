@@ -103,7 +103,7 @@ gert::git_commit_all("First commit", repo = dir)
 ```
 
 ```
-[1] "00e47c1906ffbbe3a986ef85ba201ad0deb64874"
+[1] "5b7ae61fb72bd89ee912889207efbce5e662c405"
 ```
 
 ```r
@@ -112,9 +112,9 @@ gert::git_log(repo = dir)
 
 ```
                                     commit                      author
-1 00e47c1906ffbbe3a986ef85ba201ad0deb64874 Jane Doe <jane@example.com>
+1 5b7ae61fb72bd89ee912889207efbce5e662c405 Jane Doe <jane@example.com>
                  time files merge        message
-1 2024-01-16 15:54:55     2 FALSE First commit\n
+1 2024-01-16 15:59:49     2 FALSE First commit\n
 ```
 
 ## Changing the English document
@@ -141,7 +141,7 @@ gert::git_commit("Second commit", repo = dir)
 ```
 
 ```
-[1] "52c9b420f7c2653eed96651d66c09a00a83e9ab2"
+[1] "b398bf63c6c86cb3817d88e40f47afde72158e7a"
 ```
 
 
@@ -163,8 +163,8 @@ Furthermore, if we were to send all the text to the API again, we'd be spending 
 
 Fortunately we have two babeldown functions at our disposal:
 
-- `babeldown::deepl_translate_markdown_string()`, which sends an individual string for translation.  We could copy-and-paste the changed text into this function. We won't show this approach here.
-- `babeldown::deepl_update()` that operates more automatically by sending the lines or blocks of text that have changed for translation.  This may be more text than needed, as it will send whole paragraphs to DeepL API if it changed, even if a single sentence or less changed.
+- [`babeldown::deepl_translate_markdown_string()`](http://docs.ropensci.org/babeldown/reference/deepl_translate_markdown_string.html), which sends an individual string for translation.  We could copy-and-paste the changed text into this function. We won't show this approach here.
+- [`babeldown::deepl_update()`](http://docs.ropensci.org/babeldown/reference/deepl_update.html) that operates more automatically by sending the lines or blocks of text that have changed for translation.  This may be more text than needed, as it will send whole paragraphs to DeepL API if it changed, even if a single sentence or less changed.
 
 
 ```r
