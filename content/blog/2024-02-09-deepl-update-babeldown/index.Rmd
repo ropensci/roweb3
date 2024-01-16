@@ -16,12 +16,15 @@ knitr::opts_chunk$set(
   comment = ''
 )
 ```
-As part of our [multilingual publishing project](/multilingual-publishing/), and with [funding from the R Consortium](https://www.r-consortium.org/all-projects/awarded-projects/2022-group-2), we've worked on the R package [babeldown](https://docs.ropensci.org/babeldown/) for translating Markdown-based content using the DeepL API.
+As part of rOpenSci's [multilingual publishing project](/multilingual-publishing/)[^1],  we have been developing the  [babeldown](https://docs.ropensci.org/babeldown/) R package, for translating Markdown-based content using the DeepL API.
 
-In a previous tech note we exemplified the [use of babeldown for translating a blog post](/blog/2023/09/26/how-to-translate-a-hugo-blog-post-with-babeldown/), in a workflow supported by Git.
-Now, we use babeldown for translating **living** documents, such as our regularly updated dev guide, where translations do not only need to be created but also kept in sync with the main language version.
+[^1]: Thanks to [funding from the R Consortium](https://www.r-consortium.org/all-projects/awarded-projects/2022-group-2)!
 
-In this tech note, we'll show how you can use babeldown to update a translation after you've slightly edited a document in its main language version!
+In a previous tech note we demonstrated the [use of babeldown for translating a blog post](/blog/2023/09/26/how-to-translate-a-hugo-blog-post-with-babeldown/) in a workflow supported by Git.
+Here we use babeldown for translating **living** documents, such as our  [developer's guide](https://devguide.ropensci.org/).
+In this case, translations not only need to be created at the time in first writing, but also updated as the document is changed over time.
+
+In this tech note, we'll show how you can use babeldown to update a translation after you've edited a document.
 
 ## Initial situation: an English document and its French translation
 
@@ -39,7 +42,7 @@ brio::write_lines(english_text, file)
 cat(paste(english_text, collapse = "\n"))
 ```
 
-We'd have translated it with babeldown, then edited the translation manually.
+We have already translated it with babeldown, which provides us with an AI-based translation from DeepL, then edited the translation manually to provide the context the AI missed.
 
 ```{r, eval=FALSE}
 Sys.setenv("DEEPL_API_URL" = "https://api.deepl.com")
@@ -103,13 +106,13 @@ cat(paste(new_english_text, collapse = "\n"))
 ## Updating the translation
 
 We don't want to send the whole document to DeepL API again!
-Indeed, the translation of text fragments that haven't changed shouldn't change: that translation results from careful work by human translators. 
-Furthermore, if we were to send it to the API again, we'd use credits again.
+Indeed, we do not want the text fragments that haven't to be updated, as we would lose the improvements from careful work by human translators. 
+Furthermore, if we were to send all the text to the API again, we'd be spending unnecessary money (or free credits).
 
 Fortunately we have two babeldown functions at our disposal:
 
-- `babeldown::deepl_translate_markdown_string()` in case we can easily see what fragment of text has bee changed. In that case we copy-paste it into the function. We won't exemplify this approach here.
-- `babeldown::deepl_update()` that operates more automatically, but might change more text than needed as it will send a whole paragraph to DeepL API if it changed, as opposed to a single sentence.
+- `babeldown::deepl_translate_markdown_string()`, which sends an individual string for translation.  We could copy-and-paste the changed text into this function. We won't show this approach here.
+- `babeldown::deepl_update()` that operates more automatically by sending the lines or blocks of text that have changed for translation.  This may be more text than needed, as it will send whole paragraphs to DeepL API if it changed, even if a single sentence or less changed.
 
 ```{r, cache=TRUE}
 Sys.setenv("DEEPL_API_URL" = "https://api.deepl.com")
@@ -131,7 +134,7 @@ cat(paste(brio::read_lines(out_file), collapse = "\n"))
 ```
 
 One would then carefully look at the Git diff to ensure only what was needed was changed, then commit the automatic translation.
-That translation would then be reviewed by human translators, at least in rOpenSci's processes.
+That translation would then be should then be reviewed by a human. For our multilingual work at rOpenSci, a translator (native speaker) reviews all our patches for consistency, tone, and context.
 
 You can also find an example of `babeldown::deepl_update()` in a [Pull request](https://github.com/maelle/auto-update-translations/pull/1): the first two commits update the English document, the third one uses the function to update the Spanish document.
 
@@ -155,7 +158,7 @@ For each child of the body of the new English document (a paragraph, a list, a h
 If it finds the same tag, it uses the tag located at the same position in the old French document.
 If it does not find it, it sends it to DeepL API.
 
-A limitation of the approach is that for a list where we changed one item for instance, the whole list would be sent to the API, as opposed to only the item.
+A consequence of this approach is that we find the largest matching structural block between two documents. For instance, in  list where we changed one item, the whole list would be re-translated, as opposed to only the item.  However, this also means we use logical blocks, rather than fragments of text as defined by words or line breaks.
 
 ## Conclusion
 
