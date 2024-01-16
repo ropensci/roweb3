@@ -130,6 +130,8 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 * [R-universe now builds MacOS ARM64 binaries for use on Apple Silicon (aka M1/M2/M3) systems](/blog/2024/01/14/runiverse-arm64) by Jeroen Ooms. R-universe now builds MacOS ARM64 binaries for use on Apple Silicon (aka M1/M2/M3) systems.
 
+* [How to Update a Translation with Babeldown](/blog/2024/01/16/deepl-update-babeldown) by Maëlle Salmon.
+
 ## Call for maintainers
 
 If you're interested in maintaining any of the R packages below, you might enjoy reading our blog post [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/).
