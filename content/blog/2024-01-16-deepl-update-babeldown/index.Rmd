@@ -146,7 +146,7 @@ Although that definitely was the first idea we explored.
 `babeldown::deepl_update()` does scour the Git log to use the snapshot of the main language version that was in sync with the translation.
 It's the "old English document", that goes with the "old French document".
 The old English document is the English document as it was the last time the French document was featured in a Git commit.
-The French document is the French document was it was in that same commit snapshot.
+The French document is the French document as it was in that same commit snapshot.
 
 We have the "new English document" and what's missing is the "new French document".
 We want that new French document to use as much as possible of the old French document, only using an automatic translation for the parts that are new.
