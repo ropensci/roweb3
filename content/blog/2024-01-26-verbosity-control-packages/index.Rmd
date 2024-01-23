@@ -17,17 +17,17 @@ knitr::opts_chunk$set(
 )
 ```
 
-We quietly introduced a new paragraph to the development version of our dev guide
+We recently introduced a new paragraph to the development version of our dev guide
 
 > Provide a way for users to opt out of verbosity, preferably at the package level: make message creation dependent on an environment variable or option (like ["usethis.quiet"](https://usethis.r-lib.org/reference/ui.html?q=usethis.quiet#silencing-output) in the usethis package), rather than on a function parameter. The control of messages could be on several levels ("none, "inform", "debug") rather than logical (no messages at all / all messages). Control of verbosity is useful for end users but also in tests. More interesting comments can be found in an [issue of the tidyverse design guide](https://github.com/tidyverse/design/issues/42). 
 
 This complements the [statistical software review requirement for Bayesian software](https://stats-devguide.ropensci.org/standards.html#output-verbosity).
 
-This tech note's aim is to make the new requirement louder, and to gather community's feedback!
+This tech note's aim is to make the new requirement louder, and to gather community feedback!
 
 ## Verbosity control at the package level
 
-Controlling verbosity at the function level means that to silence messages, the user writes
+Controlling verbosity at the function level means that silencing messages requires writing code like:
 
 ```{r, eval=FALSE}
 x <- mypackage::my_function(thing = 1, verbose = FALSE)
@@ -36,6 +36,8 @@ z <- mypackage::my_function(thing = 3, verbose = FALSE)
 ```
 
 While this is a very widespread pattern, and quite clear, it has the drawback of introducing clutter to function calls, and of being needed in every function call.
+Moreover, having verbosity-control at the function-level generally requires other packages which use any such functions to hard-code verbosity (or leave at default, unchangeable values).
+Not only does this make verbosity control difficult or even impossible, it also prevents effective debugging.
 
 Controlling verbosity at the package level means your user, instead, writes:
 
@@ -46,7 +48,7 @@ y <- mypackage::my_function(thing = 2)
 z <- mypackage::my_function(thing = 3)
 ```
 
-How much lighter is this new syntax?
+Package-level control is much easier!
 
 ### How to implement package-level verbosity control in your package
 
@@ -77,7 +79,7 @@ TODO: add examples of real packages
 ## One step further: verbosity control as a factor not a logical
 
 The previous section showed verbosity control as a binary choice: either quiet or not.
-You could however, based on your use case, choose to provide different degrees of verbosity.
+Such control allows two levels of verbosity, but many packages may benefit from even more degrees of verbosity.
 For instance these degrees could be "none", "inform" and "debug" where debug corresponds to the idea of leaving an [access panel](https://speakerdeck.com/jennybc/object-of-type-closure-is-not-subsettable?slide=77) to simplify future trouble-shooting.
 
 TODO: add examples of real packages
@@ -88,5 +90,5 @@ In this tech note we explained our new requirement that verbosity control should
 We also presented the aspiration to have verbosity control as a choice between _degrees_ of verbosity.
 
 How is verbosity control implemented in the packages you develop or like using?
-Do you have any comment or question? 
+Do you have any comments or questions? 
 Please don't remain quiet. :wink:
