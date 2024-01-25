@@ -585,7 +585,7 @@ If you're interested in maintaining any of the R packages below, you might enjoy
 
 [gendercoder](https://docs.ropensci.org/gendercoder/), Provides functions and dictionaries for recoding of freetext gender responses into more consistent categories. [Issue for volunteering](https://github.com/ropensci/gendercoder/issues/56).
 
-[sofa](https://docs.ropensci.org/sofa/), Provides an interface to the NoSQL database [CouchDB](http://couchdb.apache.org). [Issue for volunteering](https://github.com/ropensci/sofa/issues/82)
+[sofa](https://docs.ropensci.org/sofa/), Provides an interface to the NoSQL database [CouchDB](https://couchdb.apache.org). [Issue for volunteering](https://github.com/ropensci/sofa/issues/82)
 
 ### Call for co-maintainers
 
