@@ -1,7 +1,7 @@
 ---
 title: 'rOpenSci News Digest, January 2024'
 author: 'The rOpenSci Team'
-date: '2024-01-26'
+date: '2024-01-25'
 tags:
   - newsletter
 slug: news-january-2024
@@ -16,7 +16,7 @@ params:
 
 Dear rOpenSci friends, it's time for our monthly news roundup!
 <!-- blabla -->
-You can read this post [on our blog](/blog/2024/01/26/news-january-2024).
+You can read this post [on our blog](/blog/2024/01/25/news-january-2024).
 Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
