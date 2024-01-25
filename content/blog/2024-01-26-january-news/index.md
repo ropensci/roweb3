@@ -56,7 +56,7 @@ And remember, you can always cowork independently on work related to R, work on 
 
 
 
-The following two packages recently became a part of our software suite:
+The following three packages recently became a part of our software suite, or were recently reviewed again:
 
 + [GLMMcosinor](https://docs.ropensci.org/GLMMcosinor), developed by Rex Parsons together with Oliver Jayasinghe, Nicole White, and Oliver Rawashdeh: Allows users to fit a cosinor model using the glmmTMB framework. This extends on existing cosinor modelling packages, including cosinor and circacompare, by including a wide range of available link functions and the capability to fit mixed models. The cosinor model is described by Cornelissen (2014) <https://doi.org/10.1186/1742-4682-11-16>.  It is available on [CRAN]( https://CRAN.R-project.org/package=GLMMcosinor). It has been [reviewed](https://github.com/ropensci/software-review/issues/603) by Michael Sachs and Joaquin Cavieres.
 
@@ -134,7 +134,7 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 * [R-universe now builds MacOS ARM64 binaries for use on Apple Silicon (aka M1/M2/M3) systems](/blog/2024/01/14/runiverse-arm64) by Jeroen Ooms
 
-* [How to Update a Translation with Babeldown](/blog/2024/01/16/deepl-update-babeldown) by Maëlle Salmon.
+* [How to Update a Translation with Babeldown](/blog/2024/01/16/deepl-update-babeldown) by Maëlle Salmon. This post was discussed on the [R Weekly highlights podcast](https://rweekly.fireside.fm/149) hosted by Eric Nantz and Mike Thomas.
 
 ## Call for maintainers
 

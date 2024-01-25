@@ -143,10 +143,11 @@ new <- dplyr::filter(
   !grepl("ropenscilabs\\/", url),
   !grepl("ropensci-archive\\/", url)
 )
+new <- rbind(new, registry[registry$package == "comtradr",])
 ```
 
 
-The following `r if(nrow(new)>1) english(nrow(new))` package`r if(nrow(new)>1) "s"` recently became a part of our software suite:
+The following `r if(nrow(new)>1) english(nrow(new))` package`r if(nrow(new)>1) "s"` recently became a part of our software suite, or were recently reviewed again:
 
 ```{r, results='asis', cache = TRUE}
 packages <- split(new, seq(nrow(new)))
@@ -509,13 +510,13 @@ format_post <- function(dir) {
     if (post$title != "R-universe now builds MacOS ARM64 binaries for use on Apple Silicon (aka M1/M2/M3) systems") {
     string <- paste0(string, ". ", sub("\\?$", "", sub("\\!$", "", sub("\\.$", "", post$description), ".")), ".")
     }
+  } else {
+    string <- paste0(string, ".")
     if (post$title == "How to Update a Translation with Babeldown") {
       string <- paste0(
       string,
       " This post was discussed on the [R Weekly highlights podcast](https://rweekly.fireside.fm/149) hosted by Eric Nantz and Mike Thomas.")
-  }
-  } else {
-    string <- paste0(string, ".")  
+  }  
   }
   if (post$title == "Scanning QR codes in R") {
     string <- paste0(string, " This post was featured in the [R Weekly Highlights podcast](https://rweekly.fireside.fm/143) hosted by Eric Nantz and Mike Thomas.")
