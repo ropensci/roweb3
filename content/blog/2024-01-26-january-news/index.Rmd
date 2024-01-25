@@ -62,6 +62,11 @@ Consult our [Events](/events) page to find your local time and how to join.
     - Explore what the [R-Universe](https://r-universe.dev/) has to offer;
     - Create your own R-Universe;
     - Ask questions or troubleshoot your R-Universe problems with the cohost and other attendees.
+
+- [Tuesday, March 5th, 9:00 Australia Western (1:00 UTC)](/events/coworking-2024-03/), Dates, Times and Timezones in R. With cohost [Steffi LaZerte](/author/steff-lazerte/) and [Alex Koiter](/author/alex-koiter/).
+    - Explore resources for working with dates, times, and timezones in R
+    - Work on a project dealing with dates and times
+    - Ask questions or troubleshoot your timezone problems with the cohost and other attendees.
     
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
