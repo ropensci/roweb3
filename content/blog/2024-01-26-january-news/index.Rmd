@@ -43,7 +43,8 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-### R-universe now builds MacOS ARM64 binaries for use on Apple Silicon (aka M1/M2/M3) systems.
+### R-Universe
+The R-Universe now builds MacOS ARM64 binaries for use on Apple Silicon (aka M1/M2/M3) systems!
 
 Find out more in the related [tech note](/blog/2024/01/14/runiverse-arm64/).
 
