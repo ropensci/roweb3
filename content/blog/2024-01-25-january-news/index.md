@@ -5,7 +5,7 @@ date: '2024-01-25'
 tags:
   - newsletter
 slug: news-january-2024
-description: MacOS ARM64 binaries for use on Apple Silicon (aka M1/M2/M3) through R-universe; new packages and package news
+description: MacOS ARM64 binaries for use on Apple Silicon (aka M1/M2/M3) through R-universe; coworking; new packages and package news
 params:
   last_newsletter: "2023-12-22"
 ---
@@ -61,6 +61,8 @@ The following three packages recently became a part of our software suite, or we
 + [GLMMcosinor](https://docs.ropensci.org/GLMMcosinor), developed by Rex Parsons together with Oliver Jayasinghe, Nicole White, and Oliver Rawashdeh: Allows users to fit a cosinor model using the glmmTMB framework. This extends on existing cosinor modelling packages, including cosinor and circacompare, by including a wide range of available link functions and the capability to fit mixed models. The cosinor model is described by Cornelissen (2014) <https://doi.org/10.1186/1742-4682-11-16>.  It is available on [CRAN]( https://CRAN.R-project.org/package=GLMMcosinor). It has been [reviewed](https://github.com/ropensci/software-review/issues/603) by Michael Sachs and Joaquin Cavieres.
 
 + [rangr](https://docs.ropensci.org/rangr), developed by Katarzyna Markowska together with Lechosław Kuczyński: Species range dynamics simulation toolset. It has been [reviewed](https://github.com/ropensci/software-review/issues/595) by Tad Dallas and Joanne Potts.
+
++ [comtradr](https://docs.ropensci.org/comtradr), developed by Paul Bochtler together with Harriet Goers and Chris Muir: Interface with and extract data from the United Nations Comtrade API <https://comtradeplus.un.org/>. Comtrade provides country level shipping data for a variety of commodities, these functions allow for easy API query and data returned as a tidy data frame. It has been [reviewed](https://github.com/ropensci/software-review/issues/613) by Alicia Schep, Rafael Hellwig, Ernest Guevarra, and Nicholas Potter.
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 

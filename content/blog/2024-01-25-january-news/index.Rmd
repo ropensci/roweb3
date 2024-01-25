@@ -5,7 +5,7 @@ date: '2024-01-25'
 tags:
   - newsletter
 slug: news-january-2024
-description: MacOS ARM64 binaries for use on Apple Silicon (aka M1/M2/M3) through R-universe; new packages and package news
+description: MacOS ARM64 binaries for use on Apple Silicon (aka M1/M2/M3) through R-universe; coworking; new packages and package news
 params:
   last_newsletter: "2023-12-22"
 ---
