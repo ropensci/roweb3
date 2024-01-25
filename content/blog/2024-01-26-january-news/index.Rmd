@@ -186,8 +186,8 @@ present_one <- function(package) {
     package$package, 
     author_string,
     sub(
-      "Methods used to implement.*",
-      "",
+      "doi:",
+      "https://doi.org/",
       stringr::str_remove(stringr::str_squish(package$details), "\\.$")
     )
   )
@@ -506,7 +506,14 @@ format_post <- function(dir) {
   post <- dir[which(dir[["language"]] == main_language),]
   string <- sprintf("* [%s](%s) by %s", post$title, post$url, post$author)
   if (post$description != "") {
+    if (post$title != "R-universe now builds MacOS ARM64 binaries for use on Apple Silicon (aka M1/M2/M3) systems") {
     string <- paste0(string, ". ", sub("\\?$", "", sub("\\!$", "", sub("\\.$", "", post$description), ".")), ".")
+    }
+    if (post$title == "How to Update a Translation with Babeldown") {
+      string <- paste0(
+      string,
+      " This post was discussed on the [R Weekly highlights podcast](https://rweekly.fireside.fm/149) hosted by Eric Nantz and Mike Thomas.")
+  }
   } else {
     string <- paste0(string, ".")  
   }
