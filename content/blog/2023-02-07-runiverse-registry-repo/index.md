@@ -18,7 +18,7 @@ Tiny update for [r-universe](https://r-universe.dev) users whos run their own pa
 
 Previously the git repository was simply called `universe`, i.e. the registry for [tiledb-inc.r-universe.dev](https://tiledb-inc.r-universe.dev) was in the GitHub repository `tiledb-inc/universe`. We now recommend to instead use the full lowercase name of your r-universe domain as the repo name, i.e [`tiledb-inc/tiledb-inc.r-universe.dev`](https://github.com/tiledb-inc/tiledb-inc.r-universe.dev).
 
-The old name `universe` will keep working as well, so this should not break any existing registries, but we recommend renaming it.
+For now the old name `universe` will keep working as well, but this will be deprecated in 2024 so we recommend renaming it now.
 
 ## Why the change
 
