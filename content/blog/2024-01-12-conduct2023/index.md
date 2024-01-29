@@ -4,7 +4,7 @@ author:
   - Yanina Bellini Saibene
   - Mark Padgham
   - Kara Woo
-date: '2022-01-12'
+date: '2024-01-30'
 slug: conduct2023
 tags:
   - code of conduct
@@ -27,6 +27,6 @@ Here we report on our annual review of rOpenSci's Code of Conduct, reporting pro
 
 2. No changes have been made to the text of the Code.
 
-With this change of committee members, this will be version 2.5, dated January 12, 2023.
+With this change of committee members, this will be version 2.5, dated January 30, 2024.
 
 We welcome your feedback by email to conduct at ropensci.org, and we thank you for continuing to work with us to make rOpenSci a safe, enjoyable, friendly and enriching experience for everyone who participates.

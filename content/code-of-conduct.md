@@ -1,7 +1,7 @@
 +++
 title = "Code of Conduct (English version)"
 description = "rOpenSci Code of Conduct"
-subtitle = "Version 2.5 – January 13, 2023"
+subtitle = "Version 2.5 – January 30, 2024"
 +++
 
 _El código de conducta también está disponible en [español](/es/codigo-de-conducta)._
@@ -47,7 +47,7 @@ This Code of Conduct applies to all people participating in the rOpenSci communi
 
 ### Reporting Guidelines
 
-The rOpenSci Code of Conduct Committee includes [Mark Padgham](/author/mark-padgham) (rOpenSci Software Research Scientist) and [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) (rOpenSci Community Manager).
+The rOpenSci Code of Conduct Committee includes [Natalia Morandeira](https://nmorandeira.netlify.app) (independent community member), [Mark Padgham](/author/mark-padgham) (rOpenSci Software Research Scientist) and [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) (rOpenSci Community Manager).
 
 If you experience or witness unacceptable behavior, or have any other concerns, [please submit a report  to the Committee as soon as possible using this form](https://forms.gle/8zKztThp2yLJ6KYa6). Alternatively, you may email `conduct@ropensci.org`, which will go to the Committee members. You may also make a report directly to one member of the Committee by contacting them directly. If any member of the Committee has a conflict of interest with a report, they will be recused and will not have access to the content or process of the report followup. At an in-person rOpenSci event, please reach out to anyone named as a member of that event-specific Code of Conduct Committee, or to venue staff or security who will be present throughout the event.
 

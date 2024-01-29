@@ -48,7 +48,7 @@ Este Código de Conducta se aplica a todas las personas que participan en la com
 
 ### Directrices para la presentación de informes
 
-El Comité del Código de Conducta de rOpenSci incluye a [Mark Padgham](/autor/mark-padgham) (Científico de Investigación de Software de rOpenSci) and [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) (Community Manager de rOpenSci).
+El Comité del Código de Conducta de rOpenSci incluye a [Natalia Morandeira](https://nmorandeira.netlify.app) (integrante independiente de la comunidad), [Mark Padgham](/autor/mark-padgham) (Científico de Investigación de Software de rOpenSci) and [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) (Community Manager de rOpenSci).
 
 Si experimentas o eres testigo de un comportamiento inaceptable, o tienes cualquier otra preocupación, [por favor, envía un informe al Comité tan pronto como sea posible utilizando este formulario](https://forms.gle/8zKztThp2yLJ6KYa6). También puede enviar un correo electrónico a `conduct@ropensci.org`, que llegará a los miembros del Comité. También puede presentar un informe directamente a un miembro del Comité poniéndose en contacto con él directamente. Si algún miembro del Comité tiene un conflicto de intereses con un informe, será recusado y no tendrá acceso al contenido o al proceso de seguimiento del informe. 
 
