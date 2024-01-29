@@ -23,7 +23,7 @@ Here we report on our annual review of rOpenSci's Code of Conduct, reporting pro
 
 ## Updates
 
-1. A change to the committee. [Kara Woo](https://karawoo.com/) (independent community member) is stepped down from the committee after five year of service. Committee members for 2023 are [Mark Padgham](/author/mark-padgham) (rOpenSci Software Research Scientist) and [Yanina Bellini Saibene](/author/yanina-bellini-saibene) (rOpenSci Community Manager). We are responsible for receiving, investigating, deciding, enforcing and reporting on all reports of potential violations of our Code.
+1. A change to the committee. [Kara Woo](https://karawoo.com/) (independent community member) has stepped down from the committee after five years of service. We welcome [Natalia Morandeira](https://nmorandeira.netlify.app) to serve on this role. Committee members for 2024 are Natalia Morandeira (independent member), [Mark Padgham](/author/mark-padgham) (rOpenSci Software Research Scientist) and [Yanina Bellini Saibene](/author/yanina-bellini-saibene) (rOpenSci Community Manager). We are responsible for receiving, investigating, deciding, enforcing, and reporting on all reports of potential violations of our Code.
 
 2. No changes have been made to the text of the Code.
 
