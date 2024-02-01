@@ -78,18 +78,16 @@ Simply replacing any calls to `message()`, `warning()`, or `stop()` with the equ
 Note that there is also an "rlang" way of setting options, the [`rlang::local_options()` function](https://rlang.r-lib.org/reference/local_options.html) (or the same function in [the withr package](https://withr.r-lib.org/reference/with_options.html)).
 As with messages above, the base R version is fine; the rlang/withr versions simply implement a few additional features.
 In particular, base R options are always set globally, whereas rlang's local options are set within the current [R frame](http://adv-r.had.co.nz/Environments.html#env-basics), and unset when the frame is exited.
-An example of the advantages of this approach would be trying to debug something which ultimately spawns multiple sub-processes.
-Each sub-process will generally inherit global options, and so base `options()` for verbose messaging will be passed through to all sub-processes.
-The rlang version enables control over whether or not verbosity settings are passed on to sub-processes, and so enables more precise and effective debugging.
+The code in the final section below provides one example of the advantages of this approach.
 Finally, the `rlang::local_options()` function can be used to set `rlib_message_verbosity = "quiet` to make your package (and indeed all others which use this messaging system) quiet in tests, and so remove the often annoying wall of text that appears when running tests.
 
-## One step further: verbosity control as a factor not a logical
+## One step further: multiple levels of verbosity
 
 Verbosity control is often implemented as a binary choice, typically controlled by a logical parameter, such as `verbose = FALSE`, or `quiet = TRUE`.
 The `rlib_message_verbosity` option described above also only has two primary levels, "quiet" and "verbose".
 The default behaviour (of "verbose") can nevertheless be overridden an additional parameter in the `rlang_inform/warn/abort()` functions, `frequency`, which controls how often messages are issued.
 This is particularly useful in issuing messages only once per R session, by setting `frequency = "once"`.
-More generally, it may often be useful to implement different levels of verbosity for users and developers, like "quiet", "inform", "debug", and "verbose".
+More generally, it may often be useful to implement different levels of verbosity for users and developers, like "quiet", "inform", and "debug".
 This practice corresponds to the idea of leaving an [access panel](https://speakerdeck.com/jennybc/object-of-type-closure-is-not-subsettable?slide=77) to simplify future trouble-shooting.
 
 ### "verbose" or "quiet"?
@@ -113,10 +111,8 @@ pkg_message <- function(...) {
   if (msg) {
     # Options local to this function only; reset on exit!
     rlang::local_options(rlib_message_verbosity = "verbose")
-    rlang::inform(...)
-  } else {
-    rlang::inform(...)
   }
+  rlang::inform(...)
 }
 ```
 
