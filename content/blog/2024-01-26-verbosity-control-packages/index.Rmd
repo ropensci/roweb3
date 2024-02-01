@@ -73,10 +73,10 @@ The alternatives merely make a few aspects more convenient, including:
 2. Verbosity can be controlled in any package which uses rlang or cli by [global environment variables](https://rlang.r-lib.org/reference/abort.html#muffling-and-silencing-conditions).
 
 The second advantage is particularly relevant here.
-Simply replacing any calls to `message()`, `warning()`, or `stop()` with the equivalent `rlang_inform()`, `rlang_warn()`, or `rlang_abort()` functions allows anyone to suppress all messages by specifying, `options(rlib_message_verbosity = "quiet")`.
+Simply replacing any calls to `message()`, `warning()`, or `stop()` with the equivalent `rlang_inform()`, `rlang_warn()`, or `rlang_abort()` functions allows anyone to suppress all messages by specifying, `options(rlib_message_verbosity = "quiet")` (or the equivalent for warnings).
 
 Note that there is also an "rlang" way of setting options, the [`rlang::local_options()` function](https://rlang.r-lib.org/reference/local_options.html) (or the same function in [the withr package](https://withr.r-lib.org/reference/with_options.html)).
-As with messages above, the base R version is fine, the rlang/withr versions simply implement a few additional features.
+As with messages above, the base R version is fine; the rlang/withr versions simply implement a few additional features.
 In particular, base R options are always set globally, whereas rlang's local options are set within the current [R frame](http://adv-r.had.co.nz/Environments.html#env-basics), and unset when the frame is exited.
 An example of the advantages of this approach would be trying to debug something which ultimately spawns multiple sub-processes.
 Each sub-process will generally inherit global options, and so base `options()` for verbose messaging will be passed through to all sub-processes.
@@ -95,14 +95,16 @@ This practice corresponds to the idea of leaving an [access panel](https://speak
 ## Bonus section: "verbose" or "quiet"?
 
 A package which uses rlang/cli/withr-type packages to issue and control messaging will respond to the local (or global) options in the same way as all other packages which use this system.
-One problem with this is that users may often want to debug only one particular package, while leaving all other packages quiet.
+One problem with this is that users may often want to debug their own package only, while leaving all other packages quiet.
 This again requires custom message handlers, like the following (remembering that the second parameter to the `getOption()` is the default for cases where no such option has been set):
 
 ```{r}
 pkg_message <- function(...) {
   msg <- getOption("mypackage.verbose", "quiet") == "verbose"
   if (msg) {
-    rlang::with_options(rlib_message_verbosity = "verbose", rlang::inform(...))
+    # These local options will be reset on exit from this function!
+    rlang::local_options(rlib_message_verbosity = "verbose")
+    rlang::inform(...)
   } else {
     rlang::inform(...)
   }
@@ -131,7 +133,8 @@ pkg_message("reawakened message")
 And my local package-level verbosity options can then override the rlang verbosity controls.
 And to return to the question of this sub-section: Note that the first line of our `pkg_message()` function gets an option called "verbose" and checks whether it is set to "verbose".
 The logic of the function is then rather straightforward, and most importantly positive - that is, it requires no negation checks like `if (!msg) ...`.
-Rewriting that function with an option "mypackage.quiet" results in definitely more contorted logic.
+Rewriting that function with an option "mypackage.quiet" results in more contorted logic.
+
 Whatever your verbosity control, we recommend at least attempting to write a custom message function like the above to ensure that your control logic is ... logical.
 We're pretty sure you'll see that "verbosity" makes logical control easier than "quiet".
 So make some noise! Just ensure that you can control it!
