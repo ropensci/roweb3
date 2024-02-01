@@ -79,7 +79,7 @@ Note that there is also an "rlang" way of setting options, the [`rlang::local_op
 As with messages above, the base R version is fine; the rlang/withr versions simply implement a few additional features.
 In particular, base R options are always set globally, whereas rlang's local options are set within the current [R frame](http://adv-r.had.co.nz/Environments.html#env-basics), and unset when the frame is exited.
 The code in the final section below provides one example of the advantages of this approach.
-Finally, the `rlang::local_options()` function can be used to set `rlib_message_verbosity = "quiet` to make your package (and indeed all others which use this messaging system) quiet in tests, and so remove the often annoying wall of text that appears when running tests.
+Finally, the `rlang::local_options()` function can be used to set `rlib_message_verbosity = "quiet` in test files, to make your package (and indeed all others which use this messaging system) quiet in tests, and so remove the often annoying wall of text that appears when running tests.
 
 ## One step further: multiple levels of verbosity
 
@@ -89,6 +89,7 @@ The default behaviour (of "verbose") can nevertheless be overridden an additiona
 This is particularly useful in issuing messages only once per R session, by setting `frequency = "once"`.
 More generally, it may often be useful to implement different levels of verbosity for users and developers, like "quiet", "inform", and "debug".
 This practice corresponds to the idea of leaving an [access panel](https://speakerdeck.com/jennybc/object-of-type-closure-is-not-subsettable?slide=77) to simplify future trouble-shooting.
+Even if only two levels are implemented, it is easy to extend levels in the futures if they are already defined as character strings; changing verbosity control from logical (dual-level) to multi-level is more complex, and can be avoided by not using logical flags in the first place.
 
 ### "verbose" or "quiet"?
 
