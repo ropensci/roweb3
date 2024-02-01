@@ -92,9 +92,18 @@ This is particularly useful in issuing messages only once per R session, by sett
 More generally, it may often be useful to implement different levels of verbosity for users and developers, like "quiet", "inform", "debug", and "verbose".
 This practice corresponds to the idea of leaving an [access panel](https://speakerdeck.com/jennybc/object-of-type-closure-is-not-subsettable?slide=77) to simplify future trouble-shooting.
 
-## Bonus section: "verbose" or "quiet"?
+### "verbose" or "quiet"?
+
+"verbose."
+Because "quiet" always means nothing should be done.
+But because code does things, this translates to having to check whether a "quiet" parameter is somehow *not* quiet.
+That is negative logic, which makes code harder to read.
+Positive logic is much clearer, and less error prone: `if (verbose) { ... do something }`, as demonstrated in the following section.
+
+## Bonus section: Regaining package level control from global options
 
 A package which uses rlang/cli/withr-type packages to issue and control messaging will respond to the local (or global) options in the same way as all other packages which use this system.
+In this way, those options become truly global, as they are shared between and understood by multiple packages.
 One problem with this is that users may often want to debug their own package only, while leaving all other packages quiet.
 This again requires custom message handlers, like the following (remembering that the second parameter to the `getOption()` is the default for cases where no such option has been set):
 
@@ -102,7 +111,7 @@ This again requires custom message handlers, like the following (remembering tha
 pkg_message <- function(...) {
   msg <- getOption("mypackage.verbose", "quiet") == "verbose"
   if (msg) {
-    # These local options will be reset on exit from this function!
+    # Options local to this function only; reset on exit!
     rlang::local_options(rlib_message_verbosity = "verbose")
     rlang::inform(...)
   } else {
@@ -131,18 +140,12 @@ pkg_message("reawakened message")
 ```
 
 And my local package-level verbosity options can then override the rlang verbosity controls.
-And to return to the question of this sub-section: Note that the first line of our `pkg_message()` function gets an option called "verbose" and checks whether it is set to "verbose".
-The logic of the function is then rather straightforward, and most importantly positive - that is, it requires no negation checks like `if (!msg) ...`.
-Rewriting that function with an option "mypackage.quiet" results in more contorted logic.
-
-Whatever your verbosity control, we recommend at least attempting to write a custom message function like the above to ensure that your control logic is ... logical.
-We're pretty sure you'll see that "verbosity" makes logical control easier than "quiet".
-So make some noise! Just ensure that you can control it!
 
 ## Conclusion
 
 In this tech note we explained our new requirement that verbosity control should be at the package rather than at the function level, through the users setting an option.
 We also presented the aspiration to have verbosity control as a choice between _degrees_ of verbosity.
+Now go some noise - just ensure that you can control it!
 
 How is verbosity control implemented in the packages you develop or like using?
 Do you have any comments or questions? 
