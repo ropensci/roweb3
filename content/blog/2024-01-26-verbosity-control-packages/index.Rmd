@@ -23,7 +23,7 @@ We recently introduced a new paragraph to the development version of our dev gui
 
 This complements the [statistical software review requirement for Bayesian software](https://stats-devguide.ropensci.org/standards.html#output-verbosity).
 
-This tech note's aim is to make the new requirement louder, and to gather community feedback!
+This tech note's aim is to make the new requirement louder, demonstrate some approaches to verbosity control, and to gather community feedback!
 
 ## Verbosity control at the package level
 
@@ -42,7 +42,7 @@ Not only does this make verbosity control difficult or even impossible, it also 
 Controlling verbosity at the package level means your user, instead, writes:
 
 ```{r, eval=FALSE}
-rlang::local_options(mypackage.quiet = TRUE) # or options(), or {withr}
+options(mypackage.quiet = TRUE) # or {rlang} or {withr}
 x <- mypackage::my_function(thing = 1)
 y <- mypackage::my_function(thing = 2)
 z <- mypackage::my_function(thing = 3)
@@ -64,25 +64,77 @@ pkg_message <- function(...) {
 
 ```
 
-Also make sure to read the docs of the package you might be using to create an user's interface.
-For instance if you use the [cli package](https://blog.r-hub.io/2023/11/30/cliff-notes-about-cli/#how-to-make-cli-quiet-or-not), you can use set a [cli's "handler" for messages](https://cli.r-lib.org/articles/semantic-cli.html#cli-messages).
+Fortunately, there are other package which largely take care of this for you.
+The [rlang package](https://rlang.r-lib.org) includes its own equivalents of base R's `message()`, `warning()`, and `stop()` functions.
+Of course, the base R functions are perfectly fine, and can definitely be used.
+The alternatives merely make a few aspects more convenient, including:
 
-Note that `cli::cli_inform()` allows you to set a special [class](https://cli.r-lib.org/reference/cli_abort.html) to your messages.
-TODO: equivalent for `message()`?
-This approach can be similar to using [classed conditions](https://www.mm218.dev/posts/2023-11-07-classed-errors/): they're more specifically suppressible, and more easily testable! 
+1. The [cli package](https://blog.r-hub.io/2023/11/30/cliff-notes-about-cli/#how-to-make-cli-quiet-or-not) draws on the rlang alternatives but with improved on-screen format and extensive customization options; and
+2. Verbosity can be controlled in any package which uses rlang or cli by [global environment variables](https://rlang.r-lib.org/reference/abort.html#muffling-and-silencing-conditions).
 
-Regarding testing messages, you might be interested in [testthat's snapshot testing](https://testthat.r-lib.org/articles/snapshotting.html).
-And to avoid looking at a wall of text in your tests, you can make your package quiet in tests using `withr::local_options()` or `rlang::local_options()`.
+The second advantage is particularly relevant here.
+Simply replacing any calls to `message()`, `warning()`, or `stop()` with the equivalent `rlang_inform()`, `rlang_warn()`, or `rlang_abort()` functions allows anyone to suppress all messages by specifying, `options(rlib_message_verbosity = "quiet")`.
 
-TODO: add examples of real packages
+Note that there is also an "rlang" way of setting options, the [`rlang::local_options()` function](https://rlang.r-lib.org/reference/local_options.html) (or the same function in [the withr package](https://withr.r-lib.org/reference/with_options.html)).
+As with messages above, the base R version is fine, the rlang/withr versions simply implement a few additional features.
+In particular, base R options are always set globally, whereas rlang's local options are set within the current [R frame](http://adv-r.had.co.nz/Environments.html#env-basics), and unset when the frame is exited.
+An example of the advantages of this approach would be trying to debug something which ultimately spawns multiple sub-processes.
+Each sub-process will generally inherit global options, and so base `options()` for verbose messaging will be passed through to all sub-processes.
+The rlang version enables control over whether or not verbosity settings are passed on to sub-processes, and so enables more precise and effective debugging.
+Finally, the `rlang::local_options()` function can be used to set `rlib_message_verbosity = "quiet` to make your package (and indeed all others which use this messaging system) quiet in tests, and so remove the often annoying wall of text that appears when running tests.
 
 ## One step further: verbosity control as a factor not a logical
 
-The previous section showed verbosity control as a binary choice: either quiet or not.
-Such control allows two levels of verbosity, but many packages may benefit from even more degrees of verbosity.
-For instance these degrees could be "none", "inform" and "debug" where debug corresponds to the idea of leaving an [access panel](https://speakerdeck.com/jennybc/object-of-type-closure-is-not-subsettable?slide=77) to simplify future trouble-shooting.
+Verbosity control is often implemented as a binary choice, typically controlled by a logical parameter, such as `verbose = FALSE`, or `quiet = TRUE`.
+The `rlib_message_verbosity` option described above also only has two primary levels, "quiet" and "verbose".
+The default behaviour (of "verbose") can nevertheless be overridden an additional parameter in the `rlang_inform/warn/abort()` functions, `frequency`, which controls how often messages are issued.
+This is particularly useful in issuing messages only once per R session, by setting `frequency = "once"`.
+More generally, it may often be useful to implement different levels of verbosity for users and developers, like "quiet", "inform", "debug", and "verbose".
+This practice corresponds to the idea of leaving an [access panel](https://speakerdeck.com/jennybc/object-of-type-closure-is-not-subsettable?slide=77) to simplify future trouble-shooting.
 
-TODO: add examples of real packages
+## Bonus section: "verbose" or "quiet"?
+
+A package which uses rlang/cli/withr-type packages to issue and control messaging will respond to the local (or global) options in the same way as all other packages which use this system.
+One problem with this is that users may often want to debug only one particular package, while leaving all other packages quiet.
+This again requires custom message handlers, like the following (remembering that the second parameter to the `getOption()` is the default for cases where no such option has been set):
+
+```{r}
+pkg_message <- function(...) {
+  msg <- getOption("mypackage.verbose", "quiet") == "verbose"
+  if (msg) {
+    rlang::with_options(rlib_message_verbosity = "verbose", rlang::inform(...))
+  } else {
+    rlang::inform(...)
+  }
+}
+```
+
+That then allows behaviour like this:
+
+```{r, echo = TRUE, eval = FALSE}
+pkg_message("normal message")
+rlang::local_options(rlib_message_verbosity = "quiet")
+pkg_message("suppressed message")
+rlang::local_options(mypackage.verbose = "verbose")
+pkg_message("reawakened message")
+```
+```{r, echo = FALSE, eval = TRUE}
+pkg_message("normal message")
+suppressMessages(
+  rlang::local_options(rlib_message_verbosity = "quiet")
+)
+pkg_message("suppressed message")
+rlang::local_options(mypackage.verbose = "verbose")
+pkg_message("reawakened message")
+```
+
+And my local package-level verbosity options can then override the rlang verbosity controls.
+And to return to the question of this sub-section: Note that the first line of our `pkg_message()` function gets an option called "verbose" and checks whether it is set to "verbose".
+The logic of the function is then rather straightforward, and most importantly positive - that is, it requires no negation checks like `if (!msg) ...`.
+Rewriting that function with an option "mypackage.quiet" results in definitely more contorted logic.
+Whatever your verbosity control, we recommend at least attempting to write a custom message function like the above to ensure that your control logic is ... logical.
+We're pretty sure you'll see that "verbosity" makes logical control easier than "quiet".
+So make some noise! Just ensure that you can control it!
 
 ## Conclusion
 
