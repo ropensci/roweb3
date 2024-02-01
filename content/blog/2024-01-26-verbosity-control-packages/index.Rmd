@@ -69,7 +69,7 @@ For instance if you use the [cli package](https://blog.r-hub.io/2023/11/30/cliff
 
 Note that `cli::cli_inform()` allows you to set a special [class](https://cli.r-lib.org/reference/cli_abort.html) to your messages.
 TODO: equivalent for `message()`?
-This approach can be similar to using [classed conditions](https://www.mm218.dev/posts/2023-11-07-classed-errors/): they're more specifically suppressable, and more easily testable! 
+This approach can be similar to using [classed conditions](https://www.mm218.dev/posts/2023-11-07-classed-errors/): they're more specifically suppressible, and more easily testable! 
 
 Regarding testing messages, you might be interested in [testthat's snapshot testing](https://testthat.r-lib.org/articles/snapshotting.html).
 And to avoid looking at a wall of text in your tests, you can make your package quiet in tests using `withr::local_options()` or `rlang::local_options()`.
