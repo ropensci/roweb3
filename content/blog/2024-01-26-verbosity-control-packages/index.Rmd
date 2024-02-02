@@ -72,7 +72,7 @@ The alternatives merely make a few aspects more convenient, including:
 1. The [cli package](https://blog.r-hub.io/2023/11/30/cliff-notes-about-cli/#how-to-make-cli-quiet-or-not) draws on the rlang alternatives but with improved on-screen format and extensive customization options; and
 2. Verbosity can be controlled in any package which uses rlang or cli by [global environment variables](https://rlang.r-lib.org/reference/abort.html#muffling-and-silencing-conditions).
 
-The second advantage is particularly relevant here.
+The second advantage is particularly relevant for the topic of this post.
 Simply replacing any calls to `message()`, `warning()`, or `stop()` with the equivalent `rlang_inform()`, `rlang_warn()`, or `rlang_abort()` functions allows anyone to suppress all messages by specifying, `options(rlib_message_verbosity = "quiet")` (or the equivalent for warnings).
 
 Note that there is also an "rlang" way of setting options, the [`rlang::local_options()` function](https://rlang.r-lib.org/reference/local_options.html) (or the same function in [the withr package](https://withr.r-lib.org/reference/with_options.html)).
