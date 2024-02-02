@@ -64,8 +64,8 @@ pkg_message <- function(...) {
 
 ```
 
-Fortunately, there are other package which largely take care of this for you.
-The [rlang package](https://rlang.r-lib.org) includes its own equivalents of base R's `message()`, `warning()`, and `stop()` functions.
+Fortunately, there are other packages which largely take care of this for you, notably [rlang](https://rlang.r-lib.org) and [cli](https://cli.r-lib.org), both of which include their own equivalents of base R's [`message()`](https://stat.ethz.ch/R-manual/R-devel/library/base/html/message.html), [`warning()`](https://stat.ethz.ch/R-manual/R-devel/library/base/html/warning.html), and [`stop()`](https://stat.ethz.ch/R-manual/R-devel/library/base/html/stop.html) functions.
+(The cli functions ultimately call the rlang versions, so it really doesn't matter which one you use.)
 Of course, the base R functions are perfectly fine, and can definitely be used.
 The alternatives merely make a few aspects more convenient, including:
 
@@ -79,7 +79,9 @@ Note that there is also an "rlang" way of setting options, the [`rlang::local_op
 As with messages above, the base R version is fine; the rlang/withr versions simply implement a few additional features.
 In particular, base R options are always set globally, whereas rlang's local options are set within the current [R frame](http://adv-r.had.co.nz/Environments.html#env-basics), and unset when the frame is exited.
 The code in the final section below provides one example of the advantages of this approach.
-Finally, the `rlang::local_options()` function can be used to set `rlib_message_verbosity = "quiet` in test files, to make your package (and indeed all others which use this messaging system) quiet in tests, and so remove the often annoying wall of text that appears when running tests.
+
+Finally, the `rlang::local_options()` function can be used to set `rlib_message_verbosity = "quiet` in test files, to suppress the wall of text that often appears when running tests.
+This wall of text can be an obstacle when trying to debug test logs; using rlang or cli for messages and warnings provides an easy way to actively control test logs and improve debugging.
 
 ## One step further: multiple levels of verbosity
 
@@ -141,7 +143,7 @@ And my local package-level verbosity options can then override the rlang verbosi
 ## Conclusion
 
 In this tech note we explained our new requirement that verbosity control should be at the package rather than at the function level, through the users setting an option.
-We also presented the aspiration to have verbosity control as a choice between _degrees_ of verbosity.
+We also presented the aspiration to have verbosity control as a choice between _degrees_ of verbosity, and showed how that enables verbosity control to be refined in future package development.
 Now go some noise - just ensure that you can control it!
 
 How is verbosity control implemented in the packages you develop or like using?
