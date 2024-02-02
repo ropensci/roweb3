@@ -42,7 +42,7 @@ Not only does this make verbosity control difficult or even impossible, it also 
 Controlling verbosity at the package level means your user, instead, writes:
 
 ```{r, eval=FALSE}
-options(mypackage.quiet = TRUE) # or {rlang} or {withr}
+options(mypackage.quiet = TRUE) # or rlang::local_options() or withr::local_options()
 x <- mypackage::my_function(thing = 1)
 y <- mypackage::my_function(thing = 2)
 z <- mypackage::my_function(thing = 3)
