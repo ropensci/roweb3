@@ -34,7 +34,7 @@ Our first cohort of the [rOpenSci Champions Program](/champions/) has now comple
 
 -   **Haydee Svab**, from Brazil, developed a new package called [odbr](https://cran.r-project.org/web/packages/odbr/index.html) that allows accessing and processing data from the Brazilian origin and destination (od) surveys and implements many of the algorithms that Haydee developed for her master's thesis. The package was published in CRAN.
 
--   **Bilikisu Wunmi Olatunji** from Nigeria, developed the new package [ChartkickR](https://github.com/BWOlatunji/chartkickR) is an htmlwidget that seamlessly integrates with the Chartkick JavaScript library. It provides R users with a straightforward interface to generate beautiful and interactive charts using R code. The package provides ten types of plots.
+-   **Bilikisu Wunmi Olatunji** from Nigeria, developed the new package [ChartkickR](https://github.com/BWOlatunji/chartkickR) is an htmlwidget that seamlessly integrates with the Chartkick JavaScript library. It provides R users with a straightforward interface to generate beautiful and interactive charts using R code. The package provides ten types of plots. [You can read more in Bilikisu's blog post](/blog/).
 
 -   **Ghozayel Elotteebi** from Saudi Arabia, worked on a new package called [Lextale](https://ghozayel.github.io/Lextale/). To my knowledge, this is the first R package in the field of linguistics developed in Saudi Arabia and would be the first local contribution to rOpenSci.
 
