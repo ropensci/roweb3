@@ -92,7 +92,7 @@ The default behaviour (of "verbose") can also be overridden an additional parame
 This is particularly useful in issuing messages only once per R session, by setting `frequency = "once"`.
 More generally, it may often be useful to implement different levels of verbosity for users and developers, like "quiet", "inform", and "debug".
 This practice corresponds to the idea of leaving an [access panel](https://speakerdeck.com/jennybc/object-of-type-closure-is-not-subsettable?slide=77) to simplify future trouble-shooting.
-Even if only two levels are implemented, it is easy to extend levels in the futures if they are already defined as character strings; changing verbosity control from logical (dual-level) to multi-level is more complex, and can be avoided by not using logical flags in the first place.
+Even if only two levels are implemented, it is easy to extend levels in the future if they are already defined as character strings; changing verbosity control from logical (dual-level) to multi-level is more complex, and can be avoided by not using logical flags in the first place.
 
 ### "verbose" or "quiet"?
 
