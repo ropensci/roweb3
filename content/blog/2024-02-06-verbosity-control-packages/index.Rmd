@@ -151,7 +151,7 @@ debug_msg <- function(...) {
   is_debug_mode <- (getOption("mypackage.verbose", "quiet") == "debug")
   if (is_debug_mode) {
     rlang::local_options(rlib_message_verbosity = "verbose")
-    rlang::inform(...)
+    rlang::inform(...) # or rlang::warn, cli::cli_alert_info, whatever
   }
 }
 ```
@@ -159,20 +159,28 @@ debug_msg <- function(...) {
 That enables this behaviour:
 
 ```{r, echo = TRUE, eval = FALSE}
-debug_msg("debug message") # not issued
+my_fn <- function(x) {
+    # ... do stuff
+    debug_msg(paste0("'x' has wrong value: ", x))
+}
+my_fn(1) # no message issued
 rlang::local_options(rlib_message_verbosity = "verbose")
-debug_msg("debug message") # still not issued
+my_fn(1) # still not issued
 rlang::local_options(mypackage.verbose = "debug")
-debug_msg("debug message") # now it is
+my_fn(1) # debug message is issued!
 ```
 ```{r, echo = FALSE, eval = TRUE}
-debug_msg("debug message") # not issued
+my_fn <- function(x) {
+    # ... do stuff
+    debug_msg(paste0("'x' has wrong value: ", x))
+}
+my_fn(1) # no message issued
 suppressMessages(
-  rlang::local_options(rlib_message_verbosity = "verbose")
+    rlang::local_options(rlib_message_verbosity = "verbose")
 )
-debug_msg("debug message") # still not issued
+my_fn(1) # still not issued
 rlang::local_options(mypackage.verbose = "debug")
-debug_msg("debug message") # now it is
+my_fn(1) # debug message is issued!
 ```
 
 ## Conclusion
