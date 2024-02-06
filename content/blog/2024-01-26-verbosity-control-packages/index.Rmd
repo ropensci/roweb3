@@ -52,7 +52,7 @@ Package-level control is much easier!
 
 ### How to implement package-level verbosity control in your package
 
-One option :sweat_smile: would be to use your own wrapper for every user message, for instance:
+One option :sweat_smile: would be to write your own wrapper for messages such as,
 
 ```{r, eval=FALSE}
 pkg_message <- function(...) {
@@ -69,7 +69,7 @@ Fortunately, there are other packages which largely take care of this for you, n
 Of course, the base R functions are perfectly fine, and can definitely be used.
 The alternatives merely make a few aspects more convenient, including:
 
-1. The [cli package](https://blog.r-hub.io/2023/11/30/cliff-notes-about-cli/#how-to-make-cli-quiet-or-not) draws on the rlang alternatives but with improved on-screen format and extensive customization options; and
+1. The [cli package](https://blog.r-hub.io/2023/11/30/cliff-notes-about-cli/#how-to-make-cli-quiet-or-not) draws on the rlang functions but with improved on-screen format and extensive customization options; and
 2. Verbosity can be controlled in any package which uses rlang or cli by [global environment variables](https://rlang.r-lib.org/reference/abort.html#muffling-and-silencing-conditions).
 
 The second advantage is particularly relevant for the topic of this post.
@@ -87,7 +87,8 @@ This wall of text can be an obstacle when trying to debug test logs; using rlang
 
 Verbosity control is often implemented as a binary choice, typically controlled by a logical parameter, such as `verbose = FALSE`, or `quiet = TRUE`.
 The `rlib_message_verbosity` option described above also only has two primary levels, "quiet" and "verbose".
-The default behaviour (of "verbose") can nevertheless be overridden an additional parameter in the `rlang_inform/warn/abort()` functions, `frequency`, which controls how often messages are issued.
+Note that these are not logical parameters, but character variables.
+The default behaviour (of "verbose") can also be overridden an additional parameter in the `rlang_inform/warn/abort()` functions, `frequency`, which controls how often messages are issued.
 This is particularly useful in issuing messages only once per R session, by setting `frequency = "once"`.
 More generally, it may often be useful to implement different levels of verbosity for users and developers, like "quiet", "inform", and "debug".
 This practice corresponds to the idea of leaving an [access panel](https://speakerdeck.com/jennybc/object-of-type-closure-is-not-subsettable?slide=77) to simplify future trouble-shooting.
@@ -139,6 +140,40 @@ pkg_message("reawakened message")
 ```
 
 And my local package-level verbosity options can then override the rlang verbosity controls.
+
+### Extending levels of verbosity
+
+Finally, we'll briefly demonstrate how the rlang/cli two-level verbosity control of "quiet"/"verbose" can be extended to implement a "debug" level in your own package.
+This again requires a custom message handler, slightly modified from the above to issue debug messages only:
+
+```{r}
+debug_msg <- function(...) {
+  msg <- getOption("mypackage.verbose", "quiet") == "debug"
+  if (msg) {
+    rlang::local_options(rlib_message_verbosity = "verbose")
+    rlang::inform(...)
+  }
+}
+```
+
+That enables this behaviour:
+
+```{r, echo = TRUE, eval = FALSE}
+debug_msg("debug message") # not issued
+rlang::local_options(rlib_message_verbosity = "verbose")
+debug_msg("debug message") # still not issued
+rlang::local_options(mypackage.verbose = "debug")
+debug_msg("debug message") # now it is
+```
+```{r, echo = FALSE, eval = TRUE}
+debug_msg("debug message") # not issued
+suppressMessages(
+  rlang::local_options(rlib_message_verbosity = "verbose")
+)
+debug_msg("debug message") # still not issued
+rlang::local_options(mypackage.verbose = "debug")
+debug_msg("debug message") # now it is
+```
 
 ## Conclusion
 
