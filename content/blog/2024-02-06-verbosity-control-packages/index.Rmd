@@ -111,8 +111,8 @@ This again requires custom message handlers, like the following (remembering tha
 
 ```{r}
 pkg_message <- function(...) {
-  msg <- getOption("mypackage.verbose", "quiet") == "verbose"
-  if (msg) {
+  is_verbose_mode <- (getOption("mypackage.verbose", "quiet") == "verbose")
+  if (is_verbose_mode) {
     # Options local to this function only; reset on exit!
     rlang::local_options(rlib_message_verbosity = "verbose")
   }
@@ -148,8 +148,8 @@ This again requires a custom message handler, slightly modified from the above t
 
 ```{r}
 debug_msg <- function(...) {
-  msg <- (getOption("mypackage.verbose", "quiet") == "debug")
-  if (msg) {
+  is_debug_mode <- (getOption("mypackage.verbose", "quiet") == "debug")
+  if (is_debug_mode) {
     rlang::local_options(rlib_message_verbosity = "verbose")
     rlang::inform(...)
   }
