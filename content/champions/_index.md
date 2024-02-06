@@ -5,8 +5,6 @@ tags = ["champions"]
 +++
 
 
-## Open Call for rOpenSci Champions Program 2023 Applications! 
-
 {{< figure src = "/images/volunteer/peep8.png" width = "300" alt = "A person with his dog working on a notebook." class = "pull-left" >}}
 
 Research software *should serve everyone in our communities*, which means it needs to be *sustainable, open, and built by and for all groups*. Currently, however, there is a dismaying lack of diversity in open source communities in general and the R / research software community in particular. Developers in the R community are overwhelmingly white, male, and from a handful of countries. That disappointing lack of diversity is potentially detrimental to the sustainability, utility and productivity of projects.
@@ -16,41 +14,29 @@ The *rOpenSci Champions Program* is for **people from historically and systemati
 The rOpenSci Champion Program [is part of a series of activities and projects we are carrying out to ensure our research software serves everyone in our communities](/blog/2021/12/20/inclusive-leadership-program/) and is supported through a grant from the Chan Zuckerberg Initiative.
 
 
-## How to apply
+## Program 2023-2024 timeline
 
-### Champions
+Our second cohort started this January! This is the tentavite timeline for 2024.
 
-If you want to be one of our champions [here you can find goals, elegibility, benefits, and expectations for our program](programdetails_2023)
+|Date|Event|Detail|Duration|
+|----|-----|------|--------|
+|January 2024|Kick-off event|Learn about the program, review the program expectations, and address questions. Meet mentors.|1.5 h|
+|February - April 2024 | Training|Knowledge of various channels through which new members can engage in and contribute to rOpenSci and R projects (by rOpenSci)|1 h|
+|February - April 2024| Training|Technical skills in software development (by rOpenSci)|2 h|
+|February - April 2024 |Training| Technical skills in software review. (by rOpenSci)|2 h|
+|March-July 2024|Develop project. Meeting with mentors|Go through the review process as an author, or as a reviewer, or build the package of their choice||
+|May 2024|Cohort meeting: Presentation of projects| Champions' 5 minutes presentations of their project (package review or development) and get feedback.|1.5 h|
+|July 2024 |Cohort meeting: Reflections on projects|Champions will be invited to share takeaways from their projects with the cohort.|1.5 h|
+|August - September 2024 | Training|How to plan and facilitate engaging and inclusive workshops to support participants’ success (by CSCCE)|2 h|
+|August - October 2024|Champions outreach: host events, deliver talk, write about their experiences.|Champion's host: a workshop on good practices to build packages or good practices in software peer review or deliver a talk on a conference/event and one community event to gather feedback to improve rOpenSci’s projects|1 to 3 h|
+|September 2024|Cohort meeting: Reflections on events |Champions will be invited to share takeaways from their events with the cohort.|1.5 h|
+|October 2024|Cohort meeting: Reflections on program|Champions will be invited to share takeaways from the program with the cohort and start to define future roles for Champions.|1.5 h|
+|November 2024|End of term|Close cohort and define new roles for Champions and Mentors.|1 h|
 
-Please, fill out the [application form](https://airtable.com/shrAsYlSXU0coJ5Ld) before __Monday, Sep 4, 2023__.
 
-The application forms have to be filled in _English_. This [template](/champions/files/champions_template) shows the information we require.
+## How to Apply ?
 
-### Mentors
-
-Mentors support our cohort of rOpenSci Champions. Could you offer insight and advice to our selected Champions? [Learn the details and express your interest](programdetailsmentors_2023) by filling out the [application form](https://airtable.com/shrlrLdQbb4wphosK) before __Monday, Sep 4, 2023__.
-
-The application forms have to be filled in _English_. This [template](/champions/files/mentors_champions_template) shows the information we require. 
-
-
-## Application 2023 and Program 2023-2024 timeline
-
-|Date|Event|
-|----|-----|
-|Jul 14, 2023|Call for Champions and Mentor Applications opens|
-|Jul 25, 2023| [OPTIONAL] [Community Call](/commcalls/july2023-championprogram/) - Learn from other mentors and champions and get tips for submitting your application |
-|Aug 17 & 23| [OPTIONAL] Coworking Champions Application Clinics in different timezones ([Aug 17](/events/coworking-2023-08-17/) and [Aug 23](/events/coworking-2023-08-23/)): receive help with your application to the Champions Program |
-|Sep 4, 2023|Call for applications closed|
-|Late Oct, 2023|Communication with selected Mentors |
-|Late Nov, 2023|Communication with selected Champions |
-|Dec, 2023   |Kick-off event |
-|Jan-Apr, 2024 | Training session, mentoring meetings, develop project |
-|May-Oct, 2024 | Outreach activities, mentoring and cohort meetings, develop project|
-|Nov, 2024 |End of term|
-
-Please refer to the [program timeline document for a more detailed program schedule for champions](program_timeline_2023).  
-
-If you are interested in [more details of the mentoring agenda, please refer to the mentoring details document](programdetailsmentors_2023/#expectations). 
+The application are closed.  We will announce when we open a new call for champions and mentors. 
 
 ## Do you have any questions?
 
