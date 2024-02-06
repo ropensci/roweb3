@@ -3,7 +3,7 @@ title: Please Shut Up! Verbosity Control in Packages
 author: 
 - Mark Padgham
 - Maëlle Salmon
-date: '2024-01-26'
+date: '2024-0w-06'
 slug: verbosity-control-packages
 categories: []
 output: hugodown::md_document
