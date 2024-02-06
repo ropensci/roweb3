@@ -148,7 +148,7 @@ This again requires a custom message handler, slightly modified from the above t
 
 ```{r}
 debug_msg <- function(...) {
-  msg <- getOption("mypackage.verbose", "quiet") == "debug"
+  msg <- (getOption("mypackage.verbose", "quiet") == "debug")
   if (msg) {
     rlang::local_options(rlib_message_verbosity = "verbose")
     rlang::inform(...)
