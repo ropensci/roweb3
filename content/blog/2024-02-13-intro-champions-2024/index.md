@@ -7,6 +7,10 @@ author:
 - Liz Hare
 - Francesca Belem Lopes Palmeira
 - Binod Jung Bogati
+- Sunny Tseng
+- Mirna Vazquez Rosas Landa
+- Erika Siregar
+- Jacqui Levy
 - Yanina Bellini Saibene
 date: '2024-02-13'
 slug: champions-program-champions-2024
@@ -65,4 +69,24 @@ I'm a Data Science - Associate Manager at Numeric Mind, with experience in Clini
 I'm working on the nepalcensus package for R, which provides a comprehensive and up-to-date tool for accessing and exploring demographic, socio-economic, and geographic data collected during the most recent census conducted in Nepal. This package is designed to assist researchers, policymakers, and data analysts in understanding and utilizing census data effectively for various applications and insights. During this tenure, I will be working on improving the nepalcensus package with the help of rOpenSci mentors.
 
 As someone involved in various R-related projects and initiatives, I'm excited about the rOpenSci Champions Program and the potential impact it can have on my institution, community, and career. I believe that the program is a great opportunity to continue sharpening my skills and contribute to the open-source R community. 
+
+## Sunny Tseng
+
+Hi, this is Sunny, a PhD candidate living in Vancouver, Canada. Originally from Taiwan, I am a field sound recordist, an artist, and an avian researcher. Throughout my academic career, I have been fascinated by R, which I have applied to acoustic data analysis, spatial data analysis, and statistical modeling. In the rOpenSci champions program, I will develop 'bbsTrim', a package to streamline Taiwan BBS data retrieval and analysis. 'bbsTrim' will support data retrieval from GBIF, where Taiwan BBS data is stored. 'bbsTrim' will also include population trend modeling, using TRIM (Trends and Indices for Monitoring data). Users can tailor species analysis, controlling data stratification, preparation, and modeling. As an R package, 'bbsTrim' can easily be integrated into other R programming processes. The goal is to expand Taiwan BBS data access to the broader R-society in Taiwan.
+
+## Mirna Vazquez Rosas Landa
+
+I am an Assistant Professor at the Marine Science and Limnology Institute at UNAM. My research focus on unraveling the mysteries of the ocean microbiome.
+
+I explore fundamental questions of biogeography, evolution, ecology, and physiology within the ocean microbiome. I am driven by a quest to understand the drivers behind microbial species distribution in the ocean, explore the genomic foundations of adaptation leading to speciation, and discern the crucial role of these microorganisms in shaping Earth's biogeochemistry. To address these questions comprehensively, my research approach integrates both computational and experimental methodologies. I employ advanced techniques such as metagenomics, transcriptomics, and stable isotope probing experiments, leveraging their potential to unveil the hidden intricacies of the ocean microbiome.
+
+Beyond research, I am dedicated to the cultivation of knowledge and fostering inclusivity. My engagement in teaching, particularly within the R community, has been a rewarding aspect of my career. I initiated my journey with R as part of the CDSB and Rladies community, eventually becoming a co-organizer of RLadies Xalapa—a safe haven for minorities to explore coding.
+
+I am enthusiastic about the ongoing research endeavors at UNAM and look forward to further contributing to the exploration of the ocean's microbial realms while inspiring the next generation of scientists.
+
+## Erika Siregar
+
+I am Erika Siregar, a data science enthusiast from Jakarta, Indonesia. With an academic background in Statistics and Computer Science, I actively contribute to data-driven insights at BPS-Statistics Indonesia and consult on R Shiny for the bioenergy project with GIZ Indonesia. As the co-founder of R-Ladies Jakarta, I've observed a strong interest in R among women and gender minorities, highlighting the crucial need for accessible resources. In the rOpenSci Champions Program, my project involves developing "rplaywright," an R package seamlessly bridging to Playwright, simplifying web testing and automation for R users. I eagerly anticipate gaining new skills, building connections, and making a meaningful impact in the vibrant rOpenSci community. With my PhD journey in Information Science at the University of Sheffield beginning this April, I envision utilizing my learning and experience in the rOpenSci Champions Program to fortify and advocate for open-source collaboration in my research pursuits.
+
+## Jacqui Levy
 
