@@ -4,6 +4,9 @@ author:
 - Ezekiel Adebayo Ogundepo
 - Sehrish Kanwal
 - Andrea Gomez Vargas
+- Liz Hare
+- Francesca Belem Lopes Palmeira
+- Binod Jung Bogati
 - Yanina Bellini Saibene
 date: '2024-02-13'
 slug: champions-program-champions-2024
@@ -32,3 +35,34 @@ As a Champion, my goal is to submit a WIP R package to the rOpenSci Peer Review 
 Through proactive engagement as an rOpenSci champion, I aim to enable collaboration and robust knowledge exchange, cultivate cross-institutional partnerships, whereby I can play a pivotal role in facilitating the exchange of expertise and resources, fostering mutual growth and advancement. 
 
 ## Andrea Gomez Vargas
+
+I’m Andrea Gomez Vargas, I have a degree in Sociology. I'm from Colombia, but I’ve lived in Buenos Aires, Argentina since 2012. I am currently working as a population statistics analyst at the National Institute of Statistics and Census - INDEC Argentina, I am also a university professor of social sciences and data science where I teach R.
+
+I am an active member of the R community in Argentina and Latin America. I have been part of RLadies Buenos Aires and am currently part of the RLadies global team and the LatinR organizing committee.
+
+As a champion, my project is to generate a package that makes census data available, homogenized and ready to use. It would include the census data from 1970 to 2022. Having a package of census information will allow the public and private sectors, citizens and other actors in society to access current and historical information on Argentina's population, households and housing in a more accessible way.
+
+Being part of the program is an opportunity to have the guidance of an expert community on the topic. I feel that learning about package development is the next step in my career using R and as part of its community. 
+
+I’m also looking forward to sharing experiences between Champions and learning from everyone during this process.
+
+## Liz Hare
+
+I’m Liz Hare, PhD from New York, USA. I work on quantitative genetics and statistics for the working dog field, including research and evaluations for selective breeding. I serve as the Assistant Director for Data Management and Open Science at the ManyDogs Project, a consortium of researchers that aims to improve cognitive research by using larger data sets and open science practices. My project with the rOpenSci champions program is to improve my R code reviewing skills and apply them to ManyDogs and other open science projects. 
+
+I also work on inclusion and accessibility in the R and open science communities with The Turing Way, UseR!, and Forwards with the perspective of a screen reader user.  
+
+As an rOpenSci Champion, I hope to learn and contribute to a new group of open science collaborators and to take the skills and knowledge back to all the teams I work with. I’m looking forward to both rOpenSci’s general open science education and to learning specific practices for code review (which might improve my code, too!). Many thanks to everyone who organizes this program! I’m looking forward to getting started.
+
+## Francesca Belem Lopes Palmeira
+
+My name is Francesca Belem Lopes Palmeira. I am a Brazilian Biologist, Doctor in Sciences - major in Forest Resources, interested in conservation conflicts, ecological modeling and data visualization. I plan to develop a package called 'Potential for Conflict Index - PCI', which is a descriptive statistical method used to enhance the understanding of outcomes in human dimensions research. The package will equip users with the tools required for calculating, comparing, and graphing the potential for conflict. The concepts of consensus and disagreement/conflict hold relevance across various fields, including economics, political science, psychology, sociology, and natural resources. It is worth noting that although PCI can currently be computed using software such as Excel, SPSS, and SAS, there is no dedicated R package available for conducting this specific analysis. I wish to participate in the Program with the goal of enhancing my technical skills in software development and acquiring best practices for package development. I am eager to collaborate on projects with fellow community members, recognizing that this will not only contribute to my growth as a practitioner but also strengthen the community as a whole.
+
+## Binod Jung Bogati
+
+I'm a Data Science - Associate Manager at Numeric Mind, with experience in Clinical trial Programming over 3 years. I'm from Nepal and has an undergraduate degree in Computer Science and IT. I'mpassionate about solving real-world problems using data science and I'm proficient in Python, R, and SAS programming languages.
+
+I'm working on the nepalcensus package for R, which provides a comprehensive and up-to-date tool for accessing and exploring demographic, socio-economic, and geographic data collected during the most recent census conducted in Nepal. This package is designed to assist researchers, policymakers, and data analysts in understanding and utilizing census data effectively for various applications and insights. During this tenure, I will be working on improving the nepalcensus package with the help of rOpenSci mentors.
+
+As someone involved in various R-related projects and initiatives, I'm excited about the rOpenSci Champions Program and the potential impact it can have on my institution, community, and career. I believe that the program is a great opportunity to continue sharpening my skills and contribute to the open-source R community. 
+
