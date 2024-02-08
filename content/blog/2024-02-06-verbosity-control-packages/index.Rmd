@@ -72,7 +72,7 @@ The alternatives merely make a few aspects more convenient, including:
 2. Verbosity can be controlled in any package which uses rlang or cli by [global environment variables](https://rlang.r-lib.org/reference/abort.html#muffling-and-silencing-conditions).
 
 The second advantage is particularly relevant for the topic of this post.
-Simply replacing any calls to `message()` or `warning()` with the rlang or cli equivalent, allows anyone to suppress the verbosity globally:
+Simply replacing any calls to `message()` or `warning()` with the rlang or cli equivalent allows users to suppress messages and warnings globally:
 
 - Replace `message()` with `rlang::inform()` or `cli::cli_inform()`. Users can now silence with `options(rlib_message_verbosity = "quiet")`.
 - Replace `warning()` with `rlang::warn()` or `cli::cli_warn()`. Users can now silence with `options(rlib_warning_verbosity = "quiet")`.
