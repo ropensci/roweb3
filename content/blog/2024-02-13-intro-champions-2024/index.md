@@ -34,6 +34,8 @@ My aspiration to further my impact in the field has led me to apply for the rOpe
 
 ## Dr. Sehrish Kanwal
 
+{{< figure src = "/img/team/sehrish-kanwal.jpg" width = "300" alt = "Profile photo of Sehrish Kanwal." caption = "<strong>Sehrish Kanwal - The University of Mebourne</strong>">}}
+
 I am a bioinformatics scientist at the University of Melbourne Centre for Cancer Research (UMCCR). I graduated with a BS-honours degree in Bioinformatics from Pakistan and continued my career in Bioinformatics with a PhD from the School of Computing and Information Systems, the University of Melbourne, Australia. I am a highly experienced bioinformatician, specialised in the development of pipelines for the processing, mining, and integration of Next Generation Sequencing (NGS) data, with a particular focus on precision oncology. 
 
 As a Champion, my goal is to submit a WIP R package to the rOpenSci Peer Review committee. This offers me a valuable chance to gather insights into optimal practices for R package development. Navigating the review process with the rOpenSci Peer Review committee not only streamlines the eventual submission to CRAN but also enriches my understanding of the review process.
