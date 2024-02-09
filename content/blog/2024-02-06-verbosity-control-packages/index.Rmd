@@ -61,7 +61,6 @@ pkg_message <- function(...) {
   }
   message(...)
 }
-
 ```
 
 Fortunately, there are other packages which largely take care of this for you, notably [rlang](https://rlang.r-lib.org) and [cli](https://cli.r-lib.org), both of which include their own equivalents of base R's [`message()`](https://stat.ethz.ch/R-manual/R-devel/library/base/html/message.html), [`warning()`](https://stat.ethz.ch/R-manual/R-devel/library/base/html/warning.html), and [`stop()`](https://stat.ethz.ch/R-manual/R-devel/library/base/html/stop.html) functions.
@@ -73,7 +72,11 @@ The alternatives merely make a few aspects more convenient, including:
 2. Verbosity can be controlled in any package which uses rlang or cli by [global environment variables](https://rlang.r-lib.org/reference/abort.html#muffling-and-silencing-conditions).
 
 The second advantage is particularly relevant for the topic of this post.
-Simply replacing any calls to `message()`, `warning()`, or `stop()` with the equivalent `rlang_inform()`, `rlang_warn()`, or `rlang_abort()` functions allows anyone to suppress all messages by specifying, `options(rlib_message_verbosity = "quiet")` (or the equivalent for warnings).
+Simply replacing any calls to `message()` or `warning()` with the rlang or cli equivalent allows users to suppress messages and warnings globally:
+
+- Replace `message()` with `rlang::inform()` or `cli::cli_inform()`. Users can now silence with `options(rlib_message_verbosity = "quiet")`.
+- Replace `warning()` with `rlang::warn()` or `cli::cli_warn()`. Users can now silence with `options(rlib_warning_verbosity = "quiet")`.
+- Replace `stop()` with `rlang::abort()` or `cli::cli_abort()`. Abort has no silencing option.
 
 Note that there is also an "rlang" way of setting options, the [`rlang::local_options()` function](https://rlang.r-lib.org/reference/local_options.html) (or the same function in [the withr package](https://withr.r-lib.org/reference/with_options.html)).
 As with messages above, the base R version is fine; the rlang/withr versions simply implement a few additional features.
@@ -88,7 +91,7 @@ This wall of text can be an obstacle when trying to debug test logs; using rlang
 Verbosity control is often implemented as a binary choice, typically controlled by a logical parameter, such as `verbose = FALSE`, or `quiet = TRUE`.
 The `rlib_message_verbosity` option described above also only has two primary levels, "quiet" and "verbose".
 Note that these are not logical parameters, but character variables.
-The default behaviour (of "verbose") can also be overridden an additional parameter in the `rlang_inform/warn/abort()` functions, `frequency`, which controls how often messages are issued.
+The default behaviour (of "verbose") can also be overridden an additional parameter in the `rlang_inform/warn` functions, `.frequency`, which controls how often messages are issued.
 This is particularly useful in issuing messages only once per R session, by setting `frequency = "once"`.
 More generally, it may often be useful to implement different levels of verbosity for users and developers, like "quiet", "inform", and "debug".
 This practice corresponds to the idea of leaving an [access panel](https://speakerdeck.com/jennybc/object-of-type-closure-is-not-subsettable?slide=77) to simplify future trouble-shooting.
@@ -187,7 +190,7 @@ my_fn(1) # debug message is issued!
 
 In this tech note we explained our new requirement that verbosity control should be at the package rather than at the function level, through the users setting an option.
 We also presented the aspiration to have verbosity control as a choice between _degrees_ of verbosity, and showed how that enables verbosity control to be refined in future package development.
-Now go some noise - just ensure that you can control it!
+Now go make some noise - just ensure that you can control it!
 
 How is verbosity control implemented in the packages you develop or like using?
 Do you have any comments or questions? 
