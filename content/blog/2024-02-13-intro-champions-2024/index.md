@@ -24,6 +24,8 @@ The rOpenSci Champions Program start this 2024 with a new cohort of champions.  
 
 ## Ezekiel Adebayo Ogundepo
 
+{{< figure src = "/img/team/ezekiel-ogundepo.png" width = "300" alt = "Profile photo of Ezekiel Adebayo Ogundepo." caption = "<strong>Ezekiel Adebayo Ogundepo - GBG Analytics Limited</strong>">}}
+
 Hello, I'm Ezekiel, a data science professional deeply fascinated by the intersection of mathematics, statistics, and real-world challenges. My journey in data science has been marked by several achievements, including being a Certified RStudio Tidyverse Instructor, a Mastercard Scholar, a Federal Government of Nigeria (FSB) Scholar, an UNLEASH Talent, a Heidelberg Laureate Forum (HLF) Fellow and a Global Partnership for Sustainable Development Data Fellow.
 
 I hold a B.Sc. in Statistics (First Class) and an M.Sc. in Mathematical Sciences. My passion for research software development is evident in my contributions to CRAN, where I have developed packages like 'forstringr' and 'bulkreadr'.
@@ -49,6 +51,8 @@ As a champion, my project is to generate a package that makes census data availa
 Being part of the program is an opportunity to have the guidance of an expert community on the topic. I feel that learning about package development is the next step in my career using R and as part of its community. 
 
 I’m also looking forward to sharing experiences between Champions and learning from everyone during this process.
+
+{{< figure src = "/img/team/andrea-vargas.png" width = "300" alt = "Profile photo of Andrea Gomez Vargas." caption = "<strong>Andrea Gomez Vargas - INDEC Argentina, R-Ladies Global, Latin-R</strong>">}}
 
 ## Liz Hare
 
@@ -90,3 +94,4 @@ I am Erika Siregar, a data science enthusiast from Jakarta, Indonesia. With an a
 
 ## Jacqui Levy
 
+I am a data analyst with a background in environmental science, and I am a data enthusiast interested in all things to do with data and open source science. I am looking forward to learning about software development and being part of the welcoming community of champions and mentors with ROpenSci. 
