@@ -44,6 +44,8 @@ Through proactive engagement as an rOpenSci champion, I aim to enable collaborat
 
 ## Andrea Gomez Vargas
 
+{{< figure src = "/img/team/andrea-vargas.png" width = "300" alt = "Profile photo of Andrea Gomez Vargas." caption = "<strong>Andrea Gomez Vargas - INDEC Argentina, R-Ladies Global, Latin-R</strong>">}}
+
 I’m Andrea Gomez Vargas, I have a degree in Sociology. I'm from Colombia, but I’ve lived in Buenos Aires, Argentina since 2012. I am currently working as a population statistics analyst at the National Institute of Statistics and Census - INDEC Argentina, I am also a university professor of social sciences and data science where I teach R.
 
 I am an active member of the R community in Argentina and Latin America. I have been part of RLadies Buenos Aires and am currently part of the RLadies global team and the LatinR organizing committee.
@@ -54,9 +56,9 @@ Being part of the program is an opportunity to have the guidance of an expert co
 
 I’m also looking forward to sharing experiences between Champions and learning from everyone during this process.
 
-{{< figure src = "/img/team/andrea-vargas.png" width = "300" alt = "Profile photo of Andrea Gomez Vargas." caption = "<strong>Andrea Gomez Vargas - INDEC Argentina, R-Ladies Global, Latin-R</strong>">}}
-
 ## Liz Hare
+
+{{< figure src = "/img/team/liz-hare.jpg" width = "300" alt = "Profile photo of Liz Hare." caption = "<strong>Liz Hare - Dog Genetics LLC, ManyDogs Project, The Turing Way</strong>">}}
 
 I’m Liz Hare, PhD from New York, USA. I work on quantitative genetics and statistics for the working dog field, including research and evaluations for selective breeding. I serve as the Assistant Director for Data Management and Open Science at the ManyDogs Project, a consortium of researchers that aims to improve cognitive research by using larger data sets and open science practices. My project with the rOpenSci champions program is to improve my R code reviewing skills and apply them to ManyDogs and other open science projects. 
 
@@ -65,6 +67,8 @@ I also work on inclusion and accessibility in the R and open science communities
 As an rOpenSci Champion, I hope to learn and contribute to a new group of open science collaborators and to take the skills and knowledge back to all the teams I work with. I’m looking forward to both rOpenSci’s general open science education and to learning specific practices for code review (which might improve my code, too!). Many thanks to everyone who organizes this program! I’m looking forward to getting started.
 
 ## Francesca Belem Lopes Palmeira
+
+{{< figure src = "/img/team/francesca-palmeira.jpg" width = "300" alt = "Profile photo of Francesca Belem Lopes Palmeira." caption = "<strong>Francesca Belem Lopes Palmeira - RLadies Ribeirão Preto</strong>">}}
 
 My name is Francesca Belem Lopes Palmeira. I am a Brazilian Biologist, Doctor in Sciences - major in Forest Resources, interested in conservation conflicts, ecological modeling and data visualization. I plan to develop a package called 'Potential for Conflict Index - PCI', which is a descriptive statistical method used to enhance the understanding of outcomes in human dimensions research. The package will equip users with the tools required for calculating, comparing, and graphing the potential for conflict. The concepts of consensus and disagreement/conflict hold relevance across various fields, including economics, political science, psychology, sociology, and natural resources. It is worth noting that although PCI can currently be computed using software such as Excel, SPSS, and SAS, there is no dedicated R package available for conducting this specific analysis. I wish to participate in the Program with the goal of enhancing my technical skills in software development and acquiring best practices for package development. I am eager to collaborate on projects with fellow community members, recognizing that this will not only contribute to my growth as a practitioner but also strengthen the community as a whole.
 
