@@ -104,6 +104,9 @@ I am enthusiastic about the ongoing research endeavors at UNAM and look forward 
 
 {{< figure src = "/img/team/erika-siregar.jpeg" width = "300" alt = "Profile photo of Erika Siregar." caption = "<strong>Erika Siregar - BPS-Statistics Indonesia</strong>">}}
 
+Stay tuned for more updates on their progress!
+
+
 I am Erika Siregar, a data science enthusiast from Jakarta, Indonesia. With an academic background in Statistics and Computer Science, I actively contribute to data-driven insights at BPS-Statistics Indonesia and consult on R Shiny for the bioenergy project with GIZ Indonesia. As the co-founder of R-Ladies Jakarta, I've observed a strong interest in R among women and gender minorities, highlighting the crucial need for accessible resources. In the rOpenSci Champions Program, my project involves developing "rplaywright," an R package seamlessly bridging to Playwright, simplifying web testing and automation for R users. I eagerly anticipate gaining new skills, building connections, and making a meaningful impact in the vibrant rOpenSci community. With my PhD journey in Information Science at the University of Sheffield beginning this April, I envision utilizing my learning and experience in the rOpenSci Champions Program to fortify and advocate for open-source collaboration in my research pursuits.
 
 ## Jacqui Levy
