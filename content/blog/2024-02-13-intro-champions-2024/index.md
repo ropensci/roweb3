@@ -74,6 +74,8 @@ My name is Francesca Belem Lopes Palmeira. I am a Brazilian Biologist, Doctor in
 
 ## Binod Jung Bogati
 
+{{< figure src = "/img/team/binod-bogati.jpeg" width = "300" alt = "Profile photo of Binod Jung Bogati." caption = "<strong>Binod Jung Bogati - R User Group Nepal, Numeric Mind</strong>">}}
+
 I'm a Data Science - Associate Manager at Numeric Mind, with experience in Clinical trial Programming over 3 years. I'm from Nepal and has an undergraduate degree in Computer Science and IT. I'mpassionate about solving real-world problems using data science and I'm proficient in Python, R, and SAS programming languages.
 
 I'm working on the nepalcensus package for R, which provides a comprehensive and up-to-date tool for accessing and exploring demographic, socio-economic, and geographic data collected during the most recent census conducted in Nepal. This package is designed to assist researchers, policymakers, and data analysts in understanding and utilizing census data effectively for various applications and insights. During this tenure, I will be working on improving the nepalcensus package with the help of rOpenSci mentors.
@@ -82,9 +84,13 @@ As someone involved in various R-related projects and initiatives, I'm excited a
 
 ## Sunny Tseng
 
+{{< figure src = "/img/team/sunny-tseng.jpg" width = "300" alt = "Profile photo of Sunny Tseng." caption = "<strong>Sunny Tseng - University of Northern British Columbia</strong>">}}
+
 Hi, this is Sunny, a PhD candidate living in Vancouver, Canada. Originally from Taiwan, I am a field sound recordist, an artist, and an avian researcher. Throughout my academic career, I have been fascinated by R, which I have applied to acoustic data analysis, spatial data analysis, and statistical modeling. In the rOpenSci champions program, I will develop 'bbsTrim', a package to streamline Taiwan BBS data retrieval and analysis. 'bbsTrim' will support data retrieval from GBIF, where Taiwan BBS data is stored. 'bbsTrim' will also include population trend modeling, using TRIM (Trends and Indices for Monitoring data). Users can tailor species analysis, controlling data stratification, preparation, and modeling. As an R package, 'bbsTrim' can easily be integrated into other R programming processes. The goal is to expand Taiwan BBS data access to the broader R-society in Taiwan.
 
 ## Mirna Vazquez Rosas Landa
+
+{{< figure src = "/img/team/mirna-vazquez.jpg" width = "300" alt = "Profile photo of Mirna Vazquez Rosas Landa." caption = "<strong>Mirna Vazquez Rosas Landa - UNAM, Instituto de Ciencias del Mar y Limnología</strong>">}}
 
 I am an Assistant Professor at the Marine Science and Limnology Institute at UNAM. My research focus on unraveling the mysteries of the ocean microbiome.
 
@@ -96,8 +102,12 @@ I am enthusiastic about the ongoing research endeavors at UNAM and look forward 
 
 ## Erika Siregar
 
+{{< figure src = "/img/team/erika-siregar.jpeg" width = "300" alt = "Profile photo of Erika Siregar." caption = "<strong>Erika Siregar - BPS-Statistics Indonesia</strong>">}}
+
 I am Erika Siregar, a data science enthusiast from Jakarta, Indonesia. With an academic background in Statistics and Computer Science, I actively contribute to data-driven insights at BPS-Statistics Indonesia and consult on R Shiny for the bioenergy project with GIZ Indonesia. As the co-founder of R-Ladies Jakarta, I've observed a strong interest in R among women and gender minorities, highlighting the crucial need for accessible resources. In the rOpenSci Champions Program, my project involves developing "rplaywright," an R package seamlessly bridging to Playwright, simplifying web testing and automation for R users. I eagerly anticipate gaining new skills, building connections, and making a meaningful impact in the vibrant rOpenSci community. With my PhD journey in Information Science at the University of Sheffield beginning this April, I envision utilizing my learning and experience in the rOpenSci Champions Program to fortify and advocate for open-source collaboration in my research pursuits.
 
 ## Jacqui Levy
+
+{{< figure src = "/img/team/jacqui-levy.png" width = "300" alt = "Profile photo of Jacqui Levy." caption = "<strong>Jacqui Levy - Environment and Climate Change Canada, rOpenSci</strong>">}}
 
 I am a data analyst with a background in environmental science, and I am a data enthusiast interested in all things to do with data and open source science. I am looking forward to learning about software development and being part of the welcoming community of champions and mentors with ROpenSci. 
