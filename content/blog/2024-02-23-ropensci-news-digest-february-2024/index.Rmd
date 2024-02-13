@@ -45,6 +45,9 @@ Now let's dive into the activity at and around rOpenSci!
 
 ### rOpenSci 2023 Code of Conduct Transparency Report
 
+
+Transparency reports are intended to help the community understand what kind of Code of Conduct incidents we receive reports about annually and how the Code of Conduct team responds, always preserving the privacy of the people who experience or report incidents.
+
 Read the [report](/blog/2024/01/12/transparency2023/).
 
 ### Coworking
