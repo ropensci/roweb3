@@ -34,11 +34,12 @@ In their applications Champions choose to develop a new package or to participat
 
 ### Developing new packages
 
--   **Haydee Svab**, from Brazil, developed a new package called [odbr](https://cran.r-project.org/web/packages/odbr/index.html) that allows accessing and processing data from the Brazilian origin and destination (od) surveys and implements many of the algorithms that Haydee developed for her master's thesis. The package was published in CRAN.
+The other type of project was to develop a new package.
 
--   **Bilikisu Wunmi Olatunji** from Nigeria, developed the new package [ChartkickR](https://github.com/BWOlatunji/chartkickR) is an htmlwidget that seamlessly integrates with the Chartkick JavaScript library. It provides R users with a straightforward interface to generate beautiful and interactive charts using R code. The package provides ten types of plots. [You can read more in Bilikisu's blog post](/blog/).
+-   **Haydee Svab**, from Brazil, developed a new package called [odbr](https://cran.r-project.org/web/packages/odbr/index.html) that allows accessing and processing data from the Brazilian origin and destination (od) surveys and implements many of the algorithms that Haydee developed for her master's thesis. She has the goal to publish the package on CRAN, and after several attemps, and with the support of her mentor, the package was [published](https://cran.r-project.org/web/packages/odbr/index.html. 
+-   **Bilikisu Wunmi Olatunji** from Nigeria, developed the new package [ChartkickR](https://github.com/BWOlatunji/chartkickR). The package is an htmlwidget that seamlessly integrates with the Chartkick JavaScript library. It provides R users with a straightforward interface to generate beautiful and interactive charts using R code. The package provides ten types of plots that you can accomplish with very few lines of code. [You can read more in Bilikisu's blog post](/blog/).
 
--   **Ghozayel Elotteebi** from Saudi Arabia, worked on a new package called [Lextale](https://ghozayel.github.io/Lextale/). To my knowledge, this is the first R package in the field of linguistics developed in Saudi Arabia and would be the first local contribution to rOpenSci.
+-   **Ghozayel Elotteebi** from Saudi Arabia, worked on a new package called [Lextale](https://ghozayel.github.io/Lextale/). To Ghozayel knowledge, this is the first R package in the field of linguistics developed in Saudi Arabia and would be the first local contribution to rOpenSci. She is working on fixing functionalities on the package to send to the review process. 
 
 
 ### Outreach Activities
@@ -65,6 +66,5 @@ Biblikisu with Chirstina
 
 The rOpenSci Champions Program is funded by [The Chan Zuckerberg Initiative](https://chanzuckerberg.com/). This phase of the Champions Program was made possible by the work and feedback of many people.
 
-We want to thank the [CSCCE](https://www.cscce.org/) team, especially *Lou Woodley*, *Camille Santistevan*, and *Maya Sanghvi*, for their support in designing the overall program and for their "Making a PACT" workshop for the Champions.
+We want to thank the [CSCCE](https://www.cscce.org/) team, especially *Lou Woodley*, *Camille Santistevan*, and *Maya Sanghvi*, for their support in designing the overall program.
 
-We also want to thank .
