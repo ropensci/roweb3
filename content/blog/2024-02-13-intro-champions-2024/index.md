@@ -20,7 +20,7 @@ tags:
 description: 
 ---
 
-The rOpenSci Champions Program start this 2024 with a new cohort of champions.  We are pleased to introduce you to our champions and their projects.
+The rOpenSci Champions Program starts this 2024 with a new cohort of Champions.  We are pleased to introduce you to our Champions and their projects!
 
 ## Ezekiel Adebayo Ogundepo
 
@@ -36,11 +36,11 @@ My aspiration to further my impact in the field has led me to apply for the rOpe
 
 {{< figure src = "/img/team/sehrish-kanwal.jpg" width = "300" alt = "Profile photo of Sehrish Kanwal." caption = "<strong>Sehrish Kanwal - The University of Mebourne</strong>">}}
 
-I am a bioinformatics scientist at the University of Melbourne Centre for Cancer Research (UMCCR). I graduated with a BS-honours degree in Bioinformatics from Pakistan and continued my career in Bioinformatics with a PhD from the School of Computing and Information Systems, the University of Melbourne, Australia. I am a highly experienced bioinformatician, specialised in the development of pipelines for the processing, mining, and integration of Next Generation Sequencing (NGS) data, with a particular focus on precision oncology. 
+I am a bioinformatics scientist at the University of Melbourne Centre for Cancer Research (UMCCR). I graduated with a BS-honours degree in Bioinformatics from Pakistan and continued my career in Bioinformatics with a PhD from the School of Computing and Information Systems, University of Melbourne, Australia. I am a highly experienced bioinformatician, and specialise in the development of pipelines for the processing, mining, and integration of Next Generation Sequencing (NGS) data, with a particular focus on precision oncology. 
 
 As a Champion, my goal is to submit a WIP R package to the rOpenSci Peer Review committee. This offers me a valuable chance to gather insights into optimal practices for R package development. Navigating the review process with the rOpenSci Peer Review committee not only streamlines the eventual submission to CRAN but also enriches my understanding of the review process.
 
-Through proactive engagement as an rOpenSci champion, I aim to enable collaboration and robust knowledge exchange, cultivate cross-institutional partnerships, whereby I can play a pivotal role in facilitating the exchange of expertise and resources, fostering mutual growth and advancement. 
+Through proactive engagement as an rOpenSci Champion, I aim to enable collaboration and robust knowledge exchange, and cultivate cross-institutional partnerships, whereby I can play a pivotal role in facilitating the exchange of expertise and resources, fostering mutual growth and advancement. 
 
 ## Andrea Gomez Vargas
 
@@ -50,17 +50,17 @@ I’m Andrea Gomez Vargas, I have a degree in Sociology. I'm from Colombia, but 
 
 I am an active member of the R community in Argentina and Latin America. I have been part of RLadies Buenos Aires and am currently part of the RLadies global team and the LatinR organizing committee.
 
-As a champion, my project is to generate a package that makes census data available, homogenized and ready to use. It would include the census data from 1970 to 2022. Having a package of census information will allow the public and private sectors, citizens and other actors in society to access current and historical information on Argentina's population, households and housing in a more accessible way.
+As a Champion, my project is to generate a package that makes census data available, homogenized and ready to use. It would include the census data from 1970 to 2022. Having a package of census information will allow the public and private sectors, citizens and other actors in society to access current and historical information on Argentina's population, households and housing in a more accessible way.
 
 Being part of the program is an opportunity to have the guidance of an expert community on the topic. I feel that learning about package development is the next step in my career using R and as part of its community. 
 
-I’m also looking forward to sharing experiences between Champions and learning from everyone during this process.
+I’m also looking forward to sharing experiences among the Champions and learning from everyone during this process.
 
 ## Liz Hare
 
 {{< figure src = "/img/team/liz-hare.jpg" width = "300" alt = "Profile photo of Liz Hare." caption = "<strong>Liz Hare - Dog Genetics LLC, ManyDogs Project, The Turing Way</strong>">}}
 
-I’m Liz Hare, PhD from New York, USA. I work on quantitative genetics and statistics for the working dog field, including research and evaluations for selective breeding. I serve as the Assistant Director for Data Management and Open Science at the ManyDogs Project, a consortium of researchers that aims to improve cognitive research by using larger data sets and open science practices. My project with the rOpenSci champions program is to improve my R code reviewing skills and apply them to ManyDogs and other open science projects. 
+I’m Liz Hare, PhD from New York, USA. I work on quantitative genetics and statistics for the working dog field, including research and evaluations for selective breeding. I serve as the Assistant Director for Data Management and Open Science at the ManyDogs Project, a consortium of researchers that aims to improve cognitive research by using larger data sets and open science practices. My project with the rOpenSci Champions Program is to improve my R code reviewing skills and apply them to ManyDogs and other open science projects. 
 
 I also work on inclusion and accessibility in the R and open science communities with The Turing Way, UseR!, and Forwards with the perspective of a screen reader user.  
 
@@ -70,13 +70,13 @@ As an rOpenSci Champion, I hope to learn and contribute to a new group of open s
 
 {{< figure src = "/img/team/francesca-palmeira.jpg" width = "300" alt = "Profile photo of Francesca Belem Lopes Palmeira." caption = "<strong>Francesca Belem Lopes Palmeira - RLadies Ribeirão Preto</strong>">}}
 
-My name is Francesca Belem Lopes Palmeira. I am a Brazilian Biologist, Doctor in Sciences - major in Forest Resources, interested in conservation conflicts, ecological modeling and data visualization. I plan to develop a package called 'Potential for Conflict Index - PCI', which is a descriptive statistical method used to enhance the understanding of outcomes in human dimensions research. The package will equip users with the tools required for calculating, comparing, and graphing the potential for conflict. The concepts of consensus and disagreement/conflict hold relevance across various fields, including economics, political science, psychology, sociology, and natural resources. It is worth noting that although PCI can currently be computed using software such as Excel, SPSS, and SAS, there is no dedicated R package available for conducting this specific analysis. I wish to participate in the Program with the goal of enhancing my technical skills in software development and acquiring best practices for package development. I am eager to collaborate on projects with fellow community members, recognizing that this will not only contribute to my growth as a practitioner but also strengthen the community as a whole.
+My name is Francesca Belem Lopes Palmeira. I am a Brazilian Biologist, Doctor in Sciences - major in Forest Resources, and am interested in conservation conflicts, ecological modeling and data visualization. I plan to develop a package called 'Potential for Conflict Index - PCI', which is a descriptive statistical method used to enhance the understanding of outcomes in human dimensions research. The package will equip users with the tools required for calculating, comparing, and graphing the potential for conflict. The concepts of consensus and disagreement/conflict hold relevance across various fields, including economics, political science, psychology, sociology, and natural resources. It is worth noting that although PCI can currently be computed using software such as Excel, SPSS, and SAS, there is no dedicated R package available for conducting this specific analysis. I wish to participate in the Program with the goal of enhancing my technical skills in software development and acquiring best practices for package development. I am eager to collaborate on projects with fellow community members, recognizing that this will not only contribute to my growth as a practitioner but also strengthen the community as a whole.
 
 ## Binod Jung Bogati
 
 {{< figure src = "/img/team/binod-bogati.jpeg" width = "300" alt = "Profile photo of Binod Jung Bogati." caption = "<strong>Binod Jung Bogati - R User Group Nepal, Numeric Mind</strong>">}}
 
-I'm a Data Science - Associate Manager at Numeric Mind, with experience in Clinical trial Programming over 3 years. I'm from Nepal and has an undergraduate degree in Computer Science and IT. I'mpassionate about solving real-world problems using data science and I'm proficient in Python, R, and SAS programming languages.
+I'm a Data Science - Associate Manager at Numeric Mind, with over 3 years experience in Clinical Trial Programming. I'm from Nepal and have an undergraduate degree in Computer Science and IT. I'm passionate about solving real-world problems using data science and I'm proficient in Python, R, and SAS programming languages.
 
 I'm working on the nepalcensus package for R, which provides a comprehensive and up-to-date tool for accessing and exploring demographic, socio-economic, and geographic data collected during the most recent census conducted in Nepal. This package is designed to assist researchers, policymakers, and data analysts in understanding and utilizing census data effectively for various applications and insights. During this tenure, I will be working on improving the nepalcensus package with the help of rOpenSci mentors.
 
@@ -86,7 +86,7 @@ As someone involved in various R-related projects and initiatives, I'm excited a
 
 {{< figure src = "/img/team/sunny-tseng.jpg" width = "300" alt = "Profile photo of Sunny Tseng." caption = "<strong>Sunny Tseng - University of Northern British Columbia</strong>">}}
 
-Hi, this is Sunny, a PhD candidate living in Vancouver, Canada. Originally from Taiwan, I am a field sound recordist, an artist, and an avian researcher. Throughout my academic career, I have been fascinated by R, which I have applied to acoustic data analysis, spatial data analysis, and statistical modeling. In the rOpenSci champions program, I will develop 'bbsTrim', a package to streamline Taiwan BBS data retrieval and analysis. 'bbsTrim' will support data retrieval from GBIF, where Taiwan BBS data is stored. 'bbsTrim' will also include population trend modeling, using TRIM (Trends and Indices for Monitoring data). Users can tailor species analysis, controlling data stratification, preparation, and modeling. As an R package, 'bbsTrim' can easily be integrated into other R programming processes. The goal is to expand Taiwan BBS data access to the broader R-society in Taiwan.
+Hi, this is Sunny, a PhD candidate living in Vancouver, Canada. Originally from Taiwan, I am a field sound recordist, an artist, and an avian researcher. Throughout my academic career, I have been fascinated by R, which I have applied to acoustic data analysis, spatial data analysis, and statistical modeling. In the rOpenSci Champions Program, I will develop 'bbsTrim', a package to streamline Taiwan BBS data retrieval and analysis. 'bbsTrim' will support data retrieval from GBIF, where Taiwan BBS data is stored. 'bbsTrim' will also include population trend modeling, using TRIM (Trends and Indices for Monitoring data). Users will be able to tailor species analysis, controlling data stratification, preparation, and modeling. As an R package, 'bbsTrim' will be easily integrated into other R programming processes. The goal is to expand access of Taiwan's BBS data to the broader R-society in Taiwan.
 
 ## Mirna Vazquez Rosas Landa
 
@@ -104,7 +104,6 @@ I am enthusiastic about the ongoing research endeavors at UNAM and look forward 
 
 {{< figure src = "/img/team/erika-siregar.jpeg" width = "300" alt = "Profile photo of Erika Siregar." caption = "<strong>Erika Siregar - BPS-Statistics Indonesia</strong>">}}
 
-Stay tuned for more updates on their progress!
 
 
 I am Erika Siregar, a data science enthusiast from Jakarta, Indonesia. With an academic background in Statistics and Computer Science, I actively contribute to data-driven insights at BPS-Statistics Indonesia and consult on R Shiny for the bioenergy project with GIZ Indonesia. As the co-founder of R-Ladies Jakarta, I've observed a strong interest in R among women and gender minorities, highlighting the crucial need for accessible resources. In the rOpenSci Champions Program, my project involves developing "rplaywright," an R package seamlessly bridging to Playwright, simplifying web testing and automation for R users. I eagerly anticipate gaining new skills, building connections, and making a meaningful impact in the vibrant rOpenSci community. With my PhD journey in Information Science at the University of Sheffield beginning this April, I envision utilizing my learning and experience in the rOpenSci Champions Program to fortify and advocate for open-source collaboration in my research pursuits.
@@ -113,4 +112,4 @@ I am Erika Siregar, a data science enthusiast from Jakarta, Indonesia. With an a
 
 {{< figure src = "/img/team/jacqui-levy.png" width = "300" alt = "Profile photo of Jacqui Levy." caption = "<strong>Jacqui Levy - Environment and Climate Change Canada, rOpenSci</strong>">}}
 
-I am a data analyst with a background in environmental science, and I am a data enthusiast interested in all things to do with data and open source science. I am looking forward to learning about software development and being part of the welcoming community of champions and mentors with ROpenSci. 
+I am a data analyst with a background in environmental science, and I am a data enthusiast interested in all things to do with data and open source science. I am looking forward to learning about software development and being part of the welcoming community of Champions and mentors with rOpenSci. 
