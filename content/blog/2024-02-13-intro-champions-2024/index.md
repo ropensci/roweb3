@@ -7,7 +7,7 @@ author:
 - Liz Hare
 - Francesca Belem Lopes Palmeira
 - Binod Jung Bogati
-- Sunny Tseng
+- Yi-Chin Sunny Tseng"
 - Mirna Vazquez Rosas Landa
 - Erika Siregar
 - Jacqui Levy
@@ -18,6 +18,7 @@ tags:
 - community
 - champions program
 description: 
+The rOpenSci Champions Program starts this 2024 with a new cohort of Champions.  We are pleased to introduce you to our Champions and their projects!
 ---
 
 The rOpenSci Champions Program starts this 2024 with a new cohort of Champions.  We are pleased to introduce you to our Champions and their projects!
