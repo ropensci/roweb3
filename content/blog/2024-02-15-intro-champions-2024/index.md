@@ -113,4 +113,4 @@ I am Erika Siregar, a data science enthusiast from Jakarta, Indonesia. With an a
 
 {{< figure src = "/img/team/jacqui-levy.png" width = "300" alt = "Profile photo of Jacqui Levy." caption = "<strong>Jacqui Levy - Environment and Climate Change Canada, rOpenSci</strong>">}}
 
-I am a data analyst with a background in environmental science, and I am a data enthusiast interested in all things to do with data and open source science. I am looking forward to learning about software development and being part of the welcoming community of Champions and mentors with rOpenSci. 
+I am a data analyst with a background in environmental science and a data enthusiast interested in all things to do with data and open-source science. I have worked developing tools to standardize datasets and reporting information related to climate change using R. I am looking forward to learning about software development and being part of the welcoming community of Champions and mentors with rOpenSci. 
