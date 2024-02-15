@@ -119,7 +119,7 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 
 
-* [Please Shut Up! Verbosity Control in Packages](/blog/2024/02/06/verbosity-control-packages) by Mark Padgham and Maëlle Salmon.
+* [Please Shut Up! Verbosity Control in Packages](/blog/2024/02/06/verbosity-control-packages) by Mark Padgham and Maëlle Salmon. This post was discussed on the [R Weekly highlights podcast](https://podcastindex.org/podcast/1062040) hosted by Eric Nantz and Mike Thomas.
 
 ## Call for maintainers
 

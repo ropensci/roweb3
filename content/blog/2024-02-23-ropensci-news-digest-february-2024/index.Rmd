@@ -508,10 +508,10 @@ format_post <- function(dir) {
     }
   } else {
     string <- paste0(string, ".")
-    if (post$title == "How to Update a Translation with Babeldown") {
+    if (post$title == "Please Shut Up! Verbosity Control in Packages") {
       string <- paste0(
       string,
-      " This post was discussed on the [R Weekly highlights podcast](https://rweekly.fireside.fm/149) hosted by Eric Nantz and Mike Thomas.")
+      " This post was discussed on the [R Weekly highlights podcast](https://podcastindex.org/podcast/1062040) hosted by Eric Nantz and Mike Thomas.")
   }  
   }
   if (post$title == "Scanning QR codes in R") {
