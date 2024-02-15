@@ -12,7 +12,7 @@ author:
 - Erika Siregar
 - Jacqui Levy
 - Yanina Bellini Saibene
-date: '2024-02-13'
+date: '2024-02-15'
 slug: champions-program-champions-2024
 tags:
 - community
