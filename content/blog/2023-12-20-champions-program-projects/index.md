@@ -48,9 +48,16 @@ Our champions carried out a wide range of activities: talks, conference papers, 
 
 ## Talks and papers
 
+The first outreach activity was performed by Cesar who presented his package rgeeExtra on BoookDS event.  All the Latin American participant of the champions program wrote a proposal for LatinR 2023 and Haydee present it in a talk.
+
+
+
+
 ## Events
 
 ## Workshops
+
+
 
 Biblikisu with Chirstina
 
