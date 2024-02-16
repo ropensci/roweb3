@@ -2,7 +2,7 @@
 title: Spread the word about your package
 author:
 - Yanina Bellini Saibene
-- Maelle Salmon
+- Maëlle Salmon
 date: '2024-02-23'
 slug: package-marketing
 tags:
