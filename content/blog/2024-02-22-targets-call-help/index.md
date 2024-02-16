@@ -32,7 +32,7 @@ This would help lighten the maintenance load of those packages, and you’d get 
 ## How to help?
 
 TODO: Should we indicate a way to get more triage access?
-Subscribe to the relevant trackers and contribute whenever you have time.
+[Subscribe](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications#configuring-your-watch-settings-for-an-individual-repository) to the relevant trackers and contribute whenever you have time.
 You can start answering questions right away!
 
 ## Thank you!
