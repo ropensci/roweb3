@@ -11,7 +11,7 @@ tags:
   - tech notes
 ---
 
-rOpenSci second cohort of champions was onboarded!
+rOpenSci [second cohort of champions was onboarded](/blog/2024/02/15/champions-program-champions-2024/)!
 Their training started with a session on code style, that we will summarize in this post.
 Knowing more about code quality is relevant to all champion projects, be it creating a new package, submitting a package to software review, or reviewing a package.
 This training session consisted of a talk and the associated discussion, whereas the next package development training sessions will be more hands-on. 
