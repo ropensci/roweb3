@@ -7,7 +7,7 @@ author:
 - Liz Hare
 - Francesca Belem Lopes Palmeira
 - Binod Jung Bogati
-- Yi-Chin Sunny Tseng"
+- Yi-Chin Sunny Tseng
 - Mirna Vazquez Rosas Landa
 - Erika Siregar
 - Jacqui Levy
