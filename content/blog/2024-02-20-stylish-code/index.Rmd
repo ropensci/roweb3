@@ -103,6 +103,8 @@ create_content <- function(website) {
 }
 ```
 
+In their book [Learn AI-Assisted Python Programming](https://www.manning.com/books/learn-ai-assisted-python-programming), Leo Porter and Daniel Zingaro share the attributes of good functions: One clear task to perform, clearly defined behavior, short in number of line of code, clear input and output, general value over specific use.
+
 It is important to know how to quickly navigate between functions in your IDE!
 In RStudio IDE, you can use Ctrl+click on the function name, or type its name in the search bar.
 
