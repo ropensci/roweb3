@@ -157,6 +157,8 @@ We shared these ideas:
 
 - Felienne Hermans, in her book [The Programmer's Brain](https://www.manning.com/books/the-programmers-brain), advises choosing the concepts that go into the name, the words to say it, then putting them together. This approach in three steps is a good way to get unstuck.
 
+- Following the previews advice, names should be consistent across code base and _name molds_ are a very good tool for that. This molds are patterns in which the elements of a name are combined, for example if you will calculate the maximum value of crop yield, you need to agree if _maximun_ will be _max_ or _maximun_ and if will be at the beggining or at the end of the variable name: should be _maxYield_ or _yieldMax_?  By normalizing how to name things, our code will be more easy to read.     
+
 - “The greater the distance between a name’s declaration and its uses, the longer the name should be” (Andrew Gerrand). However, no matter, how close to defining a variable you use it, don't use a smart very short abbreviation.
 
 - A name is clear if the person reviewing your code agrees. 😉
