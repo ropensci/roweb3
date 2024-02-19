@@ -12,15 +12,21 @@ description: ""
 ---
 
 
+Now that you have created your package, presenting it to the world is a crucial step to gain visibility and attract users.  In this blog post we suggest a series of activities and tools to let the people your package can help know that it is available. 
 
+## Publish
 
+Create a comprehensive README that clearly explains what your package does, how to install it, how can user start using it. Include examples or use cases and any relevant information (or links to) that can help users understand how your package can help them. 
 
+Create a universe on R-universe, which will help you by simplifying the installation of your package and provide with useful stats and information about it.  You can also publish it on CRAN or submit it to our peer review process. All this steps will support you with discoverability and also to comply with quality standars.  
+
+## Promote 
 
 For example, things maintainers can do:
 host a co-working session on the topic of the package (with us).
 Propose a comm call
-Speak at a RUG or R-Ladies event.
-Let know about their package in Rweekly
+Speak at a RUG or R-Ladies event, or a field specific conference.
+Let know about their package in Rweekly (regarding this, I think we should say it's better to write a post as the list of new packages in R Weekly can be long
 
 
 ## rOpenSci support
