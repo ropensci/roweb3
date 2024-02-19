@@ -5,7 +5,7 @@ author:
 - Joseph O'Brien
 - Maëlle Salmon
 date: '2024-02-19'
-slug: waywiser-call-help
+slug: qualtrics-call-help
 preface: |
   One of the best things about open software is that it can be a community project with contributions from people other than just the maintainer.
   Sometimes those contributions are opportunistic, and sometimes maintainers solicit specific contributions, and that’s the case here!
