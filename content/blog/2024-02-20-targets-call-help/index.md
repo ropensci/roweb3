@@ -3,7 +3,7 @@ title: Help users and developers of targets by answering questions!
 author: 
 - Will Landau
 - Maëlle Salmon
-date: '2024-02-22'
+date: '2024-02-20'
 slug: targets-call-help
 preface: |
   One of the best things about open software is that it can be a community project with contributions from people other than just the maintainer.
@@ -21,12 +21,13 @@ Are you a routined user of the targets package and of more [targetopia](https://
 How about helping answer users questions on the GitHub discussion and issue forums for these packages? 
 This would help lighten the maintenance load of those packages, and you’d get to help other users directly.
 
-- [targets issue tracker](https://github.com/ropensci/targets/issues);
-- [targets discussion board](https://github.com/ropensci/targets/discussions);
-- [tarchetypes issue tracker](https://github.com/ropensci/tarchetypes/issues);
-- [stantargets issue tracker](https://github.com/ropensci/stantargets/issues);
-- [gittargets issue tracker](https://github.com/ropensci/gittargets/issues);
-- [jagstargets issue tracker](https://github.com/ropensci/jagstargets/issues). 
+Package | Issue tracker | Discussion forum
+---|---|---
+[`targets`](https://docs.ropensci.org/targets) | [targets/issues](https://github.com/ropensci/targets/issues) | [targets/discussions](https://github.com/ropensci/targets/discussions)
+[`tarchetypes`](https://docs.ropensci.org/tarchetypes) | [tarchetypes/issues](https://github.com/ropensci/tarchetypes/issues) | [tarchetypes/discussions](https://github.com/ropensci/tarchetypes/discussions)
+[`gittargets`](https://docs.ropensci.org/gittargets) | [gittargets/issues](https://github.com/ropensci/gittargets/issues) | [gittargets/discussions](https://github.com/ropensci/gittargets/discussions)
+[`stantargets`](https://docs.ropensci.org/stantargets) | [stantargets/issues](https://github.com/ropensci/stantargets/issues) | [stantargets/discussions](https://github.com/ropensci/stantargets/discussions)
+[`jagstargets`](https://docs.ropensci.org/jagstargets) | [jagstargets/issues](https://github.com/ropensci/jagstargets/issues) | [jagstargets/discussions](https://github.com/ropensci/jagstargets/discussions)
 
 
 ## How to help?
