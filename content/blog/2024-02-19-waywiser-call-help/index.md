@@ -3,7 +3,7 @@ title: Help make waywiser better! User requests wanted
 author: 
 - Mike Mahoney
 - Maëlle Salmon
-date: '2024-02-22'
+date: '2024-02-19'
 slug: waywiser-call-help
 preface: |
   One of the best things about open software is that it can be a community project with contributions from people other than just the maintainer.
