@@ -1,5 +1,5 @@
 ---
-title: Help make waywiser better! User requests wanted
+title: Help make qualtRics better! Users/testers wanted
 author: 
 - Julia Silge
 - Joseph O'Brien
