@@ -590,7 +590,9 @@ if (length(tech_notes) > 0) {
 }
 ```
 
-## Call for maintainers
+## Calls for contributions
+
+### Calls for maintainers
 
 If you're interested in maintaining any of the R packages below, you might enjoy reading our blog post [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/).
 
@@ -604,13 +606,11 @@ If you're interested in maintaining any of the R packages below, you might enjoy
 
 [USAboundaries](https://docs.ropensci.org/USAboundaries/) (and USAboundariesdata), historical and contemporary boundaries of the United States of America . [Issue for volunteering](https://github.com/ropensci/USAboundaries/issues/50).
 
-[gendercoder](https://docs.ropensci.org/gendercoder/), Provides functions and dictionaries for recoding of freetext gender responses into more consistent categories. [Issue for volunteering](https://github.com/ropensci/gendercoder/issues/56).
+### Calls for contributions
 
-[sofa](https://docs.ropensci.org/sofa/), Provides an interface to the NoSQL database [CouchDB](https://couchdb.apache.org). [Issue for volunteering](https://github.com/ropensci/sofa/issues/82)
+[Help make waywiser better! User requests wanted](/blog/2024/02/19/waywiser-call-help/)
 
-### Call for co-maintainers
-
-Refer to our [help wanted page](/help-wanted/) -- before opening a PR, we recommend asking in the issue whether help is still needed.
+Also refer to our [help wanted page](/help-wanted/) -- before opening a PR, we recommend asking in the issue whether help is still needed.
 
 ## Package development corner
 

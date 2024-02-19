@@ -60,11 +60,11 @@ And remember, you can always cowork independently on work related to R, work on 
 
 
 
-The following  package recently became a part of our software suite, or were recently reviewed again:
+The following two packages recently became a part of our software suite, or were recently reviewed again:
+
++ [fluidsynth](https://docs.ropensci.org/fluidsynth), developed by Jeroen Ooms: Bindings to libfluidsynth to parse and synthesize midi files. 
 
 + [rvertnet](https://docs.ropensci.org/rvertnet), developed by Dave Slager together with Scott Chamberlain: Retrieve, map and summarize data from the VertNet.org archives (<https://vertnet.org/>). Functions allow searching by many parameters, including taxonomic names, places, and dates. In addition, there is an interface for conducting spatially delimited searches, and another for requesting large datasets via email.  It is available on [CRAN]( https://CRAN.R-project.org/package=rvertnet). 
-
-+ [comtradr](https://docs.ropensci.org/comtradr), developed by Paul Bochtler together with Harriet Goers and Chris Muir: Interface with and extract data from the United Nations Comtrade API <https://comtradeplus.un.org/>. Comtrade provides country level shipping data for a variety of commodities, these functions allow for easy API query and data returned as a tidy data frame.  It is available on [CRAN]( https://CRAN.R-project.org/package=comtradr). It has been [reviewed](https://github.com/ropensci/software-review/issues/613) by Alicia Schep, Rafael Hellwig, Ernest Guevarra, and Nicholas Potter.
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
@@ -72,9 +72,9 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following fifteen packages have had an update since the last newsletter: [commonmark](https://docs.ropensci.org/commonmark "High Performance CommonMark and Github Markdown Rendering in R") ([`v1.9.1`](https://github.com/r-lib/commonmark/releases/tag/v1.9.1)), [baRcodeR](https://docs.ropensci.org/baRcodeR "Label Creation for Tracking and Collecting Data from
-    Biological Samples") ([`v0.1.8`](https://github.com/ropensci/baRcodeR/releases/tag/v0.1.8)), [comtradr](https://docs.ropensci.org/comtradr "Interface with the United Nations Comtrade API") ([`v0.4.0.0`](https://github.com/ropensci/comtradr/releases/tag/v0.4.0.0)), [GSODR](https://docs.ropensci.org/GSODR "Global Surface Summary of the Day (GSOD) Weather Data Client") ([`v3.1.10`](https://github.com/ropensci/GSODR/releases/tag/v3.1.10)), [lingtypology](https://docs.ropensci.org/lingtypology "Linguistic Typology and Mapping") ([`v1.1.16`](https://github.com/ropensci/lingtypology/releases/tag/v1.1.16)), [nasapower](https://docs.ropensci.org/nasapower "NASA POWER API Client") ([`v4.2.0`](https://github.com/ropensci/nasapower/releases/tag/v4.2.0)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.10.1`](https://github.com/ropensci/nodbi/releases/tag/v0.10.1)), [rangr](https://docs.ropensci.org/rangr "Mechanistic Simulation of Species Range Dynamics") ([`v1.0.3`](https://github.com/ropensci/rangr/releases/tag/v1.0.3)), [readODS](https://docs.ropensci.org/readODS "Read and Write ODS Files") ([`v2.2.0`](https://github.com/ropensci/readODS/releases/tag/v2.2.0)), [rnaturalearthdata](https://docs.ropensci.org/rnaturalearthdata "World Vector Map Data from Natural Earth Used in rnaturalearth") ([`v1.0.0`](https://github.com/ropensci/rnaturalearthdata/releases/tag/v1.0.0)), [rnaturalearthhires](https://docs.ropensci.org/rnaturalearthhires "High Resolution World Vector Map Data from Natural Earth used in
-    rnaturalearth") ([`v1.0.0`](https://github.com/ropensci/rnaturalearthhires/releases/tag/v1.0.0)), [rvertnet](https://docs.ropensci.org/rvertnet "Search Vertnet, a Database of Vertebrate Specimen Records") ([`v0.8.2`](https://github.com/ropensci/rvertnet/releases/tag/v0.8.2)), [stats19](https://docs.ropensci.org/stats19 "Work with Open Road Traffic Casualty Data from Great Britain") ([`v3.0.3`](https://github.com/ropensci/stats19/releases/tag/v3.0.3)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.7.12`](https://github.com/ropensci/tarchetypes/releases/tag/0.7.12)), and [unifir](https://docs.ropensci.org/unifir "A Unifying API for Calling the Unity 3D Video Game Engine") ([`v0.2.4`](https://github.com/ropensci/unifir/releases/tag/v0.2.4)).
+The following nineteen packages have had an update since the last newsletter: [commonmark](https://docs.ropensci.org/commonmark "High Performance CommonMark and Github Markdown Rendering in R") ([`v1.9.1`](https://github.com/r-lib/commonmark/releases/tag/v1.9.1)), [baRcodeR](https://docs.ropensci.org/baRcodeR "Label Creation for Tracking and Collecting Data from
+    Biological Samples") ([`v0.1.8`](https://github.com/ropensci/baRcodeR/releases/tag/v0.1.8)), [comtradr](https://docs.ropensci.org/comtradr "Interface with the United Nations Comtrade API") ([`v0.4.0.0`](https://github.com/ropensci/comtradr/releases/tag/v0.4.0.0)), [dbparser](https://docs.ropensci.org/dbparser "Drugs Databases Parser") ([`v2.0.2`](https://github.com/ropensci/dbparser/releases/tag/v2.0.2)), [fluidsynth](https://docs.ropensci.org/fluidsynth "Read and Play Digital Music (MIDI) in R") ([`generaluser-gs-v1.471`](https://github.com/ropensci/fluidsynth/releases/tag/generaluser-gs-v1.471)), [GSODR](https://docs.ropensci.org/GSODR "Global Surface Summary of the Day (GSOD) Weather Data Client") ([`v3.1.10`](https://github.com/ropensci/GSODR/releases/tag/v3.1.10)), [lingtypology](https://docs.ropensci.org/lingtypology "Linguistic Typology and Mapping") ([`v1.1.16`](https://github.com/ropensci/lingtypology/releases/tag/v1.1.16)), [melt](https://docs.ropensci.org/melt "Multiple Empirical Likelihood Tests") ([`v1.11.0`](https://github.com/ropensci/melt/releases/tag/v1.11.0)), [nasapower](https://docs.ropensci.org/nasapower "NASA POWER API Client") ([`v4.2.0`](https://github.com/ropensci/nasapower/releases/tag/v4.2.0)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.10.1`](https://github.com/ropensci/nodbi/releases/tag/v0.10.1)), [rangr](https://docs.ropensci.org/rangr "Mechanistic Simulation of Species Range Dynamics") ([`v1.0.3`](https://github.com/ropensci/rangr/releases/tag/v1.0.3)), [readODS](https://docs.ropensci.org/readODS "Read and Write ODS Files") ([`v2.2.0`](https://github.com/ropensci/readODS/releases/tag/v2.2.0)), [rnaturalearthdata](https://docs.ropensci.org/rnaturalearthdata "World Vector Map Data from Natural Earth Used in rnaturalearth") ([`v1.0.0`](https://github.com/ropensci/rnaturalearthdata/releases/tag/v1.0.0)), [rnaturalearthhires](https://docs.ropensci.org/rnaturalearthhires "High Resolution World Vector Map Data from Natural Earth used in
+    rnaturalearth") ([`v1.0.0`](https://github.com/ropensci/rnaturalearthhires/releases/tag/v1.0.0)), [rvertnet](https://docs.ropensci.org/rvertnet "Search Vertnet, a Database of Vertebrate Specimen Records") ([`v0.8.4`](https://github.com/ropensci/rvertnet/releases/tag/v0.8.4)), [stats19](https://docs.ropensci.org/stats19 "Work with Open Road Traffic Casualty Data from Great Britain") ([`v3.0.3`](https://github.com/ropensci/stats19/releases/tag/v3.0.3)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.7.12`](https://github.com/ropensci/tarchetypes/releases/tag/0.7.12)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.5.1`](https://github.com/ropensci/targets/releases/tag/1.5.1)), and [unifir](https://docs.ropensci.org/unifir "A Unifying API for Calling the Unity 3D Video Game Engine") ([`v0.2.4`](https://github.com/ropensci/unifir/releases/tag/v0.2.4)).
 
 ## Software Peer Review
 
@@ -100,19 +100,19 @@ There are fourteen recently closed and active submissions and 4 submissions on h
 
     * [agromet](https://github.com/ropensci/software-review/issues/599), Índices y Estadísticos Climáticos e Hidrológicos. Submitted by [Paola Corrales](https://paocorrales.github.io). 
 
-* Three at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
+* Four at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 
-     * [pangoling](https://github.com/ropensci/software-review/issues/575), Access to Large Language Model Predictions. Submitted by [Bruno Nicenboim](https://bnicenboim.github.io/). 
+     * [nuts](https://github.com/ropensci/software-review/issues/623), nuts: Convert European Regional Data. Submitted by [Moritz Hennicke](https://hennicke.science/). 
+
+    * [pangoling](https://github.com/ropensci/software-review/issues/575), Access to Large Language Model Predictions. Submitted by [Bruno Nicenboim](https://bnicenboim.github.io/). 
 
     * [dfms](https://github.com/ropensci/software-review/issues/556), Dynamic Factor Models. Submitted by [Sebastian Krantz](https://github.com/SebKrantz). 
 
     * [fwildclusterboot](https://github.com/ropensci/software-review/issues/546), Fast Wild Cluster Bootstrap Inference for Linear Models. Submitted by [Alexander Fischer](https://s3alfisc.github.io/blog/).  (Stats).
 
-* Four at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
+* Three at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
      * [rix](https://github.com/ropensci/software-review/issues/625), Rix: Reproducible Environments with Nix. Submitted by [Bruno Rodrigues](https://brodrigues.co). 
-
-    * [nuts](https://github.com/ropensci/software-review/issues/623), nuts: Convert European Regional Data. Submitted by [Moritz Hennicke](https://hennicke.science/). 
 
     * [karel](https://github.com/ropensci/software-review/issues/620), Learning programming with Karel the robot. Submitted by [Marcos Prunello](https://unr.edu.ar/). 
 
@@ -128,7 +128,9 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 * [Please Shut Up! Verbosity Control in Packages](/blog/2024/02/06/verbosity-control-packages) by Mark Padgham and Maëlle Salmon. This post was discussed on the [R Weekly highlights podcast](https://podcastindex.org/podcast/1062040) hosted by Eric Nantz and Mike Thomas.
 
-## Call for maintainers
+## Calls for contributions
+
+### Calls for maintainers
 
 If you're interested in maintaining any of the R packages below, you might enjoy reading our blog post [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/).
 
@@ -142,13 +144,11 @@ If you're interested in maintaining any of the R packages below, you might enjoy
 
 [USAboundaries](https://docs.ropensci.org/USAboundaries/) (and USAboundariesdata), historical and contemporary boundaries of the United States of America . [Issue for volunteering](https://github.com/ropensci/USAboundaries/issues/50).
 
-[gendercoder](https://docs.ropensci.org/gendercoder/), Provides functions and dictionaries for recoding of freetext gender responses into more consistent categories. [Issue for volunteering](https://github.com/ropensci/gendercoder/issues/56).
+### Calls for contributions
 
-[sofa](https://docs.ropensci.org/sofa/), Provides an interface to the NoSQL database [CouchDB](https://couchdb.apache.org). [Issue for volunteering](https://github.com/ropensci/sofa/issues/82)
+[Help make waywiser better! User requests wanted](/blog/2024/02/19/waywiser-call-help/)
 
-### Call for co-maintainers
-
-Refer to our [help wanted page](/help-wanted/) -- before opening a PR, we recommend asking in the issue whether help is still needed.
+Also refer to our [help wanted page](/help-wanted/) -- before opening a PR, we recommend asking in the issue whether help is still needed.
 
 ## Package development corner
 
