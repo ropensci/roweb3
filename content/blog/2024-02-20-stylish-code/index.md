@@ -103,6 +103,8 @@ create_content <- function(website) {
 }
 ```
 
+In their book [Learn AI-Assisted Python Programming](https://www.manning.com/books/learn-ai-assisted-python-programming), Leo Porter and Daniel Zingaro share the attributes of good functions: One clear task to perform, clearly defined behavior, short in number of lines of code, clear input and output, general value over specific use.
+
 It is important to know how to quickly navigate between functions in your IDE!
 In RStudio IDE, you can use Ctrl+click on the function name, or type its name in the search bar.
 
@@ -157,7 +159,11 @@ We shared these ideas:
 
 - Felienne Hermans, in her book [The Programmer's Brain](https://www.manning.com/books/the-programmers-brain), advises choosing the concepts that go into the name, the words to say it, then putting them together. This approach in three steps is a good way to get unstuck.
 
+- Following the previous advice, names should be consistent across code base and _name molds_ are a very good tool for that. Name molds are patterns in which the elements of a name are combined, for example if you calculate the maximum value of crop yield, you need to agree if `maximun` will be `max` or `maximun` and if the word will be at the beginning or at the end of the variable name: should be `maxYield` or `yieldMax`?  By normalizing how to name things, our code will be more easy to read.     
+
 - “The greater the distance between a name’s declaration and its uses, the longer the name should be” (Andrew Gerrand). However, no matter, how close to defining a variable you use it, don't use a smart very short abbreviation.
+
+- There are several way to write variables names, camelCase style lead to higher accuracy when reading code (Dave Binkley, 2009) and is better for reading the code with screen readers.  
 
 - A name is clear if the person reviewing your code agrees. 😉
 
