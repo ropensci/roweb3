@@ -24,10 +24,14 @@ Create a comprehensive README that clearly explains what your package does, how 
 
 As a author or maintainer, here are some ideas you can implement:
 
-Leverage platforms like Mastodon, LinkedIn, and R-specific forums such as [R-bloggers](https://www.r-bloggers.com) and [R Weekly](https://rweekly.org) to announce the release of your package. You can also share updates, tutorials, use cases, talks and events where you will participate to engage with users. 
+Leverage platforms like Mastodon, LinkedIn, and R-specific forums such as [R-bloggers](https://www.r-bloggers.com) and [R Weekly](https://rweekly.org) to announce the release of your package. 
 
 > If you package is part of the rOpenSci Suite you can [write a blog post or a tech note](https://blogguide.ropensci.org/) for our blog and we will share in our [monthly newsletter](/news/) and our social media.
 
+You can also share updates, tutorials, use cases, talks and events where you will participate to engage with users. 
+
+
+> For rOpenSci packages, we collect the use cases and feature them on the website as well as the package. We also have social media campaing, for example "A Package a Day" on Mastodon were we feature one package of our suite each day. For LinkedIn we publish every Monday our "Package Weekly Digest" with a list of five package that belong to the same category.
 
 If you like to give talks, you can speak at an R User Group or R-Ladies Chapter. Present your package on a field specific conference is another way to reach your users.  There are R specific conferences like useR!, LatinR and Posit::Conf. 
 
@@ -36,11 +40,3 @@ If you like to give talks, you can speak at an R User Group or R-Ladies Chapter.
 
 > You can also propose an [rOpenSci Community Call](/commcalls/) relate with your package. For example, this community call about [targets](/commcalls/jan2023-targets/) has a panel with two users showing how they use the package and the principal author sharing new insights about the package.
 
-
-## rOpenSci support
-
-We have our blog, and they can write about the package for our blog post.  Then we will share that on social media and our newsletter and our forum.
-
-We have a package a day a package weekly digest on social media.
-
-We collect the use cases and feature them on the website as well as the package.
