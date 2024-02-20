@@ -13,7 +13,7 @@ tags:
 
 A few weeks ago, prof [Matt Crump](https://www.crumplab.com/people/matt_crump.html) wrote a [blog post](https://homophony.quest/blog/32_1_30_24_R_synth/) in which he explores tools to handle MIDI data in R, in preparation for a cognition experiment that involves creating musical stimuli. In the article he ends up using a mix of external command line tools `ffmpeg` and `fluidsynth` and a python module.
 
-This solution of course hurts my R soul: Invoking shell commands from R [is unreliable](http://localhost:1313/blog/2021/09/13/system-calls-r-package/#downsides-of-system-commands) and users are often unable (or unwilling) to install all kinds of extra software on their machine. Some tools may not even be available for all platforms, or create conflicts, or the user might not have permission to install software in the first place. So let's see what we can do to improve the situation.
+This solution of course hurts my R soul: Invoking shell commands from R [is unreliable](/blog/2021/09/13/system-calls-r-package/#downsides-of-system-commands) and users are often unable (or unwilling) to install all kinds of extra software on their machine. Some tools may not even be available for all platforms, or create conflicts, or the user might not have permission to install software in the first place. So let's see what we can do to improve the situation.
 
 
 ## The 'fluidsynth' R package
