@@ -24,9 +24,9 @@ Create a comprehensive README that clearly explains what your package does, how 
 
 As a author or maintainer, here are some ideas you can implement:
 
-* Social Media: leverage platforms like Mastodon, LinkedIn, and R-specific forums such as [R-bloggers]() and [R Weekly]() to announce the release of your package. You can also share updates, tutorials, use cases, talks and events where you will participate to engage with users. 
+* Social Media: leverage platforms like Mastodon, LinkedIn, and R-specific forums such as [R-bloggers](https://www.r-bloggers.com) and [R Weekly](https://rweekly.org) to announce the release of your package. You can also share updates, tutorials, use cases, talks and events where you will participate to engage with users. 
 
-> If you package is part of the rOpenSci Suite you can [write a blog post or a tech note] for our blog and we will share in our [monthly newsletter]().
+> If you package is part of the rOpenSci Suite you can [write a blog post or a tech note](https://blogguide.ropensci.org/) for our blog and we will share in our [monthly newsletter](https://ropensci.org/news/).
 
 
 For example, things maintainers can do:
