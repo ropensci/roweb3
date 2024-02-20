@@ -60,11 +60,9 @@ And remember, you can always cowork independently on work related to R, work on 
 
 
 
-The following two packages recently became a part of our software suite, or were recently reviewed again:
+The following  package recently became a part of our software suite, or were recently reviewed again:
 
-+ [fluidsynth](https://docs.ropensci.org/fluidsynth), developed by Jeroen Ooms: Bindings to libfluidsynth to parse and synthesize midi files. 
-
-+ [rvertnet](https://docs.ropensci.org/rvertnet), developed by Dave Slager together with Scott Chamberlain: Retrieve, map and summarize data from the VertNet.org archives (<https://vertnet.org/>). Functions allow searching by many parameters, including taxonomic names, places, and dates. In addition, there is an interface for conducting spatially delimited searches, and another for requesting large datasets via email.  It is available on [CRAN]( https://CRAN.R-project.org/package=rvertnet). 
++ [fluidsynth](https://docs.ropensci.org/fluidsynth), developed by Jeroen Ooms: Bindings to libfluidsynth to parse and synthesize MIDI files. It can read MIDI into a data frame, play it on the local audio device, or convert into an audio file. 
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
@@ -73,12 +71,12 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 The following nineteen packages have had an update since the last newsletter: [commonmark](https://docs.ropensci.org/commonmark "High Performance CommonMark and Github Markdown Rendering in R") ([`v1.9.1`](https://github.com/r-lib/commonmark/releases/tag/v1.9.1)), [baRcodeR](https://docs.ropensci.org/baRcodeR "Label Creation for Tracking and Collecting Data from
-    Biological Samples") ([`v0.1.8`](https://github.com/ropensci/baRcodeR/releases/tag/v0.1.8)), [comtradr](https://docs.ropensci.org/comtradr "Interface with the United Nations Comtrade API") ([`v0.4.0.0`](https://github.com/ropensci/comtradr/releases/tag/v0.4.0.0)), [dbparser](https://docs.ropensci.org/dbparser "Drugs Databases Parser") ([`v2.0.2`](https://github.com/ropensci/dbparser/releases/tag/v2.0.2)), [fluidsynth](https://docs.ropensci.org/fluidsynth "Read and Play Digital Music (MIDI) in R") ([`generaluser-gs-v1.471`](https://github.com/ropensci/fluidsynth/releases/tag/generaluser-gs-v1.471)), [GSODR](https://docs.ropensci.org/GSODR "Global Surface Summary of the Day (GSOD) Weather Data Client") ([`v3.1.10`](https://github.com/ropensci/GSODR/releases/tag/v3.1.10)), [lingtypology](https://docs.ropensci.org/lingtypology "Linguistic Typology and Mapping") ([`v1.1.16`](https://github.com/ropensci/lingtypology/releases/tag/v1.1.16)), [melt](https://docs.ropensci.org/melt "Multiple Empirical Likelihood Tests") ([`v1.11.0`](https://github.com/ropensci/melt/releases/tag/v1.11.0)), [nasapower](https://docs.ropensci.org/nasapower "NASA POWER API Client") ([`v4.2.0`](https://github.com/ropensci/nasapower/releases/tag/v4.2.0)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.10.1`](https://github.com/ropensci/nodbi/releases/tag/v0.10.1)), [rangr](https://docs.ropensci.org/rangr "Mechanistic Simulation of Species Range Dynamics") ([`v1.0.3`](https://github.com/ropensci/rangr/releases/tag/v1.0.3)), [readODS](https://docs.ropensci.org/readODS "Read and Write ODS Files") ([`v2.2.0`](https://github.com/ropensci/readODS/releases/tag/v2.2.0)), [rnaturalearthdata](https://docs.ropensci.org/rnaturalearthdata "World Vector Map Data from Natural Earth Used in rnaturalearth") ([`v1.0.0`](https://github.com/ropensci/rnaturalearthdata/releases/tag/v1.0.0)), [rnaturalearthhires](https://docs.ropensci.org/rnaturalearthhires "High Resolution World Vector Map Data from Natural Earth used in
+    Biological Samples") ([`v0.1.8`](https://github.com/ropensci/baRcodeR/releases/tag/v0.1.8)), [comtradr](https://docs.ropensci.org/comtradr "Interface with the United Nations Comtrade API") ([`v0.4.0.0`](https://github.com/ropensci/comtradr/releases/tag/v0.4.0.0)), [dbparser](https://docs.ropensci.org/dbparser "Drugs Databases Parser") ([`v2.0.2`](https://github.com/ropensci/dbparser/releases/tag/v2.0.2)), [fluidsynth](https://docs.ropensci.org/fluidsynth "Read and Play Digital Music (MIDI)") ([`generaluser-gs-v1.471`](https://github.com/ropensci/fluidsynth/releases/tag/generaluser-gs-v1.471)), [GSODR](https://docs.ropensci.org/GSODR "Global Surface Summary of the Day (GSOD) Weather Data Client") ([`v3.1.10`](https://github.com/ropensci/GSODR/releases/tag/v3.1.10)), [lingtypology](https://docs.ropensci.org/lingtypology "Linguistic Typology and Mapping") ([`v1.1.16`](https://github.com/ropensci/lingtypology/releases/tag/v1.1.16)), [melt](https://docs.ropensci.org/melt "Multiple Empirical Likelihood Tests") ([`v1.11.0`](https://github.com/ropensci/melt/releases/tag/v1.11.0)), [nasapower](https://docs.ropensci.org/nasapower "NASA POWER API Client") ([`v4.2.0`](https://github.com/ropensci/nasapower/releases/tag/v4.2.0)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.10.1`](https://github.com/ropensci/nodbi/releases/tag/v0.10.1)), [rangr](https://docs.ropensci.org/rangr "Mechanistic Simulation of Species Range Dynamics") ([`v1.0.3`](https://github.com/ropensci/rangr/releases/tag/v1.0.3)), [readODS](https://docs.ropensci.org/readODS "Read and Write ODS Files") ([`v2.2.0`](https://github.com/ropensci/readODS/releases/tag/v2.2.0)), [rnaturalearthdata](https://docs.ropensci.org/rnaturalearthdata "World Vector Map Data from Natural Earth Used in rnaturalearth") ([`v1.0.0`](https://github.com/ropensci/rnaturalearthdata/releases/tag/v1.0.0)), [rnaturalearthhires](https://docs.ropensci.org/rnaturalearthhires "High Resolution World Vector Map Data from Natural Earth used in
     rnaturalearth") ([`v1.0.0`](https://github.com/ropensci/rnaturalearthhires/releases/tag/v1.0.0)), [rvertnet](https://docs.ropensci.org/rvertnet "Search Vertnet, a Database of Vertebrate Specimen Records") ([`v0.8.4`](https://github.com/ropensci/rvertnet/releases/tag/v0.8.4)), [stats19](https://docs.ropensci.org/stats19 "Work with Open Road Traffic Casualty Data from Great Britain") ([`v3.0.3`](https://github.com/ropensci/stats19/releases/tag/v3.0.3)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.7.12`](https://github.com/ropensci/tarchetypes/releases/tag/0.7.12)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.5.1`](https://github.com/ropensci/targets/releases/tag/1.5.1)), and [unifir](https://docs.ropensci.org/unifir "A Unifying API for Calling the Unity 3D Video Game Engine") ([`v0.2.4`](https://github.com/ropensci/unifir/releases/tag/v0.2.4)).
 
 ## Software Peer Review
 
-There are fourteen recently closed and active submissions and 4 submissions on hold. Issues are at different stages: 
+There are fifteen recently closed and active submissions and 4 submissions on hold. Issues are at different stages: 
 
 * One at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
 
@@ -100,9 +98,11 @@ There are fourteen recently closed and active submissions and 4 submissions on h
 
     * [agromet](https://github.com/ropensci/software-review/issues/599), Índices y Estadísticos Climáticos e Hidrológicos. Submitted by [Paola Corrales](https://paocorrales.github.io). 
 
-* Four at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
+* Five at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 
-     * [nuts](https://github.com/ropensci/software-review/issues/623), nuts: Convert European Regional Data. Submitted by [Moritz Hennicke](https://hennicke.science/). 
+     * [rix](https://github.com/ropensci/software-review/issues/625), Rix: Reproducible Environments with Nix. Submitted by [Bruno Rodrigues](https://brodrigues.co). 
+
+    * [nuts](https://github.com/ropensci/software-review/issues/623), nuts: Convert European Regional Data. Submitted by [Moritz Hennicke](https://hennicke.science/). 
 
     * [pangoling](https://github.com/ropensci/software-review/issues/575), Access to Large Language Model Predictions. Submitted by [Bruno Nicenboim](https://bnicenboim.github.io/). 
 
@@ -110,13 +110,15 @@ There are fourteen recently closed and active submissions and 4 submissions on h
 
     * [fwildclusterboot](https://github.com/ropensci/software-review/issues/546), Fast Wild Cluster Bootstrap Inference for Linear Models. Submitted by [Alexander Fischer](https://s3alfisc.github.io/blog/).  (Stats).
 
-* Three at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
+* Two at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
-     * [rix](https://github.com/ropensci/software-review/issues/625), Rix: Reproducible Environments with Nix. Submitted by [Bruno Rodrigues](https://brodrigues.co). 
-
-    * [karel](https://github.com/ropensci/software-review/issues/620), Learning programming with Karel the robot. Submitted by [Marcos Prunello](https://unr.edu.ar/). 
+     * [karel](https://github.com/ropensci/software-review/issues/620), Learning programming with Karel the robot. Submitted by [Marcos Prunello](https://unr.edu.ar/). 
 
     * [bssm](https://github.com/ropensci/software-review/issues/489), Bayesian Inference of Non-Linear and Non-Gaussian State Space. Submitted by [Jouni Helske](https://jounihelske.netlify.app).  (Stats).
+
+* One at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
+
+     * [dendroNetwork](https://github.com/ropensci/software-review/issues/627), Create networks of dendrochronological series using pairwise similarity. Submitted by [RonaldVisser](https://akademienl.social/@RonaldVisser). 
 
 Find out more about [Software Peer Review](/software-review) and how to get involved.
 
@@ -127,6 +129,16 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 
 * [Please Shut Up! Verbosity Control in Packages](/blog/2024/02/06/verbosity-control-packages) by Mark Padgham and Maëlle Salmon. This post was discussed on the [R Weekly highlights podcast](https://podcastindex.org/podcast/1062040) hosted by Eric Nantz and Mike Thomas.
+
+* [Introducing rOpenSci Champions - Cohort 2023-2024](/blog/2024/02/15/champions-program-champions-2024) by Ezekiel Adebayo Ogundepo, Sehrish Kanwal, Andrea Gomez Vargas, Liz Hare, Francesca Belem Lopes Palmeira, Binod Jung Bogati, Yi-Chin Sunny Tseng, Mirna Vazquez Rosas Landa, Erika Siregar, Jacqui Levy, and Yanina Bellini Saibene. The rOpenSci Champions Program starts this 2024 with a new cohort of Champions. We are pleased to introduce you to our Champions and their projects.
+
+
+
+### Tech Notes
+
+* [Help make waywiser better! User requests wanted](/blog/2024/02/19/waywiser-call-help) by Mike Mahoney and Maëlle Salmon.
+
+* [Read and Play Digital Music (MIDI) in R using the *fluidsynth* package](/blog/2024/02/20/fluidsynth) by Jeroen Ooms. A new package with bindings to libfluidsynth to read and synthesize midi files in R.
 
 ## Calls for contributions
 
