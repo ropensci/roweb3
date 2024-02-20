@@ -44,4 +44,6 @@ You can check if you package fit in a [CRAN Task View]( https://cran.r-project.o
 
 > [rOpenSci's suite packages are featured in our webpage](https://ropensci.org/packages/) and we support the build the documentation in a website with pkgedown.  
 
+Publish a paper about your package is an important aspect for academics developers. Traditional journals to publish your package are [The R Journal]() and the [Journal of Statistical Software](). 
 
+> The package that are peer reviwed by rOpenSci have a fast track for publication on the [Journal Open Source Software]().
