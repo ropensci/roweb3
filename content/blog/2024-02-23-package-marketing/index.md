@@ -22,8 +22,6 @@ Create a comprehensive README that clearly explains what your package does, how 
 
 ## Promote 
 
-As a author or maintainer, here are some ideas you can implement:
-
 Leverage platforms like Mastodon, LinkedIn, and R-specific forums such as [R-bloggers](https://www.r-bloggers.com) and [R Weekly](https://rweekly.org) to announce the release of your package. 
 
 > If you package is part of the rOpenSci Suite you can [write a blog post or a tech note](https://blogguide.ropensci.org/) for our blog and we will share in our [monthly newsletter](/news/) and our social media.
@@ -47,3 +45,6 @@ You can check if you package fit in a [CRAN Task View]( https://cran.r-project.o
 Publish a paper about your package is an important aspect for academics developers. Traditional journals to publish your package are [The R Journal]() and the [Journal of Statistical Software](). 
 
 > The package that are peer reviwed by rOpenSci have a fast track for publication on the [Journal Open Source Software]().
+
+
+As a package maintainer there are several activities you can implement to advertise your package. If you package is part of rOpenSci's suite, there are also some ways we can support you. By implement some of these option we hope you can effectively reach users who can benefit from its functionality.  
