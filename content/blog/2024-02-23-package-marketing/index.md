@@ -33,10 +33,15 @@ You can also share updates, tutorials, use cases, talks and events where you wil
 
 > For rOpenSci packages, we collect the use cases and feature them on the website as well as the package. We also have social media campaing, for example "A Package a Day" on Mastodon were we feature one package of our suite each day. For LinkedIn we publish every Monday our "Package Weekly Digest" with a list of five package that belong to the same category.
 
-If you like to give talks, you can speak at an R User Group or R-Ladies Chapter. Present your package on a field specific conference is another way to reach your users.  There are R specific conferences like useR!, LatinR and Posit::Conf. 
+If you like to give talks, you can speak at an R User Group or R-Ladies Chapter, organizers invite spekaers but most of the groups are open to people that offer to give a talk or teach a workshop. Present your package on a field specific conference is another way to reach your users and get greater exposure.  There are R specific conferences like useR!, LatinR, satRdays and Posit::Conf. 
 
 
 > rOpenSci have two hours [co-working sessions each month](/coworking/), you can host a co-working session on the topic of the package.
 
 > You can also propose an [rOpenSci Community Call](/commcalls/) relate with your package. For example, this community call about [targets](/commcalls/jan2023-targets/) has a panel with two users showing how they use the package and the principal author sharing new insights about the package.
+
+You can check if you package fit in a [CRAN Task View]( https://cran.r-project.org/web/views/) and propose the addition of your package.
+
+> [rOpenSci's suite packages are featured in our webpage](https://ropensci.org/packages/) and we support the build the documentation in a website with pkgedown.  
+
 
