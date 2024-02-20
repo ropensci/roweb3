@@ -8,7 +8,7 @@ slug: package-marketing
 tags:
 - community
 
-description: ""
+description: "Now that you have created your package, presenting it to the world is a crucial step to gain visibility and attract users.  In this blog post we suggest a series of activities and tools to advertize your package."
 ---
 
 
