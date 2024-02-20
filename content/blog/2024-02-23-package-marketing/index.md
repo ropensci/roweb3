@@ -26,15 +26,15 @@ As a author or maintainer, here are some ideas you can implement:
 
 Leverage platforms like Mastodon, LinkedIn, and R-specific forums such as [R-bloggers](https://www.r-bloggers.com) and [R Weekly](https://rweekly.org) to announce the release of your package. You can also share updates, tutorials, use cases, talks and events where you will participate to engage with users. 
 
-> If you package is part of the rOpenSci Suite you can [write a blog post or a tech note](https://blogguide.ropensci.org/) for our blog and we will share in our [monthly newsletter](https://ropensci.org/news/) and our social media.
-
-You can also speak at an R User Group or R-Ladies Chapter. Present your package on a field specific conference is another way to reach your users.  There are R specific conferences like useR!, LatinR and Posit::Conf. rOpenSci have co-working sessions 
+> If you package is part of the rOpenSci Suite you can [write a blog post or a tech note](https://blogguide.ropensci.org/) for our blog and we will share in our [monthly newsletter](/news/) and our social media.
 
 
+If you like to give talks, you can speak at an R User Group or R-Ladies Chapter. Present your package on a field specific conference is another way to reach your users.  There are R specific conferences like useR!, LatinR and Posit::Conf. 
 
-For example, things maintainers can do:
-host a co-working session on the topic of the package (with us).
-Propose a comm call
+
+> rOpenSci have two hours [co-working sessions each month](/coworking/), you can host a co-working session on the topic of the package.
+
+> You can also propose an [rOpenSci Community Call](/commcalls/) relate with your package. For example, this community call about [targets](/commcalls/jan2023-targets/) has a panel with two users showing how they use the package and the principal author sharing new insights about the package.
 
 
 ## rOpenSci support
