@@ -56,6 +56,13 @@ We are proud to welcome our second cohort of Champions!  Learn about them and th
 
 Read the [blog post](/blog/2024/02/15/champions-program-champions-2024/)
   
+### R-universe updates
+
+Thanks to [contributions from Hiroaki Yutani](https://github.com/r-wasm/webr/pull/358#issuecomment-1954019290) R-universe now has experimental support for compiling packages with rust code into wasm.
+
+In preparation for the next major R release, we started building MacOS binaries for 4.4 and will soon drop 4.2 binaries.
+
+R-universe now supports Quarto vignettes. 
 
 ### Coworking
 
