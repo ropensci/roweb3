@@ -4,7 +4,7 @@ author: 'The rOpenSci Team'
 date: '2024-02-23'
 tags:
   - newsletter
-slug: news-january-2024
+slug: news-february-2024
 description: Code of conduct transparency report; coworking; new packages and package news
 params:
   last_newsletter: "2024-01-25"
@@ -67,10 +67,12 @@ Everyone welcome.
 No RSVP needed. 
 Consult our [Events](/events) page to find your local time and how to join.
 
-- [Tuesday, March 5th, 9:00 Australia Western (1:00 UTC)](/events/coworking-2024-03/), Dates, Times and Timezones in R. With cohost [Steffi LaZerte](/author/steff-lazerte/) and [Alex Koiter](/author/alex-koiter/).
+- [Tuesday, March 5th, 9:00 Australia Western (1:00 UTC)](/events/coworking-2024-03/), Dates, Times and Timezones in R. With cohost [Steffi LaZerte](/author/steffi-lazerte/) and [Alex Koiter](/author/alex-koiter/).
     - Explore resources for working with dates, times, and timezones in R
     - Work on a project dealing with dates and times
     - Ask questions or troubleshoot your timezone problems with the cohost and other attendees.
+    
+- Tuesday, April 2nd, 14:00 Europe Central (13:00 UTC) Theme and Cohost TBA
     
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
