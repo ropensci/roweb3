@@ -3,7 +3,7 @@ title: Help users and developers of targets by answering questions!
 author: 
 - Will Landau
 - Maëlle Salmon
-date: '2024-02-20'
+date: '2024-02-29'
 slug: targets-call-help
 preface: |
   One of the best things about open software is that it can be a community project with contributions from people other than just the maintainer.
@@ -32,9 +32,7 @@ Package | Issue tracker | Discussion forum
 
 ## How to help?
 
-TODO: Should we indicate a way to get more triage access?
-[Subscribe](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications#configuring-your-watch-settings-for-an-individual-repository) to the relevant trackers and contribute whenever you have time.
-You can start answering questions right away!
+[Subscribe](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications#configuring-your-watch-settings-for-an-individual-repository) to the relevant trackers and contribute whenever you have time: please add your thoughts and comments on issues and discussions!
 
 ## Thank you!
 
