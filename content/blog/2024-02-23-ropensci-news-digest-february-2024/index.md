@@ -32,7 +32,7 @@ Read the [report](/blog/2024/01/12/transparency2023/).
 
 We are proud to welcome our second cohort of Champions!  Learn about them and the projects they will develop while participating in the rOpenSci Champions Program.
 
-Read the [blog post](/blog/2024/02/15/champions-program-champions-2024/)
+Read the [blog post](/blog/2024/02/15/champions-program-champions-2024/).
   
 ### R-universe updates
 
