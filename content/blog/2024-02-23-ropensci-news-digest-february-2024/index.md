@@ -4,7 +4,7 @@ author: 'The rOpenSci Team'
 date: '2024-02-23'
 tags:
   - newsletter
-slug: news-january-2024
+slug: news-february-2024
 description: Code of conduct transparency report; coworking; new packages and package news
 params:
   last_newsletter: "2024-01-25"
@@ -16,7 +16,7 @@ params:
 
 Dear rOpenSci friends, it's time for our monthly news roundup!
 <!-- blabla -->
-You can read this post [on our blog](/blog/2024/02/23/news-january-2024).
+You can read this post [on our blog](/blog/2024/02/23/news-february-2024).
 Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
@@ -34,6 +34,13 @@ We are proud to welcome our second cohort of Champions!  Learn about them and th
 
 Read the [blog post](/blog/2024/02/15/champions-program-champions-2024/)
   
+### R-universe updates
+
+Thanks to [contributions from Hiroaki Yutani](https://github.com/r-wasm/webr/pull/358#issuecomment-1954019290) R-universe now has experimental support for compiling packages with rust code into wasm.
+
+In preparation for the next major R release, we started building MacOS binaries for 4.4 and will soon drop 4.2 binaries.
+
+R-universe now supports Quarto vignettes. 
 
 ### Coworking
 
@@ -45,10 +52,12 @@ Everyone welcome.
 No RSVP needed. 
 Consult our [Events](/events) page to find your local time and how to join.
 
-- [Tuesday, March 5th, 9:00 Australia Western (1:00 UTC)](/events/coworking-2024-03/), Dates, Times and Timezones in R. With cohost [Steffi LaZerte](/author/steff-lazerte/) and [Alex Koiter](/author/alex-koiter/).
+- [Tuesday, March 5th, 9:00 Australia Western (1:00 UTC)](/events/coworking-2024-03/), Dates, Times and Timezones in R. With cohost [Steffi LaZerte](/author/steffi-lazerte/) and [Alex Koiter](/author/alex-koiter/).
     - Explore resources for working with dates, times, and timezones in R
     - Work on a project dealing with dates and times
     - Ask questions or troubleshoot your timezone problems with the cohost and other attendees.
+    
+- Tuesday, April 2nd, 14:00 Europe Central (13:00 UTC) Theme and Cohost TBA
     
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
@@ -62,7 +71,7 @@ And remember, you can always cowork independently on work related to R, work on 
 
 The following  package recently became a part of our software suite, or were recently reviewed again:
 
-+ [fluidsynth](https://docs.ropensci.org/fluidsynth), developed by Jeroen Ooms: Bindings to libfluidsynth to parse and synthesize MIDI files. It can read MIDI into a data frame, play it on the local audio device, or convert into an audio file. 
++ [fluidsynth](https://docs.ropensci.org/fluidsynth), developed by Jeroen Ooms: Bindings to libfluidsynth to parse and synthesize MIDI files. It can read MIDI into a data frame, play it on the local audio device, or convert into an audio file.  It is available on [CRAN]( https://CRAN.R-project.org/package=fluidsynth). 
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
@@ -82,17 +91,17 @@ There are fifteen recently closed and active submissions and 4 submissions on ho
 
      * [weatherOz](https://github.com/ropensci/software-review/issues/598), An API Client for Australian Weather and Climate Data Resources. Submitted by [Rodrigo Pires](https://github.com/bozaah). 
 
-* Two at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
-
-     * [baRulho](https://github.com/ropensci/software-review/issues/609), Quantifying (Animal) Sound Degradation. Submitted by [Marcelo Araya-Salas](https://marce10.github.io/). 
-
-    * [mregions2](https://github.com/ropensci/software-review/issues/590), Access Data from Marineregions.org: The Marine Regions Gazetteer and the Marine Regions Data Products. Submitted by [salvafern](https://salvafern.github.io/). 
-
-* Four at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
+* Three at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
 
      * [quadkeyr](https://github.com/ropensci/software-review/issues/619), Tools for converting QuadKeys used in Microsoft's Bing Maps Tile System into raster images. Submitted by [Florencia D'Andrea](https://github.com/flor14). 
 
-    * [fellingdateR](https://github.com/ropensci/software-review/issues/618), Estimate, report and combine felling dates of historical tree-ring. Submitted by [KriHa](https://www.researchgate.net/profile/Kristof_Haneca). 
+    * [baRulho](https://github.com/ropensci/software-review/issues/609), Quantifying (Animal) Sound Degradation. Submitted by [Marcelo Araya-Salas](https://marce10.github.io/). 
+
+    * [mregions2](https://github.com/ropensci/software-review/issues/590), Access Data from Marineregions.org: The Marine Regions Gazetteer and the Marine Regions Data Products. Submitted by [salvafern](https://salvafern.github.io/). 
+
+* Three at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
+
+     * [fellingdateR](https://github.com/ropensci/software-review/issues/618), Estimate, report and combine felling dates of historical tree-ring. Submitted by [KriHa](https://www.researchgate.net/profile/Kristof_Haneca). 
 
     * [rgeeExtra](https://github.com/ropensci/software-review/issues/608), Extensions for rgee. Submitted by [Cesar Aybar](https://csaybar.github.io). 
 
@@ -110,15 +119,13 @@ There are fifteen recently closed and active submissions and 4 submissions on ho
 
     * [fwildclusterboot](https://github.com/ropensci/software-review/issues/546), Fast Wild Cluster Bootstrap Inference for Linear Models. Submitted by [Alexander Fischer](https://s3alfisc.github.io/blog/).  (Stats).
 
-* Two at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
-
-     * [karel](https://github.com/ropensci/software-review/issues/620), Learning programming with Karel the robot. Submitted by [Marcos Prunello](https://unr.edu.ar/). 
-
-    * [bssm](https://github.com/ropensci/software-review/issues/489), Bayesian Inference of Non-Linear and Non-Gaussian State Space. Submitted by [Jouni Helske](https://jounihelske.netlify.app).  (Stats).
-
-* One at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
+* Three at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
      * [dendroNetwork](https://github.com/ropensci/software-review/issues/627), Create networks of dendrochronological series using pairwise similarity. Submitted by [RonaldVisser](https://akademienl.social/@RonaldVisser). 
+
+    * [karel](https://github.com/ropensci/software-review/issues/620), Learning programming with Karel the robot. Submitted by [Marcos Prunello](https://unr.edu.ar/). 
+
+    * [bssm](https://github.com/ropensci/software-review/issues/489), Bayesian Inference of Non-Linear and Non-Gaussian State Space. Submitted by [Jouni Helske](https://jounihelske.netlify.app).  (Stats).
 
 Find out more about [Software Peer Review](/software-review) and how to get involved.
 
