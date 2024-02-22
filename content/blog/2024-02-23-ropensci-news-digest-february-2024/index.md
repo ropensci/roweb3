@@ -36,11 +36,11 @@ Read the [blog post](/blog/2024/02/15/champions-program-champions-2024/).
   
 ### R-universe updates
 
-Thanks to [contributions from Hiroaki Yutani](https://github.com/r-wasm/webr/pull/358#issuecomment-1954019290) R-universe now has experimental support for compiling packages with rust code into wasm.
+Thanks to [contributions from Hiroaki Yutani](https://github.com/r-wasm/webr/pull/358#issuecomment-1954019290) the R-universe WebAssembly toolchain now includes the Rust compiler. So have experimental support for compiling packages with rust code for use in WebR!
 
-In preparation for the next major R release, we started building MacOS binaries for 4.4 and will soon drop 4.2 binaries.
+R-universe now supports [vignettes written in Quarto](https://quarto-dev.r-universe.dev/articles/quarto/hello.html)!
 
-R-universe now supports Quarto vignettes. 
+In preparation for the next major R release in April, we have started building MacOS binaries for 4.4, and will soon drop the 4.2 binaries.
 
 ### Coworking
 
