@@ -16,9 +16,9 @@ Now that you have created your package, presenting it to the world is a crucial 
 
 ## Publish
 
-Create a comprehensive README that clearly explains what your package does, how to install it, how users can start using it. Include examples or use cases and any relevant information (or links to) that can help users understand how your package can help them. 
+Create a comprehensive [README](https://blog.r-hub.io/2019/12/03/readmes/) that clearly explains what your package does, how to install it, how users can start using it. Include examples or use cases and any relevant information (or links to) that can help users understand how your package can help them. 
 
-[Create a universe on R-universe](/blog/2021/06/22/setup-runiverse/), which will help users by simplifying the installation of your package and provide with useful stats and information about it. R-Universe is also a way to showcase your packages collection. You can also [publish it on CRAN](https://cran.r-project.org) or submit it to our [peer review process](https://ropensci.org/software-review/). All this steps will support you with discoverability and also to comply with quality standards.  
+[Create a universe on R-universe](/blog/2021/06/22/setup-runiverse/), which will help users by simplifying the installation of your package, and which will provide with useful stats and information about it. R-Universe is also a way to showcase your packages collection. You can also submit it to our [peer review process](https://ropensci.org/software-review/) if in scope. You can [publish it on CRAN](https://cran.r-project.org). All these steps will support you with discoverability and also to comply with quality standards.  
 
 ## Promote 
 
@@ -29,9 +29,9 @@ Leverage platforms like Mastodon, LinkedIn, and R-specific forums such as [R-blo
 You can also share updates, tutorials, use cases, talks and events where you will participate to engage with users. 
 
 
-> For rOpenSci packages, we collect the use cases and feature them on the website as well as the package. We also have social media campaing, for example "A Package a Day" on Mastodon were we feature one package of our suite each day. For LinkedIn we publish every Monday our "Package Weekly Digest" with a list of five package that belong to the same category.
+> For rOpenSci packages, we collect the [use cases](/use-cases) and feature them on the website as well as the package. We also have social media campaigns, for example "A Package a Day" on Mastodon were we feature one package of our suite each day. On LinkedIn we publish every Monday our "Package Weekly Digest" with a list of five package that belong to the same category.
 
-If you like to give talks, you can speak at an R User Group or R-Ladies Chapter, organizers invite spekaers but most of the groups are open to people that offer to give a talk or teach a workshop. Present your package on a field specific conference is another way to reach your users and get greater exposure.  There are R specific conferences like useR!, LatinR, satRdays and Posit::Conf. 
+If you like to give talks, you can speak at an R User Group or R-Ladies Chapter, organizers invite speakers but most of the groups are open to people that offer to give a talk or teach a workshop. Present your package on a field specific conference is another way to reach your users and get greater exposure.  There are R specific conferences like useR!, LatinR, satRdays and Posit::Conf. 
 
 
 > rOpenSci have two hours [co-working sessions each month](/coworking/), you can host a co-working session on the topic of the package.
