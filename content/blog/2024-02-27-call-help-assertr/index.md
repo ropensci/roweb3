@@ -3,7 +3,7 @@ title: Help make assertr better! Come close issues
 author: 
 - Tony Fischetti
 - Maëlle Salmon
-date: '2024-02-22'
+date: '2024-02-27'
 slug: assertr-call-help
 preface: |
   One of the best things about open software is that it can be a community project with contributions from people other than just the maintainer.
@@ -22,19 +22,10 @@ The provided functionality is similar to `stopifnot()` but more powerful, friend
 The assertr [issue tracker](https://github.com/tonyfischetti/assertr/issues) has a few tickets that you could help with, please have a [look](https://github.com/tonyfischetti/assertr/issues).
 You can also [subscribe](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications#configuring-your-watch-settings-for-an-individual-repository) to be notified of new issues opened in this repository.
 
-TODO: 
-- add help-wanted labels to all of them  
-- ensure all open issues are relevant?
-
-
-
 ## How to help?
 
 Volunteer in an open issue, then once you get a green light, go ahead and start a PR! 
 This workflow will avoid duplicate work which could happen if several people start solving the same issue at the same time.
-
-TODO:
-what should be tips for getting started, given assetr has no .github/CONTRIBUTING.md or similar (and it'd feel useless to invest in creating one before it's needed!). should discussions be enabled for the repository so new contributors could ask questions?
 
 ## Thank you!
 
