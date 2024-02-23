@@ -15,7 +15,7 @@ tags:
 ---
 
 
-The package [qualtRics](https://docs.ropensci.org/qualtRics) maintained by [Julia Silge](/author/julia-silge) together with [Joseph O’Brien](/author/joseph-obrien) provides functions to access survey results directly into R using the Qualtrics API. Qualtrics <https://www.qualtrics.com/about/> is an online survey and data collection software platform. 
+The package [qualtRics](https://docs.ropensci.org/qualtRics) maintained by [Julia Silge](/author/julia-silge) together with [Joseph O’Brien](/author/joseph-obrien) provides functions to access survey results directly into R using the Qualtrics API. [Qualtrics](https://www.qualtrics.com/about/) is an online survey and data collection software platform. 
 
 
 
@@ -30,7 +30,8 @@ There are a few specific needs that the qualtRics package has today.
 - Are you interested in [R package testing](https://github.com/ropensci/qualtRics/issues/294)? Right now, tests in the qualtRics package mock the API calls, but it is difficult for any given maintainer or contributor to regenerate the test fixtures. Instead, we want to move to using the "mock servers" that Qualtrics provides. This would be a great fit for any Qualtrics user who wants to learn more about package testing and API calls.
 - Do you use [Qualtrics mailing lists](https://github.com/ropensci/qualtRics/issues/271)? We need help maintaining and fixing code around this Qualtrics feature.
 - Are you interesting in [authentication and credentials](https://github.com/ropensci/qualtRics/issues/334)? We need help with an overhaul of how the R package authenticates to Qualtrics. This would be a great fit for any Qualtrics user who wants to learn more about system credential stores and/or OAuth.
-If you have something else in mind, please open an issue in the qualtRics Github repository https://github.com/ropensci/qualtRics/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc, or comment on a relevant open issue. 
+
+If you have something else in mind, please open an issue in the [qualtRics Github repository](https://github.com/ropensci/qualtRics/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc), or comment on a relevant open issue. 
 
 ## Thank you!
 
