@@ -147,6 +147,8 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 * [Read and Play Digital Music (MIDI) in R using the *fluidsynth* package](/blog/2024/02/20/fluidsynth) by Jeroen Ooms. A new package with bindings to libfluidsynth to read and synthesize midi files in R.
 
+* [Beautiful Code, Because We’re Worth It!](/blog/2024/02/22/beautiful-code) by Maëlle Salmon and Yanina Bellini Saibene.
+
 ## Calls for contributions
 
 ### Calls for maintainers
