@@ -531,7 +531,7 @@ format_post <- function(dir) {
   }  
   }
   if (post$title == "Scanning QR codes in R") {
-    string <- paste0(string, " This post was featured in the [R Weekly Highlights podcast](https://rweekly.fireside.fm/152?t=80) hosted by Eric Nantz and Mike Thomas.")
+    string <- paste0(string, " This post was featured in the [R Weekly Highlights podcast](https://rweekly.fireside.fm/143) hosted by Eric Nantz and Mike Thomas.")
   }
   
   if (post$socialImg != "") {
