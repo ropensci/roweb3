@@ -1,5 +1,5 @@
 ---
-title: Help make qualtRics better! Users/testers wanted
+title: Help make qualtRics better! Code contributions wanted
 author: 
 - Julia Silge
 - Joseph O'Brien
