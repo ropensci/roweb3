@@ -4,6 +4,7 @@ author:
   - Yanina Bellini Saibene
   - Mark Padgham
   - Kara Woo
+  - Natalia Morandeira
 date: '2024-03-04'
 slug: conduct2023
 tags:
@@ -25,7 +26,9 @@ Here we report on our annual review of rOpenSci's Code of Conduct, reporting pro
 
 1. A change to the committee. [Kara Woo](https://karawoo.com/) (independent community member) has stepped down from the committee after five years of service. We welcome [Natalia Morandeira](https://nmorandeira.netlify.app) to serve on this role. Committee members for 2024 are Natalia Morandeira (independent member), [Mark Padgham](/author/mark-padgham) (rOpenSci Software Research Scientist) and [Yanina Bellini Saibene](/author/yanina-bellini-saibene) (rOpenSci Community Manager). We are responsible for receiving, investigating, deciding, enforcing, and reporting on all reports of potential violations of our Code.
 
-2. No changes have been made to the text of the Code.
+2. No changes have been made to the text of the Code in English.
+
+3. The Spanish text of the code of conduct was review and updated with changes in the use of gender-mark words.
 
 With this change of committee members, this will be version 2.5, dated January 30, 2024.
 
