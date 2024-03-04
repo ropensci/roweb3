@@ -135,7 +135,7 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 
 
-* [Please Shut Up! Verbosity Control in Packages](/blog/2024/02/06/verbosity-control-packages) by Mark Padgham and Maëlle Salmon. This post was discussed on the [R Weekly highlights podcast](https://podcastindex.org/podcast/1062040) hosted by Eric Nantz and Mike Thomas.
+* [Please Shut Up! Verbosity Control in Packages](/blog/2024/02/06/verbosity-control-packages) by Mark Padgham and Maëlle Salmon. This post was discussed on the [R Weekly highlights podcast](https://rweekly.fireside.fm/152?t=80) hosted by Eric Nantz and Mike Thomas.
 
 * [Introducing rOpenSci Champions - Cohort 2023-2024](/blog/2024/02/15/champions-program-champions-2024) by Ezekiel Adebayo Ogundepo, Sehrish Kanwal, Andrea Gomez Vargas, Liz Hare, Francesca Belem Lopes Palmeira, Binod Jung Bogati, Yi-Chin Sunny Tseng, Mirna Vazquez Rosas Landa, Erika Siregar, Jacqui Levy, and Yanina Bellini Saibene. The rOpenSci Champions Program starts this 2024 with a new cohort of Champions. We are pleased to introduce you to our Champions and their projects.
 
@@ -186,7 +186,7 @@ Don't forget to browse past funded projects for inspiration.
 Don't miss Mark Padgham's and Maëlle Salmon's tech note on [verbosity control in R packages](/blog/2024/02/06/verbosity-control-packages/), that explains our new requirement around verbosity control: use a package-level option to control it rather than an argument in every function.
 Your feedback on the new requirement is welcome!
 
-### A creative way to have users udpate your package
+### A creative way to have users update your package
 
 Miles McBain [shared a creative strategy](https://mastodon.social/deck/@milesmcbain@fosstodon.org/111895762949362247) for having users update (internal) R packages regularly: printing the installed version in a different colour at package loading, depending on whether it is the latest version.
 
