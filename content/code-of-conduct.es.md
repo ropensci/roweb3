@@ -62,7 +62,8 @@ Agradecemos tus comentarios por correo electrónico a `conduct@ropensci.org`, y 
 
 #### Alumni
 
-Agradecemos a Scott Chamberlain, Stefanie Butland, a  Megan Carter y a Kara Woo sus servicios en el pasado en el comité.
+Agradecemos a Scott Chamberlain, Stefanie Butland, Megan Carter y a Kara Woo sus servicios en el pasado en el comité.
+
 
 #### Licencia y créditos
 El Código de Conducta de rOpenSci ha sido influenciado y adaptado de muchas fuentes, incluyendo la [Charla sobre Código Abierto y Sentimientos](https://youtu.be/nizfHxg8y3o) de [Audrey Eschright](https://lifeofaudrey.com/), el borrador del [Código de Conducta](https://github.com/RConsortium/RCDI-WG/blob/0ca0a91dccc9296ff53a5806f52a2a49dbb8850d/conduct/code-of-conduct.md) del Grupo de Trabajo de Diversidad e Inclusión de la Comunidad R del Consorcio R , la [Política antiacoso del Feminismo Geek](https://geekfeminism.wikia.com/wiki/Community_anti-harassment/Policy), el [Código de Conducta de useR! 2021](https://user2021.r-project.org/participation/coc/) y nuestro propio Llamado a la Comunidad: [Cómo crear un Código de Conducta para mi evento/laboratorio/código fuente](/commcalls/2016-12-15/)
