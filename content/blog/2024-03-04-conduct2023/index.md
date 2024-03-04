@@ -4,7 +4,7 @@ author:
   - Yanina Bellini Saibene
   - Mark Padgham
   - Kara Woo
-date: '2024-01-30'
+date: '2024-03-04'
 slug: conduct2023
 tags:
   - code of conduct
