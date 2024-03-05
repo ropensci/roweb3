@@ -26,16 +26,15 @@ Create a comprehensive [README](https://blog.r-hub.io/2019/12/03/readmes/) which
 
 Finally, consider submitting your package to our [peer review process](/software-review/) if in scope. All these steps will support you with discoverability and also to comply with quality standards. If this is of interest to you, we generally recommend [submitting for review before submitting to CRAN](https://devguide.ropensci.org/policies.html#publishing-in-other-venues) as the review comments can often help with CRAN submissions.
 
-## Promote 
+## Promote
+
 Now that your package is published and ready to be used, here are some suggestions for things you can do to help promote your package and build it's user base.
-Leverage platforms like Mastodon, LinkedIn, and R-specific forums such as [R-bloggers](https://www.r-bloggers.com) and [R Weekly](https://rweekly.org) to announce the release of your package. 
+
+Leverage platforms like Mastodon, LinkedIn, and R-specific forums such as [R-bloggers](https://www.r-bloggers.com) and [R Weekly](https://rweekly.org) to announce the release of your package. You can also use your own social media or blog to share updates, tutorials, use cases, talks, and upcoming events where you will be available to engage with users. 
 
 If your package is part of the rOpenSci Suite you can [write a blog post or a tech note](https://blogguide.ropensci.org/) for our blog and we will share in our [monthly newsletter](/news/) and our social media.
 
-You can also use your own social media or blog to share updates, tutorials, use cases, talks, and upcoming events where you will be available to engage with users. 
-
-
-> For rOpenSci packages, we collect the [use cases](/usecases) and feature them on the website as well as the package. We also have social media campaigns, for example "A Package a Day" on Mastodon were we feature one package of our suite each day. On LinkedIn we publish every Monday our "Package Weekly Digest" with a list of five package that belong to the same category.
+For rOpenSci packages, we collect the [use cases](/usecases) and feature them on the website as well as the package. We also have social media campaigns, for example ["A Package a Day"](https://hachyderm.io/@rOpenSci/tagged/APackageADay) on Mastodon were we feature one package of our suite each day. On LinkedIn we publish every Monday our ["Package Weekly Digest"](https://www.linkedin.com/feed/update/urn:li:activity:7170464303186108416) with a list of five package that belong to the same category.
 
 If you like to give talks, you can speak at an R User Group or R-Ladies Chapter. Organizers invite speakers but most groups are open to offers to give a talk or teach a workshop. Presenting your package at a domain-specific conference is another way to reach users and gain greater exposure. There are also R-specific conferences like useR!, LatinR, satRdays and Posit::Conf. 
 
