@@ -1,5 +1,5 @@
 ---
-title: Spread the word about your package
+title: Spread the Word About Your Package
 author:
 - Yanina Bellini Saibene
 - Maëlle Salmon
@@ -7,8 +7,10 @@ date: '2024-02-23'
 slug: package-marketing
 tags:
 - community
+- maintenance
+- package-development
 
-description: "Now that you have created your package, presenting it to the world is a crucial step to gain visibility and attract users.  In this blog post we suggest a series of activities and tools to advertize your package."
+description: "Now that you have created your package, presenting it to the world is a crucial step to gain visibility and attract users.  In this blog post we suggest a series of activities and tools for advertizing your package."
 ---
 
 
@@ -16,35 +18,37 @@ Now that you have created your package, presenting it to the world is a crucial 
 
 ## Publish
 
-Create a comprehensive [README](https://blog.r-hub.io/2019/12/03/readmes/) that clearly explains what your package does, how to install it, how users can start using it. Include examples or use cases and any relevant information (or links to) that can help users understand how your package can help them. 
+Create a comprehensive [README](https://blog.r-hub.io/2019/12/03/readmes/) which clearly explains what your package does, how to install it, and how users can start using it. Include examples or use cases and (links to) any relevant information which might help users understand how your package can help them. 
 
-[Create a universe on R-universe](/blog/2021/06/22/setup-runiverse/), which will help users by simplifying the installation of your package, and which will provide with useful stats and information about it. R-Universe is also a way to showcase your packages collection. You can also submit it to our [peer review process](https://ropensci.org/software-review/) if in scope. You can [publish it on CRAN](https://cran.r-project.org). All these steps will support you with discoverability and also to comply with quality standards.  
+[Create a universe on R-universe](/blog/2021/06/22/setup-runiverse/), which will help users by simplifying the installation of your package, and which will provide useful stats and information about it. R-Universe is also a way to showcase your packages collection. You can also [publish it on CRAN](https://cran.r-project.org) which is another way of simplifying the installation for your potential users.
+
+Finally, consider submitting your package to our [peer review process](/software-review/) if in scope. All these steps will support you with discoverability and also to comply with quality standards. If this is of interest to you, we generally recommend [submitting for review before submitting to CRAN](https://devguide.ropensci.org/policies.html#publishing-in-other-venues) as the review comments can often help with CRAN submissions.
 
 ## Promote 
-
+Now that your package is published and ready to be used, here are some suggestions for things you can do to help promote your package and build it's user base.
 Leverage platforms like Mastodon, LinkedIn, and R-specific forums such as [R-bloggers](https://www.r-bloggers.com) and [R Weekly](https://rweekly.org) to announce the release of your package. 
 
-If you package is part of the rOpenSci Suite you can [write a blog post or a tech note](https://blogguide.ropensci.org/) for our blog and we will share in our [monthly newsletter](/news/) and our social media.
+If your package is part of the rOpenSci Suite you can [write a blog post or a tech note](https://blogguide.ropensci.org/) for our blog and we will share in our [monthly newsletter](/news/) and our social media.
 
-You can also use your social media and your blog (if you have one) to share updates, tutorials, use cases, talks, and events where you will participate to engage with users. 
-
-
-> For rOpenSci packages, we collect the [use cases](/use-cases) and feature them on the website as well as the package. We also have social media campaigns, for example "A Package a Day" on Mastodon were we feature one package of our suite each day. On LinkedIn we publish every Monday our "Package Weekly Digest" with a list of five package that belong to the same category.
-
-If you like to give talks, you can speak at an R User Group or R-Ladies Chapter, organizers invite speakers but most of the groups are open to people that offer to give a talk or teach a workshop. Present your package on a field specific conference is another way to reach your users and get greater exposure.  There are R specific conferences like useR!, LatinR, satRdays and Posit::Conf. 
+You can also use your own social media or blog to share updates, tutorials, use cases, talks, and upcoming events where you will be available to engage with users. 
 
 
-rOpenSci have two hours [co-working sessions each month](/coworking/), you can host a co-working session on the topic of the package.
+> For rOpenSci packages, we collect the [use cases](/usecases) and feature them on the website as well as the package. We also have social media campaigns, for example "A Package a Day" on Mastodon were we feature one package of our suite each day. On LinkedIn we publish every Monday our "Package Weekly Digest" with a list of five package that belong to the same category.
 
-You can also propose an [rOpenSci Community Call](/commcalls/) relate with your package. For example, this community call about [targets](/commcalls/jan2023-targets/) has a panel with two users showing how they use the package and the principal author sharing new insights about the package.
+If you like to give talks, you can speak at an R User Group or R-Ladies Chapter. Organizers invite speakers but most groups are open to offers to give a talk or teach a workshop. Presenting your package at a domain-specific conference is another way to reach users and gain greater exposure. There are also R-specific conferences like useR!, LatinR, satRdays and Posit::Conf. 
 
-You can check if you package fit in a [CRAN Task View]( https://cran.r-project.org/web/views/) and propose the addition of your package.
 
-> [rOpenSci's suite packages are featured in our webpage](https://ropensci.org/packages/) and we support the build the documentation in a website with pkgedown.  
+rOpenSci has two-hour [co-working sessions each month](/coworking/), feel free to contact us if you're interested in hosting a co-working session on a topic related to your package.
 
-Publish a paper about your package is an important aspect for academics developers. Traditional journals to publish your package are [The R Journal]() and the [Journal of Statistical Software](). 
+If your package has a broad scope, you can also propose an [rOpenSci Community Call](/commcalls/) on your package. For example, a community call about [targets](/commcalls/jan2023-targets/) included a panel with two users showing how they use the package and the principal author sharing new insights about the package. Alternatively, consider getting together with other package authors and proposing a domain-related Community Call, covering the use of several, more specific packages (e.g., [Research Applications of rOpenSci Taxonomy and Biodiversity Tools](/commcalls/2019-03-27/)).
+
+You can check if you package fits in a [CRAN Task View](https://cran.r-project.org/web/views/) and propose the addition of your package.
+
+> [Packages in the rOpenSci suite are featured on our webpage](/packages/) and we provide pkgdown documentation websites. 
+
+Publishing a paper about your package is an important aspect for academics developers. General R journals for publishing R packages are [The R Journal]() and the [Journal of Statistical Software](), but remember that domain-specific journals may also publish R packages as tools for the field (e.g., [Methods in Ecology and Evolution](https://besjournals.onlinelibrary.wiley.com/journal/2041210x))
 
 > The package that are peer reviwed by rOpenSci have a fast track for publication on the [Journal Open Source Software]().
 
 
-As a package maintainer there are several activities you can implement to advertise your package. If you package is part of rOpenSci's suite, there are also some ways we can support you. By implement some of these option we hope you can effectively reach users who can benefit from its functionality.  
+As a package maintainer there are several activities you can implement to advertise your package. If you package is part of rOpenSci's suite, there are also ways we can support you. By implementing some of these options we hope you can effectively reach users who can benefit from your package's functionality.  
