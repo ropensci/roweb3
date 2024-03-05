@@ -14,7 +14,7 @@ description: "Now that you have created your package, presenting it to the world
 ---
 
 
-Now that you have created your package, presenting it to the world is a crucial step to gain visibility and attract users.  In this blog post we suggest a series of activities and tools to let the people that your package can help, know that it is available. 
+Now that you have created your package, presenting it to the world is a crucial step to gain visibility and attract users.  In this blog post we suggest a series of activities and tools for advertising your package to those who may be interested in using it.
 
 ## Publish
 
