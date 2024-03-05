@@ -25,7 +25,7 @@ Our guide is now bilingual (English and [Spanish](https://devdevguide.netlify.ap
 [Read the guide in Spanish](https://devdevguide.netlify.app/es/index.es.html).
 
 You can find out more about our multilingual publishing project in the materials and recording from a recent [community call](/commcalls/nov2023-multilingual/).
-Reusable artefacts from the project include our [translation guide](https://translationguide.ropensci.org/), the [babelquarto package](https://docs.ropensci.org/babelquarto/) to render multilingual Quarto books or websites, the [babeldown package](https://docs.ropensci.org/babeldown/) to create and update translations using the DeepL API.
+Useful tools produced by the project include our [translation guide](https://translationguide.ropensci.org/), the [babelquarto package](https://docs.ropensci.org/babelquarto/) to render multilingual Quarto books or websites, and the [babeldown package](https://docs.ropensci.org/babeldown/) to create and update translations using the DeepL API.
 
 Our guide is now also getting translated to [Portuguese](https://ropensci.org/blog/2023/10/20/news-october-2023/#help-us-translate-our-dev-guide-to-portuguese) thanks to volunteers.
 We are very grateful for their work!
@@ -38,15 +38,15 @@ In our [guide for authors](https://devdevguide.netlify.app/softwarereview_author
 
 ## rOpenSci Package maintainer cheatsheet
 
-We have created a [cheatsheet for maintainer of rOpenSci packages](https://devdevguide.netlify.app/maintenance_cheatsheet) that reminds them of how to ask for help on different topics.
+We have created a [cheatsheet for maintainers of rOpenSci packages](https://devdevguide.netlify.app/maintenance_cheatsheet) about how to ask for help on different topics.
 
 ## Improvements to the packaging guide
 
 The package guide chapter received several improvements.
 
-We've updated our [advice around roxygen2](https://devdevguide.netlify.app/pkg_building#roxygen-2-use), mainly linking to roxygen2 website. 
+We've updated our [advice around roxygen2](https://devdevguide.netlify.app/pkg_building#roxygen-2-use), mainly linking to the [roxygen2 website](https://roxygen2.r-lib.org/). 
 The advice also includes an explanation of how to document an argument's default, thanks to [Hugo Gruson](https://github.com/bisaloo).
-We have also improved our wording to underline that using roxygen2 still means manual efforts (thanks to [Vincent van Hees](https://github.com/vincentvanhees)).
+We have also improved our wording to emphasise that using roxygen2 still means manual efforts (thanks to [Vincent van Hees](https://github.com/vincentvanhees)).
 
 We have added [tips for packages wrapping web APIs](https://devdevguide.netlify.app/pkg_building#packages-wrapping-web-resources-api-clients), based on the blog post ["Why You Should (or Shouldn’t) Build an API Client"](/blog/2022/06/16/publicize-api-client-yes-no/).
 
@@ -77,5 +77,6 @@ Our guide reviewers now clearly explains how to [volunteer as a reviewer, in gen
 
 ## Conclusion
 
-In this post we summarized the changes incorporated into our book “rOpenSci Packages: Development, Maintenance, and Peer Review” over the last months. We are thankful for all contributions that shaped this release. 
+In this post we summarized the changes incorporated into our book [“rOpenSci Packages: Development, Maintenance, and Peer Review”](https://devguide.ropensci.org) over the last months.
+We are thankful for all contributions that shaped this release. 
 We are already working on the next version, including a translation to Portuguese thanks to community contributors!
