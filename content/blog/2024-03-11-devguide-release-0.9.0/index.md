@@ -21,7 +21,7 @@ This blog post summarises what's new in our Dev Guide 0.9.0, with all changes li
 
 ## Now available in Spanish!
 
-Our guide is now bilingual (English and [Spanish](https://devdevguide.netlify.app/es/index.es.html)), thanks to work by Yanina Bellini Saibene, Elio Campitelli and Pao Corrales, and thanks to [support of the Chan Zuckerberg Initiative, NumFOCUS, and the R Consortium](/blog/2023/01/12/multilingual-publishing-en/).
+Our guide is now bilingual (English and [Spanish](https://devdevguide.netlify.app/es/index.es.html)), thanks to work by [Yanina Bellini Saibene](/author/yanina-bellini-saibene/), [Elio Campitelli](/author/elio-campitelli/) and [Pao Corrales](/author/pao-corrales/), and thanks to [support of the Chan Zuckerberg Initiative, NumFOCUS, and the R Consortium](/blog/2023/01/12/multilingual-publishing-en/).
 [Read the guide in Spanish](https://devdevguide.netlify.app/es/index.es.html).
 
 You can find out more about our multilingual publishing project in the materials and recording from a recent [community call](/commcalls/nov2023-multilingual/).
