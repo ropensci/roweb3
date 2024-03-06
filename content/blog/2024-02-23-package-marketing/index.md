@@ -43,7 +43,7 @@ rOpenSci has two-hour [co-working sessions each month](/coworking/), feel free t
 
 If your package has a broad scope, you can also propose an [rOpenSci Community Call](/commcalls/) on your package. For example, a community call about [targets](/commcalls/jan2023-targets/) included a panel with two users showing how they use the package and the principal author sharing new insights about the package. Alternatively, consider getting together with other package authors and proposing a domain-related Community Call, covering the use of several, more specific packages (e.g., [Research Applications of rOpenSci Taxonomy and Biodiversity Tools](/commcalls/2019-03-27/)).
 
-You can check if you package fits in a [CRAN Task View](https://cran.r-project.org/web/views/) and propose the addition of your package.
+You can check if your package fits in a [CRAN Task View](https://cran.r-project.org/web/views/) and propose the addition of your package.
 
 [Packages in the rOpenSci suite are featured on our webpage](/packages/) and we provide pkgdown documentation websites. 
 
