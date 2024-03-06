@@ -36,7 +36,7 @@ If your package is part of the rOpenSci Suite you can [write a blog post or a te
 
 For rOpenSci packages, we collect the [use cases](/usecases) and feature them on the website as well as the package. We also have social media campaigns, for example ["A Package a Day"](https://hachyderm.io/@rOpenSci/tagged/APackageADay) on Mastodon were we feature one package of our suite each day. On LinkedIn we publish every Monday our ["Package Weekly Digest"](https://www.linkedin.com/feed/update/urn:li:activity:7170464303186108416) with a list of five package that belong to the same category.
 
-If you like to give talks, you can speak at an R User Group or R-Ladies Chapter. Organizers invite speakers but most groups are open to offers to give a talk or teach a workshop. Presenting your package at a domain-specific conference is another way to reach users and gain greater exposure. There are also R-specific conferences like useR!, LatinR, satRdays and Posit::Conf. 
+If you like to give talks, you can speak at an R User Group or [R-Ladies Chapter](https://www.meetup.com/pro/rladies/). Organizers invite speakers but most groups are open to offers to give a talk or teach a workshop. Presenting your package at a domain-specific conference is another way to reach users and gain greater exposure. There are also R-specific conferences like useR!, LatinR, satRdays and Posit::Conf. 
 
 
 rOpenSci has two-hour [co-working sessions each month](/coworking/), feel free to contact us if you're interested in hosting a co-working session on a topic related to your package.
@@ -45,11 +45,11 @@ If your package has a broad scope, you can also propose an [rOpenSci Community C
 
 You can check if you package fits in a [CRAN Task View](https://cran.r-project.org/web/views/) and propose the addition of your package.
 
-> [Packages in the rOpenSci suite are featured on our webpage](/packages/) and we provide pkgdown documentation websites. 
+[Packages in the rOpenSci suite are featured on our webpage](/packages/) and we provide pkgdown documentation websites. 
 
-Publishing a paper about your package is an important aspect for academics developers. General R journals for publishing R packages are [The R Journal]() and the [Journal of Statistical Software](), but remember that domain-specific journals may also publish R packages as tools for the field (e.g., [Methods in Ecology and Evolution](https://besjournals.onlinelibrary.wiley.com/journal/2041210x))
+Publishing a paper about your package is an important aspect for academics developers. General R journals for publishing R packages are [The R Journal](https://journal.r-project.org) and the [Journal of Statistical Software](https://www.jstatsoft.org/index), but remember that domain-specific journals may also publish R packages as tools for the field (e.g., [Methods in Ecology and Evolution](https://besjournals.onlinelibrary.wiley.com/journal/2041210x))
 
-> The package that are peer reviwed by rOpenSci have a fast track for publication on the [Journal Open Source Software]().
+The package that are peer reviwed by rOpenSci have a fast track for publication on the [Journal Open Source Software](https://joss.theoj.org).
 
 
 As a package maintainer there are several activities you can implement to advertise your package. If you package is part of rOpenSci's suite, there are also ways we can support you. By implementing some of these options we hope you can effectively reach users who can benefit from your package's functionality.  
