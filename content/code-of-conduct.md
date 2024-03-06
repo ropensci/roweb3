@@ -1,7 +1,7 @@
 +++
 title = "Code of Conduct (English version)"
 description = "rOpenSci Code of Conduct"
-subtitle = "Version 2.4 – July 7, 2022"
+subtitle = "Version 2.5 – January 30, 2024"
 +++
 
 _El código de conducta también está disponible en [español](/es/codigo-de-conducta)._
@@ -47,7 +47,7 @@ This Code of Conduct applies to all people participating in the rOpenSci communi
 
 ### Reporting Guidelines
 
-The rOpenSci Code of Conduct Committee includes [Mark Padgham](/author/mark-padgham) (rOpenSci Software Research Scientist), [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) (rOpenSci Community Manager) and [Kara Woo](https://karawoo.com/) (independent community member).
+The rOpenSci Code of Conduct Committee includes [Natalia Morandeira](https://nmorandeira.netlify.app) (independent community member), [Mark Padgham](/author/mark-padgham) (rOpenSci Software Research Scientist) and [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) (rOpenSci Community Manager).
 
 If you experience or witness unacceptable behavior, or have any other concerns, [please submit a report  to the Committee as soon as possible using this form](https://forms.gle/8zKztThp2yLJ6KYa6). Alternatively, you may email `conduct@ropensci.org`, which will go to the Committee members. You may also make a report directly to one member of the Committee by contacting them directly. If any member of the Committee has a conflict of interest with a report, they will be recused and will not have access to the content or process of the report followup. At an in-person rOpenSci event, please reach out to anyone named as a member of that event-specific Code of Conduct Committee, or to venue staff or security who will be present throughout the event.
 
@@ -59,9 +59,10 @@ We welcome your feedback by email to `conduct@ropensci.org`, and we thank you fo
 
 #### Alumni
 
-We thank Scott Chamberlain, Stefanie Butland, and Megan Carter for their past service on the committee. 
+We thank Scott Chamberlain, Stefanie Butland, Megan Carter and Kara Woo for their past service on the committee. 
 
 #### License and Credits
+
 The rOpenSci Code of Conduct has been influenced by and adapted from many sources including the [Open Source and Feelings talk](https://youtu.be/nizfHxg8y3o) by [Audrey Eschright](https://lifeofaudrey.com/), the R Consortium R Community Diversity and Inclusion Working Group's draft [Code of Conduct](https://github.com/RConsortium/RCDI-WG/blob/0ca0a91dccc9296ff53a5806f52a2a49dbb8850d/conduct/code-of-conduct.md), the [Geek Feminism anti-harassment policy](https://geekfeminism.wikia.com/wiki/Community_anti-harassment/Policy), the [useR! 2021 Code of Conduct](https://user2021.r-project.org/participation/coc/), and our own Community Call: [How do I create a Code of Conduct for my event/lab/codebase?](/commcalls/2016-12-15/)
 
 <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
