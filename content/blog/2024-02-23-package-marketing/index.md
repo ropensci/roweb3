@@ -1,9 +1,9 @@
 ---
-title: Spread the Word About Your Package
+title: Marketing Ideas For Your Package
 author:
 - Yanina Bellini Saibene
 - Maëlle Salmon
-date: '2024-02-23'
+date: '2024-03-06'
 slug: package-marketing
 tags:
 - community
@@ -14,12 +14,14 @@ description: "Now that you have created your package, presenting it to the world
 ---
 
 
-Now that you have created your package, presenting it to the world is a crucial step to **gain visibility and attract users**. In addition to reaching the people your package can support, communicating about your package can help you find people to assist you in maintaining and improving your package, and can help you learn about how people use it.
+Now that you have created your package, presenting it to the world is a crucial step to **gain visibility and attract users**. 
+
+Marketing your package effectively contributes to reaching the people your package can support, finding people to assist you in maintaining and improving your package and allowing you to learn about how people use it.
 
 In this blog post we suggest a series of activities and tools for advertising your package and to reach the people your package can help.   
 
 ## Publish
-
+If you use GitHub, you can [pin your package repository to your profile](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/pinning-items-to-your-profile) so other people can find it quickly. 
 Create a comprehensive [README](https://blog.r-hub.io/2019/12/03/readmes/) which clearly explains what your package does, how to install it, and how users can start using it. Include examples or use cases and (links to) any relevant information which might help users understand how your package can help them. 
 
 [Create a universe on R-universe](/blog/2021/06/22/setup-runiverse/), which will help users by simplifying the installation of your package, and which will provide useful stats and information about it. R-Universe is also a way to showcase your packages collection. You can also [publish it on CRAN](https://cran.r-project.org) which is another way of simplifying the installation for your potential users.
