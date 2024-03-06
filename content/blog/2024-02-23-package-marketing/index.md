@@ -14,7 +14,7 @@ description: "Now that you have created your package, presenting it to the world
 ---
 
 
-Now that you have created your package, presenting it to the world is a crucial step to **gain visibility and attract users**. In addition to reaching the people your package can help, communicating about your package can help you find people to assist you in maintaining and improving your package and learn about how people use it.
+Now that you have created your package, presenting it to the world is a crucial step to **gain visibility and attract users**. In addition to reaching the people your package can support, communicating about your package can help you find people to assist you in maintaining and improving your package, and can help you learn about how people use it.
 
 In this blog post we suggest a series of activities and tools for advertising your package and to reach the people your package can help.   
 
@@ -36,20 +36,21 @@ If your package is part of the rOpenSci Suite you can [write a blog post or a te
 
 For rOpenSci packages, we collect the [use cases](/usecases) and feature them on the website as well as the package. We also have social media campaigns, for example ["A Package a Day"](https://hachyderm.io/@rOpenSci/tagged/APackageADay) on Mastodon were we feature one package of our suite each day. On LinkedIn we publish every Monday our ["Package Weekly Digest"](https://www.linkedin.com/feed/update/urn:li:activity:7170464303186108416) with a list of five package that belong to the same category.
 
-If you like to give talks, you can speak at an R User Group or [R-Ladies Chapter](https://www.meetup.com/pro/rladies/). Organizers invite speakers but most groups are open to offers to give a talk or teach a workshop. Presenting your package at a domain-specific conference is another way to reach users and gain greater exposure. There are also R-specific conferences like useR!, LatinR, satRdays and Posit::Conf. 
+If you like to give talks, you can speak at an R User Group or [R-Ladies Chapter](https://www.meetup.com/pro/rladies/). Organizers invite speakers but most groups are open to offers to give a talk or teach a workshop. Presenting your package at a domain-specific conference is another way to reach users and gain greater exposure. There are also R-specific conferences like [useR!](https://events.linuxfoundation.org/user/), [LatinR](https://latin-r.com/), [satRdays](https://satrdays.org/) and [Posit::Conf](https://posit.co/conference/). 
 
 
 rOpenSci has two-hour [co-working sessions each month](/coworking/), feel free to contact us if you're interested in hosting a co-working session on a topic related to your package.
 
-If your package has a broad scope, you can also propose an [rOpenSci Community Call](/commcalls/) on your package. For example, a community call about [targets](/commcalls/jan2023-targets/) included a panel with two users showing how they use the package and the principal author sharing new insights about the package. Alternatively, consider getting together with other package authors and proposing a domain-related Community Call, covering the use of several, more specific packages (e.g., [Research Applications of rOpenSci Taxonomy and Biodiversity Tools](/commcalls/2019-03-27/)).
+If your package has a broad scope, you can also propose an [rOpenSci Community Call](/commcalls/) on your package. For example, a community call about [targets](/commcalls/jan2023-targets/) included a panel with two users showing how they use the package and the principal author sharing new insights about the package. Alternatively, consider getting together with other package authors and proposing a domain-related Community Call, covering the use of several, more specific packages (for instance, [Research Applications of rOpenSci Taxonomy and Biodiversity Tools](/commcalls/2019-03-27/)).
 
 You can check if your package fits in a [CRAN Task View](https://cran.r-project.org/web/views/) and propose the addition of your package.
 
 [Packages in the rOpenSci suite are featured on our webpage](/packages/) and we provide pkgdown documentation websites. 
 
-Publishing a paper about your package is an important aspect for academics developers. General R journals for publishing R packages are [The R Journal](https://journal.r-project.org) and the [Journal of Statistical Software](https://www.jstatsoft.org/index), but remember that domain-specific journals may also publish R packages as tools for the field (e.g., [Methods in Ecology and Evolution](https://besjournals.onlinelibrary.wiley.com/journal/2041210x))
+Publishing a paper about your package is an important aspect for academics developers. General R journals for publishing R packages are [The R Journal](https://journal.r-project.org) and the [Journal of Statistical Software](https://www.jstatsoft.org/index), but remember that domain-specific journals may also publish R packages as tools for the field (for instance, [Methods in Ecology and Evolution](https://besjournals.onlinelibrary.wiley.com/journal/2041210x))
 
-The package that are peer reviwed by rOpenSci have a fast track for publication on the [Journal Open Source Software](https://joss.theoj.org).
+The package that are peer-reviewed by rOpenSci have a fast track for publication on the [Journal Open Source Software](https://joss.theoj.org).
 
+## Conclusion
 
 As a package maintainer there are several activities you can implement to advertise your package. If you package is part of rOpenSci's suite, there are also ways we can support you. By implementing some of these options we hope you can effectively reach users who can benefit from your package's functionality.  
