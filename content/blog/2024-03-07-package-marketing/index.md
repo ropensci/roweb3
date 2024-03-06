@@ -3,7 +3,7 @@ title: Marketing Ideas For Your Package
 author:
 - Yanina Bellini Saibene
 - Maëlle Salmon
-date: '2024-03-06'
+date: '2024-03-07'
 slug: package-marketing
 tags:
 - community
