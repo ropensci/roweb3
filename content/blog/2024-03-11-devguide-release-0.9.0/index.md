@@ -52,19 +52,19 @@ We have added [tips for packages wrapping web APIs](https://devdevguide.netlify.
 
 Our instructions around [CITATION files](https://devdevguide.netlify.app/pkg_building#citation-file) now reflect the newest CRAN policies.
 
-Our [list of packages helping with testing](https://devdevguide.netlify.app/pkg_building#testing) now includes shinytest2 near shinytest, as shinytest2 is actively developed.
+Our [list of packages helping with testing](https://devdevguide.netlify.app/pkg_building#testing) now includes shinytest2, which we anticipate will ultimately supersede shinytest.
 
 
 ## Improvements to GitHub and CI guidance
  
-Our collaboration guide features more links to [resources about for instance PR reviews, and Git workflows](https://devdevguide.netlify.app/maintenance_collaboration#git-workflow), thanks to [Mauro Lepore](https://github.com/maurolepore).
+Our collaboration chapter features more links to [resources about for instance PR reviews, and Git workflows](https://devdevguide.netlify.app/maintenance_collaboration#git-workflow), thanks to [Mauro Lepore](https://github.com/maurolepore).
 That same chapter now mentions [GitHub Discussions](https://devdevguide.netlify.app/maintenance_collaboration#communication-with-users) as a way to communicate with users, and more details on [issue templates](https://devdevguide.netlify.app/maintenance_collaboration#issue-templates).
 
 [Edward Wallace](https://github.com/ewallace) added an explanation of [continuous integration (CI) in general](https://devdevguide.netlify.app/pkg_ci#what-is-continuous-integration-ci) and of [codecov in particular](https://devdevguide.netlify.app/pkg_ci#coverage), to our CI guide.
 
 ## Better documentation of the process
 
-We now highlight the values (tone) of our system in more places: at the top of the reviewer guide, in the template for review requests, and in the message our bot posts after editors [assign a reviewer](https://github.com/ropensci-org/buffy/pull/77/files).
+We now highlight the values of our system and the tone we strive to achieve in more places: at the top of the reviewer guide, in the template for review requests, and in the message our bot posts after editors [assign a reviewer](https://github.com/ropensci-org/buffy/pull/77/files).
 
 > **rOpenSci’s community is our best asset. 
 We aim for reviews to be open, non-adversarial, and focused on improving software quality. 
@@ -73,7 +73,7 @@ See our reviewers guide and [code of conduct](https://ropensci.org/code-of-condu
 
 [Alexander Fischer](https://github.com/s3alfisc/) added an explanation of package submission via non-default branches to the [guide for authors](https://devdevguide.netlify.app/softwarereview_author) and to the  [guide for reviewers](https://devdevguide.netlify.app/softwarereview_reviewer#general-guidelines).
 
-Our guide reviewers now clearly explains how to [volunteer as a reviewer, in general and for a particular submission](https://devdevguide.netlify.app/softwarereview_reviewer#volunteering-as-a-reviewer).
+Our guide reviewers now clearly explains how to [volunteer as a reviewer, in general or for a particular submission](https://devdevguide.netlify.app/softwarereview_reviewer#volunteering-as-a-reviewer).
 
 ## Conclusion
 
