@@ -65,7 +65,7 @@ Ese mismo capítulo menciona ahora [Discusiones en GitHub](https://devdevguide.n
 
 ## Mejor documentación del proceso
 
-Ahora destacamos los valores de nuestro sistema y el tono que nos esforzamos por conseguir en más lugares: en la parte superior de la guía del revisor, en la plantilla para las solicitudes de revisión y en el mensaje que nuestro bot publica después de que los editores [asignan un reviso](https://github.com/ropensci-org/buffy/pull/77/files).
+Ahora destacamos los valores de nuestro sistema y el tono que nos esforzamos por conseguir en más lugares: en la parte superior de la guía para quienes revisan, en la plantilla para las solicitudes de revisión y en el mensaje que nuestro bot publica después de que quienes editan [asignan las personas que revisaran](https://github.com/ropensci-org/buffy/pull/77/files).
 
 > **La comunidad de rOpenSci es nuestro mejor activo.
 > Nuestro objetivo es que las revisiones sean abiertas, no conflictivas y centradas en mejorar la calidad del software.
