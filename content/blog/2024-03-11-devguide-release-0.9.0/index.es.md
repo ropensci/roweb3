@@ -18,7 +18,7 @@ twitterAlt: cover of rOpenSci dev guide, showing a package production line with 
   humans discussing, examining and promoting packages
 ---
 
-Las orientaciones de la Revisión por Pares de Software rOpenSci se recogen en un [libro en línea](https://devdevguide.netlify.app/booknews) que sigue mejorando.
+Las orientaciones de la Revisión por Pares de Software rOpenSci se recogen en un [libro en línea](https://devdevguide.netlify.app/es/booknews) que sigue mejorando.
 Esta entrada de blog resume las novedades de nuestra Guía de Desarro 0.9.0, con todos los cambios enumerados en la sección [registro de cambios](https://devguide.ropensci.org/booknews.html).
 
 ## ¡Ahora disponible en español!
@@ -54,18 +54,18 @@ Hemos añadido [consejos para paquetes que envuelven APIs web](https://devdevgui
 
 Nuestras instrucciones sobre [Ficheros de CITACIÓN](https://devdevguide.netlify.app/es/pkg_building.es#citation-file) reflejan ahora las nuevas políticas de CRAN.
 
-Nuestro [lista de paquetes que ayudan en las pruebas](https://devdevguide.netlify.app/es/pkg_building.es#testing) incluye ahora shinytest2 cerca de shinytest, ya que shinytest2 se desarrolla activamente.
+Nuestra [lista de paquetes de ayuda a las pruebas](https://devdevguide.netlify.app/es/pkg_building.es#testing) incluye ahora shinytest2, que prevemos que acabará sustituyendo a shinytest.
 
 ## Mejoras en la guía de GitHub y CI
 
-Nuestra guía de colaboración incluye más enlaces a [recursos sobre, por ejemplo, revisiones de RP y flujos de trabajo Git](https://devdevguide.netlify.app/es/maintenance_collaboration.es#git-workflow) gracias a [Mauro Lepore](https://github.com/maurolepore).
+Nuestro capítulo sobre colaboración incluye más enlaces a [recursos sobre, por ejemplo, revisiones de RP y flujos de trabajo Git](https://devdevguide.netlify.app/es/maintenance_collaboration.es#git-workflow) gracias a [Mauro Lepore](https://github.com/maurolepore).
 Ese mismo capítulo menciona ahora [Discusiones en GitHub](https://devdevguide.netlify.app/es/maintenance_collaboration.es#communication-with-users) como forma de comunicarse con los usuarios, y más detalles sobre [plantillas de temas](https://devdevguide.netlify.app/es/maintenance_collaboration.es#issue-templates).
 
 [Edward Wallace](https://github.com/ewallace) añadió una explicación de [la integración continua (IC) en general](https://devdevguide.netlify.app/es/pkg_ci.es#what-is-continuous-integration-ci) y de la [codecov en particular](https://devdevguide.netlify.app/es/pkg_ci.es#coverage) a nuestra guía CI.
 
 ## Mejor documentación del proceso
 
-Ahora destacamos los valores (el tono) de nuestro sistema en más lugares: en la parte superior de la guía del revisor, en la plantilla para las solicitudes de revisión y en el mensaje que nuestro bot publica después de que los editores [asignan un reviso](https://github.com/ropensci-org/buffy/pull/77/files).
+Ahora destacamos los valores de nuestro sistema y el tono que nos esforzamos por conseguir en más lugares: en la parte superior de la guía del revisor, en la plantilla para las solicitudes de revisión y en el mensaje que nuestro bot publica después de que los editores [asignan un reviso](https://github.com/ropensci-org/buffy/pull/77/files).
 
 > **La comunidad de rOpenSci es nuestro mejor activo.
 > Nuestro objetivo es que las revisiones sean abiertas, no conflictivas y centradas en mejorar la calidad del software.
@@ -74,7 +74,7 @@ Ahora destacamos los valores (el tono) de nuestro sistema en más lugares: en la
 
 [Alexander Fischer](https://github.com/s3alfisc/) añadido una explicación sobre el envío de paquetes a través de ramas no predeterminadas a la página [guía para autores](https://devdevguide.netlify.app/es/softwarereview_author.es) y a la [guía para revisores](https://devdevguide.netlify.app/es/softwarereview_reviewer.es#general-guidelines).
 
-Nuestra guía para revisores explica ahora claramente cómo [ofrecerse voluntario como revisor, en general y para una presentación concreta](https://devdevguide.netlify.app/es/softwarereview_reviewer.es#volunteering-as-a-reviewer).
+Nuestra guía de revisión explica ahora claramente cómo [ofrecerse voluntario como revisor, en general o para una presentación concreta](https://devdevguide.netlify.app/es/softwarereview_reviewer.es#volunteering-as-a-reviewer).
 
 ## Conclusión
 
