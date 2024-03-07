@@ -74,7 +74,7 @@ Ahora destacamos los valores de nuestro sistema y el tono que nos esforzamos por
 
 [Alexander Fischer](https://github.com/s3alfisc/) añadido una explicación sobre el envío de paquetes a través de ramas no predeterminadas a la página [guía para autores y autoras](https://devdevguide.netlify.app/es/softwarereview_author.es) y a la [guía para las personas que revisan](https://devdevguide.netlify.app/es/softwarereview_reviewer.es#general-guidelines).
 
-Nuestra guía de revisión explica ahora claramente cómo [ofrecerse voluntario como revisor, en general o para una presentación concreta](https://devdevguide.netlify.app/es/softwarereview_reviewer.es#volunteering-as-a-reviewer).
+Nuestra guía para revisar explica ahora claramente cómo [puedes ofrecerse voluntariamente para revisar, en general y para una presentación concreta](https://devdevguide.netlify.app/es/softwarereview_reviewer.es#volunteering-as-a-reviewer).
 
 ## Conclusión
 
