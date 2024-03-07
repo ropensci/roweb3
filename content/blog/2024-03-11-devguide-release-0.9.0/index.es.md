@@ -15,7 +15,7 @@ description: 'Actualizaciones en la versión 0.9.0 del libro en línea ''Paquete
 twitterImg: img/blog-images/2019-05-16-dev-guide-update/cover.png
 output: ~
 twitterAlt: tapa de la guia de desarrollo de rOpenSci que muestra una line ade produccion de paquetes con personas
-  humans discussing, examining and promoting packages
+  discutiendo, examinando y promoviendo paquets. 
 ---
 
 Las orientaciones de la Revisión por Pares de Software rOpenSci se recogen en un [libro en línea](https://devdevguide.netlify.app/es/booknews) que sigue mejorando.
