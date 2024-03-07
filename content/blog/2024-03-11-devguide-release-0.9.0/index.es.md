@@ -18,7 +18,7 @@ twitterAlt: tapa de la guia de desarrollo de rOpenSci que muestra una line ade p
   discutiendo, examinando y promoviendo paquets. 
 ---
 
-Las orientaciones de la Revisión por Pares de Software rOpenSci se recogen en un [libro en línea](https://devdevguide.netlify.app/es/booknews) que sigue mejorando.
+Las orientaciones de la Revisión por Pares de Software de rOpenSci se compilan en un [libro en línea](https://devdevguide.netlify.app/booknews) que sigue mejorando.
 Esta articulo de blog resume las novedades de nuestra Guía de Desarrollo 0.9.0, con todos los cambios enumerados en la sección [registro de cambios](https://devguide.ropensci.org/booknews.html).
 
 ## ¡Ahora disponible en español!
