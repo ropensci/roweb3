@@ -58,7 +58,7 @@ Nuestra [lista de paquetes de ayuda a las pruebas](https://devdevguide.netlify.a
 
 ## Mejoras en la guía de GitHub y CI
 
-Nuestro capítulo sobre colaboración incluye más enlaces a [recursos sobre, por ejemplo, revisiones de RP y flujos de trabajo Git](https://devdevguide.netlify.app/es/maintenance_collaboration.es#git-workflow) gracias a [Mauro Lepore](https://github.com/maurolepore).
+Nuestro capítulo sobre colaboración incluye más enlaces a [recursos sobre, por ejemplo, revisiones de PR y flujos de trabajo Git](https://devdevguide.netlify.app/es/maintenance_collaboration.es#git-workflow) gracias a [Mauro Lepore](https://github.com/maurolepore).
 Ese mismo capítulo menciona ahora [Discusiones en GitHub](https://devdevguide.netlify.app/es/maintenance_collaboration.es#communication-with-users) como forma de comunicarse las personas que usan el paquete y más detalles sobre [plantillas de _issues_](https://devdevguide.netlify.app/es/maintenance_collaboration.es#issue-templates).
 
 [Edward Wallace](https://github.com/ewallace) añadió una explicación de [la integración continua (CI) en general](https://devdevguide.netlify.app/es/pkg_ci.es#what-is-continuous-integration-ci) y de la [codecov en particular](https://devdevguide.netlify.app/es/pkg_ci.es#coverage) a nuestra guía CI.
