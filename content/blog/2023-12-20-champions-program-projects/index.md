@@ -37,6 +37,7 @@ In their applications Champions choose to develop a new package or to participat
 The other type of project was to develop a new package.
 
 -   **Haydee Svab**, from Brazil, developed a new package called [odbr](https://cran.r-project.org/web/packages/odbr/index.html) that allows accessing and processing data from the Brazilian origin and destination (od) surveys and implements many of the algorithms that Haydee developed for her master's thesis. She has the goal to publish the package on CRAN, and after several attemps, and with the support of her mentor, the package was [published](https://cran.r-project.org/web/packages/odbr/index.html. 
+
 -   **Bilikisu Wunmi Olatunji** from Nigeria, developed the new package [ChartkickR](https://github.com/BWOlatunji/chartkickR). The package is an htmlwidget that seamlessly integrates with the Chartkick JavaScript library. It provides R users with a straightforward interface to generate beautiful and interactive charts using R code. The package provides ten types of plots that you can accomplish with very few lines of code. [You can read more in Bilikisu's blog post](/blog/).
 
 -   **Ghozayel Elotteebi** from Saudi Arabia, worked on a new package called [Lextale](https://ghozayel.github.io/Lextale/). To Ghozayel knowledge, this is the first R package in the field of linguistics developed in Saudi Arabia and would be the first local contribution to rOpenSci. She is working on fixing functionalities on the package to send to the review process. 
@@ -44,7 +45,31 @@ The other type of project was to develop a new package.
 
 ### Outreach Activities
 
-Our champions carried out a wide range of activities: talks, conference papers, workshops, blog articles, community calls and meetups. Let's review some of them.
+Our champions carried out a wide range of outreach activities like talks, conference papers, workshops, blog articles, community calls and meetups. The objective of these activities was to share what they did and learned during the program with their communities beyond rOpenSci.  
+
+Outreach activities were carried out from May 2023 to December 2023 involving local communities (universities, RUGs, R-Ladies Chapters, conferences, and organizations) and delivered in Champions’ native language (English, Spanish, and Portuguese). 
+
+### Workshops
+
+Paola Corrales developed and delivered the online workshop for non-selected applicants on [Git and GitHub](https://paocorrales.github.io/git-developing-software-together/) already giving back to the program. She will teach this workshop for the second cohort.
+
+{{< figure src = "pao-git-github.png" alt = "Paola Corrales sharing a slide about the git workshop" caption = "<strong>Paola Corrales teaching Git for the Champions Program</strong>">}}
+
+Marcos Prunello developed a workshop on [how to create R packages and make them multilingual](https://mpru.github.io/charla_renrosario_2023/crear_paq_multiling.html) in Spanish for an in-person meetup hosted with the National University of Rosario (Argentina) and RenRosario R User Group, reactivating the activities of this local community after a hiatus for the pandemic. 
+
+{{< figure src = "RenRosario.jpeg" alt = "Marcos Prunello and the attendees to his workshop on multilingual packages" caption = "<strong>Attendees to Marcos Prunello's workshop on Multilingual Packages</strong>">}}
+
+
+
+Carolina Pradier, Victor Ordu, Paola Corrales, Haydee Svab (champions), Beatriz Milz, Elio Campitelli, and Adam Spark (mentors) participated as panelists and co-hosts for Community Calls and Co-working sessions for the champions program. They shared their experience, their work, and tips for applying to the program. They also spoke with and joined the community manager in talks with local groups about the program to encourage other people to participate. 
+
+Champions and mentors (Haydee Svab, Bilikisu Wunmi Olatunji, Beatriz Milz, Marcos Prunello, Mauro Lepore, Elio Campitelli, Paola Corrales, and Cesar Aybar) delivered talks on Sao Paulo, Buenos Aires, Abuja and Santa Rosa R-Ladies Chapters, RenRosario and Abuja R User Groups, Universidad Nacional de Rosario (Argentina), LatinR 2023 Conference, Universidad de La Republica (Uruguay), and the Environmental Data Science Book. 
+
+All our champions and mentors wrote blog posts for the rOpenSci webpage (English, Spanish). 
+
+
+
+Activities are also planned for 2024. Stay tuned to learn about them. 
 
 ## Talks and papers
 
