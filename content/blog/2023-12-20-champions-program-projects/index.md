@@ -91,11 +91,7 @@ Activities are also planned for 2024. Stay tuned to learn about them.
 
 
 
-Biblikisu with Chirstina
 
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7113276364912308224" height="362" width="504" frameborder="0" allowfullscreen title="Publicación integrada">
-
-</iframe>
 
 
 ## Acknowledgements
