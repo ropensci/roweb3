@@ -59,11 +59,18 @@ Marcos Prunello developed a workshop on [how to create R packages and make them 
 
 {{< figure src = "RenRosario.jpeg" alt = "Marcos Prunello and the attendees to his workshop on multilingual packages" caption = "<strong>Attendees to Marcos Prunello's workshop on Multilingual Packages</strong>">}}
 
+## Community Calls and Co-working sessions
+
+Carolina Pradier, Victor Ordu, Paola Corrales, Haydee Svab (champions), Beatriz Milz, Elio Campitelli, and Adam Spark (mentors) participated in [Community Calls](/commcalls/july2023-championprogram/) and Co-working sessions for the champions program. They shared their experience, their work, and tips for applying to the program. They also spoke with and joined the community manager in talks with local groups about the program to encourage other people to participate. 
+
+Carolina Pradier also organized an event online in Spanish to get together the community of users and developers of her package eph. In this event ["eph package - news and ideas to use it"](https://vimeo.com/899372049) Carolina updated the community about all the improvements she made to the package under the champions program and three other panelist explain how they use eph.  
+{{< figure src = "eph.jpeg" alt = "Event flyer. Featuring Valentin, Vladimiro and Guido talks titles in Spanish" caption = "<strong>eph event flyer in Spanish</strong>">}}
+
+## Talks
+
+Our champions are part of other communities like R-Ladies, LatinR and R User Groups. They organize severals activitiesChampions and mentors (Haydee Svab, Bilikisu Wunmi Olatunji, Beatriz Milz, Marcos Prunello, Mauro Lepore, Elio Campitelli, Paola Corrales, and Cesar Aybar) delivered talks on Sao Paulo, Buenos Aires, Abuja and Santa Rosa R-Ladies Chapters, RenRosario and Abuja R User Groups, Universidad Nacional de Rosario (Argentina), LatinR 2023 Conference, Universidad de La Republica (Uruguay), and the Environmental Data Science Book. 
 
 
-Carolina Pradier, Victor Ordu, Paola Corrales, Haydee Svab (champions), Beatriz Milz, Elio Campitelli, and Adam Spark (mentors) participated as panelists and co-hosts for Community Calls and Co-working sessions for the champions program. They shared their experience, their work, and tips for applying to the program. They also spoke with and joined the community manager in talks with local groups about the program to encourage other people to participate. 
-
-Champions and mentors (Haydee Svab, Bilikisu Wunmi Olatunji, Beatriz Milz, Marcos Prunello, Mauro Lepore, Elio Campitelli, Paola Corrales, and Cesar Aybar) delivered talks on Sao Paulo, Buenos Aires, Abuja and Santa Rosa R-Ladies Chapters, RenRosario and Abuja R User Groups, Universidad Nacional de Rosario (Argentina), LatinR 2023 Conference, Universidad de La Republica (Uruguay), and the Environmental Data Science Book. 
 
 All our champions and mentors wrote blog posts for the rOpenSci webpage (English, Spanish). 
 
@@ -71,16 +78,6 @@ All our champions and mentors wrote blog posts for the rOpenSci webpage (English
 
 Activities are also planned for 2024. Stay tuned to learn about them. 
 
-## Talks and papers
-
-The first outreach activity was performed by Cesar who presented his package rgeeExtra on BoookDS event.  All the Latin American participant of the champions program wrote a proposal for LatinR 2023 and Haydee present it in a talk.
-
-
-
-
-## Events
-
-## Workshops
 
 
 
@@ -90,9 +87,6 @@ Biblikisu with Chirstina
 
 </iframe>
 
-## Next Steps
-
-## Achievements
 
 ## Acknowledgements
 
