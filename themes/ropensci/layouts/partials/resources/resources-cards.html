@@ -19,9 +19,9 @@
      {{ with $resourcesmember }}
 <div class="col-md-4">
      {{ if or ( eq "ropensci.org" (urls.Parse .url).Host ) ( eq "" (urls.Parse .url).Host ) }}
-            <a href="{{ .url }}" class="resource-card">
+            <a href="{{ .url }}" class="resource-card" {{ with .lang }}hreflang="{{ . }}" {{ end }}>
       {{ else }}
-           <a href="{{ .url }}" target="_blank" class="resource-card arrow-up">
+           <a href="{{ .url }}" target="_blank" class="resource-card arrow-up" {{ with .lang }}hreflang="{{ . }}" {{ end }}>
       {{ end }}
               <span>
                 <strong>{{ .title }}</strong>

@@ -109,7 +109,7 @@ As global movements, Open Source and Open Science face language-based exclusion 
 
 rOpenSci multilingual efforts aim to lower access barriers, democratize quality resources, and increase the possibilities of contributing to open software and science. We successfully piloted our Spanish-language peer review and the localization to Spanish of our comprehensive guide to software development, with Portuguese translation underway.
 
-[Maëlle Salmon](/author/ma%C3%ABlle-salmon/), [Paola Corrales](/author/paola-corrales/), and [Elio Campitelli](/author/elio-campitelli/),  will share the rOpenSci Multilingual project details on this call. Maëlle will present the R packages that allow us to have our content in several languages. Then Elio and Paola will share the translation workflow and show the Translation Guide written to document the process.
+[Maëlle Salmon](/author/ma%C3%ABlle-salmon/), [Paola Corrales](/author/pao-corrales/), and [Elio Campitelli](/author/elio-campitelli/),  will share the rOpenSci Multilingual project details on this call. Maëlle will present the R packages that allow us to have our content in several languages. Then Elio and Paola will share the translation workflow and show the Translation Guide written to document the process.
 
 - [**Multilingual Publishing**:  Tuesday, 21 November 2023 12:00 UTC](/commcalls/nov2023-multilingual/).
 

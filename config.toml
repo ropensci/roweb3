@@ -45,7 +45,7 @@ DefaultContentLanguage = "en"
     projects = ["r-universe", "software-review", "stat-software-review", "champions", "multilingual-publishing"]    
     blogs = ["blog", "technotes"]
     events = ["events", "commcalls"]
-    githubsource = "https://github.com/ropensci/roweb3/tree/HEAD/content/"
+    githubsource = "https://github.com/ropensci/roweb3/blob/main/content/"
     registry = "https://ropensci.github.io/roregistry/registry.json"
     citations = "https://ropensci-org.github.io/ropensci_citations/citations_all_parts_clean.json"
 

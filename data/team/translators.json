@@ -4,7 +4,7 @@
    "image" : "/img/team/elio-campitelli.jpg",
    "affiliation": "Spanish",
    "roles": [
-      "translator"
+      "reviewer"
    ],
    "twitter": "d_olivaw",
    "mastodon": "https://mastodon.social/@eliocamp",
@@ -17,7 +17,7 @@
    "url": "https://paocorrales.github.io/",
    "image" : "/img/team/paola-corrales.png",
    "roles": [
-      "translator"
+      "reviewer"
    ],
    "mastodon": "https://fosstodon.org/@paocorrales",
    "github": "paocorrales",
@@ -29,7 +29,7 @@
    "url": "https://pedro-faria.netlify.app/",
    "image" : "/img/community/pedro-faria.jpg",
    "roles": [
-      "translator"
+      "reviewer"
    ],
    "mastodon": "https://fosstodon.org/@pedropark99",
    "github": "pedropark99",

@@ -2,12 +2,12 @@
 title = "Código de Conducta (versión en español)"
 slug = "codigo-de-conducta"
 description = "Código de Conducta de rOpenSci"
-subtitle = "Versión 2.4 - 7 de Julio de 2022"
+subtitle = "Versión 2.5 - 30 de Enero de 2024"
 +++
 
 _The Code of Conduct is also available in [English](/code-of-conduct)._
 
-La comunidad de rOpenSci es nuestro mejor activo y creemos que nuestra diversidad es nuestra fortaleza. Estamos construyendo una comunidad global amigable y diversa de personas usuarias y desarrolladoras de software de una gama de dominios de investigación. Es tan importante para nosotros que está en [nuestra misión](/about/). Tanto si eres una persona que contribuye regularmente como si eres recién llegada, nos preocupamos por hacer de este un lugar seguro para ti y te cubrimos las espaldas.
+La comunidad de rOpenSci es nuestro mejor activo y creemos que nuestra diversidad es nuestra fortaleza. Estamos construyendo una comunidad global amigable y diversa de personas usuarias y desarrolladoras de software de una gama de dominios de investigación. Es tan importante para rOpenSci que está en [nuestra misión](/about/). Tanto si eres una persona que contribuye regularmente como si eres recién llegada, nos preocupamos por hacer de este un lugar seguro para ti y te cubrimos las espaldas.
 
 rOpenSci se compromete a proporcionar una experiencia segura, inclusiva, acogedora y libre de acoso para todo el mundo.
 
@@ -15,12 +15,12 @@ Intentamos cultivar una comunidad con valores compartidos, donde la gente se sie
 
 Sé considerado al hablar y actuar, y procura reconocer y respetar activamente los límites de las personas que participan en las actividades de rOpenSci.
 
-Cuida de los demás. Alerta a un miembro del Comité del Código de Conducta ( mencionado más abajo) si observas una situación peligrosa, alguien en riesgo o una posible violación de este Código de Conducta, incluso si parece intrascendente.
+Cuida de los demás. Alerta a un integrante del Comité del Código de Conducta (mencionado más abajo) si observas una situación peligrosa, alguien en riesgo o una posible violación de este Código de Conducta, incluso si parece intrascendente.
 
 No toleramos ningún tipo de acoso. Abstente de comportamientos y discursos degradantes, discriminatorios o de acoso. El acoso incluye, pero no se limita a
 
 - comentarios ofensivos relacionados con el género, la identidad y expresión de género, la edad, la orientación sexual, la discapacidad, la apariencia física, el tamaño del cuerpo, la raza, la etnia, la religión (o la falta de ella), la nacionalidad, el idioma nativo o las opciones tecnológicas
-- comentarios inoportunos sobre las opciones y prácticas de estilo de vida de una persona, incluidas las relacionadas con la alimentación, la salud, la crianza de los hijos, las drogas o el empleo
+- comentarios inoportunos sobre las opciones y prácticas de estilo de vida de una persona, incluidas las relacionadas con la alimentación, la salud, la crianza de los/las hijos/as, las drogas o el empleo
 - la interrupción continuada o intencionada de debates, charlas u otros actos, incluyendo discusiones on-line
 - intimidación deliberada
 - continuar una comunicación individual después de pedir que cese
@@ -37,7 +37,7 @@ la publicación no consentida de comunicaciones privadas no acosadoras, incluida
 
 Damos prioridad a la seguridad de las personas marginadas sobre la comodidad de las personas privilegiadas. No actuaremos sobre las quejas relativas a
 
-- ismos "inversos", incluidos el "racismo inverso", el "sexismo inverso" y la "cisfobia
+- ismos "inversos", incluidos el "racismo inverso", el "sexismo inverso" y la "cisfobia"
 - comunicación razonable de límites, como "déjame en paz", "vete" o "no voy a discutir esto contigo"
 - comunicarse en un "tono" que no te parece agradable
 - criticar comportamientos o suposiciones racistas, sexistas, cisexistas o de otro tipo de opresión
@@ -48,9 +48,9 @@ Este Código de Conducta se aplica a todas las personas que participan en la com
 
 ### Directrices para la presentación de informes
 
-El Comité del Código de Conducta de rOpenSci incluye a [Mark Padgham](/autor/mark-padgham) (Científico de Investigación de Software de rOpenSci), [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) (Community Manager de rOpenSci) y [Kara Woo](https://karawoo.com/) (miembro independiente de la comunidad).
+El Comité del Código de Conducta de rOpenSci incluye a [Natalia Morandeira](https://nmorandeira.netlify.app) (integrante independiente de la comunidad), [Mark Padgham](/autor/mark-padgham) (Científico de Investigación de Software de rOpenSci) y [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) (Community Manager de rOpenSci).
 
-Si experimentas o eres testigo de un comportamiento inaceptable, o tienes cualquier otra preocupación, [por favor, envía un informe al Comité tan pronto como sea posible utilizando este formulario](https://forms.gle/8zKztThp2yLJ6KYa6). También puede enviar un correo electrónico a `conduct@ropensci.org`, que llegará a los miembros del Comité. También puede presentar un informe directamente a un miembro del Comité poniéndose en contacto con él directamente. Si algún miembro del Comité tiene un conflicto de intereses con un informe, será recusado y no tendrá acceso al contenido o al proceso de seguimiento del informe. 
+Si experimentas o eres testigo de un comportamiento inaceptable, o tienes cualquier otra preocupación, [por favor, envía un informe al Comité tan pronto como sea posible utilizando este formulario](https://forms.gle/8zKztThp2yLJ6KYa6). También puede enviar un correo electrónico a `conduct@ropensci.org`, que llegará a los miembros del Comité. También puede presentar un informe directamente a un/una integrante del Comité poniéndose en contacto con esa persona directamente. Si alguna persona integrante del Comité tiene un conflicto de intereses con un informe, será recusada y no tendrá acceso al contenido o al proceso de seguimiento del informe. 
 
 En un evento presencial de rOpenSci, por favor, dirígete a cualquier persona nombrada como miembro del Comité del Código de Conducta específico de ese evento, o al personal del lugar o a la seguridad que estará presente durante el evento.
 
@@ -62,7 +62,8 @@ Agradecemos tus comentarios por correo electrónico a `conduct@ropensci.org`, y 
 
 #### Alumni
 
-Agradecemos a Scott Chamberlain, Stefanie Butland y a  Megan Carter sus servicios en el pasado en el comité.
+Agradecemos a Scott Chamberlain, Stefanie Butland, Megan Carter y a Kara Woo sus servicios en el pasado en el comité.
+
 
 #### Licencia y créditos
 El Código de Conducta de rOpenSci ha sido influenciado y adaptado de muchas fuentes, incluyendo la [Charla sobre Código Abierto y Sentimientos](https://youtu.be/nizfHxg8y3o) de [Audrey Eschright](https://lifeofaudrey.com/), el borrador del [Código de Conducta](https://github.com/RConsortium/RCDI-WG/blob/0ca0a91dccc9296ff53a5806f52a2a49dbb8850d/conduct/code-of-conduct.md) del Grupo de Trabajo de Diversidad e Inclusión de la Comunidad R del Consorcio R , la [Política antiacoso del Feminismo Geek](https://geekfeminism.wikia.com/wiki/Community_anti-harassment/Policy), el [Código de Conducta de useR! 2021](https://user2021.r-project.org/participation/coc/) y nuestro propio Llamado a la Comunidad: [Cómo crear un Código de Conducta para mi evento/laboratorio/código fuente](/commcalls/2016-12-15/)
