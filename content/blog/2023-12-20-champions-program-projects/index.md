@@ -59,7 +59,9 @@ Marcos Prunello developed a workshop on [how to create R packages and make them 
 
 {{< figure src = "RenRosario.jpeg" alt = "Marcos Prunello and the attendees to his workshop on multilingual packages" caption = "<strong>Attendees to Marcos Prunello's workshop on Multilingual Packages</strong>">}}
 
-Bilikisu Wunmi Olatunji delivered a workshop on 
+Bilikisu Wunmi Olatunji delivered a workshop on _Working with JavaScript in R_ for the R-Ladies Abuja chapter. She have to learn this topic for the development of her package for the Champions Program.
+
+{{< figure src = "r-ladies-abuja-meetup.jpeg" alt = "Workshop flyer for the Abuja R-Ladies Chapter featuring Bilikisu" caption = "<strong>R-Ladies Abuja flyer for the Workshop Working with JavaScript in R</strong>">}}
 
 ## Community Calls and Co-working sessions
 
@@ -74,7 +76,7 @@ Our champions are part of other communities like R-Ladies, LatinR and R User Gro
 
 Cesar Aybar delivered the talk ["Preparing remote sensing data for deep learning using r-spatial"](https://docs.google.com/presentation/d/1Ws2o5WwcRMcYd9YjKcfyLv5X4lOAwJztEU1sMRADTVk/edit#slide=id.p) for the Environmental Data Science Book.  
 
-Bilikisu Wunmi Olatunji 
+Marcos talks about [rOpenSci](https://mpru.github.io/charla_renrosario_2023/presentacion_ropensci.html) in Spanish was part of a meetup with RenRosario RUG and the Universidad Nacional de Rosario. 
 
 Champions and mentors (Haydee Svab, , Beatriz Milz, Marcos Prunello, Mauro Lepore, Elio Campitelli, Paola Corrales, and ) delivered talks on Sao Paulo, Buenos Aires, Abuja and Santa Rosa R-Ladies Chapters, RenRosario and Abuja R User Groups, Universidad Nacional de Rosario (Argentina), LatinR 2023 Conference, Universidad de La Republica (Uruguay), and 
 
