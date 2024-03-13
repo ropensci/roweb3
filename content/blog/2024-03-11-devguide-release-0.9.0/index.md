@@ -1,5 +1,5 @@
 ---
-title: "rOpenSci Dev Guide 0.9.0: Multingual Now! And Better"
+title: "rOpenSci Dev Guide 0.9.0: Multilingual Now! And Better"
 author:
   - Maëlle Salmon
   - Mark Padgham
