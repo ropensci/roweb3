@@ -65,9 +65,12 @@ Bilikisu Wunmi Olatunji delivered a workshop on _Working with JavaScript in R_ f
 
 ## Community Calls and Co-working sessions
 
-Carolina Pradier, Victor Ordu, Paola Corrales, Haydee Svab (champions), Beatriz Milz, Elio Campitelli, and Adam Spark (mentors) participated in [Community Calls](/commcalls/july2023-championprogram/) and Co-working sessions for the champions program. They shared their experience, their work, and tips for applying to the program. They also spoke with and joined the community manager in talks with local groups about the program to encourage other people to participate. 
+Carolina Pradier, Victor Ordu, Paola Corrales, Haydee Svab (champions), Beatriz Milz, Elio Campitelli, and Adam Spark (mentors) participated in [Community Calls](/commcalls/july2023-championprogram/) and [Co-working sessions ](https://ropensci.org/coworking/) for the champions program. They shared their experience, their work, and tips for applying to the program. They also spoke with and joined the community manager in talks with local groups about the program to encourage other people to participate. 
 
-Carolina Pradier also organized an event online in Spanish to get together the community of users and developers of her package eph. In this event ["eph package - news and ideas to use it"](https://vimeo.com/899372049) Carolina updated the community about all the improvements she made to the package under the champions program and three other panelist explain how they use eph.  
+{{< figure src = "R-Ladies-BASR-Meetup.png" alt = "A post in social media that shows Pao Corrales sharing her experience being a champions at the R-Ladies Buenos Aires and Santa Rosa meetup. The zoom meeting shows a slides with the training topics of the champions program" caption = "<strong>Pao Corrales sharing her experience being a champions at the R-Ladies Buenos Aires and Santa Rosa meetup</strong>">}}
+
+Carolina Pradier also organized an event online in Spanish to get together the community of users and developers of her package eph. In this event ["eph package - news and ideas to use it"](https://vimeo.com/899372049) Carolina updated the community about all the improvements she made to the package under the champions program and three other panelist explain how they use eph.
+
 {{< figure src = "eph.jpeg" alt = "Event flyer. Featuring Valentin, Vladimiro and Guido talks titles in Spanish" caption = "<strong>eph event flyer in Spanish</strong>">}}
 
 ## Talks
@@ -78,7 +81,9 @@ Cesar Aybar delivered the talk ["Preparing remote sensing data for deep learning
 
 Marcos talks about [rOpenSci](https://mpru.github.io/charla_renrosario_2023/presentacion_ropensci.html) in Spanish was part of a meetup with RenRosario RUG and the Universidad Nacional de Rosario. 
 
-Champions and mentors (Haydee Svab, , Beatriz Milz, Marcos Prunello, Mauro Lepore, Elio Campitelli, Paola Corrales, and ) delivered talks on Sao Paulo, Buenos Aires, Abuja and Santa Rosa R-Ladies Chapters, RenRosario and Abuja R User Groups, Universidad Nacional de Rosario (Argentina), LatinR 2023 Conference, Universidad de La Republica (Uruguay), and 
+Haydee Svab and Beatriz Milz organized an in person event with R-Ladies Sao Paulo
+
+Champions and mentors (, , , Marcos Prunello, Mauro Lepore, Elio Campitelli, Paola Corrales, and ) delivered talks on , Buenos Aires, Abuja and Santa Rosa R-Ladies Chapters, RenRosario and Abuja R User Groups, Universidad Nacional de Rosario (Argentina), LatinR 2023 Conference, Universidad de La Republica (Uruguay), and 
 
 
 
