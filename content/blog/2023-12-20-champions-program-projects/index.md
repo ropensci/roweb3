@@ -4,7 +4,7 @@ slug: "champions-program-training"
 author:
   - Yanina Bellini Saibene
 
-date: '2024-01-30'
+date: '2024-03-22'
 tags:
   - community
   - champions program
@@ -43,7 +43,7 @@ The other type of project was to develop a new package.
 -   **Ghozayel Elotteebi** from Saudi Arabia, worked on a new package called [Lextale](https://ghozayel.github.io/Lextale/). To Ghozayel knowledge, this is the first R package in the field of linguistics developed in Saudi Arabia and would be the first local contribution to rOpenSci. She is working on fixing functionalities on the package to send to the review process. 
 
 
-### Outreach Activities
+## Outreach Activities
 
 Our champions carried out a wide range of outreach activities like talks, conference papers, workshops, blog articles, community calls and meetups. The objective of these activities was to share what they did and learned during the program with their communities beyond rOpenSci.  
 
@@ -63,7 +63,7 @@ Bilikisu Wunmi Olatunji delivered a workshop on _Working with JavaScript in R_ f
 
 {{< figure src = "r-ladies-abuja-meetup.jpeg" alt = "Workshop flyer for the Abuja R-Ladies Chapter featuring Bilikisu" caption = "<strong>R-Ladies Abuja flyer for the Workshop Working with JavaScript in R</strong>">}}
 
-## Community Calls and Co-working sessions
+### Community Calls and Co-working sessions
 
 Carolina Pradier, Victor Ordu, Paola Corrales, Haydee Svab (champions), Beatriz Milz, Elio Campitelli, and Adam Spark (mentors) participated in [Community Calls](/commcalls/july2023-championprogram/) and [Co-working sessions ](https://ropensci.org/coworking/) for the champions program. They shared their experience, their work, and tips for applying to the program. They also spoke with and joined the community manager in talks with local groups about the program to encourage other people to participate. 
 
@@ -73,30 +73,25 @@ Carolina Pradier also organized an event online in Spanish to get together the c
 
 {{< figure src = "eph.jpeg" alt = "Event flyer. Featuring Valentin, Vladimiro and Guido talks titles in Spanish" caption = "<strong>eph event flyer in Spanish</strong>">}}
 
-## Talks
+### Talks
 
 Our champions are part of other communities like R-Ladies, LatinR and R User Groups. They organize severals activities with these groups. 
 
 Cesar Aybar delivered the talk ["Preparing remote sensing data for deep learning using r-spatial"](https://docs.google.com/presentation/d/1Ws2o5WwcRMcYd9YjKcfyLv5X4lOAwJztEU1sMRADTVk/edit#slide=id.p) for the Environmental Data Science Book.  
 
-Marcos talks about [rOpenSci](https://mpru.github.io/charla_renrosario_2023/presentacion_ropensci.html) in Spanish was part of a meetup with RenRosario RUG and the Universidad Nacional de Rosario. 
+{{< figure src = "cesar-talk.png" alt = "Event flyer. Featuring Cesar headshor picture and his talk title Preparing remote sensing data for deep learning using r-spatial. May 8. 9:00-10:00 UTC+1 - Register on Eventbrite." caption = "<strong>Cesar's talk event flyer</strong>">}}
 
-Haydee Svab and Beatriz Milz organized an in person event with R-Ladies Sao Paulo
+Marcos Prunello talks about [rOpenSci](https://mpru.github.io/charla_renrosario_2023/presentacion_ropensci.html) in Spanish was part of a meetup with RenRosario RUG and the Universidad Nacional de Rosario. 
 
-Champions and mentors (, , , Marcos Prunello, Mauro Lepore, Elio Campitelli, Paola Corrales, and ) delivered talks on , Buenos Aires, Abuja and Santa Rosa R-Ladies Chapters, RenRosario and Abuja R User Groups, Universidad Nacional de Rosario (Argentina), LatinR 2023 Conference, Universidad de La Republica (Uruguay), and 
+{{< figure src = "RenRosario-Meetup.jpeg" alt = "Event flyer in Spanish. Featuring Marcos talk title Que es rOpenSci y como ser parte. A short bio about Marcos and information on the event venue in the Universidad Nacional de Rosario." caption = "<strong>Marco's talk event flyer</strong>">}}
 
+Haydee Svab and Beatriz Milz organized an in person event with R-Ladies Sao Paulo in portuguese [Pacotes em R de dados brasileiros](https://r-ladies-sao-paulo.github.io/2023-11-pacotes-br/) where Haydee delivered a talk about the rOpenSci Champions Program and the odbr package she developed as her project in the program. The event also highlight others women package developers from Brazil. This blog post (in [Portuguese](https://rladies-sp.org/posts/2023-12-evento-pacotes/) and [English](https://rladies-sp.org/posts/2023-12-evento-pacotes/english.html)) summarize the event and share the slides of all the talks. 
 
+{{< figure src = "R-Ladies-SaoPaulo.jpg" alt = "R-Ladies Sao Paulo attendees' group photo. The gropu is around 30 people smiling. Haydee is wearing an R-Ladies T-shirt" caption = "<strong>R-Ladies Sao Paulo event group photo</strong>">}}
 
 All our champions and mentors wrote blog posts for the rOpenSci webpage (English, Spanish). 
 
-
-
-Activities are also planned for 2024. Stay tuned to learn about them. 
-
-
-
-
-
+Our champions have activities planned for 2024. Stay tuned to learn about them! 
 
 
 ## Acknowledgements
