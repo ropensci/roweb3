@@ -14,7 +14,7 @@ tags:
 ---
 
 rOpenSci's [second cohort of Champions has been onboarded](/blog/2024/02/15/champions-program-champions-2024/)!
-Their training first started with a [session on code style](/blog/2024/02/22/beautiful-code/) and was followed by a session on [advanced R package development](https://rpkgdev-rocket-2024.netlify.app/), which consisted of a potpourri of tips with discussion, followed by time for applying these principles to the participants' packages.
+Their training first started with a [session on code style](/blog/2024/02/22/beautiful-code/), was followed by three sessions on the basics of R package development, and ended with a session on [advanced R package development](https://rpkgdev-rocket-2024.netlify.app/), which consisted of a potpourri of tips with discussion, followed by time for applying these principles to the participants' packages.
 Here, I want to share one of the topics covered: Package testing, and in particular, the DRY ("don't repeat yourself") and DAMP ("descriptive and meaningful phrases") principles.
 For this topic, we used a [GitHub repository](https://github.com/maelle/swamp), containing an R package whose different commits illustrate the two principles. In each step we'll share a commit or diff illustrating the changes made.
 
