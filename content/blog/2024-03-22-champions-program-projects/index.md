@@ -1,6 +1,6 @@
 ---
 title: "rOpenSci Champions Pilot Year: Projects Wrap-Up"
-slug: "champions-program-training"
+slug: "champions-program-projects-cohort1"
 author:
   - Yanina Bellini Saibene
 
@@ -8,7 +8,7 @@ date: '2024-03-22'
 tags:
   - community
   - champions program
-description: ""
+description: "Our first cohort of Champions complete the program. In this blog post, we share each champions projects, their achievements and outreach activities."
 ---
 
 Our first cohort of the [rOpenSci Champions Program](/champions/) has now completed the second phase of the program by developing their project and carrying out outreach activities. In this article, we share each champions projects, their achievements and outreach activities.
