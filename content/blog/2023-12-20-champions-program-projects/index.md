@@ -92,15 +92,14 @@ All the latin american participant of the program [wrote a summary about their e
 
 All our champions and mentors wrote blog posts for the rOpenSci webpage ([English](https://ropensci.org/tags/champions-program/), [Spanish](https://ropensci.org/es/tags/champions-program/)). 
 
-Our champions have activities planned for 2024. Stay tuned to learn about them! 
-
 ## Closing the program and next steps
 
 Our champions have been very successful in the delivery of their projects, building high quality software with focus on their countries and discipline. They work impact also spread to their home institutions and related communities that they participate in. Not only because of the outreach activities sharing information and knowledge contextualized for their audience, but also for researching and developing solutions to common problems for participation such as language. 
 
-## Acknowledgements
+Most of our champions will continue engage with rOpenSci, they already have activities planned for 2024. Stay tuned to learn about them! 
 
-The rOpenSci Champions Program is funded by [The Chan Zuckerberg Initiative](https://chanzuckerberg.com/). This phase of the Champions Program was made possible by the work and feedback of many people.
+## Acknowledgements
 
 We want to thank the [CSCCE](https://www.cscce.org/) team, especially *Lou Woodley*, *Camille Santistevan*, and *Maya Sanghvi*, for their support in designing the overall program.
 
+The rOpenSci Champions Program is funded by [The Chan Zuckerberg Initiative](https://chanzuckerberg.com/). This phase of the Champions Program was made possible by the work and feedback of many people.
