@@ -88,12 +88,15 @@ Haydee Svab and Beatriz Milz organized an in person event with R-Ladies Sao Paul
 
 {{< figure src = "R-Ladies-SaoPaulo.jpg" alt = "R-Ladies Sao Paulo attendees' group photo. The gropu is around 30 people smiling. Haydee is wearing an R-Ladies T-shirt" caption = "<strong>R-Ladies Sao Paulo event group photo</strong>">}}
 
+All the latin american participant of the program [wrote a summary about their expericience on the program](https://ropensci.org/es/blog/2024/01/09/champions-program-latinr/) that was accepted at LatinR and [presented in Universidad de La Republica (Uruguay) by Haydee Svab in Portuguese representing all the authors](https://hsvab.github.io/latinr2023-championsprogram/#/). 
 
-
-All our champions and mentors wrote blog posts for the rOpenSci webpage (English, Spanish). 
+All our champions and mentors wrote blog posts for the rOpenSci webpage ([English](https://ropensci.org/tags/champions-program/), [Spanish](https://ropensci.org/es/tags/champions-program/)). 
 
 Our champions have activities planned for 2024. Stay tuned to learn about them! 
 
+## Closing the program and next steps
+
+Our champions have been very successful in the delivery of their projects, building high quality software with focus on their countries and discipline. They work impact also spread to their home institutions and related communities that they participate in. Not only because of the outreach activities sharing information and knowledge contextualized for their audience, but also for researching and developing solutions to common problems for participation such as language. 
 
 ## Acknowledgements
 
