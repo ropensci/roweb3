@@ -124,7 +124,7 @@ The balance between DRY ("Don't repeat yourself") and DAMP ("Descriptive and mea
 To keep the water analogy, we also need to ensure that our code doesn't have effects which may 'leak' unexpectedly.
 What we should strive for are self-contained tests that we can understand and run without too much context.
 
-Another consideration we haven't covered here, are tests that require specific elements, such as environment variables or options. In those cases try using [withr](https://withr.r-lib.org/) functions such as `[withr::local_envvar()](https://withr.r-lib.org/reference/with_envvar.html)` in each test that requires it.
+Another consideration we haven't covered here, are tests that require specific elements, such as environment variables or options. In those cases try using [withr](https://withr.r-lib.org/) functions such as [`withr::local_envvar()`](https://withr.r-lib.org/reference/with_envvar.html) in each test that requires it.
 
 One powerful idea from the book ["Software Engineering at Google"](https://www.oreilly.com/library/view/software-engineering-at/9781492082781/) by Titus Winters, Tom Manshreck, and Hyrum Wright, is that code can afford to be a bit less obvious because it has tests covering it, but test code, which isn't covered by tests, does not have this luxury.
 
