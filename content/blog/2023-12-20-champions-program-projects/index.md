@@ -69,9 +69,8 @@ Carolina Pradier, Victor Ordu, Paola Corrales, Haydee Svab (champions), Beatriz 
 
 {{< figure src = "R-Ladies-BASR-Meetup.png" alt = "A post in social media that shows Pao Corrales sharing her experience being a champions at the R-Ladies Buenos Aires and Santa Rosa meetup. The zoom meeting shows a slides with the training topics of the champions program" caption = "<strong>Pao Corrales sharing her experience being a champions at the R-Ladies Buenos Aires and Santa Rosa meetup</strong>">}}
 
-Carolina Pradier also organized an event online in Spanish to get together the community of users and developers of her package eph. In this event ["eph package - news and ideas to use it"](https://vimeo.com/899372049) Carolina updated the community about all the improvements she made to the package under the champions program and three other panelist explain how they use eph.
+Carolina Pradier also organized [an event online in Spanish](https://vimeo.com/899372049) to get together the community of users and developers of her package eph. In this event Carolina updated the community about all the improvements she made to the package under the champions program and three panelist explain how they use the package.
 
-{{< figure src = "eph.jpeg" alt = "Event flyer. Featuring Valentin, Vladimiro and Guido talks titles in Spanish" caption = "<strong>eph event flyer in Spanish</strong>">}}
 
 ### Talks
 
@@ -81,13 +80,15 @@ Cesar Aybar delivered the talk ["Preparing remote sensing data for deep learning
 
 {{< figure src = "cesar-talk.png" alt = "Event flyer. Featuring Cesar headshor picture and his talk title Preparing remote sensing data for deep learning using r-spatial. May 8. 9:00-10:00 UTC+1 - Register on Eventbrite." caption = "<strong>Cesar's talk event flyer</strong>">}}
 
-Marcos Prunello talks about [rOpenSci](https://mpru.github.io/charla_renrosario_2023/presentacion_ropensci.html) in Spanish was part of a meetup with RenRosario RUG and the Universidad Nacional de Rosario. 
+Marcos Prunello talks about [rOpenSci](https://mpru.github.io/charla_renrosario_2023/presentacion_ropensci.html) in Spanish was part of a meetup with RenRosario RUG and the Universidad Nacional de Rosario and Carolina Pradier delivered a talk about her project [Paquete {eph}: Novedades e ideas para su uso](https://caropradier.github.io/slides_eph_ropensci/#1). 
 
-{{< figure src = "RenRosario-Meetup.jpeg" alt = "Event flyer in Spanish. Featuring Marcos talk title Que es rOpenSci y como ser parte. A short bio about Marcos and information on the event venue in the Universidad Nacional de Rosario." caption = "<strong>Marco's talk event flyer</strong>">}}
+{{< figure src = "flyers.png" alt = "Events flyers in Spanish. eph event featuring Valentin, Vladimiro and Guido talks titles in Spanish.  Second flyer shows a short bio about Marcos and information on the event venue in the Universidad Nacional de Rosario. Marcos' talk title Que es rOpenSci y como ser parte." caption = "<strong>eph and RenRosario event flyers in Spanish</strong>">}}
 
 Haydee Svab and Beatriz Milz organized an in person event with R-Ladies Sao Paulo in portuguese [Pacotes em R de dados brasileiros](https://r-ladies-sao-paulo.github.io/2023-11-pacotes-br/) where Haydee delivered a talk about the rOpenSci Champions Program and the odbr package she developed as her project in the program. The event also highlight others women package developers from Brazil. This blog post (in [Portuguese](https://rladies-sp.org/posts/2023-12-evento-pacotes/) and [English](https://rladies-sp.org/posts/2023-12-evento-pacotes/english.html)) summarize the event and share the slides of all the talks. 
 
 {{< figure src = "R-Ladies-SaoPaulo.jpg" alt = "R-Ladies Sao Paulo attendees' group photo. The gropu is around 30 people smiling. Haydee is wearing an R-Ladies T-shirt" caption = "<strong>R-Ladies Sao Paulo event group photo</strong>">}}
+
+
 
 All our champions and mentors wrote blog posts for the rOpenSci webpage (English, Spanish). 
 
