@@ -34,12 +34,11 @@ In their applications Champions choose to develop a new package or to participat
 
 ### Projects developing new packages
 
-
 -   **Haydee Svab**, from Brazil, developed a new package called [odbr](https://cran.r-project.org/web/packages/odbr/index.html) that helps with accessing and processing data from the Brazilian origin and destination (od) surveys and implements many of the algorithms that Haydee developed for her master's thesis. She had the goal to publish the package on CRAN, and after several attempts, and with the support of her mentor, [Beatriz Milz](/author/beatriz-milz/) from Brazil, the package was [published](https://cran.r-project.org/web/packages/odbr/index.html). 
 
 -   **Bilikisu Wunmi Olatunji** from Nigeria, developed the new package [chartkickR](https://github.com/BWOlatunji/chartkickR). The package is an htmlwidget that seamlessly integrates with the Chartkick JavaScript library. It provides R users with a straightforward interface to generate beautiful and interactive charts using R code. The package provides ten types of plots that you can produce with very few lines of code. [You can read more in Bilikisu's blog post](/blog/2023/12/19/champions-program-2023-experience/). Her mentor was [Christina Maimone](/author/christina-maimone/) from the US.
 
--   **Ghozayel Elotteebi** from Saudi Arabia, worked on a new package called [Lextale](https://ghozayel.github.io/Lextale/). To Ghozayel's knowledge, this is the first R package in the field of linguistics developed in Saudi Arabia and would be the first local contribution to rOpenSci. She is working on polishing the package functionality in order to send it through the review process. Her mentor was [Zebulun Arendsee](/author/zebulun-arendsee/).
+-   **Ghozayel Elotteebi** from Saudi Arabia, worked on a new package called [Lextale](https://ghozayel.github.io/Lextale/). To Ghozayel's knowledge, this is the first R package in the field of linguistics developed in Saudi Arabia and would be the first local contribution to rOpenSci. She is working on polishing the package functionality in order to send it through the review process. Her mentor was [Zebulun Arendsee](/author/zebulun-arendsee/) from the US.
 
 
 ## Outreach Activities
@@ -66,7 +65,7 @@ Bilikisu Wunmi Olatunji delivered a workshop on _Working with JavaScript in R_ f
 
 Carolina Pradier, Victor Ordu, Paola Corrales, Haydee Svab (Champions), Beatriz Milz, Elio Campitelli, and Adam Spark (mentors) participated in [Community Calls](/commcalls/july2023-championprogram/) and [Coworking sessions ](/coworking/) for the Champions Program. They shared their experience, their work, and tips for applying to the program. They also spoke with and joined the community manager in talks with local groups about the program to encourage other people to participate. 
 
-{{< figure src = "R-Ladies-BASR-Meetup.png" alt = "A post in social media that shows Pao Corrales sharing her experience being a champions at the R-Ladies Buenos Aires and Santa Rosa meetup. The zoom meeting shows a slides with the training topics of the champions program" caption = "<strong>Pao Corrales sharing her experience being a Champion at the R-Ladies Buenos Aires and Santa Rosa meetup</strong>">}}
+{{< figure src = "comm_call.png" alt = "Community Call Speaker details. A head shoot of Beatriz, Carolina and Victor and a short bio about each of them." caption = "<strong>Carolina, Victor and Beatriz as speaker of the community call about the champions program.</strong>">}}
 
 Carolina Pradier also organized [an online event in Spanish](https://vimeo.com/899372049) for the community of users and developers of her package eph. In this event Carolina updated the community about all the improvements she made to the package through the Champions Program and three panelists explained how they use the package.
 
