@@ -4,7 +4,7 @@ slug: "champions-program-projects-cohort1"
 author:
   - Yanina Bellini Saibene
 
-date: '2024-03-22'
+date: '2024-03-20'
 tags:
   - community
   - champions program
