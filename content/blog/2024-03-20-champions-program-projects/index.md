@@ -59,13 +59,13 @@ Marcos Prunello developed a workshop on [how to create R packages and make them 
 
 Bilikisu Wunmi Olatunji delivered a workshop on _Working with JavaScript in R_ for the R-Ladies Abuja chapter. She learned about this topic for the development of her package for the Champions Program.
 
-{{< figure src = "r-ladies-abuja-meetup.jpeg" alt = "Workshop flyer for the Abuja R-Ladies Chapter featuring Bilikisu" caption = "<strong>R-Ladies Abuja flyer for the Workshop Working with JavaScript in R</strong>">}}
+{{< figure src = "r-ladies-abuja-meetup.jpeg" alt = "Workshop flyer for the Abuja R-Ladies Chapter featuring Bilikisu" caption = "<strong>R-Ladies Abuja flyer for the Workshop Working with JavaScript in R</strong>" class = "center" >}}
 
 ### Community Calls and Coworking sessions
 
 Carolina Pradier, Victor Ordu, Paola Corrales, Haydee Svab (Champions), Beatriz Milz, Elio Campitelli, and Adam Spark (mentors) participated in [Community Calls](/commcalls/july2023-championprogram/) and [Coworking sessions ](/coworking/) for the Champions Program. They shared their experience, their work, and tips for applying to the program. They also spoke with and joined the community manager in talks with local groups about the program to encourage other people to participate. 
 
-{{< figure src = "comm_call.png" alt = "Community Call Speaker details. A head shoot of Beatriz, Carolina and Victor and a short bio about each of them." caption = "<strong>Carolina, Victor and Beatriz as speaker of the community call about the champions program.</strong>">}}
+{{< figure src = "comm_call.png" alt = "Community Call Speaker details. A head shoot of Beatriz, Carolina and Victor and a short bio about each of them." caption = "<strong>Carolina, Victor and Beatriz as speaker of the community call about the champions program.</strong>" class = "center" >}}
 
 Carolina Pradier also organized [an online event in Spanish](https://vimeo.com/899372049) for the community of users and developers of her package eph. In this event Carolina updated the community about all the improvements she made to the package through the Champions Program and three panelists explained how they use the package.
 
