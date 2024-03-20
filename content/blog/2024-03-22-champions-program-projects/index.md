@@ -44,7 +44,7 @@ In their applications Champions choose to develop a new package or to participat
 
 ## Outreach Activities
 
-Our champions carried out a wide range of outreach activities like talks, conference papers, workshops, blog articles, community calls and meetups. The objective of these activities was to share what they did and learned during the program with their communities beyond rOpenSci.  
+Our Champions carried out a wide range of outreach activities like talks, conference papers, workshops, blog articles, community calls and meetups. The objective of these activities was to share what they did and learned during the program with their communities beyond rOpenSci.  
 
 Outreach activities were carried out from May 2023 to December 2023 involving local communities (universities, RUGs, R-Ladies Chapters, conferences, and organizations) and delivered in Champions’ native language (English, Spanish, and Portuguese). 
 
