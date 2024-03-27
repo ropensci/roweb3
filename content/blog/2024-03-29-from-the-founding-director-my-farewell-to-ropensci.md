@@ -3,7 +3,7 @@ title: "From the Founding Director: My Farewell to rOpenSci"
 slug: from-the-founding-director-my-farewell-to-ropensci
 author:
   - Karthik Ram
-date: '2024-03-28'
+date: '2024-03-29'
 tags:
   - transitions
   - leadership
