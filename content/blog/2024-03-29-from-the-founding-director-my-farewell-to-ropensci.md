@@ -11,7 +11,6 @@ featured: true
 description: "Karthik Ram steps down as Executive Director after 13 years"
 ---
 
-
 Dear rOpenSci community,
 
 This is a bit of a bittersweet announcement... After nearly 13 years, it's time for me to step down as the Executive Director of rOpenSci.
@@ -28,4 +27,4 @@ I'm incredibly excited to see what the future holds for rOpenSci. There's so muc
 
 Thank you for your support, collaboration, and inspiration throughout these years. Here's to the next chapter of innovation and discovery in the rOpenSci community!
 
-[_Read a post from our incoming director, Noam Ross_](https://ropensci.org/blog/post)
+[_Read a post from our incoming director, Noam Ross_](https://ropensci.org/blog/2023/03/29/hello-from-our-new-executive-director/)
