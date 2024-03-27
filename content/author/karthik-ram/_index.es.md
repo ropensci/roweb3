@@ -4,6 +4,6 @@ twitter: _inundata
 mastodon: https://hachyderm.io/@inundata
 github: karthik
 linkedin: karthik-ram-93334954
-bio: rOpenSci Co-founder, Advisor, and former Executive Director
+bio: Cofundador, asesor y antiguo Director Ejecutivo de rOpenSci
 img: img/team/karthik-ram.png
 ---
