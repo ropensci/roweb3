@@ -9,6 +9,7 @@ tags:
 - liderazgo
 featured: true
 description: Noam Ross toma el timón como nuevo Director Ejecutivo de rOpenSci
+preface: "[Read this post in English](blog/2024/03/29/hello-from-our-new-executive-director/)"
 ---
 
 Me complace, emociona y llena de humildad anunciar que asumo el cargo de Director Ejecutivo de rOpenSci a partir del 1 de abril.
@@ -23,6 +24,6 @@ Como director, estoy deseando trabajar con nuestra enorme comunidad de investiga
 
 Sé que esta comunidad seguirá haciendo grandes cosas juntos, ¡y me alegro de poder formar parte de ella!
 
-[Lea el mensaje de despedida del director fundador Karthik Ram](https://ropensci.org/blog/2024/03/29/from-the-founding-director-my-farewell-to-ropensci/)
+[Lea el mensaje de despedida del director fundador Karthik Ram](https://ropensci.org/es/blog/2024/03/29/from-the-founding-director-my-farewell-to-ropensci-es/)
 
 

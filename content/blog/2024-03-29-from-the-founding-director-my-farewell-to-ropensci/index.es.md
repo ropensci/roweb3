@@ -9,6 +9,7 @@ tags:
 - liderazgo
 featured: true
 description: Karthik Ram dimite como Director Ejecutivo tras 13 años
+preface: "[Read this post in English](blog/2024/03/29/from-the-founding-director-my-farewell-to-ropensci/)"
 ---
 
 Estimada comunidad rOpenSci,
@@ -27,6 +28,6 @@ Estoy muy ilusionado por ver lo que depara el futuro a rOpenSci. Hay tanto poten
 
 Gracias por vuestro apoyo, colaboración e inspiración a lo largo de estos años. Por el próximo capítulo de innovación y descubrimiento en la comunidad rOpenSci.
 
-[*Lea un post de nuestro director entrante, Noam Ross*](https://ropensci.org/blog/2023/03/29/hello-from-our-new-executive-director/)
+[*Lea un post de nuestro director entrante, Noam Ross*](https://ropensci.org/es/blog/2023/03/29/hello-from-our-new-executive-director-es/)
 
 

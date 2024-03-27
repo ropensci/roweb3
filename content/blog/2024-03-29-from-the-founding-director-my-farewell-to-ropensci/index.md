@@ -9,6 +9,7 @@ tags:
   - leadership
 featured: true
 description: "Karthik Ram steps down as Executive Director after 13 years"
+preface: "[Lee la versión en español de este artículo](es/blog/2024/03/29/from-the-founding-director-my-farewell-to-ropensci-es/)"
 ---
 
 Dear rOpenSci community,
