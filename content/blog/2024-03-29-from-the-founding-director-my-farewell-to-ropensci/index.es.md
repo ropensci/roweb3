@@ -8,7 +8,7 @@ tags:
 - transiciones
 - liderazgo
 featured: true
-description: Karthik Ram dimite como Director Ejecutivo tras 13 años
+description: tras 13 años de ejercicio, Karthik Ram se retira de su rol como Director Ejecutivo de rOpenSci.
 preface: "[Read this post in English](blog/2024/03/29/from-the-founding-director-my-farewell-to-ropensci/)"
 ---
 
