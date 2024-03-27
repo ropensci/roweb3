@@ -14,7 +14,7 @@ preface: "[Read this post in English](blog/2024/03/29/from-the-founding-director
 
 Estimada comunidad rOpenSci,
 
-Este es un anuncio un poco agridulce... Después de casi 13 años, es hora de que me retire como Director Ejecutivo de rOpenSci.
+Este es un anuncio un poco agridulce... después de casi 13 años, es hora de que me retire como Director Ejecutivo de rOpenSci.
 
 En el verano de 2011 cofundé rOpenSci junto con un grupo de colegas dedicados. Lo que comenzó como una colaboración informal entre entusiastas de la ciencia abierta evolucionó rápidamente hacia algo mucho más significativo. Nunca imaginamos que se convertiría en la iniciativa global que es hoy, con un equipo que se extiende por todo el mundo e influye en innumerables investigadores.
 
