@@ -2,7 +2,7 @@
 title: "Hello from our New Executive Director!"
 slug: hello-from-our-new-executive-director
 author:
-  - Karthik Ram
+  - Noam Ross
 date: '2024-03-29'
 tags:
   - transitions

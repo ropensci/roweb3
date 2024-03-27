@@ -2,7 +2,7 @@
 title: Hola de nuestro nuevo Director Ejecutivo
 slug: hello-from-our-new-executive-director
 author:
-- Karthik Ram
+- Noam Ross
 date: '2024-03-29'
 tags:
 - transiciones
