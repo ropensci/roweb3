@@ -14,7 +14,7 @@ preface: "[Lee la versión en español de este artículo](es/blog/2024/03/29/hel
 
 I am pleased, excited, and humbled to announce that I am stepping into the role of Executive Director of rOpenSci starting April 1. 
 
-First, let me give my gratitude to our outgoing Executive Director and friend Karthik Ram for his leadership and mentorship running rOpenSci the past decade.  He’s been a steady hand and visionary that helped our community accomplish so much together in this time.  Thanks to him and the rest of [the team](https://ropensci.org/about/#team) for entrusting me with this role. 
+First, let me give my gratitude to our outgoing Executive Director and friend Karthik Ram for his leadership and mentorship running rOpenSci the past decade.  He’s been a steady hand and visionary that helped our community accomplish so much together in this time.  Thanks to him and the rest of [the team](/about/#team) for entrusting me with this role. 
 
 I’ve had the pleasure of being an rOpenSci member for many years - as a volunteer, an editor for rOpenSci’s software peer-review since 2015, and director of the peer review program since 2019.  I’m [a disease ecologist at an NGO](https://www.ecohealthalliance.org/personnel/dr-noam-ross), where I work every day with the tools for reproducible analysis the rOpenSci community creates. 
 
@@ -24,4 +24,4 @@ As director I’m looking forward to working with our tremendous community of re
 
 I know this community will continue to do great things together, and I’m glad I get to be part of it!
 
-[Read founding director Karthik Ram’s goodbye message](https://ropensci.org/blog/2024/03/29/from-the-founding-director-my-farewell-to-ropensci/)
+[Read founding director Karthik Ram’s goodbye message](/blog/2024/03/29/from-the-founding-director-my-farewell-to-ropensci/)
