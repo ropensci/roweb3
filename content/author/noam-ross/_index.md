@@ -3,7 +3,7 @@ name: Noam Ross
 mastodon: https://ecoevo.social/@noamross
 github: noamross
 linkedin: noamross
-bio: rOpenSci Software Review Lead
+bio: rOpenSci Executive Director
 link: https://www.noamross.net
 img: img/team/noam_ross.png
 ---
