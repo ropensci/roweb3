@@ -1,11 +1,11 @@
 ---
 title: 'rOpenSci News Digest, March 2024'
 author: 'The rOpenSci Team'
-date: '2024-03-22'
+date: '2024-03-29'
 tags:
   - newsletter
-slug: news-march-2024
-description: 
+slug: ropensci-news-march-2024
+description: Leadership changes at rOpenSci, multilingual dev guide, new packages and package news
 params:
   last_newsletter: "2024-02-23"
 ---
@@ -42,6 +42,15 @@ You can read this post [on our blog](`r url`).
 Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
+
+### Leadership changes at rOpenSci
+
+After 13 years at the helm of rOpenSci, our founding executive director Karthik Ram is stepping down. 
+Noam Ross, rOpenSci's current lead for peer review, will be our new Executive Director.  
+Karthik will remain a key advisor to rOpenSci. 
+We thank him for his years of leadership and service to the community!
+
+Read [Karthik's farewell post](/blog/2024/03/29/from-the-founding-director-my-farewell-to-ropensci/), and [Noam's post about his new role](/blog/2024/03/29/hello-from-our-new-executive-director/)  on our blog
 
 ### rOpenSci Dev Guide 0.9.0: Multilingual Now! And Better
 
@@ -607,31 +616,35 @@ if (length(tech_notes) > 0) {
 
 If you're interested in maintaining any of the R packages below, you might enjoy reading our blog post [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/).
 
-[internetarchive](https://docs.ropensci.org/internetarchive/), an API Client for the Internet Archive. [Issue for volunteering](https://github.com/ropensci/internetarchive/issues/17).
+* [internetarchive](https://docs.ropensci.org/internetarchive/), an API Client for the Internet Archive. [Issue for volunteering](https://github.com/ropensci/internetarchive/issues/17).
 
-[historydata](https://docs.ropensci.org/historydata/), datasets for historians. [Issue for volunteering](https://github.com/ropensci/historydata/issues/23).
+* [historydata](https://docs.ropensci.org/historydata/), datasets for historians. [Issue for volunteering](https://github.com/ropensci/historydata/issues/23).
 
-[textreuse](https://docs.ropensci.org/textreuse/), detect text reuse and document similarity. [Issue for volunteering](https://github.com/ropensci/textreuse/issues/97).
+* [textreuse](https://docs.ropensci.org/textreuse/), detect text reuse and document similarity. [Issue for volunteering](https://github.com/ropensci/textreuse/issues/97).
 
-[tokenizers](https://docs.ropensci.org/tokenizers/), fast, consistent tokenization of natural language text. [Issue for volunteering](https://github.com/ropensci/tokenizers/issues/86).
-
-[USAboundaries](https://docs.ropensci.org/USAboundaries/) (and USAboundariesdata), historical and contemporary boundaries of the United States of America . [Issue for volunteering](https://github.com/ropensci/USAboundaries/issues/50).
+* [USAboundaries](https://docs.ropensci.org/USAboundaries/) (and USAboundariesdata), historical and contemporary boundaries of the United States of America . [Issue for volunteering](https://github.com/ropensci/USAboundaries/issues/50).
 
 ### Calls for contributions
 
-[Help make qualtRics better! Code contributions wanted](/blog/2024/03/01/qualtrics-call-help/)
+* [Help make qualtRics better! Code contributions wanted](/blog/2024/03/01/qualtrics-call-help/)
 
-[Help make assertr better! Come close issues](/blog/2024/02/27/assertr-call-help/)
+* [Help make assertr better! Come close issues](/blog/2024/02/27/assertr-call-help/)
 
-[Help users and developers of targets by answering questions!](/blog/2024/02/29/targets-call-help/)
+* [Help users and developers of targets by answering questions!](/blog/2024/02/29/targets-call-help/)
 
-[Help make waywiser better! User requests wanted](/blog/2024/02/19/waywiser-call-help/)
+* [Help make waywiser better! User requests wanted](/blog/2024/02/19/waywiser-call-help/)
 
 Also refer to our [help wanted page](/help-wanted/) -- before opening a PR, we recommend asking in the issue whether help is still needed.
 
 ## Package development corner
 
 Some useful tips for R package developers. :eyes:
+
+### Reminder: R Consortium Infrastructure Steering Committee (ISC) Grant Program Accepting Proposals until April 1st!
+
+The R Consortium Call for Proposal might be a relevant funding opportunity for your package!
+Find out more in their [post](https://www.r-consortium.org/blog/2024/02/08/r-consortium-infrastructure-steering-committee-isc-grant-program-accepting-proposals-starting-march-1st).
+If you can't prepare your proposal in time, the next call will start [September 1st](https://www.r-consortium.org/all-projects/call-for-proposals).
 
 ### `@examplesIf` for conditional examples in package manuals
 
