@@ -27,4 +27,4 @@ I'm incredibly excited to see what the future holds for rOpenSci. There's so muc
 
 Thank you for your support, collaboration, and inspiration throughout these years. Here's to the next chapter of innovation and discovery in the rOpenSci community!
 
-[_Read a post from our incoming director, Noam Ross_](/blog/2023/03/29/hello-from-our-new-executive-director/)
+[_Read a post from our incoming director, Noam Ross_](/blog/2024/03/29/hello-from-our-new-executive-director/)
