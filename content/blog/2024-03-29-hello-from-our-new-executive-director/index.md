@@ -9,7 +9,6 @@ tags:
   - leadership
 featured: true
 description: "Noam Ross takes the helm as rOpenSci's new Executive Director"
-preface: "[Lee la versión en español de este artículo](es/blog/2024/03/29/hello-from-our-new-executive-director-es/)"
 ---
 
 I am pleased, excited, and humbled to announce that I am stepping into the role of Executive Director of rOpenSci starting April 1. 

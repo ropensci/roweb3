@@ -9,7 +9,6 @@ tags:
 - liderazgo
 featured: true
 description: tras 13 años de ejercicio, Karthik Ram se retira de su rol como Director Ejecutivo de rOpenSci.
-preface: "[Read this post in English](blog/2024/03/29/from-the-founding-director-my-farewell-to-ropensci/)"
 ---
 
 Estimada comunidad rOpenSci,
