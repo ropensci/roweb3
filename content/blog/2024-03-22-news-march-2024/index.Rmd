@@ -57,9 +57,9 @@ We are very grateful for their work!
 Read more in the [blog post about the release](/blog/2024/03/11/devguide-0.9.0/).
 Thanks to all contributors who made this release possible.
 
-### Interview of our community manager Yanina Bellini Saibene
+### Interview with Code for Thought podcast
 
-Yanina talked with Peter Schmidt of the [Code for thought podcast](https://codeforthought.buzzsprout.com/1326658/14660478-en-crossing-the-language-barrier-yanina-saibene), about the importance to make computing materials accessible to non-English speaking learners. 
+Our community manager, Yanina Bellini Saibene, talked with Peter Schmidt of the [Code for Thought podcast](https://codeforthought.buzzsprout.com/1326658/14660478-en-crossing-the-language-barrier-yanina-saibene), about the importance of making computing materials accessible to non-English speaking learners. 
 Listen to the [episode](https://codeforthought.buzzsprout.com/1326658/14660478-en-crossing-the-language-barrier-yanina-saibene).
 Find our more about [rOpenSci multilingual publishing project](/multilingual-publishing/).
 
@@ -73,7 +73,15 @@ Everyone welcome.
 No RSVP needed. 
 Consult our [Events](/events) page to find your local time and how to join.
 
-- Tuesday, April 2nd, 14:00 Europe Central (13:00 UTC) Theme and Cohost TBA
+- [Tuesday, April 2nd, 14:00 Europe Central (13:00 UTC)](/events/coworking-2024-04), Sharing your work with Quarto. With cohost [Pao Corrales](/author/pao-corrales) and [Steffi LaZerte](/author/steffi-lazerte).
+    - Explore the Quarto documentation and examples
+    - Use Quarto to share some of your code
+    - Ask questions or troubleshoot your Quarto problems with the cohost and other attendees.
+
+- [Tuesday, May 7th, 09:00 Americas Pacific (16:00 UTC)](/events/coworking-2024-05), Meet rOpenSci's new Executive Director! With cohost [Noam Ross](/author/noam-ross) and [Steffi LaZerte](/author/steffi-lazerte).
+    - Learn more about rOpenSci!
+    - Explore rOpenSci [packages](/packages) and [contributing guide](https://contributing.ropensci.org/)
+    - Ask questions or chat about rOpensci with Noam and other attendees.
     
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
@@ -652,7 +660,7 @@ Regarding tests themselves, remember you can [skip some or all](https://books.ro
 ### Key advantages of using the keyring package
 
 If your package needs the user to provide secrets, like API tokens, to work, you might be interested in wrapping or recommending the keyring package (maintained by Gábor Csárdi), that accesses the system credential store from R.
-See this recent [R-hub blog post](/2024/02/28/key-advantages-of-using-keyring/).
+See this recent [R-hub blog post](https://blog.r-hub.io/2024/02/28/key-advantages-of-using-keyring/).
 
 ### A package for linting roxygen2 documentation
 
