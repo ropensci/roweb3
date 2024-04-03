@@ -1,12 +1,27 @@
-[{
+[
+{
+   "name": "Noam Ross",
+   "url": "https://www.noamross.net/",
+   "image" : "/img/team/noam_ross.png",
+   "affiliation" : "Executive Director",
+   "roles": [
+      "Software Review Lead",
+      "editor"
+   ],
+   "generalreview": true,
+   "mastodon": "https://ecoevo.social/@noamross",
+   "linkedin": "https://www.linkedin.com/in/noamross",
+   "github": "noamross",
+   "home": "/author/noam-ross"
+},   
+{
    "name": "Karthik Ram",
    "url": "/author/karthik-ram",
    "image" : "/img/team/karthik-ram.png",
-   "affiliation": "Executive Director",
+   "affiliation": "Advisor",
    "roles": [
       "co-founder",
-      "staff",
-      "editor"
+      "strategic advisor"
    ],
    "generalreview": true,
    "twitter": "_inundata",
@@ -101,21 +116,6 @@
    "home": "/author/maëlle-salmon"
 },
 {
-   "name": "Noam Ross",
-   "url": "https://www.noamross.net/",
-   "image" : "/img/team/noam_ross.png",
-   "affiliation" : "Software Review Lead",
-   "roles": [
-      "strategic advisor",
-      "editor"
-   ],
-   "generalreview": true,
-   "mastodon": "https://ecoevo.social/@noamross",
-   "linkedin": "https://www.linkedin.com/in/noamross",
-   "github": "noamross",
-   "home": "/author/noam-ross"
-},
-{
    "name": "Steffi LaZerte",
    "url": "/author/steffi-lazerte/",
    "image" : "/img/team/steffi-lazerte.jpg",
@@ -134,9 +134,10 @@
    "name": "Stacey Dorton",
    "affiliation": "Administrative Manager",
    "image" : "/img/team/stacey.jpg",
-   "roles": [
+   "past_roles": [
       "staff"
-   ]
+   ],
+ "alumnus": true  
 },
 {
    "name": "Carl Boettiger",
