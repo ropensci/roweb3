@@ -1,0 +1,162 @@
+---
+slug: "markdown-programmatic-parsing.edits"
+title: All the ways to programmatically edit R Markdown / Quarto documents
+author:
+  - Maëlle Salmon
+  - Christophe Dervieux
+# Set the date below to the publication date of your post
+date: 2024-04-16
+# Minimal tags for a post about a community-contributed package 
+# that has passed software peer review are listed below
+# Consult the Technical Guidelines for information on choosing tags
+tags:
+  - pandoc
+  - rmarkdown
+  - tinkr
+  - quarto
+  - markdown
+  - tech notes
+description: ""
+output: hugodown::md_document
+---
+
+If life gives you a bunch of Markdown files to analyse or edit, do you warm up your regex muscles and get going?
+How about using more specific parsing tools instead?
+In this post, we shall give an overview of programmatic ways to parse and edit Markdown files: Markdown, R Markdown, Quarto, Hugo files, you name it.
+
+## What is Markdown?
+
+Markdown is a (punny, eh) markup language created by John Gruber and Aaron Swartz.
+Here is an example:
+
+```md
+
+# My first header
+
+Some content, with parts in **bold** or *italic*.
+Let me add a [link](https://ropensci.org).
+
+```
+
+Different Markdown files can lead to the same output, for instance this is equivalent to our first example:
+
+```md
+
+My first header
+===============
+
+Some content, with parts in __bold__ or _italic_. Let me add a [link](https://ropensci.org).
+
+```
+
+Furthermore there are different _flavors_ of Markdown, and some supplementary features added depending on what your Markdown files will be used by, like emoji written so: `:grin:`.
+
+Common Markdown consumers R users interact with include: R Markdown (that uses Pandoc under the hood), Quarto (that uses Pandoc under the hood... see any trend here?), GitHub, Hugo.
+
+Many tools using Markdown also accept metadata at the top of Markdown files, either YAML or TOML.
+Here is an example with YAML:
+
+```md
+---
+title: My cool thing
+author: Myself
+---
+
+Some content, *nice* content.
+```
+
+Most often R users will write Markdown manually, or with the help of an editor such as RStudio IDE visual editor.
+But sometimes, one will have to edit a bunch of Markdown files at once.
+
+## Templating tools
+
+Imagine you need to create a bunch of different R Markdown files, for instance for students to use as personalized exercises.
+In that case, you can create a boilerplate document as a template, and create its different output versions using a templating tool.
+
+Templating tools include:
+
+- `knitr::knit_expand()` by Yihui Xie;
+- the [whisker package](https://github.com/edwindj/whisker) maintained by Edwin de Jonge (used in for instance pkgddown);
+- the [brew package](https://github.com/gregfrog/brew) maintained by Greg Hunt;
+- [Pandoc](/blog/2023/06/01/troubleshooting-pandoc-problems-as-an-r-user/) by John MacFarlane.
+
+The simplest example of the whisker package might furthermore remind you of the glue package.
+
+A common workflow would be:
+
+- You create a template in a file, where variable parts are indicated by strings such as `{{name}}`.
+- You read this template in R using for instance the brio package.
+- Mapping over your set of variables, you render the template using whisker and save each version to a file using the brio package. 
+
+## String manipulation tools
+
+You can use string manipulation tools to parse Markdown if you are sure of the Markdown variants your code will get as input, or if you are willing to grow your codebase to accomodate many edge cases... which in the end means you are writing an actual Markdown parser. 
+Not for the faint of heart... neither necessary if you read the section after this one. :relieved:
+
+You'd detect heading using for instance `grep("^#", markdown_lines)`[^edge].
+
+[^edge]: But this would also detect code comments! Don't do this!
+
+Example of string manipulation tools include base R (`sub()`, `grep()` and friends), [stringr](https://stringr.tidyverse.org/) (and stringi), `xfun::gsub_file()`.
+
+Although string manipulation tools are of a limited usefulness when parsing Markdown, they can _complement_ the actual parsing tools.
+Even if using specific Markdown parsing tools will help you write less regular expressions yourself... they won't completely free you from them.
+
+## Parsing tools
+
+Parsing tools are fantastic, and numerous.
+We will only mention the ones you can directly use from R.
+
+
+The [tinkr package](http://docs.ropensci.org/tinkr/) maintained by Zhian Kamvar parses Markdown to XML using Commonmark, and writes it back to Markdown using XSLT. The YAML metadata is available as a string.
+
+With Pandoc that we presented in a [tech note last year](blog/2023/06/01/troubleshooting-pandoc-problems-as-an-r-user/#raw-attributes), you can parse a Markdown files to a Pandoc Abstract Syntax Tree, or to, say HTML, and then back to Markdown.
+
+The [parsermd package](https://rundel.github.io/parsermd/) maintained by Colin Rundel is "implementation of a formal grammar and parser for R Markdown documents using the Boost Spirit X3 library. It also includes a collection of high level functions for working with the resulting abstract syntax tree."
+
+The [md4r package](https://rundel.github.io/md4r/), more recent and also maintained by Colin Rundel, is very similar except that it uses the MD4C (Markdown for C) library. 
+
+### The impossibility of a perfect roundtrip
+
+When parsing and editing Markdown, then writing it back to Markdown, some undesired changes might appear.
+For instance, with [tinkr](http://docs.ropensci.org/tinkr/#general-principles-and-solution) list items all start with a `-` even if in the original document they started with a `*`.
+
+Depending on your use case you might want to find ways to mitigate such losses, for instance only re-writing the lines you made intentional edits to.
+
+### How to choose a parser?
+
+You can choose a parser based on what it lets you manipulate the Markdown with: if you prefer XML and HTML to nested lists for instance, you might prefer using tinkr or Pandoc.
+If the high-level functions of md4r or parsermd are suitable for your use case, you might prefer one of them.
+
+Another important criterion is to choose a parser that's a close to the use case of your Markdown files as possible.
+If you are only going to work with Markdown files for GitHub, commonmark/tinkr is an excellent choice since GitHub itself uses commonmark. 
+Now, your work might encompass different sorts of Markdown files that will be used by different tools.
+For instance, the babeldown package processes any Markdown file[^caveat]: Markdown, R Markdown, Quarto, Hugo.
+In that case, or if there is no R parser doing exactly what your Markdown's end user does, you need to pay attention to the quirks of that end user. 
+Maybe you have to throw [Pandoc raw attributes](blog/2023/06/01/troubleshooting-pandoc-problems-as-an-r-user/#raw-attributes) around a Hugo shortcode, for instance.
+Furthermore, if you need to parse certain elements, like again Hugo shortcodes, you might need to write the parsing code yourself, that is, regular expressions.
+
+[^caveat]: Or at least it's supposed to :sweat_smile: Thankfully users report edge cases that are not covered yet.
+
+## What about the code chunks
+
+Programmatically parsing and editing R code is out of the scope of this post, but closely related enough to throw in a few tips.
+As with Markdown, you might need to use regular expressions but try not to.
+You can parse the code to XML using base R parsing and [xmlparsedata](https://r-lib.github.io/xmlparsedata/), then you manipulate the XML with [XPath](https://masalmon.eu/2022/04/08/xml-xpath/).
+To write code back, you can make use of the attributes of each node that indicates the original lines and columns.
+
+So a possible workflow is
+
+- parse the code to XML, use xmlparsedata to inform what to change and where. Out of these steps you'd get a list of elements' positions for instance.
+- use brio to read the lines, change a few of them with base R tools, then use brio again to write the lines back.
+
+## Examples of Markdown parsing and editing
+
+The [pegboard package](https://carpentries.github.io/pegboard/) maintained by Zhian Kamvar, parses and validates Carpentrie's lessons for structural markdown elements, thanks to tinkr.
+
+The [babeldown package](https://docs.ropensci.org/babeldown/) maintained by Maëlle Salmon transforms Markdown to XML, sends it to DeepL API for translation, and writes the results back to Markdown, also using tinkr.
+
+## Conclusion
+
+In this post we explained how to best parse and edit Markdown files: using specific parsing tools, possibly complemented by ad-hoc string manipulation.
+What do *you* use to handle Markdown files?
