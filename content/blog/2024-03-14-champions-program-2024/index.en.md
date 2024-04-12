@@ -99,7 +99,7 @@ Utilizing the rubric and conducting thorough data analysis enable a balanced sel
 
 Transparency throughout the evaluation process is paramount in upholding the principles of fairness and equity. By openly communicating the criteria and methodology of our selection process, we aim to foster trust and accountability, reinforcing our commitment to inclusivity and diversity.
 
-As we move forward, the rOpenSci Champions Program remains committed to adapting and refining its processes to meet the evolving needs of its community and to address the challenges and opportunities in open science and research software development. We are inspired by the enthusiasm and caliber of the applications received and are excited about the potential of our new champions to lead and innovate.
+As we move forward, we understand that diversifying our community and increasing inclusivity is a process. Thus, the rOpenSci Champions Program remains committed to adapting and refining its processes to meet the evolving needs of its community and to address the challenges and opportunities in open science and research software development. We are inspired by the enthusiasm and caliber of the applications received and are excited about the potential of our new Champions to lead and innovate.
 
 
 
