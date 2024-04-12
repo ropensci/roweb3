@@ -85,7 +85,7 @@ The average rubric scores are depicted in figure 2, presented on a scale from 0 
 
 The majority of proposals received high marks in Knowledge Sharing (83%), Motivation (67%), and Alignment with Core Values (65%). These findings underscore a unique characteristic of our program: the applicants' commitment to resource sharing for communal benefit and their eagerness to engage with our initiatives. 
 
-It is noteworthy that our program does not mandate advanced technical expertise or specialization in their fields from the applicants, a fact that is mirrored in the rubric scores where the majority of proposals scored less than half of the available points.
+It is noteworthy that our program does not mandate advanced technical expertise or specialization in their fields from the applicants, a fact that is mirrored in the rubric scores where the majority of proposals scored less than 50% on Technical Skills.
 
 {{< figure src = "proportion_of_high_score.png" width = "380" class = "center" alt = "A horizontal dot plot chart displaying the proportion of high scores in different categories">}} 
 
