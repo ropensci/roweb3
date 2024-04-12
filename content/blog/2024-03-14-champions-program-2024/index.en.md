@@ -35,7 +35,7 @@ The Champions selection process is designed to ensure equity and diversity among
 
 3. **Consistency Analysis:** A quantitative analysis is conducted to examine the consensus among reviewers. This step ensures that revisions are aligned, promoting fairness and minimizing bias in the selection process.
 
-4. **Diversity Review:** With a focus on diversity, the list of candidates with higher scores is then carefully reviewed to ensure it reflects a broad spectrum of backgrounds and regions. This may involve adding promising candidates to the pool to achieve a truly representative group of potential champions.
+4. **Diversity Review:** With a focus on diversity, the list of candidates with higher scores is then carefully reviewed to ensure it reflects a broad spectrum of backgrounds and regions. This may involve adding promising candidates to the pool to achieve a truly representative group of potential Champions.
 
 5. **Final Selection by Mentors:** The culmination of the process consists of mentors reviewing the top candidates to select their mentees.
 
