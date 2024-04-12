@@ -25,7 +25,7 @@ The goal of the [rOpenSci Champions Program](/champions/) is to enable more memb
 
 Every year, rOpenSci opens a call for applications for the roles of Champions and Mentors which are selected following a rigorous process that we describe in this blog post. 
 
-## Review Process
+## Review process
 
 The Champions selection process is designed to ensure equity and diversity among participants. It involves five steps:
 
