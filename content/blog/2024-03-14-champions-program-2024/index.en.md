@@ -44,7 +44,7 @@ This process is central to our commitment to selecting a diverse group of Champi
 > Involving mentors in the selection process significantly enhances the mentor-mentee relationship, as mentors' insights into the selection process ensure a more effective and synergistic pairing. This involvement is crucial for identifying which projects resonate most with mentors, thereby facilitating a more informed and meaningful final match.
 {.blockquote .text-right}
 
-### Selection Criteria: Cultivating a Diverse Community
+### Selection criteria: Cultivating a diverse community
 
 The second step in the review process is the core of the selection of Champions. Each application is revised and scored based on the following categories:
 
