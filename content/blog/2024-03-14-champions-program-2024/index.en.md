@@ -21,7 +21,7 @@ social: Discover how the rOpenSci Champions Program is advancing inclusivity and
 ---
 
 
-The [rOpenSci Champions Program](/champions/) goal is to enable more members of historically excluded groups to participate in, benefit from, and become leaders in the R, research software engineering, and open source and open science communities. The program includes 1-on-1 mentoring for the champions. 
+The goal of the [rOpenSci Champions Program](/champions/) is to enable more members of historically excluded groups to participate in, benefit from, and become leaders in the R, research software engineering, and open source and open science communities. This program includes 1-on-1 mentoring for the Champions as they complete a project and perform outreach activities in their local communities. 
 
 Every year, rOpenSci opens a call for applications for the roles of Champions and Mentors which are selected following a rigorous process that we describe in this blog post. 
 
