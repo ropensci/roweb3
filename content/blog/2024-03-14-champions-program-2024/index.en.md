@@ -39,7 +39,7 @@ The Champions selection process is designed to ensure equity and diversity among
 
 5. **Final Selection by Mentors:** The culmination of the process consists of mentors reviewing the top candidates to select their mentees.
 
-This process is central to our commitment to selecting a diverse group of Champions who are deeply committed to our community values.
+This process is central to our desire to select a diverse group of Champions who are deeply committed to our community values.
 
 > Involving mentors in the selection process significantly enhances the mentor-mentee relationship, as mentors' insights into the selection process ensure a more effective and synergistic pairing. This involvement is crucial for identifying which projects resonate most with mentors, thereby facilitating a more informed and meaningful final match.
 {.blockquote .text-right}
