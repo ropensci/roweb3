@@ -27,7 +27,7 @@ Every year, rOpenSci opens a call for applications for the roles of Champions an
 
 ## Review process
 
-The Champions selection process is designed to ensure equity and diversity among participants. It involves five steps:
+The Champions selection process is designed to promote equity and diversity among participants. It involves five steps:
 
 1. **Initial Application Review**: The journey begins with rOpenSci staff examining all submissions to verify the eligibility and technical specifics of each application. This ensures that every candidate meets the basic criteria for consideration.
 
