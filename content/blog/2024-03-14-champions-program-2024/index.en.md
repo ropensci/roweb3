@@ -77,7 +77,7 @@ Of the participants who reported pronouns, 56.7% mentioned _she/her_ and 43.3% m
 Applicants also reported a range of preferred languages (9 different languages were mentioned). The most common language was English (77), followed by Spanish (48) and Portuguese (14). Other languages included French, Arabic, Catalan, German, Hindi and Korean.
 
 
-{{< figure src = "country.png" alt = "A bar graph with incremental values, showcasing a trend of increasing quantities from left to right, culminating in a notable high point at the rightmost edge.">}} 
+{{< figure src = "country.png" alt = "A bar graph of number of applicants by country, with incremental values showing a trend of increasing number of applicants from left to right, culminating in a notable high point at the rightmost edge with ending with Argentina, Mexico, Brazil and the United States.">}} 
 
 ### Scores
 
