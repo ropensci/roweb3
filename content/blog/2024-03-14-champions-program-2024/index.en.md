@@ -105,7 +105,7 @@ As we move forward, we understand that diversifying our community and increasing
 
 ## Acknowledgements
 
-The inaugural cohort of the  rOpenSci Champions program was funded by the Chan Zuckerberg Initiative and led by [Yani Bellini Saibene](/author/yanina-bellini-saibene/). It was co-designed with input from [Camille Santistevan](/author/camille-santistevan/) and [Lou Woodley](/author/lou-woodley/) at the Center for Scientific Collaboration and Community Engagement [CSCCE](https://www.cscce.org/), who contributed to the rubric discussed in this blog post. [Francisco Cardozo](/author/francisco-cardozo/) led the analysis of the robustness of the application review process.
+The inaugural cohort of the rOpenSci Champions Program was funded by the Chan Zuckerberg Initiative and led by [Yani Bellini Saibene](/author/yanina-bellini-saibene/). It was co-designed with input from [Camille Santistevan](/author/camille-santistevan/) and [Lou Woodley](/author/lou-woodley/) at the Center for Scientific Collaboration and Community Engagement [CSCCE](https://www.cscce.org/), who contributed to the rubric discussed in this blog post. [Francisco Cardozo](/author/francisco-cardozo/) led the analysis of the robustness of the application review process.
 
 ## Further reading
 
