@@ -94,7 +94,7 @@ It is noteworthy that our program does not mandate advanced technical expertise 
 
 In 2024, the Champions Program attracted a global cohort of applicants, underscoring its expanding influence and the increasing recognition of its value across different sectors and continents.
 
-The rOpenSci Champions Program has made a significant effort to foster inclusivity and diversity within the R Community intentionally. Through a multi-step selection process, we strive for fairness and representation from diverse demographics and geographic regions.
+The rOpenSci Champions Program has made an intentional effort to foster inclusivity and diversity within the R Community. Through a multi-step selection process, we strive for fairness and representation from diverse demographics and geographic regions.
 
 Utilizing the rubric and conducting thorough data analysis enable a balanced selection of participants, effectively bridging the gap between experts and beginners. This approach is instrumental in identifying and cultivating the talents we aim to nurture within the program.
 
