@@ -97,7 +97,7 @@ The rOpenSci Champions Program has made an intentional effort to foster inclusiv
 
 Utilizing the rubric and conducting thorough data analysis enable a balanced selection of participants, effectively bridging the gap between experts and beginners. This approach is instrumental in identifying and cultivating the talents we aim to nurture within the program.
 
-Transparency throughout the evaluation process is paramount in upholding the principles of fairness and equity. By openly communicating the criteria and methodology of our selection process, we foster trust and accountability, reinforcing our commitment to inclusivity and diversity.
+Transparency throughout the evaluation process is paramount in upholding the principles of fairness and equity. By openly communicating the criteria and methodology of our selection process, we aim to foster trust and accountability, reinforcing our commitment to inclusivity and diversity.
 
 As we move forward, the rOpenSci Champions Program remains committed to adapting and refining its processes to meet the evolving needs of its community and to address the challenges and opportunities in open science and research software development. We are inspired by the enthusiasm and caliber of the applications received and are excited about the potential of our new champions to lead and innovate.
 
