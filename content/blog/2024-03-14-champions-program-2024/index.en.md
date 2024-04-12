@@ -64,7 +64,7 @@ Given that we collect two scores for each application, to minimize bias inherent
 {.blockquote .text-right}
 
 
-## General Results on 2024 Champions applications
+## General results of the 2024 Champions applications
 
 We received a total of 97 applications.  Out of these, 66 meet the basic criteria of the call. These applications originated from 34 different countries and represent a diverse array of backgrounds, encompassing academia, industry, and government sectors.
 
