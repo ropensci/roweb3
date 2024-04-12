@@ -87,7 +87,7 @@ The majority of proposals received high marks in Knowledge Sharing (83%), Motiva
 
 It is noteworthy that our program does not mandate advanced technical expertise or specialization in their fields from the applicants, a fact that is mirrored in the rubric scores where the majority of proposals scored less than 50% on Technical Skills.
 
-{{< figure src = "proportion_of_high_score.png" width = "380" class = "center" alt = "A horizontal dot plot chart displaying the proportion of high scores in different categories">}} 
+{{< figure src = "proportion_of_high_score.png" width = "380" class = "center" alt = "A horizontal dot plot chart displaying the distribution of scores in the different categories as discussed in the text.">}} 
 
 
 ## Key insights
