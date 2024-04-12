@@ -90,7 +90,7 @@ It is noteworthy that our program does not mandate advanced technical expertise 
 {{< figure src = "proportion_of_high_score.png" width = "380" class = "center" alt = "A horizontal dot plot chart displaying the proportion of high scores in different categories">}} 
 
 
-## Key Insights
+## Key insights
 
 In 2024, the Champions Program attracted a global cohort of applicants, underscoring its expanding influence and the increasing recognition of its value across different sectors and continents.
 
