@@ -72,7 +72,7 @@ We received a total of 97 applications.  Out of these, 66 meet the basic criteri
 
 Most of the applicants were from the United States, followed by Brazil, Mexico and Argentina. It suggests a strong presence of the program in North and South America. However, we also received applications from countries in Africa, Asia, Europe and Oceania, indicating that we are approaching our goal of having a global reach in the Champions Program.
 
-Of the participants who reported preferred pronouns, 56.7% mentioned _she/her_ and 43.3% mentioned _he/him_. A significant number of participants did not report preferred pronouns (38.1%).
+Of the participants who reported pronouns, 56.7% mentioned _she/her_ and 43.3% mentioned _he/him_. A number of participants did not report pronouns (38.1%).
 
 Applicants also reported a range of preferred languages (9 different languages were mentioned). The most common language was English (77), followed by Spanish (48) and Portuguese (14). Other languages included French, Arabic, Catalan, German, Hindi and Korean.
 
