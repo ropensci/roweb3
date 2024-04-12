@@ -31,7 +31,7 @@ The Champions selection process is designed to ensure equity and diversity among
 
 1. **Initial Application Review**: The journey begins with rOpenSci staff examining all submissions to verify the eligibility and technical specifics of each application. This ensures that every candidate meets the basic criteria for consideration.
 
-2. **Community Revision:** Each application undergoes a detailed assessment by *two* members of the [rOpenSci](https://ropensci.org/) community, which includes the current mentors of the Champions Program. In this step, reviewers use a [rubric](https://docs.google.com/spreadsheets/d/1ZySOzrMSYq6OlMgWpYOBZedO9FVkOsPe_e-lqcUYQyQ/edit#gid=914293396) to guarantee objective and thorough revisions based on commonly established criteria.
+2. **Community Revision:** Each application undergoes a detailed assessment by *two* members of the rOpenSci community, including the current mentors of the Champions Program. In this step, reviewers use a [rubric](https://docs.google.com/spreadsheets/d/1ZySOzrMSYq6OlMgWpYOBZedO9FVkOsPe_e-lqcUYQyQ/edit#gid=914293396) to guarantee objective and thorough revisions based on commonly established criteria.
 
 3. **Consistency Analysis:** A quantitative analysis is conducted to examine the consensus among reviewers. This step ensures that revisions are aligned, promoting fairness and minimizing bias in the selection process.
 
