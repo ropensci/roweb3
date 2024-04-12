@@ -70,7 +70,7 @@ We received a total of 97 applications.  Out of these, 66 meet the basic criteri
 
 ### General characteristics of the applicants
 
-Most of the applicants were from the United States, followed by Brazil, Mexico and Argentina. It suggests a strong presence of the program in North and South America. However, we also received applications from countries in Africa, Asia, Europe and Oceania, indicating a global reach of the Champions Program.
+Most of the applicants were from the United States, followed by Brazil, Mexico and Argentina. It suggests a strong presence of the program in North and South America. However, we also received applications from countries in Africa, Asia, Europe and Oceania, indicating that we are approaching our goal of having a global reach in the Champions Program.
 
 Of the participants who reported preferred pronouns, 56.7% mentioned _she/her_ and 43.3% mentioned _he/him_. A significant number of participants did not report preferred pronouns (38.1%).
 
