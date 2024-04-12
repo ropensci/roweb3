@@ -110,9 +110,9 @@ The inaugural cohort of the  rOpenSci Champions program was funded by the Chan Z
 
 ## Further reading
 
-* [Champions Program](https://ropensci.org/champions/)
-* [rOpenSci Champions Pilot Year: Projects Wrap-Up](https://ropensci.org/blog/2024/03/20/champions-program-projects-cohort1/)
-* [2023 rOpensci Champions Program: My Experience](
-https://ropensci.org/blog/2023/12/19/champions-program-2023-experience/)
+* [General Blog Posts related to the Champions Program](/tags/champions-program/)
+* [Champions Program](/champions/)
+* [rOpenSci Champions Pilot Year: Projects Wrap-Up](/blog/2024/03/20/champions-program-projects-cohort1/)
+* [2023 rOpensci Champions Program: My Experience](/blog/2023/12/19/champions-program-2023-experience/)
 * [CSCCE guidebook describing the role of community champions](https://zenodo.org/records/5275270)
 
