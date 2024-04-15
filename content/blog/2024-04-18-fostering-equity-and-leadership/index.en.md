@@ -1,11 +1,11 @@
 ---
-title: Champions Program 2024
+title: "Fostering Equity and Leadership: the rOpenSci Champions Program Selection Process"
 author: 
     - Francisco Cardozo
     - Yanina Bellini Saibene
     - Camille Santistevan
     - Lou Woodley
-date: '2024-03-14'
+date: '2024-04-18'
 slug: champions-program-2024
 categories:
   - blog
@@ -31,7 +31,7 @@ The Champions selection process is designed to promote equity and diversity amon
 
 1. **Initial Application Review**: The journey begins with rOpenSci staff examining all submissions to verify the eligibility and technical specifics of each application. This ensures that every candidate meets the basic criteria for consideration.
 
-2. **Community Revision:** Each application undergoes a detailed assessment by *two* members of the rOpenSci community, including the current mentors of the Champions Program. In this step, reviewers use a [rubric](https://docs.google.com/spreadsheets/d/1ZySOzrMSYq6OlMgWpYOBZedO9FVkOsPe_e-lqcUYQyQ/edit#gid=914293396) to guarantee objective and thorough revisions based on commonly established criteria.
+2. **Community Revision:** Each application undergoes a detailed assessment by *two* members of the rOpenSci community, including the current mentors of the Champions Program. In this step, reviewers use a [rubric](https://docs.google.com/spreadsheets/d/1ZySOzrMSYq6OlMgWpYOBZedO9FVkOsPe_e-lqcUYQyQ/edit#gid=914293396) to guarantee objective and thorough revisions based on commonly established criteria[^1].
 
 3. **Consistency Analysis:** A quantitative analysis is conducted to examine the consensus among reviewers. This step ensures that revisions are aligned, promoting fairness and minimizing bias in the selection process.
 
@@ -41,7 +41,7 @@ The Champions selection process is designed to promote equity and diversity amon
 
 This process is central to our desire to select a diverse group of Champions who are deeply committed to our community values.
 
-> Involving mentors in the selection process significantly enhances the mentor-mentee relationship, as mentors' insights into the selection process ensure a more effective and synergistic pairing. This involvement is crucial for identifying which projects resonate most with mentors, thereby facilitating a more informed and meaningful final match.
+> We believe that involving mentors in the selection process significantly enhances the mentor-mentee relationship. Mentors' insights into the selection process ensure a more effective and synergistic pairing. This involvement is crucial for identifying the projects that resonate most with mentors, thereby facilitating a more informed and meaningful final match. 
 {.blockquote .text-right}
 
 ### Selection criteria: Cultivating a diverse community
@@ -55,13 +55,11 @@ The second step in the review process is the core of the selection of Champions.
 **Technical Skill:** Proficiency in necessary technical areas. The program is not for beginner or expert R developers.   
 **Motivation:** Enthusiasm for joining and contributing to the rOpenSci community and willingness to dedicate adequate time to the program, considering existing professional obligations.
 
-> The rubric is designed to be flexible and adaptable to the specific needs of the program. We may adjust the scoring options based on the agreement analysis to enhance clarity and agreement.
-{.blockquote .text-right}
+[^1]: The rubric is designed to be flexible and adaptable to the specific needs of the program. We may adjust the scoring options based on the agreement analysis to enhance clarity and agreement.
 
-Given that we collect two scores for each application, to minimize bias inherent to individual reviewers, we perform an agreement analysis based on the scores we receive. This analysis involves calculating [Cohen's Kappa](https://en.wikipedia.org/wiki/Cohen%27s_kappa), a score that assesses the level of agreement beyond chance. Based on this score, we may adjust the scoring options of the rubric to enhance clarity and agreement. For instance, if a specific category consistently shows low agreement with a 1-5 scale, we might simplify the scale to 1-3. This iterative process continues until we achieve satisfactory agreement levels or determine that further revisions to the evaluations are necessary.
+Given that we collect two scores for each application, to minimize bias inherent to individual reviewers, we perform an agreement analysis based on the scores we receive. This analysis involves calculating [Cohen's Kappa](https://en.wikipedia.org/wiki/Cohen%27s_kappa), a score that assesses the level of agreement beyond chance[^2]. Based on this score, we may adjust the scoring options of the rubric to enhance clarity and agreement. For instance, if a specific category consistently shows low agreement with a 1-5 scale, we might simplify the scale to 1-3. This iterative process continues until we achieve satisfactory agreement levels or determine that further revisions to the evaluations are necessary.
 
-> Cohen's Kappa is a tool used to measure how much two raters agree on categorizing items. Unlike simply looking at how often they agree, Kappa also considers the chance that they might agree just by guessing. Initially, we found the agreement rate to be 0.48. However, after making adjustments to how we score, the agreement rate improved to 0.53. This suggests that the raters are more in sync than before. Kappa values can range from 0, meaning there's no real agreement other than what might happen by random chance, to 1, indicating perfect agreement. In our case, a Kappa of 0.53 shows that our raters agree to a satisfactory extent.
-{.blockquote .text-right}
+[^2]: Cohen's Kappa is a tool used to measure how much two raters agree on categorizing items. Unlike simply looking at how often they agree, Kappa also considers the chance that they might agree just by guessing. Initially, we found the agreement rate to be 0.48. However, after making adjustments to how we score, the agreement rate improved to 0.53. This suggests that the raters are more in sync than before. Kappa values can range from 0, meaning there's no real agreement other than what might happen by random chance, to 1, indicating perfect agreement. In our case, a Kappa of 0.53 shows that our raters agree to a satisfactory extent.
 
 
 ## General results of the 2024 Champions applications
