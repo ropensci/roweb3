@@ -157,7 +157,7 @@ old <- dplyr::filter(
 
 new <- dplyr::filter(
   registry,
-  !package %in% c("rvertnet", old$package),
+  !package %in% c("tabulapdf", old$package),
   !grepl("ropenscilabs\\/", url),
   !grepl("ropensci-archive\\/", url)
 )

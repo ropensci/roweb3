@@ -41,17 +41,32 @@ And remember, you can always cowork independently on work related to R, work on 
 
 ## Software :package:
 
-### GSOD funding placeholder
+### R-Universe Documentation Gets a Boost from Google Season of Docs
 
-TODO MAËLLE
+We are excited and grateful to [announce](/blog/2024/04/12/gsod-announcement/) that [R-Universe](https://r-universe.dev/) has been awarded a [Google Season of Docs](https://developers.google.com/season-of-docs) grant. R-Universe is rOpenSci’s platform for testing, building, distributing, and discovering R packages, led by [Jeroen Ooms](/author/jeroen-ooms/).
 
-### Social media placeholder
+With the support of Google, we aim to update and centralize our documentation, showcasing how users and developers can get the most out of R-Universe. We will update the documentation to catch up with the rapid feature development of the past two years, including consolidating our many tech notes and READMEs into an easily discoverable site. We will build the site with Quarto to make it straightforward for R community members to contribute.
 
-TODO YANI
+The work will be led by [Maëlle Salmon](/author/maëlle-salmon/).
 
-### Comm calls ideas placeholder
+### Learn about a different package every day by following our social media campaigns 
 
-TODO YANI
+
+The goal of a community is to collaborate, share knowledge and build learnings.  That's why we want to show you the more than 300 packages in our federated community of open-source software developers. 
+
+Since December 2023, we have run the social media campaigns [“A Package a Day](https://hachyderm.io/@rOpenSci/tagged/APackageADay) on [Mastodon](https://hachyderm.io/@rOpenSci), in which we feature one package each day. On [LinkedIn](https://www.linkedin.com/company/ropensci/), we publish our [Package Weekly Digest](https://www.linkedin.com/feed/hashtag/?keywords=packageweeklydigest&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7170464303186108416) every Monday with a list of five packages that belong to the same category.
+
+You can follow us and the hashtags #APackageADay and #PackageWeeklyDigest to stay informed about R packages and learn about them.
+
+
+### Help us put together the rOpenSci Community Call calendar for the year!
+
+We are organizing the Community Calls for this year. Could you help us decide which topics we should cover? 
+
+We hold [Community Calls](/commcalls/) to share knowledge that is relevant to our community and consistent with [our vision and mission](/about/). These are free and open for anyone to attend and provide opportunities for us to connect with rOpenSci community members around the world.
+We’ve [opened an issue in this repository for each topic we’re considering](https://github.com/ropensci-org/community-calls/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc). We’d like your input and “votes” on these, and your suggestions for other topics we haven’t thought of.
+
+We would love to hear your ideas. 🙏 
 
 
 ### New packages
@@ -63,7 +78,7 @@ The following two packages recently became a part of our software suite, or were
 
 + [baRulho](https://docs.ropensci.org/baRulho), developed by Marcelo Araya-Salas: Intended to facilitate acoustic analysis of (animal) sound transmission experiments, which typically aim to quantify changes in signal structure when transmitted in a given habitat by broadcasting and re-recording animal sounds at increasing distances. The package offers a workflow with functions to prepare the data set for analysis as well as to calculate and visualize several degradation metrics, including blur ratio, signal-to-noise ratio, excess attenuation and envelope correlation among others (Dabelsteen et al 1993 <doi:10.1121/1.406682>).  It is available on [CRAN]( https://CRAN.R-project.org/package=baRulho). It has been [reviewed](https://github.com/ropensci/software-review/issues/609).
 
-+ [tabulapdf](https://docs.ropensci.org/tabulapdf), developed by Mauricio Vargas Sepulveda together with Thomas J. Leeper and Tom Paskhalis: Bindings for the Tabula <http://tabula.technology/> Java library, which can extract tables from PDF documents. It has been [reviewed](https://github.com/ropensci/software-review/issues/42).
++ [fellingdater](https://docs.ropensci.org/fellingdater), developed by Kristof Haneca: fellingdater is an R package that aims to facilitate the analysis and interpretation of tree-ring data from wooden cultural heritage objects and structures. The package standarizes the process of computing and combining felling date estimates, both for individual and groups of related tree-ring series. It has been [reviewed](https://github.com/ropensci/software-review/issues/618) by Antonio Jesus Pérez-Luque and Nicholas John Tierney.
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
@@ -71,7 +86,8 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following eight packages have had an update since the last newsletter: [frictionless](https://docs.ropensci.org/frictionless "Read and Write Frictionless Data Packages") ([`v1.1.0`](https://github.com/frictionlessdata/frictionless-r/releases/tag/v1.1.0)), [beautier](https://docs.ropensci.org/beautier "BEAUti from R") ([`v2.6.12`](https://github.com/ropensci/beautier/releases/tag/v2.6.12)), [bib2df](https://docs.ropensci.org/bib2df "Parse a BibTeX File to a Data Frame") ([`v1.1.2.0`](https://github.com/ropensci/bib2df/releases/tag/v1.1.2.0)), [cffr](https://docs.ropensci.org/cffr "Generate Citation File Format (cff) Metadata for R Packages") ([`v1.0.1`](https://github.com/ropensci/cffr/releases/tag/v1.0.1)), [crul](https://docs.ropensci.org/crul "HTTP Client") ([`v1.4.2`](https://github.com/ropensci/crul/releases/tag/v1.4.2)), [dittodb](https://docs.ropensci.org/dittodb "A Test Environment for Database Requests") ([`v0.1.8`](https://github.com/ropensci/dittodb/releases/tag/v0.1.8)), [riem](https://docs.ropensci.org/riem "Accesses Weather Data from the Iowa Environment Mesonet") ([`v0.3.1`](https://github.com/ropensci/riem/releases/tag/v0.3.1)), and [stantargets](https://docs.ropensci.org/stantargets "Targets for Stan Workflows") ([`0.1.1`](https://github.com/ropensci/stantargets/releases/tag/0.1.1)).
+The following sixteen packages have had an update since the last newsletter: [frictionless](https://docs.ropensci.org/frictionless "Read and Write Frictionless Data Packages") ([`v1.1.0`](https://github.com/frictionlessdata/frictionless-r/releases/tag/v1.1.0)), [beautier](https://docs.ropensci.org/beautier "BEAUti from R") ([`v2.6.12`](https://github.com/ropensci/beautier/releases/tag/v2.6.12)), [bib2df](https://docs.ropensci.org/bib2df "Parse a BibTeX File to a Data Frame") ([`v1.1.2.0`](https://github.com/ropensci/bib2df/releases/tag/v1.1.2.0)), [cffr](https://docs.ropensci.org/cffr "Generate Citation File Format (cff) Metadata for R Packages") ([`v1.0.1`](https://github.com/ropensci/cffr/releases/tag/v1.0.1)), [crul](https://docs.ropensci.org/crul "HTTP Client") ([`v1.4.2`](https://github.com/ropensci/crul/releases/tag/v1.4.2)), [DataPackageR](https://docs.ropensci.org/DataPackageR "Construct Reproducible Analytic Data Sets as R Packages") ([`v0.15.9`](https://github.com/ropensci/DataPackageR/releases/tag/v0.15.9)), [dittodb](https://docs.ropensci.org/dittodb "A Test Environment for Database Requests") ([`v0.1.8`](https://github.com/ropensci/dittodb/releases/tag/v0.1.8)), [eia](https://docs.ropensci.org/eia "API Wrapper for U.S. Energy Information Administration (EIA) Open Data") ([`v0.4.2`](https://github.com/ropensci/eia/releases/tag/v0.4.2)), [fellingdater](https://docs.ropensci.org/fellingdater "Estimate, report and combine felling dates of historical tree-ring 
+    series") ([`v1.0.0`](https://github.com/ropensci/fellingdater/releases/tag/v1.0.0)), [jagstargets](https://docs.ropensci.org/jagstargets "Targets for JAGS Pipelines") ([`1.2.0`](https://github.com/ropensci/jagstargets/releases/tag/1.2.0)), [melt](https://docs.ropensci.org/melt "Multiple Empirical Likelihood Tests") ([`v1.11.3`](https://github.com/ropensci/melt/releases/tag/v1.11.3)), [riem](https://docs.ropensci.org/riem "Accesses Weather Data from the Iowa Environment Mesonet") ([`v0.3.1`](https://github.com/ropensci/riem/releases/tag/v0.3.1)), [spatsoc](https://docs.ropensci.org/spatsoc "Group Animal Relocation Data by Spatial and Temporal Relationship") ([`v0.2.3`](https://github.com/ropensci/spatsoc/releases/tag/v0.2.3)), [stantargets](https://docs.ropensci.org/stantargets "Targets for Stan Workflows") ([`0.1.1`](https://github.com/ropensci/stantargets/releases/tag/0.1.1)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.9.0`](https://github.com/ropensci/tarchetypes/releases/tag/0.9.0)), and [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.7.0`](https://github.com/ropensci/targets/releases/tag/1.7.0)).
 
 ## Software Peer Review
 
@@ -103,15 +119,15 @@ There are thirteen recently closed and active submissions and 6 submissions on h
 
     * [fwildclusterboot](https://github.com/ropensci/software-review/issues/546), Fast Wild Cluster Bootstrap Inference for Linear Models. Submitted by [Alexander Fischer](https://s3alfisc.github.io/blog/).  (Stats).
 
-* One at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
-
-     * [rsi](https://github.com/ropensci/software-review/issues/636), Efficiently Retrieve and Process Satellite Imagery. Submitted by [Michael Mahoney](https://mm218.dev/). 
-
-* Three at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
+* Two at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
      * [cancerprof](https://github.com/ropensci/software-review/issues/637), API Client for State Cancer Profiles. Submitted by [Brian Park](https://github.com/realbp). 
 
-    * [osmapiR](https://github.com/ropensci/software-review/issues/633), OpenStreetMap API. Submitted by [Joan Maspons](https://orcid.org/0000-0003-2286-8727). 
+    * [rsi](https://github.com/ropensci/software-review/issues/636), Efficiently Retrieve and Process Satellite Imagery. Submitted by [Michael Mahoney](https://mm218.dev/). 
+
+* Two at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
+
+     * [osmapiR](https://github.com/ropensci/software-review/issues/633), OpenStreetMap API. Submitted by [Joan Maspons](https://orcid.org/0000-0003-2286-8727). 
 
     * [gigs](https://github.com/ropensci/software-review/issues/626), Assess Fetal, Newborn, and Child Growth with International Standards. Submitted by [Simon Parker](https://github.com/simpar1471).  (Stats).
 
