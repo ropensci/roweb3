@@ -67,13 +67,24 @@ And remember, you can always cowork independently on work related to R, work on 
 
 TODO MAËLLE
 
-### Social media placeholder
+### Learn about a different package every day by following our social media campaigns 
 
-TODO YANI
 
-### Comm calls ideas placeholder
+The goal of a community is to collaborate, share knowledge and build learnings.  That's why we want to show you the more than 300 packages in our federated community of open-source software developers. 
 
-TODO YANI
+Since December 2023, we have run the social media campaigns [“A Package a Day](https://hachyderm.io/@rOpenSci/tagged/APackageADay) on [Mastodon](https://hachyderm.io/@rOpenSci), in which we feature one package each day. On [LinkedIn](https://www.linkedin.com/company/ropensci/), we publish our [Package Weekly Digest](https://www.linkedin.com/feed/hashtag/?keywords=packageweeklydigest&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7170464303186108416) every Monday with a list of five packages that belong to the same category.
+
+You can follow us and the hashtags #APackageADay and #PackageWeeklyDigest to stay informed about R packages and learn about them.
+
+
+### Help us put together the rOpenSci Community Call calendar for the year!
+
+We are organizing the Community Calls for this year. Could you help us decide which topics we should cover? 
+
+We hold [Community Calls](/commcalls/) to share knowledge that is relevant to our community and consistent with [our vision and mission](/about/). These are free and open for anyone to attend and provide opportunities for us to connect with rOpenSci community members around the world.
+We’ve [opened an issue in this repository for each topic we’re considering](https://github.com/ropensci-org/community-calls/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc). We’d like your input and “votes” on these, and your suggestions for other topics we haven’t thought of.
+
+We would love to hear your ideas. 🙏 
 
 
 ### New packages
