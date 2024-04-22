@@ -64,7 +64,7 @@ And remember, you can always cowork independently on work related to R, work on 
 
 ## Software :package:
 
-### R-Universe Documentation Gets a Boost from Google Season of Docs
+### R-Universe documentation gets a boost from Google Season of Docs
 
 We are excited and grateful to [announce](/blog/2024/04/12/gsod-announcement/) that [R-Universe](https://r-universe.dev/) has been awarded a [Google Season of Docs](https://developers.google.com/season-of-docs) grant. R-Universe is rOpenSci’s platform for testing, building, distributing, and discovering R packages, led by [Jeroen Ooms](/author/jeroen-ooms/).
 
