@@ -5,7 +5,7 @@ date: '2024-04-22'
 tags:
   - newsletter
 slug: ropensci-news-april-2024
-description: 
+description: R-universe docs thanks to GSOD, community calls, new packages and package news
 params:
   last_newsletter: '2024-03-29'
 ---
@@ -61,9 +61,6 @@ Consult our [Events](/events) page to find your local time and how to join.
 - Tuesday, June 4th, 09:00 Australia Western (01:00 UTC), Theme TBD with cohost TBD and [Steffi LaZerte](/author/steffi-lazerte).
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
-
-## Software :package:
-
 ### R-Universe documentation gets a boost from Google Season of Docs
 
 We are excited and grateful to [announce](/blog/2024/04/12/gsod-announcement/) that [R-Universe](https://r-universe.dev/) has been awarded a [Google Season of Docs](https://developers.google.com/season-of-docs) grant. R-Universe is rOpenSci’s platform for testing, building, distributing, and discovering R packages, led by [Jeroen Ooms](/author/jeroen-ooms/).
@@ -90,6 +87,8 @@ We hold [Community Calls](/commcalls/) to share knowledge that is relevant to ou
 We’ve [opened an issue in this repository for each topic we’re considering](https://github.com/ropensci-org/community-calls/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc). We’d like your input and “votes” on these, and your suggestions for other topics we haven’t thought of.
 
 We would love to hear your ideas. 🙏 
+
+## Software :package:
 
 
 ### New packages
@@ -205,9 +204,13 @@ present_one <- function(package) {
     package$package, 
     author_string,
     sub(
-      "DPIRD weather data are accessed.*",
-      "",
-      stringr::str_remove(stringr::str_squish(package$details), "\\.$")
+      "<doi:",
+      "<https://doi.org/",
+      sub(
+      "standarizes",
+      "standardizes",
+      sub("\\.$", "", stringr::str_squish(package$details))
+    )
     )
   )
   
