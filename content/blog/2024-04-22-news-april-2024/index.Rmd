@@ -641,7 +641,7 @@ Gábor Csárdi announced the [second version of R-hub](https://blog.r-hub.io/202
 
 ### Patterns and anti-patterns of data analysis reuse
 
-Miles McBain wrote an [insightful blog](https://www.milesmcbain.com/posts/data-analysis-reuse/) post advocating for creating an universe of related packages to support data analyses at your organization, contrasting this approach with others such as copy-pasting or having a single gigantic package.
+Miles McBain wrote an [insightful blog](https://www.milesmcbain.com/posts/data-analysis-reuse/) post advocating for creating a universe of related packages to support data analyses at your organization, contrasting this approach with other approaches such as copy-pasting or having a single gigantic package.
 
 ### Install several R versions at once with rig
 
