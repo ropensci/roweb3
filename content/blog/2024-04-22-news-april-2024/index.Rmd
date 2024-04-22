@@ -58,6 +58,7 @@ Consult our [Events](/events) page to find your local time and how to join.
     - Explore rOpenSci [packages](/packages) and [contributing guide](https://contributing.ropensci.org/)
     - Ask questions or chat about rOpensci with Noam and other attendees.
     
+- Tuesday, June 4th, 09:00 Australia Western (01:00 UTC), Theme TBD with cohost TBD and [Steffi LaZerte](/author/steffi-lazerte).
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
 
