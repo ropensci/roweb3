@@ -658,7 +658,7 @@ Athanasia Mo Mowinckel shared her recent [Git mishap](https://drmowinckels.io/bl
 
 ### Notes on refactoring an API client
 
-[Scott Chamberlain](https://ropensci.org/author/scott-chamberlain/) published some [notes about refactoring an API client](https://recology.info/2024/03/refactoring-notes/), including some arguments in favor of "separation of concerns and code".
+[Scott Chamberlain](/author/scott-chamberlain/) published some [notes about refactoring an API client](https://recology.info/2024/03/refactoring-notes/), including some arguments in favor of "separation of concerns and code".
 
 ### Slides on good functions
 
