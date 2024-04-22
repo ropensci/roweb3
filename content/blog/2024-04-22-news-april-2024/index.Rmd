@@ -79,7 +79,7 @@ The goal of a community is to collaborate, share knowledge and build learnings. 
 
 Since December 2023, we have run the social media campaigns [“A Package a Day](https://hachyderm.io/@rOpenSci/tagged/APackageADay) on [Mastodon](https://hachyderm.io/@rOpenSci), in which we feature one package each day. On [LinkedIn](https://www.linkedin.com/company/ropensci/), we publish our [Package Weekly Digest](https://www.linkedin.com/feed/hashtag/?keywords=packageweeklydigest&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7170464303186108416) every Monday with a list of five packages that belong to the same category.
 
-You can follow us and the hashtags #APackageADay and #PackageWeeklyDigest to stay informed about R packages and learn about them.
+You can follow us and the hashtags #APackageADay and #PackageWeeklyDigest to stay informed about rOpenSci R packages and learn about them.
 
 
 ### Help us put together the rOpenSci Community Call calendar for the year!
