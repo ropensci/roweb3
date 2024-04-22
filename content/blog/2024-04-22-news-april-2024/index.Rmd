@@ -4,7 +4,7 @@ author: 'The rOpenSci Team'
 date: '2024-04-22'
 tags:
   - newsletter
-slug: ropensci-news-march-2024
+slug: ropensci-news-april-2024
 description: 
 params:
   last_newsletter: '2024-03-29'
