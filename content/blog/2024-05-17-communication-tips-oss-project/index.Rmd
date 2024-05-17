@@ -44,7 +44,7 @@ These terms and links are for GitHub, but similar ideas and features exist for o
 
 All open-source software has a profile, potentially spread across many places such as GitHub organizations or Mastodon accounts. A logo can be a key identifier of your profile, and should appear consistently throughout your profile(s). It is also important to include informative descriptions, and to verify all URLs ([docs for GitHub](https://docs.github.com/en/organizations/managing-organization-settings/verifying-or-approving-a-domain-for-your-organization), [docs for Mastodon](https://joinmastodon.org/verification)).
 
-For a GitHub organization you can ask your members whether they'd like to make their GitHub organization membership public, which might give a more collaborative image even before anyone dives into commit activity.
+For a GitHub organization you can ask your members whether they'd like to make their [GitHub organization membership public](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-membership-in-organizations/publicizing-or-hiding-organization-membership), which might give a more collaborative image even before anyone dives into commit activity.
 
 Profile polishing need not take a lot of time, and can only improve your project's image.
 
