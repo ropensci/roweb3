@@ -640,6 +640,10 @@ Read a post about how to [replace all occurrences of a given function call with 
 
 Athanasia Monica Mowinckel wrote an informative post about the [IDEs she uses](https://drmowinckels.io/blog/2024/ide/).
 
+### Code review resources
+
+Beside the [tidyverse code review guidance](https://code-review.tidyverse.org/), we can now recommend you check out the [code review anxiety workbook](https://developer-success-lab.gitbook.io/code-review-anxiety-workbook-1) by Carol Lee and Kristen Foster-Marks, that explains what code review anxiety is, and describes efficient methods to deal with it.
+
 ## Last words
 
 Thanks for reading! If you want to get involved with rOpenSci, check out our [Contributing Guide](https://contributing.ropensci.org) that can help direct you to the right place, whether you want to make code contributions, non-code contributions, or contribute in other ways like sharing use cases.
