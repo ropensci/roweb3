@@ -92,7 +92,7 @@ Once your blog has an RSS feed, register it in relevant aggregators such as [R W
 
 If you choose to open comments on your blog posts, make sure to integrate comments within your project's forum.
 
-This is very easy with [Discourse](https://meta.discourse.org/t/embed-discourse-comments-on-another-website-via-javascript/31963) (which we used on this very blog), and [GitHub Discussions via Giscus](https://giscus.app/fr) (which are also easy to integrate with [Quarto](https://quarto.org/docs/output-formats/html-basics.html#commenting) among others).
+This is very easy with [Discourse](https://meta.discourse.org/t/embed-discourse-comments-on-another-website-via-javascript/31963) (which we use on this very blog), and [GitHub Discussions via Giscus](https://giscus.app/fr) (which are also easy to integrate with [Quarto](https://quarto.org/docs/output-formats/html-basics.html#commenting) among others).
 
 Integrating comments with your forum means you only need to watch one space, and also help connect readers of your blog posts to the forum.
 
