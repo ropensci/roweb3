@@ -107,4 +107,4 @@ Ideally, concentrate your social media usage on [nice platforms](/blog/2023/06/2
 
 In this post, we shared some tips for communication for your open-source project.
 Use communication channels in accordance with your project's goals and resources.
-You might also be interested in our past community call [Set Up Your Package to Foster a Community](/blog/2021/04/28/commcall-pkg-community/)
+You might also be interested in our past community call [Set Up Your Package to Foster a Community](/blog/2021/04/28/commcall-pkg-community/).
