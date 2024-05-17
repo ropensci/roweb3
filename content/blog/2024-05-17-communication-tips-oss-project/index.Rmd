@@ -101,7 +101,7 @@ Integrating comments with your forum means you only need to watch one space, and
 Social media can be useful to spread the word about your project and its updates, and to engage with users.
 You might choose to make your social media "read-only" by stating clearly you do not have the resources to answer questions there.
 
-Ideally, concentrate your social media usage on [nice platforms](/blog/2022/11/16/mastodon-en/), and platforms where your projects' users and community are likely to congregate.
+Ideally, concentrate your social media usage on [nice platforms](/blog/2023/06/22/ropensci-news-digest-june-2023/#ropenscis-communication-channels-for-safe-and-friendly-exchange), and platforms where your projects' users and community are likely to congregate.
 
 ## Conclusion
 
