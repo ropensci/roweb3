@@ -69,10 +69,7 @@ Ideally, you should own the space, unless you can rely on an external partner (a
 For a small project, issue trackers might be all you need to handle bug reports, feature requests, and general Q&A.
 Bigger projects might nevertheless benefit from the creation and curation of a dedicated discussion forum.
 
-You could use [Discourse](https://www.discourse.org/), [GitHub Discussions](https://docs.github.com/fr/discussions), etc. 
-As with issue trackers, a challenge is making sure enough team or community members watch it.
-Often, users of a forum will expect a faster turnaround than for an issue.
-
+You could use [Discourse](https://www.discourse.org/), or [GitHub Discussions](https://docs.github.com/fr/discussions).
 
 ## Having a blog with an RSS feed
 
