@@ -59,7 +59,7 @@ As the makeup of a development team changes over time, it might be wise to revie
 
 ## Required: have a space for private discussions
 
-Although open-source development demands a lot to happen [in the open](https://producingoss.com/en/producingoss.html#avoid-private-discussions), having a safe space where team members can let off steam, discuss sensitive matters, or share pets' pictures, is very important.
+Although open-source development demands that a lot happens [in the open](https://producingoss.com/en/producingoss.html#avoid-private-discussions), it is also important to cultivate a safe space where team members can let off steam, discuss sensitive matters, or share pets' pictures.
 This could take such forms as a Slack workspace, Discord, Matrix, or Element server, or cutting edge options like [flat](https://try.flat.app) or [CQ2](https://cq2.co/).
 
 Ideally, you should own the space, unless you can rely on an external partner (a funder? a larger cohalition of projects?) to keep providing it to you.
