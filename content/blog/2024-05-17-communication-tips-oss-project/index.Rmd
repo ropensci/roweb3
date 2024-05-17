@@ -2,7 +2,7 @@
 title: Communication Tips for your Open-Source Project
 author: 
 - Maëlle Salmon
-date: '2024-05-16'
+date: '2024-05-17'
 slug: communication-tips-oss-project
 output: hugodown::md_document
 tags:
