@@ -42,6 +42,9 @@ You can read this post [on our blog](`r url`).
 Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
+### rOpenSci in the Research Organization Registry
+
+rOpenSci was added to the [Research Organization Registry](https://ror.org/), a global, community-led registry of open persistent identifiers for research organizations, in its lates [release](https://github.com/ror-community/ror-updates/releases/tag/v1.46).  ROR IDs help link and disambiguate metadata about organizations in the scholarly record, much like DOIs and ORCiDs do for manuscripts and researchers. [Linked metadata is rOpenSci's love language!](/blog/2018/03/16/thanking-reviewers-in-metadata/). Find us at <https://ror.org/019jywm96>.
 
 ### PLACEHOLDER CHAMPIONS PROGRAM
 
