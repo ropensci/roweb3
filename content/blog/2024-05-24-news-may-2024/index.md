@@ -20,8 +20,32 @@ You can read this post [on our blog](/blog/2024/05/24/ropensci-news-may-2024).
 Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
+### rOpenSci in the Research Organization Registry
 
-### PLACEHOLDER CHAMPIONS PROGRAM
+rOpenSci was added to the [Research Organization Registry](https://ror.org/), a global, community-led registry of open persistent identifiers for research organizations, in its lates [release](https://github.com/ror-community/ror-updates/releases/tag/v1.46).  ROR IDs help link and disambiguate metadata about organizations in the scholarly record, much like DOIs and ORCiDs do for manuscripts and researchers. [Linked metadata is rOpenSci's love language!](/blog/2018/03/16/thanking-reviewers-in-metadata/). Find us at <https://ror.org/019jywm96>.
+
+### What are the rOpenSci Champions up to now?
+
+Our champions and mentors have been carrying out various programmed activities.
+The first stage of the program has a very important training component. This year, we divided the training into a technical and community track, with several one to two-hour sessions we share here with the open material.  
+
+The Technical Track is focused on good software and package development practices: 
+
+* [Beautiful Code, Because We’re Worth It!.](https://stylish-code.netlify.app/#/) a one-hour session to present [good practices on writing code](/blog/2024/02/22/beautiful-code/). 
+
+* [Package Development: The Mechanics](https://rpkgdev-mechanics-2024.netlify.app/): three 2-hour sessions for beginners to demystify the creation of an R package.
+
+* [Package Development: Not Rocket Science](https://rpkgdev-rocket-2024.netlify.app/). Two-hour hands-on workshop for advanced R package development with several tips and tricks. 
+
+* [How rOpenSci Performs Peer Review](https://github.com/maurolepore/ropensci-review). Two-hour workshop to showcase and discuss how rOpenSci communicates, builds, and reviews software. 
+
+The Community Track is focused on community-building skills:
+
+* [How To Contribute to Open Projects and Communities](https://osschampionsprogram.netlify.app/) is a two-hour session presenting community participation frameworks, examples, and recommendations for your package. 
+
+* [Marketing Ideas For Your Package](/blog/2024/03/07/package-marketing/) In this blog post we suggest a series of activities and tools for advertising your package.
+
+Next month, we will complete the training with a workshop on Git and GitHub and another on Event Organization. 
 
 ### Coworking
 
@@ -79,17 +103,17 @@ There are twelve recently closed and active submissions and 7 submissions on hol
 
     * [agromet](https://github.com/ropensci/software-review/issues/599), Índices y Estadísticos Climáticos e Hidrológicos. Submitted by [Paola Corrales](https://paocorrales.github.io). 
 
-* One at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
+* Two at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 
-     * [fwildclusterboot](https://github.com/ropensci/software-review/issues/546), Fast Wild Cluster Bootstrap Inference for Linear Models. Submitted by [Alexander Fischer](https://s3alfisc.github.io/blog/).  (Stats).
+     * [osmapiR](https://github.com/ropensci/software-review/issues/633), OpenStreetMap API. Submitted by [Joan Maspons](https://github.com/jmaspons). 
 
-* Three at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
+    * [fwildclusterboot](https://github.com/ropensci/software-review/issues/546), Fast Wild Cluster Bootstrap Inference for Linear Models. Submitted by [Alexander Fischer](https://s3alfisc.github.io/blog/).  (Stats).
+
+* Two at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
      * [cancerprof](https://github.com/ropensci/software-review/issues/637), API Client for State Cancer Profiles. Submitted by [Brian Park](https://github.com/realbp). 
 
     * [rsi](https://github.com/ropensci/software-review/issues/636), Efficiently Retrieve and Process Satellite Imagery. Submitted by [Michael Mahoney](https://mm218.dev/). 
-
-    * [osmapiR](https://github.com/ropensci/software-review/issues/633), OpenStreetMap API. Submitted by [Joan Maspons](https://github.com/jmaspons). 
 
 * Two at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
 
@@ -105,7 +129,7 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 
 
-
+* [Communication Tips for your Open-Source Project](/blog/2024/05/17/communication-tips-oss-project) by Maëlle Salmon.
 
 ## Calls for contributions
 
