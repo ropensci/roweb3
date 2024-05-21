@@ -3,6 +3,9 @@
 
 [By]
   other = 'By'
+
+[Edited-by]
+  other = 'Edited by'
   
 [Filed-under]
   other = 'Filed under'

@@ -3,6 +3,8 @@ title: Marketing Ideas For Your Package
 author:
 - Yanina Bellini Saibene
 - Maëlle Salmon
+editor:
+- Steffi LaZerte
 date: '2024-03-07'
 slug: package-marketing
 tags:
