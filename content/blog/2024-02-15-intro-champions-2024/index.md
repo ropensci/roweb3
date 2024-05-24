@@ -12,6 +12,8 @@ author:
 - Erika Siregar
 - Jacqui Levy
 - Yanina Bellini Saibene
+editor:
+- Steffi LaZerte
 date: '2024-02-15'
 featured: true
 slug: champions-program-champions-2024

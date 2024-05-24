@@ -2,6 +2,8 @@
 title: How to Update a Translation with Babeldown
 author: 
 - Maëlle Salmon
+editor:
+- Noam Ross
 date: '2024-01-16'
 slug: deepl-update-babeldown
 categories: []

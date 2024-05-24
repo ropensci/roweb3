@@ -4,6 +4,8 @@ author:
 - Maëlle Salmon
 - Mark Padgham
 - Noam Ross
+editor:
+- Yanina Bellini Saibene
 date: '2024-03-11'
 slug: r_open_sci_dev_guide_0_9_0_ahora_multilingüe_y_mejor
 tags:
