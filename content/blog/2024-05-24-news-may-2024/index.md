@@ -22,28 +22,28 @@ Now let's dive into the activity at and around rOpenSci!
 ## rOpenSci HQ
 ### rOpenSci in the Research Organization Registry
 
-rOpenSci was added to the [Research Organization Registry](https://ror.org/), a global, community-led registry of open persistent identifiers for research organizations, in its lates [release](https://github.com/ror-community/ror-updates/releases/tag/v1.46).  ROR IDs help link and disambiguate metadata about organizations in the scholarly record, much like DOIs and ORCiDs do for manuscripts and researchers. [Linked metadata is rOpenSci's love language!](/blog/2018/03/16/thanking-reviewers-in-metadata/). Find us at <https://ror.org/019jywm96>.
+rOpenSci was added to the [Research Organization Registry](https://ror.org/) (ROR) in its latest [release](https://github.com/ror-community/ror-updates/releases/tag/v1.46). The ROR is  a global, community-led registry of open persistent identifiers for research organizations. ROR IDs help link and disambiguate metadata about organizations in the scholarly record, much like DOIs and ORCiDs do for manuscripts and researchers. [Linked metadata is rOpenSci's love language ❤️ !](/blog/2018/03/16/thanking-reviewers-in-metadata/) Find us at <https://ror.org/019jywm96>.
 
 ### What are the rOpenSci Champions up to now?
 
-Our champions and mentors have been carrying out various programmed activities.
-The first stage of the program has a very important training component. This year, we divided the training into a technical and community track, with several one to two-hour sessions we share here with the open material.  
+Our Champions and mentors have been carrying out various programmed activities.
+The first stage of the program has a very important training component. This year, we divided the training into technical and community tracks, with several one to two-hour sessions each. Here, you can find the openly available material for each session.
 
 The Technical Track is focused on good software and package development practices: 
 
-* [Beautiful Code, Because We’re Worth It!.](https://stylish-code.netlify.app/#/) a one-hour session to present [good practices on writing code](/blog/2024/02/22/beautiful-code/). 
+* [Beautiful Code, Because We’re Worth It!](https://stylish-code.netlify.app/#/): a 1-hour session on [good practices for  writing code](/blog/2024/02/22/beautiful-code/). 
 
 * [Package Development: The Mechanics](https://rpkgdev-mechanics-2024.netlify.app/): three 2-hour sessions for beginners to demystify the creation of an R package.
 
-* [Package Development: Not Rocket Science](https://rpkgdev-rocket-2024.netlify.app/). Two-hour hands-on workshop for advanced R package development with several tips and tricks. 
+* [Package Development: Not Rocket Science](https://rpkgdev-rocket-2024.netlify.app/): a 2-hour hands-on workshop for advanced R package development with tips and tricks. 
 
-* [How rOpenSci Performs Peer Review](https://github.com/maurolepore/ropensci-review). Two-hour workshop to showcase and discuss how rOpenSci communicates, builds, and reviews software. 
+* [How rOpenSci Performs Peer Review](https://github.com/maurolepore/ropensci-review): a 2-hour workshop to showcase and discuss how rOpenSci communicates, builds, and reviews software. 
 
 The Community Track is focused on community-building skills:
 
-* [How To Contribute to Open Projects and Communities](https://osschampionsprogram.netlify.app/) is a two-hour session presenting community participation frameworks, examples, and recommendations for your package. 
+* [How To Contribute to Open Projects and Communities](https://osschampionsprogram.netlify.app/): a 2-hour session presenting community participation frameworks, examples, and recommendations for your package. 
 
-* [Marketing Ideas For Your Package](/blog/2024/03/07/package-marketing/) In this blog post we suggest a series of activities and tools for advertising your package.
+* [Marketing Ideas For Your Package](/blog/2024/03/07/package-marketing/): A blog post presenting a series of activities and tools for advertising your package.
 
 Next month, we will complete the training with a workshop on Git and GitHub and another on Event Organization. 
 
@@ -57,7 +57,16 @@ Everyone welcome.
 No RSVP needed. 
 Consult our [Events](/events) page to find your local time and how to join.
 
-- Tuesday, June 4th, 09:00 Australia Western (01:00 UTC), Theme TBD with cohost TBD and [Steffi LaZerte](/author/steffi-lazerte).
+- [Tuesday, June 4th, 09:00 Australia Western (01:00 UTC)](/events/coworking-2024-06), R in the Wild with cohosts [Ernest Guevarra](/author/ernest-guevarra/), [Tomás Zaba](/author/tom%C3%A1s-zaba/), [Nicholus Tint Zaw](/author/nicholus-tint-zaw/), [Zython Paul Lachica](/author/zython-paul-lachica/) and [Steffi LaZerte](/author/steffi-lazerte).
+    - Work on some of your own wild workflows
+    - Learn how others use R in the Wild (at work, with or without teams)
+    - Chat with our cohosts, discuss the challenges they face, and wins they have through their work
+
+- [Tuesday, July 2nd, 14:00 Europe Central (12:00 UTC)](/events/coworking-2024-07), Git and GitHub with cohost [Zhian Kamvar](/author/zhian-n.-kamvar/) and [Steffi LaZerte](/author/steffi-lazerte).
+    - Read up on Git and GitHub and how they might serve you
+    - Start your first Git/GitHub project
+    - Chat with our cohost about the pros and cons of Git & GitHub, resources for getting started and tips and tricks.
+
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
 ## Software :package:
@@ -78,12 +87,12 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following six packages have had an update since the last newsletter: [comtradr](https://docs.ropensci.org/comtradr "Interface with the United Nations Comtrade API") ([`v1.0.0`](https://github.com/ropensci/comtradr/releases/tag/v1.0.0)), [dendroNetwork](https://docs.ropensci.org/dendroNetwork "Create Networks of Dendrochronological Series using Pairwise Similarity") ([`0.5.4`](https://github.com/ropensci/dendroNetwork/releases/tag/0.5.4)), [drake](https://docs.ropensci.org/drake "A Pipeline Toolkit for Reproducible Computation at Scale") ([`7.13.10`](https://github.com/ropensci/drake/releases/tag/7.13.10)), [fellingdater](https://docs.ropensci.org/fellingdater "Estimate, report and combine felling dates of historical tree-ring 
-    series") ([`v1.0.1`](https://github.com/ropensci/fellingdater/releases/tag/v1.0.1)), [osmextract](https://docs.ropensci.org/osmextract "Download and Import Open Street Map Data Extracts") ([`v0.5.1`](https://github.com/ropensci/osmextract/releases/tag/v0.5.1)), and [stplanr](https://docs.ropensci.org/stplanr "Sustainable Transport Planning") ([`v1.2.0`](https://github.com/ropensci/stplanr/releases/tag/v1.2.0)).
+The following nine packages have had an update since the last newsletter: [comtradr](https://docs.ropensci.org/comtradr "Interface with the United Nations Comtrade API") ([`v1.0.0`](https://github.com/ropensci/comtradr/releases/tag/v1.0.0)), [dendroNetwork](https://docs.ropensci.org/dendroNetwork "Create Networks of Dendrochronological Series using Pairwise Similarity") ([`0.5.4`](https://github.com/ropensci/dendroNetwork/releases/tag/0.5.4)), [drake](https://docs.ropensci.org/drake "A Pipeline Toolkit for Reproducible Computation at Scale") ([`7.13.10`](https://github.com/ropensci/drake/releases/tag/7.13.10)), [fellingdater](https://docs.ropensci.org/fellingdater "Estimate, report and combine felling dates of historical tree-ring 
+    series") ([`v1.0.2`](https://github.com/ropensci/fellingdater/releases/tag/v1.0.2)), [melt](https://docs.ropensci.org/melt "Multiple Empirical Likelihood Tests") ([`v1.11.4`](https://github.com/ropensci/melt/releases/tag/v1.11.4)), [nasapower](https://docs.ropensci.org/nasapower "NASA POWER API Client") ([`v4.2.1`](https://github.com/ropensci/nasapower/releases/tag/v4.2.1)), [osmextract](https://docs.ropensci.org/osmextract "Download and Import Open Street Map Data Extracts") ([`v0.5.1`](https://github.com/ropensci/osmextract/releases/tag/v0.5.1)), [stplanr](https://docs.ropensci.org/stplanr "Sustainable Transport Planning") ([`v1.2.0`](https://github.com/ropensci/stplanr/releases/tag/v1.2.0)), and [traits](https://docs.ropensci.org/traits "Species Trait Data from Around the Web") ([`v0.5.1`](https://github.com/ropensci/traits/releases/tag/v0.5.1)).
 
 ## Software Peer Review
 
-There are twelve recently closed and active submissions and 7 submissions on hold. Issues are at different stages: 
+There are thirteen recently closed and active submissions and 7 submissions on hold. Issues are at different stages: 
 
 * One at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
 
@@ -103,23 +112,25 @@ There are twelve recently closed and active submissions and 7 submissions on hol
 
     * [agromet](https://github.com/ropensci/software-review/issues/599), Índices y Estadísticos Climáticos e Hidrológicos. Submitted by [Paola Corrales](https://paocorrales.github.io). 
 
-* Two at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
-
-     * [osmapiR](https://github.com/ropensci/software-review/issues/633), OpenStreetMap API. Submitted by [Joan Maspons](https://github.com/jmaspons). 
-
-    * [fwildclusterboot](https://github.com/ropensci/software-review/issues/546), Fast Wild Cluster Bootstrap Inference for Linear Models. Submitted by [Alexander Fischer](https://s3alfisc.github.io/blog/).  (Stats).
-
-* Two at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
+* Three at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 
      * [cancerprof](https://github.com/ropensci/software-review/issues/637), API Client for State Cancer Profiles. Submitted by [Brian Park](https://github.com/realbp). 
 
-    * [rsi](https://github.com/ropensci/software-review/issues/636), Efficiently Retrieve and Process Satellite Imagery. Submitted by [Michael Mahoney](https://mm218.dev/). 
+    * [osmapiR](https://github.com/ropensci/software-review/issues/633), OpenStreetMap API. Submitted by [Joan Maspons](https://github.com/jmaspons). 
 
-* Two at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
+    * [fwildclusterboot](https://github.com/ropensci/software-review/issues/546), Fast Wild Cluster Bootstrap Inference for Linear Models. Submitted by [Alexander Fischer](https://s3alfisc.github.io/blog/).  (Stats).
+
+* Three at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
      * [chopin](https://github.com/ropensci/software-review/issues/638), CHOPIN: Computation for Climate and Health research On Parallelized INfrastructure. Submitted by [Insang Song](https://www.issong.net). 
 
-    * [gigs](https://github.com/ropensci/software-review/issues/626), Assess Fetal, Newborn, and Child Growth with International Standards. Submitted by [Simon Parker](https://github.com/simpar1471).  (Stats).
+    * [rsi](https://github.com/ropensci/software-review/issues/636), Efficiently Retrieve and Process Satellite Imagery. Submitted by [Michael Mahoney](https://mm218.dev/). 
+
+    * [sits](https://github.com/ropensci/software-review/issues/596), Satellite Image Time Series Analysis for Earth Observation Data Cubes. Submitted by [Gilberto Camara](https://www.gilbertocamara.org). 
+
+* One at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
+
+     * [gigs](https://github.com/ropensci/software-review/issues/626), Assess Fetal, Newborn, and Child Growth with International Standards. Submitted by [Simon Parker](https://github.com/simpar1471).  (Stats).
 
 Find out more about [Software Peer Review](/software-review) and how to get involved.
 
@@ -165,17 +176,17 @@ Some useful tips for R package developers. :eyes:
 One can run the covr package locally, or send results to an interface like codecov.io that provides interactive exploration of the output.
 It is possible to compute test coverage and send the results to codecov.io on GitHub Actions, using the r-lib/actions actions.
 
-Now, recently, workflows starting to fail if one did not set a codecov.io token as environment variable. 
+Now, recently, workflows have started to fail if one did not set a codecov.io token as an environment variable. 
 How to solve this
 
-- For an individual repo, add the token as `CODECOV_TOKEN` in repository secrets.
+- For an individual repo, add [your codecov.io token as `CODECOV_TOKEN` to the repository secrets](https://docs.codecov.com/docs/adding-the-codecov-token).
 - For an organization, ask the organization owner to create an organization wide codecov.io token and to store it as an organization secret. Make sure to update your [GitHub Actions workflow file](https://github.com/r-lib/actions/issues/834#issuecomment-2102337428), for instance by running [`usethis::use_github_action("test-coverage")`](https://usethis.r-lib.org/reference/use_github_action.html).
 
 ### Notes on package repositories
 
 Lluís Revilla Sancho wrote about [Packaging R: getting in repositories](https://llrs.dev/post/2024/05/05/packaging-r-getting-in/).
-We particularly note his two definitions of packages: the first one consists in making `install.packages()` work, the second in adding a layer of checks. 
-He then added "[R-universe](https://ropensci.org/r-universe/) is using the first definition but could be used to generate repositories with checks that comply with the second definition."
+We particularly note his two definitions of package repositories: the first one consists in making `install.packages()` work, the second in adding a layer of checks to packages in the repository. 
+He then added "[R-universe](/r-universe/) is using the first definition but could be used to generate repositories with checks that comply with the second definition."
 
 ### Standardize a DESCRIPTION file in one function call
 
@@ -184,7 +195,7 @@ Once you start using it, there's no way back.
 
 You can also call it indirectly via [`usethis::use_tidy_description()`](https://usethis.r-lib.org/reference/tidyverse.html) that also sets the Encoding field to UTF-8.
 
-### Automated refactoring with {xmlparsedata}
+### Automated refactoring with xmlparsedata
 
 Refactoring code can be tedious manual work, but it can also be tedious automated work. :wink:
 Read a post about how to [replace all occurrences of a given function call with another one](https://masalmon.eu/2024/05/15/refactoring-xml/) using an XML representation of the code.
