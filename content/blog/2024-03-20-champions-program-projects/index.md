@@ -3,7 +3,8 @@ title: "rOpenSci Champions Pilot Year: Projects Wrap-Up"
 slug: "champions-program-projects-cohort1"
 author:
   - Yanina Bellini Saibene
-
+editor:
+- Steffi LaZerte
 date: '2024-03-20'
 tags:
   - community

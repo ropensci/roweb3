@@ -5,6 +5,8 @@ author:
     - Yanina Bellini Saibene
     - Camille Santistevan
     - Lou Woodley
+editor:
+- Steffi LaZerte
 date: '2024-04-18'
 slug: champions-program-2024
 categories:

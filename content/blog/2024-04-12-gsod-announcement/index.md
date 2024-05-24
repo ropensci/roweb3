@@ -3,6 +3,8 @@ slug: "gsod-announcement"
 title: R-Universe Documentation Gets a Boost from Google Season of Docs
 author:
   - Noam Ross
+editor:
+- Steffi LaZerte
 date: 2024-04-12
 tags:
   - r-universe
