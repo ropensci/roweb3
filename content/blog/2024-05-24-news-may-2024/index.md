@@ -5,7 +5,7 @@ date: '2024-05-24'
 tags:
   - newsletter
 slug: ropensci-news-may-2024
-description: Champions program update, community calls, new packages and package news
+description: Champions program update, metadat, new packages and package news
 params:
   last_newsletter: '2024-04-22'
 ---
