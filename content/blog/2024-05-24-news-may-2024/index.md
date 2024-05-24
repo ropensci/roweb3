@@ -77,7 +77,7 @@ And remember, you can always cowork independently on work related to R, work on 
 
 
 
-The following  package recently became a part of our software suite, or were recently reviewed again:
+The following  package recently became a part of our software suite:
 
 + [dendroNetwork](https://docs.ropensci.org/dendroNetwork), developed by Ronald Visser: Creating dendrochronological networks based on the similarity between tree-ring series or chronologies. The package includes various functions to compare tree-ring curves building upon the dplR package. The networks can be used to visualise and understand the relations between tree-ring curves. These networks are also very useful to estimate the provenance of wood as described in Visser (2021) <DOI:10.5334/jcaa.79> or wood-use within a structure/context/site as described in Visser and Vorst (2022) <DOI:10.1163/27723194-bja10014>.  It is available on [CRAN]( https://CRAN.R-project.org/package=dendroNetwork). It has been [reviewed](https://github.com/ropensci/software-review/issues/627) by Kaija Gahm and Zachary Gajewski.
 
@@ -149,8 +149,6 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 If you're interested in maintaining any of the R packages below, you might enjoy reading our blog post [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/).
 
 * [historydata](https://docs.ropensci.org/historydata/), datasets for historians. [Issue for volunteering](https://github.com/ropensci/historydata/issues/23).
-
-* [textreuse](https://docs.ropensci.org/textreuse/), detect text reuse and document similarity. [Issue for volunteering](https://github.com/ropensci/textreuse/issues/97).
 
 * [USAboundaries](https://docs.ropensci.org/USAboundaries/) (and USAboundariesdata), historical and contemporary boundaries of the United States of America . [Issue for volunteering](https://github.com/ropensci/USAboundaries/issues/50).
 
