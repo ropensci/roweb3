@@ -1,6 +1,6 @@
 ---
 name: Carolina Pradier
-bio: rOpenSci Champion
+bio: Campeona de rOpenSci
 twitter: caro_pradier
 github: caropradier
 ---
