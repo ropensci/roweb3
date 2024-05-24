@@ -11,6 +11,12 @@
           {{ i18n "By" }}
           </span> 
           {{ partial "blogs/pretty_author_names" .Params.author }}
+          {{ with .Params.editor }}
+          <span>
+          &#8211; {{ i18n "Edited-by" }}
+          </span> 
+          {{ partial "blogs/pretty_author_names" . }}
+          {{ end }}
           </div>
         </div>
     </div>

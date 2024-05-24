@@ -2,6 +2,8 @@
 title: An Example of the DRY/DAMP Principles for Package Tests 
 author: 
 - Maëlle Salmon
+editor:
+- Steffi LaZerte
 date: '2024-03-18'
 slug: dry-damp
 output: hugodown::md_document
