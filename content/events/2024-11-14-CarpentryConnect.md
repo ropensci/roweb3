@@ -19,8 +19,8 @@ attendees:
   - Yanina Bellini Saibene
 
 resources: # can be added later, one entry per talk (don't add while still empty, add once there are resources)
-#  - title: "Keynote: How your code might rot"
-#    speaker: Maëlle Salmon
+#  - title: "Keynote:"
+#    speaker: Yani Bellini Saibene
 #    slides: 
 #    video: 
 #    language: en
@@ -28,5 +28,7 @@ resources: # can be added later, one entry per talk (don't add while still empty
 ---
 
 The Bio Network for Training, BioNT consortium with all its international partners will host the second [European CarpentryConnect event from November 12 to 14, 2024](https://biont-training.eu/event-details/CarpentryConnect2024). This event will be happening alongside the BioNT community event, creating a great opportunity for collaboration and networking. It will be held at EMBL - Heidelberg in Germany
+
+Yanina Bellini Saibene will be presenting a keynote at the event.
 
 Come to chat with Yani if you are around!
