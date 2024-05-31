@@ -1,32 +1,32 @@
 +++
 date = "2017-07-13T22:00:37-07:00"
 title = "The R-universe system"
-description = "The R-universe platform is a new umbrella project under which we experiment with various new ideas for improving publication and discovery of research software in R."
+description = "Publish, browse and discover R packages."
 tags = ["r-universe"]
 +++
 
-The R-universe platform is a new umbrella project under which we experiment with various new ideas for improving publication and discovery of research software in R.
+Our goal with R-universe is to improve the publication and discovery of research software in R.
 
-The system consists of several components and subprojects, that come together on the front-end dashboard on [https://r-universe.dev](https://r-universe.dev).
+## Publish, browse and discover R packages
 
+You can explore R-universe through its [front-end dashboard](https://r-universe.dev), and refer to its [documentation](https://docs.r-universe.dev).
+
+The project is lead by [Jeroen Ooms](/author/jeroen-ooms).
 
 ## Development infrastructure
 
 The R-universe system provides an array of services to users and developers of R packages, with integrated measuring and monitoring tools to analyze the state and evolution of the ecosystem.
 The platform is based around a modern build infrastructure, which enables users or research groups to seamlessly setup automated R package repositories for publishing software directly to users.
 
-A lot of the early work on R-universe has gone into iterating with designs to gradually build up such a system in a way that is robust and scalable, while keeping complexity under control.
-A brief introduction to the design of the system is described in the technote titled: [*A first look at the R-universe build infrastructure*](/blog/2021/03/04/r-universe-buildsystem/).
+We provide installation (cran-like) servers that are fully compatible with R, yet at the same time 
 
+- automate the build process, 
+- track revisions, 
+- perform network analysis on the dependency trees, 
+- collect statistics.
 
-
-## The package server
-
-The technical core of the system is provided by a high-performance [package server](https://www.npmjs.com/package/cranlike) which is implemented in a NodeJS/MongoDB docker stack.
-
-Whereas the traditional R package repository tooling is based on statically generated content, our package server dynamically generates the cran-like repository structure from a database and provides extensive APIs for interacting with repositories. Thereby we can provide cran-like servers that are fully compatible with R, yet at the same time automate the build process, track revisions, perform network analysis on the dependency trees, collect statistics, or annotate software with external information such as scientific metrics and citations.
-
-The package server provides [REST APIs](https://ropensci.r-universe.dev/man) for managing package submissions and querying information about individual packages as well as on the repository level. These data can be accessed programmatically or displayed in a [front-end dashboard](https://ropensci.r-universe.dev).
+The package server provides [REST APIs](https://ropensci.r-universe.dev/man) for managing package submissions and querying information about individual packages as well as on the repository level. 
+These data can be accessed programmatically or displayed in a [front-end dashboard](https://ropensci.r-universe.dev).
 
 
 ## Monitoring health and activity
