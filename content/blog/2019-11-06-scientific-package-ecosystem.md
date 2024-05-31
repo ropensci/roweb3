@@ -11,6 +11,7 @@ tags:
   - infrastructure
   - metrics
   - funding
+  - r-universe
 ---
 
 Today we are pleased to announce that we have received new funding from the [Gordon and Betty Moore Foundation](https://www.moore.org/initiative-strategy-detail?initiativeId=data-driven-discovery). The $894k grant will help us improve infrastructure for R packages and enable us to move towards a _science first_ package ecosystem for the R community. You may have already noticed some developments on this front when we announced [our automated documentation server](https://ropensci.org/technotes/2019/06/07/ropensci-docs/) back in June. Over the coming months we plan to roll out more tools and services to make it easier to maintain and distribute packages while capturing the impact of such work.
