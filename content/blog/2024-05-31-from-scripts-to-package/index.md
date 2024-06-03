@@ -9,6 +9,7 @@ tags:
   - Software Peer Review
   - packages
   - R
+  - dendroNetwork
 # The summary below will be used by e.g. Mastodon preview cards
 description: "How scripts were transformed into a package and what I learned in the process"
 ---
@@ -37,7 +38,7 @@ Creating a package from existing scripts started for me with these three excelle
 
 The easy bit was converting scripts into functions, since this is pretty straight forward programming. However, I never realized how much work writing (good) documentation is. This took me much longer than I expected, also because I was and am doing this in my spare time. However, it is also good to do this and explain what the functions and variables are for. I also learned a lot about the possibilities for continuous integration, automated testing and checking, especially from the [rOpenSci-documentation](https://devguide.ropensci.org/). A lot of information can be found there, which is really helpful. It takes an effort to read everything, but in the end it saves you a lot of time if you read all before you start developing a package!
 
-I really enjoyed the open peer-review in the process. After reading all documentation and making sure that dendroNetwork complied to the standards of rOpenSci, the process of submission was very easy. I enjoyed the feedback I got from the reviewers [Kaija Gahm](https://kaijagahm.netlify.app/) and [Zachary Gajewski](https://github.com/gzach93) and their comments really improved the software in a whole.
+I really enjoyed the [open peer-review](https://github.com/ropensci/software-review/issues/627) in the process. After reading all documentation and making sure that dendroNetwork complied to the standards of rOpenSci, the process of submission was very easy. I enjoyed the feedback I got from the reviewers [Kaija Gahm](https://kaijagahm.netlify.app/) and [Zachary Gajewski](https://github.com/gzach93) and their comments really improved the software in a whole.
 
 I would recommend any research who develops a new method with code the following things:
 
