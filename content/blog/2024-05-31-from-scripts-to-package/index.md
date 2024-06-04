@@ -14,7 +14,6 @@ tags:
 description: "How scripts were transformed into a package and what I learned in the process"
 ---
 
-# From scripts to a package. Developing dendroNetwork and learning with rOpenSci
 
 Developing [dendroNetwork](https://docs.ropensci.org/dendroNetwork/) as a package was not a goal from the beginning, but looking back, I think that it should have been. I wish that someone would have suggested making a package to me much earlier. Why? Because of many things, but mostly: reproducibility and transparency. This enables others to also use the method and software. In addition, I really enjoyed the open peer-review process after submitting to rOpenSci, because the reviewers showed me various improvements and how people from outside my discipline viewed the software and documentation. Meeting new people is always nice and a great bonus of the process.
 
