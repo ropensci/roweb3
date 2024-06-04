@@ -39,7 +39,7 @@ The easy bit was converting scripts into functions, since this is pretty straigh
 
 I really enjoyed the [open peer-review](https://github.com/ropensci/software-review/issues/627) in the process. After reading all documentation and making sure that dendroNetwork complied to the standards of rOpenSci, the process of submission was very easy. I enjoyed the feedback I got from the reviewers [Kaija Gahm](https://kaijagahm.netlify.app/) and [Zachary Gajewski](https://github.com/gzach93) and their comments really improved the software in a whole.
 
-I would recommend any research who develops a new method with code the following things:
+I would recommend any research who develops a new method with code to do the following things:
 
 -   Be nice, and share and document your code!
 
