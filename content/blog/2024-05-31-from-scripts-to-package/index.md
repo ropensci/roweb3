@@ -27,7 +27,7 @@ A few years ago I published a method developed to explore patterns in the simila
 
     Visser, R., & Vorst, Y. (2022). *Analyses, data and figures related to: 'Connecting ships: using dendrochronological network analysis to determine the wood provenance of Roman-period river barges found in the Lower Rhine region and to visualise patterns of wood use'* [dataset]. <https://doi.org/10.5281/zenodo.7243539>
 
-Creating a package from existing scripts started for me with these three excellent resources (in random order):
+For me, creating a package from my existing scripts started with these three excellent resources (in random order):
 
 -   <https://devguide.ropensci.org/>
 
