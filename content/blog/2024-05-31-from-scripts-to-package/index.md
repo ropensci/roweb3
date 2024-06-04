@@ -4,7 +4,7 @@ title: From scripts to package. Developing dendroNetwork and learning with rOpen
 package_version: 0.5.4
 author:
   - Ronald Visser
-date: 2024-05-30
+date: 2024-06-06
 tags:
   - Software Peer Review
   - packages
