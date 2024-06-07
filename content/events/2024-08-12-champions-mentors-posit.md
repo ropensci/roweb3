@@ -6,6 +6,7 @@ date: 2024-08-14T19:30:00 # UTC!! same as dateEnd
 description: "At Posit Conf? Come to chat with rOpenSci Champions and Mentors"
 location: 'Seattle'
 country: '🇺🇸' # emoji
+slug: "posit-2024"
 ropensci: no
 outputs: 
 - HTML
@@ -17,6 +18,7 @@ attendees:
   - Yi-Chin Sunny Tseng
   - Luis D. Verde Arregoitia
   - Francisco Cardozo
+  - Jonathan Keane
 resources: # can be added later, one entry per talk (don't add while still empty, add once there are resources)
   - title: "Why’d you load that package for?. Lightning talks session: Tuesday, Aug 13 1:00 PM PDT"
     speaker: Luis D. Verde Arregoitia
