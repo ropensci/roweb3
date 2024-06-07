@@ -31,6 +31,7 @@ At Posit Conf? Come to chat with rOpenSci Champions and Mentors. We'll be around
   - Yi-Chin Sunny Tseng
   - Luis D. Verde Arregoitia
   - Francisco Cardozo
+  - Jonathan Keane
 
 Don't miss Luis' lightning talk "Why’d you load that package for?" on Tuesday, Aug 13 at 1:00 PM PDT
 
