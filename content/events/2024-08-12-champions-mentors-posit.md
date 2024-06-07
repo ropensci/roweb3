@@ -1,8 +1,8 @@
 ---
 title: 'posit::conf(2024)'
 dateStart: '2024-08-12T16:10:00'
-dateEnd: '2023-08-14T19:30:00'
-date: 2023-08-14T19:30:00 # UTC!! same as dateEnd
+dateEnd: '2024-08-14T19:30:00'
+date: 2024-08-14T19:30:00 # UTC!! same as dateEnd
 description: "At Posit Conf? Come to chat with rOpenSci Champions and Mentors"
 location: 'Seattle'
 country: '🇺🇸' # emoji
