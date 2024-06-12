@@ -17,7 +17,7 @@ tags:
 
 ## A whole new frontend!
 
-As you may have noticed, we have given the [WebUI for R-universe](https://ropensci.r-universe.dev/packages) a big refresh. This is the biggest UX overhaul in since the beginning of the project.
+As you may have noticed, we have given the [WebUI for R-universe](https://ropensci.r-universe.dev/packages) a big refresh. This is the biggest UX overhaul since the beginning of the project.
 
 The old "dashboard" had become a bit convoluted over the years as features and ideas were added and removed while the project was taking shape. The new front-end keeps the same minimal design, but has been fully rewritten to improve performance, SEO, and incorporate feedback from users.
 
@@ -28,9 +28,9 @@ Also the [new implementation](https://github.com/r-universe-org/frontend) should
 You can explore the new WebUI by searching for your favorite package on [r-universe search](https://r-universe.dev/search) or navigating directly to `https://{owner}.r-universe.dev/{pkg}`. Some high-level changes to notice:
 
  - Pages are responsive with a max-width of 1440px to look nice on small and large screens.
- - Main contents are rendered server-side to improve performance and SEO.
+ - Main contents are rendered server-side which improves performance and SEO.
  - Cleaner top navbar which links to other universe content and has a search box.
- - Universe (owner) sidebar has moved to the left.
+ - Universe (owner) information sidebar has moved to the left.
  - Every package gets a section with citation info (also available via the API in html, txt or cff)
  - Development and contributors chart shows proper dates on x axis and max 12 contriburors.
  - Neat table with overview of package help pages link directly to beautiful [postdoc html manuals](https://ropensci.org/blog/2022/11/29/postdoc-docs/).
@@ -43,13 +43,13 @@ You can explore the new WebUI by searching for your favorite package on [r-unive
 {{< figureforgallery src="package4.png" alt="Screenshot of help pages table" >}}
 {{< /gallery >}}
 
-Finally the rendering of articles (vignettes) has improved to be a bit more readable. We hope this makes it easier to explore all the amazing written content available in R packages.
+Moreover the rendering of articles (vignettes) has improved to be a bit more readable. We hope this makes it easier to explore all the amazing written content available in R packages.
 
 {{< figureforgallery src="article1.png" alt="Screenshot viewing an article on r-universe" >}}
 
 ## Browsing all content from a universe
 
-The examples above display information and content from a single package. The top navbar links to the overview pages that show other content that is availble in a universe (for details see our previous post: [*Discovering and learning everything there is to know about R packages using r-universe*](https://ropensci.org/blog/2023/02/27/runiverse-discovering/)).
+The examples above display information and content from a single package. The top navbar links to the overview pages that show other content that is available in a universe (for details see our previous post: [*Discovering and learning everything there is to know about R packages using r-universe*](https://ropensci.org/blog/2023/02/27/runiverse-discovering/)).
 
 All r-universe subdomains still use the following url scheme:
 
@@ -60,7 +60,7 @@ All r-universe subdomains still use the following url scheme:
  - [`https://{owner}.r-universe.dev/badges`](https://ropensci.r-universe.dev/badges) - all available badges
  - [`https://{owner}.r-universe.dev/apis`](https://ropensci.r-universe.dev/apis) - interactive tool to explore r-universe APIs
 
-Each of these pages has been rewritten in the same frontend with lots of style and performance tweaks. Below some more screenshots.
+Each of these pages has been rewritten in the same frontend system with lots of style and performance tweaks. Below some more screenshots.
 
 {{< gallery >}}
 {{< figureforgallery src="builds.png" alt="Screenshot of builds tab of a repository." >}}
