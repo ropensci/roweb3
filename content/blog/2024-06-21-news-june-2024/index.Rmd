@@ -629,9 +629,9 @@ Some useful tips for R package developers. :eyes:
 Do the functions of your package use `data.frame` as input?
 Do not miss Hugo Gruson's post [Make your functions compa-tibble](https://hugogruson.fr/posts/compa-tibble/) as users of your package might well try and pass a `tibble`, which you probably don't want to be a showstopper!
 
-### Use lintr to enforce your package' function preferences
+### Use lintr to enforce your package's function preferences
 
-Do you want to commit to using the cli package instead of base R messaging?
+Do you want to commit to using the [cli package](https://blog.r-hub.io/2023/11/30/cliff-notes-about-cli/) instead of base R messaging?
 You can configure the lintr settings for your codebase to pick up usage of certain functions, to inform you along with the preferred replacement.
 See, as an example, [pkgdown's lintr configuration file](https://github.com/r-lib/pkgdown/blob/819cede3fbbb2410912f4d49365177c9159b809f/.lintr.R#L1) and the corresponding [GitHub Actions workflow](https://github.com/r-lib/pkgdown/blob/main/.github/workflows/lint.yaml) (from [r-lib/actions](https://usethis.r-lib.org/reference/use_github_action.html)).
 This neat safeguard makes use of the [Undesirable function linter](https://lintr.r-lib.org/reference/undesirable_function_linter.html).
@@ -640,7 +640,7 @@ This neat safeguard makes use of the [Undesirable function linter](https://lintr
 
 CRAN pages of packages now show...
 
-- Issues needed fixing! [Shared by Henrik Bengtsson](https://mastodon.social/@henrikbengtsson/112591630316235677)
+- Issues needed fixing! [Shared by Henrik Bengtsson](https://mastodon.social/@henrikbengtsson/112591630316235677).
 
 - DOIs! Have you seen Achim Zeileis' announcement that [All R packages on CRAN will get an official DOI](https://fosstodon.org/@zeileis/112597049943483012)?
 Contrary to Zenodo DOIs, it's the same DOI across all versions.
