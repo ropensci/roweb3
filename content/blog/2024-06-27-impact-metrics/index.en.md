@@ -27,14 +27,14 @@ As many other organizations we have a set of _traditional_ metrics that we use t
 
 For example, our Software Peer Review is a transparent, open, non-adversarial R package peer review process with the goal of improve the software we build to made science. Since it started we have review more than  
 
-* 200+ scientific software packages 
-* 577 reviewers
-* 700 unique contributors
-* 17,205,280 downloads
+* **200+** scientific software packages 
+* **577** reviewers
+* **700** unique contributors
+* **17,205,280** downloads
 
 Even when those numbers are impressive, we know that they are not enough to measure the impact of our work. Because a community is not just about numbers, but about people, because communities are built on connections.  
 
-## Framework to measure impact
+## Frameworks to measure impact
 
 We use two frameworks with a community management lens to capture metrics and try to measure our impact. The first one is a _four impact level_ framework: individual level, host institution/local community level, the community level, and the Open Science Community in general.
 
@@ -48,7 +48,7 @@ Being part of the champions program Marcos recibe training on package developmen
 
 > The program allowed people who aren't typically represented to have opportunities. - Marcos Prunello
 
-#### Host institution/local community level
+#### Host institution/local level
 
 As part of his activities on the Champions Program, Marcos organized a [workshops in Spanish on how to develop R packages and made them multilingual](/events/r-en-rosario-champions/
 ).  He also delivered a talk about rOpenSci and how to participate, sharing his knowledge with his colleagues and students, and the local community.
@@ -59,9 +59,51 @@ The workshop and talk was organized jointly with RenRosario R User Group and the
 
 #### Community level
 
-Marco's project on the champions program was to get his [karel R package]() in shape and submit it for software peer review. 
+Marco's project on the champions program was to get his [karel R package](https://mpru.github.io/karel/) in shape and submit it for rOpenSci software peer review. 
 
-The package that implements _Karel the robot_ to teach introductory programming concepts. Marcos' students speak in Spanish so he want the package in this language, at the same time he wants other educators can use karel and for that we provide the documentation and lessons in English.
+The package implements _Karel the robot_ to teach introductory programming concepts. Marcos' students speak in Spanish so he want the package in their native language, at the same time he wants other educators can use karel and for that he provide the documentation and lessons in English. 
+
+> As the package is multilingual the editorial team considers that it is best to have one reviewer in English and one in Spanish. 
+
+This package become the [**first rOpenSci bilingual software peer-review**](https://github.com/ropensci/software-review/issues/620), improving one of the most important process of rOpenSci.
+
+
+#### Open Science Community level
+
+The [multilingual aspect of the package](https://mpru.github.io/karel/) goes beyond the documentation and lessons.  Marcos design an architecture to have function names and messages in different languages, allowing students to learn to program also using their native language.
+
+> This package is pushing the limits of what R can do in term of multilingual functionality.
+
+The designed solution allows to other educator to translate the function and messages to also teach in their native language contributing to remove language barrier to code.          
+
+#### Tools 
+
+The tools we use to measure the impact of the Champions Program are:
+
+* Continuous anonymous surveys: using airtable forms and after every activity we ask our champions and mentors to fill a form with one aspect we need to improve and one aspect that works very well. 
+
+* Exit focus group: the last cohort meeting we have an activity to reflect on the program as group.  We also have an specific focus group with mentors.
+
+* Exit individual interview: an 30-45 minutes individual interview with each champion with a semi structure set of questions to capture the impact of the program in different levels, thing to improve and thing that work well.
+
+* Exit anonymous survey: with different questions for mentors and champions. 
+
+* Follow up with participants after 12 months and 24 months after they finished the program (we have this planed)
+
+
+### Community Participation Model Framework
+
+The second framework we use is the _Community Participation Model Framework_ that is based on [the CSCCE Participation Model](https://www.cscce.org/resources/cpm/). 
+
+This model describe four modes of community member participation:
+
+* Convey/Consume: the community *convey* content for members to *consume* independently of one another.
+
+* Contribute: 
+
+* Collaborate: 
+
+* Co-create: 
 
 
 
