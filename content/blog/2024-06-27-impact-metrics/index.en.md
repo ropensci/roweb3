@@ -99,11 +99,27 @@ This model describe four modes of community member participation:
 
 * Convey/Consume: the community *convey* content for members to *consume* independently of one another.
 
-* Contribute: 
+* Contribute: members are empowered to contribute in some way to the community activities.
 
 * Collaborate: 
 
 * Co-create: 
+
+### Example of the Community Participation Model Framework
+
+To exemplify this framework, let me introduce you to [Joel Nitta]() from Japan and [Athanasia Mowinckel]() from Norway.
+
+In [their own words](https://ropensci.org/blog/2023/07/20/teaching-targets-with-penguins/):
+
+> Joel was planning to visit Oslo, Norway to teach a workshop. 
+>
+> He reached out to Mo, *another active member of rOpenSci*, to ask about getting together for a coffee, >
+> Mo asked if Joel would be up for *teaching another workshop*. 
+>
+> Mo had *seen* Joel on an *rOpenSci community call about targets*, and really wanted to *take advantage of his experience* to start digging into [*targets*](https://docs.ropensci.org/targets/) (a rOpenSci package developed by [Will Landau](/author/will-landau/)). 
+>
+> Joel realized this was the *motivation* he needed to fully *flesh out the workshop materials*, so he happily agreed.
+
 
 
 
