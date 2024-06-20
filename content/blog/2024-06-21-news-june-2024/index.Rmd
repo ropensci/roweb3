@@ -45,7 +45,13 @@ Now let's dive into the activity at and around rOpenSci!
 
 ### PLACEHOLDER GOODPRACTICE MARK
 
-### PLACEHOLDER CZI MEETING YANI
+### rOpenSci at CZI Open Science 2024
+
+From June 10 to June 14 [Noam Ross](/author/noam-ross/), [Mauro Lepore](/author/mauro-lepore/) and [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) participated on the [CZI Open Science 2024](https://chanzuckerberg.com/science/programs-resources/open-science/) event. 
+
+On Wednesday, we showcased the [Champions Program](https://ropensci.org/champions/), sharing Champions' projects, training materials, and the results of the two-year pilot.  We had the chance to chat and learn about many other projects during these sessions. 
+
+Yanina participated in the closing panel on _Case Study Session 3: Demonstrating Impact of Open Science_ to explore the challenges of using traditional academic metrics to measure project impact and emphasize alternative approaches. In [her talk](/events/czi-2024/), Yani introduced the work different rOpenSci members do, the tools and metrics we use to capture their stories, and the impact we achieve together.
 
 ### The rOpenSci community at upcoming events
 
