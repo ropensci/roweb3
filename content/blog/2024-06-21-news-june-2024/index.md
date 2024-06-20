@@ -4,8 +4,8 @@ author: 'The rOpenSci Team'
 date: '2024-06-21'
 tags:
   - newsletter
-slug: ropensci-news-jne-2024
-description: Champions program update, metadata, new packages and package news
+slug: ropensci-news-june-2024
+description: New goodpractice maintainer, CZI meeting report, rOpenSci community at upcoming events, new packages and package news
 params:
   last_newsletter: '2024-05-24'
 ---
@@ -16,22 +16,34 @@ params:
 
 Dear rOpenSci friends, it's time for our monthly news roundup!
 <!-- blabla -->
-You can read this post [on our blog](/blog/2024/06/21/ropensci-news-jne-2024).
+You can read this post [on our blog](/blog/2024/06/21/ropensci-news-june-2024).
 Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
 ### PLACEHOLDER GOODPRACTICE MARK
 
-### PLACEHOLDER CZI MEETING YANI
+### rOpenSci at CZI Open Science 2024
 
-### The rOpenSci community at events
+From June 10 to June 14 [Noam Ross](/author/noam-ross/), [Mauro Lepore](/author/mauro-lepore/) and [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) participated on the [CZI Open Science 2024](https://chanzuckerberg.com/science/programs-resources/open-science/) event. 
+
+On Wednesday, we showcased the [Champions Program](https://ropensci.org/champions/), sharing Champions' projects, training materials, and the results of the two-year pilot.  We had the chance to chat and learn about many other projects during these sessions. 
+
+Yanina participated in the closing panel on _Case Study Session 3: Demonstrating Impact of Open Science_ to explore the challenges of using traditional academic metrics to measure project impact and emphasize alternative approaches. In [her talk](/events/czi-2024/), Yani introduced the work different rOpenSci members do, the tools and metrics we use to capture their stories, and the impact we achieve together.
+
+### The rOpenSci community at upcoming events
 
 Meet rOpenSci team and community members at events in the near future!
 
-- Two talks by rOpenSci team members to look forward to at useR! 2024 in Salzburg, Austria. 
-    - Maëlle Salmon's keynote talk ["How your code might rot"](https://sched.co/1c9Jy)on July 10 at 09:20 CEST;
-    - Jeroen Ooms' talk  ["Navigating the R Ecosystem Using R-Universe"](https://sched.co/1c90h) on Thursday, July 11, 11:30 - 11:50 CEST.
+- Two talks by rOpenSci team members, and more contributions by rOpenSci community members, to look forward to at useR! 2024 in Salzburg, Austria. 
+    - [Maëlle Salmon](/author/maëlle-salmon/)'s keynote talk ["How your code might rot"](https://sched.co/1c9Jy) on Wednesday, July 10 at 09:20 CEST;
+    - [Jeroen Ooms](/author/jeroen-ooms/)' talk  ["Navigating the R Ecosystem Using R-Universe"](https://sched.co/1c90h) on Thursday, July 11, 11:30 - 11:50 CEST.
+    - [Jon Harmon](/author/jon-harmon/)'s virtual talk "Learning Together at the Data Science Learning Community" will go live on the [useR!2024 YouTube playlist](https://youtube.com/playlist?list=PL77T87Q0eoJhsC203plZ1H4p21AGrM9rl&si=usuV_NlAJ_nR0QA8) at 10:30am CDT on July 2;
+    - [Paola Corrales](/author/pao-corrales/)' and [Elio Campitelli](/author/elio-campitelli/)'s tutorial ["Efficient Data Analysis with data.table"](https://sched.co/1c8yF) on Monday, July 3 (pre-registration required);
+    - [Elio Campitelli](/author/elio-campitelli)'s talk ["Building Bilingual Bridges with Multilingual Manuals"](https://sched.co/1c8yj) on Tuesday, July 4 at 11:40 CEST.
+    - [Hugo Gruson](/author/hugo-gruson)'s talk ["
+Building Interoperability in Existing Software Ecosystems with S3 Classes"](https://sched.co/1c8z3) on Tuesday, July 9 at 14:50, and his poster ["A reproducible analysis of CRAN Task Views to understand the state of an R package ecosystem"](https://sched.co/1cDry)
+    - [Lluís Revilla](/author/lluís-revilla-sancho/)'s and Henrik Bengtsson's [poster](https://sched.co/1cDsG) about CRAN packages archived and a the [cranhaven.org](http://cranhaven.org/) R-universe created to reduce the impact of that on users.
     
 - At [posit::conf(2024)](/events/posit-2024/) in Seattle, US, you'll get to meet some champions and mentors! 
     - Look for: Andrea Gomez Vargas; Yi-Chin Sunny Tseng; Luis D. Verde Arregoitia; Francisco Cardozo; Jonathan Keane.
@@ -53,6 +65,11 @@ Consult our [Events](/events) page to find your local time and how to join.
     - Read up on Git and GitHub and how they might serve you
     - Start your first Git/GitHub project
     - Chat with our cohost about the pros and cons of Git & GitHub, resources for getting started and tips and tricks.
+    
+- [Tuesday, August 6th, 9:00 America Pacific (16:00 UTC)](/events/coworking-2024-08), Building your first R package with cohost [Carolina Pradier](/author/carolina-pradier/) and [Steffi LaZerte](/author/steffi-lazerte).
+    - Explore how to make R packages
+    - Plan out that package you’ve always wanted to create
+    - Chat with our cohost about tips and tricks for making your first R package
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
@@ -83,15 +100,13 @@ The following eight packages have had an update since the last newsletter: [good
 
 There are fourteen recently closed and active submissions and 7 submissions on hold. Issues are at different stages: 
 
-* Two at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
-
-     * [rOPTRAM](https://github.com/ropensci/software-review/issues/612), Derive soil moisture using the OPTRAM algorithm. Submitted by [Micha Silver](https://github.com/micha-silver). 
-
-    * [mregions2](https://github.com/ropensci/software-review/issues/590), Access Data from Marineregions.org: The Marine Regions Gazetteer and the Marine Regions Data Products. Submitted by [salvafern](https://salvafern.github.io/). 
-
-* One at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
+* Three at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
 
      * [karel](https://github.com/ropensci/software-review/issues/620), Learning programming with Karel the robot. Submitted by [Marcos Prunello](https://unr.edu.ar/). 
+
+    * [rOPTRAM](https://github.com/ropensci/software-review/issues/612), Derive soil moisture using the OPTRAM algorithm. Submitted by [Micha Silver](https://github.com/micha-silver). 
+
+    * [mregions2](https://github.com/ropensci/software-review/issues/590), Access Data from Marineregions.org: The Marine Regions Gazetteer and the Marine Regions Data Products. Submitted by [salvafern](https://salvafern.github.io/). 
 
 * Four at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
 
@@ -103,9 +118,11 @@ There are fourteen recently closed and active submissions and 7 submissions on h
 
     * [agromet](https://github.com/ropensci/software-review/issues/599), Índices y Estadísticos Climáticos e Hidrológicos. Submitted by [Paola Corrales](https://paocorrales.github.io). 
 
-* Four at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
+* Five at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 
      * [eDNAjoint](https://github.com/ropensci/software-review/issues/642), Joint Modeling of Traditional and Environmental DNA Survey Data. Submitted by [Abigail Keller](https://github.com/abigailkeller). 
+
+    * [chopin](https://github.com/ropensci/software-review/issues/638), CHOPIN: Computation for Climate and Health research On Parallelized INfrastructure. Submitted by [Insang Song](https://www.issong.net). 
 
     * [rsi](https://github.com/ropensci/software-review/issues/636), Efficiently Retrieve and Process Satellite Imagery. Submitted by [Michael Mahoney](https://mm218.dev/). 
 
@@ -113,11 +130,9 @@ There are fourteen recently closed and active submissions and 7 submissions on h
 
     * [fwildclusterboot](https://github.com/ropensci/software-review/issues/546), Fast Wild Cluster Bootstrap Inference for Linear Models. Submitted by [Alexander Fischer](https://s3alfisc.github.io/blog/).  (Stats).
 
-* Two at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
+* One at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
-     * [chopin](https://github.com/ropensci/software-review/issues/638), CHOPIN: Computation for Climate and Health research On Parallelized INfrastructure. Submitted by [Insang Song](https://www.issong.net). 
-
-    * [QuadratiK](https://github.com/ropensci/software-review/issues/632), A Collection of Methods Using Kernel-Based Quadratic Distances for. Submitted by [Giovanni Saraceno](https://github.com/giovsaraceno).  (Stats).
+     * [QuadratiK](https://github.com/ropensci/software-review/issues/632), A Collection of Methods Using Kernel-Based Quadratic Distances for. Submitted by [Giovanni Saraceno](https://github.com/giovsaraceno).  (Stats).
 
 * One at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
 
@@ -183,10 +198,10 @@ This neat safeguard makes use of the [Undesirable function linter](https://lintr
 
 CRAN pages of packages now show...
 
-- Issues needed fixing! [Shared by Henrik Bengtsson](https://mastodon.social/@henrikbengtsson/112591630316235677).
+- Issues which need fixing! [Shared by Henrik Bengtsson](https://mastodon.social/@henrikbengtsson/112591630316235677).
 
 - DOIs! Have you seen Achim Zeileis' announcement that [All R packages on CRAN will get an official DOI](https://fosstodon.org/@zeileis/112597049943483012)?
-Contrary to Zenodo DOIs, it's the same DOI across all versions.
+In contrast to Zenodo DOIs, it's the same DOI across all versions.
 
 
 ### A pure GitHub preview workflow for pkgdown websites
