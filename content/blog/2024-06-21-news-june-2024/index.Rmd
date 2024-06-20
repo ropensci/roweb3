@@ -57,6 +57,7 @@ Meet rOpenSci team and community members at events in the near future!
     - [Jon Harmon](/author/jon-harmon/)'s virtual talk "Learning Together at the Data Science Learning Community" will go live on the [useR!2024 YouTube playlist](https://youtube.com/playlist?list=PL77T87Q0eoJhsC203plZ1H4p21AGrM9rl&si=usuV_NlAJ_nR0QA8) at 10:30am CDT on July 2;
     - [Paola Corrales](/author/pao-corrales/)' and [Elio Campitelli](/author/elio-campitelli/)'s tutorial ["Efficient Data Analysis with data.table"](https://sched.co/1c8yF) on Monday, July 3 (pre-registration required);
     - [Elio Campitelli](/author/elio-campitelli)'s talk ["Building Bilingual Bridges with Multilingual Manuals"](https://sched.co/1c8yj) on Tuesday, July 4 at 11:40 CEST.
+    - [Lluís Revilla](/author/lluís-revilla-sancho/) and Henrik Bengtsson present a poster about CRAN packages archived and a the [cranhaven.org](http://cranhaven.org/) r-universe created to reduce the impact of that on users.
     
 - At [posit::conf(2024)](/events/posit-2024/) in Seattle, US, you'll get to meet some champions and mentors! 
     - Look for: Andrea Gomez Vargas; Yi-Chin Sunny Tseng; Luis D. Verde Arregoitia; Francisco Cardozo; Jonathan Keane.
