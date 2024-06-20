@@ -101,9 +101,9 @@ This model describe four modes of community member participation:
 
 * Contribute: members are empowered to contribute in some way to the community activities.
 
-* Collaborate: 
+* Collaborate: members of a community collaborate with one another for the community activities, often with the community providing scaffolding for success. 
 
-* Co-create: 
+* Co-create: members work together within the community to co-create something that they couldn’t do before and that can involve others communities.
 
 ### Example of the Community Participation Model Framework
 
