@@ -44,6 +44,8 @@ Meet rOpenSci team and community members at events in the near future!
     - [Hugo Gruson](/author/hugo-gruson)'s talk ["
 Building Interoperability in Existing Software Ecosystems with S3 Classes"](https://sched.co/1c8z3) on Tuesday, July 9 at 14:50, and his poster ["A reproducible analysis of CRAN Task Views to understand the state of an R package ecosystem"](https://sched.co/1cDry)
     - [Lluís Revilla](/author/lluís-revilla-sancho/)'s and Henrik Bengtsson's [poster](https://sched.co/1cDsG) about CRAN packages archived and a the [cranhaven.org](http://cranhaven.org/) R-universe created to reduce the impact of that on users.
+    - [Will Landau](/author/will-landau)'s and Charlie Gao's talk ["Moju-Kapu: How {Mirai} and {Crew} Are Powering the Next Generation of Parallel Computing in R"](https://sched.co/1c8ya) on Tuesday, July 9 at 11:00 CEST.
+    - [Binod Jung Bogati](/blog/2024/02/15/champions-program-champions-2024/#binod-jung-bogati)'s talks ["Generate Raw Synthetic Dataset for Clinical Trial - Binod Jung Bogati, Numeric Mind"](https://sched.co/1c8w7) on Tuesday, July 9 at 13:30 CEST; and ["Translate R for Global Reach"](https://sched.co/1c90Y) on Thursday, July 11 at 12:10 CEST.
     
 - At [posit::conf(2024)](/events/posit-2024/) in Seattle, US, you'll get to meet some champions and mentors! 
     - Look for: Andrea Gomez Vargas; Yi-Chin Sunny Tseng; Luis D. Verde Arregoitia; Francisco Cardozo; Jonathan Keane.
