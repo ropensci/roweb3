@@ -4,7 +4,7 @@ author: 'The rOpenSci Team'
 date: '2024-06-21'
 tags:
   - newsletter
-slug: ropensci-news-jne-2024
+slug: ropensci-news-june-2024
 description: Champions program update, metadata, new packages and package news
 params:
   last_newsletter: '2024-05-24'
@@ -47,7 +47,7 @@ Now let's dive into the activity at and around rOpenSci!
 
 ### PLACEHOLDER CZI MEETING YANI
 
-### The rOpenSci community at events
+### The rOpenSci community at upcoming events
 
 Meet rOpenSci team and community members at events in the near future!
 
@@ -75,6 +75,11 @@ Consult our [Events](/events) page to find your local time and how to join.
     - Read up on Git and GitHub and how they might serve you
     - Start your first Git/GitHub project
     - Chat with our cohost about the pros and cons of Git & GitHub, resources for getting started and tips and tricks.
+    
+- [Tuesday, August 6th, 9:00 America Pacific (16:00 UTC)](/events/coworking-2024-08), Building your first R package with cohost [Carolina Pradier](/author/carolina-pradier/) and [Steffi LaZerte](/author/steffi-lazerte).
+    - Explore how to make R packages
+    - Plan out that package you’ve always wanted to create
+    - Chat with our cohost about tips and tricks for making your first R package
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
@@ -640,10 +645,10 @@ This neat safeguard makes use of the [Undesirable function linter](https://lintr
 
 CRAN pages of packages now show...
 
-- Issues needed fixing! [Shared by Henrik Bengtsson](https://mastodon.social/@henrikbengtsson/112591630316235677).
+- Issues which need fixing! [Shared by Henrik Bengtsson](https://mastodon.social/@henrikbengtsson/112591630316235677).
 
 - DOIs! Have you seen Achim Zeileis' announcement that [All R packages on CRAN will get an official DOI](https://fosstodon.org/@zeileis/112597049943483012)?
-Contrary to Zenodo DOIs, it's the same DOI across all versions.
+In contrast to Zenodo DOIs, it's the same DOI across all versions.
 
 
 ### A pure GitHub preview workflow for pkgdown websites
