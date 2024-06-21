@@ -51,6 +51,7 @@ The package is now a central part of our own internal ['pkgcheck' system](https:
 
 We are pleased to announce that rOpenSci has now taken over maintenance of the 'goodpractice' package, thanks to the approval both of the original author Gabor, and the previous maintainers at ascent.io.
 The package has now been moved to [our ropensci-review-tools GitHub organization](https://github.com/ropensci-review-tools), which holds all software used in our automated checking system.
+This also means that documentation for the package is now built by our own documentation system, and will live from here on at [docs.ropensci.org/goodpractice/](https://docs.ropensci.org/goodpractice/).
 
 ### rOpenSci at CZI Open Science 2024
 
