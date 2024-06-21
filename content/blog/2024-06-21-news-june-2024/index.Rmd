@@ -43,7 +43,15 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-### PLACEHOLDER GOODPRACTICE MARK
+### rOpenSci takes over maintenance of the {goodpractice} package
+
+The {goodpractice} package was started by Gábor Csárdi in 2016 to auto-magically provide advice on good practices for your own R package.
+[rOpenSci's *Dev Guide*](https://devguide.ropensci.org) has recommended using it from [the first day we started writing it in 2018](https://github.com/ropensci/dev_guide/commits/main/?since=2018-03-26&until=2018-03-26).
+The package is now a central part of our own internal [{pkgcheck} system](https://https://docs.ropensci.org/pkgcheck/), which is run automatically on all new submissions, and we recommend that all authors use [our 'pkgcheck-action' GitHub action](https://github.com/ropensci-review-tools/pkgcheck-action), which also runs {goodpractice}.
+
+We are pleased to announce that rOpenSci has now taken over maintenance of the {goodpractice} package, thanks to the approval both of the original author Gábor, and the previous maintainers at ascent.io.
+The package has now been moved to [our ropensci-review-tools GitHub organization](https://github.com/ropensci-review-tools), which holds all software used in our automated checking system.
+This also means that documentation for the package is now built by our own documentation system, and will live from here on at [docs.ropensci.org/goodpractice/](https://docs.ropensci.org/goodpractice/).
 
 ### rOpenSci at CZI Open Science 2024
 
