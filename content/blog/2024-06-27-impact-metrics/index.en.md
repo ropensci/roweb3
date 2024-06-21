@@ -105,7 +105,7 @@ This model describe four modes of community member participation:
 
 * Co-create: members work together within the community to co-create something that they couldn’t do before and that can involve others communities.
 
-### Example of the Community Participation Model Framework
+#### Example of the Community Participation Model Framework
 
 To exemplify this framework, let me introduce you to [Joel Nitta]() from Japan and [Athanasia Mowinckel]() from Norway.
 
@@ -120,7 +120,21 @@ In [their own words](https://ropensci.org/blog/2023/07/20/teaching-targets-with-
 >
 > Joel realized this was the *motivation* he needed to fully *flesh out the workshop materials*, so he happily agreed.
 
+* The targets community call was a _contribute_ mode for Joel and a _consume_ mode for Mo. 
 
+* The creation and delivery of the workshop was a _co-creation_ mode for both of them. Joel and Mo are both Carpentries instructors and they used their lesson development process and [infrastructure](https://carpentries.github.io/workbench/) to create the workshop materials.  The workshop is published with an open licence in [The Carpentries Incubator](https://carpentries-incubator.github.io/targets-workshop/). The Digital Scholarship Center at the University of Oslo, The Carpentries and rOpenSci benefit from this work.
+ 
+* Finally, when Mo and Joel write a blog post about this experience and the workshop, they are in a _collaboration_ mode.  Which also allow a collaboration mode for rOpenSci and The Carpentries because we cross post the blog post in both sites.
 
+#### Tools
+
+The tools we use to capture our memebers stories and the impact of the community are:
+
+* Annual mantainers surveys.
+* Interviews.
+* Use cases.
+* Social network analysis.
+
+#### Social network analysis
 
 
