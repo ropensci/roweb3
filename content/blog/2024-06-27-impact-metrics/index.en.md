@@ -78,7 +78,7 @@ The [multilingual aspect of the package](https://mpru.github.io/karel/) goes bey
 
 The designed solution allows to other educator to translate the function and messages to also teach in their native language contributing to remove language barrier to code.  
 
-{{< figure src = " community-global.png" alt = "Screenshoot of peer-review process messages, package documentation webpage and function examples in English and Spanish" caption = "<strong>karel package peer-review messages, bilingual documentation and bilingual functions</strong>">}}
+{{< figure src = "community-global.png" alt = "Screenshoot of peer-review process messages, package documentation webpage and function examples in English and Spanish" caption = "<strong>karel package peer-review messages, bilingual documentation and bilingual functions</strong>">}}
 
 #### Tools 
 
@@ -111,7 +111,7 @@ This model describe four modes of community member participation:
 
 #### Example of the Community Participation Model Framework
 
-To exemplify this framework, let me introduce you to [Joel Nitta]() from Japan and [Athanasia Mowinckel]() from Norway.
+To exemplify this framework, let me introduce you to [Joel Nitta](/author/joel-nitta/) from Japan and [Athanasia Mowinckel](/author/athanasia-mo-mowinckel/) from Norway.
 
 In [their own words](https://ropensci.org/blog/2023/07/20/teaching-targets-with-penguins/):
 
@@ -121,24 +121,28 @@ In [their own words](https://ropensci.org/blog/2023/07/20/teaching-targets-with-
 >
 > Mo asked if Joel would be up for *teaching another workshop*. 
 >
-> Mo had *seen* Joel on an *rOpenSci community call about targets*, and really wanted to *take advantage of his experience* to start digging into [*targets*](https://docs.ropensci.org/targets/) (a rOpenSci package developed by [Will Landau](/author/will-landau/)). 
+> Mo had *seen* Joel on an *rOpenSci community call about targets*, and really wanted to *take advantage of his experience* to start digging into [*targets*](https://docs.ropensci.org/targets/) (a rOpenSci's package developed by [Will Landau](/author/will-landau/)). 
 >
 > Joel realized this was the *motivation* he needed to fully *flesh out the workshop materials*, so he happily agreed.
 
-* The targets community call was a _contribute_ mode for Joel and a _consume_ mode for Mo. 
+{{< figure src = "mo-joel.png" alt = "Mo and Joel during the workshop and the community call webpage" caption = "<strong>Mo and Joel during the workshop and the community call webpage</strong>">}}
 
-* The creation and delivery of the workshop was a _co-creation_ mode for both of them. Joel and Mo are both Carpentries instructors and they used their lesson development process and [infrastructure](https://carpentries.github.io/workbench/) to create the workshop materials.  The workshop is published with an open licence in [The Carpentries Incubator](https://carpentries-incubator.github.io/targets-workshop/). The Digital Scholarship Center at the University of Oslo, The Carpentries and rOpenSci benefit from this work.
+* The [targets community call](/commcalls/jan2023-targets/) event was a _contribute_ mode for Joel and a _consume_ mode for Mo. 
+
+* The creation and delivery of the workshop was a _co-creation_ mode for both of them. Joel and Mo are both Carpentries instructors and they used their lesson development process and [infrastructure](https://carpentries.github.io/workbench/) to create the workshop materials.  The workshop is published with an open licence in [The Carpentries Incubator](https://carpentries-incubator.github.io/targets-workshop/). The Digital Scholarship Center at the University of Oslo, The Carpentries and rOpenSci benefit from this work. Also, anyone that want to learn or teach about targets can use the open materials.
  
 * Finally, when Mo and Joel write a blog post about this experience and the workshop, they are in a _collaboration_ mode.  Which also allow a collaboration mode for rOpenSci and The Carpentries because we cross post the blog post in both sites.
+
+{{< figure src = "workshop.png" alt = "Screenshoot of the blog post about the workshop, the workshop material in The Carpentries Incubator and Joel teaching" caption = "<strong>Blog post about the workshop, workshop material and Joel teaching</strong>">}}
 
 #### Tools
 
 The tools we use to capture our memebers stories and the impact of the community are:
 
-* Annual maintainers surveys.
-* Interviews: for example the series [The Stars of R-Universe](https://ropensci.org/blog/2023/11/06/r-universe-stars-finale/)
-* [Use cases](https://ropensci.org/usecases/): collected in a public forum, users report on how they use rOpenSci reviewed packages and those are shared in our webpage
-* Social network analysis.
+* **Annual maintainers surveys**.
+* **Interviews**: for example the series [The Stars of R-Universe](https://ropensci.org/blog/2023/11/06/r-universe-stars-finale/)
+* [**Use cases**](https://ropensci.org/usecases/): collected in a public forum, users report on how they use rOpenSci reviewed packages and those are shared in our webpage
+* **Social network analysis**.
 
 #### Social network analysis
 
@@ -147,13 +151,13 @@ We mapped rOpenSci collaboration network in 2022.  If we filter the network of t
 If we filter even more and we look at the collaboration on writing blog post in Spanish, this is how our network looks like before 2022, that year we introduce our Multilingual Publishing project, and this is how it looks in 2024.
 
 
-### General rules to think about metrics
+## Suggestion to think about metrics
 
-* We use metrics based on our goals.
+* Use metrics based on your goals.
 * That give us valuable feedback to improve our activities and programs.
-* That inform about our impact.
-* We use a mix of quantitative and qualitative metrics.
+* That inform about your impact.
+* Use a mix of quantitative and qualitative metrics.
 
-Register the numbers and the stories to guide your decisions to reach your goals.
+**Register the numbers and the stories** to guide your decisions to reach your goals.
 
 
