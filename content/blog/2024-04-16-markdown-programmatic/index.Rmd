@@ -116,26 +116,47 @@ These translate the markdown document into a data structure that gives you fine-
 With a formal data structure, you can programatically manipulate the markdown document by adding, removing, or manipulating pieces of markdown in a standardized way. 
 We will only mention the ones you can directly use from R.
 
-The [tinkr package](http://docs.ropensci.org/tinkr/) dreamed up by Maëlle Salmon and maintained by Zhian Kamvar parses Markdown to XML using Commonmark, allowing you to extract and manipulate markdown using XPath via the xml2 package. Tinkr writes the XML back to Markdown using XSLT. The YAML metadata is available as a string.
+
+### Fine-grain Parsing
+
+Let's say you have created a bunch of tutorials that link to a website containing a gallery of extensions for a popular plotting package. 
+Let's also say that one day, someone discovers that the link to the website is suddenly [redirecting to a potentially malicious site that is most certainly not related to the grammar of graphics](https://github.com/ggplot2-exts/gallery/issues/112) and you
+need to replace all instances of that link to `**redacted**`. Since links in markdown could be written any number of ways, regex is not going to help you, but a fine-grained Markdown parser will!
+
+A workflow for this situation would be:
+
+- read in the markdown AST with your favourite parser
+- pull out all links that point to the rotten link
+- replace them with emphasized text that says "redacted"
+- convert the AST and write back to file
+
+The [tinkr package](http://docs.ropensci.org/tinkr/) dreamed up by Maëlle Salmon and maintained by Zhian Kamvar parses Markdown to XML using Commonmark, allows you to extract and manipulate markdown using XPath via the xml2 package. 
+Tinkr writes the XML back to Markdown using XSLT. 
+The YAML metadata is available as a string.
+
+The [md4r package](https://rundel.github.io/md4r/), is a recent experimental package maintained by Colin Rundel, and is an R wrapper around the MD4C (Markdown for C) library and represents the AST as a nested list with attributes in R. 
+The development version of the package has utilities for constructing markdown documents programatically.
 
 With Pandoc that we presented in a [tech note last year](blog/2023/06/01/troubleshooting-pandoc-problems-as-an-r-user/#raw-attributes), you can parse a Markdown files to a Pandoc Abstract Syntax Tree (in JSON format). 
 Nic Crane has an experimental package called [parseqmd](https://github.com/thisisnic/parseqmd) that uses this strategy, parsing
 the output with the jsonlite package.
 You can also parse to, say HTML, and then back to Markdown. The benefit of parsing it to HTML is that you can use a package such as rvest to extract and manipulate the elements.
 
-The [parsermd package](https://rundel.github.io/parsermd/) maintained by Colin Rundel is "implementation of a formal grammar and parser for R Markdown documents using the Boost Spirit X3 library. 
-It also includes a collection of high level functions for working with the resulting abstract syntax tree." 
+### High-level Parsing
+
+If you are only interested in the heading structure of a document and code chunks, where you may or may not want to manipulate the rest of the markdown, you might benefit from using a high-level parser. 
+The [parsermd package](https://rundel.github.io/parsermd/) is another package maintained by Colin Rundel is "implementation of a formal grammar and parser for R Markdown documents using the Boost Spirit X3 library. 
+It also includes a collection of high level functions for working with the resulting abstract syntax tree."
+This package is different from other parsing options mentioned here because, in the words of its author, the aim of the package is "...to capture the fundamental structure of the document and as such we do not attempt to parse every detail of the Rmd."
+
 This package has functionality for a tidy workflow allowing you to select different sections of the document.
 One useful feature is that it has the function [`rmd_check_template()`](https://rundel.github.io/parsermd/articles/templates.html) allowing you to compare student markdown submissions against a standard template. 
-You can watch his [RStudio::conf(2021) talk about it](https://posit.co/resources/videos/parsermd-parsing-r-markdown-for-fun-and-profit/)
-
-The [md4r package](https://rundel.github.io/md4r/), more recent and also maintained by Colin Rundel, and is an R wrapper around the MD4C (Markdown for C) library and represents the AST as a nested list with attributes in R. 
-The development version of the package has utilities for constructing markdown documents programatically.
+You can watch his [RStudio::conf(2021) talk about it](https://posit.co/resources/videos/parsermd-parsing-r-markdown-for-fun-and-profit/).
 
 ### The Impossibility of a Perfect Roundtrip
 
 When parsing and editing Markdown, then writing it back to Markdown, some undesired changes might appear.
-For instance, with [tinkr](http://docs.ropensci.org/tinkr/#general-principles-and-solution) list items all start with a `-` even if in the original document they started with a `*`.
+For instance, with [tinkr](http://docs.ropensci.org/tinkr/#general-principles-and-solution) list items all start with a `-` even if in the original document they started with a `*`. With md4r, lists that are indented with extra space will be readjusted. 
 
 Depending on your use case you might want to find ways to mitigate such losses, for instance only re-writing the lines you made intentional edits to.
 
@@ -170,7 +191,7 @@ So a possible workflow is:
 
 ## Examples of Markdown Parsing and Editing
 
-The [pegboard package](https://carpentries.github.io/pegboard/) maintained by Zhian Kamvar, parses and validates Carpentries' lessons for structural markdown elements, thanks to tinkr.
+The [pegboard package](https://carpentries.github.io/pegboard/) maintained by Zhian Kamvar, parses and validates Carpentries' lessons for structural markdown elements, including valid links, alt-text, and known fenced-divs thanks to tinkr.
 
 The [babeldown package](https://docs.ropensci.org/babeldown/) maintained by Maëlle Salmon transforms Markdown to XML, sends it to DeepL API for translation, and writes the results back to Markdown, also using tinkr.
 
