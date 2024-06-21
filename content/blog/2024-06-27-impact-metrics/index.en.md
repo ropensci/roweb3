@@ -138,5 +138,17 @@ The tools we use to capture our memebers stories and the impact of the community
 #### Social network analysis
 
 This is the rOpenSci collaboration network mapped in 2022.  If we filter the network of those collaboration on writing blog post, this is how the network looks like in 2014 and this is how it looks in 2022.
+
 If we filter even more and we look at the collaboration on writing blog post in Spanish, this is how our network looks like before 2022, that year we introduce our Multilingual Publishing project, and this is how it looks in 2024.
+
+
+### General rules to think about metrics
+
+* We use metrics based on our goals.
+* That give us valuable feedback to improve our activities and programs.
+* That inform about our impact.
+* We use a mix of quantitative and qualitative metrics.
+
+Register the numbers and the stories to guide your decisions to reach your goals.
+
 
