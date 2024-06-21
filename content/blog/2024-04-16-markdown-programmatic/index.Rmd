@@ -192,6 +192,9 @@ So a possible workflow is:
 ## Examples of Markdown Parsing and Editing
 
 The [pegboard package](https://carpentries.github.io/pegboard/) maintained by Zhian Kamvar, parses and validates Carpentries' lessons for structural markdown elements, including valid links, alt-text, and known fenced-divs thanks to tinkr.
+This package was instrumental in converting all of The Carpentries lesson infrastructure from Jekyll's markdown syntax to Pandoc's markdown[^transition].
+
+[^transition]: For examples, see [The Carpentries Workbench Transition Guide](https://carpentries.github.io/workbench/transition-guide.html).
 
 The [babeldown package](https://docs.ropensci.org/babeldown/) maintained by Maëlle Salmon transforms Markdown to XML, sends it to DeepL API for translation, and writes the results back to Markdown, also using tinkr.
 
