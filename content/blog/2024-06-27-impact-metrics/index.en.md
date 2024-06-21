@@ -17,7 +17,7 @@ description:
 
 On June 14 I was invited to present at the [CZI Open Science 2024](https://chanzuckerberg.com/science/programs-resources/open-science/) event. I was asked to participate on the Case Study Session 3: Demonstrating Impact of Open Science and explore the challenges of using traditional academic metrics for measuring project impact and emphasize alternative approaches.
 
-I was very excited to share our experience with the community and to learn from others. In this blog post there is a summary of my talk and some of the questions that were asked during the session.
+I was very excited to share our experience with the community and to learn from others. In this blog post there is a summary of my talk.
 
 ## Metrics
 
@@ -40,7 +40,7 @@ We use two frameworks with a community management lens to capture metrics and tr
 
 ### Impact level framework
 
-To exemplify this framework, let me introduce you to Marcos Miguel Prunello, a professor of statistics at the Universidad Nacional de Rosario in Argentina and one of our Champions.
+To exemplify this framework, let me introduce you to [Marcos Miguel Prunello](/author/marcos-prunello/), a professor of statistics at the Universidad Nacional de Rosario in Argentina and one of our Champions.
 
 #### Individual level
 
@@ -56,6 +56,8 @@ As part of his activities on the Champions Program, Marcos organized a [workshop
 The workshop and talk was organized jointly with RenRosario R User Group and the Universidad Nacional de Rosario, that provide the venue for the event. 
 
 > The revival of our R user group in our city was motivating to me. I organized a workshop. After that, we had another meeting, and another one planned. - Marcos Prunello
+
+{{< figure src = "individual-local.png" alt = "Marcos Prunello with the RenRosario meetup attendees. A screenshoot of Marcos's workshop material and flyer of the workshop and talk about rOpenSci" caption = "<strong>Marcos with the workshop and RenRosario's meetup attendees and material from the event</strong>">}}
 
 #### Community level
 
@@ -137,7 +139,7 @@ The tools we use to capture our memebers stories and the impact of the community
 
 #### Social network analysis
 
-This is the rOpenSci collaboration network mapped in 2022.  If we filter the network of those collaboration on writing blog post, this is how the network looks like in 2014 and this is how it looks in 2022.
+We mapped rOpenSci collaboration network in 2022.  If we filter the network of those collaboration on writing blog post, this is how the network looks like in 2014 and this is how it looks in 2022.
 
 If we filter even more and we look at the collaboration on writing blog post in Spanish, this is how our network looks like before 2022, that year we introduce our Multilingual Publishing project, and this is how it looks in 2024.
 
