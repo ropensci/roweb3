@@ -21,7 +21,15 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-### PLACEHOLDER GOODPRACTICE MARK
+### rOpenSci takes over maintenance of the {goodpractice} package
+
+The {goodpractice} package was started by Gábor Csárdi in 2016 to auto-magically provide advice on good practices for your own R package.
+[rOpenSci's *Dev Guide*](https://devguide.ropensci.org) has recommended using it from [the first day we started writing it in 2018](https://github.com/ropensci/dev_guide/commits/main/?since=2018-03-26&until=2018-03-26).
+The package is now a central part of our own internal [{pkgcheck} system](https://https://docs.ropensci.org/pkgcheck/), which is run automatically on all new submissions, and we recommend that all authors use [our 'pkgcheck-action' GitHub action](https://github.com/ropensci-review-tools/pkgcheck-action), which also runs {goodpractice}.
+
+We are pleased to announce that rOpenSci has now taken over maintenance of the {goodpractice} package, thanks to the approval both of the original author Gábor, and the previous maintainers at ascent.io.
+The package has now been moved to [our ropensci-review-tools GitHub organization](https://github.com/ropensci-review-tools), which holds all software used in our automated checking system.
+This also means that documentation for the package is now built by our own documentation system, and will live from here on at [docs.ropensci.org/goodpractice/](https://docs.ropensci.org/goodpractice/).
 
 ### rOpenSci at CZI Open Science 2024
 
@@ -29,7 +37,7 @@ From June 10 to June 14 [Noam Ross](/author/noam-ross/), [Mauro Lepore](/author/
 
 On Wednesday, we showcased the [Champions Program](https://ropensci.org/champions/), sharing Champions' projects, training materials, and the results of the two-year pilot.  We had the chance to chat and learn about many other projects during these sessions. 
 
-Yanina participated in the closing panel on _Case Study Session 3: Demonstrating Impact of Open Science_ to explore the challenges of using traditional academic metrics to measure project impact and emphasize alternative approaches. In [her talk](/events/czi-2024/), Yani introduced the work different rOpenSci members do, the tools and metrics we use to capture their stories, and the impact we achieve together.
+Yanina participated in the closing panel on _Case Study Session 3: Demonstrating Impact of Open Science_ to explore the challenges of using traditional academic metrics to measure project impact and emphasize alternative approaches. In [her talk](/events/czi-2024/), Yani introduced the work done by different rOpenSci members, the tools and metrics we use to capture their stories, and the impact we achieve together.
 
 ### The rOpenSci community at upcoming events
 
@@ -83,9 +91,11 @@ And remember, you can always cowork independently on work related to R, work on 
 
 
 
-The following two packages recently became a part of our software suite:
+The following three packages recently became a part of our software suite:
 
 + [goodpractice](https://docs.ropensci.org/goodpractice), developed by Mark Padgham together with Karina Marks, Daniel de Bortoli, Gabor Csardi, Hannah Frick, Owen Jones, and Hannah Alexander: Give advice about good practices when building R packages. Advice includes functions and syntax to avoid, package structure, code complexity, code formatting, etc.  It is available on [CRAN]( https://CRAN.R-project.org/package=goodpractice). 
+
++ [mregions2](https://docs.ropensci.org/mregions2), developed by Salvador Fernandez-Bejarano together with Lotte Pohl: Explore and retrieve marine geo-spatial data from the Marine Regions Gazetteer and the Marine Regions Data Products, including the Maritime Boundaries. It has been [reviewed](https://github.com/ropensci/software-review/issues/590).
 
 + [rOPTRAM](https://docs.ropensci.org/rOPTRAM), developed by Micha Silver: The OPtical TRapezoid Model (OPTRAM) derives soil moisture based on the linear relation between a vegetation index and Land Surface Temperature (LST). The Short Wave Infra-red (SWIR) band is used as a proxy for LST. See: Sadeghi, M. et al., 2017. <https://doi.org/10.1016/j.rse.2017.05.041> . 
 
@@ -95,12 +105,12 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following eight packages have had an update since the last newsletter: [goodpractice](https://docs.ropensci.org/goodpractice "Advice on R Package Building") ([`v1.0.5`](https://github.com/ropensci-review-tools/goodpractice/releases/tag/v1.0.5)), [beastier](https://docs.ropensci.org/beastier "Call BEAST2") ([`v2.5.1`](https://github.com/ropensci/beastier/releases/tag/v2.5.1)), [c14bazAAR](https://docs.ropensci.org/c14bazAAR "Download and Prepare C14 Dates from Different Source Databases") ([`5.0.0`](https://github.com/ropensci/c14bazAAR/releases/tag/5.0.0)), [comtradr](https://docs.ropensci.org/comtradr "Interface with the United Nations Comtrade API") ([`v1.0.1`](https://github.com/ropensci/comtradr/releases/tag/v1.0.1)), [DataPackageR](https://docs.ropensci.org/DataPackageR "Construct Reproducible Analytic Data Sets as R Packages") ([`v0.16.0`](https://github.com/ropensci/DataPackageR/releases/tag/v0.16.0)), [dynamite](https://docs.ropensci.org/dynamite "Bayesian Modeling and Causal Inference for Multivariate
-    Longitudinal Data") ([`1.5.2`](https://github.com/ropensci/dynamite/releases/tag/1.5.2)), [readODS](https://docs.ropensci.org/readODS "Read and Write ODS Files") ([`v2.3.0`](https://github.com/ropensci/readODS/releases/tag/v2.3.0)), and [rgbif](https://docs.ropensci.org/rgbif "Interface to the Global Biodiversity Information Facility API") ([`v3.8.0`](https://github.com/ropensci/rgbif/releases/tag/v3.8.0)).
+The following nine packages have had an update since the last newsletter: [goodpractice](https://docs.ropensci.org/goodpractice "Advice on R Package Building") ([`v1.0.5`](https://github.com/ropensci-review-tools/goodpractice/releases/tag/v1.0.5)), [beastier](https://docs.ropensci.org/beastier "Call BEAST2") ([`v2.5.1`](https://github.com/ropensci/beastier/releases/tag/v2.5.1)), [c14bazAAR](https://docs.ropensci.org/c14bazAAR "Download and Prepare C14 Dates from Different Source Databases") ([`5.0.0`](https://github.com/ropensci/c14bazAAR/releases/tag/5.0.0)), [comtradr](https://docs.ropensci.org/comtradr "Interface with the United Nations Comtrade API") ([`v1.0.1`](https://github.com/ropensci/comtradr/releases/tag/v1.0.1)), [DataPackageR](https://docs.ropensci.org/DataPackageR "Construct Reproducible Analytic Data Sets as R Packages") ([`v0.16.0`](https://github.com/ropensci/DataPackageR/releases/tag/v0.16.0)), [dynamite](https://docs.ropensci.org/dynamite "Bayesian Modeling and Causal Inference for Multivariate
+    Longitudinal Data") ([`1.5.2`](https://github.com/ropensci/dynamite/releases/tag/1.5.2)), [readODS](https://docs.ropensci.org/readODS "Read and Write ODS Files") ([`v2.3.0`](https://github.com/ropensci/readODS/releases/tag/v2.3.0)), [rgbif](https://docs.ropensci.org/rgbif "Interface to the Global Biodiversity Information Facility API") ([`v3.8.0`](https://github.com/ropensci/rgbif/releases/tag/v3.8.0)), and [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.7.1`](https://github.com/ropensci/targets/releases/tag/1.7.1)).
 
 ## Software Peer Review
 
-There are fourteen recently closed and active submissions and 7 submissions on hold. Issues are at different stages: 
+There are fourteen recently closed and active submissions and 6 submissions on hold. Issues are at different stages: 
 
 * Three at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
 
