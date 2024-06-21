@@ -66,7 +66,7 @@ Yanina participated in the closing panel on _Case Study Session 3: Demonstrating
 Meet rOpenSci team and community members at events in the near future!
 
 - Two talks by rOpenSci team members, and more contributions by rOpenSci community members, to look forward to at useR! 2024 in Salzburg, Austria. 
-    - [Maëlle Salmon](/author/maëlle-salmon/)'s keynote talk ["How your code might rot"](https://sched.co/1c9Jy) on Wednesday, July 10 at 09:20 CEST;
+    - [Maëlle Salmon](/author/maëlle-salmon/)'s keynote talk ["How your code might get rusty"](https://sched.co/1c9Jy) on Wednesday, July 10 at 09:20 CEST;
     - [Jeroen Ooms](/author/jeroen-ooms/)' talk  ["Navigating the R Ecosystem Using R-Universe"](https://sched.co/1c90h) on Thursday, July 11, 11:30 - 11:50 CEST.
     - [Jon Harmon](/author/jon-harmon/)'s virtual talk "Learning Together at the Data Science Learning Community" will go live on the [useR!2024 YouTube playlist](https://youtube.com/playlist?list=PL77T87Q0eoJhsC203plZ1H4p21AGrM9rl&si=usuV_NlAJ_nR0QA8) at 10:30am CDT on July 2;
     - [Paola Corrales](/author/pao-corrales/)' and [Elio Campitelli](/author/elio-campitelli/)'s tutorial ["Efficient Data Analysis with data.table"](https://sched.co/1c8yF) on Monday, July 3 (pre-registration required);
