@@ -17,28 +17,28 @@ description:
 
 On June 14 I was invited to present at the [CZI Open Science 2024](https://chanzuckerberg.com/science/programs-resources/open-science/) event. I was asked to participate on the Case Study Session 3: Demonstrating Impact of Open Science and explore the challenges of using traditional academic metrics for measuring project impact and emphasize alternative approaches.
 
-I was very excited to share our experience with the community and to learn from others. In this blog post there is a summary of my talk.
+I was very excited to share our experience and to learn from others projects. In this blog post there is a summary of my talk.
 
 ## Metrics
 
 rOpenSci is a non-profit organization and a community of practice that lead a set of interrelated activities around capacity building, community development, and research software development practices to transform science through open data, software & reproducibility.
 
-As many other organizations we have a set of _traditional_ metrics that we use to measure the impact of our work. We use dashboards, we have our automatic process to calculate those metrics and we also use software that serve some other metrics to us. We calculate this metrics by project or activity and by the overall organization.
+As many other organizations we have a set of _traditional_ metrics that we use to measure the impact of our work. We use dashboards, we have automatic process to calculate those metrics and we also use software that provide metrics to us. We calculate metrics by project or activity and by the overall organization.
 
-For example, our Software Peer Review is a transparent, open, non-adversarial R package peer review process with the goal of improve the software we build to made science. Since it started we have review more than  
+For example, our [Software Peer Review](/software-review/) is a transparent, open, non-adversarial R package peer review process with the goal of improve the software we build to made science. Since it started we have review more than  
 
 * **200+** scientific software packages 
 * **577** reviewers
 * **700** unique contributors
 * **17,205,280** downloads
 
-Even when those numbers are impressive, we know that they are not enough to measure the impact of our work. Because a community is not just about numbers, but about people, because communities are built on connections.  
+Even when those numbers are very useful, we know that they are not enough to measure the impact of our work. **A community is not just about numbers, but about people, because communities are built on connections**.  
 
 ## Frameworks to measure impact
 
-We use two frameworks with a community management lens to capture metrics and try to measure our impact. The first one is a _four impact level_ framework: individual level, host institution/local community level, the community level, and the Open Science Community in general.
+We use two frameworks with a community management lens to capture metrics and try to measure our impact. The first one is a _four impact level_ framework: individual level, host institution/local level, the community level -in this case rOpenSci, and the Open Science or Open Source Community in general. The second one is base on a community of practice participation model. 
 
-### Impact level framework
+### Impact Level Framework
 
 To exemplify this framework, let me introduce you to [Marcos Miguel Prunello](/author/marcos-prunello/), a professor of statistics at the Universidad Nacional de Rosario in Argentina and one of our Champions.
 
@@ -76,21 +76,23 @@ The [multilingual aspect of the package](https://mpru.github.io/karel/) goes bey
 
 > This package is pushing the limits of what R can do in term of multilingual functionality.
 
-The designed solution allows to other educator to translate the function and messages to also teach in their native language contributing to remove language barrier to code.          
+The designed solution allows to other educator to translate the function and messages to also teach in their native language contributing to remove language barrier to code.  
+
+{{< figure src = " community-global.png" alt = "Screenshoot of peer-review process messages, package documentation webpage and function examples in English and Spanish" caption = "<strong>karel package peer-review messages, bilingual documentation and bilingual functions</strong>">}}
 
 #### Tools 
 
 The tools we use to measure the impact of the Champions Program are:
 
-* Continuous anonymous surveys: using airtable forms and after every activity we ask our champions and mentors to fill a form with one aspect we need to improve and one aspect that works very well. 
+* **Continuous anonymous surveys:**  after every activity we ask our champions and mentors to fill a form with one aspect we need to improve and one aspect that works very well. 
 
-* Exit focus group: the last cohort meeting we have an activity to reflect on the program as group.  We also have an specific focus group with mentors.
+* **Exit focus group:** the last cohort meeting we have an activity to reflect on the program as group.  We also have an specific focus group with mentors.
 
-* Exit individual interview: an 30-45 minutes individual interview with each champion with a semi structure set of questions to capture the impact of the program in different levels, thing to improve and thing that work well.
+* **Exit individual interview:** an 30-45 minutes individual interview with each champion with a semi structure set of questions to capture the impact of the program in different levels, thing to improve and thing that work well.
 
-* Exit anonymous survey: with different questions for mentors and champions. 
+* **Exit anonymous survey:** with different questions for mentors and champions. 
 
-* Follow up with participants after 12 months and 24 months after they finished the program (we have this planed)
+* **Follow up with participants:** we plan to contact participants after 12 months and 24 months since they finished the program.
 
 
 ### Community Participation Model Framework
@@ -99,13 +101,13 @@ The second framework we use is the _Community Participation Model Framework_ tha
 
 This model describe four modes of community member participation:
 
-* Convey/Consume: the community *convey* content for members to *consume* independently of one another.
+* **Convey/Consume:** the community *convey* content for members to *consume* independently of one another.
 
-* Contribute: members are empowered to contribute in some way to the community activities.
+* **Contribute:** members are empowered to contribute in some way to the community activities.
 
-* Collaborate: members of a community collaborate with one another for the community activities, often with the community providing scaffolding for success. 
+* **Collaborate:** members of a community collaborate with one another for the community activities, often with the community providing scaffolding for success. 
 
-* Co-create: members work together within the community to co-create something that they couldn’t do before and that can involve others communities.
+* **Co-create:** members work together within the community to co-create something that they couldn’t do before and that can involve others communities.
 
 #### Example of the Community Participation Model Framework
 
@@ -115,7 +117,8 @@ In [their own words](https://ropensci.org/blog/2023/07/20/teaching-targets-with-
 
 > Joel was planning to visit Oslo, Norway to teach a workshop. 
 >
-> He reached out to Mo, *another active member of rOpenSci*, to ask about getting together for a coffee, >
+> He reached out to Mo, *another active member of rOpenSci*, to ask about getting together for a coffee, 
+>
 > Mo asked if Joel would be up for *teaching another workshop*. 
 >
 > Mo had *seen* Joel on an *rOpenSci community call about targets*, and really wanted to *take advantage of his experience* to start digging into [*targets*](https://docs.ropensci.org/targets/) (a rOpenSci package developed by [Will Landau](/author/will-landau/)). 
