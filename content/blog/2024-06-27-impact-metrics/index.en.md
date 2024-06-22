@@ -144,12 +144,15 @@ The tools we use to capture our memebers stories and the impact of the community
 * [**Use cases**](https://ropensci.org/usecases/): collected in a public forum, users report on how they use rOpenSci reviewed packages and those are shared in our webpage
 * **Social network analysis**.
 
-#### Social network analysis
+### Social network analysis
 
 We mapped rOpenSci collaboration network in 2022.  If we filter the network of those collaboration on writing blog post, this is how the network looks like in 2014 and this is how it looks in 2022.
 
+{{< figure src = "workshop.png" alt = "" caption = "<strong>Blog post collaboration network 2014 and 2022</strong>">}}
+
 If we filter even more and we look at the collaboration on writing blog post in Spanish, this is how our network looks like before 2022, that year we introduce our Multilingual Publishing project, and this is how it looks in 2024.
 
+{{< figure src = "network-2024-es.png" alt = "The collaboration network before 2022 shows 2 nodes withour interation.  The collaboration network in 2024 shows 20 nodes with edges between them.  There are 3 clear clusters, champions program participants, the stars of r-universe series and translations of important post for the peer-review process" caption = "<strong>Blog post in spanish collaboration network mapping in two different moments in time.</strong>">}}
 
 ## Suggestion to think about metrics
 
