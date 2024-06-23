@@ -88,3 +88,22 @@ It is useful for finding the individuals who are best placed to influence the en
 
 * Clusters or communities: are groups that work together, their nodes have high number of connection between them. A clique cluster have all their memebers interconnected and a silo don't have connection with other clusters on the network.
 
+### Data for a network
+
+For this type of analysis we need data that reveal some kind of connection between the actors in a network.
+
+The most common data collection methods used in social network analysis are surveys and interviews collect from members in the network. As you can imagine, this can be costly in time and money.  
+
+The data also could come from existing data, like data on social media connections, and it can come from your own knowledge of the relationships that exist in the network.
+
+So we thought, is it possible that we already have that data in another format and we can accommodate it to analyze the connectivity of our community? is it possible that we could collect that data in an automated or semi-automated way to repeat the analysis?
+
+
+#### Path to contribute at rOpenSci
+
+* Write a blog post
+* Review a package
+* Speak at a community call
+* Maintain a package
+* Become a champion
+* Host a coworking session
