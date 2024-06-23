@@ -67,6 +67,24 @@ Here is where Social Networks Analysis comes into play. I'm not talking about in
 
 > Group of individuals who relate to others for a specific purpose, characterized by the existence of information flows.
 
-### Basic elements
+### Basic elements and metrics
+
+You can map the nodes and edges to explore the connections and patterns that exist
+and make conclusions based off of that exploration, for example, here we have map network, with the people as nodes and the edges as collaborations, for example, write a blog post together, being co-authors.
 
 {{< figure src = "red_4.svg" alt = ".">}}
+
+
+
+* The degree of a node is how many connection have, higer degree, more connected is the node.
+
+* The multiplexity show the number of connection between two nodes, for example
+you co-author more than one blog post.
+
+* Betweenness centrality measures the number of times a node lies on the shortest path between other nodes. What it tells us: This measure shows which nodes are 'bridges' between nodes in a network.
+
+* Clossness: scores each node based on how close it is to all other nodes in the network.
+It is useful for finding the individuals who are best placed to influence the entire network most quickly.
+
+* Clusters or communities: are groups that work together, their nodes have high number of connection between them. A clique cluster have all their memebers interconnected and a silo don't have connection with other clusters on the network.
+
