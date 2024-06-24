@@ -100,9 +100,15 @@ So we thought, is it possible that we already have that data in another format a
 
 #### Path to contribute at rOpenSci
 
-rOpenSci have a [contribution guide](https://contributing.ropensci.org) and a [tip sheet](/blog/2022/09/13/contributing-ropensci/) that summarize different paths to contribute and participate in the community. We give some examples in the image below. 
+Fortunately at rOpenSci we have a [Contributing Guide](https://contributing.ropensci.org/), there is a whole book describing the different ways you can contribute to the community (check our [Tip Sheet for a summary](/blog/2022/09/13/contributing-ropensci/)). For example, you can, Write a blog post, Review a package, Maintain a package, Speak at a Community Call, Become a champion or Host a coworking session. 
 
 {{< figure src = "contributions.png" alt = "Cartoons people doing differents contribution to rOpenSci: Write a blog post, Review a package, Speak at a community call, Maintain a package, Become a champion, Host a coworking session">}}
+
+Many of these forms of contribution can be made with other people and there we have our nodes and a connection between them.
+
+
+
+
 
 
 
