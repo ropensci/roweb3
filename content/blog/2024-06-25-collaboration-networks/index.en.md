@@ -72,21 +72,20 @@ Here is where Social Networks Analysis comes into play. I'm not talking about in
 You can map the nodes and edges to explore the connections and patterns that exist
 and make conclusions based off of that exploration, for example, here we have map network, with the people as nodes and the edges as collaborations, for example, write a blog post together, being co-authors.
 
-{{< figure src = "red_4.svg" alt = ".">}}
+{{< figure src = "red-elements.png" alt = "Two cartoon persons speaking with a can phone. Each person is a node, the thread is the edge and that edge can have direction.">}}
 
 
+* The *degree* of a node is how many connection have, higer degree, more connected is the node.
 
-* The degree of a node is how many connection have, higer degree, more connected is the node.
-
-* The multiplexity show the number of connection between two nodes, for example
+* The *multiplexity* show the number of connection between two nodes, for example
 you co-author more than one blog post.
 
-* Betweenness centrality measures the number of times a node lies on the shortest path between other nodes. What it tells us: This measure shows which nodes are 'bridges' between nodes in a network.
+* *Betweenness centrality* measures the number of times a node lies on the shortest path between other nodes. What it tells us: This measure shows which nodes are 'bridges' between nodes in a network.
 
-* Clossness: scores each node based on how close it is to all other nodes in the network.
+* The *clossness* scores each node based on how close it is to all other nodes in the network.
 It is useful for finding the individuals who are best placed to influence the entire network most quickly.
 
-* Clusters or communities: are groups that work together, their nodes have high number of connection between them. A clique cluster have all their memebers interconnected and a silo don't have connection with other clusters on the network.
+* The *Clusters or communities* are groups that work together, their nodes have high number of connection between them. A *clique* cluster have all their memebers interconnected and a *silo* don't have connection with other clusters on the network.
 
 ### Data for a network
 
@@ -101,9 +100,9 @@ So we thought, is it possible that we already have that data in another format a
 
 #### Path to contribute at rOpenSci
 
-* Write a blog post
-* Review a package
-* Speak at a community call
-* Maintain a package
-* Become a champion
-* Host a coworking session
+rOpenSci have a [contribution guide](https://contributing.ropensci.org) and a [tip sheet](/blog/2022/09/13/contributing-ropensci/) that summarize different paths to contribute and participate in the community. We give some examples in the image below. 
+
+{{< figure src = "contributions.png" alt = "Cartoons people doing differents contribution to rOpenSci: Write a blog post, Review a package, Speak at a community call, Maintain a package, Become a champion, Host a coworking session">}}
+
+
+
