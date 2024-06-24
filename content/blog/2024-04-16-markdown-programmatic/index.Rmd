@@ -4,6 +4,7 @@ title: All the ways to programmatically edit R Markdown / Quarto documents
 author:
   - Maëlle Salmon
   - Christophe Dervieux
+  - Zhian N. Kamvar
 # Set the date below to the publication date of your post
 date: 2024-04-16
 # Minimal tags for a post about a community-contributed package 
@@ -112,10 +113,12 @@ Even if using specific Markdown parsing tools will help you write less regular e
 ## Parsing Tools
 
 Parsing tools are fantastic, and numerous.
-These translate the Markdown document into a data structure that gives you fine-grained control over specific elements of the document (e.g. individual headings or links regardless of how they are written).
-With a formal data structure, you can programatically manipulate the Markdown document by adding, removing, or manipulating pieces of Markdown in a standardized way. 
+These translate the Markdown document into a data structure called an [Abstract
+Syntax Tree (AST)][AST] that gives you fine-grained control over specific elements of the document (e.g. individual headings or links regardless of how they are written).
+With a formal data structure, you can programmatically manipulate the Markdown document by adding, removing, or manipulating pieces of Markdown in a standardized way. 
 We will only mention the ones you can directly use from R.
 
+[AST]: https://en.wikipedia.org/wiki/Abstract_syntax_tree
 
 ### Fine-grain Parsing
 
