@@ -104,7 +104,22 @@ Fortunately at rOpenSci we have a [Contributing Guide](https://contributing.rope
 
 {{< figure src = "contributions.png" alt = "Cartoons people doing differents contribution to rOpenSci: Write a blog post, Review a package, Speak at a community call, Maintain a package, Become a champion, Host a coworking session">}}
 
-Many of these forms of contribution can be made with other people and there we have our nodes and a connection between them.
+Many of these forms of contribution can be made with other people and there we have our nodes and a connection between them.  In our examples: 
+
+* for a blog post the nodes are the authors and the edge is build by authorship, by writing a post together. We can get that data from our website.  
+
+* For a package review, the nodes are the authors, editors and reviewers and the edge is the peer-review conducted together. The data source is our peer-review database and the github repo and issues where we conduct all the process.
+
+* The authors, mantainers and contributors of a package are nodes in the _Maintain a package_ way of contributions. The infomration is on GitHub.
+
+* Speak at a Community Call, 
+
+* Become a champion  
+
+* Host a co working session. 
+
+As we can see, there are many ways to represent interactions and collaborations in our community, and many of those information is open and public. 
+
 
 
 
