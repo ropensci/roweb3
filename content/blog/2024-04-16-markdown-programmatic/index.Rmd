@@ -96,6 +96,45 @@ A common workflow would be:
 - You read this template in R using for instance the brio package.
 - Mapping over your set of variables, you render the template using whisker and save each version to a file using the brio package. 
 
+### Example
+
+Here's an example markdown file that we can use as a template:
+
+````{r show-markdown, echo = FALSE, warn = FALSE, message = FALSE, results = 'asis', comment = ""}
+md <- readLines("hw-template.md")
+writeLines(c("````markdown", md, "````"), con = stdout())
+````
+
+Using the workflow above, we can r
+
+```{r, message = FALSE}
+# generate student variables ----
+students <- c("Maëlle", "Christophe", "Zhian")
+n <- length(students)
+key <- data.frame(
+  name = students,
+  mean = rpois(n, 5),
+  sd   = sprintf("%.1f", runif(n)),
+  file = sprintf("%s-hw.md", students)
+)
+# render and write assignment from template ---- 
+make_assignment <- function(key, template) {
+  lapply(seq(n), function(i) {
+    new <- whisker::whisker.render(template, data = key[i, ])
+    brio::write_lines(new, key$file[i])
+  })
+  return(invisible())
+}
+md <- brio::read_lines("hw-template.md")
+make_assignment(key, template = md)
+print(key)
+```
+
+```{r, echo = FALSE}
+# clean up after ourselves
+unlink(list.files(pattern = "*-hw.md"))
+```
+
 ## String Manipulation Tools
 
 You can use string manipulation tools to parse Markdown if you are sure of the Markdown variants your code will get as input, or if you are willing to grow your codebase to accommodate many edge cases... which in the end means you are writing an actual Markdown parser. 
