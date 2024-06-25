@@ -2,6 +2,7 @@
 title: "rOpenSci Community Collaboration Insight Using Social Networks Analysis"
 author: 
   - Yanina Bellini Saibene
+  - Sandro Camargo
 editor:
   - Steffi LaZerte
 date: '2024-06-25'
@@ -112,14 +113,21 @@ Many of these forms of contribution can be made with other people and there we h
 
 * The authors, mantainers and contributors of a package are nodes in the _Maintain a package_ way of contributions. The infomration is on GitHub.
 
-* Speak at a Community Call, 
+* Speak at a Community Call, the node are the speakers, host and moderators, and the edge is the participation in the same call. The data is in our community calls database and our webpage.
 
-* Become a champion  
+* Become a champion, the nodes are the mentors and the mentees and the edge is the mentorship relationship. The data is in our mentorship program database and our webpage.  
 
-* Host a co working session. 
+* Host a co working session, the node are the attendees and the host. The edge is the participation in the same session. The data is in our our webpage. 
 
 As we can see, there are many ways to represent interactions and collaborations in our community, and many of those information is open and public. 
 
+When we put together collaborations like this, we can build a network of interactions and collaborations in our community.  This is how our network looks like in 2022:
+
+{{< figure src = "full_network.png" alt = "A network of nodes and edges, the nodes are the people and the edges are the collaborations.There are severals groups of nodes with the same colors that identify clusters">}}
+
+This networks include public data about blogs post, books, events, packages, reviews, translations and champions program. It is not complete, because do not include other spaces like our Slack or our Forum, but is a good approximation. 
+
+## Let's see an example with the Blog
 
 
 
