@@ -233,7 +233,7 @@ As with Markdown, you might need to use regular expressions but try not to.
 You can parse the code to XML using base R parsing and [xmlparsedata](https://r-lib.github.io/xmlparsedata/), then you manipulate the XML with [XPath](https://masalmon.eu/2022/04/08/xml-xpath/).
 To write code back, you can make use of the attributes of each node that indicates the original lines and columns.
 
-So a possible workflow is:
+So a possible workflow, as exemplified in a [blog post](https://masalmon.eu/2024/05/15/refactoring-xml/) is:
 
 - parse the code to XML, use xmlparsedata to inform what to change and where. Out of these steps you'd get a list of elements' positions for instance.
 - use brio to read the lines, change a few of them with base R tools, then use brio again to write the lines back.

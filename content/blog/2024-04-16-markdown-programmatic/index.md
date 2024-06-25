@@ -141,9 +141,9 @@ print(key)
 
 ```
 ##         name mean  sd             file
-## 1     Maëlle    3 1.0     Maëlle-hw.md
-## 2 Christophe    5 0.1 Christophe-hw.md
-## 3      Zhian    3 0.8      Zhian-hw.md
+## 1     Maëlle    5 1.0     Maëlle-hw.md
+## 2 Christophe    1 0.2 Christophe-hw.md
+## 3      Zhian    1 0.5      Zhian-hw.md
 ```
 
 Here's how Zhian's homework looks like:
@@ -154,7 +154,7 @@ title: "Homework assignment 1"
 author: "Zhian"
 ---
 
-Create a normal distribution with a mean of 3 and a standard deviation of 0.8:
+Create a normal distribution with a mean of 1 and a standard deviation of 0.5:
 
 ```{r solution-1}
 # hint: use the rnorm function
@@ -254,7 +254,7 @@ As with Markdown, you might need to use regular expressions but try not to.
 You can parse the code to XML using base R parsing and [xmlparsedata](https://r-lib.github.io/xmlparsedata/), then you manipulate the XML with [XPath](https://masalmon.eu/2022/04/08/xml-xpath/).
 To write code back, you can make use of the attributes of each node that indicates the original lines and columns.
 
-So a possible workflow is:
+So a possible workflow, as exemplified in a [blog post](https://masalmon.eu/2024/05/15/refactoring-xml/) is:
 
 - parse the code to XML, use xmlparsedata to inform what to change and where. Out of these steps you'd get a list of elements' positions for instance.
 - use brio to read the lines, change a few of them with base R tools, then use brio again to write the lines back.
