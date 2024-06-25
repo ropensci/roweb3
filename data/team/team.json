@@ -19,12 +19,10 @@
    "url": "/author/karthik-ram",
    "image" : "/img/team/karthik-ram.png",
    "affiliation": "Advisor",
-   "past_roles": [
+   "roles": [
       "co-founder",
       "strategic advisor"
    ],
-   "alumnus": true,
-   "generalreview": true,
    "twitter": "_inundata",
    "mastodon": "https://mastodon.social/@inundata",
    "linkedin": "https://www.linkedin.com/in/karthik-ram-93334954",
