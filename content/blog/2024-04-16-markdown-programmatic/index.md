@@ -1,5 +1,5 @@
 ---
-slug: "markdown-programmatic-parsing.edits"
+slug: "markdown-programmatic-parsing"
 title: All the ways to programmatically edit R Markdown / Quarto documents
 author:
   - Maëlle Salmon
@@ -52,7 +52,7 @@ Some content, with parts in __bold__ or _italic_. Let me add a [link](https://ro
 
 Furthermore there are different _flavors_ of Markdown[^md-flavours], which add some [extended syntax], like emoji written so: `:grin:`.
 
-[^md-flavours]: As of 2024-06-20, there are [76 programs that parse markdown](https://github.com/markdown/markdown.github.com/wiki/Implementations), some with their own unique flavour.
+[^md-flavours]: As of 2024-06-20, there are [76 programs that parse Markdown](https://github.com/markdown/markdown.github.com/wiki/Implementations), some with their own unique flavour.
 
 [extended syntax]: https://www.markdownguide.org/extended-syntax/
 
@@ -73,7 +73,7 @@ Some content, *nice* content.
 
 Most often R users will write Markdown manually, or with the help of an editor such as the RStudio IDE visual editor.
 But sometimes, one will have to create or edit a bunch of Markdown files at once, and editing all those files by hand is a huge waste of time. 
-This blog post will give you resources in R that you can use to create, parse, and edit markdown documents, so that you can become the markdown wizard you have always dreamed of becoming :mage:!
+This blog post will give you resources in R that you can use to create, parse, and edit Markdown documents, so that you can become the Markdown wizard you have always dreamed of becoming :mage:!
 
 
 ## Templating Tools for Boilerplate Documents
@@ -98,7 +98,7 @@ A common workflow would be:
 
 ### Example
 
-Here's an example markdown file that we can use as a template:
+Here's an example Markdown file that we can use as a template:
 
 ````markdown
 ---
@@ -141,9 +141,9 @@ print(key)
 
 ```
 ##         name mean  sd             file
-## 1     Maëlle    5 0.2     Maëlle-hw.md
-## 2 Christophe    6 0.1 Christophe-hw.md
-## 3      Zhian    5 0.7      Zhian-hw.md
+## 1     Maëlle    8 0.6     Maëlle-hw.md
+## 2 Christophe    6 0.2 Christophe-hw.md
+## 3      Zhian    3 0.7      Zhian-hw.md
 ```
 
 
@@ -185,7 +185,7 @@ A workflow for this situation would be:
 - replace them with emphasized text that says "redacted"
 - convert the AST and write back to file
 
-The [tinkr package](http://docs.ropensci.org/tinkr/) dreamed up by Maëlle Salmon and maintained by Zhian Kamvar parses Markdown to XML using Commonmark, allows you to extract and manipulate markdown using XPath via the xml2 package. 
+The [tinkr package](http://docs.ropensci.org/tinkr/) dreamed up by Maëlle Salmon and maintained by Zhian Kamvar parses Markdown to XML using Commonmark, allows you to extract and manipulate Markdown using XPath via the xml2 package. 
 Tinkr writes the XML back to Markdown using XSLT. 
 The YAML metadata is available as a string.
 
@@ -205,7 +205,7 @@ It also includes a collection of high level functions for working with the resul
 This package is different from other parsing options mentioned here because, in the words of its author, the aim of the package is "...to capture the fundamental structure of the document and as such we do not attempt to parse every detail of the Rmd."
 
 This package has functionality for a tidy workflow allowing you to select different sections of the document.
-One useful feature is that it has the function [`rmd_check_template()`](https://rundel.github.io/parsermd/articles/templates.html) allowing you to compare student markdown submissions against a standard template. 
+One useful feature is that it has the function [`rmd_check_template()`](https://rundel.github.io/parsermd/articles/templates.html) allowing you to compare student Markdown submissions against a standard template. 
 You can watch his [RStudio::conf(2021) talk about it](https://posit.co/resources/videos/parsermd-parsing-r-markdown-for-fun-and-profit/).
 
 ### The Impossibility of a Perfect Roundtrip
@@ -246,8 +246,8 @@ So a possible workflow is:
 
 ## Examples of Markdown Parsing and Editing
 
-The [pegboard package](https://carpentries.github.io/pegboard/) maintained by Zhian Kamvar, parses and validates Carpentries' lessons for structural markdown elements, including valid links, alt-text, and known fenced-divs thanks to tinkr.
-This package was instrumental in converting all of The Carpentries lesson infrastructure from Jekyll's markdown syntax to Pandoc's markdown[^transition].
+The [pegboard package](https://carpentries.github.io/pegboard/) maintained by Zhian Kamvar, parses and validates Carpentries' lessons for structural Markdown elements, including valid links, alt-text, and known fenced-divs thanks to tinkr.
+This package was instrumental in converting all of The Carpentries lesson infrastructure from Jekyll's Markdown syntax to Pandoc's Markdown[^transition].
 
 [^transition]: For examples, see [The Carpentries Workbench Transition Guide](https://carpentries.github.io/workbench/transition-guide.html).
 
