@@ -129,6 +129,60 @@ This networks include public data about blogs post, books, events, packages, rev
 
 ## Let's see an example with the Blog
 
+The best part is that we can create this networks with R. Let's see an example with the blog post. We can extract the data we need from the YAML of each post in our webpage: the `title`, the list of `authors` and the `date`. 
+
+```
+---
+title: Agrandando nuestra comunidad con publicaciones multi-idioma
+author:
+  - Yanina Bellini Saibene
+  - Pao Corrales
+  - Elio Campitelli
+  - Maëlle Salmon
+date: '2023-01-12'
+
+[...]
+
+---
+```
+
+The following code performs this task and save the data in a csv file:
+
+1. Read all the files in the `content/blog/` folder with the `.md` extension  
+2. Create a tibble with the variables to store: _date, title, author, year_ and _contribution_type_.
+3. For each markdown document
+4. Read the YAML header, extract the value of each variable
+5. and add a row in the dataset with the information
+6. After process all the documents, we save the dataset to a CSV file
+
+``` r 
+file_list <- fs::dir_ls(path = "content/blog/", 
+                        recurse = TRUE, 
+                        type = "file", 
+                        glob = "*.md") 
+
+datos <- tibble(date = character(), 
+                title = character(),
+                author = character(), 
+                year = character(), 
+                contribution_type = character())
+                
+for (documento in file_list){ 
+  doc <- rmarkdown::yaml_front_matter(input = file.path(documento)) 
+  datos <- tibble::add_row(datos, 
+                           date = doc$date, 
+                           title = doc$title, 
+                           author = doc$author, 
+                           year = as.character(year(date(doc$date))), 
+                           contribution_type = 'blog post' 
+                           )  
+}
+
+write_csv(datos, "blog_post_authors.csv")                 
+
+```
+
+
 
 
 
