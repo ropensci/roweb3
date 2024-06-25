@@ -141,9 +141,9 @@ print(key)
 
 ```
 ##         name mean  sd             file
-## 1     Maëlle    5 0.4     Maëlle-hw.md
-## 2 Christophe    8 0.7 Christophe-hw.md
-## 3      Zhian    7 0.1      Zhian-hw.md
+## 1     Maëlle    3 1.0     Maëlle-hw.md
+## 2 Christophe    5 0.1 Christophe-hw.md
+## 3      Zhian    3 0.8      Zhian-hw.md
 ```
 
 Here's how Zhian's homework looks like:
@@ -154,7 +154,7 @@ title: "Homework assignment 1"
 author: "Zhian"
 ---
 
-Create a normal distribution with a mean of 7 and a standard deviation of 0.1:
+Create a normal distribution with a mean of 3 and a standard deviation of 0.8:
 
 ```{r solution-1}
 # hint: use the rnorm function
@@ -168,7 +168,7 @@ Create a normal distribution with a mean of 7 and a standard deviation of 0.1:
 You can use string manipulation tools to parse Markdown if you are sure of the Markdown variants your code will get as input, or if you are willing to grow your codebase to accommodate many edge cases... which in the end means you are writing an actual Markdown parser. 
 Not for the faint of heart... neither necessary if you read the section after this one. :relieved:
 
-You'd detect heading using for instance `grep("^#", markdown_lines)`[^edge].
+You'd detect headings using for instance `grep("^#", markdown_lines)`[^edge].
 
 [^edge]: But this would also detect code comments! Don't do this!
 

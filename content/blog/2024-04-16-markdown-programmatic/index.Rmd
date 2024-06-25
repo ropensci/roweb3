@@ -147,7 +147,7 @@ unlink(list.files(pattern = "*-hw.md"))
 You can use string manipulation tools to parse Markdown if you are sure of the Markdown variants your code will get as input, or if you are willing to grow your codebase to accommodate many edge cases... which in the end means you are writing an actual Markdown parser. 
 Not for the faint of heart... neither necessary if you read the section after this one. :relieved:
 
-You'd detect heading using for instance `grep("^#", markdown_lines)`[^edge].
+You'd detect headings using for instance `grep("^#", markdown_lines)`[^edge].
 
 [^edge]: But this would also detect code comments! Don't do this!
 
