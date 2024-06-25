@@ -130,6 +130,13 @@ make_assignment(key, template = md)
 print(key)
 ```
 
+Here's how Zhian's homework looks like:
+
+````{r show-zhian-markdown, echo = FALSE, warn = FALSE, message = FALSE, results = 'asis', comment = ""}
+md <- readLines("Zhian-hw.md")
+writeLines(c("````markdown", md, "````"), con = stdout())
+````
+
 ```{r, echo = FALSE}
 # clean up after ourselves
 unlink(list.files(pattern = "*-hw.md"))

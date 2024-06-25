@@ -141,10 +141,25 @@ print(key)
 
 ```
 ##         name mean  sd             file
-## 1     Maëlle    8 0.6     Maëlle-hw.md
-## 2 Christophe    6 0.2 Christophe-hw.md
-## 3      Zhian    3 0.7      Zhian-hw.md
+## 1     Maëlle    5 0.4     Maëlle-hw.md
+## 2 Christophe    8 0.7 Christophe-hw.md
+## 3      Zhian    7 0.1      Zhian-hw.md
 ```
+
+Here's how Zhian's homework looks like:
+
+````markdown
+---
+title: "Homework assignment 1"
+author: "Zhian"
+---
+
+Create a normal distribution with a mean of 7 and a standard deviation of 0.1:
+
+```{r solution-1}
+# hint: use the rnorm function
+```
+````
 
 
 
