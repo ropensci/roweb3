@@ -23,7 +23,6 @@
       "co-founder",
       "strategic advisor"
    ],
-   "generalreview": true,
    "twitter": "_inundata",
    "mastodon": "https://mastodon.social/@inundata",
    "linkedin": "https://www.linkedin.com/in/karthik-ram-93334954",
@@ -93,8 +92,10 @@
    "roles": [
       "staff",
       "researcher",
-      "developer"
+      "developer",
+      "editor"
    ],
+   "stats": true,
    "mastodon": "https://nerdculture.de/@mpadge",
    "github": "mpadge",
    "home": "/author/mark-padgham"
@@ -256,11 +257,11 @@
    "name": "Julia Gustavsen",
    "url": "https://www.juliagustavsen.com/",
    "image" : "/img/team/julia-gustavsen.jpg",
-
    "affiliation" : "Agroscope",
    "roles": [
       "editor"
    ],
+   "generalreview": true,
    "twitter": "JuliaGustavsen",
    "github": "jooolia",
    "home": "https://www.juliagustavsen.com/"
@@ -269,7 +270,6 @@
    "name": "Emily Riederer",
    "url": "https://emilyriederer.netlify.com/",
    "image" : "/img/team/emily-riederer.jpg",
-
    "affiliation" : "Capital One",
    "roles": [
       "editor"
@@ -283,7 +283,6 @@
    "name": "Adam Sparks",
    "url": "https://adamhsparks.netlify.app/",
    "image" : "/img/team/adam-sparks.jpg",
-
    "affiliation" : "Department of Primary Industries and Regional Development",
    "roles": [
       "editor"
@@ -299,7 +298,6 @@
    "name": "Jeff Hollister",
    "url": "https://jwhollister.com/",
    "image" : "/img/team/jeff-hollister.jpg",
-
    "affiliation" : "US Environmental Protection Agency",
    "roles": [
       "editor"
@@ -363,11 +361,12 @@
    "affiliation": "King Abdullah University of Science and Technology",
    "url": "https://www.paulamoraga.com/",
    "image": "/img/team/paula-moraga.jpg",
-   "roles": [
+   "past_roles": [
       "stat peer-review advisor",
       "editor"
    ],
    "stats": true,
+   "alumnus": true,
    "twitter": "Paula_Moraga_",
    "home": "http://www.paulamoraga.com/"
 },
@@ -431,9 +430,9 @@
    "roles": [
       "editor"
    ],
+   "stats": true,
    "twitter": "statsgen",
-   "home": "https://emitanaka.org/",
-   "stats": true
+   "home": "https://emitanaka.org/"
 },
 {
    "name": "Jouni Helske",
@@ -443,9 +442,31 @@
    "roles": [
       "editor"
    ],
+   "stats": true,
    "twitter": "jouni_helske",
-   "home": "https://jounihelske.netlify.app/",
-   "stats": true
+   "home": "https://jounihelske.netlify.app/"
+},
+{
+   "name": "Beatriz Milz",
+   "affiliation": "",
+   "url": "https://beamilz.com/",
+   "image": "/img/team/beatriz-milz.jpeg",
+   "roles": [
+      "editor"
+   ],
+   "generalreview": true,
+   "home": "https://beamilz.com/"
+},
+{
+   "name": "Margaret Siple",
+   "affiliation": "NOAA AFSC Groundfish Assessment Program - RACE division",
+   "url": "https://github.com/MargaretSiple-NOAA",
+   "image": "/img/team/margaret-siple.jpg",
+   "roles": [
+      "editor"
+   ],
+   "generalreview": true,
+   "home": "https://github.com/MargaretSiple-NOAA"
 },
 {
    "name": "Kelly Hondula",
