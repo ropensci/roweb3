@@ -180,10 +180,53 @@ write_csv(datos, "blog_post_authors.csv")
 
 ```
 
+The next step is to transform the list of author of each blog post in a network format.
 
+First we create the vertices with each author and how many blog post each author wrote.
 
+``` r
+author <- datos |> 
+  group_by(author) |> 
+  mutate(n = n()) |>
+  select(author, n) |>
+  distinct()
 
+```
+Now we need to create the edge or relations between the nodes or vertices. 
 
+This code take the list we create in the previews step, group by tile and year and keep all the blog post that have two authors or more.  Then, for each group, the `combn` function create a matrix with two rows and columns representing all the unique combination of two authors. We transpose this data to get two columns that become _from_ and _to_, representing the nodes.
 
+``` r
+relations <- datos |> 
+  group_by(title, year) |>
+  filter(n() > 1) |> 
+  summarise(as.data.frame(t(combn(author, 2)))) |>
+  select(from=V1, to=V2, title, year)
+
+```
+
+Now we create the network with the `igraph` package. 
+
+``` r
+library(igraph)
+
+g_blog <- graph_from_data_frame(d = relations, 
+                              vertices = author, 
+                              directed = FALSE)
+
+```
+
+And plot the rOpenSci collaboration network of blog post authors.
+
+``` r
+
+plot(g_blog, 
+     vertex.size = 4, 
+     vertex.label.cex = 0.5, 
+     edge.arrow.size = 0.5, 
+     edge.curved = 0.5, 
+     edge.width = 0.5)
+
+```
 
 
