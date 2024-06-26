@@ -140,9 +140,7 @@ author:
   - Elio Campitelli
   - Maëlle Salmon
 date: '2023-01-12'
-
 [...]
-
 ---
 ```
 
