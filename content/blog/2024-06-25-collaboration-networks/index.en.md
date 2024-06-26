@@ -127,7 +127,7 @@ When we put together collaborations like this, we can build a network of interac
 
 This networks include public data about blogs post, books, events, packages, reviews, translations and champions program. It is not complete, because do not include other spaces like our Slack or our Forum, but is a good approximation. 
 
-## Let's see an example with the Blog
+## Using R to build the network
 
 The best part is that we can create this networks with R. Let's see an example with the blog post. We can extract the data we need from the YAML of each post in our webpage: the `title`, the list of `authors` and the `date`. 
 
@@ -194,7 +194,7 @@ author <- datos |>
 ```
 Now we need to create the edge or relations between the nodes or vertices. 
 
-This code take the list we create in the previews step, group by tile and year and keep all the blog post that have two authors or more.  Then, for each group, the `combn` function create a matrix with two rows and columns representing all the unique combination of two authors. We transpose this data to get two columns that become _from_ and _to_, representing the nodes.
+This code take the list we create in the previews step, group by title and year and keep all the blog post that have two authors or more.  Then, for each group, the `combn` function create a matrix with two rows and columns representing all the unique combination of two authors. We transpose this data to get two columns that become _from_ and _to_, representing the nodes.
 
 ``` r
 relations <- datos |> 
@@ -216,7 +216,7 @@ g_blog <- graph_from_data_frame(d = relations,
 
 ```
 
-And plot the rOpenSci collaboration network of blog post authors.
+And plot the rOpenSci collaboration network of blog post authors from 2014 to June 2024.
 
 ``` r
 
@@ -229,4 +229,39 @@ plot(g_blog,
 
 ```
 
+{{< figure src = "blog_network.png" alt = "Blog post authors network from 2014 to 2024. The network have 253 nodes and 1147 edges. Have two very differentiate parts, one with their members with high connection between them and the other with small cluster of two to six nodes, but not connected to the more dense network. It also have severals nodes without connection to any other node of the network.">}}
+
+
+We can also calculate the degree of each node, the betweenness and the closeness to analize some of the characteristics of the nodes and the network.
+
+``` r
+degree(g_blog)
+betweenness(g_blog)
+closeness(g_blog)
+```
+
+As we can identify network members we know that Maëlle Salmon have the maximun number of contributions as active staff member and Noam Ross have the higest degree and the higest centrality. It is the most connected member in the blog post network. 
+
+## Conclusion
+
+This is a small example of what we can do. We could have a network for each year and see how the model changes over time or for some fraction of the data, for example, only the blog post in Spanish. We can map the network to geographic area and check what countries are more present and wich collaborate more between them.
+
+Social Network Analysis is a powerful tool to understand the interactions and collaborations in a community and R have powerfull packages to do the analisys. So, what if you wanted to do the same for your community?. Here are our tips.
+
+* Define the nodes in your network (people, countries, organizations, ...) 
+* Define the type(s) of connection you have in your network.
+    * Start with your paths for contributions.
+    * Identify which contributions can be done in teams.
+* Probably you are alredy registering information about those type of connection.
+* You can automatize a portion of the data collection.
+    * Formalize the workflow (code ;-)) so you can repeat & reproduce.
+* It is hard to capture all type of interactions.
+  * Take into account open/close/privacy of the data. 
+* Knowing the nodes help to understand the clusters and the interactions.
+  * Lean on the people who have been in the network for the longest time.
+* You can take snapshot of the network model ... 
+* ... so you can compare it at different times.
+* ... so you can use it for measure the impact of interventions and programs.
+* Share what you find with your community
+* ... and other community managers.  
 
