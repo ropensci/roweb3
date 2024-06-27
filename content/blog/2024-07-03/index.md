@@ -1,23 +1,22 @@
 ---
-title: 'Announcing New Software Peer Review Editors: Emily Riederer, Adam Sparks, and Jeff Hollister'
-author: Stefanie Butland
-date: '2021-10-12'
-slug: editors2021
+slug: editors2024
+title: 'Announcing New Software Peer Review Editors: Beatriz Milz and Margaret Siple'
+author: Mark Padgham
+date: '2024-07-03'
 tags:
   - Software Peer Review
   - editors
   - rOpenSci team
 featured: false
-description: Introducing 3 new editors for rOpenSci software review
-# twitterImg: blog/2019/06/04/post-template/name-of-image.png
+description: Introducing two new editors for rOpenSci software review
 ---
 We are excited to welcome Beatriz Milz and Margaret Siple to our team of [Associate Editors](/software-review/#editors) for rOpenSci [Software Peer Review](/software-review/).
 They join Laura DeCicco, Julia Gustavsen, Anna Krystalli, Mauro Lepore, Noam Ross, Maëlle Salmon, Emily Riederer, Adam Sparks, and Jeff Hollister .
 rOpenSci has been running a rigorous and collegial software peer review system since 2015.
 Editors [manage the review process](https://devguide.ropensci.org/editorguide.html), performing initial package checks, identifying reviewers, and moderating the process until the package is accepted by reviewers as part of rOpenSci's [software suite](https://ropensci.org/packages/).
 To address the scope and volume of packages submitted for review, it's critical that we have a team of editors with complementary expertise.
-Beatriz brings here ...
-Margaret is know for / works hard at ...
+Beatriz brings her experiences in environmental science and active community engagement.
+Margaret improves open data science and software development practices at the US Government's National Oceanic and Atmospheric Administration (NOAA).
 
 Meet our new editors!
 
