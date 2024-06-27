@@ -37,7 +37,8 @@
    "past_roles": [
       "staff", "cofounder", "editor", "developer"
    ],
-  "alumnus": true,
+   "alumnus": true,
+   "generalreview": true,
    "twitter": "sckottie",
    "github": "sckott",
    "home": "/author/scott-chamberlain/"
@@ -199,6 +200,7 @@
    "past_roles": [
       "editor"
    ],
+   "generalreview": true,
    "alumnus": true
 },
 {
@@ -212,6 +214,7 @@
    "twitter": "gbwanderson",
    "github": "geanders",
    "home": "http://csu-cvmbs.colostate.edu/academics/erhs/Pages/brooke-anderson.aspx",
+   "generalreview": true,
    "alumnus": true
 },
 {
@@ -222,6 +225,7 @@
    "past_roles": [
       "editor"
    ],
+   "generalreview": true,
    "alumnus": true,
    "twitter": "melvidoni",
    "mastodon": "https://mastodon.social/@drmelvidoni",
