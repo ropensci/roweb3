@@ -1,7 +1,10 @@
 ---
 slug: editors2024
 title: 'Announcing New Software Peer Review Editors: Beatriz Milz and Margaret Siple'
-author: Mark Padgham
+author:
+    - Mark Padgham
+    - Beatriz Milz
+    - Margaret Siple
 date: '2024-07-03'
 tags:
   - Software Peer Review
