@@ -1,0 +1,199 @@
+---
+slug: "20424-06-10-multilingual-documentation"
+title: Multilingual Documentation in R Packages
+# Delete the package_version line below if your post is not about a package
+author:
+  - Elio Campitelli
+# Set the date below to the publication date of your post
+date: 2024-06-10
+# Minimal tags for a post about a community-contributed package 
+# that has passed software peer review are listed below
+# Consult the Technical Guidelines for information on choosing tags
+tags:
+  - R
+  - packages
+  - multilingual
+# The summary below will be used by e.g. Mastodon preview cards
+description: "A very short summary of your post (~ 100 characters)"
+# If you have no preferred image for Mastodon preview cards,
+# delete the socialImg and socialAlt lines below 
+# - Note "/" between year/month/day
+#socialImg: blog/2019/06/04/post-template/name-of-image.png
+#socialAlt: "Alternative description of the image"
+# the text below is for populating the "share on Mastodon" button
+# if deleted, the title of the post will be used
+social: "Multilingual documentation comming to an R package near you @eliocamp@mastodon.social!"
+---
+
+```{r setup, include=FALSE}
+# Options to have images saved in the post folder
+# And to disable symbols before output
+knitr::opts_chunk$set(fig.path = "", comment = "")
+
+# knitr hook to make images output use Hugo options
+knitr::knit_hooks$set(
+  plot = function(x, options) {
+    hugoopts <- options$hugoopts
+    paste0(
+      "`{{<figure src=",
+      '"', x, '" ',
+      if (!is.null(hugoopts)) {
+        glue::glue_collapse(
+          glue::glue('{names(hugoopts)}="{hugoopts}"'),
+          sep = " "
+        )
+      },
+      ">}}`{=html}\n"
+    )
+  }
+)
+
+# knitr hook to use Hugo highlighting options
+knitr::knit_hooks$set(
+  source = function(x, options) {
+    hlopts <- options$hlopts
+    paste0(
+      "```r ",
+      if (!is.null(hlopts)) {
+        paste0("{",
+               glue::glue_collapse(
+                 glue::glue('{names(hlopts)}={hlopts}'),
+                 sep = ","
+               ), "}"
+        )
+      },
+      "\n", glue::glue_collapse(x, sep = "\n"), "\n```\n"
+    )
+  }
+)
+
+hook_output <- knitr::knit_hooks$get("output")
+knitr::knit_hooks$set(output = function(x, options) {
+  lines <- options$output.lines
+  if (is.null(lines)) {
+    return(hook_output(x, options))  # pass to default hook
+  }
+  x <- unlist(strsplit(x, "\n"))
+  
+  if (length(x) > lines) {
+    more <- paste0("... (", length(x) - lines, " more lines)")
+    # truncate the output, but add ....
+    x <- c(head(x, lines), more)
+  }
+  
+  # paste these lines together
+  x <- paste(c(x, ""), collapse = "\n")
+  hook_output(x, options)
+})
+
+help <- function(...) {
+  outfile <- tempfile(fileext = ".txt")
+  tools::Rd2txt(utils:::.getHelpFile(utils::help(...)), outfile)
+  text <- readLines(outfile)
+  text <- gsub("_\b", "", text)
+  cat(text, sep = "\n")
+}
+```
+
+We are happy to announce the R Constorium Multilingual Working Group.
+This Working Group will oversee the implementation of multilingual documentation support in R and organise community translation efforts.
+Our first project is the (experimental!) **rhelpi18n** package, which adds multilingual documentation support!
+
+Do you want to read the documentation for `base::mean()` (partially) in Spanish?
+Install the experimental rhelpi18n package and the sample translation module base.es:
+
+```{r, eval=FALSE}
+# install.packages("pak")
+pak::pak(c("eliocamp/rhelpi18n", "eliocamp/base.es"))
+```
+
+And then run this code:
+
+```{r, output.lines=30, warning=FALSE}
+library(rhelpi18n)
+Sys.setenv(LANGUAGE = "es")
+help(mean) 
+```
+
+Nice!
+This should work on any R console or IDE.
+
+## Why would you do this?
+
+English is the de-facto international language.
+This English hegemony is reflected in R by the use of English in its documentation, such as manual pages, function names and argument names (why use `mean()` instead of `Mittelwert()`?)
+.
+Package documentation *can* be written in any language, and CRAN supports non-English documentation by using the "Language" field[^1].
+But still the vast majority of packages are documented in English.
+
+[^1]: The actual quote is "A ‘Language’ field can be used to indicate if the package documentation is not in English", which indicates that English is still the assumed default.
+
+There is [a small number of packages documented in other languages](https://cderv.rbind.io/2018/03/11/non-english-pkg-in-cran/), seemingly tailored to their target audience.
+For example, the [labstatR](https://cran.r-project.org/web/packages/labstatR/index.html) package serves as a companion to the Italian book "Laboratorio Di Statistica Con R" and is partially documented in Italian (it uses English function names and arguments).
+Similarly, [chilemapas](https://cran.r-project.org/web/packages/chilemapas/chilemapas.pdf) provides simplified maps for Chile, with full Spanish documentation, including function names.
+rOpenSci's own [censo2017](https://docs.ropensci.org/censo2017/) by Mauricio Vargas is also fully documented in Spanish.
+
+Although these packages are more accessible to their primary audience, they are much less accessible to the wider community.
+Users who do not speak the language may find it difficult to discover and use the functions that these packages provide.
+Package authors face the dilemma of either making their package inaccessible to their target demographic or isolating it from the wider R ecosystem.
+
+The developer of the [utilsIPEA](https://cran.r-project.org/web/packages/utilsIPEA/index.html) package publicly expressed [the need for bilingual documentation](https://stackoverflow.com/questions/37288823/bilingual-english-and-portuguese-documentation-in-an-r-package), recognising that his package would be used both by people in Brazil, who might prefer documentation in Portuguese, and the broader international community.
+
+At least two packages have tried to solve this dilemma by documenting their package in English and publishing a second version documented in another language: [ExpDes](https://cran.r-project.org/web/packages/ExpDes/index.html) and [ExpDes.pt](https://cran.r-project.org/web/packages/ExpDes.pt/index.html), as well as [orloca](https://cran.r-project.org/web/packages/orloca/index.html) and [orloca.es](https://cran.r-project.org/web/packages/orloca.es/index.html).
+The [karel](https://cloud.r-project.org/web/packages/karel/index.html) package, on the other hand, has two sets of functions, one with English names and documentation, and another in Spanish.
+
+Both approaches are very hard to maintain, don't scale well to multiple languages and are not very user-friendly.
+A more effective solution would be for R to support multilingual documentation as a standard feature.
+
+That is why we are presenting the experimental **rhelpi18n** package.
+This package adds seamless support for multilingual documentation.
+An user can load rhelpi18n, install translation modules created by the community, and read R documentation in their language of choice.
+
+## OK, by how?
+
+Translated strings are hosted in the base.es translation module.
+This is a regular package with special fields in the DESCRIPTION specifying which package and version is being translated and to which language.
+Currently translated strings are implemented as a list with the original string and the translation of each section in the documentation, but we are also looking at implementing this with traditional .po files, which is the mechanism used by R to translate messages and errors.
+
+The rhelpi18n package, on the other hand, modifies `utils:::.getHelpFile()`, which all help functions use to fetch documentation strings.
+It adds a few lines to check for relevant translation modules and replaces the original strings with the translated stings on the fly.
+
+This package also also provides tools for developers to create new translation modules.
+
+```{r}
+dir <- file.path(tempdir(), "glue.es")
+rhelpi18n::i18n_module_create(module_name = "glue.es", 
+                              package_path = "/home/user1/Documents/r-packages/glue",  # I have a copy of glue here. 
+                              language = "es", 
+                              module_path = dir)
+```
+
+This creates a translation module with all the functionality and strings that need translating.
+Now the heavy work is to go to the "translations" subdirectory and translate all the strings saved (currently) as yaml files.
+For example, the translation file for `glue::as_glue()` is:
+
+```{r,  output.lines=20}
+file.path(dir, "translations", "as_glue.yaml") |> 
+  readLines() |> 
+  cat(sep = "\n")
+```
+
+A possible (and crummy) translation would be
+
+```{r, output.lines=30, echo=FALSE}
+cat(readLines("as_glue.yaml"), sep = "\n")
+```
+
+After modifying "as_glue.yaml" and installing the package, now the documentation is in Spanish.
+
+```{r,  output.lines=20}
+library(glue)
+help(as_glue)
+```
+
+Amazing!
+
+## Come help us!
+
+This is all in early stages and things are moving fast, so you can help.
+You can join the discussion by checking the [open issues](https://github.com/eliocamp/rhelpi18n/issues) of the package and by joining the [Multilingual Documentation Working Group](https://github.com/RConsortium/multilingual-documentation-wg).
