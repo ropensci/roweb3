@@ -97,10 +97,10 @@ help <- function(...) {
 
 We are happy to announce the R Constorium Multilingual Working Group.
 This Working Group will oversee the implementation of multilingual documentation support in R and organise community translation efforts.
-Our first project is the (experimental!) **rhelpi18n** package, which adds multilingual documentation support!
+Our first project is the (experimental) **rhelpi18n** package, which adds multilingual documentation support!
 
 Do you want to read the documentation for `base::mean()` (partially) in Spanish?
-Install the experimental rhelpi18n package and the sample translation module base.es:
+Install the experimental [rhelpi18n](https://github.com/eliocamp/rhelpi18n) package and the sample translation module base.es:
 
 ```{r, eval=FALSE}
 # install.packages("pak")
@@ -131,7 +131,7 @@ But still the vast majority of packages are documented in English.
 There is [a small number of packages documented in other languages](https://cderv.rbind.io/2018/03/11/non-english-pkg-in-cran/), seemingly tailored to their target audience.
 For example, the [labstatR](https://cran.r-project.org/web/packages/labstatR/index.html) package serves as a companion to the Italian book "Laboratorio Di Statistica Con R" and is partially documented in Italian (it uses English function names and arguments).
 Similarly, [chilemapas](https://cran.r-project.org/web/packages/chilemapas/chilemapas.pdf) provides simplified maps for Chile, with full Spanish documentation, including function names.
-rOpenSci's own [censo2017](https://docs.ropensci.org/censo2017/) by Mauricio Vargas is also fully documented in Spanish.
+rOpenSci's own [censo2017](https://docs.ropensci.org/censo2017/) by [Mauricio Vargas](/author/pachá-aka-mauricio-vargas-sepúlveda/) is also fully documented in Spanish.
 
 Although these packages are more accessible to their primary audience, they are much less accessible to the wider community.
 Users who do not speak the language may find it difficult to discover and use the functions that these packages provide.
@@ -142,7 +142,8 @@ The developer of the [utilsIPEA](https://cran.r-project.org/web/packages/utilsIP
 At least two packages have tried to solve this dilemma by documenting their package in English and publishing a second version documented in another language: [ExpDes](https://cran.r-project.org/web/packages/ExpDes/index.html) and [ExpDes.pt](https://cran.r-project.org/web/packages/ExpDes.pt/index.html), as well as [orloca](https://cran.r-project.org/web/packages/orloca/index.html) and [orloca.es](https://cran.r-project.org/web/packages/orloca.es/index.html).
 The [karel](https://cloud.r-project.org/web/packages/karel/index.html) package, on the other hand, has two sets of functions, one with English names and documentation, and another in Spanish.
 
-Both approaches are very hard to maintain, don't scale well to multiple languages and are not very user-friendly.
+Both approaches are pushing the limits of what the R language can do in terms of multilingual functionality by trying to find a workaround to the lack of native multilingual support in the R language.
+As these solutions are not native, they can become hard to maintain and don't scale well.
 A more effective solution would be for R to support multilingual documentation as a standard feature.
 
 That is why we are presenting the experimental **rhelpi18n** package.
@@ -193,7 +194,9 @@ help(as_glue)
 
 Amazing!
 
-## Come help us!
+## Next steps
 
 This is all in early stages and things are moving fast, so you can help.
 You can join the discussion by checking the [open issues](https://github.com/eliocamp/rhelpi18n/issues) of the package and by joining the [Multilingual Documentation Working Group](https://github.com/RConsortium/multilingual-documentation-wg).
+
+Come help us! 
