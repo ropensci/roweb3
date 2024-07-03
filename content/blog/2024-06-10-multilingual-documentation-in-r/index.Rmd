@@ -196,7 +196,12 @@ Amazing!
 
 ## Next steps
 
-This is all in early stages and things are moving fast, so you can help.
-You can join the discussion by checking the [open issues](https://github.com/eliocamp/rhelpi18n/issues) of the package and by joining the [Multilingual Documentation Working Group](https://github.com/RConsortium/multilingual-documentation-wg).
+This is all in early stages and things are moving fast.
+We are still experimenting with various ways of storing translations and implementations of string replacement.
+It also has several limitations, such as not translating section headings yet.
+We want to add a clear indication that the text is a translation and a convenient way of quickly accessing the original version.
+We are also considering adding metadata to strings to flag cases of automatic translations that haven't been reviewed by a human or translations that might be slightly outdated (it would be a shame to not show a translation because someone fixed a small typo in the original text!).
 
-Come help us! 
+If want to test the package and report any problems, or you have ideas on how to improve it, you can join the discussion by checking the [open issues](https://github.com/eliocamp/rhelpi18n/issues) of the package and by joining the [Multilingual Documentation Working Group](https://github.com/RConsortium/multilingual-documentation-wg).
+
+Come help us!
