@@ -120,11 +120,11 @@ This should work on any R console or IDE.
 
 ## Why would you do this?
 
-English is the de-facto international language.
-This English hegemony is reflected in R by the use of English in its documentation, such as manual pages, function names and argument names (why use `mean()` instead of `Mittelwert()`?)
+English is the de facto international language.
+This English hegemony is reflected in R by the use of English in its documentation, such as manual pages, function names, and argument names (why use `mean()` instead of `Mittelwert()`?)
 .
 Package documentation *can* be written in any language, and CRAN supports non-English documentation by using the "Language" field[^1].
-But still the vast majority of packages are documented in English.
+But still, the vast majority of packages are documented in English.
 
 [^1]: The actual quote is "A ‘Language’ field can be used to indicate if the package documentation is not in English", which indicates that English is still the assumed default.
 
@@ -140,7 +140,7 @@ Package authors face the dilemma of either making their package inaccessible to 
 The developer of the [utilsIPEA](https://cran.r-project.org/web/packages/utilsIPEA/index.html) package publicly expressed [the need for bilingual documentation](https://stackoverflow.com/questions/37288823/bilingual-english-and-portuguese-documentation-in-an-r-package), recognising that his package would be used both by people in Brazil, who might prefer documentation in Portuguese, and the broader international community.
 This problem comes up periodically in the rOpenSci Slack too.
 
-At least two packages have tried to solve this dilemma by documenting their package in English and publishing a second version documented in another language: [ExpDes](https://cran.r-project.org/web/packages/ExpDes/index.html) and [ExpDes.pt](https://cran.r-project.org/web/packages/ExpDes.pt/index.html), as well as [orloca](https://cran.r-project.org/web/packages/orloca/index.html) and [orloca.es](https://cran.r-project.org/web/packages/orloca.es/index.html).
+At least two package developers have tried to solve this dilemma by documenting their package in English and publishing a second version documented in another language: [ExpDes](https://cran.r-project.org/web/packages/ExpDes/index.html) and [ExpDes.pt](https://cran.r-project.org/web/packages/ExpDes.pt/index.html), as well as [orloca](https://cran.r-project.org/web/packages/orloca/index.html) and [orloca.es](https://cran.r-project.org/web/packages/orloca.es/index.html).
 The [karel](https://cloud.r-project.org/web/packages/karel/index.html) package, on the other hand, has two sets of functions, one with English names and documentation, and another in Spanish.
 
 Both approaches are pushing the limits of what the R language can do in terms of multilingual functionality by trying to find a workaround to the lack of native multilingual support in the R language.
@@ -149,18 +149,18 @@ A more effective solution would be for R to support multilingual documentation a
 
 That is why we are presenting the experimental **rhelpi18n** package.
 This package adds seamless support for multilingual documentation.
-An user can load rhelpi18n, install translation modules created by the community, and read R documentation in their language of choice.
+A user can load rhelpi18n, install translation modules created by the community, and read R documentation in their language of choice.
 
 ## OK, by how?
 
 Translated strings are hosted in the base.es translation module.
 This is a regular package with special fields in the DESCRIPTION specifying which package and version is being translated and to which language.
-Currently translated strings are implemented as a list with the original string and the translation of each section in the documentation, but we are also looking at implementing this with traditional .po files, which is the mechanism used by R to translate messages and errors.
+Currently, translated strings are implemented as a list with the original string and the translation of each section in the documentation, but we are also looking at implementing this with traditional .po files, which is the mechanism used by R to translate messages and errors.
 
 The rhelpi18n package, on the other hand, modifies `utils:::.getHelpFile()`, which all help functions use to fetch documentation strings.
-It adds a few lines to check for relevant translation modules and replaces the original strings with the translated stings on the fly.
+It adds a few lines to check for relevant translation modules and replaces the original strings with the translated strings on the fly.
 
-This package also also provides tools for developers to create new translation modules.
+This package also provides tools for developers to create new translation modules.
 
 ```{r}
 dir <- file.path(tempdir(), "glue.es")
@@ -171,7 +171,7 @@ rhelpi18n::i18n_module_create(module_name = "glue.es",
 ```
 
 This creates a translation module with all the functionality and strings that need translating.
-Now the heavy work is to go to the "translations" subdirectory and translate all the strings saved (currently) as yaml files.
+Now the heavy work is to go to the "translations" subdirectory and translate all the strings saved (currently) as YAML files.
 For example, the translation file for `glue::as_glue()` is:
 
 ```{r,  output.lines=20}
@@ -197,12 +197,12 @@ Amazing!
 
 ## Next steps
 
-This is all in early stages and things are moving fast.
+This is all in the early stages and things are moving fast.
 We are still experimenting with various ways of storing translations and implementations of string replacement.
 It also has several limitations, such as not translating section headings yet.
 We want to add a clear indication that the text is a translation and a convenient way of quickly accessing the original version.
 We are also considering adding metadata to strings to flag cases of automatic translations that haven't been reviewed by a human or translations that might be slightly outdated (it would be a shame to not show a translation because someone fixed a small typo in the original text!).
 
-If want to test the package and report any problems, or you have ideas on how to improve it, you can join the discussion by checking the [open issues](https://github.com/eliocamp/rhelpi18n/issues) of the package and by joining the [Multilingual Documentation Working Group](https://github.com/RConsortium/multilingual-documentation-wg).
+If you want to test the package and report any problems, or you have ideas on how to improve it, you can join the discussion by checking the [open issues](https://github.com/eliocamp/rhelpi18n/issues) of the package and by joining the [Multilingual Documentation Working Group](https://github.com/RConsortium/multilingual-documentation-wg).
 
 Come help us!
