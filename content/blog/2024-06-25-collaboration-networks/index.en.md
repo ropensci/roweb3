@@ -11,38 +11,43 @@ categories:
   - blog
 tags:
   - Community
+  - networks
+  - social network analysis
+  - community-manager-tools
 description: 
 
 ---
 
 
-In June 2022 I become rOpenSci Community Manager.  To do a good job in the role it is essential to know your community, so as soon I started I digged in reading our documentation, learning our processes and their metrics, making interviews with team-mates and community members.
+In June 2022 I (Yani) become the rOpenSci Community Manager. To do a good job in this kind of role it is essential to know your community, so as soon I started I dug in: reading our documentation, learning our processes and their metrics, and conducting interviews with team-mates and community members.
 
-In my previews experience working with scientific and technological communities of practice, I used a tool called Social Network Analysis to understand the interaction of the members and plan strategies around the activities. 
+In my previous experience working with scientific and technological communities of practice, I had used a tool called Social Network Analysis to understand the interaction of the members and plan strategies around the activities. This served me well and I was looking forward to applying it to the rOpenSci community
 
-This blog post present how we have been using this tool for the management of the rOpenSci community.
+In this blog post we present how we have used this tool to better understand and manage the rOpenSci community.
 
-## Community of Practice and Community Manager
+## Community of practice and community manager
 
-A community manager in the context of a STEM community of practice is a person that facilitates the activities of the community and the interaction with their members.  Have responsibilities over task in technical, interpersonal, communication, program management and program development aspect.
+In the context of a STEM community of practice, a community manager is someone who facilitates community activities and interactions among members. A community manager has responsibilities for tasks with technical, interpersonal, communication, program management and program development aspects.
 
 > A community of practice is a group of people who **share a 
 passion** for something that they **know 
 how to do**, and who **interact regularly** 
-in order to **learn how to do it better** -- _Etienne Wenger_
+in order to **learn how to do it better**    
+<span style="float:right"> -- <em>Etienne Wenger</em></span>
 
 > A Community Manager **facilitates** the **activities** of a community and the **interactions** between **community members.** 
-Community management may be considered as _“in-reach”_ rather than _“outreach”_ or public engagement. - CSCCE
+Community management may be considered as _“in-reach”_ rather than _“outreach”_ or public engagement.     
+<span style="float:right"> -- <em>CSCCE</em></span>
 
 rOpenSci is a community of practice and our passion is to build tools, resources, and social and technical infrastructure to enable open and reproducible research using R. We interact regularly in different activities and spaces in order to learn how to do it better.
 
-## Community Iteractions and Connectivity
+## Community interactions and connectivity
 
-rOpenSci records a lot of data and generates statistics and summaries, for example, how many packages we reviewed, how many blog posts we wrote, how many community calls we organized and how many people came. This are very useful and show us an overal idea of our community and our activities.
+rOpenSci keeps track of many metrics relating to the health and enthusiasm of our community. For example, how many packages we reviewed, how many blog posts we wrote, how many community calls we organized and how many people came. This are very useful and show us an overal idea of our community and our activities.
 
-Now, communities are built on connections, and those summaries and number don't give us many information about the growth and strength of professional and interpersonal connections in our community.
+However, communities are built on connections, and those summaries and number don't give us much information about the growth and strength of professional and interpersonal connections in our community.
 
-Know our community connectivity is useful to __plan targeted__ and __effective interventions__ to:
+If we understand the connectivity in our community we can __plan targeted__ and __effective interventions__ to:
 
 - improve collaborations.
 - improve information flow.
@@ -50,56 +55,56 @@ Know our community connectivity is useful to __plan targeted__ and __effective i
 - effective knowledge (co)creation.
 - effective knowledge transfer.
 
-We can try to answer questions at a given moment in time, for example:
+## Social Network Analysis
+
+Here is where Social Networks Analysis comes into play. I'm not talking about Instagram or Mastodon here, I'm talking about networks of relationships among individuals or organization.
+
+> Group of individuals who relate to others for a specific purpose, characterized by the existence of information flows.
+
+By exploring these networks, we can try to answer questions for a given moment in time, for example:
 
 - Who is connected to whom? Who is not connected?
 - Where, and who, are the __hubs__?
 - Where and about what are the __clusters__? Are there __silos__?
 
-Or how thing changes over time:
+We can also look at how thing change over time:
 
-- Are new __connection__ forming?
+- Are new __connections__ forming?
 - Are new __patterns__ of connectivity forming?
-- How was our network __before and after__ the introduction of an activity?
-
-## Social Network Analysis
-
-Here is where Social Networks Analysis comes into play. I'm not talking about instagram or mastodon here, I'm talking about networks build by individuals u organization that have some kind of relationship.
-
-> Group of individuals who relate to others for a specific purpose, characterized by the existence of information flows.
-
+- How did our network __change__ with the introduction of an activity?
 ### Basic elements and metrics
 
-You can map the nodes and edges to explore the connections and patterns that exist
-and make conclusions based off of that exploration, for example, here we have map network, with the people as nodes and the edges as collaborations, for example, write a blog post together, being co-authors.
+To answer these questions, we can map and explore the *nodes* and *edges* of our community network. Nodes are points or vertices and are connected to each other by edges. Together the pattern of connections makes up a network.
 
-{{< figure src = "red-elements.png" alt = "Two cartoon persons speaking with a can phone. Each person is a node, the thread is the edge and that edge can have direction.">}}
+In our community, nodes and edges could represent individual community members and their collaborations, for example, co-writing a blog post together, or being authors on the same R package. 
+
+{{< figure src = "red-elements.png" alt = "Two cartoon persons speaking with a can phone. Each person is a node, the thread is the edge and that edge can have direction." caption = "A basic network, with two nodes (community members) and an edge between them (an interaction).">}}
 
 
-* The *degree* of a node is how many connection have, higer degree, more connected is the node.
+* The *degree* of a node is how many connections it has. The higher the degree, the more connected the node. For example, a community member who interacts with many different community members.
 
 * The *multiplexity* show the number of connection between two nodes, for example
 you co-author more than one blog post.
 
-* *Betweenness centrality* measures the number of times a node lies on the shortest path between other nodes. What it tells us: This measure shows which nodes are 'bridges' between nodes in a network.
+* *Betweenness centrality* measures the number of times a node lies on the shortest path between other nodes. This indicates which nodes are 'bridges' between nodes in a network. For example community members who often interact with different groups of members.
 
 * The *clossness* scores each node based on how close it is to all other nodes in the network.
-It is useful for finding the individuals who are best placed to influence the entire network most quickly.
+For example, this can be useful for finding community members who are best placed to influence the entire network most quickly.
 
-* The *Clusters or communities* are groups that work together, their nodes have high number of connection between them. A *clique* cluster have all their memebers interconnected and a *silo* don't have connection with other clusters on the network.
+* *Clusters or communities* are groups of nodes with a high number of connections among that. For example, community members who often work together. A *clique* is when all members are interconnected and a *silo* is when members have no connections with other clusters on the network.
 
 ### Data for a network
 
-For this type of analysis we need data that reveal some kind of connection between the actors in a network.
+For this type of analysis we need data that reveal connections among actors in a network.
 
-The most common data collection methods used in social network analysis are surveys and interviews collect from members in the network. As you can imagine, this can be costly in time and money.  
+The most common data collection methods used in social network analysis are surveys and interviews with members in the network. As you can imagine, this can be costly in time and money.  
 
-The data also could come from existing data, like data on social media connections, and it can come from your own knowledge of the relationships that exist in the network.
+Data can also come from secondary sources, like social media connections, or from your own knowledge of the relationships that exist in the network.
 
-So we thought, is it possible that we already have that data in another format and we can accommodate it to analyze the connectivity of our community? is it possible that we could collect that data in an automated or semi-automated way to repeat the analysis?
+So we considered, is it possible that we already have the data we need to analyze the connectivity of our community? Is it possible that we could collect this data in an automated or semi-automated way to repeat the analysis, allowing us to explore how our network changes over time?
 
 
-#### Path to contribute at rOpenSci
+#### Pathways to contributing at rOpenSci
 
 Fortunately at rOpenSci we have a [Contributing Guide](https://contributing.ropensci.org/), there is a whole book describing the different ways you can contribute to the community (check our [Tip Sheet for a summary](/blog/2022/09/13/contributing-ropensci/)). For example, you can, Write a blog post, Review a package, Maintain a package, Speak at a Community Call, Become a champion or Host a coworking session. 
 
