@@ -112,29 +112,31 @@ Fortunately at rOpenSci we have a [Contributing Guide](https://contributing.rope
 
 Many of these forms of contribution can be made with other people and there we have our nodes and a connection between them.  In our examples: 
 
-* for a blog post the nodes are the authors and the edge is build by authorship, by writing a post together. We can get that data from our website.  
+* **Blog posts**: Nodes are the authors and the edge is coauthorship, by writing a post together. We can get that data from our website.  
 
-* For a package review, the nodes are the authors, editors and reviewers and the edge is the peer-review conducted together. The data source is our peer-review database and the github repo and issues where we conduct all the process.
+* **Package review**: Nodes are the authors, editors and reviewers, and the edge is the peer-review conducted together. The data source is our peer-review database and the GitHub repository and issues where the peer-review takes place.
 
-* The authors, mantainers and contributors of a package are nodes in the _Maintain a package_ way of contributions. The infomration is on GitHub.
+* **Package maintenance**: Nodes are the authors, maintainers and contributors of a package, and the edge is the work conducted on a package in common. This information is on GitHub.
 
-* Speak at a Community Call, the node are the speakers, host and moderators, and the edge is the participation in the same call. The data is in our community calls database and our webpage.
+* **Community Calls**: Nodes are the speakers, host and moderators, and the edge is participation in the same call. The data is in our community calls database and on our webpage.
 
-* Become a champion, the nodes are the mentors and the mentees and the edge is the mentorship relationship. The data is in our mentorship program database and our webpage.  
+* **Champions**: Nodes are mentors and mentees, and the edge is the mentorship relationship. The data is in our mentorship program database and on our webpage.  
 
-* Host a co working session, the node are the attendees and the host. The edge is the participation in the same session. The data is in our our webpage. 
+* **Coworking**: Nodes are the attendees and the hosts, and the edge is participation in the same session. The data is on our our webpage. 
 
-As we can see, there are many ways to represent interactions and collaborations in our community, and many of those information is open and public. 
+As we can see, there are many ways to represent interactions and collaborations in our community, and all identifying information is open and public as well as most of the details. 
 
-When we put together collaborations like this, we can build a network of interactions and collaborations in our community.  This is how our network looks like in 2022:
+When we put all this information together, we can build a network of interactions and collaborations within our community.  This is how our network looked like in 2022. You can see clusters of nodes of the same colour indicating groups of collaborators within our community, as well as some larger nodes, indicating people with a large number of interactions.  
 
-{{< figure src = "full_network.png" alt = "A network of nodes and edges, the nodes are the people and the edges are the collaborations.There are severals groups of nodes with the same colors that identify clusters">}}
+{{< figure src = "full_network.png" alt = "A network of nodes and edges, the nodes are the people and the edges are the collaborations. There are several groups of nodes with the same color that identify clusters">}}
 
-This networks include public data about blogs post, books, events, packages, reviews, translations and champions program. It is not complete, because do not include other spaces like our Slack or our Forum, but is a good approximation. 
+This network is built from interactions gathered from public data about rOpenSci blogs posts, guides, events, packages, reviews, translations and Champions Program. It is not complete, because do not include other spaces like our Slack or our Forum, but is a good approximation. 
 
 ## Using R to build the network
 
-The best part is that we can create this networks with R. Let's see an example with the blog post. We can extract the data we need from the YAML of each post in our webpage: the `title`, the list of `authors` and the `date`. 
+The best part is that we were able to create these networks with R! In this workflow we used several packages to help manipulate the data and perform the analysis. We used [fs](https://fs.r-lib.org/), [dplyr](https://dplyr.tidyverse.org/), [tibble](https://tibble.tidyverse.org/), [readr](https://readr.tidyverse.org/), and [rmarkdown](https://rmarkdown.rstudio.com/) to extract, summarize and save the data, and we used [igraph](https://r.igraph.org/) to perform and visualize the network analysis. 
+
+Let's take a look at how we built this network looking at blog posts as an example. With the blog posts we can extract the data (title, list of authors, and date) we need from the webpage YAML for each post.
 
 ```
 ---
@@ -149,14 +151,14 @@ date: '2023-01-12'
 ---
 ```
 
-The following code performs this task and save the data in a csv file:
+The following code performs this task and saves the data in a csv file:
 
 1. Read all the files in the `content/blog/` folder with the `.md` extension  
-2. Create a tibble with the variables to store: _date, title, author, year_ and _contribution_type_.
+2. Create a tibble with the variables to store: `date`, `title`, `author`, `year` and `contribution_type`.
 3. For each markdown document
-4. Read the YAML header, extract the value of each variable
-5. and add a row in the dataset with the information
-6. After process all the documents, we save the dataset to a CSV file
+      - Read the YAML header, extract the value of each variable
+      - Add a row in the dataset with the information
+4. After processing all the documents, we save the dataset to a CSV file
 
 ``` r 
 file_list <- fs::dir_ls(path = "content/blog/", 
@@ -164,11 +166,11 @@ file_list <- fs::dir_ls(path = "content/blog/",
                         type = "file", 
                         glob = "*.md") 
 
-datos <- tibble(date = character(), 
-                title = character(),
-                author = character(), 
-                year = character(), 
-                contribution_type = character())
+datos <- tibble::tibble(date = character(), 
+                        title = character(),
+                        author = character(), 
+                        year = character(), 
+                        contribution_type = character())
                 
 for (documento in file_list){ 
   doc <- rmarkdown::yaml_front_matter(input = file.path(documento)) 
@@ -181,25 +183,27 @@ for (documento in file_list){
                            )  
 }
 
-write_csv(datos, "blog_post_authors.csv")                 
+readr::write_csv(datos, "blog_post_authors.csv")                 
 
 ```
 
-The next step is to transform the list of author of each blog post in a network format.
+The next step is to transform the list of authors into a network format: a table where each row represents an interaction (edge) between two nodes with accompanying meta data.
 
-First we create the vertices with each author and how many blog post each author wrote.
+First we'll create the nodes: authors and how many blog post each author wrote.
 
 ``` r
-author <- datos |> 
+library(dplyr)
+authors <- datos |> 
   group_by(author) |> 
   mutate(n = n()) |>
   select(author, n) |>
   distinct()
 
 ```
-Now we need to create the edge or relations between the nodes or vertices. 
+Next, we'll create the edges or relations between the nodes. 
 
-This code take the list we create in the previews step, group by title and year and keep all the blog post that have two authors or more.  Then, for each group, the `combn` function create a matrix with two rows and columns representing all the unique combination of two authors. We transpose this data to get two columns that become _from_ and _to_, representing the nodes.
+This code takes the blog data, grouped by title and year, and keeps only posts with two or more authors.
+Then, for each group, the `combn()` function creates a matrix representing all the unique combinations of a pair of authors. This data is then transposed (`t()`) resulting in two columns that become _from_ and _to_, representing the nodes.
 
 ``` r
 relations <- datos |> 
@@ -210,20 +214,14 @@ relations <- datos |>
 
 ```
 
-Now we create the network with the `igraph` package. 
+Now, we can use the igraph package to create and plot the rOpenSci collaboration network of blog post authors from 2014 to June 2024!
 
 ``` r
 library(igraph)
 
 g_blog <- graph_from_data_frame(d = relations, 
-                              vertices = author, 
-                              directed = FALSE)
-
-```
-
-And plot the rOpenSci collaboration network of blog post authors from 2014 to June 2024.
-
-``` r
+                                vertices = authors, 
+                                directed = FALSE)
 
 plot(g_blog, 
      vertex.size = 4, 
@@ -236,8 +234,13 @@ plot(g_blog,
 
 {{< figure src = "blog_network.png" alt = "Blog post authors network from 2014 to 2024. The network have 253 nodes and 1147 edges. Have two very differentiate parts, one with their members with high connection between them and the other with small cluster of two to six nodes, but not connected to the more dense network. It also have severals nodes without connection to any other node of the network.">}}
 
+We can see that many authors wrote blog posts without collaborators. However, we can also see that there are clusters of coauthors who have written posts together, sometimes only with a specific set of collaborators (the 'silos', clusters without a connection to the main network), and sometimes with multiple groups (the 'cliques', clusters with connections to the main network). 
 
-We can also calculate the degree of each node, the betweenness and the closeness to analize some of the characteristics of the nodes and the network.
+In addition to this visual assessment, we can also calculate the *degree[^1]* of each node, the *betweenness[^2]* and the *closeness[^3]* to analyze some of the characteristics of the nodes and the network.
+
+[^1]: The number of connections to other nodes
+[^2]: The number of times a node lies on the shortest path between other nodes
+[^3]: ????
 
 ``` r
 degree(g_blog)
@@ -245,28 +248,34 @@ betweenness(g_blog)
 closeness(g_blog)
 ```
 
-As we can identify network members we know that Maëlle Salmon have the maximun number of contributions as active staff member and Noam Ross have the higest degree and the higest centrality. It is the most connected member in the blog post network. 
+Looking at these metrics, we see that our current Executive Director, Noam Ross, has the highest degree[^1] and the highest centrality, likely reflecting his role as Software Review Lead over the years (Noam's node is in the middle of the dense clump of nodes in the center of the network). Similarly, Yani ("Yanina Bellini Saibene", in the network diagram) shows many connections to different clusters and individual nodes, again, likely reflecting her role as Community Manager.
+## Using Social Network Analysis in your community
 
-## Conclusion
+Social Network Analysis is a powerful tool for understanding interactions and collaborations in a community and there are powerful R packages to help with the analysis. So, what if you wanted to do the same for your community? Here are our tips.
 
-This is a small example of what we can do. We could have a network for each year and see how the model changes over time or for some fraction of the data, for example, only the blog post in Spanish. We can map the network to geographic area and check what countries are more present and wich collaborate more between them.
-
-Social Network Analysis is a powerful tool to understand the interactions and collaborations in a community and R have powerfull packages to do the analisys. So, what if you wanted to do the same for your community?. Here are our tips.
-
-* Define the nodes in your network (people, countries, organizations, ...) 
-* Define the type(s) of connection you have in your network.
+* Think about what the nodes in your community are (people, countries, organizations, ...?) 
+* Think about the type(s) of connection you have in your community.
     * Start with your paths for contributions.
     * Identify which contributions can be done in teams.
-* Probably you are alredy registering information about those type of connection.
-* You can automatize a portion of the data collection.
+* Consider that you might already have information about these connections.
+* Take into account open/closed data and any privacy considerations.
+* Automate what you can in the data collection.
     * Formalize the workflow (code ;-)) so you can repeat & reproduce.
-* It is hard to capture all type of interactions.
-  * Take into account open/close/privacy of the data. 
-* Knowing the nodes help to understand the clusters and the interactions.
-  * Lean on the people who have been in the network for the longest time.
+* Remember that it is hard to capture all type of interactions.
 * You can take snapshot of the network model ... 
-* ... so you can compare it at different times.
-* ... so you can use it for measure the impact of interventions and programs.
+    * ... so you can compare it at different times.
+    * ... so you can use it for measure the impact of interventions and programs.
 * Share what you find with your community
-* ... and other community managers.  
+    * ... and other community managers!
+## Conclusion
+
+Social Network Analysis is a valuable tool for better understanding and guiding your community. 
+Here, we demonstrated a small example how you might use Social Network Analysis to explore Communities of Practice. 
+
+Other explorations might include creating a network for each year and examining how the model changes over time. Or perhaps looking at how part of the network changes, for example only looking at blog posts in Spanish. We could map the network to geographic area and explore which countries are most represented and which have more or few collaborations among them.
+
+There are many different aspects of a community that can be explored with Social Network Analysis and we hope that you find this tool useful in your communities. 
+
+
+
 
