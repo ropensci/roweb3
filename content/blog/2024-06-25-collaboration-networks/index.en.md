@@ -5,7 +5,7 @@ author:
   - Sandro Camargo
 editor:
   - Steffi LaZerte
-date: '2024-06-25'
+date: '2024-07-11'
 slug: collaboration-networks
 categories:
   - blog
@@ -21,7 +21,7 @@ description:
 
 In June 2022 I (Yani) become the rOpenSci Community Manager. To do a good job in this kind of role it is essential to know your community, so as soon I started I dug in: reading our documentation, learning our processes and their metrics, and conducting interviews with team-mates and community members.
 
-In my previous experience working with scientific and technological communities of practice, I had used a tool called Social Network Analysis to understand the interaction of the members and plan strategies around the activities. This served me well and I was looking forward to applying it to the rOpenSci community
+In my previous experience working with scientific and technological communities of practice, in collaboration with Sandro, I had used a tool called Social Network Analysis to understand the interaction of the members and plan strategies around the activities. This served me well and I was looking forward to applying it to the rOpenSci community
 
 In this blog post we present how we have used this tool to better understand and manage the rOpenSci community.
 
@@ -49,11 +49,11 @@ However, communities are built on connections, and those summaries and number do
 
 If we understand the connectivity in our community we can __plan targeted__ and __effective interventions__ to:
 
-- improve collaborations.
-- improve information flow.
-- improve knowledge reuse.
-- effective knowledge (co)creation.
-- effective knowledge transfer.
+- improve collaborations
+- improve information flow
+- improve knowledge reuse
+- enhance knowledge (co)creation
+- enhance knowledge transfer
 
 ## Social Network Analysis
 
@@ -76,19 +76,17 @@ We can also look at how thing change over time:
 
 To answer these questions, we can map and explore the *nodes* and *edges* of our community network. Nodes are points or vertices and are connected to each other by edges. Together the pattern of connections makes up a network.
 
-In our community, nodes and edges could represent individual community members and their collaborations, for example, co-writing a blog post together, or being authors on the same R package. 
+In our community, nodes and edges could represent individual community members and their collaborations, for example, co-writing a blog post together, or being authors on the same R package. The connection between the nodes can have a direction, for example, when a person follow another on social media.
 
-{{< figure src = "red-elements.png" alt = "Two cartoon persons speaking with a can phone. Each person is a node, the thread is the edge and that edge can have direction." caption = "A basic network, with two nodes (community members) and an edge between them (an interaction).">}}
+{{< figure src = "red-elements.png" alt = "Two cartoon persons speaking with a can phone. Each person is a node, the thread is the edge." caption = "A basic network, with two nodes (community members) and an edge between them (an interaction).">}}
 
+There are several metrics that can be calculated to understand the structure of a network, for example:
 
-* The *degree* of a node is how many connections it has. The higher the degree, the more connected the node. For example, a community member who interacts with many different community members.
-
-* *Multiplexity* is the number of connection between two nodes, for example
-community members who coauthored several blog posts together.
+* The *degree centrality* of a node is how many connections it has. The higher the degree, the more connected the node. For example, a community member who interacts with many different community members.
 
 * *Betweenness centrality* measures the number of times a node lies on the shortest path between other nodes. This indicates which nodes are 'bridges' between nodes in a network. For example community members who often interact with different groups of members.
 
-* *Closeness* scores each node based on how close it is to all other nodes in the network.
+* *Closeness centrality* scores each node based on how close it is to all other nodes in the network.
 For example, this can be useful for finding community members who are best placed to influence the entire network most quickly.
 
 * *Clusters or communities* are groups of nodes with a high number of connections among that. For example, community members who often work together. A *clique* is when all members are interconnected and a *silo* is when members have no connections with other clusters on the network.
@@ -114,13 +112,13 @@ Many of these forms of contribution can be made with other people and there we h
 
 * **Blog posts**: Nodes are the authors and the edge is coauthorship, by writing a post together. We can get that data from our website.  
 
-* **Package review**: Nodes are the authors, editors and reviewers, and the edge is the peer-review conducted together. The data source is our peer-review database and the GitHub repository and issues where the peer-review takes place.
-
 * **Package maintenance**: Nodes are the authors, maintainers and contributors of a package, and the edge is the work conducted on a package in common. This information is on GitHub.
 
-* **Community Calls**: Nodes are the speakers, host and moderators, and the edge is participation in the same call. The data is in our community calls database and on our webpage.
-
 * **Champions**: Nodes are mentors and mentees, and the edge is the mentorship relationship. The data is in our mentorship program database and on our webpage.  
+
+* **Package review**: Nodes are the authors, editors and reviewers, and the edge is the peer-review conducted together. The data source is our peer-review database and the GitHub repository and issues where the peer-review takes place.
+
+* **Community Calls**: Nodes are the speakers, host and moderators, and the edge is participation in the same call. The data is in our community calls database and on our webpage.
 
 * **Coworking**: Nodes are the attendees and the hosts, and the edge is participation in the same session. The data is on our our webpage. 
 
