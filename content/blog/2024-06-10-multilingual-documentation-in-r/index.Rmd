@@ -22,7 +22,7 @@ description: "A very short summary of your post (~ 100 characters)"
 #socialAlt: "Alternative description of the image"
 # the text below is for populating the "share on Mastodon" button
 # if deleted, the title of the post will be used
-social: "Multilingual documentation comming to an R package near you @eliocamp@mastodon.social!"
+social: "Multilingual documentation coming to an R package near you @eliocamp@mastodon.social!"
 ---
 
 ```{r setup, include=FALSE}
@@ -95,9 +95,9 @@ help <- function(...) {
 }
 ```
 
-We are happy to announce the R Consortium Multilingual Working Group.
+We are happy to announce the [R Consortium Multilingual Working Group](https://github.com/RConsortium/multilingual-documentation-wg).
 This Working Group will oversee the implementation of multilingual documentation support in R and organise community translation efforts.
-Our first project is the (experimental) **rhelpi18n** package, which adds multilingual documentation support!
+Our first project is the (experimental) [**rhelpi18n**](https://github.com/eliocamp/rhelpi18n) package, which adds multilingual documentation support!
 
 Do you want to read the documentation for `base::mean()` (partially) in Spanish?
 Install the experimental [rhelpi18n](https://github.com/eliocamp/rhelpi18n) package and the sample translation module base.es:
