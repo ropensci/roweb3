@@ -79,6 +79,7 @@ To answer these questions, we can map and explore the *nodes* and *edges* of our
 In our community, nodes and edges could represent individual community members and their collaborations, for example, co-writing a blog post together, or being authors on the same R package. The connection between the nodes can have a direction, for example, when a person follow another on social media.
 
 {{< figure src = "red-elements.png" alt = "Two cartoon persons speaking with a can phone. Each person is a node, the thread is the edge." caption = "A basic network, with two nodes (community members) and an edge between them (an interaction).">}}
+> <a href="https://www.freepik.com/free-vector/hand-drawn-style-stickman-set_20884532.htm">Image by freepik</a>
 
 There are several metrics that can be calculated to understand the structure of a network, for example:
 
@@ -231,6 +232,7 @@ plot(g_blog,
 ```
 
 {{< figure src = "blog_network.png" alt = "Blog post authors network from 2014 to 2024. The network have 253 nodes and 1147 edges. Have two very differentiate parts, one with their members with high connection between them and the other with small cluster of two to six nodes, but not connected to the more dense network. It also have severals nodes without connection to any other node of the network.">}}
+> <a href="https://www.freepik.com/free-vector/hand-drawn-style-stickman-collection_20884533.htm">Image by freepik</a>
 
 We can see that many authors wrote blog posts without collaborators. However, we can also see that there are clusters of coauthors who have written posts together, sometimes only with a specific set of collaborators (the 'silos', clusters without a connection to the main network), and sometimes with multiple groups (the 'cliques', clusters with connections to the main network). 
 
@@ -265,6 +267,7 @@ Social Network Analysis is a powerful tool for understanding interactions and co
     * ... so you can use it for measure the impact of interventions and programs.
 * Share what you find with your community
     * ... and other community managers!
+
 ## Conclusion
 
 Social Network Analysis is a valuable tool for better understanding and guiding your community. 
