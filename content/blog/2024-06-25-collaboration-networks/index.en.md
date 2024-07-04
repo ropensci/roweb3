@@ -59,7 +59,7 @@ If we understand the connectivity in our community we can __plan targeted__ and 
 
 Here is where Social Networks Analysis comes into play. I'm not talking about Instagram or Mastodon here, I'm talking about networks of relationships among individuals or organization.
 
-> Group of individuals who relate to others for a specific purpose, characterized by the existence of information flows.
+> A network is a group of individuals who relate to others for a specific purpose, characterized by the existence of information flows.
 
 By exploring these networks, we can try to answer questions for a given moment in time, for example:
 
@@ -78,16 +78,15 @@ To answer these questions, we can map and explore the *nodes* and *edges* of our
 
 In our community, nodes and edges could represent individual community members and their collaborations, for example, co-writing a blog post together, or being authors on the same R package. The connection between the nodes can have a direction, for example, when a person follow another on social media.
 
-{{< figure src = "red-elements.png" alt = "Two cartoon persons speaking with a can phone. Each person is a node, the thread is the edge." caption = "A basic network, with two nodes (community members) and an edge between them (an interaction).">}}
-> <a href="https://www.freepik.com/free-vector/hand-drawn-style-stickman-set_20884532.htm">Image by freepik</a>
+{{< figure src = "red-elements.png" alt = "Two cartoon persons speaking with a can phone. Each person is a node, the thread is the edge." caption = "A basic network, with two nodes (community members) and an edge between them (an interaction). [Image by freepik](https://www.freepik.com/free-vector/hand-drawn-style-stickman-set_20884532.htm)">}}
 
 There are several metrics that can be calculated to understand the structure of a network, for example:
 
-* The *degree centrality* of a node is how many connections it has. The higher the degree, the more connected the node. For example, a community member who interacts with many different community members.
+* The *degree* of a node is how many connections it has. The higher the degree, the more connected the node. For example, a community member who interacts with many different community members.
 
-* *Betweenness centrality* measures the number of times a node lies on the shortest path between other nodes. This indicates which nodes are 'bridges' between nodes in a network. For example community members who often interact with different groups of members.
+* *Betweenness* measures the number of times a node lies on the shortest path between other nodes. This indicates which nodes are 'bridges' between nodes in a network. For example community members who often interact with different groups of members.
 
-* *Closeness centrality* scores each node based on how close it is to all other nodes in the network.
+* *Closeness* scores each node based on how close it is to all other nodes in the network.
 For example, this can be useful for finding community members who are best placed to influence the entire network most quickly.
 
 * *Clusters or communities* are groups of nodes with a high number of connections among that. For example, community members who often work together. A *clique* is when all members are interconnected and a *silo* is when members have no connections with other clusters on the network.
@@ -107,7 +106,7 @@ So we considered, is it possible that we already have the data we need to analyz
 
 Fortunately at rOpenSci we have a [Contributing Guide](https://contributing.ropensci.org/), there is a whole book describing the different ways you can contribute to the community (check our [Tip Sheet for a summary](/blog/2022/09/13/contributing-ropensci/)). For example, you can, Write a blog post, Review a package, Maintain a package, Speak at a Community Call, Become a champion or Host a coworking session. 
 
-{{< figure src = "contributions.png" alt = "Cartoons people doing differents contribution to rOpenSci: Write a blog post, Review a package, Speak at a community call, Maintain a package, Become a champion, Host a coworking session">}}
+{{< figure src = "contributions.png" alt = "Cartoons people doing differents contribution to rOpenSci: Write a blog post, Review a package, Speak at a community call, Maintain a package, Become a champion, Host a coworking session" caption = "Contribution examples. [Image by freepik](https://www.freepik.com/free-vector/hand-drawn-style-stickman-collection_20884533.htm)">}}
 
 Many of these forms of contribution can be made with other people and there we have our nodes and a connection between them.  In our examples: 
 
@@ -127,9 +126,15 @@ As we can see, there are many ways to represent interactions and collaborations 
 
 When we put all this information together, we can build a network of interactions and collaborations within our community.  This is how our network looked like in 2022. You can see clusters of nodes of the same colour indicating groups of collaborators within our community, as well as some larger nodes, indicating people with a large number of interactions.  
 
-{{< figure src = "full_network.png" alt = "A network of nodes and edges, the nodes are the people and the edges are the collaborations. There are several groups of nodes with the same color that identify clusters">}}
+When we zoom or filter the network we can see the details of the collaborations.  These analyses give us information about which activities generate interactions and what kind of interactions they are. 
+For example, the pink cluster includes people who were part of the rOpenSci staff and the red cluster includes people who participated in the Australian unconference. 
+
+{{< figure src = "full_network.png" alt = "A network of nodes and edges, the nodes are the people and the edges are the collaborations. There are several groups of nodes with the same color that identify clusters" >}}
 
 This network is built from interactions gathered from public data about rOpenSci blogs posts, guides, events, packages, reviews, translations and Champions Program. It is not complete, because do not include other spaces like our Slack or our Forum, but is a good approximation. 
+
+
+
 
 ## Using R to build the network
 
@@ -231,8 +236,9 @@ plot(g_blog,
 
 ```
 
-{{< figure src = "blog_network.png" alt = "Blog post authors network from 2014 to 2024. The network have 253 nodes and 1147 edges. Have two very differentiate parts, one with their members with high connection between them and the other with small cluster of two to six nodes, but not connected to the more dense network. It also have severals nodes without connection to any other node of the network.">}}
-> <a href="https://www.freepik.com/free-vector/hand-drawn-style-stickman-collection_20884533.htm">Image by freepik</a>
+{{< figure src = "blog_network.png" alt = "Blog post authors network from 2014 to 2024. The network have 253 nodes and 1147 edges. Have two very differentiate parts, one with their members with high connection between them and the other with small cluster of two to six nodes, but not connected to the more dense network. It also have severals nodes without connection to any other node of the network." >}}
+
+
 
 We can see that many authors wrote blog posts without collaborators. However, we can also see that there are clusters of coauthors who have written posts together, sometimes only with a specific set of collaborators (the 'silos', clusters without a connection to the main network), and sometimes with multiple groups (the 'cliques', clusters with connections to the main network). 
 
