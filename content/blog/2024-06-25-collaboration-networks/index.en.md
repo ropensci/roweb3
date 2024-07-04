@@ -83,12 +83,12 @@ In our community, nodes and edges could represent individual community members a
 
 * The *degree* of a node is how many connections it has. The higher the degree, the more connected the node. For example, a community member who interacts with many different community members.
 
-* The *multiplexity* show the number of connection between two nodes, for example
-you co-author more than one blog post.
+* *Multiplexity* is the number of connection between two nodes, for example
+community members who coauthored several blog posts together.
 
 * *Betweenness centrality* measures the number of times a node lies on the shortest path between other nodes. This indicates which nodes are 'bridges' between nodes in a network. For example community members who often interact with different groups of members.
 
-* The *clossness* scores each node based on how close it is to all other nodes in the network.
+* *Closeness* scores each node based on how close it is to all other nodes in the network.
 For example, this can be useful for finding community members who are best placed to influence the entire network most quickly.
 
 * *Clusters or communities* are groups of nodes with a high number of connections among that. For example, community members who often work together. A *clique* is when all members are interconnected and a *silo* is when members have no connections with other clusters on the network.
@@ -173,7 +173,7 @@ datos <- tibble::tibble(date = character(),
                         contribution_type = character())
                 
 for (documento in file_list){ 
-  doc <- rmarkdown::yaml_front_matter(input = file.path(documento)) 
+  doc <- rmarkdown::yaml_front_matter(input = documento)
   datos <- tibble::add_row(datos, 
                            date = doc$date, 
                            title = doc$title, 
