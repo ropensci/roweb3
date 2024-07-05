@@ -150,7 +150,7 @@ That is why we are presenting the experimental **rhelpi18n** package.
 This package adds seamless support for multilingual documentation.
 A user can load rhelpi18n, install translation modules created by the community, and read R documentation in their language of choice.
 
-## OK, by how?
+## OK, but how?
 
 Translated strings are hosted in the base.es translation module.
 This is a regular package with special fields in the DESCRIPTION specifying which package and version is being translated and to which language.

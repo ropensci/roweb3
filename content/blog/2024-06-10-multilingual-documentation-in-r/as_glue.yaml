@@ -1,10 +1,10 @@
 title:
   original: Coerce object to glue
-  translation: Convertir un objecto a glue
+  translation: Convertir un objeto a glue
 arguments:
   x:
     original: object to be coerced.
-    translation: objecto a convertir.
+    translation: objeto a convertir.
   '...':
     original: further arguments passed to methods.
     translation: otros argumentos que se pasan a los métodos.
@@ -20,7 +20,7 @@ description:
     the string implementation) and a \code{+} method, so that you can concatenate with
     the addition operator.
   translation: |
-    Un objecto glue es un vector de caracteres con la clase S3 \code{"glue"}. 
+    Un objeto glue es un vector de caracteres con la clase S3 \code{"glue"}. 
     La clase \code{"glue"} implementa un método de impresión que muestra los contenidos
     literales (en vez de la implementación como cadena de caracteres) y un método \code{+} 
     para que puedas concatenar usando el operador de sumatoria.
