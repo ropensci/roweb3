@@ -161,10 +161,20 @@ It adds a few lines to check for relevant translation modules and replaces the o
 
 This package also provides tools for developers to create new translation modules.
 
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+glue_zip <- file.path(tempdir(), "glue.zip")
+glue_dir <- file.path(tempdir(), "glue-9f88e2179fc7aa6ff11214271fd61bba169f925c")
+dir.create(glue_dir, showWarnings = FALSE, recursive = TRUE)
+glue_url <- "https://github.com/tidyverse/glue/archive/9f88e2179fc7aa6ff11214271fd61bba169f925c.zip"
+
+download.file(glue_url, glue_zip)
+unzip(glue_zip, exdir = tempdir())
+```
+
 ```{r}
 dir <- file.path(tempdir(), "glue.es")
 rhelpi18n::i18n_module_create(module_name = "glue.es", 
-                              package_path = "/home/user1/Documents/r-packages/glue",  # I have a copy of glue here. 
+                              package_path = glue_dir,  # I have a copy of glue here. 
                               language = "es", 
                               module_path = dir)
 ```
@@ -183,6 +193,12 @@ A possible (and crummy) translation would be
 
 ```{r, output.lines=30, echo=FALSE}
 cat(readLines("as_glue.yaml"), sep = "\n")
+```
+
+```{r, echo=FALSE,eval=FALSE}
+# file.copy("as_glue.yaml", file.path(dir, "translations", "as_glue.yaml"),
+#           overwrite = TRUE)
+# pak::local_install(dir)
 ```
 
 After modifying "as_glue.yaml" and installing the package, now the documentation is in Spanish.
