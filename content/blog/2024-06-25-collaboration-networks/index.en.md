@@ -234,7 +234,10 @@ plot(g_blog,
 
 {{< figure src = "blog_network.png" alt = "Blog post authors network from 2014 to 2024. The network have 253 nodes and 1147 edges. Have two very differentiate parts, one with their members with high connection between them and the other with small cluster of two to six nodes, but not connected to the more dense network. It also have severals nodes without connection to any other node of the network." >}}
 
-We can see that many authors wrote blog posts without collaborators. However, we can also see that there are clusters of coauthors who have written posts together, sometimes only with a specific set of collaborators (the 'silos', clusters without a connection to the main network), and sometimes with multiple groups (acting as 'hubs' in the network). 
+We can see that many authors wrote blog posts without collaborators. However, we can also see that there are clusters of coauthors who have written posts together, sometimes only with a specific set of collaborators (the 'silos', clusters without a connection to the main network), and sometimes with multiple groups (acting as 'hubs' in the network).
+By analyzing the cluster, we can learn about the topics a series of authors are interested in, or the activities they are involved in. For example, the two clusters marked on the network map are the rOpenSci's second cohort Champions and Mentors.
+
+
 In addition to this visual assessment, we can also calculate the *number of nodes*, the *degree[^1]* of each node, the *betweenness[^2]* and the *closeness[^3]* to analyze some of the characteristics of the nodes and the network.
 
 [^1]: The number of connections to other nodes
