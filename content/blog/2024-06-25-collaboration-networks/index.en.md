@@ -23,7 +23,7 @@ In June 2022 I (Yani) become the rOpenSci Community Manager. To do a good job in
 
 In my previous experience working with scientific and technological communities of practice, in collaboration with Sandro, I had used a tool called Social Network Analysis to understand the interaction of the members and plan strategies around the activities. This served me well and I was looking forward to applying it to the rOpenSci community
 
-In this blog post we present how we have used this tool to better understand and manage the rOpenSci community.
+In this blog post we present how we have used this tool with R, to better understand and manage the rOpenSci community.
 
 ## Community of practice and community manager
 
@@ -86,7 +86,7 @@ There are several metrics that can be calculated to understand the structure of 
 
 * *Betweenness* measures the number of times a node lies on the shortest path between other nodes. This indicates which nodes are 'bridges' between nodes in a network. For example community members who often interact with different groups of members.
 
-* *Closeness* scores each node based on how close it is to all other nodes in the network.
+* *Closeness* scores each node based on how close it is to all other nodes in the network. The distance is the lengths of pairwise shortest paths from a node to another node.
 For example, this can be useful for finding community members who are best placed to influence the entire network most quickly.
 
 * *Clusters or communities* are groups of nodes with a high number of connections among that. For example, community members who often work together. A *clique* is when all members are interconnected and a *silo* is when members have no connections with other clusters on the network.
@@ -132,9 +132,6 @@ For example, the pink cluster includes people who were part of the rOpenSci staf
 {{< figure src = "full_network.png" alt = "A network of nodes and edges, the nodes are the people and the edges are the collaborations. There are several groups of nodes with the same color that identify clusters" >}}
 
 This network is built from interactions gathered from public data about rOpenSci blogs posts, guides, events, packages, reviews, translations and Champions Program. It is not complete, because do not include other spaces like our Slack or our Forum, but is a good approximation. 
-
-
-
 
 ## Using R to build the network
 
@@ -207,7 +204,7 @@ authors <- datos |>
 Next, we'll create the edges or relations between the nodes. 
 
 This code takes the blog data, grouped by title and year, and keeps only posts with two or more authors.
-Then, for each group, the `combn()` function creates a matrix representing all the unique combinations of a pair of authors. This data is then transposed (`t()`) resulting in two columns that become _from_ and _to_, representing the nodes.
+Then, for each group, the `combn()` function creates a matrix representing all the unique combinations of a pair of authors. This data is then transposed (`t()`) resulting in two columns that become `from` and `to`, representing the nodes.
 
 ``` r
 relations <- datos |> 
@@ -238,23 +235,22 @@ plot(g_blog,
 
 {{< figure src = "blog_network.png" alt = "Blog post authors network from 2014 to 2024. The network have 253 nodes and 1147 edges. Have two very differentiate parts, one with their members with high connection between them and the other with small cluster of two to six nodes, but not connected to the more dense network. It also have severals nodes without connection to any other node of the network." >}}
 
-
-
-We can see that many authors wrote blog posts without collaborators. However, we can also see that there are clusters of coauthors who have written posts together, sometimes only with a specific set of collaborators (the 'silos', clusters without a connection to the main network), and sometimes with multiple groups (the 'cliques', clusters with connections to the main network). 
-
-In addition to this visual assessment, we can also calculate the *degree[^1]* of each node, the *betweenness[^2]* and the *closeness[^3]* to analyze some of the characteristics of the nodes and the network.
+We can see that many authors wrote blog posts without collaborators. However, we can also see that there are clusters of coauthors who have written posts together, sometimes only with a specific set of collaborators (the 'silos', clusters without a connection to the main network), and sometimes with multiple groups (acting as 'hubs' in the network). 
+In addition to this visual assessment, we can also calculate the *number of nodes*, the *degree[^1]* of each node, the *betweenness[^2]* and the *closeness[^3]* to analyze some of the characteristics of the nodes and the network.
 
 [^1]: The number of connections to other nodes
 [^2]: The number of times a node lies on the shortest path between other nodes
-[^3]: ????
+[^3]: The average of the shortest path length from the node to every other node in the network.
 
 ``` r
+vcount(g_blog)
 degree(g_blog)
 betweenness(g_blog)
 closeness(g_blog)
 ```
 
-Looking at these metrics, we see that our current Executive Director, Noam Ross, has the highest degree[^1] and the highest centrality, likely reflecting his role as Software Review Lead over the years (Noam's node is in the middle of the dense clump of nodes in the center of the network). Similarly, Yani ("Yanina Bellini Saibene", in the network diagram) shows many connections to different clusters and individual nodes, again, likely reflecting her role as Community Manager.
+Looking at these metrics, we see that the network has 253 nodes, which means that 253 unique people have written for the rOpenSci blog. We can also see that our current Executive Director, Noam Ross, has the highest degree[^1] and the highest betweenness, likely reflecting his role as Software Review Lead over the years (Noam's node is in the middle of the dense clump of nodes in the center of the network). Similarly, Yani ("Yanina Bellini Saibene", in the network diagram) shows many connections to different clusters and individual nodes, again, likely reflecting her role as Community Manager.
+
 ## Using Social Network Analysis in your community
 
 Social Network Analysis is a powerful tool for understanding interactions and collaborations in a community and there are powerful R packages to help with the analysis. So, what if you wanted to do the same for your community? Here are our tips.
