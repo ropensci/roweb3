@@ -280,7 +280,3 @@ Here, we demonstrated a small example how you might use Social Network Analysis 
 Other explorations might include creating a network for each year and examining how the model changes over time. Or perhaps looking at how part of the network changes, for example only looking at blog posts in Spanish. We could map the network to geographic area and explore which countries are most represented and which have more or few collaborations among them.
 
 There are many different aspects of a community that can be explored with Social Network Analysis and we hope that you find this tool useful in your communities. 
-
-
-
-
