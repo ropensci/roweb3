@@ -14,10 +14,9 @@ tags:
   - networks
   - social network analysis
   - community-manager-tools
-description: 
-
+description: "In this blog post we present how we have used Social Network Analysis with R, to better understand and manage the rOpenSci community."
+preface: This article is based on two talks presented at [CSV,Conf,V7](/events/2023-04-20-csvconf-regulartalk/) and [LatinR](/events/latinr-ropensci-2023/) in 2023.
 ---
-
 
 In June 2022 I (Yani) become the rOpenSci Community Manager. To do a good job in this kind of role it is essential to know your community, so as soon I started I dug in: reading our documentation, learning our processes and their metrics, and conducting interviews with team-mates and community members.
 
