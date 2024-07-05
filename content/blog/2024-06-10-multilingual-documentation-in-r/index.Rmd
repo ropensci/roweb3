@@ -95,8 +95,8 @@ help <- function(...) {
 }
 ```
 
-We are happy to announce the [R Consortium Multilingual Working Group](https://github.com/RConsortium/multilingual-documentation-wg).
-This Working Group will oversee the implementation of multilingual documentation support in R and organise community translation efforts.
+We are happy to announce the brand-new [R Consortium Multilingual Working Group](https://github.com/RConsortium/multilingual-documentation-wg).
+This Working Group came about after discussions during the R Project Sprint 2023 and will oversee the implementation of multilingual documentation support in R and organise community translation efforts.
 Our first project is the (experimental) [**rhelpi18n**](https://github.com/eliocamp/rhelpi18n) package, which adds multilingual documentation support!
 
 Do you want to read the documentation for `base::mean()` (partially) in Spanish?
