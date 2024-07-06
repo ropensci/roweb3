@@ -129,7 +129,7 @@ When we put all this information together, we can build a network of interaction
 When we zoom or filter the network we can see the details of the collaborations.  These analyses give us information about which activities generate interactions and what kind of interactions they are. 
 For example, the pink cluster includes people who were part of the rOpenSci staff and the red cluster includes people who participated in the Australian unconference. 
 
-{{< figure src = "full_network.png" alt = "A network of nodes and edges, the nodes are the people and the edges are the collaborations. There are several groups of nodes with the same color that identify clusters" >}}
+{{< figure src = "full_network.png" alt = "A network of nodes and edges, the nodes are the people and the edges are the collaborations. There are several groups of nodes with the same color that identify clusters" caption = "rOpenSci full collaboration network maped in 2022.">}}
 
 This network is built from interactions gathered from public data about rOpenSci blogs posts, guides, events, packages, reviews, translations and Champions Program. It is not complete, because do not include other spaces like our Slack or our Forum, but is a good approximation. 
 
@@ -233,7 +233,7 @@ plot(g_blog,
 
 ```
 
-{{< figure src = "blog_network.png" alt = "Blog post authors network from 2014 to 2024. The network have 253 nodes and 1147 edges. Have two very differentiate parts, one with their members with high connection between them and the other with small cluster of two to six nodes, but not connected to the more dense network. It also have severals nodes without connection to any other node of the network." >}}
+{{< figure src = "blog_network.png" alt = "Blog post authors network from 2014 to 2024. The network have 253 nodes and 1147 edges. Have two very differentiate parts, one with their members with high connection between them and the other with small cluster of two to six nodes, but not connected to the more dense network. It also have severals nodes without connection to any other node of the network." caption = "rOpenSci's blog post authors collaboration network from 2014 to 2024.">}}
 
 We can see that many authors wrote blog posts without collaborators. However, we can also see that there are clusters of coauthors who have written posts together, sometimes only with a specific set of collaborators (the 'silos', clusters without a connection to the main network), and sometimes with multiple groups (acting as 'hubs' in the network).
 By analyzing the cluster, we can learn about the topics a series of authors are interested in, or the activities they are involved in. For example, the two clusters marked on the network map are the rOpenSci's second cohort Champions and Mentors.
