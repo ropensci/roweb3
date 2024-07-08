@@ -14,7 +14,75 @@ description: Documentación multilingüe en un paquete R cercano
 social: "La documentación multilingüe llega a un paquete de R cercano @eliocamp@mastodon.social"
 ---
 
+````{r setup, include=FALSE}
+# Options to have images saved in the post folder
+# And to disable symbols before output
+knitr::opts_chunk$set(fig.path = "", comment = "")
 
+# knitr hook to make images output use Hugo options
+knitr::knit_hooks$set(
+  plot = function(x, options) {
+    hugoopts <- options$hugoopts
+    paste0(
+      "`{{<figure src=",
+      '"', x, '" ',
+      if (!is.null(hugoopts)) {
+        glue::glue_collapse(
+          glue::glue('{names(hugoopts)}="{hugoopts}"'),
+          sep = " "
+        )
+      },
+      ">}}`{=html}\n"
+    )
+  }
+)
+
+# knitr hook to use Hugo highlighting options
+knitr::knit_hooks$set(
+  source = function(x, options) {
+    hlopts <- options$hlopts
+    paste0(
+      "```r ",
+      if (!is.null(hlopts)) {
+        paste0("{",
+               glue::glue_collapse(
+                 glue::glue('{names(hlopts)}={hlopts}'),
+                 sep = ","
+               ), "}"
+        )
+      },
+      "\n", glue::glue_collapse(x, sep = "\n"), "\n```\n"
+    )
+  }
+)
+
+hook_output <- knitr::knit_hooks$get("output")
+knitr::knit_hooks$set(output = function(x, options) {
+  lines <- options$output.lines
+  if (is.null(lines)) {
+    return(hook_output(x, options))  # pass to default hook
+  }
+  x <- unlist(strsplit(x, "\n"))
+  
+  if (length(x) > lines) {
+    more <- paste0("... (", length(x) - lines, " more lines)")
+    # truncate the output, but add ....
+    x <- c(head(x, lines), more)
+  }
+  
+  # paste these lines together
+  x <- paste(c(x, ""), collapse = "\n")
+  hook_output(x, options)
+})
+
+help <- function(...) {
+  outfile <- tempfile(fileext = ".txt")
+  tools::Rd2txt(utils:::.getHelpFile(utils::help(...)), outfile)
+  text <- readLines(outfile)
+  text <- gsub("_\b", "", text)
+  cat(text, sep = "\n")
+}
+````
 
 Nos complace anunciar el nuevo [Grupo de Trabajo Multilingüe del Consorcio R](https://github.com/RConsortium/multilingual-documentation-wg).
 Este Grupo de Trabajo surgió tras los debates mantenidos durante la [Proyecto R Sprint 2023](https://contributor.r-project.org/r-project-sprint-2023/) y supervisará la implementación del soporte de documentación multilingüe en R y organizará los esfuerzos de traducción de la comunidad.
@@ -23,51 +91,17 @@ Nuestro primer proyecto es el (experimental) [**rhelpi18n**](https://github.com/
 ¿Desea leer la documentación de `base::mean()` (parcialmente) en español?
 Instale la versión experimental [rhelpi18n](https://github.com/eliocamp/rhelpi18n) y el módulo de traducción de ejemplo base.es:
 
-```r 
+```{r, eval=FALSE}
 # install.packages("pak")
 pak::pak(c("eliocamp/rhelpi18n", "eliocamp/base.es"))
 ```
 
 Y luego ejecuta este código:
 
-```r 
+```{r, output.lines=30, warning=FALSE}
 library(rhelpi18n)
 Sys.setenv(LANGUAGE = "es")
 help(mean) 
-```
-
-```
-Media Aritmética
-
-Description:
-
-     Función genérica para la media aritmética (recortada)
-
-Usage:
-
-     mean(x, ...)
-     
-     ## Default S3 method:
-     mean(x, trim = 0, na.rm = FALSE, ...)
-     
-Arguments:
-
-       x: an R object.  Currently there are methods for numeric/logical
-          vectors and date, date-time and time interval objects.
-          Complex vectors are allowed for 'trim = 0', only.
-
-    trim: la fracción (0 a 0.5) de observaciones para ser recordatas
-          del final de \codex antes de computar la media. Valores de
-          trim pro fuera de ese rango se consideran al punto más
-          cercano.
-
-   na.rm: un valor lógico que evalua a 'TRUE' o 'FALSE' indicando si
-          valores 'NA' deben ser removidos antes de realizar el
-          cómputo.
-
-     ...: further arguments passed to or from other methods.
-
-... (27 more lines)
 ```
 
 ¡Bien!
@@ -118,11 +152,19 @@ Añade unas pocas líneas de código que comprueban si existen módulos de tradu
 
 Además de presentar la documentación traducida, rhelpi18n también proporciona herramientas para que los desarrolladores creen nuevos módulos de traducción.
 
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+glue_zip <- file.path(tempdir(), "glue.zip")
+glue_dir <- file.path(tempdir(), "glue-9f88e2179fc7aa6ff11214271fd61bba169f925c")
+dir.create(glue_dir, showWarnings = FALSE, recursive = TRUE)
+glue_url <- "https://github.com/tidyverse/glue/archive/9f88e2179fc7aa6ff11214271fd61bba169f925c.zip"
 
+download.file(glue_url, glue_zip)
+unzip(glue_zip, exdir = tempdir())
+```
 
 Por ejemplo, el siguiente código crea un módulo de traducción básico para el paquete glue, incluyendo todas las funcionalidades y cadenas que necesitan ser traducidas.
 
-```r 
+```{r}
 dir <- file.path(tempdir(), "glue.es")
 rhelpi18n::i18n_module_create(module_name = "glue.es", 
                               package_path = glue_dir,  # Path to local copy of glue source code
@@ -133,99 +175,29 @@ rhelpi18n::i18n_module_create(module_name = "glue.es",
 Ahora el trabajo pesado es ir al subdirectorio "translations" y traducir todas las cadenas guardadas (actualmente) como archivos YAML.
 Por ejemplo, el archivo de traducción para `glue::as_glue()` es:
 
-
-```
-title:
-  original: Coerce object to glue
-  translation: ~
-arguments:
-  x:
-    original: object to be coerced.
-    translation: ~
-  '...':
-    original: further arguments passed to methods.
-    translation: ~
-value:
-  original: |
-    A character vector with S3 class \code{"glue"}.
-  translation: ~
-description:
-  original: |
-    A glue object is a character vector with S3 class \code{"glue"}. The \code{"glue"}
-    class implements a print method that shows the literal contents (rather than
-    the string implementation) and a \code{+} method, so that you can concatenate with
-    the addition operator.
-... (16 more lines)
+```{r, echo=FALSE, output.lines=20}
+file.path(dir, "translations", "as_glue.yaml") |> 
+  readLines() |> 
+  cat(sep = "\n")
 ```
 
 Una posible (y superficial) traducción sería
 
-
-```
-title:
-  original: Coerce object to glue
-  translation: Convertir un objeto a glue
-arguments:
-  x:
-    original: object to be coerced.
-    translation: objeto a convertir.
-  '...':
-    original: further arguments passed to methods.
-    translation: otros argumentos que se pasan a los métodos.
-value:
-  original: |
-    A character vector with S3 class \code{"glue"}.
-  translation: |
-    Vector de caracter con la clase S3 \code{"glue"}.
-description:
-  original: |
-    A glue object is a character vector with S3 class \code{"glue"}. The \code{"glue"}
-    class implements a print method that shows the literal contents (rather than
-    the string implementation) and a \code{+} method, so that you can concatenate with
-    the addition operator.
-  translation: |
-    Un objeto glue es un vector de caracteres con la clase S3 \code{"glue"}. 
-    La clase \code{"glue"} implementa un método de impresión que muestra los contenidos
-    literales (en vez de la implementación como cadena de caracteres) y un método \code{+} 
-    para que puedas concatenar usando el operador de sumatoria.
-examples:
-  original: |
-    x <- as_glue(c("abc", "\"\\\\", "\n"))
-    x
-... (11 more lines)
+```{r, output.lines=30, echo=FALSE}
+cat(readLines("as_glue.yaml"), sep = "\n")
 ```
 
-
+```{r, echo=FALSE, eval=FALSE}
+# file.copy("as_glue.yaml", file.path(dir, "translations", "as_glue.yaml"),
+#           overwrite = TRUE)
+# pak::local_install(dir)
+```
 
 Tras modificar "as\_glue.yaml" e instalar el paquete, ahora la documentación está en español .
 
-```r 
+```{r, output.lines=20}
 library(glue)
 help(as_glue)
-```
-
-```
-Convertir un objeto a glue
-
-Description:
-
-     Un objeto glue es un vector de caracteres con la clase S3
-     '"glue"'.  La clase '"glue"' implementa un método de impresión que
-     muestra los contenidos literales (en vez de la implementación como
-     cadena de caracteres) y un método '+' para que puedas concatenar
-     usando el operador de sumatoria.
-
-Usage:
-
-     as_glue(x, ...)
-     
-Arguments:
-
-       x: objeto a convertir.
-
-     ...: otros argumentos que se pasan a los métodos.
-
-... (13 more lines)
 ```
 
 ¡Increíble!
