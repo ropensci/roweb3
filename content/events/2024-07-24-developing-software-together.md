@@ -1,13 +1,19 @@
 ---
 title: 'Developing Software Together (training for champions program applicants)'
 dateStart: '2024-07-24T21:00:00'
-dateEnd: '2023-07-24T21:00:00'
-date: 2023-07-24T24:00:00 # UTC!! same as dateEnd
+dateEnd: '2024-07-24T21:00:00'
+date: 2024-07-24T23:59:00 # UTC!! same as dateEnd
 description: ""
 location: 'online'
-country: "\U0001F310" # emoji
+slug: "dev-soft-together-2024"
+country: "🌐" # emoji
+ropensci: yes
+outputs: 
+- HTML
+- Calendar 
 tags: 
-  - champions
+  - champions program
+  - community
 author:
   - Pao Corrales
 attendees:
