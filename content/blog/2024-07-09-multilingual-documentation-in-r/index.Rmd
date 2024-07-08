@@ -1,5 +1,5 @@
 ---
-slug: "2024-07-09-multilingual-documentation"
+slug: "multilingual-documentation"
 title: Multilingual Documentation in R Packages
 # Delete the package_version line below if your post is not about a package
 author:
@@ -16,7 +16,7 @@ tags:
   - documentation
   - community
 # The summary below will be used by e.g. Mastodon preview cards
-description: "Multilingual documentation coming to an R package near you"
+description: "Multilingual documentation coming to an R package near you!"
 # If you have no preferred image for Mastodon preview cards,
 # delete the socialImg and socialAlt lines below 
 # - Note "/" between year/month/day
@@ -124,7 +124,7 @@ This should work on any R console or IDE.
 
 Although English is the de facto international language, there are [benefits](https://ropensci.org/multilingual-publishing/) to including resources in different languages.
 By reducing language barriers we end up with a larger, stronger, more creative community with more ideas and resources.
-This English hegemony is reflected in R by the use of English in its documentation, such as manual pages, function names, and argument names (why use `mean()` instead of `Mittelwert()`?)
+The English hegemony is reflected in R by the use of English in its documentation, such as manual pages, function names, and argument names (why use `mean()` instead of `Mittelwert()`?)
 .
 
 Package documentation *can* be written in any language, and CRAN supports non-English documentation by using the "Language" field[^1].
@@ -217,7 +217,7 @@ Amazing!
 
 ## Next steps
 
-This is all in the early stages and things are moving fast.
+This is all in the early stages but things are moving fast.
 We are still experimenting with various ways to store translations and implement string replacements.
 It also has several limitations, such as not translating section headings yet.
 We also want to add a clear indication that the text is a translation and a convenient way of quickly accessing the original version.
