@@ -150,14 +150,14 @@ We mapped rOpenSci collaboration network in 2022.  If we filter the network of t
 
 {{< figure src = "workshop.png" alt = "" caption = "<strong>Blog post collaboration network 2014 and 2022</strong>">}}
 
-If we filter even more and we look at the collaboration on writing blog post in Spanish, this is how our network looks like before 2022, that year we introduce our Multilingual Publishing project, and this is how it looks in 2024.
+If we filter even more and we look at the collaboration on writing blog post in Spanish, this is how our network looks like before 2022, that year we introduce our Multilingual Publishing project, and this is how it looks in 2024. The network of contributor not only grows but also the connections between them.  We can see three clear clusters, the champions program participants, the stars of r-universe series and translations of important post for the peer-review process. Building the infrastructure for our website to be multilingual and to be able to do translations has positively impacted the amount of content we can have in other languages, not only by multilingual people but also by localizing our existing content.  
 
 {{< figure src = "network-2024-es.png" alt = "The collaboration network before 2022 shows 2 nodes withour interation.  The collaboration network in 2024 shows 20 nodes with edges between them.  There are 3 clear clusters, champions program participants, the stars of r-universe series and translations of important post for the peer-review process" caption = "<strong>Blog post in spanish collaboration network mapping in two different moments in time.</strong>">}}
 
 ## Suggestion to think about metrics
 
 * Use metrics based on your goals.
-* That give us valuable feedback to improve our activities and programs.
+* That give you valuable feedback to improve your activities and programs.
 * That inform about your impact.
 * Use a mix of quantitative and qualitative metrics.
 
