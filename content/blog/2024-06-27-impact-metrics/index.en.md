@@ -12,7 +12,7 @@ tags:
   - Champions program
   - Community Manager Tools
 description: "Our community manager Yani, share our experience using two frameworks with a community management lens to capture metrics at different levels and participation models to try to measure rOpenSci impact."
-
+preface: This blog post is based on the talk [**r**eproducible **Open** **Sci**ence by and for All](/events/czi-2024/) at the CZI Open Science 2024 event. 
 ---
 
 On June 14 I was invited to present at the [CZI Open Science 2024](https://chanzuckerberg.com/science/programs-resources/open-science/) event. I was asked to participate on the Case Study Session 3: Demonstrating Impact of Open Science and explore the challenges of using traditional academic metrics for measuring project impact and emphasize alternative approaches.
