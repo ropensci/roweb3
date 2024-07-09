@@ -1,5 +1,5 @@
 ---
-slug: "multilingual-documentation"
+slug: "multilingual-documentation-wg"
 title: Multilingual Documentation in R Packages
 # Delete the package_version line below if your post is not about a package
 author:
@@ -90,11 +90,10 @@ This should work on any R console or IDE.
 
 Although English is the de facto international language, there are [benefits](https://ropensci.org/multilingual-publishing/) to including resources in different languages.
 By reducing language barriers we end up with a larger, stronger, more creative community with more ideas and resources.
-The English hegemony is reflected in R by the use of English in its documentation, such as manual pages, function names, and argument names (why use `mean()` instead of `Mittelwert()`?)
-.
+The English hegemony is reflected in R by the use of English in its documentation, such as manual pages, function names, and argument names (why use `mean()` instead of `Mittelwert()`?).
 
 Package documentation *can* be written in any language, and CRAN supports non-English documentation by using the "Language" field[^1].
-But still, the vast majority of packages are documented in English and the [small number of packages documented in other languages](https://cderv.rbind.io/2018/03/11/non-english-pkg-in-cran/), are seemingly tailored to their target audience.
+But still, the vast majority of packages are documented in English and there is only [a small number of packages documented in other languages](https://cderv.rbind.io/2018/03/11/non-english-pkg-in-cran/) are seemingly tailored to their target audience.
 For example, the [labstatR](https://cran.r-project.org/web/packages/labstatR/index.html) package serves as a companion to the Italian book "Laboratorio Di Statistica Con R" and is partially documented in Italian (it uses English function names and arguments).
 Similarly, [chilemapas](https://cran.r-project.org/web/packages/chilemapas/chilemapas.pdf) provides simplified maps for Chile, with full Spanish documentation, including function names.
 rOpenSci's own [censo2017](https://docs.ropensci.org/censo2017/) by [Mauricio Vargas](/author/pachá-aka-mauricio-vargas-sepúlveda/) is also fully documented in Spanish.
