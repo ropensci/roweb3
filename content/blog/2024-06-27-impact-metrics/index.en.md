@@ -4,14 +4,14 @@ author:
     - Yanina Bellini Saibene
 editor:
 - Steffi LaZerte
-date: '2024-06-27'
+date: '2024-07-16'
 slug: impact-community-management
 categories:
   - blog
 tags:
   - Champions program
-  - Community
-description: 
+  - Community Manager Tools
+description: "Our community manager Yani, share our experience using two frameworks with a community management lens to capture metrics at different levels and participation models to try to measure rOpenSci impact."
 
 ---
 
