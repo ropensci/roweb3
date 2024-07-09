@@ -4,6 +4,9 @@ title: Multilingual Documentation in R Packages
 # Delete the package_version line below if your post is not about a package
 author:
   - Elio Campitelli
+editor:
+  - Steffi LaZerte
+  - Yanina Bellini Saibene
 # Set the date below to the publication date of your post
 date: 2024-07-09
 # Minimal tags for a post about a community-contributed package 

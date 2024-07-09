@@ -3,6 +3,9 @@ slug: multilingual-documentation-wg
 title: Documentación multilingüe en paquetes de R
 author:
 - Elio Campitelli
+editor:
+  - Steffi LaZerte
+  - Yanina Bellini Saibene
 date: '2024-07-09'
 tags:
 - R
