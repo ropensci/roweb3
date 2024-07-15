@@ -168,11 +168,13 @@ Using the SNA tool we can see and understand the impact of our work in the commu
 
 Use and develop metrics
 
-* Based on your goals.
-* Which give you valuable feedback to improve your activities and programs.
-* Which inform about your impact.
-* Are a mix of quantitative and qualitative.
+* **Based on your goals:** every metric requires effort to be recorded, analyzed and maintained over time.  It is important to select those that give us information about our objectives. For example, with the champions program we mapped the countries of our applicants to see if we were reaching the geographic regions we wanted to reach and after the first call we changed our communication strategy to reach more countries in Africa, Asia and Oceania.
 
-**Register the numbers and the stories** to guide your decisions to reach your goals.
+* **Which give you valuable feedback to improve your activities and programs: **
+
+* **Which inform about your impact: **
+
+
+The main recommendation is to use metrics that combine quantitative and qualitative tools to be able to make decisions about our programs and content.  It is important to *record the numbers but also the stories*.  There are many tools that can give us valuable information if we use them knowing that we will always have an incomplete picture, but it can be a useful one.  
 
 
