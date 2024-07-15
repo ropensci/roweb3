@@ -170,11 +170,11 @@ Use and develop metrics
 
 * **Based on your goals:** every metric requires effort to be recorded, analyzed and maintained over time.  It is important to select those that give us information about our objectives. For example, with the champions program we mapped the countries of our applicants to see if we were reaching the geographic regions we wanted to reach and after the first call we changed our communication strategy to reach more countries in Africa, Asia and Oceania.
 
-* **Which give you valuable feedback to improve your activities and programs: **
+* **Which give you valuable feedback to improve your activities and programs: ** metrics should be used to make decisions about our programs and content.  For example, using the answers to our maintainers survey we have a series of blog post calling for different type of [support](/blog/2024/03/01/qualtrics-call-help/) for several packages, [like answering questions](/blog/2024/02/29/targets-call-help/) and [help to close issues](/blog/2024/02/27/assertr-call-help/) and another one with recommendations around [communication](/blog/2024/05/17/communication-tips-oss-project/) and [marketing](/blog/2024/03/07/package-marketing/) for open source projects.
 
-* **Which inform about your impact: **
+* **Which inform about your impact: ** if we can understand how, at what level and what kind of impact we have, we can look for ways to replicate it or make the necessary changes to get closer to our objectives.  From the data and stories we gather, we can say that our Slack and our Community Calls are an important space for rOpenSci people to meet and collaborate. It is not only a place to learn or to update our knowledge, but also to generate connections that go beyond the activities of rOpenSci. 
 
 
-The main recommendation is to use metrics that combine quantitative and qualitative tools to be able to make decisions about our programs and content.  It is important to *record the numbers but also the stories*.  There are many tools that can give us valuable information if we use them knowing that we will always have an incomplete picture, but it can be a useful one.  
+The main recommendation is to use metrics that combine quantitative and qualitative tools to be able to make decisions about your programs and content.  It is important to *record the numbers but also the stories*.  There are many tools that can give us valuable information if we use them knowing that we will always have an incomplete picture, but it can be a useful one.  
 
 
