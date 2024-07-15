@@ -174,6 +174,7 @@ Use and develop metrics
 
 * **Which inform about your impact: ** if we can understand how, at what level and what kind of impact we have, we can look for ways to replicate it or make the necessary changes to get closer to our objectives.  From the data and stories we gather, we can say that our Slack and our Community Calls are an important space for rOpenSci people to meet and collaborate. It is not only a place to learn or to update our knowledge, but also to generate connections that go beyond the activities of rOpenSci. 
 
+## Conclusion
 
 The main recommendation is to use metrics that combine quantitative and qualitative tools to be able to make decisions about your programs and content.  It is important to *record the numbers but also the stories*.  There are many tools that can give us valuable information if we use them knowing that we will always have an incomplete picture, but it can be a useful one.  
 
