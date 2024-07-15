@@ -78,7 +78,7 @@ This package become the [**first rOpenSci bilingual software peer-review**](http
 
 The [multilingual aspect of the package](https://mpru.github.io/karel/) goes beyond the documentation and lessons.  Marcos design an architecture to have function names and messages in different languages, allowing students to learn to program also using their native language.
 
-> This package is pushing the limits of what R can do in term of multilingual functionality.
+> This package is pushing the limits of what R can do in term of multilingual functionality.    
 > <span style="float:right"> -- <em>[Joel Nitta](author/joel-nitta/), rOpenSci Reviewer</em></span>
 
 The designed solution allows other educators to translate functions and messages, so they can also teach in their native languages, contributing to removing language barriers to coding.  
@@ -152,31 +152,31 @@ The tools we use to capture our members stories and the impact on the community 
 
 ### Social network analysis (SNA)
 
-As the goal of this talk was to explore the challenges of using traditional academic metrics for measuring project impact with an *emphasis on alternative approaches*, I want to share with you some details of [how we use social network analysis to measure the impact of our work](/blog/2024/07/11/collaboration-networks/).  We choose this particular tool, because although SNA it is well developed, we have not seen many examples of its use in the context of communities of practice in the field of open initiatives with the objective of understanding the community management interventions that are carried out.
+As the goal of this talk was to explore the challenges of using traditional academic metrics for measuring project impact with an *emphasis on alternative approaches*, I want to share with you some details of [how we use social network analysis to measure the impact of our work](/blog/2024/07/11/collaboration-networks/). We wanted to highlight this particular tool, because although SNA it is well developed, we have not seen many examples of its use in the context of communities of practice in the field of open initiatives with the objective of understanding the community management interventions that are carried out.
 
-In 2022, we mapped the rOpenSci collaboration network across years.  If we filter the network to collaborations on writing blog posts, we can compare the network of 2014 to 2022.
+In 2022, we mapped the rOpenSci collaboration network across years.  If we filter the network to collaborations on writing blog posts, we can compare the network of 2014 to 2022. We can see that the network has grown in both contributions and collaborations.
 
 {{< figure src = "network-2014-2022.png" alt = "Network map for 2014 blog post showing 14 nodes and few collaboration among most of them and network map for 2022 blog post with more than 30 nodes and a more dense iteraction links with several nodes having more than one collaboration." caption = "<strong>Blog post collaboration network 2014 and 2022</strong>">}}
 
-If we filter the network even more and look at collaborations on writing blog posts in Spanish, we can compare how our network looked before 2022, the year we introduced our Multilingual Publishing project, to how it looks now, in 2024. The network has grown, not only in contributors, but also the connections among them. We can see three clear clusters, the Champions Program participants, the interviewees in the Stars of R-Universe series and translations of important posts for the peer-review process. 
+If we filter the network in a different way to look at collaborations on writing blog posts in Spanish, we can compare how our network looked before 2022, the year we introduced our Multilingual Publishing project, to how it looks now, in 2024. The network has grown, not only in contributors, but also the connections among them. We can see three clear clusters, the Champions Program participants, the interviewees in the Stars of R-Universe series and translations of important posts for the peer-review process. 
 
 {{< figure src = "network-2024-es.png" alt = "The collaboration network before 2022 shows 2 nodes without any interactions.  The collaboration network in 2024 shows 20 nodes with edges between them.  There are 3 clear clusters, Champions Program participants, interviewees from the Stars of R-Universe series and translations of important post for the peer-review process" caption = "<strong>Blog posts in Spanish collaboration network mapping in two different moments in time.</strong>">}}
 
-Creating the multilingual infrastructure on our website and developing tools for translations has positively impacted the amount of content we can have in other languages, not only by multilingual people but also by localizing our existing content. It also has increased the number of new contributors and opens new paths for contributions: writing and translate content. 
+Creating the multilingual infrastructure on our website and developing tools for translations has positively impacted the amount of content we can have in other languages, not only by multilingual people but also by localizing our existing content. It also has increased the number of new contributors and opens new paths for contributions: writing and translating content. 
 Using the SNA tool we can see and understand the impact of our work in the community.
 
 ## Suggestions for using metrics
 
 Use and develop metrics
 
-* **Based on your goals:** every metric requires effort to be recorded, analyzed and maintained over time.  It is important to select those that give us information about our objectives. For example, with the champions program we mapped the countries of our applicants to see if we were reaching the geographic regions we wanted to reach and after the first call we changed our communication strategy to reach more countries in Africa, Asia and Oceania.
+* **Based on your goals:** every metric requires effort to be recorded, analyzed and maintained over time.  It is important to select those that give us information about our objectives. For example, with the Champions Program we mapped the countries of our applicants to see if we were reaching the geographic regions we wanted to reach. In response, we changed our communication strategy in the second call to the program to reach more countries in Africa, Asia and Oceania.
 
-* **Which give you valuable feedback to improve your activities and programs:** metrics should be used to make decisions about our programs and content.  For example, using the answers to our maintainers survey we have a series of blog post calling for different type of [support](/blog/2024/03/01/qualtrics-call-help/) for several packages, [like answering questions](/blog/2024/02/29/targets-call-help/) and [help to close issues](/blog/2024/02/27/assertr-call-help/) and another one with recommendations around [communication](/blog/2024/05/17/communication-tips-oss-project/) and [marketing](/blog/2024/03/07/package-marketing/) for open source projects.
+* **Which give you valuable feedback to improve your activities and programs:** metrics should be used to make decisions about programs and content.  For example, using the answers to our maintainers survey we created a series of blog posts calling for different type of [support](/blog/2024/03/01/qualtrics-call-help/) for several packages, such as [answering questions](/blog/2024/02/29/targets-call-help/) and [helping to close issues](/blog/2024/02/27/assertr-call-help/). We also wrote a series of posts with recommendations for [communication](/blog/2024/05/17/communication-tips-oss-project/) and [marketing](/blog/2024/03/07/package-marketing/) for open source projects.
 
-* **Which inform about your impact:** if we can understand how, at what level and what kind of impact we have, we can look for ways to replicate it or make the necessary changes to get closer to our objectives.  From the data and stories we gather, we can say that our Slack and our Community Calls are an important space for rOpenSci people to meet and collaborate. It is not only a place to learn or to update our knowledge, but also to generate connections that go beyond the activities of rOpenSci. 
+* **Which inform about your impact:** if you can understand how, at what level, and what kind of impact you have, you can look for ways to replicate it or make the necessary changes to get closer to your objectives. For example, from the data and stories we gather, we can say that our Slack and our Community Calls are an important space for rOpenSci people to meet and collaborate. It is not only a place to learn or to improve our knowledge, but also to generate connections that go beyond the activities of rOpenSci. 
 
 ## Conclusion
 
-The main recommendation is to use metrics that combine quantitative and qualitative tools to be able to make decisions about your programs and content.  It is important to *record the numbers but also the stories*.  There are many tools that can give us valuable information if we use them knowing that we will always have an incomplete picture, but it can be a useful one.  
+The main recommendation is to use metrics that combine quantitative and qualitative tools to be able to make decisions about your programs and content.  It is important to *record the numbers but also the stories*.  There are many tools which can give us valuable information if we use. Although we will always have an incomplete picture, it can still be a useful guide.  
 
 
