@@ -79,6 +79,7 @@ This package become the [**first rOpenSci bilingual software peer-review**](http
 The [multilingual aspect of the package](https://mpru.github.io/karel/) goes beyond the documentation and lessons.  Marcos design an architecture to have function names and messages in different languages, allowing students to learn to program also using their native language.
 
 > This package is pushing the limits of what R can do in term of multilingual functionality.
+> <span style="float:right"> -- <em>[Joel Nitta](author/joel-nitta/), rOpenSci Reviewer</em></span>
 
 The designed solution allows other educators to translate functions and messages, so they can also teach in their native languages, contributing to removing language barriers to coding.  
 
