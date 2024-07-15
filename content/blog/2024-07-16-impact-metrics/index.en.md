@@ -149,17 +149,23 @@ The tools we use to capture our members stories and the impact on the community 
 * [**Use cases**](/usecases/): collected in a public forum, users report on how they use rOpenSci reviewed packages and those are shared on our webpage. They serve as examples for other users and as feedback for the package authors.
 * **Social network analysis**: we use network analysis to map the connections among our members and the interactions among them. We use this information to improve our programs and activities.
 
-### Social network analysis
+### Social network analysis (SNA)
+
+As the goal of this talk was to explore the challenges of using traditional academic metrics for measuring project impact with an *emphasis on alternative approaches*, I want to share with you some details of [how we use social network analysis to measure the impact of our work](/blog/2024/07/11/collaboration-networks/).  We choose this particular tool, because although SNA it is well developed, we have not seen many examples of its use in the context of communities of practice in the field of open initiatives with the objective of understanding the community management interventions that are carried out.
 
 In 2022, we mapped the rOpenSci collaboration network across years.  If we filter the network to collaborations on writing blog posts, we can compare the network of 2014 to 2022.
 
-{{< figure src = "workshop.png" alt = "" caption = "<strong>Blog post collaboration network 2014 and 2022</strong>">}}
+{{< figure src = "network-2014-2022.png" alt = "Network map for 2014 blog post showing 14 nodes and few collaboration among most of them and network map for 2022 blog post with more than 30 nodes and a more dense iteraction links with several nodes having more than one collaboration." caption = "<strong>Blog post collaboration network 2014 and 2022</strong>">}}
 
-If we filter the network even more and look at collaborations on writing blog posts in Spanish, we can compare how our network looked before 2022, the year we introduced our Multilingual Publishing project, to how it looks now, in 2024. The network has grown, not only in contributors, but also the connections among them. We can see three clear clusters, the Champions Program participants, the interviewees in the Stars of R-Universe series and translations of important posts for the peer-review process. Creating the multilingual infrastructure on our website and developing tools for translations has positively impacted the amount of content we can have in other languages, not only by multilingual people but also by localizing our existing content.  
+If we filter the network even more and look at collaborations on writing blog posts in Spanish, we can compare how our network looked before 2022, the year we introduced our Multilingual Publishing project, to how it looks now, in 2024. The network has grown, not only in contributors, but also the connections among them. We can see three clear clusters, the Champions Program participants, the interviewees in the Stars of R-Universe series and translations of important posts for the peer-review process. 
 
 {{< figure src = "network-2024-es.png" alt = "The collaboration network before 2022 shows 2 nodes without any interactions.  The collaboration network in 2024 shows 20 nodes with edges between them.  There are 3 clear clusters, Champions Program participants, interviewees from the Stars of R-Universe series and translations of important post for the peer-review process" caption = "<strong>Blog posts in Spanish collaboration network mapping in two different moments in time.</strong>">}}
 
+Creating the multilingual infrastructure on our website and developing tools for translations has positively impacted the amount of content we can have in other languages, not only by multilingual people but also by localizing our existing content. It also has increased the number of new contributors and opens new paths for contributions: writing and translate content. 
+Using the SNA tool we can see and understand the impact of our work in the community.
+
 ## Suggestions for using metrics
+
 Use and develop metrics
 
 * Based on your goals.
