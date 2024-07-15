@@ -13,7 +13,7 @@ tags:
   - Community Manager Tools
   - Community
 description: "Our community manager Yani, shares experiences using multi-level metrics and participation models through a community management lens to measure rOpenSci impact."
-preface: This blog post is based on the talk [**r**eproducible **Open** **Sci**ence by and for All](/events/czi-2024/) at the CZI Open Science 2024 event. 
+preface: This blog post is based on the talk [reproducible OpenScience by and for All](/events/czi-2024/) at the CZI Open Science 2024 event. 
 ---
 
 On June 14 I was invited to present at the [CZI Open Science 2024](https://chanzuckerberg.com/science/programs-resources/open-science/) event. I was asked to participate in "Case Study Session 3: Demonstrating Impact of Open Science" and to explore the challenges of using traditional academic metrics for measuring project impact with an emphasis on alternative approaches.
@@ -22,7 +22,7 @@ I was very excited to share our experiences and to learn from others projects. H
 
 ## Metrics
 
-rOpenSci is a non-profit organization and a community of practice that leads a set of interrelated activities around capacity building, community development, and research software development practices to transform science through open data, software & reproducibility.
+rOpenSci is a non-profit organization and a community of practice that leads a set of interrelated activities around *capacity building, community development, and research software development practices* to *transform science through open data, software & reproducibility.*
 
 Similar to many other organizations, we have a set of _traditional_ metrics that we use to measure the impact of our work. We use dashboards, we have automatic processes to calculate metrics and we also use software which provide other metrics. We calculate these metrics for individual projects or activities as well as for the organization overall.
 
@@ -96,7 +96,7 @@ The tools we used to measure the impact of the Champions Program at these differ
 
 * **Exit anonymous survey:** after the program we ask Champions and mentors different questions about the program overall.
 
-* **Follow up with participants:** we plan to contact participants 12 months and 24 months after they have finished the program to ask... WHAT?
+* **Follow up with participants:** we plan to contact participants 12 months and 24 months after they have finished the program to ask how the program impacted their work and their career and their involvement in the community.
 
 
 ### Community Participation Model Framework
@@ -144,10 +144,10 @@ In [their own words](/blog/2023/07/20/teaching-targets-with-penguins/):
 
 The tools we use to capture our members stories and the impact on the community via this Community Participation Model are:
 
-* **Annual maintainers surveys**
-* **Interviews**: for example the [The Stars of R-Universe](/blog/2023/11/06/r-universe-stars-finale/) series
-* [**Use cases**](/usecases/): collected in a public forum, users report on how they use rOpenSci reviewed packages and those are shared on our webpage
-* **Social network analysis**
+* **Annual maintainers surveys**: we ask our maintainers to fill out a survey with to asset how we can support their role and their experience as member of our community. This information is used to look for new maintainers, develop new content, update our developers guide, and organize community calls.  
+* **Interviews**: for example the [The Stars of R-Universe](/blog/2023/11/06/r-universe-stars-finale/) series. We interview members of our community to learn about their work, their experience with rOpenSci, and how they use our technical and social infrastructure.
+* [**Use cases**](/usecases/): collected in a public forum, users report on how they use rOpenSci reviewed packages and those are shared on our webpage. They serve as examples for other users and as feedback for the package authors.
+* **Social network analysis**: we use network analysis to map the connections among our members and the interactions among them. We use this information to improve our programs and activities.
 
 ### Social network analysis
 
