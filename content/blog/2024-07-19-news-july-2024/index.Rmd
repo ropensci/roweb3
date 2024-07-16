@@ -624,6 +624,14 @@ Also refer to our [help wanted page](/help-wanted/) -- before opening a PR, we r
 
 Some useful tips for R package developers. :eyes:
 
+### Last call: your opinion on the CRAN submission process!
+
+Shared by Lluís Revilla and Heather Turner in our Slack workspace, a crucial survey ending today!
+
+>  "If you have R package development experience and would like to share your thoughts on the CRAN submission process, please fill this short survey from the CRAN Cookbook project!"
+
+Please find the [Google form](https://forms.gle/umdew9KHWeQSehq8A) and read more about the exciting cookbook project in this [post by Jasmine D.](https://www.linkedin.com/pulse/improving-skills-r-package-maintainers-support-from-consortium-daly-tlt4e).
+
 <!-- To be curated by hand -->
 
 ## Last words
