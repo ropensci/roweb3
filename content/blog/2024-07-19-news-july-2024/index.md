@@ -248,7 +248,7 @@ Emil Hvitfeldt explained how to [make better error messages with rlang and cli](
 
 Ella Kaye shared her insights on [C for R users](https://userconf2024.sched.com/event/1c8zS/c-for-r-users-ella-kaye-university-of-warwick?iframe=no&w=100%&sidebar=yes&bg=no). [Slides](https://static.sched.com/hosted_files/userconf2024/84/c-for-r-users.pdf).
 
-Davis Vaughan introduced [tree-sitter, an efficient incremental parsing library] (https://userconf2024.sched.com/event/1c90k/improving-development-tooling-with-an-r-grammar-for-tree-sitter-davis-vaughan-posit?iframe=no&w=100%&sidebar=yes&bg=no). [R package with bindings to tree-sitter](https://davisvaughan.github.io/r-tree-sitter/) whose README states "tree-sitter is useful for a number of things, including syntax highlighting, go-to definition, code reshaping, and more."
+Davis Vaughan introduced [tree-sitter, an efficient incremental parsing library](https://userconf2024.sched.com/event/1c90k/improving-development-tooling-with-an-r-grammar-for-tree-sitter-davis-vaughan-posit?iframe=no&w=100%&sidebar=yes&bg=no). [R package with bindings to tree-sitter](https://davisvaughan.github.io/r-tree-sitter/) whose README states "tree-sitter is useful for a number of things, including syntax highlighting, go-to definition, code reshaping, and more."
 
 #### On multilingualism
 
