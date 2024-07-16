@@ -204,8 +204,7 @@ If we missed any relevant content, please [get in touch](https://github.com/rope
 #### Retrospectives
 
 Kurt Hornik gave a keynote talks on [More than 25 years of CRAN](https://userconf2024.sched.com/event/1c9Jm/keynote-more-than-25-years-of-cran-kurt-hornik-wirtschaftsuniversitat-wien?iframe=no&w=100%&sidebar=yes&bg=no) ([slides](https://static.sched.com/hosted_files/userconf2024/41/user2024_CRAN.pdf)) and Torsten Hothorn on [Some things you can’t read from
-a NEWS file](https://userconf2024.sched.com/event/1c9JC/keynote-some-things-you-cant-read-from-a-news-file-torsten-hothorn-university-of-zurich?iframe=yes&w=100%&sidebar=yes&bg=no) ([slides](Some things you can’t read from
-a NEWS file)) about maintaining a package for decades.
+a NEWS file](https://userconf2024.sched.com/event/1c9JC/keynote-some-things-you-cant-read-from-a-news-file-torsten-hothorn-university-of-zurich?iframe=yes&w=100%&sidebar=yes&bg=no) ([slides](https://static.sched.com/hosted_files/userconf2024/b6/useR_2024_TH%20%282%29.pdf)) about maintaining a package for decades.
 
 Edzer Pebesma and Roger Bivand reported on [The Retirement of R Packages with Many Reverse Dependencies](https://userconf2024.sched.com/event/1c90V/r-evolution-the-retirement-of-r-packages-with-many-reverse-dependencies-edzer-pebesma-university-of-muenster-roger-bivand-norwegian-school-of-economics?iframe=no&w=100%&sidebar=yes&bg=no). [Slides](https://static.sched.com/hosted_files/userconf2024/2a/UseR2024.pdf).
 
