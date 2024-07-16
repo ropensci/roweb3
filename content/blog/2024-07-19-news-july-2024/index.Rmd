@@ -55,6 +55,21 @@ Welcome on board to both of them, thank you for your service!
 You might have noticed that R-universe got a big refresh. :icecream:
 Read all about this [big overhaul of the interface](/blog/2024/06/12/runiverse-frontend/).
 
+### Resources from the rOpenSci community at useR! 2024
+
+While some video recordings have not been posted on the [useR! YouTube channel](https://www.youtube.com/@useRConference_global) yet, some slidedecks and materials are already available.
+
+- [Maëlle Salmon](/author/maëlle-salmon/)'s keynote talk ["How your code might get rusty"](https://sched.co/1c9Jy). [Slides](https://user-maelle.netlify.app/), [recording](https://www.youtube.com/watch?v=ldko1TPC1aA).
+- [Jeroen Ooms](/author/jeroen-ooms/)' talk  ["Navigating the R Ecosystem Using R-Universe"](https://sched.co/1c90h). [Slides](https://jeroen.github.io/user2024/#/title-slide).
+- [Jon Harmon](/author/jon-harmon/)'s virtual talk ["Learning Together at the Data Science Learning Community"](https://www.youtube.com/watch?v=8jH5wfuDx-g).
+- [Paola Corrales](/author/pao-corrales/)' and [Elio Campitelli](/author/elio-campitelli/)'s tutorial ["Efficient Data Analysis with data.table"](https://sched.co/1c8yF). [Website](https://paocorrales.github.io/intro-datatable/).
+- [Elio Campitelli](/author/elio-campitelli)'s talk ["Building Bilingual Bridges with Multilingual Manuals"](https://sched.co/1c8yj). [Slides](https://static.sched.com/hosted_files/userconf2024/3d/UseR2024-1.pdf).
+- [Hugo Gruson](/author/hugo-gruson)'s talk ["
+Building Interoperability in Existing Software Ecosystems with S3 Classes"](https://sched.co/1c8z3). [Slides](https://static.sched.com/hosted_files/userconf2024/ff/2024-07-09_Gruson%20-%20Building%20Interoperability%20with%20S3%20Classes.pdf). Also his poster ["A reproducible analysis of CRAN Task Views to understand the state of an R package ecosystem"](https://static.sched.com/hosted_files/userconf2024/ef/HugoGruson_useR_poster.pdf).
+- [Lluís Revilla](/author/lluís-revilla-sancho/)'s and Henrik Bengtsson's [poster](https://sched.co/1cDsG) about CRAN packages archived and a the [cranhaven.org](http://cranhaven.org/) R-universe created to reduce the impact of that on users.
+- [Will Landau](/author/will-landau)'s and Charlie Gao's talk ["Moju-Kapu: How {Mirai} and {Crew} Are Powering the Next Generation of Parallel Computing in R"](https://sched.co/1c8ya). [Slides](https://static.sched.com/hosted_files/userconf2024/8a/moju-kapu.html).
+- [Binod Jung Bogati](/blog/2024/02/15/champions-program-champions-2024/#binod-jung-bogati)'s talks ["Generate Raw Synthetic Dataset for Clinical Trial - Binod Jung Bogati, Numeric Mind"](https://sched.co/1c8w7), [slides](https://static.sched.com/hosted_files/userconf2024/ff/Generate%20Raw%20Synthetic%20Data%20for%20Clinical%20Trial%20-%20Binod%20Jung%20Bogati%20-%20useR2024.pdf); and ["Translate R for Global Reach"](https://sched.co/1c90Y).
+
 ### Coworking
 
 Read [all about coworking](/blog/2023/06/21/coworking/)!
