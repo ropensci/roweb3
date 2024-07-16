@@ -666,6 +666,9 @@ Franciszek Walkowiak's topic was [Systems Integration Tests for R Package Cohort
 
 Daniel Sabanés Bové introduced openstatsware's work on _minimal viable_ good practice standards for R packages, in an [online talk](https://virtualuser2024.sched.com/event/1eBda/openstatsguide-minimum-viable-good-practices-for-high-quality-statistical-software-packages-daniel-sabanes-bove-rconis?iframe=no&w=&sidebar=yes&bg=no).
 
+Pedro Silva listed [Seven Deadly Sins Holding You
+Back as a Software Developer](https://userconf2024.sched.com/event/1c8zm/seven-deadly-sins-holding-you-back-as-a-software-developer-pedro-silva?iframe=no&w=100%&sidebar=yes&bg=no). [Slides](https://static.sched.com/hosted_files/userconf2024/86/Seven%20Deadly%20Sins%20Holding%20You%20Back%20as%20a%20Software%20Developer.pdf).
+
 Hugo Gruson had a poster on [A reproducible analysis of CRAN Task Views to understand the state of an R package ecosystem](https://userconf2024.sched.com/event/1cDry/poster-session-guided-tours-a-reproducible-analysis-of-cran-task-views-to-understand-the-state-of-an-r-package-ecosystem-hugo-gruson-dataorg?iframe=no&w=100%&sidebar=yes&bg=no). Find the [live analysis](https://epiverse-connect.github.io/ctv-analysis/).
 
 #### On package design
@@ -684,6 +687,10 @@ development with GitHub Actions
 Workflows](https://userconf2024.sched.com/event/1c8yI/tutorial-streamlining-r-package-development-with-github-actions-workflows-daphne-grasselly-pawel-rucki-roche-dinakar-kulkarni-genentech-pre-registration-required?iframe=no) whose [slides](https://static.sched.com/hosted_files/userconf2024/19/streamlining-r-package-development-with-github-actions-workflows.pdf) are available.
 
 Emil Hvitfeldt explained how to [make better error messages with rlang and cli](https://virtualuser2024.sched.com/event/1eBdO/making-better-error-messages-with-rlang-and-cli-emil-hvitfeldt-posit-pbc?iframe=no&w=&sidebar=yes&bg=no).
+
+Ella Kaye shared her insights on [C for R users](https://userconf2024.sched.com/event/1c8zS/c-for-r-users-ella-kaye-university-of-warwick?iframe=no&w=100%&sidebar=yes&bg=no). [Slides](https://static.sched.com/hosted_files/userconf2024/84/c-for-r-users.pdf).
+
+Davis Vaughan introduced [tree-sitter, an efficient incremental parsing library] (https://userconf2024.sched.com/event/1c90k/improving-development-tooling-with-an-r-grammar-for-tree-sitter-davis-vaughan-posit?iframe=no&w=100%&sidebar=yes&bg=no). [R package with bindings to tree-sitter](https://davisvaughan.github.io/r-tree-sitter/) whose README states "tree-sitter is useful for a number of things, including syntax highlighting, go-to definition, code reshaping, and more."
 
 #### On multilingualism
 
