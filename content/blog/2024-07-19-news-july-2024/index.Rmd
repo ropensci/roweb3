@@ -632,7 +632,10 @@ Shared by Lluís Revilla and Heather Turner in our Slack workspace, a crucial su
 
 Please find the [Google form](https://forms.gle/umdew9KHWeQSehq8A) and read more about the exciting cookbook project in this [post by Jasmine D.](https://www.linkedin.com/pulse/improving-skills-r-package-maintainers-support-from-consortium-daly-tlt4e).
 
-<!-- To be curated by hand -->
+### Robust type-checking with r-lib
+
+Don't miss this insightful short post by Josiah Parry, ["Type safe(r) R code"](https://josiahparry.com/posts/2024-06-30-type-safety/).
+A related older blog post is ["Checking the inputs of your R functions"](https://blog.r-hub.io/2022/03/10/input-checking/) by Hugo Gruson, Sam Abbott, Carl Pearson.
 
 ## Last words
 
