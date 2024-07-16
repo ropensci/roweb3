@@ -642,12 +642,43 @@ A related older blog post is ["Checking the inputs of your R functions"](https:/
 The useR! 2024 conference featured quite a few talks relevant to package development, beside the talks we mentioned in the [HQ section](#resources-from-the-ropensci-community-at-user-2024).
 Not all recordings are available yet, but make sure to check out the useR! YouTube channel.
 
+If we missed any relevant content, please [get in touch](https://github.com/ropensci-org/monthly/issues) so we might add missing pieces to our next newsletter!
+
+### Retrospectives
+
+Kurt Hornik gave a keynote talks on [More than 25 years of CRAN](https://userconf2024.sched.com/event/1c9Jm/keynote-more-than-25-years-of-cran-kurt-hornik-wirtschaftsuniversitat-wien?iframe=no&w=100%&sidebar=yes&bg=no) ([slides](https://static.sched.com/hosted_files/userconf2024/41/user2024_CRAN.pdf)) and Torsten Hothorn on [Some things you can’t read from
+a NEWS file](https://userconf2024.sched.com/event/1c9JC/keynote-some-things-you-cant-read-from-a-news-file-torsten-hothorn-university-of-zurich?iframe=yes&w=100%&sidebar=yes&bg=no) ([slides](Some things you can’t read from
+a NEWS file)) about maintaining a package for decades.
+
 #### On validation of R packages
 
 Coline Zeballos and Yann Féhat from the R Validation Hub discussed [how to support (pharma) companies with validation of R Packages](https://userconf2024.sched.com/event/1dyXW/supporting-companies-with-validation-of-r-packages-yann-feat-mainanalytics-gmbh-coline-zeballos-r-validation-hub?iframe=no&w=100%&sidebar=yes&bg=no). [Slides](https://static.sched.com/hosted_files/userconf2024/4a/Supporting%20Companies%20With%20Validation%20of%20R%20Packages_%20A%20Regulatory%20Repository.pdf). They use a toolset based on [r-hub/repos](https://github.com/r-hub/repos) and the [riskmetric](https://pharmar.github.io/riskmetric/) package.
 
 Szymon Maksymiuk and Lorenzo Braschi presented a [Deep Dive Into Industry R
 Package Quality Assessment](https://userconf2024.sched.com/event/1c8z7/deep-dive-into-industry-r-package-quality-assessment-szymon-maksymiuk-lorenzo-braschi-roche?iframe=no). Beside introducing the concepts, they mentioned three open-source R packages that they created: [checked](https://github.com/Genentech/checked) for running reverse dependencies checks; [covtracer](https://genentech.github.io/covtracer/) for contextualizing tests, built using covr test traces; [rd2markdown](https://github.com/Genentech/rd2markdown) for converting .Rd files into Markdown.
+
+Also on reverse dependencies checks, Pawel Rucki and André Veríssimo presented
+ [{verdepcheck} - A Tool for Dependencies Check](https://userconf2024.sched.com/event/1cC1c/verdepcheck-a-tool-for-dependencies-check-pawel-rucki-andre-verissimo-roche?iframe=no&w=100%&sidebar=yes&bg=no). [Slides](https://static.sched.com/hosted_files/userconf2024/2d/%7Bverdepcheck%7D%20-%20A%20Tool%20for%20Dependencies%20Check.pdf), [verdepcheck](https://insightsengineering.github.io/verdepcheck/main/).
+
+Daniel Sabanés Bové introduced openstatsware's work on _minimal viable_ good practice standards for R packages, in an [online talk](https://virtualuser2024.sched.com/event/1eBda/openstatsguide-minimum-viable-good-practices-for-high-quality-statistical-software-packages-daniel-sabanes-bove-rconis?iframe=no&w=&sidebar=yes&bg=no)
+
+#### On package design
+
+Hugo Gruson highlighted the benefits of using S3 classes for [interoperability in Existing Software Ecosystems](https://userconf2024.sched.com/event/1c8z3/building-interoperability-in-existing-software-ecosystems-with-s3-classes-hugo-gruson-dataorg?iframe=no). [Slides](https://static.sched.com/hosted_files/userconf2024/ff/2024-07-09_Gruson%20-%20Building%20Interoperability%20with%20S3%20Classes.pdf).
+See also his recent [blog posts on the topic](https://epiverse-trace.github.io/blog.html#category=S3).
+
+#### Tools
+
+Daphne Grasselly, Franciszek Walkowiak and Pawel Rucki lead a tutorial on [Streamlining R package
+development with GitHub Actions
+Workflows](https://userconf2024.sched.com/event/1c8yI/tutorial-streamlining-r-package-development-with-github-actions-workflows-daphne-grasselly-pawel-rucki-roche-dinakar-kulkarni-genentech-pre-registration-required?iframe=no) whose [slides](https://static.sched.com/hosted_files/userconf2024/19/streamlining-r-package-development-with-github-actions-workflows.pdf) are available.
+
+Emil Hvitfeldt explained how to [make better error messages with rlang and cli](https://virtualuser2024.sched.com/event/1eBdO/making-better-error-messages-with-rlang-and-cli-emil-hvitfeldt-posit-pbc?iframe=no&w=&sidebar=yes&bg=no).
+
+#### Multilingualism
+
+Elio Campitelli spoke about [Building Bilingual Bridges
+with Multilingual Manuals](https://userconf2024.sched.com/event/1c8yj/building-bilingual-bridges-with-multilingual-manuals-elio-campitelli-universidad-de-buenos-aires?iframe=no&w=100%&sidebar=yes&bg=no). [Slides](https://static.sched.com/hosted_files/userconf2024/3d/UseR2024-1.pdf). See also their [post on our blog](https://ropensci.org/blog/2024/07/09/multilingual-documentation-wg/)!
 
 ## Last words
 
