@@ -644,11 +644,13 @@ Not all recordings are available yet, but make sure to check out the useR! YouTu
 
 If we missed any relevant content, please [get in touch](https://github.com/ropensci-org/monthly/issues) so we might add missing pieces to our next newsletter!
 
-### Retrospectives
+#### Retrospectives
 
 Kurt Hornik gave a keynote talks on [More than 25 years of CRAN](https://userconf2024.sched.com/event/1c9Jm/keynote-more-than-25-years-of-cran-kurt-hornik-wirtschaftsuniversitat-wien?iframe=no&w=100%&sidebar=yes&bg=no) ([slides](https://static.sched.com/hosted_files/userconf2024/41/user2024_CRAN.pdf)) and Torsten Hothorn on [Some things you can’t read from
 a NEWS file](https://userconf2024.sched.com/event/1c9JC/keynote-some-things-you-cant-read-from-a-news-file-torsten-hothorn-university-of-zurich?iframe=yes&w=100%&sidebar=yes&bg=no) ([slides](Some things you can’t read from
 a NEWS file)) about maintaining a package for decades.
+
+Edzer Pebesma and Roger Bivand reported on [The Retirement of R Packages with Many Reverse Dependencies](https://userconf2024.sched.com/event/1c90V/r-evolution-the-retirement-of-r-packages-with-many-reverse-dependencies-edzer-pebesma-university-of-muenster-roger-bivand-norwegian-school-of-economics?iframe=no&w=100%&sidebar=yes&bg=no). [Slides](https://static.sched.com/hosted_files/userconf2024/2a/UseR2024.pdf).
 
 #### On validation of R packages
 
@@ -703,9 +705,17 @@ Shannon Pileggi delivered a tutorial on [debugging in R](https://events.linuxfou
 
 Antoine Fabri gave an overview of the motivations behind, and features of, his [constructive package](https://userconf2024.sched.com/event/1c8ym/constructive-a-nicer-dput-using-idiomatic-constructors-antoine-fabri-cynkra?iframe=no&w=100%&sidebar=yes&bg=no), that among other things can be useful for troubleshooting. [constructive](https://cynkra.github.io/constructive/).
 
+#### On wrapping APIs
+
+Hadley Wickham introduced and demo-ed his [httr2 package](https://userconf2024.sched.com/event/1c8zP/web-apis-with-httr2-hadley-wickham-posit?iframe=no&w=100%&sidebar=yes&bg=no). [httr2](https://httr2.r-lib.org/).
+
+Simon Haller explained the [Automated Generation
+of R Client Packages for RESTful APIs](https://userconf2024.sched.com/event/1c8ys/automated-generation-of-r-client-libraries-for-restful-apis-using-openapi-specification-and-the-open-simon-haller-raiffeisen?iframe=no&w=100%&sidebar=yes&bg=no). [Slides](https://static.sched.com/hosted_files/userconf2024/87/User_R_openapi_generator_simonhaller.pdf). See also Jon Harmon's [work on the same topic](https://beekeeper.api2r.org/).
+
 #### On a last resort for archived CRAN packages
 
 Henrik Bengtsson and Lluís Revilla had a poster about their [CRANhaven project](https://www.cranhaven.org/) that is a backup solution for end-users when a package falls of CRAN (and that is built using R-universe!).
+
 
 ## Last words
 
