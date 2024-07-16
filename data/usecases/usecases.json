@@ -183,7 +183,7 @@
     "title": "Using pdftools, tabulizer, and writexl to simplify business information handling workflow",
     "reporter": "David Hood",
     "tags": ["pdftools", "tabulizer", "writexl"],
-    "resource": "[pdftools](https://docs.ropensci.org/pdftools), [tabulizer](https://docs.ropensci.org/tabulizer), [writexl](https://docs.ropensci.org/writexl)",
+    "resource": "[pdftools](https://docs.ropensci.org/pdftools), tabulizer, [writexl](https://docs.ropensci.org/writexl)",
     "url": "https://discuss.ropensci.org/t/using-pdftools-tabulizer-and-writexl-to-simplify-business-information-handling-workflow/1815",
     "image": "noimage",
     "date": "2019-08-27"
@@ -264,7 +264,7 @@
     "title": "Analyzing invoice data from Elsevier relative to hybrid open access",
     "reporter": "Najko Jahn",
     "tags": ["tabulizer", "rcrossref"],
-    "resource": "[rcrossref](https://docs.ropensci.org/rcrossref), crminer, [tabulizer](https://docs.ropensci.org/tabulizer)",
+    "resource": "[rcrossref](https://docs.ropensci.org/rcrossref), crminer, tabulizer",
     "url": "https://discuss.ropensci.org/t/analyzing-invoice-data-from-elsevier-relative-to-hybrid-open-access/1887",
     "image": "noimage",
     "date": "2019-11-25"
@@ -300,7 +300,7 @@
     "title": "tabulizer for parsing block-text from .pdf",
     "reporter": "Leungi",
     "tags": ["package", "tabulizer"],
-    "resource": "[tabulizer](https://docs.ropensci.org/tabulizer)",
+    "resource": "tabulizer",
     "url": "https://discuss.ropensci.org/t/tabulizer-for-parsing-block-text-from-pdf/1930",
     "image": "tabulizer-for-parsing-block-text-from-pdf.gif",
     "date": "2020-02-01"
@@ -347,7 +347,7 @@
     "tags": ["r", "magick"],
     "resource": "[magick](https://docs.ropensci.org/magick)",
     "url": "https://discuss.ropensci.org/t/magick-ally-visualize-historical-google-maps-traffic-data/2026",
-    "image": "magick-ally-visualize-historical-google-maps-traffic-data.jpeg",
+    "image": "magick-ally-visualize-historical-google-maps-traffic-data.png",
     "date": "2020-04-10"
   },
   {
@@ -551,7 +551,7 @@
   {
     "title": "Kontarion - a stack extending rocker/ml-verse for Bibliometric analytics",
     "reporter": "Markus Skyttner",
-    "tags": ["fulltext", "refsplitr", "rcrossref", "rentrez", "oai"],
+    "tags": ["fulltext", "refsplitr", "rcrossref", "oai", "rentrez"],
     "resource": "[oai](https://docs.ropensci.org/oai), [rentrez](https://docs.ropensci.org/rentrez), fulltext, [europepmc](https://docs.ropensci.org/europepmc), [refsplitr](https://docs.ropensci.org/refsplitr), [rcrossref](https://docs.ropensci.org/rcrossref), [citecorp](https://docs.ropensci.org/citecorp), [roadoi](https://docs.ropensci.org/roadoi)",
     "url": "https://discuss.ropensci.org/t/kontarion-a-stack-extending-rocker-ml-verse-for-bibliometric-analytics/2214",
     "image": "noimage",
@@ -759,7 +759,7 @@
     "title": "Using tabulizer to extract tabular data from daily COVID-19 reports",
     "reporter": "Steffi LaZerte",
     "tags": ["tabulizer", "pdf"],
-    "resource": "[tabulizer](https://docs.ropensci.org/tabulizer)",
+    "resource": "tabulizer",
     "url": "https://discuss.ropensci.org/t/using-tabulizer-to-extract-tabular-data-from-daily-covid-19-reports/2487",
     "image": "noimage",
     "date": "2021-06-07"
@@ -1069,5 +1069,32 @@
     "url": "https://discuss.ropensci.org/t/unlock-r-functions-with-qr-codes/3681",
     "image": "unlock-r-functions-with-qr-codes.gif",
     "date": "2023-11-02"
+  },
+  {
+    "title": "Using {weatherOz} to Plot Perth's May High Temperatures",
+    "reporter": "Adam Sparks",
+    "tags": ["r", "package", "geospatial", "weather", "weatheroz"],
+    "resource": "{weatherOz}",
+    "url": "https://discuss.ropensci.org/t/using-weatheroz-to-plot-perths-may-high-temperatures/3920",
+    "image": "using-weatheroz-to-plot-perths-may-high-temperatures.jpeg",
+    "date": "2024-06-09"
+  },
+  {
+    "title": "OAI interface request, response, and data download with R",
+    "reporter": "Jörg Lehmann",
+    "tags": ["api", "oai", "stringr", "jsonlite"],
+    "resource": "[oai](https://docs.ropensci.org/oai)",
+    "url": "https://discuss.ropensci.org/t/oai-interface-request-response-and-data-download-with-r/3923",
+    "image": "noimage",
+    "date": "2024-06-14"
+  },
+  {
+    "title": "Translating Carpentries workbench lessons with babeldown",
+    "reporter": "Hugo Gruson",
+    "tags": [],
+    "resource": "The babeldown R package",
+    "url": "https://discuss.ropensci.org/t/translating-carpentries-workbench-lessons-with-babeldown/3960",
+    "image": "translating-carpentries-workbench-lessons-with-babeldown.png",
+    "date": "2024-07-16"
   }
 ]
