@@ -637,6 +637,18 @@ Please find the [Google form](https://forms.gle/umdew9KHWeQSehq8A) and read more
 Don't miss this insightful short post by Josiah Parry, ["Type safe(r) R code"](https://josiahparry.com/posts/2024-06-30-type-safety/).
 A related older blog post is ["Checking the inputs of your R functions"](https://blog.r-hub.io/2022/03/10/input-checking/) by Hugo Gruson, Sam Abbott, Carl Pearson.
 
+### The one with all the useR! links
+
+The useR! 2024 conference featured quite a few talks relevant to package development, beside the talks we mentioned in the [HQ section](#resources-from-the-ropensci-community-at-user-2024).
+Not all recordings are available yet, but make sure to check out the useR! YouTube channel.
+
+#### On validation of R packages
+
+Coline Zeballos and Yann Féhat from the R Validation Hub discussed [how to support (pharma) companies with validation of R Packages](https://userconf2024.sched.com/event/1dyXW/supporting-companies-with-validation-of-r-packages-yann-feat-mainanalytics-gmbh-coline-zeballos-r-validation-hub?iframe=no&w=100%&sidebar=yes&bg=no). [Slides](https://static.sched.com/hosted_files/userconf2024/4a/Supporting%20Companies%20With%20Validation%20of%20R%20Packages_%20A%20Regulatory%20Repository.pdf). They use a toolset based on [r-hub/repos](https://github.com/r-hub/repos) and the [riskmetric](https://pharmar.github.io/riskmetric/) package.
+
+Szymon Maksymiuk and Lorenzo Braschi presented a [Deep Dive Into Industry R
+Package Quality Assessment](https://userconf2024.sched.com/event/1c8z7/deep-dive-into-industry-r-package-quality-assessment-szymon-maksymiuk-lorenzo-braschi-roche?iframe=no). Beside introducing the concepts, they mentioned three open-source R packages that they created: [checked](https://github.com/Genentech/checked) for running reverse dependencies checks; [covtracer](https://genentech.github.io/covtracer/) for contextualizing tests, built using covr test traces; [rd2markdown](https://github.com/Genentech/rd2markdown) for converting .Rd files into Markdown.
+
 ## Last words
 
 Thanks for reading! If you want to get involved with rOpenSci, check out our [Contributing Guide](https://contributing.ropensci.org) that can help direct you to the right place, whether you want to make code contributions, non-code contributions, or contribute in other ways like sharing use cases.
