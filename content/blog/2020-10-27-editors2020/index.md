@@ -53,8 +53,7 @@ Julia on [GitHub](https://github.com/jooolia), [Twitter](https://twitter.com/Jul
 
 {{< imgtxt src = "/img/team/mauro-lepore.jpg" width = "200" alt = "headshot of Mauro Lepore" >}}
 
-Mauro builds R packages for the think tank [2 Degrees Investing
-Initiative](https://2degrees-investing.org/). His PhD
+Mauro builds R packages for the think tank [Theia Finance Labs](https://theiafinance.org/). His PhD
 ([UQ](https://www.uq.edu.au/)) and post-doctoral research
 ([STRI](https://stri.si.edu/)) studied human impacts on coral reefs from
 Australia and Panama. Since 2017 he has been teaching data-science and building research
@@ -67,7 +66,7 @@ the rOpenSci package
 
 {{< /imgtxt >}}
 
-Mauro on [GitHub](https://github.com/maurolepore), [Twitter](https://twitter.com/mauro_lepore), [rOpenSci](/author/mauro-lepore/)
+Mauro on [GitHub](https://github.com/maurolepore), [LinkedIn](https://www.linkedin.com/in/mauro-lepore/), [rOpenSci](/author/mauro-lepore/)
 
 > I learned to build software in a job where I had no mentor; but I got the support I needed from the rOpenSci community. Having the opportunity to give back is exciting -- especially now that the R community is thriving in Latin America, and rOpenSci will experiment doing reviews in Spanish.
 
