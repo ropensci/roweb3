@@ -6,7 +6,7 @@ author:
 date: '2024-07-19'
 tags:
   - newsletter
-description: keywords from the content
+description: New editors, new look for R-universe, useR! resources, coworking
 params:
   last_newsletter: "2024-06-21"
 ---

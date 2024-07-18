@@ -6,7 +6,7 @@ author:
 date: '2024-07-19'
 tags:
   - newsletter
-description: keywords from the content
+description: New editors, new look for R-universe, useR! resources, coworking
 params:
   last_newsletter: "2024-06-21"
 ---
@@ -23,30 +23,33 @@ Now let's dive into the activity at and around rOpenSci!
 
 ### Announcing New Software Peer Review Editors: Beatriz Milz and Margaret Siple
 
-We are excited to welcome Beatriz Milz and Margaret Siple to our team of [Associate Editors](https://ropensci.org/software-review/#editors) for rOpenSci [Software Peer Review](https://ropensci.org/software-review/). They join Laura DeCicco, Julia Gustavsen, Anna Krystalli, Mauro Lepore, Noam Ross, Maëlle Salmon, Emily Riederer, Adam Sparks, and Jeff Hollister. 
+We are excited to welcome [Beatriz Milz](/author/beatriz-milz/) and [Margaret Siple](/author/margaret-siple/) to our team of [Associate Editors](/software-review/#editors) for rOpenSci [Software Peer Review](/software-review/). They join Laura DeCicco, Julia Gustavsen, Anna Krystalli, Mauro Lepore, Noam Ross, Maëlle Salmon, Emily Riederer, Adam Sparks, and Jeff Hollister. 
 
 Meet Beatriz and Margaret in their [introduction blog post](/blog/2024/07/03/editors2024/).
-Welcome on board to both of them, thank you for your service!
+Welcome on board to you both, thank you for your service!
 
 ### A fresh new look for R-universe!
 
-You might have noticed that R-universe got a big refresh. :icecream:
+You might have noticed that R-universe got a big [refresh](https://ropensci.r-universe.dev/packages). :icecream:
 Read all about this [big overhaul of the interface](/blog/2024/06/12/runiverse-frontend/).
 
 ### Resources from the rOpenSci community at useR! 2024
 
-While some video recordings have not been posted on the [useR! YouTube channel](https://www.youtube.com/@useRConference_global) yet, some slidedecks and materials are already available.
+While some video recordings have not yet been posted on the [useR! YouTube channel](https://www.youtube.com/@useRConference_global), some slidedecks and materials are already available.
 
-- [Maëlle Salmon](/author/maëlle-salmon/)'s keynote talk ["How your code might get rusty"](https://sched.co/1c9Jy). [Slides](https://user-maelle.netlify.app/), [recording](https://www.youtube.com/watch?v=ldko1TPC1aA).
-- [Jeroen Ooms](/author/jeroen-ooms/)' talk  ["Navigating the R Ecosystem Using R-Universe"](https://sched.co/1c90h). [Slides](https://jeroen.github.io/user2024/#/title-slide).
-- [Jon Harmon](/author/jon-harmon/)'s virtual talk ["Learning Together at the Data Science Learning Community"](https://www.youtube.com/watch?v=8jH5wfuDx-g).
-- [Paola Corrales](/author/pao-corrales/)' and [Elio Campitelli](/author/elio-campitelli/)'s tutorial ["Efficient Data Analysis with data.table"](https://sched.co/1c8yF). [Website](https://paocorrales.github.io/intro-datatable/).
-- [Elio Campitelli](/author/elio-campitelli)'s talk ["Building Bilingual Bridges with Multilingual Manuals"](https://sched.co/1c8yj). [Slides](https://static.sched.com/hosted_files/userconf2024/3d/UseR2024-1.pdf).
-- [Hugo Gruson](/author/hugo-gruson)'s talk ["
-Building Interoperability in Existing Software Ecosystems with S3 Classes"](https://sched.co/1c8z3). [Slides](https://static.sched.com/hosted_files/userconf2024/ff/2024-07-09_Gruson%20-%20Building%20Interoperability%20with%20S3%20Classes.pdf). Also his poster ["A reproducible analysis of CRAN Task Views to understand the state of an R package ecosystem"](https://static.sched.com/hosted_files/userconf2024/ef/HugoGruson_useR_poster.pdf).
-- [Lluís Revilla](/author/lluís-revilla-sancho/)'s and Henrik Bengtsson's [poster](https://sched.co/1cDsG) about CRAN packages archived and a the [cranhaven.org](http://cranhaven.org/) R-universe created to reduce the impact of that on users.
-- [Will Landau](/author/will-landau)'s and Charlie Gao's talk ["Moju-Kapu: How {Mirai} and {Crew} Are Powering the Next Generation of Parallel Computing in R"](https://sched.co/1c8ya). [Slides](https://static.sched.com/hosted_files/userconf2024/8a/moju-kapu.html).
-- [Binod Jung Bogati](/blog/2024/02/15/champions-program-champions-2024/#binod-jung-bogati)'s talks ["Generate Raw Synthetic Dataset for Clinical Trial - Binod Jung Bogati, Numeric Mind"](https://sched.co/1c8w7), [slides](https://static.sched.com/hosted_files/userconf2024/ff/Generate%20Raw%20Synthetic%20Data%20for%20Clinical%20Trial%20-%20Binod%20Jung%20Bogati%20-%20useR2024.pdf); and ["Translate R for Global Reach"](https://sched.co/1c90Y).
+- [Maëlle Salmon](/author/maëlle-salmon/)'s keynote talk ["How your code might get rusty"](https://sched.co/1c9Jy) ([Slides](https://user-maelle.netlify.app/) | [Recording](https://www.youtube.com/watch?v=ldko1TPC1aA))
+- [Jeroen Ooms](/author/jeroen-ooms/)' talk  ["Navigating the R Ecosystem Using R-Universe"](https://sched.co/1c90h) ([Slides](https://jeroen.github.io/user2024/#/title-slide))
+- [Jon Harmon](/author/jon-harmon/)'s virtual talk ["Learning Together at the Data Science Learning Community"](https://www.youtube.com/watch?v=8jH5wfuDx-g)
+- [Paola Corrales](/author/pao-corrales/) and [Elio Campitelli](/author/elio-campitelli/)'s tutorial ["Efficient Data Analysis with data.table"](https://sched.co/1c8yF) ([Website](https://paocorrales.github.io/intro-datatable/))
+- [Elio Campitelli](/author/elio-campitelli)'s talk ["Building Bilingual Bridges with Multilingual Manuals"](https://sched.co/1c8yj) ([Slides](https://static.sched.com/hosted_files/userconf2024/3d/UseR2024-1.pdf))
+- [Hugo Gruson](/author/hugo-gruson)'s 
+    - Talk ["Building Interoperability in Existing Software Ecosystems with S3 Classes"](https://sched.co/1c8z3) ([Slides](https://static.sched.com/hosted_files/userconf2024/ff/2024-07-09_Gruson%20-%20Building%20Interoperability%20with%20S3%20Classes.pdf)).
+    - Poster ["A reproducible analysis of CRAN Task Views to understand the state of an R package ecosystem"](https://static.sched.com/hosted_files/userconf2024/ef/HugoGruson_useR_poster.pdf)
+- [Lluís Revilla](/author/lluís-revilla-sancho/) and Henrik Bengtsson's [poster](https://sched.co/1cDsG) about CRAN packages archived and the [cranhaven.org](http://cranhaven.org/) R-universe created to reduce the impact of that on users
+- [Will Landau](/author/will-landau) and Charlie Gao's talk ["Moju-Kapu: How {Mirai} and {Crew} Are Powering the Next Generation of Parallel Computing in R"](https://sched.co/1c8ya) ([Slides](https://static.sched.com/hosted_files/userconf2024/8a/moju-kapu.html))
+- [Binod Jung Bogati](/blog/2024/02/15/champions-program-champions-2024/#binod-jung-bogati)'s talks 
+    - ["Generate Raw Synthetic Dataset for Clinical Trial - Binod Jung Bogati, Numeric Mind"](https://sched.co/1c8w7) ([Slides](https://static.sched.com/hosted_files/userconf2024/ff/Generate%20Raw%20Synthetic%20Data%20for%20Clinical%20Trial%20-%20Binod%20Jung%20Bogati%20-%20useR2024.pdf))
+    - ["Translate R for Global Reach"](https://sched.co/1c90Y)
 
 ### Coworking
 
@@ -62,6 +65,8 @@ Consult our [Events](/events) page to find your local time and how to join.
     - Explore how to make R packages
     - Plan out that package you’ve always wanted to create
     - Chat with our cohost about tips and tricks for making your first R package
+
+- Tuesday, September 3rd, 9:00 Australia Western (01:00 UTC), Theme TBA with cohost TBA and [Steffi LaZerte](/author/steffi-lazerte).
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
@@ -187,7 +192,7 @@ Shared by Lluís Revilla and Heather Turner in our Slack workspace, a crucial su
 
 >  "If you have R package development experience and would like to share your thoughts on the CRAN submission process, please fill this short survey from the CRAN Cookbook project!"
 
-Please find the [Google form](https://forms.gle/umdew9KHWeQSehq8A) and read more about the exciting cookbook project in this [post by Jasmine D.](https://www.linkedin.com/pulse/improving-skills-r-package-maintainers-support-from-consortium-daly-tlt4e).
+Please find the [Google form](https://forms.gle/umdew9KHWeQSehq8A) and read more about the exciting cookbook project in this [post by Jasmine Daly](https://www.linkedin.com/pulse/improving-skills-r-package-maintainers-support-from-consortium-daly-tlt4e).
 
 ### Robust type-checking with r-lib
 
@@ -197,80 +202,84 @@ A related older blog post is ["Checking the inputs of your R functions"](https:/
 ### The one with all the useR! links
 
 The useR! 2024 conference featured quite a few talks relevant to package development, beside the talks we mentioned in the [HQ section](#resources-from-the-ropensci-community-at-user-2024).
-Not all recordings are available yet, but make sure to check out the useR! YouTube channel.
+Not all recordings are available yet, but make sure to check out the [useR! YouTube channel](https://www.youtube.com/@useRConference_global).
 
 If we missed any relevant content, please [get in touch](https://github.com/ropensci-org/monthly/issues) so we might add missing pieces to our next newsletter!
 
 #### Retrospectives
 
-Kurt Hornik gave a keynote talks on [More than 25 years of CRAN](https://userconf2024.sched.com/event/1c9Jm/keynote-more-than-25-years-of-cran-kurt-hornik-wirtschaftsuniversitat-wien?iframe=no&w=100%&sidebar=yes&bg=no) ([slides](https://static.sched.com/hosted_files/userconf2024/41/user2024_CRAN.pdf)) and Torsten Hothorn on [Some things you can’t read from
-a NEWS file](https://userconf2024.sched.com/event/1c9JC/keynote-some-things-you-cant-read-from-a-news-file-torsten-hothorn-university-of-zurich?iframe=yes&w=100%&sidebar=yes&bg=no) ([slides](https://static.sched.com/hosted_files/userconf2024/b6/useR_2024_TH%20%282%29.pdf)) about maintaining a package for decades.
+Kurt Hornik and Torsten Hothorn gave keynote talks ["More than 25 years of CRAN"](https://userconf2024.sched.com/event/1c9Jm/keynote-more-than-25-years-of-cran-kurt-hornik-wirtschaftsuniversitat-wien?iframe=no&w=100%&sidebar=yes&bg=no) ([Slides](https://static.sched.com/hosted_files/userconf2024/41/user2024_CRAN.pdf)) and ["Some things you can’t read from
+a NEWS file"](https://userconf2024.sched.com/event/1c9JC/keynote-some-things-you-cant-read-from-a-news-file-torsten-hothorn-university-of-zurich?iframe=yes&w=100%&sidebar=yes&bg=no) ([Slides](https://static.sched.com/hosted_files/userconf2024/b6/useR_2024_TH%20%282%29.pdf)) about maintaining a package for decades.
 
-Edzer Pebesma and Roger Bivand reported on [The Retirement of R Packages with Many Reverse Dependencies](https://userconf2024.sched.com/event/1c90V/r-evolution-the-retirement-of-r-packages-with-many-reverse-dependencies-edzer-pebesma-university-of-muenster-roger-bivand-norwegian-school-of-economics?iframe=no&w=100%&sidebar=yes&bg=no). [Slides](https://static.sched.com/hosted_files/userconf2024/2a/UseR2024.pdf).
+Edzer Pebesma and Roger Bivand reported on ["The Retirement of R Packages with Many Reverse Dependencies"](https://userconf2024.sched.com/event/1c90V/r-evolution-the-retirement-of-r-packages-with-many-reverse-dependencies-edzer-pebesma-university-of-muenster-roger-bivand-norwegian-school-of-economics?iframe=no&w=100%&sidebar=yes&bg=no) ([Slides](https://static.sched.com/hosted_files/userconf2024/2a/UseR2024.pdf)).
 
 #### On validation of R packages
 
-Coline Zeballos and Yann Féhat from the R Validation Hub discussed [how to support (pharma) companies with validation of R Packages](https://userconf2024.sched.com/event/1dyXW/supporting-companies-with-validation-of-r-packages-yann-feat-mainanalytics-gmbh-coline-zeballos-r-validation-hub?iframe=no&w=100%&sidebar=yes&bg=no). [Slides](https://static.sched.com/hosted_files/userconf2024/4a/Supporting%20Companies%20With%20Validation%20of%20R%20Packages_%20A%20Regulatory%20Repository.pdf). They use a toolset based on [r-hub/repos](https://github.com/r-hub/repos) and the [riskmetric](https://pharmar.github.io/riskmetric/) package.
+Coline Zeballos and Yann Féhat from the R Validation Hub discussed [how to support (pharma) companies with validation of R Packages](https://userconf2024.sched.com/event/1dyXW/supporting-companies-with-validation-of-r-packages-yann-feat-mainanalytics-gmbh-coline-zeballos-r-validation-hub?iframe=no&w=100%&sidebar=yes&bg=no) ([Slides](https://static.sched.com/hosted_files/userconf2024/4a/Supporting%20Companies%20With%20Validation%20of%20R%20Packages_%20A%20Regulatory%20Repository.pdf)). They use a toolset based on [r-hub/repos](https://github.com/r-hub/repos) and the [riskmetric](https://pharmar.github.io/riskmetric/) package.
 
 Szymon Maksymiuk and Lorenzo Braschi presented a [Deep Dive Into Industry R
-Package Quality Assessment](https://userconf2024.sched.com/event/1c8z7/deep-dive-into-industry-r-package-quality-assessment-szymon-maksymiuk-lorenzo-braschi-roche?iframe=no). Beside introducing the concepts, they mentioned three open-source R packages that they created: [checked](https://github.com/Genentech/checked) for running reverse dependencies checks; [covtracer](https://genentech.github.io/covtracer/) for contextualizing tests, built using covr test traces; [rd2markdown](https://github.com/Genentech/rd2markdown) for converting .Rd files into Markdown.
+Package Quality Assessment](https://userconf2024.sched.com/event/1c8z7/deep-dive-into-industry-r-package-quality-assessment-szymon-maksymiuk-lorenzo-braschi-roche?iframe=no). Beside introducing the concepts, they mentioned three open-source R packages that they created: [checked](https://github.com/Genentech/checked) for running reverse dependencies checks; [covtracer](https://genentech.github.io/covtracer/) for contextualizing tests using covr test traces; [rd2markdown](https://github.com/Genentech/rd2markdown) for converting .Rd files into Markdown.
 
 Also on reverse dependencies checks, Pawel Rucki and André Veríssimo presented
- [{verdepcheck} - A Tool for Dependencies Check](https://userconf2024.sched.com/event/1cC1c/verdepcheck-a-tool-for-dependencies-check-pawel-rucki-andre-verissimo-roche?iframe=no&w=100%&sidebar=yes&bg=no). [Slides](https://static.sched.com/hosted_files/userconf2024/2d/%7Bverdepcheck%7D%20-%20A%20Tool%20for%20Dependencies%20Check.pdf), [verdepcheck](https://insightsengineering.github.io/verdepcheck/main/).
+ [{verdepcheck} - A Tool for Dependencies Check](https://userconf2024.sched.com/event/1cC1c/verdepcheck-a-tool-for-dependencies-check-pawel-rucki-andre-verissimo-roche?iframe=no&w=100%&sidebar=yes&bg=no) ([Slides](https://static.sched.com/hosted_files/userconf2024/2d/%7Bverdepcheck%7D%20-%20A%20Tool%20for%20Dependencies%20Check.pdf) | [Package Docs](https://insightsengineering.github.io/verdepcheck/main/)).
  
-Franciszek Walkowiak's topic was [Systems Integration Tests for R Package Cohorts](https://userconf2024.sched.com/event/1c8yp/systems-integration-tests-for-r-package-cohorts-franciszek-walkowiak-roche?iframe=no&w=100%&sidebar=yes&bg=no), including the introductions to two open-source utilities, [scribe](https://github.com/insightsengineering/scribe) that creates complete build, check and install reports for a collection of R projects and [locksmith](https://github.com/insightsengineering/locksmith) that helps with `renv.lock` creation. [Slides](https://static.sched.com/hosted_files/userconf2024/1c/systems-integration-tests-for-r-package-cohorts.pdf).
+Franciszek Walkowiak discussed [Systems Integration Tests for R Package Cohorts](https://userconf2024.sched.com/event/1c8yp/systems-integration-tests-for-r-package-cohorts-franciszek-walkowiak-roche?iframe=no&w=100%&sidebar=yes&bg=no), including the introductions to two open-source utilities, [scribe](https://github.com/insightsengineering/scribe) that creates complete build, check and install reports for a collection of R projects and [locksmith](https://github.com/insightsengineering/locksmith) that helps with `renv.lock` creation ([Slides](https://static.sched.com/hosted_files/userconf2024/1c/systems-integration-tests-for-r-package-cohorts.pdf)).
 
 #### On good practice
 
-Daniel Sabanés Bové introduced openstatsware's work on _minimal viable_ good practice standards for R packages, in an [online talk](https://virtualuser2024.sched.com/event/1eBda/openstatsguide-minimum-viable-good-practices-for-high-quality-statistical-software-packages-daniel-sabanes-bove-rconis?iframe=no&w=&sidebar=yes&bg=no).
+Daniel Sabanés Bové introduced openstatsware's work on [_minimal viable_ good practice standards for R packages](https://virtualuser2024.sched.com/event/1eBda/openstatsguide-minimum-viable-good-practices-for-high-quality-statistical-software-packages-daniel-sabanes-bove-rconis?iframe=no&w=&sidebar=yes&bg=no).
 
 Pedro Silva listed [Seven Deadly Sins Holding You
-Back as a Software Developer](https://userconf2024.sched.com/event/1c8zm/seven-deadly-sins-holding-you-back-as-a-software-developer-pedro-silva?iframe=no&w=100%&sidebar=yes&bg=no). [Slides](https://static.sched.com/hosted_files/userconf2024/86/Seven%20Deadly%20Sins%20Holding%20You%20Back%20as%20a%20Software%20Developer.pdf).
+Back as a Software Developer](https://userconf2024.sched.com/event/1c8zm/seven-deadly-sins-holding-you-back-as-a-software-developer-pedro-silva?iframe=no&w=100%&sidebar=yes&bg=no) ([Slides](https://static.sched.com/hosted_files/userconf2024/86/Seven%20Deadly%20Sins%20Holding%20You%20Back%20as%20a%20Software%20Developer.pdf)).
 
-Hugo Gruson had a poster on [A reproducible analysis of CRAN Task Views to understand the state of an R package ecosystem](https://userconf2024.sched.com/event/1cDry/poster-session-guided-tours-a-reproducible-analysis-of-cran-task-views-to-understand-the-state-of-an-r-package-ecosystem-hugo-gruson-dataorg?iframe=no&w=100%&sidebar=yes&bg=no). Find the [live analysis](https://epiverse-connect.github.io/ctv-analysis/).
+Hugo Gruson had a poster on [A reproducible analysis of CRAN Task Views to understand the state of an R package ecosystem](https://userconf2024.sched.com/event/1cDry/poster-session-guided-tours-a-reproducible-analysis-of-cran-task-views-to-understand-the-state-of-an-r-package-ecosystem-hugo-gruson-dataorg?iframe=no&w=100%&sidebar=yes&bg=no). See the [live analysis](https://epiverse-connect.github.io/ctv-analysis/).
+
+#### On learning with silly projects
+
+Fonti Kar [shared her experience](https://userconf2024.sched.com/event/1c8zy/why-build-silly-things-in-r-fonti-kar-university-of-new-south-wales?iframe=no) in creating {ohwhaley} - a ‘toy’ R package which serves as a tool for learning package development and upskilling new learners ([Slides](https://github.com/fontikar/useR2024-lightningtalk/blob/master/why-build-silly-things.pdf)).
 
 #### On package design
 
-Hugo Gruson highlighted the benefits of using S3 classes for [interoperability in Existing Software Ecosystems](https://userconf2024.sched.com/event/1c8z3/building-interoperability-in-existing-software-ecosystems-with-s3-classes-hugo-gruson-dataorg?iframe=no). [Slides](https://static.sched.com/hosted_files/userconf2024/ff/2024-07-09_Gruson%20-%20Building%20Interoperability%20with%20S3%20Classes.pdf).
+Hugo Gruson highlighted the benefits of using S3 classes for [interoperability in Existing Software Ecosystems](https://userconf2024.sched.com/event/1c8z3/building-interoperability-in-existing-software-ecosystems-with-s3-classes-hugo-gruson-dataorg?iframe=no) ([Slides](https://static.sched.com/hosted_files/userconf2024/ff/2024-07-09_Gruson%20-%20Building%20Interoperability%20with%20S3%20Classes.pdf)).
 See also his recent [blog posts on the topic](https://epiverse-trace.github.io/blog.html#category=S3).
 
 Ligia Adamska used an onion analogy to explain [Layered Design for R Package
 Development: Meeting the Needs of
-Pharmaceutical R&D Stakeholders](https://userconf2024.sched.com/event/1c8z0/layered-design-for-r-package-development-meeting-the-needs-of-pharmaceutical-rd-stakeholders-ligia-adamska-msd-switzerland?iframe=no&w=100%&sidebar=yes&bg=no). [Slides](https://static.sched.com/hosted_files/userconf2024/7a/UseR_presentation_Final.pdf).
+Pharmaceutical R&D Stakeholders](https://userconf2024.sched.com/event/1c8z0/layered-design-for-r-package-development-meeting-the-needs-of-pharmaceutical-rd-stakeholders-ligia-adamska-msd-switzerland?iframe=no&w=100%&sidebar=yes&bg=no) ([Slides](https://static.sched.com/hosted_files/userconf2024/7a/UseR_presentation_Final.pdf)).
 
 #### On tools
 
 Daphne Grasselly, Franciszek Walkowiak and Pawel Rucki lead a tutorial on [Streamlining R package
 development with GitHub Actions
-Workflows](https://userconf2024.sched.com/event/1c8yI/tutorial-streamlining-r-package-development-with-github-actions-workflows-daphne-grasselly-pawel-rucki-roche-dinakar-kulkarni-genentech-pre-registration-required?iframe=no) whose [slides](https://static.sched.com/hosted_files/userconf2024/19/streamlining-r-package-development-with-github-actions-workflows.pdf) are available.
+Workflows](https://userconf2024.sched.com/event/1c8yI/tutorial-streamlining-r-package-development-with-github-actions-workflows-daphne-grasselly-pawel-rucki-roche-dinakar-kulkarni-genentech-pre-registration-required?iframe=no) ([Slides](https://static.sched.com/hosted_files/userconf2024/19/streamlining-r-package-development-with-github-actions-workflows.pdf)).
 
 Emil Hvitfeldt explained how to [make better error messages with rlang and cli](https://virtualuser2024.sched.com/event/1eBdO/making-better-error-messages-with-rlang-and-cli-emil-hvitfeldt-posit-pbc?iframe=no&w=&sidebar=yes&bg=no).
 
-Ella Kaye shared her insights on [C for R users](https://userconf2024.sched.com/event/1c8zS/c-for-r-users-ella-kaye-university-of-warwick?iframe=no&w=100%&sidebar=yes&bg=no). [Slides](https://static.sched.com/hosted_files/userconf2024/84/c-for-r-users.pdf).
+Ella Kaye shared her insights on [C for R users](https://userconf2024.sched.com/event/1c8zS/c-for-r-users-ella-kaye-university-of-warwick?iframe=no&w=100%&sidebar=yes&bg=no) ([Slides](https://static.sched.com/hosted_files/userconf2024/84/c-for-r-users.pdf)).
 
-Davis Vaughan introduced [tree-sitter, an efficient incremental parsing library](https://userconf2024.sched.com/event/1c90k/improving-development-tooling-with-an-r-grammar-for-tree-sitter-davis-vaughan-posit?iframe=no&w=100%&sidebar=yes&bg=no). [R package with bindings to tree-sitter](https://davisvaughan.github.io/r-tree-sitter/) whose README states "tree-sitter is useful for a number of things, including syntax highlighting, go-to definition, code reshaping, and more."
+Davis Vaughan introduced [tree-sitter, an efficient incremental parsing library](https://userconf2024.sched.com/event/1c90k/improving-development-tooling-with-an-r-grammar-for-tree-sitter-davis-vaughan-posit?iframe=no&w=100%&sidebar=yes&bg=no) and the R package [treesitter, which provides bindings to tree-sitter](https://davisvaughan.github.io/r-tree-sitter/) whose README states "tree-sitter is useful for a number of things, including syntax highlighting, go-to definition, code reshaping, and more."
 
 #### On multilingualism
 
 Elio Campitelli spoke about [Building Bilingual Bridges
-with Multilingual Manuals](https://userconf2024.sched.com/event/1c8yj/building-bilingual-bridges-with-multilingual-manuals-elio-campitelli-universidad-de-buenos-aires?iframe=no&w=100%&sidebar=yes&bg=no). [Slides](https://static.sched.com/hosted_files/userconf2024/3d/UseR2024-1.pdf). See also their [post on our blog](https://ropensci.org/blog/2024/07/09/multilingual-documentation-wg/)!
+with Multilingual Manuals](https://userconf2024.sched.com/event/1c8yj/building-bilingual-bridges-with-multilingual-manuals-elio-campitelli-universidad-de-buenos-aires?iframe=no&w=100%&sidebar=yes&bg=no) ([Slides](https://static.sched.com/hosted_files/userconf2024/3d/UseR2024-1.pdf)). See also their [post on our blog](/blog/2024/07/09/multilingual-documentation-wg/)!
 
 #### On debugging
 
-Shannon Pileggi delivered a tutorial on [debugging in R](https://events.linuxfoundation.org/user/program/schedule/). [Materials](https://github.com/rstats-wtf/wtf-debugging).
+Shannon Pileggi delivered a tutorial on [debugging in R](https://events.linuxfoundation.org/user/program/schedule/) ([Materials](https://github.com/rstats-wtf/wtf-debugging)).
 
-Antoine Fabri gave an overview of the motivations behind, and features of, his [constructive package](https://userconf2024.sched.com/event/1c8ym/constructive-a-nicer-dput-using-idiomatic-constructors-antoine-fabri-cynkra?iframe=no&w=100%&sidebar=yes&bg=no), that among other things can be useful for troubleshooting. [constructive](https://cynkra.github.io/constructive/).
+Antoine Fabri gave an [overview of the motivations behind, and features of, his constructive package](https://userconf2024.sched.com/event/1c8ym/constructive-a-nicer-dput-using-idiomatic-constructors-antoine-fabri-cynkra?iframe=no&w=100%&sidebar=yes&bg=no), which, among other things, can be useful for troubleshooting ([Package docs](https://cynkra.github.io/constructive/)).
 
 #### On wrapping APIs
 
-Hadley Wickham introduced and demo-ed his [httr2 package](https://userconf2024.sched.com/event/1c8zP/web-apis-with-httr2-hadley-wickham-posit?iframe=no&w=100%&sidebar=yes&bg=no). [httr2](https://httr2.r-lib.org/).
+Hadley Wickham introduced and demo-ed his [httr2 package](https://userconf2024.sched.com/event/1c8zP/web-apis-with-httr2-hadley-wickham-posit?iframe=no&w=100%&sidebar=yes&bg=no) ([Package docs](https://httr2.r-lib.org/)).
 
 Simon Haller explained the [Automated Generation
-of R Client Packages for RESTful APIs](https://userconf2024.sched.com/event/1c8ys/automated-generation-of-r-client-libraries-for-restful-apis-using-openapi-specification-and-the-open-simon-haller-raiffeisen?iframe=no&w=100%&sidebar=yes&bg=no). [Slides](https://static.sched.com/hosted_files/userconf2024/87/User_R_openapi_generator_simonhaller.pdf). See also Jon Harmon's [work on the same topic](https://beekeeper.api2r.org/).
+of R Client Packages for RESTful APIs](https://userconf2024.sched.com/event/1c8ys/automated-generation-of-r-client-libraries-for-restful-apis-using-openapi-specification-and-the-open-simon-haller-raiffeisen?iframe=no&w=100%&sidebar=yes&bg=no) ([Slides](https://static.sched.com/hosted_files/userconf2024/87/User_R_openapi_generator_simonhaller.pdf)). See also Jon Harmon's [work on the same topic](https://beekeeper.api2r.org/).
 
 #### On a last resort for archived CRAN packages
 
-Henrik Bengtsson and Lluís Revilla had a poster about their [CRANhaven project](https://www.cranhaven.org/) that is a backup solution for end-users when a package falls of CRAN (and that is built using R-universe!).
+Henrik Bengtsson and Lluís Revilla had a poster about their [CRANhaven project](https://www.cranhaven.org/), a backup solution for end-users when a package falls of CRAN (and which is built using R-universe!).
 
 
 ## Last words
