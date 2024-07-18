@@ -677,6 +677,10 @@ Back as a Software Developer](https://userconf2024.sched.com/event/1c8zm/seven-d
 
 Hugo Gruson had a poster on [A reproducible analysis of CRAN Task Views to understand the state of an R package ecosystem](https://userconf2024.sched.com/event/1cDry/poster-session-guided-tours-a-reproducible-analysis-of-cran-task-views-to-understand-the-state-of-an-r-package-ecosystem-hugo-gruson-dataorg?iframe=no&w=100%&sidebar=yes&bg=no). See the [live analysis](https://epiverse-connect.github.io/ctv-analysis/).
 
+#### On learning with silly projects
+
+Fonti Kar [shared her experience](https://userconf2024.sched.com/event/1c8zy/why-build-silly-things-in-r-fonti-kar-university-of-new-south-wales?iframe=no) in creating {ohwhaley} - a ‘toy’ R package which serves as a tool for learning package development and upskilling new learners ([Slides](https://github.com/fontikar/useR2024-lightningtalk/blob/master/why-build-silly-things.pdf)).
+
 #### On package design
 
 Hugo Gruson highlighted the benefits of using S3 classes for [interoperability in Existing Software Ecosystems](https://userconf2024.sched.com/event/1c8z3/building-interoperability-in-existing-software-ecosystems-with-s3-classes-hugo-gruson-dataorg?iframe=no) ([Slides](https://static.sched.com/hosted_files/userconf2024/ff/2024-07-09_Gruson%20-%20Building%20Interoperability%20with%20S3%20Classes.pdf)).
