@@ -234,16 +234,16 @@
 },
 {
    "name": "Mauro Lepore",
-   "url": "https://maurolepore.github.io/",
+   "url": "https://github.com/maurolepore/",
    "image" : "/img/team/mauro-lepore.jpg",
-   "affiliation" : "2 Degrees Investing Initiative",
+   "affiliation" : "Theia Finance Labs",
    "roles": [
       "editor"
    ],
    "generalreview": true,
-   "twitter": "mauro_lepore",
+   "LinkedIn": "https://www.linkedin.com/in/mauro-lepore/",
    "github": "maurolepore",
-   "home": "https://maurolepore.github.io/"
+   "home": "https://github.com/maurolepore/"
 },
 {
    "name": "Laura DeCicco",
