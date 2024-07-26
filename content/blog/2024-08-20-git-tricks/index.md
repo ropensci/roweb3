@@ -96,4 +96,13 @@ know a few more Git tricks.
 Sometimes `git clone` is not the right tool for the job. A sparse checkout and a
 shallow pull can help you get just what you need.
 
+If you enjoy learning from videos you may [search "git" on my YouTube
+channel](https://www.youtube.com/@leporemauro/search?query=git) or explore the
+playlists
+[git](https://www.youtube.com/playlist?list=PLvgdJdJDL-AOHkwiaMvYhPKVjiD9vzZIo),
+[git-from-the-terminal](https://www.youtube.com/playlist?list=PLvgdJdJDL-AMyv06bsXoXkGmxmaV9U6Ts),
+and
+[git-con-la-terminal](https://www.youtube.com/playlist?list=PLvgdJdJDL-APwLSt89PJgI72UGVNUjOKl)
+(in Spanish).
+
 What are your favorite Git tricks?
