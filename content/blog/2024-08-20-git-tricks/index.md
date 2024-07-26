@@ -14,9 +14,8 @@ description: '`git clone` isn't always the right tool. Consider a sparse checkou
 Did others who are not authors of the post make significant contributions to the
 package or its inspiration?
 
-Recently [Yanina Bellini
-Saibene](https://ropensci.org/author/yanina-bellini-saibene/) reminded us to
-update our Slack profile:
+Recently [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) reminded us
+to update our Slack profile:
 
 > Friendly reminder: Let's increase the value of our rOpenSci Slack community.
 Please add details to your profile, e.g., your photo, your favorite social media
@@ -24,8 +23,7 @@ handle, what you do, your pronouns, and how to pronounce your name.
 
 After doing that I went on to updating my profile photos on the rOpenSci
 website, which ended up teaching me a few git tricks I would like to share here.
-Thanks [Maëlle Salmon](https://ropensci.org/author/ma%C3%ABlle-salmon/) for the
-encouragement.
+Thanks [Maëlle Salmon](/author/ma%C3%ABlle-salmon/) for the encouragement.
 
 ## Cloning as usual
 
