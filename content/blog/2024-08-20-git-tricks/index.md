@@ -8,7 +8,7 @@ tags:
   - tech-notes
   - git
   - github
-description: "`git clone` isn't always the right tool. Consider a sparse checkout and shallow pull."
+description: "`git clone` isn't always the right tool."
 ---
 
 Recently [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) reminded us
