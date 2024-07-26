@@ -3,52 +3,85 @@ slug: git-tricks
 title: Git Tricks to Work with Large Repos
 author:
   - Mauro Lepore
-# FIXME: Ask Yani
 date: '2024-08-20'
 tags:
   - tech-notes
   - git
   - github
-# The summary below will be used by e.g. Mastodon preview cards
-description: '`git clone` isn’t always the right tool. Consider a sparse checkout and shallow pull.'
+description: '`git clone` isn't always the right tool. Consider a sparse checkout and shallow pull.'
 ---
 
-https://bit.ly/2-git-tricks
+Updating my profile photos on the rOpenSci website taught me three tricks, one about GitHub and two about Git.
 
-This is the Markdown (.md) template for a blog post or tech note. 
-To generate your post with R Markdown (.Rmd), use that template instead.
+## Cloning as usual
 
-Throughout this template, including the YAML, 
-you should change "post-template" to the slug of your post, 
-and "2019-06-04" to your publication date.
+```bash
+git clone https://github.com/ropensci/roweb3.git
+```
 
-Save this file under /content/blog/YYYY-MM-DD-slug/index.md in the local copy of your roweb3 fork.
+When I tried to clone the source code of rOpenSci's website I realized the repo was large and it would take me
+several minutes, so I stopped the process and researched how to just pull the latest version of teh specific 
+files I needed.
 
-## Section heading in sentence case
+## Pullling the latest version of specific files
 
-Citation of the primary literature[^1]. 
+```bash
+# if not using `gh` (https://cli.github.com/), fork ropensci/roweb3 from GitHub
+gh repo fork ropensci/roweb3
 
-Citation of a website[^2]. 
+git init roweb3
+cd roweb3
+git remote add origin git@github.com/maurolepore/roweb3.git
+git config core.sparseCheckout true
+echo "themes/ropensci/static/img/team/mauro*" >> .git/info/sparse-checkout
+git pull --depth=1 origin main
+```
 
-Citation of an R package[^3].
+I improved the process by first finding the specific files I needed on GitHub's "Go to file" box, then:
 
-### Subsection heading
+* Trick 1: Configured a sparse checkout matching just those files.
+* Trick 2: Pulled with `--depth 1` to get only their latest version.
 
-We recommend the use of [Hugo shortcodes](https://gohugo.io/content-management/shortcodes/) to include images, tweets, videos, gists, etc.
+The result was just what I needed to modify:
 
-**Add an image** by using a Hugo shortcode. The image is saved under `/content/blog/YYYY-MM-DD-slug/name-of-image.png`.
+```bash
+➜  roweb3 git:(main) tree
+.
+└── themes
+    └── ropensci
+        └── static
+            └── img
+                └── team
+                    ├── mauro-lepore.jpg
+                    └── mauro-lepore-mentor.jpg
+```
 
-{{< figure src = "name-of-image.png" width = "400" alt = "this is the alternative text" >}}
+## But how large is it?
 
-Consult the Technical Guidelines for tips on changing image size, alignment, and for advice on alternative text.
+While those tricks were useful, I was still curious about the size of the repo, so I did clone it all and explored disk usage with `du`:
 
-**Embed a tweet** by using a Hugo shortcode. 
+```bash
+➜  git du --human-readable --max-depth=1 roweb3
+220M    roweb3/themes
+56K     roweb3/archetypes
+164K    roweb3/data
+374M    roweb3/.git
+20K     roweb3/static
+12K     roweb3/.github
+40K     roweb3/scripts
+161M    roweb3/content
+16K     roweb3/layouts
+8.0K    roweb3/public
+754M    roweb3
+```
 
-{{< tweet user="SanDiegoZoo" id="1453110110599868418" >}}
+Indeed this is much larger than the source code I typically handle. But now I know a few more Git tricks.
 
+## Conclusion
 
-**Add citation or footnote** text by using the format below 
+> If all you have is a hammer, everything looks like a nail. 
 
-[^1]: Sciaini, M., Fritsch, M., Scherer, C., & Simpkins, C. E. (2018). NLMR and landscapetools: An integrated environment for simulating and modifying neutral landscape models in R. Methods in Ecology and Evolution, 9(11), 2240-2248. <https://doi.org/10.1111/2041-210X.13076>
-[^2]: Elin Waring, Michael Quinn, Amelia McNamara, Eduardo Arino de la Rubia, Hao Zhu and Shannon Ellis (2019). skimr: Compact and Flexible Summaries of Data. R package version 1.0.7. https://CRAN.R-project.org/package=skimr
-[^3]: Hugo static site generator. https://gohugo.io/
+Sometimes `git clone` is not the right tool for the job. A sparse checkout and a shallow pull
+can help you get just what you need.
+
+What are your favorite Git tricks?
