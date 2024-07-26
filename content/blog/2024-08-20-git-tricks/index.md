@@ -11,9 +11,6 @@ tags:
 description: '`git clone` isn't always the right tool. Consider a sparse checkout and shallow pull.'
 ---
 
-Did others who are not authors of the post make significant contributions to the
-package or its inspiration?
-
 Recently [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) reminded us
 to update our Slack profile:
 
