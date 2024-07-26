@@ -3,12 +3,12 @@ slug: git-tricks
 title: Git Tricks to Work with Large Repos
 author:
   - Mauro Lepore
-date: '2024-08-20'
+date: "2024-08-20"
 tags:
   - tech-notes
   - git
   - github
-description: '`git clone` isn't always the right tool. Consider a sparse checkout and shallow pull.'
+description: "`git clone` isn't always the right tool. Consider a sparse checkout and shallow pull."
 ---
 
 Recently [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) reminded us
