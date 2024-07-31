@@ -48,8 +48,8 @@ cd roweb3
 git remote add origin git@github.com/maurolepore/roweb3.git
 ```
 
-Now for the tricks! I avoided having to download the whole repository by first finding the specific files I needed on GitHub's
-"Go to file" box, then:
+Now for the tricks! I avoided having to download the whole repository by first
+finding the specific files I needed on GitHub's "Go to file" box, then:
 
 * Trick 1: Configured a [sparse
 checkout](https://git-scm.com/docs/git-sparse-checkout) matching just those
