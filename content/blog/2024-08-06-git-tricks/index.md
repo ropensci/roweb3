@@ -69,7 +69,7 @@ echo "themes/ropensci/static/img/team/mauro*" >> .git/info/sparse-checkout
 
 * Trick 2: Pulled with 
 [`--depth 1`](https://git-scm.com/docs/git-pull#Documentation/git-pull.txt---depthltdepthgt) 
-to get only their latest version.
+to get only the latest version of those files.
 
 ```bash
 git pull --depth=1 origin main
