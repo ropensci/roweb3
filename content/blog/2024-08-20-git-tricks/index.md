@@ -49,8 +49,12 @@ git remote add origin git@github.com/maurolepore/roweb3.git
 Now for the tricks! I avoided having to download the whole repository by first finding the specific files I needed on GitHub's
 "Go to file" box, then:
 
-* Trick 1: Configured a sparse checkout matching just those files.
-* Trick 2: Pulled with `--depth 1` to get only their latest version.
+* Trick 1: Configured a [sparse
+checkout](https://git-scm.com/docs/git-sparse-checkout) matching just those
+files.
+* Trick 2: [Pulled with `--depth
+1`](https://git-scm.com/docs/git-pull#Documentation/git-pull.txt---depthltdepthgt)
+to get only their latest version.
 ```bash
 git config core.sparseCheckout true
 echo "themes/ropensci/static/img/team/mauro*" >> .git/info/sparse-checkout
