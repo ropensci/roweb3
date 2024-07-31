@@ -101,7 +101,7 @@ so I did clone it all and [explored disk usage with
 ```
 
 Indeed this is much larger than the source code I typically handle. But now I
-know a few more Git tricks (and a few more about blogging on rOpenSci :-).
+know a few more Git tricks (and even more about blogging on rOpenSci :-).
 
 ## Conclusion
 
