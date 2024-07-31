@@ -37,13 +37,9 @@ First I used the terminal to fork the rOpenSci website repository (`roweb3`) usi
 ```bash
 # if not using `gh` (https://cli.github.com/), fork ropensci/roweb3 from GitHub
 gh repo fork ropensci/roweb3
-
 git init roweb3
 cd roweb3
 git remote add origin git@github.com/maurolepore/roweb3.git
-git config core.sparseCheckout true
-echo "themes/ropensci/static/img/team/mauro*" >> .git/info/sparse-checkout
-git pull --depth=1 origin main
 ```
 
 I improved the process by first finding the specific files I needed on GitHub's
