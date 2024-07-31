@@ -22,7 +22,7 @@ handle, what you do, your pronouns, and how to pronounce your name.
 After doing that I went on to updating my profile photos on the rOpenSci
 website, which ended up teaching me a few git tricks I would like to share here.
 Thanks [Maëlle Salmon](/author/ma%C3%ABlle-salmon/) for the encouragement, and
-[Steffi LaZerte](/author/steffi-lazerte/) for the suggestions.
+[Steffi LaZerte](/author/steffi-lazerte/) for reviewing this post.
 
 ## Cloning as usual
 
