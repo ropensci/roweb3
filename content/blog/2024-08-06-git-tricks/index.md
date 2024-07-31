@@ -27,12 +27,14 @@ Thanks [Maëlle Salmon](/author/ma%C3%ABlle-salmon/) for the encouragement, and
 ## Cloning as usual
 
 When I tried to clone the source code of rOpenSci's website I realized the repo
-was large and it would take me several minutes, so I stopped the process and
-researched how to just pull the latest version of the specific files I needed.
+was large and it would take me several minutes.
 
 ```bash
 git clone https://github.com/ropensci/roweb3.git
 ```
+
+I decided to stop the process and researched how to just pull the latest version
+of the specific files I needed.
 
 ## Pulling the latest version of specific files
 
