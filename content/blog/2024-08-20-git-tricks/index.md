@@ -81,7 +81,7 @@ just what I needed to modify:
 
 While those tricks were useful, I was still curious about the size of the repo,
 so I did clone it all and [explored disk usage with
-`du`](https://linux.die.net/man/1/du):
+[`du`](https://linux.die.net/man/1/du):
 
 ```bash
 ➜  git du --human-readable --max-depth=1 roweb3
