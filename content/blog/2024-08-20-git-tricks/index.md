@@ -8,6 +8,7 @@ tags:
   - tech-notes
   - git
   - github
+  - how-to
 description: "`git clone` isn't always the right tool."
 ---
 
