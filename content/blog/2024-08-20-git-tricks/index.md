@@ -64,7 +64,8 @@ echo "themes/ropensci/static/img/team/mauro*" >> .git/info/sparse-checkout
 git pull --depth=1 origin main
 ```
 
-I [explored the result with `tree`](https://linux.die.net/man/1/tree) and it was
+I [explored the result with
+`tree`](https://manpages.ubuntu.com/manpages/bionic/man1/tree.1.html) and it was
 just what I needed to modify:
 
 ```bash
@@ -83,7 +84,7 @@ just what I needed to modify:
 
 While those tricks were useful, I was still curious about the size of the repo,
 so I did clone it all and [explored disk usage with
-[`du`](https://linux.die.net/man/1/du):
+[`du`](https://manpages.ubuntu.com/manpages/bionic/man1/du.1.html):
 
 ```bash
 ➜  git du --human-readable --max-depth=1 roweb3
