@@ -80,7 +80,7 @@ I explored the result with
 was just what I needed to modify:
 
 ```bash
-➜  roweb3 git:(main) tree
+tree
 .
 └── themes
     └── ropensci
@@ -98,18 +98,20 @@ so I did clone it all and explored disk usage with
 [`du`](https://manpages.ubuntu.com/manpages/bionic/man1/du.1.html):
 
 ```bash
-➜  git du --human-readable --max-depth=1 roweb3
-220M    roweb3/themes
-56K     roweb3/archetypes
-164K    roweb3/data
-374M    roweb3/.git
-20K     roweb3/static
-12K     roweb3/.github
-40K     roweb3/scripts
-161M    roweb3/content
-16K     roweb3/layouts
-8.0K    roweb3/public
-754M    roweb3
+du --human-readable --max-depth=1 .
+219M    ./themes
+164K    ./.Rproj.user
+56K     ./archetypes
+628K    ./resources
+168K    ./data
+376M    ./.git
+20K     ./static
+12K     ./.github
+40K     ./scripts
+161M    ./content
+24K     ./layouts
+475M    ./public
+1.3G    .
 ```
 
 Indeed this is much larger than the source code I typically handle. But now I
