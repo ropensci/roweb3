@@ -36,9 +36,7 @@ git clone https://github.com/ropensci/roweb3.git
 
 ## Pulling the latest version of specific files
 
-First I used the terminal to fork the rOpenSci website repository (`roweb3`)
-using [gh](https://cli.github.com/). Then I created a local empty `roweb3`
-directory and linked it to the fork.
+First I used the terminal to fork the rOpenSci website repository (`roweb3`) using [`gh`](https://cli.github.com/). Then I created a local empty `roweb3` directory and linked it to the fork.
 
 ```bash
 # if not using `gh`, fork ropensci/roweb3 from GitHub
@@ -51,12 +49,8 @@ git remote add origin git@github.com/maurolepore/roweb3.git
 Now for the tricks! I avoided having to download the whole repository by first
 finding the specific files I needed on GitHub's "Go to file" box, then:
 
-* Trick 1: Configured a [sparse
-checkout](https://git-scm.com/docs/git-sparse-checkout) matching just those
-files.
-* Trick 2: [Pulled with `--depth
-1`](https://git-scm.com/docs/git-pull#Documentation/git-pull.txt---depthltdepthgt)
-to get only their latest version.
+* Trick 1: Configured a [sparse checkout](https://git-scm.com/docs/git-sparse-checkout) matching just those files.
+* Trick 2: Pulled with [`--depth 1`](https://git-scm.com/docs/git-pull#Documentation/git-pull.txt---depthltdepthgt) to get only their latest version.
 
 ```bash
 git config core.sparseCheckout true
@@ -64,9 +58,7 @@ echo "themes/ropensci/static/img/team/mauro*" >> .git/info/sparse-checkout
 git pull --depth=1 origin main
 ```
 
-I [explored the result with
-`tree`](https://manpages.ubuntu.com/manpages/bionic/man1/tree.1.html) and it was
-just what I needed to modify:
+I explored the result with [`tree`](https://manpages.ubuntu.com/manpages/bionic/man1/tree.1.html) and it was just what I needed to modify:
 
 ```bash
 ➜  roweb3 git:(main) tree
@@ -82,9 +74,7 @@ just what I needed to modify:
 
 ## But how large is it?
 
-While those tricks were useful, I was still curious about the size of the repo,
-so I did clone it all and [explored disk usage with
-[`du`](https://manpages.ubuntu.com/manpages/bionic/man1/du.1.html):
+While those tricks were useful, I was still curious about the size of the repo, so I did clone it all and [explored disk usage with [`du`](https://manpages.ubuntu.com/manpages/bionic/man1/du.1.html):
 
 ```bash
 ➜  git du --human-readable --max-depth=1 roweb3
