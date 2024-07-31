@@ -117,4 +117,4 @@ and
 [git-con-la-terminal](https://www.youtube.com/playlist?list=PLvgdJdJDL-APwLSt89PJgI72UGVNUjOKl)
 (in Spanish).
 
-What are your favorite Git tricks?
+What are your favorite Git tricks? Why not blogging about that?
