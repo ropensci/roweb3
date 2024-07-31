@@ -34,7 +34,9 @@ was large and it would take me several minutes, so I stopped the process and
 researched how to just pull the latest version of the specific files I needed.
 
 ## Pulling the latest version of specific files
+
 First I used the terminal to fork the rOpenSci website repository (`roweb3`) using [gh](https://cli.github.com/). Then I created a local empty `roweb3` directory and linked it to the fork.
+
 ```bash
 # if not using `gh` (https://cli.github.com/), fork ropensci/roweb3 from GitHub
 gh repo fork ropensci/roweb3
