@@ -60,7 +60,7 @@ to get only their latest version.
 git config core.sparseCheckout true
 echo "themes/ropensci/static/img/team/mauro*" >> .git/info/sparse-checkout
 git pull --depth=1 origin main
-    ```
+```
 
 The result was just what I needed to modify:
 
