@@ -52,7 +52,7 @@ Then I created a local empty `roweb3` directory and linked it to the fork.
 ```bash
 git init roweb3
 cd roweb3
-git remote add origin git@github.com/maurolepore/roweb3.git
+git remote add origin git@github.com:maurolepore/roweb3.git
 ```
 
 Now for the tricks! I avoided having to download the whole repository by first
