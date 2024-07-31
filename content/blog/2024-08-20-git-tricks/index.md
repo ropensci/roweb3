@@ -55,6 +55,7 @@ files.
 * Trick 2: [Pulled with `--depth
 1`](https://git-scm.com/docs/git-pull#Documentation/git-pull.txt---depthltdepthgt)
 to get only their latest version.
+
 ```bash
 git config core.sparseCheckout true
 echo "themes/ropensci/static/img/team/mauro*" >> .git/info/sparse-checkout
