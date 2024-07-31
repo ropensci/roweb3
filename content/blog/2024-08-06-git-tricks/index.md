@@ -74,7 +74,7 @@ I explored the result with [`tree`](https://manpages.ubuntu.com/manpages/bionic/
 
 ## But how large is it?
 
-While those tricks were useful, I was still curious about the size of the repo, so I did clone it all and [explored disk usage with [`du`](https://manpages.ubuntu.com/manpages/bionic/man1/du.1.html):
+While those tricks were useful, I was still curious about the size of the repo, so I did clone it all and explored disk usage with [`du`](https://manpages.ubuntu.com/manpages/bionic/man1/du.1.html):
 
 ```bash
 ➜  git du --human-readable --max-depth=1 roweb3
