@@ -1,6 +1,6 @@
 ---
 slug: git-tricks
-title: Git Tricks to Work with Large Repos
+title: Git Tricks for Working with Large Repositories
 author:
   - Mauro Lepore
 date: "2024-08-20"
