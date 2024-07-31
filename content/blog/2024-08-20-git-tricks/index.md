@@ -51,6 +51,11 @@ Now for the tricks! I avoided having to download the whole repository by first f
 
 * Trick 1: Configured a sparse checkout matching just those files.
 * Trick 2: Pulled with `--depth 1` to get only their latest version.
+```bash
+git config core.sparseCheckout true
+echo "themes/ropensci/static/img/team/mauro*" >> .git/info/sparse-checkout
+git pull --depth=1 origin main
+    ```
 
 The result was just what I needed to modify:
 
