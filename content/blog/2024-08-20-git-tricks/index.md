@@ -3,7 +3,7 @@ slug: git-tricks
 title: Git Tricks for Working with Large Repositories
 author:
   - Mauro Lepore
-date: "2024-08-20"
+date: "2024-08-06"
 tags:
   - tech-notes
   - git
