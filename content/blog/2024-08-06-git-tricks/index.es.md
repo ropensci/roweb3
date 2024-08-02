@@ -78,7 +78,7 @@ tree
 
 ## ¿Pero qué tan grande es?
 
-Aunque esos trucos fueron útiles, aún quería saber cuán grande era el repositorio, así que lo cloné como de costumbre y lo exploré con [`du`](https://manpages.ubuntu.com/manpages/bionic/man1/du.1.html):
+Aunque esos trucos fueron útiles, aún quería saber cuán grande era el repositorio, así que lo cloné entero como de costumbre y lo exploré con [`du`](https://manpages.ubuntu.com/manpages/bionic/man1/du.1.html):
 
 ```bash
 du --human-readable --max-depth=1 .
