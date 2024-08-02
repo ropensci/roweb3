@@ -117,7 +117,7 @@ du --human-readable --max-depth=1 .
 ```
 
 Indeed this is much larger than the source code I typically handle. But now I
-know a few more Git tricks (and even more about blogging on rOpenSci :-).
+know a few more Git tricks (and even more about blogging on rOpenSci :-) ).
 
 ## Conclusion
 
