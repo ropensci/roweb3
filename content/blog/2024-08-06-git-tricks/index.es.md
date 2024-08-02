@@ -18,7 +18,7 @@ Hace poco [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) nos recordó
 
 > Recordatorio amigable: Aumentemos el valor de nuestra comunidad de Slack de rOpenSci. Por favor, agreguen detalles a su perfil, como su foto, su red social favorita, lo que hacen, sus pronombres y cómo se pronuncia su nombre.
 
-Después de hacer eso, decidí actualizar mis fotos de perfil en la página de rOpenSci, lo que me terminó enseñando algunos trucos de git que me gustaría compartir acá. Gracias a [Maëlle Salmon](/author/ma%C3%ABlle-salmon/) por motivarme a escribir este artículo y a [Steffi LaZerte](/author/steffi-lazerte/) por revisarlo.
+Después de hacer eso, decidí actualizar mis fotos de perfil en sitio web de rOpenSci, lo que me terminó enseñando algunos trucos de git que me gustaría compartir acá. Gracias a [Maëlle Salmon](/author/ma%C3%ABlle-salmon/) por motivarme a escribir este artículo y a [Steffi LaZerte](/author/steffi-lazerte/) por revisarlo.
 
 ## Clonando como siempre
 
