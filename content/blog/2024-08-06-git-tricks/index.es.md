@@ -22,7 +22,7 @@ Después de hacer eso, decidí actualizar mis fotos de perfil en la página de r
 
 ## Clonando como siempre
 
-Cuando quise clonar el código fuente de la página de rOpenSci, me di cuenta de que el repositorio era grande y que me llevaría varios minutos.
+Cuando quise clonar el repositorio del sitio web de rOpenSci, me di cuenta de que era grande y que me llevaría varios minutos.
 
 ```bash
 git clone https://github.com/ropensci/roweb3.git
