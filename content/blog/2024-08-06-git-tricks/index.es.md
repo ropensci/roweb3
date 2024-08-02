@@ -1,55 +1,45 @@
 ---
-slug: git-tricks
-title: Git Tricks for Working with Large Repositories
+slug: trucos-git
+title: Trucos de Git para trabajar con repositorios grandes
 author:
   - Mauro Lepore
 editor:
   - Steffi LaZerte
 date: "2024-08-06"
 tags:
-  - tech-notes
+  - notas-tecnicas
   - git
   - github
-  - how-to
-description: "`git clone` isn't always the right tool."
+  - cómo-hacer
+description: "`git clone` no siempre es la herramienta adecuada."
 ---
 
-Recently [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) reminded us
-to update our Slack profile:
+Recientemente [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) nos recordó actualizar nuestro perfil de Slack:
 
-> Friendly reminder: Let's increase the value of our rOpenSci Slack community.
-Please add details to your profile, e.g., your photo, your favorite social media
-handle, what you do, your pronouns, and how to pronounce your name.
+> Recordatorio amigable: Aumentemos el valor de nuestra comunidad de Slack de rOpenSci. Por favor, agreguen detalles a su perfil, como su foto, su red social favorita, lo que hacen, sus pronombres y cómo se pronuncia su nombre.
 
-After doing that I went on to updating my profile photos on the rOpenSci
-website, which ended up teaching me a few git tricks I would like to share here.
-Thanks [Maëlle Salmon](/author/ma%C3%ABlle-salmon/) for the encouragement, and
-[Steffi LaZerte](/author/steffi-lazerte/) for reviewing this post.
+Después de hacer eso, decidí actualizar mis fotos de perfil en la página de rOpenSci, lo que me terminó enseñando algunos trucos de git que me gustaría compartir acá. Gracias a [Maëlle Salmon](/author/ma%C3%ABlle-salmon/) por motivarme a escribir este artículo y a [Steffi LaZerte](/author/steffi-lazerte/) por revisarlo.
 
-## Cloning as usual
+## Clonando como siempre
 
-When I tried to clone the source code of rOpenSci's website I realized the repo
-was large and it would take me several minutes.
+Cuando quise clonar el código fuente de la página de rOpenSci, me di cuenta de que el repositorio era grande y que me llevaría varios minutos.
 
 ```bash
 git clone https://github.com/ropensci/roweb3.git
 ```
 
-I decided to stop the process and researched how to just pull the latest version
-of the specific files I needed.
+Decidí detener el proceso e investigar cómo clonar solo la última versión de los archivos específicos que necesitaba.
 
-## Pulling the latest version of specific files
+## Clonando la última versión de archivos específicos
 
-First I forked the rOpenSci website repository (`roweb3`). I used the
-[`gh`](https://cli.github.com/) CLI from the terminal, but also I could have
-forked it manually from Github. 
+Primero hice un *fork* (bifurcación) del repositorio la página de rOpenSci (`roweb3`). Usé [`gh`](https://cli.github.com/) desde la terminal, aunque también podría haberlo hecho manualmente desde GitHub.
 
 ```bash
-# if not using `gh`, fork ropensci/roweb3 from GitHub
+# Si no usas `gh`, hace un "fork" de ropensci/roweb3 desde GitHub
 gh repo fork ropensci/roweb3
 ```
 
-Then I created a local empty `roweb3` directory and linked it to the fork.
+Luego creé un directorio local vacío `roweb3` y lo enlacé al *fork*.
 
 ```bash
 git init roweb3
@@ -57,29 +47,22 @@ cd roweb3
 git remote add origin git@github.com:maurolepore/roweb3.git
 ```
 
-Now for the tricks! I avoided having to download the whole repository by first
-finding the specific files I needed on GitHub's "Go to file" box, then:
+¡Ahora los trucos! Para evitar descargar todo el repositorio primero busqué los archivos específicos que necesitaba en buscador de archivos *Go to file* de GitHub, luego:
 
-* Trick 1: Configured a 
-[sparse checkout](https://git-scm.com/docs/git-sparse-checkout) matching just
-those files.
+* Truco 1: Configuré un [*sparse checkout*](https://git-scm.com/docs/git-sparse-checkout) para clonar solo esos archivos.
 
 ```bash
 git config core.sparseCheckout true
 echo "themes/ropensci/static/img/team/mauro*" >> .git/info/sparse-checkout
 ```
 
-* Trick 2: Pulled with 
-[`--depth 1`](https://git-scm.com/docs/git-pull#Documentation/git-pull.txt---depthltdepthgt) 
-to get only the latest version of those files.
+* Truco 2: Usé [`--depth 1`](https://git-scm.com/docs/git-pull#Documentation/git-pull.txt---depthltdepthgt) para obtener solo la última versión de esos archivos.
 
 ```bash
 git pull --depth=1 origin main
 ```
 
-I explored the result with 
-[`tree`](https://manpages.ubuntu.com/manpages/bionic/man1/tree.1.html) and it
-was just what I needed to modify:
+Exploré el resultado con [`tree`](https://manpages.ubuntu.com/manpages/bionic/man1/tree.1.html) y vi que el resultado era justo lo que necesitaba modificar:
 
 ```bash
 tree
@@ -93,11 +76,9 @@ tree
                     └── mauro-lepore-mentor.jpg
 ```
 
-## But how large is it?
+## ¿Pero qué tan grande es?
 
-While those tricks were useful, I was still curious about the size of the repo,
-so I did clone it all and explored disk usage with
-[`du`](https://manpages.ubuntu.com/manpages/bionic/man1/du.1.html):
+Aunque esos trucos fueron útiles, aún quería saber cuán grande era el repositorio, así que lo cloné como de costumbre y lo exploré con [`du`](https://manpages.ubuntu.com/manpages/bionic/man1/du.1.html):
 
 ```bash
 du --human-readable --max-depth=1 .
@@ -116,23 +97,14 @@ du --human-readable --max-depth=1 .
 1.3G    .
 ```
 
-Indeed this is much larger than the source code I typically handle. But now I
-know a few more Git tricks (and even more about blogging on rOpenSci :-) ).
+Esto confirmó que el repositorio es mucho más grande que el código que manejo normalmente. Pero ahora sé algunos trucos más de Git (¡y aún más sobre cómo bloguear en rOpenSci :-)).
 
-## Conclusion
+## Conclusión
 
-> If all you have is a hammer, everything looks like a nail. — Abraham Maslow
+> Si todo lo que tienes es un martillo, todo te parecerá un clavo. — Abraham Maslow
 
-Sometimes `git clone` is not the right tool for the job. A sparse checkout and a
-shallow pull can help you get just what you need.
+A veces, `git clone` no es la herramienta adecuada para el trabajo que querés hacer. Un *sparse checkout* y un *pull* superficial pueden ayudarte a obtener específicamente lo que necesitas.
 
-If you enjoy learning from videos you may [search "git" on my YouTube
-channel](https://www.youtube.com/leporemauro/search?query=git) or explore the
-playlists
-[git](https://www.youtube.com/playlist?list=PLvgdJdJDL-AOHkwiaMvYhPKVjiD9vzZIo),
-[git-from-the-terminal](https://www.youtube.com/playlist?list=PLvgdJdJDL-AMyv06bsXoXkGmxmaV9U6Ts),
-and
-[git-con-la-terminal](https://www.youtube.com/playlist?list=PLvgdJdJDL-APwLSt89PJgI72UGVNUjOKl)
-(in Spanish).
+Si disfrutás aprender con videos, podés [buscar "git" en mi canal de YouTube](https://www.youtube.com/leporemauro/search?query=git) o explorar las listas de reproducción [git](https://www.youtube.com/playlist?list=PLvgdJdJDL-AOHkwiaMvYhPKVjiD9vzZIo), [git-from-the-terminal](https://www.youtube.com/playlist?list=PLvgdJdJDL-AMyv06bsXoXkGmxmaV9U6Ts), y [git-con-la-terminal](https://www.youtube.com/playlist?list=PLvgdJdJDL-APwLSt89PJgI72UGVNUjOKl).
 
-What are your favorite Git tricks? How about blogging about them?
+¿Cuáles son tus trucos favoritos de Git? ¿Qué tal si escribís un blog post sobre ellos?
