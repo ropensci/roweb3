@@ -97,7 +97,7 @@ du --human-readable --max-depth=1 .
 1.3G    .
 ```
 
-Esto confirmó que el repositorio es mucho más grande que el código que manejo normalmente. Pero ahora sé algunos trucos más de Git (¡y aún más sobre cómo bloguear en rOpenSci :-)).
+Esto confirmó que el repositorio es mucho más grande que los que manejo normalmente. Pero ahora sé algunos trucos más de Git (¡y aún más sobre cómo bloguear en rOpenSci :-)).
 
 ## Conclusión
 
