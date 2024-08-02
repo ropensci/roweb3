@@ -47,7 +47,7 @@ cd roweb3
 git remote add origin git@github.com:maurolepore/roweb3.git
 ```
 
-¡Ahora los trucos! Para evitar descargar todo el repositorio primero busqué los archivos específicos que necesitaba en buscador de archivos *Go to file* de GitHub, luego:
+¡Ahora los trucos! Para evitar descargar todo el repositorio primero encontre los archivos específicos que necesitaba en buscador de archivos *Go to file* de GitHub, luego:
 
 * Truco 1: Configuré un [*sparse checkout*](https://git-scm.com/docs/git-sparse-checkout) para clonar solo esos archivos.
 
