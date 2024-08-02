@@ -1,5 +1,5 @@
 ---
-slug: trucos-git
+slug: git-tricks
 title: Trucos de Git para trabajar con repositorios grandes
 author:
   - Mauro Lepore
