@@ -14,7 +14,7 @@ tags:
 description: "`git clone` no siempre es la herramienta adecuada."
 ---
 
-Recientemente [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) nos recordó actualizar nuestro perfil de Slack:
+Hace poco [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) nos recordó actualizar nuestro perfil de Slack:
 
 > Recordatorio amigable: Aumentemos el valor de nuestra comunidad de Slack de rOpenSci. Por favor, agreguen detalles a su perfil, como su foto, su red social favorita, lo que hacen, sus pronombres y cómo se pronuncia su nombre.
 
