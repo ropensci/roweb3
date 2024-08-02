@@ -107,4 +107,4 @@ A veces, `git clone` no es la herramienta adecuada para el trabajo que querés h
 
 Si te gusta aprender de videos, podés [buscar "git" en mi canal de YouTube](https://www.youtube.com/leporemauro/search?query=git) o explorar las listas de reproducción [git](https://www.youtube.com/playlist?list=PLvgdJdJDL-AOHkwiaMvYhPKVjiD9vzZIo), [git-from-the-terminal](https://www.youtube.com/playlist?list=PLvgdJdJDL-AMyv06bsXoXkGmxmaV9U6Ts), y [git-con-la-terminal](https://www.youtube.com/playlist?list=PLvgdJdJDL-APwLSt89PJgI72UGVNUjOKl).
 
-¿Cuáles son tus trucos favoritos de Git? ¿Qué tal si escribís un blog post sobre ellos?
+¿Cuáles son tus trucos favoritos de Git? ¿Qué tal si blogueas sobre eso?
