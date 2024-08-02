@@ -62,7 +62,7 @@ echo "themes/ropensci/static/img/team/mauro*" >> .git/info/sparse-checkout
 git pull --depth=1 origin main
 ```
 
-Exploré el resultado con [`tree`](https://manpages.ubuntu.com/manpages/bionic/man1/tree.1.html) y vi que el resultado era justo lo que necesitaba modificar:
+Exploré el resultado con [`tree`](https://manpages.ubuntu.com/manpages/bionic/man1/tree.1.html) y vi que era justo lo que necesitaba modificar:
 
 ```bash
 tree
