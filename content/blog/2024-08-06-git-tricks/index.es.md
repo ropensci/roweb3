@@ -32,7 +32,7 @@ Decidí detener el proceso e investigar cómo clonar solo la última versión de
 
 ## Clonando la última versión de archivos específicos
 
-Primero hice un *fork* (bifurcación) del repositorio la página de rOpenSci (`roweb3`). Usé [`gh`](https://cli.github.com/) desde la terminal, aunque también podría haberlo hecho manualmente desde GitHub.
+Primero hice un *fork* (bifurcación) del repositorio (`roweb3`). Usé [`gh`](https://cli.github.com/) desde la terminal, pero también podría haberlo hecho manualmente desde GitHub.
 
 ```bash
 # Si no usas `gh`, hace un "fork" de ropensci/roweb3 desde GitHub
