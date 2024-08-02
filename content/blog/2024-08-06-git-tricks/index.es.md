@@ -105,6 +105,6 @@ Esto confirmó que el repositorio es mucho más grande que los que manejo normal
 
 A veces, `git clone` no es la herramienta adecuada para el trabajo que querés hacer. Un *sparse checkout* y un *pull* superficial pueden ayudarte a obtener específicamente lo que necesitas.
 
-Si disfrutás aprender con videos, podés [buscar "git" en mi canal de YouTube](https://www.youtube.com/leporemauro/search?query=git) o explorar las listas de reproducción [git](https://www.youtube.com/playlist?list=PLvgdJdJDL-AOHkwiaMvYhPKVjiD9vzZIo), [git-from-the-terminal](https://www.youtube.com/playlist?list=PLvgdJdJDL-AMyv06bsXoXkGmxmaV9U6Ts), y [git-con-la-terminal](https://www.youtube.com/playlist?list=PLvgdJdJDL-APwLSt89PJgI72UGVNUjOKl).
+Si te gusta aprender de videos, podés [buscar "git" en mi canal de YouTube](https://www.youtube.com/leporemauro/search?query=git) o explorar las listas de reproducción [git](https://www.youtube.com/playlist?list=PLvgdJdJDL-AOHkwiaMvYhPKVjiD9vzZIo), [git-from-the-terminal](https://www.youtube.com/playlist?list=PLvgdJdJDL-AMyv06bsXoXkGmxmaV9U6Ts), y [git-con-la-terminal](https://www.youtube.com/playlist?list=PLvgdJdJDL-APwLSt89PJgI72UGVNUjOKl).
 
 ¿Cuáles son tus trucos favoritos de Git? ¿Qué tal si escribís un blog post sobre ellos?
