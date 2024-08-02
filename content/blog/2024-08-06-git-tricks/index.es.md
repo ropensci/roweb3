@@ -56,7 +56,7 @@ git config core.sparseCheckout true
 echo "themes/ropensci/static/img/team/mauro*" >> .git/info/sparse-checkout
 ```
 
-* Truco 2: Usé [`--depth 1`](https://git-scm.com/docs/git-pull#Documentation/git-pull.txt---depthltdepthgt) para obtener solo la última versión de esos archivos.
+* Truco 2: Usé `git pull` con [`--depth 1`](https://git-scm.com/docs/git-pull#Documentation/git-pull.txt---depthltdepthgt) para obtener solo la última versión de esos archivos.
 
 ```bash
 git pull --depth=1 origin main
