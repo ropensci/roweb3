@@ -1,10 +1,10 @@
 ---
-title: "R-Universe"
+title: "Navigating the R ecosystem using R-universe"
 dateStart: 2024-09-24T16:00:00 # UTC!!
 dateEnd: 2024-09-24T17:00:00 # UTC!!
 date: 2024-09-24T17:00:00 # UTC!! same as dateEnd
 publishDate: 2024-08-13
-description: 
+description: An update on what R-universe is and what you can do with it today.
 author:
   - Jeroen Ooms
 organizer: Yanina Bellini Saibene
