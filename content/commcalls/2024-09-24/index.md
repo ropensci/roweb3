@@ -31,9 +31,19 @@ tags:
   - events
   - r-universe
 deets: |
-    Meeting ID:  874-1993-2577 
-    Passcode: 396025
-zoomurl: https://numfocus-org.zoom.us/j/87419932577?pwd=MGpLbGdRVG5UNUk2dmpkUnE1NjdCUT09
+    Meeting ID:  832-1335-9032 
+    Passcode: 034641
+zoomurl: https://numfocus-org.zoom.us/j/83213359032?pwd=B3DS7InxF7b6upsU0c6COonGAqabh4.1
 ---
 
+[R-Universe](/r-universe/) is rOpenSci’s platform for testing, building, distributing, and discovering R packages, lead by Jeroen Ooms. 
 
+R-Universe provides no-setup continuous integration, compilation for all platforms (including WebR!), accessible HTML R package manuals, a comprehensive API, and the ability for users or organizations to create their own “universes”.
+
+The R universe is in continuous development and in the last time the platform has evolved improving the services it offers and adding new functionalities and features. 
+
+In this community call, Jeroen Ooms will provide detailson what R-Universe is and an update on what you can do with it today. He will also discuss the future of R-universe and how it can be used to navigate the R ecosystem.
+
+Join us to learn more about R-Universe and how you can use it to improve your R package development workflow.
+
+See below for speaker bios and resources.
