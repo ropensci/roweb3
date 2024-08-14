@@ -20,9 +20,8 @@
 
         {{ $pages := (where .Site.RegularPages.ByPublishDate.Reverse ".Params.tags" "intersect" (slice "r-universe")) }} {{ if ge (len $pages) 1 }}
         <div class="author-blog">
-            <h2 class="title mt-5 mb-4">Latest posts about R-universe</h2>
-            <p><a href="/tags/r-universe">More posts...</a></p><br/>
-            {{ range (first 4 $pages) }} {{ .Render "post-short-summary-author" }} {{ end }} {{ end }}
+            <h2 class="title mt-5 mb-4">Articles about r-universe</h2>
+            {{ range $pages }} {{ .Render "post-short-summary-author" }} {{ end }} {{ end }}
         </div>
     </div>
 </section>
