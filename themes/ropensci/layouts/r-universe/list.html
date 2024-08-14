@@ -8,6 +8,17 @@
         <div class="row">
             <div class="col-lg-8 software-content content">
                 <h1>{{ .Title }}</h1>
+               {{ $t := time.AsTime "2024-09-24T17:00:00" }}
+                {{ if ge $t.UTC now.UTC }}
+                <div class="alert alert-info" role="alert">
+                  <p style="margin-bottom:1rem;">
+                    Don't miss our upcoming community call
+                    <a href="/commcalls/nov2024-r-universe/">"Navigating the R ecosystem using R-universe"</a>
+                    on Tuesday, 24 September 2024 16:00 UTC!
+                    More information on the <a href="/commcalls/nov2024-r-universe/">event page</a>.
+                  <p>
+                </div>
+                {{ end }}
                 {{ .Content }}
             </div>
             <div class="col-lg-4 mt-4">
