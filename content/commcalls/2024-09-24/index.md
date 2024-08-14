@@ -42,7 +42,7 @@ R-Universe provides no-setup continuous integration, compilation for all platfor
 
 The R universe is in continuous development and in the last time the platform has evolved improving the services it offers and adding new functionalities and features. 
 
-In this community call, Jeroen Ooms will provide detailson what R-Universe is and an update on what you can do with it today. He will also discuss the future of R-universe and how it can be used to navigate the R ecosystem.
+In this community call, Jeroen Ooms will provide details on what R-Universe is and an update on what you can do with it today. He will also discuss the future of R-universe and how it can be used to navigate the R ecosystem.
 
 Join us to learn more about R-Universe and how you can use it to improve your R package development workflow.
 
