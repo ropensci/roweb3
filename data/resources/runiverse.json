@@ -6,6 +6,12 @@
    "url": "https://r-universe.dev/"
 },
 {
+   "icon": "book fa",
+   "title": "Documentation",
+   "text": "Learn more",
+   "url": "https://docs.r-universe.dev/"
+},
+{
    "icon": "video fa",
    "title": "Getting started with R-universe",
    "text": "Recording from rOpenSci community call, May 2021",
