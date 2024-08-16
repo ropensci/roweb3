@@ -12,6 +12,20 @@
             </div>
             <div class="col-lg-4 mt-4">
                 <aside>
+        <div style="display:grid;place-items:center;margin-bottom:2rem;">
+        {{ $leaders := (shuffle (where .Site.Data.team.team "leads" "intersect" (slice "r-universe")))}}
+        <h4>Project leader{{ if gt (len $leaders) 1 }}s{{ end }}</h4>
+               {{ range $leaders}}
+              <a href="{{ .url }}" class="author">
+                <div style="display:flex;">
+                  <span class="author-img" style="margin:auto;">
+                    <img style="width:50px;height:50px" src="{{ .image }}" alt="" />
+                  </span>
+                  <span style="margin:auto; margin-left:1rem">{{ .name }}</span>
+                </div>
+              </a>
+              {{ end }}
+       </div>
                     {{ range .Site.Data.resources.runiverse }}
                     <a href="{{ .url }}" class="arrow-card"><i class="fa-{{ .icon }} pr-2"></i>{{ .title }}</a> {{ end }}
                 </aside>
