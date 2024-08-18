@@ -29,7 +29,7 @@ Getting a research grant could result in a substantial amount of resources (peop
 This has the advantage that you, as package developer, make clear to other stakeholders that your time and expertise are not for free. I see three variants on this:
 
 1. As part of your regular job with payments going directly to your employer in exchange for the hours you work on the package. This requires that the work is in line with the mission of the organization you work for, which may limit the scope of the maintenance work you can do.
-2. As side job in spare time. Some tips: make sure to not overload yourself with contractual obligations as even three hours of spare time work per week on top of a full time job can already feel like a burden, note that not all employment contracts allow for spare time consultancy.
+2. As side job in spare time. Some tips: make sure to not overload yourself with contractual obligations as even three hours of spare time work per week on top of a full time job can already feel like a burden. Also note that not all employment contracts allow for spare time consultancy.
 3. Your own (full-time) company around servicing the R package.
 
 **My experience:** For option 1 and 2 I was lucky that my employer at the time (2016-2019) facilitated me doing them. Option 1 was good for me to make some well-defined larger enhancements to the package defined in 3-6 month projects. Whereas, option 2 which I did next was great for doing projects requiring 0-10 day time investments that were too small to be of interest for my employer but perfect for resolving some issues. For the past five years I have been following option 3, which has been good for being available for both small and large projects.
