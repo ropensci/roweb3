@@ -66,7 +66,7 @@ Following the [rOpenSci package development guide](https://devguide.ropensci.org
 
 ## Increase user base
 
-Attempt to increase your package's user base and by that increase the number of stakeholders that may be able to help. For example by actively advertising your package if you have not done so before or by joining forces with a similar and/or complementary package like facilitating each others data formats.
+Attempt to increase your package's user base and by that increase the number of stakeholders that may be able to help. For example by actively [advertising your package](/blog/2024/03/07/package-marketing/) if you have not done so before or by joining forces with a similar and/or complementary package like facilitating each others data formats.
 
 **My experience:** I have prioritized making the package functional for all types of data used in our research field and the package offers the user many parameters to tailor the functionality to their own needs. Finally, I have been running an online training course to help new users get started.
 
