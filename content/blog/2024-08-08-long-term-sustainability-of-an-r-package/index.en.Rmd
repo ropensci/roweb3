@@ -30,7 +30,7 @@ Getting a research grant could result in a substantial amount of resources (peop
 
 Growing a [community](/commcalls/apr2021-pkg-community/) of code contributors around your package could reduce the work load on individual contributors. However, whether this makes things easier for you really depends on the type of contributors and how good they are. The downside of a larger community is that there is a stronger need for a good central coordination to safeguard quality. Google Season of Code and Google Season of Docs are possible avenues.
 
-**My experience:** I have had several contributors who worked on the code or helped respond to user questions. My efforts to grow the community are limited to having some documentation on how to contribute and trying to be welcoming to contributors more generally. I am not sure what else I can do to grow the community. Most of my package users are not R programmers themselves as the package is designed to for a users with very limited R experience, which is good for building a broad user community but not necessarily for building a broad developer community. I did consider [Google Season of Code](https://summerofcode.withgoogle.com/) and [Google Season of Docs](https://developers.google.com/season-of-docs) but missed the deadline twice already as the application windows for organisations was not clear to me. That said, I am also concerned that it would require too much unpaid time investment.
+**My experience:** I have had several contributors who worked on the code or helped respond to user questions. My efforts to grow the community are limited to having some documentation on how to contribute and trying to be welcoming to contributors more generally. I am not sure what else I can do to grow the community. Most of my package users are not R programmers themselves as the package is designed to for a users with very limited R experience, which is good for building a broad user community but not necessarily for building a broad developer community. I did consider [Google Season of Code](https://summerofcode.withgoogle.com/) and [Google Season of Docs](https://developers.google.com/season-of-docs) but missed the deadline twice already as the application windows for organisations was not clear to me. That said, I am also concerned that it would require too much unpaid time investment from me.
 
 ## Maintenance as a paid service
 
@@ -46,7 +46,7 @@ This has the advantage that you, as package developer, make clear to other stake
 
 Student projects can help to review, test, and improve a package. However, students expect active coaching and project goals relevant to their degree.
 
-**My experience:** One PhD-student, Jairo Migueles, who used the package in his thesis project (2016-2020) helped fix bugs and enhancing the code. Currently there is another PhD-student, Gaia Segantin, who is proof reading the elaborate almost book-style [narrative documentation](https://wadpac.github.io/GGIR/) that we recently added. Their efforts have been valuable.
+**My experience:** One PhD-student, Jairo Migueles, who used the package in his thesis project (2016-2020) helped fix bugs and enhancing the code. Currently there is another PhD-student, Gaia Segantin, who is proof-reading the elaborate almost book-style [narrative documentation](https://wadpac.github.io/GGIR/) that we recently added. Their efforts have been valuable.
 
 ## Focus on publications
 
@@ -87,7 +87,7 @@ Your relentless efforts to maintain the package may be the exact reason why othe
 3.	Full temporary break: Not available for any work but back in X months.
 4.	Partial temporary break: Only available for essential maintenance.
 
-Note that this approach may actually be better than being a maintainer in name only but hardly spending time on the package.
+Note that this approach may actually be better than being a maintainer in name only without spending time on the package. By clearly communicating the maintenance status to users and potential contributors, you avoid false expectations.
 
 On a side note - If there is another R package with similar functionality as yours then it may actually be worth considering stopping maintenance and deprecating your package as it may help to channel scarce maintenance efforts towards this other package.
 
