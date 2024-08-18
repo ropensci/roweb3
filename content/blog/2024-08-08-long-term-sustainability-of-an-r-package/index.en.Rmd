@@ -89,7 +89,7 @@ Note that this approach may actually be better than being a maintainer in name o
 
 On a side note - If there is another R package with similar functionality as yours then it may actually be worth considering stopping maintenance and deprecating your package as it may help to channel scarce maintenance efforts towards this other package.
 
-**My experience:** At the moment, doing any of these would conflict with my business interests as maintenance requests are a potential source of income for me. However, if I would stop my business then stopping the maintenance (fully, temporarily or partially) could be a strategy.
+**My experience:** At the moment, doing any of these would conflict with my business interests as maintenance requests are a potential source of income for me. However, if I stopped my business then stopping the maintenance (fully, temporarily or partially) could be a strategy.
 
 ## Unpaid spare time efforts
 
