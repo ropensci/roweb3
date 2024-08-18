@@ -14,7 +14,7 @@ R packages, like any software, require maintenance. Package maintenance includes
 - Fixing bugs when discovered.
 - Adapting to updates in package dependencies.
 - Providing some level of user and contributor support.
-- When desired refactor code or add new functionality.
+- When desired, refactoring code or adding new functionality.
 
 Without maintenance efforts a package is at risk of losing its value. Yet, maintaining a package for years or even decades can be challenging as it is time consuming. Therefore, it is important for any package maintainer to adopt a strategy for sustaining the maintenance effort. In this blog post I share all possible strategies I have explored myself.
 
