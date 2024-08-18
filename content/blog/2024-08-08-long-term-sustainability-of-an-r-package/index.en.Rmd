@@ -36,7 +36,7 @@ This has the advantage that you, as package developer, make clear to other stake
 
 ## Build developer community
 
-Growing a community of code contributors around your package could reduce the work load on individual contributors. However, whether this makes things easier for you really depends on the type of contributors and how good they are. The downside of a larger community is that there is a stronger need for a good central coordination to safeguard quality.
+Growing a [community](/commcalls/apr2021-pkg-community/) of code contributors around your package could reduce the work load on individual contributors. However, whether this makes things easier for you really depends on the type of contributors and how good they are. The downside of a larger community is that there is a stronger need for a good central coordination to safeguard quality.
 
 **My experience:** I have had several contributors who worked on the code or helped respond to user questions. My efforts to grow the community are limited to having some documentation on how to contribute and trying to be welcoming to contributors more generally. I am not sure what else I can do to grow the community. Most of my package users are not R programmers themselves as the package is designed to for a users with very limited R experience, which is good for building a broad user community but not necessarily for building a broad developer community.
 
