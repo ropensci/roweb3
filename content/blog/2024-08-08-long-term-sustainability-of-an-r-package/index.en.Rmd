@@ -16,13 +16,21 @@ R packages, like any software, require [maintenance](/blog/2023/02/07/what-does-
 - Providing some level of user and contributor support.
 - When desired, refactoring code or adding new functionality.
 
-Without maintenance efforts a package is at risk of losing its value. Yet, maintaining a package for years or even decades can be challenging as it is time consuming. Therefore, it is important for any package maintainer to adopt a strategy for sustaining the maintenance effort. In this blog post I share all possible strategies I have explored myself.
+Without maintenance efforts a package is at risk of losing its value. Yet, maintaining a package for years or even decades can be challenging as it is time consuming. Therefore, it is important for any package maintainer to adopt a strategy for sustaining the maintenance effort. In this blog post I share my own experience with a variety of strategies that I have explored myself.
+
+About me: I created and maintain [R package GGIR](https://wadpac.github.io/GGIR/) since 2013. GGIR is a processing pipeline for wearable movement sensor data. GGIR is designed for researchers with typically limited to no programming skills. As such the package attempts to automate the entire process from raw binary data handling and quality assessment to the generation of a research friendly summary report. The growing demand for enhancements and support led me to start my own business, [Accelting](https://www.accelting.com/) in 2019.
 
 ## Research grants
 
 Getting a research grant could result in a substantial amount of resources (people time) for a certain period of time. This option is most realistic if you are an academic. There may not be many funding calls dedicated to research software maintenance, but it may be possible to incorporate some time for package maintenance in a grant proposal if it is a logical step towards achieving your research goals. Applying for research grants is not necessarily something a non-academic package author would do, but they could encourage the academics who use the package to account for package maintenance time in their grant applications.
 
 **My experience:** So far, several users of my package have successfully applied for research grants to pay for enhancements of the package. I do not apply for grants myself as I think it is more convincing if a package user asks for it.
+
+## Build developer community
+
+Growing a [community](/commcalls/apr2021-pkg-community/) of code contributors around your package could reduce the work load on individual contributors. However, whether this makes things easier for you really depends on the type of contributors and how good they are. The downside of a larger community is that there is a stronger need for a good central coordination to safeguard quality. Google Season of Code and Google Season of Docs are possible avenues.
+
+**My experience:** I have had several contributors who worked on the code or helped respond to user questions. My efforts to grow the community are limited to having some documentation on how to contribute and trying to be welcoming to contributors more generally. I am not sure what else I can do to grow the community. Most of my package users are not R programmers themselves as the package is designed to for a users with very limited R experience, which is good for building a broad user community but not necessarily for building a broad developer community. I did consider [Google Season of Code](https://summerofcode.withgoogle.com/) and [Google Season of Docs](https://developers.google.com/season-of-docs) but missed the deadline twice already as the application windows for organisations was not clear to me. That said, I am also concerned that it would require too much unpaid time investment.
 
 ## Maintenance as a paid service
 
@@ -34,17 +42,11 @@ This has the advantage that you, as package developer, make clear to other stake
 
 **My experience:** For option 1 and 2 I was lucky that my employer at the time (2016-2019) facilitated me doing them. Option 1 was good for me to make some well-defined larger enhancements to the package defined in 3-6 month projects. Whereas, option 2 which I did next was great for doing projects requiring 0-10 day time investments that were too small to be of interest for my employer but perfect for resolving some issues. For the past five years I have been following option 3, which has been good for being available for both small and large projects.
 
-## Build developer community
-
-Growing a [community](/commcalls/apr2021-pkg-community/) of code contributors around your package could reduce the work load on individual contributors. However, whether this makes things easier for you really depends on the type of contributors and how good they are. The downside of a larger community is that there is a stronger need for a good central coordination to safeguard quality.
-
-**My experience:** I have had several contributors who worked on the code or helped respond to user questions. My efforts to grow the community are limited to having some documentation on how to contribute and trying to be welcoming to contributors more generally. I am not sure what else I can do to grow the community. Most of my package users are not R programmers themselves as the package is designed to for a users with very limited R experience, which is good for building a broad user community but not necessarily for building a broad developer community.
-
 ## Academic student projects
 
 Student projects can help to review, test, and improve a package. However, students expect active coaching and project goals relevant to their degree.
 
-**My experience:** One PhD-student who used the package in his thesis project helped fix bugs and enhancing the code. Currently there is a PhD-student who is proof reading the elaborate almost book-style [narrative documentation](https://wadpac.github.io/GGIR/) that we recently added. Their efforts have been valuable.
+**My experience:** One PhD-student, Jairo Migueles, who used the package in his thesis project (2016-2020) helped fix bugs and enhancing the code. Currently there is another PhD-student, Gaia Segantin, who is proof reading the elaborate almost book-style [narrative documentation](https://wadpac.github.io/GGIR/) that we recently added. Their efforts have been valuable.
 
 ## Focus on publications
 
