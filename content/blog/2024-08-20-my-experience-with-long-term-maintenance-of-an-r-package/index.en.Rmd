@@ -116,4 +116,4 @@ I hope you found this list of sustainability strategies useful, either for your 
 
 ## Acknowledgements
 
-This blog post is based on a [blog post](https://blog.esciencecenter.nl/10-ways-to-keep-your-successful-scientific-software-alive-61ac81f36a87) I wrote in 2017, but updated with my experiences from the past 7 years and now tailored to the rOpenSci community. Special thanks to [Maëlle Salmon](http://www.masalmon.eu/) for reviewing and providing feedback on this blog post.
+This blog post is based on a [blog post](https://blog.esciencecenter.nl/10-ways-to-keep-your-successful-scientific-software-alive-61ac81f36a87) I wrote in 2017, but updated with my experiences from the past 7 years and now tailored to the rOpenSci community. Special thanks to [Maëlle Salmon](https://masalmon.eu) for reviewing and providing feedback on this blog post.
