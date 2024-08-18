@@ -8,6 +8,17 @@
         <div class="row">
             <div class="col-lg-8 software-content content">
                 <h1>{{ .Title }}</h1>
+               {{ $t := time.AsTime "2024-09-24T17:00:00" }}
+                {{ if ge $t.UTC now.UTC }}
+                <div class="alert alert-info" role="alert">
+                  <p style="margin-bottom:1rem;">
+                    Don't miss our upcoming community call
+                    <a href="/commcalls/nov2024-r-universe/">"Navigating the R ecosystem using R-universe"</a>
+                    on Tuesday, 24 September 2024 16:00 UTC!
+                    More information on the <a href="/commcalls/nov2024-r-universe/">event page</a>.
+                  <p>
+                </div>
+                {{ end }}
                 {{ .Content }}
             </div>
             <div class="col-lg-4 mt-4">
@@ -20,9 +31,8 @@
 
         {{ $pages := (where .Site.RegularPages.ByPublishDate.Reverse ".Params.tags" "intersect" (slice "r-universe")) }} {{ if ge (len $pages) 1 }}
         <div class="author-blog">
-            <h2 class="title mt-5 mb-4">Latest posts about R-universe</h2>
-            <p><a href="/tags/r-universe">More posts...</a></p><br/>
-            {{ range (first 4 $pages) }} {{ .Render "post-short-summary-author" }} {{ end }} {{ end }}
+            <h2 class="title mt-5 mb-4">Articles about r-universe</h2>
+            {{ range $pages }} {{ .Render "post-short-summary-author" }} {{ end }} {{ end }}
         </div>
     </div>
 </section>
