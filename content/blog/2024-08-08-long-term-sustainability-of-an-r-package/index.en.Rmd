@@ -6,6 +6,7 @@ slug: "long-term-sustainability-of-an-r-package"
 tags:
 - maintenance
 - sustainability
+- community
 ---
 
 R packages, like any software, require maintenance. Package maintenance includes:
