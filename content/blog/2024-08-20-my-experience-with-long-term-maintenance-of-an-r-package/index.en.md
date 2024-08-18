@@ -1,8 +1,8 @@
 ---
-title: "Long Term Sustainability of An R Package"
+title: "My Experience With Long Term Maintenance Of An R Package"
 author: "Vincent van Hees"
-date: "2024-08-08"
-slug: "long-term-sustainability-of-an-r-package"
+date: "2024-08-20"
+slug: "my-experience-with-long-term-maintenance-of-an-r-package"
 tags:
 - maintenance
 - sustainability
