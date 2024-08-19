@@ -95,8 +95,12 @@ DefaultContentLanguage = "en"
     noHl = false
     tabWidth = 4
   [markup.goldmark]
+    [markup.goldmark.renderHooks]
+      [markup.goldmark.renderHooks.link]
+        enableDefault = false
     [markup.goldmark.renderer]
       unsafe = true
+      #https://gohugo.io/render-hooks/links/#default
     [markup.goldmark.parser]
       autoHeadingID = true
       autoHeadingIDType = 'github'
