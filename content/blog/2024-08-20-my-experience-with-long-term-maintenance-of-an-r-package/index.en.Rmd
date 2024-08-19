@@ -19,7 +19,7 @@ R packages, like any software, require [maintenance](/blog/2023/02/07/what-does-
 - Providing some level of user and contributor support.
 - When desired, refactoring code or adding new functionality.
 
-Without maintenance efforts a package is at risk of losing its value. Yet, maintaining a package for years or even decades can be challenging as it is time consuming. Therefore, it is important for any package maintainer to adopt a strategy for sustaining the maintenance effort. In this blog post I share my own experience with a variety of strategies that I have explored myself. For readability I have categorised them into:
+Without maintenance efforts a package is at risk of losing its value. Yet, maintaining a package for years or even decades can be challenging as it is time consuming. Therefore, it is important for any package maintainer to adopt a strategy for sustaining the maintenance effort. In this blog post I share my own experience with a variety of strategies that I have explored myself. For readability I have categorized them into:
 
 - Funding: Ways to pay for maintenance time.
 - Community: Ways to involve others.
@@ -74,13 +74,13 @@ Attempt to increase your package's user base and by that increase the number of 
 
 Student projects can help to review, test, and improve a package. However, students expect active coaching and project goals relevant to their degree.
 
-**My experience:** One PhD-student, Jairo Migueles, who used the package in his thesis project (2016-2020) helped fix bugs and enhancing the code. Currently there is another PhD-student, Gaia Segantin, who is proof-reading the elaborate almost book-style [narrative documentation](https://wadpac.github.io/GGIR/) that we recently added. Their efforts have been valuable.
+**My experience:** One PhD-student, Jairo Migueles, who used the package in his thesis project (2016-2020) helped fix bugs and enhance the code. Currently there is another PhD-student, Gaia Segantin, who is proof-reading the elaborate almost book-style [narrative documentation](https://wadpac.github.io/GGIR/) that we recently added. Their efforts have been valuable.
 
 ### Build developer community
 
-Growing a [community](/commcalls/apr2021-pkg-community/) of code contributors around your package could reduce the work load on individual contributors. However, whether this makes things easier for you really depends on the type of contributors and how good they are. The downside of a larger community is that there is a stronger need for a good central coordination to safeguard quality. Google Season of Code and Google Season of Docs are possible avenues.
+Growing a [community](/commcalls/apr2021-pkg-community/) of code contributors around your package could reduce the work load on individual contributors. However, whether this makes things easier for you really depends on the type of contributors and how good they are. The downside of a larger community is that there is a stronger need for a good central coordination to safeguard quality. Google Season of Code [^2] and Google Season of Docs [^3] are possible avenues.
 
-**My experience:** I have had several contributors who worked on the code or helped respond to user questions. My efforts to grow the community are limited to having some documentation on how to contribute and trying to be welcoming to contributors more generally. I am not sure what else I can do to grow the community. Most of my package users are not R programmers themselves as the package is designed to for a users with very limited R experience, which is good for building a broad user community but not necessarily for building a broad developer community. I did consider Google Season of Code [^2] and Google Season of Docs [^3] but missed the deadline twice already as the application windows for organisations was not clear to me.
+**My experience:** I have had several contributors who worked on the code or helped respond to user questions. My efforts to grow the community are limited to having some documentation on how to contribute and trying to be welcoming to contributors more generally. I am not sure what else I can do to grow the community. Most of my package users are not R programmers themselves as the package is designed to for a users with very limited R experience, which is good for building a broad user community but not necessarily for building a broad developer community. I did consider Google Season of Code and Google Season of Docs but missed the deadline twice already as the application windows for organisations was not clear to me.
 
 ### Outsource the maintenance work
 
