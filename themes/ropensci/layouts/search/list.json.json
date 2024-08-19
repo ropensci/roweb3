@@ -46,7 +46,7 @@
 	"tags": "{{ $page.Params.tags }}"
 }
 {{- end -}},
-{{ $registry := getJSON .Site.Params.registry }}
+{{ $registry := (resources.GetRemote .Site.Params.registry) | unmarshal }}
 {{ range $index, $page := $registry.packages }}
 {{- if and $index (gt $index 0) -}},{{- end }}
 {
