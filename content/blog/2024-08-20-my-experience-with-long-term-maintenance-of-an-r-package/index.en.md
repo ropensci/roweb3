@@ -44,7 +44,7 @@ Getting a research grant could result in a substantial amount of resources (peop
 
 Package stakeholders are those who benefit from the ongoing maintenance of the package, which include:
 
-i. The package users
+i. The package users.
 ii. Those who benefit from the work done by package users, e.g. colleagues of the package user or their supervisor.
 iii. Yourself, because being the maintainer could look good on your resume.
 
@@ -54,7 +54,7 @@ Maintenance as a paid service has the advantage that you, as package maintainer,
 2. As side job in spare time. Some tips: make sure to not overload yourself with contractual obligations as even three hours of spare time work per week on top of a full time job can already feel like a burden. Also note that not all employment contracts allow for spare time consultancy.
 3. Your own (full-time) company around servicing the R package.
 
-**My experience:** For option 1 and 2 I was lucky that my employer at the time (2016-2019) facilitated me doing them. Option 1 was good for me to make some well-defined larger enhancements to the package defined in 3-6 month projects. Whereas, option 2 which I did next was great for doing projects requiring 0-10 day time investments that were too small to be of interest for my employer but perfect for resolving some issues. For the past five years I have been following option 3, which has been good for being available for both small and large projects. It is usually the group ii listed above that either has budget or knows how to find it. So, it is usually not the package users who are my clients but those around the users.
+**My experience:** For option 1 and 2 I was lucky that my employer at the time (2016-2019) facilitated me doing them. Option 1 was good for me to make some well-defined larger enhancements to the package defined in 3-6 month projects. Whereas, option 2 which I did next was great for doing projects requiring 0-10 day time investments that were too small to be of interest for my employer but perfect for resolving some issues. For the past five years I have been following option 3, which has been good for being available for both small and large projects. My clients are typically from group ii listed above because they either have budget or know how to find it.
 
 ### Unpaid spare time efforts
 
@@ -80,7 +80,7 @@ Student projects can help to review, test, and improve a package. However, stude
 
 Growing a [community](/commcalls/apr2021-pkg-community/) of code contributors around your package could reduce the work load on individual contributors. However, whether this makes things easier for you really depends on the type of contributors and how good they are. The downside of a larger community is that there is a stronger need for a good central coordination to safeguard quality. Google Season of Code and Google Season of Docs are possible avenues.
 
-**My experience:** I have had several contributors who worked on the code or helped respond to user questions. My efforts to grow the community are limited to having some documentation on how to contribute and trying to be welcoming to contributors more generally. I am not sure what else I can do to grow the community. Most of my package users are not R programmers themselves as the package is designed to for a users with very limited R experience, which is good for building a broad user community but not necessarily for building a broad developer community. I did consider [Google Season of Code](https://summerofcode.withgoogle.com/) and [Google Season of Docs](https://developers.google.com/season-of-docs) but missed the deadline twice already as the application windows for organisations was not clear to me.
+**My experience:** I have had several contributors who worked on the code or helped respond to user questions. My efforts to grow the community are limited to having some documentation on how to contribute and trying to be welcoming to contributors more generally. I am not sure what else I can do to grow the community. Most of my package users are not R programmers themselves as the package is designed to for a users with very limited R experience, which is good for building a broad user community but not necessarily for building a broad developer community. I did consider Google Season of Code [^2] and Google Season of Docs [^3] but missed the deadline twice already as the application windows for organisations was not clear to me.
 
 ### Outsource the maintenance work
 
