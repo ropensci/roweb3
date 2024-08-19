@@ -101,7 +101,7 @@ If you are an academic, focusing on academic publications that are about the pac
 
 Following the [rOpenSci package development guide](https://devguide.ropensci.org/) will reduce the effort needed to maintain the package, and will make it easier for outsiders to contribute. Needless to say that community guidelines do not generate time (salary) for people to actually do the maintenance. Therefore, following community guidelines is best combined with other options mentioned in this blog post.
 
-**My experience:** I started my package in 2013 when I did not have peers to coach me. Submitting the package to CRAN helped me to become aware and comply with the community standards at the time. Further, I learned about unit-testing and the concepts of clean code in my work from 2015-2019, which also helped to boost package quality. I know the package is still not perfect, but I see it as a gradual process where every year I try to make the package a bit more compliant with standards.
+**My experience:** I started my package in 2013 when I did not have peers to coach me. Submitting the package to CRAN helped me to become aware and comply with the community standards at the time. Further, I learned about unit-testing and the concepts of clean code in the job I had between 2015 and 2019, which also helped to boost package quality. I know the package is still not perfect, but I see it as a gradual process where every year I try to make the package a bit more compliant with standards.
 
 ### Reduce cost
 
