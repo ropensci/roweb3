@@ -115,8 +115,8 @@ Your relentless efforts to maintain the package may be the exact reason why othe
 
 1.	Full permanent retirement: Not available for any work except for hand-over to a new maintainer.
 2.	Partial permanent retirement: Only available for essential maintenance.
-3.	Full temporary break: Not available for any work but back in X months.
-4.	Partial temporary break: Only available for essential maintenance.
+3.	Full temporary break: Not available for any work for X months but return afterward.
+4.	Partial temporary break: Only available for essential maintenance for X months and return afterward.
 
 Note that this approach may actually be better than being a maintainer in name only without spending time on the package. By clearly communicating the maintenance status to users and potential contributors, you avoid false expectations.
 
