@@ -67,7 +67,7 @@ Growing a [community](/commcalls/apr2021-pkg-community/) of code contributors ar
 
 ### Outsource the maintenance work
 
-Outsourcing to commercial parties could be an option if you, lack access to software engineers and do not have time yourself, but already have financial resources, and if you have clearly defined package maintenance target(s).
+Outsourcing to commercial parties could be an option if you lack access to software engineers and do not have time yourself, but already have financial resources, and if you have clearly defined package maintenance target(s).
 
 **My experience:** I have outsourced some of the maintenance work items to other freelancers when either I did not have time for it or if I felt that my skills in a certain were insufficient.
 
