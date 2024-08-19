@@ -25,7 +25,7 @@ Without maintenance efforts a package is at risk of losing its value. Yet, maint
 - Community: Ways to involve others.
 - Scope: Strategic decisions on how to approach the maintenance effort.
 
-Before I start, it may be good to briefly summarize my own package maintenance experience. I created and maintain [R package GGIR](https://wadpac.github.io/GGIR/) since 2013. GGIR is a processing pipeline for wearable movement sensor data used in sleep and physical activity research. GGIR is designed for researchers with typically limited to no programming skills. As such, GGIR attempts to automate the entire process from raw binary data handling and quality assessment to the generation of research friendly summary reports. The growing demand for enhancements and support for GGIR in 2019 led me to start my own business, [Accelting](https://www.accelting.com/).
+Before I start, it may be good to briefly summarize my own package maintenance experience. I created and maintain the [R package GGIR](https://wadpac.github.io/GGIR/) since 2013. GGIR is a processing pipeline for wearable movement sensor data used in sleep and physical activity research. GGIR is designed for researchers with typically limited to no programming skills. As such, GGIR attempts to automate the entire process from raw binary data handling and quality assessment to the generation of research friendly summary reports. The growing demand for enhancements and support for GGIR in 2019 led me to start my own business, [Accelting](https://www.accelting.com/).
 
 ## Funding
 
