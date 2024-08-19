@@ -107,7 +107,7 @@ Following the [rOpenSci package development guide](https://devguide.ropensci.org
 
 Try to minimize the amount of package components you develop and maintain yourself by aiming to rely as much as possible on off the shelf solutions developed and maintained by others, either commercially or open-source.
 
-**My experience:** I had a few bad experiences with dependencies being deprecated, by which I have become more careful in adding dependencies. Also, I sometimes find it difficult to find off the shelf solutions for what I need. That said, if I find a well maintained R package that offers a functionality I need in a few lines of code that I cannot write myself easily in base R code then I will consider it as a dependency.
+**My experience:** I had a few bad experiences with dependencies being deprecated, by which I have become more careful in adding dependencies. Also, I sometimes find it difficult to find off the shelf solutions for what I need. That said, if I find a well maintained R package that offers a functionality I need in a few lines of code that I cannot write myself easily in base R code then I will consider it as a dependency in line with the guidance by https://r-pkgs.org/dependencies-mindset-background.html.
 
 ### Do what nobody expects: Stop maintenance
 
