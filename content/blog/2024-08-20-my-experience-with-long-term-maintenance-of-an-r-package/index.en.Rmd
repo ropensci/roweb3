@@ -10,6 +10,7 @@ tags:
 - maintenance
 - sustainability
 - community
+description: "I discuss various strategies for package maintenance, drawing on my experience with the GGIR package, and explore how funding, community involvement, and scope management can help ensure continued success"
 ---
 
 R packages, like any software, require [maintenance](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/). Package maintenance includes:
