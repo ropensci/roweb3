@@ -7,6 +7,7 @@ description: "A multilingual webinar on screen reader accessible tools and resou
 location: 'online' # free text
 slug: "rsr-learn-and-use"
 country: "🌐" # emoji
+coworking: true
 ropensci: yes
 outputs:
   - HTML
@@ -14,8 +15,8 @@ outputs:
 attendees:
   - Alican Cagri Gokcek
   - Liz Hare
-  - Yanina Bellini Saibene
   - Engine Yilmaz
+  - Yanina Bellini Saibene
 author:
   - Alican Cagri Gokcek
 deets: |
