@@ -124,6 +124,8 @@ If you're interested in maintaining any of the R packages below, you might enjoy
 
 * [USAboundaries](https://docs.ropensci.org/USAboundaries/) (and USAboundariesdata), historical and contemporary boundaries of the United States of America . [Issue for volunteering](https://github.com/ropensci/USAboundaries/issues/50).
 
+* [historydata](https://docs.ropensci.org/historydata/), datasets for historians. [Issue for volunteering](https://github.com/ropensci/historydata/issues/23).
+
 ### Calls for contributions
 
 * [Help make qualtRics better! Code contributions wanted](/blog/2024/03/01/qualtrics-call-help/)
