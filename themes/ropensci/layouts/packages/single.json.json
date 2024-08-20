@@ -1,4 +1,4 @@
-[{{ $registry := getJSON .Site.Params.registry }}
+[{{ $registry := (resources.GetRemote .Site.Params.registry) | unmarshal }}
 {{ $Scratch := newScratch }}
 {{ if eq .Params.slug "all" }}
 {{ $Scratch.Set "pkgs" $registry.packages }}

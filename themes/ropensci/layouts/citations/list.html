@@ -14,7 +14,7 @@
             </p>
           </div>
         </div>
-        {{ $registry := getJSON .Site.Params.registry }}
+        {{ $registry := (resources.GetRemote .Site.Params.registry) | unmarshal }}
 {{ $scratch := newScratch }}
 
 {{ $scratch.Set "package" (slice "absolutelynotapackage" ) }}
@@ -27,7 +27,7 @@
 {{ $scratch.Add "activepackage" .name }}
 {{ end }}
         <div class="row case-cards mt-5">
-          {{ $citations := getJSON .Site.Params.citations }}
+          {{ $citations := (resources.GetRemote .Site.Params.citations) | unmarshal }}
           {{ range $index, $element := (first 3 ( shuffle (where $citations "name" "intersect" ($scratch.Get "activepackage")) ) ) }}
           <div class="col-md-4" id="{{ $index }}">
             <div class="case-card">
