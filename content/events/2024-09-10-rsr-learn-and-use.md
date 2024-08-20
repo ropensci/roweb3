@@ -30,3 +30,5 @@ This multilingual webinar will be held on September 10, 2024, at 17:00 UTC via Z
 The webinar is organized by rOpenSci's Champions, [Alican Cagri Gokcek](/author/alican-cagri-gokcek/), in collaboration with [Engine Yilmaz](http://www.drenginyilmaz.net) from [Boğaziçi University](https://bogazici.edu.tr/en-US/Index) (Turkey).
 
 Our Community Manager, [Yani Bellini Saibene](/author/yanina-bellini-saibene/), will moderate a panel featuring [Liz Hare](/author/liz-hare/) and [Alican Cagri Gokcek](/author/alican-cagri-gokcek/), both participants in our [Champions Program](/champions/), as speakers. Cagri and Liz will share their experiences with screen reader-accessible tools and resources for learning and working with R from the perspectives of a beginner and an experienced R user. They will also discuss their experiences in the rOpenSci Champions Program.
+
+The panel will be followed by a Q&A session. Join us to chat with our speakers! 
