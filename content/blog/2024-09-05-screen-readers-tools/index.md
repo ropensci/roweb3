@@ -3,8 +3,11 @@ slug: screen-readers-tools
 title: Resources For Using R With Screen Readers
 author:
   - Liz Hare
+<<<<<<< Updated upstream
 editor:
   - Steffi LaZerte
+=======
+>>>>>>> Stashed changes
   - Yanina Bellini Saibene
 date: "2024-09-05"
 tags:
