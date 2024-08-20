@@ -160,7 +160,7 @@ If you maintain an rOpenSci package, you might have already gotten a [pull reque
 Remember Athanasia Mo Mowinckel's post about the [IDEs she uses](https://drmowinckels.io/blog/2024/ide/)?
 She wrote a follow-up about the new IDE by Posit, [Positron](https://drmowinckels.io/blog/2024/positron/).
 
-### Fix and fix problems in R code automatically!
+### Find and fix problems in R code automatically!
 
 Etienne Bacher created an enticing R package called [flint](https://flint.etiennebacher.com/), that finds _and fixes_ lints in R code.
 Imagine [lintr](https://lintr.r-lib.org/) being as active as [styler](https://styler.r-lib.org/) instead of just telling you what to amend. :grin:
