@@ -557,6 +557,8 @@ if (length(tech_notes) > 0) {
 
 If you're interested in maintaining any of the R packages below, you might enjoy reading our blog post [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/).
 
+* [medrxivr](https://docs.ropensci.org/medrxivr/), access and search MedRxiv and BioRxiv preprint data. [Issue for volunteering](https://github.com/ropensci/medrxivr/issues/41).
+
 * [USAboundaries](https://docs.ropensci.org/USAboundaries/) (and USAboundariesdata), historical and contemporary boundaries of the United States of America . [Issue for volunteering](https://github.com/ropensci/USAboundaries/issues/50).
 
 * [historydata](https://docs.ropensci.org/historydata/), datasets for historians. [Issue for volunteering](https://github.com/ropensci/historydata/issues/23).
