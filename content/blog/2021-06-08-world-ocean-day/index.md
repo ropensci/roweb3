@@ -169,10 +169,6 @@ Projected CRS: NSIDC Sea Ice Polar Stereographic North
 
 Here it's important to use `do_union = FALSE` because we don't want the order of the points to change (otherwise when we plot we'll get [@accidental__aRt](https://twitter.com/accidental__aRt)!)
 
-{{< tweet user="c_borstell" id="1374726320047980549" >}}
-
-
-
 Let's take a peak at what we've got
 
 ```r 
