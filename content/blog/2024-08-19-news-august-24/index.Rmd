@@ -596,6 +596,7 @@ If you maintain an rOpenSci package, you might have already gotten a [pull reque
 
 Remember Athanasia Mo Mowinckel's post about the [IDEs she uses](https://drmowinckels.io/blog/2024/ide/)?
 She wrote a follow-up about the new IDE by Posit, [Positron](https://drmowinckels.io/blog/2024/positron/).
+Other new IDE developments include [Zed AI](https://zed.dev/blog/zed-ai).
 
 ### Find and fix problems in R code automatically!
 
