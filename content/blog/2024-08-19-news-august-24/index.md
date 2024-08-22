@@ -28,6 +28,27 @@ On [Tuesday, 24 September 2024 16:00 UTC](/commcalls/nov2024-r-universe/) (no RS
 In this community call, [Jeroen Ooms](/author/jeroen-ooms/) will provide details on what R-Universe is and an update on what you can do with it today. 
 He will also discuss the future of R-universe and how it can be used to navigate the R ecosystem.
 
+### Webinar: Screen Reader Accessible Tools and Resources for Learning and Working with R
+
+[Liz Hare](/author/liz-hare/) and [Alican Cagri Gokcek](/author/alican-cagri-gokcek/), both participants in our [Champions Program](/champions/) will participate in a [panel]((/events/rsr-learn-and-use/)) sharing their experiences with screen reader-accessible tools and resources for learning and working with R.
+
+The [event]((/events/rsr-learn-and-use/)) is co-organized by rOpenSci and the [Boğaziçi University](https://bogazici.edu.tr/en-US/Index) and will be held on **September 10**. 
+
+### Blog post series: two years and twelve projects as Community Manager at rOpenSci
+
+In June 2022 Yani became the community manager of rOpenSci. 
+She started a [series of blog posts](https://yabellini.netlify.app/blog/2024-06-23-ropensci-2years-cm-en/)) to share 12 projects she was involved in these two years to tell you more about the kind of work and activities a community manager of a technology community of practice does and what she learned in the process.
+
+The series is also available in [Spanish](https://yabellini.netlify.app/blog/2024-06-23-ropensci-2years-cm/). 
+
+### Our stats on all CRAN packages now updated daily
+
+rOpenSci's [pkgstats](https://docs.ropensci.org/pkgstats) package generates summary statistics on R packages.
+Our [pkgcheck](https://docs.ropensci.org/pkgcheck) system compares the statistical properties of packages being checked with equivalent properties of all CRAN packages.
+We now generate daily updates of our reference database of [pkgstats](https://docs.ropensci.org/pkgstats) for all CRAN packages, so the [pkgcheck](https://docs.ropensci.org/pkgcheck) output will always be against the current state of CRAN.
+The databases are published with [the v0.1.6 release of pkgstats](https://github.com/ropensci-review-tools/pkgstats/releases/tag/v0.1.6), and can be downloaded from there.
+Alternatively, to know how "noteworthy" your package is compared to CRAN packages, simply call [pkgcheck](https://docs.ropensci.org/pkgcheck) on your package (perhaps with `goodpractice = FALSE` to speed things up by skipping those parts of checks). Then, either print the results directly in the console, or use `out <- checks_to_markdown(checks, render = TRUE)` to generate and automatically open a rendered HTML version, where "Statistical Properties" will include the comparison of your package to all current CRAN packages.
+
 ### The rOpenSci community at upcoming events
 
 Meet rOpenSci team and community members at events in the near future!
@@ -116,6 +137,8 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 * [Git Tricks for Working with Large Repositories](/blog/2024/08/06/git-tricks) by Mauro Lepore. `git clone` isn't always the right tool. Other languages: <a href='/es/blog/2024/08/06/git-tricks' lang='es'>Trucos de Git para trabajar con repositorios grandes (es)</a>.
 
+* [My Experience With Long Term Maintenance Of An R Package](/blog/2024/08/20/my-experience-with-long-term-maintenance-of-an-r-package) by Vincent van Hees. I discuss various strategies for package maintenance, drawing on my experience with the GGIR package, and explore how funding, community involvement, and scope management can help ensure continued success.
+
 ## Calls for contributions
 
 ### Calls for maintainers
@@ -161,6 +184,8 @@ If you maintain an rOpenSci package, you might have already gotten a [pull reque
 
 Remember Athanasia Mo Mowinckel's post about the [IDEs she uses](https://drmowinckels.io/blog/2024/ide/)?
 She wrote a follow-up about the new IDE by Posit, [Positron](https://drmowinckels.io/blog/2024/positron/).
+
+Other new IDE developments include [Zed AI](https://zed.dev/blog/zed-ai).
 
 ### Find and fix problems in R code automatically!
 
