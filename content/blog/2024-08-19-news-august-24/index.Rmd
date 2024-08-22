@@ -80,7 +80,7 @@ rOpenSci's [pkgstats](https://docs.ropensci.org/pkgstats) package generates summ
 Our [pkgcheck](https://docs.ropensci.org/pkgcheck) system compares the statistical properties of packages being checked with equivalent properties of all CRAN packages.
 We now generate daily updates of our reference database of [pkgstats](https://docs.ropensci.org/pkgstats) for all CRAN packages, so the [pkgcheck](https://docs.ropensci.org/pkgcheck) output will always be against the current state of CRAN.
 The databases are published with [the v0.1.6 release of pkgstats](https://github.com/ropensci-review-tools/pkgstats/releases/tag/v0.1.6), and can be downloaded from there.
-Alternatively, simply call [pkgcheck](https://docs.ropensci.org/pkgcheck) on your package (perhaps with `goodpractice = FALSE` to speed things up by skipping those parts of checks), and either print the results directly in the console, or use `out <- checks_to_markdown(checks, render = TRUE)` to generate and automatically open a rendered HTML version, where "Statistical Properties" will include the comparison of your package to all current CRAN packages.
+Alternatively, to know how "noteworthy" your package is compared to CRAN packages, simply call [pkgcheck](https://docs.ropensci.org/pkgcheck) on your package (perhaps with `goodpractice = FALSE` to speed things up by skipping those parts of checks). Then, either print the results directly in the console, or use `out <- checks_to_markdown(checks, render = TRUE)` to generate and automatically open a rendered HTML version, where "Statistical Properties" will include the comparison of your package to all current CRAN packages.
 
 ## Software :package:
 
