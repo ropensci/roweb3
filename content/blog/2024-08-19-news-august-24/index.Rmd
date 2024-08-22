@@ -77,7 +77,11 @@ Consult our [Events](/events) page to find your local time and how to join.
  TODO STEFFI
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
+### [Two years and twelve projects as Community Manager at rOpenSci](https://yabellini.netlify.app/blog/2024-06-23-ropensci-2years-cm-en/)
 
+In June 2022 Yani became the community manager of rOpenSci. She started a series of blog post to share 12 projects she was involved in these two years to tell you more about the kind of work and activities a community manager of a technology community of practice does and what she learned in the process.
+
+The series is also in Spanish. 
 ### Our stats on all CRAN packages now updated daily
 
 rOpenSci's [pkgstats](https://docs.ropensci.org/pkgstats) package generates summary statistics on R packages.
