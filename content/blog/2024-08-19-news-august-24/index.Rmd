@@ -49,7 +49,11 @@ On [Tuesday, 24 September 2024 16:00 UTC](/commcalls/nov2024-r-universe/) (no RS
 
 In this community call, [Jeroen Ooms](/author/jeroen-ooms/) will provide details on what R-Universe is and an update on what you can do with it today. 
 He will also discuss the future of R-universe and how it can be used to navigate the R ecosystem.
+### [Webinar Screen Reader Accessible Tools and Resources for Learning and Working with R](/events/rsr-learn-and-use/)
 
+[Liz Hare](https://ropensci.org/author/liz-hare/) and [Alican Cagri Gokcek](https://ropensci.org/author/alican-cagri-gokcek/), both participants in our [Champions Program](https://ropensci.org/champions/) will participate in a panel sharing their experiences with screen reader-accessible tools and resources for learning and working with R.
+
+The event is co-organized by rOpenSci and the [Boğaziçi University](https://bogazici.edu.tr/en-US/Index) and will be held on **September 10**. 
 ### The rOpenSci community at upcoming events
 
 Meet rOpenSci team and community members at events in the near future!
