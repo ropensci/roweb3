@@ -45,7 +45,7 @@ R Since then it has become a fundamental tool in my daily life: As [academic](ht
 
 Of all the qualities that R has, the **community** was the determining factor in my journey with this programming language.
 
-While I was finishing the first step of the thesis, I found out about the organization of the first [Latin American Conference on R for R\&D (LatinR)](https://latin-r.com/) to which I owe my second (and third... and umpteenth) step in my relationship with R. In the first conference I presented use cases for political analyses from R, implementing [grids from Argentina to use with ggplot as if they were maps with geofacet](https://www.researchgate.net/publication/327382101_Geofaceting_Argentina_LatinR_2018). In the second conference, we presented the *Shiny App* [Electoral Intelligence](http://inteligenciaelectoral.mentacomunicacion.com.ar/) for the analysis of electoral results in Argentina and I was able to participate in the *Package Development* workshop with [Hadley Wickham](https://hadley.nz/). This was the ideal starting point to get started with the idea of packaging code myself.
+While I was finishing the first step of the thesis, I found out about the organization of the first [Latin American Conference on R for R\&D (LatinR)](https://latinr.org/) to which I owe my second (and third... and umpteenth) step in my relationship with R. In the first conference I presented use cases for political analyses from R, implementing [grids from Argentina to use with ggplot as if they were maps with geofacet](https://www.researchgate.net/publication/327382101_Geofaceting_Argentina_LatinR_2018). In the second conference, we presented the *Shiny App* [Electoral Intelligence](http://inteligenciaelectoral.mentacomunicacion.com.ar/) for the analysis of electoral results in Argentina and I was able to participate in the *Package Development* workshop with [Hadley Wickham](https://hadley.nz/). This was the ideal starting point to get started with the idea of packaging code myself.
 
 
 {{< figure src = "hex_joint.png" width = "600" alt = "geofecetAR R package hex logo on the left and original polAr R package hex logo on the right" class = "center">}}
@@ -80,7 +80,7 @@ I presented "[Divide and Conquer: from {polAr} to the polarverse](https://github
 
 4. 📦 [discursAr](https://politicaargentina.r-universe.dev/discursAr): is designed to obtain data on political speeches. In principle, it provides access to presidential speeches in legislative assemblies at the inauguration of ordinary sessions.
 
-5. 📦 [geoAr](https://politicaargentina.r-universe.dev/geoAr): allows access to data and tools for spatial workflows from within R. One [paper](https://github.com/TuQmano/latinr2023/blob/main/geoAr/geoAr.pdf) on the package was accepted for the [sixth edition of LatinR conference (2023)](https://latin-r.com/).
+5. 📦 [geoAr](https://politicaargentina.r-universe.dev/geoAr): allows access to data and tools for spatial workflows from within R. One [paper](https://github.com/TuQmano/latinr2023/blob/main/geoAr/geoAr.pdf) on the package was accepted for the [sixth edition of LatinR conference (2023)](https://latinr.org/).
 
 In addition, we worked on an auxiliary library called [polarViz](https://politicaargentina.r-universe.dev/polArViz) to facilitate the visualization of the other packages, and a metapackage called [polArverse](https://politicaargentina.r-universe.dev/polArverse)that emulates the operation of tidyverse for loading the set of associated libraries.
 
