@@ -28,7 +28,7 @@ Chromote powers the experimental [live web-scraping in the rvest package](https:
 
 ### The magick R package
 
-Generally one does need to use Jeroen Ooms' magick R package to take screenshots, but we wanted to add _shadows_ to the screenshots.
+Generally one does need to use Jeroen Ooms' [magick R package](https://docs.ropensci.org/magick/) to take screenshots, but we wanted to add _shadows_ to the screenshots.
 Therefore this tool for image manipulation was necessary.
 
 ## A first screenshot
@@ -48,7 +48,7 @@ We created a function that wraps `b$screenshot()` while still exposing
 the parameters we need to tweak for some of the pages.
 The chromote package, like Shiny, uses R6.
 
-Our function also calls the handy `magick::image_shadow()` for adding a shadow to the image.
+Our function also calls the handy [`magick::image_shadow()`](https://docs.ropensci.org/magick/reference/composite.html) for adding a shadow to the image.
 
 
 ``` r
@@ -81,10 +81,10 @@ b$Page$navigate("https://r-universe.dev/search/")
 
 ```
 $frameId
-[1] "EADEBA46F61C7B73CB78076D90C09D40"
+[1] "66474632DBD5E581841538FA8FED8C97"
 
 $loaderId
-[1] "EBACF4BF5BF4095A4BAD582F43441064"
+[1] "A5C2756D7A0C3039D79AD805F9EAD15C"
 ```
 
 ``` r
@@ -145,10 +145,10 @@ b$Page$navigate("https://r-universe.dev/search/")
 
 ```
 $frameId
-[1] "EADEBA46F61C7B73CB78076D90C09D40"
+[1] "66474632DBD5E581841538FA8FED8C97"
 
 $loaderId
-[1] "06ABC56C4A01EC1AD426C026882DED50"
+[1] "67C47C6CAB650B0A29E5C0D58F5A5B67"
 ```
 
 ``` r
