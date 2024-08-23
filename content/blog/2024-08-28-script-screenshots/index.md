@@ -82,10 +82,10 @@ b$Page$navigate("https://r-universe.dev/search/")
 
 ```
 $frameId
-[1] "468E7C8FA4FD17B962310A0E2A94B272"
+[1] "B95E701316B5E34E2FFD67FD0A3F210D"
 
 $loaderId
-[1] "942CBA392B68B3DBEF606B1572FA6A91"
+[1] "51754A95E0C83159B0C2AE2B45B11CF2"
 ```
 
 ``` r
@@ -100,7 +100,7 @@ We're showing the screenshot below.
 ## Screenshots after filling a text input area
 
 We also wanted to demonstrate searching for something.
-We followed the example in a [gist](https://gist.github.com/oganm/50a8020f718842aa3eee04dcfd57c198) to enter text into the search navbar: 
+We followed the example in a [gist](https://gist.github.com/oganm/50a8020f718842aa3eee04dcfd57c198) to enter text into the search navbar[^action]: 
 
 - we needed to find the search input area, whose idea is "search-input", by a call to `b$DOM$querySelector()`;
 - then we focussed on that area through `b$DOM$focus()`;
@@ -128,6 +128,8 @@ purrr::walk(
 )
 ```
 
+[^action]: Our needing to interact with the webpage before capturing screenshot prevented our using [webshot2](https://rstudio.github.io/webshot2/).
+
 ## Screenshots after clicking on something
 
 The search interface of R-universe suggests some advanced research fields if one clicks on the arrow-down button near the search button.
@@ -146,10 +148,10 @@ b$Page$navigate("https://r-universe.dev/search/")
 
 ```
 $frameId
-[1] "468E7C8FA4FD17B962310A0E2A94B272"
+[1] "B95E701316B5E34E2FFD67FD0A3F210D"
 
 $loaderId
-[1] "8AE61393C78721AF47D6CBA6FF330C6C"
+[1] "921505B7381C51F8FAFD7EFF55E81754"
 ```
 
 ``` r

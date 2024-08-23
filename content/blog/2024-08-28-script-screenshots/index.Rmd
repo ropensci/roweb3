@@ -90,7 +90,7 @@ We're showing the screenshot below.
 ## Screenshots after filling a text input area
 
 We also wanted to demonstrate searching for something.
-We followed the example in a [gist](https://gist.github.com/oganm/50a8020f718842aa3eee04dcfd57c198) to enter text into the search navbar: 
+We followed the example in a [gist](https://gist.github.com/oganm/50a8020f718842aa3eee04dcfd57c198) to enter text into the search navbar[^action]: 
 
 - we needed to find the search input area, whose idea is "search-input", by a call to `b$DOM$querySelector()`;
 - then we focussed on that area through `b$DOM$focus()`;
@@ -116,6 +116,8 @@ purrr::walk(
   screen_width = screen_width
 )
 ```
+
+[^action]: Our needing to interact with the webpage before capturing screenshot prevented our using [webshot2](https://rstudio.github.io/webshot2/).
 
 ## Screenshots after clicking on something
 
