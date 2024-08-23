@@ -25,6 +25,7 @@ To take a screenshot programmatically, we need to somehow get control of a brows
 The [chromote R package](https://rstudio.github.io/chromote/) is an actively maintained wrapper for Chrome Remote Interface, authored by Winston Chang and Barrett Schloerke.
 With chromote, you can open a browser in the background, navigate to the page of your choice, interact with it, and obviously capture screenshots.
 Chromote powers the experimental [live web-scraping in the rvest package](https://rvest.tidyverse.org/reference/read_html_live.html).
+The package is also used in [shinytest2](https://rstudio.github.io/shinytest2/).
 
 ### The magick R package
 
@@ -81,10 +82,10 @@ b$Page$navigate("https://r-universe.dev/search/")
 
 ```
 $frameId
-[1] "39809E1CB70A0AB9CF8D12573C55E941"
+[1] "468E7C8FA4FD17B962310A0E2A94B272"
 
 $loaderId
-[1] "152B62373592CBD36A780C179E66AE86"
+[1] "942CBA392B68B3DBEF606B1572FA6A91"
 ```
 
 ``` r
@@ -145,10 +146,10 @@ b$Page$navigate("https://r-universe.dev/search/")
 
 ```
 $frameId
-[1] "39809E1CB70A0AB9CF8D12573C55E941"
+[1] "468E7C8FA4FD17B962310A0E2A94B272"
 
 $loaderId
-[1] "CE991A33DA947BA946C38B00BC772069"
+[1] "8AE61393C78721AF47D6CBA6FF330C6C"
 ```
 
 ``` r
