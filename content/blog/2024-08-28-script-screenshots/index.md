@@ -1,5 +1,5 @@
 ---
-title: Capturing Screenshots Programmatically in R
+title: Capturing Screenshots Programmatically With R
 author: 
 - Maëlle Salmon
 date: '2024-08-28'
@@ -81,10 +81,10 @@ b$Page$navigate("https://r-universe.dev/search/")
 
 ```
 $frameId
-[1] "C62F7CE4219A18669DB4AD51C6C77D4C"
+[1] "39809E1CB70A0AB9CF8D12573C55E941"
 
 $loaderId
-[1] "A1FB2F9049459A689EF961EE42D0C0E4"
+[1] "152B62373592CBD36A780C179E66AE86"
 ```
 
 ``` r
@@ -145,10 +145,10 @@ b$Page$navigate("https://r-universe.dev/search/")
 
 ```
 $frameId
-[1] "C62F7CE4219A18669DB4AD51C6C77D4C"
+[1] "39809E1CB70A0AB9CF8D12573C55E941"
 
 $loaderId
-[1] "C033C7ECF7D0D0218849B446993A3169"
+[1] "CE991A33DA947BA946C38B00BC772069"
 ```
 
 ``` r

@@ -1,5 +1,5 @@
 ---
-title: Capturing Screenshots Programmatically in R
+title: Capturing Screenshots Programmatically With R
 author: 
 - Maëlle Salmon
 date: '2024-08-28'
