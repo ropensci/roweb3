@@ -182,4 +182,4 @@ the order, not the names, matters.
 
 In this post we explained how we used the chromote and magick R packages to produce screenshots for the documentation website of R-universe.
 Find the [current version of our script](https://github.com/r-universe-org/hitchhikers-guide/blob/main/R/screenshots.R).
-Do you use chromote or a similar programmatic browser interface?
+Do you use sometimes chromote or a similar programmatic browser interface?

@@ -81,10 +81,10 @@ b$Page$navigate("https://r-universe.dev/search/")
 
 ```
 $frameId
-[1] "66474632DBD5E581841538FA8FED8C97"
+[1] "C62F7CE4219A18669DB4AD51C6C77D4C"
 
 $loaderId
-[1] "A5C2756D7A0C3039D79AD805F9EAD15C"
+[1] "A1FB2F9049459A689EF961EE42D0C0E4"
 ```
 
 ``` r
@@ -145,10 +145,10 @@ b$Page$navigate("https://r-universe.dev/search/")
 
 ```
 $frameId
-[1] "66474632DBD5E581841538FA8FED8C97"
+[1] "C62F7CE4219A18669DB4AD51C6C77D4C"
 
 $loaderId
-[1] "67C47C6CAB650B0A29E5C0D58F5A5B67"
+[1] "C033C7ECF7D0D0218849B446993A3169"
 ```
 
 ``` r
@@ -226,4 +226,4 @@ the order, not the names, matters.
 
 In this post we explained how we used the chromote and magick R packages to produce screenshots for the documentation website of R-universe.
 Find the [current version of our script](https://github.com/r-universe-org/hitchhikers-guide/blob/main/R/screenshots.R).
-Do you use chromote or a similar programmatic browser interface?
+Do you use sometimes chromote or a similar programmatic browser interface?
