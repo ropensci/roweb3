@@ -31,7 +31,7 @@ Dr. Jonathan Godfrey has written a package called BrailleR that produces statist
 
 The [Blind R Users mailing list](https://www.nfbnet.org/mailman/listinfo/blindrug_nfbnet.org) is another place you can go for answers about using R.
 
-The popular  RStudio IDe (Integrated Development Environment) is not accessible for screen reader users on any platform.
+The popular RStudio IDE (Integrated Development Environment) is not accessible for screen reader users on any platform.
 It is very important for teachers to understand that blind students won't have access to this environment and so won't be using its buttons or shortcuts. 
 
 ### So how do you interact with R?
@@ -48,7 +48,7 @@ Possibilities include:
 IDEs have several advantages over working at the command prompt or in the R GUI: 
 
 * Specialized commands for running code and reviewing results.
-* Telp with editing by doing things like notifying the user of mismatched parentheses
+* Help with editing by doing things like notifying the user of mismatched parentheses
 * Easily switch between editing code and reading output
 * Ease of saving your work and reusing it again later
 
@@ -67,7 +67,7 @@ The software listed below works together to provide an environment for working w
 can be used with R, although there are many commands to learn at first.
 * [Emacspeak](https://github.com/tvraman/emacspeak) is a screen reader designed specifically for use 
 in a Linux (or Mac) terminal with Emacs. 
-It works mucj better than VoiceOver, Apple's native screen reader, in the terminal.
+It works much better than VoiceOver, Apple's native screen reader, in the terminal.
 Emacspeak is powerful but also involves learning many keyboard commands.
 * [Emacs Speaks Statistics (ESS)](https://ess.r-project.org) is a package you can add to Emacs that will allow you to edit and submit code and view your output in another text window. 
 It customizes the emacs environment for R.
