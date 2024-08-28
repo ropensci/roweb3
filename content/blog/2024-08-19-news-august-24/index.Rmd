@@ -43,23 +43,23 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-### Community call: Navigating the R ecosystem using R-universe on September 24!
+### Community call: Navigating the R ecosystem using R-Universe!
 
 On [Tuesday, 24 September 2024 16:00 UTC](/commcalls/nov2024-r-universe/) (no RSVP needed), join us to learn more about R-Universe and how you can use it to improve your R package development workflow.
 
 In this community call, [Jeroen Ooms](/author/jeroen-ooms/) will provide details on what R-Universe is and an update on what you can do with it today. 
-He will also discuss the future of R-universe and how it can be used to navigate the R ecosystem.
+He will also discuss the future of R-Universe and how it can be used to navigate the R ecosystem.
 
 ### Webinar: Screen Reader Accessible Tools and Resources for Learning and Working with R
 
-[Liz Hare](/author/liz-hare/) and [Alican Cagri Gokcek](/author/alican-cagri-gokcek/), both participants in our [Champions Program](/champions/) will participate in a [panel]((/events/rsr-learn-and-use/)) sharing their experiences with screen reader-accessible tools and resources for learning and working with R.
+[Liz Hare](/author/liz-hare/) and [Alican Cagri Gokcek](/author/alican-cagri-gokcek/), both rOpenSci [Champions](/champions/) will participate in a [panel](/events/rsr-learn-and-use/) sharing their experiences with screen reader-accessible tools and resources for learning and working with R.
 
-The [event]((/events/rsr-learn-and-use/)) is co-organized by rOpenSci and the [Boğaziçi University](https://bogazici.edu.tr/en-US/Index) and will be held on **September 10**. 
+The [event](/events/rsr-learn-and-use/) is co-organized by rOpenSci and the [Boğaziçi University](https://bogazici.edu.tr/en-US/Index) and will be held on **September 10**. 
 
-### Blog post series: two years and twelve projects as Community Manager at rOpenSci
+### Blog post series: Two years and twelve projects as Community Manager at rOpenSci
 
-In June 2022 Yani became the community manager of rOpenSci. 
-She started a [series of blog posts](https://yabellini.netlify.app/blog/2024-06-23-ropensci-2years-cm-en/)) to share 12 projects she was involved in these two years to tell you more about the kind of work and activities a community manager of a technology community of practice does and what she learned in the process.
+In June 2022 Yani became the Community Manager of rOpenSci. 
+Now she has started a [series of blog posts](https://yabellini.netlify.app/blog/2024-06-23-ropensci-2years-cm-en/) to share 12 projects she was involved in these two years to tell you more about the kind of work and activities a community manager of a technology community of practice does and what she learned in the process.
 
 The series is also available in [Spanish](https://yabellini.netlify.app/blog/2024-06-23-ropensci-2years-cm/). 
 
@@ -75,11 +75,11 @@ Alternatively, to know how "noteworthy" your package is compared to CRAN package
 
 Meet rOpenSci team and community members at events in the near future!
 
-- rOpenSci software research scientist Mark Padgham will be at the [RSECon, the Research Software Engineering Conference 2024](https://rsecon24.society-rse.org/) in Newcastle, UK from 3rd to 5th September 2024 where he will deliver his talk ["rOpenSci Statistical Software Peer Review: The importance and challenge of community engagement"](/events/rseuk-2024/).
+- rOpenSci Software Research Scientist [Mark Padgham](/author/mark-padgham/) will be at the [RSECon, the Research Software Engineering Conference 2024](https://rsecon24.society-rse.org/) in Newcastle, UK from 3rd to 5th September 2024 where he will deliver his talk ["rOpenSci Statistical Software Peer Review: The importance and challenge of community engagement"](/events/rseuk-2024/).
 
-- rOpenSci director Noam Ross and rOpenSci Lead Infrastructure Engineer Jeroen Ooms will take part in the [NumFOCUS Project Summit 2024](/events/numfocussummit-2024/) on [September 5-7, 2024](https://numfocus.org/2024-project-summit-openmbee) in Cambridge, Massachusetts, USA. Come to chat if you are around!
+- rOpenSci Director [Noam Ross](/author/noam-ross/) and rOpenSci Lead Infrastructure Engineer [Jeroen Ooms](/author/jeroen-ooms/) will take part in the [NumFOCUS Project Summit 2024](/events/numfocussummit-2024/) on [September 5-7, 2024](https://numfocus.org/2024-project-summit-openmbee) in Cambridge, Massachusetts, USA. Come to chat if you are around!
 
-- rOpenSci community manager Yanina Bellini Saibene will deliver a keynote talk at [BioNT Community Event & CarpentryConnect-Heidelberg 2024](/events/carpentryconnect-2024/), on November 14th in Heidelberg, Germany.
+- rOpenSci Community Manager [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) will deliver a keynote talk at [BioNT Community Event & CarpentryConnect-Heidelberg 2024](/events/carpentryconnect-2024/), on November 14th in Heidelberg, Germany.
 
 ### Coworking
 
@@ -91,7 +91,8 @@ Everyone welcome.
 No RSVP needed. 
 Consult our [Events](/events) page to find your local time and how to join.
 
- TODO STEFFI
+- ~~Tuesday, September 3rd, 9:00 Australia Western (01:00 UTC)~~ **Cancelled**
+- Tuesday, October 1st, 14h00 Europe Central (12:00 UTC), Theme TBA with cohost TBA and [Steffi LaZerte](/author/steffi-lazerte).
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
@@ -630,17 +631,17 @@ The existence of flint is yet another benefit from [Davis Vaughn's building an R
 
 ### Create content for help pages on the fly
 
-You can create dynamic content for a manual page using `#' \Sexpr[results=rd,stage=render]{<some-code>}`.
-The code can even call an internal function.
+Did you know that you can create dynamic content for the help page of a function in your R package using `#' \Sexpr[results=rd,stage=render]{<some-code>}`?
+The code can even call an internal function!
 [Minimal example](https://github.com/maelle/personalized.help).
 
 Thanks Rich FitzJohn for sharing about this idea that he uses in his [stevedore package](https://github.com/cran/stevedore/blob/74b63bfcff2af200367fbd78febfd2d36855d500/R/help.R#L4).
 
-Relatedly, if you want to provide different content in the manual page depending on the OS, that's [possible](https://cran.r-project.org/doc/manuals/R-exts.html#Platform_002dspecific-sections).
+Relatedly, if you want to provide different content in the manual page depending on the OS, that's also [possible](https://cran.r-project.org/doc/manuals/R-exts.html#Platform_002dspecific-sections).
 
-If you're taking a bit further and what to change what `?thing` returns, you might be interested in these two strategies (not necessarily CRAN-compatible!):
+If you're taking it a bit further and want to change what `?foo` returns, you might be interested in these two strategies (but be warned, these are not necessarily CRAN-compatible!):
 
-- How Elio Campitelli's rhelpi18n [currently overwrites the `.getHelpFile()`](https://github.com/eliocamp/rhelpi18n/blob/main/R/zzzz.R) function to make it possible to get a manual page in the correct language.
+- Elio Campitelli's rhelpi18n package [currently overwrites the `.getHelpFile()`](https://github.com/eliocamp/rhelpi18n/blob/main/R/zzzz.R) function to make it possible to get a manual page in the correct language.
 
 - The "shims" created by [pkgload](https://github.com/r-lib/pkgload/blob/a20161ecc5b3645a9555832bd0a02fd14c80be82/R/shims.R#L11) that allow _in development_ documentation pages to be loaded.
 
