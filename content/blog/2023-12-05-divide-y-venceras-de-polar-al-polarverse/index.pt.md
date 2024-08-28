@@ -14,7 +14,8 @@ tags:
 
 > *"Sou apenas um cientista político, em pé diante do console do R, pedindo que me ajude a terminar uma tese."*
 
-Corria o ano de 2015, um estudante de mestrado em Ciência Política precisava processar dados para entregar sua tese e decidiu aproveitar a oportunidade para aprender a usar R. Ao longo e tortuoso caminho do requisito acadêmico, foi adicionada uma dificuldade extra: incorporar um software de programação desde o início, com uma curva de aprendizado um tanto íngreme.
+Corria o ano de 2015, um estudante de mestrado em Ciência Política precisava processar dados para entregar sua tese e decidiu aproveitar a oportunidade para aprender a usar R. 
+Ao longo e tortuoso caminho do requisito acadêmico, foi adicionada uma dificuldade extra: incorporar um software de programação desde o início, com uma curva de aprendizado um tanto íngreme.
 
 Anos depois, [reviso scripts do código da tese](https://github.com/TuQmano/evoteSALTA_UTDT) e sorrio ao ver extensas linhas de código para recodificar variáveis com uma estrutura como esta:
 
@@ -47,7 +48,10 @@ R desde então é uma ferramenta fundamental no meu dia-a-dia. Seja no âmbito a
 De todas as qualidades que o R possui, **a comunidade** foi o fator determinante na minha jornada com essa linguagem de programação.
 
 
-Ao concluir o primeiro passo da tese, tomei conhecimento da organização da primeira [Conferência Latino-Americana de R para I+D (LatinR)](https://latinr.org/), comunidade à qual devo meu segundo (e terceiro... e enésimo) passo em minha relação com o R. Na primeira conferência, apresentei casos de uso para análise política com R, implementando [grades da Argentina para usar com ggplot como se fossem mapas com geofacet](https://www.researchgate.net/publication/327382101_Geofaceting_Argentina_LatinR_2018). Na segunda conferência, apresentamos o *Shiny App* [Inteligência Eleitoral](http://inteligenciaelectoral.mentacomunicacion.com.ar/) para a análise de resultados eleitorais da Argentina e participei do workshop *Desenvolvimento de Pacotes* com [Hadley Wickham](https://hadley.nz/). Esse foi o ponto de partida ideal para começar a ideia de empacotar código por conta própria.
+Ao concluir o primeiro passo da tese, tomei conhecimento da organização da primeira [Conferência Latino-Americana de R para I+D (LatinR)](https://latinr.org/), comunidade à qual devo meu segundo (e terceiro... e enésimo) passo em minha relação com o R. 
+Na primeira conferência, apresentei casos de uso para análise política com R, implementando [grades da Argentina para usar com ggplot como se fossem mapas com geofacet](https://www.researchgate.net/publication/327382101_Geofaceting_Argentina_LatinR_2018). 
+Na segunda conferência, apresentamos o *Shiny App* [Inteligência Eleitoral](http://inteligenciaelectoral.mentacomunicacion.com.ar/) para a análise de resultados eleitorais da Argentina e participei do workshop *Desenvolvimento de Pacotes* com [Hadley Wickham](https://hadley.nz/). 
+Esse foi o ponto de partida ideal para começar a ideia de empacotar código por conta própria.
 
 ![o hex logo do pacote R geofecetAR à esquerda e o de polAr à direita](/img/posts/hex_joint.png)
 
@@ -61,15 +65,19 @@ A pandemia do Covid-19 começou. E o aprendizado sobre como desenvolver pacotes,
 
 ## O universo polAr
 
-Embora originalmente o pacote buscasse facilitar o acesso e ferramentas para a análise de dados eleitorais na Argentina, com o tempo foram integrados outros fluxos de trabalho e fontes de dados (geográficos, discursos presidenciais e votações legislativas), com um aumento de dependências e dificuldade para administrar cada vez mais funções. Esse foi um tema relevante que [discutimos no painel Desenvolvimento de Pacotes durante a terceira conferência do LatinR (2020)](https://www.youtube.com/watch?v=UYvSv8StDa8&t=10872s).
+Embora originalmente o pacote buscasse facilitar o acesso e ferramentas para a análise de dados eleitorais na Argentina, com o tempo foram integrados outros fluxos de trabalho e fontes de dados (geográficos, discursos presidenciais e votações legislativas), com um aumento de dependências e dificuldade para administrar cada vez mais funções. 
+Esse foi um tema relevante que [discutimos no painel Desenvolvimento de Pacotes durante a terceira conferência do LatinR (2020)](https://www.youtube.com/watch?v=UYvSv8StDa8&t=10872s).
 
 [![LatinR Confernce (2022) - Mesa Redonda de desenvolvimento de pacotes](/img/posts/latinr-rpkg.png)](https://www.youtube.com/watch?v=UYvSv8StDa8&t=10872s)
 
-polAr havia alcançado 4000 downloads quando recebi um e-mail da equipe do CRAN informando que precisava ajustar uma violação de política para que o pacote não fosse arquivado. Apesar de enviar uma nova versão, o pacote foi arquivado sem uma razão clara.
+polAr havia alcançado 4000 downloads quando recebi um e-mail da equipe do CRAN informando que precisava ajustar uma violação de política para que o pacote não fosse arquivado.
+Apesar de enviar uma nova versão, o pacote foi arquivado sem uma razão clara.
 
 [![O polarverse](/img/posts/polarverse.png)](https://github.com/politicaargentina/polarverse)
 
-Se a conversa no LatinR nos fez pensar na separação em múltiplos pacotes como possibilidade, o arquivamento no CRAN nos deu a oportunidade de fazê-lo. A decisão foi gerar fluxos de trabalho independentes; uma estratégia que possibilitou avançar com diferentes ritmos, tomando decisões específicas para cada tema, procurando abordá-los ao mesmo tempo como parte de um conjunto, emulando o paradigma *Tidyverse*: uma filosofia e gramática de funcionamento similar para a [coleção de pacotes](https://tuqmano.ar/2021/06/05/de-polar-al-polarverse/). O objetivo foi melhorar o desenvolvimento do que resultou no arquivamento de `{polAr}`.
+Se a conversa no LatinR nos fez pensar na separação em múltiplos pacotes como possibilidade, o arquivamento no CRAN nos deu a oportunidade de fazê-lo. 
+A decisão foi gerar fluxos de trabalho independentes; uma estratégia que possibilitou avançar com diferentes ritmos, tomando decisões específicas para cada tema, procurando abordá-los ao mesmo tempo como parte de um conjunto, emulando o paradigma *Tidyverse*: uma filosofia e gramática de funcionamento similar para a [coleção de pacotes](https://tuqmano.ar/2021/06/05/de-polar-al-polarverse/). 
+O objetivo foi melhorar o desenvolvimento do que resultou no arquivamento de `{polAr}`.
 
 
 Apresentamos "[Divida e Vencerá: de {polAr} ao polarverse](https://github.com/TuQmano/latinr2021/blob/master/divide_reinaras/divide_reinaras.pdf)" na quarta conferência do LatinR, mostrando este novo universo com cinco pacotes:
@@ -88,13 +96,16 @@ Adicionalmente, trabalhamos em uma biblioteca auxiliar chamada [polarViz](https:
 
 ## 🌠  Encontro de universos: [o *polArverse* no *R-Universe*](https://politicaargentina.r-universe.dev/builds)
 
-Durante este processo, incorporamos o R-Universe no fluxo de trabalho. Ele nos forneceu um espaço autônomo e auto-administrado no qual publicar esses novos pacotes (não mais apenas como repositórios do GitHub) e é de grande ajuda para a verificação em diferentes sistemas operacionais e versões de software. Sem dúvida, o R-Universe é uma ferramenta relevante para a melhor manutenção do polArverse.
+Durante este processo, incorporamos o R-Universe no fluxo de trabalho. 
+Ele nos forneceu um espaço autônomo e auto-administrado no qual publicar esses novos pacotes (não mais apenas como repositórios do GitHub) e é de grande ajuda para a verificação em diferentes sistemas operacionais e versões de software. 
+Sem dúvida, o R-Universe é uma ferramenta relevante para a melhor manutenção do polArverse.
 
 ![polAr R-Universe](/img/posts/politicaargentina-r-universe.png)
 
 ### Continuamos dando passos importantes para o nosso universo:
 
-Em primeiro lugar, voltamos ao CRAN! Em fevereiro de 2023, enviamos o geoAr, que, como mencionamos, permite acessar e facilitar o processamento de dados com relevância espacial. Uma versão em desenvolvimento (acessível a partir do r-universe) também permite interagir com a [API do Serviço de Normalização de Dados Geográficos da Argentina](https://georef-ar-api.readthedocs.io/es/latest/).
+Em primeiro lugar, voltamos ao CRAN! Em fevereiro de 2023, enviamos o geoAr, que, como mencionamos, permite acessar e facilitar o processamento de dados com relevância espacial.
+Uma versão em desenvolvimento (acessível a partir do r-universe) também permite interagir com a [API do Serviço de Normalização de Dados Geográficos da Argentina](https://georef-ar-api.readthedocs.io/es/latest/).
 
 Por outro lado, incorporamos uma pendência histórica à caixa de ferramentas polAr para trabalhar com dados censitários: [censAr](https://github.com/PoliticaArgentina/censAr). O pacote, atualmente em desenvolvimento, é baseado no código de [censo2017](https://docs.ropensci.org/censo2017/), desenvolvido por [Mauricio "Pacha" Vargas](https://ropensci.org/author/pach%C3%A1-aka-mauricio-vargas-sep%C3%BAlveda/) e parte da suíte do rOpenSci.
 
@@ -112,7 +123,11 @@ Por outro lado, incorporamos uma pendência histórica à caixa de ferramentas p
 
 -   O surgimento do projeto *R-Universe* para melhorar a experiência de publicação e descoberta de pacotes desenvolvidos em R é muito valioso.
 
-O *polarverse* foi um projeto paralelo no qual trabalhei em meus momentos livres e sem financiamento. Surgiu quase ludicamente, como um experimento para aprender a desenvolver software. Tentamos com sucesso a publicação no CRAN. Ficamos frustrados e irritados. Aprendemos. Adicionamos novas ferramentas.
+O *polarverse* foi um projeto paralelo no qual trabalhei em meus momentos livres e sem financiamento. 
+Surgiu quase ludicamente, como um experimento para aprender a desenvolver software. Tentamos com sucesso a publicação no CRAN. 
+Ficamos frustrados e irritados. 
+Aprendemos. 
+Adicionamos novas ferramentas.
 
 Continuamos avançando. Aos poucos. Agora, com o apoio e incentivo que representa uma grande equipe da [Fundar](https://fund.ar/), em geral, e da área de [dados](https://fund.ar/area/datos/) que eu coordeno, em particular. "Devagar, mas seguro".
 
