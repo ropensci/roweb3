@@ -47,18 +47,13 @@ Citation of an R package[^3].
 
 ### Subsection heading
 
-We recommend the use of [Hugo shortcodes](https://gohugo.io/content-management/shortcodes/) to include images, tweets, videos, gists, etc.
+We recommend the use of [Hugo shortcodes](https://gohugo.io/content-management/shortcodes/) to include images,, videos, gists, etc.
 
 **Add an image** by using a Hugo shortcode. The image is saved under `/content/blog/YYYY-MM-DD-slug/name-of-image.png`.
 
 {{< figure src = "name-of-image.png" width = "400" alt = "this is the alternative text" >}}
 
 Consult the Technical Guidelines for tips on changing image size, alignment, and for advice on alternative text.
-
-**Embed a tweet** by using a Hugo shortcode. 
-
-{{< tweet user="SanDiegoZoo" id="1453110110599868418" >}}
-
 
 **Add citation or footnote** text by using the format below 
 
