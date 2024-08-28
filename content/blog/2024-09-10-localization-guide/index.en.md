@@ -41,7 +41,7 @@ The guide consists of six sections:
 
 4. [Translation and Review Guidelines](https://translationguide.ropensci.org/howtoreview.html): This section offers a detailed guide on translating and reviewing our resources. It covers how to contribute to a new or existing language project and manage the localization and translation process. It also provides technical and general review guidelines to ensure translation quality.
 
-5. [Specific Guidelines](https://translationguide.ropensci.org/specific_guidelines.html): This chapter varies by language. It contains specific guidelines for localizing and translating content based on community agreements. For instance, the rules defined by the Spanish-speaking community may differ from those of the English-speaking community. This section also addresses the localization of citations, code, diagrams, and data, and includes a glossary.
+5. [Specific Guidelines](https://translationguide.ropensci.org/specific_guidelines.html): This chapter has specific content for each language. It contains specific guidelines for localizing and translating content based on community agreements. For instance, the rules defined by the Spanish-speaking community may differ from those of the English-speaking community. This section also addresses the localization of citations, code, diagrams, and data, and includes a glossary.
 
 6. [NEWS](https://translationguide.ropensci.org/booknews.html): This section documents all changes made to the guidelines in each version.
 
@@ -50,7 +50,7 @@ The guide consists of six sections:
 
 This guide is designed for those interested in localizing rOpenSci materials or contributing to the maintenance of localized content. It is also useful for anyone tasked with localizing material for another community or group. We hope that our processes, agreements, and lessons learned can benefit other communities as well.
 
-The guide is available in English and Spanish, with plans to translate it into other languages, like Portuguese.
+The guide is available in English and Spanish, with plans to translate it into other languages based on our active translation projects, like Portuguese.
 
 If you'd like to contribute to translation efforts or improve this guide, please check out the [list of languages for which there are active translation projects and their statuses](https://github.com/ropensci-review-tools/translation_guide#active). 
 
