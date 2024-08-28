@@ -12,14 +12,18 @@ tags:
   - champions program
   - community
   - accesibility
-description: "Tools and resources to use R with screen readers."
+description: "Tools and resources to use R with screen readers." 
 ---
 
-There are several ways to use R with a screen reader.
-People choose tools depending on their operating system and personal preference.
-This guide may not be complete and we welcome suggestions from other users.
+R is a language and environment for statistical computing.
+There are several tools and approaches for interacting with R, but not all are accessible with screen readers. 
+This guide provides an overview of the tools and techniques available to screen reader users across different operating systems, with practical tips and resources to help them navigate the R environment. 
+This guide may not be complete, but I hope it serves as a valuable starting point. We welcome suggestions from other users to enhance it further.
 
-## All operating Systems
+
+## Where to start ? 
+
+The set of tool and resources in this section apply for all operating systems.
 
 [The R Project for Statistical Computing](https://www.r-project.org) is the site where you can download R for Windows, Linux, and Mac.
 
@@ -31,33 +35,33 @@ Dr. Jonathan Godfrey has written a package called BrailleR that produces statist
 
 The [Blind R Users mailing list](https://www.nfbnet.org/mailman/listinfo/blindrug_nfbnet.org) is another place you can go for answers about using R.
 
-The popular RStudio IDE (Integrated Development Environment) is not accessible for screen reader users on any platform.
-It is very important for teachers to understand that blind students won't have access to this environment and so won't be using its buttons or shortcuts. 
-
-### So how do you interact with R?
+### How do you interact with R?
 
 Possibilities include:
 
 * Running R at the command prompt in a terminal. This has the large disadvantage of not saving your commands and output.
-* Using a text editor to write scripts (groups of R commands) and submitting them at the command line. This used to be the preferred approach for many blind users, but is less convenient than in interactive tool..
+* Using a text editor to write scripts (groups of R commands) and submitting them at the command line. This used to be the preferred approach for many blind users, but is less convenient than in interactive tool.
 * Using R's GUI (graphical user interface). This might be accessible on Windows, but it is inaccessible on Mac.
-* Using an accessible IDE for writing, editing, submitting, and reusing R code (see next section).
+* Using an accessible integrated development environment (IDE) for writing, editing, submitting, and reusing R code (see next section).
 
 ## IDEs and Operating Systems
 
+An IDE is software that supports programmers in developing software efficiently by providing a set of tools in the same environment. There are several IDEs in the market.
 IDEs have several advantages over working at the command prompt or in the R GUI: 
 
 * Specialized commands for running code and reviewing results.
-* Help with editing by doing things like notifying the user of mismatched parentheses
-* Easily switch between editing code and reading output
-* Ease of saving your work and reusing it again later
+* Help with editing by doing things like notifying the user of mismatched parentheses.
+* Easily switch between editing code and reading output.
+* Ease of saving your work and reusing it again later.
+
+The popular RStudio IDE is not accessible for screen reader users on any platform.
+It is very important for teachers to understand that blind students won't have access to this environment and so won't be using its buttons or shortcuts. The same applies to those who write documentation. 
 
 ### Windows
 
-Many blind R users use the [Visual Studio Code(VS Code)](https://code.visualstudio.com) IDE with screen readers.
+Many blind R users use the [Visual Studio Code (VS Code)](https://code.visualstudio.com) IDE with screen readers.
 The [R extension for VS code](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r)
 provides additional functionality to make working in R more convenient.
-
 
 ### Mac and Linux
 
@@ -65,8 +69,7 @@ The software listed below works together to provide an environment for working w
 
 * [Emacs](https://www.gnu.org/software/emacs/) is a powerful and customizable IDE that
 can be used with R, although there are many commands to learn at first.
-* [Emacspeak](https://github.com/tvraman/emacspeak) is a screen reader designed specifically for use 
-in a Linux (or Mac) terminal with Emacs. 
+* [Emacspeak](https://github.com/tvraman/emacspeak) is a screen reader designed specifically for use in a Linux (or Mac) terminal with Emacs. 
 It works much better than VoiceOver, Apple's native screen reader, in the terminal.
 Emacspeak is powerful but also involves learning many keyboard commands.
 * [Emacs Speaks Statistics (ESS)](https://ess.r-project.org) is a package you can add to Emacs that will allow you to edit and submit code and view your output in another text window. 
@@ -78,9 +81,13 @@ The last time I tested VScode on a Mac, it was not fully accessible with VoiceOv
 
 ## Useful R Features
 
-* Learning `quarto` or R Markdown is super useful because it produces HTML
-output that you can easily navigate in similar ways to sighted colleagues. 
-It lets you write text as well as commands for working with data, so it's great for reports, homework, or web sites. 
+R Markdown and `quarto` are useful R tools. 
+They allow you to make a single text file containing both plain text and R code. 
+The resulting document can show both text explanation of your work and R output. 
+These tools produce several file types as output. 
+The HTML output is easy to navigate in similar ways to sighted colleagues. 
+This accessibility makes these tools ideal for reports, homework assignments, websites, and slide presentations.
+
 I haven't included documentation here because it's hard to find documentation that doesn't assume the use of RStudio.
 
 
@@ -92,3 +99,7 @@ It's important to practice reading and learning from R's documentation, but it t
 * Searching the Web for examples and tutorials (as long as they aren't videos) for the kind of analysis you want to do can help a lot. Avoid the commercial sites with lots of ads that interfere with screen reader navigation. I prefer the ones hosted on personal or academic sites.
 * [Oscar Baruffa's website](https://www.bigbookofr.com) lists free, online books about R. Many of them are quite accessible except for the data visualizations. Also, many of them assume you're using RStudio, so you'll have to adapt your work to your own environment.
 * [Bookshare](https://bookshare.org) is an electronic book repository for print disabled people in some countries. They have many books on R, but accessibility can vary. Sometimes the code snippets are missing, wihch is not helpful. Sometimes these books can be quite helpful, though.
+
+## Summary
+
+This guide has outlined several ways for screen reader users to work with R across different operating systems, highlighting accessible tools like BrailleR, VS Code, and Emacs. By exploring these options, users can choose the tools that best fit their needs and preferences.
