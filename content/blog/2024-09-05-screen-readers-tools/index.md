@@ -7,7 +7,7 @@ editor:
   - Yanina Bellini Saibene
 date: "2024-09-05"
 tags:
-  - tech-notes
+  - tech notes
   - screen-readers
   - champions program
   - community
@@ -35,7 +35,7 @@ Dr. Jonathan Godfrey has written a package called BrailleR that produces statist
 
 The [Blind R Users mailing list](https://www.nfbnet.org/mailman/listinfo/blindrug_nfbnet.org) is another place you can go for answers about using R.
 
-### How do you interact with R?
+## How do you interact with R?
 
 Possibilities include:
 
@@ -44,7 +44,7 @@ Possibilities include:
 * Using R's GUI (graphical user interface). This might be accessible on Windows, but it is inaccessible on Mac.
 * Using an accessible integrated development environment (IDE) for writing, editing, submitting, and reusing R code (see next section).
 
-## IDEs and Operating Systems
+### IDEs and Operating Systems
 
 An IDE is software that supports programmers in developing software efficiently by providing a set of tools in the same environment. There are several IDEs in the market.
 IDEs have several advantages over working at the command prompt or in the R GUI: 
@@ -57,13 +57,13 @@ IDEs have several advantages over working at the command prompt or in the R GUI:
 The popular RStudio IDE is not accessible for screen reader users on any platform.
 It is very important for teachers to understand that blind students won't have access to this environment and so won't be using its buttons or shortcuts. The same applies to those who write documentation. 
 
-### Windows
+#### Windows
 
 Many blind R users use the [Visual Studio Code (VS Code)](https://code.visualstudio.com) IDE with screen readers.
 The [R extension for VS code](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r)
 provides additional functionality to make working in R more convenient.
 
-### Mac and Linux
+#### Mac and Linux
 
 The software listed below works together to provide an environment for working with R:
 
@@ -77,7 +77,6 @@ It customizes the emacs environment for R.
 * Another useful emacs package is [Polymode](https://polymode.github.io) which facilitates using R Markdown to produce documents like reports and slides that are very accessible if you output them in HTML format.
 
 The last time I tested VScode on a Mac, it was not fully accessible with VoiceOver.
-
 
 ## Useful R Features
 
