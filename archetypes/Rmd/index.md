@@ -26,6 +26,9 @@ socialAlt: "Alternative description of the image"
 # the text below is for populating the "share on Twitter" button
 # if deleted, the title of the post will be used
 social: "A post about blabla by @username@server.extension!"
+# this field is for the storing the name(s) of the editor(s) of your post
+# you can leave it empty until you know who'll review your PR
+editor:
 ---
 
 This is the R Markdown (.Rmd) template for a blog post or tech note. 
