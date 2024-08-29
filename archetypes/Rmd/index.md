@@ -52,7 +52,7 @@ knitr::knit_hooks$set(
   plot = function(x, options) {
     hugoopts <- options$hugoopts
     paste0(
-      "`{{<figure src=",
+      "`{{< figure src=",
       '"', x, '" ',
       if (!is.null(hugoopts)) {
         glue::glue_collapse(
@@ -97,7 +97,7 @@ Citation of an R package[^3].
 
 ### Subsection heading
 
-We recommend the use of [Hugo shortcodes](https://gohugo.io/content-management/shortcodes/) to include images, tweets, videos, gists, etc. In the Rmd file they need to be between `<!--html_preserve-->` and `<!--/html_preserve-->`.
+We recommend the use of [Hugo shortcodes](https://gohugo.io/content-management/shortcodes/) to include images, videos, gists, etc. In the Rmd file they need to be between `<!--html_preserve-->` and `<!--/html_preserve-->`.
 
 **Add an image** by using a Hugo shortcode. The image is saved under `/content/blog/YYYY-MM-DD-slug/name-of-image.png`.
 
@@ -114,13 +114,6 @@ plot(1:10)
 ```
 
 Once this file is knitted the plot above will be inserted with the correct syntax.
-
-
-**Embed a tweet** by using a Hugo shortcode. 
-
-<!--html_preserve-->
-{{< tweet user="SanDiegoZoo" id="1453110110599868418" >}}
-<!--/html_preserve-->
 
 
 **Tweak code highlighting** Below you can see how to use Hugo [Chroma code highlighting options](https://gohugo.io/content-management/syntax-highlighting/#highlight-shortcode): highlight the 1st and 4th to 6th code lines, number lines as a table starting from 199.
