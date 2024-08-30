@@ -6,7 +6,7 @@ author:
 date: '2024-08-30'
 tags:
   - newsletter
-description: 
+description: Screen reader acessibility webinar, R-universe community call, CRAN stats, new package and package news
 params:
   last_newsletter: "2024-07-19"
 ---
