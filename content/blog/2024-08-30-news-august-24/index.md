@@ -194,7 +194,7 @@ Etienne Bacher created an enticing R package called [flint](https://flint.etienn
 Imagine [lintr](https://lintr.r-lib.org/) being as active as [styler](https://styler.r-lib.org/) instead of just telling you what to amend. :grin:
 Note that at the moment, flint does not have as many rules as lintr.
 
-The existence of flint is yet another benefit from [Davis Vaughn's building an R grammar for tree-sitter](/blog/2024/07/19/news-july-2024/#on-tools), since flint builds on Etienne Bacher's [astgrepr](https://astgrepr.etiennebacher.com/), that binds the [Rust ast-grep crate](https://ast-grep.github.io/), that in turns... uses tree-sitter!
+The existence of flint is yet another benefit from [Davis Vaughan's building an R grammar for tree-sitter](/blog/2024/07/19/news-july-2024/#on-tools), since flint builds on Etienne Bacher's [astgrepr](https://astgrepr.etiennebacher.com/), that binds the [Rust ast-grep crate](https://ast-grep.github.io/), that in turns... uses tree-sitter!
 
 ### Create content for help pages on the fly
 
