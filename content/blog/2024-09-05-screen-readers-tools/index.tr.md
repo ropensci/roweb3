@@ -54,12 +54,16 @@ IDE'lerin komut isteminde veya R GUI'sinde çalışmaya göre çeşitli avantajl
 Popüler RStudio IDE, hiçbir platformda ekran okuyucu kullanıcıları için erişilebilir değildir.
 Öğretmenlerin, görme engelli öğrencilerin bu ortama erişemeyeceklerini ve bu nedenle düğmelerini veya kısayollarını kullanamayacaklarını anlamaları çok önemlidir. Aynı durum dokümantasyon yazanlar için de geçerlidir.
 
-#### Pencereler
+#### Windows
 
 Birçok görme engelli R kullanıcısı [Visual Studio Code (VS Code)](https://code.visualstudio.com) Ekran okuyucular ile IDE.
 Bu [VS kodu için R uzantısı](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r)
 R'de çalışmayı daha kolay hale getirmek için ek işlevler sağlar.
-
+Windows'ta R ile çalışmak için ikinci bir seçenek [Linux için Windows Alt Sistemi] (https://learn.microsoft.com/en-us/windows/wsl/about) (WSL) yüklemektir. 
+WSL ile Windows üzerinde bir Linux komut satırı ortamı çalıştırabilirsiniz. 
+NVDA veya JAWS ekran okuyucularını kullanarak Terminal'e erişebilirsiniz.
+Terminaldeki bir R oturumuna erişilebilir ya da Windows veya Linux işletim sisteminden seçtiğiniz metin editöründe girdi ve çıktıları okuyabilirsiniz.
+Bu, hem R hem de Linux hakkında bilgi edinmek isteyen deneyimli NVDA veya JAWS kullanıcıları için harika bir seçenek olacaktır.
 #### Mac ve Linux
 
 Aşağıda listelenen yazılımlar, R ile çalışmak için bir ortam sağlamak üzere birlikte çalışır:

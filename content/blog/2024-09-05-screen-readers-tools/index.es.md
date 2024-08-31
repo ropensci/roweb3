@@ -59,7 +59,11 @@ Es muy importante que los profesores entiendan que los alumnos ciegos no tendrá
 Muchos usuarios ciegos de R utilizan el [Visual Studio Code (VS Code)](https://code.visualstudio.com) IDE con lectores de pantalla.
 El sitio [Extensión R para código VS](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r)
 proporciona funciones adicionales para que trabajar en R resulte más cómodo.
-
+Una segunda opción para trabajar con R en Windows es instalar [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/about)(WSL). 
+Con WSL, puede ejecutar un entorno de línea de comandos de Linux en Windows. 
+Puedes acceder a la Terminal utilizando los lectores de pantalla NVDA o JAWS.
+Se podría acceder a una sesión de R en el terminal, o se podría leer la entrada y la salida en el editor de texto de su elección desde el sistema operativo Windows o Linux.
+Esta sería una gran opción para las personas que son usuarios experimentados de NVDA o JAWS que quieren aprender sobre R y Linux.
 #### Mac y Linux
 
 El software que se enumera a continuación trabaja conjuntamente para proporcionar un entorno de trabajo con R:

@@ -62,7 +62,11 @@ It is very important for teachers to understand that blind students won't have a
 Many blind R users use the [Visual Studio Code (VS Code)](https://code.visualstudio.com) IDE with screen readers.
 The [R extension for VS code](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r)
 provides additional functionality to make working in R more convenient.
-
+A second option for working with R in Windows is to install [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/about)(WSL). 
+With WSL, you can run a Linux command line environment on Windows. 
+You can access the Terminal using the NVDA or JAWS screen readers.
+An R session in the terminal would be accessible, or you could read input and output in the text editor of your choice from either the Windows or Linux operating system.
+This would be a great option for people who are experienced NVDA or JAWS users who want to learn about both R and Linux.
 #### Mac and Linux
 
 The software listed below works together to provide an environment for working with R:
