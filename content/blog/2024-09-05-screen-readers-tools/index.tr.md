@@ -76,7 +76,7 @@ Birçok görme engelli R kullanıcısı, ekran okuyucuları ile [Visual Studio C
 [VS Code için R uzantısı](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r)
 R'de çalışmayı daha kolay hale getirmek için ek işlevler sağlar.
 
-Windows'ta R ile çalışmak için ikinci bir seçenek [Windows Subsystem for Linux] (https://learn.microsoft.com/en-us/windows/wsl/about) (WSL) yüklemektir. 
+Windows'ta R ile çalışmak için ikinci bir seçenek [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/about) (WSL) yüklemektir. 
 WSL ile Windows üzerinde bir Linux komut satırı ortamı çalıştırabilirsiniz. 
 NVDA veya JAWS kullanarak Terminal'e erişebilirsiniz.
 Ve Terminaldeki bir R oturumuna erişebilir ya da Windows veya Linux işletim sisteminden seçtiğiniz metin editöründe girdileri  ve çıktıları okuyabilirsiniz.
@@ -119,13 +119,21 @@ Buraya dokümantasyon eklemedim çünkü RStudio'nun kullanıldığını varsaym
 ## R Kullanmayı Öğrenme
 
 
-R'nin dokümantasyonlarını okuma ve öğrenme pratiği yapmak önemlidir, ancak bunları anlamayı öğrenmek zaman alır. Dışarıda aşağıdakiler de dahil olmak üzere birçok yararlı kaynaklar vardır:
+R'nin dokümantasyonlarını okuma ve öğrenme pratiği yapmak önemlidir, ancak bunları anlamayı öğrenmek zaman alır. 
+Dışarıda aşağıdakiler de dahil olmak üzere birçok yararlı kaynaklar vardır:
 
 
 - UCLA'nın R üzerinde basit metin formatlarında harika “Öğrenme Moddülleri ve Sıkça Sorulan Sorular” [Learning Modules and FAQs](https://stats.oarc.ucla.edu/r/) isimli bir öğrenme kaynağı bulunmaktadır.
-- Yapmak istediğiniz analiz türüne ilişkin örnekler ve öğreticiler (video olmadıkları sürece) için Web'de arama yapmak çok yardımcı olabilir. Ekran okuyucu navigasyonunu engelleyen çok sayıda reklam içeren ticari sitelerden kaçının. Ben kişisel ya da akademik sitelerde barındırılanları tercih ediyorum.
-- [Oscar Baruffa'nın web sitesi](https://www.bigbookofr.com) R hakkında ücretsiz, çevrimiçi kitapları listeler. Veri görselleştirmeleri dışında birçoğu oldukça erişilebilirdir. Ayrıca, birçoğu RStudio kullandığınızı varsayar, bu nedenle çalışmanızı kendi ortamınıza uyarlamanız gerekecektir.
-- [Kitap Paylaşımı](https://bookshare.org) bazı ülkelerdeki görme engelli insanlar için elektronik bir kitap deposudur. R hakkında birçok kitapları vardır, ancak kitapların erişilebilirlikleri değişebilmektedir. Bazen kod parçacıkları eksik olabilmektedir ve bu da R öğrenimine yardımcı olmamaktadır. Yine de bazen bu kitaplar oldukça fayda sağlamaktadır.
+- Yapmak istediğiniz analiz türüne ilişkin örnekler ve öğreticiler (video olmadıkları sürece) için Web'de arama yapmak çok yardımcı olabilir. 
+Ekran okuyucu navigasyonunu engelleyen çok sayıda reklam içeren ticari sitelerden kaçının.
+Ben kişisel ya da akademik sitelerde barındırılanları tercih ediyorum.
+- [Oscar Baruffa'nın web sitesi](https://www.bigbookofr.com) R hakkında ücretsiz, çevrimiçi kitapları listeler. 
+Veri görselleştirmeleri dışında birçoğu oldukça erişilebilirdir. 
+Ayrıca, birçoğu RStudio kullandığınızı varsayar, bu nedenle çalışmanızı kendi ortamınıza uyarlamanız gerekecektir.
+- [Kitap Paylaşımı](https://bookshare.org) bazı ülkelerdeki görme engelli insanlar için elektronik bir kitap deposudur. 
+R hakkında birçok kitapları vardır, ancak kitapların erişilebilirlikleri değişebilmektedir. 
+Bazen kod parçacıkları eksik olabilmektedir ve bu da R öğrenimine yardımcı olmamaktadır. 
+Yine de bazen bu kitaplar oldukça fayda sağlamaktadır.
 
 
 ## Özet
