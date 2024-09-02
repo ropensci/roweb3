@@ -1,6 +1,6 @@
 ---
 slug: labels-writing-projects
-title: Labels for Technical Writing Projects
+title: Labels For Technical Writing Projects
 author:
   - Greg Wilson
 editor:
@@ -8,9 +8,7 @@ editor:
 date: "2024-09-10"
 tags:
   - tech-notes
-  - git
   - github
-  - how-to
 description: ""
 ---
 
@@ -96,7 +94,7 @@ In more detail:
 -   `task` is something that needs to be done once (e.g., "publish a release")
 -   `good first issue` is there because we want people to feel welcome
 
-I'd enjoy hearing about what you're using—please [email me](mailto:{{site.author.email}})
+I'd enjoy hearing about what you're using—please [email me](mailto:gvwilson@third-bit.com)
 if you'd like to start a conversation.
 
 
