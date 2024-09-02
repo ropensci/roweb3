@@ -14,13 +14,13 @@ tags:
 description: ""
 ---
 
-Over the past thirty years I have written five technical books,
+Over the past thirty years I have written [five technical books,
 co-written three others,
-and edited a further six.
+and edited a further six](https://third-bit.com/bib/).
 Since 2007 they have all lived in GitHub repositories,
-as did the first versions of the [Software Carpentry][swc] lessons that I helped to write.
+as did the first versions of the [Software Carpentry](https://carpentries.org/) lessons that I helped to write.
 
-A few months ago I wrote about [the GitHub issue labels I use][labels-1]
+A few months ago I wrote about [the GitHub issue labels I use](https://third-bit.com/2024/03/07/labels/)
 for writing projects like these.
 As I put that post together,
 I realized that I wasn't actually using all of the labels I had created,
@@ -39,7 +39,8 @@ is more complicated than it seems.
     I've settled on "fix" to mean both "Please fix this" (in an issue)
     and "This contains a fix" (in a PR).
 
-1.  By default,
+
+2.  By default,
     GitHub provides nine labels for issues and PRs.
     Fully a third of these—`duplicate`, `invalid`, and `wontfix`—describe reasons to close an issue
     or discard a PR.
@@ -57,12 +58,12 @@ is more complicated than it seems.
     but those are the outcome, not the act itself.
     I sometimes wonder what this absence says about English speakers' view of the world…*
 
-1.  When you create a new project on GitHub,
+3.  When you create a new project on GitHub,
     you can select any of several widely-used licenses.
     However,
     all of those licenses apply to code:
-    the [Creative Commons][cc] licenses for prose (written work) aren't offered.
-    I always wind up writing [a custom `LICENSE.md`][sql-tutorial-license] to say that
+    the [Creative Commons](https://creativecommons.org/) licenses for prose (written work) aren't offered.
+    I always wind up writing [a custom `LICENSE.md`](https://github.com/gvwilson/sql-tutorial/blob/main/LICENSE.md) to say that
     all of the written material is made available under the CC-BY-NC-4.0 license
     while the software is made available under the MIT License.
 
@@ -98,8 +99,5 @@ In more detail:
 I'd enjoy hearing about what you're using—please [email me](mailto:{{site.author.email}})
 if you'd like to start a conversation.
 
-[cc]: https://creativecommons.org/
-[labels-1]: {{'/2024/03/07/labels/' | relative_url}}
-[sql-tutorial-license]: https://github.com/gvwilson/sql-tutorial/blob/main/LICENSE.md
-[swc]: https://carpentries.org/
+
 
