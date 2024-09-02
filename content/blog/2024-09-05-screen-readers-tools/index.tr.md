@@ -36,7 +36,7 @@ Dr. Jonathan Godfrey, base R fonksiyonlarından daha erişilebilir olan metin ve
 [Dr. Godfrey'in web sitesi](https://r-resources.massey.ac.nz/BrailleR/) bu paket hakkında bilgilerin yanı sıra Braille veya ekran okuyucu kullanıcısı olarak R kullanımı hakkında genel tavsiyeler içermektedir.
 
 
-[Kör R Kullanıcıları posta listesi]((https://www.nfbnet.org/mailman/listinfo/blindrug_nfbnet.org) R kullanımı hakkında yanıtlar için gidebileceğiniz başka bir kaynaktır.
+[Kör R Kullanıcıları posta listesi](https://www.nfbnet.org/mailman/listinfo/blindrug_nfbnet.org) R kullanımı hakkında yanıtlar için gidebileceğiniz başka bir kaynaktır.
 
 
 ## R ile nasıl etkileşim kuruyorsunuz?
