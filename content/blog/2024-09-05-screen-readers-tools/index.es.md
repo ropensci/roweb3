@@ -43,7 +43,7 @@ Las posibilidades incluyen:
 
 ### IDEs y sistemas operativos
 
-Un IDE es un software que ayuda a los programadores a desarrollar software de forma eficiente proporcionando un conjunto de herramientas en el mismo entorno. Existen varios IDE en el mercado.
+Una IDE es un software que ayuda a los programadores a desarrollar software de forma eficiente proporcionando un conjunto de herramientas en el mismo entorno. Existen varios IDE en el mercado.
 Los IDE tienen varias ventajas sobre el trabajo en el símbolo del sistema o en la GUI de R:
 
 - Comandos especializados para ejecutar el código y revisar los resultados.
