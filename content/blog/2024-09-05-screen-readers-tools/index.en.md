@@ -39,8 +39,8 @@ The [Blind R Users mailing list](https://www.nfbnet.org/mailman/listinfo/blindru
 
 Possibilities include:
 
-* Running R at the command prompt in a terminal. This has the large disadvantage of not saving your commands and output.
-* Using a text editor to write scripts (groups of R commands) and submitting them at the command line. This used to be the preferred approach for many blind users, but is less convenient than in interactive tool.
+* Running R at the [command prompt in a terminal](https://en.wikipedia.org/wiki/Terminal_emulator). This has the large disadvantage of not saving your commands and output.
+* Using a text editor to write scripts (groups of R commands) and submitting them at the [command line](https://en.wikipedia.org/wiki/Command-line_interface). This used to be the preferred approach for many blind users, but is less convenient than in interactive tool.
 * Using R's GUI (graphical user interface). This might be accessible on Windows, but it is inaccessible on Mac.
 * Using an accessible integrated development environment (IDE) for writing, editing, submitting, and reusing R code (see next section).
 

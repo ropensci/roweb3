@@ -45,8 +45,8 @@ Dr. Jonathan Godfrey, base R fonksiyonlarından daha erişilebilir olan metin ve
 Olasılıklar şunları içerir:
 
 
-- R'yi bir terminaldeki komut isteminde çalıştırmak. Bu, komutlarınızı ve çıktılarınızı kaydetmemek gibi büyük bir dezavantaja sahiptir.
-- R scriptlerini (R komutu grupları) yazmak için bir metin editörü kullanmak ve bunları komut satırından göndermek. Bu, birçok görme engelli kullanıcı için tercih edilen bir yaklaşımdı, ancak etkileşimli araçtan daha az kullanışlıdır.
+- R'yi bir [terminaldeki komut isteminde çalıştırmak](https://tr.wikipedia.org/wiki/Terminal_emülatörü). Bu, komutlarınızı ve çıktılarınızı kaydetmemek gibi büyük bir dezavantaja sahiptir.
+- R scriptlerini (R komutu grupları) yazmak için bir metin editörü kullanmak ve bunları [komut satırından göndermek](https://tr.wikipedia.org/wiki/Komut_satırı). Bu, birçok görme engelli kullanıcı için tercih edilen bir yaklaşımdı, ancak etkileşimli araçtan daha az kullanışlıdır.
 - R'nin GUI'sini (grafiksel kullanıcı arayüzü) kullanmak. Bu Windows'ta erişilebilir olabilir, ancak Mac'te erişilebilir değildir.
 - R kodu yazmak, düzenlemek, göndermek ve yeniden kullanmak için erişilebilir bir entegre geliştirme ortamı (IDE) kullanmak (sonraki bölüme bakıniz).
 

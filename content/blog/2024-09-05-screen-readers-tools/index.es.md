@@ -36,8 +36,8 @@ El sitio [Personas ciegas usuarias de R](https://www.nfbnet.org/mailman/listinfo
 
 Las posibilidades incluyen:
 
-- Ejecutar R en el símbolo del sistema en una terminal. Esto tiene la gran desventaja de no guardar los comandos que usaste y la salida que generaron.
-- Usar un editor de texto para escribir scripts (grupos de comandos R) y enviarlos en la línea de comandos. Este solía ser el enfoque preferido para muchas personas ciegas, pero es menos conveniente que la herramienta interactiva.
+- Ejecutar R en el [símbolo del sistema en una terminal](https://es.wikipedia.org/wiki/Emulador_de_terminal). Esto tiene la gran desventaja de no guardar los comandos que usaste y la salida que generaron.
+- Usar un editor de texto para escribir scripts (grupos de comandos R) y enviarlos en la [línea de comandos](https://es.wikipedia.org/wiki/Interfaz_de_línea_de_comandos). Este solía ser el enfoque preferido para muchas personas ciegas, pero es menos conveniente que la herramienta interactiva.
 - Utilizar la GUI (interfaz gráfica de usuario) de R. Esto puede ser accesible en Windows, pero es inaccesible en Mac.
 - Utilizar un entorno de desarrollo integrado (IDE) accesible para escribir, editar, enviar y reutilizar código R (véase la siguiente sección).
 
