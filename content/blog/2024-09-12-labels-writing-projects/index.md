@@ -9,7 +9,7 @@ date: "2024-09-12"
 tags:
   - tech-notes
   - github
-description: ""
+description: "Greg discusses the challenges of organizing non-software projects in GitHub and shares the label system he uses for technical writing projects like books and lessons."
 ---
 
 Over the past thirty years I have written [five technical books,
@@ -74,9 +74,9 @@ One of GitHub's default issue labels is "documentation",
 but I don't think the prose in a lesson or chapter is documentation of code: 
 the code is there to support the writing.
 
-## Custom Labels
+## Custom Labels System
 
-So here's what I'm using in my current writing projects:
+So here's what I'm using in my [current writing projects](https://github.com/gvwilson):
 
 | Name             | Purpose                               |
 | ---------------- | ------------------------------------- |
