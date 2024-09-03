@@ -25,7 +25,7 @@ I realized that I wasn't actually using all of the labels I had created,
 and that the problem of choosing good labels for a mixture of code and prose
 is more complicated than it seems.
 
-### Labels level
+### 1. Labels level
 
 GitHub only allows one set of labels per project,
     which means that the labels you would want to apply to issues
@@ -39,7 +39,7 @@ GitHub only allows one set of labels per project,
     I've settled on "fix" to mean both "Please fix this" (in an issue)
     and "This contains a fix" (in a PR).
 
-### Default labels
+### 2. Default labels
 
 By default,
     GitHub provides nine labels for issues and PRs.
@@ -58,7 +58,7 @@ We sometimes say "a score" or "a win" to mean this,
 but those are the outcome, not the act itself.
 I sometimes wonder what this absence says about English speakers' view of the world…*
 
-### License
+### 3. License
 
 When you create a new project on GitHub,
     you can select any of several widely-used licenses.
