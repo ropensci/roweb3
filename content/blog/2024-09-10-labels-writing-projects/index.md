@@ -25,7 +25,9 @@ I realized that I wasn't actually using all of the labels I had created,
 and that the problem of choosing good labels for a mixture of code and prose
 is more complicated than it seems.
 
-1.  GitHub only allows one set of labels per project,
+### Labels level
+
+GitHub only allows one set of labels per project,
     which means that the labels you would want to apply to issues
     are in the same pile as labels you'd want to apply to pull requests (PRs).
     This overlap quickly leads to confusion:
@@ -37,8 +39,9 @@ is more complicated than it seems.
     I've settled on "fix" to mean both "Please fix this" (in an issue)
     and "This contains a fix" (in a PR).
 
+### Default labels
 
-2.  By default,
+By default,
     GitHub provides nine labels for issues and PRs.
     Fully a third of these—`duplicate`, `invalid`, and `wontfix`—describe reasons to close an issue
     or discard a PR.
@@ -46,17 +49,18 @@ is more complicated than it seems.
     and I feel it's polite to add a sentence or two of explanation as a comment.
     (You have to do this anyway when marking an issue or PR as `duplicate` to point at what it's duplicating.)
 
-    *Note: I find it a bit ironic that GitHub provides three ways to say "no" but none for saying "yes".
-    If I was going to use labels to mark closed issues,
-    I would include "resolved" and/or "merged".*
+*Note: I find it a bit ironic that GitHub provides three ways to say "no" but none for saying "yes".
+If I was going to use labels to mark closed issues,
+I would include `resolved` and/or `merged`.*
 
-    *Also note: English doesn't have an antonym for "mistake", i.e., we don't have a single word
-    that means, "A thing done well."
-    We sometimes say "a score" or "a win" to mean this,
-    but those are the outcome, not the act itself.
-    I sometimes wonder what this absence says about English speakers' view of the world…*
+*Also note: English doesn't have an antonym for "mistake", i.e., we don't have a single word that means, "A thing done well."
+We sometimes say "a score" or "a win" to mean this, 
+but those are the outcome, not the act itself.
+I sometimes wonder what this absence says about English speakers' view of the world…*
 
-3.  When you create a new project on GitHub,
+### License
+
+When you create a new project on GitHub,
     you can select any of several widely-used licenses.
     However,
     all of those licenses apply to code:
@@ -69,6 +73,8 @@ is more complicated than it seems.
     One of GitHub's default issue labels is "documentation",
     but I don't think the prose in a lesson or chapter is documentation of code:
     the code is there to support the writing.
+
+### Custom Labels
 
 So here's what I'm using in my current writing projects:
 
@@ -96,6 +102,5 @@ In more detail:
 
 I'd enjoy hearing about what you're using—please [email me](mailto:gvwilson@third-bit.com)
 if you'd like to start a conversation.
-
 
 
