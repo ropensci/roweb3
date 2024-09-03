@@ -7,8 +7,9 @@ editor:
   - Yanina Bellini Saibene
 date: "2024-09-12"
 tags:
-  - tech-notes
+  - tech notes
   - github
+  - community
 description: "Greg discusses the challenges of organizing non-software projects in GitHub and shares the label system he uses for technical writing projects like books and lessons."
 ---
 
