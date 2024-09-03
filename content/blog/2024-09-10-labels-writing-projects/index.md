@@ -69,12 +69,12 @@ When you create a new project on GitHub,
     all of the written material is made available under the CC-BY-NC-4.0 license
     while the software is made available under the MIT License.
 
-    I mention this here because I find other things missing as well for writing projects.
-    One of GitHub's default issue labels is "documentation",
-    but I don't think the prose in a lesson or chapter is documentation of code:
-    the code is there to support the writing.
+I mention this here because I find other things missing as well for writing projects.
+One of GitHub's default issue labels is "documentation",
+but I don't think the prose in a lesson or chapter is documentation of code: 
+the code is there to support the writing.
 
-### Custom Labels
+## Custom Labels
 
 So here's what I'm using in my current writing projects:
 
