@@ -43,7 +43,10 @@ Those workpackages are then deposited into Zenodo to create versioned single sou
 <pre class="mermaid">
 flowchart LR
     accTitle: Workflow Overview for cleaning data from multiple sources
-    accDescr: Data from multiple sources including dropbox, googledrive, airtable, and open data kit are ingested and transformed. Data entry errors are recorded in a validation log and corrected manually in the log. Corrections made in the validation logs are applied to the data, the data are then integrated before being prepared for archive in Zenodo. 
+    accDescr {
+        Data from multiple sources including dropbox, googledrive, airtable, and open data kit are ingested and transformed. Data entry errors are recorded in a validation log and corrected manually in the log. 
+        Corrections made in the validation logs are applied to the data, the data are then integrated before being prepared for archive in Zenodo.
+              }
     A[Dropbox] --> E(ETL in targets with ohcleandat)
     B[GoogleDrive] --> E
     C[Airtable] --> E
@@ -98,7 +101,11 @@ If there were additional tables to link or more complicated relationships I woul
 <pre class="mermaid">
 flowchart LR
     accTitle: Overview of metadata workflow
-    accDescr: deposit metadata and creator metadata are stored as CSV files. Those CSV files are ingested into targets along with their corresponding data files. The metadata files and data files are combined in targets to create a Zenodo deposit.
+    accDescr {
+       Deposit metadata and creator metadata are stored as CSV files. 
+       Those CSV files are ingested into targets along with their corresponding data files. 
+       The metadata files and data files are combined in targets to create a Zenodo deposit.
+        }
     A[Deposit Metadata CSV] --> G(ELT in targets)
     B[Creator Metadata CSV] --> G
     C[ Data Files]  --> G
@@ -319,7 +326,11 @@ It takes a second to get the hang of the `R6` object oriented structure and JSON
 <pre class="mermaid">
 flowchart LR
     accTitle: Expanded diagram of data deposition workflow
-    accDescr: deposit and creator metadata files are ingested into targets along with all the files for a set workpackages that will be stored in Zenodo. Those files are manipulated in targets to create or update a valid deposit. Finaly the deposit is  pushed to Zenodo and the deposit metadata csv is updated with digital object identifiers and a zenodo deposit identifier. 
+    accDescr {
+        Deposit and creator metadata files are ingested into targets along with all the files for a set workpackages that will be stored in Zenodo. 
+        Those files are manipulated in targets to create or update a valid deposit. 
+        Finaly the deposit is  pushed to Zenodo and the deposit metadata csv is updated with digital object identifiers and a zenodo deposit identifier. 
+        }
     A[Deposit Metadata CSV] --> G[ETL in targets]
     B[Creator Metadata CSV] --> G
     C[Workpackage Files]  --> G
