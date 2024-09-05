@@ -76,7 +76,7 @@ deposits allows you to pre-populate the metadata for those items. This is incred
 You might be asking yourself - do Zenodo and Figshare really use the same terms with the same properties in their APIs? The answer is no, but they both use flavors of [Dublin Core](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#section-1) that Mark has mapped to common standard. 
 deposits uses JSON validation to enforce the standard and the package also provides a template properly formatted metadata. 
 
-Finally, {deposits} allows you to push items to a service and publish them. 
+Finally, deposits allows you to push items to a service and publish them. 
 On zenodo, you may push items up as embargoed or open (restricted is coming soon pending a pull request). 
 
 ## What does our workflow look like?
@@ -114,11 +114,11 @@ The PIs on the project requested access to raw, semi-clean, and clean versions o
 They also provided lists of who should be credited for what and who should have access to what. 
 Unfortunately in Zenodo you cannot restrict access to specific files like you can in OSF, so a different deposit has to be made for each group that needs access. 
 
-We then map over each row in the dataset in {targets} using [the group iterator](https://docs.ropensci.org/targets/reference/tar_group.html) to create the draft deposits that we need. 
+We then map over each row in the dataset in targets using [the group iterator](https://docs.ropensci.org/targets/reference/tar_group.html) to create the draft deposits that we need. 
 The `depositClient` plays very nicely with targets, and can even be tar_loaded when you need to interactively debug. 
 
 Another important component of our workflow is generating codebooks/data dictionaries/structural metadata for the different work packages. 
-By default, {deposits} creates a {frictionless} data package that describes all the files/resources in a deposit. 
+By default, deposits creates a frictionless data package that describes all the files/resources in a deposit. 
 The `datapackage.json` file contains a minimal description of the different files that contains the field name and field type. 
 We can augment this with field descriptions, term URIs, or any number of additional attributes that would helpful when describing the data.  
 To do this, we use  `ohcleandat::create_structural_metadata` and `ohcleandat::update_structural_metadata` to create/update the codebooks then `ohcleandat::expand_frictionless_metadata()` to add those elements to `datapackage.json`. 
@@ -292,12 +292,12 @@ update_zenodo_metadata <- function(cli, metadata_formatted) {
   return(metadata_formatted)
 }
 ```
-We can create many deposits with good descriptive metadata, extend the structural metadata, and keep out deposits_metadata.csv up to date using {deposits}, {ohcleandat}, and a little {dplyr}. 
+We can create many deposits with good descriptive metadata, extend the structural metadata, and keep out deposits_metadata.csv up to date using deposits, ohcleandat, and a little dplyr. 
 
 ## Potential pain points
 
 1) Some of the more complex DCMI terms require nested lists with very particular structures. 
-This can be hard to reason about if you're not super familiar with [JSON](https://eloquentjavascript.net/04_data.html) or how the [{jsonlite}](https://arxiv.org/abs/1403.2805) package converts json to R objects. 
+This can be hard to reason about if you're not super familiar with [JSON](https://eloquentjavascript.net/04_data.html) or how the [jsonlite](https://arxiv.org/abs/1403.2805) package converts json to R objects. 
 Mark provides good examples of constructing the `creator` objects in the deposits documentation. 
 Even if you are a JSON wizard,
 the [entities documentation](https://developers.zenodo.org/#entities) in the Zenodo API is super helpful.  
@@ -308,7 +308,7 @@ the [entities documentation](https://developers.zenodo.org/#entities) in the Zen
 ## Conclusions
 
 We were able put the deposits package through the wringer with the RVF2 project and it performed extremely well.
-The {deposits} package is great for making and managing a collection of Zenodo deposits.
+The deposits package is great for making and managing a collection of Zenodo deposits.
 It takes a second to get the hang of the `R6` object oriented structure and JSON data validation, but once you do, the thoughtful package design results in a smooth workflow whether you're updating a single deposit or a large batch.   
 
 <pre class="mermaid">
