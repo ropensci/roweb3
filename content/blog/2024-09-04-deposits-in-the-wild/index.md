@@ -117,7 +117,7 @@ flowchart LR
 Each row in `deposits_metadata.csv` corresponds to a work package - a collection of data files that will become a deposit. 
 The PIs on the project requested access to raw, semi-clean, and clean versions of the data. 
 They also provided lists of who should be credited for what and who should have access to what. 
-Unfortunately in Zenodo you cannot restrict access to specific files like you can in OSF, so a different deposit has to be made for each group that needs access. 
+Unfortunately in Zenodo you cannot restrict access to specific files like you can in the [Open Science Framework](https://osf.io/) (OSF), so a different deposit has to be made for each group that needs access. 
 
 We then map over each row in the dataset in targets using [the group iterator](https://docs.ropensci.org/targets/reference/tar_group.html) to create the draft deposits that we need. 
 The `depositClient` plays very nicely with targets, and can even be tar_loaded when you need to interactively debug. 
