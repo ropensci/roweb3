@@ -55,7 +55,7 @@ flowchart LR
 
 ## An abbreviated intro to {deposits} 
 
-The first thing you have to know about {deposits} is that it uses the R6 class. 
+The first thing you have to know about deposits is that it uses the R6 class. 
 R6 is an object oriented framework where each class of object has a set of methods (functions) that can be applied to it. 
 This is really nice because you can access all of the available methods of a `depositClient` object by using `cli$SOME_METHOD()` - where its less convenient for people who work in Rstudio is when you're looking for the help page for `SOME_METHOD` - instead you have to look for `depositClient` and scroll to the link to `SOME_METHOD`.
 
