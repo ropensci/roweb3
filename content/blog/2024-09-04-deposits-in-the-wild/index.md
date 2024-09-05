@@ -31,7 +31,7 @@ editor:
 For the better part of a year, I have been looking for an opportunity to use the rOpenSci package [deposits](https://docs.ropensci.org/deposits/) in my
 role as the Data Librarian at EcoHealth Alliance.
 I had done some initial testing with [Mark Padgham](/author/mark-padgham/), the brilliant person who developed this package, but there weren't any projects ready for me to put deposits through its paces.
-Enter the *Rift Valley Fever Virus in South Africa* project, a ten year, multiple part study of humans, wildlife (mosquitoes and wild ungulates), and domestic animals that uses every data store from dropbox to Google drive to Airtable to ODK with a healthy mix file formats for tabular data. 
+Enter the *Rift Valley Fever Virus in South Africa* project, a ten year, multiple part study of humans, wildlife (mosquitoes and wild ungulates), and domestic animals that uses every data store from Dropbox to Google Drive to Airtable to ODK with a healthy mix file formats for tabular data. 
 Additionally, the PIs on the project are very enthusiastic about making the data FAIR.  
 
 The team and I put together workflow in [{targets}](https://books.ropensci.org/targets/) with the mechanics of ETL largely handled by our [{ohcleandat}](https://ecohealthalliance.github.io/ohcleandat/) package. 
