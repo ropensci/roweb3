@@ -32,7 +32,7 @@ For the better part of a year, I have been looking for an opportunity to use the
 role as the Data Librarian at EcoHealth Alliance.
 I had done some initial testing with [Mark Padgham](/author/mark-padgham/), the brilliant person who developed this package, but there weren't any projects ready for me to put deposits through its paces.
 Enter the *Rift Valley Fever Virus in South Africa* project, a ten year, multiple part study of humans, wildlife (mosquitoes and wild ungulates), and domestic animals that uses every data store from Dropbox to Google Drive to Airtable to ODK with a healthy mix file formats for tabular data. 
-Additionally, the PIs on the project are very enthusiastic about making the data FAIR.  
+Additionally, the principal investigators (PIs) on the project are very enthusiastic about making the data FAIR (Findability, Accessibility, Interoperability, and Reusability).  
 
 The team and I put together workflow in [{targets}](https://books.ropensci.org/targets/) with the mechanics of ETL largely handled by our [{ohcleandat}](https://ecohealthalliance.github.io/ohcleandat/) package. 
 The underlying philosophy of the ETL process is the original data are only lightly modified (stripping white spaces, column names to snake case, etc) while humans do any cleaning that requires thought via validation logs. 
