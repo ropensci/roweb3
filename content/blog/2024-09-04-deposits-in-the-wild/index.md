@@ -1,6 +1,6 @@
 ---
 slug: "deposits-in-the-wild"
-title: Deposits in the Wild
+title: Deposits In The Wild
 author:
   - Collin Schwantes
 date: 2024-09-04
