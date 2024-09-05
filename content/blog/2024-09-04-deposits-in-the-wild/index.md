@@ -10,6 +10,7 @@ tags:
   - reproducibility
   - zenodo
   - frictionless
+  - community
 # The summary below will be used by e.g. Mastodon preview cards
 description: "Using {deposits} and {frictionless} to create FAIR data for a complex project"
 social: "A post about using R to create FAIR data for complex projects by @collinschwantes@fosstodon.org!"
