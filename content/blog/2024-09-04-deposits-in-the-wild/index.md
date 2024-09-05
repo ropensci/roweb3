@@ -62,7 +62,7 @@ This is really nice because you can access all of the available methods of a `de
 The next kind of tricky thing is [adding api tokens to the environment](https://docs.ropensci.org/deposits/articles/install-setup.html#setup-api-tokens). 
 This can be done in a number of different ways ([encrypted .env file](https://ecohealthalliance.github.io/eha-ma-handbook/16-encryption.html), [usethis::edit_r_environ](https://usethis.r-lib.org/reference/edit.html), etc) but is essential to using this package. Remember that these tokens are sensitive credentials and should not be openly shared.
 
-{deposits} works as an intermediary between a remote service ([Zenodo](https://zenodo.org/) or [Figshare](https://figshare.com/)) and your local machine. 
+deposits works as an intermediary between a remote service ([Zenodo](https://zenodo.org/) or [Figshare](https://figshare.com/)) and your local machine. 
 Via {deposits} you can create, read, update, or delete items on a remote service.    
 
 
