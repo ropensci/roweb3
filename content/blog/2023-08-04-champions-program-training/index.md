@@ -10,6 +10,8 @@ author:
   - Mauro Lepore
   - Heather Turner
   - Pao Corrales
+editor:
+  - Steffi LaZerte  
 date: '2023-08-04'
 tags:
   - community
