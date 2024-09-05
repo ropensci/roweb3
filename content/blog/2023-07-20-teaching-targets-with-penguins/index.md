@@ -3,6 +3,9 @@ title: Teaching targets with Penguins
 author:
   - Athanasia Mo Mowinckel
   - Joel Nitta
+editor:
+  - Steffi LaZerte
+  - Yanina Bellini Saibene
 date: '2023-07-20'
 slug: teaching-targets-with-penguins
 categories:
