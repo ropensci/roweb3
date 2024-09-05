@@ -80,7 +80,7 @@ On zenodo, you may push items up as embargoed or open (restricted is coming soon
 
 ## What does our workflow look like?
 
-We created a `deposits_metadata.csv` that contains all of the DCMI terms we would like to pre-populate across ~35 zenodo deposits.
+We created a `deposits_metadata.csv` that contains all of the DCMI (Dublin Core Metadata Initiative) terms we would like to pre-populate across ~35 zenodo deposits.
 Because certain DCMI terms like creator can have multiple attributes, we augmented the `deposits_metadata.csv` with a `creator_metadata.csv` file that contains additional terms. 
 I opted to use csv files because:  
 1) they are very easy to maintain
