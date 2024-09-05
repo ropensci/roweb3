@@ -63,7 +63,7 @@ The next kind of tricky thing is [adding api tokens to the environment](https://
 This can be done in a number of different ways ([encrypted .env file](https://ecohealthalliance.github.io/eha-ma-handbook/16-encryption.html), [usethis::edit_r_environ](https://usethis.r-lib.org/reference/edit.html), etc) but is essential to using this package. Remember that these tokens are sensitive credentials and should not be openly shared.
 
 deposits works as an intermediary between a remote service ([Zenodo](https://zenodo.org/) or [Figshare](https://figshare.com/)) and your local machine. 
-Via {deposits} you can create, read, update, or delete items on a remote service.    
+Via deposits you can create, read, update, or delete items on a remote service.    
 
 
 <pre class="mermaid">
@@ -72,9 +72,9 @@ flowchart LR
     B <--> C[Zenodo/Figshare]
 </pre>    
 
-{deposits} allows you to pre-populate the metadata for those items. This is incredibly useful if you have to deposit many items with similar metadata, if you have highly collaborative items with dozens of co-authors/contributors, or if you want to update many items with the same bit of metadata. 
+deposits allows you to pre-populate the metadata for those items. This is incredibly useful if you have to deposit many items with similar metadata, if you have highly collaborative items with dozens of co-authors/contributors, or if you want to update many items with the same bit of metadata. 
 You might be asking yourself - do Zenodo and Figshare really use the same terms with the same properties in their APIs? The answer is no, but they both use flavors of [Dublin Core](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#section-1) that Mark has mapped to common standard. 
-{deposits} uses JSON validation to enforce the standard and the package also provides a template properly formatted metadata. 
+deposits uses JSON validation to enforce the standard and the package also provides a template properly formatted metadata. 
 
 Finally, {deposits} allows you to push items to a service and publish them. 
 On zenodo, you may push items up as embargoed or open (restricted is coming soon pending a pull request). 
