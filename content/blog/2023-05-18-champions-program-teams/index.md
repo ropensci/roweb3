@@ -4,6 +4,9 @@ slug: ropensci-champions-program-teams-meet-c%C3%A9sar-and-marc
 author:
   - Cesar Luis Aybar Camacho
   - Marc Choisy
+editor:
+  - Yanina Bellini Saibene
+  - Steffi LaZerte
 date: '2023-05-18'
 tags:
   - community
