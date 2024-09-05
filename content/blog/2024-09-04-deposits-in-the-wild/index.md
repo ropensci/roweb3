@@ -17,6 +17,7 @@ social: "A post about using R to create FAIR data for complex projects by @colli
 # this field is for the storing the name(s) of the editor(s) of your post
 # you can leave it empty until you know who'll review your PR
 editor:
+  - Yanina Bellini Saibene
 ---
 
 
