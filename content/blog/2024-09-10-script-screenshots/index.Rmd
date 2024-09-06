@@ -3,7 +3,7 @@ title: Capturing Screenshots Programmatically With R
 author: 
 - Maëlle Salmon
 editor: Steffi LaZerte
-date: '2024-08-28'
+date: '2024-09-10'
 slug: script-screenshots
 categories: []
 output: hugodown::md_document
