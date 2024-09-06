@@ -2,34 +2,38 @@
 title: Capturing Screenshots Programmatically With R
 author: 
 - Maëlle Salmon
-date: '2024-08-28'
+editor: Steffi LaZerte
+date: '2024-09-10'
 slug: script-screenshots
 categories: []
 output: hugodown::md_document
 tags:
   - tech notes
+  - how to
+  - r-universe
+  - screenshot
+  - magick
 ---
 
 
-As part of our work [documenting R-universe](/blog/2024/04/12/gsod-announcement/), 
+As part of our work [documenting R-Universe](/blog/2024/04/12/gsod-announcement/), 
 we're adding screenshots of the interface to the [documentation website](https://docs.r-universe.org).
-Taking screenshots manually could quickly become very cumbersome, especially as we expect repeated efforts: we might want to change the universes we feature, the interface might improve [yet again](/blog/2024/06/12/runiverse-frontend/) and therefore look slightly different.
+Taking screenshots manually could quickly become very cumbersome, especially as we expect they'll need updating in future: we might want to change the universes we feature, the interface might improve [yet again](/blog/2024/06/12/runiverse-frontend/) and therefore look slightly different.
 Therefore, we decided to opt for a programmatic approach.
-In this post we shall present our learnings from using the R packages chromote and magick to produce screenshots.
+In this post we shall present our learnings from using the R packages [chromote](https://rstudio.github.io/chromote/) and [magick](https://docs.ropensci.org/magick/) to produce screenshots.
 
 ## Main packages needed
 
 ### The chromote R package
 
 To take a screenshot programmatically, we need to somehow get control of a browser from a script.
-The [chromote R package](https://rstudio.github.io/chromote/) is an actively maintained wrapper for Chrome Remote Interface, authored by Winston Chang and Barrett Schloerke.
-With chromote, you can open a browser in the background, navigate to the page of your choice, interact with it, and obviously capture screenshots.
-Chromote powers the experimental [live web-scraping in the rvest package](https://rvest.tidyverse.org/reference/read_html_live.html).
-The package is also used in [shinytest2](https://rstudio.github.io/shinytest2/).
+The [chromote R package](https://rstudio.github.io/chromote/) is an actively maintained wrapper for [Chrome Remote Interface](https://github.com/cyrus-and/chrome-remote-interface), authored by Winston Chang and Barrett Schloerke.
+With chromote, you can open a browser in the background, navigate to the page of your choice, interact with it, and capture screenshots.
+chromote powers the experimental [live web-scraping in the rvest package](https://rvest.tidyverse.org/reference/read_html_live.html) and is also used in [shinytest2](https://rstudio.github.io/shinytest2/).
 
 ### The magick R package
 
-Generally one does need to use Jeroen Ooms' [magick R package](https://docs.ropensci.org/magick/) to take screenshots, but we wanted to add _shadows_ to the screenshots.
+Generally, [Jeroen Ooms'](/author/jeroen-ooms) [magick R package](https://docs.ropensci.org/magick/) isn't required to take screenshots, but we wanted to format the images by adding _shadows_. 
 Therefore this tool for image manipulation was necessary.
 
 ## A first screenshot
@@ -72,28 +76,17 @@ screenshot <- function(b, img_path,
 }
 ```
 
-We can now capture the search interface of R-universe.
-In our script, we've been quite generous adding `Sys.sleep()` calls to ensure pages are properly loaded.
+We can now capture the search interface of R-Universe.
+In our script, we've added a generous `Sys.sleep()` call to ensure pages are properly loaded.
 
 
 ``` r
 b$Page$navigate("https://r-universe.dev/search/")
-```
-
-```
-$frameId
-[1] "B95E701316B5E34E2FFD67FD0A3F210D"
-
-$loaderId
-[1] "51754A95E0C83159B0C2AE2B45B11CF2"
-```
-
-``` r
 Sys.sleep(1)
 screenshot(b, "search.png")
 ```
 
-We're showing the screenshot below.
+This example captures the screenshot below.
 
 {{< figure src="search.png" alt="Screenshot of R-universe search interface, showing the search bar">}}
 
@@ -128,33 +121,22 @@ purrr::walk(
 )
 ```
 
-[^action]: Our needing to interact with the webpage before capturing screenshot prevented our using [webshot2](https://rstudio.github.io/webshot2/).
+[^action]: Our need to interact with the webpage *before* capturing the screenshot prevented our using [webshot2](https://rstudio.github.io/webshot2/).
 
 ## Screenshots after clicking on something
 
 The search interface of R-universe suggests some advanced research fields if one clicks on the arrow-down button near the search button.
-Through a GitHub search for code we found an example of clicking in the [source code of rvest](https://github.com/tidyverse/rvest/blob/c9be5b8dd9d672e84dd0dc515e3a37ab5c03111f/R/live.R#L145) that we were able to copy.
+Through a GitHub search for code we found an example of clicking in the [source code of rvest](https://github.com/tidyverse/rvest/blob/c9be5b8dd9d672e84dd0dc515e3a37ab5c03111f/R/live.R#L145) that we were able to adapt.
 
-The code finds the arrow-down button through its class rather than an idea so it might be a bit brittle over time.
-Once it found it, it gets its "box model" which is a bunch of coordinates, and then calculate the center coordinates.
-After that, the idea is to click which is actually a three-step action: moving the mouse, pressing the mouse, releasing the mouse.
+The code finds the arrow-down button through its class rather than id so it might be a bit brittle over time.
+Once the class is found, we retrieve its "box model" which is a bunch of coordinates, and then calculate the centre coordinates.
+After that, a "click" which is actually a three-step action: moving the mouse, pressing the mouse, releasing the mouse.
 
 
 
 ``` r
 # Searching, advanced fields ----
 b$Page$navigate("https://r-universe.dev/search/")
-```
-
-```
-$frameId
-[1] "B95E701316B5E34E2FFD67FD0A3F210D"
-
-$loaderId
-[1] "921505B7381C51F8FAFD7EFF55E81754"
-```
-
-``` r
 Sys.sleep(1)
 search_info <- b$DOM$querySelector(
   b$DOM$getDocument()$root$nodeId,
@@ -169,13 +151,6 @@ b$Input$dispatchMouseEvent(
   x = center_x,
   y = center_y,
 )
-```
-
-```
-named list()
-```
-
-``` r
 b$Input$dispatchMouseEvent(
   type = "mousePressed",
   x = center_x,
@@ -183,13 +158,6 @@ b$Input$dispatchMouseEvent(
   button = "left",
   clickCount = 1
 )
-```
-
-```
-named list()
-```
-
-``` r
 b$Input$dispatchMouseEvent(
   type = "mouseReleased",
   x = center_x,
@@ -197,13 +165,6 @@ b$Input$dispatchMouseEvent(
   button = "left",
   clickCount = 1
 )
-```
-
-```
-named list()
-```
-
-``` r
 Sys.sleep(2)
 screenshot(b, "search-advanced.png")
 ```
@@ -221,7 +182,7 @@ We therefore had to use the `cliprect` argument of the screenshot method.
 Figuring out we needed it was a first gotcha.
 
 A second gotcha is that `cliprect` is ["a (unnamed) vector/list with left, top, width and height"](https://github.com/rstudio/chromote/issues/168#issuecomment-2302422282)[^support]:
-the order, not the names, matters.
+and it's the *order*, not the names, that matters.
 
 [^support]: We appreciated the fast and helpful user support!
 

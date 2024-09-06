@@ -17,7 +17,9 @@ tags:
 
 ```{r, setup, include=FALSE}
 knitr::opts_chunk$set(
-  comment = ''
+  comment = '',
+  echo = TRUE,
+  results = "hide"
 )
 ```
 As part of our work [documenting R-Universe](/blog/2024/04/12/gsod-announcement/), 
