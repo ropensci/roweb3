@@ -49,4 +49,4 @@ Topluluk Yöneticimiz Yani Bellini Saibene, Champions Programımızın katılım
 
 Panelin ardından soru-cevap oturumu düzenlenecek. Konuşmacılarımızla sohbet etmek için bize katılın!
 
-[Ekran Okuyucularla R Kullanımı İçin Kaynaklar](/blog/2024/09/05/ekran_okuyucularla_r_kullanımı_i̇çin_kaynaklar/)
+[Ekran Okuyucularla R Kullanımı İçin Kaynaklar](/tr/blog/2024/09/05/ekran_okuyucularla_r_kullanımı_i̇çin_kaynaklar/)
