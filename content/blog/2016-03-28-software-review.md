@@ -62,8 +62,7 @@ This system deliberately combines elements of traditional academic peer review
 goal was to keep reviews *non-adversarial* - to focus on improving software
 quality rather than judging the package or authors. We think the openness
 of the process has something to do with this, as reviews are public and this
-incentivizes reviewers to do good work and abide by our [code of conduct]
-(https://github.com/ropensci/policies#code-of-conduct). We also do not
+incentivizes reviewers to do good work and abide by our [code of conduct](https://github.com/ropensci/policies#code-of-conduct). We also do not
 explicitly reject packages, except for turning some away prior review when they
 are out-of-scope. We do this because submitted packages are already public and
 open-source, so "time to publication" has not been a concern. Packages that
