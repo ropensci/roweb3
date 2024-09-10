@@ -7,7 +7,7 @@ description: "A multilingual webinar on screen reader accessible tools and resou
 location: 'online' # free text
 slug: "rsr-learn-and-use"
 country: "🌐" # emoji
-coworking: true
+coworking: false
 ropensci: yes
 outputs:
   - HTML
