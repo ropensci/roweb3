@@ -12,7 +12,7 @@ tags:
   - frictionless
   - community
 # The summary below will be used by e.g. Mastodon preview cards
-description: "Using {deposits} and {frictionless} to create FAIR data for a complex project"
+description: "Using the deposits and frictionless packages to create FAIR data for a complex project"
 social: "A post about using R to create FAIR data for complex projects by @collinschwantes@fosstodon.org!"
 # this field is for the storing the name(s) of the editor(s) of your post
 # you can leave it empty until you know who'll review your PR
@@ -35,7 +35,7 @@ I had done some initial testing with [Mark Padgham](/author/mark-padgham/), the 
 Enter the *Rift Valley Fever Virus in South Africa* project, a ten year, multiple part study of humans, wildlife (mosquitoes and wild ungulates), and domestic animals that uses every data store from Dropbox to Google Drive to Airtable to ODK with a healthy mix of file formats for tabular data. 
 Additionally, the principal investigators (PIs) on the project are very enthusiastic about making the data FAIR (Findability, Accessibility, Interoperability, and Reusability).  
 
-The team and I put together workflow in [{targets}](https://books.ropensci.org/targets/) with the mechanics of ETL (Extract, Transform and Load) largely handled by our [{ohcleandat}](https://ecohealthalliance.github.io/ohcleandat/) package. 
+The team and I put together workflow in [targets](https://books.ropensci.org/targets/) with the mechanics of ETL (Extract, Transform and Load) largely handled by our [ohcleandat](https://ecohealthalliance.github.io/ohcleandat/) package. 
 The underlying philosophy of the ETL process is the original data are only lightly modified (stripping white spaces, column names to snake case, etc) while humans do any cleaning that requires thought via validation logs. 
 Changes made in logs are then applied to the data before they are integrated into various larger workpackages. 
 Those workpackages are then deposited into Zenodo to create versioned single sources of truth with digital object identifiers. 
@@ -43,7 +43,7 @@ Those workpackages are then deposited into Zenodo to create versioned single sou
 <pre class="mermaid">
 flowchart LR
     accTitle: Workflow Overview for cleaning data from multiple sources
-    accDescr {
+    accDescr 
         Data from multiple sources including dropbox, googledrive, airtable, and open data kit are ingested and transformed. Data entry errors are recorded in a validation log and corrected manually in the log. 
         Corrections made in the validation logs are applied to the data, the data are then integrated before being prepared for archive in Zenodo.
               }
@@ -55,10 +55,10 @@ flowchart LR
     E --> J
     E --> F[Cleaned Integrated Data]  
     F --> G(Prep for Archive in targets with deposits)
-    G --> H{Zenodo}
+    G --> HZenodo}
 </pre>
 
-## An abbreviated intro to {deposits} 
+## An abbreviated intro to deposits
 
 The first thing you have to know about deposits is that it uses the R6 class. 
 R6 is an object oriented framework where each class of object has a set of methods (functions) that can be applied to it. 
@@ -313,7 +313,7 @@ This can be hard to reason about if you're not super familiar with [JSON](https:
 Mark provides good examples of constructing the `creator` objects in the deposits documentation. 
 Even if you are a JSON wizard,
 the [entities documentation](https://developers.zenodo.org/#entities) in the Zenodo API is super helpful.  
-2) Metadata errors can feel a little cryptic until you get a better understanding of [JSON validation](https://cran.rstudio.com/web/packages/jsonvalidate/vignettes/jsonvalidate.html) and stare at the [{deposits json schema}](https://github.com/ropenscilabs/deposits/blob/main/inst/extdata/dc/schema.json) for a minute or two. 
+2) Metadata errors can feel a little cryptic until you get a better understanding of [JSON validation](https://cran.rstudio.com/web/packages/jsonvalidate/vignettes/jsonvalidate.html) and stare at the [deposits json schema](https://github.com/ropenscilabs/deposits/blob/main/inst/extdata/dc/schema.json) for a minute or two. 
 3) Collaboration can be challenging because drafts have to be manually shared in Zenodo.  `¯\_(ツ)_/¯`. 
 
 
