@@ -32,7 +32,7 @@ editor:
 For the better part of a year, I have been looking for an opportunity to use the rOpenSci package [deposits](https://docs.ropensci.org/deposits/) in my
 role as the Data Librarian at EcoHealth Alliance.
 I had done some initial testing with [Mark Padgham](/author/mark-padgham/), the brilliant person who developed this package, but there weren't any projects ready for me to put deposits through its paces.
-Enter the *Rift Valley Fever Virus in South Africa* project, a ten year, multiple part study of humans, wildlife (mosquitoes and wild ungulates), and domestic animals that uses every data store from Dropbox to Google Drive to Airtable to ODK with a healthy mix file formats for tabular data. 
+Enter the *Rift Valley Fever Virus in South Africa* project, a ten year, multiple part study of humans, wildlife (mosquitoes and wild ungulates), and domestic animals that uses every data store from Dropbox to Google Drive to Airtable to ODK with a healthy mix of file formats for tabular data. 
 Additionally, the principal investigators (PIs) on the project are very enthusiastic about making the data FAIR (Findability, Accessibility, Interoperability, and Reusability).  
 
 The team and I put together workflow in [{targets}](https://books.ropensci.org/targets/) with the mechanics of ETL (Extract, Transform and Load) largely handled by our [{ohcleandat}](https://ecohealthalliance.github.io/ohcleandat/) package. 
@@ -81,7 +81,7 @@ flowchart LR
 
 deposits allows you to pre-populate the metadata for those items. This is incredibly useful if you have to deposit many items with similar metadata, if you have highly collaborative items with dozens of co-authors/contributors, or if you want to update many items with the same bit of metadata. 
 You might be asking yourself - do Zenodo and Figshare really use the same terms with the same properties in their APIs? The answer is no, but they both use flavors of [Dublin Core](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#section-1) that Mark has mapped to common standard. 
-deposits uses JSON validation to enforce the standard and the package also provides a template properly formatted metadata. 
+deposits uses JSON validation to enforce the standard and the package also provides a template of properly formatted metadata. 
 
 Finally, deposits allows you to push items to a service and publish them. 
 On zenodo, you may push items up as embargoed or open (restricted is coming soon pending a pull request). 
@@ -313,7 +313,7 @@ This can be hard to reason about if you're not super familiar with [JSON](https:
 Mark provides good examples of constructing the `creator` objects in the deposits documentation. 
 Even if you are a JSON wizard,
 the [entities documentation](https://developers.zenodo.org/#entities) in the Zenodo API is super helpful.  
-2) Metadata errors can feel a little cryptic until you get a better understanding of [JSON validation]{https://cran.rstudio.com/web/packages/jsonvalidate/vignettes/jsonvalidate.html} and stare at the [{deposits json schema}(https://github.com/ropenscilabs/deposits/blob/main/inst/extdata/dc/schema.json) for a minute or two. 
+2) Metadata errors can feel a little cryptic until you get a better understanding of [JSON validation](https://cran.rstudio.com/web/packages/jsonvalidate/vignettes/jsonvalidate.html) and stare at the [{deposits json schema}](https://github.com/ropenscilabs/deposits/blob/main/inst/extdata/dc/schema.json) for a minute or two. 
 3) Collaboration can be challenging because drafts have to be manually shared in Zenodo.  `¯\_(ツ)_/¯`. 
 
 
