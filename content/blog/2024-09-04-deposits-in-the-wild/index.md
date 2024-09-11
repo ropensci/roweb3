@@ -18,6 +18,7 @@ social: "A post about using R to create FAIR data for complex projects by @colli
 # you can leave it empty until you know who'll review your PR
 editor:
   - Yanina Bellini Saibene
+  - Mark Padgham
 ---
 
 
