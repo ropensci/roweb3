@@ -3,7 +3,7 @@ slug: "deposits-in-the-wild"
 title: Deposits In The Wild
 author:
   - Collin Schwantes
-date: 2024-09-04
+date: 2024-09-17
 tags:
   - deposits
   - FAIR-data
