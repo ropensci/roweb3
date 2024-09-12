@@ -1,4 +1,4 @@
 +++
-title="Talks and Publications"
+title="Talks, Training, Publications"
 +++
 
