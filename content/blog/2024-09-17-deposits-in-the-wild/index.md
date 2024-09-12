@@ -44,7 +44,7 @@ Those workpackages are then deposited into Zenodo to create versioned single sou
 <pre class="mermaid">
 flowchart LR
     accTitle: Workflow Overview for cleaning data from multiple sources
-    accDescr 
+    accDescr {
         Data from multiple sources including dropbox, googledrive, airtable, and open data kit are ingested and transformed. Data entry errors are recorded in a validation log and corrected manually in the log. 
         Corrections made in the validation logs are applied to the data, the data are then integrated before being prepared for archive in Zenodo.
               }
