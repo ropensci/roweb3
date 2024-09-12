@@ -45,8 +45,8 @@ Those workpackages are then deposited into Zenodo to create versioned single sou
 flowchart LR
     accTitle: Workflow Overview for cleaning data from multiple sources
     accDescr {
-        Data from multiple sources including dropbox, googledrive, airtable, and open data kit are ingested and transformed. Data entry errors are recorded in a validation log and corrected manually in the log. 
-        Corrections made in the validation logs are applied to the data, the data are then integrated before being prepared for archive in Zenodo.
+        Data from multiple sources including dropbox, googledrive, airtable, and open data kit are     ingested and transformed. 
+        Data entry errors are recorded in a validation log and corrected manually in the log.Corrections made in the validation logs are applied to the data, the data are then integrated before being prepared for archive in Zenodo.
               }
     A[Dropbox] --> E(ETL in targets with ohcleandat)
     B[GoogleDrive] --> E
@@ -56,7 +56,7 @@ flowchart LR
     E --> J
     E --> F[Cleaned Integrated Data]  
     F --> G(Prep for Archive in targets with deposits)
-    G --> HZenodo}
+    G --> H{Zenodo}
 </pre>
 
 ## An abbreviated intro to deposits
