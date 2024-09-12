@@ -4,6 +4,9 @@ slug: ropensci-champions-program-teams-meet-carolina-pradier-and-athanasia-monik
 author:
   - Carolina Pradier
   - Athanasia Mo Mowinckel
+editor:
+  - Yanina Bellini Saibene
+  - Steffi LaZerte  
 date: '2023-05-05'
 tags:
   - community
