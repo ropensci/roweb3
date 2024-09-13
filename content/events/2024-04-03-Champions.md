@@ -1,5 +1,6 @@
 ---
 title: 'How to contribute to open projects and communities'
+training: true
 dateStart: '2024-04-03T08:30:00'
 dateEnd: '2024-04-03T09:00:00'
 date: 2024-04-03T09:00:00 # UTC!! same as dateEnd
