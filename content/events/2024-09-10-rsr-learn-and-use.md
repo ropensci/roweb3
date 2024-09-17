@@ -7,7 +7,7 @@ description: "A multilingual webinar on screen reader accessible tools and resou
 location: 'online' # free text
 slug: "rsr-learn-and-use"
 country: "🌐" # emoji
-coworking: true
+coworking: false
 ropensci: yes
 outputs:
   - HTML
@@ -35,6 +35,8 @@ Our Community Manager, [Yani Bellini Saibene](/author/yanina-bellini-saibene/),
 
 The panel will be followed by a Q&A session. Join us to chat with our speakers! 
 
+Check this guide with [Resources For Using R With Screen Readers](/blog/2024/09/05/screen-readers-tools/) by Liz.
+
 ## Türkçe
 
 ### R Öğrenmek Ve Çalışmak İçin Ekran Okuyucu Uyumlu Erişilebilir Araç ve Kaynaklar 
@@ -46,3 +48,5 @@ Seminer, Boğaziçi Üniversitesi’nden Engin Yılmaz’ın ve Champions Progra
 Topluluk Yöneticimiz Yani Bellini Saibene, Champions Programımızın katılımcıları olan Liz Hare ve Alican Çağrı Gökçek'in konuşmacı olarak yer aldığı bir paneli yönetecek. Çağrı ve Liz, R'yi yeni başlayan ve deneyimli bir R kullanıcısı perspektifinden öğrenmek ve çalışmak için ekran okuyucuyla erişilebilen araçlar ve kaynaklarla ilgili deneyimlerini paylaşacaklar. Ayrıca rOpenSci Champions Programı'ndaki deneyimlerini tartışacaklar.
 
 Panelin ardından soru-cevap oturumu düzenlenecek. Konuşmacılarımızla sohbet etmek için bize katılın!
+
+[Ekran Okuyucularla R Kullanımı İçin Kaynaklar](/tr/blog/2024/09/05/ekran_okuyucularla_r_kullanımı_i̇çin_kaynaklar/)

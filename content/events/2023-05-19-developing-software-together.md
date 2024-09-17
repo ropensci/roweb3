@@ -1,5 +1,6 @@
 ---
 title: 'Developing Software Together (training for champions program applicants)'
+training: true
 dateStart: '2023-05-19T17:00:00'
 dateEnd: '2023-05-19T17:00:00'
 date: 2023-05-19T17:00:00 # UTC!! same as dateEnd

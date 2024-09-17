@@ -1,6 +1,8 @@
 ---
 title: Open Call for rOpenSci Champions Program Applications! 
 author: Yanina Bellini Saibene
+editor:
+  - Steffi LaZerte
 date: '2023-07-14T00:00:01-07:00'
 slug: call-champions-program
 tags:
