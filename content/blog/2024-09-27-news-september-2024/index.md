@@ -39,9 +39,17 @@ Another important global table is the [package scoreboard](https://r-universe.de
 Our website now features a searchable table of our [past training sessions](/training/).
 Find more of our [resources](/resources).
 
+## Noam Ross, rOpenSci and communities empowering open science
+
+DataLatam Podcast [interviewed](https://www.datalatam.com/109/) rOpenSci director Noam Ross. 
+Learn about his work at the intersection of health and the environment and his journey with rOpenSci.
+
 ### The rOpenSci community at upcoming events
 
 rOpenSci Community Manager [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) will deliver a keynote talk at [BioNT Community Event & CarpentryConnect-Heidelberg 2024](/events/carpentryconnect-2024/), on November 14th in Heidelberg, Germany.
+
+[Will Landau](/author/will-landau/) will deliver a keynote talk at [LatinR (Latinamerican Conference About the Use of R in R&D)](/events/latinr-2024/). The conference is happening online from November 18-22. 
+
 
 ### Coworking
 
