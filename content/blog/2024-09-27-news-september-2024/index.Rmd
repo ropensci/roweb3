@@ -60,7 +60,9 @@ Another important global table is the [package scoreboard](https://r-universe.de
 
 Our website now features a searchable table of our [past training sessions](/training/).
 Find more of our [resources](/resources).
+## Noam Ross, rOpenSci and communities empowering open science
 
+DataLatam Podcast interviewed Noam. Learn about his work at the intersection of health and the environment and his journey with rOpenSci.  https://www.datalatam.com/109/
 ### The rOpenSci community at upcoming events
 [Will Landau](/author/will-landau/) will deliver a keynote talk at [LatinR <- Latinamerican Conference About the Use of R in R&D](/events/latinr-2024/). The conference is happening online from November 18-22. 
 
