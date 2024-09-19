@@ -62,6 +62,8 @@ Our website now features a searchable table of our [past training sessions](/tra
 Find more of our [resources](/resources).
 
 ### The rOpenSci community at upcoming events
+[Will Landau](/author/will-landau/) will deliver a keynote talk at [LatinR <- Latinamerican Conference About the Use of R in R&D](/events/latinr-2024/). The conference is happening online from November 18-22. 
+
 
 rOpenSci Community Manager [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) will deliver a keynote talk at [BioNT Community Event & CarpentryConnect-Heidelberg 2024](/events/carpentryconnect-2024/), on November 14th in Heidelberg, Germany.
 
