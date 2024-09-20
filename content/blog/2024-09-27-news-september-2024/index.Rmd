@@ -61,10 +61,19 @@ Another important global table is the [package scoreboard](https://r-universe.de
 Our website now features a searchable table of our [past training sessions](/training/).
 Find more of our [resources](/resources).
 
-## Noam Ross, rOpenSci and communities empowering open science
+### Noam Ross, rOpenSci and communities empowering open science
 
 DataLatam Podcast [interviewed](https://www.datalatam.com/109/) rOpenSci director Noam Ross. 
 Learn about his work at the intersection of health and the environment and his journey with rOpenSci.
+
+### Resources: Screen Reader Accessible Tools and Resources for Learning and Working with R
+
+We have now published the recording of the webinar that walks through learning and using R with screen readers — and it's bilingual (English & Turkish)! with subtitles in English.
+
+📹 [Webinar video](https://vimeo.com/1008631708) featuring [Liz Hare, PhD](/author/liz-hare/)
+and [Alican Cagri Gokcek](/author/alican-cagri-gokcek/)
+
+Also, don't miss the [detailed technical note](https://ropensci.org/blog/2024/09/05/screen-readers-tools/) by Liz Hare with all the necessary resources to get started.
 
 ### The rOpenSci community at upcoming events
 
@@ -87,13 +96,6 @@ Consult our [Events](/events) page to find your local time and how to join.
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
-## Screen Reader Accessible Tools and Resources for Learning and Working with R
-We published the webinar recording that walks through learning and using R with screen readers—and it's bilingual (English & Turkish)! with subtitles in English.
-
-📹 Webinar video featuring [Liz Hare, PhD](/author/liz-hare/)
-and [Alican Cagri Gokcek](/author/alican-cagri-gokcek/): https://vimeo.com/1008631708
-
-Also, don't miss the detailed technical note with all the necessary resources to get started. By Liz Hare: https://ropensci.org/blog/2024/09/05/screen-readers-tools/
 ## Software :package:
 
 ### New packages
