@@ -22,6 +22,16 @@ resources:
   - url: https://ropensci.org/r-universe/
     name: R-Universe 
     details: R-Universe project.
+  - url: https://jeroen.github.io/user2024/
+    name: Slides
+    details: Jeroen slides.  
+  - url: https://ropensci.org/technotes/ 
+    name: Tech Notes
+    details: Read about this and many other r-universe topics.
+  - url: https://docs.r-universe.dev/publish/set-up.html 
+    name: How to setup your R-Universe
+    details: 
+    
 speakers:  
   - name: Jeroen Ooms
     bio: "rOpenSci Lead Infrastructure Engineer"
