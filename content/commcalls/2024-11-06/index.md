@@ -21,9 +21,9 @@ outputs:
 # vimeo:
 # - id: '888160235'
 resources:
-  - url: 
-    name:  
-    details: 
+  - url:  https://github.com/orgs/ropensci/projects/7/views/1
+    name:  Tradução Português- Guia do programador
+    details: Projeto de tradução do guia de desenvolvimento de software rOpenSci para português.
 speakers:  
   - name: 
     bio: ""
