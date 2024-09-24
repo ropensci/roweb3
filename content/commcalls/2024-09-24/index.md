@@ -12,7 +12,7 @@ location: Community call (teleconference)
 country: "\U0001F310"
 attendees: All are welcome
 slug: nov2024-r-universe
-notes: 
+notes: https://docs.google.com/document/d/1pFhZ8Af6dN8sDUMqlEzSj5q7YfttAbhaeVM3fHH2QKw/edit?usp=sharing
 outputs:
 - HTML
 - Calendar 
