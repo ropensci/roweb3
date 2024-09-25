@@ -16,7 +16,7 @@ notes: https://docs.google.com/document/d/1pFhZ8Af6dN8sDUMqlEzSj5q7YfttAbhaeVM3f
 outputs:
 - HTML
 - Calendar 
-# vimeo: https://vimeo.com/1012734243?share=copy
+# vimeo: 
 # - id: '1012734243'
 resources:
   - url: https://ropensci.org/r-universe/
