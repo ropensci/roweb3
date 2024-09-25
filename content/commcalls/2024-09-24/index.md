@@ -16,8 +16,8 @@ notes: https://docs.google.com/document/d/1pFhZ8Af6dN8sDUMqlEzSj5q7YfttAbhaeVM3f
 outputs:
 - HTML
 - Calendar 
-# vimeo:
-# - id: '888160235'
+# vimeo: https://vimeo.com/1012734243?share=copy
+# - id: '1012734243'
 resources:
   - url: https://ropensci.org/r-universe/
     name: R-Universe 
@@ -30,7 +30,7 @@ resources:
     details: Read about this and many other r-universe topics.
   - url: https://docs.r-universe.dev/publish/set-up.html 
     name: How to setup your R-Universe
-    details: 
+    details: Step by step guide to setup your R-Universe.
     
 speakers:  
   - name: Jeroen Ooms
