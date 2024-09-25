@@ -31,7 +31,6 @@ resources:
   - url: https://docs.r-universe.dev/publish/set-up.html 
     name: How to setup your R-Universe
     details: Step by step guide to setup your R-Universe.
-    
 speakers:  
   - name: Jeroen Ooms
     bio: "rOpenSci Lead Infrastructure Engineer"
