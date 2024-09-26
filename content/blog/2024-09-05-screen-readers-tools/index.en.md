@@ -11,7 +11,7 @@ tags:
   - screen-readers
   - champions program
   - community
-  - accesibility
+  - accessibility
 description: "Tools and resources to use R with screen readers." 
 ---
 
