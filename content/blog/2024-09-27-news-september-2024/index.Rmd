@@ -6,7 +6,7 @@ author:
 date: '2024-09-27'
 tags:
   - newsletter
-description: R-universe list pages, training resources, coworking, new package and package news
+description: R-Universe list pages, training resources, coworking, new package and package news
 params:
   last_newsletter: "2024-08-30"
 ---
@@ -43,43 +43,43 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-### R-universe list pages
+### R-Universe list pages
 
-R-universe now features a [list of all datasets in all packages](https://r-universe.dev/datasets) and a [list of all vignettes  from CRAN, Bioconductor, and others](https://r-universe.dev/articles).
+R-Universe now features a [list of all datasets in all packages](https://r-universe.dev/datasets) and a [list of all vignettes  from CRAN, Bioconductor, and others](https://r-universe.dev/articles).
 
-Another important global table is the [package scoreboard](https://r-universe.dev/scores) that lets you explore the scores used by R-universe search engine for ranking, which is based on:
+Another important global table is the [package scoreboard](https://r-universe.dev/scores) that lets you explore the scores used by R-Universe search engine for ranking, which is based on:
 
-- Stars: Number of starson Github;
+- Stars: Number of stars on GitHub;
 - Downloads per month from CRAN or Bioconductor mirrors;
 - Scripts: (NEW) number of files on GitHub that mention 'library(pkgname)';
 - Dependents: recursive reverse dependencies;
 - Unique contributors;
 - Yearly commits.
 
-### Resources from our training sessions
+### Resources from rOpenSci training sessions
 
-Our website now features a searchable table of our [past training sessions](/training/).
-Find more of our [resources](/resources).
+We've added a searchable table of [past training sessions](/training/) to our resources hosted on the rOpenSci website.
+Explore the full list of our [resources](/resources).
 
-### Noam Ross, rOpenSci and communities empowering open science
+### Noam Ross, rOpenSci, and communities empowering open science
 
 DataLatam Podcast [interviewed](https://www.datalatam.com/109/) rOpenSci director Noam Ross. 
 Learn about his work at the intersection of health and the environment and his journey with rOpenSci.
 
-### Resources: Screen Reader Accessible Tools and Resources for Learning and Working with R
+### Materials: Screen Reader Accessible Tools and Resources for Learning and Working with R
 
 We have now published the recording of the webinar that walks through learning and using R with screen readers — and it's bilingual (English & Turkish)! with subtitles in English.
 
 📹 [Webinar video](https://vimeo.com/1008631708) featuring [Liz Hare, PhD](/author/liz-hare/)
 and [Alican Cagri Gokcek](/author/alican-cagri-gokcek/)
 
-Also, don't miss the [detailed technical note](https://ropensci.org/blog/2024/09/05/screen-readers-tools/) by Liz Hare with all the necessary resources to get started.
+Also, don't miss the [detailed technical note](/blog/2024/09/05/screen-readers-tools/) by Liz Hare with all the necessary resources to get started.
 
 ### The rOpenSci community at upcoming events
 
 rOpenSci Community Manager [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) will deliver a keynote talk at [BioNT Community Event & CarpentryConnect-Heidelberg 2024](/events/carpentryconnect-2024/), on November 14th in Heidelberg, Germany.
 
-[Will Landau](/author/will-landau/) will deliver a keynote talk at [LatinR (Latinamerican Conference About the Use of R in R&D)](/events/latinr-2024/). The conference is happening online from November 18-22. 
+[Will Landau](/author/will-landau/) will deliver a keynote talk at [LatinR (Latin American Conference About the Use of R in R&D)](/events/latinr-2024/). The conference is happening online from November 18-22. 
 
 
 ### Coworking
@@ -92,7 +92,13 @@ Everyone welcome.
 No RSVP needed. 
 Consult our [Events](/events) page to find your local time and how to join.
 
-- Tuesday, October 1st, 14h00 Europe Central (12:00 UTC), Theme TBA with cohost TBA and [Steffi LaZerte](/author/steffi-lazerte).
+- [Tuesday, October 1st, 14h00 Europe Central (12:00 UTC)](/events/coworking-2024-10), Theme Using R to tell (data science) stories with cohost [Apoorv Anand](/author/apoorv-anand) and [Steffi LaZerte](/author/steffi-lazerte).
+    - Explore how others use R to tell data stories
+    - Start work on a project using R to craft a narrative through data
+    - Chat with our cohost to discuss and explore the use of R in data stories
+- [Tuesday, November 5th, 09:00 Americas Pacific (17:00 UTC)](/events/coworking-2024-11), Theme Getting to know Openscapes with cohost [Stefanie Butland](/author/stefanie-butland) and [Steffi LaZerte](/author/steffi-lazerte).
+    - Look up [Openscapes](https://openscapes.org/)
+    - Chat with our cohost to learn more about the Openscapes organization, and how they use R to automate creating open education infrastructure
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
@@ -604,7 +610,7 @@ Some useful tips for R package developers. :eyes:
 ### Reminder: R Consortium Infrastructure Steering Committee (ISC) Grant Program Accepting Proposals until October 1st!
 
 The R Consortium [Call for Proposals](https://www.r-consortium.org/all-projects/call-for-proposals) might be a relevant funding opportunity for your package!
-If you can't prepare your proposal in time, the next call should start [March 1st next year](https://www.r-consortium.org/all-projects/call-for-proposals).
+If you can't prepare your proposal in time, the next call should start [March 1st 2025](https://www.r-consortium.org/all-projects/call-for-proposals).
 
 ### How to demonstrate an error in an R Markdown vignette
 
@@ -635,13 +641,13 @@ Michael Chirico shared the following tip on Mastodon: ["[you can use] the 'in:ti
 
 Jenny Bryan answered with another tip: ["involves:USERNAME" for "I was once part of a conversation about this"](https://mastodon.social/@jennybryan@fosstodon.org/113085363392572924).
 
-### An usethis function to create a test helper file
+### A usethis function to create a test helper file
 
 The new usethis function [` usethis::use_test_helper("mocks")`](https://usethis.r-lib.org/reference/use_test_helper.html) will create a [helper file](https://testthat.r-lib.org/articles/special-files.html) under `tests/testthat/helper-mocks.R`.
 
 ### A devtools function for building the README and vignettes
 
-Not a new function, but in case you ignore it...
+Not a new function, but in case you missed it...
 The [`devtools::build_rmd()` and `devtools::build_readme()` functions](https://devtools.r-lib.org/reference/build_rmd.html) render R Markdown files using a temporary install of your current development package.
 
 ## Last words
