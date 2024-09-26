@@ -43,6 +43,15 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
+### Community call recording: Navigating the R ecosystem using R-universe
+
+[Video and resources](/commcalls/nov2024-r-universe/).
+
+Learn more about R-Universe and how you can use it to improve your R package development workflow.
+
+In this community call, [Jeroen Ooms](/author/jeroen-ooms/) provided details on what R-Universe is and an update on what you can do with it today. 
+He also discussed the future of R-Universe and how it can be used to navigate the R ecosystem.
+
 ### R-Universe list pages
 
 R-Universe now features a [list of all datasets in all packages](https://r-universe.dev/datasets) and a [list of all vignettes  from CRAN, Bioconductor, and others](https://r-universe.dev/articles).
@@ -493,7 +502,7 @@ parse_one_post <- function(path){
   meta
 }
 paths <- fs::dir_ls("..", recurse = TRUE, glob = "*.md")
-paths <- paths[!paths %in% c("../_index.md", "../2021-02-03-targets/raw_data_source.md",
+paths <- paths[!paths %in% c("../_index.md",  "../2021-02-03-targets/raw_data_source.md",
   "../2021-02-03-targets/README.md")]
 posts <- purrr::map_df(paths, parse_one_post)
 posts <- dplyr::filter(posts, date >= as.Date(last_newsletter), !newsletter)

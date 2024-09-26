@@ -6,7 +6,7 @@ author:
 date: '2024-09-27'
 tags:
   - newsletter
-description: R-universe list pages, training resources, coworking, new package and package news
+description: R-Universe list pages, training resources, coworking, new package and package news
 params:
   last_newsletter: "2024-08-30"
 ---
@@ -21,43 +21,52 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-### R-universe list pages
+### Community call recording: Navigating the R ecosystem using R-universe
 
-R-universe now features a [list of all datasets in all packages](https://r-universe.dev/datasets) and a [list of all vignettes  from CRAN, Bioconductor, and others](https://r-universe.dev/articles).
+[Video and resources](/commcalls/nov2024-r-universe/).
 
-Another important global table is the [package scoreboard](https://r-universe.dev/scores) that lets you explore the scores used by R-universe search engine for ranking, which is based on:
+Learn more about R-Universe and how you can use it to improve your R package development workflow.
 
-- Stars: Number of starson Github;
+In this community call, [Jeroen Ooms](/author/jeroen-ooms/) provided details on what R-Universe is and an update on what you can do with it today. 
+He also discussed the future of R-Universe and how it can be used to navigate the R ecosystem.
+
+### R-Universe list pages
+
+R-Universe now features a [list of all datasets in all packages](https://r-universe.dev/datasets) and a [list of all vignettes  from CRAN, Bioconductor, and others](https://r-universe.dev/articles).
+
+Another important global table is the [package scoreboard](https://r-universe.dev/scores) that lets you explore the scores used by R-Universe search engine for ranking, which is based on:
+
+- Stars: Number of stars on GitHub;
 - Downloads per month from CRAN or Bioconductor mirrors;
 - Scripts: (NEW) number of files on GitHub that mention 'library(pkgname)';
 - Dependents: recursive reverse dependencies;
 - Unique contributors;
 - Yearly commits.
 
-### Resources from our training sessions
+### Resources from rOpenSci training sessions
 
-Our website now features a searchable table of our [past training sessions](/training/).
-Find more of our [resources](/resources).
+We've added a searchable table of [past training sessions](/training/) to our resources hosted on the rOpenSci website.
+Explore the full list of our [resources](/resources).
 
-### Noam Ross, rOpenSci and communities empowering open science
+### Noam Ross, rOpenSci, and communities empowering open science
 
 DataLatam Podcast [interviewed](https://www.datalatam.com/109/) rOpenSci director Noam Ross. 
 Learn about his work at the intersection of health and the environment and his journey with rOpenSci.
 
-### Resources: Screen Reader Accessible Tools and Resources for Learning and Working with R
+### Materials: Screen Reader Accessible Tools and Resources for Learning and Working with R
 
 We have now published the recording of the webinar that walks through learning and using R with screen readers — and it's bilingual (English & Turkish)! with subtitles in English.
 
 📹 [Webinar video](https://vimeo.com/1008631708) featuring [Liz Hare, PhD](/author/liz-hare/)
 and [Alican Cagri Gokcek](/author/alican-cagri-gokcek/)
 
-Also, don't miss the [detailed technical note](https://ropensci.org/blog/2024/09/05/screen-readers-tools/) by Liz Hare with all the necessary resources to get started.
+Also, don't miss the [detailed technical note](/blog/2024/09/05/screen-readers-tools/) by Liz Hare with all the necessary resources to get started.
 
 ### The rOpenSci community at upcoming events
 
 rOpenSci Community Manager [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) will deliver a keynote talk at [BioNT Community Event & CarpentryConnect-Heidelberg 2024](/events/carpentryconnect-2024/), on November 14th in Heidelberg, Germany.
 
-[Will Landau](/author/will-landau/) will deliver a keynote talk at [LatinR (Latinamerican Conference About the Use of R in R&D)](/events/latinr-2024/). The conference is happening online from November 18-22. 
+[Will Landau](/author/will-landau/) will deliver a keynote talk at [LatinR (Latin American Conference About the Use of R in R&D)](/events/latinr-2024/). The conference is happening online from November 18-22. 
 
 
 ### Coworking
@@ -70,7 +79,13 @@ Everyone welcome.
 No RSVP needed. 
 Consult our [Events](/events) page to find your local time and how to join.
 
-- Tuesday, October 1st, 14h00 Europe Central (12:00 UTC), Theme TBA with cohost TBA and [Steffi LaZerte](/author/steffi-lazerte).
+- [Tuesday, October 1st, 14h00 Europe Central (12:00 UTC)](/events/coworking-2024-10), Theme Using R to tell (data science) stories with cohost [Apoorv Anand](/author/apoorv-anand) and [Steffi LaZerte](/author/steffi-lazerte).
+    - Explore how others use R to tell data stories
+    - Start work on a project using R to craft a narrative through data
+    - Chat with our cohost to discuss and explore the use of R in data stories
+- [Tuesday, November 5th, 09:00 Americas Pacific (17:00 UTC)](/events/coworking-2024-11), Theme Getting to know Openscapes with cohost [Stefanie Butland](/author/stefanie-butland) and [Steffi LaZerte](/author/steffi-lazerte).
+    - Look up [Openscapes](https://openscapes.org/)
+    - Chat with our cohost to learn more about the Openscapes organization, and how they use R to automate creating open education infrastructure
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
@@ -83,7 +98,7 @@ And remember, you can always cowork independently on work related to R, work on 
 
 The following  package recently became a part of our software suite:
 
-+ [rix](https://docs.ropensci.org/rix), developed by Bruno Rodrigues together with Philipp Baumann: Provides helper functions to create reproducible development environments using the Nix package manager. It has been [reviewed](https://github.com/ropensci/software-review/issues/625) by David Watkins and Jacob Wujiciak-Jens.
++ [rix](https://docs.ropensci.org/rix), developed by Bruno Rodrigues together with Philipp Baumann: Simplifies the creation of reproducible development environments using the Nix package manager. The included `rix()` function generates a complete description of the development environment as a `default.nix` file, which can then be built using Nix. This results in project specific software environments with pinned versions of R, packages, linked system dependencies, and other tools. Additional helpers make it easy to run R code in Nix software environments for testing and production. It has been [reviewed](https://github.com/ropensci/software-review/issues/625) by David Watkins and Jacob Wujiciak-Jens.
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
@@ -91,27 +106,27 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following eleven packages have had an update since the last newsletter: [DataPackageR](https://docs.ropensci.org/DataPackageR "Construct Reproducible Analytic Data Sets as R Packages") ([`v0.16.1`](https://github.com/ropensci/DataPackageR/releases/tag/v0.16.1)), [datefixR](https://docs.ropensci.org/datefixR "Standardize Dates in Different Formats or with Missing Data") ([`v1.7.0`](https://github.com/ropensci/datefixR/releases/tag/v1.7.0)), [epubr](https://docs.ropensci.org/epubr "Read EPUB File Metadata and Text") ([`v0.6.5`](https://github.com/ropensci/epubr/releases/tag/v0.6.5)), [git2rdata](https://docs.ropensci.org/git2rdata "Store and Retrieve Data.frames in a Git Repository") ([`v0.4.1`](https://github.com/ropensci/git2rdata/releases/tag/v0.4.1)), [GSODR](https://docs.ropensci.org/GSODR "Global Surface Summary of the Day (GSOD) Weather Data Client") ([`v4.1.2`](https://github.com/ropensci/GSODR/releases/tag/v4.1.2)), [jagstargets](https://docs.ropensci.org/jagstargets "Targets for JAGS Pipelines") ([`1.2.1`](https://github.com/ropensci/jagstargets/releases/tag/1.2.1)), [mregions2](https://docs.ropensci.org/mregions2 "Gazetteer & Data Products") ([`v1.1.1`](https://github.com/ropensci/mregions2/releases/tag/v1.1.1)), [occCite](https://docs.ropensci.org/occCite "Querying and Managing Large Biodiversity Occurrence Datasets") ([`v0.5.8`](https://github.com/ropensci/occCite/releases/tag/v0.5.8)), [osmapiR](https://docs.ropensci.org/osmapiR "OpenStreetMap API") ([`v0.2.1`](https://github.com/ropensci/osmapiR/releases/tag/v0.2.1)), [robotstxt](https://docs.ropensci.org/robotstxt "A robots.txt Parser and Webbot/Spider/Crawler Permissions Checker") ([`v0.7.15`](https://github.com/ropensci/robotstxt/releases/tag/v0.7.15)), and [tiler](https://docs.ropensci.org/tiler "Create Geographic and Non-Geographic Map Tiles") ([`v0.3.2`](https://github.com/ropensci/tiler/releases/tag/v0.3.2)).
+The following twelve packages have had an update since the last newsletter: [comtradr](https://docs.ropensci.org/comtradr "Interface with the United Nations Comtrade API") ([`v1.0.2`](https://github.com/ropensci/comtradr/releases/tag/v1.0.2)), [DataPackageR](https://docs.ropensci.org/DataPackageR "Construct Reproducible Analytic Data Sets as R Packages") ([`v0.16.1`](https://github.com/ropensci/DataPackageR/releases/tag/v0.16.1)), [datefixR](https://docs.ropensci.org/datefixR "Standardize Dates in Different Formats or with Missing Data") ([`v1.7.0`](https://github.com/ropensci/datefixR/releases/tag/v1.7.0)), [epubr](https://docs.ropensci.org/epubr "Read EPUB File Metadata and Text") ([`v0.6.5`](https://github.com/ropensci/epubr/releases/tag/v0.6.5)), [git2rdata](https://docs.ropensci.org/git2rdata "Store and Retrieve Data.frames in a Git Repository") ([`v0.4.1`](https://github.com/ropensci/git2rdata/releases/tag/v0.4.1)), [GSODR](https://docs.ropensci.org/GSODR "Global Surface Summary of the Day (GSOD) Weather Data Client") ([`v4.1.2`](https://github.com/ropensci/GSODR/releases/tag/v4.1.2)), [jagstargets](https://docs.ropensci.org/jagstargets "Targets for JAGS Pipelines") ([`1.2.1`](https://github.com/ropensci/jagstargets/releases/tag/1.2.1)), [mregions2](https://docs.ropensci.org/mregions2 "Gazetteer & Data Products") ([`v1.1.1`](https://github.com/ropensci/mregions2/releases/tag/v1.1.1)), [occCite](https://docs.ropensci.org/occCite "Querying and Managing Large Biodiversity Occurrence Datasets") ([`v0.5.8`](https://github.com/ropensci/occCite/releases/tag/v0.5.8)), [osmapiR](https://docs.ropensci.org/osmapiR "OpenStreetMap API") ([`v0.2.1`](https://github.com/ropensci/osmapiR/releases/tag/v0.2.1)), [robotstxt](https://docs.ropensci.org/robotstxt "A robots.txt Parser and Webbot/Spider/Crawler Permissions Checker") ([`v0.7.15`](https://github.com/ropensci/robotstxt/releases/tag/v0.7.15)), and [tiler](https://docs.ropensci.org/tiler "Create Geographic and Non-Geographic Map Tiles") ([`v0.3.2`](https://github.com/ropensci/tiler/releases/tag/v0.3.2)).
 
 ## Software Peer Review
 
-There are thirteen recently closed and active submissions and 6 submissions on hold. Issues are at different stages: 
+There are fourteen recently closed and active submissions and 6 submissions on hold. Issues are at different stages: 
 
-* One at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
-
-     * [rix](https://github.com/ropensci/software-review/issues/625), Rix: Reproducible Environments with Nix. Submitted by [Bruno Rodrigues](https://brodrigues.co). 
-
-* Two at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
+* Two at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
 
      * [chopin](https://github.com/ropensci/software-review/issues/638), CHOPIN: Computation for Climate and Health research On Parallelized INfrastructure. Submitted by [Insang Song](https://www.issong.net). 
 
+    * [rix](https://github.com/ropensci/software-review/issues/625), Rix: Reproducible Environments with Nix. Submitted by [Bruno Rodrigues](https://brodrigues.co). 
+
+* Two at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
+
+     * [rsi](https://github.com/ropensci/software-review/issues/636), Efficiently Retrieve and Process Satellite Imagery. Submitted by [Michael Mahoney](https://mm218.dev/). 
+
     * [agromet](https://github.com/ropensci/software-review/issues/599), Índices y Estadísticos Climáticos e Hidrológicos. Submitted by [Paola Corrales](https://paocorrales.github.io). 
 
-* Two at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
+* One at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
 
      * [cancerprof](https://github.com/ropensci/software-review/issues/637), API Client for State Cancer Profiles. Submitted by [Brian Park](https://github.com/realbp). 
-
-    * [rsi](https://github.com/ropensci/software-review/issues/636), Efficiently Retrieve and Process Satellite Imagery. Submitted by [Michael Mahoney](https://mm218.dev/). 
 
 * Five at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 
@@ -125,15 +140,17 @@ There are thirteen recently closed and active submissions and 6 submissions on h
 
     * [fwildclusterboot](https://github.com/ropensci/software-review/issues/546), Fast Wild Cluster Bootstrap Inference for Linear Models. Submitted by [Alexander Fischer](https://s3alfisc.github.io/blog/).  (Stats).
 
-* Two at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
+* Three at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
      * [emodnet.wfs](https://github.com/ropensci/software-review/issues/653), Access EMODnet Web Feature Service data through R. Submitted by [Maëlle Salmon](https://masalmon.eu/). 
 
     * [QuadratiK](https://github.com/ropensci/software-review/issues/632), A Collection of Methods Using Kernel-Based Quadratic Distances for. Submitted by [Giovanni Saraceno](https://github.com/giovsaraceno).  (Stats).
 
+    * [galamm](https://github.com/ropensci/software-review/issues/615), Generalized Additive Latent and Mixed Models. Submitted by [Øystein Sørensen](https://osorensen.rbind.io).  (Stats).
+
 * One at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
 
-     * [galamm](https://github.com/ropensci/software-review/issues/615), Generalized Additive Latent and Mixed Models. Submitted by [Øystein Sørensen](https://osorensen.rbind.io).  (Stats).
+     * [mbquartR](https://github.com/ropensci/software-review/issues/658), Finding Manitoba Quarter Sections. Submitted by [Alex Koiter](http://www.alexkoiter.ca). 
 
 Find out more about [Software Peer Review](/software-review) and how to get involved.
 
@@ -188,7 +205,7 @@ Some useful tips for R package developers. :eyes:
 ### Reminder: R Consortium Infrastructure Steering Committee (ISC) Grant Program Accepting Proposals until October 1st!
 
 The R Consortium [Call for Proposals](https://www.r-consortium.org/all-projects/call-for-proposals) might be a relevant funding opportunity for your package!
-If you can't prepare your proposal in time, the next call should start [March 1st next year](https://www.r-consortium.org/all-projects/call-for-proposals).
+If you can't prepare your proposal in time, the next call should start [March 1st 2025](https://www.r-consortium.org/all-projects/call-for-proposals).
 
 ### How to demonstrate an error in an R Markdown vignette
 
@@ -219,13 +236,13 @@ Michael Chirico shared the following tip on Mastodon: ["[you can use] the 'in:ti
 
 Jenny Bryan answered with another tip: ["involves:USERNAME" for "I was once part of a conversation about this"](https://mastodon.social/@jennybryan@fosstodon.org/113085363392572924).
 
-### An usethis function to create a test helper file
+### A usethis function to create a test helper file
 
 The new usethis function [` usethis::use_test_helper("mocks")`](https://usethis.r-lib.org/reference/use_test_helper.html) will create a [helper file](https://testthat.r-lib.org/articles/special-files.html) under `tests/testthat/helper-mocks.R`.
 
 ### A devtools function for building the README and vignettes
 
-Not a new function, but in case you ignore it...
+Not a new function, but in case you missed it...
 The [`devtools::build_rmd()` and `devtools::build_readme()` functions](https://devtools.r-lib.org/reference/build_rmd.html) render R Markdown files using a temporary install of your current development package.
 
 ## Last words
