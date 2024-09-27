@@ -96,7 +96,9 @@ And remember, you can always cowork independently on work related to R, work on 
 
 
 
-The following  package recently became a part of our software suite:
+The following two packages recently became a part of our software suite:
+
++ [eDNAjoint](https://docs.ropensci.org/eDNAjoint), developed by Abigail G. Keller: Models integrate environmental DNA (eDNA) detection data and traditional survey data to jointly estimate species catch rate (see package vignette: https://bookdown.org/abigailkeller/eDNAjoint_vignette/). Models can be used with count data via traditional survey methods (i.e., trapping, electrofishing, visual) and replicated eDNA detection/nondetection data via polymerase chain reaction (i.e., PCR or qPCR) from multiple survey locations. Estimated parameters include probability of a false positive eDNA detection, a site-level covariates that scale the sensitivity of eDNA surveys relative to traditional surveys, and catchability coefficients for traditional gear types. Models are implemented with a Bayesian framework (Markov chain Monte Carlo) using the Stan probabilistic programming language. It has been [reviewed](https://github.com/ropensci/software-review/issues/642) by Chitra M Saraswati and Saras Windecker.
 
 + [rix](https://docs.ropensci.org/rix), developed by Bruno Rodrigues together with Philipp Baumann: Simplifies the creation of reproducible data science environments using the Nix package manager, as described in Dolstra (2006) <ISBN 90-393-4130-3>. The included `rix()` function generates a complete description of the environment as a `default.nix` file, which can then be built using Nix. This results in project specific software environments with pinned versions of R, packages, linked system dependencies, and other tools. Additional helpers make it easy to run R code in Nix software environments for testing and production.  It is available on [CRAN]( https://CRAN.R-project.org/package=rix). It has been [reviewed](https://github.com/ropensci/software-review/issues/625) by David Watkins and Jacob Wujiciak-Jens.
 
@@ -156,14 +158,9 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 ## On the blog
 
-
-* [Resources For Using R With Screen Readers](/blog/2024/09/05/screen-readers-tools) by Liz Hare. Tools and resources to use R with screen readers. Other languages: <a href='/es/blog/2024/09/05/recursos_para_utilizar_r_con_lectores_de_pantalla' lang='es'>Recursos para utilizar R con lectores de pantalla (es)</a>, <a href='/tr/blog/2024/09/05/ekran_okuyucularla_r_kullanımı_i̇çin_kaynaklar' lang='tr'>Ekran Okuyucularla R Kullanımı İçin Kaynaklar (tr)</a>.
-
 * [Deposits In The Wild](/blog/2024/09/17/deposits-in-the-wild) by Collin Schwantes. Using the deposits and frictionless packages to create FAIR data for a complex project.
 
-
-
-### Tech Notes
+* [Resources For Using R With Screen Readers](/blog/2024/09/05/screen-readers-tools) by Liz Hare. Tools and resources to use R with screen readers. Other languages: <a href='/es/blog/2024/09/05/recursos_para_utilizar_r_con_lectores_de_pantalla' lang='es'>Recursos para utilizar R con lectores de pantalla (es)</a>, <a href='/tr/blog/2024/09/05/ekran_okuyucularla_r_kullanımı_i̇çin_kaynaklar' lang='tr'>Ekran Okuyucularla R Kullanımı İçin Kaynaklar (tr)</a>.
 
 * [Capturing Screenshots Programmatically With R](/blog/2024/09/10/script-screenshots) by Maëlle Salmon.
 

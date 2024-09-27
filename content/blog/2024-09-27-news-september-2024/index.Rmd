@@ -101,11 +101,11 @@ Everyone welcome.
 No RSVP needed. 
 Consult our [Events](/events) page to find your local time and how to join.
 
-- [Tuesday, October 1st, 14h00 Europe Central (12:00 UTC)](/events/coworking-2024-10), Theme Using R to tell (data science) stories with cohost [Apoorv Anand](/author/apoorv-anand) and [Steffi LaZerte](/author/steffi-lazerte).
+- [Tuesday, October 1st, 14h00 Europe Central (12:00 UTC)](/events/coworking-2024-10), "Using R to tell (data science) stories" with cohost [Apoorv Anand](/author/apoorv-anand) and [Steffi LaZerte](/author/steffi-lazerte).
     - Explore how others use R to tell data stories
     - Start work on a project using R to craft a narrative through data
     - Chat with our cohost to discuss and explore the use of R in data stories
-- [Tuesday, November 5th, 09:00 Americas Pacific (17:00 UTC)](/events/coworking-2024-11), Theme Getting to know Openscapes with cohost [Stefanie Butland](/author/stefanie-butland) and [Steffi LaZerte](/author/steffi-lazerte).
+- [Tuesday, November 5th, 09:00 Americas Pacific (17:00 UTC)](/events/coworking-2024-11), "Getting to know Openscapes" with cohost [Stefanie Butland](/author/stefanie-butland) and [Steffi LaZerte](/author/steffi-lazerte).
     - Look up [Openscapes](https://openscapes.org/)
     - Chat with our cohost to learn more about the Openscapes organization, and how they use R to automate creating open education infrastructure
 
@@ -563,7 +563,6 @@ if (length(software_review) > 0) {
 
 others <- posts[purrr::map_lgl(posts, ~any(.x[["other"]]))]
 if (length(others) > 0) {
-  if (length(others) != length(posts)) cat("### Other topics\n\n")
   cat(
     paste0(
       purrr::map_chr(others, format_post),
