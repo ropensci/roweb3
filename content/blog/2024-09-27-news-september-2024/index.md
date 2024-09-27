@@ -6,7 +6,7 @@ author:
 date: '2024-09-27'
 tags:
   - newsletter
-description: R-Universe list pages, training resources, coworking, new package and package news
+description: Screen Reader Accessible Tools materials, R-Universe, training resources, coworking, new package and package news
 params:
   last_newsletter: "2024-08-30"
 ---
