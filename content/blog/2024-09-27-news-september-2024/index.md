@@ -98,7 +98,7 @@ And remember, you can always cowork independently on work related to R, work on 
 
 The following  package recently became a part of our software suite:
 
-+ [rix](https://docs.ropensci.org/rix), developed by Bruno Rodrigues together with Philipp Baumann: Simplifies the creation of reproducible development environments using the Nix package manager. The included `rix()` function generates a complete description of the development environment as a `default.nix` file, which can then be built using Nix. This results in project specific software environments with pinned versions of R, packages, linked system dependencies, and other tools. Additional helpers make it easy to run R code in Nix software environments for testing and production. It has been [reviewed](https://github.com/ropensci/software-review/issues/625) by David Watkins and Jacob Wujiciak-Jens.
++ [rix](https://docs.ropensci.org/rix), developed by Bruno Rodrigues together with Philipp Baumann: Simplifies the creation of reproducible data science environments using the Nix package manager, as described in Dolstra (2006) <ISBN 90-393-4130-3>. The included `rix()` function generates a complete description of the environment as a `default.nix` file, which can then be built using Nix. This results in project specific software environments with pinned versions of R, packages, linked system dependencies, and other tools. Additional helpers make it easy to run R code in Nix software environments for testing and production.  It is available on [CRAN]( https://CRAN.R-project.org/package=rix). It has been [reviewed](https://github.com/ropensci/software-review/issues/625) by David Watkins and Jacob Wujiciak-Jens.
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
@@ -106,15 +106,17 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following twelve packages have had an update since the last newsletter: [comtradr](https://docs.ropensci.org/comtradr "Interface with the United Nations Comtrade API") ([`v1.0.2`](https://github.com/ropensci/comtradr/releases/tag/v1.0.2)), [DataPackageR](https://docs.ropensci.org/DataPackageR "Construct Reproducible Analytic Data Sets as R Packages") ([`v0.16.1`](https://github.com/ropensci/DataPackageR/releases/tag/v0.16.1)), [datefixR](https://docs.ropensci.org/datefixR "Standardize Dates in Different Formats or with Missing Data") ([`v1.7.0`](https://github.com/ropensci/datefixR/releases/tag/v1.7.0)), [epubr](https://docs.ropensci.org/epubr "Read EPUB File Metadata and Text") ([`v0.6.5`](https://github.com/ropensci/epubr/releases/tag/v0.6.5)), [git2rdata](https://docs.ropensci.org/git2rdata "Store and Retrieve Data.frames in a Git Repository") ([`v0.4.1`](https://github.com/ropensci/git2rdata/releases/tag/v0.4.1)), [GSODR](https://docs.ropensci.org/GSODR "Global Surface Summary of the Day (GSOD) Weather Data Client") ([`v4.1.2`](https://github.com/ropensci/GSODR/releases/tag/v4.1.2)), [jagstargets](https://docs.ropensci.org/jagstargets "Targets for JAGS Pipelines") ([`1.2.1`](https://github.com/ropensci/jagstargets/releases/tag/1.2.1)), [mregions2](https://docs.ropensci.org/mregions2 "Gazetteer & Data Products") ([`v1.1.1`](https://github.com/ropensci/mregions2/releases/tag/v1.1.1)), [occCite](https://docs.ropensci.org/occCite "Querying and Managing Large Biodiversity Occurrence Datasets") ([`v0.5.8`](https://github.com/ropensci/occCite/releases/tag/v0.5.8)), [osmapiR](https://docs.ropensci.org/osmapiR "OpenStreetMap API") ([`v0.2.1`](https://github.com/ropensci/osmapiR/releases/tag/v0.2.1)), [robotstxt](https://docs.ropensci.org/robotstxt "A robots.txt Parser and Webbot/Spider/Crawler Permissions Checker") ([`v0.7.15`](https://github.com/ropensci/robotstxt/releases/tag/v0.7.15)), and [tiler](https://docs.ropensci.org/tiler "Create Geographic and Non-Geographic Map Tiles") ([`v0.3.2`](https://github.com/ropensci/tiler/releases/tag/v0.3.2)).
+The following thirteen packages have had an update since the last newsletter: [comtradr](https://docs.ropensci.org/comtradr "Interface with the United Nations Comtrade API") ([`v1.0.2`](https://github.com/ropensci/comtradr/releases/tag/v1.0.2)), [DataPackageR](https://docs.ropensci.org/DataPackageR "Construct Reproducible Analytic Data Sets as R Packages") ([`v0.16.1`](https://github.com/ropensci/DataPackageR/releases/tag/v0.16.1)), [datefixR](https://docs.ropensci.org/datefixR "Standardize Dates in Different Formats or with Missing Data") ([`v1.7.0`](https://github.com/ropensci/datefixR/releases/tag/v1.7.0)), [epubr](https://docs.ropensci.org/epubr "Read EPUB File Metadata and Text") ([`v0.6.5`](https://github.com/ropensci/epubr/releases/tag/v0.6.5)), [git2rdata](https://docs.ropensci.org/git2rdata "Store and Retrieve Data.frames in a Git Repository") ([`v0.4.1`](https://github.com/ropensci/git2rdata/releases/tag/v0.4.1)), [GSODR](https://docs.ropensci.org/GSODR "Global Surface Summary of the Day (GSOD) Weather Data Client") ([`v4.1.2`](https://github.com/ropensci/GSODR/releases/tag/v4.1.2)), [jagstargets](https://docs.ropensci.org/jagstargets "Targets for JAGS Pipelines") ([`1.2.1`](https://github.com/ropensci/jagstargets/releases/tag/1.2.1)), [mregions2](https://docs.ropensci.org/mregions2 "Gazetteer & Data Products") ([`v1.1.1`](https://github.com/ropensci/mregions2/releases/tag/v1.1.1)), [occCite](https://docs.ropensci.org/occCite "Querying and Managing Large Biodiversity Occurrence Datasets") ([`v0.5.8`](https://github.com/ropensci/occCite/releases/tag/v0.5.8)), [osmapiR](https://docs.ropensci.org/osmapiR "OpenStreetMap API") ([`v0.2.1`](https://github.com/ropensci/osmapiR/releases/tag/v0.2.1)), [robotstxt](https://docs.ropensci.org/robotstxt "A robots.txt Parser and Webbot/Spider/Crawler Permissions Checker") ([`v0.7.15`](https://github.com/ropensci/robotstxt/releases/tag/v0.7.15)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.10.0`](https://github.com/ropensci/tarchetypes/releases/tag/0.10.0)), and [tiler](https://docs.ropensci.org/tiler "Create Geographic and Non-Geographic Map Tiles") ([`v0.3.2`](https://github.com/ropensci/tiler/releases/tag/v0.3.2)).
 
 ## Software Peer Review
 
 There are fourteen recently closed and active submissions and 6 submissions on hold. Issues are at different stages: 
 
-* Two at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
+* Three at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
 
-     * [chopin](https://github.com/ropensci/software-review/issues/638), CHOPIN: Computation for Climate and Health research On Parallelized INfrastructure. Submitted by [Insang Song](https://www.issong.net). 
+     * [eDNAjoint](https://github.com/ropensci/software-review/issues/642), Joint Modeling of Traditional and Environmental DNA Survey Data. Submitted by [Abigail Keller](https://github.com/abigailkeller). 
+
+    * [chopin](https://github.com/ropensci/software-review/issues/638), CHOPIN: Computation for Climate and Health research On Parallelized INfrastructure. Submitted by [Insang Song](https://www.issong.net). 
 
     * [rix](https://github.com/ropensci/software-review/issues/625), Rix: Reproducible Environments with Nix. Submitted by [Bruno Rodrigues](https://brodrigues.co). 
 
@@ -132,7 +134,7 @@ There are fourteen recently closed and active submissions and 6 submissions on h
 
      * [gigs](https://github.com/ropensci/software-review/issues/626), Assess Fetal, Newborn, and Child Growth with International Standards. Submitted by [Simon Parker](https://github.com/simpar1471).  (Stats).
 
-    * [eDNAjoint](https://github.com/ropensci/software-review/issues/642), Joint Modeling of Traditional and Environmental DNA Survey Data. Submitted by [Abigail Keller](https://github.com/abigailkeller). 
+    * [emodnet.wfs](https://github.com/ropensci/software-review/issues/653), Access EMODnet Web Feature Service data through R. Submitted by [Maëlle Salmon](https://masalmon.eu/). 
 
     * [gigs](https://github.com/ropensci/software-review/issues/626), Assess Fetal, Newborn, and Child Growth with International Standards. Submitted by [Simon Parker](https://github.com/simpar1471).  (Stats).
 
@@ -140,11 +142,9 @@ There are fourteen recently closed and active submissions and 6 submissions on h
 
     * [fwildclusterboot](https://github.com/ropensci/software-review/issues/546), Fast Wild Cluster Bootstrap Inference for Linear Models. Submitted by [Alexander Fischer](https://s3alfisc.github.io/blog/).  (Stats).
 
-* Three at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
+* Two at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
-     * [emodnet.wfs](https://github.com/ropensci/software-review/issues/653), Access EMODnet Web Feature Service data through R. Submitted by [Maëlle Salmon](https://masalmon.eu/). 
-
-    * [QuadratiK](https://github.com/ropensci/software-review/issues/632), A Collection of Methods Using Kernel-Based Quadratic Distances for. Submitted by [Giovanni Saraceno](https://github.com/giovsaraceno).  (Stats).
+     * [QuadratiK](https://github.com/ropensci/software-review/issues/632), A Collection of Methods Using Kernel-Based Quadratic Distances for. Submitted by [Giovanni Saraceno](https://github.com/giovsaraceno).  (Stats).
 
     * [galamm](https://github.com/ropensci/software-review/issues/615), Generalized Additive Latent and Mixed Models. Submitted by [Øystein Sørensen](https://osorensen.rbind.io).  (Stats).
 
@@ -156,19 +156,14 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 ## On the blog
 
-<!-- Do not forget to rebase your branch! -->
-
-
-
-### Other topics
 
 * [Resources For Using R With Screen Readers](/blog/2024/09/05/screen-readers-tools) by Liz Hare. Tools and resources to use R with screen readers. Other languages: <a href='/es/blog/2024/09/05/recursos_para_utilizar_r_con_lectores_de_pantalla' lang='es'>Recursos para utilizar R con lectores de pantalla (es)</a>, <a href='/tr/blog/2024/09/05/ekran_okuyucularla_r_kullanımı_i̇çin_kaynaklar' lang='tr'>Ekran Okuyucularla R Kullanımı İçin Kaynaklar (tr)</a>.
+
+* [Deposits In The Wild](/blog/2024/09/17/deposits-in-the-wild) by Collin Schwantes. Using the deposits and frictionless packages to create FAIR data for a complex project.
 
 
 
 ### Tech Notes
-
-* [Resources For Using R With Screen Readers](/blog/2024/09/05/screen-readers-tools) by Liz Hare. Tools and resources to use R with screen readers. Other languages: <a href='/es/blog/2024/09/05/recursos_para_utilizar_r_con_lectores_de_pantalla' lang='es'>Recursos para utilizar R con lectores de pantalla (es)</a>, <a href='/tr/blog/2024/09/05/ekran_okuyucularla_r_kullanımı_i̇çin_kaynaklar' lang='tr'>Ekran Okuyucularla R Kullanımı İçin Kaynaklar (tr)</a>.
 
 * [Capturing Screenshots Programmatically With R](/blog/2024/09/10/script-screenshots) by Maëlle Salmon.
 
