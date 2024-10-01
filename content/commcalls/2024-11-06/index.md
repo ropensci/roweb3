@@ -37,11 +37,18 @@ speakers:
 tags:
   - community call
   - events
+  - multilingual
 deets: |
-    Meeting ID:   
-    Passcode: 
-zoomurl: 
+    Meeting ID: 654-4355-5934
+    Passcode: 408492
+zoomurl: https://numfocus-org.zoom.us/j/88645833838?pwd=sSXc9fQ2wvMUHTjW5n2mt5tQtocZue.1
 ---
 
+A comunidade R está realizando vários esforços de traduções comunitárias para o português de diferentes recursos: livros, pacotes e guias.
 
+Nesta chamada da comunidade, três líderes da comunidade de língua portuguesa apresentarão suas experiências liderando e fazendo parte desses projetos e compartilharão como podemos participar desses esforços. 
+
+Essa chamada da comunidade será seguida por uma reunião de tradução na LatinR, a conferência latino-americana de R para pesquisa e desenvolvimento, para aqueles que quiserem começar a participar.  
+
+Veja abaixo as biografias dos palestrantes e os recursos.
 
