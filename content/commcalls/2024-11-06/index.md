@@ -25,9 +25,17 @@ resources:
     name:  Tradução Português- Guia do programador
     details: Projeto de tradução do guia de desenvolvimento de software rOpenSci para português.
 speakers:  
-  - name: 
-    bio: ""
-    img: /img/team/jeroen_ooms.jpg
+  - name: Beatriz Milz
+    bio: [Beatriz Milz](https://beamilz.com/about-pt) é doutora em Ciência Ambiental e atualmente é pesquisadora de pós-doutorado na Universidade Federal do ABC (UFABC), Brasil. Ela é co-organizadora da [R-Ladies São Paulo](https://rladies-sp.org/) e está liderando o tradução voluntária pela comunidade da segunda edição do livro ["R for Data Science" into Portuguese](https://cienciadedatos.github.io/pt-r4ds/). Beatriz contribuiu para pacotes disponíveis no CRAN, como [dados](https://cienciadedatos.github.io/dados/), [odbr](https://hsvab.github.io/odbr/), e [geobr](https://ipeagit.github.io/geobr/index.html). Como membra da comunidade rOpenSci, ela revisou pacotes como [qualR](https://docs.ropensci.org/qualR/) e [frictionless](https://docs.ropensci.org/frictionless/), foi mentora na primeira turma do [rOpenSci Champions Program](https://ropensci.org/champions/) atua como editora de revisão de software ([software peer review editor](https://ropensci.org/blog/2024/07/03/editors2024/)).
+    img: /img/team/.jpg
+  - name: Pedro Faria
+    bio:Economista e Data Platform Engineer em Blip. Além de ser um profissional experiente no mercado de dados, usando principalmente R, SQL, Python, Databricks e Apache Spark, Pedro também é apaixonado por open-source, e é autor de vários livros abertos como: ["Introdução à linguagem R: seus fundamentos e sua prática"](https://pedro-faria.netlify.app/publications/book/introducao_linguagem_r/pt/), ["Introduction to pyspark"](https://pedro-faria.netlify.app/publications/book/introd-pyspark/en/), e ["Introduction to Zig: a project-based book"](https://pedro-faria.netlify.app/publications/book/zig-book/en/). Mais detalhes em: <https://pedro-faria.netlify.app/>
+    img:
+  - name: Francesca Palmeira
+    bio:Francesca Palmeira é uma mistura de bióloga de campo e de computador. Tem experiência em Ecologia Aplicada, Modelagem Ecológica e Biologia da Conservação. Trabalha com as linguagens R e BUGS. Presta serviços em análise e visualização de dados socioambientais e de biodiversidade por meio da [analisaR](https://analisar.github.io/). É coorganizadora das [RLadies Ribeirão Preto](https://www.meetup.com/rladies-ribeirao-preto/). Participa do [rOpenSci Champions Program 2023-2024](https://ropensci.org/blog/2024/02/15/champions-program-champions-2024/) e como parte deste treinamento está desenvolvendo o pacote [pcir (Potential for Conflict Index in R)](https://fblpalmeira.github.io/pcir/) para medir o potencial de conflito entre grupos de interesse.
+
+    img:
+
 tags:
   - community call
   - events
@@ -37,4 +45,6 @@ deets: |
     Passcode: 
 zoomurl: 
 ---
+
+
 
