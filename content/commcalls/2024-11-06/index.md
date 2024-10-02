@@ -41,6 +41,7 @@ tags:
   - community call
   - events
   - multilingual
+  - champions program
 deets: |
     Meeting ID: 654-4355-5934
     Passcode: 408492
