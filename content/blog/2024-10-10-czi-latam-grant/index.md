@@ -1,6 +1,6 @@
 ---
-slug: czi-latam-grant
-title: Fostering Open Science in Latin America: CZI Awards funds for Sustainable Research Software Development
+slug: "czi-latam-grant"
+title: "Fostering Open Science in Latin America: CZI Awards funds for Sustainable Research Software Development"
 author:
   - Yanina Bellini Saibene
 editor:
