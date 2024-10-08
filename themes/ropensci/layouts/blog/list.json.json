@@ -22,15 +22,27 @@
      {{ else }}
        {{  $data.Set "authors" (slice .Params.author) }}
     {{ end }}
+  		{{ if eq (substr (jsonify .Params.editor) 0 1) "[" }}
+        {{ $data.Set "editors" .Params.editor }}
+     {{ else }}
+       {{  $data.Set "editors" (slice .Params.editor) }}
+    {{ end }}
 			{
 				"id": "{{ .Permalink }}",
 				"title": "{{ .Title }}",
 				"language" : "{{ .Lang }}",
-				"authors": [{{ range $i, $e := ($data.Get "authors") }}{{ range first 1 (where ($data.Get "pages") ".Params.name" $e) }}{{ $params := .Params }}{{ $name := $params.name }}{{ if $i }}, {{ end }}{{ range first 1 (where ($data.Get "pages") ".Params.name" $e) }}
+				"authors": [{{ $editors := ($data.Get "editors") }}{{ if gt (len $editors) 0 }}{{ range $i, $e := ($data.Get "editors") }}{{ range first 1 (where ($data.Get "pages") ".Params.name" $e) }}{{ $params := .Params }}{{ $name := $params.name }}{{ range first 1 (where ($data.Get "pages") ".Params.name" $e) }}
 				{
       "name": "{{ $name }}",
       "url": "{{ if isset .Params "orcid" }}https://orcid.org/{{ .Params.orcid }}{{ else }}{{ .Permalink }}{{ end }}",
-      "avatar": "{{ ( partial "blogs/author-img" . ) }}"
+      "avatar": "{{ ( partial "blogs/author-img" . ) }}",
+      "_role": "editor"
+    },{{ end }}{{ end }}{{ end }}{{ end }}{{ range $i, $e := ($data.Get "authors") }}{{ range first 1 (where ($data.Get "pages") ".Params.name" $e) }}{{ $params := .Params }}{{ $name := $params.name }}{{ if $i }}, {{ end }}{{ range first 1 (where ($data.Get "pages") ".Params.name" $e) }}
+{
+      "name": "{{ $name }}",
+      "url": "{{ if isset .Params "orcid" }}https://orcid.org/{{ .Params.orcid }}{{ else }}{{ .Permalink }}{{ end }}",
+      "avatar": "{{ ( partial "blogs/author-img" . ) }}",
+      "_role": "author"
     }{{ end }}{{ end }}{{ end }}],
 				{{ with .Params.tags }} "tags": {{ . | uniq | jsonify}},{{ end }}
 				"content_html": {{ .Content | replaceRE "\n" "" | jsonify }},
