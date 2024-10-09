@@ -34,7 +34,7 @@ Sentimos mucho entusiasmo y orgullo de que los participantes hispanohablantes de
 
 También tenemos previsto evaluar distintos modelos para sostener el Programa de Campeon(a|e)s mediante la realización de estudios de mercado y la divulgación entre las partes interesadas durante 2025. A esto le seguirá un programa piloto para recabar opiniones y perfeccionar el modelo según sea necesario.
 
-**Estate atento a la convocatoria abierta del Programa de Campeon(a|e)s de rOpenSci y el anuncio de los Proyectos de Localización en 2025.**
+**Prestá atención a la convocatoria abierta del Programa de Campeon(a|e)s de rOpenSci y el anuncio de los Proyectos de Localización en 2025.**
 
 [^1]: Dirección General de Investigación e Innovación (Comisión Europea). Políticas de acceso abierto en América Latina, el Caribe y la Unión Europea. Avances hacia un diálogo político. 2023.<https://op.europa.eu/publication-detail/-/publication/8a4852c6-bca3-11ed-8912-01aa75ed71a1>
 
