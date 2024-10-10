@@ -288,7 +288,8 @@
    "name": "Adam Sparks",
    "url": "https://adamhsparks.netlify.app/",
    "image" : "/img/team/adam-sparks.jpg",
-   "affiliation" : "Curtin University": [
+   "affiliation" : "Curtin University"
+   "roles": [
       "editor"
    ],
    "generalreview": true,
