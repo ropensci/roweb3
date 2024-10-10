@@ -288,16 +288,15 @@
    "name": "Adam Sparks",
    "url": "https://adamhsparks.netlify.app/",
    "image" : "/img/team/adam-sparks.jpg",
-   "affiliation" : "Department of Primary Industries and Regional Development",
-   "roles": [
+   "affiliation" : "Curtin University": [
       "editor"
    ],
    "generalreview": true,
    "stats": true,
    "linkedin": "https://linkedin.com/in/adam-h-sparks",
-   "mastodon": "https://fosstodon.org/@adamhsparks",
+   "mastodon": "https://rstats.me/@adamhsparks",
    "github": "adamhsparks",
-   "home": "https://adamhsparks.com/"
+   "home": "https://adamhsparks.netlify.app/"
 }, 
 {
    "name": "Jeff Hollister",
