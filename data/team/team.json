@@ -54,6 +54,9 @@
       "researcher",
       "developer"
    ],
+   "leads": [
+     "r-universe"
+   ],
    "twitter": "opencpu",
    "mastodon": "https://fosstodon.org/@jeroenooms",
    "github": "jeroen",
@@ -81,6 +84,10 @@
    "roles": [
       "staff"
    ],
+   "leads": [
+     "champions",
+     "multilingual-publishing"
+   ],
    "mastodon": "https://fosstodon.org/@yabellini",
    "linkedin": "https://www.linkedin.com/in/yabellini",
    "github": "yabellini",
@@ -96,6 +103,9 @@
       "researcher",
       "developer",
       "editor"
+   ],
+   "leads": [
+     "software-review"
    ],
    "stats": true,
    "mastodon": "https://nerdculture.de/@mpadge",
