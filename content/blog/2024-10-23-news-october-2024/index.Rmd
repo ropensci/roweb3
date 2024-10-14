@@ -63,6 +63,14 @@ rOpenSci Community Manager [Yanina Bellini Saibene](/author/yanina-bellini-saibe
 [Will Landau](/author/will-landau/) will deliver a keynote talk at [LatinR (Latin American Conference About the Use of R in R&D)](/events/latinr-2024/). The conference is happening online from November 18-22. 
 
 
+### rOpenSci at UK Research Software Engineers conference
+
+The eighth annual [UK Research Software Engineering conference](https://rsecon24.society-rse.org/) took place in Newcastle from September 3rd to 5th.
+[Mark Padgham](/author/mark-padgham) presented a talk  on "*rOpenSci statistical software peer-review: The importance and challenge of community engagement*".
+The talk was second in a two-part session devoted to software peer review, and followed a [walk-through demonstration of the process of submissing to Journal of Open Source software](https://virtual.oxfordabstracts.com/event/49081/submission/69).
+Mark's slides from the talk can be see [at this link](https://mpadge.github.io/presentations/2024/rseconf/).
+
+
 ### Coworking
 
 Read [all about coworking](/blog/2023/06/21/coworking/)!
