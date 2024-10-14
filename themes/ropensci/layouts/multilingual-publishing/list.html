@@ -9,10 +9,21 @@
                 {{ if ge $t.UTC now.UTC }}
                 <div class="alert alert-info" role="alert">
                   <p style="margin-bottom:1rem;">
-                    Don't miss our upcoming community call In Portuguese
-                    <a href="/commcalls/nov2024-r-universe/">"A comunidade R fala português"</a>
+                    Don't miss our upcoming community call in Portuguese
+                    <a href="/commcalls/translation-portuguese/">"A comunidade R fala português"</a>
                     on Wedneday, 6 November 2024 13:00 UTC!
                     More information on the <a href="/commcalls/translation-portuguese/">event page</a>.
+                  <p>
+                </div>
+                {{ end }}
+            {{ $t := time.AsTime "2024-11-18T13:00:00" }}
+                {{ if ge $t.UTC now.UTC }}
+                <div class="alert alert-info" role="alert">
+                  <p style="margin-bottom:1rem;">
+                    Don't miss the 
+                    <a href="/events/2024-11-18-traslaton/">"rOpenSci traslaton at LatinR"</a>
+                    on Monday, 18 November 2024 13:00 UTC!
+                    More information on the <a href="/events/2024-11-18-traslaton/">event page</a>.
                   <p>
                 </div>
                 {{ end }}
