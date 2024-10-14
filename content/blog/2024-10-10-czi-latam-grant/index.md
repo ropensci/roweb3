@@ -13,6 +13,7 @@ tags:
   - capacity building
   - Champions Program
   - multilingual
+featured: true
 description: "Foster sustainable scientific software as a pillar of open science in Latin America through building capacity and community"
 ---
 
