@@ -5,6 +5,17 @@
         <div class="row">
           <div class="col-md-8 software-content">
             <h1>{{ .Title }}</h1>
+            {{ $t := time.AsTime "2024-11-06T14:00:00" }}
+                {{ if ge $t.UTC now.UTC }}
+                <div class="alert alert-info" role="alert">
+                  <p style="margin-bottom:1rem;">
+                    Don't miss our upcoming community call In Portuguese
+                    <a href="/commcalls/nov2024-r-universe/">"A comunidade R fala português"</a>
+                    on Wedneday, 6 November 2024 13:00 UTC!
+                    More information on the <a href="/commcalls/translation-portuguese/">event page</a>.
+                  <p>
+                </div>
+                {{ end }}
             {{ .Content }}
           </div>
         </div>
