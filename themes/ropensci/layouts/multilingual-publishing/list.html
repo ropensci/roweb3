@@ -5,6 +5,28 @@
         <div class="row">
           <div class="col-md-8 software-content">
             <h1>{{ .Title }}</h1>
+            {{ $t := time.AsTime "2024-11-06T14:00:00" }}
+                {{ if ge $t.UTC now.UTC }}
+                <div class="alert alert-info" role="alert">
+                  <p style="margin-bottom:1rem;">
+                    Don't miss our upcoming community call in Portuguese
+                    <a href="/commcalls/translation-portuguese/">"A comunidade R fala português"</a>
+                    on Wedneday, 6 November 2024 13:00 UTC!
+                    More information on the <a href="/commcalls/translation-portuguese/">event page</a>.
+                  <p>
+                </div>
+                {{ end }}
+            {{ $t := time.AsTime "2024-11-18T13:00:00" }}
+                {{ if ge $t.UTC now.UTC }}
+                <div class="alert alert-info" role="alert">
+                  <p style="margin-bottom:1rem;">
+                    Don't miss the 
+                    <a href="https://ropensci.org/events/latinr-2024/">"rOpenSci traslaton at LatinR"</a>
+                    on Monday, 18 November 2024 13:00 UTC!
+                    More information on the <a href="https://ropensci.org/events/latinr-2024/">event page</a>.
+                  <p>
+                </div>
+                {{ end }}
             {{ .Content }}
           </div>
         </div>
