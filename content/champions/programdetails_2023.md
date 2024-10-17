@@ -130,7 +130,7 @@ To belong to a historically and systematically excluded group means being part o
 
 #### Can I propose more than one package?
 
-The time involved in the program only allows you to work on one package. To help you decide which one to propose in the application, check that the package is within [rOpenSci Peer-review scope](https://devguide.ropensci.org/policies.html?q=scope#aims-and-scope) or [rOpenSci Stats Peer-review scope](https://ropensci.org/stat-software-review/).
+The time involved in the program only allows you to work on one package. To help you decide which one to propose in the application, check that the package is within [rOpenSci Peer-review scope](https://devguide.ropensci.org/policies.html?q=scope#aims-and-scope) or [rOpenSci Stats Peer-review scope](https://ropensci.org/software-review/).
 
 #### Can I change the type of project I want to do?
 
@@ -140,7 +140,7 @@ No. We seek to have a balance in the number of each type of project and we assig
 
 A solid idea refers to a well-conceived concept for the package that you can start work on immediately. After the program starts there will not be enough time to explore different ideas for packages and we don't provide ideas for new packages. 
 
-These are [rOpenSci Peer-Review](https://devguide.ropensci.org/policies.html?q=scope#aims-and-scope) and [Stats Peer-Review](https://ropensci.org/stat-software-review/) scopes for packages. We expect projects related with research software. 
+These are [rOpenSci Peer-Review](https://devguide.ropensci.org/policies.html?q=scope#aims-and-scope) and [Stats Peer-Review](https://ropensci.org/software-review/) scopes for packages. We expect projects related with research software. 
 
 #### I don't have much experience programming in R, can I apply?
 

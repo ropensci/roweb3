@@ -27,16 +27,16 @@
             </p>
           </div>
         </div>
-        {{ $editors := (shuffle (where ( where (.Site.Data.team.team) "roles" "intersect" ( slice "editor" ) ) "generalreview" true ))}}
+        {{ $editors := (shuffle ( where (.Site.Data.team.team) "roles" "intersect" ( slice "editor" ) ) )}}
         {{ partial "whole-page-fragments/team/team-section" (dict "team" $editors)  }}
           <div class="row about-block">
           <div class="col-md-3 text-md-right">
             <h4 class="about-block__title" id="editors">
-              Former editors
+              Former editors and advisory board
             </h4>
           </div>
         </div>
-        {{ $editors := (shuffle (where ( where (.Site.Data.team.team) "past_roles" "intersect" ( slice "editor" ) ) "generalreview" true ))}}
+        {{ $editors := (shuffle ( where (.Site.Data.team.team) "past_roles" "intersect" ( slice "editor" ) ) )}}
         {{ partial "whole-page-fragments/team/team-section" (dict "team" $editors)  }}
         </div>
         </section>
