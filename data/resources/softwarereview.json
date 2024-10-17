@@ -1,18 +1,17 @@
-[
-{
+[{
    "title": "Submit A Package",
    "text": "Or read previous and current reviews.",
    "url": "https://github.com/ropensci/software-review"
 },
 {
-   "title": "Online book",
+   "title": "Dev guide",
    "text": "rOpenSci Packages: Development, Maintenance, and Peer Review including the aims and scope of our system.",
    "url": "https://devguide.ropensci.org/"
 },
 {
-   "title": "Discussion of our standards and process",
-   "text": "A repository for 'meta' discussions",
-   "url": "https://github.com/ropensci/software-review-meta/issues"
+   "title": "Stats dev guide",
+   "text": "rOpenSci Statistical Software Peer Review",
+   "url": "https://stats-devguide.ropensci.org"
 },
 {
    "title": "Volunteer",
@@ -20,9 +19,24 @@
    "url": "https://airtable.com/shrnfDI2S9uuyxtDw"
 },
 {
-   "title": "Context",
+   "title": "Context for statistical software review",
+   "text": "Posts related to the project",
+   "url": "/tags/statistical-software"
+},
+{
+   "title": "Context for software review",
    "text": "Blog post introducing the system",
    "url": "https://www.numfocus.org/blog/how-ropensci-uses-code-review-to-promote-reproducible-science/"
+},
+{
+   "title": "Discussion of our standards and process",
+   "text": "A repository for 'meta' discussions",
+   "url": "https://github.com/ropensci/software-review-meta/issues"
+},
+{
+   "title": "Discussion of our standards and process",
+   "text": "Threads on rOpenSci's discussion forum relating to the project",
+   "url": "https://discuss.ropensci.org/c/statistical-software-peer-review/28"
 },
 {
    "title": "Blog posts",
