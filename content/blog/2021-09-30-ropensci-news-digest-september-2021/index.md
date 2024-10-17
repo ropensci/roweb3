@@ -25,7 +25,7 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-A first package was submitted to [rOpenSci Statistical Software Peer Review](/stat-software-review/), two months after its [opening](/blog/2021/07/23/ropensci-news-digest-july-2021/): the [tsbox package](https://github.com/ropensci/software-review/issues/464) by [Christoph Sax](https://github.com/christophsax). 
+A first package was submitted to [rOpenSci Statistical Software Peer Review](/software-review/), two months after its [opening](/blog/2021/07/23/ropensci-news-digest-july-2021/): the [tsbox package](https://github.com/ropensci/software-review/issues/464) by [Christoph Sax](https://github.com/christophsax). 
 We are very excited, and thankful for the opportunity to hone our new software review tooling!
 
 We've made it easier to browse our [website](/) by adding some basic search from the navbar.
@@ -105,7 +105,7 @@ There are fifteen recently closed and active submissions and 5 submissions on ho
 
     * [rdbhapi](https://github.com/ropensci/software-review/issues/443), Interface to DBH-API. Submitted by [Marija Ninic](https://hkdir.no/). 
 
-Find out more about [Software Peer Review](/software-review) and [Statistical Software Peer Review](/stat-software-review/), including how to get involved.
+Find out more about [Software Peer Review](/software-review), including how to get involved.
 
 ## On the blog
 
