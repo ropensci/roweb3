@@ -6,6 +6,8 @@ author:
   - Alejandra Bellini
   - Lucio Casalla  
   - Steffi LaZerte
+  - Juan Pablo Ruiz Nicolini
+  - Pablo Tiscornia
 date: '2022-11-23'
 tags:
   - community
