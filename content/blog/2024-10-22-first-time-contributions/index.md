@@ -27,7 +27,7 @@ as reviewing contributions and making your repository contributor-friendly[^1] c
 Despite this, contributions can super helpful and mentoring contributors is rewarding!
 
 [^1]: See blog posts 
-  [Attract Contributors with ‘help wanted’ Issues](https://ropensci.org/blog/2023/09/19/help-wanted/) and
+  [Attract Contributors with 'help wanted' Issues](/blog/2023/09/19/help-wanted/) and
   [Set Up Your Package to Foster a Community - Community Call Summary](/blog/2021/04/28/commcall-pkg-community/)
 
 Because of both the value and the challenge to both contributors and maintainers,
@@ -100,13 +100,11 @@ And remember, although these Coworking sessions will be a great time to particip
 you can also make contributions asynchronously in the week around the event, 
 or any other time by checking out issues on our [Help Wanted](/help-wanted/) page.
 
-We're looking foward to 
-
 
 ## Resources
 - Blog: [Communication & Collaboration with Contributors in an Open-Source Organization](/blog/2022/06/14/communication-with-contributors-in-an-open-source-organization/)
-- Blog: [What Does It Mean to Maintain a Package?](https://ropensci.org/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/) 
-- Blog: [Maintain or Co-Maintain an rOpenSci Package!](https://ropensci.org/blog/2022/10/17/maintain-or-co-maintain-an-ropensci-package/)
-- Blog: [Attract Contributors with 'help wanted' Issues](https://ropensci.org/blog/2023/09/19/help-wanted/)
-- Community Call: [Set Up Your Package to Foster a Community](https://ropensci.org/commcalls/apr2021-pkg-community/)
+- Blog: [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/) 
+- Blog: [Maintain or Co-Maintain an rOpenSci Package!](/blog/2022/10/17/maintain-or-co-maintain-an-ropensci-package/)
+- Blog: [Attract Contributors with 'help wanted' Issues](/blog/2023/09/19/help-wanted/)
+- Community Call: [Set Up Your Package to Foster a Community](/commcalls/apr2021-pkg-community/)
 
