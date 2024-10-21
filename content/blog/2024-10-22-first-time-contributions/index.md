@@ -84,7 +84,7 @@ Then, if participating, we ask that maintainers
 your rOpenSci repository as 'Help wanted' and 'Good first issue'. These can
 range from documentation to coding changes. We just ask that some issues are relatively accessible to contributors with less experience.
 - Attend one of the Coworking sessions to be available to offer advice or answer questions.
-- Have some availability before and after the Coworking event to respond via GitHub to 
+- Have some availability before and after the Coworking event to respond via GitHub and Slack to 
   issues, comments, or PRs which may arise from contributors outside of the two-hour coworking slot.
 
 If you participate, you can also expect that
