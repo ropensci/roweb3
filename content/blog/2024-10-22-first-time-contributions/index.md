@@ -75,7 +75,7 @@ we have funding[^3] to offer a stipend to maintainers who participate.
 
 To participate, we ask that maintainers fill out the application form (below) by Nov XX, 2024[^4].
 
-[^4:] As we won't have room for more than about 10 maintainers, we may need to select from among the applications, depending how many we receive.
+[^4]: As we won't have room for more than about 10 maintainers, we may need to select from among the applications, depending how many we receive.
 
 Then, if participating, we ask that maintainers 
 
