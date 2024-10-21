@@ -43,7 +43,7 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-### Fostering Open Science in Latin America: CZI Awards Funds for Sustainable Research Software Development
+### Fostering open science in Latin America: CZI awards funds for sustainable research software development
 
 Exciting News! 
 The Chan Zuckerberg Initiative has awarded rOpenSci a new grant to foster sustainable scientific software as a pillar of Open Science in Latin America by building capacity and community. 
@@ -106,6 +106,10 @@ Consult our [Events](/events) page to find your local time and how to join.
 - [Tuesday, November 5th, 09:00 Americas Pacific (17:00 UTC)](/events/coworking-2024-11), "Getting to know Openscapes" with cohost [Stefanie Butland](/author/stefanie-butland) and [Steffi LaZerte](/author/steffi-lazerte).
     - Look up [Openscapes](https://openscapes.org/)
     - Chat with our cohost to learn more about the Openscapes organization, and how they use R to automate creating open education infrastructure
+
+- [Tuesday, December 3rd, 09:00 Australia Western (01:00 UTC)](/events/coworking-2024-12), "Getting Involved in the Antarctic/Southern Ocean rOpenSci Community" with cohosts [Michael Sumner](/author/michael-sumner ) and [Ben Raymond](/author/ben-raymond), and [Steffi LaZerte](/author/steffi-lazerte).
+    - [Explore rOpenSci R packages](/blog/2018/11/13/antarctic/#demo) supporting Antarctic and Southern Ocean Research
+    - Chat with our cohosts to find out how you can be involved in this community
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
