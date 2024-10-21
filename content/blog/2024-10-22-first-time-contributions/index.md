@@ -73,7 +73,7 @@ we have funding[^3] to offer a stipend to maintainers who participate.
 
 [^3]: Thanks to a [NumFocus Small Development Grant](https://numfocus.org/programs/small-development-grants) 🎉
 
-To participate, we ask that maintainers fill out the application form (below) by Nov XX, 2024[^4].
+To participate, we ask that maintainers fill out the application form (below) by Nov 24th, 2024[^4].
 
 [^4]: As we won't have room for more than about 10 maintainers, we may need to select from among the applications, depending how many we receive.
 
@@ -96,7 +96,7 @@ If you participate, you can also expect that
 
 ### Interested in participating?
 
-**Please fill out [an application form](https://airtable.com/appRpJelSoXWcYCG1/shrgFCAdgR4g8k45Q) by Nov XX, 2024.**
+**Please fill out [an application form](https://airtable.com/appRpJelSoXWcYCG1/shrgFCAdgR4g8k45Q) by Nov 24th, 2024.**
 
 **Note:** We understand that without dates/times, you can't fully commit to being available, 
 but once we know who is interested in participating, we will try to find a time that works for everyone!
