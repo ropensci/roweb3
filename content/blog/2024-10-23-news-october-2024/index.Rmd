@@ -81,6 +81,17 @@ The eighth annual [UK Research Software Engineering conference](https://rsecon24
 The talk was second in a two-part session devoted to software peer review, and followed a [walk-through demonstration of the process of submissing to Journal of Open Source software](https://virtual.oxfordabstracts.com/event/49081/submission/69).
 Find [Mark's slides](https://mpadge.github.io/presentations/2024/rseconf/).
 
+### Our first community call in Portuguese!
+
+**[A comunidade R fala português](/commcalls/translation-portuguese/)**
+🕓 Wednesday, 06 November 2024 13:00 UTC 
+With [Pedro Faria](/author/pedro-faria/), [Beatriz Milz](/author/beatriz-milz/), [Francesca Belem Lopes Palmeira](/author/francesca-belem-lopes-palmeira/).
+
+The R Community is carrying out several translations into Portuguese of different resources: books, packages and guides.  
+
+In this community call, three leaders from the Portuguese-speaking community will present their experiences leading and being part of these projects and share how we can participate in these efforts, including rOpenSci Developer Guide translation project.
+
+This community call will be followed by a [translaton at LatinR](https://www.eventbrite.cl/e/traducao-hackathon-traslaton-ropensci-tickets-1045507530167), for those who want to contribute.
 
 ### Coworking
 
