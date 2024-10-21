@@ -13,7 +13,7 @@ tags:
   - welcome
   - beginner
 description: "Announcing a Community Call and Coworking sessions to support first contributions"
-editor: 
+editor: Maëlle Salmon
 ---
 
 Do you remember your first contribution to open source? 
@@ -28,7 +28,7 @@ Despite this, contributions can super helpful and mentoring contributors is rewa
 
 [^1]: See blog posts 
   [Attract Contributors with 'help wanted' Issues](/blog/2023/09/19/help-wanted/) and
-  [Set Up Your Package to Foster a Community - Community Call Summary](/blog/2021/04/28/commcall-pkg-community/)
+  [Set Up Your Package to Foster a Community -- Community Call Summary](/blog/2021/04/28/commcall-pkg-community/)
 
 Because of both the value and the challenge to both contributors and maintainers,
 we're exited to announce a special series of activities to support first contributors to rOpenSci packages 🎉.
@@ -37,6 +37,8 @@ These activities consist of
 
 - a **Community Call "Making and Supporting First Time Contributions"** (January 2025), and
 - two **2-hour Coworking (mini-hack-a-thon) Sessions** (February 2025)
+
+Exact dates and times will depend on the availability of speakers and maintainers.
 
 In the Community Call we'll discus how maintainers can benefit from and support contributors, 
 as well as how to go about making contributions and why you might want to.
@@ -47,8 +49,10 @@ As a contributor, you can come to the coworking session to work with others or a
 you can continue to contribute throughout the week as part of this activity 
 (of course you can [continue to contribute](https://contributing.ropensci.org/resources.html#issues) afterwards as well). 
 
-If this sounds interesting, keep an eye on the [Events](/events) page or 
-[Mastodon](https://hachyderm.io/@rOpenSci) for when the dates are settled.
+If this sounds interesting, keep an eye on the [Events](/events) page, our social media feeds on 
+[Mastodon](https://hachyderm.io/@rOpenSci) and 
+[LinkedIn](https://www.linkedin.com/company/ropensci/), or the rOpenSci [Newsletter](/news)
+to hear when the dates are settled.
 
 In the meanwhile we're looking for some interested maintainers...
 
@@ -61,7 +65,7 @@ making contributions to their packages.
 
 However, we know that maintenance can be a challenge[^2] and finding the time 
 to support others can also be difficult. That's why we're happy to announce that
-we have funding[^3] to offer a stipend of $200 USD to maintainers who participate.
+we have funding[^3] to offer a stipend to maintainers who participate.
 
 [^2]: See blog posts 
   [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/) and 
@@ -69,8 +73,13 @@ we have funding[^3] to offer a stipend of $200 USD to maintainers who participat
 
 [^3]: Thanks to a [NumFocus Small Development Grant](https://numfocus.org/programs/small-development-grants) 🎉
 
-To participate, we ask that you as a maintainer are able to
+To participate, we ask that maintainers fill out the application form (below) by Nov XX, 2024[^4].
 
+[^4:] As we won't have room for more than about 10 maintainers, we may need to select from among the applications, depending how many we receive.
+
+Then, if participating, we ask that maintainers 
+
+- Work with rOpenSci staff to pick dates/times for the coworking events which best work for you.
 - [Create and/or identify issues](/blog/2023/09/19/help-wanted/) in
 your rOpenSci repository as 'Help wanted' and 'Good first issue'. These can
 range from documentation to coding changes. We just ask that some issues are relatively accessible to contributors with less experience.
@@ -80,12 +89,14 @@ range from documentation to coding changes. We just ask that some issues are rel
 
 If you participate, you can also expect that
 
-- rOpenSci staff will be available to support you 'in person' during the Coworking sessions, as well as on Slack or by email before and after.
+- We will connect with you before the events to find a date/time for the coworking sessions and  
+  see if you have any questions regarding issue-labelling or the coworking sessions.
+- We will will be available to support you during the Coworking sessions on Zoom, as well as on Slack or by email before and after.
 - You will receive a $200 USD stipend to help offset the time you spend teaching and mentoring these new contributors.
 
 ### Interested in participating?
 
-**Please fill out [an application form]() by Nov XX, 2024.**
+**Please fill out [an application form](https://airtable.com/appRpJelSoXWcYCG1/shrgFCAdgR4g8k45Q) by Nov XX, 2024.**
 
 **Note:** We understand that without dates/times, you can't fully commit to being available, 
 but once we know who is interested in participating, we will try to find a time that works for everyone!
@@ -102,6 +113,7 @@ or any other time by checking out issues on our [Help Wanted](/help-wanted/) pag
 
 
 ## Resources
+
 - Blog: [Communication & Collaboration with Contributors in an Open-Source Organization](/blog/2022/06/14/communication-with-contributors-in-an-open-source-organization/)
 - Blog: [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/) 
 - Blog: [Maintain or Co-Maintain an rOpenSci Package!](/blog/2022/10/17/maintain-or-co-maintain-an-ropensci-package/)
