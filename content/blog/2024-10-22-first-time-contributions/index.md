@@ -89,7 +89,7 @@ range from documentation to coding changes. We just ask that some issues are rel
 
 If you participate, you can also expect that
 
-- We will connect with you before the events to find a date/time for the coworking sessions and  
+- We will connect with you before the events to find a date/time for the coworking sessions and
   see if you have any questions regarding issue-labelling or the coworking sessions.
 - We will will be available to support you during the Coworking sessions on Zoom, 
   as well as on GitHub, Slack, or by email before and after.
