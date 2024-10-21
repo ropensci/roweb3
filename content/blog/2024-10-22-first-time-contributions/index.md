@@ -73,7 +73,7 @@ we have funding[^3] to offer a stipend to maintainers who participate.
 
 [^3]: Thanks to a [NumFocus Small Development Grant](https://numfocus.org/programs/small-development-grants) 🎉
 
-To participate, we ask that maintainers fill out the application form (below) by Nov 24th, 2024[^4].
+To participate, we ask that maintainers fill out the application form (below) by **Nov 24th, 2024**[^4].
 
 [^4]: As we won't have room for more than about 10 maintainers, we may need to select from among the applications, depending how many we receive.
 
@@ -91,7 +91,8 @@ If you participate, you can also expect that
 
 - We will connect with you before the events to find a date/time for the coworking sessions and  
   see if you have any questions regarding issue-labelling or the coworking sessions.
-- We will will be available to support you during the Coworking sessions on Zoom, as well as on Slack or by email before and after.
+- We will will be available to support you during the Coworking sessions on Zoom, 
+  as well as on GitHub, Slack, or by email before and after.
 - You will receive a $200 USD stipend to help offset the time you spend teaching and mentoring these new contributors.
 
 ### Interested in participating?
