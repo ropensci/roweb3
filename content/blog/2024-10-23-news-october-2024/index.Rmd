@@ -60,7 +60,18 @@ Example: [xml2 package](https://r-lib.r-universe.dev/xml2).
 
 rOpenSci Community Manager [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) will deliver a keynote talk at [BioNT Community Event & CarpentryConnect-Heidelberg 2024](/events/carpentryconnect-2024/), on November 14th in Heidelberg, Germany.
 
-[Will Landau](/author/will-landau/) will deliver a keynote talk at [LatinR (Latin American Conference About the Use of R in R&D)](/events/latinr-2024/). The conference is happening online from November 18-22. 
+Several members of the rOpenSci community will be part of this year’s [LatinR—Latin American Conference About the Use of R in R&D](/events/latinr-2024/)!
+
+[Will Landau](/author/will-landau/) and [Julia Silge](/author/julia-silge/) are the keynote speakers of the conference !
+
+[François Michonneau](/author/fran%C3%A7ois-michonneau/) will teach the tutorial [Working with larger than memory data in R with Arrow and DuckDB](https://www.eventbrite.cl/e/tutorial-working-with-larger-than-memory-data-in-r-with-arrow-and-duckdb-tickets-1044938257457?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl) in English. Tuesday, November 19th. 10:00 to 12:00 UTC -3.
+
+[Beatriz Milz](/author/beatriz-milz/) and [Yani Bellini Saibene](/author/yanina-bellini-saibene/) tutorial [Introduccion a Github para Investigador(a|e)s](https://www.eventbrite.cl/e/introduccion-a-github-para-investigadoraes-tickets-1045617188157?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl) in Spanish. Monday, November 18th. 14:00 to 17:00 UTC -3. 
+
+rOpenSci also organizes one of the satellite event [Tradução + Hackathon = Traslaton rOpenSci](https://www.eventbrite.cl/e/traducao-hackathon-traslaton-ropensci-tickets-1045507530167) with [Pedro Faria](/author/pedro-faria/), [Francesca Palmeira](/author/francesca-belem-lopes-palmeira/), [Beatriz Milz](/author/beatriz-milz/), and [Yani Bellini Saibene](/author/yanina-bellini-saibene/): we will get together to learn about rOpenSci and how to contribute to the [Portuguese translation project](https://github.com/orgs/ropensci/projects/7). Monday, November 18th. 10:00 to 12:00 UTC-3. ([find your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Tradu%C3%A7%C3%A3o+%2B+Hackathon+%3D+Traslaton+rOpenSci&iso=20241118T10&p1=51&ah=1))
+
+[Check the full list of talks and other events were rOpenSci members will be participating](/events/latinr-2024/). 
+
 
 
 ### rOpenSci at UK Research Software Engineers conference
