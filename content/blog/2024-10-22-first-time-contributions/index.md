@@ -79,7 +79,7 @@ To participate, we ask that maintainers fill out the application form (below) by
 
 Then, if participating, we ask that maintainers 
 
-- Work with rOpenSci staff to pick dates/times for the coworking events which best work for you.
+- Work with rOpenSci staff to pick dates/times for the coworking events which best work for everyone.
 - [Create and/or identify issues](/blog/2023/09/19/help-wanted/) in
 your rOpenSci repository as 'Help wanted' and 'Good first issue'. These can
 range from documentation to coding changes. We just ask that some issues are relatively accessible to contributors with less experience.
