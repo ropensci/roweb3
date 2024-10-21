@@ -21,7 +21,7 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-### Fostering Open Science in Latin America: CZI Awards Funds for Sustainable Research Software Development
+### Fostering open science in Latin America: CZI awards funds for sustainable research software development
 
 Exciting News! 
 The Chan Zuckerberg Initiative has awarded rOpenSci a new grant to foster sustainable scientific software as a pillar of Open Science in Latin America by building capacity and community. 
@@ -38,8 +38,38 @@ Example: [xml2 package](https://r-lib.r-universe.dev/xml2).
 
 rOpenSci Community Manager [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) will deliver a keynote talk at [BioNT Community Event & CarpentryConnect-Heidelberg 2024](/events/carpentryconnect-2024/), on November 14th in Heidelberg, Germany.
 
-[Will Landau](/author/will-landau/) will deliver a keynote talk at [LatinR (Latin American Conference About the Use of R in R&D)](/events/latinr-2024/). The conference is happening online from November 18-22. 
+Several members of the rOpenSci community will be part of this year’s [LatinR—Latin American Conference About the Use of R in R&D](/events/latinr-2024/)!
 
+[Will Landau](/author/will-landau/) and [Julia Silge](/author/julia-silge/) are the keynote speakers of the conference !
+
+[François Michonneau](/author/fran%C3%A7ois-michonneau/) will teach the tutorial [Working with larger than memory data in R with Arrow and DuckDB](https://www.eventbrite.cl/e/tutorial-working-with-larger-than-memory-data-in-r-with-arrow-and-duckdb-tickets-1044938257457?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl) in English. Tuesday, November 19th. 10:00 to 12:00 UTC -3.
+
+[Beatriz Milz](/author/beatriz-milz/) and [Yani Bellini Saibene](/author/yanina-bellini-saibene/) tutorial [Introduccion a Github para Investigador(a|e)s](https://www.eventbrite.cl/e/introduccion-a-github-para-investigadoraes-tickets-1045617188157?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl) in Spanish. Monday, November 18th. 14:00 to 17:00 UTC -3. 
+
+rOpenSci also organizes one of the satellite event [Tradução + Hackathon = Traslaton rOpenSci](https://www.eventbrite.cl/e/traducao-hackathon-traslaton-ropensci-tickets-1045507530167) with [Pedro Faria](/author/pedro-faria/), [Francesca Palmeira](/author/francesca-belem-lopes-palmeira/), [Beatriz Milz](/author/beatriz-milz/), and [Yani Bellini Saibene](/author/yanina-bellini-saibene/): we will get together to learn about rOpenSci and how to contribute to the [Portuguese translation project](https://github.com/orgs/ropensci/projects/7). Monday, November 18th. 10:00 to 12:00 UTC-3. ([find your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Tradu%C3%A7%C3%A3o+%2B+Hackathon+%3D+Traslaton+rOpenSci&iso=20241118T10&p1=51&ah=1))
+
+[Check the full list of talks and other events were rOpenSci members will be participating](/events/latinr-2024/). 
+
+
+
+### rOpenSci at UK Research Software Engineers conference
+
+The eighth annual [UK Research Software Engineering conference](https://rsecon24.society-rse.org/) took place in Newcastle from September 3rd to 5th.
+[Mark Padgham](/author/mark-padgham) presented a talk  on "*rOpenSci statistical software peer-review: The importance and challenge of community engagement*".
+The talk was second in a two-part session devoted to software peer review, and followed a [walk-through demonstration of the process of submissing to Journal of Open Source software](https://virtual.oxfordabstracts.com/event/49081/submission/69).
+Find [Mark's slides](https://mpadge.github.io/presentations/2024/rseconf/).
+
+### Our first community call in Portuguese!
+
+**[A comunidade R fala português](/commcalls/translation-portuguese/)**
+🕓 Wednesday, 06 November 2024 13:00 UTC 
+With [Pedro Faria](/author/pedro-faria/), [Beatriz Milz](/author/beatriz-milz/), [Francesca Belem Lopes Palmeira](/author/francesca-belem-lopes-palmeira/).
+
+The R Community is carrying out several translations into Portuguese of different resources: books, packages and guides.  
+
+In this community call, three leaders from the Portuguese-speaking community will present their experiences leading and being part of these projects and share how we can participate in these efforts, including rOpenSci Developer Guide translation project.
+
+This community call will be followed by a [translaton at LatinR](https://www.eventbrite.cl/e/traducao-hackathon-traslaton-ropensci-tickets-1045507530167), for those who want to contribute.
 
 ### Coworking
 
@@ -55,6 +85,10 @@ Consult our [Events](/events) page to find your local time and how to join.
     - Look up [Openscapes](https://openscapes.org/)
     - Chat with our cohost to learn more about the Openscapes organization, and how they use R to automate creating open education infrastructure
 
+- [Tuesday, December 3rd, 09:00 Australia Western (01:00 UTC)](/events/coworking-2024-12), "Getting Involved in the Antarctic/Southern Ocean rOpenSci Community" with cohosts [Michael Sumner](/author/michael-sumner ) and [Ben Raymond](/author/ben-raymond), and [Steffi LaZerte](/author/steffi-lazerte).
+    - [Explore rOpenSci R packages](/blog/2018/11/13/antarctic/#demo) supporting Antarctic and Southern Ocean Research
+    - Chat with our cohosts to find out how you can be involved in this community
+
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
 ## Software :package:
@@ -64,11 +98,13 @@ And remember, you can always cowork independently on work related to R, work on 
 
 
 
-The following four packages recently became a part of our software suite:
+The following five packages recently became a part of our software suite:
 
 + [pkgmatch](https://docs.ropensci.org/pkgmatch), developed by Mark Padgham: Find R packages matching either descriptions or other R packages. 
 
 + [rsi](https://docs.ropensci.org/rsi), developed by Michael Mahoney: Downloads spatial data from spatiotemporal asset catalogs (STAC), computes standard spectral indices from the Awesome Spectral Indices project (Montero et al. (2023) <doi:10.1038/s41597-023-02096-0>) against raster data, and glues the outputs together into predictor bricks. Methods focus on interoperability with the broader spatial ecosystem; function arguments and outputs use classes from sf and terra, and data downloading functions support complex CQL2 queries using rstac.  It is available on [CRAN]( https://CRAN.R-project.org/package=rsi). It has been [reviewed](https://github.com/ropensci/software-review/issues/636) by Felipe Carvalho and Michael Sumner.
+
++ [allcontributors](https://docs.ropensci.org/allcontributors), developed by Mark Padgham together with Chris Hartgerink: Acknowledge all contributors to a project via a single function call. The function appends to a README or other specified file(s) a table with names of all individuals who contributed via code or repository issues. The package also includes several additional functions to extract and quantify contributions to any repository.  It is available on [CRAN]( https://CRAN.R-project.org/package=allcontributors). 
 
 + [chopin](https://docs.ropensci.org/chopin), developed by Insang Song together with Kyle Messier: Geospatial data computation is parallelized by grid, hierarchy, or raster files. Based on future and mirai parallel backends, terra and sf functions as well as convenience functions in the package can be distributed over multiple threads. The simplest way of parallelizing generic geospatial computation is to start from `par_pad_*` functions to `par_grid`, `par_hierarchy`, or `par_multirasters` functions. Virtually any functions accepting classes in terra or sf packages can be used in the three parallelization functions. A common raster-vector overlay operation is provided as a function `extract_at`, which uses exactextractr, with options for kernel weights for summarizing raster values at vector geometries. Other convenience functions for vector-vector operations including simple areal interpolation (`summarize_aw`) and summation of exponentially decaying weights (`summarize_sedc`) are also provided. It has been [reviewed](https://github.com/ropensci/software-review/issues/638) by Alec L. Robitaille and Eric R. Scott.
 
@@ -80,11 +116,11 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following nine packages have had an update since the last newsletter: [pkgmatch](https://docs.ropensci.org/pkgmatch "Find R Packages Matching Either Descriptions or Other R Packages") ([`v0.4.0`](https://github.com/ropensci-review-tools/pkgmatch/releases/tag/v0.4.0)), [rsi](https://docs.ropensci.org/rsi "Efficiently Retrieve and Process Satellite Imagery") ([`v0.3.0`](https://github.com/Permian-Global-Research/rsi/releases/tag/v0.3.0)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.10.7`](https://github.com/ropensci/nodbi/releases/tag/v0.10.7)), [rgbif](https://docs.ropensci.org/rgbif "Interface to the Global Biodiversity Information Facility API") ([`v3.8.1`](https://github.com/ropensci/rgbif/releases/tag/v3.8.1)), [riem](https://docs.ropensci.org/riem "Accesses Weather Data from the Iowa Environment Mesonet") ([`v0.3.2`](https://github.com/ropensci/riem/releases/tag/v0.3.2)), [ruODK](https://docs.ropensci.org/ruODK "An R Client for the ODK Central API") ([`v1.5.0`](https://github.com/ropensci/ruODK/releases/tag/v1.5.0)), [spatsoc](https://docs.ropensci.org/spatsoc "Group Animal Relocation Data by Spatial and Temporal Relationship") ([`v0.2.6`](https://github.com/ropensci/spatsoc/releases/tag/v0.2.6)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.8.0`](https://github.com/ropensci/targets/releases/tag/1.8.0)), and [tidyhydat](https://docs.ropensci.org/tidyhydat "Extract and Tidy Canadian Hydrometric Data") ([`v0.7.0`](https://github.com/ropensci/tidyhydat/releases/tag/v0.7.0)).
+The following eleven packages have had an update since the last newsletter: [pkgmatch](https://docs.ropensci.org/pkgmatch "Find R Packages Matching Either Descriptions or Other R Packages") ([`v0.4.0`](https://github.com/ropensci-review-tools/pkgmatch/releases/tag/v0.4.0)), [rsi](https://docs.ropensci.org/rsi "Efficiently Retrieve and Process Satellite Imagery") ([`v0.3.0`](https://github.com/Permian-Global-Research/rsi/releases/tag/v0.3.0)), [charlatan](https://docs.ropensci.org/charlatan "Make Fake Data") ([`v0.6.1`](https://github.com/ropensci/charlatan/releases/tag/v0.6.1)), [git2r](https://docs.ropensci.org/git2r "Provides Access to Git Repositories") ([`v0.35.0`](https://github.com/ropensci/git2r/releases/tag/v0.35.0)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.10.7`](https://github.com/ropensci/nodbi/releases/tag/v0.10.7)), [rgbif](https://docs.ropensci.org/rgbif "Interface to the Global Biodiversity Information Facility API") ([`v3.8.1`](https://github.com/ropensci/rgbif/releases/tag/v3.8.1)), [riem](https://docs.ropensci.org/riem "Accesses Weather Data from the Iowa Environment Mesonet") ([`v0.3.2`](https://github.com/ropensci/riem/releases/tag/v0.3.2)), [ruODK](https://docs.ropensci.org/ruODK "An R Client for the ODK Central API") ([`v1.5.0`](https://github.com/ropensci/ruODK/releases/tag/v1.5.0)), [spatsoc](https://docs.ropensci.org/spatsoc "Group Animal Relocation Data by Spatial and Temporal Relationship") ([`v0.2.6`](https://github.com/ropensci/spatsoc/releases/tag/v0.2.6)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.8.0`](https://github.com/ropensci/targets/releases/tag/1.8.0)), and [tidyhydat](https://docs.ropensci.org/tidyhydat "Extract and Tidy Canadian Hydrometric Data") ([`v0.7.0`](https://github.com/ropensci/tidyhydat/releases/tag/v0.7.0)).
 
 ## Software Peer Review
 
-There are twelve recently closed and active submissions and 6 submissions on hold. Issues are at different stages: 
+There are thirteen recently closed and active submissions and 6 submissions on hold. Issues are at different stages: 
 
 * One at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
 
@@ -114,9 +150,11 @@ There are twelve recently closed and active submissions and 6 submissions on hol
 
     * [galamm](https://github.com/ropensci/software-review/issues/615), Generalized Additive Latent and Mixed Models. Submitted by [Øystein Sørensen](https://osorensen.rbind.io).  (Stats).
 
-* Three at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
+* Four at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
 
-     * [forcis](https://github.com/ropensci/software-review/issues/660), An R Client to Access the FORCIS Database. Submitted by [Nicolas Casajus](https://nicolascasajus.fr). 
+     * [rredlist](https://github.com/ropensci/software-review/issues/663), IUCN Red List Client. Submitted by [William Gearty](http://williamgearty.com). 
+
+    * [forcis](https://github.com/ropensci/software-review/issues/660), An R Client to Access the FORCIS Database. Submitted by [Nicolas Casajus](https://nicolascasajus.fr). 
 
     * [fireexposuR](https://github.com/ropensci/software-review/issues/659), Compute and Visualize Wildfire Exposure. Submitted by [Air Forbes](https://wildfireanalytics.org/forbes.html). 
 
