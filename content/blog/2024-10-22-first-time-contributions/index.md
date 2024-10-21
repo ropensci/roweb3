@@ -36,7 +36,7 @@ we're exited to announce a special series of activities to support first contrib
 These activities consist of 
 
 - a **Community Call "Making and Supporting First Time Contributions"** (January 2025), and
-- two **2-hour Coworking (mini-hack-a-thon) Sessions** (February 2025)
+- two **2-hour Coworking (mini-hack-a-thon) Sessions** (January-March 2025)
 
 Exact dates and times will depend on the availability of speakers and maintainers.
 
