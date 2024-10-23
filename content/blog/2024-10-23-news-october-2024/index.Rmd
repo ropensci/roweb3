@@ -93,6 +93,13 @@ In this community call, three leaders from the Portuguese-speaking community wil
 
 This community call will be followed by a [translaton at LatinR](https://www.eventbrite.cl/e/traducao-hackathon-traslaton-ropensci-tickets-1045507530167), for those who want to contribute.
 
+### Looking for Maintainers to Support First-Time Contributors
+Making your first contribution to Open Source can be both empowering and intimidating. As such, we’re exited to announce a special series of activities to support first-time contributors to rOpenSci packages! 🎉
+
+Are you an rOpenSci package maintainer who would like to help someone make their first contribution?
+
+See our blog post for more details and how to sign up (by Nov 24): https://ropensci.org/blog/2024/10/22/first-time-contributions/
+
 ### Coworking
 
 Read [all about coworking](/blog/2023/06/21/coworking/)!
