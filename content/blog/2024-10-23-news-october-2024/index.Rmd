@@ -62,7 +62,7 @@ rOpenSci Community Manager [Yanina Bellini Saibene](/author/yanina-bellini-saibe
 
 Several members of the rOpenSci community will be part of this year’s [LatinR—Latin American Conference About the Use of R in R&D](/events/latinr-2024/)!
 
-- [Will Landau](/author/will-landau/) and [Julia Silge](/author/julia-silge/) are the keynote speakers of the conference !
+- [Will Landau](/author/will-landau/) and [Julia Silge](/author/julia-silge/) are the keynote speakers of the conference!
 
 - [François Michonneau](/author/fran%C3%A7ois-michonneau/) will teach the tutorial [Working with larger than memory data in R with Arrow and DuckDB](https://www.eventbrite.cl/e/tutorial-working-with-larger-than-memory-data-in-r-with-arrow-and-duckdb-tickets-1044938257457?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl) in English. Tuesday, November 19th. 10:00 to 12:00 UTC -3.
 
@@ -91,7 +91,7 @@ The R Community is carrying out several translations into Portuguese of differen
 
 In this community call, three leaders from the Portuguese-speaking community will present their experiences leading and being part of these projects and share how we can participate in these efforts, including rOpenSci Developer Guide translation project.
 
-This community call will be followed by a [translaton at LatinR](https://www.eventbrite.cl/e/traducao-hackathon-traslaton-ropensci-tickets-1045507530167), for those who want to contribute.
+This community call will be followed by a [traslaton at LatinR](https://www.eventbrite.cl/e/traducao-hackathon-traslaton-ropensci-tickets-1045507530167), for those who want to contribute.
 
 ### Looking for Maintainers to Support First-Time Contributors
 
@@ -99,7 +99,7 @@ Making your first contribution to Open Source can be both empowering and intimid
 
 Are you an rOpenSci package maintainer who would like to help someone make their first contribution?
 
-See our blog post for more details and how to sign up (by Nov 24): https://ropensci.org/blog/2024/10/22/first-time-contributions/
+See our [blog post](https://ropensci.org/blog/2024/10/22/first-time-contributions/) for more details and how to sign up (by November 24).
 
 ### Coworking
 
@@ -112,12 +112,12 @@ No RSVP needed.
 Consult our [Events](/events) page to find your local time and how to join.
 
 - [Tuesday, November 5th, 09:00 Americas Pacific (17:00 UTC)](/events/coworking-2024-11), "Getting to know Openscapes" with cohost [Stefanie Butland](/author/stefanie-butland) and [Steffi LaZerte](/author/steffi-lazerte).
-    - Look up [Openscapes](https://openscapes.org/)
-    - Chat with our cohost to learn more about the Openscapes organization, and how they use R to automate creating open education infrastructure
+    - Look up [Openscapes](https://openscapes.org/).
+    - Chat with our cohost to learn more about the Openscapes organization, and how they use R to automate creating open education infrastructure.
 
 - [Tuesday, December 3rd, 09:00 Australia Western (01:00 UTC)](/events/coworking-2024-12), "Getting Involved in the Antarctic/Southern Ocean rOpenSci Community" with cohosts [Michael Sumner](/author/michael-sumner ) and [Ben Raymond](/author/ben-raymond), and [Steffi LaZerte](/author/steffi-lazerte).
-    - [Explore rOpenSci R packages](/blog/2018/11/13/antarctic/#demo) supporting Antarctic and Southern Ocean Research
-    - Chat with our cohosts to find out how you can be involved in this community
+    - [Explore rOpenSci R packages](/blog/2018/11/13/antarctic/#demo) supporting Antarctic and Southern Ocean Research.
+    - Chat with our cohosts to find out how you can be involved in this community.
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
