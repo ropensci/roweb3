@@ -6,7 +6,7 @@ author:
 date: '2024-10-23'
 tags:
   - newsletter
-description: CZI funding for Champions Program with Latin America focus, coworking, new package and package news
+description: CZI funding for Champions Program with Latin America focus, first time contributors, coworking, new package and package news
 params:
   last_newsletter: "2024-09-27"
 ---
@@ -70,6 +70,14 @@ The R Community is carrying out several translations into Portuguese of differen
 In this community call, three leaders from the Portuguese-speaking community will present their experiences leading and being part of these projects and share how we can participate in these efforts, including rOpenSci Developer Guide translation project.
 
 This community call will be followed by a [translaton at LatinR](https://www.eventbrite.cl/e/traducao-hackathon-traslaton-ropensci-tickets-1045507530167), for those who want to contribute.
+
+### Looking for Maintainers to Support First-Time Contributors
+
+Making your first contribution to Open Source can be both empowering and intimidating. As such, we’re exited to announce a special series of activities to support first-time contributors to rOpenSci packages! 🎉
+
+Are you an rOpenSci package maintainer who would like to help someone make their first contribution?
+
+See our blog post for more details and how to sign up (by Nov 24): https://ropensci.org/blog/2024/10/22/first-time-contributions/
 
 ### Coworking
 
@@ -169,6 +177,8 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 
 * [Fostering Open Science in Latin America: CZI Awards Funds for Sustainable Research Software Development](/blog/2024/10/10/czi-latam-grant) by Yanina Bellini Saibene. Foster sustainable scientific software as a pillar of open science in Latin America through building capacity and community. Other languages: <a href='/es/blog/2024/10/10/czi-america-latina-grant' lang='es'>Fomentando la Ciencia Abierta en América Latina: CZI otorga fondos para el desarrollo sostenible de software de investigación (es)</a>.
+
+* [Looking for Maintainers to Support First-Time Contributors](/blog/2024/10/22/first-time-contributions) by Steffi LaZerte and Yanina Bellini Saibene. Announcing a Community Call and Coworking sessions to support first contributions.
 
 ## Calls for contributions
 
