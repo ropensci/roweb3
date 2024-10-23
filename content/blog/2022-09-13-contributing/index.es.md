@@ -75,7 +75,7 @@ Tenemos varios canales para que nuestra información te llegue directamente. ¿T
 
 * [Revisión de software por pares](/software-review/): los paquetes realizados por la comunidad se someten a un proceso de revisión transparente, constructivo, no adversario y abierto.
 
-* [Revisión por pares de software estádistico](/stat-software-review/): hemos ampliado nuestro sistema de revisión por pares para incluir paquetes que implementan algoritmos estadísticos.
+* [Revisión por pares de software estádistico](/software-review/): hemos ampliado nuestro sistema de revisión por pares para incluir paquetes que implementan algoritmos estadísticos.
 
 * [Publicación multilingüe](/blog/2021/12/20/inclusive-leadership-program/): estamos ampliando la documentación de nuestro proceso de revisión más allá del idioma inglés.
 
