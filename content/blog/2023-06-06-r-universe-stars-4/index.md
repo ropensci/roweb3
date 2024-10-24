@@ -6,6 +6,11 @@ author:
   - Alejandra Bellini
   - Lucio Casalla  
   - Steffi LaZerte
+  - Rob Kooper
+  - Chris Black
+  - Eric Scott
+  - Michael Dietze
+  - David LeBauer
 date: '2023-06-06'
 tags:
   - community

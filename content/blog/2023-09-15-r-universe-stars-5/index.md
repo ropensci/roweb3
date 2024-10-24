@@ -6,6 +6,8 @@ author:
   - Alejandra Bellini
   - Lucio Casalla  
   - Steffi LaZerte
+  - Rich FitzJohn
+  - Rob Ashton
 date: '2023-09-15'
 tags:
   - community
