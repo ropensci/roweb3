@@ -11,7 +11,7 @@ Together, we use the peer review process to curate a [suite of high quality pack
 and a community of developers and users to support the long-term development and maintenance of scientific software. 
 rOpenSci's software peer-review relies on the volunteer work of _[editors](#editors)_, 
 who manage the incoming flow and ensure progress of submissions; _authors_ who create,
-submit and improve their packages, 
+submit and improve their packages; 
 and  *[reviewers](https://devguide.ropensci.org/softwarereview_intro.html#reviewers)*, 
 who examine software source code and documentation.
 
