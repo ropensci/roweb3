@@ -29,8 +29,8 @@
    "url": "https://www.numfocus.org/blog/how-ropensci-uses-code-review-to-promote-reproducible-science/"
 },
 {
-   "title": "Discussion of our standards and process",
-   "text": "A repository for 'meta' discussions",
+   "title": "Discussions of software review",
+   "text": "A repository for 'meta' discussions of the standards and processes of software peer review",
    "url": "https://github.com/ropensci/software-review-meta/issues"
 },
 {
