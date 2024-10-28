@@ -4,7 +4,8 @@ description = "rOpenSci's open peer-review system of R packages"
 tags = ["software-peer-review"]
 +++
 
-rOpenSci's Software Peer Review program brings together scientists and software engineers to improve the quality, reliability, and maintainability of scientific R packages through a **transparent, constructive, non adversarial and open review process**. We bring together the best aspects of scientific peer review and open-source code review: recruiting expert developers and users to provide feedback, careful moderation and mentorship to provide a productive and inclusive environment, code diagnostics based on rOpenSci's deep experience in the R language, chatbot-supported interactions and automation on open platforms for a smooth experience.
+rOpenSci's Software Peer Review program brings together scientists and software engineers to improve the quality, 
+reliability, and maintainability of scientific R packages through a **transparent, constructive, non adversarial, and open review process**. We bring together the best aspects of scientific peer review and open-source code review: recruiting expert developers and users to provide feedback, careful moderation and mentorship to provide a productive and inclusive environment, code diagnostics based on rOpenSci's deep experience in the R language, chatbot-supported interactions, and automation on open platforms for a smooth experience.
 
 Together, we use the peer review process to curate a [suite of high quality packages](/packages/) 
 and a community of developers of users to support the long-term development and maintenance of scientific software. 
