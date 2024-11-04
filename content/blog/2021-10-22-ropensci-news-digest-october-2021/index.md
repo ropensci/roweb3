@@ -40,7 +40,7 @@ Follow the [community call page link](/commcalls/oct2021-statsreview02/) for pra
 
 ### November 2 social coworking and office hours
 
-Join us for [monthly coworking Tuesday, November 2nd at 16:00 UTC](/events/coworking-2021-11/)! No RSVP needed. In addition to the usual quiet and noisy rooms (for Q&A and meeting peers), [Mark Pagham](/author/mark-padgham/), co-Lead of our [Statistical Software Peer Review project](/stat-software-review/), will be there to help folks check their own package with our new automated checking system.
+Join us for [monthly coworking Tuesday, November 2nd at 16:00 UTC](/events/coworking-2021-11/)! No RSVP needed. In addition to the usual quiet and noisy rooms (for Q&A and meeting peers), [Mark Pagham](/author/mark-padgham/), co-Lead of our [Statistical Software Peer Review project](/software-review/), will be there to help folks check their own package with our new automated checking system.
 
 ### rOpenSci at NHS-R conference
 

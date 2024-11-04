@@ -1,31 +1,45 @@
-[
-{
-   "title": "Submit A Package",
-   "text": "Or read previous and current reviews.",
+[{
+   "title": "Submit a package",
+   "text": "Or read previous and current reviews",
    "url": "https://github.com/ropensci/software-review"
 },
 {
-   "title": "Online book",
-   "text": "rOpenSci Packages: Development, Maintenance, and Peer Review including the aims and scope of our system.",
+   "title": "Dev guide",
+   "text": "rOpenSci Packages: Development, Maintenance, and Peer Review including the aims and scope of our system",
    "url": "https://devguide.ropensci.org/"
 },
 {
-   "title": "Discussion of our standards and process",
-   "text": "A repository for 'meta' discussions",
-   "url": "https://github.com/ropensci/software-review-meta/issues"
+   "title": "Stats dev guide",
+   "text": "rOpenSci Statistical Software Peer Review",
+   "url": "https://stats-devguide.ropensci.org"
 },
 {
    "title": "Volunteer",
-   "text": "Volunteering form for reviewers.",
+   "text": "Volunteering form for reviewers",
    "url": "https://airtable.com/shrnfDI2S9uuyxtDw"
 },
 {
-   "title": "Context",
-   "text": "Blog post introducing the system",
+   "title": "Context for statistical software review",
+   "text": "Blog post introducing statistical software review",
+   "url": "/blog/2019/07/15/expanding-software-review/"
+},
+{
+   "title": "Context for software review",
+   "text": "Blog post introducing software review",
    "url": "https://www.numfocus.org/blog/how-ropensci-uses-code-review-to-promote-reproducible-science/"
 },
 {
+   "title": "Discussions of software review",
+   "text": "A repository for 'meta' discussions of the standards and processes of software peer review",
+   "url": "https://github.com/ropensci/software-review-meta/issues"
+},
+{
+   "title": "Discussion of our statistical standards and process",
+   "text": "Threads on rOpenSci's discussion forum relating to the project",
+   "url": "https://discuss.ropensci.org/c/statistical-software-peer-review/28"
+},
+{
    "title": "Blog posts",
-   "text": "software review related posts on our blogs.",
+   "text": "Blog posts related to software review",
    "url": "/tags/software-peer-review/"
 }]
