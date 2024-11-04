@@ -16,7 +16,7 @@ and  *[reviewers](https://devguide.ropensci.org/softwarereview_intro.html#review
 who examine software source code and documentation.
 
 rOpenSci's peer review focuses on scientific applications, 
-and we accept submissions of packages related to [scientific data lifecycles](https://devguide.ropensci.org/softwarereview_policies.html#aims-and-scope) 
+and we accept submissions of packages related to our two software-review streams of [scientific data lifecycles](https://devguide.ropensci.org/softwarereview_policies.html#aims-and-scope) 
 and [statistical algorithms](https://stats-devguide.ropensci.org/overview.html#overview-categories). 
 You can read more about our standards, process, 
 and how to participate in peer review in our [development guide](https://devguide.ropensci.org/index.html) 
