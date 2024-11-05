@@ -5,6 +5,8 @@ author:
 - Alejandra Bellini 
 - Lucio Casalla 
 - Steffi LaZerte
+- Juan Pablo Ruiz Nicolini
+- Pablo Tiscornia
 date: '2022-11-23'
 slug: r-universe-stars-1-es
 tags:
