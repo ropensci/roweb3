@@ -3,7 +3,7 @@ title: 'Containerization and R for Reproducibility and More'
 dateStart: '2024-11-19T22:00:00'
 dateEnd: '2024-11-19T23:00:00'
 date: 2024-11-19T23:00:00 # UTC!! same as dateEnd
-description: "Biomedical researchers and analysts: don’t miss this chance to learn about containerized environments in R with expert Noam Ross! "
+description: "Biomedical researchers and analysts, don’t miss this chance to learn about containerized environments in R with expert Noam Ross! "
 location: 'online'
 country: "" # emoji
 slug: "RMedicine-2024"
