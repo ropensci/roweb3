@@ -99,8 +99,6 @@ If you make your package public but are not sure whether you want to commit to m
 
 Could the package be developed automatically based on an OpenAPI (formerly called Swagger) specifications? Maybe, but currently there is no established tool for that so you would first need to develop the R package creating R packages. :wink:
 
-{{< tweet user="JonTheGeek" id="1516395969398595589" >}}
-
 Worth exploring are:
 
 -   [OpenAPI generator](https://github.com/OpenAPITools/openapi-generator/tree/master/modules/openapi-generator/src/main/resources/r) that seems to offer R functionalities;

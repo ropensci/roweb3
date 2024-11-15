@@ -99,6 +99,7 @@
    ],
    "stats": true,
    "mastodon": "https://nerdculture.de/@mpadge",
+   "bluesky": "mpadge.bsky.social",
    "github": "mpadge",
    "home": "/author/mark-padgham"
 },
@@ -116,7 +117,8 @@
    "generalreview": true,
    "mastodon": "https://mastodon.social/@maelle",
    "github": "maelle",
-   "home": "/author/maëlle-salmon"
+   "home": "/author/maëlle-salmon",
+   "bluesky": "maellesalmon.bsky.social"
 },
 {
    "name": "Steffi LaZerte",
