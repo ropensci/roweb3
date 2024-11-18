@@ -10,6 +10,7 @@ tags:
   - tech-notes
   - github
   - how-to
+  - metadata
 description: "The allcontributors package helps acknolwedge software contributions"
 ---
 
