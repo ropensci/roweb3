@@ -38,7 +38,7 @@ Acknowledgement comments generally follow the format:
 ```bash
 @all-contributors please add @<username> for <contributions>
 ```
-where "<contributions>" can be one of a large variety of [contribution
+where "\<contributions\>" can be one of a large variety of [contribution
 types](https://allcontributors.org/docs/en/emoji-key), such as "code", "doc",
 or any one of 33 currently recognized contribution types.
 
