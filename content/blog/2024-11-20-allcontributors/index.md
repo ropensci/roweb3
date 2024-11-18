@@ -37,7 +37,7 @@ Acknowledgement comments generally follow the format:
 ```
 where "\<contributions\>" can be one of a large variety of [contribution types](https://allcontributors.org/docs/en/emoji-key), such as "code", "doc", or any one of 33 currently recognized contribution types.
 
-### What happens if i forget to acknowledge a contribution?
+### What happens if I forget to acknowledge a contribution?
 
 As stated: The [allcontributors.org](https://allcontributors.org) system requires you to remember and actively acknowledge each contribution.
 The documentation encourages you to add a commit message with an acknowledgement as soon as possible after the contribution itself.
