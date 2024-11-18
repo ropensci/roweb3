@@ -1,5 +1,5 @@
 ---
-name: Rainer Krug
+name: Rainer M Krug
 linkedin: rainermkrug
 mastodon: https://hachyderm.io/@RMKrug
 github: rkrug
