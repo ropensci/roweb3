@@ -69,7 +69,10 @@ If you think acknowledging these kinds of contributions may be important for you
 
 The [allcontributors package](https://docs.ropensci.org/allcontributors/) has only one main function which you'll likely ever need, [`add_contributors()`](https://docs.ropensci.org/allcontributors/reference/add_contributors.html). This function includes a large number of parameters, all of which are set to sensible default values that should work for most projects.
 Simply running [`add_contributors()`](https://docs.ropensci.org/allcontributors/reference/add_contributors.html) in the root directory of your repository will automatically add or update your lists of contributors.
-No matter how long after the contribution this function is called, contributions will always be acknowledged, and ... 
+An even simpler option is to run the function regularly via a GitHub workflow, so you'll never need to worry about forgetting to update your allcontributors lists.
+The [allcontributors package](https://docs.ropensci.org/allcontributors/) includes a demonstration [workflow file](https://github.com/ropensci/allcontributors/blob/main/.github/workflows/allcontributors.yml), which you can simply copy into your own repository.
+From the first commit of that file, your allcontributors list will be automatically updated on every push, as well as at regular intervals as defined at the top of that file.
+Regardless of how you update your lists, no matter how long after the contribution this function is called, contributions will always be acknowledged, and ... 
 
 ### Advantage: Contributors are linked directly to their contributions
 
@@ -88,3 +91,6 @@ We encourage everybody developing packages both within rOpenSci and beyond to ac
 If you care about acknowledging contributions of any type whatsoever, whether directly to your code or beyond it, then please use [allcontributors.org](https://allcontributors.org) and the `@all-contributors` bot.
 
 If, however, you prefer a system that doesn't require you to always remember your acknowledgements in commit comments, and which gives you more flexibility in how contributions appear in your README, then please use our [allcontributors R package](https://docs.ropensci.org/allcontributors/).
+For even greater ease, you can copy [our GitHub workflow file](https://github.com/ropensci/allcontributors/blob/main/.github/workflows/allcontributors.yml) to automatically update your contributors lists.
+If you use the [`usethis::use_release_issue()` function](https://usethis.r-lib.org/reference/use_release_issue.html), you can also add a small helper function to add an item there to remind you to update your allcontributors lists prior to release.
+See the [allcontributors README](https://docs.ropensci.org/allcontributors/) for more detail.
