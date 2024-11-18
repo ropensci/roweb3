@@ -24,8 +24,8 @@ to "Recognize all contributors, including those that don't push code." This
 system is great, it is very widely used, and we encourage anybody to please use
 it! It is nevertheless not the only way to acknowledge contributions to your
 software. rOpenSci also has its own [allcontributors R
-package](https://docs.ropensci.org/allcontributors/) which can be used to
-automate the process of acknowledging contributors.
+package](https://docs.ropensci.org/allcontributors/) which offers a different
+workflow to automate the process of acknowledging contributors.
 
 ## Disadvantages of the allcontributors.org system
 
@@ -38,23 +38,22 @@ Acknowledgement comments generally follow the format:
 ```bash
 @all-contributors please add @<username> for <contributions>
 ```
-```
 where "<contributions>" can be one of a large variety of [contribution
 types](https://allcontributors.org/docs/en/emoji-key), such as "code", "doc",
 or any one of 33 currently recognized contribution types.
-```
 
 ### What happens if i forget to acknowledge a contribution?
 
 As stated: The [allcontributors.org](https://allcontributors.org) system
 requires you to remember and actively acknowledge each contribution. The
-documentation encourages you to add an acknowledgement commit message as soon
-as possible after the contribution itself. If you forget, obviously you can add
-the comment at some later time, but it will then be more difficult to connect
-that statement of acknowledgement with the original contribution itself. If you
-forget entirely, then that contribution will never be acknowledged. It is up to
-the software maintainers to actively remember and actively acknowledge
-contributions, a task which can sometimes be quite a burden!
+documentation encourages you to add a commit message with an acknowledgement as
+soon as possible after the contribution itself. If you forget, obviously you
+can add the comment at some later time, but it will then be more difficult to
+connect that statement of acknowledgement with the original contribution
+itself. If you forget entirely, then that contribution will never be
+acknowledged. It is up to the software maintainers to actively remember and
+actively acknowledge contributions, a task which can sometimes be quite a
+burden!
 
 ### How are allcontributors.org contributions acknowledged?
 
@@ -62,10 +61,10 @@ The [allcontributors.org](https://allcontributors.org) system is extremely
 flexible, and easily allows for acknowledgement of contributions which may not
 even be visible in the git commit log directly. This ability to acknowledge
 contributions beyond those recorded in logs also means that the only source of
-contributions are the commit comments to the bot. Acknowledgements thus end up
-packed together in a single "Contributors" section, with no ability to
-distinguish types of contributions. See, for example, the section on the very
-popular [p5.js
+contributions are the commit comments to the bot. Acknowledgements on your
+README file thus end up packed together in a single "Contributors" section,
+with no ability to distinguish types of contributions. See, for example, the
+section on the very popular [p5.js
 repository](https://github.com/processing/p5.js?tab=readme-ov-file#contributors),
 which occupies the vast majority of the entire README. Contributors are
 acknowledged by GitHub handle only, and so each contributor links directly to
@@ -80,16 +79,16 @@ package](https://docs.ropensci.org/allcontributors/). Having stated the disadvan
 [allcontributors.org](https://allcontributors.org) system, it is only fair that
 we start with by explicitly acknowledging the disadvantages of our own system.
 
-### Disadvantage: Contributions are only acknowledged from the git log
+### Disadvantage: Contributions are only acknowledged from git and GitHub
 
 Unlike the truly general [allcontributors.org](https://allcontributors.org)
 system, rOpenSci's [allcontributors R
 package](https://docs.ropensci.org/allcontributors/) can only acknowledge
-contributions that are recorded in the git log of a repository. This
-effectively reduces the 33 different kinds of contributions in the former
-system down to a much smaller subset, excluding the kinds of contributions not
-likely to appear in actual commits, such as planning, finances, or general
-organisational tasks.
+contributions that are recorded in the git log of a repository, or via GitHub
+interactions. This effectively reduces the 33 different kinds of contributions
+in the former system down to a much smaller subset, excluding the kinds of
+contributions not likely to appear in actual commits or issue comments, such as
+planning, finances, or general organisational tasks.
 
 If you think acknowledging these kinds of contributions may be important for
 your project, then please use the original
@@ -102,30 +101,30 @@ The [allcontributors package](https://docs.ropensci.org/allcontributors/) has
 only one main function which you'll likely ever need,
 [`add_contributors()`](https://docs.ropensci.org/allcontributors/reference/add_contributors.html).
 This function includes a large number of parameters, all of which are set to
-sensible default values that should work for most people. Simply running
+sensible default values that should work for most project. Simply running
 [`add_contributors()`](https://docs.ropensci.org/allcontributors/reference/add_contributors.html)
 in the root directory of your repository will automatically add or update your
 lists of contributors. No matter how long after the contribution this function
-is called, contributions will always be acknowledged. 
+is called, contributions will always be acknowledged, and ... 
 
 ### Advantage: Contributors are linked directly to their contributions
 
-By restricting acknowledgement to the git log of a repository, the 
-[allcontributors package](https://docs.ropensci.org/allcontributors/) can link
-each acknowledged contributor directly to a GitHub link of their contributions.
-See, for example, the [README of this
+By restricting acknowledgement to git and GitHub, the [allcontributors
+package](https://docs.ropensci.org/allcontributors/) can link each acknowledged
+contributor directly to a GitHub link of their contributions. See, for example,
+the [README of this
 package](https://github.com/ropensci/allcontributors/?tab=readme-ov-file#contributors),
 where clicking on the image of any contributor leads to their profile, while
-clicking on their handles below the images lead to their actual contributions.
+clicking on their handles below the images leads to their actual contributions.
 
 ### Advantage: You can organise your contributions the way you like
 
 The array of parameters accepted by [the `add_contributors()`
 function`](https://docs.ropensci.org/allcontributors/reference/add_contributors.html)
-help to arrange your allcontributors section any way you like. Restricting the
-package to contributions directly from git and GitHub only reduces the sources
-of contributions to code, issue authors, and issue comments. The ways
-contributions from these three sources are arranged in your README can be
+helps to arrange your allcontributors section any way you like. Restricting the
+package to contributions directly from git and GitHub requires the sources of
+contributions to be grouped into code, issue authors, and issue comments. The
+ways contributions from these three sources are arranged in your README can be
 customized almost any way you like, as described in [the function
 documentation](https://docs.ropensci.org/allcontributors/reference/add_contributors.html),
 and demonstrated in [the main package
@@ -135,8 +134,8 @@ vignette](https://docs.ropensci.org/allcontributors/articles/allcontributors.htm
 
 We encourage everybody developing packages both within rOpenSci and beyond to
 acknowledge contributions wherever and whenever possible. If you care about
-acknowledging contributions of any type whatever, whether directly to your code
-or beyond it, then please use
+acknowledging contributions of any type whatsoever, whether directly to your
+code or beyond it, then please use
 [allcontributors.org](https://allcontributors.org) and the `@all-contributors`
 bot.
 
@@ -144,4 +143,3 @@ If, however, you prefer a system that doesn't require you to always remember
 your acknowledgements in commit comments, and which gives you more flexibility
 in how contributions appear in your README, then please use our
 [allcontributors R package](https://docs.ropensci.org/allcontributors/).
-
