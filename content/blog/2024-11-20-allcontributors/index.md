@@ -24,7 +24,7 @@ The [allcontributors.org website](https://allcontributors.org/) includes
 One strong motivation for [allcontributors.org](https://allcontributors.org) is to "Recognize all contributors, including those that don't push code."
 This system is great, it is very widely used, and we encourage anybody to please use it!
 It is nevertheless not the only way to acknowledge contributions to your software.
-rOpenSci also has its own [allcontributors R package](https://docs.ropensci.org/allcontributors/) which offers a different workflow to automate the process of acknowledging contributors.
+rOpenSci also has its own [allcontributors R package](https://docs.ropensci.org/allcontributors/) which offers a different yet easy workflow to automate the process of acknowledging contributors.
 
 ## Disadvantages of the allcontributors.org system
 
@@ -43,7 +43,7 @@ As stated: The [allcontributors.org](https://allcontributors.org) system require
 The documentation encourages you to add a commit message with an acknowledgement as soon as possible after the contribution itself.
 If you forget, obviously you can add the comment at some later time, but it will then be more difficult to connect that statement of acknowledgement with the original contribution itself.
 If you forget entirely, then that contribution will never be acknowledged.
-It is up to the software maintainers to actively remember and actively acknowledge contributions, a task which can sometimes be quite a burden!
+It is up to the software maintainers to actively remember and actively acknowledge contributions, a task which can [sometimes be quite a burden](https://ropensci.org/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/)!
 
 ### How are allcontributors.org contributions acknowledged?
 
