@@ -14,7 +14,7 @@ location: Community call (teleconference)
 country: "\U0001F310"
 attendees: Todos são bem-vindos
 slug: translation-portuguese
-notes: 
+notes: https://docs.google.com/document/d/1Te2vmdVvatLlNRk18sJkvQwYtfamJfK0mlw87U9W83Q/edit?usp=sharing
 outputs:
 - HTML
 - Calendar 
@@ -27,6 +27,12 @@ resources:
   - url: https://devdevguide.netlify.app/pt/index.pt
     name: "Tradução Português- Guia do desenvolvedor"
     details: "Guia de desenvolvimento de software rOpenSci. Trabalho em andamento para português."
+  - url: https://docs.google.com/presentation/d/11OhG74W2Sg2IjZtSjlenc18ExI2IdxZtpZ7JvuSnFSU/edit?usp=sharing
+    name: "Pedro apresentação"
+    details: "apresentação feita na community call"
+  - url: https://github.com/beatrizmilz/blog-en/blob/main/talks/pt/2024-11-05-rOpenSci-traducao-pt/slides.pdf
+    name: "Bea apresentação"
+    details: "apresentação feita na community call"    
 speakers:  
   - name: "Beatriz Milz"
     bio: "[Beatriz Milz](https://beamilz.com/about-pt) é doutora em Ciência Ambiental e atualmente é pesquisadora de pós-doutorado na Universidade Federal do ABC (UFABC), Brasil. Ela é co-organizadora da [R-Ladies São Paulo](https://rladies-sp.org/) e está liderando o tradução voluntária pela comunidade da segunda edição do livro [R for Data Science into Portuguese](https://cienciadedatos.github.io/pt-r4ds/). Beatriz contribuiu para pacotes disponíveis no CRAN, como [dados](https://cienciadedatos.github.io/dados/), [odbr](https://hsvab.github.io/odbr/), e [geobr](https://ipeagit.github.io/geobr/index.html). Como membra da comunidade rOpenSci, ela revisou pacotes como [qualR](https://docs.ropensci.org/qualR/) e [frictionless](https://docs.ropensci.org/frictionless/), foi mentora na primeira turma do [rOpenSci Champions Program](https://ropensci.org/champions/) atua como [editora de revisão de software](https://ropensci.org/blog/2024/07/03/editors2024/)"
