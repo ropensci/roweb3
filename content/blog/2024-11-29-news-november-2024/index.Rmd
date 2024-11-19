@@ -43,6 +43,10 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
+### A fast R-universe!
+
+Thanks to optimized caching, the web front-end pages load much faster, making it even more fun to [browse around the R ecosystem](https://r-universe.dev/search).
+
 ### Yanina Bellini Saibene's keynote talk at CarpentryConnect and BioNT 2024 
 
 In her keynote Yanina Bellini Saibene invited the audience to reflect on how to measure the impact of our work in our communities. 
