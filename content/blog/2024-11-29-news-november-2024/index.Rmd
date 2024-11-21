@@ -54,6 +54,19 @@ She shared two frameworks we use at rOpenSci and severals tool to measure differ
 [Slidedeck](https://yabellini.netlify.app/talk/2024_carpentryconbiont/).
 
 
+###  Tradução + Hackathon = Traslatón rOpenSci
+
+We had a very nice and productive event during LatinR, with people registered from thirteen countries. Some people stayed for the whole event and others participated during some of the working sessions.
+ 
+We discussed the GitHub workflow and the babelquarto and babeldown packages. We also reviewed the translation guidelines and started working on a Portuguese glossary for the translations.
+
+Participants worked reviewing the dev guide. As a result, we now have two more chapters with their first review started, two chapters with the second review under work, and five chapters merged with the complete translation. We also started the translation of our Code of Conduct.  🚀 
+
+We are very grateful to Pedro Faria, Beatriz Milz, Francesca Palmeira, Rafael Fontenelle, Ildeberto Vasconcelos,  Samuel Carleial, and Ariana Cabral for their contribution during the Traslatón 🙏.
+
+ If you want to participate in this collaborative translation effort, please [check our project](https://github.com/orgs/ropensci/projects/7/views/1) and add a comment to the pull request you want to review.
+ 
+     
 ### Coworking
 
 Read [all about coworking](/blog/2023/06/21/coworking/)!
