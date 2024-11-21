@@ -56,11 +56,14 @@ She shared two frameworks we use at rOpenSci and severals tool to measure differ
 
 ###  Tradução + Hackathon = Traslatón rOpenSci
 
-We had a very nice and productive event during LatinR, with people registered from thirteen countries. Some people stayed for the whole event and others participated during some of the working sessions.
+We had a very nice and productive event during [LatinR](/events/latinr-2024/), with people registered from thirteen countries. 
+Some people stayed for the whole event and others participated during some of the working sessions.
  
-We discussed the GitHub workflow and the babelquarto and babeldown packages. We also reviewed the translation guidelines and started working on a Portuguese glossary for the translations.
+We discussed the [GitHub workflow](/blog/2023/09/26/how-to-translate-a-hugo-blog-post-with-babeldown/) and the [babelquarto](https://docs.ropensci.org/babelquarto/) and [babeldown](https://docs.ropensci.org/babeldown/) packages. 
+We also reviewed the [translation guidelines](https://translationguide.ropensci.org/) and started working on a Portuguese glossary for the translations.
 
-Participants worked reviewing the dev guide. As a result, we now have two more chapters with their first review started, two chapters with the second review under work, and five chapters merged with the complete translation. We also started the translation of our Code of Conduct.  🚀 
+Participants worked reviewing the [dev guide](https://devdevguide.netlify.app/pt/index.pt.html). 
+As a result, we now have two more chapters with their first review started, two chapters with the second review under work, and five chapters merged with the complete translation. We also started the translation of our Code of Conduct.  🚀 
 
 We are very grateful to Pedro Faria, Beatriz Milz, Francesca Palmeira, Rafael Fontenelle, Ildeberto Vasconcelos,  Samuel Carleial, and Ariana Cabral for their contribution during the Traslatón 🙏.
 
@@ -632,7 +635,9 @@ Thanks to Hugo Gruson for pointing this out!
 ### An attack vector on GitHub Actions
 
 Thanks to Zhian Kamvar for bringing up the article ["ArtiPACKED: Hacking Giants Through a Race Condition in GitHub Actions Artifacts"](https://unit42.paloaltonetworks.com/github-repo-artifacts-leak-tokens/) in our slack workspace.
-In Zhian's words, TODO.
+In Zhian's words: if you upload an artifact that contains the `.git/` directory of a cloned repo, the `GITHUB_TOKEN` is exposed. 
+While it expires at the end of the run, there is a small delay, which is long enough for a targeted attack. 
+The solution is to set `persist-credentials`: false for every `actions/checkout` run.
 
 ## Last words
 

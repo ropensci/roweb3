@@ -32,6 +32,22 @@ She shared two frameworks we use at rOpenSci and severals tool to measure differ
 [Slidedeck](https://yabellini.netlify.app/talk/2024_carpentryconbiont/).
 
 
+###  Tradução + Hackathon = Traslatón rOpenSci
+
+We had a very nice and productive event during [LatinR](/events/latinr-2024/), with people registered from thirteen countries. 
+Some people stayed for the whole event and others participated during some of the working sessions.
+ 
+We discussed the [GitHub workflow](/blog/2023/09/26/how-to-translate-a-hugo-blog-post-with-babeldown/) and the [babelquarto](https://docs.ropensci.org/babelquarto/) and [babeldown](https://docs.ropensci.org/babeldown/) packages. 
+We also reviewed the [translation guidelines](https://translationguide.ropensci.org/) and started working on a Portuguese glossary for the translations.
+
+Participants worked reviewing the [dev guide](https://devdevguide.netlify.app/pt/index.pt.html). 
+As a result, we now have two more chapters with their first review started, two chapters with the second review under work, and five chapters merged with the complete translation. We also started the translation of our Code of Conduct.  🚀 
+
+We are very grateful to Pedro Faria, Beatriz Milz, Francesca Palmeira, Rafael Fontenelle, Ildeberto Vasconcelos,  Samuel Carleial, and Ariana Cabral for their contribution during the Traslatón 🙏.
+
+ If you want to participate in this collaborative translation effort, please [check our project](https://github.com/orgs/ropensci/projects/7/views/1) and add a comment to the pull request you want to review.
+ 
+     
 ### Coworking
 
 Read [all about coworking](/blog/2023/06/21/coworking/)!
@@ -82,25 +98,25 @@ There are twelve recently closed and active submissions and 7 submissions on hol
 
      * [agromet](https://github.com/ropensci/software-review/issues/599), Índices y Estadísticos Climáticos e Hidrológicos. Submitted by [Paola Corrales](https://paocorrales.github.io). 
 
-* Two at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
+* Three at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
 
-     * [cancerprof](https://github.com/ropensci/software-review/issues/637), API Client for State Cancer Profiles. Submitted by [Brian Park](https://github.com/realbp). 
+     * [rredlist](https://github.com/ropensci/software-review/issues/663), IUCN Red List Client. Submitted by [William Gearty](http://williamgearty.com). 
+
+    * [cancerprof](https://github.com/ropensci/software-review/issues/637), API Client for State Cancer Profiles. Submitted by [Brian Park](https://github.com/realbp). 
 
     * [gigs](https://github.com/ropensci/software-review/issues/626), Assess Fetal, Newborn, and Child Growth with International Standards. Submitted by [Simon Parker](https://github.com/simpar1471).  (Stats).
 
 * Three at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 
-     * [rredlist](https://github.com/ropensci/software-review/issues/663), IUCN Red List Client. Submitted by [William Gearty](http://williamgearty.com). 
+     * [mbquartR](https://github.com/ropensci/software-review/issues/658), Finding Manitoba Quarter Sections. Submitted by [Alex Koiter](http://www.alexkoiter.ca). 
 
     * [sits](https://github.com/ropensci/software-review/issues/596), Satellite Image Time Series Analysis for Earth Observation Data Cubes. Submitted by [Gilberto Camara](https://www.gilbertocamara.org). 
 
     * [fwildclusterboot](https://github.com/ropensci/software-review/issues/546), Fast Wild Cluster Bootstrap Inference for Linear Models. Submitted by [Alexander Fischer](https://s3alfisc.github.io/blog/).  (Stats).
 
-* Five at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
+* Four at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
      * [fireexposuR](https://github.com/ropensci/software-review/issues/659), Compute and Visualize Wildfire Exposure. Submitted by [Air Forbes](https://wildfireanalytics.org/forbes.html). 
-
-    * [mbquartR](https://github.com/ropensci/software-review/issues/658), Finding Manitoba Quarter Sections. Submitted by [Alex Koiter](http://www.alexkoiter.ca). 
 
     * [QuadratiK](https://github.com/ropensci/software-review/issues/632), A Collection of Methods Using Kernel-Based Quadratic Distances for. Submitted by [Giovanni Saraceno](https://github.com/giovsaraceno).  (Stats).
 
@@ -185,7 +201,9 @@ Thanks to Hugo Gruson for pointing this out!
 ### An attack vector on GitHub Actions
 
 Thanks to Zhian Kamvar for bringing up the article ["ArtiPACKED: Hacking Giants Through a Race Condition in GitHub Actions Artifacts"](https://unit42.paloaltonetworks.com/github-repo-artifacts-leak-tokens/) in our slack workspace.
-In Zhian's words, TODO.
+In Zhian's words: if you upload an artifact that contains the `.git/` directory of a cloned repo, the `GITHUB_TOKEN` is exposed. 
+While it expires at the end of the run, there is a small delay, which is long enough for a targeted attack. 
+The solution is to set `persist-credentials`: false for every `actions/checkout` run.
 
 ## Last words
 
