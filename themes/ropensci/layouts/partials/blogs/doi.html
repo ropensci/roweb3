@@ -1,5 +1,5 @@
 {{ $url := (printf "https://ropensci.org%s" .RelPermalink ) }}
-{{ $apiurl := (printf "https://beta.rogue-scholar.org/api/records?q=metadata.identifiers.identifier:'%s'" $url) | replaceRE "'" "%22" }}
+{{ $apiurl := (printf "https://rogue-scholar.org/api/records?q=metadata.identifiers.identifier:'%s'" $url) | replaceRE "'" "%22" }}
 {{ $roguescholar := (resources.GetRemote $apiurl) | unmarshal }}
 {{ $doi := "" }}
 
