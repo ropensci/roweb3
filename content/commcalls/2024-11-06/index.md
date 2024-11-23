@@ -22,10 +22,10 @@ vimeo:
  - id: '1032279338'
 resources:
   - url:  https://github.com/orgs/ropensci/projects/7/views/1
-    name:  "Tradução Português- Guia do programador"
+    name:  "Projeto - Tradução Português- Guia do programador"
     details: "Projeto de tradução do guia de desenvolvimento de software rOpenSci para português."
   - url: https://devdevguide.netlify.app/pt/index.pt
-    name: "Tradução Português- Guia do desenvolvedor"
+    name: "Tradução Português- Guia do programador"
     details: "Guia de desenvolvimento de software rOpenSci. Trabalho em andamento para português."
   - url: https://docs.google.com/presentation/d/11OhG74W2Sg2IjZtSjlenc18ExI2IdxZtpZ7JvuSnFSU/edit?usp=sharing
     name: "Pedro apresentação"
