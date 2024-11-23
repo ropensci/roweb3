@@ -29,10 +29,10 @@ resources:
     details: "Guia de desenvolvimento de software rOpenSci. Trabalho em andamento para português."
   - url: https://docs.google.com/presentation/d/11OhG74W2Sg2IjZtSjlenc18ExI2IdxZtpZ7JvuSnFSU/edit?usp=sharing
     name: "Pedro apresentação"
-    details: "apresentação feita na community call"
+    details: "Apresentação feita na community call"
   - url: https://github.com/beatrizmilz/blog-en/blob/main/talks/pt/2024-11-05-rOpenSci-traducao-pt/slides.pdf
     name: "Bea apresentação"
-    details: "apresentação feita na community call"
+    details: "Apresentação feita na community call"
   - url: https://translationguide.ropensci.org/
     name: "Guidelines do projeto de tradução"
 speakers:  
