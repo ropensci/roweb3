@@ -18,8 +18,8 @@ notes: https://docs.google.com/document/d/1Te2vmdVvatLlNRk18sJkvQwYtfamJfK0mlw87
 outputs:
 - HTML
 - Calendar 
-# vimeo:
-# - id: '888160235'
+vimeo:
+ - id: '1032279338'
 resources:
   - url:  https://github.com/orgs/ropensci/projects/7/views/1
     name:  "Tradução Português- Guia do programador"
