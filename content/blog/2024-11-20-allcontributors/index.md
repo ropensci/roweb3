@@ -38,7 +38,7 @@ It nevertheless has two disadvantages:
 1. it requires you to remember to acknowledge contributions through commit comments, with an encouragement to comment as close as possible to the time of the contribution.
   If you forget, you can comment at some later time, but it will then be more difficult to connect that acknowledgement with the contribution.
   If you forget entirely, the contribution will never be acknowledged.
-  It is up to the software maintainers to actively remember to acknowledge contributions, a task which can [sometimes be quite a burden](https://ropensci.org/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/)!
+  It is up to the software maintainers to actively remember to acknowledge contributions, a task which can [sometimes be quite a burden](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/)!
 2. Acknowledgements are packed together in a single "Contributors" section, with little ability to customize the appearance, and no ability to link contributors to their actual contributions.
 
 ## The allcontributors R package
