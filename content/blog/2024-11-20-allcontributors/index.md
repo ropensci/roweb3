@@ -32,7 +32,7 @@ Acknowledgement happens through commit comments, which generally follow the form
 
 where "\<contributions\>" can be one of a large variety of [contribution types](https://allcontributors.org/docs/en/emoji-key), such as "code", "doc", or any one of 33 currently recognized contribution types.
 
-This system is great, it is widely used, and we encourage anybody to please use it!
+This system is great, it is widely used, and we encourage everybody to please use it!
 It nevertheless has two disadvantages:
 
 1. it requires you to remember to acknowledge contributions through commit comments, with an encouragement to comment as close as possible to the time of the contribution.
