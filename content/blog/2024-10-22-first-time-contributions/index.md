@@ -74,7 +74,7 @@ we have funding[^3] to offer a stipend to maintainers who participate.
 
 [^3]: Thanks to a [NumFocus Small Development Grant](https://numfocus.org/programs/small-development-grants) 🎉
 
-To participate, we ask that maintainers fill out the application form (below) by **Dec 9th, 2024~~Nov 24th, 2024~~**[^4].
+To participate, we ask that maintainers fill out the application form (below) by **Dec 9th, 2024 ~~Nov 24th, 2024~~**[^4].
 
 [^4]: As we won't have room for more than about 10 maintainers, we may need to select from among the applications, depending how many we receive.
 
