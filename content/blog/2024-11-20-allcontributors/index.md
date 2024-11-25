@@ -1,6 +1,6 @@
 ---
 slug: allcontributors
-title: Give thanks with the allcontributors package
+title: Give Thanks with the allcontributors Package
 author:
   - Mark Padgham
 editor:
