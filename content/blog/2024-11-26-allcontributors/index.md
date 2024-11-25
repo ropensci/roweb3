@@ -4,8 +4,9 @@ title: Give Thanks with the allcontributors Package
 author:
   - Mark Padgham
 editor:
-  - <editor here>
-date: "2024-11-20"
+  - Steffi LaZerte
+  - Maëlle Salmon
+date: "2024-11-26"
 tags:
   - tech-notes
   - github
