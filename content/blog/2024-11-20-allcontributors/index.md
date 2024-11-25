@@ -65,7 +65,7 @@ Regardless of how you update your lists, and no matter how long after the contri
 ### Contributors are linked directly to their contributions
 
 By restricting acknowledgement to git and GitHub, the [allcontributors package](https://docs.ropensci.org/allcontributors/) can link each acknowledged contributor directly to a GitHub link of their contributions.
-See, for example, the [README of this package](https://github.com/ropensci/allcontributors/?tab=readme-ov-file#contributors), where clicking on the image of any contributor leads to their profile, while clicking on their handles below the images leads to their actual contributions. (The [allcontributors.org](https:allcontributors.org) system, in contrasts, only provides links to contributors GitHub profiles, but not to their actual contributions.)
+See, for example, the [README of this package](https://github.com/ropensci/allcontributors/?tab=readme-ov-file#contributors), where clicking on the image of any contributor leads to their profile, while clicking on their handles below the images leads to their actual contributions. (The [allcontributors.org](https://allcontributors.org) system, in contrasts, only provides links to contributors GitHub profiles, but not to their actual contributions.)
 
 ### You can organise your contributions the way you like
 
