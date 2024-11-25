@@ -1,18 +1,20 @@
-+++
-date = "2017-07-13T22:00:37-07:00"
-title = "The R-universe platform"
-description = "The R-universe platform for improving publication and discovery of research software in R."
-tags = ["r-universe"]
-+++
+\+++
+fecha = "2017-07-13T22:00:37-07:00"
+title = "La plataforma R-universo"
+description = "La plataforma R-universe para mejorar la publicación y el descubrimiento de software de investigación en R."
+ tags = ["r-universo]
+\+++
 
-[R-universe](https://r-universe.dev/) is rOpenSci's platform for improving publication and discovery of research software in R.
+[Universo R](https://r-universe.dev/) es la plataforma de rOpenSci para mejorar la publicación y el descubrimiento de software de investigación en R.
 
-R-universe allows users and developers of R packages to...
+R-universe permite a los usuarios y desarrolladores de paquetes R...
 
-* **Discover**: R-universe provides a searchable catalogue for R software, articles, datasets, anywhere in the ecosystem. That catalogue is indexed and ranked using R specific features.
+- **Descubre**: R-universe proporciona un catálogo de búsqueda de software R, artículos, conjuntos de datos, en cualquier lugar del ecosistema. Ese catálogo está indexado y clasificado utilizando características específicas de R.
 
-* **Learn**: R-universe serves rendered material and extensive background information to learn about a package and get started using it.
+- **Aprende**: R-universe sirve material renderizado y amplia información de fondo para aprender sobre un paquete y empezar a utilizarlo.
 
-* **Publish**: R-universe is an open platform for running personal cran-like package repositories to make your work visible and accessible to a big audience, with or without CRAN.
+- **Publica**: R-universe es una plataforma abierta para ejecutar repositorios personales de paquetes similares a CRAN, para que tu trabajo sea visible y accesible a un gran público, con o sin CRAN.
 
-* **Develop**: R-universe provides a zero config development environment for continuous integration (identify upcoming breakage before the release), experimental R features, new platforms such as WebAssembly, etc.
+- **Desarrolla**: R-universe proporciona un entorno de desarrollo de configuración cero para la integración continua (identificar próximas roturas antes de la publicación), funciones experimentales de R, nuevas plataformas como WebAssembly, etc.
+
+
