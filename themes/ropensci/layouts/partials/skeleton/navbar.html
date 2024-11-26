@@ -40,10 +40,24 @@
         </li>
 
         <li class="nav-item drp">
-          <a class="nav-link" lang="en" href="/about/">Projects</a>
+          <a class="nav-link" lang="en" href="/about/">{{ i18n "Projects" }}</a>
           <ul class="sub-menu">
+            {{ $currentlang := .Language }}
+            {{ $defaultlang := "en" }}
             {{ range $index, $page := ( where (where .Site.AllPages "Kind" "section") "Type" "in" .Site.Params.projects ) }}
-            <li><a lang="en" href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></li>
+            {{ if (eq $page.Language $currentlang) }}
+            <li><a lang="{{ $currentlang }}" href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></li>
+            {{ else }} 
+            {{ $placeholder := 0 }}
+            {{ range $page.AllTranslations }}
+            {{ if (eq .Lang $currentlang.Lang )}}
+            {{ $placeholder = 1 }}
+            {{ end }}
+            {{ end }}
+                {{ if (eq $placeholder 0) }}
+              <li><a lang="{{ $defaultlang }}" href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></li>
+                {{ end }}
+            {{ end }}
             {{ end }}
           </ul>
         </li>
