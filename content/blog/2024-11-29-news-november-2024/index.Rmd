@@ -69,6 +69,12 @@ We are very grateful to Pedro Faria, Beatriz Milz, Francesca Palmeira, Rafael Fo
 
  If you want to participate in this collaborative translation effort, please [check our project](https://github.com/orgs/ropensci/projects/7/views/1) and add a comment to the pull request you want to review.
  
+ ## Community Call "A comunidade R fala português" Resources
+ 
+ All the [resources for our first community call in português](/commcalls/translation-portuguese/) are now available on our website.
+ 
+ Check the video, speakers slides, and links to other resources related to translation efforts in the R Community.
+  
      
 ### Coworking
 
