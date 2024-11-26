@@ -91,6 +91,10 @@ Consult our [Events](/events) page to find your local time and how to join.
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
+### allcontributors Blog Post
+
+Mark Padgham published a [blog post](/blog/2024/11/26/allcontributors/) about his [allcontributors package](https://docs.ropensci.org/allcontributors/), which provides a very easy way to acknowledge all contributions to your software.
+
 ## Software :package:
 
 ### New packages
