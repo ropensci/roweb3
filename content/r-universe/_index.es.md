@@ -1,9 +1,9 @@
-\+++
++++
 fecha = "2017-07-13T22:00:37-07:00"
 title = "La plataforma R-Universe"
 description = "La plataforma R-Universe para mejorar la publicación y el descubrimiento de software de investigación en R."
- tags = ["r-universe]
-\+++
+tags = ["r-universe"]
++++
 
 [R-Universe](https://r-universe.dev/) es la plataforma de rOpenSci para mejorar la publicación y el descubrimiento de software de investigación en R.
 
