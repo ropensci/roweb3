@@ -45,3 +45,9 @@
   
 [Projects]
   other = 'Projects'
+  
+[Blog]
+  other = 'Blog'
+  
+[Tech-Notes]
+  other = 'Tech Notes'
