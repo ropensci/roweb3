@@ -42,8 +42,16 @@ You can read this post [on our blog](`r url`).
 Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
+### Looking for Maintainers to Support First-Time Contributors
 
-### A fast R-universe!
+**Now open to non-rOpenSci package maintainers!**
+
+Making your first contribution to Open Source can be both empowering and intimidating. As such, we’re exited to announce a special series of activities to support first-time contributors! 🎉
+
+Are you an package maintainer who would like to help someone make their first contribution? We limited our initial call to rOpenSci package maintainers, but we still have some room, so have decided to open this up to all package maintainers!
+
+See our [blog post](/blog/2024/10/22/first-time-contributions/) for more details and how to sign up (by December 9th).
+### A fast R-Universe!
 
 Thanks to optimized caching, the web front-end pages load much faster, making it even more fun to [browse around the R ecosystem](https://r-universe.dev/search).
 
@@ -62,12 +70,12 @@ Some people stayed for the whole event and others participated during some of th
 We discussed the [GitHub workflow](/blog/2023/09/26/how-to-translate-a-hugo-blog-post-with-babeldown/) and the [babelquarto](https://docs.ropensci.org/babelquarto/) and [babeldown](https://docs.ropensci.org/babeldown/) packages. 
 We also reviewed the [translation guidelines](https://translationguide.ropensci.org/) and started working on a Portuguese glossary for the translations.
 
-Participants worked reviewing the [dev guide](https://devdevguide.netlify.app/pt/index.pt.html). 
+Participants worked on reviewing the rOpenSci [dev guide](https://devdevguide.netlify.app/pt/index.pt.html). 
 As a result, we now have two more chapters with their first review started, two chapters with the second review under work, and five chapters merged with the complete translation. We also started the translation of our Code of Conduct.  🚀 
 
-We are very grateful to Pedro Faria, Beatriz Milz, Francesca Palmeira, Rafael Fontenelle, Ildeberto Vasconcelos,  Samuel Carleial, and Ariana Cabral for their contribution during the Traslatón 🙏.
+We are very grateful to Pedro Faria, Beatriz Milz, Francesca Palmeira, Rafael Fontenelle, Ildeberto Vasconcelos,  Samuel Carleial, and Ariana Cabral for their contributions during the Traslatón 🙏.
 
- If you want to participate in this collaborative translation effort, please [check our project](https://github.com/orgs/ropensci/projects/7/views/1) and add a comment to the pull request you want to review.
+ If you want to participate in this collaborative translation effort, please [check out our project](https://github.com/orgs/ropensci/projects/7/views/1) and add a comment to the pull request you would like to review.
  
  ## Community Call "A comunidade R fala português" Resources
  
@@ -78,9 +86,7 @@ We are very grateful to Pedro Faria, Beatriz Milz, Francesca Palmeira, Rafael Fo
      
 ### Coworking
 
-Read [all about coworking](/blog/2023/06/21/coworking/)!
-
-Join us for social coworking & office hours monthly on first Tuesdays! 
+Join us for [social coworking & office hours](/blog/2023/06/21/coworking/) monthly on first Tuesdays! 
 Hosted by Steffi LaZerte and various community hosts. 
 Everyone welcome. 
 No RSVP needed. 
@@ -90,7 +96,7 @@ Consult our [Events](/events) page to find your local time and how to join.
     - [Explore rOpenSci R packages](/blog/2018/11/13/antarctic/#demo) supporting Antarctic and Southern Ocean Research.
     - Chat with our cohosts to find out how you can be involved in this community.
     
-- [Tuesday, January 14th 14:00 European Central (13:00 UTC)](/events/coworking-2025-01/), "Working with Parquet in R" with cohosts [Rainer M Krug](/author/rainer-m-krug/), and [Steffi LaZerte](/author/steffi-lazerte).
+- [Tuesday, January 14th, 14:00 European Central (13:00 UTC)](/events/coworking-2025-01/), "Working with Parquet in R" with cohosts [Rainer M Krug](/author/rainer-m-krug/), and [Steffi LaZerte](/author/steffi-lazerte).
     - Read up on what Parquet is.
     - Explore how to use Parquet in R.
     - Meet community host, Rainer Krug, and discuss benefits and tips for using Parquet in R and how you might use it in your work.
