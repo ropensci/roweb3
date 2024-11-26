@@ -1,10 +1,11 @@
-+++
-title = "Community Calls"
-+++
+\+++
+title = "Llamadas comunitarias"
+\+++
 
-Join us in our quarterly Community Calls to hear about best practices, new projects, Q&As with well known developers, and to learn more about rOpenSci developments. These are free and open for anyone to attend and provide an opportunity to connect with rOpenSci community members around the world
+Únete a nosotros en nuestras Llamadas a la Comunidad trimestrales para enterarte de las mejores prácticas, nuevos proyectos, preguntas y respuestas con desarrolladores conocidos, y para saber más sobre los desarrollos de rOpenSci. Son gratuitas y abiertas a la participación de cualquiera, y brindan la oportunidad de conectar con miembros de la comunidad rOpenSci de todo el mundo.
 
-We aim to leave at least 20 minutes for open Q&A and we use collaborative note-taking allowing participants share ideas or resources and to ask questions. All past calls were recorded and are available online.
+Nuestro objetivo es dejar al menos 20 minutos para preguntas y respuestas abiertas, y utilizamos la toma de notas colaborativa, lo que permite a los participantes compartir ideas o recursos y hacer preguntas. Todas las convocatorias anteriores se grabaron y están disponibles en línea.
 
-Have an idea for a Community Call topic? Tell us what you'd like to hear about or tell us a topic you're keen to speak about in our [public ideas repository](https://github.com/ropensci-org/community-calls).
+¿Tienes una idea para un tema de la Llamada Comunitaria? Cuéntanos de qué te gustaría oír hablar o dinos un tema sobre el que te gustaría hablar en nuestra [repositorio público de ideas](https://github.com/ropensci-org/community-calls).
+
 
