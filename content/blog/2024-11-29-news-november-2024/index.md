@@ -20,8 +20,16 @@ You can read this post [on our blog](/blog/2024/11/29/news-november-2024).
 Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
+### Looking for Maintainers to Support First-Time Contributors
 
-### A fast R-universe!
+**Now open to non-rOpenSci package maintainers!**
+
+Making your first contribution to Open Source can be both empowering and intimidating. As such, we’re exited to announce a special series of activities to support first-time contributors! 🎉
+
+Are you an package maintainer who would like to help someone make their first contribution? We limited our initial call to rOpenSci package maintainers, but we still have some room, so have decided to open this up to all package maintainers!
+
+See our [blog post](/blog/2024/10/22/first-time-contributions/) for more details and how to sign up (by December 9th).
+### A fast R-Universe!
 
 Thanks to optimized caching, the web front-end pages load much faster, making it even more fun to [browse around the R ecosystem](https://r-universe.dev/search).
 
@@ -40,19 +48,27 @@ Some people stayed for the whole event and others participated during some of th
 We discussed the [GitHub workflow](/blog/2023/09/26/how-to-translate-a-hugo-blog-post-with-babeldown/) and the [babelquarto](https://docs.ropensci.org/babelquarto/) and [babeldown](https://docs.ropensci.org/babeldown/) packages. 
 We also reviewed the [translation guidelines](https://translationguide.ropensci.org/) and started working on a Portuguese glossary for the translations.
 
-Participants worked reviewing the [dev guide](https://devdevguide.netlify.app/pt/index.pt.html). 
+Participants worked on reviewing the rOpenSci [dev guide](https://devdevguide.netlify.app/pt/index.pt.html). 
 As a result, we now have two more chapters with their first review started, two chapters with the second review under work, and five chapters merged with the complete translation. We also started the translation of our Code of Conduct.  🚀 
 
-We are very grateful to Pedro Faria, Beatriz Milz, Francesca Palmeira, Rafael Fontenelle, Ildeberto Vasconcelos,  Samuel Carleial, and Ariana Cabral for their contribution during the Traslatón 🙏.
+We are very grateful to Pedro Faria, Beatriz Milz, Francesca Palmeira, Rafael Fontenelle, Ildeberto Vasconcelos,  Samuel Carleial, and Ariana Cabral for their contributions during the Traslatón 🙏.
 
- If you want to participate in this collaborative translation effort, please [check our project](https://github.com/orgs/ropensci/projects/7/views/1) and add a comment to the pull request you want to review.
+ If you want to participate in this collaborative translation effort, please [check out our project](https://github.com/orgs/ropensci/projects/7/views/1) and add a comment to the pull request you would like to review.
  
+## Community Call "A comunidade R fala português" Resources
+ 
+ All the [resources for our first community call in português](/commcalls/translation-portuguese/) are now available on our website.
+ 
+ Check the video, speakers slides, and links to other resources related to translation efforts in the R Community.
+
+### Give Thanks with the allcontributors Package
+
+Mark Padgham published a [blog post](/blog/2024/11/26/allcontributors/) about his [allcontributors package](https://docs.ropensci.org/allcontributors/), which provides a very easy way to acknowledge all contributions to your software.
+  
      
 ### Coworking
 
-Read [all about coworking](/blog/2023/06/21/coworking/)!
-
-Join us for social coworking & office hours monthly on first Tuesdays! 
+Join us for [social coworking & office hours](/blog/2023/06/21/coworking/) monthly on first Tuesdays! 
 Hosted by Steffi LaZerte and various community hosts. 
 Everyone welcome. 
 No RSVP needed. 
@@ -62,7 +78,7 @@ Consult our [Events](/events) page to find your local time and how to join.
     - [Explore rOpenSci R packages](/blog/2018/11/13/antarctic/#demo) supporting Antarctic and Southern Ocean Research.
     - Chat with our cohosts to find out how you can be involved in this community.
     
-- [Tuesday, January 14th 14:00 European Central (13:00 UTC)](/events/coworking-2025-01/), "Working with Parquet in R" with cohosts [Rainer M Krug](/author/rainer-m-krug/), and [Steffi LaZerte](/author/steffi-lazerte).
+- [Tuesday, January 14th, 14:00 European Central (13:00 UTC)](/events/coworking-2025-01/), "Working with Parquet in R" with cohosts [Rainer M Krug](/author/rainer-m-krug/), and [Steffi LaZerte](/author/steffi-lazerte).
     - Read up on what Parquet is.
     - Explore how to use Parquet in R.
     - Meet community host, Rainer Krug, and discuss benefits and tips for using Parquet in R and how you might use it in your work.
@@ -87,8 +103,8 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following twenty packages have had an update since the last newsletter: [rsi](https://docs.ropensci.org/rsi "Efficiently Retrieve and Process Satellite Imagery") ([`v0.3.1`](https://github.com/Permian-Global-Research/rsi/releases/tag/v0.3.1)), [allcontributors](https://docs.ropensci.org/allcontributors "Acknowledge all Contributors to a Project") ([`v0.2.2`](https://github.com/ropensci/allcontributors/releases/tag/v0.2.2)), [av](https://docs.ropensci.org/av "Working with Audio and Video in R") ([`v0.9.3`](https://github.com/ropensci/av/releases/tag/v0.9.3)), [comtradr](https://docs.ropensci.org/comtradr "Interface with the United Nations Comtrade API") ([`v1.0.3`](https://github.com/ropensci/comtradr/releases/tag/v1.0.3)), [FedData](https://docs.ropensci.org/FedData "Download Geospatial Data Available from
-    Several Federated Data Sources") ([`v4.1.0`](https://github.com/ropensci/FedData/releases/tag/v4.1.0)), [gitignore](https://docs.ropensci.org/gitignore "Create Useful .gitignore Files for your Project") ([`v0.1.8.9000`](https://github.com/ropensci/gitignore/releases/tag/v0.1.8.9000)), [GLMMcosinor](https://docs.ropensci.org/GLMMcosinor "Fit a Cosinor Model Using a Generalized Mixed Modeling Framework") ([`v0.2.1`](https://github.com/ropensci/GLMMcosinor/releases/tag/v0.2.1)), [jagstargets](https://docs.ropensci.org/jagstargets "Targets for JAGS Pipelines") ([`1.2.2`](https://github.com/ropensci/jagstargets/releases/tag/1.2.2)), [lingtypology](https://docs.ropensci.org/lingtypology "Linguistic Typology and Mapping") ([`v1.1.20v1`](https://github.com/ropensci/lingtypology/releases/tag/v1.1.20v1)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.11.0`](https://github.com/ropensci/nodbi/releases/tag/v0.11.0)), [occCite](https://docs.ropensci.org/occCite "Querying and Managing Large Biodiversity Occurrence Datasets") ([`v0.5.9`](https://github.com/ropensci/occCite/releases/tag/v0.5.9)), [osmapiR](https://docs.ropensci.org/osmapiR "OpenStreetMap API") ([`v0.2.2`](https://github.com/ropensci/osmapiR/releases/tag/v0.2.2)), [readODS](https://docs.ropensci.org/readODS "Read and Write ODS Files") ([`v2.3.1`](https://github.com/ropensci/readODS/releases/tag/v2.3.1)), [ruODK](https://docs.ropensci.org/ruODK "An R Client for the ODK Central API") ([`v1.5.1`](https://github.com/ropensci/ruODK/releases/tag/v1.5.1)), [spatsoc](https://docs.ropensci.org/spatsoc "Group Animal Relocation Data by Spatial and Temporal Relationship") ([`v0.2.7`](https://github.com/ropensci/spatsoc/releases/tag/v0.2.7)), [stats19](https://docs.ropensci.org/stats19 "Work with Open Road Traffic Casualty Data from Great Britain") ([`v3.2.0`](https://github.com/ropensci/stats19/releases/tag/v3.2.0)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.11.0`](https://github.com/ropensci/tarchetypes/releases/tag/0.11.0)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.9.0`](https://github.com/ropensci/targets/releases/tag/1.9.0)), [UCSCXenaTools](https://docs.ropensci.org/UCSCXenaTools "Download and Explore Datasets from UCSC Xena Data Hubs") ([`v1.6.0`](https://github.com/ropensci/UCSCXenaTools/releases/tag/v1.6.0)), and [weathercan](https://docs.ropensci.org/weathercan "Download Weather Data from Environment and Climate Change Canada") ([`v0.7.2`](https://github.com/ropensci/weathercan/releases/tag/v0.7.2)).
+The following twenty-one packages have had an update since the last newsletter: [rsi](https://docs.ropensci.org/rsi "Efficiently Retrieve and Process Satellite Imagery") ([`v0.3.1`](https://github.com/Permian-Global-Research/rsi/releases/tag/v0.3.1)), [allcontributors](https://docs.ropensci.org/allcontributors "Acknowledge all Contributors to a Project") ([`v0.2.2`](https://github.com/ropensci/allcontributors/releases/tag/v0.2.2)), [av](https://docs.ropensci.org/av "Working with Audio and Video in R") ([`v0.9.3`](https://github.com/ropensci/av/releases/tag/v0.9.3)), [comtradr](https://docs.ropensci.org/comtradr "Interface with the United Nations Comtrade API") ([`v1.0.3`](https://github.com/ropensci/comtradr/releases/tag/v1.0.3)), [FedData](https://docs.ropensci.org/FedData "Download Geospatial Data Available from
+    Several Federated Data Sources") ([`v4.1.0`](https://github.com/ropensci/FedData/releases/tag/v4.1.0)), [gitignore](https://docs.ropensci.org/gitignore "Create Useful .gitignore Files for your Project") ([`v0.1.8.9000`](https://github.com/ropensci/gitignore/releases/tag/v0.1.8.9000)), [GLMMcosinor](https://docs.ropensci.org/GLMMcosinor "Fit a Cosinor Model Using a Generalized Mixed Modeling Framework") ([`v0.2.1`](https://github.com/ropensci/GLMMcosinor/releases/tag/v0.2.1)), [jagstargets](https://docs.ropensci.org/jagstargets "Targets for JAGS Pipelines") ([`1.2.2`](https://github.com/ropensci/jagstargets/releases/tag/1.2.2)), [lingtypology](https://docs.ropensci.org/lingtypology "Linguistic Typology and Mapping") ([`v1.1.20v1`](https://github.com/ropensci/lingtypology/releases/tag/v1.1.20v1)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.11.0`](https://github.com/ropensci/nodbi/releases/tag/v0.11.0)), [occCite](https://docs.ropensci.org/occCite "Querying and Managing Large Biodiversity Occurrence Datasets") ([`v0.5.9`](https://github.com/ropensci/occCite/releases/tag/v0.5.9)), [osmapiR](https://docs.ropensci.org/osmapiR "OpenStreetMap API") ([`v0.2.2`](https://github.com/ropensci/osmapiR/releases/tag/v0.2.2)), [osmextract](https://docs.ropensci.org/osmextract "Download and Import Open Street Map Data Extracts") ([`v0.5.2`](https://github.com/ropensci/osmextract/releases/tag/v0.5.2)), [readODS](https://docs.ropensci.org/readODS "Read and Write ODS Files") ([`v2.3.1`](https://github.com/ropensci/readODS/releases/tag/v2.3.1)), [ruODK](https://docs.ropensci.org/ruODK "An R Client for the ODK Central API") ([`v1.5.1`](https://github.com/ropensci/ruODK/releases/tag/v1.5.1)), [spatsoc](https://docs.ropensci.org/spatsoc "Group Animal Relocation Data by Spatial and Temporal Relationship") ([`v0.2.7`](https://github.com/ropensci/spatsoc/releases/tag/v0.2.7)), [stats19](https://docs.ropensci.org/stats19 "Work with Open Road Traffic Casualty Data from Great Britain") ([`v3.2.0`](https://github.com/ropensci/stats19/releases/tag/v3.2.0)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.11.0`](https://github.com/ropensci/tarchetypes/releases/tag/0.11.0)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.9.0`](https://github.com/ropensci/targets/releases/tag/1.9.0)), [UCSCXenaTools](https://docs.ropensci.org/UCSCXenaTools "Download and Explore Datasets from UCSC Xena Data Hubs") ([`v1.6.0`](https://github.com/ropensci/UCSCXenaTools/releases/tag/v1.6.0)), and [weathercan](https://docs.ropensci.org/weathercan "Download Weather Data from Environment and Climate Change Canada") ([`v0.7.2`](https://github.com/ropensci/weathercan/releases/tag/v0.7.2)).
 
 ## Software Peer Review
 
@@ -98,9 +114,11 @@ There are twelve recently closed and active submissions and 7 submissions on hol
 
      * [agromet](https://github.com/ropensci/software-review/issues/599), Índices y Estadísticos Climáticos e Hidrológicos. Submitted by [Paola Corrales](https://paocorrales.github.io). 
 
-* Three at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
+* Four at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
 
      * [rredlist](https://github.com/ropensci/software-review/issues/663), IUCN Red List Client. Submitted by [William Gearty](http://williamgearty.com). 
+
+    * [fireexposuR](https://github.com/ropensci/software-review/issues/659), Compute and Visualize Wildfire Exposure. Submitted by [Air Forbes](https://wildfireanalytics.org/forbes.html). 
 
     * [cancerprof](https://github.com/ropensci/software-review/issues/637), API Client for State Cancer Profiles. Submitted by [Brian Park](https://github.com/realbp). 
 
@@ -114,19 +132,17 @@ There are twelve recently closed and active submissions and 7 submissions on hol
 
     * [fwildclusterboot](https://github.com/ropensci/software-review/issues/546), Fast Wild Cluster Bootstrap Inference for Linear Models. Submitted by [Alexander Fischer](https://s3alfisc.github.io/blog/).  (Stats).
 
-* Four at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
+* Two at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
 
-     * [fireexposuR](https://github.com/ropensci/software-review/issues/659), Compute and Visualize Wildfire Exposure. Submitted by [Air Forbes](https://wildfireanalytics.org/forbes.html). 
-
-    * [QuadratiK](https://github.com/ropensci/software-review/issues/632), A Collection of Methods Using Kernel-Based Quadratic Distances for. Submitted by [Giovanni Saraceno](https://github.com/giovsaraceno).  (Stats).
+     * [QuadratiK](https://github.com/ropensci/software-review/issues/632), A Collection of Methods Using Kernel-Based Quadratic Distances for. Submitted by [Giovanni Saraceno](https://github.com/giovsaraceno).  (Stats).
 
     * [galamm](https://github.com/ropensci/software-review/issues/615), Generalized Additive Latent and Mixed Models. Submitted by [Øystein Sørensen](https://osorensen.rbind.io).  (Stats).
 
-    * [fireexposuR](https://github.com/ropensci/software-review/issues/659), Compute and Visualize Wildfire Exposure. Submitted by [Air Forbes](https://wildfireanalytics.org/forbes.html). 
+* Two at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
 
-* One at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
+     * [pkgmatch](https://github.com/ropensci/software-review/issues/671), Find R Packages Matching Either Descriptions or Other R Packages. Submitted by [mark padgham](https://mpadge.github.io). 
 
-     * [forcis](https://github.com/ropensci/software-review/issues/660), An R Client to Access the FORCIS Database. Submitted by [Nicolas Casajus](https://nicolascasajus.fr). 
+    * [forcis](https://github.com/ropensci/software-review/issues/660), An R Client to Access the FORCIS Database. Submitted by [Nicolas Casajus](https://nicolascasajus.fr). 
 
 Find out more about [Software Peer Review](/software-review) and how to get involved.
 
@@ -143,8 +159,6 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 ### Calls for maintainers
 
 If you're interested in maintaining any of the R packages below, you might enjoy reading our blog post [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/).
-
-* [clifro](https://docs.ropensci.org/clifro/), Enhancing the National Climate Database with clifro. [Issue for volunteering](https://github.com/ropensci/clifro/issues/36).
 
 * [hddtools](https://docs.ropensci.org/hddtools/), Hydrological Data Discovery Tools. [Issue for volunteering](https://github.com/ropensci/hddtools/issues/36).
 
