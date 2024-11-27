@@ -646,6 +646,16 @@ Also relevant, this chapter of the HTTP testing in R book: [CRAN- (and Bioconduc
 If you were still using version 3 of the Artifacts action, upgrade as your workflows will start [failing](https://github.blog/changelog/2024-04-16-deprecation-notice-v3-of-the-artifact-actions/).
 Thanks to Hugo Gruson for pointing this out!
 
+Github provides the [dependabot service](https://docs.github.com/en/code-security/dependabot/working-with-dependabot/keeping-your-actions-up-to-date-with-dependabot) that can help you keep actions updated hassle free! Just add the following simple yaml file as `.github/dependabot.yml` in your repo and a friendly bot will open PRs to keep you workflows up to date!
+```{verbatim, lang = "yaml"}
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 10
+```
 ### An attack vector on GitHub Actions
 
 Thanks to Zhian Kamvar for bringing up the article ["ArtiPACKED: Hacking Giants Through a Race Condition in GitHub Actions Artifacts"](https://unit42.paloaltonetworks.com/github-repo-artifacts-leak-tokens/) in our slack workspace.
