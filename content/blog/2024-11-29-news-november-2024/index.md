@@ -174,6 +174,8 @@ If you're interested in maintaining any of the R packages below, you might enjoy
 
 Refer to our [help wanted page](/help-wanted/) -- before opening a PR, we recommend asking in the issue whether help is still needed.
 
+The bib2f package, for parsing BibTeX files into tibbles, would need some help! [Issue for volunteering](https://github.com/ropensci/bib2df/issues/65).
+
 ## Package development corner
 
 Some useful tips for R package developers. :eyes:
@@ -211,6 +213,9 @@ Also relevant, this chapter of the HTTP testing in R book: [CRAN- (and Bioconduc
 
 If you were still using version 3 of the Artifacts action, upgrade as your workflows will start [failing](https://github.blog/changelog/2024-04-16-deprecation-notice-v3-of-the-artifact-actions/).
 Thanks to Hugo Gruson for pointing this out!
+
+Github provides the [dependabot service](https://docs.github.com/en/code-security/dependabot/working-with-dependabot/keeping-your-actions-up-to-date-with-dependabot) that can help you keep actions updated hassle free! Just add the following simple yaml file as `.github/dependabot.yml` in your repo and a friendly bot will open PRs to keep you workflows up to date!
+
 
 ### An attack vector on GitHub Actions
 
