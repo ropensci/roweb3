@@ -16,19 +16,19 @@ rOpenSci is a non-profit initiative that promotes open and reproducible research
 
 ### What
 - **Introduction to [rOpenSci](/)**
-  - Karthik Ram: [Web](https://inundata.org/), [GitHub](https://github.com/karthik), [Twitter](https://Twitter.com/_inundata)
+  - Karthik Ram: [Web](https://inundata.org/), [GitHub](https://github.com/karthik)
 - **Leveraging scholarly text and metadata**
-  - Scott Chamberlain: [Web](https://scottchamberlain.info/), [GitHub](https://github.com/sckott), [Twitter](https://Twitter.com/sckottie)
+  - Scott Chamberlain: [Web](https://scottchamberlain.info/), [GitHub](https://github.com/sckott)
 - **Ideas for improving image processing in R for editing, graphics, medical, spatial and vision applications**
-  - Jeroen Ooms: [GitHub](https://github.com/jeroen), [Twitter](https://Twitter.com/opencpu)
+  - Jeroen Ooms: [GitHub](https://github.com/jeroen)
 - **[How the usethis package can accelerate your R development workflow](https://usethis.r-lib.org)**
-  - Jenny Bryan: [GitHub](https://github.com/jennybc), [Twitter](https://Twitter.com/JennyBryan)
+  - Jenny Bryan: [GitHub](https://github.com/jennybc)
 - **[Using docker from R](https://richfitz.github.io/stevedore/)**
-  - Rich FitzJohn: [Web](https://richfitz.github.io/), [GitHub](https://github.com/richfitz), [Twitter](https://Twitter.com/rgfitzjohn)
+  - Rich FitzJohn: [Web](https://richfitz.github.io/), [GitHub](https://github.com/richfitz)
 - **Integrating heterogeneous data sets in R. [RDF all the data!](https://ropensci.github.io/rdflib/articles/rdf_intro.html)**
-  - Carl Boettiger: [Web](https://www.carlboettiger.info/), [GitHub](https://github.com/cboettig), [Twitter](https://Twitter.com/cboettig)
+  - Carl Boettiger: [Web](https://www.carlboettiger.info/), [GitHub](https://github.com/cboettig)
 - **Connect with your rOpenSci and local [communities](/community/)**
-  - Stefanie Butland: [Twitter](https://Twitter.com/StefanieButland)
+  - Stefanie Butland.
 - **Q & A**
 - **Casual networking**, chat with the rOpenSci team, and meet your local community
 
