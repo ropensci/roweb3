@@ -150,6 +150,8 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 * [Looking for Maintainers to Support First-Time Contributors](/blog/2024/10/22/first-time-contributions) by Steffi LaZerte and Yanina Bellini Saibene. Announcing a Community Call and Coworking sessions to support first contributions.
 
+* [Give Thanks with the allcontributors Package](/blog/2024/11/26/allcontributors) by Mark Padgham. The allcontributors package helps to given thanks to software contributions.
+
 ## Calls for contributions
 
 ### Calls for maintainers
