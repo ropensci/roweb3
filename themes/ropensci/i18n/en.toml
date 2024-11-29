@@ -48,3 +48,11 @@
   
 [Community-calls]
   other = 'Community calls'
+[Projects]
+  other = 'Projects'
+  
+[Blog]
+  other = 'Blog'
+  
+[Tech-Notes]
+  other = 'Tech Notes'

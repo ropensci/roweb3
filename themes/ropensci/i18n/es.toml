@@ -51,3 +51,11 @@
   
 [Community-calls]
   other = 'Llamadas comunitarias'
+[Projects]
+  other = 'Proyectos'
+  
+[Blog]
+  other = 'Blog'
+  
+[Tech-Notes]
+  other = 'Notas técnicas'
