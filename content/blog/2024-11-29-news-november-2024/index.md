@@ -6,7 +6,7 @@ author:
 date: '2024-11-29'
 tags:
   - newsletter
-description: 
+description: Support first-time contributors, fast R-universe, give thanks to contributors
 params:
   last_newsletter: "2024-10-23"
 ---
@@ -55,7 +55,7 @@ We are very grateful to Pedro Faria, Beatriz Milz, Francesca Palmeira, Rafael Fo
 
  If you want to participate in this collaborative translation effort, please [check out our project](https://github.com/orgs/ropensci/projects/7/views/1) and add a comment to the pull request you would like to review.
  
-## Community Call "A comunidade R fala português" Resources
+### Community Call "A comunidade R fala português" Resources
  
  All the [resources for our first community call in português](/commcalls/translation-portuguese/) are now available on our website.
  
@@ -87,12 +87,8 @@ And remember, you can always cowork independently on work related to R, work on 
 
 ## Software :package:
 
-### New packages
 
 
-
-
-The following  package recently became a part of our software suite:
 
 
 
