@@ -31,7 +31,7 @@ Não toleramos assédio de nenhuma forma. A adesão ao nosso Código de Conduta 
 - uso de imagens, comentários ou piadas de cunho sexual ou discriminatório
 - atenção sexual indesejada, que pode incluir perguntas inadequadas de natureza sexual, solicitação de favores sexuais ou pedidos repetidos de encontros ou informações de contato.
 - "Divulgação" deliberada de qualquer aspecto da identidade de uma pessoa sem o seu consentimento, exceto quando necessário para proteger pessoas vulneráveis de abuso intencional
-- uso deliberado de gênero incorreto ou de nomes "mortos" ou rejeitados
+- uso deliberado de gênero incorreto ou de nome civil ou rejeitados
 - publicação não consensual de comunicação privada não ofensiva, incluindo capturas de tela de canais de discussão privados ou mensagens diretas.
 
 Priorizamos a segurança das pessoas marginalizadas em detrimento do conforto das pessoas privilegiadas. Não daremos seguimento a reclamações relacionadas a:
