@@ -75,7 +75,7 @@ O Código de Conduta da rOpenSci foi influenciado e adaptado de muitas fontes, i
   <a rel="dct:publisher"
      href="https://ropensci.org/">
     <span property="dct:title">rOpenSci</span></a>
-  renunciou a todos os direitos autorais e direitos relacionados ou vizinhos de
+  renunciou a todos os direitos autorais e direitos conexos de
   <span property="dct:title">código de conduta da rOpenSci</span>.
 Este trabalho foi publicado em:
 <span property="vcard:Country" datatype="dct:ISO3166"
