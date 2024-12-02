@@ -1,21 +1,23 @@
-+++
+\+++
 title = "Coworking"
-+++
+\+++
 
-**Join us for social coworking & office hours monthly on first Tuesdays! 
-Hosted by rOpenSci Community Assistant [Steffi LaZerte](/author/steffi-lazerte) and various community hosts. 
-Everyone welcome. 
-No registration needed.**
+**Únete a nosotros para un coworking social y horas de oficina los primeros martes de cada mes.
+Organizado por el Asistente de la Comunidad rOpenSci [Steffi LaZerte](/author/steffi-lazerte) y varios anfitriones de la comunidad.
+Todo el mundo es bienvenido.
+No es necesario inscribirse.**
 
-We meet for two hours, introduce ourselves and cowork. You can choose to 
-work on your own or socialize by choosing different 'rooms' (Quiet or Noisy). 
-Each session has a theme and the opportunity to explore that theme with the 
-community host in the Noisy room.
+Nos reunimos durante dos horas, nos presentamos y trabajamos. Puedes elegir
+trabajar por tu cuenta o socializar eligiendo diferentes "salas" (Silenciosa o Ruidosa).
+Cada sesión tiene un tema y la oportunidad de explorar ese tema con el
+anfitrión de la comunidad en la sala Ruidosa.
 
-Want more details? Explore [All about coworking](/blog/2023/06/21/coworking/)!
+¿Quieres más detalles? Explora [Todo sobre el coworking](/blog/2023/06/21/coworking/) ¡!
 
-**Have suggestions for future themes? Interested in being a community host?**  
+**¿Tienes sugerencias para futuros temas? ¿Te interesa ser anfitrión de la comunidad?**
 
-Contact [Steffi](/author/steffi-lazerte) or our Community Manager, [Yani](/author/yanina-bellini-saibene), on the rOpenSci Slack, Mastodon, or via [email](yabellini@ropensci.org), and let us know! 
-If you're interested in hosting but aren't sure of a theme, we're happy to 
-help you come up with one!
+Ponte en contacto con [Steffi](/author/steffi-lazerte) o con nuestro Community Manager, [Yani](/author/yanina-bellini-saibene) en el Slack de rOpenSci, Mastodonte, o a través de [correo electrónico](yabellini@ropensci.org) ¡e infórmanos!
+Si te interesa ser anfitrión pero no estás seguro del tema, estaremos encantados de
+ayudarte a encontrar uno.
+
+
