@@ -1,7 +1,7 @@
 +++
 title = "Paquetes"
 description = "Conjunto de paquetes de rOpenSci"
- partials = ["packages.html"]
+partials = ["packages.html"]
 +++
 
 Nuestros paquetes son herramientas de software R cuidadosamente examinadas, realizadas por nuestro equipo y por la comunidad, que en particular reducen las barreras para trabajar con fuentes de datos científicos locales y remotas.
@@ -15,5 +15,4 @@ A continuación se indican algunas categorías destacadas de paquetes.
 Si no estás muy seguro de dónde buscar, utiliza la función [página con todos los paquetes](/packages/all/).
 En cualquier caso, todas las páginas de paquetes tienen una barra de búsqueda.
 Si te parece que falta una herramienta para lo que necesitas, no dudes en publicarlo en [nuestro foro](https://discuss.ropensci.org).
-
 
