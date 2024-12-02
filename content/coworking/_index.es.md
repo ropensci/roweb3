@@ -1,5 +1,5 @@
 +++
-title = "Coworking"
+title = "Sesiones de trabajo"
 +++
 
 **Participa en nuestras reuniones de co-trabajo, socialización y horas de oficina los primeros martes de cada mes.
@@ -19,5 +19,4 @@ anfitriona en la sala Ruidosa.
 Ponte en contacto con [Steffi](/author/steffi-lazerte) o con nuestra Community Manager, [Yani](/author/yanina-bellini-saibene) en el Slack de rOpenSci, Mastodont, o a través de un [correo electrónico](yabellini@ropensci.org) para comentarnosló.
 Si tienes interés en ser anfitrión/a pero tienes dudas sobre el tema, nos encantará
 ayudarte a encontrar uno.
-
 
