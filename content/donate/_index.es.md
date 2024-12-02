@@ -1,10 +1,12 @@
-+++
-title="Support us with a donation"
-+++
+\+++
+title="Apóyanos con una donación"
+\+++
 
-The rOpenSci project is 100% supported by grants and donations. 
-Your donations are used to support contractors, web services, and community events.
+El proyecto rOpenSci se financia al 100% con subvenciones y donaciones.
+Tus donaciones se utilizan para apoyar a los contratistas, los servicios web y los eventos de la comunidad.
 
-rOpenSci is a Sponsored Project of NumFOCUS, a 501(c)(3) nonprofit charity in the United States. NumFOCUS provides rOpenSci with fiscal, legal, and administrative support to help ensure the health and sustainability of the project. Visit [numfocus.org](https://numfocus.org) for more information.
+rOpenSci es un proyecto patrocinado por NumFOCUS, una organización benéfica sin ánimo de lucro 501(c)(3) de Estados Unidos. NumFOCUS proporciona a rOpenSci apoyo fiscal, legal y administrativo para ayudar a garantizar la salud y sostenibilidad del proyecto. Visita [numfocus.org](https://numfocus.org) para más información.
 
-Donations to rOpenSci are managed by NumFOCUS. For donors in the United States, your gift is tax-deductible to the extent provided by law. As with any donation, you should consult with your tax adviser about your particular tax situation.
+Las donaciones a rOpenSci son gestionadas por NumFOCUS. Para los donantes de Estados Unidos, tu donación es deducible de impuestos en la medida prevista por la ley. Como con cualquier donación, debes consultar a tu asesor fiscal sobre tu situación fiscal particular.
+
+
