@@ -1,8 +1,11 @@
 ---
-title: Computing Infrastructure
-description: Workflow Tools for Your Code and Data
+title: Infraestructura informática
+description: Herramientas de flujo de trabajo para tu código y tus datos
 slug: scalereprod
 outputs:
 - JSON
 - HTML
 ---
+
+
+

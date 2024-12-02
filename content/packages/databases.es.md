@@ -1,8 +1,11 @@
 ---
-title: Databases
-description: Work with Databases From R
+title: Bases de datos
+description: Trabajar con bases de datos desde R
 slug: databases
 outputs:
 - JSON
 - HTML
 ---
+
+
+
