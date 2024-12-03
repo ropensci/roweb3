@@ -41,7 +41,7 @@ organizations to manage custom R package repositories using their own approach
 to curation, release management, and quality control.
 
 R-Universe already serves tens of thousands of packages published by over a thousand
-organizations, and we are excited for what's ahead. This year, our we aim to to improve features to serve groups that
+organizations, and we are excited for what's ahead. This year, our aim is to improve features which serve groups that
 are building large-scale, collaborative repositories using R-Universe's platform
 and API, like the new [R-Multiverse](https://r-multiverse.org/). 
 We also plan expand our contributor base through more developer documentation and
