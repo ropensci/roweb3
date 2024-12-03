@@ -45,7 +45,7 @@ organizations, and we are excited for what's ahead. This year, our aim is to imp
 are building large-scale, collaborative repositories using R-Universe's platform
 and API, like the new [R-Multiverse](https://r-multiverse.org/). 
 We also plan expand our contributor base through more developer documentation and
-partner outreach, and to to improve performance and reliability as we scale. You
+partner outreach, and to improve performance and reliability as we scale. You
 can read more about our plans in our R-Consortium 
 [grant proposal](https://github.com/r-universe-org/consortium).
 
