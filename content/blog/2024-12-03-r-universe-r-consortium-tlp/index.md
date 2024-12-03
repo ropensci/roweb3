@@ -44,9 +44,12 @@ to curation, release management, and quality control.
 R-Universe already serves tens of thousands of packages published by over a thousand
 organizations, and we are excited for what's ahead. This year, our aim is to improve features which serve groups that
 are building large-scale, collaborative repositories using R-Universe's platform
-and API, like the new [R-Multiverse](https://r-multiverse.org/). 
-We also plan expand our contributor base through more developer documentation and
-partner outreach, and to improve performance and reliability as we scale. You
-can read more about our plans in our R-Consortium 
-[grant proposal](https://github.com/r-universe-org/consortium).
+and API, like the new [R-Multiverse](https://r-multiverse.org/). This includes
+support for things like development and production branches of universes, custom
+package checks, and manual approval steps so universe owners can curate and govern
+package collections as they see fit.
+We also plan to expand our contributor base through more documentation and
+partner outreach, and to improve performance and reliability as we continue to
+grow. We look forward to working with the R Community on making R-Universe a
+first-class home for R software. 
 
