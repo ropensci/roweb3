@@ -32,7 +32,7 @@ R-Universe's lead developer, will also join the R-Consortium's Infrastructure
 Steering Committee. We are glad to play a part in helping support important
 R community projects in the future!
 
-R-universe is rOpenSci’s platform for improving publication and discovery of research software in R.
+R-Universe is rOpenSci’s platform for improving publication and discovery of research software in R.
 It serves as a **global catalog** of software, articles, and data found
 across R repositories.  It is **software publication platform** providing a fully
 automated pipeline for testing, building, and publishing R packages. It is also
