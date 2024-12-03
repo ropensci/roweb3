@@ -15,7 +15,7 @@ description: "We're excited to announce R-Universe has been named the R-Consorti
 ---
 
 We are excited to announce that [R-Universe](/r-universe/)
-has been named the [R Consortium's] newest [Top-Level Project](https://r-consortium.org/all-projects/)!  We're glad
+has been named the [R Consortium's](https://r-consortium.org) newest [Top-Level Project](https://r-consortium.org/all-projects/)!  We're glad
 to be in the company of community and infrastructure projects that have been
 designated critical to the R Ecosystem, such as [R-hub](https://blog.r-hub.io/), [DBI](https://r-dbi.org/), [R-Ladies](https://rladies.org/), and the
 [R User Group program](https://r-consortium.org/all-projects/isc-working-groups.html), and we are grateful for the support of the R Consortium and
