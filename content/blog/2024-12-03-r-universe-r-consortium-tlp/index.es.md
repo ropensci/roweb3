@@ -19,7 +19,7 @@ description: Nos complace anunciar que R-Universe ha sido designado como un nuev
 ---
 
 Nos complace anunciar que [R-Universe](/r-universe/)
-ha sido designado como  un nuevo [Proyecto de alto nivel](https://r-consortium.org/all-projects/) del  [R Consortium](https://r-consortium.org) ¡Nos alegramos
+ha sido [designado](https://r-consortium.org/posts/r-universe-named-r-consortiums-newest-top-level-project/) como  un nuevo [Proyecto de alto nivel](https://r-consortium.org/all-projects/) del  [R Consortium](https://r-consortium.org) ¡Nos alegramos
 de estar en compañía de proyectos comunitarios y de infraestructuras que han sido
 designados críticos para el Ecosistema R!, como [R-hub](https://blog.r-hub.io/), [DBI](https://r-dbi.org/), [R-Ladies](https://rladies.org/) y el
 [Programa Grupos de Usuari(a|o)s de R](https://r-consortium.org/all-projects/isc-working-groups.html) y agradecemos el apoyo de R Consortium y de
