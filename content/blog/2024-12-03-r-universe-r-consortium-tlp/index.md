@@ -36,7 +36,7 @@ R-Universe is rOpenSci’s platform for improving publication and discovery of r
 It serves as a **global catalog** of software, articles, and data found
 across R repositories.  It is a **software publication platform** providing a fully
 automated pipeline for testing, building, and publishing R packages. It is also
-a **meta-repository**, providing common infrastructure for both individuals or
+a **meta-repository**, providing common infrastructure for both individuals and
 organizations to manage custom R package repositories using their own approach
 to curation, release management, and quality control.
 
