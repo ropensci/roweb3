@@ -4,6 +4,7 @@ title: R-Universe Named R Consortium Top-Level Project
 author:
   - Noam Ross
   - Jeroen Ooms
+editor: Steffi LaZerte
 featured: true
 date: "2024-12-03"
 tags:
