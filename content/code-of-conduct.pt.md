@@ -14,7 +14,7 @@ Tentamos cultivar uma comunidade com valores compartilhados, onde as pessoas se 
 
 Seja atencioso(a) ao falar e agir, e procure ativamente reconhecer e respeitar os limites das pessoas que participam das atividades da rOpenSci.
 
-Cuidem uns dos outros. Alerte um membro do Comitê do Código de Conduta (nomeado abaixo) se você notar uma situação perigosa, alguém em perigo ou uma possível violação deste Código de Conduta, mesmo que pareça inconsequente.
+Vamos cuidar das outras pessoas na comunidade. Alerte uma pessoa integrante do Comitê do Código de Conduta (nomeado abaixo) se você notar uma situação perigosa, alguém em perigo ou uma possível violação deste Código de Conduta, mesmo que pareça inconsequente.
 
 Não toleramos assédio de nenhuma forma. A adesão ao nosso Código de Conduta exige que você se abstenha de comportamentos e discursos humilhantes, discriminatórios ou de assédio, incluindo, mas não se limitando a:
 
