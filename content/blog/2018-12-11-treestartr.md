@@ -71,9 +71,7 @@ For some of our workflows in the lab, we use multiple functions. For example, we
 
 I was a little unsure at first about submitting a package to rOpenSci. I'm a biologist, and while I'm computational, the idea that I might be a solo author on an R package seemed like I was, I don't know, misrepresenting myself? I'm not some sort of big, serious software person. But the more I thought about it, I realized that that makes rOpenSci more attractive - that some serious people could help guide me in making this package. I want stable software for my students to learn from and use. And so I should ask for review. It's appropriate and it's good to ask for expert opinion.
 
-When I was thinking of writing up this blog, I posed the question to Twitter:
-
-{{< tweet user="thegoodphyte" id="1067269265810698240" >}}
+When I was thinking of writing up this blog, I posed the question to Twitter.
 
 
 And I hope I can answer this question adequately. I picked rOpenSci because it was explicitly R (so the editor and reviewers would know best practices) and the guidelines and how review would proceed were very clear. And for a totally new experience of in-depth code review, being able to see where the effort was collaborative was helpful. I looked at [other journals](https://joss.readthedocs.io/en/latest/submitting.html), but I liked that rOpenSci had biologists as editors. Because the handling editor ([Scott Chamberlain](https://scottchamberlain.info/)) is a biologist, he had the ability to work with me to find reviewers ([David Bapst](https://geogeo.tamu.edu/people/faculty/bapstdavidwilliam) and [Rachel Warnock](https://www.bsse.ethz.ch/cevo/the-group/people/person-detail.html?persid=215787)) who are serious experts in both R and the particular type of phylogenetics that I do. I suggested Dave & Rachel because I know I can collaborate with them, and they will be constructive and kind. But they will also really try to break the package and dig in to the meat of what software functions are required to support the science we do, and tell me honestly if my package is providing those functions. [You can see](https://github.com/ropensci/onboarding/issues/239) they weren't easy on me!
@@ -92,4 +90,4 @@ I'll likely add in more utility functions for parsing biological data for use wi
 
 David Bapst and Rachel Warnock reviewed this package, and provided immensely helpful comments. Scott Chamberlain handled the review. I'd also like to thank Jack Henry Wright Stinnett and Alice Wright Stinnett for being such good sleepers that I got to make the skeleton of this package while they napped:
 
-{{< tweet user="WrightingApril" id="1014973461481938944" >}}
+> Wrote a small workflow for generating molecular + morphological starting trees in python, but realized for upcoming use, it actually makes more sense to be an R package. Both kids are asleep, here we go. — Dr. April Wright - July 5, 2018

@@ -45,3 +45,12 @@
   
 [Read-more]
   other = 'Lee más'
+  
+[Projects]
+  other = 'Proyectos'
+  
+[Blog]
+  other = 'Blog'
+  
+[Tech-Notes]
+  other = 'Notas técnicas'
