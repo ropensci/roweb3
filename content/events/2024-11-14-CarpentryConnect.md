@@ -19,11 +19,11 @@ attendees:
   - Yanina Bellini Saibene
 
 resources: # can be added later, one entry per talk (don't add while still empty, add once there are resources)
-#  - title: "Keynote:"
-#    speaker: Yani Bellini Saibene
-#    slides: 
-#    video: 
-#    language: en
+  - title: "Keynote: The stories behind your community numbers"
+    speaker: Yani Bellini Saibene
+    slides: https://docs.google.com/presentation/d/1wEJE7XReLmV47MuKsg7o2_8iQajYOHUk-7hUhp4ZqkY/edit?usp=sharing
+    video: https://alpha.lhumos.org/player/5/0/6744a8c8e4b0846534895a56/6744ab12e4b0846534895aa6
+    language: en
 
 ---
 
