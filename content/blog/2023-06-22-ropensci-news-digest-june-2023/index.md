@@ -38,9 +38,9 @@ The [new snapshot API](/blog/2023/05/31/runiverse-snapshots/) lets you download 
 
 ### Statistical software review now completely integrated with standard review process
 
-[Statistical software review](/stat-software-review/) has finally reached a stable and mature state, with all organizational processes now entirely integrated with the standard review process.
+[Statistical software review](/software-review/) has finally reached a stable and mature state, with all organizational processes now entirely integrated with the standard review process.
 Developers submitting software should notice little difference, except hopefully faster initial processing of submissions.
-Each submission is now smoothly handled by members of our [team](/stat-software-review/#editors) of statistical software editors:
+Each submission is now smoothly handled by members of our [team](/software-review/#editors) of statistical software editors:
 
 -   [Adam Sparks](/author/adam-sparks/)
 -   [Emi Tanaka](https://emitanaka.org/)

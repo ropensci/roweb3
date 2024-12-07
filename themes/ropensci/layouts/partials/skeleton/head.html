@@ -4,9 +4,8 @@
     
 
 <!-- Matomo -->
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
-<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v3.0.0-rc.17/dist/cookieconsent.umd.js" data-cfasync="false"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v3.0.0-rc.17/dist/cookieconsent.css">
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v3.0.0/dist/cookieconsent.umd.js" data-cfasync="false"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v3.0.0/dist/cookieconsent.css">
 <script src="/scripts/matomo.js?nocache=1"></script>
 
 <noscript><p><img src="https://ropensci.matomo.cloud/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
@@ -16,11 +15,7 @@
     {{ $css := resources.Get "main.min.css" }}
 {{ $secureCSS := $css | resources.Fingerprint "sha512" }}
   <link href="{{ $secureCSS.Permalink }}" rel="stylesheet" integrity="{{ $secureCSS.Data.Integrity }}">
- <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css
-"
-    />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   {{ template "_internal/schema.html" . }}
   {{ if eq .RelPermalink "/" }}
   <title>{{ .Site.Title }}</title>

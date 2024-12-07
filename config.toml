@@ -30,6 +30,14 @@ DefaultContentLanguage = "en"
     title = "rOpenSci - open tools for open science"
     languageName = "Français"
     weight = 3
+  [languages.pt]
+    title = "rOpenSci - open tools for open science"
+    languageName = "Português"
+    weight = 4
+  [languages.tr]
+    title = "rOpenSci - open tools for open science"
+    languageName = "Türkçe"
+    weight = 5  
 
 
 [permalinks]
@@ -42,7 +50,7 @@ DefaultContentLanguage = "en"
     footer = "&copy; The rOpenSci Project"
     rbloggers = ["blog", "technotes", "commcalls", "careers"]
     search = ["blog", "technotes", "commcalls", "events", "author"]
-    projects = ["r-universe", "software-review", "stat-software-review", "champions", "multilingual-publishing"]    
+    projects = ["r-universe", "software-review", "champions", "multilingual-publishing"]    
     blogs = ["blog", "technotes"]
     events = ["events", "commcalls"]
     githubsource = "https://github.com/ropensci/roweb3/blob/main/content/"

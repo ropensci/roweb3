@@ -56,9 +56,8 @@ No community is perfect, and being willing to consider our shortcomings and thin
 - Also, it's often easier to defend on behalf of someone else than it is on one's own behalf. Keep that in mind if you see negative things happening, and consider defending on someone else's behalf.
 - Having a code of conduct is important. [rOpenSci has one](https://ropensci.org/code-of-conduct/), and we like it a whole lot.
 
-And, when times get tough, look to your community. Get out there. Be active. Communicate with one another. [Tim Phan](https://twitter.com/timothy_phan) brilliantly summarized the importance of action and community in this thread:
+And, when times get tough, look to your community. Get out there. Be active. Communicate with one another. _Tim Phan_ brilliantly summarized the importance of action and community in this thread:
 
-{{< tweet user="timothy_phan" id="868231965266325504" >}}
 
 ## Thank you
 

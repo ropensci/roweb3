@@ -4,6 +4,9 @@ slug: ropensci-champions-program-teams-meet-pao-corrales-and-adam-sparks
 author:
   - Pao Corrales
   - Adam Sparks
+editor:
+  - Yanina Bellini Saibene
+  - Steffi LaZerte  
 date: '2023-04-13'
 tags:
   - community

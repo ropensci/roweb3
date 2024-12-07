@@ -1,0 +1,7 @@
+{{ define "main" }}
+{{ $pages := (where (where ( where .Site.RegularPages.ByDate.Reverse "Section" "events" ) ".Params.resources" "!=" nil)  ".Params.training" "==" true) }}
+{{ partial "talks/talk-table" (dict "Pages" $pages "Title" .Title "Content" .Content) }}
+{{ partial "whole-page-fragments/ask"  (dict "divider" "lr" ) }}
+{{ partial "whole-page-fragments/newsletter"  (dict "divider" "rl" ) }}
+{{ partial "whole-page-fragments/brands"  (dict "Site" .Site "divider" "lr" ) }}
+{{ end }}

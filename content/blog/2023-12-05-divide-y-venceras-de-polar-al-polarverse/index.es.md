@@ -1,6 +1,8 @@
 ---
 title: 'Divide y venceras: de polar al Polarverse'
 author: "Juan Pablo Ruiz Nicolini"
+editor:
+- Yanina Bellini Saibene
 date: '2023-12-05'
 slug: 2023-12-05-divide-y-venceras-de-polar-al-polarverse
 descritpion: 'La Ciencia Política se encuentra con la Programación: Creando el polarverse con R y la Influencia de LatinR'

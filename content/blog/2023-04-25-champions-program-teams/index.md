@@ -4,6 +4,9 @@ slug: ropensci-champions-program-teams-meet-bilikisu-wunmi-olatunji-and-christin
 author:
   - Bilikisu Wunmi Olatunji
   - Christina Maimone
+editor:
+  - Yanina Bellini Saibene
+  - Steffi LaZerte  
 date: '2023-04-25'
 tags:
   - community

@@ -13,6 +13,8 @@ author:
 - Marie Vendettuoli
 - Jonathan Keane
 - Yanina Bellini Saibene
+editor:
+  - Steffi LaZerte
 date: '2023-11-29'
 tags:
 - community

@@ -15,9 +15,9 @@ tags:
 - community
 - multilingual
 author:
-  - Pedro Duarte Faria
+  - Pedro Faria
 attendees:
-  - Pedro Duarte Faria
+  - Pedro Faria
   - António Pedro
   - Beatriz Milz
   - Yanina Bellini Saibene
