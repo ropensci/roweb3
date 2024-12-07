@@ -25,6 +25,8 @@ What started as an internal challenge has evolved into a collaborative blueprint
 
 We're excited to share the first version of the [rOpenSci Localization and Translation Guidelines](https://translationguide.ropensci.org).
 
+{{< figure src = "multilingual-chapter.png" alt = "The first paragraphs of the section General aspects of the stage 1 of the translation process in English (left side) and Spanish (right side). Showing text and concept maps in both languages." caption = "Chapter on General aspects of the stage 1 of the translation process in English and Spanish">}}
+
 These guidelines explain the rationale behind and the process for localizing and translating our resources. 
 They are designed to support community members contributing to the [multilingual publishing project](https://ropensci.org/multilingual-publishing/).
 
