@@ -1,6 +1,8 @@
-+++
-title = "We'd love to hear from you"
-description = "How to contact us"
-+++
+\+++
+title = "Nos encantaría saber de ti"
+description = "Cómo contactar con nosotros"
+\+++
 
-How to get in touch depends on what you need. For private or offline questions please complete the form below. For other ways to connect with us and ask and answer questions, check out our [community page](/community).
+La forma de ponerte en contacto con nosotros depende de lo que necesites. Para preguntas privadas o fuera de línea, rellena el siguiente formulario. Para otras formas de conectar con nosotros y hacer y responder preguntas, consulta nuestro [página de la comunidad](/community).
+
+
