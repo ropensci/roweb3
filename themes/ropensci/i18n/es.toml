@@ -46,6 +46,11 @@
 [Read-more]
   other = 'Lee más'
   
+[Catch-up-with-past-calls]
+  other = 'Seminarios anteriores'
+  
+[Community-calls]
+  other = 'Llamadas comunitarias'
 [Projects]
   other = 'Proyectos'
   
