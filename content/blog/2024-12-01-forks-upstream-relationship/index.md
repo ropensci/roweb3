@@ -1,6 +1,7 @@
 ---
 slug: "forks-upstream-relationship"
 title: The dynamic relationship of forks with their upstream repository
+date: '2024-12-08'
 ---
 
 ## Context setting
