@@ -43,38 +43,65 @@ We mentioned that conflicts were a major downside of this approach.
 What are the strategies to minimize the conflicts? 
 And why is it in the interest of everyone (the fork owners, but also upstream maintainers) to minimize them?
 
-### Steps for upstream to simplify forking and syncing
+### Simplifying syncs and reducing git conflicts {#simplifying-syncs}
 
 Going back to the example of organizations forking the Carpentries workbench,
-Hugo has forked for the workbench to customize Epiverse-TRACE lessons with their own branding.
+Hugo has [forked for the workbench to customize Epiverse-TRACE lessons with their own branding](https://github.com/epiverse-trace/varnish/pull/7).
 But the upstream repository regularly receives updates with bug fixes or new features.
 
-For example, after forking the workbench, 
-I have progressively contributed changes that limit the amount of changes required in my fork,
-thus limiting the potential for conflicts.
-Some strategies are:
-- using configuration files and variables
-- automating file generation from source as a post-processing step
-- (add a note about overwriting conficts in auto-generated files by re-rendering them)
+The few first months were painful because of the conflicts that arose when syncing with upstream.
+But a couple of changes in upstream have greatly reduced the probability of conflicts.
+
+In a nutshell, upstream can make it easier for forks to stay in sync by reducing the number of files that a fork needs to modify,
+and by isolating these changes in specific locations.
+
+In practice, this can for example be done by using configuration files and variables.
+This serves the double purpose of being more DRY and of separating changes.
+In the example of the Carpentries workbench, [a pull request added a Sass variable to change the font](https://github.com/carpentries/varnish/pull/151), 
+removing the need to change it in multiple locations.
+
+But from the fork owner perspective, some techniques can also make conflict resolution smoother. 
+A major location of conflicts are auto-generated changes or files.
+In the workbench example, this is the concatenated and minified CSS files.
+They tend to concentrate conflicts because they regroup changes from multiple files, 
+and they are minified on a single line, which means git cannot distinguish what was changed.
+
+But you can automate the conflict resolution for these cases.
+The key is to make automated changes in a separate commit.
+When this commit conflicts, you can re-run the script that generates the file,
+and commit the result, without having to think about what should be kept or not.
+
+Alternatively, upstream can sometimes stop tracking auto-generated files from git,
+and instead render them on the fly at build time.
 
 ### Contributing back to upstream
 
-Maintaining a fork a hard work.
-Is it possible to integrate it to upstream and avoid having to do it?
+The previous sections highlighted how much work maintaining a fork.
+Is it possible to integrate the features to upstream and avoid having to maintain a fork?
 
 Forks can be a good way to pilot new features or approaches.
+Note that this is not always possible as upstream may have a restricted scope, or limited resources for maintenance.
 
-- Not always possible as upstream may have a restricted scope, or limited resources for maintenance
-- Sometimes, forks are expected to have a limited timespan. 
-They only exist until the PR is merged.
-But sometimes, the user cannot wait for the PR to be merged,
-especially if upstream is slow to review PRs.
-- Make PRs palatable
-- Anything else?
+Forks are sometimes intended from the start as short-lived.
+They only exist until the PR is merged when the user cannot wait for the PR to be merged, especially if upstream is slow to review PRs.
+In this case, the fork is already contributing back to upstream.
+
+But in other cases, can forks that started as a way to customize a project and start accumulating new features contribute back to upstream?
+Forks can indeed be a great way to pilot new features, and to show the value of these features to upstream.
+
+When contributing back, each pull request should focus on a single feature or bug fix, rather than pushing all changes the fork has accumulated.
+It can also build confidence to show that you've been using this feature for a while without issues.
 
 ### It takes two to tango
 
 Getting forks to contribute back is only possible is they can stay in touch with upstream.
-Upstream should definitely follow section 1 if they want to benefit from section 2.
+Indeed, forks that have diverged too much from upstream will have a hard time contributing back, and making nice palatable pull requests.
+In other words, upstream repositories should follow the steps outlined in the ["Simplifying syncs and reducing git conflicts"](#simplifying-syncs) section to ensure forks can more easily stay in sync.
+
+This highlights the symbiotic relationship that can exist between forks and upstream repositories, when both parties are willing to make the effort.
 
 ## Conclusion
+
+While sometimes presented as a fracture, forks are an integral part of the open-source ecosystem.
+They offer a way to build on existing projects, to add extra features without increasing the maintenance burden of the upstream repository, to pilot new features.
+They can be hard to maintain, but it is also possible for the fork and upstream maintainers to work together to make the process smoother.
