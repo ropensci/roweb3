@@ -1,10 +1,12 @@
-\+++
++++
 title = "Código de Conduta (versão em Português)"
+translationKey = "code-of-conduct"
+slug = "código-de-conduta"
 description = "Código de Conduta da rOpenSci"
-subtítulo = "Versão 2.5 - 30 de janeiro de 2024"
-\+++
+subtitle = "Versão 2.5 - 30 de janeiro de 2024"
++++
 
-*O código de conduta também está disponível em [espanhol](/es/codigo-de-conducta) e em [inglês](code-of-conduct/).*
+*O código de conduta também está disponível em [espanhol](/es/código-de-conducta) e em [inglês](code-of-conduct/).*
 
 A comunidade da rOpenSci é o nosso melhor patrimônio e acreditamos que a nossa diversidade é a nossa força. Estamos construindo uma comunidade global acolhedora e diversificada de pessoas usuárias e desenvolvedoras de software de vários domínios de pesquisa. Isso é tão importante para nós que está em [nossa declaração de missão](/about/). Seja você uma pessoa colaboradora assídua ou um recém-chegada, nós nos preocupamos em fazer deste um lugar seguro para você e estamos ao seu lado.
 
