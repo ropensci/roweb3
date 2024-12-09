@@ -111,5 +111,4 @@ At the curl-up 2020 conference I gave a presentation [5 years of libcurl binding
 
 The proposal was merged later in 2020, and is now (2 years later) available in the stable versions of most operating systems. Version 5.0.0 of the R package (conditionally) use this API if available, which makes the type bindings safer to use.
 
-{{< tweet user="bagder" id="1299001582520946696" >}}
 
