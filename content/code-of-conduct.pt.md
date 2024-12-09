@@ -7,7 +7,7 @@ subtitle = "Versão 2.5 - 30 de janeiro de 2024"
 +++
 
 _The Code of Conduct is also available in [English](/code-of-conduct)._
-_El código de conducta también está disponible en [español](/es/code-of-conduct)._
+_El código de conducta también está disponible en [español](/es/código-de-conducta/)._
 
 A comunidade da rOpenSci é o nosso melhor patrimônio e acreditamos que a nossa diversidade é a nossa força. Estamos construindo uma comunidade global acolhedora e diversificada de pessoas usuárias e desenvolvedoras de software de vários domínios de pesquisa. Isso é tão importante para nós que está em [nossa declaração de missão](/about/). Seja você uma pessoa colaboradora assídua ou um recém-chegada, nós nos preocupamos em fazer deste um lugar seguro para você e estamos ao seu lado.
 
