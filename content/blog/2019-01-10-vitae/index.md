@@ -30,8 +30,6 @@ The `vitae` package leverages the dynamic nature of R Markdown to quickly produc
 
 Based on the twitter community's response to the package announcement, CV maintenance is just as unenjoyable for others as it is for me! Hopefully this package makes it a little bit easier.
 
-{{< tweet user="mitchoharawild" id="1065851259888914432" >}}
-
 ### Keeping it simple
 
 When developing an R package, it is easy to focus on features that are specific to your needs. Without concern for the interface, adding an abundance of specific features can make the package less useful overall. The `vitae` package is an excellent example of simpler is better, and less is more. `vitae` helps users to create a CV populated with data from ORCID, Google Scholar, local spreadsheets, online databases, CRAN, and endless others. However the `vitae` package does not directly provide functionality for any of these features, instead it relies on a common data format (a data-like object, such as a `data.frame` or `tibble`). 
