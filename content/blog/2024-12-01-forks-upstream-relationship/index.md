@@ -14,7 +14,7 @@ tags:
 
 ## Context setting
 
-rOpenSci organizes [monthly co-working hours](https://ropensci.org/coworking/) on a variety of topics.
+rOpenSci organizes [monthly co-working hours](/coworking/) on a variety of topics.
 But the constant is the quality of the discussion that ensues and the renewed energy that comes from it.
 
 The November coworking session welcomed Stefanie Butland from [openscapes](https://www.openscapes.org/) as a co-host.
