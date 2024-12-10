@@ -138,3 +138,5 @@ Contributing to open source can be very rewarding, but also incredibly intimidat
 When we asked about first time contributions on the rOpenSci Slack, 
 people recalled the challenges and mistakes they made, 
 but mostly how much they learned from and enjoyed that experience.
+
+This event is supported by NumFOCUS Small Development Grants.
