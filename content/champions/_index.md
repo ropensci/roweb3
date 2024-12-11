@@ -17,6 +17,6 @@ The program is a 12-month-long program that includes onboarding, cohort-based tr
 After training, Champions develop their project.
 Projects may involve**building a new package or going through the peer review process as an author or a reviewer**.
 As the concluding activity of the training, champions choose at least one of several outreach options to perform, which include giving a presentation, writing a blog post, or organizing a peer group in their community.
-Some of our cohorts are language and geogrphic region specific.
+Some of our cohorts are language and geographic region-specific.
 
 
