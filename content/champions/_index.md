@@ -1,43 +1,22 @@
++++ 
+title = "Champions Program" 
+description = "A mentoring & training program for Scientific Open Source Champions" 
+tags = ["champions"] 
 +++
-title = "Champions Program"
-description = "A mentoring & training program for Scientific Open Source Champions"
-tags = ["champions"]
-+++
 
-
-{{< figure src = "/images/volunteer/peep8.png" width = "300" alt = "A person with his dog working on a notebook." class = "pull-left" >}}
-
-Research software *should serve everyone in our communities*, which means it needs to be *sustainable, open, and built by and for all groups*. Currently, however, there is a dismaying lack of diversity in open source communities in general and the R / research software community in particular. Developers in the R community are overwhelmingly white, male, and from a handful of countries. That disappointing lack of diversity is potentially detrimental to the sustainability, utility and productivity of projects.
+Research software *should serve everyone in our communities*, which means it needs to be *sustainable, open, and built by and for all groups*.
+Currently, however, there is a dismaying lack of diversity in open source communities in general and the R / research software community in particular.
+Developers in the R community are overwhelmingly white, male, and from a handful of countries.
+That disappointing lack of diversity is potentially detrimental to the sustainability, utility and productivity of projects.
 
 The *rOpenSci Champions Program* is for **people from historically and systematically excluded groups** who are interested in contributing to rOpenSci and the broader open source and open science communities.
 
 The rOpenSci Champion Program [is part of a series of activities and projects we are carrying out to ensure our research software serves everyone in our communities](/blog/2021/12/20/inclusive-leadership-program/) and is supported through a grant from the Chan Zuckerberg Initiative.
 
-
-## Program 2023-2024 timeline
-
-Our second cohort started this January! This is the tentative timeline for 2024.
-
-|Date|Event|Detail|Duration|
-|----|-----|------|--------|
-|January 2024|Kick-off event|Learn about the program, review the program expectations, and address questions. Meet mentors.|1.5 h|
-|February - April 2024 | Training|Knowledge of various channels through which new members can engage in and contribute to rOpenSci and R projects (by rOpenSci). |1 h|
-|February - April 2024| Training|Technical skills in software development (by rOpenSci). |2 h|
-|February - April 2024 |Training| Technical skills in software review (by rOpenSci). |2 h|
-|March-July 2024|Develop project; Meet with mentor |Go through the review process as an author, or as a reviewer, or build a package. ||
-|May 2024|Cohort meeting: Project Presentations| Champions give 5 min presentations of their projects (package review or development) and receive feedback.|1.5 h|
-|July 2024 |Cohort meeting: Project Reflections|Champions will be invited to share takeaways from their projects with the cohort.|1.5 h|
-|August - September 2024 | Training|How to plan and facilitate engaging and inclusive workshops to support participants’ success (by CSCCE).|2 h|
-|August - October 2024|Champions outreach: Host events, deliver talks, write about their experiences.|Champions host a workshop on good practices to build packages or good practices in software peer review; or deliver a talk at a conference/event and at one community event to gather feedback to improve rOpenSci’s projects. |1 to 3 h|
-|September 2024|Cohort meeting: Reflections on events |Champions will be invited to share takeaways from their events with the cohort.|1.5 h|
-|October 2024|Cohort meeting: Reflections on program|Champions will be invited to share takeaways from the program with the cohort and start to define future roles for Champions.|1.5 h|
-|November 2024|End of term|Close cohort and define new roles for Champions and Mentors.|1 h|
+The program is a 12-month-long program that includes onboarding, cohort-based training, one-on-one mentorship, cohort meetings, project development, outreach activities, assessment, and offboarding.
+After training, Champions develop their project.
+Projects may involve**building a new package or going through the peer review process as an author or a reviewer**.
+As the concluding activity of the training, champions choose at least one of several outreach options to perform, which include giving a presentation, writing a blog post, or organizing a peer group in their community.
+Some of our cohorts are language and geographic region-specific.
 
 
-## How to Apply ?
-
-2023-2024 applications are closed.  We will announce when we open a new call for champions and mentors. In the meanwhile, follow the progress of this cohort and the last through [rOpenSci Blog posts](/tags/champions-program/).
-
-## Do you have any questions?
-
-Please, check our [frequentely asked question for champions](/champions/programdetails_2023/#frequently-asked-questions) and [for mentors](programdetailsmentors_2023/#frequently-asked-questions).  You can also contact our Community Manager [by email](mailto:yabellini@ropensci.org) and check our resources about the program in English and Spanish.
