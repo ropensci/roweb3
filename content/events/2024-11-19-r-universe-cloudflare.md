@@ -5,7 +5,7 @@ dateEnd: '2024-11-19T23:00:00'
 date: 2024-11-19T23:00:00 # UTC!! same as dateEnd
 description: "Jeroen explains how R-Universe uses Cloudflare to get fast global routing and caching."
 location: 'online'
-country: "" # emoji
+country: "🌐" # emoji
 slug: "RUniverse-Cloudflare2024"
 ropensci: no
 outputs: 
