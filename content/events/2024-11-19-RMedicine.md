@@ -5,7 +5,7 @@ dateEnd: '2024-11-19T23:00:00'
 date: 2024-11-19T23:00:00 # UTC!! same as dateEnd
 description: "Biomedical researchers and analysts, don’t miss this chance to learn about containerized environments in R with expert Noam Ross! "
 location: 'online'
-country: "" # emoji
+country: "🌐" # emoji
 slug: "RMedicine-2024"
 ropensci: no
 outputs: 
