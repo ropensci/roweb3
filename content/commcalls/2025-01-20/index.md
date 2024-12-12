@@ -55,7 +55,7 @@ speakers:
     that can all be organized into clean websites to use as a teaching platform."
     img: /img/community/pascal-burkhard.png   
   - name: "Hugo Gruson"
-    bio: ""
+    bio: "Hugo Gruson is an evolutionary biologist who fell in love with R and R package development during his PhD. He is now working full-time as an R package developer, with a current focus on making the ecosystem of R packages for epidemiology more robust."
     img: /img/community/hugo-gruson.jpg    
 tags:
   - community call
