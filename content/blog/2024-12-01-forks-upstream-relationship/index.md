@@ -2,6 +2,10 @@
 slug: "forks-upstream-relationship"
 title: The dynamic relationship of forks with their upstream repository
 date: '2024-12-08'
+author: 
+- Hugo Gruson
+- Stefanie Butland
+editor: Steffi LaZerte
 tags:
 - community
 - meetings
