@@ -66,7 +66,7 @@ In a nutshell, upstream can make it easier for forks to stay in sync by reducing
 and by isolating these changes in specific locations.
 
 In practice, this can for example be done by using configuration files and variables.
-This serves the double purpose of being more DRY and of separating changes.
+This serves the double purpose of being more [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) and of separating changes.
 In the example of the Carpentries workbench, [a pull request added a Sass variable to change the font](https://github.com/carpentries/varnish/pull/151), 
 removing the need to change it in multiple locations.
 
