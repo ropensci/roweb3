@@ -107,16 +107,17 @@ In the context of R packages, common auto-generated files are `.Rd` documentatio
 which are often auto-generated from roxygen2 comments in `.R` files.
 Isolating these changes [in a separate commit](https://github.com/ropensci/lightr/commit/4dcb21e72f6df71e2cc46d12244cde8dcc3e2635) can also facilitate conflict resolution.
 
-### Contributing back to upstream
+### Integrating the fork changes back into upstream
 
-The previous sections highlighted how much work goes into maintaining a fork.
-So, is it perhaps possible to integrate the features to upstream and avoid having to maintain a fork?
+The previous section highlighted how much work goes into maintaining a fork.
+And while we shared techniques to alleviate some of this work, regular syncing is still required, and conflicts are still going to come up from time to time.
+So, is it perhaps possible to integrate the features to upstream and avoid having to maintain a fork altogether?
 
 Forks are sometimes intended from the start as short-lived.
 They only exist until the PR to upstream is merged when the user cannot wait for the PR to be merged, especially if upstream is slow to review PRs.
 In this case, the fork is already contributing back to upstream.
 
-But in other cases, can forks that started as a way to customize a project and start accumulating new features contribute back to upstream?
+But in other cases, forks that started as a way to customize a project and have accumulated new features can contribute back to upstream.
 Forks can indeed be a great way to pilot new features, and to show the value of these features to upstream to motivate their integration.
 It can also build confidence to show that you've been using this feature for a while without issues.
 Note that this is not always possible to integrate back your changes as upstream may have a restricted scope, or limited resources for maintenance.
