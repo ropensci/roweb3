@@ -131,6 +131,10 @@ Getting forks to contribute back is only possible if they can stay in touch with
 Indeed, forks that have diverged too much from upstream will have a hard time contributing back, and making nice palatable pull requests.
 In other words, communication, and where possible, following the steps outlined in the ["Simplifying syncs and reducing git conflicts"](#simplifying-syncs) section are key to ensuring forks can more easily stay in sync.
 
+Conversely, forks benefit from contributing to upstream as it can reduce their maintenance burden.
+They can either make it easier to sync by reducing the number of changes required to implement their customizations,
+or they can even make their custom features part of the upstream repository.
+
 This highlights the symbiotic relationship that can exist between forks and upstream repositories, when both parties are willing to make the effort.
 
 ## Conclusion
