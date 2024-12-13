@@ -98,6 +98,10 @@ and commit the result, without having to think about what should be kept or not.
 Alternatively, upstream can sometimes stop tracking auto-generated files from git,
 and instead render them on the fly at build time.
 
+In the context of R packages, common auto-generated files are `.Rd` documentation files,
+which are often auto-generated from roxygen2 comments in `.R` files.
+Isolating these changes [in a separate commit](https://github.com/ropensci/lightr/commit/4dcb21e72f6df71e2cc46d12244cde8dcc3e2635) can also facilitate conflict resolution.
+
 ### Contributing back to upstream
 
 The previous sections highlighted how much work goes into maintaining a fork.
