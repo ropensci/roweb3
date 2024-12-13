@@ -74,7 +74,8 @@ In a nutshell, upstream can make it easier for forks to stay in sync by reducing
 and by isolating these changes in specific locations.
 
 In practice, this can for example be done by using configuration files and variables.
-This serves the double purpose of being more [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) and of separating changes.
+This serves the double purpose of being more [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) 
+and of separating changes a fork may want to implement from the core codebase a fork is unlikely to modify.
 
 Although these changes need to take place in the upstream repository,
 it doesn't necessarily mean that the upstream maintainers are responsible for making these changes.
