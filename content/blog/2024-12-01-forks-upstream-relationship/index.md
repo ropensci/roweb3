@@ -112,15 +112,14 @@ Isolating these changes [in a separate commit](https://github.com/ropensci/light
 The previous sections highlighted how much work goes into maintaining a fork.
 So, is it perhaps possible to integrate the features to upstream and avoid having to maintain a fork?
 
-Forks can be a good way to pilot new features or approaches.
-Note that this is not always possible as upstream may have a restricted scope, or limited resources for maintenance.
-
 Forks are sometimes intended from the start as short-lived.
 They only exist until the PR to upstream is merged when the user cannot wait for the PR to be merged, especially if upstream is slow to review PRs.
 In this case, the fork is already contributing back to upstream.
 
 But in other cases, can forks that started as a way to customize a project and start accumulating new features contribute back to upstream?
-Forks can indeed be a great way to pilot new features, and to show the value of these features to upstream.
+Forks can indeed be a great way to pilot new features, and to show the value of these features to upstream to motivate their integration.
+It can also build confidence to show that you've been using this feature for a while without issues.
+Note that this is not always possible to integrate back your changes as upstream may have a restricted scope, or limited resources for maintenance.
 
 When contributing back, each pull request should focus on a single feature or bug fix, rather than pushing all changes the fork has accumulated.
 It can also build confidence to show that you've been using this feature for a while without issues.
