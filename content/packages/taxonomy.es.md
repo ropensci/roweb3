@@ -1,8 +1,11 @@
 ---
-title: Taxonomy
-description: Handle and Transform Taxonomic Information
+title: Taxonomía
+description: Manejar y transformar la información taxonómica
 slug: taxonomy
 outputs:
 - JSON
 - HTML
 ---
+
+
+
