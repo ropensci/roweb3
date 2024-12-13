@@ -57,10 +57,18 @@ And why is it in the interest of everyone (not only the fork owners, but also up
 
 Going back to the example of organizations forking the Carpentries workbench,
 Hugo has [forked for the workbench to customize Epiverse-TRACE lessons with their own branding](https://github.com/epiverse-trace/varnish/pull/7).
-But the upstream repository regularly receives updates with bug fixes or new features.
+Indeed, the Carpentries workbench provides a fully free and open-source learning management system,
+which has accessibility features and pedagogical best practices built-in.
+It makes sense for external organizations, beyond the Carpentries themselves, to use the workbench as the infrastructure to build and host their training materials.
 
-The few first months were painful because of the conflicts that arose when syncing with upstream.
-But a couple of changes in upstream have greatly reduced the probability of conflicts.
+However, at the time of writing this post, the workbench doesn't allow users to customize the theme and adopt a branding different than the official Carpentries one.
+The recommended way to do this is to fork the workbench and adjust the HTML templates to your needs.
+
+However, the upstream repository regularly receives updates with bug fixes or new features that forks may want to benefit from.
+This requires the fork to sync with upstream regularly.
+
+For the Epiverse Carpentries fork, the few first months were painful because of the conflicts that arose when syncing with upstream.
+But a couple of recent changes in upstream have greatly reduced the probability of conflicts.
 
 In a nutshell, upstream can make it easier for forks to stay in sync by reducing the number of files that a fork needs to modify,
 and by isolating these changes in specific locations.
