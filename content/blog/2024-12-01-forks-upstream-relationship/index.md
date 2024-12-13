@@ -120,6 +120,9 @@ In this case, the fork is already contributing back to upstream.
 But in other cases, forks that started as a way to customize a project and have accumulated new features can contribute back to upstream.
 Forks can indeed be a great way to pilot new features, and to show the value of these features to upstream to motivate their integration.
 It can also build confidence to show that you've been using this feature for a while without issues.
+
+In the ecosystem of the Carpentries workbench forks, a good example is a contributor exploring python support in their own fork and [contributing it back to upstream](https://github.com/carpentries/sandpaper/pull/448).
+
 Note that this is not always possible to integrate back your changes as upstream may have a restricted scope, or limited resources for maintenance.
 
 When contributing back, each pull request should focus on a single feature or bug fix, rather than pushing all changes the fork has accumulated.
