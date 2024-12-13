@@ -75,10 +75,16 @@ and by isolating these changes in specific locations.
 
 In practice, this can for example be done by using configuration files and variables.
 This serves the double purpose of being more [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) and of separating changes.
-In the example of the Carpentries workbench, [a pull request added a Sass variable to change the font](https://github.com/carpentries/varnish/pull/151), 
+
+Although these changes need to take place in the upstream repository,
+it doesn't necessarily mean that the upstream maintainers are responsible for making these changes.
+Forks maintainers are both the beneficiaries and the best placed to identify required changes,
+and should be encouraged to submit pull requests to upstream to make these changes.
+
+In the example of the Carpentries workbench, [Hugo submitted a pull request to a Sass variable to change the font](https://github.com/carpentries/varnish/pull/151), 
 removing the need to change it in multiple locations.
 
-From the fork owner perspective, some other techniques can also make conflict resolution smoother.
+On the fork's side, some other techniques can also make conflict resolution smoother.
 A major location of conflicts are auto-generated changes or files.
 In the workbench example, this is the concatenated and minified CSS files.
 They tend to concentrate conflicts because they regroup changes from multiple files, 
