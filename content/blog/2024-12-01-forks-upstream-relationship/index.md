@@ -91,7 +91,7 @@ They tend to concentrate conflicts because they regroup changes from multiple fi
 and they are minified on a single line, which means git cannot distinguish what was changed.
 
 But you can automate the conflict resolution for these cases.
-The key is to make automated changes in a separate commit.
+The key is to [make automated changes in a separate commit](https://github.com/epiverse-trace/varnish/pull/7/commits/b7633fa9107e11d0a5147488b9c9c1c4855f6ff0).
 When this commit conflicts, you can re-run the script that generates the file,
 and commit the result, without having to think about what should be kept or not.
 
