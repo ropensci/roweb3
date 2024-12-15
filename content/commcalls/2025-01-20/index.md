@@ -48,10 +48,10 @@ speakers:
     to R-core through bug fixes."
     img: /img/community/yaoxiang-li.jpg
   - name: "Pascal Burkhard"
-    bio: "I'm a geography and computer science teacher in a Swiss high school. 
-    I have been using R for about 15 year now. 
-    I mostly do visualizations for my lessons (graphs and maps). 
-    I'm also a big fan of Quarto to create documents, presentations and books 
+    bio: "Pascal is a geography and computer science teacher in a Swiss high school, and
+    has been using R for about 15 years now. 
+    Pascal mostly does visualizations for lessons (graphs and maps), but is 
+    also a big fan of Quarto to create documents, presentations and books 
     that can all be organized into clean websites to use as a teaching platform."
     img: /img/community/pascal-burkhard.png   
   - name: "Hugo Gruson"
@@ -73,8 +73,8 @@ people recalled the challenges and mistakes they made,
 but mostly how much they learned from and enjoyed that experience.
 
 In this community call moderated by Hugo Gruson, our speaker, 
-Yaoxiang Li will share Best Practices and Advanced Techniques for Supercharging 
-R Package Quality with testthat, Pascal Burkhard will discuss is the basic git 
+Yaoxiang Li will discus the importance of tests with respect to first-time contributions, and share best practices and advanced techniques for supercharging 
+R package quality with testthat, Pascal Burkhard will discuss is the basic git 
 skills that can help to make a first contribution, and Sunny Tseng will share 
 practical advice for making first contributions, common challenges and how to 
 overcome them.
