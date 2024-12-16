@@ -84,7 +84,7 @@ Este capítulo incluye glosarios colaborativos que son recursos terminológicos 
 útiles como referencia y que ayudan a las personas que trabajan en la traducción a tomar 
 decisiones coherentes e informadas.
 
-### [Noticias](https://translationguide.ropensci.org/booknews.html)
+### [NEWS (Noticias)](https://translationguide.ropensci.org/booknews.html)
 
 Esta sección documenta todos los cambios realizados en las directrices en cada versión, por quién, 
 y muestra la mejora continua de la guía.
