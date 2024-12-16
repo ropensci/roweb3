@@ -18,11 +18,12 @@ description: "rOpenSci ha desarrollado un conjunto de directrices para ayudar a 
 ---
 
 Desde 2022, rOpenSci ha estado desarrollando herramientas y procesos para localizar y traducir nuestros contenidos.
-Como resultado de este esfuerzo, hemos creado un conjunto de directrices para ayudar a nuestra comunidad a traducir y localizar nuestros recursos.
+Como resultado de este esfuerzo, hemos creado un conjunto de directrices para ayudar a nuestra 
+comunidad a traducir y localizar nuestros recursos.
 Lo que comenzó como un reto interno se ha convertido en un plan de colaboración que creemos que puede 
 ayudar a transformar la forma en que se comparten los recursos científicos en un contexto de investigación multilingüe.
 
-Por ello, nos alegra compartir la ¡primera versión de la 
+Por eso, nos alegra compartir la ¡primera versión de la 
 [Guía de localización y traducción de rOpenSci](https://translationguide.ropensci.org/)!
 
 {{< figure src = "multilingual-chapter.png" alt = "Los primeros párrafos de la sección Aspectos generales de 
@@ -35,7 +36,7 @@ Están diseñadas para apoyar a los miembros de la comunidad que contribuyen a
 la [proyecto de publicación multilingüe](/multilingual-publishing/).
 Por ello, esta guía también es multilingüe en sí misma, 
 ya que ofrece directrices generales y específicas para traducir 
-y localizar nuestros recursos en los [idiomas activos](https://github.com/ropensci-review-tools/translation_guide/?tab=readme-ov-file#languages-with-active-projects).
+y localizar nuestros recursos en los diferentes [idiomas activos](https://github.com/ropensci-review-tools/translation_guide/?tab=readme-ov-file#languages-with-active-projects).
 
 La guía es más que una referencia: es un documento vivo de la experiencia colectiva 
 de nuestra comunidad y de todas las personas voluntarias que contribuyen a este proyecto.
@@ -44,7 +45,10 @@ Vamos a presentarte la guía con un recorrido por sus seis secciones.
 
 ### [Prefacio](https://translationguide.ropensci.org): Una invitación a la colaboración
 
-Un breve resumen de la finalidad del libro, el público al que va dirigido, los objetivos de las directrices e instrucciones sobre cómo contribuir. Queríamos crear algo que diera la bienvenida a colaboradores de todos los ámbitos, ya fueras un traductor profesional, un desarrollador o simplemente alguien apasionado por hacer más accesible el conocimiento científico.
+Un breve resumen de la finalidad del libro, el público al que va dirigido, los objetivos de las directrices e 
+instrucciones sobre cómo contribuir. Queríamos crear algo que diera la bienvenida a 
+personas que quisieran colaborar de todos los ámbitos, ya sea que fueras un traductor profesional, 
+una desarrolladora o simplemente alguien a quien le apasiona hacer más accesible el conocimiento científico.
 
 ### [Motivación](https://translationguide.ropensci.org/motivation.html) Confrontar la desigualdad lingüística
 
@@ -65,12 +69,16 @@ También proporciona directrices técnicas y generales de revisión para garanti
 
 ### [Directrices lingüísticas específicas](https://translationguide.ropensci.org/specific_guidelines.html) Acoger la diversidad lingüística
 
-Este capítulo tiene contenidos específicos para distintas lenguas.
-Su objetivo es ofrecer orientaciones para tratar desde los términos técnicos hasta los matices culturales, respetando las características propias de cada lengua y los acuerdos comunitarios sobre cómo localizar y traducir los contenidos.
+Este capítulo tiene un contenido específico para cada versión lingüística de la guía.
+Esto significa que las instrucciones para inglés, español y portugués pueden diferir entre sí, 
+según los acuerdos alcanzados por la comunidad y plasmados en este capítulo. 
+Su objetivo es ofrecer orientaciones para tratar desde los términos técnicos hasta los matices culturales, 
+respetando las características propias de cada lengua y los acuerdos comunitarios sobre cómo 
+localizar y traducir los contenidos.
 Esta sección también aborda la localización de citas, código, diagramas y datos.
 Este capítulo incluye glosarios colaborativos que son recursos terminológicos completos, útiles como referencia y que ayudan a los traductores a tomar decisiones coherentes e informadas.
 
-### [NOTICIAS](https://translationguide.ropensci.org/booknews.html)
+### [Noticias](https://translationguide.ropensci.org/booknews.html)
 
 Esta sección documenta todos los cambios realizados en las directrices en cada versión, por quién, y muestra la mejora continua de la guía.
 
