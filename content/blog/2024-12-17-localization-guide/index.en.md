@@ -89,6 +89,6 @@ We see it as a starting point for conversation, collaboration and meaningful cha
 
 If you'd like to contribute to translation efforts or improve this guide, please check out the [list of languages for which there are active translation projects and their statuses](https://github.com/ropensci-review-tools/translation_guide#active). 
 
-You can contact us at info@ropensci.org or [open an issue in this repository](https://github.com/ropensci-review-tools/translation_guide/issues).
+You can contact us at info@ropensci.org or [open an issue in the guidelines repository](https://github.com/ropensci-review-tools/translation_guide/issues).
 
 Now go forth and translate and localize!

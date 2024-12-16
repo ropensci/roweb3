@@ -108,6 +108,6 @@ Si quieres contribuir a los esfuerzos de traducción o mejorar esta guía,
 consulta la [lista de idiomas para los que hay proyectos de traducción activos y su estado](https://github.com/ropensci-review-tools/translation_guide#active).
 
 Puedes ponerte en contacto con nosotros en [info@ropensci.org](mailto:info@ropensci.org) 
-o [abre un _issue_ en este repositorio](https://github.com/ropensci-review-tools/translation_guide/issues).
+o [abre un _issue_ en el repositorio de la guía](https://github.com/ropensci-review-tools/translation_guide/issues).
 
 Y ahora, ¡a traducir y localizar!
