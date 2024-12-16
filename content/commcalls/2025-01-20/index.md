@@ -7,8 +7,8 @@ publishDate: 2025-01-20
 description: ""
 author:
   - Yi-Chin Sunny Tseng
+  - Pascal Burkhard  
   - Yaoxiang Li
-  - Pascal Burkhard
   - Hugo Gruson 
 organizer: Yanina Bellini Saibene
 location: Community call (teleconference)
@@ -25,7 +25,6 @@ resources:
   # - url:  
   #   name:  ""
   #   details: ""
-
 speakers:  
   - name: "Yi-Chin Sunny Tseng"
     bio: "Sunny Tseng is a Vancouver-based data scientist and PhD candidate specializing in 
@@ -35,6 +34,13 @@ speakers:
     linking her passion for open science with her Taiwanese roots—and featuring her bird art 
     as the logo."
     img: /img/team/sunny-tseng.jpg
+  - name: "Pascal Burkhard"
+    bio: "Pascal is a geography and computer science teacher in a Swiss high school, and
+    has been using R for about 15 years now. 
+    Pascal mostly does visualizations for lessons (graphs and maps), but is 
+    also a big fan of Quarto to create documents, presentations and books 
+    that can all be organized into clean websites to use as a teaching platform."
+    img: /img/community/pascal-burkhard.png   
   - name: "Yaoxiang Li"
     bio: "Yaoxiang Li is a Senior Bioinformatician at Georgetown University. 
     He has extensive experience in developing R packages, 
@@ -47,13 +53,6 @@ speakers:
     including co-authoring several rOpenSci packages and contributing 
     to R-core through bug fixes."
     img: /img/community/yaoxiang-li.jpg
-  - name: "Pascal Burkhard"
-    bio: "Pascal is a geography and computer science teacher in a Swiss high school, and
-    has been using R for about 15 years now. 
-    Pascal mostly does visualizations for lessons (graphs and maps), but is 
-    also a big fan of Quarto to create documents, presentations and books 
-    that can all be organized into clean websites to use as a teaching platform."
-    img: /img/community/pascal-burkhard.png   
   - name: "Hugo Gruson"
     bio: "Hugo Gruson is an evolutionary biologist who fell in love with R and R package development during his PhD. He is now working full-time as an R package developer, with a current focus on making the ecosystem of R packages for epidemiology more robust."
     img: /img/community/hugo-gruson.jpg    
