@@ -50,24 +50,31 @@ instrucciones sobre cómo contribuir. Queríamos crear algo que diera la bienven
 personas que quisieran colaborar de todos los ámbitos, ya sea que fueras un traductor profesional, 
 una desarrolladora o simplemente alguien a quien le apasiona hacer más accesible el conocimiento científico.
 
-### [Motivación](https://translationguide.ropensci.org/motivation.html) Confrontar la desigualdad lingüística
+### [Motivación](https://translationguide.ropensci.org/motivation.html) Hacer frente a la desigualdad lingüística
 
-Hemos visto de primera mano los retos a los que se enfrentan los hablantes no nativos de inglés en la comunicación científica.
+Hemos vivido de primera mano los retos a los que se enfrentan las personas que no hablan el inglés de forma nativa 
+en la comunicación científica.
 Esta sección explica la importancia de localizar y traducir nuestros recursos.
-Analiza el impacto de las barreras lingüísticas, los principios de la localización y traducción impulsadas por la comunidad, y cómo estas actividades contribuyen a la construcción de la comunidad. Este capítulo es nuestro argumento para el cambio.
+Analiza el impacto de las barreras lingüísticas, los principios de la localización y traducción 
+realizadas de forma colaborativa, y cómo estas actividades contribuyen a la construcción de la comunidad. 
+Este capítulo es nuestro argumento para el cambio.
 
 ### [Visión general](https://translationguide.ropensci.org/intro.html) Nuestro marco técnico
 
-Esta sección presenta los conceptos de localización y traducción, explicando cómo mejoran la accesibilidad. Presentamos las herramientas y métodos que hacen posible la traducción impulsada por la comunidad,
-esbozando la infraestructura técnica, la organización del trabajo y los aspectos generales de nuestro proceso de traducción y localización.
+Esta sección presenta los conceptos de localización y traducción, explicando cómo mejoran la accesibilidad. 
+Presentamos las herramientas y métodos que hacen posible la traducción colaborativa,
+esbozando la infraestructura técnica, la organización del trabajo y los aspectos generales 
+de nuestro proceso de traducción y localización.
 
-### [Directrices de traducción y revisión](https://translationguide.ropensci.org/howtoreview.html) Nuestras ideas en la práctica
+### [Guía para traducir y revisar](https://translationguide.ropensci.org/howtoreview.html) Nuestras ideas en la práctica
 
 Esta sección ofrece una guía detallada sobre la traducción y revisión de nuestros recursos.
 Abarca cómo contribuir a un proyecto lingüístico nuevo o existente y gestionar el proceso de localización y traducción.
-También proporciona directrices técnicas y generales de revisión para garantizar la calidad de la traducción: equilibrar la eficacia de la traducción automática con la comprensión cualificada que sólo pueden proporcionar los revisores humanos.
+También proporciona directrices técnicas y generales de revisión para garantizar la calidad 
+de la traducción: equilibrar la eficacia de la traducción automática con la 
+comprensión cualificada que sólo pueden proporcionar los y las revisores humanos.
 
-### [Directrices lingüísticas específicas](https://translationguide.ropensci.org/specific_guidelines.html) Acoger la diversidad lingüística
+### [Directrices lingüísticas específicas](https://translationguide.ropensci.org/specific_guidelines.html) Abrazar la diversidad lingüística
 
 Este capítulo tiene un contenido específico para cada versión lingüística de la guía.
 Esto significa que las instrucciones para inglés, español y portugués pueden diferir entre sí, 
@@ -76,26 +83,34 @@ Su objetivo es ofrecer orientaciones para tratar desde los términos técnicos h
 respetando las características propias de cada lengua y los acuerdos comunitarios sobre cómo 
 localizar y traducir los contenidos.
 Esta sección también aborda la localización de citas, código, diagramas y datos.
-Este capítulo incluye glosarios colaborativos que son recursos terminológicos completos, útiles como referencia y que ayudan a los traductores a tomar decisiones coherentes e informadas.
+Este capítulo incluye glosarios colaborativos que son recursos terminológicos completos, 
+útiles como referencia y que ayudan a las personas que trabajan en la traducción a tomar 
+decisiones coherentes e informadas.
 
 ### [Noticias](https://translationguide.ropensci.org/booknews.html)
 
-Esta sección documenta todos los cambios realizados en las directrices en cada versión, por quién, y muestra la mejora continua de la guía.
+Esta sección documenta todos los cambios realizados en las directrices en cada versión, por quién, 
+y muestra la mejora continua de la guía.
 
 ## Próximos pasos
 
-Esta guía está pensada para quienes estén interesados en localizar materiales de rOpenSci o en contribuir al mantenimiento de contenidos localizados, pero esperamos que también sea útil para cualquier persona encargada de localizar material más allá de nuestra comunidad.
+Esta guía está pensada para quienes tienen interés en localizar materiales de rOpenSci 
+o en contribuir al mantenimiento de contenidos localizados, 
+pero esperamos que también sea útil para cualquier persona encargada de localizar material más allá de nuestra comunidad.
 Queremos que nuestros procesos, acuerdos y las lecciones que hemos aprendido beneficien también a otras comunidades.
 
-Esta guía es un documento vivo que seguirá mejorando con las aportaciones de los miembros de nuestra comunidad, perfeccionando y ampliando nuestro trabajo.
-Está disponible en inglés y español, con planes para traducirla a otros idiomas en función de nuestros proyectos de traducción activos, como el portugués.
+Esta guía es un documento vivo que seguirá mejorando con los aportes de las personas de nuestra comunidad, 
+perfeccionando y ampliando nuestro trabajo.
+Está disponible en inglés y español, con planes para traducirla a otros idiomas en función 
+de nuestros proyectos de traducción activos, como el portugués.
 
-Lo consideramos un punto de partida para la conversación, la colaboración y el cambio significativo en la forma en que compartimos el conocimiento científico más allá de las fronteras lingüísticas.
+Lo consideramos un punto de partida para la conversación, la colaboración y el cambio significativo 
+en la forma en que compartimos el conocimiento científico más allá de las fronteras lingüísticas.
 
-Si quieres contribuir a los esfuerzos de traducción o mejorar esta guía, consulta la página [lista de idiomas para los que hay proyectos de traducción activos y su estado](https://github.com/ropensci-review-tools/translation_guide#active).
+Si quieres contribuir a los esfuerzos de traducción o mejorar esta guía, 
+consulta la [lista de idiomas para los que hay proyectos de traducción activos y su estado](https://github.com/ropensci-review-tools/translation_guide#active).
 
-Puedes ponerte en contacto con nosotros en [info@ropensci.org](mailto:info@ropensci.org) o [abre una incidencia en este repositorio](https://github.com/ropensci-review-tools/translation_guide/issues).
+Puedes ponerte en contacto con nosotros en [info@ropensci.org](mailto:info@ropensci.org) 
+o [abre un _issue_ en este repositorio](https://github.com/ropensci-review-tools/translation_guide/issues).
 
-Y ahora, ¡a traducir!
-
-
+Y ahora, ¡a traducir y localizar!
