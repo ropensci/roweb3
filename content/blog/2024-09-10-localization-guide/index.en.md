@@ -7,7 +7,7 @@ author:
     - Elio Campitelli
 editor:
 - Steffi LaZerte
-date: '2024-09-10'
+date: '2024-12-17'
 slug: localization-guide
 categories:
   - blog
@@ -15,8 +15,10 @@ tags:
   - multilingual
   - community
   
-description: ""
-
+description: "rOpenSci has developed a set of guidelines to assist 
+our community in translating and localizing our resources. 
+We're excited to share the first version of the rOpenSci Localization 
+and Translation Guidelines!" 
 ---
 
 Since 2022, rOpenSci has been developing tools and processes to localize and translate our content.
