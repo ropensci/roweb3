@@ -26,10 +26,7 @@ ayudar a transformar la forma en que se comparten los recursos científicos en u
 Por eso, nos alegra compartir la ¡primera versión de la 
 [Guía de localización y traducción de rOpenSci](https://translationguide.ropensci.org/)!
 
-{{< figure src = "multilingual-chapter.png" alt = "Los primeros párrafos de la sección Aspectos generales de 
-la fase 1 del proceso de traducción en inglés (lado izquierdo) y español (lado derecho). 
-Mostrando el texto y los mapas conceptuales en ambos idiomas." 
-caption = "Capítulo sobre Aspectos generales de la fase 1 del proceso de traducción al inglés y al español">}}
+{{< figure src = "multilingual-chapter.png" alt = "Los primeros párrafos de la sección Aspectos generales de la fase 1 del proceso de traducción en inglés (lado izquierdo) y español (lado derecho). Mostrando el texto y los mapas conceptuales en ambos idiomas." caption = "Capítulo sobre Aspectos generales de la fase 1 del proceso de traducción al inglés y al español">}}
 
 Estas directrices explican los fundamentos y el proceso de localización y traducción de nuestros recursos.
 Están diseñadas para apoyar a los miembros de la comunidad que contribuyen a 
