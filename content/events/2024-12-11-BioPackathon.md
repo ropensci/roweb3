@@ -1,5 +1,5 @@
 ---
-title: 'Bio "Pack"athon'
+title: 'BioPackathon'
 dateStart: '2024-12-11T08:00:00'
 dateEnd: '2024-12-11T10:00:00'
 date: 2024-12-11T10:00:00 # UTC!! same as dateEnd
