@@ -63,8 +63,11 @@ It also provides technical and general review guidelines to ensure translation q
 
 ### [Specific Language Guidelines](https://translationguide.ropensci.org/specific_guidelines.html): Embracing linguistic diversity
 
-This chapter has specific content for different languages. 
-It aims to offer guidance on handling everything from technical terms to cultural nuances, respecting the unique characteristics of each language and the community agreements on how to localize and translate content.
+This chapter has specific content to each language version of the guide. 
+This means that the instructions for English, Spanish and Portuguese may differ from each other, 
+according to the agreements reached by the community and reflected in this chapter. 
+It aims to offer guidance on handling everything from technical terms to cultural nuances, 
+respecting the unique characteristics of each language and the community agreements on how to localize and translate content.
 This section also addresses the localization of citations, code, diagrams, and data.
 This chapter includes collaborative glossaries which are comprehensive terminology resources, useful as a reference and which help translators make consistent, informed choices.
  
