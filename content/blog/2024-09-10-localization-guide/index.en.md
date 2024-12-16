@@ -86,3 +86,4 @@ If you'd like to contribute to translation efforts or improve this guide, please
 
 You can contact us at info@ropensci.org or [open an issue in this repository](https://github.com/ropensci-review-tools/translation_guide/issues).
 
+Now go forth and translate!
