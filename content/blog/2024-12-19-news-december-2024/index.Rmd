@@ -83,6 +83,8 @@ Consult our [Events](/events) page to find your local time and how to join.
 
 And stay tuned for some special coworking sessions [supporting first-time contributors](/blog/2024/10/22/first-time-contributions/) to open source coming up in February and March 2025!
 
+And stay tuned for some special coworking sessions [supporting first-time contributors](/blog/2024/10/22/first-time-contributions/) to open source coming up in February and March 2025!
+
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
 ## Software :package:
