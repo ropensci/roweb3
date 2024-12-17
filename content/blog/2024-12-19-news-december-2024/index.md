@@ -21,7 +21,7 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-### R-Universe Named R Consortium Top-Level Project
+### R-Universe Named an R Consortium Top-Level Project
 
 We are excited to announce that [R-Universe](/r-universe/)
 has been [named](https://r-consortium.org/posts/r-universe-named-r-consortiums-newest-top-level-project/) the [R Consortium's](https://r-consortium.org) newest [Top-Level Project](https://r-consortium.org/all-projects/)!  We're glad
@@ -32,6 +32,20 @@ its [Infrastructure Steering Committee (ISC)](https://r-consortium.org/about/gov
 
 Read more in our [announcement](/blog/2024/12/03/r-universe-r-consortium-tlp/)!
 
+### Community Call "From Novice to Contributor: Making and Supporting First-Time Contributions to FOSS"
+
+Contributing to open source can be very rewarding but also incredibly intimidating. 
+In this community call, moderated by [Hugo Gruson](/author/hugo-gruson/), our speakers, [Yaoxiang Li](/author/yaoxiang-li/), [Pascal Burkhard](/author/pascal-burkhard/), and [Sunny Tseng](/author/yi-chin-sunny-tseng/), will share practical advice for making first contributions, how to use tools like git and testthat, and common challenges and how to overcome them.
+
+📆 Monday, 20 January 2025 16:00 UTC
+🎤 With [Yi-Chin Sunny Tseng](/author/yi-chin-sunny-tseng/), [Pascal Burkhard](/author/pascal-burkhard/), [Yaoxiang Li](/author/yaoxiang-li/), [Hugo Gruson](/author/hugo-gruson/).
+[Check your local time + info to join + speakers bio and resources](/commcalls/first-time-contributor/)
+
+Contributing to open source can be very rewarding but also incredibly intimidating. In this community call, moderated by Hugo Gruson, our speakers, Yaoxiang Li, Pascal Burkhard, and Sunny Tseng, will share practical advice for making first contributions, how to use tools like git and testthat, and common challenges and how to overcome them.
+
+📆 Monday, 20 January 2025 16:00 UTC
+🎤 With [Yi-Chin Sunny Tseng](/author/yi-chin-sunny-tseng/), [Pascal Burkhard](/author/pascal-burkhard/), [Yaoxiang Li](/author/yaoxiang-li/), [Hugo Gruson](/author/hugo-gruson/).
+[Check your local time + info to join + speakers bio and resources](/commcalls/first-time-contributor/)
 ### Coworking
 
 Read [all about coworking](/blog/2023/06/21/coworking/)!
@@ -46,6 +60,10 @@ Consult our [Events](/events) page to find your local time and how to join.
     - Read up on what Parquet is.
     - Explore how to use Parquet in R.
     - Meet community host, Rainer Krug, and discuss benefits and tips for using Parquet in R and how you might use it in your work.
+
+And stay tuned for some special coworking sessions [supporting first-time contributors](/blog/2024/10/22/first-time-contributions/) to open source coming up in February and March 2025!
+
+And stay tuned for some special coworking sessions [supporting first-time contributors](/blog/2024/10/22/first-time-contributions/) to open source coming up in February and March 2025!
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
@@ -66,29 +84,31 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following five packages have had an update since the last newsletter: [drake](https://docs.ropensci.org/drake "A Pipeline Toolkit for Reproducible Computation at Scale") ([`7.13.11`](https://github.com/ropensci/drake/releases/tag/7.13.11)), [jagstargets](https://docs.ropensci.org/jagstargets "Targets for JAGS Pipelines") ([`1.2.3`](https://github.com/ropensci/jagstargets/releases/tag/1.2.3)), [lightr](https://docs.ropensci.org/lightr "Read Spectrometric Data and Metadata") ([`v1.8.0`](https://github.com/ropensci/lightr/releases/tag/v1.8.0)), [stantargets](https://docs.ropensci.org/stantargets "Targets for Stan Workflows") ([`0.1.2`](https://github.com/ropensci/stantargets/releases/tag/0.1.2)), and [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.9.1`](https://github.com/ropensci/targets/releases/tag/1.9.1)).
+The following eight packages have had an update since the last newsletter: [drake](https://docs.ropensci.org/drake "A Pipeline Toolkit for Reproducible Computation at Scale") ([`7.13.11`](https://github.com/ropensci/drake/releases/tag/7.13.11)), [getCRUCLdata](https://docs.ropensci.org/getCRUCLdata "CRU CL v. 2.0 Climatology Client") ([`v1.0.2`](https://github.com/ropensci/getCRUCLdata/releases/tag/v1.0.2)), [jagstargets](https://docs.ropensci.org/jagstargets "Targets for JAGS Pipelines") ([`1.2.3`](https://github.com/ropensci/jagstargets/releases/tag/1.2.3)), [lightr](https://docs.ropensci.org/lightr "Read Spectrometric Data and Metadata") ([`v1.8.0`](https://github.com/ropensci/lightr/releases/tag/v1.8.0)), [rerddap](https://docs.ropensci.org/rerddap "General Purpose Client for ERDDAP™ Servers") ([`v1.2.0`](https://github.com/ropensci/rerddap/releases/tag/v1.2.0)), [spatsoc](https://docs.ropensci.org/spatsoc "Group Animal Relocation Data by Spatial and Temporal Relationship") ([`v0.2.8`](https://github.com/ropensci/spatsoc/releases/tag/v0.2.8)), [stantargets](https://docs.ropensci.org/stantargets "Targets for Stan Workflows") ([`0.1.2`](https://github.com/ropensci/stantargets/releases/tag/0.1.2)), and [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.9.1`](https://github.com/ropensci/targets/releases/tag/1.9.1)).
 
 ## Software Peer Review
 
-There are thirteen recently closed and active submissions and 7 submissions on hold. Issues are at different stages: 
+There are seventeen recently closed and active submissions and 6 submissions on hold. Issues are at different stages: 
 
-* One at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
+* Two at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
 
-     * [agromet](https://github.com/ropensci/software-review/issues/599), Índices y Estadísticos Climáticos e Hidrológicos. Submitted by [Paola Corrales](https://paocorrales.github.io). 
+     * [gigs](https://github.com/ropensci/software-review/issues/626), Assess Fetal, Newborn, and Child Growth with International Standards. Submitted by [Simon Parker](https://github.com/simpar1471).  (Stats).
+
+    * [agromet](https://github.com/ropensci/software-review/issues/599), Índices y Estadísticos Climáticos e Hidrológicos. Submitted by [Paola Corrales](https://paocorrales.github.io). 
 
 * Three at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
 
      * [rredlist](https://github.com/ropensci/software-review/issues/663), IUCN Red List Client. Submitted by [William Gearty](http://williamgearty.com). 
 
-    * [cancerprof](https://github.com/ropensci/software-review/issues/637), API Client for State Cancer Profiles. Submitted by [Brian Park](https://github.com/realbp). 
+    * [mbquartR](https://github.com/ropensci/software-review/issues/658), Finding Manitoba Quarter Sections. Submitted by [Alex Koiter](http://www.alexkoiter.ca). 
 
-    * [gigs](https://github.com/ropensci/software-review/issues/626), Assess Fetal, Newborn, and Child Growth with International Standards. Submitted by [Simon Parker](https://github.com/simpar1471).  (Stats).
+    * [cancerprof](https://github.com/ropensci/software-review/issues/637), API Client for State Cancer Profiles. Submitted by [Brian Park](https://github.com/realbp). 
 
 * Four at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
 
-     * [fireexposuR](https://github.com/ropensci/software-review/issues/659), Compute and Visualize Wildfire Exposure. Submitted by [Air Forbes](https://wildfireanalytics.org/forbes.html). 
+     * [butterfly](https://github.com/ropensci/software-review/issues/676), Verification For Continually Updating Timeseries Data. Submitted by [Thomas Zwagerman](https://thomaszwagerman.co.uk/). 
 
-    * [mbquartR](https://github.com/ropensci/software-review/issues/658), Finding Manitoba Quarter Sections. Submitted by [Alex Koiter](http://www.alexkoiter.ca). 
+    * [fireexposuR](https://github.com/ropensci/software-review/issues/659), Compute and Visualize Wildfire Exposure. Submitted by [Air Forbes](https://wildfireanalytics.org/forbes.html). 
 
     * [sits](https://github.com/ropensci/software-review/issues/596), Satellite Image Time Series Analysis for Earth Observation Data Cubes. Submitted by [Gilberto Camara](https://www.gilbertocamara.org). 
 
@@ -102,11 +122,17 @@ There are thirteen recently closed and active submissions and 7 submissions on h
 
     * [galamm](https://github.com/ropensci/software-review/issues/615), Generalized Additive Latent and Mixed Models. Submitted by [Øystein Sørensen](https://osorensen.rbind.io).  (Stats).
 
-* Two at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
+* Five at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
 
      * [geotargets](https://github.com/ropensci/software-review/issues/675), Targets Extensions for Geospatial Formats. Submitted by [Nicholas Tierney](https://www.njtierney.com). 
 
+    * [browseMetadata](https://github.com/ropensci/software-review/issues/674), Browse and categorise health metadata. Submitted by [Rachael Stickland](https://github.com/RayStick). 
+
+    * [sasquatch](https://github.com/ropensci/software-review/issues/673), Use SAS, R, and quarto Together. Submitted by [Ryan Zomorrodi](http://ryanzomorrodi.github.io). 
+
     * [forcis](https://github.com/ropensci/software-review/issues/660), An R Client to Access the FORCIS Database. Submitted by [Nicolas Casajus](https://nicolascasajus.fr). 
+
+    * [capybara](https://github.com/ropensci/software-review/issues/645), Fast and Memory Efficient Fitting of Linear Models With High-Dimensional. Submitted by [Mauricio "Pachá" Vargas Sepúlveda](https://pacha.dev). 
 
 Find out more about [Software Peer Review](/software-review) and how to get involved.
 
