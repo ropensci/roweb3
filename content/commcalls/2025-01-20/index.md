@@ -73,7 +73,7 @@ but mostly how much they learned from and enjoyed that experience.
 
 In this community call moderated by Hugo Gruson, our speaker, 
 Yaoxiang Li will discus the importance of tests with respect to first-time contributions, and share best practices and advanced techniques for supercharging 
-R package quality with testthat, Pascal Burkhard will discuss is the basic git 
+R package quality with testthat, Pascal Burkhard will discuss the basic git 
 skills that can help to make a first contribution, and Sunny Tseng will share 
 practical advice for making first contributions, common challenges and how to 
 overcome them.
