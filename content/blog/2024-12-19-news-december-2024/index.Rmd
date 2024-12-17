@@ -595,7 +595,7 @@ Some useful tips for R package developers. :eyes:
 
 Here are two functions that parse the `*.Rcheck` folders in the given directory:
 
-`tools::check_packages_in_dir_details` gives a data frame, one line for each NOTE, WARNING or ERROR in the check logs. 
+`tools::check_packages_in_dir_details()` gives a data frame, one line for each NOTE, WARNING or ERROR in the check logs. 
 Therefore, one gets multiple lines per package. 
 We can convert the output to JSON:
 
