@@ -55,7 +55,8 @@ its [Infrastructure Steering Committee (ISC)](https://r-consortium.org/about/gov
 Read more in our [announcement](/blog/2024/12/03/r-universe-r-consortium-tlp/)!
 ## Community Call "From Novice to Contributor: Making and Supporting First-Time Contributions to FOSS"
 
-Contributing to open source can be very rewarding but also incredibly intimidating. In this community call, moderated by Hugo Gruson, our speakers, Yaoxiang Li, Pascal Burkhard, and Sunny Tseng, will share practical advice for making first contributions, how to use tools like git and testthat, and common challenges and how to overcome them.
+Contributing to open source can be very rewarding but also incredibly intimidating. 
+In this community call, moderated by [Hugo Gruson](/author/hugo-gruson/), our speakers, [Yaoxiang Li](/author/yaoxiang-li/), [Pascal Burkhard](/author/pascal-burkhard/), and [Sunny Tseng](/author/yi-chin-sunny-tseng/), will share practical advice for making first contributions, how to use tools like git and testthat, and common challenges and how to overcome them.
 
 📆 Monday, 20 January 2025 16:00 UTC
 🎤 With [Yi-Chin Sunny Tseng](/author/yi-chin-sunny-tseng/), [Pascal Burkhard](/author/pascal-burkhard/), [Yaoxiang Li](/author/yaoxiang-li/), [Hugo Gruson](/author/hugo-gruson/).
