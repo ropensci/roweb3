@@ -43,7 +43,7 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-### R-Universe Named R Consortium Top-Level Project
+### R-Universe Named an R Consortium Top-Level Project
 
 We are excited to announce that [R-Universe](/r-universe/)
 has been [named](https://r-consortium.org/posts/r-universe-named-r-consortiums-newest-top-level-project/) the [R Consortium's](https://r-consortium.org) newest [Top-Level Project](https://r-consortium.org/all-projects/)!  We're glad
@@ -68,6 +68,8 @@ Consult our [Events](/events) page to find your local time and how to join.
     - Read up on what Parquet is.
     - Explore how to use Parquet in R.
     - Meet community host, Rainer Krug, and discuss benefits and tips for using Parquet in R and how you might use it in your work.
+
+And stay tuned for some special coworking sessions [supporting first-time contributors](/blog/2024/10/22/first-time-contributions/) to open source coming up in February and March 2025!
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
