@@ -157,6 +157,8 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 * [R-Universe Named R Consortium Top-Level Project](/blog/2024/12/03/r-universe-r-consortium-tlp) by Noam Ross and Jeroen Ooms. We're excited to announce R-Universe has been named the R-Consortium's newest Top-Level Project. Other languages: <a href='/es/blog/2024/12/03/r-universe-r-consortium-tlp' lang='es'>R-Universe es ahora un proyecto de alto nivel del R Consortium (es)</a>.
 
+* [Introducing the rOpenSci Localization and Translation Guidelines](/blog/2024/12/17/localization-guide) by Yanina Bellini Saibene, Maëlle Salmon, Pao Corrales, and Elio Campitelli. rOpenSci has developed a set of guidelines to assist our community in translating and localizing our resources. We're excited to share the first version of the rOpenSci Localization and Translation Guidelines. Other languages: <a href='/es/blog/2024/12/17/guia-localizacion' lang='es'>Presentación de la Guía de localización y traducción de rOpenSci (es)</a>.
+
 ## Calls for contributions
 
 ### Calls for maintainers
