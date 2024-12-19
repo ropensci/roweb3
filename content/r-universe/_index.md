@@ -5,7 +5,7 @@ description = "The R-universe platform for improving publication and discovery o
 tags = ["r-universe"]
 +++
 
-[R-universe](https://r-universe.dev/) is our platform for improving publication and discovery of research software in R.
+[R-universe](https://r-universe.dev/) is rOpenSci's platform for improving publication and discovery of research software in R.
 
 R-universe allows users and developers of R packages to...
 

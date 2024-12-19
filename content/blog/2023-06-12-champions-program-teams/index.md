@@ -4,6 +4,9 @@ slug: ropensci-champions-program-teams-meet-cheryl-isabella-lim-and-mauro-lepore
 author:
   - Cheryl Isabella Lim
   - Mauro Lepore
+editor:
+  - Yanina Bellini Saibene
+  - Steffi LaZerte  
 date: '2023-06-12'
 tags:
   - community

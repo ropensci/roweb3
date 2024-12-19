@@ -3,6 +3,9 @@ slug: "champions-program-2023-experience"
 title: '2023 rOpensci Champions Program: My Experience'
 author:
 - Bilikisu Wunmi Olatunji
+editor:
+  - Yanina Bellini Saibene
+  - Steffi LaZerte
 date: '2023-12-19'
 tags:
 - community

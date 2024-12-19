@@ -141,10 +141,11 @@ that enables any software user to cite any repository in
 [APA](https://apastyle.apa.org/style-grammar-guidelines/references/examples/journal-article-references#1)
 or [BibTeX](http://www.bibtex.org/Using/) style.
 
-<!--html_preserve-->
-{{< tweet user="natfriedman" id="1420122675813441540" >}}
-<!--/html_preserve-->
-
+> We’ve just added built-in citation support to GitHub so researchers and scientists can more easily receive acknowledgments for their contributions to software.
+>
+> Just push a CITATION.cff file and we’ll add a handy widget to the repo sidebar for you.
+>
+> Enjoy! 🎉 pic.twitter.com/L85MS5pY2Y— Nat Friedman July 27, 2021
 This built-in feature heavily relies on the CFF format, rendering the
 information of the CITATION.cff file into the aforementioned styles.
 
@@ -153,10 +154,17 @@ software citation ecosystem. As a proof of that, on the two following days
 [Zenodo](https://zenodo.org/) and [Zotero](https://www.zotero.org/) announced
 support for CITATION.cff files in their GitHub integration:
 
-<!--html_preserve-->
-{{< tweet user="zenodo_org" id="1420357001490706442" >}}
-{{< tweet user="zotero" id="1420515377390530560" >}}
-<!--/html_preserve-->
+> We’ve just added support for CITATION.cff files in our GitHub integration.
+> 
+> Just push a CITATION.cff file in your repo and we’ll use it when registering the DOI via the ZENODO GitHub integration.
+>
+> Enjoy! 🎉— Zenodo July 28, 2021
+
+
+> We’ve added support for GitHub’s new citation feature. When saving GitHub repos to your library, Zotero can now use the enhanced metadata provided by developers.
+>
+> If there’s no citation file, Zotero will continue to use the existing repo metadata (Company, Prog. Language, etc.) — Zotero - July 28, 2021
+
 
 Integration with Zenodo means that when creating a Digital Object Identifier
 ([DOI](https://www.doi.org/)) for a GitHub repository via Zenodo, the DOI would

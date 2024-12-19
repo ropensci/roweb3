@@ -12,16 +12,25 @@ location: Community call (teleconference)
 country: "\U0001F310"
 attendees: All are welcome
 slug: nov2024-r-universe
-notes: 
+notes: https://docs.google.com/document/d/1pFhZ8Af6dN8sDUMqlEzSj5q7YfttAbhaeVM3fHH2QKw/edit?usp=sharing
 outputs:
 - HTML
 - Calendar 
-# vimeo:
-# - id: '888160235'
+vimeo: 
+ - id: '1012734243'
 resources:
   - url: https://ropensci.org/r-universe/
     name: R-Universe 
     details: R-Universe project.
+  - url: https://jeroen.github.io/user2024/
+    name: Slides
+    details: Jeroen slides.  
+  - url: https://ropensci.org/technotes/ 
+    name: Tech Notes
+    details: Read about this and many other r-universe topics.
+  - url: https://docs.r-universe.dev/publish/set-up.html 
+    name: How to setup your R-Universe
+    details: Step by step guide to setup your R-Universe.
 speakers:  
   - name: Jeroen Ooms
     bio: "rOpenSci Lead Infrastructure Engineer"

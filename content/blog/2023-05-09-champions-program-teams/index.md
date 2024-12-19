@@ -4,6 +4,9 @@ slug: ropensci-champions-program-teams-meet-haydee-svab-and-beatriz-milz
 author:
   - Haydee Svab
   - Beatriz Milz
+editor:
+  - Yanina Bellini Saibene
+  - Steffi LaZerte  
 date: '2023-05-09'
 tags:
   - community

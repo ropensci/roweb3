@@ -33,17 +33,31 @@
           </ul>
         </li>
         <li class="nav-item drp">
-          <a class="nav-link" lang="en" href="/blog/">Blog</a>
+          <a class="nav-link" lang="en" href="{{ relLangURL "blog"}}">{{ i18n "Blog" }}</a>
           <ul class="sub-menu">
-            <li><a lang="en" href="/technotes/">Tech Notes</a></li>
+            <li><a lang="en" href="{{ relLangURL "technotes"}}">{{ i18n "Tech-Notes" }}</a></li>
           </ul>
         </li>
 
         <li class="nav-item drp">
-          <a class="nav-link" lang="en" href="/about/">Projects</a>
+          <a class="nav-link" lang="en" href="/about/">{{ i18n "Projects" }}</a>
           <ul class="sub-menu">
+            {{ $currentlang := .Language }}
+            {{ $defaultlang := "en" }}
             {{ range $index, $page := ( where (where .Site.AllPages "Kind" "section") "Type" "in" .Site.Params.projects ) }}
-            <li><a lang="en" href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></li>
+            {{ if (eq $page.Language $currentlang) }}
+            <li><a lang="{{ $currentlang }}" href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></li>
+            {{ else }} 
+            {{ $placeholder := 0 }}
+            {{ range $page.AllTranslations }}
+            {{ if (eq .Lang $currentlang.Lang )}}
+            {{ $placeholder = 1 }}
+            {{ end }}
+            {{ end }}
+                {{ if (eq $placeholder 0) }}
+              <li><a lang="{{ $defaultlang }}" href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></li>
+                {{ end }}
+            {{ end }}
             {{ end }}
           </ul>
         </li>
@@ -72,8 +86,7 @@
             <li><a lang="en" href="/commcalls/">Community Calls</a></li>
             <li><a lang="en" href="/coworking/">Coworking</a></li>
             <li><a lang="en" href="/events/">Events</a></li>
-            <li><a lang="en" href="/code-of-conduct/">Code of Conduct (EN)</a></li>
-            <li><a lang="en" href="/codigo-de-conducta/">Código de Conducta (ES)</a></li>
+            <li><a lang="en" href="{{ relLangURL (i18n "Code-of-Conduct" | urlize)}}">{{ i18n "Code-of-Conduct" }}</a></li>
             <li><a lang="en" href="https://contributing.ropensci.org/" class="external-link">Contributing Guide</a></li>
             <li><a lang="en" href="https://discuss.ropensci.org/" class="external-link">Forum</a></li>
           </ul>
@@ -82,6 +95,7 @@
           <a class="nav-link" lang="en" href="/resources/">Resources</a>
           <ul class="sub-menu">
             <li><a lang="en" href="/talks-papers/">Talks & Publications</a></li>
+            <li><a lang="en" href="/training/">Training materials</a></li>
             <li><a class="external-link" lang="en" href="https://docs.ropensci.org/">Package Docs</a></li>
           </ul>
         </li>

@@ -12,6 +12,7 @@
    "mastodon": "https://ecoevo.social/@noamross",
    "linkedin": "https://www.linkedin.com/in/noamross",
    "github": "noamross",
+   "bluesky": "noamross.net",
    "home": "/author/noam-ross"
 },   
 {
@@ -98,6 +99,7 @@
    ],
    "stats": true,
    "mastodon": "https://nerdculture.de/@mpadge",
+   "bluesky": "mpadge.bsky.social",
    "github": "mpadge",
    "home": "/author/mark-padgham"
 },
@@ -115,7 +117,8 @@
    "generalreview": true,
    "mastodon": "https://mastodon.social/@maelle",
    "github": "maelle",
-   "home": "/author/maëlle-salmon"
+   "home": "/author/maëlle-salmon",
+   "bluesky": "maellesalmon.bsky.social"
 },
 {
    "name": "Steffi LaZerte",
@@ -287,16 +290,16 @@
    "name": "Adam Sparks",
    "url": "https://adamhsparks.netlify.app/",
    "image" : "/img/team/adam-sparks.jpg",
-   "affiliation" : "Department of Primary Industries and Regional Development",
+   "affiliation" : "Curtin University",
    "roles": [
       "editor"
    ],
    "generalreview": true,
    "stats": true,
    "linkedin": "https://linkedin.com/in/adam-h-sparks",
-   "mastodon": "https://fosstodon.org/@adamhsparks",
+   "mastodon": "https://rstats.me/@adamhsparks",
    "github": "adamhsparks",
-   "home": "https://adamhsparks.com/"
+   "home": "https://adamhsparks.netlify.app/"
 }, 
 {
    "name": "Jeff Hollister",

@@ -42,3 +42,15 @@
   
 [Read-more]
   other = 'Read more'
+  
+[Projects]
+  other = 'Projects'
+  
+[Blog]
+  other = 'Blog'
+  
+[Tech-Notes]
+  other = 'Tech Notes'
+  
+[Code-of-Conduct]
+  other = 'Code of Conduct'

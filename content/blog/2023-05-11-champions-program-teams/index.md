@@ -3,6 +3,9 @@ title: "rOpenSci Champions Program Teams: Meet Victor Ordu and Laura DeCicco"
 author:
   - Victor Ordu
   - Laura DeCicco
+editor:
+  - Yanina Bellini Saibene
+  - Steffi LaZerte  
 date: '2023-05-11'
 slug: "intro-champion-program-team-victor-laura"
 tags:
