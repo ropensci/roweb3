@@ -6,7 +6,7 @@ author:
 date: '2024-12-19'
 tags:
   - newsletter
-description: R-universe now R Consortium top-level project, coworking, new package and package news
+description: R-universe now R Consortium top-level project, First-Time Contributions to FOSS, coworking, new package and package news
 params:
   last_newsletter: "2024-11-29"
 ---
@@ -60,6 +60,26 @@ And stay tuned for some special coworking sessions [supporting first-time contri
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
+### Multilingual Project
+
+This year, we have made important progress, working with our community to create content in several languages.
+
+We had our [first community call in Portuguese](/commcalls/translation-portuguese/) and made our first translaton together with the LatinR Conference.
+
+The progress of the [Portuguese translation of our development guide](https://devdevguide.netlify.app/pt/preface.pt) is amazing! 
+
+* **21**/30 chapters + CoC - 70% - merged 
+* **3**/30 chapters + CoC - 10% - under first review 
+* **6**/30 chapters + CoC - 20% - under second review 
+
+We are very grateful to all the people who have made this possible.  
+We are very close to achieving our goal!
+
+We also published the first version of our [Localization and Translation Guidelines. Why and how we localize and translate our resources](https://translationguide.ropensci.org/).
+Everything we developed and learned during the translations & localizations of our content is detailed in this book: the processes, the roles, and the technical tools.  
+We hope it will be helpful to other groups!
+
+Stay tuned for more news and activities on multilingual projects in 2025!.
 ## Software :package:
 
 ### New packages
@@ -89,11 +109,13 @@ There are seventeen recently closed and active submissions and 6 submissions on 
 
     * [agromet](https://github.com/ropensci/software-review/issues/599), Índices y Estadísticos Climáticos e Hidrológicos. Submitted by [Paola Corrales](https://paocorrales.github.io). 
 
-* Three at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
+* Four at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
 
      * [rredlist](https://github.com/ropensci/software-review/issues/663), IUCN Red List Client. Submitted by [William Gearty](http://williamgearty.com). 
 
     * [mbquartR](https://github.com/ropensci/software-review/issues/658), Finding Manitoba Quarter Sections. Submitted by [Alex Koiter](http://www.alexkoiter.ca). 
+
+    * [emodnet.wfs](https://github.com/ropensci/software-review/issues/653), Access EMODnet Web Feature Service data through R. Submitted by [Maëlle Salmon](https://masalmon.eu/). 
 
     * [cancerprof](https://github.com/ropensci/software-review/issues/637), API Client for State Cancer Profiles. Submitted by [Brian Park](https://github.com/realbp). 
 
@@ -115,11 +137,9 @@ There are seventeen recently closed and active submissions and 6 submissions on 
 
     * [galamm](https://github.com/ropensci/software-review/issues/615), Generalized Additive Latent and Mixed Models. Submitted by [Øystein Sørensen](https://osorensen.rbind.io).  (Stats).
 
-* Five at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
+* Four at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
 
      * [geotargets](https://github.com/ropensci/software-review/issues/675), Targets Extensions for Geospatial Formats. Submitted by [Nicholas Tierney](https://www.njtierney.com). 
-
-    * [browseMetadata](https://github.com/ropensci/software-review/issues/674), Browse and categorise health metadata. Submitted by [Rachael Stickland](https://github.com/RayStick). 
 
     * [sasquatch](https://github.com/ropensci/software-review/issues/673), Use SAS, R, and quarto Together. Submitted by [Ryan Zomorrodi](http://ryanzomorrodi.github.io). 
 

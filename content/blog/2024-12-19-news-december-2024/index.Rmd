@@ -6,7 +6,7 @@ author:
 date: '2024-12-19'
 tags:
   - newsletter
-description: R-universe now R Consortium top-level project, coworking, new package and package news
+description: R-universe now R Consortium top-level project, First-Time Contributions to FOSS, coworking, new package and package news
 params:
   last_newsletter: "2024-11-29"
 ---
