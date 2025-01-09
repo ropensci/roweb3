@@ -1,6 +1,6 @@
-\+++
++++
 title = "Coworking"
-\+++
++++
 
 **Participa en nuestras reuniones de co-trabajo, socialización y horas de oficina los primeros martes de cada mes.
 Organizado por la Asistente de la Comunidad de rOpenSci [Steffi LaZerte](/author/steffi-lazerte) y varias personas de la comunidad que participan como anfitriones.
