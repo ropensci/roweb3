@@ -14,6 +14,7 @@ tags:
   - beginner
 description: "Announcing a Community Call and Coworking sessions to support first contributions"
 editor: Maëlle Salmon
+preface: We still have some room, so are now able to open this call up to non-rOpenSci package maintainers until December 9th 🎉.
 ---
 
 Do you remember your first contribution to open source? 
@@ -59,7 +60,7 @@ In the meanwhile we're looking for some interested maintainers...
 ## A call for maintainers
 
 Because we want this to be an enjoyable and valuable experience for everyone,
-we want to solicit support from maintainers of rOpenSci packages. 
+we want to solicit support from maintainers of ~~rOpenSci~~ R packages. 
 For each coworking mini-hack-a-thon, we're looking for about 5 maintainers to support participants in
 making contributions to their packages. 
 
@@ -73,7 +74,7 @@ we have funding[^3] to offer a stipend to maintainers who participate.
 
 [^3]: Thanks to a [NumFocus Small Development Grant](https://numfocus.org/programs/small-development-grants) 🎉
 
-To participate, we ask that maintainers fill out the application form (below) by **Nov 24th, 2024**[^4].
+To participate, we ask that maintainers fill out the application form (below) by **Dec 9th, 2024 ~~Nov 24th, 2024~~**[^4].
 
 [^4]: As we won't have room for more than about 10 maintainers, we may need to select from among the applications, depending how many we receive.
 
@@ -81,7 +82,7 @@ Then, if participating, we ask that maintainers
 
 - Work with rOpenSci staff to pick dates/times for the coworking events which best work for everyone.
 - [Create and/or identify issues](/blog/2023/09/19/help-wanted/) in
-your rOpenSci repository as 'Help wanted' and 'Good first issue'. These can
+your R ~~rOpenSci~~ repository as 'Help wanted' and 'Good first issue'. These can
 range from documentation to coding changes. We just ask that some issues are relatively accessible to contributors with less experience.
 - Attend one of the Coworking sessions to be available to offer advice or answer questions.
 - Have some availability before and after the Coworking event to respond via GitHub and Slack to 
@@ -97,7 +98,7 @@ If you participate, you can also expect that
 
 ### Interested in participating?
 
-**Please fill out [an application form](https://airtable.com/appRpJelSoXWcYCG1/shrgFCAdgR4g8k45Q) by Nov 24th, 2024.**
+**Please fill out [an application form](https://airtable.com/appRpJelSoXWcYCG1/shrgFCAdgR4g8k45Q) by Dec 9th, 2024 ~~Nov 24th, 2024.~~**
 
 **Note:** We understand that without dates/times, you can't fully commit to being available, 
 but once we know who is interested in participating, we will try to find a time that works for everyone!
