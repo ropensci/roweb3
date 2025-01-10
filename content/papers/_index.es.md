@@ -1,5 +1,5 @@
 +++
-title="Artículos científicos"
+title="Publicaciones"
 +++
 
 Una tabla de búsqueda de artículos sobre rOpenSci o proyectos relacionados con rOpenSci en los que participan personas del equipo de rOpenSci.
