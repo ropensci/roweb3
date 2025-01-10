@@ -16,7 +16,6 @@ tags:
 
 A major difference between [r-universe](https://r-universe.dev) and static repositories like CRAN and BioConductor is continuous deployment: packages in r-universe are continuously built in CI and immediately deployed to our [package server](https://github.com/r-universe-org/cranlike-server/). This package server stores binaries and metadata in a database, which enables us to dynamically query and expose all the package data through APIs, dashboards, feeds, etc.
 
-{{< tweet user="opencpu" id="1463474244604604416" >}}
 
 The package server also makes it relatively easy to add new functionality to expose information about R packages from the database in some other way. For example, we recently added a [badges API](/blog/2021/10/14/runiverse-badges/) to display package versions and totals in the form of a small badge image that can be embedded in webpages.
 

@@ -23,9 +23,8 @@ Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> Y
 
 ### R-universe prominently displays more information on packages!
 
-We have extended the [r-universe.dev](https://r-universe.dev) platform to provide even more real-time information and metadata about R packages to help users quickly find and compare relevant software for a given topic, maintainer or organization:
+We have extended the [r-universe.dev](https://r-universe.dev) platform to provide even more real-time information and metadata about R packages to help users quickly find and compare relevant software for a given topic, maintainer or organization.
 
-{{< tweet user="opencpu" id="1525063398903402498" >}}
 
 In addition to descriptive information about the package and its authors, the dashboard now shows some basic usage metrics, such as the number of GitHub stars, (transitive) dependencies, and dependents, and an overall score that we use to rank search results (similar to pagerank).
 
