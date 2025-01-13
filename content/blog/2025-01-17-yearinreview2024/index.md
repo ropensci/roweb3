@@ -23,7 +23,7 @@ We went through a leadership transition, Karthik Ram stepped down as Executive D
 
 Here are the highlights of the year:
 
-## 1. **R-Universe Enhancements**
+## 1. R-Universe Enhancements
 
 R-Universe, rOpenSci's platform for hosting, building, and distributing R packages, saw remarkable advancements in 2024, 
 making it a robust and user-friendly platform for developers and researchers.
@@ -31,8 +31,39 @@ making it a robust and user-friendly platform for developers and researchers.
 The platform introduced MacOS ARM64 binaries support for Apple Silicon, WebAssembly Rust integration , opening new doors for cross-platform and browser-based R applications,
 and Quarto Integration for Vignettes, providing a more flexible and modern way for developers to document their packages and share insights with users.
 
-R-Universe received a Google Season of Docs grant, aimed at overhauling and centralizing its documentation. 
+We received a Google Season of Docs grant, aimed at overhauling and centralizing its documentation. 
 The project focused on consolidating numerous tech notes and READMEs into a unified and easily navigable Quarto website, 
 highlighting best practices and guiding users to maximize the platform's features.
+
+R-Universe is currently serving _25887_ packages,
+_22130_ articles, and 
+_63391_ datasets by 
+_1232_ organizations,
+_13460_ maintainers and 
+_21654_ contributors.
+
+Finally, [R-Universe has been named R Consortium’s Top-Level Project in 2024](/blog/2024/12/03/r-universe-r-consortium-tlp/), ensuring support for three years,
+not only recognizing its impact on the R community and the broader open-source ecosystem but 
+also providing resources to further develop and maintain the platform.
+
+## 2. Software Peer Review
+
+In 2024, rOpenSci’s software peer review program continued to grow, 
+showcasing the commitment to improving software quality and 
+validating R packages for a variety of applications. 
+
+We’ve had **17** packages successfully complete software peer review with the help of about 33 reviewers 
+and 11 editors, with [2 new editors]().
+
+Continued refinement of the peer-review process to ensure efficiency and thoroughness 
+while supporting package authors and reviewers. Regular updates on the number of submissions, 
+approvals, and the status of packages under review were shared through newsletters, our Slack and 
+our open GitHub organization, reinforcing the program’s transparency and community involvement.
+
+
+## 3.  
+We have 219 contribuntors and 49 of those people made their first code contribution to rOpenSci during 2024! 
+Others shared xx new use cases to help package authors see how their work is 
+being used and help other users imagine how they can apply it.
 
 
