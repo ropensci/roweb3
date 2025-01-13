@@ -1,0 +1,182 @@
+---
+slug: "news-january-2025"
+title: rOpenSci News Digest, January 2025
+author:
+  - The rOpenSci Team
+date: '2025-01-24'
+tags:
+  - newsletter
+description: Mini-hackathons, coworking, new package and package news
+params:
+  last_newsletter: '2024-12-19'
+---
+
+
+<!-- Before sending DELETE THE INDEX_CACHE and re-knit! -->
+
+Dear rOpenSci friends, it's time for our monthly news roundup!
+<!-- blabla -->
+You can read this post [on our blog](/blog/2025/01/24/news-january-2025).
+Now let's dive into the activity at and around rOpenSci!
+
+## rOpenSci HQ
+
+### "rOpenSci Statistical Software Peer Review: The importance and challenge of community engagement"
+
+Find the [recording](https://www.youtube.com/watch?v=7H4FCpZa3w8) of Mark Padgham's talk at RSE CONF 2024.
+The talk was second in a two-part session devoted to software peer review, and followed a [walk-through demonstration of the process of submissing to Journal of Open Source software](https://virtual.oxfordabstracts.com/event/49081/submission/69).
+Find [Mark's slides](https://mpadge.github.io/presentations/2024/rseconf/).
+
+### Mini-hackathons
+
+TODO YANI
+
+### Coworking
+
+Read [all about coworking](/blog/2023/06/21/coworking/)!
+
+Join us for social coworking & office hours monthly on first Tuesdays! 
+Hosted by Steffi LaZerte and various community hosts. 
+Everyone welcome. 
+No RSVP needed. 
+Consult our [Events](/events) page to find your local time and how to join.
+
+And stay tuned for some special coworking sessions [supporting first-time contributors](/blog/2024/10/22/first-time-contributions/) to open source coming up in February and March 2025!
+
+And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
+
+## Software :package:
+
+### New packages
+
+
+
+
+The following  package recently became a part of our software suite:
+
+
+
+Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
+
+### New versions
+
+
+
+The following three packages have had an update since the last newsletter: [nasapower](https://docs.ropensci.org/nasapower "NASA POWER API Client") ([`v4.2.2`](https://github.com/ropensci/nasapower/releases/tag/v4.2.2)), [stats19](https://docs.ropensci.org/stats19 "Work with Open Road Traffic Casualty Data from Great Britain") ([`v3.3.0`](https://github.com/ropensci/stats19/releases/tag/v3.3.0)), and [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.10.0`](https://github.com/ropensci/targets/releases/tag/1.10.0)).
+
+## Software Peer Review
+
+There are sixteen recently closed and active submissions and 5 submissions on hold. Issues are at different stages: 
+
+* Two at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
+
+     * [rredlist](https://github.com/ropensci/software-review/issues/663), IUCN Red List Client. Submitted by [William Gearty](http://williamgearty.com). 
+
+    * [emodnet.wfs](https://github.com/ropensci/software-review/issues/653), Access EMODnet Web Feature Service data through R. Submitted by [Maëlle Salmon](https://masalmon.eu/). 
+
+* Three at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
+
+     * [fireexposuR](https://github.com/ropensci/software-review/issues/659), Compute and Visualize Wildfire Exposure. Submitted by [Air Forbes](https://wildfireanalytics.org/forbes.html). 
+
+    * [mbquartR](https://github.com/ropensci/software-review/issues/658), Finding Manitoba Quarter Sections. Submitted by [Alex Koiter](http://www.alexkoiter.ca). 
+
+    * [cancerprof](https://github.com/ropensci/software-review/issues/637), API Client for State Cancer Profiles. Submitted by [Brian Park](https://github.com/realbp). 
+
+* Five at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
+
+     * [butterfly](https://github.com/ropensci/software-review/issues/676), Verification For Continually Updating Timeseries Data. Submitted by [Thomas Zwagerman](https://thomaszwagerman.co.uk/). 
+
+    * [geotargets](https://github.com/ropensci/software-review/issues/675), Targets Extensions for Geospatial Formats. Submitted by [Nicholas Tierney](https://www.njtierney.com). 
+
+    * [mapmetadata](https://github.com/ropensci/software-review/issues/674), Map health metadata onto predefined research domains. Submitted by [Rachael Stickland](https://github.com/RayStick). 
+
+    * [sits](https://github.com/ropensci/software-review/issues/596), Satellite Image Time Series Analysis for Earth Observation Data Cubes. Submitted by [Gilberto Camara](https://www.gilbertocamara.org). 
+
+    * [fwildclusterboot](https://github.com/ropensci/software-review/issues/546), Fast Wild Cluster Bootstrap Inference for Linear Models. Submitted by [Alexander Fischer](https://s3alfisc.github.io/blog/).  (Stats).
+
+* Three at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
+
+     * [pkgmatch](https://github.com/ropensci/software-review/issues/671), Find R Packages Matching Either Descriptions or Other R Packages. Submitted by [mark padgham](https://mpadge.github.io). 
+
+    * [QuadratiK](https://github.com/ropensci/software-review/issues/632), A Collection of Methods Using Kernel-Based Quadratic Distances for. Submitted by [Giovanni Saraceno](https://github.com/giovsaraceno).  (Stats).
+
+    * [galamm](https://github.com/ropensci/software-review/issues/615), Generalized Additive Latent and Mixed Models. Submitted by [Øystein Sørensen](https://osorensen.rbind.io).  (Stats).
+
+* Three at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
+
+     * [sasquatch](https://github.com/ropensci/software-review/issues/673), Use SAS, R, and quarto Together. Submitted by [Ryan Zomorrodi](http://ryanzomorrodi.github.io). 
+
+    * [forcis](https://github.com/ropensci/software-review/issues/660), An R Client to Access the FORCIS Database. Submitted by [Nicolas Casajus](https://nicolascasajus.fr). 
+
+    * [capybara](https://github.com/ropensci/software-review/issues/645), Fast and Memory Efficient Fitting of Linear Models With High-Dimensional. Submitted by [Mauricio "Pachá" Vargas Sepúlveda](https://pacha.dev). 
+
+Find out more about [Software Peer Review](/software-review) and how to get involved.
+
+## On the blog
+
+<!-- Do not forget to rebase your branch! -->
+
+
+
+
+
+## Calls for contributions
+
+### Calls for maintainers
+
+If you're interested in maintaining any of the R packages below, you might enjoy reading our blog post [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/).
+
+* [hddtools](https://docs.ropensci.org/hddtools/), Hydrological Data Discovery Tools. [Issue for volunteering](https://github.com/ropensci/hddtools/issues/36).
+
+* [tic](https://docs.ropensci.org/tic/), Tasks Integrating Continuously: CI-Agnostic Workflow Definitions. [Issue for volunteering](https://github.com/ropensci/tic/issues/339).
+
+* [USAboundaries](https://docs.ropensci.org/USAboundaries/) (and USAboundariesdata), historical and contemporary boundaries of the United States of America . [Issue for volunteering](https://github.com/ropensci/USAboundaries/issues/50).
+
+* [historydata](https://docs.ropensci.org/historydata/), datasets for historians. [Issue for volunteering](https://github.com/ropensci/historydata/issues/23).
+
+### Calls for contributions
+
+Refer to our [help wanted page](/help-wanted/) -- before opening a PR, we recommend asking in the issue whether help is still needed.
+
+The bib2df package, for parsing BibTeX files into tibbles, would need some help! [Issue for volunteering](https://github.com/ropensci/bib2df/issues/65).
+
+## Package development corner
+
+Some useful tips for R package developers. :eyes:
+
+### How to change stuff in your package (deprecations)
+
+Prompted by a discussion in the rOpenSci slack workspace, here's a link to the "Package evolution - changing stuff in your package" chapter in our dev guide: <https://devguide.ropensci.org/maintenance_evolution.html>.
+Changing stuff entails: deprecating functions, arguments, values of arguments (or even changing maintainers!).
+
+Also relevant are:
+- The [lifecycle R package](https://lifecycle.r-lib.org/).
+- The rlang functions for [handling missing arguments](https://rlang.r-lib.org/reference/missing_arg.html) like `rlang::is_missing()` (thanks to Jon Harmon for pointing those out).
+- Hadley Wickham's keynote talk at rstudio::global 2021 ["Maintaining the house the tidyverse built"](https://posit.co/resources/videos/maintaining-the-house-the-tidyverse-built/).
+
+### Gotcha if using R on GitHub Actions ubuntu-latest
+
+Gábor Csárdi posted on Bluesky about [a change in GHA ubuntu-latest](https://bsky.app/profile/gaborcsardi.org/post/3lfeu6tzr5c2l) that might affect R workflows.
+The new ubuntu-latest by GHA does not have R installed by default so you need to either
+
+- Use `r-lib/actions/setup-r@v2` from github.com/r-lib/actions, which is already the case if you use the example workflows from that repository.
+- Use a Docker container.
+
+### Reminder: use the newest tools for mocking
+
+In honor of `local_mock()` and `with_mock()`'s getting [removed from testthat](https://github.com/r-lib/testthat/pull/1986) as they won't work with R 4.5, let's reiterate that testthat has [newer functions for mocking](https://testthat.r-lib.org/reference/local_mocked_bindings.html?q=local_mocked_bindings): `with_mocked_bindings()` and `local_mocked_bindings()`.
+See also the [R-hub blog post on the topic](https://blog.r-hub.io/2024/03/21/mocking-new-take/).
+
+### New expectations from testthat 3.2.2
+
+New expectations have been added to testthat in the [3.2.2 version](https://testthat.r-lib.org/news/index.html#new-expectations-3-2-2):
+
+- A new inheritance expectation, [`expect_s7_class()`](https://testthat.r-lib.org/reference/inheritance-expectations.html) (S7 being a [new object-oriented programming system for R](https://rconsortium.github.io/S7/).)
+- A bit meta: tools for testing... [expectations](https://testthat.r-lib.org/reference/expect_success.html). See their [use in testthat's tests](https://github.com/search?q=repo%3Ar-lib%2Ftestthat+expect_snapshot_failure+language%3AR+path%3A%2F%5Etests%5C%2Ftestthat%5C%2F%2F&type=code). :zany_face:
+
+## Last words
+
+Thanks for reading! If you want to get involved with rOpenSci, check out our [Contributing Guide](https://contributing.ropensci.org) that can help direct you to the right place, whether you want to make code contributions, non-code contributions, or contribute in other ways like sharing use cases.
+You can also support our work through [donations](/donate).
+
+If you haven't subscribed to our newsletter yet, you can [do so via a form](/news/). Until it's time for our next newsletter, you can keep in touch with us via our [website](/) and [Mastodon account](https://hachyderm.io/@rOpenSci).
