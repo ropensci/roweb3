@@ -36,13 +36,13 @@ reporting process, and internal guidelines for handling reports and enforcement.
 2.  No changes have been made to the text of the Code in English and Spanish.
 
 3.  We have the text of the Code of Conduct translated into Portuguese.
-    The Portuguese version is available at thanks to [Beatriz Milz](/author/beatriz-milz/) 
+    The Portuguese version is available at [https://ropensci.org/pt/código-de-conduta/](https://ropensci.org/pt/código-de-conduta/) thanks to [Beatriz Milz](/author/beatriz-milz/) 
     and [Francesca Palmeira](/author/francesca-belem-lopes-palmeira/) for the translation.
 
-With this change of committee members, this will be version 2.5, dated January 30, 2024.
-
-Yanina Bellini Saibene attend the Book Club organizaed by R-Ladies Global to 
-read and discuss the book "". It was a good opportunity to discuss and learn with 
+As we didn't have any change, we maintain the version 2.5, dated January 30, 2024.
+## Committee Members Activities
+Yanina Bellini Saibene attend the Book Club organized by R-Ladies Global to 
+read and discuss the book ["How to Respond to Code of Conduct Reports"](https://files.frameshiftconsulting.com/books/cocguide.pdf). It was a good opportunity to discuss and learn with 
 other CoC member of other organizations like R-Ladies, Bioconductor and Forwards. 
 
 We welcome your feedback by email to conduct at ropensci.org, 
