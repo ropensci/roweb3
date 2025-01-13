@@ -99,8 +99,22 @@ We have 219 contributors and 49 of those people made their first code contributi
 Others shared xx new use cases to help package authors see how their work is 
 being used and help other users imagine how they can apply it.
 
-
+Our blog had featured many different voices and experiences during 2024.
+We have a total of 35 community authors, of which 18 are first time community authors!
+Counting our staff, 42 authors wrote 54 blog posts, 63% of which were written by community authors
+and 13% were multilingual.
 
 We also celebrated our vibrant package ecosystem with the “A Package a Day” 
 campaign on Mastodon and Weekly Package digests in LinkedIn. 
 These efforts showcased the incredible diversity of our over 300 federated open-source packages.
+
+Community Calls were attended by over xx people in xx countries, 
+and virtual social coworking and office hours brought together people 
+from at least xx countries to get their own work done and to join in 
+some spirited scavenger hunts! 
+
+Many others have continued to cite our software, ask or answer questions, 
+open issues to report bugs or request features, make pull requests to fix things, 
+weigh in on standards and best practices, invited us to talk about our work, 
+or mentioned us in a presentation, a post, or social media.
+
