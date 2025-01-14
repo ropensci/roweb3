@@ -36,7 +36,8 @@ for developers using Apple Silicon devices. We also integrated Rust into the Web
 opening up exciting possibilities for browser-based R applications, 
 and Quarto Integration for Vignettes, 
 providing a more flexible and modern way for developers to document their packages 
-and share insights with users.
+and share insights with users. You can check all the new features 
+in the [R-Universe Community Call](/commcalls/nov2024-r-universe/).
 
 We received a Google Season of Docs grant, aimed at overhauling and centralizing its documentation. 
 The project focused on consolidating numerous tech notes and READMEs into a unified and easily navigable Quarto website, 
@@ -73,27 +74,37 @@ and how we build community.
 ## 3. Multilingual Resources
 
 In 2024, rOpenSci continued to expand its multilingual resources, 
-the ["rOpenSci Packages: Development, Maintenance, and Peer Review" guide was updated 
-to include Spanish translations](/blog/2024/03/11/devguide-0.9.0/). 
+the ["rOpenSci Packages: Development, Maintenance, and Peer Review" 
+guide was updated to include Spanish translations](/blog/2024/03/11/devguide-0.9.0/). 
 Additionally, [Portuguese translations are underway](https://github.com/orgs/ropensci/projects/7), 
 supported by dedicated community volunteers.
 
-Tools like [babeldown](https://docs.ropensci.org/babeldown/) and [babelquarto](https://docs.ropensci.org/babelquarto/) 
-were spotlighted for enabling collaborative translation efforts, 
-helping the community localize resources efficiently. 
-Our first traslathon jointly done with the conference LatinR was 
-an opportunity to learn how to use this tools "by doing" and made progress 
-on our translation projects.
+We continue de development of lools like 
+[babeldown](https://docs.ropensci.org/babeldown/),
+[babelquarto](https://docs.ropensci.org/babelquarto/) and
+our [rOpenSci Localization and Translation Guidelines](/blog/2024/12/17/localization-guide/) 
+in Spanish and English to assist our community, 
+but also other groups in translating and localizing open science resources. 
 
-We shared our experiences and tools in several conferences (and several languages) and also 
-discussed the importance of multilingual computing materials 
-in an episode of the ["Code for Thought" podcast]().
+Community discussions on multilingual publishing, 
+like our [first Portuguese Community Call]() and
+our [first Traslathon](), reinforced the 
+importance of breaking language barriers in open science. 
 
-We close the year introducing the [rOpenSci Localization and Translation Guidelines](/blog/2024/12/17/localization-guide/) in Spanish and English 
-to assist our community, but also other groups in translating and localizing open science resources. 
+It’s been inspiring to see the enthusiasm from contributors 
+and volunteers driving this effort forward.
+
+We also shared our experiences and tools in several conferences 
+(and several languages) and also discussed the importance 
+of multilingual computing materials in an episode of 
+the ["Code for Thought" podcast](https://codeforthought.buzzsprout.com/1326658/14660478-en-crossing-the-language-barrier-yanina-saibene).
 
 
-## 4. Community Engagement
+## 5. Champions Program
+
+
+
+## 6. Community Engagement
 
 We have 219 contributors and 49 of those people made their first code contribution to rOpenSci during 2024! 
 Others shared xx new use cases to help package authors see how their work is 
@@ -118,3 +129,8 @@ open issues to report bugs or request features, make pull requests to fix things
 weigh in on standards and best practices, invited us to talk about our work, 
 or mentioned us in a presentation, a post, or social media.
 
+
+
+
+
+Thank you all for making rOpenSci. 
