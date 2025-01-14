@@ -1,5 +1,5 @@
 ---
-title: Acceso a los datos
+title: Acceso a datos
 description: Obtener datos de la Web
 slug: data-access
 outputs:

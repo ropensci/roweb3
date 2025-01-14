@@ -1,6 +1,6 @@
 ---
 title: Extracción de datos
-description: Convertir y Munir Datos
+description: Convertir y combinar datos
 slug: data-extraction
 outputs:
 - JSON
