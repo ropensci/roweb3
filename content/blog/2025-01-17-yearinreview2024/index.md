@@ -147,10 +147,10 @@ We also celebrated our vibrant package ecosystem with the “A Package a Day”
 campaign on Mastodon and Weekly Package digests in LinkedIn. 
 These efforts showcased the incredible diversity of our over 300 federated open-source packages.
 
-Community Calls were attended by over xx people in xx countries, 
-and virtual social coworking and office hours brought together people 
-from at least xx countries to get their own work done and to join in 
-some spirited scavenger hunts! 
+Community Calls and virtual social coworking and office hours 
+brought together people from at least 20 countries to leanr,
+get their own work done 
+and to join in some spirited scavenger hunts! 
 
 Many others have continued to cite our software, ask or answer questions, 
 open issues to report bugs or request features, make pull requests to fix things, 
