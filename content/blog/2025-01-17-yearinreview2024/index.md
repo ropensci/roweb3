@@ -145,30 +145,36 @@ and 13% were multilingual.
 
 We also celebrated our vibrant package ecosystem with the “A Package a Day” 
 campaign on Mastodon and Weekly Package digests in LinkedIn. 
-These efforts showcased the incredible diversity of our over 300 federated open-source packages.
+These efforts showcased the incredible diversity of our over 
+300 federated open-source packages.
 
 Community Calls and virtual social coworking and office hours 
 brought together people from at least 20 countries to leanr,
 get their own work done 
 and to join in some spirited scavenger hunts! 
 
-Many others have continued to cite our software, ask or answer questions, 
-open issues to report bugs or request features, make pull requests to fix things, 
-weigh in on standards and best practices, invited us to talk about our work, 
+Many others have continued to [read our newsletter](https://ropensci.org/news/), 
+cite our software, 
+[ask or answer questions](https://discuss.ropensci.org), 
+open issues to report bugs or request features, 
+weigh in on standards and best practices, 
+invited us [to talk about our work](https://ropensci.org/talks-papers/), 
 or mentioned us in a presentation, a post, or social media.
 
 
 ## Looking Ahead
 
 Firts of all, a **big thank you all for making rOpenSci**. 
-We are very grateful for your collaboration and look forward 
+We are very grateful for your contribution and look forward 
 to continue working together in 2025. 
 
 We also look forward to another year of growth, and collaboration
 with other organizations and communities 
-like Epiverse, RECON, data.org, LatinR, PyOpenSci, OpenScapes and OSPO Office.
+we have been working like Epiverse, RECON, data.org, 
+LatinR, PyOpenSci, OpenScapes and OSPO Offices.
 
-We start 2025 with a [Community Call]() and [mini-hackathons]() 
+We start 2025 with a [Community Call](/commcalls/first-time-contributor/) 
+and [mini-hackathons](/coworking/) 
 during our co-working session to support first-time contributors 
 to open source projects.
 These calls provided invaluable opportunities for 
