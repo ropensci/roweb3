@@ -13,7 +13,7 @@ tags:
 description: Updates for version 2.5 of rOpenSci's Code of Conduct
 ---
 
-rOpenSci’s activities and spaces are supporter by a Code of Conduct 
+rOpenSci’s activities and spaces are supported by a Code of Conduct 
 that applies to all people participating in the rOpenSci community, 
 including rOpenSci staff and leadership.
 It applies to all modes of interaction online including GitHub project repositories, 
@@ -41,7 +41,8 @@ reporting process, and internal guidelines for handling reports and enforcement.
 
 As we didn't have any change, we maintain the version 2.5, dated January 30, 2024.
 ## Committee Members Activities
-Yanina Bellini Saibene attend the Book Club organized by R-Ladies Global to 
+
+Yanina Bellini Saibene attended the Book Club organized by R-Ladies Global to 
 read and discuss the book ["How to Respond to Code of Conduct Reports"](https://files.frameshiftconsulting.com/books/cocguide.pdf). It was a good opportunity to discuss and learn with 
 other CoC member of other organizations like R-Ladies, Bioconductor and Forwards. 
 
