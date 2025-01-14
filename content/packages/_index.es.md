@@ -1,7 +1,7 @@
 +++
 title = "Paquetes"
 description = "Conjunto de paquetes de rOpenSci"
-partials = ["packages.html"]
+ partials = ["packages.html"]
 +++
 
 Nuestros paquetes son herramientas de software R cuidadosamente examinadas, realizadas por nuestro equipo y por la comunidad, que en particular reducen las barreras para trabajar con fuentes de datos científicos locales y remotas.
