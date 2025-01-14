@@ -102,7 +102,24 @@ the ["Code for Thought" podcast](https://codeforthought.buzzsprout.com/1326658/1
 
 ## 5. Champions Program
 
+The [second cohort of the Champions Program]() has been inspiring. 
+These leaders have tackled projects that span disciplines and geographies, 
+driving open science and open data initiatives with creativity and 
+local impact.
 
+Package development is the type of project most chosen by this group, 
+but we have champions who have also been reviewers for our peer-review.
+
+Multilingualism also plays a role in the Champions Program, 
+as part of their outreach activity, this year we have events and workshops
+in Turkish, Spanish, Portuguese and Chinese.
+
+Finally, [we got the support of the CZI program to continue with the
+Champions Program with a regional focus in Latin America](), carrying out
+the program in Spanish and Portuguese.
+
+We are excited to see the impact of these projects 
+and the new cohort of champions in 2025.
 
 ## 6. Community Engagement
 
@@ -130,7 +147,21 @@ weigh in on standards and best practices, invited us to talk about our work,
 or mentioned us in a presentation, a post, or social media.
 
 
+## Looking Ahead
 
+Firts of all, a **big thank you all for making rOpenSci**. 
+We are very grateful for your collaboration and look forward 
+to continue working together in 2025. 
 
+We also look forward to another year of growth, and collaboration
+with other organizations and communities 
+like Epiverse, RECON, data.org, LatinR, PyOpenSci, OpenScapes and OSPO Office.
 
-Thank you all for making rOpenSci. 
+We start 2025 with a [Community Call]() and [mini-hackathons]() 
+during our co-working session to support first-time contributors 
+to open source projects.
+These calls provided invaluable opportunities for 
+knowledge-sharing, networking and skill-up opportunity in a
+safe and friendly space underscoring the collaborative spirit of rOpenSci.
+
+See you all around!
