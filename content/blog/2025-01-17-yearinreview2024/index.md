@@ -107,7 +107,7 @@ of multilingual computing materials in an episode of
 the ["Code for Thought" podcast](https://codeforthought.buzzsprout.com/1326658/14660478-en-crossing-the-language-barrier-yanina-saibene).
 
 
-## 5. Champions Program
+## Champions Program
 
 The [second cohort of the Champions Program](/blog/2024/02/15/champions-program-champions-2024/) has been inspiring. 
 These leaders have tackled projects that span disciplines and geographies, 
@@ -132,7 +132,7 @@ the program in Spanish and Portuguese.
 We are excited to see the impact of our Champions' projects 
 and the new cohort of Champions in 2025.
 
-## 6. Community Engagement
+## Community Engagement
 
 We have 219 contributors and 49 of those people made their first code contribution to rOpenSci during 2024! 
 Others shared xx new use cases to help package authors see how their work is 
