@@ -32,34 +32,28 @@ ensuring continued focus on strategic goals and community impact.
 
 
 
-## R-Universe Enhancements
+## R-Universe Advancements
 
-R-Universe, rOpenSci's platform for hosting, building, and distributing R packages, 
-saw remarkable advancements in 2024, 
-making it a robust and user-friendly platform for developers and researchers.
+R-Universe, rOpenSci's platform for finding and publishing R packages,
+saw major advancements in 2024, 
+making it an increasingly useful and trusted resource for the wider R community.
 
-The platform introduced MacOS ARM64 binaries support, making our tools more efficient 
-for developers using Apple Silicon devices. We also integrated Rust into the WebAssembly toolchain, 
-opening up exciting possibilities for browser-based R applications, 
-and Quarto Integration for Vignettes, 
-providing a more flexible and modern way for developers to document their packages 
-and share insights with users. You can check all the new features 
-in the [R-Universe Community Call](/commcalls/nov2024-r-universe/).
+Some of the highlights included big rewrite of the [web frontend](https://r-universe.dev) 
+and search engine to serve faster, beautiful, informative webpages, and 
+search through tens of thousands [packages](https://r-universe.dev/packages),
+[articles](https://r-universe.dev/articles) and [datasets](https://r-universe.dev/datasets). 
+On the build side we added support for new tools like Rust and Quarto,
+and improved the process of building binaries for WebAssembly and Apple Silicon.
 
-We received a Google Season of Docs grant, aimed at overhauling and centralizing its documentation. 
-The project focused on consolidating numerous tech notes and READMEs into a unified and easily navigable Quarto website, 
+These enhancements have resulted in a big uptake in traffic and interest from the community, 
+which was rewarded by the R consortium by [naming R-Universe a Top-Level Project](/blog/2024/12/03/r-universe-r-consortium-tlp/), ensuring support for at least three more years.
+We are very grateful for this recognition, and look forward to further 
+develop and maintain R-universe to serve greater R community.
+
+Moreover, we received a Google Season of Docs grant, aimed at centralizing the
+documentation. The project focused on consolidating numerous tech notes and READMEs 
+into a unified and easily navigable [Quarto website](https://docs.r-universe.dev), 
 highlighting best practices and guiding users to maximize the platform's features.
-
-R-Universe is currently serving _25887_ packages,
-_22130_ articles, and 
-_63391_ datasets by 
-_1232_ organizations,
-_13460_ maintainers and 
-_21654_ contributors.
-
-Finally, [R-Universe has been named R Consortium’s Top-Level Project in 2024](/blog/2024/12/03/r-universe-r-consortium-tlp/), ensuring support for three years,
-not only recognizing its impact on the R community and the broader open-source ecosystem but 
-also providing resources to further develop and maintain the platform.
 
 ## Software Peer Review
 
