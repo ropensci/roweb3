@@ -2,7 +2,7 @@
 slug: "year-in-review-2024"
 title: rOpenSci 2024 Highlights
 author:
-  - Yanina Bellini Saibene
+  - The rOpenSci Team
 date: 2025-01-17
 tags:
   - community
@@ -16,7 +16,7 @@ editor:
 
 ---
 
-In 2024, we worked towards our commitment to open science and open source software. 
+In 2024, we remained committed to open science and open source software. 
 We continued to build a welcoming and 
 inclusive community, through innovation and collaboration. 
 
@@ -32,13 +32,13 @@ ensuring continued focus on strategic goals and community impact.
 
 
 
-## R-Universe Advancements
+## R-Universe Progress
 
 R-Universe, rOpenSci's platform for finding and publishing R packages,
 saw major advancements in 2024, 
 making it an increasingly useful and trusted resource for the wider R community.
 
-Some of the highlights included big rewrite of the [web frontend](https://r-universe.dev) 
+Some of the highlights included a big rewrite of the [web frontend](https://r-universe.dev) 
 and search engine to serve faster, beautiful, informative webpages, and 
 search through tens of thousands [packages](https://r-universe.dev/packages),
 [articles](https://r-universe.dev/articles) and [datasets](https://r-universe.dev/datasets). 
@@ -50,7 +50,7 @@ which was rewarded by the R consortium by [naming R-Universe a Top-Level Project
 We are very grateful for this recognition, and look forward to further 
 develop and maintain R-universe to serve greater R community.
 
-Moreover, we received a Google Season of Docs grant, aimed at centralizing the
+Moreover, we received a [Google Season of Docs grant](/blog/2024/04/12/gsod-announcement/), aimed at centralizing the
 documentation. The project focused on consolidating numerous tech notes and READMEs 
 into a unified and easily navigable [Quarto website](https://docs.r-universe.dev), 
 highlighting best practices and guiding users to maximize the platform's features.
@@ -95,7 +95,7 @@ importance of breaking language barriers in open science.
 It’s been inspiring to see the enthusiasm from contributors 
 and volunteers driving this effort forward.
 
-We also shared our experiences and tools in several conferences 
+We also shared our experiences and tools in several [conferences](/talks/) 
 (and several languages) and also discussed the importance 
 of multilingual computing materials in an episode of 
 the ["Code for Thought" podcast](https://codeforthought.buzzsprout.com/1326658/14660478-en-crossing-the-language-barrier-yanina-saibene).
@@ -109,7 +109,7 @@ driving open science and open data initiatives with creativity and
 local impact.
 
 Package development is the type of project most chosen by this group, 
-but we have champions who have also been reviewers for our peer-review.
+but other champions have been reviewers for our software peer review system.
 
 Multilingualism plays an important role in the Champions Program, 
 as part of their outreach activity, this year we have events and workshops
@@ -129,7 +129,7 @@ and the new cohort of Champions in 2025.
 ## Community Engagement
 
 We have 219 contributors and 49 of those people made their first code contribution to rOpenSci during 2024! 
-Others shared xx new use cases to help package authors see how their work is 
+Others shared xx new [use cases](/usecases/) to help package authors see how their work is 
 being used and help other users imagine how they can apply it.
 
 Our blog had featured many different voices and experiences during 2024.
@@ -143,7 +143,7 @@ These efforts showcased the incredible diversity of our over
 300 federated open-source packages.
 
 Community Calls and virtual social coworking and office hours 
-brought together people from at least 20 countries to leanr,
+brought together people from at least 20 countries to learn,
 get their own work done 
 and to join in some spirited scavenger hunts! 
 
