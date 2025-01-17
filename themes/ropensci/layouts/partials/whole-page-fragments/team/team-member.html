@@ -4,7 +4,7 @@
         <a href="{{ .url }}" class="user-name">{{ .name }}</a>
         {{ with .affiliation }}
         <div class="user-role">
-           {{ . }}
+           {{ partial "translate" . }}
         </div>
           {{ end }}
           {{ if (ne .roles nil ) }}

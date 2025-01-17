@@ -90,3 +90,27 @@
   
 [Our-Research-Fellows]
   other = 'Our Research Fellows'
+  
+[strategic-advisor]
+  other = 'strategic advisor'
+  
+[executive-director]
+  other = 'Executive Director'
+  
+[advisor]
+  other = 'Advisor'
+  
+[lead-infrastructure-engineer]
+  other = 'Lead Infrastructure Engineer'
+  
+[software-research-scientist]
+  other = 'Software Research Scientist'
+
+[research-software-engineer]
+  other = 'Research Software Engineer'
+
+[community-assistant]
+  other = 'Community Assistant'
+  
+[community-manager]
+  other = 'Community Manager'

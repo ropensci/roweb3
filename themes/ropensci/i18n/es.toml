@@ -93,3 +93,28 @@
   
 [Our-Research-Fellows]
   other = 'Becas de Investigación'
+  
+[executive-director]
+  other = 'Director Ejecutivo'
+  
+[strategic-advisor]
+  other = 'asesor estratégico'
+  
+[advisor]
+  other = 'Asesor'
+  
+[lead-infrastructure-engineer]
+  other = 'Ingeniero Jefe de Infraestructuras'
+  
+[community-manager]
+  other = 'Community Manager'
+  
+[software-research-scientist]
+  other = 'Investigador de Software Científico'
+
+[research-software-engineer]
+  other = 'Ingeniera de Software de Investigación'  
+
+[community-assistant]
+  other = 'Community Assistant'
+
