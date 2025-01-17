@@ -1,7 +1,9 @@
 +++
-title="Papers"
+title="Publicaciones"
 +++
 
-A searchable table of papers about rOpenSci or rOpenSci-related projects involving members of the rOpenSci team.
+Una tabla de búsqueda de artículos sobre rOpenSci o proyectos relacionados con rOpenSci en los que participan personas del equipo de rOpenSci.
 
-Find out [how to cite rOpenSci](/how-to-cite-ropensci/) in your papers.
+Averigua [cómo citar rOpenSci](/es/how-to-cite-ropensci/) en tus artículos.
+
+

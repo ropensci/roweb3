@@ -63,3 +63,29 @@
   
 [Careers]
   other = 'Careers'
+[Name]
+  other = 'Nombre'
+  
+[Enter-your-name]
+  other = 'Introduce tu nombre'
+  
+[Email-address]
+  other = 'Dirección de correo electrónico'
+  
+[Enter-your-email]
+  other = 'Introduce tu dirección de correo electrónico'
+  
+[Enter-a-valid-email-address]
+  other = 'Introduce una direccion de correo electrónico corecta'
+  
+[Message]
+  other = 'Mensaje'
+  
+[Enter-your-message]
+  other = 'Introduce tu mensaje'
+  
+[Send-message]
+  other = 'Envia tu mensaje'
+  
+[Contact]
+  other = 'Contacto'
