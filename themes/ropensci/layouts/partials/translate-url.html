@@ -1,6 +1,6 @@
 {{ $url := "" }}
 {{ $lang := "" }}
-
+{{ $class := .class | default "" }}
 {{ $name := .name }}
 {{ with .Site.GetPage $name }}
   {{ $url = .RelPermalink }}
@@ -16,4 +16,4 @@
 {{ end }}
 {{ end }}
 
-<a lang="{{ $lang }}" href="{{ $url }}">
+<a lang="{{ $lang }}" href="{{ $url }}" class = "{{ $class }}">
