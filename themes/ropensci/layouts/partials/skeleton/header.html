@@ -1,9 +1,9 @@
 {{ if eq .Kind "home" }}
 <header class="header d-print-none">
-{{ partial "skeleton/navbar" (dict "Site" .Site "Language" .Language) }}
+{{ partial "skeleton/navbar" (dict "Site" .Site "Language" .Language "IsTranslated" .IsTranslated "Translations" .Translations "IsHome" .IsHome) }}
 {{ else }}
 <div class="navbar-wrapper">
-  {{ partial "skeleton/navbar" (dict "Site" .Site "Language" .Language) }}
+  {{ partial "skeleton/navbar" (dict "Site" .Site "Language" .Language "IsTranslated" .IsTranslated "Translations" .Translations "IsHome" .IsHome) }}
 </div>
 <img class="divider d-print-none" src="/images/svg/navbar-divider.svg" alt="" />
 {{ end }}
