@@ -10,7 +10,10 @@
           {{ if (ne .roles nil ) }}
           {{ if and (ne (delimit .roles "") "advisor") (ne (delimit .roles "") "fellow") }}
         <div class="user-position">
-          {{ delimit .roles " • " }}
+              {{ range $i, $e := .roles }}
+		          {{ if $i }} • {{ end }}
+		          {{ partial "translate" $e }}
+		          {{ end }}
         </div>
         {{ end }}
         {{ end }}
