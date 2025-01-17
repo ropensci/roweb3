@@ -86,3 +86,64 @@
   
 [Contact]
   other = 'Contact'
+  
+[Our-External-Advisors]
+  other = 'Our External Advisors'
+  
+[Our-Alumni]
+  other = 'Our Alumni'
+  
+[Our-Research-Fellows]
+  other = 'Our Research Fellows'
+  
+[strategic-advisor]
+  other = 'strategic advisor'
+  
+[executive-director]
+  other = 'Executive Director'
+  
+[advisor]
+  other = 'Advisor'
+  
+[lead-infrastructure-engineer]
+  other = 'Lead Infrastructure Engineer'
+  
+[software-research-scientist]
+  other = 'Software Research Scientist'
+
+[community-assistant]
+  other = 'Community Assistant'
+  
+[community-manager]
+  other = 'Community Manager'
+
+[research-software-engineer]
+  other = 'Research Software Engineer'
+
+[editor]
+  other = 'Editor'
+
+[Software-Review-Lead]
+  other = 'Software Review Lead'
+  
+[co-funder]
+  other = 'Co-funder'
+
+[staff]
+  other = 'staff'
+  
+[researcher]
+  other = 'Researcher'
+
+[developer]
+  other = 'Developer'
+
+[stat-peer-review-advisor]
+  other = 'Statistical Peer Review Advisor'
+  
+[former-core-team-member]  
+  other = 'Former Core Team Member'
+  
+[About]  
+  other = 'About'
+  

@@ -89,3 +89,63 @@
   
 [Contact]
   other = 'Contacto'
+  
+[Our-External-Advisors]
+  other = 'Equipo Asesor Externo'
+  
+[Our-Alumni]
+  other = 'Alumni'
+  
+[Our-Research-Fellows]
+  other = 'Becas de Investigación'
+  
+[executive-director]
+  other = 'Director·a Ejecutivo·a'
+  
+[strategic-advisor]
+  other = 'Asesor·a estratégico'
+  
+[advisor]
+  other = 'Asesor·a'
+  
+[lead-infrastructure-engineer]
+  other = 'Ingeniero·a en Jefe de Infraestructuras'
+  
+[community-manager]
+  other = 'Coordinador·a de Comunidad'
+  
+[software-research-scientist]
+  other = 'Investigador·a de Software Científico'
+
+[research-software-engineer]
+  other = 'Ingenier(o|a) de Software de Investigación'  
+
+[community-assistant]
+  other = 'Asistente de la Comunidad'
+
+[editor]
+  other = 'Editor·a'
+
+[Software-Review-Lead]
+  other = 'Líder de Revisión de Software'
+  
+[co-funder]
+  other = 'Co-fundador'
+
+[staff]
+  other = 'Equipo'
+  
+[researcher]
+  other = 'Investigador·a'
+
+[developer]
+  other = 'Desarrollador·a'
+
+[stat-peer-review-advisor]
+  other = 'Asesor·a de Revisión por Pares de Software Estadístico'
+  
+[former-core-team-member]  
+  other = 'Ex-integrante del equipo'
+  
+[About]  
+  other = 'Acerca de'
