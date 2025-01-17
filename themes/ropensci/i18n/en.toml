@@ -54,3 +54,30 @@
   
 [Code-of-Conduct]
   other = 'Code of Conduct'
+  
+[Name]
+  other = 'Name'
+  
+[Enter-your-name]
+  other = 'Enter your name'
+  
+[Email-address]
+  other = 'Email address'
+  
+[Enter-your-email]
+  other = 'Enter your email address'
+  
+[Enter-a-valid-email-address]
+  other = 'Enter a valid email address'
+  
+[Message]
+  other = 'Message'
+  
+[Enter-your-message]
+  other = 'Enter your message'
+  
+[Send-message]
+  other = 'Send your message'
+  
+[Contact]
+  other = 'Contact'
