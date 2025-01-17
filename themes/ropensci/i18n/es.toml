@@ -81,3 +81,6 @@
   
 [Send-message]
   other = 'Envia tu mensaje'
+  
+[Contact]
+  other = 'Contacto'

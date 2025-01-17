@@ -78,3 +78,6 @@
   
 [Send-message]
   other = 'Send your message'
+  
+[Contact]
+  other = 'Contact'
