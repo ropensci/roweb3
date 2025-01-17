@@ -20,7 +20,10 @@
         {{ if eq .roles nil }}
           {{ with .past_roles }}
         <div class="user-position">
-          {{ delimit . " • " }}
+              {{ range $i, $e := . }}
+		          {{ if $i }} • {{ end }}
+		          {{ partial "translate" $e }}
+		          {{ end }}
         </div>
         {{ end }}
         {{ end }}
