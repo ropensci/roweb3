@@ -3,14 +3,14 @@
     <div class="container bg-cubes">
       <!-- Header text -->
       <div class="row">
-        <div class="col-md-8 content">
+        <div class="col-md-8 content offset-md-1">
           <h1>{{ .Title }}</h1>
           {{ .Content }}
         </div>
       </div>
 
       <div class="row contact-form">
-        <div class="col-md-8">
+        <div class="col-md-8 offset-md-1">
           <form id="contact-form"  action="https://formspree.io/info@ropensci.org" method="post">
             <div class="form-row">
               <div class="form-group col-md-6">
@@ -51,15 +51,6 @@
 
             <button type="button" id="contact-submit" class="btn btn-linear">{{ i18n "Send-message" }}</button>
           </form>
-        </div>
-        <div class="col-md-3 offset-md-1">
-          <aside>
-            <strong>Ask the community</strong>
-            <p class="mt-2">
-              We take pride in our active community, reach out and ask us anything.
-            </p>
-            <a class="link mt-4 d-block" href="https://discuss.ropensci.org" target="_blank">Technical questions about our software are welcome on our forum.</a>
-          </aside>
         </div>
       </div>
     </div>
