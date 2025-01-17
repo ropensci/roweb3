@@ -95,26 +95,26 @@
   other = 'Becas de Investigación'
   
 [executive-director]
-  other = 'Director Ejecutivo'
+  other = 'Director·a Ejecutivo·a'
   
 [strategic-advisor]
-  other = 'asesor estratégico'
+  other = 'Asesor·a estratégico'
   
 [advisor]
-  other = 'Asesor'
+  other = 'Asesor·a'
   
 [lead-infrastructure-engineer]
-  other = 'Ingeniero Jefe de Infraestructuras'
+  other = 'Ingeniero·a en Jefe de Infraestructuras'
   
 [community-manager]
-  other = 'Community Manager'
+  other = 'Coordinador·a de Comunidad'
   
 [software-research-scientist]
-  other = 'Investigador de Software Científico'
+  other = 'Investigador·a de Software Científico'
 
 [research-software-engineer]
-  other = 'Ingeniera de Software de Investigación'  
+  other = 'Ingenier(o|a) de Software de Investigación'  
 
 [community-assistant]
-  other = 'Community Assistant'
+  other = 'Asistente de la Comunidad'
 
