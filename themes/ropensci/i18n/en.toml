@@ -81,3 +81,12 @@
   
 [Contact]
   other = 'Contact'
+  
+[Our-External-Advisors]
+  other = 'Our External Advisors'
+  
+[Our-Alumni]
+  other = 'Our Alumni'
+  
+[Our-Research-Fellows]
+  other = 'Our Research Fellows'

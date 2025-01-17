@@ -84,3 +84,12 @@
   
 [Contact]
   other = 'Contacto'
+  
+[Our-External-Advisors]
+  other = 'Equipo Asesor Externo'
+  
+[Our-Alumni]
+  other = 'Alumni'
+  
+[Our-Research-Fellows]
+  other = 'Becas de Investigación'
