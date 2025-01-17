@@ -130,7 +130,7 @@
   other = 'Líder de Revisión de Software'
   
 [co-funder]
-  other = 'Co-fundador·a'
+  other = 'Co-fundador'
 
 [staff]
   other = 'Equipo'
@@ -144,5 +144,5 @@
 [stat peer-review advisor]
   other = 'Asesor·a de Revisión por Pares de Software Estadístico'
   
-[former core team member]  
+[former-core-team-member]  
   other = 'Ex-integrante del equipo'
