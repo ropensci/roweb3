@@ -28,7 +28,7 @@
           <a class="nav-link" lang="en" href="/about/">About</a>
           <ul class="sub-menu">
             <li><a lang="en" href="/donate/">Donate</a></li>
-            <li><a lang="en" href="/careers/">Careers</a></li>
+            <li><a lang="en" href="{{ partial "translate-url" (dict "name" "careers" "Site" .Site )}}">Careers</a></li>
             <li><a lang="en" href="/contact/">Contact</a></li>
           </ul>
         </li>
@@ -114,7 +114,7 @@
       {{ end }}
       {{ if partial "careers/we-are-hiring" . }}
       <div class="navbar-right d-none d-xl-block">
-        <a lang="en" href="/careers/">👋 {{ i18n "We-are-hiring" }}</a>
+        <a lang="en" href="{{ partial "translate-url" (dict "name" "careers" "Site" .Site )}}">👋 {{ i18n "We-are-hiring" }}</a>
       </div>
       {{ end }}
     </div>

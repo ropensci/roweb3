@@ -1,0 +1,14 @@
+{{ $url := "" }}
+{{ $name := .name }}
+{{ with .Site.GetPage $name }}
+  {{ $url = .RelPermalink }}
+{{ else }}
+  {{ with where .Site.Sites "Language.Lang" "eq" "en" }}
+    {{ with index . 0 }}
+     {{ with .GetPage $name }}
+        {{ $url = .RelPermalink }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ end }}
+{{ return $url }}
