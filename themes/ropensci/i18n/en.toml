@@ -111,23 +111,14 @@
 [software-research-scientist]
   other = 'Software Research Scientist'
 
-[research-software-engineer]
-  other = 'Research Software Engineer'
-
 [community-assistant]
   other = 'Community Assistant'
   
 [community-manager]
   other = 'Community Manager'
-  
-[software-research-scientist]
-  other = 'Software Research Scientist'
 
 [research-software-engineer]
-  other = 'Research Software Engineer'  
-
-[community-assistant]
-  other = 'Community Assistant'
+  other = 'Research Software Engineer'
 
 [editor]
   other = 'Editor'
@@ -147,9 +138,12 @@
 [developer]
   other = 'Developer'
 
-[stat peer-review advisor]
+[stat-peer-review-advisor]
   other = 'Statistical Peer Review Advisor'
   
 [former-core-team-member]  
   other = 'Former Core Team Member'
+  
+[About]  
+  other = 'About'
   
