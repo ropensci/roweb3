@@ -22,33 +22,31 @@ social: "@rOpenSci@hachyderm.io is hosting mini-hackathons to support first time
 editor:
 ---
 
-This week we had a wonderful community call, [From Novice to Contributor: Making and Supporting First-Time Contributions to FOSS](/commcalls/first-time-contributor/), 
-where Sunny Tseng, Pascal Burkhard, and Yaoxiang Li shared with us their
-experiences with, and advice for, first time contributors. 
-This was a perfect start to our [special series of activities](/blog/2024/10/22/first-time-contributions/) to support first time contributors to Open Source Software. Our next two activities, Coworking Mini-Hackathons for First-Time Contributors, will take place **February 4th 2025 1-3 UTC** and **March 4th 2025 13-15 UTC** ([see below](#mini-hackthons) for details), but first, let's review what we learned from this Community Call. 
+This week we had a wonderful community call, [From Novice to Contributor: Making and Supporting First-Time Contributions to FOSS](/commcalls/first-time-contributor/), where Sunny Tseng, Pascal Burkhard, and Yaoxiang Li shared with us their experiences with, and advice for, first time contributors.
+This was a perfect start to our [special series of activities](/blog/2024/10/22/first-time-contributions/)to support first time contributors to Open Source Software.
+
+Our next two activities, Coworking Mini-Hackathons for First-Time Contributors, will take place**February 4th 2025 1-3 UTC** and **March 4th 2025 13-15 UTC** ( [see below](#mini-hackthons) for details), but first, let's review what we learned from this Community Call.
 
 ### Community call
 
-Our three panellists each shared different experiences and perspectives on making contributions to 
-open sources software. Sunny and Pascal shared their experiences with getting involved, 
-Pascal and Yaoxiang shared technical tips for git and testing, and all three offered advice for first time contributors. 
+Our three panellists each shared different experiences and perspectives on making contributions to open sources software.
+Sunny and Pascal shared their experiences with getting involved, Pascal and Yaoxiang shared technical tips for git and testing, and all three offered advice for first time contributors.
 
 Sunny focused on her journey making her first R package, [bbsTaiwan](https://sunnytseng.github.io/bbsTaiwan/) as part of the [rOpenSci Champions Program](/champions/) and Pascal shared his experiences as a first time contributor to the babelquarto package after being a long-time solo user of git.
-Then Yaoxiang rounded out our call with advice for first-time contributors on the importance of including tests and how to deal with different testing situations. 
+Then Yaoxiang rounded out our call with advice for first-time contributors on the importance of including tests and how to deal with different testing situations.
 
-Sunny recommended that you have a plan for your contributions, but remain flexible as things change or don't proceed as you may have expected. 
-Both Sunny and Pascal pointed out that they found git to be less scary than they expected once they got started, and that they learned so much while collaborating with others. 
-Among other technical suggestions, Pascal and Yaoxiang both commented that starting small and using good descriptions can be really helpful, whether for git commit messages or code tests. 
+Sunny recommended that you have a plan for your contributions, but remain flexible as things change or don't proceed as you may have expected.
+Both Sunny and Pascal pointed out that they found git to be less scary than they expected once they got started, and that they learned so much while collaborating with others.
+Among other technical suggestions, Pascal and Yaoxiang both commented that starting small and using good descriptions can be really helpful, whether for git commit messages or code tests.
 
 ### Mini-Hackathons
 
 Hopefully this community call has inspired you to get involved open source software.
-If you're curious about contributing to Open Source Software, and would like some support to get started, 
-our coworking mini-hackathons are for you!
+If you're curious about contributing to Open Source Software, and would like some support to get started, our coworking mini-hackathons are for you!
 
 We'll be hosting two events, the first on **February 4th 2025 1-3 UTC** and the second on **March 4th 2025 13-15 UTC**.
 
-During these session you'll join others making contributions to R packages while [package maintainers and other mentors](https://ropensci.org/blog/2024/10/22/first-time-contributions/) are available 'live' to answer questions and give guidance.
+During these session you'll join others making contributions to R packages while [package maintainers and other mentors](/blog/2024/10/22/first-time-contributions/) are available 'live' to answer questions and give guidance.
 
 We'll also have a special Slack channel ready as a place for asynchronous questions during the event and in the week following.
 
