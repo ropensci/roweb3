@@ -40,6 +40,7 @@ reporting process, and internal guidelines for handling reports and enforcement.
     and [Francesca Palmeira](/author/francesca-belem-lopes-palmeira/) for the translation.
 
 As we didn't have any change, we maintain the version 2.5, dated January 30, 2024.
+
 ## Committee Members Activities
 
 Yanina Bellini Saibene attended the Book Club organized by R-Ladies Global to 
