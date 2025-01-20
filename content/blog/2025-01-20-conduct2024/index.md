@@ -43,6 +43,8 @@ As we didn't have any change, we maintain the version 2.5, dated January 30, 202
 
 ## Committee Members Activities
 
+We reflected on how we handle incidents, decide, take necessary actions, and possibly communicate with the reported and/or reported persons. As a result of this conversation, we have been working on a template to guide the CoC steps.
+
 Yanina Bellini Saibene attended the Book Club organized by R-Ladies Global to 
 read and discuss the book ["How to Respond to Code of Conduct Reports"](https://files.frameshiftconsulting.com/books/cocguide.pdf). It was a good opportunity to discuss and learn with 
 other CoC member of other organizations like R-Ladies, Bioconductor and Forwards. 
