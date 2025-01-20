@@ -89,7 +89,7 @@ but also other groups in translating and localizing open science resources.
 
 Community discussions on multilingual publishing, 
 like our [first Portuguese Community Call](https://ropensci.org/commcalls/translation-portuguese/) and
-our first _Traslathon_, reinforced the 
+[our first Traslathon](https://github.com/orgs/ropensci/projects/7), reinforced the 
 importance of breaking language barriers in open science. 
 
 It’s been inspiring to see the enthusiasm from contributors 
