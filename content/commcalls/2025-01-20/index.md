@@ -22,9 +22,15 @@ outputs:
 # vimeo:
 #  - id: '1032279338'
 resources:
-  # - url:  
-  #   name:  ""
-  #   details: ""
+  - url: 
+    name: "Sunny Tseng's Slides"
+    details: 
+  - url: https://key.edunum.tech/ropensci/
+    name: "Pascal Burkhard's Slides"
+    details: "Collaboration with git"
+  - url: /pdfs/2025-01-20_Supercharging-R-Package-Quality-with-testthat_yaoxiang-li.pdf
+    name:  "Yaoxiang Li"
+    details: "Enhancing R package quality with testthat"
 speakers:  
   - name: "Yi-Chin Sunny Tseng"
     bio: "Sunny Tseng is a Vancouver-based data scientist and PhD candidate specializing in 
