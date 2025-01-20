@@ -32,8 +32,8 @@ Our next two activities, Coworking Mini-Hackathons for First-Time Contributors, 
 Our three panellists each shared different experiences and perspectives on making contributions to open sources software.
 Sunny and Pascal shared their experiences with getting involved, Pascal and Yaoxiang shared technical tips for git and testing, and all three offered advice for first time contributors.
 
-Sunny focused on her journey making her first R package, [bbsTaiwan](https://sunnytseng.github.io/bbsTaiwan/) as part of the [rOpenSci Champions Program](/champions/) and Pascal shared his experiences as a first time contributor to the babelquarto package after being a long-time solo user of git.
-Then Yaoxiang rounded out our call with advice for first-time contributors on the importance of including tests and how to deal with different testing situations.
+Sunny focused on her journey making her first R package, [bbsTaiwan](https://sunnytseng.github.io/bbsTaiwan/) as part of the [rOpenSci Champions Program](/champions/) and Pascal shared his experiences as a first time contributor to the [babelquarto](https://docs.ropensci.org/babelquarto) package after being a long-time solo user of git.
+Then Yaoxiang rounded out our call with advice for first-time contributors on the importance of including tests and how to deal with different testing situations, referring to his experience with [medrxivr](https://docs.ropensci.org/medrxivr).
 
 {{< gallery >}}
 {{< figureforgallery src="sunny.png" alt="Screenshot of Sunny's title slide featuring her package bbsTawain"  >}}
