@@ -35,6 +35,12 @@ Sunny and Pascal shared their experiences with getting involved, Pascal and Yaox
 Sunny focused on her journey making her first R package, [bbsTaiwan](https://sunnytseng.github.io/bbsTaiwan/) as part of the [rOpenSci Champions Program](/champions/) and Pascal shared his experiences as a first time contributor to the babelquarto package after being a long-time solo user of git.
 Then Yaoxiang rounded out our call with advice for first-time contributors on the importance of including tests and how to deal with different testing situations.
 
+{{< gallery >}}
+{{< figureforgallery src="sunny.png" alt="Screenshot of Sunny's title slide featuring her package bbsTawain"  >}}
+{{< figureforgallery src="pascal.png" alt="Slide from Pascal's presentation 'Collaboration with git' featuring his main take-aways: use branches a lot, commit often, write meaningful commit messages, learn how to undo stuff, learn how to rebase, and get familiar with GitHub's Pull Requests"  >}}
+{{< figureforgallery src="yaoxiang.png" alt="Slide from Yaoxiang's presentation featuring testthat Basics and core features, such as the test_that function, basic expectations like expect_equal, and error and warning testing like expect_error and expect_warning."  >}}
+{{< /gallery >}}
+
 Sunny recommended that you have a plan for your contributions, but remain flexible as things change or don't proceed as you may have expected.
 Both Sunny and Pascal pointed out that they found git to be less scary than they expected once they got started, and that they learned so much while collaborating with others.
 Among other technical suggestions, Pascal and Yaoxiang both commented that starting small and using good descriptions can be really helpful, whether for git commit messages or code tests.
