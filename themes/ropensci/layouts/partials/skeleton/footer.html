@@ -9,10 +9,10 @@
             <li><a class="footer-nav__link" lang="en" href="/software-review/">Software Review Process</a></li>
             <li><a class="footer-nav__link" lang="en" href="/about/#team">Our Team</a></li>
             <li>
-              <a class="footer-nav__link" lang="en" href="/careers/">Jobs {{ if partial "careers/we-are-hiring" . }}<strong>We’re Hiring!</strong>{{ end }}</a>
+              {{ partial "translate-url" (dict "name" "careers" "Site" .Site "class" "footer-nav__link")}}{{ i18n "Careers" }}{{ if partial "careers/we-are-hiring" . }} <strong>{{ i18n "We-are-hiring" }}</strong>{{ end }}</a>
             </li>
             <li><a class="footer-nav__link" lang="en" href="/donate/">Donate</a></li>
-            <li><a class="footer-nav__link" lang="en" href="/contact/">Contact Us</a></li>
+            <li><a class="footer-nav__link" lang="en" href="/contact/">{{ i18n "Contact" }}</a></li>
           </ul>
           <ul class="footer-nav__item">
             <li><a class="footer-nav__link" lang="en" href="/community/">Community</a></li>
@@ -20,8 +20,7 @@
             <li><a class="footer-nav__link" lang="en" href="/commcalls/">Community Calls</a></li>
             <li><a class="footer-nav__link" lang="en" href="/events/">Events</a></li>
             <li><a class="footer-nav__link external-link" lang="en" href="https://discuss.ropensci.org/">Join the Discussion</a></li>
-            <li><a class="footer-nav__link" lang="en" href="/code-of-conduct/">Code of Conduct (EN)</a></li>
-            <li><a class="footer-nav__link" lang="es" href="/es/codigo-de-conducta/">Código de Conducta (ES)</a></li>
+            <li><a class="footer-nav__link" lang="en" href="{{ relLangURL (i18n "Code-of-Conduct" | urlize)}}">{{ i18n "Code-of-Conduct" }}</a></li>
           </ul>
           <ul class="footer-nav__item">
             <li><a class="footer-nav__link" lang="en" href="/resources/">Resources</a></li>

@@ -1,0 +1,7 @@
+{{ $value := . }}
+{{ $string := $value | urlize }}
+{{ $translation := $string | i18n }}
+{{ if (gt (len $translation) 0) }}
+  {{ $value = $translation }}
+{{ end }}
+{{ return $value }}

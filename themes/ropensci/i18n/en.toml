@@ -54,3 +54,96 @@
   
 [Code-of-Conduct]
   other = 'Code of Conduct'
+  
+[We-are-hiring]
+  other = 'We are hiring!'
+  
+[Careers]
+  other = 'Careers'
+[Name]
+  other = 'Name'
+  
+[Enter-your-name]
+  other = 'Enter your name'
+  
+[Email-address]
+  other = 'Email address'
+  
+[Enter-your-email]
+  other = 'Enter your email address'
+  
+[Enter-a-valid-email-address]
+  other = 'Enter a valid email address'
+  
+[Message]
+  other = 'Message'
+  
+[Enter-your-message]
+  other = 'Enter your message'
+  
+[Send-message]
+  other = 'Send your message'
+  
+[Contact]
+  other = 'Contact'
+  
+[Our-External-Advisors]
+  other = 'Our External Advisors'
+  
+[Our-Alumni]
+  other = 'Our Alumni'
+  
+[Our-Research-Fellows]
+  other = 'Our Research Fellows'
+  
+[strategic-advisor]
+  other = 'strategic advisor'
+  
+[executive-director]
+  other = 'Executive Director'
+  
+[advisor]
+  other = 'Advisor'
+  
+[lead-infrastructure-engineer]
+  other = 'Lead Infrastructure Engineer'
+  
+[software-research-scientist]
+  other = 'Software Research Scientist'
+
+[community-assistant]
+  other = 'Community Assistant'
+  
+[community-manager]
+  other = 'Community Manager'
+
+[research-software-engineer]
+  other = 'Research Software Engineer'
+
+[editor]
+  other = 'Editor'
+
+[Software-Review-Lead]
+  other = 'Software Review Lead'
+  
+[co-funder]
+  other = 'Co-funder'
+
+[staff]
+  other = 'staff'
+  
+[researcher]
+  other = 'Researcher'
+
+[developer]
+  other = 'Developer'
+
+[stat-peer-review-advisor]
+  other = 'Statistical Peer Review Advisor'
+  
+[former-core-team-member]  
+  other = 'Former Core Team Member'
+  
+[About]  
+  other = 'About'
+  
