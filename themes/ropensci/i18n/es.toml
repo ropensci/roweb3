@@ -71,7 +71,7 @@
   other = 'Sesiones pasadas'
   
 [Speakers]
-  other = 'Ponentes'
+  other = 'Disertantes'
   
 [Resources]
   other = 'Recursos'
@@ -173,3 +173,6 @@
   
 [About]  
   other = 'Acerca'
+  
+[Community-calls]  
+  other = 'Conversaciones con la comunidad'
