@@ -98,7 +98,7 @@
         <li class="nav-item drp">
           <a class="nav-link" lang="en" href="/community/">Community</a>
           <ul class="sub-menu">
-            <li><a lang="en" href="/commcalls/">Community Calls</a></li>
+            <li>{{ partial "translate-url" (dict "name" "commcalls" "Site" .Site )}}{{ i18n "Community-calls" }}</a></li>
             <li><a lang="en" href="/coworking/">Coworking</a></li>
             <li><a lang="en" href="/events/">Events</a></li>
             <li><a lang="en" href="{{ relLangURL (i18n "Code-of-Conduct" | urlize)}}">{{ i18n "Code-of-Conduct" }}</a></li>
