@@ -135,7 +135,7 @@ Counting our staff, 42 authors wrote 54 blog posts, 63% of which were written by
 and 13% were multilingual.
 
 We also celebrated our vibrant package ecosystem with the [“A Package a Day”](https://hachyderm.io/@rOpenSci/tagged/APackageADay) 
-campaign on Mastodon and Weekly Package digests in LinkedIn. 
+campaign on Mastodon and [Weekly Package Digests](https://www.linkedin.com/feed/hashtag/?keywords=packageweeklydigest&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7170464303186108416) in LinkedIn. 
 These efforts showcased the incredible diversity of our over 
 300 federated open-source packages.
 
