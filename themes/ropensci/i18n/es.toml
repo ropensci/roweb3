@@ -79,3 +79,97 @@
 [Collaborative-notes]
   other = 'Notas colaborativas'
   
+[Code-of-Conduct]
+  other = 'Código de Conducta'
+  
+[We-are-hiring]
+  other = 'Estamos contratando!'
+  
+[Careers]
+  other = 'Carreras'
+[Name]
+  other = 'Nombre'
+  
+[Enter-your-name]
+  other = 'Introduce tu nombre'
+  
+[Email-address]
+  other = 'Dirección de correo electrónico'
+  
+[Enter-your-email]
+  other = 'Introduce tu dirección de correo electrónico'
+  
+[Enter-a-valid-email-address]
+  other = 'Introduce una direccion de correo electrónico corecta'
+  
+[Message]
+  other = 'Mensaje'
+  
+[Enter-your-message]
+  other = 'Introduce tu mensaje'
+  
+[Send-message]
+  other = 'Envia tu mensaje'
+  
+[Contact]
+  other = 'Contacto'
+  
+[Our-External-Advisors]
+  other = 'Equipo Asesor Externo'
+  
+[Our-Alumni]
+  other = 'Alumni'
+  
+[Our-Research-Fellows]
+  other = 'Becas de Investigación'
+  
+[executive-director]
+  other = 'Director·a Ejecutivo·a'
+  
+[strategic-advisor]
+  other = 'Asesor·a estratégico'
+  
+[advisor]
+  other = 'Asesor·a'
+  
+[lead-infrastructure-engineer]
+  other = 'Ingeniero·a en Jefe de Infraestructuras'
+  
+[community-manager]
+  other = 'Coordinador·a de Comunidad'
+  
+[software-research-scientist]
+  other = 'Investigador·a de Software Científico'
+
+[research-software-engineer]
+  other = 'Ingenier(o|a) de Software de Investigación'  
+
+[community-assistant]
+  other = 'Asistente de la Comunidad'
+
+[editor]
+  other = 'Editor·a'
+
+[Software-Review-Lead]
+  other = 'Líder de Revisión de Software'
+  
+[co-funder]
+  other = 'Co-fundador'
+
+[staff]
+  other = 'Equipo'
+  
+[researcher]
+  other = 'Investigador·a'
+
+[developer]
+  other = 'Desarrollador·a'
+
+[stat-peer-review-advisor]
+  other = 'Asesor·a de Revisión por Pares de Software Estadístico'
+  
+[former-core-team-member]  
+  other = 'Ex-integrante del equipo'
+  
+[About]  
+  other = 'Acerca'

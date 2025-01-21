@@ -5,6 +5,21 @@
       <img class="logo-light" src="{{ "/images/svg/logo-light.svg" | relURL }}" alt="" />
       <img class="logo-dark" src="{{ "/images/svg/logo-dark.svg" | relURL }}" alt="" />
     </a>
+    {{ if (not .IsHome) }}
+    {{ if .IsTranslated }}
+    <div class="dropdown">
+  <button class="btn btn-primary btn-lang dropdown-toggle" type="button" id="btndroplang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <i class="fa-solid fa-globe"></i> {{ .Language.Lang | upper }}
+  </button>
+  
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    {{ range .Translations }}
+    <a class="dropdown-item lang-nav" href="{{ .Permalink }}" lang="{{ .Language }}">{{ .Language.LanguageName }} ({{ .Language | upper }})</a>
+    {{ end }}
+  </div>
+  </div>
+  {{ end }}
+  {{ end }}
     <button
       class="navbar-toggler"
       type="button"
@@ -25,11 +40,11 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto text-right text-lg-left">
         <li class="nav-item drp">
-          <a class="nav-link" lang="en" href="/about/">About</a>
+          {{ partial "translate-url" (dict "name" "about" "Site" .Site "class" "nav-link" )}}{{ i18n "About" }}</a>
           <ul class="sub-menu">
             <li><a lang="en" href="/donate/">Donate</a></li>
-            <li><a lang="en" href="/careers/">Careers</a></li>
-            <li><a lang="en" href="/contact/">Contact</a></li>
+            <li>{{ partial "translate-url" (dict "name" "careers" "Site" .Site )}}{{ i18n "Careers" }}</a></li>
+            <li>{{ partial "translate-url" (dict "name" "contact" "Site" .Site )}}{{ i18n "Contact" }}</a></li>
           </ul>
         </li>
         <li class="nav-item drp">
@@ -86,8 +101,7 @@
             <li><a lang="en" href="/commcalls/">Community Calls</a></li>
             <li><a lang="en" href="/coworking/">Coworking</a></li>
             <li><a lang="en" href="/events/">Events</a></li>
-            <li><a lang="en" href="/code-of-conduct/">Code of Conduct (EN)</a></li>
-            <li><a lang="en" href="/codigo-de-conducta/">Código de Conducta (ES)</a></li>
+            <li><a lang="en" href="{{ relLangURL (i18n "Code-of-Conduct" | urlize)}}">{{ i18n "Code-of-Conduct" }}</a></li>
             <li><a lang="en" href="https://contributing.ropensci.org/" class="external-link">Contributing Guide</a></li>
             <li><a lang="en" href="https://discuss.ropensci.org/" class="external-link">Forum</a></li>
           </ul>
@@ -108,14 +122,14 @@
 
 
       </ul>
-      {{ if ne .Language.Lang "en"}}
+      {{ if and (ne .Language.Lang "en") (ne .Language.Lang "es") }}
       <div class="navbar-right d-none d-xl-block">
         <a lang="en" href="https://github.com/ropensci/roweb3/milestone/1">🚧 {{ i18n "Translation" }}</a>
       </div>
       {{ end }}
       {{ if partial "careers/we-are-hiring" . }}
       <div class="navbar-right d-none d-xl-block">
-        <a lang="en" href="/careers/">👋 We are hiring!</a>
+        {{ partial "translate-url" (dict "name" "careers" "Site" .Site )}}👋 {{ i18n "We-are-hiring" }}</a>
       </div>
       {{ end }}
     </div>

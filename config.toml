@@ -50,6 +50,7 @@ DefaultContentLanguage = "en"
     footer = "&copy; The rOpenSci Project"
     rbloggers = ["blog", "technotes", "commcalls", "careers"]
     search = ["blog", "technotes", "commcalls", "events", "author"]
+    langs = ["en", "es"]
     projects = ["r-universe", "software-review", "champions", "multilingual-publishing"]    
     blogs = ["blog", "technotes"]
     events = ["events", "commcalls"]
