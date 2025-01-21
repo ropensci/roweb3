@@ -19,7 +19,7 @@ tags:
 featured: true
 description: "Announcing mini-hackathons to support first time contributors"
 social: "@rOpenSci@hachyderm.io is hosting mini-hackathons to support first time contributors!"
-editor:
+editor: Maëlle Salmon
 ---
 
 This week we had a wonderful community call, [From Novice to Contributor: Making and Supporting First-Time Contributions to FOSS](/commcalls/first-time-contributor/), where Sunny Tseng, Pascal Burkhard, and Yaoxiang Li shared with us their experiences with, and advice for, first time contributors.
