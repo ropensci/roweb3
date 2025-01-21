@@ -42,7 +42,7 @@
         <li class="nav-item drp">
           {{ partial "translate-url" (dict "name" "about" "Site" .Site "class" "nav-link" )}}{{ i18n "About" }}</a>
           <ul class="sub-menu">
-            <li><a lang="en" href="/donate/">Donate</a></li>
+            <li>{{ partial "translate-url" (dict "name" "donate" "Site" .Site )}}{{ i18n "Donate" }}</a></li>
             <li>{{ partial "translate-url" (dict "name" "careers" "Site" .Site )}}{{ i18n "Careers" }}</a></li>
             <li>{{ partial "translate-url" (dict "name" "contact" "Site" .Site )}}{{ i18n "Contact" }}</a></li>
           </ul>

@@ -174,5 +174,10 @@
 [About]  
   other = 'Acerca'
   
+[Donate]  
+  other = 'Donar'
+  
+[check-money]
+  other = 'Los cheques también pueden hacerse a nombre de NumFOCUS, solo asegúrate de añadir rOpenSci en la línea de memo.'
 [Community-calls]  
   other = 'Conversaciones con la comunidad'
