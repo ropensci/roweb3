@@ -4,6 +4,9 @@
 [By]
   other = 'Por'
 
+[With]
+  other = 'Con'
+
 [Edited-by]
   other = 'Editado por'
   
@@ -54,3 +57,25 @@
   
 [Tech-Notes]
   other = 'Notas técnicas'
+  
+[Our-Next-Sessions]
+  other = 'Próximas sesiones'
+  
+[Our-Next-Session]
+  other = 'Próxima sesión'
+  
+[To-be-announced]
+  other = 'Se anunciará más adelante'
+  
+[Past-Sessions]
+  other = 'Sesiones pasadas'
+  
+[Speakers]
+  other = 'Ponentes'
+  
+[Resources]
+  other = 'Recursos'
+  
+[Collaborative-notes]
+  other = 'Notas colaborativas'
+  
