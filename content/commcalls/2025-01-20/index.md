@@ -28,10 +28,10 @@ resources:
   - url: https://key.edunum.tech/ropensci/
     name: "Pascal Burkhard's Slides"
     details: "Collaboration with git"
-  - url: /pdfs/2025-01-20_Supercharging-R-Package-Quality-with-testthat_yaoxiang-li.pdf
+  - url: 2025-01-20_Supercharging-R-Package-Quality-with-testthat_yaoxiang-li.pdf
     name:  "Yaoxiang Li's Slides"
     details: "Enhancing R package quality with testthat"
-  - url: /commcall_resources/2025-01-20-ExampleTestPackage.zip
+  - url: 2025-01-20-ExampleTestPackage.zip
     name: "Yaoxiang Li's Example Package"
 speakers:  
   - name: "Yi-Chin Sunny Tseng"
