@@ -134,7 +134,7 @@ We have a total of 35 community authors, of which 18 are first time community au
 Counting our staff, 42 authors wrote 54 blog posts, 63% of which were written by community authors
 and 13% were multilingual.
 
-We also celebrated our vibrant package ecosystem with the “A Package a Day” 
+We also celebrated our vibrant package ecosystem with the [“A Package a Day”](https://hachyderm.io/@rOpenSci/tagged/APackageADay) 
 campaign on Mastodon and Weekly Package digests in LinkedIn. 
 These efforts showcased the incredible diversity of our over 
 300 federated open-source packages.
