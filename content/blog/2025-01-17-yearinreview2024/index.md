@@ -67,7 +67,8 @@ and **11** editors, with [2 new editors](/blog/2024/07/03/editors2024/).
 We also streamlined the review process and provided transparency through regular updates
 on the number of submissions, approvals, 
 and the status of packages under review were shared through newsletters, 
-our Slack and our open GitHub organization. 
+our Slack and our open GitHub organization.
+We built a new [dashboard](https://dashboard.ropensci.org/) to monitor the health and responsiveness of our system for authors, reviewers, and editors.
 Peer review remains a cornerstone of how we maintain quality and reproducibility in R software development
 and how we build community.
 
