@@ -147,3 +147,8 @@
 [About]  
   other = 'About'
   
+[Donate]  
+  other = 'Donate'
+  
+[check-money]
+  other = 'Checks can also be made out to NumFOCUS, just make sure to add rOpenSci in the memo line'

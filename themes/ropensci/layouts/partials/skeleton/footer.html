@@ -11,7 +11,7 @@
             <li>
               {{ partial "translate-url" (dict "name" "careers" "Site" .Site "class" "footer-nav__link")}}{{ i18n "Careers" }}{{ if partial "careers/we-are-hiring" . }} <strong>{{ i18n "We-are-hiring" }}</strong>{{ end }}</a>
             </li>
-            <li><a class="footer-nav__link" lang="en" href="/donate/">Donate</a></li>
+            <li>{{ partial "translate-url" (dict "name" "donate" "Site" .Site )}}{{ i18n "Donate" }}</a></li>
             <li><a class="footer-nav__link" lang="en" href="/contact/">{{ i18n "Contact" }}</a></li>
           </ul>
           <ul class="footer-nav__item">
