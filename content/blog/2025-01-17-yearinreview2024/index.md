@@ -118,7 +118,7 @@ in [Turkish](/events/rsr-learn-and-use/),
 Chinese and, of course, English.
 
 In 2025, we will run our first cohort of Champions with a fully Spanish-language
-curriculum, under the [we the support of our new Latin America funded by CZI](https://ropensci.org/blog/2024/10/10/czi-latam-grant/).
+curriculum, under the [support of our new Latin America focus program, funded by CZI](https://ropensci.org/blog/2024/10/10/czi-latam-grant/).
 We are also excited to be working on new models and partnerships for the Champions
 to make the program more sustainable and self-supporting, and to be following up
 with our first Champions to better understand our long-term impact.
