@@ -62,7 +62,7 @@ showcasing the commitment to improving software quality and
 validating R packages for a variety of applications. 
 
 We’ve had **17** packages successfully complete software peer review with the help of about **33** reviewers 
-and **11** editors, with [2 new editors](/blog/2024/07/03/editors2024/).
+and **11** editors, with [2 new editors](/blog/2024/07/03/editors2024/). We also did the [first bilingual review](https://github.com/ropensci/software-review/issues/620) in English and Spanish. 
 
 We also streamlined the review process and provided transparency through regular updates
 on the number of submissions, approvals, 
