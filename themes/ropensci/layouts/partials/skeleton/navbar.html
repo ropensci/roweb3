@@ -107,7 +107,7 @@
           </ul>
         </li>
         <li class="nav-item drp">
-          <a class="nav-link" lang="en" href="/resources/">Resources</a>
+          {{ partial "translate-url" (dict "name" "resources" "Site" .Site "class" "nav-link")}}{{ i18n "Resources" }}</a>
           <ul class="sub-menu">
             <li><a lang="en" href="/talks-papers/">Talks & Publications</a></li>
             <li><a lang="en" href="/training/">Training materials</a></li>
