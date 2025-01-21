@@ -22,38 +22,38 @@ inclusive community, through innovation and collaboration.
 
 Here are the highlights of the year:
 
-## Leadership Transition
-
-We went through a leadership transition, 
-[Karthik Ram stepped down as Executive Director](/blog/2024/03/29/from-the-founding-director-my-farewell-to-ropensci/) 
-after 13 years of service, 
-[transitioning the role to Noam Ross](/blog/2024/03/29/hello-from-our-new-executive-director/), 
-ensuring continued focus on strategic goals and community impact.
-
-
-
-## R-Universe Progress
+## R-Universe 
 
 R-Universe, rOpenSci's platform for finding and publishing R packages,
 saw major advancements in 2024, 
 making it an increasingly useful and trusted resource for the wider R community.
 
-Some of the highlights included a big rewrite of the [web frontend](https://r-universe.dev) 
+Some of the highlights of our work have included a big rewrite of the [web frontend](https://r-universe.dev) 
 and search engine to serve faster, beautiful, informative webpages, and 
 search through tens of thousands [packages](https://r-universe.dev/packages),
 [articles](https://r-universe.dev/articles) and [datasets](https://r-universe.dev/datasets). 
 On the build side we added support for new tools like Rust and Quarto,
 and improved the process of building binaries for WebAssembly and Apple Silicon.
 
-These enhancements have resulted in a big uptake in traffic and interest from the community, 
-which was rewarded by the R consortium by [naming R-Universe a Top-Level Project](/blog/2024/12/03/r-universe-r-consortium-tlp/), ensuring support for at least three more years.
-We are very grateful for this recognition, and look forward to further 
-develop and maintain R-universe to serve greater R community.
-
 Moreover, we received a [Google Season of Docs grant](/blog/2024/04/12/gsod-announcement/), aimed at centralizing the
 documentation. The project focused on consolidating numerous tech notes and READMEs 
 into a unified and easily navigable [Quarto website](https://docs.r-universe.dev), 
 highlighting best practices and guiding users to maximize the platform's features.
+
+These enhancements have resulted in even more users and projects joining R-Universe.
+We saw more than a doubling of traffic, and R-Universe has become the distribution
+platform of choice for anchor community projects like
+[Stan](https://discourse.mc-stan.org/t/announcement-stan-r-packages-repo-deprecated-moving-to-r-universe/35341),
+[DuckDB](https://duckdb.org/docs/installation/index.html?version=main&environment=r),
+and [Polars](https://pola-rs.github.io/r-polars/vignettes/install.html),
+and we've seen the creation of new community initives that build on R-Universe,
+like [R-Multiverse](https://r-multiverse.org/)!
+
+For 2025, we have once again been awarded support by the R-Consortium, now
+being [named a top-level consortium project](/blog/2024/12/03/r-universe-r-consortium-tlp/)! 
+With this long-term support, we will be investing even more in making R-Universe
+a platform that supports building large-scale, collaborative repositories that
+experiment with new models for release, reproducibility, and governance.
 
 ## Software Peer Review
 
@@ -71,65 +71,61 @@ our Slack and our open GitHub organization.
 Peer review remains a cornerstone of how we maintain quality and reproducibility in R software development
 and how we build community.
 
+In the year ahead, we are going to keep pusing our tooling to make review more
+efficient and helpful, and we have goals of doing more to make the
+process of software peer-review a tool that other organizations can use to curate
+their own software ecosystems and build collaborations and community.
 
 ## Multilingual Resources
 
-In 2024, rOpenSci continued to expand its multilingual resources, 
-the ["rOpenSci Packages: Development, Maintenance, and Peer Review" 
-guide was updated to include Spanish translations](/blog/2024/03/11/devguide-0.9.0/). 
-Additionally, [Portuguese translations are underway](https://github.com/orgs/ropensci/projects/7), 
-supported by dedicated community volunteers.
-
-We continue de development of tools like 
+In 2024, we to expanded our multilingual resources. We finished translating
+our core resource, the ["rOpenSci Packages: Development, Maintenance, and Peer Review" 
+into Spanish](/blog/2024/03/11/devguide-0.9.0/). This has been the central project
+around which we developed our multilingual toolkit, including packages like
 [babeldown](https://docs.ropensci.org/babeldown/),
-[babelquarto](https://docs.ropensci.org/babelquarto/) and
+[babelquarto](https://docs.ropensci.org/babelquarto/), that facilitate LLM-supported
+translation workflows, and
 our [rOpenSci Localization and Translation Guidelines](/blog/2024/12/17/localization-guide/) 
-in Spanish and English to assist our community, 
-but also other groups in translating and localizing open science resources. 
+which we published in Spanish and English to assist our community as well as other groups in translating and localizing open science resources. 
 
-Community discussions on multilingual publishing, 
+We have had a series of great community events on multilingual publishing, 
 like our [first Portuguese Community Call](https://ropensci.org/commcalls/translation-portuguese/) and
-[our first Traslathon](https://github.com/orgs/ropensci/projects/7), reinforced the 
+[our first Traslathon](https://github.com/orgs/ropensci/projects/7), which reinforced the 
 importance of breaking language barriers in open science. 
 
-It’s been inspiring to see the enthusiasm from contributors 
-and volunteers driving this effort forward.
-
-We also shared our experiences and tools in several [conferences](/talks/) 
-(and several languages) and also discussed the importance 
-of multilingual computing materials in an episode of 
-the ["Code for Thought" podcast](https://codeforthought.buzzsprout.com/1326658/14660478-en-crossing-the-language-barrier-yanina-saibene).
-
+What's happening with translation in 2025? [Portuguese translations of the development guide are underway](https://github.com/orgs/ropensci/projects/7), 
+supported by dedicated community volunteers. It’s been inspiring to see the enthusiasm from contributors 
+and volunteers driving this effort forward, and we will be giving it an extra push with additional support of our
+new [CZI-funded Latin America program](https://ropensci.org/blog/2024/10/10/czi-latam-grant/). We are also
+in the midst of Spanish-language revisions of our website and Champions programs materials.
 
 ## Champions Program
 
-The [second cohort of the Champions Program](/blog/2024/02/15/champions-program-champions-2024/) has been inspiring. 
+We had an inspiring 2024 with the [second cohort of our Champions Program](/blog/2024/02/15/champions-program-champions-2024/). 
 These leaders have tackled projects that span disciplines and geographies, 
 driving open science and open data initiatives with creativity and 
 local impact.
 
 Package development is the type of project most chosen by this group, 
-but other champions have been reviewers for our software peer review system.
+but other champions have taken on the challenge of becoming reviewer in our software peer-review community.
 
 Multilingualism plays an important role in the Champions Program, 
 as part of their outreach activity, this year we have events and workshops
 in [Turkish](/events/rsr-learn-and-use/), 
 [Spanish](https://www.youtube.com/watch?v=YYfyBrQhMQc), 
 [Portuguese](https://www.eventbrite.cl/e/traducao-hackathon-traslaton-ropensci-tickets-1045507530167),
-Chinese and, of course,
-English.
+Chinese and, of course, English.
 
-Finally, [we got the support of the CZI program to continue with the
-Champions Program with a regional focus in Latin America](https://ropensci.org/blog/2024/10/10/czi-latam-grant/), carrying out
-the program in Spanish and Portuguese.
-
-We are excited to see the impact of our Champions' projects 
-and the new cohort of Champions in 2025.
+In 2025, we will run our first cohort of Champions with a fully Spanish-language
+curriculum, under the [we the support of our new Latin America funded by CZI](https://ropensci.org/blog/2024/10/10/czi-latam-grant/).
+We are also excited to be working on new models and partnerships for the Champions
+to make the program more sustainable and self-supporting, and to be following up
+with our first Champions to better understand our long-term impact.
 
 ## Community Engagement
 
 We have 219 contributors and 49 of those people made their first code contribution to rOpenSci during 2024! 
-Others shared xx new [use cases](/usecases/) to help package authors see how their work is 
+Others shared new [use cases](/usecases/) to help package authors see how their work is 
 being used and help other users imagine how they can apply it.
 
 Our blog had featured many different voices and experiences during 2024.
@@ -155,24 +151,26 @@ weigh in on standards and best practices,
 invited us [to talk about our work](https://ropensci.org/talks-papers/), 
 or mentioned us in a presentation, a post, or social media.
 
-
-## Looking Ahead
-
-Firts of all, a **big thank you all for making rOpenSci**. 
-We are very grateful for your contribution and look forward 
-to continue working together in 2025. 
-
-We also look forward to another year of growth, and collaboration
-with other organizations and communities 
-we have been working like Epiverse, RECON, data.org, 
-LatinR, PyOpenSci, OpenScapes and OSPO Offices.
-
-We start 2025 with a [Community Call](/commcalls/first-time-contributor/) 
-and [mini-hackathons](/coworking/) 
+We will do all of this and more in 2025. We are starting with a [Community Call](/commcalls/first-time-contributor/) 
+and a series of [mini-hackathons](/coworking/) 
 during our co-working session to support first-time contributors 
 to open source projects.
 These calls provided invaluable opportunities for 
 knowledge-sharing, networking and skill-up opportunity in a
 safe and friendly space underscoring the collaborative spirit of rOpenSci.
 
-See you all around!
+We are also looking forward to collaborations with partners
+and other communities, like Epiverse, RECON, data.org, LatinR, PyOpenSci, 
+OpenScapes and Open-Source Program offices. Watch this space for new projects and events!
+
+## Leadership
+
+In 2024 we [bade farewell to Karthk Ram, our co-founder and Executive Director of 13 years](/blog/2024/03/29/from-the-founding-director-my-farewell-to-ropensci/).
+Noam Ross, formerly our leader for peer-review, [took on the role](/blog/2024/03/29/hello-from-our-new-executive-director/).
+
+## Thanks to our Community
+
+An enormous **thank you to all our authors, reviewers, editors, mentors, champions
+contributors, commenters, bloggers, translators, bug-reporters, documentation-copy-editors,
+package-publishers, and issue-filers for _making_ rOpenSci** in 2024.  rOpenSci _is_ our community.
+We grateful for it all and look forward to what we will do together in 2025!
