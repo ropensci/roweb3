@@ -1,12 +1,44 @@
+{{ define "main" }}
+<section class="section section-generic">
+  <div class="container">
+<section class="section section-about">
+  <div class="container bg-cubes">
+    <!-- Header text -->
+    <div class="row">
+      <div class="col-md-9 offset-md-1">
+        <h1 class="about-title">
+          {{ .Params.pitch | markdownify }}
+        </h1>
+      </div>
+    </div>
+    <div class="about-img">
+      <img src="/images/about.png" alt="" />
+    </div>
+    <!-- Text block -->
+    <!-- https://discourse.gohugo.io/t/two-div-sections-one-markdown-file/27738 -->
+     {{- $sectionDelimiter := "<!-- section break -->" -}}
+  {{- $rawContentSections := split .RawContent $sectionDelimiter -}}
+    <div class="row about-block">
+      <div class="col-md-3 text-md-right">
+        <h4 class="about-block__title">
+          {{ index $rawContentSections 0 | .RenderString | markdownify }}
+        </h4>
+      </div>
+      <div class="col-md-6 about-block__text">
+        {{ index $rawContentSections 1 | .RenderString | markdownify }}
+      </div>
+    </div>
+  </div>
+</section>
 <div class="row about-block">
   <div class="col-md-3 text-md-right">
     <h4 class="about-block__title" id ="team">
-      Our Team
+      {{ index $rawContentSections 2 | .RenderString | markdownify }}
     </h4>
   </div>
   <div class="col-md-6 about-block__text">
     <p>
-      rOpenSci is a non-profit initiative founded in 2011 by Karthik Ram, Scott Chamberlain, and Carl Boettiger. Our staff includes developers, researchers, and community builders. Our non-staff strategic advisors and editorial board members are volunteers.
+      {{ index $rawContentSections 3 | .RenderString | markdownify }}
     </p>
   </div>
 </div>
@@ -17,7 +49,7 @@
 <div class="row about-block">
   <div class="col-md-3 text-md-right">
     <h4 class="about-block__title">
-      Our External Advisors
+      {{ i18n "Our-External-Advisors" }}
     </h4>
   </div>
   <div class="col-md-6 about-block__text">
@@ -30,11 +62,7 @@
   <div class="col-md-3 text-md-right">
     <h4 class="about-block__title">
       {{ $alumni := (where .Site.Data.team.team "alumnus" true ) }}
-      {{ if eq ( len $alumni ) 1 }}
-      Our Alumnus
-      {{ else }}
-      Our Alumni
-      {{ end }}
+      {{ i18n "Our-Alumni" }}
     </h4>
   </div>
   <div class="col-md-6 about-block__text">
@@ -45,14 +73,17 @@
 <div class="row about-block">
   <div class="col-md-3 text-md-right">
     <h4 class="about-block__title">
-      Our Research Fellows
+      {{ i18n "Our-Research-Fellows" }}
     </h4>
   </div>
   <div class="col-md-6 about-block__text">
-    <p>
-      Our 2017 & 2018 research fellows were awarded support for their ongoing work in open
-      science to enable them to have a bigger voice in their communities.
-    </p>
+     {{ index $rawContentSections 4 | .RenderString | markdownify }}
   </div>
 </div>
 {{ partial "whole-page-fragments/team/team-section" (dict "name" "fellows" "team" (append (where .Site.Data.team.team "roles" "intersect" (slice "fellow" ) ) (where .Site.Data.team.team "past_roles" "intersect" (slice "fellow" ) ) ) )  }}
+
+  </div>
+</section>
+{{ partial "whole-page-fragments/newsletter"  (dict "divider" "lr" ) }}
+{{ partial "whole-page-fragments/brands" (dict "Site" .Site "divider" "rl" ) }}
+{{ end }}

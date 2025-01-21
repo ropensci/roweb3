@@ -25,11 +25,11 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto text-right text-lg-left">
         <li class="nav-item drp">
-          <a class="nav-link" lang="en" href="/about/">About</a>
+          {{ partial "translate-url" (dict "name" "about" "Site" .Site "class" "nav-link" )}}{{ i18n "About" }}</a>
           <ul class="sub-menu">
             <li><a lang="en" href="/donate/">Donate</a></li>
-            <li><a lang="en" href="/careers/">Careers</a></li>
-            <li><a lang="en" href="/contact/">Contact</a></li>
+            <li>{{ partial "translate-url" (dict "name" "careers" "Site" .Site )}}{{ i18n "Careers" }}</a></li>
+            <li>{{ partial "translate-url" (dict "name" "contact" "Site" .Site )}}{{ i18n "Contact" }}</a></li>
           </ul>
         </li>
         <li class="nav-item drp">
@@ -107,14 +107,14 @@
 
 
       </ul>
-      {{ if ne .Language.Lang "en"}}
+      {{ if and (ne .Language.Lang "en") (ne .Language.Lang "es") }}
       <div class="navbar-right d-none d-xl-block">
         <a lang="en" href="https://github.com/ropensci/roweb3/milestone/1">🚧 {{ i18n "Translation" }}</a>
       </div>
       {{ end }}
       {{ if partial "careers/we-are-hiring" . }}
       <div class="navbar-right d-none d-xl-block">
-        <a lang="en" href="/careers/">👋 We are hiring!</a>
+        {{ partial "translate-url" (dict "name" "careers" "Site" .Site )}}👋 {{ i18n "We-are-hiring" }}</a>
       </div>
       {{ end }}
     </div>

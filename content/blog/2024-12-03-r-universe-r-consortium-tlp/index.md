@@ -1,6 +1,6 @@
 ---
 slug: r-universe-r-consortium-tlp
-title: R-Universe Named R Consortium Top-Level Project
+title: R-Universe Named an R Consortium Top-Level Project
 author:
   - Noam Ross
   - Jeroen Ooms
