@@ -22,9 +22,9 @@ outputs:
 # vimeo:
 #  - id: '1032279338'
 resources:
-  - url: 
+  - url: https://github.com/SunnyTseng/bbsTaiwan_develop/blob/main/docs/2025_01_rOpenSci_community_call/bbsTaiwan%20update.pdf
     name: "Sunny Tseng's Slides"
-    details: 
+    details: "bbsTaiwan"
   - url: https://key.edunum.tech/ropensci/
     name: "Pascal Burkhard's Slides"
     details: "Collaboration with git"
