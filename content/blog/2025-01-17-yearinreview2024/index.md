@@ -171,7 +171,7 @@ Noam Ross, formerly our leader for peer-review, [took on the role](/blog/2024/03
 
 ## Thanks to our Community
 
-An enormous **thank you to all our authors, reviewers, editors, mentors, champions
+An enormous **thank you to all our authors, maintainers, reviewers, editors, mentors, champions
 contributors, commenters, bloggers, translators, bug-reporters, documentation-copy-editors,
 package-publishers, and issue-filers for _making_ rOpenSci** in 2024.  rOpenSci _is_ our community.
 We grateful for it all and look forward to what we will do together in 2025!
