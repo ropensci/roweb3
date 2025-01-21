@@ -3,7 +3,7 @@ title: Package Citations
 description: Citations of rOpenSci Packages
 ---
 
-We [manually](/blog/2021/02/16/package-citation/#how-ropensci-tracks-package-usage) curate a [dataset of all citations of our packages](https://github.com/ropensci-org/ropensci_citations/).
+We used to [manually](/blog/2021/02/16/package-citation/#how-ropensci-tracks-package-usage) curate a [dataset of all citations of our packages](https://github.com/ropensci-org/ropensci_citations/).
 Find below a regularly updated random sample as well as a searchable table of all citations.
 {class="subtitle"}
 
