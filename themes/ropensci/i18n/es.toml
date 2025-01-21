@@ -179,5 +179,21 @@
   
 [check-money]
   other = 'Los cheques también pueden hacerse a nombre de NumFOCUS, solo asegúrate de añadir rOpenSci en la línea de memo.'
+
 [Community-calls]  
   other = 'Conversaciones con la comunidad'
+  
+[Coworking]  
+  other = 'Sesiones de trabajo'
+  
+[Coworking-pic]
+  other = 'Con el trabajo llegan los descansos. Así que hacemos un corte de descanso con una mini búsqueda del tesoro.'
+  
+[Help-Wanted]
+  other = 'Se busca ayuda'
+  
+[Packages]
+  other = 'Paquetes'
+  
+[View-all-packages]
+  other = 'Ver todos los paquetes'

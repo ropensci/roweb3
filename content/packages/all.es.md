@@ -1,8 +1,11 @@
 ---
-title: rOpenSci Packages
-description: All of our packages in one place
+title: Paquetes rOpenSci
+description: Todos nuestros paquetes en un solo lugar
 slug: all
 outputs:
 - JSON
 - HTML
 ---
+
+
+
