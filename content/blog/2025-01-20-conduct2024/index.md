@@ -35,9 +35,9 @@ reporting process, and internal guidelines for handling reports and enforcement.
 
 2.  No changes have been made to the text of the Code in English or Spanish.
 
-3.  The text of the Code of Conduct has been translated into Portuguese.
-    The Portuguese version is available at [https://ropensci.org/pt/código-de-conduta/](https://ropensci.org/pt/código-de-conduta/) thanks to [Beatriz Milz](/author/beatriz-milz/) 
-    and [Francesca Palmeira](/author/francesca-belem-lopes-palmeira/) for the translation.
+3.  The text of the Code of Conduct has been translated into Portuguese, thanks to [Beatriz Milz](/author/beatriz-milz/) and [Francesca Palmeira](/author/francesca-belem-lopes-palmeira/).
+    The Portuguese version is available at [https://ropensci.org/pt/código-de-conduta/](https://ropensci.org/pt/código-de-conduta/).
+  
 
 Because the text has remained unchanged, the version number is kept at 2.5, dated January 30, 2024.
 
