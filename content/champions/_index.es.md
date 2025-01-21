@@ -1,8 +1,8 @@
-\+++
++++
 title = "Programa Campeon(e|a)s"
 description = "Un programa de tutoría y formación para Campeonas y Campeones Científicos del Software Libre"
- tags = ["programa-campeones"]
-\+++
+tags = ["programa-campeones"]
++++
 
 El software de investigación *debe servir a todas las personas en nuestras comunidades* lo que significa que debe ser *sostenible, abierto y construido por y para todos los grupos*.
 Actualmente, sin embargo, existe una consternadora falta de diversidad en las comunidades de código abierto en general y en la comunidad del software R y de investigación en particular.
