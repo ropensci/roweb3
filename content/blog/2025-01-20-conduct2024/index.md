@@ -13,13 +13,13 @@ tags:
 description: Updates for version 2.5 of rOpenSci's Code of Conduct
 ---
 
-rOpenSci’s activities and spaces are supported by a Code of Conduct 
+rOpenSci’s activities and spaces are supported by a [Code of Conduct](/code-of-conduct/) 
 that applies to all people participating in the rOpenSci community, 
 including rOpenSci staff and leadership.
-It applies to all modes of interaction online including GitHub project repositories, 
+It applies to all modes of interaction including GitHub project repositories, 
 the rOpenSci discussion forum, Slack, Community Calls, Co-working and social sessions, 
-in person at rOpenSci-hosted events, including social gatherings affiliated with the event.
-It is developed and enforced by a committee including rOpenSci staff and an independent community member.
+and in person at rOpenSci-hosted events, including affiliated social gatherings.
+Our Code of Conduct is developed and enforced by a committee including rOpenSci staff and an independent community member.
 
 Here we report on our annual review of rOpenSci's Code of Conduct, 
 reporting process, and internal guidelines for handling reports and enforcement.
@@ -31,24 +31,24 @@ reporting process, and internal guidelines for handling reports and enforcement.
     [Mark Padgham](/author/mark-padgham) (rOpenSci Software Research Scientist) and 
     [Yanina Bellini Saibene](/author/yanina-bellini-saibene) (rOpenSci Community Manager).
     We are responsible for receiving, investigating, deciding, enforcing, 
-    and reporting on all reports of potential violations of our Code.
+    and responding to all reports of potential violations of our Code.
 
-2.  No changes have been made to the text of the Code in English and Spanish.
+2.  No changes have been made to the text of the Code in English or Spanish.
 
-3.  We have the text of the Code of Conduct translated into Portuguese.
+3.  The text of the Code of Conduct has been translated into Portuguese.
     The Portuguese version is available at [https://ropensci.org/pt/código-de-conduta/](https://ropensci.org/pt/código-de-conduta/) thanks to [Beatriz Milz](/author/beatriz-milz/) 
     and [Francesca Palmeira](/author/francesca-belem-lopes-palmeira/) for the translation.
 
-As we didn't have any change, we maintain the version 2.5, dated January 30, 2024.
+Because the text has remained unchanged, the version number is kept at 2.5, dated January 30, 2024.
 
 ## Committee Members Activities
 
-We reflected on how we handle incidents, decide, take necessary actions, and possibly communicate with the reported and/or reported persons. As a result of this conversation, we have been working on a template to guide the CoC steps.
+We reflected on how we handle incidents, decide, take necessary actions, and possibly communicate both with reporters and/or reported persons. As a result of this reflection, we have been working on a template to guide the CoC steps.
 
 Yanina Bellini Saibene attended the Book Club organized by R-Ladies Global to 
-read and discuss the book ["How to Respond to Code of Conduct Reports"](https://files.frameshiftconsulting.com/books/cocguide.pdf). It was a good opportunity to discuss and learn with 
-other CoC member of other organizations like R-Ladies, Bioconductor and Forwards. 
+read and discuss the book ["How to Respond to Code of Conduct Reports"](https://files.frameshiftconsulting.com/books/cocguide.pdf). It was a good opportunity to discuss with and learn from 
+other CoC member of other organizations including R-Ladies, Bioconductor and Forwards. 
 
 We welcome your feedback by email to conduct at ropensci.org, 
-and we thank you for continuing to work with us to make rOpenSci a safe, 
-enjoyable, friendly and enriching experience for everyone who participates.
+and we thank you for continuing to work with us to ensure that rOpenSci remains a safe, 
+enjoyable, friendly and enriching environment for everyone who participates.
