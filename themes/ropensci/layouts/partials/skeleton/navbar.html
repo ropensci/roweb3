@@ -5,6 +5,21 @@
       <img class="logo-light" src="{{ "/images/svg/logo-light.svg" | relURL }}" alt="" />
       <img class="logo-dark" src="{{ "/images/svg/logo-dark.svg" | relURL }}" alt="" />
     </a>
+    {{ if (not .IsHome) }}
+    {{ if .IsTranslated }}
+    <div class="dropdown">
+  <button class="btn btn-primary btn-lang dropdown-toggle" type="button" id="btndroplang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <i class="fa-solid fa-globe"></i> {{ .Language.Lang | upper }}
+  </button>
+  
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    {{ range .Translations }}
+    <a class="dropdown-item lang-nav" href="{{ .Permalink }}" lang="{{ .Language }}">{{ .Language.LanguageName }} ({{ .Language | upper }})</a>
+    {{ end }}
+  </div>
+  </div>
+  {{ end }}
+  {{ end }}
     <button
       class="navbar-toggler"
       type="button"
