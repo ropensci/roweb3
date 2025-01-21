@@ -1,17 +1,18 @@
 +++
-title = "Packages"
-description = "rOpenSci's Suite of Packages"
-partials = ["packages.html"]
+title = "Paquetes"
+description = "Conjunto de paquetes de rOpenSci"
+ partials = ["packages.html"]
 +++
 
-Our packages are carefully vetted, staff- and community-contributed R software tools that in particular lower barriers to working with local and remote scientific data sources. 
-Browse [use cases](https://discuss.ropensci.org/c/usecases/) and read our [blog](/blog/) to learn how to use specific packages or contribute to their improvement. 
+Nuestros paquetes son herramientas de software R cuidadosamente examinadas, realizadas por nuestro equipo y por la comunidad, que en particular reducen las barreras para trabajar con fuentes de datos científicos locales y remotas.
+Consulta [casos de uso](https://discuss.ropensci.org/c/usecases/) y lee nuestro [blog](/blog/) para aprender a utilizar determinados paquetes o ayudar a mejorarlos.
 
-Curious about contributing your package? 
-See our [Software Peer Review](/software-review/) page for details. 
-We welcome [volunteers to review](https://devguide.ropensci.org/softwarereviewintro.html#whyreview) packages submitted to our open peer review process.
+¿Tienes curiosidad por contribuir con tu paquete?
+Consulta nuestra [Revisión por pares de software](/software-review/) para más detalles.
+Damos la bienvenida a [personas voluntarias para revisar](https://devguide.ropensci.org/softwarereviewintro.html#whyreview) los paquetes enviados a nuestro proceso abierto de revisión por pares.
 
-Below are some highlighted categories of packages. 
-If you are not too sure where to look, use the [page with all packages](/packages/all/).
-In any case, all packages pages have a search bar.
-If a tool for your need seems missing, feel free to post on [our forum](https://discuss.ropensci.org).
+A continuación se indican algunas categorías destacadas de paquetes.
+Si no estás muy seguro de dónde buscar, utiliza la función [página con todos los paquetes](/packages/all/).
+En cualquier caso, todas las páginas de paquetes tienen una barra de búsqueda.
+Si te parece que falta una herramienta para lo que necesitas, no dudes en publicarlo en [nuestro foro](https://discuss.ropensci.org).
+

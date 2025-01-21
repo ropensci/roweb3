@@ -187,3 +187,9 @@
   
 [Help-Wanted]
   other = 'Help Wanted'
+  
+[Packages]
+  other = 'Packages'
+  
+[View-all-packages]
+  other = 'View all packages'

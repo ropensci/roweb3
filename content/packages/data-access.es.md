@@ -1,8 +1,10 @@
 ---
-title: Data Access
-description: Get Data from the Web
+title: Acceso a datos
+description: Obtener datos de la Web
 slug: data-access
 outputs:
 - JSON
 - HTML
 ---
+
+

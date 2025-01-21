@@ -191,3 +191,9 @@
   
 [Help-Wanted]
   other = 'Se busca ayuda'
+  
+[Packages]
+  other = 'Paquetes'
+  
+[View-all-packages]
+  other = 'Ver todos los paquetes'
