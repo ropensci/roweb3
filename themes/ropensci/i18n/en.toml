@@ -175,6 +175,12 @@
   
 [check-money]
   other = 'Checks can also be made out to NumFOCUS, just make sure to add rOpenSci in the memo line'
+
 [Community-calls]  
   other = 'Community calls'
   
+[Coworking]  
+  other = 'Coworking'
+  
+[Coworking-pic]
+  other = 'With work come breaks! So we break with a mini scavenger hunt.'
