@@ -1,0 +1,106 @@
+[
+{
+"title": "Guía de colaboración",
+"text": "El propósito de esta guía es darte la bienvenida a rOpenSci y ayudarte a reconocerte como potencial participante",
+"url": "https://contributing.ropensci.org"
+},
+{
+"title": "Paquetes",
+"text": "Software que ayuda a trabajar con fuentes de datos científicos locales y remotas",
+"url": "/es/packages"
+},
+{
+"title": "Casos de uso de paquetes",
+"text": "Ilustraciones prácticas de nuestro software en acción",
+"url": "/es/usecases/"
+},
+{
+"title": "Guía para desarrollar y revisar paquetes",
+"text": "Nuestra guía de mejores prácticas para el desarrollo de paquetes R y la revisión por pares",
+"url": "https://devguide.ropensci.org/es/index.es.html"
+},
+{
+"title": "Revisión por Pares de Software",
+"text": "Nuestro sistema para la revisión por pares de paquetes R",
+"url": "-es/software-review/"
+},
+{
+"title": "Foro",
+"text": " Haz y responde preguntas sobre nuestros paquetes o recursos; informa casos de uso",
+"url": "https://discuss.ropensci.org"
+},
+{
+"title": "Archivo",
+"text": "Todas nuestros artículos de blog, eventos de la comunidad y notas técnicas en un solo lugar",
+"url": "/archive"
+},
+{
+"title": "Archivo de reuniones con la comunidad",
+"text": "Todas las grabaciones de nuestros eventos y seminarios web anteriores",
+"url": "/es/commcalls/"
+},
+{
+"title": "Newsletter",
+"text": "Un resumen periódico de las actividades y actualizaciones recientes de rOpenSci",
+"url": "https://news.ropensci.org"
+},
+{
+"title": "Libros",
+"text": "Libros electrónicos sobre nuestras herramientas",
+"url": "https://books.ropensci.org"
+},
+{
+"title": "Charlas, capacitación y publicaciones",
+"text": "Comunicaciones externas sobre nuestro trabajo y docencia",
+"url": "/es/talks-papers/"
+},
+{
+"title": "Nuestra guía de blog",
+"text": "Guía para autor(e|a)s y editor(a|e)s de artículos y notas técnicas para el sitio web de rOpenSci",
+"url": "https://blogguide.ropensci.org/"
+},
+{
+"title": "Organización de GitHub ropensci",
+"text": "Paquetes R maduros desarrolados por el equipo de rOpenSci o paquetes revisados por pares",
+"url": "https://github.com/ropensci"
+},
+{
+"title": "Organización de GitHub ropenscilabs ",
+"text": "Proyectos de la incubadora",
+"url": "https://github.com/ropenscilabs"
+},
+{
+"title": "Organización de GitHub ropensci-review-tools",
+"text": "Herramientas (paquetes) para la revisión de software",
+"url": "https://github.com/ropensci-review-tools"
+},
+{
+"title": "Organización de GitHub ropensci-libros",
+"text": "Libros sobre paquetes rOpenSci o mantenidos por rOpenSci",
+"url": "https://github.com/ropensci-books"
+},
+{
+"title": "Organización de GitHub ropensci-training ",
+"text": "Materiales de formación del programa de campeones y heredados",
+"url": "https://github.com/ropensci-training"
+},
+{
+"title": "Organización de GitHub ropensci-org",
+"text": "Herramientas varias de organización",
+"url": "https://github.com/ropensci-org"
+},
+{
+"title": "Organización de GitHub r-universe ",
+"text": "Infraestructura de R-universe",
+"url": "https://github.com/r-universe-org"
+},
+{
+"title": "Organización de GitHub ropensci-archivo",
+"text": "Proyectos archivados",
+"url": "https://github.com/ropensci-archive"
+},
+{
+"title": "Organización de GitHub ropensci-docs",
+"text": "Documentación de los paquetes rOpenSci, actualizada automáticamente",
+"url": "https://github.com/ropensci-docs"
+}]

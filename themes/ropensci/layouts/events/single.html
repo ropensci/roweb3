@@ -9,7 +9,7 @@
         <h1>{{ .Title }}</h1>
             <div class="event-detail-author">
               <p><span class="ml-1">
-                {{ .Params.location }}, {{ .Params.country }} • With {{ with .Params.attendees }}{{ partial "blogs/pretty_author_names" . }}.</span>
+                {{ .Params.location }}, {{ .Params.country }} • {{ i18n "With" }} {{ with .Params.attendees }}{{ partial "blogs/pretty_author_names" . }}.</span>
                 {{ end }}
               </p>
             </div>

@@ -92,14 +92,14 @@
             <li><a lang="en" href="/software-review/">Submit A Package</a></li>
             <li><a lang="en" href="/usecases/">Use Cases</a></li>
             <li><a lang="en" href="/citations/">Citations</a></li>
-            <li><a lang="en" href="/help-wanted/">Help Wanted</a></li>
+            <li>{{ partial "translate-url" (dict "name" "help-wanted" "Site" .Site )}}{{ i18n "Help-Wanted" }}</a></li>
           </ul>
         </li>
         <li class="nav-item drp">
           <a class="nav-link" lang="en" href="/community/">Community</a>
           <ul class="sub-menu">
             <li>{{ partial "translate-url" (dict "name" "commcalls" "Site" .Site )}}{{ i18n "Community-calls" }}</a></li>
-            <li><a lang="en" href="/coworking/">Coworking</a></li>
+            <li>{{ partial "translate-url" (dict "name" "coworking" "Site" .Site )}}{{ i18n "Coworking" }}</a></li>
             <li><a lang="en" href="/events/">Events</a></li>
             <li><a lang="en" href="{{ relLangURL (i18n "Code-of-Conduct" | urlize)}}">{{ i18n "Code-of-Conduct" }}</a></li>
             <li><a lang="en" href="https://contributing.ropensci.org/" class="external-link">Contributing Guide</a></li>
@@ -107,7 +107,7 @@
           </ul>
         </li>
         <li class="nav-item drp">
-          <a class="nav-link" lang="en" href="/resources/">Resources</a>
+          {{ partial "translate-url" (dict "name" "resources" "Site" .Site "class" "nav-link")}}{{ i18n "Resources" }}</a>
           <ul class="sub-menu">
             <li><a lang="en" href="/talks-papers/">Talks & Publications</a></li>
             <li><a lang="en" href="/training/">Training materials</a></li>
