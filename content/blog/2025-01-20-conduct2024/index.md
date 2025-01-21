@@ -26,7 +26,7 @@ reporting process, and internal guidelines for handling reports and enforcement.
 
 ## Updates
 
-1.  No changes of Committee members for 2024.
+1.  No changes of Committee members for 2025.
     The committee members are [Natalia Morandeira](/author/natalia-morandeira/) (independent member), 
     [Mark Padgham](/author/mark-padgham) (rOpenSci Software Research Scientist) and 
     [Yanina Bellini Saibene](/author/yanina-bellini-saibene) (rOpenSci Community Manager).
