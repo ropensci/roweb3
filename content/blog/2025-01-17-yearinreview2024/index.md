@@ -73,8 +73,8 @@ Peer review remains a cornerstone of how we maintain quality and reproducibility
 and how we build community.
 
 In the year ahead, we are going to keep pushing our tooling to make review more
-efficient and helpful, and we have goals of doing more to make the
-process of software peer-review a tool that other organizations can use to curate
+efficient and helpful, and we have plans to do more to make our
+software peer-review process a tool that other organizations can use to curate
 their own software ecosystems and build collaborations and community.
 
 ## Multilingual Resources
