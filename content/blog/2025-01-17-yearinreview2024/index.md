@@ -139,7 +139,7 @@ campaign on Mastodon and [Weekly Package Digests](https://www.linkedin.com/feed/
 These efforts showcased the incredible diversity of our over 
 300 federated open-source packages.
 
-Community Calls and virtual social coworking and office hours 
+Community Calls and virtual Social Coworking and Office Hours 
 brought together people from at least 20 countries to learn,
 get their own work done 
 and to join in some spirited scavenger hunts! 
