@@ -125,9 +125,9 @@ with our first cohort of Champions (2022-2023) to better understand the long-ter
 
 ## Community Engagement
 
-We have 219 contributors and 49 of those people made their first code contribution to rOpenSci during 2024! 
-Others shared new [use cases](/usecases/) to help package authors see how their work is 
-being used and help other users imagine how they can apply it.
+This past year we've had many new code contributors to rOpenSci packages. We have 219 contributors and 49 of those people made their first code contribution to rOpenSci during 2024! 
+Other community members shared new [use cases](/usecases/) to help package authors see how their work is 
+being used and to help other users see how these packages might be used.
 
 Our blog had featured many different voices and experiences during 2024.
 We have a total of 35 community authors, of which 18 are first time community authors!
