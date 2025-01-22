@@ -3,7 +3,7 @@ slug: "year-in-review-2024"
 title: rOpenSci 2024 Highlights
 author:
   - The rOpenSci Team
-date: 2025-01-17
+date: 2025-01-22
 tags:
   - community
 # The summary below will be used by e.g. Mastodon preview cards
