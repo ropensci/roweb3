@@ -107,8 +107,8 @@ These leaders have tackled projects that span disciplines and geographies,
 driving open science and open data initiatives with creativity and 
 local impact.
 
-Package development is the type of project most chosen by this group, 
-but other champions have taken on the challenge of becoming reviewer in our software peer-review community.
+Package development is most common type of project tackled by our Champions, 
+but some have also taken on the challenge of becoming reviewers in our software peer-review community.
 
 Multilingualism plays an important role in the Champions Program, 
 as part of their outreach activity, this year we have events and workshops
