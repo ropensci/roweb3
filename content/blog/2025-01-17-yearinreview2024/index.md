@@ -119,9 +119,9 @@ Chinese and, of course, English.
 
 In 2025, we will run our first cohort of Champions with a fully Spanish-language
 curriculum, under the [support of our new Latin America focus program, funded by CZI](/blog/2024/10/10/czi-latam-grant/).
-We are also excited to be working on new models and partnerships for the Champions
-to make the program more sustainable and self-supporting, and to be following up
-with our first Champions to better understand our long-term impact.
+We are also excited to be working on new models and partnerships for the Champions Program
+to make it more sustainable and self-supporting, and to be follow up
+with our first cohort of Champions (2022-2023) to better understand the long-term impacts of this program.
 
 ## Community Engagement
 
