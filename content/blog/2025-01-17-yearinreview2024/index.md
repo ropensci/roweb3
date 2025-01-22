@@ -89,7 +89,7 @@ translation workflows.
 This work also led to our [rOpenSci Localization and Translation Guidelines](/blog/2024/12/17/localization-guide/) 
 which we published in Spanish and English to assist our community as well as other groups in translating and localizing open science resources. 
 
-We have had a series of great community events on multilingual publishing, 
+We hosted a series of great community events on multilingual publishing, 
 like our [first Portuguese Community Call](/commcalls/translation-portuguese/) and
 [our first Traslathon](https://github.com/orgs/ropensci/projects/7), which reinforced the 
 importance of breaking language barriers in open science. 
