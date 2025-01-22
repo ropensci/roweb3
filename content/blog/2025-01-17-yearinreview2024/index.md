@@ -97,7 +97,7 @@ importance of breaking language barriers in open science.
 What's happening with translation in 2025? [Portuguese translations of the development guide are underway](https://github.com/orgs/ropensci/projects/7), 
 supported by dedicated community volunteers. It’s been inspiring to see the enthusiasm from contributors 
 and volunteers driving this effort forward, and we will be giving it an extra push with additional support of our
-new [CZI-funded Latin America program](https://ropensci.org/blog/2024/10/10/czi-latam-grant/). We are also
+new [CZI-funded Latin America program](/blog/2024/10/10/czi-latam-grant/). We are also
 in the midst of Spanish-language revisions of our website and Champions programs materials.
 
 ## Champions Program
