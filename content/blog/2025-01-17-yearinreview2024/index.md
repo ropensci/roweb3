@@ -144,7 +144,7 @@ brought together people from at least 20 countries to learn,
 get their own work done 
 and to join in some spirited scavenger hunts! 
 
-Many others have continued to [read our newsletter](https://ropensci.org/news/), 
+Many others have continued to [read our newsletter](/news/), 
 cite our software, 
 [ask or answer questions](https://discuss.ropensci.org), 
 open issues to report bugs or request features, 
