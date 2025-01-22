@@ -152,7 +152,7 @@ weigh in on standards and best practices,
 invite us [to talk about our work](/talks-papers/), 
 or mentioned us in a presentation, a post, or social media.
 
-We will do all of this and more in 2025. We are starting with a [Community Call](/commcalls/first-time-contributor/) 
+We will continue to support our community's amazing contributions and plan to offer even more opportunities to get involved in 2025. We started with a [Community Call](/commcalls/first-time-contributor/) 
 and a series of [mini-hackathons](/coworking/) 
 during our co-working session to support first-time contributors 
 to open source projects.
