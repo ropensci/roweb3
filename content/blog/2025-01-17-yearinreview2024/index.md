@@ -162,7 +162,7 @@ safe and friendly space encompasing the collaborative spirit of rOpenSci.
 
 We are also looking forward to collaborations with partners
 and other communities, like Epiverse, RECON, data.org, LatinR, PyOpenSci, 
-OpenScapes and Open-Source Program offices. Watch this space for new projects and events!
+OpenScapes and other Open-Source Program offices. Watch this space for new projects and events!
 
 ## Leadership
 
