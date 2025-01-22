@@ -153,12 +153,12 @@ invite us [to talk about our work](/talks-papers/),
 or mentioned us in a presentation, a post, or social media.
 
 We will continue to support our community's amazing contributions and plan to offer even more opportunities to get involved in 2025. We started with a [Community Call](/commcalls/first-time-contributor/) 
-and a series of [mini-hackathons](/coworking/) 
-during our co-working session to support first-time contributors 
+and will continue with a series of [mini-hackathons](/coworking/) 
+during our co-working sessions to support first-time contributors 
 to open source projects.
-These calls provided invaluable opportunities for 
-knowledge-sharing, networking and skill-up opportunity in a
-safe and friendly space underscoring the collaborative spirit of rOpenSci.
+These events will provide opportunities for 
+knowledge-sharing, networking and up-skilling in a
+safe and friendly space encompasing the collaborative spirit of rOpenSci.
 
 We are also looking forward to collaborations with partners
 and other communities, like Epiverse, RECON, data.org, LatinR, PyOpenSci, 
