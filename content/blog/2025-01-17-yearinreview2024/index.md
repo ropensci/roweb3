@@ -129,7 +129,7 @@ This past year we've had many new code contributors to rOpenSci packages. We hav
 Other community members shared new [use cases](/usecases/) to help package authors see how their work is 
 being used and to help other users see how these packages might be used.
 
-Our blog had featured many different voices and experiences during 2024.
+Our blog featured many different voices and experiences during 2024.
 We have a total of 35 community authors, of which 18 are first time community authors!
 Counting our staff, 42 authors wrote 54 blog posts, 63% of which were written by community authors
 and 13% were multilingual.
