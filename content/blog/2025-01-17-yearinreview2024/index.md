@@ -111,7 +111,7 @@ Package development is most common type of project tackled by our Champions,
 but some have also taken on the challenge of becoming reviewers in our software peer-review community.
 
 Multilingualism plays an important role in the Champions Program, 
-as part of their outreach activity, this year we have events and workshops
+and this year, as part of their outreach activity, Champions put on events and workshops
 in [Turkish](/events/rsr-learn-and-use/), 
 [Spanish](https://www.youtube.com/watch?v=YYfyBrQhMQc), 
 [Portuguese](https://www.eventbrite.cl/e/traducao-hackathon-traslaton-ropensci-tickets-1045507530167),
