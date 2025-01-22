@@ -46,7 +46,7 @@ platform of choice for anchor community projects like
 [Stan](https://discourse.mc-stan.org/t/announcement-stan-r-packages-repo-deprecated-moving-to-r-universe/35341),
 [DuckDB](https://duckdb.org/docs/installation/index.html?version=main&environment=r),
 and [Polars](https://pola-rs.github.io/r-polars/vignettes/install.html),
-and we've seen the creation of new community initives that build on R-Universe,
+and we've seen the creation of new community initiatives that build on R-Universe,
 like [R-Multiverse](https://r-multiverse.org/)!
 
 For 2025, we have once again been awarded support by the R-Consortium, now
