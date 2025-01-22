@@ -62,7 +62,7 @@ showcasing our community's commitment to improving software quality and
 validating R packages for a variety of applications. 
 
 We’ve had **17** packages successfully complete software peer review with the help of about **33** reviewers 
-and **11** editors, with [three](/authors/emi-tanaka) new [editors](/blog/2024/07/03/editors2024/). We also did the [first bilingual review](https://github.com/ropensci/software-review/issues/620) in English and Spanish. 
+and **11** editors, with [three new](/authors/emi-tanaka) [editors](/blog/2024/07/03/editors2024/). We also did the [first bilingual review](https://github.com/ropensci/software-review/issues/620) in English and Spanish. 
 
 We also streamlined the review process and provided transparency through regular updates
 on the number of submissions, approvals, 
@@ -125,7 +125,7 @@ with our first cohort of Champions (2022-2023) to better understand the long-ter
 
 ## Community Engagement
 
-This past year we've had many new code contributors to rOpenSci packages. We have 219 contributors and 49 of those people made their first code contribution to rOpenSci during 2024! 
+This past year we've had 49 new code contributors to rOpenSci packages. 
 Other community members shared new [use cases](/usecases/) to help package authors see how their work is 
 being used and to help other users see how these packages might be used.
 
@@ -161,8 +161,13 @@ knowledge-sharing, networking and up-skilling in a
 safe and friendly space encompasing the collaborative spirit of rOpenSci.
 
 We are also looking forward to collaborations with partners
-and other communities, like Epiverse, RECON, data.org, LatinR, PyOpenSci, 
-OpenScapes and other Open-Source Program offices. Watch this space for new projects and events!
+and other communities, like [Epiverse](https://epiverse-trace.github.io), 
+[RECON](https://www.repidemicsconsortium.org), 
+[data.org](https://data.org), 
+[LatinR](https://latinr.org), 
+[PyOpenSci](https://www.pyopensci.org), 
+[OpenScapes](https://openscapes.org) and other Open-Source Program offices. 
+Watch this space for new projects and events!
 
 ## Leadership
 
