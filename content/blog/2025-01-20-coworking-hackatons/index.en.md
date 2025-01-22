@@ -72,7 +72,7 @@ We'll send out reminders, some information to get you started, and a Zoom link c
 - Community Call - Jan 20 2025 - [From Novice to Contributor: Making and Supporting First-Time Contributions to FOSS](/commcalls/first-time-contributor/)
   - [Sunny's Slides](https://github.com/SunnyTseng/bbsTaiwan_develop/blob/main/docs/2025_01_rOpenSci_community_call/bbsTaiwan%20update.pdf)
   - [Pascal's Slides](https://key.edunum.tech/ropensci/)
-  - [Yaoxiang's Slides](/pdfs/2025-01-20_Supercharging-R-Package-Quality-with-testthat_yaoxiang-li.pdf) and [Example package](/commcall_resources/2025-01-20-ExampleTestPackage.zip)
+  - [Yaoxiang's Slides](/commcalls/first-time-contributor/2025-01-20_Supercharging-R-Package-Quality-with-testthat_yaoxiang-li.pdf) and [Example package](/commcalls/first-time-contributor/2025-01-20-ExampleTestPackage.zip)
   - [Community Call Notes](https://docs.google.com/document/d/1au27HeGYgEbfEMM_m376rwSuA0hIpPzfuRCav_g9M7I/edit?tab=t.0)
 - Blog Post - Oct 22 2024 - [Looking for Maintainers to Support First-Time Contributors](/blog/2024/10/22/first-time-contributions/)
 - [rOpenSci Coworking](/coworking/)
