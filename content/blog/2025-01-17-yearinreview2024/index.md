@@ -85,8 +85,8 @@ into Spanish](/blog/2024/03/11/devguide-0.9.0/). This has been the central proje
 around which we developed our multilingual toolkit, including packages like
 [babeldown](https://docs.ropensci.org/babeldown/) and
 [babelquarto](https://docs.ropensci.org/babelquarto/), that facilitate LLM-supported
-translation workflows, and
-our [rOpenSci Localization and Translation Guidelines](/blog/2024/12/17/localization-guide/) 
+translation workflows.
+This work also led to our [rOpenSci Localization and Translation Guidelines](/blog/2024/12/17/localization-guide/) 
 which we published in Spanish and English to assist our community as well as other groups in translating and localizing open science resources. 
 
 We have had a series of great community events on multilingual publishing, 
