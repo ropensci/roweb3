@@ -79,7 +79,7 @@ their own software ecosystems and build collaborations and community.
 
 ## Multilingual Resources
 
-In 2024, we to expanded our multilingual resources. We finished translating
+In 2024, we worked hard to expanded our multilingual resources. We finished translating
 our core resource, the ["rOpenSci Packages: Development, Maintenance, and Peer Review" 
 into Spanish](/blog/2024/03/11/devguide-0.9.0/). This has been the central project
 around which we developed our multilingual toolkit, including packages like
