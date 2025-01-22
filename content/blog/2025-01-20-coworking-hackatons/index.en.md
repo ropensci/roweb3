@@ -30,7 +30,7 @@ Our next two activities, Coworking Mini-Hackathons for First-Time Contributors, 
 
 ### Community call
 
-Our three panellists each shared different experiences and perspectives on making contributions to open sources software.
+Our three panellists each shared different experiences and perspectives on making contributions to open source software.
 Sunny and Pascal shared their experiences with getting involved, Pascal and Yaoxiang shared technical tips for git and testing, and all three offered advice for first time contributors.
 
 Sunny focused on her journey making her first R package, [bbsTaiwan](https://sunnytseng.github.io/bbsTaiwan/) as part of the [rOpenSci Champions Program](/champions/) and Pascal shared his experiences as a first time contributor to the [babelquarto](https://docs.ropensci.org/babelquarto) package after being a long-time solo user of git.
