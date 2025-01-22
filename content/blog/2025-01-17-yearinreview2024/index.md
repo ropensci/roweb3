@@ -58,7 +58,7 @@ experiment with new models for release, reproducibility, and governance.
 ## Software Peer Review
 
 In 2024, rOpenSci’s software peer review program continued to grow, 
-showcasing the commitment to improving software quality and 
+showcasing our community's commitment to improving software quality and 
 validating R packages for a variety of applications. 
 
 We’ve had **17** packages successfully complete software peer review with the help of about **33** reviewers 
