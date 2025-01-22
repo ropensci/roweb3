@@ -13,7 +13,7 @@ social: "A summary of the highlights of the rOpenSci community in 2024 and some 
 # you can leave it empty until you know who'll review your PR
 editor:
   - Steffi LaZerte
-
+featured: true
 ---
 
 In 2024, we remained committed to open science and open source software. 
