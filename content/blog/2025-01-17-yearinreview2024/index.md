@@ -166,8 +166,8 @@ OpenScapes and Open-Source Program offices. Watch this space for new projects an
 
 ## Leadership
 
-In 2024 we [bade farewell to Karthk Ram, our co-founder and Executive Director of 13 years](/blog/2024/03/29/from-the-founding-director-my-farewell-to-ropensci/).
-Noam Ross, formerly our leader for peer-review, [took on the role](/blog/2024/03/29/hello-from-our-new-executive-director/).
+In 2024 we [bade farewell to Karthik Ram, our co-founder and Executive Director of 13 years](/blog/2024/03/29/from-the-founding-director-my-farewell-to-ropensci/) and welcomed
+Noam Ross, formerly our leader for peer-review, [into the role](/blog/2024/03/29/hello-from-our-new-executive-director/).
 
 ## Thanks to our Community
 
