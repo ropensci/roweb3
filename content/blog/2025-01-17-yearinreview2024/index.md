@@ -149,7 +149,7 @@ cite our software,
 [ask or answer questions](https://discuss.ropensci.org), 
 open issues to report bugs or request features, 
 weigh in on standards and best practices, 
-invited us [to talk about our work](https://ropensci.org/talks-papers/), 
+invite us [to talk about our work](/talks-papers/), 
 or mentioned us in a presentation, a post, or social media.
 
 We will do all of this and more in 2025. We are starting with a [Community Call](/commcalls/first-time-contributor/) 
