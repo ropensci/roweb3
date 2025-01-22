@@ -150,7 +150,7 @@ cite our software,
 open issues to report bugs or request features, 
 weigh in on standards and best practices, 
 invite us [to talk about our work](/talks-papers/), 
-or mentioned us in a presentation, a post, or social media.
+or mentioned us in presentations, posts, or social media.
 
 We will continue to support our community's amazing contributions and plan to offer even more opportunities to get involved in 2025. We started with a [Community Call](/commcalls/first-time-contributor/) 
 and will continue with a series of [mini-hackathons](/coworking/) 
