@@ -1,21 +1,22 @@
 +++
-title = "Coworking"
+title = "Sesiones de trabajo"
 +++
 
-**Join us for social coworking & office hours monthly on first Tuesdays! 
-Hosted by rOpenSci Community Assistant [Steffi LaZerte](/author/steffi-lazerte) and various community hosts. 
-Everyone welcome. 
-No registration needed.**
+**Participa en nuestras reuniones de co-trabajo, socialización y horas de oficina los primeros martes de cada mes.
+Organizado por la Asistente de la Comunidad de rOpenSci [Steffi LaZerte](/author/steffi-lazerte) y varias personas de la comunidad que participan como anfitriones.
+Todas las personas son bienvenidas.
+No es necesario inscribirse.**
 
-We meet for two hours, introduce ourselves and cowork. You can choose to 
-work on your own or socialize by choosing different 'rooms' (Quiet or Noisy). 
-Each session has a theme and the opportunity to explore that theme with the 
-community host in the Noisy room.
+Nos reunimos durante dos horas, nos presentamos y trabajamos. Puedes elegir
+trabajar por tu cuenta o socializar eligiendo diferentes "salas" (Silenciosa o Ruidosa).
+Cada sesión tiene un tema y la oportunidad de explorar ese tema con la persona 
+anfitriona en la sala Ruidosa.
 
-Want more details? Explore [All about coworking](/blog/2023/06/21/coworking/)!
+¿Quieres más detalles? Explora [Todo sobre el _coworking_](/blog/2023/06/21/coworking/) ¡!
 
-**Have suggestions for future themes? Interested in being a community host?**  
+**¿Tienes sugerencias para futuros temas? ¿Te interesa ser anfitrión/na ?**
 
-Contact [Steffi](/author/steffi-lazerte) or our Community Manager, [Yani](/author/yanina-bellini-saibene), on the rOpenSci Slack, Mastodon, or via [email](yabellini@ropensci.org), and let us know! 
-If you're interested in hosting but aren't sure of a theme, we're happy to 
-help you come up with one!
+Ponte en contacto con [Steffi](/author/steffi-lazerte) o con nuestra Community Manager, [Yani](/author/yanina-bellini-saibene) en el Slack de rOpenSci, Mastodont, o a través de un [correo electrónico](yabellini@ropensci.org) para comentarnosló.
+Si tienes interés en ser anfitrión/a pero tienes dudas sobre el tema, nos encantará
+ayudarte a encontrar uno.
+

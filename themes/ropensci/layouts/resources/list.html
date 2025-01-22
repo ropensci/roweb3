@@ -12,7 +12,10 @@
     </p>
   </div>
 </div>
-{{ partial "resources/resources-cards" (dict "resources" .Site.Data.resources.resources ) }}
+
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ partial "resources/resources-cards" (dict "resources" $data.resources.resources ) }}
   </div>
 </section>
 {{ partial "whole-page-fragments/ask"  (dict "divider" "lr" ) }}
