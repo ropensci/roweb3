@@ -72,7 +72,7 @@ We built a new [dashboard](https://dashboard.ropensci.org/) to monitor the healt
 Peer review remains a cornerstone of how we maintain quality and reproducibility in R software development
 and how we build community.
 
-In the year ahead, we are going to keep pusing our tooling to make review more
+In the year ahead, we are going to keep pushing our tooling to make review more
 efficient and helpful, and we have goals of doing more to make the
 process of software peer-review a tool that other organizations can use to curate
 their own software ecosystems and build collaborations and community.
