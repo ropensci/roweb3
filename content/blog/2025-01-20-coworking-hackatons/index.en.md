@@ -7,6 +7,7 @@ author:
   - Yi-Chin Sunny Tseng
   - Pascal Burkhard
   - Yaoxiang Li
+  - Hugo Gruson
 date: 2025-01-21
 tags:
   - R
