@@ -43,7 +43,7 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-## rOpenSci 2024 Highlights and what comes next in 2025
+### rOpenSci 2024 Highlights and what comes next in 2025
 
 In this blog post, the rOpenSci Team shares the highlights of 2024 and what come next in 2025. [Read the full story](/blog/2025/01/22/year-in-review-2024/) for details about our project's progress and activities, from R-Universe, our software peer review system, to the champions program and the multilingual project to the great work of our community. 
 We are excited to continue building an open science for all in 2025. 
@@ -54,7 +54,7 @@ Find the [recording](https://www.youtube.com/watch?v=7H4FCpZa3w8) of Mark Padgha
 The talk was second in a two-part session devoted to software peer review, and followed a [walk-through demonstration of the process of submitting to Journal of Open Source software](https://virtual.oxfordabstracts.com/event/49081/submission/69).
 Explore [Mark's slides](https://mpadge.github.io/presentations/2024/rseconf/).
 
-## Community Call From Novice to Contributor: Making and Supporting First-Time Contributions to FOSS
+### Community Call From Novice to Contributor: Making and Supporting First-Time Contributions to FOSS
 
 In our first community call of 2025, rOpenSci explored the journey of open source contributions. [Hugo Gruson](/author/hugo-gruson/) moderated a dynamic discussion featuring insights from three community members: [Sunny Tseng](/author/yi-chin-sunny-tseng/) offered practical advice for navigating the challenges of initial open source involvement, [Pascal Burkhard](/author/pascal-burkhard/) shared essential git skills for first-time contributors, and [Yaoxiang Li](/author/yaoxiang-li/) delved into test strategies for enhancing R package quality using testthat. 
 

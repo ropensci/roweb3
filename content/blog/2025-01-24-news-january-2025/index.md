@@ -21,12 +21,22 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
+### rOpenSci 2024 Highlights and what comes next in 2025
+
+In this blog post, the rOpenSci Team shares the highlights of 2024 and what come next in 2025. [Read the full story](/blog/2025/01/22/year-in-review-2024/) for details about our project's progress and activities, from R-Universe, our software peer review system, to the champions program and the multilingual project to the great work of our community. 
+We are excited to continue building an open science for all in 2025. 
+
 ### "rOpenSci Statistical Software Peer Review: The importance and challenge of community engagement"
 
 Find the [recording](https://www.youtube.com/watch?v=7H4FCpZa3w8) of Mark Padgham's talk at RSE CONF 2024.
 The talk was second in a two-part session devoted to software peer review, and followed a [walk-through demonstration of the process of submitting to Journal of Open Source software](https://virtual.oxfordabstracts.com/event/49081/submission/69).
 Explore [Mark's slides](https://mpadge.github.io/presentations/2024/rseconf/).
 
+### Community Call From Novice to Contributor: Making and Supporting First-Time Contributions to FOSS
+
+In our first community call of 2025, rOpenSci explored the journey of open source contributions. [Hugo Gruson](/author/hugo-gruson/) moderated a dynamic discussion featuring insights from three community members: [Sunny Tseng](/author/yi-chin-sunny-tseng/) offered practical advice for navigating the challenges of initial open source involvement, [Pascal Burkhard](/author/pascal-burkhard/) shared essential git skills for first-time contributors, and [Yaoxiang Li](/author/yaoxiang-li/) delved into test strategies for enhancing R package quality using testthat. 
+
+[Check the video recording (with captions) and all the resources shared in the call on our website. ](/commcalls/first-time-contributor/). Also, check the next coworking session and mini hackathon to learn how to join us to support first-time contributions to open source projects. 
 ### Coworking Mini-hackathons
 
 Read [all about coworking](/blog/2023/06/21/coworking/)!
@@ -61,7 +71,11 @@ The following six packages have had an update since the last newsletter: [rsi](h
 
 ## Software Peer Review
 
-There are sixteen recently closed and active submissions and 4 submissions on hold. Issues are at different stages: 
+There are seventeen recently closed and active submissions and 4 submissions on hold. Issues are at different stages: 
+
+* One at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
+
+     * [emodnet.wfs](https://github.com/ropensci/software-review/issues/653), Access EMODnet Web Feature Service data through R. Submitted by [Maëlle Salmon](https://masalmon.eu/). 
 
 * One at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A5/awaiting-reviewer(s)-response):
 
@@ -113,7 +127,9 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 
 
+* [rOpenSci 2024 Code of Conduct Transparency Report](/blog/2025/01/20/transparencyCoC2024) by Yanina Bellini Saibene, Mark Padgham, and Natalia Morandeira. rOpenSci 2024 Code of Conduct Transparency Report.
 
+* [rOpenSci 2024 Highlights](/blog/2025/01/22/year-in-review-2024) by The rOpenSci Team. A summary of the highlights of the rOpenSci community in 2024 and some news for 2025.
 
 ## Calls for contributions
 
@@ -141,10 +157,10 @@ Some useful tips for R package developers. :eyes:
 
 ### How to change stuff in your package (deprecations)
 
-Prompted by a discussion in the rOpenSci slack workspace, here's a link to the "Package evolution - changing stuff in your package" chapter in our dev guide: <https://devguide.ropensci.org/maintenance_evolution.html>.
-Changing stuff entails: deprecating functions, arguments, values of arguments (or even changing maintainers!).
+Prompted by a discussion in the rOpenSci slack workspace on how to gracefully change default values in R functions, we thought it'd be worth mentioning the dev guide's chapter on "[Package evolution - changing stuff in your package](https://devguide.ropensci.org/maintenance_evolution.html)" again.
+Changing stuff entails: deprecating functions, arguments, values of arguments (and even changing maintainers!).
 
-Also relevant are:
+We also discussed other relevant resources such as:
 - The [lifecycle R package](https://lifecycle.r-lib.org/).
 - The rlang functions for [handling missing arguments](https://rlang.r-lib.org/reference/missing_arg.html) like `rlang::is_missing()` (thanks to Jon Harmon for pointing those out).
 - Hadley Wickham's keynote talk at rstudio::global 2021 ["Maintaining the house the tidyverse built"](https://posit.co/resources/videos/maintaining-the-house-the-tidyverse-built/).
