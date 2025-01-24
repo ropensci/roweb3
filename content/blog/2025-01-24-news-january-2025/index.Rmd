@@ -43,6 +43,11 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
+## rOpenSci 2024 Highlights and what comes next in 2025
+
+In this blog post, the rOpenSci Team shares the highlights of 2024 and what come next in 2025. [Read the full story](/blog/2025/01/22/year-in-review-2024/) for details about our project's progress and activities, from R-Universe, our software peer review system, to the champions program and the multilingual project to the great work of our community. 
+We are excited to continue building an open science for all in 2025. 
+
 ### "rOpenSci Statistical Software Peer Review: The importance and challenge of community engagement"
 
 Find the [recording](https://www.youtube.com/watch?v=7H4FCpZa3w8) of Mark Padgham's talk at RSE CONF 2024.
