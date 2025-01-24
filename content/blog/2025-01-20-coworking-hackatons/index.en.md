@@ -26,7 +26,7 @@ editor: Maëlle Salmon
 This week we had a wonderful community call, [From Novice to Contributor: Making and Supporting First-Time Contributions to FOSS](/commcalls/first-time-contributor/), where Sunny Tseng, Pascal Burkhard, and Yaoxiang Li shared with us their experiences with, and advice for, first time contributors, with the excellent moderation of [Hugo Gruson](/author/hugo-gruson/).
 This was a perfect start to our [special series of activities](/blog/2024/10/22/first-time-contributions/) to support first time contributors to Open Source Software.
 
-Our next two activities, Coworking Mini-Hackathons for First-Time Contributors, will take place **February 4th 2025 1-3 UTC** and **March 4th 2025 13-15 UTC** (see below for details), but first, let's review what we learned from this Community Call.
+Our next two activities, Coworking Mini-Hackathons for First-Time Contributors, will take place **[February 4th 2025 1-3 UTC](/events/coworking-2025-02/)** and **[March 4th 2025 13-15 UTC](/events/coworking-2025-03/)** (see below for details), but first, let's review what we learned from this Community Call.
 
 ### Community call
 
