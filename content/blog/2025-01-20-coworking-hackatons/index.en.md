@@ -46,12 +46,12 @@ Sunny recommended that you have a plan for your contributions, but remain flexib
 Both Sunny and Pascal pointed out that they found git to be less scary than they expected once they got started, and that they learned so much while collaborating with others.
 Among other technical suggestions, Pascal and Yaoxiang both commented that starting small and using good descriptions can be really helpful, whether for git commit messages or code tests.
 
-### Mini-Hackathons
+### Mini-hackathons
 
 Hopefully this community call has inspired you to get involved open source software.
 If you're curious about contributing to Open Source Software, and would like some support to get started, our coworking mini-hackathons are for you!
 
-We'll be hosting two events, the first on **February 4th 2025 1-3 UTC** and the second on **March 4th 2025 13-15 UTC**.
+We'll be hosting two events, the first on **[February 4th 2025 1-3 UTC](/events/coworking-2025-02/)** and the second on **[March 4th 2025 13-15 UTC](/events/coworking-2025-03/)**.
 
 During these session you'll join others making contributions to R packages while [package maintainers and other mentors](/blog/2024/10/22/first-time-contributions/) are available 'live' to answer questions and give guidance.
 
