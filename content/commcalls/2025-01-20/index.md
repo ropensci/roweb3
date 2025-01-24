@@ -19,8 +19,8 @@ notes:
 outputs:
 - HTML
 - Calendar 
-# vimeo:
-#  - id: '1032279338'
+vimeo:
+  - id: '1049028463'
 resources:
   - url: https://github.com/SunnyTseng/bbsTaiwan_develop/blob/main/docs/2025_01_rOpenSci_community_call/bbsTaiwan%20update.pdf
     name: "Sunny Tseng's Slides"
