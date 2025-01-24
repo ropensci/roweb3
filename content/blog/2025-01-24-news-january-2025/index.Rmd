@@ -571,10 +571,10 @@ Some useful tips for R package developers. :eyes:
 
 ### How to change stuff in your package (deprecations)
 
-Prompted by a discussion in the rOpenSci slack workspace, here's a link to the "Package evolution - changing stuff in your package" chapter in our dev guide: <https://devguide.ropensci.org/maintenance_evolution.html>.
-Changing stuff entails: deprecating functions, arguments, values of arguments (or even changing maintainers!).
+Prompted by a discussion in the rOpenSci slack workspace on how to gracefully change default values in R functions, we thought it'd be worth mentioning the dev guide's chapter on "[Package evolution - changing stuff in your package](https://devguide.ropensci.org/maintenance_evolution.html)" again.
+Changing stuff entails: deprecating functions, arguments, values of arguments (and even changing maintainers!).
 
-Also relevant are:
+We also discussed other relevant resources such as:
 - The [lifecycle R package](https://lifecycle.r-lib.org/).
 - The rlang functions for [handling missing arguments](https://rlang.r-lib.org/reference/missing_arg.html) like `rlang::is_missing()` (thanks to Jon Harmon for pointing those out).
 - Hadley Wickham's keynote talk at rstudio::global 2021 ["Maintaining the house the tidyverse built"](https://posit.co/resources/videos/maintaining-the-house-the-tidyverse-built/).
