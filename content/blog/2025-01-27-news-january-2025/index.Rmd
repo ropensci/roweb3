@@ -3,7 +3,7 @@ slug: "news-january-2025"
 title: rOpenSci News Digest, January 2025
 author:
   - The rOpenSci Team
-date: '2025-01-24'
+date: '2025-01-27'
 tags:
   - newsletter
 description: Mini-hackathons, coworking, new package and package news

@@ -3,7 +3,7 @@ slug: "news-january-2025"
 title: rOpenSci News Digest, January 2025
 author:
   - The rOpenSci Team
-date: '2025-01-24'
+date: '2025-01-27'
 tags:
   - newsletter
 description: Mini-hackathons, coworking, new package and package news
@@ -16,7 +16,7 @@ params:
 
 Dear rOpenSci friends, it's time for our monthly news roundup!
 <!-- blabla -->
-You can read this post [on our blog](/blog/2025/01/24/news-january-2025).
+You can read this post [on our blog](/blog/2025/01/27/news-january-2025).
 Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
@@ -67,11 +67,11 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following six packages have had an update since the last newsletter: [rsi](https://docs.ropensci.org/rsi "Efficiently Retrieve and Process Satellite Imagery") ([`v0.3.2`](https://github.com/Permian-Global-Research/rsi/releases/tag/v0.3.2)), [hoardr](https://docs.ropensci.org/hoardr "Manage Cached Files") ([`v0.5.5`](https://github.com/ropensci/hoardr/releases/tag/v0.5.5)), [nasapower](https://docs.ropensci.org/nasapower "NASA POWER API Client") ([`v4.2.2`](https://github.com/ropensci/nasapower/releases/tag/v4.2.2)), [readODS](https://docs.ropensci.org/readODS "Read and Write ODS Files") ([`v2.3.2`](https://github.com/ropensci/readODS/releases/tag/v2.3.2)), [stats19](https://docs.ropensci.org/stats19 "Work with Open Road Traffic Casualty Data from Great Britain") ([`v3.3.0`](https://github.com/ropensci/stats19/releases/tag/v3.3.0)), and [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.10.0`](https://github.com/ropensci/targets/releases/tag/1.10.0)).
+The following seven packages have had an update since the last newsletter: [rsi](https://docs.ropensci.org/rsi "Efficiently Retrieve and Process Satellite Imagery") ([`v0.3.2`](https://github.com/Permian-Global-Research/rsi/releases/tag/v0.3.2)), [cffr](https://docs.ropensci.org/cffr "Generate Citation File Format (cff) Metadata for R Packages") ([`v1.2.0`](https://github.com/ropensci/cffr/releases/tag/v1.2.0)), [hoardr](https://docs.ropensci.org/hoardr "Manage Cached Files") ([`v0.5.5`](https://github.com/ropensci/hoardr/releases/tag/v0.5.5)), [nasapower](https://docs.ropensci.org/nasapower "NASA POWER API Client") ([`v4.2.2`](https://github.com/ropensci/nasapower/releases/tag/v4.2.2)), [readODS](https://docs.ropensci.org/readODS "Read and Write ODS Files") ([`v2.3.2`](https://github.com/ropensci/readODS/releases/tag/v2.3.2)), [stats19](https://docs.ropensci.org/stats19 "Work with Open Road Traffic Casualty Data from Great Britain") ([`v3.3.0`](https://github.com/ropensci/stats19/releases/tag/v3.3.0)), and [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.10.0`](https://github.com/ropensci/targets/releases/tag/1.10.0)).
 
 ## Software Peer Review
 
-There are seventeen recently closed and active submissions and 4 submissions on hold. Issues are at different stages: 
+There are sixteen recently closed and active submissions and 4 submissions on hold. Issues are at different stages: 
 
 * One at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
 
@@ -81,13 +81,11 @@ There are seventeen recently closed and active submissions and 4 submissions on 
 
      * [rredlist](https://github.com/ropensci/software-review/issues/663), IUCN Red List Client. Submitted by [William Gearty](http://williamgearty.com). 
 
-* Four at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
+* Three at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
 
      * [fireexposuR](https://github.com/ropensci/software-review/issues/659), Compute and Visualize Wildfire Exposure. Submitted by [Air Forbes](https://wildfireanalytics.org/forbes.html). 
 
     * [mbquartR](https://github.com/ropensci/software-review/issues/658), Finding Manitoba Quarter Sections. Submitted by [Alex Koiter](http://www.alexkoiter.ca). 
-
-    * [cancerprof](https://github.com/ropensci/software-review/issues/637), API Client for State Cancer Profiles. Submitted by [Brian Park](https://github.com/realbp). 
 
     * [pangoling](https://github.com/ropensci/software-review/issues/575), Access to Large Language Model Predictions. Submitted by [Bruno Nicenboim](https://bnicenboim.github.io/). 
 
@@ -130,6 +128,8 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 * [rOpenSci 2024 Code of Conduct Transparency Report](/blog/2025/01/20/transparencyCoC2024) by Yanina Bellini Saibene, Mark Padgham, and Natalia Morandeira. rOpenSci 2024 Code of Conduct Transparency Report.
 
 * [rOpenSci 2024 Highlights](/blog/2025/01/22/year-in-review-2024) by The rOpenSci Team. A summary of the highlights of the rOpenSci community in 2024 and some news for 2025.
+
+* [Coworking Mini-Hackathon for First-Time Contributors](/blog/2025/01/24/coworking-hackathons) by Steffi LaZerte, Yanina Bellini Saibene, Yi-Chin Sunny Tseng, Pascal Burkhard, Yaoxiang Li, and Hugo Gruson. Announcing mini-hackathons to support first time contributors.
 
 ## Calls for contributions
 
