@@ -31,7 +31,7 @@ nice_string <- function(...) {
   if (length(...) == 2) {
     return(paste(c(...), collapse = " and "))
   }
-  glue::glue_collapse(..., sep = ", ", last = ", and ")
+  glue::glue_collapse(trimws(...), sep = ", ", last = ", and ")
 }
 ```
 <!-- Before sending DELETE THE INDEX_CACHE and re-knit! -->
@@ -63,7 +63,7 @@ In our first community call of 2025, rOpenSci explored the journey of open sourc
 
 Read [all about coworking](/blog/2023/06/21/coworking/)!
 
-Join us for two special [Coworking Mini-Hackathon for First-Time Contributors](/blog/2025/01/21/coworking-hackathons/). If you’re curious about contributing to Open Source Software, and would like some support to get started, these events are for you!
+Join us for two special [Coworking Mini-Hackathon for First-Time Contributors](/blog/2025/01/24/coworking-hackathons/). If you’re curious about contributing to Open Source Software, and would like some support to get started, these events are for you!
 
 During these sessions you’ll join others making contributions to R packages while [package maintainers and other mentors](https://ropensci.org/blog/2024/10/22/first-time-contributions/) are available ’live’ to answer questions and give guidance.
 
@@ -149,7 +149,7 @@ new <- dplyr::filter(
 
 The following `r if(nrow(new)>1) english(nrow(new))` package`r if(nrow(new)>1) "s"` recently became a part of our software suite:
 
-```{r, results='asis', cache = TRUE,eval=FALSE}
+```{r, results='asis', cache = TRUE,eval=TRUE}
 packages <- split(new, seq(nrow(new)))
 present_one <- function(package) {
   url_parts <- urltools::url_parse(package$url)

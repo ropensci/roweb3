@@ -41,7 +41,7 @@ In our first community call of 2025, rOpenSci explored the journey of open sourc
 
 Read [all about coworking](/blog/2023/06/21/coworking/)!
 
-Join us for two special [Coworking Mini-Hackathon for First-Time Contributors](/blog/2025/01/21/coworking-hackathons/). If you’re curious about contributing to Open Source Software, and would like some support to get started, these events are for you!
+Join us for two special [Coworking Mini-Hackathon for First-Time Contributors](/blog/2025/01/24/coworking-hackathons/). If you’re curious about contributing to Open Source Software, and would like some support to get started, these events are for you!
 
 During these sessions you’ll join others making contributions to R packages while [package maintainers and other mentors](https://ropensci.org/blog/2024/10/22/first-time-contributions/) are available ’live’ to answer questions and give guidance.
 
@@ -59,7 +59,7 @@ Don't forget to register to participate!
 
 The following  package recently became a part of our software suite:
 
-
++ [emodnet.wfs](https://docs.ropensci.org/emodnet.wfs), developed by Salvador Fernández-Bejarano together with Anna Krystalli and Maëlle Salmon: Access and interrogate EMODnet (European Marine Observation and Data Network) Web Feature Service data through R. It has been [reviewed](https://github.com/ropensci/software-review/issues/653) by Alec L. Robitaille, Liz Hare, and François Michonneau.
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
