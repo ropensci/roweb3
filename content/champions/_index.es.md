@@ -1,22 +1,22 @@
-+++ 
-title = "Champions Program" 
-description = "A mentoring & training program for Scientific Open Source Champions" 
-tags = ["champions"] 
++++
+title = "Programa Campeon(e|a)s"
+description = "Un programa de tutoría y formación para Campeonas y Campeones Científicos del Software Libre"
+tags = ["programa-campeones"]
 +++
 
-Research software *should serve everyone in our communities*, which means it needs to be *sustainable, open, and built by and for all groups*.
-Currently, however, there is a dismaying lack of diversity in open source communities in general and the R / research software community in particular.
-Developers in the R community are overwhelmingly white, male, and from a handful of countries.
-That disappointing lack of diversity is potentially detrimental to the sustainability, utility and productivity of projects.
+El software de investigación *debe servir a todas las personas en nuestras comunidades* lo que significa que debe ser *sostenible, abierto y construido por y para todos los grupos*.
+Actualmente, sin embargo, existe una consternadora falta de diversidad en las comunidades de código abierto en general y en la comunidad del software R y de investigación en particular.
+Las personas que  desarrollan software de la comunidad R son abrumadoramente blancos, varones y de un puñado de países.
+Esa decepcionante falta de diversidad es potencialmente perjudicial para la sostenibilidad, utilidad y productividad de los proyectos.
 
-The *rOpenSci Champions Program* is for **people from historically and systematically excluded groups** who are interested in contributing to rOpenSci and the broader open source and open science communities.
+El *Programa Campeon(a|e)s rOpenSci* es para **personas de grupos histórica y sistemáticamente excluidos** que estén interesadas en contribuir a rOpenSci y a las comunidades del código abierto y la ciencia abierta en general.
 
-The rOpenSci Champion Program [is part of a series of activities and projects we are carrying out to ensure our research software serves everyone in our communities](/blog/2021/12/20/inclusive-leadership-program/) and is supported through a grant from the Chan Zuckerberg Initiative.
+El Programa de Campeon(a|e)s de rOpenSci [forma parte de una serie de actividades y proyectos que estamos llevando a cabo para garantizar que nuestro software de investigación sirva a todas las personas de nuestras comunidades](/blog/2021/12/20/inclusive-leadership-program/) y cuenta con el financiamiento de la Iniciativa Chan-Zuckerberg.
 
-The program is a 12-month-long program that includes onboarding, cohort-based training, one-on-one mentorship, cohort meetings, project development, outreach activities, assessment, and offboarding.
-After training, Champions develop their project.
-Projects may involve**building a new package or going through the peer review process as an author or a reviewer**.
-As the concluding activity of the training, champions choose at least one of several outreach options to perform, which include giving a presentation, writing a blog post, or organizing a peer group in their community.
-Some of our cohorts are language and geographic region-specific.
+Se trata de un programa de 12 meses de duración que incluye la incorporación al programa, capacitación basada en cohortes, tutoría individual, reuniones de cohortes y de trabajo, el desarrollo de un proyecto, actividades de divulgación, la evaluación y la finalización del programa.
+Tras la formación, las personas que participan como Campeon(a|e)s desarrollan su proyecto.
+Los proyectos pueden incluir**crear un nuevo paquete o pasar por el proceso de revisión por pares como responsable de un paquete o para revisar el paquete de otras personas**.
+Como actividad final del programa, los campeones y las campeonas eligen al menos una de las diversas opciones de divulgación que pueden realizar, entre las que se incluyen hacer una presentación, escribir un articulo en un blog u organizar un encuentro con un grupo de personas en su comunidad.
+Algunas de nuestras cohortes son específicas por idioma y región geográfica.
 
 

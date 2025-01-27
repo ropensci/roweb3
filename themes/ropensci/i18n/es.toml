@@ -197,3 +197,9 @@
   
 [View-all-packages]
   other = 'Ver todos los paquetes'
+  
+[Champions]
+  other = 'Campeon(a|e)s'
+  
+[Mentors]
+  other = 'Mentor(e|a)s'

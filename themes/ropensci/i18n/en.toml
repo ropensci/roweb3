@@ -193,3 +193,9 @@
   
 [View-all-packages]
   other = 'View all packages'
+  
+[Champions]
+  other = 'Champions'
+  
+[Mentors]
+  other = 'Mentors'
