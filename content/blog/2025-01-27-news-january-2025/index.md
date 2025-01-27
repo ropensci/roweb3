@@ -34,9 +34,9 @@ Explore [Mark's slides](https://mpadge.github.io/presentations/2024/rseconf/).
 
 ### Community Call From Novice to Contributor: Making and Supporting First-Time Contributions to FOSS
 
-In our first community call of 2025, rOpenSci explored the journey of open source contributions. [Hugo Gruson](/author/hugo-gruson/) moderated a dynamic discussion featuring insights from three community members: [Sunny Tseng](/author/yi-chin-sunny-tseng/) offered practical advice for navigating the challenges of initial open source involvement, [Pascal Burkhard](/author/pascal-burkhard/) shared essential git skills for first-time contributors, and [Yaoxiang Li](/author/yaoxiang-li/) delved into test strategies for enhancing R package quality using testthat. 
+In our first community call of 2025, we explored the journey of open source contributions. [Hugo Gruson](/author/hugo-gruson/) moderated a dynamic discussion featuring insights from three community members: [Sunny Tseng](/author/yi-chin-sunny-tseng/) offered practical advice for navigating the challenges of initial open source involvement, [Pascal Burkhard](/author/pascal-burkhard/) shared essential git skills for first-time contributors, and [Yaoxiang Li](/author/yaoxiang-li/) delved into test strategies for enhancing R package quality using testthat. 
 
-[Check the video recording (with captions) and all the resources shared in the call on our website. ](/commcalls/first-time-contributor/). Also, check the next coworking session and mini hackathon to learn how to join us to support first-time contributions to open source projects. 
+[Check the video recording (with captions) and all the resources shared in the call on our website](/commcalls/first-time-contributor/). Also, check the next coworking session and mini hackathon to learn how to join us to support first-time contributions to open source projects. 
 ### Coworking Mini-hackathons
 
 Read [all about coworking](/blog/2023/06/21/coworking/)!
