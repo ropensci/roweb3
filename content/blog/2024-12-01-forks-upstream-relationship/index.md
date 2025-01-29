@@ -46,7 +46,7 @@ in a way that upstream cannot or doesn't want to address.
 In this type of forks, we usually try to not diverge too much from upstream to benefit from new features,
 and we regularly sync with them.
 A major downside is that syncing will often come with gnarly git conflicts.
-An example of this is various organizations forking the Carpentries workbench to customize the look and feel of their internal Carpentries-style training materials.
+An example of this is [various organizations forking the Carpentries workbench to customize the look and feel of their internal Carpentries-style training materials](http://hugogruson.fr/workbench-beyond-carpentries/).
 This is also what typically happens when open-source projects are packaged in Operating System distributions, such as Debian.
 The Debian package maintainers often tweak some settings or make minor code modifications to improve integration with the rest of the system.
 
