@@ -12,8 +12,8 @@ author:
 - Pao Corrales
 date: '2024-01-09'
 tags:
-  - champions-program
-  - community
+  - campeones
+  - comunidad
 slug: champions-program-latinr
 description: Detalles de la participación latinoamericana en el primer año del programa de campeonas y campeones de rOpenSci.
 ---
