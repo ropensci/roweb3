@@ -23,7 +23,7 @@ But the constant is the quality of the discussion that ensues and the renewed en
 
 The November coworking session welcomed Stefanie Butland from [openscapes](https://www.openscapes.org/) as a co-host.
 She shared Openscapes' approach of ["Forking as a worldview"](https://docs.google.com/presentation/d/1aL0TVFM7xxzTCJoE3tEArDE32wh59wkmBCy6Vcmwvy4/).
-Forks in the open-source software world refer to the process of creating a copy of an existing open-source project to add your own changes on top of it.
+Forks in the open-source software world refer to copies of an existing open-source project that add their own changes on top of the original codebase.
 Openscapes is extending this classic software development interpretation to an even more open philosophy of encouraging people to take anything that works to new places.
 Things like the value of sharing, reusing, and remixing of *how we work*, in addition to the work itself.
 Stefanie invited participants to share their experiences in forking to adapt or build on existing projects, and we came back to some practical challenges of forking.
