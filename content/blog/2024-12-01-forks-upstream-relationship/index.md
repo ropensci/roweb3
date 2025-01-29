@@ -62,7 +62,7 @@ And why is it in the interest of everyone (not only the fork owners, but also up
 ### Simplifying syncs and reducing git conflicts {#simplifying-syncs}
 
 Going back to the example of organizations forking the Carpentries workbench,
-Hugo has [forked for the workbench to customize Epiverse-TRACE lessons with their own branding](https://github.com/epiverse-trace/varnish/pull/7).
+Hugo has [forked for the workbench](https://github.com/epiverse-trace/varnish/pull/7) to customize [Epiverse-TRACE lessons with their own branding](https://epiverse-trace.github.io/tutorials).
 Indeed, the Carpentries workbench provides a fully free and open-source learning management system,
 which has accessibility features and pedagogical best practices built-in.
 It makes sense for external organizations, beyond the Carpentries themselves, to use the workbench as the infrastructure to build and host their training materials.
