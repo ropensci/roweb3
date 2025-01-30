@@ -9,10 +9,10 @@ editor:
 date: '2024-07-09'
 tags:
 - R
-- packages
-- multilingual
-- documentation
-- community
+- paquetes
+- multilingüe
+- documentación
+- comunidad
 description: Documentación multilingüe de paquetes de R al alcance de tu mano.
 social: "La documentación multilingüe de paquetes de R al alcance de tu mano @eliocamp@mastodon.social"
 ---
