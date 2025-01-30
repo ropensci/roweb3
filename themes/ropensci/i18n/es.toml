@@ -219,6 +219,27 @@
 [Use-Cases]
   other = 'Casos de uso'
   
+[Category]
+  other = 'Categoría'
+
+[Submit-A-Package]
+  other = 'Enviar Software'
+  
+[All]
+  other = 'Todos'
+
+[Citations]
+  other = 'Citas'
+
+[Contributing-Guide]
+  other = 'Guía de contribución'
+
+[Forum]
+  other = 'Foro'
+
+[Events]
+  other = 'Eventos'
+  
 [Talks-Publications]
   other = 'Charlas & Publicaciones'
   
@@ -228,9 +249,6 @@
 [Newsletter]
   other = 'Boletín de noticias'
   
-[Events]
-  other = 'Eventos'
-  
 [Cite-rOpenSci]
   other = 'Citar a rOpenSci'
   
@@ -239,3 +257,11 @@
   
 [Privacy-Policy]
   other = 'Política de privacidad'
+[Package-Docs]
+  other = 'Documentación de Paquetes'
+  
+[Search]
+  other = 'Busca'
+  
+[Training]
+  other = 'Capacitación'
