@@ -15,7 +15,7 @@ tags:
 - búsqueda
 - paquetes
 - tablero de indicadores
-- tech notes
+- notas técnicas
 ---
 
 ## Encontrar la herramienta adecuada para el trabajo
