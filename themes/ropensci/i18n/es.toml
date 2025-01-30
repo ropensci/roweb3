@@ -203,3 +203,39 @@
   
 [Mentors]
   other = 'Mentor(e|a)s'
+  
+[Software-Peer-Review]
+  other = 'Revisión de software por pares'
+  
+[Join-the-Discussion]
+  other = 'Unete a la Discusión'
+  
+[Community]
+  other = 'Comunidad'
+  
+[Our-Team]
+  other = 'Nuestro Equipo'
+  
+[Use-Cases]
+  other = 'Casos de uso'
+  
+[Talks-Publications]
+  other = 'Charlas & Publicaciones'
+  
+[Documentation]
+  other = 'Documentación'
+  
+[Newsletter]
+  other = 'Boletín de noticias'
+  
+[Events]
+  other = 'Eventos'
+  
+[Cite-rOpenSci]
+  other = 'Citar a rOpenSci'
+  
+[cc-by-text]
+  other = 'Salvo que se indique lo contrario, el contenido de este sitio está sujeto a la licencia CC-BY.'
+  
+[Privacy-Policy]
+  other = 'Política de privacidad'

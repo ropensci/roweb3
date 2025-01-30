@@ -199,3 +199,39 @@
   
 [Mentors]
   other = 'Mentors'
+  
+[Software-Peer-Review]
+  other = 'Software Peer Review'
+  
+[Join-the-Discussion]
+  other = 'Join the Discussion'
+  
+[Community]
+  other = 'Community'
+  
+[Our-Team]
+  other = 'Our Team'
+  
+[Use-Cases]
+  other = 'Use Cases'
+  
+[Talks-Publications]
+  other = 'Talks & Publications'
+  
+[Documentation]
+  other = 'Documentation'
+  
+[Newsletter]
+  other = 'Newsletter'
+  
+[Events]
+  other = 'Events'
+  
+[Cite-rOpenSci]
+  other = 'Cite rOpenSci'
+  
+[cc-by-text]
+  other = 'Except where otherwise noted, content on this site is licensed under the CC-BY license'
+
+[Privacy-Policy]
+  other = 'Privacy Policy'
