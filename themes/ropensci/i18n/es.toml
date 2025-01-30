@@ -194,3 +194,53 @@
   
 [Team]
   other = 'Equipo'
+[Packages]
+  other = 'Paquetes'
+  
+[View-all-packages]
+  other = 'Ver todos los paquetes'
+  
+[Champions]
+  other = 'Campeon(a|e)s'
+  
+[Mentors]
+  other = 'Mentor(e|a)s'
+  
+[Category]
+  other = 'Categoría'
+
+[Submit-A-Package]
+  other = 'Enviar Software'
+  
+[All]
+  other = 'Todos'
+
+[Use-Cases]
+  other = 'Casos de uso'
+
+[Citations]
+  other = 'Citas'
+
+[Community]
+  other = 'Comunidad'
+
+[Contributing-Guide]
+  other = 'Guía de contribución'
+
+[Forum]
+  other = 'Foro'
+
+[Events]
+  other = 'Eventos'
+  
+[Talks-Publications]
+  other = 'Charlas & Publicaciones'
+  
+[Package-Docs]
+  other = 'Documentación de Paquetes'
+  
+[Search]
+  other = 'Busca'
+  
+[Training]
+  other = 'Capacitación'

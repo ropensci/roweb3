@@ -10,7 +10,7 @@ tags:
 - financiamiento
 - comunidad
 - desarrollo de capacidades
-- programa de campeones
+- campeones
 - multilenguaje
 description: "Fomentar el software científico sostenible como pilar de la ciencia abierta
   en América Latina mediante la creación de capacidad y comunidad"

@@ -78,45 +78,45 @@
         </li>
 
         <li class="nav-item drp">
-          <a class="nav-link" lang="en" href="/packages/">Packages</a>
+          {{ partial "translate-url" (dict "name" "packages" "Site" .Site "class" "nav-link" )}}{{ i18n "Packages" }}</a>
           <ul class="sub-menu">
             <li class="drp">
-              <a>Category</a>
+              <a>{{ i18n "Category" }}</a>
               <ul class="sub-menu">
-                <li><a lang="en" href="/packages/all/">All</a></li>
+                <li>{{ partial "translate-url" (dict "name" "all" "Site" .Site "class" "nav-link" )}}{{ i18n "All" }}</a></li>
                 {{ range (where (where .Site.RegularPages "Type" "packages" ) ".Params.slug" "!=" "all" )}}
                 <li><a lang="en" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
                 {{ end }}
               </ul>
             </li>
-            <li><a lang="en" href="/software-review/">Submit A Package</a></li>
-            <li><a lang="en" href="/usecases/">Use Cases</a></li>
-            <li><a lang="en" href="/citations/">Citations</a></li>
+            <li>{{ partial "translate-url" (dict "name" "software-review" "Site" .Site )}}{{ i18n "Submit-A-Package" }}</a></li>
+            <li>{{ partial "translate-url" (dict "name" "usecases" "Site" .Site )}}{{ i18n "Use-Cases" }}</a></li>
+            <li>{{ partial "translate-url" (dict "name" "citations" "Site" .Site )}}{{ i18n "Citations" }}</a></li>
             <li>{{ partial "translate-url" (dict "name" "help-wanted" "Site" .Site )}}{{ i18n "Help-Wanted" }}</a></li>
           </ul>
         </li>
         <li class="nav-item drp">
-          <a class="nav-link" lang="en" href="/community/">Community</a>
+          {{ partial "translate-url" (dict "name" "community" "Site" .Site "class" "nav-link")}}{{ i18n "Community" }}</a>
           <ul class="sub-menu">
             <li>{{ partial "translate-url" (dict "name" "commcalls" "Site" .Site )}}{{ i18n "Community-calls" }}</a></li>
             <li>{{ partial "translate-url" (dict "name" "coworking" "Site" .Site )}}{{ i18n "Coworking" }}</a></li>
-            <li><a lang="en" href="/events/">Events</a></li>
+            <li>{{ partial "translate-url" (dict "name" "community" "Site" .Site)}}{{ i18n "Events" }}</a></li>
             <li><a lang="en" href="{{ relLangURL (i18n "Code-of-Conduct" | urlize)}}">{{ i18n "Code-of-Conduct" }}</a></li>
-            <li><a lang="en" href="https://contributing.ropensci.org/" class="external-link">Contributing Guide</a></li>
-            <li><a lang="en" href="https://discuss.ropensci.org/" class="external-link">Forum</a></li>
+            <li><a lang="en" href="https://contributing.ropensci.org/" class="external-link">{{ i18n "Contributing-Guide" }}</a></li>
+            <li><a lang="en" href="https://discuss.ropensci.org/" class="external-link">{{ i18n "Forum" }}</a></li>
           </ul>
         </li>
         <li class="nav-item drp">
           {{ partial "translate-url" (dict "name" "resources" "Site" .Site "class" "nav-link")}}{{ i18n "Resources" }}</a>
           <ul class="sub-menu">
-            <li><a lang="en" href="/talks-papers/">Talks & Publications</a></li>
-            <li><a lang="en" href="/training/">Training materials</a></li>
-            <li><a class="external-link" lang="en" href="https://docs.ropensci.org/">Package Docs</a></li>
+            <li>{{ partial "translate-url" (dict "name" "talks-papers" "Site" .Site )}}{{ i18n "Talks-Publications" }}</a></li>
+            <li>{{ partial "translate-url" (dict "name" "training" "Site" .Site )}}{{ i18n "Training"}} </a></li>
+            <li><a class="external-link" lang="en" href="https://docs.ropensci.org/">{{ i18n "Package-Docs" }}</a></li>
           </ul>
         </li>
         <li>
 <form class="" role="search" id="search-form">
-        <input type="search" class="form-control mr-sm-2" aria-label="Search" name="search-input" data-search-index="/search/index.json" id="search-input" placeholder="Search..." autocomplete="off">
+        <input type="search" class="form-control mr-sm-2" aria-label="Search" name="search-input" data-search-index="/search/index.json" id="search-input" placeholder="{{ i18n "Search" }}..." autocomplete="off">
 </form>
 </li>
 
