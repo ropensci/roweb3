@@ -10,8 +10,8 @@ date: '2024-12-17'
 slug: guia-localizacion
 categories: blog
 tags:
-- multilingual
-- community
+- multilingüe
+- comunidad
 description: "rOpenSci ha desarrollado un conjunto de directrices para ayudar a nuestra
   comunidad a traducir y localizar nuestros recursos. Nos complace compartir la primera
   versión de la Guia de Traducción y Localización de rOpenSci."
