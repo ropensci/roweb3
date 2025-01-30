@@ -199,3 +199,42 @@
   
 [Mentors]
   other = 'Mentors'
+  
+[Category]
+  other = 'Category'
+  
+[All]
+  other = 'All'
+
+[Submit-A-Package]
+  other = 'Submit A Package'
+
+[Use-Cases]
+  other = 'Use Cases'
+
+[Citations]
+  other = 'Citations'
+
+[Community]
+  other = 'Community'
+
+[Contributing-Guide]
+  other = 'Contributing Guide'
+
+[Forum]
+  other = 'Forum'
+
+[Events]
+  other = 'Events'
+  
+[Talks-Publications]
+  other = 'Talks & Publications'
+  
+[Package-Docs]
+  other = 'Package Docs'
+  
+[Search]
+  other = 'Search'
+  
+[Training]
+  other = 'Training'
