@@ -13,10 +13,10 @@ author:
   - David LeBauer  
 date: '2023-06-06'
 tags:
-  - community
+  - comunidad
   - r-universe
-  - interviews
-  - r-universe-stars
+  - entrevistas
+  - estrellas del universo r
 featured: true
 # The summary below will be used by e.g. Twitter cards
 description: "El cambio climático y las investigaciones en el área tienen una diversidad y complejidad de datos que demandan modelos de análisis cada vez más complejos. El proyecto PEcAn trabaja para desarrollar esa habilidad."
