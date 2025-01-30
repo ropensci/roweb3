@@ -90,4 +90,4 @@ I'll likely add in more utility functions for parsing biological data for use wi
 
 David Bapst and Rachel Warnock reviewed this package, and provided immensely helpful comments. Scott Chamberlain handled the review. I'd also like to thank Jack Henry Wright Stinnett and Alice Wright Stinnett for being such good sleepers that I got to make the skeleton of this package while they napped:
 
-{{< tweet user="WrightingApril" id="1014973461481938944" >}}
+> Wrote a small workflow for generating molecular + morphological starting trees in python, but realized for upcoming use, it actually makes more sense to be an R package. Both kids are asleep, here we go. — Dr. April Wright - July 5, 2018

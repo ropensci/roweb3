@@ -4,7 +4,8 @@ description = "rOpenSci Code of Conduct"
 subtitle = "Version 2.5 – January 30, 2024"
 +++
 
-_El código de conducta también está disponible en [español](/es/codigo-de-conducta)._
+_El código de conducta también está disponible en [español](/es/código-de-conducta/)._
+_O código de conduta também está disponível em [Português](/pt/código-de-conduta)_
 
 rOpenSci's community is our best asset and we believe that our diversity is our strength. We are building a welcoming and diverse global community of software users and developers from a range of research domains. It's so important to us, it's in [our mission statement](/about/). Whether you’re a regular contributor or a newcomer, we care about making this a safe place for you and we’ve got your back.
 
