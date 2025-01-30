@@ -6,10 +6,10 @@ author:
   - Yanina Bellini Saibene
 date: '2023-11-06'
 tags:
-  - community
+  - comunidad
   - r-universe
-  - interviews
-  - r-universe-stars
+  - entrevistas
+  - estrellas del universo r
 featured: true
 photogallery: true
 # The summary below will be used 
