@@ -9,10 +9,10 @@ author:
   - Athanasia Mo Mowinckel
 date: '2023-03-30'
 tags:
-  - community
+  - comunidad
   - r-universe
-  - interviews
-  - r-universe-stars
+  - entrevistas
+  - estrellas del universo r
 featured: true
 # The summary below will be used by e.g. Twitter cards
 description: "Trabajar con el cerebro humano necesita de software específico y desarrollos complejos. Sin embargo R aparece como la forma natural de organizar y compartir cientos de datos que necesitan ser analizados y el Universo R como el lugar más amigable para compartir e invitar a colaborar. Nuestra tercera parada nos encuentra en __Noruega__ para hablar con __Athanasia Monika Mowinckel__."
