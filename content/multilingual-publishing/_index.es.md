@@ -1,17 +1,19 @@
 +++
-title = "Multilingual Publishing"
-description = "rOpenSci's Multilingual Publishing"
-tags = ["multilingual"]
+title = "Publicación multilingüe"
+description = "Publicación multilingüe de rOpenSci"
+ etiquetas = ["multilingüe"]
 +++
 
-Open Source and Open Science are global movements, but most of their material and resources are published in English. Non-English speakers face a significant barrier to being part of these movements. 
+El Código Abierto y la Ciencia Abierta son movimientos globales, pero la mayor parte de sus materiales y recursos se publican en inglés. Las personas que no hablan inglés se enfrentan a una barrera importante para formar parte de estos movimientos.
 
-We are embarking on an effort to translate rOpenSci’s material on best practices for software development, code review, and contribution to open source projects beyond the English language. As part of this effort we also develop guidelines for translating open source resources to a wider audience.
+Nos embarcamos en un esfuerzo por traducir el material de rOpenSci sobre las mejores prácticas para el desarrollo y revisión de software y la contribución a los proyectos de código abierto más allá de la lengua inglesa. Como parte de este esfuerzo, también desarrollamos directrices para traducir los recursos abiertos a un público más amplio.
 
-Publishing multilingual resources can lower the barrier to access to knowledge, help democratize access to quality resources and increase the possibilities of contributing to software and open science projects. 
+Publicar recursos multilingües puede reducir la barrera de acceso al conocimiento, ayudar a democratizar el acceso a recursos de calidad y aumentar las posibilidades de contribuir a proyectos de software y ciencia abierta.
 
-After [successfully piloted](/blog/2021/07/27/censo2017/) our first [Spanish-language peer review](/commcalls/2019-06-28/), where the submission itself, and all reviews, and editorial responses were in Spanish, we decided to start the multilingual publishing of our resources, starting with our [comprehensive guide to software development](https://devguide.ropensci.org/), in the Spanish language. Spanish is the second most-spoken native language in the world. It is also one of the most geographically widespread languages, reaching many countries with Spanish as an official language. In addition, the Spanish-speaking R Community has been growing and very active in the last years including several efforts of translations.
+Después de la [experiencia piloto éxitosa](/blog/2021/07/27/censo2017/) de nuestra primera [revisión por pares en español](/commcalls/2019-06-28/) en la que el envío, todas las revisiones y respuestas editoriales fueron en español, decidimos iniciar la publicación multilingüe de nuestros recursos, empezando por nuestra [guía completa de desarrollo de software](https://devguide.ropensci.org/) en español. El español es la segunda lengua materna más hablada del mundo. También es una de las lenguas más extendidas geográficamente, llegando a muchos países que tienen el español como lengua oficial. Además, la Comunidad R hispanohablante ha estado creciendo y muy activa en los últimos años, incluyendo varios esfuerzos de traducción.
 
-The project's documentation will be useful to extend this effort to other languages and for other communities and projects with translation efforts.
+La documentación del proyecto será útil para extender este esfuerzo a otros idiomas y para otras comunidades y proyectos con esfuerzos de traducción.
 
-This effort is supported by the [Chan-Zuckerberg Initiative](/blog/2021/12/20/inclusive-leadership-program/), [NumFOCUS](https://numfocus.org/) and the [R Consortium](https://www.r-consortium.org/).
+Estas actividades cuentan con el apoyo de la [Iniciativa Chan-Zuckerberg](/blog/2021/12/20/inclusive-leadership-program/), [NumFOCUS](https://numfocus.org/) y el [Consorcio R](https://www.r-consortium.org/).
+
+

@@ -188,6 +188,8 @@
 [Help-Wanted]
   other = 'Help Wanted'
   
+[Team]
+  other = 'Team'
 [Packages]
   other = 'Packages'
   
