@@ -1,7 +1,7 @@
 +++
-title = "Revisión paritaria de software"
+title = "Revisión de software por pares"
 description = "Sistema abierto de revisión por pares de paquetes R de rOpenSci"
- tags = ["software-revisión-por-pares"]
+ tags = ["revision-software"]
 +++
 
 El programa Software Peer Review de rOpenSci reúne a científicos e ingenieros de software para mejorar la calidad,
