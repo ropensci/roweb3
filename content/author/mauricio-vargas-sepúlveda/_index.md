@@ -1,5 +1,6 @@
 ---
-name: Pachá (aka Mauricio Vargas Sepúlveda)
+name: Mauricio Vargas Sepúlveda
+bio: aka Pachá 
 link: https://pacha.dev/
 twitter: pachadotdev
 github: pachadotdev
