@@ -244,3 +244,12 @@
   
 [Training]
   other = 'Capacitación'
+  
+[Our-Editorial-Team]
+  other = 'Nuestro equipo editorial'
+  
+[Our-editorial-board-members-are-volunteers]
+  other = 'Los miembros de nuestro consejo editorial son voluntarios.'
+  
+[Former-editors-and-advisory-board ]
+  other = 'Former editors and advisory board'
