@@ -200,7 +200,7 @@ The only catch: I was working on a new version that would introduce many new fea
 To get people prepared, I had them to (1) install R, (2) install a C compiler, (3) install [devtools](https://devtools.r-lib.org/), and then (4) use `devtools::install_github("grunwaldlab/poppr@candidate-1.1")`.
 
 My question to you: how do you think that went over? If the answer is: it was a success, then you are correct! But there is a big caveat to this success: it was only because I had asked each of the >40 participants to email me the results of their installation and then I would troubleshoot these installations via email several weeks before the workshop.
-**If the R-universe had existed back then**, I would have been able to tell people to (1) install R and (2) run `install.packages("poppr", repos = c("https://zkamvar.r-universe.dev", getOptions("repos")))` without having them to wonder why they needed a C compiler (or what it was) and why they needed devtools.
+**If the R-universe had existed back then**, I would have been able to tell people to (1) install R and (2) run `install.packages("poppr", repos = c("https://zkamvar.r-universe.dev", getOption("repos")))` without having them to wonder why they needed a C compiler (or what it was) and why they needed devtools.
 
 
 It's very hard to overstate just how much benefit the R-universe provides to the R community.

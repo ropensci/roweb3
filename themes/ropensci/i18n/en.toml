@@ -3,6 +3,12 @@
 
 [By]
   other = 'By'
+
+[With]
+  other = 'With'
+
+[Edited-by]
+  other = 'Edited by'
   
 [Filed-under]
   other = 'Filed under'
@@ -39,3 +45,198 @@
   
 [Read-more]
   other = 'Read more'
+  
+[Projects]
+  other = 'Projects'
+  
+[Blog]
+  other = 'Blog'
+  
+[Tech-Notes]
+  other = 'Tech Notes'
+  
+[Our-Next-Sessions]
+  other = 'Our Next Sessions'
+  
+[Our-Next-Session]
+  other = 'Our Next Session'
+  
+[To-be-announced]
+  other = 'To be announced'
+  
+[Past-Sessions]
+  other = 'Past sessions'
+  
+[Speakers]
+  other = 'Speakers'
+  
+[Resources]
+  other = 'Resources'
+  
+[Collaborative-notes]
+  other = 'Collaborative notes'
+[Code-of-Conduct]
+  other = 'Code of Conduct'
+  
+[We-are-hiring]
+  other = 'We are hiring!'
+  
+[Careers]
+  other = 'Careers'
+[Name]
+  other = 'Name'
+  
+[Enter-your-name]
+  other = 'Enter your name'
+  
+[Email-address]
+  other = 'Email address'
+  
+[Enter-your-email]
+  other = 'Enter your email address'
+  
+[Enter-a-valid-email-address]
+  other = 'Enter a valid email address'
+  
+[Message]
+  other = 'Message'
+  
+[Enter-your-message]
+  other = 'Enter your message'
+  
+[Send-message]
+  other = 'Send your message'
+  
+[Contact]
+  other = 'Contact'
+  
+[Our-External-Advisors]
+  other = 'Our External Advisors'
+  
+[Our-Alumni]
+  other = 'Our Alumni'
+  
+[Our-Research-Fellows]
+  other = 'Our Research Fellows'
+  
+[strategic-advisor]
+  other = 'strategic advisor'
+  
+[executive-director]
+  other = 'Executive Director'
+  
+[advisor]
+  other = 'Advisor'
+  
+[lead-infrastructure-engineer]
+  other = 'Lead Infrastructure Engineer'
+  
+[software-research-scientist]
+  other = 'Software Research Scientist'
+
+[community-assistant]
+  other = 'Community Assistant'
+  
+[community-manager]
+  other = 'Community Manager'
+
+[research-software-engineer]
+  other = 'Research Software Engineer'
+
+[editor]
+  other = 'Editor'
+
+[Software-Review-Lead]
+  other = 'Software Review Lead'
+  
+[co-funder]
+  other = 'Co-funder'
+
+[staff]
+  other = 'staff'
+  
+[researcher]
+  other = 'Researcher'
+
+[developer]
+  other = 'Developer'
+
+[stat-peer-review-advisor]
+  other = 'Statistical Peer Review Advisor'
+  
+[former-core-team-member]  
+  other = 'Former Core Team Member'
+  
+[About]  
+  other = 'About'
+  
+[Donate]  
+  other = 'Donate'
+  
+[check-money]
+  other = 'Checks can also be made out to NumFOCUS, just make sure to add rOpenSci in the memo line'
+
+[Community-calls]  
+  other = 'Community calls'
+  
+[Coworking]  
+  other = 'Coworking'
+  
+[Coworking-pic]
+  other = 'With work come breaks! So we break with a mini scavenger hunt.'
+  
+[Help-Wanted]
+  other = 'Help Wanted'
+  
+[Team]
+  other = 'Team'
+[Packages]
+  other = 'Packages'
+  
+[View-all-packages]
+  other = 'View all packages'
+  
+[Champions]
+  other = 'Champions'
+  
+[Mentors]
+  other = 'Mentors'
+  
+[Category]
+  other = 'Category'
+  
+[All]
+  other = 'All'
+
+[Submit-A-Package]
+  other = 'Submit A Package'
+
+[Use-Cases]
+  other = 'Use Cases'
+
+[Citations]
+  other = 'Citations'
+
+[Community]
+  other = 'Community'
+
+[Contributing-Guide]
+  other = 'Contributing Guide'
+
+[Forum]
+  other = 'Forum'
+
+[Events]
+  other = 'Events'
+  
+[Talks-Publications]
+  other = 'Talks & Publications'
+  
+[Package-Docs]
+  other = 'Package Docs'
+  
+[Search]
+  other = 'Search'
+  
+[Training]
+  other = 'Training'

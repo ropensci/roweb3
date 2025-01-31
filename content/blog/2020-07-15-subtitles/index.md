@@ -40,9 +40,7 @@ If you've never tried captioning a video, you may think that the hardest parts a
 
 {{< figure src = "webvtt-file.png" alt = "Content of a VTT file" caption = "Screenshot of a sample VTT file. It contains both text and corresponding timestamps" class = "center" >}}
 
-That VTT file not only contains a transcript of all the audio, but also some timestamps to synchronize the transcript with the video. As expected, technical and field specific terms were often wrong (the most common issue being 'R' transcribed as 'our', and rOpenSci as 'Our open sigh'). This seems like an unavoidable issue that happens no matter the tools you use. For example, YouTube gets even more creative with R slang:
-
-{{< tweet user="ma_salmon" id="1259507352774021121" >}}
+That VTT file not only contains a transcript of all the audio, but also some timestamps to synchronize the transcript with the video. As expected, technical and field specific terms were often wrong (the most common issue being 'R' transcribed as 'our', and rOpenSci as 'Our open sigh'). This seems like an unavoidable issue that happens no matter the tools you use.
 
 #### Unexpected tasks
 

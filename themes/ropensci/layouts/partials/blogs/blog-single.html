@@ -11,6 +11,12 @@
           {{ i18n "By" }}
           </span> 
           {{ partial "blogs/pretty_author_names" .Params.author }}
+          {{ with .Params.editor }}
+          <span>
+          &#8211; {{ i18n "Edited-by" }}
+          </span> 
+          {{ partial "blogs/pretty_author_names" . }}
+          {{ end }}
           </div>
         </div>
     </div>
@@ -22,17 +28,19 @@
            {{ if or ( .Params.preface ) ( .Params.crossposts ) }}
                 <div class="alert alert-info" role="alert">
                   {{ with .Params.crossposts }} 
+                  <p style="margin-bottom:1rem;">
                     {{ range .}}
-                    This is cross-posted on <a href="{{ .url }}">{{ .name }}</a>.<br/>
+                    This is cross-posted on <a href="{{ .url }}">{{ .name }}</a>.
                     {{ end }}
+                    </p>
                   {{ end }}
-                  {{ with .Params.preface }}{{ . | markdownify }}{{ end }}
+                  {{ with .Params.preface }}<p>{{ . | markdownify }}</p>{{ end }}
                   
                   
                 </div>
                 {{ end }}
-          {{ if  (in .Params.tags "r-universe") }}
-          <small><em>
+           {{ if and (le (.Date | time.Format "2006-01-02") "2024-04-10") (in .Params.tags "r-universe") }}
+           <small><em>
             {{ if (eq .Lang "es") }}
             Este post es parte de una serie de artículos sobre <a  lang="en" href="https://r-universe.dev">r-universe</a>, un nuevo proyecto marco de rOpenSci bajo el cual experimentamos con varias ideas para mejorar la publicación y el descubrimiento de software de investigación en R. A medida que el proyecto evolucione, publicaremos actualizaciones para documentar características y detalles técnicos. Para más información, visita la <a lang="en" href="/r-universe/">página del proyecto r-universe</a>.
             {{ else if (eq .Lang "fr") }}
@@ -63,23 +71,11 @@ For more information, visit the <a href="/r-universe/">r-universe project page</
         {{ end }}
         </ul>
       </div>
-            {{ if .IsTranslated }}
-      <div class="field-under mt-4">
-      <span>{{ i18n "translations" }}</span>
-          <div><a href="{{ .Permalink }}" style="font-weight: bold;" class="btn btn-share btn-twitter" lang="{{ .Language }}"><span class="btn-icon">
-    <i class="fa fa-globe"></i>
-  </span>{{ .Language.LanguageName }}</a></div>
-        {{ range .Translations }}
-          <div><a href="{{ .Permalink }}" class="btn btn-share btn-twitter" lang="{{ .Language }}"><span class="btn-icon">
-    <i class="fa fa-globe"></i>
-  </span>{{ .Language.LanguageName }}</a></div>
-        {{ end }}
-      </div>
-      {{ end }}
       <div class="field-under mt-4">
         <span>{{ i18n "Share" }}</span>
         {{ partial "mastodon/share-link" . }}
         {{ partial "linkedin/share-link" . }}
+        {{ partial "bluesky/share-link" . }}
         {{ partial "email/share-link" . }}
       </div>
       <div class="field-under mt-4">

@@ -4,6 +4,9 @@ slug: ropensci-champions-program-teams-meet-alican-cagri-gokcek-and-elio-campite
 author:
   - Alican Cagri Gokcek
   - Elio Campitelli
+editor:
+  - Yanina Bellini Saibene
+  - Steffi LaZerte  
 date: '2023-06-19'
 tags:
   - community

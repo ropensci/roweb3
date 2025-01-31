@@ -1,5 +1,6 @@
 ---
 title: 'How rOpenSci performs peer-review (champions training)'
+training: true
 dateStart: '2023-04-04T17:00:00'
 dateEnd: '2023-04-04T17:00:00'
 date: 2023-04-04T17:00:00 # UTC!! same as dateEnd

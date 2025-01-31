@@ -4,6 +4,9 @@ slug: ropensci-champions-program-teams-meet-ghozayel-elotteebi-and-zebulun-arend
 author:
   - Ghozayel Elotteebi
   - Zebulun Arendsee
+editor:
+  - Yanina Bellini Saibene
+  - Steffi LaZerte  
 date: '2023-06-23'
 tags:
   - community

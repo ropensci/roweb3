@@ -4,16 +4,16 @@
         <div class="row">
           <div class="col-md-8 offset-md-1">
             <div class="event-detail-date">
-              {{ .Date.Format "January 2, 2006" }}
+              {{ .Date | time.Format ":date_full" }}
             </div>
             <h1>{{ .Title | markdownify }}</h1>
             <div class="event-detail-author">
               <p>
                 {{ with .Params.organizer }}
-                By {{ partial "blogs/pretty_author_names" . }}.
+                {{ i18n "By" }} {{ partial "blogs/pretty_author_names" . }}.
                 {{ end }}
                 {{ with .Params.author }}
-                <span class="ml-1">With {{ partial "blogs/pretty_author_names" . }}.</span>
+                <span class="ml-1">{{ i18n "Con" }}  {{ partial "blogs/pretty_author_names" . }}.</span>
                 {{ end }}
               </p>
             </div>
@@ -98,7 +98,7 @@
             {{ with .Params.speakers }}
 <div class="speakers">
               <h2 class="title">
-                Speakers
+                {{ i18n "Speakers" }}
               </h2>
               <div class="speakers-wrapper">
                 {{ range . }}
@@ -124,12 +124,12 @@
            
                   {{ if .Params.resources }}
             <div class="event-resources content">
-              <h4 class="title">Resources</h4>
+              <h4 class="title">{{ i18n "Resources" }}</h4>
               <ul class="resources-list">
                  
                 {{ with .Params.notes }}
                 <li>
-                  <a href="{{ . }}">Collaborative notes</a>
+                  <a href="{{ . }}">{{ i18n "Collaborative-notes" }}</a>
                 </li>
                 {{ end }}
                   {{ range .Params.resources }}
@@ -150,7 +150,7 @@
           
           <div class="col-md-2">
             <div class="field-under">
-              <span>Filed under</span>
+              <span>{{ i18n "Filed-under" }}</span>
               <ul class="post-tags">
                 {{ range .Params.tags }}
           <li><a href="/tags/{{ . | urlize }}" class="tag">{{ . }}</a></li>
@@ -158,9 +158,10 @@
               </ul>
             </div>
       <div class="field-under mt-4">
-        <span>Share</span>
+        <span>{{ i18n "Share" }}</span>
         {{ partial "mastodon/share-link" . }}
         {{ partial "linkedin/share-link" . }}
+        {{ partial "bluesky/share-link" . }}
         {{ partial "email/share-link" . }}
       </div>
           </div>

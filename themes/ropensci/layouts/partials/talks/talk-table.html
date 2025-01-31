@@ -1,0 +1,41 @@
+<section class="section section-generic">
+  <div class="container">
+    <!-- Header text -->
+    <div class="row">
+      <div class="col-md-8 content">
+        <h1>{{ .Title | markdownify }}</h1>
+         {{ .Content }}
+    </div>
+    </div>
+      <table id="talkstable" class="display" width="100%">
+        <thead>
+          <tr>
+    <th>Title</th>
+    <th>Speaker</th>
+    <th>Year</th>
+    <th>Material</th>
+    <th>Language</th>
+  </tr>
+  </thead>
+      <tbody>
+      {{ range .Pages }}
+      {{ $year := .Date.Format "2006" }}
+      {{ range .Params.resources }}
+   <tr>
+     
+    <td>{{ .title }}</td>
+    <td>{{ .speaker }} </td>
+    <td>{{ $year }} </td>
+    <td>{{ with .slides }}<a href="{{ . }}"><i class="fas fa-desktop"></i></a>{{ end }}
+    {{ if isset . "slides" }}{{ if isset . "video"}} • {{ end }}{{ end }}
+      {{ with .video }} <a href="{{ . }}"><i class="fas fa-film"></i></a>{{ end }} </td>
+    <td>
+      {{ if isset . "language" }} {{ .language }} {{else }} en {{ end }}
+</td>
+  </tr>
+      {{ end }} 
+      {{ end }} 
+      </tbody>
+      </table>
+{{ partial "datatables/scripts" ( dict "id" "talkstable" "col" 2 "order" "desc" )  }}
+</section>

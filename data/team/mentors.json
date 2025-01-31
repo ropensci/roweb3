@@ -1,4 +1,119 @@
 [{
+   "name": "Bruna Wundervald",
+   "affiliation": "ABI Inbev, Maynooth University",
+   "url": "https://brunaw.com/",
+   "image" : "/img/team/bruna-wundervald.jpeg",
+   "roles": [
+      "mentor 2023-2024"
+   ],
+   "github": "brunaw",
+   "home": ""
+},
+{
+   "name": "Apoorv Anand",
+   "affiliation": "CivicDataLab",
+   "url": "https://behindbars.netlify.app",
+   "image" : "/img/team/apoorv-anand.jpeg",
+   "roles": [
+      "mentor 2023-2024"
+   ],
+   "github": "apoorv74",
+   "home": ""
+},
+{
+   "name": "Emi Tanaka",
+   "affiliation": "Australian National University",
+   "url": "https://emitanaka.org/",
+   "image" : "/img/team/emi-tanaka.jpg",
+   "roles": [
+      "mentor 2023-2024"
+   ],
+   "github": "emitanaka",
+   "home": ""
+},
+{
+  
+   "name": "Erle Holgersen",
+   "affiliation": "Deep Genomics",
+   "url": "https://erle.bio/",
+   "image" : "/img/team/erle-holgersen.jpg",
+   "roles": [
+      "mentor 2023-2024"
+   ],
+   "github": "erleholgersen",
+   "home": ""
+},
+{
+ 
+   "name": "Eunseop Kim",
+   "affiliation": "Eli Lilly and Company",
+   "url": "",
+   "image" : "/img/team/eunseop-kim.jpg",
+   "roles": [
+      "mentor 2023-2024"
+   ],
+   "github": "markean",
+   "home": ""
+},
+{
+
+   "name": "Francisco Cardozo",
+   "affiliation": "University of Miami",
+   "url": "https://focardozom.github.io/",
+   "image" : "/img/team/francisco-cardozo.jpg",
+   "roles": [
+      "mentor 2023-2024"
+   ],
+   "github": "focardozom",
+   "home": ""
+},
+{
+
+   "name": "Luis D. Verde Arregoitia",
+   "affiliation": "Instituto de Ecología AC (INECOL)",
+   "url": "https://liomys.mx",
+   "image" : "/img/team/luis-verde.jpeg",
+   "roles": [
+      "mentor 2023-2024"
+   ],
+   "github": "luisDVA",
+   "home": ""
+},
+{
+  
+   "name": "Marie Vendettuoli",
+   "affiliation": "Fred Hutchinson Cancer Center (2019 - 2023) and Bonneville Power Administration (2023-present)",
+   "url": "",
+   "image" : "/img/team/marie-vendettuoli.jpg",
+   "roles": [
+      "mentor 2023-2024"
+   ],
+   "github": "mariev",
+   "home": ""
+},
+{
+   "name": "François Michonneau",
+   "affiliation": "Voltron Data",
+   "url": "https://francoismichonneau.net/",
+   "image" : "/img/team/françois-michonneau.JPG",
+   "roles": [
+      "mentor 2023-2024"
+   ],
+   "github": "fmichonneau",
+   "home": ""
+},
+{
+   "name": "Jonathan Keane",
+   "affiliation": "",
+   "url": "https://jonkeane.com",
+   "image" : "/img/team/jonathan-keane.png",
+   "roles": [
+      "mentor 2023-2024"
+   ],
+   "github": "jonkeane",
+   "home": ""
+},
+{
    "name": "Laura DeCicco",
    "url": "https://www.usgs.gov/staff-profiles/laura-decicco",
    "image" : "/img/team/laura-decicco.jpg",
@@ -27,7 +142,7 @@
    "name": "Beatriz Milz",
    "affiliation": "University of Sao Paulo - Curso-R",
    "url": "",
-   "image" : "/img/team/beatriz-milz-mentor.jpeg",
+   "image" : "/img/team/beatriz-milz.jpeg",
    "roles": [
       "mentor 2022-2023"
    ],

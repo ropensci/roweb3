@@ -30,6 +30,14 @@ DefaultContentLanguage = "en"
     title = "rOpenSci - open tools for open science"
     languageName = "Français"
     weight = 3
+  [languages.pt]
+    title = "rOpenSci - open tools for open science"
+    languageName = "Português"
+    weight = 4
+  [languages.tr]
+    title = "rOpenSci - open tools for open science"
+    languageName = "Türkçe"
+    weight = 5  
 
 
 [permalinks]
@@ -42,10 +50,11 @@ DefaultContentLanguage = "en"
     footer = "&copy; The rOpenSci Project"
     rbloggers = ["blog", "technotes", "commcalls", "careers"]
     search = ["blog", "technotes", "commcalls", "events", "author"]
-    projects = ["r-universe", "software-review", "stat-software-review", "champions", "multilingual-publishing"]    
+    langs = ["en", "es"]
+    projects = ["r-universe", "software-review", "champions", "multilingual-publishing"]    
     blogs = ["blog", "technotes"]
     events = ["events", "commcalls"]
-    githubsource = "https://github.com/ropensci/roweb3/tree/HEAD/content/"
+    githubsource = "https://github.com/ropensci/roweb3/blob/main/content/"
     registry = "https://ropensci.github.io/roregistry/registry.json"
     citations = "https://ropensci-org.github.io/ropensci_citations/citations_all_parts_clean.json"
 
@@ -58,7 +67,7 @@ DefaultContentLanguage = "en"
   home = ["HTML", "RSS", "JSON"]
   section = ["HTML", "RSS", "JSON"]
   taxonomy = ["HTML", "RSS", "JSON"]
-  taxonomyTerm = ["HTML", "RSS", "JSON"]
+  term = ["HTML", "RSS", "JSON"]
 
 [outputFormats.Calendar]
 	protocol = "https://"
@@ -95,8 +104,12 @@ DefaultContentLanguage = "en"
     noHl = false
     tabWidth = 4
   [markup.goldmark]
+    [markup.goldmark.renderHooks]
+      [markup.goldmark.renderHooks.link]
+        enableDefault = false
     [markup.goldmark.renderer]
       unsafe = true
+      #https://gohugo.io/render-hooks/links/#default
     [markup.goldmark.parser]
       autoHeadingID = true
       autoHeadingIDType = 'github'

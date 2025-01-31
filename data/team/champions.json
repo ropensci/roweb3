@@ -1,4 +1,108 @@
 [{
+   "name": "Andrea Gomez Vargas",
+   "url": "https://soyandrea.netlify.app/",
+   "image" : "/img/team/andrea-vargas.png",
+   "affiliation": "INDEC Argentina, R-Ladies Global, Latin-R",
+   "roles": [
+      "champion 2023-2024"
+   ],
+   "github": "SoyAndrea",
+   "home": "https://soyandrea.netlify.app/"
+},
+{
+   "name": "Binod Jung Bogati",
+   "url": "https://bjungbogati.com.np/",
+   "image" : "/img/team/binod-bogati.jpeg",
+   "affiliation": "R User Group Nepal, Numeric Mind",
+   "roles": [
+      "champion 2023-2024"
+   ],
+   "github": "bjungbogati",
+   "home": "https://bjungbogati.com.np/"
+},
+{
+   "name": "Erika Siregar",
+   "image" : "/img/team/erika-siregar.jpeg",
+   "affiliation": "BPS-Statistics Indonesia",
+   "roles": [
+      "champion 2023-2024"
+   ],
+   "github": "erikaris"
+},
+{
+   "name": "Ezekiel Adebayo Ogundepo",
+   "url": "https://bit.ly/gbganalyst",
+   "image" : "/img/team/ezekiel-ogundepo.png",
+   "affiliation": "GBG Analytics Limited",
+   "roles": [
+      "champion 2023-2024"
+   ],
+   "github": "gbganalyst",
+   "home": "https://bit.ly/gbganalyst"
+},
+{
+   "name": "Francesca Belem Lopes Palmeira",
+   "url": "https://fblpalmeira.github.io/",
+   "image" : "/img/team/francesca-palmeira.jpg",
+   "affiliation": "RLadies Ribeirão Preto",
+   "roles": [
+      "champion 2023-2024"
+   ],
+   "github": "fblpalmeira",
+   "home": "https://fblpalmeira.github.io/"
+},
+{
+   "name": "Jacqui Levy",
+   "image" : "/img/team/jacqui-levy.png",
+   "affiliation": "Environment and Climate Change Canada, rOpenSci",
+   "roles": [
+      "champion 2023-2024"
+   ],
+   "github": "Jacqui-123"
+},
+{
+   "name": "Liz Hare",
+   "url": "http://doggenetics.com",
+   "image" : "/img/team/liz-hare.jpg",
+   "affiliation": "Dog Genetics LLC, ManyDogs Project, The Turing Way",
+   "roles": [
+      "champion 2023-2024"
+   ],
+   "github": "lizharedogs",
+   "home": "http://doggenetics.com"
+},
+{
+   "name": "Mirna Vazquez Rosas Landa",
+   "url": "https://mirnavazquez.netlify.app/",
+   "image" : "/img/team/mirna-vazquez.jpg",
+   "affiliation": "UNAM, Instituto de Ciencias del Mar y Limnología",
+   "roles": [
+      "champion 2023-2024"
+   ],
+   "github": "mirnavazquez",
+   "home": "https://mirnavazquez.netlify.app/"
+},
+{
+   "name": "Sehrish Kanwal",
+   "image" : "/img/team/sehrish-kanwal.jpg",
+   "affiliation": "The University of Melbourne",
+   "roles": [
+      "champion 2023-2024"
+   ],
+   "github": "skanwal"
+},
+{
+   "name": "Yi-Chin Sunny Tseng",
+   "url": "https://sunshineland.netlify.app/",
+   "image" : "/img/team/sunny-tseng.jpg",
+   "affiliation": "University of Northern British Columbia",
+   "roles": [
+      "champion 2023-2024"
+   ],
+   "github": "SunnyTseng",
+   "home": "https://sunshineland.netlify.app/"
+},
+  {
    "name": "Paola Corrales",
    "url": "https://paocorrales.github.io/",
    "image" : "/img/team/paola-corrales.png",

@@ -1,0 +1,19 @@
+{{ $url := "" }}
+{{ $lang := "" }}
+{{ $class := .class | default "" }}
+{{ $name := .name }}
+{{ with .Site.GetPage $name }}
+  {{ $url = .RelPermalink }}
+  {{ $lang = .Language.Lang }}
+{{ else }}
+  {{ with where .Site.Sites "Language.Lang" "eq" "en" }}
+    {{ with index . 0 }}
+     {{ with .GetPage $name }}
+        {{ $url = .RelPermalink }}
+        {{ $lang = "en" }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ end }}
+
+<a lang="{{ $lang }}" href="{{ $url }}" class = "{{ $class }}">

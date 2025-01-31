@@ -1,5 +1,6 @@
 ---
 title: 'rOpenSci Champions Program. Mentorship Training and Orientation'
+training: true
 dateStart: '2023-02-21T11:00:00'
 dateEnd: '2023-02-21T11:00:00'
 date: 2023-02-21T14:00:00 # UTC!! same as dateEnd

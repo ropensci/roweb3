@@ -4,17 +4,11 @@
         <!-- Header text -->
         <div class="row">
           <div class="col-md-8">
-            <h1>Package Citations</h1>
-            <p class="subtitle">
-              We <a href="/blog/2021/02/16/package-citation/#how-ropensci-tracks-package-usage">manually</a> curate a <a href="https://github.com/ropensci-org/ropensci_citations/">dataset of all citations of our packages</a>. Find below a regularly updated random sample as well as a searchable table of all citations.
-            </p>
-            <p class="subtitle">
-               If you use one of our packages, please cite it. E.g. if you use the magick package, run
-            <code>citation("magick")</code> in your R console to find the appropriate text.
-            </p>
+            <h1>{{ .Title }}</h1>
+            {{ .Content | markdownify }}
           </div>
         </div>
-        {{ $registry := getJSON .Site.Params.registry }}
+        {{ $registry := (resources.GetRemote .Site.Params.registry) | unmarshal }}
 {{ $scratch := newScratch }}
 
 {{ $scratch.Set "package" (slice "absolutelynotapackage" ) }}
@@ -27,7 +21,7 @@
 {{ $scratch.Add "activepackage" .name }}
 {{ end }}
         <div class="row case-cards mt-5">
-          {{ $citations := getJSON .Site.Params.citations }}
+          {{ $citations := (resources.GetRemote .Site.Params.citations) | unmarshal }}
           {{ range $index, $element := (first 3 ( shuffle (where $citations "name" "intersect" ($scratch.Get "activepackage")) ) ) }}
           <div class="col-md-4" id="{{ $index }}">
             <div class="case-card">

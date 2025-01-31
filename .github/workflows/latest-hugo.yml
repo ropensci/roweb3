@@ -1,0 +1,21 @@
+# This workflow is not a blocker but to identify issues with upcoming hugo versions
+on:
+  push:
+    branches:
+      - 'main'
+  workflow_dispatch:
+
+name: Test build with latest Hugo
+
+jobs:
+  build:
+    name: Test build with latest hugo
+    runs-on: macOS-latest
+    steps:
+      - name: Install latest hugo
+        run: brew install hugo || true
+
+      - uses: actions/checkout@v4
+
+      - name: Build the website
+        run: hugo --minify --buildFuture

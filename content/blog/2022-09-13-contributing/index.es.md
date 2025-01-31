@@ -64,7 +64,7 @@ Tenemos varios canales para que nuestra información te llegue directamente. ¿T
 
 * [Boletín de noticias](/news/): todos los meses recibirás en tu bandeja de entrada noticias sobre los paquetes R, publicaciones en el blog, consejos y trucos, eventos y casos de uso. Suscríbate a través de RSS (XML), JSON feed, o correo electrónico.
 
-* _Redes sociales_: sigue las actividades de nuestra organización en [Twitter](https://twitter.com/rOpenSci), y [Vimeo](https://vimeo.com/ropensci).
+* _Redes sociales_: sigue las actividades de nuestra organización en [Mastodon](https://hachyderm.io/@rOpenSci), [LinkedIn](https://www.linkedin.com/company/ropensci/) y [Vimeo](https://vimeo.com/ropensci).
 
 
 ## Utilice y contribuya a nuestra infraestructura
@@ -75,7 +75,7 @@ Tenemos varios canales para que nuestra información te llegue directamente. ¿T
 
 * [Revisión de software por pares](/software-review/): los paquetes realizados por la comunidad se someten a un proceso de revisión transparente, constructivo, no adversario y abierto.
 
-* [Revisión por pares de software estádistico](/stat-software-review/): hemos ampliado nuestro sistema de revisión por pares para incluir paquetes que implementan algoritmos estadísticos.
+* [Revisión por pares de software estádistico](/software-review/): hemos ampliado nuestro sistema de revisión por pares para incluir paquetes que implementan algoritmos estadísticos.
 
 * [Publicación multilingüe](/blog/2021/12/20/inclusive-leadership-program/): estamos ampliando la documentación de nuestro proceso de revisión más allá del idioma inglés.
 

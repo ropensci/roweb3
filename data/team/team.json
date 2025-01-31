@@ -1,14 +1,29 @@
-[{
-   "name": "Karthik Ram",
-   "url": "/author/karthik-ram",
-   "image" : "/img/team/karthik-ram.png",
-   "affiliation": "Executive Director",
+[
+{
+   "name": "Noam Ross",
+   "url": "https://www.noamross.net/",
+   "image" : "/img/team/noam_ross.png",
+   "affiliation" : "Executive Director",
    "roles": [
-      "co-founder",
-      "staff",
+      "Software Review Lead",
       "editor"
    ],
    "generalreview": true,
+   "mastodon": "https://ecoevo.social/@noamross",
+   "linkedin": "https://www.linkedin.com/in/noamross",
+   "github": "noamross",
+   "bluesky": "noamross.net",
+   "home": "/author/noam-ross"
+},   
+{
+   "name": "Karthik Ram",
+   "url": "/author/karthik-ram",
+   "image" : "/img/team/karthik-ram.png",
+   "affiliation": "Advisor",
+   "roles": [
+      "co-founder",
+      "strategic advisor"
+   ],
    "twitter": "_inundata",
    "mastodon": "https://mastodon.social/@inundata",
    "linkedin": "https://www.linkedin.com/in/karthik-ram-93334954",
@@ -23,7 +38,8 @@
    "past_roles": [
       "staff", "cofounder", "editor", "developer"
    ],
-  "alumnus": true,
+   "alumnus": true,
+   "generalreview": true,
    "twitter": "sckottie",
    "github": "sckott",
    "home": "/author/scott-chamberlain/"
@@ -78,9 +94,12 @@
    "roles": [
       "staff",
       "researcher",
-      "developer"
+      "developer",
+      "editor"
    ],
+   "stats": true,
    "mastodon": "https://nerdculture.de/@mpadge",
+   "bluesky": "mpadge.bsky.social",
    "github": "mpadge",
    "home": "/author/mark-padgham"
 },
@@ -98,22 +117,8 @@
    "generalreview": true,
    "mastodon": "https://mastodon.social/@maelle",
    "github": "maelle",
-   "home": "/author/maëlle-salmon"
-},
-{
-   "name": "Noam Ross",
-   "url": "https://www.noamross.net/",
-   "image" : "/img/team/noam_ross.png",
-   "affiliation" : "Software Review Lead",
-   "roles": [
-      "strategic advisor",
-      "editor"
-   ],
-   "generalreview": true,
-   "mastodon": "https://ecoevo.social/@noamross",
-   "linkedin": "https://www.linkedin.com/in/noamross",
-   "github": "noamross",
-   "home": "/author/noam-ross"
+   "home": "/author/maëlle-salmon",
+   "bluesky": "maellesalmon.bsky.social"
 },
 {
    "name": "Steffi LaZerte",
@@ -134,9 +139,10 @@
    "name": "Stacey Dorton",
    "affiliation": "Administrative Manager",
    "image" : "/img/team/stacey.jpg",
-   "roles": [
+   "past_roles": [
       "staff"
-   ]
+   ],
+ "alumnus": true  
 },
 {
    "name": "Carl Boettiger",
@@ -197,6 +203,7 @@
    "past_roles": [
       "editor"
    ],
+   "generalreview": true,
    "alumnus": true
 },
 {
@@ -210,6 +217,7 @@
    "twitter": "gbwanderson",
    "github": "geanders",
    "home": "http://csu-cvmbs.colostate.edu/academics/erhs/Pages/brooke-anderson.aspx",
+   "generalreview": true,
    "alumnus": true
 },
 {
@@ -220,6 +228,7 @@
    "past_roles": [
       "editor"
    ],
+   "generalreview": true,
    "alumnus": true,
    "twitter": "melvidoni",
    "mastodon": "https://mastodon.social/@drmelvidoni",
@@ -228,16 +237,16 @@
 },
 {
    "name": "Mauro Lepore",
-   "url": "https://maurolepore.github.io/",
+   "url": "https://github.com/maurolepore/",
    "image" : "/img/team/mauro-lepore.jpg",
-   "affiliation" : "2 Degrees Investing Initiative",
+   "affiliation" : "Theia Finance Labs",
    "roles": [
       "editor"
    ],
    "generalreview": true,
-   "twitter": "mauro_lepore",
+   "LinkedIn": "https://www.linkedin.com/in/mauro-lepore/",
    "github": "maurolepore",
-   "home": "https://maurolepore.github.io/"
+   "home": "https://github.com/maurolepore/"
 },
 {
    "name": "Laura DeCicco",
@@ -255,11 +264,11 @@
    "name": "Julia Gustavsen",
    "url": "https://www.juliagustavsen.com/",
    "image" : "/img/team/julia-gustavsen.jpg",
-
    "affiliation" : "Agroscope",
    "roles": [
       "editor"
    ],
+   "generalreview": true,
    "twitter": "JuliaGustavsen",
    "github": "jooolia",
    "home": "https://www.juliagustavsen.com/"
@@ -268,7 +277,6 @@
    "name": "Emily Riederer",
    "url": "https://emilyriederer.netlify.com/",
    "image" : "/img/team/emily-riederer.jpg",
-
    "affiliation" : "Capital One",
    "roles": [
       "editor"
@@ -282,23 +290,21 @@
    "name": "Adam Sparks",
    "url": "https://adamhsparks.netlify.app/",
    "image" : "/img/team/adam-sparks.jpg",
-
-   "affiliation" : "Department of Primary Industries and Regional Development",
+   "affiliation" : "Curtin University",
    "roles": [
       "editor"
    ],
    "generalreview": true,
    "stats": true,
    "linkedin": "https://linkedin.com/in/adam-h-sparks",
-   "mastodon": "https://fosstodon.org/@adamhsparks",
+   "mastodon": "https://rstats.me/@adamhsparks",
    "github": "adamhsparks",
-   "home": "https://adamhsparks.com/"
+   "home": "https://adamhsparks.netlify.app/"
 }, 
 {
    "name": "Jeff Hollister",
    "url": "https://jwhollister.com/",
    "image" : "/img/team/jeff-hollister.jpg",
-
    "affiliation" : "US Environmental Protection Agency",
    "roles": [
       "editor"
@@ -321,6 +327,15 @@
    "alumnus": true,
    "twitter": "bolkerb",
    "home": "https://ms.mcmaster.ca/~bolker/"
+},
+{
+   "name": "Ted Hart",
+   "image": "/img/team/ted_hart.jpg",
+   "affiliation": "-",
+   "past_roles": [
+      "former core team member"
+   ],
+   "alumnus": true
 },
 {
    "name": "Rebecca Killick",
@@ -353,11 +368,12 @@
    "affiliation": "King Abdullah University of Science and Technology",
    "url": "https://www.paulamoraga.com/",
    "image": "/img/team/paula-moraga.jpg",
-   "roles": [
+   "past_roles": [
       "stat peer-review advisor",
       "editor"
    ],
    "stats": true,
+   "alumnus": true,
    "twitter": "Paula_Moraga_",
    "home": "http://www.paulamoraga.com/"
 },
@@ -421,9 +437,9 @@
    "roles": [
       "editor"
    ],
+   "stats": true,
    "twitter": "statsgen",
-   "home": "https://emitanaka.org/",
-   "stats": true
+   "home": "https://emitanaka.org/"
 },
 {
    "name": "Jouni Helske",
@@ -433,9 +449,32 @@
    "roles": [
       "editor"
    ],
+   "stats": true,
    "twitter": "jouni_helske",
-   "home": "https://jounihelske.netlify.app/",
-   "stats": true
+   "home": "https://jounihelske.netlify.app/"
+},
+{
+   "name": "Beatriz Milz",
+   "affiliation": "",
+   "url": "https://beamilz.com/",
+   "image": "/img/team/beatriz-milz.jpeg",
+   "roles": [
+      "editor"
+   ],
+   "generalreview": true,
+   "github": "beatrizmilz",
+   "home": "https://beamilz.com/"
+},
+{
+   "name": "Margaret Siple",
+   "affiliation": "NOAA AFSC Groundfish Assessment Program - RACE division",
+   "url": "https://github.com/MargaretSiple-NOAA",
+   "image": "/img/team/margaret-siple.jpg",
+   "roles": [
+      "editor"
+   ],
+   "generalreview": true,
+   "home": "https://github.com/MargaretSiple-NOAA"
 },
 {
    "name": "Kelly Hondula",

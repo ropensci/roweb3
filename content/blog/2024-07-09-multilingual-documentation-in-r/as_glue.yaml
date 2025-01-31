@@ -1,0 +1,41 @@
+title:
+  original: Coerce object to glue
+  translation: Convertir un objeto a glue
+arguments:
+  x:
+    original: object to be coerced.
+    translation: objeto a convertir.
+  '...':
+    original: further arguments passed to methods.
+    translation: otros argumentos que se pasan a los métodos.
+value:
+  original: |
+    A character vector with S3 class \code{"glue"}.
+  translation: |
+    Vector de caracter con la clase S3 \code{"glue"}.
+description:
+  original: |
+    A glue object is a character vector with S3 class \code{"glue"}. The \code{"glue"}
+    class implements a print method that shows the literal contents (rather than
+    the string implementation) and a \code{+} method, so that you can concatenate with
+    the addition operator.
+  translation: |
+    Un objeto glue es un vector de caracteres con la clase S3 \code{"glue"}. 
+    La clase \code{"glue"} implementa un método de impresión que muestra los contenidos
+    literales (en vez de la implementación como cadena de caracteres) y un método \code{+} 
+    para que puedas concatenar usando el operador de sumatoria.
+examples:
+  original: |
+    x <- as_glue(c("abc", "\"\\\\", "\n"))
+    x
+
+    x <- 1
+    y <- 3
+    glue("x + y") + " = {x + y}"
+  translation: ~
+untranslatable:
+- alias
+- name
+- keyword
+- concept
+- usage

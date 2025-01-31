@@ -1,6 +1,6 @@
 {{ define "main" }}
-{{ $registry := getJSON .Site.Params.registry }}
-{{ $citations := getJSON .Site.Params.citations }}
+{{ $registry := (resources.GetRemote .Site.Params.registry) | unmarshal }}
+{{ $citations := (resources.GetRemote .Site.Params.citations) | unmarshal }}
 {{ $Scratch := newScratch }}
 <section class="section section-category">
   <div class="container bg-cubes">

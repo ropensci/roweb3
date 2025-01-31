@@ -1,5 +1,6 @@
 ---
 title: 'How to contribute to base R (champions training)'
+training: true
 dateStart: '2023-05-18T17:00:00'
 dateEnd: '2023-05-18T17:00:00'
 date: 2023-05-18T17:00:00 # UTC!! same as dateEnd
