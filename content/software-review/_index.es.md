@@ -4,8 +4,8 @@ description = "Sistema abierto de revisión por pares de paquetes R de rOpenSci"
  tags = ["revision-software"]
 +++
 
-El programa Software Peer Review de rOpenSci reúne a científicos e ingenieros de software para mejorar la calidad,
-fiabilidad y mantenimiento de los paquetes científicos de R a través de una **proceso de revisión transparente, constructivo, no contradictorio y abierto**. Reunimos los mejores aspectos de la revisión científica por pares y de la revisión de código abierto: reclutamiento de desarrolladores y usuarios expertos para que aporten sus comentarios, cuidadosa moderación y tutoría para proporcionar un entorno productivo e inclusivo, diagnósticos de código basados en la profunda experiencia de rOpenSci en el lenguaje R, interacciones apoyadas por chatbot y automatización en plataformas abiertas para una experiencia fluida.
+El programa Software Peer Review de rOpenSci reúne a científicos e ingenieras de software para mejorar la calidad,
+fiabilidad y mantenimiento de los paquetes científicos de R a través de una **proceso de revisión transparente, constructivo, amigable y abierto**. Reunimos los mejores aspectos de la revisión científica por pares y de la revisión de código abierto: reclutamos personas expertas que desarrollan y usan software científico para que aporten sus comentarios, cuidadosa moderación y tutoría para proporcionar un entorno productivo e inclusivo, diagnósticos de código basados en la profunda experiencia de rOpenSci en el lenguaje R, interacciones apoyadas por chatbot y automatización en plataformas abiertas para una experiencia fluida.
 
 Juntos, utilizamos el proceso de revisión por pares para curar un [conjunto de paquetes de alta calidad](/packages/)
 y una comunidad de desarrolladores y usuarios para apoyar el desarrollo y mantenimiento a largo plazo del software científico.
