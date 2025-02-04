@@ -15,31 +15,31 @@
 },
 {
    "title": "Voluntariado",
-   "text": "Volunteering form for reviewers",
+   "text": "Formulario para proponerse para revisar para rOpenSci",
    "url": "https://airtable.com/shrnfDI2S9uuyxtDw"
 },
 {
-   "title": "Context for statistical software review",
-   "text": "Blog post introducing statistical software review",
+   "title": "Contexto de la revisión de software estadístico",
+   "text": "Blog de introducción a la revisión de software estadístico",
    "url": "/blog/2019/07/15/expanding-software-review/"
 },
 {
-   "title": "Context for software review",
+   "title": "Contexto de la revisión de software",
    "text": "Blog post introducing software review",
    "url": "https://www.numfocus.org/blog/how-ropensci-uses-code-review-to-promote-reproducible-science/"
 },
 {
-   "title": "Discussions of software review",
-   "text": "A repository for 'meta' discussions of the standards and processes of software peer review",
+   "title": "Debates sobre la revisión de software",
+   "text": "Un repositorio de debates «meta» sobre las normas y los procesos de revisión por pares de software.",
    "url": "https://github.com/ropensci/software-review-meta/issues"
 },
 {
-   "title": "Discussion of our statistical standards and process",
-   "text": "Threads on rOpenSci's discussion forum relating to the project",
+   "title": "Debate sobre nuestras normas y procesos estadísticos",
+   "text": "Temas del foro de debate de rOpenSci relacionados con el proyecto",
    "url": "https://discuss.ropensci.org/c/statistical-software-peer-review/28"
 },
 {
-   "title": "Blog posts",
-   "text": "Blog posts related to software review",
+   "title": "Artículos de Blog",
+   "text": "Artículos relacionados con la revisión de software",
    "url": "/tags/software-peer-review/"
 }]
