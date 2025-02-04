@@ -1,6 +1,6 @@
 [{
-   "title": "Submit a package",
-   "text": "Or read previous and current reviews",
+   "title": "Envía un paquete",
+   "text": "O lea las revisiones anteriores y actuales",
    "url": "https://github.com/ropensci/software-review"
 },
 {
@@ -9,12 +9,12 @@
    "url": "https://devguide.ropensci.org/es/index.es.html"
 },
 {
-   "title": "Stats dev guide",
-   "text": "rOpenSci Statistical Software Peer Review",
+   "title": "Guía de desarrollo de software estadístico",
+   "text": "Revisión por pares de software estadístico de rOpenSci",
    "url": "https://stats-devguide.ropensci.org"
 },
 {
-   "title": "Volunteer",
+   "title": "Voluntariado",
    "text": "Volunteering form for reviewers",
    "url": "https://airtable.com/shrnfDI2S9uuyxtDw"
 },
