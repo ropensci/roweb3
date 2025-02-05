@@ -246,7 +246,8 @@ Note that main.min.css that contains all the CSS is stored under themes/ropensci
     * replicate a past campaign (choose "Arial" as font not "Arial Black"!), 
     * change its name, 
     * change its subject 
-    * change its pre-header (use the YAML field "description"). 
+    * change its pre-header (use the YAML field "description")
+    * replace its content with the contents from your clipboard (after running `roblog::create_newsletter_content()`)
     * Send test email.
     * After checking it send to all recipients.
 * Toot about the newsletter from rOpenSci account, highlighting some numbers.

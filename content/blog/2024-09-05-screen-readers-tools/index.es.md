@@ -7,7 +7,7 @@ date: '2024-09-05'
 tags:
 - notas técnicas
 - lectores de pantalla
-- programa de campeones
+- campeones
 - comunidad
 - accesibilidad
 description: Herramientas y recursos para utilizar R con lectores de pantalla.

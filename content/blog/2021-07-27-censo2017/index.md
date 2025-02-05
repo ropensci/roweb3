@@ -1,7 +1,7 @@
 ---
 title: 'The Story Behind censo2017, the First rOpenSci Package to be Reviewed in Spanish'
 author:
-  - Pachá (aka Mauricio Vargas Sepúlveda)
+  - Mauricio Vargas Sepúlveda
 date: '2021-07-27'
 version: 0.5
 slug: censo2017

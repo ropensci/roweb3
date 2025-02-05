@@ -1,8 +1,10 @@
 ---
-title: Data Extraction
-description: Convert and Munge Data
+title: Extracción de datos
+description: Convertir y combinar datos
 slug: data-extraction
 outputs:
 - JSON
 - HTML
 ---
+
+

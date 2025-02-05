@@ -9,7 +9,7 @@ tags:
   - principiante
   - bienvenidad
   - diversidad
-  - campiones
+  - campeones
 feature: true  
 description: "¡Estamos muy felices de realizar el lanzamiento nuestro programa de Campeones y Campeonas!" 
 ---

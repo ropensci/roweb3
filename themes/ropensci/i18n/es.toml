@@ -4,6 +4,9 @@
 [By]
   other = 'Por'
 
+[With]
+  other = 'Con'
+
 [Edited-by]
   other = 'Editado por'
   
@@ -54,3 +57,199 @@
   
 [Tech-Notes]
   other = 'Notas técnicas'
+  
+[Our-Next-Sessions]
+  other = 'Próximas sesiones'
+  
+[Our-Next-Session]
+  other = 'Próxima sesión'
+  
+[To-be-announced]
+  other = 'Se anunciará más adelante'
+  
+[Past-Sessions]
+  other = 'Sesiones pasadas'
+  
+[Speakers]
+  other = 'Disertantes'
+  
+[Resources]
+  other = 'Recursos'
+  
+[Collaborative-notes]
+  other = 'Notas colaborativas'
+  
+[Code-of-Conduct]
+  other = 'Código de Conducta'
+  
+[We-are-hiring]
+  other = 'Estamos contratando!'
+  
+[Careers]
+  other = 'Carreras'
+[Name]
+  other = 'Nombre'
+  
+[Enter-your-name]
+  other = 'Introduce tu nombre'
+  
+[Email-address]
+  other = 'Dirección de correo electrónico'
+  
+[Enter-your-email]
+  other = 'Introduce tu dirección de correo electrónico'
+  
+[Enter-a-valid-email-address]
+  other = 'Introduce una direccion de correo electrónico corecta'
+  
+[Message]
+  other = 'Mensaje'
+  
+[Enter-your-message]
+  other = 'Introduce tu mensaje'
+  
+[Send-message]
+  other = 'Envia tu mensaje'
+  
+[Contact]
+  other = 'Contacto'
+  
+[Our-External-Advisors]
+  other = 'Equipo Asesor Externo'
+  
+[Our-Alumni]
+  other = 'Alumni'
+  
+[Our-Research-Fellows]
+  other = 'Becas de Investigación'
+  
+[executive-director]
+  other = 'Director·a Ejecutivo·a'
+  
+[strategic-advisor]
+  other = 'Asesor·a estratégico'
+  
+[advisor]
+  other = 'Asesor·a'
+  
+[lead-infrastructure-engineer]
+  other = 'Ingeniero·a en Jefe de Infraestructuras'
+  
+[community-manager]
+  other = 'Coordinador·a de Comunidad'
+  
+[software-research-scientist]
+  other = 'Investigador·a de Software Científico'
+
+[research-software-engineer]
+  other = 'Ingenier(o|a) de Software de Investigación'  
+
+[community-assistant]
+  other = 'Asistente de la Comunidad'
+
+[editor]
+  other = 'Editor·a'
+
+[Software-Review-Lead]
+  other = 'Líder de Revisión de Software'
+  
+[co-funder]
+  other = 'Co-fundador'
+
+[staff]
+  other = 'Equipo'
+  
+[researcher]
+  other = 'Investigador·a'
+
+[developer]
+  other = 'Desarrollador·a'
+
+[stat-peer-review-advisor]
+  other = 'Asesor·a de Revisión por Pares de Software Estadístico'
+  
+[former-core-team-member]  
+  other = 'Ex-integrante del equipo'
+  
+[About]  
+  other = 'Acerca'
+  
+[Donate]  
+  other = 'Donar'
+  
+[check-money]
+  other = 'Los cheques también pueden hacerse a nombre de NumFOCUS, solo asegúrate de añadir rOpenSci en la línea de memo.'
+
+[Community-calls]  
+  other = 'Conversaciones con la comunidad'
+  
+[Coworking]  
+  other = 'Sesiones de trabajo'
+  
+[Coworking-pic]
+  other = 'Con el trabajo llegan los descansos. Así que hacemos un corte de descanso con una mini búsqueda del tesoro.'
+  
+[Help-Wanted]
+  other = 'Se busca ayuda'
+  
+[Team]
+  other = 'Equipo'
+[Packages]
+  other = 'Paquetes'
+  
+[View-all-packages]
+  other = 'Ver todos los paquetes'
+  
+[Champions]
+  other = 'Campeon(a|e)s'
+  
+[Mentors]
+  other = 'Mentor(e|a)s'
+  
+[Category]
+  other = 'Categoría'
+
+[Submit-A-Package]
+  other = 'Enviar Software'
+  
+[All]
+  other = 'Todos'
+
+[Use-Cases]
+  other = 'Casos de uso'
+
+[Citations]
+  other = 'Citas'
+
+[Community]
+  other = 'Comunidad'
+
+[Contributing-Guide]
+  other = 'Guía de contribución'
+
+[Forum]
+  other = 'Foro'
+
+[Events]
+  other = 'Eventos'
+  
+[Talks-Publications]
+  other = 'Charlas & Publicaciones'
+  
+[Package-Docs]
+  other = 'Documentación de Paquetes'
+  
+[Search]
+  other = 'Busca'
+  
+[Training]
+  other = 'Capacitación'
+  
+[Our-Editorial-Team]
+  other = 'Nuestro equipo editorial'
+  
+[Our-editorial-board-members-are-volunteers]
+  other = 'Nuestro consejo editorial esta compuesto por personas voluntarias.'
+  
+[Former-editors-and-advisory-board ]
+  other = 'Ex editores y consejo asesor'
