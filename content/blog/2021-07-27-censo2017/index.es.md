@@ -2,7 +2,7 @@
 title: 'La Historia de censo2017, el Primer Paquete de rOpenSci Revisado en
   Español'
 author:
-  - Pachá (aka Mauricio Vargas Sepúlveda)
+  - Mauricio Vargas Sepúlveda
 date: '2021-07-27'
 version: 0.5
 slug: censo2017-es
