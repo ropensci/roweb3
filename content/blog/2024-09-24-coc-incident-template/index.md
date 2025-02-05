@@ -1,6 +1,6 @@
 ---
 slug: coc-incident-template
-title: Template To Handel Code of Conduct Incidents Reports
+title: Template To Handle Code of Conduct Incidents Reports
 author:
   - Natalia Morandeira
   - Yanina Bellini Saibene
@@ -13,17 +13,18 @@ tags:
 description: ""
 ---
 
-Handling reported incidents related to a Code of Conduct (CoC) is a complex and delicate task. Manage timely and with care is crucial for maintaining a healthy and inclusive community.
+Handling reported incidents related to a Code of Conduct (CoC) is a complex and delicate task. Managing timely and with care is crucial for maintaining a healthy and inclusive community.
 
-To assist with this process, we’ve developed a template, based on the work of the [useR! 2021 CoC Team](), designed specifically to analyze [rOpenSci's CoC]() incident reports. This template aims to provide a structured approach for assessing and addressing reports, ensuring that each report is reviewed with consistency.
+To assist with this process, we’ve developed a template, based on the work of the [useR! 2021 CoC Team](https://rconf.gitlab.io/userknowledgebase/main/code-of-conduct-response-team-documents.html), designed specifically to analyze [rOpenSci's CoC](https://ropensci.org/code-of-conduct/) incident reports. This template aims to provide a structured approach for assessing and addressing reports, ensuring that each report is reviewed with consistency.
 
-In this post, walk through the key components of the template and how it can support teams in managing CoC incidents effectively.
+In this post, we walk through the key components of the template and how it can support teams in managing CoC incidents effectively.
+It must be noted that filing the template is a private, confidential, and internal action of the CoC team. The information on the template is not shared with other rOpenSci members nor is published. Annual transparency reports to be shared with the community may include **anonymized** descriptions of the reported incidents and the actions that had been taken.
 
 ## The Template
 
 -   **Report ID**: a code to identify each report uniquely.
 
--   **Date and time of the report**: to track the time to response to comply with our process. For example, we our policy is to send an acknowledgment email within 24 hours of receiving a report.
+-   **Date and time of the report**: to track the time to response in order to comply with our process. For example, our policy is to send a first acknowledgment email within 24 hours of receiving a report.
 
 -   **Medium use to report**: form, direct message, email, phone, personal conversation.
 
@@ -51,7 +52,7 @@ In this post, walk through the key components of the template and how it can sup
 
 -   **First person in CoC team**:
 
--   **Small CoC team**:
+-   **Small CoC team**: the team that is handling the report, which may be smaller than the CoC team.
 
 -   **Incident - brief description**: (anonymize for the final version)
 
@@ -99,13 +100,13 @@ In this post, walk through the key components of the template and how it can sup
 
         -   criticizing racist, sexist, cissexist, or otherwise oppressive behavior or assumptions
 
-* **Response:** this explain the incident, the decision made by the CoC committee and the reason of that decision.
+* **Response:** this section explains the incident, the decision made by the CoC committee, and the reason for that decision.
 
 * **Actions to implement the response**: detail of the actions to take by the CoC committee and other teams of the organization as a response.  
 
-* **Inform the reporter**: date, time and text for the communication of the response. Meeting.
+* **Inform the reporter**: date, time and text for the communication of the response. 
 
-* **Inform the reported person**: date, time and text for the communication of the response. Meeting. 
+* **Inform the reported person**: If necessary: date, time, and text for the communication of the response. Note that the decision may involve taking no action, so communication with the reported person is not mandatory. 
 
 * **Public Statement:** this is the text for the transparency report where we communicate the response to others in an anonymized description.
 
