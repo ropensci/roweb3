@@ -7,7 +7,7 @@ author:
 featured: true
 date: '2025-02-05'
 tags:
-- community
+- comunidad
 description: Incluir a toda la humanidad está y estará siempre en el corazón de la
   ciencia abierta.
 ---
