@@ -52,6 +52,7 @@ It must be noted that filing the template is a private, confidential, and intern
 
 -   **First person in CoC team**:
 
+- **Conflict of interest**: check if any member of the CoC team may have a conflict of interest. In that case, the recused person will be excluded from the process, and the independent community member is allowed to ask for the assistance of an extra independent person (preferring people with experience in CoC teams of other communities).
 -   **Small CoC team**: the team that is handling the report, which may be smaller than the CoC team.
 
 -   **Incident - brief description**: (anonymize for the final version)
