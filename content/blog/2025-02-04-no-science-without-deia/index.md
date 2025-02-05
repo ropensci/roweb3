@@ -4,7 +4,7 @@ title: Open Science and Open Source only with Diversity, Equity, Inclusion, and 
 author:
   - The rOpenSci Team
 featured: true
-date: '2024-02-04'
+date: '2024-02-05'
 tags:
   - community
 description: "Including all of humanity is and always will be at the heart of open science."
