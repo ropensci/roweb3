@@ -12,9 +12,9 @@ author:
 organizer: 
   - Yanina Bellini Saibene
   - Alejandra Bellini
-location: Community call (teleconference)
+location: Conversacion con la comunidad (teleconferencia)
 country: "\U0001F310"
-attendees: 
+attendees: Todas las personas son bienvenidas
 slug: champions-latino-2025
 notes: 
 outputs:
@@ -53,6 +53,5 @@ zoomurl: https://numfocus-org.zoom.us/j/84705882431?pwd=u6ncyCVM3YzJOBn97JZQYav0
 ---
 
 
-This event is supported by CZI grant.
 
-See below for speaker bios and resources.
+Consulta a continuación las biografías de las personas que exponen y los recursos del evento.
