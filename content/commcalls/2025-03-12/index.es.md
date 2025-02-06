@@ -52,8 +52,8 @@ deets: |
 zoomurl: https://numfocus-org.zoom.us/j/84705882431?pwd=u6ncyCVM3YzJOBn97JZQYav0rCAMww.1
 ---
 
-Los programas campeones o embajadorea están diseñados para identificar, reconocer y recompensar a aquellas personas líderes emergentes de una comunidad. El Programa de rOpenSci forma parte de una serie de actividades y proyectos que estamos llevando a cabo para fomentar la ciencia abierta en América Latina con foco en el desarrollo sostenible de software de investigación.
+Los programas campeones o embajadores están diseñados para identificar, reconocer y recompensar a aquellas personas líderes emergentes de una comunidad. El Programa de rOpenSci forma parte de una serie de actividades y proyectos que estamos llevando a cabo para fomentar la ciencia abierta en América Latina con foco en el desarrollo sostenible de software de investigación.
 
-Venite a conversar con _Andrea Gomez Vargas_, _Cesar Luis Aybar Camacho_ y _Francisco Cardozo_ sobre su experiencia como mentores y campeon(e|a)s de rOpenSci. Destacaremos los beneficios de formar parte del programa para ti y para tu comunidad, qué tipo de aprendizaje, actividades y oportunidades ofrece un programa de una comunidad de código abierto y ciencia abierta. Yani estara presente para contestar a todas sus preguntas sobre nuestro programa.
+Venite a conversar con _Andrea Gomez Vargas_, _Cesar Luis Aybar Camacho_ y _Francisco Cardozo_ sobre su experiencia como campeon(e|a)s y mentores de rOpenSci. Destacaremos los beneficios de formar parte del programa para ti y para tu comunidad, qué tipo de aprendizaje, actividades y oportunidades ofrece un programa de una comunidad de código abierto y ciencia abierta. Yani estara presente para contestar a todas sus preguntas sobre nuestro programa.
 
 Consulta a continuación las biografías de las personas que exponen y los recursos del evento.
