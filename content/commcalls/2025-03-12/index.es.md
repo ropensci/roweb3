@@ -36,13 +36,13 @@ outputs:
 speakers:  
   - name: "Andrea Gomez Vargas"
     bio: ""
-    img: /img/team/sunny-tseng.jpg
+    img: /img/team/andrea-vargas.png
   - name: "Cesar Luis Aybar Camacho"
     bio: ""
-    img: /img/community/pascal-burkhard.png   
+    img: /img/team/cesar-luis-aybar-camacho-mentee.jpeg  
   - name: "Francisco Cardozo"
     bio: ""
-    img: /img/community/yaoxiang-li.jpg
+    img: /img/team/francisco-cardozo.jpg
 tags:
   - community call
   - events
