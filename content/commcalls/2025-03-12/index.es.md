@@ -48,8 +48,8 @@ tags:
   - community call
   - events
 deets: |
-    Meeting ID: 84705882431
-    Passcode: 261721
+    ID de la reunión: 84705882431
+    Código de acceso: 261721
 zoomurl: https://numfocus-org.zoom.us/j/84705882431?pwd=u6ncyCVM3YzJOBn97JZQYav0rCAMww.1
 ---
 
