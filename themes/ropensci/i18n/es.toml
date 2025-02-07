@@ -259,3 +259,21 @@
 
 [Add-to-Calendar]
   other = 'Añadir al Calendario'
+
+[Join-the-event]
+  other = 'Unirse al evento'
+  
+[no-rsvp]
+  other = 'Todas las personas son bienvenidas. No se necesita registro.'
+
+[zoom-test]
+  other = 'Chequea la configuración de tu Zoom'
+  
+[zoom-phone]
+  other = 'Encuentra tu número local para unirte por teléfono:'
+  
+[meeting-join]
+  other = 'Unete a la reunión:'
+  
+[How]
+  other = 'Cómo'

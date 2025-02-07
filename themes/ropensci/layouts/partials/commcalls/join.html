@@ -16,12 +16,12 @@ Everyone is welcome. No RSVP needed, simply connect and/or dial in at the time o
 </li>
 {{ if isset .Params "zoomurl" }}
 <li>
-<strong>How</strong>
-    <p>Everyone is welcome. No RSVP needed.</p>
-    <p>Test your Zoom setup <a href ="https://zoom.us/test">https://zoom.us/test</a>.</p>
-    <p>Join the meeting: <a href="{{ .Params.zoomurl }}">{{ .Params.zoomurl }}</a></p>
+<strong>{{ i18n "How" }}</strong>
+    <p>{{ i18n "no-rsvp" }}</p>
+    <p>{{ i18n "zoom-test" }} <a href ="https://zoom.us/test">https://zoom.us/test</a>.</p>
+    <p>{{ i18n "meeting-join" }} <a href="{{ .Params.zoomurl }}">{{ .Params.zoomurl }}</a></p>
     {{ .Params.deets | markdownify }}
-    <p>Find your local number to join by phone: <a href="https://zoom.us/u/adAyZGMYrE">https://zoom.us/u/adAyZGMYrE</a></p>
+    <p>{{ i18n "zoom-phone" }} <a href="https://zoom.us/u/adAyZGMYrE">https://zoom.us/u/adAyZGMYrE</a></p>
 </li>
 {{ else }}
 {{ if isset .Params "zoomurl" }}
