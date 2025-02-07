@@ -12,7 +12,7 @@ Everyone is welcome. No RSVP needed, simply connect and/or dial in at the time o
 <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso={{ .Params.dateStart}}&ah={{ sub (time .Params.dateEnd).Hour (time .Params.dateStart).Hour }}&msg={{ .Title }} (rOpenSci Comm Call)" target="_blank">Find your timezone</a>
 </li>
 <li>
-<a href="{{ .Permalink}}/index.ics">Add to Calendar.</a>
+<a href="{{ .Permalink}}/index.ics">{{ i18n "Add-to-Calendar" }}.</a>
 </li>
 {{ if isset .Params "zoomurl" }}
 <li>

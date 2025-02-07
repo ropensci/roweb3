@@ -247,5 +247,11 @@
 [Our-editorial-board-members-are-volunteers]
   other = 'Our editorial board members are volunteers.'
   
-[Former-editors-and-advisory-board ]
+[Former-editors-and-advisory-board]
   other = 'Former editors and advisory board'
+  
+[and]
+  other = ' and '
+
+[Add-to-Calendar]
+  other = 'Add to Calendar'

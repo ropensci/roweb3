@@ -251,5 +251,11 @@
 [Our-editorial-board-members-are-volunteers]
   other = 'Nuestro consejo editorial esta compuesto por personas voluntarias.'
   
-[Former-editors-and-advisory-board ]
+[Former-editors-and-advisory-board]
   other = 'Ex editores y consejo asesor'
+  
+[and]
+  other = ' y '
+
+[Add-to-Calendar]
+  other = 'Añadir al Calendario'
