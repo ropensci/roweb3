@@ -16,6 +16,7 @@ location: Conversacion con la comunidad (teleconferencia)
 country: "\U0001F310"
 attendees: Todas las personas son bienvenidas
 slug: champions-latino-2025
+featured: true
 notes: 
 outputs:
 - HTML
