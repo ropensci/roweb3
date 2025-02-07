@@ -1,6 +1,7 @@
 {{ $url := "" }}
 {{ $lang := "" }}
 {{ $class := .class | default "" }}
+{{ $fragment := .fragment | default "" }}
 {{ $name := .name }}
 {{ with .Site.GetPage $name }}
   {{ $url = .RelPermalink }}
@@ -16,4 +17,4 @@
 {{ end }}
 {{ end }}
 
-<a lang="{{ $lang }}" href="{{ $url }}" class = "{{ $class }}">
+<a lang="{{ $lang }}" href="{{ $url }}{{ $fragment }}" class = "{{ $class }}">
