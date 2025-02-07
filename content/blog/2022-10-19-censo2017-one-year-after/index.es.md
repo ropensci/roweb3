@@ -9,13 +9,13 @@ categories:
   - blog
 tags:
   - ciencia-abierta
-  - tech notes
+  - notas técnicas
   - investigación reproducible
   - acceso a datos
   - extracción de datos
   - geoespacial
   - comunidad
-  - revista software por pares
+  - Revisión por pares de software
   - censo2017
 description: >
   Tablas del censo chileno al instante.

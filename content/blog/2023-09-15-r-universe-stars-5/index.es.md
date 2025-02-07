@@ -10,10 +10,10 @@ author:
   - Rob Ashton
 date: '2023-09-15'
 tags:
-  - community
+  - comunidad
   - r-universe
-  - interviews
-  - r-universe-stars
+  - entrevistas
+  - estrellas del universo r
 featured: true
 # The summary below will be used by e.g. Twitter cards
 description: "."

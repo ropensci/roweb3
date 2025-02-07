@@ -11,9 +11,9 @@ featured: true
 date: '2024-12-03'
 tags:
 - r-universe
-- grant
-- funding
-- infrastructure
+- subsidio
+- financiamiento
+- infraestructura
 description: Nos complace anunciar que R-Universe ha sido designado como un nuevo proyecto
   de alto nivel del R-Consortium.
 ---

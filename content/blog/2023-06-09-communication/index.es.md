@@ -5,7 +5,7 @@ author:
   - Yanina Bellini Saibene
 date: '2023-06-14'
 tags:
-  - community
+  - comunidad
 featured: true
 # The summary below will be used by e.g. Twitter cards
 description: "Anuncio sobre nuestros canales de comunicación. rOpenSci deja de interactuar en Twitter pero puedes encontrarnos en muchos otros espacios."

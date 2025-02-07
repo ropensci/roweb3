@@ -9,9 +9,9 @@ editor:
 date: '2024-03-11'
 slug: r_open_sci_dev_guide_0_9_0_ahora_multilingüe_y_mejor
 tags:
-- Software Peer Review
-- dev guide
-- multilingual
+- Revisión por pares de software
+- guía de desarrollo
+- multilingüe
 description: 'Actualizaciones en la versión 0.9.0 del libro en línea ''Paquetes rOpenSci:
   Desarrollo, mantenimiento y revisión por pares'''
 twitterImg: img/blog-images/2019-05-16-dev-guide-update/cover.png

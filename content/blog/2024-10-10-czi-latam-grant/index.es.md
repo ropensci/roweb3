@@ -11,7 +11,7 @@ tags:
 - comunidad
 - desarrollo de capacidades
 - campeones
-- multilenguaje
+- multilingüe
 description: "Fomentar el software científico sostenible como pilar de la ciencia abierta
   en América Latina mediante la creación de capacidad y comunidad"
 ---
