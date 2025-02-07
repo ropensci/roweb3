@@ -61,7 +61,7 @@
                 <div class="collapse" id="zoominfo" style="margin-top:1rem;">
   <div class="card card-body">
     {{ with .Params.zoomurl }}
-    <p>Test your Zoom setup <a href ="https://zoom.us/{{.Lang}}/test">https://zoom.us/{{.Lang}}/test</a>.</p>
+    <p>{{ i18n "zoom-test" }} <a href ="https://zoom.us/{{.Lang}}/test">https://zoom.us/{{.Lang}}/test</a>.</p>
     <p>{{ i18n "meeting-join" }} <a href="{{ . }}">{{ . }}</a></p>
     {{ end }}
     <p>{{ .Params.deets | markdownify }}</p>
