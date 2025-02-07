@@ -1,0 +1,45 @@
+[{
+   "title": "Envía un paquete",
+   "text": "O lea las revisiones anteriores y actuales",
+   "url": "https://github.com/ropensci/software-review"
+},
+{
+   "title": "Guía de desarrollo",
+   "text": "Paquetes de rOpenSci: Desarrollo, mantenimiento y revisión por pares",
+   "url": "https://devguide.ropensci.org/es/index.es.html"
+},
+{
+   "title": "Guía de desarrollo de software estadístico",
+   "text": "Revisión por pares de software estadístico de rOpenSci",
+   "url": "https://stats-devguide.ropensci.org"
+},
+{
+   "title": "Voluntariado",
+   "text": "Formulario para proponerse para revisar para rOpenSci",
+   "url": "https://airtable.com/shrnfDI2S9uuyxtDw"
+},
+{
+   "title": "Contexto de la revisión de software estadístico",
+   "text": "Blog de introducción a la revisión de software estadístico",
+   "url": "/blog/2019/07/15/expanding-software-review/"
+},
+{
+   "title": "Contexto de la revisión de software",
+   "text": "Artículo presentando nuestro proceso de revisión de software",
+   "url": "https://www.numfocus.org/blog/how-ropensci-uses-code-review-to-promote-reproducible-science/"
+},
+{
+   "title": "Debates sobre la revisión de software",
+   "text": "Un repositorio de debates «meta» sobre las normas y los procesos de revisión por pares de software.",
+   "url": "https://github.com/ropensci/software-review-meta/issues"
+},
+{
+   "title": "Debate sobre nuestras normas y procesos estadísticos",
+   "text": "Temas del foro de debate de rOpenSci relacionados con el proyecto",
+   "url": "https://discuss.ropensci.org/c/statistical-software-peer-review/28"
+},
+{
+   "title": "Artículos de Blog",
+   "text": "Artículos relacionados con la revisión de software",
+   "url": "/tags/software-peer-review/"
+}]
