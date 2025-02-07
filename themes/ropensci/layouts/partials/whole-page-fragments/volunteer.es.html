@@ -1,0 +1,25 @@
+{{ partial "whole-page-fragments/divider" .divider }}
+
+    <!-- Volunteer section -->
+    <section class="section section-volunteer">
+      <div class="container text-center">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <h2 class="title">Voluntariado en rOpenSci</h2>
+            <p class="subtitle">
+              
+Son bienvenidas las contribuciones con o sin código. Lea nuestra <a href="https://contributing.ropensci.org/">guía de contribuciones</a> para saber cómo hacerlo.
+
+            </p>
+            <ul class="volunteer-img">
+              {{ range .Site.Data.peeps.peeps }}
+              <li><img src="/images/volunteer/{{ .img }}" alt="{{ .alt }}." style="height:auto" /></li>
+              {{ end }}
+            </ul>
+              <p><small>Lydia Hill Illustration. Todos los derechos reservados.</small></p>
+            <a class="link-arrow volunteer-cta" href="/packages"><span>Ver todos los paquetes</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Divider -->

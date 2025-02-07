@@ -18,6 +18,7 @@
       </div>
     </section>
 {{ partial "whole-page-fragments/review"  (dict "divider" "rl" ) }}
-{{ partial "whole-page-fragments/volunteer"  (dict "divider" "lr" "Site" .Site ) }}
+{{ $volunteerpartial := (partial "translate-path" (dict "name" "whole-page-fragments/volunteer" "language" .Site.Language.Lang )) }}
+{{ partial $volunteerpartial  (dict "divider" "lr" "Site" .Site ) }}
 {{ partial "whole-page-fragments/brands" (dict "Site" .Site "divider" "rl" ) }}
 {{ end }}
