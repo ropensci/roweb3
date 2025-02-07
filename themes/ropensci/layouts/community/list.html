@@ -48,7 +48,8 @@
       </div>
     </div>
   </section>
-{{ partial "whole-page-fragments/ask"  (dict "divider" "lr" ) }}
+{{ $askpartial := (partial "translate-path" (dict "name" "whole-page-fragments/ask" "language" .Site.Language.Lang )) }}
+{{ partial $askpartial  (dict "divider" "lr" ) }}
 <img class="divider" src="/images/svg/divider-rl.svg" alt="" />
 {{ partial "calendar/events" (dict "Site" .Site )  }}
 {{ partial "whole-page-fragments/newsletter"  (dict "divider" "lr" ) }}

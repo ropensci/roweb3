@@ -1,7 +1,8 @@
 {{ define "main" }}
 {{ $pages := (where (where ( where .Site.RegularPages.ByDate.Reverse "Section" "events" ) ".Params.resources" "!=" nil)  ".Params.training" "==" true) }}
 {{ partial "talks/talk-table" (dict "Pages" $pages "Title" .Title "Content" .Content) }}
-{{ partial "whole-page-fragments/ask"  (dict "divider" "lr" ) }}
+{{ $askpartial := (partial "translate-path" (dict "name" "whole-page-fragments/ask" "language" .Site.Language.Lang )) }}
+{{ partial $askpartial  (dict "divider" "lr" ) }}
 {{ partial "whole-page-fragments/newsletter"  (dict "divider" "rl" ) }}
 {{ $brandpartial := (partial "translate-path" (dict "name" "whole-page-fragments/brands" "language" .Site.Language.Lang )) }}
 {{ partial $brandpartial (dict "Site" .Site "divider" "lr" )  }}
