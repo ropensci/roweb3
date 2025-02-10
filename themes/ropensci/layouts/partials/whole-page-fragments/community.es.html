@@ -11,7 +11,7 @@
               contribuir con tus paquetes, recursos o plantear preguntas para que las personas que participan en nuestra comunidad te ayuden
               a lo largo de tu proceso.
             </p>
-            >{{ partial "translate-url" (dict "name" "community" "Site" .Site  "class" "link-arrow")}}<span>Nuestra comunidad</span></a>
+            {{ partial "translate-url" (dict "name" "community" "Site" .Site  "class" "link-arrow")}}<span>Nuestra comunidad</span></a>
           </div>
           <div class="col-md-6">
              <img src="{{ "images/community.png" | relURL }}" alt="Avatares ficticios de personas de la comunidad rOpenSci. Lydia Hill Illustration, todos los derechos reservados." /> 
@@ -43,7 +43,7 @@
                 <p class="card-text">
                   Participe en nuestras conversaciones con la comunidad con otras personas que desarrollan software y hacen ciencia - abiertas a tod@s
                 </p>
-                <a class="card-link link-arrow" href="/commcalls"><span>Únete</span></a>
+                {{ partial "translate-url" (dict "name" "commcalls" "Site" .Site  "class" "link-arrow")}}Únete</span></a>
               </div>
             </div>
           </div>
