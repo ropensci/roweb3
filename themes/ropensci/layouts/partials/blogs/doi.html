@@ -1,15 +1,8 @@
-{{ $url := (printf "https://ropensci.org%s" .RelPermalink ) }}
-{{ $apiurl := (printf "https://rogue-scholar.org/api/records?q=metadata.identifiers.identifier:'%s'" $url) | replaceRE "'" "%22" }}
-{{ $roguescholar := (resources.GetRemote $apiurl) | unmarshal }}
+{{ $roguescholar := (resources.GetRemote "https://api.rogue-scholar.org/blogs/ropensci") | unmarshal }}
+{{ $url := (printf "https://ropensci.org%s" .RelPermalink | replaceRE "/$" "" ) }}
 {{ $doi := "" }}
-
 {{ with $roguescholar }}
-  {{ $hits := $roguescholar.hits }}
-  {{ if gt $hits.total 0 }}
-    {{ $post := ( first 1 $hits.hits ) }}
-    {{ range $post }}
-      {{ $doi = .pids.doi.identifier }}
-    {{ end }}
-  {{ end }}
+  {{ $rightpage := ( where $roguescholar.items "url" $url ) }}
+    {{ with $rightpage }}{{ range ( first 1 . ) }}{{ $doi = .doi }}{{ end }}{{ end }}
 {{ end }}
 {{ return $doi }}
