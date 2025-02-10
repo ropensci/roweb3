@@ -84,6 +84,7 @@ For more information, visit the <a href="/r-universe/">r-universe project page</
       </div>
       <div class="cite field-under mt-4">
         <span>{{ i18n "Cite" }}</span><br/>
+{{ warnf "%s" .RelPermalink }}
         {{ $doi := (partial "blogs/doi" ( dict "RelPermalink" .RelPermalink )) }}
         {{ if ne $doi "" }}
         <a href="{{ printf "https://doi.org/%s" $doi }}" class="cite link mt-2">{{ printf "doi.org/%s" $doi }} <i class='fas fa-copy copy-cite-link'></i></a>
