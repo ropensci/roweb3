@@ -1,5 +1,5 @@
 ---
-title: Help make assertr better! Come close issues
+title: "Help make assertr better! Come close issues"
 author: 
 - Tony Fischetti
 - Maëlle Salmon
