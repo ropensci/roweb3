@@ -44,7 +44,7 @@ This type of fork will often happen when you copy a template for a personal webs
 or when you re-use an existing project of yours as a boilerplate to build your new project.
 
 2. Forks can also be used to customize or tweak the original project, 
-in a way that upstream cannot or doesn't want to address.
+in a way that upstream cannot or doesn't have capacity to address.
 In this type of forks, we usually try to not diverge too much from upstream to benefit from new features,
 and we regularly sync with them.
 A major downside is that syncing will often come with gnarly git conflicts.
