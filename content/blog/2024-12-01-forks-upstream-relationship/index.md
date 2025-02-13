@@ -119,7 +119,7 @@ Forks are sometimes intended from the start as short-lived.
 They only exist until the PR to upstream is merged when the user cannot wait for the PR to be merged, especially if upstream is slow to review PRs.
 
 But in other cases, forks start as a way to customize a project and accumulate new features, without necessarily the intention to contribute them back initially.
-But it's possible for the fork maintainer to change them mind at any time and decide to contribute back.
+But it's possible for the fork maintainer to change their mind at any time and decide to contribute back.
 In fact, this can be a very successful contribution scenario.
 Forks can indeed be a great way to pilot new features, and to show the value of these features to upstream to motivate their integration.
 It can also build confidence to show that you've been using this feature for a while without issues.
