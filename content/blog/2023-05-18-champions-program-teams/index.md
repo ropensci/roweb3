@@ -1,6 +1,6 @@
 ---
 title: "rOpenSci Champions Program Teams: Meet César and Marc"
-slug: ropensci-champions-program-teams-meet-c%C3%A9sar-and-marc
+slug: ropensci-champions-program-teams-meet-césar-and-marc
 author:
   - Cesar Luis Aybar Camacho
   - Marc Choisy

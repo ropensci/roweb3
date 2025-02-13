@@ -1,5 +1,5 @@
 ---
-slug: rentrez paper
+slug: rentrez-paper
 title: A rentrez paper, and how to use the NCBI's new API keys
 package_version: 1.2.1
 author: David Winter
