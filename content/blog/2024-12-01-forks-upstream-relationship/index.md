@@ -157,3 +157,5 @@ What were your motivations?
 Do you plan trying to contribute back to upstream? 
 What challenges have you faced? 
 What techniques have you found useful to maintain your fork?
+
+**Thank you to Mark Padgham, Richard Litt, Will Gearty and Yanina Bellini Saibene for their insights during the coworking session and their comments during the production of this post.**
