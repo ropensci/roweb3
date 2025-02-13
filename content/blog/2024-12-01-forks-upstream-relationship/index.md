@@ -28,7 +28,9 @@ Openscapes is extending this classic software development interpretation to an e
 Things like the value of sharing, reusing, and remixing of *how we work*, in addition to the work itself.
 Stefanie invited participants to share their experiences in forking to adapt or build on existing projects, and we came back to some practical challenges of forking.
 
-This blog post summarizes and develops some of the insights that emerged during the subsequent discussion.
+This blog post summarizes and develops some of the insights that emerged during the subsequent discussion, 
+where we focused on the specific case of forks of open-source codebases,
+such as the ones you can find on GitHub.
 
 ## The different types of forks
 
