@@ -15,6 +15,8 @@ tags:
 featured: true
 slug: r-universe-stars-2-es
 description: "Una nueva entrega de nuestra serie de entrevistas __\"Conociendo a las estrellas del universo R\"__. Nos vamos a Francia para conocer más de cerca el trabajo que hace la gente de ThinkR."
+params:
+  doi: "10.59350/ntcs7-40d52"
 ---
 
 Este es el segundo artículo de nuestra serie de entrevistas ["Conociendo a las estrellas del universo R"](/tags/r-universe-stars/). Nuestro objetivo es presentar a los grupos de trabajo y a las personas que están detrás del desarrollo de software y paquetes que utilizamos y que están disponibles a través del R-Universe. Queremos destacar y explorar diferentes equipos y proyectos de todo el mundo, el trabajo que realizan, sus procesos y las personas que usan sus desarrollos. 

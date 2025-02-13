@@ -12,6 +12,8 @@ tags:
   - software
   - Software Peer Review
   - Methods in Ecology and Evolution
+params:
+  doi: "10.59350/dqshr-4nf76"
 ---
 
 

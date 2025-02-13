@@ -9,6 +9,8 @@ tags:
   - campeones
 feature: true  
 description: "El programa de campeones y campeonas ya inició las primeras actividades de este 2023. Lee de donde son los y las participantes y que van a estar haciendo."
+params:
+  doi: "10.59350/gzh5d-qzk48"
 ---
 
 ## ¡El programa de campeones arrancó con todo este 2023!

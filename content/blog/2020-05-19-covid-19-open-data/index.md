@@ -27,6 +27,8 @@ description: Open data for your research when you can't get to the lab or field
 output:
   html_document:
     keep_md: yes
+params:
+  doi: "10.59350/ywaqe-9h090"
 ---
 
 The COVID-19 pandemic has dramatically impacted all of our lives in a very short period of time. 

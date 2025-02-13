@@ -8,6 +8,8 @@ tags:
 feature: true  
 # description: 
 tweet: rOpenSci Community Manager Transition. A Message from Stefanie Butland
+params:
+  doi: "10.59350/mcme2-hdz10"
 ---
 
 I’m writing to share news that I’m moving on from my position as rOpenSci’s Community Manager. Friday, January 14th is my last day. 

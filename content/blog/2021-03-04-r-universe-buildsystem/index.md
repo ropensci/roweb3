@@ -7,6 +7,8 @@ featured: true
 tags:
   - r-universe
   - tech notes
+params:
+  doi: "10.59350/cq5fj-wj639"
 ---
 
 ## The R-universe build system

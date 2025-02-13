@@ -19,6 +19,8 @@ tags:
   - packages
   - unconf
   - unconf18
+params:
+  doi: "10.59350/bsrjr-8k735"
 ---
 
 {{< figure class="center" src="img/blog-images/2018-07-17-pkginspector/pkginspector_hex_sticker.png" alt="pkginspector hex sticker" width=300 >}}

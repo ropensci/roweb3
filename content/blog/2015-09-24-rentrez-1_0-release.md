@@ -8,6 +8,8 @@ tags:
   - rentrez
   - packages
   - NCBI
+params:
+  doi: "10.59350/qpsdg-n0y41"
 ---
 
 

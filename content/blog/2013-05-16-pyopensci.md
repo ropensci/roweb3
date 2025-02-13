@@ -8,6 +8,8 @@ tags:
   - Python
   - pyOpenSci
   - API
+params:
+  doi: "10.59350/mk4kh-bfg87"
 ---
 *A guest blog post by Steve Moss*
 

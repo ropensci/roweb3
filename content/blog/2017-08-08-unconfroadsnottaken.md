@@ -10,6 +10,8 @@ tags:
   - unconf
   - unconf17
 title: 'Unconf 2017: The Roads Not Taken'
+params:
+  doi: "10.59350/9v3rg-7fh09"
 ---
 
 Since June, we have been highlighting the [many projects] that emerged from this year's [rOpenSci Unconf]. These projects start many weeks before unconf participants gather in-person. Each year, we ask participants to propose and discuss project ideas ahead of time in a [GitHub repo]. This serves to get creative juices flowing as well as help people get to know each other a bit through discussion.

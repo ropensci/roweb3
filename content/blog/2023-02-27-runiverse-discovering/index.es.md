@@ -16,6 +16,8 @@ tags:
 - paquetes
 - tablero de indicadores
 - notas técnicas
+params:
+  doi: "10.59350/ezag5-nby66"
 ---
 
 ## Encontrar la herramienta adecuada para el trabajo

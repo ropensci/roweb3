@@ -8,6 +8,7 @@ slug: ropensci-news-june-2024
 description: New goodpractice maintainer, CZI meeting report, rOpenSci community at upcoming events, new packages and package news
 params:
   last_newsletter: '2024-05-24'
+  doi: "10.59350/g5b2q-4wy23"
 ---
 
 

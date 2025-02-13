@@ -11,6 +11,8 @@ tags:
   - video
   - av
   - tech notes
+params:
+  doi: "10.59350/30jfj-xkd72"
 ---
 
 At rOpenSci we are developing on a suite of packages that expose powerful graphics and imaging libraries in R. Our latest addition is [av](https://github.com/ropensci/av#readme) -- a new package for working with audio/video based on the [FFmpeg](https://www.ffmpeg.org/) AV libraries. This ambitious new project will become the video counterpart of the [magick](https://cloud.r-project.org/web/packages/magick/vignettes/intro.html) package which we use for working with images.

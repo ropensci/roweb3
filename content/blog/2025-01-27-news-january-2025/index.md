@@ -9,6 +9,7 @@ tags:
 description: Mini-hackathons, coworking, new package and package news
 params:
   last_newsletter: '2024-12-19'
+  doi: "10.59350/khq9y-0w472"
 ---
 
 

@@ -12,6 +12,8 @@ tags:
 output:
   html_document:
     keep_md: yes
+params:
+  doi: "10.59350/27s4h-k3b75"
 ---
 
 A new version of [vcr][] was just released. See the [release notes](https://github.com/ropensci/vcr/releases/tag/v0.6.0) for all the details. I want to highlight a few of the more notable changes. 

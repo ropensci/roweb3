@@ -15,6 +15,8 @@ output:
   md_document:
     variant: markdown_github
     preserve_yaml: yes
+params:
+  doi: "10.59350/88kqe-q5379"
 ---
 
 A while ago we

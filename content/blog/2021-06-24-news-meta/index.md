@@ -14,6 +14,8 @@ tweet: How @rOpenSci Team Curates Its Monthly Newsletter
 output:
   html_document:
     keep_md: yes
+params:
+  doi: "10.59350/2yvqb-50994"
 ---
 
 How to keep up with rOpenSci? 

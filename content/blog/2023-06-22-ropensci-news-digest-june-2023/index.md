@@ -9,6 +9,7 @@ tags:
 description: Statistical software review, next community calls, R-universe stars PEcAn project, R-universe snapshots, coworking
 params:
   last_newsletter: "2023-05-19"
+  doi: "10.59350/ws8e1-d3d38"
 ---
 
 

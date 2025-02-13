@@ -12,6 +12,8 @@ tags:
   - governance
   - events
 description: No Code of Conduct reports in 2020
+params:
+  doi: "10.59350/4dajb-haz25"
 ---
 The rOpenSci community is supported by our [Code of Conduct](/code-of-conduct) with a clear description of unacceptable behaviors, instructions on how to make a report, and information on how reports are handled. We, the Code of Conduct Committee, are responsible for receiving, investigating, deciding, enforcing and reporting on all reports of potential violations of our Code. We are committed to transparency with our community while upholding the privacy of victims and people who report incidents.
 

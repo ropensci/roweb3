@@ -8,6 +8,7 @@ slug: news-july-2023
 description: Open Call for Champions program, CRAN packages indexed on R-universe, community call, coworking
 params:
   last_newsletter: "2023-06-22"
+  doi: "10.59350/72vvp-q7v08"
 ---
 
 

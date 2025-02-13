@@ -10,6 +10,8 @@ tags:
   - git
   - github
   - tech notes
+params:
+  doi: "10.59350/ezs92-3kz34"
 ---
 
 We have been working hard behind the scenes on the upcoming release of our new git package named [gert](https://docs.ropensci.org/gert), a joint effort from rOpenSci and the Tidyverse team. One of the main features of gert is the out-of-the-box authentication mechanism, which is provided via the new [credentials](https://docs.ropensci.org/credentials/articles/intro.html) package.

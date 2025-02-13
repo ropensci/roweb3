@@ -12,6 +12,8 @@ tags:
   - Software Peer Review
   - FedData
   - tech notes
+params:
+  doi: "10.59350/6752t-js147"
 ---
 
 The package [`FedData`](https://github.com/ropensci/FedData) has gone through software review and is now part of [rOpenSci](/). `FedData` includes functions to automate downloading geospatial data available from several federated data sources (mainly sources maintained by the US Federal government).

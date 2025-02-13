@@ -9,6 +9,7 @@ tags:
 description: New editors, new look for R-universe, useR! resources, coworking
 params:
   last_newsletter: "2024-06-21"
+  doi: "10.59350/q0fkc-01034"
 ---
 
 

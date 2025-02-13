@@ -11,6 +11,8 @@ tags:
   - code of conduct
   - governance
 description: rOpenSci 2024 Code of Conduct Transparency Report
+params:
+  doi: "10.59350/h6rzg-1a460"
 ---
 ## Maintaining Community Trust and Safety
 

@@ -15,6 +15,8 @@ tweet: Why You Should (or Should not) Build an API Client, a post by @ma_salmon 
 output: hugodown::md_document
 rmd_hash: a9da4bcfb772390f
 
+params:
+  doi: "10.59350/hywj2-cwh39"
 ---
 
 These days web Application Programming Interfaces (APIs) are everywhere (scientific data sources, your system for Customer relationship management, cat facts API...). Do you need to write some R code wrapping a web resource such as an API? Packaging it up might be useful to you or your team for the same reason as any code. Now, whether you really want to publicize the package and to guarantee its maintenance might be slightly trickier than for other packages, as the usefulness and status of your package will depend on the web API being up and running according to expectations. This creates a surface for failures that might be more or less scary depending on your trust in the upstream maintainers.

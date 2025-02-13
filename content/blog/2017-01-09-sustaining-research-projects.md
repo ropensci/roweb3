@@ -7,6 +7,8 @@ author:
 tags:
   - community
   - sustainability
+params:
+  doi: "10.59350/69bj6-yqd27"
 ---
 
 A research project often starts with a bright idea and an initial commitment of volunteer time, or perhaps,

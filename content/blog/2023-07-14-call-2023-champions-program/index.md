@@ -13,6 +13,8 @@ tags:
   - champions program
 featured: true 
 description: We open the call for the second cohort of Champions and Mentors!
+params:
+  doi: "10.59350/72d3m-vnm23"
 ---
 
 We are pleased to open the call for the second cohort of **Champions and Mentors** for the rOpenSci Champions Program 🎉 ! This program will continue to support our goal of identifying, recognizing, and rewarding passionate community members who help the community grow and improve.

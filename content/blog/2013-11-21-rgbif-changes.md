@@ -6,6 +6,8 @@ author: Scott Chamberlain
 tags:
   - taxonomy
   - API
+params:
+  doi: "10.59350/g8ph1-ah536"
 ---
 
 The Global Biodiversity Information Facility (GBIF) is a warehouse of species occurrence data - collecting data from a lot of different sources. Our package `rgbif` allows you to interact with GBIF from R. We interact with GBIF via their Application Programming Interface, or API. Our last version on CRAN (v0.3) interacted with the older version of their API - this version interacts with the new version of their API. However, we also retained functions that interact with the old API.

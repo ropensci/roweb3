@@ -8,6 +8,8 @@ date: '2025-02-05'
 tags:
   - community
 description: "Including all of humanity is and always will be at the heart of open science."
+params:
+  doi: "10.59350/8vw43-jy784"
 ---
 
 At rOpenSci, our mission is to

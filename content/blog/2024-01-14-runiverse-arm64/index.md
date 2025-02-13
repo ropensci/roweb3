@@ -11,6 +11,8 @@ tags:
   - r-universe
   - arm64
   - macos
+params:
+  doi: "10.59350/6vc6t-0xw03"
 ---
 
 

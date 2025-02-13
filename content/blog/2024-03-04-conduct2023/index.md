@@ -12,6 +12,8 @@ tags:
   - governance
   - community
 description: Updates for version 2.5 of rOpenSci's Code of Conduct
+params:
+  doi: "10.59350/k0q1e-gzb74"
 ---
 
 Our community is our best asset. It’s so important to us, it’s in our [mission statement](https://ropensci.org/about/). We recognize that communities are not inclusive by default; they require deliberate attention, including an enforceable [Code of Conduct](/code-of-conduct). 

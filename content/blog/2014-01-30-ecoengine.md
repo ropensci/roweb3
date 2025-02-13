@@ -8,6 +8,8 @@ tags:
   - museums
   - biodiversity
   - informatics
+params:
+  doi: "10.59350/61t3f-8ya07"
 ---
 
 Natural history museums have long been valuable repositories of data on species diversity. These data have been critical for fostering and shaping the development of fields such as  biogeography and systematics. The importance of these data repositories is becoming increasingly important, especially in the context of climate change, where a strong understanding of how species responded to past climate is key to understanding their responses in the future. Leading the way in opening up such valuable data is a new effort by the [ Berkeley Initiative in Global Change Biology](https://globalchange.berkeley.edu/ecoinformatics-engine) called the [Ecoengine](https://ecoengine.berkeley.edu/).

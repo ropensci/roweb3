@@ -20,6 +20,8 @@ description: |
 crossposts:
 - name: The Carpentries Blog
   url: https://carpentries.org/blog/2023/07/teaching-targets-with-penguinds/
+params:
+  doi: "10.59350/8jxk6-r7m33"
 ---
 
 Many researchers are becoming more aware of the importance of reproducibility.

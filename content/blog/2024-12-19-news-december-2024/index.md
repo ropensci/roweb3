@@ -9,6 +9,7 @@ tags:
 description: R-universe now R Consortium top-level project, First-Time Contributions to FOSS, coworking, new package and package news
 params:
   last_newsletter: "2024-11-29"
+  doi: "10.59350/yttcr-f0m22"
 ---
 
 

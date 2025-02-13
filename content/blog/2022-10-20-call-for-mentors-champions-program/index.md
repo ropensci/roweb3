@@ -11,6 +11,8 @@ tags:
   - welcome
 feature: true  
 description: "rOpenSci is seeking mentors to support our inaugural cohort of rOpenSci Champions. Could you offer insight and advice to our selected Champions? Learn the details and express your interest!" 
+params:
+  doi: "10.59350/hakqe-9nc10"
 ---
 
 

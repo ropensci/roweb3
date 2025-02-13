@@ -14,6 +14,8 @@ tags:
   - ozunconf
   - ozunconf18
   - community
+params:
+  doi: "10.59350/2xca5-wen48"
 ---
 
 ### Why vitae?

@@ -12,6 +12,8 @@ tags:
   - campeones
 feature: true  
 description: "¡Estamos muy felices de realizar el lanzamiento nuestro programa de Campeones y Campeonas!" 
+params:
+  doi: "10.59350/djjqd-h7x90"
 ---
 
 > ¡Estamos muy felices de realizar el lanzamiento nuestro programa de Campeones y Campeonas!

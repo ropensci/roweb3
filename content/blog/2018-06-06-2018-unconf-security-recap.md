@@ -11,6 +11,8 @@ tags:
   - unconf
   - unconf18
   - security
+params:
+  doi: "10.59350/fvck3-xms43"
 ---
 
 As part of our series summarizing all projects from [this year's unconf](/blog/2018/06/05/unconf18/) I'm excited to dive into all the security related offerings from this year. (Full set of project recaps: [recap 1](/blog/2018/06/05/unconf_recap_1/), [recap 2](/blog/2018/06/06/unconf18_recap_2/), [recap 3](/blog/2018/06/07/unconf_recap_3/), [recap 4](/blog/2018/06/08/unconf_recap_4/).) In the spirit of exploration and experimentation at rOpenSci unconferences, these projects are not necessarily finished products or in scope for rOpenSci packages.

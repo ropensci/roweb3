@@ -7,6 +7,8 @@ author:
   - Karthik Ram
 tags:
   - community
+params:
+  doi: "10.59350/a4n62-37m07"
 ---
 
 __UPDATE:__ Use the new discussion forum at https://discuss.ropensci.org/

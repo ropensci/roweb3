@@ -16,6 +16,8 @@ tags:
   - bienvenidad
 featured: true
 description: "Esta es la primera entrega de nuestra serie de entrevistas __\"Conociendo a las estrellas del universo R\"__. Iniciamos nuestro recorrido en _Argentina_ y con un equipo que utiliza R y desarrolla paquetes de R en el estado Argentino."
+params:
+  doi: "10.59350/14nw0-map38"
 ---
 
 Esta es la primera entrega de nuestra serie de entrevistas __"Conociendo a las estrellas del universo R"__. Tenemos como objetivo introducir los grupos de trabajo y las personas que están detrás del desarrollo del software y paquetes que muchos utilizamos y que se encuentran disponibles en _R-Universe_.  Queremos resaltar y conocer diferentes proyectos alrededor del mundo, el trabajo que hacen, sus procesos y usuarios. Iniciamos nuestro recorrido en _Argentina_ y con un equipo que utiliza R y desarrolla paquetes de R en el estado Argentino (no dejes de ver el [vídeo](#video-de-la-entrevista) con extractos de la entrevista).

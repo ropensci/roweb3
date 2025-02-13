@@ -7,6 +7,8 @@ tags:
   - API
   - taxize
   - taxonomy
+params:
+  doi: "10.59350/czbbh-qz045"
 ---
 
 We just released a new version of `taxize` - version 0.2.0. This release contains a number of new features, and bug fixes. Here is a run down of some of the changes:

@@ -15,6 +15,8 @@ tags:
 description: "Announcing a Community Call and Coworking sessions to support first contributions"
 editor: Maëlle Salmon
 preface: We still have some room, so are now able to open this call up to non-rOpenSci package maintainers until December 9th 🎉.
+params:
+  doi: "10.59350/36jse-ebg83"
 ---
 
 Do you remember your first contribution to open source? 

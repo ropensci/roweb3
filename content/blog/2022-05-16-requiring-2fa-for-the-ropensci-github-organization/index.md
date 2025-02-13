@@ -10,6 +10,8 @@ tags:
   - tech notes
 package_version: 0.1.0
 description: How we went about requiring two-factor authentication for our main GitHub organization
+params:
+  doi: "10.59350/55fqd-d5179"
 ---
 
 Following our recent post on ["Safeguards and Backups for GitHub Organizations"](/blog/2022/03/22/safeguards-and-backups-for-github-organizations/), nearly one month ago we went one step further and made two-factor authentication (2FA) required for all members and outside collaborators of our main organization, [`ropensci`](https://github.com/ropensci/).

@@ -12,6 +12,8 @@ tags:
   - community
   - interviews
   - rprofile
+params:
+  doi: "10.59350/p8h48-s7k80"
 ---
 
 {{< imgtxt src="/img/blog-images/2017-12-08-rprofile-jenny-bryan/jenny_bryan_lowres.jpg" alt="Jenny Bryan" >}}

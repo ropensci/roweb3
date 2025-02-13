@@ -9,6 +9,8 @@ tags:
   - community
   - fellowships
   - interviews
+params:
+  doi: "10.59350/6xceq-pzr23"
 ---
 
 rOpenSci's overarching mission is to promote a culture of transparent, open, and reproducible research across various scientific communities. All of our activities are geared towards lowering barriers to participation, and building a community of practitioners around the world. In addition to developing and maintaining a large suite of open source tools for data science, we actively support the research community with expert review on research software development, community calls, and hosting annual unconferences around the world.

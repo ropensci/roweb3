@@ -25,6 +25,8 @@ tags:
   - unconf
   - unconf18
   - educollab
+params:
+  doi: "10.59350/ykyhw-3yp71"
 ---
 
 {{< figure alt="educollab hashtags" src="/img/blog-images/2018-07-24-educollab-challenges/educollab-logo.png" >}}

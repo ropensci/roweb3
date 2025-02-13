@@ -23,6 +23,8 @@ description: "10 tips for newbies and experts around bookdown, and (R) project m
 output: 
   html_document:
     keep_md: true
+params:
+  doi: "10.59350/vvv2s-gvj83"
 ---
 
 

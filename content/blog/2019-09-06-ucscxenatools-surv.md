@@ -15,6 +15,8 @@ tags:
   - data access
   - survival analysis
   - tech notes
+params:
+  doi: "10.59350/jzsa8-xp042"
 ---
 
 The [UCSC Xena platform](https://xenabrowser.net/) provides an unprecedented resource for public omics data from big projects like [The Cancer Genome Atlas (TCGA)](https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga), however, it is hard

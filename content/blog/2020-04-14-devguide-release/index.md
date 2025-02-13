@@ -19,6 +19,8 @@ tags:
 description: "Updates in version 0.4.0 of the online book 'rOpenSci Packages: Development, Maintenance, and Peer Review
 rOpenSci Packages: Development, Maintenance, and Peer Review'"
 twitterImg: img/blog-images/2019-05-16-dev-guide-update/cover.png
+params:
+  doi: "10.59350/dr1d0-j3y61"
 ---
 
 rOpenSci Software Peer Review's guidance has been compiled in [an online book](https://devguide.ropensci.org/) for more than one year now. We've just released its fourth version. 

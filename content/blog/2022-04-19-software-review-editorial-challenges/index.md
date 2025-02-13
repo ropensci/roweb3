@@ -11,6 +11,8 @@ tags:
 package_version: 0.1.0
 description: Challenges encountered by editors, and the measures we've taken to try to alleviate said problems.
 featured: true
+params:
+  doi: "10.59350/yttbb-78v90"
 ---
 
 rOpenSci [Software Peer Review](/software-review/) and [Statistical Software Peer Review](/software-review/) rely on the volunteer work of reviewers, and editors.

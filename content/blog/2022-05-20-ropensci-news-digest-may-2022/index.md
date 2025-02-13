@@ -11,8 +11,7 @@ description: R-universe and pkgcheck new features! Co-working session. Call for 
 output: hugodown::md_document
 params:
   last_newsletter: '2022-04-22'
-rmd_hash: 8761881e95f74217
-
+  doi: "10.59350/vc7ar-ye672"
 ---
 
 <!-- Before sending DELETE THE INDEX_CACHE and re-knit! -->

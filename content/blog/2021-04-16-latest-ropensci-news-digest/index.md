@@ -13,6 +13,7 @@ output:
     keep_md: yes
 params:
   last_newsletter: '2021-03-16'
+  doi: "10.59350/msaph-4ps07"
 ---
 
 

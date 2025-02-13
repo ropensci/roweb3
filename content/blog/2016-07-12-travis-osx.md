@@ -8,6 +8,8 @@ tags:
   - travis
   - CRAN
   - OSX
+params:
+  doi: "10.59350/8xhef-n5g41"
 ---
 
 Travis is a continuous integration service which allows for running automated testing code everytime you push to GitHub. Hadley's [book](http://r-pkgs.had.co.nz/check.html) about R packages explains how and why R package authors should take advantage of this in their development process.

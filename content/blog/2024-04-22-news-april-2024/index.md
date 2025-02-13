@@ -8,6 +8,7 @@ slug: ropensci-news-april-2024
 description: R-universe docs thanks to GSOD, community calls, new packages and package news
 params:
   last_newsletter: '2024-03-29'
+  doi: "10.59350/0njz2-yze81"
 ---
 
 

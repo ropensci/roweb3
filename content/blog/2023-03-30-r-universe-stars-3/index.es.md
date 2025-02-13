@@ -17,6 +17,8 @@ featured: true
 # The summary below will be used by e.g. Twitter cards
 description: "Trabajar con el cerebro humano necesita de software específico y desarrollos complejos. Sin embargo R aparece como la forma natural de organizar y compartir cientos de datos que necesitan ser analizados y el Universo R como el lugar más amigable para compartir e invitar a colaborar. Nuestra tercera parada nos encuentra en __Noruega__ para hablar con __Athanasia Monika Mowinckel__."
 
+params:
+  doi: "10.59350/8cd68-2mg97"
 ---
 
 Un nuevo artículo de nuestra serie de entrevistas ["Conociendo a las estrellas del universo R"](/tags/r-universe-stars/). Nuestro objetivo es presentar a los equipos y personas que están detrás del desarrollo de software y paquetes que utilizamos y que están disponibles a través del R-universe. Queremos destacar y explorar diferentes equipos y proyectos de todo el mundo, el trabajo que realizan, sus procesos y usuarios. Nuestra tercera parada es __Noruega__ para hablar con __Athanasia Monika Mowinckel__.

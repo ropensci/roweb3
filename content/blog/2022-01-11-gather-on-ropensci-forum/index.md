@@ -10,6 +10,8 @@ tags:
 description: "Why and how participate in the rOpenSci forum; descriptions of current categories."
 twitterImg: blog/2022/01/11/ropensci-forum/convo.jpg
 twitterAlt: "Two paper message balloons on a pink background"
+params:
+  doi: "10.59350/bf1vh-b2w72"
 ---
 
 Do you have an account on the [rOpenSci forum](https://discuss.ropensci.org)?

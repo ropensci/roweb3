@@ -8,6 +8,8 @@ tags:
   - software
   - Software Peer Review
   - reviewer
+params:
+  doi: "10.59350/12rwq-05r69"
 ---
 
 It all started January 26<sup>th</sup> this year when I signed up to volunteer as

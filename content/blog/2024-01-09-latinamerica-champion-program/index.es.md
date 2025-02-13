@@ -16,6 +16,8 @@ tags:
   - comunidad
 slug: champions-program-latinr
 description: Detalles de la participación latinoamericana en el primer año del programa de campeonas y campeones de rOpenSci.
+params:
+  doi: "10.59350/v3rfc-ct751"
 ---
 
 Las personas _campeonas_ de una comunidad son _personas que asumen una mayor responsabilidad en el éxito, la sostenibilidad y/o el funcionamiento de una comunidad_.[^1] rOpenSci desarrolla un [programa de campeones y campeonas](/champions/) enfocado y pensado para que participen personas que pertenecen a grupos histórica y sistemáticamente excluidos de las comunidades de software abierto y de software de investigación. Con una duración de doce meses, la iniciativa incluye capacitación en cohortes, el desarrollo de un proyecto y tutorías individuales.

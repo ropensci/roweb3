@@ -20,6 +20,8 @@ tags:
   - testing
   - unconf
   - unconf17
+params:
+  doi: "10.59350/b7w5r-pca82"
 ---
 
 Two years ago at [\#runconf15], there was a great discussion about best practices for organizing R-based analysis projects that yielded a [nice guidance document] describing *research compendia*. Compendia, as we described them, were minimal products of reproducible research, using parts of R package structure to organize the inputs, analyses, and outputs of research projects.

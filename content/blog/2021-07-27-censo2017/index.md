@@ -18,6 +18,8 @@ tags:
   - censo2017
 description: >
   Chilean census tables at a glance.
+params:
+  doi: "10.59350/2jakv-t6d66"
 ---
 
 ## Summary

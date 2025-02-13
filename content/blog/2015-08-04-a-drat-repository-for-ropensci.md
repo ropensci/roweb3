@@ -7,6 +7,8 @@ tags:
   - drat
   - CRAN
   - packages
+params:
+  doi: "10.59350/cx8x3-m0p19"
 ---
 
 
