@@ -38,7 +38,7 @@ and will have different relationships with their upstream repository in the long
 1. Forks can be used as a starting point for a new diverging project, rather than starting from scratch.
 In this situation, the fork author does not intend to sync with the upstream repository after the initial fork.
 This type of fork may therefore miss out on new features developed in upstream.
-This type of fork will often happen when you copy a template for a personal website (an example shared by Will Gearty in our discussions), 
+This type of fork will often happen when you copy a template for a personal website (an example shared by [Will Gearty](https://williamgearty.com/) in our discussions), 
 or when you re-use an existing project of yours as a boilerplate to build your new project.
 
 2. Forks can also be used to customize or tweak the original project, 
