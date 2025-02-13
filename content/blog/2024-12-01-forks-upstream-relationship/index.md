@@ -150,3 +150,9 @@ This highlights the symbiotic relationship that can exist between forks and upst
 While sometimes presented as a fracture, forks are an integral part of the open-source ecosystem.
 They offer a way to build on existing projects, to add extra features without increasing the maintenance burden of the upstream repository, and to pilot new features.
 They can be hard to maintain, but it is also possible for the fork and upstream maintainers to work together to make the process smoother.
+
+We would love to hear from you if you've forked or if you're considering forking a project. 
+What were your motivations?
+Do you plan trying to contribute back to upstream? 
+What challenges have you faced? 
+What techniques have you found useful to maintain your fork?
