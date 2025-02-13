@@ -11,6 +11,8 @@ tags:
 featured: true
 description: "Thank you for another amazing year at rOpenSci"
 tweet: "Thank you from the rOpenSci community team @stefaniebutland and @steffilazerte"
+params:
+  doi: "10.59350/nrksz-pzw16"
 ---
 
 Can you think of an rOpenSci community member that you'd like to thank?

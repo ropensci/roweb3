@@ -10,6 +10,8 @@ tags:
 - comunidad
 description: Incluir a toda la humanidad está y estará siempre en el corazón de la
   ciencia abierta.
+params:
+  doi: "10.59350/h78kf-xcy71"
 ---
 
 En rOpenSci, nuestra misión es

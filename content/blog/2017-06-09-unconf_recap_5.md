@@ -10,6 +10,8 @@ tags:
   - meetings
   - unconf
   - unconf17
+params:
+  doi: "10.59350/b4w20-jfd70"
 ---
 
 And finally, we end our series of [unconf](/blog/2017/06/02/unconf2017) project summaries ([day 1](/blog/2017/06/05/unconf_recap_1), [day 2](/blog/2017/06/06/unconf_recap_2), [day 3](/blog/2017/06/07/unconf_projects_3), [day 4](/blog/2017/06/08/unconf_recap_4)).

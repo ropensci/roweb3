@@ -8,6 +8,8 @@ tags:
   - ssh
   - packages
   - tech notes
+params:
+  doi: "10.59350/47ery-hp308"
 ---
 
 The ssh package provides a native ssh client for R. You can connect to a remote server over SSH to transfer files via SCP, setup a secure tunnel, or run a command or script on the host while streaming stdout and stderr directly to the client. The [intro vignette](https://cran.r-project.org/web/packages/ssh/vignettes/intro.html) provides a brief introduction.

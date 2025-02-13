@@ -9,6 +9,8 @@ tags:
   - tech notes
   - reproducibility
   - renv
+params:
+  doi: "10.59350/rpxqc-1gk81"
 ---
 
 ## What is renv

@@ -6,6 +6,8 @@ author: Scott Chamberlain
 tags:
   - development
   - tech notes
+params:
+  doi: "10.59350/wam2p-7ac47"
 ---
 
 Making packages is a great way to organize R code, whether it’s a set of scripts for personal use, a set of functions for internal company use or a lab group, or to distribute your new cool framework `foobar` to the masses. There's a number of guides to writing packages, including <http://r-pkgs.had.co.nz/>.

@@ -12,6 +12,7 @@ output:
     keep_md: yes
 params:
   last_newsletter: "2021-02-08"
+  doi: "10.59350/33asx-aw163"
 ---
 
 

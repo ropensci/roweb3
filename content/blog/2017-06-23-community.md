@@ -11,6 +11,8 @@ tags:
   - unconf
   - unconf17
   - welcome
+params:
+  doi: "10.59350/wj79v-4sm89"
 ---
 
 What's that? You've heard of R? You use R? You develop in R? You know someone else who's mentioned R? Oh, you're breathing? Well, in that case, welcome! Come join the R community!

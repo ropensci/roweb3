@@ -19,6 +19,8 @@ tags:
   - censo2017
 description: >
   Tablas del censo chileno al instante.
+params:
+  doi: "10.59350/a2ecx-pek94"
 ---
 
 ## Resumen

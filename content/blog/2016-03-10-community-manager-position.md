@@ -7,6 +7,8 @@ author:
   - Scott Chamberlain
 tags:
   - jobs
+params:
+  doi: "10.59350/f1645-bcd83"
 ---
 
 The rOpenSci team is growing, thanks in part to our [recent funding](/blog/2015/11/19/helmsley-trust-funding/). We recently [welcomed](/blog/2016/03/01/pdftools-and-jeroen) Jeroen Ooms on the software development side and today we're thrilled to announce a position for community manager.

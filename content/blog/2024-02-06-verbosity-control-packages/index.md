@@ -9,6 +9,8 @@ categories: []
 output: hugodown::md_document
 tags:
   - package development
+params:
+  doi: "10.59350/a7t5m-cy325"
 ---
 
 

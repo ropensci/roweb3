@@ -8,6 +8,8 @@ tags:
   - curl
   - http
   - tech notes
+params:
+  doi: "10.59350/ds03k-21r84"
 ---
 
 ## curl 5.0.0 is on CRAN

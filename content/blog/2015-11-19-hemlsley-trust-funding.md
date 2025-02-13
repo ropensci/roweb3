@@ -6,6 +6,8 @@ author:
   - Karthik Ram
 tags:
   - funding
+params:
+  doi: "10.59350/bn7rd-qjc91"
 ---
 
 rOpenSci, whose mission is to develop and maintain sustainable software

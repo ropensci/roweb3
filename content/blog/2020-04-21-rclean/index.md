@@ -16,6 +16,8 @@ description: Automatic isolation of code for reproducing results in R.
 output:
   html_document:
     keep_md: yes
+params:
+  doi: "10.59350/f8fwg-7ma77"
 ---
 
 

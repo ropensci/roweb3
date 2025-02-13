@@ -13,6 +13,8 @@ tags:
   - champions program
 featured: true
 description: "Introducing Champions and Mentors - Cheryl Isabella Lim and Mauro Lepore"
+params:
+  doi: "10.59350/6q4xv-pm770"
 ---
 
 *We designed the [rOpenSci Champions Program](/champions/) with a mentorship aspect. Mentoring plays a significant role in the growth and development of both mentors and mentees alike. In our program, each Champion has a mentor who accompanies them during their training and development of their project.*

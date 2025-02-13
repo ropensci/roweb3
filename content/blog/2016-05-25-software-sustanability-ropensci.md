@@ -11,6 +11,8 @@ tags:
 crossposts:
 - name: Dan's blog
   url: https://danielskatzblog.wordpress.com/2016/05/25/software-sustainability-research-with-ropensci/
+params:
+  doi: "10.59350/6g0ch-wjy44"
 ---
 
 

@@ -14,6 +14,8 @@ output:
   md_document:
     variant: markdown_github
     preserve_yaml: yes
+params:
+  doi: "10.59350/qsf4h-aqv65"
 ---
 
 You might have read [my blog post analyzing the social weather of

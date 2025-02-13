@@ -9,6 +9,8 @@ slug: communication-tips-oss-project
 output: hugodown::md_document
 tags:
   - community
+params:
+  doi: "10.59350/8sqxt-7zp92"
 ---
 
 Do you maintain an open-source project like an R package or a collection thereof, and wonder how to best use various communication channels to inform and engage with your community of users?

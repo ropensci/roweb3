@@ -10,6 +10,7 @@ tags:
 description: Multilingual publishing (Spanish!), champions program, coworking, Twitter alternatives, new packages and package news
 params:
   last_newsletter: '2022-10-21'
+  doi: "10.59350/3qkj4-9hm14"
 ---
 
 <!-- Before sending DELETE THE INDEX_CACHE and re-knit! -->

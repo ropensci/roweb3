@@ -12,6 +12,7 @@ output:
     keep_md: yes
 params:
   last_newsletter: '2022-05-20'
+  doi: "10.59350/jv328-x0m77"
 ---
 
 

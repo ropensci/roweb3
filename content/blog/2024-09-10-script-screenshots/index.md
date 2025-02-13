@@ -13,6 +13,8 @@ tags:
   - r-universe
   - screenshot
   - magick
+params:
+  doi: "10.59350/1rgm4-kjk76"
 ---
 
 

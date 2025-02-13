@@ -8,6 +8,7 @@ slug: news-december-2023
 description: donate to rOpenSci; deposits package for data publishing; a package a day; new packages and package news
 params:
   last_newsletter: "2023-11-24"
+  doi: "10.59350/p9jf2-7d310"
 ---
 
 

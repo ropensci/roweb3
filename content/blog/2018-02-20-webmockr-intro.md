@@ -14,6 +14,8 @@ tags:
   - webmockr
   - testing
   - tech notes
+params:
+  doi: "10.59350/az76h-r9540"
 ---
 
 

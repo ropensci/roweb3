@@ -14,6 +14,8 @@ tags:
   - qualtrics
   - cran
   - skimr
+params:
+  doi: "10.59350/hprn3-gze74"
 ---
 
 For this Community Call, we're trying something different. We'll start with a short talk by [**Julia Silge**](#speakers), then spend most of the time on Q & A with [four panelists](#speakers) - **Elin Waring**, **Erin Grand**, **Leonardo Collado-Torres**, and **Scott Chamberlain** - moderated by Julia.

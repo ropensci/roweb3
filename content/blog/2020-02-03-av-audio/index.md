@@ -10,6 +10,8 @@ tags:
   - audio
   - av
   - tech notes
+params:
+  doi: "10.59350/r6wrf-dsg71"
 ---
 
 

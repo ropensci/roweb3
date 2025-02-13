@@ -8,6 +8,8 @@ tags:
 feature: true  
 # description: 
 tweet: "Presentando a @yabellini, nuestra nueva Community Manager" 
+params:
+  doi: "10.59350/w0f6w-nmd65"
 ---
 
 ## ¡Hola! Soy Yanina Bellini Saibene, tu nueva Community Manager.

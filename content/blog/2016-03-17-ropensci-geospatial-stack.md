@@ -7,6 +7,8 @@ tags:
   - API
   - geo
   - spatial
+params:
+  doi: "10.59350/dt6g0-bmv29"
 ---
 
 

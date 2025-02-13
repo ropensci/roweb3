@@ -12,6 +12,8 @@ tags:
   - social media
   - mastodon
 description: "How to schedule Mastodon Posts using rtoot and GitHub Actions"
+params:
+  doi: "10.59350/as1ra-f9h57"
 ---
 
 A lot of what I do as rOpenSci's community assistant is related to social media.

@@ -11,6 +11,8 @@ description: 4 rOpenSci staff presentations at useR! 2021
 output:
   html_document:
     keep_md: yes
+params:
+  doi: "10.59350/yj6hk-4pz22"
 ---
 Are you putting together your useR!2021 conference schedule this weekend? Four rOpenSci staff and lots of community members are giving presentations and there's something for everyone!
 

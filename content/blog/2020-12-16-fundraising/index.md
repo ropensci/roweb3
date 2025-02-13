@@ -10,6 +10,8 @@ tags:
 description: If you're giving this season, please consider donating to rOpenSci
 # twitterImg: blog/2019/06/04/post-template/name-of-image.png
 # twitterAlt: Alternative description of the image
+params:
+  doi: "10.59350/394cd-g9919"
 ---
 The rOpenSci project is 100% supported by grants and donations. If you're giving this season, please consider [donating to rOpenSci](https://numfocus.salsalabs.org/donate-to-ropensci/index.html). Your donations allow us to support internships, contractors, web services, and community events.
 

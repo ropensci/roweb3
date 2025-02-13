@@ -7,6 +7,8 @@ topicid: 1223
 tags:
   - community
   - meetings
+params:
+  doi: "10.59350/gp8s4-sve17"
 ---
 
 You can find members of the rOpenSci team at various meetings and workshops around the world. Come say 'hi', learn about how our software [packages](/packages/) can enable your research, or about our process for open peer software [review and onboarding](/software-review/), how you can get connected with the [community](/community/) or tell us how we can help you do open and reproducible research.

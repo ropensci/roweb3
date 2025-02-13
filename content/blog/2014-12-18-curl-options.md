@@ -6,6 +6,8 @@ author: Scott Chamberlain
 tags:
   - API
   - curl
+params:
+  doi: "10.59350/2xjdr-1y756"
 ---
 
 

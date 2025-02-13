@@ -17,6 +17,8 @@ tags:
 description: tic simplifies CI tasks for R projects and now provides supercharged
   support for GitHub Actions. By enhancing the good work of [r-lib/actions](https://github.com/r-lib/actions)
   tic provides a DSL for R for CI tasks.
+params:
+  doi: "10.59350/7b4v9-96g92"
 ---
 
 ["Continuous Integration"](https://en.wikipedia.org/wiki/Continuous_integration) (CI) has become a standard for proper software development.

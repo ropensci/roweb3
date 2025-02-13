@@ -11,6 +11,8 @@ tags:
   - citations
   - metadata
   - packages
+params:
+  doi: "10.59350/yf89v-g8d70"
 ---
 
 Scientists rarely cite research software they use as part of a research project. As a consequence, the software and the time spent developing and maintaining it becomes an invisible scholarly contribution. Furthermore, this lack of visibility means that incentives to produce high quality, sustainable software are missing. Among many reasons why software is not cited, one is the lack of a clear citation information from package developers. In this tech note we provide some tips on how to make it really easy to cite your software.

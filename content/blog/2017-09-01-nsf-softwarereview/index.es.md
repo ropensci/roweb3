@@ -13,6 +13,8 @@ tags:
   - software
   - revisión por pares de software
   - comunidad
+params:
+  doi: "10.59350/qyq90-j0670"
 ---
 
 En rOpenSci, creamos y curamos software para ayudar a quienes hacen ciencia en el ciclo de vida de los datos. Estas herramientas acceden, descargan, gestionan y archivan datos científicos de forma abierta y reproducible. Desde el principio, nos dimos cuenta de que esto sólo podía ser un esfuerzo comunitario. La variedad de datos y flujos de trabajo científicos sólo podía abordarse recurriendo a los aportes de personas con conocimientos específicos en cada campo.

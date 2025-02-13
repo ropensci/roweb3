@@ -18,6 +18,8 @@ twitterImg: img/blog-images/2019-05-16-dev-guide-update/cover.png
 output: ~
 twitterAlt: tapa de la guia de desarrollo de rOpenSci que muestra una line ade produccion de paquetes con personas
   discutiendo, examinando y promoviendo paquets. 
+params:
+  doi: "10.59350/sce7g-vhp14 "
 ---
 
 Las orientaciones de la Revisión por Pares de Software de rOpenSci se compilan en un [libro en línea](https://devguide.ropensci.org/booknews) que sigue mejorando.

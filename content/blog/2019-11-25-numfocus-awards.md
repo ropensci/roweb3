@@ -9,6 +9,8 @@ featured: yes
 tags:
   - community
 twitterImg: img/blog-images/2019-11-25-numfocus-awards/nf-awards.png
+params:
+  doi: "10.59350/etwrf-xj448"
 ---
 rOpenSci thrives because of volunteer contributions from community members - submitting and reviewing R packages, serving as editors for software peer review, writing blog posts, sharing information about packages and resources, contributing code and documentation and answering others' questions. Recently our fiscal sponsor, NumFOCUS, gave us an opportunity to nominate two contributors for recognition at the NumFOCUS annual summit. Sometimes all we can do is publicly express our gratitude for the people who help make our software robust and sustainable, and make our community a welcoming place that adds value to people's experiences.
 

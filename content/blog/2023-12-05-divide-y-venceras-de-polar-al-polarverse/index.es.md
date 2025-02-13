@@ -10,6 +10,8 @@ tags:
   - comunidad
   - paquetes
   - desarrollo
+params:
+  doi: "10.59350/m6t40-y1z49"
 ---
 
 > *"Solo soy un politólogo, parado frente a la consola de R , pidiendole que le ayude a terminar una tesis"*

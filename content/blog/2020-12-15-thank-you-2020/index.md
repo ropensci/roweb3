@@ -12,6 +12,8 @@ featured: TRUE
 description: A list of thank you's to 100s of rOpenSci community members!
 # twitterImg: blog/2019/06/04/post-template/name-of-image.png
 # twitterAlt: Alternative description of the image
+params:
+  doi: "10.59350/sh0m0-ts610"
 ---
 
 In a year where it has been hard to pay attention to anything not critical to our day-to-day lives, you have continued to share your time, expertise, enthusiasm, and willingness to try things with us. Our [staff](/about/#team) of developers, researchers, and community builders work to create technical and social infrastructure to lower barriers to working with research data, and you, our community, continually help us push farther.

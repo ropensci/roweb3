@@ -8,6 +8,7 @@ slug: news-september-2023
 description: WebAssembly in R-universe, champions program updates, coworking, new packages and package news
 params:
   last_newsletter: "2023-08-25"
+  doi: "10.59350/7bmc1-xsy61"
 ---
 
 

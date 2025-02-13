@@ -20,6 +20,8 @@ output:
   md_document:
     variant: markdown_github
     preserve_yaml: yes
+params:
+  doi: "10.59350/kh536-79y67"
 ---
 
 Thanks to the [first post of the

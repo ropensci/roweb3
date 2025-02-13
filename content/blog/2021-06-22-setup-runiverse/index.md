@@ -9,6 +9,8 @@ tags:
   - r-universe
   - articles
   - tech notes
+params:
+  doi: "10.59350/bcsxd-0rq43"
 ---
 
 ## R-universe: your personal R space

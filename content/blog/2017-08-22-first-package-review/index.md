@@ -10,6 +10,8 @@ tags:
   - visdat
   - community
   - packages
+params:
+  doi: "10.59350/85szq-vhp61"
 ---
 
 Contributing to an open-source community _without_ contributing code is an oft-vaunted idea that can seem nebulous. Luckily, putting vague ideas into action is one of the strengths of the [rOpenSci Community](/community/), and their package onboarding system offers a chance to do just that.

@@ -19,6 +19,8 @@ package_version: 1.0.2
 description: Dynamite is a new R package for Bayesian modelling of complex panel data
   using dynamic multivariate panel models.
 tweet: A post about {dynamite} R package by @jouni_helske!
+params:
+  doi: "10.59350/fxxjw-1f295"
 ---
 
 ## Introduction

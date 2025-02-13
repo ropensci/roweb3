@@ -10,6 +10,8 @@ tags:
   - registry
   - packages
   - dashboard
+params:
+  doi: "10.59350/gqfs6-xwy52"
 ---
 
 ## Running your own package registry

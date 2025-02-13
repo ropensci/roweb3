@@ -12,6 +12,8 @@ tags:
   - genetics
   - scholarly literature
   - data access
+params:
+  doi: "10.59350/x8tce-kwy50"
 ---
 
 I am happy to say that the latest issue of _The R Journal_ [includes a paper

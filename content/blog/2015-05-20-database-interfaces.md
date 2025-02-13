@@ -8,6 +8,8 @@ tags:
   - key value
   - sql
   - nosql
+params:
+  doi: "10.59350/acs8s-z7n77"
 ---
 
 There are many different databases. The most familiar are row-column SQL databases like MySQL, SQLite, or PostgreSQL. Another type of database is the key-value store, which as a concept is very simple: you save a value specified by a key, and you can retrieve a value by its key. One more type is the document database, which instead of storing rows and columns, stores blobs of text or even binary files. The key-value and document types fall under the NoSQL umbrella. As there are mature R clients for many SQL databases, and [dplyr](https://github.com/hadley/dplyr) is a great generic interface to SQL backends  (see [`dplyr` vignettes](https://cran.rstudio.com/web/packages/dplyr/) for an intro), we won't delve into SQL clients here.

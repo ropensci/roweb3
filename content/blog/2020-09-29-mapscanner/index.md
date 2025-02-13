@@ -15,6 +15,8 @@ description: The mapscanner package enables lines drawn by hand on maps to be co
   to spatial objects
 twitterImg: blog/2020/09/29/mapscanner/poly-aggr-plot.png
 twitterAlt: Polygons aggregated with mapscanner::ms_aggregate_polys()
+params:
+  doi: "10.59350/5m1mb-w9s32"
 ---
 
 ## mapscanner

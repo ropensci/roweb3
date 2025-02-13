@@ -15,6 +15,8 @@ tags:
 description: "rOpenSci ha desarrollado un conjunto de directrices para ayudar a nuestra
   comunidad a traducir y localizar nuestros recursos. Nos complace compartir la primera
   versión de la Guia de Traducción y Localización de rOpenSci."
+params:
+  doi: "10.59350/spdq4-ywb23"
 ---
 
 Desde 2022, rOpenSci ha estado desarrollando herramientas y procesos para localizar y traducir nuestros contenidos.

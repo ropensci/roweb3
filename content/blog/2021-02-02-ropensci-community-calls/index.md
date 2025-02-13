@@ -12,6 +12,8 @@ description: "Tips from choosing a topic to capturing outcomes"
 preface: "In December 2020, Stefanie Butland, rOpenSci’s Community Manager, gave a presentation on community calls for Code for Science & Society Event Fund grantees and fiscally-sponsored project leaders. Emily Lescak, CS&S Event Fund Manager, led the discussion. This post builds on [the summary post](https://eventfund.codeforscience.org/community-call/) from that session."
 twitterImg: blog/2021/02/02/ropensci-community-calls/commcalls-img.png
 twitterAlt: "collage of images from community calls with 3 Zoom views of speakers, a notes doc and view of someone's screen"
+params:
+  doi: "10.59350/e8ywd-tet41"
 ---
 
 rOpenSci community calls are online events with the fundamental goal of strengthening our community. We have the additional goals of reinforcing our mission and values, informing people on technical and social topics, bringing different stakeholders’ perspectives to light, and identifying unmet needs on a topic. 

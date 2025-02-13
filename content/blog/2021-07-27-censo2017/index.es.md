@@ -20,6 +20,8 @@ tags:
   - censo2017
 description: >
   Las tablas del Censo de Chile al instante.
+params:
+  doi: "10.59350/wjm2f-n8z42"
 ---
 
 ## Resumen

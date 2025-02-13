@@ -5,6 +5,8 @@ date: '2015-03-10'
 author: Os Keyes
 tags:
   - GitHub
+params:
+  doi: "10.59350/nvgd4-t4s24"
 ---
 
 There are two things that make R such a wonderful programming environment - the vast number of packages to access, process and interpret

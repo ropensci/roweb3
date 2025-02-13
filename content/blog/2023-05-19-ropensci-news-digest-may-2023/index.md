@@ -9,6 +9,7 @@ tags:
 description: statistical software review, csv,conf, R-universe data exports, HTTP testing in R
 params:
   last_newsletter: "2023-04-21"
+  doi: "10.59350/rh54h-9hf52"
 ---
 
 

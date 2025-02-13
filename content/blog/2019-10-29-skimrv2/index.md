@@ -13,6 +13,8 @@ tags:
   - packages
   - community
   - skimr
+params:
+  doi: "10.59350/mzs5m-sav43"
 ---
 
 [Theme song: *PSA* by Jay-Z](https://www.youtube.com/watch?v=-LzdKH1naok)

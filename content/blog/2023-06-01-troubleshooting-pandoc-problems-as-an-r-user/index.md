@@ -17,6 +17,8 @@ tags:
   - markdown
   - tech notes
 description: "How to solve your Pandoc problems thanks to documentation reading, experimentation... and a bit of experience 😅 "
+params:
+  doi: "10.59350/k7p56-j8497"
 ---
 
 The Pandoc CLI by [John MacFarlane](https://johnmacfarlane.net/) is a really useful tool: for instance, rOpenSci community manager Yanina Bellini Saibene recently asked Maëlle whether she could convert a Google Document into a Quarto book.

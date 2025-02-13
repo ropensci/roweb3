@@ -10,6 +10,7 @@ tags:
 description: Community call recording, one-page HTML package docs, R-universe stars interview, coworking
 params:
   last_newsletter: '2022-11-18'
+  doi: "10.59350/zw3bh-xx723"
 ---
 
 

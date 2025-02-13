@@ -8,6 +8,8 @@ tags:
   - conditions
   - conditionz
   - tech notes
+params:
+  doi: "10.59350/qd8vz-zm169"
 ---
 
 

@@ -10,6 +10,8 @@ tags:
   - registry
   - packages
   - dashboard
+params:
+  doi: "10.59350/ca62f-rtm78"
 ---
 
 

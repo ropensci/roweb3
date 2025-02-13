@@ -13,6 +13,8 @@ tags:
   - tesseract
   - av
   - tech notes
+params:
+  doi: "10.59350/wwyk7-1yt02"
 ---
 
 Image processing is one of the core focus areas of rOpenSci. Over the last few months we have released several major upgrades to core packages in our imaging suite, including [magick](https://docs.ropensci.org/magick), [tesseract](https://docs.ropensci.org/tesseract), and [av](https://docs.ropensci.org/av). This post highlights a few cool new features.
