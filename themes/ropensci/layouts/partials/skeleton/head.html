@@ -82,7 +82,10 @@
 <meta name="citation_date" content="{{ .PublishDate }}">
 <meta name="citation_language" content= "{{ .Language.Lang }}">
 
-<meta name="citation_doi" content= "{{ (partial "blogs/doi" ( dict "RelPermalink" .RelPermalink )) }}">
+{{ $doi := .Params.doi }}
+{{ if ne $doi "" }}
+  <meta name="citation_doi" content= "{{ printf "https://doi.org/%s" $doi }}">
+{{ end }}
 {{ end }}
 {{ end }}
 {{ if .Params.math }}
