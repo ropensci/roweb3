@@ -23,7 +23,7 @@
        {{  $data.Set "authors" (slice .Params.author) }}
     {{ end }}
 			{
-				"id": "{{ .Params.doi }}",
+				"id": "{{ printf "https://doi.org/%s" .Params.doi }}",
 				"title": "{{ .Title }}",
 				"language" : "{{ .Lang }}",
 				"authors": [{{ range $i, $e := ($data.Get "authors") }}{{ range first 1 (where ($data.Get "pages") ".Params.name" $e) }}{{ $params := .Params }}{{ $name := $params.name }}{{ if $i }}, {{ end }}{{ range first 1 (where ($data.Get "pages") ".Params.name" $e) }}
