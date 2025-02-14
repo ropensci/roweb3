@@ -87,11 +87,10 @@
 },
 {
    "name": "Mark Padgham",
-   "affiliation": "Software Research Scientist",
+   "affiliation": "Software Review Lead",
    "url": "/author/mark-padgham",
    "image" : "/img/team/mark-padgham.jpg",
    "roles": [
-      "Software-Review-Lead",
       "staff",
       "editor"
    ],
