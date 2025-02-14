@@ -49,7 +49,7 @@ We are thankful to the documentation reviewers [Lluís Revilla](/author/lluís-r
 
 The documentation website is linked from the [R-universe dashboard](https://r-universe.dev/search).
 
-We've also _embedded_ documentation into the website: each package page, like [textreuse's](https://ropensci.r-universe.dev/textreuse), has a "Website tour" button in the navbar, that guides you through all the information displayed on the page.
+We've also _embedded_ documentation into the website: each package page, like [textreuse's](https://ropensci.r-universe.dev/textreuse), has a ["Website tour" button](https://docs.r-universe.dev/browse/packages.html#website-tour) in the navbar, that guides you through all the information displayed on the page.
 Note that the website tour is not available on mobile.
 
 ## A streamlined docs experience
