@@ -5,7 +5,6 @@
    "image" : "/img/team/noam_ross.png",
    "affiliation" : "Executive Director",
    "roles": [
-      "Software Review Lead",
       "editor"
    ],
    "generalreview": true,
@@ -92,9 +91,8 @@
    "url": "/author/mark-padgham",
    "image" : "/img/team/mark-padgham.jpg",
    "roles": [
+      "Software-Review-Lead",
       "staff",
-      "researcher",
-      "developer",
       "editor"
    ],
    "stats": true,
