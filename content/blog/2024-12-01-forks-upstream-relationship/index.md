@@ -7,6 +7,8 @@ author:
 - Stefanie Butland
 - Ruby Krasnow 
 editor: Steffi LaZerte
+params:
+  doi: 10.59350/5n1pv-3sg04
 tags:
 - community
 - meetings
