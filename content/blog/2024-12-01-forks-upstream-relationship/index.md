@@ -24,7 +24,7 @@ tags:
 rOpenSci organizes [monthly co-working hours](/coworking/) on a variety of topics.
 But the constant is the quality of the discussion that ensues and the renewed energy that comes from it.
 
-The November coworking session welcomed Stefanie Butland from [openscapes](https://www.openscapes.org/) as a co-host.
+The November coworking session welcomed Stefanie Butland from [Openscapes](https://www.openscapes.org/) as a co-host.
 She shared Openscapes' approach of ["Forking as a worldview"](https://docs.google.com/presentation/d/1aL0TVFM7xxzTCJoE3tEArDE32wh59wkmBCy6Vcmwvy4/).
 Forks in the open-source software world refer to copies of an existing open-source project that add their own changes on top of the original codebase.
 Openscapes is extending this classic software development interpretation to an even more open philosophy of encouraging people to take anything that works to new places.
@@ -67,7 +67,7 @@ And why is it in the interest of everyone (not only the fork owners, but also up
 ### Simplifying syncs and reducing git conflicts {#simplifying-syncs}
 
 Going back to the example of organizations forking the Carpentries workbench,
-Hugo has [forked for the workbench](https://github.com/epiverse-trace/varnish/pull/7) to customize [Epiverse-TRACE lessons with their own branding](https://epiverse-trace.github.io/tutorials).
+Hugo has [forked the workbench](https://github.com/epiverse-trace/varnish/pull/7) to customize [Epiverse-TRACE lessons with their own branding](https://epiverse-trace.github.io/tutorials).
 Indeed, the Carpentries workbench provides a fully free and open-source learning management system,
 which has accessibility features and pedagogical best practices built-in.
 It makes sense for external organizations, beyond the Carpentries themselves, to use the workbench as the infrastructure to build and host their training materials.
@@ -90,10 +90,10 @@ and of separating changes a fork may want to implement from the core codebase a 
 
 Although these changes need to take place in the upstream repository,
 it doesn't necessarily mean that the upstream maintainers are responsible for making these changes.
-Forks maintainers are both the beneficiaries and the best placed to identify required changes,
+Fork maintainers are both the beneficiaries and the best placed to identify required changes,
 and should be encouraged to submit pull requests to upstream to make these changes.
 
-In the example of the Carpentries workbench, [Hugo submitted a pull request to a Sass variable to change the font](https://github.com/carpentries/varnish/pull/151), 
+In the example of the Carpentries workbench, [Hugo submitted a pull request to implement a Sass variable for defining the font](https://github.com/carpentries/varnish/pull/151), 
 removing the need to change it in multiple locations.
 
 On the fork's side, some other techniques can also make conflict resolution smoother.
@@ -131,16 +131,15 @@ It can also build confidence to show that you've been using this feature for a w
 
 In the ecosystem of the Carpentries workbench forks, a good example is a contributor exploring python support in their own fork and [contributing it back to upstream](https://github.com/carpentries/sandpaper/pull/448).
 
-Note that this is not always possible to integrate back your changes as upstream may have a restricted scope, or limited resources for maintenance.
+Note that it is not always possible to integrate your changes as upstream may have a restricted scope, or limited resources for maintenance.
 
 When contributing back, each pull request should focus on a single feature or bug fix, rather than pushing all changes the fork has accumulated.
-It can also build confidence to show that you've been using this feature for a while without issues.
 
 ### It takes two to tango
 
 Getting forks to contribute back is only possible if they can stay in touch with upstream.
 Indeed, forks that have diverged too much from upstream will have a hard time contributing back, and making nice palatable pull requests.
-In other words, communication, and where possible, following the steps outlined in the ["Simplifying syncs and reducing git conflicts"](#simplifying-syncs) section are key to ensuring forks can more easily stay in sync.
+In other words, communication, and where possible, following the steps outlined in the ["Simplifying syncs and reducing git conflicts"](#simplifying-syncs) section above are key to ensuring forks can more easily stay in sync.
 
 Conversely, forks benefit from contributing to upstream as it can reduce their maintenance burden.
 They can either make it easier to sync by reducing the number of changes required to implement their customizations,
