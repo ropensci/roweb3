@@ -1,6 +1,6 @@
 ---
 slug: "forks-upstream-relationship"
-title: The dynamic relationship of forks with their upstream repository
+title: The Dynamic Relationship of Forks with their Upstream Repository
 date: '2024-12-08'
 author: 
 - Hugo Gruson
