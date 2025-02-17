@@ -74,8 +74,9 @@ Our [pkgcheck](https://docs.ropensci.org/pkgcheck/) package is used both for our
 It now features two additional checks:
 
 - A check that packages do not [list excessive numbers of package _Imports_](https://docs.ropensci.org/pkgcheck/articles/list-checks.html#pkgchk_num_imports).
-  Packages which imports exceeding the 95% of current CRAN packages will receive an :eyes: note.
+  Packages with numbers of imports exceeding the 95% of current CRAN packages (which is currently 21 imported packages) will receive an :eyes: note.
 - A check that repositories do not [name the default GitHub branch "master"](https://docs.ropensci.org/pkgcheck/articles/list-checks.html#pkgchk_branch_is_master), and will fail if so.
+  See [this tidyverse blog post](https://www.tidyverse.org/blog/2021/10/renaming-default-branch/) for helpful advice on renaming default branches.
 
 The [pkgcheck-action](https://github.com/ropensci-review-tools/pkgcheck-action) has also been updated to run on Ubuntu 24.04, and to include quarto to enable packages to use [Quarto](https://quarto.org/) as a vignette engine.
 
