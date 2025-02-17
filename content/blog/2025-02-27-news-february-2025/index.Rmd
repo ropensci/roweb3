@@ -70,7 +70,8 @@ During this session you’ll join others making contributions to R packages whil
 
 ### New pkgcheck checks
 
-Our pkgcheck package used both for our submission checks, and in [pkgcheck-action](https://github.com/ropensci-review-tools/pkgcheck-action) now has two additional checks:
+Our [pkgcheck](https://docs.ropensci.org/pkgcheck/) package is used both for our [software review](/software-review/) submission checks, and in [pkgcheck-action](https://github.com/ropensci-review-tools/pkgcheck-action).
+It now features two additional checks:
 
 - A check that packages [do not list excessive numbers of package _Imports_](https://docs.ropensci.org/pkgcheck/articles/list-checks.html#pkgchk_num_imports).
   Packages which imports exceeding the 95% of current CRAN packages will receive an :eyes: note.
