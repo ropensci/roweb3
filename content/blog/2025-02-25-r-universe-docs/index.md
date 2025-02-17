@@ -16,8 +16,9 @@ params:
 ---
 
 In 2021, rOpenSci created [R-universe](https://r-universe.dev), a platform for building, testing, distributing and discovering R packages.
-Although the R-universe project had already been broadly adopted by developers, users, and organizations, our development had outpaced our documentation.
-It remained difficult for developers to discover and make use of all its features because the documentation was fragmented: We had a project page on our organization's website that provided a broad overview, various technical notes about individual feature releases, an ad-hoc list of frequently asked questions on a project's GitHub README, and a GitHub discussion board.
+Although the R-universe project had already been broadly adopted by developers, users, and organizations, 
+it remained difficult for developers to discover and make use of all its features because the documentation was fragmented: 
+we had a project page on our organization's website that provided a broad overview, various technical notes about individual feature releases, an ad-hoc list of frequently asked questions on a project's GitHub README, and a GitHub discussion board.
 We noticed that even advanced users often did not know about key features or use cases.
 
 Thanks to funding by [Google Season of Docs](/blog/2024/04/12/gsod-announcement/), we set out to create a comprehensive, central documentation site for developers and users, disambiguate the different sources of information, and provide infrastructure and a process to more easily maintain documentation in the future.
