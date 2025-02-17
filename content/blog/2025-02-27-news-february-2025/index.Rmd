@@ -77,7 +77,7 @@ It now features two additional checks:
   Packages which imports exceeding the 95% of current CRAN packages will receive an :eyes: note.
 - A check that repositories do not [name the default GitHub branch "master"](https://docs.ropensci.org/pkgcheck/articles/list-checks.html#pkgchk_branch_is_master), and will fail if so.
 
-The [pkgcheck-action](https://github.com/ropensci-review-tools/pkgcheck-action) has also been updated to run on Ubuntu 24.04, and to include quarto to enable packages to use quarto as a vignette engine.
+The [pkgcheck-action](https://github.com/ropensci-review-tools/pkgcheck-action) has also been updated to run on Ubuntu 24.04, and to include quarto to enable packages to use [Quarto](https://quarto.org/) as a vignette engine.
 
 ## Software :package:
 
