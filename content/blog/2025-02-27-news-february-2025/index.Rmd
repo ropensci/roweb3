@@ -68,6 +68,16 @@ During this session you’ll join others making contributions to R packages whil
 
 - [Tuesday March 4th 14:00 European Central (13:00 UTC)](https://ropensci.org/events/coworking-2025-03)
 
+### New pkgcheck checks
+
+Our pkgcheck package used both for our submission checks, and in [pkgcheck-action](https://github.com/ropensci-review-tools/pkgcheck-action) now has two additional checks:
+
+- A check that packages [do not list excessive numbers of package _Imports_](https://docs.ropensci.org/pkgcheck/articles/list-checks.html#pkgchk_num_imports).
+  Packages which imports exceeding the 95% of current CRAN packages will receive an :eyes: note.
+- A check that repositories [do not name the default GitHub branch "master"](https://docs.ropensci.org/pkgcheck/articles/list-checks.html#pkgchk_branch_is_master), and will fail if so.
+
+The [pkgcheck-action](https://github.com/ropensci-review-tools/pkgcheck-action) has also been updated to run on Ubuntu 24.04, and to include quarto to enable packages to use quarto as a vignette engine.
+
 ## Software :package:
 
 ### New packages
