@@ -1,7 +1,7 @@
 ---
 slug: "forks-upstream-relationship"
 title: The Dynamic Relationship of Forks with their Upstream Repository
-date: '2024-02-20'
+date: '2025-02-20'
 author: 
 - Hugo Gruson
 - Stefanie Butland
