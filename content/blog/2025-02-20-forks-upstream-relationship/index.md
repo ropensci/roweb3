@@ -10,7 +10,7 @@ editor: Steffi LaZerte
 params:
   doi: 10.59350/5n1pv-3sg04
 crossposts:
-- name: Openscapes Blog
+- name: Openscapes
   url: https://openscapes.org/blog/2025-02-20-forks-upstream-relationship
 tags:
 - community
