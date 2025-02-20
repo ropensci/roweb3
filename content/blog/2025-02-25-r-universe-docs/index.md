@@ -18,7 +18,7 @@ params:
 Since the initial launch in 2021, our [R-universe](https://r-universe.dev) platform has steadily grown into a comprehensive infrastructure for publishing and discovering R material.
 As functionality keeps evolving and community adoption increases, we felt the need for a central documentation point.
 
-New features and developments are generally discussed in the [issue tracker](https://github.com/r-universe-org/help/issues) or [discussion board](https://github.com/r-universe-org/help/discussions), and sometimes on the [ropensci blog](/technotes/).
+New features and developments are generally discussed in the [issue tracker](https://github.com/r-universe-org/help/issues) or [discussion board](https://github.com/r-universe-org/help/discussions), and sometimes on the [rOpenSci blog](/technotes/).
 Technical details can be found in the README files and source code of the respective repositories under [r-universe-org](https://github.com/r-universe-org/)that contain all the workflows, actions, and server code (the R-universe system is entirely is open source).
 This fragmentation can make it difficult to find up-to-date information, especially for new users.
 
