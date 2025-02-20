@@ -53,9 +53,11 @@ During this session you’ll join others making contributions to R packages whil
 
 
 
-The following two packages recently became a part of our software suite:
+The following three packages recently became a part of our software suite:
 
 + [commonmetar](https://docs.ropensci.org/commonmetar), developed by Maëlle Salmon: Uses the commonmeta Go library to generate random DOI strings. 
+
++ [repometrics](https://docs.ropensci.org/repometrics), developed by Mark Padgham: Metrics for your code repository. Call one function to generate an interactive dashboard displaying the state of your code. 
 
 + [QuadratiK](https://docs.ropensci.org/QuadratiK), developed by Giovanni Saraceno together with Marianthi Markatou, Raktim Mukhopadhyay, and Mojgan Golzy: It includes test for multivariate normality, test for uniformity on the d-dimensional Sphere, non-parametric two- and k-sample tests, random generation of points from the Poisson kernel-based density and clustering algorithm for spherical data. For more information see Saraceno G., Markatou M., Mukhopadhyay R. and Golzy M. (2024) <doi:10.48550/arXiv.2402.02290> Markatou, M. and Saraceno, G. (2024) <doi:10.48550/arXiv.2407.16374>, Ding, Y., Markatou, M. and Saraceno, G. (2023) <doi:10.5705/ss.202022.0347>, and Golzy, M. and Markatou, M. (2020) <doi:10.1080/10618600.2020.1740713>.  It is available on [CRAN]( https://CRAN.R-project.org/package=QuadratiK). It has been [reviewed](https://github.com/ropensci/software-review/issues/632) by Hingee Kassel and Emi Tanaka.
 
@@ -65,7 +67,7 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following twelve packages have had an update since the last newsletter: [agroclimatico](https://docs.ropensci.org/agroclimatico "Índices y Estadísticos Climáticos e Hidrológicos") ([`1.1.1`](https://github.com/ropensci/agroclimatico/releases/tag/1.1.1)), [biomartr](https://docs.ropensci.org/biomartr "Genomic Data Retrieval") ([`v1.0.10`](https://github.com/ropensci/biomartr/releases/tag/v1.0.10)), [c14bazAAR](https://docs.ropensci.org/c14bazAAR "Download and Prepare C14 Dates from Different Source Databases") ([`5.1.0`](https://github.com/ropensci/c14bazAAR/releases/tag/5.1.0)), [getCRUCLdata](https://docs.ropensci.org/getCRUCLdata "CRU CL v. 2.0 Climatology Client") ([`v1.0.3`](https://github.com/ropensci/getCRUCLdata/releases/tag/v1.0.3)), [gigs](https://docs.ropensci.org/gigs "Assess Fetal, Newborn, and Child Growth with International Standards") ([`v0.5.2`](https://github.com/ropensci/gigs/releases/tag/v0.5.2)), [riem](https://docs.ropensci.org/riem "Accesses Weather Data from the Iowa Environment Mesonet") ([`v1.0.0`](https://github.com/ropensci/riem/releases/tag/v1.0.0)), [rredlist](https://docs.ropensci.org/rredlist "IUCN Red List Client") ([`v1.0.0`](https://github.com/ropensci/rredlist/releases/tag/v1.0.0)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.12.0`](https://github.com/ropensci/tarchetypes/releases/tag/0.12.0)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.10.1`](https://github.com/ropensci/targets/releases/tag/1.10.1)), [taxize](https://docs.ropensci.org/taxize "Taxonomic Information from Around the Web") ([`v0.10.0`](https://github.com/ropensci/taxize/releases/tag/v0.10.0)), [weathercan](https://docs.ropensci.org/weathercan "Download Weather Data from Environment and Climate Change Canada") ([`v0.7.3`](https://github.com/ropensci/weathercan/releases/tag/v0.7.3)), and [webmockr](https://docs.ropensci.org/webmockr "Stubbing and Setting Expectations on HTTP Requests") ([`v2.0.0`](https://github.com/ropensci/webmockr/releases/tag/v2.0.0)).
+The following thirteen packages have had an update since the last newsletter: [agroclimatico](https://docs.ropensci.org/agroclimatico "Índices y Estadísticos Climáticos e Hidrológicos") ([`1.1.1`](https://github.com/ropensci/agroclimatico/releases/tag/1.1.1)), [BaseSet](https://docs.ropensci.org/BaseSet "Working with Sets the Tidy Way") ([`v1.0.0`](https://github.com/ropensci/BaseSet/releases/tag/v1.0.0)), [biomartr](https://docs.ropensci.org/biomartr "Genomic Data Retrieval") ([`v1.0.10`](https://github.com/ropensci/biomartr/releases/tag/v1.0.10)), [c14bazAAR](https://docs.ropensci.org/c14bazAAR "Download and Prepare C14 Dates from Different Source Databases") ([`5.1.0`](https://github.com/ropensci/c14bazAAR/releases/tag/5.1.0)), [getCRUCLdata](https://docs.ropensci.org/getCRUCLdata "CRU CL v. 2.0 Climatology Client") ([`v1.0.3`](https://github.com/ropensci/getCRUCLdata/releases/tag/v1.0.3)), [gigs](https://docs.ropensci.org/gigs "Assess Fetal, Newborn, and Child Growth with International Standards") ([`v0.5.2`](https://github.com/ropensci/gigs/releases/tag/v0.5.2)), [riem](https://docs.ropensci.org/riem "Accesses Weather Data from the Iowa Environment Mesonet") ([`v1.0.0`](https://github.com/ropensci/riem/releases/tag/v1.0.0)), [rredlist](https://docs.ropensci.org/rredlist "IUCN Red List Client") ([`v1.0.0`](https://github.com/ropensci/rredlist/releases/tag/v1.0.0)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.12.0`](https://github.com/ropensci/tarchetypes/releases/tag/0.12.0)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.10.1`](https://github.com/ropensci/targets/releases/tag/1.10.1)), [taxize](https://docs.ropensci.org/taxize "Taxonomic Information from Around the Web") ([`v0.10.0`](https://github.com/ropensci/taxize/releases/tag/v0.10.0)), [weathercan](https://docs.ropensci.org/weathercan "Download Weather Data from Environment and Climate Change Canada") ([`v0.7.3`](https://github.com/ropensci/weathercan/releases/tag/v0.7.3)), and [webmockr](https://docs.ropensci.org/webmockr "Stubbing and Setting Expectations on HTTP Requests") ([`v2.0.0`](https://github.com/ropensci/webmockr/releases/tag/v2.0.0)).
 
 ## Software Peer Review
 
@@ -122,6 +124,17 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 
 * [Open Science and Open Source only with Diversity, Equity, Inclusion, and Accessibility](/blog/2025/02/05/no-science-without-deia) by The rOpenSci Team. Including all of humanity is and always will be at the heart of open science. Other languages: <a href='/es/blog/2025/02/05/no-ciencia-sin-deia' lang='es'>Ciencia Abierta y Código Abierto sólo con Diversidad, Equidad, Inclusión y Accesibilidad (es)</a>.
+
+
+## Use cases
+
+
+
+One use case of our packages and resources has been reported since we sent the last newsletter.
+
+* [METAR analysis for flight conditions](https://discuss.ropensci.org/t/metar-analysis-for-flight-conditions/4174). Reported by Maëlle Salmon.
+
+Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)!
 
 ## Calls for contributions
 
