@@ -162,4 +162,4 @@ Do you plan trying to contribute back to upstream?
 What challenges have you faced? 
 What techniques have you found useful to maintain your fork?
 
-**Thank you to Daniel Morillo, John Ellis, Mark Padgham, Pablo Serrati, Richard Litt, Sergio Cabrera, Will Gearty and Yanina Bellini Saibene for their insights during the coworking session and their comments during the production of this post.**
+**Thank you to Daniel Morillo, John Ellis, Mark Padgham, Pablo Serrati, Richard Littauer, Sergio Cabrera, Will Gearty and Yanina Bellini Saibene for their insights during the coworking session and their comments during the production of this post.**
