@@ -9,6 +9,7 @@ tags:
 description: Mini-hackathons, coworking, new package and package news
 params:
   last_newsletter: '2025-01-27'
+  doi: "10.59350/kjhev-zgn32"
 ---
 
 
@@ -40,11 +41,30 @@ Our community call ["From Novice to Contributor: Making and Supporting First-Tim
 Read [all about coworking](/blog/2023/06/21/coworking/)!
 
 Join us for our second [Coworking Mini-Hackatho for First-Time Contributors](/events/coworking-2025-03/). 
-If you’re curious about contributing to Open Source Software, and would like some support to get started, this event are for you!
+If you’re curious about contributing to Open Source Software, and would like some support to get started, this event is for you!
 
 During this session you’ll join others making contributions to R packages while [package maintainers and other mentors](/blog/2024/10/22/first-time-contributions/) are available ’live’ to answer questions and give guidance.
 
-- [Tuesday March 4th 14:00 European Central (13:00 UTC)](https://ropensci.org/events/coworking-2025-03)
+- [Tuesday March 4th 14:00 European Central (13:00 UTC)](/events/coworking-2025-03)
+After this we return to our regular monthly social coworking & office hours held on first Tuesdays! Hosted by Steffi LaZerte and various community hosts. Everyone welcome. No RSVP needed. Consult our [Events](/events/) page to find your local time and how to join.
+
+- [Tuesday April 1st 9:00 Americas Pacific (16:00 UTC)](/events/coworking-2025-04), "R you joking? Silly R packages for April Fools' day" with [Steffi LaZerte](/author/steffi-lazerte/) and [Yanina Bellini Saibene](/author/yanina-bellini-saibene/)
+    - Explore silly R packages
+    - Chat with our hosts and other attendees and share your favourite silly R packages!
+
+And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
+
+### New pkgcheck checks
+
+Our [pkgcheck](https://docs.ropensci.org/pkgcheck/) package is used both for our [software review](/software-review/) submission checks, and in [pkgcheck-action](https://github.com/ropensci-review-tools/pkgcheck-action).
+It now features two additional checks:
+
+- A check that packages do not [list excessive numbers of package _Imports_](https://docs.ropensci.org/pkgcheck/articles/list-checks.html#pkgchk_num_imports).
+  Packages with numbers of imports exceeding the 95% of current CRAN packages (which is currently 21 imported packages) will receive an :eyes: note.
+- A check that repositories do not [name the default GitHub branch "master"](https://docs.ropensci.org/pkgcheck/articles/list-checks.html#pkgchk_branch_is_master), and will fail if so.
+  See [this tidyverse blog post](https://www.tidyverse.org/blog/2021/10/renaming-default-branch/) for helpful advice on renaming default branches.
+
+The [pkgcheck-action](https://github.com/ropensci-review-tools/pkgcheck-action) has also been updated to run on Ubuntu 24.04, and to include quarto to enable packages to use [Quarto](https://quarto.org/) as a vignette engine.
 
 ## Software :package:
 
@@ -71,9 +91,9 @@ The following thirteen packages have had an update since the last newsletter: [a
 
 ## Software Peer Review
 
-There are sixteen recently closed and active submissions and 4 submissions on hold. Issues are at different stages: 
+There are sixteen recently closed and active submissions and 5 submissions on hold. Issues are at different stages: 
 
-* Three at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A6/approved):
+* Three at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%226/approved%22):
 
      * [rredlist](https://github.com/ropensci/software-review/issues/663), IUCN Red List Client. Submitted by [William Gearty](http://williamgearty.com). 
 
@@ -81,7 +101,7 @@ There are sixteen recently closed and active submissions and 4 submissions on ho
 
     * [QuadratiK](https://github.com/ropensci/software-review/issues/632), A Collection of Methods Using Kernel-Based Quadratic Distances for. Submitted by [Giovanni Saraceno](https://github.com/giovsaraceno).  (Stats).
 
-* Four at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A4/review(s)-in-awaiting-changes):
+* Four at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%224/review(s)-in-awaiting-changes%22):
 
      * [geotargets](https://github.com/ropensci/software-review/issues/675), Targets Extensions for Geospatial Formats. Submitted by [Nicholas Tierney](https://www.njtierney.com). 
 
@@ -91,7 +111,7 @@ There are sixteen recently closed and active submissions and 4 submissions on ho
 
     * [pangoling](https://github.com/ropensci/software-review/issues/575), Access to Large Language Model Predictions. Submitted by [Bruno Nicenboim](https://bnicenboim.github.io/). 
 
-* Four at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A3/reviewer(s)-assigned):
+* Four at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%223/reviewer(s)-assigned%22):
 
      * [butterfly](https://github.com/ropensci/software-review/issues/676), Verification For Continually Updating Timeseries Data. Submitted by [Thomas Zwagerman](https://thomaszwagerman.co.uk/). 
 
@@ -101,13 +121,13 @@ There are sixteen recently closed and active submissions and 4 submissions on ho
 
     * [fwildclusterboot](https://github.com/ropensci/software-review/issues/546), Fast Wild Cluster Bootstrap Inference for Linear Models. Submitted by [Alexander Fischer](https://s3alfisc.github.io/blog/).  (Stats).
 
-* Two at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A2/seeking-reviewer(s)):
+* Two at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%222/seeking-reviewer(s)%22):
 
      * [gtexr](https://github.com/ropensci/software-review/issues/684), Query the GTEx Portal API. Submitted by [Alasdair Warwick](https://github.com/rmgpanw). 
 
     * [galamm](https://github.com/ropensci/software-review/issues/615), Generalized Additive Latent and Mixed Models. Submitted by [Øystein Sørensen](https://osorensen.rbind.io).  (Stats).
 
-* Three at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A1/editor-checks):
+* Three at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%221/editor-checks%22):
 
      * [sasquatch](https://github.com/ropensci/software-review/issues/673), Use SAS, R, and quarto Together. Submitted by [Ryan Zomorrodi](http://ryanzomorrodi.github.io). 
 
