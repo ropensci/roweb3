@@ -360,7 +360,7 @@ if (no_holding > 0) {
 
 count_label <- function(label) {
   no <- snakecase::to_sentence_case(english(sum(issues$label == label, na.rm = TRUE)))
-  url <- paste0("https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A", label)
+  url <- glue::glue('https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22{label}%22')
   sprintf("* %s at ['%s'](%s):\n\n %s", no, label, url, paste0(issues$text[!is.na(issues$label)][ issues$label == label], collapse = "\n\n"))
 }
 
