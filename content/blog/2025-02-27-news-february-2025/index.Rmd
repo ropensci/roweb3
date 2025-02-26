@@ -48,7 +48,8 @@ Now let's dive into the activity at and around rOpenSci!
 
 Including all of humanity is and always will be at the heart of open science.
 Read more about our mission in our [blog post](/blog/2025/02/05/no-science-without-deia/).
-
+### Mark Padgham is now Software Review Lead
+[Mark Padgham](./author/mark-padgham) is now lead for software peer review. Noam Ross, the former lead, became Executive Director last year.
 ### "This is Tech Talks" episode with Yanina Bellini Saibene
 
 Yanina Bellini Saibene was interviewed by Santosh Yadav about her role as rOpenSci community manager.
