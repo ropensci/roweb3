@@ -1,14 +1,15 @@
 ---
-slug: "post-template"
-title: Latest rOpenSci News Digest
+slug: "news-february-2025"
+title: rOpenSci News Digest, February 2025
 author:
   - The rOpenSci Team
-date: '2022-01-16'
+date: '2025-02-27'
 tags:
   - newsletter
-description: keywords from the content
+description: DEIA, New rOpenSci Champion(a|e)s Program cohort, new Software Review Lead
 params:
-  last_newsletter: "2022-05-20"
+  last_newsletter: '2025-01-27'
+  doi: "10.59350/kjhev-zgn32"
 ---
 
 ```{r setup, include=FALSE}
@@ -31,7 +32,7 @@ nice_string <- function(...) {
   if (length(...) == 2) {
     return(paste(c(...), collapse = " and "))
   }
-  glue::glue_collapse(..., sep = ", ", last = ", and ")
+  glue::glue_collapse(trimws(...), sep = ", ", last = ", and ")
 }
 ```
 <!-- Before sending DELETE THE INDEX_CACHE and re-knit! -->
@@ -43,13 +44,65 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-<!-- to be curated manually -->
+### Open Science and Open Source only with Diversity, Equity, Inclusion, and Accessibility
 
-<!-- Can use same coworking text every month and ping Steffi to ask if there are any special guests to add -->
-Join us for social coworking & office hours monthly on 1st Tuesdays! Hosted by Steffi LaZerte  and various community hosts. Everyone welcome. No RSVP needed. Consult our [Events](/events) page to find your local time and how to join.
+Including all of humanity is and always will be at the heart of open science.
+Read more about our mission in our [blog post](/blog/2025/02/05/no-science-without-deia/).
+
+### Mark Padgham is now Software Review Lead
+
+[Mark Padgham](/author/mark-padgham) is now lead for software peer review. Noam Ross, the former lead, became Executive Director [last year](/blog/2024/03/29/hello-from-our-new-executive-director/).
+
+### New rOpenSci Champion(a|e)s Program cohort
+
+We have great news!  We will have a new cohort of our [Champion(a|e) Program](/champions/) during 2025! 
+
+Our program seeks to identify, recognize, and reward individuals who are leaders in an open science community, research software engineering, and the R programming community.
+
+This year's program, thanks to [funding by CZI](/blog/2024/10/10/czi-latam-grant/), is focused on people from Latin America and will be conducted entirely in Spanish. 
+
+This program is an incredible platform for developing your open-source project with expert support, interacting, sharing, and strengthening a network with other people determined to develop open and reproducible science in your part of the world.
+Stay tuned for our announcement of the opening call to apply as a champion or mentor and join a global community of people using and developing scientific and open-source software.
+
+### "This is Tech Talks" episode with Yanina Bellini Saibene
 
 
-Find out about more [events](/events).
+Yanina Bellini Saibene was interviewed by Santosh Yadav about her role as rOpenSci community manager.
+Watch the [recording](https://www.youtube.com/watch?v=6PsbCPtxWXk).
+
+### "From Novice to Contributor" on the R Weekly Highlights podcast
+
+Our community call ["From Novice to Contributor: Making and Supporting First-Time Contributions to FOSS"](/commcalls/first-time-contributor/) with Yi-Chin Sunny Tseng, Pascal Burkhard, Yaoxiang Li, Hugo Gruson was featured in the [R Weekly Highlights podcast](https://serve.podhome.fm/episodepage/r-weekly-highlights/193) hosted by Eric Nantz and Mike Thomas.
+
+### Coworking Mini-hackathons
+
+Read [all about coworking](/blog/2023/06/21/coworking/)!
+
+Join us for our second [Coworking Mini-Hackatho for First-Time Contributors](/events/coworking-2025-03/). 
+If you’re curious about contributing to Open Source Software, and would like some support to get started, this event is for you!
+
+During this session you’ll join others making contributions to R packages while [package maintainers and other mentors](/blog/2024/10/22/first-time-contributions/) are available ’live’ to answer questions and give guidance.
+
+- [Tuesday March 4th 14:00 European Central (13:00 UTC)](/events/coworking-2025-03)
+After this we return to our regular monthly social coworking & office hours held on first Tuesdays! Hosted by Steffi LaZerte and various community hosts. Everyone welcome. No RSVP needed. Consult our [Events](/events/) page to find your local time and how to join.
+
+- [Tuesday April 1st 9:00 Americas Pacific (16:00 UTC)](/events/coworking-2025-04), "R you joking? Silly R packages for April Fools' day" with [Steffi LaZerte](/author/steffi-lazerte/) and [Yanina Bellini Saibene](/author/yanina-bellini-saibene/)
+    - Explore silly R packages
+    - Chat with our hosts and other attendees and share your favourite silly R packages!
+
+And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
+
+### New pkgcheck checks
+
+Our [pkgcheck](https://docs.ropensci.org/pkgcheck/) package is used both for our [software review](/software-review/) submission checks, and in [pkgcheck-action](https://github.com/ropensci-review-tools/pkgcheck-action).
+It now features two additional checks:
+
+- A check that packages do not [list excessive numbers of package _Imports_](https://docs.ropensci.org/pkgcheck/articles/list-checks.html#pkgchk_num_imports).
+  Packages with numbers of imports exceeding the 95% of current CRAN packages (which is currently 21 imported packages) will receive an :eyes: note.
+- A check that repositories do not [name the default GitHub branch "master"](https://docs.ropensci.org/pkgcheck/articles/list-checks.html#pkgchk_branch_is_master), and will fail if so.
+  See [this tidyverse blog post](https://www.tidyverse.org/blog/2021/10/renaming-default-branch/) for helpful advice on renaming default branches.
+
+The [pkgcheck-action](https://github.com/ropensci-review-tools/pkgcheck-action) has also been updated to run on Ubuntu 24.04, and to include quarto to enable packages to use [Quarto](https://quarto.org/) as a vignette engine.
 
 ## Software :package:
 
@@ -128,7 +181,7 @@ new <- dplyr::filter(
 
 The following `r if(nrow(new)>1) english(nrow(new))` package`r if(nrow(new)>1) "s"` recently became a part of our software suite:
 
-```{r, results='asis', cache = TRUE}
+```{r, results='asis', cache = TRUE,eval=TRUE}
 packages <- split(new, seq(nrow(new)))
 present_one <- function(package) {
   url_parts <- urltools::url_parse(package$url)
@@ -139,6 +192,11 @@ present_one <- function(package) {
     path = "DESCRIPTION"
   ) %>%
     purrr::pluck("download_url")
+  
+  if (package$package == "eDNAjoint") {
+    desc_link <- "https://raw.githubusercontent.com/ropensci/eDNAjoint/26fb2d22dcd4314cdf7d170812c6247ae51f25a0/DESCRIPTION"
+  }
+  
   withr::with_tempfile(
     "tf", {
       download.file(desc_link, tf) 
@@ -151,9 +209,11 @@ present_one <- function(package) {
   aut <- purrr::map_chr(aut, function(x) paste(x$given, x$family))
   rev <- purrr::keep(authors, function(x) {any( x$role %in% "rev") && all(x$role != "cre") })
   rev <- purrr::map_chr(rev, function(x) paste(x$given, x$family))
+  if (package$package == "agroclimatico") {
+    rev <- c(rev, "Priscilla Minotti")
+  }
   maintainer <- purrr::keep(authors, function(x) {any( x$role %in% "cre") })
   maintainer <- paste(c(maintainer[[1]]$given, maintainer[[1]]$family), collapse = " ")
-  
   author_string <- sprintf("developed by %s", maintainer)
   
   if (length(aut) > 0) {
@@ -187,6 +247,9 @@ present_one <- function(package) {
   }
   if (nzchar(package$onboarding)) {
     string <- paste0(string, sprintf("It has been [reviewed](%s)", package$onboarding))
+    if (package$package == "fireexposuR") {
+      rev <- c("Sherry Zhang ", "Ronny A. Hernández Mora")
+    }
     if (length(rev) > 0) {
       string <- paste0(string, sprintf(" by %s.", nice_string(rev)))
     } else {
@@ -439,7 +502,7 @@ parse_one_post <- function(path){
   meta
 }
 paths <- fs::dir_ls("..", recurse = TRUE, glob = "*.md")
-paths <- paths[!paths %in% c("../_index.md", "../2021-02-03-targets/raw_data_source.md",
+paths <- paths[!paths %in% c("../_index.md",  "../2021-02-03-targets/raw_data_source.md",
   "../2021-02-03-targets/README.md")]
 posts <- purrr::map_df(paths, parse_one_post)
 posts <- dplyr::filter(posts, date >= as.Date(last_newsletter), !newsletter)
@@ -500,7 +563,6 @@ if (length(software_review) > 0) {
 
 others <- posts[purrr::map_lgl(posts, ~any(.x[["other"]]))]
 if (length(others) > 0) {
-  if (length(others) != length(posts)) cat("### Other topics\n\n")
   cat(
     paste0(
       purrr::map_chr(others, format_post),
@@ -524,41 +586,6 @@ if (length(tech_notes) > 0) {
   cat("\n\n")
 }
 ```
-
-<!-- ## Use cases
-
-```{r usecases, eval=FALSE}
-# rerun get_use_cases.R at the same time
-usecases <- jsonlite::read_json("../../../data/usecases/usecases.json")
-get_one_case <- function(usecase) {
-  tibble::tibble(
-    title = usecase$title,
-    reporter = usecase$reporter,
-    url = usecase$url,
-    image = usecase$image,
-    date = anytime::anydate(usecase$date)
-  )
-}
-usecases <- purrr::map_df(usecases, get_one_case)
-usecases <- dplyr::filter(usecases, date >= as.Date(last_newsletter))
-usecases <- split(usecases, seq(nrow(usecases)))
-```
-
-`snakecase::to_sentence_case(english(length(usecases)))` use case` if (length(usecases) > 1) "s"` of our packages and resources ha` if (length(usecases) > 1) "ve" else "s"` been reported since we sent the last newsletter.
-
-```{r usecases2, results='asis', eval=FALSE}
-format_case <- function(usecase) {
-  string <- sprintf("* [%s](%s). Reported by %s.", sub("\\.$", "", usecase$title), usecase$url, usecase$reporter)
-}
-cat(
-  paste0(
-    purrr::map_chr(usecases, format_case),
-    collapse = "\n\n"
-  )
-)
-```
-
-Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)! -->
 
 
 ## Use cases
@@ -596,21 +623,85 @@ cat(
 
 Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)!
 
-## Call for maintainers
+## Calls for contributions
 
-<!--IF CALL
-* [our guidance on _Changing package maintainers_](https://devguide.ropensci.org/changing-maintainers.html)
-* [our _Package Curation Policy_](https://devguide.ropensci.org/curationpolicy.html)
+### Calls for maintainers
 
-IF NO CALL
-There are no open calls for new maintainers at this point but you can refer to our [contributing guide](https://contributing.ropensci.org/) for finding ways to get involved!
-As the maintainer of an rOpenSci package, feel free to contact us on Slack or email `info@ropensci.org` to get your call for maintainer featured in the next newsletter. -->
+If you're interested in maintaining any of the R packages below, you might enjoy reading our blog post [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/).
+
+* [photosearcher](https://docs.ropensci.org/photosearcher/), Searches Flickr for photographs and metadata. [Issue for volunteering](https://github.com/ropensci/photosearcher/issues/21).
+
+* [MODIStsp](https://docs.ropensci.org/MODIStsp/), automatic download and preprocessing of MODIS Land Products Time Series. [Issue for volunteering](https://github.com/ropensci/MODIStsp/issues/262).
+
+* [hddtools](https://docs.ropensci.org/hddtools/), Hydrological Data Discovery Tools. [Issue for volunteering](https://github.com/ropensci/hddtools/issues/36).
+
+* [USAboundaries](https://docs.ropensci.org/USAboundaries/) (and USAboundariesdata), historical and contemporary boundaries of the United States of America . [Issue for volunteering](https://github.com/ropensci/USAboundaries/issues/50).
+
+* [historydata](https://docs.ropensci.org/historydata/), datasets for historians. [Issue for volunteering](https://github.com/ropensci/historydata/issues/23).
+
+### Calls for contributions
+
+Refer to our [help wanted page](/help-wanted/) -- before opening a PR, we recommend asking in the issue whether help is still needed.
+
+The bib2df package, for parsing BibTeX files into tibbles, would need some help! [Issue for volunteering](https://github.com/ropensci/bib2df/issues/65).
 
 ## Package development corner
 
 Some useful tips for R package developers. :eyes:
 
-<!-- To be curated by hand -->
+### How to deal with testthat snapshots with variable output
+
+[Snapshot test](https://testthat.r-lib.org/articles/snapshotting.html) are a great way to ensure messages and complicated output aren't broken.
+Now, some randomness might lead to snapshot test failure: for instance, if your function's message displays a Git commit hash that changes every time.
+
+How to handle this?
+Two possibilities...
+
+- You can use the `transform` argument of `testthat::expect_snapshot()`, that accepts a function transforming a character input into a character output. For instance, an unit test of `ggplot2::ggsave()` creates PNG files in a temporary directory. That temporary directory changes at every run. Therefore, the [call to `expect_snapshot()`](https://github.com/tidyverse/ggplot2/blob/d835cfe2ffb0ff68c9a4b224ec1fcb4caba83892/tests/testthat/test-ggsave.R#L85) is:
+
+```r
+expect_snapshot(
+  x <- suppressMessages(ggsave(c(file1, file2), plot)),
+  transform = function(x) gsub(" \\'.*\\.png\\'", "'PATH'", x)
+)
+```
+
+That handy `transform` argument of `expect_snapshot()` might get even better over time, as an open issue suggests [providing a set of default transformers for snapshot tests](https://github.com/r-lib/testthat/issues/1822).
+
+- Another solution is to make the random part of your function's messages and output fixed based on an environment variable that you [set in tests](https://withr.r-lib.org/reference/with_envvar.html) (or using [mocking](https://blog.r-hub.io/2024/03/21/mocking-new-take/)).
+
+### How to load packages in testthat tests
+
+Another testthat topic, thanks to software review editor [Margaret Siple](https://github.com/MargaretSiple-NOAA).
+How to load packages used in tests?
+
+- There is no need to load the package under development, testthat will do it for you. This includes loading internal functions. This means that the test files of package *mypackage* should *not* start with `library(mypackage)`.
+- There's rarely a need for using `library()` calls in test files or helper files. Indeed, testthat will load your own package, and any package or function imported in your package. Now, for packages listed in for instance `Suggests` and used only in tests, you should use [`pkg::function_name()`](https://r-pkgs.org/testing-design.html#sec-testing-design-tension). This makes it possible for R to find the function, but also for easier [debugging of a failed test](https://r-pkgs.org/testing-design.html#plan-for-test-failure). An example _exception_ is the [loading of httptest2](https://enpiar.com/httptest2/reference/use_httptest2.html) in a helper file.
+
+### Don't get bitten by GitHub Protected Branches
+
+GitHub's branch protection rules can prevent pushing directly to protected branches. 
+It is, however, still possible to locally commit to a protected branch, but an attempt to push to GitHub will be rejected. 
+You then have a commit tree that can't be pushed, and that must somehow be reverted. 
+An easy way to prevent this is to use Lorenz Walthert's [precommit R package](https://lorenzwalthert.github.io/precommit/) with a local hook like this:
+
+``` r
+#!/usr/bin/env Rscript
+
+if (identical (gert::git_branch (), "main")) # or whatever protected branch is called
+    stop ("main branch is protected on GitHub; commits must be made via PR from other branch")
+```
+Local hooks can be called from your `.pre-commit-config.yaml` file like in [this example](https://github.com/ropensci-review-tools/pkgmatch/blob/47e0775e6bdc3f96f146f4fd959affe50c9dd4bf/.pre-commit-config.yaml#L79-L82), which has the hook defined above in a `.hook/` sub-directory. 
+That precommit hook will then prevent you from local commits to any branch that is protected on GitHub.
+
+### What is laziness in R
+
+If you're confused about the meaning of "lazy" in R programming, you might benefit from this blog post by Maëlle Salmon, Athanasia Mo Mowinckel and Hannah Frick on the R-hub blog: [Lazy introduction to laziness in R](https://blog.r-hub.io/2025/02/13/lazy-meanings/).
+
+### Find missing .Rd tags with {checkhelper}
+
+The [checkhelper package](https://thinkr-open.r-universe.dev/checkhelper) by [Sébastien Rochette](/author/sébastien-rochette/) helps you identify missing documentation pieces before a submission to CRAN: for instance, missing `@return`.
+There might be false positives, for instance if you document several functions on a single page with the same `@return` ([issue](https://github.com/ThinkR-open/checkhelper/issues/84)) but it's nonetheless a handy tool when preparing a CRAN submission.
 
 ## Last words
 
