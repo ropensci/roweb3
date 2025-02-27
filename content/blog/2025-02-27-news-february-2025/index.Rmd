@@ -50,7 +50,20 @@ Including all of humanity is and always will be at the heart of open science.
 Read more about our mission in our [blog post](/blog/2025/02/05/no-science-without-deia/).
 ### Mark Padgham is now Software Review Lead
 [Mark Padgham](./author/mark-padgham) is now lead for software peer review. Noam Ross, the former lead, became Executive Director last year.
+
+### New rOpenSci Champion(a|e)s Program cohort
+
+We have great news!  We will have a new cohort of our Champion(a|e) Program during 2025! 
+
+Our program seeks to identify, recognize, and reward individuals who are leaders in an open science community, research software engineering, and the R programming community.
+
+This year's program is focused on people from Latin America and will be conducted entirely in Spanish. 
+
+This program is an incredible platform for developing your open-source project with expert support, interacting, sharing, and strengthening a network with other people determined to develop open and reproducible science in your part of the world.
+Stay tuned for our announcement of the opening call to apply as a champion or mentor and join a global community of people using and developing scientific and open-source software.
+
 ### "This is Tech Talks" episode with Yanina Bellini Saibene
+
 
 Yanina Bellini Saibene was interviewed by Santosh Yadav about her role as rOpenSci community manager.
 Watch the [recording](https://www.youtube.com/watch?v=6PsbCPtxWXk).
