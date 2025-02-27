@@ -37,7 +37,7 @@ The documentation is currently organized into four main sections:
 - **Browse** that documents the user experience navigating packages and universes.
 - **Install** that explains how to install packages from R-universe, how to ensure reproducibility, and how to create a dependency on a package published on R-universe.
 - **Publish** that focuses on the package developer experience: why and how to publish packages.
-- **Infrastructure**, a very much in progress section aiming at documenting governance and funding but also how R-universe works under the hood.
+- **Infrastructure**, documenting governance, funding, and how R-universe works under the hood for those who want to contribute. (A work in progress!)
 
 In addition the website has search functionality, and features links to the GitHub repository where you can contribute to the documentation.
 
