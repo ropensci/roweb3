@@ -60,7 +60,7 @@ Go give it a try![^mobile]
 
 While working on the documentation we also updated other information sources:
 
-We simplified the [R-universe project page on the rOpenSci website](/r-universe) for it to only contain a big picture description of the project, as well as links to relevant resources including the documentation website, technical notes, recent talk recordings.
+We simplified the [R-universe project page on the rOpenSci website](/r-universe) the be easier to maintain. It now contains a big-picture description of the project, as well as links to relevant resources including the documentation website, technical notes, recent talk recordings.
 That web page is also available in [Spanish](/es/r-universe/).
 
 The README on the [organization profile on GitHub](https://github.com/r-universe-org/) was updated to list relevant websites and online spaces such as the docs, obviously, but also the discussion board and general issue tracker.
