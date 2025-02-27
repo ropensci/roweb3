@@ -6,7 +6,7 @@ author:
 date: '2025-02-27'
 tags:
   - newsletter
-description: Mini-hackathons, coworking, new package and package news
+description: DEIA, New rOpenSci Champion(a|e)s Program cohort, new Software Review Lead
 params:
   last_newsletter: '2025-01-27'
   doi: "10.59350/kjhev-zgn32"
@@ -27,7 +27,23 @@ Now let's dive into the activity at and around rOpenSci!
 Including all of humanity is and always will be at the heart of open science.
 Read more about our mission in our [blog post](/blog/2025/02/05/no-science-without-deia/).
 
+### Mark Padgham is now Software Review Lead
+
+[Mark Padgham](/author/mark-padgham) is now lead for software peer review. Noam Ross, the former lead, became Executive Director [last year](/blog/2024/03/29/hello-from-our-new-executive-director/).
+
+### New rOpenSci Champion(a|e)s Program cohort
+
+We have great news!  We will have a new cohort of our [Champion(a|e) Program](/champions/) during 2025! 
+
+Our program seeks to identify, recognize, and reward individuals who are leaders in an open science community, research software engineering, and the R programming community.
+
+This year's program, thanks to [funding by CZI](/blog/2024/10/10/czi-latam-grant/), is focused on people from Latin America and will be conducted entirely in Spanish. 
+
+This program is an incredible platform for developing your open-source project with expert support, interacting, sharing, and strengthening a network with other people determined to develop open and reproducible science in your part of the world.
+Stay tuned for our announcement of the opening call to apply as a champion or mentor and join a global community of people using and developing scientific and open-source software.
+
 ### "This is Tech Talks" episode with Yanina Bellini Saibene
+
 
 Yanina Bellini Saibene was interviewed by Santosh Yadav about her role as rOpenSci community manager.
 Watch the [recording](https://www.youtube.com/watch?v=6PsbCPtxWXk).
@@ -73,11 +89,13 @@ The [pkgcheck-action](https://github.com/ropensci-review-tools/pkgcheck-action) 
 
 
 
-The following three packages recently became a part of our software suite:
+The following four packages recently became a part of our software suite:
 
 + [commonmetar](https://docs.ropensci.org/commonmetar), developed by Maëlle Salmon: Uses the commonmeta Go library to generate random DOI strings. 
 
 + [repometrics](https://docs.ropensci.org/repometrics), developed by Mark Padgham: Metrics for your code repository. Call one function to generate an interactive dashboard displaying the state of your code. 
+
++ [fireexposuR](https://docs.ropensci.org/fireexposuR), developed by Air Forbes: This package computes and visualizes wildfire exposure using the methods documented in a series of scientific publications. It has been [reviewed](https://github.com/ropensci/software-review/issues/659) by Sherry Zhang  and Ronny A. Hernández Mora.
 
 + [QuadratiK](https://docs.ropensci.org/QuadratiK), developed by Giovanni Saraceno together with Marianthi Markatou, Raktim Mukhopadhyay, and Mojgan Golzy: It includes test for multivariate normality, test for uniformity on the d-dimensional Sphere, non-parametric two- and k-sample tests, random generation of points from the Poisson kernel-based density and clustering algorithm for spherical data. For more information see Saraceno G., Markatou M., Mukhopadhyay R. and Golzy M. (2024) <doi:10.48550/arXiv.2402.02290> Markatou, M. and Saraceno, G. (2024) <doi:10.48550/arXiv.2407.16374>, Ding, Y., Markatou, M. and Saraceno, G. (2023) <doi:10.5705/ss.202022.0347>, and Golzy, M. and Markatou, M. (2020) <doi:10.1080/10618600.2020.1740713>.  It is available on [CRAN]( https://CRAN.R-project.org/package=QuadratiK). It has been [reviewed](https://github.com/ropensci/software-review/issues/632) by Hingee Kassel and Emi Tanaka.
 
@@ -87,11 +105,11 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following thirteen packages have had an update since the last newsletter: [agroclimatico](https://docs.ropensci.org/agroclimatico "Índices y Estadísticos Climáticos e Hidrológicos") ([`1.1.1`](https://github.com/ropensci/agroclimatico/releases/tag/1.1.1)), [BaseSet](https://docs.ropensci.org/BaseSet "Working with Sets the Tidy Way") ([`v1.0.0`](https://github.com/ropensci/BaseSet/releases/tag/v1.0.0)), [biomartr](https://docs.ropensci.org/biomartr "Genomic Data Retrieval") ([`v1.0.10`](https://github.com/ropensci/biomartr/releases/tag/v1.0.10)), [c14bazAAR](https://docs.ropensci.org/c14bazAAR "Download and Prepare C14 Dates from Different Source Databases") ([`5.1.0`](https://github.com/ropensci/c14bazAAR/releases/tag/5.1.0)), [getCRUCLdata](https://docs.ropensci.org/getCRUCLdata "CRU CL v. 2.0 Climatology Client") ([`v1.0.3`](https://github.com/ropensci/getCRUCLdata/releases/tag/v1.0.3)), [gigs](https://docs.ropensci.org/gigs "Assess Fetal, Newborn, and Child Growth with International Standards") ([`v0.5.2`](https://github.com/ropensci/gigs/releases/tag/v0.5.2)), [riem](https://docs.ropensci.org/riem "Accesses Weather Data from the Iowa Environment Mesonet") ([`v1.0.0`](https://github.com/ropensci/riem/releases/tag/v1.0.0)), [rredlist](https://docs.ropensci.org/rredlist "IUCN Red List Client") ([`v1.0.0`](https://github.com/ropensci/rredlist/releases/tag/v1.0.0)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.12.0`](https://github.com/ropensci/tarchetypes/releases/tag/0.12.0)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.10.1`](https://github.com/ropensci/targets/releases/tag/1.10.1)), [taxize](https://docs.ropensci.org/taxize "Taxonomic Information from Around the Web") ([`v0.10.0`](https://github.com/ropensci/taxize/releases/tag/v0.10.0)), [weathercan](https://docs.ropensci.org/weathercan "Download Weather Data from Environment and Climate Change Canada") ([`v0.7.3`](https://github.com/ropensci/weathercan/releases/tag/v0.7.3)), and [webmockr](https://docs.ropensci.org/webmockr "Stubbing and Setting Expectations on HTTP Requests") ([`v2.0.0`](https://github.com/ropensci/webmockr/releases/tag/v2.0.0)).
+The following sixteen packages have had an update since the last newsletter: [agroclimatico](https://docs.ropensci.org/agroclimatico "Índices y Estadísticos Climáticos e Hidrológicos") ([`1.1.1`](https://github.com/ropensci/agroclimatico/releases/tag/1.1.1)), [BaseSet](https://docs.ropensci.org/BaseSet "Working with Sets the Tidy Way") ([`v1.0.0`](https://github.com/ropensci/BaseSet/releases/tag/v1.0.0)), [biomartr](https://docs.ropensci.org/biomartr "Genomic Data Retrieval") ([`v1.0.10`](https://github.com/ropensci/biomartr/releases/tag/v1.0.10)), [c14bazAAR](https://docs.ropensci.org/c14bazAAR "Download and Prepare C14 Dates from Different Source Databases") ([`5.1.0`](https://github.com/ropensci/c14bazAAR/releases/tag/5.1.0)), [DataSpaceR](https://docs.ropensci.org/DataSpaceR "Interface to the CAVD DataSpace") ([`v0.7.7`](https://github.com/ropensci/DataSpaceR/releases/tag/v0.7.7)), [getCRUCLdata](https://docs.ropensci.org/getCRUCLdata "CRU CL v. 2.0 Climatology Client") ([`v1.0.3`](https://github.com/ropensci/getCRUCLdata/releases/tag/v1.0.3)), [gigs](https://docs.ropensci.org/gigs "Assess Fetal, Newborn, and Child Growth with International Standards") ([`v0.5.2`](https://github.com/ropensci/gigs/releases/tag/v0.5.2)), [riem](https://docs.ropensci.org/riem "Accesses Weather Data from the Iowa Environment Mesonet") ([`v1.0.0`](https://github.com/ropensci/riem/releases/tag/v1.0.0)), [rredlist](https://docs.ropensci.org/rredlist "IUCN Red List Client") ([`v1.0.0`](https://github.com/ropensci/rredlist/releases/tag/v1.0.0)), [spiro](https://docs.ropensci.org/spiro "Manage Data from Cardiopulmonary Exercise Testing") ([`v0.2.3`](https://github.com/ropensci/spiro/releases/tag/v0.2.3)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.12.0`](https://github.com/ropensci/tarchetypes/releases/tag/0.12.0)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.10.1`](https://github.com/ropensci/targets/releases/tag/1.10.1)), [taxize](https://docs.ropensci.org/taxize "Taxonomic Information from Around the Web") ([`v0.10.0`](https://github.com/ropensci/taxize/releases/tag/v0.10.0)), [weathercan](https://docs.ropensci.org/weathercan "Download Weather Data from Environment and Climate Change Canada") ([`v0.7.3`](https://github.com/ropensci/weathercan/releases/tag/v0.7.3)), [weatherOz](https://docs.ropensci.org/weatherOz "An API Client for Australian Weather and Climate Data Resources") ([`v2.0.0`](https://github.com/ropensci/weatherOz/releases/tag/v2.0.0)), and [webmockr](https://docs.ropensci.org/webmockr "Stubbing and Setting Expectations on HTTP Requests") ([`v2.0.0`](https://github.com/ropensci/webmockr/releases/tag/v2.0.0)).
 
 ## Software Peer Review
 
-There are sixteen recently closed and active submissions and 5 submissions on hold. Issues are at different stages: 
+There are seventeen recently closed and active submissions and 5 submissions on hold. Issues are at different stages: 
 
 * Three at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%226/approved%22):
 
@@ -127,9 +145,11 @@ There are sixteen recently closed and active submissions and 5 submissions on ho
 
     * [galamm](https://github.com/ropensci/software-review/issues/615), Generalized Additive Latent and Mixed Models. Submitted by [Øystein Sørensen](https://osorensen.rbind.io).  (Stats).
 
-* Three at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%221/editor-checks%22):
+* Four at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%221/editor-checks%22):
 
      * [sasquatch](https://github.com/ropensci/software-review/issues/673), Use SAS, R, and quarto Together. Submitted by [Ryan Zomorrodi](http://ryanzomorrodi.github.io). 
+
+    * [read.abares](https://github.com/ropensci/software-review/issues/667), Provides simple downloading, parsing and importing of Australian. Submitted by [Adam H. Sparks](https://adamhsparks.netlify.app/). 
 
     * [forcis](https://github.com/ropensci/software-review/issues/660), An R Client to Access the FORCIS Database. Submitted by [Nicolas Casajus](https://nicolascasajus.fr). 
 

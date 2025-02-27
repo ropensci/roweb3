@@ -6,7 +6,7 @@ author:
 date: '2025-02-27'
 tags:
   - newsletter
-description: Mini-hackathons, coworking, new package and package news
+description: DEIA, New rOpenSci Champion(a|e)s Program cohort, new Software Review Lead
 params:
   last_newsletter: '2025-01-27'
   doi: "10.59350/kjhev-zgn32"
@@ -48,16 +48,18 @@ Now let's dive into the activity at and around rOpenSci!
 
 Including all of humanity is and always will be at the heart of open science.
 Read more about our mission in our [blog post](/blog/2025/02/05/no-science-without-deia/).
+
 ### Mark Padgham is now Software Review Lead
-[Mark Padgham](./author/mark-padgham) is now lead for software peer review. Noam Ross, the former lead, became Executive Director last year.
+
+[Mark Padgham](/author/mark-padgham) is now lead for software peer review. Noam Ross, the former lead, became Executive Director [last year](/blog/2024/03/29/hello-from-our-new-executive-director/).
 
 ### New rOpenSci Champion(a|e)s Program cohort
 
-We have great news!  We will have a new cohort of our Champion(a|e) Program during 2025! 
+We have great news!  We will have a new cohort of our [Champion(a|e) Program](/champions/) during 2025! 
 
 Our program seeks to identify, recognize, and reward individuals who are leaders in an open science community, research software engineering, and the R programming community.
 
-This year's program is focused on people from Latin America and will be conducted entirely in Spanish. 
+This year's program, thanks to [funding by CZI](/blog/2024/10/10/czi-latam-grant/), is focused on people from Latin America and will be conducted entirely in Spanish. 
 
 This program is an incredible platform for developing your open-source project with expert support, interacting, sharing, and strengthening a network with other people determined to develop open and reproducible science in your part of the world.
 Stay tuned for our announcement of the opening call to apply as a champion or mentor and join a global community of people using and developing scientific and open-source software.
@@ -245,8 +247,8 @@ present_one <- function(package) {
   }
   if (nzchar(package$onboarding)) {
     string <- paste0(string, sprintf("It has been [reviewed](%s)", package$onboarding))
-    if (package$package == "karel") {
-      rev <- c("Veronica Jimenez-Jacinto", "Joel Nitta")
+    if (package$package == "fireexposuR") {
+      rev <- c("Sherry Zhang ", "Ronny A. Hernández Mora")
     }
     if (length(rev) > 0) {
       string <- paste0(string, sprintf(" by %s.", nice_string(rev)))
