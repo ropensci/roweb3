@@ -165,6 +165,8 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 * [Open Science and Open Source only with Diversity, Equity, Inclusion, and Accessibility](/blog/2025/02/05/no-science-without-deia) by The rOpenSci Team. Including all of humanity is and always will be at the heart of open science. Other languages: <a href='/es/blog/2025/02/05/no-ciencia-sin-deia' lang='es'>Ciencia Abierta y Código Abierto sólo con Diversidad, Equidad, Inclusión y Accesibilidad (es)</a>.
 
+* [The Dynamic Relationship of Forks with their Upstream Repository](/blog/2025/02/20/forks-upstream-relationship) by Hugo Gruson, Stefanie Butland, and Ruby Krasnow.
+
 
 ## Use cases
 
