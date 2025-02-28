@@ -43,7 +43,7 @@ speakers:
     img: /img/team/cesar-luis-aybar-camacho-mentee.jpeg  
   - name: "Francisco Cardozo"
     bio: "Estudiante de doctorado en la Universidad de Miami, EE.UU., donde forma parte del programa de Ciencias de la Prevención y Salud Comunitaria.
-Trabaja en la evaluación de programas de prevención en varios países de América Latina. Actualmente desarrolla talleres para enseñar el uso de software que mejora la reproducibilidad y el rigor de la investigación. Estos talleres se centran en el uso de R y técnicas de análisis estadístico, como el aprendizaje automático y las variables latentes."
+Trabaja en la evaluación de programas de prevención en varios países de América Latina. Actualmente desarrolla talleres para enseñar el uso de software que mejora la reproducibilidad y el rigor de la investigación. Estos talleres se centran en el uso de R y técnicas de análisis estadístico, como el aprendizaje automático y las variables latentes. Fue mentor en la segunda cohorte del programa de rOpenSci"
     img: /img/team/francisco-cardozo.jpg
 tags:
   - community call
