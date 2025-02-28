@@ -39,7 +39,7 @@ speakers:
     bio: Socióloga y trabaja como analista de estadísticas de población en el INDEC, Argentina. Su proyecto en el programa de campeones de rOpenSci, cohorte 2023-2024, fue desarrollar el paquete [arcenso](https://soyandrea.github.io/arcenso/), en su primera etapa permite acceder a los datos oficiales de los censos nacionales de Argentina en un formato accesible, ordenado y estructurado.
     img: /img/team/andrea-vargas.png
   - name: "Cesar Luis Aybar Camacho"
-    bio: "Estudiante de doctorado peruano en el Laboratorio de Procesamiento de Imágenes de la Universidad de Valencia. También es el principal mantenedor del paquete rgee, que permite la integración de R y Google Earth Engine (GEE) en el mismo flujo de trabajo."
+    bio: "Estudiante de doctorado peruano en el Laboratorio de Procesamiento de Imágenes de la Universidad de Valencia. También es el principal mantenedor del paquete rgee, que permite la integración de R y Google Earth Engine (GEE) en el mismo flujo de trabajo. Fue campeón en la primera cohorte del programa."
     img: /img/team/cesar-luis-aybar-camacho-mentee.jpeg  
   - name: "Francisco Cardozo"
     bio: "Estudiante de doctorado en la Universidad de Miami, EE.UU., donde forma parte del programa de Ciencias de la Prevención y Salud Comunitaria.
