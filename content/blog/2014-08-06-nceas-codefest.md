@@ -5,6 +5,8 @@ date: '2014-08-06'
 author: Scott Chamberlain
 tags:
   - conference
+params:
+  doi: "10.59350/gv9aw-5gb64"
 ---
 
 We're delighted to be sponsoring the upcoming Open Science Codefest in Santa Barbara, California, alongside [RENCI](https://renci.org/), [NCEAS](https://www.nceas.ucsb.edu/), [NSF](https://www.nsf.gov/), [DataONE](https://www.dataone.org/), and [Mozilla Science Lab](https://mozillascience.org/).  The Open Science Codefest's goal is to gather researchers from across ecology, biodiversity science, and other earth and environmental sciences with programmer types to collaborate on coding projects. The ideas for the event so far include not just coding projects with the end result being software, but conversations on particular topics that may or my not lead to code being written.

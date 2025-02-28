@@ -10,6 +10,8 @@ topicid: 1738
 tags:
   - software
   - community
+params:
+  doi: "10.59350/f1vwp-6ng50"
 ---
 
 Software is maintained by people. While software can in theory live on indefinitely, to do so requires people. People change jobs, move locations, retire, and unfortunately die sometimes. When a software maintainer can no longer maintain a package, what happens to the software?

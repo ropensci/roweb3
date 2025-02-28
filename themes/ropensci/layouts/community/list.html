@@ -11,15 +11,14 @@
       <div class="community-title">
         <img class="d-lg-none" src="/images/svg/top-avatars.png" alt="Fictional avatars of rOpenSci community members. Lydia Hill Illustration, all rights reserved." />
         <h1>
-          Our community is <br />
-          our best asset
+          {{ .Title | markdownify }}
         </h1>
         <img class="d-lg-none" src="/images/svg/bottom-avatars.png" alt="Fictional avatars of rOpenSci community members. Lydia Hill Illustration, all rights reserved." />
       </div>
       <div class="row justify-content-center">
         <div class="col-md-8">
           <p class="community-text text-center">
-We are building a welcoming and diverse global community of R software users, developers, and research software engineers who want to make their research more open and reproducible. We aim to build capacity of novices, experts, and those in between. Participants come from across academia, government, industry, and non-profits. We welcome participation that adheres to our <a href="/code-of-conduct">code of conduct</a>. The <a href="https://contributing.ropensci.org/">rOpenSci Community Contributing Guide</a> outlines many ways to get involved.
+          {{ .Content | markdownify }}
           </p>
         </div>
       </div>
@@ -31,11 +30,17 @@ We are building a welcoming and diverse global community of R software users, de
     <div class="container">
       <div class="row justify-content-end align-items-center">
         <div class="col-md-5">
-          <h2 class="title">Community Calls</h2>
+          <h2 class="title">{{ i18n "Community-calls" }}</h2>
           <p class="subtitle commcalls-subtitle">
-            Our quarterly community calls are open to everyone. They're an opportunity to connect with rOpenSci community members around the world. Join us for lively discussions with experts on both technical and social topics, like development, review, security and maintenance of R packages, applications of our packages in open science, or developing a code of conduct. Every Community Call becomes a rich resource with video and collaborative notes.
+            {{ $path := (printf "_snippets/commcalls.%s.md" .Language.Lang) }}
+            {{ with resources.Get $path }}
+              {{ .Content | markdownify }}
+            {{ else }}
+  {{ errorf "Unable to get page Resources"  }}
+            {{ end }}
+
           </p>
-          <a class="link-arrow" href="/commcalls"><span>Catch up with past calls</span></a>
+          {{ partial "translate-url" (dict "name" "commcalls" "Site" .Site "class" "link-arrow" )}}<span>{{ i18n "Catch-up-with-past-calls" }}</span></a>
         </div>
         <div class="col-md-6">
           <img class="commcalls" src="/images/commcalls-img.png" alt="" />
@@ -43,10 +48,13 @@ We are building a welcoming and diverse global community of R software users, de
       </div>
     </div>
   </section>
-{{ partial "whole-page-fragments/ask"  (dict "divider" "lr" ) }}
+{{ $askpartial := (partial "translate-path" (dict "name" "whole-page-fragments/ask" "language" .Site.Language.Lang )) }}
+{{ partial $askpartial  (dict "divider" "lr" ) }}
 <img class="divider" src="/images/svg/divider-rl.svg" alt="" />
 {{ partial "calendar/events" (dict "Site" .Site )  }}
 {{ partial "whole-page-fragments/newsletter"  (dict "divider" "lr" ) }}
-{{ partial "whole-page-fragments/volunteer"  (dict "divider" "rl" "Site" .Site ) }}
-{{ partial "whole-page-fragments/brands"  (dict "Site" .Site "divider" "lr" ) }}
+{{ $volunteerpartial := (partial "translate-path" (dict "name" "whole-page-fragments/volunteer" "language" .Site.Language.Lang )) }}
+{{ partial $volunteerpartial  (dict "divider" "rl" "Site" .Site ) }}
+{{ $brandpartial := (partial "translate-path" (dict "name" "whole-page-fragments/brands" "language" .Site.Language.Lang )) }}
+{{ partial $brandpartial (dict "Site" .Site "divider" "lr" )  }}
 {{ end }}

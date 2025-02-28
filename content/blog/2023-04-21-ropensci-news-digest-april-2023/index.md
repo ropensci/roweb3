@@ -10,6 +10,7 @@ tags:
 description: Interview of Athanasia Monika Mowinckel, multilingual blog, coworking, R-universe, new packages and package news
 params:
   last_newsletter: '2023-03-17'
+  doi: "10.59350/twge1-7f552"
 ---
 
 

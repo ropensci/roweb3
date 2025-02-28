@@ -9,7 +9,8 @@
             </div>
         <div class="col-lg-4 mt-4">
             <aside>
-                {{ range .Site.Data.resources.champions }}
+              {{ $data := index .Site.Data .Site.Language.Lang }}
+              {{ range $data.resources.champions }}
                 <a href="{{ .url }}" class="arrow-card"><i class="fa-{{ .icon }} pr-2"></i>{{ .title }}</a> {{ end }}
             </aside>
         </div>
@@ -21,7 +22,7 @@
         <div class="row about-block">
             <div class="col-md-3 text-md-right">
                 <h4 class="about-block__title" id="editors">
-                    Champions
+                    {{ i18n "Champions" }}
                 </h4>
             </div>
         </div>
@@ -29,7 +30,7 @@
         <div class="row about-block">
             <div class="col-md-3 text-md-right">
                 <h4 class="about-block__title" id="editors">
-                    Mentors
+                    {{ i18n "Mentors" }}
                 </h4>
             </div>
         </div>
@@ -41,7 +42,7 @@
         <div class="row">
             <div class="col-md-3 text-md-right">
                 <h4 class="about-block__title" id="editors">
-                    Resources
+                    {{ i18n "Resources" }}
                 </h4>
             </div>
             </div>
@@ -55,4 +56,9 @@
         </div>
     </div>
 </section>
-{{ partial "whole-page-fragments/volunteer" (dict "divider" "rl" "Site" .Site ) }} {{ partial "whole-page-fragments/newsletter" (dict "divider" "lr" ) }} {{ partial "whole-page-fragments/brands" (dict "Site" .Site "divider" "rl" ) }} {{ end }}
+{{ $volunteerpartial := (partial "translate-path" (dict "name" "whole-page-fragments/volunteer" "language" .Site.Language.Lang )) }}
+{{ partial $volunteerpartial  (dict "divider" "rl" "Site" .Site ) }}
+{{ partial "whole-page-fragments/newsletter" (dict "divider" "lr" ) }} 
+{{ $brandpartial := (partial "translate-path" (dict "name" "whole-page-fragments/brands" "language" .Site.Language.Lang )) }}
+{{ partial $brandpartial (dict "Site" .Site "divider" "rl" )  }}
+{{ end }}

@@ -19,6 +19,8 @@ tags:
   - rOpenSci team
   - welcome
   - cefp
+params:
+  doi: "10.59350/xnv9w-gds65"
 ---
 
 I’ve raved about the value of [extending a personalized welcome](/blog/2017/07/18/value-of-welcome/) to new community members and I recently shared [six tips for running a successful hackathon-flavoured unconference](/blog/2017/11/17/unconf-sixtips). Building on these, I’d like to share the specific approach and (free!) tools I used to help prepare new rOpenSci community members to be productive at our [unconference](https://unconf17.ropensci.org/). My approach was inspired directly by my [AAAS Community Engagement Fellowship Program](https://www.cscce.org/2016/12/05/introducing-the-2017-community-engagement-fellows/) (AAAS-CEFP) training. Specifically, 1) one mentor said that the most successful conference they ever ran involved having one-to-one meetings with all participants prior to the event, and 2) prior to our in-person AAAS-CEFP training, we completed an intake questionnaire that forced us to consider things like “what do you hope to get out of this” and “what do you hope to contribute”.

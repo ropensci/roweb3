@@ -21,6 +21,8 @@ twitterImg: img/blog-images/2019-05-16-dev-guide-update/cover.png
 output: 
   html_document:
     keep_md: true
+params:
+  doi: "10.59350/zqs5x-jtz09"
 ---
 
 rOpenSci Software Peer Review's guidance is gathered in [an online book](https://devguide.ropensci.org/) and keeps improving!

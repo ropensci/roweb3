@@ -12,6 +12,8 @@ tags:
   - webmockr
   - mocking
   - tech notes
+params:
+  doi: "10.59350/y1346-79a07"
 ---
 
 

@@ -9,6 +9,8 @@ tags:
   - packages
   - tech notes
   - r-universe
+params:
+  doi: "10.59350/q11b8-yrs64"
 ---
 
 At rOpenSci, we encourage R package developers to take advantage of Continuous Integration services to automatically check the package on different platforms, with different versions of R. The [rOpenSci dev guide](https://devguide.ropensci.org/ci.html) dedicates chapter 2 to the topic of *Continuous Integration Best Practices*, and recommends a few common CI vendors, including [Travis CI](https://travis-ci.com/).

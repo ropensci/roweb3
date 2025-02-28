@@ -14,6 +14,8 @@ tags:
   - community
   - interviews
   - rprofile
+params:
+  doi: "10.59350/6pag3-e7b26"
 ---
 
 {{< imgtxt src="/img/blog-images/2018-02-09-julia-stewart-lowndes/lowndes_profile.jpg" alt="Julia Stewart Lowndes" >}}

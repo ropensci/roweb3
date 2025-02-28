@@ -13,6 +13,8 @@ tags:
   - search
   - packages
   - dashboard
+params:
+  doi: "10.59350/5kgqa-kbd57"
 ---
 
 ## Finding the right tool for the job

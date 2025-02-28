@@ -9,7 +9,7 @@
         <h1>{{ .Title }}</h1>
             <div class="event-detail-author">
               <p><span class="ml-1">
-                {{ .Params.location }}, {{ .Params.country }} • With {{ with .Params.attendees }}{{ partial "blogs/pretty_author_names" . }}.</span>
+                {{ .Params.location }}, {{ .Params.country }} • {{ i18n "With" }} {{ with .Params.attendees }}{{ partial "blogs/pretty_author_names" . }}.</span>
                 {{ end }}
               </p>
             </div>
@@ -112,9 +112,10 @@
       </div>
       <div class="col-md-2">
       <div class="field-under mt-4">
-        <span>Share</span>
+        <span>{{ i18n "Share" }}</span>
         {{ partial "mastodon/share-link" . }}
         {{ partial "linkedin/share-link" . }}
+        {{ partial "bluesky/share-link" . }}
         {{ partial "email/share-link" . }}
       </div>
           </div>
@@ -130,5 +131,6 @@
   </div>
 </section>
 {{ partial "whole-page-fragments/newsletter"  (dict "divider" "lr" ) }}
-{{ partial "whole-page-fragments/brands" (dict "Site" .Site "divider" "rl" ) }}
+{{ $brandpartial := (partial "translate-path" (dict "name" "whole-page-fragments/brands" "language" .Site.Language.Lang )) }}
+{{ partial $brandpartial (dict "Site" .Site "divider" "rl" )  }}
 {{ end }}

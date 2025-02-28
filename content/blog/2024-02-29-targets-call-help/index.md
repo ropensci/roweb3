@@ -11,6 +11,8 @@ preface: |
 tags:
   - package development
   - tech notes
+params:
+  doi: "10.59350/pbm5y-w5540"
 ---
 
 The package [targets](https://docs.ropensci.org/targets) maintained by [Will Landau](/author/will-landau), and its companion packages, are pipeline tools, that coordinate the pieces of computationally demanding analysis projects.

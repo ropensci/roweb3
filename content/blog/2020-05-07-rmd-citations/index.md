@@ -19,6 +19,8 @@ description: Some tips around the use of citations/references in R Markdown, in 
 output:
   html_document:
     keep_md: yes
+params:
+  doi: "10.59350/7txcj-1vf57"
 ---
 
 
@@ -376,9 +378,6 @@ bib2df::bib2df("refs.bib", separate_names = TRUE)$AUTHOR
 
 bib2df helps doing fun or serious analyses of reference databases.
 
-<!--html_preserve-->
-{{< tweet user="thosjleeper" id="887962776806842369" >}}
-<!--/html_preserve-->
 
 ### handlr: from BibTeX to RIS, schema.org, etc.
 

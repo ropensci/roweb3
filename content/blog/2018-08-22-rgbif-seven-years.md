@@ -10,6 +10,8 @@ tags:
   - rgbif
   - GBIF
   - tech notes
+params:
+  doi: "10.59350/w1ghx-ah773"
 ---
 
 

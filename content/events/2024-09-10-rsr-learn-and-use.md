@@ -19,6 +19,7 @@ attendees:
   - Yanina Bellini Saibene
 author:
   - Alican Cagri Gokcek
+  - Liz Hare
 deets: |
     Meeting ID: 821 4601 5078
     Passcode: 112961

@@ -10,6 +10,8 @@ tags:
   - community
   - packages
   - development
+params:
+  doi: "10.59350/swnyg-ger25"
 ---
 
 > *"I'm just a political scientist, standing in front of the R console  asking it to help me finish my thesis."*

@@ -12,6 +12,8 @@ tags:
   - community
   - Software Peer Review
   - metadata
+params:
+  doi: "10.59350/h4y5q-xeg64"
 ---
 
 At rOpenSci, our [R package peer review process] relies on the the hard work of many volunteer reviewers.  These community members donate their [time] and expertise to improving the quality of  rOpenSci packages and helping drive best practices into scientific software.  

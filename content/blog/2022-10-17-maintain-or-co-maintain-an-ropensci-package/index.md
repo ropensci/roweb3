@@ -13,6 +13,8 @@ tags:
   - welcome
   - maintenance
 description: A list of packages who need your help, and a list of reasons why to help.
+params:
+  doi: "10.59350/bfxd3-dtw18"
 ---
 
 The rOpenSci [suite of packages](/packages) is mainly composed of packages contributed by the community through [peer-review](/software-review), but also includes some packages maintained by staff. 

@@ -86,5 +86,6 @@
   </div>
 </section>
 {{ partial "whole-page-fragments/newsletter"  (dict "divider" "lr" ) }}
-{{ partial "whole-page-fragments/brands" (dict "Site" .Site "divider" "rl" ) }}
+{{ $brandpartial := (partial "translate-path" (dict "name" "whole-page-fragments/brands" "language" .Site.Language.Lang )) }}
+{{ partial $brandpartial (dict "Site" .Site "divider" "rl" )  }}
 {{ end }}

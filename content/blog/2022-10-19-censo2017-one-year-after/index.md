@@ -1,7 +1,7 @@
 ---
 title: 'Interesting Uses of censo2017 a Year After Publishing'
 author:
-  - Pachá (aka Mauricio Vargas Sepúlveda)
+  - Mauricio Vargas Sepúlveda
 date: '2022-10-19'
 version: 0.5
 slug: censo2017-one-year-after
@@ -19,6 +19,8 @@ tags:
   - censo2017
 description: >
   Chilean census tables at a glance.
+params:
+  doi: "10.59350/7xhqt-zzr83"
 ---
 
 ## Summary

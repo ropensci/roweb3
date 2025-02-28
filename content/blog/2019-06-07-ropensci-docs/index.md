@@ -8,6 +8,8 @@ tags:
   - docs
   - packages
   - tech notes
+params:
+  doi: "10.59350/bj4kp-55781"
 ---
 
 As part of our continuous effort to improve rOpenSci infrastructure, we are rolling out a new service to automatically build and host documentation for all rOpenSci packages. 

@@ -7,6 +7,8 @@ tags:
   - book
   - reproducible research
   - open science
+params:
+  doi: "10.59350/wmyt2-7cd29"
 ---
 
 **Upcoming Book on Open Science with R**

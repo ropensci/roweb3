@@ -7,6 +7,8 @@ author:
 tags:
   - community
   - jobs
+params:
+  doi: "10.59350/jbwrg-gwh13"
 ---
 
 I feel both proud and privileged to join rOpenSci as your Community Manager. I’ve been a compulsive community builder since the early 2000’s, but it has rarely been part of my job description. Now it seems like all roads have led to this. After a couple of fine days of indoctrination at the [UC Berkeley](https://bids.berkeley.edu/) home of rOpenSci, I’m settled into work in beautiful Kamloops, British Columbia, Canada.

@@ -16,6 +16,8 @@ description: In this article we summarize the interviews of the series *Meeting 
   stars of the R universe* In this article, we bring you five examples of organizations
   and teams that choose the R Universe to facilitate access and promote community
   sharing of data and software.
+params:
+  doi: "10.59350/g7mpc-1ek03"
 ---
 
 The [R-Universe](https://r-universe.dev) is used by professionals from different fields, although they all pursue the same objective: **to offer their R packages in a simple and accessible way**.

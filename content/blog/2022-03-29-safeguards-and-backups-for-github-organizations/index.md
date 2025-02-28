@@ -9,6 +9,8 @@ tags:
   - github
 package_version: 0.1.0
 description: Some practical steps we've taken to safeguard our GitHub organizations.
+params:
+  doi: "10.59350/7g8dk-ndk19"
 ---
 
 At rOpenSci, much of our code, content and infrastructure is hosted on GitHub over several organizations -- described on our [resources page](/resources/).

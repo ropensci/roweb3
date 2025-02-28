@@ -16,6 +16,8 @@ tags:
   - ritis
   - worrms
   - pegax
+params:
+  doi: "10.59350/x5wd9-6en56"
 ---
 
 

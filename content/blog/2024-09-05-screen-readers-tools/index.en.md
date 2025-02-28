@@ -11,8 +11,10 @@ tags:
   - screen-readers
   - champions program
   - community
-  - accesibility
+  - accessibility
 description: "Tools and resources to use R with screen readers." 
+params:
+  doi: "10.59350/f6g6z-2hk94"
 ---
 
 R is a language and environment for statistical computing.

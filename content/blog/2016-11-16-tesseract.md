@@ -6,6 +6,8 @@ author: Jeroen Ooms
 tags:
   - packages
   - tesseract
+params:
+  doi: "10.59350/r1f37-rc724"
 ---
 
 Optical character recognition (OCR) is the process of extracting written or typed text from images such as photos and scanned documents into machine-encoded text. The new rOpenSci package [tesseract](https://cran.r-project.org/web/packages/tesseract/index.html) brings one of the best open-source OCR engines to R. This enables researchers or journalists, for example, to search and analyze vast numbers of documents that are only available in printed form.

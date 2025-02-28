@@ -4,7 +4,7 @@
    "url": "https://brunaw.com/",
    "image" : "/img/team/bruna-wundervald.jpeg",
    "roles": [
-      "mentor 2023-2024"
+      "2023-2024"
    ],
    "github": "brunaw",
    "home": ""
@@ -15,7 +15,7 @@
    "url": "https://behindbars.netlify.app",
    "image" : "/img/team/apoorv-anand.jpeg",
    "roles": [
-      "mentor 2023-2024"
+      "2023-2024"
    ],
    "github": "apoorv74",
    "home": ""
@@ -26,7 +26,7 @@
    "url": "https://emitanaka.org/",
    "image" : "/img/team/emi-tanaka.jpg",
    "roles": [
-      "mentor 2023-2024"
+      "2023-2024"
    ],
    "github": "emitanaka",
    "home": ""
@@ -38,7 +38,7 @@
    "url": "https://erle.bio/",
    "image" : "/img/team/erle-holgersen.jpg",
    "roles": [
-      "mentor 2023-2024"
+      "2023-2024"
    ],
    "github": "erleholgersen",
    "home": ""
@@ -50,7 +50,7 @@
    "url": "",
    "image" : "/img/team/eunseop-kim.jpg",
    "roles": [
-      "mentor 2023-2024"
+      "2023-2024"
    ],
    "github": "markean",
    "home": ""
@@ -62,7 +62,7 @@
    "url": "https://focardozom.github.io/",
    "image" : "/img/team/francisco-cardozo.jpg",
    "roles": [
-      "mentor 2023-2024"
+      "2023-2024"
    ],
    "github": "focardozom",
    "home": ""
@@ -74,7 +74,7 @@
    "url": "https://liomys.mx",
    "image" : "/img/team/luis-verde.jpeg",
    "roles": [
-      "mentor 2023-2024"
+      "2023-2024"
    ],
    "github": "luisDVA",
    "home": ""
@@ -86,7 +86,7 @@
    "url": "",
    "image" : "/img/team/marie-vendettuoli.jpg",
    "roles": [
-      "mentor 2023-2024"
+      "2023-2024"
    ],
    "github": "mariev",
    "home": ""
@@ -97,7 +97,7 @@
    "url": "https://francoismichonneau.net/",
    "image" : "/img/team/françois-michonneau.JPG",
    "roles": [
-      "mentor 2023-2024"
+      "2023-2024"
    ],
    "github": "fmichonneau",
    "home": ""
@@ -108,7 +108,7 @@
    "url": "https://jonkeane.com",
    "image" : "/img/team/jonathan-keane.png",
    "roles": [
-      "mentor 2023-2024"
+      "2023-2024"
    ],
    "github": "jonkeane",
    "home": ""
@@ -119,7 +119,7 @@
    "image" : "/img/team/laura-decicco.jpg",
    "affiliation": "United States Geological Survey",
    "roles": [
-      "mentor 2022-2023"
+      "2022-2023"
    ],
    "mastodon": "https://fosstodon.org/@ldecicco",
    "github": "ldecicco-usgs",
@@ -131,7 +131,7 @@
    "url": "https://adamhsparks.netlify.app/",
    "image" : "/img/team/adam-sparks.jpg",
    "roles": [
-      "mentor 2022-2023"
+      "2022-2023"
    ],
    "mastodon": "https://fosstodon.org/@adamhsparks",
    "github": "adamhsparks",
@@ -142,9 +142,9 @@
    "name": "Beatriz Milz",
    "affiliation": "University of Sao Paulo - Curso-R",
    "url": "",
-   "image" : "/img/team/beatriz-milz-mentor.jpeg",
+   "image" : "/img/team/beatriz-milz.jpeg",
    "roles": [
-      "mentor 2022-2023"
+      "2022-2023"
    ],
    "twitter": "BeaMilz",
    "github": "beatrizmilz",
@@ -156,7 +156,7 @@
    "url": "https://eliocamp.github.io",
    "image" : "/img/team/elio-campitelli.jpg",
    "roles": [
-      "mentor 2022-2023"
+      "2022-2023"
    ],
    "twitter": "d_olivaw",
    "mastodon": "https://mastodon.social/@eliocamp",
@@ -169,7 +169,7 @@
    "url": "",
    "image" : "/img/team/christina-maimone-mentor.jpg",
    "roles": [
-      "mentor 2022-2023"
+      "2022-2023"
    ],
    "github": "cmaimone",
    "home": ""
@@ -180,7 +180,7 @@
    "url": "",
    "image" : "/img/team/mauro-lepore-mentor.jpg",
    "roles": [
-      "mentor 2022-2023"
+      "2022-2023"
    ],
    "github": "maurolepore",
    "home": ""
@@ -191,7 +191,7 @@
    "url": "https://drmowinckels.io/",
    "image" : "/img/team/mo-mentor.png",
    "roles": [
-      "mentor 2022-2023"
+      "2022-2023"
    ],
    "twitter": "DrMowinckels",
    "github": "drmowinckels",
@@ -203,7 +203,7 @@
    "url": "",
    "image" : "/img/team/zebulun-zrendsee-mentor.jpg",
    "roles": [
-      "mentor 2022-2023"
+      "2022-2023"
    ],
    "github": "arendsee",
    "home": ""
@@ -214,7 +214,7 @@
    "url": "https://lukaswallrich.coffee",
    "image" : "/img/team/lukas-mentor.jpeg",
    "roles": [
-      "mentor 2022-2023"
+      "2022-2023"
    ],
    "github": "LukasWallrich",
    "home": "https://lukaswallrich.coffee"
@@ -225,7 +225,7 @@
    "url": "https://www.ndm.ox.ac.uk/team/marc-choisy",
    "image" : "/img/team/marc-choisy-mentor.png",
    "roles": [
-      "mentor 2022-2023"
+      "2022-2023"
    ],
    "github": "choisy",
    "home": ""

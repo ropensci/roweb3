@@ -12,6 +12,8 @@ tags:
   - funding
 description: "We are excited to announce that R-Universe has been awarded a Google Season of Docs!"
 social: "R-Universe Documentation Gets a Boost from Google Season of Docs by @noamross@ecoevo.social!"
+params:
+  doi: "10.59350/ze2fs-pmq27"
 ---
 
 We are excited to announce that [R-Universe](https://r-universe.dev/) has been awarded a [Google Season of Docs](https://developers.google.com/season-of-docs) grant. R-Universe is rOpenSci's platform for testing, building, distributing, and discovering R packages, led by [Jeroen Ooms](/author/jeroen-ooms). It provides no-setup continuous integration, compilation for all platforms (including WebR!), accessible HTML R package manuals, a comprehensive API, and the ability for users or organizations to create their own "universes" - package repositories with their standards, participation and publishing criteria. R-Universe seamlessly incorporates packages from CRAN and Bioconductor: tracks, builds, and tests over 24,000 packages by 12,000 maintainers and 21,000 contributors, with over 600 custom package registries so far. 

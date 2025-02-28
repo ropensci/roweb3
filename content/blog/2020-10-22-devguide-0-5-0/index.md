@@ -19,6 +19,8 @@ package_version: 0.1.0
 description: "Updates in version 0.5.0 of the online book 'rOpenSci Packages: Development, Maintenance, and Peer Review
 rOpenSci Packages: Development, Maintenance, and Peer Review'"
 twitterImg: img/blog-images/2019-05-16-dev-guide-update/cover.png
+params:
+  doi: "10.59350/5kbsk-w2310"
 ---
 
 rOpenSci Software Peer Review's guidance has been compiled in [an online book](https://devguide.ropensci.org/) for more than one year now. We've just released its fifth version. 
@@ -84,7 +86,6 @@ Thanks [Scott Chamberlain](/author/scott-chamberlain) for the contribution, and 
 Our guide featured a quite light chapter about [Contributing to rOpenSci](https://devguide.ropensci.org/contributingguide.html).
 Now that rOpenSci Community Manager Stefanie Butland and Community Assistant Steffi LaZerte have written a whole guide about this topic, the chapter has been transformed into a teaser for it!
 
-{{< tweet user="rOpenSci" id="1298636325487345669" >}}
 
 It is the opportunity for us to congratulate Stefanie and Steffi on the contributing guide, and to encourage you to read it.
 Here's to many more versions. :grin:

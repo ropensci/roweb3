@@ -71,23 +71,11 @@ For more information, visit the <a href="/r-universe/">r-universe project page</
         {{ end }}
         </ul>
       </div>
-            {{ if .IsTranslated }}
-      <div class="field-under mt-4">
-      <span>{{ i18n "translations" }}</span>
-          <div><a href="{{ .Permalink }}" style="font-weight: bold;" class="btn btn-share btn-twitter" lang="{{ .Language }}"><span class="btn-icon">
-    <i class="fa fa-globe"></i>
-  </span>{{ .Language.LanguageName }}</a></div>
-        {{ range .Translations }}
-          <div><a href="{{ .Permalink }}" class="btn btn-share btn-twitter" lang="{{ .Language }}"><span class="btn-icon">
-    <i class="fa fa-globe"></i>
-  </span>{{ .Language.LanguageName }}</a></div>
-        {{ end }}
-      </div>
-      {{ end }}
       <div class="field-under mt-4">
         <span>{{ i18n "Share" }}</span>
         {{ partial "mastodon/share-link" . }}
         {{ partial "linkedin/share-link" . }}
+        {{ partial "bluesky/share-link" . }}
         {{ partial "email/share-link" . }}
       </div>
       <div class="field-under mt-4">
@@ -96,9 +84,9 @@ For more information, visit the <a href="/r-universe/">r-universe project page</
       </div>
       <div class="cite field-under mt-4">
         <span>{{ i18n "Cite" }}</span><br/>
-        {{ $doi := (partial "blogs/doi" ( dict "RelPermalink" .RelPermalink )) }}
+        {{ $doi := .Params.doi }}
         {{ if ne $doi "" }}
-        <a href="{{ $doi }}" class="cite link mt-2">{{ $doi | replaceRE "https://" "" }} <i class='fas fa-copy copy-cite-link'></i></a>
+        <a href="{{ printf "https://doi.org/%s" $doi }}" class="cite link mt-2">{{ printf "doi.org/%s" $doi }} <i class='fas fa-copy copy-cite-link'></i></a>
         {{ else }}
         <a href="https://rogue-scholar.org/blogs/ropensci " class="cite link mt-2">rogue-scholar.org/blogs/ropensci <i class='fas fa-copy copy-cite-link'></i></a>
         {{ end }}

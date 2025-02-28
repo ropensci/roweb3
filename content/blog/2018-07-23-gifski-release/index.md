@@ -10,6 +10,8 @@ tags:
   - gif
   - animation
   - tech notes
+params:
+  doi: "10.59350/5104n-bw636"
 ---
 
 The [gifski](https://cloud.r-project.org/web/packages/gifski/index.html) package which was demonstrated in May at [eRum 2018](https://2018.erum.io/) in Budapest is now on CRAN. Gifski is a simple but powerful package which can hopefully take away an important performance bottleneck for generating animated graphics in R.

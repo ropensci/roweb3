@@ -18,6 +18,8 @@ tags:
   - stock assessment
   - data access
   - biodiversity
+params:
+  doi: "10.59350/yfytr-atz88"
 ---
 
 ## Introduction

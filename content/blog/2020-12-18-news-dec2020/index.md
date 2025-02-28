@@ -31,6 +31,8 @@ tags:
   - stplanr
 description: Semi-monthly summary of the rOpenSci Newsletter, December 2020
 preface: "A semi-monthly summary of the [rOpenSci Newsletter](https://news.ropensci.org/) including software reviews, packages on CRAN, use cases, posts from staff and community, and events. October 26 to December 14, 2020"
+params:
+  doi: "10.59350/ycef1-9h461"
 ---
 
 ## rOpenSci HQ

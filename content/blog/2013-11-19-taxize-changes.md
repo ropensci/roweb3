@@ -6,6 +6,8 @@ author: Scott Chamberlain
 tags:
   - taxonomy
   - API
+params:
+  doi: "10.59350/84ejb-q7a63"
 ---
 
 We are building a taxonomic toolbelt for R called taxize - which gives you programmatic access to many sources of taxonomic data on the web. We just pushed a new version to [CRAN (v0.1.5)](https://cran.r-project.org/web/packages/taxize/index.html) with a lot of changes (see [here](https://github.com/ropensci/taxize#notes-on-the-itis-api) for a rundown). Here are a few highlights of the changes.

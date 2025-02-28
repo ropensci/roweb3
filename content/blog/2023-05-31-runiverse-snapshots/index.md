@@ -11,6 +11,8 @@ tags:
   - snapshot
   - packages
   - dashboard
+params:
+  doi: "10.59350/bbsvn-cxv17"
 ---
 
 ## Downloading repository snapshots

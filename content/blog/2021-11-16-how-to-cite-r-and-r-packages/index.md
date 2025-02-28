@@ -15,6 +15,8 @@ social: How to cite R and R packages? by @steffilazerte@fosstodon.org!
 output:
   html_document:
     keep_md: yes
+params:
+  doi: "10.59350/t79xt-tf203"
 ---
 
 I teach R to a lot of scientists, those that are new to science (i.e. students) 
@@ -76,7 +78,7 @@ or packages like [osfr](https://docs.ropensci.org/osfr) which are used as part o
 but not necessarily for the analysis specifically.
 In an ideal world, everything we use would be cited, but with word and reference limits and editors less aware of the importance of citing software, it's often hard to justify citing everything in a manuscript. 
 
-The [general advice](https://peerj.com/articles/cs-86/#discussion) by the by the FORCE11 Software Citation Implementation Working Group is to include software important to the research outcome. 
+The [general advice](https://peerj.com/articles/cs-86/#discussion) by the FORCE11 Software Citation Implementation Working Group is to include software important to the research outcome. 
 I would also add that it's not a bad thing to cite open-source software that was a major part of your workflow (for the purposes of credit, if not repeatability). 
 Anything else, try to make sure it's prominently displayed in your scripts and if possible include your scripts as supplemental to the manuscript. This way any curious readers will be exposed to the packages if nothing else. For packages like osfr, you could share your OSF page/DOI, and perhaps mention that it was managed with osfr.
 However, it's important to note that it *is not* sufficient to mention packages in supplemental materials, but if that's all you can do, this makes the best of a bad situation. 

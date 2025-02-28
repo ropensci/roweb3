@@ -19,6 +19,8 @@ twitterAlt: "Hex sticker for the coder package"
 output: 
   html_document:
     keep_md: true
+params:
+  doi: "10.59350/fpzpx-s0x96"
 ---
 
 

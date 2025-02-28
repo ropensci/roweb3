@@ -14,6 +14,8 @@ tags:
   - beginner
   - package development
   - clean code
+params:
+  doi: "10.59350/tbdps-5xc82"
 ---
 
 rOpenSci's [second cohort of champions was onboarded](/blog/2024/02/15/champions-program-champions-2024/)!

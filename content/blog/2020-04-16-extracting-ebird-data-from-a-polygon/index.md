@@ -21,6 +21,8 @@ twitterImg: technotes/2020/04/16/ebird-polygon/plot-1.png
 output:
   html_document:
     keep_md: yes
+params:
+  doi: "10.59350/xvmsd-6k808"
 ---
 
 

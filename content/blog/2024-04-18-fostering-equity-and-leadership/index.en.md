@@ -19,6 +19,8 @@ tags:
 description: The rOpenSci Champions Program fosters inclusivity and diversity in R and open science, emphasizing community engagement and project innovation through a detailed selection process.
 socialAlt: logo image
 social: Discover how the rOpenSci Champions Program is advancing inclusivity and diversity in R and open science by @focardozom09
+params:
+  doi: "10.59350/472nh-gen67"
 ---
 
 

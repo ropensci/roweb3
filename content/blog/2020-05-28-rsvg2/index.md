@@ -9,6 +9,8 @@ tags:
   - packages
   - svg
   - tech notes
+params:
+  doi: "10.59350/c37y6-8p980"
 ---
 
 This week we released a major new version of the [rsvg](https://cran.r-project.org/web/packages/rsvg/index.html) package on CRAN. This package provides R bindings to [librsvg2](https://developer.gnome.org/rsvg/stable/) which is a powerful system library for rendering svg images into bitmaps that can be displayed, or use for further processing in for example the [magick](https://docs.ropensci.org/magick) package.

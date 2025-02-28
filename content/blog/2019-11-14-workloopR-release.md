@@ -26,6 +26,8 @@ twitterImg: img/blog-images/2019-11-14-workloopR-release/workloopR-repository-op
 output:
   html_document:
     keep_md: yes
+params:
+  doi: "10.59350/a3m9w-ymc23"
 ---
 
 

@@ -5,6 +5,8 @@ date: '2016-11-22'
 author: Scott Chamberlain
 tags:
   - geospatial
+params:
+  doi: "10.59350/k0s8h-2bn12"
 ---
 
 

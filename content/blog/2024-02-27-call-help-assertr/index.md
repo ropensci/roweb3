@@ -11,6 +11,8 @@ preface: |
 tags:
   - package development
   - tech notes
+params:
+  doi: "10.59350/gjjjr-1ka42"
 ---
 
 The package [assertr](https://docs.ropensci.org/assertr) maintained by [Tony Fischetti](/author/tony-fischetti/), provides functionality to assert conditions that have to be met so that errors in data used in analysis pipelines can fail quickly. 

@@ -11,6 +11,8 @@ tags:
   - magick
   - images
   - tech notes
+params:
+  doi: "10.59350/vjbev-wag76"
 ---
 
 Release 1.4 of the [magick package](https://cran.r-project.org/web/packages/magick/vignettes/intro.html) introduces

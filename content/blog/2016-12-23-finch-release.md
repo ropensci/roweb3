@@ -7,6 +7,8 @@ tags:
   - biodiversity
   - GBIF
   - tech notes
+params:
+  doi: "10.59350/adx0a-64f06"
 ---
 
 

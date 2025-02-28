@@ -13,6 +13,8 @@ tags:
   - champions program
 featured: true
 description: "Introducing Champions and Mentors - Carolina Pradier and Athanasia Monika Mowinckel"
+params:
+  doi: "10.59350/806eh-xpm14"
 ---
 
 *We designed the [rOpenSci Champions Program](/champions/) with a mentorship aspect. Mentoring plays a significant role in the growth and development of both mentors and mentees alike. In our program, each Champion has a mentor who accompanies them during their training and development of their project.*

@@ -6,6 +6,8 @@ author: Jeroen Ooms
 tags:
   - graphql
   - tech notes
+params:
+  doi: "10.59350/54v9e-f1a07"
 ---
 
 The new ropensci [graphql](https://cran.r-project.org/web/packages/graphql/) package is now on CRAN. It implements R bindings to the [libgraphqlparser C++ library](https://github.com/graphql/libgraphqlparser) to parse GraphQL syntax and export the syntax tree in JSON format:

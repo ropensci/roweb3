@@ -14,6 +14,8 @@ description: Use "HEAD" instead of the default branch name in links to files on 
 output: hugodown::md_document
 rmd_hash: e6c65ab1562c60d2
 
+params:
+  doi: "10.59350/kymjz-5gg32"
 ---
 
 Did you know that GitHub lets you refer to the default branch of any repository by substituting the branch name with `HEAD` in the url? This is a very useful trick to write robust code that works regardless of whether the default branch is called `main` or `master`, and will keep working when the default branch gets renamed at some point.
