@@ -6,7 +6,7 @@ author:
   - Jeroen Ooms
   - Noam Ross
 editor:
-date: 2025-02-25
+date: 2025-02-28
 tags:
   - r-universe
   - documentation
