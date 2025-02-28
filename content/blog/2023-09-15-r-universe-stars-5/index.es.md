@@ -10,14 +10,16 @@ author:
   - Rob Ashton
 date: '2023-09-15'
 tags:
-  - community
+  - comunidad
   - r-universe
-  - interviews
-  - r-universe-stars
+  - entrevistas
+  - estrellas del universo r
 featured: true
 # The summary below will be used by e.g. Twitter cards
 description: "."
 
+params:
+  doi: "10.59350/17f9w-pks71"
 ---
 
 Un nuevo artículo de nuestra serie de entrevistas ["Conociendo a las estrellas del universo R"](/tags/r-universe-stars/). Nuestro objetivo es presentar a los equipos y personas que están detrás del desarrollo de software y paquetes que utilizamos y que están disponibles a través del R-universe. Queremos destacar y explorar diferentes equipos y proyectos de todo el mundo, el trabajo que realizan, sus procesos y usuarios. En esta parada vamos al __Reino Unido__ para hablar con representantes del _Centre for Global Infectious Disease Analysis_. No te olvides de mirar el video al final del artículo con extractos de la entrevista.

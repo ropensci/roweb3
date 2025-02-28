@@ -10,6 +10,8 @@ tags:
   - front-end
   - documentation
   - dashboard
+params:
+  doi: "10.59350/t21tr-3jm94"
 ---
 <style>
 ul a:hover{text-decoration: underline;}

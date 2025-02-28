@@ -17,6 +17,8 @@ tags:
   - software
   - pavo
   - Methods in Ecology and Evolution
+params:
+  doi: "10.59350/vjgag-e1p79"
 ---
 
 &nbsp;

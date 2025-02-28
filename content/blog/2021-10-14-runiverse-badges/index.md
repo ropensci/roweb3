@@ -9,6 +9,8 @@ tags:
   - r-universe
   - badges
   - tech notes
+params:
+  doi: "10.59350/g67kr-prx20"
 ---
 
 ## Badges in r-universe

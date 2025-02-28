@@ -11,7 +11,7 @@
               contribute with your packages, resources or post questions so our members will help
               you along your process.
             </p>
-            <a class="link-arrow" href="/about#team"><span>Meet the team</span></a>
+            {{ partial "translate-url" (dict "name" "community" "Site" .Site  "class" "link-arrow")}}<span>Our community</span></a>
           </div>
           <div class="col-md-6">
              <img src="{{ "images/community.png" | relURL }}" alt="Fictional avatars of rOpenSci community members. Lydia Hill Illustration, all rights reserved." /> 
@@ -41,7 +41,7 @@
                 </div>
                 <h5 class="card-title">Community Calls</h5>
                 <p class="card-text">
-                  Join in our quarterly Community Calls with fellow developers and scientists - open
+                  Join in our Community Calls with fellow developers and scientists - open
                   to all
                 </p>
                 <a class="card-link link-arrow" href="/commcalls"><span>Join Us</span></a>

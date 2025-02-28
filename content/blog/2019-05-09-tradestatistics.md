@@ -11,6 +11,8 @@ tags:
   - tradestatistics
   - data access
   - reproducibility
+params:
+  doi: "10.59350/wv560-9aw37"
 ---
 
 ### Introduction

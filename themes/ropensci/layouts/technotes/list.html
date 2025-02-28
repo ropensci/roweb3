@@ -18,7 +18,7 @@
 
             <div class="row author-blog">
               <div class="col-md-8">
-            {{ range (where .Site.Pages.ByPublishDate.Reverse ".Params.tags" "intersect" (slice "tech notes")) }}
+            {{ range (where .Site.Pages.ByPublishDate.Reverse ".Params.tags" "intersect" (slice "tech notes" "notas técnicas")) }}
 {{ .Render "post-short-summary-author" }}
 {{ end }}
               </div>

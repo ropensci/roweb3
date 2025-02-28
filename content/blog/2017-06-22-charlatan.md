@@ -8,6 +8,8 @@ tags:
   - data
   - datasets
   - tech notes
+params:
+  doi: "10.59350/kerx6-y3636"
 ---
 
 > **charlatan** makes fake data.

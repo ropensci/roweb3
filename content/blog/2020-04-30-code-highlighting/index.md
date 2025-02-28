@@ -15,6 +15,8 @@ twitterImg: blog/2019/06/04/post-template/name-of-image.png
 output:
   html_document:
     keep_md: yes
+params:
+  doi: "10.59350/jwxpn-z7j68"
 ---
 
 

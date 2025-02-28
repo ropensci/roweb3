@@ -8,6 +8,7 @@ slug: news-february-2024
 description: Code of conduct transparency report; coworking; new packages and package news
 params:
   last_newsletter: "2024-01-25"
+  doi: "10.59350/3qdf9-xrq67"
 ---
 
 

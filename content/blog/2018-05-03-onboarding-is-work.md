@@ -19,6 +19,8 @@ output:
   md_document:
     variant: markdown_github
     preserve_yaml: yes
+params:
+  doi: "10.59350/jyyg7-rcm70"
 ---
 
 Our [onboarding process](https://github.com/ropensci/software-review/), that

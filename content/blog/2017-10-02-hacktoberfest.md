@@ -7,6 +7,8 @@ topicid: 901
 tags:
   - community
   - hacktoberfest
+params:
+  doi: "10.59350/57853-5zy82"
 ---
 
 One of rOpenSci’s aims is to build capacity of software users and developers and foster a sense of pride in their work. What better way to do that than to encourage you to participate in [Hacktoberfest](https://hacktoberfest.digitalocean.com/), a month-long celebration of open source software!

@@ -14,6 +14,8 @@ tags:
   - maintenance
   - contributors
 description: Tips on how to create and advertise help-wanted issues.
+params:
+  doi: "10.59350/zh01g-yby98"
 ---
 
 Maintaining a package can be a lonesome activity, which sometimes poses a problem if you prefer team work or if you encounter a very thorny-for-you problem.

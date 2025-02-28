@@ -53,9 +53,9 @@ speakers:
     bio: "Maëlle Salmon es una ingeniera de software de R e Investigación, trabaja a tiempo parcial en rOpenSci donde, entre otras cosas, creó y mantiene los paquetes de R babeldown y babelquarto, y mantiene la guía [rOpenSci Packages: Development, Maintenance, and Peer Review](https://devguide.ropensci.org/). También creó el [blog R-hub](https://blog.r-hub.io) y coescribió el libro [HTTP testing in R](https://books.ropensci.org/http-testing) con [Scott Chamberlain](/author/scott-chamberlain). Vive en Nancy, Francia. Es una políglota entusiasta (de lenguas latinas y germánicas). Puedes seguir a Maëlle en [GitHub](https://github.com/maelle), [Mastodon](https://mastodon.social/@maelle), [Website](https://masalmon.eu/), [rOpenSci](/author/maëlle-salmon/)."
     img: /img/team/maelle_salmon.jpg  
 tags:
-  - community call
-  - events
-  - multilingual
+  - Conversaciones con la comunidad
+  - eventos
+  - multilingüe
 deets: |
     Meeting ID:  874-1993-2577 
     Passcode: 396025

@@ -18,6 +18,8 @@ output:
   md_document:
     variant: markdown_github
     preserve_yaml: yes
+params:
+  doi: "10.59350/nwker-j9829"
 ---
 
 Our [onboarding process](https://github.com/ropensci/software-review/)

@@ -12,6 +12,8 @@ tags:
   - governance
   - community
 description: Updates for version 2.4 of rOpenSci's Code of Conduct
+params:
+  doi: "10.59350/4q7xe-11e63"
 ---
 
 This report presents our annual review of the rOpenSci Code of Conduct, reporting process, and internal guidelines for handling reports and enforcement.

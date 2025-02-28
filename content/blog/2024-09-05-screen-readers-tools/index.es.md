@@ -11,6 +11,8 @@ tags:
 - comunidad
 - accesibilidad
 description: Herramientas y recursos para utilizar R con lectores de pantalla.
+params:
+  doi: "10.59350/227bx-41s88"
 ---
 
 R es un lenguaje y un entorno para la computación estadística.

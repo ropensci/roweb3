@@ -13,6 +13,8 @@ tags:
 feature: true  
 # description: 
 tweet: "" 
+params:
+  doi: "10.59350/56pyd-a0t11"
 ---
 
 rOpenSci is *very* excited to announce our first peer-reviewed statistical R

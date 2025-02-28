@@ -24,6 +24,8 @@ twitterAlt: "Screenshot of rspatialdata homepage featuring multicoloured tiles e
 output:
   html_document:
     keep_md: yes
+params:
+  doi: "10.59350/k3kdn-nk484"
 ---
 
 

@@ -46,6 +46,9 @@
 [Read-more]
   other = 'Read more'
   
+[Catch-up-with-past-calls]
+  other = 'Catch up with past calls'
+  
 [Projects]
   other = 'Projects'
   
@@ -146,7 +149,7 @@
 [editor]
   other = 'Editor'
 
-[Software-Review-Lead]
+[software-review-lead]
   other = 'Software Review Lead'
   
 [co-funder]
@@ -202,6 +205,21 @@
 [Mentors]
   other = 'Mentors'
   
+[Software-Peer-Review]
+  other = 'Software Peer Review'
+  
+[Join-the-Discussion]
+  other = 'Join the Discussion'
+  
+[Community]
+  other = 'Community'
+  
+[Our-Team]
+  other = 'Our Team'
+  
+[Use-Cases]
+  other = 'Use Cases'
+  
 [Category]
   other = 'Category'
   
@@ -211,26 +229,35 @@
 [Submit-A-Package]
   other = 'Submit A Package'
 
-[Use-Cases]
-  other = 'Use Cases'
-
 [Citations]
   other = 'Citations'
-
-[Community]
-  other = 'Community'
 
 [Contributing-Guide]
   other = 'Contributing Guide'
 
 [Forum]
   other = 'Forum'
-
-[Events]
-  other = 'Events'
   
 [Talks-Publications]
   other = 'Talks & Publications'
+  
+[Documentation]
+  other = 'Documentation'
+  
+[Newsletter]
+  other = 'Newsletter'
+  
+[Events]
+  other = 'Events'
+  
+[Cite-rOpenSci]
+  other = 'Cite rOpenSci'
+  
+[cc-by-text]
+  other = 'Except where otherwise noted, content on this site is licensed under the CC-BY license'
+
+[Privacy-Policy]
+  other = 'Privacy Policy'
   
 [Package-Docs]
   other = 'Package Docs'

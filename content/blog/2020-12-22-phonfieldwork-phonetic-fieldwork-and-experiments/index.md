@@ -20,6 +20,8 @@ description: phonfieldwork package provides a huge variety of tools that can be 
 output:
   html_document:
     keep_md: yes
+params:
+  doi: "10.59350/jbsqh-19m44"
 ---
 
 

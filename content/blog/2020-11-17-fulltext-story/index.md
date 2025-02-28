@@ -13,6 +13,8 @@ tags:
 output:
   html_document:
     keep_md: yes
+params:
+  doi: "10.59350/jdp0f-hg907"
 ---
 
 [fulltext][] is a package I maintain for text-mining the scholarly literature ([package docs][ftdocs]). You can search for articles, fetch article metadata and abstracts, and fetch full text of some articles. Text-mining the scholarly literature is a research tool used across disciplines. Full text of articles (entire article, not just the abstract) is the gold standard in text-mining in most cases.

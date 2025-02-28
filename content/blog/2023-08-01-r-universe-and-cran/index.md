@@ -15,6 +15,8 @@ description: >
 crossposts:
 - name: Zhian Kamvar's Blog
   url: https://zkamvar.netlify.app/blog/r-universe-and-cran/
+params:
+  doi: "10.59350/t5nnz-csp92"
 ---
 
 ## Summary

@@ -19,6 +19,8 @@ social: "A post about using R to create FAIR data for complex projects by @colli
 editor:
   - Yanina Bellini Saibene
   - Mark Padgham
+params:
+  doi: "10.59350/zdmg9-ryp97"
 ---
 
 

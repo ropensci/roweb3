@@ -9,6 +9,8 @@ tags:
   - tech notes
 # The summary below will be used by e.g. Twitter cards
 description: "Some common and less common problems we saw in logs of package and pkgdown website builds."
+params:
+  doi: "10.59350/qj4jf-9xz03"
 ---
 
 The [rOpenSci R-universe](https://ropensci.r-universe.dev/) is a bit special as, compared to other R-universes, it [builds docs](/blog/2021/09/03/runiverse-docs/) for all the packages in our [suite](/packages).

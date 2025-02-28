@@ -6,6 +6,8 @@ author: Scott Chamberlain
 tags:
   - http
   - tech notes
+params:
+  doi: "10.59350/wn9k6-33630"
 ---
 
 

@@ -13,14 +13,16 @@ author:
   - David LeBauer  
 date: '2023-06-06'
 tags:
-  - community
+  - comunidad
   - r-universe
-  - interviews
-  - r-universe-stars
+  - entrevistas
+  - estrellas del universo r
 featured: true
 # The summary below will be used by e.g. Twitter cards
 description: "El cambio climático y las investigaciones en el área tienen una diversidad y complejidad de datos que demandan modelos de análisis cada vez más complejos. El proyecto PEcAn trabaja para desarrollar esa habilidad."
 
+params:
+  doi: "10.59350/3h0a9-pfh70"
 ---
 
 Un nuevo artículo de nuestra serie de entrevistas ["Conociendo a las estrellas del universo R"](/tags/r-universe-stars/). Nuestro objetivo es presentar a los equipos y personas que están detrás del desarrollo de software y paquetes que utilizamos y que están disponibles a través del R-universe. Queremos destacar y explorar diferentes equipos y proyectos de todo el mundo, el trabajo que realizan, sus procesos y usuarios. Nuestra tercera parada es __Estados Unidos__ para hablar con representantes del proyecto PEcAn. No te olvides de mirar el video al final del artículo con extractos de la entrevista.

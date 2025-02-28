@@ -23,6 +23,8 @@ tweet: "Statistical Software Testing and Peer Review Community Call Summary by @
 output: 
   html_document:
     keep_md: true
+params:
+  doi: "10.59350/56twe-jy004"
 ---
 
 A week ago we held a [Community Call](/commcalls/feb2021-statsreview/) discussing rOpenSci Statistical Software Testing and Peer Review. 

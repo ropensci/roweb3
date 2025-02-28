@@ -5,6 +5,8 @@ date: '2013-10-03'
 author: Scott Chamberlain
 tags:
   - help
+params:
+  doi: "10.59350/sagq9-pny57"
 ---
 
 To help you use rOpenSci packages we put tutorials up on our site at [/tutorials](/tutorials). Up to now, we created them with combination of raw html + converting code blocks to html and inserting them, etc. -- it was a slow process to update them when changes happened in our packages.

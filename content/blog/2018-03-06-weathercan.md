@@ -19,6 +19,8 @@ output:
   md_document:
     variant: markdown_github
     preserve_yaml: yes
+params:
+  doi: "10.59350/650kz-32d28"
 ---
 
 I love working with R and have been sharing the love with my friends and colleagues for almost seven years now. I'm one of those really annoying people whose response to most analysis-related questions is "You can do that in R! Five minutes, tops!" or "Three lines of code, I swear!" The problem was that I invariably spent an hour or more showing people how to get the data, load the data, clean the data, transform the data, and join the data, before we could even start the "five minute analysis". With the advent of [`tidyverse`](https://www.tidyverse.org), data manipulation has gotten much, much easier, but I still find that data manipulation is where most new users get stuck. This is one of the reasons why, when I designed [`weathercan`](https://github.com/ropensci/weathercan), I tried as hard as possible to make it simple and straightforward.

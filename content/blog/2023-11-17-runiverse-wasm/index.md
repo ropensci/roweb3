@@ -11,6 +11,8 @@ tags:
   - r-universe
   - webr
   - wasm
+params:
+  doi: "10.59350/bkag3-csz91"
 ---
 
 

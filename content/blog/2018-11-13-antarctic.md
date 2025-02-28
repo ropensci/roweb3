@@ -19,6 +19,8 @@ tags:
   - geospatial
   - maps
   - climate data
+params:
+  doi: "10.59350/92079-whk55"
 ---
 
 ### Antarctic/Southern Ocean science and rOpenSci

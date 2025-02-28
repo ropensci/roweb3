@@ -9,6 +9,7 @@ tags:
 description: CZI funding for Champions Program with Latin America focus, first time contributors, coworking, new package and package news
 params:
   last_newsletter: "2024-09-27"
+  doi: "10.59350/76jc2-ry443"
 ---
 
 

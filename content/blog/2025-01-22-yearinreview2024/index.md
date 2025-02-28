@@ -14,6 +14,8 @@ social: "A summary of the highlights of the rOpenSci community in 2024 and some 
 editor:
   - Steffi LaZerte
 featured: true
+params:
+  doi: "10.59350/820ry-ye386"
 ---
 
 In 2024, we remained committed to open science and open source software. 

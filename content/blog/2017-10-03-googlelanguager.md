@@ -16,6 +16,8 @@ tags:
   - software
   - Software Peer Review
   - googleLanguageR
+params:
+  doi: "10.59350/newdn-mmk09"
 ---
 
 <!-- open source image taken from: https://upload.wikimedia.org/wikipedia/commons/2/21/Bell_System_switchboard.jpg -->

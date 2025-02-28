@@ -14,6 +14,8 @@ tags:
 package_version: 0.2.0
 description: CRediTas is an R package for generating CrediT author statements for scientific publications.
 tweet: CRediTas is Now Part of rOpenSci by @jospueyo
+params:
+  doi: "10.59350/eyxmp-3md27"
 ---
 
 I'm thrilled to share that [CRediTas](https://docs.ropensci.org/CRediTas/) has passed [peer review](https://github.com/ropensci/software-review/issues/576) and been accepted to rOpenSci as well as to [CRAN](https://cran.r-project.org/web/packages/CRediTas/index.html). I am glad to acknowledge the editor [Emily Riedered](/author/emily-riederer/) and the two reviewers [Marcelo S. Perlin](/author/marcelo-s.-perlin/) and [João Martins](https://zambujo.github.io/). Their comments and support were really insightful.

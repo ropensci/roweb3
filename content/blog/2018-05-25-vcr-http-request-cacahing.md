@@ -15,6 +15,8 @@ tags:
   - webmockr
   - testing
   - tech notes
+params:
+  doi: "10.59350/jnx1t-9eq18"
 ---
 
 R package test suites that include HTTP requests are dependent on an internet connection being up, the internet connection speed, changing behavior of the remote server, as well as changing response formats/data from a remote server. We ideally want to test functionality of our package relative to some known data that isn't intermittently unavailable or changing. Caveat is that we do want to make sure the package fails well, including fails well in response to server failures, but these responses can be cached.

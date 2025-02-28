@@ -10,6 +10,8 @@ tags:
   - documentation
   - syntax highlighting
   - postdoc
+params:
+  doi: "10.59350/7wqra-q0y98"
 ---
 
 ## Two new packages!

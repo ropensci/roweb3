@@ -8,6 +8,7 @@ slug: news-october-2023
 description: Dev guide translation to Portuguese, R in government community call, multilingualism community call, coworking, new packages and package news
 params:
   last_newsletter: "2023-09-22"
+  doi: "10.59350/c6935-n5w84"
 ---
 
 

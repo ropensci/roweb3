@@ -13,6 +13,8 @@ tags:
   - packages
   - data access
   - weathercan
+params:
+  doi: "10.59350/feszp-53344"
 ---
 
 

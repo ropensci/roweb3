@@ -10,6 +10,8 @@ tags:
   - magick
   - images
   - tech notes
+params:
+  doi: "10.59350/2efhb-x8c56"
 ---
 
 This week [magick](https://cran.r-project.org/web/packages/magick/vignettes/intro.html) 1.5 appeared on CRAN. The latest update adds support for using images in knitr documents and shiny apps. In this post we show how this nicely ties together a reproducible image workflow in R, from source image or plot directly into your report or application.

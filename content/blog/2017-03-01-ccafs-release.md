@@ -9,6 +9,8 @@ tags:
   - geojson
   - geospatial
   - tech notes
+params:
+  doi: "10.59350/jg533-5c776"
 ---
 
 

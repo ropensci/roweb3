@@ -10,6 +10,8 @@ tags:
   - community
   - champions program
 description: "Our first cohort of Champions complete the program. In this blog post, we share each champions projects, their achievements and outreach activities."
+params:
+  doi: "10.59350/268cb-p0021"
 ---
 
 Our first cohort of the [rOpenSci Champions Program](/champions/) has now completed the second phase of the program by developing their project and carrying out outreach activities. In this article, we share each Champion's project, their achievements and their outreach activities.

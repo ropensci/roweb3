@@ -12,6 +12,8 @@ tags:
   - tabulizer
   - data extraction
   - Software Peer Review
+params:
+  doi: "10.59350/m9qk2-kn206"
 ---
 
 

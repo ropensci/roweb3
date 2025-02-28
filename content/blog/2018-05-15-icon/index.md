@@ -14,6 +14,8 @@ tags:
   - ozunconf
   - ozunconf17
   - tech notes
+params:
+  doi: "10.59350/h091a-jq185"
 ---
 
 ### Icons in R 

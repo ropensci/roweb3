@@ -9,6 +9,8 @@ tags:
   - graphics
   - imaging
   - CRAN
+params:
+  doi: "10.59350/azcqx-3x260"
 ---
 
 The new [magick](https://cran.r-project.org/web/packages/magick/index.html) package is an ambitious effort to modernize and simplify high-quality image processing in R. It wraps the [ImageMagick STL](https://www.imagemagick.org/Magick++/STL.html) which is perhaps the most comprehensive open-source image processing library available today.

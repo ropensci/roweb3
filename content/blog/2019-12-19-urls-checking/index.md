@@ -22,6 +22,8 @@ output:
   md_document:
     variant: markdown_github
     preserve_yaml: yes
+params:
+  doi: "10.59350/e1hxf-36d41"
 ---
 
 Last year we reported on [the joy of using commonmark and xml2 to parse

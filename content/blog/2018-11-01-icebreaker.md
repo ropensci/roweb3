@@ -12,6 +12,8 @@ tags:
   - unconf
   - icebreaker
   - welcome
+params:
+  doi: "10.59350/2yq03-j8y25"
 ---
 While many people groan at the thought of participating in a group ice breaker activity, we've gotten consistent feedback from people who have been to recent rOpenSci unconferences.
 

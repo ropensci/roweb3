@@ -12,6 +12,8 @@ tags:
   - community
   - interviews
   - rprofile
+params:
+  doi: "10.59350/98kva-09z75"
 ---
 
 {{< imgtxt src="/img/blog-images/2018-01-12-rprofile-karthik-ram/karthik-ram.png" alt="Karthik Ram" >}}

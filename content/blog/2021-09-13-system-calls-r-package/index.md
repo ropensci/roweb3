@@ -13,6 +13,8 @@ description: Ways (not) to call the system from your R package.
 output:
   html_document:
     keep_md: yes
+params:
+  doi: "10.59350/njkcp-mxb52"
 ---
 
 Have you ever found a command-line tool that's perfect for getting your job done, and wanted to use it from an R script or package?

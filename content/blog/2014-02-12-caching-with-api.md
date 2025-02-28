@@ -6,6 +6,8 @@ author: Scott Chamberlain
 tags:
   - API
   - EOL
+params:
+  doi: "10.59350/pb2br-k4t21"
 ---
 
 In [a recent blog post][cacheoff] we discussed caching calls to the web offline, on your own computer. Just like you can cache data on your own computer, a data provider can do the same thing. Most of the data providers we work with do not provide caching. However, at least one does: [EOL][eol], or Encyclopedia of Life. EOL allows you to set the amount of time (in seconds) that the call is cached, within which time you can make the same call and get the data back faster. We have a number of functions to interface with EOL in our `taxize` package.

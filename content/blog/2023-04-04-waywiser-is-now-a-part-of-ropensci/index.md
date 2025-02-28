@@ -21,6 +21,8 @@ package_version: 0.3.0
 # The summary below will be used by e.g. Twitter cards
 description: "Plus version 0.3.0 now on CRAN, and a new preprint"
 preface: This post was originally published on [Mike Mahoney's personal blog](https://www.mm218.dev/posts/2023-03-21-waywiser-ropensci/).
+params:
+  doi: "10.59350/882x3-k1122"
 ---
 
 I'm thrilled to share that [waywiser](https://docs.ropensci.org/waywiser/), my R package focused on providing framework-agnostic (but [tidymodels](https://www.tidymodels.org/)-friendly) methods for assessing models fit to spatial data[^terminology], has passed [peer review](/software-review/) and been accepted to [rOpenSci](/). As always, [the review process](https://github.com/ropensci/software-review/issues/571) improved the package immensely, thanks to the thoughtful reviews of [Virgilio Gómez-Rubio](https://becarioprecario.github.io/) and [Jakub Nowosad](https://jakubnowosad.com/)[^book], as well as the shepherding of [Anna Krystalli](https://www.r-rse.eu/) and [Paula Moraga](https://www.paulamoraga.com/) as editors.

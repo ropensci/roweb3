@@ -9,6 +9,8 @@ tags:
 - liderazgo
 featured: true
 description: Noam Ross toma el timón como nuevo Director Ejecutivo de rOpenSci
+params:
+  doi: "10.59350/p060y-x8b85"
 ---
 
 Me complace, emociona y llena de humildad anunciar que asumo el cargo de Director Ejecutivo de rOpenSci a partir del 1 de Abril.

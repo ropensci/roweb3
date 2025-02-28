@@ -8,6 +8,8 @@ tags:
 featured: yes
 description: rOpenSci is a nonprofit organization that is funded entirely by grants and donations. These collaborations enable us to sustain our projects and meet our goals.
 
+params:
+  doi: "10.59350/9den0-fmz94"
 ---
 
 rOpenSci is a nonprofit organization that is funded entirely by grants and donations. These contributions enable us to keep our projects and infrastructure active and accessible to the community. 

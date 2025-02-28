@@ -19,6 +19,8 @@ description: Some tips around the use of citations/references in R Markdown, in 
 output:
   html_document:
     keep_md: yes
+params:
+  doi: "10.59350/7txcj-1vf57"
 ---
 
 
