@@ -27,7 +27,8 @@
   <div class="career-cards mt-4">
     <a href="{{ .RelPermalink }}" class="career-card">
       <span>{{ .Title }}</span>
-      <p>{{ i18n "With" }} {{ delimit .Params.author ", " " and " }}</p>
+      {{ $last := i18n "and" }}
+      <p>{{ i18n "With" }} {{ delimit .Params.author ", " $last }}</p>
       <span><strong>{{ (time .Params.dateStart).Local | dateFormat "Monday, 02 January 2006 15:04 MST" }} • online 🌐</strong></span>
     </a>
   </div>
