@@ -36,7 +36,7 @@ outputs:
 
 speakers:  
   - name: "Andrea Gomez Vargas"
-    bio: Socióloga y trabaja como analista de estadísticas de población en el INDEC, Argentina. Su proyecto en el programa de campeones de rOpenSci, cohorte 2023-2024, fue desarrollar el paquete [arcenso](https://soyandrea.github.io/arcenso/), en su primera etapa permite acceder a los datos oficiales de los censos nacionales de Argentina en un formato accesible, ordenado y estructurado.
+    bio: "Socióloga y trabaja como analista de estadísticas de población en el INDEC, Argentina. Su proyecto en el programa de campeones de rOpenSci, cohorte 2023-2024, fue desarrollar el paquete [arcenso](https://soyandrea.github.io/arcenso/), en su primera etapa permite acceder a los datos oficiales de los censos nacionales de Argentina en un formato accesible, ordenado y estructurado."
     img: /img/team/andrea-vargas.png
   - name: "Cesar Luis Aybar Camacho"
     bio: "Mi nombre es César Luis Aybar Camacho. Soy un estudiante peruano de doctorado en el Laboratorio de Procesamiento de Imágenes de la Universidad de Valencia. Me postulé al Programa de Campeones de rOpenSci hace un año para aprender de la comunidad, fortalecer mis habilidades en desarrollo de software y promover buenas prácticas en la ciencia de datos. Además, quiero contribuir al desarrollo de una comunidad de R sólida y diversa en América Latina. Mi experiencia está principalmente enfocada en el uso de paquetes espaciales en R, como terra, gdalraster, sf y stars."
