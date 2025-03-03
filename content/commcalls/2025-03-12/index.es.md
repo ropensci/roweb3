@@ -42,8 +42,7 @@ speakers:
     bio: "Estudiante de doctorado peruano en el Laboratorio de Procesamiento de Imágenes de la Universidad de Valencia. También es el principal mantenedor del paquete rgee, que permite la integración de R y Google Earth Engine (GEE) en el mismo flujo de trabajo. Fue campeón en la primera cohorte del programa."
     img: /img/team/cesar-luis-aybar-camacho-mentee.jpeg  
   - name: "Francisco Cardozo"
-    bio: "Estudiante de doctorado en la Universidad de Miami, EE.UU., donde forma parte del programa de Ciencias de la Prevención y Salud Comunitaria.
-Trabaja en la evaluación de programas de prevención en varios países de América Latina. Actualmente desarrolla talleres para enseñar el uso de software que mejora la reproducibilidad y el rigor de la investigación. Estos talleres se centran en el uso de R y técnicas de análisis estadístico, como el aprendizaje automático y las variables latentes. Fue mentor en la segunda cohorte del programa de rOpenSci"
+    bio: "Estudiante de doctorado en Ciencias de la Prevención y Salud Comunitaria en la Universidad de Miami (EE.UU.). Su trabajo se centra en evaluar intervenciones preventivas en distintos países de América Latina, utilizando técnicas avanzadas de análisis estadístico, aprendizaje automático y modelado de variables latentes. Actualmente desarrolla talleres enfocados en la enseñanza de herramientas de software abierto, especialmente en R, para fortalecer la reproducibilidad, transparencia y rigor metodológico en investigación. Fue mentor en la segunda cohorte del programa de rOpenSci."
     img: /img/team/francisco-cardozo.jpg
 tags:
   - community call
