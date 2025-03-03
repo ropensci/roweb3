@@ -274,5 +274,29 @@
 [Our-editorial-board-members-are-volunteers]
   other = 'Our editorial board members are volunteers.'
   
-[Former-editors-and-advisory-board ]
+[Former-editors-and-advisory-board]
   other = 'Former editors and advisory board'
+  
+[and]
+  other = ' and '
+
+[Add-to-Calendar]
+  other = 'Add to Calendar'
+
+[Join-the-event]
+  other = 'Join the Event'
+
+[no-rsvp]
+  other = 'Everyone is welcome. No RSVP needed.'
+
+[zoom-test]
+  other = 'Test your Zoom setup'
+  
+[zoom-phone]
+  other = 'Find your local number to join by phone:'
+  
+[meeting-join]
+  other = 'Join the meeting:'
+  
+[How]
+  other = 'How'
