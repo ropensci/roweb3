@@ -1,6 +1,6 @@
 ---
 slug: champeons-latin-america
-title: 'New rOpenSci Champions Program cohort'
+title: 'rOpenSci Champions Program 2025: In Spanish!'
 author: Yanina Bellini Saibene
 editor: Steffi LaZerte
 date: '2025-03-10'
@@ -10,10 +10,10 @@ tags:
 - multilingual
 description: "The call is open for a new cohort of our Champions Program with a focus on Latin America. Apply!"
 params:
-  doi: ""
+  doi: "10.59350/chtnj-rec16"
 ---
 
-We have great news! The call for applications to be part of the new cohort of our 2025 Program is now open! And for the first time it will be in Spanish!
+We have great news: The call for applications to be part of the new cohort of our 2025 Program is now open! And for the first time it will be in Spanish!
 
 Our program seeks to identify, recognize and reward people who are leaders in an open science community, research software engineering and the R programming community.  
 
@@ -21,25 +21,24 @@ This year's program is focused on people from Latin America and for the first ti
 
 The program is an amazing platform to develop your open source project with the support of experts, interact, share and strengthen a network with other people determined to develop open and reproducible science in your part of the world. 
 
-The call for applications is now open to apply as a champion or mentor and be part of the global community of people using and developing scientific and open source software.
 
 ## Who can participate?
 
 We are looking for people who work in STEAM, who are from Latin America, who have a good oral and written command of the Spanish language and who already have knowledge and experience developing with R. 
 
-For those who want to be mentors, it is also important that they are willing to guide and teach other people and work collaboratively. 
+For those who want to be mentors, we are looking for people who have previous experience developing, maintaining, or contributing to R packages (at rOpenSci is even better), or have participated in the rOpenSci review process or another peer code review project. It is also important that they are willing to guide and teach other people and work collaboratively. 
 
 You can see more details about the requirements to participate in each role on our specific program website (in Spanish).
 
-## Why be a champion?
+## Why be a Champion?
 
-Over the course of 12 months, participants receive training, individual mentoring for the development of an open source project, an annual stipend and participate in various community building and strengthening activities.
+Over the course of 12 months, Champions receive training, individual mentoring in the development of an open source project, an annual stipend, and the opportunity to participate in various community building and strengthening activities.
 
-They must also develop a project such as the creation of new R packages or participate in the rOpenSci peer review process that teaches them best practices for developing and sharing research software and invites them to become part of an international community.
+During this program, Champions will develop a project, such as the creation of a new R package or participating in the rOpenSci peer review process. This offers opportunities to learn best practices for developing and sharing research software and an invitation to become part of an international community.
 
-At the end of the program, participants can choose how they want to give back to their own communities and institutions, whether through outreach, mentoring or promoting open science and open source research practices.
+At the end of the program, participants can choose how they want to give back to their own communities and institutions. That could be through outreach, mentoring, or promoting open science and open source research practices.
 
-When they finish, they are fully integrated into the rOpenSci community, which provides them with ongoing support and growth opportunities.
+When they finish, Champions are fully integrated into the rOpenSci community, which provides them with ongoing support and growth opportunities.
 
 ## Why be a mentor?
 
@@ -47,24 +46,24 @@ Mentors will play a key role in the rOpenSci program, helping to select, mentor,
 
 Mentors will connect their champions with people, programs, and organizations; recommend resources, readings, training, and experiences; and provide feedback on the project they develop.
 
-We are looking for people who have previous experience developing, maintaining, or contributing to R packages (rOpenSci even better), or have participated in the rOpenSci review process or another peer code review project.
+Mentors will receive mentoring training, and have opportunities to gain experience and skills to perform their tasks. They will receive an annual stipend, be recognized on the rOpenSci website and social media channels, and make new connections through the networks of others who participate.
 
-Mentors will have mentoring training, gain experience and skills to perform their task, receive an annual stipend for their participation, be recognized on the rOpenSci website and social media channels, and make new connections through the networks of others who participate.
-
-By mentoring our selected champions and helping to shape this program, mentors will also be giving back to the rOpenSci community in a great and meaningful way.
+By mentoring our selected Champions and helping to shape this program, mentors will also be giving back to the rOpenSci community in a great and meaningful way 🙏🏼 .
 
 ## How to apply?
 
-The application form must be completed by **Wednesday, April 30, 2025**. The forms must be completed in **Spanish**. 
+The application form must be completed **in Spanish by Wednesday, April 30, 2025.
 
-If you would like to know the information needed to complete the form [you can see it on the program's website](https://ropenscilabs.github.io/ChampionsProgram/). 
+If you would like to know more about the information needed to complete the form [you can see it on the program's website](https://ropenscilabs.github.io/ChampionsProgram/). 
 
 * Mentors application form: 
 
 * Champions application form:
 
-If you have further questions or doubts you can participate in the [_Community Call_ to be held on March 12, 2025](/en/commcalls/champions-latino-2025/) where mentors and champions from previous cohorts will participate and share their experiences in the program.
+If you have any questions you can participate in the [_Community Call_ to be held on March 12, 2025](/en/commcalls/champions-latino-2025/) where mentors and Champions from previous cohorts will participate and share their experiences in the program.
 
 In addition, we will have an [application clinic]() on **Tuesday, April 15, 2025**. At this clinic, the program coordinator will be available to answer questions and help applicants complete the application form.
 
-And if you still have any questions or concerns, [you can email us at info@ropensci.org](mailto:info@ropensci.org)
+And if you still have any questions or concerns, [you can email us at info@ropensci.org](mailto:info@ropensci.org).
+
+We look forward to receiving your application!
