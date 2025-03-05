@@ -11,7 +11,7 @@ tags:
 - multilingüe
 description: "Se abre el llamado para una nueva cohorte de nuestro Programa de Campeon(a|e)s con foco en América Latina. ¡Postúlate!"
 params:
-  doi: ""
+  doi: "10.59350/gvg6h-24382"
 ---
 
 ¡Tenemos grandes noticias! ¡Ya esta abierta la convocatoria para ser parte de la nueva cohorte de nuestro Programa durante 2025! ¡Y por primera vez será en español!
