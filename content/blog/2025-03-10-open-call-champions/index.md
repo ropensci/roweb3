@@ -19,7 +19,7 @@ Our program seeks to identify, recognize and reward people who are leaders in an
 
 This year's program is focused on people from Latin America and for the first time will be conducted entirely in Spanish.  The main goal is to foster sustainable research software as a pillar of Open Science in Latin America through capacity and community building.
 
-The program is an amazing platform to develop your open source project with the support of experts, interact, share and strengthen a network with other people determined to develop open and reproducible science in your part of the world. 
+This program is an amazing platform for developing your open source project with the support of experts, interacting, sharing, and strengthening a network with other people also developing open and reproducible science in your part of the world. 
 
 
 ## Who can participate?
@@ -42,9 +42,8 @@ When they finish, Champions are fully integrated into the rOpenSci community, wh
 
 ## Why be a mentor?
 
-Mentors will play a key role in the rOpenSci program, helping to select, mentor, and inspire those who participate as champions. 
-
-Mentors will connect their champions with people, programs, and organizations; recommend resources, readings, training, and experiences; and provide feedback on the project they develop.
+Mentors play a key role in the rOpenSci program, helping to select, mentor, and inspire those who participate as Champions. 
+Mentors will connect their Champions with people, programs, and organizations; will recommend resources, readings, training, and experiences; and will provide feedback on the project they develop.
 
 Mentors will receive mentoring training, and have opportunities to gain experience and skills to perform their tasks. They will receive an annual stipend, be recognized on the rOpenSci website and social media channels, and make new connections through the networks of others who participate.
 
