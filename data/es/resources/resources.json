@@ -42,7 +42,7 @@
 {
 "title": "Newsletter",
 "text": "Un resumen periódico de las actividades y actualizaciones recientes de rOpenSci",
-"url": "https://news.ropensci.org"
+"url": "/news"
 },
 {
 "title": "Libros",
