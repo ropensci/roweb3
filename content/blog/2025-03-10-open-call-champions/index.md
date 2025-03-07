@@ -28,7 +28,7 @@ We are looking for people who work in STEAM, who are from Latin America, who hav
 
 For those who want to be mentors, we are looking for people who have previous experience developing, maintaining, or contributing to R packages (at rOpenSci is even better), or have participated in the rOpenSci review process or another peer code review project. It is also important that they are willing to guide and teach other people and work collaboratively. 
 
-You can see more details about the requirements to participate in each role on our specific program website (in Spanish).
+You can see more details about the requirements to participate in each role on [our specific program website (in Spanish)](https://ropenscilabs.github.io/ChampionsProgram/).
 
 ## Why be a Champion?
 
