@@ -38,29 +38,28 @@ A lo largo de 12 meses, recibirás formación, tutoría individual para el desar
 
 Tambien debes desarrollar un proyecto como la creación de nuevos paquetes R o la participación en el proceso de revisión por pares de rOpenSci que enseña las mejores prácticas para desarrollar y compartir software de investigación y te invita a formar parte de una comunidad internacional.
 
-Al final del programa, los participantes pueden elegir cómo quieren retribuir a sus propias comunidades e instituciones, ya sea a través de la divulgación, la tutoría o la promoción de prácticas de ciencia abierta y software libre de investigacion.
+Al final del programa,  puedes elegir cómo quieres retribuir a tus propias comunidades e instituciones, ya sea a través de la divulgación, la tutoría o la promoción de prácticas de ciencia abierta y software libre de investigacion.
 
-Cuando terminan, están plenamente integrados en la comunidad de rOpenSci, que les proporciona apoyo continuo y oportunidades de crecimiento.
+Cuando termines el programa, estarás plenamente integrado en la comunidad de rOpenSci, que te proporciona apoyo continuo y oportunidades de crecimiento.
 
-## ¿Por qué ser un mentor/a?
+## ¿Por qué ser mentor/a?
 
-Mentores y mentoras desempeñarán un papel fundamental en el programa de rOpenSci, ayudando a seleccionar, asesorar e inspirar a quienes participen como campeones. 
+Desempeñarás un papel fundamental en el programa de rOpenSci, ayudando a seleccionar, asesorar e inspirar a quienes participen como campeones. 
 
-Los mentores y mentoras pondrán en contacto a sus campeones/as con personas, programas y organizaciones; recomendarán recursos, lecturas, formación y experiencias; y proporcionarán comentarios sobre el proyecto que desarrollen.
+Pondrás en contacto a campeones/as con personas, programas y organizaciones; recomendarás recursos, lecturas, formación y experiencias; y proporcionarás comentarios sobre el proyecto que desarrollen.
 
-Buscamos personas que cuenten con experiencia previa en desarrollar, mantener o contribuir a paquetes de R (si son de rOpenSci aún mejor), o haber participado en el proceso de revisión de rOpenSci u otro proyecto de revisió de código entre pares.
 
-Los mentores y mentoras tendran entrenamiento sobre mentorias, adquirirán experiencia y habilidades para realizar su tarea, un estipendio anual por su participación, serán reconocidos en el sitio web de rOpenSci y en los canales de las redes sociales, y harán nuevas conexiones a través de las redes de las otras personas que particpan.
+Recibirás entrenamiento sobre mentoría, adquirirás experiencia y habilidades para realizar tu tarea, un estipendio anual por tu participación, se te reconocerá en el sitio web de rOpenSci y en otros canales de comunicación como las redes sociales, y podrás hacer nuevas conexiones a través de las redes de las otras personas que participan.
 
-Al tutelar a nuestros campeones y campeonas seleccionados y ayudar a dar forma a este programa, los tutores y tutoras también estarán retribuyendo a la comunidad rOpenSci de una forma estupenda y significativa.
+Con tu mentoria y ayuda para dar forma a este programa, también estarás retribuyendo a la comunidad rOpenSci de una forma estupenda y significativa.
 
 ## ¿Cómo aplicar?
 
-Se debe completar el formulario de aplicación antes del **miércoles 30 de abril de 2025**. Los formularios deben completarse en español. 
+Se debe completar el formulario de aplicación antes del **miércoles 30 de abril de 2025**. Los formularios deben completarse en **español**. 
 
 Si quieren conocer la información necesaria para completar el formulario [pueden verla en la web del programa](https://ropenscilabs.github.io/ChampionsProgram/). 
 
-* Formulario para aplicar como Mentor(a|e) s: 
+* Formulario para aplicar como Mentor(a|e)s: 
 
 * Formulario para aplicar como Campeon(a|e)s:
 
