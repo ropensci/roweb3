@@ -61,7 +61,7 @@ Si quieren conocer la información necesaria para completar el formulario [puede
 
 * Formulario para aplicar como Mentor(a|e)s: 
 
-* Formulario para aplicar como Campeon(a|e)s:
+* [Completa el formulario para aplicar como Campeon(a|e)s](https://airtable.com/appF6OXmxkk8VmR8a/shrlvgcNz1R4CoaQN) 
 
 Si tenes más dudas o preguntas podes participar de la [_Community Call_ que se realizará el 12 de marzo de 2025](/es/commcalls/champions-latino-2025/) donde participarán mentores y campeones de cohortes anteriores contando sus experiencias en el programa.
 
