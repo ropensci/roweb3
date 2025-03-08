@@ -2,7 +2,9 @@
 slug: campeones-america-latina
 title: 'Nueva cohorte del Programa de Campeon(a|e)s rOpenSci'
 author: Yanina Bellini Saibene
-editor: Steffi LaZerte
+editor: 
+- Steffi LaZerte
+- Alejandra Bellini
 date: '2025-03-10'
 tags:
 - comunidad
