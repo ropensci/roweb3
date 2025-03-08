@@ -57,7 +57,7 @@ If you would like to know more about the information needed to complete the form
 
 * Mentors application form: 
 
-* Champions application form:
+* [Fill out the Champions application form](https://airtable.com/appF6OXmxkk8VmR8a/shrlvgcNz1R4CoaQN)
 
 If you have any questions you can participate in the [_Community Call_ to be held on March 12, 2025](/en/commcalls/champions-latino-2025/) where mentors and Champions from previous cohorts will participate and share their experiences in the program.
 
