@@ -55,7 +55,7 @@ The application form must be completed **in Spanish by Wednesday, April 30, 2025
 
 If you would like to know more about the information needed to complete the form [you can see it on the program's website](https://ropenscilabs.github.io/ChampionsProgram/). 
 
-* Mentors application form: 
+* [Fill out the Mentors application form](https://airtable.com/appF6OXmxkk8VmR8a/shrZnWDRKxXUEmLRM)
 
 * [Fill out the Champions application form](https://airtable.com/appF6OXmxkk8VmR8a/shrlvgcNz1R4CoaQN)
 
