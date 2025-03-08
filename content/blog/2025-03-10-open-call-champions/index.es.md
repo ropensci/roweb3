@@ -59,7 +59,7 @@ Se debe completar el formulario de aplicación antes del **miércoles 30 de abri
 
 Si quieren conocer la información necesaria para completar el formulario [pueden verla en la web del programa](https://ropenscilabs.github.io/ChampionsProgram/). 
 
-* Formulario para aplicar como Mentor(a|e)s: 
+* [Completa el formulario para aplicar como Mentor(a|e)s](https://airtable.com/appF6OXmxkk8VmR8a/shrZnWDRKxXUEmLRM) 
 
 * [Completa el formulario para aplicar como Campeon(a|e)s](https://airtable.com/appF6OXmxkk8VmR8a/shrlvgcNz1R4CoaQN) 
 
