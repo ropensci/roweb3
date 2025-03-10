@@ -2,7 +2,7 @@
 title: 'Advancing Research with Open Science and Collaborative Communities'
 dateStart: '2025-01-31T20:30:00'
 dateEnd: '2025-01-31T21:30:00'
-date: 2025-12-11T21:30:00 # UTC!! same as dateEnd
+date: 2025-01-31T21:30:00 # UTC!! same as dateEnd
 description: "Yanina Bellini Saibene presents rOpenSci and other community of practice related to science and research"
 location: 'online'
 country: "🌐" # emoji
