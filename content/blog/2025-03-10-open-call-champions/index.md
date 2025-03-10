@@ -4,6 +4,7 @@ title: 'rOpenSci Champions Program 2025: In Spanish!'
 author: Yanina Bellini Saibene
 editor: Steffi LaZerte
 date: '2025-03-10'
+featured: true
 tags:
 - comunity
 - champions

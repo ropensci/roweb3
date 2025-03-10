@@ -6,6 +6,7 @@ editor:
 - Steffi LaZerte
 - Alejandra Bellini
 date: '2025-03-10'
+featured: true
 tags:
 - comunidad
 - desarrollo de capacidades
