@@ -19,11 +19,11 @@ attendees:
   - Yanina Bellini Saibene
 
 resources: # can be added later, one entry per talk (don't add while still empty, add once there are resources)
-  # - title: "Advancing Research with Open Science and Collaborative Communities"
-  #   speaker: Yani Bellini Saibene
-  #   slides: 
-  #   video: 
-  #   language: en
+  - title: "Advancing Research with Open Science and Collaborative Communities"
+    speaker: Yanina Bellini Saibene
+    slides: https://docs.google.com/presentation/d/1sO36iQUSFYZubMFSGnoyETLZOa-gIvaSp7VaSGPisDI/edit?usp=sharing
+    video: https://www.youtube.com/watch?v=pFyyj6nFBpo
+    language: en
 
 ---
 
