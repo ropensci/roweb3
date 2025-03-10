@@ -2,7 +2,7 @@
 title: 'Advancing Research with Open Science and Collaborative Communities'
 dateStart: '2025-01-31T20:30:00'
 dateEnd: '2025-01-31T21:30:00'
-date: 2025-12-11T21:30:00 # UTC!! same as dateEnd
+date: 2025-01-31T21:30:00 # UTC!! same as dateEnd
 description: "Yanina Bellini Saibene presents rOpenSci and other community of practice related to science and research"
 location: 'online'
 country: "🌐" # emoji
@@ -19,11 +19,11 @@ attendees:
   - Yanina Bellini Saibene
 
 resources: # can be added later, one entry per talk (don't add while still empty, add once there are resources)
-  # - title: "Advancing Research with Open Science and Collaborative Communities"
-  #   speaker: Yani Bellini Saibene
-  #   slides: 
-  #   video: 
-  #   language: en
+  - title: "Advancing Research with Open Science and Collaborative Communities"
+    speaker: Yanina Bellini Saibene
+    slides: https://docs.google.com/presentation/d/1sO36iQUSFYZubMFSGnoyETLZOa-gIvaSp7VaSGPisDI/edit?usp=sharing
+    video: https://www.youtube.com/watch?v=pFyyj6nFBpo
+    language: en
 
 ---
 
