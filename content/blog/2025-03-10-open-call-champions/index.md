@@ -61,7 +61,7 @@ If you would like to know more about the information needed to complete the form
 
 If you have any questions you can participate in the [_Community Call_ to be held on March 12, 2025](/en/commcalls/champions-latino-2025/) where mentors and Champions from previous cohorts will participate and share their experiences in the program.
 
-In addition, we will have an [application clinic]() on **Tuesday, April 15, 2025**. At this clinic, the program coordinator will be available to answer questions and help applicants complete the application form.
+In addition, we will have an [application clinic](/events/clinica-champions-2025-04/) on **Tuesday, April 15, 2025**. At this clinic, the program coordinator will be available to answer questions and help applicants complete the application form.
 
 And if you still have any questions or concerns, [you can email us at info@ropensci.org](mailto:info@ropensci.org).
 

@@ -67,7 +67,7 @@ Si quieren conocer la información necesaria para completar el formulario [puede
 
 Si tenes más dudas o preguntas podes participar de la [_Community Call_ que se realizará el 12 de marzo de 2025](/es/commcalls/champions-latino-2025/) donde participarán mentores y campeones de cohortes anteriores contando sus experiencias en el programa.
 
-Además, tendremos una [clínica de aplicación]() el **martes 15 de Abril de 2025**. En esta clínica, la coordinadora del programa estará disponible para responder preguntas y ayudar a los postulantes a completar el formulario de aplicación.
+Además, tendremos una [clínica de aplicación](/events/clinica-champions-2025-04/) el **martes 15 de Abril de 2025**. En esta clínica, la coordinadora del programa estará disponible para responder preguntas y ayudar a los postulantes a completar el formulario de aplicación.
 
 Y si aún tenes dudas o consultas, [podés escribirnos un mail info@ropensci.org](mailto:info@ropensci.org)
 
