@@ -12,7 +12,7 @@ tags:
 - desarrollo de capacidades
 - campeones
 - multilingüe
-description: "Se abre el llamado para una nueva cohorte de nuestro Programa de Campeon(a|e)s con foco en América Latina. ¡Postúlate!"
+description: "Se abre el llamado para una nueva cohorte de nuestro Programa de Campeon(a|e)s con foco en América Latina. ¡Postulate!"
 params:
   doi: "10.59350/gvg6h-24382"
 ---
@@ -72,3 +72,4 @@ Además, tendremos una [clínica de aplicación](/events/clinica-champions-2025-
 
 Y si aún tenes dudas o consultas, [podés escribirnos un mail info@ropensci.org](mailto:info@ropensci.org)
 
+¡Esperamos tu solicitud con mucho entusiasmo!
