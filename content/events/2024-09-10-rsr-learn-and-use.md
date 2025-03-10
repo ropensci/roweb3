@@ -24,6 +24,12 @@ deets: |
     Meeting ID: 821 4601 5078
     Passcode: 112961
 zoomurl: https://numfocus-org.zoom.us/j/82146015078?pwd=kacCy6G3Ey3GpRrVmxIu7Nqq6q8EHn.1
+resources: # can be added later, one entry per talk (don't add while still empty, add once there are resources)
+  - title: "Resources For Using R With Screen Readers"
+    speaker: Liz Hare
+    slides: https://ropensci.org/blog/2024/09/05/screen-readers-tools/ 
+    video: https://vimeo.com/1008631708
+    language: en
 ---
 
 ## English
