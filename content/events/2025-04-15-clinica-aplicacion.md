@@ -30,34 +30,21 @@ lubridate::with_tz(d, 'America/Winnipeg')
 ```
 -->
 
-**Join us for 2 hours Tuesday April 01, 09:00 Americas Pacific (16:00 UTC) for 
-[Social Coworking + Office Hours](/blog/2023/06/21/coworking/)**
+**Sumate a esta clinica de aplicaciones durante 2 horas el martes, 15 de abril, 10 AM UTC-3 (Argentina, Uruguay) / 13:00 UTC**.
 
-This month we're focusing on the theme **R you joking? Silly R packages for [April Fools' day](https://en.wikipedia.org/wiki/April_Fools%27_Day)** 
-with **Steffi LaZerte**, rOpenSci Community Assistant.
+Este mes tenemos una sesión especial que funciona como una Clínica de Aplicación para 
+el Programa Champions con nuestra community manager, **Yanina Bellini Saibene**, 
+como co-anfitriona.
 
-Come for the full 2 hrs or only as long as you need!
+¡Ven a las 2 horas completas o sólo el tiempo que necesites!
 
-### Cowork
+### Trabaja en comunidad en tu aplicación para el Programa de Campeones
 
-- Explore silly R packages
-- Have fun designing your own silly R package
-- Cowork independently on work related to R
-    - Plan out that package you’ve always wanted to create
-    - Work on packages that tend to be neglected
-    - What ever you need to get done!
-
-### Socialize/Network
-
-- Meet rOpenSci Community Assistant, **Steffi LaZerte**, and discuss your favourite silly R package!
-- Meet other R users and rOpenSci staff in Zoom
-- Get answers to your questions
-    - Ask your hosts
-    - Ask your fellow coworkers
-    - Discuss your work, best practices, or get advice and resources
-- Answer other coworkers' questions!
-
-We host 
-[Social Coworking + Office Hours](/blog/2023/06/21/coworking/) 
-on the first Tuesday of each month, alternating among timezones to 
-accommodate different parts of the world.
+- Prepara tu solicitud para el Programa de Campeones
+- Conoce a la co-anfitriona **Yanina Bellini Saibene** para charlar sobre el Programa de Campeones
+  - ¿Tienes preguntas sobre el programa?
+  - ¿Quieres mas detalles sobre ser campeon-a o mentor-a?
+  - ¿Tienes preguntas específicas sobre la solicitud?
+  - ¿Necesitas ideas y comentarios sobre tu solicitud antes de presentarla? 
+  
+  Participa en esta sesión para plantear sus preguntas directamente al equipo de rOpenSci. ¡Siéntete libre de unirte al evento en cualquier momento que quieras durante las dos horas!
