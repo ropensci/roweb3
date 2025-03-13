@@ -36,7 +36,7 @@ It must be noted that filing the template is a private, confidential, and intern
 
 -   **Receive the incident report - checklist**: this checklist have the steps that each person on the CoC Team has to take. For example:
 
-    -   Email [conduct\@ropensci.org](mailto:conduct@ropensci.org){.email} to mark dates and timeline for planned response.
+    -   Email conduct@ropensci.org to mark dates and timeline for planned response.
 
     -   Open new document with Committee-only permissions and link to sheet of reported information.
 
