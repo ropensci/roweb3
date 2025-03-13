@@ -40,7 +40,7 @@ It must be noted that filing the template is a private, confidential, and intern
 
     -   Open new document with Committee-only permissions and link to sheet of reported information.
 
-    -   Email person reporting to acknowledge receipt and cc [conduct\@ropensci.org](mailto:conduct@ropensci.org){.email} (see template).
+    -   Email person reporting to acknowledge receipt and cc conduct@ropensci.orgmailto:conduct@ropensci.org (see template).
 
     -   ...
 
