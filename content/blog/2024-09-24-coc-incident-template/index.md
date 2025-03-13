@@ -59,7 +59,7 @@ It must be noted that filing the template is a private, confidential, and intern
 
 -   **Incident - evidence**: for example emails, screenshots of direct or public messages in different platforms like Slack, GitHub, Discord, Discourse.
 
--   **Type of (possible) rOpenSci CoC unacceptable behavior:** create a check list with the list of not accepted behaviors for the assesment. Remeber the list is not exhaustive.
+-   **Type of (possible) rOpenSci CoC unacceptable behavior:** create a check list with the list of not accepted behaviors for the assesment, based on the current Code of Conduct. Remember the list is not exhaustive.
 
     -   offensive comments related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), nationality, native language, or technology choices.
 
