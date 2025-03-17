@@ -3,7 +3,7 @@ slug: "r-package-review"
 title: R Package Review Experience
 author:
 - Alex Koiter
-date: 2024-03-14
+date: 2025-03-25
 tags:
 - Software Peer Review
 - packages
