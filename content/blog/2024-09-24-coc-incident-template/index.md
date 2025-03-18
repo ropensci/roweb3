@@ -11,6 +11,8 @@ tags:
   - code of conduct
   - community
 description: ""
+params: 
+  doi: "10.59350/48jjf-qqm52"
 ---
 
 Handling reported incidents related to a Code of Conduct (CoC) is a complex and delicate task. Managing timely and with care is crucial for maintaining a healthy and inclusive community.
