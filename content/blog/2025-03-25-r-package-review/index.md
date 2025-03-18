@@ -33,7 +33,7 @@ That is how [`mbquartR`](https://github.com/ropensci/mbquartR/) was born.
 I have always thought of myself as more of a soil/environmental scientist than an R programmer so I was a bit apprehensive to even create an R package let alone have it peer reviewed.
 This is was my first R package, and developing it not only tested my R skills, but I was also learning so much along the way.
 I also felt the functionality of my package was pretty minimal given all the excellent and extensive R packages already available.
-I definitely had a case of the [impostR syndrome!](https://x.com/rundavidrun/status/587671657193455616/photo/1)
+I definitely had a case of the [impost**R** syndrome!](https://en.wikipedia.org/wiki/Impostor_syndrome)
 
 I have had lots of experiences with peer review, all of it through academic journals.
 I have been reviewed as author, I have reviewed others work, and as a subject/submission editor for an international journal I have solicited and read many reviews.
@@ -49,7 +49,7 @@ Never mind the hours spent formatting to meet author guidelines only to get reje
 ## My rOpenSci software peer review expereince
 
 I really appreciated the ability to do a [Pre-Submission Enquiry](https://github.com/ropensci/software-review/issues/649).
-No more hours of formatting only to get the dreaded desk rejection!
+No more hours of formatting only to get the dreaded desk rejection! or, in this case, changes to the package and its documentation.
 This process was very straight forward, create a new [issue](https://github.com/ropensci/software-review/issues) and fill out the pre-submission template.
 I got an enthusiastic response within less than 2 weeks letting me know that `mbquartR` was a good fit.
 Time to get to work!
