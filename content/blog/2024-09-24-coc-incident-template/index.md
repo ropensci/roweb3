@@ -94,15 +94,6 @@ It must be noted that using this template to review a report is a private, confi
 
     -   non-consensual publication of non-harassing private communication, including screenshots of private discussion channels or direct messages.
 
-        We prioritize marginalized people’s safety over privileged people’s comfort. We will not act on complaints regarding:
-
-        -   ‘reverse’ -isms, including ‘reverse racism,’ ‘reverse sexism,’ and ‘cisphobia’
-
-        -   reasonable communication of boundaries, such as “leave me alone,” “go away,” or “I’m not discussing this with you”
-
-        -   communicating in a ’tone’ you don’t find congenial
-
-        -   criticizing racist, sexist, cissexist, or otherwise oppressive behavior or assumptions
 
 * **Response:** A description of the incident, the decision made by the CoC committee, and the rational for that decision.
 
