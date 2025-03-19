@@ -47,7 +47,7 @@ Because the text has remained unchanged, the version number is kept at 2.5, date
 
 ## Committee Members Activities
 
-We reflected on how we handle incidents, make decisions, take necessary actions, and communicate both with reporters and/or reported persons. As a result of this reflection, we have been working on a [template to guide the CoC steps during an incident report]().
+We reflected on how we handle incidents, make decisions, take necessary actions, and communicate both with reporters and/or reported persons. As a result of this reflection, we have been working on a [template to guide the CoC steps during an incident report](/blog/2025/03/20/coc-incident-template/).
 
 Yanina Bellini Saibene attended the Book Club organized by R-Ladies Global to 
 read and discuss the book ["How to Respond to Code of Conduct Reports"](https://files.frameshiftconsulting.com/books/cocguide.pdf). It was a good opportunity to discuss with and learn from 
