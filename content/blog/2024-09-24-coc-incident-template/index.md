@@ -62,7 +62,7 @@ It must be noted that using this template to review a report is a private, confi
 
 -   **Incident - evidence**: Evidence of inappropriate behaviour. For example, emails or screenshots of direct or public messages on different platforms like GitHub, Slack, Discourse.
 
--   **Type of unacceptable behavior:** Selected from a (non-exhaustive) checklist of inappropriate behaviours identified in the CoC. 
+-   **Type of unacceptable behavior:** Selected from a (non-exhaustive) checklist of inappropriate behaviors identified in the CoC.  _When selecting, remember that we prioritize marginalized people’s safety over privileged people’s comfort. We will not act on complaints regarding: ‘reverse’ -isms, including ‘reverse racism,’ ‘reverse sexism,’ and ‘cisphobia’; reasonable communication of boundaries, such as “leave me alone,” “go away,” or “I’m not discussing this with you”; communicating in a ’tone’ you don’t find congenial;  criticizing racist, sexist, cissexist, or otherwise oppressive behavior or assumptions_
 
     -   offensive comments related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), nationality, native language, or technology choices.
 
