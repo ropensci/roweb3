@@ -6,7 +6,7 @@ author:
   - Yanina Bellini Saibene
 editor:
   - Steffi LaZerte
-date: "2024-09-24"
+date: "2025-03-20"
 tags:
   - code of conduct
   - community
@@ -39,15 +39,15 @@ It must be noted that using this template to review a report is a private, confi
 
 -   **Incident report checklist**: The checklist of steps the CoC Team has to take to resolve the incident. For example:
 
-    -   Email conduct@ropensci.org to mark dates and timeline for planned response.
+    -   Step 1: Email conduct@ropensci.org to mark dates and timeline for planned response.
 
-    -   Open new document with Committee-only permissions and link to reported information.
+    -   Step 2: Open new document with Committee-only permissions and link to reported information.
 
-    -   Email person reporting to acknowledge receipt and cc conduct@ropensci.orgmailto:conduct@ropensci.org.
+    -   Step 3: Email person reporting to acknowledge receipt and cc conduct@ropensci.org.
 
-    -   ...
+    -   Step n: ...
 
--   **Reported person**: Who is being reported for inappropriate behavior.
+-   **Reported person(s)**: Who is being reported for inappropriate behavior.
 
 -   **Target(s)**: Who was the target of the inappropriate behavior.
 
