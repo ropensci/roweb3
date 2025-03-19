@@ -1,6 +1,5 @@
 {{ $value := . }}
 {{ $string := $value | urlize }}
-{{ warnf $string }}
 {{ $translation := $string | i18n }}
 {{ if (gt (len $translation) 0) }}
   {{ $value = $translation }}
