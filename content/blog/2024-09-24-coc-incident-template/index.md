@@ -25,19 +25,19 @@ It must be noted that using this template to review a report is a private, confi
 
 ## The Template
 
--   **Report ID**: a code to identify each report uniquely.
+-   **Report ID**: A code to identify each report uniquely.
 
--   **Date and time of the report**: to track the time to response in order to comply with our process. For example, our policy is to send a first acknowledgment email within 24 hours of receiving a report.
+-   **Date and time of the report**: When the report was submitted. This is used to track our response times to ensure we comply with the process. For example, our policy is to send an acknowledgment email within 24 hours of receiving a report.
 
--   **Medium use to report**: form, direct message, email, phone, personal conversation.
+-   **Medium used to report**: How the report was submitted. For example, form, direct message, email, phone, personal conversation.
 
 -   **First deadline clock**: to a public acknowledgement.
 
 -   **Second deadline clock**: to a decision.
 
--   **Reporter(s) contact information**: for quick communication during the process.
+-   **Reporter(s)'s contact information**: How to best contact the reporter. This ensures quick communication during the process.
 
--   **Receive the incident report - checklist**: this checklist have the steps that each person on the CoC Team has to take. For example:
+-   **Incident report checklist**: The checklist of steps the CoC Team has to take to resolve the incident. For example:
 
     -   Email conduct@ropensci.org to mark dates and timeline for planned response.
 
@@ -58,7 +58,7 @@ It must be noted that using this template to review a report is a private, confi
 - **Conflict of interest**: check if any member of the CoC team may have a conflict of interest. In that case, the recused person will be excluded from the process, and the independent community member is allowed to ask for the assistance of an extra independent person (preferring people with experience in CoC teams of other communities).
 -   **CoC sub-team**:  The sub-team that is handling the report, which may be smaller than the CoC team.
 
--   **Incident - brief description**: (anonymize for the final version)
+-   **Incident - brief description**: A description of the reported incident.
 
 -   **Incident - evidence**: Evidence of inappropriate behaviour. For example, emails or screenshots of direct or public messages on different platforms like GitHub, Slack, Discourse.
 
