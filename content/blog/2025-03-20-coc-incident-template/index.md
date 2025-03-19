@@ -108,7 +108,7 @@ It must be noted that using this template to review a report is a private, confi
 * **Future actions to avoid this type of incident**: Description/checklist of actions which can be taken to help avoid future incidents. 
 This is part of the reflection process that helps to improve our CoC and our community. For example, we may clarify our CoC, or update text in our online resources.
 
-This template serves as a guide for the CoC Team in handling incident reports. Through testing in both simulated scenarios and real cases, we have found that it aids decision-making and helps reduce bias in our responses—especially in complex situations. Additionally, this template:
+[This template serves as a guide for the CoC Team in handling incident reports and you can access it also on this google document format](https://docs.google.com/document/d/1_CIFwszBLbfKcewf11Fl76UP6IcSpHBC98XhK8V4LvM/). Through testing in both simulated scenarios and real cases, we have found that it aids decision-making and helps reduce bias in our responses—especially in complex situations. Additionally, this template:
 - standardizes the creation of anonymized descriptions for our annual rOpenSci CoC transparency report;
 - is open to revision after each use, allowing for continuous improvement by the team; 
 - and its use facilitates knowledge transfer to future CoC Team members.
