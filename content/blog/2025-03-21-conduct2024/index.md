@@ -4,8 +4,9 @@ author:
   - Yanina Bellini Saibene
   - Mark Padgham
   - Natalia Morandeira
- editor: Steffi LaZerte
-date: '2025-01-20'
+editor:
+  - Steffi LaZerte
+date: '2025-03-21'
 slug: conduct2024
 tags:
   - code of conduct
