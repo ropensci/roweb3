@@ -11,7 +11,7 @@ tags:
   - code of conduct
   - community
   - governance
-description: ""
+description: "Learn how rOpenSci’s template provides a structured approach to effectively and confidentially analyze Code of Conduct incident reports."
 params: 
   doi: "10.59350/48jjf-qqm52"
 ---
@@ -31,9 +31,9 @@ It must be noted that using this template to review a report is a private, confi
 
 -   **Medium used to report**: How the report was submitted. For example, form, direct message, email, phone, personal conversation.
 
--   **First deadline clock**: to a public acknowledgement.
+-   **First deadline**: When the a public acknowledgment needs to be made by.
 
--   **Second deadline clock**: to a decision.
+-   **Second deadline clock**: When a decision needs to be made by.
 
 -   **Reporter(s)'s contact information**: How to best contact the reporter. This ensures quick communication during the process.
 
@@ -55,14 +55,14 @@ It must be noted that using this template to review a report is a private, confi
 
 -   **CoC first responder**: CoC team member who received the report and triggered the process to handle it.
 
-- **Conflict of interest**: check if any member of the CoC team may have a conflict of interest. In that case, the recused person will be excluded from the process, and the independent community member is allowed to ask for the assistance of an extra independent person (preferring people with experience in CoC teams of other communities).
+- **Conflicts of interest**: Any conflicts of interest on the CoC team. In the case of any conflicts of interest, the recused member will be excluded from the process. The remaining CoC members may ask for the assistance of an another independent person (preferring people with experience in CoC teams of other communities).
 -   **CoC sub-team**:  The sub-team that is handling the report, which may be smaller than the CoC team.
 
 -   **Incident - brief description**: A description of the reported incident.
 
 -   **Incident - evidence**: Evidence of inappropriate behaviour. For example, emails or screenshots of direct or public messages on different platforms like GitHub, Slack, Discourse.
 
--   **Type of (possible) rOpenSci CoC unacceptable behavior:** create a check list with the list of not accepted behaviors for the assesment, based on the current Code of Conduct. Remember the list is not exhaustive.
+-   **Type of unacceptable behavior:** Selected from a (non-exhaustive) checklist of inappropriate behaviours identified in the CoC. 
 
     -   offensive comments related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), nationality, native language, or technology choices.
 
