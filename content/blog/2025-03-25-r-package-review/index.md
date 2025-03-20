@@ -78,7 +78,7 @@ I suspect this approach would promote a collaborative environment which would re
 I also really appreciate that the work and contributions of the reviewers are clearly visible to everyone and they get the credit they deserve.
 I was also able to thank them both as part of review process and within the package [DESCRIPTION](https://docs.ropensci.org/mbquartR/authors.html).
 I have written journal articles that have been substantially improved based on reviewer suggestions and ideas and in many cases there is not a great way to acknowledge this contribution or for the reviewer to get credit.
-I feel the "Authors would like to thank the two anonymise reviewers for their help in improving this paper" statement doesn't give give them proper recognition or show my gratitude.
+I feel the "Authors would like to thank the two anonymous reviewers for their help in improving this paper" statement doesn't give them proper recognition or show my gratitude.
 
 ## Summary
 
