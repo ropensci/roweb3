@@ -36,7 +36,7 @@ That is how [`mbquartR`](https://github.com/ropensci/mbquartR/) was born.
 ## A little about me
 
 I have always thought of myself as more of a soil/environmental scientist than an R programmer so I was a bit apprehensive to even create an R package let alone have it peer reviewed.
-This is was my first R package, and developing it not only tested my R skills, but I was also learning so much along the way.
+This is was my first R package, and developing it not only tested my R skills, but meant I had to learn so much along the way.
 I also felt the functionality of my package was pretty minimal given all the excellent and extensive R packages already available.
 I definitely had a case of the [impost**R** syndrome!](https://en.wikipedia.org/wiki/Impostor_syndrome)
 
