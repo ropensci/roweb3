@@ -10,7 +10,7 @@ description: Call for
 params:
   last_newsletter: '2025-02-27'
   doi: "10.59350/a6syn-6hc72"
-rmd_hash: 029f2ce712c29661
+rmd_hash: 6cb911b854e23d8a
 
 ---
 
@@ -205,7 +205,12 @@ Compared to styler, Air offers much less customization, but is much faster. A se
 
 Have you heard of the beta IDE Positron developed by Posit (formerly RStudio)? It might be worth a try, for instance for being able to install Git extensions like GitLens, or for the nice UI for unit tests. Note that it's still in beta.
 
-Other IDEs popular in the R community are - The precursor of Positron developped by Posit: [RStudio](https://docs.posit.co/ide/user/) that Posit said will still be maintained; - The cousins of Positron [VSCodium](https://vscodium.com/) or [VSCode](https://code.visualstudio.com/) with the [R Extension](https://open-vsx.org/extension/REditorSupport/r). Positron is a fork of VSCode like VSCodium, therefore its interface will be familiar to VSCode or VSCodium users. - [Neovim](https://github.com/R-nvim/R.nvim) - [ESS](https://github.com/MilesMcBain/esscss)
+Other IDEs popular in the R community are
+
+-   The precursor of Positron developped by Posit: [RStudio](https://docs.posit.co/ide/user/) that Posit said will still be maintained;
+-   The cousins of Positron [VSCodium](https://vscodium.com/) or [VSCode](https://code.visualstudio.com/) with the [R Extension](https://open-vsx.org/extension/REditorSupport/r). Positron is a fork of VSCode like VSCodium, therefore its interface will be familiar to VSCode or VSCodium users.
+-   [Neovim](https://github.com/R-nvim/R.nvim)
+-   [ESS](https://github.com/MilesMcBain/esscss)
 
 ### Penguins data in base R!
 
