@@ -12,7 +12,10 @@ description: "My experience with rOpenSci peer-review"
 social: "A post about the rOpenSci software peer review by @Alex_Koiter@sciencemastodon.com!"
 # this field is for the storing the name(s) of the editor(s) of your post
 # you can leave it empty until you know who'll review your PR
-editor:
+editor: 
+  - Steffi LaZerte
+params:
+  doi: "10.59350/r0dkq-5jt28"
 ---
 
 > It all started with an email: "There is an R package for this, right? ..."
