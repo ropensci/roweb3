@@ -10,7 +10,7 @@ description: Call for
 params:
   last_newsletter: '2025-02-27'
   doi: "10.59350/a6syn-6hc72"
-rmd_hash: bd15d73e034cf8c8
+rmd_hash: fd7cc1691f68c26e
 
 ---
 
@@ -36,6 +36,24 @@ Thanks to funding by [Google Season of Docs](https://ropensci.org/blog/2024/04/1
 
 Read more in our [blog post](https://ropensci.org/blog/2025/02/28/r-universe-docs-launch/), read the [documentation website](https://docs.r-universe.org).
 
+### rOpenSci participation on NumFOCUS's DISC Unconf 2025
+
+[The NumFocus' DISC Unconf](https://numfocus.github.io/disc-unconference-2025/) took place as a hybrid event in São Paulo, Brazil, from March 14 to 16, 2025. Our community manager, Yanina Bellini Saibene, and rOpenSci Champions, Andrea Gomez Vargas and Liz Hare, participated.
+
+Prior to the meeting in Sao Paulo, participants met online to get to know each other and present their ideas for projects. Ten projects were selected and then developed during the weekend in Brazil.
+
+During the event, rOpenSci members collaborated with other participants to exchange experiences, brainstorm solutions, and design practical resources that could be shared with the broader community. The worked on projects related to mentoring programs, leadership skill training, and international research funding.
+
+We also have the chance to hear about other projects that interest the rOpenSci community, like open science training for researchers in the Global South and multilingual solutions for open science.
+
+This unconference provided a valuable space to discuss pressing issues related to open research, education, software, and science. It was inspiring to work alongside peers who are committed to building more inclusive and accessible systems.
+
+This event also gives the opportunity to meet in person with other members of rOpenSci in Sao Paulo, in the picture we can see Haydee Svab (rOpenSci Champions), Francesca Palmeira (rOpenSci Champions), Beatriz Milz (rOpenSci Editor and Mentor), Andrea Gomez Vargas (rOpenSci Champions) and Yanina Bellini Saibene (rOpenSci Community Manager).
+
+TODO: add the picture here
+
+We discussed our translation effort and caught up on the champions' work after the program and in our new champion program cohort.
+
 ### Coworking
 
 Read [all about coworking](/blog/2023/06/21/coworking/)!
@@ -43,7 +61,7 @@ Read [all about coworking](/blog/2023/06/21/coworking/)!
 -   [Tuesday April 1st 9:00 Americas Pacific (16:00 UTC)](/events/coworking-2025-04), "R you joking? Silly R packages for April Fools' day" with [Steffi LaZerte](/author/steffi-lazerte/) and [Yanina Bellini Saibene](/author/yanina-bellini-saibene/)
     -   Explore silly R packages
     -   Chat with our hosts and other attendees and share your favourite silly R packages!
--   [Tuesday, 15 April 2025 13:00 UTC](/events/clinica-champions-2025-04/) (**Spanish**) "Clinica de Aplicación para el Programa de Campeon(e\|a)s de rOpenSci" with [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) and \[Steffi LaZerte\](/author/steffi-lazerte/
+-   [Tuesday, 15 April 2025 13:00 UTC](/events/clinica-champions-2025-04/) (**Spanish**) "Clinica de Aplicación para el Programa de Campeon(e\|a)s de rOpenSci" with [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) and [Steffi LaZerte](/author/steffi-lazerte/)
     -   Prepara tu solicitud para el Programa de Campeones.
     -   Conoce a la co-anfitriona Yanina Bellini Saibene para charlar sobre el Programa de Campeones.
 
