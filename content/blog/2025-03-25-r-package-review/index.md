@@ -41,20 +41,20 @@ I also felt the functionality of my package was pretty minimal given all the exc
 I definitely had a case of the [impost**R** syndrome!](https://en.wikipedia.org/wiki/Impostor_syndrome)
 
 I have also had lots of experiences with peer review, all of it through academic journals.
-I have been reviewed as author, I have reviewed others work, and as a subject/submission editor for an international journal I have solicited and read many reviews.
+I have had my work reviewed by others, I have reviewed others work, and as a subject/submission editor for an international journal I have solicited and read many reviews.
 All of this has been single-blind review, where the authors do not know the identity of the reviewers, but the reviewers know the identity of the authors.
-The review process is also done in a closed manner, where only the authors, reviewers, and journal staff every see the process.
-This is relatively common place in my academic world.
-Overall, I would say this type of review process, in my experiences, has been fairly respectful ([YMMV](https://dictionary.cambridge.org/dictionary/english/ymmv)).
-Although I have definitely seen both reviewers comments and authors responses be somewhat rude, abrupt, and often lacking any pleasantries.
-Both as an author and a reviewer I have often wished there was an opportunity and a space to have a discussion, ask for clarification and advice, and to say thank you to authors and reviewers for their work.
-There is also the dreaded "desk rejection", where the manuscript never makes it out for peer review because the journal deems the work to be out of scope, lacking scientific rigor, poor fit, and/or lacking novelty.
+The review process is also done in a closed manner, where only the authors, reviewers, and journal staff ever see the process.
+This is relatively commonplace in my academic world.
+Overall, I would say that in my experience this type of review process has been fairly respectful and functional ([YMMV](https://dictionary.cambridge.org/dictionary/english/ymmv)).
+However, I have definitely seen both reviewer's comments and author's responses be somewhat rude, abrupt, and often lacking any pleasantries.
+Further, both as an author and a reviewer I have often wished there was an opportunity and a space to have a discussion, ask for clarification and advice, and to say thank you to authors and reviewers for their work.
+Finally, there is also the dreaded "desk rejection", where the manuscript never makes it out for peer review because the journal deems the work to be out of scope, lacking scientific rigor, poor fit, and/or lacking novelty.
 Never mind the hours spent formatting to meet author guidelines only to get rejected immediately.
 
 ## My rOpenSci software peer review experience
 
-I really appreciated the ability to do a [Pre-Submission Enquiry](https://github.com/ropensci/software-review/issues/649).
-No more hours of formatting only to get the dreaded desk rejection! or, in this case, changes to the package and its documentation.
+Right from the start, I really appreciated the ability to do a [Pre-Submission Enquiry](https://github.com/ropensci/software-review/issues/649).
+No more hours of formatting only to get the dreaded desk rejection! or, in this case, meeting the submission requirements for package functionality and documentation.
 This process was very straight forward, create a new [issue](https://github.com/ropensci/software-review/issues) and fill out the pre-submission template.
 I got an enthusiastic response within less than 2 weeks letting me know that `mbquartR` was a good fit.
 Time to get to work!
