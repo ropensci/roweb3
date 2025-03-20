@@ -10,7 +10,7 @@ description: Call for
 params:
   last_newsletter: '2025-02-27'
   doi: "10.59350/a6syn-6hc72"
-rmd_hash: fd7cc1691f68c26e
+rmd_hash: 065d3a1f1e1066e3
 
 ---
 
@@ -200,6 +200,12 @@ Speaking of linting, you might remember about a package we mentioned in [last Au
 Have you ever used the styler R package to style your codebase? You might be interested in the new formatter [Air](https://posit-dev.github.io/air/). Read more in the [post by Davis Vaughan and Lionel Henry on the tidyverse blog](https://www.tidyverse.org/blog/2025/02/air/).
 
 Compared to styler, Air offers much less customization, but is much faster. A section of the announcement is dedicated to the [comparison with styler](https://www.tidyverse.org/blog/2025/02/air/#how-is-this-different-from-styler).
+
+### IDEs for R package developers
+
+Have you heard of the beta IDE Positron developed by Posit (formerly RStudio)? It might be worth a try, for instance for being able to install Git extensions like GitLens, or for the nice UI for unit tests. Note that it's still in beta.
+
+Other IDEs popular in the R community are - The precursor of Positron developped by Posit: [RStudio](https://docs.posit.co/ide/user/) that Posit said will still be maintained; - The cousins of Positron [VSCodium](https://vscodium.com/) or [VSCode](https://code.visualstudio.com/) with the [R Extension](https://open-vsx.org/extension/REditorSupport/r). Positron is a fork of VSCode like VSCodium, therefore its interface will be familiar to VSCode or VSCodium users. - [Neovim](https://github.com/R-nvim/R.nvim) - [ESS](https://github.com/MilesMcBain/esscss)
 
 ### Penguins data in base R!
 
