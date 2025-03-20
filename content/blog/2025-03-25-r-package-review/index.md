@@ -40,7 +40,7 @@ This is was my first R package, and developing it not only tested my R skills, b
 I also felt the functionality of my package was pretty minimal given all the excellent and extensive R packages already available.
 I definitely had a case of the [impost**R** syndrome!](https://en.wikipedia.org/wiki/Impostor_syndrome)
 
-I have had lots of experiences with peer review, all of it through academic journals.
+I have also had lots of experiences with peer review, all of it through academic journals.
 I have been reviewed as author, I have reviewed others work, and as a subject/submission editor for an international journal I have solicited and read many reviews.
 All of this has been single-blind review, where the authors do not know the identity of the reviewers, but the reviewers know the identity of the authors.
 The review process is also done in a closed manner, where only the authors, reviewers, and journal staff every see the process.
