@@ -90,7 +90,7 @@ Read [all about coworking](/blog/2023/06/21/coworking/)!
     - Explore silly R packages
     - Chat with our hosts and other attendees and share your favourite silly R packages!
 
-- [Tuesday, 15 April 2025 13:00 UTC](/events/clinica-champions-2025-04/) (**Spanish**) "Clinica de Aplicación para el Programa de Campeon(e|a)s de rOpenSci" with [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) and [Steffi LaZerte](/author/steffi-lazerte/
+- [Tuesday, 15 April 2025 13:00 UTC](/events/clinica-champions-2025-04/) (**Spanish**) "Clinica de Aplicación para el Programa de Campeon(e|a)s de rOpenSci" with [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) and [Steffi LaZerte](/author/steffi-lazerte/)
     - Prepara tu solicitud para el Programa de Campeones.
     - Conoce a la co-anfitriona Yanina Bellini Saibene para charlar sobre el Programa de Campeones.
 
