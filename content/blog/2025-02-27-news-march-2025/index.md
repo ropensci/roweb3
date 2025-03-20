@@ -10,7 +10,7 @@ description: Call for
 params:
   last_newsletter: '2025-02-27'
   doi: "10.59350/a6syn-6hc72"
-rmd_hash: 065d3a1f1e1066e3
+rmd_hash: 029f2ce712c29661
 
 ---
 
@@ -42,7 +42,7 @@ Read more in our [blog post](https://ropensci.org/blog/2025/02/28/r-universe-doc
 
 Prior to the meeting in Sao Paulo, participants met online to get to know each other and present their ideas for projects. Ten projects were selected and then developed during the weekend in Brazil.
 
-During the event, rOpenSci members collaborated with other participants to exchange experiences, brainstorm solutions, and design practical resources that could be shared with the broader community. The worked on projects related to mentoring programs, leadership skill training, and international research funding.
+During the event, rOpenSci members collaborated with other participants to exchange experiences, brainstorm solutions, and design practical resources that could be shared with the broader community. The worked on projects related to [open mentoring programs](https://numfocus.github.io/disc-unconference-2025-projects/en/creating_an_open_mentorship_initiative.html), leadership skill training, and [international research funding](https://numfocus.github.io/disc-unconference-2025-projects/en/navigating-funding-landscape.html).
 
 We also have the chance to hear about other projects that interest the rOpenSci community, like open science training for researchers in the Global South and multilingual solutions for open science.
 
@@ -52,7 +52,7 @@ This event also gives the opportunity to meet in person with other members of rO
 
 TODO: add the picture here
 
-We discussed our translation effort and caught up on the champions' work after the program and in our new champion program cohort.
+We discussed our translation effort and catch up on the champions' work after the program and in our new champion program cohort.
 
 ### Coworking
 
