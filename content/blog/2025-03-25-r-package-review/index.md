@@ -46,7 +46,7 @@ Both as an author and a reviewer I have often wished there was an opportunity an
 There is also the dreaded "desk rejection", where the manuscript never makes it out for peer review because the journal deems the work to be out of scope, lacking scientific rigor, poor fit, and/or lacking novelty.
 Never mind the hours spent formatting to meet author guidelines only to get rejected immediately.
 
-## My rOpenSci software peer review expereince
+## My rOpenSci software peer review experience
 
 I really appreciated the ability to do a [Pre-Submission Enquiry](https://github.com/ropensci/software-review/issues/649).
 No more hours of formatting only to get the dreaded desk rejection! or, in this case, changes to the package and its documentation.
