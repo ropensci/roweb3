@@ -24,8 +24,8 @@ params:
 
 ## How it started
 
-My journey in creating my first R package all started when I received an email from a colleague who was working with archived soil samples that were collected prior to the advent of GPS technology and were georeferenced using the Manitoba Original Survey Legal Descriptions.
-These legal land descriptions originate from the [Dominion Land Survey system](https://en.wikipedia.org/wiki/Dominion_Land_Survey), introduced in the late 19th century to organize the European settlement and colonization of Western Canada.
+My journey in creating my first R package all started when I received an email from a colleague who was working with archived soil samples that were collected prior to the advent of GPS technology.
+These samples were georeferenced using the Manitoba Original Survey Legal Descriptions, which originate from the [Dominion Land Survey system](https://en.wikipedia.org/wiki/Dominion_Land_Survey), introduced in the late 19th century to organize the European settlement and colonization of Western Canada.
 I was asked by my colleague if there was an R package that could locate these samples so they could be plotted on a map.
 There wasn't.
 The data was publicly available so I wrote a short script that searched the data set for the legal land description and returned the coordinates.
