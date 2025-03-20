@@ -1,6 +1,6 @@
 ---
 slug: "r-package-review"
-title: R Package Review Experience
+title: Software Review, Perspectives from an Academic
 author:
 - Alex Koiter
 date: 2025-03-25
@@ -10,8 +10,8 @@ tags:
 - R
 - community
 - mbquartR
-description: "My experience with rOpenSci peer-review"
-social: "A post about the rOpenSci software peer review by @Alex_Koiter@sciencemastodon.com!"
+description: "My experience with rOpenSci peer review"
+social: "A post about the rOpenSci software peer review experience by @Alex_Koiter@sciencemastodon.com!"
 # this field is for the storing the name(s) of the editor(s) of your post
 # you can leave it empty until you know who'll review your PR
 editor: 
@@ -30,7 +30,7 @@ I was asked by my colleague if there was an R package that could locate these sa
 There wasn't.
 The data was publicly available so I wrote a short script that searched the data set for the legal land description and returned the coordinates.
 This morphed into a series of functions, which eventually turned into a package!
-And thanks to the encouragement of the rOpenSci community assistant, Steffi LaZerte, I submitted my package for peer review.
+And thanks to the encouragement of the rOpenSci community assistant, [Steffi LaZerte](/author/steffi-lazerte/), I submitted my package for peer review.
 That is how [`mbquartR`](https://github.com/ropensci/mbquartR/) was born.
 
 ## A little about me
@@ -89,3 +89,6 @@ I could ask questions and get thoughtful and respectful feedback aimed at making
 The reviewers focused on everything from package functionality to documentation and overall user experience.
 The reviewers helped me improve the package and, importantly, they received clear recognition and my thanks for their contributions.
 It made me realize how valuable open dialogue and credit-sharing can be in peer review something I would love to see more of in academic publishing.
+
+A **huge** thank you to editor [Jeff Hollister](/author/jeff-hollister/), as well as [Sheila Saia](https://github.com/sheilasaia) and [Emily (Em) Markowitz](https://emilyhmarkowitz.github.io/emilyhmarkowitz/), for their thoughtful reviews and support in making my package shine! 
+They not only helped improve the package but also made the entire review experience an enjoyable one.
