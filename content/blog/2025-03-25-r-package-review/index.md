@@ -20,7 +20,7 @@ params:
   doi: "10.59350/r0dkq-5jt28"
 ---
 
-> It all started with an email: "There is an R package for this, right? ..."
+> There's an R package for this... right?
 
 ## How it started
 
