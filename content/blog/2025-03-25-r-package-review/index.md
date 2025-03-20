@@ -73,7 +73,7 @@ From the README, to articles, to functions, it all got reviewed.
 The openness and discussion thread nature of the review process made it possible for me to ask questions and get clarification on revision requests, suggestions, and the review process itself.
 This was a pretty big departure from my past experiences with the review process and one I would **love** to see more in the academic journal review process that I often find myself in.
 Scientific writing, like all forms of communication, will be interpreted differently by different people and this is where having the ability to have a discussion between the authors and the reviewers can be so beneficial.
-I can even see the benefit even if the process remained blind (anonymise).
+I can still see a benefit even if the process remained blind (anonymous).
 I suspect this approach would promote a collaborative approach which would result in more robust and reliable science.
 I also really appreciate that the work and contributions of the reviewers are clearly visible to everyone and they get the credit they deserve.
 I was also able to thank them both as part of review process and within the package [DESCRIPTION](https://docs.ropensci.org/mbquartR/authors.html).
