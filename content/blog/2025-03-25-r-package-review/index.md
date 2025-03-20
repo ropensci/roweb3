@@ -8,6 +8,8 @@ tags:
 - Software Peer Review
 - packages
 - R
+- community
+- mbquartR
 description: "My experience with rOpenSci peer-review"
 social: "A post about the rOpenSci software peer review by @Alex_Koiter@sciencemastodon.com!"
 # this field is for the storing the name(s) of the editor(s) of your post
