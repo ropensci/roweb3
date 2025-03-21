@@ -17,7 +17,7 @@ country: "\U0001F310"
 attendees: Todas las personas son bienvenidas
 slug: champions-latino-2025
 featured: true
-notes: 
+notes: https://docs.google.com/document/d/1at2w5F039qclrfNi6COlFAGiQQbAf1YZXQ0Smdjq5nA/edit?usp=sharing
 outputs:
 - HTML
 - Calendar 
