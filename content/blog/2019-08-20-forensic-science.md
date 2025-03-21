@@ -18,6 +18,8 @@ twitterImg: img/blog-images/2019-08-20-forensic-science/openforscir-hex.png
 output:
   html_document:
     keep_md: yes
+params:
+  doi: "10.59350/k5mwx-hwj87"
 ---
 The free online book [*Open Forensic Science in R*](https://sctyner.github.io/OpenForSciR/) was created to foster open science practices in the forensic science community. It is comprised of eight chapters: an introduction and seven chapters covering different areas of forensic science: the validation of DNA interpretation systems, firearms analysis of bullets and casings, latent fingerprints, shoe outsole impressions, trace glass evidence, and decision-making in forensic identification tasks. The chapters of *Open Forensic Science in R* have the same five sections: Introduction, Data, R Package(s), Drawing Conclusions, and Case Study. There is R code throughout the chapter to guide the reader along in an analysis, and the case study walks the reader through solving a forensic science problem in R, from reading the data to answering a specific question such as, "Were these two bullets fired by the same gun?" 
 

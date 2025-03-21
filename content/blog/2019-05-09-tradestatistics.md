@@ -3,7 +3,7 @@ slug: tradestatistics
 title: Open Trade Statistics
 package_version: 0.2.0
 date: '2019-05-09'
-author: Pachá (aka Mauricio Vargas Sepúlveda)
+author: Mauricio Vargas Sepúlveda
 topicid: 1699
 tags:
   - Software Peer Review
@@ -11,6 +11,8 @@ tags:
   - tradestatistics
   - data access
   - reproducibility
+params:
+  doi: "10.59350/wv560-9aw37"
 ---
 
 ### Introduction

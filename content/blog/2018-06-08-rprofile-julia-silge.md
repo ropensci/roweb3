@@ -12,6 +12,8 @@ tags:
   - community
   - interviews
   - rprofile
+params:
+  doi: "10.59350/84dns-rv744"
 ---
 
 {{< imgtxt src="/img/blog-images/2018-06-08-rprofile-julia-silge/julia-silge.jpg" alt="Julia Silge" >}}

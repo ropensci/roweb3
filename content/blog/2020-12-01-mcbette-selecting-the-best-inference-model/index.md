@@ -17,6 +17,8 @@ description: Using mcbette to pick the best evolutionary model for your DNA
 output:
   html_document:
     keep_md: yes
+params:
+  doi: "10.59350/99x9j-xmw91"
 ---
 
 

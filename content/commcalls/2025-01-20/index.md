@@ -19,12 +19,20 @@ notes:
 outputs:
 - HTML
 - Calendar 
-# vimeo:
-#  - id: '1032279338'
+vimeo:
+  - id: '1049028463'
 resources:
-  # - url:  
-  #   name:  ""
-  #   details: ""
+  - url: https://github.com/SunnyTseng/bbsTaiwan_develop/blob/main/docs/2025_01_rOpenSci_community_call/bbsTaiwan%20update.pdf
+    name: "Sunny Tseng's Slides"
+    details: "bbsTaiwan"
+  - url: https://key.edunum.tech/ropensci/
+    name: "Pascal Burkhard's Slides"
+    details: "Collaboration with git"
+  - url: 2025-01-20_Supercharging-R-Package-Quality-with-testthat_yaoxiang-li.pdf
+    name:  "Yaoxiang Li's Slides"
+    details: "Enhancing R package quality with testthat"
+  - url: 2025-01-20-ExampleTestPackage.zip
+    name: "Yaoxiang Li's Example Package"
 speakers:  
   - name: "Yi-Chin Sunny Tseng"
     bio: "Sunny Tseng is a Vancouver-based data scientist and PhD candidate specializing in 

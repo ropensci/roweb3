@@ -12,6 +12,8 @@ tags:
   - github
   - how-to
 description: "`git clone` isn't always the right tool."
+params:
+  doi: "10.59350/8exd0-b3y53"
 ---
 
 Recently [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) reminded us

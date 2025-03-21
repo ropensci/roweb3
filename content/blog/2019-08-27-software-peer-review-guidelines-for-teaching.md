@@ -9,6 +9,8 @@ tags:
   - software
   - teaching
   - education
+params:
+  doi: "10.59350/69y1d-wrt44"
 ---
 
 ### Teaching collaborative software development

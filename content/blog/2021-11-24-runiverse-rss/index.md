@@ -10,6 +10,8 @@ tags:
   - rss
   - feeds
   - tech notes
+params:
+  doi: "10.59350/b5k5n-8dn69"
 ---
 
 ## Continuous deployment in r-universe

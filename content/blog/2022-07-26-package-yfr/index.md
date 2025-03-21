@@ -22,6 +22,8 @@ tweet: New package yfR by @msperlin!
 output:
   html_document:
     keep_md: yes
+params:
+  doi: "10.59350/2s4zm-cmc58"
 ---
 
 

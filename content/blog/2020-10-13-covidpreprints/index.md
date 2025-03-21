@@ -25,6 +25,8 @@ twitterImg: blog/2020/10/13/covidpreprints/graphical_abstract.png
 output:
   html_document:
     keep_md: yes
+params:
+  doi: "10.59350/mq7wm-qnw63"
 ---
 
 

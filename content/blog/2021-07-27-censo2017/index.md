@@ -1,7 +1,7 @@
 ---
 title: 'The Story Behind censo2017, the First rOpenSci Package to be Reviewed in Spanish'
 author:
-  - Pachá (aka Mauricio Vargas Sepúlveda)
+  - Mauricio Vargas Sepúlveda
 date: '2021-07-27'
 version: 0.5
 slug: censo2017
@@ -18,6 +18,8 @@ tags:
   - censo2017
 description: >
   Chilean census tables at a glance.
+params:
+  doi: "10.59350/2jakv-t6d66"
 ---
 
 ## Summary

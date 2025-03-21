@@ -6,6 +6,8 @@ author: Scott Chamberlain
 tags:
   - API
   - tech notes
+params:
+  doi: "10.59350/hnby5-jr334"
 ---
 
 A new package [crul](https://cran.rstudio.com/web/packages/crul) is

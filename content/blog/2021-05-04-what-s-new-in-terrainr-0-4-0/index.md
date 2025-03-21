@@ -28,6 +28,8 @@ tweet: What's new in terrainr 0.4.0? By @mikemahoney218
 output:
   html_document:
     keep_md: yes
+params:
+  doi: "10.59350/vfvrj-6w135"
 ---
 
 

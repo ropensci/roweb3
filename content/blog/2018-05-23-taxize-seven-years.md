@@ -10,6 +10,8 @@ tags:
   - taxizedb
   - taxa
   - tech notes
+params:
+  doi: "10.59350/swjn9-7n843"
 ---
 
 

@@ -18,6 +18,8 @@ tags:
   - software
   - Software Peer Review
   - community
+params:
+  doi: "10.59350/bqjqp-2be69"
 ---
 
 At rOpenSci, we create and curate software to help scientists with the data life cycle. These tools access, download, manage, and archive scientific data in open, reproducible ways. Early on, we realized this could only be a community effort. The variety of scientific data and workflows could only be tackled by drawing on contributions of scientists with field-specific expertise.

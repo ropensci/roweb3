@@ -11,6 +11,8 @@ tags:
   - code of conduct
   - governance
 description: Update on Code of Conduct 2022.
+params:
+  doi: "10.59350/rrrna-v4e34"
 ---
 
 We are pleased to announce the release of _Version 2.4_ of our Code of Conduct with changes based on the feedback of our community.

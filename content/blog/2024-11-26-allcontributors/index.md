@@ -13,6 +13,8 @@ tags:
   - how-to
   - metadata
 description: "The allcontributors package helps to given thanks to software contributions"
+params:
+  doi: "10.59350/sx67b-fkj06"
 ---
 
 Thanksgiving is celebrated in [many parts of the world](https://en.wikipedia.org/wiki/Thanksgiving).

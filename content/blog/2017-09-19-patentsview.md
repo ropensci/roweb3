@@ -12,6 +12,8 @@ tags:
   - USPTO
   - Software Peer Review
   - community
+params:
+  doi: "10.59350/rb787-4cr48"
 ---
 
 ### Why care about patents?

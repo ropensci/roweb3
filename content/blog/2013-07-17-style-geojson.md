@@ -8,6 +8,8 @@ tags:
   - geojson
   - json
   - maps
+params:
+  doi: "10.59350/pw9zy-vw739"
 ---
 
 [Previously on this blog][ropost] and on [my own personal blog][scottpost], I have discussed how easy it is to create interactive maps on Github using a combination of R, git and Github. This is done using a file format called [*geojson*](https://en.wikipedia.org/wiki/GeoJSON), a file format based on JSON (JavaScript Object Notation) in which you can specify geographic data along with any other metadata.

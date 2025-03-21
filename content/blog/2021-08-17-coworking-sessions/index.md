@@ -17,6 +17,8 @@ tweet: rOpenSci introduces monthly social coworking sessions by @steffilazerte, 
 output:
   html_document:
     keep_md: yes
+params:
+  doi: "10.59350/w7ed3-myb08"
 ---
 
 We're excited to announce that we'll be hosting monthly social coworking + office hours sessions via Zoom, starting September 7th!

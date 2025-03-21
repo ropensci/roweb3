@@ -12,6 +12,8 @@ tags:
   - multilingual
 description: "We are translating rOpenSci's materials on best practices for software development, code review, and contribution to open source projects into Spanish! We are also developing guidelines and tools for translating open source resources to reach a wider audience. Learn about the project in this blog post."
 
+params:
+  doi: "10.59350/t6bpr-g4874"
 ---
 
 We are excited to announce that, with the support of the Chan Zuckerberg Initiative, NumFOCUS, and the R Consortium, we have begun the process of translating rOpenSci's materials on best practices for software development, code review, and contribution to open source projects into Spanish. 

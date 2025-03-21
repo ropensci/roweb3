@@ -18,6 +18,8 @@ output:
   md_document:
     variant: markdown_github
     preserve_yaml: yes
+params:
+  doi: "10.59350/y57ca-xfg11"
 ---
 
 > Hydrology is a concept to unify statistics, data analysis and numerical models in order to understand and analyze the endless circulation of water between the earth and its atmosphere.

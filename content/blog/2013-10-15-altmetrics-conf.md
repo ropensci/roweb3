@@ -5,6 +5,8 @@ date: '2013-10-15'
 author: Scott Chamberlain
 tags:
   - altmetrics
+params:
+  doi: "10.59350/dpdag-xmv75"
 ---
 
 I attended the recent [ALM Workshop 2013][almworkshop] and [data challenge][datachal] hosted by Public Library of Science (PLOS) in San Francisco. The workshop covered various issues having to do with altmetrics, or article-level metrics (ALM). The same workshop last year definitely had a feeling of **we don't know x, y, and z**, while the workshop this year felt like we know a lot more. There were many great talks - you can see the list of speakers [here][talks]. I was there representing rOpenSci as altmetrics is one of the types of data for which we make R libraries ([rAltmetric][raltmetric] for Altmetric.com data, and [alm][alm] for the PLOS altmetrics data).

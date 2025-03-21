@@ -1,4 +1,4 @@
 ---
-name: Robert Ashton
+name: Rob Ashton
 bio: Senior Research Software Engineer
 ---

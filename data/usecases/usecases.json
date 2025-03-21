@@ -408,7 +408,7 @@
     "title": "bomrang with a third party package, stationaRy, to get hourly weather data and clifro to plot wind roses",
     "reporter": "Adam Sparks",
     "tags": ["r", "weather", "bomrang", "research-compendia"],
-    "resource": "bomrang, [clifro](https://docs.ropensci.org/clifro)",
+    "resource": "bomrang, clifro",
     "url": "https://discuss.ropensci.org/t/bomrang-with-a-third-party-package-stationary-to-get-hourly-weather-data-and-clifro-to-plot-wind-roses/2082",
     "image": "bomrang-with-a-third-party-package-stationary-to-get-hourly-weather-data-and-clifro-to-plot-wind-roses.png",
     "date": "2020-05-17"
@@ -453,7 +453,7 @@
     "title": "US lawmakers on Twitter during a pandemic: some corpus linguistics methods",
     "reporter": "Jason Timm",
     "tags": ["rtweet", "covid19", "us-congress"],
-    "resource": "[rtweet](https://docs.ropensci.org/rtweet)",
+    "resource": "rtweet",
     "url": "https://discuss.ropensci.org/t/us-lawmakers-on-twitter-during-a-pandemic-some-corpus-linguistics-methods/2124",
     "image": "us-lawmakers-on-twitter-during-a-pandemic-some-corpus-linguistics-methods.png",
     "date": "2020-06-09"
@@ -507,7 +507,7 @@
     "title": "Creating a self-updating GitHub README using rtweet and GitHub Actions",
     "reporter": "Zhi Yang, PhD",
     "tags": ["r", "rtweet"],
-    "resource": "[rtweet](https://docs.ropensci.org/rtweet)",
+    "resource": "rtweet",
     "url": "https://discuss.ropensci.org/t/creating-a-self-updating-github-readme-using-rtweet-and-github-actions/2181",
     "image": "creating-a-self-updating-github-readme-using-rtweet-and-github-actions.jpeg",
     "date": "2020-07-21"
@@ -516,7 +516,7 @@
     "title": "Spanish and English blogs on how to use rtweet and magick",
     "reporter": "Rayna Harris",
     "tags": ["r", "rtweet", "magick", "spanish", "español"],
-    "resource": "[rtweet](https://docs.ropensci.org/rtweet), [magick](https://docs.ropensci.org/magick)",
+    "resource": "rtweet, [magick](https://docs.ropensci.org/magick)",
     "url": "https://discuss.ropensci.org/t/spanish-and-english-blogs-on-how-to-use-rtweet-and-magick/2188",
     "image": "spanish-and-english-blogs-on-how-to-use-rtweet-and-magick.png",
     "date": "2020-08-01"
@@ -579,7 +579,7 @@
     "title": "A Twitter bot with rtweet, Mapbox and GitHub Actions",
     "reporter": "Matt Dray",
     "tags": ["package", "rtweet", "usecase", "github-actions", "maps"],
-    "resource": "[rtweet](https://docs.ropensci.org/rtweet)",
+    "resource": "rtweet",
     "url": "https://discuss.ropensci.org/t/a-twitter-bot-with-rtweet-mapbox-and-github-actions/2223",
     "image": "a-twitter-bot-with-rtweet-mapbox-and-github-actions.jpeg",
     "date": "2020-09-25"
@@ -633,7 +633,7 @@
     "title": "Scraping liked posts on Twitter using rtweet",
     "reporter": "Isabella Velásquez",
     "tags": "rtweet",
-    "resource": "[rtweet](https://docs.ropensci.org/rtweet)",
+    "resource": "rtweet",
     "url": "https://discuss.ropensci.org/t/scraping-liked-posts-on-twitter-using-rtweet/2294",
     "image": "noimage",
     "date": "2021-01-03"
@@ -669,7 +669,7 @@
     "title": "Shiny apps to search #rstudioglobal or #rstats tweets with rtweet",
     "reporter": "Sharon Machlis",
     "tags": "rtweet",
-    "resource": "[rtweet](https://docs.ropensci.org/rtweet)",
+    "resource": "rtweet",
     "url": "https://discuss.ropensci.org/t/shiny-apps-to-search-rstudioglobal-or-rstats-tweets-with-rtweet/2324",
     "image": "noimage",
     "date": "2021-01-25"
@@ -741,7 +741,7 @@
     "title": "Easily analyzing tweets using rtweet",
     "reporter": "Amit Arora",
     "tags": ["package", "rtweet"],
-    "resource": "[rtweet](https://docs.ropensci.org/rtweet)",
+    "resource": "rtweet",
     "url": "https://discuss.ropensci.org/t/easily-analyzing-tweets-using-rtweet/2454",
     "image": "easily-analyzing-tweets-using-rtweet.png",
     "date": "2021-05-12"
@@ -750,7 +750,7 @@
     "title": "Most tweeted words each month: a year snapshot",
     "reporter": "Soraya Campbell",
     "tags": ["r", "package", "community", "rtweet", "ggplot2"],
-    "resource": "[rtweet](https://docs.ropensci.org/rtweet)",
+    "resource": "rtweet",
     "url": "https://discuss.ropensci.org/t/most-tweeted-words-each-month-a-year-snapshot/2461",
     "image": "most-tweeted-words-each-month-a-year-snapshot.gif",
     "date": "2021-05-17"
@@ -930,7 +930,7 @@
     "title": "Use rtweet to manage lists and who you follow",
     "reporter": "Steph Locke",
     "tags": "rtweet",
-    "resource": "[rtweet](https://docs.ropensci.org/rtweet)",
+    "resource": "rtweet",
     "url": "https://discuss.ropensci.org/t/use-rtweet-to-manage-lists-and-who-you-follow/2830",
     "image": "use-rtweet-to-manage-lists-and-who-you-follow.jpeg",
     "date": "2022-02-22"
@@ -941,7 +941,6 @@
     "tags": ["r", "package", "vcr"],
     "resource": "vcr the excellent http testing in r book",
     "url": "https://discuss.ropensci.org/t/using-vcr-for-http-testing-of-a-package-for-kobotoolbox/2865",
-    "image": "noimage",
     "date": "2022-03-24"
   },
   {
@@ -957,7 +956,7 @@
     "title": "Analyze your Twitter timeline with rtweet and lubridate",
     "reporter": "Albert Rapp",
     "tags": ["rtweet", "twitter", "lubridate"],
-    "resource": "[rtweet](https://docs.ropensci.org/rtweet)",
+    "resource": "rtweet",
     "url": "https://discuss.ropensci.org/t/analyze-your-twitter-timeline-with-rtweet-and-lubridate/2931",
     "image": "analyze-your-twitter-timeline-with-rtweet-and-lubridate.png",
     "date": "2022-05-14"
@@ -1029,7 +1028,7 @@
     "title": "Delete all your tweets using rtweet",
     "reporter": "Julia Silge",
     "tags": "rtweet",
-    "resource": "[rtweet](https://docs.ropensci.org/rtweet)",
+    "resource": "rtweet",
     "url": "https://discuss.ropensci.org/t/delete-all-your-tweets-using-rtweet/3217",
     "image": "delete-all-your-tweets-using-rtweet.png",
     "date": "2022-11-22"
@@ -1049,7 +1048,6 @@
     "tags": ["package", "targets", "climate", "health"],
     "resource": "[targets](https://docs.ropensci.org/targets), [tarchetypes](https://docs.ropensci.org/tarchetypes)",
     "url": "https://discuss.ropensci.org/t/a-toolkit-workflow-for-climate-sensitive-infectious-disease-modelling/3659",
-    "image": "noimage",
     "date": "2023-10-05"
   },
   {
@@ -1096,5 +1094,14 @@
     "url": "https://discuss.ropensci.org/t/translating-carpentries-workbench-lessons-with-babeldown/3960",
     "image": "translating-carpentries-workbench-lessons-with-babeldown.png",
     "date": "2024-07-16"
+  },
+  {
+    "title": "METAR analysis for flight conditions",
+    "reporter": "Maëlle Salmon",
+    "tags": [],
+    "resource": "[riem](https://docs.ropensci.org/riem)",
+    "url": "https://discuss.ropensci.org/t/metar-analysis-for-flight-conditions/4174",
+    "image": "noimage",
+    "date": "2025-02-20"
   }
 ]

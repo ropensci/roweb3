@@ -21,6 +21,8 @@ tags:
 - community
 - champions program
 description: "The rOpenSci Champions Program starts this 2024 with a new cohort of Champions.  We are pleased to introduce you to our Champions and their projects!"
+params:
+  doi: "10.59350/s8tfx-mfh53"
 ---
 
 The rOpenSci Champions Program starts this 2024 with a new cohort of Champions.  We are pleased to introduce you to our Champions and their projects!

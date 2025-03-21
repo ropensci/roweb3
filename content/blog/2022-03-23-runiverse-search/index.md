@@ -10,6 +10,8 @@ tags:
   - search
   - topics
 featured: true
+params:
+  doi: "10.59350/vv99q-gjf32"
 ---
 
 ## R-universe now has search!

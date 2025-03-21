@@ -17,6 +17,8 @@ crossposts:
 output:
   html_document:
     keep_md: yes
+params:
+  doi: "10.59350/2c6ay-ffs96"
 ---
 
 Durante [useR! 2021](https://user2021.r-project.org/) Jeroen Ooms presentó [el proyecto universo R](https://jeroen.github.io/user2021/#1) en su *keynote*. 

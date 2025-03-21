@@ -21,6 +21,8 @@ tags:
   - PDF
   - word
   - excel
+params:
+  doi: "10.59350/p20zv-12784"
 ---
 
 The Apache Tika parser is like the Babel fish in Douglas Adam's book, "The Hitchhikers' Guide to the Galaxy" [^1]. The Babel fish translates any natural language to any other. Although Tika does not yet translate natural language, it starts to tame the tower of babel of digital document formats. As the Babel fish allowed a person to understand Vogon poetry, Tika allows an analyst to extract text and objects from Microsoft Word.

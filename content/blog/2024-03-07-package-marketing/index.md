@@ -13,6 +13,8 @@ tags:
 - package-development
 
 description: "Now that you have created your package, presenting it to the world is a crucial step to gain visibility and attract users.  In this blog post we suggest a series of activities and tools for advertizing your package."
+params:
+  doi: "10.59350/04b0t-fv224"
 ---
 
 Now that you have created your package, presenting it to the world is a crucial step to **gain visibility and attract users**. 

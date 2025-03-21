@@ -26,6 +26,8 @@ tags:
   - unconf
   - unconf18
   - educollab
+params:
+  doi: "10.59350/aaepj-h4v80"
 ---
 
 In the first post of this series, we sketched out some of the common challenges faced by educators who teach with R across scientific domains. In this post, we delve into what makes a "good" educational resource for teaching science with R.

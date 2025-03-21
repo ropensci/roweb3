@@ -6,6 +6,8 @@ author: Scott Chamberlain
 tags:
   - rplos
   - textmining
+params:
+  doi: "10.59350/w4jr7-pmt65"
 ---
 
 Open access week is here!  We love open access, and think it's extremely important to publish in open access journals. One of the many benefits of open access literature is that we likely can use the text of articles in OA journals for many things, including text-mining.

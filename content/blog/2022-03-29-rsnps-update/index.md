@@ -19,6 +19,8 @@ twitterAlt: "Allele frequencies in dbSNP for various studies/populations."
 output: 
   html_document:
     keep_md: true
+params:
+  doi: "10.59350/b9s6j-hmt03"
 ---
 
 

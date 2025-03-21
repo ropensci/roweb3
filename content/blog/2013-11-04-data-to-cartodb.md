@@ -8,6 +8,8 @@ tags:
   - API
   - cartodb
   - maps
+params:
+  doi: "10.59350/z7ycs-vgk43"
 ---
 
 We have previously written about creating interactive maps on the web from R, with the interactive maps on Github. See [here](/blog/2013/10/23/style-geojson-polygon/), [here](/blog/2013/07/17/style-geojson/), [here](/blog/2013/07/04/rbison-geoson/), and [here](https://recology.info/2013/06/geojson/).

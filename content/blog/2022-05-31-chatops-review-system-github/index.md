@@ -14,6 +14,8 @@ tags:
 description: Could the editorial bot generator Buffy fit your needs? How to know, how to set it up.
 twitterImg: blog/2022/05/31/chatops-review-system-github/diagram.png
 twitterAlt: Diagram representing automation for rOpenSci software peer review. On the left, is a GitHub issue thread with emojis as avatars, and wobbly lines as text. Under the GitHub issue thread, a legend indicating who among the emojis is the Author /Editor / Reviewer / ropensci-review-bot. At the center of the diagram is a Heroku app using the Buffy Ruby tool, that receives information from GitHub via webhooks. The app digests messages received and depending on the command pings an external service represented on the right (with a plumber logo); fills the Airtable-based software review database; manages ropensci GitHub organization via GitHub API; posts back or labels in the GitHub issue thread.
+params:
+  doi: "10.59350/qp0c0-wna29"
 ---
 Anyone can contribute a software package to the rOpenSci suite as long as it fits our scope ([research lifecycle software](https://devguide.ropensci.org/policies.html#aims-and-scope) and [statistical software](https://stats-devguide.ropensci.org/pkgdev.html#scope)) for a transparent, constructive, nonadversarial and open review. In practice, the review steps are all recorded in **GitHub issue threads** ([example](https://github.com/ropensci/software-review/issues/485)).
 Software peer-review involves coordinating and tracking many moving parts: software submissions (new issues), testing and diagnostics, assignment of editors and reviewers, and logging the progression of submissions through revisions and acceptance.

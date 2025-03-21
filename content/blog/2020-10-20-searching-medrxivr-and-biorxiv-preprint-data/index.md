@@ -20,6 +20,8 @@ description: The medrxivr package allows users to import and search medRxiv and 
 output:
   html_document:
     keep_md: yes
+params:
+  doi: "10.59350/5av02-39j79"
 ---
 
 

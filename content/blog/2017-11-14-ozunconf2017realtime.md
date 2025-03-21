@@ -13,6 +13,8 @@ tags:
   - plot
   - realtime
   - unconf
+params:
+  doi: "10.59350/r0dw7-3ep13"
 ---
 
 This year's [rOpenSci ozunconf](https://ozunconf17.ropensci.org/) was held in Melbourne, bringing together over 45 R enthusiasts from around the country and beyond. As is customary, ideas for projects were discussed in [GitHub Issues](https://github.com/ropensci/ozunconf17/issues) (41 of them by the time the unconf rolled around!) and there was no shortage of enthusiasm, interesting concepts, and varied experience.

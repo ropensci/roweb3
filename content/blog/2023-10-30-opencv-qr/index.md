@@ -10,6 +10,8 @@ tags:
   - tech notes
   - packages
   - opencv
+params:
+  doi: "10.59350/cwnhn-jx736"
 ---
 
 

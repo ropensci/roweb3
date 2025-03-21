@@ -21,6 +21,8 @@ description: Semi-monthly summary of the rOpenSci Newsletter, August 2020
 preface: A semi-monthly summary of the [rOpenSci Newsletter](https://news.ropensci.org/)
   including software reviews, packages on CRAN, use cases, posts from staff and community,
   and events. June 22 to August 17, 2020
+params:
+  doi: "10.59350/91trs-j3j52"
 ---
 
 ## rOpenSci HQ

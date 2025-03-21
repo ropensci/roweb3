@@ -10,6 +10,7 @@ tags:
 description: Champions program launch, first 3 packages to pass stat software review, call for maintainers, coworking sessions
 params:
   last_newsletter: '2022-08-26'
+  doi: "10.59350/mtta5-thw68"
 ---
 
 

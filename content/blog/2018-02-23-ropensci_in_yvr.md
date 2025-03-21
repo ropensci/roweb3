@@ -9,6 +9,8 @@ topicid: 1076
 tags:
   - community
   - meetings
+params:
+  doi: "10.59350/mhfe0-hsp95"
 ---
 [rOpenSci](/) is holding our annual [staff and leadership](/about/#team) meeting in Vancouver, so we’re taking the opportunity to share what we do and, if you’re interested, how you can get involved. Join us for a series of 7 short talks and demos followed by informal networking over snacks & refreshments.
 

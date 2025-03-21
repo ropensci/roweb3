@@ -15,6 +15,8 @@ tags:
   - bioconductor
   - events
 description: Summary of questions addressed in the community call, maintaining R packages
+params:
+  doi: "10.59350/7n9ng-fmw79"
 ---
 
 In March we held a [Community Call](/commcalls/2020-03-18/) discussing the maintenance of R packages. 

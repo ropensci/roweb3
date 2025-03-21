@@ -20,6 +20,8 @@ output:
     keep_md: yes
 editor_options: 
   chunk_output_type: console
+params:
+  doi: "10.59350/4arnh-fc319"
 ---
 
 

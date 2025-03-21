@@ -21,6 +21,8 @@ description: "Our experiences creating captions for an rOpenSci Community Call"
 # Note there is no '/' symbol before 'img' here
 # if needed replace blog with technotes
 # twitterImg: blog/2019/06/04/post-template/name-of-image.png
+params:
+  doi: "10.59350/ez4by-vrv35"
 ---
 
 

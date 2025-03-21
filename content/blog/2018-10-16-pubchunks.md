@@ -11,6 +11,8 @@ tags:
   - pubchunks
   - fulltext
   - tech notes
+params:
+  doi: "10.59350/5366h-2n121"
 ---
 
 

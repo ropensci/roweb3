@@ -8,6 +8,7 @@ slug: news-january-2024
 description: MacOS ARM64 binaries for use on Apple Silicon (aka M1/M2/M3) through R-universe; coworking; new packages and package news
 params:
   last_newsletter: "2023-12-22"
+  doi: "10.59350/jps9f-gsh89"
 ---
 
 

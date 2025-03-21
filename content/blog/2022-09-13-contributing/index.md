@@ -10,6 +10,8 @@ tags:
   - welcome
 description: "Are you curious about rOpenSci? Wondering how to start participating? 🤔 Glad you asked! Here's a summary on how to get involved with us!" 
 tweet: "Are you curious about @rOpenSci? Wondering how to start participating? 🤔 Glad you asked! Here's a summary on how to get involved with us!" 
+params:
+  doi: "10.59350/xdm34-zxh50"
 ---
 
 This blog post is intended to help you get started in rOpenSci community by highlighting some key links and activities. If you have questions, please get in touch with our Community Manager, Yanina Bellini Saibene [by email](mailto:yabellini@ropensci.org) or [schedule a meeting](https://calendly.com/yabellini-ropensci/). 

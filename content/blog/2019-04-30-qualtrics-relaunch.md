@@ -13,6 +13,8 @@ tags:
   - data access
   - API
   - survey data
+params:
+  doi: "10.59350/beq65-1fk44"
 ---
 
 rOpenSci is one of the first organizations in the R community I ever interacted with, when I participated in the [2016 rOpenSci unconf](https://juliasilge.com/blog/i-went-to-ropensci/). I have since [reviewed several rOpenSci packages](/software-review/) and been so happy to be connected to this community, but I have never submitted or maintained a package myself. All that changed when I heard the call for a new maintainer for the [qualtRics](https://github.com/ropensci/qualtRics) package. "IT'S GO TIME," I thought. 😎

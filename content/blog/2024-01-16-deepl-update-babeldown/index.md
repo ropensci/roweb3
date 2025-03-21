@@ -11,6 +11,8 @@ output: hugodown::md_document
 tags:
   - tech notes
   - multilingual
+params:
+  doi: "10.59350/3w9fd-8d411"
 ---
 
 

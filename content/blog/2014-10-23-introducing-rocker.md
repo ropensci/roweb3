@@ -7,6 +7,8 @@ author:
 date: '2014-10-23'
 tags:
   - reproducible research
+params:
+  doi: "10.59350/j1028-pq649"
 ---
 
 

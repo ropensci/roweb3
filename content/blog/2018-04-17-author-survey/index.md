@@ -13,6 +13,8 @@ tags:
   - Software Peer Review
   - reviewer
   - survey
+params:
+  doi: "10.59350/xynd9-fgb90"
 ---
 
 rOpenSci's package review system (aka

@@ -9,6 +9,8 @@ tags:
   - packages
   - tech notes
   - r-universe
+params:
+  doi: "10.59350/x0a46-gk734"
 ---
 
 As of earlier this year, we are now [automatically building](/technotes/2019/06/07/ropensci-docs/) binaries and pkgdown documentation for [all rOpenSci packages](https://docs.ropensci.org). One issue we encountered is that some packages include vignettes that require some special tools/data/credentials, which are unavailable on generic build servers.

@@ -7,6 +7,8 @@ tags:
   - V8
   - Linux
   - tech notes
+params:
+  doi: "10.59350/gznzw-2p760"
 ---
 
 Google's amazing [V8 JavaScript/WASM engine](https://v8.dev/) is probably one of the most sophisticated open-source software libraries available today. It is used to power the computation in Google Chrome, NodeJS, and also [CloudFlare Workers](https://developers.cloudflare.com/workers/learning/how-workers-works), which make it possible to run code for your website inside the CDN edges.

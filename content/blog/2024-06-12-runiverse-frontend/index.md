@@ -13,6 +13,8 @@ tags:
   - search
   - packages
   - dashboard
+params:
+  doi: "10.59350/5pvny-7m308"
 ---
 
 ## A whole new frontend!

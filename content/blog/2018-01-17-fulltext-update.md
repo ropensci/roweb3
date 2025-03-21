@@ -11,6 +11,8 @@ tags:
   - journals
   - open access
   - tech notes
+params:
+  doi: "10.59350/ms8j4-p8196"
 ---
 
 ## The problem

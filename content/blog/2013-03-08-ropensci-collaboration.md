@@ -6,6 +6,8 @@ author: Scott Chamberlain
 tags:
   - GitHub
   - API
+params:
+  doi: "10.59350/3e5z4-vzm13"
 ---
 
 We have been writing code for R packages for a couple years, so it is time to take a look back at the data. What data you ask? The commits data from GitHub ~ data that records who did what and when.

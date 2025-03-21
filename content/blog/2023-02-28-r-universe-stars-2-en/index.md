@@ -15,6 +15,8 @@ tags:
 featured: true
 description: "A new installment of our interview series __\"Meeting the stars of the R-Universe\"__. We go to France to get a closer look at the work of the people at ThinkR."
 slug: r-universe-stars-2-en
+params:
+  doi: "10.59350/jtkey-daa93"
 ---
 
 

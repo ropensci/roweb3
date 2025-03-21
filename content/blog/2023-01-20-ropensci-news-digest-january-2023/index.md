@@ -10,6 +10,7 @@ tags:
 description: targets community call, coworking, code of conduct report, new packages and package news
 params:
   last_newsletter: '2022-12-16'
+  doi: "10.59350/8dvy6-zh709"
 ---
 
 

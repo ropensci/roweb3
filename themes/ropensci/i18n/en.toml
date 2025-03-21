@@ -4,6 +4,9 @@
 [By]
   other = 'By'
 
+[With]
+  other = 'With'
+
 [Edited-by]
   other = 'Edited by'
   
@@ -43,6 +46,9 @@
 [Read-more]
   other = 'Read more'
   
+[Catch-up-with-past-calls]
+  other = 'Catch up with past calls'
+  
 [Projects]
   other = 'Projects'
   
@@ -52,6 +58,26 @@
 [Tech-Notes]
   other = 'Tech Notes'
   
+[Our-Next-Sessions]
+  other = 'Our Next Sessions'
+  
+[Our-Next-Session]
+  other = 'Our Next Session'
+  
+[To-be-announced]
+  other = 'To be announced'
+  
+[Past-Sessions]
+  other = 'Past sessions'
+  
+[Speakers]
+  other = 'Speakers'
+  
+[Resources]
+  other = 'Resources'
+  
+[Collaborative-notes]
+  other = 'Collaborative notes'
 [Code-of-Conduct]
   other = 'Code of Conduct'
   
@@ -123,7 +149,7 @@
 [editor]
   other = 'Editor'
 
-[Software-Review-Lead]
+[software-review-lead]
   other = 'Software Review Lead'
   
 [co-funder]
@@ -147,3 +173,130 @@
 [About]  
   other = 'About'
   
+[Donate]  
+  other = 'Donate'
+  
+[check-money]
+  other = 'Checks can also be made out to NumFOCUS, just make sure to add rOpenSci in the memo line'
+
+[Community-calls]  
+  other = 'Community calls'
+  
+[Coworking]  
+  other = 'Coworking'
+  
+[Coworking-pic]
+  other = 'With work come breaks! So we break with a mini scavenger hunt.'
+  
+[Help-Wanted]
+  other = 'Help Wanted'
+  
+[Team]
+  other = 'Team'
+[Packages]
+  other = 'Packages'
+  
+[View-all-packages]
+  other = 'View all packages'
+  
+[Champions]
+  other = 'Champions'
+  
+[Mentors]
+  other = 'Mentors'
+  
+[Software-Peer-Review]
+  other = 'Software Peer Review'
+  
+[Join-the-Discussion]
+  other = 'Join the Discussion'
+  
+[Community]
+  other = 'Community'
+  
+[Our-Team]
+  other = 'Our Team'
+  
+[Use-Cases]
+  other = 'Use Cases'
+  
+[Category]
+  other = 'Category'
+  
+[All]
+  other = 'All'
+
+[Submit-A-Package]
+  other = 'Submit A Package'
+
+[Citations]
+  other = 'Citations'
+
+[Contributing-Guide]
+  other = 'Contributing Guide'
+
+[Forum]
+  other = 'Forum'
+  
+[Talks-Publications]
+  other = 'Talks & Publications'
+  
+[Documentation]
+  other = 'Documentation'
+  
+[Newsletter]
+  other = 'Newsletter'
+  
+[Events]
+  other = 'Events'
+  
+[Cite-rOpenSci]
+  other = 'Cite rOpenSci'
+  
+[cc-by-text]
+  other = 'Except where otherwise noted, content on this site is licensed under the CC-BY license'
+
+[Privacy-Policy]
+  other = 'Privacy Policy'
+  
+[Package-Docs]
+  other = 'Package Docs'
+  
+[Search]
+  other = 'Search'
+  
+[Training]
+  other = 'Training'
+  
+[Our-Editorial-Team]
+  other = 'Our Editorial Team'
+  
+[Our-editorial-board-members-are-volunteers]
+  other = 'Our editorial board members are volunteers.'
+  
+[Former-editors-and-advisory-board]
+  other = 'Former editors and advisory board'
+  
+[and]
+  other = ' and '
+
+[Add-to-Calendar]
+  other = 'Add to Calendar'
+
+[Join-the-event]
+  other = 'Join the Event'
+
+[no-rsvp]
+  other = 'Everyone is welcome. No RSVP needed.'
+
+[zoom-test]
+  other = 'Test your Zoom setup'
+  
+[zoom-phone]
+  other = 'Find your local number to join by phone:'
+  
+[meeting-join]
+  other = 'Join the meeting:'
+  
+[How]
+  other = 'How'

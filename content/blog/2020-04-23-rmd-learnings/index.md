@@ -13,6 +13,8 @@ tags:
   - knitr
 package_version: 0.1.0
 description: A few things I learned about R Markdown (knitr hooks), Hugo (ignoreFiles, leaf bundles, archetypes), blogdown (New Post Addin)
+params:
+  doi: "10.59350/m5pk1-gxy73"
 ---
 
 

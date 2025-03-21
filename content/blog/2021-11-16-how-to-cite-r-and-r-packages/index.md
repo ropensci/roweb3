@@ -15,6 +15,8 @@ social: How to cite R and R packages? by @steffilazerte@fosstodon.org!
 output:
   html_document:
     keep_md: yes
+params:
+  doi: "10.59350/t79xt-tf203"
 ---
 
 I teach R to a lot of scientists, those that are new to science (i.e. students) 

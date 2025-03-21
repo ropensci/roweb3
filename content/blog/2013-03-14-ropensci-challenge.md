@@ -4,6 +4,8 @@ title: The 2013 rOpenSci challenge
 date: '2013-03-14'
 author:
   - Karthik Ram
+params:
+  doi: "10.59350/8gfs7-4d877"
 ---
 
 At rOpenSci we're very passionate about engaging with our community and getting more people on board with open science and open data. There are many challenges to be overcome before this practice becomes mainstream. Even when researchers  see the value in engaging more openly, the learning curve associated with various aspects of the workflow can seem daunting. To identify some of these challenges and barriers, we launched an open science challenge at the start of the year. If any researchers were interesting is using the suite of tools we've built so far, we offered to help them through the technical challenges they might encounter. We're excited to report that we'll be working closely with [Simon Queenborough](https://www.simonqueenborough.com/) and [Julien Colomb](http://lab.brembs.net/author/julien//) on this effort. Below are brief summaries of their work. Stay tuned for updates.

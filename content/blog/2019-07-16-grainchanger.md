@@ -14,6 +14,8 @@ twitterImg: img/blog-images/2019-07-16-grainchanger/logo.png
 output:
   html_document:
     keep_md: yes
+params:
+  doi: "10.59350/vaw0e-d5p17"
 ---
 
 

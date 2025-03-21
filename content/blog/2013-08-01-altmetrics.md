@@ -6,6 +6,8 @@ author: Scott Chamberlain
 tags:
   - altmetrics
   - PLOS
+params:
+  doi: "10.59350/tbj2b-8wh87"
 ---
 
 We recently had a paper come out in [a special issue](https://www.niso.org/niso-io/isq/2013/06/information-standards-quarterly-summer-2013) on *article-level metrics* in the journal Information Standards Quarterly. Our paper basically compared article-level metrics provided by different aggregators. The other papers covered various article-level metrics topics from folks at PLOS, Mendeley, and more. [Get our paper](https://www.niso.org/niso-io/isq/2013/06/information-standards-quarterly-summer-2013/chamberlain).

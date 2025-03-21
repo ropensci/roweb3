@@ -9,6 +9,7 @@ tags:
 description: rOpenSci Champions Program call for champions and mentors; R-universe search; coworking; community calls; calls for package (co)maintainers
 params:
   last_newsletter: '2022-09-23'
+  doi: "10.59350/7t4w5-nys15"
 ---
 
 
