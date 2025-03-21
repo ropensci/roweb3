@@ -16,6 +16,7 @@ social: "@Alex_Koiter@sciencemastodon.com shares thoughts regarding his experien
 # you can leave it empty until you know who'll review your PR
 editor: 
   - Steffi LaZerte
+  - Yanina Bellini Saibene
 params:
   doi: "10.59350/r0dkq-5jt28"
 ---
