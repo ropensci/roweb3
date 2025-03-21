@@ -17,23 +17,28 @@ country: "\U0001F310"
 attendees: Todas las personas son bienvenidas
 slug: champions-latino-2025
 featured: true
-notes: 
+notes: https://docs.google.com/document/d/1at2w5F039qclrfNi6COlFAGiQQbAf1YZXQ0Smdjq5nA/edit?usp=sharing
 outputs:
 - HTML
 - Calendar 
-# vimeo:
-#   - id: ''
-# resources:
-#   - url: 
-#     name: ""
-#     details: ""
-#   - url: 
-#     name: ""
-#     details: ""
-#   - url: 
-#     name:  ""
-#     details: ""
-
+vimeo: 
+  - id: '1067708090'
+resources:
+  - url: https://soyandrea.github.io/arcenso/
+    name: "Paquete arcenso"
+    details: "arcenso is a package under development that will allow access to the official data of the national population censuses in Argentina from the National Institute of Statistics and Census - INDEC."
+  - url: https://github.com/r-earthengine/rgeeExtra
+    name: "Paquete rgeeExtra"
+    details: "rgeeExtra es un paquete que amplía las capacidades del paquete rgee, que permite utilizar Google Earth Engine en R."
+  - url: https://ropenscilabs.github.io/ChampionsProgram/
+    name: "Programa de Campeon(a|e)s de rOpenSci"
+    details: "Sitio Web del Programa de Campeon(a|e)s de rOpenSci en español"
+  - url: https://francisco-cardozo.shinyapps.io/r-sna-packages/
+    name: "SNA Packages Explorer"
+    details: "This Shiny application provides an interactive overview of R packages used in network analysis."
+  - url: https://ccani007.github.io/dissertationData/
+    name:  "A Public Data Repository R package "
+    details: "Youth Risk Behavior Surveillance System"
 speakers:  
   - name: "Andrea Gomez Vargas"
     bio: "Socióloga y trabaja como analista de estadísticas de población en el INDEC, Argentina. Su proyecto en el programa de campeones de rOpenSci, cohorte 2023-2024, fue desarrollar el paquete [arcenso](https://soyandrea.github.io/arcenso/), en su primera etapa permite acceder a los datos oficiales de los censos nacionales de Argentina en un formato accesible, ordenado y estructurado."
