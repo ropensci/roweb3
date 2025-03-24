@@ -52,7 +52,7 @@ By mentoring our selected Champions and helping to shape this program, mentors w
 
 ## How to apply?
 
-The application form must be completed **in Spanish by Wednesday, April 30, 2025.
+The application form must be completed **in Spanish by Wednesday, April 30, 2025**.
 
 If you would like to know more about the information needed to complete the form [you can see it on the program's website](https://ropenscilabs.github.io/ChampionsProgram/). 
 
