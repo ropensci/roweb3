@@ -6,7 +6,7 @@ editor: Steffi LaZerte
 date: '2025-03-10'
 featured: true
 tags:
-- comunity
+- community
 - champions
 - multilingual
 description: "The call is open for a new cohort of our Champions Program with a focus on Latin America. Apply!"
