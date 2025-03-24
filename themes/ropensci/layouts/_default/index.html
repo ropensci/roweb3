@@ -5,7 +5,7 @@
 </div>
 <img class="divider-lg" src="/images/svg/divider-lg.svg" alt="" />
 {{ $.Scratch.Set "counter" 0}}
-{{ $partials := (slice "packages/packages" "review" "community" "r-universe" "champions" "news" "newsletter" "brands") }}
+{{ $partials := (slice "packages/packages" "review" "r-universe" "champions" "community" "news" "newsletter" "brands") }}
 {{ $Site := .Site }}
 {{ range $partials }}
   {{ $counter := $.Scratch.Get "counter" }}
