@@ -1,8 +1,8 @@
 ---
 slug: numfocus-unconf
-title: 'rOpenSci participation to NumFOCUS’ DISC Unconf'
+title: 'rOpenSci Participation at NumFOCUS’ DISC Unconf'
 author: Yanina Bellini Saibene
-editor: 
+editor: Steffi LaZerte
 date: '2025-03-24'
 featured: true
 tags:
@@ -28,8 +28,8 @@ We also had the chance to hear about other projects that interest the rOpenSci c
 This unconference provided a valuable space to discuss pressing issues related to open research, education, software, and science. 
 It was inspiring to work alongside peers who are committed to building more inclusive and accessible systems.
 
-This event also gave the opportunity to meet in person with other members of the rOpenSci community in Sao Paulo, in the picture below we can see [Francesca Palmeira](/francesca-belem-lopes-palmeira/) (rOpenSci Champions), [Andrea Gomez Vargas](/author/andrea-gomez-vargas/) (rOpenSci Champions), [Beatriz Milz](/author/beatriz-milz/) (rOpenSci Editor and Mentor), [Haydee Svab](/author/haydee-svab/) (rOpenSci Champions) and Yanina Bellini Saibene (rOpenSci Community Manager).  
+This event also presented the opportunity to meet in person with other members of the rOpenSci community in Sao Paulo. Several members got together and discussed our [translations](/multilingual-publishing/) efforts, updates on [Champions](/champions)'s work after the program, and our [new Champion Program cohort](/blog/2025/03/10/champeons-latin-america/). 
+
+In the picture below we can see [Francesca Palmeira](/francesca-belem-lopes-palmeira/) (rOpenSci Champion), [Andrea Gomez Vargas](/author/andrea-gomez-vargas/) (rOpenSci Champions), [Beatriz Milz](/author/beatriz-milz/) (rOpenSci Editor and Champions Mentor), [Haydee Svab](/author/haydee-svab/) (rOpenSci Champion) and Yanina Bellini Saibene (rOpenSci Community Manager).  
 
 {{< figure src = "rOpenSciBrazil.jpeg" alt = "Francesca, Andrea, Beatriz, Heydee and Yani stand up and smiling for the picture" >}}
-
-We discussed our [translation](/multilingual-publishing/) effort and caught up on the [champions](/champions)' work after the program and in our [new champion program cohort](/blog/2025/03/10/champeons-latin-america/). 
