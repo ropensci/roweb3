@@ -5,7 +5,6 @@
       <img class="logo-light" src="{{ "/images/svg/logo-light.svg" | relURL }}" alt="" />
       <img class="logo-dark" src="{{ "/images/svg/logo-dark.svg" | relURL }}" alt="" />
     </a>
-    {{ if (not .IsHome) }}
     {{ if .IsTranslated }}
     <div class="dropdown">
   <button class="btn btn-primary btn-lang dropdown-toggle" type="button" id="btndroplang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -18,7 +17,6 @@
     {{ end }}
   </div>
   </div>
-  {{ end }}
   {{ end }}
     <button
       class="navbar-toggler"

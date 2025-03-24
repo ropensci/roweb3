@@ -1,0 +1,56 @@
+{{ with .divider }}
+  {{ partial "whole-page-fragments/divider" . }}
+{{ end }}
+    <!-- Community section -->
+    <section class="section community">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="title">Universo R</h2>
+            <p class="subtitle">
+              The R-universe platform is an umbrella project under which we experiment with various new ideas for improving publication and discovery of research software in R.
+            </p>
+            <a class="link-arrow" href="/r-universe"><span>Find out more</span></a>
+          </div>
+          <div class="col-md-6">
+             <img src="{{ "images/pexels-pixabay-2159.jpg" | relURL }}" alt="A rocket." /> 
+          </div>
+        </div>
+        <div class="row soft-cards cards">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Browse R-universe</h5>
+                <p class="card-text">
+                  Discover use packages.
+                </p>
+                <a class="card-link link-arrow" href="/r-universe"><span>The Platform</span></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Posts about R-universe</h5>
+                <p class="card-text">
+                  Updates from the rOpenSci blog:
+                </p>
+                <a class="card-link link-arrow" href="/tags/r-universe/"><span>Posts</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Discussions</h5>
+                <p class="card-text">
+                  Bug reports and feature requests. 
+                </p>
+                <a class="card-link link-arrow" href="https://github.com/r-universe-org/help/discussions"><span>Participate</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>

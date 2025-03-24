@@ -1,0 +1,18 @@
+{{ partial "whole-page-fragments/divider" .divider }}
+
+    <!-- Newsletter section -->
+    <section class="section section-newsletter d-print-none">
+      <div class="container">
+        <div class="row justify-content-around align-items-center">
+          <div class="col-md-8">
+            <div class="newsletter">
+              <h4 class="title" id="by-email">Nuestro Boletin de noticías</h4>
+              <p class="subtitle md">
+                A digest of R package and software review news, use cases, blog posts, and events, curated monthly. Subscribe to get it in your inbox, or check the <a href="/news/">archive</a>.
+              </p>
+              {{ partial "newsletter/form" }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
