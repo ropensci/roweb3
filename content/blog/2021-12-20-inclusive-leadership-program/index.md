@@ -9,7 +9,7 @@ date: '2021-12-20'
 slug: inclusive-leadership-program
 tags:
   - funding
-  - champions
+  - champions program
   - cscce
   - diversity
   - belonging

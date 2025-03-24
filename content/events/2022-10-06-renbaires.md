@@ -12,7 +12,7 @@ outputs:
 - HTML
 - Calendar 
 tags: 
-  - champions
+  - champions program
 author:
   - Yanina Bellini Saibene
 attendees:
