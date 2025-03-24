@@ -32,4 +32,4 @@ This event also gave the opportunity to meet in person with other members of the
 
 {{< figure src = "rOpenSciBrazil.jpeg" alt = "Francesca, Andrea, Beatriz, Heydee and Yani stand up and smiling for the picture" >}}
 
-We discussed our [translation](/multilingual-publishing/) effort and catch up on the [champions](/champions)' work after the program and in our [new champion program cohort](/blog/2025/03/10/champeons-latin-america/). 
+We discussed our [translation](/multilingual-publishing/) effort and caught up on the [champions](/champions)' work after the program and in our [new champion program cohort](/blog/2025/03/10/champeons-latin-america/). 
