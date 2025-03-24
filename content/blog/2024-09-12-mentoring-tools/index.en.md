@@ -40,15 +40,15 @@ Built on materials from open initiatives like Mozilla Open Leaders and The Carpe
 ## Mentor Guidelines
 
 We wrote the [rOpenSci Champions Program Mentor Guidelines](https://ropensci-org.github.io/champions-mentor-guidelines/) to provide mentors with a comprehensive framework of tools and insights to navigate their roles effectively. It begins with an overview of mentors' responsibilities, emphasizing their role in inspiring and advising mentees while connecting them to valuable resources, networks, and experiences.  The "Mentors Tools" section offers practical guidance on essential resources, including program infrastructure, tools for effective meetings, collaborative note-taking systems, scheduling aids, and a Code of Conduct. In "Mentorship Meetings," the handbook emphasizes the importance of setting an agenda for the meetings, note-taking, setting an appropriate meeting frequency, and maintaining structured tracking to ensure accountability and progress.  It provides templates for all these items. 
-The "Mentorship Skills" section is ment as a reminder of the core competencies mention in the mentors' training,  like active listening, effective questioning, and giving constructive feedback. Additionally, details the GROW model, a goal-setting framework that helps mentors and mentees define clear objectives and actionable plans. 
-We developed it as a living document, and we are always grateful for feedback and updates to ensure it remains a valuable resource for our mentors and the community
+The "Mentorship Skills" section is meant to be a reminder of the core competencies mentioned in the mentors' training, like active listening, effective questioning, and giving constructive feedback. Additionally, this section describes the GROW model, a goal-setting framework that helps mentors and mentees define clear objectives and actionable plans. 
+We developed this resource as a living document, and we are always grateful for feedback and updates to ensure it remains a valuable resource for our mentors and community
 
-## Monthly Charter
+## Monthly charter
 
 A monthly charter is a document that outlines the action items for a specific month within the Champions Program. It is particularly useful for our structured program because it helps mentors, mentees, and program management stay focused and organized while tracking progress in a manageable, time-bound way.
 
 This is an [example of the monthly charter](https://docs.google.com/document/d/1-eUCiBukCYRx2Ff6VpMZh2xjAPAxXq5tppVUQjrOWxE/edit?usp=sharing) we use with the second cohort of mentors of the Champions Program.
 ## Summary
 
-These tools are designed with rOpenSci Champions Program mentors in mind, but we hope they're also useful for anyone in a mentoring role. 
+These tools are designed with the rOpenSci Champions Program mentors in mind, but we hope they're also useful for anyone in a mentoring role. 
 We would love to hear if you know of other useful resources for mentors.
