@@ -10,7 +10,7 @@ description: Call for
 params:
   last_newsletter: '2025-02-27'
   doi: "10.59350/a6syn-6hc72"
-rmd_hash: 6cb911b854e23d8a
+rmd_hash: 55fc1570befa0830
 
 ---
 
@@ -28,7 +28,7 @@ Our program seeks to identify, recognize and reward people who are leaders in an
 
 This year's program is focused on people from Latin America and for the first time will be conducted entirely in Spanish. The main goal is to foster sustainable research software as a pillar of Open Science in Latin America through capacity and community building.
 
-Find out more in our [call for applications](/blog/2025/03/10/champeons-latin-america/) open until Wednesday, April 30, 2025.
+Find out more in our [call for applications](/blog/2025/03/10/champeons-latin-america/) open until **Wednesday, April 30, 2025**.
 
 ### Better documentation for R-universe!
 
@@ -36,21 +36,21 @@ Thanks to funding by [Google Season of Docs](https://ropensci.org/blog/2024/04/1
 
 Read more in our [blog post](https://ropensci.org/blog/2025/02/28/r-universe-docs-launch/), read the [documentation website](https://docs.r-universe.org).
 
-### rOpenSci participation on NumFOCUS's DISC Unconf 2025
+### rOpenSci participation to NumFOCUS's DISC Unconf 2025
 
-[The NumFocus' DISC Unconf](https://numfocus.github.io/disc-unconference-2025/) took place as a hybrid event in São Paulo, Brazil, from March 14 to 16, 2025. Our community manager, Yanina Bellini Saibene, and rOpenSci Champions, Andrea Gomez Vargas and Liz Hare, participated.
+[The NumFocus' DISC Unconf](https://numfocus.github.io/disc-unconference-2025/) took place as a hybrid event in São Paulo, Brazil, from March 14 to 16, 2025. Our community manager, [Yanina Bellini Saibene](/author/yanina-bellini-saibene/), and rOpenSci Champions, [Andrea Gomez Vargas](/author/andrea-gomez-vargas/) and [Liz Hare](/author/liz-hare/), participated.
 
-Prior to the meeting in Sao Paulo, participants met online to get to know each other and present their ideas for projects. Ten projects were selected and then developed during the weekend in Brazil.
+Prior to the meeting in Sao Paulo, participants met online to get to know each other and present their ideas for projects. Ten projects were selected and then developed during the weekend.
 
-During the event, rOpenSci members collaborated with other participants to exchange experiences, brainstorm solutions, and design practical resources that could be shared with the broader community. The worked on projects related to [open mentoring programs](https://numfocus.github.io/disc-unconference-2025-projects/en/creating_an_open_mentorship_initiative.html), leadership skill training, and [international research funding](https://numfocus.github.io/disc-unconference-2025-projects/en/navigating-funding-landscape.html).
+During the event, rOpenSci members collaborated with other participants to exchange experiences, brainstorm solutions, and design practical resources that could be shared with the broader community. They worked on projects related to [open mentoring programs](https://numfocus.github.io/disc-unconference-2025-projects/en/creating_an_open_mentorship_initiative.html), leadership skill training, and [international research funding](https://numfocus.github.io/disc-unconference-2025-projects/en/navigating-funding-landscape.html).
 
-We also have the chance to hear about other projects that interest the rOpenSci community, like open science training for researchers in the Global South and multilingual solutions for open science.
+We also had the chance to hear about other projects that interest the rOpenSci community, like open science training for researchers in the Global South and multilingual solutions for open science.
 
 This unconference provided a valuable space to discuss pressing issues related to open research, education, software, and science. It was inspiring to work alongside peers who are committed to building more inclusive and accessible systems.
 
-This event also gives the opportunity to meet in person with other members of rOpenSci in Sao Paulo, in the picture we can see Haydee Svab (rOpenSci Champions), Francesca Palmeira (rOpenSci Champions), Beatriz Milz (rOpenSci Editor and Mentor), Andrea Gomez Vargas (rOpenSci Champions) and Yanina Bellini Saibene (rOpenSci Community Manager).
+This event also gave the opportunity to meet in person with other members of rOpenSci in Sao Paulo, in the picture we can see [Francesca Palmeira](/francesca-belem-lopes-palmeira/) (rOpenSci Champions), Andrea Gomez Vargas (rOpenSci Champions), [Beatriz Milz](/author/beatriz-milz/) (rOpenSci Editor and Mentor), [Haydee Svab](/author/haydee-svab/) (rOpenSci Champions) and Yanina Bellini Saibene (rOpenSci Community Manager).
 
-TODO: add the picture here
+{{< figure src = "rOpenSciBrazil.jpeg" alt = "" caption = "Francesca, Andrea, Beatriz, Heydee and Yani stand up and smiling for the picture">}}
 
 We discussed our translation effort and catch up on the champions' work after the program and in our new champion program cohort.
 
@@ -107,7 +107,9 @@ The following five packages have had an update since the last newsletter: [ijtif
 
 There are twelve recently closed and active submissions and 6 submissions on hold. Issues are at different stages:
 
--   Three at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%226/approved%22):
+-   Four at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%226/approved%22):
+
+    -   [butterfly](https://github.com/ropensci/software-review/issues/676), Verification For Continually Updating Timeseries Data. Submitted by [Thomas Zwagerman](https://thomaszwagerman.co.uk/).
 
     -   [geotargets](https://github.com/ropensci/software-review/issues/675), Targets Extensions for Geospatial Formats. Submitted by [Nicholas Tierney](https://www.njtierney.com).
 
@@ -115,11 +117,9 @@ There are twelve recently closed and active submissions and 6 submissions on hol
 
     -   [mbquartR](https://github.com/ropensci/software-review/issues/658), Finding Manitoba Quarter Sections. Submitted by [Alex Koiter](http://www.alexkoiter.ca).
 
--   Three at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%224/review(s)-in-awaiting-changes%22):
+-   Two at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%224/review(s)-in-awaiting-changes%22):
 
     -   [gtexr](https://github.com/ropensci/software-review/issues/684), Query the GTEx Portal API. Submitted by [Alasdair Warwick](https://github.com/rmgpanw).
-
-    -   [butterfly](https://github.com/ropensci/software-review/issues/676), Verification For Continually Updating Timeseries Data. Submitted by [Thomas Zwagerman](https://thomaszwagerman.co.uk/).
 
     -   [pkgmatch](https://github.com/ropensci/software-review/issues/671), Find R Packages Matching Either Descriptions or Other R Packages. Submitted by [mark padgham](https://mpadge.github.io).
 
