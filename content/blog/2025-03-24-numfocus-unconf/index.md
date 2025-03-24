@@ -8,7 +8,7 @@ featured: true
 tags:
 - community
 - champions
-description: "Report from NumFOCUS hybrid unconference"
+description: "Report of rOpenSci participation at the NumFOCUS hybrid unconference"
 params:
   doi: "10.59350/xke0n-r6681"
 ---
