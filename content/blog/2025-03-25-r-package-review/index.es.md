@@ -17,7 +17,7 @@ editor:
 - Steffi LaZerte
 - Yanina Bellini Saibene
 params:
-  doi: 
+  doi: 10.59350/19v94-d8656
 ---
 
 > Hay un paquete R para esto... ¿verdad?
