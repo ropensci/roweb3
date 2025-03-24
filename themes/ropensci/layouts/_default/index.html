@@ -1,5 +1,6 @@
 {{ define "main" }}
-{{ partial "skeleton/hero" . }}
+{{ $heropartial := (partial "translate-path" (dict "name" "skeleton/hero" "language" .Site.Language.Lang )) }}
+{{ partial $heropartial . }}
 <!-- Hero divider -->
 </div>
 <img class="divider-lg" src="/images/svg/divider-lg.svg" alt="" />
