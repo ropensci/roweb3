@@ -8,7 +8,7 @@ description: ""
 location: 'online'
 country: "\U0001F310" # emoji
 tags: 
-  - champions
+  - champions program
 author:
   - Yanina Bellini Saibene
 attendees:
