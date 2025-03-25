@@ -58,24 +58,27 @@ Find out more in our [call for applications](/blog/2025/03/10/champeons-latin-am
 
 ### Better documentation for R-universe!
 
-Thanks to funding by [Google Season of Docs](https://ropensci.org/blog/2024/04/12/gsod-announcement/), we were able to start a new comprehensive documentation project for all users and developers of R-universe. 
+Thanks to funding by [Google Season of Docs](/blog/2024/04/12/gsod-announcement/), we were able to start a new comprehensive documentation project for all users and developers of R-universe. 
 We established a central place where we collect the various sources of information and describe examples and use cases, using popular authoring tools to support collective maintenance.
 
-Read more in our [blog post](https://ropensci.org/blog/2025/02/28/r-universe-docs-launch/), 
+Read more in our [blog post](/blog/2025/02/28/r-universe-docs-launch/), 
 read the [documentation website](https://docs.r-universe.org).
 
-### rOpenSci participation to NumFOCUS’s DISC Unconf 2025
+### rOpenSci Participation at NumFOCUS’ DISC Unconf 2025
 
-[The NumFocus' Diversity & Inclusion in Scientific Computing (“DISC”) Unconf](https://numfocus.github.io/disc-unconference-2025/) took place as a hybrid event in São Paulo, Brazil, from March 14 to 16, 2025. Our community manager, [Yanina Bellini Saibene](/author/yanina-bellini-saibene/), and rOpenSci Champions, [Andrea Gomez Vargas](/author/andrea-gomez-vargas/) and [Liz Hare](/author/liz-hare/), participated.
+[The NumFOCUS Diversity & Inclusion in Scientific Computing (“DISC”) Unconf](https://numfocus.github.io/disc-unconference-2025/) took place as a hybrid event in São Paulo, Brazil, from March 14 to 16, 2025. Our community manager, [Yanina Bellini Saibene](/author/yanina-bellini-saibene/), and rOpenSci Champions, [Andrea Gomez Vargas](/author/andrea-gomez-vargas/) and [Liz Hare](/author/liz-hare/), participated.
 
 Read more in our [report from the event](/blog/2025/03/24/numfocus-unconf/).
 
-This event also gave the opportunity to meet in person with other members of the rOpenSci community in Sao Paulo, in the picture we can see [Francesca Palmeira](/francesca-belem-lopes-palmeira/) (rOpenSci Champions), [Andrea Gomez Vargas](/author/andrea-gomez-vargas/) (rOpenSci Champions), [Beatriz Milz](/author/beatriz-milz/) (rOpenSci Editor and Mentor), [Haydee Svab](/author/haydee-svab/) (rOpenSci Champions) and Yanina Bellini Saibene (rOpenSci Community Manager).  
+This event also presented the opportunity to meet in person with other members of the rOpenSci community in Sao Paulo, in the picture we can see [Francesca Palmeira](/author/francesca-belem-lopes-palmeira/) (rOpenSci Champions), [Andrea Gomez Vargas](/author/andrea-gomez-vargas/) (rOpenSci Champions), [Beatriz Milz](/author/beatriz-milz/) (rOpenSci Editor and Mentor), [Haydee Svab](/author/haydee-svab/) (rOpenSci Champions) and Yanina Bellini Saibene (rOpenSci Community Manager).  
 
 ```{=html}
 {{< figure src = "rOpenSciBrazil.jpeg" alt = "Francesca, Andrea, Beatriz, Heydee and Yani stand up and smiling for the picture" >}}
 ```
+### Community Call “Fomentando la Ciencia Abierta en América Latina - Programa de rOpenSci” Resources
 
+All the resources for the community call in Spanish [Fomentando la Ciencia Abierta en América Latina - Programa de rOpenSci](https://ropensci.org/es/commcalls/champions-latino-2025/) are now available on our website.
+Check the video and links to other resources related to speakers' experience as mentors and mentees in the rOpenSci Champions Program. 
     
 ### Coworking 
 
@@ -88,6 +91,8 @@ Read [all about coworking](/blog/2023/06/21/coworking/)!
 - [Tuesday, 15 April 2025 13:00 UTC](/events/clinica-champions-2025-04/) (**Spanish**) "Clinica de Aplicación para el Programa de Campeon(e|a)s de rOpenSci" with [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) and [Steffi LaZerte](/author/steffi-lazerte/)
     - Prepara tu solicitud para el Programa de Campeones.
     - Conoce a la co-anfitriona Yanina Bellini Saibene para charlar sobre el Programa de Campeones.
+    
+- Tuesday May 6th 9:00 Australia Western (01:00 UTC), Theme TBA with [Steffi LaZerte](/author/steffi-lazerte/) and cohost TBA.
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
