@@ -11,7 +11,7 @@ tags:
 - training
 - champions-program
 - community
-description: ""
+description: "rOpenSci has developed a set of resources to support mentors in the Champions Program. In this post, we'll walk you through what we've created and show how these resources can support your mentoring as well —whether you're part of rOpenSci or mentoring in another context."
 params:
   doi: "10.59350/mha7y-jeg07"
 ---
@@ -28,9 +28,10 @@ Each of these moments is a chance to share what you know, build connections, and
 
 Since 2022 we have had our Champions Program with a formal role of mentoring. 
 To help our Champions Program mentors do their best work, we've put together a set of resources: a training, a handbook, and a monthly charter. 
- In this post, we'll walk you through what we've created and show how these resources can support your mentoring as well —whether you're part of rOpenSci or mentoring in another context.
+In this post, we'll walk you through what we've created and show how these resources can support your mentoring as well —whether you're part of rOpenSci or mentoring in another context.
 
 ## Mentoring workshop
+
 The [Mentorship Training and Orientation](https://ropensci-training.github.io/ropensci-mentors/) course is a key resource in the rOpenSci Champions Program, equipping mentors with the skills and tools they need to guide their mentees. 
 
 Key learning outcomes include active listening, effective questioning, providing constructive feedback, and setting expectations for mentorship relationships. The course also provides practical resources to help mentors navigate their roles.
