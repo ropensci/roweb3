@@ -17,6 +17,8 @@ tags:
   - census
   - geography
   - tech notes
+params:
+  doi: "10.59350/rqtnz-cx672"
 ---
 
 

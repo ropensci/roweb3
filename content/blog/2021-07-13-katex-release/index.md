@@ -11,6 +11,8 @@ tags:
   - packages
   - math
   - tech notes
+params:
+  doi: "10.59350/qettx-b6x26"
 ---
 
 A new rOpenSci package [katex](https://cran.r-project.org/package=katex) is now on CRAN.

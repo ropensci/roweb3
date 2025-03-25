@@ -10,6 +10,8 @@ tags:
   - open science
   - open source
   - community call
+params:
+  doi: "10.59350/yn3hd-rgx23"
 ---
 
 We tend to know a good open source research software project when we see it: The code is well-documented, users contribute back to the project, the software is licensed and citable, and the community interacts and co-produces in a healthy, productive fashion. The academic literature [^2] and community discourse [^3] around research software development offer insight into how to promote the technical best-practices needed to produce some of these project attributes; however, the management of non-technical, social components of software projects are less visible and therefore less often discussed in best-practice pieces. In a [recent community call](/commcalls/2018-12-18/), I discussed some of these components through the lens of [my research](/blog/2017/10/06/sholler-plan/) on open source research software project governance.

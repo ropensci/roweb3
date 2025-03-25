@@ -20,6 +20,8 @@ tags:
 - community
 - champions program
 description: 
+params:
+  doi: "10.59350/h1bg1-3xv48"
 ---
 
 One important aspect of rOpenSci's mission is to build capacity and promote passionate community members who help the open science and open source software community grow and improve.

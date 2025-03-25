@@ -1,0 +1,8 @@
+{{ $value := printf "%s.%s" .name "en" }}
+{{ $path := printf "%s.%s" .name .language }}
+{{ $partialsource := "themes/ropensci/layouts/partials/" }}
+{{ $actualpath := printf "%s%s.html" $partialsource $path }}
+{{ if fileExists $actualpath }}
+  {{ $value = $path }}
+{{ end }}
+{{ return $value }}

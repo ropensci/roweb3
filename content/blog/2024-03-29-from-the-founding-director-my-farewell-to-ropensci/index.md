@@ -9,6 +9,8 @@ tags:
   - leadership
 featured: true
 description: "Karthik Ram steps down as Executive Director after 13 years"
+params:
+  doi: "10.59350/vwqyn-bex04"
 ---
 
 Dear rOpenSci community,

@@ -7,6 +7,8 @@ tags:
   - rbison
   - API
   - geojson
+params:
+  doi: "10.59350/79ps2-cz128"
 ---
 
 We have a number of packages for getting species occurrence data: [rgbif][rgbif] and [rbison][rbison]. The power of R is that you can pull down this occurrence data, manipulate the data, do some analyses, and visualize the data - all in one open source framework.

@@ -12,6 +12,8 @@ tags:
   - github
   - cómo-hacer
 description: "`git clone` no siempre es la herramienta adecuada."
+params:
+  doi: "10.59350/6z31j-xb804"
 ---
 
 Hace poco [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) nos recordó actualizar el perfil de Slack:

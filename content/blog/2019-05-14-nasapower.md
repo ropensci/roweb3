@@ -21,6 +21,8 @@ tags:
   - Software Peer Review
   - nasapower
 twitterImg: img/blog-images/2019-05-14-nasapower/logo.png
+params:
+  doi: "10.59350/ht49q-bnr72"
 ---
 
 NASA generates and provides heaps of data to the scientific community. Not all

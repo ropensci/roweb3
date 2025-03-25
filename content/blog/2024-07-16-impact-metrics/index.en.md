@@ -14,6 +14,8 @@ tags:
   - Community
 description: "Our community manager Yani, shares experiences using multi-level metrics and participation models through a community management lens to measure rOpenSci impact."
 preface: This blog post is based on the talk [reproducible OpenScience by and for All](/events/czi-2024/) at the CZI Open Science 2024 event. 
+params:
+  doi: "10.59350/33v0w-1va15"
 ---
 
 On June 14 I was invited to present at the [CZI Open Science 2024](https://chanzuckerberg.com/science/programs-resources/open-science/) event. I was asked to participate in "Case Study Session 3: Demonstrating Impact of Open Science" and to explore the challenges of using traditional academic metrics for measuring project impact with an emphasis on alternative approaches.

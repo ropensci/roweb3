@@ -46,6 +46,11 @@
 [Read-more]
   other = 'Lire plus'
   
+[Catch-up-with-past-calls]
+  other = 'Appels précédents'
+  
+[Community-calls]
+  other = 'Appels avec la communauté'
 [Projects]
   other = 'Projets'
   
@@ -57,4 +62,31 @@
   
 [Code-of-Conduct]
   other = 'Code de Conduite'
+  
+[Name]
+  other = 'Nom'
+  
+[Enter-your-name]
+  other = 'Entrez votre nom'
+  
+[Email-address]
+  other = 'Adresse électronique'
+  
+[Enter-your-email]
+  other = 'Entrez votre adresse électronique'
+  
+[Enter-a-valid-email-address]
+  other = 'Entrez une adresse électronique valide'
+  
+[Message]
+  other = 'Message'
+  
+[Enter-your-message]
+  other = 'Entrez votre message'
+  
+[Send-message]
+  other = 'Envoyez votre message'
+  
+[Contact]
+  other = 'Contact'
   

@@ -28,6 +28,8 @@ description: Semi-monthly summary of the rOpenSci Newsletter, October 2020
 preface: A semi-monthly summary of the [rOpenSci Newsletter](https://news.ropensci.org/)
   including software reviews, packages on CRAN, use cases, posts from staff and community,
   and events. September 1 to October 12, 2020
+params:
+  doi: "10.59350/h6mz4-2w032"
 ---
 
 ## rOpenSci HQ

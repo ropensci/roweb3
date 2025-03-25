@@ -26,6 +26,8 @@ tweet: The cffr package by @dhernangomez
 output:
   html_document:
     keep_md: yes
+params:
+  doi: "10.59350/p37gh-f4s56"
 ---
 
 

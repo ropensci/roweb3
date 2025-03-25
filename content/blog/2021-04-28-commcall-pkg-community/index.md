@@ -19,6 +19,8 @@ description: "Summary of the Community Call on Setting Up Your Package to Foster
 output: 
   html_document:
     keep_md: true
+params:
+  doi: "10.59350/ccbgz-xdz54"
 ---
 
 Last Thursday we held a [Community Call](/commcalls/apr2021-pkg-community/) discussing how to set up a Package to Foster a Community. 

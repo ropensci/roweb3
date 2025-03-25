@@ -10,6 +10,8 @@ tags:
   - elasticsearch
   - databases
   - tech notes
+params:
+  doi: "10.59350/ng3c6-wch93"
 ---
 
 

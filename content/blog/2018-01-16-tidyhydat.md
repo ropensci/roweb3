@@ -20,6 +20,8 @@ tags:
 output:
   html_document:
     keep_md: yes
+params:
+  doi: "10.59350/9kxgw-r6p38"
 ---
 
 

@@ -6,6 +6,8 @@ author: Scott Chamberlain
 tags:
   - ecology
   - API
+params:
+  doi: "10.59350/va339-g5578"
 ---
 
 We have started a new R package interacting with NOAA climate data called **rnoaa**. You can find our package in development [here](https://github.com/ropensci/rnoaa) and documentation for NOAA web services [here](https://www.ncdc.noaa.gov/cdo-web/webservices). It is still early days for this package, but we wanted to demo what you can do with the package.

@@ -11,6 +11,8 @@ tags:
   - code of conduct
   - governance
 description: rOpenSci 2023 Code of Conduct Transparency Report
+params:
+  doi: "10.59350/k1t8d-pem58"
 ---
 
 The rOpenSci community is supported by our [Code of Conduct](/code-of-conduct) with a clear description of unacceptable behaviors, 

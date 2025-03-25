@@ -11,6 +11,8 @@ tags:
   - Software Peer Review
   - funding
   - statistical-software
+params:
+  doi: "10.59350/gh6ae-4px06"
 ---
 
 We’re delighted to announce that we have received new funding from the [Alfred P. Sloan Foundation](https://sloan.org/). The $678K grant, awarded through the Foundation's Data & Computational Research program, will be used to expand our efforts in software peer review.  

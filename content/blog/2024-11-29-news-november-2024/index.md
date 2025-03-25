@@ -9,6 +9,7 @@ tags:
 description: Support first-time contributors, fast R-universe, give thanks to contributors
 params:
   last_newsletter: "2024-10-23"
+  doi: "10.59350/c3ywd-nqk96"
 ---
 
 

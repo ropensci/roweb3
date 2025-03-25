@@ -15,6 +15,8 @@ tags:
   - ozunconf17
   - unconf
   - versioncontrol
+params:
+  doi: "10.59350/mxpab-ec348"
 ---
 
 Are you new to version control and always running into trouble with Git?

@@ -9,6 +9,8 @@ tags:
   - community
   - champions program
 description: "A summary of the discussion session on measuring the impact of champion programs at _CZI’s Accelerating Open Science in Latin America_ workshop."
+params:
+  doi: "10.59350/21v7p-8q889"
 ---
 
 > This post can also be [found on the CSCCE blog](https://www.cscce.org/2023/06/15/how-do-you-measure-the-impact-of-a-community-champions-program/)."

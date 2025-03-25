@@ -7,6 +7,8 @@ tags:
   - hacktoberfest
   - community
 description: How to find and contribute to help wanted issues in rOpenSci packages
+params:
+  doi: "10.59350/zf5w8-wbx26"
 ---
 
 The title of this post refers to Hacktoberfest, a month-long event organized annually by Digital Ocean to encourage contributions to open source projects on GitHub. 

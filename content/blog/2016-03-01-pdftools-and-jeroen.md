@@ -7,6 +7,8 @@ tags:
   - PDF
   - CRAN
   - pdftools
+params:
+  doi: "10.59350/g2q0n-ytn04"
 ---
 
 Scientific articles are typically locked away in PDF format, a format designed primarily for printing but not so great for searching or indexing. The new [pdftools](https://cran.r-project.org/package=pdftools) package allows for extracting text and metadata from pdf files in R. From the extracted plain-text one could find articles discussing a particular drug or species name, without having to rely on publishers providing metadata, or pay-walled search engines.

@@ -12,6 +12,8 @@ tags:
   - rrricanesdata
   - hurricanes
   - weather
+params:
+  doi: "10.59350/hq2vh-f9d52"
 ---
 
 

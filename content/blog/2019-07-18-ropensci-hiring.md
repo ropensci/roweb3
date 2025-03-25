@@ -10,6 +10,8 @@ tags:
   - Software Peer Review
   - careers
   - rOpenStats
+params:
+  doi: "10.59350/wsypv-ksq62"
 ---
 
 Are you passionate about statistical methods and software? If so we would love for you to join our team to dig deep into the world of statistical software packages. You’ll develop standards for evaluating and reviewing statistical tools, publish, and work closely with an international team of experts to set up a new software review system.

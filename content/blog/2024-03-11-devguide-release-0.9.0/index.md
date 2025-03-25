@@ -14,6 +14,8 @@ description: "Updates in version 0.9.0 of the online book 'rOpenSci Packages: De
 twitterImg: img/blog-images/2019-05-16-dev-guide-update/cover.png
 output: 
 twitterAlt: cover of rOpenSci dev guide, showing a package production line with small humans discussing, examining and promoting packages
+params:
+  doi: "10.59350/fmkfz-0rv74"
 ---
 
 rOpenSci Software Peer Review's guidance is gathered in an [online book](https://devguide.ropensci.org/booknews) that keeps improving!

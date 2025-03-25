@@ -9,6 +9,8 @@ categories: []
 tags:
 - notas técnicas
 - multilingüe
+params:
+  doi: "10.59350/jwd37-v2p92 "
 ---
 
 Como parte de nuestro [proyecto editorial multilingüe](/multilingual-publishing/) y con [financiación del Consorcio R](https://www.r-consortium.org/all-projects/awarded-projects/2022-group-2) hemos trabajado en el paquete R [babeldown](https://docs.ropensci.org/babeldown/) para traducir contenido basado en Markdown utilizando la API de DeepL.

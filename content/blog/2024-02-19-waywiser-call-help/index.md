@@ -11,6 +11,8 @@ preface: |
 tags:
   - package development
   - tech notes
+params:
+  doi: "10.59350/n29ak-pmk26"
 ---
 
 The package [waywiser](https://docs.ropensci.org/waywiser) maintained by [Mike Mahoney](/author/mike-mahoney) provides ergonomic methods for assessing spatial models. 

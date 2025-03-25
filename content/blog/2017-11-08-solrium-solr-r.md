@@ -10,6 +10,8 @@ tags:
   - solrium
   - databases
   - tech notes
+params:
+  doi: "10.59350/3s5nv-gx634"
 ---
 
 

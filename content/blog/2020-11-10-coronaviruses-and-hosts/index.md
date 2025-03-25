@@ -23,6 +23,8 @@ tags:
   - covid-19
 description: Together, the packages rentrez and taxize can extract standardised data
   on viruses and their hosts from genetic records.
+params:
+  doi: "10.59350/qenh9-cyj40"
 ---
 
 

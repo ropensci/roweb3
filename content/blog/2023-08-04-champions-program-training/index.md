@@ -19,6 +19,8 @@ tags:
   - training
   - workshops
 description: ""
+params:
+  doi: "10.59350/3p9qg-06v97"
 ---
 
 Our first cohort of the [rOpenSci Champions Program](/champions/) has now completed the first phase of their training.

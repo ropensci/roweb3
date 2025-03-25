@@ -1,10 +1,11 @@
 +++
-title = "Careers"
-description = "Job openings"
-partials = ["careers.html", "mailkimp.html"]
+title = "Carreras"
+description = "Ofertas de empleo"
+ partials = ["careers.html", "mailkimp.html"]
 +++
 
-Our fully remote [team](/about/#team) is made up of motivated people with a passion for making research more open and reproducible. We are group of scientists, engineers, and community organizers striving to improve the research software landscape and support a thriving community. Join us in changing science for the better.
+Nuestro [equipo](/about/#team) totalmente remoto está formado por personas motivadas y apasionadas por hacer que la investigación sea más abierta y reproducible. Somos un grupo de científic(o|a)s, ingenier(o|a)s y organizador(e|a)s de la comunidad que nos esforzamos por mejorar el panorama del software de investigación y apoyar a una comunidad próspera. Únete para lograr un cambio positivo en la ciencia.
 
-To ensure you don't miss future job postings, [subscribe to our newsletter](https://news.ropensci.org/).
+Para asegurarte de que no te pierdes futuras ofertas de empleo, [suscríbete a nuestro boletín](/news).
+
 

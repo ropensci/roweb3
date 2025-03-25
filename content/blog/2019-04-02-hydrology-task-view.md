@@ -21,6 +21,8 @@ tags:
   - smapr
   - tidyhydat
   - weathercan
+params:
+  doi: "10.59350/kdc49-9w725"
 ---
 
 

@@ -11,6 +11,7 @@ tags:
 description: R-universe improvements, coworking, champions program kick-off, targets community call resources and recording
 params:
   last_newsletter: '2023-01-20'
+  doi: "10.59350/50cke-c6a42"
 ---
 
 

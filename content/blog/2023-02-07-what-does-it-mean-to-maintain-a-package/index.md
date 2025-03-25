@@ -11,6 +11,8 @@ tags:
   - maintenance
 package_version: 0.1.0
 description: An attempt to define what package maintenance entails, with a few tips.
+params:
+  doi: "10.59350/vv6xb-53139"
 ---
 
 Part of what we aim to do at rOpenSci is nurture a community of package maintainers who help each other.

@@ -7,6 +7,8 @@ tags:
   - ozunconf
   - ozunconf16
   - unconf
+params:
+  doi: "10.59350/tcfbn-0a416"
 ---
 
 The rOpenSci Unconference is coming to Australia and we are excited!!

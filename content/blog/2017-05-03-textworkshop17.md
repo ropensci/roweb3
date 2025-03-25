@@ -9,6 +9,8 @@ tags:
   - community
   - meetings
   - sig
+params:
+  doi: "10.59350/w3mfq-bjz57"
 ---
 
 On 21-22 April, the London School of Economics hosted the [_Text Analysis Package Developers' Workshop_](https://textworkshop17.ropensci.org), a two-day event held in London that brought together developers of R packages for working with text and text-related data.  This included a wide range of applications, including string handling ([`stringi`](https://github.com/gagolews/stringi)) and tokenization (the rOpenSci-onboarded [`tokenizers`](https://github.com/ropensci/tokenizers), [`KoNLP`](https://github.com/haven-jeon/KoNLP)), corpus and text processing ([`readtext`](https://github.com/kbenoit/readtext), [`tm`](http://tm.r-forge.r-project.org), [`quanteda`](https://quanteda.io), and [`qdap`](https://github.com/trinker/qdap)), natural language processing (NLP) such as part of speech and dependency tagging ([`cleanNLP`](https://github.com/statsmaths/cleanNLP), [`spacyr`](https://github.com/kbenoit/spacyr)), and the statistical analysis of textual data ([`stm`](https://www.structuraltopicmodel.com), [`text2vec`](https://github.com/dselivanov/text2vec), and [`koRpus`](https://reaktanz.de/?c=hacking&s=koRpus)) -- although this list is hardly complete.  The main objective was to bring together experts working on various aspects of text processing and text analysis using R, to discuss common challenges and identify collaborative solutions.

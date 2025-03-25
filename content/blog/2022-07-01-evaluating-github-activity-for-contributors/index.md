@@ -9,6 +9,8 @@ tags:
   - contributors
   - tech notes
 description: How to evaluate the activity of a GitHub repository as an user or potential contributor.
+params:
+  doi: "10.59350/m8tb6-can94"
 ---
 
 Say you have a bug report or feature request to make to a package. 

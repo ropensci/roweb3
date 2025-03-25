@@ -14,6 +14,8 @@ tags:
   - Software Peer Review
   - packages
   - bioinformatics
+params:
+  doi: "10.59350/fwpdf-qd151"
 ---
 
 Sharing data sets for collaboration or publication has always been challenging, but it’s become increasingly problematic as complex and high dimensional data sets have become ubiquitous in the life sciences. Studies are large and time consuming; data collection takes time, data analysis is a moving target, as is the software used to carry it out.

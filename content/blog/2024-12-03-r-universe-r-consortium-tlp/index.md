@@ -1,6 +1,6 @@
 ---
 slug: r-universe-r-consortium-tlp
-title: R-Universe Named R Consortium Top-Level Project
+title: R-Universe Named an R Consortium Top-Level Project
 author:
   - Noam Ross
   - Jeroen Ooms
@@ -13,6 +13,8 @@ tags:
   - funding
   - infrastructure
 description: "We're excited to announce R-Universe has been named the R-Consortium's newest Top-Level Project."
+params:
+  doi: "10.59350/d0a4r-44j50"
 ---
 
 We are excited to announce that [R-Universe](/r-universe/)

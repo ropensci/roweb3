@@ -9,6 +9,8 @@ tags:
   - geojson
   - json
   - maps
+params:
+  doi: "10.59350/2b2h5-5hf56"
 ---
 
 Previously on this blog we have discussed making geojson maps and uploading to Github for interactive visualization [with USGS BISON data][ropost], and [with GBIF data][ropost2], and on [my own personal blog][scottpost]. This is done using a file format called [*geojson*](https://en.wikipedia.org/wiki/GeoJSON), a file format based on JSON (JavaScript Object Notation) in which you can specify geographic data along with any other metadata.

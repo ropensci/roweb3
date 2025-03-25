@@ -15,6 +15,8 @@ tags:
   - paleontology
   - fossils
   - divergence time
+params:
+  doi: "10.59350/ka69v-zyn86"
 ---
 
 I never really thought I would write an R package. I use R pretty casually. Then, this year, I was invited to participate during the last week of the [Analytical Paleobiology short course](http://www.analytical.palaeobiology.de/), an intensive month-long experience in quantitative paleontology. I was thrilled to be invited. But I got a slight sinking feeling in my stomach when I realized all the materials were in R.

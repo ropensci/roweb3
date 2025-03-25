@@ -1,7 +1,7 @@
 ---
 title: 'Usos interesantes de censo2017 un año después de su publicación'
 author:
-  - Pachá (aka Mauricio Vargas Sepúlveda)
+  - aka Mauricio Vargas Sepúlveda
 date: '2022-10-19'
 version: 0.5
 slug: censo2017-one-year-after-es
@@ -9,16 +9,18 @@ categories:
   - blog
 tags:
   - ciencia-abierta
-  - tech notes
+  - notas técnicas
   - investigación reproducible
   - acceso a datos
   - extracción de datos
   - geoespacial
   - comunidad
-  - revista software por pares
+  - Revisión por pares de software
   - censo2017
 description: >
   Tablas del censo chileno al instante.
+params:
+  doi: "10.59350/a2ecx-pek94"
 ---
 
 ## Resumen

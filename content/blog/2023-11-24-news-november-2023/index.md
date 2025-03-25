@@ -8,6 +8,7 @@ slug: news-november-2023
 description: Donate to rOpenSci, Web assembly and R-universe, package news and new packages
 params:
   last_newsletter: "2023-10-20"
+  doi: "10.59350/e961a-yxp83"
 ---
 
 

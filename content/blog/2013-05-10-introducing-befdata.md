@@ -6,6 +6,8 @@ author: Karthik Ram
 tags:
   - packages
   - biodiversity
+params:
+  doi: "10.59350/n396e-zap95"
 ---
 
 *This is a guest post by Class-Thido Pfaff*

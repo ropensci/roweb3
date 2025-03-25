@@ -9,6 +9,7 @@ tags:
 description: Co-working sessions resume; New pkgcheck check; New package and package news
 params:
   last_newsletter: '2022-07-22'
+  doi: "10.59350/mwype-v8n14"
 ---
 
 

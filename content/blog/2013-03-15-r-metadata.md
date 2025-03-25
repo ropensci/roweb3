@@ -6,6 +6,8 @@ author: Scott Chamberlain
 tags:
   - metadata
   - API
+params:
+  doi: "10.59350/k3kr3-q6f96"
 ---
 
 Scholarly metadata - the meta-information surrounding articles - can be super useful.  Although metadata does not contain the full content of articles, it contains a lot of useful information, including title, authors, abstract, URL to the article, etc.

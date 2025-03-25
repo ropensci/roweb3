@@ -7,6 +7,8 @@ tags:
   - gpg
   - crypto
   - tech notes
+params:
+  doi: "10.59350/h84gg-mr646"
 ---
 
 A new package [gpg](https://cran.r-project.org/web/packages/gpg/index.html) has appeared on CRAN. From the package description:

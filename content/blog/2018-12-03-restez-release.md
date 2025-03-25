@@ -19,6 +19,8 @@ tags:
   - molecular biology
   - joss
   - tech notes
+params:
+  doi: "10.59350/v23yy-ft261"
 ---
 
 ## What is `restez`?

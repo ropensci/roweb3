@@ -7,6 +7,8 @@ author:
 tags:
   - community
   - community call
+params:
+  doi: "10.59350/dsz4d-kp080"
 ---
 
 Key to the success of rOpenSci is our community and we want to hear more regularly from our members, and foster new interactions among the group. In addition, community calls are a way for us to give important updates, and get feedback on them.

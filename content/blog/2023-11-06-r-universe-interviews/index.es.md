@@ -6,15 +6,17 @@ author:
   - Yanina Bellini Saibene
 date: '2023-11-06'
 tags:
-  - community
+  - comunidad
   - r-universe
-  - interviews
-  - r-universe-stars
+  - entrevistas
+  - estrellas del universo r
 featured: true
 photogallery: true
 # The summary below will be used 
 description: "En este artículo resumimos las entrevistas de la serie _Conociendo a las estrellas del universo R_, les traemos cinco ejemplos de organizaciones y equipos que eligen el Universo R para facilitar el acceso y promover el intercambio de datos y software en comunidad."
 
+params:
+  doi: "10.59350/a74qt-e1w47"
 ---
 
 El Universo R es utilizado por profesionales de distintos ámbitos, aunque todos persiguen el mismo objetivo: __ofrecer sus paquetes de R de manera simple y accesible__.

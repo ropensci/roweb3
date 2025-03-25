@@ -9,11 +9,13 @@ date: '2021-12-20'
 slug: inclusive-leadership-program
 tags:
   - funding
-  - champions
+  - champions program
   - cscce
   - diversity
   - belonging
 description: Funding for new rOpenSci community champions program for historically excluded groups
+params:
+  doi: "10.59350/7nkx7-k7j42"
 ---
 We are thrilled to have been awarded new funding as part of the Chan Zuckerberg Initiative [Open Science program's](https://czi.co/OpenScience) education and capacity building strategy. This $400K grant will support a new project to enable more members of historically excluded groups to participate in, benefit from, and become leaders in the R, research software engineering, and open source and open science communities. 
 

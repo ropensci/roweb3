@@ -14,6 +14,8 @@ crossposts:
 - name: The Third Bit
   url: https://third-bit.com/2024/09/13/writing-project-labels-revisited/ 
 description: "Greg discusses the challenges of organizing non-software projects in GitHub and shares the label system he uses for technical writing projects like books and lessons."
+params:
+  doi: "10.59350/ks62y-93g15"
 ---
 
 Over the past thirty years I have written [five technical books,

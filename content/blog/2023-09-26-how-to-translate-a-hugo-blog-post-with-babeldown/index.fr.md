@@ -9,6 +9,8 @@ categories: []
 tags:
 - tech notes
 - multilingue
+params:
+  doi: "10.59350/dxva5-pw774"
 ---
 
 Dans le cadre de notre [projet d'édition multilingue](/multilingual-publishing/) et avec un [financement du R Consortium](https://www.r-consortium.org/all-projects/awarded-projects/2022-group-2) nous avons travaillé sur le paquet R [babeldown](https://docs.ropensci.org/babeldown/) pour la traduction de contenu Markdown à l'aide de l'API DeepL.

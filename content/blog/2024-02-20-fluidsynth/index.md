@@ -9,6 +9,8 @@ tags:
   - tech notes
   - music
   - sound
+params:
+  doi: "10.59350/x436c-7vr38"
 ---
 
 A few weeks ago, prof [Matt Crump](https://www.crumplab.com/people/matt_crump.html) wrote a [blog post](https://homophony.quest/blog/32_1_30_24_R_synth/) in which he explores tools to handle MIDI data in R, in preparation for a cognition experiment that involves creating musical stimuli. In the article he ends up using a mix of external command line tools `ffmpeg` and `fluidsynth` and a python module.

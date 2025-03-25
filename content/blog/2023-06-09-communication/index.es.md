@@ -5,11 +5,13 @@ author:
   - Yanina Bellini Saibene
 date: '2023-06-14'
 tags:
-  - community
+  - comunidad
 featured: true
 # The summary below will be used by e.g. Twitter cards
 description: "Anuncio sobre nuestros canales de comunicación. rOpenSci deja de interactuar en Twitter pero puedes encontrarnos en muchos otros espacios."
 
+params:
+  doi: "10.59350/9ayr9-dhe30"
 ---
 
 Tal como [lo anticipamos en noviembre del 2022](/es/blog/2022/11/16/mastodon-es) los cambios aplicados en Twitter han generado un espacio menos seguro y amigable para nuestra comunidad. Es por eso que a partir de _Junio de 2023_, dejaremos de interactuar en esa plataforma. Mantendremos la cuenta con la esperanza de poder volver cuando Twitter vuelva a ser un espacio seguro y solidario, pero mientras tanto centraremos nuestros esfuerzos de comunicación en otros lugares.
