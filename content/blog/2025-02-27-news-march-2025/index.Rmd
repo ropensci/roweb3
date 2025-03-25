@@ -632,7 +632,7 @@ A section of the announcement is dedicated to the [comparison with styler](https
 
 ### IDEs for R package developers
 
-Have you heard of the beta IDE Positron developed by Posit (formerly RStudio)?
+Have you heard of the beta IDE [Positron](https://positron.posit.co/) developed by Posit (formerly RStudio)?
 It might be worth a try, for instance for being able to install Git extensions like GitLens, or for the nice UI for unit tests.
 Note that it's still in beta.
 
