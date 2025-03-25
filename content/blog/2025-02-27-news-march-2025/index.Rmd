@@ -77,7 +77,8 @@ This event also presented the opportunity to meet in person with other members o
 ```
 ### Community Call “Fomentando la Ciencia Abierta en América Latina - Programa de rOpenSci” Resources
 
-All the resources for the community call in Spanish [Fomentando la Ciencia Abierta en América Latina - Programa de rOpenSci](https://ropensci.org/es/commcalls/champions-latino-2025/) are now available on our website.
+All the resources for the community call in Spanish [Fomentando la Ciencia Abierta en América Latina - Programa de rOpenSci](
+  /es/commcalls/champions-latino-2025/) are now available on our website.
 Check the video and links to other resources related to speakers' experience as mentors and mentees in the rOpenSci Champions Program. 
     
 ### Coworking 

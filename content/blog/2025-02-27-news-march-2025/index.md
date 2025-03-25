@@ -10,7 +10,7 @@ description: Call for
 params:
   last_newsletter: '2025-02-27'
   doi: "10.59350/a6syn-6hc72"
-rmd_hash: 264a23ca1c05107d
+rmd_hash: 38da5ecd3465546d
 
 ---
 
@@ -32,19 +32,23 @@ Find out more in our [call for applications](/blog/2025/03/10/champeons-latin-am
 
 ### Better documentation for R-universe!
 
-Thanks to funding by [Google Season of Docs](https://ropensci.org/blog/2024/04/12/gsod-announcement/), we were able to start a new comprehensive documentation project for all users and developers of R-universe. We established a central place where we collect the various sources of information and describe examples and use cases, using popular authoring tools to support collective maintenance.
+Thanks to funding by [Google Season of Docs](/blog/2024/04/12/gsod-announcement/), we were able to start a new comprehensive documentation project for all users and developers of R-universe. We established a central place where we collect the various sources of information and describe examples and use cases, using popular authoring tools to support collective maintenance.
 
-Read more in our [blog post](https://ropensci.org/blog/2025/02/28/r-universe-docs-launch/), read the [documentation website](https://docs.r-universe.org).
+Read more in our [blog post](/blog/2025/02/28/r-universe-docs-launch/), read the [documentation website](https://docs.r-universe.org).
 
-### rOpenSci participation to NumFOCUS's DISC Unconf 2025
+### rOpenSci Participation at NumFOCUS' DISC Unconf 2025
 
-[The NumFocus' Diversity & Inclusion in Scientific Computing ("DISC") Unconf](https://numfocus.github.io/disc-unconference-2025/) took place as a hybrid event in São Paulo, Brazil, from March 14 to 16, 2025. Our community manager, [Yanina Bellini Saibene](/author/yanina-bellini-saibene/), and rOpenSci Champions, [Andrea Gomez Vargas](/author/andrea-gomez-vargas/) and [Liz Hare](/author/liz-hare/), participated.
+[The NumFOCUS Diversity & Inclusion in Scientific Computing ("DISC") Unconf](https://numfocus.github.io/disc-unconference-2025/) took place as a hybrid event in São Paulo, Brazil, from March 14 to 16, 2025. Our community manager, [Yanina Bellini Saibene](/author/yanina-bellini-saibene/), and rOpenSci Champions, [Andrea Gomez Vargas](/author/andrea-gomez-vargas/) and [Liz Hare](/author/liz-hare/), participated.
 
 Read more in our [report from the event](/blog/2025/03/24/numfocus-unconf/).
 
-This event also gave the opportunity to meet in person with other members of the rOpenSci community in Sao Paulo, in the picture we can see [Francesca Palmeira](/francesca-belem-lopes-palmeira/) (rOpenSci Champions), [Andrea Gomez Vargas](/author/andrea-gomez-vargas/) (rOpenSci Champions), [Beatriz Milz](/author/beatriz-milz/) (rOpenSci Editor and Mentor), [Haydee Svab](/author/haydee-svab/) (rOpenSci Champions) and Yanina Bellini Saibene (rOpenSci Community Manager).
+This event also presented the opportunity to meet in person with other members of the rOpenSci community in Sao Paulo, in the picture we can see [Francesca Palmeira](/author/francesca-belem-lopes-palmeira/) (rOpenSci Champions), [Andrea Gomez Vargas](/author/andrea-gomez-vargas/) (rOpenSci Champions), [Beatriz Milz](/author/beatriz-milz/) (rOpenSci Editor and Mentor), [Haydee Svab](/author/haydee-svab/) (rOpenSci Champions) and Yanina Bellini Saibene (rOpenSci Community Manager).
 
 {{< figure src = "rOpenSciBrazil.jpeg" alt = "Francesca, Andrea, Beatriz, Heydee and Yani stand up and smiling for the picture" >}}
+
+### Community Call "Fomentando la Ciencia Abierta en América Latina - Programa de rOpenSci" Resources
+
+All the resources for the community call in Spanish [Fomentando la Ciencia Abierta en América Latina - Programa de rOpenSci](/es/commcalls/champions-latino-2025/) are now available on our website. Check the video and links to other resources related to speakers' experience as mentors and mentees in the rOpenSci Champions Program.
 
 ### Coworking
 
@@ -56,6 +60,7 @@ Read [all about coworking](/blog/2023/06/21/coworking/)!
 -   [Tuesday, 15 April 2025 13:00 UTC](/events/clinica-champions-2025-04/) (**Spanish**) "Clinica de Aplicación para el Programa de Campeon(e\|a)s de rOpenSci" with [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) and [Steffi LaZerte](/author/steffi-lazerte/)
     -   Prepara tu solicitud para el Programa de Campeones.
     -   Conoce a la co-anfitriona Yanina Bellini Saibene para charlar sobre el Programa de Campeones.
+-   Tuesday May 6th 9:00 Australia Western (01:00 UTC), Theme TBA with [Steffi LaZerte](/author/steffi-lazerte/) and cohost TBA.
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
@@ -151,6 +156,12 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 -   [rOpenSci Champions Program 2025: In Spanish!](/blog/2025/03/10/champeons-latin-america) by Yanina Bellini Saibene. The call is open for a new cohort of our Champions Program with a focus on Latin America. Apply. Other languages: <a href='/es/blog/2025/03/10/campeones-america-latina' lang='es'>Nueva cohorte del Programa de Campeon(a\|e)s rOpenSci (es)</a>.
 
+-   [Template To Handle Code of Conduct Incidents Reports](/blog/2025/03/20/coc-incident-template) by Natalia Morandeira and Yanina Bellini Saibene. Learn how rOpenSci's template provides a structured approach to effectively and confidentially analyze Code of Conduct incident reports.
+
+-   [rOpenSci Code of Conduct Annual Review](/blog/2025/03/21/conduct2024) by Yanina Bellini Saibene, Mark Padgham, and Natalia Morandeira. Updates for version 2.5 of rOpenSci's Code of Conduct.
+
+-   [rOpenSci Participation at NumFOCUS' DISC Unconf](/blog/2025/03/24/numfocus-unconf) by Yanina Bellini Saibene. Report of rOpenSci participation at the NumFOCUS hybrid unconference.
+
 </div>
 
 ## Calls for contributions
@@ -195,18 +206,18 @@ Compared to styler, Air offers much less customization, but is much faster. A se
 
 ### IDEs for R package developers
 
-Have you heard of the beta IDE Positron developed by Posit (formerly RStudio)? It might be worth a try, for instance for being able to install Git extensions like GitLens, or for the nice UI for unit tests. Note that it's still in beta.
+Have you heard of the beta IDE [Positron](https://positron.posit.co/) developed by Posit (formerly RStudio)? It might be worth a try, for instance for being able to install Git extensions like GitLens, or for the nice UI for unit tests. Note that it's still in beta.
 
 Other IDEs popular in the R community are
 
--   The precursor of Positron developped by Posit: [RStudio](https://docs.posit.co/ide/user/) that Posit said will still be maintained;
+-   The precursor of Positron developed by Posit: [RStudio](https://docs.posit.co/ide/user/) that Posit said will still be maintained;
 -   The cousins of Positron [VSCodium](https://vscodium.com/) or [VSCode](https://code.visualstudio.com/) with the [R Extension](https://open-vsx.org/extension/REditorSupport/r). Positron is a fork of VSCode like VSCodium, therefore its interface will be familiar to VSCode or VSCodium users.
 -   [Neovim](https://github.com/R-nvim/R.nvim)
 -   [ESS](https://github.com/MilesMcBain/esscss)
 
 ### Penguins data in base R!
 
-Looking for a dataset for tests or docs, available in base R? The penguins dataset is [coming](https://developer.r-project.org/blosxom.cgi/R-devel/NEWS/2025/02/22) to the base R datasets package! Thanks to to Ella Kaye, Heather Turner, and Kristen Gorman for their work on this.
+Looking for a dataset for tests or docs, available in base R? The penguins dataset, originally from the [palmerpenguins](https://allisonhorst.github.io/palmerpenguins/) package, is [coming](https://developer.r-project.org/blosxom.cgi/R-devel/NEWS/2025/02/22) to the base R datasets package! Thanks to to Ella Kaye, Heather Turner, and Kristen Gorman for their work on this.
 
 ### Git Stash for Newbies
 
