@@ -2,7 +2,7 @@
 title: "Supporting rOpenSci Mentors with Practical Tools"
 author: 
 - Yanina Bellini Saibene
-date: "2024-04-08"
+date: "2025-04-08"
 slug: "mentoring-tools"
 editor:
 - Steffi LaZerte
