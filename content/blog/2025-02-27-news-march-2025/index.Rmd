@@ -638,7 +638,7 @@ Note that it's still in beta.
 
 Other IDEs popular in the R community are
 
-- The precursor of Positron developped by Posit: [RStudio](https://docs.posit.co/ide/user/) that Posit said will still be maintained;
+- The precursor of Positron developed by Posit: [RStudio](https://docs.posit.co/ide/user/) that Posit said will still be maintained;
 - The cousins of Positron [VSCodium](https://vscodium.com/) or [VSCode](https://code.visualstudio.com/) with the [R Extension](https://open-vsx.org/extension/REditorSupport/r). Positron is a fork of VSCode like VSCodium, therefore its interface will be familiar to VSCode or VSCodium users.
 - [Neovim](https://github.com/R-nvim/R.nvim)
 - [ESS](https://github.com/MilesMcBain/esscss)
@@ -646,7 +646,7 @@ Other IDEs popular in the R community are
 ### Penguins data in base R!
 
 Looking for a dataset for tests or docs, available in base R?
-The penguins dataset is [coming](https://developer.r-project.org/blosxom.cgi/R-devel/NEWS/2025/02/22) to the base R datasets package!
+The penguins dataset, originally from the [palmerpenguins](https://allisonhorst.github.io/palmerpenguins/) package, is [coming](https://developer.r-project.org/blosxom.cgi/R-devel/NEWS/2025/02/22) to the base R datasets package!
 Thanks to to Ella Kaye, Heather Turner, and Kristen Gorman for their work on this.
 
 ### Git Stash for Newbies
