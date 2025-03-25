@@ -1,0 +1,56 @@
+{{ with .divider }}
+  {{ partial "whole-page-fragments/divider" . }}
+{{ end }}
+    <!-- Community section -->
+    <section class="section community">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="title" id="champions">Champions Program</h2>
+            <p class="subtitle">
+              The rOpenSci Champions Program is for people from historically and systematically excluded groups who are interested in contributing to rOpenSci and the broader open source and open science communities.
+            </p>
+            <a class="link-arrow" href="/champions"><span>Find out more</span></a>
+          </div>
+          <div class="col-md-6">
+             <img src="{{ "images/pexels-photo-127016.jpeg" | relURL }}" alt="A bike." /> 
+          </div>
+        </div>
+        <div class="row soft-cards cards">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Champions</h5>
+                <p class="card-text">
+                  Meet the cohorts.
+                </p>
+                <a class="card-link link-arrow" href="/champions#champions-list"><span>Champions of all cohorts</span></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Program's website</h5>
+                <p class="card-text">
+                  Program's website (Spanish)
+                </p>
+                <a class="card-link link-arrow" lang="es" href="https://ropenscilabs.github.io/ChampionsProgram/"><span>Posts</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Training</h5>
+                <p class="card-text">
+                  Training sessions from the champions' program and beyond. 
+                </p>
+                <a class="card-link link-arrow" href="/training/"><span>Read</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>

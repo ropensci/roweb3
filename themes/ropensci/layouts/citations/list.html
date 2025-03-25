@@ -74,5 +74,7 @@
 {{ partial "datatables/scripts" ( dict "id" "papers" "col" 1 "order" "desc" "search" true )  }}
       </div>
     </section>
-{{ partial "whole-page-fragments/newsletter"  (dict "divider" "lr" ) }}
+
+{{ $newsletterpartial := (partial "translate-path" (dict "name" "whole-page-fragments/newsletter" "language" .Site.Language.Lang )) }}
+{{ partial $newsletterpartial (dict "Site" .Site "divider" "lr" )  }}
 {{ end }}
