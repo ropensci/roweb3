@@ -1,5 +1,5 @@
 ---
-title: 'rOpenSci Participation at NumFOCUS’ DISC Unconf'
+title: 'NumFOCUS’ DISC Unconf'
 dateStart: '2025-03-14T12:00:00'
 dateEnd: '2025-03-16T21:30:00'
 date: 2025-03-16T21:30:00 # UTC!! same as dateEnd
