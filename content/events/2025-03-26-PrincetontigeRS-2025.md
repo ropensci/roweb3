@@ -4,7 +4,7 @@ dateStart: '2025-03-26T16:15:00'
 dateEnd: '2025-03-26T17:15:00'
 date: 2025-03-26T17:15:00 # UTC!! same as dateEnd
 description: "Noam Ross is an invited speaker of the The Princeton R Group (“Princeton tigeRs”) to share about rOpenSci and Software Peer Review"
-location: ''
+location: 'Princeton'
 country: "🌐" # emoji
 slug: "RUG-Princeton-2025"
 ropensci: no
