@@ -10,7 +10,7 @@ description: Call for
 params:
   last_newsletter: '2025-02-27'
   doi: "10.59350/a6syn-6hc72"
-rmd_hash: 1b82473b28ce9779
+rmd_hash: 509277625746f782
 
 ---
 
@@ -76,15 +76,15 @@ The following five packages recently became a part of our software suite:
 
 <div class='highlight'>
 
--   [saperlipopette](https://docs.ropensci.org/saperlipopette), developed by Maëlle Salmon: Holds functions creating Git messes, that users would then solve, to follow <https://ohshitgit.com/>.
-
--   [geotargets](https://docs.ropensci.org/geotargets), developed by Nicholas Tierney together with Eric Scott and Andrew Brown: Provides extensions for various geographic spatial file formats, such as shape files and rasters. Currently provides support for the terra geographic spatial formats. See the vignettes for worked examples, demonstrations, and explanations of how to use the various package extensions. It has been [reviewed](https://github.com/ropensci/software-review/issues/675) by Anthony Martinez and Denisse Fierro Arcos.
-
--   [mapmetadata](https://docs.ropensci.org/mapmetadata), developed by Rachael Stickland: Prior to gaining full access to health datasets, explore publicly available metadata and map metadata onto predefined research domains. This package uses structural metadata files downloaded from the Health Data Research Gateway (<https://healthdatagateway.org/en>). In theory, any metadata file with the same structure as the files downloaded from this gateway can be used with this package, but the package has been developed and tested on metadata files from this gateway only. It has been [reviewed](https://github.com/ropensci/software-review/issues/674) by Zoë Turner and Yohann Mansiaux.
+-   [pangoling](https://docs.ropensci.org/pangoling), developed by Bruno Nicenboim: Provides access to word predictability estimates using large language models (LLMs) based on transformer architectures via integration with the Hugging Face ecosystem. The package interfaces with pre-trained neural networks and supports both causal/auto-regressive LLMs (e.g., GPT-2; Radford et al., 2019) and masked/bidirectional LLMs (e.g., BERT; Devlin et al., 2019, <doi:10.48550/arXiv.1810.04805>) to compute the probability of words, phrases, or tokens given their linguistic context. By enabling a straightforward estimation of word predictability, the package facilitates research in psycholinguistics, computational linguistics, and natural language processing (NLP). It has been [reviewed](https://github.com/ropensci/software-review/issues/575) by Lisa Levinson and Utku Turk.
 
 -   [mbquartR](https://docs.ropensci.org/mbquartR), developed by Alex Koiter: This package has four main functions: 1) download the Manitoba Original Survey Legal Descriptions data set; 2) find the coordinates of a quarter sections given the legal land description (e.g., "NE-11-33-29W"); 3) find the legal land description using coordinates (lat and long); and 4) plot these points on a map. It has been [reviewed](https://github.com/ropensci/software-review/issues/658) by Emily H Markowitz and Sheila Saia.
 
--   [pangoling](https://docs.ropensci.org/pangoling), developed by Bruno Nicenboim: Provides access to word predictability estimates using large language models (LLMs) based on transformer architectures via integration with the Hugging Face ecosystem. The package interfaces with pre-trained neural networks and supports both causal/auto-regressive LLMs (e.g., GPT-2; Radford et al., 2019) and masked/bidirectional LLMs (e.g., BERT; Devlin et al., 2019, <doi:10.48550/arXiv.1810.04805>) to compute the probability of words, phrases, or tokens given their linguistic context. By enabling a straightforward estimation of word predictability, the package facilitates research in psycholinguistics, computational linguistics, and natural language processing (NLP). It has been [reviewed](https://github.com/ropensci/software-review/issues/575) by Lisa Levinson and Utku Turk.
+-   [mapmetadata](https://docs.ropensci.org/mapmetadata), developed by Rachael Stickland: Prior to gaining full access to health datasets, explore publicly available metadata and map metadata onto predefined research domains. This package uses structural metadata files downloaded from the Health Data Research Gateway (<https://healthdatagateway.org/en>). In theory, any metadata file with the same structure as the files downloaded from this gateway can be used with this package, but the package has been developed and tested on metadata files from this gateway only. It has been [reviewed](https://github.com/ropensci/software-review/issues/674) by Zoë Turner and Yohann Mansiaux.
+
+-   [geotargets](https://docs.ropensci.org/geotargets), developed by Nicholas Tierney together with Eric Scott and Andrew Brown: Provides extensions for various geographic spatial file formats, such as shape files and rasters. Currently provides support for the terra geographic spatial formats. See the vignettes for worked examples, demonstrations, and explanations of how to use the various package extensions. It has been [reviewed](https://github.com/ropensci/software-review/issues/675) by Anthony Martinez and Denisse Fierro Arcos.
+
+-   [saperlipopette](https://docs.ropensci.org/saperlipopette), developed by Maëlle Salmon: Holds functions creating Git messes, that users would then solve, to follow <https://ohshitgit.com/>.
 
     </div>
 

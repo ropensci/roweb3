@@ -176,6 +176,7 @@ The following `r if(nrow(new)>1) english(nrow(new))` package`r if(nrow(new)>1) "
 
 ```{r, results='asis', cache = TRUE,eval=TRUE}
 packages <- split(new, seq(nrow(new)))
+packages <- rev(packages)
 present_one <- function(package) {
   url_parts <- urltools::url_parse(package$url)
   desc_link <- gh::gh(
