@@ -6,7 +6,7 @@ author:
 date: '2025-03-27'
 tags:
   - newsletter
-description: Call for 
+description: Call open for champions program in Spanish, R-universe docs, coworking, new packages and package news
 params:
   last_newsletter: '2025-02-27'
   doi: "10.59350/a6syn-6hc72"
