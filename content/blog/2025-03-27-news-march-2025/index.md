@@ -10,7 +10,7 @@ description: Call for
 params:
   last_newsletter: '2025-02-27'
   doi: "10.59350/a6syn-6hc72"
-rmd_hash: 38da5ecd3465546d
+rmd_hash: 1b82473b28ce9779
 
 ---
 
@@ -152,6 +152,10 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 <div class="highlight">
 
+### Software Review
+
+-   [Software Review, Perspectives from an Academic](/blog/2025/03/25/r-package-review) by Alex Koiter. Comparing rOpenSci peer review to traditional academic reviews. Other languages: <a href='/es/blog/2025/03/25/r-package-review' lang='es'>Revisión del software, perspectivas de un académico (es)</a>.
+
 -   [Better documentation for R-universe!](/blog/2025/02/28/r-universe-docs-launch) by Maëlle Salmon, Jeroen Ooms, and Noam Ross. We are excited to announce that R-Universe now has a documentation website thanks to Google Season of Docs.
 
 -   [rOpenSci Champions Program 2025: In Spanish!](/blog/2025/03/10/champeons-latin-america) by Yanina Bellini Saibene. The call is open for a new cohort of our Champions Program with a focus on Latin America. Apply. Other languages: <a href='/es/blog/2025/03/10/campeones-america-latina' lang='es'>Nueva cohorte del Programa de Campeon(a\|e)s rOpenSci (es)</a>.
@@ -163,6 +167,26 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 -   [rOpenSci Participation at NumFOCUS' DISC Unconf](/blog/2025/03/24/numfocus-unconf) by Yanina Bellini Saibene. Report of rOpenSci participation at the NumFOCUS hybrid unconference.
 
 </div>
+
+## Use cases
+
+<div class="highlight">
+
+</div>
+
+Three use cases of our packages and resources have been reported since we sent the last newsletter.
+
+<div class='highlight'>
+
+-   [Visualizing Highways, Toll Booths with {ggplot2} in R with {osmextract}](https://discuss.ropensci.org/t/visualizing-highways-toll-booths-with-ggplot2-in-r-with-osmextract/4181). Reported by Aditya Dahiya.
+
+-   [Combining with Population Density Rasters with OSM data in R with {sf}, {osmextract} and {ggplot2}](https://discuss.ropensci.org/t/combining-with-population-density-rasters-with-osm-data-in-r-with-sf-osmextract-and-ggplot2/4182). Reported by Aditya Dahiya.
+
+-   [Translating course to Spanish and French](https://discuss.ropensci.org/t/translating-course-to-spanish-and-french/4207). Reported by Yann Say.
+
+    </div>
+
+Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)!
 
 ## Calls for contributions
 

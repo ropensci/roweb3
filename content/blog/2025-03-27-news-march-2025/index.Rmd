@@ -583,7 +583,40 @@ if (length(tech_notes) > 0) {
 }
 ```
 
+## Use cases
 
+```{r usecases}
+# rerun get_use_cases.R at the same time
+usecases <- jsonlite::read_json("../../../data/usecases/usecases.json")
+get_one_case <- function(usecase) {
+  tibble::tibble(
+    title = usecase$title,
+    reporter = usecase$reporter,
+    url = usecase$url,
+    image = usecase$image,
+    date = anytime::anydate(usecase$date)
+  )
+}
+usecases <- purrr::map_df(usecases, get_one_case)
+usecases <- dplyr::filter(usecases, date >= as.Date(last_newsletter))
+usecases <- split(usecases, seq(nrow(usecases)))
+```
+
+`r snakecase::to_sentence_case(english(length(usecases)))` use case`r if (length(usecases) > 1) "s"` of our packages and resources ha`r if (length(usecases) > 1) "ve" else "s"` been reported since we sent the last newsletter.
+
+```{r usecases2, results='asis'}
+format_case <- function(usecase) {
+  string <- sprintf("* [%s](%s). Reported by %s.", sub("\\.$", "", usecase$title), usecase$url, usecase$reporter)
+}
+cat(
+  paste0(
+    purrr::map_chr(usecases, format_case),
+    collapse = "\n\n"
+  )
+)
+```
+
+Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)!
 
 ## Calls for contributions
 
