@@ -1,12 +1,12 @@
 ---
 slug: commcall-programa-2025
-title: 'Punto de partida: primera Conversaciones con la Comunidad del programa de Campeon(a|e)s en español'
+title: "Punto de partida: primera Conversaciones con la Comunidad del programa de Campeon(a|e)s en español""
 author: Yanina Bellini Saibene
 editor: Alejandra Bellini
 date: '2025-04-03'
 tags:
-- community
-- champions
+- comunidad
+- programa de campeones
 description: "En esta primera Conversaciones con la Comunidad del programa de Campeon(a|e)s en español, compartimos las experiencias de participantes latinoamericanos del programa."
 params:
   doi: ""
