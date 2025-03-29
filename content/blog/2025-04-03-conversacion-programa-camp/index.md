@@ -1,6 +1,6 @@
 ---
 slug: commcall-programa-2025
-title: "Punto de partida: primera Conversaciones con la Comunidad del programa de Campeon(a|e)s en español""
+title: "Punto de partida: primera Conversaciones con la Comunidad del programa de Campeon(a|e)s en español"
 author: Yanina Bellini Saibene
 editor: Alejandra Bellini
 date: '2025-04-03'
@@ -12,15 +12,17 @@ params:
   doi: ""
 ---
 
-_Encontrarse para compartir conocimiento, crear comunidad y generar nuevos proyectos._ Así se presentó el programa de Campeon(a|e)s en la primera "Conversaciones con la comunidad" en español que se realizó el 12 de marzo de 2025 y en el que participaron aspirantes de distintos países como Argentina, México, Uruguay, Colombia, Peru y Estados Unidos.
+## Encontrarse para compartir conocimiento, crear comunidad y generar nuevos proyectos. 
 
-> Les doy la bienvenida a esta conversación con la Comunidad sobre fomentar la ciencia abierta en América Latina por medio del programa de campeonas y campeones de rOpenSci”, 
+Así se presentó el programa de Campeon(a|e)s en la primera "Conversaciones con la comunidad" en español que se realizó el 12 de marzo de 2025 y en el que participaron aspirantes de distintos países como Argentina, México, Uruguay, Colombia, Perú, Chile y Estados Unidos.
+
+> Les doy la bienvenida a esta conversación con la Comunidad sobre fomentar la ciencia abierta en América Latina por medio del programa de campeonas y campeones de rOpenSci.
 
 con esas palabras Yanina Bellini Saibene, _Community Manager_ de rOpenSci, recibió a todas las personas presentes para sintetizar el objetivo general del programa: 
 
-> “Está diseñado para identificar, reconocer y recompensar a aquellas personas líderes emergentes de una comunidad.”
+> Está diseñado para identificar, reconocer y recompensar a aquellas personas líderes emergentes de una comunidad.
 
-Las experiencias siempre son un buen ejemplo del funcionamiento de un programa y por eso, se invitó a dos campeon(a|e)s y un mentor de distintas cohortes del programa: [Andrea Gomez Vargas], [Cesar Luis Aybar Camacho] y [Francisco Cardozo].
+Las experiencias siempre son un buen ejemplo del funcionamiento de un programa y por eso, se invitó a dos campeon(a|e)s y un mentor de distintas cohortes del programa: [Andrea Gomez Vargas](/es/author/andrea-gomez-vargas/), [Cesar Luis Aybar Camacho](/es/author/cesar-luis-aybar-camacho/) y [Francisco Cardozo](/es/author/francisco-cardozo/).
 
 
 Francisco fue el primero en hablar y poner en contexto su exposición. Explicó que la realidad que están viviendo en Estados Unidos, lugar donde reside actualmente, pone de relieve la importancia de proyectos y comunidades como la de rOpenSci para resguardar la información y generar lugares seguros de intercambio y manejo de datos.
