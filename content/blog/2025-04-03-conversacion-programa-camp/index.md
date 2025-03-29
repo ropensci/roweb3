@@ -24,22 +24,38 @@ con esas palabras Yanina Bellini Saibene, _Community Manager_ de rOpenSci, recib
 
 Las experiencias siempre son un buen ejemplo del funcionamiento de un programa y por eso, se invitó a dos campeon(a|e)s y un mentor de distintas cohortes del programa: [Andrea Gomez Vargas](/es/author/andrea-gomez-vargas/), [Cesar Luis Aybar Camacho](/es/author/cesar-luis-aybar-camacho/) y [Francisco Cardozo](/es/author/francisco-cardozo/).
 
+## Experiencias en primera persona
 
-Francisco fue el primero en hablar y poner en contexto su exposición. Explicó que la realidad que están viviendo en Estados Unidos, lugar donde reside actualmente, pone de relieve la importancia de proyectos y comunidades como la de rOpenSci para resguardar la información y generar lugares seguros de intercambio y manejo de datos.
+_Francisco_ fue el primero en hablar y poner en contexto su exposición. Explicó que la realidad que están viviendo en Estados Unidos, lugar donde reside actualmente, pone de relieve la importancia de proyectos y comunidades como la de rOpenSci para resguardar la información y generar lugares seguros de intercambio y manejo de datos.
 
-> “Lo primero que les quería decir es que participar en este tipos de programas es una forma en la que nosotros podemos, de alguna manera, contribuir a que información como ésta, de alta importancia para la ciencia y la toma de decisiones, siga estando viva, siga siendo utilizada y siga disponible para la investigación”
+> Lo primero que les quería decir es que participar en este tipos de programas es una forma en la que nosotros podemos, de alguna manera, contribuir a que información como ésta, de alta importancia para la ciencia y la toma de decisiones, siga estando viva, siga siendo utilizada y siga disponible para la investigación.
 
-Así sintetizó Francisco la importancia del programa. Además, compartió información sobre un proyecto que desarrolló sobre las conexiones entre paquete de R, relacionandolo con la posibilidad que brindan estos programas de conectarse con una comunidad internacional de primera mano, y por ende, tener acceso a más posibilidades de colaboración y participación.
+Así sintetizó Francisco la importancia del programa. Además, compartió información sobre un proyecto que desarrolló sobre las conexiones entre paquete de R y las redes entre sus autores, relacionandolo con la posibilidad que brindan estos programas de conectarse con una comunidad internacional de primera mano, y por ende, tener acceso a más posibilidades de colaboración y participación.
 
-En la misma línea, Andrea explicó la importancia de trabajar en el paquete estadístico a través del concepto de “backup”: 
+{{< gallery >}}
+{{< figureforgallery src="Francisco-red.png" alt="Shiny App mostrando un analisis de redes de dependencias de paquetes" >}}
+{{< figureforgallery src="Francisco-package.png" alt="Francisco compartiendo la pantalla con la web del paquete de R dissertationData de Catalina" >}}
+{{< /gallery >}}
+
+En la misma línea, _Andrea_ explicó la importancia de trabajar en el paquete que contiene datos y estadísticas a través del concepto de “backup”: 
 
 > “Pueden pasar estas historias que dice Francisco, se cae la página o te sacan los datos, y ya no tienes acceso o disponibilidad del dato, dejamos de tener información pública, información disponible, información que nos impide una política pública o proyecto (…) En ese momento no había caído del impacto que podía llegar a tener el proyecto”.
 
-Y por eso, Andrea quiso motivar a los presentes a que postulen sus trabajos y propuestas, con la idea que tengan o en el ámbito que se desarrollen porque el impacto que pueden tener es muy importantes y a veces ni siquiera se ve al comienzo. Resaltó la importancia de seguir a pesar de las dudas y obstáculos que surgen en el camino, aprender de esas situaciones y buscar apoyo en la comunidad.
+Y por eso, Andrea quiso motivar a los presentes a que postulen sus trabajos y propuestas, con la idea que tengan o en el ámbito que se desarrollen porque el impacto que pueden tener es muy importantes y a veces ni siquiera se ve al comienzo. Resaltó la importancia de seguir a pesar de las _crisis_, aprender de las mismas y buscar apoyo en la comunidad.
+
+{{< gallery >}}
+{{< figureforgallery src="arcenso-website.png" alt="Sitio web packagedown del paquete arcenso desarrollado por Andrea como su proyecto en el programa de campeones" >}}
+{{< figureforgallery src="andrea-arcenso.jpg" alt="Andrea presentando funciones del paquete arcenso en persona en una reunion de RenBaires" >}}
+{{< /gallery >}}
 
 A su turno, César explicó cómo formar parte de la comunidad y participar del programa, le permitió conocer herramientas que le brindaron conocimiento relevante para ahorrar tiempo y recursos. Su aprendizaje estuvo más centrado en el perfeccionamiento y mejora de sus paquetes y procesos: 
 
 > “En mi experiencia, he aprendido mucho, ahora si quiero desarrollar un paquete nuevo, creo que me tomaría un par de horas y antes me hubiera tomado semanas”.
+
+{{< gallery >}}
+{{< figureforgallery src="cesar.png" alt="Cesar comnpartiendo su experiencia en el programa durante la community call" >}}
+{{< figureforgallery src="rgeeEstra.png" alt="Readme del paquete rgeeExtra desarrollado durante el programa de campeones" >}}
+{{< /gallery >}}
 
 Tanto César como Andrea destacaron la importancia del acompañamiento de sus mentores, que les permitió avanzar en sus proyectos y aprender de la experiencia de otras personas.
 
