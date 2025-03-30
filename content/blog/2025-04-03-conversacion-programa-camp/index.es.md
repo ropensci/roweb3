@@ -6,10 +6,10 @@ editor: Alejandra Bellini
 date: '2025-04-03'
 tags:
 - comunidad
-- programa de campeones
+- campeones
 description: "En esta primera Conversaciones con la Comunidad del programa de Campeon(a|e)s en español, compartimos las experiencias de participantes latinoamericanos del programa."
 params:
-  doi: ""
+  doi: "10.59350/sy2ve-yve53"
 ---
 
 ## Encontrarse para compartir conocimiento, crear comunidad y generar nuevos proyectos. 
