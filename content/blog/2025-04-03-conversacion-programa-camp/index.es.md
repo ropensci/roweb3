@@ -59,13 +59,13 @@ A su turno, César explicó cómo formar parte de la comunidad y participar del 
 
 Tanto César como Andrea destacaron la importancia del acompañamiento de sus mentores, que les permitió avanzar en sus proyectos y aprender de la experiencia de otras personas.
 
-Luego, en el espacio de preguntas y respuestas, Yanina contestó las principales dudas para participar del programa. Las consultas más comunes se pueden ver en [esta sección de preguntas frecuentes]() de la [web del programa de Campeon(a|e)s](). 
+Luego, en el espacio de preguntas y respuestas, Yanina contestó las principales dudas para participar del programa. Las consultas más comunes se pueden ver en [esta sección de preguntas frecuentes](https://ropenscilabs.github.io/ChampionsProgram/resources/faq.html) de la [web del programa de Campeon(a|e)s](). 
  
-El [video de esta reunión está disponible en el canal de Vimeo de rOpenSci en español]() y también estan disponibles todas las [notas colaborativas tomadas durante el encuentro, las respuestas a las preguntas, los recursos compartidos y los comentarios de los participantes]().
+El [video de esta reunión está disponible en el canal de Vimeo de rOpenSci en español]() y también estan disponibles todas las [notas colaborativas tomadas durante el encuentro, las respuestas a las preguntas, los recursos compartidos y los comentarios de los participantes](https://ropenscilabs.github.io/ChampionsProgram/).
  
 ## Lo que viene
 
-En la reunión se invitó a los participantes a un próximo encuentro de dos horas, el próximo 15 de abril. En ese tiempo podrán revisar las dudas sobre las aplicaciones y las ideas que quieren presentar junto a Yanina Bellini Saibene. En esta Clínica de aplicación también tendran posibilidad de trabajar sobre la aplicación tanto para mentores-as como para campeones-as. 
+En la reunión se [invitó a los participantes a un próximo encuentro de dos horas, el próximo 15 de abril](/events/clinica-champions-2025-04/). En ese tiempo podrán revisar las dudas sobre las aplicaciones y las ideas que quieren presentar junto a Yanina Bellini Saibene. En esta [Clínica de aplicación](/events/clinica-champions-2025-04/) también tendran posibilidad de trabajar sobre la aplicación tanto para mentores-as como para campeones-as. 
 
 En caso de que alguien quiera coordinar una reunión previa, pueden hacerlo a través del mail: info@ropensci.org
 
