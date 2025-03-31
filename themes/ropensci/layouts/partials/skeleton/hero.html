@@ -7,7 +7,7 @@
               >
                         {{ range first 1 ( where .Site.RegularPages.ByPublishDate.Reverse "Type" "in" .Site.Params.blogs ) }}
           <a href="{{ .Permalink }}"
-                >{{ .Title }}</a
+                >{{ .Title | markdownify }}</a
               >
           {{ end }}
               
