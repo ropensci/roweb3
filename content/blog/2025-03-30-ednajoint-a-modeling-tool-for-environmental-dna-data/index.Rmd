@@ -78,7 +78,7 @@ detection_calculate(goby_fit$model, mu = c(0.1, 0.5, 1),
 
 ## Call to action
 
-While I certainly have received a lot of help along the way (see acknowledgements below), the development of this package has been largely a solo endeavor. While this independence has been empowering, if the software were to grow, I would likely need some more hands on deck. I have many ideas for expansion, and any potential collaboration could take multiple forms. 
+While I certainly have received a lot of help along the way (see acknowledgements below), the development of this package has been largely a solo endeavor. While this independence has been empowering, if the software were to grow, I would likely need some more hands on deck. I have many ideas for expansion, and any potential collaborations could take multiple forms. 
 
 **Are you familiar with Stan?** Growth could come from further developing the code; for example, the package currently does not handle some missing data in a way that is optimal.
 
