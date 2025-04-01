@@ -58,7 +58,7 @@ goby_fit <- joint_model(data = goby_data, cov = c("Filter_time", "Salinity"),
 
 And then this model fit can be accessed to do things like summarize the
 posterior distribution for the probability of a false positive
-detection, $p_{10}$:
+detection, *p<sub>10</sub>*
 
 ```{r example_2}
 # summarize p10 posterior
