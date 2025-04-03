@@ -26,9 +26,9 @@ In their applications Champions choose to develop a new package or to participat
 
 - **Francesca Belem Lopes Palmeira**, from Brazil, plans to develop a new package called 'Potential for Conflict Index - PCI', which is a descriptive statistical method used to enhance the understanding of outcomes in human dimensions research. The package will equip users with the tools required for calculating, comparing, and graphing the potential for conflict. Her mentor is Bruna Wundervald from Brazil. 
 
-- **Sunny Tseng**, from Taiwan, developed 'bbsTaiwan', a package to streamline Taiwan BBS data retrieval and analysis. 'bbsTrim' will support data retrieval from GBIF, where Taiwan BBS data is stored. 'bbsTrim' will also include population trend modeling, using TRIM (Trends and Indices for Monitoring data). Users can tailor species analysis, controlling data stratification, preparation, and modeling.
+- **Sunny Tseng**, from Taiwan, developed [bbsTaiwan](), a package to streamline Taiwan BBS data retrieval and analysis. 'bbsTrim' will support data retrieval from GBIF, where Taiwan BBS data is stored. 'bbsTrim' will also include population trend modeling, using TRIM (Trends and Indices for Monitoring data). Users can tailor species analysis, controlling data stratification, preparation, and modeling.
 
-- **Erika Siregar**, from Indonesia, will work on developing rplaywright an R package seamlessly bridging to Playwright, simplifying web testing and automation for R users. Her mentor is Apoor Anand from India. 
+- **Erika Siregar**, worked on developing rplaywright an R package seamlessly bridging to Playwright, simplifying web testing and automation for R users. Her mentor is Apoor Anand from India. 
 
 - **Jacqui Levy**, from Canada, will develop the ‘icicle’ package to tidy and calculate ice cycle variables from thousands of open-source hydrological stations that are managed by the Water Survey of Canada. This R package will give scientists the tools to assess ice cycle variables and how they might be changing over time for any river station. Her mentor is Jonathan Keane, from the US.
 
