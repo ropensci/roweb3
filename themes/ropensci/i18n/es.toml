@@ -160,6 +160,9 @@
   other = 'Co-fundador'
 
 [staff]
+  other = 'staff'
+
+[Staff]
   other = 'Staff'
   
 [researcher]
@@ -303,9 +306,6 @@
 
 [Use-Cases]
   other = 'Casos de uso'
-
-[People]
-  other = 'Equipo'
   
 [Lead]
   other = 'Líder'
