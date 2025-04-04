@@ -121,6 +121,12 @@
       "developer",
       "editor"
    ],
+   "participates": [
+     "champions",
+     "software-review",
+     "multilingual-publishing",
+     "r-universe"
+   ],
    "generalreview": true,
    "mastodon": "https://mastodon.social/@maelle",
    "github": "maelle",

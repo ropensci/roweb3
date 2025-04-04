@@ -300,3 +300,9 @@
   
 [How]
   other = 'How'
+  
+[People]
+  other = 'People'
+  
+[Lead]
+  other = 'Lead'
