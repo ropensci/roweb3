@@ -16,6 +16,7 @@ tags:
 package_version: 0.3.1
 socialImg: blog/2025-03-30-ednajoint-a-modeling-tool-for-environmental-dna-data/eDNAjoint_logo.png
 socialAlt: eDNAjoint logo.
+description: A look at the new eDNAjoint package for joint modelling of eDNA and traditional species survey methods.
 editor: Steffi LaZerte
 params: 
   doi: "10.59350/qmd7j-7e427"
