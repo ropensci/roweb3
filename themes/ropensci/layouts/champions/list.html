@@ -9,6 +9,7 @@
             </div>
         <div class="col-lg-4 mt-4">
             <aside>
+              {{ partial "team/people" (dict "project" "champions" "Site" .Site )}}
               {{ $data := index .Site.Data .Site.Language.Lang }}
               {{ range $data.resources.champions }}
                 <a href="{{ .url }}" class="arrow-card"><i class="fa-{{ .icon }} pr-2"></i>{{ .title }}</a> {{ end }}
