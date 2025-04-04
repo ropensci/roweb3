@@ -2,7 +2,7 @@
     {{ $leaders := (shuffle (where .Site.Data.team.team "leads" "intersect" (slice .project)))}}
     {{ $team := (shuffle (where .Site.Data.team.team "participates" "intersect" (slice .project)))}}
     {{$pages := .Site.Pages.ByPublishDate.Reverse}}
-    <h4>{{ i18n "People" }}</h4>
+    <h4>{{ i18n "Staff" }}</h4>
     {{ range $leaders}}
     {{ $thispage := first 1 (where $pages ".Params.name" .name) }}
     {{ range $thispage }}<a href="{{ .RelPermalink }}" class="author">{{ end }}
