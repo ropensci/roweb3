@@ -17,7 +17,7 @@
         {{ if and ( ge (.Date).Local now.Local ) ( isset .Params "deets" ) }}
         <div class="event-detail-calendar">
             <div class="row justify-content-between">
-              <div class="col">
+              <div class="col-auto mr-auto">
                 <p>
                   🕓 <strong>{{ (time .Params.dateStart).UTC | dateFormat "Monday" }} {{ (time .Params.dateStart).UTC |
                     dateFormat ":date_medium" }} {{ (time .Params.dateStart).UTC | dateFormat "15:04 MST" }}</strong>
@@ -30,7 +30,7 @@
                   </p>
                     {{ end }}
               </div>
-              <div class="col">
+              <div class="col-auto">
                   {{ if ge (time .Params.dateEnd).Local now.Local }}
                   {{ with .Params.deets }}
                   <a data-toggle="collapse" href="#zoominfo" role="button" aria-expanded="false"
