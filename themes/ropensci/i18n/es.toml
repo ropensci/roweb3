@@ -304,3 +304,9 @@
 [Use-Cases]
   other = 'Casos de uso'
 
+[People]
+  other = 'Equipo'
+  
+[Lead]
+  other = 'Líder'
+
