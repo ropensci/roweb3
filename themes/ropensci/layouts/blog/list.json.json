@@ -30,7 +30,6 @@
 				{
       "name": "{{ $name }}",
 	  {{ with .Params.orcid }}"url": "https://orcid.org/{{ . }}" ,{{ end }}
-      "url": "{{ .Permalink }}",
       "avatar": "{{ ( partial "blogs/author-img" . ) }}"
     }{{ end }}{{ end }}{{ end }}],
 				{{ with .Params.tags }} "tags": {{ . | uniq | jsonify}},{{ end }}
