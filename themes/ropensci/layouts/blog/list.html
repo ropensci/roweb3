@@ -80,6 +80,7 @@
         </div>
       </div>
       <div class="col-md-3 d-none d-md-block">
+      {{ partial "team/people" (dict "project" "blog" "Site" .Site )}}
       {{ partial "blogs/blog-aside" }}
       </div>
     </div>
