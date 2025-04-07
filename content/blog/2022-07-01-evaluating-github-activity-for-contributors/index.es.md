@@ -15,9 +15,9 @@ params:
 ---
 
 Supongamos que tienes que informar de un error o solicitar una función para un paquete.
-¿Cómo puedes utilizar la información de GitHub para gestionar tus expectativas (si habrá una solución rápida) y tus acciones (si debes seguir adelante y bifurcar el repositorio)?
-En este post, repasaremos las fuentes de información y explicaremos cómo se pueden utilizar.
-Al final, no hay una receta mágica, excepto quizás la amabilidad, ya que el software lo hacen los humanos :wink:
+¿Cómo puedes utilizar la información de GitHub para gestionar tus expectativas (si habrá una solución rápida) y tus acciones (si debes seguir adelante y hacer un _fork_ del repositorio)?
+En este post, repasaremos diferentes fuentes de información y explicaremos cómo se pueden utilizar.
+Al final, no hay una receta mágica, excepto quizás la amabilidad, ya que el software lo hacen las personas :wink:
 
 ## Mira si el repositorio está archivado
 
@@ -27,11 +27,11 @@ Mira si el repositorio está [archivado en GitHub](https://docs.github.com/en/re
 
 Si se archiva el repositorio, está claro que los autores ya no van a trabajar en él.
 
-## (Personalizado) vigilar el repositorio
+## Seguir (de forma personalizada) un repositorio
 
-Si te interesa mucho el destino de un paquete de R, puede que tenga sentido [vigilancia personalizada](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications#configuring-your-watch-settings-for-an-individual-repository=) en GitHub: por ejemplo, puedes elegir que se te notifiquen todas las ediciones y PRs o sólo las versiones.
+Si te interesa mucho el destino de un paquete de R, puede que tenga sentido [empezar a seguir su repositorio de forma personalizada](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications#configuring-your-watch-settings-for-an-individual-repository=) en GitHub: por ejemplo, puedes elegir que se te notifiquen todas las ediciones y PRs o sólo las versiones.
 
-Ten en cuenta que si sólo observas un repositorio apareces públicamente como observador, pero que yo sepa los observadores personalizados no aparecen públicamente.
+Se debe tener en cuenta que si sólo sigues (_watch_) un repositorio apareces públicamente como seguidor, pero hasta donde yo se quienes siguen los repositorios con opciones personalizadas no aparecen públicamente.
 
 ### Cómo ayuda
 
@@ -39,10 +39,10 @@ Observar la actividad en el repositorio te hará consciente de
 
 - desarrollo continuo,
 - ritmos de desarrollo (por ejemplo, "cíclico pero con correcciones rápidas de errores cruciales"),
-- flujos de trabajo (¿son bienvenidos los PR o prefieren los mantenedores confirmar primero el interés por un tema?)
+- flujos de trabajo (¿son bienvenidos los PR o las personas que mantienen el paquete prefieren confirmar primero el interés por un tema?)
 - el tono en ese repositorio (si el tono no es amistoso, ¡corre!).
 
-Ahora bien, no te servirá de nada si ahora mismo estás mirando un repositorio que antes no mirabas, pero es bueno saberlo para la próxima vez.
+Ahora bien, no te servirá de nada si ahora mismo estás mirando un repositorio que antes no seguías, pero es bueno saberlo para la próxima vez.
 
 ## Lee los archivos contribuyentes
 
