@@ -17,6 +17,12 @@
           </span> 
           {{ partial "blogs/pretty_author_names" . }}
           {{ end }}
+          {{ with .Params.translator }}
+          <span>
+          &#8211; {{ i18n "Translated-by" }}
+          </span> 
+          {{ partial "blogs/pretty_author_names" . }}
+          {{ end }}
           </div>
         </div>
     </div>

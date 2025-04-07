@@ -2,6 +2,8 @@
 title: Evaluar la actividad en GitHub de los colaboradores
 author:
 - Maëlle Salmon
+translator:
+- Yanina Bellini Saibene
 date: '2022-07-01'
 slug: evaluating-github-activity-for-contributors
 tags:
