@@ -161,6 +161,9 @@
 [staff]
   other = 'staff'
   
+[Staff]
+  other = 'Staff'
+  
 [researcher]
   other = 'Researcher'
 
@@ -303,3 +306,6 @@
   
 [How]
   other = 'How'
+  
+[Lead]
+  other = 'Lead'
