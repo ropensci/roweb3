@@ -18,6 +18,11 @@
                 {{ end }}
             {{ .Content }}
           </div>
+          <div class="col-lg-4 mt-4">
+              <aside>
+                  {{ partial "team/people" (dict "project" "multilingual-publishing" "Site" .Site )}}
+              </aside>
+          </div>
         </div>
 
         <h2 class="title mt-5">{{ i18n "Resources" }}</h2>
