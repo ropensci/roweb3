@@ -10,8 +10,8 @@ tags:
 - GitHub
 - contributors
 - tech notes
-description: Cómo evaluar la actividad de un repositorio de GitHub como usuario o
-  colaborador potencial.
+description: Cómo evaluar la actividad de un repositorio de GitHub como usuario/a o
+  colaborador/a potencial.
 params:
   doi: 10.59350/cpads-4b989
 ---
