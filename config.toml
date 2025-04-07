@@ -12,8 +12,10 @@ pygmentsUseClasses=true
 enableEmoji=true
 enableGitInfo=true
 
-paginate = 5
-paginatePath = "page"
+[pagination]
+  pagerSize = 5
+  path = 'page'
+  
 rssLimit = 20
 
 DefaultContentLanguage = "en"
@@ -73,10 +75,6 @@ DefaultContentLanguage = "en"
 	protocol = "https://"
 
 [privacy]
-  [privacy.twitter]
-    disable = false
-    enableDNT = true
-    simple = true
   [privacy.instagram]
     disable = false
     simple = true

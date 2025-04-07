@@ -941,6 +941,7 @@
     "tags": ["r", "package", "vcr"],
     "resource": "vcr the excellent http testing in r book",
     "url": "https://discuss.ropensci.org/t/using-vcr-for-http-testing-of-a-package-for-kobotoolbox/2865",
+    "image": "noimage",
     "date": "2022-03-24"
   },
   {
@@ -1048,6 +1049,7 @@
     "tags": ["package", "targets", "climate", "health"],
     "resource": "[targets](https://docs.ropensci.org/targets), [tarchetypes](https://docs.ropensci.org/tarchetypes)",
     "url": "https://discuss.ropensci.org/t/a-toolkit-workflow-for-climate-sensitive-infectious-disease-modelling/3659",
+    "image": "noimage",
     "date": "2023-10-05"
   },
   {
@@ -1103,5 +1105,32 @@
     "url": "https://discuss.ropensci.org/t/metar-analysis-for-flight-conditions/4174",
     "image": "noimage",
     "date": "2025-02-20"
+  },
+  {
+    "title": "Visualizing Highways, Toll Booths with {ggplot2} in R with {osmextract}",
+    "reporter": "Aditya Dahiya",
+    "tags": ["r", "geospatial", "opendata", "osmextract"],
+    "resource": "[osmextract](https://docs.ropensci.org/osmextract)",
+    "url": "https://discuss.ropensci.org/t/visualizing-highways-toll-booths-with-ggplot2-in-r-with-osmextract/4181",
+    "image": "noimage",
+    "date": "2025-03-01"
+  },
+  {
+    "title": "Combining with Population Density Rasters with OSM data in R with {sf}, {osmextract} and {ggplot2}",
+    "reporter": "Aditya Dahiya",
+    "tags": ["r", "geospatial", "osmextract", "raster", "sf"],
+    "resource": "[osmextract](https://docs.ropensci.org/osmextract)",
+    "url": "https://discuss.ropensci.org/t/combining-with-population-density-rasters-with-osm-data-in-r-with-sf-osmextract-and-ggplot2/4182",
+    "image": "noimage",
+    "date": "2025-03-01"
+  },
+  {
+    "title": "Translating course to Spanish and French",
+    "reporter": "Yann Say",
+    "tags": ["babelquarto", "lms", "quarto", "espanol", "francais"],
+    "resource": "[babelquarto](https://docs.ropensci.org/babelquarto)",
+    "url": "https://discuss.ropensci.org/t/translating-course-to-spanish-and-french/4207",
+    "image": "noimage",
+    "date": "2025-03-25"
   }
 ]
