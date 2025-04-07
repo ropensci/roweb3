@@ -70,7 +70,7 @@ Si ves que la actividad en el código es intermitente (los desarrolladores se ce
 
 ## Observa la actividad de planificación y asistencia al usuario
 
-Ordena las incidencias y PRs por actualizados recientemente (el valor por defecto cuando se utiliza la extensión del navegador [RefinedGitHub](https://github.com/refined-github/refined-github)). ¿Los miembros del repositorio responden activamente a las incidencias?
+Ordena los _issues_ y PRs por la fecha de actualización para ver los más recientes primero (este es el valor por defecto cuando se utiliza la extensión para navegadores de internet [RefinedGitHub](https://github.com/refined-github/refined-github)). ¿Las personas que son parte del repositorio responden activamente a los _issues_?
 
 Mira los hitos: ¿cuál es el contenido de los distintos hitos?
 ¿Hay fechas previstas de publicación?
@@ -78,25 +78,25 @@ Mira los hitos: ¿cuál es el contenido de los distintos hitos?
 
 ### Cómo ayuda
 
-Si los problemas obtienen una primera respuesta humana rápida, qué suerte, puedes preguntar educadamente lo que querías preguntar y esperar una respuesta bastante rápida.
+Si los problemas obtienen una primera respuesta de una persona de forma rápida, qué suerte, puedes preguntar educadamente lo que querías preguntar y esperar una respuesta bastante rápida.
 Si la planificación es transparente y actual (es difícil curar los hitos :sweat\_smile:), puedes hacerte una idea de dónde encajará tu contribución.
 
 ## Mira la actividad de los autores
 
 Identifica a los principales colaboradores:
 
-- El archivo DESCRIPCIÓN puede no ser tan informativo, ya que puede contener colaboradores históricos.
-- Mira el gráfico de contribuciones para ver quiénes son los contribuyentes activos actuales/recientes (ver por ejemplo <https://github.com/ropensci/dev_guide/graphs/contributors>).
-- Fíjate también en quién ha respondido a los últimos temas y PRs.
+- El archivo DESCRIPTION puede no ser tan informativo, ya que puede contener colaboradores históricos.
+- Mira el gráfico de contribuciones para ver quiénes contribuyen activamente de forma reciente (ver por ejemplo <https://github.com/ropensci/dev_guide/graphs/contributors>).
+- Fíjate también en quién ha respondido a los últimos _issues_ y PRs.
 
 Dirígete a su perfil de GitHub, e incluso a su [perfil de R-universe](https://r-universe.dev/maintainers/) ¿Han estado trabajando en otras cosas? ¿Tienen algún estatus (permiso parental, vacaciones)? ¿Hay algún desajuste entre la organización del repositorio y el trabajo del colaborador?
 
 ### Cómo ayuda
 
-A veces puede haber algo obvio: si el mantenedor cambió de trabajo, quizá abandonó el repositorio de interés.
-Sin embargo, lo más importante es que, aunque ayuda estar al tanto de la actividad pública de los contribuidores **nunca sabes por lo que está pasando una persona, así que sé amable y paciente**.
+A veces puede haber algo obvio: si la persona que mantiene el paquete cambió de trabajo, quizá abandonó el interés en este repositorio.
+Sin embargo, lo más importante es que, aunque ayuda estar al tanto de la actividad pública de quienes contribuyen **nunca sabes por lo que está pasando una persona, así que sé amable y paciente**.
 
-## Mira los cheques de depósito
+## Revisa los chequeos automáticos y los archivos de depósito
 
 Dirígete a la página de estado de integración continua de los repositorios, por ejemplo puede ser la pestaña Acciones.
 Mira el estado de CRAN si el paquete estuvo alguna vez en CRAN.
@@ -109,9 +109,9 @@ Los fallos en las comprobaciones que no se abordan pueden indicar que no se trab
 
 En este post hemos resumido algunas fuentes de información que tú, como colaborador potencial, puedes utilizar para evaluar si un repositorio está activo y en qué medida, para calibrar tus expectativas y ofertas de contribución.
 Si un repositorio parece especialmente abandonado, quizás podrías enviar un correo electrónico a los autores para preguntarles si está previsto realizar trabajos en el futuro y, en caso contrario, si podrías hacerte cargo de él.
-Sé considerado en todos tus [interacciones con los mantenedores de código](https://jacobtomlinson.dev/posts/2022/dont-be-that-open-source-user-dont-be-me/).
+Sé considerado en todas tus [interacciones con las personas que mantienen software](https://jacobtomlinson.dev/posts/2022/dont-be-that-open-source-user-dont-be-me/).
 
-Si eres el *mantenedor* de un paquete rOpenSci y necesitas ayuda puntual o apoyo para el mantenimiento a largo plazo, ponte en contacto con nosotros en `info@ropensci.org`.
+Si eres la *persona que mantiene* un paquete de rOpenSci y necesitas ayuda puntual o apoyo para el mantenimiento a largo plazo, ponte en contacto con nosotros en `info@ropensci.org`.
 Por ejemplo, podemos añadir una convocatoria de co-mantenedores en nuestro boletín mensual.
 
 
