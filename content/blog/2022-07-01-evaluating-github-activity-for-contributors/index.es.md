@@ -11,7 +11,7 @@ tags:
 description: Cómo evaluar la actividad de un repositorio de GitHub como usuario o
   colaborador potencial.
 params:
-  doi: 10.59350/m8tb6-can94
+  doi: 10.59350/cpads-4b989
 ---
 
 Supongamos que tienes que informar de un error o solicitar una función para un paquete.
