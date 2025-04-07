@@ -44,29 +44,29 @@ Observar la actividad en el repositorio te hará consciente de
 
 Ahora bien, no te servirá de nada si ahora mismo estás mirando un repositorio que antes no seguías, pero es bueno saberlo para la próxima vez.
 
-## Lee los archivos contribuyentes
+## Lee los archivos sobre como contribuir
 
-Si el repositorio tiene un [guía de contribución](/blog/2021/04/28/commcall-pkg-community/) (archivo `CONTRIBUTING.md` o `.github/CONTRIBUTING.md`) y parece que se ha personalizado al menos un poco en comparación con un modelo estándar, préstale atención :smile\_cat:
+Si el repositorio tiene una [guía de contribución](/blog/2021/04/28/commcall-pkg-community/) (archivo `CONTRIBUTING.md` o `.github/CONTRIBUTING.md`) y parece que se ha personalizado al menos un poco en comparación con un modelo estándar, préstale atención :smile\_cat:
 
-Si los documentos contienen alguna mención al ciclo de vida del desarrollo (una insignia, algún texto), tenlo también en cuenta.
+Si los documentos contienen alguna mención al ciclo de vida del desarrollo (una etiqueta, algún texto), también tenelo en cuenta.
 
 Por último, pero no menos importante, ¡ver que el repositorio tiene un código de conducta puede ayudar a sentirse seguro!
-rOpenSci [código de conducta](https://ropensci.org/code-of-conduct/) se aplica a todos los paquetes rOpenSci.
+[El código de conducta de rOpenSci](/es/código-de-conducta/) se aplica a todos los paquetes de rOpenSci.
 
 ### Cómo ayuda
 
-Es información directa de los mantenedores sobre lo que esperan de las contribuciones, por lo que puede ayudarte a orientarte sobre cómo hacer contribuciones y qué tipo de contribuciones son bienvenidas.
+Es información directa de las personas que mantienen el paquete sobre lo que esperan de las contribuciones, por lo que puede ayudarte a orientarte sobre cómo hacer contribuciones y qué tipo de contribuciones son bienvenidas.
 
-## Mira la última actividad de código
+## Mira la última actividad en el código
 
-En la página principal del repositorio de GitHub puedes encontrar el tiempo transcurrido desde la última confirmación en la rama por defecto.
-En la página de ramas puedes ver que hay actividad de código en otra rama (ver por ejemplo <https://github.com/ropensci/readODS/branches>).
+En la página principal del repositorio de GitHub puedes encontrar el tiempo transcurrido desde el último _commit_ en la rama por defecto.
+En la página de _branches_ puedes ver que hay actividad en el código en otra rama (ver por ejemplo <https://github.com/ropensci/readODS/branches>).
 En la pestaña de versiones puedes ver la antigüedad de la última versión publicada, y si hay una regularidad en las versiones (ver por ejemplo <https://github.com/ropensci/magick/releases>).
 
 ### Cómo ayuda
 
-Si hay actividad de código en curso, tus contribuciones podrían abordarse más rápidamente.
-Si ves que la actividad del código es intermitente (los desarrolladores se centran en él durante un periodo de tiempo, publican una nueva versión y luego ignoran las notificaciones durante un tiempo), podrías suponer que tendrás que ser paciente.
+Si hay actividad en curso, en el código, tus contribuciones podrían abordarse más rápidamente.
+Si ves que la actividad en el código es intermitente (los desarrolladores se centran en él durante un periodo de tiempo, publican una nueva versión y luego ignoran las notificaciones durante un tiempo), está bien suponer que tendrás que ser paciente.
 
 ## Observa la actividad de planificación y asistencia al usuario
 
