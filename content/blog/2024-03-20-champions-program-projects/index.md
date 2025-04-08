@@ -37,7 +37,7 @@ In their applications Champions choose to develop a new package or to participat
 
 ### Projects developing new packages
 
--   **Haydee Svab**, from Brazil, developed a new package called [odbr](https://cran.r-project.org/web/packages/odbr/index.html) that helps with accessing and processing data from the Brazilian origin and destination (od) surveys and implements many of the algorithms that Haydee developed for her master's thesis. She had the goal to publish the package on CRAN, and after several attempts, and with the support of her mentor, [Beatriz Milz](/author/beatriz-milz/) from Brazil, the package was [published](https://cran.r-project.org/web/packages/odbr/index.html). 
+-   **Haydée Svab**, from Brazil, developed a new package called [odbr](https://cran.r-project.org/web/packages/odbr/index.html) that helps with accessing and processing data from the Brazilian origin and destination (od) surveys and implements many of the algorithms that Haydée developed for her master's thesis. She had the goal to publish the package on CRAN, and after several attempts, and with the support of her mentor, [Beatriz Milz](/author/beatriz-milz/) from Brazil, the package was [published](https://cran.r-project.org/web/packages/odbr/index.html). 
 
 -   **Bilikisu Wunmi Olatunji** from Nigeria, developed the new package [chartkickR](https://github.com/BWOlatunji/chartkickR). The package is an htmlwidget that seamlessly integrates with the Chartkick JavaScript library. It provides R users with a straightforward interface to generate beautiful and interactive charts using R code. The package provides ten types of plots that you can produce with very few lines of code. [You can read more in Bilikisu's blog post](/blog/2023/12/19/champions-program-2023-experience/). Her mentor was [Christina Maimone](/author/christina-maimone/) from the US.
 
@@ -66,7 +66,7 @@ Bilikisu Wunmi Olatunji delivered a workshop on _Working with JavaScript in R_ f
 
 ### Community Calls and Coworking sessions
 
-Carolina Pradier, Victor Ordu, Paola Corrales, Haydee Svab (Champions), Beatriz Milz, Elio Campitelli, and Adam Spark (mentors) participated in [Community Calls](/commcalls/july2023-championprogram/) and [Coworking sessions ](/coworking/) for the Champions Program. They shared their experience, their work, and tips for applying to the program. They also spoke with and joined the community manager in talks with local groups about the program to encourage other people to participate. 
+Carolina Pradier, Victor Ordu, Paola Corrales, Haydée Svab (Champions), Beatriz Milz, Elio Campitelli, and Adam Spark (mentors) participated in [Community Calls](/commcalls/july2023-championprogram/) and [Coworking sessions ](/coworking/) for the Champions Program. They shared their experience, their work, and tips for applying to the program. They also spoke with and joined the community manager in talks with local groups about the program to encourage other people to participate. 
 
 {{< figure src = "comm_call.png" alt = "Community Call Speaker details. A head shoot of Beatriz, Carolina and Victor and a short bio about each of them." caption = "<strong>Carolina, Victor and Beatriz as speaker of the community call about the champions program.</strong>" class = "center" >}}
 
@@ -85,11 +85,11 @@ At a meetup with RenRosario RUG and the Universidad Nacional de Rosario, Marcos 
 
 {{< figure src = "flyers.png" alt = "Events flyers in Spanish. First flyer shows a short bio about Marcos and information on the event venue in the Universidad Nacional de Rosario. Marcos' talk title Que es rOpenSci y como ser parte. Second flyer for the eph event featuring talks by Valentin, Vladimiro and Guido. " caption = "<strong>RenRosario and eph event flyers in Spanish</strong>">}}
 
-Haydee Svab and Beatriz Milz organized an in person event with R-Ladies Sao Paulo in portuguese [Pacotes em R de dados brasileiros](https://r-ladies-sao-paulo.github.io/2023-11-pacotes-br/) where Haydee delivered a talk about the rOpenSci Champions Program and the odbr package she developed as her project in the program. The event also highlighted others women developers from Brazil. This blog post (in [Portuguese](https://rladies-sp.org/posts/2023-12-evento-pacotes/) and [English](https://rladies-sp.org/posts/2023-12-evento-pacotes/english.html)) summarizes the event and shares the slides of all the talks. 
+Haydée Svab and Beatriz Milz organized an in person event with R-Ladies Sao Paulo in portuguese [Pacotes em R de dados brasileiros](https://r-ladies-sao-paulo.github.io/2023-11-pacotes-br/) where Haydée delivered a talk about the rOpenSci Champions Program and the odbr package she developed as her project in the program. The event also highlighted others women developers from Brazil. This blog post (in [Portuguese](https://rladies-sp.org/posts/2023-12-evento-pacotes/) and [English](https://rladies-sp.org/posts/2023-12-evento-pacotes/english.html)) summarizes the event and shares the slides of all the talks. 
 
-{{< figure src = "R-Ladies-SaoPaulo.jpg" alt = "R-Ladies Sao Paulo attendees' group photo. The group is around 30 people smiling. Haydee is wearing an R-Ladies T-shirt" caption = "<strong>R-Ladies Sao Paulo event group photo</strong>">}}
+{{< figure src = "R-Ladies-SaoPaulo.jpg" alt = "R-Ladies Sao Paulo attendees' group photo. The group is around 30 people smiling. Haydée is wearing an R-Ladies T-shirt" caption = "<strong>R-Ladies Sao Paulo event group photo</strong>">}}
 
-All the Latin American participants of the program [wrote a summary of their experiences in the program](/es/blog/2024/01/09/champions-program-latinr/) which was accepted at LatinR (2023 at the Universidad de La Republica, Uruguay) and [presented in Portugese by Haydee Svab](https://hsvab.github.io/latinr2023-championsprogram/#/) representing all the authors. 
+All the Latin American participants of the program [wrote a summary of their experiences in the program](/es/blog/2024/01/09/champions-program-latinr/) which was accepted at LatinR (2023 at the Universidad de La Republica, Uruguay) and [presented in Portugese by Haydée Svab](https://hsvab.github.io/latinr2023-championsprogram/#/) representing all the authors. 
 
 All our champions and mentors wrote blog posts for the rOpenSci webpage ([English](/tags/champions-program/), [Spanish](/es/tags/champions-program/)). 
 
