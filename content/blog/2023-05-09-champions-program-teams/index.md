@@ -26,7 +26,7 @@ Meet **Haydée Svab** and **Beatriz Milz** both from Brazil!
 
 ## Haydée Svab - Champion
 
-{{< figure src = "/img/team/Haydée-svab-mentee.jpeg" class = "pull-left" width = "300" alt = "Profile photo of Haydée Svab" caption = "<center><strong>Haydée Svab</strong></center>">}}
+{{< figure src = "/img/team/haydee-svab-mentee.jpeg" class = "pull-left" width = "300" alt = "Profile photo of Haydée Svab" caption = "<center><strong>Haydée Svab</strong></center>">}}
 
 I'm Haydée Svab, graduated in civil engineering, master of science - specialty transport and planning engineering. For the last few years I've been working as a researcher and consultant in my own company, ASK-AR. Our main projects deal with data analysis, smart cities, urban mobility and gender perspective. I was born and have always lived in Brazil, more specifically in São Paulo, where I founded the [local R-Ladies chapter](https://www.meetup.com/rladies-sao-paulo/) together with other amazing women. 
 
