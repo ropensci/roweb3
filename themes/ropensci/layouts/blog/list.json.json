@@ -29,6 +29,13 @@
        {{  $data.Set "editors" (slice .Params.editor) }}
     {{ end }}
     {{ end }}
+    {{ if isset .Params "translator" }}
+  		{{ if eq (substr (jsonify .Params.translator) 0 1) "[" }}
+        {{ $data.Set "translators" .Params.translator }}
+     {{ else }}
+       {{  $data.Set "translators" (slice .Params.translator) }}
+    {{ end }}
+    {{ end }}
 			{
 				"id": "{{ printf "https://doi.org/%s" .Params.doi }}",
 				"title": "{{ .Title }}",
@@ -39,7 +46,13 @@
       "url": "{{ if isset .Params "orcid" }}https://orcid.org/{{ .Params.orcid }}{{ else }}{{ .Permalink }}{{ end }}",
       "avatar": "{{ ( partial "blogs/author-img" . ) }}",
       "_role": "editor"
-    },{{ end }}{{ end }}{{ end }}{{ end }}{{ range $i, $e := ($data.Get "authors") }}{{ range first 1 (where ($data.Get "pages") ".Params.name" $e) }}{{ $params := .Params }}{{ $name := $params.name }}{{ if $i }}, {{ end }}{{ range first 1 (where ($data.Get "pages") ".Params.name" $e) }}
+    },{{ end }}{{ end }}{{ end }}{{ end }}{{ $translators := ($data.Get "translators") }}{{ if isset .Params "translator" }}{{ range $i, $e := ($data.Get "translators") }}{{ range first 1 (where ($data.Get "pages") ".Params.name" $e) }}{{ $params := .Params }}{{ $name := $params.name }}{{ range first 1 (where ($data.Get "pages") ".Params.name" $e) }}
+    {
+  "name": "{{ $name }}",
+  "url": "{{ if isset .Params "orcid" }}https://orcid.org/{{ .Params.orcid }}{{ else }}{{ .Permalink }}{{ end }}",
+  "avatar": "{{ ( partial "blogs/author-img" . ) }}",
+  "_role": "translator"
+},{{ end }}{{ end }}{{ end }}{{ end }}{{ range $i, $e := ($data.Get "authors") }}{{ range first 1 (where ($data.Get "pages") ".Params.name" $e) }}{{ $params := .Params }}{{ $name := $params.name }}{{ if $i }}, {{ end }}{{ range first 1 (where ($data.Get "pages") ".Params.name" $e) }}
 {
       "name": "{{ $name }}",
       "url": "{{ if isset .Params "orcid" }}https://orcid.org/{{ .Params.orcid }}{{ else }}{{ .Permalink }}{{ end }}",
