@@ -1,6 +1,6 @@
 ---
 title: "rOpenSci Champions Program Teams: Meet Haydée Svab and Beatriz Milz"
-slug: ropensci-champions-program-teams-meet-Haydée-svab-and-beatriz-milz
+slug: ropensci-champions-program-teams-meet-haydee-svab-and-beatriz-milz
 author:
   - Haydée Svab
   - Beatriz Milz
