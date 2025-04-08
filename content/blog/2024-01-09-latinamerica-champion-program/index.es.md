@@ -5,7 +5,7 @@ author:
 - Elio Campitelli
 - Marcos Prunello
 - Mauro Lepore
-- Haydee Svab
+- Haydée Svab
 - Beatriz Milz
 - Carolina Pradier
 - Cesar Luis Aybar Camacho
@@ -34,7 +34,7 @@ El programa prevé tres tipos de proyectos: crear un nuevo paquete, pasar por la
 
 * [Cesar Aybar](/author/cesar-luis-aybar-camacho/) de Perú, desarrolló el paquete [rgeeExtra](https://r-earthengine.com/rgeeExtra/index.html) que extiende las funcionalidades de {rgee} para poder acceder y procesar información espacial de sensores remotos con una sintaxis amigable para usuarios de R. Cesar trabajó en agregar funcionalidades y reemplazó las dependencias de espaciales que serán retirados. Su paquete está en [proceso de revisión](https://github.com/ropensci/software-review/issues/608) por [Zack](https://github.com/zackarno) y [Natalia Morandeira](https://nmorandeira.netlify.app) con Mauro Lepore como editor.   
 
-* [Haydee Svab](/author/haydee-svab/) de Brazil, desarrolló un nuevo paquete llamado [odbr](https://github.com/hsvab/odbr) que permite acceder y procesar datos de las encuestas de origen y destino (od) de Brasil e implemente muchos de los algoritmos que Haydée desarrolló para su tesis de maestría. [El paquete fue publicado en CRAN](https://cran.r-project.org/web/packages/odbr/index.html).
+* [Haydée Svab](/author/haydée-svab/) de Brazil, desarrolló un nuevo paquete llamado [odbr](https://github.com/hsvab/odbr) que permite acceder y procesar datos de las encuestas de origen y destino (od) de Brasil e implemente muchos de los algoritmos que Haydée desarrolló para su tesis de maestría. [El paquete fue publicado en CRAN](https://cran.r-project.org/web/packages/odbr/index.html).
 
 * [Marcos Prunello](/author/marcos-prunello/) de Argentina, trabajó sobre su paquete [karel](https://mpru.github.io/karel/), el cual implementa en R a _Karel the robot_, una herramienta útil para enseñar conceptos introductorios sobre programación de una manera interactiva y divertida, mediante la escritura de programas para que Karel complete tareas. Además el paquete provee funciones, argumentos, mensajes y documentación tanto en inglés como en español, proponiendo una infraestructura que permite agregar más idiomas. El paquete está en [proceso de revisión](https://github.com/ropensci/software-review/issues/620), ¡siendo el primero en tener una revisión bilingüe!. Mauro Lepore es nuevamente el editor y se están buscando las personas que revisarán. 
 
@@ -56,6 +56,6 @@ Es una buena oportunidad para desarrollar un paquete de R (o mejorar uno propio)
 
 **Esperamos que más personas de nuestra región se sumen a este programa**, tanto como mentores, docentes o campeones/as y a rOpenSci en los diversos roles de los que puede ser parte. Para conocer más sobre cómo contribuir a rOpenSci se puede consultar la [guía de contribución](https://contributing.ropensci.org/).
 
-> Este resumen fue aceptado para la conferencia [LatinR 2023](https://latin-r.com/cronograma/programa/presentaciones.html) que se realizó en Montevideo, Uruguay y fue [presentado por Haydee Svab en representación de todos los autores](/events/latinr-champions-2023/).
+> Este resumen fue aceptado para la conferencia [LatinR 2023](https://latin-r.com/cronograma/programa/presentaciones.html) que se realizó en Montevideo, Uruguay y fue [presentado por Haydée Svab en representación de todos los autores](/events/latinr-champions-2023/).
 
 [^1]: The CSCCE Community Participation Model - Exploring the Champion mode. (2021). Woodley and Pratt doi 10.5281/zenodo.5275270
