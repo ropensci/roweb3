@@ -10,6 +10,8 @@ tags:
   - magick
   - images
   - tech notes
+params:
+  doi: "10.59350/qvvfx-rnc07"
 ---
 
 This week [magick](https://cran.r-project.org/web/packages/magick/vignettes/intro.html) 1.6 appeared on CRAN. This release is a big all-round maintenance update with lots of tweaks and improvements across the package. 

@@ -6,6 +6,8 @@ author:
   - Alejandra Bellini
   - Lucio Casalla  
   - Steffi LaZerte
+  - Rich FitzJohn
+  - Rob Ashton
 date: '2023-09-15'
 tags:
   - community
@@ -16,6 +18,8 @@ featured: true
 # The summary below will be used by e.g. Mastodon cards
 description: "."
 
+params:
+  doi: "10.59350/d1j4d-vem44"
 ---
 
 A new post of our interview series [“Meeting the stars of the R-universe”](/tags/r-universe-stars/). We aim to introduce the teams and people behind the development of software and packages many of us use and which are available through the R-Universe. We want to highlight and explore different teams and projects around the world, the work they do, their processes and users. This stop is at the __United Kingdom__ to talk with members of the Centre for Global Infectious Disease Analysis. Be sure to watch the video at the end with excerpts from the interview.

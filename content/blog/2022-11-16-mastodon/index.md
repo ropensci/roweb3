@@ -8,6 +8,8 @@ author:
 description: "We announce our actions on rOpenSci's communication channels as alternatives to Twitter."
 tags:
   - community
+params:
+  doi: "10.59350/3evd4-ehh48"
 ---
 
 Twitter is one of the preferred social media platforms and networks for the R community and for the data, open science and research communities. Since the beginning of rOpenSci we have used Twitter to connect with our community and other parallel communities, to share what we do, and to be part of conversations around the topics important to our [mission](/about/).

@@ -28,7 +28,7 @@
        {{  $data.Set "editors" (slice .Params.editor) }}
     {{ end }}
 			{
-				"id": "{{ .Permalink }}",
+				"id": "{{ printf "https://doi.org/%s" .Params.doi }}",
 				"title": "{{ .Title }}",
 				"language" : "{{ .Lang }}",
 				"authors": [{{ $editors := ($data.Get "editors") }}{{ if gt (len $editors) 0 }}{{ range $i, $e := ($data.Get "editors") }}{{ range first 1 (where ($data.Get "pages") ".Params.name" $e) }}{{ $params := .Params }}{{ $name := $params.name }}{{ range first 1 (where ($data.Get "pages") ".Params.name" $e) }}

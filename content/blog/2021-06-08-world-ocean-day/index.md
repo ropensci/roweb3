@@ -21,6 +21,8 @@ tweet: "A celebration of World Ocean Day showcasing how @rOpenSci packages can b
 output: 
   html_document:
     keep_md: true
+params:
+  doi: "10.59350/7cwwy-wm856"
 ---
 
 

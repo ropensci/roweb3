@@ -11,6 +11,8 @@ tags:
   - community
   - interviews
   - staff
+params:
+  doi: "10.59350/w7s82-a2377"
 ---
 We’re very pleased to be introducing someone who needs no introduction in the R community. Join us in welcoming Maëlle Salmon to rOpenSci as a Research Software Engineer (part time, working from Nancy, France). We’d like to formally introduce her here and share a bit about the kinds of things she’ll be working on.
 

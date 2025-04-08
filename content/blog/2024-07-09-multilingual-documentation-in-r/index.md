@@ -28,6 +28,8 @@ description: "Multilingual documentation coming to an R package near you!"
 # the text below is for populating the "share on Mastodon" button
 # if deleted, the title of the post will be used
 social: "Multilingual documentation coming to an R package near you @eliocamp@mastodon.social!"
+params:
+  doi: "10.59350/6mmnx-5m866"
 ---
 
 

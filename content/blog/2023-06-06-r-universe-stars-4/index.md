@@ -6,6 +6,11 @@ author:
   - Alejandra Bellini
   - Lucio Casalla  
   - Steffi LaZerte
+  - Rob Kooper
+  - Chris Black
+  - Eric Scott
+  - Michael Dietze
+  - David LeBauer
 date: '2023-06-06'
 tags:
   - community
@@ -16,6 +21,8 @@ featured: true
 # The summary below will be used by e.g. Twitter cards
 description: "Climate change and research in this area have diverse and complex data that demand increasingly complex analysis models. The PEcAn project works to develop this ability."
 
+params:
+  doi: "10.59350/s8m95-ap410"
 ---
 
 A new post of our interview series [“Meeting the stars of the R-universe”](/tags/r-universe-stars/). We aim to introduce the teams and people behind the development of software and packages many of us use and which are available through the R-Universe. We want to highlight and explore different teams and projects around the world, the work they do, their processes and users. Our third stop is the __United States__ to talk with members of the PEcAn project. Be sure to watch the video at the end with excerpts from the interview.

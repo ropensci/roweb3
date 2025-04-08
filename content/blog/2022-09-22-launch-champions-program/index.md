@@ -11,6 +11,8 @@ tags:
   - champions program
 featured: true 
 description: We are thrilled to launch our Champions Program pilot!
+params:
+  doi: "10.59350/bc3bg-8ge90"
 ---
 
 > We are thrilled to launch our Champions Program pilot!

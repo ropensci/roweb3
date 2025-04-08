@@ -6,6 +6,8 @@ author: Scott Chamberlain
 tags:
   - climate
   - tech notes
+params:
+  doi: "10.59350/typ3j-gyd24"
 ---
 
 A new package [isdparser](https://cran.rstudio.com/web/packages/isdparser) is

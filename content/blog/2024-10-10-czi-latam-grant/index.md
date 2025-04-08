@@ -15,6 +15,8 @@ tags:
   - multilingual
 featured: true
 description: "Foster sustainable scientific software as a pillar of open science in Latin America through building capacity and community"
+params:
+  doi: "10.59350/zxmfb-h8022"
 ---
 
 **Exciting News!** The Chan Zuckerberg Initiative has awarded rOpenSci a new grant to foster sustainable scientific software as a pillar of Open Science in Latin America by building capacity and community. With this $340K grant, we’re planning to launch a Spanish-language version of our Champions Program, along with other new initiatives to make sustainable software development more accessible to researchers across the region. Let’s dive into how this project will support Latin American scientists. 

@@ -10,15 +10,14 @@
         </div>
         <div class="row">
           <div class="col-6">
-        <a href="https://numfocus.org/donate-to-ropensci" class="btn btn-primary mt-5">Donate</a>
+        <a href="https://numfocus.org/donate-to-ropensci" class="btn btn-primary mt-5">{{ i18n "Donate" }}</a>
         </div>
         <div class="col-6">
         <img src="/images/NumFocusSquare.png" href="https://numfocus.org/" style="width:150px; display: inline-block; vertical-align:middle;margin-top: 3rem !important; float:right;"></img>
         </div>
         </div>
         <p class="subtitle">
-          Checks can also be made out to NumFOCUS, just make sure to add rOpenSci in the memo
-          line
+          {{ i18n "check-money" }}
         </p>
         <p class="mt-3">
           <strong>NumFOCUS</strong>
@@ -32,5 +31,6 @@
     <!-- Content here -->
   </div>
 </section>
-{{ partial "whole-page-fragments/brands"  (dict "Site" .Site "divider" "rl" ) }}
+{{ $brandpartial := (partial "translate-path" (dict "name" "whole-page-fragments/brands" "language" .Site.Language.Lang )) }}
+{{ partial $brandpartial (dict "Site" .Site "divider" "rl" )  }}
 {{ end }}

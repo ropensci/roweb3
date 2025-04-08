@@ -13,6 +13,8 @@ tags:
   - software
   - Software Peer Review
   - infrastructure
+params:
+  doi: "10.59350/2srb0-caz70"
 ---
 
 Code review, in which peers manually inspect the source code of software

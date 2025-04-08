@@ -18,6 +18,8 @@ tags:
   - community
 description: A look at treedata.table, a package for working efficiently with phylogenetic
   trees and data
+params:
+  doi: "10.59350/strfq-z1a40"
 ---
 
 The [data.table](http://r-datatable.com/) package enables high-performance extended functionality for data tables in R. [treedata.table](https://ropensci.github.io/treedata.table/) is a wrapper

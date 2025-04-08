@@ -10,10 +10,12 @@ tags:
 - financiamiento
 - comunidad
 - desarrollo de capacidades
-- programa de campeones
-- multilenguaje
+- campeones
+- multilingüe
 description: "Fomentar el software científico sostenible como pilar de la ciencia abierta
   en América Latina mediante la creación de capacidad y comunidad"
+params:
+  doi: "10.59350/ep04z-7d844"
 ---
 
 **¡Tenemos noticias emocionantes!** La Iniciativa Chan Zuckerberg otorgó a rOpenSci un nuevo financiamiento para fomentar el software de investigación sostenible como pilar de la Ciencia Abierta en América Latina mediante el desarrollo de capacidades y comunidad. Con esta financiación de $340.000, estamos planeando lanzar una versión en español de nuestro Programa de Campeon(a|e)s, junto con otras iniciativas nuevas para hacer que el desarrollo de software sostenible sea más accesible a las personas que investigan de toda la región. Veamos cómo apoyará este proyecto a los y las científicas de América Latina.

@@ -9,6 +9,7 @@ tags:
 description: Screen reader acessibility webinar, R-universe community call, CRAN stats, new package and package news
 params:
   last_newsletter: "2024-07-19"
+  doi: "10.59350/4z5by-bgz25"
 ---
 
 

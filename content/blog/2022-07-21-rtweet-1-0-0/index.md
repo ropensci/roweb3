@@ -14,6 +14,8 @@ tags:
 package_version: 1.0.2
 description: Update from rtweet 0.7.0 to 1.0.2.
 tweet: Do you use rtweet? It has been updated - read how to update your code to rtweet 1.0.2 by @Lluis_Revilla!
+params:
+  doi: "10.59350/600k0-ana71"
 ---
 
 In this post I will provide some examples of what has changed between rtweet 0.7.0 and rtweet 1.0.2. 

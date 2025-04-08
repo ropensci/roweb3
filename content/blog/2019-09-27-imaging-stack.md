@@ -13,6 +13,8 @@ tags:
   - tesseract
   - av
   - tech notes
+params:
+  doi: "10.59350/wwyk7-1yt02"
 ---
 
 Image processing is one of the core focus areas of rOpenSci. Over the last few months we have released several major upgrades to core packages in our imaging suite, including [magick](https://docs.ropensci.org/magick), [tesseract](https://docs.ropensci.org/tesseract), and [av](https://docs.ropensci.org/av). This post highlights a few cool new features.
@@ -39,9 +41,7 @@ image_shadow(img, geometry = "100x20+30+30")
 
 ![ggplot2-shadow](https://jeroen.github.io/images/ggplot2-shadow.png)
 
-So fancy! Another cool example from Twitter:
-
-{{< tweet user="opencpu" id="1155078546102083584" >}}
+So fancy! 
 
 
 ### Separate and combine

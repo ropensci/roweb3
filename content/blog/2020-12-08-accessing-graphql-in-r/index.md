@@ -20,6 +20,8 @@ twitterImg: blog/2020/12/08/accessing-grahpql-in-r/GHQL.png
 output:
   html_document:
     keep_md: yes
+params:
+  doi: "10.59350/3j72f-qky90"
 ---
 ### Introduction
 Few months ago, I embarked on a full stack spatial data project at work. The project kicked off amazingly, until I was almost backed to the wall when I discovered that some of the data sources were served via a GraphQL API. Before now, I haven't worked with GraphQL. But, I have heard a lot about it and how amazing it is for querying data.

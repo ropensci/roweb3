@@ -13,6 +13,8 @@ tags:
   - dendroNetwork
 # The summary below will be used by e.g. Mastodon preview cards
 description: "How scripts were transformed into a package and what I learned in the process"
+params:
+  doi: "10.59350/81z6a-rbg80"
 ---
 
 

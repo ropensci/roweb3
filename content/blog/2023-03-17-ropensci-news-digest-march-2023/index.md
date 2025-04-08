@@ -10,6 +10,7 @@ tags:
 description: Interview of ThinkR Sébastien Rochette, package discovery on R-universe, coworking, new packages and package news
 params:
   last_newsletter: '2023-02-17'
+  doi: "10.59350/6yj3n-3n086"
 ---
 
 

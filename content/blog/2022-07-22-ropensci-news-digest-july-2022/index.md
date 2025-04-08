@@ -10,6 +10,7 @@ tags:
 description: Code of Conduct Update, new packages and package news
 params:
   last_newsletter: '2022-06-24'
+  doi: "10.59350/hge37-v9p96"
 ---
 
 

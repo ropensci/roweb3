@@ -10,6 +10,8 @@ tags:
   - rotl
   - open tree
   - publication
+params:
+  doi: "10.59350/5ggz4-v6y86"
 ---
 
 We are excited to announce a paper describing `rotl`, our package for the

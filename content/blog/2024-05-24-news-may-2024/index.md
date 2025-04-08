@@ -8,6 +8,7 @@ slug: ropensci-news-may-2024
 description: Champions program update, metadat, new packages and package news
 params:
   last_newsletter: '2024-04-22'
+  doi: "10.59350/w2w0j-pg740"
 ---
 
 

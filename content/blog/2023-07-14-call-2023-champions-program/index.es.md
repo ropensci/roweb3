@@ -12,6 +12,8 @@ tags:
   - campeones
 feature: true  
 description: "Abrimos la convocatoria para la segunda cohorte de Campeones/as y Mentores/as" 
+params:
+  doi: "10.59350/azrs1-7np02"
 ---
 
 

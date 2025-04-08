@@ -12,6 +12,8 @@ tags:
   - ropensci-review-bot
   - pkgcheck
   - tech notes
+params:
+  doi: "10.59350/ts50x-ncp16"
 ---
 
 

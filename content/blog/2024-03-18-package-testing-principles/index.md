@@ -13,6 +13,8 @@ tags:
   - champions program
   - how-to
   - testing
+params:
+  doi: "10.59350/yt047-xf054"
 ---
 
 rOpenSci's [second cohort of Champions has been onboarded](/blog/2024/02/15/champions-program-champions-2024/)!

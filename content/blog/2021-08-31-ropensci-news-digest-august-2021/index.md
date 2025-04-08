@@ -12,6 +12,7 @@ output:
     keep_md: yes
 params:
   last_newsletter: '2021-07-23'
+  doi: "10.59350/zwr83-mz346"
 ---
 
 

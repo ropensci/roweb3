@@ -19,6 +19,8 @@ tags:
   - data access
   - taxonomy
   - tech notes
+params:
+  doi: "10.59350/4h664-t9k57"
 ---
 
 In this technote I will outline what phylotaR was developed for, how to install it and how to run it with some simple examples.

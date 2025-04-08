@@ -12,8 +12,10 @@ pygmentsUseClasses=true
 enableEmoji=true
 enableGitInfo=true
 
-paginate = 5
-paginatePath = "page"
+[pagination]
+  pagerSize = 5
+  path = 'page'
+  
 rssLimit = 20
 
 DefaultContentLanguage = "en"
@@ -50,7 +52,8 @@ DefaultContentLanguage = "en"
     footer = "&copy; The rOpenSci Project"
     rbloggers = ["blog", "technotes", "commcalls", "careers"]
     search = ["blog", "technotes", "commcalls", "events", "author"]
-    projects = ["r-universe", "software-review", "stat-software-review", "champions", "multilingual-publishing"]    
+    langs = ["en", "es"]
+    projects = ["r-universe", "software-review", "champions", "multilingual-publishing"]    
     blogs = ["blog", "technotes"]
     events = ["events", "commcalls"]
     githubsource = "https://github.com/ropensci/roweb3/blob/main/content/"
@@ -72,10 +75,6 @@ DefaultContentLanguage = "en"
 	protocol = "https://"
 
 [privacy]
-  [privacy.twitter]
-    disable = false
-    enableDNT = true
-    simple = true
   [privacy.instagram]
     disable = false
     simple = true

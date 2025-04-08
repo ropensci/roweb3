@@ -26,6 +26,8 @@ description: "Updates in version 0.8.0 of the online book 'rOpenSci Packages: De
 twitterImg: img/blog-images/2019-05-16-dev-guide-update/cover.png
 output: 
 twitterAlt: cover of rOpenSci dev guide, showing a package production line with small humans discussing, examining and promoting packages
+params:
+  doi: "10.59350/73dn9-83186"
 ---
 
 rOpenSci Software Peer Review's guidance is gathered in an [online book](https://devguide.ropensci.org/) that keeps improving!
@@ -37,7 +39,7 @@ After many years of fabulous contributions to the rOpenSci community, Stefanie B
 
 ## Expanded Aims and Scope
 
-This version of the Dev Guide reflects the recent expansion of our peer-review system to include [statistical software](/stat-software-review/). The [*Aims and Scope* section](https://devguide.ropensci.org/policies.html#aims-and-scope) now explains that statistical software is also within scope, and links directly to the [*Statistical Software Dev Guide*](https://stats-devguide.ropensci.org).
+This version of the Dev Guide reflects the recent expansion of our peer-review system to include [statistical software](/software-review/). The [*Aims and Scope* section](https://devguide.ropensci.org/policies.html#aims-and-scope) now explains that statistical software is also within scope, and links directly to the [*Statistical Software Dev Guide*](https://stats-devguide.ropensci.org).
 
 ## Updated Guide for Authors
 

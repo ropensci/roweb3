@@ -10,6 +10,8 @@ tags:
 featured: false
 description: Introducing 3 new editors for rOpenSci software review
 # twitterImg: blog/2019/06/04/post-template/name-of-image.png
+params:
+  doi: "10.59350/nbts0-v9669"
 ---
 We are excited to welcome Emily Riederer, Adam Sparks, and Jeff Hollister to our team of [Associate Editors](/software-review/#editors) for rOpenSci [Software Peer Review](/software-review/). 
 They join Laura DeCicco, Julia Gustavsen, Anna Krystalli, Mauro Lepore, Karthik Ram, Noam Ross, Maëlle Salmon, and Melina Vidoni. 

@@ -22,6 +22,8 @@ output:
   md_document:
     variant: markdown_github
     preserve_yaml: yes
+params:
+  doi: "10.59350/e1hxf-36d41"
 ---
 
 Last year we reported on [the joy of using commonmark and xml2 to parse
@@ -348,10 +350,6 @@ get_long("http://bit.ly/2JfrzmE")
 
 http vs https
 -------------
-
-<!--html_preserve--> 
-{{< tweet user="b0rk" id="1159812119099060224" >}} 
-<!--/html_preserve--> 
 
 We proceeded as previously when checking external links, except we used
 better settings for `crul::ok()`.

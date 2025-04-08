@@ -2,10 +2,7 @@
    "name": "Elio Campitelli",
    "url": "https://eliocamp.github.io/",
    "image" : "/img/team/elio-campitelli.jpg",
-   "affiliation": "Spanish",
-   "roles": [
-      "reviewer"
-   ],
+   "affiliation": "Español (ES)",
    "twitter": "d_olivaw",
    "mastodon": "https://mastodon.social/@eliocamp",
    "github": "eliocamp",
@@ -13,24 +10,18 @@
 },
 {
    "name": "Pao Corrales",
-   "affiliation": "Spanish",
+   "affiliation": "Español (ES)",
    "url": "https://paocorrales.github.io/",
    "image" : "/img/team/paola-corrales.png",
-   "roles": [
-      "reviewer"
-   ],
    "mastodon": "https://fosstodon.org/@paocorrales",
    "github": "paocorrales",
    "home": "https://paocorrales.github.io/"
 },
 {
    "name": "Pedro Faria",
-   "affiliation": "Portuguese",
+   "affiliation": "Português (PT)",
    "url": "https://pedro-faria.netlify.app/",
    "image" : "/img/community/pedro-faria.jpg",
-   "roles": [
-      "reviewer"
-   ],
    "mastodon": "https://fosstodon.org/@pedropark99",
    "github": "pedropark99",
    "home": "https://pedro-faria.netlify.app/"

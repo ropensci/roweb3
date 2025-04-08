@@ -11,6 +11,8 @@ tags:
 - community
 - champions program
 description: 
+params:
+  doi: "10.59350/ca39e-y1z14"
 ---
 
 Being a part of the rOpenSci Champion's program has been a transformative experience, pushing me to explore the world of R package development and contribute to the world of open science. While my initial project proposal took a different route, the unexpected journey led me to create a valuable tool that I am proud to call my own -- an R package [ChartkickR](https://github.com/BWOlatunji/chartkickR). In this blog post, I'll take you through my adventure as a rOpenSci champion and how ChartkickR became the unexpected gem of my experience.

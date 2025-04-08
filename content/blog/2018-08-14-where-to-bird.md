@@ -21,6 +21,8 @@ output:
   md_document:
     variant: markdown_github
     preserve_yaml: yes
+params:
+  doi: "10.59350/bjhrn-aas29"
 ---
 
 This post is the 1st post of a series showcasing various rOpenSci

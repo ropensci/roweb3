@@ -12,6 +12,8 @@ tags:
   - community
   - interviews
   - rprofile
+params:
+  doi: "10.59350/kspam-3dr95"
 ---
 
 {{< imgtxt src="/img/blog-images/2017-11-10-rprofile-mara-averick/mara_averick.png" alt="Mara Averick, Data Nerd At Large" caption="Mara Averick, Data Nerd At Large">}}

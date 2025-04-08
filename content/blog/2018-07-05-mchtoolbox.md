@@ -14,6 +14,8 @@ tags:
   - community
   - unconf
   - unconf18
+params:
+  doi: "10.59350/7h6sq-n3r77"
 ---
 
 It’s easy to come to a conference and feel intimidated by the wealth of knowledge and expertise of other attendees. As Ellen Ullman, a software engineer and writer describes,

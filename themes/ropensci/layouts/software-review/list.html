@@ -7,10 +7,16 @@
             <h1>{{ .Title }}</h1>
             {{ .Content }}
           </div>
+          <div class="col-lg-4 mt-4">
+              <aside>
+                  {{ partial "team/people" (dict "project" "software-review" "Site" .Site )}}
+              </aside>
+          </div>
         </div>
 
-        <h2 class="title mt-5">Resources</h2>
-        {{ partial "resources/resources-cards" (dict "resources" .Site.Data.resources.softwarereview ) }}
+        <h2 class="title mt-5">{{ i18n "Resources" }}</h2>
+        {{ $data := index .Site.Data .Site.Language.Lang }}
+        {{ partial "resources/resources-cards" (dict "resources" $data.resources.softwarereview ) }}
       </div>
     </section>
     <section class="section">
@@ -18,29 +24,31 @@
         <div class="row about-block">
           <div class="col-md-3 text-md-right">
             <h4 class="about-block__title" id="editors">
-              Our Editorial Team
+              {{ i18n "Our-Editorial-Team" }}
             </h4>
           </div>
           <div class="col-md-6 about-block__text">
             <p>
-              Our editorial board members are volunteers.
+              {{ i18n "Our-editorial-board-members-are-volunteers" }}
             </p>
           </div>
         </div>
-        {{ $editors := (shuffle (where ( where (.Site.Data.team.team) "roles" "intersect" ( slice "editor" ) ) "generalreview" true ))}}
+        {{ $editors := (shuffle ( where (.Site.Data.team.team) "roles" "intersect" ( slice "editor" ) ) )}}
         {{ partial "whole-page-fragments/team/team-section" (dict "team" $editors)  }}
           <div class="row about-block">
           <div class="col-md-3 text-md-right">
             <h4 class="about-block__title" id="editors">
-              Former editors
+              {{ i18n "Former-editors-and-advisory-board" }}
             </h4>
           </div>
         </div>
-        {{ $editors := (shuffle (where ( where (.Site.Data.team.team) "past_roles" "intersect" ( slice "editor" ) ) "generalreview" true ))}}
+        {{ $editors := (shuffle ( where (.Site.Data.team.team) "past_roles" "intersect" ( slice "editor" ) ) )}}
         {{ partial "whole-page-fragments/team/team-section" (dict "team" $editors)  }}
         </div>
         </section>
-{{ partial "whole-page-fragments/volunteer"  (dict "divider" "rl" "Site" .Site ) }}
+{{ $volunteerpartial := (partial "translate-path" (dict "name" "whole-page-fragments/volunteer" "language" .Site.Language.Lang )) }}
+{{ partial $volunteerpartial  (dict "divider" "rl" "Site" .Site ) }}
 {{ partial "whole-page-fragments/newsletter"  (dict "divider" "lr" ) }}
-{{ partial "whole-page-fragments/brands"  (dict "Site" .Site "divider" "rl" ) }}
+{{ $brandpartial := (partial "translate-path" (dict "name" "whole-page-fragments/brands" "language" .Site.Language.Lang )) }}
+{{ partial $brandpartial (dict "Site" .Site "divider" "rl" )  }}
 {{ end }}

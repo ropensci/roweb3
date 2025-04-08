@@ -12,6 +12,8 @@ tags:
   - community
   - interviews
   - rprofile
+params:
+  doi: "10.59350/hd85p-szd49"
 ---
 
 {{< imgtxt src="/img/blog-images/2018-04-13-rprofile-noam-ross/noam-ross.jpg" alt="Noam Ross" >}}

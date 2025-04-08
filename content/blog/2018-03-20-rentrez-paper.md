@@ -1,5 +1,5 @@
 ---
-slug: rentrez paper
+slug: rentrez-paper
 title: A rentrez paper, and how to use the NCBI's new API keys
 package_version: 1.2.1
 author: David Winter
@@ -12,6 +12,8 @@ tags:
   - genetics
   - scholarly literature
   - data access
+params:
+  doi: "10.59350/x8tce-kwy50"
 ---
 
 I am happy to say that the latest issue of _The R Journal_ [includes a paper

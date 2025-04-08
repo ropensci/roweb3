@@ -9,6 +9,8 @@ tags:
   - cran
   - infrastructure
   - tech notes
+params:
+  doi: "10.59350/v90ny-sy133"
 ---
 
 If you have an R package on CRAN, you probably know about CRAN checks. Each package on CRAN, that is not archived on CRAN[^1], has a checks page, like this one for `ropenaq`:

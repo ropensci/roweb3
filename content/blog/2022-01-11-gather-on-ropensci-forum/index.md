@@ -10,6 +10,8 @@ tags:
 description: "Why and how participate in the rOpenSci forum; descriptions of current categories."
 twitterImg: blog/2022/01/11/ropensci-forum/convo.jpg
 twitterAlt: "Two paper message balloons on a pink background"
+params:
+  doi: "10.59350/bf1vh-b2w72"
 ---
 
 Do you have an account on the [rOpenSci forum](https://discuss.ropensci.org)?
@@ -96,7 +98,7 @@ The following topics used to be forum categories and they're still there as an a
 
 Discussions about [R-universe](/r-universe) are encouraged in https://github.com/r-universe-org/help/discussions & bug reports to https://github.com/r-universe-org/help/issues.
 
-Discussions about [statistical software review](/stat-software-review/) have moved to https://github.com/ropensci/statistical-software-review-book/discussions.
+Discussions about [statistical software review](/software-review/) have moved to https://github.com/ropensci/statistical-software-review-book/discussions.
 
 ## Conclusion
 

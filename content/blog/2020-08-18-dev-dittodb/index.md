@@ -15,6 +15,8 @@ tags:
 description: A peak behind the scenes of making dittodb, a package that makes testing
   database interactions quick, easy, and fun
 featured: no
+params:
+  doi: "10.59350/9mnq5-h9j60"
 ---
 
 This post describes a few different aspects behind the scenes of the development of [dittodb](https://dittodb.jonkeane.com) which [recently went through](https://github.com/ropensci/software-review/issues/366) the [rOpenSci peer review process](/software-review/) and was [released to CRAN on 24 July 2020](https://jonkeane.com/blog/introducing_dittodb/).

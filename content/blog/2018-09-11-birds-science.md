@@ -20,6 +20,8 @@ output:
   md_document:
     variant: markdown_github
     preserve_yaml: yes
+params:
+  doi: "10.59350/98kyv-wz495"
 ---
 
 In the [second post of the series where we obtained data from

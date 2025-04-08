@@ -5,6 +5,8 @@ date: '2013-10-03'
 author: Scott Chamberlain
 tags:
   - help
+params:
+  doi: "10.59350/pcksy-kpa65"
 ---
 
 Just a quick note that the Task View we have been working on with others **Web Technologies and Services** is up on CRAN now. Find it here [https://cran.r-project.org/web/views/WebTechnologies.html](https://cran.r-project.org/web/views/WebTechnologies.html).

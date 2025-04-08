@@ -8,6 +8,8 @@ tags:
   - community
   - careers
   - funding
+params:
+  doi: "10.59350/qe8vm-dex68"
 ---
 Want to get some hands-on insights into running an open source community? Here’s an opportunity to work with me, rOpenSci’s Community Manager, on some non-code [community-related work](/community/). I am looking for someone to work 1 day a week for 12 to 14 weeks.
 

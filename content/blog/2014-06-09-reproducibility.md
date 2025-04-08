@@ -11,6 +11,8 @@ tags:
   - reproducible research
   - archiving
   - open science
+params:
+  doi: "10.59350/3c930-kt128"
 ---
 
 Science is reportedly in the middle of a [reproducibility crisis](https://theconversation.com/science-is-in-a-reproducibility-crisis-how-do-we-resolve-it-16998).  Reproducibility seems laudable and is frequently called for (e.g., [nature](https://www.nature.com/nature/focus/reproducibility/) and [science](https://www.sciencemag.org/content/334/6060/1226)).  In general the argument is that research that can be independently reproduced is more reliable than research that cannot be independently reproduced.  It is also worth noting that reproducing research is not solely a checking process, and it can provide useful jumping-off points for future research questions.  It is difficult to find a counter-argument to these claims, but arguing that reproducibility is laudable in general glosses over the fact that for each research group it is a significant amount of work to make their research (easily) reproducible for independent scientists.  While much of the attention has focused on [entirely repeating laboratory experiments](https://www.nature.com/nature/journal/v483/n7391/full/483531a.html), there are many simpler forms of reproducibility including, for example, the ability to recompute analyses on known sets of data.

@@ -21,6 +21,8 @@ tweet: "Import your Qualtrics data with the qualtRics R package (post by @JeffSt
 output: hugodown::md_document
 rmd_hash: 005e2ec40c3d9d19
 
+params:
+  doi: "10.59350/jxvgh-t7z38"
 ---
 
 The online survey system [Qualtrics](https://www.qualtrics.com/) can be a great way to collect data from research participants, customers, and stakeholders. I use it frequently to conduct research studies with participants or just to poll students and collaborators. However, while Qualtrics makes survey design straightforward, once the data are collected, there is a lot of work to do. Fortunately, two R packages ([qualtRics](https://docs.ropensci.org/qualtRics/)[^1] and [excluder](https://docs.ropensci.org/excluder/)[^2]) can make importing data and excluding low-quality data easier.

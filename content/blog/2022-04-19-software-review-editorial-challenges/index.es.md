@@ -6,15 +6,17 @@ author:
 date: '2022-04-19T00:00:01-07:00'
 slug: software-review-editorial-challenges-es
 tags:
-- revisión de software
+- revisión por pares de software
 - equipo editorial
 package_version: 0.1.0
 description: Un detalle de los desafíos que enfrentan nuestro equipo editorial y las medidas que hemos
   tomado para mitigarlos.
 featured: no
+params:
+  doi: "10.59350/b54f4-qg009"
 ---
 
-Los procesos de [revisión de software](/software-review/) y [revisión de software estadístico](/stat-software-review/) que realizamos en rOpenSci dependen del trabajo voluntario de quienes realizan estas tareas de revisión y edición.
+Los procesos de [revisión de software](/software-review/) y [revisión de software estadístico](/software-review/) que realizamos en rOpenSci dependen del trabajo voluntario de quienes realizan estas tareas de revisión y edición.
 El equipo editorial gestiona el flujo diario de envíos, recluta personas para revisar y guía el proceso de revisión por pares de principio a fin. (Su función, al igual que gran parte de nuestro proceso, está [explicado en la Guía de desarrollo de rOpenSci](https://devguide.ropensci.org/editorguide.html)). Aunque muchos miembros de nuestra comunidad ya han participado en el proceso de revisión por pares, sólo unos pocos han participado en los roles de edición. En este artículo queremos mostrar algunos de los desafíos a los que se enfrenta nuestro equipo editorial, y algunas de las soluciones que hemos encontrado a lo largo de los años, para hacer más transparente esta parte de nuestro trabajo.
 
 ## Decisiones sobre el alcance

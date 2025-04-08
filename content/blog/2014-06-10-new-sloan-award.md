@@ -5,6 +5,8 @@ date: '2014-06-10'
 author: Karthik Ram
 tags:
   - funding
+params:
+  doi: "10.59350/j3q9b-6ga76"
 ---
 
 We're delighted to announce that we have received additional funding from the [Sloan Foundation](https://www.sloan.org/) to [continue](/blog/2013/06/12/sloan/) and expand our efforts from the past year.

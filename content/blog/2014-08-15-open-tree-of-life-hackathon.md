@@ -5,6 +5,8 @@ date: '2014-08-15'
 author: David Winter
 tags:
   - conference
+params:
+  doi: "10.59350/nkqwd-pp651"
 ---
 
 The [Open Tree of Life project](http://opentreeoflife.org) aims to synthesize our combined knowledge of how organisms relate to each other, and make the results available to anyone who wants to use them. At present, the project  contains data from more than 4,000 published phylogenies, which combine with other data sources to make [a tree that covers 2.5 million species](https://tree.opentreeoflife.org/).

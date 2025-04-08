@@ -17,6 +17,8 @@ output:
   md_document:
     variant: markdown_github
     preserve_yaml: yes
+params:
+  doi: "10.59350/ab7nx-wr713"
 ---
 
 Our [onboarding

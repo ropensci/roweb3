@@ -8,6 +8,7 @@ slug: ropensci-news-march-2024
 description: Leadership changes at rOpenSci, multilingual dev guide, new packages and package news
 params:
   last_newsletter: "2024-02-23"
+  doi: "10.59350/9ng7h-kke80"
 ---
 
 

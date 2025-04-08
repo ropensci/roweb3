@@ -13,6 +13,8 @@ tags:
   - testthat
 slug: how-i-test-cffr
 tweet: How I test cffr on ~2,000 packages using GitHub Actions & R-universe by @dhernangomez
+params:
+  doi: "10.59350/8bpby-4aw08"
 ---
 
 When GitHub announced [support for CITATION.cff

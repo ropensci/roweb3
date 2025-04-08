@@ -19,6 +19,8 @@ description: "The 'HTTP testing in R' book has been updated. Useful for develope
 output: 
   html_document:
     keep_md: true
+params:
+  doi: "10.59350/4g62n-khf69"
 ---
 
 More and more R packages access resources on the web, and play crucial roles in workflows.

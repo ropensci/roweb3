@@ -10,6 +10,8 @@ tags:
   - articles
   - docs
   - tech notes
+params:
+  doi: "10.59350/8frpr-cqd95"
 ---
 
 __TLDR:__ As of today, the pkgdown sites for all rOpenSci packages on our [docs server](https://docs.ropensci.org/) are built on [r-universe](https://ropensci.r-universe.dev). This is an internal change; no action is required for package maintainers.

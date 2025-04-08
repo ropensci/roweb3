@@ -5,7 +5,6 @@
    "image" : "/img/team/noam_ross.png",
    "affiliation" : "Executive Director",
    "roles": [
-      "Software Review Lead",
       "editor"
    ],
    "generalreview": true,
@@ -54,6 +53,9 @@
       "researcher",
       "developer"
    ],
+   "leads": [
+     "r-universe"
+   ],
    "twitter": "opencpu",
    "mastodon": "https://fosstodon.org/@jeroenooms",
    "github": "jeroen",
@@ -81,6 +83,10 @@
    "roles": [
       "staff"
    ],
+   "leads": [
+     "champions",
+     "multilingual-publishing"
+   ],
    "mastodon": "https://fosstodon.org/@yabellini",
    "linkedin": "https://www.linkedin.com/in/yabellini",
    "github": "yabellini",
@@ -88,17 +94,19 @@
 },
 {
    "name": "Mark Padgham",
-   "affiliation": "Software Research Scientist",
+   "affiliation": "Software Review Lead",
    "url": "/author/mark-padgham",
    "image" : "/img/team/mark-padgham.jpg",
    "roles": [
       "staff",
-      "researcher",
-      "developer",
       "editor"
+   ],
+   "leads": [
+     "software-review"
    ],
    "stats": true,
    "mastodon": "https://nerdculture.de/@mpadge",
+   "bluesky": "mpadge.bsky.social",
    "github": "mpadge",
    "home": "/author/mark-padgham"
 },
@@ -113,10 +121,17 @@
       "developer",
       "editor"
    ],
+   "participates": [
+     "champions",
+     "software-review",
+     "multilingual-publishing",
+     "r-universe"
+   ],
    "generalreview": true,
    "mastodon": "https://mastodon.social/@maelle",
    "github": "maelle",
-   "home": "/author/maëlle-salmon"
+   "home": "/author/maëlle-salmon",
+   "bluesky": "maellesalmon.bsky.social"
 },
 {
    "name": "Steffi LaZerte",

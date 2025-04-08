@@ -11,6 +11,8 @@ tags:
   - unconf
   - unconf17
   - welcome
+params:
+  doi: "10.59350/wj79v-4sm89"
 ---
 
 What's that? You've heard of R? You use R? You develop in R? You know someone else who's mentioned R? Oh, you're breathing? Well, in that case, welcome! Come join the R community!
@@ -56,9 +58,8 @@ No community is perfect, and being willing to consider our shortcomings and thin
 - Also, it's often easier to defend on behalf of someone else than it is on one's own behalf. Keep that in mind if you see negative things happening, and consider defending on someone else's behalf.
 - Having a code of conduct is important. [rOpenSci has one](https://ropensci.org/code-of-conduct/), and we like it a whole lot.
 
-And, when times get tough, look to your community. Get out there. Be active. Communicate with one another. [Tim Phan](https://twitter.com/timothy_phan) brilliantly summarized the importance of action and community in this thread:
+And, when times get tough, look to your community. Get out there. Be active. Communicate with one another. _Tim Phan_ brilliantly summarized the importance of action and community in this thread:
 
-{{< tweet user="timothy_phan" id="868231965266325504" >}}
 
 ## Thank you
 

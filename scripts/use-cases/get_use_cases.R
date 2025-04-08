@@ -6,7 +6,8 @@ library("magrittr")
     x
   }
 }
-key <- Sys.getenv("DISCOURSE_API_KEY")
+key <- keyring::key_get("discourse")
+Sys.setenv("DISCOURSE_API_KEY" = key)
 user <- Sys.getenv("DISCOURSE_USERNAME")
 get_one_page <- function(page) {
   print(page)

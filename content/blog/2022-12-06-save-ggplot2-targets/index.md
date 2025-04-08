@@ -24,6 +24,8 @@ description: "A short exploration of how to save ggplot2 objects in targets work
 # the text below is for populating the "share on Mastodon" button
 # if deleted, the title of the post will be used
 tweet: "A post about saving efficiently {ggplot2} objects in a {targets} workflow by @LeNematode!"
+params:
+  doi: "10.59350/80sds-6kd54"
 ---
 
 

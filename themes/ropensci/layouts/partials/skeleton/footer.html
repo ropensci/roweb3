@@ -4,33 +4,32 @@
         <!-- Footer nav -->
         <div class="footer-nav">
           <ul class="footer-nav__item">
-            <li><a class="footer-nav__link" lang="en" href="/about/">About</a></li>
-            <li><a class="footer-nav__link" lang="en" href="/about/">About rOpenSci</a></li>
-            <li><a class="footer-nav__link" lang="en" href="/software-review/">Software Review Process</a></li>
-            <li><a class="footer-nav__link" lang="en" href="/about/#team">Our Team</a></li>
+            <li>{{ partial "translate-url" (dict "name" "about" "Site" .Site  "class" "footer-nav__link")}}{{ i18n "About" }}</a></li>
+            <li>{{ partial "translate-url" (dict "name" "about" "Site" .Site  "class" "footer-nav__link")}}rOpenSci</a></li>
+            <li>{{ partial "translate-url" (dict "name" "software-review" "Site" .Site  "class" "footer-nav__link")}}{{ i18n "Software-Peer-Review" }}</a></li>
+            <li>{{ partial "translate-url" (dict "name" "about" "Site" .Site  "class" "footer-nav__link" "fragment" "#team" )}}{{ i18n "Our-Team" }}</a></li>
             <li>
-              <a class="footer-nav__link" lang="en" href="/careers/">Jobs {{ if partial "careers/we-are-hiring" . }}<strong>We’re Hiring!</strong>{{ end }}</a>
+              {{ partial "translate-url" (dict "name" "careers" "Site" .Site "class" "footer-nav__link")}}{{ i18n "Careers" }}{{ if partial "careers/we-are-hiring" . }} <strong>{{ i18n "We-are-hiring" }}</strong>{{ end }}</a>
             </li>
-            <li><a class="footer-nav__link" lang="en" href="/donate/">Donate</a></li>
-            <li><a class="footer-nav__link" lang="en" href="/contact/">Contact Us</a></li>
+            <li>{{ partial "translate-url" (dict "name" "donate" "Site" .Site  "class" "footer-nav__link")}}{{ i18n "Donate" }}</a></li>
+            <li>{{ partial "translate-url" (dict "name" "contact" "Site" .Site  "class" "footer-nav__link")}}{{ i18n "Contact" }}</a></li>
           </ul>
           <ul class="footer-nav__item">
-            <li><a class="footer-nav__link" lang="en" href="/community/">Community</a></li>
-            <li><a class="footer-nav__link" lang="en" href="/community/">Our Community</a></li>
-            <li><a class="footer-nav__link" lang="en" href="/commcalls/">Community Calls</a></li>
-            <li><a class="footer-nav__link" lang="en" href="/events/">Events</a></li>
-            <li><a class="footer-nav__link external-link" lang="en" href="https://discuss.ropensci.org/">Join the Discussion</a></li>
-            <li><a class="footer-nav__link" lang="en" href="/code-of-conduct/">Code of Conduct (EN)</a></li>
-            <li><a class="footer-nav__link" lang="es" href="/es/codigo-de-conducta/">Código de Conducta (ES)</a></li>
+            <li>{{ partial "translate-url" (dict "name" "community" "Site" .Site "class" "footer-nav__link")}}{{ i18n "Community" }}</a></li>
+            <li>{{ partial "translate-url" (dict "name" "community" "Site" .Site "class" "footer-nav__link")}}{{ i18n "Community" }}</a></li>
+            <li>{{ partial "translate-url" (dict "name" "commcalls" "Site" .Site "class" "footer-nav__link")}}{{ i18n "Community-calls" }}</a></li>
+            <li>{{ partial "translate-url" (dict "name" "events" "Site" .Site  "class" "footer-nav__link")}}{{ i18n "Events" }}</a></li>
+            <li><a class="footer-nav__link external-link" lang="en" href="https://discuss.ropensci.org/">{{ i18n "Join-the-Discussion" }}</a></li>
+            <li><a class="footer-nav__link" lang="en" href="{{ relLangURL (i18n "Code-of-Conduct" | urlize)}}">{{ i18n "Code-of-Conduct" }}</a></li>
           </ul>
           <ul class="footer-nav__item">
-            <li><a class="footer-nav__link" lang="en" href="/resources/">Resources</a></li>
-            <li><a class="footer-nav__link" lang="en" href="/packages/">Packages</a></li>
-            <li><a class="footer-nav__link" lang="en" href="/usecases/">Use Cases</a></li>
-            <li><a class="footer-nav__link" lang="en" href="/resources/">Talks & Publications</a></li>
-            <li><a class="footer-nav__link external-link" lang="en" href="https://docs.ropensci.org/">Documentation</a></li>
-            <li><a class="footer-nav__link" lang="en" href="/news/">Newsletter</a></li>
-            <li><a class="footer-nav__link" lang="en" href="/how-to-cite-ropensci/">Cite rOpenSci</a></li>
+            <li>{{ partial "translate-url" (dict "name" "resources" "Site" .Site  "class" "footer-nav__link")}}{{ i18n "Resources" }}</a></li>
+            <li>{{ partial "translate-url" (dict "name" "packages" "Site" .Site  "class" "footer-nav__link")}}{{ i18n "Packages" }}</a></li>
+            <li>{{ partial "translate-url" (dict "name" "usecases" "Site" .Site  "class" "footer-nav__link")}}{{ i18n "Use-Cases" }}</a></li>
+            <li>{{ partial "translate-url" (dict "name" "talks-papers" "Site" .Site  "class" "footer-nav__link")}}{{ i18n "Talks-Publications" }}</a></li>
+            <li><a class="footer-nav__link external-link" lang="en" href="https://docs.ropensci.org/">{{ i18n "Documentation" }}</a></li>
+            <li><a class="footer-nav__link" lang="en" href="/news/">{{ i18n "Newsletter" }}</a></li>
+            <li>{{ partial "translate-url" (dict "name" "how-to-cite-ropensci" "Site" .Site  "class" "footer-nav__link")}}{{ i18n "Cite-rOpenSci" }}</a></li>
           </ul>
         </div>
 
@@ -74,6 +73,11 @@
             </a>
           </li>
           <li>
+            <a lang="en" href="https://ror.org/019jywm96" aria-label="Research Organization Registry profile for rOpenSci">
+              <img class="footer-social__icon" src="/images/svg/social-icons/ror.svg" alt="" />
+            </a>
+          </li>
+          <li>
             <a lang="en" href="https://github.com/ropenscilabs" aria-label="GitHub account for rOpenSci incubator projects">
               <img class="footer-social__icon" src="/images/svg/social-icons/el.svg" alt="" />
             </a>
@@ -99,8 +103,8 @@
         </ul>
         <!-- Footer copy -->
         <p class="footer-copy text-md-center">
-          Except where otherwise noted, content on this site is licensed under the CC-BY license •
-          <a lang="en" href="/privacy/">Privacy Policy</a> • <a href="#" id="cookielink">Cookies</a>
+          {{ i18n "cc-by-text" }} •
+          <a lang="en" href="/privacy/">{{ i18n "Privacy-Policy" }}</a> • <a href="#" id="cookielink">Cookies</a>
         </p>
       </div>
     </footer>

@@ -4,20 +4,26 @@
         <a href="{{ .url }}" class="user-name">{{ .name }}</a>
         {{ with .affiliation }}
         <div class="user-role">
-           {{ . }}
+           {{ partial "translate" . }}
         </div>
           {{ end }}
           {{ if (ne .roles nil ) }}
           {{ if and (ne (delimit .roles "") "advisor") (ne (delimit .roles "") "fellow") }}
         <div class="user-position">
-          {{ delimit .roles " • " }}
+              {{ range $i, $e := .roles }}
+		          {{ if $i }} • {{ end }}
+		          {{ partial "translate" $e }}
+		          {{ end }}
         </div>
         {{ end }}
         {{ end }}
         {{ if eq .roles nil }}
           {{ with .past_roles }}
         <div class="user-position">
-          {{ delimit . " • " }}
+              {{ range $i, $e := . }}
+		          {{ if $i }} • {{ end }}
+		          {{ partial "translate" $e }}
+		          {{ end }}
         </div>
         {{ end }}
         {{ end }}

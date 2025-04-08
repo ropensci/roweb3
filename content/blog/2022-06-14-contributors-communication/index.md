@@ -9,6 +9,8 @@ tags:
   - community
 description: How we interact with volunteer maintainers. 
 tweet: "How we interact with volunteer maintainers. Post by @ma_salmon (@rOpenSci) and @ZKamvar (@thecarpentries)"
+params:
+  doi: "10.59350/z329k-sqn35"
 ---
 
 _Zhiam Kamvar is Lesson Infrastructure Technology Developer at [The Carpentries](https://carpentries.org/) (Software Carpentry, Data Carpentry & Library Carpentry), an open global community teaching the skills & perspectives to turn data into knowledge.[^tinkr]_

@@ -14,6 +14,8 @@ tags:
   - ozunconf
   - ozunconf18
   - community
+params:
+  doi: "10.59350/2xca5-wen48"
 ---
 
 ### Why vitae?
@@ -29,8 +31,6 @@ Having seen several CVs put together into an R Markdown document (including my o
 The `vitae` package leverages the dynamic nature of R Markdown to quickly produce and update CV entries from a variety of data sources. With use of the included templates, examples and helper functions, it should be possible to produce a reasonable looking and data-driven CV in less than an hour. 
 
 Based on the twitter community's response to the package announcement, CV maintenance is just as unenjoyable for others as it is for me! Hopefully this package makes it a little bit easier.
-
-{{< tweet user="mitchoharawild" id="1065851259888914432" >}}
 
 ### Keeping it simple
 

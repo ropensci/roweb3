@@ -9,6 +9,7 @@ tags:
 description: Screen Reader Accessible Tools materials, R-Universe, training resources, coworking, new package and package news
 params:
   last_newsletter: "2024-08-30"
+  doi: "10.59350/wf5av-sam76"
 ---
 
 

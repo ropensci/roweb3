@@ -9,6 +9,7 @@ tags:
 description: rOpenSci Champions Program call for champions and mentors; R-universe search; coworking; community calls; calls for package (co)maintainers
 params:
   last_newsletter: '2022-09-23'
+  doi: "10.59350/7t4w5-nys15"
 ---
 
 
@@ -45,8 +46,6 @@ We will have a [Community Call on October 24th](/commcalls/oct2022-champions/) t
 ### Introducing R-universe power search
 
 Earlier this year we announced [R-universe search](https://ropensci.org/blog/2022/03/23/runiverse-search/) which lets you easily browse and discover R packages across the various R ecosystems. We have now upgraded the search system to support advanced search queries, to search for particular properties of an R package.
-
-{{< tweet user="opencpu" id="1573334441849667584" >}}
 
 Advanced search lets you query packages that specifially match a particular author, maintainer, keyword, or topic. But you can also filter based on metadata derived by the build system, for example packages that contain a particular function or dataset, or packages with a particular contributor or dependency.
 

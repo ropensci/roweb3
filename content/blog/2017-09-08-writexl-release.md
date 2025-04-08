@@ -10,6 +10,8 @@ tags:
   - excel
   - xlsx
   - tech notes
+params:
+  doi: "10.59350/tn5x2-a8x92"
 ---
 
 We have started working on a new rOpenSci package called [writexl](https://github.com/ropensci/writexl#readme). This package wraps the very powerful [libxlsxwriter](https://libxlsxwriter.github.io/) library which allows for exporting data to Microsoft Excel format.

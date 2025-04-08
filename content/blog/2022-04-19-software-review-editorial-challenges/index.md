@@ -11,9 +11,11 @@ tags:
 package_version: 0.1.0
 description: Challenges encountered by editors, and the measures we've taken to try to alleviate said problems.
 featured: true
+params:
+  doi: "10.59350/yttbb-78v90"
 ---
 
-rOpenSci [Software Peer Review](/software-review/) and [Statistical Software Peer Review](/stat-software-review/) rely on the volunteer work of reviewers, and editors.
+rOpenSci [Software Peer Review](/software-review/) and [Statistical Software Peer Review](/software-review/) rely on the volunteer work of reviewers, and editors.
 Editors manage the day-to-day flow of submissions, recruit reviewers and guide the peer-review process from start to finish.  (Their role, like much of our process, is [codified in the rOpenSci Developer Guide](https://devguide.ropensci.org/editorguide.html)).   While many in our community have participated in the peer-review process, only a few have been involved as editors and guest editors. Here we thought we'd shed some light on some of challenges our editors face, and some of the solutions we have found over the years, to make this part our work more transparent.
 
 ## Scope decisions 

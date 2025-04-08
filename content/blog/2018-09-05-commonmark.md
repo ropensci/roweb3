@@ -14,6 +14,8 @@ output:
   md_document:
     variant: markdown_github
     preserve_yaml: yes
+params:
+  doi: "10.59350/qsf4h-aqv65"
 ---
 
 You might have read [my blog post analyzing the social weather of
@@ -58,7 +60,7 @@ hacky way.”. If you have code falling under the definition below, maybe
 try to re-factor and if needed [get
 help](https://masalmon.eu/2018/07/22/wheretogethelp/).
 
-{{< tweet user="apreshill" id="1035526182392000514" >}}
+> It’s that feeling when you want to do something that sounds simple but instead your code is like 10 stack overflow snippets slapped together that you could never explain to another human what they do 😰 — Alison Hill - August 31, 2018
 
 From Markdown to XML
 --------------------

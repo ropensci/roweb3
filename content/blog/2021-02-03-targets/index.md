@@ -23,6 +23,8 @@ twitterAlt: "targets hex logo"
 output: 
   html_document:
     keep_md: true
+params:
+  doi: "10.59350/bbx9k-qgh44"
 ---
 
 

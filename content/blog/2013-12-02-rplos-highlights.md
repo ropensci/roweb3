@@ -7,6 +7,8 @@ tags:
   - textmining
   - API
   - PLOS
+params:
+  doi: "10.59350/hhc04-p9x84"
 ---
 
 `rplos` is an R package to facilitate easy search and full-text retrieval from all Public Library of Science (PLOS) articles, and we have a little feature which aren't sure if is useful or not. I don't actually do any text-mining for my research, so perhaps text-mining folks can give some feedback.

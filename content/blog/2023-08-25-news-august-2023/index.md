@@ -8,6 +8,7 @@ slug: news-august-2023
 description: Open Call for Champions program, community call in Spanish and English, coworking
 params:
   last_newsletter: "2023-07-21"
+  doi: "10.59350/v4wbc-77957"
 ---
 
 

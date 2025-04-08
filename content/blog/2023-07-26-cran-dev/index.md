@@ -8,6 +8,8 @@ tags:
   - r-universe
   - tech notes
   - packages
+params:
+  doi: "10.59350/wc62s-wqc30"
 ---
 
 ## Introducing cran.dev shortlinks!
