@@ -127,7 +127,7 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 
 
-* [Participación  Latinoamérica en el Programa de Campeonas y Campeones de rOpenSci](/es/blog/2024/01/09/champions-program-latinr) by Yanina Bellini Saibene, Elio Campitelli, Marcos Prunello, Mauro Lepore, Haydee Svab, Beatriz Milz, Carolina Pradier, Cesar Luis Aybar Camacho, and Pao Corrales. Detalles de la participación latinoamericana en el primer año del programa de campeonas y campeones de rOpenSci.
+* [Participación  Latinoamérica en el Programa de Campeonas y Campeones de rOpenSci](/es/blog/2024/01/09/champions-program-latinr) by Yanina Bellini Saibene, Elio Campitelli, Marcos Prunello, Mauro Lepore, Haydée Svab, Beatriz Milz, Carolina Pradier, Cesar Luis Aybar Camacho, and Pao Corrales. Detalles de la participación latinoamericana en el primer año del programa de campeonas y campeones de rOpenSci.
 
 * [rOpenSci 2023 Code of Conduct Transparency Report](/blog/2024/01/12/transparency2023) by Yanina Bellini Saibene, Mark Padgham, and Kara Woo. rOpenSci 2023 Code of Conduct Transparency Report.
 

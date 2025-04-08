@@ -143,11 +143,7 @@ ice_sf <- ice_sf %>%
 ice_sf
 ```
 
-Here it's important to use `do_union = FALSE` because we don't want the order of the points to change (otherwise when we plot we'll get [@accidental__aRt](https://twitter.com/accidental__aRt)!)
-
-{{< tweet 1374726320047980549 >}}
-
-
+Here it's important to use `do_union = FALSE` because we don't want the order of the points to change (otherwise when we plot we'll get [@accidental__aRt](https://blog.revolutionanalytics.com/2014/07/accidental-art.html)!)
 
 Let's take a peak at what we've got
 
