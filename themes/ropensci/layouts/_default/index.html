@@ -4,7 +4,7 @@
 <!-- Hero divider -->
 </div>
 {{ $.Scratch.Set "counter" 0}}
-{{ $partials := (slice "review" "r-universe" "champions" "community" "packages/packages" "news" "newsletter" "brands") }}
+{{ $partials := (slice "review" "r-universe" "champions" "community" "multilingual" "packages/packages" "news" "newsletter" "brands") }}
 {{ $Site := .Site }}
 {{ range $partials }}
   {{ $counter := $.Scratch.Get "counter" }}
