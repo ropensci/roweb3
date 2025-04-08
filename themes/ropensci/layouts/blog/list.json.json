@@ -22,16 +22,18 @@
      {{ else }}
        {{  $data.Set "authors" (slice .Params.author) }}
     {{ end }}
+    {{ if isset .Params "editor" }}
   		{{ if eq (substr (jsonify .Params.editor) 0 1) "[" }}
         {{ $data.Set "editors" .Params.editor }}
      {{ else }}
        {{  $data.Set "editors" (slice .Params.editor) }}
     {{ end }}
+    {{ end }}
 			{
 				"id": "{{ printf "https://doi.org/%s" .Params.doi }}",
 				"title": "{{ .Title }}",
 				"language" : "{{ .Lang }}",
-				"authors": [{{ $editors := ($data.Get "editors") }}{{ if gt (len $editors) 0 }}{{ range $i, $e := ($data.Get "editors") }}{{ range first 1 (where ($data.Get "pages") ".Params.name" $e) }}{{ $params := .Params }}{{ $name := $params.name }}{{ range first 1 (where ($data.Get "pages") ".Params.name" $e) }}
+				"authors": [{{ $editors := ($data.Get "editors") }}{{ if isset .Params "editor" }}{{ range $i, $e := ($data.Get "editors") }}{{ range first 1 (where ($data.Get "pages") ".Params.name" $e) }}{{ $params := .Params }}{{ $name := $params.name }}{{ range first 1 (where ($data.Get "pages") ".Params.name" $e) }}
 				{
       "name": "{{ $name }}",
       "url": "{{ if isset .Params "orcid" }}https://orcid.org/{{ .Params.orcid }}{{ else }}{{ .Permalink }}{{ end }}",
