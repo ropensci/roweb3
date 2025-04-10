@@ -85,7 +85,11 @@
    ],
    "leads": [
      "champions",
-     "multilingual-publishing"
+     "multilingual-publishing",
+     "commcalls"
+   ],
+   "participates": [
+      "blog"
    ],
    "mastodon": "https://fosstodon.org/@yabellini",
    "linkedin": "https://www.linkedin.com/in/yabellini",
@@ -141,6 +145,13 @@
    "roles": [
       "staff",
       "developer"
+   ],
+   "leads": [
+      "coworking"
+   ],
+   "participates": [
+      "blog",
+      "commcalls"
    ],
    "twitter": "steffilazerte",
    "mastodon": "https://fosstodon.org/@steffilazerte",

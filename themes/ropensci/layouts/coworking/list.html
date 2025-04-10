@@ -2,9 +2,17 @@
 <section class="section section-community-calls">
   <div class="container">
     <!-- Header text -->
-    <div class="row">
+    <div class="row mb-5">
       <div class="col-md-8">
         <h1>{{ .Title }}</h1>
+        <div class="pmt">
+        {{ .Params.description | markdownify }}
+        </div>
+        </div>
+        <div class="col-md-4 mt-4">
+          <aside>
+          {{ partial "team/people" (dict "project" "coworking" "Site" .Site )}}
+          </aside>
         </div>
       </div>
     <div class="row">
