@@ -29,7 +29,7 @@
 				"authors": [{{ range $i, $e := ($data.Get "authors") }}{{ range first 1 (where ($data.Get "pages") ".Params.name" $e) }}{{ $params := .Params }}{{ $name := $params.name }}{{ if $i }}, {{ end }}{{ range first 1 (where ($data.Get "pages") ".Params.name" $e) }}
 				{
       "name": "{{ $name }}",
-      "url": "{{ .Permalink }}",
+	  {{ with .Params.orcid }}"url": "https://orcid.org/{{ . }}" ,{{ end }}
       "avatar": "{{ ( partial "blogs/author-img" . ) }}"
     }{{ end }}{{ end }}{{ end }}],
 				{{ with .Params.tags }} "tags": {{ . | uniq | jsonify}},{{ end }}
