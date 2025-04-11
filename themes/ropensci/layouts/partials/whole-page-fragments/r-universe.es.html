@@ -6,25 +6,80 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <h2 class="title" id = "r-universe">Universo R</h2>
+            <h2 class="title" id = "r-universe">{{ with .divider }}
+              {{ partial "whole-page-fragments/divider" . }}
+            {{ end }}
+                <!-- Community section -->
+                <section class="section community">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <h2 class="title" id = "r-universe">The R-universe project</h2>
+                        <p class="subtitle">
+                          R-universe is rOpenSci’s platform for improving publication and discovery of research software in R.
+                        </p>
+                        <a class="link-arrow" href="/r-universe"><span>Find out more</span></a>
+                      </div>
+                      <div class="col-md-6">
+                         <img src="{{ "images/pexels-pixabay-2159.jpg" | relURL }}" alt="A rocket." style="width: 33vw;"/> 
+                      </div>
+                    </div>
+                    <div class="row soft-cards cards">
+                      <div class="col-md-4">
+                        <div class="card">
+                          <div class="card-body">
+                            <h5 class="card-title">Browse</h5>
+                            <p class="card-text">
+                              Discover and use packages.
+                            </p>
+                            <a class="card-link link-arrow" href="https://r-universe.dev/search"><span>Dashboard</span></a>
+                          </div>
+                        </div>
+                      </div>
+            
+                      <div class="col-md-4">
+                        <div class="card">
+                          <div class="card-body">
+                            <h5 class="card-title">Learn</h5>
+                            <p class="card-text">
+                              R-universe documentation.
+                            </p>
+                            <a class="card-link link-arrow" href="https://docs.r-universe.dev/"><span>Docs</span></a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card">
+                          <div class="card-body">
+                            <h5 class="card-title">Contribute</h5>
+                            <p class="card-text">
+                              Bug reports and feature requests. 
+                            </p>
+                            <a class="card-link link-arrow" href="https://github.com/r-universe-org/help/discussions"><span>Forum</span></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section></h2>
             <p class="subtitle">
-              R-universe is our next-generation platform for discovering R tools, learning from documentation, developing and testing packages, and publishing your own collections. R-Universe's technology lets individuals, organizations, and consortia manage their own repositories at any scale.
+              R-universe es nuestra plataforma de próxima generación para descubrir herramientas R, aprender de la documentación, desarrollar y probar paquetes y publicar sus propias colecciones. La tecnología de R-Universe permite a particulares, organizaciones y consorcios gestionar sus propios repositorios a cualquier escala.
             </p>
-            <a class="link-arrow" href="/r-universe"><span>Find out more</span></a>
+            <a class="link-arrow" href="/r-universe"><span>Más información</span></a>
           </div>
           <div class="col-md-6">
-             <img src="{{ "images/pexels-pixabay-2159.jpg" | relURL }}" alt="A rocket." /> 
+             <img src="{{ "images/pexels-pixabay-2159.jpg" | relURL }}" alt="Un cohete." style="width: 33vw;"/> 
           </div>
         </div>
         <div class="row soft-cards cards">
           <div class="col-md-4">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Browse R-universe</h5>
+                <h5 class="card-title">Visite</h5>
                 <p class="card-text">
-                  Discover use packages.
+                  Descubre y utiliza paquetes.
                 </p>
-                <a class="card-link link-arrow" href="/r-universe"><span>The Platform</span></a>
+                <a class="card-link link-arrow" href="https://r-universe.dev/search"><span>Dashboard</span></a>
               </div>
             </div>
           </div>
@@ -32,22 +87,22 @@
           <div class="col-md-4">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Posts about R-universe</h5>
+                <h5 class="card-title">Aprende</h5>
                 <p class="card-text">
-                  Updates from the rOpenSci blog:
+                  Documentación de R-universe.
                 </p>
-                <a class="card-link link-arrow" href="/tags/r-universe/"><span>Posts</span></a>
+                <a class="card-link link-arrow" href="https://docs.r-universe.dev/"><span>Documentación</span></a>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Discussions</h5>
+                <h5 class="card-title">Contribuye</h5>
                 <p class="card-text">
-                  Bug reports and feature requests. 
+                  Informes de errores y solicitudes de funciones.
                 </p>
-                <a class="card-link link-arrow" href="https://github.com/r-universe-org/help/discussions"><span>Participate</span></a>
+                <a class="card-link link-arrow" href="https://github.com/r-universe-org/help/discussions"><span>Forum</span></a>
               </div>
             </div>
           </div>
