@@ -4,7 +4,15 @@
     <!-- Header text -->
     <div class="row">
       <div class="col-md-8">
-        <h1>{{ .Title }}</h1>
+        <h1 style="white-space: nowrap;">{{ .Title }}</h1>
+        <div class="pmt">
+          {{ .Params.description | markdownify }}
+          </div>
+        </div>
+        <div class="col-md-4 mt-4">
+          <aside>
+          {{ partial "team/people" (dict "project" "commcalls" "Site" .Site )}}
+          </aside>
         </div>
       </div>
     <div class="row">

@@ -7,6 +7,11 @@
             <h1>{{ .Title }}</h1>
             {{ .Content }}
           </div>
+          <div class="col-lg-4 mt-4">
+              <aside>
+                  {{ partial "team/people" (dict "project" "software-review" "Site" .Site )}}
+              </aside>
+          </div>
         </div>
 
         <h2 class="title mt-5">{{ i18n "Resources" }}</h2>

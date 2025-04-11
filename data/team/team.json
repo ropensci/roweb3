@@ -53,6 +53,9 @@
       "researcher",
       "developer"
    ],
+   "leads": [
+     "r-universe"
+   ],
    "twitter": "opencpu",
    "mastodon": "https://fosstodon.org/@jeroenooms",
    "github": "jeroen",
@@ -80,6 +83,14 @@
    "roles": [
       "staff"
    ],
+   "leads": [
+     "champions",
+     "multilingual-publishing",
+     "commcalls"
+   ],
+   "participates": [
+      "blog"
+   ],
    "mastodon": "https://fosstodon.org/@yabellini",
    "linkedin": "https://www.linkedin.com/in/yabellini",
    "github": "yabellini",
@@ -93,6 +104,9 @@
    "roles": [
       "staff",
       "editor"
+   ],
+   "leads": [
+     "software-review"
    ],
    "stats": true,
    "mastodon": "https://nerdculture.de/@mpadge",
@@ -111,6 +125,12 @@
       "developer",
       "editor"
    ],
+   "participates": [
+     "champions",
+     "software-review",
+     "multilingual-publishing",
+     "r-universe"
+   ],
    "generalreview": true,
    "mastodon": "https://mastodon.social/@maelle",
    "github": "maelle",
@@ -125,6 +145,13 @@
    "roles": [
       "staff",
       "developer"
+   ],
+   "leads": [
+      "coworking"
+   ],
+   "participates": [
+      "blog",
+      "commcalls"
    ],
    "twitter": "steffilazerte",
    "mastodon": "https://fosstodon.org/@steffilazerte",

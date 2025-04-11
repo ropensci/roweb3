@@ -80,7 +80,9 @@
         </div>
       </div>
       <div class="col-md-3 d-none d-md-block">
-      {{ partial "blogs/blog-aside" }}
+      {{ partial "team/people" (dict "project" "blog" "Site" .Site )}}
+      {{ $partial := (partial "translate-path" (dict "name" "blogs/blog-aside" "language" .Site.Language.Lang )) }}
+      {{ partial $partial }}
       </div>
     </div>
   </div>

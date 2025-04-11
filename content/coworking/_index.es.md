@@ -1,11 +1,11 @@
-+++
-title = "Sesiones de trabajo"
-+++
-
-**Participa en nuestras reuniones de co-trabajo, socialización y horas de oficina los primeros martes de cada mes.
-Organizado por la Asistente de la Comunidad de rOpenSci [Steffi LaZerte](/author/steffi-lazerte) y varias personas de la comunidad que participan como anfitriones.
-Todas las personas son bienvenidas.
-No es necesario inscribirse.**
+---
+title: "Sesiones de trabajo"
+description: |
+    Participa en nuestras reuniones de co-trabajo, socialización y horas de oficina los primeros martes de cada mes.
+    Organizado por la Asistente de la Comunidad de rOpenSci [Steffi LaZerte](/author/steffi-lazerte) y varias personas de la comunidad que participan como anfitriones.
+    Todas las personas son bienvenidas.
+    No es necesario inscribirse.
+---
 
 Nos reunimos durante dos horas, nos presentamos y trabajamos. Puedes elegir
 trabajar por tu cuenta o socializar eligiendo diferentes "salas" (Silenciosa o Ruidosa).
