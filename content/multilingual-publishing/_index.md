@@ -6,7 +6,7 @@ tags = ["multilingual"]
 
 Open Source and Open Science are global movements, but most of their material and resources are published in English. Non-English speakers face a significant barrier to being part of these movements. 
 
-We are embarking on an effort to translate rOpenSci’s material on best practices for software development, code review, and contribution to open source projects beyond the English language. As part of this effort we also develop guidelines for translating open source resources to a wider audience.
+We embarked on an effort to translate rOpenSci’s material on best practices for software development, code review, and contribution to open source projects beyond the English language. As part of this effort we also develop guidelines for translating open source resources to a wider audience.
 
 Publishing multilingual resources can lower the barrier to access to knowledge, help democratize access to quality resources and increase the possibilities of contributing to software and open science projects. 
 

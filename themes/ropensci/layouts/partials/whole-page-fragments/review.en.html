@@ -1,13 +1,15 @@
-{{ partial "whole-page-fragments/divider" .divider }}
+{{ with .divider }}
+  {{ partial "whole-page-fragments/divider" . }}
+{{ end }}
 
     <!-- Review section   -->
     <section class="section soft-review d-none d-md-block">
       <div class="container">
-        <h2 class="title">Our Software Review Process</h2>
+        <h2 class="title" id="review">Our Software Review Process</h2>
         <p class="subtitle">
-          Our suite of packages is comprised of contributions from staff engineers and the wider R
+          rOpenSci's Software Peer Review is a mechanism to validate high-quality packages, improve best practices and skills in the research software community, and build collaborations and
           community via a transparent, constructive and open review process utilising GitHub's open
-          source infrastructure.
+          source infrastructure.  Through it we have assembled a suite of hundreds of tools to support open science, and a community of package authors, reviewers, and maintainers to sustain them.
         </p>
         <a class="link-arrow package-cta" href="/software-review"><span>Find out more</span></a>
 
@@ -34,12 +36,12 @@
                 <div class="card-icon">
                   <img src="./images/svg/software-review/guidance.svg" alt="" />
                 </div>
-                <h5 class="card-title">Guidance & Standards</h5>
+                <h5 class="card-title">Software Standards</h5>
                 <p class="card-text">
                   Based on best practices of software development and standards of R, its
                   applications and user base.
                 </p>
-                <a class="card-link link-arrow" href="https://devguide.ropensci.org"><span>View Documentation</span></a>
+                <a class="card-link link-arrow" href="https://devguide.ropensci.org"><span>Our Dev Guide</span></a>
               </div>
             </div>
           </div>
@@ -47,14 +49,13 @@
             <div class="card">
               <div class="card-body">
                 <div class="card-icon">
-                  <img src="/images/svg/software-review/discuss.svg" alt="" />
+                  <img src="/images/svg/software-review/guidance.svg" alt="" />
                 </div>
-                <h5 class="card-title">Active Community</h5>
+                <h5 class="card-title">Statistical Software</h5>
                 <p class="card-text">
-                  Our diverse community of academics, data scientists and developers provide a
-                  platform for shared learning, collaboration and reproducible science
+                  We have expanded our peer review system to include packages that implement statistical algorithms. 
                 </p>
-                <a class="card-link link-arrow" href="/software-reviewer/"><span>Review for rOpenSci</span></a>
+                <a class="card-link link-arrow" href="https://stats-devguide.ropensci.org/"><span>Our Stats Dev Guide</span></a>
               </div>
             </div>
           </div>
