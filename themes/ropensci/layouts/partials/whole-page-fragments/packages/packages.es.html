@@ -1,32 +1,32 @@
    <!-- Packages section   -->
-{{ with .divider }}
-  {{ partial "whole-page-fragments/divider" . }}
-{{ end }}
+   {{ with .divider }}
+   {{ partial "whole-page-fragments/divider" . }}
+ {{ end }} 
     <section class="section-package">
-      <div class="container">
-        <h2 class="title">Our Packages</h2>
-        <p class="subtitle sm subtitle-package">
-          Use our carefully vetted, staff- and community-contributed R software tools that lower barriers to working with local and remote scientific data sources. Combine our tools with the rich ecosystem of R packages.
-        </p>
-        <a class="link-arrow package-cta" href="/packages/all"><span>View all packages</span></a>
-
-        {{ partial "whole-page-fragments/packages/packages-cards" (dict "Site" .Site ) }}
-
-        <div class="row pack-cards">
-          <div class="col-md-6">
-            <a href="/usecases/" class="pack-card">
-              <h4 class="pack-title">Explore Use Cases</h4>
-              <p>Get inspired by real examples of how our packages can be used.</p>
-              <div class="arrow pack-arrow"></div>
-            </a>
-          </div>
-          <div class="col-md-6">
-            <a href="/citations/" class="pack-card">
-              <h4 class="pack-title">Explore Citations</h4>
-              <p>Or browse scientific publications that cited our packages.</p>
-              <div class="arrow pack-arrow"></div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
+       <div class="container">
+         <h2 class="title">Nuestros Paquetes</h2>
+         <p class="subtitle sm subtitle-package">
+          Utilice nuestras herramientas de software R, cuidadosamente examinadas y aportadas por el personal y la comunidad, que dan soporte al ciclo de vida de los datos de investigación y al análisis en una gran variedad de campos científicos. Combine nuestras herramientas con el rico ecosistema de paquetes R.
+         </p>
+         <a class="link-arrow package-cta" href="/packages/all"><span>Ve todos los paquetes</span></a>
+ 
+         {{ partial "whole-page-fragments/packages/packages-cards" (dict "Site" .Site ) }}
+ 
+         <div class="row pack-cards">
+           <div class="col-md-6">
+             <a href="/usecases/" class="pack-card">
+               <h4 class="pack-title">Explora Casos de Uso</h4>
+               <p>Inspírate con ejemplos reales del uso de nuestros paquetes.</p>
+               <div class="arrow pack-arrow"></div>
+             </a>
+           </div>
+           <div class="col-md-6">
+             <a href="/citations/" class="pack-card">
+               <h4 class="pack-title">Explora Citas</h4>
+               <p>O consulte las publicaciones científicas que citan nuestros paquetes.</p>
+               <div class="arrow pack-arrow"></div>
+             </a>
+           </div>
+         </div>
+       </div>
+     </section>
