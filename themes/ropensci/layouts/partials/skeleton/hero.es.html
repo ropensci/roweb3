@@ -7,7 +7,7 @@
               >
                         {{ range first 1 ( where .Site.RegularPages.ByPublishDate.Reverse "Type" "in" .Site.Params.blogs ) }}
           <a href="{{ .Permalink }}"
-                >{{ .Title | markdownify }}</a
+                >{{ .Title }}</a
               >
           {{ end }}
               
@@ -18,15 +18,16 @@
         <div class="container">
           <div class="hero-body">
             <h1 class="hero-title">
-              Cambiando science through open data, software & reproducibility
+              Transformando la ciencia mediante datos abiertos, software y reproducibilidad
             </h1>
             <p>
-              We help develop R packages for the sciences via community driven learning, review and
-              maintenance of contributed software in the R ecosystem
+              rOpenSci fomenta una cultura de investigación abierta y reproducible utilizando datos compartidos y software reutilizable.  Construimos una infraestructura social y técnica para el lenguaje R que permite a investigadores e ingenieros colaborar, compartir y publicar su ciencia, datos y métodos.
             </p>
             <div class="hero-buttons">
-              <a href="/packages" class="btn btn-primary">Browse Our Packages</a>
-              <a href="/about" class="btn btn-primary">Our Mission</a>
+              <a href="#review" class="btn btn-primary">Revisión de Software</a>
+              <a href="#r-universe" class="btn btn-primary">Infraestructura</a>
+              <a href="#champions" class="btn btn-primary">Formación y Tutoría</a>
+              <a href="#multilingual" class="btn btn-primary">Publicación Multilingüe</a>
             </div>
           </div>
         </div>
