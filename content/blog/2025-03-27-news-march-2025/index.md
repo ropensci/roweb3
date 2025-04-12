@@ -42,7 +42,7 @@ Read more in our [blog post](/blog/2025/02/28/r-universe-docs-launch/), read the
 
 Read more in our [report from the event](/blog/2025/03/24/numfocus-unconf/).
 
-This event also presented the opportunity to meet in person with other members of the rOpenSci community in Sao Paulo, in the picture we can see [Francesca Palmeira](/author/francesca-belem-lopes-palmeira/) (rOpenSci Champions), [Andrea Gomez Vargas](/author/andrea-gomez-vargas/) (rOpenSci Champions), [Beatriz Milz](/author/beatriz-milz/) (rOpenSci Editor and Mentor), [Haydee Svab](/author/haydee-svab/) (rOpenSci Champions) and Yanina Bellini Saibene (rOpenSci Community Manager).
+This event also presented the opportunity to meet in person with other members of the rOpenSci community in Sao Paulo, in the picture we can see [Francesca Palmeira](/author/francesca-belem-lopes-palmeira/) (rOpenSci Champions), [Andrea Gomez Vargas](/author/andrea-gomez-vargas/) (rOpenSci Champions), [Beatriz Milz](/author/beatriz-milz/) (rOpenSci Editor and Mentor), [Haydée Svab](/author/haydée-svab/) (rOpenSci Champions) and Yanina Bellini Saibene (rOpenSci Community Manager).
 
 {{< figure src = "rOpenSciBrazil.jpeg" alt = "Francesca, Andrea, Beatriz, Heydee and Yani stand up and smiling for the picture" >}}
 

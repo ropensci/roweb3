@@ -145,7 +145,7 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 * [rOpenSci Champions Program Teams: Meet Carolina Pradier and Athanasia Monika Mowinckel](/blog/2023/05/19/ropensci-news-digest-may-2023) by Carolina Pradier, and Athanasia Monika Mowinckel.
 
-* [rOpenSci Champions Program Teams: Meet Haydee Svab and Beatriz Milz](/blog/2023/05/19/ropensci-news-digest-may-2023) by Haydee Svab, and Beatriz Milz.
+* [rOpenSci Champions Program Teams: Meet Haydée Svab and Beatriz Milz](/blog/2023/05/19/ropensci-news-digest-may-2023) by Haydée Svab, and Beatriz Milz.
 
 * [rOpenSci Champions Program Teams: Meet Victor Ordu and Laura DeCicco](/blog/2023/05/19/ropensci-news-digest-may-2023) by Victor Ordu, and Laura DeCicco.
 

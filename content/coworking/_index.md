@@ -1,11 +1,12 @@
-+++
-title = "Coworking"
-+++
+---
+title: "Coworking"
+description: |
+    Join us for social coworking & office hours monthly on first Tuesdays! 
+    Hosted by rOpenSci Community Assistant [Steffi LaZerte](/author/steffi-lazerte) and various community hosts. 
+    Everyone welcome. 
+    No registration needed.
+---
 
-**Join us for social coworking & office hours monthly on first Tuesdays! 
-Hosted by rOpenSci Community Assistant [Steffi LaZerte](/author/steffi-lazerte) and various community hosts. 
-Everyone welcome. 
-No registration needed.**
 
 We meet for two hours, introduce ourselves and cowork. You can choose to 
 work on your own or socialize by choosing different 'rooms' (Quiet or Noisy). 
