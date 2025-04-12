@@ -6,7 +6,7 @@ date: 2025-04-23T21:00:00 # UTC!! same as dateEnd
 description: Hablaremos sobre herramientas clave para desarrollar paquetes de R y cómo participar en el Programa de Campeones de rOpenSci.
 coworking: true
 location: 'online' # free text
-slug: "clinica-champions-2025-04"
+slug: "rladies-champions-2025"
 country: "🌐" # emoji
 ropensci: yes
 outputs:
