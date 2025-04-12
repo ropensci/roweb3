@@ -9,6 +9,9 @@
 
 [Edited-by]
   other = 'Edited by'
+
+[Translated-by]
+  other = 'Translated by'
   
 [Filed-under]
   other = 'Filed under'
@@ -158,6 +161,9 @@
 [staff]
   other = 'staff'
   
+[Staff]
+  other = 'Staff'
+  
 [researcher]
   other = 'Researcher'
 
@@ -300,3 +306,6 @@
   
 [How]
   other = 'How'
+  
+[Lead]
+  other = 'Lead'

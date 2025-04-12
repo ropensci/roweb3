@@ -1,8 +1,8 @@
 ---
-title: "rOpenSci Champions Program Teams: Meet Haydee Svab and Beatriz Milz"
+title: "rOpenSci Champions Program Teams: Meet Haydée Svab and Beatriz Milz"
 slug: ropensci-champions-program-teams-meet-haydee-svab-and-beatriz-milz
 author:
-  - Haydee Svab
+  - Haydée Svab
   - Beatriz Milz
 editor:
   - Yanina Bellini Saibene
@@ -12,7 +12,7 @@ tags:
   - community
   - champions program
 featured: true
-description: "Introducing Champions and Mentors - Haydee Svab and Beatriz Milz"
+description: "Introducing Champions and Mentors - Haydée Svab and Beatriz Milz"
 params:
   doi: "10.59350/qanjt-8gg36"
 ---
@@ -21,14 +21,14 @@ params:
 
 *In this series of blog posts, we introduce you to the ten teams of this first cohort and what they will be working on in the program.*
 
-Meet **Haydee Svab** and **Beatriz Milz** both from Brazil!
+Meet **Haydée Svab** and **Beatriz Milz** both from Brazil!
 
 
-## Haydee Svab - Champion
+## Haydée Svab - Champion
 
-{{< figure src = "/img/team/haydee-svab-mentee.jpeg" class = "pull-left" width = "300" alt = "Profile photo of Haydee Svab" caption = "<center><strong>Haydee Svab</strong></center>">}}
+{{< figure src = "/img/team/haydee-svab-mentee.jpeg" class = "pull-left" width = "300" alt = "Profile photo of Haydée Svab" caption = "<center><strong>Haydée Svab</strong></center>">}}
 
-I'm Haydee Svab, graduated in civil engineering, master of science - specialty transport and planning engineering. For the last few years I've been working as a researcher and consultant in my own company, ASK-AR. Our main projects deal with data analysis, smart cities, urban mobility and gender perspective. I was born and have always lived in Brazil, more specifically in São Paulo, where I founded the [local R-Ladies chapter](https://www.meetup.com/rladies-sao-paulo/) together with other amazing women. 
+I'm Haydée Svab, graduated in civil engineering, master of science - specialty transport and planning engineering. For the last few years I've been working as a researcher and consultant in my own company, ASK-AR. Our main projects deal with data analysis, smart cities, urban mobility and gender perspective. I was born and have always lived in Brazil, more specifically in São Paulo, where I founded the [local R-Ladies chapter](https://www.meetup.com/rladies-sao-paulo/) together with other amazing women. 
 
 Despite loving and  professionally working with the R language, I don't know how to make packages - and I always wanted to make one, with data and model derived from my master's dissertation. So, I saw in the Champion Program the opportunity to make that wish come true. 
 
@@ -49,4 +49,4 @@ I am a tidyverse instructor certified by Posit, and a co-organizer of communitie
 I will be a mentor in this edition of the Champions program, and I hope to help 
 participants to create R packages and also review them for rOpenSci!
 
-_We're excited to have both Haydee and Bea be part of the Champions program. We are looking forward to seeing how this project progresses. Stay tuned for the next series of introductions._
+_We're excited to have both Haydée and Bea be part of the Champions program. We are looking forward to seeing how this project progresses. Stay tuned for the next series of introductions._
