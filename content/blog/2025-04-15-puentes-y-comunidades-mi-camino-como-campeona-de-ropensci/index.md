@@ -11,7 +11,7 @@ tags:
 - comunidad
 editor: 
 - Yanina Bellini Saibene
-doi: ""
+doi: "10.59350/6ckxv-axw35"
 ---
 
 Ser parte del [programa de Campeones y Campeonas de rOpenSci](https://champions-program.ropensci.org) ha sido una experiencia de **crecimiento profesional y una oportunidad para contribuir a la comunidad**. Aprendí sobre el desarrollo de paquetes en R mientras trabajaba en una herramienta para facilitar el acceso a datos censales de Argentina.
