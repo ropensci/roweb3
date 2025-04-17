@@ -46,7 +46,7 @@ Con el volumen de trabajo ya realizado y una estrategia más clara, reordenamos 
 ## Arcenso 
 
 
-{{<figure src = "arcenso-hex.png" alt = "Hex sticker azul del paquete de R arcenso, con un diseño inspirado en el sol de la bandera argentina y el nombre del paquete “[AR_censo]” en letras blancas en el centro." class = "pull-left">}}
+{{< figure src = "arcenso-hex.png" alt = "Hex sticker azul del paquete de R arcenso, con un diseño inspirado en el sol de la bandera argentina y el nombre del paquete [AR_censo] en letras blancas en el centro." class = "pull-left" >}}
 
 En medio de estas reflexiones y desafíos técnicos, nació arcenso, el paquete no solo busca facilitar el acceso a los datos censales, sino también fomentar su uso entre investigadores, el sector público y la ciudadanía en general mediante herramientas de software libre. La posibilidad de contribuir con una herramienta útil, abierta y pensada para la comunidad ha sido una de las motivaciones más importantes de este proceso. 
 
