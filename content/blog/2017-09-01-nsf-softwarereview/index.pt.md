@@ -18,7 +18,7 @@ tags:
 - Software Peer Review
 - community
 params:
-  doi: 10.59350/bqjqp-2be69
+  doi: 10.59350/4y3kj-1re56
 ---
 
 Na rOpenSci, criamos e organizamos softwares para ajudar os cientistas no ciclo de vida dos dados. Essas ferramentas acessam, baixam, gerenciam e arquivam dados científicos de forma aberta e reproduzível. Logo no início, percebemos que isso só poderia ser um esforço da comunidade. A variedade de dados científicos e fluxos de trabalho só poderia ser resolvida com a contribuição de cientistas com conhecimentos específicos da área.
