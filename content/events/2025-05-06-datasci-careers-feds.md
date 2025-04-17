@@ -42,7 +42,7 @@ after serving at U.S. federal agencies, including:
  - [Soumya Kalra](https://www.linkedin.com/in/soumyakalra/), Chief Data Officer, City and County of San Francisco (Federal Reserve Bank)
  - [Julie Kellner](https://www.linkedin.com/in/julie-kellner-913132162/), Senior Program Manager, Digital Science (NSF)
  - [Alissa Dillman](https://www.linkedin.com/in/allissa-dillman/), CEO/Founder, BioDataSage (NIH)
- - [Aaron Friesz](https://www.linkedin.com/in/aaron-friesz-32a3751a6/), Technical Community Manager, Earth Science Information Partners (NASA)
+ - [Aaron Friesz](https://www.linkedin.com/in/aaron-friesz-32a3751a6/), Technical Community Manager, Earth Science Information Partners (NASA/USGS)
  
 We will hear from our co-hosts and then organize into breakout rooms for Q&A
 and discussion.
