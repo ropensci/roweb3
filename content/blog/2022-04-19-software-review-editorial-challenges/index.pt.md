@@ -13,7 +13,7 @@ description: Os desafios encontrados pelos editores e as medidas que tomamos par
   tentar aliviar esses problemas.
 featured: true
 params:
-  doi: 10.59350/yttbb-78v90
+  doi: 10.59350/tfy8g-0e676
 ---
 
 rOpenSci [Revisão por pares de software](/software-review/) e [Revisão por pares de software estatístico](/software-review/) dependem do trabalho voluntário de revisores e editores.
