@@ -21,7 +21,7 @@ Our members mentoring each other at different moments:
 when someone new joins and needs help navigating the community; 
 when a member steps into a new role, like a reviewer for our software peer review, 
 or project, like become the maintainer of a package, and could use some guidance; 
-during everyday interactions, where people share tips and advice with each other; 
+during everyday interactions, where people share tips and advise with each other; 
 when someone shares an idea and gets constructive and friendly feedback 
 or when a more experienced member helps others grow into leadership roles. 
 Each of these moments is a chance to share what you know, build connections, and keep the community strong.
