@@ -1,15 +1,17 @@
 ---
-title: 'Puentes y Comunidades: Mi Camino como Campeona de rOpenSci'
-author: "Andrea Gomez Vargas"
-date: "2024-04-15"
+title: 'Puentes y Comunidades. Mi Camino como Campeona de rOpenSci'
+author: 
+- Andrea Gomez Vargas
+date: "2025-05-15"
 slug: "puentes-comunidades-campeones-ropensci"
 package_version: 0.1.0
 tags:
-- Software Peer Review
-- packages
-- R
-- community
-editor: null
+- campeones
+- paquetes
+- comunidad
+editor: 
+- Yanina Bellini Saibene
+doi: ""
 ---
 
 
