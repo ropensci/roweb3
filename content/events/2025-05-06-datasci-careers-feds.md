@@ -3,7 +3,7 @@ title: Non-Government Career Paths for U.S. Federal Data Scientists
 dateStart: 2025-05-07T00:30:00 # UTC!!
 dateEnd: 2025-05-07T02:00:00 # UTC!!
 date: 2025-05-05T00:30:00 # UTC!! same as dateEnd
-description: A community networking event hosted by rOpenSci and Openscapes
+description: A community support and networking event hosted by rOpenSci and Openscapes
 coworking: false
 location: 'online' # free text
 slug: "datasci-careers-feds"
