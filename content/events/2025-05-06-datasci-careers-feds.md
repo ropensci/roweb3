@@ -18,6 +18,8 @@ attendees:
   - Stefanie Butland
 author:
   - Noam Ross
+deets: |
+    Register at: https://zoom.us/meeting/register/WHG_dE3yTseFHCuJw1cnyg
 ---
 
 <!--
