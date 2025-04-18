@@ -43,7 +43,7 @@ after serving at U.S. federal agencies, including:
  - [Dan Pisut](https://www.linkedin.com/in/danpisut/), Environmental Information and Climate Resilience Lead, ESRI (former NOAA)
  - [Soumya Kalra](https://www.linkedin.com/in/soumyakalra/), Chief Data Officer, City and County of San Francisco (former Federal Reserve Bank)
  - [Julie Kellner](https://www.linkedin.com/in/julie-kellner-913132162/), Senior Program Manager, Digital Science (former NSF)
- - [Alissa Dillman](https://www.linkedin.com/in/allissa-dillman/), CEO/Founder, BioDataSage (former NIH)
+ - [Allissa Dillman](https://www.linkedin.com/in/allissa-dillman/), CEO/Founder, BioDataSage (former NIH)
  - [Aaron Friesz](https://www.linkedin.com/in/aaron-friesz-32a3751a6/), Technical Community Manager, Earth Science Information Partners (former NASA/USGS)
  
 We will hear from our co-hosts and then organize into breakout rooms for Q&A
