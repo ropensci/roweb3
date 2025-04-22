@@ -45,6 +45,7 @@ after serving at U.S. federal agencies, including:
  - [Julie Kellner](https://www.linkedin.com/in/julie-kellner-913132162/), Senior Program Manager, Digital Science (former NSF)
  - [Allissa Dillman](https://www.linkedin.com/in/allissa-dillman/), CEO/Founder, BioDataSage (former NIH)
  - [Aaron Friesz](https://www.linkedin.com/in/aaron-friesz-32a3751a6/), Technical Community Manager, Earth Science Information Partners (former NASA/USGS)
+ - [Maria Gingras](https://www.linkedin.com/in/mariacbrun/), Lead Market Monitor - Market Analytics, Southwest Power Pool (former DOE)
  
 We will hear from our co-hosts and then organize into breakout rooms for Q&A
 and discussion.
