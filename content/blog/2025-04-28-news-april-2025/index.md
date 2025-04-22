@@ -10,7 +10,7 @@ description:
 params:
   last_newsletter: '2025-03-27'
   doi: "10.59350/a6syn-6hc72"
-rmd_hash: 2f565c3acf21bee0
+rmd_hash: 4f29ce7cbd092f20
 
 ---
 
@@ -73,11 +73,15 @@ The following thirteen packages have had an update since the last newsletter: [b
 
 <div class='highlight'>
 
-There are ten recently closed and active submissions and 5 submissions on hold. Issues are at different stages:
+There are eleven recently closed and active submissions and 4 submissions on hold. Issues are at different stages:
 
 -   One at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%226/approved%22):
 
     -   [gtexr](https://github.com/ropensci/software-review/issues/684), Query the GTEx Portal API. Submitted by [Alasdair Warwick](https://github.com/rmgpanw).
+
+-   One at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%225/awaiting-reviewer(s)-response%22):
+
+    -   [c3dr](https://github.com/ropensci/software-review/issues/686), Read and Write C3D Motion Capture Files. Submitted by [Simon Nolte](https://github.com/smnnlt).
 
 -   Two at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%224/review(s)-in-awaiting-changes%22):
 
@@ -151,8 +155,6 @@ If you're interested in maintaining any of the R packages below, you might enjoy
 ### Calls for contributions
 
 Refer to our [help wanted page](/help-wanted/) -- before opening a PR, we recommend asking in the issue whether help is still needed.
-
-The bib2df package, for parsing BibTeX files into tibbles, would need some help! [Issue for volunteering](https://github.com/ropensci/bib2df/issues/65).
 
 ## Package development corner
 

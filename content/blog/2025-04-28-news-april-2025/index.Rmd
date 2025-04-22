@@ -586,8 +586,6 @@ If you're interested in maintaining any of the R packages below, you might enjoy
 
 Refer to our [help wanted page](/help-wanted/) -- before opening a PR, we recommend asking in the issue whether help is still needed.
 
-The bib2df package, for parsing BibTeX files into tibbles, would need some help! [Issue for volunteering](https://github.com/ropensci/bib2df/issues/65).
-
 ## Package development corner
 
 Some useful tips for R package developers. :eyes:
