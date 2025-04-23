@@ -29,7 +29,7 @@ lubridate::with_tz(d, 'UTC')
 ```
 -->
 
-rOpenSci and Openscapes are lucky to have as members many U.S. federal employees
+rOpenSci and [Openscapes](https://openscapes.org/) are lucky to have as members many U.S. federal employees
 who enrich our work and community.  In a time of great uncertainty for so many
 government workers, we want to support our members who are considering their
 next career steps.
