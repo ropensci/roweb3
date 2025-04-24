@@ -10,7 +10,8 @@
               <p class="subtitle md">
                 A digest of R package and software review news, use cases, blog posts, and events, curated monthly. Subscribe to get it in your inbox, or check the <a href="/news/">archive</a>.
               </p>
-              {{ partial "newsletter/form" }}
+              {{ $formpartial := (partial "translate-path" (dict "name" "newsletter/form" "language" .Site.Language.Lang )) }}
+              {{ partial $formpartial }} 
             </div>
           </div>
         </div>

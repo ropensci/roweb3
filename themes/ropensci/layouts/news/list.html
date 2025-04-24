@@ -3,7 +3,7 @@
   <div class="container bg-cubes">
     <div class="row align-items-center blog-heading">
       <div class="col-md-9">
-        <h1>The rOpenSci Newsletter</h1>
+        <h1>{{ .Title }}</h1>
         </div>
       <div class="col-md-3">
         <ul class="blog-links text-uppercase d-flex justify-content-md-end">
@@ -14,8 +14,11 @@
       </div>
       <div class="col-md-9 subtitle">
       {{ .Params.description | markdownify }}  
-      {{ partial "newsletter/form" }}
-      <p>Find previous issues below. Newsletters until February 2021 are archived at <a href="https://news.ropensci.org">https://news.ropensci.org</a>.</p>
+      {{ $formpartial := (partial "translate-path" (dict "name" "newsletter/form" "language" .Site.Language.Lang )) }}
+      {{ partial $formpartial }} 
+      {{ $formerpartial := (partial "translate-path" (dict "name" "newsletter/previous" "language" .Site.Language.Lang )) }}
+      {{ partial $formerpartial }}
+      
       </div>
     </div>
 
@@ -24,8 +27,8 @@
 <img class="divider d-none d-md-block" src="/images/svg/divider-rl-sm.svg" alt="" />
 <section class="posts">
   <div class="container">
-     {{ $pages := (where .Site.Pages.ByPublishDate.Reverse ".Params.tags" "intersect" (slice "newsletter")) }}
-    <h2 class="title">Previous Newsletters and Digests</h2>
+     {{ $pages := (where .Site.AllPages.ByPublishDate.Reverse ".Params.tags" "intersect" (slice "newsletter")) }}
+    <h2 class="title">{{ i18n "Previous-Newsletters"}}</h2>
 
     <div class="row author-blog">
       <div class="col-md-8">
