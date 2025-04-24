@@ -21,16 +21,15 @@
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
       <description>
+        {{ if eq .Type "commcalls" }} {{ (partial "commcalls/feed-link" .) | html }}{{ end }} 
+        {{ $translations := "" }}
+        {{ $string := "" }}
         {{ if .IsTranslated }}
         {{ range .Translations }}
-          <p><a href="{{ .Permalink }}">Read it in: {{ .Language.LanguageName }}</a>.</p>
+        {{ $string = (printf "<p><a href='%s'>Read it in: %s</a>.</p>" .Permalink .Language.LanguageName) }} 
+        {{ $translations = (printf "%s%s" $translations $string) }}
         {{ end }}
-        {{ end }}
-        {{ if .Params.cover }}
-        &lt;img src=&quot;{{ .Params.cover | safeHTML }}&quot; alt=&quot;cover image&quot;&gt;
-        {{ end }}
-        {{ if eq .Type "commcalls" }} {{ (partial "commcalls/feed-link" .) | html }}{{ end }} 
-        {{ .Content | html }}
+        {{ end }}{{ (printf "%s %s" $translations .Content) | html }}
       {{ if eq .Type "commcalls" }} {{ (partial "commcalls/speakers" .) | html }}{{ end }}
       {{ if eq .Type "commcalls" }} {{ (partial "commcalls/resources" .) | html }}{{ end }}
       {{ if eq .Type "commcalls" }} {{ (partial "commcalls/join" .) | html }}{{ end }}

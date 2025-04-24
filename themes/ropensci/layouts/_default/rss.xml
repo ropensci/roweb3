@@ -33,11 +33,14 @@
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
       <description>
+        {{ $translations := "" }}
+        {{ $string := "" }}
         {{ if .IsTranslated }}
         {{ range .Translations }}
-          <p><a href="{{ .Permalink }}">Read it in: {{ .Language.LanguageName }}</a>.</p>
+        {{ $string = (printf "<p><a href='%s'>Read it in: %s</a>.</p>" .Permalink .Language.LanguageName) }} 
+        {{ $translations = (printf "%s%s" $translations $string) }}
         {{ end }}
-        {{ end }}{{ .Summary | html }}</description>
+        {{ end }}{{ (printf "%s %s" $translations .Summary) | htmlEscape }}</description>
     </item>
     {{ end }}
   </channel>
