@@ -11,7 +11,6 @@ Thank you for citing rOpenSci! :pray:
 
 * To cite **rOpenSci Statistical Software Peer Review**: mark padgham, Maëlle Salmon, Noam Ross, Jakub Nowosad, Rich FitzJohn, yilong zhang, Christoph Sax, Francisco Rodriguez-Sanchez, François Briatte, & Leonardo Collado-Torres. (2021). ropensci/statistical-software-review-book: Official first standards versions (v0.1.0). Zenodo. [doi:10.5281/zenodo.5556756](https://doi.org/10.5281/zenodo.5556756)
 
-* To cite **R-universe**: TODO.
-
 * To cite the **Multilingual Project**: Yanina Bellini Saibene, Maëlle Salmon, Paola Corrales, Elio Campitelli, Steffi LaZerte, & Tan Ho. (2024). rOpenSci Localization and Translation Guidelines (v2.0). Zenodo. [doi: 10.5281/zenodo.14501074.](https://doi.org/10.5281/zenodo.14501074)
+
 * To cite **a specific rOpenSci package**, if you e.g. use the magick package, run `citation("magick")` in your R console to find the appropriate text.
