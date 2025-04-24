@@ -10,7 +10,7 @@ description:
 params:
   last_newsletter: '2025-03-27'
   doi: "10.59350/a6syn-6hc72"
-rmd_hash: 4f29ce7cbd092f20
+rmd_hash: 3ffaa1ff42a81e9d
 
 ---
 
@@ -33,6 +33,18 @@ Join us on Tuesday, May 6 at 8:30PM EDT for a discussion and networking event fo
 Reminder: The call for applications to be part of the new cohort of our 2025 Program is open until April 30th! For the first time it will be in Spanish.
 
 Find out more in our [call for applications](/blog/2025/03/10/champeons-latin-america/) open until **Wednesday, April 30, 2025**.
+
+### Stay safe online
+
+Our executive director Noam Ross was interviewed in this Nature article ["Stay safe from online hate with these five tips"](https://archive.ph/pIZpx).
+
+Another relevant article on the topic is this 2021 paper by Danielle Smalls and Greg Wilson, ["Ten quick tips for staying safe online"](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008563).
+
+### Which programming language should I use?
+
+Our community manager Yanina Bellini Saibene was also interviewed in Nature, for the article ["Which programming language should I use? A guide for early-career researchers"](https://archive.ph/cvGwW)
+
+> "The user community is also a key consideration --- Saibene says that's one of the things she loves most about R. The language's large, welcoming and engaged user community means that tools are developed and updated frequently; that local user groups exist around the world; and that tutorials and other resources are available in many spoken languages, including her native Spanish."
 
 ### Coworking
 
@@ -73,7 +85,7 @@ The following thirteen packages have had an update since the last newsletter: [b
 
 <div class='highlight'>
 
-There are eleven recently closed and active submissions and 4 submissions on hold. Issues are at different stages:
+There are eleven recently closed and active submissions and 5 submissions on hold. Issues are at different stages:
 
 -   One at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%226/approved%22):
 

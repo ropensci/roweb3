@@ -59,6 +59,18 @@ For the first time it will be in Spanish.
 
 Find out more in our [call for applications](/blog/2025/03/10/champeons-latin-america/) open until **Wednesday, April 30, 2025**.
 
+### Stay safe online
+
+Our executive director Noam Ross was interviewed in this Nature article ["Stay safe from online hate with these five tips"](https://archive.ph/pIZpx).
+
+Another relevant article on the topic is this 2021 paper by Danielle Smalls and Greg Wilson, ["Ten quick tips for staying safe online"](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008563).  
+
+### Which programming language should I use?
+
+Our community manager Yanina Bellini Saibene was also interviewed in Nature, for the article ["Which programming language should I use? A guide for early-career researchers"](https://archive.ph/cvGwW)
+
+> “The user community is also a key consideration — Saibene says that’s one of the things she loves most about R. The language’s large, welcoming and engaged user community means that tools are developed and updated frequently; that local user groups exist around the world; and that tutorials and other resources are available in many spoken languages, including her native Spanish.”
+
     
 ### Coworking 
 
