@@ -13,4 +13,5 @@ Thank you for citing rOpenSci! :pray:
 
 * To cite **R-universe**: TODO.
 
+* To cite the **Multilingual Project**: Yanina Bellini Saibene, Maëlle Salmon, Paola Corrales, Elio Campitelli, Steffi LaZerte, & Tan Ho. (2024). rOpenSci Localization and Translation Guidelines (v2.0). Zenodo. [doi: 10.5281/zenodo.14501074.](https://doi.org/10.5281/zenodo.14501074)
 * To cite **a specific rOpenSci package**, if you e.g. use the magick package, run `citation("magick")` in your R console to find the appropriate text.
