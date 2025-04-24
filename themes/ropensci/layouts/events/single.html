@@ -18,18 +18,19 @@
         <div class="event-detail-calendar">
             <div class="row justify-content-between">
               <div class="col-auto mr-auto">
+                {{ $tz := default "UTC" .Params.displaytz }}
                 <p>
-                  🕓 <strong>{{ (time .Params.dateStart).UTC | dateFormat "Monday" }} {{ (time .Params.dateStart).UTC |
-                    dateFormat ":date_medium" }} {{ (time .Params.dateStart).UTC | dateFormat "15:04 MST" }}
+                  🕓 <strong>{{ (time .Params.dateStart) | time.In $tz | dateFormat "Monday" }} {{ (time .Params.dateStart) | time.In $tz |
+                    dateFormat ":date_medium" }} {{ (time .Params.dateStart) | time.In $tz | dateFormat "15:04" }}
                     {{ if (ne (.Params.dateEnd | dateFormat ":date_short" ) (.Params.dateStart | dateFormat
                     ":date_short"))}}
                   </strong></p>
                   <p>
-                    🕓 <strong>{{ (time .Params.dateEnd).UTC | dateFormat "Monday" }} {{ (time .Params.dateEnd).UTC | dateFormat
-                    ":date_medium" }} {{ (time .Params.dateEnd).UTC | dateFormat "15:04 MST" }}</strong>
+                    🕓 <strong>{{ (time .Params.dateEnd) | time.In $tz | dateFormat "Monday" }} {{ (time .Params.dateEnd) | time.In $tz | dateFormat
+                    ":date_medium" }} {{ (time .Params.dateEnd) | time.In $tz | dateFormat "15:04" }} {{ $tz}}</strong>
                   </p>
                     {{ else }}
-                    - {{ (time .Params.dateEnd).UTC | dateFormat "15:04 MST" }}</strong></p>
+                    - {{ (time .Params.dateEnd) | time.In $tz | dateFormat "15:04" }} {{ $tz}}</strong></p>
                     {{ end }}
               </div>
               <div class="col-auto">
