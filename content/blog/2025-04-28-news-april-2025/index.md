@@ -32,23 +32,22 @@ Join us on Tuesday, May 6 at 8:30PM EDT for a discussion and networking event fo
 
 Reminder: The call for applications to be part of the new cohort of our 2025 Program is open until April 30th! For the first time it will be in Spanish.
 
-Find out more in our [call for applications](/blog/2025/03/10/champeons-latin-america/) open until **Wednesday, April 30, 2025**.
+Find out more in our [call for applications](/blog/2025/03/10/champeons-latin-america/). It will be open until **Wednesday, April 30, 2025**.
 
-### Stay safe online
+### rOpenSci in the News
 
-Our executive director Noam Ross was interviewed in this Nature article ["Stay safe from online hate with these five tips"](https://archive.ph/pIZpx).
-
-Another relevant article on the topic is this 2021 paper by Danielle Smalls and Greg Wilson, ["Ten quick tips for staying safe online"](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008563).
-
-### Which programming language should I use?
-
-Our community manager Yanina Bellini Saibene was also interviewed in Nature, for the article ["Which programming language should I use? A guide for early-career researchers"](https://archive.ph/cvGwW)
+Our community manager Yanina Bellini Saibene was also interviewed in _Nature_, for the article ["Which programming language should I use? A guide for early-career researchers"](https://archive.ph/cvGwW)
 
 > "The user community is also a key consideration --- Saibene says that's one of the things she loves most about R. The language's large, welcoming and engaged user community means that tools are developed and updated frequently; that local user groups exist around the world; and that tutorials and other resources are available in many spoken languages, including her native Spanish."
 
-\### More Languages, More Access: Discover rOpenSci in Spanish
+Our executive director Noam Ross was interviewed for the _Nature_ article ["Stay safe from online hate with these five tips"](https://archive.ph/pIZpx). For more on this topic, we recommend this 2021 paper by Danielle Smalls and Greg Wilson: ["Ten quick tips for staying safe online"](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008563).
 
-We're excited to share that our website has more content than ever available in Spanish! We started with our [Dev Guide](https://devguide.ropensci.org/es/index.es.html) and some of our blog posts. Now you'll also find key pages, information about projects and programs, documentation, and community resources in Spanish. This milestone reflects our ongoing commitment to making open science more inclusive and accessible to Spanish-speaking communities worldwide. We are grateful to all the community members who contribute to our translations and localization efforts. \### Coworking
+
+### More Languages, More Access: Discover rOpenSci in Spanish
+
+We're excited to share that our website has more content than ever available in Spanish! We started with our [Dev Guide](https://devguide.ropensci.org/es/index.es.html) and some of our blog posts. Now you'll also find key pages, information about projects and programs, documentation, and community resources in Spanish. This milestone reflects our ongoing commitment to making open science more inclusive and accessible to Spanish-speaking communities worldwide. We are grateful to all the community members who contribute to our translation and localization efforts. 
+
+### Coworking
 
 Read [all about coworking](/blog/2023/06/21/coworking/)!
 
