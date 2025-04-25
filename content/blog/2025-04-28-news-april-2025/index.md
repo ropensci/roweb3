@@ -10,7 +10,7 @@ description:
 params:
   last_newsletter: '2025-03-27'
   doi: "10.59350/a6syn-6hc72"
-rmd_hash: 3ffaa1ff42a81e9d
+rmd_hash: ca8982e8ce4f21cf
 
 ---
 
@@ -46,7 +46,9 @@ Our community manager Yanina Bellini Saibene was also interviewed in Nature, for
 
 > "The user community is also a key consideration --- Saibene says that's one of the things she loves most about R. The language's large, welcoming and engaged user community means that tools are developed and updated frequently; that local user groups exist around the world; and that tutorials and other resources are available in many spoken languages, including her native Spanish."
 
-### Coworking
+\### More Languages, More Access: Discover rOpenSci in Spanish
+
+We're excited to share that our website has more content than ever available in Spanish! We started with our [Dev Guide](https://devguide.ropensci.org/es/index.es.html) and some of our blog posts. Now you'll also find key pages, information about projects and programs, documentation, and community resources in Spanish. This milestone reflects our ongoing commitment to making open science more inclusive and accessible to Spanish-speaking communities worldwide. We are grateful to all the community members who contribute to our translations and localization efforts. \### Coworking
 
 Read [all about coworking](/blog/2023/06/21/coworking/)!
 
@@ -87,13 +89,11 @@ The following thirteen packages have had an update since the last newsletter: [b
 
 There are eleven recently closed and active submissions and 5 submissions on hold. Issues are at different stages:
 
--   One at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%226/approved%22):
-
-    -   [gtexr](https://github.com/ropensci/software-review/issues/684), Query the GTEx Portal API. Submitted by [Alasdair Warwick](https://github.com/rmgpanw).
-
--   One at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%225/awaiting-reviewer(s)-response%22):
+-   Two at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%226/approved%22):
 
     -   [c3dr](https://github.com/ropensci/software-review/issues/686), Read and Write C3D Motion Capture Files. Submitted by [Simon Nolte](https://github.com/smnnlt).
+
+    -   [gtexr](https://github.com/ropensci/software-review/issues/684), Query the GTEx Portal API. Submitted by [Alasdair Warwick](https://github.com/rmgpanw).
 
 -   Two at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%224/review(s)-in-awaiting-changes%22):
 
