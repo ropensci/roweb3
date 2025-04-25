@@ -71,7 +71,13 @@ Our community manager Yanina Bellini Saibene was also interviewed in Nature, for
 
 > “The user community is also a key consideration — Saibene says that’s one of the things she loves most about R. The language’s large, welcoming and engaged user community means that tools are developed and updated frequently; that local user groups exist around the world; and that tutorials and other resources are available in many spoken languages, including her native Spanish.”
 
-    
+  ###  More Languages, More Access: Discover rOpenSci in Spanish
+  
+We're excited to share that our website has more content than ever available in Spanish! 
+We started with our [Dev Guide](https://devguide.ropensci.org/es/index.es.html) and some of our blog posts. 
+Now you’ll also find key pages, information about projects and programs, documentation, and community resources in Spanish. 
+This milestone reflects our ongoing commitment to making open science more inclusive and accessible to Spanish-speaking communities worldwide. 
+We are grateful to all the community members who contribute to our translations and localization efforts. 
 ### Coworking 
 
 Read [all about coworking](/blog/2023/06/21/coworking/)!
