@@ -177,19 +177,19 @@ If you are planning to publish your package with Bioconductor, do not miss this 
 
 ### Dump all package information into one file for LLMs
 
-With the [rdocdump](https://www.ekotov.pro/rdocdump/) package by Egor Kotov, you can obtain a single file containing the source code, documentation and vignettes of an R package. You can then use the file for ingestion into a Large Language Model (LLM).
+With the [rdocdump](https://www.ekotov.pro/rdocdump/) package by Egor Kotov, you can generate a single file containing the source code, documentation and vignettes of an R package. You can then use the file for ingestion into a Large Language Model (LLM).
 
 ### plumber2
 
-If you use the plumber package to publish your code as an API, you'll be interested in its successor, the [plumber2](https://posit-dev.github.io/plumber2/) package by Thomas Lin Pedersen.
+If you use the plumber package to publish your code as an API, you'll be interested in its successor, [plumber2](https://posit-dev.github.io/plumber2/) by Thomas Lin Pedersen.
 
 ### Use a nested folder structure for your package
 
-If you dream of using nested folders for storing the R code of an package, you can try out the experimental [dir](https://github.com/cynkra/dir) package by Antoine Fabri.
+If you dream of using nested folders for storing the R code of an package, try out the experimental [dir](https://github.com/cynkra/dir) package by Antoine Fabri.
 
 ### Minimal type guessing
 
-Did you know about [minty](https://gesistsa.github.io/minty/), an R package by Chung-hong Chan that shares the the type inferencing and parsing tools used by the readr package prior to 2021? It can be handy for your parsing needs.
+Did you know about [minty](https://gesistsa.github.io/minty/), an R package by Chung-hong Chan that shares the type inferencing and parsing tools used by the original readr package prior to 2021? It can be handy for your parsing needs.
 
 ### Visualising R Package Risk Assessments using Litmus
 
@@ -197,7 +197,7 @@ An interesting [post and dashboard](https://www.jumpingrivers.com/blog/litmus-da
 
 ### CI: Pin the R version if using renv
 
-A good tip by Christophe Dervieux in our [Slack workspace](https://contributing.ropensci.org/resources.html#channels): If you use renv to freeze dependencies in continuous integration, you should pin the R version to what's been used to build the renv's lockfile. You should update (and check) everything at once, when at all: the R versions and package versions.
+A good tip by Christophe Dervieux in our [Slack workspace](https://contributing.ropensci.org/resources.html#channels): If you use renv to freeze dependencies in continuous integration, you should pin the R version to what's been used to build the renv's lockfile. The lets you update (and check) everything at once: the R versions and package versions.
 
 ## Last words
 
