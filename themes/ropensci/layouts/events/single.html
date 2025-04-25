@@ -1,10 +1,12 @@
 {{ define "main" }}
+{{ $tz := default "UTC" .Params.displaytz }}
 <section class="section event-detail">
   <div class="container bg-cubes">
     <div class="row">
       <div class="col-md-8">
         <div class="event-detail-date">
-          {{ .Date.Format "January 2, 2006" }}
+          {{ (time .Params.dateStart) | time.In $tz | dateFormat "Monday" }} {{ (time .Params.dateStart) | time.In $tz |
+            dateFormat ":date_medium" }} {{ (time .Params.dateStart) | time.In $tz | dateFormat "15:04" }} ({{ $tz }})
         </div>
         <h1>{{ .Title }}</h1>
         <div class="event-detail-author">
@@ -18,7 +20,6 @@
         <div class="event-detail-calendar">
             <div class="row justify-content-between">
               <div class="col-auto mr-auto">
-                {{ $tz := default "UTC" .Params.displaytz }}
                 <p>
                   🕓 <strong>{{ (time .Params.dateStart) | time.In $tz | dateFormat "Monday" }} {{ (time .Params.dateStart) | time.In $tz |
                     dateFormat ":date_medium" }} {{ (time .Params.dateStart) | time.In $tz | dateFormat "15:04" }}
@@ -27,10 +28,10 @@
                   </strong></p>
                   <p>
                     🕓 <strong>{{ (time .Params.dateEnd) | time.In $tz | dateFormat "Monday" }} {{ (time .Params.dateEnd) | time.In $tz | dateFormat
-                    ":date_medium" }} {{ (time .Params.dateEnd) | time.In $tz | dateFormat "15:04" }} {{ $tz}}</strong>
+                    ":date_medium" }} {{ (time .Params.dateEnd) | time.In $tz | dateFormat "15:04" }} ({{ $tz }})</strong>
                   </p>
                     {{ else }}
-                    - {{ (time .Params.dateEnd) | time.In $tz | dateFormat "15:04" }} {{ $tz}}</strong></p>
+                    - {{ (time .Params.dateEnd) | time.In $tz | dateFormat "15:04" }} ({{ $tz }})</strong></p>
                     {{ end }}
               </div>
               <div class="col-auto">
