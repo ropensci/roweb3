@@ -6,7 +6,7 @@ author:
 date: '2025-04-28'
 tags:
   - newsletter
-description:
+description: Career Paths for U.S. Federal Data Scientists, Website in Spanish
 params:
   last_newsletter: '2025-03-27'
   doi: "10.59350/a6syn-6hc72"
@@ -72,13 +72,13 @@ Our executive director Noam Ross was interviewed for the _Nature_ article ["Stay
 
 ### More Languages, More Access: Discover rOpenSci in Spanish
 
-We're excited to share that our website has more content than ever available in Spanish! We started with our [Dev Guide](https://devguide.ropensci.org/es/index.es.html) and some of our blog posts. Now you'll also find key pages, information about projects and programs, documentation, and community resources in Spanish. This milestone reflects our ongoing commitment to making open science more inclusive and accessible to Spanish-speaking communities worldwide. We are grateful to all the community members who contribute to our translation and localization efforts. 
+We're excited to share that our website has more content than ever available in Spanish! We started with our [Dev Guide](https://devguide.ropensci.org/es/index.es.html) and some of our blog posts. Now you'll also find key pages, information about projects and programs, documentation, and community resources in [Spanish](/es/). This milestone reflects our ongoing commitment to making open science more inclusive and accessible to Spanish-speaking communities worldwide. We are grateful to all the community members who contribute to our translation and localization efforts. 
 
 ### Coworking 
 
 Read [all about coworking](/blog/2023/06/21/coworking/)!
 
-- Tuesday May 6th 9:00 Australia Western (01:00 UTC), "Writing functions in R" with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Nicholas Tierney](/author/nicholas-tierney/).
+- Tuesday May 6th 9:00 Australia Western (01:00 UTC), ["Writing functions in R"](/events/coworking-2025-05/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Nicholas Tierney](/author/nicholas-tierney/).
     - Write some functions;
     - Explore new or interesting ways of writing functions in R.
 
@@ -190,8 +190,8 @@ present_one <- function(package) {
   aut <- purrr::map_chr(aut, function(x) paste(x$given, x$family))
   rev <- purrr::keep(authors, function(x) {any( x$role %in% "rev") && all(x$role != "cre") })
   rev <- purrr::map_chr(rev, function(x) paste(x$given, x$family))
-  if (package$package == "mbquartR") {
-    rev <- c(rev, "Sheila Saia")
+  if (package$package == "gtexr") {
+    rev <- c(rev, "Ernest Guevarra")
   }
   if (package$package == "geotargets") {
     rev <- c("Anthony Martinez", "Denisse Fierro Arcos")
@@ -509,7 +509,7 @@ format_post <- function(dir) {
   post <- dir[which(dir[["language"]] == main_language),]
   string <- sprintf("* [%s](%s) by %s", post$title, post$url, post$author)
   if (post$description != "") {
-    string <- paste0(string, ". ", sub("\\?$", "", sub("\\!$", "", sub("\\.$", "", post$description), ".")), ".")
+    string <- paste0(string, ". ", sub("[\\.\\!\\?]$", "", post$description), ".")
   } else {
     string <- paste0(string, ".")  
   }

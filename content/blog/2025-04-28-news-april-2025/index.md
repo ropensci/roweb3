@@ -6,11 +6,11 @@ author:
 date: '2025-04-28'
 tags:
   - newsletter
-description:
+description: Career Paths for U.S. Federal Data Scientists, Website in Spanish
 params:
   last_newsletter: '2025-03-27'
   doi: "10.59350/a6syn-6hc72"
-rmd_hash: ca8982e8ce4f21cf
+rmd_hash: ddc1838bc682dda6
 
 ---
 
@@ -36,22 +36,21 @@ Find out more in our [call for applications](/blog/2025/03/10/champeons-latin-am
 
 ### rOpenSci in the News
 
-Our community manager Yanina Bellini Saibene was also interviewed in _Nature_, for the article ["Which programming language should I use? A guide for early-career researchers"](https://archive.ph/cvGwW)
+Our community manager Yanina Bellini Saibene was also interviewed in *Nature*, for the article ["Which programming language should I use? A guide for early-career researchers"](https://archive.ph/cvGwW)
 
 > "The user community is also a key consideration --- Saibene says that's one of the things she loves most about R. The language's large, welcoming and engaged user community means that tools are developed and updated frequently; that local user groups exist around the world; and that tutorials and other resources are available in many spoken languages, including her native Spanish."
 
-Our executive director Noam Ross was interviewed for the _Nature_ article ["Stay safe from online hate with these five tips"](https://archive.ph/pIZpx). For more on this topic, we recommend this 2021 paper by Danielle Smalls and Greg Wilson: ["Ten quick tips for staying safe online"](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008563).
-
+Our executive director Noam Ross was interviewed for the *Nature* article ["Stay safe from online hate with these five tips"](https://archive.ph/pIZpx). For more on this topic, we recommend this 2021 paper by Danielle Smalls and Greg Wilson: ["Ten quick tips for staying safe online"](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008563).
 
 ### More Languages, More Access: Discover rOpenSci in Spanish
 
-We're excited to share that our website has more content than ever available in Spanish! We started with our [Dev Guide](https://devguide.ropensci.org/es/index.es.html) and some of our blog posts. Now you'll also find key pages, information about projects and programs, documentation, and community resources in Spanish. This milestone reflects our ongoing commitment to making open science more inclusive and accessible to Spanish-speaking communities worldwide. We are grateful to all the community members who contribute to our translation and localization efforts. 
+We're excited to share that our website has more content than ever available in Spanish! We started with our [Dev Guide](https://devguide.ropensci.org/es/index.es.html) and some of our blog posts. Now you'll also find key pages, information about projects and programs, documentation, and community resources in [Spanish](/es/). This milestone reflects our ongoing commitment to making open science more inclusive and accessible to Spanish-speaking communities worldwide. We are grateful to all the community members who contribute to our translation and localization efforts.
 
 ### Coworking
 
 Read [all about coworking](/blog/2023/06/21/coworking/)!
 
--   Tuesday May 6th 9:00 Australia Western (01:00 UTC), "Writing functions in R" with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Nicholas Tierney](/author/nicholas-tierney/).
+-   Tuesday May 6th 9:00 Australia Western (01:00 UTC), ["Writing functions in R"](/events/coworking-2025-05/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Nicholas Tierney](/author/nicholas-tierney/).
     -   Write some functions;
     -   Explore new or interesting ways of writing functions in R.
 
@@ -65,11 +64,14 @@ And remember, you can always cowork independently on work related to R, work on 
 
 </div>
 
-The following package recently became a part of our software suite:
+The following two packages recently became a part of our software suite:
 
 <div class='highlight'>
 
--   [gtexr](https://docs.ropensci.org/gtexr), developed by Alasdair Warwick together with Benjamin Zuckerman, Abraham Olvera-Barrios, Chuin Ying Ung, and Robert Luben: A convenient R interface to the Genotype-Tissue Expression (GTEx) Portal API. For more information on the API, see <https://gtexportal.org/api/v2/redoc>. It is available on [CRAN](https://CRAN.R-project.org/package=gtexr).
+-   [gtexr](https://docs.ropensci.org/gtexr), developed by Alasdair Warwick together with Benjamin Zuckerman, Abraham Olvera-Barrios, Chuin Ying Ung, and Robert Luben: A convenient R interface to the Genotype-Tissue Expression (GTEx) Portal API. The GTEx project is a comprehensive public resource for studying tissue-specific gene expression and regulation in human tissues. Through systematic analysis of RNA sequencing data from 54 non-diseased tissue sites across nearly 1000 individuals, GTEx provides crucial insights into the relationship between genetic variation and gene expression. This data is accessible through the GTEx Portal API enabling programmatic access to human gene expression data. For more information on the API, see <https://gtexportal.org/api/v2/redoc>. It is available on [CRAN](https://CRAN.R-project.org/package=gtexr). It has been [reviewed](https://github.com/ropensci/software-review/issues/684) by Zhian N. Kamvar and Ernest Guevarra.
+
+-   [c3dr](https://docs.ropensci.org/c3dr), developed by Simon Nolte: A wrapper for the 'EZC3D' library to work with C3D motion capture data. It has been [reviewed](https://github.com/ropensci/software-review/issues/686) by Aymeric Stamm and July Pilowsky.
+
     </div>
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
@@ -80,13 +82,13 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 </div>
 
-The following thirteen packages have had an update since the last newsletter: [butterfly](https://docs.ropensci.org/butterfly "Verification for Continually Updating Time Series Data") ([`1.1.2`](https://github.com/ropensci/butterfly/releases/tag/1.1.2)), [FedData](https://docs.ropensci.org/FedData "Download Geospatial Data Available from Several Federated Data Sources") ([`v4.3.0`](https://github.com/ropensci/FedData/releases/tag/v4.3.0)), [git2r](https://docs.ropensci.org/git2r "Provides Access to Git Repositories") ([`v0.36.2`](https://github.com/ropensci/git2r/releases/tag/v0.36.2)), [ijtiff](https://docs.ropensci.org/ijtiff "Comprehensive TIFF I/O with Full Support for ImageJ TIFF Files") ([`v3.1.3`](https://github.com/ropensci/ijtiff/releases/tag/v3.1.3)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.12.0`](https://github.com/ropensci/nodbi/releases/tag/v0.12.0)), [osmapiR](https://docs.ropensci.org/osmapiR "OpenStreetMap API") ([`v0.2.3`](https://github.com/ropensci/osmapiR/releases/tag/v0.2.3)), [osmextract](https://docs.ropensci.org/osmextract "Download and Import Open Street Map Data Extracts") ([`v0.5.3`](https://github.com/ropensci/osmextract/releases/tag/v0.5.3)), [pangoling](https://docs.ropensci.org/pangoling "Access to Large Language Model Predictions") ([`v1.0.3`](https://github.com/ropensci/pangoling/releases/tag/v1.0.3)), [rb3](https://docs.ropensci.org/rb3 "Download and Parse Public Data Released by B3 Exchange") ([`v0.0.12`](https://github.com/ropensci/rb3/releases/tag/v0.0.12)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.13.0`](https://github.com/ropensci/tarchetypes/releases/tag/0.13.0)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.11.2`](https://github.com/ropensci/targets/releases/tag/1.11.2)), [waywiser](https://docs.ropensci.org/waywiser "Ergonomic Methods for Assessing Spatial Models") ([`v0.6.3`](https://github.com/ropensci/waywiser/releases/tag/v0.6.3)), and [weatherOz](https://docs.ropensci.org/weatherOz "An API Client for Australian Weather and Climate Data Resources") ([`v2.0.1`](https://github.com/ropensci/weatherOz/releases/tag/v2.0.1)).
+The following sixteen packages have had an update since the last newsletter: [butterfly](https://docs.ropensci.org/butterfly "Verification for Continually Updating Time Series Data") ([`1.1.2`](https://github.com/ropensci/butterfly/releases/tag/1.1.2)), [c3dr](https://docs.ropensci.org/c3dr "Read and Write C3D Motion Capture Files") ([`v0.1.1`](https://github.com/ropensci/c3dr/releases/tag/v0.1.1)), [FedData](https://docs.ropensci.org/FedData "Download Geospatial Data Available from Several Federated Data Sources") ([`v4.3.0`](https://github.com/ropensci/FedData/releases/tag/v4.3.0)), [git2r](https://docs.ropensci.org/git2r "Provides Access to Git Repositories") ([`v0.36.2`](https://github.com/ropensci/git2r/releases/tag/v0.36.2)), [gtexr](https://docs.ropensci.org/gtexr "Query the GTEx Portal API") ([`v0.2.0`](https://github.com/ropensci/gtexr/releases/tag/v0.2.0)), [ijtiff](https://docs.ropensci.org/ijtiff "Comprehensive TIFF I/O with Full Support for ImageJ TIFF Files") ([`v3.1.3`](https://github.com/ropensci/ijtiff/releases/tag/v3.1.3)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.12.0`](https://github.com/ropensci/nodbi/releases/tag/v0.12.0)), [osmapiR](https://docs.ropensci.org/osmapiR "OpenStreetMap API") ([`v0.2.3`](https://github.com/ropensci/osmapiR/releases/tag/v0.2.3)), [osmextract](https://docs.ropensci.org/osmextract "Download and Import Open Street Map Data Extracts") ([`v0.5.3`](https://github.com/ropensci/osmextract/releases/tag/v0.5.3)), [pangoling](https://docs.ropensci.org/pangoling "Access to Large Language Model Predictions") ([`v1.0.3`](https://github.com/ropensci/pangoling/releases/tag/v1.0.3)), [rb3](https://docs.ropensci.org/rb3 "Download and Parse Public Data Released by B3 Exchange") ([`v0.0.12`](https://github.com/ropensci/rb3/releases/tag/v0.0.12)), [stplanr](https://docs.ropensci.org/stplanr "Sustainable Transport Planning") ([`overlapping_segments_in_overline`](https://github.com/ropensci/stplanr/releases/tag/overlapping_segments_in_overline)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.13.0`](https://github.com/ropensci/tarchetypes/releases/tag/0.13.0)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.11.2`](https://github.com/ropensci/targets/releases/tag/1.11.2)), [waywiser](https://docs.ropensci.org/waywiser "Ergonomic Methods for Assessing Spatial Models") ([`v0.6.3`](https://github.com/ropensci/waywiser/releases/tag/v0.6.3)), and [weatherOz](https://docs.ropensci.org/weatherOz "An API Client for Australian Weather and Climate Data Resources") ([`v2.0.1`](https://github.com/ropensci/weatherOz/releases/tag/v2.0.1)).
 
 ## Software Peer Review
 
 <div class='highlight'>
 
-There are eleven recently closed and active submissions and 5 submissions on hold. Issues are at different stages:
+There are twelve recently closed and active submissions and 5 submissions on hold. Issues are at different stages:
 
 -   Two at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%226/approved%22):
 
@@ -106,11 +108,13 @@ There are eleven recently closed and active submissions and 5 submissions on hol
 
     -   [fwildclusterboot](https://github.com/ropensci/software-review/issues/546), Fast Wild Cluster Bootstrap Inference for Linear Models. Submitted by [Alexander Fischer](https://s3alfisc.github.io/blog/). (Stats).
 
--   Two at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%222/seeking-reviewer(s)%22):
+-   Three at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%222/seeking-reviewer(s)%22):
 
     -   [sasquatch](https://github.com/ropensci/software-review/issues/673), Use SAS, R, and quarto Together. Submitted by [Ryan Zomorrodi](http://ryanzomorrodi.github.io).
 
     -   [galamm](https://github.com/ropensci/software-review/issues/615), Generalized Additive Latent and Mixed Models. Submitted by [Øystein Sørensen](https://osorensen.github.io/). (Stats).
+
+    -   [sasquatch](https://github.com/ropensci/software-review/issues/673), Use SAS, R, and quarto Together. Submitted by [Ryan Zomorrodi](http://ryanzomorrodi.github.io).
 
 -   Three at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%221/editor-checks%22):
 
@@ -197,7 +201,7 @@ An interesting [post and dashboard](https://www.jumpingrivers.com/blog/litmus-da
 
 ### CI: Pin the R version if using renv
 
-A good tip by Christophe Dervieux in our [Slack workspace](https://contributing.ropensci.org/resources.html#channels): If you use renv to freeze dependencies in continuous integration, you should pin the R version to what's been used to build the renv's lockfile. The lets you update (and check) everything at once: the R versions and package versions.
+A good tip by Christophe Dervieux in our [Slack workspace](https://contributing.ropensci.org/resources.html#channels): If you use renv to freeze dependencies in continuous integration, you should pin the R version to what's been used to build the renv's lockfile. This lets you update (and check) everything at once: the R versions and package versions.
 
 ## Last words
 
