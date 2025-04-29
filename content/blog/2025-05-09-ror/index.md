@@ -11,6 +11,7 @@ tags:
   - desc
   - metadata
   - community
+  - tech notes
 params:
   doi: "10.59350/m6f0c-7991"
 ---
