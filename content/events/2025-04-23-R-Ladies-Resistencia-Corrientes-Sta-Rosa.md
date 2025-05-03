@@ -16,10 +16,11 @@ attendees:
   - Yanina Bellini Saibene
 author:
   - Yanina Bellini Saibene
-deets: |
-    Meeting ID: 82539040478
-    Passcode: 376703
-zoomurl: https://numfocus-org.zoom.us/j/82539040478?pwd=mqLjJaSpLsNC2s2KH7aeav7bCI2Zkb.1
+resources:
+  - title: Desarrollando paquetes de R Con la ayuda de rOpenSci
+    speaker: Yanina Bellini Saibene
+    slides: https://docs.google.com/presentation/d/1xBHSo5xbLdlcXtjuGPrK3nsFSlLGvz2DF5609ckji-k/edit?usp=sharing
+    video: https://vimeo.com/1080985760
 ---
 
 El miércoles 23 de abril a las 17hs (AR), [R-Ladies Resistencia-Corrientes]() y [R-Ladies Santa Rosa]() se unen para un meetup imperdible con el apoyo de rOpenSci y el RConsortium.
