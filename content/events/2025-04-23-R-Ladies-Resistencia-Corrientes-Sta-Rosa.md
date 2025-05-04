@@ -4,7 +4,6 @@ dateStart: 2025-04-23T20:00:00 # UTC!!
 dateEnd: 2025-04-23T21:00:00 # UTC!!
 date: 2025-04-23T21:00:00 # UTC!! same as dateEnd
 description: Hablaremos sobre herramientas clave para desarrollar paquetes de R y cómo participar en el Programa de Campeones de rOpenSci.
-coworking: true
 location: 'online' # free text
 slug: "rladies-champions-2025"
 country: "🌐" # emoji
