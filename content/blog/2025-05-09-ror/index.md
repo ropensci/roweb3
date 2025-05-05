@@ -31,8 +31,9 @@ Recognition! Personal branding!
 
 This year, the exact same idea was applied to _organizations_ using [ROR](https://ror.org/) ("Research Organizations Registry") IDs.
 Any organization, be it a resarch organization, an initiative or a company, can [request to be listed](https://ror.org/registry/) in the registry.
-A few months ago, it became possible to list ROR IDs in DESCRIPTION.
+A few months ago, it became possible to list ROR IDs in DESCRIPTION, which a few dozens [CRAN packages](https://github.com/search?q=%2F%28%3F-i%29ROR%2F++user%3Acran+path%3A**%2FDESCRIPTION&type=code&ref=advsearch) currently do -- still far from [ORCID adoption](https://github.com/search?q=%2F%28%3F-i%29ORCID%2F++user%3Acran+path%3A**%2FDESCRIPTION&type=code&ref=advsearch) in thousands of CRAN packages.
 Thanks to [R Core](https://ror.org/02zz1nj61) for adding the feature[^feature] and to [Achim Zeileis](https://orcid.org/0000-0003-0918-3766) for [spreading the news](https://fosstodon.org/@zeileis/113899983089249684).
+
 For instance, rOpenSci can be represented by:
 
 ```r
