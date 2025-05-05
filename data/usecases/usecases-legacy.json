@@ -1579,25 +1579,5 @@
     "image": "noimage",
     "date": "2025-03-25",
     "language": "English"
-  },
-  {
-    "title": "Multilingual support for Teaching Tech Together Book",
-    "reporter": "[Yanina Bellini Saibene](https://api.github.com/users/yabellini)",
-    "resource": "babelquarto",
-    "url": "https://github.com/yabellini/t3es2ed",
-    "image": "use-case-1.png",
-    "alt": "Homepage of our babelquarto book.",
-    "date": "2025-04-25",
-    "language": "English, Spanish"
-  },
-  {
-    "title": "Enseñando datos espaciales vectoriales en R",
-    "reporter": "[Yanina Bellini Saibene](https://api.github.com/users/yabellini)",
-    "resource": "rnaturalearth",
-    "url": "https://yabellini.github.io/AgriRemoteSensing/02-r-spatial.html",
-    "image": "use-case-2.png",
-    "alt": "Mapa hecho con R.",
-    "date": "2025-04-28",
-    "language": "Spanish"
   }
 ]
