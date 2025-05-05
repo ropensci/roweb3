@@ -53,6 +53,7 @@
     <th>Title</th>
     <th>Resource</th>
     <th>Date</th>
+    <th>Language</th>
   </tr>
   </thead>
       <tbody>
@@ -62,6 +63,7 @@
     <td><a href="{{ .url }}">{{ .title }}</a></td>
     <td>{{ with .resource }}{{ . | markdownify }} {{ end }} </td>
     <td>{{ .date }} </td>
+    <td>{{ .language }} </td>
   </tr>
       {{ end }} 
       </tbody>
