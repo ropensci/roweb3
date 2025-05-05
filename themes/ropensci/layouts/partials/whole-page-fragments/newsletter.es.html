@@ -10,7 +10,7 @@
               <p class="subtitle md">
                 Un compendio de noticias mensuales sobre paquetes R y revisión de software, casos de uso, artículos de blog y eventos. Suscríbete para recibirlo en tu bandeja de entrada, o consulta el <a href="/noticias/">archivo</a>.
               </p>
-              {{ $formpartial := (partial "translate-path" (dict "name" "newsletter/form" "language" .Site.Language.Lang )) }}
+              {{ $formpartial := (partial "translate-path" (dict "name" "newsletter/form" "language" .Language.Lang )) }}
               {{ partial $formpartial }} 
             </div>
           </div>
