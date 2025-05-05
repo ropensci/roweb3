@@ -32,13 +32,16 @@ Recognition! Personal branding!
 This year, the exact same idea was applied to _organizations_ using [ROR](https://ror.org/) ("Research Organizations Registry") IDs.
 Any organization, be it a resarch organization, an initiative or a company, can [request to be listed](https://ror.org/registry/) in the registry.
 A few months ago, it became possible to list ROR IDs in DESCRIPTION.
-Thanks to [R Core](https://ror.org/02zz1nj61) for adding the feature and to [Achim Zeileis](https://orcid.org/0000-0003-0918-3766) for [spreading the news](https://fosstodon.org/@zeileis/113899983089249684).
+Thanks to [R Core](https://ror.org/02zz1nj61) for adding the feature[^feature] and to [Achim Zeileis](https://orcid.org/0000-0003-0918-3766) for [spreading the news](https://fosstodon.org/@zeileis/113899983089249684).
 For instance, rOpenSci can be represented by:
 
 ```r
 person("rOpenSci", role = "fnd",
           comment = c("https://ropensci.org/", ROR = "019jywm96"))
 ```
+
+[^feature]: Currently, packages on CRAN with a ROR ID in DESCRIPTION get a NOTE in CRAN checks, that can be ignored, 
+due to older versions not parsing the ROR ID. [Example](https://cran.r-project.org/web/checks/check_results_vcr.html)
 
 The ROR icon, although less striking than the bright green ORCID icon, appears on the CRAN page of the package:
 
@@ -115,7 +118,7 @@ In this tech note, we explained what ROR IDs are: persistent IDs for organizatio
 They are to organizations what ORCIDs are to individuals.
 We've shown ROR IDs are supported in the base R and devtools ecosystem.
 We encourage you to register your organization and to use the ID in your package's DESCRIPTION.
-Such a task could be tackled during a [package spring cleaning](https://www.tidyverse.org/blog/2023/06/spring-cleaning-2023/).
+Such a task could be tackled duringgi a [package spring cleaning](https://www.tidyverse.org/blog/2023/06/spring-cleaning-2023/).
 
 [^mistake]: Don't we all resort to copy-pasting formatting from others' metadata files? :sweat_smile:
 
