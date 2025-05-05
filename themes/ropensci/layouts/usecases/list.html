@@ -20,17 +20,10 @@
               {{ $image := (print "usecases/" .image )}}
               {{- $original := resources.Get $image -}}
               {{ $image := $original.Fill "352x175" }}
-              <img src="{{ $image.RelPermalink }}" alt="" />
+              <img src="{{ $image.RelPermalink }}" {{ with .alt }}alt="{{ . }}"{{ else }} alt=""{{ end }} />
               <div class="case-card-body">
                 <div class="d-flex flex-wrap align-items-center">
-                  <a href="{{ .url }}" class="case-title mr-2">{{ .title }}</a>
-                  {{ with .tags }}
-{{ if eq (substr (jsonify .) 0 1) "["}}
-{{ range . }}<a href="https://discuss.ropensci.org/tag/{{ . }}" class="tag">{{ . }}</a>{{ end }}
-{{ else }}
-<a href="https://discuss.ropensci.org/tag/{{ . }}" class="tag">{{ . }}</a>
-{{ end }}
-{{ end }}
+                  <a lang="{{ .language }}" href="{{ .url }}" class="case-title mr-2">{{ .title }}</a>
                 </div>
                 {{ with .resource }}
                 <p class="mt-2 case-text">
@@ -53,6 +46,7 @@
     <th>Title</th>
     <th>Resource</th>
     <th>Date</th>
+    <th>Language</th>
   </tr>
   </thead>
       <tbody>
@@ -62,6 +56,7 @@
     <td><a href="{{ .url }}">{{ .title }}</a></td>
     <td>{{ with .resource }}{{ . | markdownify }} {{ end }} </td>
     <td>{{ .date }} </td>
+    <td>{{ .language }} </td>
   </tr>
       {{ end }} 
       </tbody>
