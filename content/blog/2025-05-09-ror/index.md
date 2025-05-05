@@ -96,9 +96,9 @@ NULL
 Running `devtools::document()` will create an Rd file for `?package-name`, whose content comes from `DESCRIPTION`, including ORCIDs and ROR IDs.
 
 In this case, you might want to install roxygen2's [development version](https://github.com/r-lib/roxygen2/pull/1699) to see the ROR ID properly reformatted to an URL.
-Example of the desc package: [package-level doc source](https://github.com/r-lib/desc/blob/main/R/desc-package.R), [package-level manual page](https://github.com/r-lib/desc/blob/6e32ba71072a1e17a9e643ad5e15d30948c31015/man/desc-package.Rd#L31), [manual page on pkgdown](https://desc.r-lib.org/dev/reference/desc-package.html#author).[^example]
-
-[^example]: This might not be the best example as that particular manual page was fixed manually after documenting with roxygen2's released version. :see_no_evil:
+Example of the desc package: [package-level doc source](https://github.com/ropensci/tinkr/blob/main/R/tinkr-package.R), 
+[package-level manual page](https://github.com/ropensci/tinkr/blob/4937951b655e7e8cb0aaf3025f82f0d921d0b3d5/man/tinkr-package.Rd#L32), 
+[manual page on pkgdown](https://docs.ropensci.org/tinkr/reference/tinkr-package.html#author).
 
 ### ROR support in {pkgdown}
 
