@@ -312,3 +312,21 @@
 
 [Previous-Newsletters]
   other = 'Previous Newsletters and Digests'
+
+[Featuring]
+  other = 'Featuring:'
+
+[Reported-on]
+  other = 'Reported on:'
+
+[Title]
+  other = 'Title'
+
+[Resource]
+  other = 'Resource'
+
+[Date]
+  other = 'Date'
+
+[Language]
+  other = 'Language'

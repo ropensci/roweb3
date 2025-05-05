@@ -14,9 +14,9 @@
       </div>
       <div class="col-md-9 subtitle">
       {{ .Params.description | markdownify }}  
-      {{ $formpartial := (partial "translate-path" (dict "name" "newsletter/form" "language" .Site.Language.Lang )) }}
+      {{ $formpartial := (partial "translate-path" (dict "name" "newsletter/form" "language" .Language.Lang )) }}
       {{ partial $formpartial }} 
-      {{ $formerpartial := (partial "translate-path" (dict "name" "newsletter/previous" "language" .Site.Language.Lang )) }}
+      {{ $formerpartial := (partial "translate-path" (dict "name" "newsletter/previous" "language" .Language.Lang )) }}
       {{ partial $formerpartial }}
       
       </div>
@@ -39,8 +39,8 @@
       </div>
     </div>
 </section>
-{{ $volunteerpartial := (partial "translate-path" (dict "name" "whole-page-fragments/volunteer" "language" .Site.Language.Lang )) }}
+{{ $volunteerpartial := (partial "translate-path" (dict "name" "whole-page-fragments/volunteer" "language" .Language.Lang )) }}
 {{ partial $volunteerpartial  (dict "divider" "lr" "Site" .Site ) }}
-{{ $brandpartial := (partial "translate-path" (dict "name" "whole-page-fragments/brands" "language" .Site.Language.Lang )) }}
+{{ $brandpartial := (partial "translate-path" (dict "name" "whole-page-fragments/brands" "language" .Language.Lang )) }}
 {{ partial $brandpartial (dict "Site" .Site "divider" "rl" )  }}
 {{ end }}
