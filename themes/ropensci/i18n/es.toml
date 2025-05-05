@@ -315,4 +315,21 @@
 
 [Previous-Newsletters]
   other = 'Boletines y Compendios Anteriores'
+[Featuring]
+  other = 'Con:'
+
+[Reported-on]
+  other = 'Enviado el:'
+
+[Title]
+  other = 'Título'
+
+[Resource]
+  other = 'Recurso'
+
+[Date]
+  other = 'Fecha'
+
+[Language]
+  other = 'Idioma'
 

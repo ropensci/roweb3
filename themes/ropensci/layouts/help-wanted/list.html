@@ -61,8 +61,8 @@
 {{ partial "datatables/scripts" ( dict "id" "usecases" "col" 2 "order" "desc" )  }}
        
     </section>
-{{ $volunteerpartial := (partial "translate-path" (dict "name" "whole-page-fragments/volunteer" "language" .Site.Language.Lang )) }}
+{{ $volunteerpartial := (partial "translate-path" (dict "name" "whole-page-fragments/volunteer" "language" .Language.Lang )) }}
 {{ partial $volunteerpartial  (dict "divider" "rl" "Site" .Site ) }}
-{{ $newsletterpartial := (partial "translate-path" (dict "name" "whole-page-fragments/newsletter" "language" .Site.Language.Lang )) }}
+{{ $newsletterpartial := (partial "translate-path" (dict "name" "whole-page-fragments/newsletter" "language" .Language.Lang )) }}
 {{ partial $newsletterpartial (dict "Site" .Site "divider" "lr" )  }}
 {{ end }}
