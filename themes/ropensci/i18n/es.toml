@@ -319,7 +319,7 @@
   other = 'Con:'
 
 [Reported-on]
-  other = 'Submitido el:'
+  other = 'Enviado el:'
 
 [Title]
   other = 'Título'
