@@ -121,7 +121,7 @@ In this tech note, we explained what ROR IDs are: persistent IDs for organizatio
 They are to organizations what ORCIDs are to individuals.
 We've shown ROR IDs are supported in the base R and devtools ecosystem.
 We encourage you to register your organization and to use the ID in your package's DESCRIPTION.
-Such a task could be tackled duringgi a [package spring cleaning](https://www.tidyverse.org/blog/2023/06/spring-cleaning-2023/).
+Such a task could be tackled during a [package spring cleaning](https://www.tidyverse.org/blog/2023/06/spring-cleaning-2023/).
 
 [^mistake]: Don't we all resort to copy-pasting formatting from others' metadata files? :sweat_smile:
 
