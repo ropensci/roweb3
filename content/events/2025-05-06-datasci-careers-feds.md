@@ -20,7 +20,9 @@ attendees:
 author:
   - Noam Ross
 deets: |
-    Register at: https://zoom.us/meeting/register/WHG_dE3yTseFHCuJw1cnyg
+    Meeting ID: 971 4241 4829
+    Passcode: 727921
+zoomurl: https://zoom.us/j/97142414829?pwd=85aPRc5r99uwGosl4gViFr3XgxWqji.1
 ---
 
 <!--
