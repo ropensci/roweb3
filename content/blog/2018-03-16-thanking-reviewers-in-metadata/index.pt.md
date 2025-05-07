@@ -13,7 +13,7 @@ tags:
 - Software Peer Review
 - metadata
 params:
-  doi: 
+  doi: 10.59350/4eajv-m8783
 ---
 
 Na rOpenSci, nosso [processo de revisão por pares de pacotes R] conta com o trabalho árduo de muitas pessoas revisoras voluntárias.  Essas pessoas da comunidade doam seu [tempo] e sua experiência para melhorar a qualidade dos pacotes da rOpenSci e ajudar a introduzir práticas recomendadas em softwares científicos.
