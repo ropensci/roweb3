@@ -57,7 +57,7 @@ I had the opportunity to receive the scholarship to attend Posit::Conf, one of t
 
 ### LatinR
 
-For November, [we present ARcenso in LatinR](https://youtu.be/YYfyBrQhMQc?si=lQZMormzo83ImToS) the Latin American conference on the use of R in research and development. Together with Emanuel, we shared the work done during the program and how we worked together to build this first phase of the project. It was a very special moment to show the regional community what we had achieved and to receive their feedback and support in the package development process panel.
+In November 2024, [we presented ARcenso at LatinR](https://youtu.be/YYfyBrQhMQc?si=lQZMormzo83ImToS), the Latin American conference on the use of R in research and development. Together with Emanuel, we shared the work done during the program and how we worked together to build this first phase of the project. It was a very special moment to show the regional community what we had achieved and to receive their feedback and support during the panel on the Package Development Process.
 
 ### R in Network
 
