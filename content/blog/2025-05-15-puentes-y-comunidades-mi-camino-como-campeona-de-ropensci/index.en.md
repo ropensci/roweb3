@@ -6,9 +6,9 @@ date: '2025-05-15'
 slug: puentes-comunidades-campeones-ropensci
 package_version: 0.1.0
 tags:
-- campeones
-- paquetes
-- comunidad
+- champions program
+- packages
+- community
 editor:
 - Yanina Bellini Saibene
 doi: 10.59350/6ckxv-axw35
