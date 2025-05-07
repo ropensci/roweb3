@@ -39,7 +39,7 @@ My intention was to cover all the census years in the package, but over time I r
 
 With a volume of work already done and a clearer strategy, we reordered the project outline, defined a roadmap for the different phases of data availability, and then were able to focus on finalizing the data we had already structured. Finally, we put together the documentation and developed the first functions: `get_census()`, `check_repository()` and `arcenso()`.
 
-## Arcenso
+## ARcenso
 
 {{<figure src = "arcenso-hex.png" width = "200px" caption = "Hex from the `arcenso` package, created as part of the rOpenSci champions program." alt = "Blue hex sticker from the R arcenso package, with a design inspired by the sun of the Argentinean flag, and the name of the AR_censo package in white letters in the center." class = "pull-left">}}}
 
