@@ -4,7 +4,7 @@ author:
 - Andrea Gomez Vargas
 date: "2025-05-15"
 slug: "puentes-comunidades-campeones-ropensci"
-description: El desarrollo del paquete arcenso junto a rOpenSci y su presentación en comunidades de R
+description: El desarrollo del paquete ARcenso junto a rOpenSci y su presentación en comunidades de R
 package_version: 0.1.0
 tags:
 - campeones
@@ -23,7 +23,7 @@ En este blog, quiero compartir cómo esta experiencia _abrió nuevas oportunidad
 
 Desde el inicio, mi objetivo fue desarrollar un paquete en R que permitiera acceder de manera estructurada a los datos censales de Argentina. La idea surgió de la necesidad de contar con información histórica organizada y lista para su uso en análisis estadísticos y proyectos de investigación. Mi trabajo como analista de estadísticas de población me llevó a identificar la importancia de contar con una herramienta que facilitara el tratamiento de estos datos. En los censos históricos, estos datos se encuentran dispersos en distintos formatos (libros, PDFs, excels y REDATAM), lo que dificulta su acceso y utilización.
 
-{{< figure src = "censos-argentina.png" caption = "Collage con las portadas de los censos nacionales de Argentina desde 1970 hasta 2022." alt =  "Logotipos oficiales de los censos nacionales de Argentina de 1970 a 2022, de izquierda a derecha:
+{{<figure src = "censos-argentina.png" caption = "Collage con las portadas de los censos nacionales de Argentina desde 1970 hasta 2022." alt =  "Logotipos oficiales de los censos nacionales de Argentina de 1970 a 2022, de izquierda a derecha:
 1970: tapa azul del informe del Censo Nacional de Población, Familias y Viviendas, con dibujos de viviendas y personas;
 1980: personaje animado de un lápiz sonriente con el texto 'Censo 80';
 1991: ícono con una grilla blanca, dos ojos negros y una sonrisa roja, junto al texto 'Censo '91';
@@ -45,26 +45,26 @@ Fue entonces cuando decidí invitar a [*Emanuel Ciardullo*](https://github.com/E
 
 Mi propósito era abarcar en el paquete todos los años censales pero con el tiempo me di cuenta que me iba a llevar más tiempo de los estimado, me sirvió charlar mucho con amigos y miembros de rOpenSci.  No era solo una cuestión de organizar datos, sino de diseñar una estructura que permitiera integrar información de manera escalable y reutilizable en el futuro.
 
-Con el volumen de trabajo ya realizado y una estrategia más clara, reordenamos el esquema del proyecto, definimos las distintas fases de disponibilidad de los datos, y con los que ya estaban estructurados, pudimos enfocarnos en darles su formato final dentro del paquete, armar la documentación y desarrollar las primeras funciones: `get_census`, `check_repository` y `arcenso`. 
+Con el volumen de trabajo ya realizado y una estrategia más clara, reordenamos el esquema del proyecto, definimos las distintas fases de disponibilidad de los datos, y con los que ya estaban estructurados, pudimos enfocarnos en darles su formato final dentro del paquete, armar la documentación y desarrollar las primeras funciones: `get_census()`, `check_repository()` y `arcenso()`. 
 
 
-## Arcenso 
+## ARcenso 
 
 
-{{< figure src = "arcenso-hex.png" width = "200px" caption = "Hex del paquete `arcenso`, creado como parte del programa de campeones de rOpenSci." alt = "Hex sticker azul del paquete de R arcenso, con un diseño inspirado en el sol de la bandera argentina y el nombre del paquete AR_censo en letras blancas en el centro." class = "pull-left" >}}
+{{<figure src = "arcenso-hex.png" width = "200px" caption = "Hex del paquete `arcenso`, creado como parte del programa de campeones de rOpenSci." alt = "Hex sticker azul del paquete de R ARcenso, con un diseño inspirado en el sol de la bandera argentina y el nombre del paquete AR_censo en letras blancas en el centro." class = "pull-left">}}
 
 En medio de estas reflexiones y desafíos técnicos, nació [ARcenso](https://soyandrea.github.io/arcenso/), el paquete no solo busca facilitar el acceso a los datos censales, sino también fomentar su uso entre investigadores, el sector público y la ciudadanía en general mediante herramientas de software libre. La posibilidad de contribuir con una herramienta útil, abierta y pensada para la comunidad ha sido una de las motivaciones más importantes de este proceso. 
 
-El proyecto se encuentra en su primera etapa: ya podés instalar el paquete utilizando `devtools` y explorar los primeros años censales disponibles, 1970 y 1980. El propósito es seguir trabajando para que arcenso se vuelva más robusto, atraviese [el proceso de revisión por pares de rOpenSci](/es/software-review/) y, eventualmente, esté disponible en CRAN. El programa de campeones fue el punto de partida, pero el desarrollo del paquete continúa porque el potencial del recurso —para facilitar el acceso a datos clave de manera abierta y reutilizable— es enorme.
+El proyecto se encuentra en su primera etapa: ya podés instalar el paquete utilizando `devtools` y explorar los primeros años censales disponibles, 1970 y 1980. El propósito es seguir trabajando para que ARcenso se vuelva más robusto, atraviese [el proceso de revisión por pares de rOpenSci](/es/software-review/) y, eventualmente, esté disponible en CRAN. El programa de campeones fue el punto de partida, pero el desarrollo del paquete continúa porque el potencial del recurso —para facilitar el acceso a datos clave de manera abierta y reutilizable— es enorme.
 
 ## La comunidad 
 
 ### Una beca, una conferencia y una comunidad global
 
-Tuve la oportunidad de recibir la beca para asistir a la Posit::Conf, una de las conferencias internacionales más importante del ecosistema R. Fue una experiencia transformadora: aprendí muchísimo, conocí a personas que admiro y viví de cerca lo que significa formar parte de una comunidad global que apuesta por el software libre, el acceso abierto y el desarrollo colaborativo. Además, fue muy especial encontrarme en persona con parte del equipo de rOpenSci y otras personas que forman esta comunidad. El intercambio me ayudó a repensar aspectos clave de arcenso, desde su estructura hasta su potencial de colaboración abierta. Me volví con nuevas ideas, inspiración y una red de personas con quienes seguir creciendo.
+Tuve la oportunidad de recibir la beca para asistir a la Posit::Conf, una de las conferencias internacionales más importante del ecosistema R. Fue una experiencia transformadora: aprendí muchísimo, conocí a personas que admiro y viví de cerca lo que significa formar parte de una comunidad global que apuesta por el software libre, el acceso abierto y el desarrollo colaborativo. Además, fue muy especial encontrarme en persona con parte del equipo de rOpenSci y otras personas que forman esta comunidad. El intercambio me ayudó a repensar aspectos clave de ARcenso, desde su estructura hasta su potencial de colaboración abierta. Me volví con nuevas ideas, inspiración y una red de personas con quienes seguir creciendo.
 
-{{<figure caption = "Momentos clave del recorrido: encuentro con la comunidad de rOpenSci en posit::conf y presentación de arcenso en LatinR."
- src = "comunidades.png" alt = "Collage con dos imágenes: a la izquierda, grupo de campeones rOpenSci en la posit::conf de izquierda a derecha: Luis Verde, Andrea Gomez, Sunny Tseng y Francisco Cardozo; a la derecha, una fotografía de la pantalla durante la presentación del paquete arcenso en LatinR.">}}
+{{<figure caption = "Momentos clave del recorrido: encuentro con la comunidad de rOpenSci en posit::conf y presentación de ARcenso en LatinR."
+ src = "comunidades.png" alt = "Collage con dos imágenes: a la izquierda, grupo de campeones rOpenSci en la posit::conf de izquierda a derecha: Luis Verde, Andrea Gomez, Sunny Tseng y Francisco Cardozo; a la derecha, una fotografía de la pantalla durante la presentación del paquete ARcenso en LatinR.">}}
 
 ### LatinR
 
@@ -75,12 +75,12 @@ Para noviembre, [presentamos ARcenso en LatinR](https://youtu.be/YYfyBrQhMQc?si=
 
 Y para cerrar este gran 2024, desde la organización de R en Buenos Aires, en conjunto con R-Ladies Buenos Aires, impulsamos una presentación local del paquete. Como parte del equipo organizador, coordiné esta actividad con el objetivo de compartir el proyecto con la comunidad, mostrar lo que veníamos construyendo e invitar a más personas a conocerlo. Esta instancia fue muy buena, ya que no solo recibí comentarios valiosos de la comunidad, sino que también pude conectar con otras personas que habían enfrentado problemas similares. También aprovechamos la oportunidad para difundir el programa de Campeones y Campeonas de rOpenSci, con la esperanza de que más personas de nuestra región se animen a postular a la próxima cohorte.
 
-{{<figure src = "arcenso-meet.png" caption = "Presentación en los capítulos locales de R-Ladies y R en Buenos Aires del paquete arcenso: comunidad, funciones y el detrás de escena del trabajo en dupla."
- alt = "Collage de tres momentos del evento ARcenso, Oportunidades y Comunidad: a la izquierda, foto grupal de personas asistentes al evento; en el centro, Andrea presentando y señalando en la pantalla las funciones principales del paquete arcenso; a la derecha, Andrea y Emanuel exponiendo sobre cómo organizaron el trabajo, frente a los asistentes del meetup.">}}
+{{<figure src = "arcenso-meet.png" caption = "Presentación en los capítulos locales de R-Ladies y R en Buenos Aires del paquete ARcenso: comunidad, funciones y el detrás de escena del trabajo en dupla."
+ alt = "Collage de tres momentos del evento ARcenso, Oportunidades y Comunidad: a la izquierda, foto grupal de personas asistentes al evento; en el centro, Andrea presentando y señalando en la pantalla las funciones principales del paquete ARcenso; a la derecha, Andrea y Emanuel exponiendo sobre cómo organizaron el trabajo, frente a los asistentes del meetup.">}}
 
 Presentar el proyecto y discutirlo con la comunidad me permitió reafirmar la importancia de crear herramientas accesibles y bien documentadas. Además, fue un recordatorio de que no estábamos solos en este proceso: la comunidad de R es un espacio donde el conocimiento se construye colectivamente, y participar activamente en ella fue fundamental para seguir adelante con el paquete.
 
 
 ### Lo que queda después del impulso
 
-Participar del programa de Campeones y Campeonas de rOpenSci fue el punto de partida para crear algo que no sabía que podía construir. Me animó a pasar del uso de R al desarrollo de un paquete en R, y del caos de los datos al diseño de una herramienta pensada para que otras personas puedan trabajar mejor. Pero, sobre todo, me conectó con una comunidad que cree en compartir lo que sabe, en acompañarse en el proceso y en abrir caminos para quienes vienen después. Hoy arcenso sigue creciendo, y yo también: con nuevas ideas, nuevos desafíos y el deseo intacto de seguir construyendo en comunidad y para la comunidad.
+Participar del programa de Campeones y Campeonas de rOpenSci fue el punto de partida para crear algo que no sabía que podía construir. Me animó a pasar del uso de R al desarrollo de un paquete en R, y del caos de los datos al diseño de una herramienta pensada para que otras personas puedan trabajar mejor. Pero, sobre todo, me conectó con una comunidad que cree en compartir lo que sabe, en acompañarse en el proceso y en abrir caminos para quienes vienen después. Hoy ARcenso sigue creciendo, y yo también: con nuevas ideas, nuevos desafíos y el deseo intacto de seguir construyendo en comunidad y para la comunidad.

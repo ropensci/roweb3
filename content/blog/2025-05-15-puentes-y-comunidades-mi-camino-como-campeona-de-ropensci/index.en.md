@@ -4,6 +4,7 @@ author:
 - Andrea Gomez Vargas
 date: '2025-05-15'
 slug: puentes-comunidades-campeones-ropensci
+description: Developing the ARcenso package with rOpenSci and presenting it to R communities
 package_version: 0.1.0
 tags:
 - champions program
