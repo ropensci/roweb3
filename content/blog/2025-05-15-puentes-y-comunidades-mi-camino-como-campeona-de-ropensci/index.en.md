@@ -45,7 +45,7 @@ With a volume of work already done and a clearer strategy, we reordered the proj
 
 In the midst of these reflections and technical challenges, [ARcenso](https://soyandrea.github.io/arcenso/) was born. This project, with the package {{arcenso}}, not only seeks to facilitate access to census data, but also to promote its use among researchers, the public sector and citizens in general by means of free software tools. The possibility of contributing with a useful, open and community-oriented tool has been one of the most important motivations of this process.
 
-The project is in its first stage: you can already install the package using `devtools` and explore the first census years available, 1970 and 1980. The purpose is to continue working so that arcenso becomes more robust, traverses [the peer review process of rOpenSci](/es/software-review/) peer review process, and eventually become available on CRAN. The champions program was the starting point, but development of the package continues because the potential of the resource-to facilitate access to key data in an open and reusable way-is enormous.
+The project is in its first stage: you can already install the package using `remotes` and explore the first census years available, 1970 and 1980. The purpose is to continue development so that ARcenso becomes more robust, undergoes [rOpenSci peer review](/software-review/), and eventually become available on CRAN. The Champions Program was the starting point, but development of the package continues because the potential to facilitate access to key data in an open and reusable way is enormous.
 
 ## The community
 
