@@ -28,7 +28,7 @@
             <li>{{ partial "translate-url" (dict "name" "usecases" "Site" .Site  "class" "footer-nav__link")}}{{ i18n "Use-Cases" }}</a></li>
             <li>{{ partial "translate-url" (dict "name" "talks-papers" "Site" .Site  "class" "footer-nav__link")}}{{ i18n "Talks-Publications" }}</a></li>
             <li><a class="footer-nav__link external-link" lang="en" href="https://docs.ropensci.org/">{{ i18n "Documentation" }}</a></li>
-            <li><a class="footer-nav__link" lang="en" href="/news/">{{ i18n "Newsletter" }}</a></li>
+            <li>{{ partial "translate-url" (dict "name" "talks-papers" "Site" .Site  "class" "footer-nav__link")}}{{ i18n "Newsletter" }}</a></li>
             <li>{{ partial "translate-url" (dict "name" "how-to-cite-ropensci" "Site" .Site  "class" "footer-nav__link")}}{{ i18n "Cite-rOpenSci" }}</a></li>
           </ul>
         </div>

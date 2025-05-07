@@ -17,7 +17,11 @@ author:
   - Maëlle Salmon
 attendees:
   - Maëlle Salmon
-resources: # can be added later, one entry per talk (don't add while still empty, add once there are resources)
+resources:
+  - title: Un meilleur historique Git, sans difficulté
+    speaker: Maëlle Salmon
+    slides: https://rladies-paris-git.netlify.app/#/
+    video: https://www.youtube.com/watch?v=u6XqHOO8g6c
 
 ---
 

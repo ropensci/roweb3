@@ -5,7 +5,7 @@
    "image" : "/img/team/noam_ross.png",
    "affiliation" : "Executive Director",
    "roles": [
-      "editor"
+      "staff", "editor"
    ],
    "generalreview": true,
    "mastodon": "https://ecoevo.social/@noamross",

@@ -1,14 +1,24 @@
 {{ define "main" }}
-{{ partial "skeleton/hero" . }}
+{{ $heropartial := (partial "translate-path" (dict "name" "skeleton/hero" "language" .Language.Lang )) }}
+{{ partial $heropartial . }}
 <!-- Hero divider -->
 </div>
-<img class="divider-lg" src="/images/svg/divider-lg.svg" alt="" />
-{{ partial "whole-page-fragments/packages/packages" . }}
-{{ partial "whole-page-fragments/review" (dict "context" . "divider" "rl" ) }}
-{{ $communitypartial := (partial "translate-path" (dict "name" "whole-page-fragments/community" "language" .Site.Language.Lang )) }}
-{{ partial $communitypartial (dict "context" . "divider" "lr" "Site" .Site) }}
-{{ partial "whole-page-fragments/news" (dict "Site" .Site "divider" "rl" ) }}
-{{ partial "whole-page-fragments/newsletter" (dict "divider" "lr" ) }}
-{{ $brandpartial := (partial "translate-path" (dict "name" "whole-page-fragments/brands" "language" .Site.Language.Lang )) }}
-{{ partial $brandpartial (dict "Site" .Site "divider" "rl" )  }}
+{{ $.Scratch.Set "counter" 0}}
+{{ $partials := (slice "review" "r-universe" "champions" "community" "multilingual" "packages/packages" "news" "newsletter" "brands") }}
+{{ $Site := .Site }}
+{{ range $partials }}
+  {{ $counter := $.Scratch.Get "counter" }}
+  {{ $path := printf "whole-page-fragments/%s" . }}
+  {{ $partial := (partial "translate-path" (dict "name" $path "language" $Site.Language.Lang )) }}
+  {{ if eq $counter 0 }}
+  {{ partial $partial (dict "context" . "divider" "lr" "Site" $Site) }}
+  {{ else }}
+    {{ if ( modBool $counter 2 ) }}
+      {{ partial $partial (dict "context" . "divider" "lr" "Site" $Site) }}
+    {{ else }}
+      {{ partial $partial (dict "context" . "divider" "rl" "Site" $Site) }}
+    {{ end }}
+  {{ end }}
+  {{ $.Scratch.Add "counter" 1}}
+{{ end }}
 {{ end }}
