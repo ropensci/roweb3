@@ -5,6 +5,8 @@ date: '2022-02-01'
 author:
 - Mark Padgham
 - Jacob Wujciak-Jens
+translator:
+- Beatriz Milz
 featured: false
 description: Todos os pacotes enviados para revisão por pares com o rOpenSci são verificados
   pelo nosso pacote pkgcheck. Esta publicação descreve uma nova ação do GitHub (GitHub Action) que
