@@ -16,7 +16,7 @@ doi: 10.59350/6ckxv-axw35
 
 To be part of the [rOpenSci Champions program](https://champions-program.ropensci.org) has been an experience of **professional growth and an opportunity to contribute to the rOpenSci community**. I learned about R package development while working on a tool to facilitate access to census data from Argentina.
 
-In this blog, I want to share how this experience *opened new opportunities, connected me with people and communities, and led me to be part of new projects, strengthening my commitment to open access to data.*.
+In this blog, I want to share how this experience *opened new opportunities, connected me with people and communities, and led me to be part of new projects, strengthening my commitment to open access to data*.
 
 ## My project in the program
 
