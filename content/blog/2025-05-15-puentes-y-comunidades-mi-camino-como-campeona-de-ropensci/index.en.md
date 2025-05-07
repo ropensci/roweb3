@@ -70,6 +70,6 @@ Presenting the project and discussing it with the community allowed me to reaffi
 
 ### What remains after the momentum
 
-Participating in the rOpenSci Champions program was the starting point to create something I didn't know I could build. It encouraged me to move from using R to developing a package in R, and from the chaos of data to designing a tool meant for other people to work better. But, above all, it connected me with a community that believes in sharing what it knows, in accompanying each other in the process and in opening paths for those who come after. Today arcenso continues to grow, and so do I: with new ideas, new challenges and the desire to continue building in community and for the community.
+Participating in the rOpenSci Champions Program was the starting point to create something I didn't know I could build. It encouraged me to move from using R to developing a package in R, and from the chaos of data to designing a tool meant for other people to work better. But, above all, it connected me with a community that believes in sharing what it knows, in accompanying each other in the process and in opening paths for those who come after. Today ARcenso continues to grow, and so do I: with new ideas, new challenges and the desire to continue building in community and for the community.
 
 
