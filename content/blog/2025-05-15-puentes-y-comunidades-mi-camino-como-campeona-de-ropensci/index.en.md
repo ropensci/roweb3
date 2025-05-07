@@ -22,7 +22,7 @@ In this blog, I want to share how this experience *opened new opportunities, con
 
 From the beginning, my goal was to develop a package in R that would allow structured access to Argentina's census data. The idea arose from the need to have historical information organized and ready to be used in statistical analysis and research projects. My work as a population statistics analyst led me to identify the importance of having a tool that would facilitate the processing of these data. In historical censuses, these data are scattered in different formats (books, PDFs, excels and REDATAM), which makes it difficult to access and use.
 
-{{< figure src = "censos-argentina.png" alt = "Collage con las portadas de los censos nacionales de Argentina desde 1970 hasta 2022." >}}
+{{< figure src = "censos-argentina.png" caption = "Collage with the covers of the national censuses of Argentina from 1970 to 2022. " alt = "Official logos of the national censuses of Argentina from 1970 to 2022, from left to right: 1970: blue cover of the report of the National Census of Population, Families and Dwellings, with drawings of dwellings and people; 1980: animated figure of a smiling pencil with the text 'Census 80'; 1991: Icon with a white grid, two black eyes and a red smile next to the text 'Census '91'; 2001: blue squares forming a geometric figure and the text 'Census 2001'; 2010: text 'Census 2010 - Bicentennial Year', with the zero represented as an Argentine cockade; 2022: blue circle with abstract white lines and the text 'Census 2022 - Argentine Republic'. " >}}
 
 During the program, I worked on the organization and standardization of the data, facing challenges such as the structuring of the information (tidy data) and the creation of efficient functions for its manipulation. One of the most enriching aspects of the program were the training sessions provided by rOpenSci (special thanks to [Maëlle](/es/author/maëlle-salmon/) y [Yani](/author/yanina-bellini-saibene/) for all the patience and learning), and the continuous exchange of projects with the other champions of the program.
 
@@ -30,7 +30,7 @@ We participated in virtual trainings on code management, use of efficient packag
 
 ## Expectation vs. reality
 
-{{<figure src = "codehero.png" alt = "Ilustración de una persona con una capa que dice 'code hero', diciendo '¡Estoy haciendo algo completamente sola!' mientras vuela con una laptop. Debajo hay una red de contención sostenida por personas con carteles que dicen 'apoyo' y 'comunidad'. También hay globos aerostáticos que ayudan a sostenerla, con etiquetas como 'docentes', 'blogueras', 'amigxs', 'desarrolladorxs' y 'contribuyentes'." class = "pull-right" caption = "Ilustración de [Allison Horst](https://www.allisonhorst.com/)">}}
+{{<figure src = "codehero.png" alt = "Illustration of a person wearing a cape that says 'code hero' and saying 'I'm doing something all by myself' while flying with a laptop. Below is a safety net held by people holding signs that say 'support' and 'community'. There are also hot air balloons supporting them, with labels like 'teachers', 'bloggers', 'friends', 'developers', and 'contributors'." class = "pull-right" caption = "Illustration by [Allison Horst](https://www.allisonhorst.com/)">}}
 
 As I progressed in the development of the package, I faced a key challenge: the structure of the data. As I incorporated information from different census years, I realized that each census brought with it thousands of excel files in different formats making automation difficult and making the transformation one by one, which made the standardization task even more complex.
 It was then that I decided to invite *Emanuel Ciardullo* to join the project. We formed a duo from our complementary points of view - me from sociology, him from statistics - to face this first phase of the package. This alliance was key to rethink the approach and share the technical and conceptual work.
@@ -41,7 +41,7 @@ With the volume of work already done and a clearer strategy, we reordered the pr
 
 ## Arcenso
 
-{{< figure src = "arcenso-hex.png" alt = "Hex sticker azul del paquete de R arcenso, con un diseño inspirado en el sol de la bandera argentina y el nombre del paquete AR_censo en letras blancas en el centro." class = "pull-left" >}}
+{{< figure src = "arcenso-hex.png" width = "200px" caption = "Hex from the `arcenso` package, created as part of the rOpenSci champions program." alt = "Blue hex sticker from the R arcenso package, with a design inspired by the sun of the Argentinean flag, and the name of the AR_censo package in white letters in the center." class = "pull-left" >}}}
 
 In the midst of these reflections and technical challenges, Arcenso was born. [ARcenso](https://soyandrea.github.io/arcenso/) was born, the package not only seeks to facilitate access to census data, but also to promote its use among researchers, the public sector and citizens in general by means of free software tools. The possibility of contributing with a useful, open and community-oriented tool has been one of the most important motivations of this process.
 
@@ -53,7 +53,7 @@ The project is in its first stage: you can already install the package using `de
 
 I had the opportunity to receive the scholarship to attend Posit::Conf, one of the most important international conferences in the R ecosystem. It was a transformative experience: I learned a lot, met people I admire and experienced firsthand what it means to be part of a global community that is committed to free software, open access and collaborative development. In addition, it was very special to meet in person with part of the rOpenSci team and other people who are part of this community. The exchange helped me to rethink key aspects of arcenso, from its structure to its open collaboration potential. I came away with new ideas, inspiration and a network of people to continue growing with.
 
-{{<figure src = "comunidades.png" alt = "Collage con dos imágenes: a la izquierda, grupo de campeones rOpenSci en la posit::conf de izquierda a derecha: Luis Verde, Andrea Gomez, Sunny Tseng y Francisco Cardozo; a la derecha, una fotografía de la pantalla durante la presentación del paquete arcenso en LatinR.">}}
+{{<figure caption = "Key moments of the tour: meeting with the rOpenSci community at posit::conf and arcenso presentation at LatinR." src = "communities.png" alt = "Collage with two images: on the left, group of rOpenSci champions at posit::conf from left to right: Luis Verde, Andrea Gomez, Sunny Tseng and Francisco Cardozo; on the right, an image of the screen during the arcenso package presentation at LatinR.">}}}
 
 ### LatinR
 
@@ -63,7 +63,8 @@ For November, [we present ARcenso in LatinR](https://youtu.be/YYfyBrQhMQc?si=lQZ
 
 And to close this great 2024, from the organization of R in Buenos Aires, together with R-Ladies Buenos Aires, we promoted a local presentation of the package. As part of the organizing team, I coordinated this activity with the aim of sharing the project with the community, showing what we were building and inviting more people to get to know it. This instance was very good, as not only did I receive valuable feedback from the community, but I was also able to connect with other people who had faced similar problems. We also took the opportunity to spread the word about the rOpenSci Champions program, in the hope that more people in our region will be encouraged to apply for the next cohort.
 
-{{<figure src = "arcenso-meet.png" alt = "Collage de tres momentos del evento ARcenso, Oportunidades y Comunidad: a la izquierda, foto grupal de personas asistentes al evento; en el centro, Andrea presentando y señalando en la pantalla las funciones principales del paquete arcenso; a la derecha, Andrea y Emanuel exponiendo sobre cómo organizaron el trabajo, frente a los asistentes del meetup.">}}
+{{<figure src = "arcenso-meet.png" caption = "Presentation in the local chapters of R-Ladies and R in Buenos Aires of the arcenso package: community, functions and the behind the scenes of the work in Dupla." alt = "Collage of three moments of the ARcenso, Opportunities and Community event: on the left, group photo of the people who attended the event; in the middle, Andrea presents and points out the main functions of the arcenso package on the screen; on the right, Andrea and Emanuel explain how they organized the work, in front of the meetup participants.">}}}
+
 
 Presenting the project and discussing it with the community allowed me to reaffirm the importance of creating accessible and well-documented tools. It was also a reminder that we were not alone in this process: the R community is a space where knowledge is built collectively, and actively participating in it was fundamental to move forward with the package.
 
