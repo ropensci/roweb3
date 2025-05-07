@@ -37,7 +37,7 @@ It was then that I decided to invite *Emanuel Ciardullo* to join the project. We
 
 My intention was to cover all the census years in the package, but over time I realized that it was going to take more time than I had estimated. It was not only a matter of organizing data, but also of designing a structure that would allow the integration of information in a scalable and reusable way in the future.
 
-With the volume of work already done and a clearer strategy, we reordered the project outline, defined the different phases of data availability, and with the data already structured, we were able to focus on giving them their final format within the package, put together the documentation and develop the first functions: `get_census`, `check_repository` y `arcenso`.
+With a volume of work already done and a clearer strategy, we reordered the project outline, defined a roadmap for the different phases of data availability, and then were able to focus on finalizing the data we had already structured. Finally, we put together the documentation and developed the first functions: `get_census()`, `check_repository()` and `arcenso()`.
 
 ## Arcenso
 
