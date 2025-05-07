@@ -14,7 +14,7 @@ tags:
 - pkgcheck
 - tech notes
 params:
-  doi: 
+  doi: 10.59350/51cp7-pb060
 ---
 
 ## O que é o pkgcheck?
