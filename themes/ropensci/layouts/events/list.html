@@ -15,6 +15,6 @@
 {{ end }}
     {{ partial "calendar/events" (dict "Site" .Site )  }}
          
-{{ $newsletterpartial := (partial "translate-path" (dict "name" "whole-page-fragments/newsletter" "language" .Site.Language.Lang )) }}
+{{ $newsletterpartial := (partial "translate-path" (dict "name" "whole-page-fragments/newsletter" "language" .Language.Lang )) }}
 {{ partial $newsletterpartial (dict "Site" .Site "divider" "rl" )  }}
 {{ end }}
