@@ -94,8 +94,9 @@
    "participates": [
       "blog"
    ],
-   "mastodon": "https://fosstodon.org/@yabellini",
+   "mastodon": "https://rstats.me/@yabellini",
    "linkedin": "https://www.linkedin.com/in/yabellini",
+   "bluesky": "yabellini.bsky.social",
    "github": "yabellini",
    "home": "/author/yanina-bellini-saibene/"
 },
