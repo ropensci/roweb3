@@ -122,7 +122,7 @@ As of today, ROR icons like those on the CRAN pages, pkgdown websites and our we
 
 In this tech note, we explained what ROR IDs are: persistent IDs for organizations.
 They are to organizations what ORCIDs are to individuals.
-We've shown ROR IDs are supported in the base R and devtools ecosystem.
+We've shown ROR IDs are supported in the base R and devtools ecosystems.
 
 ROR IDs can help identify more clearly an entity you list in your package's `DESCRIPTION` because it, say, funded the work or owns the copyrights to it.
 We encourage you to register your organization to the Research Organization Registry and to use the resulting ID in your package's `DESCRIPTION`.
