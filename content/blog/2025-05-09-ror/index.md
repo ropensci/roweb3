@@ -45,8 +45,7 @@ person("rOpenSci", role = "fnd",
        comment = c("https://ropensci.org/", ROR = "019jywm96"))
 ```
 
-[^feature]: Currently, packages on CRAN with a ROR ID in `DESCRIPTION` get a NOTE in CRAN checks, that can be ignored, 
-due to older versions not parsing the ROR ID. [Example](https://cran.r-project.org/web/checks/check_results_vcr.html)
+[^feature]: Currently, packages on CRAN with a ROR ID in `DESCRIPTION` get a NOTE in CRAN checks, that can be ignored. [Example](https://cran.r-project.org/web/checks/check_results_vcr.html)
 
 The ROR icon, although less striking than the bright green ORCID icon, appears on the CRAN page of the package and links to the organization's ROR page that in turn can link to the organization's website:
 
