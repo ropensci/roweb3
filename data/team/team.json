@@ -7,6 +7,9 @@
    "roles": [
       "staff", "editor"
    ],
+   "participates": [
+      "champions"
+   ],
    "generalreview": true,
    "mastodon": "https://ecoevo.social/@noamross",
    "linkedin": "https://www.linkedin.com/in/noamross",
@@ -151,7 +154,9 @@
    ],
    "participates": [
       "blog",
-      "commcalls"
+      "commcalls",
+      "champions",
+      "multilingual-publishing"
    ],
    "twitter": "steffilazerte",
    "mastodon": "https://fosstodon.org/@steffilazerte",
