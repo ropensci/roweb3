@@ -50,13 +50,13 @@ The ROR icon, although less striking than the bright green ORCID icon, appears o
 
 {{< figure src="vcr-cran.png" alt="Screenshot of the CRAN page of the vcr package. Near the names of human authors Scott Chamberlain and Aaron Wolen are small ORCID icons. Near the name of the organizational author rOpenSci is a small ROR icon." >}}
 
-In 2018 we had reported about tooling for manipulating ORCID. 
+In 2018 we had [reported](/blog/2018/10/08/orcid/) about tooling for using ORCID. 
 This year, we'd like to explain the tooling for including ROR.
 
-## ROR support in the devtools ecosystem
+## ROR support in the {devtools} ecosystem
 
-Once ROR IDs were supported by base R, a next technical step was to have them totally backed by the devtools ecosystem too.
-The roadmap and actual code for that were fairly simple, since we could follow what had been done for ORCID. 
+Once ROR IDs were supported by base R, a next technical step was for them to be totally backed by Posit's ["devtools ecosystem"](https://r-pkgs.org/setup.html) too -- even if devtools is not strictly necessary for developing packages.
+The roadmap and code for that followed what had been done for ORCID. 
 It is very fortunate that ORCID support was added before ROR because "orcid" is a better string to search for than "ror" that comes up in, say, "error". :smile_cat:
 
 ### ROR IDs support in {desc}
