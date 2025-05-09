@@ -1,8 +1,8 @@
 ---
-title: Roaringly acknowledge organizations with ROR IDs in DESCRIPTION
+title: Roaringly Acknowledge Organizations with ROR IDs in DESCRIPTION
 author: 
 - Maëlle Salmon
-editor:
+editor: Steffi LaZerte
 date: '2025-05-09'
 slug: ror
 output: hugodown::md_document
@@ -31,16 +31,16 @@ Recognition! Personal branding!
 
 This year, the exact same idea was applied to _organizations_ using [ROR](https://ror.org/) ("Research Organizations Registry") IDs.
 Any organization, be it a resarch organization, an initiative or a company, can [request to be listed](https://ror.org/registry/) in the registry.
-A few months ago, it became possible to list ROR IDs in DESCRIPTION, which a few dozens 
+A few months ago, it became possible to list ROR IDs in DESCRIPTION, which a few dozen 
 [CRAN packages](https://github.com/search?q=%2F%28%3F-i%29ROR+%3D+%22%2F++user%3Acran+path%3A**%2FDESCRIPTION&type=code&ref=advsearch) currently do -- 
-still far from [ORCID adoption](https://github.com/search?q=%2F%28%3F-i%29ORCID+%3D+%22%2F++user%3Acran+path%3A**%2FDESCRIPTION&type=code&ref=advsearch) in thousands of CRAN packages.
+although this is still far from the thousands of CRAN packages adopting [ORCIDs](https://github.com/search?q=%2F%28%3F-i%29ORCID+%3D+%22%2F++user%3Acran+path%3A**%2FDESCRIPTION&type=code&ref=advsearch).
 Thanks to [R Core](https://ror.org/02zz1nj61) for adding the feature[^feature] and to [Achim Zeileis](https://orcid.org/0000-0003-0918-3766) for [spreading the news](https://fosstodon.org/@zeileis/113899983089249684).
 
 For instance, rOpenSci can be represented by:
 
 ```r
 person("rOpenSci", role = "fnd",
-          comment = c("https://ropensci.org/", ROR = "019jywm96"))
+       comment = c("https://ropensci.org/", ROR = "019jywm96"))
 ```
 
 [^feature]: Currently, packages on CRAN with a ROR ID in DESCRIPTION get a NOTE in CRAN checks, that can be ignored, 
@@ -48,7 +48,7 @@ due to older versions not parsing the ROR ID. [Example](https://cran.r-project.o
 
 The ROR icon, although less striking than the bright green ORCID icon, appears on the CRAN page of the package:
 
-{{< figure src="vcr-cran.png" alt="Screenshot of the CRAN page of the vcr package. Near the names of human authors Scott Chamberlain and Aaron Wolen are small ORCID icons. Near the name of the organizational author author rOpenSci is a small ROR icon." >}}
+{{< figure src="vcr-cran.png" alt="Screenshot of the CRAN page of the vcr package. Near the names of human authors Scott Chamberlain and Aaron Wolen are small ORCID icons. Near the name of the organizational author rOpenSci is a small ROR icon." >}}
 
 In 2018 we had reported about tooling for manipulating ORCID. 
 This year, we'd like to explain the tooling for including ROR.
@@ -99,7 +99,7 @@ NULL
 Running `devtools::document()` will create an Rd file for `?package-name`, whose content comes from `DESCRIPTION`, including ORCIDs and ROR IDs.
 
 In this case, you might want to install roxygen2's [development version](https://github.com/r-lib/roxygen2/pull/1699) to see the ROR ID properly reformatted to an URL.
-Example of the desc package: [package-level doc source](https://github.com/ropensci/tinkr/blob/main/R/tinkr-package.R), 
+Example of the tinkr package: [package-level doc source](https://github.com/ropensci/tinkr/blob/main/R/tinkr-package.R), 
 [package-level manual page](https://github.com/ropensci/tinkr/blob/4937951b655e7e8cb0aaf3025f82f0d921d0b3d5/man/tinkr-package.Rd#L32), 
 [manual page on pkgdown](https://docs.ropensci.org/tinkr/reference/tinkr-package.html#author).
 
@@ -111,7 +111,7 @@ Since its [2.1.2 version](https://pkgdown.r-lib.org/news/index.html#new-features
 The sidebar of [pkgdown's own website](https://pkgdown.r-lib.org/index.html) includes an ROR icon near Posit's name.
 
 
-## ROR icons: towards more library support?
+## Support for ROR icons?
 
 As of today, ROR icons like those on the CRAN pages, pkgdown websites and our website's footer come from [files](https://ror.readme.io/docs/display). We have however opened an icon request for ROR in Font Awesome repository, that you can [upvote](https://github.com/FortAwesome/Font-Awesome/issues/20550) by using thumbs up. This strategy worked for [ORCID](https://github.com/FortAwesome/Font-Awesome/issues/4401). There's already a ROR icon in the more specialized [academicons library](https://jpswalsh.github.io/academicons/).
 
