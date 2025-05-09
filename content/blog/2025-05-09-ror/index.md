@@ -116,7 +116,7 @@ The sidebar of [tinkr's website](https://docs.ropensci.org/tinkr/index.html) inc
 
 ## Support for ROR icons?
 
-As of today, ROR icons like those on the CRAN pages, pkgdown websites and our website's footer come from [files](https://ror.readme.io/docs/display). We have however opened an icon request for ROR in Font Awesome repository, that you can [upvote](https://github.com/FortAwesome/Font-Awesome/issues/20550) by using thumbs up. This strategy worked for [ORCID](https://github.com/FortAwesome/Font-Awesome/issues/4401). There's already a ROR icon in the more specialized [academicons library](https://jpswalsh.github.io/academicons/).
+As of today, ROR icons like those on the CRAN pages, pkgdown websites and our website's footer come from [files](https://ror.readme.io/docs/display). We have however opened an icon request for ROR in the Font Awesome repository, that you can [upvote](https://github.com/FortAwesome/Font-Awesome/issues/20550) by using thumbs up. This strategy worked for [ORCID](https://github.com/FortAwesome/Font-Awesome/issues/4401). There's already a ROR icon in the more specialized [academicons library](https://jpswalsh.github.io/academicons/).
 
 ## Conclusion: go forth, register and use ROR IDs!
 
