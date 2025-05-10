@@ -15,4 +15,4 @@ R-universe allows users and developers of R packages to...
 
 * **Publish**: R-universe is an open platform for running personal cran-like package repositories to make your work visible and accessible to a big audience, with or without CRAN.
 
-* **Develop**: R-universe provides a zero config development environment for continuous integration (identify upcoming breakage before the release), experimental R features, new platforms such as WebAssembly, etc.
+* **Develop**: R-universe provides an user-friendly development environment for continuous integration (identify upcoming breakage before the release thanks to smooth distribution of the development version), experimental R features, new platforms such as WebAssembly, etc.
