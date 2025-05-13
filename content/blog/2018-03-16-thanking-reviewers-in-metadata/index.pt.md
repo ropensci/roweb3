@@ -7,6 +7,8 @@ author:
 - Maëlle Salmon
 - Karthik Ram
 - Scott Chamberlain
+translator:
+- Beatriz Milz
 topicid: 1101
 tags:
 - community

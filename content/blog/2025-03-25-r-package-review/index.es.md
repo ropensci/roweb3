@@ -16,6 +16,8 @@ social: '@Alex_Koiter@sciencemastodon.com comparte sus reflexiones sobre su expe
 editor:
 - Steffi LaZerte
 - Yanina Bellini Saibene
+translator:
+- Yanina Bellini Saibene
 params:
   doi: 10.59350/19v94-d8656
 ---
