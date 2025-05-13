@@ -23,13 +23,12 @@ En este blog, quiero compartir cómo esta experiencia _abrió nuevas oportunidad
 
 Desde el inicio, mi objetivo fue desarrollar un paquete en R que permitiera acceder de manera estructurada a los datos censales de Argentina. La idea surgió de la necesidad de contar con información histórica organizada y lista para su uso en análisis estadísticos y proyectos de investigación. Mi trabajo como analista de estadísticas de población me llevó a identificar la importancia de contar con una herramienta que facilitara el tratamiento de estos datos. En los censos históricos, estos datos se encuentran dispersos en distintos formatos (libros, PDFs, excels y REDATAM), lo que dificulta su acceso y utilización.
 
-{{<figure src = "censos-argentina.png" caption = "Collage con las portadas de los censos nacionales de Argentina desde 1970 hasta 2022." alt =  "Logotipos oficiales de los censos nacionales de Argentina de 1970 a 2022, de izquierda a derecha,
-1970. Tapa azul del informe del Censo Nacional de Población, Familias y Viviendas, con dibujos de viviendas y personas;
-1980. Personaje animado de un lápiz sonriente con el texto 'Censo 80';
-1991. Icono con una grilla blanca, dos ojos negros y una sonrisa roja, junto al texto 'Censo '91';
-2001. Cuadrados azules formando una figura geométrica y el texto 'Censo 2001';
-2010. Texto 'Censo 2010 - Año del Bicentenario', con el cero representado como una escarapela argentina;
-2022, Círculo azul con líneas blancas abstractas y el texto 'Censo 2022 - República Argentina'.">}}
+{{<figure src = "censos-argentina.png" caption = "Collage con las portadas de los censos nacionales de Argentina desde 1970 hasta 2022." alt =  "Logotipos oficiales de los censos nacionales de Argentina de 1970 a 2022, de izquierda a derecha tenemos 1970. Tapa azul del informe del Censo Nacional de Población, Familias y Viviendas, con dibujos de viviendas y personas;
+1980. Personaje animado de un lápiz sonriente con el texto Censo 80;
+1991. Icono con una grilla blanca, dos ojos negros y una sonrisa roja, junto al texto Censo 91;
+2001. Cuadrados azules formando una figura geométrica y el texto Censo 2001;
+2010. Texto Censo 2010 - Año del Bicentenario, con el cero representado como una escarapela argentina;
+2022, Círculo azul con líneas blancas abstractas y el texto Censo 2022 - República Argentina.">}}
 
 Durante el programa, trabajé en la organización y estandarización de los datos, enfrentándome a desafíos como la estructuración de la información (tidy data) y la creación de funciones eficientes para su manipulación. Uno de los aspectos más enriquecedores del programa fueron las sesiones de entrenamiento proporcionadas por rOpenSci (agradecimiento especial a [Maëlle](/es/author/maëlle-salmon/) y [Yani](/author/yanina-bellini-saibene/) por toda la paciencia y aprendizaje), y el intercambio continuo de proyectos con los demás campeones y campeonas del programa. 
 
