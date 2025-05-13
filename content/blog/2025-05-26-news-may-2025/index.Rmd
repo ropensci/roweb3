@@ -85,7 +85,7 @@ You might know of [our {pkgcheck} system](https://docs.ropensci.org/pkgcheck/) u
 We are seeking co-maintainers for the {pkgcheck} package that powers that. 
 In particular, we have several [ideas for additional checks in current repo issues](https://github.com/ropensci-review-tools/pkgcheck/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22%3Amag%3A%20Check%20Idea%22). 
 We would like volunteers to attend an online get-together for us to coach you on how to implement new checks, and so to help you get involved in maintaining and further developing our checking system.
-Please email `mark@ropensci.org` if you're interested!
+If you're interested and already part of our slack group, please join our dedicatated `#pkgcheck` channel, otherwise email `mark@ropensci.org`.
 
 ### Coworking 
 
