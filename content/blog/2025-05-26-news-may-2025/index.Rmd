@@ -83,7 +83,7 @@ See also the [issue about the JSON config](https://github.com/r-lib/usethis/issu
 
 You might know of [our {pkgcheck} system](https://docs.ropensci.org/pkgcheck/) used for our automated package checks, and for your own stand-alone and [GitHub-action usage](https://github.com/ropensci-review-tools/pkgcheck-action) on any package. 
 We are seeking co-maintainers for the {pkgcheck} package that powers that. 
-In particular, we have several ideas for additional checks in current repo issues. 
+In particular, we have several [ideas for additional checks in current repo issues](https://github.com/ropensci-review-tools/pkgcheck/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22%3Amag%3A%20Check%20Idea%22). 
 We would like volunteers to attend an online get-together for us to coach you on how to implement new checks, and so to help you get involved in maintaining and further developing our checking system.
 Please email `mark@ropensci.org` if you're interested!
 
