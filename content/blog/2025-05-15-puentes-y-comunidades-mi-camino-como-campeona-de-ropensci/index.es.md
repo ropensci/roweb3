@@ -23,13 +23,13 @@ En este blog, quiero compartir cómo esta experiencia _abrió nuevas oportunidad
 
 Desde el inicio, mi objetivo fue desarrollar un paquete en R que permitiera acceder de manera estructurada a los datos censales de Argentina. La idea surgió de la necesidad de contar con información histórica organizada y lista para su uso en análisis estadísticos y proyectos de investigación. Mi trabajo como analista de estadísticas de población me llevó a identificar la importancia de contar con una herramienta que facilitara el tratamiento de estos datos. En los censos históricos, estos datos se encuentran dispersos en distintos formatos (libros, PDFs, excels y REDATAM), lo que dificulta su acceso y utilización.
 
-{{<figure src = "censos-argentina.png" caption = "Collage con las portadas de los censos nacionales de Argentina desde 1970 hasta 2022." alt =  "Logotipos oficiales de los censos nacionales de Argentina de 1970 a 2022, de izquierda a derecha:
-1970: tapa azul del informe del Censo Nacional de Población, Familias y Viviendas, con dibujos de viviendas y personas;
-1980: personaje animado de un lápiz sonriente con el texto 'Censo 80';
-1991: ícono con una grilla blanca, dos ojos negros y una sonrisa roja, junto al texto 'Censo '91';
-2001: cuadrados azules formando una figura geométrica y el texto 'Censo 2001';
-2010: texto 'Censo 2010 - Año del Bicentenario', con el cero representado como una escarapela argentina;
-2022: círculo azul con líneas blancas abstractas y el texto 'Censo 2022 - República Argentina'.">}}
+{{<figure src = "censos-argentina.png" caption = "Collage con las portadas de los censos nacionales de Argentina desde 1970 hasta 2022." alt =  "Logotipos oficiales de los censos nacionales de Argentina de 1970 a 2022, de izquierda a derecha,
+1970. Tapa azul del informe del Censo Nacional de Población, Familias y Viviendas, con dibujos de viviendas y personas;
+1980. Personaje animado de un lápiz sonriente con el texto 'Censo 80';
+1991. Icono con una grilla blanca, dos ojos negros y una sonrisa roja, junto al texto 'Censo '91';
+2001. Cuadrados azules formando una figura geométrica y el texto 'Censo 2001';
+2010. Texto 'Censo 2010 - Año del Bicentenario', con el cero representado como una escarapela argentina;
+2022, Círculo azul con líneas blancas abstractas y el texto 'Censo 2022 - República Argentina'.">}}
 
 Durante el programa, trabajé en la organización y estandarización de los datos, enfrentándome a desafíos como la estructuración de la información (tidy data) y la creación de funciones eficientes para su manipulación. Uno de los aspectos más enriquecedores del programa fueron las sesiones de entrenamiento proporcionadas por rOpenSci (agradecimiento especial a [Maëlle](/es/author/maëlle-salmon/) y [Yani](/author/yanina-bellini-saibene/) por toda la paciencia y aprendizaje), y el intercambio continuo de proyectos con los demás campeones y campeonas del programa. 
 
@@ -63,8 +63,7 @@ El proyecto se encuentra en su primera etapa: ya podés instalar el paquete util
 
 Tuve la oportunidad de recibir la beca para asistir a la Posit::Conf, una de las conferencias internacionales más importante del ecosistema R. Fue una experiencia transformadora: aprendí muchísimo, conocí a personas que admiro y viví de cerca lo que significa formar parte de una comunidad global que apuesta por el software libre, el acceso abierto y el desarrollo colaborativo. Además, fue muy especial encontrarme en persona con parte del equipo de rOpenSci y otras personas que forman esta comunidad. El intercambio me ayudó a repensar aspectos clave de ARcenso, desde su estructura hasta su potencial de colaboración abierta. Me volví con nuevas ideas, inspiración y una red de personas con quienes seguir creciendo.
 
-{{<figure caption = "Momentos clave del recorrido: encuentro con la comunidad de rOpenSci en posit::conf y presentación de ARcenso en LatinR."
- src = "comunidades.png" alt = "Collage con dos imágenes: a la izquierda, grupo de campeones rOpenSci en la posit::conf de izquierda a derecha: Luis Verde, Andrea Gomez, Sunny Tseng y Francisco Cardozo; a la derecha, una fotografía de la pantalla durante la presentación del paquete ARcenso en LatinR.">}}
+{{<figure caption = "Momentos clave del recorrido: encuentro con la comunidad de rOpenSci en posit::conf y presentación de ARcenso en LatinR." src = "comunidades.png" alt = "Collage con dos imágenes. A la izquierda, grupo de campeones rOpenSci en la Posit Conf de izquierda a derecha, Luis Verde, Andrea Gomez, Sunny Tseng y Francisco Cardozo; a la derecha, una fotografía de la pantalla durante la presentación del paquete ARcenso en LatinR.">}}
 
 ### LatinR
 
