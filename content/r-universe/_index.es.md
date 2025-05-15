@@ -5,7 +5,7 @@ description = "La plataforma R-Universe para mejorar la publicación y el descub
 tags = ["r-universe"]
 +++
 
-[R-Universe](https://r-universe.dev/) es la plataforma de rOpenSci para mejorar la publicación y el descubrimiento de software de investigación en R y un [proyecto de alto nivel del R Consortium](/blog/2024/12/03/r-universe-r-consortium-tlp/)..
+[R-Universe](https://r-universe.dev/) es la plataforma de rOpenSci para mejorar la publicación y el descubrimiento de software de investigación en R y actualmente es un [proyecto de alto nivel del R Consortium](/blog/2024/12/03/r-universe-r-consortium-tlp/)..
 
 R-Universe permite a las personas que usan y desarrollan paquetes R:
 
