@@ -5,7 +5,7 @@ description = "The R-universe platform for improving publication and discovery o
 tags = ["r-universe"]
 +++
 
-[R-universe](https://r-universe.dev/) is rOpenSci's platform for improving publication and discovery of research software in R.
+[R-universe](https://r-universe.dev/) is rOpenSci's platform for improving publication and discovery of research software in R, and a [top-level R consortium project](/blog/2024/12/03/r-universe-r-consortium-tlp/).
 R-universe allows users and developers of R packages to...
 
 * **Discover**: R-universe provides a searchable catalogue for R software, articles, datasets, anywhere in the ecosystem. That catalogue is indexed and ranked using R specific features.
