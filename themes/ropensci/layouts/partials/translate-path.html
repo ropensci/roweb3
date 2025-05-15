@@ -3,6 +3,6 @@
 {{ $partialsource := "themes/ropensci/layouts/partials/" }}
 {{ $actualpath := printf "%s%s.html" $partialsource $path }}
 {{ if fileExists $actualpath }}
-  {{ $value = $path }}
+  {{ $value = printf "%s.html" $path }}
 {{ end }}
 {{ return $value }}

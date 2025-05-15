@@ -231,7 +231,7 @@ Note that main.min.css that contains all the CSS is stored under themes/ropensci
 * Check metadata of posts on Rogue Scholar for the previous month (for instance authors). https://rogue-scholar.org/blogs/ropensci
 * Start a new post with the newsletter archetype, use the same title "rOpenSci News Digest, MONTH YEAR" and slug "ropensci-news-digest-month-YYYY" and tag "newsletter".
 * **Make sure your branch is based on the latest commit of the default branch, re-base if needed.**
-* Open the Rproj in `scripts/use-cases` (in another RStudio window), run `renv::restore()` and source `get_use_cases.R` to update use cases data (you need a Discourse API key, contact Scott).
+* Source `scripts/use-cases/get_use_cases.R` to update use cases data (you need your GitHub token situation to be in order).
 * Change the date of the last newsletter in the new post, knit it. 
   * Manually updated sections: rOpenSci HQ (issues in https://github.com/ropensci/biweekly that you should watch; look at recent/future events including comm calls; if needed poll staff), from the forum (interesting recent posts?), package development corner (poll package-maintenance channel; your recent reads), call for maintainers.
   * If a blog post was featured on the R Weekly highlights podcast, add a link to it.
