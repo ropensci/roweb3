@@ -6,7 +6,6 @@ tags = ["r-universe"]
 +++
 
 [R-universe](https://r-universe.dev/) is rOpenSci's platform for improving publication and discovery of research software in R.
-
 R-universe allows users and developers of R packages to...
 
 * **Discover**: R-universe provides a searchable catalogue for R software, articles, datasets, anywhere in the ecosystem. That catalogue is indexed and ranked using R specific features.
@@ -16,3 +15,8 @@ R-universe allows users and developers of R packages to...
 * **Publish**: R-universe is an open platform for running personal cran-like package repositories to make your work visible and accessible to a big audience, with or without CRAN.
 
 * **Develop**: R-universe provides a zero config development environment for continuous integration (identify upcoming breakage before the release), experimental R features, new platforms such as WebAssembly, etc.
+
+R-universe is financially supported by the [R Consortium](https://r-consortium.org/) as a [top-level project](https://ropensci.org/blog/2024/12/03/r-universe-r-consortium-tlp/).
+
+R-universe previously received funding by the [Moore Foundation](https://ropensci.org/blog/2019/11/06/scientific-package-ecosystem/) and [Google Season of Docs](https://ropensci.org/blog/2024/04/12/gsod-announcement/).
+
