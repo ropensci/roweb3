@@ -21,9 +21,9 @@ params:
 
 ## ¿Qué es pkgcheck?
 
-El sitio del [paquete pkgcheck](https://github.com/ropensci-review-tools/pkgcheck)
-ha sido desarrollado por rOpenSci para automatizar el proceso de la comprobación de todos los paquetes para su
-envío. El sitio `ropensci-review-bot` ejecuta automáticamente pkgcheck en todos los envíos, y los editores también pueden activar las comprobaciones en cualquier momento utilizando el comando:
+El [paquete pkgcheck](https://github.com/ropensci-review-tools/pkgcheck)
+ha sido desarrollado por rOpenSci para automatizar el proceso de la comprobación de todos los paquetes enviados para su
+revisión. El `ropensci-review-bot` ejecuta automáticamente pkgcheck en todos los envíos, y los editores también pueden activar las comprobaciones en cualquier momento utilizando el comando:
 
 ```r
 @ropensci-review-bot check package
@@ -42,7 +42,7 @@ Al igual que el paquete [acción rcmdcheck de GitHub](https://github.com/r-lib/a
 
 ## La acción pkgcheck de GitHub
 
-Este post es el anuncio "oficial" del lanzamiento de la acción pkgcheck, una acción de GitHub que permite ejecutar comprobaciones cada vez que se envía algún código a GitHub. La acción fue desarrollada por uno de nosotros (Jacob), y puede encontrarse en [el GitHub en ropensci-review-tools/pkgcheck-action](https://github.com/ropensci-review-tools/pkgcheck-action). La forma más sencilla de utilizar esta acción en tu propio repositorio es instalar [el paquete pkgcheck](https://docs.ropensci.org/pkgcheck/#installation) y ejecutar [la función `use_github_action_pkgcheck()`](https://docs.ropensci.org/pkgcheck/reference/use_github_action_pkgcheck.html). Esto colocará un nuevo archivo en la carpeta `.github/workflows` y un directorio en tu paquete llamado "pkgcheck.yaml", cuyo ejemplo se muestra en [el README principal del repositorio pkgcheck-action](https://github.com/ropensci-review-tools/pkgcheck-action#usage). La acción consiste en una única tarea expresada en las líneas finales:
+Este artículo es el anuncio "oficial" del lanzamiento de la acción pkgcheck, una acción de GitHub que permite ejecutar comprobaciones cada vez que se envía algún código a GitHub. La acción fue desarrollada por uno de nosotros (Jacob), y puede encontrarse en [el GitHub en ropensci-review-tools/pkgcheck-action](https://github.com/ropensci-review-tools/pkgcheck-action). La forma más sencilla de utilizar esta acción en tu propio repositorio es instalar [el paquete pkgcheck](https://docs.ropensci.org/pkgcheck/#installation) y ejecutar [la función `use_github_action_pkgcheck()`](https://docs.ropensci.org/pkgcheck/reference/use_github_action_pkgcheck.html). Esto colocará un nuevo archivo en la carpeta `.github/workflows` y un directorio en tu paquete llamado "pkgcheck.yaml", cuyo ejemplo se muestra en [el README principal del repositorio pkgcheck-action](https://github.com/ropensci-review-tools/pkgcheck-action#usage). La acción consiste en una única tarea expresada en las líneas finales:
 
 ```yaml
 jobs:
