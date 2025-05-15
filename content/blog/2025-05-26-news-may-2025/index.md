@@ -10,7 +10,7 @@ description: Career Paths for U.S. Federal Data Scientists, Website in Spanish
 params:
   last_newsletter: '2025-04-28'
   doi: "10.59350/e4wq0-j73"
-rmd_hash: bf05dd223aab88e6
+rmd_hash: 0180491716988ff7
 
 ---
 
@@ -20,9 +20,11 @@ Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> Y
 
 ## rOpenSci HQ
 
+Breaking news: a new vcr version is in the works! Follow the activity by Hadley Wickham and Scott Chamberlain in vcr's [GitHub repository](https://github.com/ropensci/vcr), check out the new [`local_cassette()` function](https://docs.ropensci.org/vcr/reference/use_cassette.html)... Or just wait for the next release! :smile_cat:
+
 ### Help us maintain {pkgcheck}!
 
-You might know of [our {pkgcheck} system](https://docs.ropensci.org/pkgcheck/) used for our automated package checks, and for your own stand-alone and [GitHub-action usage](https://github.com/ropensci-review-tools/pkgcheck-action) on any package. We are seeking co-maintainers for the {pkgcheck} package that powers that. In particular, we have several [ideas for additional checks in current repo issues](https://github.com/ropensci-review-tools/pkgcheck/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22%3Amag%3A%20Check%20Idea%22). We would like volunteers to attend an online get-together for us to coach you on how to implement new checks, and so to help you get involved in maintaining and further developing our checking system. If you're interested and already part of our slack group, please join our dedicatated `#pkgcheck` channel, otherwise email `mark@ropensci.org`.
+You might know of [our {pkgcheck} system](https://docs.ropensci.org/pkgcheck/) used for our automated package checks, and for your own stand-alone and GitHub-action usage on any package. We are seeking co-maintainers for the {pkgcheck} package that powers that. In particular, we have several ideas for additional checks in current repo issues. We would like volunteers to attend an online get-together for us to coach you on how to implement new checks, and so to help you get involved in maintaining and further developing our checking system. Please email `mark@ropensci.org` if you're interested!
 
 ### Coworking
 
@@ -169,8 +171,6 @@ To follow up on last newsletter's item ["🔗 CI: Pin the R version if using ren
 In March we mentioned [Air](/blog/2025/03/27/news-march-2025/#air-a-new-formatter-for-r), the new formatter developed at Posit. In usethis development version, there's a function that helps you set up a project to use Air: [`use_air()`](https://usethis.r-lib.org/dev/reference/use_air.html). See also the [issue about the JSON config](https://github.com/r-lib/usethis/issues/2114).
 
 ### Better HTTP testing with vcr's development version
-
-Breaking news: a new vcr version is in the works! Follow the activity by Hadley Wickham and Scott Chamberlain in vcr's [GitHub repository](https://github.com/ropensci/vcr), check out the new [`local_cassette()` function](https://docs.ropensci.org/vcr/reference/use_cassette.html)... Or just wait for the next release! :smile_cat:
 
 ## Last words
 
