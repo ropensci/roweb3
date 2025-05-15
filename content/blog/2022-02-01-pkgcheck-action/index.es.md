@@ -54,7 +54,7 @@ jobs:
 
 Hay varios parámetros también descriptos en ese README principal, que pueden pasarse como parámetros a [la función `use_github_action_pkgcheck()`](https://docs.ropensci.org/pkgcheck/reference/use_github_action_pkgcheck.html) o añadirla al archivo YAML del flujo de trabajo, como también se describe en el README. Una vez creada la acción en tu repositorio, puedes activarla añadiéndola en un commit de git y enviándola a GitHub.
 
-### Publicar los resultados de pkgcheck en una incidencia de GitHub
+### Publicar los resultados de pkgcheck en un _issue_ de GitHub
 
 Además de que el flujo de trabajo imprima todos los detalles devueltos por la función principal de pkgcheck, el resultado de este también puede publicarse en un _issue_ de GitHub, donde aparecerá exactamente como en el ejemplo anterior. Una vez finalizado el flujo de trabajo, recibirás una notificación y podrás ver los resultados de la comprobación (con un icono `summary-only` que determina si sólo se publicará en la incidencia un resumen de los resultados como el mostrado anteriormente, o si se publicarán los resultados completos que incluyen el resumen seguido de bastantes más detalles). El flujo de trabajo sólo tendrá éxito cuando se hayan superado todas las comprobaciones de pkgcheck.
 
