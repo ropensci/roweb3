@@ -38,7 +38,7 @@ Para estar listo para la revisión por pares, pkgcheck debe devolver una serie d
 1. Los resultados sólo pueden ser reproducibles en un sistema local, en lugar de ser reproducibles de forma general; y
 2. Las comprobaciones realizadas por pkgcheck incluyen todas las comprobaciones realizadas por [el paquete rcmdcheck](https://r-lib.github.io/rcmdcheck/) que puede tardar bastante tiempo en ejecutarse.
 
-Al igual que el paquete [acción rcmdcheck de GitHub](https://github.com/r-lib/actions/blob/v2-branch/examples/check-standard.yaml) que puede instalarse fácilmente con uno de los [la p `use_github_action_check_...` funciones de la `usethis` paquete](https://usethis.r-lib.org/reference/github_actions.html) Ahora, pkgcheck también tiene una acción GitHub que supera estos dos inconvenientes ejecutándose a distancia (en GitHub) y generando resultados reproducibles.
+Al igual que la [acción de GitHub rcmdcheck ](https://github.com/r-lib/actions/blob/v2-branch/examples/check-standard.yaml) que puede instalarse fácilmente con una de las [funciones `use_github_action_check_...` del paquete `usethis`](https://usethis.r-lib.org/reference/github_actions.html), ahora, pkgcheck también tiene una acción de GitHub que supera estos dos inconvenientes ejecutándose remotamente en GitHub y generando resultados reproducibles.
 
 ## La acción pkgcheck de GitHub
 
