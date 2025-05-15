@@ -5,6 +5,8 @@ date: '2022-02-01'
 author:
 - Mark Padgham
 - Jacob Wujciak-Jens
+translator: 
+- Juan Cruz Enrique
 featured: false
 description: Todos los paquetes enviados para la revisión por pares con rOpenSci son
   comprobados por nuestro paquete pkgcheck. Este post describe una nueva acción de
@@ -14,7 +16,7 @@ tags:
 - pkgcheck
 - tech notes
 params:
-  doi: 
+  doi: 10.59350/v2at4-pkf16
 ---
 
 ## ¿Qué es pkgcheck?
