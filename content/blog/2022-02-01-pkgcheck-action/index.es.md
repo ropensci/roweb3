@@ -1,12 +1,12 @@
 ---
 slug: pkgcheck-action
-title: ¡pkgcheck ahora disponible como acción GitHub!
+title: ¡pkgcheck ahora disponible como acción de GitHub!
 date: '2022-02-01'
 author:
 - Mark Padgham
 - Jacob Wujciak-Jens
 featured: false
-description: Todos los paquetes enviados para revisión por pares con rOpenSci son
+description: Todos los paquetes enviados para la revisión por pares con rOpenSci son
   comprobados por nuestro paquete pkgcheck. Este post describe una nueva acción de
   GitHub que puede utilizarse para ejecutar pkgcheck.
 tags:
@@ -19,19 +19,19 @@ params:
 
 ## ¿Qué es pkgcheck?
 
-El sitio [paquete pkgcheck](https://github.com/ropensci-review-tools/pkgcheck) tiene
-ha sido desarrollado por rOpenSci para automatizar el proceso de comprobación de todos los paquetes en
+El sitio del [paquete pkgcheck](https://github.com/ropensci-review-tools/pkgcheck)
+ha sido desarrollado por rOpenSci para automatizar el proceso de la comprobación de todos los paquetes para su
 envío. El sitio `ropensci-review-bot` ejecuta automáticamente pkgcheck en todos los envíos, y los editores también pueden activar las comprobaciones en cualquier momento utilizando el comando:
 
 ```r
 @ropensci-review-bot check package
 ```
 
-El bot devolverá una lista de comprobaciones que, idealmente, debería tener este aspecto:
+El bot devolverá una lista de comprobaciones que debería tener este aspecto:
 
 {{< figure src="cffr-pkgcheck.png" alt="resultados de pkgcheck del envío reciente"  link="https://github.com/ropensci/software-review/issues/463#issuecomment-921010197">}}
 
-Para estar listo para la revisión por pares, pkgcheck debe devolver una serie de ✔, que indican comprobaciones correctas, y no debe haber ningún símbolo ✘, que indica comprobaciones fallidas. Se recomienda a quien esté preparando un paquete para enviarlo que ["utilizar pkgcheck"](https://devguide.ropensci.org/authors-guide.html) para confirmar que el paquete está listo para ser enviado. Hasta ahora, esto sólo era posible a través de la red local [instalando el paquete y ejecutando el comando `pkgcheck()` comando](https://devguide.ropensci.org/authors-guide.html). Las comprobaciones locales sufren dos desventajas importantes:
+Para estar listo para la revisión por pares, pkgcheck debe devolver una serie de ✔, que indican comprobaciones correctas, y no debe haber ningún símbolo ✘, que indica comprobaciones fallidas. Se recomienda a quien esté preparando un paquete para enviarlo que utilize: ["utilizar pkgcheck"](https://devguide.ropensci.org/authors-guide.html) para confirmar que el paquete está listo para ser enviado. Hasta ahora, esto sólo era posible a través de la red local [instalando el paquete y ejecutando el comando `pkgcheck()`](https://devguide.ropensci.org/authors-guide.html). Las comprobaciones locales sufren dos desventajas importantes:
 
 1. Los resultados sólo pueden ser reproducibles en un sistema local, en lugar de ser reproducibles de forma general; y
 2. Las comprobaciones realizadas por pkgcheck incluyen todas las comprobaciones realizadas por [el paquete rcmdcheck](https://r-lib.github.io/rcmdcheck/) que puede tardar bastante tiempo en ejecutarse.
@@ -40,7 +40,7 @@ Al igual que el paquete [acción rcmdcheck de GitHub](https://github.com/r-lib/a
 
 ## La acción pkgcheck de GitHub
 
-Este post es el anuncio "oficial" del lanzamiento de la acción pkgcheck, una acción de GitHub que permite ejecutar comprobaciones cada vez que se envía código a GitHub. La acción fue desarrollada por uno de nosotros (Jacob), y puede encontrarse en [en GitHub en ropensci-review-tools/pkgcheck-action](https://github.com/ropensci-review-tools/pkgcheck-action). La forma más sencilla de utilizar esta acción en tu propio repositorio es instalar [el paquete pkgcheck](https://docs.ropensci.org/pkgcheck/#installation) y ejecutar [la p `use_github_action_pkgcheck()` función](https://docs.ropensci.org/pkgcheck/reference/use_github_action_pkgcheck.html). Esto colocará un nuevo archivo en la carpeta `.github/workflows` directorio de tu paquete llamado "pkgcheck.yaml", cuyo ejemplo se muestra en [el README principal del repositorio pkgcheck-action](https://github.com/ropensci-review-tools/pkgcheck-action#usage). La acción consiste en una única tarea expresada en las líneas finales:
+Este post es el anuncio "oficial" del lanzamiento de la acción pkgcheck, una acción de GitHub que permite ejecutar comprobaciones cada vez que se envía algún código a GitHub. La acción fue desarrollada por uno de nosotros (Jacob), y puede encontrarse en [el GitHub en ropensci-review-tools/pkgcheck-action](https://github.com/ropensci-review-tools/pkgcheck-action). La forma más sencilla de utilizar esta acción en tu propio repositorio es instalar [el paquete pkgcheck](https://docs.ropensci.org/pkgcheck/#installation) y ejecutar [la función `use_github_action_pkgcheck()`](https://docs.ropensci.org/pkgcheck/reference/use_github_action_pkgcheck.html). Esto colocará un nuevo archivo en la carpeta `.github/workflows` y un directorio en tu paquete llamado "pkgcheck.yaml", cuyo ejemplo se muestra en [el README principal del repositorio pkgcheck-action](https://github.com/ropensci-review-tools/pkgcheck-action#usage). La acción consiste en una única tarea expresada en las líneas finales:
 
 ```yaml
 jobs:
@@ -50,22 +50,22 @@ jobs:
       - uses: ropensci-review-tools/pkgcheck-action@main
 ```
 
-Hay varios parámetros también descritos en ese README principal, que pueden pasarse como parámetros a [la p `use_github_action_pkgcheck()` función](https://docs.ropensci.org/pkgcheck/reference/use_github_action_pkgcheck.html) o añadirla al archivo YAML del flujo de trabajo, como también se describe en el LÉEME. Una vez creada la acción en tu repositorio, puedes activarla añadiéndola en un commit de git y enviándola a GitHub.
+Hay varios parámetros también descriptos en ese README principal, que pueden pasarse como parámetros a [la función `use_github_action_pkgcheck()`](https://docs.ropensci.org/pkgcheck/reference/use_github_action_pkgcheck.html) o añadirla al archivo YAML del flujo de trabajo, como también se describe en el README. Una vez creada la acción en tu repositorio, puedes activarla añadiéndola en un commit de git y enviándola a GitHub.
 
 ### Publicar los resultados de pkgcheck en una incidencia de GitHub
 
-Además de que el flujo de trabajo imprima todos los detalles devueltos por la función principal pkgcheck, el resultado de pkgcheck también puede publicarse en una incidencia de GitHub, donde aparecerá exactamente como en el ejemplo anterior. Una vez finalizado el flujo de trabajo, recibirás una notificación y podrás ver los resultados de la comprobación (con un icono `summary-only` que determina si sólo se publicará en la incidencia un resumen de los resultados como el mostrado anteriormente, o si se publicarán los resultados completos que incluyen el resumen seguido de bastantes más detalles). El flujo de trabajo sólo tendrá éxito cuando se hayan superado todas las comprobaciones de pkgcheck.
+Además de que el flujo de trabajo imprima todos los detalles devueltos por la función principal de pkgcheck, el resultado de este también puede publicarse en un _issue_ de GitHub, donde aparecerá exactamente como en el ejemplo anterior. Una vez finalizado el flujo de trabajo, recibirás una notificación y podrás ver los resultados de la comprobación (con un icono `summary-only` que determina si sólo se publicará en la incidencia un resumen de los resultados como el mostrado anteriormente, o si se publicarán los resultados completos que incluyen el resumen seguido de bastantes más detalles). El flujo de trabajo sólo tendrá éxito cuando se hayan superado todas las comprobaciones de pkgcheck.
 
 ## Utilizar la acción pkgcheck para preparar el envío
 
-Esta acción hace que la preparación de paquetes para su envío a revisión por pares con rOpenSci sea mucho más fácil, al confirmar automáticamente si un paquete cumple los requisitos generales para el envío a rOpenSci. Puedes utilizar la acción pkgcheck para confirmar que un paquete está listo para su envío siguiendo estos tres sencillos pasos:
+Esta acción hace que la preparación de paquetes para su envío a la revisión por pares con rOpenSci sea mucho más fácil, al confirmar automáticamente si un paquete cumple los requisitos generales para el envío a rOpenSci. Puedes utilizar la acción pkgcheck para confirmar que un paquete está listo para su envío siguiendo estos tres sencillos pasos:
 
 1. Inserta la acción en tu repositorio con [`pkgcheck::use_github_action_pkgcheck()`](https://docs.ropensci.org/pkgcheck/reference/use_github_action_pkgcheck.html).
-2. Añade y confirma el script de acción en tu índice git, y envíalo a GitHub para activarlo.
-3. Examina los resultados en la incidencia creada automáticamente en tu repositorio de GitHub, modifica el repositorio para abordar cualquier comprobación que falle, e itera.
-4. Una vez superada la acción, verás "✔ Este paquete puede ser enviado".
+2. Añade y confirma el script de la acción en tu índice git, y envíalo a GitHub para activarlo.
+3. Examina los resultados en la incidencia creada automáticamente en tu repositorio de GitHub, modifica el repositorio para abordar cualquier comprobación que falle, y repite.
+4. Una vez superada la acción, verás: "✔ Este paquete puede ser enviado".
 
-También puedes poner un distintivo pkgcheck} en tu README insertando una versión modificada de estas líneas:
+También puedes poner un distintivo pkgcheck en tu README insertando una versión modificada de estas líneas:
 
 ```md
 [![pkgcheck](https://github.com/<org>/<repo>/workflows/pkgcheck/badge.svg)](https://github.com/<org>/<repo>/actions?query=workflow%3Apkgcheck)
@@ -109,6 +109,6 @@ Una vez que tu paquete supere todas las pruebas, el distintivo se volverá verde
 
 Así sabrás que tu paquete está listo para ser enviado.
 
-Y por último, no dudes en hacer cualquier pregunta sobre el uso de pkgcheck-action, o informar de cualquier error, en <https://github.com/ropensci-review-tools/pkgcheck-action/issues>.
+Y por último, no dudes en hacer cualquier pregunta sobre el uso de pkgcheck-action, o informar de cualquier error en: <https://github.com/ropensci-review-tools/pkgcheck-action/issues>.
 
 
