@@ -44,48 +44,13 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-### Safeguard your documentation in check environments
-
-Or, in other words, how to have your package *not* fail `R CMD check` on CRAN, but examples and vignettes still rendered in pkgdown documentation?
-
-Thanks to Alasdair Warwick, maintainer of the recently reviewed [gtexr package](https://docs.ropensci.org/gtexr/), for summarizing [some advice](https://github.com/ropensci-org/rotemplate/issues/120#issuecomment-2831521763) that we copy below:
-
-- For function examples, use the  [`examplesIf` roxygen2 tag](https://roxygen2.r-lib.org/articles/rd.html?q=examplesIf#examples) with the `IN_PKGDOWN` variable e.g. `#' @examplesIf identical(Sys.getenv("IN_PKGDOWN"), "true")`
-- For vignettes, either pre-build if special tools/data/credentials are required which are unavailable on generic build servers (see https://ropensci.org/blog/2019/12/08/precompute-vignettes/), or use the `IN_PKGDOWN` variable with knitr eval option e.g.
-
-```r
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  eval = Sys.getenv("IN_PKGDOWN") == "true"
-)
-```
-
-Examples:
-
-- `examplesIf`:  https://github.com/ropensci/gtexr/blob/592ac781672f07eb67e935d4155570c5960d1fdb/R/get_service_info.R#L14 (see also Docs of the roxygen2 tag: https://roxygen2.r-lib.org/articles/rd.html?q=examplesIf#examples)
-- Vignette, knitr eval option:   https://github.com/ropensci/gtexr/blob/592ac781672f07eb67e935d4155570c5960d1fdb/vignettes/gtexr.Rmd#L16
-
-### More on {renv} and R versions
-
-To follow up on last newsletter's item ["🔗
-CI: Pin the R version if using renv"](/blog/2025/04/28/news-april-2025/#ci-pin-the-r-version-if-using-renv), a tip by Hugo Gruson:
-it's also possible to automatically set the R version to the one documented in `renv.lock`
-when using the [`r-lib/setup-r`action](https://github.com/r-lib/actions/blob/4f58f8ffa872cbd4cb016c51ec497fdbe0a02711/setup-r/README.md?plain=1#L37).
-
-### `usethis::use_air()`
-
-In March we mentioned [Air](/blog/2025/03/27/news-march-2025/#air-a-new-formatter-for-r), the new formatter developed at Posit.
-In usethis development version, there's a function that helps you set up a project to use Air: [`use_air()`](https://usethis.r-lib.org/dev/reference/use_air.html).
-See also the [issue about the JSON config](https://github.com/r-lib/usethis/issues/2114).
-
 ### Help us maintain {pkgcheck}!
 
 You might know of [our {pkgcheck} system](https://docs.ropensci.org/pkgcheck/) used for our automated package checks, and for your own stand-alone and [GitHub-action usage](https://github.com/ropensci-review-tools/pkgcheck-action) on any package. 
 We are seeking co-maintainers for the {pkgcheck} package that powers that. 
 In particular, we have several [ideas for additional checks in current repo issues](https://github.com/ropensci-review-tools/pkgcheck/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22%3Amag%3A%20Check%20Idea%22). 
 We would like volunteers to attend an online get-together for us to coach you on how to implement new checks, and so to help you get involved in maintaining and further developing our checking system.
-If you're interested and already part of our slack group, please join our dedicatated `#pkgcheck` channel, otherwise email `mark@ropensci.org`.
+If you're interested and already part of our slack group, please join our dedicated `#pkgcheck` channel, otherwise email `mark@ropensci.org`.
 
 ### Coworking 
 
@@ -202,8 +167,8 @@ present_one <- function(package) {
   aut <- purrr::map_chr(aut, function(x) paste(x$given, x$family))
   rev <- purrr::keep(authors, function(x) {any( x$role %in% "rev") && all(x$role != "cre") })
   rev <- purrr::map_chr(rev, function(x) paste(x$given, x$family))
-  if (package$package == "gtexr") {
-    rev <- c(rev, "Ernest Guevarra")
+  if (package$package == "forcis") {
+    rev <- c(rev, "Scott Chamberlain")
   }
   if (package$package == "geotargets") {
     rev <- c("Anthony Martinez", "Denisse Fierro Arcos")
@@ -612,6 +577,52 @@ Refer to our [help wanted page](/help-wanted/) -- before opening a PR, we recomm
 ## Package development corner
 
 Some useful tips for R package developers. :eyes:
+
+### Roaringly Acknowledge Organizations with ROR IDs in DESCRIPTION
+
+In our [recent blog post](/blog/2025/05/09/ror/) we explained what ROR IDs are: they are to organizations what ORCID are for individuals.
+They help acknowledge more precisely an organization (a company that owns the copyright, a non-profit that funded the work, etc.) in package's metadata.
+[Read more](/blog/2025/05/09/ror/).
+
+### Safeguard your documentation in check environments
+
+Or, in other words, how to have your package *not* fail `R CMD check` on CRAN, but examples and vignettes still rendered in pkgdown documentation?
+
+Thanks to Alasdair Warwick, maintainer of the recently reviewed [gtexr package](https://docs.ropensci.org/gtexr/), for summarizing [some advice](https://github.com/ropensci-org/rotemplate/issues/120#issuecomment-2831521763) that we copy below:
+
+- For function examples, use the  [`examplesIf` roxygen2 tag](https://roxygen2.r-lib.org/articles/rd.html?q=examplesIf#examples) with the `IN_PKGDOWN` variable e.g. `#' @examplesIf identical(Sys.getenv("IN_PKGDOWN"), "true")`
+- For vignettes, either pre-build if special tools/data/credentials are required which are unavailable on generic build servers (see https://ropensci.org/blog/2019/12/08/precompute-vignettes/), or use the `IN_PKGDOWN` variable with knitr eval option e.g.
+
+```r
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  eval = Sys.getenv("IN_PKGDOWN") == "true"
+)
+```
+
+Examples:
+
+- `examplesIf`:  https://github.com/ropensci/gtexr/blob/592ac781672f07eb67e935d4155570c5960d1fdb/R/get_service_info.R#L14 (see also Docs of the roxygen2 tag: https://roxygen2.r-lib.org/articles/rd.html?q=examplesIf#examples)
+- Vignette, knitr eval option:   https://github.com/ropensci/gtexr/blob/592ac781672f07eb67e935d4155570c5960d1fdb/vignettes/gtexr.Rmd#L16
+
+### More on {renv} and R versions
+
+To follow up on last newsletter's item ["🔗
+CI: Pin the R version if using renv"](/blog/2025/04/28/news-april-2025/#ci-pin-the-r-version-if-using-renv), a tip by Hugo Gruson:
+it's also possible to automatically set the R version to the one documented in `renv.lock`
+when using the [`r-lib/setup-r`action](https://github.com/r-lib/actions/blob/4f58f8ffa872cbd4cb016c51ec497fdbe0a02711/setup-r/README.md?plain=1#L37).
+
+### `usethis::use_air()`
+
+In March we mentioned [Air](/blog/2025/03/27/news-march-2025/#air-a-new-formatter-for-r), the new formatter developed at Posit.
+In usethis development version, there's a function that helps you set up a project to use Air: [`use_air()`](https://usethis.r-lib.org/dev/reference/use_air.html).
+See also the [issue about the JSON config](https://github.com/r-lib/usethis/issues/2114).
+
+### Better HTTP testing with vcr's development version
+
+Breaking news: a new vcr version is in the works!
+Follow the activity by Hadley Wickham and Scott Chamberlain in vcr's [GitHub repository](https://github.com/ropensci/vcr), check out the new [`local_cassette()` function](https://docs.ropensci.org/vcr/reference/use_cassette.html)... Or just wait for the next release! :smile_cat:
 
 
 ## Last words
