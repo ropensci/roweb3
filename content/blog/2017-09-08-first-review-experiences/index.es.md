@@ -4,12 +4,13 @@ title: Experiencias revisando paquetes de rOpenSci por primera vez
 date: '2017-09-08'
 author: Verena Haunschmid
 topicid: 861
+translator: Juan Cruz Enrique
 tags:
 - software
 - Software Peer Review
 - reviewer
 params:
-  doi: 
+  doi: 10.59350/66z2j-12h31
 ---
 
 Todo empezó el 26 de enero<sup>th</sup> de este año, cuando me ofrecí como voluntaria
