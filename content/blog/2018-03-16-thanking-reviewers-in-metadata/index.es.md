@@ -7,13 +7,14 @@ author:
 - Maëlle Salmon
 - Karthik Ram
 - Scott Chamberlain
+translator: Juan Cruz Enrique 
 topicid: 1101
 tags:
-- community
-- Software Peer Review
-- metadata
+- comunidad
+- Revisión de Software
+- metadatos
 params:
-  doi: 
+  doi: 10.59350/68k6q-0ap17
 ---
 
 En rOpenSci, nuestro [proceso de revisión por pares de paquetes R](/blog/2017/09/01/nf-softwarereview/) se basa en el duro trabajo de muchos revisores voluntarios. Estos miembros de la comunidad donan su [tiempo](/blog/2016/03/28/software-review/#review-takes-a-lot-of-time) y su experiencia para mejorar la calidad de los paquetes de rOpenSci y ayudar a introducir las mejores prácticas en el software científico.
