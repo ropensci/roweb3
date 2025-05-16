@@ -1,6 +1,6 @@
 ---
 slug: thanking-reviewers-in-metadata
-title: 'Agradeciendo a tus revisores y revisoras: La gratitud a través de los metadatos semánticos'
+title: 'Agradeciendo a tus revisores y revisoras: la gratitud a través de los metadatos semánticos'
 date: '2018-03-16'
 author:
 - Noam Ross
@@ -13,7 +13,7 @@ tags:
 - comunidad
 - Revisión de Software
 - metadatos
-description: aprende como agregar el reconociento al rol de las personas que revisan tu paquete al archivo DESCRIPTION.
+description: Aprende como agregar el reconociento al rol de las personas que revisan tu paquete al archivo DESCRIPTION.
 params:
   doi: 10.59350/68k6q-0ap17
 ---
