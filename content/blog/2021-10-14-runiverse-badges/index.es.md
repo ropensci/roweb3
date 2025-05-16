@@ -1,16 +1,17 @@
 ---
 slug: runiverse-badges
-title: Generar y personalizar insignias en r-universe
+title: Generar y personalizar insignias en R-Universe
 date: '2021-10-14'
 author: Jeroen Ooms
+translator: Juan Cruz Enrique 
 featured: false
 description: ''
 tags:
 - r-universe
 - badges
-- tech notes
+- notas técnicas
 params:
-  doi: 10.59350/g67kr-prx20
+  doi: 10.59350/pgeev-8ty43
 ---
 
 ## Insignias en R-Universe
@@ -63,7 +64,7 @@ Este es el aspecto de las insignias para el universo rOpenSci:
 
 ## Personaliza el estilo de la insignia
 
-Uno de los primeros usuarios de R-universe tenía [solicitado](https://github.com/r-universe-org/help/issues/87) algunas opciones para personalizar el aspecto visual de las insignias. Hemos añadido 3 parámetros http a la API de las insignias:
+Uno de los primeros usuarios de R-universe [solicitó](https://github.com/r-universe-org/help/issues/87) algunas opciones para personalizar el aspecto visual de las insignias. Hemos añadido 3 parámetros http a la API de las insignias:
 
 - `scale` el tamaño de la insignia (donde 1 es el valor por defecto);
 - `color` el color de la insignia;
