@@ -32,7 +32,7 @@ guía del revisor (enlaces más abajo) y comprobé algunas de las
 revisiones existentes. Instalé el paquete `patentsview` de GitHub y también
 descargué el código fuente para comprobar cómo estaba implementado.
 
-Empecé probando la funcionalidad básica del paquete mediante
+Empecé probando la funcionalidad básica del paquete
 ejecutando los ejemplos que se mencionaban en el README del
 paquete. Creo que es un buen
 punto de partida porque te haces una idea de lo que el autor quiere
@@ -55,7 +55,7 @@ por ejemplo: [`devtools`](https://github.com/hadley/devtools) y
 paquetes también pueden ayudarte cuando empieces a escribir tus propios paquetes. Un
 ejemplo de método muy útil es `devtools::spell_check()` que
 realiza una revisión ortográfica de la descripción del paquete y de las páginas del manual.
-Al principio tuve un problema con `goodpractice::gp()` pero Maelle Salmon
+Al principio tuve un problema con `goodpractice::gp()` pero Maëlle Salmon
 (la editora) me ayudó a resolverlo.
 
 En el resto de este artículo puedes leer lo que gané personalmente haciendo un
@@ -70,7 +70,7 @@ de los principales paquetes existentes. Pero no todo el mundo tiene los recursos
 que puedan implementarse inmediatamente en nuevos paquetes de R para ser utilizados por
 la comunidad. Además de contribuir con código, también hay muchas
 otras cosas que pueden ser útiles para otros usuarios de R, por ejemplo: escribir
-entradas de blog sobre problemas que has resuelto, hablar en reuniones o revisar
+artículos de blog sobre problemas que has resuelto, hablar en reuniones o revisar
 código para ayudar a mejorarlo, etc. Lo que más me gusta de revisar código es que
 la gente ve las cosas de forma diferente y tiene otras experiencias. Como revisor,
 ves un paquete nuevo desde la perspectiva del usuario, lo que puede ser difícil para
@@ -85,8 +85,8 @@ ayudado a mejorar un paquete de R que ya era increíble.
 Cuando escribo código en R suelo intentar hacerlo de la mejor manera posible.
 [Guía de estilo de R de Google](https://google.github.io/styleguide/Rguide.xml)
 Es un buen comienzo para acostumbrarse a las buenas prácticas de codificación en R y también
-disfruté leyendo [Buenas prácticas de programación
-Curiosidades](https://github.com/timoxley/best-practices). Normalmente
+disfruté leyendo [Consejos breves sobre buenas prácticas de
+programación](https://github.com/timoxley/best-practices). Normalmente
 cuando pienso que algún trozo de código puede mejorarse (con respecto a la velocidad,
 legibilidad o uso de memoria) compruebo en Internet si puedo encontrar una
 solución mejor. A menudo simplemente no crees que algo pueda ser
@@ -99,7 +99,7 @@ comprobaba cada función con mucha más atención que cuando leía entradas de b
 En mi opinión, un buen código no sólo utiliza el mejor paquete para cada
 problema, sino que también los pequeños detalles están bien implementados. Una cosa que
 solía hacer mal durante mucho tiempo era rellenar los data.frames hasta que
-encontré un método mejor (mucho más rápido).
+encontré un método mejor (mucho más rápido) en una
 [solución en stackoverflow](https://stackoverflow.com/a/29419402).
 Y con respecto a esto
 puedes aprender mucho del código de otra persona. Lo que me pareció realmente genial en
@@ -119,8 +119,8 @@ propios paquetes.
 
 ### ¿Quieres contribuir tú mismo a rOpenSci?
 
-Si te he motivado para convertirte en un revisor de rOpenSci, ¡apúntate! Aquí
-hay una lista de cosas útiles si quieres convertirte en revisor de rOpenSci
+Si te he motivado para convertirte en una persona que revisa para rOpenSci, ¡apúntate! Aquí
+hay una lista de cosas útiles para participar como revisor o revisora de rOpenSci
 como yo.
 
 - [Formulario para inscribirse (sólo lleva un minuto)](/onboarding/)
@@ -133,6 +133,6 @@ como yo.
   al tidyverse](https://www.tidyverse.org/articles/2017/08/contributing/) que
   en mi opinión, también es aplicable a otros paquetes de R.
 
-Si, en general, estás interesado en enviar o revisar un paquete de R, me gustaría invitarte a la sección [ Convocatoria de la Comunidad sobre revisión e incorporación de software rOpenSci](/blog/2017/08/31/comm-call-v14).
+Si, en general, te interesa enviar o revisar un paquete de R, me gustaría invitarte a la "Conversaciones con la Comunidad" [Convocatoria para la revisión de software por pares de rOpenSci](/blog/2017/08/31/comm-call-v14).
 
 
