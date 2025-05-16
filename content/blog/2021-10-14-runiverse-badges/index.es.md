@@ -8,7 +8,7 @@ featured: false
 description: ''
 tags:
 - r-universe
-- badges
+- insignias
 - notas técnicas
 params:
   doi: 10.59350/pgeev-8ty43
