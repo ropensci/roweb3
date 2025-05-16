@@ -12,8 +12,8 @@ params:
   doi: 
 ---
 
-Todo empezó el 26 de enero<sup>th</sup> de este año, cuando me apunté como voluntaria
-revisor de paquetes R enviados a rOpenSci. Mi principal motivación para
+Todo empezó el 26 de enero<sup>th</sup> de este año, cuando me ofrecí como voluntaria
+para revisar paquetes de R enviados a rOpenSci. Mi principal motivación para
 querer ser voluntaria era aprender algo nuevo y
 contribuir a la comunidad de código abierto de R. Si te preguntas por qué la
 gente detrás de rOpenSci está haciendo esto, puedes leer [Cómo rOpenSci utiliza la revisión de código para promover la ciencia reproducible](https://www.numfocus.org/blog/how-ropensci-uses-code-review-to-promote-reproducible-science/).
@@ -93,7 +93,7 @@ solución mejor. A menudo simplemente no crees que algo pueda ser
 mejor porque siempre lo has hecho de una determinada manera o la última vez 
 que lo comprobaste no había una solución mejor. Aquí es cuando ayuda seguir
 el código de otras personas. Yo lo hago leyendo sus blogs, siguiendo personas que usan R
-en Twitter y consultando sus cuentas de GitHub. Revisar un programa R
+en Twitter y consultando sus cuentas de GitHub. Revisar un programa de R
 también me ayudó mucho a obtener nuevas ideas porque
 comprobaba cada función con mucha más atención que cuando leía entradas de blog.
 En mi opinión, un buen código no sólo utiliza el mejor paquete para cada
@@ -129,7 +129,7 @@ como yo.
 
 - [Guía de revisión de Mozilla](https://mozillascience.github.io/codeReview/review.html)
 
-- Mientras escribía esta entrada del blog encontré un buen artículo sobre [contribuir a
+- Mientras escribía este _blog post_ encontré un buen artículo sobre [contribuir 
   al tidyverse](https://www.tidyverse.org/articles/2017/08/contributing/) que
   en mi opinión, también es aplicable a otros paquetes de R.
 
