@@ -1,7 +1,7 @@
 ---
 title: 'Divida e vencerá: de polar ao Polarverse'
 author: "Juan Pablo Ruiz Nicolini"
-editor:
+translator:
 - Beatriz Milz
 date: '2023-12-05'
 slug: 2023-12-05-divide-y-venceras-de-polar-al-polarverse
@@ -10,6 +10,8 @@ tags:
   - comunidade
   - pacotes
   - desenvolvimento
+params:
+  doi: "10.59350/snd2r-yt780"
 ---
 
 > *"Sou apenas um cientista político, em pé diante do console do R, pedindo que me ajude a terminar uma tese."*
