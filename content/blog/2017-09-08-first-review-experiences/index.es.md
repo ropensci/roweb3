@@ -9,6 +9,7 @@ tags:
 - software
 - Revisión de Software
 - revisores
+description: aprende sobre la experiencia enriquecedora de una revisora de paquetes de rOpenSci.
 params:
   doi: 10.59350/66z2j-12h31
 ---
