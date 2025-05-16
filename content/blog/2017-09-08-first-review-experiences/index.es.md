@@ -7,8 +7,8 @@ topicid: 861
 translator: Juan Cruz Enrique
 tags:
 - software
-- Software Peer Review
-- reviewer
+- Revisión de Software
+- revisores
 params:
   doi: 10.59350/66z2j-12h31
 ---
