@@ -13,6 +13,7 @@ tags:
 - comunidad
 - Revisión de Software
 - metadatos
+description: aprende como agregar el reconociento al rol de las personas que revisan tu paquete al archivo DESCRIPTION.
 params:
   doi: 10.59350/68k6q-0ap17
 ---
