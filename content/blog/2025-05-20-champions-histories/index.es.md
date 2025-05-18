@@ -23,15 +23,17 @@ Como investigadora, formó parte del Centro de Estudios sobre Población, Empleo
 
 {{< figure src = "eph-docs.png" alt = "Documentacion oficial del paquete eph con el template de rOpenSci" caption = "Documentación oficial del paquete eph">}}
 
-Su encuentro con el programa de Campeones de rOpenSci parecía algo natural. Sus objetivos y los de la organización estaban alineados. En su aplicación al programa de Campeones Carolina expresó: 
+## El Programa de rOpenSci
 
-> Me gustaría formar parte del Programa rOpenSci Champions para mejorar mis habilidades como desarrolladora, así como para mejorar mis capacidades para enseñar y comunicar estas habilidades.
+Su encuentro con el programa de Campeon(e|a)s de rOpenSci parecía algo natural. Sus objetivos y los de la organización estaban alineados. En su aplicación al programa de Campeones Carolina expresó: 
+
+> Me gustaría formar parte del Programa rOpenSci Champions para mejorar mis habilidades como desarrolladora, así como para mejorar mis capacidades para enseñar y comunicar estas habilidades.”
 
 Y eso sucedió a lo largo de 12 meses de entrenamiento donde a través de la formación y el acompañamiento, Carolina recibió información sobre herramientas y procesos para mejorar su paquete con tutorías individuales y acceso a colegas y expertos en R que ayudaron a mejorar su proyecto. Pero además pudo desarrollar sus habilidades comunicativas logrando sentirse más segura y comunicando de manera más efectiva a las personas que usuan eph.
 
 El intercambio y el encuentro con otras personas facilitó el trabajo, lo ordenó y la ayudó a anticiparse a futuros problemas que podría encontrar: 
 
-> Creo que me sentí muy bien cuando terminamos la formación y empecé a trabajar estrechamente con mi mentora, teníamos una buena relación y podíamos trabajar muy bien y de manera eficiente.
+> Creo que me sentí muy bien cuando terminamos la formación y empecé a trabajar estrechamente con mi mentora, teníamos una buena relación y podíamos trabajar muy bien y de manera eficiente.”
 
 Carolina no sólo fue seleccionada para participar del programa de Campeones de rOpenSci. Ya había pasado por una selección previa: como la aplicación al programa es individual fueron sus compañeros los que la incentivaron a participar en nombre del equipo.
 
