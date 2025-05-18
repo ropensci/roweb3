@@ -1,0 +1,35 @@
+      <!-- Hero -->
+      <div class="hero">
+        <div class="container news">
+          <div class="news-body">
+            <span class="news-label">¡Nuevo!</span
+            ><span class="news-text"
+              >
+                        {{ range first 1 ( where .Site.RegularPages.ByPublishDate.Reverse "Type" "in" .Site.Params.blogs ) }}
+          <a href="{{ .Permalink }}"
+                >{{ .Title | markdownify }}</a
+              >
+          {{ end }}
+              
+              </span
+            >
+          </div>
+        </div>
+        <div class="container">
+          <div class="hero-body">
+            <h1 class="hero-title">
+              Transformando la ciencia mediante datos abiertos, software y reproducibilidad
+            </h1>
+            <p>
+              rOpenSci fomenta una cultura de investigación abierta y reproducible utilizando datos compartidos y software reutilizable.  Construimos infraestructura social y técnica para el lenguaje R que permite a investigadores, investigadoras, ingenieros e ingenieras a colaborar, compartir y publicar su ciencia, datos y métodos.
+            </p>
+            <div class="hero-buttons">
+              <a href="#review" class="btn btn-primary">Revisión de Software</a>
+              <a href="#r-universe" class="btn btn-primary">Infraestructura</a>
+              <a href="#champions" class="btn btn-primary">Formación y Tutoría</a>
+              <a href="#multilingual" class="btn btn-primary">Publicación Multilingüe</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>

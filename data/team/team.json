@@ -5,7 +5,10 @@
    "image" : "/img/team/noam_ross.png",
    "affiliation" : "Executive Director",
    "roles": [
-      "editor"
+      "staff", "editor"
+   ],
+   "participates": [
+      "champions"
    ],
    "generalreview": true,
    "mastodon": "https://ecoevo.social/@noamross",
@@ -91,8 +94,9 @@
    "participates": [
       "blog"
    ],
-   "mastodon": "https://fosstodon.org/@yabellini",
+   "mastodon": "https://rstats.me/@yabellini",
    "linkedin": "https://www.linkedin.com/in/yabellini",
+   "bluesky": "yabellini.bsky.social",
    "github": "yabellini",
    "home": "/author/yanina-bellini-saibene/"
 },
@@ -151,7 +155,9 @@
    ],
    "participates": [
       "blog",
-      "commcalls"
+      "commcalls",
+      "champions",
+      "multilingual-publishing"
    ],
    "twitter": "steffilazerte",
    "mastodon": "https://fosstodon.org/@steffilazerte",

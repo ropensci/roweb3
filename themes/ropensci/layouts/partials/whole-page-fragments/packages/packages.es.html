@@ -1,0 +1,32 @@
+   <!-- Packages section   -->
+   {{ with .divider }}
+   {{ partial "whole-page-fragments/divider" . }}
+ {{ end }} 
+    <section class="section-package">
+       <div class="container">
+         <h2 class="title">Nuestros Paquetes</h2>
+         <p class="subtitle sm subtitle-package">
+          Usa nuestras herramientas de software R, cuidadosamente examinadas y realizadas por el personal de rOpenSci y la comunidad, que dan soporte al ciclo de vida de los datos de investigación y al análisis en una gran variedad de campos científicos. Combina nuestras herramientas con el rico ecosistema de paquetes R.
+         </p>
+         <a class="link-arrow package-cta" href="/packages/all"><span>Ver todos los paquetes</span></a>
+ 
+         {{ partial "whole-page-fragments/packages/packages-cards" (dict "Site" .Site ) }}
+ 
+         <div class="row pack-cards">
+           <div class="col-md-6">
+             <a href="/usecases/" class="pack-card">
+               <h4 class="pack-title">Explorar Casos de Uso</h4>
+               <p>Inspírate con ejemplos reales del uso de nuestros paquetes.</p>
+               <div class="arrow pack-arrow"></div>
+             </a>
+           </div>
+           <div class="col-md-6">
+             <a href="/citations/" class="pack-card">
+               <h4 class="pack-title">Explorar Citas</h4>
+               <p>O consulta las publicaciones científicas que citan nuestros paquetes.</p>
+               <div class="arrow pack-arrow"></div>
+             </a>
+           </div>
+         </div>
+       </div>
+     </section>

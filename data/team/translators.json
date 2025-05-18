@@ -25,4 +25,21 @@
    "mastodon": "https://fosstodon.org/@pedropark99",
    "github": "pedropark99",
    "home": "https://pedro-faria.netlify.app/"
+},
+{
+   "name": "Beatriz Milz",
+   "affiliation": "Português (PT)",
+   "url": "https://beamilz.com/",
+   "image" : "/img/team/beatriz-milz.jpeg",
+   "mastodon": "https://mstdn.science/@beamilz",
+   "github": "beatrizmilz",
+   "home": "https://beamilz.com/"
+},
+{
+   "name": "Francesca Belem Lopes Palmeira",
+   "affiliation": "Português (PT)",
+   "url": "https://fblpalmeira.github.io/",
+   "image" : "/img/team/francesca-palmeira.jpg",
+   "github": "fblpalmeira",
+   "home": "https://fblpalmeira.github.io/"
 }]
