@@ -3,7 +3,7 @@ title: Carolina Pradier, campeona en aprender para enseñar.
 author:
 - Yanina Bellini Saibene
 - Alejandra Bellini
-date: '2025-05-20'
+date: '2025-05-27'
 slug: champions-histories-carolina-pradier
 editor:
 - Steffi LaZerte
@@ -12,7 +12,7 @@ tags:
 - programa de campeones
 - comunidad
 - entrevistas
-description: Serie Historias de Campeones y Campeonas
+description: Serie Historias de Campeones y Campeonas. Nuestra primera historia es la de Carolina Pradier, principal maintainer del paquete eph. Repasamos su participacion en el programa y el impacto de su trabajo en diferentes organizaciones y comunidades.
 params:
   doi: 10.59350/pyye4-ev510
 ---
