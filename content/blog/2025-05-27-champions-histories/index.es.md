@@ -5,8 +5,6 @@ author:
 - Alejandra Bellini
 date: '2025-05-27'
 slug: champions-histories-carolina-pradier
-editor:
-- Steffi LaZerte
 tags:
 - paquetes
 - programa de campeones
