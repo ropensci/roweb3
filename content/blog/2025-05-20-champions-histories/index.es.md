@@ -11,9 +11,10 @@ tags:
 - paquetes
 - programa de campeones
 - comunidad
+- entrevistas
 description: Serie Historias de Campeones y Campeonas
 params:
-  doi: 
+  doi: 10.59350/pyye4-ev510
 ---
 
 [Carolina Pradier](/es/author/carolina-pradier/) trabaja desde hace tiempo para que el mundo sea un lugar más equitativo. Su investigación doctoral se centró en las desigualdades en la ciencia con el foco puesto en los mecanismos que estructuran la desigualdad de género en la comunidad científica de América Latina. Además forma parte de [Ecofeminita](https://ecofeminita.com/) -Asociación Civil Economía Feminista-, una organización interdisciplinaria creada y liderada por mujeres.
