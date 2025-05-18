@@ -17,9 +17,10 @@
         </div>
       </div>
     </section>
-{{ partial "whole-page-fragments/review"  (dict "divider" "rl" ) }}
-{{ $volunteerpartial := (partial "translate-path" (dict "name" "whole-page-fragments/volunteer" "language" .Site.Language.Lang )) }}
+{{ $reviewpartial := (partial "translate-path" (dict "name" "whole-page-fragments/review" "language" .Language.Lang )) }}
+{{ partial $reviewpartial (dict "Site" .Site "divider" "rl" )  }}
+{{ $volunteerpartial := (partial "translate-path" (dict "name" "whole-page-fragments/volunteer" "language" .Language.Lang )) }}
 {{ partial $volunteerpartial  (dict "divider" "lr" "Site" .Site ) }}
-{{ $brandpartial := (partial "translate-path" (dict "name" "whole-page-fragments/brands" "language" .Site.Language.Lang )) }}
+{{ $brandpartial := (partial "translate-path" (dict "name" "whole-page-fragments/brands" "language" .Language.Lang )) }}
 {{ partial $brandpartial (dict "Site" .Site "divider" "rl" )  }}
 {{ end }}

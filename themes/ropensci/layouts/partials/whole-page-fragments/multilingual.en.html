@@ -1,0 +1,51 @@
+{{ with .divider }}
+  {{ partial "whole-page-fragments/divider" . }}
+{{ end }}
+
+    <!-- Review section   -->
+    <section class="section soft-review d-none d-md-block">
+      <div class="container">
+        <h2 class="title" id="multilingual">Multilingual Publishing</h2>
+        <p class="subtitle">
+            We aim to expand access to R through a program of making first-class documentation available in languages beyond English.  We are starting with our own resources, translating rOpenSci’s material on best practices for software development, code review, and contribution to open source projects into Spanish and more. As part of this effort we also developing guidelines and tools for translating open source resources to a wider audience.
+        </p>
+        <a class="link-arrow" href="/multilingual-publishing"><span>Find out more</span></a>
+
+        <div class="row soft-cards cards">
+
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Translation Guidelines</h5>
+                <p class="card-text">
+                    Why and how we localize and translate our resources.
+                </p>
+                <a class="card-link link-arrow" href="https://translationguide.ropensci.org/"><span>Our Translation Guide</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Automatic translation</h5>
+                <p class="card-text">
+                  Package to translate Markdown based content through an external web API.
+                </p>
+                <a class="card-link link-arrow" href="https://docs.ropensci.org/babeldown"><span>babeldown</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Multilingual Quarto</h5>
+                <p class="card-text">
+                  Package to set up and render a multilingual Quarto website or book. 
+                </p>
+                <a class="card-link link-arrow" href="https://docs.ropensci.org/babelquarto"><span>babelquarto</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
