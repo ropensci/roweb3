@@ -19,13 +19,15 @@ params:
 [Carolina Pradier](/es/author/carolina-pradier/) trabaja desde hace tiempo para que el mundo sea un lugar más equitativo. Su investigación doctoral se centró en las desigualdades en la ciencia con el foco puesto en los mecanismos que estructuran la desigualdad de género en la comunidad científica de América Latina. Además forma parte de [Ecofeminita](https://ecofeminita.com/) -Asociación Civil Economía Feminista-, una organización interdisciplinaria creada y liderada por mujeres.
 Carolina es Licenciada en Economía por la Universidad de Buenos Aires. Magíster en Ciencias Sociales del Trabajo de la Facultad de Ciencias Sociales de la UBA, Doctoranda en Ciencia de la Información en la Universidad de Montreal y docente de nivel superior.
 
-Como investigadora, formó parte del Centro de Estudios sobre Población, Empleo y Desarrollo y ahora trabaja en el equipo de investigación de [Ciencia Abierta de UNESCO.](https://www.unesco.org/en/open-science) Es maintainer del [paquete de R ‘eph’](https://docs.ropensci.org/eph/), cuyo objetivo es facilitar el trabajo con los datos de la Encuesta Permanente de Hogares.
+Como investigadora, formó parte del Centro de Estudios sobre Población, Empleo y Desarrollo y ahora trabaja en el equipo de investigación de [Ciencia Abierta de UNESCO.](https://www.unesco.org/en/open-science) Es _maintainer_ del [paquete de R ‘eph’](https://docs.ropensci.org/eph/), cuyo objetivo es facilitar el trabajo con los datos de la Encuesta Permanente de Hogares.
+
+{{< figure src = "eph-docs.png" alt = "Documentacion oficial del paquete eph con el template de rOpenSci" caption = "Documentación oficial del paquete eph">}}
 
 Su encuentro con el programa de Campeones de rOpenSci parecía algo natural. Sus objetivos y los de la organización estaban alineados. En su aplicación al programa de Campeones Carolina expresó: 
 
 > Me gustaría formar parte del Programa rOpenSci Champions para mejorar mis habilidades como desarrolladora, así como para mejorar mis capacidades para enseñar y comunicar estas habilidades.
 
-Y eso sucedió a lo largo de 12 meses de entrenamiento donde a través de la formación y el acompañamiento, Carolina recibió información sobre herramientas y procesos para mejorar su paquete con tutorías individuales y acceso a colegas y expertos en R que ayudaron a mejorar su proyecto. Pero además pudo desarrollar sus habilidades comunicativas logrando sentirse más segura y comunicando de manera más efectiva a los usuarios de eph.
+Y eso sucedió a lo largo de 12 meses de entrenamiento donde a través de la formación y el acompañamiento, Carolina recibió información sobre herramientas y procesos para mejorar su paquete con tutorías individuales y acceso a colegas y expertos en R que ayudaron a mejorar su proyecto. Pero además pudo desarrollar sus habilidades comunicativas logrando sentirse más segura y comunicando de manera más efectiva a las personas que usuan eph.
 
 El intercambio y el encuentro con otras personas facilitó el trabajo, lo ordenó y la ayudó a anticiparse a futuros problemas que podría encontrar: 
 
@@ -39,15 +41,18 @@ Durante el programa, Carolina desarrolló distintos eventos que contribuyeron a 
 
 Fue en ese sentido que Carolina [organizó un evento en español](https://vimeo.com/899372049) con novedades e ideas para la utilización de su paquete epa logrando un doble objetivo: compartir contenido sobre paquetes de R en español y acercar a más personas a la comunidad. 
 Además participó de una [Community Call sobre el Programa de Campeones y Campeonas de rOpenSci](/commcalls/july2023-championprogram/) donde compartió su experiencia junto a la mentora [Beatriz Milz](/es/author/beatriz-milz/) y su compañero de cohorte, [Victor Ordu](/author/victor-ordu/). 
+
 ## Perfeccionar un trabajo bien hecho
 
 El [paquete eph](https://github.com/ropensci/eph/) permite procesar los datos de la Encuesta Permanente de Hogares- INDEC, Argentina para replicar u obtener conclusiones independientes de aquellas publicadas en los informes elaborados por el organismo estatal. Además permite analizar diferentes categorías e indicadores no proporcionados en los informes oficiales.
-Carolina explicó que a lo largo del programa lograron mejorar el paquete de epa: 
+Carolina explicó que a lo largo del programa lograron mejorar el paquete: 
 
 > Intentamos mejorar la calidad del código (fiabilidad y eficacia), mejoramos la documentación y creamos nuevas funciones”. 
 
 Además trabajaron con esfuerzo para traducir la documentación y hacerla más accesible para todos los usuarios y las usuarias que no hablan inglés. 
 Durante el proceso de revisión por pares de rOpenSci, [demostraron que la forma de trabajo puede ser rigurosa y cálida al mismo tiempo](https://github.com/ropensci/software-review/issues/593#issuecomment-1709968472)
+
+{{< figure src = "revision.png" alt = "Comentario en el issue de revisión de eph: Antes que nada, felicitaciones por el paquete. Es un paquete sumamente útil para la comunidad y uno de los más importantes para aquellos que trabajan en política pública. Además de que es un ejemplo para otros organismos del estado de cómo se puede disponibilizar data que sea en servicio de la comunidad. Además, es una linda muestra de cómo se puede mejorar un proyecto con el tiempo y no sólo se sostiene en el mismo sino que está permanentemente creciendo." caption = "Comentario abierto, transparente y amigable de la revisión por pares en el proceso de rOpenSci del paquete eph">}}
 
 ## Abrir la ciencia
 
