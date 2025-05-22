@@ -11,11 +11,13 @@ tags:
 - packages
 - champions program
 - community
-- interview
+- interviews
+- champions-stories
 description: Stories of Champions Series. Our first story is that of Carolina Pradier, main maintainer of the eph package. We review her participation in the program and the impact of her work in different organizations and communities.
 params:
   doi: 10.59350/f7jvs-8js04 
 ---
+This is our first story in our interview series **Stories of Champions**, where we introduce you to different Champions and the impact they have. Our first Champion is [Carolina Pradier](/es/author/carolina-pradier/), main maintainer of the eph package.
 
 [Carolina Pradier](/es/author/carolina-pradier/) has long worked to make the world a more equitable place. Her doctoral research focused on inequalities in science with a focus on the mechanisms that structure gender inequality in the Latin American scientific community. She is also part of [Ecofeminita](https://ecofeminita.com/) -Asociación Civil Economía Feminista-, an interdisciplinary organization created and led by women.
 Carolina has a degree in Economics from the University of Buenos Aires. She holds a Master's degree in Social Sciences of Work from the Faculty of Social Sciences of the University of Buenos Aires, a PhD in Information Science from the University of Montreal and teaches at the higher education level.
