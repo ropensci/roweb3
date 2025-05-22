@@ -22,34 +22,34 @@ This is our first story in our interview series **Stories of Champions**, where 
 [Carolina Pradier](/author/carolina-pradier/) has long worked to make the world a more equitable place. Her doctoral research focused on inequalities in science with a focus on the mechanisms that structure gender inequality in the Latin American scientific community. She is also part of [Ecofeminita](https://ecofeminita.com/) (Asociación Civil Economía Feminista), an interdisciplinary organization created and led by women.
 Carolina has a degree in Economics from the University of Buenos Aires. She holds a Master's degree in Social Sciences of Work from the Faculty of Social Sciences of the University of Buenos Aires, a PhD in Information Science from the University of Montreal and teaches at the higher education level.
 
-As a researcher, she was part of the Center for Studies on Population, Employment and Development and now works in the research team of [Open Science research team at UNESCO.](https://www.unesco.org/en/open-science) She is *maintainer* from [R package 'eph'](https://docs.ropensci.org/eph/) package, whose objective is to facilitate the work with the Permanent Household Survey data.
+As a researcher, Carolina was part of the Center for Studies on Population, Employment and Development and now works in the [Open Science research team at UNESCO](https://www.unesco.org/en/open-science). She also is the maintainer of the [eph](https://docs.ropensci.org/eph/) R package, whose objective is to facilitate working with the Permanent Household Survey data.
 
 {{< figure src = "eph-docs.png" alt = "Documentacion oficial del paquete eph con el template de rOpenSci" caption = "Documentación oficial del paquete eph">}}
 
-## The rOpenSci
+## rOpenSci
 
-Their encounter with the rOpenSci Champion(e|a)s program seemed natural. Her goals and those of the organization were aligned. In her application to the Champion(e|a)s program Carolina expressed:
+Carolina's encounter with the rOpenSci Champions Program seemed natural. Her goals and those of the organization were aligned. In her application to the Champions Program she expressed:
 
 > I would like to be part of the rOpenSci Champions Program to improve my skills as a developer, as well as to improve my abilities to teach and communicate these skills."
 
-And that happened over 12 months of training where through coaching and mentoring, Carolina received information on tools and processes to improve her package with individual mentoring and access to colleagues and R experts that helped improve her project. She was also able to develop her communication skills and feel more confident in communicating more effectively with the people who use eph.
+Next followed over 12 months of training. Through the coaching, mentoring, and exposure to colleagues, Carolina received information on tools and processes, as well as advice and feedback to improve her package. She was also able to develop her communication skills and feel more confident in communicating more effectively with the people who use eph.
 
-The exchange and meeting with other people made her work easier, tidier and helped her to anticipate future problems she might encounter:
+Exchanges and meeting with other people made her work easier, and helped her stay organized and anticipate future problems she might encounter:
 
 > I think I felt very good when we finished the training and I started to work closely with my mentor, we had a good relationship and we could work very well and efficiently."
 
-Carolina was not only selected to participate in the rOpenSci Champions program. she had already gone through a previous selection: as the application to the program is individual it was her peers who encouraged her to participate on behalf of the team.
+In addition to being selected to participate in the rOpenSci Champions Program through the rOpenSci application, Carolina had already gone through a previous selection. The rOpenSci Champions Program accepts only individual applications. Therefore, when Carolina's team wished to participate, her colleagues encouraged her to participate on behalf of the team. 
 
-During the program, Carolina developed different events that contributed to disseminate her work, share it with others and invite them to approach open science. This idea was also present in the objectives that Carolina expressed in her first contact with rOpenSci:
+During the program, Carolina developed different events to help disseminate her work, share it with others, and invite them to get involved in open science. This idea was also present in the objectives that Carolina expressed in her first contact with rOpenSci:
 
 > One of my main motivations is to bring new tools to the communities of social scientists in which I actively participate in order to strengthen our capacities to transform reality."
 
-It was in this sense that Carolina [organized an event in Spanish](https://vimeo.com/899372049) with news and ideas for the use of its epa package, achieving a double objective: sharing content about R packages in Spanish and bringing more people closer to the community.
-It also participated in a [Community Call on the rOpenSci Champions Program.](/commcalls/july2023-championprogram/) where he shared his experience together with mentor [Beatriz Milz](/es/author/beatriz-milz/) and his cohort partner, [Victor Ordu](/author/victor-ordu/).
+It was with this goal that Carolina [organized an event in Spanish](https://vimeo.com/899372049) with news and ideas for the use of the eph package. This achieved a double objective: sharing content about R packages in Spanish and bringing more people closer to the R and open science community.
+Carolina also participated in a [Community Call on the rOpenSci Champions Program.](/commcalls/july2023-championprogram/) where she shared her experiences alongside mentor [Beatriz Milz](/es/author/beatriz-milz/) and cohort partner, [Victor Ordu](/author/victor-ordu/).
 
 ## Perfecting a job well done
 
-The [eph package](https://github.com/ropensci/eph/) package allows processing data from the Permanent Household Survey - INDEC, Argentina to replicate or obtain conclusions independent of those published in the reports prepared by the government agency. It also allows the analysis of different categories and indicators not provided in the official reports.
+The [eph](https://github.com/ropensci/eph/) package processes data from the Permanent Household Survey ([INDEC](https://www.indec.gob.ar)) in Argentina to replicate or conduct independent analyses from those published in the reports prepared by the government agency. It also allows the analysis of different categories and indicators not provided in the official reports.
 Carolina explained that throughout the program they managed to improve the package:
 
 > "We tried to improve the quality of the code (reliability and efficiency), we improved the documentation and created new functions.
