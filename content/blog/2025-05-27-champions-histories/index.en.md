@@ -70,9 +70,9 @@ Once again it was able to meet another of the objectives set at the beginning of
 
 The package further inspired other programmers, data scientists, and people from different disciplines to develop in Python the [PyEPH library](https://pyeph.readthedocs.io/es/latest/) library, which has a similar purpose to the epa package in R, but to be used and supported by people in the Python data community.
 
-## Beyond learning: building in community
+## Beyond learning: building with a community
 
-Carolina Pradier was able to learn about R, sort her knowledge, acquire new skills and offer a multilingual package so that more people can access open science. The contact with her mentor, with her peers, with the people who participated in the review process and the people who use the package was a great contribution to learning and personal growth. Her participation in the Champions Program was the beginning of a network of links that promise new projects.
+Carolina Pradier was able to improve her R skills, acquire new skills, and offer a multilingual package so that more people can access open science. Experiences with her mentor, her peers, the people who participated in the review process, and the people who use the package were a great contribution to learning and personal growth. Her participation in the Champions Program was the beginning of a network of links that promise new projects.
 
 > I always had someone to talk to to help me solve problems; it was never a frustrating process."
 
@@ -80,6 +80,6 @@ was Carolina's response to the question about possible improvements to be made t
 
 > I think the team is very well organized to help you. During the training I got a lot of information on how to solve the problems that I could encounter".
 
-Shared knowledge allows us to anticipate, help and include. The more experiences like Carolina Pradier's we can have the more shared open science there will be.
+Shared knowledge allows us to anticipate, help and include. The more experiences like Carolina Pradier's there are, the more shared and *open* open science there will be.
 
 
