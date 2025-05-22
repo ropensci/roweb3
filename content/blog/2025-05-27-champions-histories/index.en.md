@@ -20,7 +20,7 @@ params:
 This is our first story in our interview series **Stories of Champions**, where we introduce you to different Champions and the impact they have. Our first Champion is [Carolina Pradier](/es/author/carolina-pradier/), main maintainer of the eph package.
 
 [Carolina Pradier](/author/carolina-pradier/) has long worked to make the world a more equitable place. Her doctoral research focused on inequalities in science with a focus on the mechanisms that structure gender inequality in the Latin American scientific community. She is also part of [Ecofeminita](https://ecofeminita.com/) (Asociación Civil Economía Feminista), an interdisciplinary organization created and led by women.
-Carolina has a degree in Economics from the University of Buenos Aires. She holds a Master's degree in Social Sciences of Work from the Faculty of Social Sciences of the University of Buenos Aires, a PhD in Information Science from the University of Montreal and teaches at the higher education level.
+Carolina has a degree in Economics from the University of Buenos Aires and a holds a Master's degree in Social Sciences of Work from the Faculty of Social Sciences of the University of Buenos Aires. She has a PhD in Information Science from the University of Montreal and teaches at post-secondary institutions.
 
 As a researcher, Carolina was part of the Center for Studies on Population, Employment and Development and now works in the [Open Science research team at UNESCO](https://www.unesco.org/en/open-science). She also is the maintainer of the [eph](https://docs.ropensci.org/eph/) R package, whose objective is to facilitate working with the Permanent Household Survey data.
 
@@ -54,7 +54,7 @@ Carolina explained that throughout the program they managed to improve the packa
 
 > "We tried to improve the quality of the code (reliability and efficiency), we improved the documentation and created new functions.
 
-They also worked hard to translate the documentation and make it more accessible to all non-English speaking users.
+They also worked hard to translate the documentation and make it more accessible to Spanish-speaking users.
 During the peer review process of rOpenSci, [demonstrated that the way of working can be rigorous and warm at the same time.](https://github.com/ropensci/software-review/issues/593#issuecomment-1709968472)
 
 {{< figure src = "revision.png" alt = "Comentario en el issue de revisión de eph: Antes que nada, felicitaciones por el paquete. Es un paquete sumamente útil para la comunidad y uno de los más importantes para aquellos que trabajan en política pública. Además de que es un ejemplo para otros organismos del estado de cómo se puede disponibilizar data que sea en servicio de la comunidad. Además, es una linda muestra de cómo se puede mejorar un proyecto con el tiempo y no sólo se sostiene en el mismo sino que está permanentemente creciendo." caption = "Comentario abierto, transparente y amigable de la revisión por pares en el proceso de rOpenSci del paquete eph">}}
@@ -76,7 +76,7 @@ Carolina Pradier was able to improve her R skills, acquire new skills, and offer
 
 > I always had someone to talk to to help me solve problems; it was never a frustrating process."
 
-was Carolina's response to the question about possible improvements to be made to the Campeones y Campeonas program, and she added:
+Carolina also added:
 
 > I think the team is very well organized to help you. During the training I got a lot of information on how to solve the problems that I could encounter".
 
