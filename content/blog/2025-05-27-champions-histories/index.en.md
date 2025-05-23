@@ -57,7 +57,7 @@ Carolina explained that throughout the program they managed to improve the packa
 They also worked hard to translate the documentation and make it more accessible to Spanish-speaking users.
 During the peer review process of rOpenSci, [demonstrated that the way of working can be rigorous and warm at the same time.](https://github.com/ropensci/software-review/issues/593#issuecomment-1709968472)
 
-{{< figure src = "revision.png" alt = "Comentario en el issue de revisión de eph: Antes que nada, felicitaciones por el paquete. Es un paquete sumamente útil para la comunidad y uno de los más importantes para aquellos que trabajan en política pública. Además de que es un ejemplo para otros organismos del estado de cómo se puede disponibilizar data que sea en servicio de la comunidad. Además, es una linda muestra de cómo se puede mejorar un proyecto con el tiempo y no sólo se sostiene en el mismo sino que está permanentemente creciendo." caption = "Comentario abierto, transparente y amigable de la revisión por pares en el proceso de rOpenSci del paquete eph">}}
+{{< figure src = "revision.png" alt = "Comment on the eph review issue: First of all, congratulations on the package. It is an extremely useful package for the community and one of the most important for those working in public policy. It is also an example for other government agencies of how data can be made available to serve the community. It is also a nice example of how a project can be improved over time and not only sustains itself but is permanently growing." caption = "Open, transparent and friendly commentary on the rOpenSci peer review of the eph package.">}}
 
 ## Open science
 
