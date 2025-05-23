@@ -24,7 +24,7 @@ Carolina has a degree in Economics from the University of Buenos Aires and a hol
 
 As a researcher, Carolina was part of the Center for Studies on Population, Employment and Development and now works in the [Open Science research team at UNESCO](https://www.unesco.org/en/open-science). She also is the maintainer of the [eph](https://docs.ropensci.org/eph/) R package, whose objective is to facilitate working with the Permanent Household Survey data.
 
-{{< figure src = "eph-docs.png" alt = "Documentacion oficial del paquete eph con el template de rOpenSci" caption = "Documentación oficial del paquete eph">}}
+{{< figure src = "eph-docs.png" alt = "Official documentation of the eph package with the rOpenSci template" caption = "Official documentation of the eph package">}}
 
 ## rOpenSci
 
