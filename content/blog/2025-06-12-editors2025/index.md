@@ -1,5 +1,6 @@
 ---
 slug: editors2025
+<<<<<<< HEAD
 title: 'Announcing New Stats Software Peer Review Editors: Emi Tanaka and Nima Hejazi'
 author:
     - Mark Padgham
