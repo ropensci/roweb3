@@ -1,5 +1,5 @@
 ---
-name: Saranjeet Kaur
+name: Saranjeet Kaur Bhogal
 link: https://saranjeetkaur.github.io/About-Me/
 linkedin: https://www.linkedin.com/in/saranjeet-kaur-b-48ab769b/
 github: saranjeetkaur
