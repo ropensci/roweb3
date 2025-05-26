@@ -12,7 +12,7 @@ tags:
 - comunidad
 - paquetes
 params:
-  doi: 
+  doi: 10.59350/vej9b-tc502
 ---
 
 Contribuir a una comunidad de código abierto *sin* aportar código es una idea a menudo extraña que puede parecer confusa. Por suerte, poner en práctica ideas vagas es uno de los puntos fuertes de la iniciativa [rOpenSci](/community/) y su sistema de revision de paquetes ofrece la oportunidad de hacerlo.
