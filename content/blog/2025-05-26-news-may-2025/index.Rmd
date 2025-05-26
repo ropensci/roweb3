@@ -47,10 +47,10 @@ Now let's dive into the activity at and around rOpenSci!
 ### Help us maintain {pkgcheck}!
 
 You might know of [our {pkgcheck} system](https://docs.ropensci.org/pkgcheck/) used for our automated package checks, and for your own stand-alone and [GitHub-action usage](https://github.com/ropensci-review-tools/pkgcheck-action) on any package. 
-We are seeking co-maintainers for the {pkgcheck} package that powers that. 
+We are seeking co-maintainers for the {pkgcheck} package which powers this system. 
 In particular, we have several [ideas for additional checks in current repo issues](https://github.com/ropensci-review-tools/pkgcheck/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22%3Amag%3A%20Check%20Idea%22). 
 We would like volunteers to attend an online get-together for us to coach you on how to implement new checks, and so to help you get involved in maintaining and further developing our checking system.
-If you're interested and already part of our slack group, please join our dedicated `#pkgcheck` channel, otherwise email `mark@ropensci.org`.
+If you're interested and already part of the rOpenSci Slack, please join our dedicated `#pkgcheck` channel, otherwise email `mark@ropensci.org`.
 
 ### Champions Program 2025
 
@@ -596,14 +596,14 @@ Some useful tips for R package developers. :eyes:
 ### Roaringly Acknowledge Organizations with ROR IDs in DESCRIPTION
 
 In our [recent blog post](/blog/2025/05/09/ror/) we explained what ROR IDs are: they are to organizations what ORCID are for individuals.
-They help acknowledge more precisely an organization (a company that owns the copyright, a non-profit that funded the work, etc.) in package's metadata.
+They help acknowledge more precisely an organization (a company that owns the copyright, a non-profit that funded the work, etc.) in the package's metadata.
 [Read more](/blog/2025/05/09/ror/).
 
 ### Safeguard your documentation in check environments
 
 Or, in other words, how to have your package *not* fail `R CMD check` on CRAN, but examples and vignettes still rendered in pkgdown documentation?
 
-Thanks to Alasdair Warwick, maintainer of the recently reviewed [gtexr package](https://docs.ropensci.org/gtexr/), for summarizing [some advice](https://github.com/ropensci-org/rotemplate/issues/120#issuecomment-2831521763) that we copy below:
+Thanks to Alasdair Warwick, maintainer of the recently reviewed [gtexr package](https://docs.ropensci.org/gtexr/), for summarizing [some advice](https://github.com/ropensci-org/rotemplate/issues/120#issuecomment-2831521763) that we share here:
 
 - For function examples, use the  [`examplesIf` roxygen2 tag](https://roxygen2.r-lib.org/articles/rd.html?q=examplesIf#examples) with the `IN_PKGDOWN` variable e.g. `#' @examplesIf identical(Sys.getenv("IN_PKGDOWN"), "true")`
 - For vignettes, either [pre-build](/blog/2019/12/08/precompute-vignettes/) if special tools/data/credentials are required which are unavailable on generic build servers, or use the `IN_PKGDOWN` variable with knitr eval option e.g.
@@ -628,7 +628,7 @@ CI: Pin the R version if using renv"](/blog/2025/04/28/news-april-2025/#ci-pin-t
 it's also possible to automatically set the R version to the one documented in `renv.lock`
 when using the [`r-lib/setup-r`action](https://github.com/r-lib/actions/blob/4f58f8ffa872cbd4cb016c51ec497fdbe0a02711/setup-r/README.md?plain=1#L37).
 
-### `usethis::use_air()`
+### Air gets a usethis function: `usethis::use_air()`
 
 In March we mentioned [Air](/blog/2025/03/27/news-march-2025/#air-a-new-formatter-for-r), the new formatter developed at Posit.
 In usethis development version, there's a function that helps you set up a project to use Air: [`use_air()`](https://usethis.r-lib.org/dev/reference/use_air.html).
