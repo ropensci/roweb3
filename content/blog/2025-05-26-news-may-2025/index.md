@@ -127,6 +127,8 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 <div class="highlight">
 
+-   [Bridges and Communities. My Journey as an rOpenSci Champion](/blog/2025/05/15/puentes-comunidades-campeones-ropensci) by Andrea Gomez Vargas. Developing the ARcenso package with rOpenSci and presenting it to R communities. Other languages: <a href='/es/blog/2025/05/15/puentes-comunidades-campeones-ropensci' lang='es'>Puentes y Comunidades. Mi Camino como Campeona de rOpenSci (es)</a>.
+
 ### Tech Notes
 
 -   [Roaringly Acknowledge Organizations with ROR IDs in DESCRIPTION](/blog/2025/05/09/ror) by Maëlle Salmon.
