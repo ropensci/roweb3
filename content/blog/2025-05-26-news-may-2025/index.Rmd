@@ -299,6 +299,9 @@ get_description <- function(body) {
   lines <- strsplit(body, "\n")[[1]]
   name <- stringr::str_squish(sub("Package:", "", lines[grepl("^Package", lines)][1]))
   description <- stringr::str_squish(sub("Title:", "", lines[grepl("^Title", lines)][1]))
+  if (name == "capybara") {
+    description <- "Fast and Memory Efficient Fitting of Linear Models With High-Dimensional Fixed Effects"
+  }
   description <- cran_unquote(sub("\\.$", "", description))
   list(name = name, description = description)
 }
