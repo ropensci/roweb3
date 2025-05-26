@@ -6,7 +6,7 @@ author:
 date: '2025-05-26'
 tags:
   - newsletter
-description: Career Paths for U.S. Federal Data Scientists, Website in Spanish
+description: Help with pkgcheck, Champions Program updates, events, package news
 params:
   last_newsletter: '2025-04-28'
   doi: "10.59350/e4wq0-j73"
@@ -51,7 +51,8 @@ We are seeking co-maintainers for the {pkgcheck} package that powers that.
 In particular, we have several [ideas for additional checks in current repo issues](https://github.com/ropensci-review-tools/pkgcheck/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22%3Amag%3A%20Check%20Idea%22). 
 We would like volunteers to attend an online get-together for us to coach you on how to implement new checks, and so to help you get involved in maintaining and further developing our checking system.
 If you're interested and already part of our slack group, please join our dedicated `#pkgcheck` channel, otherwise email `mark@ropensci.org`.
-## Champions Program 2025
+
+### Champions Program 2025
 
 The call for the first cohort in Spanish has closed.  We received 121 aplications from people in 22 different countries. 
 Most of this year's applicants want to develop a new package and the topics are very varied: from data access, to new analytics, educational materials, to health and agricultural applications.
