@@ -59,6 +59,7 @@ Most of this year's applicants want to develop a new package and the topics are 
 The review process is in full swing. Notifications will be going out over the next few weeks to all those who applied. 
 We greatly appreciate the time all applicants took to write and submit their proposals. 
 We can't wait to see what this year's cohort will bring to the program!
+
 ### Coworking 
 
 Read [all about coworking](/blog/2023/06/21/coworking/)!
@@ -231,7 +232,7 @@ present_one <- function(package) {
       string <- paste0(string, ".")
     }
   }
-  
+  string <- sub("twitter", "social media", string)
   paste("+", string)
 
 }
@@ -600,7 +601,7 @@ Refer to our [help wanted page](/help-wanted/) -- before opening a PR, we recomm
 
 Some useful tips for R package developers. :eyes:
 
-## R Package Development Workshops Online by R Forwards
+## Online R Package Development Workshops by R Forwards
 
 Interesting opportunity starting **next week**, read more on the [R Forwards website](https://forwards.github.io/blog/2025/package-dev-workshops/):
 
