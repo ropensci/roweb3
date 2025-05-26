@@ -600,6 +600,14 @@ Refer to our [help wanted page](/help-wanted/) -- before opening a PR, we recomm
 
 Some useful tips for R package developers. :eyes:
 
+## R Package Development Workshops Online by R Forwards
+
+Interesting opportunity starting **next week**, read more on the [R Forwards website](https://forwards.github.io/blog/2025/package-dev-workshops/):
+
+_"The Forwards teaching team is hosting two workshop series beginning next month to teach participants how to build their own R packages. No prior package building experience is required."_
+
+_"[Cohort 1](https://forwards.github.io/package-dev/workshops/summer-2025-cohort-1.html) meets every other Monday starting June 2, from 09:00 to 10:30 UTC and will be taught by Pao Corrales and Ella Kaye. [Cohort 2](https://forwards.github.io/package-dev/workshops/summer-2025-cohort-1.html) meets every other Tuesday starting June 3, from 14:30 to 16:00 UTC and will be led by Emma Rand, Joyce Robbins, and Heather Turner."_
+
 ### Roaringly Acknowledge Organizations with ROR IDs in DESCRIPTION
 
 In our [recent blog post](/blog/2025/05/09/ror/) we explained what ROR IDs are: they are to organizations what ORCID are for individuals.
