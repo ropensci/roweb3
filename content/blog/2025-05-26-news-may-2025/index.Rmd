@@ -600,7 +600,7 @@ Or, in other words, how to have your package *not* fail `R CMD check` on CRAN, b
 Thanks to Alasdair Warwick, maintainer of the recently reviewed [gtexr package](https://docs.ropensci.org/gtexr/), for summarizing [some advice](https://github.com/ropensci-org/rotemplate/issues/120#issuecomment-2831521763) that we copy below:
 
 - For function examples, use the  [`examplesIf` roxygen2 tag](https://roxygen2.r-lib.org/articles/rd.html?q=examplesIf#examples) with the `IN_PKGDOWN` variable e.g. `#' @examplesIf identical(Sys.getenv("IN_PKGDOWN"), "true")`
-- For vignettes, either pre-build if special tools/data/credentials are required which are unavailable on generic build servers (see https://ropensci.org/blog/2019/12/08/precompute-vignettes/), or use the `IN_PKGDOWN` variable with knitr eval option e.g.
+- For vignettes, either [pre-build](/blog/2019/12/08/precompute-vignettes/) if special tools/data/credentials are required which are unavailable on generic build servers, or use the `IN_PKGDOWN` variable with knitr eval option e.g.
 
 ```r
 knitr::opts_chunk$set(
