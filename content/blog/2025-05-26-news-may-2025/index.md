@@ -161,7 +161,7 @@ Interesting opportunity starting **next week**, read more on the [R Forwards web
 
 *"The Forwards teaching team is hosting two workshop series beginning next month to teach participants how to build their own R packages. No prior package building experience is required."*
 
-*"[Cohort 1](https://forwards.github.io/package-dev/workshops/summer-2025-cohort-1.html) meets every other Monday starting June 2, from 09:00 to 10:30 UTC and will be taught by Pao Corrales and Ella Kaye. [Cohort 2](https://forwards.github.io/package-dev/workshops/summer-2025-cohort-1.html) meets every other Tuesday starting June 3, from 14:30 to 16:00 UTC and will be led by Emma Rand, Joyce Robbins, and Heather Turner."*
+*"[Cohort 1](https://forwards.github.io/package-dev/workshops/summer-2025-cohort-1.html) meets every other Monday starting June 2, from 09:00 to 10:30 UTC and will be taught by Pao Corrales and Ella Kaye. [Cohort 2](https://forwards.github.io/package-dev/workshops/summer-2025-cohort-2.html) meets every other Tuesday starting June 3, from 14:30 to 16:00 UTC and will be led by Emma Rand, Joyce Robbins, and Heather Turner."*
 
 ### Roaringly Acknowledge Organizations with ROR IDs in DESCRIPTION
 
