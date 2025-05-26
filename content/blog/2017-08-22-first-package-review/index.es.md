@@ -29,9 +29,9 @@ Así que el primer paso (para mí) fue: confesar mis insuficiencias y pedir cons
 
 Yo no sabía nada de [Nicholas Tierney](https://github.com/njtierney)'s [`visdat`](https://visdat.njtierney.com/) paquetes antes de recibir mi [invitación a revisarlo](https://github.com/ropensci/software-review/issues/87#issuecomment-270428584). Así que lo primero que hice fue jugar con él de la misma forma que lo hago con otros paquetes interesantes de R que encuentro. Se trata de una mezcla totalmente desestructurada de ejecutar ejemplos e introducir mis propios datos para ver qué ocurre. Además de ser divertido, es una buena forma de "verificar" la misión del paquete y asegurarse de que no hay ninguna función muy útil que se esté pasando por alto.
 
-Si estás *no* conoces `visdat` , "proporciona al usuario una forma rápida de examinar visualmente la estructura de su conjunto de datos y, más concretamente, dónde y qué tipos de datos faltan". [^1] Con el AED (análisis exploratorio de datos) en fase inicial, lo que realmente intentas es obtener una*sensación* de tus datos. Así que, sabiendo que no podía ser de mucha ayuda en la *"así es como podrías hacer esto más rápido con C++"* decidí asumir plenamente mi papel de *"usuario ingenuo".* . [^2]
+Si *no* conoces `visdat` , "proporciona al usuario una forma rápida de examinar visualmente la estructura de su conjunto de datos y, más concretamente, dónde y qué tipos de datos faltan". [^1] Con el AED (análisis exploratorio de datos) en fase inicial, lo que realmente intentas es obtener una *sensación* de tus datos. Así que, sabiendo que no podía ser de mucha ayuda en la revisión del tipo *"así es como podrías hacer esto más rápido con C++"* decidí asumir plenamente mi papel de *"usuario ingenuo".* . [^2]
 
-### Preguntas que tenía en mente como <del>yo mismo</del>  ingenuo residente:
+### Preguntas que tenía en mente como la usuaria ingenuo residente:
 
 - ¿Qué pensaba que haría esta cosa? ¿Lo hizo?
 - ¿Qué cosas me asustan?
