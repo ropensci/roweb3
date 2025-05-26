@@ -66,7 +66,7 @@ Read [all about coworking](/blog/2023/06/21/coworking/)!
 - Tuesday June 3, 2025 2:00 PM CEST (12:00 UTC), ["Getting to know the DSLC"](/events/coworking-2025-06/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Jon Harmon](/author/jon-harmon/).
     - Visit the [DSLC](https://dslc.io/).
 
-- Tuesday July 1st, 2025 4:00 PM UTC, ["Research Software Engineering and R"](/events/coworking-2025-07/) with [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) and cohost [Saranjeet Kaur Bhogal](/author/saranjeet-kaur-bhogal/).
+- Tuesday July 1st, 2025 9:00 AM Americas Pacific (16:00 UTC), ["Research Software Engineering and R"](/events/coworking-2025-07/) with [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) and cohost [Saranjeet Kaur Bhogal](/author/saranjeet-kaur-bhogal/).
     - Look up Research Software Engineering.
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
