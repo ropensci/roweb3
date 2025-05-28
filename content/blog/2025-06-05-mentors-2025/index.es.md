@@ -30,19 +30,19 @@ Nuestros nuevos mentores provienen de una amplia variedad de disciplinas y son v
 
 ## Carolina Pradier
 
-{{< figure src = "/img/team/carolina-pradier.jpg" width = "300" alt = "Foto de perfil de Carolina Pradier" class = "pull-left" caption = "<strong>Carolina Pradier. </br> Universidad de Montreal - rOpenSci - Ecofemidata</strong>">}}
+{{< figure src = "/img/team/carolina-pradier.jpg" width = "250" alt = "Foto de perfil de Carolina Pradier" class = "pull-left" caption = "<strong>Carolina Pradier. </br> Universidad de Montreal - rOpenSci - Ecofemidata</strong>">}}
 
 ¡Hola! Soy Carolina Pradier y voy a participar como mentora en esta edición del programa de Campeon(e|a)S de rOpenSci.
  
 Soy argentina, licenciada en Economía por la Universidad de Buenos Aires y también tengo una Maestría en Ciencias Sociales del Trabajo por la misma universidad. Actualmente vivo en Canadá, donde estoy haciendo un doctorado en Ciencias de la Información. Mi tesis doctoral se centra en el estudio de las inequidades en el ámbito científico en América Latina.
 
-Dentro de la comunidad de rOpenSci, soy maintainer del [paquete eph](), una herramienta diseñada para facilitar el análisis de la Encuesta Permanente de Hogares de Argentina. Participé como alumna en una cohorte anterior del Programa de Campeon(e|a)S de rOpenSci, donde mi paquete [atravesó el proceso de revisión de pares de rOpenSci]().
+Dentro de la comunidad de rOpenSci, soy maintainer del [paquete eph](https://docs.ropensci.org/eph/), una herramienta diseñada para facilitar el análisis de la Encuesta Permanente de Hogares de Argentina. Participé como alumna en una cohorte anterior del Programa de Campeon(e|a)S de rOpenSci, donde mi paquete [atravesó el proceso de revisión de pares de rOpenSci](https://github.com/ropensci/software-review/issues/593).
 
 Me entusiasma muchísimo ser parte del programa de Campeon(e|a)s como mentora. Quiero poder transmitir mi experiencia en el desarrollo de paquetes en R a quienes están dando sus primeros pasos en esta comunidad. Pero también quiero aprender de otras personas, de sus recorridos, sus motivaciones y sus proyectos. Estoy convencida de que abrir espacios de intercambio y apoyo mutuo es fundamental para seguir construyendo una comunidad diversa, inclusiva y solidaria.
 
 ## Elina Gómez
 
-{{< figure src = "/img/team/elina-gomez.png" width = "300" alt = "Foto de perfil de Elina Gomez" class = "pull-right" caption = "<strong>Elina Gomez. </br> Facultad de Ciencias Sociales, Universidad de la República (Uruguay) - R-Ladies Montevideo - RUG Montevideo</strong>">}}
+{{< figure src = "/img/team/elina-gomez.png" width = "250" alt = "Foto de perfil de Elina Gomez" class = "pull-right" caption = "<strong>Elina Gomez. </br> Facultad de Ciencias Sociales, Universidad de la República (Uruguay) - R-Ladies Montevideo - RUG Montevideo</strong>">}}
 
 Soy Elina Gómez Bonaglia, Licenciada en Sociología, Magíster en Estudios Contemporáneos de América Latina y candidata a Doctora en Sociología por la Facultad de Ciencias Sociales de la Udelar, Uruguay. 
 
@@ -53,7 +53,11 @@ Me interesa participar en el programa como mentora y seguir proyectos de diferen
 
 ## Elio Campitelli
 
-Soy de Argentina pero el año pasado me mudé a Australia porque es el único otro país que empieza on A y usa el mismo tipo de enchufe. Estoy haciendo un postdoc en la Universidad de Monash investigando interacciones entre el hielo marino de la Antártida y la atmósfera. Ya fui mentore de una edición anterior del programa. Fue una experiencia genial que quiero repetir. 
+{{< figure src = "/img/team/elio-campitelli.jpg" width = "250" alt = "Foto de perfil de Elio Campitelli" class = "pull-left" caption = "<strong>Elio Campitelli. </br> Monash University - rOpenSci - LatinR</strong>">}}
+
+Soy de Argentina pero el año pasado me mudé a Australia porque es el único otro país que empieza on A y usa el mismo tipo de enchufe. Estoy haciendo un postdoc en la Universidad de Monash investigando interacciones entre el hielo marino de la Antártida y la atmósfera. 
+
+Ya fui mentore de una edición anterior del programa. Fue una experiencia genial que quiero repetir. 
 
 ## Francisco Cardozo
 
