@@ -61,6 +61,10 @@ Estoy haciendo un postdoc en la Universidad de Monash investigando interacciones
 
 Ya fui mentore de una edición anterior del programa. Fue una experiencia genial que quiero repetir. 
 
+</br>
+</br>
+</br>
+
 ## Francisco Cardozo
 
 {{< figure src = "/img/team/francisco-cardozo.jpg" width = "250" alt = "Foto de perfil de Francisco Cardozo" class = "pull-right" caption = "<strong>Francisco Cardozo</br>Universidad de Miami </br> rOpenSci -The Carpentries</strong>">}}
@@ -73,7 +77,7 @@ Estoy profundamente comprometido con el fortalecimiento de las capacidades técn
 
 ## Geraldine Gómez Millán
 
-{{< figure src = "/img/team/geraldine-gomez.png" width = "250" alt = "Foto de perfil de Geraldine Gómez Millán" class = "pull-right" caption = "<strong>Geraldine Gómez Millán</br>IBM</br>Epiverse TRACE-LAC</strong>">}}
+{{< figure src = "/img/team/geraldine-gomez.png" width = "250" alt = "Foto de perfil de Geraldine Gómez Millán" class = "pull-left" caption = "<strong>Geraldine Gómez Millán</br>IBM</br>Epiverse TRACE-LAC</strong>">}}
 
 Mi nombre es Geraldine Gómez Millán, soy de Colombia, Ingeniera de Sistemas y actualmente curso una maestría en Ingeniería de Software. He participado en diversos proyectos sociales, liderando el desarrollo de paquetes y software en R con enfoque en epidemiología y análisis regional. He realizado entrenamientos en R y en buenas prácticas de programación.
 
@@ -93,7 +97,7 @@ Fue mentor durante la cohorte 2023-2024 y estoy feliz de participar nuevamente e
 
 ## Milagros Mendoza
 
-{{< figure src = "/img/team/milagros-mendoza.jpeg" width = "250" alt = "Foto de perfil de Milagros Mendoza" class = "pull-right" caption = "<strong>Milagros Mendoza</br>Universidade Federal Rural de Pernambuco (UFRPE)</br>R-Ladies Natal</strong>">}}
+{{< figure src = "/img/team/milagros-mendoza.jpeg" width = "250" alt = "Foto de perfil de Milagros Mendoza" class = "pull-left" caption = "<strong>Milagros Mendoza</br>Universidade Federal Rural de Pernambuco (UFRPE)</br>R-Ladies Natal</strong>">}}
 
 Mi nombre es Milagros Mendoza. Soy peruana de nacimiento, pero actualmente resido en Brasil donde trabajo en la Universidade Federal Rural de Pernambuco (UFRPE). Tambien soy parte de R-Ladies Natal.
 
@@ -113,7 +117,7 @@ Del programa espero aprender del amplio conocimiento y la experiencia de mis col
 
 ## Pao Corrales
 
-{{< figure src = "/img/team/paola-corrales.png" width = "250" alt = "Foto de perfil de Pao Corrales" class = "pull-right" caption = "<strong>Pao Corrales</br>Australian National University & 21st century weather CoE </br> R-Ladies, LatinR, rOpenSci, The Carpentries, RForwards </strong>">}}
+{{< figure src = "/img/team/paola-corrales.png" width = "250" alt = "Foto de perfil de Pao Corrales" class = "pull-left" caption = "<strong>Pao Corrales</br>Australian National University & 21st century weather CoE </br> R-Ladies, LatinR, rOpenSci, The Carpentries, RForwards </strong>">}}
 
 Soy Doctora en Ciencias de la Atmósfera de Universidad de Buenos Aires, Argentina y ahora en Australia trabajo para el 21st Century Weather Centre como Ingeniera de Software para Investigacion. 
 
@@ -123,6 +127,8 @@ Me apasiona enseñar y ayudar a otras personas a que puedan crecer en lo que hac
 personas. Estoy muy contenta de participar este año como mentora en el programa de campeonas y campeones de Latinoamerica.
 
 ## Ronny Hernandez Mora
+
+{{< figure src = "/img/team/ronny-hernandez.png" width = "250" alt = "Foto de perfil de Ronny Hernandez Mora" class = "pull-right" caption = "<strong>Ronny Hernandez Mora</br>University of Alberta</strong>">}}
 
 Soy Ronny A. Hernández Mora, estudiante de doctorado en el Departamento de Ingeniería Civil y Ambiental de la Universidad de Alberta, Canadá. Mi investigación se enfoca en el desarrollo de herramientas de visión por computadora y aprendizaje por refuerzo aplicadas a drones de primera respuesta. 
 
