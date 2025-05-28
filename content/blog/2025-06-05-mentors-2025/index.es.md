@@ -30,7 +30,7 @@ Nuestros nuevos mentores provienen de una amplia variedad de disciplinas y son v
 
 ## Carolina Pradier
 
-{{< figure src = "/img/team/carolina-pradier.jpg" width = "300" alt = "Foto de perfil de Carolina Pradier" class = "pull-left" caption = "<strong>Carolina Pradier - </br> Universidad de Montreal - rOpenSci - Ecofemidata</strong>">}}
+{{< figure src = "/img/team/carolina-pradier.jpg" width = "300" alt = "Foto de perfil de Carolina Pradier" class = "pull-left" caption = "<strong>Carolina Pradier. </br> Universidad de Montreal - rOpenSci - Ecofemidata</strong>">}}
 
 ¡Hola! Soy Carolina Pradier y voy a participar como mentora en esta edición del programa de Campeon(e|a)S de rOpenSci.
  
@@ -41,6 +41,8 @@ Dentro de la comunidad de rOpenSci, soy maintainer del [paquete eph](), una herr
 Me entusiasma muchísimo ser parte del programa de Campeon(e|a)s como mentora. Quiero poder transmitir mi experiencia en el desarrollo de paquetes en R a quienes están dando sus primeros pasos en esta comunidad. Pero también quiero aprender de otras personas, de sus recorridos, sus motivaciones y sus proyectos. Estoy convencida de que abrir espacios de intercambio y apoyo mutuo es fundamental para seguir construyendo una comunidad diversa, inclusiva y solidaria.
 
 ## Elina Gómez
+
+{{< figure src = "/img/team/elina-gomez.png" width = "300" alt = "Foto de perfil de Elina Gomez" class = "pull-right" caption = "<strong>Elina Gomez. </br> Facultad de Ciencias Sociales, Universidad de la República (Uruguay) - R-Ladies Montevideo - RUG Montevideo</strong>">}}
 
 Soy Elina Gómez Bonaglia, Licenciada en Sociología, Magíster en Estudios Contemporáneos de América Latina y candidata a Doctora en Sociología por la Facultad de Ciencias Sociales de la Udelar, Uruguay. 
 
