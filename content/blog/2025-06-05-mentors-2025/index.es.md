@@ -65,6 +65,7 @@ Ya fui mentore de una edición anterior del programa. Fue una experiencia genial
 </br>
 </br>
 </br>
+</br>
 
 ## Francisco Cardozo
 
@@ -98,7 +99,7 @@ Fue mentor durante la cohorte 2023-2024 y estoy feliz de participar nuevamente e
 
 ## Milagros Mendoza
 
-{{< figure src = "/img/team/milagros-mendoza.jpeg" width = "250" alt = "Foto de perfil de Milagros Mendoza" class = "pull-left" caption = "<strong>Milagros Mendoza</br>Universidade Federal Rural de Pernambuco (UFRPE)</br>R-Ladies Natal</strong>">}}
+{{< figure src = "/img/team/milagros-mendoza.jpeg" width = "250" alt = "Foto de perfil de Milagros Mendoza" class = "pull-left" caption = "<strong>Milagros Mendoza</br>Universidade Federal Rural de Pernambuco</br>R-Ladies Natal</strong>">}}
 
 Mi nombre es Milagros Mendoza. Soy peruana de nacimiento, pero actualmente resido en Brasil donde trabajo en la Universidade Federal Rural de Pernambuco (UFRPE). Tambien soy parte de R-Ladies Natal.
 
