@@ -64,6 +64,7 @@ Ya fui mentore de una edición anterior del programa. Fue una experiencia genial
 </br>
 </br>
 </br>
+</br>
 
 ## Francisco Cardozo
 
@@ -138,6 +139,6 @@ Mi entrada al mundo de R y la programación fue posible gracias a personas que e
 
 ## Lo que viene
 
-Estamos muy contentos y agradecidos de contar con este equipo diverso y talentoso de mentores y mentoras, que encarna los valores de colaboración, apertura y compromiso con el crecimiento colectivo. Su acompañamiento será clave para que los y las nuevas Campeon(a|e)s puedan llevar adelante sus ideas y proyectos, y contribuir al desarrollo de una comunidad de ciencia abierta más fuerte y diversa en América Latina.
+Estamos felices de contar con este equipo diverso y talentoso de mentores y mentoras, que encarna los valores de colaboración, apertura y compromiso con el crecimiento colectivo. Su acompañamiento será clave para que los y las nuevas Campeon(a|e)s puedan llevar adelante sus ideas y proyectos, y contribuir al desarrollo de una comunidad de ciencia abierta más fuerte y diversa en América Latina.
 
 En estos momentos estamos ultimando la selección de Campeonas y Campeones y estaremos anunciandoles próximamente.
