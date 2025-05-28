@@ -5,11 +5,12 @@ author:
   - Yanina Bellini Saibene
 editor:
 - Steffi LaZerte
-date: '2025-04-15'
+date: '2025-07-02'
 tags:
   - community
   - champions program
-description: "Our first cohort of Champions complete the program. In this blog post, we share each champions projects, their achievements and outreach activities."
+  - packages
+description: "Our second cohort of Champions complete the program. In this blog post, we share each champions projects, their achievements and outreach activities."
 params:
   doi: "10.59350/268cb-p0021"
 ---
@@ -22,13 +23,13 @@ In their applications Champions choose to develop a new package or to participat
 
 ### New packages 
 
-- **Andrea Gomez Vargas**, from Argentina, developed the package [arcenso](). to make Argentinian historical census data available, homogenized, and ready to use.  Her mentor is [Luis Verde]() from Mexico. 
+- **Andrea Gomez Vargas**, from Argentina, developed the package [arcenso](https://soyandrea.github.io/arcenso/). to allow access to the official data of the national population censuses in Argentina from the National Institute of Statistics and Census - INDEC and make this historical census data available, homogenized, and ready to use.  Her mentor is [Luis Verde](/author/luis-verde-arregoitia/) from Mexico. You can learn more about the package in [the blog post Andrea wrote about her project and her journey on the program](/blog/2025/05/15/puentes-comunidades-campeones-ropensci/).
 
-- **Francesca Belem Lopes Palmeira**, from Brazil, plans to develop a new package called 'Potential for Conflict Index - PCI', which is a descriptive statistical method used to enhance the understanding of outcomes in human dimensions research. The package will equip users with the tools required for calculating, comparing, and graphing the potential for conflict. Her mentor is Bruna Wundervald from Brazil. 
+- **Francesca Belem Lopes Palmeira**, from Brazil, developed a new package called [pcir: 'Potential for Conflict Index - PCI'](https://fblpalmeira.github.io/pcir/), which is a descriptive statistical method used to enhance the understanding of outcomes in human dimensions research. The package equip users with the tools required for calculating, comparing, and graphing the potential for conflict. Her mentor is [Bruna Wundervald](/author/bruna-wundervald/) from Brazil. 
 
-- **Sunny Tseng**, from Taiwan, developed [bbsTaiwan](), a package to streamline Taiwan BBS data retrieval and analysis. 'bbsTrim' will support data retrieval from GBIF, where Taiwan BBS data is stored. 'bbsTrim' will also include population trend modeling, using TRIM (Trends and Indices for Monitoring data). Users can tailor species analysis, controlling data stratification, preparation, and modeling.
+- **Sunny Tseng**, from Taiwan, now living in Canada, developed [bbsTaiwan](https://sunnytseng.github.io/bbsTaiwan/). This is an R package to streamline Taiwan Breeding Bird Survey (BBS) data retrieval and analysis. bbsTaiwan facilitates data access from GBIF, where Taiwan BBS data are stored. Users can tailor species analysis, controlling data stratification, preparation, and mapping. Sunny's mentor is [Eunseop Kim](/author/eunseop-kim/) from South Korea, now living in the USA.
 
-- **Erika Siregar**, worked on developing rplaywright an R package seamlessly bridging to Playwright, simplifying web testing and automation for R users. Her mentor is Apoor Anand from India. 
+- **Erika Siregar**, from Indonesia, worked on developing [rplaywright](https://erikaris.github.io/rplaywright/) an R package seamlessly bridge with the NodeJS library, Playwright, enabling simplified web testing and automation for R users. This package aims to provide R users with a comprehensive toolkit for interacting with web browsers programmatically, allowing for tasks such as browser automation, web scraping, and end-to-end testing directly from within the R environment. Her mentor is [Apoor Anand](/author/apoorv-anand/) from India. 
 
 - **Jacqui Levy**, from Canada, will develop the ‘icicle’ package to tidy and calculate ice cycle variables from thousands of open-source hydrological stations that are managed by the Water Survey of Canada. This R package will give scientists the tools to assess ice cycle variables and how they might be changing over time for any river station. Her mentor is Jonathan Keane, from the US.
 
