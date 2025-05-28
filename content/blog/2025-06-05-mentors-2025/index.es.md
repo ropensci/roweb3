@@ -30,7 +30,7 @@ Nuestros nuevos mentores provienen de una amplia variedad de disciplinas y son v
 
 ## Carolina Pradier
 
-{{< figure src = "/img/team/carolina-pradier.jpg" width = "250" alt = "Foto de perfil de Carolina Pradier" class = "pull-left" caption = "<strong>Carolina Pradier. </br> Universidad de Montreal - rOpenSci - Ecofemidata</strong>">}}
+{{< figure src = "/img/team/carolina-pradier.jpg" width = "250" alt = "Foto de perfil de Carolina Pradier" class = "pull-left" caption = "<strong>Carolina Pradier. </br> Universidad de Montreal. </br> rOpenSci - Ecofemidata</strong>">}}
 
 ¡Hola! Soy Carolina Pradier y voy a participar como mentora en esta edición del programa de Campeon(e|a)S de rOpenSci.
  
@@ -42,7 +42,7 @@ Me entusiasma muchísimo ser parte del programa de Campeon(e|a)s como mentora. Q
 
 ## Elina Gómez
 
-{{< figure src = "/img/team/elina-gomez.png" width = "250" alt = "Foto de perfil de Elina Gomez" class = "pull-right" caption = "<strong>Elina Gomez. </br> Facultad de Ciencias Sociales, Universidad de la República (Uruguay) - R-Ladies Montevideo - RUG Montevideo</strong>">}}
+{{< figure src = "/img/team/elina-gomez.png" width = "250" alt = "Foto de perfil de Elina Gomez" class = "pull-right" caption = "<strong>Elina Gomez. </br> Universidad de la República. </br> R-Ladies Montevideo - RUG Montevideo</strong>">}}
 
 Soy Elina Gómez Bonaglia, Licenciada en Sociología, Magíster en Estudios Contemporáneos de América Latina y candidata a Doctora en Sociología por la Facultad de Ciencias Sociales de la Udelar, Uruguay. 
 
@@ -55,11 +55,15 @@ Me interesa participar en el programa como mentora y seguir proyectos de diferen
 
 {{< figure src = "/img/team/elio-campitelli.jpg" width = "250" alt = "Foto de perfil de Elio Campitelli" class = "pull-left" caption = "<strong>Elio Campitelli. </br> Monash University - rOpenSci - LatinR</strong>">}}
 
-Soy de Argentina pero el año pasado me mudé a Australia porque es el único otro país que empieza on A y usa el mismo tipo de enchufe. Estoy haciendo un postdoc en la Universidad de Monash investigando interacciones entre el hielo marino de la Antártida y la atmósfera. 
+Soy de Argentina pero el año pasado me mudé a Australia porque es el único otro país que empieza on A y usa el mismo tipo de enchufe. 
+
+Estoy haciendo un postdoc en la Universidad de Monash investigando interacciones entre el hielo marino de la Antártida y la atmósfera. 
 
 Ya fui mentore de una edición anterior del programa. Fue una experiencia genial que quiero repetir. 
 
 ## Francisco Cardozo
+
+{{< figure src = "/img/team/francisco-cardozo.jpg" width = "250" alt = "Foto de perfil de Francisco Cardozo" class = "pull-right" caption = "<strong>Francisco Cardozo</br>Universidad de Miami </br> rOpenSci -The Carpentries</strong>">}}
 
 Me llamo Francisco Cardozo. Actualmente soy estudiante de doctorado en la Universidad de Miami, EE.UU., donde formo parte del programa de Ciencias de la Prevención y Salud Comunitaria.
 
