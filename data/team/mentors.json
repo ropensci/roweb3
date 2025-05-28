@@ -1,7 +1,6 @@
 [
   {
    "name": "Paola Corrales",
-   "url": "https://paocorrales.github.io/",
    "image" : "/img/team/paola-corrales.png",
    "affiliation": "Australian National University & 21st century weather CoE",
    "roles": [
@@ -14,7 +13,6 @@
 {
    "name": "Ronny Alexander Hernandez Mora",
    "affiliation": "University of Alberta",
-   "url": "https://ronnyale.com/",
    "image" : "/img/team/ronny-hernandez.png",
    "roles": [
       "2025-2026"
@@ -24,14 +22,13 @@
 },
   {
    "name": "Carolina Pradier",
-   "affiliation": "",
-   "url": "",
+   "affiliation": "Universidad de Montreal",
    "image" : "/img/team/carolina-pradier-mentee.jpg",
    "roles": [
       "2025-2026"
    ],
    "github": "caropradier",
-   "home": ""
+   "home": "https://cpradier.netlify.app/"
 },
 {
    "name": "Milagros Mendoza",
@@ -46,7 +43,6 @@
   {
    "name": "Elina Gómez",
    "affiliation": "Universidad de la República, Uruguay",
-   "url": "https://www.elinagomez.com/",
    "image" : "/img/team/elina-gomez.png",
    "roles": [
       "2025-2026"
@@ -63,6 +59,16 @@
    ],
    "github": "GeraldineGomez",
    "home": ""
+},
+{
+   "name": "Pablo Tiscornia",
+   "affiliation": "C40 Cities",
+   "image" : "/img/team/geraldine-gomez.png",
+   "roles": [
+      "2025-2026"
+   ],
+   "github": "pablotis",
+   "home": "https://estacion-r.netlify.app/"
 },
 {
    "name": "Bruna Wundervald",
