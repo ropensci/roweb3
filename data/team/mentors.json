@@ -1,4 +1,39 @@
-[{
+[
+  {
+   "name": "Paola Corrales",
+   "url": "https://paocorrales.github.io/",
+   "image" : "/img/team/paola-corrales.png",
+   "affiliation": "Australian National University & 21st century weather CoE",
+   "roles": [
+      "2025-2026"
+   ],
+   "mastodon": "https://fosstodon.org/@paocorrales",
+   "github": "paocorrales",
+   "home": "https://paocorrales.github.io/"
+},
+{
+   "name": "Ronny Alexander Hernandez Mora",
+   "affiliation": "University of Alberta",
+   "url": "https://ronnyale.com/",
+   "image" : "/img/team/ronny-hernandez.png",
+   "roles": [
+      "2025-2026"
+   ],
+   "github": "ronnyhdez",
+   "home": "https://ronnyale.com/"
+},
+  {
+   "name": "",
+   "affiliation": "",
+   "url": "",
+   "image" : "/img/team/",
+   "roles": [
+      "2025-2026"
+   ],
+   "github": "",
+   "home": ""
+},
+{
    "name": "Bruna Wundervald",
    "affiliation": "ABI Inbev, Maynooth University",
    "url": "https://brunaw.com/",
@@ -62,7 +97,8 @@
    "url": "https://focardozom.github.io/",
    "image" : "/img/team/francisco-cardozo.jpg",
    "roles": [
-      "2023-2024"
+      "2023-2024",
+      "2025-2026"
    ],
    "github": "focardozom",
    "home": ""
@@ -74,7 +110,8 @@
    "url": "https://liomys.mx",
    "image" : "/img/team/luis-verde.jpeg",
    "roles": [
-      "2023-2024"
+      "2023-2024",
+      "2025-2026"
    ],
    "github": "luisDVA",
    "home": ""
@@ -156,9 +193,9 @@
    "url": "https://eliocamp.github.io",
    "image" : "/img/team/elio-campitelli.jpg",
    "roles": [
-      "2022-2023"
+      "2022-2023",
+      "2025-2026"
    ],
-   "twitter": "d_olivaw",
    "mastodon": "https://mastodon.social/@eliocamp",
    "github": "eliocamp",
    "home": "https://eliocamp.github.io"
