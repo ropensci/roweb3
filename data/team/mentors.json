@@ -23,6 +23,38 @@
    "home": "https://ronnyale.com/"
 },
   {
+   "name": "Carolina Pradier",
+   "affiliation": "",
+   "url": "",
+   "image" : "/img/team/carolina-pradier-mentee.jpg",
+   "roles": [
+      "2025-2026"
+   ],
+   "github": "caropradier",
+   "home": ""
+},
+{
+   "name": "Milagros Mendoza",
+   "affiliation": "Universidade Federal Rural de Pernambuco. R-Ladies Natal.",
+   "image" : "/img/team/milagros-mendoza.jpeg",
+   "roles": [
+      "2025-2026"
+   ],
+   "github": "lumimevi",
+   "home": ""
+},
+  {
+   "name": "Elina Gómez",
+   "affiliation": "Universidad de la República, Uruguay",
+   "url": "https://www.elinagomez.com/",
+   "image" : "/img/team/elina-gomez.png",
+   "roles": [
+      "2025-2026"
+   ],
+   "github": "elinagomez",
+   "home": "https://www.elinagomez.com/"
+},
+  {
    "name": "",
    "affiliation": "",
    "url": "",
