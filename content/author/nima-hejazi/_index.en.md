@@ -1,9 +1,7 @@
 ---
 name: Nima Hejazi
-link: website URL or other online presence
-mastodon: Mastodon full URL to profile
-github: GitHub username
-gitlab: GitLab username
-orcid: ORCID ID
-img: /img/community/nima-hejazi.png 
+link: https://nimahejazi.org
+bluesky: @nshejazi.bsky.social
+github: nhejazi
+orcid: 0000-0002-7127-2789
 ---
