@@ -30,8 +30,10 @@ Nuestros nuevos mentores provienen de una amplia variedad de disciplinas y son v
 
 ## Carolina Pradier
 
-¡Hola! Soy Carolina Pradier y voy a participar como mentora en esta edición del programa de Campeon(e|a)S de rOpenSci.
+{{< figure src = "/img/team/carolina-pradier.jpg" width = "300" alt = "Foto de perfil de Carolina Pradier" class = "pull-left" caption = "<strong>Carolina Pradier - Universidad de Montreal - rOpenSci - Ecofemidata</strong>">}}
 
+¡Hola! Soy Carolina Pradier y voy a participar como mentora en esta edición del programa de Campeon(e|a)S de rOpenSci.
+ 
 Soy argentina, licenciada en Economía por la Universidad de Buenos Aires y también tengo una Maestría en Ciencias Sociales del Trabajo por la misma universidad. Actualmente vivo en Canadá, donde estoy haciendo un doctorado en Ciencias de la Información. Mi tesis doctoral se centra en el estudio de las inequidades en el ámbito científico en América Latina.
 
 Dentro de la comunidad de rOpenSci, soy maintainer del [paquete eph](), una herramienta diseñada para facilitar el análisis de la Encuesta Permanente de Hogares de Argentina. Participé como alumna en una cohorte anterior del Programa de Campeon(e|a)S de rOpenSci, donde mi paquete [atravesó el proceso de revisión de pares de rOpenSci]().
@@ -77,7 +79,11 @@ Fue mentor durante la cohorte 2023-2024 y estoy feliz de participar nuevamente e
 
 ## Milagros Mendoza
 
-Mi nombre es Milagros Mendoza. Feliz en poder contribuir en la comunidad de ciencia abierta. 
+Mi nombre es Milagros Mendoza. Soy peruana de nacimiento, pero actualmente resido en Brasil donde trabajo en la Universidade Federal Rural de Pernambuco (UFRPE). Tambien soy parte de R-Ladies Natal.
+
+Me interesa paticipar del programa de Campeon(e|a)s para compartir conocimientos y experiencia con otras personas de la comunidad rOpenSci y promover la ciencia de datos abierta  y contribuir a la creación de herramientas y recursos de código abierto. Al ser mentora, también podre desarrollar habilidades de liderazgo y comunicación, y aprender a trabajar con otras personas para lograr objetivos comunes.
+
+Estoy feliz en poder contribuir en la comunidad de ciencia abierta. 
 
 ## Pablo Tiscornia
 
@@ -91,7 +97,7 @@ Del programa espero aprender del amplio conocimiento y la experiencia de mis col
 
 Soy Doctora en Ciencias de la Atmósfera de Universidad de Buenos Aires, Argentina y ahora en Australia trabajo para el 21st Century Weather Centre como Ingeniera de Software para Investigacion. 
 
-Participo activiamente en R-Ladies, R Forwards, The Carpentries, LatinR y rOpenSci aprendiendo y compartiendo sobre R en comunidad. En 2023 participe en el programa de campeones presentando el paquete agroclimatico al proceso de revision por pares, aprendí muchisimo y conecté con personas de todo el mundo, fue una excelente experiencia!
+Participo activiamente en [R-Ladies](), [R Forwards](), [The Carpentries](), [LatinR]() y [rOpenSci]() aprendiendo y compartiendo sobre R en comunidad. En 2023 participe en el programa de campeones presentando el paquete [agroclimatico]() al [proceso de revision por pares](), aprendí muchisimo y conecté con personas de todo el mundo, fue una excelente experiencia!
 
 Me apasiona enseñar y ayudar a otras personas a que puedan crecer en lo que hacen, acceder a nuevas oportunidades y desarrollarse profecionalmente y como
 personas. Estoy muy contenta de participar este año como mentora en el programa de campeonas y campeones de Latinoamerica.
