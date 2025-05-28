@@ -73,6 +73,8 @@ Estoy profundamente comprometido con el fortalecimiento de las capacidades técn
 
 ## Geraldine Gómez Millán
 
+{{< figure src = "/img/team/geraldine-gomez.png" width = "250" alt = "Foto de perfil de Geraldine Gómez Millán" class = "pull-right" caption = "<strong>Geraldine Gómez Millán</br>IBM</br>Epiverse TRACE-LAC</strong>">}}
+
 Mi nombre es Geraldine Gómez Millán, soy de Colombia, Ingeniera de Sistemas y actualmente curso una maestría en Ingeniería de Software. He participado en diversos proyectos sociales, liderando el desarrollo de paquetes y software en R con enfoque en epidemiología y análisis regional. He realizado entrenamientos en R y en buenas prácticas de programación.
 
 Cuento con experiencia en análisis de datos, arquitectura de software, metodologías de desarrollo, seguridad, DevOps, Cloud e inteligencia artificial. Actualmente, lidero un equipo de seguridad de la información y me desempeño como mentora en el Champions Program.
@@ -80,6 +82,8 @@ Cuento con experiencia en análisis de datos, arquitectura de software, metodolo
 Creo firmemente que el conocimiento que no se comparte, no existe. Compartir saberes, construir de manera colectiva y generar oportunidades a través del aprendizaje y la democratización de la tecnología son factores claves para transformar la sociedad. Espero poder aportar mi experiencia y conocimiento socio-técnico desde una perspectiva ética e innovadora, como también deseo poder ampliar y conocer otras formas de pensamiento y enfoques para la resolución de problemas.
 
 ## Luis D. Verde Arregoitia
+
+{{< figure src = "/img/team/luis-verde.jpeg" width = "250" alt = "Foto de perfil de Luis D. Verde Arregoitia" class = "pull-right" caption = "<strong>Luis D. Verde Arregoitia</br>Instituto de Ecología AC - INECOL.</br>LatinR, rOpenSci, The Carpentires</strong>">}}
 
 Hola, soy Luis D. Verde Arregoitia, mexicano viviendo en México. Soy mastozoólogo con formación en Biología. Soy licenciado en Biología por la Universidad Nacional Autónoma de México y doctor en Ciencias de la Conservación por la Universidad de Queensland, Australia.
 
@@ -89,6 +93,8 @@ Fue mentor durante la cohorte 2023-2024 y estoy feliz de participar nuevamente e
 
 ## Milagros Mendoza
 
+{{< figure src = "/img/team/milagros-mendoza.jpeg" width = "250" alt = "Foto de perfil de Milagros Mendoza" class = "pull-right" caption = "<strong>Milagros Mendoza</br>Universidade Federal Rural de Pernambuco (UFRPE)</br>R-Ladies Natal</strong>">}}
+
 Mi nombre es Milagros Mendoza. Soy peruana de nacimiento, pero actualmente resido en Brasil donde trabajo en la Universidade Federal Rural de Pernambuco (UFRPE). Tambien soy parte de R-Ladies Natal.
 
 Me interesa paticipar del programa de Campeon(e|a)s para compartir conocimientos y experiencia con otras personas de la comunidad rOpenSci y promover la ciencia de datos abierta  y contribuir a la creación de herramientas y recursos de código abierto. Al ser mentora, también podre desarrollar habilidades de liderazgo y comunicación, y aprender a trabajar con otras personas para lograr objetivos comunes.
@@ -96,6 +102,8 @@ Me interesa paticipar del programa de Campeon(e|a)s para compartir conocimientos
 Estoy feliz en poder contribuir en la comunidad de ciencia abierta. 
 
 ## Pablo Tiscornia
+
+{{< figure src = "/img/team/milagros-mendoza.jpeg" width = "250" alt = "Foto de perfil de Milagros Mendoza" class = "pull-right" caption = "<strong>Milagros Mendoza</br>Universidade Federal Rural de Pernambuco (UFRPE)</br>R-Ladies Natal</strong>">}}
 
 Soy Pablo Tiscornia, Licenciado en Sociología, nacido en Argentina y actualmente viviendo en México. Trabajo como científico de datos en C40 Cities, una organización global que impulsa acciones climáticas urbanas, y dirijo Estación R, una escuela especializada en formación sobre R y análisis de datos en América Latina.
 
@@ -120,6 +128,7 @@ Anteriormente trabajé en industria desarrollando soluciones de datos para difer
 
 Mi entrada al mundo de R y la programación fue posible gracias a personas que estuvieron dispuestas a enseñarme,por lo que participar en este programa es una manera de devolver y aportar a la comunidad.
 
+## Lo que viene
 
 Estamos muy contentos y agradecidos de contar con este equipo diverso y talentoso de mentores y mentoras, que encarna los valores de colaboración, apertura y compromiso con el crecimiento colectivo. Su acompañamiento será clave para que los y las nuevas Campeon(a|e)s puedan llevar adelante sus ideas y proyectos, y contribuir al desarrollo de una comunidad de ciencia abierta más fuerte y diversa en América Latina.
 
