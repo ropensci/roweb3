@@ -1,0 +1,65 @@
+---
+slug: editors2025
+title: 'Announcing New Stats Software Peer Review Editors: Emi Tanaka and Nima Hejazi'
+author:
+    - Mark Padgham
+    - Emi Tanaka
+    - Nima Hejazi
+    - Yanina Bellini Saibene
+date: '2025-06-12'
+tags:
+  - Software Peer Review
+  - editors
+  - rOpenSci team
+featured: false
+description: Introducing two new editors for rOpenSci stats software review
+params:
+  doi: "10.59350/nywk2-h09"
+---
+We are excited to welcome Emi Tanaka and Nima Hejazi to our team of [Associate Editors](/software-review/#editors) for rOpenSci [Stats Software Peer Review](/software-review/).
+They join Laura DeCicco, Julia Gustavsen, Anna Krystalli, Mauro Lepore, Noam Ross, Maëlle Salmon, Emily Riederer, Adam Sparks, Beatriz Milz, Margaret Siple and Jeff Hollister.
+Since 2015, rOpenSci has operated a thorough and collaborative software peer review system.
+Our [editorial team](https://devguide.ropensci.org/editorguide.html) oversees the entire review process — conducting initial checks, selecting reviewers, and guiding the review until the package is approved for inclusion in rOpenSci’s [software suite](https://ropensci.org/packages/).
+Given the wide range and number of packages we receive, having a team of editors with diverse and complementary expertise is essential.
+Emi brings her experiences in , while Nima brings  expertise in .
+
+Meet our new editors!
+
+## Emi Tanaka
+
+{{< imgtxt src = "/img/team/emi-tanaka.jpg" width = "200" alt = "headshot of Emi Tanaka">}}
+
+
+{{< /imgtxt >}}
+
+Emi on [GitHub](), [Website](), [rOpenSci](/author/emi-tanaka/).
+
+{{< quote footer="Emi Tanaka" >}}
+
+{{< /quote >}}
+
+
+## Nima Hejazi
+
+{{< imgtxt src = "/img/team/nima-hejazi.jpg" width = "200" alt = "headshot of Nima Hejazi" >}}
+
+
+
+{{< /imgtxt >}}
+
+Nima on [GitHub](), [website](), [rOpenSci](/author/).
+
+{{< quote footer="Nima Hejazi" >}}
+
+{{< /quote >}}
+
+## Submit your package!
+
+Are you considering submitting your package for review? These resources will help.
+
+- About [rOpenSci Software Peer Review](/software-review/);
+- Browse the online book [rOpenSci Packages: Development, Maintenance, and Peer Review](https://devguide.ropensci.org/);
+- Read public [software review threads on GitHub](https://github.com/ropensci/software-review/issues)
+## Sign up to review
+
+You can also participate in the software peer review process as a reviewer. Consider [volunteering by filling out this form](https://airtable.com/app8dssb6a7PG6Vwj/shrnfDI2S9uuyxtDw).  The information we request will help match you with suitable package submissions. 
