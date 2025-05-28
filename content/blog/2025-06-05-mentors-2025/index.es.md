@@ -19,7 +19,7 @@ tags:
   - mentoria
   - comunidad
 
-description: Conocé al nuevo equipo de mentor(a|e)s del programa de rOpenSci. Personas de América Latina dedicados a la investigación y el desarrollo de software de investigación comprometidas con la ciencia abierta. Durante un año van a acompañar a nuestros campeon(a|e)s en sus proyectos, compartiendo experiencia, guía y entusiasmo.
+description: Conocé al nuevo equipo de mentor(a|e)s del [programa de rOpenSci. Personas de América Latina](https://champions-program.ropensci.org) dedicados a la investigación y el desarrollo de software de investigación comprometidas con la ciencia abierta. Durante un año van a acompañar a nuestros campeon(a|e)s en sus proyectos, compartiendo experiencia, guía y entusiasmo.
 editor:
   - Steffi LaZerte
 ---
