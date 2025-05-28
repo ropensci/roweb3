@@ -30,7 +30,7 @@ Nuestros nuevos mentores provienen de una amplia variedad de disciplinas y son v
 
 ## Carolina Pradier
 
-{{< figure src = "/img/team/carolina-pradier.jpg" width = "300" alt = "Foto de perfil de Carolina Pradier" class = "pull-left" caption = "<strong>Carolina Pradier - Universidad de Montreal - rOpenSci - Ecofemidata</strong>">}}
+{{< figure src = "/img/team/carolina-pradier.jpg" width = "300" alt = "Foto de perfil de Carolina Pradier" class = "pull-left" caption = "<strong>Carolina Pradier - </br> Universidad de Montreal - rOpenSci - Ecofemidata</strong>">}}
 
 ¡Hola! Soy Carolina Pradier y voy a participar como mentora en esta edición del programa de Campeon(e|a)S de rOpenSci.
  
