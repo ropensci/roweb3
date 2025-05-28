@@ -55,14 +55,13 @@
    "home": "https://www.elinagomez.com/"
 },
   {
-   "name": "",
-   "affiliation": "",
-   "url": "",
-   "image" : "/img/team/",
+   "name": "Geraldine Gómez Millán",
+   "affiliation": "IBM - Epiverse TRACE-LAC",
+   "image" : "/img/team/geraldine-gomez.png",
    "roles": [
       "2025-2026"
    ],
-   "github": "",
+   "github": "GeraldineGomez",
    "home": ""
 },
 {
