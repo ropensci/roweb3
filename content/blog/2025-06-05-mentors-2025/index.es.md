@@ -103,7 +103,7 @@ Estoy feliz en poder contribuir en la comunidad de ciencia abierta.
 
 ## Pablo Tiscornia
 
-{{< figure src = "/img/team/milagros-mendoza.jpeg" width = "250" alt = "Foto de perfil de Milagros Mendoza" class = "pull-right" caption = "<strong>Milagros Mendoza</br>Universidade Federal Rural de Pernambuco (UFRPE)</br>R-Ladies Natal</strong>">}}
+{{< figure src = "/img/team/pablo-tiscornia.jpeg" width = "250" alt = "Foto de perfil de Pablo Tiscornia" class = "pull-right" caption = "<strong>Pablo Tiscornia</br>C40 Cities</strong>">}}
 
 Soy Pablo Tiscornia, Licenciado en Sociología, nacido en Argentina y actualmente viviendo en México. Trabajo como científico de datos en C40 Cities, una organización global que impulsa acciones climáticas urbanas, y dirijo Estación R, una escuela especializada en formación sobre R y análisis de datos en América Latina.
 
@@ -113,9 +113,11 @@ Del programa espero aprender del amplio conocimiento y la experiencia de mis col
 
 ## Pao Corrales
 
+{{< figure src = "/img/team/paola-corrales.png" width = "250" alt = "Foto de perfil de Pao Corrales" class = "pull-right" caption = "<strong>Pao Corrales</br>Australian National University & 21st century weather CoE </br> R-Ladies, LatinR, rOpenSci, The Carpentries, RForwards </strong>">}}
+
 Soy Doctora en Ciencias de la Atmósfera de Universidad de Buenos Aires, Argentina y ahora en Australia trabajo para el 21st Century Weather Centre como Ingeniera de Software para Investigacion. 
 
-Participo activiamente en [R-Ladies](), [R Forwards](), [The Carpentries](), [LatinR]() y [rOpenSci]() aprendiendo y compartiendo sobre R en comunidad. En 2023 participe en el programa de campeones presentando el paquete [agroclimatico]() al [proceso de revision por pares](), aprendí muchisimo y conecté con personas de todo el mundo, fue una excelente experiencia!
+Participo activiamente en [R-Ladies](https://rladies.org), [R Forwards](https://forwards.github.io), [The Carpentries](https://carpentries.org), [LatinR](https://latinr.org) y [rOpenSci](https://ropensci.org) aprendiendo y compartiendo sobre R en comunidad. En 2023 participe en el programa de campeones presentando el paquete [agroclimatico](https://docs.ropensci.org/agroclimatico/) al [proceso de revision por pares](https://github.com/ropensci/software-review/issues/599), aprendí muchisimo y conecté con personas de todo el mundo, fue una excelente experiencia!
 
 Me apasiona enseñar y ayudar a otras personas a que puedan crecer en lo que hacen, acceder a nuevas oportunidades y desarrollarse profecionalmente y como
 personas. Estoy muy contenta de participar este año como mentora en el programa de campeonas y campeones de Latinoamerica.
