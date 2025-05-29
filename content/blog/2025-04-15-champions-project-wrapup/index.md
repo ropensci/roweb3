@@ -31,8 +31,6 @@ In their applications Champions choose to develop a new package or to participat
 
 - **Erika Siregar**, from Indonesia, worked on developing [rplaywright](https://erikaris.github.io/rplaywright/) an R package seamlessly bridge with the NodeJS library, Playwright, enabling simplified web testing and automation for R users. This package aims to provide R users with a comprehensive toolkit for interacting with web browsers programmatically, allowing for tasks such as browser automation, web scraping, and end-to-end testing directly from within the R environment. Her mentor is [Apoor Anand](/author/apoorv-anand/) from India. 
 
-- **Jacqui Levy**, from Canada, willdevelop the ‘icicle’ package to tidy and calculate ice cycle variables from thousands of open-source hydrological stations that are managed by the Water Survey of Canada. This R package will give scientists the tools to assess ice cycle variables and how they might be changing over time for any river station. Her mentor is Jonathan Keane, from the US.
-
 
 ### Improving and reviewing existing packages
 
@@ -42,13 +40,13 @@ In their applications Champions choose to develop a new package or to participat
 
 - **Sehrish Kanwal**, from Australia, worked to improve the [RNAsum R package](https://github.com/umccr/RNAsum), an RNA-seq reporting workflow designed to post-process, summarise, and visualize outputs. Sehrish worked on the package and a paper about it. [The package website](https://umccr.github.io/RNAsum/) present more information on the packages functionalities. Her mentor was [Emi Tanaka](/author/emi-tanaka/) from Australia. 
 
-   
+- **Jacqui Levy**, from Canada, worked on the [icicle package](https://github.com/Jacqui-123/icicle) to tidy and calculate ice cycle variables from thousands of open-source hydrological stations that are managed by the Water Survey of Canada. This R package will give scientists the tools to assess ice cycle variables and how they might be changing over time for any river station. Her mentor is [Jonathan Keane](/author/jonathan-keane/), from the US.
 
 ## Outreach Activities
 
 Our Champions carried out a wide range of outreach activities like talks, conference papers, workshops, blog articles, community calls and meetups. The objective of these activities was to share what they did and learned during the program with their communities beyond rOpenSci.  
 
-Outreach activities started in August 2024 involving local communities (universities, RUGs, R-Ladies Chapters, conferences, and organizations) and delivered in Champions’ native language (English, Spanish, and Portuguese).
+Outreach activities started in August 2024 involving local communities (universities, RUGs, R-Ladies Chapters, conferences, and organizations) and delivered in Champions’ native language (English, Spanish, Portuguese and Chinese).
 
 Members of this cohort worked together with champions from the first cohort to do theirs outreach activities and also introduce their cohort mates to other communities and organizations giving them space to share what they did during the champions program.
 
