@@ -93,7 +93,7 @@ Creo firmemente que el conocimiento que no se comparte, no existe. Compartir sab
 
 Hola, soy Luis D. Verde Arregoitia, mexicano viviendo en México. Soy mastozoólogo con formación en Biología. Soy licenciado en Biología por la Universidad Nacional Autónoma de México y doctor en Ciencias de la Conservación por la Universidad de Queensland, Australia.
 
-Actualmente son un técnico académico, especializado en Ciencia de Datos aplicada a Biodiversidad. Soy investigador postdoctoral en macroecología evolutiva. Además de mi investigación, paso mi tiempo escribiendo herramientas, blogs y materiales de enseñanza para ayudar a otros a trabajar con datos desordenados y hojas de cálculo  y mejorar sus scripts de R para la reproducibilidad.  Tambien realizo enseñanza práctica de R. 
+Actualmente son un técnico académico, especializado en Ciencia de Datos aplicada a Biodiversidad.  Además paso mi tiempo escribiendo herramientas, blogs y materiales de enseñanza para ayudar a otros a trabajar con datos desordenados y hojas de cálculo  y mejorar sus scripts de R para la reproducibilidad.  Tambien realizo enseñanza práctica de R. 
 
 Fue mentor durante la cohorte 2023-2024 y estoy feliz de participar nuevamente en esta edicion.
 
