@@ -1,4 +1,76 @@
-[{
+[
+  {
+   "name": "Paola Corrales",
+   "image" : "/img/team/paola-corrales.png",
+   "affiliation": "Australian National University & 21st century weather CoE",
+   "roles": [
+      "2025-2026"
+   ],
+   "mastodon": "https://fosstodon.org/@paocorrales",
+   "github": "paocorrales",
+   "home": "https://paocorrales.github.io/"
+},
+{
+   "name": "Ronny Alexander Hernandez Mora",
+   "affiliation": "University of Alberta",
+   "image" : "/img/team/ronny-hernandez.png",
+   "roles": [
+      "2025-2026"
+   ],
+   "github": "ronnyhdez",
+   "home": "https://ronnyale.com/"
+},
+  {
+   "name": "Carolina Pradier",
+   "affiliation": "Universidad de Montreal",
+   "image" : "/img/team/carolina-pradier.jpg",
+   "roles": [
+      "2025-2026"
+   ],
+   "github": "caropradier",
+   "home": "https://cpradier.netlify.app/"
+},
+{
+   "name": "Milagros Mendoza",
+   "affiliation": "Universidade Federal Rural de Pernambuco. R-Ladies Natal.",
+   "image" : "/img/team/milagros-mendoza.jpeg",
+   "roles": [
+      "2025-2026"
+   ],
+   "github": "lumimevi",
+   "home": ""
+},
+  {
+   "name": "Elina Gómez",
+   "affiliation": "Universidad de la República, Uruguay",
+   "image" : "/img/team/elina-gomez.png",
+   "roles": [
+      "2025-2026"
+   ],
+   "github": "elinagomez",
+   "home": "https://www.elinagomez.com/"
+},
+  {
+   "name": "Geraldine Gómez Millán",
+   "affiliation": "IBM - Epiverse TRACE-LAC",
+   "image" : "/img/team/geraldine-gomez.png",
+   "roles": [
+      "2025-2026"
+   ],
+   "github": "GeraldineGomez",
+   "home": ""
+},
+{
+   "name": "Pablo Tiscornia",
+   "affiliation": "C40 Cities",
+   "image" : "/img/team/pablo-tiscornia.jpeg",
+   "roles": [
+      "2025-2026"
+   ],
+   "github": "pablotis",
+   "home": "https://estacion-r.netlify.app/"
+},
+{
    "name": "Bruna Wundervald",
    "affiliation": "ABI Inbev, Maynooth University",
    "url": "https://brunaw.com/",
@@ -62,7 +134,8 @@
    "url": "https://focardozom.github.io/",
    "image" : "/img/team/francisco-cardozo.jpg",
    "roles": [
-      "2023-2024"
+      "2023-2024",
+      "2025-2026"
    ],
    "github": "focardozom",
    "home": ""
@@ -74,7 +147,8 @@
    "url": "https://liomys.mx",
    "image" : "/img/team/luis-verde.jpeg",
    "roles": [
-      "2023-2024"
+      "2023-2024",
+      "2025-2026"
    ],
    "github": "luisDVA",
    "home": ""
@@ -156,9 +230,9 @@
    "url": "https://eliocamp.github.io",
    "image" : "/img/team/elio-campitelli.jpg",
    "roles": [
-      "2022-2023"
+      "2022-2023",
+      "2025-2026"
    ],
-   "twitter": "d_olivaw",
    "mastodon": "https://mastodon.social/@eliocamp",
    "github": "eliocamp",
    "home": "https://eliocamp.github.io"
