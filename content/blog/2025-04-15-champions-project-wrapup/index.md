@@ -31,7 +31,7 @@ In their applications Champions choose to develop a new package or to participat
 
 - **Erika Siregar**, from Indonesia, worked on developing [rplaywright](https://erikaris.github.io/rplaywright/) an R package seamlessly bridge with the NodeJS library, Playwright, enabling simplified web testing and automation for R users. This package aims to provide R users with a comprehensive toolkit for interacting with web browsers programmatically, allowing for tasks such as browser automation, web scraping, and end-to-end testing directly from within the R environment. Her mentor is [Apoor Anand](/author/apoorv-anand/) from India. 
 
-- **Jacqui Levy**, from Canada, will develop the ‘icicle’ package to tidy and calculate ice cycle variables from thousands of open-source hydrological stations that are managed by the Water Survey of Canada. This R package will give scientists the tools to assess ice cycle variables and how they might be changing over time for any river station. Her mentor is Jonathan Keane, from the US.
+- **Jacqui Levy**, from Canada, willdevelop the ‘icicle’ package to tidy and calculate ice cycle variables from thousands of open-source hydrological stations that are managed by the Water Survey of Canada. This R package will give scientists the tools to assess ice cycle variables and how they might be changing over time for any river station. Her mentor is Jonathan Keane, from the US.
 
 
 ### Improving and reviewing existing packages
