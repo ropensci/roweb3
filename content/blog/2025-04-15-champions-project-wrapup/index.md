@@ -21,6 +21,8 @@ Our second cohort of the [rOpenSci Champions Program](/champions/) has now compl
 
 In their applications Champions choose to develop a new package or to participate in the review process as authors or reviewers.
 
+{{< figure src = "proyectos.png" alt = "Logos of all the packages developed or improved during the champions program 2023-2024" >}}
+
 ### New packages 
 
 - **Andrea Gomez Vargas**, from Argentina, developed the package [arcenso](https://soyandrea.github.io/arcenso/). to allow access to the official data of the national population censuses in Argentina from the National Institute of Statistics and Census - INDEC and make this historical census data available, homogenized, and ready to use.  Her mentor is [Luis Verde](/author/luis-verde-arregoitia/) from Mexico. You can learn more about the package in [the blog post Andrea wrote about her project and her journey on the program](/blog/2025/05/15/puentes-comunidades-campeones-ropensci/).
