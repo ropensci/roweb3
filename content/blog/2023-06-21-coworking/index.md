@@ -11,6 +11,7 @@ tags:
   - coworking
   - events
 description: "Discover how rOpenSci coworking sessions have evolved to include themes and community hosts, while still providing a place of community to work and chat!"
+photogallery: true
 params:
   doi: "10.59350/ktyc2-er732"
 ---
