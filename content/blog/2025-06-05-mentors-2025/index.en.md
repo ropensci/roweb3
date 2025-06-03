@@ -128,18 +128,16 @@ I am passionate about teaching and helping other people to grow in what they do,
 
 ## Ronny Hernandez Mora
 
-{{< figure src = "/img/team/ronny-hernandez.png" width = "250" alt = "Foto de perfil de Ronny Hernandez Mora" class = "pull-right" caption = "<strong>Ronny Hernandez Mora</br>University of Alberta</strong>">}}
+{{< figure src = "/img/team/ronny-hernandez.png" width = "250" alt = "Profile picture of Ronny Hernandez Mora" class = "pull-right" caption = "<strong>Ronny Hernandez Mora</br>University of Alberta</strong>">}}
 
 I am Ronny A. Hernandez Mora, a PhD student in the Department of Civil and Environmental Engineering at the University of Alberta, Canada. My research focuses on the development of computer vision and reinforcement learning tools applied to first responder drones.
 
 Previously I worked in industry developing data solutions for different companies in Latin America and the United States. My experience includes model development, process automation, API creation, and application development and implementation.
 
-My entry into the world of R and programming was possible thanks to people who were willing to teach me, so participating in this program is a way to give back and contribute to the community.
+My entry into the world of R and programming was possible thanks to people who were willing to teach me, so participating in this Program is a way to give back and contribute to the community.
 
 ## What's next
 
-We are happy to have this diverse and talented team of mentors, who embody the values of collaboration, openness and commitment to collective growth. Their support will be key for the new Champion(a|e)s to move forward with their ideas and projects, and contribute to the development of a stronger and more diverse open science community in Latin America.
+We are happy to have this diverse and talented team of mentors, who embody the values of collaboration, openness and commitment to collective growth. Their support will be key for the new Champions to move forward with their ideas and projects, and contribute to the development of a stronger and more diverse Open Science Community in Latin America.
 
-We are currently finalizing the selection of the Champions and will be announcing them soon.
-
-
+We are currently finalizing the selection of the Champions and will be announcing them soon!
