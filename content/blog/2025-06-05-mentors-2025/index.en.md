@@ -31,27 +31,27 @@ Our new mentors come from a wide variety of disciplines and are active voices wi
 
 {{< figure src = "/img/team/carolina-pradier.jpg" width = "250" alt = "Profile picture of Carolina Pradier" class = "pull-left" caption = "<strong>Carolina Pradier. </br> Universidad de Montreal. </br> rOpenSci - Ecofemidata</strong>">}}
 
-Hi, I'm Carolina Pradier and I will be participating as a mentor in this edition of rOpenSci's Campeon(e|a)S program.
+Hi, I'm Carolina Pradier and I will be participating as a mentor in this edition of rOpenSci Champions Program.
 
 I am from Argentina, I have a degree in Economics from the University of Buenos Aires and I also have a Master's degree in Social Sciences of Work from the same university. I am currently living in Canada, where I am doing a PhD in Information Sciences. My doctoral thesis focuses on the study of inequalities in the scientific field in Latin America.
 
-Within the rOpenSci community, I am a maintainer of the [eph package](https://docs.ropensci.org/eph/) package, a tool designed to facilitate the analysis of the Permanent Household Survey of Argentina. I participated as a student in a previous cohort of rOpenSci's Champion(e|a)S Program, where my package [went through the rOpenSci peer review process.](https://github.com/ropensci/software-review/issues/593).
+Within the rOpenSci community, I am a maintainer of the [eph package](https://docs.ropensci.org/eph/), a tool designed to facilitate the analysis of the Permanent Household Survey of Argentina. I participated as a student in a previous cohort of rOpenSci Champions Program, where my package [went through the rOpenSci peer review process.](https://github.com/ropensci/software-review/issues/593).
 
-I am very excited to be part of the Campeon(e|a)s program as a mentor. I want to be able to pass on my experience in R package development to those who are taking their first steps in this community. But I also want to learn from other people, from their journeys, their motivations and their projects. I am convinced that opening spaces for exchange and mutual support is fundamental to continue building a diverse, inclusive and supportive community.
+I am very excited to be part of the Program as a mentor. I want to be able to pass on my experience in R package development to those who are taking their first steps in this community. But I also want to learn from other people, from their journeys, their motivations and their projects. I am convinced that opening spaces for exchange and mutual support is fundamental to continue building a diverse, inclusive and supportive community.
 
 ## Elina Gómez
 
-{{< figure src = "/img/team/elina-gomez.png" width = "250" alt = "Foto de perfil de Elina Gomez" class = "pull-right" caption = "<strong>Elina Gomez. </br> Universidad de la República. </br> R-Ladies Montevideo - RUG Montevideo</strong>">}}
+{{< figure src = "/img/team/elina-gomez.png" width = "250" alt = "Profile picture of Elina Gomez" class = "pull-right" caption = "<strong>Elina Gomez. </br> Universidad de la República. </br> R-Ladies Montevideo - RUG Montevideo</strong>">}}
 
 I am Elina Gómez Bonaglia, BA in Sociology, MA in Contemporary Latin American Studies and PhD candidate in Sociology at the Faculty of Social Sciences of Udelar, Uruguay.
 
-I am a teacher and researcher at the Methods and Data Access Unit (UMAD) of the Faculty of Social Sciences (Udelar, Uruguay). I am dedicated to applied social research and its intersection with data science, specifically in the areas of public policy and massive text analysis. I have also been teaching basic and advanced R courses for more than ten years.
+I am a teacher and researcher at the Methods and Data Access Unit (UMAD) of the Faculty of Social Sciences (Udelar). I am dedicated to applied social research and its intersection with data science, specifically in the areas of public policy and massive text analysis. I have also been teaching basic and advanced R courses for more than ten years.
 
-I am interested in participating in the program as a mentor and in following projects of different types, even in other research fields to which I am accustomed.
+I am interested in participating in the Champions Program as a mentor and in following projects of different types, even in other research fields to which I am accustomed.
 
 ## Elio Campitelli
 
-{{< figure src = "/img/team/elio-campitelli.jpg" width = "250" alt = "Foto de perfil de Elio Campitelli" class = "pull-left" caption = "<strong>Elio Campitelli. </br> Monash University - rOpenSci - LatinR</strong>">}}
+{{< figure src = "/img/team/elio-campitelli.jpg" width = "250" alt = "Profile picture of Elio Campitelli" class = "pull-left" caption = "<strong>Elio Campitelli. </br> Monash University - rOpenSci - LatinR</strong>">}}
 
 I am from Argentina but last year I moved to Australia because it is the only other country that starts on A and uses the same type of plug.
 
@@ -61,13 +61,14 @@ I was a mentor in a previous edition of the program. It was a great experience t
 
 </br>
 </br>
-</br> </br>
+</br> 
+</br>
 </br>
 </br>
 
 ## Francisco Cardozo
 
-{{< figure src = "/img/team/francisco-cardozo.jpg" width = "250" alt = "Foto de perfil de Francisco Cardozo" class = "pull-right" caption = "<strong>Francisco Cardozo</br>Universidad de Miami </br> rOpenSci -The Carpentries</strong>">}}
+{{< figure src = "/img/team/francisco-cardozo.jpg" width = "250" alt = "Profile picture of Francisco Cardozo" class = "pull-right" caption = "<strong>Francisco Cardozo</br>Universidad de Miami </br> rOpenSci -The Carpentries</strong>">}}
 
 My name is Francisco Cardozo. I am currently a doctoral student at the University of Miami, USA, where I am part of the Prevention Sciences and Community Health program.
 
@@ -77,13 +78,13 @@ I am deeply committed to strengthening technical capabilities within communities
 
 ## Geraldine Gómez Millán
 
-{{< figure src = "/img/team/geraldine-gomez.png" width = "250" alt = "Foto de perfil de Geraldine Gómez Millán" class = "pull-left" caption = "<strong>Geraldine Gómez Millán</br>IBM</br>Epiverse TRACE-LAC</strong>">}}
+{{< figure src = "/img/team/geraldine-gomez.png" width = "250" alt = "Profile picture of Geraldine Gómez Millán" class = "pull-left" caption = "<strong>Geraldine Gómez Millán</br>IBM</br>Epiverse TRACE-LAC</strong>">}}
 
 My name is Geraldine Gómez Millán, I am from Colombia, I am a Systems Engineer and I am currently pursuing a master's degree in Software Engineering. I have participated in several social projects, leading the development of packages and software in R with focus on epidemiology and regional analysis. I have done trainings in R and good programming practices.
 
 I have experience in data analysis, software architecture, development methodologies, security, DevOps, Cloud and artificial intelligence. Currently, I lead an information security team and serve as a mentor in the Champions Program.
 
-I firmly believe that knowledge that is not shared, does not exist. Sharing knowledge, building collectively and generating opportunities through learning and democratization of technology are key factors to transform society. I hope to contribute my experience and socio-technical knowledge from an ethical and innovative perspective, as well as to expand and learn about other ways of thinking and approaches to problem solving.
+I firmly believe that knowledge that is not shared, does not exist. Sharing knowledge, building collectively and create opportunities through learning and democratization of technology are key factors to transform society. I hope to contribute my experience and socio-technical knowledge from an ethical and innovative perspective, as well as to expand and learn about other ways of thinking and approaches to problem solving.
 
 ## Luis D. Verde Arregoitia
 
