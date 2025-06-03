@@ -88,7 +88,7 @@ I firmly believe that knowledge that is not shared, does not exist. Sharing know
 
 ## Luis D. Verde Arregoitia
 
-{{< figure src = "/img/team/luis-verde.jpeg" width = "250" alt = "Foto de perfil de Luis D. Verde Arregoitia" class = "pull-right" caption = "<strong>Luis D. Verde Arregoitia</br>Instituto de Ecología AC - INECOL.</br>LatinR, rOpenSci, The Carpentires</strong>">}}
+{{< figure src = "/img/team/luis-verde.jpeg" width = "250" alt = "Profile picture of Luis D. Verde Arregoitia" class = "pull-right" caption = "<strong>Luis D. Verde Arregoitia</br>Instituto de Ecología AC - INECOL.</br>LatinR, rOpenSci, The Carpentires</strong>">}}
 
 Hello, I am Luis D. Verde Arregoitia, Mexican living in Mexico. I am a mastozoologist with a background in Biology. I have a degree in Biology from the National Autonomous University of Mexico and a PhD in Conservation Sciences from the University of Queensland, Australia.
 
@@ -98,34 +98,33 @@ I was a mentor during the 2023-2024 cohort and am happy to participate again in 
 
 ## Milagros Mendoza
 
-{{< figure src = "/img/team/milagros-mendoza.jpeg" width = "250" alt = "Foto de perfil de Milagros Mendoza" class = "pull-left" caption = "<strong>Milagros Mendoza</br>Universidade Federal Rural de Pernambuco</br>R-Ladies Natal</strong>">}}
+{{< figure src = "/img/team/milagros-mendoza.jpeg" width = "250" alt = "Profile picture of Milagros Mendoza" class = "pull-left" caption = "<strong>Milagros Mendoza</br>Universidade Federal Rural de Pernambuco</br>R-Ladies Natal</strong>">}}
 
 My name is Milagros Mendoza. I am Peruvian by birth, but I currently live in Brazil where I work at the Universidade Federal Rural de Pernambuco (UFRPE). I am also part of R-Ladies Natal.
 
-I am interested in participating in the Champion(e|a)s program to share knowledge and experience with others in the rOpenSci community and to promote open data science and contribute to the creation of open source tools and resources. By being a mentor, I will also be able to develop leadership and communication skills, and learn to work with others to achieve common goals.
+I am interested in participating in the Champion Program to share knowledge and experience with others in the rOpenSci community and to promote open data science and contribute to the creation of open source tools and resources. By being a mentor, I will also be able to develop leadership and communication skills, and learn to work with others to achieve common goals.
 
 I am happy to contribute to the open science community.
 
 ## Pablo Tiscornia
 
-{{< figure src = "/img/team/pablo-tiscornia.jpeg" width = "250" alt = "Foto de perfil de Pablo Tiscornia" class = "pull-right" caption = "<strong>Pablo Tiscornia</br>C40 Cities</strong>">}}
+{{< figure src = "/img/team/pablo-tiscornia.jpeg" width = "250" alt = "Profile picture of Pablo Tiscornia" class = "pull-right" caption = "<strong>Pablo Tiscornia</br>C40 Cities</strong>">}}
 
 I am Pablo Tiscornia, BA in Sociology, born in Argentina and currently living in Mexico. I work as a data scientist at C40 Cities, a global organization that drives urban climate action, and I run Estación R, a school specialized in R training and data analysis in Latin America.
 
 I am very happy to be able to participate as a mentor in this edition of the program. I decided to apply because communities of practice have played a key role in my personal and professional growth, and I see in this space a great opportunity to give back some of the much I received throughout my career. I strongly believe in the importance of continuing to create and sustain communities that promote the inclusion of new people in the world of programming.
 
-From the program I hope to learn from the vast knowledge and experience of my colleagues, as well as contribute my perspective and background. I am especially excited about the possibility of establishing connections with professionals from different areas to expand our horizons and strengthen the positive impact that R and its community can have in solving current problems and challenges.
+From the Program I hope to learn from the vast knowledge and experience of my colleagues, as well as contribute my perspective and background. I am especially excited about the possibility of establishing connections with professionals from different areas to expand our horizons and strengthen the positive impact that R and its community can have in solving current problems and challenges.
 
 ## Pao Corrales
 
-{{< figure src = "/img/team/paola-corrales.png" width = "250" alt = "Foto de perfil de Pao Corrales" class = "pull-left" caption = "<strong>Pao Corrales</br>Australian National University & 21st century weather CoE </br> R-Ladies, LatinR, rOpenSci, The Carpentries, RForwards </strong>">}}
+{{< figure src = "/img/team/paola-corrales.png" width = "250" alt = "Profile picture of Pao Corrales" class = "pull-left" caption = "<strong>Pao Corrales</br>Australian National University & 21st Century Weather CoE </br> R-Ladies, LatinR, rOpenSci, The Carpentries, RForwards </strong>">}}
 
 I have a PhD in Atmospheric Sciences from the University of Buenos Aires, Argentina and now in Australia I work for the 21st Century Weather Centre as a Research Software Engineer.
 
-I actively participate in [R-Ladies](https://rladies.org), [R Forwards](https://forwards.github.io), [The Carpentries](https://carpentries.org), [LatinR](https://latinr.org) y [rOpenSci](https://ropensci.org) learning and sharing about R in community. In 2023 participate in the champions program by presenting the package [agroclimatic package](https://docs.ropensci.org/agroclimatico/) to [peer review process](https://github.com/ropensci/software-review/issues/599) I learned a lot and connected with people from all over the world, it was an excellent experience!
+I actively participate in [R-Ladies](https://rladies.org), [R Forwards](https://forwards.github.io), [The Carpentries](https://carpentries.org), [LatinR](https://latinr.org) and [rOpenSci](https://ropensci.org) learning and sharing about R in community. In 2023 I participate in the champions program by presenting the [agroclimatico package](https://docs.ropensci.org/agroclimatico/) to [rOpenSci's peer review process](https://github.com/ropensci/software-review/issues/599). I learned a lot and connected with people from all over the world, it was an excellent experience!
 
-I am passionate about teaching and helping other people to grow in what they do, access new opportunities and develop professionally and as a professional.
-people. I am very happy to participate this year as a mentor in the Latin American Champions program.
+I am passionate about teaching and helping other people to grow in what they do, access new opportunities and develop professionally and as individuals. I am very happy to participate this year as a mentor in the Latin American Champions Program.
 
 ## Ronny Hernandez Mora
 
