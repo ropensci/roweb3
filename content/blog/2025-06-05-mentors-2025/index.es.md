@@ -91,7 +91,7 @@ Creo firmemente que el conocimiento que no se comparte, no existe. Compartir sab
 
 ## Luis D. Verde Arregoitia
 
-{{< figure src = "/img/team/luis-verde.jpeg" width = "250" alt = "Foto de perfil de Luis D. Verde Arregoitia" class = "pull-right" caption = "<strong>Luis D. Verde Arregoitia</br>Instituto de Ecología AC - INECOL.</br>LatinR, rOpenSci, The Carpentires</strong>">}}
+{{< figure src = "/img/team/luis-verde.jpeg" width = "250" alt = "Foto de perfil de Luis D. Verde Arregoitia" class = "pull-right" caption = "<strong>Luis D. Verde Arregoitia</br>Instituto de Ecología AC - INECOL</br>LatinR, rOpenSci, The Carpentires</strong>">}}
 
 Hola, soy Luis D. Verde Arregoitia, mexicano viviendo en México. Soy mastozoólogo con formación en Biología. Soy licenciado en Biología por la Universidad Nacional Autónoma de México y doctor en Ciencias de la Conservación por la Universidad de Queensland, Australia.
 
