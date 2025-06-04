@@ -55,7 +55,7 @@ Me interesa participar en el programa como mentora y seguir proyectos de diferen
 
 ## Elio Campitelli
 
-{{< figure src = "/img/team/elio-campitelli.jpg" width = "250" alt = "Foto de perfil de Elio Campitelli" class = "pull-left" caption = "<strong>Elio Campitelli. </br> Monash University - rOpenSci - LatinR</strong>">}}
+{{< figure src = "/img/team/elio-campitelli.jpg" width = "250" alt = "Foto de perfil de Elio Campitelli" class = "pull-left" caption = "<strong>Elio Campitelli </br> Monash University - rOpenSci - LatinR</strong>">}}
 
 Soy de Argentina pero el año pasado me mudé a Australia porque es el único otro país que empieza on A y usa el mismo tipo de enchufe. 
 
