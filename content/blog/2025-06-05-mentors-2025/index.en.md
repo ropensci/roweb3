@@ -118,7 +118,7 @@ I am Pablo Tiscornia, BA in Sociology, born in Argentina and currently living in
 
 I am very happy to be able to participate as a mentor in this edition of the program. I decided to apply because communities of practice have played a key role in my personal and professional growth, and I see in this space a great opportunity to give back some of what I received throughout my career. I strongly believe in the importance of continuing to create and sustain communities that promote the inclusion of new people in the world of programming.
 
-From the Program I hope to learn from the vast knowledge and experience of my colleagues, as well as contribute my perspective and background. I am especially excited about the possibility of establishing connections with professionals from different areas to expand our horizons and strengthen the positive impact that R and its community can have in solving current problems and challenges.
+From the program I hope to learn from the vast knowledge and experience of my colleagues, as well as contribute my perspective and background. I am especially excited about the possibility of establishing connections with professionals from different areas to expand our horizons and strengthen the positive impact that R and its community can have in solving current problems and challenges.
 
 ## Pao Corrales
 
