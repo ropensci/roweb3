@@ -21,6 +21,8 @@ tags:
 description: Meet the new team of mentors for the [rOpenSci Champions Program](https://champions-program.ropensci.org), for People from Latin America dedicated to research and development of research software committed to open science. They will accompany our champions in their projects for one year, sharing experience, guidance, and enthusiasm.
 editor:
 - Steffi LaZerte
+params: 
+  doi: "10.59350/n396s-hpx38"
 ---
 
 We are excited to introduce the new team of mentors for the rOpenSci Champions program! This year, we have ten very talented individuals, all from Latin America, who bring a unique combination of experience, enthusiasm, and commitment to open science. Some of them have already been part of the program in previous editions, either as mentors or champions, and today, they return to continue strengthening this community.
