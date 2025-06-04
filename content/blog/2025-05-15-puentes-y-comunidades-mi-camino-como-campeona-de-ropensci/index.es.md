@@ -27,7 +27,7 @@ Desde el inicio, mi objetivo fue desarrollar un paquete en R que permitiera acce
 
 Durante el programa, trabajé en la organización y estandarización de los datos, enfrentándome a desafíos como la estructuración de la información (tidy data) y la creación de funciones eficientes para su manipulación. Uno de los aspectos más enriquecedores del programa fueron las sesiones de entrenamiento proporcionadas por rOpenSci (agradecimiento especial a [Maëlle](/es/author/maëlle-salmon/) y [Yani](/author/yanina-bellini-saibene/) por toda la paciencia y aprendizaje), y el intercambio continuo de proyectos con los demás campeones y campeonas del programa. 
 
-Participamos en capacitaciones virtuales sobre manejo de código, uso de paquetes eficientes para la creación de paquetes en R y la automatización con GitHub Actions, entre otros temas, todo con un enfoque en buenas prácticas. Además, tuve la oportunidad de contar con la mentoría personalizada de [Luis Verde](/author/luis-d-verde-arregoitia/), amigo de la comunidad LatinR, que me acompañó a lo largo del proceso de desarrollo del paquete, brindando orientación clave en cada etapa.
+Participamos en capacitaciones virtuales sobre manejo de código, uso de paquetes eficientes para la creación de paquetes en R y la automatización con GitHub Actions, entre otros temas, todo con un enfoque en buenas prácticas. Además, tuve la oportunidad de contar con la mentoría personalizada de [Luis Verde](/author/luis-d.-verde-arregoitia/), amigo de la comunidad LatinR, que me acompañó a lo largo del proceso de desarrollo del paquete, brindando orientación clave en cada etapa.
 
 ## Expectativa vs realidad 
 
