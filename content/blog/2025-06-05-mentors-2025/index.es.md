@@ -107,6 +107,10 @@ Me interesa paticipar del programa de Campeon(e|a)s para compartir conocimientos
 
 Estoy feliz en poder contribuir en la comunidad de ciencia abierta. 
 
+</br> 
+
+</br> 
+
 ## Pablo Tiscornia
 
 {{< figure src = "/img/team/pablo-tiscornia.jpeg" width = "250" alt = "Foto de perfil de Pablo Tiscornia" class = "pull-right" caption = "<strong>Pablo Tiscornia</br>C40 Cities</strong>">}}

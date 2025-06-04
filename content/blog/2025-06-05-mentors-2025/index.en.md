@@ -108,6 +108,8 @@ I am happy to contribute to the open science community.
 
 </br> 
 
+</br> 
+
 ## Pablo Tiscornia
 
 {{< figure src = "/img/team/pablo-tiscornia.jpeg" width = "250" alt = "Profile picture of Pablo Tiscornia" class = "pull-right" caption = "<strong>Pablo Tiscornia</br>C40 Cities</strong>">}}
@@ -127,6 +129,8 @@ I have a PhD in Atmospheric Sciences from the University of Buenos Aires, Argent
 I actively participate in [R-Ladies](https://rladies.org), [R Forwards](https://forwards.github.io), [The Carpentries](https://carpentries.org), [LatinR](https://latinr.org) and [rOpenSci](https://ropensci.org) learning and sharing about R in community. In 2023 I participate in the champions program by presenting the [agroclimatico package](https://docs.ropensci.org/agroclimatico/) to [rOpenSci's peer review process](https://github.com/ropensci/software-review/issues/599). I learned a lot and connected with people from all over the world, it was an excellent experience!
 
 I am passionate about teaching and helping other people to grow in what they do, access new opportunities and develop professionally and as individuals. I am very happy to participate this year as a mentor in the Latin American Champions Program.
+
+</br> 
 
 ## Ronny Hernandez Mora
 
