@@ -44,7 +44,7 @@ Me entusiasma muchísimo ser parte del programa de Campeon(e|a)s como mentora. Q
 
 ## Elina Gómez
 
-{{< figure src = "/img/team/elina-gomez.png" width = "250" alt = "Foto de perfil de Elina Gomez" class = "pull-right" caption = "<strong>Elina Gomez. </br> Universidad de la República. </br> R-Ladies Montevideo - RUG Montevideo</strong>">}}
+{{< figure src = "/img/team/elina-gomez.png" width = "250" alt = "Foto de perfil de Elina Gómez" class = "pull-right" caption = "<strong>Elina Gómez </br> Universidad de la República </br> R-Ladies Montevideo - RUG Montevideo</strong>">}}
 
 Soy Elina Gómez Bonaglia, Licenciada en Sociología, Magíster en Estudios Contemporáneos de América Latina y candidata a Doctora en Sociología por la Facultad de Ciencias Sociales de la Udelar, Uruguay. 
 
