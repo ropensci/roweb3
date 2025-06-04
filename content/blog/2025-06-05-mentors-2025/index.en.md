@@ -108,8 +108,6 @@ I am happy to contribute to the open science community.
 
 </br> 
 
-</br> 
-
 ## Pablo Tiscornia
 
 {{< figure src = "/img/team/pablo-tiscornia.jpeg" width = "250" alt = "Profile picture of Pablo Tiscornia" class = "pull-right" caption = "<strong>Pablo Tiscornia</br>C40 Cities</strong>">}}
@@ -122,7 +120,7 @@ From the Program I hope to learn from the vast knowledge and experience of my co
 
 ## Pao Corrales
 
-{{< figure src = "/img/team/paola-corrales.png" width = "250" alt = "Profile picture of Pao Corrales" class = "pull-left" caption = "<strong>Pao Corrales</br>Australian National University & 21st Century Weather CoE </br> R-Ladies, LatinR, rOpenSci, The Carpentries, RForwards </strong>">}}
+{{< figure src = "/img/team/paola-corrales.png" width = "250" alt = "Profile picture of Pao Corrales" class = "pull-left" caption = "<strong>Pao Corrales</br>Australian National University & </br> 21st Century Weather CoE </br> R-Ladies, LatinR, rOpenSci, The Carpentries, </br> RForwards </strong>">}}
 
 I have a PhD in Atmospheric Sciences from the University of Buenos Aires, Argentina and now in Australia I work for the 21st Century Weather Centre as a Research Software Engineer.
 
