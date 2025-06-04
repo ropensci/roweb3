@@ -106,6 +106,10 @@ I am interested in participating in the Champion Program to share knowledge and 
 
 I am happy to contribute to the open science community.
 
+</br> 
+
+</br> 
+
 ## Pablo Tiscornia
 
 {{< figure src = "/img/team/pablo-tiscornia.jpeg" width = "250" alt = "Profile picture of Pablo Tiscornia" class = "pull-right" caption = "<strong>Pablo Tiscornia</br>C40 Cities</strong>">}}
