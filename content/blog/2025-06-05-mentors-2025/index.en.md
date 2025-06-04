@@ -31,7 +31,7 @@ Our new mentors come from a wide variety of disciplines and are active voices wi
 
 ## Carolina Pradier
 
-{{< figure src = "/img/team/carolina-pradier.jpg" width = "250" alt = "Profile picture of Carolina Pradier" class = "pull-left" caption = "<strong>Carolina Pradier. </br> Universidad de Montreal. </br> rOpenSci - Ecofemidata</strong>">}}
+{{< figure src = "/img/team/carolina-pradier.jpg" width = "250" alt = "Profile picture of Carolina Pradier" class = "pull-left" caption = "<strong>Carolina Pradier </br> Universidad de Montreal </br> rOpenSci - Ecofemidata</strong>">}}
 
 Hi, I'm Carolina Pradier and I will be participating as a mentor in this edition of rOpenSci Champions Program.
 
