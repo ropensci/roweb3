@@ -140,7 +140,7 @@ I am Ronny A. Hernandez Mora, a PhD student in the Department of Civil and Envir
 
 Previously I worked in industry developing data solutions for different companies in Latin America and the United States. My experience includes model development, process automation, API creation, and application development and implementation.
 
-My entry into the world of R and programming was possible thanks to people who were willing to teach me, so participating in this Program is a way to give back and contribute to the community.
+My entry into the world of R and programming was possible thanks to people who were willing to teach me, so participating in this program is a way to give back and contribute to the community.
 
 ## What's next
 
