@@ -102,7 +102,7 @@ I was a mentor during the 2023-2024 cohort and am happy to participate again in 
 
 My name is Milagros Mendoza. I am Peruvian by birth, but I currently live in Brazil where I work at the Universidade Federal Rural de Pernambuco (UFRPE). I am also part of R-Ladies Natal.
 
-I am interested in participating in the Champion Program to share knowledge and experience with others in the rOpenSci community and to promote open data science and contribute to the creation of open source tools and resources. By being a mentor, I will also be able to develop leadership and communication skills, and learn to work with others to achieve common goals.
+I am interested in participating in the Champions Program to share knowledge and experience with others in the rOpenSci community and to promote open data science and contribute to the creation of open source tools and resources. By being a mentor, I will also be able to develop leadership and communication skills, and learn to work with others to achieve common goals.
 
 I am happy to contribute to the open science community.
 
