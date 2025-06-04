@@ -59,10 +59,7 @@ I am doing a postdoc at Monash University researching interactions between Antar
 
 I was a mentor in a previous edition of the program. It was a great experience that I want to repeat.
 
-</br>
-</br>
 </br> 
-</br>
 </br>
 </br>
 
