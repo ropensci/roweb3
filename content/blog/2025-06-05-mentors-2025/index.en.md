@@ -53,7 +53,7 @@ I am interested in participating in the Champions Program as a mentor and in fol
 
 ## Elio Campitelli
 
-{{< figure src = "/img/team/elio-campitelli.jpg" width = "250" alt = "Profile picture of Elio Campitelli" class = "pull-left" caption = "<strong>Elio Campitelli. </br> Monash University - rOpenSci - LatinR</strong>">}}
+{{< figure src = "/img/team/elio-campitelli.jpg" width = "250" alt = "Profile picture of Elio Campitelli" class = "pull-left" caption = "<strong>Elio Campitelli </br> Monash University </br> rOpenSci - LatinR</strong>">}}
 
 I am from Argentina but last year I moved to Australia because it is the only other country that starts with an 'A' and uses the same type of plug.
 
