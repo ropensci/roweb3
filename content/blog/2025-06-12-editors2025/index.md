@@ -21,7 +21,7 @@ They join Laura DeCicco, Julia Gustavsen, Anna Krystalli, Mauro Lepore, Noam Ros
 Since 2015, rOpenSci has operated a thorough and collaborative software peer review system.
 Our [editorial team](https://devguide.ropensci.org/editorguide.html) oversees the entire review process — conducting initial checks, selecting reviewers, and guiding the review until the package is approved for inclusion in rOpenSci’s [software suite](https://ropensci.org/packages/).
 Given the wide range and number of packages we receive, having a team of editors with diverse and complementary expertise is essential.
-Emi brings her experiences in , while Nima brings  expertise in .
+Emi brings her experiences in experimental design, mixed-effects models and data visualisation, while Nima brings  expertise in .
 
 Meet our new editors!
 
@@ -29,12 +29,18 @@ Meet our new editors!
 
 {{< imgtxt src = "/img/team/emi-tanaka.jpg" width = "200" alt = "headshot of Emi Tanaka">}}
 
+Emi is an academic statistician at the Australian National University (ANU), living in Canberra with a passion for data science and open-source software. 
+She has a PhD in Statistics from the University of Sydney. Her primary interest is to develop impactful methods and tools that can be readily used by practitioners. She enjoys working in a collaborative environment with people from diverse backgrounds, with an aim to enhance our knowledge and understanding of the real world data. She interfaces across multiple disciplines to bridge statistical concepts and findings to a broad range of individuals. To this end, she has developed numerous open-source tools, primarily as R-packages, and resources aimed at making statistical methods accessible to a diverse audience. Her proudest work to date is the `edibble` R package where it reframes the specification of an experimental design by the so-called “grammar of experimental designs” (words = fundamental components of a comparative experiment, e.g. units, treatments and its relationships, and express design as a “sentence” by stringing together “words” that follow a certain grammatical rule).
+
+
 
 {{< /imgtxt >}}
 
 Emi on [GitHub](), [Website](), [rOpenSci](/author/emi-tanaka/).
 
 {{< quote footer="Emi Tanaka" >}}
+
+The rOpenSci team has been doing a wonderful job in promoting open science and setting rigorous standards for software development. I'm impressed by their continued dedication to fostering a culture that values open and reproducible research. The team has done so much, including running the coworking space, rOpenSci Champions program and peer-review of open-source software. I had the pleasure of being a mentor in the rOpenSci Champions program last year, and it's an honour to contribute further as an editor.
 
 {{< /quote >}}
 
