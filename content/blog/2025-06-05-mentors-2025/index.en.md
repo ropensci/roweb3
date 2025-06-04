@@ -68,7 +68,7 @@ I was a mentor in a previous edition of the program. It was a great experience t
 
 ## Francisco Cardozo
 
-{{< figure src = "/img/team/francisco-cardozo.jpg" width = "250" alt = "Profile picture of Francisco Cardozo" class = "pull-right" caption = "<strong>Francisco Cardozo</br>Universidad de Miami </br> rOpenSci -The Carpentries</strong>">}}
+{{< figure src = "/img/team/francisco-cardozo.jpg" width = "250" alt = "Profile picture of Francisco Cardozo" class = "pull-right" caption = "<strong>Francisco Cardozo</br>Universidad de Miami </br> rOpenSci - The Carpentries</strong>">}}
 
 My name is Francisco Cardozo. I am currently a doctoral student at the University of Miami, USA, where I am part of the Prevention Sciences and Community Health program.
 
