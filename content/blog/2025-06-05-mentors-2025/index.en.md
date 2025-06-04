@@ -84,7 +84,7 @@ My name is Geraldine Gómez Millán, I am from Colombia, I am a Systems Engineer
 
 I have experience in data analysis, software architecture, development methodologies, security, DevOps, Cloud and artificial intelligence. Currently, I lead an information security team and serve as a mentor in the Champions Program.
 
-I firmly believe that knowledge that is not shared, does not exist. Sharing knowledge, building collectively and create opportunities through learning and democratization of technology are key factors to transform society. I hope to contribute my experience and socio-technical knowledge from an ethical and innovative perspective, as well as to expand and learn about other ways of thinking and approaches to problem solving.
+I firmly believe that knowledge that is not shared, does not exist. Sharing knowledge, building collectively and creating opportunities through learning and democratization of technology are key factors to transform society. I hope to contribute my experience and socio-technical knowledge from an ethical and innovative perspective, as well as to expand and learn about other ways of thinking and approaches to problem solving.
 
 ## Luis D. Verde Arregoitia
 
