@@ -1,6 +1,6 @@
 ---
 slug: mentors-2025
-title: New Mentors team, Same Open Science Spirit
+title: New Mentoring Team, Same Open Science Spirit
 author:
 - Carolina Pradier
 - Elina Gómez
