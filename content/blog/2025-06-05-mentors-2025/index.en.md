@@ -16,7 +16,7 @@ author:
 date: '2025-06-05'
 tags:
 - champions program
-- mentor
+- mentors
 - community
 description: Meet the new team of mentors for the [rOpenSci Champions Program](https://champions-program.ropensci.org), for People from Latin America dedicated to research and development of research software committed to open science. They will accompany our champions in their projects for one year, sharing experience, guidance, and enthusiasm.
 editor:
