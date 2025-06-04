@@ -43,7 +43,7 @@ I am very excited to be part of the program as a mentor. I want to be able to pa
 
 ## Elina Gómez
 
-{{< figure src = "/img/team/elina-gomez.png" width = "250" alt = "Profile picture of Elina Gomez" class = "pull-right" caption = "<strong>Elina Gomez. </br> Universidad de la República. </br> R-Ladies Montevideo - RUG Montevideo</strong>">}}
+{{< figure src = "/img/team/elina-gomez.png" width = "250" alt = "Profile picture of Elina Gómez" class = "pull-right" caption = "<strong>Elina Gómez </br> Universidad de la República </br> R-Ladies Montevideo - RUG Montevideo</strong>">}}
 
 I am Elina Gómez Bonaglia, BA in Sociology, MA in Contemporary Latin American Studies and PhD candidate in Sociology at the Faculty of Social Sciences of Udelar, Uruguay.
 
