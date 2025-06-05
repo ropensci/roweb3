@@ -33,6 +33,8 @@ In their applications Champions choose to develop a new package or to participat
 
 - **Erika Siregar**, from Indonesia, worked on developing [rplaywright](https://erikaris.github.io/rplaywright/) an R package seamlessly bridge with the NodeJS library, Playwright, enabling simplified web testing and automation for R users. This package aims to provide R users with a comprehensive toolkit for interacting with web browsers programmatically, allowing for tasks such as browser automation, web scraping, and end-to-end testing directly from within the R environment. Her mentor is [Apoor Anand](/author/apoorv-anand/) from India. 
 
+- **Binod Jung Bogati**, from Nepal, worked on the [nepalcensus](https://github.com/rugnepal/nepalcensus) package, , which provides a comprehensive and up-to-date tool for accessing and exploring demographic, socio-economic, and geographic data collected during the most recent census conducted in Nepal. The package aims to facilitate data analysis and visualization for researchers, policymakers, and anyone interested in understanding and utilizing census data effectively for various applications and insights. His mentor is [Erle Holgersen](/author/erle-holgersen/) from Canada.
+
 
 ### Improving and reviewing existing packages
 
