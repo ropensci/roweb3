@@ -7,7 +7,7 @@ displaytz: "Europe/Rome"
 description: "Maëlle Salmon was invited to the R-Ladies+ Rome meetup to give a talk on how to have a useful git history."
 location: 'online'
 country: "🌐" # emoji
-slug: "RUG-Salt-Lake-City-2025"
+slug: "R-Ladies-plus-Rome-2025"
 ropensci: no
 outputs: 
 - HTML
@@ -22,6 +22,7 @@ resources:
   - title: Why Small Git Commits Matter (and How to Make Them!)
     speaker: Maëlle Salmon
     slides: https://rome-git.netlify.app/#/
+    video: https://www.youtube.com/watch?v=5lCUUk0HZ3U
 
 
 ---
