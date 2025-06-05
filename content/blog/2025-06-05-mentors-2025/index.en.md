@@ -35,7 +35,7 @@ Our new mentors come from a wide variety of disciplines and are active voices wi
 
 Hi, I'm Carolina Pradier and I will be participating as a mentor in this edition of rOpenSci Champions Program.
 
-I am from Argentina, I have a degree in Economics and a Master's degree in Social Sciences of Work from the University of Buenos Aires. I am currently living in Canada, where I am doing a PhD in Information Sciences. My doctoral thesis focuses on the study of inequalities in the scientific field in Latin America.
+I am from Argentina, I have a degree in Economics and a Master's degree in Labour Studies from the University of Buenos Aires. I am currently living in Canada, where I am doing a PhD in Information Sciences. My doctoral thesis focuses on the study of inequalities in the scientific field in Latin America.
 
 Within the rOpenSci community, I am a maintainer of the [eph package](https://docs.ropensci.org/eph/), a tool designed to facilitate the analysis of the Permanent Household Survey of Argentina. I participated as a student in a previous cohort of the rOpenSci Champions Program, where my package [went through the rOpenSci peer review process.](https://github.com/ropensci/software-review/issues/593).
 
