@@ -90,7 +90,7 @@ I firmly believe that knowledge that is not shared, does not exist. Sharing know
 
 {{< figure src = "/img/team/luis-verde.jpeg" width = "250" alt = "Profile picture of Luis D. Verde Arregoitia" class = "pull-right" caption = "<strong>Luis D. Verde Arregoitia</br>Instituto de Ecología AC - INECOL</br>LatinR, rOpenSci, The Carpentries</strong>">}}
 
-Hello, I am Luis D. Verde Arregoitia, Mexican living in Mexico. I am a mastozoologist with a background in Biology. I have a degree in Biology from the National Autonomous University of Mexico and a PhD in Conservation Sciences from the University of Queensland, Australia.
+Hello, I am Luis D. Verde Arregoitia, Mexican living in Mexico. I am a mammalogist with a background in Biology. I have a degree in Biology from the National Autonomous University of Mexico and a PhD in Conservation Sciences from the University of Queensland, Australia.
 
 I am currently an academic technician, specialized in Data Science applied to Biodiversity.  I also spend my time writing tools, blogs and teaching materials to help others work with messy data and spreadsheets and improve their R scripts for reproducibility.  I also do hands-on R teaching.
 
