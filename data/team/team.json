@@ -507,6 +507,17 @@
    "home": "https://github.com/MargaretSiple-NOAA"
 },
 {
+   "name": "Nima Hejazi",
+   "affiliation": "Harvard Chan School of Public Health",
+   "url": "https://nimahejazi.org/",
+   "image": "/img/team/nima-hejazi.jpg",
+   "roles": [
+      "editor"
+   ],
+   "stats": true,
+   "home": "https://nimahejazi.org/"
+},
+{
    "name": "Kelly Hondula",
    "url": "https://www.sesync.org/users/khondula",
    "image" : "/img/team/kelly-hondula.jpg",
