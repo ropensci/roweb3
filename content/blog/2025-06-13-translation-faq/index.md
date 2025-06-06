@@ -41,7 +41,7 @@ Why can’t one publish automatic translations directly, or rely on tools for on
 If you do that, the content in translated languages will be of a poorer quality so it’d mean accepting that users in some semi-supported language deserve less good translation.
 This is a decision made at the organization level.
 
-## Why don’t you use <insert-name-of-translation-patform> instead of Git and GitHub?
+## Why don’t you use `<insert-name-of-translation-patform>` instead of Git and GitHub?
 
 We are a technical community translating technical content. 
 Git and GitHub fit well in our other development workflows. 
