@@ -8,11 +8,11 @@ translator:
 - Juan Cruz Enrique
 topicid: 1200
 tags:
-- community
-- meetings
+- comunidad
+- eventos
 - unconf
 - unconf18
-- security
+- seguridad
 params:
   doi: 
 ---
