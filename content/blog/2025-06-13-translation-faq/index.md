@@ -46,6 +46,19 @@ If you are interested in learning more about this topic we suggest you follow [F
 [^gou]: Philip J. Guo. 2018. Non-Native English Speakers Learning Computer Programming: Barriers, Desires, and Design Opportunities. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI '18). Association for Computing Machinery, New York, NY, USA, Paper 396, 1–14. https://doi.org/10.1145/3173574.3173970
 
 [^tshukudu]: Ethel Tshukudu, Emma Dodoo, Felienne Hermans, and Monkgogi Mudongo. 2024. Bilingual Programming: A Study of Student Attitudes and Experiences in the African context. In Proceedings of the 24th Koli Calling International Conference on Computing Education Research (Koli Calling '24). Association for Computing Machinery, New York, NY, USA, Article 42, 1–11. https://doi.org/10.1145/3699538.3699561
+
+## Related 2: People Should Learn English
+
+Some people claim that you have to learn English if you want to work in programming and science because English is the lingua franca of these disciplines. 
+
+Even when this is possible and many people have learned English, there are audiences for whom this is less feasible, for example learners, casual or end-user programmers. They might not have the time, energy and money to learn programming and also English[^swidan].
+
+[^swidan]: Alaaeddin Swidan and Felienne Hermans. 2023. A Framework for the Localization of Programming Languages. In Proceedings of the 2023 ACM SIGPLAN International Symposium on SPLASH-E (SPLASH-E 2023). Association for Computing Machinery, New York, NY, USA, 13–25. https://doi.org/10.1145/3622780.3623645
+
+Let’s do some numbers: [The Common European Framework of Reference for Languages](https://www.languagecert.org/en/guided-learning-hours) has tabulate the guided learning hours typically required to reach each language proficiency level. These are hours spent studying with a teacher or structured learning. 
+
+So for example, if you start as a beginner (A1) and want to become intermediate (B1) you will need approximately **400 guided hours**.  If you can dedicate **5 hours a week**, it will take **1.5 years**  and a minimum budget of **USD $6,000** to learn English (to give you an idea, for a person with minimum gauge in Argentina this cost is iqual to two year of salary). 
+
 ## Why can’t we rely on automatic translation only?
 
 Why can’t one publish automatic translations directly, or rely on tools for on-the-fly translations?
