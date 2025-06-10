@@ -19,6 +19,7 @@ author:
 attendees:
   - Maëlle Salmon
   - Yanina Bellini Saibene
+  - Andrea Gomez Vargas
 resources:
   - title: ¡Miércoles, Git! Manejo de errores en Git y no morir en el intento
     speaker: Maëlle Salmon
@@ -28,4 +29,4 @@ resources:
 
 Maëlle Salmon will be teaching a workshop about Git in Spanish in an event hosted by R en Buenos Aires and R-Ladies+ Santa Rosa.
  
-[You can find more information about the event on Meetup](https://www.meetup.com/rbuenosaires/events/308338205/).
+You can find more information about the event on Meetup: [R en Buenos Aires](https://www.meetup.com/rbuenosaires/events/308338205/), [R-Ladie+ Santa Rosa](https://www.meetup.com/es/rladies-santa-rosa/events/308395195/).
