@@ -34,7 +34,18 @@ because we are aware of the "manifold costs of being a non-native English speake
 ### Related: Is it that hard to read in English?
 
 Yes, especially as it adds to the "manifold costs of being a non-native English speaker in science"[^amano] (we really like this paper :wink:).
+There are several studies around the topic of learning to code in English base programming languages when you are not a English speaker. 
 
+Gou and other[^gou] found that non-native English speakers faced barriers with reading instructional materials, technical communication, reading and writing code, and simultaneously learning English and programming. 
+These difficulties are rooted in the need to develop English understanding at the same time that they are expected to learn about the specific topic, in our case how to develop research open source high quality software.
+
+Other results[^tshukudu] suggest that learning to program in English alone, when you are not a English speaker, isn't necessarily difficult for everyone, but including students' native language can make the learning experience clearer, more supportive and more enjoyable. 
+
+If you are interested in learning more about this topic we suggest you follow [Felienne Hermans](https://www.felienne.com), who specializes in programming language design and developed a multilingual programming language for teaching. 
+
+[^gou]: Philip J. Guo. 2018. Non-Native English Speakers Learning Computer Programming: Barriers, Desires, and Design Opportunities. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI '18). Association for Computing Machinery, New York, NY, USA, Paper 396, 1–14. https://doi.org/10.1145/3173574.3173970
+
+[^tshukudu]: Ethel Tshukudu, Emma Dodoo, Felienne Hermans, and Monkgogi Mudongo. 2024. Bilingual Programming: A Study of Student Attitudes and Experiences in the African context. In Proceedings of the 24th Koli Calling International Conference on Computing Education Research (Koli Calling '24). Association for Computing Machinery, New York, NY, USA, Article 42, 1–11. https://doi.org/10.1145/3699538.3699561
 ## Why can’t we rely on automatic translation only?
 
 Why can’t one publish automatic translations directly, or rely on tools for on-the-fly translations?
