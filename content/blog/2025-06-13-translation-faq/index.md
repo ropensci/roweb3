@@ -26,7 +26,7 @@ Working on one’s project with the tools at one’s disposal is already work en
 Besides, many people who do not speak English speak several languages.
 Now, people might still choose to learn English later, for instance to take part in some conversations in English, but it won’t have been an issue for them to have first learnt how to, say, develop software using French.
 Do we want people to learn how to use some tools or do we want them to be English speakers? 
-In our case, we want people to be able to use and contribute to open-source tools without first having to become English speaking,
+In our case, we want people to be able to use and contribute to open-source tools without first having to become English speakers,
 because we are aware of the "manifold costs of being a non-native English speaker in science"[^amano].
 
 [^amano]: Amano T, Ramírez-Castañeda V, Berdejo-Espinola V, Borokini I, Chowdhury S, Golivets M, et al. (2023) The manifold costs of being a non-native English speaker in science. PLoS Biol 21(7): e3002184. https://doi.org/10.1371/journal.pbio.3002184
