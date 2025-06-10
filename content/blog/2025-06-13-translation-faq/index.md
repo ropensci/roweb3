@@ -38,7 +38,7 @@ Yes, especially as it adds to the "manifold costs of being a non-native English 
 ## Why can’t we rely on automatic translation only?
 
 Why can’t one publish automatic translations directly, or rely on tools for on-the-fly translations?
-If you do that, the content in translated languages will be of a poorer quality so it’d mean accepting that users in some semi-supported language deserve less good translation.
+If you do that, the content in translated languages will be of a poorer quality so it’d mean accepting that users in some semi-supported language deserve material of less quality.
 This is a decision made at the organization level.
 
 ## Why don’t you use `<insert-name-of-translation-patform>` instead of Git and GitHub?
