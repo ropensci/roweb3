@@ -62,7 +62,10 @@ So for example, if you start as a beginner (A1) and want to become intermediate 
 ## Why can’t we rely on automatic translation only?
 
 Why can’t one publish automatic translations directly, or rely on tools for on-the-fly translations?
-If you do that, the content in translated languages will be of a poorer quality so it’d mean accepting that users in some semi-supported language deserve material of less quality.
+It is a known fact that machine translation does not work so well for languages with smaller populations and
+smaller online repositories.[^swidan]  Even for wel know languages, authomatic translation still have errors (like word meaning changes due to context, grammar and syntaxis aspect, and gender marks).   Machinne translation can't localize some content, like provide meaningful examples for the audience, idioms, currency and numerals symbols).  
+
+If we rely on automatic translation only , the content in translated languages will be of a poorer quality so it’d mean accepting that users in some semi-supported language deserve material of less quality.
 This is a decision made at the organization level.
 
 ## Why don’t you use `<insert-name-of-translation-patform>` instead of Git and GitHub?
