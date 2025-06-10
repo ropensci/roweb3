@@ -25,7 +25,7 @@ First of all, not learning English doesn’t mean being “lazy”.
 Working on one’s project with the tools at one’s disposal is already work enough. 
 Besides, many people who do not speak English speak several languages.
 Now, people might still choose to learn English later, for instance to take part in some conversations in English, but it won’t have been an issue for them to have first learnt how to, say, develop software using French.
-Do we want people to learn how to use some tools or do we want them to be English speaking? 
+Do we want people to learn how to use some tools or do we want them to be English speakers? 
 In our case, we want people to be able to use and contribute to open-source tools without first having to become English speaking,
 because we are aware of the "manifold costs of being a non-native English speaker in science"[^amano].
 
