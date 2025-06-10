@@ -70,7 +70,7 @@ This is a decision made at the organization level.
 
 ## Why don’t you use `<insert-name-of-translation-patform>` instead of Git and GitHub?
 
-We are a technical community translating technical content. 
+We are a technical community translating and localizing technical content. 
 Git and GitHub fit well in our other development workflows. 
 Many of our community members already know these tools and if they don’t we can help them learn them, knowledge they can then apply to other technical projects.
 Read more about our tooling and processes in our [translation guide](https://translationguide.ropensci.org/intro.html#technical-infrastructure-and-workflows).
