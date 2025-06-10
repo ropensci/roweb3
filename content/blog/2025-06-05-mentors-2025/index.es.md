@@ -93,11 +93,11 @@ Creo firmemente que el conocimiento que no se comparte, no existe. Compartir sab
 
 {{< figure src = "/img/team/luis-verde.jpeg" width = "250" alt = "Foto de perfil de Luis D. Verde Arregoitia" class = "pull-right" caption = "<strong>Luis D. Verde Arregoitia</br>Instituto de Ecología AC - INECOL</br>LatinR, rOpenSci, The Carpentires</strong>">}}
 
-Hola, soy Luis D. Verde Arregoitia, mexicano viviendo en México. Soy mastozoólogo con formación en Biología. Soy licenciado en Biología por la Universidad Nacional Autónoma de México y doctor en Ciencias de la Conservación por la Universidad de Queensland, Australia.
+Hola, soy Luis D. Verde Arregoitia, mexicano viviendo en Xalapa, México. Soy mastozoólogo con formación en Biología. Soy Biólogo por la Universidad Nacional Autónoma de México y doctor en Ciencias de la Conservación por la Universidad de Queensland, Australia.
 
-Actualmente son un técnico académico, especializado en Ciencia de Datos aplicada a Biodiversidad.  Además paso mi tiempo escribiendo herramientas, blogs y materiales de enseñanza para ayudar a otros a trabajar con datos desordenados y hojas de cálculo  y mejorar sus scripts de R para la reproducibilidad.  Tambien realizo enseñanza práctica de R. 
+Actualmente soy un técnico académico, especializado en Ciencia de Datos aplicada a Biodiversidad. Además paso mi tiempo escribiendo herramientas, blogs y materiales de enseñanza para ayudar a otros a trabajar con datos desordenados y hojas de cálculo y mejorar sus scripts de R para mayor reproducibilidad. Tambien realizo enseñanza práctica de R. 
 
-Fue mentor durante la cohorte 2023-2024 y estoy feliz de participar nuevamente en esta edicion.
+Fui mentor durante la cohorte 2023-2024 y estoy feliz de participar nuevamente en esta edicion.
 
 ## Milagros Mendoza
 
