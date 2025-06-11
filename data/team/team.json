@@ -1,602 +1,608 @@
 [
-{
-   "name": "Noam Ross",
-   "url": "https://www.noamross.net/",
-   "image" : "/img/team/noam_ross.png",
-   "affiliation" : "Executive Director",
-   "roles": [
-      "staff", "editor"
-   ],
-   "participates": [
+  {
+    "name": "Noam Ross",
+    "url": "https://www.noamross.net/",
+    "image": "/img/team/noam_ross.png",
+    "affiliation": "Executive Director",
+    "roles": [
+      "staff",
+      "editor"
+    ],
+    "participates": [
       "champions"
-   ],
-   "generalreview": true,
-   "mastodon": "https://ecoevo.social/@noamross",
-   "linkedin": "https://www.linkedin.com/in/noamross",
-   "github": "noamross",
-   "bluesky": "noamross.net",
-   "home": "/author/noam-ross"
-},   
-{
-   "name": "Karthik Ram",
-   "url": "/author/karthik-ram",
-   "image" : "/img/team/karthik-ram.png",
-   "affiliation": "Advisor",
-   "roles": [
+    ],
+    "generalreview": true,
+    "mastodon": "https://ecoevo.social/@noamross",
+    "linkedin": "https://www.linkedin.com/in/noamross",
+    "github": "noamross",
+    "bluesky": "noamross.net",
+    "home": "/author/noam-ross"
+  },
+  {
+    "name": "Karthik Ram",
+    "url": "/author/karthik-ram",
+    "image": "/img/team/karthik-ram.png",
+    "affiliation": "Advisor",
+    "roles": [
       "co-founder",
       "strategic advisor"
-   ],
-   "twitter": "_inundata",
-   "mastodon": "https://mastodon.social/@inundata",
-   "linkedin": "https://www.linkedin.com/in/karthik-ram-93334954",
-   "github": "karthik",
-   "home": "https://inundata.org/"
-},
-{
-   "name": "Scott Chamberlain",
-   "affiliation": "Technical Lead",
-   "url": "/author/scott-chamberlain",
-   "image" : "/img/team/scott.jpg",
-   "past_roles": [
-      "staff", "cofounder", "editor", "developer"
-   ],
-   "alumnus": true,
-   "generalreview": true,
-   "twitter": "sckottie",
-   "github": "sckott",
-   "home": "/author/scott-chamberlain/"
-},
-{
-   "name": "Jeroen Ooms",
-   "url": "/author/jeroen-ooms",
-   "image" : "/img/team/jeroen_ooms.jpg",
-   "affiliation" : "Lead Infrastructure Engineer",
-   "roles": [
+    ],
+    "twitter": "_inundata",
+    "mastodon": "https://mastodon.social/@inundata",
+    "linkedin": "https://www.linkedin.com/in/karthik-ram-93334954",
+    "github": "karthik",
+    "home": "https://inundata.org/"
+  },
+  {
+    "name": "Scott Chamberlain",
+    "affiliation": "Technical Lead",
+    "url": "/author/scott-chamberlain",
+    "image": "/img/team/scott.jpg",
+    "past_roles": [
+      "staff",
+      "cofounder",
+      "editor",
+      "developer"
+    ],
+    "alumnus": true,
+    "generalreview": true,
+    "twitter": "sckottie",
+    "github": "sckott",
+    "home": "/author/scott-chamberlain/"
+  },
+  {
+    "name": "Jeroen Ooms",
+    "url": "/author/jeroen-ooms",
+    "image": "/img/team/jeroen_ooms.jpg",
+    "affiliation": "Lead Infrastructure Engineer",
+    "roles": [
       "staff",
       "researcher",
       "developer"
-   ],
-   "leads": [
-     "r-universe"
-   ],
-   "twitter": "opencpu",
-   "mastodon": "https://fosstodon.org/@jeroenooms",
-   "github": "jeroen",
-   "home": "/author/jeroen-ooms",
-   "linkedin": "https://www.linkedin.com/in/datajeroen"
-},
-{
-   "name": "Stefanie Butland",
-   "affiliation": "Community Manager",
-   "url": "/author/stefanie-butland",
-   "image" : "/img/team/stefanie_butland.jpg",
-   "past_roles": [
+    ],
+    "leads": [
+      "r-universe"
+    ],
+    "twitter": "opencpu",
+    "mastodon": "https://fosstodon.org/@jeroenooms",
+    "github": "jeroen",
+    "home": "/author/jeroen-ooms",
+    "linkedin": "https://www.linkedin.com/in/datajeroen"
+  },
+  {
+    "name": "Stefanie Butland",
+    "affiliation": "Community Manager",
+    "url": "/author/stefanie-butland",
+    "image": "/img/team/stefanie_butland.jpg",
+    "past_roles": [
       "staff"
-   ],
-   "alumnus": true,
-   "twitter": "StefanieButland",
-   "github": "stefaniebutland",
-   "home": "/author/stefanie-butland"
-},
-{
-   "name": "Yanina Bellini Saibene",
-   "affiliation": "Community Manager",
-   "url": "/author/yanina-bellini-saibene/",
-   "image" : "/img/team/yanina-bellini-saibene.jpg",
-   "roles": [
+    ],
+    "alumnus": true,
+    "twitter": "StefanieButland",
+    "github": "stefaniebutland",
+    "home": "/author/stefanie-butland"
+  },
+  {
+    "name": "Yanina Bellini Saibene",
+    "affiliation": "Community Manager",
+    "url": "/author/yanina-bellini-saibene/",
+    "image": "/img/team/yanina-bellini-saibene.jpg",
+    "roles": [
       "staff"
-   ],
-   "leads": [
-     "champions",
-     "multilingual-publishing",
-     "commcalls"
-   ],
-   "participates": [
+    ],
+    "leads": [
+      "champions",
+      "multilingual-publishing",
+      "commcalls"
+    ],
+    "participates": [
       "blog"
-   ],
-   "mastodon": "https://rstats.me/@yabellini",
-   "linkedin": "https://www.linkedin.com/in/yabellini",
-   "bluesky": "yabellini.bsky.social",
-   "github": "yabellini",
-   "home": "/author/yanina-bellini-saibene/"
-},
-{
-   "name": "Mark Padgham",
-   "affiliation": "Software Review Lead",
-   "url": "/author/mark-padgham",
-   "image" : "/img/team/mark-padgham.jpg",
-   "roles": [
+    ],
+    "mastodon": "https://rstats.me/@yabellini",
+    "linkedin": "https://www.linkedin.com/in/yabellini",
+    "bluesky": "yabellini.bsky.social",
+    "github": "yabellini",
+    "home": "/author/yanina-bellini-saibene/"
+  },
+  {
+    "name": "Mark Padgham",
+    "affiliation": "Software Review Lead",
+    "url": "/author/mark-padgham",
+    "image": "/img/team/mark-padgham.jpg",
+    "roles": [
       "staff",
       "editor"
-   ],
-   "leads": [
-     "software-review"
-   ],
-   "stats": true,
-   "mastodon": "https://nerdculture.de/@mpadge",
-   "bluesky": "mpadge.bsky.social",
-   "github": "mpadge",
-   "home": "/author/mark-padgham"
-},
-{
-   "name": "Maëlle Salmon",
-   "affiliation": "Research Software Engineer",
-   "url": "/author/maëlle-salmon",
-   "image" : "/img/team/maelle_salmon.jpg",
-   "credit": "Photo Julie Noury Soyer https://www.photographe-julienourysoyer.com/",
-   "roles": [
+    ],
+    "leads": [
+      "software-review"
+    ],
+    "stats": true,
+    "mastodon": "https://nerdculture.de/@mpadge",
+    "bluesky": "mpadge.bsky.social",
+    "github": "mpadge",
+    "home": "/author/mark-padgham"
+  },
+  {
+    "name": "Maëlle Salmon",
+    "affiliation": "Research Software Engineer",
+    "url": "/author/maëlle-salmon",
+    "image": "/img/team/maelle_salmon.jpg",
+    "credit": "Photo Julie Noury Soyer https://www.photographe-julienourysoyer.com/",
+    "roles": [
       "staff",
       "developer",
       "editor"
-   ],
-   "participates": [
-     "champions",
-     "software-review",
-     "multilingual-publishing",
-     "r-universe"
-   ],
-   "generalreview": true,
-   "mastodon": "https://mastodon.social/@maelle",
-   "github": "maelle",
-   "home": "/author/maëlle-salmon",
-   "bluesky": "masalmon.eu"
-},
-{
-   "name": "Steffi LaZerte",
-   "url": "/author/steffi-lazerte/",
-   "image" : "/img/team/steffi-lazerte.jpg",
-   "affiliation" : "Community Assistant",
-   "roles": [
+    ],
+    "participates": [
+      "champions",
+      "software-review",
+      "multilingual-publishing",
+      "r-universe"
+    ],
+    "generalreview": true,
+    "mastodon": "https://mastodon.social/@maelle",
+    "github": "maelle",
+    "home": "/author/maëlle-salmon",
+    "bluesky": "masalmon.eu"
+  },
+  {
+    "name": "Steffi LaZerte",
+    "url": "/author/steffi-lazerte/",
+    "image": "/img/team/steffi-lazerte.jpg",
+    "affiliation": "Community Assistant",
+    "roles": [
       "staff",
       "developer"
-   ],
-   "leads": [
+    ],
+    "leads": [
       "coworking"
-   ],
-   "participates": [
+    ],
+    "participates": [
       "blog",
       "commcalls",
       "champions",
       "multilingual-publishing"
-   ],
-   "twitter": "steffilazerte",
-   "mastodon": "https://fosstodon.org/@steffilazerte",
-   "linkedin": "https://www.linkedin.com/in/steffi-lazerte",
-   "github": "steffilazerte",
-   "home": "/author/steffi-lazerte"
-},
-{
-   "name": "Stacey Dorton",
-   "affiliation": "Administrative Manager",
-   "image" : "/img/team/stacey.jpg",
-   "past_roles": [
+    ],
+    "twitter": "steffilazerte",
+    "mastodon": "https://fosstodon.org/@steffilazerte",
+    "linkedin": "https://www.linkedin.com/in/steffi-lazerte",
+    "github": "steffilazerte",
+    "home": "/author/steffi-lazerte"
+  },
+  {
+    "name": "Stacey Dorton",
+    "affiliation": "Administrative Manager",
+    "image": "/img/team/stacey.jpg",
+    "past_roles": [
       "staff"
-   ],
- "alumnus": true  
-},
-{
-   "name": "Carl Boettiger",
-   "url": "https://carlboettiger.info/",
-   "image" : "/img/team/carl.jpg",
-   "affiliation" : "University of California, Berkeley",
-   "roles": [
+    ],
+    "alumnus": true
+  },
+  {
+    "name": "Carl Boettiger",
+    "url": "https://carlboettiger.info/",
+    "image": "/img/team/carl.jpg",
+    "affiliation": "University of California, Berkeley",
+    "roles": [
       "co-founder",
       "strategic advisor"
-   ],
-   "twitter": "cboettig",
-   "github": "cboettig",
-   "home": "https://www.carlboettiger.info/"
-},
-{
-   "name": "Jenny Bryan",
-   "url": "https://jennybryan.org/",
-   "image" : "/img/team/jenny_bryan.jpg",
-   "affiliation" : "Posit",
-   "roles": [
+    ],
+    "twitter": "cboettig",
+    "github": "cboettig",
+    "home": "https://www.carlboettiger.info/"
+  },
+  {
+    "name": "Jenny Bryan",
+    "url": "https://jennybryan.org/",
+    "image": "/img/team/jenny_bryan.jpg",
+    "affiliation": "Posit",
+    "roles": [
       "strategic advisor"
-   ],
-   "twitter": "JennyBryan",
-   "github": "jennybc",
-   "home": "https://jennybryan.org/"
-},
-{
-   "name": "Rich FitzJohn",
-   "url": "https://richfitz.github.io/",
-   "image" : "/img/team/rich-fitzjohn.jpg",
-   "affiliation" : "Imperial College London",
-   "roles": [
+    ],
+    "twitter": "JennyBryan",
+    "github": "jennybc",
+    "home": "https://jennybryan.org/"
+  },
+  {
+    "name": "Rich FitzJohn",
+    "url": "https://richfitz.github.io/",
+    "image": "/img/team/rich-fitzjohn.jpg",
+    "affiliation": "Imperial College London",
+    "roles": [
       "strategic advisor"
-   ],
-   "twitter": "rgfitzjohn",
-   "github": "richfitz",
-   "home": "https://richfitz.github.io/"
-},
-{
-   "name": "Anna Krystalli",
-   "url": "http://annakrystalli.me/",
-   "image" : "/img/team/anna-krystalli.jpg",
-   "affiliation" : "Research Software Engineering consultant / Data Scientist",
-   "roles": [
+    ],
+    "twitter": "rgfitzjohn",
+    "github": "richfitz",
+    "home": "https://richfitz.github.io/"
+  },
+  {
+    "name": "Anna Krystalli",
+    "url": "http://annakrystalli.me/",
+    "image": "/img/team/anna-krystalli.jpg",
+    "affiliation": "Research Software Engineering consultant / Data Scientist",
+    "roles": [
       "editor"
-   ],
-   "generalreview": true,
-   "twitter": "annakrystalli",
-   "mastodon": "https://fosstodon.org/@annakrystalli",
-   "github": "annakrystalli",
-   "home": "https://annakrystalli.me/"
-},
-{
-   "name": "Lincoln Mullen",
-   "url": "https://lincolnmullen.com/",
-   "image" : "/img/team/lincoln-mullen.jpg",
-   "affiliation" : "George Mason University",
-   "past_roles": [
+    ],
+    "generalreview": true,
+    "twitter": "annakrystalli",
+    "mastodon": "https://fosstodon.org/@annakrystalli",
+    "github": "annakrystalli",
+    "home": "https://annakrystalli.me/"
+  },
+  {
+    "name": "Lincoln Mullen",
+    "url": "https://lincolnmullen.com/",
+    "image": "/img/team/lincoln-mullen.jpg",
+    "affiliation": "George Mason University",
+    "past_roles": [
       "editor"
-   ],
-   "generalreview": true,
-   "alumnus": true
-},
-{
-   "name": "Brooke Anderson",
-   "url": "http://csu-cvmbs.colostate.edu/academics/erhs/Pages/brooke-anderson.aspx",
-   "image" : "/img/team/brooke-anderson.jpg",
-   "affiliation" : "Colorado State University",
-   "past_roles": [
+    ],
+    "generalreview": true,
+    "alumnus": true
+  },
+  {
+    "name": "Brooke Anderson",
+    "url": "http://csu-cvmbs.colostate.edu/academics/erhs/Pages/brooke-anderson.aspx",
+    "image": "/img/team/brooke-anderson.jpg",
+    "affiliation": "Colorado State University",
+    "past_roles": [
       "editor"
-   ],
-   "twitter": "gbwanderson",
-   "github": "geanders",
-   "home": "http://csu-cvmbs.colostate.edu/academics/erhs/Pages/brooke-anderson.aspx",
-   "generalreview": true,
-   "alumnus": true
-},
-{
-   "name": "Melina Vidoni",
-   "url": "https://melvidoni.rbind.io/",
-   "image" : "/img/team/melina-vidoni.jpg",
-   "affiliation" : "RMIT University",
-   "past_roles": [
+    ],
+    "twitter": "gbwanderson",
+    "github": "geanders",
+    "home": "http://csu-cvmbs.colostate.edu/academics/erhs/Pages/brooke-anderson.aspx",
+    "generalreview": true,
+    "alumnus": true
+  },
+  {
+    "name": "Melina Vidoni",
+    "url": "https://melvidoni.rbind.io/",
+    "image": "/img/team/melina-vidoni.jpg",
+    "affiliation": "RMIT University",
+    "past_roles": [
       "editor"
-   ],
-   "generalreview": true,
-   "alumnus": true,
-   "twitter": "melvidoni",
-   "mastodon": "https://mastodon.social/@drmelvidoni",
-   "github": "melvidoni",
-   "home": "https://melvidoni.rbind.io/"
-},
-{
-   "name": "Mauro Lepore",
-   "url": "https://github.com/maurolepore/",
-   "image" : "/img/team/mauro-lepore.jpg",
-   "affiliation" : "Theia Finance Labs",
-   "roles": [
+    ],
+    "generalreview": true,
+    "alumnus": true,
+    "twitter": "melvidoni",
+    "mastodon": "https://mastodon.social/@drmelvidoni",
+    "github": "melvidoni",
+    "home": "https://melvidoni.rbind.io/"
+  },
+  {
+    "name": "Mauro Lepore",
+    "url": "https://github.com/maurolepore/",
+    "image": "/img/team/mauro-lepore.jpg",
+    "affiliation": "Theia Finance Labs",
+    "roles": [
       "editor"
-   ],
-   "generalreview": true,
-   "LinkedIn": "https://www.linkedin.com/in/mauro-lepore/",
-   "github": "maurolepore",
-   "home": "https://github.com/maurolepore/"
-},
-{
-   "name": "Laura DeCicco",
-   "url": "https://github.com/ldecicco-USGS",
-   "image" : "/img/team/laura-decicco.jpg",
-   "affiliation" : "USGS",
-   "roles": [
+    ],
+    "generalreview": true,
+    "LinkedIn": "https://www.linkedin.com/in/mauro-lepore/",
+    "github": "maurolepore",
+    "home": "https://github.com/maurolepore/"
+  },
+  {
+    "name": "Laura DeCicco",
+    "url": "https://github.com/ldecicco-USGS",
+    "image": "/img/team/laura-decicco.jpg",
+    "affiliation": "USGS",
+    "roles": [
       "editor"
-   ],
-   "generalreview": true,
-   "mastodon": "https://fosstodon.org/@ldecicco",
-   "github": "ldecicco-USGS"
-},
-{
-   "name": "Julia Gustavsen",
-   "url": "https://www.juliagustavsen.com/",
-   "image" : "/img/team/julia-gustavsen.jpg",
-   "affiliation" : "Agroscope",
-   "roles": [
+    ],
+    "generalreview": true,
+    "mastodon": "https://fosstodon.org/@ldecicco",
+    "github": "ldecicco-USGS"
+  },
+  {
+    "name": "Julia Gustavsen",
+    "url": "https://www.juliagustavsen.com/",
+    "image": "/img/team/julia-gustavsen.jpg",
+    "affiliation": "Agroscope",
+    "roles": [
       "editor"
-   ],
-   "generalreview": true,
-   "twitter": "JuliaGustavsen",
-   "github": "jooolia",
-   "home": "https://www.juliagustavsen.com/"
-},
-{
-   "name": "Emily Riederer",
-   "url": "https://emilyriederer.netlify.com/",
-   "image" : "/img/team/emily-riederer.jpg",
-   "affiliation" : "Capital One",
-   "roles": [
+    ],
+    "generalreview": true,
+    "twitter": "JuliaGustavsen",
+    "github": "jooolia",
+    "home": "https://www.juliagustavsen.com/"
+  },
+  {
+    "name": "Emily Riederer",
+    "url": "https://emilyriederer.netlify.com/",
+    "image": "/img/team/emily-riederer.jpg",
+    "affiliation": "Capital One",
+    "roles": [
       "editor"
-   ],
-   "generalreview": true,
-   "twitter": "emilyriederer",
-   "github": "emilyriederer",
-   "home": "https://emilyriederer.netlify.com/"
-},
-{
-   "name": "Adam Sparks",
-   "url": "https://adamhsparks.netlify.app/",
-   "image" : "/img/team/adam-sparks.jpg",
-   "affiliation" : "Curtin University",
-   "roles": [
+    ],
+    "generalreview": true,
+    "twitter": "emilyriederer",
+    "github": "emilyriederer",
+    "home": "https://emilyriederer.netlify.com/"
+  },
+  {
+    "name": "Adam Sparks",
+    "url": "https://adamhsparks.netlify.app/",
+    "image": "/img/team/adam-sparks.jpg",
+    "affiliation": "Curtin University",
+    "roles": [
       "editor"
-   ],
-   "generalreview": true,
-   "stats": true,
-   "linkedin": "https://linkedin.com/in/adam-h-sparks",
-   "mastodon": "https://rstats.me/@adamhsparks",
-   "github": "adamhsparks",
-   "home": "https://adamhsparks.netlify.app/"
-}, 
-{
-   "name": "Jeff Hollister",
-   "url": "https://jwhollister.com/",
-   "image" : "/img/team/jeff-hollister.jpg",
-   "affiliation" : "US Environmental Protection Agency",
-   "roles": [
+    ],
+    "generalreview": true,
+    "stats": true,
+    "linkedin": "https://linkedin.com/in/adam-h-sparks",
+    "mastodon": "https://rstats.me/@adamhsparks",
+    "github": "adamhsparks",
+    "home": "https://adamhsparks.netlify.app/"
+  },
+  {
+    "name": "Jeff Hollister",
+    "url": "https://jwhollister.com/",
+    "image": "/img/team/jeff-hollister.jpg",
+    "affiliation": "US Environmental Protection Agency",
+    "roles": [
       "editor"
-   ],
-   "generalreview": true,
-   "mastodon": "https://fosstodon.org/@jhollist",
-   "github": "jhollist",
-   "home": "https://jwhollister.com/"
-}, 
-{
-   "name": "Ben Bolker",
-   "url": "https://ms.mcmaster.ca/~bolker/",
-   "image": "/img/team/ben-bolker.jpg",
-   "affiliation": "McMaster University",
-   "past_roles": [
+    ],
+    "generalreview": true,
+    "mastodon": "https://fosstodon.org/@jhollist",
+    "github": "jhollist",
+    "home": "https://jwhollister.com/"
+  },
+  {
+    "name": "Ben Bolker",
+    "url": "https://ms.mcmaster.ca/~bolker/",
+    "image": "/img/team/ben-bolker.jpg",
+    "affiliation": "McMaster University",
+    "past_roles": [
       "stat peer-review advisor",
       "editor"
-   ],
-   "stats": true,
-   "alumnus": true,
-   "twitter": "bolkerb",
-   "home": "https://ms.mcmaster.ca/~bolker/"
-},
-{
-   "name": "Ted Hart",
-   "image": "/img/team/ted_hart.jpg",
-   "affiliation": "-",
-   "past_roles": [
+    ],
+    "stats": true,
+    "alumnus": true,
+    "twitter": "bolkerb",
+    "home": "https://ms.mcmaster.ca/~bolker/"
+  },
+  {
+    "name": "Ted Hart",
+    "image": "/img/team/ted_hart.jpg",
+    "affiliation": "-",
+    "past_roles": [
       "former core team member"
-   ],
-   "alumnus": true
-},
-{
-   "name": "Rebecca Killick",
-   "affiliation": "Lancaster University",
-   "url": "http://www.lancs.ac.uk/~killick/",
-   "image": "/img/team/rebecca-killick.jpg",
-   "roles": [
+    ],
+    "alumnus": true
+  },
+  {
+    "name": "Rebecca Killick",
+    "affiliation": "Lancaster University",
+    "url": "http://www.lancs.ac.uk/~killick/",
+    "image": "/img/team/rebecca-killick.jpg",
+    "roles": [
       "stat peer-review advisor",
       "editor"
-   ],
-   "stats": true,
-   "home": "http://www.lancs.ac.uk/~killick/"
-},
-{
-   "name": "Stephanie Hicks",
-   "url": "https://www.stephaniehicks.com/",
-   "image": "/img/team/stephanie-hicks.jpg",
-   "affiliation" : "Johns Hopkins University",
-   "past_roles": [
+    ],
+    "stats": true,
+    "home": "http://www.lancs.ac.uk/~killick/"
+  },
+  {
+    "name": "Stephanie Hicks",
+    "url": "https://www.stephaniehicks.com/",
+    "image": "/img/team/stephanie-hicks.jpg",
+    "affiliation": "Johns Hopkins University",
+    "past_roles": [
       "stat peer-review advisor",
       "editor"
-   ],
-   "stats": true,
-   "alumnus": true,
-   "twitter": "stephaniehicks",
-   "home": "https://www.stephaniehicks.com/"
-},
-{
-   "name": "Paula Moraga",
-   "affiliation": "King Abdullah University of Science and Technology",
-   "url": "https://www.paulamoraga.com/",
-   "image": "/img/team/paula-moraga.jpg",
-   "past_roles": [
+    ],
+    "stats": true,
+    "alumnus": true,
+    "twitter": "stephaniehicks",
+    "home": "https://www.stephaniehicks.com/"
+  },
+  {
+    "name": "Paula Moraga",
+    "affiliation": "King Abdullah University of Science and Technology",
+    "url": "https://www.paulamoraga.com/",
+    "image": "/img/team/paula-moraga.jpg",
+    "past_roles": [
       "stat peer-review advisor",
       "editor"
-   ],
-   "stats": true,
-   "alumnus": true,
-   "twitter": "Paula_Moraga_",
-   "home": "http://www.paulamoraga.com/"
-},
-{
-   "name": "Leonardo Collado-Torres",
-   "affiliation": "Lieber Institute for Brain Development",
-   "url": "https://lcolladotor.github.io",
-   "image": "/img/team/leo-torres.png",
-   "past_roles": [
+    ],
+    "stats": true,
+    "alumnus": true,
+    "twitter": "Paula_Moraga_",
+    "home": "http://www.paulamoraga.com/"
+  },
+  {
+    "name": "Leonardo Collado-Torres",
+    "affiliation": "Lieber Institute for Brain Development",
+    "url": "https://lcolladotor.github.io",
+    "image": "/img/team/leo-torres.png",
+    "past_roles": [
       "stat peer-review advisor",
       "editor"
-   ],
-   "stats": true,
-   "alumnus": true,
-   "twitter": "lcolladotor",
-   "home": "https://lcolladotor.github.io"
-},
-{
-   "name": "Toby Hocking",
-   "affiliation": "Northern Arizona University",
-   "url": "http://tdhock.github.io/",
-   "image": "/img/team/toby-hocking.jpg",
-   "roles": [
+    ],
+    "stats": true,
+    "alumnus": true,
+    "twitter": "lcolladotor",
+    "home": "https://lcolladotor.github.io"
+  },
+  {
+    "name": "Toby Hocking",
+    "affiliation": "Northern Arizona University",
+    "url": "http://tdhock.github.io/",
+    "image": "/img/team/toby-hocking.jpg",
+    "roles": [
       "stat peer-review advisor",
       "editor"
-   ],
-   "stats": true,
-   "home": "https://tdhock.github.io"
-},
-{
-   "name": "Max Kuhn",
-   "affiliation": "Posit",
-   "url": "http://appliedpredictivemodeling.com/",
-   "image": "/img/team/max-kuhn.jpg",
-   "past_roles": [
+    ],
+    "stats": true,
+    "home": "https://tdhock.github.io"
+  },
+  {
+    "name": "Max Kuhn",
+    "affiliation": "Posit",
+    "url": "http://appliedpredictivemodeling.com/",
+    "image": "/img/team/max-kuhn.jpg",
+    "past_roles": [
       "stat peer-review advisor"
-   ],
-   "stats": true,
-   "alumnus": true,
-   "twitter": "topepos",
-   "home": "https://appliedpredictivemodeling.com/"
-},
-{
-   "name": "Martin Morgan",
-   "affiliation": "Roswell Park Comprehensive Cancer Center",
-   "url": "https://www.roswellpark.org/martin-morgan",
-   "image": "/img/team/martin-morgan.jpg",
-   "past_roles": [
+    ],
+    "stats": true,
+    "alumnus": true,
+    "twitter": "topepos",
+    "home": "https://appliedpredictivemodeling.com/"
+  },
+  {
+    "name": "Martin Morgan",
+    "affiliation": "Roswell Park Comprehensive Cancer Center",
+    "url": "https://www.roswellpark.org/martin-morgan",
+    "image": "/img/team/martin-morgan.jpg",
+    "past_roles": [
       "stat peer-review advisor"
-   ],
-   "stats": true,
-   "alumnus": true,
-   "twitter": "mt_morgan",
-   "home": "https://www.roswellpark.org/martin-morgan"
-},
-{
-   "name": "Emi Tanaka",
-   "affiliation": "Biological Data Science Institute, Australian National University",
-   "url": "https://emitanaka.org/",
-   "image": "/img/team/emi-tanaka.jpg",
-   "roles": [
+    ],
+    "stats": true,
+    "alumnus": true,
+    "twitter": "mt_morgan",
+    "home": "https://www.roswellpark.org/martin-morgan"
+  },
+  {
+    "name": "Emi Tanaka",
+    "affiliation": "Biological Data Science Institute, Australian National University",
+    "url": "https://emitanaka.org/",
+    "image": "/img/team/emi-tanaka.jpg",
+    "roles": [
       "editor"
-   ],
-   "stats": true,
-   "twitter": "statsgen",
-   "home": "https://emitanaka.org/"
-},
-{
-   "name": "Jouni Helske",
-   "affiliation": "University of Jyväskylä, Finland",
-   "url": "https://jounihelske.netlify.app/",
-   "image": "/img/team/jouni-helske.jpg",
-   "roles": [
+    ],
+    "stats": true,
+    "twitter": "statsgen",
+    "home": "https://emitanaka.org/"
+  },
+  {
+    "name": "Jouni Helske",
+    "affiliation": "University of Jyväskylä, Finland",
+    "url": "https://jounihelske.netlify.app/",
+    "image": "/img/team/jouni-helske.jpg",
+    "roles": [
       "editor"
-   ],
-   "stats": true,
-   "twitter": "jouni_helske",
-   "home": "https://jounihelske.netlify.app/"
-},
-{
-   "name": "Beatriz Milz",
-   "affiliation": "",
-   "url": "https://beamilz.com/",
-   "image": "/img/team/beatriz-milz.jpeg",
-   "roles": [
+    ],
+    "stats": true,
+    "twitter": "jouni_helske",
+    "home": "https://jounihelske.netlify.app/"
+  },
+  {
+    "name": "Beatriz Milz",
+    "affiliation": "",
+    "url": "https://beamilz.com/",
+    "image": "/img/team/beatriz-milz.jpeg",
+    "roles": [
       "editor"
-   ],
-   "generalreview": true,
-   "github": "beatrizmilz",
-   "home": "https://beamilz.com/"
-},
-{
-   "name": "Margaret Siple",
-   "affiliation": "NOAA AFSC Groundfish Assessment Program - RACE division",
-   "url": "https://github.com/MargaretSiple-NOAA",
-   "image": "/img/team/margaret-siple.jpg",
-   "roles": [
+    ],
+    "generalreview": true,
+    "github": "beatrizmilz",
+    "home": "https://beamilz.com/"
+  },
+  {
+    "name": "Margaret Siple",
+    "affiliation": "NOAA AFSC Groundfish Assessment Program - RACE division",
+    "url": "https://github.com/MargaretSiple-NOAA",
+    "image": "/img/team/margaret-siple.jpg",
+    "roles": [
       "editor"
-   ],
-   "generalreview": true,
-   "home": "https://github.com/MargaretSiple-NOAA"
-},
-{
-   "name": "Nima Hejazi",
-   "affiliation": "Harvard Chan School of Public Health",
-   "linkedin": "https://linkedin.com/in/nshejazi",
-   "github": "nhejazi",
-   "bluesky": "nshejazi.bsky.social",
-   "url": "https://nimahejazi.org/",
-   "image": "/img/team/nima-hejazi.jpg",
-   "roles": [
+    ],
+    "generalreview": true,
+    "home": "https://github.com/MargaretSiple-NOAA"
+  },
+  {
+    "name": "Nima Hejazi",
+    "affiliation": "Harvard Chan School of Public Health",
+    "linkedin": "https://linkedin.com/in/nshejazi",
+    "github": "nhejazi",
+    "bluesky": "nimahejazi.org",
+    "url": "https://nimahejazi.org/",
+    "image": "/img/team/nima-hejazi.jpg",
+    "roles": [
       "editor"
-   ],
-   "stats": true,
-   "home": "https://nimahejazi.org/"
-},
-{
-   "name": "Kelly Hondula",
-   "url": "https://www.sesync.org/users/khondula",
-   "image" : "/img/team/kelly-hondula.jpg",
-   "affiliation" : "University of Maryland, SESYNC",
-   "roles": [
+    ],
+    "stats": true,
+    "home": "https://nimahejazi.org/"
+  },
+  {
+    "name": "Kelly Hondula",
+    "url": "https://www.sesync.org/users/khondula",
+    "image": "/img/team/kelly-hondula.jpg",
+    "affiliation": "University of Maryland, SESYNC",
+    "roles": [
       "fellow"
-   ]
-},
-{
-   "name": "Zachary Foster",
-   "url": "https://github.com/zachary-foster",
-   "image" : "/img/team/zachary-foster.jpg",
-   "affiliation" : "Oregon State University",
-   "roles": [
+    ]
+  },
+  {
+    "name": "Zachary Foster",
+    "url": "https://github.com/zachary-foster",
+    "image": "/img/team/zachary-foster.jpg",
+    "affiliation": "Oregon State University",
+    "roles": [
       "fellow"
-   ]
-},
-{
-   "name": "Sam Tyner",
-   "url": "https://sctyner.github.io/",
-   "image" : "/img/team/sam-tyner.jpg",
-   "affiliation" : "Iowa State University, CSAFE",
-   "roles": [
+    ]
+  },
+  {
+    "name": "Sam Tyner",
+    "url": "https://sctyner.github.io/",
+    "image": "/img/team/sam-tyner.jpg",
+    "affiliation": "Iowa State University, CSAFE",
+    "roles": [
       "fellow"
-   ]
-},
-{
-   "name": "Jon Zelner",
-   "url": "http://www.jonzelner.net/",
-   "image" : "/img/team/jon-zelner.jpg",
-   "affiliation" : "University of Michigan",
-   "roles": [
+    ]
+  },
+  {
+    "name": "Jon Zelner",
+    "url": "http://www.jonzelner.net/",
+    "image": "/img/team/jon-zelner.jpg",
+    "affiliation": "University of Michigan",
+    "roles": [
       "fellow"
-   ]
-},
-{
-   "name": "Nick Golding",
-   "url": "https://github.com/goldingn",
-   "image" : "/img/team/nick-golding.jpg",
-   "affiliation" : "Curtin University, Perth, Australia",
-   "roles": [
+    ]
+  },
+  {
+    "name": "Nick Golding",
+    "url": "https://github.com/goldingn",
+    "image": "/img/team/nick-golding.jpg",
+    "affiliation": "Curtin University, Perth, Australia",
+    "roles": [
       "fellow"
-   ]
-},
-{
-   "name": "Dan Sholler",
-   "url": "/authors/dan-sholler",
-   "image" : "/img/team/dan-sholler.jpg",
-   "past_roles": [
+    ]
+  },
+  {
+    "name": "Dan Sholler",
+    "url": "/authors/dan-sholler",
+    "image": "/img/team/dan-sholler.jpg",
+    "past_roles": [
       "postdoc"
-   ],
-   "alumnus": true
-},{
-   "name": "Hadley Wickham",
-   "url": "http://hadley.nz/",
-   "image" : "/img/team/hadley-wickham.jpg",
-   "affiliation" : "Posit",
-   "roles": [
+    ],
+    "alumnus": true
+  },
+  {
+    "name": "Hadley Wickham",
+    "url": "http://hadley.nz/",
+    "image": "/img/team/hadley-wickham.jpg",
+    "affiliation": "Posit",
+    "roles": [
       "advisor"
-   ]
-},
-{
-   "name": "JJ Allaire",
-   "url": "https://github.com/jjallaire",
-   "image" : "/img/team/jj-allaire.jpg",
-   "affiliation" : "Posit",
-   "roles": [
+    ]
+  },
+  {
+    "name": "JJ Allaire",
+    "url": "https://github.com/jjallaire",
+    "image": "/img/team/jj-allaire.jpg",
+    "affiliation": "Posit",
+    "roles": [
       "advisor"
-   ]
-},
-{
-   "name": "Matt Jones",
-   "url": "http://matt.magisa.org/",
-   "image" : "/img/team/matt-jones.jpg",
-   "affiliation" : "NCEAS",
-   "roles": [
+    ]
+  },
+  {
+    "name": "Matt Jones",
+    "url": "http://matt.magisa.org/",
+    "image": "/img/team/matt-jones.jpg",
+    "affiliation": "NCEAS",
+    "roles": [
       "advisor"
-   ]
-}]
+    ]
+  }
+]
