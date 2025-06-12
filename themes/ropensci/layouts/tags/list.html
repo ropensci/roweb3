@@ -11,11 +11,14 @@
           </div>
           <div class="col-md-3">
             <div class="text-md-right">
-              {{ if eq .Title "newsletter" }}
+              {{ if eq ( lower .Title ) "newsletter" }}
               <a href="/news" class="btn btn-primary"><i class="fas fa-envelope-square"></i> Email</a>
-              {{ end }}
+              <a href='{{ absLangURL "tags/newsletter/index.xml"}}' class="btn btn-primary">RSS</a>
+              <a href='{{ absLangURL "tags/newsletter/index.json"}}' class="btn btn-primary">JSON</a>
+              {{ else }}
               <a href='{{ absLangURL "rbloggers/index.xml"}}' class="btn btn-primary">RSS</a>
               <a href='{{ absLangURL "rbloggers/index.json"}}' class="btn btn-primary">JSON</a>
+              {{ end }}
             </div>
           </div>
         </div>
