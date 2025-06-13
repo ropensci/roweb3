@@ -3,7 +3,7 @@ title: "Multilingual Publishing: Frequently Asked Questions"
 author: 
 - Yanina Bellini Saibene
 - Maëlle Salmon
-editor: 
+editor: Steffi LaZerte
 date: '2025-06-13'
 slug: translation-faq
 output: hugodown::md_document
