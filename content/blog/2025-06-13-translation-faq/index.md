@@ -16,7 +16,7 @@ params:
 
 As we've [said before](/multilingual-publishing), we believe that publishing multilingual resources can lower the barrier to access to knowledge, help democratize access to quality resources and increase the possibilities of contributing to software and open science projects.
 Our ongoing efforts at [multilingual publishing](/multilingual-publishing) are crucial work for rOpenSci's [mission](/about).
-When discusing this project at [conferences](/talks-papers/) and [elsewhere](/commcalls/nov2023-multilingual/), we start an important conversation with people less familiar with such projects or unfamiliar with our specific [workflows](https://translationguide.ropensci.org/).
+When discussing this project at [conferences](/talks-papers/) and [elsewhere](/commcalls/nov2023-multilingual/), we start an important conversation with people less familiar with such projects or unfamiliar with our specific [workflows](https://translationguide.ropensci.org/).
 In this post, we summarize frequently asked questions, and our best answers to them (even better formulated than in the heat of a post-talk Q&A session :grin:).
 
 ## Will translations make people “lazy” in that they won’t learn English?
