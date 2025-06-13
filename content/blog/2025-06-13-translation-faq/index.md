@@ -10,6 +10,7 @@ output: hugodown::md_document
 tags:
   - multilingual
   - community
+  - diversity
 params:
   doi: "10.59350/yrdbt-xk458"
 ---
