@@ -10,7 +10,7 @@ description:
 params:
   last_newsletter: '2025-05-26'
   doi: "10.59350/e4wq0-j73"
-rmd_hash: d04e887ce7a85238
+rmd_hash: 62817d2945afecbd
 
 ---
 
@@ -20,7 +20,7 @@ Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> Y
 
 ## rOpenSci HQ
 
-### New software review editors
+### New software review editors
 
 We are excited to welcome [Emi Tanaka](https://emitanaka.org/) and, more recently, [Nima Hejazi](https://nimahejazi.org/) to our team of [Associate Editors](/software-review/#editors) for rOpenSci [Stats Software Peer Review](/software-review/). Emi brings her experiences in experimental design, mixed-effects models and data visualisation, while Nima contributes his expertise in causal inference, de-biased machine learning and semi-parametric statistics, and computational statistics.
 
@@ -169,7 +169,7 @@ Refer to our [help wanted page](/help-wanted/) -- before opening a PR, we recomm
 
 Some useful tips for R package developers. :eyes:
 
-## Refactoring code with {flir}
+### Refactoring code with {flir}
 
 Etienne Bacher [explains](https://www.etiennebacher.com/posts/2025-05-23-refactoring-code-with-flir/) how to use his flir package to, for instance, replace the usage of a superseded function with a newer function over a project. Note that from flir 0.4.3, it will be possible to [share rules across packages](https://flir.etiennebacher.com/articles/sharing_rules).
 
