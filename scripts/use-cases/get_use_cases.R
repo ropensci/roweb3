@@ -25,7 +25,12 @@ handle_discussion <- function(discussion) {
     body,
     "//heading[contains(., 'URL')]/following-sibling::paragraph"
   ) |>
-    xml2::xml_text()
+    xml2::xml_text() |>
+    trimws()
+  not_single_url <- grepl(" ", url)
+  if (not_single_url) {
+    url <- discussion[["html_url"]]
+  }
 
   image <- xml2::xml_find_first(
     body,
@@ -77,7 +82,7 @@ handle_discussion <- function(discussion) {
     "GET /users/{user}",
     user = discussion$user$login
   )$name
-  reporter <- sprintf("[%s](%s)", reporter_name, discussion$user$url)
+  reporter <- sprintf("[%s](%s)", reporter_name, discussion$user$html_url)
 
   date <- as.Date(discussion$created_at)
 
