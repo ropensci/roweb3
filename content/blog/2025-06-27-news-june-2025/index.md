@@ -10,7 +10,7 @@ description:
 params:
   last_newsletter: '2025-05-26'
   doi: "10.59350/e4wq0-j73"
-rmd_hash: ad200d32ee99950b
+rmd_hash: d04e887ce7a85238
 
 ---
 
@@ -32,7 +32,9 @@ Furthermore, build results are now easier to navigate. On any [universe builds t
 
 ### Champions Program 2025
 
-TODO Yani.
+We are excited to introduce the new team of mentors for the rOpenSci Champions Program! This year, we have ten very talented individuals, all from Latin America, who bring a unique combination of experience, enthusiasm, and commitment to open science. Some of them have already been part of the program in previous editions, either as mentors or Champions, and today, they return to continue strengthening this community. Read more in the [blog post introducing all of them](/blog/2025/06/05/mentors-2025/): Carolina Pradier, Elina Gómez, Elio Campitelli, Francisco Cardozo, Geraldine Gómez Millán, Luis D. Verde Arregoitia, Milagros Mendoza, Pablo Tiscornia, Pao Corrales, Ronny Hernandez Mora.
+
+TODO Yani: champions selection?
 
 ### Coworking
 
