@@ -3,7 +3,7 @@
     <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
     <link>{{ .Permalink }}</link>
     <description>Recent content {{ if ne  .Title  .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</description>
-    <generator>Hugo -- gohugo.io</generator>{{ with .Site.LanguageCode }}
+    <generator>Hugo -- gohugo.io</generator>{{ with .Language.Lang }}
     <language>{{.}}</language>{{end}}{{ with .Site.Author.email }}
     <managingEditor>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</managingEditor>{{end}}{{ with .Site.Author.email }}
     <webMaster>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</webMaster>{{end}}{{ with .Site.Copyright }}
@@ -21,16 +21,15 @@
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
       <description>
+        {{ if eq .Type "commcalls" }} {{ (partial "commcalls/feed-link" .) | html }}{{ end }} 
+        {{ $translations := "" }}
+        {{ $string := "" }}
         {{ if .IsTranslated }}
         {{ range .Translations }}
-          <i><a href="{{ .Permalink }}">Read it in: {{ .Language.LanguageName }}</a>.</i>
+        {{ $string = (printf "<p><a href='%s'>Read it in: %s</a>.</p>" .Permalink .Language.LanguageName) }} 
+        {{ $translations = (printf "%s%s" $translations $string) }}
         {{ end }}
-        {{ end }}
-        {{ if .Params.cover }}
-        &lt;img src=&quot;{{ .Params.cover | safeHTML }}&quot; alt=&quot;cover image&quot;&gt;
-        {{ end }}
-        {{ if eq .Type "commcalls" }} {{ (partial "commcalls/feed-link" .) | html }}{{ end }} 
-        {{ .Content | html }}
+        {{ end }}{{ (printf "%s %s" $translations .Content) | html }}
       {{ if eq .Type "commcalls" }} {{ (partial "commcalls/speakers" .) | html }}{{ end }}
       {{ if eq .Type "commcalls" }} {{ (partial "commcalls/resources" .) | html }}{{ end }}
       {{ if eq .Type "commcalls" }} {{ (partial "commcalls/join" .) | html }}{{ end }}

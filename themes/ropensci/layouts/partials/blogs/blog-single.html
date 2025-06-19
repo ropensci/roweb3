@@ -122,4 +122,5 @@ For more information, visit the <a href="/r-universe/">r-universe project page</
     </div>
   </div>
 </section>
-{{ partial "whole-page-fragments/newsletter"  (dict "divider" "lr" ) }}
+{{ $newsletterpartial := (partial "translate-path" (dict "name" "whole-page-fragments/newsletter" "language" .Language.Lang )) }}
+{{ partial $newsletterpartial (dict "Site" .Site "divider" "lr" )  }}
