@@ -25,10 +25,9 @@ In this post, we summarize frequently asked questions, and our best answers to t
 First of all, it's important to be clear that *not* learning English doesn’t mean people are lazy. 
 Many people who do not speak English already speak several languages, and even if they only speak one, working on one’s project with the tools at one’s disposal is already work enough. 
 
-Now, people might still choose to learn English later, for instance to take part in some conversations in English, but it won’t have been an issue for them to have first learnt how to, say, develop software using French.
-Do we want people to learn how to use some tools or do we want them to be English speakers? 
-In our case, we want people to be able to use and contribute to open-source tools without first having to become English speakers,
-because we are aware of the "manifold costs of being a non-native English speaker in science"[^amano].
+
+Second, our goal is not for people to become English speakers. People can choose (or not) to learn English at any time, but having first learned how to, say, develop software using French isn't going to impede that. 
+Our goal is for people to be able to use and contribute to open-source tools, and this shouldn't be dependent on them speaking English. In science, not being a native English speaker is already hard enough and there is an large amount of "untapped potential of non-native English speakers"[^amano]. Let's release this potential!
 
 [^amano]: Amano T, Ramírez-Castañeda V, Berdejo-Espinola V, Borokini I, Chowdhury S, Golivets M, et al. (2023) The manifold costs of being a non-native English speaker in science. PLoS Biol 21(7): e3002184. https://doi.org/10.1371/journal.pbio.3002184
 
