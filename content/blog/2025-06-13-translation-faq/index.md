@@ -38,7 +38,8 @@ Further, there are several studies which have demonstrated the difficulties of l
 
 Gou[^gou] found that non-native English speakers faced barriers with reading instructional materials, technical communication, reading and writing code, and simultaneously learning English and programming. 
 These difficulties are rooted in the need to develop English understanding *at the same time* that they are expected to learn about the specific topic: in our case, how to develop research open source high quality software.
-
+ If you've ever tried to learn both statistics and R at the same time, you may have an idea of how hard this can be.
+ 
 Another study[^tshukudu] suggested that while learning to program in English isn't necessarily difficult for all non-English speakers, including students' native language can make the learning experience clearer, more supportive and more enjoyable. 
 
 If you are interested in learning more about this topic we suggest you follow [Felienne Hermans](https://www.felienne.com), who specializes in programming language design and developed a multilingual programming language for teaching. 
