@@ -34,7 +34,7 @@ She has a PhD in Statistics from the University of Sydney. Her primary interest 
 
 {{< /imgtxt >}}
 
-Emi on [GitHub](), [Website](), [rOpenSci](/author/emi-tanaka/).
+Emi on [GitHub](https://github.com/emitanaka), [Website](https://emitanaka.org/), [rOpenSci](/author/emi-tanaka/).
 
 {{< quote footer="Emi Tanaka" >}}
 
