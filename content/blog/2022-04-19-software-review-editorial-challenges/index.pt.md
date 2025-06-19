@@ -5,6 +5,7 @@ author:
 - Noam Ross
 date: '2022-04-19T00:00:02-07:00'
 slug: software-review-editorial-challenges
+translator: Francesca Belem Lopes Palmeira
 tags:
 - Software Peer Review
 - editors
