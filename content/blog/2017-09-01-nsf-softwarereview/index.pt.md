@@ -13,6 +13,7 @@ author:
 - Karthik Ram
 - Maëlle Salmon
 topicid: 850
+translator: Francesca Belem Lopes Palmeira
 tags:
 - software
 - Software Peer Review
