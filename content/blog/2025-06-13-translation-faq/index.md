@@ -11,6 +11,7 @@ tags:
   - multilingual
   - community
   - diversity
+  description: A list of frequently asked questions about our translation and localization process, and our best answers to them.
 params:
   doi: "10.59350/yrdbt-xk458"
 ---
