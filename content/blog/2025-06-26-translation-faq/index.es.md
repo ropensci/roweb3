@@ -11,6 +11,7 @@ tags:
 - multilingual
 - community
 - diversity
+description: Una lista de las preguntas más frecuentes sobre nuestro programa multilingüe y nuestro proceso de traducción y localización junto con nuestras mejores respuestas a ellas.
 params:
   doi: 10.59350/yrdbt-xk458
 ---
