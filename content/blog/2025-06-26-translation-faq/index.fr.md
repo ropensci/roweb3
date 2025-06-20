@@ -13,7 +13,7 @@ tags:
 - diversity
 description: Une liste de questions fréquemment posées sur notre programme multilingue et notre processus de traduction et de localisation, ainsi que nos meilleures réponses à ces questions.
 params:
-  doi: 10.59350/yrdbt-xk458
+  doi: 10.59350/60mwx-j6x33
 ---
 
 Comme nous l'avons [nous l'avons déjà dit](/multilingual-publishing), nous pensons que la publication de ressources multilingues peut abaisser la barrière d'accès au savoir, aider à démocratiser l'accès à des ressources de qualité et augmenter les possibilités de contribuer à des logiciels et à des projets de science ouverte.
