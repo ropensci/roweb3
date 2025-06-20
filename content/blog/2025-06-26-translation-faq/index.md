@@ -8,9 +8,9 @@ date: '2025-06-26'
 slug: translation-faq
 output: hugodown::md_document
 tags:
-  - multilingual
-  - community
-  - diversity
+- multilingual
+- community
+- diversity
   description: A list of frequently asked questions about our multilingual program and our translation and localization process, and our best answers to them.
 params:
   doi: "10.59350/yrdbt-xk458"
