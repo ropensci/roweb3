@@ -16,7 +16,7 @@ params:
   doi: 10.59350/xvth2-kck67
 ---
 
-Como hemos [dicho antes](/multilingual-publishing) creemos que publicar recursos multilingües puede reducir la barrera de acceso al conocimiento, ayudar a democratizar el acceso a recursos de calidad y aumentar las posibilidades de contribuir a proyectos de software y ciencia abierta.
+Como hemos [dicho antes](/es/multilingual-publishing/) creemos que publicar recursos multilingües puede reducir la barrera de acceso al conocimiento, ayudar a democratizar el acceso a recursos de calidad y aumentar las posibilidades de contribuir a proyectos de software y ciencia abierta.
 Nuestros esfuerzos en curso en [publicación multilingüe](/multilingual-publishing) son cruciales para la labor de rOpenSci [misión](/about).
 Al hablar de este proyecto en [conferencias](/talks-papers/) y [en otros lugares](/commcalls/nov2023-multilingual/) iniciamos una importante conversación con personas menos familiarizadas con este tipo de proyectos o que no están familiarizadas con nuestro proyecto específico. [flujos de trabajo](https://translationguide.ropensci.org/).
 En este post, resumimos las preguntas más frecuentes, y nuestras mejores respuestas a ellas (incluso mejor formuladas que en el fragor de una sesión de preguntas y respuestas posterior a una charla :grin:).
