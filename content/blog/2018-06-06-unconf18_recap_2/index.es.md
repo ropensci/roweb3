@@ -14,7 +14,7 @@ tags:
 - unconf18
 - seguridad
 params:
-  doi: 
+  doi: 10.59350/3dxjb-mww35
 ---
 
 Como parte de nuestra serie que resume todos los proyectos de [unconf de este año](/blog/2018/06/05/unconf18/) me complace sumergirme en todas las ofertas relacionadas con la seguridad de este año. (Serie completa de resúmenes de proyectos: [resumen 1](/blog/2018/06/05/unconf_recap_1/), [resumen 2](/blog/2018/06/06/unconf18_recap_2/), [recapitulación 3](/blog/2018/06/07/unconf_recap_3/), [resumen 4](/blog/2018/06/08/unconf_recap_4/).) En el espíritu de exploración y experimentación de las unconferencias de rOpenSci, estos proyectos no son necesariamente productos acabados o en el ámbito de los paquetes de rOpenSci.
