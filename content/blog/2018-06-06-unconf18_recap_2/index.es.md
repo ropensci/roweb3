@@ -13,6 +13,7 @@ tags:
 - unconf
 - unconf18
 - seguridad
+description: Como parte de nuestra serie que resume todos los proyectos de [unconf de este año](/blog/2018/06/05/unconf18/) me complace sumergirme en todas las ofertas relacionadas con la seguridad de este año.
 params:
   doi: 10.59350/3dxjb-mww35
 ---
