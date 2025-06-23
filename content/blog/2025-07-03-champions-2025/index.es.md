@@ -59,6 +59,12 @@ Quiero participar en el programa Champions porque creo que la ciencia abierta y 
 
 {{< figure src = "/img/team/juan-camilo-rojas-hernandez.jpg" width = "250" alt = "Foto de perfil de Juan Camilo Rojas Hernandez" class = "pull-left" caption = "<strong>Juan Camilo Rojas Hernandez </br>  </br> </strong>">}}
 
+Hola, soy Juan Camilo Rojas Hernández, de Colombia. Actualmente trabajo como consultor internacional para la Organización Panamericana de la Salud (OPS). Mi experiencia se centra en el análisis de datos para vigilancia en salud pública, con especial interés en herramientas de código abierto.
+
+Mi proyecto en el programa de rOpenSci consiste en desarrollar un paquete en R que automatice procesos de vigilancia epidemiológica, depuración de datos y generación de análisis específicos para las instituciones públicas de Salud en Colombia. Este paquete busca mejorar los tiempos de respuesta en campo y fortalecer el uso de datos abiertos y fuentes oficiales.
+
+Me motivé a postularme porque considero que esta es una gran oportunidad para aprender buenas prácticas de desarrollo de paquetes en R y para crear herramientas que generen impacto real en la salud pública de mi país. Además, espero poder replicar este conocimiento en comunidades locales y contribuir a una red latinoamericana de investigadores en epidemiología comprometidos con la ciencia abierta.
+
 ## Lucía Inés Rodríguez Planes
 
 {{< figure src = "/img/team/lucia-ines-rodriguez-planes.jpg" width = "250" alt = "Foto de perfil de Lucía Inés Rodríguez Planes" class = "pull-left" caption = "<strong>Lucía Inés Rodríguez Planes </br>  </br> </strong>">}}
