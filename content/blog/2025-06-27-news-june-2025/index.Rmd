@@ -43,7 +43,9 @@ You can read this post [on our blog](`r url`).
 Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
+### Farewell to software review editor Julia Gustavsen
 
+<!--- Sentence to go here --->
 ### New software review editors
 
 We are excited to welcome [Emi Tanaka](https://emitanaka.org/) and, more recently, [Nima Hejazi](https://nimahejazi.org/) to our team of [Associate Editors](/software-review/#editors) for rOpenSci [Stats Software Peer Review](/software-review/).
