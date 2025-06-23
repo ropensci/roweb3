@@ -50,7 +50,7 @@ Now let's dive into the activity at and around rOpenSci!
 ### New software review editors
 
 We are excited to welcome [Emi Tanaka](https://emitanaka.org/) and, more recently, [Nima Hejazi](https://nimahejazi.org/) to our team of [Associate Editors](/software-review/#editors) for rOpenSci [Stats Software Peer Review](/software-review/).
-Emi brings her experiences in experimental design, mixed-effects models and data visualisation, while Nima contributes his expertise in causal inference, de-biased machine learning and semi-parametric statistics, and computational statistics.
+Emi brings her experiences in experimental design, mixed-effects models and data visualisation, while Nima contributes his expertise in causal inference, de-biased machine learning, and semi-parametric and computational statistics.
 
 ### R-universe updates
 
