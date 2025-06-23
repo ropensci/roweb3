@@ -5,7 +5,7 @@ author:
 - Maëlle Salmon
 editor: Steffi LaZerte
 date: '2025-06-26'
-slug: translation-faq
+slug: edicion-multilingue-preguntas-frecuentes
 output: hugodown::md_document
 tags:
 - multilenguaje
