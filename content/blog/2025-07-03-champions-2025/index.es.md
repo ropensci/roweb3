@@ -41,11 +41,15 @@ Durante el Programa Champions, mi desafío será revisar y actualizar el paquete
 
 ## Diana García Cortes
 
-{{< figure src = "/img/team/diana-garcia.jpg" width = "250" alt = "Foto de perfil de Diana García Cortes" class = "pull-left" caption = "<strong>Diana García Cortes</br>  </br> </strong>">}}
+{{< figure src = "/img/team/diana-garcia.jpg" width = "250" alt = "Foto de perfil de Diana García Cortes" class = "pull-right" caption = "<strong>Diana García Cortes</br>  </br> </strong>">}}
 
 ## Erick Navarro Delgado
 
-{{< figure src = "/img/team/erick-navarro-delgado.jpg" width = "250" alt = "Foto de perfil de Erick Navarro Delgado" class = "pull-left" caption = "<strong>Erick Navarro Delgado </br>  </br> </strong>">}}
+{{< figure src = "/img/team/erick-navarro-delgado.jpg" width = "250" alt = "Foto de perfil de Erick Navarro Delgado" class = "pull-left" caption = "<strong>Erick Navarro Delgado </br> The University of British Columbia </br> </strong>">}}
+
+Mi nombre es Erick Navarro (él), licenciado en biología por la Universidad Nacional Autónoma de México y candidato a Doctor en Bioinformática por The University of British Columbia. Nací y crecí en la Ciudad de México, pero actualmente vivo en Vancouver, Canadá, estudiando mi posgrado. Mi proyecto está enfocado en desarrollar herramientas computacionales en R para integrar datos del genoma, exposoma y metiloma con el objetivo de entender los factores que contribuyen a la variabilidad en la metilación del ADN en humanos.
+
+Quiero participar en el programa Champions porque creo que la ciencia abierta y accessible es esencial para el avance científico. En este programa espero conectar con personas de la comunidad de programación en R, mejorar mis prácticas como programador, y desarrollar herramientas para impulsar el desarrollo de software con R en Latinoamérica. 
 
 ## Guadalupe Pascal
 
