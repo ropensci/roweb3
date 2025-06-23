@@ -78,7 +78,7 @@ La traduction automatique ne peut pas non plus localiser certains contenus, comm
 Si nous nous fions uniquement à la traduction automatique, le contenu dans des langues traduites sera de moins bonne qualité, ce qui reviendrait à accepter que les utilisateur·rice·s des langues semi-supportées ne méritent pas la même qualité que les autres.
 C'est pourquoi, à rOpenSci, des traducteur·rice·s humain·e·s sont impliqué·e·s dans le processus pour s'assurer que tout notre contenu est de bonne qualité, quelle que soit la langue.
 
-## Pourquoi n'utilises-tu pas `<insérer-le-nom-d'une-plateforme-de-traduction>` au lieu de Git et GitHub ?
+## Pourquoi ne pas utiliser `<insérer-le-nom-d'une-plateforme-de-traduction>` au lieu de Git et GitHub ?
 
 Il existe de nombreuses plateformes différentes pour la traduction, ce qui est fantastique !
 Cependant, nous sommes une communauté technique et nous traduisons et localisons du contenu technique.
