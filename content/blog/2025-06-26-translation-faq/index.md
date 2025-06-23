@@ -77,7 +77,7 @@ Machine translation also can't localize some content, such as meaningful idioms,
 If we rely solely on automatic translation, the content in translated languages will be of poorer quality, so it would mean accepting that users in semi-supported languages do not deserve the same quality as others. 
 Therefore at rOpenSci, human translators are involved in the process to ensure that all of our content is of good quality regardless of language.
 
-## Why don’t you use `<insert-name-of-translation-patform>` instead of Git and GitHub?
+## Why don’t you use `<insert-name-of-translation-platform>` instead of Git and GitHub?
 
 There are many different platforms for translation, which is fantastic!
 However, we are a technical community and we are translating and localizing technical content. 
