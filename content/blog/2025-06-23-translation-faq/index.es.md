@@ -28,22 +28,22 @@ En primer lugar, es importante dejar claro que *no* aprender inglés no signific
 Mucha gente que no habla inglés ya habla varios idiomas, e incluso si sólo habla uno, trabajar en su proyecto con las herramientas de que dispone ya es esfuerzo suficiente.
 
 En segundo lugar, nuestro objetivo no es que la gente se convierta en angloparlante. La gente puede elegir (o no) aprender inglés en cualquier momento, pero haber aprendido primero a, digamos, desarrollar software utilizando el francés no va a impedirlo.
- Nuestro objetivo es que la gente pueda utilizar y contribuir a las herramientas de código abierto, y esto no debería depender de que hablen inglés. En ciencia, no ser hablante nativo de inglés ya es bastante difícil y hay una gran cantidad de "potencial sin explotar de las personas que no tienen al inglés como su lengua nativa" [^amano] . ¡Liberemos este potencial!
+ Nuestro objetivo es que la gente pueda utilizar y contribuir a las herramientas de código abierto, y esto no debería depender de que hablen inglés. En ciencia, no ser hablante nativo de inglés ya es bastante difícil y hay una gran cantidad de "potencial sin explotar de las personas que no tienen al inglés como su lengua nativa"[^amano]. ¡Liberemos este potencial!
 
 [^amano]: Amano T, Ramírez-Castañeda V, Berdejo-Espinola V, Borokini I, Chowdhury S, Golivets M, et al. (2023) The manifold costs of being a non-native English speaker in science. PLoS Biol 21(7): e3002184.<https://doi.org/10.1371/journal.pbio.3002184>
 
 ### Relacionado: ¿Tan difícil es leer en inglés?
 
-Sí, es uno de los "múltiples costos de ser una persona cuyo idioma nativo no es el inglés en la ciencia". [^amano] .
+Sí, es uno de los "múltiples costos de ser una persona cuyo idioma nativo no es el inglés en la ciencia"[^amano].
 Además, hay varios estudios que han demostrado las dificultades de aprender a codificar en lenguajes de programación basados en el inglés cuando no eres angloparlante, y las ventajas de tener oportunidades de aprender en tu lengua materna.
 
-Gou [^gou] descubrió que los hablantes no nativos de inglés se enfrentaban a barreras a la hora de leer material didáctico, la comunicación técnica, la lectura y escritura de código, y el aprendizaje simultáneo de inglés y programación.
+Gou[^gou] descubrió que los hablantes no nativos de inglés se enfrentaban a barreras a la hora de leer material didáctico, la comunicación técnica, la lectura y escritura de código, y el aprendizaje simultáneo de inglés y programación.
 Estas dificultades tienen su origen en la necesidad de desarrollar la comprensión del inglés *al mismo tiempo* que se espera que aprendan sobre el tema específico: en nuestro caso, cómo desarrollar software de investigación de código abierto de alta calidad.
- Si alguna vez has intentado aprender estadística y R al mismo tiempo, puedes hacerte una idea de lo difícil que puede resultar. Este tipo de aprendizaje dual aumenta la carga cognitiva, lo que puede dificultar el aprendizaje [^godin]
+ Si alguna vez has intentado aprender estadística y R al mismo tiempo, puedes hacerte una idea de lo difícil que puede resultar. Este tipo de aprendizaje dual aumenta la carga cognitiva, lo que puede dificultar el aprendizaje[^godin].
 
 [^godin]: Goldin, A. (2022). Neurociencia en la escuela: Guía amigable (sin bla bla) para entender cómo funciona el cerebro durante el aprendizaje. Siglo XXI Editores.
 
-Otro estudio [^tshukudu] sugería que, aunque aprender a programar en inglés no es necesariamente difícil para todos los no angloparlantes, incluir la lengua materna de los estudiantes puede hacer que la experiencia de aprendizaje sea más clara, comprensiva y agradable.
+Otro estudio[^tshukudu] sugería que, aunque aprender a programar en inglés no es necesariamente difícil para todos los no angloparlantes, incluir la lengua materna de los estudiantes puede hacer que la experiencia de aprendizaje sea más clara, comprensiva y agradable.
 
 Si te interesa saber más sobre este tema te sugerimos que sigas a [Felienne Hermans](https://www.felienne.com) que está especializada en el diseño de lenguajes de programación y ha desarrollado un lenguaje de programación multilingüe para la enseñanza.
 
@@ -55,7 +55,7 @@ Si te interesa saber más sobre este tema te sugerimos que sigas a [Felienne Her
 
 Algunas personas afirman que tienes que aprender inglés si quieres trabajar en programación y ciencias porque el inglés es la lengua franca de estas disciplinas.
 
-Por desgracia, aunque esto fuera deseable, sencillamente no es posible para muchas personas, sobre todo para los programadores ocasionales o usuarios finales. Puede que no dispongan del tiempo, la energía o el dinero necesarios para aprender programación e inglés al mismo tiempo. [^swidan] .
+Por desgracia, aunque esto fuera deseable, sencillamente no es posible para muchas personas, sobre todo para los programadores ocasionales o usuarios finales. Puede que no dispongan del tiempo, la energía o el dinero necesarios para aprender programación e inglés al mismo tiempo[^swidan].
 
 [^swidan]: Alaaeddin Swidan y Felienne Hermans. 2023. Un marco para la localización de lenguajes de programación. En Proceedings of the 2023 ACM SIGPLAN International Symposium on SPLASH-E (SPLASH-E 2023). Association for Computing Machinery, Nueva York, NY, EE.UU., 13-25.<https://doi.org/10.1145/3622780.3623645>
 
@@ -70,7 +70,7 @@ Por último, ¡queremos que todo el mundo tenga las mismas oportunidades de disf
 
 En nuestro [flujo de trabajo de traducción y localización](https://translationguide.ropensci.org/intro.html#general-aspects-of-the-stage-1-of-the-translation-process) las traducciones automáticas son el primer paso, seguido de las revisiones humanas.
 Aunque puedes publicar traducciones automáticas directamente, o utilizar herramientas para traducciones automáticas "en el momento", existen inconvenientes en el texto traducido.
- En primer lugar, está bien documentado que la traducción automática no funciona bien para las lenguas menos comunes [^swidan] .
+ En primer lugar, está bien documentado que la traducción automática no funciona bien para las lenguas menos comunes[^swidan].
 Incluso para las lenguas comunes, las traducciones automáticas siguen teniendo errores y tienen problemas con los significados que cambian según el contexto, la gramática y la sintaxis, así como con las marcas de género.
 La traducción automática tampoco puede localizar algunos contenidos, como expresiones idiomáticas significativas o símbolos monetarios y numéricos.
 
