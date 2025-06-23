@@ -4,8 +4,9 @@ author:
 - Yanina Bellini Saibene
 - Maëlle Salmon
 editor: Steffi LaZerte
+translator: Maëlle Salmon
 date: '2025-06-23'
-slug: translation-faq
+slug: publication-multilingue-faq
 output: hugodown::md_document
 tags:
 - multilingual
