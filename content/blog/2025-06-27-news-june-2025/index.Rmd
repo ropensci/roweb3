@@ -43,6 +43,7 @@ You can read this post [on our blog](`r url`).
 Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
+
 ### Farewell to software review editor Julia Gustavsen
 
 <!--- Sentence to go here --->
@@ -76,7 +77,7 @@ Read [all about coworking](/blog/2023/06/21/coworking/)!
 
 
 - Tuesday July 1st, 2025 9:00 AM Americas Pacific (16:00 UTC), ["Research Software Engineering and R"](/events/coworking-2025-07/) with [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) and cohost [Saranjeet Kaur Bhogal](/author/saranjeet-kaur-bhogal/).
-    - Look up Research Software Engineering
+    - Look up Research Software Engineering.
     - Chat with Saranjeet about being a Research Software Engineer in R
 - Tuesday August 5th, 2025 9:00 AM Australia Western (01:00 UTC), ["Drawing publication-ready plots using R"](/events/coworking-2025-08/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Emi Tanaka](/author/emi-tanaka/).
     - Work on some figures and plots for your own work
@@ -90,7 +91,7 @@ And remember, you can always cowork independently on work related to R, work on 
 ### New packages
 
 ```{r new-packages, cache = TRUE}
-lascran_unquote <- function(string) {
+cran_unquote <- function(string) {
   gsub("\\'(.*?)\\'", "\\1", string)
 }
 tidy_package <- function(entry) {
@@ -325,8 +326,9 @@ get_description <- function(body) {
   lines <- strsplit(body, "\n")[[1]]
   name <- stringr::str_squish(sub("Package:", "", lines[grepl("^Package", lines)][1]))
   description <- stringr::str_squish(sub("Title:", "", lines[grepl("^Title", lines)][1]))
-  if (name == "capybara") {
-    description <- "Fast and Memory Efficient Fitting of Linear Models With High-Dimensional Fixed Effects"
+  if (name == "read.abares") {
+    description <- "Provides simple downloading, parsing and importing of Australian
+ Bureau of Agricultural and Resource Economics and Sciences (ABARES) data sources"
   }
   description <- cran_unquote(sub("\\.$", "", description))
   list(name = name, description = description)

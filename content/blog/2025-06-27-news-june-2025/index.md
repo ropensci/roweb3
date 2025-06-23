@@ -10,7 +10,7 @@ description:
 params:
   last_newsletter: '2025-05-26'
   doi: "10.59350/e4wq0-j73"
-rmd_hash: 62817d2945afecbd
+rmd_hash: 8b85a2bb5642f98b
 
 ---
 
@@ -19,6 +19,10 @@ rmd_hash: 62817d2945afecbd
 Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> You can read this post [on our blog](/blog/2025/06/27/news-may-2025). Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
+
+### Farewell to software review editor Julia Gustavsen
+
+<!--- Sentence to go here --->
 
 ### New software review editors
 
@@ -32,7 +36,7 @@ Furthermore, build results are now easier to navigate. On any [universe builds t
 
 ### Champions Program 2025
 
-We are excited to introduce the new team of mentors for the rOpenSci Champions Program! This year, we have ten very talented individuals, all from Latin America, who bring a unique combination of experience, enthusiasm, and commitment to open science. Some of them have already been part of the program in previous editions, either as mentors or Champions, and today, they return to continue strengthening this community. Read more in the [blog post introducing all of them](/blog/2025/06/05/mentors-2025/): Carolina Pradier, Elina Gómez, Elio Campitelli, Francisco Cardozo, Geraldine Gómez Millán, Luis D. Verde Arregoitia, Milagros Mendoza, Pablo Tiscornia, Pao Corrales, Ronny Hernandez Mora.
+We are excited to introduce the new team of mentors for the rOpenSci Champions Program! This year, we have ten very talented individuals, all from Latin America, who bring a unique combination of experience, enthusiasm, and commitment to open science. Some of them have already been part of the program in previous editions, either as mentors or Champions, and today, they return to continue strengthening this community. Read more in the [blog post introducing them all](/blog/2025/06/05/mentors-2025/): Carolina Pradier, Elina Gómez, Elio Campitelli, Francisco Cardozo, Geraldine Gómez Millán, Luis D. Verde Arregoitia, Milagros Mendoza, Pablo Tiscornia, Pao Corrales, Ronny Hernandez Mora.
 
 TODO Yani: champions selection?
 
@@ -41,8 +45,12 @@ TODO Yani: champions selection?
 Read [all about coworking](/blog/2023/06/21/coworking/)!
 
 -   Tuesday July 1st, 2025 9:00 AM Americas Pacific (16:00 UTC), ["Research Software Engineering and R"](/events/coworking-2025-07/) with [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) and cohost [Saranjeet Kaur Bhogal](/author/saranjeet-kaur-bhogal/).
-    -   Look up Research Software Engineering.
+    -   Look up Research Software Engineering
     -   Chat with Saranjeet about being a Research Software Engineer in R
+-   Tuesday August 5th, 2025 9:00 AM Australia Western (01:00 UTC), ["Drawing publication-ready plots using R"](/events/coworking-2025-08/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Emi Tanaka](/author/emi-tanaka/).
+    -   Work on some figures and plots for your own work
+    -   Explore ways of making publication-ready plots in R
+    -   Chat with Emi Tanaka about making publication-ready plots in R
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
@@ -72,13 +80,17 @@ The following eight packages have had an update since the last newsletter: [fell
 
 ## Software Peer Review
 
-<div class='highlight'>
+<div class="highlight">
 
 There are thirteen recently closed and active submissions and 6 submissions on hold. Issues are at different stages:
 
--   Five at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%224/review(s)-in-awaiting-changes%22):
+-   One at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%225/awaiting-reviewer(s)-response%22):
 
     -   [PFW](https://github.com/ropensci/software-review/issues/698), Tools for Filtering and Processing Data from Project FeederWatch. Submitted by [Mason Maron](https://github.com/Visorbearer).
+
+-   Five at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%224/review(s)-in-awaiting-changes%22):
+
+    -   [trud](https://github.com/ropensci/software-review/issues/705), Query the NHS TRUD API. Submitted by [Alasdair Warwick](https://github.com/rmgpanw).
 
     -   [SSARP](https://github.com/ropensci/software-review/issues/685), SSARP (Species-/Speciation-Area Relationship Projector). Submitted by [kmartinet](https://github.com/kmartinet).
 
@@ -88,15 +100,13 @@ There are thirteen recently closed and active submissions and 6 submissions on h
 
     -   [sits](https://github.com/ropensci/software-review/issues/596), Satellite Image Time Series Analysis for Earth Observation Data Cubes. Submitted by [Gilberto Camara](https://www.gilbertocamara.org).
 
--   Four at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%223/reviewer(s)-assigned%22):
-
-    -   [trud](https://github.com/ropensci/software-review/issues/705), Query the NHS TRUD API. Submitted by [Alasdair Warwick](https://github.com/rmgpanw).
+-   Three at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%223/reviewer(s)-assigned%22):
 
     -   [distionary](https://github.com/ropensci/software-review/issues/688), Create and Evaluate Probability Distributions. Submitted by [Vincenzo Coia](https://vincenzocoia.com).
 
     -   [sasquatch](https://github.com/ropensci/software-review/issues/673), Use SAS, R, and quarto Together. Submitted by [Ryan Zomorrodi](https://ryanzomorrodi.github.io/).
 
-    -   [read.abares](https://github.com/ropensci/software-review/issues/667), Provides simple downloading, parsing and importing of Australian. Submitted by [Adam H. Sparks](https://adamhsparks.netlify.app/).
+    -   [read.abares](https://github.com/ropensci/software-review/issues/667), Provides simple downloading, parsing and importing of Australian Bureau of Agricultural and Resource Economics and Sciences (ABARES) data sources. Submitted by [Adam H. Sparks](https://adamhsparks.netlify.app/).
 
 -   Three at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%222/seeking-reviewer(s)%22):
 
@@ -108,7 +118,7 @@ There are thirteen recently closed and active submissions and 6 submissions on h
 
 -   One at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%221/editor-checks%22):
 
-    -   [capybara](https://github.com/ropensci/software-review/issues/645), Fast and Memory Efficient Fitting of Linear Models With High-Dimensional Fixed Effects. Submitted by [Mauricio "Pachá" Vargas Sepúlveda](https://pacha.dev).
+    -   [capybara](https://github.com/ropensci/software-review/issues/645), Fast and Memory Efficient Fitting of Linear Models With High-Dimensional. Submitted by [Mauricio "Pachá" Vargas Sepúlveda](https://pacha.dev).
         </div>
 
 Find out more about [Software Peer Review](/software-review) and how to get involved.
@@ -135,7 +145,7 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 Four use cases of our packages and resources have been reported recently.
 
-<div class='highlight'>
+<div class="highlight">
 
 -   [Translating course to Spanish and French](https://discuss.ropensci.org/t/translating-course-to-spanish-and-french/4207) (English). Reported by Yann Say.
 
@@ -186,4 +196,8 @@ Also shared by Hugo Gruson, it seems that the richer authorship field [`Authors@
 Thanks for reading! If you want to get involved with rOpenSci, check out our [Contributing Guide](https://contributing.ropensci.org) that can help direct you to the right place, whether you want to make code contributions, non-code contributions, or contribute in other ways like sharing use cases. You can also support our work through [donations](/donate).
 
 If you haven't subscribed to our newsletter yet, you can [do so via a form](/news/). Until it's time for our next newsletter, you can keep in touch with us via our [website](/) and [Mastodon account](https://hachyderm.io/@rOpenSci).
+
+</div>
+
+</div>
 
