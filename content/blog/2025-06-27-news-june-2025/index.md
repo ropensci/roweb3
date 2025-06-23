@@ -10,7 +10,7 @@ description:
 params:
   last_newsletter: '2025-05-26'
   doi: "10.59350/e4wq0-j73"
-rmd_hash: 8b85a2bb5642f98b
+rmd_hash: ca4162483d4895c7
 
 ---
 
@@ -26,7 +26,7 @@ Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> Y
 
 ### New software review editors
 
-We are excited to welcome [Emi Tanaka](https://emitanaka.org/) and, more recently, [Nima Hejazi](https://nimahejazi.org/) to our team of [Associate Editors](/software-review/#editors) for rOpenSci [Stats Software Peer Review](/software-review/). Emi brings her experiences in experimental design, mixed-effects models and data visualisation, while Nima contributes his expertise in causal inference, de-biased machine learning and semi-parametric statistics, and computational statistics.
+We are excited to welcome [Emi Tanaka](https://emitanaka.org/) and, more recently, [Nima Hejazi](https://nimahejazi.org/) to our team of [Associate Editors](/software-review/#editors) for rOpenSci [Stats Software Peer Review](/software-review/). Emi brings her experiences in experimental design, mixed-effects models and data visualisation, while Nima contributes his expertise in causal inference, de-biased machine learning, and semi-parametric and computational statistics.
 
 ### R-universe updates
 
@@ -38,14 +38,14 @@ Furthermore, build results are now easier to navigate. On any [universe builds t
 
 We are excited to introduce the new team of mentors for the rOpenSci Champions Program! This year, we have ten very talented individuals, all from Latin America, who bring a unique combination of experience, enthusiasm, and commitment to open science. Some of them have already been part of the program in previous editions, either as mentors or Champions, and today, they return to continue strengthening this community. Read more in the [blog post introducing them all](/blog/2025/06/05/mentors-2025/): Carolina Pradier, Elina Gómez, Elio Campitelli, Francisco Cardozo, Geraldine Gómez Millán, Luis D. Verde Arregoitia, Milagros Mendoza, Pablo Tiscornia, Pao Corrales, Ronny Hernandez Mora.
 
-TODO Yani: champions selection?
+We've also completed the selection of our new Champions and can't wait to introduce them and their projects very soon! We selected 10 incredible people from Argentina, Bolivia, Brazil, Chile, Colombia, Mexico, and Uruguay. The decision was not easy -- the quality of the applications and the relevance of the proposed projects made the selection process especially challenging. We're excited to see all the great things this group will create and contribute to open science and research software engineering during the next 12 months.
 
 ### Coworking
 
 Read [all about coworking](/blog/2023/06/21/coworking/)!
 
 -   Tuesday July 1st, 2025 9:00 AM Americas Pacific (16:00 UTC), ["Research Software Engineering and R"](/events/coworking-2025-07/) with [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) and cohost [Saranjeet Kaur Bhogal](/author/saranjeet-kaur-bhogal/).
-    -   Look up Research Software Engineering
+    -   Look up Research Software Engineering.
     -   Chat with Saranjeet about being a Research Software Engineer in R
 -   Tuesday August 5th, 2025 9:00 AM Australia Western (01:00 UTC), ["Drawing publication-ready plots using R"](/events/coworking-2025-08/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Emi Tanaka](/author/emi-tanaka/).
     -   Work on some figures and plots for your own work
@@ -82,7 +82,7 @@ The following eight packages have had an update since the last newsletter: [fell
 
 <div class="highlight">
 
-There are thirteen recently closed and active submissions and 6 submissions on hold. Issues are at different stages:
+There are thirteen recently closed and active submissions and 7 submissions on hold. Issues are at different stages:
 
 -   One at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%225/awaiting-reviewer(s)-response%22):
 
