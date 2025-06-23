@@ -4,6 +4,7 @@ author:
 - Yanina Bellini Saibene
 - Maëlle Salmon
 editor: Steffi LaZerte
+translator: Yanina Bellini Saibene
 date: '2025-06-26'
 slug: edicion-multilingue-preguntas-frecuentes
 output: hugodown::md_document
