@@ -4,7 +4,7 @@ author:
 - Yanina Bellini Saibene
 - Maëlle Salmon
 editor: Steffi LaZerte
-date: '2025-06-26'
+date: '2025-06-23'
 slug: translation-faq
 output: hugodown::md_document
 tags:
