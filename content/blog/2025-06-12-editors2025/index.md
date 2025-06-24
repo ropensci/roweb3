@@ -21,7 +21,7 @@ They join Laura DeCicco, Julia Gustavsen, Jouni Helske, Toby Hocking, Rebecca Ki
 Since 2015, rOpenSci has operated a thorough and collaborative software peer review system.
 Our [editorial team](https://devguide.ropensci.org/editorguide.html) oversees the entire review process — conducting initial checks, selecting reviewers, and guiding the review until the package is approved for inclusion in rOpenSci’s [software suite](https://ropensci.org/packages/).
 Given the wide range and number of packages we receive, having a team of editors with diverse and complementary expertise is essential.
-Emi brings her experiences in experimental design, mixed-effects models and data visualisation, while Nima contributes his expertise in causal inference, de-biased machine learning and semi-parametric statistics, and computational statistics.
+Emi brings her experiences in experimental design, mixed-effects models and data visualisation, while Nima contributes his expertise in causal inference, de-biased machine learning, and semi-parametric and computational statistics.
 
 Meet our new editors!
 
