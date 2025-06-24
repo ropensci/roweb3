@@ -17,7 +17,7 @@ params:
   doi: "10.59350/nywk2-h09"
 ---
 We are excited to welcome Emi Tanaka and Nima Hejazi to our team of [Associate Editors](/software-review/#editors) for rOpenSci [Stats Software Peer Review](/software-review/).
-They join Laura DeCicco, Julia Gustavsen, Anna Krystalli, Mauro Lepore, Noam Ross, Maëlle Salmon, Emily Riederer, Adam Sparks, Beatriz Milz, Margaret Siple and Jeff Hollister.
+They join Laura DeCicco, Julia Gustavsen, Jouni Helske, Toby Hocking, Rebecca Killick, Anna Krystalli, Mauro Lepore, Noam Ross, Maëlle Salmon, Emily Riederer, Adam Sparks, Beatriz Milz, Margaret Siple and Jeff Hollister.
 Since 2015, rOpenSci has operated a thorough and collaborative software peer review system.
 Our [editorial team](https://devguide.ropensci.org/editorguide.html) oversees the entire review process — conducting initial checks, selecting reviewers, and guiding the review until the package is approved for inclusion in rOpenSci’s [software suite](https://ropensci.org/packages/).
 Given the wide range and number of packages we receive, having a team of editors with diverse and complementary expertise is essential.
