@@ -41,7 +41,9 @@ Durante el Programa Champions, mi desafío será revisar y actualizar el paquete
 
 ## Diana García Cortes
 
-{{< figure src = "/img/team/diana-garcia.jpg" width = "250" alt = "Foto de perfil de Diana García Cortes" class = "pull-right" caption = "<strong>Diana García Cortes</br>  </br> </strong>">}}
+{{< figure src = "/img/team/diana-garcia.jpg" width = "250" alt = "Foto de perfil de Diana García Cortes" class = "pull-right" caption = "<strong>Diana García Cortes</br> Dana-Farber Cancer Institute </br> </strong>">}}
+
+Soy bióloga computacional mexicana trabajando en el Breast Oncology Program del Dana-Farber Cancer Institute en Boston. Me gradué como Ingeniera en Tecnologías Computacionales y tengo una maestría en Ciencias de la Computación y un doctorado en Ciencias Biomédicas. Me apasiona aplicar mis habilidades en programación al servicio de la investigación en genómica del cáncer. Mi proyecto consiste en desarrollar un paquete para facilitar el acceso a los datos del Metastatic Breast Cancer Project, una iniciativa conjunta del Dana-Farber Cancer Institute, el Broad Institute y la organización Count Me In, cuyo objetivo es acelerar la investigación en cáncer de mama metastásico a través de la integración de un dataset con datos genómicos y clínicos, formado gracias a la colaboración de pacientes y asociaciones de acompañamiento. Me emociona ser parte del program de Campeon(e|a)s por la oportunidad de aprender en comunidad, de recibir retroalimentación de mi trabajo y hacer aportaciones en ciencia y datos abiertos y aprender y colaborar con la comunidad de rOpenSci. 
 
 ## Erick Navarro Delgado
 
@@ -71,11 +73,25 @@ Me motivé a postularme porque considero que esta es una gran oportunidad para a
 
 ## Maria Valentina Clavijo Mesa
 
-{{< figure src = "/img/team/maria-valentina-clavijo-mesa.jpg" width = "250" alt = "Foto de perfil de Maria Valentina Clavijo Mesa" class = "pull-left" caption = "<strong>Maria Valentina Clavijo Mesa </br>  </br> </strong>">}}
+{{< figure src = "/img/team/maria-valentina-clavijo-mesa.jpg" width = "250" alt = "Foto de perfil de Maria Valentina Clavijo Mesa" class = "pull-left" caption = "<strong>Maria Valentina Clavijo Mesa </br>LASAR3. R-Ladies Medellín  </br> </strong>">}}
+
+Hola, mi nombre es Valentina Clavijo y soy estudiante de doctorado en el Politécnico de Milán (Italia). Desarrollo mi proyecto de doctorado en el laboratorio LASAR3, enfocado en el análisis y la evaluación de la confiabilidad, el riesgo y la resiliencia de sistemas complejos. Soy originaria de Medellín, Colombia y actualmente resido en Milán. Además, soy cofundadora del capítulo de R-Ladies Medellín, desde donde se promueve activamente la participación de mujeres y personas subrepresentadas en ciencia de datos y programación en R.
+
+Mi proyecto para el programa de campeon(e|a)s consiste en desarrollar un paquete en R que facilite el análisis de datos históricos de cambio climático y la evaluación de la probabilidad de eventos extremos en diferentes regiones del mundo. Espero que este paquete pueda ser útil para investigadores y tomadores de decisiones que trabajan con datos inciertos y fenómenos meteorológicos complejos.
+
+Me postulé al programa porque creo profundamente que la ciencia debe ser abierta y compartida, y porque quiero seguir fortaleciendo mis habilidades técnicas y comunitarias. Espero aprender sobre buenas prácticas en desarrollo de software, publicación de paquetes, y también conectar con una red diversa de personas que creen en el poder del conocimiento colaborativo.
 
 ## Mauro Loprete
 
-{{< figure src = "/img/team/mauro-loprete.jpg" width = "250" alt = "Foto de perfil de Mauro Loprete" class = "pull-left" caption = "<strong>Mauro Loprete </br>  </br> </strong>">}}
+{{< figure src = "/img/team/mauro-loprete.jpg" width = "250" alt = "Foto de perfil de Mauro Loprete" class = "pull-left" caption = "<strong>Mauro Loprete </br> UDELAR-IESTA </br> </strong>">}}
+
+Soy Mauro Loprete, [Licenciado en Estadística por la Universidad de la República (UDELAR)](https://fcea.udelar.edu.uy/depto-met-cuant-ensenanza/licenciatura-en-estadistica.html), Uruguay, donde actualmente soy profesor ayudante en cursos de estadística computacional, ciencia de datos y aprendizaje automático con R. Vivo en Montevideo y me dedico tanto a la docencia como al desarrollo de herramientas abiertas para el análisis de datos.
+
+Como Champion de rOpenSci, mi proyecto es el desarrollo de [metasurvey](https://metasurveyr.github.io/metasurvey/), un paquete de R diseñado para facilitar el análisis reproducible de encuestas con diseños muestrales complejos. El paquete permite crear flujos de trabajo flexibles y automatizados para cargar, procesar y analizar encuestas a lo largo del tiempo, incorporando técnicas de remuestreo y metaprogramación. metasurvey fue creado como parte de mi trabajo final de grado en la Licenciatura en Estadística.
+
+Me postulé al programa porque quiero fortalecer mis habilidades en el desarrollo de paquetes y contribuir activamente al ecosistema R desde Uruguay. Espero aprender de la experiencia y guía de la comunidad rOpenSci, y también compartir lo aprendido con estudiantes y colegas, impulsando una cultura de ciencia abierta y colaboración en mi universidad y en la región.
+
+Además, mi participación en el programa representa un paso pionero dentro de mi institución: sería el primer estudiante de grado en desarrollar un paquete de R con alcance público y contribuir activamente a una comunidad internacional de código abierto. Aspiro a que esta experiencia motive a otros estudiantes y docentes a involucrarse en el desarrollo de software libre y en prácticas reproducibles de investigación. 
 
 ## Monika Avila Marquez
 
