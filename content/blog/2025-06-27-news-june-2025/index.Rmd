@@ -46,7 +46,7 @@ Now let's dive into the activity at and around rOpenSci!
 
 ### Farewell to software review editor Julia Gustavsen
 
-<!--- Sentence to go here --->
+This month we say farewell to Software Peer-Review Editor Julia Gustavsen. Julia has been an essential member of the rOpenSci peer-review team for more than _10 years_, since before we had an editorial board, and before we even called it peer review! Julia was one of rOpenSci's original reviewers as we figured out how to transform from a team publishing our in-house developed tools to a broader, community-driven ecosystem. Her early reviews were a model for the careful, helpful, non-confrontational style that has set the tone for our approach. We were lucky to have her join as an editor in 2020. She has expertly guided many authors and reviewers through the peer-review process, served as Editor in Chief, and been a pleasure to have as colleague making the process better, smoother, and more valuable to our community. Thanks Julia for your service!
 ### New software review editors
 
 We are excited to welcome [Emi Tanaka](https://emitanaka.org/) and, more recently, [Nima Hejazi](https://nimahejazi.org/) to our team of [Associate Editors](/software-review/#editors) for rOpenSci [Stats Software Peer Review](/software-review/).
