@@ -15,7 +15,7 @@ params:
   doi: "10.59350/268cb-p0021"
 ---
 
-Our second cohort of the [rOpenSci Champions Program](/champions/) has now completed the second phase of the program by developing their project and carrying out outreach activities. In this article, we share each Champion's project, their achievements and their outreach activities.
+As we make the presentation of our third cohort of the [rOpenSci Champions Program](/champions/),our second cohort has now completed the second phase of the program by developing their project and carrying out outreach activities. In this article, we share each Champion's project, their achievements and their outreach activities.
 
 ## Champions' Projects
 
@@ -44,7 +44,7 @@ In their applications Champions choose to develop a new package or to participat
 
 - **Jacqui Levy**, from Canada, worked on the [icicle package](https://github.com/Jacqui-123/icicle) to tidy and calculate ice cycle variables from thousands of open-source hydrological stations that are managed by the Water Survey of Canada. This R package will give scientists the tools to assess ice cycle variables and how they might be changing over time for any river station. Her mentor is [Jonathan Keane](/author/jonathan-keane/), from the US.
 
-- **Binod Jung Bogati**, from Nepal, worked on the [nepalcensus](https://github.com/rugnepal/nepalcensus) package, , which provides a comprehensive and up-to-date tool for accessing and exploring demographic, socio-economic, and geographic data collected during the most recent census conducted in Nepal. The package aims to facilitate data analysis and visualization for researchers, policymakers, and anyone interested in understanding and utilizing census data effectively for various applications and insights. His mentor is [Erle Holgersen](/author/erle-holgersen/) from Canada.
+- **Binod Jung Bogati**, from Nepal, worked on the [nepalcensus](https://github.com/rugnepal/nepalcensus) package, which provides a comprehensive and up-to-date tool for accessing and exploring demographic, socio-economic, and geographic data collected during the most recent census conducted in Nepal. The package aims to facilitate data analysis and visualization for researchers, policymakers, and anyone interested in understanding and utilizing census data effectively for various applications and insights. His mentor is [Erle Holgersen](/author/erle-holgersen/) from Canada.
 
 ## Outreach Activities
 
@@ -52,32 +52,34 @@ Our Champions carried out a wide range of outreach activities like talks, confer
 
 Outreach activities started in August 2024 involving local communities (universities, RUGs, R-Ladies Chapters, conferences, and organizations) and delivered in Champions’ native language (English, Spanish, Portuguese and Chinese).
 
-Members of this cohort worked together with champions from the first cohort to do theirs outreach activities and also introduce their cohort mates to other communities and organizations giving them space to share what they did during the champions program.
+[Members of this cohort worked together with champions from the first cohort to do theirs outreach activities](https://ropensci.org/events/rsr-learn-and-use/) and also introduce their cohort mates to other communities and organizations giving them [space to share what they did during the Champions Program](https://www.youtube.com/watch?v=p2Odyp9VIPA).
 
-### Workshops
+Champions worked with their local communities to organize different kind of events and spaces:
 
-Paola Corrales developed and delivered an online workshop for non-selected applicants on [Git and GitHub](https://paocorrales.github.io/git-developing-software-together/) already giving back to the program. She will also teach this workshop for the second cohort.
+- Sunny organized a workshop to teach how to use the package he developed during the champions program. 
+- Ezekiel submitted a proposal to the RConsortium to create an R user Group together with the University xx which got partial funding for its start-up.  After a successful year of operation, with xx events held and xx members the group got more funding from the RConsortium to continue its activities during 2025.
+- Andrea organized xx and xx events in Argentina, including a talk at the R-Ladies Buenos Aires chapter and the RenBaires R user Group.
+- Sehrish organize a workshop at ...
+- Francesca organize a meetup with R-Ladies ... to introduce her package ...
 
-{{< figure src = "pao-git-github.png" alt = "Paola Corrales sharing a slide about the git workshop" caption = "<strong>Paola Corrales teaching Git for the Champions Program</strong>">}}
+rOpenSci's community spaces also benefited from the participation of the champions:
 
+- Sunny participated as a panelist in the community call ... telling about his experience developing the bbsTawian package as a project in the champions program,
+- Andrea participated in another community call in Spanish sharing her experience during the program with people interested in applying for the program.
+- Ezekiel participated as a mentor in the minihackathon for people contributing to open source software for the first time.
+- Liz Hare will be cohost at the xx coworking session with the topic...
+- Francesca was the main host of our first community call in Portugues ... and also one of the mentors of our traslathon during LatinR.
 
+The champions wrote blog posts for rOpenSci's website covering technological aspects such as [“Resources For Using R With Screen Readers”](https://ropensci.org/blog/2024/09/05/screen-readers-tools/) by Liz Hare and also aspects such as the experience of being part of the program, such as [“Bridges and Communities. My Journey as an rOpenSci Champion”](https://ropensci.org/blog/2025/05/15/puentes-comunidades-campeones-ropensci/) by Andrea Vargas Gomez.
 
-
-### Community Calls and Coworking sessions
-
-
-
-### R User Groups and R-Ladies meetups
-
-
-### Talks and Blog post
-
-Our Champions are part of other communities like R-Ladies, LatinR and local R User Groups, and organized several activities with these groups. 
+LatinR, useR!, Posit and xx conferences were attended by our champions.  During LatinR, Andrea presented the package he developed during the program and Francesca was a mentor of the traslathon organized as a satellite event of the conference. 
+In addition Sunny, Andrea and Erika received scholarships to attend Posit Conf and Sunny and Andrea were able to participate.
+Erika and Andrea also presented their respective packages developed during the program at useR! 2025.
 
 
 ## Champions' accomplishments and next steps
 
-Our Champions have been very successful in the delivery of their projects, building high quality software with a focus on their countries and discipline. The impact of their work also spread to their home institutions and related local communities. Not only through their outreach activities sharing information and knowledge contextualized for their audience, but also by creating spaces for their local communities, like the R user groups, and through their research. 
+Our Champions have been very successful in the delivery of their projects, building high quality software with a focus on their countries and discipline. The impact of their work also spread to their home institutions and related local communities. Not only through their outreach activities sharing information and knowledge contextualized for their audience, but also by creating spaces for their local communities, like the R user groups, and through their research.
 
-Many of our Champions will continue with their outreach activities and mantaining their R package. Stay tuned to our events section in our website, our newsletter and social media to learn about them! 
+Many of our Champions will continue with their outreach activities and maintaining their R package. Stay tuned to our events section in our website, our newsletter and social media to learn about them! 
 
