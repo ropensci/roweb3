@@ -2,23 +2,23 @@
 slug: "champions-2025"
 title: 'Ciencia abierta con identidad latinoamericana: conocé al nuevo grupo de personas y proyectos del Programa de Campeon(e|a)s de rOpenSci'
 author:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ana Carolina Moreno
+  - Diana Garcia Cortes
+  - Erick Isaac Navarro Delgado
+  - Guadalupe Pascal
+  - Juan Camilo Rojas Hernandez
+  - Lucía Inés Rodríguez Planes
+  - Maria Valentina Clavijo Mesa
+  - Mauro Loprete
+  - Monika Avila Marquez
+  - Soledad Andrea Araya Orrego
+  - Yanina Bellini Saibene
 date: 2025-07-03
 tags:
   - programa campeones
   - comunidad
 params:
-  doi: ""
+  doi: "10.59350/bnkkw-pe966"
 description: "Presentamos a 10 nuevas personas que se suman como Campeones y Campeonas de rOpenSci, todas originarias de América Latina. Con trayectorias diversas y proyectos inspiradores, impulsan la ciencia abierta desde sus comunidades."
 
 editor:
