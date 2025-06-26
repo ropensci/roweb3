@@ -73,7 +73,7 @@ Me motivé a postularme porque considero que esta es una gran oportunidad para a
 
 ## Maria Valentina Clavijo Mesa
 
-{{< figure src = "/img/team/maria-valentina-clavijo-mesa.jpg" width = "250" alt = "Foto de perfil de Maria Valentina Clavijo Mesa" class = "pull-left" caption = "<strong>Maria Valentina Clavijo Mesa </br>LASAR3. R-Ladies Medellín  </br> </strong>">}}
+{{< figure src = "/img/team/maria-valentina-clavijo-mesa.png" width = "250" alt = "Foto de perfil de Maria Valentina Clavijo Mesa" class = "pull-left" caption = "<strong>Maria Valentina Clavijo Mesa </br>LASAR3. R-Ladies Medellín  </br> </strong>">}}
 
 Hola, mi nombre es Valentina Clavijo y soy estudiante de doctorado en el Politécnico de Milán (Italia). Desarrollo mi proyecto de doctorado en el laboratorio LASAR3, enfocado en el análisis y la evaluación de la confiabilidad, el riesgo y la resiliencia de sistemas complejos. Soy originaria de Medellín, Colombia y actualmente resido en Milán. Además, soy cofundadora del capítulo de R-Ladies Medellín, desde donde se promueve activamente la participación de mujeres y personas subrepresentadas en ciencia de datos y programación en R.
 
