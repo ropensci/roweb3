@@ -16,7 +16,6 @@
     </a>
     {{ end }}
     {{ range $team }}
-    {{ warnf .name }}
     {{ $thispage := first 1 (where $pages ".Params.name" .name) }}
     {{ range $thispage }}
     <a href="{{ .RelPermalink }}" class="author">

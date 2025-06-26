@@ -6,11 +6,11 @@
   command =  "hugo --minify --buildFuture"
 
 [context.production.environment]
-  HUGO_VERSION = "0.145.0"
+  HUGO_VERSION = "0.146.7"
   
 [context.deploy-preview]
   command = "hugo --buildFuture -b $DEPLOY_PRIME_URL"
-  environment = { HUGO_VERSION = "0.145.0" }
+  environment = { HUGO_VERSION = "0.146.7" }
 
 [context.branch-deploy]
   command = "hugo --buildFuture -b $DEPLOY_PRIME_URL"
