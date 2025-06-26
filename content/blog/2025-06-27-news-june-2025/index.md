@@ -10,7 +10,7 @@ description:
 params:
   last_newsletter: '2025-05-26'
   doi: "10.59350/e4wq0-j73"
-rmd_hash: ca4162483d4895c7
+rmd_hash: 4db1d45477281e0f
 
 ---
 
@@ -27,6 +27,8 @@ Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> Y
 ### New software review editors
 
 We are excited to welcome [Emi Tanaka](https://emitanaka.org/) and, more recently, [Nima Hejazi](https://nimahejazi.org/) to our team of [Associate Editors](/software-review/#editors) for rOpenSci [Stats Software Peer Review](/software-review/). Emi brings her experiences in experimental design, mixed-effects models and data visualisation, while Nima contributes his expertise in causal inference, de-biased machine learning, and semi-parametric and computational statistics.
+
+Read more in the [post introducing Nima and Emi](/blog/2025/06/25/editors2025/).
 
 ### R-universe updates
 
@@ -76,27 +78,25 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 </div>
 
-The following eight packages have had an update since the last newsletter: [fellingdater](https://docs.ropensci.org/fellingdater "Estimate, report and combine felling dates of historical tree-ring series") ([`v1.1.0`](https://github.com/ropensci/fellingdater/releases/tag/v1.1.0)), [gtexr](https://docs.ropensci.org/gtexr "Query the GTEx Portal API") ([`v0.2.0.9001`](https://github.com/ropensci/gtexr/releases/tag/v0.2.0.9001)), [gutenbergr](https://docs.ropensci.org/gutenbergr "Download and Process Public Domain Works from Project Gutenberg") ([`v0.3.0`](https://github.com/ropensci/gutenbergr/releases/tag/v0.3.0)), [lingtypology](https://docs.ropensci.org/lingtypology "Linguistic Typology and Mapping") ([`v1.1.21`](https://github.com/ropensci/lingtypology/releases/tag/v1.1.21)), [magick](https://docs.ropensci.org/magick "Advanced Graphics and Image-Processing in R") ([`ImageMagick-6.9.13-25`](https://github.com/ropensci/magick/releases/tag/ImageMagick-6.9.13-25)), [nasapower](https://docs.ropensci.org/nasapower "NASA POWER API Client") ([`v4.2.5`](https://github.com/ropensci/nasapower/releases/tag/v4.2.5)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.13.0`](https://github.com/ropensci/nodbi/releases/tag/v0.13.0)), and [rgbif](https://docs.ropensci.org/rgbif "Interface to the Global Biodiversity Information Facility API") ([`v3.8.2`](https://github.com/ropensci/rgbif/releases/tag/v3.8.2)).
+The following thirteen packages have had an update since the last newsletter: [pkgmatch](https://docs.ropensci.org/pkgmatch "Find R Packages Matching Either Descriptions or Other R Packages") ([`v0.5.0`](https://github.com/ropensci-review-tools/pkgmatch/releases/tag/v0.5.0)), [daiquiri](https://docs.ropensci.org/daiquiri "Data Quality Reporting for Temporal Datasets") ([`v1.2.0`](https://github.com/ropensci/daiquiri/releases/tag/v1.2.0)), [fellingdater](https://docs.ropensci.org/fellingdater "Estimate, report and combine felling dates of historical tree-ring series") ([`v1.1.0`](https://github.com/ropensci/fellingdater/releases/tag/v1.1.0)), [gtexr](https://docs.ropensci.org/gtexr "Query the GTEx Portal API") ([`v0.2.0.9001`](https://github.com/ropensci/gtexr/releases/tag/v0.2.0.9001)), [gutenbergr](https://docs.ropensci.org/gutenbergr "Download and Process Public Domain Works from Project Gutenberg") ([`v0.3.0`](https://github.com/ropensci/gutenbergr/releases/tag/v0.3.0)), [helminthR](https://docs.ropensci.org/helminthR "Access London Natural History Museum Host-Helminth Record Database") ([`v1.1.0`](https://github.com/ropensci/helminthR/releases/tag/v1.1.0)), [lingtypology](https://docs.ropensci.org/lingtypology "Linguistic Typology and Mapping") ([`v1.1.21`](https://github.com/ropensci/lingtypology/releases/tag/v1.1.21)), [magick](https://docs.ropensci.org/magick "Advanced Graphics and Image-Processing in R") ([`ImageMagick-6.9.13-25`](https://github.com/ropensci/magick/releases/tag/ImageMagick-6.9.13-25)), [nasapower](https://docs.ropensci.org/nasapower "NASA POWER API Client") ([`v4.2.5`](https://github.com/ropensci/nasapower/releases/tag/v4.2.5)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.13.0`](https://github.com/ropensci/nodbi/releases/tag/v0.13.0)), [occCite](https://docs.ropensci.org/occCite "Querying and Managing Large Biodiversity Occurrence Datasets") ([`v0.6.0`](https://github.com/ropensci/occCite/releases/tag/v0.6.0)), [rgbif](https://docs.ropensci.org/rgbif "Interface to the Global Biodiversity Information Facility API") ([`v3.8.2`](https://github.com/ropensci/rgbif/releases/tag/v3.8.2)), and [slopes](https://docs.ropensci.org/slopes "Calculate Slopes of Roads, Rivers and Trajectories") ([`v1.0.1`](https://github.com/ropensci/slopes/releases/tag/v1.0.1)).
 
 ## Software Peer Review
 
 <div class="highlight">
 
-There are thirteen recently closed and active submissions and 7 submissions on hold. Issues are at different stages:
+There are twelve recently closed and active submissions and 8 submissions on hold. Issues are at different stages:
 
 -   One at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%225/awaiting-reviewer(s)-response%22):
 
     -   [PFW](https://github.com/ropensci/software-review/issues/698), Tools for Filtering and Processing Data from Project FeederWatch. Submitted by [Mason Maron](https://github.com/Visorbearer).
 
--   Five at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%224/review(s)-in-awaiting-changes%22):
+-   Four at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%224/review(s)-in-awaiting-changes%22):
 
     -   [trud](https://github.com/ropensci/software-review/issues/705), Query the NHS TRUD API. Submitted by [Alasdair Warwick](https://github.com/rmgpanw).
 
     -   [SSARP](https://github.com/ropensci/software-review/issues/685), SSARP (Species-/Speciation-Area Relationship Projector). Submitted by [kmartinet](https://github.com/kmartinet).
 
     -   [dataset](https://github.com/ropensci/software-review/issues/681), Create Data Frames that are Easier to Exchange and Reuse. Submitted by [Daniel Antal](http://nl.linkedin.com/in/antaldaniel/).
-
-    -   [pkgmatch](https://github.com/ropensci/software-review/issues/671), Find R Packages Matching Either Descriptions or Other R Packages. Submitted by [mark padgham](https://mpadge.github.io).
 
     -   [sits](https://github.com/ropensci/software-review/issues/596), Satellite Image Time Series Analysis for Earth Observation Data Cubes. Submitted by [Gilberto Camara](https://www.gilbertocamara.org).
 
@@ -133,7 +133,13 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 <div class="highlight">
 
+### Software Review
+
+-   [Announcing New Stats Software Peer Review Editors: Emi Tanaka and Nima Hejazi](/blog/2025/06/25/editors2025) by Mark Padgham, Emi Tanaka, Nima Hejazi, and Yanina Bellini Saibene. Introducing two new editors for rOpenSci stats software review.
+
 -   [New Mentoring Team, Same Open Science Spirit](/blog/2025/06/05/mentors-2025) by Carolina Pradier, Elina Gómez, Elio Campitelli, Francisco Cardozo, Geraldine Gómez Millán, Luis D. Verde Arregoitia, Milagros Mendoza, Pablo Tiscornia, Pao Corrales, Ronny Hernandez Mora, and Yanina Bellini Saibene. Meet the new team of mentors for the [rOpenSci Champions Program](https://champions-program.ropensci.org) for People from Latin America dedicated to research and development of research software and committed to open science. They will accompany our Champions in their projects for one year, sharing experience, guidance, and enthusiasm. Other languages: <a href='/es/blog/2025/06/05/mentors-2025' lang='es'>Nuevo equipo de mentor(a\|e)s, el mismo espíritu de ciencia abierta (es)</a>.
+
+-   [Multilingual Publishing: Frequently Asked Questions](/blog/2025/06/23/translation-faq) by Yanina Bellini Saibene and Maëlle Salmon. A list of frequently asked questions about our multilingual program and our translation and localization process, and our best answers to them. Other languages: <a href='/es/blog/2025/06/23/edicion-multilingue-preguntas-frecuentes' lang='es'>Edición multilingüe: preguntas frecuentes (es)</a>, <a href='/fr/blog/2025/06/23/publication-multilingue-faq' lang='fr'>Publication multilingue : Questions fréquemment posées (fr)</a>.
 
 </div>
 
