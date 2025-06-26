@@ -9,7 +9,7 @@ tags:
 - Software Peer Review
 - reviewer
 params:
-  doi: 
+  doi: 10.59350/qtk9f-nc796
 ---
 
 Tudo começou em 26 de janeiro<sup>de</sup> deste ano, quando me inscrevi para ser voluntária como
