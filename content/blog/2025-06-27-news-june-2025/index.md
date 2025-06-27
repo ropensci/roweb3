@@ -6,11 +6,11 @@ author:
 date: '2025-06-27'
 tags:
   - newsletter
-description: 
+description: Farewell editor Julia, welcome editors Emi and Nima, R-universe updates, champions program, events
 params:
   last_newsletter: '2025-05-26'
   doi: "10.59350/e4wq0-j73"
-rmd_hash: 4db1d45477281e0f
+rmd_hash: b46ca21d5cdaffee
 
 ---
 
@@ -22,7 +22,7 @@ Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> Y
 
 ### Farewell to software review editor Julia Gustavsen
 
-<!--- Sentence to go here --->
+This month we say farewell to Software Peer-Review Editor Julia Gustavsen. Julia has been an essential member of the rOpenSci peer-review team for more than *10 years*, since before we had an editorial board, and before we even called it peer review! Julia was one of rOpenSci's original reviewers as we figured out how to transform from a team publishing our in-house developed tools to a broader, community-driven ecosystem. Her early reviews were a model for the careful, helpful, non-confrontational style that has set the tone for our approach. We were lucky to have her join as an editor in 2020. She has expertly guided many authors and reviewers through the peer-review process, served as Editor in Chief, and been a pleasure to have as colleague making the process better, smoother, and more valuable to our community. Thanks Julia for your service!
 
 ### New software review editors
 
@@ -68,7 +68,8 @@ The following package recently became a part of our software suite:
 
 <div class="highlight">
 
-</div>
+-   [PFW](https://docs.ropensci.org/PFW), developed by Mason W. Maron: Provides tools to import, clean, filter, and prepare Project FeederWatch data for analysis. Includes functions for taxonomic rollup, easy filtering, zerofilling, merging in site metadata, and more. It has been [reviewed](https://github.com/ropensci/software-review/issues/698) by Sunny Tseng and Paul Carteron.
+    </div>
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
@@ -78,7 +79,7 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 </div>
 
-The following thirteen packages have had an update since the last newsletter: [pkgmatch](https://docs.ropensci.org/pkgmatch "Find R Packages Matching Either Descriptions or Other R Packages") ([`v0.5.0`](https://github.com/ropensci-review-tools/pkgmatch/releases/tag/v0.5.0)), [daiquiri](https://docs.ropensci.org/daiquiri "Data Quality Reporting for Temporal Datasets") ([`v1.2.0`](https://github.com/ropensci/daiquiri/releases/tag/v1.2.0)), [fellingdater](https://docs.ropensci.org/fellingdater "Estimate, report and combine felling dates of historical tree-ring series") ([`v1.1.0`](https://github.com/ropensci/fellingdater/releases/tag/v1.1.0)), [gtexr](https://docs.ropensci.org/gtexr "Query the GTEx Portal API") ([`v0.2.0.9001`](https://github.com/ropensci/gtexr/releases/tag/v0.2.0.9001)), [gutenbergr](https://docs.ropensci.org/gutenbergr "Download and Process Public Domain Works from Project Gutenberg") ([`v0.3.0`](https://github.com/ropensci/gutenbergr/releases/tag/v0.3.0)), [helminthR](https://docs.ropensci.org/helminthR "Access London Natural History Museum Host-Helminth Record Database") ([`v1.1.0`](https://github.com/ropensci/helminthR/releases/tag/v1.1.0)), [lingtypology](https://docs.ropensci.org/lingtypology "Linguistic Typology and Mapping") ([`v1.1.21`](https://github.com/ropensci/lingtypology/releases/tag/v1.1.21)), [magick](https://docs.ropensci.org/magick "Advanced Graphics and Image-Processing in R") ([`ImageMagick-6.9.13-25`](https://github.com/ropensci/magick/releases/tag/ImageMagick-6.9.13-25)), [nasapower](https://docs.ropensci.org/nasapower "NASA POWER API Client") ([`v4.2.5`](https://github.com/ropensci/nasapower/releases/tag/v4.2.5)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.13.0`](https://github.com/ropensci/nodbi/releases/tag/v0.13.0)), [occCite](https://docs.ropensci.org/occCite "Querying and Managing Large Biodiversity Occurrence Datasets") ([`v0.6.0`](https://github.com/ropensci/occCite/releases/tag/v0.6.0)), [rgbif](https://docs.ropensci.org/rgbif "Interface to the Global Biodiversity Information Facility API") ([`v3.8.2`](https://github.com/ropensci/rgbif/releases/tag/v3.8.2)), and [slopes](https://docs.ropensci.org/slopes "Calculate Slopes of Roads, Rivers and Trajectories") ([`v1.0.1`](https://github.com/ropensci/slopes/releases/tag/v1.0.1)).
+The following thirteen packages have had an update since the last newsletter: [pkgmatch](https://docs.ropensci.org/pkgmatch "Find R Packages Matching Either Descriptions or Other R Packages") ([`v0.5.0`](https://github.com/ropensci-review-tools/pkgmatch/releases/tag/v0.5.0)), [daiquiri](https://docs.ropensci.org/daiquiri "Data Quality Reporting for Temporal Datasets") ([`v1.2.0`](https://github.com/ropensci/daiquiri/releases/tag/v1.2.0)), [fellingdater](https://docs.ropensci.org/fellingdater "Estimate, report and combine felling dates of historical tree-ring series") ([`v1.1.0`](https://github.com/ropensci/fellingdater/releases/tag/v1.1.0)), [gtexr](https://docs.ropensci.org/gtexr "Query the GTEx Portal API") ([`v0.2.0.9001`](https://github.com/ropensci/gtexr/releases/tag/v0.2.0.9001)), [gutenbergr](https://docs.ropensci.org/gutenbergr "Download and Process Public Domain Works from Project Gutenberg") ([`v0.3.0`](https://github.com/ropensci/gutenbergr/releases/tag/v0.3.0)), [helminthR](https://docs.ropensci.org/helminthR "Access London Natural History Museum Host-Helminth Record Database") ([`v1.1.0`](https://github.com/ropensci/helminthR/releases/tag/v1.1.0)), [lingtypology](https://docs.ropensci.org/lingtypology "Linguistic Typology and Mapping") ([`v1.1.21`](https://github.com/ropensci/lingtypology/releases/tag/v1.1.21)), [magick](https://docs.ropensci.org/magick "Advanced Graphics and Image-Processing in R") ([`ImageMagick-6.9.13-25`](https://github.com/ropensci/magick/releases/tag/ImageMagick-6.9.13-25)), [nasapower](https://docs.ropensci.org/nasapower "NASA POWER API Client") ([`v4.2.5`](https://github.com/ropensci/nasapower/releases/tag/v4.2.5)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.13.1`](https://github.com/ropensci/nodbi/releases/tag/v0.13.1)), [occCite](https://docs.ropensci.org/occCite "Querying and Managing Large Biodiversity Occurrence Datasets") ([`v0.6.0`](https://github.com/ropensci/occCite/releases/tag/v0.6.0)), [rgbif](https://docs.ropensci.org/rgbif "Interface to the Global Biodiversity Information Facility API") ([`v3.8.2`](https://github.com/ropensci/rgbif/releases/tag/v3.8.2)), and [slopes](https://docs.ropensci.org/slopes "Calculate Slopes of Roads, Rivers and Trajectories") ([`v1.0.1`](https://github.com/ropensci/slopes/releases/tag/v1.0.1)).
 
 ## Software Peer Review
 
@@ -86,7 +87,7 @@ The following thirteen packages have had an update since the last newsletter: [p
 
 There are twelve recently closed and active submissions and 8 submissions on hold. Issues are at different stages:
 
--   One at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%225/awaiting-reviewer(s)-response%22):
+-   One at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%226/approved%22):
 
     -   [PFW](https://github.com/ropensci/software-review/issues/698), Tools for Filtering and Processing Data from Project FeederWatch. Submitted by [Mason Maron](https://github.com/Visorbearer).
 
@@ -202,6 +203,8 @@ Also shared by Hugo Gruson, it seems that the richer authorship field [`Authors@
 Thanks for reading! If you want to get involved with rOpenSci, check out our [Contributing Guide](https://contributing.ropensci.org) that can help direct you to the right place, whether you want to make code contributions, non-code contributions, or contribute in other ways like sharing use cases. You can also support our work through [donations](/donate).
 
 If you haven't subscribed to our newsletter yet, you can [do so via a form](/news/). Until it's time for our next newsletter, you can keep in touch with us via our [website](/) and [Mastodon account](https://hachyderm.io/@rOpenSci).
+
+</div>
 
 </div>
 
