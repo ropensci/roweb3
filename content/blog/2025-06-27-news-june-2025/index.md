@@ -1,5 +1,5 @@
 ---
-slug: "news-may-2025"
+slug: "news-june-2025"
 title: rOpenSci News Digest, June 2025
 author:
   - The rOpenSci Team
