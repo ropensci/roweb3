@@ -130,11 +130,6 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 <div class="highlight">
 
-</div>
-
-<div class="highlight">
-
-### Software Review
 
 -   [Announcing New Stats Software Peer Review Editors: Emi Tanaka and Nima Hejazi](/blog/2025/06/25/editors2025) by Mark Padgham, Emi Tanaka, Nima Hejazi, and Yanina Bellini Saibene. Introducing two new editors for rOpenSci stats software review.
 
