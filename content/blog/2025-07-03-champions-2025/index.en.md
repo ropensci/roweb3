@@ -19,7 +19,7 @@ tags:
 - programa campeones
 - comunidad
 params:
-  doi: 10.59350/bnkkw-pe966
+  doi: 10.59350/pjnp4-p2x92
 description: Introducing 10 new rOpenSci Champions, all of whom are from Latin America.
   With diverse backgrounds and inspiring projects, they are driving open science from
   their communities.
