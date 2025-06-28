@@ -56,7 +56,10 @@ Quiero participar en el programa Champions porque creo que la ciencia abierta y 
 ## Guadalupe Pascal
 
 {{< figure src = "/img/team/guadalupe-pascal.jpg" width = "250" alt = "Foto de perfil de Guadalupe Pascal" class = "pull-left" caption = "<strong>Guadalupe Pascal </br>  </br> </strong>">}}
-
+¡Hola! Soy Guadalupe Pascal, investigadora en ciencia de datos aplicada a la toma de decisiones en empresas y sistemas sociales, siempre con una mirada situada en el Sur Global. Me apasiona impulsar y formar parte de proyectos colaborativos con enfoque interdisciplinario, ciencia abierta y justicia epistémica. Mis intereses de investigación incluyen modelado matemático, aprendizaje automático, procesamiento de lenguaje natural (NLP), neurociencia cognitiva, género y educación en ingeniería.
+Soy Ingeniera Industrial por la Universidad Nacional de Lomas de Zamora (Argentina), Máster en Ingeniería de Sistemas de Decisión por la Universidad Rey Juan Carlos (España), y actualmente curso el Doctorado en Tecnologías de la Información y las Comunicaciones (URJC) y en Ingeniería (UNLZ).
+Trabajo como Profesora Asociada de Investigación Operativa en la UNLZ y la Universidad Católica Argentina (UCA), dicto cursos de Ciencia de Datos y Aprendizaje Automático en la Universidad Gran Rosario (UGR), y participo activamente en la Cátedra Abierta Latinoamericana Matilda y las Mujeres en Ingeniería.
+Estoy entusiasmada especialmente por formar parte del programa de rOpenSci para contribuir al desarrollo de recursos accesibles que promuevan el uso democrático de la inteligencia artificial en español. Creo firmemente que en contextos desafiantes como el latinoamericano, la ciencia abierta nos ofrece un medio posible para que nos desarrollemos como comunidad. 
 ## Juan Camilo Rojas Hernandez
 
 {{< figure src = "/img/team/juan-camilo-rojas-hernandez.jpg" width = "250" alt = "Foto de perfil de Juan Camilo Rojas Hernandez" class = "pull-left" caption = "<strong>Juan Camilo Rojas Hernandez </br>  </br> </strong>">}}
