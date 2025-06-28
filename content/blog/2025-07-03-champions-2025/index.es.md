@@ -33,11 +33,11 @@ Te invitamos a conocer a cada una de estas personas y sus proyectos durante el p
 
 {{< figure src = "/img/team/ana-carolina-moreno.jpeg" width = "250" alt = "Foto de perfil de Ana Carolina Moreno" class = "pull-left" caption = "<strong>Ana Carolina Moreno </br> Periodista de datos </br> Directora en Abraji </br> Co-organizadora de R-Ladies São Paulo</strong>">}}
 
-Soy periodista de datos en Brasil y he trabajo 20 años en redacciones periodísticas o como reportera freelance. incluso 13 años en TV Globo/g1, el principal grupo de comunicación del país. Desde el 2018 uso R para hacer análises estadísticas y crear visualizaciones de datos para reportajes. 
+Soy periodista de datos en Brasil y he trabajado 20 años en redacciones periodísticas o como reportera freelance, incluyendo 13 años en TV Globo/g1, el principal grupo de comunicación del país. Desde el 2018 uso R para hacer análisis estadísticos y crear visualizaciones de datos para reportajes. 
 
-En el 2025 soy alumna del Programa Lede de Periodismo de Datos de Columbia University, en Nueva York, una de las directoras de la Associación Brasileña de Periodismo Investigativo (Abraji) y co-organizadora de R-Ladies São Paulo.
+Actualmente soy alumna del Programa Lede de Periodismo de Datos de Columbia University, en Nueva York, una de las directoras de la Associación Brasileña de Periodismo Investigativo (Abraji) y co-organizadora de R-Ladies São Paulo.
 
-Durante el Programa Champions, mi desafío será revisar y actualizar el paquete geobr, creado por Rafael Pereira, de Ipea, y usado por investigadores y periodistas de todo el mundo para generar mapas de los territorios brasileños. Me apunté al programa porque creo que es una rica oportunidad para nuevos aprendizajes en R y en el mundo de los paquetes y para colaborar más intimamente con la comunidad de R en Latinoamérica.
+Durante el Programa de rOpenSci, mi desafío será revisar y actualizar el paquete [geobr](https://github.com/ipeaGIT/geobr), creado por [Rafael Pereira](https://www.urbandemographics.org), de Ipea, y usado por investigadores y periodistas de todo el mundo para generar mapas de los territorios brasileños. Me apunté al programa porque creo que es una rica oportunidad para nuevos aprendizajes en R y en el mundo de los paquetes y para colaborar más intimamente con la comunidad de R en Latinoamérica.
 
 ## Diana García Cortes
 
