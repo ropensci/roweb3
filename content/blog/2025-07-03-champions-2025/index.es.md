@@ -125,10 +125,6 @@ Mi investigación también se centra en la selección de modelos para modelos de
 
 Mi proyecto sera desarrollar un nuevo paquete de R que facilite la selección del mejor modelo de efectos aleatorios cruzados. Este problema es común en áreas como educación, salud, y estudios longitudinales, donde los efectos aleatorios no siguen una jerarquía simple.
 
-</br>
-</br>
-</br>
-</br>
 
 ## Soledad Andrea Araya Orrego
 
