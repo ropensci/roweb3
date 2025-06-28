@@ -137,5 +137,10 @@ Mi proyecto sera desarrollar un nuevo paquete de R que facilite la selección de
 Mi nombre es Soledad Araya, estudié Ciencia Política, y desde hace 3 años me desempeño como Jefa de Proyectos en la Dirección de Estudios Sociales de la Pontificia Universidad Católica de Chile (DESUC), donde mi trabajo consiste, principalmente, en la coordinación de estudios cuantitativos. Por ese motivo, uso R diariamente: desde el desarrollo de muestras para la aplicación de encuestas presenciales, a la construcción de bases de datos y posterior análisis de resultados. Además, trabajo como docente de nivelación metodológica en el Instituto de Ciencia Política de la misma institución.
 
 Una de las principales razones por las que postulé al programa es porque quiero desarrollar un proyecto personal que nació desde la necesidad de tener datos accesibles, estandarizados y ordenados sobre los resultados de las elecciones en Chile. Sé que este programa me entregará las herramientas necesarias para lograrlo, y espero que este proyecto sea también de utilidad para todos quienes tienen curiosidad por indagar en este tipo de información. La comunidad de R siempre genera espacios de crecimiento y aprendizaje, y espero aprovecharlo al máximo.
+
 ## Siguientes pasos
 
+Con la presentación de este nuevo grupo de Campeon(e|a)s, damos inicio a la tercera edición del programa. Durante el próximo año, estas personas recibirán capacitación en desarrollo de paquetes y gestión de comunidades, trabajarán en sus proyectos y llevarán a cabo actividades de divulgación y promoción de la ciencia abierta en sus instituciones y organizaciones.
+
+Si quieres seguir el desarrollo de sus proyectos, no te pierdas nuestros artículos en el blog, novedades en nuestro newsletter y redes sociales. 
+  
