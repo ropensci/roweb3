@@ -22,12 +22,12 @@ params:
 description: "Presentamos a 10 nuevas personas que se suman como Campeones y Campeonas de rOpenSci, todas originarias de América Latina. Con trayectorias diversas y proyectos inspiradores, impulsan la ciencia abierta desde sus comunidades."
 
 editor:
-  - Maëlle Salmon
+  - Alejandra Bellini
 ---
 
 Nos alegra muchísimo presentar a las nuevas personas que se suman como Campeones y Campeonas de rOpenSci. Este grupo experimentará el programa y trabajará en español, lo que nos permite seguir fortaleciendo la comunidad de ciencia abierta y desarrollo de software de investigación en este idioma. Nos llenan de entusiasmo los proyectos que van a desarrollar, que abordan desafíos reales desde distintas disciplinas y territorios de América Latina.
 
-Te invitamos a conocer a cada una de estas personas y sus proyectos para el próximo año. 
+Te invitamos a conocer a cada una de estas personas y los proyectos en los que trabajaran a lo largo del programa.
 
 ## Ana Carolina Moreno
 
@@ -39,7 +39,7 @@ Actualmente soy alumna del Programa Lede de Periodismo de Datos de Columbia Univ
 
 Durante el Programa de rOpenSci, mi desafío será revisar y actualizar el paquete [geobr](https://github.com/ipeaGIT/geobr), creado por [Rafael Pereira](https://www.urbandemographics.org), de Ipea, y usado por investigadores y periodistas de todo el mundo para generar mapas de los territorios brasileños. 
 
-Me apunté al programa porque creo que es una rica oportunidad para nuevos aprendizajes en R y en el mundo de los paquetes y para colaborar más intimamente con la comunidad de R en Latinoamérica.
+Me apunté al programa porque creo que es una rica oportunidad para nuevos aprendizajes en R y en el mundo de los paquetes y para colaborar más íntimamente con la comunidad de R en Latinoamérica.
 
 ## Diana García Cortes
 
@@ -55,9 +55,9 @@ Me emociona ser parte del Program de Campeon(e|a)s por la oportunidad de aprende
 
 {{< figure src = "/img/team/erick-navarro-delgado.jpg" width = "250" alt = "Foto de perfil de Erick Navarro Delgado" class = "pull-left" caption = "<strong>Erick Navarro Delgado </br> The University of British Columbia </br> </strong>">}}
 
-Mi nombre es Erick Navarro (él), licenciado en biología por la Universidad Nacional Autónoma de México y candidato a Doctor en Bioinformática por The University of British Columbia. Nací y crecí en la Ciudad de México, pero actualmente vivo en Vancouver, Canadá, estudiando mi posgrado. Mi proyecto está enfocado en desarrollar herramientas computacionales en R para integrar datos del genoma, exposoma y metiloma con el objetivo de entender los factores que contribuyen a la variabilidad en la metilación del ADN en humanos.
+Mi nombre es Erick Navarro, licenciado en biología por la Universidad Nacional Autónoma de México y candidato a Doctor en Bioinformática por The University of British Columbia. Nací y crecí en la Ciudad de México, pero actualmente vivo en Vancouver, Canadá, estudiando mi posgrado. Mi proyecto está enfocado en desarrollar herramientas computacionales en R para integrar datos del genoma, exposoma y metiloma con el objetivo de entender los factores que contribuyen a la variabilidad en la metilación del ADN en humanos.
 
-Quiero participar en el Programa de rOpenSci porque creo que la ciencia abierta y accessible es esencial para el avance científico. En este programa espero conectar con personas de la comunidad de programación en R, mejorar mis prácticas como programador, y desarrollar herramientas para impulsar el desarrollo de software con R en Latinoamérica. 
+Quiero participar en el Programa de rOpenSci porque creo que la ciencia abierta y accesible es esencial para el avance científico. En este programa espero conectar con personas de la comunidad de programación en R, mejorar mis prácticas como programador, y desarrollar herramientas para impulsar el desarrollo de software con R en Latinoamérica. 
 
 ## Guadalupe Pascal
 
