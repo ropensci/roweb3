@@ -37,13 +37,19 @@ Soy periodista de datos en Brasil y he trabajado 20 años en redacciones period�
 
 Actualmente soy alumna del Programa Lede de Periodismo de Datos de Columbia University, en Nueva York, una de las directoras de la Associación Brasileña de Periodismo Investigativo (Abraji) y co-organizadora de R-Ladies São Paulo.
 
-Durante el Programa de rOpenSci, mi desafío será revisar y actualizar el paquete [geobr](https://github.com/ipeaGIT/geobr), creado por [Rafael Pereira](https://www.urbandemographics.org), de Ipea, y usado por investigadores y periodistas de todo el mundo para generar mapas de los territorios brasileños. Me apunté al programa porque creo que es una rica oportunidad para nuevos aprendizajes en R y en el mundo de los paquetes y para colaborar más intimamente con la comunidad de R en Latinoamérica.
+Durante el Programa de rOpenSci, mi desafío será revisar y actualizar el paquete [geobr](https://github.com/ipeaGIT/geobr), creado por [Rafael Pereira](https://www.urbandemographics.org), de Ipea, y usado por investigadores y periodistas de todo el mundo para generar mapas de los territorios brasileños. 
+
+Me apunté al programa porque creo que es una rica oportunidad para nuevos aprendizajes en R y en el mundo de los paquetes y para colaborar más intimamente con la comunidad de R en Latinoamérica.
 
 ## Diana García Cortes
 
 {{< figure src = "/img/team/diana-garcia.jpg" width = "250" alt = "Foto de perfil de Diana García Cortes" class = "pull-right" caption = "<strong>Diana García Cortes</br> Dana-Farber Cancer Institute </br> </strong>">}}
 
-Soy bióloga computacional mexicana trabajando en el Breast Oncology Program del Dana-Farber Cancer Institute en Boston. Me gradué como Ingeniera en Tecnologías Computacionales y tengo una maestría en Ciencias de la Computación y un doctorado en Ciencias Biomédicas. Me apasiona aplicar mis habilidades en programación al servicio de la investigación en genómica del cáncer. Mi proyecto consiste en desarrollar un paquete para facilitar el acceso a los datos del Metastatic Breast Cancer Project, una iniciativa conjunta del Dana-Farber Cancer Institute, el Broad Institute y la organización Count Me In, cuyo objetivo es acelerar la investigación en cáncer de mama metastásico a través de la integración de un dataset con datos genómicos y clínicos, formado gracias a la colaboración de pacientes y asociaciones de acompañamiento. Me emociona ser parte del program de Campeon(e|a)s por la oportunidad de aprender en comunidad, de recibir retroalimentación de mi trabajo y hacer aportaciones en ciencia y datos abiertos y aprender y colaborar con la comunidad de rOpenSci. 
+Soy bióloga computacional mexicana trabajando en el Breast Oncology Program del Dana-Farber Cancer Institute en Boston. Me gradué como Ingeniera en Tecnologías Computacionales y tengo una maestría en Ciencias de la Computación y un doctorado en Ciencias Biomédicas. 
+
+Me apasiona aplicar mis habilidades en programación al servicio de la investigación en genómica del cáncer. Mi proyecto consiste en desarrollar un paquete para facilitar el acceso a los datos del Metastatic Breast Cancer Project, una iniciativa conjunta del Dana-Farber Cancer Institute, el Broad Institute y la organización Count Me In, cuyo objetivo es acelerar la investigación en cáncer de mama metastásico a través de la integración de un dataset con datos genómicos y clínicos, formado gracias a la colaboración de pacientes y asociaciones de acompañamiento. 
+
+Me emociona ser parte del Program de Campeon(e|a)s por la oportunidad de aprender en comunidad, de recibir retroalimentación de mi trabajo y hacer aportaciones en ciencia y datos abiertos y aprender y colaborar con la comunidad de rOpenSci. 
 
 ## Erick Navarro Delgado
 
@@ -51,20 +57,23 @@ Soy bióloga computacional mexicana trabajando en el Breast Oncology Program del
 
 Mi nombre es Erick Navarro (él), licenciado en biología por la Universidad Nacional Autónoma de México y candidato a Doctor en Bioinformática por The University of British Columbia. Nací y crecí en la Ciudad de México, pero actualmente vivo en Vancouver, Canadá, estudiando mi posgrado. Mi proyecto está enfocado en desarrollar herramientas computacionales en R para integrar datos del genoma, exposoma y metiloma con el objetivo de entender los factores que contribuyen a la variabilidad en la metilación del ADN en humanos.
 
-Quiero participar en el programa Champions porque creo que la ciencia abierta y accessible es esencial para el avance científico. En este programa espero conectar con personas de la comunidad de programación en R, mejorar mis prácticas como programador, y desarrollar herramientas para impulsar el desarrollo de software con R en Latinoamérica. 
+Quiero participar en el Programa de rOpenSci porque creo que la ciencia abierta y accessible es esencial para el avance científico. En este programa espero conectar con personas de la comunidad de programación en R, mejorar mis prácticas como programador, y desarrollar herramientas para impulsar el desarrollo de software con R en Latinoamérica. 
 
 ## Guadalupe Pascal
 
 {{< figure src = "/img/team/guadalupe-pascal.jpg" width = "250" alt = "Foto de perfil de Guadalupe Pascal" class = "pull-right" caption = "<strong>Guadalupe Pascal </br> UNLZ-UCA-UGR </br> Programa de Doctorado TICs URJC </br> CALMatilda </br> </strong>">}}
 
 ¡Hola! Soy Guadalupe Pascal, investigadora en ciencia de datos aplicada a la toma de decisiones en empresas y sistemas sociales, siempre con una mirada situada en el Sur Global. Me apasiona impulsar y formar parte de proyectos colaborativos con enfoque interdisciplinario, ciencia abierta y justicia epistémica. Mis intereses de investigación incluyen modelado matemático, aprendizaje automático, procesamiento de lenguaje natural (NLP), neurociencia cognitiva, género y educación en ingeniería.
+
 Soy Ingeniera Industrial por la Universidad Nacional de Lomas de Zamora (Argentina), Máster en Ingeniería de Sistemas de Decisión por la Universidad Rey Juan Carlos (España), y actualmente curso el Doctorado en Tecnologías de la Información y las Comunicaciones (URJC) y en Ingeniería (UNLZ).
+
 Trabajo como Profesora Asociada de Investigación Operativa en la UNLZ y la Universidad Católica Argentina (UCA), dicto cursos de Ciencia de Datos y Aprendizaje Automático en la Universidad Gran Rosario (UGR), y participo activamente en la Cátedra Abierta Latinoamericana Matilda y las Mujeres en Ingeniería.
-Estoy entusiasmada especialmente por formar parte del programa de rOpenSci para contribuir al desarrollo de recursos accesibles que promuevan el uso democrático de la inteligencia artificial en español. Creo firmemente que en contextos desafiantes como el latinoamericano, la ciencia abierta nos ofrece un medio posible para que nos desarrollemos como comunidad. 
+
+Estoy entusiasmada especialmente por formar parte del Programa de rOpenSci para contribuir al desarrollo de recursos accesibles que promuevan el uso democrático de la inteligencia artificial en español. Creo firmemente que en contextos desafiantes como el latinoamericano, la ciencia abierta nos ofrece un medio posible para que nos desarrollemos como comunidad. 
 
 ## Juan Camilo Rojas Hernandez
 
-{{< figure src = "/img/team/juan-camilo-rojas-hernandez.jpg" width = "250" alt = "Foto de perfil de Juan Camilo Rojas Hernandez" class = "pull-left" caption = "<strong>Juan Camilo Rojas Hernandez </br> Consultor en análisis de datos para salud pública </br> Organización Panamericana de la Salud (OPS) </strong>">}}
+{{< figure src = "/img/team/juan-camilo-rojas-hernandez.jpg" width = "250" alt = "Foto de perfil de Juan Camilo Rojas Hernandez" class = "pull-left" caption = "<strong>Juan Camilo Rojas Hernandez </br> Consultor en análisis de datos de salud pública </br> Organización Panamericana de la Salud (OPS) </strong>">}}
 
 Hola, soy Juan Camilo Rojas Hernández, de Colombia. Actualmente trabajo como consultor internacional para la Organización Panamericana de la Salud (OPS). Mi experiencia se centra en el análisis de datos para vigilancia en salud pública, con especial interés en herramientas de código abierto.
 
@@ -76,7 +85,9 @@ Me motivé a postularme porque considero que esta es una gran oportunidad para a
 
 {{< figure src = "/img/team/lucia-ines-rodriguez-planes.jpeg" width = "250" alt = "Foto de perfil de Lucía Inés Rodríguez Planes" class = "pull-right" caption = "<strong>Lucía Inés Rodríguez Planes </br> Administración de Parques Nacionales </br> R-Ladies Ushuaia </br> </strong>">}}
 
-Soy bióloga, docente universitaria y trabajo en conservación de fauna en la Patagonia austral de Argentina. Mi formación de grado y doctorado fue en la Universidad de Buenos Aires aplicando la investigación en dinámica de poblaciones al manejo de situaciones de interés epidemiológico y para la conservación. Actualmente me desempeño en la Administración de Parques Nacionales como Especialista de aplicación científica a la conservación. He usado R para analizar datos espaciales y temporales provenientes de cámaras trampa, monitoreos de fauna de largo plazo y evaluaciones de planes de manejo de especies exóticas invasoras. Enseño ecología a estudiantes de grado y posgrado, a técnicos y guardaparques; y participo en espacios que promueven la inclusión de mujeres y diversidades en ciencia y tecnología, como R-Ladies Ushuaia. 
+Soy bióloga, docente universitaria y trabajo en conservación de fauna en la Patagonia austral de Argentina. Mi formación de grado y doctorado fue en la Universidad de Buenos Aires aplicando la investigación en dinámica de poblaciones al manejo de situaciones de interés epidemiológico y para la conservación. 
+
+Actualmente me desempeño en la Administración de Parques Nacionales como Especialista de aplicación científica a la conservación. He usado R para analizar datos espaciales y temporales provenientes de cámaras trampa, monitoreos de fauna de largo plazo y evaluaciones de planes de manejo de especies exóticas invasoras. Enseño ecología a estudiantes de grado y posgrado, a técnicos y guardaparques; y participo en espacios que promueven la inclusión de mujeres y diversidades en ciencia y tecnología, como R-Ladies Ushuaia. 
 
 Proyecto desarrollar un paquete que sea la puerta de entrada a soluciones basadas en código para agentes de conservación con poca experiencia en uso de R. Íntegramente escrito en español y con ejemplos completos demostrativos, deseo que se constituya en la caja de herramientas inicial de usuarias y usuarios nuevos, a partir del cual poder construir flujos de trabajo más complejos y específicos para casos particulares. Participando del Programa Campeon(a|e)s busco aprender cómo propiciar el diálogo efectivo entre la gestión y la investigación, proponer procesos y promover modos de trabajo para fortalecer las capacidades locales instaladas que puedan ser sostenidos en el tiempo. 
 
@@ -111,6 +122,13 @@ Soy econometrista cuento con un doctorado en Econometría de la Universidad de G
 Mi especialidad es el análisis de datos de panel (longitudinales) y en el uso de técnicas de aprendizaje automático para estimar modelos econométricos. 
 
 Mi investigación también se centra en la selección de modelos para modelos de efectos mixtos. Actualmente, soy Investigador Postdoctoral en Estadística en la Universidad de Ginebra.
+
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
 
 ## Soledad Andrea Araya Orrego
 
