@@ -55,14 +55,16 @@ Quiero participar en el programa Champions porque creo que la ciencia abierta y 
 
 ## Guadalupe Pascal
 
-{{< figure src = "/img/team/guadalupe-pascal.jpg" width = "250" alt = "Foto de perfil de Guadalupe Pascal" class = "pull-left" caption = "<strong>Guadalupe Pascal </br>  </br> </strong>">}}
+{{< figure src = "/img/team/guadalupe-pascal.jpg" width = "250" alt = "Foto de perfil de Guadalupe Pascal" class = "pull-left" caption = "<strong>Guadalupe Pascal </br> UNLZ-UCA-UGR </br> Programa de Doctorado TICs URJC </br> CALMatilda </br> </strong>">}}
+
 ¡Hola! Soy Guadalupe Pascal, investigadora en ciencia de datos aplicada a la toma de decisiones en empresas y sistemas sociales, siempre con una mirada situada en el Sur Global. Me apasiona impulsar y formar parte de proyectos colaborativos con enfoque interdisciplinario, ciencia abierta y justicia epistémica. Mis intereses de investigación incluyen modelado matemático, aprendizaje automático, procesamiento de lenguaje natural (NLP), neurociencia cognitiva, género y educación en ingeniería.
 Soy Ingeniera Industrial por la Universidad Nacional de Lomas de Zamora (Argentina), Máster en Ingeniería de Sistemas de Decisión por la Universidad Rey Juan Carlos (España), y actualmente curso el Doctorado en Tecnologías de la Información y las Comunicaciones (URJC) y en Ingeniería (UNLZ).
 Trabajo como Profesora Asociada de Investigación Operativa en la UNLZ y la Universidad Católica Argentina (UCA), dicto cursos de Ciencia de Datos y Aprendizaje Automático en la Universidad Gran Rosario (UGR), y participo activamente en la Cátedra Abierta Latinoamericana Matilda y las Mujeres en Ingeniería.
 Estoy entusiasmada especialmente por formar parte del programa de rOpenSci para contribuir al desarrollo de recursos accesibles que promuevan el uso democrático de la inteligencia artificial en español. Creo firmemente que en contextos desafiantes como el latinoamericano, la ciencia abierta nos ofrece un medio posible para que nos desarrollemos como comunidad. 
+
 ## Juan Camilo Rojas Hernandez
 
-{{< figure src = "/img/team/juan-camilo-rojas-hernandez.jpg" width = "250" alt = "Foto de perfil de Juan Camilo Rojas Hernandez" class = "pull-left" caption = "<strong>Juan Camilo Rojas Hernandez </br>  </br> </strong>">}}
+{{< figure src = "/img/team/juan-camilo-rojas-hernandez.jpg" width = "250" alt = "Foto de perfil de Juan Camilo Rojas Hernandez" class = "pull-left" caption = "<strong>Juan Camilo Rojas Hernandez </br> Consultor en análisis de datos para salud pública </br> Organización Panamericana de la Salud (OPS) </strong>">}}
 
 Hola, soy Juan Camilo Rojas Hernández, de Colombia. Actualmente trabajo como consultor internacional para la Organización Panamericana de la Salud (OPS). Mi experiencia se centra en el análisis de datos para vigilancia en salud pública, con especial interés en herramientas de código abierto.
 
@@ -72,11 +74,12 @@ Me motivé a postularme porque considero que esta es una gran oportunidad para a
 
 ## Lucía Inés Rodríguez Planes
 
-{{< figure src = "/img/team/lucia-ines-rodriguez-planes.jpeg" width = "250" alt = "Foto de perfil de Lucía Inés Rodríguez Planes" class = "pull-left" caption = "<strong>Lucía Inés Rodríguez Planes </br>  </br> </strong>">}}
+{{< figure src = "/img/team/lucia-ines-rodriguez-planes.jpeg" width = "250" alt = "Foto de perfil de Lucía Inés Rodríguez Planes" class = "pull-left" caption = "<strong>Lucía Inés Rodríguez Planes </br> Administración de Parques Nacionales </br> R-Ladies Ushuaia </br> </strong>">}}
 
 Soy bióloga, docente universitaria y trabajo en conservación de fauna en la Patagonia austral de Argentina. Mi formación de grado y doctorado fue en la Universidad de Buenos Aires aplicando la investigación en dinámica de poblaciones al manejo de situaciones de interés epidemiológico y para la conservación. Actualmente me desempeño en la Administración de Parques Nacionales como Especialista de aplicación científica a la conservación. He usado R para analizar datos espaciales y temporales provenientes de cámaras trampa, monitoreos de fauna de largo plazo y evaluaciones de planes de manejo de especies exóticas invasoras. Enseño ecología a estudiantes de grado y posgrado, a técnicos y guardaparques; y participo en espacios que promueven la inclusión de mujeres y diversidades en ciencia y tecnología, como R-Ladies Ushuaia. 
 
 Proyecto desarrollar un paquete que sea la puerta de entrada a soluciones basadas en código para agentes de conservación con poca experiencia en uso de R. Íntegramente escrito en español y con ejemplos completos demostrativos, deseo que se constituya en la caja de herramientas inicial de usuarias y usuarios nuevos, a partir del cual poder construir flujos de trabajo más complejos y específicos para casos particulares. Participando del Programa Campeon(a|e)s busco aprender cómo propiciar el diálogo efectivo entre la gestión y la investigación, proponer procesos y promover modos de trabajo para fortalecer las capacidades locales instaladas que puedan ser sostenidos en el tiempo. 
+
 ## Maria Valentina Clavijo Mesa
 
 {{< figure src = "/img/team/maria-valentina-clavijo-mesa.png" width = "250" alt = "Foto de perfil de Maria Valentina Clavijo Mesa" class = "pull-left" caption = "<strong>Maria Valentina Clavijo Mesa </br>LASAR3. R-Ladies Medellín  </br> </strong>">}}
@@ -101,11 +104,15 @@ Además, mi participación en el programa representa un paso pionero dentro de m
 
 ## Monika Avila Marquez
 
-{{< figure src = "/img/team/monika-avila-marquez.jpg" width = "250" alt = "Foto de perfil de Monika Avila Marquez" class = "pull-left" caption = "<strong>Monika Avila Marquez </br>  </br> </strong>">}}
+{{< figure src = "/img/team/monika-avila-marquez.jpeg" width = "250" alt = "Foto de perfil de Monika Avila Marquez" class = "pull-left" caption = "<strong>Monika Avila Marquez </br> Universidad de Ginebra </br> </strong>">}}
 
+Soy econometrista cuento con un doctorado en Econometría de la Universidad de Ginebra.  Mi especialidad es el análisis de datos de panel (longitudinales) y en el uso de técnicas de aprendizaje automático para estimar modelos econométricos. Mi investigación también se centra en la selección de modelos para modelos de efectos mixtos. Actualmente, soy Investigador Postdoctoral en Estadística en la Universidad de Ginebra.
 ## Soledad Andrea Araya Orrego
 
-{{< figure src = "/img/team/sole-araya.jpg" width = "250" alt = "Foto de perfil de Soledad Andrea Araya Orrego" class = "pull-left" caption = "<strong>Soledad Andrea Araya Orrego </br>  </br> </strong>">}}
+{{< figure src = "/img/team/soledad-araya.jpeg" width = "250" alt = "Foto de perfil de Soledad Andrea Araya Orrego" class = "pull-left" caption = "<strong>Soledad Andrea Araya Orrego </br> Dirección de Estudios Sociales UC </br> </strong>">}}
 
+Mi nombre es Soledad Araya, estudié Ciencia Política, y desde hace 3 años me desempeño como Jefa de Proyectos en la Dirección de Estudios Sociales de la Pontificia Universidad Católica de Chile (DESUC), donde mi trabajo consiste, principalmente, en la coordinación de estudios cuantitativos. Por ese motivo, uso R diariamente: desde el desarrollo de muestras para la aplicación de encuestas presenciales, a la construcción de bases de datos y posterior análisis de resultados. Además, trabajo como docente de nivelación metodológica en el Instituto de Ciencia Política de la misma institución.
+
+Una de las principales razones por las que postulé al programa es porque quiero desarrollar un proyecto personal que nació desde la necesidad de tener datos accesibles, estandarizados y ordenados sobre los resultados de las elecciones en Chile. Sé que este programa me entregará las herramientas necesarias para lograrlo, y espero que este proyecto sea también de utilidad para todos quienes tienen curiosidad por indagar en este tipo de información. La comunidad de R siempre genera espacios de crecimiento y aprendizaje, y espero aprovecharlo al máximo.
 ## Siguientes pasos
 
