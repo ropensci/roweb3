@@ -300,9 +300,10 @@
     "url": "https://www.juliagustavsen.com/",
     "image": "/img/team/julia-gustavsen.jpg",
     "affiliation": "Agroscope",
-    "roles": [
+    "past_roles": [
       "editor"
     ],
+    "alumnus": true,
     "generalreview": true,
     "twitter": "JuliaGustavsen",
     "github": "jooolia",
