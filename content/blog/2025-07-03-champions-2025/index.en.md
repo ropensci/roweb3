@@ -92,7 +92,7 @@ I plan to develop a package that will be the gateway to code-based solutions for
 
 {{< figure src = "/img/team/maria-valentina-clavijo-mesa.png" width = "250" alt = "Foto de perfil de Maria Valentina Clavijo Mesa" class = "pull-left" caption = "<strong>Maria Valentina Clavijo Mesa </br>LASAR3. R-Ladies Medellín  </br> </strong>">}}
 
-Hello, my name is Valentina Clavijo and I am a PhD student at the Politecnico di Milano (Italy). I am developing my PhD project in the LASAR3 laboratory, focused on the analysis and evaluation of reliability, risk and resilience of complex systems. I am originally from Medellin, Colombia and currently reside in Milan. I am also co-founder of the R-Ladies Medellín chapter, where I actively promote the participation of women and underrepresented people in data science and R programming.
+Hello, my name is Valentina Clavijo, and I am a PhD student at Politecnico di Milano (Italy). I am conducting my research at the LASAR3 laboratory, which focuses on the analysis and evaluation of the reliability, risk, and resilience of complex systems. I am originally from Medellin, Colombia and currently reside in Milan. I am also a co-founder of the R-Ladies Medellín chapter, where I actively promote the participation of women and underrepresented people in data science and R programming.
 
 My project for the Champions Program consists of developing a package in R that facilitates the analysis of historical climate change data and the evaluation of the probability of extreme events in different regions of the world. I hope that this package can be useful for researchers and decision makers working with uncertain data and complex weather phenomena.
 
