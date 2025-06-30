@@ -64,11 +64,10 @@ Champions worked with their local communities to organize different kind of even
 
 rOpenSci's community spaces also benefited from the participation of the champions:
 
-- Sunny participated as a panelist in the community call ... telling about his experience developing the bbsTawian package as a project in the champions program,
-- Andrea participated in another community call in Spanish sharing her experience during the program with people interested in applying for the program.
-- Ezekiel participated as a mentor in the minihackathon for people contributing to open source software for the first time.
-- Liz Hare will be cohost at the xx coworking session with the topic...
-- Francesca was the main host of our first community call in Portugues ... and also one of the mentors of our traslathon during LatinR.
+- Sunny participated as a panelist in the community call [From Novice to Contributor: Making and Supporting First-Time Contributions to FOSS](https://ropensci.org/commcalls/first-time-contributor/) telling about her experience developing the *bbsTawian* package as a project in the Champions Program,
+- Andrea participated in the Community Call in Spanish [Fostering Open Science in Latin America - rOpenSci Champions Program](https://ropensci.org/es/commcalls/champions-latino-2025/) sharing her experience during the Champions Program with people interested in applying to the next cohort.
+- Ezekiel participated as a mentor in the [Coworking Mini-Hackathon for First-Time Contributors](https://ropensci.org/blog/2025/01/24/coworking-hackathons/), helping people to do their first contribution to R packages. 
+- Francesca was the main host of our first community call in Portugues [The R community speaks Portuguese](https://ropensci.org/commcalls/translation-portuguese/) and also one of the mentors of our [Tradução + Hackathon = Traslaton rOpenSci](https://www.eventbrite.cl/e/traducao-hackathon-traslaton-ropensci-tickets-1045507530167) during LatinR 2024.
 
 The champions wrote blog posts for rOpenSci's website covering technological aspects such as [“Resources For Using R With Screen Readers”](https://ropensci.org/blog/2024/09/05/screen-readers-tools/) by Liz Hare and also aspects such as the experience of being part of the program, such as [“Bridges and Communities. My Journey as an rOpenSci Champion”](https://ropensci.org/blog/2025/05/15/puentes-comunidades-campeones-ropensci/) by Andrea Vargas Gomez.
 
