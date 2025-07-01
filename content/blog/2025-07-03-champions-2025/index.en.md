@@ -42,11 +42,13 @@ I signed up for the program because I believe it is a rich opportunity for new l
 
 {{< figure src = "/img/team/diana-garcia.jpg" width = "250" alt = "Foto de perfil de Diana García Cortes" class = "pull-right" caption = "<strong>Diana García Cortes</br> Dana-Farber Cancer Institute </br> </strong>">}}
 
-I am a Mexican computational biologist working in the Breast Oncology Program at Dana-Farber Cancer Institute in Boston. I graduated as an Engineer in Computational Technologies and I have a Master's degree in Computer Science and a PhD in Biomedical Sciences.
+I am a Mexican computational biologist working in the Breast Oncology Program at Dana-Farber Cancer Institute in Boston. I hold a BS in Computer Science and Technology, a Master’s degree in Computer Science, and a PhD in Biomedical Sciences.
 
-I am passionate about applying my programming skills in the service of cancer genomics research. My project consists of developing a package to facilitate access to data from the Metastatic Breast Cancer Project, a joint initiative of the Dana-Farber Cancer Institute, the Broad Institute and the Count Me In organization, which aims to accelerate research in metastatic breast cancer through the integration of a dataset with genomic and clinical data, formed thanks to the collaboration of patients and support associations.
+I am passionate about leveraging my programming skills for cancer genomics research. My project involves developing a package to facilitate access to the data from the Metastatic Breast Cancer Project (MBCproject), a joint initiative of the Dana-Farber Cancer Institute, the Broad Institute, and the Count Me In organization. The MBCproject aims to accelerate research in metastatic breast cancer through the integration of a genomic and clinical dataset, integrated in collaboration with patients and patient support associations.
 
-I am excited to be part of the Champions Program for the opportunity to learn in community, to receive feedback on my work and make contributions in science and open data, and to learn from and collaborate with the rOpenSci community.
+I am excited to participate in the Champions Program as it offers a great opportunity to learn within a community. I am also eager to receive feedback on my work, contribute to science and open data, and to learn and collaborate with the rOpenSci community.
+
+
 
 ## Erick Navarro Delgado
 
