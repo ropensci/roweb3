@@ -1,3 +1,4 @@
+
 ---
 slug: champions-2025
 title: 'Open Science with a Latin American Identity: Meet the New Cohort of the rOpenSci Champions Program'
@@ -54,9 +55,9 @@ I am excited to participate in the Champions Program as it offers a great opport
 
 {{< figure src = "/img/team/erick-navarro-delgado.jpg" width = "250" alt = "Foto de perfil de Erick Navarro Delgado" class = "pull-left" caption = "<strong>Erick Navarro Delgado </br> The University of British Columbia </br> </strong>">}}
 
-My name is Erick Navarro, a biology graduate from the Universidad Nacional Autónoma de México and a PhD candidate in Bioinformatics at The University of British Columbia. I was born and raised in Mexico City, but I am currently living in Vancouver, Canada, studying my graduate studies. My project is focused on developing computational tools in R to integrate genome, exposome and methylome data in order to understand the factors that contribute to variability in DNA methylation in humans.
+Hi! My name is Erick. I studied a B.Sc. in Biology at the Universidad Nacional Autónoma de México, and I am currently a PhD candidate in Bioinformatics at The University of British Columbia. I was born and raised in Mexico City, but I am living in Vancouver as part of my grad school. My research focuses on developing computational tools in R that integrate genome, exposome and methylome data to understand the factors that contribute to DNA methylation variability in human populations.
 
-I want to participate in the rOpenSci Program because I believe that open and accessible science is essential for scientific advancement. In this program I hope to connect with people from the R programming community, improve my practices as a programmer, and develop tools to boost software development with R in Latin America.
+I am really excited to participate in the rOpenSci program because I am a firm believer that open and accessible science are essential to conduct research that is relevant to all individuals in our society. In this program I hope to connect with people from the R programming community, improve my proficiency as a software developer, and develop skills that allow me to support the R software development community in Latin America.
 
 ## Guadalupe Pascal
 
@@ -84,11 +85,11 @@ I was motivated to apply because I consider that this is a great opportunity to 
 
 {{< figure src = "/img/team/lucia-ines-rodriguez-planes.jpeg" width = "250" alt = "Foto de perfil de Lucía Inés Rodríguez Planes" class = "pull-right" caption = "<strong>Lucía Inés Rodríguez Planes </br> Administración de Parques Nacionales </br> R-Ladies Ushuaia </br> </strong>">}}
 
-I am a biologist, university professor and I work in wildlife conservation in southern Patagonia, Argentina. My undergraduate and doctoral training was at the University of Buenos Aires applying research in population dynamics to the management of situations of epidemiological and conservation interest.
+I am a biologist and university professor working in wildlife conservation in southern Patagonia, Argentina. My undergraduate and doctoral training was at the University of Buenos Aires applying research in population dynamics to the management of situations of epidemiological and conservation interest.
 
 Currently I work at the National Parks Administration as a Conservation Science Application Specialist. I have used R to analyze spatial and temporal data from camera traps, long-term wildlife monitoring and evaluation of invasive alien species management plans. I teach ecology to undergraduate and graduate students, technicians and park rangers; and I participate in spaces that promote the inclusion of women and diversity in science and technology, such as R-Ladies Ushuaia.
 
-I plan to develop a package that will be the gateway to code-based solutions for conservation agents with little experience in the use of R. Entirely written in Spanish and with complete demonstrative examples, I want it to become the initial toolbox for new users, from which to build more complex and specific workflows for particular cases. By participating in the Champions Program, I seek to learn how to promote effective dialogue between management and research, propose processes and promote ways of working to strengthen local capacities that can be sustained over time.
+I plan to develop a package that will be the gateway to code-based solutions for conservation agents with little experience using R. Entirely written in Spanish and with complete demonstrative examples, I want it to become the initial toolbox for new users, from which to build more complex and specific workflows for particular cases. By participating in the Champions Program, I seek to learn how to promote effective dialogue between management and research, propose processes, and encourage ways to strengthen local capacities sustained over time.
 
 ## Maria Valentina Clavijo Mesa
 
@@ -116,13 +117,11 @@ Furthermore, my participation in the program represents a pioneering step within
 
 {{< figure src = "/img/team/monika-avila-marquez.jpeg" width = "250" alt = "Foto de perfil de Monika Avila Marquez" class = "pull-left" caption = "<strong>Monika Avila Marquez </br> Universidad de Ginebra </br> </strong>">}}
 
-I am an econometrician with a Ph.D. in Econometrics from the University of Geneva.
+Hi, I am an econometrician with a Ph.D. in Econometrics from the University of Geneva. Currently, I am a Postdoctoral Rsearch Fellow at the same university.
 
-I specialize in the analysis of panel (longitudinal) data and in the use of machine learning techniques to estimate econometric models.
+I specialize in the analysis of panel (longitudinal) data and in the use of machine learning techniques to estimate econometric models. My research also focuses on model selection for mixed-effects models.
 
-My research also focuses on model selection for mixed-effects models. Currently, I am a Postdoctoral Research Fellow in Statistics at the University of Geneva.
-
-My project will be to develop a new R package that facilitates the selection of the best random effects cross-sectional model. This problem is common in areas such as education, health, and longitudinal studies, where random effects do not follow a simple hierarchy.
+I am developing a new R package designed to facilitate the selection of the most appropriate model in settings with crossed random effects. Model selection is a common challenge in fields such as education, health, and longitudinal studies, where random effects do not follow a simple hierarchy.
 
 ## Soledad Andrea Araya Orrego
 
