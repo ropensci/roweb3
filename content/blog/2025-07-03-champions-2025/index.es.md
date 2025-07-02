@@ -117,13 +117,13 @@ Además, mi participación en el programa representa un paso pionero dentro de m
 
 {{< figure src = "/img/team/monika-avila-marquez.jpeg" width = "250" alt = "Foto de perfil de Monika Avila Marquez" class = "pull-left" caption = "<strong>Monika Avila Marquez </br> Universidad de Ginebra </br> </strong>">}}
 
-Soy econometrista cuento con un doctorado en Econometría de la Universidad de Ginebra.  
+Hola, soy econometrista con un doctorado en Econometría de la Universidad de Ginebra.  Actualmente, me desempeño como Investigadora Postdoctoral en Estadística en la misma universidad.   
 
-Mi especialidad es el análisis de datos de panel (longitudinales) y en el uso de técnicas de aprendizaje automático para estimar modelos econométricos. 
+Mi especialidad es el análisis de datos de panel (longitudinales) y el uso de técnicas de aprendizaje automático para estimar modelos econométricos. 
 
-Mi investigación también se centra en la selección de modelos para modelos de efectos mixtos. Actualmente, soy Investigador Postdoctoral en Estadística en la Universidad de Ginebra.
+Mi investigación también se centra en la selección de modelos para modelos de efectos mixtos. 
 
-Mi proyecto sera desarrollar un nuevo paquete de R que facilite la selección del mejor modelo de efectos aleatorios cruzados. Este problema es común en áreas como educación, salud, y estudios longitudinales, donde los efectos aleatorios no siguen una jerarquía simple.
+En la actualidad, desarrollo un nuevo paquete en R orientado a facilitar la selección del mejor modelo de efectos aleatorios cruzados. La selección del modelo de efectos mixtos más adecuado es un problema muy común en áreas como educación, salud, y estudios longitudinales, donde los efectos aleatorios no siguen una jerarquía simple.
 
 
 ## Soledad Andrea Araya Orrego
