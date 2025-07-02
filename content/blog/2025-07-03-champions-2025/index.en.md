@@ -116,13 +116,11 @@ Furthermore, my participation in the program represents a pioneering step within
 
 {{< figure src = "/img/team/monika-avila-marquez.jpeg" width = "250" alt = "Foto de perfil de Monika Avila Marquez" class = "pull-left" caption = "<strong>Monika Avila Marquez </br> Universidad de Ginebra </br> </strong>">}}
 
-I am an econometrician with a Ph.D. in Econometrics from the University of Geneva.
+Hi, I am an econometrician with a Ph.D. in Econometrics from the University of Geneva. Currently, I am a Postdoctoral Rsearch Fellow at the same university.
 
-I specialize in the analysis of panel (longitudinal) data and in the use of machine learning techniques to estimate econometric models.
+I specialize in the analysis of panel (longitudinal) data and in the use of machine learning techniques to estimate econometric models. My research also focuses on model selection for mixed-effects models.
 
-My research also focuses on model selection for mixed-effects models. Currently, I am a Postdoctoral Research Fellow in Statistics at the University of Geneva.
-
-My project will be to develop a new R package that facilitates the selection of the best random effects cross-sectional model. This problem is common in areas such as education, health, and longitudinal studies, where random effects do not follow a simple hierarchy.
+I am currently developing a new R package designed to facilitate the selection of the most appropriate model in settings with crossed random effects. Model selection is a common challenge in fields such as education, health, and longitudinal studies, where random effects do not follow a simple hierarchy.
 
 ## Soledad Andrea Araya Orrego
 
