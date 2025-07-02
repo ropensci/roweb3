@@ -55,9 +55,9 @@ I am excited to participate in the Champions Program as it offers a great opport
 
 {{< figure src = "/img/team/erick-navarro-delgado.jpg" width = "250" alt = "Foto de perfil de Erick Navarro Delgado" class = "pull-left" caption = "<strong>Erick Navarro Delgado </br> The University of British Columbia </br> </strong>">}}
 
-My name is Erick Navarro, a biology graduate from the Universidad Nacional Autónoma de México and a PhD candidate in Bioinformatics at The University of British Columbia. I was born and raised in Mexico City, but I am currently living in Vancouver, Canada, studying my graduate studies. My project is focused on developing computational tools in R to integrate genome, exposome and methylome data in order to understand the factors that contribute to variability in DNA methylation in humans.
+Hi! My name is Erick. I studied a B.Sc. in Biology at the Universidad Nacional Autónoma de México, and I am currently a PhD candidate in Bioinformatics at The University of British Columbia. I was born and raised in Mexico City, but I am living in Vancouver as part of my grad school. My research focuses on developing computational tools in R that integrate genome, exposome and methylome data to understand the factors that contribute to DNA methylation variability in human populations.
 
-I want to participate in the rOpenSci Program because I believe that open and accessible science is essential for scientific advancement. In this program I hope to connect with people from the R programming community, improve my practices as a programmer, and develop tools to boost software development with R in Latin America.
+I am really excited to participate in the rOpenSci program because I am a firm believer that open and accessible science are essential to conduct research that is relevant to all individuals in our society. In this program I hope to connect with people from the R programming community, improve my proficiency as a software developer, and develop skills that allow me to support the R software development community in Latin America.
 
 ## Guadalupe Pascal
 
