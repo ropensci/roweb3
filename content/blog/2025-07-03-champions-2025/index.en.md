@@ -5,14 +5,14 @@ title: 'Open Science with a Latin American Identity: Meet the New Cohort of the 
 author:
 - Ana Carolina Moreno
 - Diana Garcia Cortes
-- Erick Isaac Navarro Delgado
+- Erick Navarro Delgado
 - Guadalupe Pascal
 - Juan Camilo Rojas Hernandez
-- Lucía Inés Rodríguez Planes
+- Lucía Rodríguez Planes
 - Maria Valentina Clavijo Mesa
 - Mauro Loprete
 - Monika Avila Marquez
-- Soledad Andrea Araya Orrego
+- Soledad Araya Orrego
 - Yanina Bellini Saibene
 date: '2025-07-03'
 tags:
