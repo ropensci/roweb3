@@ -85,11 +85,11 @@ I was motivated to apply because I consider that this is a great opportunity to 
 
 {{< figure src = "/img/team/lucia-ines-rodriguez-planes.jpeg" width = "250" alt = "Foto de perfil de Lucía Inés Rodríguez Planes" class = "pull-right" caption = "<strong>Lucía Inés Rodríguez Planes </br> Administración de Parques Nacionales </br> R-Ladies Ushuaia </br> </strong>">}}
 
-I am a biologist, university professor and I work in wildlife conservation in southern Patagonia, Argentina. My undergraduate and doctoral training was at the University of Buenos Aires applying research in population dynamics to the management of situations of epidemiological and conservation interest.
+I am a biologist and university professor working in wildlife conservation in southern Patagonia, Argentina. My undergraduate and doctoral training was at the University of Buenos Aires applying research in population dynamics to the management of situations of epidemiological and conservation interest.
 
 Currently I work at the National Parks Administration as a Conservation Science Application Specialist. I have used R to analyze spatial and temporal data from camera traps, long-term wildlife monitoring and evaluation of invasive alien species management plans. I teach ecology to undergraduate and graduate students, technicians and park rangers; and I participate in spaces that promote the inclusion of women and diversity in science and technology, such as R-Ladies Ushuaia.
 
-I plan to develop a package that will be the gateway to code-based solutions for conservation agents with little experience in the use of R. Entirely written in Spanish and with complete demonstrative examples, I want it to become the initial toolbox for new users, from which to build more complex and specific workflows for particular cases. By participating in the Champions Program, I seek to learn how to promote effective dialogue between management and research, propose processes and promote ways of working to strengthen local capacities that can be sustained over time.
+I plan to develop a package that will be the gateway to code-based solutions for conservation agents with little experience using R. Entirely written in Spanish and with complete demonstrative examples, I want it to become the initial toolbox for new users, from which to build more complex and specific workflows for particular cases. By participating in the Champions Program, I seek to learn how to promote effective dialogue between management and research, propose processes, and encourage ways to strengthen local capacities sustained over time.
 
 ## Maria Valentina Clavijo Mesa
 
