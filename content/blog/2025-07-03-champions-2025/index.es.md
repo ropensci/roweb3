@@ -123,7 +123,7 @@ Mi especialidad es el análisis de datos de panel (longitudinales) y el uso de t
 
 Mi investigación también se centra en la selección de modelos para modelos de efectos mixtos. 
 
-Actualmente, estoy desarrollando un nuevo paquete en R orientado a facilitar la selección del mejor modelo de efectos aleatorios cruzados. La selección del modelo de efectos mixtos más adecuado es un problema muy común en áreas como educación, salud, y estudios longitudinales, donde los efectos aleatorios no siguen una jerarquía simple.
+En la actualidad, desarrollo un nuevo paquete en R orientado a facilitar la selección del mejor modelo de efectos aleatorios cruzados. La selección del modelo de efectos mixtos más adecuado es un problema muy común en áreas como educación, salud, y estudios longitudinales, donde los efectos aleatorios no siguen una jerarquía simple.
 
 
 ## Soledad Andrea Araya Orrego

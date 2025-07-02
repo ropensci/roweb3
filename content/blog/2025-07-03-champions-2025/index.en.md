@@ -1,3 +1,4 @@
+
 ---
 slug: champions-2025
 title: 'Open Science with a Latin American Identity: Meet the New Cohort of the rOpenSci Champions Program'
@@ -120,7 +121,7 @@ Hi, I am an econometrician with a Ph.D. in Econometrics from the University of G
 
 I specialize in the analysis of panel (longitudinal) data and in the use of machine learning techniques to estimate econometric models. My research also focuses on model selection for mixed-effects models.
 
-I am currently developing a new R package designed to facilitate the selection of the most appropriate model in settings with crossed random effects. Model selection is a common challenge in fields such as education, health, and longitudinal studies, where random effects do not follow a simple hierarchy.
+I am developing a new R package designed to facilitate the selection of the most appropriate model in settings with crossed random effects. Model selection is a common challenge in fields such as education, health, and longitudinal studies, where random effects do not follow a simple hierarchy.
 
 ## Soledad Andrea Araya Orrego
 
