@@ -14,6 +14,7 @@ author:
   - Soledad Araya Orrego
   - Yanina Bellini Saibene
 date: 2025-07-03
+featured: true
 tags:
   - programa campeones
   - comunidad
