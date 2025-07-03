@@ -2,7 +2,7 @@
 title: Statistical Computing 2025
 dateStart: 2025-07-27T08:00:00 # UTC!!
 dateEnd: 2025-07-30T18:00:00 # UTC!!
-date: 2025-07-01T18:00:00 # UTC!! same as dateEnd
+date: 2025-07-30T18:00:00  # UTC!! same as dateEnd
 description: Statistical Computing 2025
 location: 'Günzburg, Germany' # free text
 slug: "StatsComputing-2025"
