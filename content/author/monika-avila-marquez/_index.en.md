@@ -5,5 +5,4 @@ bio: PhD in Econometrics, Postdoc in Statistics at the University of Geneva, rOp
 github: monikavila
 linkedin: monika-avila-márquez
 orcid: 0009-0004-7720-6135
-img: /img/team/monika-avila-marquez.jpeg
 ---

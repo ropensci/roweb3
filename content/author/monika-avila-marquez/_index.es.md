@@ -5,5 +5,4 @@ bio: Doctora en Econometría, Postdoc en Estadística en la Universidad de Gineb
 github: monikavila
 linkedin: monika-avila-márquez
 orcid: 0009-0004-7720-6135
-img: /img/team/monika-avila-marquez.jpeg
 ---
