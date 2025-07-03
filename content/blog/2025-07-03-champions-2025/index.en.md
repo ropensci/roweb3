@@ -9,7 +9,7 @@ author:
 - Guadalupe Pascal
 - Juan Camilo Rojas Hernandez
 - Lucía Rodríguez Planes
-- Maria Valentina Clavijo Mesa
+- Valentina Clavijo Mesa
 - Mauro Loprete
 - Monika Avila Marquez
 - Soledad Araya Orrego
