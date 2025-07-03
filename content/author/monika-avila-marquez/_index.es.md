@@ -1,9 +1,8 @@
 ---
 name: Monika Avila Marquez
 link: https://www.monikaavila.com
-bio: PhD in Econometrics, Postdoc in Statistics at the University of Geneva, rOpenSci Champion 2025
+bio: Doctora en Econometría, Postdoc en Estadística en la Universidad de Ginebra, Campeona rOpenSci 2025
 github: monikavila
 linkedin: monika-avila-márquez
 orcid: 0009-0004-7720-6135
-img: /img/team/monika-avila-marquez.jpeg
 ---
