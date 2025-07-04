@@ -20,7 +20,7 @@ tags:
 - comunidad
 params:
   doi: 10.59350/pjnp4-p2x92
-description: Introducing 10 new rOpenSci Champions — all based in Latin America, representing diverse backgrounds and leading inspiring projects. Each of them is advancing open science from within their own communities.
+description: Introducing 10 new rOpenSci Champions — all from Latin America, representing diverse backgrounds and leading inspiring projects. Each of them is advancing open science from within their own communities.
 ---
 
 We’re very excited to introduce the new rOpenSci Champions! This cohort will participate in the program and carry out their work in Spanish, allowing us to continue strengthening the open science and research software development community in this language. We’re excited about the projects they’ll be developing, which tackle real-world challenges across diverse disciplines and regions of Latin America.
