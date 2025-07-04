@@ -1,4 +1,115 @@
-[{
+[
+  {
+   "name": "Ana Carolina Moreno",
+   "url": "https://investnews.com.br/autor/ana-carolina-moreno/",
+   "image" : "/img/team/ana-carolina-moreno.jpeg",
+   "affiliation": "InvestNews, R-Ladies São Paulo, Abraji",
+   "roles": [
+      "2025-2026"
+   ],
+   "github": "anacarolinamoreno",
+   "home": "https://investnews.com.br/autor/ana-carolina-moreno/"
+},
+{
+   "name": "Diana Garcia Cortes",
+   "url": "",
+   "image" : "/img/team/diana-garcia.jpg",
+   "affiliation": "Dana Farber Cancer Institute",
+   "roles": [
+      "2025-2026"
+   ],
+   "github": "ddiannae",
+   "home": ""
+},
+{
+   "name": "Erick Isaac Navarro Delgado",
+   "url": "https://erick-navarrodelgado.netlify.app",
+   "image" : "/img/team/erick-navarro-delgado.jpg",
+   "affiliation": "The University of British Columbia",
+   "roles": [
+      "2025-2026"
+   ],
+   "github": "ErickNavarroD",
+   "home": "https://erick-navarrodelgado.netlify.app"
+},
+{
+   "name": "Guadalupe Pascal",
+   "url": "https://guadapascal.github.io",
+   "image" : "/img/team/guadalupe-pascal.jpg",
+   "affiliation": "Universidad Nacional de Lomas de Zamora - Universidad Católica Argentina",
+   "roles": [
+      "2025-2026"
+   ],
+   "github": "guadapascal",
+   "home": "https://guadapascal.github.io"
+},
+{
+   "name": "Juan Camilo Rojas Hernandez",
+   "url": "",
+   "image" : "/img/team/juan-camilo-rojas-hernandez.jpg",
+   "affiliation": "Organizacion Panamericana de la Salud",
+   "roles": [
+      "2025-2026"
+   ],
+   "github": "camilorojas91",
+   "home": ""
+},  
+{
+   "name": "Lucía Inés Rodríguez Planes",
+   "url": "",
+   "image" : "/img/team/lucia-ines-rodriguez-planes.jpeg",
+   "affiliation": "Administración de Parques Nacionales, Universidad Nacional de Tierra del Fuego",
+   "roles": [
+      "2025-2026"
+   ],
+   "github": "luciairp",
+   "home": ""
+},
+{
+   "name": "Maria Valentina Clavijo Mesa",
+   "url": "",
+   "image" : "/img/team/maria-valentina-clavijo-mesa.png",
+   "affiliation": "LASAR3",
+   "roles": [
+      "2025-2026"
+   ],
+   "github": "Valentina9619",
+   "home": ""
+},  
+{
+   "name": "Mauro Loprete",
+   "url": "",
+   "image" : "/img/team/mauro-loprete.jpg",
+   "affiliation": "Instituto de Estadística, Facultad de Ciencias Económicas y de Administración,Universidad de la República.",
+   "roles": [
+      "2025-2026"
+   ],
+   "github": "mauroloprete",
+   "home": ""
+},
+{
+   "name": "Monika Avila Marquez",
+   "url": "https://www.monikaavila.com/",
+   "image" : "/img/team/monika-avila-marquez.jpeg",
+   "affiliation": "Departamento de Métodos y Análisis de datos, Universidad de Ginebra",
+   "roles": [
+      "2025-2026"
+   ],
+   "github": "monikavila",
+   "home": "https://www.monikaavila.com/"
+},
+{
+   "name": "Soledad Andrea Araya Orrego",
+   "url": "",
+   "image" : "/img/team/soledad-araya.jpeg",
+   "affiliation": "Pontificia Universidad Católica de Chile, Dirección de Estudios Sociales de la Facultad de Ciencias Sociales.",
+   "roles": [
+      "2025-2026"
+   ],
+   "github": "snaraya",
+   "home": ""
+},   
+  {
    "name": "Andrea Gomez Vargas",
    "url": "https://soyandrea.netlify.app/",
    "image" : "/img/team/andrea-vargas.png",
