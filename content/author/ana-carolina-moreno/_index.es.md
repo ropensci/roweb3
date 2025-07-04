@@ -1,7 +1,7 @@
 ---
 name: Ana Carolina Moreno
-home: https://investnews.com.br/autor/ana-carolina-moreno/
-bio: Periodista
+home: [https://bsky.app/profile/anarina.bsky.social](https://bsky.app/profile/anarina.bsky.social)
+bio: Periodista de datos
 github: anacarolinamoreno
 linkedin: anacarolinamoreno/
 ---
