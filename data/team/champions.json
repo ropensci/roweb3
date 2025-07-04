@@ -86,7 +86,18 @@
    ],
    "github": "mauroloprete",
    "home": ""
-},  
+},
+{
+   "name": "Monika Avila Marquez",
+   "url": "https://www.monikaavila.com/",
+   "image" : "/img/team/monika-avila-marquez.jpeg",
+   "affiliation": "",
+   "roles": [
+      "2025-2026"
+   ],
+   "github": "monikavila",
+   "home": "https://www.monikaavila.com/"
+},
   {
    "name": "Andrea Gomez Vargas",
    "url": "https://soyandrea.netlify.app/",
