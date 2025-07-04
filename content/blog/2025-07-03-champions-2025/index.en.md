@@ -33,11 +33,11 @@ We invite you to get to know each of these individuals and the projects they’l
 
 I am a data journalist in Brazil and have worked 20 years in newsrooms or as a freelance reporter, including 13 years at TV Globo/g1, the main media group in the country. Since 2018 I have been using R to do statistical analysis and create data visualizations for news stories.
 
-I am currently an alumnus of the Lede Data Journalism Program at Columbia University in New York, one of the directors of the Brazilian Association of Investigative Journalism (Abraji) and co-organizer of R-Ladies São Paulo.
+Currently I am a director of the Brazilian Association of Investigative Journalism (Abraji), co-organizer of R-Ladies São Paulo and taking the Lede Data Journalism Program at Columbia University in New York.
 
 During the rOpenSci Program, my challenge will be to review and update the [geobr](https://github.com/ipeaGIT/geobr) package, created by [Rafael Pereira](https://www.urbandemographics.org) and used by researchers and journalists from all over the world to generate maps of Brazilian territories.
 
-I signed up for the program because I believe it is a rich opportunity for new learning about R and the world of packages, and to collaborate more intimately with the R community in Latin America.
+I signed up for the program because I believe it is a rich opportunity to keep learning about R and the world of packages, and to collaborate more intimately with the R community in Latin America.
 
 ## Diana Garcia Cortes
 
