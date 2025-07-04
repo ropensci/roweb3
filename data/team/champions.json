@@ -91,17 +91,27 @@
    "name": "Monika Avila Marquez",
    "url": "https://www.monikaavila.com/",
    "image" : "/img/team/monika-avila-marquez.jpeg",
-   "affiliation": "",
+   "affiliation": "Departamento de Métodos y Análisis de datos, Universidad de Ginebra",
    "roles": [
       "2025-2026"
    ],
    "github": "monikavila",
    "home": "https://www.monikaavila.com/"
 },
+{
+   "name": "Soledad Andrea Araya Orrego",
+   "url": "",
+   "image" : "/img/team/soledad-araya.jpeg",
+   "affiliation": "Pontificia Universidad Católica de Chile, Dirección de Estudios Sociales de la Facultad de Ciencias Sociales.",
+   "roles": [
+      "2025-2026"
+   ],
+   "github": "snaraya",
+   "home": ""
   {
    "name": "Andrea Gomez Vargas",
    "url": "https://soyandrea.netlify.app/",
-   "image" : "/img/team/",
+   "image" : "/img/team/andrea-vargas.png",
    "affiliation": "INDEC Argentina, R-Ladies Global, Latin-R",
    "roles": [
       "2023-2024"
