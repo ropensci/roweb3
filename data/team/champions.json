@@ -54,6 +54,28 @@
    "github": "camilorojas91",
    "home": ""
 },  
+{
+   "name": "Lucía Inés Rodríguez Planes",
+   "url": "",
+   "image" : "/img/team/lucia-ines-rodriguez-planes.jpeg",
+   "affiliation": "Administración de Parques Nacionales, Universidad Nacional de Tierra del Fuego",
+   "roles": [
+      "2025-2026"
+   ],
+   "github": "luciairp",
+   "home": ""
+},
+{
+   "name": "Maria Valentina Clavijo Mesa",
+   "url": "",
+   "image" : "/img/team/maria-valentina-clavijo-mesa.png",
+   "affiliation": "LASAR3",
+   "roles": [
+      "2025-2026"
+   ],
+   "github": "Valentina9619",
+   "home": ""
+},  
   {
    "name": "Andrea Gomez Vargas",
    "url": "https://soyandrea.netlify.app/",
