@@ -1,7 +1,43 @@
-[{
+[
+  {
+   "name": "Ana Carolina Moreno",
+   "url": "https://investnews.com.br/autor/ana-carolina-moreno/",
+   "image" : "/img/team/ana-carolina-moreno.jpeg",
+   "affiliation": "InvestNews, R-Ladies São Paulo, Abraji",
+   "roles": [
+      "2025-2026"
+   ],
+   "github": "anacarolinamoreno",
+   "home": "https://investnews.com.br/autor/ana-carolina-moreno/"
+},
+{
+   "name": "Diana Garcia Cortes",
+   "url": "",
+   "image" : "/img/team/diana-garcia.jpg",
+   "affiliation": "Dana Farber Cancer Institute",
+   "roles": [
+      "2025-2026"
+   ],
+   "github": "ddiannae",
+   "home": ""
+},
+{
+   "name": "Erick Isaac Navarro Delgado",
+   "url": "https://erick-navarrodelgado.netlify.app",
+   "image" : "/img/team/erick-navarro-delgado.jpg",
+   "affiliation": "The University of British Columbia",
+   "roles": [
+      "2025-2026"
+   ],
+   "github": "ErickNavarroD",
+   "home": "https://erick-navarrodelgado.netlify.app"
+},
+
+  
+  {
    "name": "Andrea Gomez Vargas",
    "url": "https://soyandrea.netlify.app/",
-   "image" : "/img/team/andrea-vargas.png",
+   "image" : "/img/team/",
    "affiliation": "INDEC Argentina, R-Ladies Global, Latin-R",
    "roles": [
       "2023-2024"
