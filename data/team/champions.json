@@ -32,8 +32,28 @@
    "github": "ErickNavarroD",
    "home": "https://erick-navarrodelgado.netlify.app"
 },
-
-  
+{
+   "name": "Guadalupe Pascal",
+   "url": "https://guadapascal.github.io",
+   "image" : "/img/team/guadalupe-pascal.jpg",
+   "affiliation": "Universidad Nacional de Lomas de Zamora - Universidad Católica Argentina",
+   "roles": [
+      "2025-2026"
+   ],
+   "github": "guadapascal",
+   "home": "https://guadapascal.github.io"
+},
+{
+   "name": "Juan Camilo Rojas Hernandez",
+   "url": "",
+   "image" : "/img/team/juan-camilo-rojas-hernandez.jpg",
+   "affiliation": "Organizacion Panamericana de la Salud",
+   "roles": [
+      "2025-2026"
+   ],
+   "github": "camilorojas91",
+   "home": ""
+},  
   {
    "name": "Andrea Gomez Vargas",
    "url": "https://soyandrea.netlify.app/",
