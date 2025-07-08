@@ -1,7 +1,6 @@
 ---
 name: Jeroen Ooms
-twitter: opencpu
-bio: rOpenSci Lead Infrastructure Engineer
+bio: Ingeniero jefe de infraestructura de rOpenSci
 linkedin: datajeroen
 github: jeroen
 mastodon: https://fosstodon.org/@jeroenooms

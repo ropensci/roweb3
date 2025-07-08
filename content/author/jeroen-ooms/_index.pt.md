@@ -1,6 +1,6 @@
 ---
 name: Jeroen Ooms
-bio: rOpenSci Lead Infrastructure Engineer
+bio:  Engenheiro-chefe de infraestrutura da rOpenSci
 linkedin: datajeroen
 github: jeroen
 mastodon: https://fosstodon.org/@jeroenooms
