@@ -647,6 +647,20 @@ Refer to our [help wanted page](/help-wanted/) -- before opening a PR, we recomm
 
 Some useful tips for R package developers. :eyes:
 
+### Feedback wanted! CRAN Task View proposal for "Package Development and Maintenance"
+
+Sharing a request by Heather Turner and Lluís Revilla.
+
+There is a new CRAN Task View [proposal](https://github.com/hturner/pkg-dev-ctv/blob/main/proposal.md) for "Package Development and Maintenance". 
+The people behind it and the CRAN task View editorial team are looking for feedback. 
+If creating a package and maintaining it is intimidating we are looking for your opinion (to avoid the ["curse of knowledge"](https://en.wikipedia.org/wiki/Curse_of_knowledge)):
+- Does it have most of the information you need to accomplish all the steps till your package is released? 
+- Do you know which tools and package can help you maintain the package working ?
+- Is there any topic or step we missed or after reading the relevant section you still don't feel confident on how to do it?
+
+Read the [proposal](https://github.com/hturner/pkg-dev-ctv/blob/main/proposal.md).
+Please send your feedback directly in [the repository](https://github.com/hturner/pkg-dev-ctv/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen) or send the feedback through private channels to [Lluís Revilla](https://llrs.dev) (email, Slack, ...)
+
 ### Cache values with automatic pruning: the cachem package
 
 If you're writing a wrapper for an API that has no regular caching headers, 
