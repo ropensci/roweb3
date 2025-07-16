@@ -3,10 +3,10 @@ slug: "news-july-2025"
 title: rOpenSci News Digest, July 2025
 author:
   - The rOpenSci Team
-date: '2025-05-23'
+date: '2025-07-23'
 tags:
   - newsletter
-description: 
+description: New champions cohort, useR! 2025
 params:
   last_newsletter: '2025-06-27'
   doi: "10.59350/rgcqq-rg311"
@@ -593,42 +593,6 @@ if (length(tech_notes) > 0) {
 }
 ```
 
-## Use cases
-
-```{r usecases}
-# rerun get_use_cases.R at the same time
-usecases <- jsonlite::read_json("../../../data/usecases/usecases.json")
-get_one_case <- function(usecase) {
-  tibble::tibble(
-    title = usecase$title,
-    reporter = usecase$reporter,
-    url = usecase$url,
-    image = usecase$image,
-    date = anytime::anydate(usecase$date),
-    language = usecase$language
-  )
-}
-usecases <- purrr::map_df(usecases, get_one_case)
-usecases <- dplyr::filter(usecases, date >= as.Date("2025-03-25"))
-usecases <- split(usecases, seq(nrow(usecases)))
-```
-
-`r snakecase::to_sentence_case(english(length(usecases)))` use case`r if (length(usecases) > 1) "s"` of our packages and resources ha`r if (length(usecases) > 1) "ve" else "s"` been reported recently.
-
-```{r usecases2, results='asis'}
-format_case <- function(usecase) {
-  string <- sprintf("* [%s](%s) (%s). Reported by %s.", sub("\\.$", "", usecase$title), usecase$url, usecase$language, usecase$reporter)
-}
-cat(
-  paste0(
-    purrr::map_chr(usecases, format_case),
-    collapse = "\n\n"
-  )
-)
-```
-
-Explore [other use cases](/usecases) and [report your own](https://discuss.ropensci.org/c/usecases/10)!
-
 ## Calls for contributions
 
 ### Calls for maintainers
@@ -654,6 +618,7 @@ Sharing a request by Heather Turner and Lluís Revilla.
 There is a new CRAN Task View [proposal](https://github.com/hturner/pkg-dev-ctv/blob/main/proposal.md) for "Package Development and Maintenance". 
 The people behind it and the CRAN task View editorial team are looking for feedback. 
 If creating a package and maintaining it is intimidating we are looking for your opinion (to avoid the ["curse of knowledge"](https://en.wikipedia.org/wiki/Curse_of_knowledge)):
+
 - Does it have most of the information you need to accomplish all the steps till your package is released? 
 - Do you know which tools and package can help you maintain the package working ?
 - Is there any topic or step we missed or after reading the relevant section you still don't feel confident on how to do it?
@@ -681,7 +646,7 @@ Thanks to Hugo Gruson for the find!
 
 Carlos Scheidegger, a developer of Quarto, wrote an interesting [Bluesky thread](https://bsky.app/profile/cscheid.net/post/3ls25wg6mnk2y) about why it's not considerate to write "any update on this?" on open bug reports or feature requests.
 
-> "But "any updates?" just makes everyone feel bad."
+> 'But "any updates?" just makes everyone feel bad.''
 
 ### LLLM helpers: the chores package
 
