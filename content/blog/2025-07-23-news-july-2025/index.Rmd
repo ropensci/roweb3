@@ -342,6 +342,10 @@ get_user_text <- function(issue) {
     return("[Ryan Zomorrodi](https://ryanzomorrodi.github.io/)")
   }
 
+  if (name == "Marc Burri") {
+    return("[Marc Burri](https://marcburri.github.io/)")
+  }
+
   url <- if (nzchar(info$blog)) info$blog else info$html_url
   if (!grepl("^https?:", url)) url <- paste0("http://", url)
   sprintf("[%s](%s)", name, url)

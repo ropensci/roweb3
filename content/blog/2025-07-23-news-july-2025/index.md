@@ -10,7 +10,7 @@ description: New champions cohort, useR! 2025
 params:
   last_newsletter: '2025-06-27'
   doi: "10.59350/rgcqq-rg311"
-rmd_hash: 93483d955839a11d
+rmd_hash: 44152e9bf369c6ca
 
 ---
 
@@ -24,25 +24,25 @@ Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> Y
 
 We're very excited to introduce the new rOpenSci [Champions](/champions)! This cohort will participate in the program and carry out their work in Spanish, allowing us to continue strengthening the open science and research software development community in this language. We're excited about the projects they'll be developing, which tackle real-world challenges across diverse disciplines and regions of Latin America.
 
-Read all about the new champions and their projects in our [blog post](/blog/2025/07/03/champions-2025/).
+Read all about the new Champions and their projects in our [blog post](/blog/2025/07/03/champions-2025/).
 
 ### rOpenSci at useR! 2025
 
-August 1, [useR! 2025 Virtual](https://user2025.r-project.org/program/virtual/) with **free registration**.
+August 1st, [useR! 2025 Virtual](https://user2025.r-project.org/program/virtual/) with **free registration**.
 
-August 08-10, 2025 [useR! 2025](https://user2025.r-project.org) will take place in Penn Pavilion, Duke University, Durham, North Carolina.
+August 8th through 10th, 2025 [useR! 2025](https://user2025.r-project.org) will take place in Penn Pavilion, Duke University, Durham, North Carolina.
 
 **rOpenSci will be there!**
 
--   [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) will be presenting her keynote ["We R Together. How to learn, use and improve a programming language as a community."](https://user2025.r-project.org/program/in-person/keynotes/yanina-bellini-saibene)
+-   [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) will be presenting her keynote ["We R Together. How to learn, use and improve a programming language as a community"](https://user2025.r-project.org/program/in-person/keynotes/yanina-bellini-saibene) on Sat, Aug 9, 2025 - 17:00--18:00 (EDT)
 
--   [Will Landau](/author/will-landau/) will be presenting his keynote ["Poweful simulation pipelines with {targets}"](https://user2025.r-project.org/program/in-person/keynotes/will-landau)
+-   [Will Landau](/author/will-landau/) will be presenting his keynote ["Poweful simulation pipelines with {targets}"](https://user2025.r-project.org/program/in-person/keynotes/will-landau) on Sun, Aug 10, 2025 - 15:00-16:00 (EDT)
 
 -   [Noam Ross](/author/noam-ross/) will be presenting "Curating a Community of Packages: Lessons from a Decade of rOpenSci Peer Review" on Sat, Aug 9, 2025 - 13:00--14:10 (EDT)
 
 -   Our Champion [Erika Siregar](/author/erika-siregar/) is presenting "rPlaywright: Bringing Playwright's Power to R for Scalable Web Automation", Fri, Aug 8, 2025 - 18:15--19:30 (EDT)
 
--   [Andrea Gomez Vargas](/author/andrea-gomez-vargas/), one of our Champions, is presenting "ARcenso: A Package Born from Chaos, Powered by Community" on Sat, Aug 9, 2025 - 13:00--14:10 (EDT)
+-   Our Champion [Andrea Gomez Vargas](/author/andrea-gomez-vargas/) is presenting "ARcenso: A Package Born from Chaos, Powered by Community" on Sat, Aug 9, 2025 - 13:00--14:10 (EDT)
 
 -   [Luis D. Verde Arregoita](/author/luis-d.-verde-arregoitia/) is presenting "Bringing the fun of hex stickers to your R session" on Sun, Aug 10, 2025 - 10:30--12:00 (EDT)
 
@@ -82,7 +82,7 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 </div>
 
-The following five packages have had an update since the last newsletter: [commonmark](https://docs.ropensci.org/commonmark "High Performance CommonMark and Github Markdown Rendering in R") ([`v2.0.0`](https://github.com/r-lib/commonmark/releases/tag/v2.0.0)), [fellingdater](https://docs.ropensci.org/fellingdater "Tree-ring dating and estimating felling dates of historical timbers") ([`v1.2.0`](https://github.com/ropensci/fellingdater/releases/tag/v1.2.0)), [qpdf](https://docs.ropensci.org/qpdf "Split, Combine and Compress PDF Files") ([`v1.4.0`](https://github.com/ropensci/qpdf/releases/tag/v1.4.0)), [weathercan](https://docs.ropensci.org/weathercan "Download Weather Data from Environment and Climate Change Canada") ([`v0.7.4`](https://github.com/ropensci/weathercan/releases/tag/v0.7.4)), and [webmockr](https://docs.ropensci.org/webmockr "Stubbing and Setting Expectations on HTTP Requests") ([`v2.1.0`](https://github.com/ropensci/webmockr/releases/tag/v2.1.0)).
+The following seven packages have had an update since the last newsletter: [commonmark](https://docs.ropensci.org/commonmark "High Performance CommonMark and Github Markdown Rendering in R") ([`v2.0.0`](https://github.com/r-lib/commonmark/releases/tag/v2.0.0)), [emodnet.wfs](https://docs.ropensci.org/emodnet.wfs "Access EMODnet Web Feature Service Data") ([`v2.1.1`](https://github.com/EMODnet/emodnet.wfs/releases/tag/v2.1.1)), [fellingdater](https://docs.ropensci.org/fellingdater "Tree-ring dating and estimating felling dates of historical timbers") ([`v1.2.0`](https://github.com/ropensci/fellingdater/releases/tag/v1.2.0)), [qpdf](https://docs.ropensci.org/qpdf "Split, Combine and Compress PDF Files") ([`v1.4.0`](https://github.com/ropensci/qpdf/releases/tag/v1.4.0)), [weathercan](https://docs.ropensci.org/weathercan "Download Weather Data from Environment and Climate Change Canada") ([`v0.7.4`](https://github.com/ropensci/weathercan/releases/tag/v0.7.4)), [webchem](https://docs.ropensci.org/webchem "Chemical Information from the Web") ([`v1.3.1`](https://github.com/ropensci/webchem/releases/tag/v1.3.1)), and [webmockr](https://docs.ropensci.org/webmockr "Stubbing and Setting Expectations on HTTP Requests") ([`v2.1.0`](https://github.com/ropensci/webmockr/releases/tag/v2.1.0)).
 
 ## Software Peer Review
 
@@ -106,7 +106,7 @@ There are fifteen recently closed and active submissions and 6 submissions on ho
 
     -   [openFDA](https://github.com/ropensci/software-review/issues/714), openFDA API. Submitted by [Simon Parker](https://github.com/simpar1471).
 
-    -   [reviser](https://github.com/ropensci/software-review/issues/709), Tools for Studying Revision Properties in Real-Time Time Series Vintages. Submitted by [Marc Burri](http://marcburri.github.io).
+    -   [reviser](https://github.com/ropensci/software-review/issues/709), Tools for Studying Revision Properties in Real-Time Time Series Vintages. Submitted by [Marc Burri](https://marcburri.github.io/).
 
     -   [rixpress](https://github.com/ropensci/software-review/issues/706), Build Reproducible Analytical Pipelines With Nix. Submitted by [Bruno Rodrigues](https://brodrigues.co).
 
@@ -168,13 +168,15 @@ Some useful tips for R package developers. :eyes:
 
 Sharing a request by Heather Turner and Lluís Revilla.
 
-There is a new CRAN Task View [proposal](https://github.com/hturner/pkg-dev-ctv/blob/main/proposal.md) for "Package Development and Maintenance". The people behind it and the CRAN task View editorial team are looking for feedback. If creating a package and maintaining it is intimidating we are looking for your opinion (to avoid the ["curse of knowledge"](https://en.wikipedia.org/wiki/Curse_of_knowledge)):
+There is a new CRAN Task View [proposal](https://github.com/hturner/pkg-dev-ctv/blob/main/proposal.md) for "Package Development and Maintenance". This task view lists and comments on packages useful for package development and maintenance. The authors and the CRAN task View editorial team are looking for feedback. In particular, they'd especially like your feedback if you're new to package development or find the idea of creating and maintaining a package intimidating (to avoid the ["curse of knowledge"](https://en.wikipedia.org/wiki/Curse_of_knowledge)).
 
--   Does it have most of the information you need to accomplish all the steps till your package is released?
--   Do you know which tools and package can help you maintain the package working ?
--   Is there any topic or step we missed or after reading the relevant section you still don't feel confident on how to do it?
+Regarding this task view, they'd like to know:
 
-Read the [proposal](https://github.com/hturner/pkg-dev-ctv/blob/main/proposal.md). Please send your feedback directly in [the repository](https://github.com/hturner/pkg-dev-ctv/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen) or send the feedback through private channels to [Lluís Revilla](https://llrs.dev) (email, Slack, ...)
+-   Does it have most of the information you need to accomplish all the steps through development until your package is released?
+-   Does this help you understand which tools and packages can help you maintain your package working ?
+-   Is there any topic or step we missed? Or after reading the relevant topic section you still don't feel confident on how to do it?
+
+Read the [proposal](https://github.com/hturner/pkg-dev-ctv/blob/main/proposal.md). Please submit your feedback directly in [the repository](https://github.com/hturner/pkg-dev-ctv/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen) or send the feedback through private channels to [Lluís Revilla](https://llrs.dev) (email, Slack, ...)
 
 ### Cache values with automatic pruning: the cachem package
 
@@ -182,7 +184,7 @@ If you're writing a wrapper for an API that has no regular caching headers, you 
 
 ### A debugging tip
 
-Miles McBain shared an interesting debugging tip in his post [Dive()ing into the hunt #rstats](https://milesmcbain.micro.blog/2025/07/04/diveing-into-the-hunt-rstats.html).
+Miles McBain shared an interesting debugging tip in his post [Dive()ing into the hunt #rstats](https://milesmcbain.micro.blog/2025/07/04/diveing-into-the-hunt-rstats.html), using a custom function to implement something like a 'row-wise data debug' mode!
 
 ### How to prepare examples in your package for a CRAN submission
 
@@ -192,7 +194,7 @@ The CRAN cookbook by Jasmine Daly and Beni Altmann features a section called ["S
 
 Carlos Scheidegger, a developer of Quarto, wrote an interesting [Bluesky thread](https://bsky.app/profile/cscheid.net/post/3ls25wg6mnk2y) about why it's not considerate to write "any update on this?" on open bug reports or feature requests.
 
-> 'But "any updates?" just makes everyone feel bad.''
+Carlos suggests that better alternatives are to "add *new* information to the post about how you want to use it, or other workarounds" which might give developers ideas for different fixes, or to simply upvote the request. But avoid "any updates?", which is hard on the developer because all they can say is "no", and they know that will disappoint people.
 
 ### LLLM helpers: the chores package
 
