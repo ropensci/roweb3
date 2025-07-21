@@ -160,6 +160,7 @@ old <- dplyr::filter(
 new <- dplyr::filter(
   registry,
   !package %in% old$package,
+  !package %in% "PFW",
   !grepl("ropenscilabs\\/", url),
   !grepl("ropensci-archive\\/", url)
 )
