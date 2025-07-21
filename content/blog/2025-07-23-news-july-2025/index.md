@@ -10,7 +10,7 @@ description: New champions cohort, useR! 2025
 params:
   last_newsletter: '2025-06-27'
   doi: "10.59350/rgcqq-rg311"
-rmd_hash: 44152e9bf369c6ca
+rmd_hash: c8bb87c68d0bcf21
 
 ---
 
@@ -53,13 +53,15 @@ We are looking forward to seeing you there!
 Read [all about coworking](/blog/2023/06/21/coworking/)!
 
 -   Tuesday August 5th, 2025 9:00 AM Australia Western (01:00 UTC), ["Drawing publication-ready plots using R"](/events/coworking-2025-08/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Emi Tanaka](/author/emi-tanaka/).
-    -   Work on some figures and plots for your own work
-    -   Explore ways of making publication-ready plots in R
-    -   Chat with Emi Tanaka about making publication-ready plots in R
+    -   Work on some figures and plots for your own work;
+    -   Explore ways of making publication-ready plots in R;
+    -   Chat with Emi Tanaka about making publication-ready plots in R.
+-   Tuesday September 9th, 14:00 European Central (12:00 UTC), ["Improving accessibility in your work](/events/coworking-2025-09/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Silvia Canelón](/author/silvia-canel%C3%B3n/).
+    -   Explore where you might improve accessibility in your work;
+    -   Start making changes to improve accessibility;
+    -   Chat with Silvia Canelón about accessibility.
 
-And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
-
-## Software :package:
+And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done! \## Software :package:
 
 ### New packages
 
