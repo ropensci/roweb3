@@ -90,6 +90,7 @@ Read [all about coworking](/blog/2023/06/21/coworking/)!
     - Chat with Silvia Canelón about accessibility.
     
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
+
 ## Software :package:
 
 ### New packages

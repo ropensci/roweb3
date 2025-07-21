@@ -10,7 +10,7 @@ description: New champions cohort, useR! 2025
 params:
   last_newsletter: '2025-06-27'
   doi: "10.59350/rgcqq-rg311"
-rmd_hash: c8bb87c68d0bcf21
+rmd_hash: 96cc882cebe2d5d6
 
 ---
 
@@ -61,7 +61,9 @@ Read [all about coworking](/blog/2023/06/21/coworking/)!
     -   Start making changes to improve accessibility;
     -   Chat with Silvia Canelón about accessibility.
 
-And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done! \## Software :package:
+And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
+
+## Software :package:
 
 ### New packages
 
