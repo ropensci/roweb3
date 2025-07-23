@@ -6,7 +6,7 @@ author:
 date: '2025-07-23'
 tags:
   - newsletter
-description: New champions cohort, useR! 2025
+description: New champions cohort, useR! 2025, coworking, new package, package news
 params:
   last_newsletter: '2025-06-27'
   doi: "10.59350/rgcqq-rg311"

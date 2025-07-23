@@ -6,11 +6,11 @@ author:
 date: '2025-07-23'
 tags:
   - newsletter
-description: New champions cohort, useR! 2025
+description: New champions cohort, useR! 2025, coworking, new package, package news
 params:
   last_newsletter: '2025-06-27'
   doi: "10.59350/rgcqq-rg311"
-rmd_hash: 96cc882cebe2d5d6
+rmd_hash: d7e17a1114164f76
 
 ---
 
@@ -56,10 +56,14 @@ Read [all about coworking](/blog/2023/06/21/coworking/)!
     -   Work on some figures and plots for your own work;
     -   Explore ways of making publication-ready plots in R;
     -   Chat with Emi Tanaka about making publication-ready plots in R.
--   Tuesday September 9th, 14:00 European Central (12:00 UTC), ["Improving accessibility in your work](/events/coworking-2025-09/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Silvia Canelón](/author/silvia-canel%C3%B3n/).
+-   Tuesday September 9th, 14:00 European Central (12:00 UTC), ["Improving accessibility in your work"](/events/coworking-2025-09/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Silvia Canelón](/author/silvia-canel%C3%B3n/).
     -   Explore where you might improve accessibility in your work;
     -   Start making changes to improve accessibility;
-    -   Chat with Silvia Canelón about accessibility.
+    -   Chat with Silvia Canelón about tools and techniques for improving accessibility.
+-   Tuesday October 7th, 09:00 Americas Pacific (16:00 UTC), ["Ship your R package to the R-multiverse!"](/events/coworking-2025-10/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Will Landau](/author/will-landau).
+    -   Learn more about the [R-multiverse](https://r-multiverse.org/);
+    -   Submit your package to the [R-multiverse](https://r-multiverse.org/);
+    -   Chat with Will Landau, and learn more about the R-multiverse and how to submit your package.
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
@@ -75,7 +79,7 @@ The following package recently became a part of our software suite:
 
 <div class="highlight">
 
--   [PFW](https://docs.ropensci.org/PFW), developed by Mason W. Maron: Provides tools to import, clean, filter, and prepare Project FeederWatch data for analysis. Includes functions for taxonomic rollup, easy filtering, zerofilling, merging in site metadata, and more. Project FeederWatch data comes from <https://feederwatch.org/explore/raw-dataset-requests/>. It is available on [CRAN](https://CRAN.R-project.org/package=PFW). It has been [reviewed](https://github.com/ropensci/software-review/issues/698) by Sunny Tseng and Paul Carteron.
+-   [sits](https://docs.ropensci.org/sits), developed by Gilberto Camara together with Rolf Simoes, Felipe Souza, and Felipe Carlos: An end-to-end toolkit for land use and land cover classification using big Earth observation data, based on machine learning methods applied to satellite image data cubes, as described in Simoes et al (2021) <https://doi.org/10.3390/rs13132428>. It is available on [CRAN](https://CRAN.R-project.org/package=sits). It has been [reviewed](https://github.com/ropensci/software-review/issues/596) by Michael Sumner, Jakub Nowosad, Edzer Pebesma, and the late [Lorena Abad Crespo](https://www.plus.ac.at/geoinformatik/department/team/abad-crespo/?lang=en).
     </div>
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
@@ -86,25 +90,27 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 </div>
 
-The following seven packages have had an update since the last newsletter: [commonmark](https://docs.ropensci.org/commonmark "High Performance CommonMark and Github Markdown Rendering in R") ([`v2.0.0`](https://github.com/r-lib/commonmark/releases/tag/v2.0.0)), [emodnet.wfs](https://docs.ropensci.org/emodnet.wfs "Access EMODnet Web Feature Service Data") ([`v2.1.1`](https://github.com/EMODnet/emodnet.wfs/releases/tag/v2.1.1)), [fellingdater](https://docs.ropensci.org/fellingdater "Tree-ring dating and estimating felling dates of historical timbers") ([`v1.2.0`](https://github.com/ropensci/fellingdater/releases/tag/v1.2.0)), [qpdf](https://docs.ropensci.org/qpdf "Split, Combine and Compress PDF Files") ([`v1.4.0`](https://github.com/ropensci/qpdf/releases/tag/v1.4.0)), [weathercan](https://docs.ropensci.org/weathercan "Download Weather Data from Environment and Climate Change Canada") ([`v0.7.4`](https://github.com/ropensci/weathercan/releases/tag/v0.7.4)), [webchem](https://docs.ropensci.org/webchem "Chemical Information from the Web") ([`v1.3.1`](https://github.com/ropensci/webchem/releases/tag/v1.3.1)), and [webmockr](https://docs.ropensci.org/webmockr "Stubbing and Setting Expectations on HTTP Requests") ([`v2.1.0`](https://github.com/ropensci/webmockr/releases/tag/v2.1.0)).
+The following nine packages have had an update since the last newsletter: [commonmark](https://docs.ropensci.org/commonmark "High Performance CommonMark and Github Markdown Rendering in R") ([`v2.0.0`](https://github.com/r-lib/commonmark/releases/tag/v2.0.0)), [emodnet.wfs](https://docs.ropensci.org/emodnet.wfs "Access EMODnet Web Feature Service Data") ([`v2.1.1`](https://github.com/EMODnet/emodnet.wfs/releases/tag/v2.1.1)), [crul](https://docs.ropensci.org/crul "HTTP Client") ([`v1.6.0`](https://github.com/ropensci/crul/releases/tag/v1.6.0)), [fellingdater](https://docs.ropensci.org/fellingdater "Tree-ring dating and estimating felling dates of historical timbers") ([`v1.2.0`](https://github.com/ropensci/fellingdater/releases/tag/v1.2.0)), [lightr](https://docs.ropensci.org/lightr "Read Spectrometric Data and Metadata") ([`v1.9.0`](https://github.com/ropensci/lightr/releases/tag/v1.9.0)), [qpdf](https://docs.ropensci.org/qpdf "Split, Combine and Compress PDF Files") ([`v1.4.0`](https://github.com/ropensci/qpdf/releases/tag/v1.4.0)), [weathercan](https://docs.ropensci.org/weathercan "Download Weather Data from Environment and Climate Change Canada") ([`v0.7.4`](https://github.com/ropensci/weathercan/releases/tag/v0.7.4)), [webchem](https://docs.ropensci.org/webchem "Chemical Information from the Web") ([`v1.3.1`](https://github.com/ropensci/webchem/releases/tag/v1.3.1)), and [webmockr](https://docs.ropensci.org/webmockr "Stubbing and Setting Expectations on HTTP Requests") ([`v2.2.0`](https://github.com/ropensci/webmockr/releases/tag/v2.2.0)).
 
 ## Software Peer Review
 
 <div class="highlight">
 
-There are fifteen recently closed and active submissions and 6 submissions on hold. Issues are at different stages:
+There are sixteen recently closed and active submissions and 5 submissions on hold. Issues are at different stages:
 
 -   One at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%226/approved%22):
 
     -   [sits](https://github.com/ropensci/software-review/issues/596), Satellite Image Time Series Analysis for Earth Observation Data Cubes. Submitted by [Gilberto Camara](https://www.gilbertocamara.org).
 
--   Three at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%224/review(s)-in-awaiting-changes%22):
+-   Four at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%224/review(s)-in-awaiting-changes%22):
 
     -   [trud](https://github.com/ropensci/software-review/issues/705), Query the NHS TRUD API. Submitted by [Alasdair Warwick](https://github.com/rmgpanw).
 
     -   [SSARP](https://github.com/ropensci/software-review/issues/685), SSARP (Species-/Speciation-Area Relationship Projector). Submitted by [kmartinet](https://github.com/kmartinet).
 
     -   [dataset](https://github.com/ropensci/software-review/issues/681), Create Data Frames that are Easier to Exchange and Reuse. Submitted by [Daniel Antal](http://nl.linkedin.com/in/antaldaniel/).
+
+    -   [pkgmatch](https://github.com/ropensci/software-review/issues/671), Find R Packages Matching Either Descriptions or Other R Packages. Submitted by [mark padgham](https://mpadge.github.io).
 
 -   Seven at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%223/reviewer(s)-assigned%22):
 
