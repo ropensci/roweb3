@@ -71,30 +71,22 @@ And remember, you can always cowork independently on work related to R, work on 
 
 ### New packages
 
-<div class="highlight">
-
-</div>
 
 The following package recently became a part of our software suite:
 
-<div class="highlight">
 
 -   [sits](https://docs.ropensci.org/sits), developed by Gilberto Camara together with Rolf Simoes, Felipe Souza, and Felipe Carlos: An end-to-end toolkit for land use and land cover classification using big Earth observation data, based on machine learning methods applied to satellite image data cubes, as described in Simoes et al (2021) <https://doi.org/10.3390/rs13132428>. It is available on [CRAN](https://CRAN.R-project.org/package=sits). It has been [reviewed](https://github.com/ropensci/software-review/issues/596) by Michael Sumner, Jakub Nowosad, Edzer Pebesma, and the late [Lorena Abad Crespo](https://www.plus.ac.at/geoinformatik/department/team/abad-crespo/?lang=en).
-    </div>
+
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
 ### New versions
 
-<div class="highlight">
-
-</div>
 
 The following nine packages have had an update since the last newsletter: [commonmark](https://docs.ropensci.org/commonmark "High Performance CommonMark and Github Markdown Rendering in R") ([`v2.0.0`](https://github.com/r-lib/commonmark/releases/tag/v2.0.0)), [emodnet.wfs](https://docs.ropensci.org/emodnet.wfs "Access EMODnet Web Feature Service Data") ([`v2.1.1`](https://github.com/EMODnet/emodnet.wfs/releases/tag/v2.1.1)), [crul](https://docs.ropensci.org/crul "HTTP Client") ([`v1.6.0`](https://github.com/ropensci/crul/releases/tag/v1.6.0)), [fellingdater](https://docs.ropensci.org/fellingdater "Tree-ring dating and estimating felling dates of historical timbers") ([`v1.2.0`](https://github.com/ropensci/fellingdater/releases/tag/v1.2.0)), [lightr](https://docs.ropensci.org/lightr "Read Spectrometric Data and Metadata") ([`v1.9.0`](https://github.com/ropensci/lightr/releases/tag/v1.9.0)), [qpdf](https://docs.ropensci.org/qpdf "Split, Combine and Compress PDF Files") ([`v1.4.0`](https://github.com/ropensci/qpdf/releases/tag/v1.4.0)), [weathercan](https://docs.ropensci.org/weathercan "Download Weather Data from Environment and Climate Change Canada") ([`v0.7.4`](https://github.com/ropensci/weathercan/releases/tag/v0.7.4)), [webchem](https://docs.ropensci.org/webchem "Chemical Information from the Web") ([`v1.3.1`](https://github.com/ropensci/webchem/releases/tag/v1.3.1)), and [webmockr](https://docs.ropensci.org/webmockr "Stubbing and Setting Expectations on HTTP Requests") ([`v2.2.0`](https://github.com/ropensci/webmockr/releases/tag/v2.2.0)).
 
 ## Software Peer Review
 
-<div class="highlight">
 
 There are sixteen recently closed and active submissions and 5 submissions on hold. Issues are at different stages:
 
@@ -140,7 +132,7 @@ There are sixteen recently closed and active submissions and 5 submissions on ho
 
     -   [capybara](https://github.com/ropensci/software-review/issues/645), Fast and Memory Efficient Fitting of Linear Models With High-Dimensional. Submitted by [Mauricio "Pachá" Vargas Sepúlveda](https://pacha.dev).
 
-        </div>
+
 
 Find out more about [Software Peer Review](/software-review) and how to get involved.
 
@@ -148,15 +140,9 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 <!-- Do not forget to rebase your branch! -->
 
-<div class="highlight">
 
-</div>
-
-<div class="highlight">
 
 -   [Open Science with a Latin American Identity: Meet the New Cohort of the rOpenSci Champions Program](/blog/2025/07/03/champions-2025) by Ana Carolina Moreno, Diana Garcia Cortes, Erick Navarro Delgado, Guadalupe Pascal, Juan Camilo Rojas Hernandez, Lucía Rodríguez Planes, Valentina Clavijo Mesa, Mauro Loprete, Monika Avila Marquez, Soledad Araya Orrego, and Yanina Bellini Saibene. Introducing 10 new rOpenSci Champions --- all from Latin America, representing diverse backgrounds and leading inspiring projects. Each of them is advancing open science from within their own communities. Other languages: <a href='/es/blog/2025/07/03/champions-2025' lang='es'>Ciencia abierta con identidad latinoamericana: conocé al nuevo grupo de personas y proyectos del Programa de Campeon(e\|a)s de rOpenSci (es)</a>.
-
-</div>
 
 ## Calls for contributions
 
@@ -219,8 +205,4 @@ Speaking of LLM tooling in R, Luis D. Verde Arregoitia maintains an [extensive g
 Thanks for reading! If you want to get involved with rOpenSci, check out our [Contributing Guide](https://contributing.ropensci.org) that can help direct you to the right place, whether you want to make code contributions, non-code contributions, or contribute in other ways like sharing use cases. You can also support our work through [donations](/donate).
 
 If you haven't subscribed to our newsletter yet, you can [do so via a form](/news/). Until it's time for our next newsletter, you can keep in touch with us via our [website](/) and [Mastodon account](https://hachyderm.io/@rOpenSci).
-
-</div>
-
-</div>
 
