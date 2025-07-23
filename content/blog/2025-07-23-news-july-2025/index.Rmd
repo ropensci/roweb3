@@ -84,7 +84,7 @@ Read [all about coworking](/blog/2023/06/21/coworking/)!
     - Explore ways of making publication-ready plots in R;
     - Chat with Emi Tanaka about making publication-ready plots in R.
 
-- Tuesday September 9th, 14:00 European Central (12:00 UTC), ["Improving accessibility in your work](/events/coworking-2025-09/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Silvia Canelón](/author/silvia-canel%C3%B3n/).
+- Tuesday September 9th, 14:00 European Central (12:00 UTC), ["Improving accessibility in your work"](/events/coworking-2025-09/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Silvia Canelón](/author/silvia-canel%C3%B3n/).
     - Explore where you might improve accessibility in your work;
     - Start making changes to improve accessibility;
     - Chat with Silvia Canelón about accessibility.
