@@ -87,7 +87,7 @@ Read [all about coworking](/blog/2023/06/21/coworking/)!
 - Tuesday September 9th, 14:00 European Central (12:00 UTC), ["Improving accessibility in your work"](/events/coworking-2025-09/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Silvia Canelón](/author/silvia-canel%C3%B3n/).
     - Explore where you might improve accessibility in your work;
     - Start making changes to improve accessibility;
-    - Chat with Silvia Canelón about accessibility.
+    - Chat with Silvia Canelón about tools and techniques for improving accessibility.
     
 - Tuesday October 7th, 09:00 Americas Pacific (16:00 UTC), ["Ship your R package to the R-multiverse!"](/events/coworking-2025-10/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Will Landau](/author/will-landau).
     - Learn more about the [R-multiverse](https://r-multiverse.org/);
