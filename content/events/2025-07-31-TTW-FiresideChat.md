@@ -1,8 +1,8 @@
 ---
 title: "Learning from Each Other's Journeys: Case Studies from Open Initiatives"
 dateStart: 2025-07-31T17:00:00 # UTC!!
-dateEnd: 2025-07-26T18:30:00 # UTC!!
-date: 2025-07-26T18:30:00 # UTC!! same as dateEnd
+dateEnd: 2025-07-31T18:30:00 # UTC!!
+date: 2025-07-31T18:30:00 # UTC!! same as dateEnd
 description: Fireside Chat Series on Governance in Research and Open Science
 location: 'online' # free text
 slug: "TTT-FiresideChat-2025"
