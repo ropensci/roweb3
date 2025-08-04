@@ -48,6 +48,29 @@
       </div>
     </div>
   </section>
+  <img class="divider" src="/images/svg/divider-lr.svg" alt="" />
+ <section class="section community">
+    <div class="container">
+      <div class="row justify-content-end align-items-center">
+        <div class="col-md-5">
+          <h2 class="title">{{ i18n "Coworking" }}</h2>
+          <p class="subtitle commcalls-subtitle">
+            {{ $path := (printf "_snippets/coworking.%s.md" .Language.Lang) }}
+            {{ with resources.Get $path }}
+              {{ .Content | markdownify }}
+            {{ else }}
+  {{ errorf "Unable to get page Resources"  }}
+            {{ end }}
+
+          </p>
+          {{ partial "translate-url" (dict "name" "coworking" "Site" .Site "class" "link-arrow" )}}<span>{{ i18n "Find-more-coworking" }}</span></a>
+        </div>
+        <div class="col-md-6">
+          <img class="commcalls" src="/images/coworking-img.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
 {{ $askpartial := (partial "translate-path" (dict "name" "whole-page-fragments/ask" "language" .Language.Lang )) }}
 {{ partial $askpartial  (dict "divider" "lr" ) }}
 <img class="divider" src="/images/svg/divider-rl.svg" alt="" />
