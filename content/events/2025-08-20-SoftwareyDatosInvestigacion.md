@@ -38,6 +38,6 @@ Tópicos:
 * Software de código abierto.
 * Infraestructuras regionales: introducción a herramientas y plataformas de software de investigación comúnmente utilizadas.
 
-Yanina Bellini Saibene participa en la serie de Webinars Software y Datos de investigación donde presenta sobre rOpenSci donde presentara rOpenSci y como contribuimos al software de investigación abierto.
+Yanina Bellini Saibene participa en la serie de Webinars Software y Datos de investigación donde presenta rOpenSci y como contribuimos al software de investigación abierto.
 
 Te podes registrar aqui: https://redclara.zoom.us/meeting/register/zRo2mF3RSCi-UIiAD8uhwg#/registration
