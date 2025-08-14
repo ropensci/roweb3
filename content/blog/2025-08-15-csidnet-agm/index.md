@@ -28,3 +28,42 @@ To break the ice and get people moving and thinking we use a [well known method 
 
 Participants then discussed their positions and tried to convince the other group to change their minds. This dynamic approach not only brought energy into the room but also offered a quick glimpse into the community's practices and perspectives, giving the participants the chance to become acquainted interactively.
 
+## Mapping Our Tools: Data Science Workflows in Practice
+
+The first structured discussion focused on the tools participants use in their data science workflows. Using the well-known R for Data Science (R4DS) framework, participants were invited to place post-it notes under each step of the process—import, tidy, transform, visualize, model, and communicate—indicating which tools or packages they rely on.
+
+
+
+This exercise sparked rich conversations about the diversity of tools people use, the areas with strong support (like data visualization), and the steps where participants often struggle to find the right tools. It also opened the door to discussing gaps in tooling—opportunities for future development or collaboration.
+
+<add data of the tools and gaps>
+
+## Uncovering Barriers: A Chalk Talk on Obstacles
+
+The second discussion turned the focus toward obstacles participants face when trying to engage in open science and research software development. In a Chalk Talk format, participants wrote down their thoughts under three color-coded categories:
+
+- Expertise obstacles (e.g., lack of training, steep learning curves)
+- Language obstacles (e.g., lack of documentation in local languages)
+- Equipment obstacles (e.g., limited access to hardware or internet)
+
+This open and honest exchange revealed a wide range of barriers:
+
+
+
+It also underscored the importance of initiatives that address equity and access in research infrastructure.
+
+## Sharing Solutions: Use-Case Presentations
+
+To ground the discussion in real-world examples, Sam and Yani each presented a use-case:
+
+### Serodynamics: Collaborative R-package Development
+
+Sam is part of the SeroEpidemiology Research Group (SERG) at UC Davis, led by Dr. Kristen Aiemjoy and Dr. Ezra Morrison. Sam gave a presentation highlighting his team’s development of an R package entitled Serodynamics. The package deploys an innovative technique that uses data from longitudinal serologic cohorts to model antibody kinetic seroresponses for a given infection. This information can then be applied to cross-sectional serosurveys to estimate disease incidence and time since infection using another package the team developed called Serocalculator. The package uses a Bayesian (Runjags) framework to estimate the initial antibody concentration (y0), peak concentration (y1), time to peak (t1), decay rate (α), and decay shape (r). The SERG team hopes to have serodynamics ready for use in the coming year. 
+
+### rOpenSci: Supporting Open and Sustainable Research Software
+
+Yani introduced the rOpenSci ecosystem, highlighting how it supports the development, peer review, and sustainability of research software in R. She emphasized the community-driven approach and the importance of good practices in software development for science.
+
+## Final thoughts
+
+This session provided a mix of interaction, reflection, and learning. It helped participants connect their personal experiences to broader open science practices, surfaced common challenges, and introduced them to new tools and communities. By the end of the 90 minutes, it was clear that the path to more open, accessible, and sustainable research software is one best walked together.
