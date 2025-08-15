@@ -28,15 +28,21 @@ To break the ice and get people moving and thinking we use a [well known method 
 
 Participants then discussed their positions and tried to convince the other group to change their minds. This dynamic approach not only brought energy into the room but also offered a quick glimpse into the community's practices and perspectives, giving the participants the chance to become acquainted interactively.
 
+{{< figure src = "participants.jpg" alt = "Two groups of stand up people chating between them" class = "pull-left" caption = "Participants sharing why they are in that group when asked, 'I use R in my research.'">}}
+
 ## Mapping Our Tools: Data Science Workflows in Practice
 
 The first structured discussion focused on the tools participants use in their data science workflows. Using the well-known R for Data Science (R4DS) framework, participants were invited to place post-it notes under each step of the process—import, tidy, transform, visualize, model, and communicate—indicating which tools or packages they rely on.
 
+{{< figure src = "process_tools.jpg" alt = "Yanina, Sam and some of the participants talking with the process in the back with all the color notes in the diagram" class = "pull-left" caption = "Yanina discussing the tools used by participants in their data science workflows.">}}
+
+This exercise sparked rich conversations about the diversity of tools people use, the areas with strong support (like data visualization), and the steps where participants often struggle to find the right tools. It also opened the door to discussing gaps in tooling—opportunities for future development or collaboration, like more easy mapping tools and share chunck codes between different notebooks in R.
+
+|Import|Tidy|Transform|Visualize|Model|Communicate|
+|---|---|---|---|---|---|
+|readr, SQL Alchemy, rgeos, Pandas, xarray|Pandas, numpy, xarray, tidyverse, janitor |base R, Tidyverse, numpy|ggplot, tableu, powerBi, ggmap, seaborn, matplotlib, hvplot, geoviews, r-spatial, tableone, gt, ydata prfiles, qgis| glmer, lmer, serodynamics, deSolve, RStan, cmdstanr, tidymodels, Rjags, mixed, glm, serocalculator | Dashbords, Shiny, Markdown, Quarto, rmarkdown, powePoint, Usethis and devtools, jupyter notebooks|
 
 
-This exercise sparked rich conversations about the diversity of tools people use, the areas with strong support (like data visualization), and the steps where participants often struggle to find the right tools. It also opened the door to discussing gaps in tooling—opportunities for future development or collaboration.
-
-<add data of the tools and gaps>
 
 ## Uncovering Barriers: A Chalk Talk on Obstacles
 
