@@ -55,13 +55,12 @@ The second discussion turned the focus toward obstacles participants face when t
 
 {{< figure src = "barriers.jpg" alt = "The session attendees around a table reflectiong and sharing about barriers and obstacles to engage to open science and research software development" caption = "Session attendees and host during the Chalk Talk discussion">}}
 
-This open and honest exchange revealed a wide range of barriers:
+This open and honest exchange revealed a wide range of barriers listed in the folowwinf table. It also underscored the importance of initiatives that address equity and access in research infrastructure.
 
 | Expertise Obstacles | Language Obstacles | Infrastructure Obstacles |
 |---|---|---|
 |Expertise Knowledge, Bad/No update documentation, Not knowing what's out there (avoid reinvent the wheel), Packages not longer supported, Which packages/function to use, Lacka of a learning roadmap, Trouble shooting for less used packages, translations between differents fields |Human language (material availability), Multilingual documentation, Training and docs in native languages, Documentation too complex, Not clear examples of use, Need of prior understanding|Equipment, Processing resources, storage capacity, remote HPC access, hosting for app,funding software development|
 
-It also underscored the importance of initiatives that address equity and access in research infrastructure.
 
 ## Sharing Solutions: Use-Case Presentations
 
