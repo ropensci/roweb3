@@ -43,18 +43,21 @@ This exercise sparked rich conversations about the diversity of tools people use
 |readr, SQL Alchemy, rgeos, Pandas, xarray|Pandas, numpy, xarray, tidyverse, janitor |base R, Tidyverse, numpy|ggplot, tableu, powerBi, ggmap, seaborn, matplotlib, hvplot, geoviews, r-spatial, tableone, gt, ydata prfiles, qgis| glmer, lmer, serodynamics, deSolve, RStan, cmdstanr, tidymodels, Rjags, mixed, glm, serocalculator | Dashbords, Shiny, Markdown, Quarto, rmarkdown, powePoint, Usethis and devtools, jupyter notebooks|
 
 
-
 ## Uncovering Barriers: A Chalk Talk on Obstacles
 
 The second discussion turned the focus toward obstacles participants face when trying to engage in open science and research software development. In a Chalk Talk format, participants wrote down their thoughts under three color-coded categories:
 
 - Expertise obstacles (e.g., lack of training, steep learning curves)
 - Language obstacles (e.g., lack of documentation in local languages)
-- Equipment obstacles (e.g., limited access to hardware or internet)
+- Infrastructure obstacles (e.g., limited access to hardware or internet)
+
+{{< figure src = "barriers.jpg" alt = "The session attendees around a table reflectiong and sharing about barriers and obstacles to engage to open science and research software development" caption = "Session attendees and host during the Chalk Talk discussion">}}
 
 This open and honest exchange revealed a wide range of barriers:
 
-
+| Expertise Obstacles | Language Obstacles | Infrastructure Obstacles |
+|---|---|---|
+|Expertise Knowledge, Bad/No update documentation, Not knowing what's out there (avoid reinvent the wheel), Packages not longer supported, Which packages/function to use, Lacka of a learning roadmap, Trouble shooting for less used packages, translations between differents fields |Human language (material availability), Multilingual documentation, Training and docs in native languages, Documentation too complex, Not clear examples of use, Need of prior understanding|Equipment, Processing resources, storage capacity, remote HPC access, hosting for app,funding software development|
 
 It also underscored the importance of initiatives that address equity and access in research infrastructure.
 
@@ -65,6 +68,8 @@ To ground the discussion in real-world examples, Sam and Yani each presented a u
 ### Serodynamics: Collaborative R-package Development
 
 Sam is part of the SeroEpidemiology Research Group (SERG) at UC Davis, led by Dr. Kristen Aiemjoy and Dr. Ezra Morrison. Sam gave a presentation highlighting his team’s development of an R package entitled Serodynamics. The package deploys an innovative technique that uses data from longitudinal serologic cohorts to model antibody kinetic seroresponses for a given infection. This information can then be applied to cross-sectional serosurveys to estimate disease incidence and time since infection using another package the team developed called Serocalculator. The package uses a Bayesian (Runjags) framework to estimate the initial antibody concentration (y0), peak concentration (y1), time to peak (t1), decay rate (α), and decay shape (r). The SERG team hopes to have serodynamics ready for use in the coming year. 
+
+{{< figure src = "plot.png" alt = "" caption = "">}}
 
 ### rOpenSci: Supporting Open and Sustainable Research Software
 
