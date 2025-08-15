@@ -34,9 +34,11 @@ Participants then discussed their positions and tried to convince the other grou
 
 The first structured discussion focused on the tools participants use in their data science workflows. Using the well-known R for Data Science (R4DS) framework, participants were invited to place post-it notes under each step of the process—import, tidy, transform, visualize, model, and communicate—indicating which tools or packages they rely on.
 
-{{< figure src = "process_tools.jpg" alt = "Yanina, Sam and some of the participants talking with the process in the back with all the color notes in the diagram" class = "pull-left" caption = "Yanina discussing the tools used by participants in their data science workflows.">}}
+{{< figure src = "process_tools.jpg" alt = "Yanina, Sam and some of the participants talking with the process in the back with all the color notes in the diagram" caption = "Yanina and Sam guiding the conversation about the tools used by participants in their data science workflows.">}}
 
 This exercise sparked rich conversations about the diversity of tools people use, the areas with strong support (like data visualization), and the steps where participants often struggle to find the right tools. It also opened the door to discussing gaps in tooling—opportunities for future development or collaboration, like more easy mapping tools and share chunck codes between different notebooks in R.
+
+The table summarize the tools that the attendees shared for each of the steps in the process.
 
 |Import|Tidy|Transform|Visualize|Model|Communicate|
 |---|---|---|---|---|---|
