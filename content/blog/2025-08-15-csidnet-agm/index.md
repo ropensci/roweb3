@@ -70,7 +70,7 @@ To ground the discussion in real-world examples, Sam and Yani each presented a u
 
 ### Serodynamics: Collaborative R-package Development
 
-Sam is part of the SeroEpidemiology Research Group (SERG) at UC Davis, led by Dr. Kristen Aiemjoy and Dr. Ezra Morrison. Sam gave a presentation highlighting his team’s development of an R package entitled Serodynamics. 
+Sam is part of the SeroEpidemiology Research Group (SERG) at UC Davis, led by Dr. Kristen Aiemjoy and Dr. Ezra Morrison. Sam gave a presentation highlighting his team’s development of an R package entitled [Serodynamics](https://github.com/UCD-SERG/serodynamics). 
 
 The package deploys an innovative technique that uses data from longitudinal serologic cohorts to model antibody kinetic seroresponses for a given infection. This information can then be applied to cross-sectional serosurveys to estimate disease incidence and time since infection using another package the team developed called Serocalculator. The package uses a Bayesian (Runjags) framework to estimate the initial antibody concentration (y0), peak concentration (y1), time to peak (t1), decay rate (α), and decay shape (r). The SERG team hopes to have serodynamics ready for use in the coming year. 
 
