@@ -48,6 +48,8 @@ In their applications Champions choose to develop a new package or to participat
 
 ## Outreach Activities
 
+{{< figure src = "outreach.png" alt = "Examples of outreach activities: workshops, webinars, conferences, meetups, papers, talks and user groups" >}}
+
 Our Champions carried out a wide range of outreach activities like talks, conference papers, workshops, blog articles, community calls and meetups. The objective of these activities was to share what they did and learned during the program with their communities beyond rOpenSci.  
 
 Outreach activities started in August 2024 involving local communities (universities, RUGs, R-Ladies Chapters, conferences, and organizations) and delivered in Champions’ native language (English, Spanish, Portuguese and Chinese).
@@ -56,11 +58,11 @@ Outreach activities started in August 2024 involving local communities (universi
 
 Champions worked with their local communities to organize different kind of events and spaces:
 
-- Sunny organized a workshop to teach how to use the package he developed during the champions program. 
-- Ezekiel submitted a proposal to the RConsortium to create the [Unilorin R user Group](https://www.meetup.com/unilorin-r-users-group/) which got partial funding for its start-up.  After a successful year of operation, with 5 events held and more than 600 members the group got more funding from the RConsortium to continue its activities during 2025.
-- Andrea organized several events in Argentina, including a talk at the R-Ladies Buenos Aires chapter and the RenBaires R user Group about arcenso package.
+- Sunny organized a workshop to teach how to use the package he developed during the champions program in Taiwan. 
+- Ezekiel submitted a proposal to the RConsortium to create the [Unilorin R user Group](https://www.meetup.com/unilorin-r-users-group/) which got partial funding for its start-up.  After a successful year of operation, with 5 events held and more than 600 members the group was awared another RConsortium grant to continue its activities during 2025.
+- Andrea organized several events in Argentina, including a talk at the R-Ladies Buenos Aires chapter and the RenBaires R user Group about the arcenso package and the Champions Program.
 - Sehrish shared her experience on the rOpenSci Champions Program at the webinar [Championing omics data analysis through Open science, Mentoring and Innovating tool](https://bdsi.anu.edu.au/news-events/events/championing-omics-data-analysis-through-open-science-mentoring-and-innovating) at the Australian National University.
-- Francesca organize a meetup with R-Ladies ... to introduce her package ...
+- Francesca organize a meetup with R-Ladies Floripa to introduce her package pcir.
 
 rOpenSci's community spaces also benefited from the participation of the champions:
 
@@ -69,12 +71,12 @@ rOpenSci's community spaces also benefited from the participation of the champio
 - Ezekiel participated as a mentor in the [Coworking Mini-Hackathon for First-Time Contributors](https://ropensci.org/blog/2025/01/24/coworking-hackathons/), helping people to do their first contribution to R packages. 
 - Francesca was the main host of our first community call in Portugues [The R community speaks Portuguese](https://ropensci.org/commcalls/translation-portuguese/) and also one of the mentors of our [Tradução + Hackathon = Traslaton rOpenSci](https://www.eventbrite.cl/e/traducao-hackathon-traslaton-ropensci-tickets-1045507530167) during LatinR 2024.
 
-The champions wrote blog posts for rOpenSci's website covering technological aspects such as [“Resources For Using R With Screen Readers”](https://ropensci.org/blog/2024/09/05/screen-readers-tools/) by Liz Hare and also aspects such as the experience of being part of the program, such as [“Bridges and Communities. My Journey as an rOpenSci Champion”](https://ropensci.org/blog/2025/05/15/puentes-comunidades-campeones-ropensci/) by Andrea Vargas Gomez.
+Champions also wrote blog posts for rOpenSci's website covering technological aspects such as [“Resources For Using R With Screen Readers”](https://ropensci.org/blog/2024/09/05/screen-readers-tools/) by Liz Hare and also aspects such as the experience of being part of the program, such as [“Bridges and Communities. My Journey as an rOpenSci Champion”](https://ropensci.org/blog/2025/05/15/puentes-comunidades-campeones-ropensci/) by Andrea Vargas Gomez.
 
 Academic publication are also part of the outcomes of the Champions work. For example, Sehrish Kanwal wrote a paper about the [RNAsum R package](https://doi.org/10.1101/2025.01.10.24319650).
 
-LatinR, useR!, Posit and several other conferences were attended by our champions. For example, during LatinR, Andrea presented the package he developed during the program. 
-In addition Sunny, Andrea and Erika received scholarships to attend Posit Conf and Sunny and Andrea were able to participate.
+LatinR, useR!, Posit and several other conferences were attended by our champions. For example, during LatinR, Government Advances in Statistical Programming Andrea presented the package she developed during the program. 
+In addition Sunny, Andrea and Erika received scholarships to attend Posit Conf 2024 and Sunny and Andrea were able to participate.
 Erika and Andrea also presented their respective packages developed during the program at useR! 2025.
 
 ## Champions' accomplishments and next steps
