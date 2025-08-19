@@ -81,5 +81,4 @@ Erika and Andrea also presented their respective packages developed during the p
 
 Our Champions have been very successful in the delivery of their projects, building high quality software with a focus on their countries and discipline. The impact of their work also spread to their home institutions and related local communities. Not only through their outreach activities sharing information and knowledge contextualized for their audience, but also by creating spaces for their local communities, like the R user groups, and through their research.
 
-Many of our Champions will continue with their outreach activities and maintaining their R package. Stay tuned to our events section in our website, our newsletter and social media to learn about them! 
-
+Many of our Champions will continue with their outreach activities and maintaining their R package. Stay tuned to our events and talks section in our website, our newsletter and social media to learn about them! 
