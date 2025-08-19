@@ -34,7 +34,7 @@ Participants then discussed their positions and tried to convince the other grou
 
 The first structured discussion focused on the tools participants use in their data science workflows. Using the well-known R for Data Science (R4DS) framework, participants were invited to place post-it notes under each step of the process—import, tidy, transform, visualize, model, and communicate—indicating which tools or packages they rely on.
 
-{{< figure src = "process_tools.png" alt = "Yanina, Sam and some of the participants talking and putting sticky color notes in the diagram" caption = "Yanina and Sam guiding the conversation about the tools used by participants in their data science workflows.">}}
+{{< figure src = "process_tools.png" alt = "Yanina, Sam and some of the participants talking and putting sticky color notes in the diagram" caption = "Yanina and Sam guiding the conversation about the tools used by participants in their data science workflows and of the participants talking and putting sticky color notes in the diagram.">}}
 
 This exercise sparked rich conversations about the diversity of tools people use, the areas with strong support (like data visualization), and the steps where participants often struggle to find the right tools. It also opened the door to discussing gaps in tooling—opportunities for future development or collaboration, like more easy mapping tools and share chunck codes between different notebooks in R.
 
@@ -70,13 +70,27 @@ To ground the discussion in real-world examples, Sam and Yani each presented a u
 
 ### Serodynamics: Collaborative R-package Development
 
-Sam is part of the SeroEpidemiology Research Group (SERG) at UC Davis, led by Dr. Kristen Aiemjoy and Dr. Ezra Morrison. Sam gave a presentation highlighting his team’s development of an R package entitled Serodynamics. The package deploys an innovative technique that uses data from longitudinal serologic cohorts to model antibody kinetic seroresponses for a given infection. This information can then be applied to cross-sectional serosurveys to estimate disease incidence and time since infection using another package the team developed called Serocalculator. The package uses a Bayesian (Runjags) framework to estimate the initial antibody concentration (y0), peak concentration (y1), time to peak (t1), decay rate (α), and decay shape (r). The SERG team hopes to have serodynamics ready for use in the coming year. 
+Sam is part of the SeroEpidemiology Research Group (SERG) at UC Davis, led by Dr. Kristen Aiemjoy and Dr. Ezra Morrison. Sam gave a presentation highlighting his team’s development of an R package entitled Serodynamics. 
+
+The package deploys an innovative technique that uses data from longitudinal serologic cohorts to model antibody kinetic seroresponses for a given infection. This information can then be applied to cross-sectional serosurveys to estimate disease incidence and time since infection using another package the team developed called Serocalculator. The package uses a Bayesian (Runjags) framework to estimate the initial antibody concentration (y0), peak concentration (y1), time to peak (t1), decay rate (α), and decay shape (r). The SERG team hopes to have serodynamics ready for use in the coming year. 
 
 {{< figure src = "plot.png" alt = "" caption = "">}}
 
 ### rOpenSci: Supporting Open and Sustainable Research Software
 
-Yani introduced the rOpenSci ecosystem, highlighting how it supports the development, peer review, and sustainability of research software in R. She emphasized the community-driven approach and the importance of good practices in software development for science.
+Yani introduced the rOpenSci ecosystem, highlighting how it supports the development, peer review, and sustainability of research software in R. She emphasized the community-driven approach and the importance of good practices in software development for science.  
+
+> Our Software Peer Review is a transparent, open, non-adversarial R package review with the goal of improve the software we build to made science. 
+>
+> R-universe is rOpenSci’s platform for improving publication and discovery of research software in R. R-universe build the binaries for different os including webassembly! It also build the documentation, dataset and keep track of lots of stats about your package.
+>
+> Multilingual project focus on create the process and infrastructure to provide our content in other languages than english ensuring the quality of that content. It also look to provide to the R community with multilingual capabilities in differents context.
+>
+> Our Champions Program looks to Identify, recognize and reward leaders in a community. It is focus on people from historically and systematically excluded groups who are interested in contributing to rOpenSci and the broader open source and open science communities. Through mentoring and training champions develop a project during a year. 
+
+Yani mentioned how each of the rOpenSci projects can serve as tools to overcome some of the barriers mentioned in the discussions, such as peer review and the community of developers who not only maintain but also generate documentation, use cases, and answer questions, with research-oriented packages, even if they are niche. 
+
+She also shared the existence of [pyOpenSci](https://www.pyopensci.org/) for people who program in Python and [The Carpentries](https://carpentries.org) for introductory workshops and open lessons.
 
 ## Final thoughts
 
