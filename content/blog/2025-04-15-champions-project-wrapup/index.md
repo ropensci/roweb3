@@ -52,14 +52,14 @@ Our Champions carried out a wide range of outreach activities like talks, confer
 
 Outreach activities started in August 2024 involving local communities (universities, RUGs, R-Ladies Chapters, conferences, and organizations) and delivered in Champions’ native language (English, Spanish, Portuguese and Chinese).
 
-[Members of this cohort worked together with champions from the first cohort to do theirs outreach activities](https://ropensci.org/events/rsr-learn-and-use/) and also introduce their cohort mates to other communities and organizations giving them [space to share what they did during the Champions Program](https://www.youtube.com/watch?v=p2Odyp9VIPA).
+[Liz Hare, member of this cohort worked together with Cagri, a champion from the first cohort to do outreach activities](https://ropensci.org/events/rsr-learn-and-use/) and also introduce their cohort mates to other communities and organizations giving them [space to share what they did during the Champions Program](https://www.youtube.com/watch?v=p2Odyp9VIPA).
 
 Champions worked with their local communities to organize different kind of events and spaces:
 
 - Sunny organized a workshop to teach how to use the package he developed during the champions program. 
-- Ezekiel submitted a proposal to the RConsortium to create an R user Group together with the University xx which got partial funding for its start-up.  After a successful year of operation, with xx events held and xx members the group got more funding from the RConsortium to continue its activities during 2025.
-- Andrea organized xx and xx events in Argentina, including a talk at the R-Ladies Buenos Aires chapter and the RenBaires R user Group.
-- Sehrish organize a workshop at ...
+- Ezekiel submitted a proposal to the RConsortium to create the [Unilorin R user Group](https://www.meetup.com/unilorin-r-users-group/) which got partial funding for its start-up.  After a successful year of operation, with 5 events held and more than 600 members the group got more funding from the RConsortium to continue its activities during 2025.
+- Andrea organized several events in Argentina, including a talk at the R-Ladies Buenos Aires chapter and the RenBaires R user Group about arcenso package.
+- Sehrish shared her experience on the rOpenSci Champions Program at the webinar [Championing omics data analysis through Open science, Mentoring and Innovating tool](https://bdsi.anu.edu.au/news-events/events/championing-omics-data-analysis-through-open-science-mentoring-and-innovating) at the Australian National University.
 - Francesca organize a meetup with R-Ladies ... to introduce her package ...
 
 rOpenSci's community spaces also benefited from the participation of the champions:
@@ -71,10 +71,11 @@ rOpenSci's community spaces also benefited from the participation of the champio
 
 The champions wrote blog posts for rOpenSci's website covering technological aspects such as [“Resources For Using R With Screen Readers”](https://ropensci.org/blog/2024/09/05/screen-readers-tools/) by Liz Hare and also aspects such as the experience of being part of the program, such as [“Bridges and Communities. My Journey as an rOpenSci Champion”](https://ropensci.org/blog/2025/05/15/puentes-comunidades-campeones-ropensci/) by Andrea Vargas Gomez.
 
-LatinR, useR!, Posit and xx conferences were attended by our champions.  During LatinR, Andrea presented the package he developed during the program and Francesca was a mentor of the traslathon organized as a satellite event of the conference. 
+Academic publication are also part of the outcomes of the Champions work. For example, Sehrish Kanwal wrote a paper about the [RNAsum R package](https://doi.org/10.1101/2025.01.10.24319650).
+
+LatinR, useR!, Posit and several other conferences were attended by our champions. For example, during LatinR, Andrea presented the package he developed during the program. 
 In addition Sunny, Andrea and Erika received scholarships to attend Posit Conf and Sunny and Andrea were able to participate.
 Erika and Andrea also presented their respective packages developed during the program at useR! 2025.
-
 
 ## Champions' accomplishments and next steps
 
