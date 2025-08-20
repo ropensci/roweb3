@@ -16,11 +16,12 @@ params:
   doi: ""
 ---
 
-On July 21, during the CSIDNet Annual General Meeting 2025,  Yanina Bellini Saibene and Samuel Schildhauer co-lead a session titled **“Open Science, R Packages, and Research Software Development”**. The session was designed not only to introduce participants to tools and practices in open science with R but also to encourage active reflection and discussion on their own workflows and the challenges they face.
+On July 21, during the [2025 Annual General Meeting of the “Climate Sensitive Infectious Disease Network” (CSIDNet )](https://csidnet.org/2025-virtual-annual-general-meeting-hub/),  Yanina Bellini Saibene and Samuel Schildhauer co-lead a session titled **“Open Science, R Packages, and Research Software Development”**. 
+The session was designed not only to introduce participants to tools and practices in open science with R but also to encourage active reflection and discussion on their own workflows and the challenges they face.
 
 ## Kicking Things Off: The Human Barometer
 
-To break the ice and get people moving and thinking we use a [well known method at rOpenSci unconf called the Human Barometer](/blog/2018/11/01/icebreaker/). Participants physically positioned themselves along a line in response to a series of light-hearted and thought-provoking prompts, such as:
+To break the ice and get people moving and thinking we use a [documented method from an rOpenSci unconf, called the Human Barometer](/blog/2018/11/01/icebreaker/). Participants physically positioned themselves along a line in response to a series of light-hearted and thought-provoking prompts, such as:
 
 1. Cats or Dogs?
 2. I practice open science in my activity.
@@ -36,9 +37,9 @@ The first structured discussion focused on the tools participants use in their d
 
 {{< figure src = "process_tools.png" alt = "Yanina, Sam and some of the participants talking and putting sticky color notes in the diagram" caption = "Yanina and Sam guiding the conversation about the tools used by participants in their data science workflows and of the participants talking and putting sticky color notes in the diagram.">}}
 
-This exercise sparked rich conversations about the diversity of tools people use, the areas with strong support (like data visualization), and the steps where participants often struggle to find the right tools. It also opened the door to discussing gaps in tooling—opportunities for future development or collaboration, like more easy mapping tools and share chunck codes between different notebooks in R.
+This exercise sparked rich conversations about the diversity of tools people use, the areas with strong support (like data visualization), and the steps where participants often struggle to find the right tools. It also opened the door to discussing gaps in tooling—opportunities for future development or collaboration, like easier mapping tools and shared code chunks between different notebooks in R.
 
-The table summarize the tools that the attendees shared for each of the steps in the process.
+The table summarizes the tools that the attendees shared for each of the steps in the process.
 
 |Import|Tidy|Transform|Visualize|Model|Communicate|
 |---|---|---|---|---|---|
@@ -55,13 +56,13 @@ The second discussion turned the focus toward obstacles participants face when t
 
 {{< figure src = "barriers.jpg" alt = "The session attendees around a table reflectiong and sharing about barriers and obstacles to engage to open science and research software development" caption = "Session attendees and host during the Chalk Talk discussion">}}
 
-This open and honest exchange revealed a wide range of barriers listed in the folowwinf table. It also underscored the importance of initiatives that address equity and access in research infrastructure.
+This open and honest exchange revealed a wide range of barriers. It also underscored the importance of initiatives that address equity and access in research infrastructure.
 
-* Expertise Obstacles: Expertise Knowledge, Bad/No update documentation, Not knowing what's out there (avoid reinvent the wheel), Packages not longer supported, Which packages/function to use, Lacka of a learning roadmap, Trouble shooting for less used packages, translations between differents fields |
+* Expertise Obstacles: Expertise Knowledge, Bad/No update documentation, Not knowing what's out there (avoid reinvent the wheel), Packages not longer supported, Which packages/function to use, Lack of a learning roadmap, Trouble shooting for less used packages, translations between differents fields 
 
 * Language Obstacles: Human language (material availability), Multilingual documentation, Training and docs in native languages, Documentation too complex, Not clear examples of use, Need of prior understanding
 
-* Infrastructure Obstacles: Equipment, Processing resources, storage capacity, remote HPC access, hosting for app,funding software development|
+* Infrastructure Obstacles: Equipment, Processing resources, storage capacity, remote HPC access, hosting for app, funding software development
 
 
 ## Sharing Solutions: Use-Case Presentations
@@ -70,7 +71,7 @@ To ground the discussion in real-world examples, Sam and Yani each presented a u
 
 ### Serodynamics: Collaborative R-package Development
 
-Sam is part of the SeroEpidemiology Research Group (SERG) at UC Davis, led by Dr. Kristen Aiemjoy and Dr. Ezra Morrison. Sam gave a presentation highlighting his team’s development of an R package entitled [Serodynamics](https://github.com/UCD-SERG/serodynamics). 
+Sam is part of the SeroEpidemiology Research Group (SERG) at UC Davis, led by Dr. Kristen Aiemjoy and Dr. Ezra Morrison. Sam gave a presentation highlighting his team’s development of an R package called [Serodynamics](https://github.com/UCD-SERG/serodynamics). 
 
 The package deploys an innovative technique that uses data from longitudinal serologic cohorts to model antibody kinetic seroresponses for a given infection. This information can then be applied to cross-sectional serosurveys to estimate disease incidence and time since infection using another package the team developed called Serocalculator. The package uses a Bayesian (Runjags) framework to estimate the initial antibody concentration (y0), peak concentration (y1), time to peak (t1), decay rate (α), and decay shape (r). The SERG team hopes to have serodynamics ready for use in the coming year. 
 
@@ -82,11 +83,11 @@ Yani introduced the rOpenSci ecosystem, highlighting how it supports the develop
 
 > Our Software Peer Review is a transparent, open, non-adversarial R package review with the goal of improve the software we build to made science. 
 >
-> R-universe is rOpenSci’s platform for improving publication and discovery of research software in R. R-universe build the binaries for different os including webassembly! It also build the documentation, dataset and keep track of lots of stats about your package.
+> R-universe is rOpenSci’s platform for improving publication and discovery of research software in R. R-universe build the binaries for different OS including webassembly! It also builds the documentation, distributes datasets and keeps track of lots of stats about your package.
 >
-> Multilingual project focus on create the process and infrastructure to provide our content in other languages than english ensuring the quality of that content. It also look to provide to the R community with multilingual capabilities in differents context.
+> Our multilingual publishing project focus on create the process and infrastructure to provide our content in other languages than English while ensuring the quality of that content. It also looks to provide to the R community with multilingual capabilities in different contexts.
 >
-> Our Champions Program looks to Identify, recognize and reward leaders in a community. It is focus on people from historically and systematically excluded groups who are interested in contributing to rOpenSci and the broader open source and open science communities. Through mentoring and training champions develop a project during a year. 
+> Our Champions Program seeks to Identify, recognize and reward leaders in a community. It is focussed on people from historically and systematically excluded groups who are interested in contributing to rOpenSci and the broader open source and open science communities. Through mentoring and training, champions develop a project during a year. 
 
 Yani mentioned how each of the rOpenSci projects can serve as tools to overcome some of the barriers mentioned in the discussions, such as peer review and the community of developers who not only maintain but also generate documentation, use cases, and answer questions, with research-oriented packages, even if they are niche. 
 
