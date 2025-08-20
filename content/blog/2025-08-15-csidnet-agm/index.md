@@ -3,7 +3,7 @@ title: "Exploring Open Science, R Packages, and Research Software Development at
 author: 
 - Yanina Bellini Saibene
 - Sam Schildhauer
-editor: Steffi LaZerte
+editor: Maëlle Salmon
 date: '2025-08-15'
 slug: csidnet-agm-2025
 output: hugodown::md_document
