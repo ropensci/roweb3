@@ -31,13 +31,13 @@ To break the ice and get people moving and thinking we use a [documented method 
 
 Participants then discussed their positions and tried to convince the other group to change their minds. This dynamic approach not only brought energy into the room but also offered a quick glimpse into the community's practices and perspectives, giving the participants the chance to become acquainted interactively.
 
-{{< figure src = "participants.jpg" alt = "Two groups of stand up people chating between them" class = "pull-left" caption = "Participants sharing why they are in that group when asked, 'I use R in my research.'">}}
+{{< figure src = "participants.jpg" alt = "Two groups of stand up people chating between them" class = "pull-left" caption = "Participants sharing why they are in that group when asked, 'I use R in my research'. Photo by Yanina Bellini Saibene.">}}
 
 ## Mapping Our Tools: Data Science Workflows in Practice
 
 The first structured discussion focused on the tools participants use in their data science workflows. Using the well-known [R for Data Science (R4DS) framework](https://r4ds.hadley.nz/intro.html#fig-ds-diagram), participants were invited to place post-it notes under each step of the process-import, tidy, transform, visualize, model, and communicate—indicating which tools or packages they rely on.
 
-{{< figure src = "process_tools.png" alt = "Yanina, Sam and some of the participants talking and putting sticky color notes in the diagram" caption = "Yanina and Sam guiding the conversation about the tools used by participants in their data science workflows and of the participants talking and putting sticky color notes in the diagram.">}}
+{{< figure src = "process_tools.png" alt = "Yanina, Sam and some of the participants talking and putting sticky color notes in the diagram" caption = "Yanina and Sam guiding the conversation about the tools used by participants in their data science workflows and of the participants talking and putting sticky color notes in the diagram. Photos by: Natthaphon Sakulvanaporn (BangkokVDO)">}}
 
 This exercise sparked rich conversations about the diversity of tools people use, the areas with strong support (like data visualization), and the steps where participants often struggle to find the right tools. It was also noted that tools such as [Arrow](https://arrow.apache.org/docs/r/), which allow large amounts of data to be handled in R, and [targets](https://books.ropensci.org/targets/), which allow work with pipelines, were not mentioned among the tools. The exercise opened the door to discussing gaps in tooling—opportunities for future development or collaboration, like easier mapping tools and shared code chunks between different notebooks in R. 
 
@@ -56,7 +56,7 @@ The second discussion turned the focus toward obstacles participants face when t
 - Language obstacles (e.g., lack of documentation in local languages)
 - Infrastructure obstacles (e.g., limited access to hardware or internet)
 
-{{< figure src = "barriers.jpg" alt = "The session attendees around a table reflectiong and sharing about barriers and obstacles to engage to open science and research software development" caption = "Session attendees and host during the Chalk Talk discussion">}}
+{{< figure src = "barriers.jpg" alt = "The session attendees around a table reflectiong and sharing about barriers and obstacles to engage to open science and research software development" caption = "Session attendees and host during the Chalk Talk discussion. Photos by: Natthaphon Sakulvanaporn (BangkokVDO)">}}
 
 This open and honest exchange revealed a wide range of barriers. It also underscored the importance of initiatives that address equity and access in research infrastructure.
 
