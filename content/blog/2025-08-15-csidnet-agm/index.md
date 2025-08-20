@@ -11,12 +11,14 @@ tags:
 - community
 - climate change
 - packages development
-description: .
+description: "An interactive session at the Climate Sensitive Infectious Disease Network AGM 2025 exploring open science, R packages, and research software development." 
 params:
-  doi: ""
+  doi: "10.59350/m41m5-xmc26"
 ---
 
-On July 21, during the [2025 Annual General Meeting of the “Climate Sensitive Infectious Disease Network” (CSIDNet )](https://csidnet.org/2025-virtual-annual-general-meeting-hub/),  Yanina Bellini Saibene and Samuel Schildhauer co-lead a session titled **“Open Science, R Packages, and Research Software Development”**. 
+The “Climate Sensitive Infectious Disease” (CSID) Network looks to connect a global community of actors contributing towards impactful CSID software tools and establish localized CSID communities that can link existing on-the-ground issues and initiatives to the development and maintenance of CSID tools.
+
+On July 21, during the [2025 Annual General Meeting of the CSIDNet](https://csidnet.org/2025-virtual-annual-general-meeting-hub/),  Yanina Bellini Saibene and Samuel Schildhauer co-lead a session titled **“Open Science, R Packages, and Research Software Development”**. 
 The session was designed not only to introduce participants to tools and practices in open science with R but also to encourage active reflection and discussion on their own workflows and the challenges they face.
 
 ## Kicking Things Off: The Human Barometer
@@ -83,9 +85,12 @@ Yani introduced the rOpenSci ecosystem, highlighting how it supports the develop
 
 > Our Software Peer Review is a transparent, open, non-adversarial R package review with the goal of improve the software we build to made science. 
 >
+>
 > R-universe is rOpenSci’s platform for improving publication and discovery of research software in R. R-universe build the binaries for different OS including webassembly! It also builds the documentation, distributes datasets and keeps track of lots of stats about your package.
 >
+>
 > Our multilingual publishing project focus on create the process and infrastructure to provide our content in other languages than English while ensuring the quality of that content. It also looks to provide to the R community with multilingual capabilities in different contexts.
+>
 >
 > Our Champions Program seeks to Identify, recognize and reward leaders in a community. It is focussed on people from historically and systematically excluded groups who are interested in contributing to rOpenSci and the broader open source and open science communities. Through mentoring and training, champions develop a project during a year. 
 
