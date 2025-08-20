@@ -45,7 +45,7 @@ The table summarizes the tools that the attendees shared for each of the steps i
 
 | Import | Tidy | Transform | Visualize | Model | Communicate |
 |--------|------|-----------|-----------|-------|-------------|
-| - [Pandas](https://pandas.pydata.org/) <br> - [readr](https://readr.tidyverse.org/) <br> - [rgeos](https://cran.r-project.org/package=rgeos) <br> - [SQLAlchemy](https://www.sqlalchemy.org/) <br> - [xarray](https://xarray.dev/) | - [janitor](https://sfirke.github.io/janitor/) <br> - [NumPy](https://numpy.org/) <br> - [Pandas](https://pandas.pydata.org/) <br> - [tidyverse](https://www.tidyverse.org/) <br> - [xarray](https://xarray.dev/) | - [base R](https://www.r-project.org/) <br> - [NumPy](https://numpy.org/) <br> - [tidyverse](https://www.tidyverse.org/) | - [GeoViews](https://geoviews.org/) <br> - [ggmap](https://cran.r-project.org/package=ggmap) <br> - [ggplot2](https://ggplot2.tidyverse.org/) <br> - [gt](https://gt.rstudio.com/) <br> - [hvplot](https://hvplot.holoviz.org/) <br> - [matplotlib](https://matplotlib.org/) <br> - [Power BI](https://powerbi.microsoft.com/) <br> - [QGIS](https://qgis.org/) <br> - [r-spatial](https://r-spatial.org/) <br> - [seaborn](https://seaborn.pydata.org/) <br> - [tableone](https://cran.r-project.org/package=tableone) <br> - [Tableau](https://www.tableau.com/) <br> - [ydata-profiling](https://ydata-profiling.ydata.ai/) | - [cmdstanr](https://mc-stan.org/cmdstanr/) <br> - [deSolve](https://desolve.r-forge.r-project.org/) <br> - [glm (base R)](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/glm.html) <br> - [glmer (lme4)](https://cran.r-project.org/package=lme4) <br> - [lmer (lme4)](https://cran.r-project.org/package=lme4) <br> - [mixed (afex)](https://cran.r-project.org/package=afex) <br> - [rjags](https://cran.r-project.org/package=rjags) <br> - [RStan](https://mc-stan.org/rstan/) <br> - [serocalculator](https://github.com/serocalculator/serocalculator) <br> - [serodynamics](https://github.com/seroanalytics/serodynamics) <br> - [tidymodels](https://www.tidymodels.org/) | - [Dashboards (R Markdown)](https://pkgs.rstudio.com/flexdashboard/) <br> - [Jupyter Notebooks](https://jupyter.org/) <br> - [Markdown](https://daringfireball.net/projects/markdown/) <br> - [PowerPoint](https://www.microsoft.com/microsoft-365/powerpoint) <br> - [Quarto](https://quarto.org/) <br> - [R Markdown](https://rmarkdown.rstudio.com/) <br> - [Shiny](https://shiny.posit.co/) <br> - [usethis](https://usethis.r-lib.org/) and [devtools](https://devtools.r-lib.org/) |
+| - [Pandas](https://pandas.pydata.org/) <br> - [readr](https://readr.tidyverse.org/) <br> - [rgeos](https://rgeos.r-forge.r-project.org) <br> - [SQLAlchemy](https://www.sqlalchemy.org/) <br> - [xarray](https://xarray.dev/) | - [janitor](https://sfirke.github.io/janitor/) <br> - [NumPy](https://numpy.org/) <br> - [Pandas](https://pandas.pydata.org/) <br> - [tidyverse](https://www.tidyverse.org/) <br> - [xarray](https://xarray.dev/) | - [base R](https://www.r-project.org/) <br> - [NumPy](https://numpy.org/) <br> - [tidyverse](https://www.tidyverse.org/) | - [GeoViews](https://geoviews.org/) <br> - [ggmap](https://cran.r-project.org/package=ggmap) <br> - [ggplot2](https://ggplot2.tidyverse.org/) <br> - [gt](https://gt.rstudio.com/) <br> - [hvplot](https://hvplot.holoviz.org/) <br> - [matplotlib](https://matplotlib.org/) <br> - [Power BI](https://powerbi.microsoft.com/) <br> - [QGIS](https://qgis.org/) <br> - [r-spatial](https://r-spatial.org/) <br> - [seaborn](https://seaborn.pydata.org/) <br> - [tableone](https://cran.r-project.org/package=tableone) <br> - [Tableau](https://www.tableau.com/) <br> - [ydata-profiling](https://ydata-profiling.ydata.ai/) | - [cmdstanr](https://mc-stan.org/cmdstanr/) <br> - [deSolve](https://desolve.r-forge.r-project.org/) <br> - [glm (base R)](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/glm.html) <br> - [glmer (lme4)](https://cran.r-project.org/package=lme4) <br> - [lmer (lme4)](https://cran.r-project.org/package=lme4) <br> - [mixed (afex)](https://cran.r-project.org/package=afex) <br> - [rjags](https://cran.r-project.org/package=rjags) <br> - [RStan](https://mc-stan.org/rstan/) <br> - [serocalculator](https://github.com/serocalculator/serocalculator) <br> - [serodynamics](https://github.com/seroanalytics/serodynamics) <br> - [tidymodels](https://www.tidymodels.org/) | - [Dashboards (R Markdown)](https://pkgs.rstudio.com/flexdashboard/) <br> - [Jupyter Notebooks](https://jupyter.org/) <br> - [Markdown](https://daringfireball.net/projects/markdown/) <br> - [PowerPoint](https://www.microsoft.com/microsoft-365/powerpoint) <br> - [Quarto](https://quarto.org/) <br> - [R Markdown](https://rmarkdown.rstudio.com/) <br> - [Shiny](https://shiny.posit.co/) <br> - [usethis](https://usethis.r-lib.org/) and [devtools](https://devtools.r-lib.org/) |
 
 
 
@@ -85,20 +85,22 @@ The package deploys an innovative technique that uses data from longitudinal ser
 Yani introduced the rOpenSci ecosystem, highlighting how it supports the development, peer review, and sustainability of research software in R. She emphasized the community-driven approach and the importance of good practices in software development for science.  
 
 > Our Software Peer Review is a transparent, open, non-adversarial R package review with the goal of improve the software we build to made science. 
->
->
+
+
 > R-universe is rOpenSci’s platform for improving publication and discovery of research software in R. R-universe build the binaries for different OS including webassembly! It also builds the documentation, distributes datasets and keeps track of lots of stats about your package.
->
->
+
+
 > Our multilingual publishing project focus on create the process and infrastructure to provide our content in other languages than English while ensuring the quality of that content. It also looks to provide to the R community with multilingual capabilities in different contexts.
->
->
+
+
 > Our Champions Program seeks to Identify, recognize and reward leaders in a community. It is focussed on people from historically and systematically excluded groups who are interested in contributing to rOpenSci and the broader open source and open science communities. Through mentoring and training, champions develop a project during a year. 
 
 Yani mentioned how each of the rOpenSci projects can serve as tools to overcome some of the barriers mentioned in the discussions, such as peer review and the community of developers who not only maintain but also generate documentation, use cases, and answer questions, with research-oriented packages, even if they are niche. 
 
-She also shared the existence of [pyOpenSci](https://www.pyopensci.org/) for people who program in Python and [The Carpentries](https://carpentries.org) for introductory workshops and open lessons.
+She also shared the existence of [pyOpenSci](https://www.pyopensci.org/) for people who program in Python and [The Carpentries](https://carpentries.org)[^1] for introductory workshops and open lessons.
 
 ## Final thoughts
 
 This session provided a mix of interaction, reflection, and learning. It helped participants connect their personal experiences to broader open science practices, surfaced common challenges, and introduced them to new tools and communities. By the end of the 90 minutes, it was clear that the path to more open, accessible, and sustainable research software is one best walked together.
+
+[^1]: Yani is the chair of The Carpentries Board of Directors and a certified Instructor and Trainer.
