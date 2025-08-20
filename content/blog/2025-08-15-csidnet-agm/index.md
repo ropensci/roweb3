@@ -35,7 +35,7 @@ Participants then discussed their positions and tried to convince the other grou
 
 ## Mapping Our Tools: Data Science Workflows in Practice
 
-The first structured discussion focused on the tools participants use in their data science workflows. Using the well-known R for Data Science (R4DS) framework, participants were invited to place post-it notes under each step of the process—import, tidy, transform, visualize, model, and communicate—indicating which tools or packages they rely on.
+The first structured discussion focused on the tools participants use in their data science workflows. Using the well-known [R for Data Science (R4DS) framework](https://r4ds.hadley.nz/intro.html#fig-ds-diagram), participants were invited to place post-it notes under each step of the process-import, tidy, transform, visualize, model, and communicate—indicating which tools or packages they rely on.
 
 {{< figure src = "process_tools.png" alt = "Yanina, Sam and some of the participants talking and putting sticky color notes in the diagram" caption = "Yanina and Sam guiding the conversation about the tools used by participants in their data science workflows and of the participants talking and putting sticky color notes in the diagram.">}}
 
@@ -43,9 +43,10 @@ This exercise sparked rich conversations about the diversity of tools people use
 
 The table summarizes the tools that the attendees shared for each of the steps in the process.
 
-|Import|Tidy|Transform|Visualize|Model|Communicate|
-|---|---|---|---|---|---|
-|readr, SQL Alchemy, rgeos, Pandas, xarray|Pandas, numpy, xarray, tidyverse, janitor |base R, Tidyverse, numpy|ggplot, tableu, powerBi, ggmap, seaborn, matplotlib, hvplot, geoviews, r-spatial, tableone, gt, ydata prfiles, qgis| glmer, lmer, serodynamics, deSolve, RStan, cmdstanr, tidymodels, Rjags, mixed, glm, serocalculator | Dashbords, Shiny, Markdown, Quarto, rmarkdown, powePoint, Usethis and devtools, jupyter notebooks|
+| Import | Tidy | Transform | Visualize | Model | Communicate |
+|--------|------|-----------|-----------|-------|-------------|
+| - [Pandas](https://pandas.pydata.org/) <br> - [readr](https://readr.tidyverse.org/) <br> - [rgeos](https://cran.r-project.org/package=rgeos) <br> - [SQLAlchemy](https://www.sqlalchemy.org/) <br> - [xarray](https://xarray.dev/) | - [janitor](https://sfirke.github.io/janitor/) <br> - [NumPy](https://numpy.org/) <br> - [Pandas](https://pandas.pydata.org/) <br> - [tidyverse](https://www.tidyverse.org/) <br> - [xarray](https://xarray.dev/) | - [base R](https://www.r-project.org/) <br> - [NumPy](https://numpy.org/) <br> - [tidyverse](https://www.tidyverse.org/) | - [GeoViews](https://geoviews.org/) <br> - [ggmap](https://cran.r-project.org/package=ggmap) <br> - [ggplot2](https://ggplot2.tidyverse.org/) <br> - [gt](https://gt.rstudio.com/) <br> - [hvplot](https://hvplot.holoviz.org/) <br> - [matplotlib](https://matplotlib.org/) <br> - [Power BI](https://powerbi.microsoft.com/) <br> - [QGIS](https://qgis.org/) <br> - [r-spatial](https://r-spatial.org/) <br> - [seaborn](https://seaborn.pydata.org/) <br> - [tableone](https://cran.r-project.org/package=tableone) <br> - [Tableau](https://www.tableau.com/) <br> - [ydata-profiling](https://ydata-profiling.ydata.ai/) | - [cmdstanr](https://mc-stan.org/cmdstanr/) <br> - [deSolve](https://desolve.r-forge.r-project.org/) <br> - [glm (base R)](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/glm.html) <br> - [glmer (lme4)](https://cran.r-project.org/package=lme4) <br> - [lmer (lme4)](https://cran.r-project.org/package=lme4) <br> - [mixed (afex)](https://cran.r-project.org/package=afex) <br> - [rjags](https://cran.r-project.org/package=rjags) <br> - [RStan](https://mc-stan.org/rstan/) <br> - [serocalculator](https://github.com/serocalculator/serocalculator) <br> - [serodynamics](https://github.com/seroanalytics/serodynamics) <br> - [tidymodels](https://www.tidymodels.org/) | - [Dashboards (R Markdown)](https://pkgs.rstudio.com/flexdashboard/) <br> - [Jupyter Notebooks](https://jupyter.org/) <br> - [Markdown](https://daringfireball.net/projects/markdown/) <br> - [PowerPoint](https://www.microsoft.com/microsoft-365/powerpoint) <br> - [Quarto](https://quarto.org/) <br> - [R Markdown](https://rmarkdown.rstudio.com/) <br> - [Shiny](https://shiny.posit.co/) <br> - [usethis](https://usethis.r-lib.org/) and [devtools](https://devtools.r-lib.org/) |
+
 
 
 ## Uncovering Barriers: A Chalk Talk on Obstacles
