@@ -39,7 +39,7 @@ The first structured discussion focused on the tools participants use in their d
 
 {{< figure src = "process_tools.png" alt = "Yanina, Sam and some of the participants talking and putting sticky color notes in the diagram" caption = "Yanina and Sam guiding the conversation about the tools used by participants in their data science workflows and of the participants talking and putting sticky color notes in the diagram.">}}
 
-This exercise sparked rich conversations about the diversity of tools people use, the areas with strong support (like data visualization), and the steps where participants often struggle to find the right tools. It also opened the door to discussing gaps in tooling—opportunities for future development or collaboration, like easier mapping tools and shared code chunks between different notebooks in R.
+This exercise sparked rich conversations about the diversity of tools people use, the areas with strong support (like data visualization), and the steps where participants often struggle to find the right tools. It was also noted that tools such as [Arrow](https://arrow.apache.org/docs/r/), which allow large amounts of data to be handled in R, and [targets](https://books.ropensci.org/targets/), which allow work with pipelines, were not mentioned among the tools. The exercise opened the door to discussing gaps in tooling—opportunities for future development or collaboration, like easier mapping tools and shared code chunks between different notebooks in R. 
 
 The table summarizes the tools that the attendees shared for each of the steps in the process.
 
@@ -60,11 +60,11 @@ The second discussion turned the focus toward obstacles participants face when t
 
 This open and honest exchange revealed a wide range of barriers. It also underscored the importance of initiatives that address equity and access in research infrastructure.
 
-* Expertise Obstacles: Expertise Knowledge, Bad/No update documentation, Not knowing what's out there (avoid reinvent the wheel), Packages not longer supported, Which packages/function to use, Lack of a learning roadmap, Trouble shooting for less used packages, translations between differents fields 
+* _Expertise Obstacles_: Expertise Knowledge, Bad/No update documentation, Not knowing what's out there (avoid reinvent the wheel), Packages not longer supported, Which packages/function to use, Lack of a learning roadmap, Trouble shooting for less used packages, translations between differents fields 
 
-* Language Obstacles: Human language (material availability), Multilingual documentation, Training and docs in native languages, Documentation too complex, Not clear examples of use, Need of prior understanding
+* _Language Obstacles_: Human language (material availability), Multilingual documentation, Training and docs in native languages, Documentation too complex, Not clear examples of use, Need of prior understanding
 
-* Infrastructure Obstacles: Equipment, Processing resources, storage capacity, remote HPC access, hosting for app, funding software development
+* _Infrastructure Obstacles_: Equipment, Processing resources, storage capacity, remote HPC access, hosting for app, funding software development
 
 
 ## Sharing Solutions: Use-Case Presentations
@@ -94,7 +94,7 @@ Yani introduced the rOpenSci ecosystem, highlighting how it supports the develop
 
 > Our Champions Program seeks to Identify, recognize and reward leaders in a community. It is focussed on people from historically and systematically excluded groups who are interested in contributing to rOpenSci and the broader open source and open science communities. Through mentoring and training, champions develop a project during a year. 
 
-Yani mentioned how each of the rOpenSci projects can serve as tools to overcome some of the barriers mentioned in the discussions, such as peer review and the community of developers who not only maintain but also generate documentation, use cases, and answer questions, with research-oriented packages, even if they are niche. 
+Yani mentioned how each of the rOpenSci projects can serve as tools to overcome some of the barriers mentioned in the discussions, such as peer review and the community of developers who not only maintain but also generate documentation, use cases, and answer questions, with research-oriented packages, even if they are niche. Also the Champions Program as a _learning path_ for scientists that develop research software. 
 
 She also shared the existence of [pyOpenSci](https://www.pyopensci.org/) for people who program in Python and [The Carpentries](https://carpentries.org)[^1] for introductory workshops and open lessons.
 
