@@ -42,7 +42,7 @@ September 16-18, 2025 [posit::conf(2025)](https://posit.co/conference/) will tak
 
 **rOpenSci will be there!**
 
-* [Mauro Lepore](/author/mauro-lepore) and [Eric Scott](/author/eric-scott) will both present [lightning talks](https://reg.conf.posit.co/flow/posit/positconf25/attendee-portal/page/sessioncatalog/session/1745351143742001aTfb) on Wednesday, September 17th at 1:00 PM. TODO ADD TALKS
+* [Mauro Lepore](/author/mauro-lepore) and [Eric Scott](/author/eric-scott) will both present [lightning talks](https://reg.conf.posit.co/flow/posit/positconf25/attendee-portal/page/sessioncatalog/session/1745351143742001aTfb) on Wednesday, September 17th at 1:00 PM. Mauro will talk about "Approaching Positron from RStudio", Eric will talk about "Enabling geospatial workflow management with targets: an R package origin story".
 
 * [Will Landau](/author/will-landau/) will give his talk "R-multiverse: a next-generation R package repository system built on R-universe" in the [session "Strengthening the R Ecosystem"](https://reg.conf.posit.co/flow/posit/positconf25/attendee-portal/page/sessioncatalog/session/1745351601442001aZMp) Thursday, September 18th at 10:20 AM.
 
