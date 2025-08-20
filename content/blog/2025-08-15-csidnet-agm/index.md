@@ -77,22 +77,19 @@ Sam is part of the SeroEpidemiology Research Group (SERG) at UC Davis, led by Dr
 
 The package deploys an innovative technique that uses data from longitudinal serologic cohorts to model antibody kinetic seroresponses for a given infection. This information can then be applied to cross-sectional serosurveys to estimate disease incidence and time since infection using another package the team developed called Serocalculator. The package uses a Bayesian (Runjags) framework to estimate the initial antibody concentration (y0), peak concentration (y1), time to peak (t1), decay rate (α), and decay shape (r). The SERG team hopes to have serodynamics ready for use in the coming year. 
 
-{{< figure src = "plot.png" alt = "" caption = "">}}
+{{< figure src = "plot.png" alt = "A conceptual diagram with two panels: (A) shows dot plots of antibody levels (ELISA units, log scale) for high-burden and low-burden populations, with higher values in the high-burden group; (B) displays modeled antibody levels over time since fever onset, illustrating a rise and gradual decline, with horizontal arrows linking population data to antibody kinetics." caption = "Conceptual diagram for estimating seroconversion rate using longitudinal antibody dynamics">}}
 
 ### rOpenSci: Supporting Open and Sustainable Research Software
 
 Yani introduced the rOpenSci ecosystem, highlighting how it supports the development, peer review, and sustainability of research software in R. She emphasized the community-driven approach and the importance of good practices in software development for science.  
 
-> Our Software Peer Review is a transparent, open, non-adversarial R package review with the goal of improve the software we build to made science. 
+> Our [Software Peer Review](https://ropensci.org/software-review/) is a transparent, open, non-adversarial R package review with the goal of improve the software we build to made science. 
 
+> [R-universe](https://ropensci.org/r-universe/) is rOpenSci’s platform for improving publication and discovery of research software in R. R-universe build the binaries for different OS including webassembly! It also builds the documentation, distributes datasets and keeps track of lots of stats about your package.
 
-> R-universe is rOpenSci’s platform for improving publication and discovery of research software in R. R-universe build the binaries for different OS including webassembly! It also builds the documentation, distributes datasets and keeps track of lots of stats about your package.
+> Our [Multilingual Publishing project](https://ropensci.org/multilingual/) focus on create the process and infrastructure to provide our content in other languages than English while ensuring the quality of that content. It also looks to provide to the R community with multilingual capabilities in different contexts.
 
-
-> Our multilingual publishing project focus on create the process and infrastructure to provide our content in other languages than English while ensuring the quality of that content. It also looks to provide to the R community with multilingual capabilities in different contexts.
-
-
-> Our Champions Program seeks to Identify, recognize and reward leaders in a community. It is focussed on people from historically and systematically excluded groups who are interested in contributing to rOpenSci and the broader open source and open science communities. Through mentoring and training, champions develop a project during a year. 
+> Our [Champions Program](https://ropensci.org/champions/) seeks to Identify, recognize and reward leaders in a community. It is focussed on people from historically and systematically excluded groups who are interested in contributing to rOpenSci and the broader open source and open science communities. Through mentoring and training, champions develop a project during a year.
 
 Yani mentioned how each of the rOpenSci projects can serve as tools to overcome some of the barriers mentioned in the discussions, such as peer review and the community of developers who not only maintain but also generate documentation, use cases, and answer questions, with research-oriented packages, even if they are niche. Also the Champions Program as a _learning path_ for scientists that develop research software. 
 
