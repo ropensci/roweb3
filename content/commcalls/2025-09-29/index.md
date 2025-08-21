@@ -52,4 +52,3 @@ Maintainers directly control package releases through GitHub or GitLab.
 
 R-multiverse originated from the R Consortium Repositories Working Group.
 It has transparent governance, and it operates in a collaborative and open way.
-It is not mature or established yet, but it is under active development, and it is ready for package contributions.
