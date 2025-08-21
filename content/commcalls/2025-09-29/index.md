@@ -1,5 +1,5 @@
 ---
-title: "R-multiverse: dual publishing for R packages"
+title: "R-multiverse: a new way to publish R packages"
 dateStart: 2025-09-29T14:00:00 # UTC!!
 dateEnd: 2025-09-29T15:00:00 # UTC!!
 date: 2025-09-29T15:00:00 # UTC!! same as dateEnd
@@ -40,10 +40,16 @@ deets: |
 zoomurl: https://numfocus-org.zoom.us/j/85719274238?pwd=cEusAoY7rTfT9pgusO2grr73bZRa4V.1
 ---
 
-R-multiverse is a new community-curated dual repository for R packages, based on open-source infrastructure from R-universe and GitHub.
+R-multiverse is a new dual repository for R packages, based on infrastructure from R-universe and GitHub.
+We would like to invite the developer community to contribute packages.
 
-In R-multiverse, users have a central place for downloading packages, and package maintainers enjoy most of the freedom and flexibility of self-publishing.
-Maintainers directly control package releases through GitHub/GitLab, and continuous integration automatically curates quarterly snapshots of healthy releases for production scenarios.
+With R-multiverse, users have a central place for installing packages.
+Automated quarterly production snapshots enforce quality.
 
-R-multiverse originated from the R Consortium Repositories Working Group, it has transparent governance, and it operates in a collaborative and open way.
+Package maintainers retain most of the freedom and flexibility of self-publishing.
+Maintainers directly control package releases through GitHub or GitLab.
+
+
+R-multiverse originated from the R Consortium Repositories Working Group.
+It has transparent governance, and it operates in a collaborative and open way.
 It is not mature or established yet, but it is under active development, and it is ready for package contributions.
