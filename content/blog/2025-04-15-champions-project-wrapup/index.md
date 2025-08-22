@@ -77,12 +77,12 @@ Champions also wrote blog posts for rOpenSci's website covering technological as
 
 Academic publications are also part of the outcomes of the Champions work. For example, Sehrish Kanwal published a paper about the [RNAsum R package](https://doi.org/10.1101/2025.01.10.24319650).
 
-LatinR, useR!, Posit and several other conferences were attended by our champions. For example, during LatinR, Government Advances in Statistical Programming Andrea presented the package she developed during the program. 
+LatinR, useR!, Posit and several other conferences were attended by our champions. For example, Andrea presented the package she developed during the program at the Latin American Conference on the Use of R in R&D and the Government Advances in Statistical Programming Conference. 
 In addition Sunny, Andrea and Erika received scholarships to attend Posit Conf 2024 and Sunny and Andrea were able to participate.
 Erika and Andrea also presented their respective packages developed during the program at useR! 2025.
 
 ## Champions' accomplishments and next steps
 
-Our Champions have been very successful in the delivery of their projects, building high quality software with a focus on their countries and discipline. The impact of their work also spread to their home institutions and related local communities. Not only through their outreach activities sharing information and knowledge contextualized for their audience, but also by creating spaces for their local communities, like the R user groups, and through their research.
+Our Champions have been very successful, and have gained a lot from their projects. The impact of their work has enriched both their home institutions and local communities. Their outreach activities shared information and knowledge in local contexts, and fostered productive spaces such as R user groups.
 
 Many of our Champions will continue with their outreach activities and maintenance of their R package. Stay updated about their activities through our events and talks section in our website, our newsletter and social media! 
