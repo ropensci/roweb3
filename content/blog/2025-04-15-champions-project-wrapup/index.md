@@ -10,7 +10,7 @@ tags:
   - community
   - champions program
   - packages
-description: "Our second cohort of Champions complete the program. In this blog post, we share each champions projects, their achievements and outreach activities."
+description: "Our second cohort of Champions completed the program. In this blog post, we share each champion's projects, their achievements and outreach activities."
 params:
   doi: "10.59350/268cb-p0021"
 ---
@@ -25,7 +25,7 @@ In their applications Champions choose to develop a new package or to participat
 
 ### New packages 
 
-- **Andrea Gomez Vargas**, from Argentina, developed the package [arcenso](https://soyandrea.github.io/arcenso/). to allow access to the official data of the national population censuses in Argentina from the National Institute of Statistics and Census - INDEC and make this historical census data available, homogenized, and ready to use.  Her mentor is [Luis Verde](/author/luis-verde-arregoitia/) from Mexico. You can learn more about the package in [the blog post Andrea wrote about her project and her journey on the program](/blog/2025/05/15/puentes-comunidades-campeones-ropensci/).
+- **Andrea Gomez Vargas**, from Argentina, developed the package [arcenso](https://soyandrea.github.io/arcenso/), to provide access to the official data of the national population censuses in Argentina from the National Institute of Statistics and Census - INDEC, and to make this historical census data available, homogenized, and ready to use.  Her mentor was [Luis Verde](/author/luis-verde-arregoitia/) from Mexico. You can learn more about the package in [the blog post Andrea wrote about her project and her journey on the program](/blog/2025/05/15/puentes-comunidades-campeones-ropensci/).
 
 - **Francesca Belem Lopes Palmeira**, from Brazil, developed a new package called [pcir: 'Potential for Conflict Index - PCI'](https://fblpalmeira.github.io/pcir/), which is a descriptive statistical method used to enhance the understanding of outcomes in human dimensions research. The package equip users with the tools required for calculating, comparing, and graphing the potential for conflict. Her mentor is [Bruna Wundervald](/author/bruna-wundervald/) from Brazil. 
 
@@ -52,13 +52,13 @@ In their applications Champions choose to develop a new package or to participat
 
 Our Champions carried out a wide range of outreach activities like talks, conference papers, workshops, blog articles, community calls and meetups. The objective of these activities was to share what they did and learned during the program with their communities beyond rOpenSci.  
 
-Outreach activities started in August 2024 involving local communities (universities, RUGs, R-Ladies Chapters, conferences, and organizations) and delivered in Champions’ native language (English, Spanish, Portuguese and Chinese).
+Outreach activities commenced in August 2024, involved local communities (universities, RUGs, R-Ladies Chapters, conferences, and organizations), and were delivered in the Champions’ native/preferred languages (English, Spanish, Portuguese and Chinese).
 
 [Liz Hare, member of this cohort worked together with Cagri, a champion from the first cohort to do outreach activities](https://ropensci.org/events/rsr-learn-and-use/) and also introduce their cohort mates to other communities and organizations giving them [space to share what they did during the Champions Program](https://www.youtube.com/watch?v=p2Odyp9VIPA).
 
-Champions worked with their local communities to organize different kind of events and spaces:
+Champions worked with their local communities to organize different kinds of events and spaces:
 
-- Sunny organized a workshop to teach how to use the package he developed during the champions program in Taiwan. 
+- Sunny organized a workshop to teach how to use the package she developed during the champions program in Taiwan. 
 - Ezekiel submitted a proposal to the RConsortium to create the [Unilorin R user Group](https://www.meetup.com/unilorin-r-users-group/) which got partial funding for its start-up.  After a successful year of operation, with 5 events held and more than 600 members the group was awared another RConsortium grant to continue its activities during 2025.
 - Andrea organized several events in Argentina, including a talk at the R-Ladies Buenos Aires chapter and the RenBaires R user Group about the arcenso package and the Champions Program.
 - Sehrish shared her experience on the rOpenSci Champions Program at the webinar [Championing omics data analysis through Open science, Mentoring and Innovating tool](https://bdsi.anu.edu.au/news-events/events/championing-omics-data-analysis-through-open-science-mentoring-and-innovating) at the Australian National University.
@@ -83,4 +83,4 @@ Erika and Andrea also presented their respective packages developed during the p
 
 Our Champions have been very successful in the delivery of their projects, building high quality software with a focus on their countries and discipline. The impact of their work also spread to their home institutions and related local communities. Not only through their outreach activities sharing information and knowledge contextualized for their audience, but also by creating spaces for their local communities, like the R user groups, and through their research.
 
-Many of our Champions will continue with their outreach activities and maintaining their R package. Stay tuned to our events and talks section in our website, our newsletter and social media to learn about them! 
+Many of our Champions will continue with their outreach activities and maintenance of their R package. Stay updated about their activities through our events and talks section in our website, our newsletter and social media! 
