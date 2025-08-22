@@ -88,33 +88,23 @@ And remember, you can always cowork independently on work related to R, work on 
 
 ### New packages
 
-<div class="highlight">
-
-</div>
-
 The following two packages recently became a part of our software suite:
 
-<div class="highlight">
 
 -   [trud](https://docs.ropensci.org/trud), developed by Alasdair Warwick together with Robert Luben, Abraham Olvera-Barrios, and Chuin Ying Ung: Provides a convenient R interface to the National Health Service NHS Technology Reference Update Distribution (TRUD) API, allowing users to list available releases for their subscribed items, retrieve metadata, and download release files. For more information on the API, see <https://isd.digital.nhs.uk/trud/users/guest/filters/0/api>. It is available on [CRAN](https://CRAN.R-project.org/package=trud). It has been [reviewed](https://github.com/ropensci/software-review/issues/705) by Jon Clayden and Alexandros Kouretsis.
 
 -   [sasquatch](https://docs.ropensci.org/sasquatch), developed by Ryan Zomorrodi: Use R and SAS within reproducible multilingual quarto documents. Run SAS code blocks interactively, send data back and forth between SAS and R, and render SAS output within quarto documents. SAS connections are established through a combination of SASPy and reticulate. It has been [reviewed](https://github.com/ropensci/software-review/issues/673) by Nic Crane.
 
-    </div>
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
 ### New versions
 
-<div class="highlight">
-
-</div>
 
 The following twenty packages have had an update since the last newsletter: [sits](https://docs.ropensci.org/sits "Satellite Image Time Series Analysis for Earth Observation Data Cubes") ([`v1.5.3`](https://github.com/e-sensing/sits/releases/tag/v1.5.3)), [aRxiv](https://docs.ropensci.org/aRxiv "Interface to the arXiv API") ([`0.12`](https://github.com/ropensci/aRxiv/releases/tag/0.12)), [beastier](https://docs.ropensci.org/beastier "Call BEAST2") ([`v2.5.2`](https://github.com/ropensci/beastier/releases/tag/v2.5.2)), [beautier](https://docs.ropensci.org/beautier "BEAUti from R") ([`v2.6.15-pre-cran`](https://github.com/ropensci/beautier/releases/tag/v2.6.15-pre-cran)), [c3dr](https://docs.ropensci.org/c3dr "Read and Write C3D Motion Capture Files") ([`v0.2.0`](https://github.com/ropensci/c3dr/releases/tag/v0.2.0)), [chromer](https://docs.ropensci.org/chromer "Interface to Chromosome Counts Database API") ([`v0.10`](https://github.com/ropensci/chromer/releases/tag/v0.10)), [dendroNetwork](https://docs.ropensci.org/dendroNetwork "Create Networks of Dendrochronological Series using Pairwise Similarity") ([`0.5.5`](https://github.com/ropensci/dendroNetwork/releases/tag/0.5.5)), [dittodb](https://docs.ropensci.org/dittodb "A Test Environment for Database Requests") ([`v0.1.9`](https://github.com/ropensci/dittodb/releases/tag/v0.1.9)), [GSODR](https://docs.ropensci.org/GSODR "Global Surface Summary of the Day (GSOD) Weather Data Client") ([`v4.1.4`](https://github.com/ropensci/GSODR/releases/tag/v4.1.4)), [gtexr](https://docs.ropensci.org/gtexr "Query the GTEx Portal API") ([`v0.2.1`](https://github.com/ropensci/gtexr/releases/tag/v0.2.1)), [osmapiR](https://docs.ropensci.org/osmapiR "OpenStreetMap API") ([`v0.2.4`](https://github.com/ropensci/osmapiR/releases/tag/v0.2.4)), [parzer](https://docs.ropensci.org/parzer "Parse Messy Geographic Coordinates") ([`v0.4.2`](https://github.com/ropensci/parzer/releases/tag/v0.4.2)), [rnaturalearth](https://docs.ropensci.org/rnaturalearth "World Map Data from Natural Earth") ([`v1.1.0`](https://github.com/ropensci/rnaturalearth/releases/tag/v1.1.0)), [rredlist](https://docs.ropensci.org/rredlist "IUCN Red List Client") ([`v1.1.0`](https://github.com/ropensci/rredlist/releases/tag/v1.1.0)), [skimr](https://docs.ropensci.org/skimr "Compact and Flexible Summaries of Data") ([`v2.2.0`](https://github.com/ropensci/skimr/releases/tag/v2.2.0)), [spatsoc](https://docs.ropensci.org/spatsoc "Group Animal Relocation Data by Spatial and Temporal Relationship") ([`v0.2.9`](https://github.com/ropensci/spatsoc/releases/tag/v0.2.9)), [taxa](https://docs.ropensci.org/taxa "Classes for Storing and Manipulating Taxonomic Data") ([`v0.4.4`](https://github.com/ropensci/taxa/releases/tag/v0.4.4)), [trud](https://docs.ropensci.org/trud "Query the NHS TRUD API") ([`v0.2.0-JOSS`](https://github.com/ropensci/trud/releases/tag/v0.2.0-JOSS)), [vcr](https://docs.ropensci.org/vcr "Record HTTP Calls to Disk") ([`v2.0.0`](https://github.com/ropensci/vcr/releases/tag/v2.0.0)), and [weathercan](https://docs.ropensci.org/weathercan "Download Weather Data from Environment and Climate Change Canada") ([`v0.7.5`](https://github.com/ropensci/weathercan/releases/tag/v0.7.5)).
 
 ## Software Peer Review
 
-<div class="highlight">
 
 There are sixteen recently closed and active submissions and 5 submissions on hold. Issues are at different stages:
 
@@ -160,7 +150,6 @@ There are sixteen recently closed and active submissions and 5 submissions on ho
 
     -   [capybara](https://github.com/ropensci/software-review/issues/645), Fast and Memory Efficient Fitting of Linear Models With High-Dimensional. Submitted by [Mauricio "Pachá" Vargas Sepúlveda](https://pacha.dev).
 
-        </div>
 
 Find out more about [Software Peer Review](/software-review) and how to get involved.
 
@@ -168,13 +157,6 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 <!-- Do not forget to rebase your branch! -->
 
-<div class="highlight">
-
-</div>
-
-<div class="highlight">
-
-</div>
 
 ## Calls for contributions
 
@@ -216,8 +198,3 @@ As noted by Sam Rogers in our slack workspace, if you use Quarto vignettes, you 
 Thanks for reading! If you want to get involved with rOpenSci, check out our [Contributing Guide](https://contributing.ropensci.org) that can help direct you to the right place, whether you want to make code contributions, non-code contributions, or contribute in other ways like sharing use cases. You can also support our work through [donations](/donate).
 
 If you haven't subscribed to our newsletter yet, you can [do so via a form](/news/). Until it's time for our next newsletter, you can keep in touch with us via our [website](/) and [Mastodon account](https://hachyderm.io/@rOpenSci).
-
-</div>
-
-</div>
-
