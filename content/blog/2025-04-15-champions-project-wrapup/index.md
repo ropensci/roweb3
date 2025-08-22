@@ -16,7 +16,8 @@ params:
   doi: "10.59350/268cb-p0021"
 ---
 
-As we make the presentation of our third cohort of the [rOpenSci Champions Program](/champions/),our second cohort has now completed the second phase of the program by developing their project and carrying out outreach activities. In this article, we share each Champion's project, their achievements and their outreach activities.
+As we welcome the third cohort of the [rOpenSci Champions Program](/champions/), our second cohort has now completed the second phase of the program. 
+In this article, we share each Champion's project, their achievements, and their outreach activities.
 
 ## Champions' Projects
 
@@ -41,7 +42,7 @@ In their applications Champions choose to develop a new package or to participat
 
 - **Liz Hare** from the US, worked as reviewer on the software peer review of the [emodnet.wfs](https://github.com/ropensci/software-review/issues/653) package, that provides helpers to access EMODnet Web Feature Service data through R.  Her mentor was [François Michonneau](/author/françois-michonneau/) from France.
 
-- **Sehrish Kanwal**, from Australia, worked to improve the [RNAsum R package](https://github.com/umccr/RNAsum), an RNA-seq reporting workflow designed to post-process, summarise, and visualize outputs. Sehrish worked on the package and a paper about it. [The package website](https://umccr.github.io/RNAsum/) present more information on the packages functionalities. Her mentor was [Emi Tanaka](/author/emi-tanaka/) from Australia. 
+- **Sehrish Kanwal**, from Australia, worked to improve the [RNAsum R package](https://github.com/umccr/RNAsum), an RNA-seq reporting workflow designed to post-process, summarise, and visualize outputs. Sehrish worked on the package and a paper about it. The [package website](https://umccr.github.io/RNAsum/) presents more information on the package's functionalities. Her mentor was [Emi Tanaka](/author/emi-tanaka/) from Australia. 
 
 - **Jacqui Levy**, from Canada, worked on the [icicle package](https://github.com/Jacqui-123/icicle) to tidy and calculate ice cycle variables from thousands of open-source hydrological stations that are managed by the Water Survey of Canada. This R package will give scientists the tools to assess ice cycle variables and how they might be changing over time for any river station. Her mentor is [Jonathan Keane](/author/jonathan-keane/), from the US.
 
@@ -60,7 +61,7 @@ Outreach activities commenced in August 2024, involved local communities (univer
 Champions worked with their local communities to organize different kinds of events and spaces:
 
 - Sunny organized a workshop to teach how to use the package she developed during the champions program in Taiwan. 
-- Ezekiel submitted a proposal to the RConsortium to create the [Unilorin R user Group](https://www.meetup.com/unilorin-r-users-group/) which got partial funding for its start-up.  After a successful year of operation, with 5 events held and more than 600 members the group was awared another RConsortium grant to continue its activities during 2025.
+- Ezekiel submitted a proposal to the R Consortium to create the [Unilorin R user Group](https://www.meetup.com/unilorin-r-users-group/), which received partial funding to get it started.  After a successful year of operation, with 5 events held and more than 600 members, the group was awarded another R Consortium grant to continue its activities during 2025.
 - Andrea organized several events in Argentina, including a talk at the R-Ladies Buenos Aires chapter and the RenBaires R user Group about the arcenso package and the Champions Program.
 - Sehrish shared her experience on the rOpenSci Champions Program at the webinar [Championing omics data analysis through Open science, Mentoring and Innovating tool](https://bdsi.anu.edu.au/news-events/events/championing-omics-data-analysis-through-open-science-mentoring-and-innovating) at the Australian National University.
 - Francesca organize a meetup with R-Ladies Floripa to introduce her package pcir.
@@ -69,12 +70,12 @@ rOpenSci's community spaces also benefited from the participation of the champio
 
 - Sunny participated as a panelist in the community call [From Novice to Contributor: Making and Supporting First-Time Contributions to FOSS](https://ropensci.org/commcalls/first-time-contributor/) telling about her experience developing the *bbsTawian* package as a project in the Champions Program,
 - Andrea participated in the Community Call in Spanish [Fostering Open Science in Latin America - rOpenSci Champions Program](https://ropensci.org/es/commcalls/champions-latino-2025/) sharing her experience during the Champions Program with people interested in applying to the next cohort.
-- Ezekiel participated as a mentor in the [Coworking Mini-Hackathon for First-Time Contributors](https://ropensci.org/blog/2025/01/24/coworking-hackathons/), helping people to do their first contribution to R packages. 
+- Ezekiel participated as a mentor in the [Coworking Mini-Hackathon for First-Time Contributors](https://ropensci.org/blog/2025/01/24/coworking-hackathons/), helping people do their first contributions to R packages. 
 - Francesca was the main host of our first community call in Portugues [The R community speaks Portuguese](https://ropensci.org/commcalls/translation-portuguese/) and also one of the mentors of our [Tradução + Hackathon = Traslaton rOpenSci](https://www.eventbrite.cl/e/traducao-hackathon-traslaton-ropensci-tickets-1045507530167) during LatinR 2024.
 
 Champions also wrote blog posts for rOpenSci's website covering technological aspects such as [“Resources For Using R With Screen Readers”](/blog/2024/09/05/screen-readers-tools/) by Liz Hare and also aspects such as the experience of being part of the program, such as [“Bridges and Communities. My Journey as an rOpenSci Champion”](/blog/2025/05/15/puentes-comunidades-campeones-ropensci/) by Andrea Vargas Gomez.
 
-Academic publication are also part of the outcomes of the Champions work. For example, Sehrish Kanwal wrote a paper about the [RNAsum R package](https://doi.org/10.1101/2025.01.10.24319650).
+Academic publications are also part of the outcomes of the Champions work. For example, Sehrish Kanwal published a paper about the [RNAsum R package](https://doi.org/10.1101/2025.01.10.24319650).
 
 LatinR, useR!, Posit and several other conferences were attended by our champions. For example, during LatinR, Government Advances in Statistical Programming Andrea presented the package she developed during the program. 
 In addition Sunny, Andrea and Erika received scholarships to attend Posit Conf 2024 and Sunny and Andrea were able to participate.
