@@ -64,7 +64,7 @@ Champions worked with their local communities to organize different kinds of eve
 - Ezekiel submitted a proposal to the R Consortium to create the [Unilorin R user Group](https://www.meetup.com/unilorin-r-users-group/), which received partial funding to get it started.  After a successful year of operation, with 5 events held and more than 600 members, the group was awarded another R Consortium grant to continue its activities during 2025.
 - Andrea organized several events in Argentina, including a talk at the [R-Ladies Buenos Aires chapter and the RenBaires R user Group](https://www.meetup.com/rbuenosaires/events/304935866/?eventOrigin=group_events_list) about the arcenso package and the Champions Program.
 - Sehrish shared her experience on the rOpenSci Champions Program at the webinar [Championing omics data analysis through Open science, Mentoring and Innovating tool](https://bdsi.anu.edu.au/news-events/events/championing-omics-data-analysis-through-open-science-mentoring-and-innovating) at the Australian National University.
-- Francesca organize a meetup with R-Ladies Floripa to introduce her package pcir.
+- Francesca organize a [meetup with R-Ladies Floripa to introduce her package pcir](https://www.meetup.com/rladies-florianopolis/events/305989838/) and [shared the workshop materials openly](https://github.com/fblpalmeira/RLadies_Floripa).
 
 rOpenSci's community spaces also benefited from the participation of the champions:
 
