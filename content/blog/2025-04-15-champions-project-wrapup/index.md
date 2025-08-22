@@ -4,7 +4,8 @@ slug: "champions-program-projects-cohort2"
 author:
   - Yanina Bellini Saibene
 editor:
-- Steffi LaZerte
+- Maëlle Salmon
+- Mark Padgham
 date: '2025-07-02'
 tags:
   - community
@@ -38,7 +39,7 @@ In their applications Champions choose to develop a new package or to participat
 
 - **Ezekiel Adebayo Ogundepo** from Nigeria, worked on the [bulkreadr](https://docs.ropensci.org/naijR/) package, which is a package designed to optimize the process of importing and processing large datasets, providing compatibility with several file formats from a range of statistical software and spreadsheets. Ezekiel worked on enhanced functions functionality and launched the [official website of the package](https://gbganalyst.github.io/bulkreadr/news/index.html). His mentor was [Francisco Cardozo](/author/francisco-cardozo/) from Colombia.
 
-- **Liz Hare** from the US, worked as reviewer on the software peer review of the [emodnet.wfs](https://github.com/ropensci/software-review/issues/653) package, provide helpers to access EMODnet Web Feature Service data through R.  Her mentor was [François Michonneau](/author/françois-michonneau/) from France.
+- **Liz Hare** from the US, worked as reviewer on the software peer review of the [emodnet.wfs](https://github.com/ropensci/software-review/issues/653) package, that provides helpers to access EMODnet Web Feature Service data through R.  Her mentor was [François Michonneau](/author/françois-michonneau/) from France.
 
 - **Sehrish Kanwal**, from Australia, worked to improve the [RNAsum R package](https://github.com/umccr/RNAsum), an RNA-seq reporting workflow designed to post-process, summarise, and visualize outputs. Sehrish worked on the package and a paper about it. [The package website](https://umccr.github.io/RNAsum/) present more information on the packages functionalities. Her mentor was [Emi Tanaka](/author/emi-tanaka/) from Australia. 
 
@@ -50,7 +51,7 @@ In their applications Champions choose to develop a new package or to participat
 
 {{< figure src = "outreach.png" alt = "Examples of outreach activities: workshops, webinars, conferences, meetups, papers, talks and user groups" >}}
 
-Our Champions carried out a wide range of outreach activities like talks, conference papers, workshops, blog articles, community calls and meetups. The objective of these activities was to share what they did and learned during the program with their communities beyond rOpenSci.  
+Our Champions carried out a wide range of outreach activities including talks, conference papers, workshops, blog articles, community calls and meetups. The objective of these activities was to share what they did and what they learned during the program with their communities beyond rOpenSci.  
 
 Outreach activities commenced in August 2024, involved local communities (universities, RUGs, R-Ladies Chapters, conferences, and organizations), and were delivered in the Champions’ native/preferred languages (English, Spanish, Portuguese and Chinese).
 
@@ -71,7 +72,7 @@ rOpenSci's community spaces also benefited from the participation of the champio
 - Ezekiel participated as a mentor in the [Coworking Mini-Hackathon for First-Time Contributors](https://ropensci.org/blog/2025/01/24/coworking-hackathons/), helping people to do their first contribution to R packages. 
 - Francesca was the main host of our first community call in Portugues [The R community speaks Portuguese](https://ropensci.org/commcalls/translation-portuguese/) and also one of the mentors of our [Tradução + Hackathon = Traslaton rOpenSci](https://www.eventbrite.cl/e/traducao-hackathon-traslaton-ropensci-tickets-1045507530167) during LatinR 2024.
 
-Champions also wrote blog posts for rOpenSci's website covering technological aspects such as [“Resources For Using R With Screen Readers”](https://ropensci.org/blog/2024/09/05/screen-readers-tools/) by Liz Hare and also aspects such as the experience of being part of the program, such as [“Bridges and Communities. My Journey as an rOpenSci Champion”](https://ropensci.org/blog/2025/05/15/puentes-comunidades-campeones-ropensci/) by Andrea Vargas Gomez.
+Champions also wrote blog posts for rOpenSci's website covering technological aspects such as [“Resources For Using R With Screen Readers”](/blog/2024/09/05/screen-readers-tools/) by Liz Hare and also aspects such as the experience of being part of the program, such as [“Bridges and Communities. My Journey as an rOpenSci Champion”](/blog/2025/05/15/puentes-comunidades-campeones-ropensci/) by Andrea Vargas Gomez.
 
 Academic publication are also part of the outcomes of the Champions work. For example, Sehrish Kanwal wrote a paper about the [RNAsum R package](https://doi.org/10.1101/2025.01.10.24319650).
 
