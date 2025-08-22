@@ -83,6 +83,6 @@ Erika and Andrea also presented their respective packages developed during the p
 
 ## Champions' accomplishments and next steps
 
-Our Champions have been very successful, and have gained a lot from their projects. The impact of their work has enriched both their home institutions and local communities. Their outreach activities shared information and knowledge in local contexts, and fostered productive spaces such as R user groups.
+Our Champions have been very successful, and have gained a lot from their projects and from their relationships with their mentors and their cohort mates. The impact of their work has enriched both their home institutions and local communities. Their outreach activities shared information and knowledge in local contexts, and fostered productive spaces such as R user groups.
 
 Many of our Champions will continue with their outreach activities and maintenance of their R package. Stay updated about their activities through our events and talks section in our website, our newsletter and social media! 
