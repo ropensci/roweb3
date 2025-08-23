@@ -57,7 +57,7 @@ Our Champions carried out a wide range of outreach activities including talks, c
 Outreach activities commenced in August 2024, involved local communities (universities, RUGs, R-Ladies Chapters, conferences, and organizations), and were delivered in the Champions’ native/preferred languages (English, Spanish, Portuguese and Chinese).
 
 [Liz Hare, member of this cohort worked together with Cagri, a champion from the first cohort to do outreach activities](https://ropensci.org/events/rsr-learn-and-use/) and also introduce their cohort mates to other communities and organizations giving them [space to share what they did during the Champions Program](https://www.youtube.com/watch?v=p2Odyp9VIPA).
-
+Victor Ordu, first cohort champion, participated in the Unilorin meetup organized by Ezekiel, speaking about [Hands-On Data Cleaning in R with Regular Expressions](https://youtu.be/N0DdbszMt2Y?si=3eZd-G1z-AcYW_TQ(
 Champions worked with their local communities to organize different kinds of events and spaces:
 
 - Sunny organized a workshop to teach how to use the package she developed during the champions program in Taiwan. 
