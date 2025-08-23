@@ -98,5 +98,5 @@ She also shared the existence of [pyOpenSci](https://www.pyopensci.org/) for peo
 ## Final thoughts
 
 This session provided a mix of interaction, reflection, and learning. It helped participants connect their personal experiences to broader open science practices, surfaced common challenges, and introduced them to new tools and communities. By the end of the 90 minutes, it was clear that the path to more open, accessible, and sustainable research software is one best walked together.
-
+If you are interested in learning more about upcoming CSIDNet events and resources, you [can sign up for the main list](https://csidnet.org/about/join/).
 [^1]: Yani is the chair of The Carpentries Board of Directors and a certified Instructor and Trainer.
