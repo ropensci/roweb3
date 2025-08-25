@@ -9,6 +9,9 @@
 
 [Edited-by]
   other = 'Editado por'
+
+[Translated-by]
+  other = 'Traducido por'
   
 [Filed-under]
   other = 'Categorias'
@@ -160,6 +163,9 @@
   other = 'Co-fundador'
 
 [staff]
+  other = 'staff'
+
+[Staff]
   other = 'Staff'
   
 [researcher]
@@ -303,4 +309,27 @@
 
 [Use-Cases]
   other = 'Casos de uso'
+  
+[Lead]
+  other = 'Líder'
+
+[Previous-Newsletters]
+  other = 'Boletines y Compendios Anteriores'
+[Featuring]
+  other = 'Con:'
+
+[Reported-on]
+  other = 'Enviado el:'
+
+[Title]
+  other = 'Título'
+
+[Resource]
+  other = 'Recurso'
+
+[Date]
+  other = 'Fecha'
+
+[Language]
+  other = 'Idioma'
 

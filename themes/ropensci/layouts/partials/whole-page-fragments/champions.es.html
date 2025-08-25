@@ -1,0 +1,57 @@
+{{ with .divider }}
+  {{ partial "whole-page-fragments/divider" . }}
+{{ end }}
+    <!-- Community section -->
+    <section class="section community">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="title" id="champions">Programa Campeon(e|a)s</h2>
+            <p class="subtitle">
+              El Programa de Campeones de rOpenSci está dirigido a personas que estén interesadas en contribuir a rOpenSci y convertirse en líderes en las comunidades de software libre y ciencia abierta.
+              Es una plataforma potente e inclusiva para desarrollar tu proyecto de código abierto con el apoyo de personas expertas. Las personas que participan interactúan, comparten y fortalecen una red global de pares decididos a desarrollar ciencia abierta y reproducible en sus comunidades locales.
+            </p>
+            <a class="link-arrow" href="/champions"><span>Más información</span></a>
+          </div>
+          <div class="col-md-6">
+             <img src="{{ "images/champions-program.png" | relURL }}" style="width: 33vw;" alt="Collage de logotipos de paquetes de campeones y de eventos con campeones" /> 
+          </div>
+        </div>
+        <div class="row soft-cards cards">
+          <div class="col-md-4 d-flex align-items-stretch">
+            <div class="card h-100">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Campeon(a|e)s y Mentor(e|a)s</h5>
+                <p class="card-text">
+                  Conoce a las cohortes.
+                </p>
+                <a class="card-link link-arrow mt-auto" href="/champions#champions-list"><span>Todas las cohortes</span></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-flex align-items-stretch">
+            <div class="card h-100">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Sitio web del programa</h5>
+                <p class="card-text">
+                  Proyectos, actividades y detalles del programa.
+                </p>
+                <a class="card-link link-arrow mt-auto" lang="es" href="https://ropenscilabs.github.io/ChampionsProgram/"><span>Sitio</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex align-items-stretch">
+            <div class="card h-100">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Formación</h5>
+                <p class="card-text">
+                  Sesiones de formación del Programa de Campeones y más allá.
+                </p>
+                <a class="card-link link-arrow mt-auto" href="/training/"><span>Lee</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>

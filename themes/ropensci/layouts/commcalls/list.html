@@ -4,7 +4,15 @@
     <!-- Header text -->
     <div class="row">
       <div class="col-md-8">
-        <h1>{{ .Title }}</h1>
+        <h1 style="white-space: nowrap;">{{ .Title }}</h1>
+        <div class="pmt">
+          {{ .Params.description | markdownify }}
+          </div>
+        </div>
+        <div class="col-md-4 mt-4">
+          <aside>
+          {{ partial "team/people" (dict "project" "commcalls" "Site" .Site )}}
+          </aside>
         </div>
       </div>
     <div class="row">
@@ -53,6 +61,9 @@
   </div>
   </div>
 </section>
-{{ partial "whole-page-fragments/newsletter"  (dict "divider" "lr" ) }}       {{ $brandpartial := (partial "translate-path" (dict "name" "whole-page-fragments/brands" "language" .Site.Language.Lang )) }}
+
+{{ $newsletterpartial := (partial "translate-path" (dict "name" "whole-page-fragments/newsletter" "language" .Language.Lang )) }}
+{{ partial $newsletterpartial (dict "Site" .Site "divider" "lr" )  }} 
+{{ $brandpartial := (partial "translate-path" (dict "name" "whole-page-fragments/brands" "language" .Language.Lang )) }}
 {{ partial $brandpartial (dict "Site" .Site "divider" "rl" )  }}
 {{ end }}

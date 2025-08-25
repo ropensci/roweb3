@@ -3,6 +3,8 @@ title: 'Divide and Conquer: From polar To the Polarverse'
 author: 'Juan Pablo Ruiz Nicolini'
 editor:
 - Steffi Lazerte
+translator:
+- Yanina Bellini Saibene
 date: '2023-12-05'
 slug: divide_and_you_will_win_from_polar_to_the_polarverse
 description: 'Political Science Meets Coding: Crafting the polarverse with R and the LatinR Connection.'

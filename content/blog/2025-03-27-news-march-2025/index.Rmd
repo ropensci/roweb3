@@ -6,7 +6,7 @@ author:
 date: '2025-03-27'
 tags:
   - newsletter
-description: Call for 
+description: Call open for champions program in Spanish, R-universe docs, coworking, new packages and package news
 params:
   last_newsletter: '2025-02-27'
   doi: "10.59350/a6syn-6hc72"
@@ -70,7 +70,7 @@ read the [documentation website](https://docs.r-universe.org).
 
 Read more in our [report from the event](/blog/2025/03/24/numfocus-unconf/).
 
-This event also presented the opportunity to meet in person with other members of the rOpenSci community in Sao Paulo, in the picture we can see [Francesca Palmeira](/author/francesca-belem-lopes-palmeira/) (rOpenSci Champions), [Andrea Gomez Vargas](/author/andrea-gomez-vargas/) (rOpenSci Champions), [Beatriz Milz](/author/beatriz-milz/) (rOpenSci Editor and Mentor), [Haydee Svab](/author/haydee-svab/) (rOpenSci Champions) and Yanina Bellini Saibene (rOpenSci Community Manager).  
+This event also presented the opportunity to meet in person with other members of the rOpenSci community in Sao Paulo, in the picture we can see [Francesca Palmeira](/author/francesca-belem-lopes-palmeira/) (rOpenSci Champions), [Andrea Gomez Vargas](/author/andrea-gomez-vargas/) (rOpenSci Champions), [Beatriz Milz](/author/beatriz-milz/) (rOpenSci Editor and Mentor), [Haydée Svab](/author/haydée-svab/) (rOpenSci Champions) and Yanina Bellini Saibene (rOpenSci Community Manager).  
 
 ```{=html}
 {{< figure src = "rOpenSciBrazil.jpeg" alt = "Francesca, Andrea, Beatriz, Heydee and Yani stand up and smiling for the picture" >}}

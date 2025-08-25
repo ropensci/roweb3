@@ -17,6 +17,12 @@
           </span> 
           {{ partial "blogs/pretty_author_names" . }}
           {{ end }}
+          {{ with .Params.translator }}
+          <span>
+          &#8211; {{ i18n "Translated-by" }}
+          </span> 
+          {{ partial "blogs/pretty_author_names" . }}
+          {{ end }}
           </div>
         </div>
     </div>
@@ -116,4 +122,5 @@ For more information, visit the <a href="/r-universe/">r-universe project page</
     </div>
   </div>
 </section>
-{{ partial "whole-page-fragments/newsletter"  (dict "divider" "lr" ) }}
+{{ $newsletterpartial := (partial "translate-path" (dict "name" "whole-page-fragments/newsletter" "language" .Language.Lang )) }}
+{{ partial $newsletterpartial (dict "Site" .Site "divider" "lr" )  }}

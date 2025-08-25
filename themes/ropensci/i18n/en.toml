@@ -9,6 +9,9 @@
 
 [Edited-by]
   other = 'Edited by'
+
+[Translated-by]
+  other = 'Translated by'
   
 [Filed-under]
   other = 'Filed under'
@@ -158,6 +161,9 @@
 [staff]
   other = 'staff'
   
+[Staff]
+  other = 'Staff'
+  
 [researcher]
   other = 'Researcher'
 
@@ -300,3 +306,27 @@
   
 [How]
   other = 'How'
+  
+[Lead]
+  other = 'Lead'
+
+[Previous-Newsletters]
+  other = 'Previous Newsletters and Digests'
+
+[Featuring]
+  other = 'Featuring:'
+
+[Reported-on]
+  other = 'Reported on:'
+
+[Title]
+  other = 'Title'
+
+[Resource]
+  other = 'Resource'
+
+[Date]
+  other = 'Date'
+
+[Language]
+  other = 'Language'

@@ -30,6 +30,6 @@ It was inspiring to work alongside peers who are committed to building more incl
 
 This event also presented the opportunity to meet in person with other members of the rOpenSci community in São Paulo. Several members got together and discussed our [translations](/multilingual-publishing/) efforts, updates on [Champions](/champions)' work after the program, and our [new Champion Program cohort](/blog/2025/03/10/champeons-latin-america/). 
 
-In the picture below we can see [Francesca Palmeira](/author/francesca-belem-lopes-palmeira/) (rOpenSci Champion), [Andrea Gomez Vargas](/author/andrea-gomez-vargas/) (rOpenSci Champions), [Beatriz Milz](/author/beatriz-milz/) (rOpenSci Editor and Champions Mentor), [Haydee Svab](/author/haydee-svab/) (rOpenSci Champion) and Yanina Bellini Saibene (rOpenSci Community Manager).  
+In the picture below we can see [Francesca Palmeira](/author/francesca-belem-lopes-palmeira/) (rOpenSci Champion), [Andrea Gomez Vargas](/author/andrea-gomez-vargas/) (rOpenSci Champions), [Beatriz Milz](/author/beatriz-milz/) (rOpenSci Editor and Champions Mentor), [Haydée Svab](/author/haydée-svab/) (rOpenSci Champion) and Yanina Bellini Saibene (rOpenSci Community Manager).  
 
 {{< figure src = "rOpenSciBrazil.jpeg" alt = "Francesca, Andrea, Beatriz, Heydee and Yani stand up and smiling for the picture" >}}
