@@ -4,7 +4,7 @@ author:
 - Yanina Bellini Saibene
 - Sam Schildhauer
 editor: Maëlle Salmon
-date: '2025-08-15'
+date: '2025-08-26'
 slug: csidnet-agm-2025
 output: hugodown::md_document
 tags:
