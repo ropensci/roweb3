@@ -6,7 +6,7 @@ author:
 editor:
  - Maëlle Salmon
  - Mark Padgham
-date: '2025-07-02'
+date: '2025-09-02'
 tags:
   - community
   - champions program
