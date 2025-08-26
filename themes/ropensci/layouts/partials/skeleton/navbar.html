@@ -101,7 +101,7 @@
           <ul class="sub-menu">
             <li>{{ partial "translate-url" (dict "name" "commcalls" "Site" .Site )}}{{ i18n "Community-calls" }}</a></li>
             <li>{{ partial "translate-url" (dict "name" "coworking" "Site" .Site )}}{{ i18n "Coworking" }}</a></li>
-            <li><a lang="en" href="/events">{{ i18n "Events" }}</a></li>
+            <li>{{ partial "translate-url" (dict "name" "events" "Site" .Site )}}{{ i18n "Events" }}</a></li>
             <li><a lang="en" href="{{ relLangURL (i18n "Code-of-Conduct" | urlize)}}">{{ i18n "Code-of-Conduct" }}</a></li>
             <li><a lang="en" href="https://contributing.ropensci.org/" class="external-link">{{ i18n "Contributing-Guide" }}</a></li>
             <li><a lang="en" href="https://discuss.ropensci.org/" class="external-link">{{ i18n "Forum" }}</a></li>
