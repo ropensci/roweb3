@@ -46,7 +46,7 @@ Now let's dive into the activity at and around rOpenSci!
 
 ### Community call: "R-multiverse: a new way to publish R packages"
 
-On Monday, 29 September 2025 14:00 UTC, we'll host a [community call](/commcalls/r-multiverse/) about the R-multiverse, starring Will Landau!
+On Monday, 29 September 2025 14:00 UTC, we'll host a [community call](/commcalls/r-multiverse/) about the R-multiverse, starring [Will Landau](/author/will-landau)!
 
 R-multiverse is a new dual repository for R packages, based on infrastructure from R-universe and GitHub. We would like to invite the developer community to contribute packages.
 
@@ -663,7 +663,7 @@ that " R4.6 will ship with a [bit more verbosity control](https://cran.r-project
 
 ### Quarto vignettes on Windows on GitHub Actions
 
-As noted by Sam Rogers in our slack workspace, if you use Quarto vignettes, you might run into an error on GitHub Actions where it fails because "the package is not installed".
+As noted by Sam Rogers in the rOpenSci Slack workspace, if you use Quarto vignettes, you might run into an error on GitHub Actions where it fails because "the package is not installed".
 Thanks to Gábor Csárdi and Christophe Dervieux for chiming in.
 The workaround is to add `local::.` under `setup-r-dependencies` to the field,
 as stated by James Balamuta in the [relevant GitHub issue](https://github.com/quarto-dev/quarto-r/issues/217#issuecomment-2470666968).
