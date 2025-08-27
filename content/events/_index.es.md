@@ -8,4 +8,4 @@ outputs:
   - "Calendar" 
 ---
 
-Próximos eventos, incluyendo llamadas comunitarias y reuniones en las que participarán miembros de nuestro equipo.
+Próximos eventos, incluyendo conversaciones con la comunidad y reuniones en las que participarán personas de nuestro equipo.
