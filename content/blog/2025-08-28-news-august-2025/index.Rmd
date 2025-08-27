@@ -66,7 +66,7 @@ Members of our team and our community were present at, and enjoyed, [useR! 2025]
 {{< figure src="user2025.jpg" caption="Bottom, mentor Luis D. Verde Arregoitia, champion Andrea Gomez Vargas, director Noam Ross, community manager Yani Bellina Saibene; top left, Yani with repeat package reviewer Sheila Saia; top right, Yani with targets creator Will Landau; below, Yani with rredlist maintainer William Gearty." alt="Collage of pictures from the conference" >}}
 ```
 
-You can watch the recordings of
+You can watch videos of
 
 - Yani's keynote ["We R Together. How to learn, use and improve a programming language as a community."](https://www.youtube.com/live/CTTvTQ-JZhw?si=dBuyXYANeTu1aEVU) ([slides](https://docs.google.com/presentation/d/1aqpMXNklUoj4DY_43tfFVe6sf2Q-OvFRK66w24eTM6c/));
 - Will's keynote ["Poweful simulation pipelines with {targets}"](https://www.youtube.com/watch?v=fgtIqJfzPK0) ([slides](https://wlandau.github.io/useR2025/#/section)).
@@ -651,7 +651,7 @@ Among the diverse topics:
 - [Experimenting with LLM Applications in R](https://www.youtube.com/watch?v=RQ_8tToedMk) by Nic Crane.
 - [The Future of Asynchronous Programming in R](https://www.youtube.com/watch?v=sGLD8oVquho) by Charlie Gao.
 
-The recordings of the keynote talks have been posted in a [different YouTube channel](https://www.youtube.com/watch?v=fgtIqJfzPK0&list=PL9qLtkRkGWLehjHWrjsA6l2h-lEIUbT9n).
+The keynote talks have been streamed in a [different YouTube channel](https://www.youtube.com/watch?v=fgtIqJfzPK0&list=PL9qLtkRkGWLehjHWrjsA6l2h-lEIUbT9n) where you can watch them for now.
 
 ### New R option to control verbosity
 
