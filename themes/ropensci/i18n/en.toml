@@ -188,6 +188,9 @@
 [Community-calls]  
   other = 'Community calls'
   
+[Community-call]  
+  other = 'Community call'
+  
 [Coworking]  
   other = 'Coworking'
   
@@ -330,3 +333,6 @@
 
 [Language]
   other = 'Language'
+
+[Future-ropensci-events]
+  other = 'Future rOpenSci events'
