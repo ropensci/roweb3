@@ -10,7 +10,7 @@ description: R-multiverse comm call, useR! 2025, posit::conf(2025), coworking, n
 params:
   last_newsletter: '2025-07-23'
   doi: "10.59350/zk2nx-akh49"
-rmd_hash: 24ec62832bb3c701
+rmd_hash: 8611ed58d62c3978
 
 ---
 
@@ -22,7 +22,7 @@ Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> Y
 
 ### Community call: "R-multiverse: a new way to publish R packages"
 
-On Monday, 29 September 2025 14:00 UTC, we'll host a [community call](/commcalls/r-multiverse/) about the R-multiverse, starring Will Landau!
+On Monday, 29 September 2025 14:00 UTC, we'll host a [community call](/commcalls/r-multiverse/) about the R-multiverse, starring [Will Landau](/author/will-landau)!
 
 R-multiverse is a new dual repository for R packages, based on infrastructure from R-universe and GitHub. We would like to invite the developer community to contribute packages.
 
@@ -40,7 +40,7 @@ Members of our team and our community were present at, and enjoyed, [useR! 2025]
 
 {{< figure src="user2025.jpg" caption="Bottom, mentor Luis D. Verde Arregoitia, champion Andrea Gomez Vargas, director Noam Ross, community manager Yani Bellina Saibene; top left, Yani with repeat package reviewer Sheila Saia; top right, Yani with targets creator Will Landau; below, Yani with rredlist maintainer William Gearty." alt="Collage of pictures from the conference" >}}
 
-You can watch the recordings of
+You can watch videos of
 
 -   Yani's keynote ["We R Together. How to learn, use and improve a programming language as a community."](https://www.youtube.com/live/CTTvTQ-JZhw?si=dBuyXYANeTu1aEVU) ([slides](https://docs.google.com/presentation/d/1aqpMXNklUoj4DY_43tfFVe6sf2Q-OvFRK66w24eTM6c/));
 -   Will's keynote ["Poweful simulation pipelines with {targets}"](https://www.youtube.com/watch?v=fgtIqJfzPK0) ([slides](https://wlandau.github.io/useR2025/#/section)).
@@ -88,29 +88,33 @@ And remember, you can always cowork independently on work related to R, work on 
 
 ### New packages
 
-The following two packages recently became a part of our software suite:
+
+The following three packages recently became a part of our software suite:
 
 
 -   [trud](https://docs.ropensci.org/trud), developed by Alasdair Warwick together with Robert Luben, Abraham Olvera-Barrios, and Chuin Ying Ung: Provides a convenient R interface to the National Health Service NHS Technology Reference Update Distribution (TRUD) API, allowing users to list available releases for their subscribed items, retrieve metadata, and download release files. For more information on the API, see <https://isd.digital.nhs.uk/trud/users/guest/filters/0/api>. It is available on [CRAN](https://CRAN.R-project.org/package=trud). It has been [reviewed](https://github.com/ropensci/software-review/issues/705) by Jon Clayden and Alexandros Kouretsis.
 
 -   [sasquatch](https://docs.ropensci.org/sasquatch), developed by Ryan Zomorrodi: Use R and SAS within reproducible multilingual quarto documents. Run SAS code blocks interactively, send data back and forth between SAS and R, and render SAS output within quarto documents. SAS connections are established through a combination of SASPy and reticulate. It has been [reviewed](https://github.com/ropensci/software-review/issues/673) by Nic Crane.
 
+-   [dataset](https://docs.ropensci.org/dataset), developed by Daniel Antal: The dataset package helps create semantically rich, machine-readable, and interoperable datasets in R. It extends tidy data frames with metadata that preserves meaning, improves interoperability, and makes datasets easier to publish, exchange, and reuse in line with ISO and W3C standards. It is available on [CRAN](https://CRAN.R-project.org/package=dataset). It has been [reviewed](https://github.com/ropensci/software-review/issues/681) by Marcelo Perlin, Anna Márta Mester, and Mauro Lepore.
+
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
 ### New versions
 
-
-The following twenty packages have had an update since the last newsletter: [sits](https://docs.ropensci.org/sits "Satellite Image Time Series Analysis for Earth Observation Data Cubes") ([`v1.5.3`](https://github.com/e-sensing/sits/releases/tag/v1.5.3)), [aRxiv](https://docs.ropensci.org/aRxiv "Interface to the arXiv API") ([`0.12`](https://github.com/ropensci/aRxiv/releases/tag/0.12)), [beastier](https://docs.ropensci.org/beastier "Call BEAST2") ([`v2.5.2`](https://github.com/ropensci/beastier/releases/tag/v2.5.2)), [beautier](https://docs.ropensci.org/beautier "BEAUti from R") ([`v2.6.15-pre-cran`](https://github.com/ropensci/beautier/releases/tag/v2.6.15-pre-cran)), [c3dr](https://docs.ropensci.org/c3dr "Read and Write C3D Motion Capture Files") ([`v0.2.0`](https://github.com/ropensci/c3dr/releases/tag/v0.2.0)), [chromer](https://docs.ropensci.org/chromer "Interface to Chromosome Counts Database API") ([`v0.10`](https://github.com/ropensci/chromer/releases/tag/v0.10)), [dendroNetwork](https://docs.ropensci.org/dendroNetwork "Create Networks of Dendrochronological Series using Pairwise Similarity") ([`0.5.5`](https://github.com/ropensci/dendroNetwork/releases/tag/0.5.5)), [dittodb](https://docs.ropensci.org/dittodb "A Test Environment for Database Requests") ([`v0.1.9`](https://github.com/ropensci/dittodb/releases/tag/v0.1.9)), [GSODR](https://docs.ropensci.org/GSODR "Global Surface Summary of the Day (GSOD) Weather Data Client") ([`v4.1.4`](https://github.com/ropensci/GSODR/releases/tag/v4.1.4)), [gtexr](https://docs.ropensci.org/gtexr "Query the GTEx Portal API") ([`v0.2.1`](https://github.com/ropensci/gtexr/releases/tag/v0.2.1)), [osmapiR](https://docs.ropensci.org/osmapiR "OpenStreetMap API") ([`v0.2.4`](https://github.com/ropensci/osmapiR/releases/tag/v0.2.4)), [parzer](https://docs.ropensci.org/parzer "Parse Messy Geographic Coordinates") ([`v0.4.2`](https://github.com/ropensci/parzer/releases/tag/v0.4.2)), [rnaturalearth](https://docs.ropensci.org/rnaturalearth "World Map Data from Natural Earth") ([`v1.1.0`](https://github.com/ropensci/rnaturalearth/releases/tag/v1.1.0)), [rredlist](https://docs.ropensci.org/rredlist "IUCN Red List Client") ([`v1.1.0`](https://github.com/ropensci/rredlist/releases/tag/v1.1.0)), [skimr](https://docs.ropensci.org/skimr "Compact and Flexible Summaries of Data") ([`v2.2.0`](https://github.com/ropensci/skimr/releases/tag/v2.2.0)), [spatsoc](https://docs.ropensci.org/spatsoc "Group Animal Relocation Data by Spatial and Temporal Relationship") ([`v0.2.9`](https://github.com/ropensci/spatsoc/releases/tag/v0.2.9)), [taxa](https://docs.ropensci.org/taxa "Classes for Storing and Manipulating Taxonomic Data") ([`v0.4.4`](https://github.com/ropensci/taxa/releases/tag/v0.4.4)), [trud](https://docs.ropensci.org/trud "Query the NHS TRUD API") ([`v0.2.0-JOSS`](https://github.com/ropensci/trud/releases/tag/v0.2.0-JOSS)), [vcr](https://docs.ropensci.org/vcr "Record HTTP Calls to Disk") ([`v2.0.0`](https://github.com/ropensci/vcr/releases/tag/v2.0.0)), and [weathercan](https://docs.ropensci.org/weathercan "Download Weather Data from Environment and Climate Change Canada") ([`v0.7.5`](https://github.com/ropensci/weathercan/releases/tag/v0.7.5)).
+The following twenty-seven packages have had an update since the last newsletter: [sits](https://docs.ropensci.org/sits "Satellite Image Time Series Analysis for Earth Observation Data Cubes") ([`v1.5.3`](https://github.com/e-sensing/sits/releases/tag/v1.5.3)), [aRxiv](https://docs.ropensci.org/aRxiv "Interface to the arXiv API") ([`0.12`](https://github.com/ropensci/aRxiv/releases/tag/0.12)), [beastier](https://docs.ropensci.org/beastier "Call BEAST2") ([`v2.5.2`](https://github.com/ropensci/beastier/releases/tag/v2.5.2)), [beautier](https://docs.ropensci.org/beautier "BEAUti from R") ([`v2.6.15-pre-cran`](https://github.com/ropensci/beautier/releases/tag/v2.6.15-pre-cran)), [c3dr](https://docs.ropensci.org/c3dr "Read and Write C3D Motion Capture Files") ([`v0.2.0`](https://github.com/ropensci/c3dr/releases/tag/v0.2.0)), [chromer](https://docs.ropensci.org/chromer "Interface to Chromosome Counts Database API") ([`v0.10`](https://github.com/ropensci/chromer/releases/tag/v0.10)), [CRediTas](https://docs.ropensci.org/CRediTas "Generate CRediT Author Statements") ([`0.3.0`](https://github.com/ropensci/CRediTas/releases/tag/0.3.0)), [dataset](https://docs.ropensci.org/dataset "Create Data Frames for Exchange and Reuse") ([`0.4.0`](https://github.com/ropensci/dataset/releases/tag/0.4.0)), [datefixR](https://docs.ropensci.org/datefixR "Standardize Dates in Different Formats or with Missing Data") ([`v2.0.0`](https://github.com/ropensci/datefixR/releases/tag/v2.0.0)), [dendroNetwork](https://docs.ropensci.org/dendroNetwork "Create Networks of Dendrochronological Series using Pairwise Similarity") ([`0.5.5`](https://github.com/ropensci/dendroNetwork/releases/tag/0.5.5)), [dittodb](https://docs.ropensci.org/dittodb "A Test Environment for Database Requests") ([`v0.1.9`](https://github.com/ropensci/dittodb/releases/tag/v0.1.9)), [GSODR](https://docs.ropensci.org/GSODR "Global Surface Summary of the Day (GSOD) Weather Data Client") ([`v4.1.4`](https://github.com/ropensci/GSODR/releases/tag/v4.1.4)), [gtexr](https://docs.ropensci.org/gtexr "Query the GTEx Portal API") ([`v0.2.1`](https://github.com/ropensci/gtexr/releases/tag/v0.2.1)), [osmapiR](https://docs.ropensci.org/osmapiR "OpenStreetMap API") ([`v0.2.4`](https://github.com/ropensci/osmapiR/releases/tag/v0.2.4)), [osmdata](https://docs.ropensci.org/osmdata "Import OpenStreetMap Data as Simple Features or Spatial Objects") ([`v0.3.0`](https://github.com/ropensci/osmdata/releases/tag/v0.3.0)), [parzer](https://docs.ropensci.org/parzer "Parse Messy Geographic Coordinates") ([`v0.4.2`](https://github.com/ropensci/parzer/releases/tag/v0.4.2)), [qualtRics](https://docs.ropensci.org/qualtRics "Download Qualtrics Survey Data") ([`v3.2.2`](https://github.com/ropensci/qualtRics/releases/tag/v3.2.2)), [ReLTER](https://docs.ropensci.org/ReLTER "An Interface for the eLTER Community") ([`3.0.0`](https://github.com/ropensci/ReLTER/releases/tag/3.0.0)), [rnaturalearth](https://docs.ropensci.org/rnaturalearth "World Map Data from Natural Earth") ([`v1.1.0`](https://github.com/ropensci/rnaturalearth/releases/tag/v1.1.0)), [rredlist](https://docs.ropensci.org/rredlist "IUCN Red List Client") ([`v1.1.0`](https://github.com/ropensci/rredlist/releases/tag/v1.1.0)), [sasquatch](https://docs.ropensci.org/sasquatch "Use SAS, R, and quarto Together") ([`v0.1.0`](https://github.com/ropensci/sasquatch/releases/tag/v0.1.0)), [skimr](https://docs.ropensci.org/skimr "Compact and Flexible Summaries of Data") ([`v2.2.0`](https://github.com/ropensci/skimr/releases/tag/v2.2.0)), [spatsoc](https://docs.ropensci.org/spatsoc "Group Animal Relocation Data by Spatial and Temporal Relationship") ([`v0.2.9`](https://github.com/ropensci/spatsoc/releases/tag/v0.2.9)), [taxa](https://docs.ropensci.org/taxa "Classes for Storing and Manipulating Taxonomic Data") ([`v0.4.4`](https://github.com/ropensci/taxa/releases/tag/v0.4.4)), [trud](https://docs.ropensci.org/trud "Query the NHS TRUD API") ([`v0.2.0-JOSS`](https://github.com/ropensci/trud/releases/tag/v0.2.0-JOSS)), [vcr](https://docs.ropensci.org/vcr "Record HTTP Calls to Disk") ([`v2.0.0`](https://github.com/ropensci/vcr/releases/tag/v2.0.0)), and [weathercan](https://docs.ropensci.org/weathercan "Download Weather Data from Environment and Climate Change Canada") ([`v0.7.5`](https://github.com/ropensci/weathercan/releases/tag/v0.7.5)).
 
 ## Software Peer Review
 
 
-There are sixteen recently closed and active submissions and 5 submissions on hold. Issues are at different stages:
+There are seventeen recently closed and active submissions and 5 submissions on hold. Issues are at different stages:
 
--   Two at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%226/approved%22):
+-   Three at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%226/approved%22):
 
     -   [trud](https://github.com/ropensci/software-review/issues/705), Query the NHS TRUD API. Submitted by [Alasdair Warwick](https://github.com/rmgpanw).
+
+    -   [dataset](https://github.com/ropensci/software-review/issues/681), Create Data Frames that are Easier to Exchange and Reuse. Submitted by [Daniel Antal](http://nl.linkedin.com/in/antaldaniel/).
 
     -   [sasquatch](https://github.com/ropensci/software-review/issues/673), Use SAS, R, and quarto Together. Submitted by [Ryan Zomorrodi](https://ryanzomorrodi.github.io/).
 
@@ -118,15 +122,13 @@ There are sixteen recently closed and active submissions and 5 submissions on ho
 
     -   [pkgmatch](https://github.com/ropensci/software-review/issues/671), Find R Packages Matching Either Descriptions or Other R Packages. Submitted by [mark padgham](https://mpadge.github.io).
 
--   Five at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%224/review(s)-in-awaiting-changes%22):
+-   Four at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%224/review(s)-in-awaiting-changes%22):
 
     -   [openFDA](https://github.com/ropensci/software-review/issues/714), openFDA API. Submitted by [Simon Parker](https://github.com/simpar1471).
 
     -   [rixpress](https://github.com/ropensci/software-review/issues/706), Build Reproducible Analytical Pipelines With Nix. Submitted by [Bruno Rodrigues](https://brodrigues.co).
 
     -   [SSARP](https://github.com/ropensci/software-review/issues/685), SSARP (Species-/Speciation-Area Relationship Projector). Submitted by [kmartinet](https://github.com/kmartinet).
-
-    -   [dataset](https://github.com/ropensci/software-review/issues/681), Create Data Frames that are Easier to Exchange and Reuse. Submitted by [Daniel Antal](http://nl.linkedin.com/in/antaldaniel/).
 
     -   [galamm](https://github.com/ropensci/software-review/issues/615), Generalized Additive Latent and Mixed Models. Submitted by [Øystein Sørensen](https://osorensen.github.io/). (Stats).
 
@@ -142,9 +144,11 @@ There are sixteen recently closed and active submissions and 5 submissions on ho
 
     -   [read.abares](https://github.com/ropensci/software-review/issues/667), Provides simple downloading, parsing and importing of Australian Bureau of Agricultural and Resource Economics and Sciences (ABARES) data sources. Submitted by [Adam H. Sparks](https://adamhsparks.netlify.app/).
 
--   Three at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%221/editor-checks%22):
+-   Four at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%221/editor-checks%22):
 
     -   [babelquarto](https://github.com/ropensci/software-review/issues/720), Renders a Multilingual Quarto Book. Submitted by [Maëlle Salmon](https://masalmon.eu/).
+
+    -   [coevolve](https://github.com/ropensci/software-review/issues/717), Fit Bayesian Generalized Dynamic Phylogenetic Models using Stan. Submitted by [Scott Claessens](https://scottclaessens.github.io/). (Stats).
 
     -   [SPARQLchunks](https://github.com/ropensci/software-review/issues/656), Run SPARQL Chunks and Inline Functions to Retrieve Data. Submitted by [André Ourednik](https://ourednik.info).
 
@@ -157,6 +161,7 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 <!-- Do not forget to rebase your branch! -->
 
+-   [Exploring Open Science, R Packages, and Research Software Development at the CSIDNet AGM 2025](/blog/2025/08/26/csidnet-agm-2025) by Yanina Bellini Saibene and Sam Schildhauer. An interactive session at the Climate Sensitive Infectious Disease Network AGM 2025 exploring open science, R packages, and research software development.
 
 ## Calls for contributions
 
@@ -181,7 +186,7 @@ The recordings of the talks for useR! 2025 virtual component have been posted on
 -   [Experimenting with LLM Applications in R](https://www.youtube.com/watch?v=RQ_8tToedMk) by Nic Crane.
 -   [The Future of Asynchronous Programming in R](https://www.youtube.com/watch?v=sGLD8oVquho) by Charlie Gao.
 
-The recordings of the keynote talks have been posted in a [different YouTube channel](https://www.youtube.com/watch?v=fgtIqJfzPK0&list=PL9qLtkRkGWLehjHWrjsA6l2h-lEIUbT9n).
+The keynote talks have been streamed in a [different YouTube channel](https://www.youtube.com/watch?v=fgtIqJfzPK0&list=PL9qLtkRkGWLehjHWrjsA6l2h-lEIUbT9n) where you can watch them for now.
 
 ### New R option to control verbosity
 
@@ -191,7 +196,7 @@ For those of you interested in [controlling package verbosity](/blog/2024/02/06/
 
 ### Quarto vignettes on Windows on GitHub Actions
 
-As noted by Sam Rogers in our slack workspace, if you use Quarto vignettes, you might run into an error on GitHub Actions where it fails because "the package is not installed". Thanks to Gábor Csárdi and Christophe Dervieux for chiming in. The workaround is to add `local::.` under `setup-r-dependencies` to the field, as stated by James Balamuta in the [relevant GitHub issue](https://github.com/quarto-dev/quarto-r/issues/217#issuecomment-2470666968).
+As noted by Sam Rogers in the rOpenSci Slack workspace, if you use Quarto vignettes, you might run into an error on GitHub Actions where it fails because "the package is not installed". Thanks to Gábor Csárdi and Christophe Dervieux for chiming in. The workaround is to add `local::.` under `setup-r-dependencies` to the field, as stated by James Balamuta in the [relevant GitHub issue](https://github.com/quarto-dev/quarto-r/issues/217#issuecomment-2470666968).
 
 ## Last words
 
