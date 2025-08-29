@@ -88,7 +88,7 @@ In that case, you can create a boilerplate document as a template, and create it
 
 Templating tools include:
 
-- [`knitr::knit_expand()`](https://cran.r-project.org/web/packages/knitr/vignettes/knit_expand.html) by Yihui Xie;
+- [`knitr::knit_expand()`](https://bookdown.org/yihui/rmarkdown-cookbook/knit-expand.html) by Yihui Xie;
 - the [whisker package](https://github.com/edwindj/whisker) maintained by Edwin de Jonge (used in for instance pkgddown);
 - the [brew package](https://github.com/gregfrog/brew) maintained by Greg Hunt;
 - [Pandoc](/blog/2023/06/01/troubleshooting-pandoc-problems-as-an-r-user/) by John MacFarlane.
