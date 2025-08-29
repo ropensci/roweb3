@@ -82,6 +82,29 @@ Most often R users will write Markdown manually, or with the help of an editor s
 But sometimes, one will have to create or edit a bunch of Markdown files at once, and editing all those files by hand is a huge waste of time. 
 This blog post will give you resources in R that you can use to create, parse, and edit Markdown documents, so that you can become the Markdown wizard you have always dreamed of becoming :mage:!
 
+### Code chunks and literate programming
+
+In Markdown you can add code chunks, that will be properly formatted and highlighted, using the following syntax:
+
+````
+```r
+1 + 1
+```
+````
+
+Tools for literate programming such as knitr (for R Markdown and Quarto) will let you add code chunks that will be executed to render the document:
+
+
+````
+```{r}
+#| label: my-chunk
+#| echo: true
+1 + 1
+```
+````
+
+The latter syntax, the executable code chunks, are not necessarily properly handled by off-the-shelf "normal" tools like Pandoc.
+
 
 ## Templating Tools for Boilerplate Documents
 

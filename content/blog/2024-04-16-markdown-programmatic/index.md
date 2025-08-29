@@ -19,7 +19,7 @@ tags:
   - tech notes
 description: ""
 output: hugodown::md_document
-rmd_hash: 0140f0d7fac5061b
+rmd_hash: 100eaa813d7006ea
 
 ---
 
@@ -70,6 +70,22 @@ Some content, *nice* content.
 ```
 
 Most often R users will write Markdown manually, or with the help of an editor such as the [Positron visual editor](https://quarto.org/docs/tools/positron/visual-editor.html) or the [RStudio IDE visual editor](https://posit.co/blog/exploring-rstudio-visual-markdown-editor/). But sometimes, one will have to create or edit a bunch of Markdown files at once, and editing all those files by hand is a huge waste of time. This blog post will give you resources in R that you can use to create, parse, and edit Markdown documents, so that you can become the Markdown wizard you have always dreamed of becoming :mage:!
+
+### Code chunks and literate programming
+
+In Markdown you can add code chunks, that will be properly formatted and highlighted, using the following syntax:
+
+    ```r
+    1 + 1
+    ```
+
+Tools for literate programming such as knitr (for R Markdown and Quarto) will let you add code chunks that will be executed to render the document:
+
+    <div class='highlight'><pre class='chroma'><code class='language-r' data-lang='r'><span><span class='m'>1</span> <span class='o'>+</span> <span class='m'>1</span></span>
+    <span><span class='c'>#&gt; [1] 2</span></span>
+    <span></span></code></pre></div>
+
+The latter syntax, the executable code chunks, are not necessarily properly handled by off-the-shelf "normal" tools like Pandoc.
 
 ## Templating Tools for Boilerplate Documents
 
@@ -136,9 +152,9 @@ Using the workflow above, we can r
 <span><span class='nf'>make_assignment</span><span class='o'>(</span><span class='nv'>key</span>, template <span class='o'>=</span> <span class='nv'>md</span><span class='o'>)</span></span>
 <span><span class='nf'><a href='https://rdrr.io/r/base/print.html'>print</a></span><span class='o'>(</span><span class='nv'>key</span><span class='o'>)</span></span>
 <span><span class='c'>#&gt;         name mean  sd             file</span></span>
-<span><span class='c'>#&gt; 1     Maëlle    7 0.1     Maëlle-hw.md</span></span>
-<span><span class='c'>#&gt; 2 Christophe    7 0.5 Christophe-hw.md</span></span>
-<span><span class='c'>#&gt; 3      Zhian    5 0.7      Zhian-hw.md</span></span>
+<span><span class='c'>#&gt; 1     Maëlle    5 0.8     Maëlle-hw.md</span></span>
+<span><span class='c'>#&gt; 2 Christophe    2 0.4 Christophe-hw.md</span></span>
+<span><span class='c'>#&gt; 3      Zhian    4 0.9      Zhian-hw.md</span></span>
 <span></span></code></pre>
 
 </div>
@@ -153,7 +169,7 @@ title: "Homework assignment 1"
 author: "Zhian"
 ---
 
-Create a normal distribution with a mean of 5 and a standard deviation of 0.7:
+Create a normal distribution with a mean of 4 and a standard deviation of 0.9:
 
 ```{r solution-1}
 # hint: use the rnorm function
