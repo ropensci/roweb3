@@ -19,7 +19,7 @@ tags:
   - tech notes
 description: ""
 output: hugodown::md_document
-rmd_hash: 541ef9bfea9973b5
+rmd_hash: f2e7516d0eccecbf
 
 ---
 
@@ -153,9 +153,9 @@ Using the workflow below, we can create different Markdown documents correspondi
 <span><span class='nf'>make_assignment</span><span class='o'>(</span><span class='nv'>key</span>, template <span class='o'>=</span> <span class='nv'>md</span><span class='o'>)</span></span>
 <span><span class='nf'><a href='https://rdrr.io/r/base/print.html'>print</a></span><span class='o'>(</span><span class='nv'>key</span><span class='o'>)</span></span>
 <span><span class='c'>#&gt;         name mean  sd             file</span></span>
-<span><span class='c'>#&gt; 1     Maëlle   13 0.5     Maëlle-hw.md</span></span>
-<span><span class='c'>#&gt; 2 Christophe    1 0.7 Christophe-hw.md</span></span>
-<span><span class='c'>#&gt; 3      Zhian    9 1.0      Zhian-hw.md</span></span>
+<span><span class='c'>#&gt; 1     Maëlle    3 0.4     Maëlle-hw.md</span></span>
+<span><span class='c'>#&gt; 2 Christophe    6 0.4 Christophe-hw.md</span></span>
+<span><span class='c'>#&gt; 3      Zhian    7 0.3      Zhian-hw.md</span></span>
 <span></span></code></pre>
 
 </div>
@@ -164,18 +164,17 @@ Here's how Zhian's homework looks like:
 
 <div class="highlight">
 
-```` markdown
----
+<pre class='chroma'><code class='language-r' data-lang='r'>---
 title: "Homework assignment 1"
 author: "Zhian"
 ---
 
-Create a normal distribution with a mean of 9 and a standard deviation of 1.0:
+Create a normal distribution with a mean of 7 and a standard deviation of 0.3:
 
 ```{r solution-1}
 # hint: use the rnorm function
 ```
-````
+</code></pre>
 
 </div>
 
