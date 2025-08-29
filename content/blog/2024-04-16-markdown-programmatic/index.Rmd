@@ -185,7 +185,7 @@ Even if using specific Markdown parsing tools will help you write fewer regular 
 
 ## Abstract Represensation Manipulation Tools
 
-Parsing tools are fantastic, and numerous.
+Abstract representation manipulation tools are fantastic, and numerous.
 These translate the Markdown document into a data structure called an [Abstract
 Syntax Tree (AST)][AST] that gives you fine-grained control over specific elements of the document (e.g. individual headings or links regardless of how they are written).
 With a formal data structure, you can programmatically manipulate the Markdown document by adding, removing, or manipulating pieces of Markdown in a standardized way. 
@@ -193,7 +193,7 @@ We will only mention the ones you can directly use from R.
 
 [AST]: https://en.wikipedia.org/wiki/Abstract_syntax_tree
 
-### Fine-grain Parsing
+### Example use case
 
 Let's say you have created a bunch of tutorials that link to a website containing a gallery of extensions for a popular plotting package. 
 Let's also say that one day, someone discovers that the link to the website is suddenly [redirecting to a potentially malicious site that is most certainly not related to the grammar of graphics](https://github.com/ggplot2-exts/gallery/issues/112) and you
@@ -206,28 +206,48 @@ A workflow for this situation would be:
 - replace them with emphasized text that says "redacted"
 - convert the AST and write back to file
 
+### {tinkr}
+
 The [tinkr package](http://docs.ropensci.org/tinkr/) dreamed up by Maëlle Salmon and maintained by Zhian Kamvar parses Markdown to XML using Commonmark, allows you to extract and manipulate Markdown using XPath via the xml2 package. 
 Tinkr writes the XML back to Markdown using XSLT. 
 The YAML metadata is available as a string.
+Tinkr supports executable code chunks.
+
+The tinkr package is used in the [babeldown](https://docs.ropensci.org/babeldown/) and [aeolus](https://docs.ropensci.org/aeolus/) packages.
+
+### {md4r}
 
 The [md4r package](https://rundel.github.io/md4r/), is a recent experimental package maintained by Colin Rundel, and is an R wrapper around the MD4C (Markdown for C) library and represents the AST as a nested list with attributes in R. 
 The development version of the package has utilities for constructing Markdown documents programmatically.
 
-With Pandoc that we presented in a [tech note last year](blog/2023/06/01/troubleshooting-pandoc-problems-as-an-r-user/#raw-attributes), you can parse a Markdown files to a Pandoc Abstract Syntax Tree (in JSON format). 
+### Pandoc
+
+With Pandoc that we presented in a [tech note](blog/2023/06/01/troubleshooting-pandoc-problems-as-an-r-user/#raw-attributes), you can parse a Markdown files to a Pandoc Abstract Syntax Tree (in JSON format). 
+
+How would you use Pandoc to edit and write back a Markdown file?
+
+- Using Lua Filter : Pandoc converts to AST in its native format, Lua filters allow to process it to tweak it, and than Pandoc can write back to markdown.
+
+- Using Json filter: Pandoc converts to AST outputing a JSON representation of it, then any tools can modify this JSON file and provided a modified version to pandoc to convert back to markdown.
+
+Note that Pandoc does not support executable code chunks.
+
+### {parseqmd}
+
 Nic Crane has an experimental package called [parseqmd](https://github.com/thisisnic/parseqmd) that uses this strategy, parsing
 the output with the jsonlite package.
 You can also parse to, say HTML, and then back to Markdown. The benefit of parsing it to HTML is that you can use a package such as [xml2](https://xml2.r-lib.org/) or [rvest](https://rvest.tidyverse.org/) to extract and manipulate the elements.
 
-### High-level Parsing
+### {parsermd}
 
-If you are only interested in the heading structure of a document and code chunks, where you may or may not want to manipulate the rest of the Markdown, you might benefit from using a high-level parser. 
 The [parsermd package](https://rundel.github.io/parsermd/) is another package maintained by Colin Rundel is "implementation of a formal grammar and parser for R Markdown documents using the Boost Spirit X3 library. 
 It also includes a collection of high level functions for working with the resulting abstract syntax tree."
-This package is different from other parsing options mentioned here because, in the words of its author, the aim of the package is "...to capture the fundamental structure of the document and as such we do not attempt to parse every detail of the Rmd."
 
 This package has functionality for a tidy workflow allowing you to select different sections of the document.
 One useful feature is that it has the function [`rmd_check_template()`](https://rundel.github.io/parsermd/articles/templates.html) allowing you to compare student Markdown submissions against a standard template. 
 You can watch his [RStudio::conf(2021) talk about it](https://posit.co/resources/videos/parsermd-parsing-r-markdown-for-fun-and-profit/).
+
+The parsermd package even allows you to [modify documents](https://github.com/rundel/parsermd/issues/21).
 
 ### The Impossibility of a Perfect Roundtrip
 
