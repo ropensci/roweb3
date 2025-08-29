@@ -96,7 +96,7 @@ Tools for literate programming such as knitr (for R Markdown and Quarto) will le
 
 
 ````
-```{r}
+```{r} `r ''`
 #| label: my-chunk
 #| echo: true
 1 + 1
@@ -254,7 +254,7 @@ Furthermore, if you need to parse certain elements, like again Hugo shortcodes, 
 
 [^caveat]: Or at least it's supposed to :sweat_smile: Thankfully users report edge cases that are not covered yet.
 
-## What about the Code Chunks
+## What about the Code Chunks?
 
 Programmatically parsing and editing R code is out of the scope of this post, but closely related enough to throw in a few tips.
 
