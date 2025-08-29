@@ -19,7 +19,7 @@ tags:
   - tech notes
 description: ""
 output: hugodown::md_document
-rmd_hash: a7815958b575847b
+rmd_hash: ff749541edeca262
 
 ---
 
@@ -87,7 +87,7 @@ Tools for literate programming such as knitr (for R Markdown and Quarto) will le
     1 + 1
     ```
 
-The latter syntax, the executable code chunks, are not necessarily properly handled by off-the-shelf "normal" tools like Pandoc.
+The latter syntax, the executable code chunks, are not necessarily properly handled by off-the-shelf "normal" tools like Pandoc. This is something to keep in mind if you're dealing with documents that contain executable code chunks.
 
 ## Templating Tools for Boilerplate Documents
 
@@ -153,9 +153,9 @@ Using the workflow below, we can create different Markdown documents correspondi
 <span><span class='nf'>make_assignment</span><span class='o'>(</span><span class='nv'>key</span>, template <span class='o'>=</span> <span class='nv'>md</span><span class='o'>)</span></span>
 <span><span class='nf'><a href='https://rdrr.io/r/base/print.html'>print</a></span><span class='o'>(</span><span class='nv'>key</span><span class='o'>)</span></span>
 <span><span class='c'>#&gt;         name mean  sd             file</span></span>
-<span><span class='c'>#&gt; 1     Maëlle    3 0.3     Maëlle-hw.md</span></span>
-<span><span class='c'>#&gt; 2 Christophe    4 0.0 Christophe-hw.md</span></span>
-<span><span class='c'>#&gt; 3      Zhian    3 0.5      Zhian-hw.md</span></span>
+<span><span class='c'>#&gt; 1     Maëlle    3 0.4     Maëlle-hw.md</span></span>
+<span><span class='c'>#&gt; 2 Christophe    6 0.5 Christophe-hw.md</span></span>
+<span><span class='c'>#&gt; 3      Zhian    5 0.5      Zhian-hw.md</span></span>
 <span></span></code></pre>
 
 </div>
@@ -169,7 +169,7 @@ title: "Homework assignment 1"
 author: "Zhian"
 ---
 
-Create a normal distribution with a mean of 3 and a standard deviation of 0.5:
+Create a normal distribution with a mean of 5 and a standard deviation of 0.5:
 
 ```{r solution-1}
 # hint: use the rnorm function
@@ -190,7 +190,7 @@ You'd detect headings using for instance `grep("^#", markdown_lines)`[^2].
 
 Example of string manipulation tools include base R ([`sub()`](https://rdrr.io/r/base/grep.html), [`grep()`](https://rdrr.io/r/base/grep.html) and friends), [stringr](https://stringr.tidyverse.org/) (and stringi), [`xfun::gsub_file()`](https://rdrr.io/pkg/xfun/man/gsub_file.html).
 
-Although string manipulation tools are of a limited usefulness when parsing Markdown, they can *complement* the actual parsing tools. Even if using specific Markdown parsing tools will help you write less regular expressions yourself... they won't completely free you from them.
+Although string manipulation tools are of a limited usefulness when parsing Markdown, they can *complement* the actual parsing tools. Even if using specific Markdown parsing tools will help you write fewer regular expressions yourself... they won't completely free you from them.
 
 ## Abstract Represensation Manipulation Tools
 
