@@ -184,7 +184,7 @@ Example of string manipulation tools include base R (`sub()`, `grep()` and frien
 Although string manipulation tools are of a limited usefulness when parsing Markdown, they can _complement_ the actual parsing tools.
 Even if using specific Markdown parsing tools will help you write less regular expressions yourself... they won't completely free you from them.
 
-## Parsing Tools
+## Abstract Represensation Manipulation Tools
 
 Parsing tools are fantastic, and numerous.
 These translate the Markdown document into a data structure called an [Abstract
