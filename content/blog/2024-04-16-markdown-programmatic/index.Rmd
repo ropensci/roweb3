@@ -215,7 +215,7 @@ The development version of the package has utilities for constructing Markdown d
 With Pandoc that we presented in a [tech note last year](blog/2023/06/01/troubleshooting-pandoc-problems-as-an-r-user/#raw-attributes), you can parse a Markdown files to a Pandoc Abstract Syntax Tree (in JSON format). 
 Nic Crane has an experimental package called [parseqmd](https://github.com/thisisnic/parseqmd) that uses this strategy, parsing
 the output with the jsonlite package.
-You can also parse to, say HTML, and then back to Markdown. The benefit of parsing it to HTML is that you can use a package such as rvest to extract and manipulate the elements.
+You can also parse to, say HTML, and then back to Markdown. The benefit of parsing it to HTML is that you can use a package such as [xml2](https://xml2.r-lib.org/) or [rvest](https://rvest.tidyverse.org/) to extract and manipulate the elements.
 
 ### High-level Parsing
 
