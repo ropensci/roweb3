@@ -133,7 +133,7 @@ Here's an example Markdown file that we can use as a template:
 ```{embed show-markdown, file="hw-template.md", lang="markdown"}
 ```
 
-Using the workflow above, we can r
+Using the workflow below, we can create different Markdown documents corresponding to different students.
 
 ```{r, message = FALSE}
 # generate student variables ----

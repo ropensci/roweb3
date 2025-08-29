@@ -19,7 +19,7 @@ tags:
   - tech notes
 description: ""
 output: hugodown::md_document
-rmd_hash: 80c532f825cf3562
+rmd_hash: 541ef9bfea9973b5
 
 ---
 
@@ -114,8 +114,7 @@ Here's an example Markdown file that we can use as a template:
 
 <div class="highlight">
 
-```` markdown
----
+<pre class='chroma'><code class='language-r' data-lang='r'>---
 title: "Homework assignment 1"
 author: "{{name}}"
 ---
@@ -125,11 +124,11 @@ Create a normal distribution with a mean of {{mean}} and a standard deviation of
 ```{r solution-1}
 # hint: use the rnorm function
 ```
-````
+</code></pre>
 
 </div>
 
-Using the workflow above, we can r
+Using the workflow below, we can create different Markdown documents corresponding to different students.
 
 <div class="highlight">
 
@@ -154,9 +153,9 @@ Using the workflow above, we can r
 <span><span class='nf'>make_assignment</span><span class='o'>(</span><span class='nv'>key</span>, template <span class='o'>=</span> <span class='nv'>md</span><span class='o'>)</span></span>
 <span><span class='nf'><a href='https://rdrr.io/r/base/print.html'>print</a></span><span class='o'>(</span><span class='nv'>key</span><span class='o'>)</span></span>
 <span><span class='c'>#&gt;         name mean  sd             file</span></span>
-<span><span class='c'>#&gt; 1     Maëlle    6 0.9     Maëlle-hw.md</span></span>
-<span><span class='c'>#&gt; 2 Christophe    6 0.8 Christophe-hw.md</span></span>
-<span><span class='c'>#&gt; 3      Zhian    5 0.2      Zhian-hw.md</span></span>
+<span><span class='c'>#&gt; 1     Maëlle   13 0.5     Maëlle-hw.md</span></span>
+<span><span class='c'>#&gt; 2 Christophe    1 0.7 Christophe-hw.md</span></span>
+<span><span class='c'>#&gt; 3      Zhian    9 1.0      Zhian-hw.md</span></span>
 <span></span></code></pre>
 
 </div>
@@ -171,7 +170,7 @@ title: "Homework assignment 1"
 author: "Zhian"
 ---
 
-Create a normal distribution with a mean of 5 and a standard deviation of 0.2:
+Create a normal distribution with a mean of 9 and a standard deviation of 1.0:
 
 ```{r solution-1}
 # hint: use the rnorm function
