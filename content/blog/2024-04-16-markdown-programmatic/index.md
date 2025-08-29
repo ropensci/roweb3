@@ -19,7 +19,7 @@ tags:
   - tech notes
 description: ""
 output: hugodown::md_document
-rmd_hash: bb236919938bdc32
+rmd_hash: 2cc2f82d21eed6a0
 
 ---
 
@@ -153,9 +153,9 @@ Using the workflow below, we can create different Markdown documents correspondi
 <span><span class='nf'>make_assignment</span><span class='o'>(</span><span class='nv'>key</span>, template <span class='o'>=</span> <span class='nv'>md</span><span class='o'>)</span></span>
 <span><span class='nf'><a href='https://rdrr.io/r/base/print.html'>print</a></span><span class='o'>(</span><span class='nv'>key</span><span class='o'>)</span></span>
 <span><span class='c'>#&gt;         name mean  sd             file</span></span>
-<span><span class='c'>#&gt; 1     Maëlle    6 0.4     Maëlle-hw.md</span></span>
-<span><span class='c'>#&gt; 2 Christophe    3 0.4 Christophe-hw.md</span></span>
-<span><span class='c'>#&gt; 3      Zhian    6 0.4      Zhian-hw.md</span></span>
+<span><span class='c'>#&gt; 1     Maëlle    7 0.3     Maëlle-hw.md</span></span>
+<span><span class='c'>#&gt; 2 Christophe    3 0.1 Christophe-hw.md</span></span>
+<span><span class='c'>#&gt; 3      Zhian    2 0.9      Zhian-hw.md</span></span>
 <span></span></code></pre>
 
 </div>
@@ -169,7 +169,7 @@ title: "Homework assignment 1"
 author: "Zhian"
 ---
 
-Create a normal distribution with a mean of 6 and a standard deviation of 0.4:
+Create a normal distribution with a mean of 2 and a standard deviation of 0.9:
 
 ```{r solution-1}
 # hint: use the rnorm function
@@ -279,6 +279,25 @@ So a possible workflow, as exemplified in a [blog post](https://masalmon.eu/2024
 ### {treesitter}
 
 [treesitter](https://github.com/DavisVaughan/r-tree-sitter) by Davis Vaughan "provides R bindings to tree-sitter, an incremental parsing system".
+
+## What about metadata?
+
+We dedicated this whole post to the *body* of Markdown documents. What about the metadata contained in their frontmatter, like:
+
+``` yaml
+---
+title: "Cool doc"
+author: "Jane Doe"
+---
+```
+
+To extract or edit YAML/TOML/JSON metadata, you first need to decapitate Markdown documents. For instance, rmarkdown has a function called [`rmarkdown::yaml_front_matter()`](https://pkgs.rstudio.com/rmarkdown/reference/yaml_front_matter.html) to extract the YAML metadata of an R Markdown document.
+
+You might read the *lines* of the Markdown document using [`readLines()`](https://rdrr.io/r/base/readLines.html) or [`brio::read_lines()`](https://brio.r-lib.org/reference/read_lines.html), before resorting to regular expressions to identify the start and end of the frontmatter depending on its format.
+
+Then, to handle YAML you'd use [{yaml}](https://github.com/vubiostat/r-yaml/), to handle TOML you could use [{tomledit}](https://github.com/extendr/tomledit) or [{RcppTOML}](https://cran.r-project.org/web/packages/RcppTOML/index.html), to handle JSON you could use [{jsonlite}](https://jeroen.r-universe.dev/jsonlite).
+
+Finally if you need to write back the Markdown document, you'd write back its lines using [`writeLines()`](https://rdrr.io/r/base/writeLines.html) or [`brio::write_lines()`](https://brio.r-lib.org/reference/write_lines.html).
 
 ## Examples of Markdown Parsing and Editing
 

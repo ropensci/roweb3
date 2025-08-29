@@ -302,6 +302,27 @@ So a possible workflow, as exemplified in a [blog post](https://masalmon.eu/2024
 
 [treesitter](https://github.com/DavisVaughan/r-tree-sitter) by Davis Vaughan "provides R bindings to tree-sitter, an incremental parsing system".
 
+## What about metadata?
+
+We dedicated this whole post to the _body_ of Markdown documents. 
+What about the metadata contained in their frontmatter, like:
+
+```yaml
+---
+title: "Cool doc"
+author: "Jane Doe"
+---
+```
+
+To extract or edit YAML/TOML/JSON metadata, you first need to decapitate Markdown documents.
+For instance, rmarkdown has a function called `rmarkdown::yaml_front_matter()` to extract the YAML metadata of an R Markdown document.
+
+You might read the _lines_ of the Markdown document using `readLines()` or `brio::read_lines()`, before resorting to regular expressions to identify the start and end of the frontmatter depending on its format.
+
+Then, to handle YAML you'd use [{yaml}](https://github.com/vubiostat/r-yaml/), to handle TOML you could use [{tomledit}](https://github.com/extendr/tomledit) or [{RcppTOML}](https://cran.r-project.org/web/packages/RcppTOML/index.html), to handle JSON you could use [{jsonlite}](https://jeroen.r-universe.dev/jsonlite).
+
+Finally if you need to write back the Markdown document, you'd write back its lines using `writeLines()` or `brio::write_lines()`.
+
 ## Examples of Markdown Parsing and Editing
 
 The [pegboard package](https://carpentries.github.io/pegboard/) maintained by Zhian Kamvar, parses and validates Carpentries' lessons for structural Markdown elements, including valid links, alt-text, and known fenced-divs thanks to tinkr.
