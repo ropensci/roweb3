@@ -19,7 +19,7 @@ tags:
   - tech notes
 description: ""
 output: hugodown::md_document
-rmd_hash: 383d7ef71acd6228
+rmd_hash: bb236919938bdc32
 
 ---
 
@@ -49,7 +49,7 @@ Some content, with parts in __bold__ or _italic_. Let me add a [link](https://ro
 
 Furthermore there are different *flavors* or *specifications (specs)* of Markdown[^1], which add some [extended syntax](https://www.markdownguide.org/extended-syntax/), like emoji written with colons.
 
-Markdown flavors that R users will commonly interact with include:
+R users will commonly interact with different Markdown flavors through their usual tools:
 
 -   R Markdown which uses Pandoc under the hood,
 -   Quarto (uses Pandoc under the hood... see any trend here?),
@@ -153,9 +153,9 @@ Using the workflow below, we can create different Markdown documents correspondi
 <span><span class='nf'>make_assignment</span><span class='o'>(</span><span class='nv'>key</span>, template <span class='o'>=</span> <span class='nv'>md</span><span class='o'>)</span></span>
 <span><span class='nf'><a href='https://rdrr.io/r/base/print.html'>print</a></span><span class='o'>(</span><span class='nv'>key</span><span class='o'>)</span></span>
 <span><span class='c'>#&gt;         name mean  sd             file</span></span>
-<span><span class='c'>#&gt; 1     Maëlle    3 0.2     Maëlle-hw.md</span></span>
-<span><span class='c'>#&gt; 2 Christophe    6 0.6 Christophe-hw.md</span></span>
-<span><span class='c'>#&gt; 3      Zhian   10 0.1      Zhian-hw.md</span></span>
+<span><span class='c'>#&gt; 1     Maëlle    6 0.4     Maëlle-hw.md</span></span>
+<span><span class='c'>#&gt; 2 Christophe    3 0.4 Christophe-hw.md</span></span>
+<span><span class='c'>#&gt; 3      Zhian    6 0.4      Zhian-hw.md</span></span>
 <span></span></code></pre>
 
 </div>
@@ -169,7 +169,7 @@ title: "Homework assignment 1"
 author: "Zhian"
 ---
 
-Create a normal distribution with a mean of 10 and a standard deviation of 0.1:
+Create a normal distribution with a mean of 6 and a standard deviation of 0.4:
 
 ```{r solution-1}
 # hint: use the rnorm function
@@ -288,7 +288,7 @@ The [babeldown package](https://docs.ropensci.org/babeldown/) maintained by Maë
 
 ## Conclusion
 
-In this post we explained how to best parse and edit Markdown files: using specific parsing tools, possibly complemented by ad-hoc string manipulation. What do *you* use to handle Markdown files?
+In this post we explained how to best parse and edit Markdown files. To create boilerplate documents (think: mailmerge), we recommended templating tools such as [`knitr::knit_expand()`](https://bookdown.org/yihui/rmarkdown-cookbook/knit-expand.html), the [whisker package](https://github.com/edwindj/whisker), the [brew package](https://github.com/gregfrog/brew), Pandoc. To edit small parts of a document, we brought up string manipulation tools i.e. regular expressions, with base R ([`sub()`](https://rdrr.io/r/base/grep.html), [`grep()`](https://rdrr.io/r/base/grep.html) and friends), [stringr](https://stringr.tidyverse.org/) (and stringi), [`xfun::gsub_file()`](https://rdrr.io/pkg/xfun/man/gsub_file.html). For heavier, and safer, manipulation, we listed tools based on tools that manipulate the abstract representation of documents: tinkr, md4r, Pandoc, parseqmd, parsermd, lightparser. What do *you* use to handle Markdown files?
 
 [^1]: As of 2024-06-20, there are [76 programs that parse Markdown](https://github.com/markdown/markdown.github.com/wiki/Implementations), some with their own unique flavour.
 
