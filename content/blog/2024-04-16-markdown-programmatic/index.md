@@ -19,7 +19,7 @@ tags:
   - tech notes
 description: ""
 output: hugodown::md_document
-rmd_hash: 3559ca871c4943ef
+rmd_hash: 5df2c2111de9bb31
 
 ---
 
@@ -153,9 +153,9 @@ Using the workflow below, we can create different Markdown documents correspondi
 <span><span class='nf'>make_assignment</span><span class='o'>(</span><span class='nv'>key</span>, template <span class='o'>=</span> <span class='nv'>md</span><span class='o'>)</span></span>
 <span><span class='nf'><a href='https://rdrr.io/r/base/print.html'>print</a></span><span class='o'>(</span><span class='nv'>key</span><span class='o'>)</span></span>
 <span><span class='c'>#&gt;         name mean  sd             file</span></span>
-<span><span class='c'>#&gt; 1     Maëlle   10 0.6     Maëlle-hw.md</span></span>
-<span><span class='c'>#&gt; 2 Christophe    4 0.1 Christophe-hw.md</span></span>
-<span><span class='c'>#&gt; 3      Zhian    5 1.0      Zhian-hw.md</span></span>
+<span><span class='c'>#&gt; 1     Maëlle    8 0.5     Maëlle-hw.md</span></span>
+<span><span class='c'>#&gt; 2 Christophe    5 0.7 Christophe-hw.md</span></span>
+<span><span class='c'>#&gt; 3      Zhian    6 0.8      Zhian-hw.md</span></span>
 <span></span></code></pre>
 
 </div>
@@ -169,7 +169,7 @@ title: "Homework assignment 1"
 author: "Zhian"
 ---
 
-Create a normal distribution with a mean of 5 and a standard deviation of 1.0:
+Create a normal distribution with a mean of 6 and a standard deviation of 0.8:
 
 ```{r solution-1}
 # hint: use the rnorm function
@@ -240,6 +240,10 @@ The [parsermd package](https://rundel.github.io/parsermd/) is another package ma
 This package has functionality for a tidy workflow allowing you to select different sections of the document. One useful feature is that it has the function [`rmd_check_template()`](https://rundel.github.io/parsermd/articles/templates.html) allowing you to compare student Markdown submissions against a standard template. You can watch his [RStudio::conf(2021) talk about it](https://posit.co/resources/videos/parsermd-parsing-r-markdown-for-fun-and-profit/).
 
 The parsermd package even allows you to [modify documents](https://github.com/rundel/parsermd/issues/21).
+
+### {lightparser}
+
+The [lightparser](https://cloud.r-project.org/web/packages/lightparser/index.html) package by Sébastien Rochette "splits your rmarkdown or quarto files by sections into a tibble: titles, text, chunks; rebuilds the file from the tibble.". It can be used to [translate documents](https://edenian-prince.github.io/blog/posts/2024-08-21-translate-md-files/) for instance.
 
 ### The Impossibility of a Perfect Roundtrip
 

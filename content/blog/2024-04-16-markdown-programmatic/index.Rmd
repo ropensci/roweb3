@@ -249,6 +249,11 @@ You can watch his [RStudio::conf(2021) talk about it](https://posit.co/resources
 
 The parsermd package even allows you to [modify documents](https://github.com/rundel/parsermd/issues/21).
 
+### {lightparser}
+
+The [lightparser](https://cloud.r-project.org/web/packages/lightparser/index.html) package by Sébastien Rochette "splits your rmarkdown or quarto files by sections into a tibble: titles, text, chunks; rebuilds the file from the tibble.".
+It can be used to [translate documents](https://edenian-prince.github.io/blog/posts/2024-08-21-translate-md-files/) for instance.
+
 ### The Impossibility of a Perfect Roundtrip
 
 When parsing and editing Markdown, then writing it back to Markdown, some undesired changes might appear.
