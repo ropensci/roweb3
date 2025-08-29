@@ -19,7 +19,7 @@ tags:
   - tech notes
 description: ""
 output: hugodown::md_document
-rmd_hash: f2e7516d0eccecbf
+rmd_hash: a7815958b575847b
 
 ---
 
@@ -153,9 +153,9 @@ Using the workflow below, we can create different Markdown documents correspondi
 <span><span class='nf'>make_assignment</span><span class='o'>(</span><span class='nv'>key</span>, template <span class='o'>=</span> <span class='nv'>md</span><span class='o'>)</span></span>
 <span><span class='nf'><a href='https://rdrr.io/r/base/print.html'>print</a></span><span class='o'>(</span><span class='nv'>key</span><span class='o'>)</span></span>
 <span><span class='c'>#&gt;         name mean  sd             file</span></span>
-<span><span class='c'>#&gt; 1     Maëlle    3 0.4     Maëlle-hw.md</span></span>
-<span><span class='c'>#&gt; 2 Christophe    6 0.4 Christophe-hw.md</span></span>
-<span><span class='c'>#&gt; 3      Zhian    7 0.3      Zhian-hw.md</span></span>
+<span><span class='c'>#&gt; 1     Maëlle    3 0.3     Maëlle-hw.md</span></span>
+<span><span class='c'>#&gt; 2 Christophe    4 0.0 Christophe-hw.md</span></span>
+<span><span class='c'>#&gt; 3      Zhian    3 0.5      Zhian-hw.md</span></span>
 <span></span></code></pre>
 
 </div>
@@ -169,7 +169,7 @@ title: "Homework assignment 1"
 author: "Zhian"
 ---
 
-Create a normal distribution with a mean of 7 and a standard deviation of 0.3:
+Create a normal distribution with a mean of 3 and a standard deviation of 0.5:
 
 ```{r solution-1}
 # hint: use the rnorm function
@@ -192,7 +192,7 @@ Example of string manipulation tools include base R ([`sub()`](https://rdrr.io/r
 
 Although string manipulation tools are of a limited usefulness when parsing Markdown, they can *complement* the actual parsing tools. Even if using specific Markdown parsing tools will help you write less regular expressions yourself... they won't completely free you from them.
 
-## Parsing Tools
+## Abstract Represensation Manipulation Tools
 
 Parsing tools are fantastic, and numerous. These translate the Markdown document into a data structure called an [Abstract Syntax Tree (AST)](https://en.wikipedia.org/wiki/Abstract_syntax_tree) that gives you fine-grained control over specific elements of the document (e.g. individual headings or links regardless of how they are written). With a formal data structure, you can programmatically manipulate the Markdown document by adding, removing, or manipulating pieces of Markdown in a standardized way. We will only mention the ones you can directly use from R.
 
@@ -211,7 +211,7 @@ The [tinkr package](http://docs.ropensci.org/tinkr/) dreamed up by Maëlle Salmo
 
 The [md4r package](https://rundel.github.io/md4r/), is a recent experimental package maintained by Colin Rundel, and is an R wrapper around the MD4C (Markdown for C) library and represents the AST as a nested list with attributes in R. The development version of the package has utilities for constructing Markdown documents programmatically.
 
-With Pandoc that we presented in a [tech note last year](blog/2023/06/01/troubleshooting-pandoc-problems-as-an-r-user/#raw-attributes), you can parse a Markdown files to a Pandoc Abstract Syntax Tree (in JSON format). Nic Crane has an experimental package called [parseqmd](https://github.com/thisisnic/parseqmd) that uses this strategy, parsing the output with the jsonlite package. You can also parse to, say HTML, and then back to Markdown. The benefit of parsing it to HTML is that you can use a package such as rvest to extract and manipulate the elements.
+With Pandoc that we presented in a [tech note last year](blog/2023/06/01/troubleshooting-pandoc-problems-as-an-r-user/#raw-attributes), you can parse a Markdown files to a Pandoc Abstract Syntax Tree (in JSON format). Nic Crane has an experimental package called [parseqmd](https://github.com/thisisnic/parseqmd) that uses this strategy, parsing the output with the jsonlite package. You can also parse to, say HTML, and then back to Markdown. The benefit of parsing it to HTML is that you can use a package such as [xml2](https://xml2.r-lib.org/) or [rvest](https://rvest.tidyverse.org/) to extract and manipulate the elements.
 
 ### High-level Parsing
 
