@@ -19,7 +19,7 @@ tags:
   - tech notes
 description: ""
 output: hugodown::md_document
-rmd_hash: 5df2c2111de9bb31
+rmd_hash: 383d7ef71acd6228
 
 ---
 
@@ -153,9 +153,9 @@ Using the workflow below, we can create different Markdown documents correspondi
 <span><span class='nf'>make_assignment</span><span class='o'>(</span><span class='nv'>key</span>, template <span class='o'>=</span> <span class='nv'>md</span><span class='o'>)</span></span>
 <span><span class='nf'><a href='https://rdrr.io/r/base/print.html'>print</a></span><span class='o'>(</span><span class='nv'>key</span><span class='o'>)</span></span>
 <span><span class='c'>#&gt;         name mean  sd             file</span></span>
-<span><span class='c'>#&gt; 1     Maëlle    8 0.5     Maëlle-hw.md</span></span>
-<span><span class='c'>#&gt; 2 Christophe    5 0.7 Christophe-hw.md</span></span>
-<span><span class='c'>#&gt; 3      Zhian    6 0.8      Zhian-hw.md</span></span>
+<span><span class='c'>#&gt; 1     Maëlle    3 0.2     Maëlle-hw.md</span></span>
+<span><span class='c'>#&gt; 2 Christophe    6 0.6 Christophe-hw.md</span></span>
+<span><span class='c'>#&gt; 3      Zhian   10 0.1      Zhian-hw.md</span></span>
 <span></span></code></pre>
 
 </div>
@@ -169,7 +169,7 @@ title: "Homework assignment 1"
 author: "Zhian"
 ---
 
-Create a normal distribution with a mean of 6 and a standard deviation of 0.8:
+Create a normal distribution with a mean of 10 and a standard deviation of 0.1:
 
 ```{r solution-1}
 # hint: use the rnorm function
@@ -254,6 +254,8 @@ Depending on your use case you might want to find ways to mitigate such losses, 
 ### How to Choose a Parser?
 
 You can choose a parser based on what it lets you manipulate the Markdown with: if you prefer XML[^3] and HTML to nested lists for instance, you might prefer using tinkr or Pandoc. If the high-level functions of md4r or parsermd are suitable for your use case, you might prefer one of them.
+
+Importantly, if your documents contain executable code chunks, you need to use a tool that supports them such as parsermd, lightparser, tinkr.
 
 Another important criterion is to choose a parser that's a close to the use case of your Markdown files as possible. If you are only going to work with Markdown files for GitHub, commonmark/tinkr is an excellent choice since GitHub itself uses commonmark. Now, your work might encompass different sorts of Markdown files that will be used by different tools. For instance, the babeldown package processes any Markdown file[^4]: Markdown, R Markdown, Quarto, Hugo. In that case, or if there is no R parser doing exactly what your Markdown's end user does, you need to pay attention to the quirks of that end user. Maybe you have to throw [Pandoc raw attributes](blog/2023/06/01/troubleshooting-pandoc-problems-as-an-r-user/#raw-attributes) around a Hugo shortcode, for instance. Furthermore, if you need to parse certain elements, like again Hugo shortcodes, you might need to write the parsing code yourself, that is, regular expressions.
 
