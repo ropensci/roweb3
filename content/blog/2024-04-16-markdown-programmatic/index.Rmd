@@ -268,6 +268,8 @@ If the high-level functions of md4r or parsermd are suitable for your use case, 
 
 [^maelle-approved]: Both Maëlle and Zhian are _huge_ fans of XML and XPath (see: https://masalmon.eu/2022/04/08/xml-xpath/ and https://zkamvar.netlify.app/blog/gh-task-lists/). 
 
+Importantly, if your documents contain executable code chunks, you need to use a tool that supports them such as parsermd, lightparser, tinkr.
+
 Another important criterion is to choose a parser that's a close to the use case of your Markdown files as possible.
 If you are only going to work with Markdown files for GitHub, commonmark/tinkr is an excellent choice since GitHub itself uses commonmark. 
 Now, your work might encompass different sorts of Markdown files that will be used by different tools.
