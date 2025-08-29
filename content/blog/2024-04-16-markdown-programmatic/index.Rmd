@@ -160,10 +160,8 @@ print(key)
 
 Here's how Zhian's homework looks like:
 
-````{r show-zhian-markdown, echo = FALSE, warn = FALSE, message = FALSE, results = 'asis', comment = ""}
-md <- readLines("Zhian-hw.md")
-writeLines(c("````markdown", md, "````"), con = stdout())
-````
+```{embed show-zhian-markdown, file="Zhian-hw.md", lang="markdown"}
+```
 
 ```{r, echo = FALSE}
 # clean up after ourselves
