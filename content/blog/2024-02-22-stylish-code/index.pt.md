@@ -1,6 +1,6 @@
 ---
-title: Beautiful Code, Because We’re Worth It!
-author: 
+title: Código bonito, porque valemos a pena!
+author:
 - Maëlle Salmon
 - Yanina Bellini Saibene
 editor:
@@ -9,33 +9,33 @@ date: '2024-02-22'
 slug: beautiful-code
 output: hugodown::md_document
 tags:
-  - champions program
-  - tech notes
-  - beginner
-  - package development
-  - clean code
+- champions program
+- tech notes
+- beginner
+- package development
+- clean code
 params:
-  doi: "10.59350/tbdps-5xc82"
+  doi: 10.59350/tbdps-5xc82
 ---
 
-rOpenSci's [second cohort of champions was onboarded](/blog/2024/02/15/champions-program-champions-2024/)!
-Their training started with a session on code style, which we will summarize here in this post.
-Knowing more about code quality is relevant to all Champion projects, be it creating a new package, submitting a package to software review, or reviewing a package.
-This training session consisted of a talk and discussion, whereas the next package development training sessions will be more hands-on. 
+rOpenSci's [segundo grupo de campeões foi integrado](/blog/2024/02/15/champions-program-champions-2024/)!
+O treinamento começou com uma sessão sobre estilo de código, que resumiremos aqui neste post.
+Saber mais sobre a qualidade do código é relevante para todos os projetos da Champion, seja na criação de um novo pacote, no envio de um pacote para revisão de software ou na revisão de um pacote.
+Essa sessão de treinamento consistiu em uma palestra e discussão, enquanto as próximas sessões de treinamento de desenvolvimento de pacotes serão mais práticas.
 
-## Why write beautiful code?
+## Por que escrever um código bonito?
 
-Although your code will be executed by machines, it will be read by humans.
-Those humans, whether they are future you, collaborators you know or collaborators you don't know, will need to understand your code to check that it has no mistake, to fix potential bugs, and to build upon it by adding new features.
-Making it easier to understand your code is therefore crucial.
+Embora seu código seja executado por máquinas, ele será lido por humanos.
+Esses humanos, sejam eles futuros você, colaboradores que você conhece ou colaboradores que você não conhece, precisarão entender seu código para verificar se não há erros, corrigir possíveis bugs e desenvolvê-lo adicionando novos recursos.
+Portanto, é fundamental facilitar a compreensão do seu código.
 
-## Well-proportioned code
+## Código bem proporcionado
 
-In the first part, we shared tips that made the code more "well-proportioned".
-It is not only a matter of aesthetics.
-Well-proportioned code is easier to parse by humans.
+Na primeira parte, compartilhamos dicas que tornaram o código mais "bem proporcionado".
+Não se trata apenas de uma questão de estética.
+Um código bem proporcionado é mais fácil de ser analisado por humanos.
 
-### Regular spacing between elements
+### Espaçamento regular entre os elementos
 
 Compare
 
@@ -48,7 +48,7 @@ starwars%>%
   )
 ```
 
-to 
+com
 
 ```r
 starwars %>%
@@ -59,36 +59,36 @@ starwars %>%
   )
 ```
 
-In the first chunk, spacing between elements is irregular.
-For instance, there is no space before `height`, no space around the equal sign that comes after `mass`.
+No primeiro bloco, o espaçamento entre os elementos é irregular.
+Por exemplo, não há espaço antes de `height` não há espaço ao redor do sinal de igual que vem depois de `mass`.
 
-We instead recommend to follow spacing (and line-breaking!) rules consistently.
-Unless you have a [strongly differing opinion](https://github.com/ropensci-review-tools/spaceout), the easiest strategy is to follow your collaborators' style guide, or a popular style guide like the [tidyverse style guide](https://style.tidyverse.org/).
+Em vez disso, recomendamos que você siga as regras de espaçamento (e de quebra de linha!) de forma consistente.
+A menos que você tenha um [opinião muito diferente](https://github.com/ropensci-review-tools/spaceout) a estratégia mais fácil é seguir o guia de estilo de seus colaboradores ou um guia de estilo popular como o [guia de estilo do tidyverse](https://style.tidyverse.org/).
 
-So how do you implement these rules in practice?
-First you'll need to be accustomed to using a particular style.
-Automatic tools like the [styler package](https://styler.r-lib.org/) or your IDE can help you.
-For example, in the RStudio IDE, the keyboard shortcut `Ctrl+I` fixes indentation.
+Então, como você implementa essas regras na prática?
+Primeiro, você precisa estar acostumado a usar um estilo específico.
+Ferramentas automáticas como o [pacote styler](https://styler.r-lib.org/) ou seu IDE podem ajudar você.
+Por exemplo, no IDE do RStudio, o atalho de teclado `Ctrl+I` corrige a indentação.
 
-### Not too wide
+### Não muito largo
 
-A traditional rule is to not have more than 80 characters per line.
-The exact number isn't important, what's important is to prevent too much horizontal scrolling!
+Uma regra tradicional é que você não deve ter mais de 80 caracteres por linha.
+O número exato não é importante, o importante é evitar muita rolagem horizontal!
 
-The [lintr package](https://lintr.r-lib.org/) can warn you about too wide lines, among many other things.
-Compared to styler, lintr does not fix things itself.
+Os [pacote lintr](https://lintr.r-lib.org/) pode avisar você sobre linhas muito largas, entre muitas outras coisas.
+Em comparação com o styler, o lintr não corrige as coisas sozinho.
 
-There is a also a setting in RStudio IDE to show a margin at 80 characters (Code > Display > Show Margin).
+Há também uma configuração no RStudio IDE para mostrar uma margem de 80 caracteres (Code > Display > Show Margin).
 
-### Not too long: paragraphs, existing and home-made functions
+### Não muito longo: parágrafos, funções existentes e caseiras
 
-Vertical space is limited in code both by the screen and by what the reader can see at a glance (never mind limits to how much they can hold in their head).
+O espaço vertical é limitado no código, tanto pela tela quanto pelo que o leitor pode ver de relance (sem considerar os limites de quanto ele pode armazenar em sua cabeça).
 
-One way to make your code shorter, but still easy to parse is to use _code paragraphs_.
-Line breaks are not free since they take up vertical space.
-Use line breaks to separate blocks of code that do a related thing.
-As in prose, one paragraph should roughly correspond to one idea.
-For instance, in the example code below, the first block does something related to a website page head, while the second block handles the body of the website page.
+Uma maneira de tornar seu código mais curto, mas ainda assim fácil de analisar, é usar *parágrafos de código*.
+As quebras de linha não são gratuitas, pois ocupam espaço vertical.
+Use quebras de linha para separar blocos de código que fazem algo relacionado.
+Como na prosa, um parágrafo deve corresponder aproximadamente a uma ideia.
+Por exemplo, no exemplo de código abaixo, o primeiro bloco faz algo relacionado ao cabeçalho de uma página do site, enquanto o segundo bloco lida com o corpo da página do site.
 
 ```r
 head <- collect_metadata(website)
@@ -98,9 +98,9 @@ body <- create_content(website)
 body_string <- stringify(body)
 ```
 
-A second way to make your code less long is to break down your code into functions.
-In a main function, you can outsource tasks to other functions.
-This way, a reader can see at a glance what the main function does, and then head to the other functions to read more details, as in the example below where `create_content()` calls other functions to create a title, a page, and then create its output that combines the two.
+Uma segunda maneira de tornar seu código menos longo é dividi-lo em funções.
+Em uma função principal, você pode terceirizar tarefas para outras funções.
+Dessa forma, um leitor pode ver rapidamente o que a função principal faz e, em seguida, ir para as outras funções para ler mais detalhes, como no exemplo abaixo, em que `create_content()` chama outras funções para criar um título, uma página e, em seguida, criar sua saída que combina os dois.
 
 ```r
 create_content <- function(website) {
@@ -110,25 +110,25 @@ create_content <- function(website) {
 }
 ```
 
-In their book [Learn AI-Assisted Python Programming](https://www.manning.com/books/learn-ai-assisted-python-programming), Leo Porter and Daniel Zingaro share the attributes of good functions: One clear task to perform, clearly defined behavior, short in number of lines of code, clear input and output, general value over specific use.
+Em seu livro [Aprenda programação Python assistida por IA](https://www.manning.com/books/learn-ai-assisted-python-programming) Leo Porter e Daniel Zingaro compartilham os atributos de boas funções: Uma tarefa clara a ser executada, comportamento claramente definido, número reduzido de linhas de código, entrada e saída claras, valor geral sobre uso específico.
 
-It is also helpful to know how to quickly navigate between functions in your IDE!
-In RStudio IDE, you can use `Ctrl+click` on the function name, or type its name in the search bar accessed with `Ctrl+.`.
+Também é útil saber como navegar rapidamente entre as funções em seu IDE!
+No IDE do RStudio, você pode usar `Ctrl+click` no nome da função ou digitar seu nome na barra de pesquisa acessada com `Ctrl+.`.
 
-A third way to shorten your code is to use existing functions from base R or add-on packages.
-For instance, to combine a list of default values with a list of custom values, you can use the [`modifyList()` function](https://masalmon.eu/2023/06/06/basic-patterns/#combine-a-list-of-default-values-with-a-list-of-custom-values).
-As with human languages, we learn more R words [over time](https://masalmon.eu/tags/useful-functions/), by reading other people's code and having them read our code..
+Uma terceira maneira de encurtar seu código é usar funções existentes do R básico ou de pacotes complementares.
+Por exemplo, para combinar uma lista de valores padrão com uma lista de valores personalizados, você pode usar a função [`modifyList()` função](https://masalmon.eu/2023/06/06/basic-patterns/#combine-a-list-of-default-values-with-a-list-of-custom-values).
+Assim como nos idiomas humanos, aprendemos mais palavras R [com o tempo](https://masalmon.eu/tags/useful-functions/) Você pode aprender mais palavras em R com o tempo, lendo o código de outras pessoas e fazendo com que elas leiam o nosso código.
 
-### Not too wordy: just the right amount of comments
+### Não muito prolixo: apenas a quantidade certa de comentários
 
-This part of the training was a shorter version of the R-hub blog post [Why comment your code as little (and as well) as possible](https://blog.r-hub.io/2023/01/26/code-comments-self-explaining-code/).
+Esta parte do treinamento foi uma versão mais curta da publicação no blog do R-hub [Por que comentar seu código o mínimo (e o melhor) possível](https://blog.r-hub.io/2023/01/26/code-comments-self-explaining-code/).
 
-Code comments are not a narrator's voice-over of the code, they should be little alerts.
-The more comments there are, the more likely it is that the reader will skip them.
+Os comentários de código não são uma narração do código, eles devem ser pequenos alertas.
+Quanto mais comentários você tiver, maior será a probabilidade de o leitor ignorá-los.
 
-Code comments should not be a band-aid for bad naming or overly complex code: instead of adding a comment, can you rename a variable or refactor a piece of code?
+Os comentários de código não devem ser um "band-aid" para nomes ruins ou código excessivamente complexo: em vez de adicionar um comentário, você pode renomear uma variável ou refatorar um trecho de código?
 
-A useful idea is to use [self-explanatory functions or variables](https://blog.r-hub.io/2023/01/26/code-comments-self-explaining-code/#use-helper-functions-or-explaining-variables), where code like
+Uma ideia útil é usar [funções ou variáveis autoexplicativas](https://blog.r-hub.io/2023/01/26/code-comments-self-explaining-code/#use-helper-functions-or-explaining-variables) onde códigos como
 
 ```r
 if (!is.na(x) && nzchar(x)) {
@@ -136,7 +136,7 @@ if (!is.na(x) && nzchar(x)) {
 }
 ```
 
-becomes
+se torna
 
 ```r
 x_is_not_empty_string <- (!is.na(x) && nzchar(x))
@@ -145,37 +145,37 @@ if (x_is_not_empty_string) {
 }
 ```
 
-Of course code comments remain important when needed!
-Examples of good comments include: 
+É claro que os comentários de código continuam sendo importantes quando necessários!
+Exemplos de bons comentários incluem:
 
-- function documentation with roxygen2, 
-- aspects you’d like to point out to a code reviewer, such as `# This query can not be done via GraphQL, so have to use v3 REST API`,
-- [comments that provide a table of contents](https://blog.r-hub.io/2023/01/26/code-comments-self-explaining-code/#use-comments-for-the-scripts-outline).
+- documentação de funções com o roxygen2,
+- aspectos que você gostaria de apontar para um revisor de código, como `# This query can not be done via GraphQL, so have to use v3 REST API`,
+- [comentários que fornecem uma tabela de conteúdo](https://blog.r-hub.io/2023/01/26/code-comments-self-explaining-code/#use-comments-for-the-scripts-outline).
 
-## Clear code
+## Limpar código
 
-In the second part of the training, we shared tips that improve code clarity.
+Na segunda parte do treinamento, compartilhamos dicas que melhoram a clareza do código.
 
-### Self-explanatory names
+### Nomes autoexplicativos
 
-Naming things is notoriously hard.
-We shared these ideas:
+Dar nomes às coisas é notoriamente difícil.
+Nós compartilhamos essas ideias:
 
-- Follow fashion, meaning, use the same words as others in your field or programming language.
+- Siga a moda, ou seja, use as mesmas palavras que outras pessoas em sua área ou linguagem de programação.
 
-- Felienne Hermans, in her book [The Programmer's Brain](https://www.manning.com/books/the-programmers-brain), advises choosing the concepts that go into the name, the words to say it, then putting them together. This approach in three steps is a good way to get unstuck.
+- Felienne Hermans, em seu livro [O cérebro do programador](https://www.manning.com/books/the-programmers-brain) aconselha que você escolha os conceitos que compõem o nome, as palavras para dizê-lo e, em seguida, junte-os. Essa abordagem em três etapas é uma boa maneira de você se livrar do problema.
 
-- Following the previous advice, names should be consistent across code base and _name molds_ are a very good tool for that. Name molds are patterns in which the elements of a name are combined, for example if you calculate the maximum value of crop yield, you need to agree if `maximum` will be `max` or `maximum` and if the word will be at the beginning or at the end of the variable name: should be `maxYield` or `yieldMax`?  By normalizing how to name things, our code will be easier to read.     
+- Seguindo o conselho anterior, os nomes devem ser consistentes em toda a base de código e você deve escolher o que deseja dizer. *moldes de nomes* são uma ferramenta muito boa para isso. Os moldes de nomes são padrões nos quais os elementos de um nome são combinados; por exemplo, se você calcular o valor máximo do rendimento da colheita, precisará concordar se `maximum` será `max` ou `maximum` e se a palavra estiver no início ou no final do nome da variável: deve ser `maxYield` ou `yieldMax`?  Ao normalizar a forma de nomear as coisas, nosso código será mais fácil de ler.
 
-- “The greater the distance between a name’s declaration and its uses, the longer the name should be” (Andrew Gerrand). However, no matter how close to defining a variable you use it, don't use a smart very short abbreviation.
+- "Quanto maior a distância entre a declaração de um nome e seus usos, mais longo deve ser o nome" (Andrew Gerrand). Entretanto, não importa o quão perto da definição de uma variável você a use, não use uma abreviação inteligente e muito curta.
 
-- There are several ways to write variable names. camelCase style leads to higher accuracy when reading code (Dave Binkley, 2009) and is better for reading the code with screen readers.  We know it is difficult to change the style of an existing project, but if you are in a situation where you can decide from scratch, then consider using Camel Case? If you're not sure about case names, refer to Allison Horst's [cartoon of cases](https://allisonhorst.com/everything-else) (scroll down to "Cartoon representations of common cases in coding"). 
+- Há várias maneiras de escrever nomes de variáveis. O estilo camelCase leva a uma maior precisão na leitura do código (Dave Binkley, 2009) e é melhor para a leitura do código com leitores de tela.  Sabemos que é difícil alterar o estilo de um projeto existente, mas se você estiver em uma situação em que possa decidir do zero, considere usar Camel Case? Se você não tiver certeza sobre os nomes dos casos, consulte o artigo de Allison Horst [de Allison Horstsobre casos](https://allisonhorst.com/everything-else) (role para baixo até "Representações em desenho animado de casos comuns em codificação").
 
-- A name is clear if the person reviewing your code agrees. 😉
+- Um nome é claro se a pessoa que estiver revisando seu código concordar com ele.
 
-A further tip is that it's absolutely ok to create functions that wrap existing functions just to change their name.
-This strategy is common to change the argument order, but fine for naming too.
-Say you prefer your function names to be actions (verbs) rather than passive descriptions, you can have:
+Outra dica é que não há problema algum em criar funções que envolvam funções existentes apenas para mudar o nome delas.
+Essa estratégia é comum para alterar a ordem dos argumentos, mas também é adequada para a nomeação.
+Digamos que você prefira que os nomes das funções sejam ações (verbos) em vez de descrições passivas, você pode ter:
 
 ```r
 # In utils.R
@@ -187,9 +187,9 @@ remove_extension <- function(path) {
 remove_extension(path)
 ```
 
-### Logic tips: early `return()`, `switch()`
+### Dicas de lógica: early `return()`, `switch()`
 
-In a function,
+Em uma função,
 
 ```r
 do_thing <- function(x) {
@@ -201,7 +201,7 @@ do_thing <- function(x) {
 }
 ```
 
-is equivalent to
+é equivalente a
 
 ```r
 do_thing <- function(x) {
@@ -213,10 +213,10 @@ do_thing <- function(x) {
 }
 ```
 
-but the latter, with the early `return()` has less nesting and emphasizes the ["happy path"](https://github.com/jennybc/code-smells-and-feels).
+mas o último, com o início `return()` tem menos aninhamento e enfatiza o ["caminho feliz"](https://github.com/jennybc/code-smells-and-feels).
 
-The [`switch()`](https://rdrr.io/r/base/switch.html) function can also help you remove nested if-else.
-With it,
+O [`switch()`](https://rdrr.io/r/base/switch.html) também pode ajudar você a remover if-else aninhados.
+Com ela, você pode,
 
 ```r
 if (type == "mean") {
@@ -228,7 +228,7 @@ if (type == "mean") {
 }
 ```
 
-becomes
+torna-se
 
 ```r
 switch(type,
@@ -238,57 +238,58 @@ switch(type,
 )
 ```
 
-### Less code
+### Menos código
 
-The code you *don't* write has no bug (that you are responsible for) and does not need to be read. :tada:
+O código que você *vocênão* não tem nenhum bug (pelo qual você é responsável) e não precisa ser lido:
 
-First of all, be strict about the scope of what you are trying to accomplish.
+Antes de tudo, seja rigoroso quanto ao escopo do que você está tentando realizar.
 
-Second, use trusted dependencies to outsource part of the work.
-The ["Dependencies: Mindset and Background
-"](https://r-pkgs.org/dependencies-mindset-background.html) chapter of the R packages book by Hadley Wickham and Jenny Bryan is a great read on the topic.
+Em segundo lugar, use dependências confiáveis para terceirizar parte do trabalho.
+Você pode ["Dependências: Mindset and Background
+"](https://r-pkgs.org/dependencies-mindset-background.html) do livro R packages, de Hadley Wickham e Jenny Bryan, é uma ótima leitura sobre o assunto.
 
-## How can you improve your code?
+## Como você pode melhorar seu código?
 
-In practice, how do you apply your code style learnings?
-And how do you update your legacy codebases created before you knew about some of these aspects?
+Na prática, como você aplica o que aprendeu sobre estilo de código?
+E como você atualiza suas bases de código legadas criadas antes de você conhecer alguns desses aspectos?
 
-### Spring cleaning
+### Limpeza de primavera
 
-Maybe you can work on code styling and refactoring regularly
+Talvez você possa trabalhar regularmente no estilo e na refatoração do código
 
-- Once a year? Andy Teucher wrote an interesting blog post about the [tidyverse spring cleaning](https://www.tidyverse.org/blog/2023/06/spring-cleaning-2023/).
+- Uma vez por ano? Andy Teucher escreveu uma postagem interessante no blog sobre o [limpeza de primavera do tidyverse](https://www.tidyverse.org/blog/2023/06/spring-cleaning-2023/).
 
-- More often?
+- Com mais frequência?
 
-- A good strategy is also to work a bit on refactoring every time you enter a codebase to fix a bug or add a feature. The refactoring does not need to go into the same commit / branch, keep your code changes nuclear and easy to review.
-
+- Uma boa estratégia também é trabalhar um pouco na refatoração sempre que você entrar em uma base de código para corrigir um bug ou adicionar um recurso. A refatoração não precisa ir para o mesmo commit/ramo, mantenha suas alterações de código nucleares e fáceis de revisar.
 
 ### lintr
 
-The lintr package is a fantastic package.
-Its linters, or rules, will remind you or teach you of elements to fix that you didn't know about or couldn't keep in your head.
-You can run it every once in a while or have it run on continuous integration.
+O pacote lintr é um pacote fantástico.
+Seus linters, ou regras, o lembrarão ou ensinarão sobre elementos a serem corrigidos que você não conhecia ou não conseguia manter na cabeça.
+Você pode executá-lo de vez em quando ou fazer com que ele seja executado em integração contínua.
 
-Even simply reading through its [reference](https://lintr.r-lib.org/reference/index.html) might show you functions or patterns you were not aware of.
-A true gem of the R ecosystem!
+Mesmo com a simples leitura de seus [referência](https://lintr.r-lib.org/reference/index.html) pode mostrar funções ou padrões que você não conhecia.
+Uma verdadeira joia do ecossistema R!
 
-### Human review
+### Revisão humana
 
-Other humans will have a good external perspective on your code and probably good tips for you!
+Outros seres humanos terão uma boa perspectiva externa do seu código e, provavelmente, boas dicas para você!
 
-- Read your colleagues’ code and vice versa! The tidyverse team has a [code review guide](https://code-review.tidyverse.org/).
+- Leia o código de seus colegas e vice-versa! A equipe do tidyverse tem um [guia de revisão de código](https://code-review.tidyverse.org/).
 
-- At rOpenSci, we run a [software peer-review system of packages](/software-review/) :grin:
+- Na rOpenSci, executamos um [sistema de revisão por pares de pacotes de software](/software-review/) :grin:
 
-## Further resources
+## Outros recursos
 
-These are the references for most of the training content. :smile_cat:
+Estas são as referências para a maior parte do conteúdo do treinamento: :smile\_cat:
 
-- Jenny Bryan's talk [Code Smells and Feels](https://github.com/jennybc/code-smells-and-feels)
+- Palestra de Jenny Bryan [Códigos com cheiros e sensações](https://github.com/jennybc/code-smells-and-feels)
 
-- Book [The Art of Readable Code](https://www.oreilly.com/library/view/the-art-of/9781449318482/) by Dustin Boswell and Trevor Foucher
+- Livro [A arte do código legível](https://www.oreilly.com/library/view/the-art-of/9781449318482/) por Dustin Boswell e Trevor Foucher
 
-- Book [Tidy Design by Hadley Wickham, in progress](https://design.tidyverse.org/), with [associated newsletter](https://tidydesign.substack.com/)
+- Livro [Tidy Design, de Hadley Wickham, em andamento](https://design.tidyverse.org/) com [boletim informativo associado](https://tidydesign.substack.com/)
 
-- Book [A Philosophy of Software Design by John Ousterhout](https://masalmon.eu/2023/10/19/reading-notes-philosophy-software-design/)
+- Livro [Uma filosofia de design de software, de John Ousterhout](https://masalmon.eu/2023/10/19/reading-notes-philosophy-software-design/)
+
+
