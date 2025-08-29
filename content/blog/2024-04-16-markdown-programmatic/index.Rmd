@@ -58,11 +58,12 @@ Furthermore there are different _flavors_ or _specifications (specs)_ of Markdow
 
 
 Markdown flavors that R users will commonly interact with include: 
+
 - R Markdown which uses Pandoc under the hood, 
 - Quarto (uses Pandoc under the hood... see any trend here?), 
 - GitHub which uses [GitHub Flavored Markdown (GFM)](https://github.github.com/gfm/), 
 - Markdown in roxygen2 which uses Commonmark through [{commonmark}](https://cran.r-project.org/web/packages/commonmark/index.html),
-- Hugo, for blogdown or hugodown websites, which support the Commonmark and GFM specs : https://gohugo.io/content-management/formats/#markdown,
+- Hugo, for blogdown or hugodown websites, which support the [Commonmark and GFM specs](https://gohugo.io/content-management/formats/#markdown),
 - Jekyll which uses GFM with quirks through [kramdown](https://jekyllrb.com/docs/configuration/markdown/).
 
 Many tools using Markdown also accept metadata at the top of Markdown files, either YAML or TOML.
