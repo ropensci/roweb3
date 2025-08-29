@@ -19,7 +19,7 @@ tags:
   - tech notes
 description: ""
 output: hugodown::md_document
-rmd_hash: 100eaa813d7006ea
+rmd_hash: 80c532f825cf3562
 
 ---
 
@@ -81,9 +81,11 @@ In Markdown you can add code chunks, that will be properly formatted and highlig
 
 Tools for literate programming such as knitr (for R Markdown and Quarto) will let you add code chunks that will be executed to render the document:
 
-    <div class='highlight'><pre class='chroma'><code class='language-r' data-lang='r'><span><span class='m'>1</span> <span class='o'>+</span> <span class='m'>1</span></span>
-    <span><span class='c'>#&gt; [1] 2</span></span>
-    <span></span></code></pre></div>
+    ```{r} 
+    #| label: my-chunk
+    #| echo: true
+    1 + 1
+    ```
 
 The latter syntax, the executable code chunks, are not necessarily properly handled by off-the-shelf "normal" tools like Pandoc.
 
@@ -152,9 +154,9 @@ Using the workflow above, we can r
 <span><span class='nf'>make_assignment</span><span class='o'>(</span><span class='nv'>key</span>, template <span class='o'>=</span> <span class='nv'>md</span><span class='o'>)</span></span>
 <span><span class='nf'><a href='https://rdrr.io/r/base/print.html'>print</a></span><span class='o'>(</span><span class='nv'>key</span><span class='o'>)</span></span>
 <span><span class='c'>#&gt;         name mean  sd             file</span></span>
-<span><span class='c'>#&gt; 1     Maëlle    5 0.8     Maëlle-hw.md</span></span>
-<span><span class='c'>#&gt; 2 Christophe    2 0.4 Christophe-hw.md</span></span>
-<span><span class='c'>#&gt; 3      Zhian    4 0.9      Zhian-hw.md</span></span>
+<span><span class='c'>#&gt; 1     Maëlle    6 0.9     Maëlle-hw.md</span></span>
+<span><span class='c'>#&gt; 2 Christophe    6 0.8 Christophe-hw.md</span></span>
+<span><span class='c'>#&gt; 3      Zhian    5 0.2      Zhian-hw.md</span></span>
 <span></span></code></pre>
 
 </div>
@@ -169,7 +171,7 @@ title: "Homework assignment 1"
 author: "Zhian"
 ---
 
-Create a normal distribution with a mean of 4 and a standard deviation of 0.9:
+Create a normal distribution with a mean of 5 and a standard deviation of 0.2:
 
 ```{r solution-1}
 # hint: use the rnorm function
@@ -231,7 +233,7 @@ You can choose a parser based on what it lets you manipulate the Markdown with: 
 
 Another important criterion is to choose a parser that's a close to the use case of your Markdown files as possible. If you are only going to work with Markdown files for GitHub, commonmark/tinkr is an excellent choice since GitHub itself uses commonmark. Now, your work might encompass different sorts of Markdown files that will be used by different tools. For instance, the babeldown package processes any Markdown file[^4]: Markdown, R Markdown, Quarto, Hugo. In that case, or if there is no R parser doing exactly what your Markdown's end user does, you need to pay attention to the quirks of that end user. Maybe you have to throw [Pandoc raw attributes](blog/2023/06/01/troubleshooting-pandoc-problems-as-an-r-user/#raw-attributes) around a Hugo shortcode, for instance. Furthermore, if you need to parse certain elements, like again Hugo shortcodes, you might need to write the parsing code yourself, that is, regular expressions.
 
-## What about the Code Chunks
+## What about the Code Chunks?
 
 Programmatically parsing and editing R code is out of the scope of this post, but closely related enough to throw in a few tips.
 
