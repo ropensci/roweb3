@@ -1,6 +1,6 @@
 ---
-title: An Example of the DRY/DAMP Principles for Package Tests 
-author: 
+title: Um exemplo dos princípios DRY/DAMP para testes de pacotes
+author:
 - Maëlle Salmon
 editor:
 - Steffi LaZerte
@@ -8,27 +8,28 @@ date: '2024-03-18'
 slug: dry-damp
 output: hugodown::md_document
 tags:
-  - tech notes
-  - package development
-  - champions program
-  - how-to
-  - testing
+- tech notes
+- package development
+- champions program
+- how-to
+- testing
 params:
-  doi: "10.59350/yt047-xf054"
+  doi: 10.59350/yt047-xf054
 ---
 
-rOpenSci's [second cohort of Champions has been onboarded](/blog/2024/02/15/champions-program-champions-2024/)!
-Their training first started with a [session on code style](/blog/2024/02/22/beautiful-code/), was followed by three sessions on the basics of R package development, and ended with a session on [advanced R package development](https://rpkgdev-rocket-2024.netlify.app/), which consisted of a potpourri of tips with discussion, followed by time for applying these principles to the participants' packages.
-Here, I want to share one of the topics covered: Package testing, and in particular, the DRY ("don't repeat yourself") and DAMP ("descriptive and meaningful phrases") principles.
-For this topic, we used a [GitHub repository](https://github.com/maelle/swamp), containing an R package whose different commits illustrate the two principles. In each step we'll share a commit or diff illustrating the changes made.
+rOpenSci's [O segundo grupo de campeões foi integrado](/blog/2024/02/15/champions-program-champions-2024/)!
+Seu treinamento começou com um [sessão sobre estilo de código](/blog/2024/02/22/beautiful-code/) foi seguido por três sessões sobre os fundamentos do desenvolvimento de pacotes R e terminou com uma sessão sobre [desenvolvimento avançado de pacotes R](https://rpkgdev-rocket-2024.netlify.app/) que consistiu em um pot-pourri de dicas com discussão, seguido de tempo para aplicar esses princípios aos pacotes dos participantes.
+Aqui, quero compartilhar um dos tópicos abordados: Testes de pacotes e, em particular, os princípios DRY ("não se repita") e DAMP ("frases descritivas e significativas").
+Para esse tópico, usamos um [repositório do GitHub](https://github.com/maelle/swamp) que contém um pacote R cujos diferentes commits ilustram os dois princípios. Em cada etapa, compartilharemos um commit ou diff que ilustra as alterações feitas.
 
-## Stage 1: muddy!
+## Etapa 1: lamacento!
 
-First commit: Set up our test files, [test-works.R](https://github.com/maelle/swamp/blob/c67cc053cafb2cc5f5125cbc745b2f392a84e3df/tests/testthat/test-works.R) and [test-ok.R](https://github.com/maelle/swamp/blob/c67cc053cafb2cc5f5125cbc745b2f392a84e3df/tests/testthat/test-ok.R)
+Primeiro commit: Configurar nossos arquivos de teste, [test-works.R](https://github.com/maelle/swamp/blob/c67cc053cafb2cc5f5125cbc745b2f392a84e3df/tests/testthat/test-works.R) e [test-ok.R](https://github.com/maelle/swamp/blob/c67cc053cafb2cc5f5125cbc745b2f392a84e3df/tests/testthat/test-ok.R)
 
-These initial test files both define an object called `test_object` at the top level, which is used in two tests in each file.
+Esses arquivos de teste iniciais definem um objeto chamado `test_object` no nível superior, que é usado em dois testes em cada arquivo.
 
 **test-works.R**
+
 ```r
 test_object <- list(a = 1, b = 2)
 
@@ -41,9 +42,10 @@ test_that("addition works", {
 })
 ```
 
-and
+e
 
 **test-ok.R**
+
 ```r
 test_object <- list(a = 1, b = 2)
 
@@ -56,49 +58,49 @@ test_that("substraction works", {
 })
 ```
 
-It is not an optimal pattern because you can't look at each `test_that()` test in isolation and quickly understand what is going on.
-In a very long test file you would even have to scroll up and down! :scream:
-Furthermore we are being repetitive by defining the same test object in two test files.
+Esse não é um padrão ideal porque você não pode examinar cada `test_that()` teste isoladamente e entender rapidamente o que está acontecendo.
+Em um arquivo de teste muito longo, você teria até mesmo que rolar a tela para cima e para baixo!
+Além disso, estamos sendo repetitivos ao definir o mesmo objeto de teste em dois arquivos de teste.
 
-## Stage 2: DRY!
+## Estágio 2: SECO!
 
-Next commit: [DRY out these files](https://github.com/maelle/swamp/commit/381f244f56f1837207f2150a7e76c70bd59c0422)
+Próximo commit: [Descompactar esses arquivos](https://github.com/maelle/swamp/commit/381f244f56f1837207f2150a7e76c70bd59c0422)
 
-At this stage we diligently remember about DRY, Don't Repeat Yourself, and about the mechanics of [testthat helper files](https://blog.r-hub.io/2020/11/18/testthat-utility-belt/):
-files whose names start with `helper-` are loaded before all tests.
+Nesta etapa, lembramos diligentemente sobre DRY, Don't Repeat Yourself (Não se repita), e sobre a mecânica de [arquivos auxiliares de teste](https://blog.r-hub.io/2020/11/18/testthat-utility-belt/):
+arquivos cujos nomes começam com `helper-` são carregados antes de todos os testes.
 
-So we create a helper file (`helper-swamp.R`) within which `test_object` is defined and therefore available for tests!
+Portanto, criamos um arquivo auxiliar (`helper-swamp.R`) no qual o `test_object` é definido e, portanto, disponível para testes!
 
-In `tests/testthat/helper-swamp.R`,
+Em `tests/testthat/helper-swamp.R`,
 
 ```r
 test_object <- list(a = 1, b = 2)
 ```
 
-In the test files, we removed the first line that defined `test_object`.
+Nos arquivos de teste, removemos a primeira linha que definia `test_object`.
 
-Now things aren't perfect yet. 
-When we look at any of the test files, we can't really know what `test_object` is as its name is not "descriptive and meaningful".
+Agora as coisas ainda não estão perfeitas.
+Quando olhamos para qualquer um dos arquivos de teste, não podemos realmente saber o que você quer dizer. `test_object` é, pois seu nome não é "descritivo e significativo".
 
-Furthermore we now have `test_object` which is *always* defined even if it isn't used in a test. 
-At best this is unnecessary and useless; at worst it could have unintended side-effects, particularly with more complex code! [^leak]
+Além disso, agora temos `test_object` que é *sempre* definido, mesmo que não seja usado em um teste.
+ Na melhor das hipóteses, isso é desnecessário e inútil; na pior, pode ter efeitos colaterais indesejados, especialmente em códigos mais complexos! [^leak]
 
-[^leak]: This is a leak. In another test, one could wonder why some object exists, why a specific option has been set, etc. and it's a bit of a nightmare to debug.
+[^leak]: Isso é um vazamento. Em outro teste, você poderia se perguntar por que um objeto existe, por que uma opção específica foi definida, etc., e isso é um pesadelo para depurar.
 
+## Etapa 3: Foco no DAMP
 
-## Stage 3: Focus on DAMP
+Terceiro compromisso: [Aplicar os princípios do DAMP](https://github.com/maelle/swamp/commit/9cc08937e1cabf112955004212e1d0bccf2ccda4)
 
-Third commit: [Apply DAMP principals](https://github.com/maelle/swamp/commit/9cc08937e1cabf112955004212e1d0bccf2ccda4)
-
-In the helper file, `tests/testthat/helper-swamp.R`, we re-factor the code into a _function_ with a more meaningful name (at least let's pretend it is!).
+No arquivo auxiliar, `tests/testthat/helper-swamp.R` reescrevemos o código em um arquivo *função* com um nome mais significativo (pelo menos vamos fingir que é!).
 
 ```r
 basic_list <- function() {
   list(a = 1, b = 2)
 }
 ```
-Next, we call this function to define the object in all tests where it's needed. 
-Thus the test files become
+
+Em seguida, chamamos essa função para definir o objeto em todos os testes em que ele for necessário.
+Assim, os arquivos de teste se tornam
 
 ```r
 test_that("division works", {
@@ -107,8 +109,7 @@ test_that("division works", {
 })
 ```
 
-and 
-
+e
 
 ```r
 test_that("substraction works", {
@@ -117,24 +118,24 @@ test_that("substraction works", {
 })
 ```
 
-Now, while the actual definition of the basic list is not in all tests, we have a better idea of what's going on when reading the test.
+Agora, embora a definição real da lista básica não esteja em todos os testes, temos uma ideia melhor do que está acontecendo ao ler o teste.
 
-Further, if the test were to fail, in the console we could run `devtools::load_all()` and run the code of the test, as `devtools::load_all()` loads testthat helper files so `basic_list()` would be available.
+Além disso, se o teste falhasse, poderíamos executar no console `devtools::load_all()` e executar o código do teste, como `devtools::load_all()` carrega os arquivos auxiliares do teste de modo que `basic_list()` estejam disponíveis.
+
+## Conclusão
+
+O equilíbrio entre DRY ("Don't repeat yourself") e DAMP ("Descriptive and meaningful phrases") é uma troca.
+Para manter a analogia com a água, também precisamos garantir que nosso código não tenha efeitos que possam "vazar" inesperadamente.
+O que devemos buscar são testes autônomos que possamos entender e executar sem muito contexto.
+
+Outra consideração que não abordamos aqui são os testes que exigem elementos específicos, como variáveis de ambiente ou opções. Nesses casos, tente usar [withr](https://withr.r-lib.org/) como [`withr::local_envvar()`](https://withr.r-lib.org/reference/with_envvar.html) em cada teste que o exigir.
+
+Uma ideia poderosa do livro ["Engenharia de software no Google"](https://www.oreilly.com/library/view/software-engineering-at/9781492082781/) de Titus Winters, Tom Manshreck e Hyrum Wright, é que o código pode se dar ao luxo de ser um pouco menos óbvio porque tem testes que o cobrem, mas o código de teste, que não é coberto por testes, não tem esse luxo.
+
+## Outros recursos
+
+- Os três capítulos sobre testes de pacotes do livro R packages, de Hadley Wickham e Jenny Bryan, são uma leitura altamente recomendada: [Noções básicas de teste](https://r-pkgs.org/testing-basics.html), [Projetando seu conjunto de testes](https://r-pkgs.org/testing-design.html), [Técnicas avançadas de teste](https://r-pkgs.org/testing-advanced.html).
+
+- Postagem no blog [Por que os bons desenvolvedores escrevem testes de unidade ruins](https://mtlynch.io/good-developers-bad-tests/) por Michael Lynch.
 
 
-## Conclusion
-
-The balance between DRY ("Don't repeat yourself") and DAMP ("Descriptive and meaningful phrases") is a trade-off.
-To keep the water analogy, we also need to ensure that our code doesn't have effects which may 'leak' unexpectedly.
-What we should strive for are self-contained tests that we can understand and run without too much context.
-
-Another consideration we haven't covered here, are tests that require specific elements, such as environment variables or options. In those cases try using [withr](https://withr.r-lib.org/) functions such as [`withr::local_envvar()`](https://withr.r-lib.org/reference/with_envvar.html) in each test that requires it.
-
-One powerful idea from the book ["Software Engineering at Google"](https://www.oreilly.com/library/view/software-engineering-at/9781492082781/) by Titus Winters, Tom Manshreck, and Hyrum Wright, is that code can afford to be a bit less obvious because it has tests covering it, but test code, which isn't covered by tests, does not have this luxury.
-
-
-## Further resources
-
-- The three chapters on package testing of the R packages book by Hadley Wickham and Jenny Bryan are a highly recommended read: [Testing basics](https://r-pkgs.org/testing-basics.html), [Designing your test suite](https://r-pkgs.org/testing-design.html), [Advanced testing techniques](https://r-pkgs.org/testing-advanced.html).
-
-- Blog post [Why Good Developers Write Bad Unit Tests](https://mtlynch.io/good-developers-bad-tests/) by Michael Lynch.
