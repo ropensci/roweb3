@@ -104,6 +104,7 @@ Tools for literate programming such as knitr (for R Markdown and Quarto) will le
 ````
 
 The latter syntax, the executable code chunks, are not necessarily properly handled by off-the-shelf "normal" tools like Pandoc.
+This is something to keep in mind if you're dealing with documents that contain executable code chunks.
 
 
 ## Templating Tools for Boilerplate Documents
@@ -180,7 +181,7 @@ You'd detect headings using for instance `grep("^#", markdown_lines)`[^edge].
 Example of string manipulation tools include base R (`sub()`, `grep()` and friends), [stringr](https://stringr.tidyverse.org/) (and stringi), `xfun::gsub_file()`.
 
 Although string manipulation tools are of a limited usefulness when parsing Markdown, they can _complement_ the actual parsing tools.
-Even if using specific Markdown parsing tools will help you write less regular expressions yourself... they won't completely free you from them.
+Even if using specific Markdown parsing tools will help you write fewer regular expressions yourself... they won't completely free you from them.
 
 ## Abstract Represensation Manipulation Tools
 
