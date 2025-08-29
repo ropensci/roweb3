@@ -234,7 +234,13 @@ Furthermore, if you need to parse certain elements, like again Hugo shortcodes, 
 ## What about the Code Chunks
 
 Programmatically parsing and editing R code is out of the scope of this post, but closely related enough to throw in a few tips.
+
+### Regular expressions
+
 As with Markdown, you might need to use regular expressions but try not to.
+
+### {xmlparsedata}
+
 You can parse the code to XML using base R parsing and [xmlparsedata](https://r-lib.github.io/xmlparsedata/), then you manipulate the XML with [XPath](https://masalmon.eu/2022/04/08/xml-xpath/).
 To write code back, you can make use of the attributes of each node that indicates the original lines and columns.
 
@@ -242,6 +248,10 @@ So a possible workflow, as exemplified in a [blog post](https://masalmon.eu/2024
 
 - parse the code to XML, use xmlparsedata to inform what to change and where. Out of these steps you'd get a list of elements' positions for instance.
 - use brio to read the lines, change a few of them with base R tools, then use brio again to write the lines back.
+
+### {treesitter}
+
+[treesitter](https://github.com/DavisVaughan/r-tree-sitter) by Davis Vaughan "provides R bindings to tree-sitter, an incremental parsing system".
 
 ## Examples of Markdown Parsing and Editing
 
