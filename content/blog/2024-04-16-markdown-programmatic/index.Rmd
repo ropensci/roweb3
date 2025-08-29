@@ -1,6 +1,6 @@
 ---
 slug: "markdown-programmatic-parsing"
-title: All the ways to programmatically edit R Markdown / Quarto documents
+title: All the ways to programmatically edit or parse R Markdown / Quarto documents
 author:
   - Maëlle Salmon
   - Christophe Dervieux
@@ -22,7 +22,7 @@ output: hugodown::md_document
 ---
 
 If life gives you a bunch of Markdown files to analyse or edit, do you warm up your regex muscles and get going?
-How about using more specific parsing tools instead?
+How about using more specific tools instead?
 In this post, we shall give an overview of programmatic ways to parse and edit Markdown files: Markdown, R Markdown, Quarto, Hugo files, you name it.
 
 ## What is Markdown?
@@ -50,14 +50,19 @@ Some content, with parts in __bold__ or _italic_. Let me add a [link](https://ro
 
 ```
 
-Furthermore there are different _flavors_ of Markdown[^md-flavours], which add some [extended syntax], like emoji written so: `:grin:`.
+Furthermore there are different _flavors_ or _specifications (specs)_ of Markdown[^md-flavours], which add some [extended syntax], like emoji written so: `:grin:`.
 
 [^md-flavours]: As of 2024-06-20, there are [76 programs that parse Markdown](https://github.com/markdown/markdown.github.com/wiki/Implementations), some with their own unique flavour.
 
 [extended syntax]: https://www.markdownguide.org/extended-syntax/
 
 
-Markdown formats that R users will commonly interact with include: R Markdown (uses Pandoc under the hood), Quarto (uses Pandoc under the hood... see any trend here?), GitHub, Hugo (for blogdown or hugodown websites).
+Markdown flavors that R users will commonly interact with include: 
+- R Markdown which uses Pandoc under the hood, 
+- Quarto (uses Pandoc under the hood... see any trend here?), 
+- GitHub which uses [GitHub Flavored Markdown (GFM)](https://github.github.com/gfm/), 
+- Markdown in roxygen2 which uses Commonmark through [{commonmark}](https://cran.r-project.org/web/packages/commonmark/index.html),
+- Hugo, for blogdown or hugodown websites, which support the Commonmark and GFM specs : https://gohugo.io/content-management/formats/#markdown.
 
 Many tools using Markdown also accept metadata at the top of Markdown files, either YAML or TOML.
 Here is an example with YAML:
@@ -114,10 +119,10 @@ n <- length(students)
 key <- data.frame(
   name = students,
   mean = rpois(n, 5),
-  sd   = sprintf("%.1f", runif(n)),
+  sd = sprintf("%.1f", runif(n)),
   file = sprintf("%s-hw.md", students)
 )
-# render and write assignment from template ---- 
+# render and write assignment from template ----
 make_assignment <- function(key, template) {
   lapply(seq(n), function(i) {
     new <- whisker::whisker.render(template, data = key[i, ])
