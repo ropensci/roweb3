@@ -76,7 +76,7 @@ author: Myself
 Some content, *nice* content.
 ```
 
-Most often R users will write Markdown manually, or with the help of an editor such as the RStudio IDE visual editor.
+Most often R users will write Markdown manually, or with the help of an editor such as the [Positron visual editor](https://quarto.org/docs/tools/positron/visual-editor.html) or the [RStudio IDE visual editor](https://posit.co/blog/exploring-rstudio-visual-markdown-editor/).
 But sometimes, one will have to create or edit a bunch of Markdown files at once, and editing all those files by hand is a huge waste of time. 
 This blog post will give you resources in R that you can use to create, parse, and edit Markdown documents, so that you can become the Markdown wizard you have always dreamed of becoming :mage:!
 
