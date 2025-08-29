@@ -50,7 +50,7 @@ Some content, with parts in __bold__ or _italic_. Let me add a [link](https://ro
 
 ```
 
-Furthermore there are different _flavors_ or _specifications (specs)_ of Markdown[^md-flavours], which add some [extended syntax], like emoji written so: `:grin:`.
+Furthermore there are different _flavors_ or _specifications (specs)_ of Markdown[^md-flavours], which add some [extended syntax], like emoji written with colons.
 
 [^md-flavours]: As of 2024-06-20, there are [76 programs that parse Markdown](https://github.com/markdown/markdown.github.com/wiki/Implementations), some with their own unique flavour.
 
@@ -62,7 +62,8 @@ Markdown flavors that R users will commonly interact with include:
 - Quarto (uses Pandoc under the hood... see any trend here?), 
 - GitHub which uses [GitHub Flavored Markdown (GFM)](https://github.github.com/gfm/), 
 - Markdown in roxygen2 which uses Commonmark through [{commonmark}](https://cran.r-project.org/web/packages/commonmark/index.html),
-- Hugo, for blogdown or hugodown websites, which support the Commonmark and GFM specs : https://gohugo.io/content-management/formats/#markdown.
+- Hugo, for blogdown or hugodown websites, which support the Commonmark and GFM specs : https://gohugo.io/content-management/formats/#markdown,
+- Jekyll which uses GFM with quirks through [kramdown](https://jekyllrb.com/docs/configuration/markdown/).
 
 Many tools using Markdown also accept metadata at the top of Markdown files, either YAML or TOML.
 Here is an example with YAML:
