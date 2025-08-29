@@ -57,7 +57,7 @@ Furthermore there are different _flavors_ or _specifications (specs)_ of Markdow
 [extended syntax]: https://www.markdownguide.org/extended-syntax/
 
 
-Markdown flavors that R users will commonly interact with include: 
+R users will commonly interact with different Markdown flavors through their usual tools: 
 
 - R Markdown which uses Pandoc under the hood, 
 - Quarto (uses Pandoc under the hood... see any trend here?), 
@@ -313,5 +313,8 @@ The [babeldown package](https://docs.ropensci.org/babeldown/) maintained by Maë
 
 ## Conclusion
 
-In this post we explained how to best parse and edit Markdown files: using specific parsing tools, possibly complemented by ad-hoc string manipulation.
+In this post we explained how to best parse and edit Markdown files.
+To create boilerplate documents (think: mailmerge), we recommended templating tools such as [`knitr::knit_expand()`](https://bookdown.org/yihui/rmarkdown-cookbook/knit-expand.html), the [whisker package](https://github.com/edwindj/whisker), the [brew package](https://github.com/gregfrog/brew), Pandoc.
+To edit small parts of a document, we brought up string manipulation tools i.e. regular expressions, with base R (`sub()`, `grep()` and friends), [stringr](https://stringr.tidyverse.org/) (and stringi), `xfun::gsub_file()`.
+For heavier, and safer, manipulation, we listed tools based on tools that manipulate the abstract representation of documents: tinkr, md4r, Pandoc, parseqmd, parsermd, lightparser.
 What do *you* use to handle Markdown files?
