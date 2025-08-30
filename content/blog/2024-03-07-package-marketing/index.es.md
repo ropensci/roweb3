@@ -1,5 +1,5 @@
 ---
-title: Marketing Ideas For Your Package
+title: Ideas de marketing para tu paquete
 author:
 - Yanina Bellini Saibene
 - Maëlle Salmon
@@ -11,52 +11,55 @@ tags:
 - community
 - maintenance
 - package-development
-
-description: "Now that you have created your package, presenting it to the world is a crucial step to gain visibility and attract users.  In this blog post we suggest a series of activities and tools for advertizing your package."
+description: Ahora que has creado tu paquete, presentarlo al mundo es un paso crucial
+  para ganar visibilidad y atraer usuarios.  En esta entrada del blog te proponemos
+  una serie de actividades y herramientas para publicitar tu paquete.
 params:
-  doi: "10.59350/04b0t-fv224"
+  doi: 10.59350/04b0t-fv224
 ---
 
-Now that you have created your package, presenting it to the world is a crucial step to **gain visibility and attract users**. 
+Ahora que has creado tu paquete, presentarlo al mundo es un paso crucial para **ganar visibilidad y atraer usuarios**.
 
-Marketing your package effectively contributes to reaching the people your package can support, finding users to assist you in maintaining and improving your package and allowing you to learn about how people use it.
+Comercializar tu paquete de forma eficaz contribuye a llegar a las personas a las que tu paquete puede ayudar, a encontrar usuarios que te ayuden a mantener y mejorar tu paquete y te permite conocer cómo lo utiliza la gente.
 
-In this blog post we suggest a series of activities and tools for advertising your package.   
+En esta entrada del blog te proponemos una serie de actividades y herramientas para publicitar tu paquete.
 
-## Publish
+## Publica
 
-Create a comprehensive [README](https://blog.r-hub.io/2019/12/03/readmes/) which clearly explains what your package does, how to install it, and how users can start using it. Include examples or use cases and (links to) any relevant information which might help users understand how your package can help them. 
+Crea un completo [LÉEME](https://blog.r-hub.io/2019/12/03/readmes/) que explique claramente qué hace tu paquete, cómo instalarlo y cómo pueden empezar a utilizarlo los usuarios. Incluye ejemplos o casos de uso y (enlaces a) cualquier información relevante que pueda ayudar a los usuarios a entender cómo puede ayudarles tu paquete.
 
-If you use GitHub, you can [pin your package repository to your profile](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/pinning-items-to-your-profile) so other people can find it quickly.
+Si utilizas GitHub, puedes [anclar el repositorio de tu paquete a tu perfil](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/pinning-items-to-your-profile) para que otras personas puedan encontrarlo rápidamente.
 
-[Create a universe on R-universe](/blog/2021/06/22/setup-runiverse/), which will help users by simplifying the installation of your package, and which will provide useful stats and information about it. R-Universe is also a way to showcase your packages collection. You can also [publish it on CRAN](https://cran.r-project.org) which is another way of simplifying the installation for your potential users.
+[Crea un universo en R-universe](/blog/2021/06/22/setup-runiverse/) que ayudará a los usuarios simplificando la instalación de tu paquete, y que proporcionará estadísticas e información útiles sobre él. R-Universe es también una forma de mostrar tu colección de paquetes. También puedes [publicarla en CRAN](https://cran.r-project.org) que es otra forma de simplificar la instalación a tus usuarios potenciales.
 
-Finally, consider submitting your package to our [peer review process](/software-review/) if in scope. All these steps will support you with discoverability and also to comply with quality standards. If this is of interest to you, we generally recommend [submitting for review before submitting to CRAN](https://devguide.ropensci.org/policies.html#publishing-in-other-venues) as the review comments can often help with CRAN submissions.
+Por último, considera la posibilidad de enviar tu paquete a nuestro [proceso de revisión por pares](/software-review/) si está dentro de su alcance. Todos estos pasos te ayudarán a ser descubierta y también a cumplir las normas de calidad. Si esto te interesa, generalmente recomendamos [someterlo a revisión antes de enviarlo a CRAN](https://devguide.ropensci.org/policies.html#publishing-in-other-venues) ya que los comentarios de la revisión a menudo pueden ayudar con los envíos a CRAN.
 
-## Promote
+## Promociona
 
-Now that your package is published and ready to be used, here are some suggestions for things you can do to help promote your package and build it's user base.
+Ahora que tu paquete está publicado y listo para ser utilizado, aquí tienes algunas sugerencias de cosas que puedes hacer para ayudar a promocionar tu paquete y construir su base de usuarios.
 
-Leverage platforms like Mastodon, LinkedIn, and R-specific forums such as [R-bloggers](https://www.r-bloggers.com) and [R Weekly](https://rweekly.org) to announce the release of your package. You can also use your own social media or blog to share updates, tutorials, use cases, talks, and upcoming events where you will be available to engage with users. 
+Aprovecha plataformas como Mastodon, LinkedIn y foros específicos de R como [R-bloggers](https://www.r-bloggers.com) y [Semanario R](https://rweekly.org) para anunciar el lanzamiento de tu paquete. También puedes utilizar tus propias redes sociales o blog para compartir actualizaciones, tutoriales, casos de uso, charlas y próximos eventos en los que estarás disponible para interactuar con los usuarios.
 
-If your package is part of the rOpenSci Suite you can [write a blog post or a tech note](https://blogguide.ropensci.org/) for our blog and we will share in our [monthly newsletter](/news/) and our social media.
+Si tu paquete forma parte de la rOpenSci Suite puedes [escribir una entrada de blog o una nota técnica](https://blogguide.ropensci.org/) para nuestro blog y la compartiremos en nuestro [boletín mensual](/news/) y en nuestras redes sociales.
 
-For rOpenSci packages, we collect the [use cases](/usecases) and feature them on the website as well as [the package](/packages/). We also have social media campaigns, for example ["A Package a Day"](https://hachyderm.io/@rOpenSci/tagged/APackageADay) on Mastodon were we feature one package of our suite each day. On LinkedIn we publish every Monday our ["Package Weekly Digest"](https://www.linkedin.com/feed/update/urn:li:activity:7170464303186108416) with a list of five package that belong to the same category.
+Para los paquetes rOpenSci, recopilamos la [casos de uso](/usecases) y los presentamos en el sitio web, así como [el paquete](/packages/). También tenemos campañas en las redes sociales, por ejemplo ["Un paquete al día](https://hachyderm.io/@rOpenSci/tagged/APackageADay) en Mastodon, donde presentamos un paquete de nuestro conjunto cada día. En LinkedIn publicamos cada lunes nuestro ["Resumen semanal de paquetes".](https://www.linkedin.com/feed/update/urn:li:activity:7170464303186108416) con una lista de cinco paquetes que pertenecen a la misma categoría.
 
-If you like to give talks, you can speak at an R User Group or [R-Ladies Chapter](https://www.meetup.com/pro/rladies/). Organizers invite speakers but most groups are open to offers to give a talk or teach a workshop. Presenting your package at a domain-specific conference is another way to reach users and gain greater exposure. There are also R-specific conferences like [useR!](https://events.linuxfoundation.org/user/), [LatinR](https://latin-r.com/), [satRdays](https://satrdays.org/) and [Posit::Conf](https://posit.co/conference/). 
+Si te gusta dar charlas, puedes hablar en un Grupo de Usuarios de R o [Capítulo R-Ladies](https://www.meetup.com/pro/rladies/). Los organizadores invitan a los ponentes, pero la mayoría de los grupos están abiertos a ofertas para dar una charla o impartir un taller. Presentar tu paquete en una conferencia de un dominio específico es otra forma de llegar a los usuarios y conseguir una mayor exposición. También hay conferencias específicas de R como [¡useR!](https://events.linuxfoundation.org/user/), [LatinR](https://latin-r.com/), [sábados](https://satrdays.org/) y [Posit::Conf](https://posit.co/conference/).
 
-rOpenSci has two-hour [co-working sessions each month](/coworking/), feel free to contact us if you're interested in hosting a co-working session on a topic related to your package.
+rOpenSci tiene dos horas [de dos horas cada mes](/coworking/) no dudes en ponerte en contacto con nosotros si estás interesado en organizar una sesión de co-working sobre un tema relacionado con tu paquete.
 
-If your package has a broad scope, you can also propose an [rOpenSci Community Call](/commcalls/) on your package. For example, a community call about [targets](/commcalls/jan2023-targets/) included a panel with two users showing how they use the package and the principal author sharing new insights about the package. Alternatively, consider getting together with other package authors and proposing a domain-related Community Call, covering the use of several, more specific packages (for instance, [Research Applications of rOpenSci Taxonomy and Biodiversity Tools](/commcalls/2019-03-27/)).
+Si tu paquete tiene un alcance amplio, también puedes proponer una [Convocatoria de la Comunidad rOpenSci](/commcalls/) sobre tu paquete. Por ejemplo, una llamada comunitaria sobre [tiene como objetivo](/commcalls/jan2023-targets/) incluyó un panel con dos usuarios que mostraron cómo utilizan el paquete y el autor principal compartió nuevos conocimientos sobre el paquete. Como alternativa, considera la posibilidad de reunirte con otros autores de paquetes y proponer una convocatoria comunitaria relacionada con el ámbito, que abarque el uso de varios paquetes más específicos (por ejemplo, [Aplicaciones de investigación de las herramientas de taxonomía y biodiversidad de rOpenSci](/commcalls/2019-03-27/)).
 
-You can check if your package fits in a [CRAN Task View](https://cran.r-project.org/web/views/) and propose the addition of your package.
+Puedes comprobar si tu paquete encaja en una [Vista de tareas de CRAN](https://cran.r-project.org/web/views/) y proponer la adición de tu paquete.
 
-If your goal is to find help to maintain your package, label your issues as "Help Wanted"" or "Good First Issue" to guide your contributors where their support is needed. [Help Wanted issues of the packages in the rOpenSci suite are featured on our webpage](/help-wanted/), shared on social media and our newsletter.  We also assist maintainers in writing a technical note for our blog post with more details on the type of contribution they need with their packages, whether it is [code contributions](/blog/2024/03/01/qualtrics-call-help/), [close issues](/blog/2024/02/27/assertr-call-help/) or [answering questions](/blog/2024/02/29/targets-call-help/). 
+Si tu objetivo es encontrar ayuda para mantener tu paquete, etiqueta tus temas como "Se busca ayuda"" o "Buen primer tema" para orientar a tus colaboradores sobre dónde se necesita su ayuda. [Los temas de "Se busca ayuda" de los paquetes del conjunto rOpenSci aparecen en nuestra página web](/help-wanted/) y se comparten en las redes sociales y en nuestro boletín.  También ayudamos a los mantenedores a escribir una nota técnica para nuestro blog con más detalles sobre el tipo de contribución que necesitan con sus paquetes, ya sea [contribuciones de código](/blog/2024/03/01/qualtrics-call-help/), [cerrar temas](/blog/2024/02/27/assertr-call-help/) o [responder preguntas](/blog/2024/02/29/targets-call-help/).
 
-Publishing a paper about your package is an important aspect for academics developers. General R journals for publishing R packages are [The R Journal](https://journal.r-project.org) and the [Journal of Statistical Software](https://www.jstatsoft.org/index), but remember that domain-specific journals may also publish R packages as tools for the field (for instance, [Methods in Ecology and Evolution](https://besjournals.onlinelibrary.wiley.com/journal/2041210x))
+Publicar un artículo sobre tu paquete es un aspecto importante para los desarrolladores académicos. Las revistas generales de R para publicar paquetes de R son [La Revista R](https://journal.r-project.org) y el [Revista de Software Estadístico](https://www.jstatsoft.org/index), pero recuerda que las revistas de ámbitos específicos también pueden publicar paquetes de R como herramientas para el campo (por ejemplo, [Métodos en Ecología y Evolución](https://besjournals.onlinelibrary.wiley.com/journal/2041210x))
 
-The package that are peer-reviewed by rOpenSci have a fast track for publication on the [Journal Open Source Software](https://joss.theoj.org).
+El paquete que es revisado por pares por rOpenSci tiene una vía rápida para su publicación en el [Revista Software de Código Abierto](https://joss.theoj.org).
 
-## Conclusion
+## Conclusión
 
-As a package maintainer there are several activities you can implement to advertise your package. If you package is part of rOpenSci's suite, there are also ways we can support you. By implementing some of these options we hope you can effectively reach users who can benefit from your package's functionality.  
+Como mantenedor de un paquete hay varias actividades que puedes llevar a cabo para dar publicidad a tu paquete. Si tu paquete forma parte de la suite de rOpenSci, también hay formas en las que podemos apoyarte. Al poner en práctica algunas de estas opciones, esperamos que puedas llegar eficazmente a los usuarios que pueden beneficiarse de la funcionalidad de tu paquete.
+
+
