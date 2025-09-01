@@ -318,7 +318,8 @@ author: "Jane Doe"
 ```
 
 To extract or edit YAML/TOML/JSON metadata, you first need to decapitate Markdown documents.
-For instance, rmarkdown has a function called `rmarkdown::yaml_front_matter()` to extract the YAML metadata of an R Markdown document.
+For instance, rmarkdown has a function called `rmarkdown::yaml_front_matter()` to extract the YAML metadata of an R Markdown document;
+the quarto R package has a function called `quarto::quarto_inspect()` that among other things outputs the metadata.
 
 You might read the _lines_ of the Markdown document using `readLines()` or `brio::read_lines()`, before resorting to regular expressions to identify the start and end of the frontmatter depending on its format.
 
