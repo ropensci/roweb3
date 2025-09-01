@@ -19,7 +19,7 @@ tags:
   - tech notes
 description: ""
 output: hugodown::md_document
-rmd_hash: 3665f8cc31985be8
+rmd_hash: 3c1186640a23ddac
 
 ---
 
@@ -158,9 +158,9 @@ Using the workflow below, we can create different Markdown documents correspondi
 <span><span class='nf'>make_assignment</span><span class='o'>(</span><span class='nv'>key</span>, template <span class='o'>=</span> <span class='nv'>md</span><span class='o'>)</span></span>
 <span><span class='nf'><a href='https://rdrr.io/r/base/print.html'>print</a></span><span class='o'>(</span><span class='nv'>key</span><span class='o'>)</span></span>
 <span><span class='c'>#&gt;         name mean  sd             file</span></span>
-<span><span class='c'>#&gt; 1     Maëlle    5 0.8     Maëlle-hw.md</span></span>
-<span><span class='c'>#&gt; 2 Christophe    6 0.1 Christophe-hw.md</span></span>
-<span><span class='c'>#&gt; 3      Zhian    3 0.6      Zhian-hw.md</span></span>
+<span><span class='c'>#&gt; 1     Maëlle    7 0.2     Maëlle-hw.md</span></span>
+<span><span class='c'>#&gt; 2 Christophe    5 0.5 Christophe-hw.md</span></span>
+<span><span class='c'>#&gt; 3      Zhian    2 0.3      Zhian-hw.md</span></span>
 <span></span></code></pre>
 
 </div>
@@ -174,7 +174,7 @@ title: "Homework assignment 1"
 author: "Zhian"
 ---
 
-Create a normal distribution with a mean of 3 and a standard deviation of 0.6:
+Create a normal distribution with a mean of 2 and a standard deviation of 0.3:
 
 ```{r solution-1}
 # hint: use the rnorm function
@@ -236,7 +236,7 @@ How would you use Pandoc to edit and write back a Markdown file?
 
 -   Using JSON filters: Pandoc converts to AST outputing a JSON representation of it, then any tools can modify this JSON file and provided a modified version to pandoc to convert back to markdown.
 
-Note that Pandoc does not support executable code chunks.
+Note that Pandoc does not support executable code chunks, as it won't be able to parse executable code chunk as `Codeblock`.
 
 ### {parseqmd}
 

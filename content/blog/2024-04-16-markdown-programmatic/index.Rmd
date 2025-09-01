@@ -233,7 +233,7 @@ How would you use Pandoc to edit and write back a Markdown file?
 
 - Using JSON filters: Pandoc converts to AST outputing a JSON representation of it, then any tools can modify this JSON file and provided a modified version to pandoc to convert back to markdown.
 
-Note that Pandoc does not support executable code chunks.
+Note that Pandoc does not support executable code chunks, as it won't be able to parse executable code chunk as `Codeblock`.
 
 ### {parseqmd}
 
