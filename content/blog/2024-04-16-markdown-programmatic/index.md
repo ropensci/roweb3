@@ -19,7 +19,7 @@ tags:
   - tech notes
 description: ""
 output: hugodown::md_document
-rmd_hash: 0df61fff85658cfb
+rmd_hash: a24e51f725692d58
 
 ---
 
@@ -81,11 +81,16 @@ In Markdown you can add code chunks, that will be properly formatted and highlig
 
 Tools for literate programming such as knitr (for R Markdown and Quarto) will let you add code chunks that will be executed to render the document:
 
-    ```{r} 
-    #| label: my-chunk
-    #| echo: true
-    1 + 1
-    ```
+<div class="highlight">
+
+<pre class='chroma'><code class='language-r' data-lang='r'>```{r}
+#| label: my-chunk
+#| echo: true
+1 + 1
+```
+</code></pre>
+
+</div>
 
 The latter syntax, the executable code chunks, are not necessarily properly handled by off-the-shelf "normal" tools like Pandoc. This is something to keep in mind if you're dealing with documents that contain executable code chunks.
 
@@ -153,9 +158,9 @@ Using the workflow below, we can create different Markdown documents correspondi
 <span><span class='nf'>make_assignment</span><span class='o'>(</span><span class='nv'>key</span>, template <span class='o'>=</span> <span class='nv'>md</span><span class='o'>)</span></span>
 <span><span class='nf'><a href='https://rdrr.io/r/base/print.html'>print</a></span><span class='o'>(</span><span class='nv'>key</span><span class='o'>)</span></span>
 <span><span class='c'>#&gt;         name mean  sd             file</span></span>
-<span><span class='c'>#&gt; 1     Maëlle    5 0.1     Maëlle-hw.md</span></span>
-<span><span class='c'>#&gt; 2 Christophe    6 0.4 Christophe-hw.md</span></span>
-<span><span class='c'>#&gt; 3      Zhian    2 0.7      Zhian-hw.md</span></span>
+<span><span class='c'>#&gt; 1     Maëlle    6 0.6     Maëlle-hw.md</span></span>
+<span><span class='c'>#&gt; 2 Christophe    5 0.5 Christophe-hw.md</span></span>
+<span><span class='c'>#&gt; 3      Zhian    7 0.6      Zhian-hw.md</span></span>
 <span></span></code></pre>
 
 </div>
@@ -169,7 +174,7 @@ title: "Homework assignment 1"
 author: "Zhian"
 ---
 
-Create a normal distribution with a mean of 2 and a standard deviation of 0.7:
+Create a normal distribution with a mean of 7 and a standard deviation of 0.6:
 
 ```{r solution-1}
 # hint: use the rnorm function
