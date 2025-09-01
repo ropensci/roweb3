@@ -95,8 +95,8 @@ In Markdown you can add code chunks, that will be properly formatted and highlig
 Tools for literate programming such as knitr (for R Markdown and Quarto) will let you add code chunks that will be executed to render the document:
 
 
-````
-```{r} `r ''`
+````{verbatim}
+```{r}
 #| label: my-chunk
 #| echo: true
 1 + 1
