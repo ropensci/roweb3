@@ -13,7 +13,7 @@
     </section>
     <img class="divider" src="../images/svg/divider-rl.svg" alt="" />
 {{ end }}
-    {{ partial "calendar/events" (dict "Site" .Site )  }}
+{{ partial "calendar/events" (dict "Site" .Site "Content" .Content "Tips" .Params.Tips )  }}
          
 {{ $newsletterpartial := (partial "translate-path" (dict "name" "whole-page-fragments/newsletter" "language" .Language.Lang )) }}
 {{ partial $newsletterpartial (dict "Site" .Site "divider" "rl" )  }}
