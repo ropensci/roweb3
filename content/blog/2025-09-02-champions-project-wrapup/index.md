@@ -4,9 +4,10 @@ slug: "champions-program-projects-cohort2"
 author:
   - Yanina Bellini Saibene
 editor:
- - Maëlle Salmon
  - Mark Padgham
+ - Maëlle Salmon
 date: '2025-09-02'
+featured: true
 tags:
   - community
   - champions program
