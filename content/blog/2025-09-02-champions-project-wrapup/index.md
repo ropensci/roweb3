@@ -58,7 +58,8 @@ Our Champions carried out a wide range of outreach activities including talks, c
 Outreach activities commenced in August 2024, involved local communities (universities, RUGs, R-Ladies Chapters, conferences, and organizations), and were delivered in the Champions’ native/preferred languages (English, Spanish, Portuguese and Chinese).
 
 [Liz Hare, member of this cohort worked together with Cagri, a champion from the first cohort to do outreach activities](https://ropensci.org/events/rsr-learn-and-use/) and also introduce their cohort mates to other communities and organizations giving them [space to share what they did during the Champions Program](https://www.youtube.com/watch?v=p2Odyp9VIPA).
-[Victor Ordu](/author/victor-ordu/), first cohort champion, participated in the Unilorin meetup organized by Ezekiel, speaking about [Hands-On Data Cleaning in R with Regular Expressions](https://youtu.be/N0DdbszMt2Y?si=3eZd-G1z-AcYW_TQ)
+[Victor Ordu](/author/victor-ordu/), first cohort champion, participated in the Unilorin meetup organized by Ezekiel, speaking about [Hands-On Data Cleaning in R with Regular Expressions](https://youtu.be/N0DdbszMt2Y?si=3eZd-G1z-AcYW_TQ).
+
 Champions worked with their local communities to organize different kinds of events and spaces:
 
 - Sunny organized a workshop to teach how to use the package she developed during the champions program in Taiwan. 
@@ -78,12 +79,12 @@ Champions also wrote blog posts for rOpenSci's website covering technological as
 
 Academic publications are also part of the outcomes of the Champions work. For example, Sehrish Kanwal published a paper about the [RNAsum R package](https://doi.org/10.1101/2025.01.10.24319650).
 
-LatinR, useR!, Posit and several other conferences were attended by our champions. For example, Andrea presented the package she developed during the program at the Latin American Conference on the Use of R in R&D and the Government Advances in Statistical Programming Conference. 
+LatinR, useR!, Posit, Big Team Science and several other conferences were attended by our champions. For example, Andrea presented the package she developed during the program at the Latin American Conference on the Use of R in R&D and the Government Advances in Statistical Programming Conference. 
 In addition Sunny, Andrea and Erika received scholarships to attend Posit Conf 2024 and Sunny and Andrea were able to participate.
-Erika and Andrea also presented their respective packages developed during the program at useR! 2025.
+Erika and Andrea also presented their respective packages developed during the program at useR! 2025. Liz will present rOpenSci Develop, Package and Peer Review Guide at [Big Team Science Conference 2025.](https://bigteamscienceconference.github.io/registration/)
 
 ## Champions' accomplishments and next steps
 
-Our Champions have been very successful, and have gained a lot from their projects and from their relationships with their mentors and their cohort mates. The impact of their work has enriched both their home institutions and local communities. Their outreach activities shared information and knowledge in local contexts, and fostered productive spaces such as R user groups.
+Our Champions have been very successful, and have gained a lot from their projects and from their relationships with their mentors and their cohort mates. The impact of their work has enriched their home institutions, their local communities and rOpenSci Community. Their outreach activities shared information and knowledge in local ajd international contexts, and fostered productive spaces such as R user groups.
 
 Many of our Champions will continue with their outreach activities and maintenance of their R package. Stay updated about their activities through our events and talks section in our website, our newsletter and social media! 
