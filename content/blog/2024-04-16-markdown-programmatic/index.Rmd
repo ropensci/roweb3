@@ -52,7 +52,7 @@ Some content, with parts in __bold__ or _italic_. Let me add a [link](https://ro
 
 Furthermore there are different _flavors_ or _specifications (specs)_ of Markdown[^md-flavours], which add some [extended syntax], like emoji written with colons.
 
-[^md-flavours]: As of 2024-06-20, there are [76 programs that parse Markdown](https://github.com/markdown/markdown.github.com/wiki/Implementations), some with their own unique flavour.
+[^md-flavours]: As of 2024-06-20, there are [76 programs that parse Markdown](https://web.archive.org/web/20250328101117/https://github.com/markdown/markdown.github.com/wiki/Implementations), some with their own unique flavour.
 
 [extended syntax]: https://www.markdownguide.org/extended-syntax/
 
