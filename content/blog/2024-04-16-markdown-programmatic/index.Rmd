@@ -329,7 +329,7 @@ Finally if you need to write back the Markdown document, you'd write back its li
 
 ## Examples of Markdown Parsing and Editing
 
-The [pegboard package](https://carpentries.github.io/pegboard/) maintained by Zhian Kamvar, parses and validates Carpentries' lessons for structural Markdown elements, including valid links, alt-text, and known fenced-divs thanks to tinkr.
+The [pegboard package](https://carpentries.github.io/pegboard/) created by Zhian Kamvar and maintained by The Carpentries, parses and validates Carpentries' lessons for structural Markdown elements, including valid links, alt-text, and known fenced-divs thanks to tinkr.
 This package was instrumental in converting all of The Carpentries lesson infrastructure from Jekyll's Markdown syntax to Pandoc's Markdown[^transition].
 
 [^transition]: For examples, see [The Carpentries Workbench Transition Guide](https://carpentries.github.io/workbench/transition-guide.html).
