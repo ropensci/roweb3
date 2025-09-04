@@ -19,6 +19,8 @@ tags:
   - tech notes
 description: ""
 output: hugodown::md_document
+params:
+  doi: "10.59350/e4xca-kx329"
 ---
 
 If life gives you a bunch of Markdown files to analyse or edit, do you warm up your regex muscles and get going?
