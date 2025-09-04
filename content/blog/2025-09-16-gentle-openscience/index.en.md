@@ -46,7 +46,7 @@ How can we improve open code quality?[^1]
 
 [^1]: Trisovic A, Lau MK, Pasquier T, et al. [A large-scale study on research code quality and execution](https://www.nature.com/articles/s41597-022-01143-6). Sci Data 9, 60 (2022). https://doi.org/10.1038/s41597-022-01143-6
 
-{{< figure src = "alot.png" width = "400" alt = "A slide with a surpised looking grey-crowned crane with a large crown of feathers around it's head. The text reads 'Whoa! That's a lot! Why do Open Science?" class = "pull-right">}}
+{{< figure src = "alot.png" width = "400" alt = "A slide with a surpised looking grey-crowned crane with a large crown of feathers around it's head. The text reads 'Whoa! That's a lot! Why do Open Science?" class = "pull-right" caption = "[Grey-crowned crane](https://upload.wikimedia.org/wikipedia/commons/1/1c/Grey_Crowned_Crane_2.jpg) - Kuribo, CC BY-SA 2.0">}}
 
 But I think we sometimes forget that in addition to time, skills, and sometimes funding, 
 **to practice open science takes a great deal of courage**[^2].
