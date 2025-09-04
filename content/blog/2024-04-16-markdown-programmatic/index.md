@@ -19,7 +19,9 @@ tags:
   - tech notes
 description: ""
 output: hugodown::md_document
-rmd_hash: 3c1186640a23ddac
+params:
+  doi: "10.59350/e4xca-kx329"
+rmd_hash: 52c15c4ba938d12d
 
 ---
 
@@ -158,9 +160,9 @@ Using the workflow below, we can create different Markdown documents correspondi
 <span><span class='nf'>make_assignment</span><span class='o'>(</span><span class='nv'>key</span>, template <span class='o'>=</span> <span class='nv'>md</span><span class='o'>)</span></span>
 <span><span class='nf'><a href='https://rdrr.io/r/base/print.html'>print</a></span><span class='o'>(</span><span class='nv'>key</span><span class='o'>)</span></span>
 <span><span class='c'>#&gt;         name mean  sd             file</span></span>
-<span><span class='c'>#&gt; 1     Maëlle    7 0.2     Maëlle-hw.md</span></span>
-<span><span class='c'>#&gt; 2 Christophe    5 0.5 Christophe-hw.md</span></span>
-<span><span class='c'>#&gt; 3      Zhian    2 0.3      Zhian-hw.md</span></span>
+<span><span class='c'>#&gt; 1     Maëlle    4 0.9     Maëlle-hw.md</span></span>
+<span><span class='c'>#&gt; 2 Christophe    4 0.4 Christophe-hw.md</span></span>
+<span><span class='c'>#&gt; 3      Zhian    8 0.9      Zhian-hw.md</span></span>
 <span></span></code></pre>
 
 </div>
@@ -174,7 +176,7 @@ title: "Homework assignment 1"
 author: "Zhian"
 ---
 
-Create a normal distribution with a mean of 2 and a standard deviation of 0.3:
+Create a normal distribution with a mean of 8 and a standard deviation of 0.9:
 
 ```{r solution-1}
 # hint: use the rnorm function
@@ -310,7 +312,7 @@ Finally if you need to write back the Markdown document, you'd write back its li
 
 ## Examples of Markdown Parsing and Editing
 
-The [pegboard package](https://carpentries.github.io/pegboard/) maintained by Zhian Kamvar, parses and validates Carpentries' lessons for structural Markdown elements, including valid links, alt-text, and known fenced-divs thanks to tinkr. This package was instrumental in converting all of The Carpentries lesson infrastructure from Jekyll's Markdown syntax to Pandoc's Markdown[^5].
+The [pegboard package](https://carpentries.github.io/pegboard/) created by Zhian Kamvar and maintained by The Carpentries, parses and validates Carpentries' lessons for structural Markdown elements, including valid links, alt-text, and known fenced-divs thanks to tinkr. This package was instrumental in converting all of The Carpentries lesson infrastructure from Jekyll's Markdown syntax to Pandoc's Markdown[^5].
 
 The [babeldown package](https://docs.ropensci.org/babeldown/) maintained by Maëlle Salmon transforms Markdown to XML, sends it to DeepL API for translation, and writes the results back to Markdown, also using tinkr.
 
@@ -320,7 +322,7 @@ In this post we explained how to best parse and edit Markdown files. To create b
 
 What do *you* use to handle Markdown files?
 
-[^1]: As of 2024-06-20, there are [76 programs that parse Markdown](https://github.com/markdown/markdown.github.com/wiki/Implementations), some with their own unique flavour.
+[^1]: As of 2024-06-20, there are [76 programs that parse Markdown](https://web.archive.org/web/20250328101117/https://github.com/markdown/markdown.github.com/wiki/Implementations), some with their own unique flavour.
 
 [^2]: But this would also detect code comments! Don't do this!
 
