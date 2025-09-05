@@ -19,16 +19,15 @@ social: "@steffilazerte@fosstodon.org explores a talk on Open Science for Ornith
 editor:
 ---
 
-<!--In addition to supporting our wonderful community manager, Yani, with her amazing work ensuring the rOpenSci community is fun, productive and welcoming (join me at [Coworking](/coworking)!), nowadays I spend most of my time working on R-related projects for Canadian scientists across different sectors in Canada.-->
 {{< figure src = "sunny_and_steffi.jpg" width = "300" alt = "A photo of Sunny Tseng and Steffi LaZerte grinning at the camera and holding up hex stickers for different rOpenSci R packages." class = "pull-right" caption = "Sunny and Steffi showing off their R hex stickers!">}}
 
 This summer I had a wonderful time attending the [Society for Canadian Ornithologists](https://www.sco-soc.ca/) meeting in Saskatoon, Canada. 
 It was super exciting to run into [Sunny Tseng](/author/yi-chin-sunny-tseng/), rOpenSci Champion and fellow [ornithologist](https://en.wikipedia.org/wiki/Ornithology)! It's not often that I am able to run into both types of colleagues (R developers and ornithologists) at the same conference, so I cherish these experiences.
 
 Back before I joined rOpenSci I started my professional career as a behavioural ecologist and ornithologist, studying the effects of urban noise and habitat on communication in Chickadees (Tits for the non-North Americans). 
-While I've shifted into R consulting and supporting Yani here at rOpenSci with our amazing community, today I still work mostly for other ornithologists or bird-related conservation non-profits. 
+While I've shifted into R consulting and supporting [Yani](/author/yanina-bellini-saibene) here at rOpenSci with our amazing community, today I still work mostly for other ornithologists or bird-related conservation non-profits. 
 
-This means that the [Society for Canadian Ornithologists](https://www.sco-soc.ca/) is still very much my 'home' organization and I'm always excited to go meetings and reconnect with my colleagues.
+This means that the [Society for Canadian Ornithologists](https://www.sco-soc.ca/) is still very much my 'home' organization and I'm always excited to go to meetings and reconnect with my colleagues.
 But ornithology conference or not, I always try to bring a bit of R, Open Science, and rOpenSci to the meeting 😄.
 
 In the past I've organized symposia on topics such as "[R for Ornithologists: Perspectives from useRs to programmeRs (to birdeRs)](https://github.com/steffilazerte/Presentations/tree/master/2019-08%20SOC%20-%20R%20Symposium#readme)" or "[How can ornithologists find R packages?](https://github.com/steffilazerte/Presentations/tree/master/2021-08%20AOS%7CSOC%20-%20R%20Symposium#readme)", and have helped run workshops on R packages for ornithology (like [bbsBayes2](https://github.com/bbsBayes/bbsBayes2)).
@@ -40,13 +39,13 @@ And because ornithology has many scientists already working with open data, open
 to share some ideas for how to they might encourage more of their colleagues to join in. 
 
 For the rOpenSci community, this may feel very much "back to basics". 
-The conversations we have are more often about how can you be better at open science?
-How can you make that study completely reproducible?
-How can we improve open code quality?[^1]
+The conversations we have are more often about how can you be *better* at open science?
+How can you make that study *completely* reproducible?
+How can we *improve* open code quality[^1]?
 
 [^1]: Trisovic A, Lau MK, Pasquier T, et al. [A large-scale study on research code quality and execution](https://www.nature.com/articles/s41597-022-01143-6). Sci Data 9, 60 (2022). https://doi.org/10.1038/s41597-022-01143-6
 
-{{< figure src = "alot.png" width = "400" alt = "A slide with a surpised looking grey-crowned crane with a large crown of feathers around it's head. The text reads 'Whoa! That's a lot! Why do Open Science?" class = "pull-right" caption = "[Grey-crowned crane](https://upload.wikimedia.org/wikipedia/commons/1/1c/Grey_Crowned_Crane_2.jpg) - Kuribo, CC BY-SA 2.0">}}
+{{< figure src = "alot.png" width = "400" alt = "A slide with a surpised looking grey-crowned crane with a large crown of feathers around it's head. The text reads 'Whoa! That's a lot! Why do Open Science?" class = "pull-right" caption = "Slide acknowledging that open science can be challenging<br>([Grey-crowned crane](https://upload.wikimedia.org/wikipedia/commons/1/1c/Grey_Crowned_Crane_2.jpg) - Kuribo, CC BY-SA 2.0)">}}
 
 But I think we sometimes forget that in addition to time, skills, and sometimes funding, 
 **to practice open science takes a great deal of courage**[^2].
@@ -55,8 +54,8 @@ But I think we sometimes forget that in addition to time, skills, and sometimes 
 
 For those just getting started (like students), or those without open science support (like researchers at small institutions), 
 practicing open science can seem overwhelming and extremely intimidating.
-It's scary to think about the consequences if you don't "do open science right", 
-or if you make a mistake. 
+It's scary to think about the criticisms if you don't "do open science right", 
+or the consequences if you make a mistake. 
 
 I wanted to focus on baby steps, to make it clear that it's making the effort that's important, not getting it perfect!
 
@@ -73,7 +72,7 @@ So in addition to some practical advice, I gave four general tips:
     - Mistakes happen, just remember that by practicing open science, you're already awesome!
 
 4. **[Work with others](https://steffilazerte.ca/Presentations/2025-08-Open-Science/index.html#/tip-4-work-with-others)**
-    - Find your community!
+    - Find your community
     
 I think the best thing about giving this talk, was the number of students who approached me afterwards, 
 excited (and nervous) to start sharing their code online. Full of questions from practical ones about using GitHub to general ones about how 'good' your code needs to be to be shared.
