@@ -18,7 +18,7 @@ We have developed an initial [prototype organizational dashboard](https://ropens
 These three organizations host open-source software for understanding and analysing epidemics.
 We aim to develop the current prototype as both an organization-wide dashboard for rOpenSci, and also as a template for adoption and adaptation by other open-source organizations.
 
-## Help design and develop our dashboard
+## Help design and develop our dashboard!
 
 We are seeking help in the further design and development of our [prototype organizational dashboard](https://ropensci-review-tools.github.io/repometrics-demo/).
 The primary aim is to help all people involved with, or interested in, rOpenSci, through providing an organization-wide overview of the state of our code repositories and of the community activity which sustains them.
