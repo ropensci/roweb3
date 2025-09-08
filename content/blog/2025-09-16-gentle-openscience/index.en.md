@@ -21,10 +21,10 @@ editor:
 
 {{< figure src = "sunny_and_steffi.jpg" width = "300" alt = "A photo of Sunny Tseng and Steffi LaZerte grinning at the camera and holding up hex stickers for different rOpenSci R packages." class = "pull-right" caption = "Sunny and Steffi showing off their R hex stickers!">}}
 
-This summer I had a wonderful time attending the [Society for Canadian Ornithologists](https://www.sco-soc.ca/) meeting in Saskatoon, Canada. 
+This summer I had a wonderful time attending the [Society for Canadian Ornithologists](https://www.sco-soc.ca/) meeting in [Saskatoon](https://en.wikipedia.org/wiki/Saskatoon), Canada. 
 It was super exciting to run into [Sunny Tseng](/author/yi-chin-sunny-tseng/), rOpenSci Champion and fellow [ornithologist](https://en.wikipedia.org/wiki/Ornithology)! It's not often that I am able to run into both types of colleagues (R developers and ornithologists) at the same conference, so I cherish these experiences.
 
-Back before I joined rOpenSci I started my professional career as a behavioural ecologist and ornithologist, studying the effects of urban noise and habitat on communication in Chickadees (Tits for the non-North Americans). 
+Back before I joined rOpenSci I started my professional career as a behavioural ecologist and ornithologist, studying the effects of urban noise and habitat on communication in [Chickadees](https://en.wikipedia.org/wiki/Chickadee) (Tits for the non-North Americans). 
 While I've shifted into R consulting and supporting [Yani](/author/yanina-bellini-saibene) here at rOpenSci with our amazing community, today I still work mostly for other ornithologists or bird-related conservation non-profits. 
 
 This means that the [Society for Canadian Ornithologists](https://www.sco-soc.ca/) is still very much my 'home' organization and I'm always excited to go to meetings and reconnect with my colleagues.
