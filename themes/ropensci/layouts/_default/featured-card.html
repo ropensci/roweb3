@@ -12,7 +12,7 @@
                 {{ end }}
                 </div>
                 <a href="{{ .Permalink }}" class="card-title"
-                  >{{ .Title | markdownify }}{{ if intersect (slice .Section) (slice "commcalls" "events") }} <em>({{ .Params.lang | default "English"}})</em> {{ end }}
+                  >{{ .Title | markdownify }}
                 </a>
 
                 <div class="d-flex justify-content-between card-user">
