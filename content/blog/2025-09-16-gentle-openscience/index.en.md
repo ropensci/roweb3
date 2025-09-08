@@ -3,20 +3,14 @@ slug: "gentle-openscience"
 title: A Gentle Introduction to Open Science
 author:
   - Steffi LaZerte
-# Set the date below to the publication date of your post
 date: 2025-09-16
-# Minimal tags for a post about a community-contributed package 
-# that has passed software peer review are listed below
-# Consult the Technical Guidelines for information on choosing tags
 tags:
   - open science
   - welcome
   - community
-description:
-# the text below is for populating the "share on Mastodon" button
-# if deleted, the title of the post will be used
+description: Steffi reviews a talk on open science. Don’t forget that it takes courage; be kind to yourself!
 social: "@steffilazerte@fosstodon.org explores a talk on Open Science for Ornithologists, a gentle introduction to Open Science."
-editor:
+editor: Maëlle Salmon
 ---
 
 {{< figure src = "sunny_and_steffi.jpg" width = "300" alt = "A photo of Sunny Tseng and Steffi LaZerte grinning at the camera and holding up hex stickers for different rOpenSci R packages." class = "pull-right" caption = "Sunny and Steffi showing off their R hex stickers!">}}
