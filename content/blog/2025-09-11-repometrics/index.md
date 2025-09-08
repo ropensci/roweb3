@@ -36,6 +36,11 @@ Please make comments either directly, or via or discussions in the [associated G
 Want to give private feedback?
 No worries, email <mark@ropensci.org> directly.
 
+Please note:
+1. The dashboard is built on a huge wealth of data, so presume any data you can think of from full git logs and GitHub APIs are already there and could be used.
+2. Those data include time series of most things measured, even though many are only presented as snapshots of latest status.
+3. Given those 2 points, the biggest challenge is reducing these data to some minimally meaningful amount.
+
 ## Thank you!
 
 Thank you! 
