@@ -20,6 +20,9 @@ The prototype dashboard shows data for the three related GitHub organizations, [
 These three organizations host open-source software for understanding and analysing epidemics.
 We aim to develop the current prototype as both an organization-wide dashboard for rOpenSci, and also as a template for adoption and adaptation by other open-source organizations.
 
+![](./repometrics-index.png)
+![](./repometrics-pkg-network.png)
+
 ## Help design and develop our dashboard!
 
 We are seeking help in the further design and development of our [prototype organizational dashboard](https://ropensci-review-tools.github.io/repometrics-demo/), both for the organizations featured there, and more generally for a planned rOpenSci-wide dashboard.
