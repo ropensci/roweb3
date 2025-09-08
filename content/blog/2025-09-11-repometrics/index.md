@@ -1,5 +1,5 @@
 ---
-title: Help us design a new Git(Hub) organizational dashboard
+title: Help Us Design a New Git(Hub) Organizational Dashboard
 author: 
 - Mark Padgham
 date: '2025-09-11'
