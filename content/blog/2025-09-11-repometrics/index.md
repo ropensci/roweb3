@@ -12,7 +12,9 @@ tags:
   - tech notes
 params:
   doi: "10.59350/fa54c-v4n44"
-
+editor: 
+- Maëlle Salmon
+- Yanina Bellini Saibene
 ---
 
 We have developed an initial [prototype organizational dashboard](https://ropensci-review-tools.github.io/repometrics-demo/) which aims to provide insights into code contributors, their repositories, and maintenance status and needs.
