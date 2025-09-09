@@ -24,7 +24,7 @@ We aim to develop the current prototype as a template for adoption and adaptatio
 
 {{< figure src = "repometrics-index.png" alt = "Screenshot of main prototype dashboard page." class = "pull-left" caption = "Organizational overview sections from main prototype dashboard page.">}}
 
-{{< figure src = "repometrics-pkg-network.png" alt = "Screenshot of network connections between packages." class = "pull-left" caption = "Screenshot of interactive network diagram connecting packages in the organization.">}}
+{{< figure src = "repometrics-pkg-network.png" alt = "Network connections between packages." class = "pull-left" caption = "Interactive network diagram connecting packages in the organization.">}}
 
 The primary aim of the dashboard is to help all people involved with, or interested in, either those epidemic-related organizations or rOpenSci, through providing an organization-wide overview of the state of code repositories and the community activity which sustains them.
 
