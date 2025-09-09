@@ -12,7 +12,7 @@
                 {{ end }}
                 </div>
                 <a href="{{ .Permalink }}" class="card-title"
-                  >{{ .Title | markdownify }}
+                  >{{ if eq .Type "commcalls" }} {{ i18n "Community-call" }} {{ "--" | markdownify }} {{ end }}{{ .Title | markdownify }}
                 </a>
 
                 <div class="d-flex justify-content-between card-user">
