@@ -10,6 +10,8 @@ tags:
   - community
 description: Steffi reviews a talk on open science. Don’t forget that it takes courage; be kind to yourself!
 social: "@steffilazerte@fosstodon.org explores a talk on Open Science for Ornithologists, a gentle introduction to Open Science."
+params:
+  doi: 10.59350/mp76s-rkp03
 editor: Maëlle Salmon
 ---
 
