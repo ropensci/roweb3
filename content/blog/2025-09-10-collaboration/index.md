@@ -1,6 +1,6 @@
 ---
-title: "rOpenSci Champions Second Cohort: Projects Wrap-Up"
-slug: "champions-program-projects-cohort2"
+title: "From Surviving to Thriving: A Convening to Reclaim and Sustain Open Science Communities"
+slug: "collaboration-communities"
 author:
   - Kari L. Jordan
   - Erin Becker
@@ -17,9 +17,9 @@ tags:
   - community
   - collaboration
   - funding
-description: ""
+description: "Five leading open science organizations — The Carpentries, OLS, rOpenSci, pyOpenSci, and PREreview — are coming together for a strategic convening, supported by The Navigation Fund, to address shared challenges of underfunding, fragmentation, and unsustainable volunteer models."
 params:
-  doi: ""
+  doi: "10.59350/py3e3-esa68"
 ---
 
 Open science has transformed how research is conducted, shared, and reused.
