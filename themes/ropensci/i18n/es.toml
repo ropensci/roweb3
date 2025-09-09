@@ -191,6 +191,9 @@
 
 [Community-calls]  
   other = 'Conversaciones con la comunidad'
+
+[Community-call]  
+  other = 'Conversacion con la comunidad'
   
 [Coworking]  
   other = 'Sesiones de trabajo'
@@ -332,6 +335,10 @@
 
 [Language]
   other = 'Idioma'
+
+[Future-ropensci-events]
+  other = 'Eventos futuros de rOpenSci'
+
 
 [Find-more-coworking]
   other = "¡Descubre más sobre las sesiones de trabajo!"
