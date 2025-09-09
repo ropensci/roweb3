@@ -22,7 +22,7 @@ Our initial [prototype organizational dashboard](https://ropensci-review-tools.g
 The prototype dashboard shows data for the three related GitHub organizations, [reconhub](https://github.com/reconhub), [epiverse](https://github.com/epiverse), and [epiverse-trace](https://github.com/epiverse-trace), all of which develop and host open-source software for understanding and analysing epidemics.
 We aim to develop the current prototype as a template for adoption and adaptation by other open-source organizations.
 
-{{< figure src = "repometrics-index.png" alt = "Screenshot of main prototype dashboard page." class = "pull-left" caption = "Organizational overview sections from main prototype dashboard page.">}}
+{{< figure src = "repometrics-index.png" alt = "Main prototype dashboard page. There are two cards, the left one shows the total number of packages and below that it lists the organizations ordered from largest to smallest by the number of packages they have. The right card shows the number of package that needs urgent maintenance. It lists those packages with a link" class = "pull-left" caption = "Organizational overview sections from main prototype dashboard page.">}}
 
 {{< figure src = "repometrics-pkg-network.png" alt = "Network connections between packages." class = "pull-left" caption = "Interactive network diagram connecting packages in the organization.">}}
 
