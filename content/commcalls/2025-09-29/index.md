@@ -7,7 +7,6 @@ publishDate: 2025-09-29
 description: "Community Call about R-multiverse"
 author:
   - Will Landau 
-  - Yanina Bellini Saibene
 organizer: 
   - Yanina Bellini Saibene
   - Steffi LaZerte
