@@ -37,7 +37,7 @@ Please help us by providing suggestions for any ways you think the [prototype or
 If you're a contributor to, or maintainer of, an R package, we'd particularly like to hear about any ways the dashboard could be made more useful for you.
 Please make comments either directly, or via or discussions in the [associated GitHub repository](https://github.com/ropensci-review-tools/orgmetrics/discussions).
 Want to give private feedback?
-No worries, email <mark@ropensci.org> directly.
+No worries, email me [directly](mailto:mark@ropensci.org).
 
 Please note:
 1. The dashboard is built on a huge wealth of data, so presume any data you can think of from full git logs and GitHub APIs are already there and could be used.
