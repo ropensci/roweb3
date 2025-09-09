@@ -71,9 +71,9 @@ So in addition to some practical advice, I gave four general tips:
     - Find your community
     
 I think the best thing about giving this talk, was the number of students who approached me afterwards, 
-excited (and nervous) to start sharing their code online. Full of questions from practical ones about using GitHub to general ones about how 'good' your code needs to be to be shared.
+excited (and nervous) to start sharing their code online. Full of questions from practical ones about using GitHub to general ones about how 'good' your code needs to be to be shared. My answer to this last question was "If you used it, share it. (But annotate like mad)" 😉
 
-My answer to this last question was "If you used it, share it. (But annotate like mad)" 😉
+What are your favourite tips for encouraging open science?
 
 ### Acknowledgements
 
