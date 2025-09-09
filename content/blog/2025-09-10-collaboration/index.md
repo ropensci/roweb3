@@ -12,7 +12,6 @@ author:
   - Leah Wasser
   - Yo Yehudi
 date: '2025-09-10'
-featured: true
 tags:
   - community
   - collaboration
