@@ -78,7 +78,7 @@ En plus de quelques conseils pratiques, j'ai donc donné quatre conseils génér
 Je pense que ce qui m'a le plus plu dans cette conférence, c'est le nombre d'étudiants qui m'ont abordé par la suite, enthousiastes (et nerveux) à l'idée de commencer à partager leur code en ligne.
 Ils m'ont posé de nombreuses questions, qu'il s'agisse de questions pratiques sur l'utilisation de GitHub ou de questions générales sur la qualité de leur code pour qu'il soit partagé.
 Ma réponse à cette dernière question a été : "Si vous l'avez utilisé, partagez-le.
-(Mais annotez-le comme un fou)"
+(Mais annotez-le comme un fou !)"
 
 Quels sont vos conseils préférés pour encourager la science ouverte ?
 
