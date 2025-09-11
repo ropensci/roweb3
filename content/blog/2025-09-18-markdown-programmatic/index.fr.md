@@ -21,7 +21,7 @@ description: ''
 output: hugodown::md_document
 params:
   doi: 10.59350/etdf6-t7k64
-rmd_hash: 6cebc079d2eb50e5
+rmd_hash: f9c91a86effb7655
 
 ---
 
@@ -158,9 +158,9 @@ En utilisant le flux de travail ci-dessous, nous pouvons créer différents docu
 <span><span class='nf'>make_assignment</span><span class='o'>(</span><span class='nv'>key</span>, template <span class='o'>=</span> <span class='nv'>md</span><span class='o'>)</span></span>
 <span><span class='nf'><a href='https://rdrr.io/r/base/print.html'>print</a></span><span class='o'>(</span><span class='nv'>key</span><span class='o'>)</span></span>
 <span><span class='c'>#&gt;         name mean  sd             file</span></span>
-<span><span class='c'>#&gt; 1     Maëlle   12 0.9     Maëlle-hw.md</span></span>
-<span><span class='c'>#&gt; 2 Christophe    2 0.6 Christophe-hw.md</span></span>
-<span><span class='c'>#&gt; 3      Zhian    4 1.0      Zhian-hw.md</span></span>
+<span><span class='c'>#&gt; 1     Maëlle    5 0.8     Maëlle-hw.md</span></span>
+<span><span class='c'>#&gt; 2 Christophe    5 0.9 Christophe-hw.md</span></span>
+<span><span class='c'>#&gt; 3      Zhian    7 0.3      Zhian-hw.md</span></span>
 <span></span></code></pre>
 
 </div>
@@ -174,7 +174,7 @@ title: "Homework assignment 1"
 author: "Zhian"
 ---
 
-Create a normal distribution with a mean of 4 and a standard deviation of 1.0:
+Create a normal distribution with a mean of 7 and a standard deviation of 0.3:
 
 ```{r solution-1}
 # hint: use the rnorm function
@@ -246,7 +246,7 @@ Nic Crane a créé un paquet expérimental appelé [parseqmd](https://github.com
 
 Le [paquet parsermd](https://rundel.github.io/parsermd/) est également maintenu par Colin Rundel et est une "implémentation d'une grammaire formelle et d'un analyseur pour les documents R Markdown en utilisant la bibliothèque Boost Spirit X3. Il comprend également une collection de fonctions de haut niveau pour travailler avec l'arbre syntaxique abstrait résultant."
 
-Ce paquetage possède des fonctionnalités pour un flux de travail "tidy" te permettant de sélectionner différentes sections du document. Une caractéristique utile est qu'il possède la fonction [`rmd_check_template()`](https://rundel.github.io/parsermd/articles/templates.html) qui te permet de comparer les documents Markdown soumis par des étudiants par exemple, à un modèle standard. Tu peux regarder sa présentation à la conférence [RStudio::conf(2021)](https://posit.co/resources/videos/parsermd-parsing-r-markdown-for-fun-and-profit/).
+Ce paquet possède des fonctionnalités pour un flux de travail "tidy" te permettant de sélectionner différentes sections du document. Une caractéristique utile est qu'il possède la fonction [`rmd_check_template()`](https://rundel.github.io/parsermd/articles/templates.html) qui te permet de comparer les documents Markdown soumis par des étudiants par exemple, à un modèle standard. Tu peux regarder sa présentation à la conférence [RStudio::conf(2021)](https://posit.co/resources/videos/parsermd-parsing-r-markdown-for-fun-and-profit/).
 
 Le paquet parsermd te permet même de [modifier les documents](https://github.com/rundel/parsermd/issues/21).
 
@@ -262,11 +262,11 @@ En fonction de ton cas d'utilisation, tu peux trouver des moyens d'atténuer ces
 
 ### Comment choisir un analyseur ?
 
-Tu peux choisir un analyseur en fonction de ce qu'il te permet de manipuler avec le Markdown : si tu préfères XML [^3] et HTML aux listes imbriquées, par exemple, tu préféreras utiliser tinkr ou Pandoc. Si les fonctions de haut niveau de md4r ou parsermd conviennent à ton cas d'utilisation, tu peux préférer l'un d'entre eux.
+Tu peux choisir un analyseur en fonction de ce qu'il te permet de manipuler avec le Markdown : si tu préfères XML[^3] et HTML aux listes imbriquées, par exemple, tu préféreras utiliser tinkr ou Pandoc. Si les fonctions de haut niveau de md4r ou parsermd conviennent à ton cas d'utilisation, tu peux préférer l'un d'entre eux.
 
 Il est important de noter que si tes documents contiennent des morceaux de code exécutable, tu dois utiliser un outil qui les prend en charge, comme parsermd, lightparser, tinkr.
 
-Un autre critère important est de choisir un analyseur syntaxique qui se rapproche le plus possible du cas d'utilisation de tes fichiers Markdown. Si tu ne comptes travailler avec des fichiers Markdown que pour GitHub, commonmark/tinkr est un excellent choix puisque GitHub lui-même utilise commonmark. Maintenant, ton travail peut englober différentes sortes de fichiers Markdown qui seront utilisés par différents outils. Par exemple, l'outil [babeldown](https://docs.ropensci.org/babeldown/) traite n'importe quel fichier Markdown [^4]: Markdown, R Markdown, Quarto, Hugo. Dans ce cas, ou si aucun analyseur R ne fait exactement ce que fait l'utilisateur final de ton Markdown, tu dois faire attention aux bizarreries de cet utilisateur final. Tu devras peut-être ajouter des [attributs bruts de Pandoc](/blog/2023/06/01/troubleshooting-pandoc-problems-as-an-r-user/#raw-attributes) autour d'un shortcode Hugo, par exemple. De plus, si tu as besoin d'analyser certains éléments, comme encore une fois les shortcodes Hugo, tu peux avoir besoin d'écrire le code d'analyse toi-même, c'est-à-dire des expressions régulières.
+Un autre critère important est de choisir un analyseur syntaxique qui se rapproche le plus possible du cas d'utilisation de tes fichiers Markdown. Si tu ne comptes travailler avec des fichiers Markdown que pour GitHub, commonmark/tinkr est un excellent choix puisque GitHub lui-même utilise commonmark. Maintenant, ton travail peut englober différentes sortes de fichiers Markdown qui seront utilisés par différents outils. Par exemple, l'outil [babeldown](https://docs.ropensci.org/babeldown/) traite n'importe quel fichier Markdown[^4]: Markdown, R Markdown, Quarto, Hugo. Dans ce cas, ou si aucun analyseur R ne fait exactement ce que fait l'utilisateur·rice final·e de ton Markdown, tu dois faire attention aux bizarreries de cet utilisateur·rice final·e. Tu devras peut-être ajouter des [attributs bruts de Pandoc](/blog/2023/06/01/troubleshooting-pandoc-problems-as-an-r-user/#raw-attributes) autour d'un shortcode Hugo, par exemple. De plus, si tu as besoin d'analyser certains éléments, comme encore une fois les shortcodes Hugo, tu peux avoir besoin d'écrire le code d'analyse toi-même, c'est-à-dire des expressions régulières.
 
 ## Qu'en est-il des morceaux de code ?
 
@@ -282,12 +282,12 @@ Tu peux analyser le code en XML à l'aide de l'analyseur de base R et de l'analy
 
 Ainsi, un flux de travail possible, tel qu'il est [illustré dans l'article de Maëlle](https://masalmon.eu/2024/05/15/refactoring-xml/) est le suivant :
 
--   analyser le code en XML, utiliser xmlparsedata pour savoir ce qu'il faut changer et où. Ces étapes te permettront d'obtenir une liste des positions des éléments, par exemple.
+-   Transforme le code en XML, utiliser xmlparsedata pour savoir ce qu'il faut changer et où. Ces étapes te permettront d'obtenir une liste des positions des éléments, par exemple.
 -   Utilise brio pour lire les lignes, modifie-en quelques-unes avec les outils de base de R, puis utilise à nouveau brio pour réécrire les lignes.
 
 ### {treesitter}
 
-[arbre-sitter](https://github.com/DavisVaughan/r-tree-sitter) par Davis Vaughan "fournit des liens R à tree-sitter, un système d'analyse incrémentielle".
+[tree-sitter](https://github.com/DavisVaughan/r-tree-sitter) par Davis Vaughan "fournit des liens R à tree-sitter, un système d'analyse incrémentielle".
 
 ## Qu'en est-il des métadonnées ?
 
@@ -300,7 +300,7 @@ author: "Jane Doe"
 ---
 ```
 
-Pour extraire ou modifier les métadonnées YAML/TOML/JSON, tu dois d'abord décapiter les documents Markdown. Par exemple, rmarkdown possède une fonction appelée [`rmarkdown::yaml_front_matter()`](https://pkgs.rstudio.com/rmarkdown/reference/yaml_front_matter.html) pour extraire les métadonnées YAML d'un document R Markdown ; le paquetage R quarto possède une fonction appelée [`quarto::quarto_inspect()`](https://quarto-dev.github.io/quarto-r/reference/quarto_inspect.html) qui, entre autres choses, produit les métadonnées.
+Pour extraire ou modifier les métadonnées YAML/TOML/JSON, tu dois d'abord décapiter les documents Markdown. Par exemple, rmarkdown possède une fonction appelée [`rmarkdown::yaml_front_matter()`](https://pkgs.rstudio.com/rmarkdown/reference/yaml_front_matter.html) pour extraire les métadonnées YAML d'un document R Markdown ; le paquet R quarto possède une fonction appelée [`quarto::quarto_inspect()`](https://quarto-dev.github.io/quarto-r/reference/quarto_inspect.html) qui, entre autres choses, produit les métadonnées.
 
 Tu peux lire les *lignes* du document Markdown en utilisant [`readLines()`](https://rdrr.io/r/base/readLines.html) ou [`brio::read_lines()`](https://brio.r-lib.org/reference/read_lines.html) avant de recourir à des expressions régulières pour identifier le début et la fin de la page de garde en fonction de son format.
 
@@ -316,7 +316,7 @@ Le [paquet babeldown](https://docs.ropensci.org/babeldown/) maintenu par Maëlle
 
 ## Conclusion
 
-Dans ce billet, nous avons expliqué comment analyser et éditer au mieux les fichiers Markdown. Pour créer des documents à partir d'un modèle (comme du publipostage), nous avons recommandé des outils de modélisation tels que [`knitr::knit_expand()`](https://bookdown.org/yihui/rmarkdown-cookbook/knit-expand.html), le [paquet whisker](https://github.com/edwindj/whisker), le [paquet de bière](https://github.com/gregfrog/brew) Pandoc. Pour éditer de petites parties d'un document, nous avons fait appel à des outils de manipulation de chaînes de caractères, c'est-à-dire des expressions régulières, avec R base ([`sub()`](https://rdrr.io/r/base/grep.html), [`grep()`](https://rdrr.io/r/base/grep.html) et ses amis), [stringr](https://stringr.tidyverse.org/) (et stringi), [`xfun::gsub_file()`](https://rdrr.io/pkg/xfun/man/gsub_file.html). Pour une manipulation plus lourde, et plus sûre, nous avons listé des outils basés sur des outils qui manipulent la représentation abstraite des documents : tinkr, md4r, Pandoc, parseqmd, parsermd, lightparser. Nous avons également mentionné des outils permettant de travailler avec le *code R* à l'intérieur des cellules de code, et pour travailler avec le *frontmatter* YAML/TOML/JSON.
+Dans ce billet, nous avons expliqué comment analyser et éditer au mieux les fichiers Markdown. Pour créer des documents à partir d'un modèle (comme du publipostage), nous avons recommandé des outils de modélisation tels que [`knitr::knit_expand()`](https://bookdown.org/yihui/rmarkdown-cookbook/knit-expand.html), le [paquet whisker](https://github.com/edwindj/whisker), le [paquet brew](https://github.com/gregfrog/brew), Pandoc. Pour éditer de petites parties d'un document, nous avons fait appel à des outils de manipulation de chaînes de caractères, c'est-à-dire des expressions régulières, avec R base ([`sub()`](https://rdrr.io/r/base/grep.html), [`grep()`](https://rdrr.io/r/base/grep.html) et ses amis), [stringr](https://stringr.tidyverse.org/) (et stringi), [`xfun::gsub_file()`](https://rdrr.io/pkg/xfun/man/gsub_file.html). Pour une manipulation plus lourde, et plus sûre, nous avons listé des outils basés sur des outils qui manipulent la représentation abstraite des documents : tinkr, md4r, Pandoc, parseqmd, parsermd, lightparser. Nous avons également mentionné des outils permettant de travailler avec le *code R* à l'intérieur des cellules de code, et pour travailler avec le *frontmatter* YAML/TOML/JSON.
 
 Qu'est-ce que *tu* utilises pour gérer les fichiers Markdown ?
 
@@ -326,7 +326,7 @@ Qu'est-ce que *tu* utilises pour gérer les fichiers Markdown ?
 
 [^3]: Maëlle et Zhian sont*énormes* fans de XML et de XPath (voir : <https://masalmon.eu/2022/04/08/xml-xpath/> et <https://zkamvar.netlify.app/blog/gh-task-lists/>).
 
-[^4]: Ou du moins c'est censé être le cas :sweat_smile : Heureusement, les utilisateurs signalent des cas limites qui ne sont pas encore couverts.
+[^4]: Ou du moins c'est censé être le cas :sweat_smile : Heureusement, les utilisateur·rice·s signalent des cas limites qui ne sont pas encore couverts.
 
 [^5]: Pour des exemples, voir [The Carpentries Workbench Transition Guide](https://carpentries.github.io/workbench/transition-guide.html).
 
