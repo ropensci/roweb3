@@ -25,7 +25,7 @@ params:
 
 Si la vie te donne un tas de fichiers Markdown à analyser ou à éditer, est-ce que tu fais chauffer tes muscles regex avant de te lancer ?
 Et si tu utilisais plutôt des outils plus spécifiques ?
-Dans ce billet, nous allons donner un aperçu des moyens programmatiques d'analyser et d'éditer les fichiers Markdown : Markdown, R Markdown, Quarto, fichiers Hugo, et j'en passe.
+Dans ce billet, nous allons donner un aperçu des moyens programmatiques d'analyser et d'éditer les fichiers Markdown : Markdown, R Markdown, Quarto, fichiers Hugo, et plus encore.
 
 ## Qu'est-ce que Markdown ?
 
@@ -50,9 +50,9 @@ Some content, with parts in __bold__ or _italic_. Let me add a [link](https://ro
 
 ```
 
-De plus, il existe différents *flavours* (*saveurs*) ou *spécifications (specs)* de Markdown [^md-saveurs] qui ajoute des [syntaxe étendues] comme les emojis écrits avec des deux-points.
+De plus, il existe différents *flavours* (*saveurs*) ou *spécifications (specs)* de Markdown [^md-saveurs] qui ajoute des [syntaxe étendues](https://www.markdownguide.org/extended-syntax/) comme les emojis écrits avec des deux-points.
 
-[^md-saveurs ]: En date du 2024-06-20, il y a [76 programmes qui analysent Markdown](https://web.archive.org/web/20250328101117/https://github.com/markdown/markdown.github.com/wiki/Implementations) dont certains ont une saveur particulière.
+[^md-saveurs]: En date du 2024-06-20, il y a [76 programmes qui analysent Markdown](https://web.archive.org/web/20250328101117/https://github.com/markdown/markdown.github.com/wiki/Implementations) dont certains ont une saveur particulière.
 
 Les utilisateur·rice·s de R interagissent généralement avec les différentes saveurs de Markdown par le biais de leurs outils habituels :
 
@@ -75,7 +75,7 @@ author: Myself
 Some content, *nice* content.
 ```
 
-Le plus souvent, les utilisateurs de R écrivent du Markdown manuellement, ou à l'aide d'un éditeur tel que le programme [l'éditeur visuel Positron](https://quarto.org/docs/tools/positron/visual-editor.html) ou l'éditeur [éditeur visuel RStudio IDE](https://posit.co/blog/exploring-rstudio-visual-markdown-editor/).
+Le plus souvent, les utilisateur·rice·s de R écrivent du Markdown manuellement, ou à l'aide d'un éditeur tel que le programme [l'éditeur visuel Positron](https://quarto.org/docs/tools/positron/visual-editor.html) ou l'éditeur [éditeur visuel RStudio IDE](https://posit.co/blog/exploring-rstudio-visual-markdown-editor/).
 Mais parfois, il faut créer ou modifier un grand nombre de fichiers Markdown en même temps, et modifier tous ces fichiers à la main est une énorme perte de temps.
 Cet article de blog te donnera des ressources en R que tu pourras utiliser pour créer, analyser et modifier des documents Markdown, afin que tu puisses devenir le·a magicien·ne Markdown que tu as toujours rêvé de devenir :mage: !
 
@@ -167,13 +167,13 @@ unlink(list.files(pattern = "*-hw.md"))
 ## Outils de manipulation des chaînes de caractères
 
 Tu peux utiliser des outils de manipulation de chaînes pour analyser Markdown si tu es sûr·e des variantes de Markdown que ton code recevra en entrée, ou si tu es prêt·e à développer ta base de code pour prendre en compte de nombreux cas de figure... ce qui signifie en fin de compte que tu écris un véritable analyseur Markdown.
-Ce n'est pas pour les âmes sensibles... et ce n'est pas nécessaire si tu lis la section qui suit celle-ci :soulagé :
+Ce n'est pas pour les âmes sensibles... et ce n'est pas nécessaire si tu lis la section qui suit celle-ci :relieved:
 
 Tu détectes les titres en utilisant par exemple `grep("^#", markdown_lines)` [^edge] .
 
 [^edge]: Mais cela détecterait également les commentaires de code ! Ne fais pas ça !
 
-Parmi les exemples d'outils de manipulation de chaînes de caractères, on peut citer la base R (`sub()`, `grep()` et ses amis), [stringr](https://stringr.tidyverse.org/) (et [stringi](https://stringi.gagolewski.com/index.html)), `xfun::gsub_file()`.
+Parmi les exemples d'outils de manipulation de chaînes de caractères, on peut citer R base (`sub()`, `grep()` et ses amis), [stringr](https://stringr.tidyverse.org/) (et [stringi](https://stringi.gagolewski.com/index.html)), `xfun::gsub_file()`.
 
 Bien que les outils de manipulation de chaînes de caractères soient d'une utilité limitée lors de l'analyse de Markdown, ils peuvent *compléter* les outils d'analyse proprement dits.
 Même si l'utilisation d'outils d'analyse Markdown spécifiques t'aidera à écrire moins d'expressions régulières toi-même... ils ne t'en libéreront pas complètement.
@@ -199,12 +199,12 @@ Un flux de travail pour cette situation serait le suivant :
 
 - lis l'AST Markdown avec ton analyseur préféré
 - retire tous les liens qui pointent vers le lien pourri
-- remplace-les par un texte en surbrillance qui dit "caviardé".
+- remplace-les par un texte en surbrillance qui dit "modifié".
 - convertis l'AST et écris-le dans le fichier
 
 ### {tinkr}
 
-Le [paquet tinkr](https://docs.ropensci.org/tinkr/) créé par Maëlle Salmon et maintenu par Zhian Kamvar, analyse Markdown en XML en utilisant Commonmark, te permet d'extraire et de manipuler Markdown en utilisant XPath via le paquet [xml2](https://xml2.r-lib.org/) .
+Le [paquet tinkr](https://docs.ropensci.org/tinkr/) créé par Maëlle Salmon et maintenu par Zhian Kamvar, analyse Markdown en XML en utilisant Commonmark, te permet d'extraire et de manipuler Markdown en utilisant XPath via le paquet [xml2](https://xml2.r-lib.org/).
 Tinkr réécrit le XML en Markdown à l'aide de XSLT.
 Les métadonnées YAML sont disponibles sous forme de chaîne de caractères.
 Tinkr prend en charge les morceaux de code exécutables.
@@ -218,7 +218,7 @@ La version de développement du paquet comporte des utilitaires permettant de co
 
 ### Pandoc
 
-Avec Pandoc que nous avons présenté dans un [note technique](/fr/blog/2023/06/01/troubleshooting-pandoc-problems-as-an-r-user/) tu peux analyser un fichier Markdown en un arbre syntaxique abstrait Pandoc (soit dans son format natif, soit en JSON).
+Avec Pandoc que nous avons présenté dans un [note technique](/fr/blog/2023/06/01/troubleshooting-pandoc-problems-as-an-r-user/) tu peux transformer un fichier Markdown en un arbre syntaxique abstrait Pandoc (soit dans son format natif, soit en JSON).
 
 Comment utiliser Pandoc pour éditer et réécrire un fichier Markdown ?
 
@@ -232,7 +232,7 @@ Note que Pandoc ne prend pas en charge les morceaux de code exécutables, car il
 
 Nic Crane a créé un paquet expérimental appelé [parseqmd](https://github.com/thisisnic/parseqmd) qui utilise cette stratégie, en analysant
 la sortie à l'aide de l'outil [jsonlite](https://jeroen.r-universe.dev/jsonlite) .
-Tu peux aussi analyser en HTML, par exemple, puis revenir à Markdown. L'avantage de l'analyse en HTML est que tu peux utiliser un paquet tel que [xml2](https://xml2.r-lib.org/) ou [rvest](https://rvest.tidyverse.org/) pour extraire et manipuler les éléments.
+Tu peux aussi transformer le Markdown en HTML, par exemple, puis revenir à Markdown. L'avantage du HTML est que tu peux utiliser un paquet tel que [xml2](https://xml2.r-lib.org/) ou [rvest](https://rvest.tidyverse.org/) pour extraire et manipuler les éléments.
 
 ### {parsermd}
 
@@ -240,7 +240,7 @@ Le [paquet parsermd](https://rundel.github.io/parsermd/) est également maintenu
 Il comprend également une collection de fonctions de haut niveau pour travailler avec l'arbre syntaxique abstrait résultant."
 
 Ce paquetage possède des fonctionnalités pour un flux de travail "tidy" te permettant de sélectionner différentes sections du document.
-Une caractéristique utile est qu'il possède la fonction [`rmd_check_template()`](https://rundel.github.io/parsermd/articles/templates.html) qui te permet de comparer les documents Markdown soumis par les élèves à un modèle standard.
+Une caractéristique utile est qu'il possède la fonction [`rmd_check_template()`](https://rundel.github.io/parsermd/articles/templates.html) qui te permet de comparer les documents Markdown soumis par des étudiants par exemple, à un modèle standard.
 Tu peux regarder sa présentation à la conférence [RStudio::conf(2021)](https://posit.co/resources/videos/parsermd-parsing-r-markdown-for-fun-and-profit/).
 
 Le paquet parsermd te permet même de [modifier les documents](https://github.com/rundel/parsermd/issues/21).
