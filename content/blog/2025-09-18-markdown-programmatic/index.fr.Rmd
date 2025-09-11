@@ -1,39 +1,36 @@
 ---
-slug: "markdown-programmatic-parsing"
-title: All the Ways to Programmatically Edit or Parse R Markdown / Quarto Documents
+slug: toutes_les_façons_d_éditer_ou_d_analyser_par_programme_des_documents_r_markdown_quarto
+title: Toutes les façons d'éditer ou d'analyser par programme des documents R Markdown
+  / Quarto
 author:
-  - Maëlle Salmon
-  - Christophe Dervieux
-  - Zhian N. Kamvar
+- Maëlle Salmon
+- Christophe Dervieux
+- Zhian N. Kamvar
 editor: Steffi LaZerte
 translator: Maëlle Salmon
-# Set the date below to the publication date of your post
-date: 2025-09-18
-# Minimal tags for a post about a community-contributed package 
-# that has passed software peer review are listed below
-# Consult the Technical Guidelines for information on choosing tags
+date: '2025-09-18'
 tags:
-  - pandoc
-  - rmarkdown
-  - tinkr
-  - quarto
-  - markdown
-  - tech notes
-  - babeldown
-description: ""
+- pandoc
+- rmarkdown
+- tinkr
+- quarto
+- markdown
+- tech notes
+- babeldown
+description: ''
 output: hugodown::md_document
 params:
-  doi: "10.59350/etdf6-t7k64"
+  doi: 10.59350/etdf6-t7k64
 ---
 
-If life gives you a bunch of Markdown files to analyse or edit, do you warm up your regex muscles and get going?
-How about using more specific tools instead?
-In this post, we shall give an overview of programmatic ways to parse and edit Markdown files: Markdown, R Markdown, Quarto, Hugo files, you name it.
+Si la vie te donne un tas de fichiers Markdown à analyser ou à éditer, est-ce que tu fais chauffer tes muscles regex et tu te lances ?
+Et si tu utilisais plutôt des outils plus spécifiques ?
+Dans ce billet, nous allons donner un aperçu des moyens programmatiques d'analyser et d'éditer les fichiers Markdown : Markdown, R Markdown, Quarto, fichiers Hugo, et j'en passe.
 
-## What is Markdown?
+## Qu'est-ce que Markdown ?
 
-Markdown is a (punny, eh) markup language created by John Gruber and Aaron Swartz.
-Here is an example:
+Markdown est un langage de balisage créé par John Gruber et Aaron Swartz.
+Voici un exemple :
 
 ```md
 # My first header
@@ -43,7 +40,7 @@ Let me add a [link](https://ropensci.org).
 
 ```
 
-Different Markdown files can lead to the same output, for instance this is equivalent to our first example:
+Différents fichiers Markdown peuvent conduire au même résultat, par exemple ceci est équivalent à notre premier exemple :
 
 ```md
 My first header
@@ -53,24 +50,21 @@ Some content, with parts in __bold__ or _italic_. Let me add a [link](https://ro
 
 ```
 
-Furthermore there are different _flavours_ or _specifications (specs)_ of Markdown[^md-flavours], which add some [extended syntax], like emojis written with colons.
+De plus, il existe différents *saveurs* ou *spécifications (specs)* de la démarque [^md-saveurs] qui ajoute des[syntaxe étendue][extended syntax] comme les emojis écrits avec des deux-points.
 
-[^md-flavours]: As of 2024-06-20, there are [76 programs that parse Markdown](https://web.archive.org/web/20250328101117/https://github.com/markdown/markdown.github.com/wiki/Implementations), some with their own unique flavour.
+[^md-Saveurs ]: En date du 2024-06-20, il y a[76 programmes qui analysent Markdown](https://web.archive.org/web/20250328101117/https://github.com/markdown/markdown.github.com/wiki/Implementations) dont certains ont une saveur particulière.
 
-[extended syntax]: https://www.markdownguide.org/extended-syntax/
+Les utilisateurs de R interagissent généralement avec les différentes saveurs de Markdown par le biais de leurs outils habituels :
 
+- R Markdown qui utilise Pandoc sous le capot,
+- Quarto (qui utilise Pandoc sous le capot... tu vois une tendance ?),
+- GitHub qui utilise [GitHub Flavored Markdown (GFM)](https://github.github.com/gfm/),
+- Markdown dans roxygen2 qui utilise Commonmark par l'intermédiaire de [{commonmark}](https://cran.r-project.org/web/packages/commonmark/index.html),
+- Hugo, pour [blogdown](https://pkgs.rstudio.com/blogdown/) ou [hugodown](https://hugodown.r-lib.org/) qui soutiennent le programme [Commonmark et GFM](https://gohugo.io/content-management/formats/#markdown),
+- Jekyll qui utilise GFM avec des bizarreries à travers [kramdown](https://jekyllrb.com/docs/configuration/markdown/).
 
-R users will commonly interact with different Markdown flavors through their usual tools: 
-
-- R Markdown which uses Pandoc under the hood, 
-- Quarto (uses Pandoc under the hood... see any trend here?), 
-- GitHub which uses [GitHub Flavored Markdown (GFM)](https://github.github.com/gfm/), 
-- Markdown in roxygen2 which uses Commonmark through [{commonmark}](https://cran.r-project.org/web/packages/commonmark/index.html),
-- Hugo, for [blogdown](https://pkgs.rstudio.com/blogdown/) or [hugodown](https://hugodown.r-lib.org/) websites, which support the [Commonmark and GFM specs](https://gohugo.io/content-management/formats/#markdown),
-- Jekyll which uses GFM with quirks through [kramdown](https://jekyllrb.com/docs/configuration/markdown/).
-
-Many tools using Markdown also accept _frontmatter_: metadata at the top of Markdown files, for instance YAML, TOML pr JSON.
-Here is an example with a YAML frontmatter:
+De nombreux outils utilisant Markdown acceptent également *matière première*: métadonnées en tête des fichiers Markdown, par exemple YAML, TOML ou JSON.
+Voici un exemple avec un frontmatter YAML :
 
 ```md
 ---
@@ -81,13 +75,13 @@ author: Myself
 Some content, *nice* content.
 ```
 
-Most often R users will write Markdown manually, or with the help of an editor such as the [Positron visual editor](https://quarto.org/docs/tools/positron/visual-editor.html) or the [RStudio IDE visual editor](https://posit.co/blog/exploring-rstudio-visual-markdown-editor/).
-But sometimes, one will have to create or edit a bunch of Markdown files at once, and editing all those files by hand is a huge waste of time. 
-This blog post will give you resources in R that you can use to create, parse, and edit Markdown documents, so that you can become the Markdown wizard you have always dreamed of becoming :mage:!
+Le plus souvent, les utilisateurs de R écrivent du Markdown manuellement, ou à l'aide d'un éditeur tel que le programme [l'éditeur visuel Positron](https://quarto.org/docs/tools/positron/visual-editor.html) ou l'éditeur [éditeur visuel RStudio IDE](https://posit.co/blog/exploring-rstudio-visual-markdown-editor/).
+Mais parfois, il faut créer ou modifier un grand nombre de fichiers Markdown en même temps, et modifier tous ces fichiers à la main est une énorme perte de temps.
+Cet article de blog te donnera des ressources en R que tu pourras utiliser pour créer, analyser et modifier des documents Markdown, afin que tu puisses devenir le magicien Markdown que tu as toujours rêvé de devenir :mage: !
 
-### Code chunks and literate programming
+### Morceaux de code et programmation lettrée
 
-In Markdown you can add code chunks, that will be properly formatted and highlighted, using the following syntax:
+En Markdown, tu peux ajouter des morceaux de code, qui seront correctement formatés et mis en évidence, en utilisant la syntaxe suivante :
 
 ````
 ```r
@@ -95,8 +89,7 @@ In Markdown you can add code chunks, that will be properly formatted and highlig
 ```
 ````
 
-Tools for literate programming such as knitr (for R Markdown and Quarto) will let you add code chunks that will be executed to render the document:
-
+Les outils de programmation lettrée tels que knitr (pour R Markdown et Quarto) te permettront d'ajouter des morceaux de code qui seront exécutés pour rendre le document :
 
 ````{verbatim}
 ```{r}
@@ -106,40 +99,39 @@ Tools for literate programming such as knitr (for R Markdown and Quarto) will le
 ```
 ````
 
-The latter syntax, the executable code chunks, are not necessarily properly handled by off-the-shelf "normal" tools like Pandoc.
-This is something to keep in mind if you're dealing with documents that contain executable code chunks.
+Cette dernière syntaxe, les chunks de code exécutables, n'est pas forcément bien gérée par les outils "normaux" sur étagère comme Pandoc.
+C'est quelque chose qu'il faut garder à l'esprit si tu as affaire à des documents qui contiennent des morceaux de code exécutable.
 
+## Outils de modélisation pour les documents standard
 
-## Templating tools for boilerplate documents
+Imagine que tu doives créer un tas de fichiers R Markdown différents, par exemple pour que les élèves les utilisent comme exercices personnalisés.
+Dans ce cas, tu peux créer un document passe-partout comme modèle, et créer ses différentes versions de sortie à l'aide d'un outil de création de modèles.
 
-Imagine you need to create a bunch of different R Markdown files, for instance for students to use as personalized exercises.
-In that case, you can create a boilerplate document as a template, and create its different output versions using a templating tool.
+Les outils de création de modèles comprennent :
 
-Templating tools include:
+- [`knitr::knit_expand()`](https://bookdown.org/yihui/rmarkdown-cookbook/knit-expand.html) par Yihui Xie ;
+- le [paquet de moustaches](https://github.com/edwindj/whisker) maintenu par Edwin de Jonge (utilisé par exemple dans pkgdown) ;
+- le [paquetage brew](https://github.com/gregfrog/brew) maintenu par Greg Hunt ;
+- [Pandoc](/blog/2023/06/01/troubleshooting-pandoc-problems-as-an-r-user/) de John MacFarlane par le biais de son [modèles](https://pandoc.org/MANUAL.html#templates).
 
-- [`knitr::knit_expand()`](https://bookdown.org/yihui/rmarkdown-cookbook/knit-expand.html) by Yihui Xie;
-- the [whisker package](https://github.com/edwindj/whisker) maintained by Edwin de Jonge (used in for instance pkgdown);
-- the [brew package](https://github.com/gregfrog/brew) maintained by Greg Hunt;
-- [Pandoc](/blog/2023/06/01/troubleshooting-pandoc-problems-as-an-r-user/) by John MacFarlane through its [templates](https://pandoc.org/MANUAL.html#templates).
+L'exemple le plus simple du paquet de whiskers pourrait en outre te rappeler le... [paquet de colle](https://glue.tidyverse.org/).
 
-The simplest example of the whisker package might furthermore remind you of the [glue package](https://glue.tidyverse.org/).
+Un flux de travail courant serait le suivant :
 
-A common workflow would be:
+- Tu crées un modèle dans un fichier, où les parties variables sont indiquées par des chaînes de caractères telles que. `{{name}}`.
+- Tu lis ce modèle dans R en utilisant par exemple la fonction [paquet brio](https://brio.r-lib.org/).
+- En faisant correspondre ton ensemble de variables, tu rends le modèle à l'aide de Whisker et tu enregistres chaque version dans un fichier à l'aide du paquet brio.
 
-- You create a template in a file, where variable parts are indicated by strings such as `{{name}}`.
-- You read this template in R using for instance the [brio package](https://brio.r-lib.org/).
-- Mapping over your set of variables, you render the template using whisker and save each version to a file using the brio package. 
+### Exemple
 
-### Example
-
-Here's an example Markdown file that we can use as a template:
+Voici un exemple de fichier Markdown que nous pouvons utiliser comme modèle :
 
 ```{embed show-markdown, file="hw-template.md", lang="markdown"}
 ```
 
-Using the workflow below, we can create different Markdown documents corresponding to different students.
+En utilisant le flux de travail ci-dessous, nous pouvons créer différents documents Markdown correspondant à différents élèves.
 
-```{r, message = FALSE}
+```{r, message=FALSE}
 # generate student variables ----
 students <- c("Maëlle", "Christophe", "Zhian")
 n <- length(students)
@@ -162,156 +154,154 @@ make_assignment(key, template = md)
 print(key)
 ```
 
-Here's how Zhian's homework looks like:
+Voici à quoi ressemblent les devoirs de Zhian :
 
 ```{embed show-zhian-markdown, file="Zhian-hw.md", lang="markdown"}
 ```
 
-```{r, echo = FALSE}
+```{r, echo=FALSE}
 # clean up after ourselves
 unlink(list.files(pattern = "*-hw.md"))
 ```
 
-## String manipulation tools
+## Outils de manipulation des chaînes de caractères
 
-You can use string manipulation tools to parse Markdown if you are sure of the Markdown variants your code will get as input, or if you are willing to grow your codebase to accommodate many edge cases... which in the end means you are writing an actual Markdown parser. 
-Not for the faint of heart... nor necessary if you read the section after this one. :relieved:
+Tu peux utiliser des outils de manipulation de chaînes pour analyser Markdown si tu es sûr des variantes de Markdown que ton code recevra en entrée, ou si tu es prêt à développer ta base de code pour prendre en compte de nombreux cas de figure... ce qui signifie en fin de compte que tu écris un véritable analyseur Markdown.
+Ce n'est pas pour les âmes sensibles... et ce n'est pas nécessaire si tu lis la section qui suit celle-ci :soulagé :
 
-You'd detect headings using for instance `grep("^#", markdown_lines)`[^edge].
+Tu détectes les titres en utilisant par exemple `grep("^#", markdown_lines)` [^edge] .
 
-[^edge]: But this would also detect code comments! Don't do this!
+[^edge]: Mais cela détecterait également les commentaires de code ! Ne fais pas ça !
 
-Example of string manipulation tools include base R (`sub()`, `grep()` and friends), [stringr](https://stringr.tidyverse.org/) (and [stringi](https://stringi.gagolewski.com/index.html)), `xfun::gsub_file()`.
+Parmi les exemples d'outils de manipulation de chaînes de caractères, on peut citer la base R (`sub()`, `grep()` et ses amis), [stringr](https://stringr.tidyverse.org/) (et [stringi](https://stringi.gagolewski.com/index.html)), `xfun::gsub_file()`.
 
-Although string manipulation tools are of a limited usefulness when parsing Markdown, they can _complement_ the actual parsing tools.
-Even if using specific Markdown parsing tools will help you write fewer regular expressions yourself... they won't completely free you from them.
+Bien que les outils de manipulation de chaînes de caractères soient d'une utilité limitée lors de l'analyse de Markdown, ils peuvent *compléter* les outils d'analyse proprement dits.
+Même si l'utilisation d'outils d'analyse Markdown spécifiques t'aidera à écrire moins d'expressions régulières toi-même... ils ne t'en libéreront pas complètement.
 
-## Abstract representation manipulation tools
+## Outils de manipulation des représentations abstraites
 
-Abstract representation manipulation tools are fantastic, and numerous.
-These translate the Markdown document into a data structure called an [Abstract
-Syntax Tree (AST)][AST] that gives you fine-grained control over specific elements of the document (e.g. individual headings or links regardless of how they are written).
-With a formal data structure, you can programmatically manipulate the Markdown document by adding, removing, or manipulating pieces of Markdown in a standardized way. 
+Les outils de manipulation des représentations abstraites sont fantastiques et nombreux.
+Ils traduisent le document Markdown en une structure de données appelée [abstrait
+Syntax Tree (AST)][AST] qui te permet de contrôler finement des éléments spécifiques du document (par exemple, des titres ou des liens individuels, quelle que soit la façon dont ils sont écrits).
+Grâce à une structure de données formelle, tu peux manipuler par programme le document Markdown en ajoutant, en supprimant ou en manipulant des éléments de Markdown d'une manière standardisée.
 
-Some of these tools allow you to read, edit and *write back* to the document.
+Certains de ces outils te permettent de lire, d'éditer et de manipuler des documents Markdown. *réécrire* au document.
 
-We will only mention the tools you can directly use from R.
+Nous ne mentionnerons que les outils que tu peux utiliser directement à partir de R.
 
-[AST]: https://en.wikipedia.org/wiki/Abstract_syntax_tree
+### Exemple de cas d'utilisation
 
-### Example use case
+Disons que tu as créé une série de tutoriels qui renvoient à un site Web contenant une galerie d'extensions pour un logiciel de traçage populaire.
+Disons aussi qu'un jour, quelqu'un découvre que le lien vers le site Web est soudainement... [redirige vers un site potentiellement malveillant qui n'a certainement rien à voir avec la grammaire des graphiques](https://github.com/ggplot2-exts/gallery/issues/112) et toi
+dois remplacer toutes les occurrences de ce lien par `**redacted**`. Étant donné que les liens en Markdown peuvent être écrits de plusieurs façons, les expressions rationnelles ne t'aideront pas, mais un analyseur Markdown à granularité fine le fera !
 
-Let's say you have created a bunch of tutorials that link to a website containing a gallery of extensions for a popular plotting package. 
-Let's also say that one day, someone discovers that the link to the website is suddenly [redirecting to a potentially malicious site that is most certainly not related to the grammar of graphics](https://github.com/ggplot2-exts/gallery/issues/112) and you
-need to replace all instances of that link to `**redacted**`. Since links in Markdown could be written any number of ways, regex is not going to help you, but a fine-grained Markdown parser will!
+Un flux de travail pour cette situation serait le suivant :
 
-A workflow for this situation would be:
-
-- read in the Markdown AST with your favourite parser
-- pull out all links that point to the rotten link
-- replace them with emphasized text that says "redacted"
-- convert the AST and write back to file
+- lire l'AST Markdown avec ton analyseur préféré
+- retire tous les liens qui pointent vers le lien pourri
+- remplace-les par un texte en surbrillance qui dit "caviardé".
+- convertir l'AST et l'écrire dans le fichier
 
 ### {tinkr}
 
-The [tinkr package](https://docs.ropensci.org/tinkr/) dreamed up by Maëlle Salmon and maintained by Zhian Kamvar parses Markdown to XML using Commonmark, allows you to extract and manipulate Markdown using XPath via the [xml2](https://xml2.r-lib.org/) package. 
-Tinkr writes the XML back to Markdown using XSLT. 
-The YAML metadata is available as a string.
-Tinkr supports executable code chunks.
+Le [paquetage tinkr](https://docs.ropensci.org/tinkr/) créé par Maëlle Salmon et maintenu par Zhian Kamvar, analyse Markdown en XML en utilisant Commonmark, te permet d'extraire et de manipuler Markdown en utilisant XPath via l'option [xml2](https://xml2.r-lib.org/) .
+Tinkr réécrit le XML en Markdown à l'aide de XSLT.
+Les métadonnées YAML sont disponibles sous forme de chaîne.
+Tinkr prend en charge les morceaux de code exécutable.
 
-The tinkr package is used in the [babeldown](https://docs.ropensci.org/babeldown/) and [aeolus](https://docs.ropensci.org/aeolus/) packages.
+Le paquet tinkr est utilisé dans le [babeldown](https://docs.ropensci.org/babeldown/) et [aeolus](https://docs.ropensci.org/aeolus/) paquets.
 
 ### {md4r}
 
-The [md4r package](https://rundel.github.io/md4r/), is a recent experimental package maintained by Colin Rundel, and is an R wrapper around the MD4C (Markdown for C) library and represents the AST as a nested list with attributes in R. 
-The development version of the package has utilities for constructing Markdown documents programmatically.
+Les [paquet md4r](https://rundel.github.io/md4r/) md4r est un paquet expérimental récent maintenu par Colin Rundel. Il s'agit d'une enveloppe R autour de la bibliothèque MD4C (Markdown for C) qui représente l'AST sous forme de liste imbriquée avec des attributs dans R.
+La version de développement du paquetage comporte des utilitaires permettant de construire des documents Markdown de manière programmatique.
 
 ### Pandoc
 
-With Pandoc that we presented in a [tech note](/blog/2023/06/01/troubleshooting-pandoc-problems-as-an-r-user/), you can parse a Markdown files to a Pandoc Abstract Syntax Tree (either in its native format, or in JSON). 
+Avec Pandoc que nous avons présenté dans un [note technique](/blog/2023/06/01/troubleshooting-pandoc-problems-as-an-r-user/) tu peux analyser un fichier Markdown en un arbre syntaxique abstrait Pandoc (soit dans son format natif, soit en JSON).
 
-How would you use Pandoc to edit and write back a Markdown file?
+Comment utiliser Pandoc pour éditer et réécrire un fichier Markdown ?
 
-- Using Lua filters: Pandoc converts to AST in its native format, Lua filters allow to process it to tweak it, and than Pandoc can write back to markdown.
+- En utilisant des filtres Lua : Pandoc convertit en AST dans son format natif, les filtres Lua permettent de le traiter pour le modifier, puis Pandoc peut écrire en markdown.
 
-- Using JSON filters: Pandoc converts to AST outputing a JSON representation of it, then any tools can modify this JSON file and provided a modified version to pandoc to convert back to markdown.
+- Utilisation de filtres JSON : Pandoc convertit en AST en produisant une représentation JSON, puis n'importe quel outil peut modifier ce fichier JSON et fournir une version modifiée à Pandoc pour qu'il la convertisse à nouveau en markdown.
 
-Note that Pandoc does not support executable code chunks, as it won't be able to parse executable code chunk as `Codeblock`.
+Note que Pandoc ne prend pas en charge les morceaux de code exécutable, car il ne sera pas en mesure d'analyser les morceaux de code exécutable en tant que `Codeblock`.
 
 ### {parseqmd}
 
-Nic Crane has an experimental package called [parseqmd](https://github.com/thisisnic/parseqmd) that uses this strategy, parsing
-the output with the [jsonlite](https://jeroen.r-universe.dev/jsonlite) package.
-You can also parse to, say HTML, and then back to Markdown. The benefit of parsing it to HTML is that you can use a package such as [xml2](https://xml2.r-lib.org/) or [rvest](https://rvest.tidyverse.org/) to extract and manipulate the elements.
+Nic Crane a créé un paquet expérimental appelé [parseqmd](https://github.com/thisisnic/parseqmd) qui utilise cette stratégie, en analysant
+la sortie à l'aide de l'outil [jsonlite](https://jeroen.r-universe.dev/jsonlite) .
+Tu peux aussi analyser en HTML, par exemple, puis revenir à Markdown. L'avantage de l'analyse en HTML est que tu peux utiliser un paquetage tel que [xml2](https://xml2.r-lib.org/) ou [rvest](https://rvest.tidyverse.org/) pour extraire et manipuler les éléments.
 
 ### {parsermd}
 
-The [parsermd package](https://rundel.github.io/parsermd/) is another package maintained by Colin Rundel and is an "implementation of a formal grammar and parser for R Markdown documents using the Boost Spirit X3 library. 
-It also includes a collection of high level functions for working with the resulting abstract syntax tree."
+Le [paquet parsermd](https://rundel.github.io/parsermd/) est un autre paquetage maintenu par Colin Rundel et est une "implémentation d'une grammaire formelle et d'un analyseur pour les documents R Markdown en utilisant la bibliothèque Boost Spirit X3.
+Il comprend également une collection de fonctions de haut niveau pour travailler avec l'arbre syntaxique abstrait résultant."
 
-This package has functionality for a tidy workflow allowing you to select different sections of the document.
-One useful feature is that it has the function [`rmd_check_template()`](https://rundel.github.io/parsermd/articles/templates.html) allowing you to compare student Markdown submissions against a standard template. 
-You can watch his [RStudio::conf(2021) talk about it](https://posit.co/resources/videos/parsermd-parsing-r-markdown-for-fun-and-profit/).
+Ce paquetage possède des fonctionnalités pour un flux de travail ordonné te permettant de sélectionner différentes sections du document.
+Une caractéristique utile est qu'il possède la fonction [`rmd_check_template()`](https://rundel.github.io/parsermd/articles/templates.html) qui te permet de comparer les documents Markdown soumis par les élèves à un modèle standard.
+Tu peux regarder son [RStudio::conf(2021) à ce sujet](https://posit.co/resources/videos/parsermd-parsing-r-markdown-for-fun-and-profit/).
 
-The parsermd package even allows you to [modify documents](https://github.com/rundel/parsermd/issues/21).
+Le paquet parsermd te permet même de [modifier les documents](https://github.com/rundel/parsermd/issues/21).
 
 ### {lightparser}
 
-The [lightparser](https://cloud.r-project.org/web/packages/lightparser/index.html) package by Sébastien Rochette "splits your rmarkdown or quarto files by sections into a tibble: titles, text, chunks; rebuilds the file from the tibble".
-It can be used to [translate documents](https://edenian-prince.github.io/blog/posts/2024-08-21-translate-md-files/) for instance.
+Les [analyseur de lumière](https://cloud.r-project.org/web/packages/lightparser/index.html) de Sébastien Rochette "divise tes fichiers rmarkdown ou quarto par sections dans un tibble : titres, texte, chunks ; reconstruit le fichier à partir du tibble".
+Il peut être utilisé pour [traduire des documents](https://edenian-prince.github.io/blog/posts/2024-08-21-translate-md-files/) par exemple.
 
-### The impossibility of a perfect roundtrip
+### L'impossibilité d'un aller-retour parfait
 
-When parsing and editing Markdown, then writing it back to Markdown, some undesired changes might appear.
-For instance, with [tinkr](https://docs.ropensci.org/tinkr/#general-principles-and-solution) list items all start with a `-` even if in the original document they started with a `*`. With md4r, lists that are indented with extra space will be readjusted. 
+Lorsque l'on analyse et modifie du Markdown, puis que l'on réécrit en Markdown, certaines modifications indésirables peuvent apparaître.
+Par exemple, avec [tinkr](https://docs.ropensci.org/tinkr/#general-principles-and-solution) les éléments de la liste commencent tous par un `-` même si dans le document original ils commençaient par un `*`. Avec md4r, les listes qui sont indentées avec un espace supplémentaire seront réajustées.
 
-Depending on your use case you might want to find ways to mitigate such losses, for instance only re-writing the lines you made intentional edits to.
+En fonction de ton cas d'utilisation, tu peux trouver des moyens d'atténuer ces pertes, par exemple en ne réécrivant que les lignes sur lesquelles tu as fait des modifications intentionnelles.
 
-### How to choose a parser?
+### Comment choisir un analyseur ?
 
-You can choose a parser based on what it lets you manipulate the Markdown with: if you prefer XML[^maelle-approved] and HTML to nested lists for instance, you might prefer using tinkr or Pandoc.
-If the high-level functions of md4r or parsermd are suitable for your use case, you might prefer one of them.
+Tu peux choisir un analyseur en fonction de ce qu'il te permet de manipuler avec le Markdown : si tu préfères XML [^maelle-approuvé] et HTML aux listes imbriquées, par exemple, tu préféreras utiliser tinkr ou Pandoc.
+Si les fonctions de haut niveau de md4r ou parsermd conviennent à ton cas d'utilisation, tu peux préférer l'un d'entre eux.
 
-[^maelle-approved]: Both Maëlle and Zhian are _huge_ fans of XML and XPath (see: https://masalmon.eu/2022/04/08/xml-xpath/ and https://zkamvar.netlify.app/blog/gh-task-lists/). 
+[^maelle-Approuvé ]: Maëlle et Zhian sont*énormes* fans de XML et de XPath (voir : <https://masalmon.eu/2022/04/08/xml-xpath/> et <https://zkamvar.netlify.app/blog/gh-task-lists/>).
 
-Importantly, if your documents contain executable code chunks, you need to use a tool that supports them such as parsermd, lightparser, tinkr.
+Il est important de noter que si tes documents contiennent des morceaux de code exécutable, tu dois utiliser un outil qui les prend en charge, comme parsermd, lightparser, tinkr.
 
-Another important criterion is to choose a parser that's close to the use case of your Markdown files as possible.
-If you are only going to work with Markdown files for GitHub, commonmark/tinkr is an excellent choice since GitHub itself uses commonmark. 
-Now, your work might encompass different sorts of Markdown files that will be used by different tools.
-For instance, the [babeldown](https://docs.ropensci.org/babeldown/) package processes any Markdown file[^caveat]: Markdown, R Markdown, Quarto, Hugo.
-In that case, or if there is no R parser doing exactly what your Markdown's end user does, you need to pay attention to the quirks of that end user. 
-Maybe you have to throw [Pandoc raw attributes](/blog/2023/06/01/troubleshooting-pandoc-problems-as-an-r-user/#raw-attributes) around a Hugo shortcode, for instance.
-Furthermore, if you need to parse certain elements, like again Hugo shortcodes, you might need to write the parsing code yourself, that is, regular expressions.
+Un autre critère important est de choisir un analyseur syntaxique qui se rapproche le plus possible du cas d'utilisation de tes fichiers Markdown.
+Si tu ne comptes travailler avec des fichiers Markdown que pour GitHub, commonmark/tinkr est un excellent choix puisque GitHub lui-même utilise commonmark.
+Maintenant, ton travail peut englober différentes sortes de fichiers Markdown qui seront utilisés par différents outils.
+Par exemple, l'outil [babeldown](https://docs.ropensci.org/babeldown/) traite n'importe quel fichier Markdown [^caveat]: Markdown, R Markdown, Quarto, Hugo.
+Dans ce cas, ou si aucun analyseur R ne fait exactement ce que fait l'utilisateur final de ton Markdown, tu dois faire attention aux bizarreries de cet utilisateur final.
+Tu devras peut-être jeter [Attributs bruts Pandoc](/blog/2023/06/01/troubleshooting-pandoc-problems-as-an-r-user/#raw-attributes) autour d'un shortcode Hugo, par exemple.
+De plus, si tu as besoin d'analyser certains éléments, comme encore une fois les shortcodes Hugo, tu peux avoir besoin d'écrire le code d'analyse toi-même, c'est-à-dire des expressions régulières.
 
-[^caveat]: Or at least it's supposed to :sweat_smile: Thankfully users report edge cases that are not covered yet.
+[^caveat]: Ou du moins c'est censé être le cas :sweat_smile : Heureusement, les utilisateurs signalent des cas limites qui ne sont pas encore couverts.
 
-## What about the code chunks?
+## Qu'en est-il des morceaux de code ?
 
-Programmatically parsing and editing R code is out of the scope of this post, but closely related enough to throw in a few tips.
+L'analyse et l'édition programmatiques du code R n'entrent pas dans le cadre de ce billet, mais sont suffisamment proches pour que tu y ajoutes quelques conseils.
 
-### Regular expressions
+### Expressions régulières
 
-As with Markdown, you might need to use regular expressions, but that's a risky approach as for instance `plot (x)` and `plot(x)` are both valid function calls in R.
+Comme pour Markdown, tu peux avoir besoin d'utiliser des expressions régulières, mais c'est une approche risquée, car par exemple `plot (x)` et `plot(x)` sont tous deux des appels de fonction valides dans R.
 
 ### {xmlparsedata}
 
-You can parse the code to XML using base R parsing and [xmlparsedata](https://r-lib.github.io/xmlparsedata/), then you manipulate the XML with [XPath](https://masalmon.eu/2022/04/08/xml-xpath/).
-To write code back, you can make use of the attributes of each node that indicates the original lines and columns.
+Tu peux analyser le code en XML à l'aide de l'analyseur de base R et de l'analyseur de code XML. [xmlparsedata](https://r-lib.github.io/xmlparsedata/) puis tu manipules le XML avec [XPath](https://masalmon.eu/2022/04/08/xml-xpath/).
+Pour réécrire le code, tu peux utiliser les attributs de chaque nœud qui indiquent les lignes et les colonnes d'origine.
 
-So a possible workflow, as exemplified in Maëlle's [blog post](https://masalmon.eu/2024/05/15/refactoring-xml/) is:
+Ainsi, un flux de travail possible, tel qu'il est illustré dans l'article de Maëlle [de Maëll](https://masalmon.eu/2024/05/15/refactoring-xml/) est le suivant :
 
-- parse the code to XML, use xmlparsedata to inform what to change and where. Out of these steps you'd get a list of elements' positions, for instance.
-- use brio to read the lines, change a few of them with base R tools, then use brio again to write the lines back.
+- analyser le code en XML, utiliser xmlparsedata pour savoir ce qu'il faut changer et où. Ces étapes te permettront d'obtenir une liste des positions des éléments, par exemple.
+- Utilise brio pour lire les lignes, modifie-en quelques-unes avec les outils de base de R, puis utilise à nouveau brio pour réécrire les lignes.
 
 ### {treesitter}
 
-[treesitter](https://github.com/DavisVaughan/r-tree-sitter) by Davis Vaughan "provides R bindings to tree-sitter, an incremental parsing system".
+[arbre-sitter](https://github.com/DavisVaughan/r-tree-sitter) par Davis Vaughan "fournit des liens R à tree-sitter, un système d'analyse incrémentielle".
 
-## What about metadata?
+## Qu'en est-il des métadonnées ?
 
-We dedicated this whole post to the _body_ of Markdown documents. 
-What about the metadata contained in their frontmatter, like:
+Nous avons consacré tout ce billet à la question des métadonnées. *corps* des documents Markdown.
+Qu'en est-il des métadonnées contenues dans leur frontmatter, comme par exemple :
 
 ```yaml
 ---
@@ -320,31 +310,37 @@ author: "Jane Doe"
 ---
 ```
 
-To extract or edit YAML/TOML/JSON metadata, you first need to decapitate Markdown documents.
-For instance, rmarkdown has a function called `rmarkdown::yaml_front_matter()` to extract the YAML metadata of an R Markdown document;
-the quarto R package has a function called `quarto::quarto_inspect()` that among other things outputs the metadata.
+Pour extraire ou modifier les métadonnées YAML/TOML/JSON, tu dois d'abord décapiter les documents Markdown.
+Par exemple, rmarkdown possède une fonction appelée `rmarkdown::yaml_front_matter()` pour extraire les métadonnées YAML d'un document R Markdown ;
+le paquetage R quarto possède une fonction appelée `quarto::quarto_inspect()` qui, entre autres choses, produit les métadonnées.
 
-You might read the _lines_ of the Markdown document using `readLines()` or `brio::read_lines()`, before resorting to regular expressions to identify the start and end of the frontmatter depending on its format.
+Tu peux lire les *lignes* du document Markdown en utilisant `readLines()` ou `brio::read_lines()` avant de recourir à des expressions régulières pour identifier le début et la fin de la page de garde en fonction de son format.
 
-Then, to handle YAML you'd use [{yaml}](https://github.com/vubiostat/r-yaml/), to handle TOML you could use [{tomledit}](https://github.com/extendr/tomledit) or [{RcppTOML}](https://cran.r-project.org/web/packages/RcppTOML/index.html), to handle JSON you could use [{jsonlite}](https://jeroen.r-universe.dev/jsonlite).
+Ensuite, pour gérer YAML, tu utiliseras [{yaml}](https://github.com/vubiostat/r-yaml/) et pour gérer TOML, tu pourrais utiliser [{tomledit}](https://github.com/extendr/tomledit) ou [{RcppTOML}](https://cran.r-project.org/web/packages/RcppTOML/index.html) Pour gérer JSON, tu peux utiliser [{jsonlite}](https://jeroen.r-universe.dev/jsonlite).
 
-Finally if you need to write back the Markdown document, you'd write back its lines using `writeLines()` or `brio::write_lines()`.
+Enfin, si tu as besoin de réécrire le document Markdown, tu écriras ses lignes en utilisant `writeLines()` ou `brio::write_lines()`.
 
-## Examples of Markdown parsing and editing
+## Exemples d'analyse et d'édition Markdown
 
-The [pegboard package](https://carpentries.github.io/pegboard/) created by Zhian Kamvar and maintained by The Carpentries, parses and validates Carpentries' lessons for structural Markdown elements, including valid links, alt-text, and known fenced-divs thanks to tinkr.
-This package was instrumental in converting all of The Carpentries lesson infrastructure from Jekyll's Markdown syntax to Pandoc's Markdown[^transition].
+L'analyse [paquetage pegboard](https://carpentries.github.io/pegboard/) créé par Zhian Kamvar et maintenu par The Carpentries, analyse et valide les leçons de Carpentries pour les éléments structurels de Markdown, y compris les liens valides, le texte alt, et les fenced-divs connus grâce à tinkr.
+ Ce paquet a permis de convertir toute l'infrastructure des leçons de The Carpentries de la syntaxe Markdown de Jekyll à la syntaxe Markdown de Pandoc. [^transition] .
 
-[^transition]: For examples, see [The Carpentries Workbench Transition Guide](https://carpentries.github.io/workbench/transition-guide.html).
+[^transition]: Pour des exemples, voir[Le guide de transition de l'atelier de menuiserie](https://carpentries.github.io/workbench/transition-guide.html).
 
-The [babeldown package](https://docs.ropensci.org/babeldown/) maintained by Maëlle Salmon transforms Markdown to XML, sends it to DeepL API for translation, and writes the results back to Markdown, also using tinkr.
+Le [paquet babeldown](https://docs.ropensci.org/babeldown/) maintenu par Maëlle Salmon transforme Markdown en XML, l'envoie à l'API DeepL pour traduction, et réécrit les résultats en Markdown, en utilisant également tinkr.
 
 ## Conclusion
 
-In this post we explained how to best parse and edit Markdown files.
-To create boilerplate documents (think: mailmerge), we recommended templating tools such as [`knitr::knit_expand()`](https://bookdown.org/yihui/rmarkdown-cookbook/knit-expand.html), the [whisker package](https://github.com/edwindj/whisker), the [brew package](https://github.com/gregfrog/brew), Pandoc.
-To edit small parts of a document, we brought up string manipulation tools i.e. regular expressions, with base R (`sub()`, `grep()` and friends), [stringr](https://stringr.tidyverse.org/) (and stringi), `xfun::gsub_file()`.
-For heavier, and safer, manipulation, we listed tools based on tools that manipulate the abstract representation of documents: tinkr, md4r, Pandoc, parseqmd, parsermd, lightparser.
-We also mentioned tools for working with the _R code_ inside code cells, and for working with the YAML/TOML/JSON _frontmatter_.
+Dans ce billet, nous avons expliqué comment analyser et éditer au mieux les fichiers Markdown.
+Pour créer des documents passe-partout (pensez à mailmerge), nous avons recommandé des outils de modélisation tels que [`knitr::knit_expand()`](https://bookdown.org/yihui/rmarkdown-cookbook/knit-expand.html), le [paquet whisker](https://github.com/edwindj/whisker), le [paquet de bière](https://github.com/gregfrog/brew) Pandoc.
+Pour éditer de petites parties d'un document, nous avons fait appel à des outils de manipulation de chaînes de caractères, c'est-à-dire des expressions régulières, avec la base R (`sub()`, `grep()` et ses amis), [stringr](https://stringr.tidyverse.org/) (et stringi), `xfun::gsub_file()`.
+Pour une manipulation plus lourde, et plus sûre, nous avons listé des outils basés sur des outils qui manipulent la représentation abstraite des documents : tinkr, md4r, Pandoc, parseqmd, parsermd, lightparser.
+Nous avons également mentionné des outils permettant de travailler avec le *code R* à l'intérieur des cellules de code, et pour travailler avec le code YAML/TOML/JSON *matière première*.
 
-What do *you* use to handle Markdown files?
+Qu'est-ce que *tu* pour gérer les fichiers Markdown ?
+
+[syntaxe étendue]: https://www.markdownguide.org/extended-syntax/
+[AST]: https://en.wikipedia.org/wiki/Abstract_syntax_tree
+
+
+
