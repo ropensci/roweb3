@@ -7,7 +7,7 @@ author:
   - Zhian N. Kamvar
 editor: Steffi LaZerte
 # Set the date below to the publication date of your post
-date: 2024-04-16
+date: 2025-09-16
 # Minimal tags for a post about a community-contributed package 
 # that has passed software peer review are listed below
 # Consult the Technical Guidelines for information on choosing tags
@@ -22,7 +22,7 @@ description: ""
 output: hugodown::md_document
 params:
   doi: "10.59350/e4xca-kx329"
-rmd_hash: 21425fe14e995561
+rmd_hash: 9b758483d8710a0a
 
 ---
 
@@ -159,9 +159,9 @@ Using the workflow below, we can create different Markdown documents correspondi
 <span><span class='nf'>make_assignment</span><span class='o'>(</span><span class='nv'>key</span>, template <span class='o'>=</span> <span class='nv'>md</span><span class='o'>)</span></span>
 <span><span class='nf'><a href='https://rdrr.io/r/base/print.html'>print</a></span><span class='o'>(</span><span class='nv'>key</span><span class='o'>)</span></span>
 <span><span class='c'>#&gt;         name mean  sd             file</span></span>
-<span><span class='c'>#&gt; 1     Maëlle    5 0.3     Maëlle-hw.md</span></span>
-<span><span class='c'>#&gt; 2 Christophe    5 0.8 Christophe-hw.md</span></span>
-<span><span class='c'>#&gt; 3      Zhian    6 0.7      Zhian-hw.md</span></span>
+<span><span class='c'>#&gt; 1     Maëlle    3 0.0     Maëlle-hw.md</span></span>
+<span><span class='c'>#&gt; 2 Christophe    7 1.0 Christophe-hw.md</span></span>
+<span><span class='c'>#&gt; 3      Zhian    5 0.0      Zhian-hw.md</span></span>
 <span></span></code></pre>
 
 </div>
@@ -175,7 +175,7 @@ title: "Homework assignment 1"
 author: "Zhian"
 ---
 
-Create a normal distribution with a mean of 6 and a standard deviation of 0.7:
+Create a normal distribution with a mean of 5 and a standard deviation of 0.0:
 
 ```{r solution-1}
 # hint: use the rnorm function
