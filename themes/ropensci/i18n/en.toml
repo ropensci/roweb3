@@ -57,6 +57,9 @@
   
 [Blog]
   other = 'Blog'
+
+[The-rOpenSci-Blog]
+  other = 'The rOpenSci Blog'
   
 [Tech-Notes]
   other = 'Tech Notes'

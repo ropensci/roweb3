@@ -60,6 +60,9 @@
   
 [Blog]
   other = 'Blog'
+
+[The-rOpenSci-Blog]
+  other = 'El Blog de rOpenSci'
   
 [Tech-Notes]
   other = 'Notas técnicas'
