@@ -7,7 +7,7 @@ author:
   - Zhian N. Kamvar
 editor: Steffi LaZerte
 # Set the date below to the publication date of your post
-date: 2025-09-16
+date: 2025-09-18
 # Minimal tags for a post about a community-contributed package 
 # that has passed software peer review are listed below
 # Consult the Technical Guidelines for information on choosing tags
@@ -18,6 +18,7 @@ tags:
   - quarto
   - markdown
   - tech notes
+  - babeldown
 description: ""
 output: hugodown::md_document
 params:
