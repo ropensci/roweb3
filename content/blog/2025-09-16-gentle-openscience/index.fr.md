@@ -63,21 +63,17 @@ J'ai voulu mettre l'accent sur les petits pas, pour qu'il soit clair que c'est l
 En plus de quelques conseils pratiques, j'ai donc donné quatre conseils généraux :
 
 1. **[Ne pas essayer de tout faire](https://steffilazerte.ca/Presentations/2025-08-Open-Science/index_fr.html#/conseil-n-1-nessayez-pas-de-tout-faire)**
-  
-  - Soyez gentil avec vous-même
-  - Vous avez le droit d'être petit et de grandir !
+    - Soyez gentil avec vous-même
+    - Vous avez le droit d'être petit et de grandir !
 
 2. **[Faites une nouvelle chose](https://steffilazerte.ca/Presentations/2025-08-Open-Science/index_fr.html#/conseil-n-2-faites-une-chose-nouvelle)**
-  
-  - Pour chaque projet, essayez d'élargir vos compétences, d'apprendre une nouvelle chose.
+    - Pour chaque projet, essayez d'élargir vos compétences, d'apprendre une nouvelle chose.
 
 3. **[Il n'y a pas de mal à être nerveux](https://steffilazerte.ca/Presentations/2025-08-Open-Science/index_fr.html#/conseil-n-3-cest-normal-d%C3%AAtre-nerveuxse)**
-  
-  - Les erreurs arrivent, mais n'oubliez pas qu'en pratiquant la science ouverte, vous êtes déjà génial !
+    - Les erreurs arrivent, mais n'oubliez pas qu'en pratiquant la science ouverte, vous êtes déjà génial !
 
 4. **[Travailler avec d'autres](https://steffilazerte.ca/Presentations/2025-08-Open-Science/index_fr.html#/conseil-n-4-travaillez-avec-les-autres)**
-  
-  - Trouver sa communauté
+    - Trouver sa communauté
 
 Je pense que ce qui m'a le plus plu dans cette conférence, c'est le nombre d'étudiants qui m'ont abordé par la suite, enthousiastes (et nerveux) à l'idée de commencer à partager leur code en ligne.
 Ils m'ont posé de nombreuses questions, qu'il s'agisse de questions pratiques sur l'utilisation de GitHub ou de questions générales sur la qualité de leur code pour qu'il soit partagé.
