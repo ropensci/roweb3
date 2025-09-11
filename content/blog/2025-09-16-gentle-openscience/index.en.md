@@ -44,7 +44,7 @@ How can we *improve* open code quality[^1]?
 Sci Data 9, 60 (2022).
 <https://doi.org/10.1038/s41597-022-01143-6>
 
-{{< figure src = "alot.png" width = "400" alt = "A slide with a surpised looking grey-crowned crane with a large crown of feathers around it's head. The text reads 'Whoa! That's a lot! Why do Open Science?" class = "pull-right" caption = "Slide acknowledging that open science can be challenging<br>([Grey-crowned crane](https://upload.wikimedia.org/wikipedia/commons/1/1c/Grey_Crowned_Crane_2.jpg) - Kuribo, CC BY-SA 2.0)">}}
+{{< figure src = "alot.png" width = "400" alt = "A slide with a surpised looking grey-crowned crane with a large crown of feathers around it's head. The text reads 'Whoa! That's a lot! Why do Open Science?'" class = "pull-right" caption = "Slide acknowledging that open science can be challenging<br>([Grey-crowned crane](https://upload.wikimedia.org/wikipedia/commons/1/1c/Grey_Crowned_Crane_2.jpg) - Kuribo, CC BY-SA 2.0)">}}
 
 But I think we sometimes forget that in addition to time, skills, and sometimes funding, **to practice open science takes a great deal of courage**[^2].
 
@@ -83,7 +83,7 @@ What are your favourite tips for encouraging open science?
 
 ### Acknowledgements
 
-Thanks to [Alex Koiter](/author/alex-koiter) for ideas and brainstorming for my talk, as well as for his awesome (and much longer) talk, [Open and Reproducible Soil Science](https://alexkoiter.ca/presentations/UM_Soil_Science_2023/Open_reproducible_science.html)
+Thanks to [Alex Koiter](/author/alex-koiter) for ideas and brainstorming for my talk, as well as for his awesome (and much longer) talk, [Open and Reproducible Soil Science](https://alexkoiter.ca/presentations/UM_Soil_Science_2023/Open_reproducible_science.html).
 
 
 
