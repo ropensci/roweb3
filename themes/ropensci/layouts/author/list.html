@@ -45,6 +45,20 @@
     {{ range .Data.Pages.ByPublishDate.Reverse }}
     {{ .Render "post-short-summary" }}
     {{ end }}
+    {{ $interviews := where .Site.RegularPages.ByPublishDate.Reverse ".Params.interviewee" "intersect" (slice .Params.name) }}
+    {{ if ne (len $interviews) 0 }}
+    <h2 class="title">Interviewed in</h2>
+      {{ range $interviews }}
+      {{ .Render "post-short-summary" }}
+      {{ end }}
+    {{ end }}
+    {{ $edited := where .Site.RegularPages.ByPublishDate.Reverse ".Params.editor" "intersect" (slice .Params.name) }}
+    {{ if ne (len $edited) 0 }}
+    <h2 class="title">Edited:</h2>
+      {{ range $edited }}
+      {{ .Render "post-short-summary" }}
+      {{ end }}
+    {{ end }}
     </div>
   </div>
 </section>
