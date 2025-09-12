@@ -49,7 +49,7 @@ Some content, with parts in __bold__ or _italic_. Let me add a [link](https://ro
 
 ```
 
-Además, hay diferentes *sabores* o *especificaciones (specs)* de Marcado [^md-sabores] que añaden algunos[sintaxis ampliada](https://www.markdownguide.org/extended-syntax/) como los emojis escritos con dos puntos.
+Además, hay diferentes *sabores* (flavors) o *especificaciones (specs)* de Marcado [^md-sabores] que añaden algunos[sintaxis ampliada](https://www.markdownguide.org/extended-syntax/) como los emojis escritos con dos puntos.
 
 [^md-sabores]: A 2024-06-20, hay[76 programas que analizan Markdown](https://web.archive.org/web/20250328101117/https://github.com/markdown/markdown.github.com/wiki/Implementations) algunos con su propio sabor único.
 
