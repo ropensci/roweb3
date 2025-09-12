@@ -38,7 +38,7 @@
     {{ range $pages.Reverse }}
   <div class="career-cards mt-4">
     <a href="{{ .RelPermalink }}" class="career-card">
-      <span>{{ replaceRE "Social Coworking and Office Hours -" "" .Title 1 }}</span>
+      <span>{{ replaceRE "Social Coworking and Office Hours -*" "" .Title 1 }}</span>
       <p>{{ i18n "With" }} {{ delimit .Params.author ", " " and " }}. {{ .Description }}</p>
       <span><strong>{{ (time .Params.dateStart).Local | dateFormat "Monday, 02 January 2006 15:04 MST" }} • online 🌐</strong></span>
     </a>
