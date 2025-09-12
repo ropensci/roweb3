@@ -3,10 +3,11 @@ title: "Enseigner, aider et partager. L'approche de ThinkR pour contribuer à la
 slug: r-universe-stars-2-fr
 author: 
 - Yanina Bellini Saibene
-- Sébastien Rochette
 - Alejandra Bellini 
 - Lucio Casalla 
 - Steffi LaZerte
+interviewee:
+- Sébastien Rochette
 date: '2023-02-28'
 tags:
   - community

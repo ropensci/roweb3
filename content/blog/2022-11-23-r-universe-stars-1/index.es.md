@@ -3,6 +3,7 @@ title: "Conociendo a las estrellas del universo R: comunidad R, intercambiar y a
 author: 
 - Yanina Bellini Saibene
 - Alejandra Bellini 
+interviewee:
 - Lucio Casalla 
 - Steffi LaZerte
 - Juan Pablo Ruiz Nicolini

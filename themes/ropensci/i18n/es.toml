@@ -7,6 +7,9 @@
 [With]
   other = 'Con'
 
+[In-conversation-with]
+  other = 'Conversación con'
+
 [Edited-by]
   other = 'Editado por'
 
