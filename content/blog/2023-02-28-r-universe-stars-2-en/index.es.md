@@ -2,10 +2,11 @@
 title: "Aprender, ayudar y compartir. El método de ThinkR para crear una comunidad cada vez más grande y amigable de R"
 author: 
 - Yanina Bellini Saibene
-- Sébastien Rochette
 - Alejandra Bellini 
 - Lucio Casalla 
 - Steffi LaZerte
+interviewee:
+- Sébastien Rochette
 date: '2023-02-28'
 tags:
   - comunidad

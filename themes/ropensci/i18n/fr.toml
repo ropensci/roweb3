@@ -4,6 +4,9 @@
 [By]
   other = 'Par'
 
+[In-conversation-with]
+  other = 'Conversation avec'
+
 [Edited-by]
   other = 'Édité par'
 
