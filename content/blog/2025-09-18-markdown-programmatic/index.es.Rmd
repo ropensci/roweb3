@@ -28,7 +28,7 @@ En este post, daremos una visión general de las formas programáticas de analiz
 
 ## ¿Qué es Markdown?
 
-Markdown es un lenguaje de marcado (un juego de palabras, eh) creado por John Gruber y Aaron Swartz.
+Markdown es un lenguaje de marcado creado por John Gruber y Aaron Swartz.
 Aquí tienes un ejemplo:
 
 ```md
