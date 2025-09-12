@@ -118,7 +118,7 @@ El ejemplo más sencillo del paquete de bigotes puede recordarte además el [paq
 Un flujo de trabajo habitual sería
 
 - Creas una plantilla en un archivo, donde las partes variables se indican mediante cadenas como `{{name}}`.
-- Lees esta plantilla en R utilizando, por ejemplo, la función [paquete brio](https://brio.r-lib.org/).
+- Lees esta plantilla en R utilizando, por ejemplo, el [paquete brio](https://brio.r-lib.org/).
 - Mapea sobre tu conjunto de variables, renderiza la plantilla utilizando whisker y guarda cada versión en un archivo utilizando el paquete brio.
 
 ### Ejemplo
@@ -168,7 +168,7 @@ unlink(list.files(pattern = "*-hw.md"))
 Puedes utilizar herramientas de manipulación de cadenas para analizar Markdown si estás seguro de las variantes de Markdown que tu código recibirá como entrada, o si estás dispuesto a hacer crecer tu base de código para dar cabida a muchos casos extremos... lo que al final significa que estás escribiendo un analizador Markdown real.
 No es para los débiles de corazón... ni necesario si lees la sección que sigue a ésta. :aliviado:
 
-Detectarías los encabezados utilizando, por ejemplo `grep("^#", markdown_lines)` [^edge] .
+Detectarías los encabezados utilizando, por ejemplo `grep("^#", markdown_lines)` [^edge].
 
 [^edge]: ¡Pero esto también detectaría los comentarios del código! ¡No lo hagas!
 
@@ -190,29 +190,30 @@ Sólo mencionaremos las herramientas que puedes utilizar directamente desde R.
 
 ### Ejemplo de uso
 
-Supongamos que has creado un montón de tutoriales que enlazan con un sitio web que contiene una galería de extensiones para un popular paquete de trazado.
-Supongamos también que un día, alguien descubre que el enlace al sitio web está de repente [redirige a un sitio potencialmente malicioso que, con toda seguridad, no está relacionado con la gramática de los gráficos](https://github.com/ggplot2-exts/gallery/issues/112) y tú
+Supongamos que has creado un montón de tutoriales que enlazan con un sitio web que contiene una galería de extensiones para un popular paquete de visualización de datos.
+Supongamos también que un día, alguien descubre que el enlace al sitio web está de repente [redirigido a un sitio potencialmente malicioso que, con toda seguridad, no está relacionado con la gramática de los gráficos](https://github.com/ggplot2-exts/gallery/issues/112) y tú
 tienes que sustituir todas las instancias de ese enlace por `**redacted**`. Como los enlaces en Markdown pueden escribirse de muchas maneras, las expresiones regulares no te ayudarán, ¡pero un analizador sintáctico de Markdown sí!
 
 Un flujo de trabajo para esta situación sería
 
 - leer el AST de Markdown con tu analizador sintáctico favorito
-- saca todos los enlaces que apunten al enlace podrido
-- Sustitúyelos por un texto enfatizado que diga "redactado".
-- convierte el AST y vuelve a escribirlo en el archivo
+- sacar todos los enlaces que apunten al enlace podrido
+- sustituirlos por un texto enfatizado que diga "redactado".
+- convertir el AST y volver a escribirlo en el archivo
 
 ### {tinkr}
 
-En [paquete tinkr](https://docs.ropensci.org/tinkr/) ideado por Maëlle Salmon y mantenido por Zhian Kamvar, transforma Markdown en XML utilizando Commonmark, y te permite extraer y manipular Markdown utilizando XPath a través de la función [xml2](https://xml2.r-lib.org/) paquete.
+En [paquete tinkr](https://docs.ropensci.org/tinkr/) ideado por Maëlle Salmon y mantenido por Zhian Kamvar, transforma Markdown en XML utilizando Commonmark, y te permite extraer y manipular Markdown utilizando XPath a través del paquete [xml2](https://xml2.r-lib.org/).
 Tinkr vuelve a escribir el XML en Markdown utilizando XSLT.
 Los metadatos YAML están disponibles como cadena.
 Tinkr admite trozos de código ejecutables.
 
-El paquete tinkr se utiliza en [babeldown](https://docs.ropensci.org/babeldown/) y [eolo](https://docs.ropensci.org/aeolus/) paquetes.
+El paquete tinkr se utiliza en los paquetes [babeldown](https://docs.ropensci.org/babeldown/) y [eolo](https://docs.ropensci.org/aeolus/).
 
 ### {md4r}
 
-En [paquete md4r](https://rundel.github.io/md4r/) es un paquete experimental reciente mantenido por Colin Rundel, y es una envoltura en R de la biblioteca MD4C (Markdown para C) y representa el AST como una lista anidada con atributos en R.
+En [paquete md4r](https://rundel.github.io/md4r/) es un paquete experimental mantenido por Colin Rundel.
+Es una envoltura en R de la biblioteca MD4C (Markdown para C) y representa el AST como una lista anidada con atributos en R.
 La versión de desarrollo del paquete tiene utilidades para construir documentos Markdown mediante programación.
 
 ### Pandoc
@@ -223,7 +224,7 @@ Con Pandoc que presentamos en un [nota técnica](/blog/2023/06/01/troubleshootin
 
 - Utilizando filtros Lua: Pandoc convierte a AST en su formato nativo, los filtros Lua permiten procesarlo para retocarlo, y luego Pandoc puede volver a escribir a markdown.
 
-- Utilizando filtros JSON: Pandoc convierte a AST generando una representación JSON del mismo, luego cualquier herramienta puede modificar este archivo JSON y proporcionar una versión modificada a pandoc para que lo convierta de nuevo a markdown.
+- Utilizando filtros JSON: Pandoc convierte a AST generando una representación JSON del mismo, luego cualquier herramienta puede modificar este archivo JSON y proporcionar una versión modificada a Pandoc para que lo convierta de nuevo a markdown.
 
 Ten en cuenta que Pandoc no admite trozos de código ejecutable, ya que no podrá analizar trozos de código ejecutable como `Codeblock`.
 
@@ -235,7 +236,7 @@ También puedes convertirlo, por ejemplo, a HTML, y luego volver a Markdown. La 
 
 ### {parsermd}
 
-En [paquete parsermd](https://rundel.github.io/parsermd/) es otro paquete mantenido por Colin Rundel y es una "implementación de una gramática formal y un analizador sintáctico para documentos R Markdown utilizando la biblioteca Boost Spirit X3".
+El paquete [parsermd](https://rundel.github.io/parsermd/) es otro paquete mantenido por Colin Rundel y es una "implementación de una gramática formal y un analizador sintáctico para documentos R Markdown utilizando la biblioteca Boost Spirit X3".
 También incluye una colección de funciones de alto nivel para trabajar con el árbol sintáctico abstracto resultante".
 
 Este paquete tiene funciones para un flujo de trabajo ordenado que te permiten seleccionar distintas secciones del documento.
@@ -246,7 +247,7 @@ El paquete parsermd te permite incluso [modificar documentos](https://github.com
 
 ### {lightparser}
 
-En [separador de luz](https://cloud.r-project.org/web/packages/lightparser/index.html) de Sébastien Rochette "divide tus archivos rmarkdown o quarto por secciones en un tibble: títulos, texto, trozos; reconstruye el archivo a partir del tibble".
+El paquete [lightparser](https://cloud.r-project.org/web/packages/lightparser/index.html) de Sébastien Rochette "divide tus archivos rmarkdown o quarto por secciones en un tibble: títulos, texto, trozos; reconstruye el archivo a partir del tibble".
 Puede utilizarse para [traducir documentos](https://edenian-prince.github.io/blog/posts/2024-08-21-translate-md-files/) por ejemplo.
 
 ### La imposibilidad de una ida y vuelta perfecta
@@ -261,7 +262,7 @@ Dependiendo de tu caso de uso, puede que quieras encontrar formas de mitigar esa
 Puedes elegir un analizador en función de con qué te permita manipular el Markdown: si prefieres XML [^maelle-aprobado] y HTML a las listas anidadas, por ejemplo, puede que prefieras utilizar tinkr o Pandoc.
 Si las funciones de alto nivel de md4r o parsermd son adecuadas para tu caso de uso, puede que prefieras uno de ellos.
 
-[^maelle-aprobado]: Tanto Maëlle como Zhian están*enormes* fans de XML y XPath (ver: <https://masalmon.eu/2022/04/08/xml-xpath/> y <https://zkamvar.netlify.app/blog/gh-task-lists/>).
+[^maelle-aprobado]: Tanto Maëlle como Zhian están *enormes* fans de XML y XPath (ver: <https://masalmon.eu/2022/04/08/xml-xpath/> y <https://zkamvar.netlify.app/blog/gh-task-lists/>).
 
 Es importante que, si tus documentos contienen trozos de código ejecutable, utilices una herramienta que los admita, como parsermd, lightparser, tinkr.
 
@@ -288,10 +289,10 @@ Al igual que con Markdown, puede que necesites utilizar expresiones regulares, p
 Puedes analizar el código en XML utilizando el análisis sintáctico de R base y [xmlparsedata](https://r-lib.github.io/xmlparsedata/) y luego manipular el XML con [XPath](https://masalmon.eu/2022/04/08/xml-xpath/).
 Para volver a escribir código, puedes utilizar los atributos de cada nodo que indican las líneas y columnas originales.
 
-Así que un posible flujo de trabajo, como se ejemplifica en el ejemplo de Maëlle [de Maëll](https://masalmon.eu/2024/05/15/refactoring-xml/) es
+Así que un posible flujo de trabajo, como se ejemplifica en el [ejemplo de Maëlle](https://masalmon.eu/2024/05/15/refactoring-xml/).
 
 - parsear el código a XML, utilizar xmlparsedata para informar de qué cambiar y dónde. De estos pasos obtendrías una lista de posiciones de elementos, por ejemplo.
-- Utiliza brio para leer las líneas, cambia algunas de ellas con herramientas básicas de R, y vuelve a utilizar brio para escribir las líneas.
+- utilizar brio para leer las líneas, cambiar algunas de ellas con herramientas básicas de R, y volver a utilizar brio para escribir las líneas.
 
 ### {treesitter}
 
@@ -300,7 +301,7 @@ Así que un posible flujo de trabajo, como se ejemplifica en el ejemplo de Maël
 ## ¿Qué pasa con los metadatos?
 
 Hemos dedicado todo este post a los *cuerpo* de los documentos Markdown.
-¿Qué pasa con los metadatos contenidos en su portada, como:
+¿Qué pasa con los metadatos contenidos en su frontmatter, como:
 
 ```yaml
 ---
@@ -321,10 +322,10 @@ Por último, si necesitas volver a escribir el documento Markdown, volverías a 
 
 ## Ejemplos de análisis y edición de Markdown
 
-El sitio [paquete pegboard](https://carpentries.github.io/pegboard/) creado por Zhian Kamvar y mantenido por The Carpentries, analiza y valida las lecciones de Carpentries en busca de elementos estructurales de Markdown, incluyendo enlaces válidos, alt-text y los conocidos fenced-divs gracias a tinkr.
- Este paquete fue fundamental para convertir toda la infraestructura de las lecciones de Los Carpinteros de la sintaxis Markdown de Jekyll a Markdown de Pandoc. [^transition] .
+El [paquete pegboard](https://carpentries.github.io/pegboard/) creado por Zhian Kamvar y mantenido por The Carpentries, analiza y valida las lecciones de Carpentries en busca de elementos estructurales de Markdown, incluyendo enlaces válidos, alt-text y los conocidos fenced-divs gracias a tinkr.
+Este paquete fue fundamental para convertir toda la infraestructura de las lecciones de The Carpentries de la sintaxis Markdown de Jekyll a Markdown de Pandoc. [^transition] .
 
-[^transition]: Para ver ejemplos, consulta[Guía de Transición al Banco de Trabajo de Carpinterías](https://carpentries.github.io/workbench/transition-guide.html).
+[^transition]: Para ver ejemplos, consulta [_The Carpentries Workbench Transition Guide_](https://carpentries.github.io/workbench/transition-guide.html).
 
 En [paquete babeldown](https://docs.ropensci.org/babeldown/) mantenido por Maëlle Salmon transforma Markdown en XML, lo envía a la API DeepL para su traducción, y escribe los resultados de nuevo en Markdown, también utilizando tinkr.
 
@@ -334,8 +335,8 @@ En este post hemos explicado la mejor forma de analizar y editar archivos Markdo
 Para crear documentos repetitivos (como mailmerge), recomendamos herramientas de plantillas como [`knitr::knit_expand()`](https://bookdown.org/yihui/rmarkdown-cookbook/knit-expand.html) el [paquete whisker](https://github.com/edwindj/whisker), el [paquete brebaje](https://github.com/gregfrog/brew) Pandoc.
 Para editar pequeñas partes de un documento, utilizamos herramientas de manipulación de cadenas, es decir, expresiones regulares, con la base R (`sub()`, `grep()` y amigos), [stringr](https://stringr.tidyverse.org/) (y stringi), `xfun::gsub_file()`.
 Para una manipulación más pesada y segura, enumeramos herramientas basadas en herramientas que manipulan la representación abstracta de los documentos: tinkr, md4r, Pandoc, parseqmd, parsermd, lightparser.
-También mencionamos herramientas para trabajar con el *código R* dentro de las celdas de código, y para trabajar con el código YAML/TOML/JSON *frontmatter*.
+También mencionamos herramientas para trabajar con el *código R* dentro de las celdas de código, y para trabajar con el *frontmatter* YAML/TOML/JSON.
 
-¿Qué es lo que *tú* para manejar archivos Markdown?
+¿Qué es lo que *tú* utilizas para manejar archivos Markdown?
 
 
