@@ -15,9 +15,10 @@ params:
 
 ## Distintivos no r-universo
 
-Depois de [criar o seu universo pessoal](/blog/2021/06/22/setup-runiverse/), o painel de controle em `https://{yourname}.r-universe.dev` mostra a versão e outros detalhes de cada pacote em seu repositório. Também adicionamos uma nova guia que lista os emblemas disponíveis para o repositório.
+Depois de [criar o seu universo pessoal](/blog/2021/06/22/setup-runiverse/), o painel de controle em `https://{yourname}.r-universe.dev` mostra a versão e outros detalhes de cada pacote em seu repositório. Também adicionamos uma nova [guia](https://ropensci.r-universe.dev/ui#badges) que lista os emblemas disponíveis para o repositório, com suas URLs.
 
-[![Captura de tela da guia de emblemas](screenshot.png)](https://ropensci.r-universe.dev/ui#badges)
+{{< figure src="screenshot.png" alt="" link="https://ropensci.r-universe.dev/ui#badges" >}}
+
 
 Os emblemas são uma boa maneira de exibir o status do seu repositório ou de pacotes individuais em páginas externas da Web, como um arquivo README, a sua página inicial ou o README do seu perfil [pessoal](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) ou da [organização](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile) no GitHub.
 
@@ -37,7 +38,7 @@ Se o pacote também estiver no CRAN, você poderá posicioná-lo ao lado de um s
 
 Que tem a aparência abaixo. Aqui as pessoas usuárias podem ver imediatamente no README que o pacote está disponível na ropensci universe e que a versão do r-universe é superior à versão do CRAN.
 
-[![Captura de tela do pacote gert mostrando o crachá em uso](gert.png)](https://github.com/r-lib/gert)
+[![README do pacote gert mostrando o crachá em uso](gert.png)](https://github.com/r-lib/gert)
 
 ## Emblemas de status do repositório
 
@@ -57,9 +58,9 @@ Esta é a aparência dos emblemas do universo ropensci:
 ![runiverse-total](https://ropensci.r-universe.dev/badges/:total)
 ```
 
-![emblema de exemplo do nome do runiverso](https://ropensci.r-universe.dev/badges/:name)
-![emblema de exemplo do runiverse-registry](https://ropensci.r-universe.dev/badges/:registry)
-![emblema de exemplo de runiverse-total](https://ropensci.r-universe.dev/badges/:total)
+![emblema do nome do runiverso](https://ropensci.r-universe.dev/badges/:name)
+![emblema do status da construção](https://ropensci.r-universe.dev/badges/:registry)
+![emblema de número de pacotes](https://ropensci.r-universe.dev/badges/:total)
 
 ## Personalize o estilo do emblema
 
