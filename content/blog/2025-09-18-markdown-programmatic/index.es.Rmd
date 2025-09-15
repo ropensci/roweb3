@@ -32,20 +32,20 @@ Markdown es un lenguaje de marcado creado por John Gruber y Aaron Swartz.
 Aquí tienes un ejemplo:
 
 ```md
-# My first header
+# Mi primer título
 
-Some content, with parts in **bold** or *italic*.
-Let me add a [link](https://ropensci.org).
+Contenido, con partes en **negrito** o *itálico*.
+También pongo un [enlace](https://ropensci.org/es).
 
 ```
 
 Diferentes archivos Markdown pueden dar lugar al mismo resultado, por ejemplo, esto es equivalente a nuestro primer ejemplo:
 
 ```md
-My first header
+Mi primer título
 ===============
 
-Some content, with parts in __bold__ or _italic_. Let me add a [link](https://ropensci.org).
+Contenido, con partes en __negrito__ o _itálico_. Pongo un [enlace](https://ropensci.org/es).
 
 ```
 
@@ -67,11 +67,11 @@ Aquí tienes un ejemplo con un encabezado YAML:
 
 ```md
 ---
-title: My cool thing
-author: Myself
+title: Mi cosa bonita
+author: Yo misma
 ---
 
-Some content, *nice* content.
+Contenido, contenido *bueno*.
 ```
 
 Lo más habitual es que los usuarios de R escriban Markdown manualmente, o con la ayuda de un editor como el [editor visual Positron](https://quarto.org/docs/tools/positron/visual-editor.html) o el editor [editor visual de RStudio](https://posit.co/blog/exploring-rstudio-visual-markdown-editor/).
@@ -125,42 +125,42 @@ Un flujo de trabajo habitual sería
 
 Aquí tienes un archivo Markdown de ejemplo que podemos utilizar como plantilla:
 
-```{embed show-markdown, file="hw-template.md", lang="markdown"}
+```{embed show-markdown, file="hw-template.es.md", lang="markdown"}
 ```
 
 Utilizando el flujo de trabajo siguiente, podemos crear distintos documentos Markdown correspondientes a distintos estudiantes.
 
 ```{r, message=FALSE}
-# generate student variables ----
-students <- c("Maëlle", "Christophe", "Zhian")
-n <- length(students)
-key <- data.frame(
-  name = students,
-  mean = rpois(n, 5),
+# genera las variables de los estudiantes ----
+estudiantes <- c("Maëlle", "Christophe", "Zhian")
+n <- length(estudiantes)
+llave <- data.frame(
+  nombre = estudiantes,
+  media = rpois(n, 5),
   sd = sprintf("%.1f", runif(n)),
-  file = sprintf("%s-hw.md", students)
+  archivo = sprintf("%s-hw.es.md", estudiantes)
 )
-# render and write assignment from template ----
-make_assignment <- function(key, template) {
+# renderiza tareas usando la plantilla ----
+crea_tarea <- function(llave, plantilla) {
   lapply(seq(n), function(i) {
-    new <- whisker::whisker.render(template, data = key[i, ])
-    brio::write_lines(new, key$file[i])
+    new <- whisker::whisker.render(plantilla, data = llave[i, ])
+    brio::write_lines(new, llave$archivo[i])
   })
   return(invisible())
 }
-md <- brio::read_lines("hw-template.md")
-make_assignment(key, template = md)
-print(key)
+md <- brio::read_lines("hw-template.es.md")
+crea_tarea(llave, plantilla = md)
+print(llave)
 ```
 
 Así son los deberes de Zhian:
 
-```{embed show-zhian-markdown, file="Zhian-hw.md", lang="markdown"}
+```{embed show-zhian-markdown, file="Zhian-hw.es.md", lang="markdown"}
 ```
 
 ```{r, echo=FALSE}
 # clean up after ourselves
-unlink(list.files(pattern = "*-hw.md"))
+unlink(list.files(pattern = "*-hw.es.md"))
 ```
 
 ## Herramientas de manipulación de cadenas
