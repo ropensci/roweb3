@@ -70,7 +70,7 @@ b. Completar este archivo con los datos de los paquetes siguiendo el siguiente f
   - Si el paquete R no se encuentra en la raíz del repositorio, también se debe establecer el campo `subdir` en la ruta del directorio raíz del paquete R.
 
 
-{{< figure src = "r_univserse_packages.png" alt = "" caption = "los paquetes que yo agregué a mi universo"}}
+{{< figure src="r_univserse_packages.png" alt="" caption="los paquetes que yo agregué a mi universo" >}}
 
 c. Cuando terminamos de completar los datos, presionamos en el botón _Commit new file_. 
 
