@@ -19,11 +19,11 @@ tags:
   - markdown
   - tech notes
   - babeldown
-description: ""
+description: "Overview of programmatic ways to analyze and edit Markdown files: Markdown, R Markdown, Quarto, Hugo files, you name it."
 output: hugodown::md_document
 params:
   doi: "10.59350/e4xca-kx329"
-rmd_hash: 9b758483d8710a0a
+rmd_hash: 64fcd2724cafda54
 
 ---
 
@@ -160,9 +160,9 @@ Using the workflow below, we can create different Markdown documents correspondi
 <span><span class='nf'>make_assignment</span><span class='o'>(</span><span class='nv'>key</span>, template <span class='o'>=</span> <span class='nv'>md</span><span class='o'>)</span></span>
 <span><span class='nf'><a href='https://rdrr.io/r/base/print.html'>print</a></span><span class='o'>(</span><span class='nv'>key</span><span class='o'>)</span></span>
 <span><span class='c'>#&gt;         name mean  sd             file</span></span>
-<span><span class='c'>#&gt; 1     Maëlle    3 0.0     Maëlle-hw.md</span></span>
-<span><span class='c'>#&gt; 2 Christophe    7 1.0 Christophe-hw.md</span></span>
-<span><span class='c'>#&gt; 3      Zhian    5 0.0      Zhian-hw.md</span></span>
+<span><span class='c'>#&gt; 1     Maëlle    3 0.9     Maëlle-hw.md</span></span>
+<span><span class='c'>#&gt; 2 Christophe    4 0.2 Christophe-hw.md</span></span>
+<span><span class='c'>#&gt; 3      Zhian    8 0.8      Zhian-hw.md</span></span>
 <span></span></code></pre>
 
 </div>
@@ -176,7 +176,7 @@ title: "Homework assignment 1"
 author: "Zhian"
 ---
 
-Create a normal distribution with a mean of 5 and a standard deviation of 0.0:
+Create a normal distribution with a mean of 8 and a standard deviation of 0.8:
 
 ```{r solution-1}
 # hint: use the rnorm function

@@ -160,9 +160,9 @@ En utilisant le flux de travail ci-dessous, nous pouvons créer différents docu
 <span><span class='nf'>make_assignment</span><span class='o'>(</span><span class='nv'>clef</span>, modele <span class='o'>=</span> <span class='nv'>md</span><span class='o'>)</span></span>
 <span><span class='nf'><a href='https://rdrr.io/r/base/print.html'>print</a></span><span class='o'>(</span><span class='nv'>clef</span><span class='o'>)</span></span>
 <span><span class='c'>#&gt;          nom moyenne  sd             fichier</span></span>
-<span><span class='c'>#&gt; 1     Maëlle       5 0.8     Maëlle-hw.fr.md</span></span>
-<span><span class='c'>#&gt; 2 Christophe       4 0.7 Christophe-hw.fr.md</span></span>
-<span><span class='c'>#&gt; 3      Zhian       7 0.8      Zhian-hw.fr.md</span></span>
+<span><span class='c'>#&gt; 1     Maëlle       7 0.1     Maëlle-hw.fr.md</span></span>
+<span><span class='c'>#&gt; 2 Christophe       8 0.7 Christophe-hw.fr.md</span></span>
+<span><span class='c'>#&gt; 3      Zhian       2 0.8      Zhian-hw.fr.md</span></span>
 <span></span></code></pre>
 
 </div>
@@ -176,7 +176,7 @@ title: "Devoir maison 1"
 author: "Zhian"
 ---
 
-Créez une distribution normale avec une moyenne de 7 et un écart-type de 0.8 :
+Créez une distribution normale avec une moyenne de 2 et un écart-type de 0.8 :
 
 ```{r solution-1}
 # indice: utilisez la fonction rnorm
