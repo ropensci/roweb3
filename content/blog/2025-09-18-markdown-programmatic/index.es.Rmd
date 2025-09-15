@@ -46,7 +46,7 @@ Diferentes archivos Markdown pueden dar lugar al mismo resultado, por ejemplo, e
 Mi primer título
 ===============
 
-Contenido, con partes en __negrito__ o _itálico_. Pongo un [enlace](https://ropensci.org/es).
+Contenido, con partes en __negrita__ o _itálica_. Pongo un [enlace](https://ropensci.org/es).
 
 ```
 
