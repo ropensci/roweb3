@@ -47,19 +47,23 @@
     {{ end }}
     {{ $interviews := where .Site.RegularPages.ByPublishDate.Reverse ".Params.interviewee" "intersect" (slice .Params.name) }}
     {{ if ne (len $interviews) 0 }}
-    <h2 class="title">Interviewed in</h2>
+       <div class="mt-5">
+    <h2 class="title">{{ i18n "Interview" }}</h2>
+        </div>
       {{ range $interviews }}
       {{ .Render "post-short-summary" }}
       {{ end }}
     {{ end }}
     {{ $edited := where .Site.RegularPages.ByPublishDate.Reverse ".Params.editor" "intersect" (slice .Params.name) }}
     {{ if ne (len $edited) 0 }}
-    <h2 class="title">Edited:</h2>
+     <div class="mt-5">
+    <h2 class="title">{{ i18n "Editor" }}</h2>
+    </div>
       {{ range $edited }}
       {{ .Render "post-short-summary" }}
       {{ end }}
     {{ end }}
-    </div>
+        </div>
   </div>
 </section>
 {{ end }}

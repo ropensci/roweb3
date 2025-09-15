@@ -158,6 +158,9 @@
 [editor]
   other = 'Editor'
 
+[Editor]
+  other = 'Editor'
+
 [software-review-lead]
   other = 'Software Review Lead'
   
@@ -342,5 +345,9 @@
 
 [Future-ropensci-events]
   other = 'Future rOpenSci events'
+
 [Find-more-coworking]
   other = "Find out more about coworking!"
+
+[Interview]
+  other = "Interview"

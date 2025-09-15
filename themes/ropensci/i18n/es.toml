@@ -162,6 +162,9 @@
 [editor]
   other = 'Editor·a'
 
+[Editor]
+  other = 'Editor·a'
+
 [software-review-lead]
   other = 'Líder de Revisión de Software'
   
@@ -348,3 +351,6 @@
 
 [Find-more-coworking]
   other = "¡Descubre más sobre las sesiones de trabajo!"
+
+[Interview]
+  other = "Entrevista"
