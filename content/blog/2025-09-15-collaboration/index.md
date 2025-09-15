@@ -16,6 +16,15 @@ tags:
   - community
   - collaboration
   - funding
+crossposts:
+- name: OLS Blog
+  url: https://we-are-ols.org/posts/2025/09/15/from-surviving-to-thriving/
+- name: The Carpentries Blog
+  url: https://www.carpentries.org/blog/2025/09/convening-to-reclaim-and-sustain-open-science-communities/
+- name: PyOpenSci Blog
+  url: https://www.pyopensci.org/blog/pyopensci-surviving-to-thriving.html
+- name: PREreview Blog
+  url: https://content.prereview.org/from-surviving-to-thriving/  
 description: "Five leading open science organizations — The Carpentries, OLS, rOpenSci, pyOpenSci, and PREreview — are coming together for a strategic convening, supported by The Navigation Fund, to address shared challenges of underfunding, fragmentation, and unsustainable volunteer models."
 params:
   doi: "10.59350/py3e3-esa68"
