@@ -57,6 +57,9 @@
   
 [Blog]
   other = 'Blog'
+
+[The-rOpenSci-Blog]
+  other = 'The rOpenSci Blog'
   
 [Tech-Notes]
   other = 'Tech Notes'
@@ -187,6 +190,9 @@
 
 [Community-calls]  
   other = 'Community calls'
+  
+[Community-call]  
+  other = 'Community call'
   
 [Coworking]  
   other = 'Coworking'
@@ -331,5 +337,7 @@
 [Language]
   other = 'Language'
 
+[Future-ropensci-events]
+  other = 'Future rOpenSci events'
 [Find-more-coworking]
   other = "Find out more about coworking!"
