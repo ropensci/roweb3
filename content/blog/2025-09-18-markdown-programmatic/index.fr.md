@@ -21,7 +21,7 @@ description: ''
 output: hugodown::md_document
 params:
   doi: 10.59350/etdf6-t7k64
-rmd_hash: f9c91a86effb7655
+rmd_hash: 64191e9980ef8c5a
 
 ---
 
@@ -58,7 +58,7 @@ Les utilisateur·rice·s de R interagissent généralement avec les différentes
 -   Hugo, pour [blogdown](https://pkgs.rstudio.com/blogdown/) ou [hugodown](https://hugodown.r-lib.org/) qui utilisent [Commonmark et GFM](https://gohugo.io/content-management/formats/#markdown),
 -   Jekyll qui utilise GFM avec des spécificités à travers [kramdown](https://jekyllrb.com/docs/configuration/markdown/).
 
-De nombreux outils utilisant Markdown acceptent également un *frontmatter*: métadonnées en tête des fichiers Markdown, par exemple YAML, TOML ou JSON. Voici un exemple avec un frontmatter YAML :
+De nombreux outils utilisant Markdown acceptent également un *frontmatter* (*en-tête*): métadonnées en tête des fichiers Markdown, par exemple YAML, TOML ou JSON. Voici un exemple avec un en-tête YAML :
 
 ``` md
 ---
@@ -69,7 +69,7 @@ author: Myself
 Some content, *nice* content.
 ```
 
-Le plus souvent, les utilisateur·rice·s de R écrivent du Markdown manuellement, ou à l'aide d'un éditeur tel que le programme [l'éditeur visuel Positron](https://quarto.org/docs/tools/positron/visual-editor.html) ou l'éditeur [éditeur visuel RStudio IDE](https://posit.co/blog/exploring-rstudio-visual-markdown-editor/). Mais parfois, il faut créer ou modifier un grand nombre de fichiers Markdown en même temps, et modifier tous ces fichiers à la main est une énorme perte de temps. Cet article de blog te donnera des ressources en R que tu pourras utiliser pour créer, analyser et modifier des documents Markdown, afin que tu puisses devenir le·a magicien·ne Markdown que tu as toujours rêvé de devenir :mage: !
+Le plus souvent, les utilisateur·rice·s de R écrivent du Markdown manuellement, ou à l'aide d'un éditeur tel que [l'éditeur visuel Positron](https://quarto.org/docs/tools/positron/visual-editor.html) ou [l'éditeur visuel RStudio IDE](https://posit.co/blog/exploring-rstudio-visual-markdown-editor/). Mais parfois, il faut créer ou modifier un grand nombre de fichiers Markdown en même temps, et modifier tous ces fichiers à la main est une énorme perte de temps. Cet article de blog te donnera des ressources en R que tu pourras utiliser pour créer, analyser et modifier des documents Markdown, afin que tu puisses devenir le·a magicien·ne Markdown que tu as toujours rêvé de devenir :mage: !
 
 ### Morceaux de code et programmation lettrée
 
@@ -158,9 +158,9 @@ En utilisant le flux de travail ci-dessous, nous pouvons créer différents docu
 <span><span class='nf'>make_assignment</span><span class='o'>(</span><span class='nv'>key</span>, template <span class='o'>=</span> <span class='nv'>md</span><span class='o'>)</span></span>
 <span><span class='nf'><a href='https://rdrr.io/r/base/print.html'>print</a></span><span class='o'>(</span><span class='nv'>key</span><span class='o'>)</span></span>
 <span><span class='c'>#&gt;         name mean  sd             file</span></span>
-<span><span class='c'>#&gt; 1     Maëlle    5 0.8     Maëlle-hw.md</span></span>
-<span><span class='c'>#&gt; 2 Christophe    5 0.9 Christophe-hw.md</span></span>
-<span><span class='c'>#&gt; 3      Zhian    7 0.3      Zhian-hw.md</span></span>
+<span><span class='c'>#&gt; 1     Maëlle    7 0.0     Maëlle-hw.md</span></span>
+<span><span class='c'>#&gt; 2 Christophe    2 0.5 Christophe-hw.md</span></span>
+<span><span class='c'>#&gt; 3      Zhian    6 0.2      Zhian-hw.md</span></span>
 <span></span></code></pre>
 
 </div>
@@ -174,7 +174,7 @@ title: "Homework assignment 1"
 author: "Zhian"
 ---
 
-Create a normal distribution with a mean of 7 and a standard deviation of 0.3:
+Create a normal distribution with a mean of 6 and a standard deviation of 0.2:
 
 ```{r solution-1}
 # hint: use the rnorm function
