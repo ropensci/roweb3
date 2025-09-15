@@ -64,7 +64,7 @@ Les utilisateur·rice·s de R interagissent généralement avec les différentes
 - Jekyll qui utilise GFM avec des spécificités à travers [kramdown](https://jekyllrb.com/docs/configuration/markdown/).
 
 De nombreux outils utilisant Markdown acceptent également un *frontmatter* (*en-tête*): métadonnées en tête des fichiers Markdown, par exemple YAML, TOML ou JSON.
-Voici un exemple avec un frontmatter YAML :
+Voici un exemple avec un en-tête YAML :
 
 ```md
 ---
