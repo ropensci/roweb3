@@ -7,7 +7,9 @@ author:
 - Christophe Dervieux
 - Zhian N. Kamvar
 editor: Steffi LaZerte
-translator: Maëlle Salmon
+translator: 
+- Maëlle Salmon
+- Christophe Dervieux
 date: '2025-09-18'
 tags:
 - pandoc
@@ -17,7 +19,7 @@ tags:
 - markdown
 - tech notes
 - babeldown
-description: ''
+description: "Aperçu des manières programmatiques permettant d'analyser et de modifier les fichiers Markdown : Markdown, R Markdown, Quarto, fichiers Hugo, etc."
 output: hugodown::md_document
 params:
   doi: 10.59350/etdf6-t7k64
@@ -33,20 +35,20 @@ Markdown est un langage de balisage créé par John Gruber et Aaron Swartz.
 Voici un exemple :
 
 ```md
-# My first header
+# Mon premier titre
 
-Some content, with parts in **bold** or *italic*.
-Let me add a [link](https://ropensci.org).
+Contenu, avec des parties en **gras** ou *italique*.
+J'ajoute un [lien](https://ropensci.org).
 
 ```
 
 Différents fichiers Markdown peuvent conduire au même résultat, par exemple ceci est équivalent à notre premier exemple :
 
 ```md
-My first header
+Mon premier titre
 ===============
 
-Some content, with parts in __bold__ or _italic_. Let me add a [link](https://ropensci.org).
+Contenu, avec des parties en __gras__ ou _italique_. J'ajoute un [lien](https://ropensci.org).
 
 ```
 
@@ -68,11 +70,11 @@ Voici un exemple avec un en-tête YAML :
 
 ```md
 ---
-title: My cool thing
-author: Myself
+title: Mon truc cool
+author: Moi-même
 ---
 
-Some content, *nice* content.
+Contenu, *bon* contenu.
 ```
 
 Le plus souvent, les utilisateur·rice·s de R écrivent du Markdown manuellement, ou à l'aide d'un éditeur tel que [l'éditeur visuel Positron](https://quarto.org/docs/tools/positron/visual-editor.html) ou [l'éditeur visuel RStudio IDE](https://posit.co/blog/exploring-rstudio-visual-markdown-editor/).
@@ -126,42 +128,42 @@ Un flux de travail courant serait le suivant :
 
 Voici un exemple de fichier Markdown que nous pouvons utiliser comme modèle :
 
-```{embed show-markdown, file="hw-template.md", lang="markdown"}
+```{embed show-markdown, file="hw-template.fr.md", lang="markdown"}
 ```
 
 En utilisant le flux de travail ci-dessous, nous pouvons créer différents documents Markdown correspondant à différents élèves.
 
 ```{r, message=FALSE}
-# generate student variables ----
-students <- c("Maëlle", "Christophe", "Zhian")
-n <- length(students)
-key <- data.frame(
-  name = students,
-  mean = rpois(n, 5),
+# génération des variables ----
+etudiants <- c("Maëlle", "Christophe", "Zhian")
+n <- length(etudiants)
+clef <- data.frame(
+  nom = etudiants,
+  moyenne = rpois(n, 5),
   sd = sprintf("%.1f", runif(n)),
-  file = sprintf("%s-hw.md", students)
+  fichier = sprintf("%s-hw.fr.md", etudiants)
 )
-# render and write assignment from template ----
-make_assignment <- function(key, template) {
+# création des devoirs à partir du modèle ----
+make_assignment <- function(clef, modele) {
   lapply(seq(n), function(i) {
-    new <- whisker::whisker.render(template, data = key[i, ])
-    brio::write_lines(new, key$file[i])
+    new <- whisker::whisker.render(modele, data = clef[i, ])
+    brio::write_lines(new, clef$fichier[i])
   })
   return(invisible())
 }
-md <- brio::read_lines("hw-template.md")
-make_assignment(key, template = md)
-print(key)
+md <- brio::read_lines("hw-template.fr.md")
+make_assignment(clef, modele = md)
+print(clef)
 ```
 
 Voici à quoi ressemblent les devoirs de Zhian :
 
-```{embed show-zhian-markdown, file="Zhian-hw.md", lang="markdown"}
+```{embed show-zhian-markdown, file="Zhian-hw.fr.md", lang="markdown"}
 ```
 
 ```{r, echo=FALSE}
 # clean up after ourselves
-unlink(list.files(pattern = "*-hw.md"))
+unlink(list.files(pattern = "*-hw.fr.md"))
 ```
 
 ## Outils de manipulation des chaînes de caractères

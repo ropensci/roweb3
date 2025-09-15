@@ -19,7 +19,7 @@ tags:
   - markdown
   - tech notes
   - babeldown
-description: ""
+description: "Overview of programmatic ways to analyze and edit Markdown files: Markdown, R Markdown, Quarto, Hugo files, you name it."
 output: hugodown::md_document
 params:
   doi: "10.59350/e4xca-kx329"

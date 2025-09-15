@@ -7,7 +7,9 @@ author:
 - Christophe Dervieux
 - Zhian N. Kamvar
 editor: Steffi LaZerte
-translator: Maëlle Salmon
+translator: 
+- Maëlle Salmon
+- Christophe Dervieux
 date: '2025-09-18'
 tags:
 - pandoc
@@ -17,11 +19,11 @@ tags:
 - markdown
 - tech notes
 - babeldown
-description: ''
+description: "Aperçu des manières programmatiques permettant d'analyser et de modifier les fichiers Markdown : Markdown, R Markdown, Quarto, fichiers Hugo, etc."
 output: hugodown::md_document
 params:
   doi: 10.59350/etdf6-t7k64
-rmd_hash: 64191e9980ef8c5a
+rmd_hash: 9772be635c33b3b9
 
 ---
 
@@ -32,19 +34,19 @@ Si la vie te donne un tas de fichiers Markdown à analyser ou à éditer, est-ce
 Markdown est un langage de balisage créé par John Gruber et Aaron Swartz. Voici un exemple :
 
 ``` md
-# My first header
+# Mon premier titre
 
-Some content, with parts in **bold** or *italic*.
-Let me add a [link](https://ropensci.org).
+Contenu, avec des parties en **gras** ou *italique*.
+J'ajoute un [lien](https://ropensci.org).
 ```
 
 Différents fichiers Markdown peuvent conduire au même résultat, par exemple ceci est équivalent à notre premier exemple :
 
 ``` md
-My first header
+Mon premier titre
 ===============
 
-Some content, with parts in __bold__ or _italic_. Let me add a [link](https://ropensci.org).
+Contenu, avec des parties en __gras__ ou _italique_. J'ajoute un [lien](https://ropensci.org).
 ```
 
 De plus, il existe différents *flavours* (*saveurs*) ou *spécifications (specs)* de Markdown [^1] qui ajoute des [syntaxe étendues](https://www.markdownguide.org/extended-syntax/) comme les emojis écrits avec des deux-points.
@@ -62,11 +64,11 @@ De nombreux outils utilisant Markdown acceptent également un *frontmatter* (*en
 
 ``` md
 ---
-title: My cool thing
-author: Myself
+title: Mon truc cool
+author: Moi-même
 ---
 
-Some content, *nice* content.
+Contenu, *bon* contenu.
 ```
 
 Le plus souvent, les utilisateur·rice·s de R écrivent du Markdown manuellement, ou à l'aide d'un éditeur tel que [l'éditeur visuel Positron](https://quarto.org/docs/tools/positron/visual-editor.html) ou [l'éditeur visuel RStudio IDE](https://posit.co/blog/exploring-rstudio-visual-markdown-editor/). Mais parfois, il faut créer ou modifier un grand nombre de fichiers Markdown en même temps, et modifier tous ces fichiers à la main est une énorme perte de temps. Cet article de blog te donnera des ressources en R que tu pourras utiliser pour créer, analyser et modifier des documents Markdown, afin que tu puisses devenir le·a magicien·ne Markdown que tu as toujours rêvé de devenir :mage: !
@@ -120,14 +122,14 @@ Voici un exemple de fichier Markdown que nous pouvons utiliser comme modèle :
 <div class="highlight">
 
 <pre class='chroma'><code class='language-r' data-lang='r'>---
-title: "Homework assignment 1"
-author: "{{name}}"
+title: "Devoir maison 1"
+author: "{{nom}}"
 ---
 
-Create a normal distribution with a mean of {{mean}} and a standard deviation of {{sd}}:
+Créez une distribution normale avec une moyenne de {{moyenne}} et un écart-type de {{sd}} :
 
 ```{r solution-1}
-# hint: use the rnorm function
+# indice: utilisez la fonction rnorm
 ```
 </code></pre>
 
@@ -137,30 +139,30 @@ En utilisant le flux de travail ci-dessous, nous pouvons créer différents docu
 
 <div class="highlight">
 
-<pre class='chroma'><code class='language-r' data-lang='r'><span><span class='c'># generate student variables ----</span></span>
-<span><span class='nv'>students</span> <span class='o'>&lt;-</span> <span class='nf'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='o'>(</span><span class='s'>"Maëlle"</span>, <span class='s'>"Christophe"</span>, <span class='s'>"Zhian"</span><span class='o'>)</span></span>
-<span><span class='nv'>n</span> <span class='o'>&lt;-</span> <span class='nf'><a href='https://rdrr.io/r/base/length.html'>length</a></span><span class='o'>(</span><span class='nv'>students</span><span class='o'>)</span></span>
-<span><span class='nv'>key</span> <span class='o'>&lt;-</span> <span class='nf'><a href='https://rdrr.io/r/base/data.frame.html'>data.frame</a></span><span class='o'>(</span></span>
-<span>  name <span class='o'>=</span> <span class='nv'>students</span>,</span>
-<span>  mean <span class='o'>=</span> <span class='nf'><a href='https://rdrr.io/r/stats/Poisson.html'>rpois</a></span><span class='o'>(</span><span class='nv'>n</span>, <span class='m'>5</span><span class='o'>)</span>,</span>
+<pre class='chroma'><code class='language-r' data-lang='r'><span><span class='c'># génération des variables ----</span></span>
+<span><span class='nv'>etudiants</span> <span class='o'>&lt;-</span> <span class='nf'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='o'>(</span><span class='s'>"Maëlle"</span>, <span class='s'>"Christophe"</span>, <span class='s'>"Zhian"</span><span class='o'>)</span></span>
+<span><span class='nv'>n</span> <span class='o'>&lt;-</span> <span class='nf'><a href='https://rdrr.io/r/base/length.html'>length</a></span><span class='o'>(</span><span class='nv'>etudiants</span><span class='o'>)</span></span>
+<span><span class='nv'>clef</span> <span class='o'>&lt;-</span> <span class='nf'><a href='https://rdrr.io/r/base/data.frame.html'>data.frame</a></span><span class='o'>(</span></span>
+<span>  nom <span class='o'>=</span> <span class='nv'>etudiants</span>,</span>
+<span>  moyenne <span class='o'>=</span> <span class='nf'><a href='https://rdrr.io/r/stats/Poisson.html'>rpois</a></span><span class='o'>(</span><span class='nv'>n</span>, <span class='m'>5</span><span class='o'>)</span>,</span>
 <span>  sd <span class='o'>=</span> <span class='nf'><a href='https://rdrr.io/r/base/sprintf.html'>sprintf</a></span><span class='o'>(</span><span class='s'>"%.1f"</span>, <span class='nf'><a href='https://rdrr.io/r/stats/Uniform.html'>runif</a></span><span class='o'>(</span><span class='nv'>n</span><span class='o'>)</span><span class='o'>)</span>,</span>
-<span>  file <span class='o'>=</span> <span class='nf'><a href='https://rdrr.io/r/base/sprintf.html'>sprintf</a></span><span class='o'>(</span><span class='s'>"%s-hw.md"</span>, <span class='nv'>students</span><span class='o'>)</span></span>
+<span>  fichier <span class='o'>=</span> <span class='nf'><a href='https://rdrr.io/r/base/sprintf.html'>sprintf</a></span><span class='o'>(</span><span class='s'>"%s-hw.fr.md"</span>, <span class='nv'>etudiants</span><span class='o'>)</span></span>
 <span><span class='o'>)</span></span>
-<span><span class='c'># render and write assignment from template ----</span></span>
-<span><span class='nv'>make_assignment</span> <span class='o'>&lt;-</span> <span class='kr'>function</span><span class='o'>(</span><span class='nv'>key</span>, <span class='nv'>template</span><span class='o'>)</span> <span class='o'>&#123;</span></span>
+<span><span class='c'># création des devoirs à partir du modèle ----</span></span>
+<span><span class='nv'>make_assignment</span> <span class='o'>&lt;-</span> <span class='kr'>function</span><span class='o'>(</span><span class='nv'>clef</span>, <span class='nv'>modele</span><span class='o'>)</span> <span class='o'>&#123;</span></span>
 <span>  <span class='nf'><a href='https://rdrr.io/r/base/lapply.html'>lapply</a></span><span class='o'>(</span><span class='nf'><a href='https://rdrr.io/r/base/seq.html'>seq</a></span><span class='o'>(</span><span class='nv'>n</span><span class='o'>)</span>, <span class='kr'>function</span><span class='o'>(</span><span class='nv'>i</span><span class='o'>)</span> <span class='o'>&#123;</span></span>
-<span>    <span class='nv'>new</span> <span class='o'>&lt;-</span> <span class='nf'>whisker</span><span class='nf'>::</span><span class='nf'><a href='https://rdrr.io/pkg/whisker/man/whisker.render.html'>whisker.render</a></span><span class='o'>(</span><span class='nv'>template</span>, data <span class='o'>=</span> <span class='nv'>key</span><span class='o'>[</span><span class='nv'>i</span>, <span class='o'>]</span><span class='o'>)</span></span>
-<span>    <span class='nf'>brio</span><span class='nf'>::</span><span class='nf'><a href='https://brio.r-lib.org/reference/write_lines.html'>write_lines</a></span><span class='o'>(</span><span class='nv'>new</span>, <span class='nv'>key</span><span class='o'>$</span><span class='nv'>file</span><span class='o'>[</span><span class='nv'>i</span><span class='o'>]</span><span class='o'>)</span></span>
+<span>    <span class='nv'>new</span> <span class='o'>&lt;-</span> <span class='nf'>whisker</span><span class='nf'>::</span><span class='nf'><a href='https://rdrr.io/pkg/whisker/man/whisker.render.html'>whisker.render</a></span><span class='o'>(</span><span class='nv'>modele</span>, data <span class='o'>=</span> <span class='nv'>clef</span><span class='o'>[</span><span class='nv'>i</span>, <span class='o'>]</span><span class='o'>)</span></span>
+<span>    <span class='nf'>brio</span><span class='nf'>::</span><span class='nf'><a href='https://brio.r-lib.org/reference/write_lines.html'>write_lines</a></span><span class='o'>(</span><span class='nv'>new</span>, <span class='nv'>clef</span><span class='o'>$</span><span class='nv'>fichier</span><span class='o'>[</span><span class='nv'>i</span><span class='o'>]</span><span class='o'>)</span></span>
 <span>  <span class='o'>&#125;</span><span class='o'>)</span></span>
 <span>  <span class='kr'><a href='https://rdrr.io/r/base/function.html'>return</a></span><span class='o'>(</span><span class='nf'><a href='https://rdrr.io/r/base/invisible.html'>invisible</a></span><span class='o'>(</span><span class='o'>)</span><span class='o'>)</span></span>
 <span><span class='o'>&#125;</span></span>
-<span><span class='nv'>md</span> <span class='o'>&lt;-</span> <span class='nf'>brio</span><span class='nf'>::</span><span class='nf'><a href='https://brio.r-lib.org/reference/read_lines.html'>read_lines</a></span><span class='o'>(</span><span class='s'>"hw-template.md"</span><span class='o'>)</span></span>
-<span><span class='nf'>make_assignment</span><span class='o'>(</span><span class='nv'>key</span>, template <span class='o'>=</span> <span class='nv'>md</span><span class='o'>)</span></span>
-<span><span class='nf'><a href='https://rdrr.io/r/base/print.html'>print</a></span><span class='o'>(</span><span class='nv'>key</span><span class='o'>)</span></span>
-<span><span class='c'>#&gt;         name mean  sd             file</span></span>
-<span><span class='c'>#&gt; 1     Maëlle    7 0.0     Maëlle-hw.md</span></span>
-<span><span class='c'>#&gt; 2 Christophe    2 0.5 Christophe-hw.md</span></span>
-<span><span class='c'>#&gt; 3      Zhian    6 0.2      Zhian-hw.md</span></span>
+<span><span class='nv'>md</span> <span class='o'>&lt;-</span> <span class='nf'>brio</span><span class='nf'>::</span><span class='nf'><a href='https://brio.r-lib.org/reference/read_lines.html'>read_lines</a></span><span class='o'>(</span><span class='s'>"hw-template.fr.md"</span><span class='o'>)</span></span>
+<span><span class='nf'>make_assignment</span><span class='o'>(</span><span class='nv'>clef</span>, modele <span class='o'>=</span> <span class='nv'>md</span><span class='o'>)</span></span>
+<span><span class='nf'><a href='https://rdrr.io/r/base/print.html'>print</a></span><span class='o'>(</span><span class='nv'>clef</span><span class='o'>)</span></span>
+<span><span class='c'>#&gt;          nom moyenne  sd             fichier</span></span>
+<span><span class='c'>#&gt; 1     Maëlle       5 0.8     Maëlle-hw.fr.md</span></span>
+<span><span class='c'>#&gt; 2 Christophe       4 0.7 Christophe-hw.fr.md</span></span>
+<span><span class='c'>#&gt; 3      Zhian       7 0.8      Zhian-hw.fr.md</span></span>
 <span></span></code></pre>
 
 </div>
@@ -170,14 +172,14 @@ Voici à quoi ressemblent les devoirs de Zhian :
 <div class="highlight">
 
 <pre class='chroma'><code class='language-r' data-lang='r'>---
-title: "Homework assignment 1"
+title: "Devoir maison 1"
 author: "Zhian"
 ---
 
-Create a normal distribution with a mean of 6 and a standard deviation of 0.2:
+Créez une distribution normale avec une moyenne de 7 et un écart-type de 0.8 :
 
 ```{r solution-1}
-# hint: use the rnorm function
+# indice: utilisez la fonction rnorm
 ```
 </code></pre>
 
