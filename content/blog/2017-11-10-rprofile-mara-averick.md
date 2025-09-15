@@ -7,7 +7,8 @@ preface: In this occasional series, we interview someone using a loosely defined
   processes of R community members”. This interview was conducted and prepared by
   Kelly O'Briant as part of an rOpenSci unconf17 project.
 author: Kelly O'Briant
-interviewee: Mara Averick
+interviewee: 
+- Mara Averick
 topicid: 955
 tags:
   - community

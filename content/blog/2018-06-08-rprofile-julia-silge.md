@@ -7,7 +7,8 @@ preface: In this occasional series, we interview someone using a loosely defined
   processes of R community members. This interview was conducted and prepared by Kelly
   O’Briant as part of an rOpenSci project called [rOpenInterviews](https://github.com/ropenscilabs/rOpenInterviews/).
 author: Kelly O'Briant
-interviewee: Julia Silge
+interviewee: 
+- Julia Silge
 topicid: 1203
 tags:
   - community
