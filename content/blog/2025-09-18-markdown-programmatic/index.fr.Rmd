@@ -63,7 +63,7 @@ Les utilisateur·rice·s de R interagissent généralement avec les différentes
 - Hugo, pour [blogdown](https://pkgs.rstudio.com/blogdown/) ou [hugodown](https://hugodown.r-lib.org/) qui utilisent [Commonmark et GFM](https://gohugo.io/content-management/formats/#markdown),
 - Jekyll qui utilise GFM avec des spécificités à travers [kramdown](https://jekyllrb.com/docs/configuration/markdown/).
 
-De nombreux outils utilisant Markdown acceptent également un *frontmatter*: métadonnées en tête des fichiers Markdown, par exemple YAML, TOML ou JSON.
+De nombreux outils utilisant Markdown acceptent également un *frontmatter* (*en-tête*): métadonnées en tête des fichiers Markdown, par exemple YAML, TOML ou JSON.
 Voici un exemple avec un frontmatter YAML :
 
 ```md
@@ -75,7 +75,7 @@ author: Myself
 Some content, *nice* content.
 ```
 
-Le plus souvent, les utilisateur·rice·s de R écrivent du Markdown manuellement, ou à l'aide d'un éditeur tel que le programme [l'éditeur visuel Positron](https://quarto.org/docs/tools/positron/visual-editor.html) ou l'éditeur [éditeur visuel RStudio IDE](https://posit.co/blog/exploring-rstudio-visual-markdown-editor/).
+Le plus souvent, les utilisateur·rice·s de R écrivent du Markdown manuellement, ou à l'aide d'un éditeur tel que [l'éditeur visuel Positron](https://quarto.org/docs/tools/positron/visual-editor.html) ou [l'éditeur visuel RStudio IDE](https://posit.co/blog/exploring-rstudio-visual-markdown-editor/).
 Mais parfois, il faut créer ou modifier un grand nombre de fichiers Markdown en même temps, et modifier tous ces fichiers à la main est une énorme perte de temps.
 Cet article de blog te donnera des ressources en R que tu pourras utiliser pour créer, analyser et modifier des documents Markdown, afin que tu puisses devenir le·a magicien·ne Markdown que tu as toujours rêvé de devenir :mage: !
 
