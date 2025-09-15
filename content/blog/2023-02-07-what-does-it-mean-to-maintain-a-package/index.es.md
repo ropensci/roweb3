@@ -2,6 +2,8 @@
 title: ¿Qué significa mantener un paquete?
 author:
 - Maëlle Salmon
+translator:
+- Juan Cruz Enrique
 date: '2023-02-07'
 slug: what-does-it-mean-to-maintain-a-package
 categories:
