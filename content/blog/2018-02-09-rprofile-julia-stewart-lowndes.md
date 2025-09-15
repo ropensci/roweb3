@@ -9,6 +9,7 @@ preface: In this occasional series, we interview someone using a loosely defined
 author:
   - Sean Kross
   - Kelly O'Briant
+interviewee: Julia Stewart Lowndes
 topicid: 1060
 tags:
   - community
