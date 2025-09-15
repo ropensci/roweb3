@@ -120,7 +120,7 @@ Aquí tienes un archivo Markdown de ejemplo que podemos utilizar como plantilla:
 
 <pre class='chroma'><code class='language-r' data-lang='r'>---
 title: "Tarea 1"
-author: "{{name}}"
+author: "{{nombre}}"
 ---
 
 Crea una distribución normal con una media de {{media}} y una desviación estándar de {{sd}}:
@@ -157,9 +157,9 @@ Utilizando el flujo de trabajo siguiente, podemos crear distintos documentos Mar
 <span><span class='nf'>crea_tarea</span><span class='o'>(</span><span class='nv'>llave</span>, plantilla <span class='o'>=</span> <span class='nv'>md</span><span class='o'>)</span></span>
 <span><span class='nf'><a href='https://rdrr.io/r/base/print.html'>print</a></span><span class='o'>(</span><span class='nv'>llave</span><span class='o'>)</span></span>
 <span><span class='c'>#&gt;       nombre media  sd             archivo</span></span>
-<span><span class='c'>#&gt; 1     Maëlle     5 0.8     Maëlle-hw.es.md</span></span>
-<span><span class='c'>#&gt; 2 Christophe     6 0.9 Christophe-hw.es.md</span></span>
-<span><span class='c'>#&gt; 3      Zhian     5 0.5      Zhian-hw.es.md</span></span>
+<span><span class='c'>#&gt; 1     Maëlle     4 0.3     Maëlle-hw.es.md</span></span>
+<span><span class='c'>#&gt; 2 Christophe     6 0.3 Christophe-hw.es.md</span></span>
+<span><span class='c'>#&gt; 3      Zhian     1 0.4      Zhian-hw.es.md</span></span>
 <span></span></code></pre>
 
 </div>
@@ -170,10 +170,10 @@ Así son los deberes de Zhian:
 
 <pre class='chroma'><code class='language-r' data-lang='r'>---
 title: "Tarea 1"
-author: ""
+author: "Zhian"
 ---
 
-Crea una distribución normal con una media de 5 y una desviación estándar de 0.5:
+Crea una distribución normal con una media de 1 y una desviación estándar de 0.4:
 
 ```{r solution-1}
 # pista: usa la función rnorm
