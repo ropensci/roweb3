@@ -35,9 +35,7 @@
                 <div class="alert alert-info" role="alert">
                   {{ with .Params.crossposts }} 
                   <p style="margin-bottom:1rem;">
-                    {{ range .}}
-                    This is cross-posted on <a href="{{ .url }}">{{ .name }}</a>.
-                    {{ end }}
+                    This is cross-posted on {{ range $i, $e := .}}{{ if $i }}, {{ end }}<a href="{{ .url }}">{{ .name }}</a>{{ end }}.
                     </p>
                   {{ end }}
                   {{ with .Params.preface }}<p>{{ . | markdownify }}</p>{{ end }}
