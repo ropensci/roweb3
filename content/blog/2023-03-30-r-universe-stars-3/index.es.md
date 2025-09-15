@@ -5,6 +5,7 @@ author:
   - Yanina Bellini Saibene
   - Alejandra Bellini
   - Lucio Casalla  
+editor:
   - Steffi LaZerte
 interviewee:
   - Athanasia Mo Mowinckel
