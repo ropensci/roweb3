@@ -7,6 +7,7 @@ author:
 - Christophe Dervieux
 - Zhian N. Kamvar
 editor: Steffi LaZerte
+translator: Yanina Bellini Saibene
 date: '2025-09-18'
 tags:
 - pandoc
@@ -20,7 +21,7 @@ description: 'Visión general de las formas programáticas para analizar y edita
 output: hugodown::md_document
 params:
   doi: 10.59350/vjtk0-8wt03
-rmd_hash: 53f9b667ae9dcadc
+rmd_hash: 9a84bce56ea9c258
 
 ---
 
@@ -43,7 +44,7 @@ Diferentes archivos Markdown pueden dar lugar al mismo resultado, por ejemplo, e
 Mi primer título
 ===============
 
-Contenido, con partes en __negrito__ o _itálico_. Pongo un [enlace](https://ropensci.org/es).
+Contenido, con partes en __negrita__ o _itálica_. Pongo un [enlace](https://ropensci.org/es).
 ```
 
 Además, hay diferentes *sabores* (flavors) o *especificaciones* (specs) de marcado [^1] que añaden alguna [sintaxis ampliada](https://www.markdownguide.org/extended-syntax/) como los emojis escritos con dos puntos.
@@ -157,9 +158,9 @@ Utilizando el flujo de trabajo siguiente, podemos crear distintos documentos Mar
 <span><span class='nf'>crea_tarea</span><span class='o'>(</span><span class='nv'>llave</span>, plantilla <span class='o'>=</span> <span class='nv'>md</span><span class='o'>)</span></span>
 <span><span class='nf'><a href='https://rdrr.io/r/base/print.html'>print</a></span><span class='o'>(</span><span class='nv'>llave</span><span class='o'>)</span></span>
 <span><span class='c'>#&gt;       nombre media  sd             archivo</span></span>
-<span><span class='c'>#&gt; 1     Maëlle     4 0.3     Maëlle-hw.es.md</span></span>
-<span><span class='c'>#&gt; 2 Christophe     6 0.3 Christophe-hw.es.md</span></span>
-<span><span class='c'>#&gt; 3      Zhian     1 0.4      Zhian-hw.es.md</span></span>
+<span><span class='c'>#&gt; 1     Maëlle     4 0.6     Maëlle-hw.es.md</span></span>
+<span><span class='c'>#&gt; 2 Christophe     9 1.0 Christophe-hw.es.md</span></span>
+<span><span class='c'>#&gt; 3      Zhian     7 0.8      Zhian-hw.es.md</span></span>
 <span></span></code></pre>
 
 </div>
@@ -173,7 +174,7 @@ title: "Tarea 1"
 author: "Zhian"
 ---
 
-Crea una distribución normal con una media de 1 y una desviación estándar de 0.4:
+Crea una distribución normal con una media de 7 y una desviación estándar de 0.8:
 
 ```{r solution-1}
 # pista: usa la función rnorm
