@@ -12,7 +12,7 @@ description: Steffi passe en revue une conférence sur la science ouverte. N'oub
   pas qu'il faut du courage ; soyez gentil avec vous-même !
 social: '@steffilazerte@fosstodon.org explore une conférence sur la science ouverte pour les ornithologues,une introduction en douceur à la science ouverte.'
 params:
-  doi: 10.59350/mp76s-rkp03
+  doi: 10.59350/zaj25-hts95
 editor: Maëlle Salmon
 translator: Maëlle Salmon
 ---
