@@ -7,6 +7,9 @@
 [With]
   other = 'Con'
 
+[In-conversation-with]
+  other = 'Conversación con'
+
 [Edited-by]
   other = 'Editado por'
 
@@ -157,6 +160,9 @@
   other = 'Asistente de la Comunidad'
 
 [editor]
+  other = 'Editor·a'
+
+[Editor]
   other = 'Editor·a'
 
 [software-review-lead]
@@ -345,3 +351,6 @@
 
 [Find-more-coworking]
   other = "¡Descubre más sobre las sesiones de trabajo!"
+
+[Interview]
+  other = "Entrevista"

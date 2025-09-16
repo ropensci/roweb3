@@ -7,6 +7,12 @@
         <div class="content">
           <h1>{{ .Title | markdownify }}</h1>
           <div class="post-author">
+          {{ with .Params.interviewee }}
+          <span>
+          {{ i18n "In-conversation-with" }}
+          </span>  
+          {{ partial "blogs/pretty_author_names" . }} &#8211; 
+          {{ end }}
           <span>
           {{ i18n "By" }}
           </span> 
