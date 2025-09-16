@@ -10,9 +10,10 @@
         </div>
         <h1>{{ .Title | markdownify }}</h1>
         <div class="event-detail-author">
+          {{ $Site := .Site }}
           <p><span class="ml-1">
               {{ .Params.location }}, {{ .Params.country }} • {{ i18n "With" }} {{ with .Params.attendees }}{{ partial
-              "blogs/pretty_author_names" . }}.</span>
+              "blogs/pretty_author_names" (dict "who" . "Site" $Site ) }}.</span>
             {{ end }}
           </p>
         </div>
