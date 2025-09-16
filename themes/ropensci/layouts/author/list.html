@@ -46,6 +46,8 @@
     {{ .Render "post-short-summary" }}
     {{ end }}
     {{ $interviews := where .Site.RegularPages.ByPublishDate.Reverse ".Params.interviewee" "intersect" (slice .Params.name) }}
+    {{ $interviews2 := where .Site.RegularPages.ByPublishDate.Reverse ".Params.interviewee" .Params.name }}
+    {{ $interviews = union $interviews $interviews2 }}
     {{ if ne (len $interviews) 0 }}
        <div class="mt-5">
     <h2 class="title">{{ i18n "Interview" }}</h2>
