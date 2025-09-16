@@ -21,7 +21,7 @@ This summer I had a wonderful time attending the [Society for Canadian Ornitholo
 It was super exciting to run into [Sunny Tseng](/author/yi-chin-sunny-tseng/), rOpenSci Champion and fellow [ornithologist](https://en.wikipedia.org/wiki/Ornithology)!
 It's not often that I am able to run into both types of colleagues (R developers and ornithologists) at the same conference, so I cherish these experiences.
 
-Back before I joined rOpenSci I started my professional career as a behavioural ecologist and ornithologist, studying the effects of urban noise and habitat on communication in [Chickadees](https://en.wikipedia.org/wiki/Chickadee) (Tits for the non-North Americans).
+Back before I joined rOpenSci I started my professional career as a [behavioural ecologist and ornithologist](https://royalsocietypublishing.org/doi/10.1098/rspb.2016.1058), studying the effects of urban noise and habitat on communication in [Chickadees](https://en.wikipedia.org/wiki/Chickadee) (Tits for the non-North Americans).
 While I've shifted into R consulting and supporting [Yani](/author/yanina-bellini-saibene) here at rOpenSci with our amazing community, today I still work mostly for other ornithologists or bird-related conservation non-profits.
 
 This means that the [Society for Canadian Ornithologists](https://www.sco-soc.ca/) is still very much my 'home' organization and I'm always excited to go to meetings and reconnect with my colleagues.

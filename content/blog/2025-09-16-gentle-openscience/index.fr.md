@@ -23,7 +23,7 @@ Cet été, j'ai eu le plaisir de participer à la [Société des ornithologues d
 C'était génial de croiser [Sunny Tseng](/author/yi-chin-sunny-tseng/), [Championne rOpenSci](/champions) et collègue [ornithologue](https://fr.wikipedia.org/wiki/Ornithologie)!
 Ce n'est pas souvent que je rencontre les deux types de collègues (développeur·se·s R et ornithologues) lors d'une même conférence, alors je chéris ces expériences.
 
-Avant de rejoindre rOpenSci, j'ai commencé ma carrière professionnelle en tant qu'écologiste comportementale et ornithologue, étudiant les effets du bruit urbain et de l'habitat sur la communication chez les [mésanges](https://fr.wikipedia.org/wiki/mésanges).
+Avant de rejoindre rOpenSci, j'ai commencé ma carrière professionnelle en tant [qu'écologiste comportementale et ornithologue](https://royalsocietypublishing.org/doi/10.1098/rspb.2016.1058), étudiant les effets du bruit urbain et de l'habitat sur la communication chez les [mésanges](https://fr.wikipedia.org/wiki/mésanges).
 Alors que je me suis reconvertie dans le conseil et l'assistance en matière de R ainsi que le travail avec [Yani](/author/yanina-bellini-saibene) ici à rOpenSci avec notre incroyable communauté, je travaille encore aujourd'hui principalement pour d'autres ornithologues ou des organisations à but non lucratif de conservation des oiseaux.
 
 Cela signifie que la [Société des ornithologistes du Canada](https://www.sco-soc.ca/fr) est toujours mon organisation d'origine et je suis toujours enthousiaste à l'idée d'assister à des réunions et de renouer avec mes collègues.
