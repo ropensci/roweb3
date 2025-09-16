@@ -10,7 +10,7 @@ tags:
 - community
 description: Steffi passe en revue une conférence sur la science ouverte. N'oubliez
   pas qu'il faut du courage ; soyez gentil avec vous-même !
-social: '@steffilazerte@fosstodon.org explore une conférence sur la science ouverte pour les ornithologues,une introduction en douceur à la science ouverte.'
+social: '@steffilazerte@fosstodon.org explore une conférence sur la science ouverte pour les ornithologistes, une introduction en douceur à la science ouverte.'
 params:
   doi: 10.59350/zaj25-hts95
 editor: Maëlle Salmon
@@ -19,20 +19,20 @@ translator: Maëlle Salmon
 
 {{< figure src = "sunny_and_steffi.jpg" width = "300" alt = "" class = "pull-right" caption = "Sunny et Steffi montrent leurs autocollants R hex !">}}
 
-Cet été, j'ai eu le plaisir de participer à la [Société des ornithologues du Canada](https://www.sco-soc.ca/fr) à [Saskatoon](https://fr.wikipedia.org/wiki/Saskatoon) au Canada.
-C'était génial de croiser [Sunny Tseng](/author/yi-chin-sunny-tseng/), [Championne rOpenSci](/champions) et collègue [ornithologue](https://fr.wikipedia.org/wiki/Ornithologie)!
-Ce n'est pas souvent que je rencontre les deux types de collègues (développeur·se·s R et ornithologues) lors d'une même conférence, alors je chéris ces expériences.
+Cet été, j'ai eu le plaisir de participer à la [Société des ornithologistes du Canada](https://www.sco-soc.ca/fr) à [Saskatoon](https://fr.wikipedia.org/wiki/Saskatoon) au Canada.
+C'était génial de croiser [Sunny Tseng](/author/yi-chin-sunny-tseng/), [Championne rOpenSci](/champions) et collègue [ornithologiste](https://fr.wikipedia.org/wiki/Ornithologie)!
+Ce n'est pas souvent que je rencontre les deux types de collègues (développeur·se·s R et ornithologistes) lors d'une même conférence, alors je chéris ces expériences.
 
-Avant de rejoindre rOpenSci, j'ai commencé ma carrière professionnelle en tant [qu'écologiste comportementale et ornithologue](https://royalsocietypublishing.org/doi/10.1098/rspb.2016.1058), étudiant les effets du bruit urbain et de l'habitat sur la communication chez les [mésanges](https://fr.wikipedia.org/wiki/mésanges).
-Alors que je me suis reconvertie dans le conseil et l'assistance en matière de R ainsi que le travail avec [Yani](/author/yanina-bellini-saibene) ici à rOpenSci avec notre incroyable communauté, je travaille encore aujourd'hui principalement pour d'autres ornithologues ou des organisations à but non lucratif de conservation des oiseaux.
+Avant de rejoindre rOpenSci, j'ai commencé ma carrière professionnelle en tant [qu'écologiste comportementale et ornithologiste](https://royalsocietypublishing.org/doi/10.1098/rspb.2016.1058), étudiant les effets du bruit urbain et de l'habitat sur la communication chez les [mésanges](https://fr.wikipedia.org/wiki/mésanges).
+Alors que je me suis reconvertie dans le conseil et l'assistance en matière de R ainsi que le travail avec [Yani](/author/yanina-bellini-saibene) ici à rOpenSci avec notre incroyable communauté, je travaille encore aujourd'hui principalement pour d'autres ornithologiste ou des organisations à but non lucratif de conservation des oiseaux.
 
 Cela signifie que la [Société des ornithologistes du Canada](https://www.sco-soc.ca/fr) est toujours mon organisation d'origine et je suis toujours enthousiaste à l'idée d'assister à des réunions et de renouer avec mes collègues.
 Mais conférence ornithologique ou pas, j'essaie toujours d'apporter un peu de R, de Science Ouverte et de rOpenSci à la réunion.
 
-Dans le passé, j'ai organisé des symposiums sur des sujets tels que "[R les ornithologues : Points de vue des utilisateuRs et programmeuRs](https://github.com/steffilazerte/Presentations/tree/master/2019-08%20SOC%20-%20R%20Symposium#readme)" ou "[Comment les ornithologues peuvent-il·elle·s trouver des paquets R ?](https://github.com/steffilazerte/Presentations/tree/master/2021-08%20AOS%7CSOC%20-%20R%20Symposium#readme)" et j'ai participé à l'organisation d'ateliers sur les paquets R pour l'ornithologie (comme [bbsBayes2](https://github.com/bbsBayes/bbsBayes2)).
+Dans le passé, j'ai organisé des symposiums sur des sujets tels que "[R pour les ornithologues : Points de vue des utilisateuRs et programmeuRs](https://github.com/steffilazerte/Presentations/tree/master/2019-08%20SOC%20-%20R%20Symposium#readme)" ou "[Comment les ornithologues peuvent-il·elle·s trouver des paquets R ?](https://github.com/steffilazerte/Presentations/tree/master/2021-08%20AOS%7CSOC%20-%20R%20Symposium#readme)" et j'ai participé à l'organisation d'ateliers sur les paquets R pour l'ornithologie (comme [bbsBayes2](https://github.com/bbsBayes/bbsBayes2)).
 
 Cette année, j'ai eu envie d'aller un peu plus loin que R et j'ai décidé de parler de "[Conseils pratiques pour la science ouverte en ornithologie](https://github.com/steffilazerte/Presentations/tree/master/2025-08-Open-Science#readme)".
-Mon objectif était d'encourager les ornithologues (ou d'autres scientifiques) à essayer la science ouverte.
+Mon objectif était d'encourager les ornithologistes (ou d'autres scientifiques) à essayer la science ouverte.
 Pour se rendre compte qu'il n'est nécessaire ni d'avoir une formation en informatique, ni d'avoir beaucoup d'argent !
 Et comme l'ornithologie compte de nombreux scientifiques qui travaillent déjà avec des données ouvertes, des méthodes ouvertes et la science ouverte, je voulais partager quelques idées sur la manière dont il·elle·s pourraient encourager un plus grand nombre de leurs collègues à se joindre à elleux.
 
