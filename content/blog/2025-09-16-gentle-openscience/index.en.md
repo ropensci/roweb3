@@ -15,7 +15,7 @@ params:
 editor: Maëlle Salmon
 ---
 
-{{< figure src = "sunny_and_steffi.jpg" width = "300" alt = "A photo of Sunny Tseng and Steffi LaZerte grinning at the camera and holding up hex stickers for different rOpenSci R packages." class = "pull-right" caption = "Sunny and Steffi showing off their R hex stickers!">}}
+{{< figure src = "sunny_and_steffi.jpg" width = "300" alt = "" class = "pull-right" caption = "Sunny and Steffi showing off their R hex stickers!">}}
 
 This summer I had a wonderful time attending the [Society for Canadian Ornithologists](https://www.sco-soc.ca/) meeting in [Saskatoon](https://en.wikipedia.org/wiki/Saskatoon), Canada.
 It was super exciting to run into [Sunny Tseng](/author/yi-chin-sunny-tseng/), rOpenSci Champion and fellow [ornithologist](https://en.wikipedia.org/wiki/Ornithology)!

@@ -17,7 +17,7 @@ editor: Maëlle Salmon
 translator: Maëlle Salmon
 ---
 
-{{< figure src = "sunny_and_steffi.jpg" width = "300" alt = "Une photo de Sunny Tseng et Steffi LaZerte souriant à l'appareil photo et brandissant des autocollants hexagonaux pour différents paquets R de rOpenSci." class = "pull-right" caption = "Sunny et Steffi montrent leurs autocollants R hex !">}}
+{{< figure src = "sunny_and_steffi.jpg" width = "300" alt = "" class = "pull-right" caption = "Sunny et Steffi montrent leurs autocollants R hex !">}}
 
 Cet été, j'ai eu le plaisir de participer à la [Société des ornithologues du Canada](https://www.sco-soc.ca/fr) à [Saskatoon](https://fr.wikipedia.org/wiki/Saskatoon) au Canada.
 C'était génial de croiser [Sunny Tseng](/author/yi-chin-sunny-tseng/), [Championne rOpenSci](/champions) et collègue [ornithologue](https://fr.wikipedia.org/wiki/Ornithologie)!
