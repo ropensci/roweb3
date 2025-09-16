@@ -612,7 +612,7 @@ The latest version of usethis includes a handy function [`use_r_universe_badge()
 
 ### New testthat vignettes
 
-The development version of the testthat package features [new vignettes](https://testthat.r-lib.org/dev/articles/index.html#testing-techniques) including an useful overview of ["Testing challenging functions](https://testthat.r-lib.org/dev/articles/challenging-tests.html).
+The development version of the testthat package features [new vignettes](https://testthat.r-lib.org/dev/articles/index.html#testing-techniques) including an useful overview of ["Testing challenging functions"](https://testthat.r-lib.org/dev/articles/challenging-tests.html).
 
 ### AI newsletter by Posit
 
