@@ -33,40 +33,40 @@ Para algunos de ellos, si no están demasiado implicados, o si son una buena ram
 
 A continuación veremos cuatro pasos para solicitar ayuda externa.
 
-## Paso 1. Selecciona temas de "se busca ayuda
+## Paso 1. Selecciona _issues_ de "se busca ayuda"
 
 ### Temas que *realmente* necesitas ayuda: obstáculos al desarrollo
 
-A veces se avecina un obstáculo que no sabes cómo superar en el camino hacia tu próximo hito de desarrollo.
-En esta fase puedes
+A veces se avecina un obstáculo que no sabes cómo superarlo en el camino hacia tu próximo hito de desarrollo.
+En esta fase puedes:
 
-- pedir ayuda en un canal habitual (por ejemplo, el canal de mantenimiento de paquetes de rOpenSci Slack si estás en él [espacio de trabajo](https://contributing.ropensci.org/resources.html#channels); [Foro de debate rOpenSci](/blog/2022/01/11/ropensci-forum/); [Foro de la comunidad Posit](https://community.rstudio.com/));
+- pedir ayuda en un canal habitual (por ejemplo, el canal de mantenimiento de paquetes del Slack de rOpenSci, si estás en ese [espacio de trabajo](https://contributing.ropensci.org/resources.html#channels); [Foro de debate rOpenSci](/blog/2022/01/11/ropensci-forum/); [Foro de la comunidad Posit](https://community.rstudio.com/));
 - abrir una incidencia en una dependencia upstream si es ahí donde está el problema real;
 - abre una incidencia en tu repositorio describiendo tu problema.
 
-Por ejemplo, al trabajar en el paquete tinkr, Maëlle abrió un [cuestión muy específica](https://github.com/ropensci/tinkr/issues/9) que acabó recibiendo una ayuda externa milagrosa.
+Por ejemplo, al trabajar en el paquete tinkr, Maëlle abrió un [_issue_ muy específico](https://github.com/ropensci/tinkr/issues/9) que acabó recibiendo una ayuda externa milagrosa.
 
 También puedes añadir la etiqueta "se necesita ayuda" a un informe de error o a una solicitud de función que alguien haya abierto en tu paquete.
-Con un poco de suerte, el propio creador del problema podrá participar .
+Con un poco de suerte, el propio creador del problema podrá participar.
 
 ### Temas en los que podrías necesitar ayuda: delegar o voluntad de hacer crecer tu equipo
 
 Ahora bien, a veces hay algunas ideas de mantenimiento o mejora que tienes para tu paquete para las que no tienes tiempo ahora mismo, o que no son urgentes.
-Por ejemplo [actualizar la infraestructura de pruebas para probar esa tercera edición](https://github.com/ropensci/geojsonio/issues/183) o [añadir soporte terra a un paquete espacial](https://github.com/ropensci/landscapetools/issues/33).
-Incluyéndolos en tu gestor de incidencias,
+Por ejemplo [actualizar la infraestructura de pruebas para probar esa tercera edición](https://github.com/ropensci/geojsonio/issues/183) o [añadir soporte a un paquete espacial](https://github.com/ropensci/landscapetools/issues/33).
+Incluyéndolos en tu gestor de _issues_,
 
-- muestras a los usuarios curiosos que están en tu mente,
+- muestras a los usuarios curiosos que tienes en tu mente,
 - puedes organizar tu propio trabajo,
 - y puedes recibir ayuda externa, especialmente si solicitas ayuda explícitamente con la etiqueta "se busca ayuda".
 
-## Paso 2. Pule tu cuestión y la guía de contribución
+## Paso 2. Pule tu _issue_ y la guía de contribución
 
-Una vez que tengas un tema en mente, haz que el título de la cuestión y el texto sean lo más claros posible.
+Una vez que tengas un tema en mente, haz que el título del _issue_ y el texto sean lo más claros posible.
 Aunque al final seas tú quien solucione el problema, en el futuro te alegrarás de no haber anotado un comentario indescifrable.
 Enlaza a los recursos que sean necesarios, y asegúrate de incluir el contexto.
-Aborda la redacción de un problema en tu propio repositorio del mismo modo que lo harías en un repositorio que no es tuyo: descripción del reto, resultado deseado, compensaciones, etc.
+Aborda la redacción de un problema en tu propio repositorio del mismo modo que lo harías en uno que no es tuyo: descripción del reto, resultado deseado, compensaciones, etc.
 
-Más allá de los esfuerzos en la cuestión individual, es crucial tener un [guía de contribución](https://devguide.ropensci.org/collaboration.html#contributing-guide) que subraye todo lo que conviene saber sobre la contribución a tu paquete: herramientas utilizadas, preferencias de estilo y diseño. [^ctb]
+Más allá de los esfuerzos en el _issue_ individual, es crucial tener un [guía de contribución](https://devguide.ropensci.org/collaboration.html#contributing-guide) que subraye todo lo que conviene saber sobre la contribución a tu paquete: herramientas utilizadas, preferencias de estilo y diseño. [^ctb]
 No dupliques los recursos externos, mejor apunta a ellos.
 Intenta ser un poco flexible para no sobrecargar o asustar a los colaboradores con requisitos demasiado estrictos: probablemente puedas terminar tú mismo los PR, o enseñarles poco a poco.
 
@@ -74,38 +74,38 @@ Intenta ser un poco flexible para no sobrecargar o asustar a los colaboradores c
 
 ## Paso 3. Difunde tu necesidad de ayuda
 
-En primer lugar, para los paquetes rOpenSci, los temas de "se busca ayuda" se difunden a la comunidad a través de la sección [sitio web](/help-wanted) y en las redes sociales.
+En primer lugar, para los paquetes rOpenSci, los _issues_ de "se busca ayuda" se difunden a la comunidad a través de la sección [sitio web](/help-wanted) y en las redes sociales.
 
-También puedes compartirlo en tus propias redes: el espacio de trabajo de slack de rOpenSci, tus redes sociales, un canal de comunicación local del Grupo de Usuarios de R, etc.
+ Puedes compartirlo en tus propias redes: el espacio de trabajo de slack de rOpenSci, tus redes sociales, un canal de comunicación local del Grupo de Usuarios de R, etc.
 
 También puedes considerar la posibilidad de aprovechar eventos hack-a-thon como [Hacktoberfest](https://hacktoberfest.com/) por ejemplo (si añades el ["hacktoberfest" a tu repositorio](https://hacktoberfest.com/participation/)), pero con eventos realmente grandes como éste no puedes contar necesariamente con que alguien descubra tu pequeño problema en ese mar de problemas.
 
-## Paso 4. Da las gracias a los colaboradores
+## Paso 4. Da las gracias a las personas que colaboran
 
-Si alguien responde en el tema o abre un PR, intenta ser algo receptivo.
-Comprueba que tu configuración te permite recibir notificaciones de los comentarios de las incidencias y de los RP, puede que necesites [mirar](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/managing-subscriptions-for-activity-on-github/viewing-your-subscriptions) tu repositorio.
+Si alguien responde en el _issue_ o abre un PR, intenta ser algo receptivo.
+Comprueba que tu configuración te permite recibir notificaciones de los comentarios de los _issues_ y de los PR, puede que necesites [mirar las notificaciones](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/managing-subscriptions-for-activity-on-github/viewing-your-subscriptions) en tu repositorio.
 
-Agradece las contribuciones [generosamente](https://devguide.ropensci.org/collaboration.html?q=generous#attributions) ¡!
+¡Agradece las contribuciones [generosamente](https://devguide.ropensci.org/collaboration.html?q=generous#attributions)! 
 
 ## No desesperes
 
-Aunque hayas escrito un número excelente, puede que no lo recojan.
+Aunque hayas escrito un _issue_ excelente, puede que nadie lo tome.
 En ese caso, plantéate volver a difundirlo, pide consejos generales a tus compañeros mantenedores y considera la posibilidad de solicitar financiación (por tanto, tiempo, ya sea tuyo o de un contratista externo) para tus esfuerzos de mantenimiento.
-Véase, por ejemplo [R Consortium dos convocatorias anuales de propuestas](https://www.r-consortium.org/all-projects/call-for-proposals#Rstats).
+Por ejemplo [el R Consortium tiene dos convocatorias anuales de propuestas](https://www.r-consortium.org/all-projects/call-for-proposals#Rstats).
 
 Aunque al final nadie aborde la cuestión, pasar por este proceso puede ser útil, ya que te da la oportunidad de pensar en el tema en detalle y de considerar posibles resoluciones, lo que puede ayudarte a resolver tu problema por ti mismo.
-Además, una cuestión bien documentada es una forma estupenda de documentar tus decisiones sobre tu software de forma transparente y puede ayudar a futuros usuarios y colaboradores a entender las razones de tus elecciones.
+Además, un _issue_ bien documentado es una forma estupenda de dejar documentadas tus decisiones sobre tu software de forma transparente y puede ayudar a futuros usuarios y colaboradores a entender las razones de tus elecciones.
 
 ## Conclusión
 
-Abrir temas de "se busca ayuda" puede ser una forma de hacer crecer la comunidad de colaboradores de tu paquete.
-Pueden ser una mejor puerta a la contribución que temas menos específicos con una lista de tareas necesarias, ya que son menos abrumadores.
+Abrir _issues_ de "se busca ayuda" puede ser una forma de hacer crecer la comunidad de colaboradores de tu paquete.
+Puede ser una mejor puerta a la contribución de temas menos específicos con una lista de tareas necesarias, ya que son menos abrumadores.
 Es posible que los colaboradores solucionen un problema de "ayuda solicitada" y luego se marchen, o que sigan adelante y solucionen más de ellos.
 A veces una conversación en los comentarios puede ayudarte a encontrar una solución aunque un colaborador no envíe un PR.
 
-Como colaborador, ¡comenta siempre un problema antes de abordarlo, para asegurarte de que sigue actualizado y de que nadie más está preparando un RP duplicado en este momento!
+Como colaborador, ¡comenta siempre un problema antes de abordarlo, para asegurarte de que sigue actualizado y de que nadie más está preparando un PR duplicado en este momento!
 Qué fastidioso sería trabajar para nada.
 
-Para más ideas sobre cómo fomentar una comunidad en torno a tu paquete, quizá te gusten la grabación y los materiales de nuestro pasado [convocatoria comunitaria sobre el tema](/commcalls/apr2021-pkg-community/).
+Para más ideas sobre cómo fomentar una comunidad en torno a tu paquete, quizá te guste la grabación y los materiales de nuestra pasada ["conversaciones con la comunidad" sobre el tema](/commcalls/apr2021-pkg-community/).
 
 
