@@ -1,5 +1,5 @@
 ---
-title: Atraer colaboradores con temas de "se busca ayuda
+title: Atraer colaboradores con issues de "se busca ayuda"
 author:
 - Maëlle Salmon
 - Yanina Bellini Saibene
@@ -18,15 +18,15 @@ params:
   doi: 10.59350/zh01g-yby98
 ---
 
-Mantener un paquete puede ser una actividad solitaria, lo que a veces supone un problema si prefieres el trabajo en equipo o si te encuentras con un problema muy espinoso para ti.
-Además de pertenecer a una comunidad solidaria de mantenedores (como rOpenSci :wink:), ¡para obtener ayuda y conmiseración colaborativas puedes intentar crear una comunidad de colaboradores en torno a tu paquete!
-En este post, exploraremos una herramienta que te ayudará a conseguir ese objetivo: los temas de "se busca ayuda", ¡con los que tu repositorio podría atraer y retener a nuevos desarrolladores! Hablaremos de qué son las cuestiones de "se busca ayuda", de cuatro pasos para solicitar ayuda externa, y te recordaremos que puede ser un proceso beneficioso, aunque no acabes atrayendo ayuda.
+Mantener un paquete puede ser una actividad solitaria, lo que a veces supone un problema si prefieres el trabajo en equipo o si te encuentras con un problema muy duro para ti.
+Además de pertenecer a una comunidad solidaria de mantenedores (como rOpenSci :wink:), ¡para obtener ayuda y compasión colaborativa puedes intentar crear una comunidad de colaboradores en torno a tu paquete!
+En este post, exploraremos una herramienta que te ayudará a conseguir ese objetivo: los _issues_ de "se busca ayuda", ¡con los que tu repositorio podría atraer y retener a nuevos desarrolladores! Hablaremos de qué son estos _issues_ de "se busca ayuda", sobre cuatro pasos para solicitar ayuda externa y te recordaremos que puede ser un proceso beneficioso, aunque no acabes consiguiendo ayuda.
 
-*Ten en cuenta que este post utiliza terminología específica de GitHub, como temas y etiquetas. Si utilizas GitLab u otra plataforma git, probablemente exista un equivalente.* :cara\_ligeramente\_sonriente:
+*Ten en cuenta que este post utiliza terminología específica de GitHub, como _issues_ y etiquetas (labels). Si utilizas GitLab u otra plataforma git, probablemente exista un equivalente.* :cara\_ligeramente\_sonriente:
 
 ## ¿Qué son los temas de "se necesita ayuda"?
 
- Los temas "Se busca ayuda" son temas para los que aceptarías o necesitarías contribuciones externas.
+ Los _issues_ "Se busca ayuda" son _issues_ para los que necesitarías o aceptarías contribuciones externas.
 Se etiquetan con la etiqueta estándar de la comunidad "se busca ayuda" ([ejemplo](https://github.com/ropensci/osmextract/issues/286); opcionalmente con un emoji, si ejecutaste [`usethis::use_tidy_github_labels()`](https://usethis.r-lib.org/reference/use_github_labels.html)).
 
 Para algunos de ellos, si no están demasiado implicados, o si son una buena rampa de acceso a tu base de código, también puedes utilizar la función ["etiqueta "buena primera edición](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/encouraging-helpful-contributions-to-your-project-with-labels).
