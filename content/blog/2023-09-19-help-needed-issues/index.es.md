@@ -4,18 +4,21 @@ author:
 - Maëlle Salmon
 - Yanina Bellini Saibene
 - Steffi LaZerte
+translator: 
+- Juan Cruz Enrique
+- Yanina Bellini Saibene
 date: '2023-09-19'
 slug: help-wanted
 featured: true
 tags:
-- community
-- packages
-- welcome
-- maintenance
-- contributors
+- comunidad
+- paquetes
+- bienvenida
+- mantenimiento
+- contribuciones
 description: Consejos sobre cómo crear y anunciar anuncios de búsqueda de ayuda.
 params:
-  doi: 10.59350/zh01g-yby98
+  doi: 10.59350/cax2g-mx496
 ---
 
 Mantener un paquete puede ser una actividad solitaria, lo que a veces supone un problema si prefieres el trabajo en equipo o si te encuentras con un problema muy duro para ti.
@@ -42,7 +45,7 @@ En esta fase puedes:
 
 - pedir ayuda en un canal habitual (por ejemplo, el canal de mantenimiento de paquetes del Slack de rOpenSci, si estás en ese [espacio de trabajo](https://contributing.ropensci.org/resources.html#channels); [Foro de debate rOpenSci](/blog/2022/01/11/ropensci-forum/); [Foro de la comunidad Posit](https://community.rstudio.com/));
 - abrir una incidencia en una dependencia upstream si es ahí donde está el problema real;
-- abre una incidencia en tu repositorio describiendo tu problema.
+- abrir un _issue_ en tu repositorio describiendo tu problema.
 
 Por ejemplo, al trabajar en el paquete tinkr, Maëlle abrió un [_issue_ muy específico](https://github.com/ropensci/tinkr/issues/9) que acabó recibiendo una ayuda externa milagrosa.
 
@@ -90,8 +93,8 @@ Comprueba que tu configuración te permite recibir notificaciones de los comenta
 ## No desesperes
 
 Aunque hayas escrito un _issue_ excelente, puede que nadie lo tome.
-En ese caso, plantéate volver a difundirlo, pide consejos generales a tus compañeros mantenedores y considera la posibilidad de solicitar financiación (por tanto, tiempo, ya sea tuyo o de un contratista externo) para tus esfuerzos de mantenimiento.
-Por ejemplo [el R Consortium tiene dos convocatorias anuales de propuestas](https://www.r-consortium.org/all-projects/call-for-proposals#Rstats).
+En ese caso, plantéate volver a difundirlo, pide consejos generales a tus compañeros mantenedores y considera la posibilidad de solicitar financiación (que puede comprar tiempo de trabajo, ya sea tuyo o el de un contratista externo) para tus esfuerzos de mantenimiento.
+Por ejemplo [el R Consortium tiene dos convocatorias anuales de propuestas para subsidios](https://www.r-consortium.org/all-projects/call-for-proposals#Rstats).
 
 Aunque al final nadie aborde la cuestión, pasar por este proceso puede ser útil, ya que te da la oportunidad de pensar en el tema en detalle y de considerar posibles resoluciones, lo que puede ayudarte a resolver tu problema por ti mismo.
 Además, un _issue_ bien documentado es una forma estupenda de dejar documentadas tus decisiones sobre tu software de forma transparente y puede ayudar a futuros usuarios y colaboradores a entender las razones de tus elecciones.
