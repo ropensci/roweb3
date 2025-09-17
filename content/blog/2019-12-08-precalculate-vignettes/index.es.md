@@ -32,7 +32,7 @@ En estos casos es mejor ejecutar el código rmarkdown localmente, y enviar una v
 
 ## La solución: ejecutar localmente rmarkdown
 
- Imagina que tienes una viñeta llamada `longexample.Rmd`. Para precalcular la viñeta, cambia el nombre del archivo de entrada por algo que R no reconozca como rmarkdown, por ejemplo `longexample.Rmd.orig`. A continuación, ejecuta knitr en el directorio del paquete para ejecutar y sustituir el código R en el rmarkdown:
+ Imagina que tienes una viñeta llamada `longexample.Rmd`. Para precomputar la viñeta, cambia el nombre del archivo de entrada por algo que R no reconozca como rmarkdown, por ejemplo `longexample.Rmd.orig`. A continuación, ejecuta knitr en el directorio del paquete para ejecutar y sustituir el código R en el rmarkdown:
 
 ```r
 # Execute the code from the vignette
