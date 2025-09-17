@@ -6,7 +6,7 @@
   <div class="event-body">
     <img {{ if eq .Type "events" }}src="/images/svg/calendart.svg"{{ else }}src="/images/svg/event.svg"{{ end }} alt="" class="event-img" />
     <div class="event-info">
-      <a href="{{ .RelPermalink }}" style="color: inherit"><h4 class="event-title">{{ .Title }}{{ if ne .Type "events" }} (Community Call){{ end }}</h4></a>
+      <a href="{{ .RelPermalink }}" style="color: inherit"><h4 class="event-title">{{ .Title | markdownify }}{{ if ne .Type "events" }} (Community Call){{ end }}</h4></a>
       <p class="event-text">{{ (time .Params.dateStart).UTC | time.In $tz | time.Format ":date_full"  }} {{ (time .Params.dateStart) | time.In $tz | time.Format ":time_short" | upper  }} ({{ $tz }}) • {{ if eq .Type "events" }}{{ .Params.location }} {{ .Params.country }}{{ else }}online 🌐{{ end }} • {{ .Params.lang | default "English" }}</p>
     </div>
   </div>

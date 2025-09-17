@@ -7,6 +7,9 @@
 [With]
   other = 'With'
 
+[In-conversation-with]
+  other = 'In conversation with'
+
 [Edited-by]
   other = 'Edited by'
 
@@ -57,6 +60,9 @@
   
 [Blog]
   other = 'Blog'
+
+[The-rOpenSci-Blog]
+  other = 'The rOpenSci Blog'
   
 [Tech-Notes]
   other = 'Tech Notes'
@@ -152,6 +158,9 @@
 [editor]
   other = 'Editor'
 
+[Editor]
+  other = 'Editor'
+
 [software-review-lead]
   other = 'Software Review Lead'
   
@@ -187,6 +196,9 @@
 
 [Community-calls]  
   other = 'Community calls'
+  
+[Community-call]  
+  other = 'Community call'
   
 [Coworking]  
   other = 'Coworking'
@@ -331,5 +343,11 @@
 [Language]
   other = 'Language'
 
+[Future-ropensci-events]
+  other = 'Future rOpenSci events'
+
 [Find-more-coworking]
   other = "Find out more about coworking!"
+
+[Interview]
+  other = "Interview"

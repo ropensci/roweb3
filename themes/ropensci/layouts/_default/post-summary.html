@@ -19,7 +19,7 @@
       <span>
         {{ i18n "By" }}
       </span>
-      {{ partial "blogs/pretty_author_names" .Params.author }}
+      {{ partial "blogs/pretty_author_names" (dict "who" .Params.author "Site" .Site) }}
     </div>
     <ul class="post-tags">
       {{ range .Params.tags }}
