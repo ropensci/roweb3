@@ -1,7 +1,7 @@
 <div class="col-md-4">
   <div class="packages-item">
     <a href="{{ .RelPermalink }}" class="packages-title">
-      {{ .Title }}
+      {{ .Title | markdownify }}
     </a>
     <div class="packages-body">
       <p>{{ .Params.description }}</p>

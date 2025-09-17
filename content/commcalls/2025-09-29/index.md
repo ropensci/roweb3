@@ -7,7 +7,6 @@ publishDate: 2025-09-29
 description: "Community Call about R-multiverse"
 author:
   - Will Landau 
-  - Yanina Bellini Saibene
 organizer: 
   - Yanina Bellini Saibene
   - Steffi LaZerte
@@ -15,7 +14,6 @@ location: online
 country: "\U0001F310"
 attendees: Everyone is welcome!
 slug: r-multiverse
-featured: true
 notes: 
 outputs:
 - HTML
