@@ -3,14 +3,16 @@ slug: precompute-vignettes
 title: Cómo precomputar viñetas de paquetes o artículos pkgdown
 date: '2019-12-08'
 author: Jeroen Ooms
+translator: 
+- Juan Cruz Enrique
 topicid: 1893
 tags:
 - docs
-- packages
-- tech notes
+- paquetes
+- notas técnicas
 - r-universe
 params:
-  doi: 10.59350/x0a46-gk734
+  doi: 10.59350/yscyn-6eb34
 ---
 
 Desde principios de este año [construimos automáticamente](/technotes/2019/06/07/ropensci-docs/) binarios y documentación pkgdown para [todos los paquetes de rOpenSci](https://docs.ropensci.org). Pero un problema que hemos encontrado es que algunos paquetes incluyen viñetas que requieren algunas herramientas/datos/credenciales especiales, que no están disponibles en los servidores de compilación genéricos.
