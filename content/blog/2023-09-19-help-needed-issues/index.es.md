@@ -16,7 +16,7 @@ tags:
 - bienvenida
 - mantenimiento
 - contribuciones
-description: Consejos sobre cómo crear y anunciar anuncios de búsqueda de ayuda.
+description: Consejos sobre cómo crear y anunciar issues de búsqueda de ayuda.
 params:
   doi: 10.59350/cax2g-mx496
 ---
