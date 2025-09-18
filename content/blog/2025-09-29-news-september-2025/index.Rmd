@@ -54,12 +54,16 @@ Our community manager Yanina Bellini Saibene participated in the paper ["10 quic
 
 The training phase is off to a strong start! 
 
-So far, Champions have taken part in five workshops, including two on Git and GitHub, one on code style — which we opened up not only to Champions and mentors but also to everyone who applied — and two on R package development. Each session has been a chance to learn, share, and grow together as a community. And we’re just getting started: the next workshops will dive into software peer review and community building — key skills for every Champion’s journey!
+So far, [Champions](/champions) have taken part in five workshops, including two on Git and GitHub, one on code style -- which we opened up not only to Champions and mentors but also to everyone who applied -- and two on R package development. 
+Each session has been a chance to learn, share, and grow together as a community. 
+And we’re just getting started: the next workshops will dive into software peer review and community building -- key skills for every Champion’s journey!
 
 As usual you can find the materials on our [training page](/training).
+
 ### Request for feedback
 
-We recently published a [blog post](/blog/2025-09-11-repometrics) requesting feedback for a prototype of an [organization-level dashboard](https://ropensci-review-tools.github.io/repometrics-demo/). We're still looking for feedback and suggestions, so please read the blog post if you haven't already, and help us with your ideas.
+We recently published a [blog post](/blog/2025-09-11-repometrics) requesting feedback for a prototype of an [organization-level dashboard](https://ropensci-review-tools.github.io/repometrics-demo/). 
+We're still looking for feedback and suggestions, so please read the blog post if you haven't already, and help us with your ideas.
 
 ### Coworking 
 
