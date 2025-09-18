@@ -17,9 +17,9 @@ params:
   doi: 10.59350/yt047-xf054
 ---
 
-rOpenSci [se ha incorporado la segunda cohorte de Campeones](/blog/2024/02/15/champions-program-champions-2024/) ¡!
-Su formación comenzó con un [sesión sobre el estilo del código](/blog/2024/02/22/beautiful-code/) a la que siguieron tres sesiones sobre los fundamentos del desarrollo de paquetes R, y finalizó con una sesión sobre [desarrollo avanzado de paquetes R](https://rpkgdev-rocket-2024.netlify.app/) que consistió en un popurrí de consejos con debate, seguido de tiempo para aplicar estos principios a los paquetes de los participantes.
-Aquí quiero compartir uno de los temas tratados: La comprobación de paquetes y, en particular, los principios DRY ("no te repitas") y DAMP ("frases descriptivas y significativas").
+rOpenSci [ha incorporado la segunda cohorte de Campeones](/blog/2024/02/15/champions-program-champions-2024/) ¡!
+Su formación comenzó con una [sesión sobre el estilo del código](/blog/2024/02/22/beautiful-code/) a la que siguieron tres sesiones sobre los fundamentos del desarrollo de paquetes R, y finalizó con una sesión sobre [desarrollo avanzado de paquetes R](https://rpkgdev-rocket-2024.netlify.app/) que consistió en un popurrí de consejos más un debate, seguido de tiempo para aplicar estos principios a los paquetes de los participantes.
+Aquí quiero compartir uno de los temas tratados: La comprobación de paquetes y, en particular, los principios DRY Don´t Repeat Yourself ("no te repitas") y DAMP Descriptive And Meaningful Phrases ("frases descriptivas y significativas").
 Para este tema, utilizamos un [repositorio de GitHub](https://github.com/maelle/swamp) que contiene un paquete R cuyos diferentes commits ilustran los dos principios. En cada paso compartiremos un commit o diff que ilustre los cambios realizados.
 
 ## Etapa 1: ¡barro!
@@ -58,18 +58,18 @@ test_that("substraction works", {
 })
 ```
 
-No es un patrón óptimo porque no puedes mirar cada `test_that()` prueba de forma aislada y comprender rápidamente lo que ocurre.
-En un archivo de pruebas muy largo incluso tendrías que desplazarte arriba y abajo! :scream:
+No es un patrón óptimo porque no puedes mirar cada `test_that()` ya que prueba de forma aislada y no comprende rápidamente lo que ocurre.
+En un archivo de pruebas muy largo incluso tendrías que desplazarte hacia arriba y abajo! :scream:
 Además, estamos siendo repetitivos al definir el mismo objeto de prueba en dos archivos de prueba.
 
 ## Fase 2: ¡SECADO!
 
 Siguiente compromiso: [SECAR estos archivos](https://github.com/maelle/swamp/commit/381f244f56f1837207f2150a7e76c70bd59c0422)
 
-En esta fase nos acordamos diligentemente de DRY, Don't Repeat Yourself (No te repitas), y de la mecánica de [archivos de ayuda de testthat](https://blog.r-hub.io/2020/11/18/testthat-utility-belt/):
+En esta fase nos acordamos rápidamente de DRY, Don't Repeat Yourself (No te repitas), y de la mecánica de [archivos de ayuda de testthat](https://blog.r-hub.io/2020/11/18/testthat-utility-belt/):
 archivos cuyos nombres empiezan por `helper-` se cargan antes de todas las pruebas.
 
-Así que creamos un archivo de ayuda (`helper-swamp.R`) dentro del cual `test_object` esté definido y, por tanto, ¡disponible para las pruebas!
+Así que creamos un archivo de ayuda (`helper-swamp.R`) dentro del cual `test_object` esté definido, por lo tanto, ¡disponible para las pruebas!
 
 En `tests/testthat/helper-swamp.R`,
 
@@ -79,7 +79,7 @@ test_object <- list(a = 1, b = 2)
 
 En los archivos de prueba, eliminamos la primera línea que definía `test_object`.
 
-Ahora las cosas aún no son perfectas.
+Pero las cosas aún no son perfectas.
 Cuando miramos cualquiera de los archivos de prueba, no podemos saber realmente qué `test_object` ya que su nombre no es "descriptivo y significativo".
 
 Además, ahora tenemos `test_object` que es *siempre* definida aunque no se utilice en una prueba.
@@ -91,7 +91,7 @@ Además, ahora tenemos `test_object` que es *siempre* definida aunque no se util
 
 Tercer compromiso: [Aplicar los principios DAMP](https://github.com/maelle/swamp/commit/9cc08937e1cabf112955004212e1d0bccf2ccda4)
 
-En el archivo de ayuda, `tests/testthat/helper-swamp.R` refactorizamos el código en un *función* con un nombre más significativo (¡al menos hagamos como si lo fuera!).
+En el archivo de ayuda, `tests/testthat/helper-swamp.R` refactorizamos el código en una *función* con un nombre más significativo (¡al menos hagamos como si lo fuera!).
 
 ```r
 basic_list <- function() {
@@ -99,7 +99,7 @@ basic_list <- function() {
 }
 ```
 
-A continuación, llamamos a esta función para definir el objeto en todas las pruebas en las que sea necesario.
+A continuación, usamos esta función para definir el objeto en todas las pruebas en las que sea necesario.
 Así, los archivos de prueba pasan a ser
 
 ```r
@@ -120,7 +120,7 @@ test_that("substraction works", {
 
 Ahora, aunque la definición real de la lista básica no está en todas las pruebas, tenemos una mejor idea de lo que ocurre al leer la prueba.
 
-Además, si la prueba fallara, en la consola podríamos ejecutar `devtools::load_all()` y ejecutar el código de la prueba, como `devtools::load_all()` carga los archivos de ayuda de la prueba así `basic_list()` estén disponibles.
+Además, si la prueba fallara, en la consola podríamos ejecutar `devtools::load_all()` y ejecutar el código de la prueba, como `devtools::load_all()` carga los archivos de ayuda de la prueba así `basic_list()` están disponibles.
 
 ## Conclusión
 
