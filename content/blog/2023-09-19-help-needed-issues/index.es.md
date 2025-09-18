@@ -1,5 +1,5 @@
 ---
-title: Atraer colaboradores con issues de "se busca ayuda"
+title: "Atraer colaboradores con issues de 'se busca ayuda'"
 author:
 - Maëlle Salmon
 - Yanina Bellini Saibene
