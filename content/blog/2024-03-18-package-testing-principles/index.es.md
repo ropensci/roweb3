@@ -4,17 +4,19 @@ author:
 - Maëlle Salmon
 editor:
 - Steffi LaZerte
+translator:
+- Juan Cruz Enrique
 date: '2024-03-18'
 slug: dry-damp
 output: hugodown::md_document
 tags:
-- tech notes
-- package development
-- champions program
-- how-to
+- notas técnicas
+- desarrollo de paquetes
+- programa de campeones
+- como se hace
 - testing
 params:
-  doi: 10.59350/yt047-xf054
+  doi: 10.59350/g9ths-tc712
 ---
 
 rOpenSci [ha incorporado la segunda cohorte de Campeones](/blog/2024/02/15/champions-program-champions-2024/) ¡!
