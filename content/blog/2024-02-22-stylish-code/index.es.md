@@ -5,17 +5,20 @@ author:
 - Yanina Bellini Saibene
 editor:
 - Steffi LaZerte
+translator:
+- Juan Cruz Bellini
+- Yanina Bellini Saibene
 date: '2024-02-22'
 slug: beautiful-code
 output: hugodown::md_document
 tags:
-- champions program
-- tech notes
-- beginner
-- package development
-- clean code
+- programa de campeones
+- notas técnicas
+- principiantes
+- desarrollo de paquetes
+- código limpio
 params:
-  doi: 10.59350/tbdps-5xc82
+  doi: 10.59350/snsk0-vgn51
 ---
 
 rOpenSci [inició el segundo grupo de campeones y campeonas](/blog/2024/02/15/champions-program-champions-2024/) ¡!
