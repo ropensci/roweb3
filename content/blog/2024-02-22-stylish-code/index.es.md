@@ -18,20 +18,20 @@ params:
   doi: 10.59350/tbdps-5xc82
 ---
 
-rOpenSci [se incorporó la segunda cohorte de campeones](/blog/2024/02/15/champions-program-champions-2024/) ¡!
+rOpenSci [inició el segundo grupo de campeones y campeonas](/blog/2024/02/15/champions-program-champions-2024/) ¡!
 Su formación comenzó con una sesión sobre el estilo del código, que resumiremos en este post.
-Saber más sobre la calidad del código es relevante para todos los proyectos Champion, ya sea crear un nuevo paquete, someter un paquete a revisión de software o revisar un paquete.
+Saber más sobre la calidad del código es relevante para todos los proyectos del programa, ya sea crear un nuevo paquete, someter un paquete a revisión de software o revisar un paquete.
 Esta sesión de formación consistió en una charla y un debate, mientras que las próximas sesiones de formación sobre desarrollo de paquetes serán más prácticas.
 
 ## ¿Por qué escribir un código bonito?
 
 Aunque tu código será ejecutado por máquinas, será leído por humanos.
-Esos humanos, ya seas tú en el futuro, colaboradores que conozcas o colaboradores que no conozcas, necesitarán entender tu código para comprobar que no tiene errores, para corregir posibles fallos y para construir sobre él añadiendo nuevas funciones.
-Por tanto, facilitar la comprensión de tu código es crucial.
+Esos humanos, ya seas tú en el futuro, colaboradores que conozcas o que no conozcas, necesitarán entender tu código para comprobar que no tiene errores, para corregir posibles fallos y para construir sobre él añadiendo nuevas funciones.
+Por lo tanto, facilitar la comprensión de tu código es crucial.
 
 ## Código bien proporcionado
 
-En la primera parte, compartimos consejos que hacían el código más "bien proporcionado".
+En la primera parte, compartimos consejos que hacen el código "más proporcionado".
 No es sólo una cuestión de estética.
 El código bien proporcionado es más fácil de analizar por los humanos.
 
@@ -62,8 +62,8 @@ starwars %>%
 En el primer trozo, el espaciado entre elementos es irregular.
 Por ejemplo, no hay espacio antes de `height` no hay espacio alrededor del signo igual que aparece después de `mass`.
 
-En cambio, te recomendamos que sigas sistemáticamente las reglas de espaciado (¡y de salto de línea!).
-A menos que tengas un [opinión muy diferente](https://github.com/ropensci-review-tools/spaceout) la estrategia más sencilla es seguir la guía de estilo de tus colaboradores, o una guía de estilo popular como la [guía de estilo tidyverse](https://style.tidyverse.org/).
+En cambio, te recomendamos que sigas ordenadamente las reglas de espaciado (¡y de salto de línea!).
+A menos que tengas una [opinión muy diferente](https://github.com/ropensci-review-tools/spaceout) la estrategia más sencilla es seguir la guía de estilo de tus colaboradores, o una guía de estilo popular como la [guía de estilo tidyverse](https://style.tidyverse.org/).
 
 ¿Cómo se aplican estas normas en la práctica?
 Primero tendrás que acostumbrarte a utilizar un estilo concreto.
@@ -87,8 +87,8 @@ El espacio vertical está limitado en el código tanto por la pantalla como por 
 Una forma de hacer que tu código sea más corto, pero fácil de analizar, es utilizar *párrafos de código*.
 Los saltos de línea no son gratuitos, ya que ocupan espacio vertical.
 Utiliza saltos de línea para separar bloques de código que hagan algo relacionado.
-Como en la prosa, un párrafo debe corresponder aproximadamente a una idea.
-Por ejemplo, en el código de ejemplo siguiente, el primer bloque hace algo relacionado con la cabecera de una página web, mientras que el segundo bloque se ocupa del cuerpo de la página web.
+Como en la prosa, un párrafo debe corresponder relativamente a una idea.
+Por ejemplo, en el siguiente código, el primer bloque hace algo relacionado con la cabecera de una página web, mientras que el segundo bloque se ocupa del cuerpo de la página web.
 
 ```r
 head <- collect_metadata(website)
@@ -99,7 +99,7 @@ body_string <- stringify(body)
 ```
 
 Una segunda forma de hacer que tu código sea menos largo es dividirlo en funciones.
-En una función principal, puedes subcontratar tareas a otras funciones.
+En una función principal, puedes delegar tareas a otras funciones.
 De este modo, un lector puede ver de un vistazo lo que hace la función principal, y luego dirigirse a las otras funciones para leer más detalles, como en el ejemplo siguiente, donde `create_content()` llama a otras funciones para crear un título, una página y, a continuación, crear su salida que combina ambas cosas.
 
 ```r
@@ -110,7 +110,7 @@ create_content <- function(website) {
 }
 ```
 
-En su libro [Aprende programación Python asistida por IA](https://www.manning.com/books/learn-ai-assisted-python-programming) Leo Porter y Daniel Zingaro comparten los atributos de las buenas funciones: Una tarea clara a realizar, comportamiento claramente definido, cortas en número de líneas de código, entrada y salida claras, valor general sobre uso específico.
+En su libro [Aprende programación Python asistida por IA](https://www.manning.com/books/learn-ai-assisted-python-programming) Leo Porter y Daniel Zingaro comparten los atributos de las buenas funciones: Una tarea clara a realizar, comportamiento claramente definido, poca cantidad de líneas de código, entradas y salidas claras y valor general sobre uso específico.
 
 ¡También es útil saber cómo navegar rápidamente entre funciones en tu IDE!
 En el IDE de RStudio, puedes utilizar `Ctrl+click` sobre el nombre de la función, o escribir su nombre en la barra de búsqueda a la que se accede con `Ctrl+.`.
@@ -126,9 +126,9 @@ Esta parte de la formación era una versión abreviada de la entrada del blog R-
 Los comentarios del código no son la voz en off de un narrador del código, deben ser pequeñas alertas.
 Cuantos más comentarios haya, más probable es que el lector se los salte.
 
-Los comentarios de código no deben ser una tirita para una mala nomenclatura o un código demasiado complejo: en lugar de añadir un comentario, ¿puedes renombrar una variable o refactorizar un trozo de código?
+Los comentarios de código no deben ser una curita para una mala clasificación o un código demasiado complejo: en lugar de añadir un comentario, renombra una variable o refactoriza un trozo de código
 
-Una idea útil es utilizar [funciones o variables autoexplicativas](https://blog.r-hub.io/2023/01/26/code-comments-self-explaining-code/#use-helper-functions-or-explaining-variables) donde código como
+Una idea útil es usar [funciones o variables autoexplicativas](https://blog.r-hub.io/2023/01/26/code-comments-self-explaining-code/#use-helper-functions-or-explaining-variables) donde código como
 
 ```r
 if (!is.na(x) && nzchar(x)) {
@@ -149,7 +149,7 @@ Por supuesto, ¡los comentarios del código siguen siendo importantes cuando son
 Algunos ejemplos de buenos comentarios son
 
 - documentación de funciones con roxygen2,
-- aspectos que te gustaría señalar a un revisor de código, como por ejemplo `# This query can not be done via GraphQL, so have to use v3 REST API`,
+- aspectos que te gustaría señalar a un revisor de código, como por ejemplo `# Esta consulta no se puede realizar a través de GraphQL, por lo que se debe utilizar la API REST v3`,
 - [comentarios que proporcionan un índice](https://blog.r-hub.io/2023/01/26/code-comments-self-explaining-code/#use-comments-for-the-scripts-outline).
 
 ## Código claro
@@ -169,11 +169,11 @@ Compartimos estas ideas:
 
 - "Cuanto mayor sea la distancia entre la declaración de un nombre y sus usos, más largo deberá ser el nombre" (Andrew Gerrand). Sin embargo, por muy cerca que estés de definir una variable, no utilices una abreviatura inteligente muy corta.
 
-- Hay varias formas de escribir los nombres de las variables. El estilo camelCase permite una mayor precisión al leer el código (Dave Binkley, 2009) y es mejor para leer el código con lectores de pantalla.  Sabemos que es difícil cambiar el estilo de un proyecto existente, pero si te encuentras en una situación en la que puedes decidir desde cero, entonces considera la posibilidad de utilizar Camel Case? Si no estás seguro de los nombres de las mayúsculas y minúsculas, consulta el artículo de Allison Horst [caricatura de casos](https://allisonhorst.com/everything-else) (desplázate hacia abajo hasta "Representaciones en viñetas de casos comunes en codificación").
+- Hay varias formas de escribir los nombres de las variables. El estilo camelCase permite una mayor precisión al leer el código (Dave Binkley, 2009) y es mejor para leer el código con lectores de pantalla.  Sabemos que es difícil cambiar el estilo de un proyecto existente, pero si te encuentras en una situación en la que puedes decidir desde cero, entonces considera la posibilidad de utilizar Camel Case. Si no estás seguro de los nombres, de las mayúsculas y minúsculas, consulta el artículo de Allison Horst [caricatura de casos](https://allisonhorst.com/everything-else) (desplázate hacia abajo hasta "Representaciones en viñetas de casos comunes en codificación").
 
 - Un nombre está claro si la persona que revisa tu código está de acuerdo.
 
-Otro consejo es que no pasa absolutamente nada por crear funciones que envuelvan funciones existentes sólo para cambiarles el nombre.
+Otro consejo es que no pasa absolutamente nada por crear funciones que envuelvan otras ya existentes sólo para cambiarles el nombre.
 Esta estrategia es habitual para cambiar el orden de los argumentos, pero también está bien para cambiar el nombre.
 Digamos que prefieres que los nombres de tus funciones sean acciones (verbos) en lugar de descripciones pasivas, puedes tener:
 
@@ -201,7 +201,7 @@ do_thing <- function(x) {
 }
 ```
 
-equivale a
+que equivale a
 
 ```r
 do_thing <- function(x) {
@@ -216,7 +216,7 @@ do_thing <- function(x) {
 pero esta última, con el `return()` tiene menos anidamiento y enfatiza el ["camino feliz"](https://github.com/jennybc/code-smells-and-feels).
 
 En [`switch()`](https://rdrr.io/r/base/switch.html) también puede ayudarte a eliminar los if-else anidados.
-Con ella,
+Con el,
 
 ```r
 if (type == "mean") {
@@ -246,7 +246,7 @@ En primer lugar, sé estricto con el alcance de lo que intentas conseguir.
 
 En segundo lugar, utiliza dependencias de confianza para externalizar parte del trabajo.
 En ["Dependencias: Mentalidad y antecedentes
-"](https://r-pkgs.org/dependencies-mindset-background.html) del libro R packages de Hadley Wickham y Jenny Bryan es una gran lectura sobre el tema.
+"](https://r-pkgs.org/dependencies-mindset-background.html) del libro R packages de Hadley Wickham y Jenny Bryan se explaya mejor el tema.
 
 ## ¿Cómo puedes mejorar tu código?
 
@@ -261,7 +261,7 @@ Tal vez puedas trabajar en el estilo y la refactorización del código con regul
 
 - ¿Más a menudo?
 
-- Una buena estrategia es también trabajar un poco en la refactorización cada vez que entres en una base de código para corregir un error o añadir una característica. No es necesario que la refactorización vaya en el mismo commit / rama, mantén tus cambios de código nucleares y fáciles de revisar.
+- Una buena estrategia es también trabajar un poco en la refactorización cada vez que entres en una base de código para corregir un error o añadir una característica. No es necesario que la refactorización vaya en el mismo commit / rama, mantén tus cambios de código centrados y fáciles de revisar.
 
 ### lintr
 
@@ -269,22 +269,22 @@ El paquete lintr es un paquete fantástico.
 Sus linters, o reglas, te recordarán o enseñarán elementos a corregir que no conocías o no podías retener en tu cabeza.
 Puedes ejecutarlo de vez en cuando o hacerlo funcionar en integración continua.
 
-Incluso la simple lectura de sus [referencia](https://lintr.r-lib.org/reference/index.html) puede mostrarte funciones o modelos que desconocías.
+Incluso la simple lectura de sus [referencias](https://lintr.r-lib.org/reference/index.html) puede mostrarte funciones o modelos que desconocías.
 ¡Una verdadera joya del ecosistema R!
 
 ### Revisión humana
 
 Otros seres humanos tendrán una buena perspectiva externa de tu código y, probablemente, ¡buenos consejos para ti!
 
-- ¡Lee el código de tus colegas y viceversa! El equipo de tidyverse tiene un [guía de revisión de código](https://code-review.tidyverse.org/).
+- ¡Lee el código de tus colegas y viceversa! El equipo de tidyverse tiene una [guía de revisión de código](https://code-review.tidyverse.org/).
 
-- En rOpenSci, llevamos a cabo una [sistema de revisión por pares de paquetes](/software-review/) :sonrisa
+- En rOpenSci, llevamos a cabo un [sistema de revisión por pares de paquetes](/software-review/) :sonrisa
 
 ## Otros recursos
 
-Estas son las referencias para la mayor parte del contenido de la formación :smile\_cat:
+Estas son las referencias de la mayor parte del contenido :smile\_cat:
 
-- Charla de Jenny Bryan [El código huele y se siente](https://github.com/jennybc/code-smells-and-feels)
+- Charla de Jenny Bryan [El código se huele y se siente](https://github.com/jennybc/code-smells-and-feels)
 
 - Reserva [El arte del código legible](https://www.oreilly.com/library/view/the-art-of/9781449318482/) de Dustin Boswell y Trevor Foucher
 
