@@ -50,6 +50,13 @@ Our community manager Yanina Bellini Saibene participated in the paper ["10 quic
 
 > "Loss of key personnel has always been a risk for research software projects. Key members of the team may have to step away due to illness or burnout, to care for a family member, from a loss of financial support, or because their career is going in a new direction. Today, though, political and financial changes are putting large numbers of researchers out of work simultaneously, potentially leaving large amounts of research software abandoned. This article presents ten tips to help researchers ensure that the software they have built will continue to be usable after they have left their present job -- whether in the course of voluntary career moves or researcher mobility, but particularly in cases of involuntary departure due to political or institutional changes. "
 
+### From Ideas to Action: Champions Start Their Training 
+
+The training phase is off to a strong start! 
+
+So far, Champions have taken part in five workshops, including two on Git and GitHub, one on code style — which we opened up not only to Champions and mentors but also to everyone who applied — and two on R package development. Each session has been a chance to learn, share, and grow together as a community. And we’re just getting started: the next workshops will dive into software peer review and community building — key skills for every Champion’s journey!
+
+As usual you can find the materials on our [training page](/training).
 ### Coworking 
 
 Read [all about coworking](/blog/2023/06/21/coworking/)!
