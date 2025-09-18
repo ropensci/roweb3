@@ -1,9 +1,9 @@
 ---
 title: '¡Código hermoso, porque lo valemos! (capacitación para campeones)'
 training: true
-dateStart: '2025-09-18T17:00:00'
-dateEnd: '2025-09-18T18:00:00'
-date: 2025-09-18T18:00:00 # UTC!! same as dateEnd
+dateStart: '2025-09-02T17:00:00'
+dateEnd: '2025-09-02T18:00:00'
+date: 2025-09-02T18:00:00 # UTC!! same as dateEnd
 description: ""
 location: 'online'
 country: "\U0001F310" # emoji
