@@ -39,14 +39,14 @@ If you are new to R or are exploring packages for a certain task, you may start 
 
 The landing page on https://r-universe.dev takes you directly to the global search engine. Here you can perform free-text search for a keyword, which is matched against package names, descriptions, topics, and titles of manual pages, vignettes, and so on. Results are ordered using a combination of a matching score (how often and where the search term appears), and a quality ranking[^1].
 
-{{< figureforgallery src="search1.png" alt="Screenshot of r-universe search engine landing page." >}}
+{{< figureforgallery src="search1.png" alt="" >}}
 
 The right side of the search box contains an expand button which reveals powersearch filters. Here you can enter advanced search criteria, in order to specifically match specific fields. For example you can search for packages from a given author, or have a specific function or dependency.
 
 {{< gallery >}}
-{{< figureforgallery src="search2.png" alt="Screenshot of r-universe simple search results." >}}
-{{< figureforgallery src="search3.png" alt="Screenshot of r-universe advanced search query." >}}
-{{< figureforgallery src="search4.png" alt="Screenshot of r-universe advanced search results." >}}
+{{< figureforgallery src="search2.png" alt="" >}}
+{{< figureforgallery src="search3.png" alt="" >}}
+{{< figureforgallery src="search4.png" alt="" >}}
 {{< /gallery >}}
 
 The search page also shows a shuffling list of organizations that publish R packages (sorted by recent activity) which is a fun way to discover what is currently being developed in the R ecosystem.
@@ -55,16 +55,16 @@ The search page also shows a shuffling list of organizations that publish R pack
 
 Each user and organization in r-universe has a unique subdomain under `r-universe.dev` with a personal cran-like package repository from where packages can directly be installed. For example, the packages and information from rOpenSci can be found on https://ropensci.r-universe.dev, and packages maintained by me are listed at https://jeroen.r-universe.dev (note how these two sets overlap).
 
-{{< figureforgallery src="user1.png" alt="Screenshot of builds tab of a repository." >}}
+{{< figureforgallery src="user1.png" alt="" >}}
 
 The top tabs allow you to explore different resources within universe. The __builds__ tab shows  the current state of the repository: a table with the name and version of each package, including the commit date, author, and build status. Clicking on the package name in the table sends you to the homepage of the package (more on this below), and the maintainer name links to the subdomain of that maintainer, listing other projects maintained by this person.
 
 The __packages__ tab lists descriptive information from all packages in the repository, and the __articles__ tab shows all documents (e.g. vignettes). The __contributors__ tab shows a chart with contributor statistics for the organization or maintainer. Clicking on the a bar in the chart sends you to this other universe where you can explore more work by this person.
 
 {{< gallery >}}
-{{< figureforgallery src="user2.png" alt="Screenshot of packages tab of a repository." >}}
-{{< figureforgallery src="user3.png" alt="Screenshot of articles tab of a repository." >}}
-{{< figureforgallery src="user4.png" alt="Screenshot of contributors tab of a repository." >}}
+{{< figureforgallery src="user2.png" alt="" >}}
+{{< figureforgallery src="user3.png" alt="" >}}
+{{< figureforgallery src="user4.png" alt="" >}}
 {{< /gallery >}}
 
 The same subdomain hosts the actual cran-like package repository for this user or organization. Hence in order to list or install packages from rOpenSci in R, you would use:
@@ -79,9 +79,9 @@ install.packages("magick", repos = "https://ropensci.r-universe.dev")
 
 ## Level 3: individual package information
 
-Finally we arrive at the individual package level. Clicking on a package in search results or in a universe overview will lead you to homepage for that package. You can also link to this page directly via the url `https://{owner}.r-universe.dev/{package}` for example https://r-spatial.r-universe.dev/sf below.
+Finally we arrive at the individual package level. Clicking on a package in search results or in a universe overview will lead you to homepage for that package. You can also link to this page directly via the url `https://{owner}.r-universe.dev/{package}` for example https://r-spatial.r-universe.dev/sf.
 
-{{< figureforgallery src="package1.png" alt="Screenshot of r-universe package homepage" >}}
+{{< figureforgallery src="package1.png" alt="" >}}
 
 These package pages are generated automatically and provide detailed information about each project, and all the information and resources to quickly install and try the package locally in R.
 
@@ -90,9 +90,9 @@ These package pages are generated automatically and provide detailed information
 The initial section of the homepage shows descriptive data and links to resources from this package, such as source/binary files, the package manual and NEWS file. Further down we show installation instructions to install the package in R. Installation is quick and easy because we provide pre-compiled binaries for Windows and MacOS, so no special tools or setup is required on the user machine.
 
 {{< gallery >}}
-{{< figureforgallery src="package2.png" alt="Screenshot of r-universe package homepage with annotations." >}}
-{{< figureforgallery src="package21.png" alt="Screenshot of r-universe package badges and statistics." >}}
-{{< figureforgallery src="package4.png" alt="Screenshot of r-universe package: how to cite the package." >}}
+{{< figureforgallery src="package2.png" alt="" >}}
+{{< figureforgallery src="package21.png" alt="" >}}
+{{< figureforgallery src="package4.png" alt="" >}}
 {{< /gallery >}}
 
 Here you can also find more information derived by the build system, such as which system libraries the package builds on, topics, and if the package is on CRAN. The badges underneath show statistics about the package, such as dependencies, reverse dependencies, and GitHub stars. Clicking on the 'exports' badge will show all functions and datasets exported by the package, which link to the respective sections in the manual page. If specified, we also show how the package should be cited in papers.
@@ -104,9 +104,9 @@ To let you start using packages as quickly as possible, r-universe renders all a
 Most R packages have 3 forms of documentation: a readme file, a reference manual (help pages), and a number of articles (vignettes). These articles are often a good place to get started, and are listed on the package homepage right under the descriptives. From here you can view both the rendered html/pdf document, as well as the rmarkdown source file used to (re)produce the article.
 
 {{< gallery >}}
-{{< figureforgallery src="package3.png" alt="Screenshot of r-universe package, listing included articles." >}}
-{{< figureforgallery src="package5.png" alt="Screenshot of r-universe package showing example readme content." >}}
-{{< figureforgallery src="package6.png" alt="Screenshot of r-universe package showing reference manual index." >}}
+{{< figureforgallery src="package3.png" alt="" >}}
+{{< figureforgallery src="package5.png" alt="" >}}
+{{< figureforgallery src="package6.png" alt="" >}}
 {{< /gallery >}}
 
 Further down the page you can see the content from the package readme. Most packages these days include a README.md file which can nicely be rendered into HTML.
@@ -122,7 +122,7 @@ Besides familiarizing yourself with what the package does, you may be interested
 
 The "development and contributors" section shows a bar chart with the number of commits per week for the last year, and who the main contributors are. Finally the section "usage by other packages" shows other packages on r-universe depending on this package, grouped by owner. This gives you some indication on how active the project is, and who are involved.
 
-{{< figureforgallery src="package7.png" alt="Screenshot of recent development activity and users of a package." >}}
+{{< figureforgallery src="package7.png" alt="" >}}
 
 
 ## Conclusion
