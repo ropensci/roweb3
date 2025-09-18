@@ -1,5 +1,5 @@
 ---
-title: 'Developing Software Together (training for champions program applicants)'
+title: 'Desarrollando software en comunidad con git (capacitación para campeones)'
 training: true
 dateStart: '2025-08-21T21:00:00'
 dateEnd: '2025-08-21T21:00:00'
