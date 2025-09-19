@@ -1,6 +1,3 @@
-[translations]
-  other = 'Read it in...'
-
 [By]
   other = 'By'
 
@@ -15,6 +12,12 @@
 
 [Translated-by]
   other = 'Translated by'
+
+[Translation]
+  other = 'Translation'
+
+[Translations]
+  other = 'Translations'
   
 [Filed-under]
   other = 'Filed under'
@@ -351,3 +354,6 @@
 
 [Interview]
   other = "Interview"
+
+[Interviews]
+  other = "Interviews"

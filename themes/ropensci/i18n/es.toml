@@ -1,6 +1,3 @@
-[translations]
-  other = 'Leelo en...'
-
 [By]
   other = 'Por'
 
@@ -15,7 +12,13 @@
 
 [Translated-by]
   other = 'Traducido por'
-  
+
+[Translation]
+  other = 'Traducción'
+
+[Translations]
+  other = 'Traducciones'
+
 [Filed-under]
   other = 'Categorias'
   
@@ -42,9 +45,6 @@
   
 [All-Posts]
   other = 'Todas las entradas'
-  
-[Translation]
-  other = 'Traducción'
   
 [Browse-By-Tag]
   other = 'Explora por etiqueta'
@@ -354,3 +354,7 @@
 
 [Interview]
   other = "Entrevista"
+
+[Interviews]
+  other = "Entrevistas"
+

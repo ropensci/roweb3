@@ -50,7 +50,7 @@
     {{ $interviews = union $interviews $interviews2 }}
     {{ if ne (len $interviews) 0 }}
        <div class="mt-5">
-    <h2 class="title">{{ i18n "Interview" }}</h2>
+    <h2 class="title">{{ if eq (len $interviews) 1 }}{{ i18n "Interview" }}{{ else }}{{ i18n "Interviews" }}{{ end }}</h2>
         </div>
       {{ range $interviews }}
       {{ .Render "post-short-summary" }}
@@ -65,7 +65,19 @@
       {{ .Render "post-short-summary" }}
       {{ end }}
     {{ end }}
+
+    {{ $translations := where .Site.RegularPages.ByPublishDate.Reverse ".Params.translator" "intersect" (slice .Params.name) }}
+    {{ $translations2 := where .Site.RegularPages.ByPublishDate.Reverse ".Params.translator" .Params.name }}
+    {{ $translations = union $translations $translations2 }}
+    {{ if ne (len $translations) 0 }}
+       <div class="mt-5">
+    <h2 class="title">{{ if eq (len $translations) 1 }}{{ i18n "Translation" }}{{ else }}{{ i18n "Translation" }}{{ end }}</h2>
         </div>
+      {{ range $translations }}
+      {{ .Render "post-short-summary" }}
+      {{ end }}
+    {{ end }}
+      </div>
   </div>
 </section>
 {{ end }}
