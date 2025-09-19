@@ -24,7 +24,7 @@ C'était génial de croiser [Sunny Tseng](/author/yi-chin-sunny-tseng/), [Champi
 Ce n'est pas souvent que je rencontre les deux types de collègues (développeur·se·s R et ornithologistes) lors d'une même conférence, alors je chéris ces expériences.
 
 Avant de rejoindre rOpenSci, j'ai commencé ma carrière professionnelle en tant [qu'écologiste comportementale et ornithologiste](https://royalsocietypublishing.org/doi/10.1098/rspb.2016.1058), étudiant les effets du bruit urbain et de l'habitat sur la communication chez les [mésanges](https://fr.wikipedia.org/wiki/mésanges).
-Alors que je me suis reconvertie dans le conseil et l'assistance en matière de R ainsi que le travail avec [Yani](/author/yanina-bellini-saibene) ici à rOpenSci avec notre incroyable communauté, je travaille encore aujourd'hui principalement pour d'autres ornithologiste ou des organisations à but non lucratif de conservation des oiseaux.
+Alors que je me suis reconvertie dans le conseil et l'assistance en matière de R ainsi que le travail avec [Yani](/author/yanina-bellini-saibene) ici à rOpenSci avec notre incroyable communauté, je travaille encore aujourd'hui principalement pour d'autres ornithologistes ou des organisations à but non lucratif de conservation des oiseaux.
 
 Cela signifie que la [Société des ornithologistes du Canada](https://www.sco-soc.ca/fr) est toujours mon organisation d'origine et je suis toujours enthousiaste à l'idée d'assister à des réunions et de renouer avec mes collègues.
 Mais conférence ornithologique ou pas, j'essaie toujours d'apporter un peu de R, de Science Ouverte et de rOpenSci à la réunion.
@@ -39,7 +39,7 @@ Et comme l'ornithologie compte de nombreux scientifiques qui travaillent déjà 
 Pour la communauté rOpenSci, il s'agit d'un véritable "retour aux sources".
 Les conversations que nous avons portent plus souvent sur la façon dont on peut devenir *meilleur·e* en science ouverte ?
 Comment rendre cette étude *complètement* reproductible ?
-Comment *améliorer* la qualité du code ouvert [^1] ?
+Comment *améliorer* la qualité du code ouvert[^1]?
 
 [^1]: Trisovic A, Lau MK, Pasquier T, et al.
 [A large-scale study on research code quality and execution](https://www.nature.com/articles/s41597-022-01143-6).
@@ -77,7 +77,7 @@ En plus de quelques conseils pratiques, j'ai donc donné quatre conseils génér
     - Trouver sa communauté
 
 Je pense que ce qui m'a le plus plu dans cette conférence, c'est le nombre d'étudiant·e·s qui sont venu·e·s me parler par la suite, enthousiastes (et nerveux·ses) à l'idée de commencer à partager leur code en ligne.
-Ils m'ont posé de nombreuses questions, qu'il s'agisse de questions pratiques sur l'utilisation de GitHub ou de questions générales sur la qualité de leur code pour qu'il soit partagé.
+Il·elle·s m'ont posé de nombreuses questions, qu'il s'agisse de questions pratiques sur l'utilisation de GitHub ou de questions générales sur la qualité de leur code pour qu'il soit partagé.
 Ma réponse à cette dernière question a été : "Si vous l'avez utilisé, partagez-le.
 (Mais annotez-le énormément !)"
 
