@@ -1,19 +1,20 @@
 ---
-slug: gentle-openscience
+slug: "gentle-openscience"
 title: Une introduction en douceur à la science ouverte
 author:
-- Steffi LaZerte
-date: '2025-09-16'
+  - Steffi LaZerte
+date: 2025-09-23
 tags:
-- open science
-- welcome
-- community
-description: Steffi passe en revue une conférence sur la science ouverte. N'oubliez
-  pas qu'il faut du courage ; soyez gentil avec vous-même !
+  - open science
+  - welcome
+  - community
+description: Steffi passe en revue une conférence sur la science ouverte. N'oubliez pas qu'il faut du courage ; soyez gentil avec vous-même !
 social: '@steffilazerte@fosstodon.org explore une conférence sur la science ouverte pour les ornithologistes, une introduction en douceur à la science ouverte.'
 params:
   doi: 10.59350/zaj25-hts95
-editor: Maëlle Salmon
+editor: 
+  - Maëlle Salmon
+  - Yanina Bellini Saibene
 translator: Maëlle Salmon
 ---
 

@@ -3,7 +3,7 @@ slug: "gentle-openscience"
 title: A Gentle Introduction to Open Science
 author:
   - Steffi LaZerte
-date: 2025-09-16
+date: 2025-09-23
 tags:
   - open science
   - welcome
@@ -12,7 +12,9 @@ description: Steffi reviews a talk on open science. Don’t forget that it takes
 social: "@steffilazerte@fosstodon.org explores a talk on Open Science for Ornithologists, a gentle introduction to Open Science."
 params:
   doi: 10.59350/mp76s-rkp03
-editor: Maëlle Salmon
+editor: 
+  - Maëlle Salmon
+  - Yanina Bellini Saibene
 ---
 
 {{< figure src = "sunny_and_steffi.jpg" width = "300" alt = "" class = "pull-right" caption = "Sunny and Steffi showing off their R hex stickers!">}}
@@ -44,7 +46,7 @@ How can we *improve* open code quality[^1]?
 Sci Data 9, 60 (2022).
 <https://doi.org/10.1038/s41597-022-01143-6>
 
-{{< figure src = "alot.png" width = "400" alt = "A slide with a surpised looking grey-crowned crane with a large crown of feathers around it's head. The text reads 'Whoa! That's a lot! Why do Open Science?'" class = "pull-right" caption = "Slide acknowledging that open science can be challenging<br>([Grey-crowned crane](https://upload.wikimedia.org/wikipedia/commons/1/1c/Grey_Crowned_Crane_2.jpg) - Kuribo, CC BY-SA 2.0)">}}
+{{< figure src = "alot.png" width = "400" alt = "A slide with a surprised looking grey-crowned crane with a large crown of feathers around it's head. The text reads 'Whoa! That's a lot! Why do Open Science?'" class = "pull-right" caption = "Slide acknowledging that open science can be challenging<br>([Grey-crowned crane](https://upload.wikimedia.org/wikipedia/commons/1/1c/Grey_Crowned_Crane_2.jpg) - Kuribo, CC BY-SA 2.0)">}}
 
 But I think we sometimes forget that in addition to time, skills, and sometimes funding, **to practice open science takes a great deal of courage**[^2].
 
