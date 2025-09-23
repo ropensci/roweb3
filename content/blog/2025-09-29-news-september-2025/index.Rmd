@@ -65,6 +65,13 @@ As usual you can find the materials on our [training page](/training).
 We recently published a [blog post](/blog/2025-09-11-repometrics) requesting feedback for a prototype of an [organization-level dashboard](https://ropensci-review-tools.github.io/repometrics-demo/). 
 We're still looking for feedback and suggestions, so please read the blog post if you haven't already, and help us with your ideas.
 
+### rOpenSci featured on the Science Ouverte blog of Institut Pasteur
+
+In her latest contribution to the Science Ouverte blog, [María Gutiérrez Sánchez](https://www.linkedin.com/in/maría-gutiérrez-sánchez-32a44b157) explores how the rOpenSci Champions initiative is helping to foster more open, inclusive, and multilingual science:
+
+ > The program strengthens scientific communities in Latin America through training, mentorship, and networking around open-source software development. More than just broadening diversity in the R community, the initiative aims to redistribute power in the global open science ecosystem, recognizing that sustainable solutions must emerge from within the communities themselves.
+ 
+ Read the full article in [French](https://openscience.pasteur.fr/2025/09/01/ropensci-champions-pour-une-science-ouverte-multilingue-et-portee-par-les-logiciels-libres/) (original) or [Spanish](https://openscience.pasteur.fr/2025/09/01/ropensci-champions-por-una-ciencia-abierta-multilingue-y-basada-en-software-libre/).
 ### Coworking 
 
 Read [all about coworking](/blog/2023/06/21/coworking/)!
