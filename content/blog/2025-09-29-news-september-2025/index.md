@@ -10,7 +10,7 @@ description: R-multiverse comm call, useR! 2025, posit::conf(2025), coworking, n
 params:
   last_newsletter: '2025-08-28'
   doi: "10.59350/c427v-cjd59"
-rmd_hash: 20d8229435305e54
+rmd_hash: bd82a3cc2ccd7b99
 
 ---
 
@@ -38,6 +38,14 @@ As usual you can find the materials on our [training page](/training).
 
 We recently published a [blog post](/blog/2025-09-11-repometrics) requesting feedback for a prototype of an [organization-level dashboard](https://ropensci-review-tools.github.io/repometrics-demo/). We're still looking for feedback and suggestions, so please read the blog post if you haven't already, and help us with your ideas.
 
+### rOpenSci featured on the Science Ouverte blog of Institut Pasteur
+
+In her latest contribution to the Science Ouverte blog, [María Gutiérrez Sánchez](https://www.linkedin.com/in/maría-gutiérrez-sánchez-32a44b157) explores how the rOpenSci Champions initiative is helping to foster more open, inclusive, and multilingual science:
+
+> The program strengthens scientific communities in Latin America through training, mentorship, and networking around open-source software development. More than just broadening diversity in the R community, the initiative aims to redistribute power in the global open science ecosystem, recognizing that sustainable solutions must emerge from within the communities themselves.
+
+Read the full article in [French](https://openscience.pasteur.fr/2025/09/01/ropensci-champions-pour-une-science-ouverte-multilingue-et-portee-par-les-logiciels-libres/) (original) or [Spanish](https://openscience.pasteur.fr/2025/09/01/ropensci-champions-por-una-ciencia-abierta-multilingue-y-basada-en-software-libre/).
+
 ### Coworking
 
 Read [all about coworking](/blog/2023/06/21/coworking/)!
@@ -57,9 +65,13 @@ And remember, you can always cowork independently on work related to R, work on 
 
 
 
-The following two packages recently became a part of our software suite:
+The following four packages recently became a part of our software suite:
 
 
+
+-   [rixpress](https://docs.ropensci.org/rixpress), developed by Bruno Rodrigues: Streamlines the creation of reproducible analytical pipelines using default.nix expressions generated via rix for reproducibility. Define derivations in R, Python or Julia, chain them into a composition of pure functions and build the resulting pipeline using Nix as the underlying end-to-end build tool. Functions to plot a DAG representation of the pipeline are included, as well as functions to load and inspect intermediary results for interactive analysis. User experience heavily inspired by the targets package. It has been [reviewed](https://github.com/ropensci/software-review/issues/706) by William Michael Landau and Anthony Martinez.
+
+-   [hdcuremodels](https://docs.ropensci.org/hdcuremodels), developed by Kellie J. Archer together with Han Fu: Provides functions for fitting various penalized parametric and semi-parametric mixture cure models with different penalty functions, testing for a significant cure fraction, and testing for sufficient follow-up as described in Fu et al (2022)<https://doi.org/10.1002/sim.9513> and Archer et al (2024)<https://doi.org/10.1186/s13045-024-01553-6>. False discovery rate controlled variable selection is provided using model-X knock-offs. It is available on [CRAN](https://CRAN.R-project.org/package=hdcuremodels). It has been [reviewed](https://github.com/ropensci/software-review/issues/692) by Tung Lam Nguyen and Panagiotis Papastamoulis.
 
 -   [gpg](https://docs.ropensci.org/gpg), developed by Jeroen Ooms: Bindings to GnuPG for working with OpenGPG (RFC4880) cryptographic methods. Includes utilities for public key encryption, creating and verifying digital signatures, and managing your local keyring. Some functionality depends on the version of GnuPG that is installed on the system. On Windows this package can be used together with GPG4Win which provides a GUI for managing keys and entering passphrases.
 

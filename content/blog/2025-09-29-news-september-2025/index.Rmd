@@ -72,6 +72,7 @@ In her latest contribution to the Science Ouverte blog, [María Gutiérrez Sánc
  > The program strengthens scientific communities in Latin America through training, mentorship, and networking around open-source software development. More than just broadening diversity in the R community, the initiative aims to redistribute power in the global open science ecosystem, recognizing that sustainable solutions must emerge from within the communities themselves.
  
  Read the full article in [French](https://openscience.pasteur.fr/2025/09/01/ropensci-champions-pour-une-science-ouverte-multilingue-et-portee-par-les-logiciels-libres/) (original) or [Spanish](https://openscience.pasteur.fr/2025/09/01/ropensci-champions-por-una-ciencia-abierta-multilingue-y-basada-en-software-libre/).
+
 ### Coworking 
 
 Read [all about coworking](/blog/2023/06/21/coworking/)!
@@ -162,6 +163,7 @@ new <- dplyr::filter(
 The following `r if(nrow(new)>1) english(nrow(new))` package`r if(nrow(new)>1) "s"` recently became a part of our software suite:
 
 ```{r, results='asis', cache = TRUE,eval=TRUE}
+new$onboarding[new$package == "hdcuremodels"] <- "https://github.com/ropensci/software-review/issues/692"
 packages <- split(new, seq(nrow(new)))
 packages <- rev(packages)
 present_one <- function(package) {
@@ -189,7 +191,7 @@ present_one <- function(package) {
   aut <- purrr::keep(authors, function(x) {any( x$role %in% "aut") && all(x$role != "cre") })
   aut <- purrr::map_chr(aut, function(x) paste(x$given, x$family))
   rev <- purrr::keep(authors, function(x) {any( x$role %in% "rev") && all(x$role != "cre") })
-  rev <- purrr::map_chr(rev, function(x) paste(x$given, x$family))
+  rev <- purrr::map_chr(rev, function(x) paste(c(x$given, x$family), collapse = " "))
   if (package$package == "forcis") {
     rev <- c(rev, "Scott Chamberlain")
   }
