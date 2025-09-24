@@ -51,3 +51,8 @@ Here’s an overview of the templates we rely on at rOpenSci:
 We know every community has different values, resources, and contexts, so consider these templates a toolbox rather than a one-size-fits-all solution. You might use them as-is, or treat them as a starting point to design your own processes.
 
 You can access all the templates together in the [GitHub repository with community management tools](https://github.com/ropensci-org/ro-cmtoolkit/tree/main/code-of-conduct-templates). You can fork them, adapt them, and make them work for your own community context. We’d love to hear how you adapt or improve them for your own communities.
+
+## Acknowledgements
+
+We want to thank all past and present members of the rOpenSci Code of Conduct Committee.
+Their work has made it possible for us to share these templates openly today.
