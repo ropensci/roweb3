@@ -10,7 +10,7 @@ description: R-multiverse comm call, useR! 2025, posit::conf(2025), coworking, n
 params:
   last_newsletter: '2025-08-28'
   doi: "10.59350/c427v-cjd59"
-rmd_hash: 2b0df5bd2b09c57c
+rmd_hash: 722f915985422c83
 
 ---
 
@@ -69,7 +69,7 @@ And remember, you can always cowork independently on work related to R, work on 
 
 
 
-The following five packages recently became a part of our software suite:
+The following four packages recently became a part of our software suite:
 
 
 
@@ -78,8 +78,6 @@ The following five packages recently became a part of our software suite:
 -   [rixpress](https://docs.ropensci.org/rixpress), developed by Bruno Rodrigues: Streamlines the creation of reproducible analytical pipelines using default.nix expressions generated via rix for reproducibility. Define derivations in R, Python or Julia, chain them into a composition of pure functions and build the resulting pipeline using Nix as the underlying end-to-end build tool. Functions to plot a DAG representation of the pipeline are included, as well as functions to load and inspect intermediary results for interactive analysis. User experience heavily inspired by the targets package. It has been [reviewed](https://github.com/ropensci/software-review/issues/706) by William Michael Landau and Anthony Martinez.
 
 -   [hdcuremodels](https://docs.ropensci.org/hdcuremodels), developed by Kellie J. Archer together with Han Fu: Provides functions for fitting various penalized parametric and semi-parametric mixture cure models with different penalty functions, testing for a significant cure fraction, and testing for sufficient follow-up as described in Fu et al (2022)<https://doi.org/10.1002/sim.9513> and Archer et al (2024)<https://doi.org/10.1186/s13045-024-01553-6>. False discovery rate controlled variable selection is provided using model-X knock-offs. It is available on [CRAN](https://CRAN.R-project.org/package=hdcuremodels). It has been [reviewed](https://github.com/ropensci/software-review/issues/692) by Tung Lam Nguyen and Panagiotis Papastamoulis.
-
--   [gpg](https://docs.ropensci.org/gpg), developed by Jeroen Ooms: Bindings to GnuPG for working with OpenGPG (RFC4880) cryptographic methods. Includes utilities for public key encryption, creating and verifying digital signatures, and managing your local keyring. Some functionality depends on the version of GnuPG that is installed on the system. On Windows this package can be used together with GPG4Win which provides a GUI for managing keys and entering passphrases.
 
 -   [dataset](https://docs.ropensci.org/dataset), developed by Daniel Antal: The dataset package helps create semantically rich, machine-readable, and interoperable datasets in R. It extends tidy data frames with metadata that preserves meaning, improves interoperability, and makes datasets easier to publish, exchange, and reuse in line with ISO and W3C standards. It is available on [CRAN](https://CRAN.R-project.org/package=dataset). It has been [reviewed](https://github.com/ropensci/software-review/issues/681) by Marcelo Perlin, Anna Márta Mester, and Mauro Lepore.
 
@@ -183,7 +181,7 @@ If you're interested in maintaining any of the R packages below, you might enjoy
 
 ### Calls for contributions
 
-Thanks to [an idea](https://github.com/ropensci-review-tools/pkgcheck/issues/142) from Egor Kotov, the pkgcheck package now contains a stand-alone function to use during package development, to quickly check whether your function names are unique: Refer to our [help wanted page](/help-wanted/) -- before opening a PR, we recommend asking in the issue whether help is still needed.
+Refer to our [help wanted page](/help-wanted/) -- before opening a PR, we recommend asking in the issue whether help is still needed.
 
 ## Package development corner
 

@@ -159,7 +159,7 @@ old <- dplyr::filter(
 new <- dplyr::filter(
   registry,
   !package %in% old$package,
-  !package %in% "PFW",
+  !package %in% "gpg",
   !grepl("ropenscilabs\\/", url),
   !grepl("ropensci-archive\\/", url)
 )
@@ -617,7 +617,7 @@ If you're interested in maintaining any of the R packages below, you might enjoy
 * [USAboundaries](https://docs.ropensci.org/USAboundaries/) (and USAboundariesdata), historical and contemporary boundaries of the United States of America. [Issue for volunteering](https://github.com/ropensci/USAboundaries/issues/50).
 
 ### Calls for contributions
-Thanks to [an idea](https://github.com/ropensci-review-tools/pkgcheck/issues/142) from Egor Kotov, the pkgcheck package now contains a stand-alone function to use during package development, to quickly check whether your function names are unique:
+
 Refer to our [help wanted page](/help-wanted/) -- before opening a PR, we recommend asking in the issue whether help is still needed.
 
 
