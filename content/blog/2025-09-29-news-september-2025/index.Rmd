@@ -50,7 +50,7 @@ Our community manager Yanina Bellini Saibene participated in the paper ["10 quic
 
 > "Loss of key personnel has always been a risk for research software projects. Key members of the team may have to step away due to illness or burnout, to care for a family member, from a loss of financial support, or because their career is going in a new direction. Today, though, political and financial changes are putting large numbers of researchers out of work simultaneously, potentially leaving large amounts of research software abandoned. This article presents ten tips to help researchers ensure that the software they have built will continue to be usable after they have left their present job -- whether in the course of voluntary career moves or researcher mobility, but particularly in cases of involuntary departure due to political or institutional changes. "
 
-### From Ideas to Action: Champions Start Their Training 
+### From Ideas to Action: Champions start their training 
 
 The training phase is off to a strong start! 
 
@@ -62,12 +62,12 @@ As usual you can find the materials on our [training page](/training).
 
 ### Request for feedback
 
-We recently published a [blog post](/blog/2025-09-11-repometrics) requesting feedback for a prototype of an [organization-level dashboard](https://ropensci-review-tools.github.io/repometrics-demo/). 
+We recently published a [blog post](/blog/2025/09/11/repometrics-call-help) requesting feedback for a prototype of an [organization-level dashboard](https://ropensci-review-tools.github.io/repometrics-demo/) for tracking the health and maintenance of an organization's R packages. 
 We're still looking for feedback and suggestions, so please read the blog post if you haven't already, and help us with your ideas.
 
 ### rOpenSci featured on the Science Ouverte blog of Institut Pasteur
 
-In her latest contribution to the Science Ouverte blog, [María Gutiérrez Sánchez](https://www.linkedin.com/in/maría-gutiérrez-sánchez-32a44b157) explores how the rOpenSci Champions initiative is helping to foster more open, inclusive, and multilingual science:
+In her latest contribution to the Science Ouverte blog, [María Gutiérrez Sánchez](https://www.linkedin.com/in/maría-gutiérrez-sánchez-32a44b157) explores how the rOpenSci Champions Program is helping to foster more open, inclusive, and multilingual science:
 
  > The program strengthens scientific communities in Latin America through training, mentorship, and networking around open-source software development. More than just broadening diversity in the R community, the initiative aims to redistribute power in the global open science ecosystem, recognizing that sustainable solutions must emerge from within the communities themselves.
  
@@ -77,11 +77,21 @@ In her latest contribution to the Science Ouverte blog, [María Gutiérrez Sánc
 
 Read [all about coworking](/blog/2023/06/21/coworking/)!
 
-- Tuesday October 7th, 09:00 Americas Pacific (16:00 UTC), ["Ship your R package to the R-multiverse!"](/events/coworking-2025-10/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Will Landau](/author/will-landau).
+- Tuesday October 7th, 09:00 Americas Pacific (16:00 UTC), ["Ship your R package to the R-multiverse!"](/events/coworking-2025-10/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohosts [Will Landau](/author/will-landau) & [Maëlle Salmon](/author/maelle-salmon).
     - Learn more about the [R-multiverse](https://r-multiverse.org/);
     - Submit your package to the [R-multiverse](https://r-multiverse.org/);
     - Chat with Will Landau, and learn more about the R-multiverse and how to submit your package.
-    
+
+-   Tuesday November 3rd, 09:00 Australia Western (01:00 UTC), ["Code Review with rOpenSci"](/events/coworking-2025-11/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Liz Hare](/author/liz-hare).  
+    -   Explore resources for Code review;  
+    -   Sign up to volunteer to do [software peer-review](https://airtable.com/app8dssb6a7PG6Vwj/shrnfDI2S9uuyxtDw) at rOpenSci;  
+    -   Chat with Liz Hare, and learn more about rOpenSci's code review and the resources available.  
+
+-   Tuesday November 3rd, 09:00 Australia Western (01:00 UTC), ["Code Review with rOpenSci"](/events/coworking-2025-11/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Liz Hare](/author/liz-hare).  
+    -   Explore resources for Code review;  
+    -   Sign up to volunteer to do [software peer-review](https://airtable.com/app8dssb6a7PG6Vwj/shrnfDI2S9uuyxtDw) at rOpenSci;  
+    -   Chat with Liz Hare, and learn more about rOpenSci's code review and the resources available.  
+
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
 ## Software :package:
@@ -607,7 +617,7 @@ If you're interested in maintaining any of the R packages below, you might enjoy
 * [USAboundaries](https://docs.ropensci.org/USAboundaries/) (and USAboundariesdata), historical and contemporary boundaries of the United States of America. [Issue for volunteering](https://github.com/ropensci/USAboundaries/issues/50).
 
 ### Calls for contributions
-
+Thanks to [an idea](https://github.com/ropensci-review-tools/pkgcheck/issues/142) from Egor Kotov, the pkgcheck package now contains a stand-alone function to use during package development, to quickly check whether your function names are unique:
 Refer to our [help wanted page](/help-wanted/) -- before opening a PR, we recommend asking in the issue whether help is still needed.
 
 
