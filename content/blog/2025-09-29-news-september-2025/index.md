@@ -10,7 +10,7 @@ description: R-multiverse comm call, useR! 2025, posit::conf(2025), coworking, n
 params:
   last_newsletter: '2025-08-28'
   doi: "10.59350/c427v-cjd59"
-rmd_hash: bd82a3cc2ccd7b99
+rmd_hash: 2b0df5bd2b09c57c
 
 ---
 
@@ -26,7 +26,7 @@ Our community manager Yanina Bellini Saibene participated in the paper ["10 quic
 
 > "Loss of key personnel has always been a risk for research software projects. Key members of the team may have to step away due to illness or burnout, to care for a family member, from a loss of financial support, or because their career is going in a new direction. Today, though, political and financial changes are putting large numbers of researchers out of work simultaneously, potentially leaving large amounts of research software abandoned. This article presents ten tips to help researchers ensure that the software they have built will continue to be usable after they have left their present job -- whether in the course of voluntary career moves or researcher mobility, but particularly in cases of involuntary departure due to political or institutional changes."
 
-### From Ideas to Action: Champions Start Their Training
+### From Ideas to Action: Champions start their training
 
 The training phase is off to a strong start!
 
@@ -36,11 +36,11 @@ As usual you can find the materials on our [training page](/training).
 
 ### Request for feedback
 
-We recently published a [blog post](/blog/2025-09-11-repometrics) requesting feedback for a prototype of an [organization-level dashboard](https://ropensci-review-tools.github.io/repometrics-demo/). We're still looking for feedback and suggestions, so please read the blog post if you haven't already, and help us with your ideas.
+We recently published a [blog post](/blog/2025/09/11/repometrics-call-help) requesting feedback for a prototype of an [organization-level dashboard](https://ropensci-review-tools.github.io/repometrics-demo/) for tracking the health and maintenance of an organization's R packages. We're still looking for feedback and suggestions, so please read the blog post if you haven't already, and help us with your ideas.
 
 ### rOpenSci featured on the Science Ouverte blog of Institut Pasteur
 
-In her latest contribution to the Science Ouverte blog, [María Gutiérrez Sánchez](https://www.linkedin.com/in/maría-gutiérrez-sánchez-32a44b157) explores how the rOpenSci Champions initiative is helping to foster more open, inclusive, and multilingual science:
+In her latest contribution to the Science Ouverte blog, [María Gutiérrez Sánchez](https://www.linkedin.com/in/maría-gutiérrez-sánchez-32a44b157) explores how the rOpenSci Champions Program is helping to foster more open, inclusive, and multilingual science:
 
 > The program strengthens scientific communities in Latin America through training, mentorship, and networking around open-source software development. More than just broadening diversity in the R community, the initiative aims to redistribute power in the global open science ecosystem, recognizing that sustainable solutions must emerge from within the communities themselves.
 
@@ -50,10 +50,14 @@ Read the full article in [French](https://openscience.pasteur.fr/2025/09/01/rope
 
 Read [all about coworking](/blog/2023/06/21/coworking/)!
 
--   Tuesday October 7th, 09:00 Americas Pacific (16:00 UTC), ["Ship your R package to the R-multiverse!"](/events/coworking-2025-10/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Will Landau](/author/will-landau).
+-   Tuesday October 7th, 09:00 Americas Pacific (16:00 UTC), ["Ship your R package to the R-multiverse!"](/events/coworking-2025-10/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohosts [Will Landau](/author/will-landau) & [Maëlle Salmon](/author/maelle-salmon).
     -   Learn more about the [R-multiverse](https://r-multiverse.org/);
     -   Submit your package to the [R-multiverse](https://r-multiverse.org/);
     -   Chat with Will Landau, and learn more about the R-multiverse and how to submit your package.
+-   Tuesday November 3rd, 09:00 Australia Western (01:00 UTC), ["Code Review with rOpenSci"](/events/coworking-2025-11/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Liz Hare](/author/liz-hare).
+    -   Explore resources for Code review;  
+    -   Sign up to volunteer to do [software peer-review](https://airtable.com/app8dssb6a7PG6Vwj/shrnfDI2S9uuyxtDw) at rOpenSci;  
+    -   Chat with Liz Hare, and learn more about rOpenSci's code review and the resources available.
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
@@ -65,9 +69,11 @@ And remember, you can always cowork independently on work related to R, work on 
 
 
 
-The following four packages recently became a part of our software suite:
+The following five packages recently became a part of our software suite:
 
 
+
+-   [ssarp](https://docs.ropensci.org/ssarp), developed by Kristen Martinet: Create Species- and Speciation-Area Relationships using occurrence records or presence-absence matrices. It has been [reviewed](https://github.com/ropensci/software-review/issues/685) by Tom Matthews and Joel Nitta.
 
 -   [rixpress](https://docs.ropensci.org/rixpress), developed by Bruno Rodrigues: Streamlines the creation of reproducible analytical pipelines using default.nix expressions generated via rix for reproducibility. Define derivations in R, Python or Julia, chain them into a composition of pure functions and build the resulting pipeline using Nix as the underlying end-to-end build tool. Functions to plot a DAG representation of the pipeline are included, as well as functions to load and inspect intermediary results for interactive analysis. User experience heavily inspired by the targets package. It has been [reviewed](https://github.com/ropensci/software-review/issues/706) by William Michael Landau and Anthony Martinez.
 
@@ -87,7 +93,7 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 
-The following twelve packages have had an update since the last newsletter: [sits](https://docs.ropensci.org/sits "Satellite Image Time Series Analysis for Earth Observation Data Cubes") ([`v1.5.3-1`](https://github.com/e-sensing/sits/releases/tag/v1.5.3-1)), [c14bazAAR](https://docs.ropensci.org/c14bazAAR "Download and Prepare C14 Dates from Different Source Databases") ([`5.2.0`](https://github.com/ropensci/c14bazAAR/releases/tag/5.2.0)), [ghql](https://docs.ropensci.org/ghql "General Purpose GraphQL Client") ([`v0.1.2`](https://github.com/ropensci/ghql/releases/tag/v0.1.2)), [magick](https://docs.ropensci.org/magick "Advanced Graphics and Image-Processing in R") ([`v2.9.0`](https://github.com/ropensci/magick/releases/tag/v2.9.0)), [paleobioDB](https://docs.ropensci.org/paleobioDB "Download and Process Data from the Paleobiology Database") ([`v1.0.1`](https://github.com/ropensci/paleobioDB/releases/tag/v1.0.1)), [rgbif](https://docs.ropensci.org/rgbif "Interface to the Global Biodiversity Information Facility API") ([`v3.8.3`](https://github.com/ropensci/rgbif/releases/tag/v3.8.3)), [rinat](https://docs.ropensci.org/rinat "Access iNaturalist Data Through APIs") ([`v0.1.10`](https://github.com/ropensci/rinat/releases/tag/v0.1.10)), [rredlist](https://docs.ropensci.org/rredlist "IUCN Red List Client") ([`v1.1.1`](https://github.com/ropensci/rredlist/releases/tag/v1.1.1)), [rsvg](https://docs.ropensci.org/rsvg "Render SVG Images into PDF, PNG, (Encapsulated) PostScript, or Bitmap Arrays") ([`v2.7.0`](https://github.com/ropensci/rsvg/releases/tag/v2.7.0)), [spatsoc](https://docs.ropensci.org/spatsoc "Group Animal Relocation Data by Spatial and Temporal Relationship") ([`v0.2.10`](https://github.com/ropensci/spatsoc/releases/tag/v0.2.10)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.13.2`](https://github.com/ropensci/tarchetypes/releases/tag/0.13.2)), and [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.11.4`](https://github.com/ropensci/targets/releases/tag/1.11.4)).
+The following fourteen packages have had an update since the last newsletter: [sits](https://docs.ropensci.org/sits "Satellite Image Time Series Analysis for Earth Observation Data Cubes") ([`v1.5.3-1`](https://github.com/e-sensing/sits/releases/tag/v1.5.3-1)), [c14bazAAR](https://docs.ropensci.org/c14bazAAR "Download and Prepare C14 Dates from Different Source Databases") ([`5.2.0`](https://github.com/ropensci/c14bazAAR/releases/tag/5.2.0)), [comtradr](https://docs.ropensci.org/comtradr "Interface with the United Nations Comtrade API") ([`v1.0.4`](https://github.com/ropensci/comtradr/releases/tag/v1.0.4)), [dataspice](https://docs.ropensci.org/dataspice "Create Lightweight Schema.org Descriptions of Data") ([`v1.1.1`](https://github.com/ropensci/dataspice/releases/tag/v1.1.1)), [ghql](https://docs.ropensci.org/ghql "General Purpose GraphQL Client") ([`v0.1.2`](https://github.com/ropensci/ghql/releases/tag/v0.1.2)), [magick](https://docs.ropensci.org/magick "Advanced Graphics and Image-Processing in R") ([`v2.9.0`](https://github.com/ropensci/magick/releases/tag/v2.9.0)), [paleobioDB](https://docs.ropensci.org/paleobioDB "Download and Process Data from the Paleobiology Database") ([`v1.0.1`](https://github.com/ropensci/paleobioDB/releases/tag/v1.0.1)), [rgbif](https://docs.ropensci.org/rgbif "Interface to the Global Biodiversity Information Facility API") ([`v3.8.3`](https://github.com/ropensci/rgbif/releases/tag/v3.8.3)), [rinat](https://docs.ropensci.org/rinat "Access iNaturalist Data Through APIs") ([`v0.1.10`](https://github.com/ropensci/rinat/releases/tag/v0.1.10)), [rredlist](https://docs.ropensci.org/rredlist "IUCN Red List Client") ([`v1.1.1`](https://github.com/ropensci/rredlist/releases/tag/v1.1.1)), [rsvg](https://docs.ropensci.org/rsvg "Render SVG Images into PDF, PNG, (Encapsulated) PostScript, or Bitmap Arrays") ([`v2.7.0`](https://github.com/ropensci/rsvg/releases/tag/v2.7.0)), [spatsoc](https://docs.ropensci.org/spatsoc "Group Animal Relocation Data by Spatial and Temporal Relationship") ([`v0.2.10`](https://github.com/ropensci/spatsoc/releases/tag/v0.2.10)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.13.2`](https://github.com/ropensci/tarchetypes/releases/tag/0.13.2)), and [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.11.4`](https://github.com/ropensci/targets/releases/tag/1.11.4)).
 
 ## Software Peer Review
 
@@ -113,7 +119,9 @@ There are sixteen recently closed and active submissions and 4 submissions on ho
 
     -   [galamm](https://github.com/ropensci/software-review/issues/615), Generalized Additive Latent and Mixed Models. Submitted by [Øystein Sørensen](https://osorensen.github.io/). (Stats).
 
--   Four at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%223/reviewer(s)-assigned%22):
+-   Five at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%223/reviewer(s)-assigned%22):
+
+    -   [babelquarto](https://github.com/ropensci/software-review/issues/720), Renders a Multilingual Quarto Book. Submitted by [Maëlle Salmon](https://masalmon.eu/).
 
     -   [reviser](https://github.com/ropensci/software-review/issues/709), Tools for Studying Revision Properties in Real-Time Time Series Vintages. Submitted by [Marc Burri](https://marcburri.github.io/).
 
@@ -122,10 +130,6 @@ There are sixteen recently closed and active submissions and 4 submissions on ho
     -   [distionary](https://github.com/ropensci/software-review/issues/688), Create and Evaluate Probability Distributions. Submitted by [Vincenzo Coia, Ph.D., P.Stat.](https://vincenzocoia.com).
 
     -   [read.abares](https://github.com/ropensci/software-review/issues/667), Provides simple downloading, parsing and importing of Australian Bureau of Agricultural and Resource Economics and Sciences (ABARES) data sources. Submitted by [Adam H. Sparks](https://adamhsparks.netlify.app/).
-
--   One at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%222/seeking-reviewer(s)%22):
-
-    -   [babelquarto](https://github.com/ropensci/software-review/issues/720), Renders a Multilingual Quarto Book. Submitted by [Maëlle Salmon](https://masalmon.eu/).
 
 -   Five at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%221/editor-checks%22):
 
@@ -157,9 +161,15 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 -   [From Surviving to Thriving: A Convening to Reclaim and Sustain Open Science Communities](/blog/2025/09/15/collaboration-communities) by Kari L. Jordan, Erin Becker, Daniela Saderi, Vanessa Fairhurst, Patricia Herterich, Noam Ross, Yanina Bellini Saibene, Leah Wasser, and Yo Yehudi. Five leading open science organizations --- The Carpentries, OLS, rOpenSci, pyOpenSci, and PREreview --- are coming together for a strategic convening, supported by The Navigation Fund, to address shared challenges of underfunding, fragmentation, and unsustainable volunteer models.
 
+-   [All the Ways to Programmatically Edit or Parse R Markdown / Quarto Documents](/blog/2025/09/18/markdown-programmatic-parsing) by Maëlle Salmon, Christophe Dervieux, and Zhian N. Kamvar. Overview of programmatic ways to analyze and edit Markdown files: Markdown, R Markdown, Quarto, Hugo files, you name it. Other languages: <a href='/es/blog/2025/09/18/markdown-programatico' lang='es'>Todas las Formas de Editar o Analizar Programáticamente Documentos R Markdown / Quarto (es)</a>, <a href='/fr/blog/2025/09/18/markdown-programmatique' lang='fr'>Toutes les façons d'éditer ou d'analyser programmatiquement des documents R Markdown / Quarto (fr)</a>.
+
+-   [A Gentle Introduction to Open Science](/blog/2025/09/23/gentle-openscience) by Steffi LaZerte. Steffi reviews a talk on open science. Don't forget that it takes courage; be kind to yourself. Other languages: <a href='/fr/blog/2025/09/23/gentle-openscience' lang='fr'>Une introduction en douceur à la science ouverte (fr)</a>.
+
 ### Tech Notes
 
 -   [Help Us Design a New Git(Hub) Organizational Dashboard](/blog/2025/09/11/repometrics-call-help) by Mark Padgham.
+
+-   [All the Ways to Programmatically Edit or Parse R Markdown / Quarto Documents](/blog/2025/09/18/markdown-programmatic-parsing) by Maëlle Salmon, Christophe Dervieux, and Zhian N. Kamvar. Overview of programmatic ways to analyze and edit Markdown files: Markdown, R Markdown, Quarto, Hugo files, you name it. Other languages: <a href='/es/blog/2025/09/18/markdown-programatico' lang='es'>Todas las Formas de Editar o Analizar Programáticamente Documentos R Markdown / Quarto (es)</a>, <a href='/fr/blog/2025/09/18/markdown-programmatique' lang='fr'>Toutes les façons d'éditer ou d'analyser programmatiquement des documents R Markdown / Quarto (fr)</a>.
 
 
 
@@ -173,7 +183,7 @@ If you're interested in maintaining any of the R packages below, you might enjoy
 
 ### Calls for contributions
 
-Refer to our [help wanted page](/help-wanted/) -- before opening a PR, we recommend asking in the issue whether help is still needed.
+Thanks to [an idea](https://github.com/ropensci-review-tools/pkgcheck/issues/142) from Egor Kotov, the pkgcheck package now contains a stand-alone function to use during package development, to quickly check whether your function names are unique: Refer to our [help wanted page](/help-wanted/) -- before opening a PR, we recommend asking in the issue whether help is still needed.
 
 ## Package development corner
 

@@ -519,6 +519,7 @@ parse_one_post <- function(path){
 paths <- fs::dir_ls("..", recurse = TRUE, glob = "*.md")
 paths <- paths[!paths %in% c("../_index.md",  "../2021-02-03-targets/raw_data_source.md",
   "../2021-02-03-targets/README.md")]
+paths <- grep("index", paths, value = TRUE)
 posts <- purrr::map_df(paths, parse_one_post)
 posts <- dplyr::filter(posts, date >= as.Date(last_newsletter), !newsletter)
 posts <- split(posts, posts[["dir"]])
