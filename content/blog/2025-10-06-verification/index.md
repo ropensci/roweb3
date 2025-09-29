@@ -66,7 +66,7 @@ It can take a little while for the DNS record to be online for real, but in our 
 
 It is possible to have several GitHub organizations point to the same website, all with a green "verified" badge.
 You simply have to do the domain verification once per GitHub organization.
-See for instance our [ropenscilabs](https://github.com/ropenscilabs) amd [ropensci-books](https://github.com/ropensci-books) organizations.
+See for instance our [ropenscilabs](https://github.com/ropenscilabs) and [ropensci-books](https://github.com/ropensci-books) organizations.
 
 ## Another example: GitHub Pages
 
