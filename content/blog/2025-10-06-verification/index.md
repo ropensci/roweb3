@@ -74,7 +74,7 @@ You can publish websites using a service called GitHub Pages.
 By default, the website for a repository hosted at `github.com/account/repo` will be served at `account.github.io/repo`.
 You can however use a _custom domain_.
 
-- On the side of GitHub Pages, in the settings of your repository, you declare you want your website to be served at `custom.domain.io` for instance.
+- On the side of GitHub Pages, in the settings of your repository, you [declare](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site) you want your website to be served at `custom.domain.io` for instance.
 
 - On the side of your DNS provider, you create a record, for instance an A record for `custom.domain.io` that points to one of the IP addresses of GitHub Pages. A very general IP address not specific to your repository at all.
 
