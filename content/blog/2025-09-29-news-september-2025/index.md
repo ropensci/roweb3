@@ -159,15 +159,13 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 -   [From Surviving to Thriving: A Convening to Reclaim and Sustain Open Science Communities](/blog/2025/09/15/collaboration-communities) by Kari L. Jordan, Erin Becker, Daniela Saderi, Vanessa Fairhurst, Patricia Herterich, Noam Ross, Yanina Bellini Saibene, Leah Wasser, and Yo Yehudi. Five leading open science organizations --- The Carpentries, OLS, rOpenSci, pyOpenSci, and PREreview --- are coming together for a strategic convening, supported by The Navigation Fund, to address shared challenges of underfunding, fragmentation, and unsustainable volunteer models.
 
--   [All the Ways to Programmatically Edit or Parse R Markdown / Quarto Documents](/blog/2025/09/18/markdown-programmatic-parsing) by Maëlle Salmon, Christophe Dervieux, and Zhian N. Kamvar. Overview of programmatic ways to analyze and edit Markdown files: Markdown, R Markdown, Quarto, Hugo files, you name it. Other languages: <a href='/es/blog/2025/09/18/markdown-programatico' lang='es'>Todas las Formas de Editar o Analizar Programáticamente Documentos R Markdown / Quarto (es)</a>, <a href='/fr/blog/2025/09/18/markdown-programmatique' lang='fr'>Toutes les façons d'éditer ou d'analyser programmatiquement des documents R Markdown / Quarto (fr)</a>.
-
 -   [A Gentle Introduction to Open Science](/blog/2025/09/23/gentle-openscience) by Steffi LaZerte. Steffi reviews a talk on open science. Don't forget that it takes courage; be kind to yourself. Other languages: <a href='/fr/blog/2025/09/23/gentle-openscience' lang='fr'>Une introduction en douceur à la science ouverte (fr)</a>.
 
 ### Tech Notes
 
 -   [Help Us Design a New Git(Hub) Organizational Dashboard](/blog/2025/09/11/repometrics-call-help) by Mark Padgham.
 
--   [All the Ways to Programmatically Edit or Parse R Markdown / Quarto Documents](/blog/2025/09/18/markdown-programmatic-parsing) by Maëlle Salmon, Christophe Dervieux, and Zhian N. Kamvar. Overview of programmatic ways to analyze and edit Markdown files: Markdown, R Markdown, Quarto, Hugo files, you name it. Other languages: <a href='/es/blog/2025/09/18/markdown-programatico' lang='es'>Todas las Formas de Editar o Analizar Programáticamente Documentos R Markdown / Quarto (es)</a>, <a href='/fr/blog/2025/09/18/markdown-programmatique' lang='fr'>Toutes les façons d'éditer ou d'analyser programmatiquement des documents R Markdown / Quarto (fr)</a>.
+-   [All the Ways to Programmatically Edit or Parse R Markdown / Quarto Documents](/blog/2025/09/18/markdown-programmatic-parsing) by Maëlle Salmon, Christophe Dervieux, and Zhian N. Kamvar. Overview of programmatic ways to analyze and edit Markdown files: Markdown, R Markdown, Quarto, Hugo files, you name it. Other languages: <a href='/es/blog/2025/09/18/markdown-programatico' lang='es'>Todas las Formas de Editar o Analizar Programáticamente Documentos R Markdown / Quarto (es)</a>, <a href='/fr/blog/2025/09/18/markdown-programmatique' lang='fr'>Toutes les façons d'éditer ou d'analyser programmatiquement des documents R Markdown / Quarto (fr)</a>. This post was discussed on the [R Weekly Highlights podcast](https://podcastindex.org/podcast/1062040?episode=42926387120) hosted by Eric Nantz and Mike Thomas.
 
 
 
