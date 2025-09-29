@@ -9,7 +9,7 @@ tags:
   - community
   - code of conduct
   - community manager tools
-
+slug: coc-templates
 description: "rOpenSci has a stablish Code of Conduct Committee and process for their functioning. We use templates to support our work and we share these templates in this blog post."
 params:
   doi: "10.59350/j0vp2-dg610"
