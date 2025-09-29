@@ -6,7 +6,7 @@ author:
 date: '2025-09-29'
 tags:
   - newsletter
-description: R-multiverse comm call, useR! 2025, posit::conf(2025), coworking, new package, package news
+description: Champions training, organization dashboard, coworking, new packages
 params:
   last_newsletter: '2025-08-28'
   doi: "10.59350/c427v-cjd59"
