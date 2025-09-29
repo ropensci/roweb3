@@ -82,10 +82,6 @@ Read [all about coworking](/blog/2023/06/21/coworking/)!
     - Submit your package to the [R-multiverse](https://r-multiverse.org/);
     - Chat with Will Landau, and learn more about the R-multiverse and how to submit your package.
 
--   Tuesday November 3rd, 09:00 Australia Western (01:00 UTC), ["Code Review with rOpenSci"](/events/coworking-2025-11/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Liz Hare](/author/liz-hare).  
-    -   Explore resources for Code review;  
-    -   Sign up to volunteer to do [software peer-review](https://airtable.com/app8dssb6a7PG6Vwj/shrnfDI2S9uuyxtDw) at rOpenSci;  
-    -   Chat with Liz Hare, and learn more about rOpenSci's code review and the resources available.  
 
 -   Tuesday November 3rd, 09:00 Australia Western (01:00 UTC), ["Code Review with rOpenSci"](/events/coworking-2025-11/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Liz Hare](/author/liz-hare).  
     -   Explore resources for Code review;  
@@ -537,6 +533,9 @@ format_post <- function(dir) {
   string <- sprintf("* [%s](%s) by %s", post$title, post$url, post$author)
   if (post$description != "") {
     string <- paste0(string, ". ", sub("[\\.\\!\\?]$", "", post$description), ".")
+        if (url == "/blog/2025/09/18/markdown-programmatic-parsing/") {
+      string <- paste(string, "This post was discussed on the [R Weekly Highlights podcast](https://podcastindex.org/podcast/1062040?episode=42926387120) hosted by Eric Nantz and Mike Thomas..")
+    }
   } else {
     string <- paste0(string, ".")  
   }
