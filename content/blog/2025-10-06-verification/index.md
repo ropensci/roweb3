@@ -49,7 +49,7 @@ What it used is this metadata field in the head of the website:
 After we added that field to the website, Noam went to his Mastodon profile settings to add the URL which triggered a query from Mastodon to `ropensci.org/about`.
 Mastodon found this field in the web page, and was able to verify that URL.
 
-This DIY verification is actually one of [Mastodon's selling points](https://joinmastodon.org/verification), as it doesn't rely on some arbitrary mesure of popularity or importance, just on logic.
+This DIY verification is actually one of [Mastodon's selling points](https://joinmastodon.org/verification), as it doesn't rely on some arbitrary measure of popularity or importance, just on logic.
 
 ## Another example: GitHub
 
