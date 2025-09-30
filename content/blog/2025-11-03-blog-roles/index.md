@@ -19,7 +19,7 @@ Our own dev guide [states](https://devguide.ropensci.org/maintenance_collaborati
 > Be generous with attributions
 
 Recognizing the diverse forms of [contributions](https://contributing.ropensci.org/) to our mission is very important to us:
-we like thanking [package reviewers](/blog/2018/03/16/thanking-reviewers-in-metadata/) and more generally [all package contributors](/blog/2024/11/26/allcontributors/), [organizations as well as individuals](/blog/2025/05/09/ror/)
+we like thanking [package reviewers](/blog/2018/03/16/thanking-reviewers-in-metadata/) and more generally [all package contributors](/blog/2024/11/26/allcontributors/), [organizations as well as individuals](/blog/2025/05/09/ror/).
 
 We have recently extended our efforts to acknowledging the different efforts it takes to publish a blog post.
 
