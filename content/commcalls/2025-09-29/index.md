@@ -18,7 +18,7 @@ notes:
 outputs:
 - HTML
 - Calendar 
- vimeo: 
+vimeo: 
    - id: '1122954029' 
 resources:
   - url: https://r-multiverse.org
