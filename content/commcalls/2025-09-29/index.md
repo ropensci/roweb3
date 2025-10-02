@@ -18,8 +18,8 @@ notes:
 outputs:
 - HTML
 - Calendar 
-# vimeo: 
-#   - id: ''
+ vimeo: 
+   - id: '1122954029' 
 resources:
   - url: https://r-multiverse.org
     name: "R-multiverse website"
