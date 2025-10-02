@@ -24,6 +24,10 @@ resources:
   - url: https://r-multiverse.org
     name: "R-multiverse website"
     details: "website for the R-multiverse project, a new community-curated dual publishing platform for R packages"
+    resources:
+  - url: https://wlandau.github.io/posit2025
+    name: "Speaker's Slides"
+    details: "Slides from Will Landau's presentation at the community call with details about R-multiverse"
 speakers:  
   - name: Will Landau
     bio: Will Landau is the author of rOpenSci's {targets} R package. He earned his PhD in Statistics from Iowa State University in 2016, and he now works at Eli Lilly and Company, where he develops methods and software for clinical statisticians.
