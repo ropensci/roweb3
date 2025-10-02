@@ -14,7 +14,7 @@ location: online
 country: "\U0001F310"
 attendees: Everyone is welcome!
 slug: r-multiverse
-notes: 
+notes: https://docs.google.com/document/d/1879AsypDb5fGdxPWTiTtY6LygQMCvtZ_G80eD1Qrkr4/edit?usp=sharing
 outputs:
 - HTML
 - Calendar 
