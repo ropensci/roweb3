@@ -14,12 +14,12 @@ location: online
 country: "\U0001F310"
 attendees: Everyone is welcome!
 slug: r-multiverse
-notes: 
+notes: https://docs.google.com/document/d/1879AsypDb5fGdxPWTiTtY6LygQMCvtZ_G80eD1Qrkr4/edit?usp=sharing
 outputs:
 - HTML
 - Calendar 
-# vimeo: 
-#   - id: ''
+vimeo: 
+   - id: '1122954029' 
 resources:
   - url: https://r-multiverse.org
     name: "R-multiverse website"
