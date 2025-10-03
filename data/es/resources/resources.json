@@ -2,7 +2,8 @@
 {
 "title": "Guía de colaboración",
 "text": "El propósito de esta guía es darte la bienvenida a rOpenSci y ayudarte a reconocerte como potencial participante",
-"url": "https://contributing.ropensci.org"
+"url": "https://contributing.ropensci.org",
+   "guide": true
 },
 {
 "title": "Paquetes",
@@ -17,7 +18,8 @@
 {
 "title": "Guía para desarrollar y revisar paquetes",
 "text": "Nuestra guía de mejores prácticas para el desarrollo de paquetes R y la revisión por pares",
-"url": "https://devguide.ropensci.org/es/index.es.html"
+"url": "https://devguide.ropensci.org/es/index.es.html",
+ "guide": true
 },
 {
 "title": "Revisión por Pares de Software",
@@ -103,4 +105,10 @@
 "title": "Organización de GitHub ropensci-docs",
 "text": "Documentación de los paquetes rOpenSci, actualizada automáticamente",
 "url": "https://github.com/ropensci-docs"
+},
+{
+"title": "Guía de localización y traducción de rOpenSci",
+"text": "Cómo y porqué traducimos y localizamos nuestros recursos.",
+"url": "https://translationguide.ropensci.org/es/index.es.html",
+"guide": true
 }]

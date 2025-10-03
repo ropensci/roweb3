@@ -110,6 +110,7 @@
         <li class="nav-item drp">
           {{ partial "translate-url" (dict "name" "resources" "Site" .Site "class" "nav-link")}}{{ i18n "Resources" }}</a>
           <ul class="sub-menu">
+            <li>{{ partial "translate-url" (dict "name" "guides" "Site" .Site )}}{{ i18n "Guides" }}</a></li>
             <li>{{ partial "translate-url" (dict "name" "talks-papers" "Site" .Site )}}{{ i18n "Talks-Publications" }}</a></li>
             <li>{{ partial "translate-url" (dict "name" "training" "Site" .Site )}}{{ i18n "Training"}} </a></li>
             <li><a class="external-link" lang="en" href="https://docs.ropensci.org/">{{ i18n "Package-Docs" }}</a></li>
