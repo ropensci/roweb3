@@ -2,7 +2,8 @@
 {
    "title": "Contributing Guide",
    "text": "The purpose of this guide is to welcome you to rOpenSci and help you recognize yourself as a potential contributor.",
-   "url": "https://contributing.ropensci.org"
+   "url": "https://contributing.ropensci.org",
+   "guide": true
 },
 {
    "title": "Packages",
@@ -17,7 +18,8 @@
 {
    "title": "Developer Guide",
    "text": "Our best practice guide for R package development and peer-review.",
-   "url": "https://devguide.ropensci.org"
+   "url": "https://devguide.ropensci.org",
+   "guide": true
 },
 {
    "title": "Software Peer Review",
@@ -57,7 +59,8 @@
 {
    "title": "Our Blogging Guide",
    "text": "Guide for authors and editors of blog posts and tech notes for the rOpenSci website.",
-   "url": "https://blogguide.ropensci.org/"
+   "url": "https://blogguide.ropensci.org/",
+   "guide": true
 },
 {
    "title": "ropensci GitHub Organization",
@@ -103,4 +106,10 @@
    "title": "ropensci-docs GitHub Organization",
    "text": "Documentation of rOpenSci packages, automatically updated.",
    "url": "https://github.com/ropensci-docs"
+},
+{
+   "title": "rOpenSci Localization and Translation Guidelines",
+   "text": "Why and how we localize and translate our resources.",
+   "url": "https://translationguide.ropensci.org/",
+   "guide": true
 }]
