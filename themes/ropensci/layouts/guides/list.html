@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+
+<section class="section">
+  <div class="container">
+    <!-- Header text -->
+<div class="row">
+  <div class="col-md-8">
+    <h1>{{ .Title | markdownify }}</h1>
+    <p class="subtitle">
+      {{ .Content }}
+    </p>
+  </div>
+</div>
+
+
+{{ $data := index .Site.Data .Language.Lang }}
+{{ $resources := $data.resources.resources }}
+{{ $guides := (where $resources "guide" true )}}
+{{ partial "resources/resources-cards" (dict "resources" $guides ) }}
+  </div>
+</section>
+{{ $askpartial := (partial "translate-path" (dict "name" "whole-page-fragments/ask" "language" .Language.Lang )) }}
+{{ partial $askpartial (dict "Site" .Site "divider" "rl" )  }}
+{{ $newsletterpartial := (partial "translate-path" (dict "name" "whole-page-fragments/newsletter" "language" .Language.Lang )) }}
+{{ partial $newsletterpartial (dict "Site" .Site "divider" "rl" )  }}
+{{ $brandpartial := (partial "translate-path" (dict "name" "whole-page-fragments/brands" "language" .Language.Lang )) }}
+{{ partial $brandpartial (dict "Site" .Site "divider" "lr" )  }}
+{{ end }}
