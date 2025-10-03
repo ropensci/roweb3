@@ -10,6 +10,7 @@ output: hugodown::md_document
 tags:
   - metadata
   - tech notes
+  - community manager tools
 params:
   doi: "10.59350/510pg-zzf58"
 ---
@@ -45,4 +46,9 @@ To achieve this new functionality, we
 ## Conclusion
 
 We are thrilled to be able to acknowledge more contributions to our blog.
+
+This differentiation of roles also allows us to analyze in greater detail how blog-related collaborations occur among members of our community. With this information, we can create more ways of participation for interested individuals, including the support they need for successful participation. 
+
+We also hope that it will be useful for other communities in identifying different types of contributions and ways of giving credit.
+
 Further work will include having more of those contributions featured in our feed on [Rogue Scholar](https://rogue-scholar.org/communities/ropensci/records?q=&l=list&p=1&s=10&sort=newest).
