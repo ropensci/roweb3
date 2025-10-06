@@ -1,43 +1,5 @@
-<!-- discourse comments -->
-<!-- 
-group 1. posts before discourse came along - no discourse embed code
-group 2. posts that have topicid in their yaml header - get discourse embed code with topocid
-group 3. posts we're trying to automate embeds for, no topicid and newer than 2019
-  (to differentiate from older posts that also don't have topicid in their yaml)
--->
  {{ if  (in .Params.tags "r-universe") }}
  <hr>
  <p><a href="https://github.com/r-universe-org/help/discussions" lang="en">Start discussion</a></p>
  <hr>
- {{ else }}
-{{ with .Params.topicid }}
-
-  <div id='discourse-comments' class="d-print-none">
-    <script type="text/javascript">
-      DiscourseEmbed = { discourseUrl: 'https://discuss.ropensci.org/',
-        discourseReferrerPolicy: 'no-referrer-when-downgrade',
-        topicId: {{ . }} };
-      (function() {
-        var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
-        d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
-      })();
-      </script>
-        </div>
-        {{ else }}
-      {{ if (gt .year 2019) }}
-        <div id='discourse-comments' class="d-print-none">
-        <script type="text/javascript">
-        DiscourseEmbed = { discourseUrl: 'https://discuss.ropensci.org/',
-          discourseReferrerPolicy: 'no-referrer-when-downgrade',
-          discourseEmbedUrl: {{ .permalink | absURL }} };
-        (function() {
-          var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
-          d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
-          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
-        })();
-  </script>
-        </div>
-          {{ end }}
-        {{ end }}
 {{ end }}
