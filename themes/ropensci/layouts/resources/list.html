@@ -12,10 +12,24 @@
     </p>
   </div>
 </div>
-
-
 {{ $data := index .Site.Data .Language.Lang }}
-{{ partial "resources/resources-cards" (dict "resources" $data.resources.resources ) }}
+{{ $resources := $data.resources.resources }}
+
+<h2>Content</h2>
+
+{{ $content := (where $resources "type" "content" )}}
+{{ partial "resources/resources-cards" (dict "resources" $content ) }}
+
+<h2>Guides</h2>
+
+{{ $guide := (where $resources "type" "guide" )}}
+{{ partial "resources/resources-cards" (dict "resources" $guide ) }}
+
+<h2>GitHub Organizations</h2>
+
+{{ $github := (where $resources "type" "github" )}}
+{{ partial "resources/resources-cards" (dict "resources" $github ) }}
+
   </div>
 </section>
 {{ $askpartial := (partial "translate-path" (dict "name" "whole-page-fragments/ask" "language" .Language.Lang )) }}
