@@ -76,3 +76,21 @@ You can then extend that with each additional remote URL with `set-url --add`.
 Running `git push other <branch>` will then push that branch to all remote URLs specified in `other`.
 
 More arcane alternatives include my own [arcane git push bash script](https://github.com/mpadge/dotfiles/blob/main/system/gitpush.bash) which recreates the now obsolete push-by-password functionality of GitHub, while also pushing to all other listed remote sources.
+
+## rOpenSci repos on Codeberg and GitLab
+
+We don't yet have any automated tooling for authors to rOpenSci packages to mirror repositories on other platforms.
+If you are an author of an rOpenSci package, and would like to set up mirrors on either [Codeberg/ropensci](https://codeberg.org/ropensci) or [GitLab/ropensci](https://gitlab.com/ropensci), you'll have to ask us to do the initial set up.
+The best way is to ping us - one or all of [@maelle](https://github.com/maelle), [@adamhsparks](https://github.com/adamhsparks), or [@mpadge](https://github.com/mpadge) - directly from a GitHub issue in your repository, and we'll start the process.
+
+## Using a main source other than GitHub
+
+Authors of rOpenSci packages may also use platforms other than GitHub as the main source for their repository code.
+As with mirroring, Codeberg is currently the best platform to use instead of GitHub, because it has inbuilt abilities to push code to any other locations.
+Once you've set up an rOpenSci repository on Codeberg, you can go to the settings, where one of the first options under "Repository" is "Mirror settings".
+Here you can configure any other locations as push mirrors.
+From that point on, you should only ever `git push` directly to Codeberg, and every push there will be mirrored by Codeberg to all other specified locations, potentially including GitHub.
+
+rOpenSci infrastructure, including r-universe, will remain built on GitHub repository sources for the time being, so you'll need to keep a GitHub mirror of your code regardless of where your main source lives.
+This also means that many links, including all from the main [rOpenSci website](https://ropensci.org), and [r-universe](https://r-universe.dev), will be to the GitHub version of your packages.
+If you opt to use an alternative location, you'll need to update your package documentation to clearly direct users to your desired platform.
