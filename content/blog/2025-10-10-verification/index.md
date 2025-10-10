@@ -4,7 +4,7 @@ author:
 - Maëlle Salmon
 editor:
   - Steffi LaZerte
-date: '2025-10-06'
+date: '2025-10-10'
 slug: verification
 description: How domain verification helps against impersonation and takeover attacks, and how to use it.
 output: hugodown::md_document
