@@ -1,8 +1,9 @@
 ---
-title: A primer on domain verification
+title: A Primer on Domain Verification
 author: 
 - Maëlle Salmon
 editor:
+  - Steffi LaZerte
 date: '2025-10-06'
 slug: verification
 description: How domain verification helps against impersonation and takeover attacks, and how to use it.
@@ -22,15 +23,15 @@ Here's a primer on domain verification.
 
 ## A basic verification workflow
 
-Say you, Jane Doe, have your resume and blog on website A.
-You also publish content on website B, for instance Mastodon.
-How do readers of website B ensure they're reading content by "Jane Doe from website A" and not a malicious impersonator?
-Well, you can _verify_ the domain of website A on website B.
+Say you, Jane Doe, have your resume and a blog on a website, janedoe.com.
+You also publish content on another site, for instance Mastodon.
+How do readers of Mastodon ensure they're reading content by "Jane Doe from janedoe.com" and not a malicious impersonator?
+Well, you can _verify_ the domain of janedoe.com on Mastodon.
 
-The platform for website B will ask you to publish something on website A that proves that you are the same person.
-You will go and publish it, then ask website B to query website A to check you did.
-If website B finds what it asked for on website A, it can put a green check mark near the domain of website A on your profile of website B.
-Readers now know you are the same person on websites A and B!
+The platform for this second website (Mastodon in our example here) will ask you to publish something on the domain you own (or have access to, here janedoe.com) which proves that you are the same person.
+You will go and publish it, then ask Mastodon to query janedoe.com to check you did.
+If Mastodon finds what it asked for on janedoe.com, it can put a green check mark near the domain of janedoe.org on your Mastodon profile.
+Readers now know you are the same person on both sites!
 
 ## An example: Mastodon
 
@@ -39,15 +40,15 @@ That URL is _verified_.
 
 {{< figure src="noam.png" alt="" >}}
 
-In clear text on our [about page](/about/) you can read that Noam is rOpenSci executive director indeed, but that's not what Mastodon used to assess whether that URL, `ropensci.org/about`, represented Noam in some way.
-What it used is this metadata field in the head of the website:
+In clear text on our [about page](/about/) you can read that Noam is rOpenSci's executive director indeed, but that's not what Mastodon uses to assess whether `ropensci.org/about` represents Noam in some way.
+Mastodon uses this metadata field in the head of the website:
 
 ```html
 <a rel=me href=https://ecoevo.social/@noamross><img src=/images/users/mastodon.svg alt style=max-width:16px;max-height:16px></a>
 ```
 
 After we added that field to the website, Noam went to his Mastodon profile settings to add the URL which triggered a query from Mastodon to `ropensci.org/about`.
-Mastodon found this field in the web page, and was able to verify that URL.
+Mastodon found this field in the web page, and was able to verify the URL.
 
 This DIY verification is actually one of [Mastodon's selling points](https://joinmastodon.org/verification), as it doesn't rely on some arbitrary measure of popularity or importance, just on logic.
 
@@ -58,8 +59,7 @@ That URL is _verified_.
 
 {{< figure src="ropensci.png" alt="" >}}
 
-In this case, what was used was not a field in the metadata of `ropensci.org`.
-What GitHub asked us from the [settings](https://docs.github.com/en/organizations/managing-organization-settings/verifying-or-approving-a-domain-for-your-organization) was to publish a _DNS TXT record_ with a given name and given content. Think `blabla-identity-challenge-ropensci-github.ropensci.org` with `random-characters` as content.
+In this case, in the GitHub [settings](https://docs.github.com/en/organizations/managing-organization-settings/verifying-or-approving-a-domain-for-your-organization) we were asked to publish a _DNS TXT record_ with a given name and given content. Think `blabla-identity-challenge-ropensci-github.ropensci.org` with `random-characters` as content.
 
 We created that record in the dashboard of our DNS provider, then asked GitHub to query the record.
 It can take a little while for the DNS record to be online for real, but in our case it was more or less instantaneous.
@@ -87,12 +87,12 @@ It works like the domain verification for GitHub profiles, with TXT records.
 It is controlled at the user or organization level, not at the repository level.
 It is different from domain verification for profiles in that:
 
-- it is done from another part of the settings. Follow the docs!
-- you cannot verify `domain.io` for instance for two GitHub organization. The latest verification will overwrite the previous one![^ouch] So you have to painstakingly verify `custom.domain.io`, `custom1.domain.io` etc.
+- It is done from another part of the settings. Follow the docs!
+- If you have multiple subdomains, you will need to verify each one individually (e.g., `custom1.domain.io`, `custom2.domain.io`). You cannot verify a domain for more than one GitHub organization as the latest verification will overwrite the previous one![^ouch]
 
 [^ouch]: Not only that, it will also deactivate all the custom domains of that first organization, if they relied on the verification at the domain, not the subdomain level. Ask me how I know. :melting_face:
 
 ## Conclusion
 
-In this post, we gave a small primer on domain verification, a process by which you prove that your content under a given website comes from the same you under another website.
+In this post, we gave a small primer on domain verification, a process by which you prove that your content on a given website comes from the same you on another website.
 Using domain verification when it exists, and requesting it when it doesn't, makes us a bit safer against impersonations or takeover attacks.
