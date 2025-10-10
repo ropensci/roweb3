@@ -5,7 +5,7 @@ author:
 - Yanina Bellini Saibene
 editor:
 - Steffi LaZerte
-date: '2025-11-03'
+date: '2025-10-14'
 slug: blog-roles
 description: How we acknowledge different types of contributions to our blog
 output: hugodown::md_document
