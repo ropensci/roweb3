@@ -1,0 +1,59 @@
+---
+title: Go for Launch! Packages Shipped to the Multiverse
+author: 
+- Maëlle Salmon
+editor:
+  - 
+date: '2025-10-21'
+slug: packages-multiverse
+description: Packages submitted to the R multiverse during our recent coworking session.
+output: hugodown::md_document
+tags:
+  - r-multiverse
+  - r-universe
+params:
+  doi: "10.59350/pjqfq-q2q45"
+---
+
+Will Landau recently introduced the R-multiverse, [a new way to publish R packages](/commcalls/r-multiverse/), during an rOpenSci community call.[^posit]
+After that event, a [coworking](/blog/2023/06/21/coworking/) session allowed even more discussion between Will, his R-multiverse fellow administrators Jeroen Ooms and Maëlle Salmon, and community members.
+
+A key mission in that coworking session was to submit packages to the multiverse live!
+Following the [instructions](https://r-multiverse.org/contributors.html), any package maintainer wishing to send their software to the community repository needs to:
+
+- create a GitHub or GitLab release of their package;
+- open a Pull Request to the [contributions](https://github.com/r-multiverse/contributions) GitHub repository, adding a text file that contains the URL to the repository.[^json]
+
+Will also showed an R function that allows to perform local checks on the package before submitting: [`multiverse.internals::review_package()`](https://r-multiverse.org/multiverse.internals/reference/review_package.html).
+
+Three packages were submitted during the coworking session!
+
+## Package submissions
+
+I submitted my [riem package](https://github.com/r-multiverse/contributions/pull/238) that accesses airport weather data, even if it is also distributed on CRAN.
+Because the automatic checks (of the license for instance) passed and because I am a public member of an organization trusted by the multiverse, ropensci, my PR was automatically merged. Read more about [riem](https://docs.ropensci.org/riem/).
+
+Eric R. Scott submitted Nick Tierney's, his and Andrew Brown's [geotargets package](https://github.com/r-multiverse/contributions/pull/239) that extends targets to work with geospatial data formats, such as rasters and vectors (e.g., shapefiles). This submission exemplifies that you can submit any package to the multiverse, as long as its licence makes it ok. Checking the licence is part of the automatic checks! Now, obviously, only people with access to the source repository can modify the code and create a new release that the multiverse will distribute. Read more about [geotargets](https://docs.ropensci.org/geotargets/).
+
+Steffi LaZerte submitted her [weathercan package](https://github.com/r-multiverse/contributions/pull/240/), also a weather package but for Canada! Steffi wondered whether it made sense to submit weather can before making a bunch of fixes and enhancements she had planned other the next few weeks: yes it does make sense, because the multiverse will pick up the latest release automatically. Steffi only needs to remember to create a new release after improving weathercan. Read more about [weathercan](https://docs.ropensci.org/weathercan/).
+
+## What's next for those packages?
+
+Now that these packages are in, they're distributed through the [**community** repository](https://r-multiverse.org/community.html).
+It's like a preview of new releases.
+
+In a few weeks, when R-multiverse starts building the next [**production** snapshot](https://r-multiverse.org/production.html), they will be checked together with other packages.
+If they are good to go, their release at that point will be the one built into production.
+If there are some issues, the maintainer can still push fixes.
+
+As long as those packages are listed in the R-multiverse, they will participate in the quarterly production snapshots.
+The maintainers only need to keep creating releases (good practice anyway) and to follow the [status](https://r-multiverse.org/status/) of their package on the multiverse.
+
+## What's next for the R-multiverse?
+
+After the posit conf talk, the rOpenSci community call, and the rOpenSci coworking session, the R multiverse is aiming at increasing participation in its system to strengthen and diversify it.
+New package submissions are welcome, as are [questions and feature requests](https://github.com/r-multiverse/help).
+You can also apply to become a [package moderator](https://r-multiverse.org/moderators.html) to help handle new submissions.
+
+[^posit]: And before that in a talk at posit::conf! Stay tuned for the release of the public talk recordings on YouTube.
+[^json]: Or a slightly more involved JSON file if the package is in a subdirectory for instance.
