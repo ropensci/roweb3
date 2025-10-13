@@ -14,7 +14,7 @@ tags:
 - tech notes
 - outils de management de communauté
 params:
-  doi: 10.59350/510pg-zzf58
+  doi: 10.59350/cwdyp-ads64
 ---
 
 Notre propre guide de développement [souligne](https://devguide.ropensci.org/maintenance_collaboration.html#attributions)
