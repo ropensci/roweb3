@@ -37,7 +37,7 @@ speakers:
       Tan is a self-taught programmer who loves R, Shiny, NFL, and carving pumpkins. By day, he is an Engineering Manager for [Teamworks Intelligence](https://teamworks.com/intelligence/) Soccer. 
       Tan developed the [DynastyProcess](https://dynastyprocess.com) fantasy football Shiny app, maintains [nflverse](https://github.com/nflverse) and [ffverse](https://github.com/ffverse) pipelines and packages for NFL analytics, and mentors at [DSLC Slack Community](https://dslc.io). 
       You can find more about Tan at [tanho.ca](https://tanho.ca). 
-    img: /img/community/tan-ho.jpeg
+    img: /img/community/tan-ho.jpg
   - name: Matthias Grenié
     bio: 
     img: /img/community/matthias-grenié.jpeg    
