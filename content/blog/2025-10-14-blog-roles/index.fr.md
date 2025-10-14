@@ -58,5 +58,3 @@ Grâce à ces informations, nous pouvons explorer différentes façons d'encoura
 Nous espérons également que nos résultats seront utiles à d'autres communautés pour identifier les différents types de contributions et les façons de les honorer.
 
 Nous continuerons à travailler pour que davantage de ces contributions soient présentées dans notre fil d'actualité sur [Rogue Scholar](https://rogue-scholar.org/communities/ropensci/records?q=&l=list&p=1&s=10&sort=newest).
-
-
