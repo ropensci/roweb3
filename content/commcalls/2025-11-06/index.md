@@ -30,7 +30,7 @@ outputs:
 
 speakers:  
   - name: Salix Dubois
-    bio: 
+    bio: With a background in art and biology, Salix is a self-taught programmer fluent in web technologies, R, and C++. An enthusiastic problem solver, they are passionate about open science and making research more accessible. They are the maintainer of the boldR package and work as a software analyst and web developer.
     img: /img/community/salix-dubois.jpeg
   - name: Tan Ho
     bio: |
