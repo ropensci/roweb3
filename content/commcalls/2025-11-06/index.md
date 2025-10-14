@@ -43,7 +43,7 @@ speakers:
       Matthias is an Assistant Professor of Biostatistics at the University of Grenoble (France) at the [Alpine Ecology Laboratory](https://leca.osug.fr/?lang=en) where he focuses his research on the distribution of plant functional traits at large scales.
       For his research he developed several R packages dealing with plant functional traits like [fundiversity](https://funecology.github.io/fundiversity).
       You can learn more about his work on [his website](https://rekyt.github.io)
-    img: /img/community/matthias-grenié.jpeg    
+    img: /img/community/matthias-grenié.jpg    
 tags:
   - community call
   - events
