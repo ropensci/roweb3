@@ -30,12 +30,27 @@ Three packages were submitted during the coworking session!
 
 ## Package submissions
 
+### riem, to get weather data from ASOS stations (airports) via the Iowa Environment Mesonet.
+
 I submitted my [riem package](https://github.com/r-multiverse/contributions/pull/238) that accesses airport weather data, even if it is also distributed on CRAN.
-Because the automatic checks (of the license for instance) passed and because I am a public member of an organization trusted by the multiverse, ropensci, my PR was automatically merged. Read more about [riem](https://docs.ropensci.org/riem/).
+Because the automatic checks (of the license for instance) passed and because I am a public member of an organization trusted by the multiverse, ropensci, my PR was automatically merged. 
 
-Eric R. Scott submitted Nick Tierney's, his and Andrew Brown's [geotargets package](https://github.com/r-multiverse/contributions/pull/239) that extends targets to work with geospatial data formats, such as rasters and vectors (e.g., shapefiles). This submission exemplifies that you can submit any package to the multiverse, as long as its licence makes it ok. Checking the licence is part of the automatic checks! Now, obviously, only people with access to the source repository can modify the code and create a new release that the multiverse will distribute. Read more about [geotargets](https://docs.ropensci.org/geotargets/).
+Read more about [riem](https://docs.ropensci.org/riem/).
 
-Steffi LaZerte submitted her [weathercan package](https://github.com/r-multiverse/contributions/pull/240/), also a weather package but for Canada! Steffi wondered whether it made sense to submit weather can before making a bunch of fixes and enhancements she had planned other the next few weeks: yes it does make sense, because the multiverse will pick up the latest release automatically. Steffi only needs to remember to create a new release after improving weathercan. Read more about [weathercan](https://docs.ropensci.org/weathercan/).
+### geotargets, that extends targets to work with geospatial data formats
+
+Eric R. Scott submitted [geotargets package](https://github.com/r-multiverse/contributions/pull/239) that extends targets to work with geospatial data formats, such as rasters and vectors (e.g., shapefiles).
+Eric co-authored `geotargets` alongside Nick Tierney and Andrew Brown, but Nick is the primary maintainer.
+That's perfectly okay.
+In fact, R-multiverse lets you contribute packages you didn't write at all, as long as the license grants [clear permission to distribute and modify the code](https://en.wikipedia.org/wiki/Free_and_open-source_software).
+
+Read more about [geotargets](https://docs.ropensci.org/geotargets/).
+
+### weathercan, to search for and download multiple months/years of historical weather data from Environment and Climate Change Canada (ECCC) website
+
+Steffi LaZerte submitted her [weathercan package](https://github.com/r-multiverse/contributions/pull/240/), also a weather package but for Canada! 
+Steffi wondered whether it made sense to submit weather can before making a bunch of fixes and enhancements she had planned other the next few weeks: yes it does make sense, because the multiverse will pick up the latest release automatically. 
+Steffi only needs to remember to create a new release after improving weathercan. Read more about [weathercan](https://docs.ropensci.org/weathercan/).
 
 ## What's next for those packages?
 
