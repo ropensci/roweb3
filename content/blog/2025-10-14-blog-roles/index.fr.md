@@ -26,7 +26,7 @@ nous aimons remercier [les personnes qui font la révision de paquets](/blog/201
 
 Nous avons récemment étendu nos efforts à la reconnaissance des différents rôles permettant la publication d'un article de blog.
 
-## Nouveaux rôles sur le blog : rédacteur·rice·s, traducteur·rice·s, interviewé·e·s
+## Nouveaux rôles sur le blog : éditeur·rice·s, traducteur·rice·s, interviewé·e·s
 
 Les métadonnées de nos articles de blog comportent désormais :
 
