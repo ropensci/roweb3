@@ -50,7 +50,9 @@ Read more about [geotargets](https://docs.ropensci.org/geotargets/).
 
 Steffi LaZerte submitted her [weathercan package](https://github.com/r-multiverse/contributions/pull/240/), also a weather package but for Canada! 
 Steffi wondered whether it made sense to submit weather can before making a bunch of fixes and enhancements she had planned other the next few weeks: yes it does make sense, because the multiverse will pick up the latest release automatically. 
-Steffi only needs to remember to create a new release after improving weathercan. Read more about [weathercan](https://docs.ropensci.org/weathercan/).
+Steffi only needs to remember to create a new release after improving weathercan. 
+
+Read more about [weathercan](https://docs.ropensci.org/weathercan/).
 
 ## What's next for those packages?
 
