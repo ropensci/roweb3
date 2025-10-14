@@ -14,9 +14,14 @@ tags:
   - tech notes
 ---
 
+_This post was cross-posted to the [R-Ladies blog](https://rladies.org/blog/2025/httr2-cache/)_
 
 When developing R packages that wrap OAuth-protected APIs, a common challenge emerges: how to authenticate in CI/CD environments where interactive OAuth flows aren't possible. 
 While httr2 provides excellent OAuth support for interactive use, getting it to work seamlessly in automated testing and deployment pipelines requires understanding how to transfer authentication from local development to CI.
+
+This issue popped up as we were working on a refactoring of the `meetupr` package, which interfaces with the Meetup API.
+We were switching from the older `httr` package to `httr2`, which has a more modern and flexible approach to OAuth.
+We also knew that we wanted to support CI/CD for users of the package, as R-Ladies uses it to store an archive of Meetup groups and events.
 
 This post walks through a general pattern for solving this problem, using examples from the recent new development on the `meetupr` package (which wraps the Meetup API) to illustrate the concepts.
 
@@ -138,6 +143,7 @@ your_package_auth_setup_ci <- function(client_name = "your-client-name") {
 **Why base64 encode?** Environment variables often have restrictions on allowed characters.
 Base64 encoding ensures the token can be safely stored and transmitted.
 It is also a character string, which makes is possible to copy-paste into CI secret fields.
+This solution was suggested by [Noam Ross](https://www.noamross.net/) in a discussion on the rOpenSci Slack.
 
 **Why export the filename?** The filename (hash) is how httr2 matches cached tokens to OAuth clients. 
 If we save the token with a different name, httr2 won't find it.
@@ -177,29 +183,10 @@ your_package_auth_load_ci <- function(client_name = "your-client-name") {
 }
 ```
 
-### Step 3: Integrate with Your Request Function
+Tell your users to call this function at the start of their scripts in CI environments.
 
-Call the load function automatically before making requests:
 
-```r
-your_api_request <- function(...) {
-  # In CI, restore token if needed
-  if (!interactive()) {
-    your_package_auth_load_ci()
-  }
-  
-  httr2::request("https://api.example.com") |>
-    httr2::req_oauth_auth_code(
-      client = your_oauth_client(),
-      auth_url = "https://example.com/oauth/authorize",
-      redirect_uri = "http://localhost:1410",
-      cache_disk = TRUE  # Use httr2's default caching
-    ) |>
-    # ... additional request configuration
-}
-```
-
-### Step 4: Leverage HTTR2_OAUTH_CACHE (optional)
+### Step 3: Leverage HTTR2_OAUTH_CACHE (optional)
 
 httr2 provides the `HTTR2_OAUTH_CACHE` environment variable to specify where tokens should be cached. 
 You can set this to `.` (current directory) in CI to ensure tokens are stored in the working directory.
@@ -225,21 +212,12 @@ steps:
     
   - name: Install dependencies
     run: Rscript -e "install.packages('yourpackage')"
+
+  - name: Restore token
+    run: Rscript -e "yourpackage::your_package_auth_load_ci()"
     
-  - name: Run tests
-    run: Rscript -e "testthat::test_dir('tests')"
-```
-
-**GitLab CI:**
-```yaml
-variables:
-  HTTR2_OAUTH_CACHE: "."
-  API_TOKEN: $API_TOKEN
-  API_TOKEN_FILENAME: $API_TOKEN_FILENAME
-
-test:
-  script:
-    - Rscript -e "testthat::test_dir('tests')"
+  - name: Run script
+    run: Rscript your_script.R
 ```
 
 ## Complete User Workflow
