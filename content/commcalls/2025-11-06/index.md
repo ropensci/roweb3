@@ -1,5 +1,5 @@
 ---
-title: "Graceful internet packages"
+title: "Graceful Internet Packages"
 dateStart: 2025-11-06T15:00:00 # UTC!!
 dateEnd: 2025-11-06T16:00:00 # UTC!!
 date: 2025-11-06T16:00:00 # UTC!! same as dateEnd
