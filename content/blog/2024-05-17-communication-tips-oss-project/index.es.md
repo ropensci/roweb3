@@ -13,8 +13,8 @@ params:
   doi: 10.59350/8sqxt-7zp92
 ---
 
-¿Mantienes un proyecto de código abierto, como un paquete R o una colección de ellos, y te preguntas cómo utilizar mejor los distintos canales de comunicación para informar a tu comunidad de usuarios y comprometerte con ella?
-Hemos consolidado esta lista de consejos.
+¿Mantienes un proyecto de código abierto, como un paquete R o una colección de ellos, te preguntas cómo utilizar mejor los distintos canales de comunicación para informar a tu comunidad de usuarios y comprometerte con ella?
+Pues hemos hecho una lista con consejos.
 Algunos de ellos son obligatorios en nuestra opinión, otros son simplemente agradables de tener.
 
 ## Obligatorios: Tener buenas notas de publicación
@@ -31,10 +31,10 @@ Puedes automatizar parcialmente las notas de publicación a partir de los mensaj
 
 Las notas de publicación pueden informar directamente a los usuarios, que pueden leerlas
 
-- desde GitHub a través de [viendo los eventos de publicación](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications#configuring-your-watch-settings-for-an-individual-repository) del repositorio;
-- del sitio web de documentación, en el que se transforma pkgdown `NEWS.md` los archivos en una página llamada changelog.
+- desde GitHub viendo [Los eventos de publicación](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications#configuring-your-watch-settings-for-an-individual-repository) del repositorio;
+- del sitio web de documentación, en el que se transforma pkgdown `NEWS.md` los archivos en una página llamada Changelog.
 
-También serán útiles como materia prima para otros esfuerzos de comunicación, como entradas de blog sobre las versiones.
+También serán útiles como materia prima para otras notas de publicación, como entradas de blog sobre las versiones.
 
 ## Son necesarios: Gestores de incidencias
 
@@ -42,15 +42,15 @@ No sólo tus repositorios deben tener rastreadores de incidencias/tickets, sino 
 Mantener y responder a las incidencias es una parte importante del mantenimiento de una comunidad de usuarios.
 
 El uso de incidencias en tu proyecto puede anunciarse a través de una incidencia anclada; incluso podrías [limitar temporalmente las interacciones](https://docs.github.com/en/communities/moderating-comments-and-conversations/limiting-interactions-in-your-repository).
-Estas condiciones y enlaces son para GitHub, pero existen ideas y características similares para otras plataformas de alojamiento de código.
+Estas condiciones y enlaces son para GitHub, pero existen ideas y características similares para otras plataformas de código.
 
 ## Necesario: Perfiles de proyecto polacos
 
 Todo software de código abierto tiene un perfil, potencialmente repartido por muchos lugares, como organizaciones de GitHub o cuentas de Mastodon. Un logotipo puede ser un identificador clave de tu perfil, y debe aparecer de forma coherente en todos tus perfiles. También es importante incluir descripciones informativas, y verificar todas las URL ([docs para GitHub](https://docs.github.com/en/organizations/managing-organization-settings/verifying-or-approving-a-domain-for-your-organization), [docs para Mastodon](https://joinmastodon.org/verification)).
 
-Para una organización de GitHub, puedes preguntar a sus miembros si desean que sus [organización GitHub sea pública](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-membership-in-organizations/publicizing-or-hiding-organization-membership) lo que podría dar una imagen más colaborativa incluso antes de que nadie se sumerja en la actividad de commit.
+Para una organización de GitHub, puedes preguntar a sus miembros si desean que su [organización GitHub sea pública](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-membership-in-organizations/publicizing-or-hiding-organization-membership) lo que podría dar una imagen más colaborativa incluso antes de que nadie se sumerja en la actividad de commit.
 
-Pulir el perfil no tiene por qué llevar mucho tiempo, y sólo puede mejorar la imagen de tu proyecto.
+Pulir el perfil no tiene por qué llevar mucho tiempo, y puede mejorar la imagen de tu proyecto.
 
 ## Es necesario: Asegúrate de gestionar el acceso de forma inteligente
 
@@ -72,7 +72,7 @@ Lo ideal sería que el espacio te perteneciera, a menos que puedas confiar en un
 Para un proyecto pequeño, los gestores de incidencias pueden ser todo lo que necesitas para gestionar los informes de errores, las peticiones de características y las preguntas y respuestas generales.
 Sin embargo, los proyectos más grandes podrían beneficiarse de la creación y gestión de un foro de debate dedicado.
 
-Puedes utilizar [Discurso](https://www.discourse.org/) o [Debates en GitHub](https://docs.github.com/fr/discussions).
+Puedes utilizar un [Discurso](https://www.discourse.org/) o [Debates en GitHub](https://docs.github.com/fr/discussions).
 
 ## Tener un blog con un canal RSS
 
@@ -83,19 +83,19 @@ El blog de un proyecto de código abierto también puede contener otro tipo de p
 
 Cuando elijas un creador de sitios web, intenta elegir uno que sea gratuito y que resulte familiar para el equipo de tu proyecto o lo suficientemente fácil para familiarizarse con él.
 Las entradas de blog basadas en Markdown son más fáciles de escribir a partir de notas de publicación.
-Asegúrate también de que publicar una nueva entrada de blog no sea un complicado proceso de 100 pasos, o nadie querrá escribir una.
+Asegúrate también de que publicar una nueva entrada de blog no sea un proceso complicado de 100 pasos, o nadie querrá escribir una.
 Puedes optar por utilizar [GitHub para un proceso de revisión y previsualización de las entradas del blog](https://blogguide.ropensci.org/).
 
 Si creas un blog, asegúrate de crear también un canal RSS para él.
 En la mayoría de los generadores de sitios web estáticos, esto viene por defecto o está disponible activando una opción ([documentación de Quarto](https://quarto.org/docs/websites/website-blog.html#rss-feed)).
 
-Una vez que tu blog tenga un canal RSS, regístralo en agregadores relevantes como [R Semanal](https://github.com/rweekly/rweekly.org?tab=readme-ov-file#regular-r-posts-submit-your-rss-feed) en el mundo de R.
+Una vez que tu blog tenga un canal RSS, regístralo en ¿agregadores? relevantes como [R Semanal](https://github.com/rweekly/rweekly.org?tab=readme-ov-file#regular-r-posts-submit-your-rss-feed) en el mundo de R.
 
 ## Tener comentarios en las entradas del blog
 
 Si decides abrir comentarios en las entradas de tu blog, asegúrate de integrar los comentarios en el foro de tu proyecto.
 
-Esto es muy fácil con [Discurso](https://meta.discourse.org/t/embed-discourse-comments-on-another-website-via-javascript/31963) (que utilizamos en este mismo blog), y [Debates en GitHub a través de Giscus](https://giscus.app/fr) (que también son fáciles de integrar con [Cuarto](https://quarto.org/docs/output-formats/html-basics.html#commenting) entre otros).
+Esto es muy fácil con un [foro Discourse](https://meta.discourse.org/t/embed-discourse-comments-on-another-website-via-javascript/31963) (que utilizamos en este mismo blog), y con [Debates en GitHub a través de Giscus](https://giscus.app/fr) (que también son fáciles de integrar con [Quarto](https://quarto.org/docs/output-formats/html-basics.html#commenting) entre otros).
 
 Integrar los comentarios con tu foro significa que sólo tienes que vigilar un espacio, y también ayuda a conectar a los lectores de las entradas de tu blog con el foro.
 
@@ -104,7 +104,7 @@ Integrar los comentarios con tu foro significa que sólo tienes que vigilar un e
 Las redes sociales pueden ser útiles para dar a conocer tu proyecto y sus actualizaciones, y para interactuar con los usuarios.
 Puedes optar por hacer que tus redes sociales sean de "sólo lectura", indicando claramente que no dispones de recursos para responder a preguntas allí.
 
-Lo ideal es que concentres tu uso de los medios sociales en [plataformas agradables](/blog/2023/06/22/ropensci-news-digest-june-2023/#ropenscis-communication-channels-for-safe-and-friendly-exchange) y plataformas en las que es probable que se congreguen los usuarios y la comunidad de tus proyectos.
+Lo ideal es que concentres tu uso de las redes sociales en [plataformas agradables](/blog/2023/06/22/ropensci-news-digest-june-2023/#ropenscis-communication-channels-for-safe-and-friendly-exchange) y plataformas en las que es probable que se junten los usuarios y la comunidad de tus proyectos.
 
 ## Conclusión
 
