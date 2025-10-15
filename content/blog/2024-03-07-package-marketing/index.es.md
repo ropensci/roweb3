@@ -8,7 +8,7 @@ editor:
 date: '2024-03-07'
 slug: package-marketing
 tags:
-- community
+- comunidad
 - maintenance
 - package-development
 description: Ahora que has creado tu paquete, presentarlo al mundo es un paso crucial
