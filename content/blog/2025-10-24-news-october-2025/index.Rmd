@@ -44,9 +44,14 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-### PLACEHOLDER COMM CALL
+### 2025-11-06 Community call: Graceful Internet Packages
 
-### R-multiverse: a new way to publish R packages
+
+Join us for our next Community Call, [“Graceful Internet Packages”](/commcalls/graceful-internet-packages/), on Thursday, 06 November 2025 at 15:00 UTC featuring Matthias Grenié, Tan Ho, and Salix Dubois. 
+In this session, we’ll explore how to design and maintain R packages that interact with online data sources. 
+Our speakers will share practical lessons, examples, and best practices to help R package developers create reliable packages.
+
+### Community call recording: R-multiverse, a new way to publish R packages
 
 [Resources associated with the community call all](/commcalls/r-multiverse/), including the video recording, slides, notes have been posted.
 
