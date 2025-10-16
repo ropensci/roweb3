@@ -10,7 +10,7 @@ description: R-multiverse comm call, useR! 2025, posit::conf(2025), coworking, n
 params:
   last_newsletter: '2025-09-29'
   doi: "10.59350/cwdyp-ads64"
-rmd_hash: ab560a3a8b3f932e
+rmd_hash: e1fbd79e102053c1
 
 ---
 
@@ -20,9 +20,11 @@ Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> Y
 
 ## rOpenSci HQ
 
-### PLACEHOLDER COMM CALL
+### 2025-11-06 Community call: Graceful Internet Packages
 
-### R-multiverse: a new way to publish R packages
+Join us for our next Community Call, ["Graceful Internet Packages"](/commcalls/graceful-internet-packages/), on Thursday, 06 November 2025 at 15:00 UTC featuring Matthias Grenié, Tan Ho, and Salix Dubois. In this session, we'll explore how to design and maintain R packages that interact with online data sources. Our speakers will share practical lessons, examples, and best practices to help R package developers create reliable packages.
+
+### Community call recording: R-multiverse, a new way to publish R packages
 
 [Resources associated with the community call all](/commcalls/r-multiverse/), including the video recording, slides, notes have been posted.
 
