@@ -5,5 +5,5 @@ mastodon: https://mastodon.social/@angeliquetrusler
 bluesky: angeliquetrusler.carpentries.org
 github: elletjies
 orcid: 0000-0003-2340-8538
-website: https://carpentries.org/
+link: https://carpentries.org/
 ---
