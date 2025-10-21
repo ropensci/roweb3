@@ -34,7 +34,7 @@ Three packages were submitted during the coworking session!
 
 ### riem, to get weather data from ASOS stations (airports) via the Iowa Environment Mesonet.
 
-I submitted my [riem package](https://github.com/r-multiverse/contributions/pull/238) that accesses airport weather data, even if it is also distributed on CRAN.
+I submitted my [riem package](https://github.com/r-multiverse/contributions/pull/238) that accesses airport weather data, even if it is also distributed on CRAN: I wanted to explore different publication venues.
 Because the automatic checks (of the license for instance) passed and because I am a public member of a GitHub organization trusted by the multiverse (ropensci), my PR was automatically merged. 
 
 Read more about [riem](https://docs.ropensci.org/riem/).
@@ -69,6 +69,9 @@ If there are some issues, the maintainer can still push fixes.
 
 As long as those packages are listed in the R-multiverse, they will participate in the quarterly production snapshots.
 The maintainers only need to keep creating releases (good practice anyway) and to follow the [status](https://r-multiverse.org/status/) of their package on the multiverse.
+
+For the package users to know they can install the package from the [community](https://r-multiverse.org/community.html) or the [production](https://r-multiverse.org/production.html) repositories, package maintainers will need to update the installation instructions in the README of their package.
+They could also add a [badge](https://r-multiverse.org/contributors.html#badges).
 
 ## What's next for the R-multiverse?
 
