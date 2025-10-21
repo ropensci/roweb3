@@ -1,16 +1,18 @@
 ---
-title: Go for Launch! Packages Shipped to the Multiverse
+title: Go for Launch! Packages Shipped to the R-Multiverse
 author: 
 - Maëlle Salmon
 editor:
-  - 
+  - Steffi LaZerte
 date: '2025-10-21'
 slug: packages-multiverse
-description: Packages submitted to the R multiverse during our recent coworking session.
+description: Packages submitted to the R-multiverse during our recent coworking session.
 output: hugodown::md_document
 tags:
   - r-multiverse
   - r-universe
+  - packages
+  - community
 params:
   doi: "10.59350/pjqfq-q2q45"
 ---
@@ -18,13 +20,13 @@ params:
 Will Landau recently introduced the R-multiverse, [a new way to publish R packages](/commcalls/r-multiverse/), during an rOpenSci community call.[^posit]
 After that event, a [coworking](/blog/2023/06/21/coworking/) session allowed even more discussion between Will, his R-multiverse fellow administrators Jeroen Ooms and Maëlle Salmon, and community members.
 
-A key mission in that coworking session was to submit packages to the multiverse live!
+A key mission in that coworking session was to submit packages to the R-multiverse live!
 Following the [instructions](https://r-multiverse.org/contributors.html), any package maintainer wishing to send their software to the community repository needs to:
 
 - create a GitHub or GitLab release of their package;
 - open a Pull Request to the [contributions](https://github.com/r-multiverse/contributions) GitHub repository, adding a text file that contains the URL to the repository.[^json]
 
-Will also showed an R function that allows to perform local checks on the package before submitting: [`multiverse.internals::review_package()`](https://r-multiverse.org/multiverse.internals/reference/review_package.html).
+Will also shared an R function that allows you to perform R-multiverse package checks locally before submitting: [`multiverse.internals::review_package()`](https://r-multiverse.org/multiverse.internals/reference/review_package.html).
 
 Three packages were submitted during the coworking session!
 
@@ -33,23 +35,25 @@ Three packages were submitted during the coworking session!
 ### riem, to get weather data from ASOS stations (airports) via the Iowa Environment Mesonet.
 
 I submitted my [riem package](https://github.com/r-multiverse/contributions/pull/238) that accesses airport weather data, even if it is also distributed on CRAN.
-Because the automatic checks (of the license for instance) passed and because I am a public member of an organization trusted by the multiverse, ropensci, my PR was automatically merged. 
+Because the automatic checks (of the license for instance) passed and because I am a public member of a GitHub organization trusted by the multiverse (ropensci), my PR was automatically merged. 
 
 Read more about [riem](https://docs.ropensci.org/riem/).
 
 ### geotargets, that extends targets to work with geospatial data formats
 
-Eric R. Scott submitted [geotargets package](https://github.com/r-multiverse/contributions/pull/239) that extends targets to work with geospatial data formats, such as rasters and vectors (e.g., shapefiles).
+Eric R. Scott submitted the [geotargets package](https://github.com/r-multiverse/contributions/pull/239) that extends targets to work with geospatial data formats, such as rasters and vectors (e.g., shapefiles).
 Eric co-authored `geotargets` alongside Nick Tierney and Andrew Brown, but Nick is the primary maintainer.
-That's perfectly okay.
-In fact, R-multiverse lets you contribute packages you didn't write at all, as long as the license grants [clear permission to distribute and modify the code](https://en.wikipedia.org/wiki/Free_and_open-source_software).
+However, it's perfectly okay that Eric submitted the package rather than Nick.
+In fact, R-multiverse lets you contribute packages you didn't write at all[^3], as long as the license grants [clear permission to distribute and modify the code](https://en.wikipedia.org/wiki/Free_and_open-source_software).
 
 Read more about [geotargets](https://docs.ropensci.org/geotargets/).
 
-### weathercan, to search for and download multiple months/years of historical weather data from Environment and Climate Change Canada (ECCC) website
+[^3]: Package authorship stays the same.
+
+### weathercan, to find and download historical weather data from Environment and Climate Change Canada (ECCC)
 
 Steffi LaZerte submitted her [weathercan package](https://github.com/r-multiverse/contributions/pull/240/), also a weather package but for Canada! 
-Steffi wondered whether it made sense to submit weather can before making a bunch of fixes and enhancements she had planned other the next few weeks: yes it does make sense, because the multiverse will pick up the latest release automatically. 
+Steffi wondered whether it made sense to submit weathercan before making a bunch of fixes and enhancements she had planned over the next few weeks. Turns out that, yes it does make sense! Because the multiverse will pick up the latest release automatically. 
 Steffi only needs to remember to create a new release after improving weathercan. 
 
 Read more about [weathercan](https://docs.ropensci.org/weathercan/).
