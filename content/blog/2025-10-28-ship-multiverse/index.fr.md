@@ -13,7 +13,7 @@ tags:
 - packages
 - community
 params:
-  doi: 10.59350/pjqfq-q2q45
+  doi: 10.59350/qr4vb-b2h80
 ---
 
 Will Landau a récemment présenté le R-multiverse, [une nouvelle façon de publier des paquets R](/commcalls/r-multiverse/) lors d'une réunion de la communauté de rOpenSci[^posit]. 
