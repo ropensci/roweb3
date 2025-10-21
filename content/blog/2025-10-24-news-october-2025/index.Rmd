@@ -53,7 +53,7 @@ Our speakers will share practical lessons, examples, and best practices to help 
 
 ### Community call recording: R-multiverse, a new way to publish R packages
 
-[Resources associated with the community call all](/commcalls/r-multiverse/), including the video recording, slides, notes have been posted.
+[Resources associated with the community call](/commcalls/r-multiverse/), including the video recording, slides, notes have been posted.
 
 You can also find the notes from the related [coworking session](https://ropensci.org/events/coworking-2025-10/) on our website.
 
@@ -65,6 +65,10 @@ Read [all about coworking](/blog/2023/06/21/coworking/)!
     -   Explore resources for Code review;  
     -   Sign up to volunteer to do [software peer-review](https://airtable.com/app8dssb6a7PG6Vwj/shrnfDI2S9uuyxtDw) at rOpenSci;  
     -   Chat with Liz Hare, and learn more about rOpenSci's code review and the resources available.  
+
+-   Tuesday December 2nd, 14h00 Europe Central (13:00 UTC), ["Getting to know The Carpentries"](/events/coworking-2025-12/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Angelique Trusler](/author/angelique-trusler/).  
+    -   Visit [The Carpentries](https://carpentries.org/);  
+    -   Meet community host, Angelique Trusler, and learn more about The Carpentries and how you might get involved. 
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
