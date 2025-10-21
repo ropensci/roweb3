@@ -621,17 +621,17 @@ Felienne Hermans now translates her excellent weekly AI newsletter to [English](
 
 ### AI helping find potential issues in software
 
-Daniel Stenberg, creator and maintainer of curl, [posted](https://mastodon.social/@bagder/115241241075258997) that "Joshua Rogers sent us a *massive* list of potential issues in #curl that he found using his set of AI assisted tools".
+Daniel Stenberg, creator and maintainer of curl, [posted](https://mastodon.social/@bagder/115241241075258997) that "Joshua Rogers sent us a *massive* list of potential issues in #curl that he found using his set of AI assisted tools...Mostly smaller bugs, but still bugs and there could be one or two actual security flaws in there. Actually truly awesome findings.".
 
 ### Two Git tricks
 
 `git blame` helps you explore the history of a file to understand why certain lines were added or modified.
 
-Now, did you know how to...
+Now, do you know how to...
 
 - find out which Git commit deleted a _file_? You can do that by filtering commits that touched that path: `git log --oneline -- path/to/file`.
 
-- find out which Git commited deleted a _line_? You can [do that](https://stackoverflow.com/questions/16181279/find-out-which-commit-removed-a-particular-word-line-in-git/16181840#16181840) with `git log -S<string> path/to/file` or 
+- find out which Git commit deleted a _line_? You can [do that](https://stackoverflow.com/questions/16181279/find-out-which-commit-removed-a-particular-word-line-in-git/16181840#16181840) with `git log -S<string> path/to/file` or 
 `git log -G<regex> path/to/file`.
 
 ## Last words
