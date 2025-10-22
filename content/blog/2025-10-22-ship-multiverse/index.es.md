@@ -3,7 +3,7 @@ title:  ¡Prepárense para el lanzamiento! Paquetes enviados al R-multiverse
 author: Maëlle Salmon
 editor: Steffi LaZerte
 translator: Yanina Bellini Saibene
-date: '2025-10-28'
+date: '2025-10-22'
 slug: paquetes-r-multiverse
 description: Paquetes enviados al R-multiverse durante nuestra reciente sesión de
   co-trabajo.

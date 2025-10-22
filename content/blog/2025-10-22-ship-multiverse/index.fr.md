@@ -3,7 +3,7 @@ title: En route pour le lancement ! Paquets expédiés au R-Multiverse
 author: Maëlle Salmon
 editor: Steffi LaZerte
 translator: Maëlle Salmon
-date: '2025-10-28'
+date: '2025-10-22'
 slug: paquets-r-multiverse
 description: Paquets soumis au R-multiverse lors de notre récente session de coworking.
 output: hugodown::md_document

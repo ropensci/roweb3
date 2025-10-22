@@ -4,7 +4,7 @@ author:
 - Maëlle Salmon
 editor:
   - Steffi LaZerte
-date: '2025-10-28'
+date: '2025-10-22'
 slug: packages-multiverse
 description: Packages submitted to the R-multiverse during our recent coworking session.
 output: hugodown::md_document
