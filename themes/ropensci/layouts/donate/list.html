@@ -4,7 +4,7 @@
     <!-- Header text -->
     <div class="row">
       <div class="col-md-8 offset-md-1">
-        <h1>{{ .Title }}</h1>
+        <h1>{{ .Title | markdownify }}</h1>
         <div class="content">
           {{ .Content }}
         </div>
@@ -31,6 +31,6 @@
     <!-- Content here -->
   </div>
 </section>
-{{ $brandpartial := (partial "translate-path" (dict "name" "whole-page-fragments/brands" "language" .Site.Language.Lang )) }}
+{{ $brandpartial := (partial "translate-path" (dict "name" "whole-page-fragments/brands" "language" .Language.Lang )) }}
 {{ partial $brandpartial (dict "Site" .Site "divider" "rl" )  }}
 {{ end }}

@@ -1,12 +1,12 @@
 <div class="row">
 
   <div class="col-md-9 session-info">
-    <a href="{{ .RelPermalink }}" class="session-title">{{ .Title }}</a>
+    <a href="{{ .RelPermalink }}" lang="{{ .Lang }}" class="session-title">{{ .Title | markdownify }}</a>
     <p class="author-blog-date">{{ with.Params.author }}{{ if ne (substr (jsonify . ) 0 1) "[" }}{{ . }}{{ else }}{{ delimit . ", " }}{{ end }}{{ end }}</p>
   </div>
   <div class="col-md-3 text-md-right">
     <div class="author-blog-date">
-      {{ .Date | time.Format "January 2, 2006" }}
+      {{ .Date | time.Format "2006-01-06" }}
     </div>
   </div>
 </div>

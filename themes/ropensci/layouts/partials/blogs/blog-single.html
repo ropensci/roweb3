@@ -6,22 +6,29 @@
       <span class="d-none d-print-inline" style ="font-style: italic;">From rOpenSci ({{ .Permalink }}). Except where otherwise noted, content on this site is licensed under the <a href ="https://creativecommons.org/licenses/by/4.0/">CC-BY license</a>.</span></p>
         <div class="content">
           <h1>{{ .Title | markdownify }}</h1>
+          {{ $Site := .Site }}
           <div class="post-author">
+          {{ with .Params.interviewee }}
+          <span>
+          {{ i18n "In-conversation-with" }}
+          </span>  
+          {{ partial "blogs/pretty_author_names" (dict "who" . "Site" $Site ) }} &#8211; 
+          {{ end }}
           <span>
           {{ i18n "By" }}
           </span> 
-          {{ partial "blogs/pretty_author_names" .Params.author }}
+          {{ partial "blogs/pretty_author_names" (dict "who" .Params.author "Site" $Site ) }}
           {{ with .Params.editor }}
           <span>
           &#8211; {{ i18n "Edited-by" }}
           </span> 
-          {{ partial "blogs/pretty_author_names" . }}
+          {{ partial "blogs/pretty_author_names" (dict "who" . "Site" $Site ) }}
           {{ end }}
           {{ with .Params.translator }}
           <span>
           &#8211; {{ i18n "Translated-by" }}
           </span> 
-          {{ partial "blogs/pretty_author_names" . }}
+          {{ partial "blogs/pretty_author_names" (dict "who" . "Site" $Site ) }}
           {{ end }}
           </div>
         </div>
@@ -35,9 +42,7 @@
                 <div class="alert alert-info" role="alert">
                   {{ with .Params.crossposts }} 
                   <p style="margin-bottom:1rem;">
-                    {{ range .}}
-                    This is cross-posted on <a href="{{ .url }}">{{ .name }}</a>.
-                    {{ end }}
+                    This is cross-posted on {{ range $i, $e := .}}{{ if $i }}, {{ end }}<a href="{{ .url }}">{{ .name }}</a>{{ end }}.
                     </p>
                   {{ end }}
                   {{ with .Params.preface }}<p>{{ . | markdownify }}</p>{{ end }}
@@ -122,4 +127,5 @@ For more information, visit the <a href="/r-universe/">r-universe project page</
     </div>
   </div>
 </section>
-{{ partial "whole-page-fragments/newsletter"  (dict "divider" "lr" ) }}
+{{ $newsletterpartial := (partial "translate-path" (dict "name" "whole-page-fragments/newsletter" "language" .Language.Lang )) }}
+{{ partial $newsletterpartial (dict "Site" .Site "divider" "lr" )  }}

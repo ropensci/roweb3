@@ -8,12 +8,13 @@
             </div>
             <h1>{{ .Title | markdownify }}</h1>
             <div class="event-detail-author">
+              {{ $Site := .Site }}
               <p>
                 {{ with .Params.organizer }}
-                {{ i18n "By" }} {{ partial "blogs/pretty_author_names" . }}.
+                {{ i18n "By" }} {{ partial "blogs/pretty_author_names" (dict "who" . "Site" $Site )}}.
                 {{ end }}
                 {{ with .Params.author }}
-                <span class="ml-1">{{ i18n "Con" }}  {{ partial "blogs/pretty_author_names" . }}.</span>
+                <span class="ml-1">{{ i18n "Con" }}  {{ partial "blogs/pretty_author_names" (dict "who" . "Site" $Site )}}.</span>
                 {{ end }}
               </p>
             </div>
@@ -169,5 +170,6 @@
       </div>
     </section>
 
-{{ partial "whole-page-fragments/newsletter"  (dict "divider" "lr" ) }}
+{{ $newsletterpartial := (partial "translate-path" (dict "name" "whole-page-fragments/newsletter" "language" .Language.Lang )) }}
+{{ partial $newsletterpartial (dict "Site" .Site "divider" "lr" )  }}
 {{ end }}

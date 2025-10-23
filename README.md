@@ -231,7 +231,7 @@ Note that main.min.css that contains all the CSS is stored under themes/ropensci
 * Check metadata of posts on Rogue Scholar for the previous month (for instance authors). https://rogue-scholar.org/blogs/ropensci
 * Start a new post with the newsletter archetype, use the same title "rOpenSci News Digest, MONTH YEAR" and slug "ropensci-news-digest-month-YYYY" and tag "newsletter".
 * **Make sure your branch is based on the latest commit of the default branch, re-base if needed.**
-* Open the Rproj in `scripts/use-cases` (in another RStudio window), run `renv::restore()` and source `get_use_cases.R` to update use cases data (you need a Discourse API key, contact Scott).
+* Source `scripts/use-cases/get_use_cases.R` to update use cases data (you need your GitHub token situation to be in order).
 * Change the date of the last newsletter in the new post, knit it. 
   * Manually updated sections: rOpenSci HQ (issues in https://github.com/ropensci/biweekly that you should watch; look at recent/future events including comm calls; if needed poll staff), from the forum (interesting recent posts?), package development corner (poll package-maintenance channel; your recent reads), call for maintainers.
   * If a blog post was featured on the R Weekly highlights podcast, add a link to it.
@@ -265,19 +265,8 @@ Review criteria: anything looks weird? (need to fix upstream data or code?). Spe
 * If [Netlify is down](https://www.netlifystatus.com/) or [Cloudflare is down](https://www.cloudflarestatus.com/), the easiest thing is to wait.
 * Is [GitHub down](https://www.githubstatus.com/)? If so you might need to do a manual deploy on Netlify, [dragging and dropping](https://docs.netlify.com/site-deploys/create-deploys/#drag-and-drop) your local roweb3 folder. 
 * Look at the Netlify logs (linked from the commit status) for information.
-* If relevant, check the YAML indentation. Try to build the website locally.
-* When a problem is an embedded tweet e.g.
+* If relevant, check the YAML indentation and quotes (quote the entire field with double quotes if it contains single quote(s) for instance). Try to build the website locally.
 
-```
-5:04:39 PM: ERROR 2021/03/29 08:04:39 Failed to get JSON resource "https://api.twitter.com/1/statuses/oembed.json?id=bla&dnt=true":
-```
-
-Look for the tweet with that ID on Twitter `http://twitter.com/user/status/bla` (Twitter will re-direct to the correct user). Was it deleted, or is the account now private? 
-
-    * If the tweet was deleted or is now private, amend the Markdown file(s) where it was embedded.
-    * If the tweet is available, try re-triggering the deploy.
-
-* Check https://www.netlifystatus.com/.
 * To trigger a new deploy
     * If you are a member of the rOpenSci team on Netlify, use the Netlify interface to re-trigger a deploy.
     * Alternatively make an empty commit `git commit -m "trigger deploy" --allow-empty` and push.

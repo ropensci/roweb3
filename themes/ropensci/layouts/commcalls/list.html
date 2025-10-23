@@ -4,7 +4,15 @@
     <!-- Header text -->
     <div class="row">
       <div class="col-md-8">
-        <h1>{{ .Title }}</h1>
+        <h1 style="white-space: nowrap;">{{ .Title | markdownify }}</h1>
+        <div class="pmt">
+          {{ .Params.description | markdownify }}
+          </div>
+        </div>
+        <div class="col-md-4 mt-4">
+          <aside>
+          {{ partial "team/people" (dict "project" "commcalls" "Site" .Site )}}
+          </aside>
         </div>
       </div>
     <div class="row">
@@ -26,7 +34,7 @@
     {{ range (where .Pages ".Date" ">=" $utcnow ).Reverse }}
   <div class="career-cards mt-4">
     <a href="{{ .RelPermalink }}" class="career-card">
-      <span>{{ .Title }}</span>
+      <span>{{ .Title | markdownify }}</span>
       {{ $last := i18n "and" }}
       <p>{{ i18n "With" }} {{ delimit .Params.author ", " $last }}</p>
       <span><strong>{{ (time .Params.dateStart).Local | dateFormat "Monday, 02 January 2006 15:04 MST" }} • online 🌐</strong></span>
@@ -45,7 +53,7 @@
               </div>
             </div>
             <div class="col-md-8 session-info">
-              <a href="{{ .RelPermalink }}" class="session-title">{{ .Title }}</a>
+              <a href="{{ .RelPermalink }}" class="session-title">{{ .Title | markdownify }}</a>
               <p class="session-team">{{ i18n "With" }} {{ delimit .Params.author ", " }}</p>
             </div>
           </div>
@@ -53,6 +61,9 @@
   </div>
   </div>
 </section>
-{{ partial "whole-page-fragments/newsletter"  (dict "divider" "lr" ) }}       {{ $brandpartial := (partial "translate-path" (dict "name" "whole-page-fragments/brands" "language" .Site.Language.Lang )) }}
+
+{{ $newsletterpartial := (partial "translate-path" (dict "name" "whole-page-fragments/newsletter" "language" .Language.Lang )) }}
+{{ partial $newsletterpartial (dict "Site" .Site "divider" "lr" )  }} 
+{{ $brandpartial := (partial "translate-path" (dict "name" "whole-page-fragments/brands" "language" .Language.Lang )) }}
 {{ partial $brandpartial (dict "Site" .Site "divider" "rl" )  }}
 {{ end }}

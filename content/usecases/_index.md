@@ -1,7 +1,10 @@
-+++
-date = "2017-07-13T22:00:37-07:00"
-title = "Use Cases"
-description = "Use cases of rOpenSci packages"
+---
+title: Use Cases
+---
 
-+++
+If you’re looking for examples of how our R packages or resources have been used, search no more! 
+We collect [use cases in a public forum](https://github.com/orgs/ropensci/discussions) and we created a template there to help you share yours. 
+Below is a random subset as well as a searchable archive of all use cases. 
+Browse them, and [report your own use case(s)](https://github.com/orgs/ropensci/discussions). 
+For more illustrations of our packages' use, also see the [citations page](/citations).
 

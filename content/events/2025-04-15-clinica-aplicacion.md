@@ -17,7 +17,7 @@ attendees:
 author:
   - Yanina Bellini Saibene
 deets: |
-    Meeting ID: 86848789239
+    Meeting ID: 868 4878 9239
     Passcode: 071854
 zoomurl: https://numfocus-org.zoom.us/j/86848789239?pwd=QOeEyWuOpESaUjdVWVRE2Kk8BC6G4d.1
 ---

@@ -1,11 +1,10 @@
 <!-- Navbar -->
 <div class="container navbar-container">
   <nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand logo" lang="en" href="/">
+    <a class="navbar-brand logo" lang="{{ .Language.Lang }}" href="{{ site.Home.Permalink }}">
       <img class="logo-light" src="{{ "/images/svg/logo-light.svg" | relURL }}" alt="" />
       <img class="logo-dark" src="{{ "/images/svg/logo-dark.svg" | relURL }}" alt="" />
     </a>
-    {{ if (not .IsHome) }}
     {{ if .IsTranslated }}
     <div class="dropdown">
   <button class="btn btn-primary btn-lang dropdown-toggle" type="button" id="btndroplang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -18,7 +17,6 @@
     {{ end }}
   </div>
   </div>
-  {{ end }}
   {{ end }}
     <button
       class="navbar-toggler"
@@ -59,19 +57,23 @@
           <ul class="sub-menu">
             {{ $currentlang := .Language }}
             {{ $defaultlang := "en" }}
-            {{ range $index, $page := ( where (where .Site.AllPages "Kind" "section") "Type" "in" .Site.Params.projects ) }}
-            {{ if (eq $page.Language $currentlang) }}
-            <li><a lang="{{ $currentlang }}" href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></li>
+            {{ $sectionpages := (where .Site.AllPages "Kind" "section") }}
+            {{ range .Site.Params.projects }}
+            {{ $page := ( where $sectionpages "Type" "in" . ) }}
+            {{ range $page }}
+            {{ if (eq .Language $currentlang) }}
+            <li><a lang="{{ $currentlang }}" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
             {{ else }} 
             {{ $placeholder := 0 }}
-            {{ range $page.AllTranslations }}
+            {{ range .AllTranslations }}
             {{ if (eq .Lang $currentlang.Lang )}}
             {{ $placeholder = 1 }}
             {{ end }}
             {{ end }}
                 {{ if (eq $placeholder 0) }}
-              <li><a lang="{{ $defaultlang }}" href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></li>
+              <li><a lang="{{ $defaultlang }}" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
                 {{ end }}
+            {{ end }}
             {{ end }}
             {{ end }}
           </ul>
@@ -99,7 +101,7 @@
           <ul class="sub-menu">
             <li>{{ partial "translate-url" (dict "name" "commcalls" "Site" .Site )}}{{ i18n "Community-calls" }}</a></li>
             <li>{{ partial "translate-url" (dict "name" "coworking" "Site" .Site )}}{{ i18n "Coworking" }}</a></li>
-            <li><a lang="en" href="/events">{{ i18n "Events" }}</a></li>
+            <li>{{ partial "translate-url" (dict "name" "events" "Site" .Site )}}{{ i18n "Events" }}</a></li>
             <li><a lang="en" href="{{ relLangURL (i18n "Code-of-Conduct" | urlize)}}">{{ i18n "Code-of-Conduct" }}</a></li>
             <li><a lang="en" href="https://contributing.ropensci.org/" class="external-link">{{ i18n "Contributing-Guide" }}</a></li>
             <li><a lang="en" href="https://discuss.ropensci.org/" class="external-link">{{ i18n "Forum" }}</a></li>

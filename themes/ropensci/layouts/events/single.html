@@ -1,16 +1,19 @@
 {{ define "main" }}
+{{ $tz := default "UTC" .Params.displaytz }}
 <section class="section event-detail">
   <div class="container bg-cubes">
     <div class="row">
       <div class="col-md-8">
         <div class="event-detail-date">
-          {{ .Date.Format "January 2, 2006" }}
+          {{ (time .Params.dateStart) | time.In $tz | dateFormat "Monday" }} {{ (time .Params.dateStart) | time.In $tz |
+            dateFormat ":date_medium" }} {{ (time .Params.dateStart) | time.In $tz | dateFormat "15:04" }} ({{ $tz }})
         </div>
-        <h1>{{ .Title }}</h1>
+        <h1>{{ .Title | markdownify }}</h1>
         <div class="event-detail-author">
+          {{ $Site := .Site }}
           <p><span class="ml-1">
               {{ .Params.location }}, {{ .Params.country }} • {{ i18n "With" }} {{ with .Params.attendees }}{{ partial
-              "blogs/pretty_author_names" . }}.</span>
+              "blogs/pretty_author_names" (dict "who" . "Site" $Site ) }}.</span>
             {{ end }}
           </p>
         </div>
@@ -19,17 +22,17 @@
             <div class="row justify-content-between">
               <div class="col-auto mr-auto">
                 <p>
-                  🕓 <strong>{{ (time .Params.dateStart).UTC | dateFormat "Monday" }} {{ (time .Params.dateStart).UTC |
-                    dateFormat ":date_medium" }} {{ (time .Params.dateStart).UTC | dateFormat "15:04 MST" }}
+                  🕓 <strong>{{ (time .Params.dateStart) | time.In $tz | dateFormat "Monday" }} {{ (time .Params.dateStart) | time.In $tz |
+                    dateFormat ":date_medium" }} {{ (time .Params.dateStart) | time.In $tz | dateFormat "15:04" }}
                     {{ if (ne (.Params.dateEnd | dateFormat ":date_short" ) (.Params.dateStart | dateFormat
                     ":date_short"))}}
                   </strong></p>
                   <p>
-                    🕓 <strong>{{ (time .Params.dateEnd).UTC | dateFormat "Monday" }} {{ (time .Params.dateEnd).UTC | dateFormat
-                    ":date_medium" }} {{ (time .Params.dateEnd).UTC | dateFormat "15:04 MST" }}</strong>
+                    🕓 <strong>{{ (time .Params.dateEnd) | time.In $tz | dateFormat "Monday" }} {{ (time .Params.dateEnd) | time.In $tz | dateFormat
+                    ":date_medium" }} {{ (time .Params.dateEnd) | time.In $tz | dateFormat "15:04" }} ({{ $tz }})</strong>
                   </p>
                     {{ else }}
-                    - {{ (time .Params.dateEnd).UTC | dateFormat "15:04 MST" }}</strong></p>
+                    - {{ (time .Params.dateEnd) | time.In $tz | dateFormat "15:04" }} ({{ $tz }})</strong></p>
                     {{ end }}
               </div>
               <div class="col-auto">
@@ -149,8 +152,8 @@
     <!-- Content here -->
   </div>
 </section>
-{{ partial "whole-page-fragments/newsletter" (dict "divider" "lr" ) }}
-{{ $brandpartial := (partial "translate-path" (dict "name" "whole-page-fragments/brands" "language" .Site.Language.Lang
-)) }}
-{{ partial $brandpartial (dict "Site" .Site "divider" "rl" ) }}
+{{ $newsletterpartial := (partial "translate-path" (dict "name" "whole-page-fragments/newsletter" "language" .Language.Lang )) }}
+{{ partial $newsletterpartial (dict "Site" .Site "divider" "lr" )  }}
+{{ $brandpartial := (partial "translate-path" (dict "name" "whole-page-fragments/brands" "language" .Language.Lang )) }}
+{{ partial $brandpartial (dict "Site" .Site "divider" "rl" )  }}
 {{ end }}

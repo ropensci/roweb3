@@ -1,19 +1,24 @@
 {{ define "main" }}
 {{ $pages := (partial "calendar/future-events" (dict "Site" .Site)) }}
-{{ $featured := ( where $pages "Params.featured" true ) }}
+{{ $featured := ( union (union (where $pages "Params.featured" true) (where $pages "Params.ropensci" true )) (where $pages "Type" "commcalls") ) }}
+<section class="blog-hero">de
+  <div class="container bg-cubes">
+    <div class="row align-items-center blog-heading">
+        <h1>{{ i18n "Future-ropensci-events" }}</h1>
+      </div>
 {{ if gt (len $featured) 0 }}
-    <section class="section event-hero">
-      <div class="container bg-cubes">
-        <div class="row">
-           {{ range first 1 $featured.ByDate.Reverse }}
-          {{ .Render "featured-event-card" }}
+    <div class="blog-featured">
+      <div class="row">
+           {{ range first 2 $featured.ByDate }}
+          {{ .Render "featured-card" }}
           {{ end }}
         </div>
       </div>
-    </section>
-    <img class="divider" src="../images/svg/divider-rl.svg" alt="" />
 {{ end }}
-    {{ partial "calendar/events" (dict "Site" .Site )  }}
+{{ partial "calendar/events" (dict "Site" .Site "Content" .Content "Tips" .Params.Tips )  }}
          
-{{ partial "whole-page-fragments/newsletter"  (dict "divider" "rl" ) }}
+  </div>
+</section>
+{{ $newsletterpartial := (partial "translate-path" (dict "name" "whole-page-fragments/newsletter" "language" .Language.Lang )) }}
+{{ partial $newsletterpartial (dict "Site" .Site "divider" "rl" )  }}
 {{ end }}

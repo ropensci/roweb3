@@ -2,9 +2,17 @@
 <section class="section section-community-calls">
   <div class="container">
     <!-- Header text -->
-    <div class="row">
+    <div class="row mb-5">
       <div class="col-md-8">
-        <h1>{{ .Title }}</h1>
+        <h1>{{ .Title | markdownify }}</h1>
+        <div class="pmt">
+        {{ .Params.description | markdownify }}
+        </div>
+        </div>
+        <div class="col-md-4 mt-4">
+          <aside>
+          {{ partial "team/people" (dict "project" "coworking" "Site" .Site )}}
+          </aside>
         </div>
       </div>
     <div class="row">
@@ -30,7 +38,7 @@
     {{ range $pages.Reverse }}
   <div class="career-cards mt-4">
     <a href="{{ .RelPermalink }}" class="career-card">
-      <span>{{ replaceRE "Social Coworking and Office Hours -" "" .Title 1 }}</span>
+      <span>{{ replaceRE "Social Coworking and Office Hours -*" "" .Title 1 }}</span>
       <p>{{ i18n "With" }} {{ delimit .Params.author ", " " and " }}. {{ .Description }}</p>
       <span><strong>{{ (time .Params.dateStart).Local | dateFormat "Monday, 02 January 2006 15:04 MST" }} • online 🌐</strong></span>
     </a>
@@ -49,7 +57,7 @@
               </div>
             </div>
             <div class="col-md-8 session-info">
-              <a href="{{ .RelPermalink }}" class="session-title">{{ replaceRE "Social Coworking and Office Hours -" "" .Title 1 }}</a>
+              <a href="{{ .RelPermalink }}" class="session-title">{{ replaceRE "Social Coworking and Office Hours -*" "" .Title 1 }}</a>
               <p class="session-team">{{ with .Params.attendees }} {{ i18n "With" }} {{ delimit . ", " }}{{ end }} {{ with .Params.notes }}🔗 <a href="{{ . }}">Collaborative notes</a>
           {{ end }}</p>
             </div>
@@ -58,6 +66,9 @@
   </div>
   </div>
 </section>
-{{ partial "whole-page-fragments/newsletter"  (dict "divider" "lr" ) }}       {{ $brandpartial := (partial "translate-path" (dict "name" "whole-page-fragments/brands" "language" .Site.Language.Lang )) }}
+
+{{ $newsletterpartial := (partial "translate-path" (dict "name" "whole-page-fragments/newsletter" "language" .Language.Lang )) }}
+{{ partial $newsletterpartial (dict "Site" .Site "divider" "lr" )  }}
+{{ $brandpartial := (partial "translate-path" (dict "name" "whole-page-fragments/brands" "language" .Language.Lang )) }}
 {{ partial $brandpartial (dict "Site" .Site "divider" "rl" )  }}
 {{ end }}

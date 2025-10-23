@@ -1,7 +1,7 @@
 {{ define "main" }}
 <section class="section-package page-packages">
       <div class="container bg-cubes">
-        <h1>{{ .Title }}</h1>
+        <h1>{{ .Title | markdownify }}</h1>
         <div class="row justify-content-between align-items-end">
           <div class="col-md-8 subtitle-sm">
             {{ .Content }}
@@ -17,9 +17,10 @@
         </div>
       </div>
     </section>
-{{ partial "whole-page-fragments/review"  (dict "divider" "rl" ) }}
-{{ $volunteerpartial := (partial "translate-path" (dict "name" "whole-page-fragments/volunteer" "language" .Site.Language.Lang )) }}
+{{ $reviewpartial := (partial "translate-path" (dict "name" "whole-page-fragments/review" "language" .Language.Lang )) }}
+{{ partial $reviewpartial (dict "Site" .Site "divider" "rl" )  }}
+{{ $volunteerpartial := (partial "translate-path" (dict "name" "whole-page-fragments/volunteer" "language" .Language.Lang )) }}
 {{ partial $volunteerpartial  (dict "divider" "lr" "Site" .Site ) }}
-{{ $brandpartial := (partial "translate-path" (dict "name" "whole-page-fragments/brands" "language" .Site.Language.Lang )) }}
+{{ $brandpartial := (partial "translate-path" (dict "name" "whole-page-fragments/brands" "language" .Language.Lang )) }}
 {{ partial $brandpartial (dict "Site" .Site "divider" "rl" )  }}
 {{ end }}

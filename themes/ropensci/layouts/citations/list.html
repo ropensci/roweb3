@@ -4,7 +4,7 @@
         <!-- Header text -->
         <div class="row">
           <div class="col-md-8">
-            <h1>{{ .Title }}</h1>
+            <h1>{{ .Title | markdownify }}</h1>
             {{ .Content | markdownify }}
           </div>
         </div>
@@ -74,5 +74,7 @@
 {{ partial "datatables/scripts" ( dict "id" "papers" "col" 1 "order" "desc" "search" true )  }}
       </div>
     </section>
-{{ partial "whole-page-fragments/newsletter"  (dict "divider" "lr" ) }}
+
+{{ $newsletterpartial := (partial "translate-path" (dict "name" "whole-page-fragments/newsletter" "language" .Language.Lang )) }}
+{{ partial $newsletterpartial (dict "Site" .Site "divider" "lr" )  }}
 {{ end }}
