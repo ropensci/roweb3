@@ -42,6 +42,12 @@
 "type": "communication-outreach"
 },
 {
+"title": "Archivo de sesiones de trabajo",
+"text": "Todas las sesiones de trabajo anteriores",
+"url": "/coworking",
+"type": "communication-outreach"
+},
+{
 "title": "Newsletter",
 "text": "Un resumen periódico de las actividades y actualizaciones recientes de rOpenSci",
 "url": "/news",
