@@ -16,7 +16,7 @@
 
 {{ $data := index .Site.Data .Language.Lang }}
 {{ $resources := $data.resources.resources }}
-{{ $guides := (where $resources "type" "guide" )}}
+{{ $guides := (where $resources "type" "guides-books" )}}
 {{ partial "resources/resources-cards" (dict "resources" $guides ) }}
   </div>
 </section>
