@@ -69,7 +69,10 @@ Read [all about coworking](/blog/2023/06/21/coworking/)!
 -   Tuesday December 2nd, 14h00 Europe Central (13:00 UTC), ["Getting to know The Carpentries"](/events/coworking-2025-12/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Angelique Trusler](/author/angelique-trusler/).  
     -   Visit [The Carpentries](https://carpentries.org/);  
     -   Meet community host, Angelique Trusler, and learn more about The Carpentries and how you might get involved. 
-
+-   Tuesday January 13th, 9:00 Americas Pacific (17:00 UTC), ["Let it go!"](/events/coworking-2026-01/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Yanina Bellini Saibene](/author/yanina-bellini-saibene/).  
+    -   Spend some time reviewing the forums, Slack workspaces, Newsletters, RSS feeds (etc. etc.) you’re subscribed to;
+    -   Unsubscribe to all you no longer need (Let it go!);
+    -   Meet co-host, Yanina Bellini Saibene, and discuss strategies for this New Year decluttering of your digital (or perhaps not-so-digital) life.
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
 ## Software :package:
