@@ -40,25 +40,7 @@
 				"id": "{{ printf "https://doi.org/%s" .Params.doi }}",
 				"title": "{{ .Title }}",
 				"language" : "{{ .Lang }}",
-				"authors": [{{ $editors := ($data.Get "editors") }}{{ if isset .Params "editor" }}{{ range $i, $e := ($data.Get "editors") }}{{ range first 1 (where ($data.Get "pages") ".Params.name" $e) }}{{ $params := .Params }}{{ $name := $params.name }}{{ range first 1 (where ($data.Get "pages") ".Params.name" $e) }}
-				{
-      "name": "{{ $name }}",
-      "url": "{{ if isset .Params "orcid" }}https://orcid.org/{{ .Params.orcid }}{{ else }}{{ .Permalink }}{{ end }}",
-      "avatar": "{{ ( partial "blogs/author-img" . ) }}",
-      "_role": "editor"
-    },{{ end }}{{ end }}{{ end }}{{ end }}{{ $translators := ($data.Get "translators") }}{{ if isset .Params "translator" }}{{ range $i, $e := ($data.Get "translators") }}{{ range first 1 (where ($data.Get "pages") ".Params.name" $e) }}{{ $params := .Params }}{{ $name := $params.name }}{{ range first 1 (where ($data.Get "pages") ".Params.name" $e) }}
-    {
-  "name": "{{ $name }}",
-  "url": "{{ if isset .Params "orcid" }}https://orcid.org/{{ .Params.orcid }}{{ else }}{{ .Permalink }}{{ end }}",
-  "avatar": "{{ ( partial "blogs/author-img" . ) }}",
-  "_role": "translator"
-},{{ end }}{{ end }}{{ end }}{{ end }}{{ range $i, $e := ($data.Get "authors") }}{{ range first 1 (where ($data.Get "pages") ".Params.name" $e) }}{{ $params := .Params }}{{ $name := $params.name }}{{ if $i }}, {{ end }}{{ range first 1 (where ($data.Get "pages") ".Params.name" $e) }}
-{
-      "name": "{{ $name }}",
-      "url": "{{ if isset .Params "orcid" }}https://orcid.org/{{ .Params.orcid }}{{ else }}{{ .Permalink }}{{ end }}",
-      "avatar": "{{ ( partial "blogs/author-img" . ) }}",
-      "_role": "author"
-    }{{ end }}{{ end }}{{ end }}],
+				"authors": [{{ partial "blogs/combined-authors.html" . }}],
 				{{ with .Params.tags }} "tags": {{ . | uniq | jsonify}},{{ end }}
 				"content_html": {{ .Content | replaceRE "\n" "" | jsonify }},
 				"url": "{{ .Permalink }}",
