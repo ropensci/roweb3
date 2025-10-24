@@ -6,7 +6,7 @@ author:
 date: '2025-10-24'
 tags:
   - newsletter
-description: R-multiverse comm call, useR! 2025, posit::conf(2025), coworking, new package, package news
+description: Graceful internet packages, R-multiverse resources, coworking, new package, package news
 params:
   last_newsletter: '2025-09-29'
   doi: "10.59350/cwdyp-ads64"
