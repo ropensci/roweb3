@@ -10,26 +10,29 @@ output: hugodown::md_document
 tags:
   - tech notes
 params:
-  doi: ""
+  doi: "10.59350/bhr5x-d3429"
 ---
 
 rOpenSci peer-review has to date been exclusively conducted [on GitHub](https://github.com/ropensci/software-review/issues?q=sort%3Aupdated-desc%20is%3Aissue%20state%3Aclosed).
 We are not planning on moving away from this system any time soon, but are nonetheless aware that many people prefer alternative platforms.
-rOpenSci also has an organization presence on [gitlab.com/ropensci](https://gitlab.com/ropensci) and [codeberg.org/ropensci](https://codeberg.org/ropensci).
-This post describes how rOpenSci community members can use these alternative platforms.
+rOpenSci also has an organizational presence on both [GitLab](https://gitlab.com/ropensci) and [Codeberg](https://codeberg.org/ropensci).
+This post describes how rOpenSci community members can use these - and any other - alternative platforms.
 
 ## Code (still) needs a single home
 
-All platforms described here are based on [git](https://git-scm.com/), which is a _centralized_ version control system (in contrast to decentralized version control systems such as [darcs](https://darcs.net/) or [pijul](https://pijul.org/)).
-This means that managing code with git generally requires identifying a single, main version to which changes can be _pushed_, or from which changes can be _pulled_.
+All platforms described here are based on [Git](https://git-scm.com/), which is generally used in a centralized way, through associating code with a single, main repository to which changes can be _pushed_, or from which changes can be _pulled_.
 There is thus a single connection between code on your local machine and this single main version.
-
-Code can of course be hosted anywhere, and we aim here to show how easy it is to mirror a repository on an arbitrary number of platforms.
+Code can of course be hosted anywhere, and we aim here to show how easy it is for code to be simultaneously hosted on an arbitrary number of platforms.
 Hosting code in multiple locations creates multiple connections between local and remote versions.
-This can easily create conflicts in git.
-To keeps things simple, this post will therefore presume that every repository maintains a single home, with all other platforms mirroring changes from that site via `git push` only.
+This can easily create conflicts in Git.
+To keeps things simple, this post will therefore presume that every repository maintains a single, primary home on one platform, with other platforms hosting or "mirroring" copies of the code.
 
-## Mirroring to other platforms
+## Mirroring on other platforms
+
+Different remote instances of a Git repository are often referred to as "mirrors".
+This is potentially confusing because (among other reasons) a mirror is a two-way thing, whereas mirroring of repositories of often one-way only.
+As said above, we presume here that code has a single, primary remote home on one platform.
+Locations on any other platforms are then "mirrors", with code on these mirrors only ever changed through `git push` events, from either local or primary remote versions.
 
 ### Mirroring on codeberg
 
@@ -61,15 +64,15 @@ The [git remote web page](https://git-scm.com/book/en/v2/Git-Basics-Working-with
 
 ## Managing one repository across multiple platforms
 
-With due apologies for repeittion, git is a centralised version control system, and is thus not the best system for managing multiple remote sources.
-The best way to manage one git repository across multiple platforms is to use one main source to which you `push`, and from where you may `pull`.
+With due apologies for repetition, Git is a centralised version control system, and is thus not the best system for managing multiple remote sources.
+The best way to manage one Git repository across multiple platforms is to use one main source to which you `push`, and from where you may `pull`.
 All other remote origins should be considered `push` mirrors only, and never `pull`.
 In the rare case that conflicts from other sources arise, you may need to `git push --force` to _other_ remotes (or the [safer version of `git push --force-with-lease`](https://git-scm.com/docs/git-push#Documentation/git-push.txt---force-with-leaserefnameexpect)).
 You should never `git push --force` to your main source.
 
 For each additional remote source, you'll need to add a remote URL with [`git remote add`](https://git-scm.com/docs/git-remote).
 In a standard set up, this will still require you to explicitly `git push` to each individual remote.
-The pure git way of managing multiple remote sources is to take advantage of `git remote set-url --add` to add additional URLs to a single remote identifier.
+The pure Git way of managing multiple remote sources is to take advantage of `git remote set-url --add` to add additional URLs to a single remote identifier.
 Consistent with advice throughout this post, it is not recommended to update your _main_ remote URL with `set-url --add`.
 A better option would be to initially create a remote like `git remote add other https://codeberg.org/ropensci/my-package`.
 You can then extend that with each additional remote URL with `set-url --add`.
@@ -81,7 +84,7 @@ More arcane alternatives include my own [arcane git push bash script](https://gi
 
 We don't yet have any automated tooling for authors to rOpenSci packages to mirror repositories on other platforms.
 If you are an author of an rOpenSci package, and would like to set up mirrors on either [Codeberg/ropensci](https://codeberg.org/ropensci) or [GitLab/ropensci](https://gitlab.com/ropensci), you'll have to ask us to do the initial set up.
-The best way is to ping us - one or all of [@maelle](https://github.com/maelle), [@adamhsparks](https://github.com/adamhsparks), or [@mpadge](https://github.com/mpadge) - directly from a GitHub issue in your repository, and we'll start the process.
+The best way is to ping @ropensci/admin directly from a GitHub issue in your repository, and we'll start the process.
 
 ## Using a main source other than GitHub
 
@@ -90,7 +93,3 @@ As with mirroring, Codeberg is currently the best platform to use instead of Git
 Once you've set up an rOpenSci repository on Codeberg, you can go to the settings, where one of the first options under "Repository" is "Mirror settings".
 Here you can configure any other locations as push mirrors.
 From that point on, you should only ever `git push` directly to Codeberg, and every push there will be mirrored by Codeberg to all other specified locations, potentially including GitHub.
-
-rOpenSci infrastructure, including r-universe, will remain built on GitHub repository sources for the time being, so you'll need to keep a GitHub mirror of your code regardless of where your main source lives.
-This also means that many links, including all from the main [rOpenSci website](https://ropensci.org), and [r-universe](https://r-universe.dev), will be to the GitHub version of your packages.
-If you opt to use an alternative location, you'll need to update your package documentation to clearly direct users to your desired platform.
