@@ -23,6 +23,7 @@ This post describes how rOpenSci community members can use these - and any other
 All platforms described here are based on [Git](https://git-scm.com/), which is generally used in a centralized way, through associating code with a single, main repository to which changes can be _pushed_, or from which changes can be _pulled_.
 There is thus a single connection between code on your local machine and this single main version.
 Code can of course be hosted anywhere, and we aim here to show how easy it is for code to be simultaneously hosted on an arbitrary number of platforms.
+
 Hosting code in multiple locations creates multiple connections between local and remote versions.
 This can easily create conflicts in Git.
 To keeps things simple, this post will therefore presume that every repository maintains a single, primary home on one platform, with other platforms hosting or "mirroring" copies of the code.
@@ -30,9 +31,20 @@ To keeps things simple, this post will therefore presume that every repository m
 ## Mirroring on other platforms
 
 Different remote instances of a Git repository are often referred to as "mirrors".
-This is potentially confusing because (among other reasons) a mirror is a two-way thing, whereas mirroring of repositories of often one-way only.
+This is potentially confusing because (among other reasons) a mirror is a two-way thing, whereas mirroring of repositories is often one-way only.
 As said above, we presume here that code has a single, primary remote home on one platform.
-Locations on any other platforms are then "mirrors", with code on these mirrors only ever changed through `git push` events, from either local or primary remote versions.
+The term "mirror" is then used here to refer to locations on any platforms other than the primary remote home.
+
+Code mirrors are only ever updated through `git push` events from either local or primary remote versions.
+Code may be directly updated on the primary remote version (for example, through merging branches), with changes generally incorporated in a local version via `git pull`, and then pushed out to all mirrored versions.
+A `git pull` command should only ever be applied to the primary remote version, and never to any alternative mirror versions.
+In this diagram, the large yellow arrow represents the only connection where both `push` and `pull` events are allowed.
+All other arrows are `push` events only.
+
+![](./local-remote.png)
+
+{{< figure src = "local-remote.png" alt = "Local and remote repositories." class = "pull-left" caption = "Local and remote repositories.">}}
+
 
 ### Mirroring on codeberg
 
@@ -50,7 +62,6 @@ That will then open up the following grid of options from where you want to mirr
 
 To migrate from GitHub, click the symbol to open a migration to fill in some details, where you can also paste a GitHub token into "access token", and mirror almost all other aspects, including issues, pull requests, and releases.
 Note that the migration process may take 10 minutes or more.
-You'll also need to update your local `git` configuration to add the new remote destination, as described in the following sub-section.
 
 ### Mirroring elsewhere
 
@@ -64,21 +75,26 @@ The [git remote web page](https://git-scm.com/book/en/v2/Git-Basics-Working-with
 
 ## Managing one repository across multiple platforms
 
-With due apologies for repetition, Git is a centralised version control system, and is thus not the best system for managing multiple remote sources.
-The best way to manage one Git repository across multiple platforms is to use one main source to which you `push`, and from where you may `pull`.
+As described above, the easiest way to manage one Git repository across multiple platforms is to use one primary source to which you `push`, and from where you may `pull`.
 All other remote origins should be considered `push` mirrors only, and never `pull`.
 In the rare case that conflicts from other sources arise, you may need to `git push --force` to _other_ remotes (or the [safer version of `git push --force-with-lease`](https://git-scm.com/docs/git-push#Documentation/git-push.txt---force-with-leaserefnameexpect)).
-You should never `git push --force` to your main source.
+You should never `git push --force` to the main branch of your primary source.
 
 For each additional remote source, you'll need to add a remote URL with [`git remote add`](https://git-scm.com/docs/git-remote).
-In a standard set up, this will still require you to explicitly `git push` to each individual remote.
+There are many ways to do this.
 The pure Git way of managing multiple remote sources is to take advantage of `git remote set-url --add` to add additional URLs to a single remote identifier.
-Consistent with advice throughout this post, it is not recommended to update your _main_ remote URL with `set-url --add`.
-A better option would be to initially create a remote like `git remote add other https://codeberg.org/ropensci/my-package`.
+[This blog post](https://jeffkreeftmeijer.com/git-multiple-remotes/) details how to do that safely, to ensure only one primary remote is configured to `fetch`, while allowing `push` events to all others.
+An alternative option would be to initially create an additional remote like `git remote add other https://codeberg.org/ropensci/my-package`.
 You can then extend that with each additional remote URL with `set-url --add`.
 Running `git push other <branch>` will then push that branch to all remote URLs specified in `other`.
 
-More arcane alternatives include my own [arcane git push bash script](https://github.com/mpadge/dotfiles/blob/main/system/gitpush.bash) which recreates the now obsolete push-by-password functionality of GitHub, while also pushing to all other listed remote sources.
+Yet another approach is to define a [custom command](https://stackoverflow.com/questions/60060217/how-do-i-make-custom-git-commands) for `git push` to call a local script.
+This can be done by adding some "gitbin" directory to a default system `PATH` variable (in `.bashrc`, for example, as `export PATH="$PATH:$HOME/.gitbin"`).
+Git will automatically recognise any scripts within `$PATH` named with the prefix "git-".
+It is best to name locally-defined Git commands differently to standard Git commands.
+For example, a file named `git-pushall` placed in that folder will be called by the `git pushall` command.
+The file itself could contain any of the options described in [this StackOverflow answer](https://stackoverflow.com/a/18674313).
+Even more arcane alternatives include my own [git push bash script](https://github.com/mpadge/dotfiles/blob/main/system/gitpush.bash) which recreates the now obsolete push-by-password functionality of GitHub, while also pushing to all other listed remote sources.
 
 ## rOpenSci repos on Codeberg and GitLab
 
