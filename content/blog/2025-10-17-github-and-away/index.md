@@ -16,12 +16,16 @@ params:
 rOpenSci peer-review has to date been exclusively conducted [on GitHub](https://github.com/ropensci/software-review/issues?q=sort%3Aupdated-desc%20is%3Aissue%20state%3Aclosed).
 We are not planning on moving away from this system any time soon, but are nonetheless aware that many people prefer alternative platforms.
 rOpenSci also has an organizational presence on both [GitLab](https://gitlab.com/ropensci) and [Codeberg](https://codeberg.org/ropensci).
-This post describes how rOpenSci community members can use these - and any other - alternative platforms.
+This post describes how rOpenSci community members can use these - and any other - alternative platforms[^1]
+The use of alternative platforms is a form of decentralization, with each additional platform used lowering the risk of negative consequences associated with any particular platform.
+
+[^1]: [tangled](https://tangled.org) is a _distributed_ system for code hosting, so technically not a platform.
+We nevertheless use the word "platform" to simply any cost-hosting system, including [tangled](https://tangled.org).
 
 ## Code (still) needs a single home
 
 All platforms described here are based on [Git](https://git-scm.com/), which is generally used in a centralized way, through associating code with a single, main repository to which changes can be _pushed_, or from which changes can be _pulled_.
-There is thus a single connection between code on your local machine and this single main version.
+There is a single connection between code on your local machine and this single main version.
 Code can of course be hosted anywhere, and we aim here to show how easy it is for code to be simultaneously hosted on an arbitrary number of platforms.
 
 Hosting code in multiple locations creates multiple connections between local and remote versions.
@@ -31,42 +35,63 @@ To keeps things simple, this post will therefore presume that every repository m
 ## Mirroring on other platforms
 
 Different remote instances of a Git repository are often referred to as "mirrors".
-This is potentially confusing because (among other reasons) a mirror is a two-way thing, whereas mirroring of repositories is often one-way only.
+This is potentially confusing because (among other reasons) a mirror is a two-way thing (object -> mirror -> reflection), whereas mirroring of repositories is often one-way only (source -> mirror, but not back again).
 As said above, we presume here that code has a single, primary remote home on one platform.
 The term "mirror" is then used here to refer to locations on any platforms other than the primary remote home.
+Most examples presume GitHub to be the primary remote home, because rOpenSci operations are (still) built around that presumption, but any platform can serve as a primary remote location, with GitHub, and any number of other platforms then being mirrors.
+"Alternative locations" just implies any additional mirror locations other than the primary home.
 
-Code mirrors are only ever updated through `git push` events from either local or primary remote versions.
-Code may be directly updated on the primary remote version (for example, through merging branches), with changes generally incorporated in a local version via `git pull`, and then pushed out to all mirrored versions.
+Code mirrors are only ever updated through `git push` events from local versions, or from other `git` events on the primary remote (such as merges or direct commits).
+Change events originating on the primary remote are generally incorporated in a local version via `git pull`, and then pushed out to all mirrored versions.
 A `git pull` command should only ever be applied to the primary remote version, and never to any alternative mirror versions.
 In this diagram, the large yellow arrow represents the only connection where both `push` and `pull` events are allowed.
 All other arrows are `push` events only.
 
 ![](./local-remote.png)
 
-{{< figure src = "local-remote.png" alt = "Local and remote repositories." class = "pull-left" caption = "Local and remote repositories.">}}
+{{< figure src = "local-remote.png" alt = "Git interaction directions between local and remote repositories." class = "pull-left" caption = "Git interaction directions between local and remote repositories.">}}
 
+### Mirroring on Codeberg or GitLab
 
-### Mirroring on codeberg
+The easiest platforms on which to mirror your code are currently [Codeberg](https://codeberg.org) and [GitLab](https://gitlab.com), both of which have inbuilt options to mirror repositories directly from a large number of other platforms, including GitHub.
+Both of these platforms can also mirror additional information including issues, issue labels, pull requests, and releases.
+Note, however, than many hyperlinks within issues and pull requests may be lost.
+(The exception is that hyperlinks to contributors may optionally be retained on GitLab.)
 
-The easiest platform on which to mirror your code is currently [Codeberg](https://codeberg.org), which has inbuilt options to mirror repositories directly from a large number of other platforms, including GitHub.
-[Codeberg](https://codeberg.org) can also mirror all issues and pull requests, although the contributors will no longer be hyperlinked (see an [example here](https://codeberg.org/ropensci/osmdata/issues/388)).
 To mirror a repo on Codeberg, click the large "+" button on the top right of the main menu bar, and select "New migration", like this:
 
 ![](codeberg-new-migration.png)
 
+{{< figure src = "codeberg-new-migration.png" alt = "Codeberg new migration button." class = "pull-left" caption = "Codeberg new repository migration button.">}}
+
 That will then open up the following grid of options from where you want to mirror your repository:
 
-{{< figure src = "codeberg-migration-options.png" alt = "Codeberg new migration button." class = "pull-left" caption = "Codeberg new repository migration button.">}}
-
 ![](codeberg-migration-options.png)
+
+{{< figure src = "codeberg-migration-options.png" alt = "Codeberg repository migration options." class = "pull-left" caption = "Codeberg repository migration options.">}}
 
 To migrate from GitHub, click the symbol to open a migration to fill in some details, where you can also paste a GitHub token into "access token", and mirror almost all other aspects, including issues, pull requests, and releases.
 Note that the migration process may take 10 minutes or more.
 
+On GitLab, the equivalent "+" button is on the top left, where "_New project/repository_" should be clicked:
+
+{{< figure src = "gitlab-new.png" alt = "GitLab new repository button." class = "pull-left" caption = "GitLab new repository button.">}}
+
+![](gitlab-new.png)
+
+That will lead to the following options, in which "Import project" should be clicked.
+
+![](gitlab-import.png)
+
+{{< figure src = "gitlab-import.png" alt = "GitLab repository import options." class = "pull-left" caption = "GitLab repository import options.">}}
+
+That then leads to a list of platforms from which you can import projects, including code, issues, pull requests, releases, and other information.
+
 ### Mirroring elsewhere
 
-No other platforms currently offer the one-click mirror functionality of Codeberg.
+No other platforms currently offer the one-click mirror functionality of Codeberg or GitLab.
 To mirror in all other cases, you'll need to:
+
 1. Create a new repository on the desired platform.
 2. Set a `git remote` URL to the new destination.
 3. `git push` to new remote.
@@ -76,11 +101,13 @@ The [git remote web page](https://git-scm.com/book/en/v2/Git-Basics-Working-with
 ## Transferring issues
 
 Issues, pull requests, and other information on GitHub can be transferred both to Codeberg and GitLab, but only when a repository is first mirrored.
-All information on all issues and pull requests may be transferred across, although the only hyperlinks retained will be those linking within or between issues of the same repository.
-All other hyperlinks, including any to GitHub users, or to other repositories, will no longer be linked (although GitLab does provide some options for retaining links to collaborators).
+We are not currently aware of any platforms other these two which offer inbuilt ability to import additional information on issues and pull requests, although other people have implemented things such as [issue mirroring from GitHub to sourcehut](https://github.com/marketplace/actions/sourcehut-issue-maker).
+
+Both Codeberg and GitLab enable all information on all issues and pull requests to be transferred across, although generally without hyperlinks other than those those linking within or between issues of the same repository.
+All other hyperlinks, including any to GitHub users, or to other repositories, will be lost (although GitLab does provide some options for retaining hyperlinks to collaborators).
 Moreover, the transfer will be of information at the time the "New migration" on Codeberg or "New import" on GitLab is initiated.
 From that time point on, any activity via issues or pull requests on any hosting platform will be specific to that platform only.
-Continuous mirroring is nevertheless possible, via actions such as [GitHubCodebergMirror](https://codeberg.org/wl/GithubCodebergMirror); it's just not a "built-in" feature of either Codeberg or GitLab (at present).
+Continuous mirroring is nevertheless possible, via actions such as [GitHubCodebergMirror](https://codeberg.org/wl/GithubCodebergMirror).
 
 To transfer issues from GitHub to Codeberg, first click on the "GitHub" symbol in the "Migrate repository" options shown above, after which appears a dialog with options for what you would like migrated.
 These options include "issues", "Pull requests", "Labels", "Milestones", and "Releases," also with the clear information that,
@@ -95,10 +122,16 @@ Other code hosting platforms like [SourceHut](https://sr.ht/), or the distribute
 
 ## Managing one repository across multiple platforms
 
+To be clear, this entire post is about moving away from having code hosted on a single platform, to distributing across multiple platforms through _mirroring_.
+If, for example, you only want to migrate away from GitHub to some single, other platform, then both Codeberg and GitLab already offer the full solutions described above.
+We nevertheless recommend mirroring across multiple platforms, to reduce risks associated with dependence on any single platform.
+
 As described above, the easiest way to manage one Git repository across multiple platforms is to use one primary source to which you `push`, and from where you may `pull`.
 All other remote origins should be considered `push` mirrors only, and never `pull`.
 In the rare case that conflicts from other sources arise, you may need to `git push --force` to _other_ remotes (or the [safer version of `git push --force-with-lease`](https://git-scm.com/docs/git-push#Documentation/git-push.txt---force-with-leaserefnameexpect)).
 You should never `git push --force` to the main branch of your primary source.
+
+### Adding remotes to your local Git information
 
 For each additional remote source, you'll need to add a remote URL with [`git remote add`](https://git-scm.com/docs/git-remote).
 There are many ways to do this.
@@ -116,16 +149,35 @@ For example, a file named `git-pushall` placed in that folder will be called by 
 The file itself could contain any of the options described in [this StackOverflow answer](https://stackoverflow.com/a/18674313).
 Even more arcane alternatives include my own [git push bash script](https://github.com/mpadge/dotfiles/blob/main/system/gitpush.bash) which recreates the now obsolete push-by-password functionality of GitHub, while also pushing to all other listed remote sources.
 
-## rOpenSci repos on Codeberg and GitLab
+### Synchronising multiple remotes
+
+As with `git remote` setups described above, there are several ways to synchronise multiple remote instances of a single repository.
+The pure Git way is to use local commands like those described and linked to above, to `git push` changes to all remote locations.
+(This is the approach recommended by GitHub, but GitHub is an anomaly among code hosting platforms in offering no easy ability to interact with other platforms.)
+
+Both Codeberg and GitLab offer mirroring services to enable these sites to be used as a primary site, and to mirror all code changes directly across to any alternative site such as GitHub.
+Codeberg has a "Mirror settings" option near the top of the general repository "_Settings_" panel, where you can easily specify an arbitrary number of mirror locations, and click "_Sync when commits are pushed_".
+The GitLab settings are under "_Settings_" &rarr; "_Repository_", where you should see options for "_Mirroring repositories_".
+Depending on how you configure your other repositories, you may need to add additional information such as public SSH keys to authenticate `git push` events.
+Common options are described in [GitLab's documentation](https://docs.gitlab.com/user/project/repository/mirror/).
+
+Finally, if you want to keep GitHub as your primary home while avoiding having to remember to use `git pushall` or whatever other local setup you may have or need, you can easily set up a GitHub action to automatically push your code across to any other locations.
+While there are "marketplace" actions available to do this, we do not recommend those, as the procedure is very straightforward, and implementing your own is generally easier.
+An example is [this workflow](https://github.com/ropensci/osmdata/blob/main/.github/workflows/push-to-elsewhere.yaml) which is run on every `push` event to the main branch and mirrors the [`github.com/ropensci/osmdata`](https://github.com/ropensci/osmdata/tree/main) repository across to both [`codeberg.org/ropensci/osmdata`](https://codeberg.org/ropensci/osmdata) and [`gitlab.com/ropensci/osmdata`](https://gitlab.com/ropensci/osmdata).
+
+
+## Advertising your new code home
+
+Regardless of how your structure and disperse your code across multiple platforms, it's generally useful to maintain a single, primary "home".
+(This is of course not at all necessary; if you enjoy dividing your attention across different platforms, please do so, and ignore this section.)
+We recommend advertising your primary code location at the top of your README.md document, something along the lines of [this example](https://github.com/ropensci/osmdata#osmdata-), and clearly stating whether or not you will respond to "issues" (or whatever platform-specific interactions may be called) on any other platforms.
+
+## rOpenSci repos on Codeberg, GitLab, or elsewhere
 
 We don't yet have any automated tooling for authors to rOpenSci packages to mirror repositories on other platforms.
 If you are an author of an rOpenSci package, and would like to set up mirrors on either [Codeberg/ropensci](https://codeberg.org/ropensci) or [GitLab/ropensci](https://gitlab.com/ropensci), you'll have to ask us to do the initial set up.
 The best way is to ping @ropensci/admin directly from a GitHub issue in your repository, and we'll start the process.
 
-## Using a main source other than GitHub
-
-Authors of rOpenSci packages may also use platforms other than GitHub as the main source for their repository code.
-As with mirroring, Codeberg is currently the best platform to use instead of GitHub, because it has inbuilt abilities to push code to any other locations.
-Once you've set up an rOpenSci repository on Codeberg, you can go to the settings, where one of the first options under "Repository" is "Mirror settings".
-Here you can configure any other locations as push mirrors.
-From that point on, you should only ever `git push` directly to Codeberg, and every push there will be mirrored by Codeberg to all other specified locations, potentially including GitHub.
+Authors of rOpenSci packages may also use platforms other than GitHub as the _main_ source for their repositories, rather than just as mirrors.
+For either Codeberg or GitLab, we'll need to help with the initial transfer anyway, and you can let us know then which platform you'd like designated as your primary repository.
+If you wish to use a platform other than GitHub, Codeberg, or GitLab as the primary home, then you can arrange transfer yourself, but please let us know so that we can ensure that our internal data appropriately reflect your repository's primary location.
