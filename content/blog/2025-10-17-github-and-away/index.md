@@ -73,6 +73,26 @@ To mirror in all other cases, you'll need to:
 
 The [git remote web page](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes) provides more detail on working with remotes.
 
+## Transferring issues
+
+Issues, pull requests, and other information on GitHub can be transferred both to Codeberg and GitLab, but only when a repository is first mirrored.
+All information on all issues and pull requests may be transferred across, although the only hyperlinks retained will be those linking within or between issues of the same repository.
+All other hyperlinks, including any to GitHub users, or to other repositories, will no longer be linked (although GitLab does provide some options for retaining links to collaborators).
+Moreover, the transfer will be of information at the time the "New migration" on Codeberg or "New import" on GitLab is initiated.
+From that time point on, any activity via issues or pull requests on any hosting platform will be specific to that platform only.
+Continuous mirroring is nevertheless possible, via actions such as [GitHubCodebergMirror](https://codeberg.org/wl/GithubCodebergMirror); it's just not a "built-in" feature of either Codeberg or GitLab (at present).
+
+To transfer issues from GitHub to Codeberg, first click on the "GitHub" symbol in the "Migrate repository" options shown above, after which appears a dialog with options for what you would like migrated.
+These options include "issues", "Pull requests", "Labels", "Milestones", and "Releases," also with the clear information that,
+
+> Access token is required to migrate additional items
+
+For that, you just need to paste a GitHub token in the Codeberg field, ensuring that the token has at least read access to all aspects you want transferred.
+GitLab transfers issues, pull requests, tags, and releases by default, with even more possible through provision of a GitHub access token.
+In both cases, transfer can take some time (10-20 minutes or more), following which all issues will appear exactly as on GitHub, but generally minus the hyperlinks described above.
+Other code hosting platforms like [SourceHut](https://sr.ht/), or the distributed hosting system [tangled](https://tangled.org/) do not provide facilities for directly transferring or mirroring issues or pull requests.
+
+
 ## Managing one repository across multiple platforms
 
 As described above, the easiest way to manage one Git repository across multiple platforms is to use one primary source to which you `push`, and from where you may `pull`.
