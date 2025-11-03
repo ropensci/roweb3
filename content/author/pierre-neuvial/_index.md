@@ -5,5 +5,5 @@ link: https://www.math.univ-toulouse.fr/~pneuvial/
 github: pneuvial
 orcid: 0000-0003-3584-9998
 linkedin: pierre-neuvial-50027316
-img: https://pneuvial.github.io/assets/img/pierre-neuvial.jpg
+img: img/community/pierre-neuvial.jpg
 ---

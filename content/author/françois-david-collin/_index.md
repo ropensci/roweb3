@@ -6,5 +6,4 @@ twitter: LuinGor
 github: fradav
 orcid: 0000-0002-8374-7163
 linkedin: fradav
-img: https://www.gravatar.com/avatar/e538a1497c43683e0ab4f36c5c1a30d4
 ---

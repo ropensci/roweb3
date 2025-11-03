@@ -5,5 +5,5 @@ link: https://astamm.github.io
 github: astamm
 orcid: 0000-0002-8725-3654
 linkedin: https://www.linkedin.com/in/aymeric-stamm-65a420179/
-img: https://github.com/astamm/astamm.github.io/blob/master/images/aymeric.jpg
+img: img/community/aymeric-stamm.jpg
 ---

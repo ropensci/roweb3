@@ -4,5 +4,4 @@ bio: Researcher in machine learning and causal inference methods to better under
 link: https://nellev.github.io/
 github: nellev
 orcid: 0000-0002-8748-6546
-img: https://tree-timc.github.io/compbio/assets/img/people/nelle.png
 ---

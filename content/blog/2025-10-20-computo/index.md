@@ -7,8 +7,9 @@ author:
 - Aymeric Stamm
 - Nelle Varoquaux
 slug: computo-journal-reproducible-research-statistics-machine-learning
-date: '2025-10-20'
+date: '2025-11-06'
 tags:
+- software-peer-review
 - reproducible research
 - open science
 - statistics
@@ -18,8 +19,9 @@ tags:
 description: "[Computo](https://computo-journal.org) is a journal promoting methodological, computational, and algorithmic contributions in statistics and machine learning that provide a better understanding of which models or methods are most appropriate to answer specific scientific questions. Computo leverages modern tools in programming and scientific reporting to support more transparent, interactive, and reproducible research outputs."
 socialImg: https://computo-journal.org/assets/img/logo_text_vertical.svg
 socialAlt: Computo logo
-social: A post about the Computo scientific journal by @computo@mathstodon.xyz!
-# editor: ~
+editor: Steffi LaZerte
+params: 
+  doi: "10.59350/6pnct-5cj35"
 ---
 
 {{< imgtxt src="https://computo-journal.org/assets/img/logo_text_vertical.svg" alt="Computo logo" link="https://computo-journal.org/site/about.html" >}}
@@ -34,9 +36,7 @@ The rapid proliferation of new methods in machine learning and statistics can ma
 
 Computo was created to promote methodological and algorithmic contributions that not only are reproducible but also provide a better understanding of which models or methods are most appropriate to answer specific scientific questions. We believe that building up solid scientific knowledge requires both the reproducibility of published results and a clear articulation of their scientific implications. While many journals now require code and data, these are often insufficient on their own to ensure true reproducibility or to fully grasp the scientific contribution.
 
-To address these issues, Computo goes beyond the traditional format of a static (PDF) publication, by placing the reproducibility of numerical results and the clarity of scientific contributions at the center of the publication process.&#x20;
-
-\[1\] Hanson, M. A., Barreiro, P. G., Crosetto, P., & Brockington, D. (2024). The strain on scientific publishing. Quantitative Science Studies, 5(4), 823-843.
+[^1]: Hanson, M. A., Barreiro, P. G., Crosetto, P., & Brockington, D. (2024). The strain on scientific publishing. Quantitative Science Studies, 5(4), 823-843.
 
 ## What Computo offers
 
@@ -70,7 +70,7 @@ Since its inception in late 2022, we have created a robust ecosystem for reprodu
 {{< figure src="https://codimd.math.cnrs.fr/uploads/upload_3627015bebde47d40c656be41d76c014.png" alt="Efficient simulation of individual-based population models" >}}
 {{< /quote >}}
 
-### Collaboration and Challenges
+### Collaboration and challenges
 
 We use [GitHub to host our repositories](https://github.com/computorg) and Quarto for document creation, ensuring that all code and data are openly available (contributions for GitLab support are welcome!). This collaborative approach has allowed us to overcome numerous challenges, from technical hurdles to ensuring the quality and reproducibility of published work.
 
@@ -78,7 +78,7 @@ One significant challenge has been refining our peer-review process to balance r
 
 A more fundamental challenge lies in defining and evaluating the true reproducibility of scientific work. We distinguish between "editorial reproducibility" – the ability to re-run the provided code and obtain the same outputs – and "scientific reproducibility," which delves deeper into the robustness and generalizability of the findings. Establishing clear guidelines and policies for this, especially in complex fields like Deep Learning, has been a continuous effort. For instance, evaluating a Deep Learning paper where retraining a model might be infeasible or beyond the scope of the submitted work requires careful consideration of what constitutes a "reproducible" contribution from a scientific standpoint, beyond just code execution.
 
-## The Future of Computo
+## The future of Computo
 
 With a shared focus on improving the quality of scientific contributions, rOpenSci and Computo offer complementary approaches to fostering reproducible research. rOpenSci (and by extension pyOpenSci for the Python side) focuses on the reliability and robustness of software tools through a transparent, community-driven peer review process. Computo, in turn, ensures that these tools are used in transparent and fully reproducible computational scientific articles, preserving code, data, and environment specifications.
 

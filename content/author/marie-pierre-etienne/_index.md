@@ -5,5 +5,5 @@ link: https://marieetienne.github.io/
 github: MarieEtienne
 orcid: 0000-0002-2097-2267
 linkedin: marie-pierre-etienne
-img: https://marieetienne.github.io/img/mpe_resize_0.jpg
+img: img/community/marie-pierre-etienne.jpg
 ---
