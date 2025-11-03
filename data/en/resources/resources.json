@@ -55,7 +55,7 @@
 },
 {
    "title": "Books",
-   "text": "E-books about our tooling",
+   "text": "E-books about rOpenSci R packages, general R development practices and other tooling",
    "url": "https://books.ropensci.org",
    "type": "guides-books"
 },
