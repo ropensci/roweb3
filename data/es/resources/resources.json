@@ -55,7 +55,7 @@
 },
 {
 "title": "Libros",
-"text": "Libros electrónicos sobre nuestras herramientas",
+"text": "Libros electrónicos sobre paquetes R de rOpenSci, buena practíca de desarrollo de software R, y otras herramientas",
 "url": "https://books.ropensci.org",
 "type": "guides-books"
 },
