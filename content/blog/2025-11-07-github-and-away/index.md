@@ -3,7 +3,7 @@ title: Code hosting options beyond GitHub
 author: 
 - Mark Padgham
 editor:
-date: '2025-10-17'
+date: '2025-11-07'
 slug: beyond-github
 description: How to manage and mirror code repositories across different platforms.
 output: hugodown::md_document
@@ -148,15 +148,15 @@ Running `git push other <branch>` will then push that branch to all remote URLs 
 
 Yet another approach is to define a [custom command](https://stackoverflow.com/questions/60060217/how-do-i-make-custom-git-commands) for `git push` to call a local script.
 This can be done by adding some "gitbin" directory to a default system `PATH` variable (in `.bashrc`, for example, as `export PATH="$PATH:$HOME/.gitbin"`).
-Git will automatically recognise any scripts within `$PATH` named with the prefix "git-".
+Git will automatically recognize any scripts within `$PATH` named with the prefix "git-".
 It is best to name locally-defined Git commands differently to standard Git commands.
 For example, a file named `git-pushall` placed in that folder will be called by the `git pushall` command.
 The file itself could contain any of the options described in [this StackOverflow answer](https://stackoverflow.com/a/18674313).
 Even more arcane alternatives include my own [git push bash script](https://github.com/mpadge/dotfiles/blob/main/system/gitpush.bash) which recreates the now obsolete push-by-password functionality of GitHub, while also pushing to all other listed remote sources.
 
-### Synchronising multiple remotes
+### Synchronizing multiple remotes
 
-As with `git remote` setups described above, there are several ways to synchronise multiple remote instances of a single repository.
+As with `git remote` setups described above, there are several ways to synchronize multiple remote instances of a single repository.
 The pure Git way is to use local commands like those described and linked to above, to `git push` changes to all remote locations.
 (This is the approach recommended by GitHub, but GitHub is an anomaly among code hosting platforms in offering no easy ability to interact with other platforms.)
 
