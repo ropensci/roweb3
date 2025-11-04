@@ -182,6 +182,31 @@ An example is Doug Kelkhoff's [`github.com/dgkf/options` package](https://github
 That primary location then displays the full contents of the root README file.
 This trick only works for GitHub - all other platforms display the root README file at all times.
 
+## Works of warning
+
+Whatever approach you decide to explore, you're bound to realise that managing code distributed across multiple platforms is more difficult that on a single site.
+Many features you might be used from GitHub, for example, may not be implemented on other platforms, or may have other names and inconsistent behaviours.
+One example is the concept of "Releases", which GitHub associates with Git tabs, and then enables you to upload additional data to be associated with a release.
+This whole procedure has little to do with Git, and a lot to do with design decisions by GitHub.
+Other platforms offer similar functionality, but even then with caveats like:
+
+- Codeberg can perfect mirror all GitHub releases, but does not do so by default.
+  You need to:
+    - Go to repository "_Settings_" to enable releases
+    - Explicitly `git push --tags codeberg <branch-name>` to push all Git tags, as they are not by default included in Codeberg's mirroring process.
+
+  You should then see a perfect mirror of all GitHub releases, including all ("LFS" = "Large File Storage") data.
+  From that point on, you can also create releases with associated release data on Codeberg just like on GitHub.
+- GitLab also does not mirror releases by default, and unfortunately also does not (currently) automatically track tags like Codeberg does.
+  To mirror releases on GitLab, you need to.
+    - `git push --tags gitlab <branch_name>`, just like on Codeberg, to explicitly push all Git tags.
+    - Manually go through each tag and issue a new release, for which you can retrospectively set the release data to be the same historical date as the original GitHub release date.
+
+There are many other ways small and large by which different code-hosting platforms and systems differ from one another.
+Ongoing maintenance across different platforms will always present challenges, but we hope to have given you enough information here to get you started.
+
+
+
 ## rOpenSci repos on Codeberg, GitLab, or elsewhere
 
 If you're an author of an rOpenSci package, you can follow the steps described above to mirror your code to any location on Codeberg, GitLab, or to any other platform.
