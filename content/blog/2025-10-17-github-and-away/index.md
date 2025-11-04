@@ -11,6 +11,11 @@ tags:
   - tech notes
 params:
   doi: "10.59350/bhr5x-d3429"
+editor:
+- Maëlle Salmon
+- Adam Sparks
+- Eric Scott
+- Doug Kelkhoff
 ---
 
 rOpenSci peer-review has to date been exclusively conducted [on GitHub](https://github.com/ropensci/software-review/issues?q=sort%3Aupdated-desc%20is%3Aissue%20state%3Aclosed).
