@@ -19,8 +19,8 @@ rOpenSci also has an organizational presence on both [GitLab](https://gitlab.com
 This post describes how rOpenSci community members can use these - and any other - alternative platforms[^1]
 The use of alternative platforms is a form of decentralization, with each additional platform used lowering the risk of negative consequences associated with any particular platform.
 
-[^1]: [tangled](https://tangled.org) is a _distributed_ system for code hosting, so technically not a platform.
-We nevertheless use the word "platform" to simply any cost-hosting system, including [tangled](https://tangled.org).
+[^1]: [tangled](https://tangled.org) is a _distributed_ system for code hosting, so technically not a platform, and the "backend" of Codeberg, [forgejo](https://forgejo.org/), also [supports federation](https://forgejo.org/faq/#is-there-a-roadmap-for-forgejo).
+We nevertheless use the word "platform" to simply any cost-hosting system, including [tangled](https://tangled.org), and other federated systems.
 
 ## Code (still) needs a single home
 
@@ -171,6 +171,11 @@ An example is [this workflow](https://github.com/ropensci/osmdata/blob/main/.git
 Regardless of how your structure and disperse your code across multiple platforms, it's generally useful to maintain a single, primary "home".
 (This is of course not at all necessary; if you enjoy dividing your attention across different platforms, please do so, and ignore this section.)
 We recommend advertising your primary code location at the top of your README.md document, something along the lines of [this example](https://github.com/ropensci/osmdata#osmdata-), and clearly stating whether or not you will respond to "issues" (or whatever platform-specific interactions may be called) on any other platforms.
+
+If your primary home is _not_ GitHub, then you can create an additional GitHub-specific `.github/README.md` file which will then be displayed on GitHub only, while all other platforms will display the root README contents.
+An example is Doug Kelkhoff's [`github.com/dgkf/options` package](https://github.com/dgkf/options) which has a [`.github/README.md`](https://github.com/dgkf/options/tree/main/.github) explaining that GitHub hosts a read-only mirror of the repository, and directing people to the primary location at [`codeberg.org/dgkf/options`](https://codeberg.org/dgkf/options).
+That primary location then displays the full contents of the root README file.
+This trick only works for GitHub - all other platforms display the root README file at all times.
 
 ## rOpenSci repos on Codeberg, GitLab, or elsewhere
 
