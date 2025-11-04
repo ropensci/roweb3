@@ -25,7 +25,7 @@ We nevertheless use the word "platform" to simply any cost-hosting system, inclu
 ## Code (still) needs a single home
 
 All platforms described here are based on [Git](https://git-scm.com/), which is generally used in a centralized way, through associating code with a single, main repository to which changes can be _pushed_, or from which changes can be _pulled_.
-There is a single connection between code on your local machine and this single main version.
+This kind of workflow assumes a single connection between code on your local machine and this single main version.
 Code can of course be hosted anywhere, and we aim here to show how easy it is for code to be simultaneously hosted on an arbitrary number of platforms.
 
 Hosting code in multiple locations creates multiple connections between local and remote versions.
@@ -117,7 +117,7 @@ These options include "issues", "Pull requests", "Labels", "Milestones", and "Re
 For that, you just need to paste a GitHub token in the Codeberg field, ensuring that the token has at least read access to all aspects you want transferred.
 GitLab transfers issues, pull requests, tags, and releases by default, with even more possible through provision of a GitHub access token.
 In both cases, transfer can take some time (10-20 minutes or more), following which all issues will appear exactly as on GitHub, but generally minus the hyperlinks described above.
-Other code hosting platforms like [SourceHut](https://sr.ht/), or the distributed hosting system [tangled](https://tangled.org/) do not provide facilities for directly transferring or mirroring issues or pull requests.
+Other code hosting platforms like [SourceHut](https://sr.ht/), or the distributed hosting system [tangled](https://tangled.org/) do not provide facilities for directly transferring or mirroring issues or pull requests (and in fact generally don't even have such things, as they really are specific to the GitHub platform; [SourceHut](https://sr.ht), for example, implements its own systems of "todos" and "patches".)
 
 
 ## Managing one repository across multiple platforms
@@ -179,10 +179,11 @@ This trick only works for GitHub - all other platforms display the root README f
 
 ## rOpenSci repos on Codeberg, GitLab, or elsewhere
 
-We don't yet have any automated tooling for authors to rOpenSci packages to mirror repositories on other platforms.
-If you are an author of an rOpenSci package, and would like to set up mirrors on either [Codeberg/ropensci](https://codeberg.org/ropensci) or [GitLab/ropensci](https://gitlab.com/ropensci), you'll have to ask us to do the initial set up.
-The best way is to ping @ropensci/admin directly from a GitHub issue in your repository, and we'll start the process.
+If you're an author of an rOpenSci package, you can follow the steps described above to mirror your code to any location on Codeberg, GitLab, or to any other platform.
+Please let us know if you'd like any of these platforms other than GitHub to act as the primary home for your code, and we'll update our internal data accordingly.
+We recommend moving repositories either to personal domains on these platforms, or to other organizational domains to which you have administrative access.
 
-Authors of rOpenSci packages may also use platforms other than GitHub as the _main_ source for their repositories, rather than just as mirrors.
-For either Codeberg or GitLab, we'll need to help with the initial transfer anyway, and you can let us know then which platform you'd like designated as your primary repository.
-If you wish to use a platform other than GitHub, Codeberg, or GitLab as the primary home, then you can arrange transfer yourself, but please let us know so that we can ensure that our internal data appropriately reflect your repository's primary location.
+We also maintain the organizations [Codeberg/ropensci](https://codeberg.org/ropensci) or [GitLab/ropensci](https://gitlab.com/ropensci).
+Note, however, that mirroring to either of these locations must be initiated by rOpenSci staff, only after which can we grant you administrative access over your repositories.
+To reduce the burden on rOpenSci staff, and to enable you to retain full control over your repositories, we therefore recommend that you mirror [GitHub/ropensci](https://github.com/ropensci) repositories to other locations (such as within your personal repositories) on these alternative platforms to which you have direct administrative access.
+If you would nevertheless like your [GitHub/ropensci](https://github.com/ropensci) package mirrored to either [Codeberg/ropensci](https://codeberg.org/ropensci) or [GitLab/ropensci](https://gitlab.com/ropensci), the best way is to ping `@ropesnci/admin` from a GitHub issue in your repository, and we'll start the process.
