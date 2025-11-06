@@ -4,6 +4,7 @@ author:
 - Julien Chiquet
 - François-David Collin
 - Marie-Pierre Etienne
+- Pierre Neuvial
 - Aymeric Stamm
 - Nelle Varoquaux
 slug: computo-journal-reproducible-research-statistics-machine-learning
