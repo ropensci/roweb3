@@ -1,6 +1,6 @@
 ---
 name: Daniel Vartanian
-bio: Researcher at the University of São Paulo
+bio: Pesquisador da Universidade de São Paulo
 link: https://danielvartan.com/
 github: danielvartan
 linkedin: danielvartan
