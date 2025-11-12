@@ -51,7 +51,13 @@ Todas as tarefas relacionadas a esse projeto de tradução para o português for
 
 A tradução inicial era submetida ao repositório através de um *Pull Request* (PR), para que pudesse ser revisada antes de ser integrada ao guia. Em seguida, duas pessoas diferentes realizavam a revisão do texto traduzido automaticamente. A participação de duas pessoas revisoras foi fundamental para refinar o resultado e garantir a fluidez do texto. Após a consolidação com as sugestões das pessoas revisoras, o PR era aceito.
 
-[TODO: COLOCAR A IMAGEM 2 AQUI]
+
+**Figura 2** - Representação visual do processo de tradução feita para cada capítulo do Dev Guide. 
+
+{{< figure src="fig-2-pt.png"  alt="Representação visual do processo de tradução feita para cada capítulo: 1) Arquivo original (index.Rmd);  2) Tradução automática (API); 3) Arquivo traduzido (index.pt.Rmd); 4) Revisão 1; 5) Revisão 2; 6) Revisão concluída (Merged)." >}}
+
+Fonte: Elaborado por Francesca Belem Lopes Palmeira.
+
 
 Este ano teremos a publicação da nova versão do Dev Guide, incluindo a tradução para o português. Todas as pessoas que participaram desse trabalho de tradução e revisão serão creditadas como autoras da tradução. Essa versão contará com um DOI (*Digital Object Identifier*) próprio e o PDF ficará disponível no [Zenodo](https://zenodo.org/), além do site oficial do guia, permitindo que a tradução seja citada formalmente usando essas informações.
 
