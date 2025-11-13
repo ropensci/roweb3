@@ -39,7 +39,11 @@ Em um segundo momento, para manter o engajamento, houve uma chamada comunitária
 
 Com o passar do tempo, mais pessoas se juntaram ao projeto e a tradução foi concluída em outubro de 2025. Mais de dois anos se passaram entre as primeiras linhas traduzidas e a concretização dessa iniciativa de tradução colaborativa.
 
-[TODO: COLOCAR A IMAGEM 1 AQUI]
+**Figura 1** - Linha do tempo de como os eventos se desenrolaram. 
+
+{{< figure src="fig-1-pt.png"  alt="Linha do tempo, iniciando em junho de 2023 até outubro de 2025." >}}
+
+Fonte: Elaborado por Francesca Belem Lopes Palmeira e Ariana Moura Cabral.
 
 ## Processo de tradução
 
