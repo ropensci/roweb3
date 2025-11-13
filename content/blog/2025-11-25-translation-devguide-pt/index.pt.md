@@ -116,6 +116,10 @@ TODO: EM BREVE!
 Mesmo já tendo experiência com desenvolvimento de pacotes, revisar os capítulos foi uma oportunidade de aprender mais e me atualizar sobre as boas práticas. Até então, não tínhamos um material tão completo em português, gratuito e online sobre desenvolvimento de pacotes em R. A versão traduzida do Dev Guide será muito útil para as pessoas que querem aprender mais sobre desenvolvimento de pacotes, mesmo para quem não pretende submeter um pacote à revisão por pares da rOpenSci.
 {{< /quote >}}
 
+{{< quote footer="Daniel Vartanian">}}
+Traduzir um texto para um idioma com tantos dialetos como o português apresentou diversos desafios. Por exemplo, qual variante usar: a do Brasil, de Portugal, de Angola ou de outro país lusófono? O pronome "você" é muito comum entre falantes do português brasileiro, mas seu uso pode soar estranho para falantes do português de Portugal. Nenhuma tradução agradará a todos, mas a equipe se esforçou para refletir sobre essas questões e, na medida do possível, propor soluções satisfatórias. Aprendi muito durante esse processo e nos debates que surgiram. Espero que a tradução do Dev Guide para o português contribua para a inclusão de mais falantes do idioma e para a disseminação de boas práticas no desenvolvimento em R.
+{{< /quote >}}
+
 ## Desafios
 
 Traduzir um material vai muito além de simplesmente trocar palavras de um idioma para outro. Na verdade, é um processo cheio de nuances e vários desafios podem surgir ao longo do caminho.
