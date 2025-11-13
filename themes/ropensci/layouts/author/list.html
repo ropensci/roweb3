@@ -1,5 +1,8 @@
 {{ define "main" }}
 {{ $src := ( partial "blogs/author-img" . ) }}
+
+{{ with .Params.name }}
+
 <section class="section">
   <div class="container">
     <!-- Header text -->
@@ -80,4 +83,7 @@
       </div>
   </div>
 </section>
+{{ else }}
+{{ errorf "Missing author file for %s." .Name }}
+{{ end }}
 {{ end }}
