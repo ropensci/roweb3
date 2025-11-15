@@ -109,7 +109,7 @@ Um ponto interessante desse projeto foi a metodologia utilizada, que é baseada 
 
 
 {{< quote footer="Ariana Moura Cabral">}}
-TODO: EM BREVE!
+Para mim, contribuir para este projeto de tradução foi uma jornada tanto de aprendizado quanto de troca. Por um lado, pude conhecer pessoas que, assim como eu, prezam por disseminar o conhecimento e acreditam no poder transformador das palavras, conhecer um pouco melhor os valores da rOpenSci e ainda me atualizar quanto às boas práticas de desenvolvimento e gerenciamento de pacotes em R. Por outro lado, tive a oportunidade de contribuir, mesmo que um pouquinho, para o aprendizado de outras pessoas — algo que, para mim, é muito gratificante. Espero que o material traduzido abra novos caminhos para aqueles que também apreciam a linguagem R e buscam compreender e mergulhar nesse vasto universo. No fim, percebo que essa experiência reflete um ciclo contínuo de partilha e crescimento, o que me faz lembrar as palavras de Cora Coralina: “feliz aquele que transfere o que sabe e aprende o que ensina”.
 {{< /quote >}}
 
 {{< quote footer="Beatriz Milz">}}
