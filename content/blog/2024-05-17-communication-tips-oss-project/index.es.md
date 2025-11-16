@@ -5,12 +5,13 @@ author:
 editor:
 - Mark Padgham
 date: '2024-05-17'
+translator: Juan Cruz Enrique
 slug: communication-tips-oss-project
 output: hugodown::md_document
 tags:
-- community
+- comunidad
 params:
-  doi: 10.59350/8sqxt-7zp92
+  doi: 10.59350/vm4tg-kwr90
 ---
 
 ¿Mantienes un proyecto de código abierto, como un paquete R o una colección de ellos, te preguntas cómo utilizar mejor los distintos canales de comunicación para informar a tu comunidad de usuarios y comprometerte con ella?
@@ -44,7 +45,7 @@ Mantener y responder a las incidencias es una parte importante del mantenimiento
 El uso de incidencias en tu proyecto puede anunciarse a través de una incidencia anclada; incluso podrías [limitar temporalmente las interacciones](https://docs.github.com/en/communities/moderating-comments-and-conversations/limiting-interactions-in-your-repository).
 Estas condiciones y enlaces son para GitHub, pero existen ideas y características similares para otras plataformas de código.
 
-## Necesario: Perfiles de proyecto polacos
+## Necesario: Perfiles de proyecto pulidos
 
 Todo software de código abierto tiene un perfil, potencialmente repartido por muchos lugares, como organizaciones de GitHub o cuentas de Mastodon. Un logotipo puede ser un identificador clave de tu perfil, y debe aparecer de forma coherente en todos tus perfiles. También es importante incluir descripciones informativas, y verificar todas las URL ([docs para GitHub](https://docs.github.com/en/organizations/managing-organization-settings/verifying-or-approving-a-domain-for-your-organization), [docs para Mastodon](https://joinmastodon.org/verification)).
 
