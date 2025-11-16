@@ -6,6 +6,7 @@ translator:
 - Francesca Belem Lopes Palmeira
 editor:
 - Steffi LaZerte
+- Yanina Bellini Saibene
 date: '2024-03-18'
 slug: dry-damp
 output: hugodown::md_document
