@@ -2,19 +2,21 @@
 title: Um exemplo dos princípios DRY/DAMP para testes de pacotes
 author:
 - Maëlle Salmon
+translator: 
+- Francesca Belem Lopes Palmeira
 editor:
 - Steffi LaZerte
 date: '2024-03-18'
 slug: dry-damp
 output: hugodown::md_document
 tags:
-- tech notes
-- package development
-- champions program
+- notas técnicas
+- desenvolvimento de pacotes
+- programa de campeões e campeõas
 - how-to
 - testing
 params:
-  doi: 10.59350/yt047-xf054
+  doi: 10.59350/bymbn-0sj70
 ---
 
 rOpenSci's [O segundo grupo de campeões e campeãs foi integrado](/blog/2024/02/15/champions-program-champions-2024/)!
