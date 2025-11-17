@@ -96,7 +96,7 @@ A seguir, são listados, em ordem alfabética, os nomes dessas pessoas:
 
 -   Samuel Carleial Fernandes, Brasil
 
-Além disso, a gestão deste projeto de tradução foi realizada por [Yanina Bellini Saibene](https://yabellini.netlify.app/), gestora de comunidades da rOpenSci. Outras pessoas da equipe da rOpenSci também foram importantes na revisão de Pull Requests, como a [Maëlle Salmon](http://masalmon.eu/).
+Além disso, a gestão deste projeto de tradução foi realizada por [Yanina Bellini Saibene](https://yabellini.netlify.app/), gestora de comunidades da rOpenSci. Outras pessoas da equipe da rOpenSci também foram importantes na revisão de Pull Requests, como a [Maëlle Salmon](https://masalmon.eu/).
 
 ## Depoimentos
 

@@ -95,7 +95,7 @@ Below is a list of the contributors, in alphabetical order:
 
 -   Samuel Carleial Fernandes, Brasil
 
-In addition, the translation project was coordinated by [Yanina Bellini Saibene](https://yabellini.netlify.app/), rOpenSci’s Community Manager. Other members of the rOpenSci team also played key roles in reviewing Pull Requests, including [Maëlle Salmon](http://masalmon.eu/).
+In addition, the translation project was coordinated by [Yanina Bellini Saibene](https://yabellini.netlify.app/), rOpenSci’s Community Manager. Other members of the rOpenSci team also played key roles in reviewing Pull Requests, including [Maëlle Salmon](https://masalmon.eu/).
 
 ## Testimonials
 
