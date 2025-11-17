@@ -70,7 +70,7 @@ Este ano teremos a publicação da nova versão do Dev Guide, incluindo a tradu�
 
 ## Equipe envolvida na tradução
 
-O Dev Guide é composto de diversos capítulos, e por este motivo, muitas pessoas participaram e colaboraram no processo de revisão. A participação da comunidade foi fundamental para concluir cada etapa desse processo. Além disso, a colaboração entre pessoas de diferentes países lusófonos enriqueceu o processo de tradução, tornando-o mais plural e trazendo diversidade de perspectivas. Foi muito especial ver que tivemos pessoas da Angola, do Brasil e de Portugal colaborando na tradução, essa pluralidade também faz parte da força do projeto.
+O Dev Guide é composto de diversos capítulos e, por este motivo, muitas pessoas participaram e colaboraram no processo de revisão. A participação da comunidade foi fundamental para concluir cada etapa desse processo. Além disso, a colaboração entre pessoas de diferentes países lusófonos enriqueceu o processo de tradução, tornando-o mais plural e trazendo diversidade de perspectivas. Foi muito especial ver que tivemos pessoas da Angola, do Brasil e de Portugal colaborando na tradução, essa pluralidade também faz parte da força do projeto.
 
 A seguir, são listados, em ordem alfabética, os nomes dessas pessoas:
 
