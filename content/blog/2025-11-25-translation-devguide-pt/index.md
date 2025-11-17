@@ -39,7 +39,7 @@ The initiative continued to take shape and gradually reached more people. Among 
 
 Over time, rOpenSci organized several meetings to introduce the initiative, connect contributors, and keep the enthusiasm for the translation alive. The first of these was an online session ("[Translating the rOpenSci Dev Guide into Portuguese](/events/portuguese-translation/)"), where Pedro presented the translation workflow. Those interested in collaborating joined the rOpenSci Slack and began working on the revisions.
 
-As a next step to maintain engagement, a community call in Portuguese was held, "[A Comunidade R Fala Português](/commcalls/translation-portuguese/)", was held, marking the first rOpenSci event conducted in that language. In addition to sharing updates on the Portuguese translation project, the call highlighted other similar initiatives within the R community. To further encourage participation, a [translation hackathon](https://latinr.org/en/cronograma/translaton/translaton-en.html) was organized in partnership with the [LatinR](https://latinr.org/pt/) conference later that same year. Pedro Faria, Beatriz Milz, and Francesca Belem Lopes Palmeira led both activities, presenting the initiative, guiding discussions, and inspiring collaborative contributions.
+As a next step to maintain engagement, a community call in Portuguese was held, "[The community speaks Portuguese](/commcalls/translation-portuguese/)", was held, marking the first rOpenSci event conducted in that language. In addition to sharing updates on the Portuguese translation project, the call highlighted other similar initiatives within the R community. To further encourage participation, a [translation hackathon](https://latinr.org/en/cronograma/translaton/translaton-en.html) was organized in partnership with the [LatinR](https://latinr.org/pt/) conference later that same year. Pedro Faria, Beatriz Milz, and Francesca Belem Lopes Palmeira led both activities, presenting the initiative, guiding discussions, and inspiring collaborative contributions.
 
 Over time, more people joined the project, and the translation was completed in October 2025. More than two years passed between the first translated lines and the completion of this collaborative translation initiative.
 
@@ -75,25 +75,25 @@ Below is a list of the contributors, in alphabetical order:
 
 -   António Pedro, Angola
 
--   Ariana Moura Cabral, Brasil
+-   Ariana Moura Cabral, Brazil
 
--   Beatriz Milz, Brasil
+-   Beatriz Milz, Brazil
 
--   Daniel Vartanian, Brasil
+-   Daniel Vartanian, Brazil
 
--   Francesca Belem Lopes Palmeira, Brasil
+-   Francesca Belem Lopes Palmeira, Brazil
 
 -   Ildeberto Vasconcelos, Angola
 
 -   João Granja-Correia, Portugal
 
--   Marcelo Perlin, Brasil
+-   Marcelo Perlin, Brazil
 
--   Pedro Faria, Brasil
+-   Pedro Faria, Brazil
 
--   Rafael Fontenelle, Brasil
+-   Rafael Fontenelle, Brazil
 
--   Samuel Carleial Fernandes, Brasil
+-   Samuel Carleial Fernandes, Brazil
 
 In addition, the translation project was coordinated by [Yanina Bellini Saibene](https://yabellini.netlify.app/), rOpenSci’s Community Manager. Other members of the rOpenSci team also played key roles in reviewing Pull Requests, including [Maëlle Salmon](https://masalmon.eu/).
 
@@ -111,7 +111,7 @@ One interesting aspect of this project was the methodology used, which relied on
 
 {{< quote footer="Ariana Moura Cabral">}}
 
-For me, contributing to this translation project was both a learning journey and an exchange of experiences. On one hand, I was able to meet people who, like me, value knowledge sharing and believe in the transformative power of words, learn more about rOpenSci’s values, and update myself on best practices for developing and managing R packages. On the other hand, I had the chance to contribute, even if just a little, to someone else’s learning, which is deeply rewarding to me. I hope the translated material opens new pathways for those who also appreciate the R language and wish to explore its vast universe. In the end, I see this experience as a continuous cycle of sharing and growth, which reminds me of the words of Cora Coralina: “Happy is he who transfers what he knows and learns what he teaches.”
+For me, contributing to this translation project was both a learning journey and an exchange of experiences. On one hand, I was able to meet people who, like me, value knowledge sharing and believe in the transformative power of words, learn more about rOpenSci’s values, and update myself on best practices for developing and managing R packages. On the other hand, I had the chance to contribute, even if just a little, to someone else's learning, which is deeply rewarding to me. I hope the translated material opens new pathways for those who also appreciate the R language and wish to explore its vast universe. In the end, I see this experience as a continuous cycle of sharing and growth, which reminds me of the words of Cora Coralina: “Happy is he who transfers what he knows and learns what he teaches.”
 {{< /quote >}}
 
 {{< quote footer="Beatriz Milz">}}
