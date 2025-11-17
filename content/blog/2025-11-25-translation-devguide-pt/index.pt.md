@@ -24,7 +24,7 @@ Inicialmente, o Dev Guide foi concebido em [inglês](https://devguide.ropensci.o
 
 ## Por que traduzir o Dev Guide para o português?
 
-A tradução do Dev Guide faz parte de um esforço mais amplo da rOpenSci para reduzir barreiras linguísticas na comunidade científica. Isso porque o inglês ainda é o idioma predominante em materiais técnicos e científicos, o que limita a participação de pessoas que não o dominam. 
+A tradução do Dev Guide faz parte de um esforço mais amplo da rOpenSci para reduzir barreiras linguísticas na comunidade científica. Isso porque o inglês ainda é o idioma predominante em materiais técnicos e científicos, o que limita a participação de pessoas que não o dominam.
 
 O português é a sexta língua mais falada do mundo e conecta comunidades de pesquisa na América Latina, Europa e África. Traduzir o guia é uma forma concreta de ampliar a diversidade de contribuições, fortalecer comunidades locais e incentivar a revisão e o desenvolvimento de pacotes em R em países lusófonos.
 
@@ -38,7 +38,7 @@ A iniciativa continuou ganhando forma e, pouco a pouco, foi atingindo mais pesso
 
 Ao longo do tempo, a rOpenSci promoveu alguns encontros com o intuito de apresentar a iniciativa, aproximar as pessoas colaboradoras e manter vivo o entusiasmo pela tradução. Em um primeiro momento, a rOpenSci organizou uma reunião online (“[Traduzindo o Guia Dev da rOpenSci para o Português](https://ropensci.org/events/portuguese-translation/)”), na qual o Pedro apresentou o processo de tradução. As pessoas interessadas em colaborar entraram no Slack da rOpenSci e passaram a trabalhar nas revisões.
 
-Em um segundo momento, para manter o engajamento, houve uma chamada comunitária em português, “[A Comunidade R Fala Português](https://ropensci.org/commcalls/translation-portuguese/)”, sendo o primeiro encontro realizado nessa língua. Nessa oportunidade, além da divulgação do projeto da rOpenSci de tradução para o português, também foram apresentados outros projetos similares conduzidos dentro da comunidade R. Para inspirar as pessoas a participarem, foi realizado ainda um [hackathon de tradução](https://latinr.org/en/cronograma/translaton/translaton-en.html) em conjunto com o evento [LatinR](https://latinr.org/pt/) naquele mesmo ano. Pedro Faria, Beatriz Milz e Francesca Palmeira estiveram à frente desses dois eventos, apresentando a iniciativa, guiando as discussões e inspirando a colaboração entre as pessoas.
+Em um segundo momento, para manter o engajamento, houve uma chamada comunitária em português, “[A Comunidade R Fala Português](https://ropensci.org/commcalls/translation-portuguese/)”, sendo o primeiro encontro realizado nessa língua. Nessa oportunidade, além da divulgação do projeto da rOpenSci de tradução para o português, também foram apresentados outros projetos similares conduzidos dentro da comunidade R. Para inspirar as pessoas a participarem, foi realizado ainda um [hackathon de tradução](https://latinr.org/en/cronograma/translaton/translaton-en.html) em conjunto com o evento [LatinR](https://latinr.org/pt/) naquele mesmo ano. Pedro Faria, Beatriz Milz e Francesca Belem Lopes Palmeira estiveram à frente desses dois eventos, apresentando a iniciativa, guiando as discussões e inspirando a colaboração entre as pessoas.
 
 Com o passar do tempo, mais pessoas se juntaram ao projeto e a tradução foi concluída em outubro de 2025. Mais de dois anos se passaram entre as primeiras linhas traduzidas e a concretização dessa iniciativa de tradução colaborativa.
 
@@ -100,7 +100,7 @@ Além disso, a gestão deste projeto de tradução foi realizada por [Yanina Bel
 
 ## Depoimentos
 
-{{< quote footer="Francesca Palmeira">}}
+{{< quote footer="Francesca Belem Lopes Palmeira">}}
 Participar do projeto de tradução do Dev Guide para o português foi uma experiência muito enriquecedora para a minha trajetória profissional. Foi a primeira vez que trabalhei utilizando um processo de revisão por pares transparente, reprodutível e colaborativo. De modo geral, está sendo muito satisfatório ver o projeto pronto e acessível para toda a comunidade lusófona.
 {{< /quote >}}
 
