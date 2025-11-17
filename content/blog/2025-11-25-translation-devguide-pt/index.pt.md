@@ -9,7 +9,7 @@ author:
   - Daniel Vartanian
   - Pedro Faria
 date: '2025-11-25'
-description: "Estamos muito felizes em anunciar que nosso guia de desenvolvimento, manutenção de pacotes e revisão por pares agora está disponível em português. Nesta postagem do blog, os protagonistas do projeto de tradução contam como foi o processo, os desafios, os resultados e o que significou para eles participar."
+description: "Estamos muito felizes em anunciar que nosso guia de desenvolvimento, manutenção de pacotes e revisão por pares agora está disponível em português. Nesta postagem do blog, as pessoas protagonistas do projeto de tradução contam como foi o processo, os desafios, os resultados e o que significou para eles participar."
 tags:
   - comunidade
   - revisão por pares
