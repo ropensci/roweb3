@@ -6,7 +6,7 @@ author:
 date: '2025-11-28'
 tags:
   - newsletter
-description: R-multiverse comm call, useR! 2025, posit::conf(2025), coworking, new package, package news
+description: LatinR, posit::conf(2025) recordings, coworking, new package, package news
 params:
   last_newsletter: '2025-10-24'
   doi: "10.59350/7pygv-c1m20"
@@ -51,14 +51,14 @@ TODO YANI
 ### Big Team Collaboration on Data Management and Analysis with rOpenSci
 
 [Liz Hare](/author/liz-hare) and [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) gave a talk on Big Team Collaboration on Software Peer Review with rOpenSci at the Big Team Science Conference 2025.
-The slides and recording have been [posted](https://ropensci.org/events/csidnetwork-2025/)!
+The slides and recording have been [posted](/events/BTSConf-2025)!
 
 ### rOpenSci at posit::conf(2025): recordings
 
-Recordings from posit::conf(2025) are now publicly available on YouTube!
+Recordings from posit::conf(2025) are now [publicly available](https://posit.co/blog/talks-and-workshops-from-posit-conf-2025/) on YouTube!
 Many excellent talks to enjoy and learn from, including those from rOpensci community members.
 
-* [Mauro Lepore](/author/mauro-lepore) and [Eric Scott](/author/eric-scott) both presented [lightning talks](https://reg.conf.posit.co/flow/posit/positconf25/attendee-portal/page/sessioncatalog/session/1745351143742001aTfb). Mauro talked about ["Approaching Positron from RStudio"](https://www.youtube.com/watch?v=X6PZ_RiZp44), Eric about ["Enabling geospatial workflow management with targets: an R package origin story"](https://www.youtube.com/watch?v=RmTtugX1CoE).
+* [Mauro Lepore](/author/mauro-lepore) and [Eric Scott](/author/eric-scott) both presented lightning talks. Mauro talked about ["Approaching Positron from RStudio"](https://www.youtube.com/watch?v=X6PZ_RiZp44), Eric about ["Enabling geospatial workflow management with targets: an R package origin story"](https://www.youtube.com/watch?v=RmTtugX1CoE).
 
 * [Will Landau](/author/will-landau/) gave his talk ["R-multiverse: a next-generation R package repository system built on R-universe"](https://www.youtube.com/watch?v=UseltnRVoFo).
 
@@ -540,9 +540,14 @@ format_post <- function(dir) {
   }
   
   if (post$socialImg != "") {
+    if (!startsWith(post$socialImg, "https")) {
     img_file <- fs::path_file(post$socialImg)
     download.file(sprintf("https://ropensci.org/%s", post$socialImg), img_file)
     img_file %>% magick::image_read() %>% magick::image_scale("400x") %>% magick::image_write(img_file)
+    } else {
+      img_file <- post$socialImg
+    }
+
     string <- paste0(
       string, "\n```{=html}\n",
       sprintf('{{< figure src="%s" alt="%s" width="400" >}}\n\n', img_file, post$socialAlt),
@@ -683,6 +688,17 @@ You can rebase all the commits on main (or any branch) using the `--root` option
 So you can type `git rebase -i --root` and, say, combine all the commits into a very deceitful "First commit"!
 
 You can practice [`git rebase -i`](https://docs.ropensci.org/saperlipopette/reference/exo_rebase_i.html) with the saperlipopette R package.
+
+### Some talks from posit::conf(2025)
+
+Besides talks by community members (see HQ section), you can watch recordings of talks relevant to software development:
+
+- [Can I trust this Package](https://youtu.be/g6QU16jOt0g) by Collin S. Gillespie.
+- [Extending the horizons of R with Rust](https://youtu.be/bAA_O_gNhfI) by Andrés Quintero.
+- The keynote talk [The Psychology of Technologists](https://www.youtube.com/watch?v=B-bMX_l3nkk) by Cat Hicks.
+- [The Curse of Documentation](https://youtu.be/ML8z8xkqIA0) by Michael Chow.
+- [Air - A blazingly fast R code formatter](https://youtu.be/DJVSEOjvwb8) by Davis Vaughan and Lionel Henry.
+- [Enemies to lovers: How non-programmers can make sparks fly when using testthat during package development](https://youtu.be/GEP61GjwTjE) by Libby McKenna.
 
 ## Last words
 
