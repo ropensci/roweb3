@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ $src := ( partial "blogs/author-img" . ) }}
 
-{{ with .Params.name }}
+{{ if isset .Params "name" }}
 
 <section class="section">
   <div class="container">
@@ -84,6 +84,6 @@
   </div>
 </section>
 {{ else }}
-{{ errorf "Missing author file for %s." .Name }}
+{{ errorf "Missing author file for %s in language '%s'." .Name .Language.Lang }}
 {{ end }}
 {{ end }}
