@@ -74,7 +74,7 @@ Tente ser um pouco flexível para não sobrecarregar ou assustar as pessoas cola
 
 ## Etapa 3. Divulgue sua necessidade de ajuda
 
-Em primeiro lugar, para os pacotes rOpenSci, as questões de "procura-se ajuda" são transmitidas para a comunidade por meio do site [site](/help-wanted) e publicações nas mídias sociais!
+Em primeiro lugar, para os pacotes da rOpenSci, as *issues* marcadas com a *label* "procura-se ajuda" são transmitidas para a comunidade por meio do [site](/help-wanted) e de publicações nas mídias sociais!
 
 Você também pode compartilhá-lo em suas próprias redes: espaço de trabalho rOpenSci slack, suas mídias sociais, um canal de comunicação local do R User Group etc.
 
