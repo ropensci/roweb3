@@ -84,7 +84,7 @@ Há também uma configuração no RStudio IDE para mostrar uma margem de 80 cara
 
 O espaço vertical é limitado no código, tanto pela tela quanto pelo que a pessoa leitora pode ver de relance (sem considerar os limites de quanto ela pode armazenar em sua cabeça).
 
-Uma maneira de tornar seu código mais curto, mas ainda assim fácil de analisar, é usar *parágrafos de código*.
+Uma maneira de tornar o seu código mais curto, mas ainda assim fácil de analisar, é usar *parágrafos de código*.
 As quebras de linha não são gratuitas, pois ocupam espaço vertical.
 Use quebras de linha para separar blocos de código que fazem algo relacionado.
 Como na prosa, um parágrafo deve corresponder aproximadamente a uma ideia.
