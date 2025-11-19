@@ -10,7 +10,7 @@ date: '2024-03-07'
 slug: package-marketing
 tags:
 - comunidade
-- mantenimento
+- manutenção
 - desenvolvimento de pacotes
 description: Agora que você criou o seu pacote, apresentá-lo ao mundo é uma etapa crucial
   para ganhar visibilidade e atrair usuários(as).  Nesta publicação do blog, sugerimos
