@@ -33,7 +33,7 @@ Para alguns desses casos, quando a tarefa não é muito complexa, ou quando serv
 
 A seguir, abordaremos quatro etapas para solicitar ajuda externa.
 
-## Etapa 1. Selecionar tópicos de "procura-se ajuda"
+## Etapa 1. Selecionar *issues* de "procura-se ajuda"
 
 ### Tópicos que você *que vorealmente* você precisa de ajuda: obstáculos ao desenvolvimento
 
