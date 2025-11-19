@@ -63,7 +63,7 @@ No primeiro bloco, o espaçamento entre os elementos é irregular.
 Por exemplo, não há espaço antes de `height` e não há espaço ao redor do sinal de igual que vem depois de `mass`.
 
 Em vez disso, recomendamos que você siga as regras de espaçamento (e de quebra de linha!) de forma consistente.
-A menos que você tenha um [opinião muito diferente](https://github.com/ropensci-review-tools/spaceout) a estratégia mais fácil é seguir o guia de estilo de seus colaboradores ou um guia de estilo popular como o [guia de estilo do tidyverse](https://style.tidyverse.org/).
+A menos que você tenha uma [opinião muito diferente](https://github.com/ropensci-review-tools/spaceout), a estratégia mais fácil é seguir o guia de estilo de seus colaboradores ou um guia de estilo popular, como o [guia de estilo do tidyverse](https://style.tidyverse.org/).
 
 Então, como você implementa essas regras na prática?
 Primeiro, você precisa estar acostumado a usar um estilo específico.
