@@ -45,7 +45,7 @@ Over time, more people joined the project, and the translation was completed in 
 
 **Figure 1** – Timeline of how the events unfolded.
 
-{{< figure src = "fig-1-en.png" alt = "Timeline, beginning in June 2023 and ending in October 2025." >}}
+{{< figure src = "fig-1-en.png" alt = "" >}}
 
 Source: by Francesca Belem Lopes Palmeira and Ariana Moura Cabral.
 
