@@ -19,7 +19,7 @@ Em nossa opinião, algumas delas são obrigatórias, enquanto outras são desej�
 
 ## Obrigatórias: Ter boas notas de versão
 
-Como você está desenvolvendo um produto, o primeiro ato de comunicação é escrever notas de lançamento informativas.
+Como você está desenvolvendo um produto, o primeiro ato de comunicação é escrever notas de versão (*release notes*) informativas.
 As notas de versão geralmente descrevem atualizações e alterações, geralmente em um arquivo chamado `NEWS.md`. Esses arquivos geralmente têm um cabeçalho por versão, com subcabeçalhos usados para agrupar as alterações em categorias significativas.
 
 Os recursos para você começar a usar as notas de versão incluem:
