@@ -18,7 +18,7 @@ params:
 
 Parte do que pretendemos fazer na rOpenSci é cultivar uma comunidade de pessoas mantenedoras de pacotes que se ajudam mutuamente.
 Além do suporte durante a manutenção do pacote, também queremos dar suporte às pessoas mantenedores que desejam seguir em frente. As situações podem mudar e pode chegar um momento em que uma pessoa que mantém o pacote queira passar a manutenção para outra. Se uma pessoa mantenedora se encontrar nessa situação e quiser transferir a manutenção, nós ajudaremos [divulgando](/blog/2022/10/17/maintain-or-co-maintain-an-ropensci-package/) e também ajudamos a(s) nova(s) pessoa(s) mantenedora(s) com conselhos, geralmente do tipo "olhe ao redor para ver se há algo que precise de conserto e, em seguida, faça a manutenção de rotina".
-Mas o que é manutenção de rotina? Esta postagem é uma tentativa de definir o que significa manutenção de pacotes, com algumas dicas.
+Mas o que é manutenção de rotina? Esta postagem é uma tentativa de definir o que envolve a manutenção de um pacote, com algumas dicas.
 
 ## Manutenção de pacotes como propriedade
 
