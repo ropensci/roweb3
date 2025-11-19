@@ -70,7 +70,7 @@ Além dos esforços em uma *issue* individual, é fundamental que você tenha um
 Não duplique recursos externos; em vez disso, faça um link para eles.
 Tente ser um pouco flexível para não sobrecarregar ou assustar as pessoas colaboradoras com requisitos muito rígidos: você provavelmente pode terminar os PRs sozinho ou ensiná-los aos poucos.
 
-[^ctb]: Você pode encontrar<https://contributing.streamlit.app/> mas outra maneira de aprimorar seu guia de contribuição é continuar a alterá-lo com base na sua experiência com novos colaboradores.
+[^ctb]: Você pode achar <https://contributing.streamlit.app/> útil, mas outra maneira de aprimorar seu guia de contribuição é continuar a alterá-lo com base na sua experiência com novas colaborações.
 
 ## Etapa 3. Divulgue sua necessidade de ajuda
 
