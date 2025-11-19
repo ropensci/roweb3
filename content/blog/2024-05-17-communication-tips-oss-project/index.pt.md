@@ -108,7 +108,7 @@ O ideal é que você concentre o uso da mídia social em [plataformas agradávei
 
 ## Conclusão
 
-Nesta publicação, compartilhamos algumas dicas de comunicação para seu projeto de código aberto.
+Nesta publicação, compartilhamos algumas dicas de comunicação para o seu projeto de código aberto.
 Use os canais de comunicação de acordo com as metas e os recursos de seu projeto.
 Você também pode se interessar por nossa chamada anterior da comunidade [Configure seu pacote para promover uma comunidade](/blog/2021/04/28/commcall-pkg-community/).
 
