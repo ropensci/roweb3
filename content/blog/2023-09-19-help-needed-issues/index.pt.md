@@ -8,11 +8,11 @@ date: '2023-09-19'
 slug: help-wanted
 featured: true
 tags:
-- community
-- packages
-- welcome
-- maintenance
-- contributors
+- comunidades
+- pacotes
+- boas vindas
+- manutenção
+- contribuidores 
 description: Dicas sobre como criar e anunciar anúncios de pedidos de ajuda.
 params:
   doi: 10.59350/zh01g-yby98
