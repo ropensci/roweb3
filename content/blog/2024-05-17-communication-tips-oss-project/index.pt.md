@@ -39,7 +39,7 @@ Eles também serão úteis como matéria-prima para outras iniciativas de comuni
 ## Necessário: Rastreadores de *Issues*
 
 Seus repositórios não devem ter apenas rastreadores de *issues*/tickets, mas você também deve garantir que um número suficiente de pessoas que fazem parte da equipe os acompanhem ou analisem novos tickets ou comentários pelo menos de vez em quando.
-Manter e responder a problemas é uma parte importante da manutenção de uma comunidade de usuários.
+Manter e responder a *issues* é uma parte importante da manutenção de uma comunidade de pessoas usuárias.
 
 O uso de problemas pelo seu projeto pode ser anunciado por meio de um problema fixado; você pode até mesmo [limitar temporariamente as interações](https://docs.github.com/en/communities/moderating-comments-and-conversations/limiting-interactions-in-your-repository).
 Esses termos e links são para o GitHub, mas existem ideias e recursos semelhantes para outras plataformas de hospedagem de código.
