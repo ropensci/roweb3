@@ -56,7 +56,7 @@ O polimento do perfil não precisa levar muito tempo e só pode melhorar a image
 
 Para qualquer plataforma que exija logins ou algum tipo de permissão de acesso, certifique-se de que todas as pessoas que precisam de acesso o tenham e que o acesso seja removido de qualquer pessoa que não precise mais dele.
 
-Talvez você queira examinar sistemas de gerenciamento de senhas, como [1Password](https://1password.com/).
+Você pode considerar o uso de sistemas de gerenciamento de senhas, como o [1Password](https://1password.com/).
 
 Como a composição de uma equipe de desenvolvimento muda com o tempo, talvez seja aconselhável revisar o acesso regularmente e fazer com que essa revisão faça parte de algum tipo de lista de verificação de integração/desinclusão.
 
