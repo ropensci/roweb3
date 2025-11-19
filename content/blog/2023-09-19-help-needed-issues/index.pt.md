@@ -66,7 +66,7 @@ Mesmo que você seja a única pessoa a corrigir o problema no final, no futuro v
 Se necessário, faça links para recursos e certifique-se de incluir o contexto.
 Aborde a redação de uma *issue* em seu próprio repositório da mesma forma que você faria em um repositório que não é seu: descrição do desafio, resultado desejado, perdas e ganhos (*trade-offs*), etc.
 
-Além dos esforços em uma questão individual, é fundamental que você tenha um [guia de contribuição](https://devguide.ropensci.org/collaboration.html#contributing-guide) destacando tudo o que você deve saber sobre como contribuir para o seu pacote: ferramentas usadas, preferências de estilo e design. [^ctb]
+Além dos esforços em uma *issue* individual, é fundamental que você tenha um [guia de contribuição](https://devguide.ropensci.org/collaboration.html#contributing-guide) destacando tudo o que é necessário saber sobre como contribuir para o seu pacote: ferramentas usadas, e preferências de estilo e design. [^ctb]
 Não duplique recursos externos; em vez disso, aponte para eles.
 Tente ser um pouco flexível para não sobrecarregar ou assustar os colaboradores com requisitos muito rígidos: você provavelmente pode terminar os PRs sozinho ou ensiná-los aos poucos.
 
