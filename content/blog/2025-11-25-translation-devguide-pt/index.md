@@ -53,7 +53,7 @@ Over time, more people joined the project, and the translation was completed in 
 
 {{< figure src = "fig-1-en.png" alt = "" >}}
 
-Source: by Francesca Belem Lopes Palmeira and Ariana Moura Cabral.
+Source: Francesca Belem Lopes Palmeira and Ariana Moura Cabral.
 
 ## Translation process
 
