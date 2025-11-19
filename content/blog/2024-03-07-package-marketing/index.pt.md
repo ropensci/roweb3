@@ -5,17 +5,18 @@ author:
 - Maëlle Salmon
 editor:
 - Steffi LaZerte
+translator: Francesca Belem Lopes Palmeira
 date: '2024-03-07'
 slug: package-marketing
 tags:
-- community
-- maintenance
-- package-development
+- comunidade
+- mantenimento
+- desenvolvimento de pacotes
 description: Agora que você criou o seu pacote, apresentá-lo ao mundo é uma etapa crucial
   para ganhar visibilidade e atrair usuários(as).  Nesta publicação do blog, sugerimos
   uma série de atividades e ferramentas para você divulgar o seu pacote.
 params:
-  doi: 10.59350/04b0t-fv224
+  doi: 10.59350/6gcm6-9nm64
 ---
 
 Agora que você criou o seu pacote, apresentá-lo ao mundo é uma etapa crucial para **ganhar visibilidade e atrair usuários(as)**.
