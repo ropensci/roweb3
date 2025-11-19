@@ -72,7 +72,7 @@ Nesta postagem, tentamos apresentar uma visão geral do que significa manter um 
 Tudo isso pode dar muito trabalho e precisa ser equilibrado com as recompensas que esse trabalho proporciona (dependendo da sua situação, elas podem incluir: satisfação pessoal por criar uma ferramenta útil, alegria de colaborar com outras pessoas, remuneração, desenvolvimento de experiência com código, demonstração de suas habilidades, ou reconhecimento pelo seu trabalho).
 
 Se você sentir que não há equilíbrio, considere suas necessidades. Talvez seja hora de tentar recrutar outras pessoas para co-manter, participar de uma comunidade de outras pessoas desenvolvedoras, ou até mesmo encontrar uma nova pessoa mantenedora, ou aposentar o pacote.
-Para os pacotes rOpenSci, podemos ajudar anunciando a necessidade de ajuda do seu pacote, portanto, sinta-se à vontade para entrar em contato conosco.
+Para os pacotes da rOpenSci, podemos ajudar anunciando a necessidade de ajuda do seu pacote, portanto, sinta-se à vontade para entrar em contato conosco.
 Por último, mas não menos importante, nós da rOpenSci gostaríamos de agradecer a todos os mantenedores de pacotes, passados, presentes e futuros! O trabalho que você faz, fez ou fará é valioso e incrível, e nós realmente o apreciamos!
 
 Estamos sempre tentando pensar em maneiras de apoiar os mantenedores de pacotes. Fique à vontade para adicionar um comentário abaixo com qualquer sugestão que você possa ter.
