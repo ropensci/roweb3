@@ -84,7 +84,7 @@ O blog de um projeto de código aberto também pode conter outros tipos de publi
 Ao escolher um construtor de sites, tente escolher um que seja gratuito e que seja familiar para a equipe do seu projeto ou fácil o suficiente para que você se familiarize com ele.
 As postagens de blog baseadas em Markdown são mais fáceis de escrever a partir de notas de versão.
 Certifique-se também de que a publicação de uma nova postagem no blog não seja um processo complicado de 100 etapas, ou ninguém vai querer escrever uma.
-Você pode optar por usar [GitHub para um processo de revisão e visualização de publicações de blog](https://blogguide.ropensci.org/).
+Você pode optar por usar o [GitHub para o processo de revisão e pré-visualização de posts de blog](https://blogguide.ropensci.org/).
 
 Se você criar um blog, certifique-se de criar também um feed RSS para ele.
 Na maioria dos geradores de sites estáticos, isso é padrão ou está disponível quando você ativa uma opção ([docs do Quarto](https://quarto.org/docs/websites/website-blog.html#rss-feed)).
