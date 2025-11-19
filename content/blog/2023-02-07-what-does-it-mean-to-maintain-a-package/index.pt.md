@@ -52,7 +52,7 @@ Bem, infelizmente, essa é uma situação comum. No entanto, embora não exista 
 - Você pode escolher onde seu pacote será publicado. Se as regras de um repositório de publicação forem uma fonte de muita dor em comparação com a facilidade de distribuição, você pode optar por deixá-lo.
 - Você também pode tentar obter financiamento para o seu trabalho. Consulte, por exemplo, a [chamada de propostas da R Consortium](https://www.r-consortium.org/all-projects/call-for-proposals) (duas vezes por ano).
 
-## Manutenção de pacotes como serviço de limpeza
+## Manutenção de pacotes como "arrumação da casa"
 
 Além das solicitações de recursos interessantes, a manutenção de pacotes geralmente garante um trabalho mais "rotineiro".
 
