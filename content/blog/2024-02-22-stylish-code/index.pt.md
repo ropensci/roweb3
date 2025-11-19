@@ -20,7 +20,7 @@ params:
 
 O [segundo grupo de campeões e campeãs](/blog/2024/02/15/champions-program-champions-2024/) da rOpenSci foi integrado!
 O treinamento começou com uma sessão sobre estilo de código, que resumiremos aqui neste post.
-Saber mais sobre a qualidade do código é relevante para todos os projetos da Champion, seja na criação de um novo pacote, no envio de um pacote para revisão de software ou na revisão de um pacote.
+Saber mais sobre a qualidade do código é relevante para todos os projetos da Champion, seja na criação de um novo pacote, no envio de um pacote para a revisão de software ou na revisão de um pacote.
 Essa sessão de treinamento consistiu em uma palestra e discussão, enquanto as próximas sessões de treinamento de desenvolvimento de pacotes serão mais práticas.
 
 ## Por que escrever um código bonito?
