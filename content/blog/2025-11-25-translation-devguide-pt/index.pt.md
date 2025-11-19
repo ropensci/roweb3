@@ -44,7 +44,7 @@ Com o passar do tempo, mais pessoas se juntaram ao projeto e a tradução foi co
 
 **Figura 1** - Linha do tempo de como os eventos se desenrolaram. 
 
-{{< figure src = "fig-1-pt.png"  alt = "Linha do tempo, iniciando em junho de 2023 até outubro de 2025." >}}
+{{< figure src = "fig-1-pt.png"  alt = "" >}}
 
 Fonte: Elaborado por Francesca Belem Lopes Palmeira e Ariana Moura Cabral.
 
@@ -61,7 +61,7 @@ A tradução inicial era submetida ao repositório através de um *Pull Request*
 
 **Figura 2** - Representação visual do processo de tradução feita para cada capítulo do Dev Guide. 
 
-{{< figure src = "fig-2-pt.png"  alt = "Representação visual do processo de tradução feita para cada capítulo: 1) Arquivo original (index.Rmd);  2) Tradução automática (API); 3) Arquivo traduzido (index.pt.Rmd); 4) Revisão 1; 5) Revisão 2; 6) Revisão concluída (Merged)." >}}
+{{< figure src = "fig-2-pt.png"  alt = "" >}}
 
 Fonte: Elaborado por Francesca Belem Lopes Palmeira.
 
