@@ -110,7 +110,7 @@ create_content <- function(website) {
 }
 ```
 
-Em seu livro [Aprenda programação Python assistida por IA](https://www.manning.com/books/learn-ai-assisted-python-programming) Leo Porter e Daniel Zingaro compartilham os atributos de boas funções: Uma tarefa clara a ser executada, comportamento claramente definido, número reduzido de linhas de código, entrada e saída claras, valor geral sobre uso específico.
+Em seu livro [Learn AI-Assisted Python Programming](https://www.manning.com/books/learn-ai-assisted-python-programming) Leo Porter e Daniel Zingaro compartilham os atributos de boas funções como: tarefa clara a ser executada, comportamento claramente definido, número reduzido de linhas de código, entrada e saída claras, valor geral sobre uso específico.
 
 Também é útil saber como navegar rapidamente entre as funções em seu IDE!
 No IDE do RStudio, você pode usar `Ctrl+click` no nome da função ou digitar seu nome na barra de pesquisa acessada com `Ctrl+.`.
