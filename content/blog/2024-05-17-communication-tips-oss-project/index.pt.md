@@ -54,7 +54,7 @@ O polimento do perfil não precisa levar muito tempo e só pode melhorar a image
 
 ## Necessário: Garantir uma gestão cuidadosa de acessos
 
-Para qualquer plataforma que exija logins ou algum tipo de direito de acesso, certifique-se de que todos os que precisam de acesso o tenham e que o acesso seja removido de qualquer pessoa que não precise mais dele.
+Para qualquer plataforma que exija logins ou algum tipo de permissão de acesso, certifique-se de que todas as pessoas que precisam de acesso o tenham e que o acesso seja removido de qualquer pessoa que não precise mais dele.
 
 Talvez você queira examinar sistemas de gerenciamento de senhas, como [1Password](https://1password.com/).
 
