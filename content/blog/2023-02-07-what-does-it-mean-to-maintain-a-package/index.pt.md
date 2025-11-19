@@ -50,7 +50,7 @@ Bem, infelizmente, essa é uma situação comum. No entanto, embora não exista 
 - Você pode ajustar suas diretrizes de contribuição ao longo do tempo. Não é vergonha nenhuma pedir a uma pessoa usuária que forneça um *reprex* em vez de passar horas tentando adivinhar o significado do texto da *issue*. Por meio de diretrizes de contribuição e explicações gentis, você pode transferir perguntas gerais sobre o seu pacote para um local onde seja mais fácil para você, por exemplo, *GitHub Discussions* em vez de *Issues*.
 - Verifique se você realmente está recebendo notificações (o e-mail listado está correto? a opção de acompanhar o repositório (*watch*) está ativada?). Não é necessário ler ou agir imediatamente, mas é importante não perder os avisos.
 - Você pode escolher onde seu pacote será publicado. Se as regras de um repositório de publicação forem uma fonte de muita dor em comparação com a facilidade de distribuição, você pode optar por deixá-lo.
-- Você também pode tentar obter financiamento para o seu trabalho. Consulte, por exemplo, a seção [R Consortium call for proposals](https://www.r-consortium.org/all-projects/call-for-proposals) (duas vezes por ano).
+- Você também pode tentar obter financiamento para o seu trabalho. Consulte, por exemplo, a [chamada de propostas da R Consortium](https://www.r-consortium.org/all-projects/call-for-proposals) (duas vezes por ano).
 
 ## Manutenção de pacotes como serviço de limpeza
 
