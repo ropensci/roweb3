@@ -99,7 +99,7 @@ Isso é muito fácil com o [Discourse](https://meta.discourse.org/t/embed-discou
 
 Integrar os comentários ao fórum significa que você só precisa acompanhar um único espaço e também ajuda a conectar as pessoas leitoras dos posts do blog ao fórum.
 
-## Ter perfis de mídia social
+## Ter perfis em redes sociais
 
 As mídias sociais podem ser úteis para divulgar o seu projeto e suas atualizações e para interagir com os usuários.
 Você pode optar por tornar sua mídia social "somente leitura", declarando claramente que não tem recursos para responder a perguntas nela.
