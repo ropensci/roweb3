@@ -4,6 +4,7 @@ title: Résoudre ses problèmes de Pandoc en tant qu'utilisateur·rice de R
 author:
 - Maëlle Salmon
 - Christophe Dervieux
+translator: Maëlle Salmon
 date: '2023-06-01'
 tags:
 - pandoc

@@ -5,7 +5,7 @@
     <!-- Header text -->
     <div class="row">
       <div class="col-md-8 content">
-        <h1>{{ .Title }}</h1>
+        <h1>{{ .Title | markdownify }}</h1>
          {{ .Content }}
     </div>
     </div>
