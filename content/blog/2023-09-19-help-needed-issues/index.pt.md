@@ -106,6 +106,6 @@ As pessoas colaboradoras podem consertar uma *issue* marcada como "procura-se aj
 Como pessoa colaboradora, sempre comente em uma *issue* antes de resolvê-lo, para garantir que ela ainda esteja atualizada e que ninguém mais esteja preparando um PR duplicado no momento!
 Como seria irritante se você trabalhasse para nada.
 
-Para obter mais informações sobre como fomentar uma comunidade em torno do seu pacote, você pode aproveitar a gravação e os materiais em nosso passado [chamada da comunidade sobre o tema](/commcalls/apr2021-pkg-community/).
+Para obter mais informações sobre como fomentar uma comunidade em torno do seu pacote, você pode aproveitar a gravação e os materiais em nossa passada [chamada da comunidade sobre o tema](/commcalls/apr2021-pkg-community/).
 
 
