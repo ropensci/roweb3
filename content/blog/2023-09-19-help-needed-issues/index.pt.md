@@ -64,7 +64,7 @@ Ao adicioná-los em sua lista de *issues*,
 Quando você tiver um tópico em mente, deixe o título e o texto da *issue* o mais claro possível.
 Mesmo que você seja a única pessoa a corrigir o problema no final, no futuro você ficará feliz por não ter anotado um comentário indecifrável.
 Se necessário, faça links para recursos e certifique-se de incluir o contexto.
-Aborde a redação de um problema em seu próprio repositório da mesma forma que você faria em um repositório que não é seu: descrição do desafio, resultado desejado, compensações, etc.
+Aborde a redação de uma *issue* em seu próprio repositório da mesma forma que você faria em um repositório que não é seu: descrição do desafio, resultado desejado, perdas e ganhos (*trade-offs*), etc.
 
 Além dos esforços em uma questão individual, é fundamental que você tenha um [guia de contribuição](https://devguide.ropensci.org/collaboration.html#contributing-guide) destacando tudo o que você deve saber sobre como contribuir para o seu pacote: ferramentas usadas, preferências de estilo e design. [^ctb]
 Não duplique recursos externos; em vez disso, aponte para eles.
