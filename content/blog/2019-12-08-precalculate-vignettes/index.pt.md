@@ -9,6 +9,7 @@ tags:
 - pacotes
 - notas técnicas
 - r-universe
+translator: Beatriz Milz
 params:
   doi: '10.59350/hchzp-hy971'
 ---
