@@ -37,7 +37,7 @@ Como pessoa mantenedora do pacote, um dos seus papéis é apoiar e incentivar um
 
 Infelizmente, você não controla toda a agenda de manutenção de um pacote. :sweat\_smile:
 A menos que seu pacote não tenha pessoas usuárias visíveis, o trabalho de manutenção provavelmente envolverá algum nível de suporte para as pessoas que usam o pacote, e triagem de *issues*.
-Você também pode receber solicitações dos mantenedores das dependências do seu pacote ou do repositório em que você publicou o pacote (CRAN, Bioconductor).
+Você também pode receber solicitações das pessoas mantenedoras das dependências do seu pacote ou do repositório em que você publicou o pacote (CRAN, Bioconductor).
 
 O suporte a pessoas usuárias, em particular, pode ser uma fonte de alegria: ver o seu pacote sendo usado, ajudar as pessoas a superarem obstáculos, resolver problemas.
 Entretanto, todas essas demandas externas podem ser exaustivas e até mesmo estressantes.
