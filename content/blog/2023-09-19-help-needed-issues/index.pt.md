@@ -40,7 +40,7 @@ A seguir, abordaremos quatro etapas para solicitar ajuda externa.
 Às vezes, um obstáculo com o qual você não sabe como lidar aparece no caminho para o seu próximo marco de desenvolvimento.
 Nesse estágio, você pode
 
-- pedir ajuda em um canal comum (por exemplo, o canal de manutenção de pacotes do rOpenSci Slack, se você estiver nesse canal) [espaço de trabalho](https://contributing.ropensci.org/resources.html#channels); [Fórum de discussão rOpenSci](/blog/2022/01/11/ropensci-forum/); [Fórum da comunidade Posit](https://community.rstudio.com/));
+- pedir ajuda em um canal comum (por exemplo, o canal de manutenção de pacotes no Slack da rOpenSci, se você estiver [nesse canal](https://contributing.ropensci.org/resources.html#channels); [Fórum de discussão da rOpenSci](/blog/2022/01/11/ropensci-forum/); [Fórum da comunidade Posit](https://community.rstudio.com/));
 - abra um problema em uma dependência upstream se for aí que está o problema real;
 - abra um problema em seu repositório descrevendo o problema.
 
