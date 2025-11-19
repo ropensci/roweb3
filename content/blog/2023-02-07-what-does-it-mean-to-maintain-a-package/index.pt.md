@@ -54,7 +54,7 @@ Bem, infelizmente, essa é uma situação comum. No entanto, embora não exista 
 
 ## Manutenção de pacotes como "arrumação da casa"
 
-Além das solicitações de recursos interessantes, a manutenção de pacotes geralmente garante um trabalho mais "rotineiro".
+Além das solicitações de funcionalidades interessantes, a manutenção de pacotes geralmente garante um trabalho mais "rotineiro".
 
 Você pode tentar manter-se atualizado sobre as práticas recomendadas de desenvolvimento de pacotes (e diretrizes externas :sweat\_smile:) por meio dos canais de desenvolvimento de pacotes.
 Lembre-se de que você [Boletim informativo da rOpenSci](/news) tem um canto de desenvolvimento de pacotes :wink:
