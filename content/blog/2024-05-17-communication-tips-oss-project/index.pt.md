@@ -91,7 +91,7 @@ Na maioria dos geradores de sites estáticos, isso é padrão ou está disponív
 
 Quando o seu blog tiver um feed RSS, registre-o em agregadores relevantes, como [R Weekly](https://github.com/rweekly/rweekly.org?tab=readme-ov-file#regular-r-posts-submit-your-rss-feed) no mundo do R.
 
-## Como você pode comentar nas postagens do blog
+## Ter comentários em posts do blog
 
 Se você optar por abrir comentários nas postagens do blog, certifique-se de integrar os comentários ao fórum do projeto.
 
