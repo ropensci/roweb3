@@ -29,7 +29,7 @@ Os recursos para você começar a usar as notas de versão incluem:
 
 Você pode automatizar parcialmente as notas de versão a partir de mensagens de *commit* usando, por exemplo, o [pacote fledge](https://fledge.cynkra.com/dev/) (bastante poderoso quando usado em conjunto com a [convenção de *commits*  convencionais (*Conventional Commits*)](https://www.conventionalcommits.org/en/v1.0.0/)).
 
-As notas de versão podem informar diretamente os usuários, que podem lê-las
+As notas de versão podem informar diretamente as pessoas usuárias, que podem lê-las:
 
 - do GitHub por meio de [observando eventos de lançamento](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications#configuring-your-watch-settings-for-an-individual-repository) para o repositório;
 - do site de documentação, no qual o pkgdown se transforma `NEWS.md` em uma página chamada changelog.
