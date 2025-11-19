@@ -89,7 +89,7 @@ Você pode optar por usar o [GitHub para o processo de revisão e pré-visualiza
 Se você criar um blog, certifique-se de criar também um feed RSS para ele.
 Na maioria dos geradores de sites estáticos, isso é padrão ou está disponível quando você ativa uma opção ([documentação do Quarto](https://quarto.org/docs/websites/website-blog.html#rss-feed)).
 
-Quando seu blog tiver um feed RSS, registre-o em agregadores relevantes, como [R Weekly](https://github.com/rweekly/rweekly.org?tab=readme-ov-file#regular-r-posts-submit-your-rss-feed) no mundo do R.
+Quando o seu blog tiver um feed RSS, registre-o em agregadores relevantes, como [R Weekly](https://github.com/rweekly/rweekly.org?tab=readme-ov-file#regular-r-posts-submit-your-rss-feed) no mundo do R.
 
 ## Como você pode comentar nas postagens do blog
 
