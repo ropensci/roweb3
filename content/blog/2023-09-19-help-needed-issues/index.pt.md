@@ -89,7 +89,7 @@ Reconheça contribuições [generosamente](https://devguide.ropensci.org/collabo
 
 ## Não se desespere
 
-Mesmo que você tenha escrito uma excelente edição, talvez ela não seja escolhida.
+Mesmo que você tenha escrito uma excelente *issue*, talvez ela não seja escolhida.
 Nesse caso, considere a possibilidade de fazer uma nova transmissão, peça dicas gerais aos seus colegas mantenedores e considere a possibilidade de solicitar financiamento (portanto, tempo, seu ou de um contratante externo) para seus esforços de manutenção.
 Consulte, por exemplo, o site [R Consortium duas vezes por ano para solicitar propostas](https://www.r-consortium.org/all-projects/call-for-proposals#Rstats).
 
