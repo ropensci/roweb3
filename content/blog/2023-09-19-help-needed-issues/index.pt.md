@@ -22,7 +22,7 @@ A manutenção de um pacote pode ser uma atividade solitária, o que às vezes r
 Além de pertencer a uma comunidade de mantenedores (como a rOpenSci :wink:), para obter ajuda colaborativa e comiseração, você pode tentar criar uma comunidade de colaboradores em torno do seu pacote!
 Nesta publicação, exploraremos uma ferramenta que ajudará você a atingir esse objetivo: as *issues* marcadas como "procura-se ajuda" (*"help wanted"*), com os quais seu repositório pode atrair e manter novas pessoas desenvolvedoras! Discutiremos o que são *issues* de "procura-se ajuda", quais são as quatro etapas para solicitar ajuda externa e lembraremos que esse pode ser um processo benéfico, mesmo que você não acabe atraindo ajuda.
 
-*Observe que esta postagem usa a terminologia específica do GitHub, como problemas e rótulos. Se você usa o GitLab ou outra plataforma git, provavelmente há um equivalente.* Você está com uma cara meio sorridente:
+*Observe que esta postagem usa a terminologia específica do GitHub, como *issues* e *labels*. Se você usa o GitLab ou outra plataforma git, provavelmente há um equivalente.* :slightly_smiling_face:
 
 ## O que são problemas de "procura-se ajuda"?
 
