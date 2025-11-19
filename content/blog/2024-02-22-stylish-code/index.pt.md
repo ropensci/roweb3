@@ -100,7 +100,7 @@ body_string <- stringify(body)
 
 Uma segunda maneira de tornar o seu código menos extenso é dividi-lo em funções.
 Em uma função principal, você pode terceirizar tarefas para outras funções.
-Dessa forma, um leitor pode ver rapidamente o que a função principal faz e, em seguida, ir para as outras funções para ler mais detalhes, como no exemplo abaixo, em que `create_content()` chama outras funções para criar um título, uma página e, em seguida, criar sua saída que combina os dois.
+Dessa forma, um(a) leitor(a) pode ver rapidamente o que a função principal faz e, em seguida, ir para as outras funções para ler mais detalhes, como no exemplo abaixo, em que `create_content()` chama outras funções para criar um título, uma página e, em seguida, criar uma saída que combina os dois.
 
 ```r
 create_content <- function(website) {
