@@ -55,7 +55,7 @@ Com um pouco de sorte, a própria pessoa que criou a *issue* poderá participar.
 Por exemplo, [atualizar a infraestrutura de testes para utilizar a terceira edição do pacote testthat](https://github.com/ropensci/geojsonio/issues/183) ou [adicionar suporte do pacote terra a um pacote espacial](https://github.com/ropensci/landscapetools/issues/33).
 Ao adicioná-los em sua lista de *issues*,
 
-- você mostra aos usuários curiosos que eles estão em sua mente,
+- você mostra para as pessoas usuárias curiosas que essas ideias estão em sua mente,
 - você pode organizar seu próprio trabalho,
 - e pode receber ajuda externa, especialmente se você solicitar explicitamente ajuda com o rótulo "help wanted".
 
