@@ -25,7 +25,7 @@ Mas o que é manutenção de rotina? Esta postagem é uma tentativa de definir o
 Como mantenedor(a) de pacotes (ou equipe de pessoas mantenedoras),
 
 - você é responsável pelo escopo do pacote: Você quer adicionar uma funcionalidade? A decisão é sua!
-- você está encarregado de planejar o trabalho na base de código: Você deve pensar em melhorias e organizá-las em marcos.
+- você define o planejamento do trabalho na base de código: você deve pensar em melhorias e organizá-las em marcos.
 - você está no controle da qualidade do código: Você quer dedicar mais tempo a esse pull request? Ou você aceitará e acumulará um pouco de [dívida técnica](https://en.wikipedia.org/wiki/Technical_debt)? Novamente, a decisão é sua!
 
 No entanto, você não possui apenas esses aspectos técnicos e de produtividade.
