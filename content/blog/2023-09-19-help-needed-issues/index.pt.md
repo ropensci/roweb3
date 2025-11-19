@@ -47,7 +47,7 @@ Nesse estágio, você pode
 Por exemplo, ao trabalhar no pacote tinkr, Maëlle abriu uma [*issue* muito específica](https://github.com/ropensci/tinkr/issues/9) que acabou recebendo uma ajuda externa milagrosa.
 
 Você também pode adicionar a *label* "procura-se ajuda" a um informe de erro ou solicitação de funcionalidade que outra pessoa abriu em seu pacote!
-Com um pouco de sorte, o próprio criador do problema poderá participar.
+Com um pouco de sorte, a própria pessoa que criou a *issue* poderá participar.
 
 ### Tópicos em que você poderia obter ajuda: delegação ou vontade de aumentar a sua equipe
 
