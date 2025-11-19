@@ -14,6 +14,11 @@ description: "Estamos muito felizes em anunciar que nosso guia de desenvolviment
 tags:
   - comunidade
   - revisão por pares
+  - multilíngue
+  - babeldown
+  - dev guide
+  - desenvolvimento de pacotes
+  - boas vindas    
 doi: 10.59350/fgbq0-zcn87   
 ---
 
