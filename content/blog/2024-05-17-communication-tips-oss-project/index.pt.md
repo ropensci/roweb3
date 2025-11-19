@@ -36,7 +36,7 @@ As notas de versão podem informar diretamente as pessoas usuárias, que podem l
 
 Eles também serão úteis como matéria-prima para outras iniciativas de comunicação, como postagens em blogs sobre lançamentos.
 
-## Necessário: Rastreadores de problemas
+## Necessário: Rastreadores de *Issues*
 
 Seus repositórios não devem ter apenas rastreadores de problemas/tickets, mas você também deve garantir que um número suficiente de membros da equipe os observe ou analise novos tickets ou comentários pelo menos de vez em quando.
 Manter e responder a problemas é uma parte importante da manutenção de uma comunidade de usuários.
