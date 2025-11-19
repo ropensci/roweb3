@@ -8,7 +8,7 @@ date: '2024-05-17'
 slug: communication-tips-oss-project
 output: hugodown::md_document
 tags:
-- community
+- comunidade
 params:
   doi: 10.59350/8sqxt-7zp92
 ---
