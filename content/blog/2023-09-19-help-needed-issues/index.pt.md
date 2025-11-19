@@ -85,7 +85,7 @@ Você também pode considerar a possibilidade de aproveitar eventos hack-a-thon 
 Se alguém responder a uma questão ou abrir uma RP, tente ser receptivo.
 Verifique se suas configurações permitem que você receba notificações sobre comentários de *issues* e PRs. Talvez seja necessário [habilitar a opção *watch*](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/managing-subscriptions-for-activity-on-github/viewing-your-subscriptions) no seu repositório.
 
-Reconhecer contribuições [generosamente](https://devguide.ropensci.org/collaboration.html?q=generous#attributions)!
+Reconheça contribuições [generosamente](https://devguide.ropensci.org/collaboration.html?q=generous#attributions)!
 
 ## Não se desespere
 
