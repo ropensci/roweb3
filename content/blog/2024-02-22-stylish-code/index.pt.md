@@ -117,7 +117,7 @@ No IDE do RStudio, você pode usar `Ctrl+click` no nome da função ou digitar o
 
 Uma terceira maneira de encurtar o seu código é usar funções existentes do R básico ou de pacotes complementares.
 Por exemplo, para combinar uma lista de valores padrão com uma lista de valores personalizados, você pode usar a função [`modifyList()`](https://masalmon.eu/2023/06/06/basic-patterns/#combine-a-list-of-default-values-with-a-list-of-custom-values).
-Assim como nos idiomas humanos, aprendemos mais palavras R [com o tempo](https://masalmon.eu/tags/useful-functions/) Você pode aprender mais palavras em R com o tempo, lendo o código de outras pessoas e fazendo com que elas leiam o nosso código.
+Assim como nos idiomas humanos, aprendemos mais palavras em R [com o tempo](https://masalmon.eu/tags/useful-functions/), lendo o código de outras pessoas e fazendo com leiam o nosso código.
 
 ### Não muito prolixo: apenas a quantidade certa de comentários
 
