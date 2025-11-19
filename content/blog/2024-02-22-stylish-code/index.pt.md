@@ -123,7 +123,7 @@ Assim como nos idiomas humanos, aprendemos mais palavras em R [com o tempo](http
 
 Esta parte do treinamento foi uma versão mais curta da publicação no blog do R-hub [Por que comentar seu código o mínimo (e o melhor) possível](https://blog.r-hub.io/2023/01/26/code-comments-self-explaining-code/).
 
-Os comentários de código não são uma narração do código, eles devem ser pequenos alertas.
+Os comentários de código não são uma narração do código, eles devem funcionar como alertas curtos.
 Quanto mais comentários você tiver, maior será a probabilidade de o leitor ignorá-los.
 
 Os comentários de código não devem ser um "band-aid" para nomes ruins ou código excessivamente complexo: em vez de adicionar um comentário, você pode renomear uma variável ou refatorar um trecho de código?
