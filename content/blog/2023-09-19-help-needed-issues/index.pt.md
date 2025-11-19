@@ -103,7 +103,7 @@ Elas podem ser uma porta de entrada melhor para a contribuição do que *issues*
 As pessoas colaboradoras podem consertar uma *issue* marcada como "procura-se ajuda" e depois parar, ou continuar e resolver mais *issues*.
 Às vezes, uma conversa nos comentários pode ajudar você a encontrar uma solução, mesmo que uma pessoa colaboradora envie um PR.
 
-Como colaborador, sempre comente um problema antes de resolvê-lo, para garantir que ele ainda esteja atualizado e que ninguém mais esteja preparando um PR duplicado no momento!
+Como pessoa colaboradora, sempre comente em uma *issue* antes de resolvê-lo, para garantir que ela ainda esteja atualizada e que ninguém mais esteja preparando um PR duplicado no momento!
 Como seria irritante se você trabalhasse para nada.
 
 Para obter mais informações sobre como fomentar uma comunidade em torno do seu pacote, você pode aproveitar a gravação e os materiais em nosso passado [chamada da comunidade sobre o tema](/commcalls/apr2021-pkg-community/).
