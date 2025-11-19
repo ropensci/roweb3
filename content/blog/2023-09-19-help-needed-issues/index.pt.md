@@ -59,7 +59,7 @@ Ao adicioná-los em sua lista de *issues*,
 - você pode organizar seu próprio trabalho,
 - e pode receber ajuda externa, especialmente se você solicitar explicitamente ajuda com a *label* "procura-se ajuda".
 
-## Etapa 2. Aprimore seu problema e o guia de contribuição
+## Etapa 2. Aprimore a sua *issue* e o guia de contribuição
 
 Quando você tiver um tópico em mente, deixe o título e o texto da questão o mais claro possível.
 Mesmo que você seja o único a corrigir o problema no final, no futuro você ficará feliz por não ter anotado um comentário indecifrável.
