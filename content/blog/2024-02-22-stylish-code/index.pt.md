@@ -25,7 +25,7 @@ Essa sessão de treinamento consistiu em uma palestra e discussão, enquanto as 
 
 ## Por que escrever um código bonito?
 
-Embora seu código seja executado por máquinas, ele será lido por humanos.
+Embora o seu código seja executado por máquinas, ele será lido por humanos.
 Esses humanos, sejam eles futuros você, colaboradores que você conhece ou colaboradores que você não conhece, precisarão entender seu código para verificar se não há erros, corrigir possíveis bugs e desenvolvê-lo adicionando novos recursos.
 Portanto, é fundamental facilitar a compreensão do seu código.
 
