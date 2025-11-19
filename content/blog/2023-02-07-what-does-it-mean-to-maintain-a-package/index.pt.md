@@ -35,7 +35,7 @@ Como pessoa mantenedora do pacote, um dos seus papéis é apoiar e incentivar um
 
 ## Manutenção de pacotes como capacidade de resposta
 
-Agora, infelizmente, você não possui toda a agenda de manutenção de pacotes. :sweat\_smile:
+Infelizmente, você não controla toda a agenda de manutenção de um pacote. :sweat\_smile:
 A menos que seu pacote não tenha usuários visíveis, seu trabalho de manutenção provavelmente será algum tipo de suporte ao usuário e triagem de problemas.
 Você também pode receber solicitações dos mantenedores das dependências do seu pacote ou do repositório em que você publicou o pacote (CRAN, Bioconductor).
 
