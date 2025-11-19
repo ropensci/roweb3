@@ -97,7 +97,7 @@ Below is a list of the contributors, in alphabetical order:
 
 In addition, the translation project was coordinated by [Yanina Bellini Saibene](https://yabellini.netlify.app/), rOpenSci’s Community Manager. Other members of the rOpenSci team also played key roles in reviewing Pull Requests, including [Maëlle Salmon](https://masalmon.eu/).
 
-## Testimonials
+## Participant experiences
 
 {{< quote footer="Francesca Belem Lopes Palmeira">}}
 Participating in the translation of the Dev Guide into Portuguese was an incredibly enriching experience for my professional journey. It was the first time I worked within a transparent, reproducible, and collaborative peer-review process. Overall, it has been very rewarding to see the project completed and accessible to the entire Portuguese-speaking community.
