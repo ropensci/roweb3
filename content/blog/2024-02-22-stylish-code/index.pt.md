@@ -113,7 +113,7 @@ create_content <- function(website) {
 Em seu livro [Learn AI-Assisted Python Programming](https://www.manning.com/books/learn-ai-assisted-python-programming) Leo Porter e Daniel Zingaro compartilham os atributos de boas funções como: tarefa clara a ser executada, comportamento claramente definido, número reduzido de linhas de código, entrada e saída claras, valor geral sobre uso específico.
 
 Também é útil saber como navegar rapidamente entre as funções em seu IDE!
-No IDE do RStudio, você pode usar `Ctrl+click` no nome da função ou digitar seu nome na barra de pesquisa acessada com `Ctrl+.`.
+No IDE do RStudio, você pode usar `Ctrl+click` no nome da função ou digitar o seu nome na barra de pesquisa acessada com `Ctrl+.`.
 
 Uma terceira maneira de encurtar seu código é usar funções existentes do R básico ou de pacotes complementares.
 Por exemplo, para combinar uma lista de valores padrão com uma lista de valores personalizados, você pode usar a função [`modifyList()` função](https://masalmon.eu/2023/06/06/basic-patterns/#combine-a-list-of-default-values-with-a-list-of-custom-values).
