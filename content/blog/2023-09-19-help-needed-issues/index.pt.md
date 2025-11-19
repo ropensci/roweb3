@@ -41,7 +41,7 @@ A seguir, abordaremos quatro etapas para solicitar ajuda externa.
 Nesse estágio, você pode
 
 - pedir ajuda em um canal comum (por exemplo, o canal de manutenção de pacotes no Slack da rOpenSci, se você estiver [nesse canal](https://contributing.ropensci.org/resources.html#channels); [Fórum de discussão da rOpenSci](/blog/2022/01/11/ropensci-forum/); [Fórum da comunidade Posit](https://community.rstudio.com/));
-- abra um problema em uma dependência upstream se for aí que está o problema real;
+- abra uma *issue* em uma dependência upstream se for aí onde está o problema real;
 - abra um problema em seu repositório descrevendo o problema.
 
 Por exemplo, ao trabalhar no pacote tinkr, Maëlle abriu um arquivo [problema muito específico](https://github.com/ropensci/tinkr/issues/9) que acabou recebendo uma ajuda externa milagrosa.
