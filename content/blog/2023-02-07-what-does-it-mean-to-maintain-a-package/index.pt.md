@@ -58,7 +58,7 @@ Além das solicitações de funcionalidades interessantes, a manutenção de pac
 
 Você pode tentar manter-se atualizado sobre as práticas recomendadas de desenvolvimento de pacotes (e diretrizes externas :sweat\_smile:) por meio dos canais de desenvolvimento de pacotes.
 Lembre-se de que o [Boletim informativo da rOpenSci](/news) tem um seção sobre desenvolvimento de pacotes :wink:.
-Após perguntas sobre, por exemplo, o [fórum rOpenSci](https://discuss.ropensci.org/) ou no fórum da comunidade Posit [Categoria de desenvolvimento de pacotes](https://community.rstudio.com/c/package-development/11) pode ser uma forma de monitoramento de notícias e prática deliberada.
+Acompanhar perguntas, por exemplo, no [fórum da rOpenSci](https://discuss.ropensci.org/) ou na [categoria de desenvolvimento de pacotes do fórum da comunidade Posit](https://community.rstudio.com/c/package-development/11) pode ser uma forma de acompanhamento de novidades e práticas estabelecidas.
 Com essa leitura/acompanhamento, você pode chegar a um novo entendimento de um método de teste, pode descobrir que é melhor trocar uma dependência por outra, etc.
 
 Agora, quando e como você aprimora seu pacote?
