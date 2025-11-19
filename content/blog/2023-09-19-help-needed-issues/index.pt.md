@@ -57,7 +57,7 @@ Ao adicioná-los em sua lista de *issues*,
 
 - você mostra para as pessoas usuárias curiosas que essas ideias estão em sua mente,
 - você pode organizar seu próprio trabalho,
-- e pode receber ajuda externa, especialmente se você solicitar explicitamente ajuda com o rótulo "help wanted".
+- e pode receber ajuda externa, especialmente se você solicitar explicitamente ajuda com a *label* "procura-se ajuda".
 
 ## Etapa 2. Aprimore seu problema e o guia de contribuição
 
