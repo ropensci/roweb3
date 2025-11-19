@@ -22,7 +22,7 @@ Mas o que é manutenção de rotina? Esta postagem é uma tentativa de definir o
 
 ## Manutenção de pacotes como compromisso de quem assume o pacote
 
-Como mantenedor de pacotes (ou equipe de mantenedores),
+Como mantenedor(a) de pacotes (ou equipe de pessoas mantenedoras),
 
 - você é responsável pelo escopo do pacote: Você quer adicionar um recurso? A decisão é sua!
 - você está encarregado de planejar o trabalho na base de código: Você deve pensar em melhorias e organizá-las em marcos.
