@@ -42,7 +42,7 @@ Seus repositórios não devem ter apenas rastreadores de *issues*/tickets, mas v
 Manter e responder a *issues* é uma parte importante da manutenção de uma comunidade de pessoas usuárias.
 
 O uso de *issues* pelo seu projeto pode ser divulgado por meio de uma *issue* fixada; você pode até mesmo [limitar temporariamente as interações](https://docs.github.com/en/communities/moderating-comments-and-conversations/limiting-interactions-in-your-repository).
-Esses termos e links são para o GitHub, mas existem ideias e recursos semelhantes para outras plataformas de hospedagem de código.
+Esses termos e links são para o GitHub, mas existem ideias e funcionalidades semelhantes para outras plataformas de hospedagem de código.
 
 ## Necessário: Perfis de projetos poloneses
 
