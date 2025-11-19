@@ -13,7 +13,7 @@ tags:
 - boas vindas
 - manutenção
 - contribuidores 
-description: Dicas sobre como criar e anunciar anúncios de pedidos de ajuda.
+description: Dicas sobre como criar e divulgar issues de "procura-se ajuda" (*help wanted*).
 params:
   doi: 10.59350/zh01g-yby98
 ---
