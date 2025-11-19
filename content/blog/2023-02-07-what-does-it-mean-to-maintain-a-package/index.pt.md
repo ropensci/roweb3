@@ -62,7 +62,7 @@ Acompanhar perguntas, por exemplo, no [fórum da rOpenSci](https://discuss.ropen
 Com essa leitura/acompanhamento, você pode chegar a um novo entendimento de um método de teste, pode descobrir que é melhor trocar uma dependência por outra, etc.
 
 Agora, quando e como você aprimora seu pacote?
-Você pode tentar pagar alguma dívida técnica sempre que planejar algum trabalho em um recurso.
+Você pode tentar quitar alguma dívida técnica sempre que planejar algum trabalho em uma funcionalidade.
 Você pode imitar o [limpeza de primavera do tidyverse](/blog/2022/03/18/ropensci-news-digest-march-2022/#get-inspired-by-the-tidyverse-spring-cleaning) você pode imitar a limpeza de primavera do tidyverse, tanto a ideia quanto os itens reais listados na lista de verificação pública, como a atualização das configurações de integração contínua.
 Se esse trabalho não parecer divertido, novamente, fazê-lo em equipe pode ajudar, ou você pode participar de um [evento de trabalho conjunto do rOpenSci](/events) para que você tenha um tempo dedicado para trabalhar na manutenção regular de pacotes em um ambiente divertido.
 
