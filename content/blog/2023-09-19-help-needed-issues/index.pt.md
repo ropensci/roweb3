@@ -35,7 +35,7 @@ A seguir, abordaremos quatro etapas para solicitar ajuda externa.
 
 ## Etapa 1. Selecionar *issues* de "procura-se ajuda"
 
-### Tópicos que você *que vorealmente* você precisa de ajuda: obstáculos ao desenvolvimento
+### Temas que você *realmente* precisa de ajuda: obstáculos ao desenvolvimento
 
 Às vezes, um obstáculo com o qual você não sabe como lidar aparece no caminho para o seu próximo marco de desenvolvimento.
 Nesse estágio, você pode
