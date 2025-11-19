@@ -49,7 +49,7 @@ Por exemplo, ao trabalhar no pacote tinkr, Maëlle abriu uma [*issue* muito espe
 Você também pode adicionar a *label* "procura-se ajuda" a um informe de erro ou solicitação de funcionalidade que outra pessoa abriu em seu pacote!
 Com um pouco de sorte, a própria pessoa que criou a *issue* poderá participar.
 
-### Tópicos em que você poderia obter ajuda: delegação ou vontade de aumentar a sua equipe
+### Temas em que você poderia obter ajuda: delegar ou vontade de aumentar a sua equipe
 
 Às vezes, há algumas ideias de manutenção ou aprimoramento que você tem para o seu pacote e para as quais não tem tempo no momento ou que não são urgentes.
 Por exemplo, [atualizar a infraestrutura de testes para testar a terceira edição](https://github.com/ropensci/geojsonio/issues/183) ou [adicionar suporte de terra a um pacote espacial](https://github.com/ropensci/landscapetools/issues/33).
