@@ -75,6 +75,6 @@ Se você sentir que não há equilíbrio, considere suas necessidades. Talvez se
 Para os pacotes da rOpenSci, podemos ajudar anunciando a necessidade de ajuda do seu pacote, portanto, sinta-se à vontade para entrar em contato conosco.
 Por último, mas não menos importante, nós da rOpenSci gostaríamos de agradecer a todas as pessoas mantenedoras de pacotes, passados, presentes e futuros! O trabalho que você faz, fez ou fará é valioso e incrível, e nós realmente o apreciamos!
 
-Estamos sempre tentando pensar em maneiras de apoiar os mantenedores de pacotes. Fique à vontade para adicionar um comentário abaixo com qualquer sugestão que você possa ter.
+Estamos sempre tentando pensar em maneiras de apoiar as pessoas mantenedoras de pacotes. Fique à vontade para adicionar um comentário abaixo com qualquer sugestão que você possa ter.
 
 
