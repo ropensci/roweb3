@@ -68,7 +68,7 @@ Aborde a redação de uma *issue* em seu próprio repositório da mesma forma qu
 
 Além dos esforços em uma *issue* individual, é fundamental que você tenha um [guia de contribuição](https://devguide.ropensci.org/collaboration.html#contributing-guide) destacando tudo o que é necessário saber sobre como contribuir para o seu pacote: ferramentas usadas, e preferências de estilo e design. [^ctb]
 Não duplique recursos externos; em vez disso, faça um link para eles.
-Tente ser um pouco flexível para não sobrecarregar ou assustar os colaboradores com requisitos muito rígidos: você provavelmente pode terminar os PRs sozinho ou ensiná-los aos poucos.
+Tente ser um pouco flexível para não sobrecarregar ou assustar as pessoas colaboradoras com requisitos muito rígidos: você provavelmente pode terminar os PRs sozinho ou ensiná-los aos poucos.
 
 [^ctb]: Você pode encontrar<https://contributing.streamlit.app/> mas outra maneira de aprimorar seu guia de contribuição é continuar a alterá-lo com base na sua experiência com novos colaboradores.
 
