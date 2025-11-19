@@ -69,7 +69,7 @@ Se esse trabalho não parecer divertido, novamente, fazê-lo em equipe pode ajud
 ## Conclusão
 
 Nesta postagem, tentamos apresentar uma visão geral do que significa manter um pacote: responsabilidade pelo escopo, pelo código e pela comunidade; capacidade de responder às demandas externas no próprio ritmo; e o trabalho recorrente de manutenção e organização.
-Tudo isso pode dar muito trabalho e precisa ser contrabalançado com as recompensas que você recebe como desenvolvedor de pacotes (dependendo da sua situação, elas podem incluir: satisfação pessoal de criar uma ferramenta útil; alegria de colaborar com outras pessoas; renda; desenvolvimento de experiência em codificação; demonstração de suas habilidades; reconhecimento do seu trabalho).
+Tudo isso pode dar muito trabalho e precisa ser equilibrado com as recompensas que esse trabalho proporciona (dependendo da sua situação, elas podem incluir: satisfação pessoal por criar uma ferramenta útil, alegria de colaborar com outras pessoas, remuneração, desenvolvimento de experiência com código, demonstração de suas habilidades, ou reconhecimento pelo seu trabalho).
 
 Se você sentir que não há equilíbrio, considere suas necessidades. Talvez seja hora de tentar recrutar co-mantenedores ou participar de uma comunidade de outros desenvolvedores, ou até mesmo encontrar um novo mantenedor ou retirar o pacote.
 Para os pacotes rOpenSci, podemos ajudar anunciando a necessidade de ajuda do seu pacote, portanto, sinta-se à vontade para entrar em contato conosco.
