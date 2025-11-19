@@ -27,7 +27,7 @@ Os recursos para você começar a usar as notas de versão incluem:
 - a função [`usethis::use_news_md()`](https://usethis.r-lib.org/reference/use_news_md.html) para criar o arquivo `NEWS.md`.
 - [o capítulo sobre arquivos NEWS no guia de estilo do tidyverse](https://style.tidyverse.org/news.html)
 
-Você pode automatizar parcialmente as notas de versão a partir de mensagens de confirmação usando, por exemplo, o comando [pacote fledge](https://fledge.cynkra.com/dev/) (bastante poderoso se combinado com o pacote [Convenção de commits convencionais](https://www.conventionalcommits.org/en/v1.0.0/)).
+Você pode automatizar parcialmente as notas de versão a partir de mensagens de *commit* usando, por exemplo, o [pacote fledge](https://fledge.cynkra.com/dev/) (bastante poderoso quando usado em conjunto com a [convenção de *commits*  convencionais (*Conventional Commits*)](https://www.conventionalcommits.org/en/v1.0.0/)).
 
 As notas de versão podem informar diretamente os usuários, que podem lê-las
 
