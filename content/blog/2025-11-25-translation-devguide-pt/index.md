@@ -14,6 +14,11 @@ description: "We are very pleased to announce that our guide on package developm
 tags:
   - community
   - Software Peer Review
+  - multilingual
+  - babeldown
+  - dev guide
+  - package development
+  - welcome  
 doi: 10.59350/fgbq0-zcn87   
 ---
 
