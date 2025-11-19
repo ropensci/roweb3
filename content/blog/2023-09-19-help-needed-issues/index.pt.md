@@ -78,7 +78,7 @@ Em primeiro lugar, para os pacotes da rOpenSci, as *issues* marcadas com a *labe
 
 Você também pode compartilhá-lo em suas próprias redes: no slack da rOpenSci, em suas redes sociais, um canal de comunicação local de pessoas usuárias de R, etc.
 
-Você também pode considerar a possibilidade de aproveitar eventos hack-a-thon como [Hacktoberfest](https://hacktoberfest.com/) por exemplo (se você adicionar o ["hacktoberfest" ao seu repositório](https://hacktoberfest.com/participation/)), mas em eventos realmente grandes como esse você não pode necessariamente contar com alguém que descubra seu pequeno problema nesse mar de problemas.
+Você também pode considerar a possibilidade de aproveitar eventos hack-a-thon como [Hacktoberfest](https://hacktoberfest.com/) por exemplo (se você adicionar a *label* ["hacktoberfest" ao seu repositório](https://hacktoberfest.com/participation/)), mas em eventos realmente grandes como esse você não pode necessariamente contar que alguém descubra sua pequena *issue* nesse mar de *issues*.
 
 ## Etapa 4. Agradeça aos colaboradores
 
