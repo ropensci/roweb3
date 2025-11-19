@@ -88,7 +88,7 @@ Uma maneira de tornar o seu código mais curto, mas ainda assim fácil de analis
 As quebras de linha não são gratuitas, pois ocupam espaço vertical.
 Use quebras de linha para separar blocos de código que fazem algo relacionado.
 Como na prosa, um parágrafo deve corresponder aproximadamente a uma ideia.
-Por exemplo, no exemplo de código abaixo, o primeiro bloco faz algo relacionado ao cabeçalho de uma página do site, enquanto o segundo bloco lida com o corpo da página do site.
+Por exemplo, no código abaixo, o primeiro bloco faz algo relacionado ao cabeçalho de uma página do site, enquanto o segundo lida com o corpo da página do site.
 
 ```r
 head <- collect_metadata(website)
