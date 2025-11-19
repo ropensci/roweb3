@@ -82,7 +82,7 @@ Há também uma configuração no RStudio IDE para mostrar uma margem de 80 cara
 
 ### Não muito longo: parágrafos, funções existentes e caseiras
 
-O espaço vertical é limitado no código, tanto pela tela quanto pelo que o leitor pode ver de relance (sem considerar os limites de quanto ele pode armazenar em sua cabeça).
+O espaço vertical é limitado no código, tanto pela tela quanto pelo que a pessoa leitora pode ver de relance (sem considerar os limites de quanto ela pode armazenar em sua cabeça).
 
 Uma maneira de tornar seu código mais curto, mas ainda assim fácil de analisar, é usar *parágrafos de código*.
 As quebras de linha não são gratuitas, pois ocupam espaço vertical.
