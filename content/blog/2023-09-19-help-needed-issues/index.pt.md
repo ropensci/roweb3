@@ -101,7 +101,7 @@ Além disso, uma *issue* bem documentada é uma ótima maneira de documentar sua
 Abrir issues de "procura-se ajuda" pode ser uma forma de aumentar a comunidade de pessoas colaboradoras do seu pacote.
 Elas podem ser uma porta de entrada melhor para a contribuição do que *issues* menos específicas com uma lista de tarefas necessárias, já que são menos sobrecarregadas.
 As pessoas colaboradoras podem consertar uma *issue* marcada como "procura-se ajuda" e depois parar, ou continuar e resolver mais *issues*.
-Às vezes, uma conversa nos comentários pode ajudar você a encontrar uma solução, mesmo que um colaborador não envie um PR.
+Às vezes, uma conversa nos comentários pode ajudar você a encontrar uma solução, mesmo que uma pessoa colaboradora envie um PR.
 
 Como colaborador, sempre comente um problema antes de resolvê-lo, para garantir que ele ainda esteja atualizado e que ninguém mais esteja preparando um PR duplicado no momento!
 Como seria irritante se você trabalhasse para nada.
