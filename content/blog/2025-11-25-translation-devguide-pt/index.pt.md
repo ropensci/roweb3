@@ -26,7 +26,7 @@ doi: 10.59350/fgbq0-zcn87
 
 A rOpenSci faz a gestão de pacotes desenvolvidos na linguagem de programação R e também oferece um processo de revisão por pares para esses pacotes, uma atividade já bem consolidada dentro da comunidade. Para guiar todo esse processo, a rOpenSci desenvolveu o guia **"Pacotes rOpenSci: Desenvolvimento, Manutenção e Revisão por Pares"** (chamado também de “Dev Guide”). O guia apresenta os procedimentos recomendados para desenvolver e submeter pacotes à coleção da rOpenSci, tornando a condução de cada etapa mais simples e garantindo transparência em todo o processo.
 
-Inicialmente, o Dev Guide foi concebido em [inglês](https://devguide.ropensci.org/) e, posteriormente, ganhou uma versão em [espanhol](https://devguide.ropensci.org/es/index.es.html), graças a um esforço de tradução da comunidade envolvida com a organização. Mais recentemente, algumas pessoas colaboradoras fizeram esforços em conjunto para a tradução do Dev Guide para o português. Neste texto, iremos relatar como foi esse processo de tradução colaborativa, levando em conta que a tradução de materiais é uma das formas de contribuir com a missão da rOpenSci de promover uma cultura de pesquisa aberta e reprodutível.
+Inicialmente, o Dev Guide foi concebido em [inglês](https://devguide.ropensci.org/) e, posteriormente, ganhou uma versão em [espanhol](https://devguide.ropensci.org/es/index.es.html), graças a um [esforço de tradução da comunidade](/blog/2024/03/11/devguide-0.9.0/). Mais recentemente, algumas pessoas colaboradoras fizeram esforços em conjunto para a tradução do Dev Guide para o português. Neste texto, iremos relatar como foi esse processo de tradução colaborativa, levando em conta que a tradução de materiais é uma das formas de contribuir com a missão da rOpenSci de promover uma cultura de pesquisa aberta e reprodutível.
 
 ## Por que traduzir o Dev Guide para o português?
 
@@ -42,7 +42,7 @@ Mas esse foi apenas o início da história. Logo depois, a equipe da rOpenSci la
 
 A iniciativa continuou ganhando forma e, pouco a pouco, foi atingindo mais pessoas. Dentre elas, o angolano António Pedro, líder da [Angola Open Source Community](https://angolaosc.org/) (AOSC), que manifestou o desejo de engajar também sua comunidade nesse esforço conjunto.
 
-Ao longo do tempo, a rOpenSci promoveu alguns encontros com o intuito de apresentar a iniciativa, aproximar as pessoas colaboradoras e manter vivo o entusiasmo pela tradução. Em um primeiro momento, a rOpenSci organizou uma reunião online (“[Traduzindo o Guia Dev da rOpenSci para o Português](/events/portuguese-translation/)”), na qual o Pedro apresentou o processo de tradução. As pessoas interessadas em colaborar entraram no Slack da rOpenSci e passaram a trabalhar nas revisões.
+Ao longo do tempo, a rOpenSci promoveu alguns encontros com o intuito de apresentar a iniciativa, aproximar as pessoas colaboradoras e manter vivo o entusiasmo pela tradução. Em um primeiro momento, a rOpenSci organizou uma reunião online ([Traduzindo o Guia Dev da rOpenSci para o Português](/events/portuguese-translation/)), na qual o Pedro apresentou o processo de tradução. As pessoas interessadas em colaborar entraram no Slack da rOpenSci e passaram a trabalhar nas revisões.
 
 Em um segundo momento, para manter o engajamento, houve uma chamada comunitária em português, “[A Comunidade R Fala Português](/commcalls/translation-portuguese/)”, sendo o primeiro encontro realizado nessa língua. Nessa oportunidade, além da divulgação do projeto da rOpenSci de tradução para o português, também foram apresentados outros projetos similares conduzidos dentro da comunidade R. Para inspirar as pessoas a participarem, foi realizado ainda um [hackathon de tradução](https://latinr.org/en/cronograma/translaton/translaton-en.html) em conjunto com o evento [LatinR](https://latinr.org/pt/) naquele mesmo ano. Pedro Faria, Beatriz Milz e Francesca Belem Lopes Palmeira estiveram à frente desses dois eventos, apresentando a iniciativa, guiando as discussões e inspirando a colaboração entre as pessoas.
 
@@ -52,7 +52,7 @@ Com o passar do tempo, mais pessoas se juntaram ao projeto e a tradução foi co
 
 {{< figure src = "fig-1-pt.png"  alt = "" >}}
 
-Fonte: Elaborado por Francesca Belem Lopes Palmeira e Ariana Moura Cabral.
+Fonte: Francesca Belem Lopes Palmeira e Ariana Moura Cabral.
 
 ## Processo de tradução
 
@@ -69,7 +69,7 @@ A tradução inicial era submetida ao repositório através de um *Pull Request*
 
 {{< figure src = "fig-2-pt.png"  alt = "" >}}
 
-Fonte: Elaborado por Francesca Belem Lopes Palmeira.
+Fonte: Francesca Belem Lopes Palmeira.
 
 
 Este ano teremos a publicação da nova versão do Dev Guide, incluindo a tradução para o português. Todas as pessoas que participaram desse trabalho de tradução e revisão serão creditadas como autoras da tradução. Essa versão contará com um DOI (*Digital Object Identifier*) próprio e o PDF ficará disponível no [Zenodo](https://zenodo.org/), além do site oficial do guia, permitindo que a tradução seja citada formalmente usando essas informações.
