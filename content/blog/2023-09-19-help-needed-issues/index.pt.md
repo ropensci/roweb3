@@ -1,5 +1,5 @@
 ---
-title: Atrair colaboradores com questões de "procura-se ajuda
+title: Atrair pessoas colaboradoras com *issues* marcadas como "procura-se ajuda"
 author:
 - Maëlle Salmon
 - Yanina Bellini Saibene
