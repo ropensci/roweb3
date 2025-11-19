@@ -61,7 +61,7 @@ Ao adicioná-los em sua lista de *issues*,
 
 ## Etapa 2. Aprimore a sua *issue* e o guia de contribuição
 
-Quando você tiver um tópico em mente, deixe o título e o texto da questão o mais claro possível.
+Quando você tiver um tópico em mente, deixe o título e o texto da *issue* o mais claro possível.
 Mesmo que você seja o único a corrigir o problema no final, no futuro você ficará feliz por não ter anotado um comentário indecifrável.
 Se necessário, faça links para recursos e certifique-se de incluir o contexto.
 Aborde a redação de um problema em seu próprio repositório da mesma forma que você faria em um repositório que não é seu: descrição do desafio, resultado desejado, compensações, etc.
