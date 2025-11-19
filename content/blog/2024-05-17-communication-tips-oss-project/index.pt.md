@@ -102,7 +102,7 @@ Integrar os comentários ao fórum significa que você só precisa acompanhar um
 ## Ter perfis em redes sociais
 
 As redes sociais podem ser úteis para divulgar o seu projeto e suas atualizações, e para interagir com as pessoas usuárias.
-Você pode optar por tornar sua mídia social "somente leitura", declarando claramente que não tem recursos para responder a perguntas nela.
+Você pode optar por tornar suas redes "apenas para divulgação", deixando claro que não tem disponibilidade para responder a perguntas por meio delas.
 
 O ideal é que você concentre o uso da mídia social em [plataformas agradáveis](/blog/2023/06/22/ropensci-news-digest-june-2023/#ropenscis-communication-channels-for-safe-and-friendly-exchange) e plataformas em que os usuários e a comunidade de seus projetos provavelmente se reunirão.
 
