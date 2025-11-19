@@ -7,7 +7,7 @@ slug: what-does-it-mean-to-maintain-a-package
 categories:
 - blog
 tags:
-- package
+- pacote
 - maintenance
 package_version: 0.1.0
 description: Uma tentativa de definir o que significa a manutenção de pacotes, com
