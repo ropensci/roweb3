@@ -26,7 +26,7 @@ Como mantenedor(a) de pacotes (ou equipe de pessoas mantenedoras),
 
 - você é responsável pelo escopo do pacote: Você quer adicionar uma funcionalidade? A decisão é sua!
 - você define o planejamento do trabalho na base de código: você deve pensar em melhorias e organizá-las em marcos.
-- você está no controle da qualidade do código: Você quer dedicar mais tempo a esse pull request? Ou você aceitará e acumulará um pouco de [dívida técnica](https://en.wikipedia.org/wiki/Technical_debt)? Novamente, a decisão é sua!
+- você está no controle da qualidade do código: Você quer dedicar mais tempo a esse *pull request*? Ou você aceitará e acumulará um pouco de [dívida técnica](https://en.wikipedia.org/wiki/Technical_debt)? Novamente, a decisão é sua!
 
 No entanto, você não possui apenas esses aspectos técnicos e de produtividade.
 Em nossa chamada da comunidade anterior sobre [Manutenção de um pacote R](/commcalls/2020-03-18/) Erin Grand definiu a manutenção de um pacote como "propriedade em torno da comunidade do pacote".
