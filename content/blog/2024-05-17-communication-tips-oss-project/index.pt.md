@@ -65,7 +65,7 @@ Como a composição de uma equipe de desenvolvimento muda com o tempo, é aconse
 Embora o desenvolvimento de código aberto exija que muita coisa aconteça [em um ambiente aberto](https://producingoss.com/en/producingoss.html#avoid-private-discussions), também é importante cultivar um espaço seguro onde as pessoas da equipe possam desabafar, discutir assuntos delicados ou compartilhar fotos de animais de estimação.
 Isso pode ser feito por meio de um espaço de trabalho do Slack, Discord, Matrix ou servidor Element, ou por opções de ponta como o [flat](https://try.flat.app) ou [CQ2](https://cq2.co/).
 
-O ideal é que você seja o proprietário do espaço, a menos que possa contar com um parceiro externo (um financiador? uma coalizão maior de projetos?) para continuar fornecendo-o a você.
+O ideal é que você seja a pessoa proprietária do espaço, a menos que possa contar com um parceiro externo (um financiador? uma coalizão maior de projetos?) para continuar fornecendo-o a você.
 
 ## Ter um fórum
 
