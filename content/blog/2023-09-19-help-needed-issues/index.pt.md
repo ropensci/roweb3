@@ -24,7 +24,7 @@ Nesta publicação, exploraremos uma ferramenta que ajudará você a atingir ess
 
 *Observe que esta postagem usa a terminologia específica do GitHub, como *issues* e *labels*. Se você usa o GitLab ou outra plataforma git, provavelmente há um equivalente.* :slightly_smiling_face:
 
-## O que são problemas de "procura-se ajuda"?
+## O que são *issues* de "procura-se ajuda"?
 
  As questões "help wanted" são questões para as quais você aceitaria ou precisaria de contribuições externas.
 Elas são rotuladas com o rótulo padrão da comunidade "help wanted" ([exemplo](https://github.com/ropensci/osmextract/issues/286); opcionalmente com um emoji, se você executou [`usethis::use_tidy_github_labels()`](https://usethis.r-lib.org/reference/use_github_labels.html)).
