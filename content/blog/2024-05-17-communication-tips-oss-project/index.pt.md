@@ -52,7 +52,7 @@ No caso de uma organização no GitHub, você pode perguntar aos seus membros se
 
 O polimento do perfil não precisa levar muito tempo e só pode melhorar a imagem do seu projeto.
 
-## Necessário: Certifique-se de que você lida com o acesso de forma inteligente
+## Necessário: Garantir uma gestão cuidadosa de acessos
 
 Para qualquer plataforma que exija logins ou algum tipo de direito de acesso, certifique-se de que todos os que precisam de acesso o tenham e que o acesso seja removido de qualquer pessoa que não precise mais dele.
 
