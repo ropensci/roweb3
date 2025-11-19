@@ -7,7 +7,6 @@ publishDate: 2025-09-29
 description: "Community Call about R-multiverse"
 author:
   - Will Landau 
-  - Yanina Bellini Saibene
 organizer: 
   - Yanina Bellini Saibene
   - Steffi LaZerte
@@ -15,17 +14,20 @@ location: online
 country: "\U0001F310"
 attendees: Everyone is welcome!
 slug: r-multiverse
-featured: true
-notes: 
+notes: https://docs.google.com/document/d/1879AsypDb5fGdxPWTiTtY6LygQMCvtZ_G80eD1Qrkr4/edit?usp=sharing
 outputs:
 - HTML
 - Calendar 
-# vimeo: 
-#   - id: ''
+vimeo: 
+   - id: '1122954029' 
 resources:
   - url: https://r-multiverse.org
     name: "R-multiverse website"
     details: "website for the R-multiverse project, a new community-curated dual publishing platform for R packages"
+    resources:
+  - url: https://wlandau.github.io/posit2025
+    name: "Speaker's Slides"
+    details: "Slides from Will Landau's presentation at the community call with details about R-multiverse"
 speakers:  
   - name: Will Landau
     bio: Will Landau is the author of rOpenSci's {targets} R package. He earned his PhD in Statistics from Iowa State University in 2016, and he now works at Eli Lilly and Company, where he develops methods and software for clinical statisticians.

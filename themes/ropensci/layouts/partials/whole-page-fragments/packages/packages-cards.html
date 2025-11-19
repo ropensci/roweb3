@@ -20,7 +20,7 @@
 <div class="col-md-4">
             <div class="packages-item">
             <a href="{{ .RelPermalink }}" class="packages-title">
-              {{ .Title }}</a>
+              {{ .Title | markdownify }}</a>
                 <div class="packages-body">
                   <p>{{ .Params.description }}</p>
                 <a class="link-arrow link-arrow-sm" href="/packages/{{ .Slug }}">View all packages </a>
