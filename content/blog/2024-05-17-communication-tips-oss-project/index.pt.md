@@ -58,7 +58,7 @@ Para qualquer plataforma que exija logins ou algum tipo de permissão de acesso,
 
 Você pode considerar o uso de sistemas de gerenciamento de senhas, como o [1Password](https://1password.com/).
 
-Como a composição de uma equipe de desenvolvimento muda com o tempo, talvez seja aconselhável revisar o acesso regularmente e fazer com que essa revisão faça parte de algum tipo de lista de verificação de integração/desinclusão.
+Como a composição de uma equipe de desenvolvimento muda com o tempo, é aconselhável revisar o acesso regularmente e fazer com que essa revisão faça parte de algum tipo de lista de tarefas de integração/desligamento (*onboarding*/*offboarding*) de pessoas na equipe.
 
 ## Necessário: ter um espaço para discussões privadas
 
