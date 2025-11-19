@@ -44,7 +44,7 @@ Nesse estágio, você pode
 - abra uma *issue* em uma dependência upstream se for aí onde está o problema real;
 - abra uma *issue* no seu repositório descrevendo o problema.
 
-Por exemplo, ao trabalhar no pacote tinkr, Maëlle abriu um arquivo [problema muito específico](https://github.com/ropensci/tinkr/issues/9) que acabou recebendo uma ajuda externa milagrosa.
+Por exemplo, ao trabalhar no pacote tinkr, Maëlle abriu uma [*issue* muito específica](https://github.com/ropensci/tinkr/issues/9) que acabou recebendo uma ajuda externa milagrosa.
 
 Você também pode adicionar o rótulo "procura-se ajuda" a um relatório de bug ou solicitação de recurso que outra pessoa abriu em seu pacote!
 Com um pouco de sorte, o próprio criador do problema poderá participar.
