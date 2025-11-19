@@ -52,7 +52,7 @@ Com um pouco de sorte, a própria pessoa que criou a *issue* poderá participar.
 ### Temas em que você poderia obter ajuda: delegar ou vontade de aumentar a sua equipe
 
 Às vezes, há algumas ideias de manutenção ou aprimoramento que você tem para o seu pacote e para as quais não tem tempo no momento ou que não são urgentes.
-Por exemplo, [atualizar a infraestrutura de testes para testar a terceira edição](https://github.com/ropensci/geojsonio/issues/183) ou [adicionar suporte de terra a um pacote espacial](https://github.com/ropensci/landscapetools/issues/33).
+Por exemplo, [atualizar a infraestrutura de testes para utilizar a terceira edição do pacote testthat](https://github.com/ropensci/geojsonio/issues/183) ou [adicionar suporte do pacote terra a um pacote espacial](https://github.com/ropensci/landscapetools/issues/33).
 Ao listá-los em seu rastreador de problemas,
 
 - você mostra aos usuários curiosos que eles estão em sua mente,
