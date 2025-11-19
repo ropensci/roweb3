@@ -31,7 +31,7 @@ Como mantenedor(a) de pacotes (ou equipe de pessoas mantenedoras),
 No entanto, você não possui apenas esses aspectos técnicos e de produtividade.
 Em nossa chamada da comunidade anterior sobre [manutenção de pacotes em R](/commcalls/2020-03-18/), Erin Grand definiu a manutenção de um pacote como "assumir responsabilidade pela comunidade em torno do pacote".
 Que ótima maneira de reconhecer as *pessoas* que criam e usam um software!
-Como mantenedor de pacotes, uma das suas funções é apoiar e incentivar uma comunidade próspera de usuários e colaboradores... Você também é o tema de uma chamada anterior da comunidade: [Configure seu pacote para promover uma comunidade](/commcalls/apr2021-pkg-community/).
+Como pessoa mantenedora do pacote, um dos seus papéis é apoiar e incentivar uma comunidade ativa de pessoas usuárias e colaboradoras... Isso também foi tema de uma chamada comunitária anterior: [Configure seu pacote para fomentar uma comunidade](/commcalls/apr2021-pkg-community/).
 
 ## Manutenção de pacotes como capacidade de resposta
 
