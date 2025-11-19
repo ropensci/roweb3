@@ -45,7 +45,7 @@ Over time, more people joined the project, and the translation was completed in 
 
 **Figure 1** – Timeline of how the events unfolded.
 
-{{< figure src = "fig-1-en.png" alt = "Timeline, beginning in June 2023 and ending in October 2025." >}}
+{{< figure src = "fig-1-en.png" alt = "" >}}
 
 Source: by Francesca Belem Lopes Palmeira and Ariana Moura Cabral.
 
@@ -61,7 +61,7 @@ The initial translation was submitted to the repository through a Pull Request (
 
 **Figure 2** - Visual representation of the translation process for each chapter of the Dev Guide.
 
-{{< figure src = "fig-2-en.png" alt = "Visual representation of the translation process for each chapter: 1) Original file (index.Rmd); 2) Automatic translation (API); 3) Translated file (index.pt.Rmd); 4) Review 1; 5) Review 2; 6) Finalized review (Merged)." >}}
+{{< figure src = "fig-2-en.png" alt = "" >}}
 
 Source: by Francesca Belem Lopes Palmeira.
 
