@@ -79,7 +79,7 @@ Você pode usar [Discourse](https://www.discourse.org/) ou o [GitHub Discussions
 Em comparação com as notas de versão, as postagens de blog sobre novas versões fornecem mais uma narrativa e, portanto, podem ser mais fáceis de ler.
 Eles ainda podem direcionar as pessoas usuárias às notas de versão para obter mais informações.
 
-O blog de um projeto de código aberto também pode conter outros tipos de publicações, como um aprofundamento em um recurso, anúncio de financiamento, solicitação de contribuições ou apoio financeiro.
+O blog de um projeto de código aberto também pode conter outros tipos de publicações, como um aprofundamento em uma funcionalidade, anúncio de financiamento, solicitação de contribuições ou apoio financeiro.
 
 Ao escolher um construtor de sites, tente escolher um que seja gratuito e que seja familiar para a equipe do seu projeto ou fácil o suficiente para que você se familiarize com ele.
 As postagens de blog baseadas em Markdown são mais fáceis de escrever a partir de notas de versão.
