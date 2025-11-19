@@ -44,7 +44,7 @@ Manter e responder a *issues* é uma parte importante da manutenção de uma com
 O uso de *issues* pelo seu projeto pode ser divulgado por meio de uma *issue* fixada; você pode até mesmo [limitar temporariamente as interações](https://docs.github.com/en/communities/moderating-comments-and-conversations/limiting-interactions-in-your-repository).
 Esses termos e links são para o GitHub, mas existem ideias e funcionalidades semelhantes para outras plataformas de hospedagem de código.
 
-## Necessário: Perfis de projetos poloneses
+## Necessário: Perfis de projetos polidos
 
 Todo software de código aberto tem um perfil, possivelmente espalhado por vários lugares, como organizações do GitHub ou contas do Mastodon. Um logotipo pode ser um identificador importante do seu perfil e deve aparecer de forma consistente em todos os seus perfis. Também é importante incluir descrições informativas e verificar todos os URLs ([docs para GitHub](https://docs.github.com/en/organizations/managing-organization-settings/verifying-or-approving-a-domain-for-your-organization), [docs para Mastodon](https://joinmastodon.org/verification)).
 
