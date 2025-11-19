@@ -32,7 +32,7 @@ Você pode automatizar parcialmente as notas de versão a partir de mensagens de
 As notas de versão podem informar diretamente as pessoas usuárias, que podem lê-las:
 
 - no GitHub, [acompanhando os eventos de lançamento (*release events*)](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications#configuring-your-watch-settings-for-an-individual-repository) do repositório;
-- do site de documentação, no qual o pkgdown se transforma `NEWS.md` em uma página chamada changelog.
+- no site de documentação, no qual o pkgdown transforma o arquivo `NEWS.md` em uma página chamada *changelog*.
 
 Eles também serão úteis como matéria-prima para outras iniciativas de comunicação, como postagens em blogs sobre lançamentos.
 
