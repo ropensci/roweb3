@@ -80,7 +80,7 @@ Você também pode compartilhá-lo em suas próprias redes: no slack da rOpenSci
 
 Você também pode considerar a possibilidade de aproveitar eventos hack-a-thon como [Hacktoberfest](https://hacktoberfest.com/) por exemplo (se você adicionar a *label* ["hacktoberfest" ao seu repositório](https://hacktoberfest.com/participation/)), mas em eventos realmente grandes como esse você não pode necessariamente contar que alguém descubra sua pequena *issue* nesse mar de *issues*.
 
-## Etapa 4. Agradeça aos colaboradores
+## Etapa 4. Agradeça as pessoas colaboradoras
 
 Se alguém responder a uma questão ou abrir uma RP, tente ser receptivo.
 Verifique se suas configurações permitem que você seja notificado sobre comentários de problemas e PRs. Talvez seja necessário [observar](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/managing-subscriptions-for-activity-on-github/viewing-your-subscriptions) seu repositório.
