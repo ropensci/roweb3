@@ -69,7 +69,7 @@ O ideal é que você seja a pessoa proprietária do espaço, a menos que possa c
 
 ## Ter um fórum
 
-Para um projeto pequeno, os rastreadores de problemas podem ser tudo o que você precisa para lidar com relatórios de bugs, solicitações de recursos e perguntas e respostas em geral.
+Para um projeto pequeno, os rastreadores de *issues* podem ser tudo o que você precisa para lidar com relatórios de bugs, pedidos de funcionalidades e perguntas e respostas em geral.
 No entanto, projetos maiores podem se beneficiar da criação e da curadoria de um fórum de discussão dedicado.
 
 Você pode usar [Discurso](https://www.discourse.org/) ou [Discussões do GitHub](https://docs.github.com/fr/discussions).
