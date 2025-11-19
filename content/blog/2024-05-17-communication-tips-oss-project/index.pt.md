@@ -95,7 +95,7 @@ Quando o seu blog tiver um feed RSS, registre-o em agregadores relevantes, como 
 
 Se você optar por habilitar comentários nas postagens do blog, certifique-se de integrá-los ao fórum do projeto.
 
-Isso é muito fácil com o [Discourse](https://meta.discourse.org/t/embed-discourse-comments-on-another-website-via-javascript/31963) (que usamos neste mesmo blog) e o [GitHub Discussions via Giscus](https://giscus.app/fr) (que também são fáceis de integrar com o [Quarto](https://quarto.org/docs/output-formats/html-basics.html#commenting) entre outros).
+Isso é muito fácil com o [Discourse](https://meta.discourse.org/t/embed-discourse-comments-on-another-website-via-javascript/31963) (que usamos neste mesmo blog) e o [GitHub Discussions via Giscus](https://giscus.app/fr) (que também são fáceis de integrar com o [Quarto](https://quarto.org/docs/output-formats/html-basics.html#commenting), entre outros).
 
 Integrar os comentários ao fórum significa que você só precisa cuidar de um espaço e também ajuda a conectar os leitores das publicações do blog ao fórum.
 
