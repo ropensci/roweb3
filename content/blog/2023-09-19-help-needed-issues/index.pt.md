@@ -27,7 +27,7 @@ Nesta publicação, exploraremos uma ferramenta que ajudará você a atingir ess
 ## O que são *issues* de "procura-se ajuda"?
 
  As *issues* "procura-se ajuda" são *issues* para as quais você aceitaria ou precisaria de contribuições externas.
-Elas são rotuladas com o rótulo padrão da comunidade "help wanted" ([exemplo](https://github.com/ropensci/osmextract/issues/286); opcionalmente com um emoji, se você executou [`usethis::use_tidy_github_labels()`](https://usethis.r-lib.org/reference/use_github_labels.html)).
+Elas são rotuladas com a *label* padrão da comunidade "help wanted" (em inglês) ([exemplo](https://github.com/ropensci/osmextract/issues/286); opcionalmente com um emoji, se você executou [`usethis::use_tidy_github_labels()`](https://usethis.r-lib.org/reference/use_github_labels.html)).
 
 Para alguns deles, se não estiverem muito envolvidos, ou se forem uma boa rampa de integração para sua base de código, você também pode usar o [ rótulo "bom primeiro problema"](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/encouraging-helpful-contributions-to-your-project-with-labels).
 
