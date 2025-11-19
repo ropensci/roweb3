@@ -48,7 +48,7 @@ Esses termos e links são para o GitHub, mas existem ideias e funcionalidades se
 
 Todo software de código aberto tem um perfil, possivelmente espalhado por vários lugares, como organizações do GitHub ou contas do Mastodon. Um logotipo pode ser um identificador importante do seu perfil e deve aparecer de forma consistente em todos os seus perfis. Também é importante incluir descrições informativas e verificar todas as URLs ([documentação para o GitHub](https://docs.github.com/en/organizations/managing-organization-settings/verifying-or-approving-a-domain-for-your-organization), [documentação para o Mastodon](https://joinmastodon.org/verification)).
 
-Para uma organização do GitHub, você pode perguntar aos seus membros se eles gostariam de fazer seus [associação à organização do GitHub pública](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-membership-in-organizations/publicizing-or-hiding-organization-membership) o que pode dar a você uma imagem mais colaborativa, mesmo antes de alguém mergulhar na atividade de commit.
+No caso de uma organização no GitHub, você pode perguntar aos seus membros se eles gostariam de tornar sua [afiliação à organização do GitHub pública](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-membership-in-organizations/publicizing-or-hiding-organization-membership), o que pode transmitir uma imagem mais colaborativa, mesmo antes que alguém examine a atividade de *commits*.
 
 O polimento do perfil não precisa levar muito tempo e só pode melhorar a imagem do seu projeto.
 
