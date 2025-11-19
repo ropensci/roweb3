@@ -8,7 +8,7 @@ categories:
 - blog
 tags:
 - pacote
-- maintenance
+- manutenção
 package_version: 0.1.0
 description: Uma tentativa de definir o que significa a manutenção de pacotes, com
   algumas dicas.
