@@ -15,7 +15,7 @@ params:
 
 Você mantém um projeto de código aberto, como um pacote R ou um conjunto de pacotes, e quer saber como usar melhor os vários canais de comunicação para informar e interagir com a sua comunidade de pessoas usuárias?
 Consolidamos esta lista de dicas para você.
-Em nossa opinião, algumas delas são obrigatórias, enquanto outras são simplesmente boas de se ter.
+Em nossa opinião, algumas delas são obrigatórias, enquanto outras são desejáveis.
 
 ## Obrigatórias: Ter boas notas de versão
 
