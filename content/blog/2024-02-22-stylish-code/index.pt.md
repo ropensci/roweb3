@@ -15,7 +15,7 @@ tags:
 - desenvolvimento de pacotes
 - código limpo
 params:
-  doi: 10.59350/tbdps-5xc82
+  doi: 10.59350/90r6b-46r20
 ---
 
 O [segundo grupo de campeões e campeãs](/blog/2024/02/15/champions-program-champions-2024/) da rOpenSci foi integrado!
