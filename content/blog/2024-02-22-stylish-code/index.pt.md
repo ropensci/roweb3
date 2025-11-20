@@ -5,6 +5,7 @@ author:
 - Yanina Bellini Saibene
 editor:
 - Steffi LaZerte
+translator: Francesca Belem Lopes Palmeira
 date: '2024-02-22'
 slug: beautiful-code
 output: hugodown::md_document
