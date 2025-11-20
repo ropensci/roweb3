@@ -9,11 +9,11 @@ date: '2024-02-22'
 slug: beautiful-code
 output: hugodown::md_document
 tags:
-- champions program
-- tech notes
-- beginner
-- package development
-- clean code
+- campeões e campeãs
+- notas técnicas
+- principiante
+- desenvolvimento de pacotes
+- código limpo
 params:
   doi: 10.59350/tbdps-5xc82
 ---
@@ -26,7 +26,7 @@ Essa sessão de treinamento consistiu em uma palestra e discussão, enquanto as 
 ## Por que escrever um código bonito?
 
 Embora o seu código seja executado por máquinas, ele será lido por humanos.
-Esses humanos, sejam eles futuros você, colaboradores que você conhece ou colaboradores que você não conhece, precisarão entender seu código para verificar se não há erros, corrigir possíveis bugs e desenvolvê-lo adicionando novos recursos.
+Esses humanos, sejam eles você no futuro, colaboradores que você conhece ou colaboradores que você não conhece, precisarão entender o seu código para verificar se não há erros, corrigir possíveis bugs e desenvolvê-lo adicionando novos recursos.
 Portanto, é fundamental facilitar a compreensão do seu código.
 
 ## Código bem proporcionado
@@ -124,11 +124,11 @@ Assim como nos idiomas humanos, aprendemos mais palavras em R [com o tempo](http
 Esta parte do treinamento foi uma versão mais curta da publicação no blog do R-hub [Por que comentar seu código o mínimo (e o melhor) possível](https://blog.r-hub.io/2023/01/26/code-comments-self-explaining-code/).
 
 Os comentários de código não são uma narração do código, eles devem funcionar como alertas curtos.
-Quanto mais comentários você tiver, maior será a probabilidade de o leitor ignorá-los.
+Quanto mais comentários você tiver, maior será a probabilidade da pessoa leitora ignorá-los.
 
 Os comentários de código não devem ser um "band-aid" para nomes ruins ou código excessivamente complexo: em vez de adicionar um comentário, você pode renomear uma variável ou refatorar um trecho de código?
 
-Uma ideia útil é usar [funções ou variáveis autoexplicativas](https://blog.r-hub.io/2023/01/26/code-comments-self-explaining-code/#use-helper-functions-or-explaining-variables) onde códigos como
+Uma ideia útil é usar [funções ou variáveis autoexplicativas](https://blog.r-hub.io/2023/01/26/code-comments-self-explaining-code/#use-helper-functions-or-explaining-variables), onde um código como
 
 ```r
 if (!is.na(x) && nzchar(x)) {
@@ -149,7 +149,7 @@ if (x_is_not_empty_string) {
 Exemplos de bons comentários incluem:
 
 - documentação de funções com o roxygen2,
-- aspectos que você gostaria de apontar para um revisor de código, como `# This query can not be done via GraphQL, so have to use v3 REST API`,
+- aspectos que você gostaria de apontar para uma pessoa revisora de código, como `# This query can not be done via GraphQL, so have to use v3 REST API`,
 - [comentários que fornecem uma tabela de conteúdo](https://blog.r-hub.io/2023/01/26/code-comments-self-explaining-code/#use-comments-for-the-scripts-outline).
 
 ## Limpar código
@@ -163,9 +163,9 @@ Nós compartilhamos essas ideias:
 
 - Siga a moda, ou seja, use as mesmas palavras que outras pessoas em sua área ou linguagem de programação.
 
-- Felienne Hermans, em seu livro [O cérebro do programador](https://www.manning.com/books/the-programmers-brain) aconselha que você escolha os conceitos que compõem o nome, as palavras para dizê-lo e, em seguida, junte-os. Essa abordagem em três etapas é uma boa maneira de você se livrar do problema.
+- Felienne Hermans, em seu livro [The Programmer's Brain](https://www.manning.com/books/the-programmers-brain) aconselha que você escolha os conceitos que compõem o nome, as palavras para dizê-lo e, em seguida, junte-os. Essa abordagem em três etapas é uma boa maneira de você se livrar do problema.
 
-- Seguindo o conselho anterior, os nomes devem ser consistentes em toda a base de código e você deve escolher o que deseja dizer. *moldes de nomes* são uma ferramenta muito boa para isso. Os moldes de nomes são padrões nos quais os elementos de um nome são combinados; por exemplo, se você calcular o valor máximo do rendimento da colheita, precisará concordar se `maximum` será `max` ou `maximum` e se a palavra estiver no início ou no final do nome da variável: deve ser `maxYield` ou `yieldMax`?  Ao normalizar a forma de nomear as coisas, nosso código será mais fácil de ler.
+- Seguindo o conselho anterior, os nomes devem ser consistentes em toda a base de código, e os _name molds_ são uma ferramenta muito boa para isso. Moldes de nomes são padrões nos quais os elementos de um nome são combinados; por exemplo, se você calcular o valor máximo do rendimento da colheita, precisará concordar se `maximum` será `max` ou `maximum` e se a palavra estiver no início ou no final do nome da variável: deve ser `maxYield` ou `yieldMax`?  Ao normalizar a forma de nomear as coisas, nosso código será mais fácil de ler.
 
 - "Quanto maior a distância entre a declaração de um nome e seus usos, mais longo deve ser o nome" (Andrew Gerrand). Entretanto, não importa o quão perto da definição de uma variável você a use, não use uma abreviação inteligente e muito curta.
 
