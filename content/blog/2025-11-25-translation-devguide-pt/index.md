@@ -9,6 +9,7 @@ author:
   - Daniel Vartanian
   - Pedro Faria
 date: '2025-11-25'
+featured: true
 editor: Steffi LaZerte
 description: "We are very pleased to announce that our guide on package development, maintenance, and peer review is now available in Portuguese. In this blog post, the people who led the translation project share how the process unfolded, the challenges faced, the results achieved, and what participating in this effort meant to them."
 tags:
