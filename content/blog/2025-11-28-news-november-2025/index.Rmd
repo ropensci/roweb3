@@ -633,6 +633,12 @@ Some useful tips for R package developers. :eyes:
 
 We've updated the introduction to vcr in the [HTTP testing in R book](https://books.ropensci.org/http-testing/vcr.html), so that it reflects the current vcr version, in particular the `local_cassette()` function.
 
+## Jarl: just another R linter
+
+Etienne Bacher introduced the new CLI jarl in a [blog post](https://www.etiennebacher.com/posts/2025-11-20-introducing-jarl/).
+Like Air, it is run in the terminal.
+Like the flir R package, it can fix bad patterns in R code.
+
 ## pkgdown 2.2.0 makes it easier for LLMs to read your documentation
 
 The latest pkgdown version adds a step to the website building, that creates:

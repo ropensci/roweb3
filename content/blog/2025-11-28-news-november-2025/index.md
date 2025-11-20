@@ -10,7 +10,7 @@ description: LatinR, posit::conf(2025) recordings, coworking, new package, packa
 params:
   last_newsletter: '2025-10-24'
   doi: "10.59350/7pygv-c1m20"
-rmd_hash: c69a36232d8ef517
+rmd_hash: 5a7d8258f0e710a8
 
 ---
 
@@ -89,13 +89,13 @@ The following thirteen packages have had an update since the last newsletter: [p
 
 There are fourteen recently closed and active submissions and 3 submissions on hold. Issues are at different stages:
 
--   One at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%226/approved%22):
+-   Two at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%226/approved%22):
+
+    -   [babelquarto](https://github.com/ropensci/software-review/issues/720), Renders a Multilingual Quarto Book. Submitted by [Maëlle Salmon](https://masalmon.eu/).
 
     -   [distionary](https://github.com/ropensci/software-review/issues/688), Create and Evaluate Probability Distributions. Submitted by [Vincenzo Coia](https://vincenzocoia.com).
 
--   Four at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%225/awaiting-reviewer(s)-response%22):
-
-    -   [babelquarto](https://github.com/ropensci/software-review/issues/720), Renders a Multilingual Quarto Book. Submitted by [Maëlle Salmon](https://masalmon.eu/).
+-   Three at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%225/awaiting-reviewer(s)-response%22):
 
     -   [mantis](https://github.com/ropensci/software-review/issues/710), Multiple Time Series Scanner. Submitted by [Phuong Quan](https://github.com/phuongquan).
 
@@ -168,6 +168,10 @@ Some useful tips for R package developers. :eyes:
 ## Update of the vcr chapter in HTTP testing in R
 
 We've updated the introduction to vcr in the [HTTP testing in R book](https://books.ropensci.org/http-testing/vcr.html), so that it reflects the current vcr version, in particular the `local_cassette()` function.
+
+## Jarl: just another R linter
+
+Etienne Bacher introduced the new CLI jarl in a [blog post](https://www.etiennebacher.com/posts/2025-11-20-introducing-jarl/). Like Air, it is run in the terminal. Like the flir R package, it can fix bad patterns in R code.
 
 ## pkgdown 2.2.0 makes it easier for LLMs to read your documentation
 
