@@ -169,9 +169,9 @@ Nós compartilhamos essas ideias:
 
 - "Quanto maior a distância entre a declaração de um nome e seus usos, mais longo deve ser o nome" (Andrew Gerrand). Entretanto, não importa o quão perto da definição de uma variável você a use, não use uma abreviação inteligente e muito curta.
 
-- Há várias maneiras de escrever nomes de variáveis. O estilo camelCase leva a uma maior precisão na leitura do código (Dave Binkley, 2009) e é melhor para a leitura do código com leitores de tela.  Sabemos que é difícil alterar o estilo de um projeto existente, mas se você estiver em uma situação em que possa decidir do zero, considere usar Camel Case? Se você não tiver certeza sobre os nomes dos casos, consulte o artigo de Allison Horst [de Allison Horstsobre casos](https://allisonhorst.com/everything-else) (role para baixo até "Representações em desenho animado de casos comuns em codificação").
+- Há várias maneiras de escrever os nomes de variáveis. O estilo camelCase leva a uma maior precisão na leitura do código (Dave Binkley, 2009) e é melhor para a leitura do código com leitores de tela.  Sabemos que é difícil alterar o estilo de um projeto existente, mas se você estiver em uma situação em que possa decidir do zero, considere usar Camel Case. Se você não tiver certeza sobre os nomes dos casos, consulte o artigo [cartoon of cases](https://allisonhorst.com/everything-else) de Allison Horst (role para baixo até "Cartoon representations of common cases in coding").
 
-- Um nome é claro se a pessoa que estiver revisando seu código concordar com ele.
+- Um nome é claro se a pessoa que estiver revisando o seu código concordar com ele.
 
 Outra dica é que não há problema algum em criar funções que envolvam funções existentes apenas para mudar o nome delas.
 Essa estratégia é comum para alterar a ordem dos argumentos, mas também é adequada para a nomeação.
@@ -215,8 +215,8 @@ do_thing <- function(x) {
 
 mas o último, com o início `return()` tem menos aninhamento e enfatiza o ["caminho feliz"](https://github.com/jennybc/code-smells-and-feels).
 
-O [`switch()`](https://rdrr.io/r/base/switch.html) também pode ajudar você a remover if-else aninhados.
-Com ela, você pode,
+A função [`switch()`](https://rdrr.io/r/base/switch.html) também pode ajudar você a remover estruturas if-else aninhadas.
+Com ela,
 
 ```r
 if (type == "mean") {
@@ -240,28 +240,28 @@ switch(type,
 
 ### Menos código
 
-O código que você *vocênão* não tem nenhum bug (pelo qual você é responsável) e não precisa ser lido:
+O código que você *não* escreve não tem bug (pelo qual você é responsável) e não precisa ser lido. :tada:
 
 Antes de tudo, seja rigoroso quanto ao escopo do que você está tentando realizar.
 
 Em segundo lugar, use dependências confiáveis para terceirizar parte do trabalho.
-Você pode ["Dependências: Mindset and Background
+O capítulo ["Dependencies: Mindset and Background
 "](https://r-pkgs.org/dependencies-mindset-background.html) do livro R packages, de Hadley Wickham e Jenny Bryan, é uma ótima leitura sobre o assunto.
 
 ## Como você pode melhorar seu código?
 
 Na prática, como você aplica o que aprendeu sobre estilo de código?
-E como você atualiza suas bases de código legadas criadas antes de você conhecer alguns desses aspectos?
+E como você atualiza as suas bases de código legadas criadas antes de você conhecer alguns desses aspectos?
 
 ### Limpeza de primavera
 
-Talvez você possa trabalhar regularmente no estilo e na refatoração do código
+Talvez você possa trabalhar regularmente no estilo e na refatoração do código.
 
-- Uma vez por ano? Andy Teucher escreveu uma postagem interessante no blog sobre o [limpeza de primavera do tidyverse](https://www.tidyverse.org/blog/2023/06/spring-cleaning-2023/).
+- Uma vez por ano? Andy Teucher escreveu no blog uma postagem interessante sobre a limpeza de primavera do tidyverse [Package spring cleaning](https://www.tidyverse.org/blog/2023/06/spring-cleaning-2023/).
 
 - Com mais frequência?
 
-- Uma boa estratégia também é trabalhar um pouco na refatoração sempre que você entrar em uma base de código para corrigir um bug ou adicionar um recurso. A refatoração não precisa ir para o mesmo commit/ramo, mantenha suas alterações de código nucleares e fáceis de revisar.
+- Uma boa estratégia também é trabalhar um pouco na refatoração sempre que você entrar em uma base de código para corrigir um bug ou adicionar um recurso. A refatoração não precisa ir para o mesmo commit/ramo, mantenha as suas alterações de código nucleares e fáceis de revisar.
 
 ### lintr
 
@@ -269,14 +269,14 @@ O pacote lintr é um pacote fantástico.
 Seus linters, ou regras, o lembrarão ou ensinarão sobre elementos a serem corrigidos que você não conhecia ou não conseguia manter na cabeça.
 Você pode executá-lo de vez em quando ou fazer com que ele seja executado em integração contínua.
 
-Mesmo com a simples leitura de seus [referência](https://lintr.r-lib.org/reference/index.html) pode mostrar funções ou padrões que você não conhecia.
+Mesmo uma simples leitura da [referência](https://lintr.r-lib.org/reference/index.html) pode mostrar funções ou padrões que você desconhecia.
 Uma verdadeira joia do ecossistema R!
 
 ### Revisão humana
 
 Outros seres humanos terão uma boa perspectiva externa do seu código e, provavelmente, boas dicas para você!
 
-- Leia o código de seus colegas e vice-versa! A equipe do tidyverse tem um [guia de revisão de código](https://code-review.tidyverse.org/).
+- Leia o código de colegas e vice-versa! A equipe do tidyverse tem um [guia de revisão de código](https://code-review.tidyverse.org/).
 
 - Na rOpenSci, executamos um [sistema de revisão por pares de pacotes de software](/software-review/) :grin:
 
@@ -284,12 +284,12 @@ Outros seres humanos terão uma boa perspectiva externa do seu código e, provav
 
 Estas são as referências para a maior parte do conteúdo do treinamento: :smile\_cat:
 
-- Palestra de Jenny Bryan [Códigos com cheiros e sensações](https://github.com/jennybc/code-smells-and-feels)
+- Palestra de Jenny Bryan [Code Smells and Feels](https://github.com/jennybc/code-smells-and-feels)
 
-- Livro [A arte do código legível](https://www.oreilly.com/library/view/the-art-of/9781449318482/) por Dustin Boswell e Trevor Foucher
+- Livro [The Art of Readable Code](https://www.oreilly.com/library/view/the-art-of/9781449318482/) por Dustin Boswell e Trevor Foucher
 
-- Livro [Tidy Design, de Hadley Wickham, em andamento](https://design.tidyverse.org/) com [boletim informativo associado](https://tidydesign.substack.com/)
+- Livro [Tidy Design, de Hadley Wickham, em andamento](https://design.tidyverse.org/), com [boletim informativo associado](https://tidydesign.substack.com/)
 
-- Livro [Uma filosofia de design de software, de John Ousterhout](https://masalmon.eu/2023/10/19/reading-notes-philosophy-software-design/)
+- Livro [A Philosophy of Software Design de John Ousterhout](https://masalmon.eu/2023/10/19/reading-notes-philosophy-software-design/)
 
 
