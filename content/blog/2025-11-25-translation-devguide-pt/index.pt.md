@@ -25,7 +25,7 @@ doi: 10.59350/fgbq0-zcn87
 
 ## Introdução
 
-A rOpenSci faz a gestão de pacotes desenvolvidos na linguagem de programação R e também oferece um processo de revisão por pares para esses pacotes, uma atividade já bem consolidada dentro da comunidade. Para guiar todo esse processo, a rOpenSci desenvolveu o guia **"Pacotes rOpenSci: Desenvolvimento, Manutenção e Revisão por Pares"** (chamado também de “Dev Guide”). O guia apresenta os procedimentos recomendados para desenvolver e submeter pacotes à coleção da rOpenSci, tornando a condução de cada etapa mais simples e garantindo transparência em todo o processo.
+A rOpenSci faz a curadoria de pacotes desenvolvidos na linguagem de programação R e também oferece um processo consolidado de [revisão por pares](/software-review) para pacotes em R. Para guiar esse processo, a rOpenSci desenvolveu o guia **Pacotes rOpenSci: Desenvolvimento, Manutenção e Revisão por Pares** (chamado também de "Dev Guide"). O guia apresenta os procedimentos recomendados para desenvolver e submeter pacotes à coleção da rOpenSci, esclarecendo cada etapa e garantindo transparência ao longo de todo o processo.
 
 Inicialmente, o Dev Guide foi concebido em [inglês](https://devguide.ropensci.org/) e, posteriormente, ganhou uma versão em [espanhol](https://devguide.ropensci.org/es/index.es.html), graças a um [esforço de tradução da comunidade](/blog/2024/03/11/devguide-0.9.0/). Mais recentemente, algumas pessoas colaboradoras fizeram esforços em conjunto para a tradução do Dev Guide para o português. Neste texto, iremos relatar como foi esse processo de tradução colaborativa, levando em conta que a tradução de materiais é uma das formas de contribuir com a missão da rOpenSci de promover uma cultura de pesquisa aberta e reprodutível.
 
