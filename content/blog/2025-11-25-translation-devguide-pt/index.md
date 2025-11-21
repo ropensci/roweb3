@@ -25,7 +25,7 @@ doi: 10.59350/fgbq0-zcn87
 
 ## Introduction
 
-rOpenSci manages packages developed in the R programming language and also offers a peer review process for those packages, an activity that is already well established within the community. To guide this entire process, rOpenSci created the **"rOpenSci Packages: Development, Maintenance, and Peer Review"** guide (also known as the "Dev Guide"). The guide presents recommended procedures for developing and submitting packages to the rOpenSci collection, making each step easier to follow and ensuring transparency throughout the process.
+rOpenSci curates packages developed in the R programming language and also offers a well-established [peer review process](software-review) for R packages. To guide this process, rOpenSci created the **rOpenSci Packages: Development, Maintenance, and Peer Review** guide (also known as the "Dev Guide"). The guide presents recommended procedures for developing and submitting packages to the rOpenSci collection, clarifying each step and ensuring transparency throughout the process.
 
 Initially, the Dev Guide was created in [English](https://devguide.ropensci.org/) and later gained a [Spanish](https://devguide.ropensci.org/es/index.es.html) version, thanks to a [community-driven translation effort](/blog/2024/03/11/devguide-0.9.0/). More recently, a group of collaborators worked together to translate the Dev Guide into Portuguese. In this post, we describe how this collaborative translation process unfolded, recognizing that translating resources is one way to contribute to rOpenSci’s mission of fostering a culture of open and reproducible research.
 
