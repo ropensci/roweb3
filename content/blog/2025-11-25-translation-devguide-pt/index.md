@@ -145,7 +145,7 @@ One barrier that remains for readers of the Portuguese Dev Guide is that most of
 
 ## Impact and Next Steps
 
-The Portuguese version of the Dev Guide becomes a valuable study resource across Portuguese-speaking countries, not only for those interested in developing R packages following best practices, but also for anyone seeking to better understand rOpenSci’s submission guidelines and peer review process. It helps open doors, reduce language barriers, and strengthen open science.
+The Portuguese version of the Dev Guide is a valuable study resource across Portuguese-speaking communities, not only for those interested in developing R packages following best practices, but also for anyone seeking to better understand rOpenSci’s submission guidelines and peer review process. It helps open doors, reduce language barriers, and strengthen open science.
 
 The translated guide also lays important groundwork for future rOpenSci initiatives, including the possibility of a Portuguese-language cohort of the [**rOpenSci Champions**](/champions/) program. This program supports individuals from historically and systematically excluded groups who want to contribute to rOpenSci and to open source and open science communities more broadly. Its goal is to make the scientific software ecosystem more diverse, sustainable, and accessible, reflecting the plurality of the communities it serves.
 
