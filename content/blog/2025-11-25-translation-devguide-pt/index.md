@@ -72,7 +72,7 @@ The initial translation was submitted to the repository through a Pull Request (
 
 Source: Francesca Belem Lopes Palmeira.
 
-This year, the new version of the Dev Guide will be published, including the Portuguese translation. Everyone who contributed to the translation and review will be credited as authors of the translation. This version will have its own DOI (Digital Object Identifier), and the PDF will be available on [Zenodo](https://zenodo.org/), in addition to the guide’s official website, enabling formal citation of the translation using these details.
+This year, when the new version of the Dev Guide is published it will include the Portuguese translation 🎉. Everyone who contributed to the translation and review will be credited as authors of the translation. This version will have its own DOI (Digital Object Identifier), and the PDF will be available on [Zenodo](https://zenodo.org/), in addition to the guide’s official website, enabling formal citation of the translation using these details.
 
 ## Translation team
 
