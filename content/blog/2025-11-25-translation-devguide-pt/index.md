@@ -141,7 +141,7 @@ During the review process, particular attention was also given to reducing gende
 
 [^2]: Translation note: In English, the expression “the users” is gender-neutral, but in Portuguese it defaults to the masculine form. In this translation, inclusive alternatives were adopted where appropriate to avoid unnecessary gender marking.
 
-One barrier that remains for readers of the Portuguese Dev Guide is that most of the function names, package documentation, and book references still point to English-language content. However, the rOpenSci team has been working to translate blog posts referenced in the Dev Guide into Portuguese, which gradually helps reduce this gap.
+One barrier that remains for readers of the Portuguese Dev Guide is that most of the function names, package documentation, and book references still point to English-language content. However, the rOpenSci team has been working to translate blog posts referenced in the Dev Guide into Portuguese, which will gradually help reduce this gap.
 
 ## Impact and Next Steps
 
