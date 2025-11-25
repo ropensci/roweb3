@@ -20,7 +20,7 @@ tags:
   - dev guide
   - desenvolvimento de pacotes
   - boas vindas    
-doi: 10.59350/fgbq0-zcn87   
+doi: 10.59350/vm5bf-xhk54   
 ---
 
 ## Introdução
