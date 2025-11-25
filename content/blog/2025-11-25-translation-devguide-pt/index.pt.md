@@ -1,5 +1,5 @@
 ---
-slug: translation-devguide-pt
+slug: tradução-devguide-pt
 title: 'Traduzindo o Dev Guide da rOpenSci para o Português: Colaboração, Comunidade, Desafios e Impacto'
 author: 
   - Francesca Belem Lopes Palmeira
