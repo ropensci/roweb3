@@ -14,7 +14,9 @@ params:
   doi: "10.59350/bf1vh-b2w72"
 ---
 
-Do you have an account on the [rOpenSci forum](https://discuss.ropensci.org)?
+**We have since then [closed our forum](/blog/2025/10/13/ropensci-forum-closure/).**
+
+Do you have an account on the rOpenSci forum?
 As underlined in our [contributing guide](https://contributing.ropensci.org/resources.html#channels), our forum is where we encourage **Q&A and exploration of ideas on a various range of topics**.
 Compared to our [Slack](https://contributing.ropensci.org/resources.html#channels) semi-open workspace, the forum is **entirely open and much easier to search**, so a great place to gather some collaborative knowledge!
 We have recently **streamlined categories** so that it might be easier for you to find where to post, and what to follow.
@@ -30,32 +32,32 @@ If necessary, we can transfer the post to a more relevant category to make it mo
 
 ### Package Use Questions
 
-Wonder how to [combine images with magick](https://discuss.ropensci.org/t/magick-combining-several-images-into-one-while-controlling-their-relative-position/2697/3)?
-Or how to [update resources with ckanr](https://discuss.ropensci.org/t/updating-resources-with-ckanr/2631/6)?
-[Package Use Questions](https://discuss.ropensci.org/c/packages/7) is the category for Q&A on any of our [packages](/packages).
+Wonder how to combine images with magick?
+Or how to update resources with ckanr?
+Package Use Questions is the category for Q&A on any of our [packages](/packages).
 
 ### Wishlist
 
 What if you wish that, or wonder whether, a certain package existed?
-Post in the [Wishlist category](https://discuss.ropensci.org/c/wishlist/6)!
+Post in the Wishlist category!
 
 ### Package Development
 
 Do you maintain or contribute to an R package, rOpenSci-affiliated or not?
-You can ask questions in the [Package Development category](https://discuss.ropensci.org/c/package-development/29)!
+You can ask questions in the Package Development category!
 
 ###  General Q&A
 
-The [Q&A category](https://discuss.ropensci.org/c/general-qa/17) is good for asking about any topic related to R, rOpenSci, reproducible and transparent science, etc.
+The Q&A category is good for asking about any topic related to R, rOpenSci, reproducible and transparent science, etc.
 
 ### Jobs
 
-The [Jobs category](https://discuss.ropensci.org/c/jobs/22) welcomes job postings!
+The Jobs category welcomes job postings!
  Please keep your posts limited to jobs that seem like a good fit for our community. That is, jobs relating to software + science.
 
 ### Use Cases
 
-Use (:wink:) the [Use Cases category](https://discuss.ropensci.org/c/usecases/10) for reporting examples of how our [packages](/packages) or resources (e.g. our [dev guide](https://devguide.ropensci.org) or [contributing guide](https://contributing.ropensci.org)) have been used in the wild.
+Use (:wink:) the Use Cases category for reporting examples of how our [packages](/packages) or resources (e.g. our [dev guide](https://devguide.ropensci.org) or [contributing guide](https://contributing.ropensci.org)) have been used in the wild.
 We then extract use cases as JSON and present them in a nice table on [this very website](/usecases).
 
 ### Blog
@@ -64,15 +66,15 @@ This is the category you'd end up in via the blog itself, as it's used for comme
 
 ### Code of Conduct
 
-The [Code of Conduct category](https://discuss.ropensci.org/c/conduct/25) is reserved for transparency reports made by our [code of conduct committee](/code-of-conduct).
+The Code of Conduct category is reserved for transparency reports made by our [code of conduct committee](/code-of-conduct).
 
 ### Meta
 
-The [Meta category](https://discuss.ropensci.org/c/meta/3) is the home for questions and ideas related to the forum itself!
+The Meta category is the home for questions and ideas related to the forum itself!
 
 ### Antarctic
 
-If you want to discuss R in Antarctic and Southern Ocean science, use the [Antarctic category](https://discuss.ropensci.org/c/antarctic/23)!
+If you want to discuss R in Antarctic and Southern Ocean science, use the Antarctic category!
 
 {{< figure src="bubble.jpeg" alt="Speech bubble on a pink background" caption="Picture by [Miguel Á. Padriñán on Pexels](https://www.pexels.com/fr-fr/@padrinan)." link="https://www.pexels.com/photo/pink-background-with-speech-bubble-1111369/" width="500px" class="center" >}}
 
