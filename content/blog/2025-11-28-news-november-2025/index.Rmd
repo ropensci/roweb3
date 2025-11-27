@@ -84,7 +84,15 @@ We’re excited to continue supporting LatinR as a community partner in 2025. [R
 
 Full tutorial schedule: https://latinr.org/en/cronograma/tutoriales/workshops.html
 
+### rOpenSci Dev Guide Now Available in Portuguese
 
+rOpenSci has published the Portuguese translation of the “Packages: Development, Maintenance, and Peer Review” guide, expanding access to best practices in R package development across the Portuguese-speaking world.
+
+The two-year, community-led effort brought together contributors from Angola, Brazil, and Portugal, following rOpenSci’s open workflow with automated translation, multi-reviewer editing, and collaborative decisions on terminology and inclusivity.
+
+This new version strengthens rOpenSci’s multilingual infrastructure and helps lower language barriers for contributors.
+
+[Read the full blog post to learn more about the project](/blog/2025/11/25/translation-devguide-pt/).
 ### Big Team Collaboration on Data Management and Analysis with rOpenSci
 
 [Liz Hare](/author/liz-hare) and [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) gave a talk on Big Team Collaboration on Software Peer Review with rOpenSci at the Big Team Science Conference 2025.
