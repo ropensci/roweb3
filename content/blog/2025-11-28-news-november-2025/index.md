@@ -113,30 +113,30 @@ And remember, you can always cowork independently on work related to R, work on 
 
 ### New packages
 
-<div class="highlight">
 
-</div>
+
+
 
 The following package recently became a part of our software suite:
 
-<div class="highlight">
+
 
 -   [distionary](https://docs.ropensci.org/distionary), developed by Vincenzo Coia: Create and evaluate probability distribution objects from a variety of families or define custom distributions. Automatically compute distributional properties, even when they have not been specified. This package supports statistical modeling and simulations, and forms the core of the probaverse suite of R packages. It has been [reviewed](https://github.com/ropensci/software-review/issues/688).
-    </div>
+    
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
 ### New versions
 
-<div class="highlight">
 
-</div>
+
+
 
 The following fifteen packages have had an update since the last newsletter: [babelquarto](https://docs.ropensci.org/babelquarto "Renders a Multilingual Quarto Book") ([`v0.1.0`](https://github.com/ropensci-review-tools/babelquarto/releases/tag/v0.1.0)), [pkgmatch](https://docs.ropensci.org/pkgmatch "Find R Packages Matching Either Descriptions or Other R Packages") ([`v0.5.0`](https://github.com/ropensci-review-tools/pkgmatch/releases/tag/v0.5.0)), [pkgstats](https://docs.ropensci.org/pkgstats "Metrics of R Packages") ([`v0.1.6`](https://github.com/ropensci-review-tools/pkgstats/releases/tag/v0.1.6)), [aRxiv](https://docs.ropensci.org/aRxiv "Interface to the arXiv API") ([`0.14`](https://github.com/ropensci/aRxiv/releases/tag/0.14)), [daiquiri](https://docs.ropensci.org/daiquiri "Data Quality Reporting for Temporal Datasets") ([`v1.2.1`](https://github.com/ropensci/daiquiri/releases/tag/v1.2.1)), [dataset](https://docs.ropensci.org/dataset "Create Data Frames for Exchange and Reuse") ([`0.4.1`](https://github.com/ropensci/dataset/releases/tag/0.4.1)), [fireexposuR](https://docs.ropensci.org/fireexposuR "Compute and Visualize Wildfire Exposure") ([`v1.2.0`](https://github.com/ropensci/fireexposuR/releases/tag/v1.2.0)), [googleLanguageR](https://docs.ropensci.org/googleLanguageR "Call Googles Natural Language, Cloud Translation, Cloud Speech, and Cloud Text-to-Speech' APIs") ([`v0.3.1.1`](https://github.com/ropensci/googleLanguageR/releases/tag/v0.3.1.1)), [GSODR](https://docs.ropensci.org/GSODR "Global Surface Summary of the Day (GSOD) Weather Data Client") ([`v5.0.0`](https://github.com/ropensci/GSODR/releases/tag/v5.0.0)), [prism](https://docs.ropensci.org/prism "Access Data from the Oregon State Prism Climate Project") ([`v0.3.0`](https://github.com/ropensci/prism/releases/tag/v0.3.0)), [rgbif](https://docs.ropensci.org/rgbif "Interface to the Global Biodiversity Information Facility API") ([`v3.8.4`](https://github.com/ropensci/rgbif/releases/tag/v3.8.4)), [taxizedb](https://docs.ropensci.org/taxizedb "Offline Access to Taxonomic Databases") ([`v0.3.2`](https://github.com/ropensci/taxizedb/releases/tag/v0.3.2)), [USAboundaries](https://docs.ropensci.org/USAboundaries "Historical and Contemporary Boundaries of the United States of America") ([`v0.5.1`](https://github.com/ropensci/USAboundaries/releases/tag/v0.5.1)), [USAboundariesData](https://docs.ropensci.org/USAboundariesData "Datasets for the USAboundaries package") ([`v0.5.1`](https://github.com/ropensci/USAboundariesData/releases/tag/v0.5.1)), and [weatherOz](https://docs.ropensci.org/weatherOz "An API Client for Australian Weather and Climate Data Resources") ([`v2.0.2`](https://github.com/ropensci/weatherOz/releases/tag/v2.0.2)).
 
 ## Software Peer Review
 
-<div class="highlight">
+
 
 There are fifteen recently closed and active submissions and 3 submissions on hold. Issues are at different stages:
 
@@ -180,7 +180,7 @@ There are fifteen recently closed and active submissions and 3 submissions on ho
 
     -   [capybara](https://github.com/ropensci/software-review/issues/645), Fast and Memory Efficient Fitting of Linear Models With High-Dimensional. Submitted by [Mauricio "Pachá" Vargas Sepúlveda](https://pacha.dev).
 
-        </div>
+        
 
 Find out more about [Software Peer Review](/software-review) and how to get involved.
 
@@ -188,11 +188,11 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 <!-- Do not forget to rebase your branch! -->
 
-<div class="highlight">
 
-</div>
 
-<div class="highlight">
+
+
+
 
 ### Software Review
 
@@ -203,9 +203,6 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 {{< figure class="center" src="https://computo-journal.org/assets/img/logo_text_vertical.svg" alt="Computo logo" width="400" >}}
 
 
--   [Translating the rOpenSci Dev Guide into Portuguese: Collaboration, Community, Challenges, and Impact](/blog/2025/11/25/translation-devguide-pt) by Francesca Belem Lopes Palmeira, Beatriz Milz, Ariana Moura Cabral, Yanina Bellini Saibene, Daniel Vartanian, and Pedro Faria. We are very pleased to announce that our guide on package development, maintenance, and peer review is now available in Portuguese. In this blog post, the people who led the translation project share how the process unfolded, the challenges faced, the results achieved, and what participating in this effort meant to them. Other languages: <a href='/pt/blog/2025/11/25/tradução-devguide-pt' lang='pt'>Traduzindo o Dev Guide da rOpenSci para o Português: Colaboração, Comunidade, Desafios e Impacto (pt)</a>.
-
-</div>
 
 ## Calls for contributions
 
@@ -297,7 +294,7 @@ Thanks for reading! If you want to get involved with rOpenSci, check out our [Co
 
 If you haven't subscribed to our newsletter yet, you can [do so via a form](/news/). Until it's time for our next newsletter, you can keep in touch with us via our [website](/) and [Mastodon account](https://hachyderm.io/@rOpenSci).
 
-</div>
 
-</div>
+
+
 
