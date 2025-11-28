@@ -131,6 +131,10 @@ Read [all about coworking](/blog/2023/06/21/coworking/)!
     -   Spend some time reviewing the forums, Slack workspaces, Newsletters, RSS feeds (etc. etc.) you’re subscribed to;
     -   Unsubscribe to all you no longer need (Let it go!);
     -   Meet co-host, Yanina Bellini Saibene, and discuss strategies for this New Year decluttering of your digital (or perhaps not-so-digital) life.
+-   Tuesday February 2nd, 9:00 Australia Western (01:00 UTC), ["Share your Positron setup!"](/events/coworking-2026-02/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Noam Ross](/author/noam-ross/).  
+    -   Setup Poistron and explore extensions and custom settings;
+    -   Meet community host, Noam Ross, share how you have set up Positron for your workflow and learn from others.
+
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
 ## Software :package:
