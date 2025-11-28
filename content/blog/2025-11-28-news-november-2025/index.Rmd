@@ -6,7 +6,7 @@ author:
 date: '2025-11-28'
 tags:
   - newsletter
-description: LatinR, posit::conf(2025) recordings, coworking, new package, package news
+description: LatinR, dev guide in Portuguese, posit::conf(2025) recordings, coworking, new package, package news
 params:
   last_newsletter: '2025-10-24'
   doi: "10.59350/7pygv-c1m20"
@@ -54,7 +54,7 @@ We’re excited to continue supporting LatinR as a community partner in 2025. [R
 * Stephanie Zimmer — Transforming a team to open-source first
 * TRACE-LAC Team — Lo invisible del código abierto: Lessons from the TRACE-LAC / Epiverso project for connecting software development with public health
 
-### Talks in Spanish
+#### Talks in Spanish
 
 - **Herramientas para usar LLMs en R** by [Luis D. Verde Arregoitia](/author/luis-d.-verde-arregoitia/)
 - **R-multiverse** by [Will Landau](/author/will-landau/), [Maëlle Salmon](/author/maëlle-salmon/) and [Yanina Bellini Saibene](/author/yanina-bellini-saibene/)
@@ -67,7 +67,7 @@ We’re excited to continue supporting LatinR as a community partner in 2025. [R
 - **Integrando listas taxonómicas en Quarto y R Markdown: Un caso para `taxnames`** by [Miguel Alvarez](/author/miguel-alvarez/)
 - **Metasurvey** by [Mauro Loprete](/author/mauro-loprete/).
 
-### Talks in English
+#### Talks in English
 
 - **R-universe Q&A** [Jeroen Ooms](/author/jeroen-ooms/) and [Maëlle Salmon](/author/maëlle-salmon/)
 
@@ -84,7 +84,7 @@ We’re excited to continue supporting LatinR as a community partner in 2025. [R
 
 Full tutorial schedule: https://latinr.org/en/cronograma/tutoriales/workshops.html
 
-### rOpenSci Dev Guide Now Available in Portuguese
+### rOpenSci Dev Guide Now Available in Portuguese!
 
 rOpenSci has published the Portuguese translation of the “Packages: Development, Maintenance, and Peer Review” guide, expanding access to best practices in R package development across the Portuguese-speaking world.
 
@@ -92,7 +92,8 @@ The two-year, community-led effort brought together contributors from Angola, Br
 
 This new version strengthens rOpenSci’s multilingual infrastructure and helps lower language barriers for contributors.
 
-[Read the full blog post to learn more about the project](/blog/2025/11/25/translation-devguide-pt/).
+Read the full [blog post to learn more about the project](/blog/2025/11/25/translation-devguide-pt/).
+
 ### Big Team Collaboration on Data Management and Analysis with rOpenSci
 
 [Liz Hare](/author/liz-hare) and [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) gave a talk on Big Team Collaboration on Software Peer Review with rOpenSci at the Big Team Science Conference 2025.
@@ -599,7 +600,7 @@ format_post <- function(dir) {
 
     string <- paste0(
       string, "\n```{=html}\n",
-      sprintf('{{< figure src="%s" alt="%s" width="400" >}}\n\n', img_file, post$socialAlt),
+      sprintf('{{< figure class="center" src="%s" alt="%s" width="400" >}}\n\n', img_file, post$socialAlt),
       "\n```\n"
     )
   }
@@ -678,17 +679,17 @@ Refer to our [help wanted page](/help-wanted/) -- before opening a PR, we recomm
 
 Some useful tips for R package developers. :eyes:
 
-## Update of the vcr chapter in HTTP testing in R
+### Update of the vcr chapter in HTTP testing in R
 
 We've updated the introduction to vcr in the [HTTP testing in R book](https://books.ropensci.org/http-testing/vcr.html), so that it reflects the current vcr version, in particular the `local_cassette()` function.
 
-## Jarl: just another R linter
+### Jarl: just another R linter
 
 Etienne Bacher introduced the new CLI jarl in a [blog post](https://www.etiennebacher.com/posts/2025-11-20-introducing-jarl/).
 Like Air, it is run in the terminal.
 Like the flir R package, it can fix bad patterns in R code.
 
-## pkgdown 2.2.0 makes it easier for LLMs to read your documentation
+### pkgdown 2.2.0 makes it easier for LLMs to read your documentation
 
 The latest pkgdown version adds a step to the website building, that creates:
 
@@ -697,7 +698,7 @@ The latest pkgdown version adds a step to the website building, that creates:
 
 Read more about this, including how to opt-out (one config line) in the [release announcement](https://tidyverse.org/blog/2025/11/pkgdown-2-2-0/).
 
-## testthat 3.3.0
+### testthat 3.3.0
 
 If you use testthat, don't miss its [release announcement](https://tidyverse.org/blog/2025/11/testthat-3-3-0/)! 
 Of note:
@@ -706,7 +707,7 @@ Of note:
 - Tests using Suggested packages will now be automatically skipped on CRAN;
 - A new expectation `expect_shape()` to check the dimensions, number of rows or number of columns!
 
-## A Git trick: keeping Git blame informative
+### A Git trick: keeping Git blame informative
 
 If you reformat your whole codebase with Air, you'll end up with one or several commits that only change the aspect of your code.
 A good code style is tantamount to readability, but when you're exploring the history through Git blame, that commit or those commits are not relevant.
@@ -733,7 +734,7 @@ To use this file,
 - you tell your local Git about it by running `git config blame.ignoreRevsFile .git-blame-ignore-revs`;
 - GitHub, on the other hand, automatically [picks it up](https://docs.github.com/en/repositories/working-with-files/using-files/viewing-and-understanding-files#ignore-commits-in-the-blame-view)!
 
-## Another Git trick: rebase all commits
+### Another Git trick: rebase all commits
 
 Imagine you work on a private repository, on a single branch, not bothering about a clean Git history.
 Then you have to make the repository public.

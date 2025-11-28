@@ -6,11 +6,11 @@ author:
 date: '2025-11-28'
 tags:
   - newsletter
-description: LatinR, posit::conf(2025) recordings, coworking, new package, package news
+description: LatinR, dev guide in Portuguese, posit::conf(2025) recordings, coworking, new package, package news
 params:
   last_newsletter: '2025-10-24'
   doi: "10.59350/7pygv-c1m20"
-rmd_hash: 5a7d8258f0e710a8
+rmd_hash: 59580abf5344b38b
 
 ---
 
@@ -22,7 +22,53 @@ Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> Y
 
 ### rOpenSci at LatinR
 
-TODO YANI
+We're excited to continue supporting LatinR as a community partner in 2025. [Registration is now open for the free LatinR Conference](https://www.eventbrite.com.ar/e/1939670499679), bringing together researchers, developers, and open science advocates from across the region.
+
+#### Keynotes
+
+-   Heather Turner --- Lowering Barriers to Contributing to R
+-   Stephanie Zimmer --- Transforming a team to open-source first
+-   TRACE-LAC Team --- Lo invisible del código abierto: Lessons from the TRACE-LAC / Epiverso project for connecting software development with public health
+
+#### Talks in Spanish
+
+-   **Herramientas para usar LLMs en R** by [Luis D. Verde Arregoitia](/author/luis-d.-verde-arregoitia/)
+-   **R-multiverse** by [Will Landau](/author/will-landau/), [Maëlle Salmon](/author/maëlle-salmon/) and [Yanina Bellini Saibene](/author/yanina-bellini-saibene/)
+-   **Mejor código, sin esfuerzos, sin siquiera IA** by [Maëlle Salmon](/author/maëlle-salmon/), [Hugo Gruson](/author/hugo-gruson/) and Etienne Bacher
+-   **Estrategias de divulgación para proyectos de software e infraestructuras abiertas** by [Alejandra Bellini](/author/alejandra-bellini/) and [Yanina Bellini Saibene](/author/yanina-bellini-saibene/)
+-   **Comunidades de líderes de código abierto** by [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) and [Noam Ross](/author/noam-ross/)
+-   **Datos públicos y Software Libre** by [Pablo Tiscornia](/author/pablo-tiscornia/)
+-   **rcdo para analizar datos climáticos con R** by [Elio Campitelli](/author/elio-campitelli/)
+-   **ICC para evaluar confiabilidad entre evaluadores** by [Francisco Cardozo](/author/francisco-cardozo/)
+-   **Integrando listas taxonómicas en Quarto y R Markdown: Un caso para `taxnames`** by [Miguel Alvarez](/author/miguel-alvarez/)
+-   **Metasurvey** by [Mauro Loprete](/author/mauro-loprete/).
+
+#### Talks in English
+
+-   **R-universe Q&A** [Jeroen Ooms](/author/jeroen-ooms/) and [Maëlle Salmon](/author/maëlle-salmon/)
+
+#### Tutorials in Spanish
+
+-   **¡Miércoles, Git! Manejo de errores en Git y no morir en el intento** --- [Maëlle Salmon](/author/maëlle-salmon/) & [Yanina Bellini Saibene](/author/yanina-bellini-saibene/). Tuesday, December 2. 10:00-12:00 UTC-3.
+-   **Introducción a Tidymodels** --- [Francisco Cardozo](/author/francisco-cardozo/) & Edgar Ruiz. Monday, December 1. 18:00-20:00 UTC-3.
+-   **Automatización de workflows en R y Python con targets y snakemake** --- [Diana Garcia](/author/diana-garcia/). Tuesday, December 2. 14:00-16:00 UTC-3.
+-   **¿Qué historia vas a contar hoy? Herramientas para una comunicación eficaz** --- [Alejandra Bellini](/author/alejandra-bellini/). Tuesday, December 2. 17:00-19:15 UTC-3.
+
+#### Tutorials in English
+
+-   **Coding with AI in RStudio** --- Juan Cruz Rodríguez & [Luis D. Verde Arregoitia](/author/luis-d.-verde-arregoitia/). Tuesday, December 2. 10:00-12:00 UTC-3.
+
+Full tutorial schedule: <https://latinr.org/en/cronograma/tutoriales/workshops.html>
+
+### rOpenSci Dev Guide Now Available in Portuguese!
+
+rOpenSci has published the Portuguese translation of the "Packages: Development, Maintenance, and Peer Review" guide, expanding access to best practices in R package development across the Portuguese-speaking world.
+
+The two-year, community-led effort brought together contributors from Angola, Brazil, and Portugal, following rOpenSci's open workflow with automated translation, multi-reviewer editing, and collaborative decisions on terminology and inclusivity.
+
+This new version strengthens rOpenSci's multilingual infrastructure and helps lower language barriers for contributors.
+
+Read the full [blog post to learn more about the project](/blog/2025/11/25/translation-devguide-pt/).
 
 ### Big Team Collaboration on Data Management and Analysis with rOpenSci
 
@@ -56,7 +102,12 @@ Read [all about coworking](/blog/2023/06/21/coworking/)!
 -   Tuesday January 13th, 9:00 Americas Pacific (17:00 UTC), ["Let it go!"](/events/coworking-2026-01/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Yanina Bellini Saibene](/author/yanina-bellini-saibene/).
     -   Spend some time reviewing the forums, Slack workspaces, Newsletters, RSS feeds (etc. etc.) you're subscribed to;
     -   Unsubscribe to all you no longer need (Let it go!);
-    -   Meet co-host, Yanina Bellini Saibene, and discuss strategies for this New Year decluttering of your digital (or perhaps not-so-digital) life. And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
+    -   Meet co-host, Yanina Bellini Saibene, and discuss strategies for this New Year decluttering of your digital (or perhaps not-so-digital) life.
+-   Tuesday February 2nd, 9:00 Australia Western (01:00 UTC), ["Share your Positron setup!"](/events/coworking-2026-02/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Noam Ross](/author/noam-ross/).
+    -   Setup Poistron and explore extensions and custom settings;
+    -   Meet community host, Noam Ross, share how you have set up Positron for your workflow and learn from others.
+
+And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
 ## Software :package:
 
@@ -81,13 +132,13 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 </div>
 
-The following thirteen packages have had an update since the last newsletter: [pkgmatch](https://docs.ropensci.org/pkgmatch "Find R Packages Matching Either Descriptions or Other R Packages") ([`v0.5.0`](https://github.com/ropensci-review-tools/pkgmatch/releases/tag/v0.5.0)), [pkgstats](https://docs.ropensci.org/pkgstats "Metrics of R Packages") ([`v0.1.6`](https://github.com/ropensci-review-tools/pkgstats/releases/tag/v0.1.6)), [aRxiv](https://docs.ropensci.org/aRxiv "Interface to the arXiv API") ([`0.14`](https://github.com/ropensci/aRxiv/releases/tag/0.14)), [daiquiri](https://docs.ropensci.org/daiquiri "Data Quality Reporting for Temporal Datasets") ([`v1.2.1`](https://github.com/ropensci/daiquiri/releases/tag/v1.2.1)), [dataset](https://docs.ropensci.org/dataset "Create Data Frames for Exchange and Reuse") ([`0.4.1`](https://github.com/ropensci/dataset/releases/tag/0.4.1)), [fireexposuR](https://docs.ropensci.org/fireexposuR "Compute and Visualize Wildfire Exposure") ([`v1.2.0`](https://github.com/ropensci/fireexposuR/releases/tag/v1.2.0)), [googleLanguageR](https://docs.ropensci.org/googleLanguageR "Call Googles Natural Language, Cloud Translation, Cloud Speech, and Cloud Text-to-Speech' APIs") ([`v0.3.1.1`](https://github.com/ropensci/googleLanguageR/releases/tag/v0.3.1.1)), [GSODR](https://docs.ropensci.org/GSODR "Global Surface Summary of the Day (GSOD) Weather Data Client") ([`v5.0.0`](https://github.com/ropensci/GSODR/releases/tag/v5.0.0)), [rgbif](https://docs.ropensci.org/rgbif "Interface to the Global Biodiversity Information Facility API") ([`v3.8.4`](https://github.com/ropensci/rgbif/releases/tag/v3.8.4)), [taxizedb](https://docs.ropensci.org/taxizedb "Offline Access to Taxonomic Databases") ([`v0.3.2`](https://github.com/ropensci/taxizedb/releases/tag/v0.3.2)), [USAboundaries](https://docs.ropensci.org/USAboundaries "Historical and Contemporary Boundaries of the United States of America") ([`v0.5.1`](https://github.com/ropensci/USAboundaries/releases/tag/v0.5.1)), [USAboundariesData](https://docs.ropensci.org/USAboundariesData "Datasets for the USAboundaries package") ([`v0.5.1`](https://github.com/ropensci/USAboundariesData/releases/tag/v0.5.1)), and [weatherOz](https://docs.ropensci.org/weatherOz "An API Client for Australian Weather and Climate Data Resources") ([`v2.0.2`](https://github.com/ropensci/weatherOz/releases/tag/v2.0.2)).
+The following fifteen packages have had an update since the last newsletter: [babelquarto](https://docs.ropensci.org/babelquarto "Renders a Multilingual Quarto Book") ([`v0.1.0`](https://github.com/ropensci-review-tools/babelquarto/releases/tag/v0.1.0)), [pkgmatch](https://docs.ropensci.org/pkgmatch "Find R Packages Matching Either Descriptions or Other R Packages") ([`v0.5.0`](https://github.com/ropensci-review-tools/pkgmatch/releases/tag/v0.5.0)), [pkgstats](https://docs.ropensci.org/pkgstats "Metrics of R Packages") ([`v0.1.6`](https://github.com/ropensci-review-tools/pkgstats/releases/tag/v0.1.6)), [aRxiv](https://docs.ropensci.org/aRxiv "Interface to the arXiv API") ([`0.14`](https://github.com/ropensci/aRxiv/releases/tag/0.14)), [daiquiri](https://docs.ropensci.org/daiquiri "Data Quality Reporting for Temporal Datasets") ([`v1.2.1`](https://github.com/ropensci/daiquiri/releases/tag/v1.2.1)), [dataset](https://docs.ropensci.org/dataset "Create Data Frames for Exchange and Reuse") ([`0.4.1`](https://github.com/ropensci/dataset/releases/tag/0.4.1)), [fireexposuR](https://docs.ropensci.org/fireexposuR "Compute and Visualize Wildfire Exposure") ([`v1.2.0`](https://github.com/ropensci/fireexposuR/releases/tag/v1.2.0)), [googleLanguageR](https://docs.ropensci.org/googleLanguageR "Call Googles Natural Language, Cloud Translation, Cloud Speech, and Cloud Text-to-Speech' APIs") ([`v0.3.1.1`](https://github.com/ropensci/googleLanguageR/releases/tag/v0.3.1.1)), [GSODR](https://docs.ropensci.org/GSODR "Global Surface Summary of the Day (GSOD) Weather Data Client") ([`v5.0.0`](https://github.com/ropensci/GSODR/releases/tag/v5.0.0)), [prism](https://docs.ropensci.org/prism "Access Data from the Oregon State Prism Climate Project") ([`v0.3.0`](https://github.com/ropensci/prism/releases/tag/v0.3.0)), [rgbif](https://docs.ropensci.org/rgbif "Interface to the Global Biodiversity Information Facility API") ([`v3.8.4`](https://github.com/ropensci/rgbif/releases/tag/v3.8.4)), [taxizedb](https://docs.ropensci.org/taxizedb "Offline Access to Taxonomic Databases") ([`v0.3.2`](https://github.com/ropensci/taxizedb/releases/tag/v0.3.2)), [USAboundaries](https://docs.ropensci.org/USAboundaries "Historical and Contemporary Boundaries of the United States of America") ([`v0.5.1`](https://github.com/ropensci/USAboundaries/releases/tag/v0.5.1)), [USAboundariesData](https://docs.ropensci.org/USAboundariesData "Datasets for the USAboundaries package") ([`v0.5.1`](https://github.com/ropensci/USAboundariesData/releases/tag/v0.5.1)), and [weatherOz](https://docs.ropensci.org/weatherOz "An API Client for Australian Weather and Climate Data Resources") ([`v2.0.2`](https://github.com/ropensci/weatherOz/releases/tag/v2.0.2)).
 
 ## Software Peer Review
 
 <div class="highlight">
 
-There are fourteen recently closed and active submissions and 3 submissions on hold. Issues are at different stages:
+There are fifteen recently closed and active submissions and 3 submissions on hold. Issues are at different stages:
 
 -   Two at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%226/approved%22):
 
@@ -109,19 +160,19 @@ There are fourteen recently closed and active submissions and 3 submissions on h
 
     -   [galamm](https://github.com/ropensci/software-review/issues/615), Generalized Additive Latent and Mixed Models. Submitted by [Øystein Sørensen](https://osorensen.github.io/). (Stats).
 
--   Three at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%223/reviewer(s)-assigned%22):
+-   Four at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%223/reviewer(s)-assigned%22):
 
     -   [ernest](https://github.com/ropensci/software-review/issues/730), A Toolkit for Nested Sampling. Submitted by [Kyle Dewsnap](https://github.com/kylesnap). (Stats).
+
+    -   [cowfootR](https://github.com/ropensci/software-review/issues/724), Tools to Estimate the Carbon Footprint of Dairy Farms. Submitted by [Juan Moreno](https://github.com/juanmarcosmoreno-arch).
 
     -   [rcrisp](https://github.com/ropensci/software-review/issues/718), Automate the Delineation of Urban River Spaces. Submitted by [Claudiu Forgaci](https://github.com/cforgaci). (Stats).
 
     -   [reviser](https://github.com/ropensci/software-review/issues/709), Tools for Studying Revision Properties in Real-Time Time Series Vintages. Submitted by [Marc Burri](https://marcburri.github.io/).
 
--   One at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%222/seeking-reviewer(s)%22):
+-   Four at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%221/editor-checks%22):
 
-    -   [cowfootR](https://github.com/ropensci/software-review/issues/724), Tools to Estimate the Carbon Footprint of Dairy Farms. Submitted by [Juan Moreno](https://github.com/juanmarcosmoreno-arch).
-
--   Three at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%221/editor-checks%22):
+    -   [Athlytics](https://github.com/ropensci/software-review/issues/728), Academic R Package for Sports Physiology Analysis from Local Strava Data. Submitted by [Ang](https://github.com/HzaCode).
 
     -   [coevolve](https://github.com/ropensci/software-review/issues/717), Fit Bayesian Generalized Dynamic Phylogenetic Models using Stan. Submitted by [Scott Claessens](https://scottclaessens.github.io/). (Stats).
 
@@ -143,9 +194,16 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 <div class="highlight">
 
+### Software Review
+
+-   [Translating the rOpenSci Dev Guide into Portuguese: Collaboration, Community, Challenges, and Impact](/blog/2025/11/25/translation-devguide-pt) by Francesca Belem Lopes Palmeira, Beatriz Milz, Ariana Moura Cabral, Yanina Bellini Saibene, Daniel Vartanian, and Pedro Faria. We are very pleased to announce that our guide on package development, maintenance, and peer review is now available in Portuguese. In this blog post, the people who led the translation project share how the process unfolded, the challenges faced, the results achieved, and what participating in this effort meant to them. Other languages: <a href='/pt/blog/2025/11/25/tradução-devguide-pt' lang='pt'>Traduzindo o Dev Guide da rOpenSci para o Português: Colaboração, Comunidade, Desafios e Impacto (pt)</a>.
+
 -   [Computo - A Journal for Transparent and Reproducible Research in Statistics and Machine Learning](/blog/2025/11/06/computo-journal-reproducible-research-statistics-machine-learning) by Julien Chiquet, François-David Collin, Marie-Pierre Etienne, Pierre Neuvial, Aymeric Stamm, and Nelle Varoquaux. [Computo](https://computo-journal.org) is a journal promoting methodological, computational, and algorithmic contributions in statistics and machine learning that provide a better understanding of which models or methods are most appropriate to answer specific scientific questions. Computo leverages modern tools in programming and scientific reporting to support more transparent, interactive, and reproducible research outputs.
 
-{{< figure src="https://computo-journal.org/assets/img/logo_text_vertical.svg" alt="Computo logo" width="400" >}}
+{{< figure class="center" src="https://computo-journal.org/assets/img/logo_text_vertical.svg" alt="Computo logo" width="400" >}}
+
+
+-   [Translating the rOpenSci Dev Guide into Portuguese: Collaboration, Community, Challenges, and Impact](/blog/2025/11/25/translation-devguide-pt) by Francesca Belem Lopes Palmeira, Beatriz Milz, Ariana Moura Cabral, Yanina Bellini Saibene, Daniel Vartanian, and Pedro Faria. We are very pleased to announce that our guide on package development, maintenance, and peer review is now available in Portuguese. In this blog post, the people who led the translation project share how the process unfolded, the challenges faced, the results achieved, and what participating in this effort meant to them. Other languages: <a href='/pt/blog/2025/11/25/tradução-devguide-pt' lang='pt'>Traduzindo o Dev Guide da rOpenSci para o Português: Colaboração, Comunidade, Desafios e Impacto (pt)</a>.
 
 </div>
 
@@ -165,15 +223,15 @@ Refer to our [help wanted page](/help-wanted/) -- before opening a PR, we recomm
 
 Some useful tips for R package developers. :eyes:
 
-## Update of the vcr chapter in HTTP testing in R
+### Update of the vcr chapter in HTTP testing in R
 
 We've updated the introduction to vcr in the [HTTP testing in R book](https://books.ropensci.org/http-testing/vcr.html), so that it reflects the current vcr version, in particular the `local_cassette()` function.
 
-## Jarl: just another R linter
+### Jarl: just another R linter
 
 Etienne Bacher introduced the new CLI jarl in a [blog post](https://www.etiennebacher.com/posts/2025-11-20-introducing-jarl/). Like Air, it is run in the terminal. Like the flir R package, it can fix bad patterns in R code.
 
-## pkgdown 2.2.0 makes it easier for LLMs to read your documentation
+### pkgdown 2.2.0 makes it easier for LLMs to read your documentation
 
 The latest pkgdown version adds a step to the website building, that creates:
 
@@ -182,7 +240,7 @@ The latest pkgdown version adds a step to the website building, that creates:
 
 Read more about this, including how to opt-out (one config line) in the [release announcement](https://tidyverse.org/blog/2025/11/pkgdown-2-2-0/).
 
-## testthat 3.3.0
+### testthat 3.3.0
 
 If you use testthat, don't miss its [release announcement](https://tidyverse.org/blog/2025/11/testthat-3-3-0/)! Of note:
 
@@ -190,7 +248,7 @@ If you use testthat, don't miss its [release announcement](https://tidyverse.org
 -   Tests using Suggested packages will now be automatically skipped on CRAN;
 -   A new expectation `expect_shape()` to check the dimensions, number of rows or number of columns!
 
-## A Git trick: keeping Git blame informative
+### A Git trick: keeping Git blame informative
 
 If you reformat your whole codebase with Air, you'll end up with one or several commits that only change the aspect of your code. A good code style is tantamount to readability, but when you're exploring the history through Git blame, that commit or those commits are not relevant. This problem is solvable!
 
@@ -214,7 +272,7 @@ To use this file,
 -   you tell your local Git about it by running `git config blame.ignoreRevsFile .git-blame-ignore-revs`;
 -   GitHub, on the other hand, automatically [picks it up](https://docs.github.com/en/repositories/working-with-files/using-files/viewing-and-understanding-files#ignore-commits-in-the-blame-view)!
 
-## Another Git trick: rebase all commits
+### Another Git trick: rebase all commits
 
 Imagine you work on a private repository, on a single branch, not bothering about a clean Git history. Then you have to make the repository public. How to fix up the history before doing so?
 
