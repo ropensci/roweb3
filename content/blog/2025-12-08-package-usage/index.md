@@ -12,7 +12,7 @@ tags:
   - tech notes
 params:
   doi: "10.59350/9ff3a-21d94"
-rmd_hash: 87cb348bc486cdc3
+rmd_hash: a33ef154d2af28b2
 
 ---
 
@@ -108,5 +108,5 @@ We can also wonder about the data collected by Copilot and friends, that you as 
 
 In this post, we gave a quick overview of some means to evaluate usage of your package. There is unfortunately no silver bullet, but definitely more to it than counting downloads.
 
-[^1]: But I unfortunately do not remember who. :sob:
+[^1]: But I unfortunately do not remember who. :sob: If that's you please tell me and I'll update the post!
 
