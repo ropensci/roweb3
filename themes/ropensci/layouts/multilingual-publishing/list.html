@@ -4,7 +4,7 @@
         <!-- Header text -->
         <div class="row">
           <div class="col-md-8 software-content">
-            <h1>{{ .Title }}</h1>
+            <h1>{{ .Title | markdownify }}</h1>
             {{ $t := time.AsTime "2024-11-06T14:00:00" }}
                 {{ if ge $t.UTC now.UTC }}
                 <div class="alert alert-info" role="alert">

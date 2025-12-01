@@ -16,7 +16,7 @@ tags:
 - contribuidores 
 description: Dicas sobre como criar e divulgar issues de "procura-se ajuda" (*help wanted*).
 params:
-  doi: 10.59350/zh01g-yby98
+  doi: 10.59350/da56k-mc846
 ---
 
 A manutenção de um pacote pode ser uma atividade solitária, o que às vezes representa um problema se você preferir trabalhar em equipe ou se encontrar um problema muito espinhoso para você.
@@ -83,7 +83,7 @@ Você também pode considerar a possibilidade de aproveitar eventos hack-a-thon 
 
 ## Etapa 4. Agradeça as pessoas colaboradoras
 
-Se alguém responder a uma questão ou abrir uma RP, tente ser receptivo.
+Se alguém responder a uma *issue* ou abrir um *pull request*, tente ser manter uma postura acolhedora.
 Verifique se suas configurações permitem que você receba notificações sobre comentários de *issues* e PRs. Talvez seja necessário [habilitar a opção *watch*](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/managing-subscriptions-for-activity-on-github/viewing-your-subscriptions) no seu repositório.
 
 Reconheça contribuições [generosamente](https://devguide.ropensci.org/collaboration.html?q=generous#attributions)!

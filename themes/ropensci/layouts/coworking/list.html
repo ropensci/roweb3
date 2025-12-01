@@ -4,7 +4,7 @@
     <!-- Header text -->
     <div class="row mb-5">
       <div class="col-md-8">
-        <h1>{{ .Title }}</h1>
+        <h1>{{ .Title | markdownify }}</h1>
         <div class="pmt">
         {{ .Params.description | markdownify }}
         </div>
@@ -38,7 +38,7 @@
     {{ range $pages.Reverse }}
   <div class="career-cards mt-4">
     <a href="{{ .RelPermalink }}" class="career-card">
-      <span>{{ replaceRE "Social Coworking and Office Hours -" "" .Title 1 }}</span>
+      <span>{{ replaceRE "Social Coworking and Office Hours -*" "" .Title 1 }}</span>
       <p>{{ i18n "With" }} {{ delimit .Params.author ", " " and " }}. {{ .Description }}</p>
       <span><strong>{{ (time .Params.dateStart).Local | dateFormat "Monday, 02 January 2006 15:04 MST" }} • online 🌐</strong></span>
     </a>
@@ -57,7 +57,7 @@
               </div>
             </div>
             <div class="col-md-8 session-info">
-              <a href="{{ .RelPermalink }}" class="session-title">{{ replaceRE "Social Coworking and Office Hours -" "" .Title 1 }}</a>
+              <a href="{{ .RelPermalink }}" class="session-title">{{ replaceRE "Social Coworking and Office Hours -*" "" .Title 1 }}</a>
               <p class="session-team">{{ with .Params.attendees }} {{ i18n "With" }} {{ delimit . ", " }}{{ end }} {{ with .Params.notes }}🔗 <a href="{{ . }}">Collaborative notes</a>
           {{ end }}</p>
             </div>
