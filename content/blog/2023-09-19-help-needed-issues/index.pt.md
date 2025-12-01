@@ -83,7 +83,7 @@ Você também pode considerar a possibilidade de aproveitar eventos hack-a-thon 
 
 ## Etapa 4. Agradeça as pessoas colaboradoras
 
-Se alguém responder a uma questão ou abrir uma RP, tente ser receptivo.
+Se alguém responder a uma *issue* ou abrir um *pull request*, tente ser manter uma postura acolhedora.
 Verifique se suas configurações permitem que você receba notificações sobre comentários de *issues* e PRs. Talvez seja necessário [habilitar a opção *watch*](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/managing-subscriptions-for-activity-on-github/viewing-your-subscriptions) no seu repositório.
 
 Reconheça contribuições [generosamente](https://devguide.ropensci.org/collaboration.html?q=generous#attributions)!
