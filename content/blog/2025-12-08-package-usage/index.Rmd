@@ -86,8 +86,10 @@ As you might note on [curl's page](https://jeroen.r-universe.dev/curl), R-univer
 
 If you have a good idea of what the potential userbase of your package is, or a way to reach a good proportion of your users, maybe you could run a survey to ask about packages and functions most used, and features most dearly missed?
 
-Someone mentioned this idea at the uRos ([Use of R in Official Statistics](https://r-project.ro/conference2025.html)) 2025 in their talk.
+Someone mentioned this idea at the uRos ([Use of R in Official Statistics](https://r-project.ro/conference2025.html)) 2025 in their talk.[^someone]
 For me, as an outsider to that community, it seemed like a perfect idea: National Institutes of Statistics have similar use cases for software and... they know how to run surveys!
+
+[^someone]: But I unfortunately do not remember who. :sob: If that's you please tell me and I'll update the post!
 
 ## Contributions to the repository
 

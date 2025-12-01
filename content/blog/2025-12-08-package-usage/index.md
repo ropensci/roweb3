@@ -12,7 +12,7 @@ tags:
   - tech notes
 params:
   doi: "10.59350/9ff3a-21d94"
-rmd_hash: 6f568efa29eacb0c
+rmd_hash: 87cb348bc486cdc3
 
 ---
 
@@ -82,7 +82,7 @@ As you might note on [curl's page](https://jeroen.r-universe.dev/curl), R-univer
 
 If you have a good idea of what the potential userbase of your package is, or a way to reach a good proportion of your users, maybe you could run a survey to ask about packages and functions most used, and features most dearly missed?
 
-Someone mentioned this idea at the uRos ([Use of R in Official Statistics](https://r-project.ro/conference2025.html)) 2025 in their talk. For me, as an outsider to that community, it seemed like a perfect idea: National Institutes of Statistics have similar use cases for software and... they know how to run surveys!
+Someone mentioned this idea at the uRos ([Use of R in Official Statistics](https://r-project.ro/conference2025.html)) 2025 in their talk.[^1] For me, as an outsider to that community, it seemed like a perfect idea: National Institutes of Statistics have similar use cases for software and... they know how to run surveys!
 
 ## Contributions to the repository
 
@@ -107,4 +107,6 @@ We can also wonder about the data collected by Copilot and friends, that you as 
 ## Conclusion
 
 In this post, we gave a quick overview of some means to evaluate usage of your package. There is unfortunately no silver bullet, but definitely more to it than counting downloads.
+
+[^1]: But I unfortunately do not remember who. :sob:
 
