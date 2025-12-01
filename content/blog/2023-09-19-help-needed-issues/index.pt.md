@@ -4,6 +4,7 @@ author:
 - Maëlle Salmon
 - Yanina Bellini Saibene
 - Steffi LaZerte
+translator: Beatriz Milz
 date: '2023-09-19'
 slug: help-wanted
 featured: true
