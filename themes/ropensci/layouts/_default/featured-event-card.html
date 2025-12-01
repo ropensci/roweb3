@@ -3,8 +3,8 @@
     <div class="even-hero-date">
       {{ .Date | time.Format ":date_full" }}
     </div>
-    <h1>{{ .Title }}</h1>
-    <p class="event-hero-author">{{ .Params.location }}, {{ .Params.country }} • {{ if eq .Type "events" }}{{ partial "blogs/pretty_author_names" .Params.attendees}}{{ else }}All are welcome{{ end }} • {{ .Params.lang | default "English" }}</p>
+    <h1>{{ .Title | markdownify }}</h1>
+    <p class="event-hero-author">{{ .Params.location }}, {{ .Params.country }} • {{ if eq .Type "events" }}{{ partial "blogs/pretty_author_names" (dict "who" .Params.attendees "Site" .Site )}}{{ else }}All are welcome{{ end }} • {{ .Params.lang | default "English" }}</p>
   </div>
   <div class="event-hero-body">
     {{ .Params.description }}
