@@ -12,7 +12,7 @@ tags:
   - tech notes
 params:
   doi: "10.59350/9ff3a-21d94"
-rmd_hash: e335745d2c04cae4
+rmd_hash: 569206fb70817b95
 
 ---
 
@@ -82,7 +82,7 @@ As you might note on [curl's page](https://jeroen.r-universe.dev/curl), R-univer
 
 ## Surveys
 
-If you have a good idea of what the potential userbase of your package is, or a way to reach a good proportion of your users, maybe you could run a survey to ask about packages and functions most used, and features most dearly missed?
+If you have a good idea of what the potential userbase of your package is, or a way to reach a good proportion of current users, maybe you could run a survey to ask about packages and functions most used, and features most dearly missed?
 
 Someone mentioned this idea at the uRos ([Use of R in Official Statistics](https://r-project.ro/conference2025.html)) 2025 conference in their talk.[^1] For me, as an outsider to that community, it seemed like a perfect idea: National Institutes of Statistics have similar use cases for software and... they know how to run surveys!
 
