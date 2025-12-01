@@ -12,7 +12,7 @@ tags:
   - tech notes
 params:
   doi: "10.59350/9ff3a-21d94"
-rmd_hash: 50c6a13fe5caa788
+rmd_hash: 33a60c44fcb544cb
 
 ---
 
@@ -88,7 +88,7 @@ Someone mentioned this idea at the uRos ([Use of R in Official Statistics](https
 
 If you develop your package in the open, users might contribute to it. The mere opening of an issue by an external person means they found and used your package! Furthermore, users themselves might tell you what doesn't work, what's missing, what they like about your package... and of course help you maintain the package. All the more reasons to [foster a community around your package](/commcalls/apr2021-pkg-community/).
 
-Based on the same idea, if you wonder whether a function is used, you could try removing it or starting to remove it using proper deprecation and seeing if anyone complains. Likewise, and more dramatically, you might hear from users if your package gets archived on CRAN for instance.
+Based on the same idea, if you wonder whether a function is used, you could try removing it or starting to remove it using proper [deprecation](https://devguide.ropensci.org/maintenance_evolution.html) and seeing if anyone complains. Likewise, and more dramatically, you might hear from users if your package gets archived on CRAN for instance.
 
 At the organization level, you can use our new experimental [dashboard](/blog/2025/09/11/repometrics-call-help/) to get a bird eye view of repository activity.
 

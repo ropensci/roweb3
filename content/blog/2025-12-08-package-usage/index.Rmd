@@ -99,7 +99,7 @@ Furthermore, users themselves might tell you what doesn't work, what's missing, 
 and of course help you maintain the package.
 All the more reasons to [foster a community around your package](/commcalls/apr2021-pkg-community/).
 
-Based on the same idea, if you wonder whether a function is used, you could try removing it or starting to remove it using proper deprecation and seeing if anyone complains.
+Based on the same idea, if you wonder whether a function is used, you could try removing it or starting to remove it using proper [deprecation](https://devguide.ropensci.org/maintenance_evolution.html) and seeing if anyone complains.
 Likewise, and more dramatically, you might hear from users if your package gets archived on CRAN for instance.
 
 At the organization level, you can use our new experimental [dashboard](/blog/2025/09/11/repometrics-call-help/) to get a bird eye view of repository activity.
