@@ -4,13 +4,13 @@ author:
 - Mark Padgham
 - Maëlle Salmon
 date: '2024-02-06'
-slug: verbosity-control-packages
+slug: verbosidade-control-pacotes
 categories: []
 output: hugodown::md_document
 tags:
-- package development
+- desenvolvimento do pacote
 params:
-  doi: 10.59350/a7t5m-cy325
+  doi: 10.59350/c0z4e-0b50
 ---
 
 Recentemente, introduzimos um novo parágrafo na versão de desenvolvimento do nosso guia dev
