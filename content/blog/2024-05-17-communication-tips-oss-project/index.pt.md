@@ -4,13 +4,15 @@ author:
 - Maëlle Salmon
 editor:
 - Mark Padgham
+translator:
+- Beatriz Milz
 date: '2024-05-17'
-slug: communication-tips-oss-project
+slug: communica-dicas-oss-projeto
 output: hugodown::md_document
 tags:
 - comunidade
 params:
-  doi: 10.59350/8sqxt-7zp92
+  doi: 10.59350/ykbcy-bza60
 ---
 
 Você mantém um projeto de código aberto, como um pacote R ou um conjunto de pacotes, e quer saber como usar melhor os vários canais de comunicação para informar e interagir com a sua comunidade de pessoas usuárias?
