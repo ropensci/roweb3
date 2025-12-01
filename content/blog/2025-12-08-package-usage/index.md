@@ -12,7 +12,7 @@ tags:
   - tech notes
 params:
   doi: "10.59350/9ff3a-21d94"
-rmd_hash: 0098e7ca1c034bea
+rmd_hash: e335745d2c04cae4
 
 ---
 
@@ -62,7 +62,7 @@ Some code is published on GitHub. You can search for occurrences of, say, [`libr
 
 R-universe displays this information on each package's page as a badge counting "scripts" using a package -- the number of hits for the aforementioned GitHub advanced search query. See [curl's page](https://jeroen.r-universe.dev/curl).
 
-This information is obviously partial as not all code is published, not all code is published on GitHub, not all code loads packages this way, but such search syntax might help find examples of authentic usage to better understand how users interact with your package: you can look for individual functions, arguments used, etc.
+This information is obviously partial as not all code is published, as not all code is published on GitHub, and as not all code loads packages this way. Nonetheless, such search syntax might help find examples of authentic usage to better understand how users interact with your package: you can look for individual functions, arguments used, etc.
 
 ## Citations
 
