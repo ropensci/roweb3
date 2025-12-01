@@ -97,6 +97,7 @@ If you develop your package in the open, users might contribute to it.
 The mere opening of an issue by an external person means they found and used your package!
 Furthermore, users themselves might tell you what doesn't work, what's missing, what they like about your package...
 and of course help you maintain the package.
+All the more reasons to [foster a community around your package](/commcalls/apr2021-pkg-community/).
 
 Based on the same idea, if you wonder whether a function is used, you could try removing it or starting to remove it using proper deprecation and seeing if anyone complains.
 Likewise, and more dramatically, you might hear from users if your package gets archived on CRAN for instance.
