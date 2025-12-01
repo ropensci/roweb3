@@ -8,11 +8,12 @@
           {{ (time .Params.dateStart) | time.In $tz | dateFormat "Monday" }} {{ (time .Params.dateStart) | time.In $tz |
             dateFormat ":date_medium" }} {{ (time .Params.dateStart) | time.In $tz | dateFormat "15:04" }} ({{ $tz }})
         </div>
-        <h1>{{ .Title }}</h1>
+        <h1>{{ .Title | markdownify }}</h1>
         <div class="event-detail-author">
+          {{ $Site := .Site }}
           <p><span class="ml-1">
               {{ .Params.location }}, {{ .Params.country }} • {{ i18n "With" }} {{ with .Params.attendees }}{{ partial
-              "blogs/pretty_author_names" . }}.</span>
+              "blogs/pretty_author_names" (dict "who" . "Site" $Site ) }}.</span>
             {{ end }}
           </p>
         </div>
