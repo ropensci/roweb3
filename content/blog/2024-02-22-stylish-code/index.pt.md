@@ -7,7 +7,7 @@ editor:
 - Steffi LaZerte
 translator: Francesca Belem Lopes Palmeira
 date: '2024-02-22'
-slug: beautiful-code
+slug: codigo-bonito
 output: hugodown::md_document
 tags:
 - campeões e campeãs
