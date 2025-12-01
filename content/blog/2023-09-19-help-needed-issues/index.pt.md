@@ -16,7 +16,7 @@ tags:
 - contribuidores 
 description: Dicas sobre como criar e divulgar issues de "procura-se ajuda" (*help wanted*).
 params:
-  doi: 10.59350/zh01g-yby98
+  doi: 10.59350/da56k-mc846
 ---
 
 A manutenção de um pacote pode ser uma atividade solitária, o que às vezes representa um problema se você preferir trabalhar em equipe ou se encontrar um problema muito espinhoso para você.
