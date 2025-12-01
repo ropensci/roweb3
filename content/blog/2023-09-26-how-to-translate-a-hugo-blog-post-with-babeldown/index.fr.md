@@ -3,6 +3,7 @@ title: Comment traduire un billet de blog Hugo avec Babeldown
 author:
 - Maëlle Salmon
 - Yanina Bellini Saibene
+translator: Maëlle Salmon
 date: '2023-09-26'
 slug: comment_traduire_un_billet_de_blog_hugo_avec_babeldown
 categories: []
