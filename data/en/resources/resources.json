@@ -36,6 +36,12 @@
    "type": "guides-books"
 },
 {
+   "title": "Guide for First-time Contributor to FOSS events",
+   "text": "Community-Driven Open Source: Enabling First-Time Contributors to Open Source Projects",
+   "url": "https://ftc-guide.ropensci.org/",
+   "type": "guides-books"
+},
+{
    "title": "Software Peer Review",
    "text": "About our system for R package peer review.",
    "url": "/software-review",
