@@ -30,6 +30,12 @@
    "type": "guides-books"
 },
 {
+   "title": "Guía para mentores del Programa de Campeon(a|e)s",
+   "text": "Programa de Campeon(a|e)s de rOpenSci. Formación y orientación para mentores y mentoras",
+   "url": "https://mentors.ropensci.org/es/index.es.html",
+   "type": "guides-books"
+},
+{
 "title": "Revisión por Pares de Software",
 "text": "Nuestro sistema para la revisión por pares de paquetes R",
 "url": "-es/software-review/",

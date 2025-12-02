@@ -30,6 +30,12 @@
    "type": "guides-books"
 },
 {
+   "title": "Champions Program Mentor Guidelines",
+   "text": "rOpenSci Champions Program. Mentorship Training and Orientation",
+   "url": "https://mentors.ropensci.org/",
+   "type": "guides-books"
+},
+{
    "title": "Software Peer Review",
    "text": "About our system for R package peer review.",
    "url": "/software-review",
