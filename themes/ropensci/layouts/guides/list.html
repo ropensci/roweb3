@@ -12,29 +12,12 @@
     </p>
   </div>
 </div>
+
+
 {{ $data := index .Site.Data .Language.Lang }}
 {{ $resources := $data.resources.resources }}
-
-<h2>{{ i18n "Packages-and-Peer-Review" }}</h2>
-
-{{ $packagesPeerReview := (where $resources "type" "packages-peer-review" )}}
-{{ partial "resources/resources-cards" (dict "resources" $packagesPeerReview ) }}
-
-<h2>{{ i18n "Communication-and-Outreach" }}</h2>
-
-{{ $commOutreach := (where $resources "type" "communication-outreach" )}}
-{{ partial "resources/resources-cards" (dict "resources" $commOutreach ) }}
-
-<h2>{{ i18n "Guides-and-Books" }}</h2>
-
-{{ $guidesBooks := (where $resources "type" "guides-books" )}}
-{{ partial "resources/resources-cards" (dict "resources" $guidesBooks ) }}
-
-<h2>{{ i18n "GitHub-Organizations" }}</h2>
-
-{{ $github := (where $resources "type" "github" )}}
-{{ partial "resources/resources-cards" (dict "resources" $github ) }}
-
+{{ $guides := (where $resources "type" "guides-books" )}}
+{{ partial "resources/resources-cards" (dict "resources" $guides ) }}
   </div>
 </section>
 {{ $askpartial := (partial "translate-path" (dict "name" "whole-page-fragments/ask" "language" .Language.Lang )) }}

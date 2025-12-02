@@ -357,3 +357,18 @@
 
 [Interviews]
   other = "Interviews"
+
+[Guides]
+  other = 'Guides'
+
+[Packages-and-Peer-Review]
+  other = 'Packages and Peer Review'
+
+[Communication-and-Outreach]
+  other = 'Communication and Outreach'
+
+[Guides-and-Books]
+  other = 'Guides and Books'
+
+[GitHub-Organizations]
+  other = 'GitHub Organizations'
