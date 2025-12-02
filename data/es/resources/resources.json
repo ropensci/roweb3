@@ -24,6 +24,12 @@
  "type": "guides-books"
 },
 {
+   "title": "Guía de desarrollo de software estadístico",
+   "text": "Revisión por pares de software estadístico de rOpenSci",
+   "url": "https://stats-devguide.ropensci.org/",
+   "type": "guides-books"
+},
+{
 "title": "Revisión por Pares de Software",
 "text": "Nuestro sistema para la revisión por pares de paquetes R",
 "url": "-es/software-review/",

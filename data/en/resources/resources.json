@@ -24,6 +24,12 @@
    "type": "guides-books"
 },
 {
+   "title": "Statistical Developer Guide",
+   "text": "Our best practice guide for statistical R package development and peer-review.",
+   "url": "https://stats-devguide.ropensci.org/",
+   "type": "guides-books"
+},
+{
    "title": "Software Peer Review",
    "text": "About our system for R package peer review.",
    "url": "/software-review",
