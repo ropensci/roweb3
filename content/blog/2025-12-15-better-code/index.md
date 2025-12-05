@@ -3,6 +3,7 @@ title: Better Code, Without Any Effort, Without Even AI
 author: 
 - Maëlle Salmon
 editor:
+- Etienne Bacher
 date: '2025-12-15'
 slug: better-code
 description: Useful local, free, deterministic tools to improve your code
@@ -12,11 +13,11 @@ tags:
   - tech notes
 params:
   doi: "10.59350/98899-51c03"
-rmd_hash: f9b3d485c2880b07
+rmd_hash: 63ff123dc856a5dd
 
 ---
 
-We are experiencing a programming revolution, with the democratization of artificial intelligence... But also with the creation and improvement of more old-school tools to improve your code: local, free, deterministic. In this post, we will introduce you to Air, a tool for formatting R code automatically and almost instantly; lintr, an R package that detects more and more reasons to improve your code; flir, an R package that not only detects some of lintr's checks faster, but also repairs them automatically; jarl, a CLI that is equivalent to flir. With these four wonderful tools, you can effortlessly improve your code, your colleagues' code... and even code proposed by AI. With a bit more effort, you might even internalize best practice and write better code from the get go in the future!
+We are experiencing a programming revolution, with the democratization of artificial intelligence... But also with the creation and improvement of more old-school tools to improve your code: local, free, deterministic. In this post, we will introduce you to Air, a tool for formatting R code automatically and almost instantly; lintr, an R package that detects more and more reasons to improve your code; flir, an R package that not only detects some of lintr's checks faster, but also repairs them automatically, and like lintr lets you set your own preferences; jarl, a CLI that is a linter. With these four wonderful tools, you can effortlessly improve your code, your colleagues' code... and even code proposed by AI. With a bit more effort, you might even internalize best practice and write better code from the get go in the future!
 
 <div class="highlight">
 
@@ -128,7 +129,7 @@ The jarl CLI produces the same results as the flir R package, but faster. Furthe
 
 </div>
 
-Then we modify the script by hand: `(x[1L] != y[1L])` with `!=` and with explicit integers. The rule on explicit integers could be ignored as it's not one everyone agrees on. When using lintr, one can configurate it to pick some rules. One can also add exception comments, which is something Air, flir, jarl all support too.
+Then we modify the script by hand: `(x[1L] != y[1L])` with `!=` and with explicit integers. The rule on explicit integers could be ignored as it's not one everyone agrees on. When using lintr, one can configurate it to pick some rules. One can also add exception [comments](https://lintr.r-lib.org/articles/lintr.html#excluding-lines-of-code), which is something [Air](https://posit-dev.github.io/air/configuration.html#configuration-skip), [flir](https://github.com/etiennebacher/flir/blob/e98adccf3bf1064bdae98c809a1a64590945876d/NEWS.md?plain=1#L317), [jarl](https://jarl.etiennebacher.com/using-jarl#ignoring-diagnostics) all support too.
 
 ``` r
 lleno <- !anyNA(x)
@@ -143,6 +144,8 @@ if (ok) {
 </div>
 
 Since lintr has been around for a longer time, it has an impressive collection of rules, the "linters". Even reading their documentation can teach you a lot, especially as the [list](https://lintr.r-lib.org/reference/index.html#individual-linters) grows over time!
+
+Note that linter has some rules related to styling, that you might want to deactivate if you're using Air.
 
 ## Tooling
 
@@ -179,11 +182,13 @@ Furthermore, for such alerts and fixes, you don't need to use an LLM... Air, fli
 
 You can improve your code without effort, without even AI, using:
 
--   Air
+-   Air, to efficiently reformat code;
 
--   {flir} or jarl
+-   {flir}, to efficiently refactor code;
 
--   {lintr}
+-   jarl, to fix "bad" practice;
+
+-   {lintr} to get "bad" patterns, including custom ones, flagged.
 
 The usage of those tools is best complemented by review by humans.
 
