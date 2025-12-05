@@ -13,7 +13,7 @@ tags:
   - tech notes
 params:
   doi: "10.59350/98899-51c03"
-rmd_hash: 63ff123dc856a5dd
+rmd_hash: fa95fc38b4b7df57
 
 ---
 
@@ -170,7 +170,7 @@ Sure, artificial intelligence can be handy but...
 
 -   The best LLMs are not local;
 
--   They cost;
+-   They cost money;
 
 -   They are not deterministic so might miss a rule whereas the tools in this post don't;
 
