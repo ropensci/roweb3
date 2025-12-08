@@ -13,11 +13,11 @@ tags:
   - tech notes
 params:
   doi: "10.59350/98899-51c03"
-rmd_hash: fa95fc38b4b7df57
+rmd_hash: 1b66f37804fc5423
 
 ---
 
-We are experiencing a programming revolution, with the democratization of artificial intelligence... But also with the creation and improvement of more old-school tools to improve your code: local, free, deterministic. In this post, we will introduce you to Air, a tool for formatting R code automatically and almost instantly; lintr, an R package that detects more and more reasons to improve your code; flir, an R package that not only detects some of lintr's checks faster, but also repairs them automatically, and like lintr lets you set your own preferences; jarl, a CLI that is a linter. With these four wonderful tools, you can effortlessly improve your code, your colleagues' code... and even code proposed by AI. With a bit more effort, you might even internalize best practice and write better code from the get go in the future!
+We are experiencing a programming revolution, with the democratization of artificial intelligence... But also with the creation and improvement of more old-school tools to improve your code: local, free, deterministic. In this post, we will introduce you to Air, a tool for formatting R code automatically and almost instantly; lintr, an R package that detects more and more reasons to improve your code; jarl, a fast CLI tool to find and automatically fix lints; flir, an R package to efficiently rewrite patterns of code, either built-in ones or custom ones. With these four wonderful tools, you can effortlessly improve your code, your colleagues' code... and even code proposed by AI. With a bit more effort, you might even internalize best practice and write better code from the get go in the future!
 
 <div class="highlight">
 
@@ -31,9 +31,66 @@ Let's start with a script containing a few problems... Can you spot them?
 
 <pre class='chroma'><code class='language-r' data-lang='r'><span><span class='nv'>lleno</span> <span class='o'>&lt;-</span><span class='o'>!</span><span class='nf'><a href='https://rdrr.io/r/base/any.html'>any</a></span><span class='o'>(</span><span class='nf'><a href='https://rdrr.io/r/base/NA.html'>is.na</a></span><span class='o'>(</span><span class='nv'>x</span><span class='o'>)</span><span class='o'>)</span></span>
 <span><span class='nv'>ok</span><span class='o'>&lt;-</span> <span class='o'>!</span><span class='o'>(</span><span class='nv'>x</span><span class='o'>[</span><span class='m'>1</span><span class='o'>]</span> <span class='o'>==</span> <span class='nv'>y</span><span class='o'>[</span><span class='m'>1</span><span class='o'>]</span><span class='o'>)</span></span>
-<span><span class='kr'>if</span> <span class='o'>(</span><span class='nv'>ok</span><span class='o'>)</span> <span class='nv'>z</span><span class='o'>&lt;-</span> <span class='nv'>x</span> <span class='o'>+</span>  <span class='m'>1</span></span></code></pre>
+<span><span class='kr'>if</span> <span class='o'>(</span><span class='nv'>ok</span><span class='o'>)</span> <span class='nv'>z</span><span class='o'>&lt;-</span> <span class='nv'>x</span> <span class='o'>+</span>  <span class='m'>1</span></span>
+<span><span class='kr'>if</span> <span class='o'>(</span><span class='nv'>z</span><span class='o'>&gt;</span><span class='m'>3</span><span class='o'>)</span> <span class='kr'><a href='https://rdrr.io/r/base/stop.html'>stop</a></span><span class='o'>(</span><span class='s'>'ouch'</span><span class='o'>)</span></span></code></pre>
 
 </div>
+
+### Learn what to improve with {lintr} :package:
+
+A first instinct might be to run the lintr package on the script. The `lint()` function performs static analysis.
+
+<div class="highlight">
+
+<pre class='chroma'><code class='language-r' data-lang='r'><span><span class='nf'>lintr</span><span class='nf'>::</span><span class='nf'><a href='https://lintr.r-lib.org/reference/lint.html'>lint</a></span><span class='o'>(</span><span class='s'>"test.R"</span>, linters <span class='o'>=</span> <span class='nf'>lintr</span><span class='nf'>::</span><span class='nf'><a href='https://lintr.r-lib.org/reference/all_linters.html'>all_linters</a></span><span class='o'>(</span><span class='o'>)</span><span class='o'>)</span></span>
+<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>/home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R:1:7</span></a><span style='font-weight: bold;'>: </span><span style='color: #0000BB;'>style: </span>[infix_spaces_linter] <span style='font-weight: bold;'>Put spaces around all infix operators.</span></span></span>
+<span><span class='c'>#&gt; lleno &lt;-!any(is.na(x))</span></span>
+<span><span class='c'>#&gt;       ^~</span></span>
+<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>/home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R:1:10</span></a><span style='font-weight: bold;'>: </span><span style='color: #BB00BB;'>warning: </span>[any_is_na_linter] <span style='font-weight: bold;'>anyNA(x) is better than any(is.na(x)).</span></span></span>
+<span><span class='c'>#&gt; lleno &lt;-!any(is.na(x))</span></span>
+<span><span class='c'>#&gt;          ^~~~~~~~~~~~~</span></span>
+<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>/home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R:2:3</span></a><span style='font-weight: bold;'>: </span><span style='color: #0000BB;'>style: </span>[infix_spaces_linter] <span style='font-weight: bold;'>Put spaces around all infix operators.</span></span></span>
+<span><span class='c'>#&gt; ok&lt;- !(x[1] == y[1])</span></span>
+<span><span class='c'>#&gt;   ^~</span></span>
+<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>/home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R:2:6</span></a><span style='font-weight: bold;'>: </span><span style='color: #BB00BB;'>warning: </span>[comparison_negation_linter] <span style='font-weight: bold;'>Use x != y, not !(x == y).</span></span></span>
+<span><span class='c'>#&gt; ok&lt;- !(x[1] == y[1])</span></span>
+<span><span class='c'>#&gt;      ^~~~~~~~~~~~~~~</span></span>
+<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>/home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R:2:11</span></a><span style='font-weight: bold;'>: </span><span style='color: #0000BB;'>style: </span>[implicit_integer_linter] <span style='font-weight: bold;'>Use 1L or 1.0 to avoid implicit integers.</span></span></span>
+<span><span class='c'>#&gt; ok&lt;- !(x[1] == y[1])</span></span>
+<span><span class='c'>#&gt;          ~^</span></span>
+<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>/home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R:2:19</span></a><span style='font-weight: bold;'>: </span><span style='color: #0000BB;'>style: </span>[implicit_integer_linter] <span style='font-weight: bold;'>Use 1L or 1.0 to avoid implicit integers.</span></span></span>
+<span><span class='c'>#&gt; ok&lt;- !(x[1] == y[1])</span></span>
+<span><span class='c'>#&gt;                  ~^</span></span>
+<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>/home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R:3:10</span></a><span style='font-weight: bold;'>: </span><span style='color: #0000BB;'>style: </span>[infix_spaces_linter] <span style='font-weight: bold;'>Put spaces around all infix operators.</span></span></span>
+<span><span class='c'>#&gt; if (ok) z&lt;- x +  1</span></span>
+<span><span class='c'>#&gt;          ^~</span></span>
+<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>/home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R:3:19</span></a><span style='font-weight: bold;'>: </span><span style='color: #0000BB;'>style: </span>[implicit_integer_linter] <span style='font-weight: bold;'>Use 1L or 1.0 to avoid implicit integers.</span></span></span>
+<span><span class='c'>#&gt; if (ok) z&lt;- x +  1</span></span>
+<span><span class='c'>#&gt;                  ~^</span></span>
+<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>/home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R:4:6</span></a><span style='font-weight: bold;'>: </span><span style='color: #0000BB;'>style: </span>[infix_spaces_linter] <span style='font-weight: bold;'>Put spaces around all infix operators.</span></span></span>
+<span><span class='c'>#&gt; if (z&gt;3) stop('ouch')</span></span>
+<span><span class='c'>#&gt;      ^</span></span>
+<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>/home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R:4:8</span></a><span style='font-weight: bold;'>: </span><span style='color: #0000BB;'>style: </span>[implicit_integer_linter] <span style='font-weight: bold;'>Use 3L or 3.0 to avoid implicit integers.</span></span></span>
+<span><span class='c'>#&gt; if (z&gt;3) stop('ouch')</span></span>
+<span><span class='c'>#&gt;       ~^</span></span>
+<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>/home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R:4:10</span></a><span style='font-weight: bold;'>: </span><span style='color: #BB00BB;'>warning: </span>[condition_call_linter] <span style='font-weight: bold;'>Use stop(., call. = FALSE) not to display the call in an error message.</span></span></span>
+<span><span class='c'>#&gt; if (z&gt;3) stop('ouch')</span></span>
+<span><span class='c'>#&gt;          ^~~~~~~~~~~~</span></span>
+<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>/home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R:4:15</span></a><span style='font-weight: bold;'>: </span><span style='color: #0000BB;'>style: </span>[quotes_linter] <span style='font-weight: bold;'>Only use double-quotes.</span></span></span>
+<span><span class='c'>#&gt; if (z&gt;3) stop('ouch')</span></span>
+<span><span class='c'>#&gt;               ^~~~~~</span></span>
+<span></span></code></pre>
+
+</div>
+
+We therefore get alerts about
+
+-   styling: space around infix operators for instance; implicit integer.
+-   performance: `anyNA(x)` is better than `any(is.na(x))`.
+
+Since lintr has been around for a long time, it has an impressive collection of rules, the "linters". Even reading their documentation can teach you a lot, especially as the [list](https://lintr.r-lib.org/reference/index.html#individual-linters) grows over time!
+
+Now, based on these alerts, how could we improve the code?
 
 ### Format with Air :computer:\$
 
@@ -53,43 +110,23 @@ air format test.R
 <span><span class='nv'>ok</span> <span class='o'>&lt;-</span> <span class='o'>!</span><span class='o'>(</span><span class='nv'>x</span><span class='o'>[</span><span class='m'>1</span><span class='o'>]</span> <span class='o'>==</span> <span class='nv'>y</span><span class='o'>[</span><span class='m'>1</span><span class='o'>]</span><span class='o'>)</span></span>
 <span><span class='kr'>if</span> <span class='o'>(</span><span class='nv'>ok</span><span class='o'>)</span> <span class='o'>&#123;</span></span>
 <span>  <span class='nv'>z</span> <span class='o'>&lt;-</span> <span class='nv'>x</span> <span class='o'>+</span> <span class='m'>1</span></span>
+<span><span class='o'>&#125;</span></span>
+<span><span class='kr'>if</span> <span class='o'>(</span><span class='nv'>z</span> <span class='o'>&gt;</span> <span class='m'>3</span><span class='o'>)</span> <span class='o'>&#123;</span></span>
+<span>  <span class='kr'><a href='https://rdrr.io/r/base/stop.html'>stop</a></span><span class='o'>(</span><span class='s'>'ouch'</span><span class='o'>)</span></span>
 <span><span class='o'>&#125;</span></span></code></pre>
 
 </div>
 
 Now, the spacing in the code is regular! The `if` condition is furthermore formatted on three lines instead of only one. Overall, the code is easier to read because it now follows popular conventions.
 
-### Improve with the {flir} :package:
-
-In the R console:
-
-<div class="highlight">
-
-<pre class='chroma'><code class='language-r' data-lang='r'><span><span class='nf'>flir</span><span class='nf'>::</span><span class='nf'><a href='https://flir.etiennebacher.com/reference/fix.html'>fix</a></span><span class='o'>(</span><span class='s'>"test.R"</span><span class='o'>)</span></span>
-<span><span class='c'>#&gt; <span style='color: #00BBBB;'>ℹ</span> Going to check 1 file.</span></span>
-<span></span><span><span class='c'>#&gt; <span style='color: #00BB00;'>✔</span> Fixed 1 lint in 1 file.</span></span>
-<span></span></code></pre>
-
-</div>
-
-<div class="highlight">
-
-<pre class='chroma'><code class='language-r' data-lang='r'><span><span class='nv'>lleno</span> <span class='o'>&lt;-</span> <span class='o'>!</span><span class='nf'><a href='https://rdrr.io/r/base/NA.html'>anyNA</a></span><span class='o'>(</span><span class='nv'>x</span><span class='o'>)</span></span>
-<span><span class='nv'>ok</span> <span class='o'>&lt;-</span> <span class='o'>!</span><span class='o'>(</span><span class='nv'>x</span><span class='o'>[</span><span class='m'>1</span><span class='o'>]</span> <span class='o'>==</span> <span class='nv'>y</span><span class='o'>[</span><span class='m'>1</span><span class='o'>]</span><span class='o'>)</span></span>
-<span><span class='kr'>if</span> <span class='o'>(</span><span class='nv'>ok</span><span class='o'>)</span> <span class='o'>&#123;</span></span>
-<span>  <span class='nv'>z</span> <span class='o'>&lt;-</span> <span class='nv'>x</span> <span class='o'>+</span> <span class='m'>1</span></span>
-<span><span class='o'>&#125;</span></span></code></pre>
-
-</div>
-
-`!any(is.na(x))` became `!anyNA(x)` which is more efficient. Such code patterns are what flir can identify.
+Note that lintr and Air might have conflicting advice on styling: you can deactivate lintr's styling related rules if you use Air.
 
 ### Improve with the new jarl CLI! :computer:\$
 
 In the terminal:
 
 ``` sh
-jarl check test2.R --fix
+jarl check test.R --fix
 ```
 
 <div class="highlight">
@@ -102,50 +139,63 @@ jarl check test2.R --fix
 <span><span class='nv'>ok</span> <span class='o'>&lt;-</span> <span class='o'>!</span><span class='o'>(</span><span class='nv'>x</span><span class='o'>[</span><span class='m'>1</span><span class='o'>]</span> <span class='o'>==</span> <span class='nv'>y</span><span class='o'>[</span><span class='m'>1</span><span class='o'>]</span><span class='o'>)</span></span>
 <span><span class='kr'>if</span> <span class='o'>(</span><span class='nv'>ok</span><span class='o'>)</span> <span class='o'>&#123;</span></span>
 <span>  <span class='nv'>z</span> <span class='o'>&lt;-</span> <span class='nv'>x</span> <span class='o'>+</span> <span class='m'>1</span></span>
+<span><span class='o'>&#125;</span></span>
+<span><span class='kr'>if</span> <span class='o'>(</span><span class='nv'>z</span> <span class='o'>&gt;</span> <span class='m'>3</span><span class='o'>)</span> <span class='o'>&#123;</span></span>
+<span>  <span class='kr'><a href='https://rdrr.io/r/base/stop.html'>stop</a></span><span class='o'>(</span><span class='s'>'ouch'</span><span class='o'>)</span></span>
 <span><span class='o'>&#125;</span></span></code></pre>
 
 </div>
 
-The jarl CLI produces the same results as the flir R package, but faster. Furthermore, because it is a simple binary that does not need R to run, it's quicker to install on continuous integration.
+The jarl CLI is as fast as Air is for styling. Furthermore, because it is a simple binary that does not need R to run, it's quicker to install on continuous integration.
 
-### Learn what more to improve with {lintr} :package:
+Nevertheless, since jarl is newer than lintr, it supports fewer rules for now.
 
-<div class="highlight">
+### Improve with the {flir} :package:
 
-<pre class='chroma'><code class='language-r' data-lang='r'><span><span class='nf'>lintr</span><span class='nf'>::</span><span class='nf'><a href='https://lintr.r-lib.org/reference/lint.html'>lint</a></span><span class='o'>(</span><span class='s'>"test.R"</span>, linters <span class='o'>=</span> <span class='nf'>lintr</span><span class='nf'>::</span><span class='nf'><a href='https://lintr.r-lib.org/reference/all_linters.html'>all_linters</a></span><span class='o'>(</span><span class='o'>)</span><span class='o'>)</span></span>
-<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>/home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R:2:7</span></a><span style='font-weight: bold;'>: </span><span style='color: #BB00BB;'>warning: </span>[comparison_negation_linter] <span style='font-weight: bold;'>Use x != y, not !(x == y).</span></span></span>
-<span><span class='c'>#&gt; ok &lt;- !(x[1] == y[1])</span></span>
-<span><span class='c'>#&gt;       ^~~~~~~~~~~~~~~</span></span>
-<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>/home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R:2:12</span></a><span style='font-weight: bold;'>: </span><span style='color: #0000BB;'>style: </span>[implicit_integer_linter] <span style='font-weight: bold;'>Use 1L or 1.0 to avoid implicit integers.</span></span></span>
-<span><span class='c'>#&gt; ok &lt;- !(x[1] == y[1])</span></span>
-<span><span class='c'>#&gt;           ~^</span></span>
-<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>/home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R:2:20</span></a><span style='font-weight: bold;'>: </span><span style='color: #0000BB;'>style: </span>[implicit_integer_linter] <span style='font-weight: bold;'>Use 1L or 1.0 to avoid implicit integers.</span></span></span>
-<span><span class='c'>#&gt; ok &lt;- !(x[1] == y[1])</span></span>
-<span><span class='c'>#&gt;                   ~^</span></span>
-<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>/home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R:4:13</span></a><span style='font-weight: bold;'>: </span><span style='color: #0000BB;'>style: </span>[implicit_integer_linter] <span style='font-weight: bold;'>Use 1L or 1.0 to avoid implicit integers.</span></span></span>
-<span><span class='c'>#&gt;   z &lt;- x + 1</span></span>
-<span><span class='c'>#&gt;            ~^</span></span>
-<span></span></code></pre>
+You could complement the usage of lintr, Air and jarl with flir which is better at [*custom rules*](https://flir.etiennebacher.com/articles/adding_rules). For instance, what if you'd prefer your codebase to use [`rlang::abort()`](https://rlang.r-lib.org/reference/abort.html) instead of [`stop()`](https://rdrr.io/r/base/stop.html)?
 
-</div>
-
-Then we modify the script by hand: `(x[1L] != y[1L])` with `!=` and with explicit integers. The rule on explicit integers could be ignored as it's not one everyone agrees on. When using lintr, one can configurate it to pick some rules. One can also add exception [comments](https://lintr.r-lib.org/articles/lintr.html#excluding-lines-of-code), which is something [Air](https://posit-dev.github.io/air/configuration.html#configuration-skip), [flir](https://github.com/etiennebacher/flir/blob/e98adccf3bf1064bdae98c809a1a64590945876d/NEWS.md?plain=1#L317), [jarl](https://jarl.etiennebacher.com/using-jarl#ignoring-diagnostics) all support too.
+We first run
 
 ``` r
-lleno <- !anyNA(x)
-ok <- (x[1L] != y[1L])
-if (ok) {
-  z <- x + 1L
-}
+flir::setup_flir(getwd())
 ```
+
+We save the file below under `flir/rules/custom/stop_abort.yml`.
+
+``` yaml
+id: stop_abort-1
+language: r
+severity: warning
+rule:
+  pattern: stop($$$ELEMS)
+fix: rlang::abort(paste0(~~ELEMS~~))
+message: Use [`rlang::abort()`](https://rlang.r-lib.org/reference/abort.html) instead of [`stop()`](https://rdrr.io/r/base/stop.html).
+```
+
+We then run
+
+<div class="highlight">
+
+<pre class='chroma'><code class='language-r' data-lang='r'><span><span class='nf'>flir</span><span class='nf'>::</span><span class='nf'><a href='https://flir.etiennebacher.com/reference/fix.html'>fix</a></span><span class='o'>(</span><span class='s'>"test.R"</span>, linters <span class='o'>=</span> <span class='s'>"stop_abort"</span><span class='o'>)</span></span></code></pre>
+
+</div>
+
+<div class="highlight">
+
+<pre class='chroma'><code class='language-r' data-lang='r'><span><span class='nv'>lleno</span> <span class='o'>&lt;-</span> <span class='o'>!</span><span class='nf'><a href='https://rdrr.io/r/base/NA.html'>anyNA</a></span><span class='o'>(</span><span class='nv'>x</span><span class='o'>)</span></span>
+<span><span class='nv'>ok</span> <span class='o'>&lt;-</span> <span class='o'>!</span><span class='o'>(</span><span class='nv'>x</span><span class='o'>[</span><span class='m'>1</span><span class='o'>]</span> <span class='o'>==</span> <span class='nv'>y</span><span class='o'>[</span><span class='m'>1</span><span class='o'>]</span><span class='o'>)</span></span>
+<span><span class='kr'>if</span> <span class='o'>(</span><span class='nv'>ok</span><span class='o'>)</span> <span class='o'>&#123;</span></span>
+<span>  <span class='nv'>z</span> <span class='o'>&lt;-</span> <span class='nv'>x</span> <span class='o'>+</span> <span class='m'>1</span></span>
+<span><span class='o'>&#125;</span></span>
+<span><span class='kr'>if</span> <span class='o'>(</span><span class='nv'>z</span> <span class='o'>&gt;</span> <span class='m'>3</span><span class='o'>)</span> <span class='o'>&#123;</span></span>
+<span>  <span class='kr'><a href='https://rdrr.io/r/base/stop.html'>stop</a></span><span class='o'>(</span><span class='s'>'ouch'</span><span class='o'>)</span></span>
+<span><span class='o'>&#125;</span></span></code></pre>
+
+</div>
 
 <div class="highlight">
 
 </div>
-
-Since lintr has been around for a longer time, it has an impressive collection of rules, the "linters". Even reading their documentation can teach you a lot, especially as the [list](https://lintr.r-lib.org/reference/index.html#individual-linters) grows over time!
-
-Note that linter has some rules related to styling, that you might want to deactivate if you're using Air.
 
 ## Tooling
 
@@ -158,7 +208,7 @@ The tools we used are:
 
 ## How to use those tools
 
-You could use those tools locally on your machine from time to time. For instance, when inheriting an older project, I will first renovate it using them.
+You could use those tools locally on your machine from time to time. For instance, when inheriting an older project, I will first renovate it using them. Locally, a real game changer is using the integration of your IDE with the tools. For instance, I have Positron set up so that Air is run on my scripts when I save them. The jarl CLI also provides [integrations with editors](https://jarl.etiennebacher.com/editors).
 
 You could also use those tools on continuous integration. For instance, a workflow might suggest formatting changes in Pull Requests. The use of suggestions rather than a direct commit means the contributor get a chance to learn about the improvements.
 

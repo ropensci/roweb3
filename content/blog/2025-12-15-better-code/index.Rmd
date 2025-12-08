@@ -28,7 +28,8 @@ With a bit more effort, you might even internalize best practice and write bette
 lines <- c(
   "lleno <-!any(is.na(x))",
   "ok<- !(x[1] == y[1])",
-  "if (ok) z<- x +  1"
+  "if (ok) z<- x +  1",
+  "if (z>3) stop('ouch')"
 )
 writeLines(lines, "test.R")
 ```
@@ -41,6 +42,25 @@ Can you spot them?
 ```{r, file="test.R", eval=FALSE, echo=TRUE}
 ```
 
+### Learn what to improve with {lintr} :package:
+
+A first instinct might be to run the lintr package on the script.
+The `lint()` function performs static analysis.
+
+```{r, echo=TRUE}
+lintr::lint("test.R", linters = lintr::all_linters())
+```
+
+We therefore get alerts about
+
+- styling: space around infix operators for instance; implicit integer.
+- performance: `anyNA(x)` is better than `any(is.na(x))`.
+
+Since lintr has been around for a long time, it has an impressive collection of rules, the "linters".
+Even reading their documentation can teach you a lot, especially as the [list](https://lintr.r-lib.org/reference/index.html#individual-linters) grows over time!
+
+Now, based on these alerts, how could we improve the code? 
+
 ### Format with Air :computer:$
 
 In the terminal:
@@ -51,7 +71,6 @@ air format test.R
 
 ```{r, echo=FALSE}
 a <- system2("air", c("format", "test.R"))
-a <- file.copy("test.R", "test2.R")
 ```
 
 ```{r, file="test.R", eval=FALSE, echo=TRUE}
@@ -61,69 +80,65 @@ Now, the spacing in the code is regular!
 The `if` condition is furthermore formatted on three lines instead of only one.
 Overall, the code is easier to read because it now follows popular conventions.
 
-### Improve with the {flir} :package:
-
-In the R console:
-
-```{r, echo=TRUE}
-flir::fix("test.R")
-```
-
-```{r, file="test.R", eval=FALSE, echo=TRUE}
-```
-
-`!any(is.na(x))` became `!anyNA(x)` which is more efficient.
-Such code patterns are what flir can identify.
+Note that lintr and Air might have conflicting advice on styling: you can deactivate lintr's styling related rules if you use Air.
 
 ### Improve with the new jarl CLI! :computer:$
 
 In the terminal:
 
 ```sh
-jarl check test2.R --fix
+jarl check test.R --fix
 ```
 
 ```{r, echo=FALSE}
-a <- system2("jarl", c("check", "test2.R", "--fix", "--allow-dirty"))
+a <- system2("jarl", c("check", "test.R", "--fix", "--allow-dirty"))
 ```
 
 
-```{r, file="test2.R", eval=FALSE, echo=TRUE}
+```{r, file="test.R", eval=FALSE, echo=TRUE}
 ```
 
-The jarl CLI produces the same results as the flir R package, but faster.
+The jarl CLI is as fast as Air is for styling.
 Furthermore, because it is a simple binary that does not need R to run, it's quicker to install on continuous integration.
 
-### Learn what more to improve with {lintr} :package:
+Nevertheless, since jarl is newer than lintr, it supports fewer rules for now.
 
-```{r, echo=TRUE}
-lintr::lint("test.R", linters = lintr::all_linters())
-```
+### Improve with the {flir} :package:
 
-Then we modify the script by hand: `(x[1L] != y[1L])` with `!=` and with explicit integers.
-The rule on explicit integers could be ignored as it's not one everyone agrees on.
-When using lintr, one can configurate it to pick some rules.
-One can also add exception [comments](https://lintr.r-lib.org/articles/lintr.html#excluding-lines-of-code), which is something [Air](https://posit-dev.github.io/air/configuration.html#configuration-skip), [flir](https://github.com/etiennebacher/flir/blob/e98adccf3bf1064bdae98c809a1a64590945876d/NEWS.md?plain=1#L317), [jarl](https://jarl.etiennebacher.com/using-jarl#ignoring-diagnostics) all support too.
+You could complement the usage of lintr, Air and jarl with flir which is better at [*custom rules*](https://flir.etiennebacher.com/articles/adding_rules).
+For instance, what if you'd prefer your codebase to use `rlang::abort()` instead of `stop()`?
+
+We first run
 
 ```r
-lleno <- !anyNA(x)
-ok <- (x[1L] != y[1L])
-if (ok) {
-  z <- x + 1L
-}
+flir::setup_flir(getwd())
+```
 
+We save the file below under `flir/rules/custom/stop_abort.yml`.
+
+```yaml
+id: stop_abort-1
+language: r
+severity: warning
+rule:
+  pattern: stop($$$ELEMS)
+fix: rlang::abort(paste0(~~ELEMS~~))
+message: Use `rlang::abort()` instead of `stop()`.
+```
+We then run
+
+```{r, echo=TRUE,eval=FALSE}
+flir::fix("test.R", linters = "stop_abort")
+```
+
+```{r, file="test.R", eval=FALSE, echo=TRUE}
 ```
 
 ```{r}
 #| echo: false
 a <- file.remove("test.R")
-a <- file.remove("test2.R")
 ```
 
-Since lintr has been around for a longer time, it has an impressive collection of rules, the "linters".
-Even reading their documentation can teach you a lot, especially as the [list](https://lintr.r-lib.org/reference/index.html#individual-linters) grows over time!
-
-Note that lintr has some rules related to styling that you might want to deactivate if you're using Air.
 
 ## Tooling
 
@@ -139,6 +154,9 @@ The tools we used are:
 
 You could use those tools locally on your machine from time to time.
 For instance, when inheriting an older project, I will first renovate it using them.
+Locally, a real game changer is using the integration of your IDE with the tools.
+For instance, I have Positron set up so that Air is run on my scripts when I save them.
+The jarl CLI also provides [integrations with editors](https://jarl.etiennebacher.com/editors).
 
 You could also use those tools on continuous integration.
 For instance, a workflow might suggest formatting changes in Pull Requests.
