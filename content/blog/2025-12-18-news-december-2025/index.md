@@ -6,11 +6,11 @@ author:
 date: '2025-12-18'
 tags:
   - newsletter
-description: LatinR, coworking, new package, package news
+description: LatinR recordings, uRos resources, coworking, new package, package news
 params:
   last_newsletter: '2025-11-28'
   doi: "10.59350/vx1mc-ps208"
-rmd_hash: 121676db4b2275d5
+rmd_hash: b265f7d4bd30984e
 
 ---
 
@@ -23,6 +23,12 @@ Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> Y
 ### rOpenSci at LatinR
 
 We proudly continued supporting LatinR as a community partner in 2025. We shared resources and recordings for the [tutorial](/training/) and [talks](/talks/) by our staff Discover more on the [LatinR YouTube channel](https://www.youtube.com/@LatinR).
+
+-   "R-multiverse" by Maëlle Salmon, Will Landau, Yanina Bellini Saibene, [recording](https://www.youtube.com/watch?v=Nb6owmY5Iec), [slides](https://latinr25-multiverse.netlify.app/#/);
+-   "R-universe Q&A" by Jeroen Ooms, Maëlle Salmon, [recording](https://www.youtube.com/watch?v=nWUwQM_5Hxo);
+-   "Mejor código, sin esfuerzos, sin siquiera IA" by Maëlle Salmon, Hugo Gruson, Etienne Bacher, [recording](https://www.youtube.com/watch?v=sJT_omvdtZQ), [slides](https://masalmon.eu/talks/2025-12-04-latinr-mejor-codigo/);
+-   "Estrategias de divulgación para proyectos de software e infraestructuras abiertas" by Alejandra Bellini, Yanina Bellini Saibene, [recording](https://www.youtube.com/watch?v=3QeN5S4OKbQ);
+-   "Comunidades de líderes de código abierto" by Yanina Bellini Saibene, Noam Ross, [recording](https://www.youtube.com/watch?v=rAcO2jE_RyM).
 
 ### rOpenSci at uRos
 
