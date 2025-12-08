@@ -1,0 +1,171 @@
+---
+slug: "news-november-2025"
+title: rOpenSci News Digest, December 2025
+author:
+  - The rOpenSci Team
+date: '2025-12-18'
+tags:
+  - newsletter
+description: LatinR, coworking, new package, package news
+params:
+  last_newsletter: '2025-11-28'
+  doi: "10.59350/vx1mc-ps208"
+rmd_hash: 121676db4b2275d5
+
+---
+
+<!-- Before sending DELETE THE INDEX_CACHE and re-knit! -->
+
+Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> You can read this post [on our blog](/blog/2025/12/18/news-november-2025). Now let's dive into the activity at and around rOpenSci!
+
+## rOpenSci HQ
+
+### rOpenSci at LatinR
+
+We proudly continued supporting LatinR as a community partner in 2025. We shared resources and recordings for the [tutorial](/training/) and [talks](/talks/) by our staff Discover more on the [LatinR YouTube channel](https://www.youtube.com/@LatinR).
+
+### rOpenSci at uRos
+
+Find Maëlle Salmon's slidedecks from the [uRos (Use of R in Official Statistics) 2025](https://r-project.ro/conference2025.html) conference:
+
+-   tutorial ["Painlessly Improve Your Git History"](https://uros-git.netlify.app/#/);
+-   keynote talk ["R packages, good vibes only"](https://maelle-uros.netlify.app/#/).
+
+### Coworking
+
+Read [all about coworking](/blog/2023/06/21/coworking/)!
+
+-   Tuesday January 13th, 9:00 Americas Pacific (17:00 UTC), ["Let it go!"](/events/coworking-2026-01/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Yanina Bellini Saibene](/author/yanina-bellini-saibene/).
+    -   Spend some time reviewing the forums, Slack workspaces, Newsletters, RSS feeds (etc. etc.) you're subscribed to;
+    -   Unsubscribe to all you no longer need (Let it go!);
+    -   Meet co-host, Yanina Bellini Saibene, and discuss strategies for this New Year decluttering of your digital (or perhaps not-so-digital) life.
+-   Tuesday February 2nd, 9:00 Australia Western (01:00 UTC), ["Share your Positron setup!"](/events/coworking-2026-02/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Noam Ross](/author/noam-ross/).
+    -   Setup Poistron and explore extensions and custom settings;
+    -   Meet community host, Noam Ross, share how you have set up Positron for your workflow and learn from others.
+
+And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
+
+## Software :package:
+
+### New packages
+
+<div class="highlight">
+
+</div>
+
+The following package recently became a part of our software suite:
+
+<div class="highlight">
+
+</div>
+
+Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
+
+### New versions
+
+<div class="highlight">
+
+</div>
+
+The following five packages have had an update since the last newsletter: [distionary](https://docs.ropensci.org/distionary "Create and Evaluate Probability Distributions") ([`v0.1.0`](https://github.com/probaverse/distionary/releases/tag/v0.1.0)), [DataPackageR](https://docs.ropensci.org/DataPackageR "Construct Reproducible Analytic Data Sets as R Packages") ([`v0.16.2`](https://github.com/ropensci/DataPackageR/releases/tag/v0.16.2)), [hdcuremodels](https://docs.ropensci.org/hdcuremodels "High-Dimensional Cure Models") ([`hdcuremodels_0.0.6`](https://github.com/ropensci/hdcuremodels/releases/tag/hdcuremodels_0.0.6)), [nodbi](https://docs.ropensci.org/nodbi "NoSQL Database Connector") ([`v0.14.0`](https://github.com/ropensci/nodbi/releases/tag/v0.14.0)), and [vcr](https://docs.ropensci.org/vcr "Record HTTP Calls to Disk") ([`v2.0.0`](https://github.com/ropensci/vcr/releases/tag/v2.0.0)).
+
+## Software Peer Review
+
+<div class="highlight">
+
+There are fourteen recently closed and active submissions and 3 submissions on hold. Issues are at different stages:
+
+-   Three at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%225/awaiting-reviewer(s)-response%22):
+
+    -   [mantis](https://github.com/ropensci/software-review/issues/710), Multiple Time Series Scanner. Submitted by [Phuong Quan](https://github.com/phuongquan).
+
+    -   [pkgmatch](https://github.com/ropensci/software-review/issues/671), Find R Packages Matching Either Descriptions or Other R Packages. Submitted by [mark padgham](https://mpadge.github.io).
+
+    -   [read.abares](https://github.com/ropensci/software-review/issues/667), Provides simple downloading, parsing and importing of Australian Bureau of Agricultural and Resource Economics and Sciences (ABARES) data sources. Submitted by [Adam H. Sparks](https://adamhsparks.netlify.app/).
+
+-   Two at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%224/review(s)-in-awaiting-changes%22):
+
+    -   [openFDA](https://github.com/ropensci/software-review/issues/714), openFDA API. Submitted by [Simon Parker](https://github.com/simpar1471).
+
+    -   [galamm](https://github.com/ropensci/software-review/issues/615), Generalized Additive Latent and Mixed Models. Submitted by [Øystein Sørensen](https://osorensen.github.io/). (Stats).
+
+-   Four at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%223/reviewer(s)-assigned%22):
+
+    -   [ernest](https://github.com/ropensci/software-review/issues/730), A Toolkit for Nested Sampling. Submitted by [Kyle Dewsnap](https://github.com/kylesnap). (Stats).
+
+    -   [cowfootR](https://github.com/ropensci/software-review/issues/724), Tools to Estimate the Carbon Footprint of Dairy Farms. Submitted by [Juan Moreno](https://github.com/juanmarcosmoreno-arch).
+
+    -   [rcrisp](https://github.com/ropensci/software-review/issues/718), Automate the Delineation of Urban River Spaces. Submitted by [Claudiu Forgaci](https://github.com/cforgaci). (Stats).
+
+    -   [reviser](https://github.com/ropensci/software-review/issues/709), Tools for Studying Revision Properties in Real-Time Time Series Vintages. Submitted by [Marc Burri](https://marcburri.github.io/).
+
+-   Five at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%221/editor-checks%22):
+
+    -   [suwo](https://github.com/ropensci/software-review/issues/729), Access Nature Media Repositories Through R. Submitted by [Marcelo Araya-Salas](https://marce10.github.io/).
+
+    -   [Athlytics](https://github.com/ropensci/software-review/issues/728), Academic R Package for Sports Physiology Analysis from Local Strava Data. Submitted by [Ang](https://github.com/HzaCode).
+
+    -   [coevolve](https://github.com/ropensci/software-review/issues/717), Fit Bayesian Generalized Dynamic Phylogenetic Models using Stan. Submitted by [Scott Claessens](https://scottclaessens.github.io/). (Stats).
+
+    -   [priorsense](https://github.com/ropensci/software-review/issues/704), Prior Diagnostics and Sensitivity Analysis. Submitted by [Noa Kallioinen](https://github.com/n-kall). (Stats).
+
+    -   [capybara](https://github.com/ropensci/software-review/issues/645), Fast and Memory Efficient Fitting of Linear Models With High-Dimensional. Submitted by [Mauricio "Pachá" Vargas Sepúlveda](https://pacha.dev).
+
+        </div>
+
+Find out more about [Software Peer Review](/software-review) and how to get involved.
+
+## On the blog
+
+<!-- Do not forget to rebase your branch! -->
+
+<div class="highlight">
+
+</div>
+
+<div class="highlight">
+
+</div>
+
+## Calls for contributions
+
+### Calls for maintainers
+
+If you're interested in maintaining any of the R packages below, you might enjoy reading our blog post [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/).
+
+[photosearcher](https://docs.ropensci.org/photosearcher), searches Flickr for photographs and metadata. [Issue for volunteering](https://github.com/ropensci/photosearcher/issues/22).
+
+### Calls for contributions
+
+Refer to our [help wanted page](/help-wanted/) -- before opening a PR, we recommend asking in the issue whether help is still needed.
+
+## Package development corner
+
+Some useful tips for R package developers. :eyes:
+
+### An Advent Calendar about Package Development
+
+[Athanasia Monika Mowinckel](https://drmowinckels.io/) has been curating an Advent Calendar about R Package Development! Follow her on [Blueksy](https://bsky.app/profile/drmowinckels.io/post/3m6tnwu2bfv27), [Mastodon](https://fosstodon.org/@Drmowinckels/115638077367401410), [LinkedIn](https://www.linkedin.com/in/drmowinckels/).
+
+### A new operator in base R: notin
+
+Coming soon, a [new operator](https://developer.r-project.org/blosxom.cgi/R-devel/NEWS/2025/12/05)!
+
+> 'x %notin% table' newly in 'base' is an idiom for '!(x %in% table)' and provided almost entirely for convenience and code readability, from an R-devel suggestion, after many years of private definitions mostly hidden in packages, including in R's 'tools' package.
+
+### New version of the jarl CLI
+
+Etienne Bacher released a new version of jarl, the CLI for linting R code. See the [changelog](https://jarl.etiennebacher.com/changelog#section), including rules specific to testthat such as [`expect_length`](https://jarl.etiennebacher.com/rules/expect_length), to help you keep up with new testthat expectations.
+
+### A safer `.gitignore` thanks to `usethis::git_vaccinate()`
+
+The [`usethis::git_vaccinate()`](https://usethis.r-lib.org/reference/git_vaccinate.html) will vaccinate your global `.gitignore` file, making sure you for instance no longer commit those pesky `.DS_Store` files, or your `.Rhistory`. Tell your friends about it!
+
+## Last words
+
+Thanks for reading! If you want to get involved with rOpenSci, check out our [Contributing Guide](https://contributing.ropensci.org) that can help direct you to the right place, whether you want to make code contributions, non-code contributions, or contribute in other ways like sharing use cases. You can also support our work through [donations](/donate).
+
+If you haven't subscribed to our newsletter yet, you can [do so via a form](/news/). Until it's time for our next newsletter, you can keep in touch with us via our [website](/) and [Mastodon account](https://hachyderm.io/@rOpenSci).
+
+</div>
+
