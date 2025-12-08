@@ -13,7 +13,7 @@ tags:
   - tech notes
 params:
   doi: "10.59350/98899-51c03"
-rmd_hash: a6c91cb9dfc8b6fb
+rmd_hash: ed0fbe5c2e3ab302
 
 ---
 
@@ -143,6 +143,8 @@ jarl check test.R --fix
 
 </div>
 
+`any(is.na(x))` was automatically replaced with `anyNA(x)`!
+
 The jarl CLI is as fast as Air is for styling. Furthermore, because it is a simple binary that does not need R to run, it's quicker to install on continuous integration.
 
 Nevertheless, since jarl is newer than lintr, it supports fewer rules for now.
@@ -205,9 +207,9 @@ The tools we used are:
 
 ## How to use those tools
 
-You could use those tools locally on your machine from time to time. For instance, when inheriting an older project, I will first renovate it using them. Locally, a real game changer is using the integration of your IDE with the tools. For instance, I have Positron set up so that Air is run on my scripts when I save them. The jarl CLI also provides [integrations with editors](https://jarl.etiennebacher.com/editors).
+You could use those tools locally on your machine from time to time. For instance, when inheriting an older project, I will first renovate it using them. Locally, a real game changer is using the integration of your IDE with the tools. For instance, I have Positron set up so that [Air](https://posit-dev.github.io/air/editors.html) is run on my scripts when I save them. The jarl CLI also provides [integrations with editors](https://jarl.etiennebacher.com/editors).
 
-You could also use those tools on continuous integration. For instance, a workflow might suggest formatting changes in Pull Requests. The use of suggestions rather than a direct commit means the contributor get a chance to learn about the improvements.
+You could also use those tools on continuous integration. For instance, a workflow might [suggest formatting changes in Pull Requests](https://posit-dev.github.io/air/integration-github-actions.html#format-with-github-suggestions). The use of suggestions rather than a direct commit means the contributor get a chance to learn about the improvements.
 
 Whether to ask flir and jarl to do changes as opposed to *alerting* you about them depends on the context. You might learn more by doing the changes yourself. In any case, having a proper look at modifications before committing them is crucial!
 
