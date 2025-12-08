@@ -43,7 +43,7 @@
               <div class="category-cards">
                 {{ $pkgcitations := $citations }}
                 {{ if eq .Params.slug "all" }}
-                {{ $Scratch.Set "pkgs" (sort $registry.packages "date_last_commit" "desc" ) }}
+                {{ $Scratch.Set "pkgs" (sort $registry.packages "_published" "desc" ) }}
                 {{ else }}
                 {{ $Scratch.Set "pkgs" (sort ( where ($registry.packages) "ropensci_category" .Params.slug ) "date_last_commit" "desc" ) }}
                 {{ end }}
