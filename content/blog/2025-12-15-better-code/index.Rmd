@@ -130,12 +130,15 @@ message: Use `rlang::abort()` instead of `stop()`.
 ```
 We then run
 
-```{r, echo=TRUE,eval=FALSE}
-flir::fix("test.R", linters = "stop_abort")
+```{r, echo=TRUE,eval=TRUE}
+flir::fix("test.R", linters = "flir/rules/custom/stop_abort.yml")
 ```
 
 ```{r, file="test.R", eval=FALSE, echo=TRUE}
 ```
+
+The call to `stop()` was automatically replaced.
+Now, we might want to then manually remove the useless `paste0()`, but we're already closer to an ideal script.
 
 ```{r}
 #| echo: false

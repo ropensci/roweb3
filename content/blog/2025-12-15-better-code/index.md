@@ -13,7 +13,7 @@ tags:
   - tech notes
 params:
   doi: "10.59350/98899-51c03"
-rmd_hash: ed02018628e5a7aa
+rmd_hash: 8238f59d875a036e
 
 ---
 
@@ -175,7 +175,10 @@ We then run
 
 <div class="highlight">
 
-<pre class='chroma'><code class='language-r' data-lang='r'><span><span class='nf'>flir</span><span class='nf'>::</span><span class='nf'><a href='https://flir.etiennebacher.com/reference/fix.html'>fix</a></span><span class='o'>(</span><span class='s'>"test.R"</span>, linters <span class='o'>=</span> <span class='s'>"stop_abort"</span><span class='o'>)</span></span></code></pre>
+<pre class='chroma'><code class='language-r' data-lang='r'><span><span class='nf'>flir</span><span class='nf'>::</span><span class='nf'><a href='https://flir.etiennebacher.com/reference/fix.html'>fix</a></span><span class='o'>(</span><span class='s'>"test.R"</span>, linters <span class='o'>=</span> <span class='s'>"flir/rules/custom/stop_abort.yml"</span><span class='o'>)</span></span>
+<span><span class='c'>#&gt; <span style='color: #00BBBB;'>ℹ</span> Going to check 1 file.</span></span>
+<span></span><span><span class='c'>#&gt; <span style='color: #00BB00;'>✔</span> Fixed 1 lint in 1 file.</span></span>
+<span></span></code></pre>
 
 </div>
 
@@ -187,10 +190,12 @@ We then run
 <span>  <span class='nv'>z</span> <span class='o'>&lt;-</span> <span class='nv'>x</span> <span class='o'>+</span> <span class='m'>1</span></span>
 <span><span class='o'>&#125;</span></span>
 <span><span class='kr'>if</span> <span class='o'>(</span><span class='nv'>z</span> <span class='o'>&gt;</span> <span class='m'>3</span><span class='o'>)</span> <span class='o'>&#123;</span></span>
-<span>  <span class='kr'><a href='https://rdrr.io/r/base/stop.html'>stop</a></span><span class='o'>(</span><span class='s'>"ouch"</span><span class='o'>)</span></span>
+<span>  <span class='nf'>rlang</span><span class='nf'>::</span><span class='nf'><a href='https://rlang.r-lib.org/reference/abort.html'>abort</a></span><span class='o'>(</span><span class='nf'><a href='https://rdrr.io/r/base/paste.html'>paste0</a></span><span class='o'>(</span><span class='s'>"ouch"</span><span class='o'>)</span><span class='o'>)</span></span>
 <span><span class='o'>&#125;</span></span></code></pre>
 
 </div>
+
+The call to [`stop()`](https://rdrr.io/r/base/stop.html) was automatically replaced. Now, we might want to then manually remove the useless [`paste0()`](https://rdrr.io/r/base/paste.html), but we're already closer to an ideal script.
 
 <div class="highlight">
 
