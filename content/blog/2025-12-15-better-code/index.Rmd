@@ -19,8 +19,8 @@ We are experiencing a programming revolution, with the democratization of artifi
 But also with the creation and improvement of more old-school tools to improve your code: local, free, deterministic. 
 In this post, we will introduce you to Air, a tool for formatting R code automatically and almost instantly; 
 lintr, an R package that detects more and more reasons to improve your code; 
-flir, an R package that not only detects some of lintr's checks faster, but also repairs them automatically, and like lintr lets you set your own preferences;
-jarl, a CLI that is a linter.
+jarl, a fast CLI tool to find and automatically fix lints;
+flir, an R package to efficiently rewrite patterns of code, either built-in ones or custom ones.
 With these four wonderful tools, you can effortlessly improve your code, your colleagues' code... and even code proposed by AI.
 With a bit more effort, you might even internalize best practice and write better code from the get go in the future!
 
