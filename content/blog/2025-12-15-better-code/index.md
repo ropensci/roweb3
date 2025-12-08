@@ -13,7 +13,7 @@ tags:
   - tech notes
 params:
   doi: "10.59350/98899-51c03"
-rmd_hash: 1b66f37804fc5423
+rmd_hash: a6c91cb9dfc8b6fb
 
 ---
 
@@ -32,7 +32,7 @@ Let's start with a script containing a few problems... Can you spot them?
 <pre class='chroma'><code class='language-r' data-lang='r'><span><span class='nv'>lleno</span> <span class='o'>&lt;-</span><span class='o'>!</span><span class='nf'><a href='https://rdrr.io/r/base/any.html'>any</a></span><span class='o'>(</span><span class='nf'><a href='https://rdrr.io/r/base/NA.html'>is.na</a></span><span class='o'>(</span><span class='nv'>x</span><span class='o'>)</span><span class='o'>)</span></span>
 <span><span class='nv'>ok</span><span class='o'>&lt;-</span> <span class='o'>!</span><span class='o'>(</span><span class='nv'>x</span><span class='o'>[</span><span class='m'>1</span><span class='o'>]</span> <span class='o'>==</span> <span class='nv'>y</span><span class='o'>[</span><span class='m'>1</span><span class='o'>]</span><span class='o'>)</span></span>
 <span><span class='kr'>if</span> <span class='o'>(</span><span class='nv'>ok</span><span class='o'>)</span> <span class='nv'>z</span><span class='o'>&lt;-</span> <span class='nv'>x</span> <span class='o'>+</span>  <span class='m'>1</span></span>
-<span><span class='kr'>if</span> <span class='o'>(</span><span class='nv'>z</span><span class='o'>&gt;</span><span class='m'>3</span><span class='o'>)</span> <span class='kr'><a href='https://rdrr.io/r/base/stop.html'>stop</a></span><span class='o'>(</span><span class='s'>'ouch'</span><span class='o'>)</span></span></code></pre>
+<span><span class='kr'>if</span> <span class='o'>(</span><span class='nv'>z</span><span class='o'>&gt;</span><span class='m'>3</span><span class='o'>)</span> <span class='kr'><a href='https://rdrr.io/r/base/stop.html'>stop</a></span><span class='o'>(</span><span class='s'>"ouch"</span><span class='o'>)</span></span></code></pre>
 
 </div>
 
@@ -68,17 +68,14 @@ A first instinct might be to run the lintr package on the script. The `lint()` f
 <span><span class='c'>#&gt; if (ok) z&lt;- x +  1</span></span>
 <span><span class='c'>#&gt;                  ~^</span></span>
 <span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>/home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R:4:6</span></a><span style='font-weight: bold;'>: </span><span style='color: #0000BB;'>style: </span>[infix_spaces_linter] <span style='font-weight: bold;'>Put spaces around all infix operators.</span></span></span>
-<span><span class='c'>#&gt; if (z&gt;3) stop('ouch')</span></span>
+<span><span class='c'>#&gt; if (z&gt;3) stop("ouch")</span></span>
 <span><span class='c'>#&gt;      ^</span></span>
 <span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>/home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R:4:8</span></a><span style='font-weight: bold;'>: </span><span style='color: #0000BB;'>style: </span>[implicit_integer_linter] <span style='font-weight: bold;'>Use 3L or 3.0 to avoid implicit integers.</span></span></span>
-<span><span class='c'>#&gt; if (z&gt;3) stop('ouch')</span></span>
+<span><span class='c'>#&gt; if (z&gt;3) stop("ouch")</span></span>
 <span><span class='c'>#&gt;       ~^</span></span>
 <span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>/home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R:4:10</span></a><span style='font-weight: bold;'>: </span><span style='color: #BB00BB;'>warning: </span>[condition_call_linter] <span style='font-weight: bold;'>Use stop(., call. = FALSE) not to display the call in an error message.</span></span></span>
-<span><span class='c'>#&gt; if (z&gt;3) stop('ouch')</span></span>
+<span><span class='c'>#&gt; if (z&gt;3) stop("ouch")</span></span>
 <span><span class='c'>#&gt;          ^~~~~~~~~~~~</span></span>
-<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>/home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R:4:15</span></a><span style='font-weight: bold;'>: </span><span style='color: #0000BB;'>style: </span>[quotes_linter] <span style='font-weight: bold;'>Only use double-quotes.</span></span></span>
-<span><span class='c'>#&gt; if (z&gt;3) stop('ouch')</span></span>
-<span><span class='c'>#&gt;               ^~~~~~</span></span>
 <span></span></code></pre>
 
 </div>
@@ -112,7 +109,7 @@ air format test.R
 <span>  <span class='nv'>z</span> <span class='o'>&lt;-</span> <span class='nv'>x</span> <span class='o'>+</span> <span class='m'>1</span></span>
 <span><span class='o'>&#125;</span></span>
 <span><span class='kr'>if</span> <span class='o'>(</span><span class='nv'>z</span> <span class='o'>&gt;</span> <span class='m'>3</span><span class='o'>)</span> <span class='o'>&#123;</span></span>
-<span>  <span class='kr'><a href='https://rdrr.io/r/base/stop.html'>stop</a></span><span class='o'>(</span><span class='s'>'ouch'</span><span class='o'>)</span></span>
+<span>  <span class='kr'><a href='https://rdrr.io/r/base/stop.html'>stop</a></span><span class='o'>(</span><span class='s'>"ouch"</span><span class='o'>)</span></span>
 <span><span class='o'>&#125;</span></span></code></pre>
 
 </div>
@@ -141,7 +138,7 @@ jarl check test.R --fix
 <span>  <span class='nv'>z</span> <span class='o'>&lt;-</span> <span class='nv'>x</span> <span class='o'>+</span> <span class='m'>1</span></span>
 <span><span class='o'>&#125;</span></span>
 <span><span class='kr'>if</span> <span class='o'>(</span><span class='nv'>z</span> <span class='o'>&gt;</span> <span class='m'>3</span><span class='o'>)</span> <span class='o'>&#123;</span></span>
-<span>  <span class='kr'><a href='https://rdrr.io/r/base/stop.html'>stop</a></span><span class='o'>(</span><span class='s'>'ouch'</span><span class='o'>)</span></span>
+<span>  <span class='kr'><a href='https://rdrr.io/r/base/stop.html'>stop</a></span><span class='o'>(</span><span class='s'>"ouch"</span><span class='o'>)</span></span>
 <span><span class='o'>&#125;</span></span></code></pre>
 
 </div>
@@ -188,7 +185,7 @@ We then run
 <span>  <span class='nv'>z</span> <span class='o'>&lt;-</span> <span class='nv'>x</span> <span class='o'>+</span> <span class='m'>1</span></span>
 <span><span class='o'>&#125;</span></span>
 <span><span class='kr'>if</span> <span class='o'>(</span><span class='nv'>z</span> <span class='o'>&gt;</span> <span class='m'>3</span><span class='o'>)</span> <span class='o'>&#123;</span></span>
-<span>  <span class='kr'><a href='https://rdrr.io/r/base/stop.html'>stop</a></span><span class='o'>(</span><span class='s'>'ouch'</span><span class='o'>)</span></span>
+<span>  <span class='kr'><a href='https://rdrr.io/r/base/stop.html'>stop</a></span><span class='o'>(</span><span class='s'>"ouch"</span><span class='o'>)</span></span>
 <span><span class='o'>&#125;</span></span></code></pre>
 
 </div>
