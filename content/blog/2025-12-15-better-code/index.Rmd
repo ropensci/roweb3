@@ -123,7 +123,7 @@ a <- file.remove("test2.R")
 Since lintr has been around for a longer time, it has an impressive collection of rules, the "linters".
 Even reading their documentation can teach you a lot, especially as the [list](https://lintr.r-lib.org/reference/index.html#individual-linters) grows over time!
 
-Note that linter has some rules related to styling, that you might want to deactivate if you're using Air.
+Note that lintr has some rules related to styling that you might want to deactivate if you're using Air.
 
 ## Tooling
 
