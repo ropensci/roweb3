@@ -13,11 +13,11 @@ tags:
   - tech notes
 params:
   doi: "10.59350/98899-51c03"
-rmd_hash: ed0fbe5c2e3ab302
+rmd_hash: ed02018628e5a7aa
 
 ---
 
-We are experiencing a programming revolution, with the democratization of artificial intelligence... But also with the creation and improvement of more old-school tools to improve your code: local, free, deterministic. In this post, we will introduce you to Air, a tool for formatting R code automatically and almost instantly; lintr, an R package that detects more and more reasons to improve your code; jarl, a fast CLI tool to find and automatically fix lints; flir, an R package to efficiently rewrite patterns of code, either built-in ones or custom ones. With these four wonderful tools, you can effortlessly improve your code, your colleagues' code... and even code proposed by AI. With a bit more effort, you might even internalize best practice and write better code from the get go in the future!
+We are experiencing a programming revolution, with the democratization of artificial intelligence... But also with the creation and improvement of more old-school tools to improve your code: local, free, deterministic. In this post, we will introduce you to lintr, an R package that detects more and more reasons to improve your code; Air, a tool for formatting R code automatically and almost instantly; jarl, a fast CLI tool to find and automatically fix lints; flir, an R package to efficiently rewrite patterns of code, either built-in ones or custom ones. With these four wonderful tools, you can effortlessly improve your code, your colleagues' code... and even code proposed by AI. With a bit more effort, you might even internalize best practice and write better code from the get go in the future!
 
 <div class="highlight">
 
@@ -200,10 +200,10 @@ We then run
 
 The tools we used are:
 
--   :computer:\$ [Air](https://posit-dev.github.io/air/): CLI to format code, by Lionel Henry and Davis Vaughan.
--   :package: [{flir}](https://flir.etiennebacher.com/): R package to fix code patterns, by Etienne Bacher.
--   :computer:\$ [jarl](https://jarl.etiennebacher.com/): CLI to fix code patterns, by Etienne Bacher.
 -   :package: [{lintr}](https://lintr.r-lib.org/): R package to get informed of even more code patterns, by [Michael Chirico and many others](https://lintr.r-lib.org/authors.html).
+-   :computer:\$ [Air](https://posit-dev.github.io/air/): CLI to format code, by Lionel Henry and Davis Vaughan.
+-   :computer:\$ [jarl](https://jarl.etiennebacher.com/): CLI to fix code patterns, by Etienne Bacher.
+-   :package: [{flir}](https://flir.etiennebacher.com/): R package to fix code patterns, by Etienne Bacher.
 
 ## How to use those tools
 
@@ -231,13 +231,13 @@ Furthermore, for such alerts and fixes, you don't need to use an LLM... Air, fli
 
 You can improve your code without effort, without even AI, using:
 
--   Air, to efficiently reformat code;
+-   {lintr} to get "bad" patterns, including custom ones, flagged;
 
--   {flir}, to efficiently refactor code;
+-   Air, to efficiently reformat code;
 
 -   jarl, to fix "bad" practice;
 
--   {lintr} to get "bad" patterns, including custom ones, flagged.
+-   {flir}, to efficiently refactor code.
 
 The usage of those tools is best complemented by review by humans.
 
