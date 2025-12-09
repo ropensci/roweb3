@@ -111,7 +111,7 @@ a <- system2("jarl", c("check", "test.R", "--fix", "--allow-dirty"))
 
 `any(is.na(x))` was automatically replaced with `anyNA(x)`!
 
-The jarl CLI is as fast as Air is for styling.
+The jarl CLI is as fast for checking and fixing lints as Air is for styling.
 Furthermore, because it is a simple binary that does not need R to run, it's quicker to install on continuous integration.
 
 Nevertheless, since jarl is newer than lintr, it supports fewer rules for now.
