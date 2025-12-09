@@ -17,11 +17,14 @@ params:
 
 We are experiencing a programming revolution, with the democratization of artificial intelligence... 
 But also with the creation and improvement of more old-school tools to improve your code: local, free, deterministic. 
+
 In this post, we will introduce you to 
-lintr, an R package that detects more and more reasons to improve your code; 
-Air, a tool for formatting R code automatically and almost instantly; 
-jarl, a fast CLI tool to find and automatically fix lints;
-flir, an R package to efficiently rewrite patterns of code, either built-in ones or custom ones.
+
+- [lintr](https://lintr.r-lib.org/), an R package that detects many ways to improve your code; 
+- [Air](https://posit-dev.github.io/air/), a tool for formatting R code automatically and almost instantly; 
+- [jarl](https://jarl.etiennebacher.com/), a fast CLI tool to find and automatically fix lints;
+- [flir](https://flir.etiennebacher.com/), an R package to efficiently rewrite patterns of code, either built-in ones or custom ones.
+
 With these four wonderful tools, you can effortlessly improve your code, your colleagues' code... and even code proposed by AI.
 With a bit more effort, you might even internalize best practice and write better code from the get go in the future!
 
@@ -43,13 +46,20 @@ Can you spot them?
 ```{r, file="test.R", eval=FALSE, echo=TRUE}
 ```
 
+### The R console vs the terminal
+
+Note that in this post, some tools are used in the R console, but others are used in the terminal, that you might also know as command line or [shell](https://12days.cmdchallenge.com/#/12days_2).
+
 ### Learn what to improve with {lintr} :package:
 
 A first instinct might be to run the lintr package on the script.
 The `lint()` function performs static analysis.
 
-```{r, echo=TRUE}
+```{r, echo=TRUE,eval=FALSE}
 lintr::lint("test.R", linters = lintr::all_linters())
+```
+```{r, echo=FALSE,eval=TRUE}
+lintr::lint_dir(pattern = "(?i)[.]r", linters = lintr::all_linters())
 ```
 
 We therefore get alerts about

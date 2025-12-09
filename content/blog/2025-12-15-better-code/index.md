@@ -13,11 +13,20 @@ tags:
   - tech notes
 params:
   doi: "10.59350/98899-51c03"
-rmd_hash: 8238f59d875a036e
+rmd_hash: 2866435ee209e23b
 
 ---
 
-We are experiencing a programming revolution, with the democratization of artificial intelligence... But also with the creation and improvement of more old-school tools to improve your code: local, free, deterministic. In this post, we will introduce you to lintr, an R package that detects more and more reasons to improve your code; Air, a tool for formatting R code automatically and almost instantly; jarl, a fast CLI tool to find and automatically fix lints; flir, an R package to efficiently rewrite patterns of code, either built-in ones or custom ones. With these four wonderful tools, you can effortlessly improve your code, your colleagues' code... and even code proposed by AI. With a bit more effort, you might even internalize best practice and write better code from the get go in the future!
+We are experiencing a programming revolution, with the democratization of artificial intelligence... But also with the creation and improvement of more old-school tools to improve your code: local, free, deterministic.
+
+In this post, we will introduce you to
+
+-   [lintr](https://lintr.r-lib.org/), an R package that detects many ways to improve your code;
+-   [Air](https://posit-dev.github.io/air/), a tool for formatting R code automatically and almost instantly;
+-   [jarl](https://jarl.etiennebacher.com/), a fast CLI tool to find and automatically fix lints;
+-   [flir](https://flir.etiennebacher.com/), an R package to efficiently rewrite patterns of code, either built-in ones or custom ones.
+
+With these four wonderful tools, you can effortlessly improve your code, your colleagues' code... and even code proposed by AI. With a bit more effort, you might even internalize best practice and write better code from the get go in the future!
 
 <div class="highlight">
 
@@ -36,44 +45,56 @@ Let's start with a script containing a few problems... Can you spot them?
 
 </div>
 
+### The R console vs the terminal
+
+Note that in this post, some tools are used in the R console, but others are used in the terminal, that you might also know as command line or [shell](https://12days.cmdchallenge.com/#/12days_2).
+
 ### Learn what to improve with {lintr} :package:
 
 A first instinct might be to run the lintr package on the script. The `lint()` function performs static analysis.
 
 <div class="highlight">
 
-<pre class='chroma'><code class='language-r' data-lang='r'><span><span class='nf'>lintr</span><span class='nf'>::</span><span class='nf'><a href='https://lintr.r-lib.org/reference/lint.html'>lint</a></span><span class='o'>(</span><span class='s'>"test.R"</span>, linters <span class='o'>=</span> <span class='nf'>lintr</span><span class='nf'>::</span><span class='nf'><a href='https://lintr.r-lib.org/reference/all_linters.html'>all_linters</a></span><span class='o'>(</span><span class='o'>)</span><span class='o'>)</span></span>
-<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>/home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R:1:7</span></a><span style='font-weight: bold;'>: </span><span style='color: #0000BB;'>style: </span>[infix_spaces_linter] <span style='font-weight: bold;'>Put spaces around all infix operators.</span></span></span>
+<pre class='chroma'><code class='language-r' data-lang='r'><span><span class='nf'>lintr</span><span class='nf'>::</span><span class='nf'><a href='https://lintr.r-lib.org/reference/lint.html'>lint</a></span><span class='o'>(</span><span class='s'>"test.R"</span>, linters <span class='o'>=</span> <span class='nf'>lintr</span><span class='nf'>::</span><span class='nf'><a href='https://lintr.r-lib.org/reference/all_linters.html'>all_linters</a></span><span class='o'>(</span><span class='o'>)</span><span class='o'>)</span></span></code></pre>
+
+</div>
+
+<div class="highlight">
+
+<pre class='chroma'><code class='language-r' data-lang='r'><span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/index.Rmd'><span style='color: #0000BB; font-weight: bold;'>index.Rmd:144:32</span></a><span style='font-weight: bold;'>: </span><span style='color: #BB00BB;'>warning: </span>[nonportable_path_linter] <span style='font-weight: bold;'>Use file.path() to construct portable file paths.</span></span></span>
+<span><span class='c'>#&gt; flir::fix("test.R", linters = "flir/rules/custom/stop_abort.yml")</span></span>
+<span><span class='c'>#&gt;                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</span></span>
+<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>test.R:1:7</span></a><span style='font-weight: bold;'>: </span><span style='color: #0000BB;'>style: </span>[infix_spaces_linter] <span style='font-weight: bold;'>Put spaces around all infix operators.</span></span></span>
 <span><span class='c'>#&gt; lleno &lt;-!any(is.na(x))</span></span>
 <span><span class='c'>#&gt;       ^~</span></span>
-<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>/home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R:1:10</span></a><span style='font-weight: bold;'>: </span><span style='color: #BB00BB;'>warning: </span>[any_is_na_linter] <span style='font-weight: bold;'>anyNA(x) is better than any(is.na(x)).</span></span></span>
+<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>test.R:1:10</span></a><span style='font-weight: bold;'>: </span><span style='color: #BB00BB;'>warning: </span>[any_is_na_linter] <span style='font-weight: bold;'>anyNA(x) is better than any(is.na(x)).</span></span></span>
 <span><span class='c'>#&gt; lleno &lt;-!any(is.na(x))</span></span>
 <span><span class='c'>#&gt;          ^~~~~~~~~~~~~</span></span>
-<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>/home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R:2:3</span></a><span style='font-weight: bold;'>: </span><span style='color: #0000BB;'>style: </span>[infix_spaces_linter] <span style='font-weight: bold;'>Put spaces around all infix operators.</span></span></span>
+<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>test.R:2:3</span></a><span style='font-weight: bold;'>: </span><span style='color: #0000BB;'>style: </span>[infix_spaces_linter] <span style='font-weight: bold;'>Put spaces around all infix operators.</span></span></span>
 <span><span class='c'>#&gt; ok&lt;- !(x[1] == y[1])</span></span>
 <span><span class='c'>#&gt;   ^~</span></span>
-<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>/home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R:2:6</span></a><span style='font-weight: bold;'>: </span><span style='color: #BB00BB;'>warning: </span>[comparison_negation_linter] <span style='font-weight: bold;'>Use x != y, not !(x == y).</span></span></span>
+<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>test.R:2:6</span></a><span style='font-weight: bold;'>: </span><span style='color: #BB00BB;'>warning: </span>[comparison_negation_linter] <span style='font-weight: bold;'>Use x != y, not !(x == y).</span></span></span>
 <span><span class='c'>#&gt; ok&lt;- !(x[1] == y[1])</span></span>
 <span><span class='c'>#&gt;      ^~~~~~~~~~~~~~~</span></span>
-<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>/home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R:2:11</span></a><span style='font-weight: bold;'>: </span><span style='color: #0000BB;'>style: </span>[implicit_integer_linter] <span style='font-weight: bold;'>Use 1L or 1.0 to avoid implicit integers.</span></span></span>
+<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>test.R:2:11</span></a><span style='font-weight: bold;'>: </span><span style='color: #0000BB;'>style: </span>[implicit_integer_linter] <span style='font-weight: bold;'>Use 1L or 1.0 to avoid implicit integers.</span></span></span>
 <span><span class='c'>#&gt; ok&lt;- !(x[1] == y[1])</span></span>
 <span><span class='c'>#&gt;          ~^</span></span>
-<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>/home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R:2:19</span></a><span style='font-weight: bold;'>: </span><span style='color: #0000BB;'>style: </span>[implicit_integer_linter] <span style='font-weight: bold;'>Use 1L or 1.0 to avoid implicit integers.</span></span></span>
+<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>test.R:2:19</span></a><span style='font-weight: bold;'>: </span><span style='color: #0000BB;'>style: </span>[implicit_integer_linter] <span style='font-weight: bold;'>Use 1L or 1.0 to avoid implicit integers.</span></span></span>
 <span><span class='c'>#&gt; ok&lt;- !(x[1] == y[1])</span></span>
 <span><span class='c'>#&gt;                  ~^</span></span>
-<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>/home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R:3:10</span></a><span style='font-weight: bold;'>: </span><span style='color: #0000BB;'>style: </span>[infix_spaces_linter] <span style='font-weight: bold;'>Put spaces around all infix operators.</span></span></span>
+<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>test.R:3:10</span></a><span style='font-weight: bold;'>: </span><span style='color: #0000BB;'>style: </span>[infix_spaces_linter] <span style='font-weight: bold;'>Put spaces around all infix operators.</span></span></span>
 <span><span class='c'>#&gt; if (ok) z&lt;- x +  1</span></span>
 <span><span class='c'>#&gt;          ^~</span></span>
-<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>/home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R:3:19</span></a><span style='font-weight: bold;'>: </span><span style='color: #0000BB;'>style: </span>[implicit_integer_linter] <span style='font-weight: bold;'>Use 1L or 1.0 to avoid implicit integers.</span></span></span>
+<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>test.R:3:19</span></a><span style='font-weight: bold;'>: </span><span style='color: #0000BB;'>style: </span>[implicit_integer_linter] <span style='font-weight: bold;'>Use 1L or 1.0 to avoid implicit integers.</span></span></span>
 <span><span class='c'>#&gt; if (ok) z&lt;- x +  1</span></span>
 <span><span class='c'>#&gt;                  ~^</span></span>
-<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>/home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R:4:6</span></a><span style='font-weight: bold;'>: </span><span style='color: #0000BB;'>style: </span>[infix_spaces_linter] <span style='font-weight: bold;'>Put spaces around all infix operators.</span></span></span>
+<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>test.R:4:6</span></a><span style='font-weight: bold;'>: </span><span style='color: #0000BB;'>style: </span>[infix_spaces_linter] <span style='font-weight: bold;'>Put spaces around all infix operators.</span></span></span>
 <span><span class='c'>#&gt; if (z&gt;3) stop("ouch")</span></span>
 <span><span class='c'>#&gt;      ^</span></span>
-<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>/home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R:4:8</span></a><span style='font-weight: bold;'>: </span><span style='color: #0000BB;'>style: </span>[implicit_integer_linter] <span style='font-weight: bold;'>Use 3L or 3.0 to avoid implicit integers.</span></span></span>
+<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>test.R:4:8</span></a><span style='font-weight: bold;'>: </span><span style='color: #0000BB;'>style: </span>[implicit_integer_linter] <span style='font-weight: bold;'>Use 3L or 3.0 to avoid implicit integers.</span></span></span>
 <span><span class='c'>#&gt; if (z&gt;3) stop("ouch")</span></span>
 <span><span class='c'>#&gt;       ~^</span></span>
-<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>/home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R:4:10</span></a><span style='font-weight: bold;'>: </span><span style='color: #BB00BB;'>warning: </span>[condition_call_linter] <span style='font-weight: bold;'>Use stop(., call. = FALSE) not to display the call in an error message.</span></span></span>
+<span><span class='c'>#&gt; <a href='file:///home/maelle/Documents/ropensci/WEBSITE/roweb3/content/blog/2025-12-15-better-code/test.R'><span style='color: #0000BB; font-weight: bold;'>test.R:4:10</span></a><span style='font-weight: bold;'>: </span><span style='color: #BB00BB;'>warning: </span>[condition_call_linter] <span style='font-weight: bold;'>Use stop(., call. = FALSE) not to display the call in an error message.</span></span></span>
 <span><span class='c'>#&gt; if (z&gt;3) stop("ouch")</span></span>
 <span><span class='c'>#&gt;          ^~~~~~~~~~~~</span></span>
 <span></span></code></pre>
