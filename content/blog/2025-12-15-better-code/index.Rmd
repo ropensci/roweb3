@@ -163,7 +163,7 @@ The tools we used are:
 - :package: [{lintr}](https://lintr.r-lib.org/): R package to get informed of many code patterns, by [Michael Chirico and many others](https://lintr.r-lib.org/authors.html).
 - :computer:$ [Air](https://posit-dev.github.io/air/): CLI to format code, by Lionel Henry and Davis Vaughan.
 - :computer:$ [jarl](https://jarl.etiennebacher.com/): CLI to fix code patterns, by Etienne Bacher.
-- :package: [{flir}](https://flir.etiennebacher.com/): R package to fix code patterns, by Etienne Bacher.
+- :package: [{flir}](https://flir.etiennebacher.com/): R package to fix custom code patterns, by Etienne Bacher.
 
 
 ## How to use those tools
