@@ -201,12 +201,12 @@ Air, flir, jarl, lintr already do an excellent job!
 
 You can improve your code without effort, without even AI, using:
 
-- {lintr} to get "bad" patterns, including custom ones, flagged;
+- {lintr} to signal "bad" patterns, including [customizable ones](https://github.com/r-lib/pkgdown/blob/c07d935583c90125586821e3b39ed52f16593e42/.lintr.R#L1);
 
 - Air, to efficiently reformat code;
 
-- jarl, to fix "bad" practice;
+- jarl, to detect and fix "bad" patterns;
 
-- {flir}, to efficiently refactor code.
+- {flir}, to efficiently refactor code with custom rules.
 
 The usage of those tools is best complemented by review by humans.
