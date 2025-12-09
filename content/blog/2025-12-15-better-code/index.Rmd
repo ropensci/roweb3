@@ -195,7 +195,7 @@ Sure, artificial intelligence can be handy but...
 - Their usage entail some ideological and ethical problems that we won't list here.
 
 Furthermore, for such alerts and fixes, you don't need to use an LLM... 
-Air, flir, jarl, lintr already do an excellent job!
+Air, flir, jarl, and lintr already do an excellent job!
 
 ## Conclusion
 
