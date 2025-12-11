@@ -88,9 +88,7 @@ On GitLab, the equivalent "+" button is on the top left, where "_New project/rep
 
 That will lead to the following options, in which "Import project" should be clicked.
 
-![](gitlab-import.png)
-
-{{< figure src = "gitlab-import.png" alt = "GitLab repository import options." class = "pull-left" caption = "GitLab repository import options.">}}
+{{< figure src = "gitlab-import.png" alt = "GitLab repository import options: Create blank project; Create from template; Import project; Run CI/CD for external repository." class = "pull-left" caption = "GitLab repository import options.">}}
 
 That then leads to a list of platforms from which you can import projects, including code, issues, pull requests, releases, and other information.
 
