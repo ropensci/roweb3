@@ -3,7 +3,7 @@ title: How to Assess Usage of your Package
 author: 
 - Maëlle Salmon
 editor: Steffi LaZerte
-date: '2025-12-08'
+date: '2025-12-11'
 slug: package-usage
 description: Ways to evaluate use of your package, and their downsides.
 output: hugodown::md_document
@@ -13,7 +13,7 @@ tags:
   - r-universe
 params:
   doi: "10.59350/9ff3a-21d94"
-rmd_hash: 015ac2ae55f698eb
+rmd_hash: fcebf3c2b2bd0389
 
 ---
 
@@ -42,10 +42,7 @@ We can count the number of direct (non-recursive) dependencies with [`pkgcache::
 <span>    <span class='o'>)</span><span class='o'>$</span><span class='nv'>package</span></span>
 <span>  <span class='o'>)</span></span>
 <span><span class='o'>)</span><span class='o'>)</span></span>
-<span><span class='c'>#&gt; <span style='color: #00BBBB;'>ℹ</span> Loading metadata database</span></span>
-<span></span><span><span class='c'>#&gt; <span style='color: #00BB00;'>✔</span> Loading metadata database ... done</span></span>
-<span></span><span><span class='c'>#&gt; </span></span>
-<span></span><span><span class='c'>#&gt; [1] 436</span></span>
+<span><span class='c'>#&gt; [1] 436</span></span>
 <span></span></code></pre>
 
 </div>

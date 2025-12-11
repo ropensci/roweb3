@@ -3,7 +3,7 @@ title: How to Assess Usage of your Package
 author: 
 - Maëlle Salmon
 editor: Steffi LaZerte
-date: '2025-12-08'
+date: '2025-12-11'
 slug: package-usage
 description: Ways to evaluate use of your package, and their downsides.
 output: hugodown::md_document
