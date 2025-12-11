@@ -25,7 +25,7 @@ However, for a variety of reasons, some of our community members or potential me
 These reasons may include concerns about privacy, including [identifying information required for age verification in some jurisdictions](https://www.abc.net.au/news/2025-09-24/digital-dilemna-social-media-age-ban-platforms/105807302). Other reasons include a desire to support platforms with different ownership or business models, based in other countries, or supprting alternatives to avoid the risk of hegemony.
 
 GitHub remains our primary code platform and we have no immediate plans to migrate, but we are keenly aware of the trade-offs our community is considering and that they vary from member to member. 
-We want to provide opportunities to help users not using  GitHub to participate in rOpenSci activities,  and we also to continually explore alternative platforms and models for the future. 
+We want to provide opportunities to help users not using  GitHub to participate in rOpenSci activities,  and we also want to continually explore alternative platforms and models for the future. 
 
 In this post, we describe one approach rOpenSci members can use alternative platforms while still staying connected to rOpenSci operations on GitHub. This is most applicable to current or future developers of rOpenSci peer-reviewed packages, but we hope also serves as a useful guide for those testing approaches to managing code across multiple platforms more generally. 
 
