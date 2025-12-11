@@ -55,7 +55,7 @@ All other arrows between mirrors, primary remote and local are `push` events onl
 
 {{< figure src = "local-remote.png" alt = "Git interaction directions between local and remote repositories." class = "pull-left" caption = "Git interaction directions between local and remote repositories.">}}
 
-### Mirroring on Codeberg or GitLab
+## Migrating to Codeberg or GitLab
 
 The easiest platforms on which to mirror your code are currently [Codeberg](https://codeberg.org) and [GitLab](https://gitlab.com), both of which have inbuilt options to mirror repositories directly from a large number of other platforms, including GitHub.
 Both of these platforms can also mirror additional information including issues, issue labels, pull requests, and releases.
