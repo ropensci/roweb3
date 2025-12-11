@@ -80,7 +80,7 @@ Note that the migration process may take 10 minutes or more.
 
 On GitLab, the equivalent "+" button is on the top left, where "_New project/repository_" should be clicked.
 
-{{< figure src = "gitlab-new.png" alt = "GitLab new repository button." class = "pull-left" caption = "GitLab new repository button.">}}
+{{< figure src = "gitlab-new.png" alt = "" class = "pull-left" caption = "GitLab new repository button.">}}
 
 ![](gitlab-new.png)
 
