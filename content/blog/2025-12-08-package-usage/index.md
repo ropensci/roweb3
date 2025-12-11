@@ -2,7 +2,7 @@
 title: How to Assess Usage of your Package
 author: 
 - Maëlle Salmon
-editor:
+editor: Steffi LaZerte
 date: '2025-12-08'
 slug: package-usage
 description: Ways to evaluate use of your package, and their downsides.
@@ -10,13 +10,14 @@ output: hugodown::md_document
 tags:
   - package development
   - tech notes
+  - r-universe
 params:
   doi: "10.59350/9ff3a-21d94"
-rmd_hash: 569206fb70817b95
+rmd_hash: 015ac2ae55f698eb
 
 ---
 
-As a package maintainer, you might want to get some numbers or impressions on the usage of your package for various reasons: getting some confirmation that your work is useful, prioritizing development on specific features of your software, helping justify a request for funding. Don't get your hopes too high: there is no perfect solution nor measure. However, we will share some useful information sources in this post.
+As a package maintainer, you might want to get some numbers or impressions on the usage of your package for various reasons: getting some confirmation that your work is useful, prioritizing development on specific features of your software, helping justify a request for funding. Don't get your hopes too high: there is no perfect solution nor measure. However, we will share some useful information sources in this post -- many of them already used and displayed by [R-Universe](/r-universe)!
 
 ## Downloads
 
@@ -28,28 +29,51 @@ If your package is not a high-level interface, maybe other packages import it. I
 
 For instance here's a way to count the direct and indirect **hard** dependencies (`Imports`) of the curl package on CRAN.
 
+We can count the number of direct (non-recursive) dependencies with [`pkgcache::meta_cache_revdeps()`](https://rdrr.io/pkg/pkgcache/man/meta_cache_deps.html) and `recursive = FALSE`.
+
 <div class="highlight">
 
 <pre class='chroma'><code class='language-r' data-lang='r'><span><span class='o'>(</span><span class='nv'>direct</span> <span class='o'>&lt;-</span> <span class='nf'><a href='https://rdrr.io/r/base/length.html'>length</a></span><span class='o'>(</span></span>
 <span>  <span class='nf'><a href='https://rdrr.io/r/base/unique.html'>unique</a></span><span class='o'>(</span></span>
-<span>    <span class='nf'>pkgcache</span><span class='nf'>::</span><span class='nf'><a href='https://r-lib.github.io/pkgcache/reference/meta_cache_deps.html'>meta_cache_revdeps</a></span><span class='o'>(</span></span>
+<span>    <span class='nf'>pkgcache</span><span class='nf'>::</span><span class='nf'><a href='https://rdrr.io/pkg/pkgcache/man/meta_cache_deps.html'>meta_cache_revdeps</a></span><span class='o'>(</span></span>
 <span>      <span class='s'>"curl"</span>,</span>
 <span>      recursive <span class='o'>=</span> <span class='kc'>FALSE</span>,</span>
 <span>      dependencies <span class='o'>=</span> <span class='s'>"imports"</span></span>
 <span>    <span class='o'>)</span><span class='o'>$</span><span class='nv'>package</span></span>
 <span>  <span class='o'>)</span></span>
 <span><span class='o'>)</span><span class='o'>)</span></span>
-<span><span class='c'>#&gt; [1] 442</span></span>
-<span></span><span><span class='o'>(</span><span class='nv'>indirect</span> <span class='o'>&lt;-</span> <span class='nf'><a href='https://rdrr.io/r/base/length.html'>length</a></span><span class='o'>(</span></span>
+<span><span class='c'>#&gt; <span style='color: #00BBBB;'>ℹ</span> Loading metadata database</span></span>
+<span></span><span><span class='c'>#&gt; <span style='color: #00BB00;'>✔</span> Loading metadata database ... done</span></span>
+<span></span><span><span class='c'>#&gt; </span></span>
+<span></span><span><span class='c'>#&gt; [1] 436</span></span>
+<span></span></code></pre>
+
+</div>
+
+We can then calculate the total number of dependencies by using `recursive = TRUE`.
+
+<div class="highlight">
+
+<pre class='chroma'><code class='language-r' data-lang='r'><span><span class='o'>(</span><span class='nv'>total</span> <span class='o'>&lt;-</span> <span class='nf'><a href='https://rdrr.io/r/base/length.html'>length</a></span><span class='o'>(</span></span>
 <span>  <span class='nf'><a href='https://rdrr.io/r/base/unique.html'>unique</a></span><span class='o'>(</span></span>
-<span>    <span class='nf'>pkgcache</span><span class='nf'>::</span><span class='nf'><a href='https://r-lib.github.io/pkgcache/reference/meta_cache_deps.html'>meta_cache_revdeps</a></span><span class='o'>(</span></span>
+<span>    <span class='nf'>pkgcache</span><span class='nf'>::</span><span class='nf'><a href='https://rdrr.io/pkg/pkgcache/man/meta_cache_deps.html'>meta_cache_revdeps</a></span><span class='o'>(</span></span>
 <span>      <span class='s'>"curl"</span>,</span>
 <span>      recursive <span class='o'>=</span> <span class='kc'>TRUE</span>,</span>
 <span>      dependencies <span class='o'>=</span> <span class='s'>"imports"</span></span>
 <span>    <span class='o'>)</span><span class='o'>$</span><span class='nv'>package</span></span>
 <span>  <span class='o'>)</span></span>
 <span><span class='o'>)</span><span class='o'>)</span></span>
-<span><span class='c'>#&gt; [1] 4804</span></span>
+<span><span class='c'>#&gt; [1] 5277</span></span>
+<span></span></code></pre>
+
+</div>
+
+And the number of indirect dependencies by subtracting the two.
+
+<div class="highlight">
+
+<pre class='chroma'><code class='language-r' data-lang='r'><span><span class='o'>(</span><span class='nv'>indirect</span> <span class='o'>&lt;-</span> <span class='nv'>total</span> <span class='o'>-</span> <span class='nv'>direct</span><span class='o'>)</span></span>
+<span><span class='c'>#&gt; [1] 4841</span></span>
 <span></span></code></pre>
 
 </div>
@@ -58,19 +82,19 @@ R-universe pages for individual packages, like [curl](https://jeroen.r-universe.
 
 ## Code mentions
 
-Some code is published on GitHub. You can search for occurrences of, say, [`library(curl)`](https://jeroen.r-universe.dev/curl) using the URL <https://github.com/search?q=library(curl)&type=code>.
+As some code is published on GitHub, you can use advanced GitHub searches to find instances of use. You can search for occurrences of, say, [`library(curl)`](https://jeroen.r-universe.dev/curl) using the URL <https://github.com/search?q=library(curl)&type=code>.
 
 R-universe displays this information on each package's page as a badge counting "scripts" using a package -- the number of hits for the aforementioned GitHub advanced search query. See [curl's page](https://jeroen.r-universe.dev/curl).
 
-This information is obviously partial as not all code is published, as not all code is published on GitHub, and as not all code loads packages this way. Nonetheless, such search syntax might help find examples of authentic usage to better understand how users interact with your package: you can look for individual functions, arguments used, etc.
+This information is obviously partial as not all code is published, not all code is published on GitHub, and not all code loads packages this way (perhaps also consider searching for `curl::` formatting). Nonetheless, such search syntax might help find examples of authentic usage to better understand how users interact with your package: you can look for individual functions, arguments used, etc.
 
 ## Citations
 
 If your package is used in a scientific paper whose authors [cite packages](/blog/2021/11/16/how-to-cite-r-and-r-packages/), you might be able to retrieve usage though bibliometric search.
 
-rOpenSci used to curate a database of [citations](/citations/).
+For citations of a package before 2022, you can explore rOpenSci's [citations database](/citations/).
 
-R-universe displays some data on citations. See again [curl's page](https://jeroen.r-universe.dev/curl), with a badge linking to [ecosyste.ms](https://papers.ecosyste.ms/projects/cran/curl).
+R-universe displays some data on citations, from the [experimental papers dataset of ecosystem.s](https://ecosyste.ms/#experiments). See again [curl's page](https://jeroen.r-universe.dev/curl), with a badge linking to [ecosyste.ms](https://papers.ecosyste.ms/projects/cran/curl).
 
 This is again partial information, that might however help underlining the usefulness of your software for scientific endeavours.
 
@@ -106,7 +130,7 @@ The benefit is gathering examples of authentic usage, and also getting the [moti
 
 Actually measuring usage at the source is very rare in R packages, but something that for instance the duckplyr maintainers have tried to implement, to inform [development priorities](https://duckplyr.tidyverse.org/articles/telemetry.html). This behavior can be controlled and turned off by users. Informing users of the telemetry is crucial.
 
-We can also wonder about the data collected by Copilot and friends, that you as a package maintainer have no access to.
+We can also wonder about the data collected by Copilot and friends, that you as a package maintainer have no access to: most common questions about your package, code reviewed or suggested by LLMs, etc. One can wonder whether such data might be helpful to software maintainers?
 
 ## Conclusion
 

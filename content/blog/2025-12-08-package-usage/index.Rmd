@@ -20,7 +20,7 @@ getting some confirmation that your work is useful,
 prioritizing development on specific features of your software,
 helping justify a request for funding.
 Don't get your hopes too high: there is no perfect solution nor measure.
-However, we will share some useful information sources in this post.
+However, we will share some useful information sources in this post -- many of them already used and displayed by [R-Universe](/r-universe)!
 
 ## Downloads
 
@@ -83,9 +83,9 @@ Nonetheless, such search syntax might help find examples of authentic usage to b
 
 If your package is used in a scientific paper whose authors [cite packages](/blog/2021/11/16/how-to-cite-r-and-r-packages/), you might be able to retrieve usage though bibliometric search.
 
-rOpenSci used to curate a database of [citations](/citations/).
+For citations of a package before 2022, you can explore rOpenSci's [citations database](/citations/).
 
-R-universe displays some data on citations. 
+R-universe displays some data on citations, from the [experimental papers dataset of ecosystem.s](https://ecosyste.ms/#experiments). 
 See again [curl's page](https://jeroen.r-universe.dev/curl), with a badge linking to [ecosyste.ms](https://papers.ecosyste.ms/projects/cran/curl).
 
 This is again partial information, that might however help underlining the usefulness of your software for scientific endeavours.
@@ -135,7 +135,8 @@ Actually measuring usage at the source is very rare in R packages, but something
 This behavior can be controlled and turned off by users.
 Informing users of the telemetry is crucial.
 
-We can also wonder about the data collected by Copilot and friends, that you as a package maintainer have no access to.
+We can also wonder about the data collected by Copilot and friends, that you as a package maintainer have no access to: most common questions about your package, code reviewed or suggested by LLMs, etc.
+One can wonder whether such data might be helpful to software maintainers?
 
 ## Conclusion
 
