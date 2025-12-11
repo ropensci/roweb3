@@ -75,7 +75,7 @@ That will then open up the following grid of options from where you want to migr
 
 {{< figure src = "codeberg-migration-options.png" alt = "Codeberg repository migration options shown as icons including Git, GitHub, GitLab, Forgejo, Gitea, Gogs, OneDev, and GitBucket" class = "pull-left" caption = "Codeberg repository migration options.">}}```
 
-To migrate from GitHub, click the symbol to open a migration to fill in some details, where you can also paste a GitHub token into "access token", and mirror almost all other aspects, including issues, pull requests, and releases.
+To migrate from GitHub, click the symbol to open a migration to fill in some details, where you can also paste a GitHub token into "access token" (ensuring that it has at least read access to all aspects you want transferred), and migrate almost all other aspects, including issues, pull requests, and releases.
 Note that the migration process may take 10 minutes or more.
 
 On GitLab, the equivalent "+" button is on the top left, where "_New project/repository_" should be clicked:
