@@ -165,7 +165,7 @@ As with `git remote` setups described in the previous section, there are several
 The pure Git way is to use local commands like those described and linked to above, to `git push` changes to all remote locations.
 (This is the approach recommended by GitHub, but GitHub is an anomaly among code hosting platforms in offering no easy ability to interact with other platforms.)
 
-Both Codeberg and GitLab offer mirroring services to enable these sites to be used as a primary site, and to mirror all code changes directly across to any alternative site such as GitHub.
+However, both Codeberg and GitLab offer mirroring services to enable these sites to be used as a primary site, and to mirror all code changes directly across to alternative sites such as GitHub.
 Codeberg has a "Mirror settings" option near the top of the general repository "_Settings_" panel, where you can easily specify an arbitrary number of mirror locations, and click "_Sync when commits are pushed_".
 The GitLab settings are under "_Settings_" &rarr; "_Repository_", where you should see options for "_Mirroring repositories_".
 Depending on how you configure your other repositories, you may need to add additional information such as public SSH keys to authenticate `git push` events.
