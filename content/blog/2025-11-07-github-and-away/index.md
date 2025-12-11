@@ -67,9 +67,7 @@ The easiest platforms to migrate to are currently [Codeberg](https://codeberg.or
 Both of these platforms can also migrate additional information including issues, issue labels, pull requests, and releases.
 There are some limitations. For instance, GitHub's auto-links within issues and pull requests may be lost.
 
-To mirror a repo on Codeberg, click the large "+" button on the top right of the main menu bar, and select "New migration", like this:
-
-![](codeberg-new-migration.png)
+To migrate a repo to Codeberg, click the large "+" button on the top right of the main menu bar, and select "New migration".
 
 {{< figure src = "codeberg-new-migration.png" alt = "Codeberg new migration button." class = "pull-left" caption = "Codeberg new repository migration button.">}}
 
