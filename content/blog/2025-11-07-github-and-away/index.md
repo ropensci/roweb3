@@ -91,16 +91,6 @@ That then leads to a list of platforms from which you can import projects, inclu
 GitLab transfers issues, pull requests, tags, and releases by default, with even more possible through provision of a GitHub access token.
 As with Codeberg, this transfer can take some time (10-20 minutes or more).
 
-### Mirroring elsewhere
-
-No other platforms currently offer the one-click mirror functionality of Codeberg or GitLab.
-To mirror in all other cases, you'll need to:
-
-1. Create a new repository on the desired platform.
-2. Set a `git remote` URL to the new destination.
-3. `git push` to new remote.
-
-The [git remote web page](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes) provides more detail on working with remotes.
 
 
 ### A note on transferring issues
