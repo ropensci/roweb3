@@ -1,5 +1,5 @@
 ---
-title: Code hosting options beyond GitHub
+title: Code Hosting Options Beyond GitHub
 author: 
 - Mark Padgham
 editor:
