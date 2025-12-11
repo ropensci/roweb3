@@ -88,6 +88,8 @@ That will lead to the following options, in which "Import project" should be cli
 {{< figure src = "gitlab-import.png" alt = "GitLab repository import options: Create blank project; Create from template; Import project; Run CI/CD for external repository." class = "pull-left" caption = "GitLab repository import options.">}}
 
 That then leads to a list of platforms from which you can import projects, including code, issues, pull requests, releases, and other information.
+GitLab transfers issues, pull requests, tags, and releases by default, with even more possible through provision of a GitHub access token.
+As with Codeberg, this transfer can take some time (10-20 minutes or more).
 
 ### Mirroring elsewhere
 
