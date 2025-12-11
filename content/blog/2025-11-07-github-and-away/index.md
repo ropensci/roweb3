@@ -208,7 +208,7 @@ Other platforms offer similar functionality, but even then with caveats like:
     - `git push --tags gitlab <branch_name>`, just like on Codeberg, to explicitly push all Git tags.
     - Manually go through each tag and issue a new release, for which you can retrospectively set the release data to be the same historical date as the original GitHub release date.
 
-There are many other ways small and large by which different code-hosting platforms and systems differ from one another.
+There are many other ways, small and large, by which different code-hosting platforms and systems differ from one another.
 Ongoing maintenance across different platforms will always present challenges, but we hope to have given you enough information here to get you started.
 
 
