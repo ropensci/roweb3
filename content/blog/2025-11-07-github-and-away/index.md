@@ -102,27 +102,17 @@ To mirror in all other cases, you'll need to:
 
 The [git remote web page](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes) provides more detail on working with remotes.
 
-## Transferring issues
 
-Issues, pull requests, and other information on GitHub can be transferred both to Codeberg and GitLab, but only when a repository is first mirrored.
-We are not currently aware of any platforms other these two which offer inbuilt ability to import additional information on issues and pull requests, although other people have implemented things such as [issue mirroring from GitHub to sourcehut](https://github.com/marketplace/actions/sourcehut-issue-maker).
+### A note on transferring issues
+
+Issues, pull requests, and other information on GitHub can be transferred both to Codeberg and GitLab, but only when a repository is first migrated.
 
 Both Codeberg and GitLab enable all information on all issues and pull requests to be transferred across, although generally without hyperlinks other than those those linking within or between issues of the same repository.
 All other hyperlinks, including any to GitHub users, or to other repositories, will be lost.
 The transfer will be of information at the time the "New migration" on Codeberg or "New import" on GitLab is initiated.
-From that time point on, any activity via issues or pull requests on any hosting platform will be specific to that platform only.[^mirrortools]
+From that time point on, any activity via issues or pull requests on any hosting platform will be specific to that platform only.[^2]
 
-[^mirrortools]: There are tools for continuous mirroring such as [GitHubCodebergMirror](https://codeberg.org/wl/GithubCodebergMirror), but there is likely some fragility in these setups.
-
-To transfer issues from GitHub to Codeberg, first click on the "GitHub" symbol in the "Migrate repository" options shown above, after which appears a dialog with options for what you would like migrated.
-These options include "issues", "Pull requests", "Labels", "Milestones", and "Releases," also with the clear information that,
-
-> Access token is required to migrate additional items
-
-For that, you just need to paste a GitHub token in the Codeberg field, ensuring that the token has at least read access to all aspects you want transferred.
-GitLab transfers issues, pull requests, tags, and releases by default, with even more possible through provision of a GitHub access token.
-In both cases, transfer can take some time (10-20 minutes or more), following which all issues will appear exactly as on GitHub, but generally minus the hyperlinks described above.
-Other code hosting platforms like [SourceHut](https://sr.ht/), or the distributed hosting system [tangled](https://tangled.org/) do not provide facilities for directly transferring or mirroring issues or pull requests (and in fact generally don't even have such things, as they really are specific to the GitHub platform; [SourceHut](https://sr.ht), for example, implements its own systems of "todos" and "patches".)
+[^2]: There are tools for continuous mirroring such as [GitHubCodebergMirror](https://codeberg.org/wl/GithubCodebergMirror), but there is likely some fragility in these setups.
 
 ### Migrating elsewhere
 
