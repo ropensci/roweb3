@@ -22,7 +22,7 @@ editor:
 rOpenSci makes heavy use of GitHub for our projects and services, including [software peer-review](https://github.com/ropensci/software-review/issues?q=sort%3Aupdated-desc%20is%3Aissue%20state%3Aclosed).
 GitHub is by far the most widely used git or code-hosting platform, and the combination of its popularity and freemium services have made it central to open-source and R communities.
 However, for a variety of reasons, some of our community members or potential members may prefer or need to use other platforms.
-These reasons may include concerns about privacy, including [identifying information required for age verification in some jurisdictions](https://www.abc.net.au/news/2025-09-24/digital-dilemna-social-media-age-ban-platforms/105807302). Other reasons include a desire to support platforms with different ownership or business models, based in other countries, or supprting alternatives to avoid the risk of hegemony.
+These reasons may include concerns about privacy, including [identifying information required for age verification in some jurisdictions](https://www.abc.net.au/news/2025-09-24/digital-dilemna-social-media-age-ban-platforms/105807302). Other reasons include a desire to support platforms with different ownership or business models, based in other countries, or supporting alternatives to avoid the risk of hegemony.
 
 GitHub remains our primary code platform and we have no immediate plans to migrate, but we are keenly aware of the trade-offs our community is considering and that they vary from member to member. 
 We want to provide opportunities to help users not using  GitHub to participate in rOpenSci activities,  and we also want to continually explore alternative platforms and models for the future. 
