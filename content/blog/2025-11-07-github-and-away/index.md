@@ -154,7 +154,7 @@ Even more arcane alternatives include my own [git push bash script](https://gith
 
 ### Synchronizing multiple remotes
 
-As with `git remote` setups described in the previous section, there are several ways to synchronize multiple remote instances of a single repository.
+As with the `git remote` setups described in the previous section, there are several ways to synchronize multiple remote instances of a single repository.
 The pure Git way is to use local commands like those described and linked to above, to `git push` changes to all remote locations.
 (This is the approach recommended by GitHub, but GitHub is an anomaly among code hosting platforms in offering no easy ability to interact with other platforms.)
 
