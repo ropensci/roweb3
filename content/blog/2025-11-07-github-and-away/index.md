@@ -175,7 +175,7 @@ While there are "marketplace" actions available to do this, we do not recommend 
 An example is [this workflow](https://github.com/ropensci/osmdata/blob/main/.github/workflows/push-to-elsewhere.yaml) which is run on every `push` event to the main branch and mirrors the [`github.com/ropensci/osmdata`](https://github.com/ropensci/osmdata/tree/main) repository across to both [`codeberg.org/ropensci/osmdata`](https://codeberg.org/ropensci/osmdata) and [`gitlab.com/ropensci/osmdata`](https://gitlab.com/ropensci/osmdata).
 
 
-## Advertising your new code home
+## Advertising your primary code home
 
 Regardless of how your structure and disperse your code across multiple platforms, it's generally useful to maintain a single, primary "home".
 (This is of course not at all necessary; if you enjoy dividing your attention across different platforms, please do so, and ignore this section.)
