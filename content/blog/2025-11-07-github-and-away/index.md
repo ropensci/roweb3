@@ -58,7 +58,7 @@ All other arrows between mirrors, primary remote and local are `push` events onl
 
 ![](./local-remote.png)
 
-{{< figure src = "local-remote.png" alt = "Git interaction directions between local and remote repositories." class = "pull-left" caption = "Git interaction directions between local and remote repositories.">}}
+{{< figure src = "local-remote.png" alt = "" class = "pull-left" caption = "Git interaction directions between local and remote repositories.">}}
 
 ## Migrating to Codeberg or GitLab
 
