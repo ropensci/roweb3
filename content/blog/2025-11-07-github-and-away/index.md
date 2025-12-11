@@ -104,9 +104,9 @@ We are not currently aware of any platforms other these two which offer inbuilt 
 Both Codeberg and GitLab enable all information on all issues and pull requests to be transferred across, although generally without hyperlinks other than those those linking within or between issues of the same repository.
 All other hyperlinks, including any to GitHub users, or to other repositories, will be lost.
 The transfer will be of information at the time the "New migration" on Codeberg or "New import" on GitLab is initiated.
-From that time point on, any activity via issues or pull requests on any hosting platform will be specific to that platform only.[^2]
+From that time point on, any activity via issues or pull requests on any hosting platform will be specific to that platform only.[^mirrortools]
 
-[^2]: There are tools for continuous mirroring such as [GitHubCodebergMirror](https://codeberg.org/wl/GithubCodebergMirror), but there is likely some fragility in these setups.
+[^mirrortools]: There are tools for continuous mirroring such as [GitHubCodebergMirror](https://codeberg.org/wl/GithubCodebergMirror), but there is likely some fragility in these setups.
 
 To transfer issues from GitHub to Codeberg, first click on the "GitHub" symbol in the "Migrate repository" options shown above, after which appears a dialog with options for what you would like migrated.
 These options include "issues", "Pull requests", "Labels", "Milestones", and "Releases," also with the clear information that,
@@ -123,7 +123,7 @@ Other code hosting platforms like [SourceHut](https://sr.ht/), or the distribute
 
 To be clear, this entire post is about moving away from having code hosted on a single platform, to distributing across multiple platforms through _mirroring_.
 If, for example, you only want to migrate away from GitHub to some single, other platform, then both Codeberg and GitLab already offer the full solutions described above.
-We nevertheless recommend mirroring across multiple platforms, to reduce risks associated with dependence on any single platform.
+We nevertheless recommend mirroring across multiple platforms, to reduce the risk of dependence on a single platform creating a single point of failure.
 
 As described above, the easiest way to manage one Git repository across multiple platforms is to use one primary source to which you `push`, and from where you may `pull`.
 All other remote origins should be considered `push` mirrors only, and never `pull`.
@@ -133,14 +133,19 @@ You should never `git push --force` to the main branch of your primary source.
 ### Adding remotes to your local Git information
 
 For each additional remote source, you'll need to add a remote URL with [`git remote add`](https://git-scm.com/docs/git-remote).
-There are many ways to do this.
+There are many ways to do this[^gitremotes].
+
 The pure Git way of managing multiple remote sources is to take advantage of `git remote set-url --add` to add additional URLs to a single remote identifier.
 [This blog post](https://jeffkreeftmeijer.com/git-multiple-remotes/) details how to do that safely, to ensure only one primary remote is configured to `fetch`, while allowing `push` events to all others.
-An alternative option would be to initially create an additional remote like `git remote add other https://codeberg.org/ropensci/my-package`.
-You can then extend that with each additional remote URL with `set-url --add`.
-Running `git push other <branch>` will then push that branch to all remote URLs specified in `other`.
 
-Yet another approach is to define a [custom command](https://stackoverflow.com/questions/60060217/how-do-i-make-custom-git-commands) for `git push` to call a local script.
+An alternative option would be to initially create an additional remote like `git remote add other https://codeberg.org/ropensci/my-package`.
+A single `git remote` can also be assigned to multiple URLs.
+The first must be set with `git add`, or `git set-url` to add or update the URL of an existing remote.
+Additional URLs can then be added to a single `git remote` by using `git set-url --add` followed by the name of the remote.
+For example, `git set-url --add other https://gitlab.com/ropensci/my-package` would then specify both the Codeberg and GitLab URLs with the single `other` remote.
+Running `git push other <branch>` will then push that branch to both of these remote URLs.
+
+[^gitremotes]: Yet another approach is to define a [custom command](https://stackoverflow.com/questions/60060217/how-do-i-make-custom-git-commands) for `git push` to call a local script.
 This can be done by adding some "gitbin" directory to a default system `PATH` variable (in `.bashrc`, for example, as `export PATH="$PATH:$HOME/.gitbin"`).
 Git will automatically recognize any scripts within `$PATH` named with the prefix "git-".
 It is best to name locally-defined Git commands differently to standard Git commands.
@@ -150,7 +155,7 @@ Even more arcane alternatives include my own [git push bash script](https://gith
 
 ### Synchronizing multiple remotes
 
-As with `git remote` setups described above, there are several ways to synchronize multiple remote instances of a single repository.
+As with `git remote` setups described in the previous section, there are several ways to synchronize multiple remote instances of a single repository.
 The pure Git way is to use local commands like those described and linked to above, to `git push` changes to all remote locations.
 (This is the approach recommended by GitHub, but GitHub is an anomaly among code hosting platforms in offering no easy ability to interact with other platforms.)
 
