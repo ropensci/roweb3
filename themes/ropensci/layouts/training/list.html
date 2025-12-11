@@ -1,6 +1,23 @@
 {{ define "main" }}
 {{ $pages := (where (where ( where .Site.RegularPages.ByDate.Reverse "Section" "events" ) ".Params.resources" "!=" nil)  ".Params.training" "==" true) }}
-{{ partial "talks/talk-table" (dict "Pages" $pages "Title" .Title "Content" .Content) }}
+
+
+
+<section class="section section-generic">
+  <div class="container">
+    <div class="row">
+          <div class="col-md-8 software-content">
+            <h1>{{ .Title | markdownify }}</h1>
+          </div>
+    </div>
+    <div class="talk-cards">
+      {{ range ( first 3 $pages ) }}
+      {{ partial "resources/talk-card" . }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ partial "talks/talk-table" (dict "Pages" $pages "Title" "" "Content" .Content) }}
 {{ $askpartial := (partial "translate-path" (dict "name" "whole-page-fragments/ask" "language" .Language.Lang )) }}
 {{ partial $askpartial  (dict "divider" "lr" ) }}
 {{ $newsletterpartial := (partial "translate-path" (dict "name" "whole-page-fragments/newsletter" "language" .Language.Lang )) }}

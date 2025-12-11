@@ -1,5 +1,5 @@
 ---
-title: "Graceful Internet Packages"
+title: "Cancelled Event. Graceful Internet Packages"
 dateStart: 2025-11-06T15:00:00 # UTC!!
 dateEnd: 2025-11-06T16:00:00 # UTC!!
 date: 2025-11-06T16:00:00 # UTC!! same as dateEnd
@@ -48,11 +48,19 @@ tags:
   - community call
   - events
   - packages
-deets: |
-    Meeting ID: 88400983361
-    Passcode: 168787
-zoomurl: https://numfocus-org.zoom.us/j/88400983361?pwd=rmYgnEqs6tT0jPCG5PWCEccDSXAao0.1
+# deets: |
+#     Meeting ID: 
+#     Passcode: 
+# zoomurl: 
 ---
+
+## Event Cancelled
+
+Unfortunally we have to cancel this community call.
+
+Thanks so much to those who planned to join. We’ll **share a new date soon** — stay tuned!
+
+## Original Event Description
 
 Join us for our next Community Call, “Graceful Internet Packages,” featuring Matthias, Tan, and Salix. In this session, we’ll explore how to design and maintain R packages that interact with online data sources. Our speakers will share practical lessons, examples, and best practices to help R package developers create reliable packages.
 
