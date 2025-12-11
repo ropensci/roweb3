@@ -48,8 +48,8 @@ Most examples presume GitHub to be the primary remote, because rOpenSci operatio
 Code mirrors are only ever updated through `git push` events from local versions, or from other `git` events on the primary remote.
 Change events originating on the primary remote are generally incorporated in a local version via `git pull`, and then pushed out to all mirrored versions.
 A `git pull` command should only ever be applied to the primary remote version, and never to any alternative mirror versions.
-In this diagram, the large yellow arrow represents the only connection where both `push` and `pull` events are allowed.
-All other arrows are `push` events only.
+In this diagram, the large yellow arrow between the primary remote and local represents the only connection where both `push` and `pull` events are allowed.
+All other arrows between mirrors, primary remote and local are `push` events only.
 
 ![](./local-remote.png)
 
