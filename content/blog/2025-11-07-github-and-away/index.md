@@ -82,7 +82,6 @@ On GitLab, the equivalent "+" button is on the top left, where "_New project/rep
 
 {{< figure src = "gitlab-new.png" alt = "" class = "pull-left" caption = "GitLab new repository button.">}}
 
-![](gitlab-new.png)
 
 That will lead to the following options, in which "Import project" should be clicked.
 
