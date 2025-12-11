@@ -62,8 +62,9 @@ All other arrows between mirrors, primary remote and local are `push` events onl
 
 ## Migrating to Codeberg or GitLab
 
-The easiest platforms on which to mirror your code are currently [Codeberg](https://codeberg.org) and [GitLab](https://gitlab.com), both of which have inbuilt options to mirror repositories directly from a large number of other platforms, including GitHub.
-Both of these platforms can also mirror additional information including issues, issue labels, pull requests, and releases.
+Let's get started! The first step of setting up your repository on a non-GitHub platform with a mirror to GitHub is migrating from GitHub to this new platform.
+The easiest platforms to migrate to are currently [Codeberg](https://codeberg.org) and [GitLab](https://gitlab.com), both of which have inbuilt options to migrate repositories directly from a large number of other platforms, including GitHub.
+Both of these platforms can also migrate additional information including issues, issue labels, pull requests, and releases.
 There are some limitations. For instance, GitHub's auto-links within issues and pull requests may be lost.
 
 To mirror a repo on Codeberg, click the large "+" button on the top right of the main menu bar, and select "New migration", like this:
