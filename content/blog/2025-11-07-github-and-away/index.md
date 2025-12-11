@@ -69,7 +69,7 @@ There are some limitations. For instance, GitHub's auto-links within issues and 
 
 To migrate a repo to Codeberg, click the large "+" button on the top right of the main menu bar, and select "New migration".
 
-{{< figure src = "codeberg-new-migration.png" alt = "Codeberg new migration button." class = "pull-left" caption = "Codeberg new repository migration button.">}}
+{{< figure src = "codeberg-new-migration.png" alt = "" class = "pull-left" caption = "Codeberg new repository migration button.">}}
 
 That will then open up the following grid of options from where you want to mirror your repository:
 
