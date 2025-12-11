@@ -189,8 +189,8 @@ This trick only works for GitHub - all other platforms display the root README f
 
 ## Words of warning
 
-Whatever approach you decide to explore, you're bound to realise that managing code distributed across multiple platforms is more difficult that on a single site.
-Many features you might be used on GitHub, for example, may not be implemented on other platforms, or may have other names and inconsistent behaviours.
+Whatever approach you decide to explore, you're bound to realise that managing code distributed across multiple platforms is more difficult than on a single site.
+Many features you might be used to on GitHub, for example, may not be implemented on other platforms, or may have other names and inconsistent behaviours.
 One example is "Releases", which GitHub associates with Git tags, and then enables you to upload additional data to be associated with a release.
 This whole procedure has little to do with Git, and a lot to do with design decisions by GitHub.
 Other platforms offer similar functionality, but even then with caveats like:
