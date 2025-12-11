@@ -128,12 +128,11 @@ Other code hosting platforms like [SourceHut](https://sr.ht/), or the distribute
 
 ## Mirroring: Managing one repository across multiple platforms
 
-To be clear, this entire post is about moving away from having code hosted on a single platform, to distributing across multiple platforms through _mirroring_.
-If, for example, you only want to migrate away from GitHub to some single, other platform, then both Codeberg and GitLab already offer the full solutions described above.
-We nevertheless recommend mirroring across multiple platforms, to reduce the risk of dependence on a single platform creating a single point of failure.
+The goal here is to move from having code hosted on a single platform to distributing code across multiple platforms through _mirroring_. This reduces the risk of dependence on a single platform creating a single point of failure. Mirroring also allows you to use alternative platforms to GitHub, while will benefiting from GitHub operations used by other organizations (like rOpenSci!).
 
-As described above, the easiest way to manage one Git repository across multiple platforms is to use one primary source to which you `push`, and from where you may `pull`.
-All other remote origins should be considered `push` mirrors only, and never `pull`.
+Therefore the next step it to set up mirroring which involve two parts, adding remotes, and then synchronizing those removes.
+
+All remotes other than your "primary" code home should be considered `push` mirrors only, and never `pull`.
 In the rare case that conflicts from other sources arise, you may need to `git push --force` to _other_ remotes (or the [safer version of `git push --force-with-lease`](https://git-scm.com/docs/git-push#Documentation/git-push.txt---force-with-leaserefnameexpect)).
 You should never `git push --force` to the main branch of your primary source.
 
