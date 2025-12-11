@@ -71,7 +71,7 @@ To migrate a repo to Codeberg, click the large "+" button on the top right of th
 
 {{< figure src = "codeberg-new-migration.png" alt = "" class = "pull-left" caption = "Codeberg new repository migration button.">}}
 
-That will then open up the following grid of options from where you want to mirror your repository:
+That will then open up the following grid of options from where you want to migrate your repository:
 
 ![](codeberg-migration-options.png)
 
