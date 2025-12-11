@@ -136,7 +136,7 @@ All remotes other than your "primary" code home should be considered `push` mirr
 In the rare case that conflicts from other sources arise, you may need to `git push --force` to _other_ remotes (or the [safer version of `git push --force-with-lease`](https://git-scm.com/docs/git-push#Documentation/git-push.txt---force-with-leaserefnameexpect)).
 You should never `git push --force` to the main branch of your primary source.
 
-### Adding remotes to your local Git information
+### Adding multiple remotes
 
 For each additional remote source, you'll need to add a remote URL with [`git remote add`](https://git-scm.com/docs/git-remote).
 There are many ways to do this[^gitremotes].
