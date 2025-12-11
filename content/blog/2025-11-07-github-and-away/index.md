@@ -9,6 +9,11 @@ description: How to manage and mirror code repositories across different platfor
 output: hugodown::md_document
 tags:
   - tech notes
+  - github
+  - maintenance
+  - help
+  - infrastructure
+  - git
 params:
   doi: "10.59350/bhr5x-d3429"
 editor:
