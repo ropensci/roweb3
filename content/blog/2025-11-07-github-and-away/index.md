@@ -29,7 +29,11 @@ We want to provide opportunities to help users not using  GitHub to participate 
 
 In this post, we describe one approach which allows rOpenSci members to use alternative platforms while still staying connected to rOpenSci operations on GitHub. This is most applicable to current or future developers of rOpenSci peer-reviewed packages, but we hope also serves as a useful guide for those testing approaches for managing code across multiple platforms more generally. 
 
-## Code (still) needs a single home
+This approach involves migrating from GitHub to another platform followed by setting up a mirror to GitHub. We'll start by exploring what this means and will end with some guidance on setting up multiple mirrors and some words of warning.
+
+## Some background
+
+### Code (still) needs a primary home
 
 All platforms described here are based on [Git](https://git-scm.com/), which is generally used in a centralized way, through associating code with a single, main repository to which changes can be _pushed_, or from which changes can be _pulled_.
 This kind of workflow assumes a single connection between code on your local machine and this single main version.
