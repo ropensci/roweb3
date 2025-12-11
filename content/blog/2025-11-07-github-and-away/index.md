@@ -39,7 +39,7 @@ All platforms described here are based on [Git](https://git-scm.com/), which is 
 This kind of workflow assumes a single connection between code on your local machine and this single main version.
 To keeps things simple, this post will therefore presume that every repository maintains a single, primary remote on one platform, with other platforms hosting or "mirroring" copies of the code.
 
-## Mirroring on other platforms
+### Mirroring on other platforms
 
 Different remote instances of a Git repository are often referred to as "mirrors". Here "mirror" refers to copies of code on any platforms other than the primary remote.
 Most examples presume GitHub to be the primary remote, because rOpenSci operations are built around that presumption, but any platform can serve as a primary remote location, with GitHub, and any number of other platforms then being mirrors.
