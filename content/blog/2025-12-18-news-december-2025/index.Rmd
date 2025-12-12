@@ -63,6 +63,7 @@ Find Maëlle Salmon's slidedecks from the [uRos (Use of R in Official Statistics
 
 - tutorial ["Painlessly Improve Your Git History"](https://uros-git.netlify.app/#/);
 - keynote talk ["R packages, good vibes only"](https://maelle-uros.netlify.app/#/).
+
 ### Yani on the Give Me 5 Podcast
 
 Yani was recently interviewed on NumFOCUS’s new podcast, Give Me 5. You can watch the [5-minute episode](https://youtu.be/SqafLv6CYPI?si=ck9SP5maloKiRl2L).
@@ -611,6 +612,11 @@ if (length(tech_notes) > 0) {
 
 If you're interested in maintaining any of the R packages below, you might enjoy reading our blog post [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/).
 
+[gutenbergr](https://docs.ropensci.org/gutenbergr/), download and process public domain works from the Project Gutenberg collection. [Issue for volunteering](https://github.com/ropensci/gutenbergr/issues/95).
+
+[mregions2](https://docs.ropensci.org/mregions2/), streamlined interface to access data from Marine Regions in R for researchers, marine scientists, and geospatial analysts seeking marine geographical information. [Issue for volunteering](https://github.com/ropensci/mregions2/issues/30).
+
+[qualtRics](https://docs.ropensci.org/qualtRics/), download Qualtrics survey data. [Issue for volunteering](https://github.com/ropensci/qualtRics/issues/383).
 
 [photosearcher](https://docs.ropensci.org/photosearcher), searches Flickr for photographs and metadata. [Issue for volunteering](https://github.com/ropensci/photosearcher/issues/22).
 
