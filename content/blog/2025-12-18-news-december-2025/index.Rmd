@@ -63,6 +63,11 @@ Find Maëlle Salmon's slidedecks from the [uRos (Use of R in Official Statistics
 
 - tutorial ["Painlessly Improve Your Git History"](https://uros-git.netlify.app/#/);
 - keynote talk ["R packages, good vibes only"](https://maelle-uros.netlify.app/#/).
+### Yani on the Give Me 5 Podcast
+
+Yani was recently interviewed on NumFOCUS’s new podcast, Give Me 5. You can watch the [5-minute episode](https://youtu.be/SqafLv6CYPI?si=ck9SP5maloKiRl2L).
+
+Yani's central message: people are the heart of open source. And when we invest in those people—maintainers, contributors, educators, and organizers—we strengthen the global scientific community.
 
 ### Coworking 
 
