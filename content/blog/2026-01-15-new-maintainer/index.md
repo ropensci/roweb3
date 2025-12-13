@@ -83,10 +83,10 @@ Now that your package repo has clear messages and a place to express interes and
 
 Consider posting a brief announcement in places where your users or contributors are likely to see it:
 
-- Social media (e.g., Mastodon, Bluesky, LinkedIn) using specific hashtag like #RStats.
+- Social media (e.g., Mastodon, Bluesky, LinkedIn) using specific hashtags like #RStats.
 - Community forums, mailing lists, Slack/Discord channels relevant to your language/ecosystem.
 
-rOpenSci [list "New maintainers" issues in our website](https://ropensci.org/help-wanted/), we shared on our social media and in our newsletter. 
+For example, rOpenSci [list "New maintainers" issues in our website](https://ropensci.org/help-wanted/), we shared on our social media and in our newsletter. 
 
 ## Make the Package Contributor-Friendly
 
@@ -105,7 +105,7 @@ Add or improve a contributing guidelines is a great way to lower barriers for so
 - How you prefer to receive PRs (e.g., one feature per PR, must include tests, etc.).
 - Any release process notes.
 
-Also document the development and release process. If there are scripts, CI workflows, or manual steps you take to release a new version, you can document them in the README. The more you can write down now, the less hard it will feel for someone to say “yes” to maintaining.
+Also document the development and release process. If there are scripts, CI workflows, or manual steps you take to release a new version, you can document them in the README. The more you have documented clearly, the less hard it will feel for someone to say “yes” to maintaining.
 
 ## Clarify what you’re willing (and not willing) to do
 
@@ -136,3 +136,6 @@ By:
 - And making the package contributor-friendly,
 
 you give your project the best chance to continue, while also respecting your own time and energy.
+
+
+
