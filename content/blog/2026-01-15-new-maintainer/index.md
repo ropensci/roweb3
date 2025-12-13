@@ -86,7 +86,7 @@ Consider posting a brief announcement in places where your users or contributors
 - Social media (e.g., Mastodon, Bluesky, LinkedIn) using specific hashtag like #RStats.
 - Community forums, mailing lists, Slack/Discord channels relevant to your language/ecosystem.
 
-rOpenSci [list "New maintainers" issues in our website](https://ropensci.org/help-wanted/), we shred on our social media and in our newsletter. 
+rOpenSci [list "New maintainers" issues in our website](https://ropensci.org/help-wanted/), we shared on our social media and in our newsletter. 
 
 ## Make the Package Contributor-Friendly
 
@@ -123,3 +123,16 @@ Be explicit. For example:
 
 Setting clear boundaries helps others decide whether to volunteer and prevents misunderstandings later.
 
+## It’s Okay to Step Back
+
+Stepping down from maintaining a package it’s a normal part of the open source life cycle.
+
+By:
+
+- Opening a clear “Seeking new maintainer” issue,
+- Updating your README,
+- Announcing the search in the right channels,
+- Reaching out to contributors,
+- And making the package contributor-friendly,
+
+you give your project the best chance to continue, while also respecting your own time and energy.
