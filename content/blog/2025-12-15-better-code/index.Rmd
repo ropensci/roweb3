@@ -23,8 +23,8 @@ We are experiencing a programming revolution, with the democratization of artifi
 In this post, we will introduce you to 
 
 - [lintr](https://lintr.r-lib.org/), an R package that detects many ways to improve your code; 
-- [Air](https://posit-dev.github.io/air/), a tool for formatting R code automatically and almost instantly; 
-- [jarl](https://jarl.etiennebacher.com/), a fast CLI tool to find and automatically fix lints;
+- [Air](https://posit-dev.github.io/air/), a fast CLI (command-line interface) for formatting R code automatically and almost instantly; 
+- [jarl](https://jarl.etiennebacher.com/), another fast CLI (command-line interface) tool to find and automatically fix lints;
 - [flir](https://flir.etiennebacher.com/), an R package to efficiently rewrite patterns of code, either built-in ones or custom ones.
 
 With these four wonderful tools, you can effortlessly improve your code, your colleagues' code... and even code proposed by AI.
