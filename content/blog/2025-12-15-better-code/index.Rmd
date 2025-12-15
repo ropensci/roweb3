@@ -82,7 +82,7 @@ In the terminal:
 ```sh
 air format test.R
 ```
-
+ And this returns:
 ```{r, echo=FALSE}
 a <- system2("air", c("format", "test.R"))
 ```
