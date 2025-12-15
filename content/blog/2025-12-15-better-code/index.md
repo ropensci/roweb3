@@ -226,11 +226,6 @@ We then run
 
 The call to [`stop()`](https://rdrr.io/r/base/stop.html) was automatically replaced. Now, we might want to then manually remove the useless [`paste0()`](https://rdrr.io/r/base/paste.html), but we're already closer to an ideal script.
 
-<div class="highlight">
-
-</div>
-
--   :package: [{flir}](https://flir.etiennebacher.com/): R package to fix custom code patterns, by Etienne Bacher.
 
 ## Integrating these tools into your workflow
 
