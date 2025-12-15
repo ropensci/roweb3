@@ -31,7 +31,7 @@ Note that our [babelquarto package](https://docs.ropensci.org/babelquarto/) to r
 
 We're actively working on our [babeldown package](https://docs.ropensci.org/babeldown/) to create and update translations using the DeepL API.
 
-In the [dev guide](https://github.com/ropensci/dev_guide/pull/940/files) itself, tools useful for internationalizing _packages_ are mentioned: potools, the experimental rhelpi18n package, selecting a language for a pkgdown website.
+In the [dev guide](https://github.com/ropensci/dev_guide/pull/940/files) itself, tools useful for internationalizing _packages_ are mentioned: [potools](https://michaelchirico.github.io/potools/), the experimental [rhelpi18n](https://eliocamp.github.io/rhelpi18n/) package, selecting a [language](https://pkgdown.r-lib.org/articles/translations.html) for a pkgdown website.
 
 ## Policy Updates
 
