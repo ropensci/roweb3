@@ -188,7 +188,7 @@ In any case, having a proper look at modifications before committing them is imp
 
 ## What about artificial intelligence?
 
-Sure, artificial intelligence can be handy but...
+Artificial intelligence can be useful in coding applications but...
 
 - The best LLMs are not local;
 
