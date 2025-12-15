@@ -213,4 +213,4 @@ You can improve your code without effort, without even AI, using:
 
 - {flir}, to efficiently refactor code with custom rules.
 
-The usage of those tools is best complemented by review by humans.
+As with all tools that modify your code, their usage is best complemented by a human review.
