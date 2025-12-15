@@ -43,6 +43,8 @@ We made some changes to rOpenSci policies and scope:
 
 - New requirement to not call the [default branch "master"](https://devdevguide.netlify.app/pkg_building#version-control#:~:text=not%20be%20master).
 
+- Removed requirement to use a `codemeta.json` file, as it is no longer relevant.
+
 ## Editor Guide, Author Guide & Reviewer Guide
 
 The guides that live in our guide. :smile_cat:
