@@ -192,7 +192,7 @@ Artificial intelligence can be useful in coding applications but...
 
 - The best LLMs are not local;
 
-- They cost money;
+- They cost money and are slower;
 
 - They are not deterministic so might miss a rule whereas the tools in this post don't;
 
