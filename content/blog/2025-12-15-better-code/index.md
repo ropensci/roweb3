@@ -231,7 +231,7 @@ The call to [`stop()`](https://rdrr.io/r/base/stop.html) was automatically repla
 
 Locally, you can use those tools as needed. For instance, when inheriting an older project, the first thing I do is renovate the project by applying these tools. A real game changer is using the integration of these tools with your IDE. For instance, I have Positron set up so that [Air](https://posit-dev.github.io/air/editors.html) runs on my scripts when I save them. The jarl CLI also provides [integrations with IDEs](https://jarl.etiennebacher.com/editors).
 
-You can also use those tools on continuous integration. For instance, a useful workflow might be to [suggest formatting changes on Pull Requests](https://posit-dev.github.io/air/integration-github-actions.html#format-with-github-suggestions). The use of suggestions rather than a direct commit means the contributor get a chance to learn about the improvements.
+You can also use those tools on continuous integration. For instance, a useful workflow might be to [suggest formatting changes on Pull Requests](https://posit-dev.github.io/air/integration-github-actions.html#format-with-github-suggestions). The use of suggestions rather than a direct commit means the contributor gets a chance to learn about the improvements.
 
 Another aspect to consider is whether you want flir and jarl to *make* the changes as opposed to *alerting* you about them. Which you choose depends on the context, for example, you might learn more by doing the changes yourself. In any case, having a proper look at modifications before committing them is important!
 
