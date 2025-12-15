@@ -147,7 +147,7 @@ Note that lintr and Air might have conflicting advice on styling: you can [deact
 
 ### Improve with the new jarl CLI! :computer:\$
 
-Similar to Air, jarl formats your code, and like lintr, identifies potential problems, but unlike lintr, jarl also applies fixes!
+The jarl CLI lints and fixes your code, and like lintr, identifies potential problems, but unlike lintr, jarl also applies fixes!
 
 In the terminal:
 
