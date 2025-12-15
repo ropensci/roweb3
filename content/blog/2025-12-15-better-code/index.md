@@ -239,11 +239,11 @@ Another aspect to consider is whether you want flir and jarl to *make* the chang
 
 Artificial intelligence can be useful in coding applications but...
 
--   The best LLMs are not local;
+-   The best LLMs are [not local](https://www.simonpcouch.com/blog/2025-12-04-local-agents/);
 
 -   They cost money and are slower;
 
--   They are not deterministic so you don't necessarily get the same result every time you use it;
+-   They are not deterministic so you don't necessarily get the same result every time you use one of them;
 
 -   Their usage may entail some ideological and ethical problems which can be concerning or unattractive.
 
