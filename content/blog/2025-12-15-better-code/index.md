@@ -253,13 +253,13 @@ Ultimately, for such alerts and fixes, you just don't need to use an LLM... Air,
 
 You can improve your code without effort, without even AI, using:
 
--   {lintr} to signal "bad" patterns, including [customizable ones](https://github.com/r-lib/pkgdown/blob/c07d935583c90125586821e3b39ed52f16593e42/.lintr.R#L1);
+-   [{lintr}](https://lintr.r-lib.org/) to signal "bad" patterns, including [customizable ones](https://github.com/r-lib/pkgdown/blob/c07d935583c90125586821e3b39ed52f16593e42/.lintr.R#L1);
 
--   Air, to efficiently reformat code;
+-   [Air](https://posit-dev.github.io/air/), to efficiently reformat code;
 
--   jarl, to detect and fix "bad" patterns;
+-   [jarl](https://jarl.etiennebacher.com/), to detect and fix "bad" patterns;
 
--   {flir}, to efficiently refactor code with custom rules.
+-   [{flir}](https://flir.etiennebacher.com/), to efficiently refactor code with custom rules.
 
 As with all tools that modify your code, their usage is best complemented by a human review.
 
