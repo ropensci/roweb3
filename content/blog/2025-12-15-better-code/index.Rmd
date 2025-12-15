@@ -118,7 +118,7 @@ a <- system2("jarl", c("check", "test.R", "--fix", "--allow-dirty"))
 The jarl CLI is as fast for checking and fixing lints as Air is for styling.
 Furthermore, because it is a simple binary that does not need R to run, it's quicker to install on continuous integration.
 
-Nevertheless, since jarl is newer than lintr, it supports fewer rules for now.
+However, since jarl is newer than lintr, it supports fewer rules for now.
 
 ### Improve with the {flir} :package:
 
