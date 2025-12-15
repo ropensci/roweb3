@@ -22,10 +22,10 @@ We are experiencing a programming revolution, with the democratization of artifi
 
 In this post, we will introduce you to 
 
-- [lintr](https://lintr.r-lib.org/), an R package that detects many ways to improve your code; 
-- [Air](https://posit-dev.github.io/air/), a fast CLI (command-line interface) for formatting R code automatically and almost instantly; 
-- [jarl](https://jarl.etiennebacher.com/), another fast CLI (command-line interface) tool to find and automatically fix lints;
-- [flir](https://flir.etiennebacher.com/), an R package to efficiently rewrite patterns of code, either built-in ones or custom ones.
+- :package: [lintr](https://lintr.r-lib.org/), by [Michael Chirico and many others](https://lintr.r-lib.org/authors.html), an R package that detects many ways to improve your code; 
+- :computer:$ [Air](https://posit-dev.github.io/air/), by Lionel Henry and Davis Vaughan, a fast CLI (command-line interface) for formatting R code automatically and almost instantly; 
+- :computer:$ [jarl](https://jarl.etiennebacher.com/), by Etienne Bacher, another fast CLI (command-line interface) tool to find and automatically fix lints;
+- :package: [flir](https://flir.etiennebacher.com/), by Etienne Bacher, an R package to efficiently rewrite patterns of code, either built-in ones or custom ones.
 
 With these four wonderful tools, you can effortlessly improve your code, your colleagues' code... and even code proposed by AI.
 With a bit more effort, you might even internalize best practice and write better code from the get go in the future!
@@ -160,13 +160,6 @@ a <- file.remove("test.R")
 ```
 
 
-## Tooling
-
-The tools we used are:
-
-- :package: [{lintr}](https://lintr.r-lib.org/): R package to get informed of many code patterns, by [Michael Chirico and many others](https://lintr.r-lib.org/authors.html).
-- :computer:$ [Air](https://posit-dev.github.io/air/): CLI to format code, by Lionel Henry and Davis Vaughan.
-- :computer:$ [jarl](https://jarl.etiennebacher.com/): CLI to fix code patterns, by Etienne Bacher.
 - :package: [{flir}](https://flir.etiennebacher.com/): R package to fix custom code patterns, by Etienne Bacher.
 
 
