@@ -51,7 +51,7 @@ Let's start with a script containing a few problems... Can you spot them?
 
 Note that in this post, some tools are used in the R console, but others are used in the terminal, that you might also know as command line or [shell](https://12days.cmdchallenge.com/#/12days_2).
 
-### Learn what to improve with {lintr} :package:
+### Learn what to improve with the {lintr} R package :package:
 
 A first instinct might be to run the lintr package on the script. The `lint()` function performs static analysis and highlights potential problems in your R code, including formatting and programming suggestions.
 
@@ -178,7 +178,7 @@ The jarl CLI is as fast for checking and fixing lints as Air is for styling. Fur
 
 However, since jarl is newer than lintr, it supports fewer rules for now.
 
-### Improve with the {flir} :package:
+### Improve with the {flir} R package :package:
 
 You could complement the usage of lintr, Air and jarl with flir which is better at [*custom rules*](https://flir.etiennebacher.com/articles/adding_rules). For instance, what if you'd prefer your codebase to use [`rlang::abort()`](https://rlang.r-lib.org/reference/abort.html) instead of [`stop()`](https://rdrr.io/r/base/stop.html)?
 
