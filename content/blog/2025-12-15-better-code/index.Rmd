@@ -170,7 +170,7 @@ The tools we used are:
 - :package: [{flir}](https://flir.etiennebacher.com/): R package to fix custom code patterns, by Etienne Bacher.
 
 
-## How to use those tools
+## Integrating these tools into your workflow
 
 You could use those tools locally on your machine from time to time.
 For instance, when inheriting an older project, I will first renovate it using them.
