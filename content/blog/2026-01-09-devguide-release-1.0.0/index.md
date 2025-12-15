@@ -78,7 +78,7 @@ We updated our [testing guidance](https://devdevguide.netlify.app/pkg_building.h
 With particular thanks to [Alasdair Warwick ](https://github.com/rmgpanw), we improved the documentation :wink: of our documentation building system, including:
 
 - More details on the [technical aspects](https://devdevguide.netlify.app/pkg_ci#rodocsci) of docs building for rOpenSci packages;
-- Updated [math guidance](https://devdevguide.netlify.app/pkg_building.html#mathjax) for pkgdown based on pkgdown's update.
+- Updated [math guidance](https://devdevguide.netlify.app/pkg_building.html#mathjax) following pkgdown's update.
 
 ## Metadata & Package Information
 
