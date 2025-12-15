@@ -4,6 +4,7 @@ author:
 - Maëlle Salmon
 editor:
 - Etienne Bacher
+- Steffi LaZerte
 date: '2025-12-15'
 slug: better-code
 description: Useful local, free, deterministic tools to improve your code
@@ -11,12 +12,13 @@ output: hugodown::md_document
 tags:
   - best practice
   - tech notes
+  - package development
 params:
   doi: "10.59350/98899-51c03"
 ---
 
-We are experiencing a programming revolution, with the democratization of artificial intelligence... 
-But also with the creation and improvement of more old-school tools to improve your code: local, free, deterministic. 
+We are experiencing a programming revolution, with the democratization of artificial intelligence,
+*but* also with the creation and improvement of more traditional software tools to improve your code: local, free, deterministic. 
 
 In this post, we will introduce you to 
 
@@ -53,7 +55,7 @@ Note that in this post, some tools are used in the R console, but others are use
 ### Learn what to improve with {lintr} :package:
 
 A first instinct might be to run the lintr package on the script.
-The `lint()` function performs static analysis.
+The `lint()` function performs static analysis and highlights potential problems in your R code, including formatting and programming suggestions.
 
 ```{r, echo=TRUE,eval=FALSE}
 lintr::lint("test.R", linters = lintr::all_linters())
@@ -73,6 +75,7 @@ Even reading their documentation can teach you a lot, especially as the [list](h
 Now, based on these alerts, how could we improve the code? 
 
 ### Format with Air :computer:$
+Air is software which automatically formats your R code according to a set of rules.
 
 In the terminal:
 
