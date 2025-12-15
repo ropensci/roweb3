@@ -178,8 +178,8 @@ A real game changer is using the integration of these tools with your IDE.
 For instance, I have Positron set up so that [Air](https://posit-dev.github.io/air/editors.html) runs on my scripts when I save them.
 The jarl CLI also provides [integrations with IDEs](https://jarl.etiennebacher.com/editors).
 
-You could also use those tools on continuous integration.
-For instance, a workflow might [suggest formatting changes in Pull Requests](https://posit-dev.github.io/air/integration-github-actions.html#format-with-github-suggestions).
+You can also use those tools on continuous integration.
+For instance, a useful workflow might be to [suggest formatting changes on Pull Requests](https://posit-dev.github.io/air/integration-github-actions.html#format-with-github-suggestions).
 The use of suggestions rather than a direct commit means the contributor get a chance to learn about the improvements.
 
 Whether to ask flir and jarl to do changes as opposed to _alerting_ you about them depends on the context.
