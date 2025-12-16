@@ -2,6 +2,7 @@
 title: Code Hosting Options Beyond GitHub
 author: 
 - Mark Padgham
+- Steffi LaZerte
 editor:
 date: '2025-12-17'
 slug: beyond-github
@@ -21,7 +22,6 @@ editor:
 - Adam Sparks
 - Eric Scott
 - Doug Kelkhoff
-- Steffi LaZerte
 ---
 
 rOpenSci makes heavy use of GitHub for our projects and services, including [software peer-review](https://github.com/ropensci/software-review/issues?q=sort%3Aupdated-desc%20is%3Aissue%20state%3Aclosed).
