@@ -12,12 +12,12 @@
 {{ $scratch := newScratch }}
 
 {{ $scratch.Set "package" (slice "absolutelynotapackage" ) }}
-{{ range $registry.packages }}
+{{ range $registry }}
 {{ $scratch.Add "package" .Package }}
 {{ end }}
 
 {{ $scratch.Set "activepackage" (slice "absolutelynotapackage" ) }}
-{{ range $registry.packages }}
+{{ range $registry }}
 {{ $scratch.Add "activepackage" .Package }}
 {{ end }}
         <div class="row case-cards mt-5">
