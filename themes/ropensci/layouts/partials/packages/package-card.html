@@ -4,7 +4,7 @@
     <div class="category-card__heading">
       <div class="d-flex align-items-center flex-wrap">
         <div class="category-card__title">{{ .package.name }}</div>
-        {{ if eq .package.on_cran true }}
+        {{ if eq .package._cranurl true }}
         <a href="https://CRAN.R-project.org/package={{ .package.name }}" class="category-card__tag is-teal">CRAN</a>
         {{ end }}
         {{ if eq .package.on_bioc true }}
