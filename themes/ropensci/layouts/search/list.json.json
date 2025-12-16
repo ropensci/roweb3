@@ -53,7 +53,7 @@
   "type": "package",
 	"path": "https://docs.ropensci.org/{{ $page.Package }}",
 	"title": "{{ $page.Package}} - {{ $page.Title | chomp | replaceRE "\n" "" | htmlEscape }}",
-	"description": "{{ $page.Description }}",
+	"description": "",
 	"tags": ""
 }
 {{- end -}}
