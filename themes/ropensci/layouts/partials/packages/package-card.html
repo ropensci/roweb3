@@ -3,22 +3,22 @@
   <div class="col-md-8 offset-lg-1">
     <div class="category-card__heading">
       <div class="d-flex align-items-center flex-wrap">
-        <div class="category-card__title">{{ .package.name }}</div>
+        <div class="category-card__title">{{ .package.Package }}</div>
         {{ if eq .package._cranurl true }}
         <a href="https://CRAN.R-project.org/package={{ .package.name }}" class="category-card__tag is-teal">CRAN</a>
         {{ end }}
         {{ if eq .package.on_bioc true }}
         <a href="https://bioconductor.org/packages/{{ .package.name }}" class="category-card__tag is-teal">Bioconductor</a>
         {{ end }}
-        {{ if ne .package.onboarding "" }}
-        <a href="{{ .package.onboarding }}" class="category-card__tag is-linear">Peer-reviewed</a>
+        {{ if isset .package._metadata "review" }}
+        <a href="{{ .package._metadata.review.url }}" class="category-card__tag is-linear">Peer-reviewed</a>
         {{ end }}
         {{ if eq .package.staff_maintained true }}
         <a href="/about/#team" class="category-card__tag is-maintain">Staff maintained</a>
         {{ end }}
       </div>
       <p class="category-card__p">
-        {{ .package.description | replaceRE "\\'(.*?)\\'" "$1"}}
+        {{ .package.Title | replaceRE "\\'(.*?)\\'" "$1"}}
       </p>
     </div>
   </div>
@@ -27,13 +27,13 @@
       <div class="category-card__link-title">
         Maintainer
       </div>
-      {{ .package.maintainer }}
+      {{ .package.Maintainer  | replaceRE " <.*" "" }}
     </div>
   </div>
   <div class="col-md-8 offset-lg-1 order-2 order-md-3 category-card__body">
     <strong>Description</strong>
     <p>
-      {{ .package.details | replaceRE "\\'(.*?)\\'" "$1" | replaceRE "<doi:(.*?)>" "[doi:$1](https://doi.org/$1)"  | replaceRE "<arXiv(.*?)>" "[arXiv:$1](https://arxiv.org/abs/$1)"  | markdownify }}
+      {{ .package.Description | replaceRE "\\'(.*?)\\'" "$1" | replaceRE "<doi:(.*?)>" "[doi:$1](https://doi.org/$1)"  | replaceRE "<arXiv(.*?)>" "[arXiv:$1](https://arxiv.org/abs/$1)"  | markdownify }}
     </p>
     {{ if ne .package.type "archived" }}
     <a class="btn btn-linear" href="https://docs.ropensci.org/{{ .package.name }}">View Documentation</a>
