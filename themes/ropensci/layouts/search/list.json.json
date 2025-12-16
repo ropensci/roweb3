@@ -47,7 +47,7 @@
 }
 {{- end -}},
 {{ $registry := (resources.GetRemote .Site.Params.registry) | unmarshal }}
-{{ range $index, $page := $registry.packages }}
+{{ range $index, $page := $registry }}
 {{- if and $index (gt $index 0) -}},{{- end }}
 {
   "type": "package",

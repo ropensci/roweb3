@@ -1,9 +1,9 @@
 [{{ $registry := (resources.GetRemote .Site.Params.registry) | unmarshal }}
 {{ $Scratch := newScratch }}
 {{ if eq .Params.slug "all" }}
-{{ $Scratch.Set "pkgs" $registry.packages }}
+{{ $Scratch.Set "pkgs" $registry }}
 {{ else }}
-{{ $Scratch.Set "pkgs" ( where ($registry.packages) "ropensci_category" .Params.slug ) }}
+{{ $Scratch.Set "pkgs" ( where ($registry) "_metadata.ropensci_category" .Params.slug ) }}
 {{ end }}
 {{ $len := (len ($Scratch.Get "pkgs"))}}
 {{ range $key, $value := ($Scratch.Get "pkgs") }}
