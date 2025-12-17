@@ -149,7 +149,7 @@ The pure Git way of managing multiple remote sources is to take advantage of `gi
 An alternative option would be to initially create an additional remote like `git remote add other https://codeberg.org/ropensci/my-package`.
 A single `git remote` can also be assigned to multiple URLs.
 The first must be set with `git add`, or `git set-url` to add or update the URL of an existing remote.
-Additional URLs can then be added to a single `git remote` by using `git set-url --add` followed by the name of the remote.
+Additional URLs can then be added by using `git set-url --add` followed by the name of the remote.
 For example, `git set-url --add other https://gitlab.com/ropensci/my-package` would then specify both the Codeberg and GitLab URLs with the single `other` remote.
 Running `git push other <branch>` will then push that branch to both of these remote URLs.
 
