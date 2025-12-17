@@ -144,7 +144,7 @@ For each additional remote source, you'll need to add a remote URL with [`git re
 There are many ways to do this[^gitremotes].
 
 The pure Git way of managing multiple remote sources is to take advantage of `git remote set-url --add` to add additional URLs to a single remote identifier.
-[This blog post](https://jeffkreeftmeijer.com/git-multiple-remotes/) details how to do that safely, to ensure only one primary remote is configured to `fetch`, while allowing `push` events to all others.
+[Jeff Kreeftmeijer's blog post](https://jeffkreeftmeijer.com/git-multiple-remotes/) details how to do that safely, to ensure only one primary remote is configured to `fetch`, while allowing `push` events to all others.
 
 An alternative option would be to initially create an additional remote like `git remote add other https://codeberg.org/ropensci/my-package`.
 A single `git remote` can also be assigned to multiple URLs.
