@@ -52,6 +52,13 @@ You can still retain GitHub as your primary mirror, or migrate your primary mirr
 However you structure your code mirroring, the use of multiple code hosting sites instead of a single platform decreases your dependence on that single platform.
 Should that platform become unusable or undesirable for you, you'll already have the infrastructure in place to help your coding practices survive and thrive across multiple platforms.
 
+### Mirroring versus Migration
+
+The term "mirroring" is used here, and [throughout the official git documentation](https://git-scm.com/search/results?search=mirror&language=en), to imply a duplication of code, generally from local to remote locations.
+"Migration" implies moving code away from one location to a new location.
+Migration is neither necessary nor encouraged here, yet some sites nevertheless use this term, presumably as an implicit encouragement to do exactly that.
+Wherever "migration" is used below, please just think of a process of "mirroring" in which you code will always remain intact in the original location too.
+
 ### Updating Code Mirrors
 
 Code mirrors are only ever updated through `git push` events from local versions, or from other `git` events on the primary remote mirror.
@@ -61,13 +68,6 @@ In this diagram, the large yellow arrow between the primary remote and local rep
 All other arrows are `push` events only, and code is never `pull`ed from non-primary mirrors.
 
 {{< figure src = "local-remote.png" alt = "" class = "pull-left" caption = "Git interaction directions between local and remote repositories.">}}
-
-### Mirroring versus Migration
-
-The term "mirroring" is used here, and [throughout the official git documentation](https://git-scm.com/search/results?search=mirror&language=en), to imply a duplication of code, generally from local to remote locations.
-"Migration" implies moving code away from one location to a new location.
-Migration is neither necessary nor encouraged here, yet some sites nevertheless use this term, presumably as an implicit encouragement to do exactly that.
-Wherever "migration" is used below, please just think of a process of "mirroring" in which you code will always remain intact in the original location too.
 
 ## Mirroring to Codeberg or GitLab
 
