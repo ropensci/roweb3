@@ -218,7 +218,6 @@ Ongoing maintenance across different platforms will always present challenges, b
 
 If you're an author of an rOpenSci package, you can follow the steps described above to mirror your code to any location on Codeberg, GitLab, or to any other platform.
 Please let us know if you'd like any of these platforms other than GitHub to act as the primary home for your code, and we'll update our internal data accordingly.
-We recommend moving repositories either to personal namespaces on these platforms, or to other organizational namespaces to which you have administrative access.
 
 We also maintain the organizations [Codeberg/ropensci](https://codeberg.org/ropensci) and [GitLab/ropensci](https://gitlab.com/ropensci).
 Note, however, that mirroring to either of these locations must be initiated by rOpenSci staff, only after which can we grant you administrative access over your repositories.
