@@ -82,7 +82,7 @@ To start the process, click the large "+" button on the top right of the main me
 
 {{< figure src = "codeberg-new-migration.png" alt = "" class = "pull-left" caption = "Codeberg new repository migration button.">}}
 
-That will then open up the following grid of options from where you want to migrate your repository:
+That will then open up a grid of options from where you want to migrate your repository.
 
 {{< figure src = "codeberg-migration-options.png" alt = "Codeberg repository migration options shown as icons including Git, GitHub, GitLab, Forgejo, Gitea, Gogs, OneDev, and GitBucket" class = "pull-left" caption = "Codeberg repository migration options.">}}```
 
