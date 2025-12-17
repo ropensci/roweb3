@@ -135,7 +135,7 @@ Other code hosting platforms like [SourceHut](https://sr.ht/), or the distribute
 The goal here is to move from having code hosted on a single platform to distributing code across multiple platforms through _mirroring_. This reduces the risk of dependence on a single platform creating a single point of failure. Mirroring also allows you to use alternative platforms to GitHub, while will benefiting from GitHub operations used by other organizations (like rOpenSci!). To achieve this goal, you'll first need to add the new remote locations to your local git configuration, and then synchronize those remotes.
 
 As depicted in the first figure above, all remotes other than your "primary" code home should be considered `push` mirrors only, and never `pull`.
-In the rare case that conflicts from other sources arise, you may need to `git push --force` to _other_ remotes (or the [safer version of `git push --force-with-lease`](https://git-scm.com/docs/git-push#Documentation/git-push.txt---force-with-leaserefnameexpect)).
+In the rare case that conflicts from other sources arise, you may need to `git push --force` to _other_ remotes (or the [safer version, `git push --force-with-lease`](https://git-scm.com/docs/git-push#Documentation/git-push.txt---force-with-leaserefnameexpect)).
 You should never `git push --force` to the main branch of your primary source.
 
 ### Adding multiple remotes
