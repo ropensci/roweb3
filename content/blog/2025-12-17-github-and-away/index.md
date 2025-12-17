@@ -3,7 +3,6 @@ title: Code Hosting Options Beyond GitHub
 author: 
 - Mark Padgham
 - Steffi LaZerte
-editor:
 date: '2025-12-17'
 slug: beyond-github
 description: How to manage and mirror code repositories across different platforms.
