@@ -47,7 +47,7 @@ Every remote instance is a mirror.
 We will generally presume here that a repository has a primary remote home (such as GitHub), and some number of other mirrors.
 The primary remote home is also a "mirror", but it is generally useful to treat that primary home differently to other, secondary mirror locations, as explained below.
 
-The sole aim of this blog is to explain how you can set up additional, secondary mirror locations beyond GitHub alone.
+The sole aim of this post is to explain how you can set up additional, secondary mirror locations beyond GitHub alone.
 You can still retain GitHub as your primary mirror, or migrate your primary mirror elsewhere if you like.
 However you structure your code mirroring, the use of multiple code hosting sites instead of a single platform decreases your dependence on that single platform.
 Should that platform become unusable or undesirable for you, you'll already have the infrastructure in place to help your coding practices survive and thrive across multiple platforms.
