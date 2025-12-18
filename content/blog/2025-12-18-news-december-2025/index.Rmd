@@ -1,5 +1,5 @@
 ---
-slug: "news-november-2025"
+slug: "news-december-2025"
 title: rOpenSci News Digest, December 2025
 author:
   - The rOpenSci Team
@@ -47,7 +47,7 @@ Now let's dive into the activity at and around rOpenSci!
 ### rOpenSci at LatinR
 
 We proudly continued supporting LatinR as a community partner in 2025. 
-We shared resources and recordings for the [tutorial](/training/) and [talks](/talks/) by our staff
+Here we share a list of resources and recordings for the [tutorials](/training/) and [talks](/talks/) delivered by our staff and community memebers at LatinR.
 Discover more on the [LatinR YouTube channel](https://www.youtube.com/@LatinR).
 
 - "R-multiverse" by Maëlle Salmon, Will Landau, Yanina Bellini Saibene, [recording](https://www.youtube.com/watch?v=Nb6owmY5Iec), [slides](https://latinr25-multiverse.netlify.app/#/);
@@ -66,7 +66,7 @@ Find Maëlle Salmon's slidedecks from the [uRos (Use of R in Official Statistics
 
 ### Yani on the Give Me 5 Podcast
 
-Yani was recently interviewed on NumFOCUS’s new podcast, Give Me 5. You can watch the [5-minute episode](https://youtu.be/SqafLv6CYPI?si=ck9SP5maloKiRl2L).
+rOpenSci's community manager, Yani (Yanina Bellini Saibene), was recently interviewed on NumFOCUS’s new podcast, Give Me 5. You can watch the [5-minute episode](https://youtu.be/SqafLv6CYPI?si=ck9SP5maloKiRl2L).
 
 Yani's central message: people are the heart of open source. And when we invest in those people—maintainers, contributors, educators, and organizers—we strengthen the global scientific community.
 
@@ -79,7 +79,7 @@ Read [all about coworking](/blog/2023/06/21/coworking/)!
     -   Unsubscribe to all you no longer need (Let it go!);
     -   Meet co-host, Yanina Bellini Saibene, and discuss strategies for this New Year decluttering of your digital (or perhaps not-so-digital) life.
 -   Tuesday February 2nd, 9:00 Australia Western (01:00 UTC), ["Share your Positron setup!"](/events/coworking-2026-02/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Noam Ross](/author/noam-ross/).  
-    -   Setup Poistron and explore extensions and custom settings;
+    -   Setup Positron and explore extensions and custom settings;
     -   Meet community host, Noam Ross, share how you have set up Positron for your workflow and learn from others.
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
@@ -612,13 +612,13 @@ if (length(tech_notes) > 0) {
 
 If you're interested in maintaining any of the R packages below, you might enjoy reading our blog post [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/).
 
-[gutenbergr](https://docs.ropensci.org/gutenbergr/), download and process public domain works from the Project Gutenberg collection. [Issue for volunteering](https://github.com/ropensci/gutenbergr/issues/95).
+- [gutenbergr](https://docs.ropensci.org/gutenbergr/), download and process public domain works from the Project Gutenberg collection. [Issue for volunteering](https://github.com/ropensci/gutenbergr/issues/95).
 
-[mregions2](https://docs.ropensci.org/mregions2/), streamlined interface to access data from Marine Regions in R for researchers, marine scientists, and geospatial analysts seeking marine geographical information. [Issue for volunteering](https://github.com/ropensci/mregions2/issues/30).
+- [mregions2](https://docs.ropensci.org/mregions2/), streamlined interface to access data from Marine Regions in R for researchers, marine scientists, and geospatial analysts seeking marine geographical information. [Issue for volunteering](https://github.com/ropensci/mregions2/issues/30).
 
-[qualtRics](https://docs.ropensci.org/qualtRics/), download Qualtrics survey data. [Issue for volunteering](https://github.com/ropensci/qualtRics/issues/383).
+- [qualtRics](https://docs.ropensci.org/qualtRics/), download Qualtrics survey data. [Issue for volunteering](https://github.com/ropensci/qualtRics/issues/383).
 
-[photosearcher](https://docs.ropensci.org/photosearcher), searches Flickr for photographs and metadata. [Issue for volunteering](https://github.com/ropensci/photosearcher/issues/22).
+- [photosearcher](https://docs.ropensci.org/photosearcher), searches Flickr for photographs and metadata. [Issue for volunteering](https://github.com/ropensci/photosearcher/issues/22).
 
 
 ### Calls for contributions
@@ -633,7 +633,7 @@ Some useful tips for R package developers. :eyes:
 ### An Advent Calendar about Package Development
 
 [Athanasia Monika Mowinckel](https://drmowinckels.io/) has been curating an Advent Calendar about R Package Development!
-Follow her on [Blueksy](https://bsky.app/profile/drmowinckels.io/post/3m6tnwu2bfv27), [Mastodon](https://fosstodon.org/@Drmowinckels/115638077367401410), [LinkedIn](https://www.linkedin.com/in/drmowinckels/).
+Follow her on [Bluesky](https://bsky.app/profile/drmowinckels.io/post/3m6tnwu2bfv27), [Mastodon](https://fosstodon.org/@Drmowinckels/115638077367401410), [LinkedIn](https://www.linkedin.com/in/drmowinckels/).
 
 ### A new operator in base R: notin
 
