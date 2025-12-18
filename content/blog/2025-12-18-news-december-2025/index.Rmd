@@ -162,7 +162,7 @@ new <- dplyr::filter(
 
 The following `r if(nrow(new)>1) english(nrow(new))` package`r if(nrow(new)>1) "s"` recently became a part of our software suite:
 
-```{r, results='asis', cache = TRUE,eval=FALSE}
+```{r, results='asis', cache = TRUE,eval=TRUE}
 new$onboarding[new$package == "hdcuremodels"] <- "https://github.com/ropensci/software-review/issues/692"
 packages <- split(new, seq(nrow(new)))
 packages <- rev(packages)
@@ -534,7 +534,9 @@ format_post <- function(dir) {
   } else {
     string <- paste0(string, ".")  
   }
-  
+    if (post$title == "How to Assess Usage of your Package") {
+    string <- paste0(string, " This post was featured in the [R Weekly Highlights podcast](https://serve.podhome.fm/episodepage/r-weekly-highlights/216) hosted by Eric Nantz and Mike Thomas.")
+  }
   if (post$socialImg != "") {
     if (!startsWith(post$socialImg, "https")) {
     img_file <- fs::path_file(post$socialImg)
