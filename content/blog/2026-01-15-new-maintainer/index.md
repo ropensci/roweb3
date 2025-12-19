@@ -137,5 +137,5 @@ By:
 
 you give your project the best chance to continue, while also respecting your own time and energy.
 
-
+Do you have any other tips or ideas? Please share them. We would love to know!
 
