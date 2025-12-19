@@ -15,7 +15,7 @@ params:
   doi: ""
 ---
 
-Maintaining an open source package is rewarding work—but it’s also a lot of work. Life changes, interests shift, and sometimes you simply don’t have the time or energy to keep working on your package. When that happens, one of the most responsible things you can do for your users, and for yourself, is to **proactively look for a new maintainer or co-maintainer.**
+Maintaining an open source package is rewarding work, but it’s also a lot of work. Life changes, interests shift, and sometimes you simply don’t have the time or energy to keep working on your package. When that happens, one of the most responsible things you can do for your users, and for yourself, is to **proactively look for a new maintainer or co-maintainer.**
 
 This is a question we hear a lot at rOpenSci. Over the years, we’ve supported rOpenSci's package authors through this transition, helping them connect with potential maintainers, clarify expectations around the role, and make handovers smoother and more sustainable.
 
@@ -25,9 +25,7 @@ In this post, we share practical tips and strategies to help you find people tha
 
 Once you’ve decided to look for new maintainers or co-maintainers, communicate that clearly. A visible first step is to open an issue in your repository dedicated to this topic.
 
-Create an issue with a clear title, such as:
-
-> **Title:** Seeking new maintainer(s)
+Create an issue with a clear title, such as: "Seeking new maintainer(s)", "New maintainer wanted", "New co-maintainer(s) welcome" or "Looking for co-maintainers".
 
 In the body, you can include:
 
@@ -51,7 +49,9 @@ The README is the other place that many users will see. Add a short, highly visi
 
 ```markdown
 ⚠️ **Project status:** we are looking for a new maintainer.  
-If you’re interested in helping maintain this package, please see [this issue](link-to-issue) or get in touch at your_email@example.com.
+If you’re interested in helping maintain this package, 
+please see [this issue](link-to-issue) or 
+get in touch at your_email@example.com.
 ```
 
 This message will:
@@ -72,7 +72,7 @@ The best candidates for new maintainers are often already nearby:
 
 You can:
 
-- **Tag contributors** directly in the “Seeking new maintainer” issue (like the [rentrez package maintainer did](https://github.com/ropensci/rentrez/issues/203).
+- **Tag contributors** directly in the “Seeking new maintainer” issue, like the [rentrez package maintainer did](https://github.com/ropensci/rentrez/issues/203).
 - Send a short, polite email or message to a few people who have been especially active. Even if they say no, they may know someone else who would be a good fit.
 
 ## Announce it where your users are
