@@ -15,7 +15,6 @@ params:
   doi: ""
 ---
 
-# Introduction
 
 Maintaining an open source package is rewarding work—but it’s also a lot of work. Life changes, interests shift, and sometimes you simply don’t have the time or energy to keep working on your package.
 
