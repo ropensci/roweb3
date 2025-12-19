@@ -15,12 +15,11 @@ params:
   doi: ""
 ---
 
+Maintaining an open source package is rewarding work—but it’s also a lot of work. Life changes, interests shift, and sometimes you simply don’t have the time or energy to keep working on your package. When that happens, one of the most responsible things you can do for your users, and for yourself, is to **proactively look for a new maintainer or co-maintainer.**
 
-Maintaining an open source package is rewarding work—but it’s also a lot of work. Life changes, interests shift, and sometimes you simply don’t have the time or energy to keep working on your package.
+This is a question we hear a lot at rOpenSci. Over the years, we’ve supported rOpenSci's package authors through this transition, helping them connect with potential maintainers, clarify expectations around the role, and make handovers smoother and more sustainable.
 
-If you’re a package maintainer who needs to step back, you’re not alone. One of the most responsible things you can do for your users and for yourself is to **proactively look for a new maintainer**. 
-
-In this post, we share practical tips and strategies to help you find people that can contribute and take over your package base on what we do at rOpenSci with the packages that are part of our suite.
+In this post, we share practical tips and strategies to help you find people that can contribute and eventually take over your package, base on what we have learned supporting the packages that are part of the rOpenSci suite.
 
 ## Open an Issue: “Seeking New Maintainer”
 
