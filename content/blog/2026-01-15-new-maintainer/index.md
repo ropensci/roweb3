@@ -105,7 +105,7 @@ Add or improve a contributing guidelines is a great way to lower barriers for so
 - How you prefer to receive PRs (e.g., one feature per PR, must include tests, etc.).
 - Any release process notes.
 
-Also document the development and release process. If there are scripts, CI workflows, or manual steps you take to release a new version, you can document them in the README. The more you have documented clearly, the less hard it will feel for someone to say “yes” to maintaining.
+Also document the development and release process. If there are scripts, CI workflows, or manual steps you take to release a new version, you can document them in your documentation. The more you have documented clearly, the less hard it will feel for someone to say “yes” to maintaining.
 
 ## Clarify what you’re willing (and not willing) to do
 
