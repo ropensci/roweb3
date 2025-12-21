@@ -84,13 +84,13 @@ In 2025, this took shape through mini-hackathons designed to lower barriers to p
 
 _<TODO: add links to the guide>_
 
-We also attend and support several other conferences and events <TODO: add some links and stats of talks/tutorials>
+We also attend and support several other conferences and events _<TODO: add some links and stats of talks/tutorials/keynotes>_
 
 In 2026, we plan to continue organizing community calls in multiple human languages, co-working sessions, and mini-hackathons. If you want to collaborate in any of these spaces, please get in touch with us.  We also hope to see you in some of the R, open science, and open source conferences around the world.
 
 ## What we learned 
 
-Looking back, in 2025, we focused on being true to our core community values and delivering on commitments made the year before. Where plans evolved, they did so in response to capacity, collaboration, and community feedback, not as a retreat from our goals, but as a refinement of how to reach them.
+Looking back, in 2025, we focused on being true to our core community values and delivering on commitments made the year before. Where plans evolved, they did so in response to capacity, collaboration, and community feedback.
 
 Closing the loop between intention and action is an accountability and a learning practice. It helps us see which investments compound over time, which structures enable others to lead, and where care and sustainability matter most.
 
