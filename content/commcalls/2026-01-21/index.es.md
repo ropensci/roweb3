@@ -39,15 +39,15 @@ outputs:
 #     name:  "A Public Data Repository R package "
 #     details: "Youth Risk Behavior Surveillance System"
 speakers:  
-  - name: ""
+  - name: "Diana Garcia"
     bio: ""
-    img: /img/team/andrea-vargas.png
-  - name: ""
+    img: /img/team/diana-garcia.jpg
+  - name: "Erick Navarro"
     bio: ""
-    img: /img/team/cesar-luis-aybar-camacho-mentee.jpeg  
-  - name: ""
+    img: /img/team/erick-navarro-delgado.jpg  
+  - name: "Luis Verde Arregoitia"
     bio: ""
-    img: /img/team/francisco-cardozo.jpg
+    img: /img/team/luis-verde.jpeg
 tags:
   - community call
   - events
