@@ -43,7 +43,9 @@ Because the text has remained unchanged, the version number is kept at 2.5, date
 
 ## Committee Members Activities
 
-An important aspect of our work as Committee members is to make sure that the processes we follow are transparent, consistent, and fair. To support this work we’ve developed a set of templates that guide us through different stages of incident response and reporting. We shared openly these templates and explain them in detail in the [blog post "rOpenSci Code of Conduct Committee Templates"](https://ropensci.org/blog/2025/09/30/coc-templates/).  
+An important aspect of our work as Committee members is to make sure that the processes we follow are transparent, consistent, and fair. To support this work we’ve developed a set of templates that guide us through different stages of incident response and reporting. We shared openly these templates and explain them in detail in the [blog post "rOpenSci Code of Conduct Committee Templates"](https://ropensci.org/blog/2025/09/30/coc-templates/).
+
+Yanina Bellini Saibene attended the Session "" at the CZI meeting to discuss Code of Conduct best practices with other like minded organizations in the Open Science movement.
 
 We welcome your feedback by [email](mailto:conduct@ropensci.org) to conduct at ropensci.org, 
 and we thank you for continuing to work with us to ensure that rOpenSci remains a safe, 
