@@ -2,8 +2,8 @@
 title: rOpenSci Code of Conduct Annual Review
 author:
   - Yanina Bellini Saibene
-  - Mark Padgham
   - Natalia Morandeira
+  - Mark Padgham
 editor:
   - Steffi LaZerte
 date: '2026-01-20'
@@ -14,7 +14,7 @@ tags:
   - community
 description: Updates for version 2.5 of rOpenSci's Code of Conduct
 params: 
-  doi: 
+  doi: "10.59350/medx5-c3v86"
 ---
 
 rOpenSci’s activities and spaces are supported by a [Code of Conduct](/code-of-conduct/) 
