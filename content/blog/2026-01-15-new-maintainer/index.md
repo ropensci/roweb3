@@ -12,10 +12,10 @@ tags:
   - package development
   - tech notes
 params:
-  doi: ""
+  doi: "10.59350/teckx-0v214"
 ---
 
-Maintaining an open source package is rewarding work, but it’s also a lot of work. Life changes, interests shift, and sometimes you simply don’t have the time or energy to keep working on your package. When that happens, one of the most responsible things you can do for your users, and for yourself, is to **proactively look for a new maintainer or co-maintainer.**
+Maintaining an open source package is rewarding work, but it’s also a lot of work. Life and career changes, interests shift, and sometimes you simply don’t have the time or energy to keep working on your R package. When that happens, one of the most responsible things you can do for your users, and for yourself, is to **proactively look for a new maintainer or co-maintainer.**
 
 This is a question we hear a lot at rOpenSci. Over the years, we’ve supported rOpenSci's package authors through this transition, helping them connect with potential maintainers, clarify expectations around the role, and make handovers smoother and more sustainable.
 
@@ -84,26 +84,29 @@ Consider posting a brief announcement in places where your users or contributors
 - Social media (e.g., Mastodon, Bluesky, LinkedIn) using specific hashtags like #RStats.
 - Community forums, mailing lists, Slack/Discord channels relevant to your language/ecosystem.
 
-For example, rOpenSci [list "New maintainers" issues in our website](https://ropensci.org/help-wanted/), we shared on our social media and in our newsletter. 
+For example, rOpenSci [list "New maintainers" issues in our website](https://ropensci.org/help-wanted/), we shared on our social media and in [our newsletter](https://ropensci.org/blog/2025/12/18/news-december-2025/#calls-for-contributions). 
 
 ## Make the Package Contributor-Friendly
 
-If you want someone to take over, your package needs to be **approachable**.
+If you want someone to take over, your package needs to be **approachable**. Our [Dev Guide has an entire chapter on making packages contributor-friendly](https://devguide.ropensci.org/maintenance_collaboration.html), but here are some key points to consider.
 
 Ask yourself:
 
 - Could a new person understand how to build, test, and release this package from your repo alone?
-- Is there enough documentation to make contributing feel safe instead of risky?
+- Is there enough documentation to make contributing feel safe?
 
 Add or improve a contributing guidelines is a great way to lower barriers for someone to start acting like a maintainer, even before they officially take on the role. A good `CONTRIBUTING.md` can cover:
 
 - How to set up a development environment.
-- How to run tests.
+- Workflow preferences: Issue before a Pull Request? 
+- How you prefer to receive PRs (e.g., one feature per Pull Request, must include tests, etc.).
 - Code style or formatting guidelines.
-- How you prefer to receive PRs (e.g., one feature per PR, must include tests, etc.).
-- Any release process notes.
+- Any tests and how to run them.
+- Any release process notes, including scripts, CI workflows, or manual steps you take to release a new version. 
 
-Also document the development and release process. If there are scripts, CI workflows, or manual steps you take to release a new version, you can document them in your documentation. The more you have documented clearly, the less hard it will feel for someone to say “yes” to maintaining.
+rOpenSci further encourages contributing guides to include [a lifecycle statement clarifying visions and expectations for the future development of your package, like the skimr package](https://github.com/ropensci/skimr/blob/main/.github/CONTRIBUTING.md#understanding-the-scope-of-skimr).
+
+The more you have documented clearly, the less hard it will feel for someone to say “yes” to maintaining.
 
 ## Clarify what you’re willing (and not willing) to do
 
