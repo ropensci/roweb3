@@ -47,12 +47,12 @@
 }
 {{- end -}},
 {{ $registry := (resources.GetRemote .Site.Params.registry) | unmarshal }}
-{{ range $index, $page := $registry.packages }}
+{{ range $index, $page := $registry }}
 {{- if and $index (gt $index 0) -}},{{- end }}
 {
   "type": "package",
-	"path": "https://docs.ropensci.org/{{ $page.name }}",
-	"title": "{{ $page.name}} - {{ $page.description | chomp | replaceRE "\n" "" | htmlEscape }}",
+	"path": "https://docs.ropensci.org/{{ $page.Package }}",
+	"title": "{{ $page.Package}} - {{ $page.Title | chomp | replaceRE "\n" "" | htmlEscape }}",
 	"description": "",
 	"tags": ""
 }
