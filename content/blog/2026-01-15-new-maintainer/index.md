@@ -24,27 +24,71 @@ Over the years, we've supported rOpenSci's package authors through this transiti
 
 In this post, we share practical tips and strategies to help you find people that can contribute and eventually take over your package, based on what we have learned supporting the packages that are part of the rOpenSci suite.
 
+## Make the Package Contributor-Friendly
+
+If you want someone to take over, your package needs to be **approachable**.
+Our [Dev Guide has an entire chapter on making packages contributor-friendly](https://devguide.ropensci.org/maintenance_collaboration.html) and we also have a Community Call ["Set Up Your Package to Foster a Community"](https://ropensci.org/commcalls/apr2021-pkg-community/), but here are some key points to consider.
+
+Ask yourself:
+
+- Could a new person understand how to build, test, and release this package from your repo alone?
+- Is there enough documentation to make contributing feel safe?
+
+Add or improve a contributing guidelines is a great way to lower barriers for someone to start acting like a maintainer, even before they officially take on the role.
+A good`CONTRIBUTING.md` can cover:
+
+- How to set up a development environment.
+- Workflow preferences: Issue before a Pull Request?
+- How you prefer to receive PRs (e.g., one feature per Pull Request, must include tests, etc.).
+- Code style or formatting guidelines.
+- Any tests and how to run them.
+- Any release process notes, including scripts, CI workflows, or manual steps you take to release a new version.
+
+rOpenSci further encourages contributing guides to include [a lifecycle statement clarifying visions and expectations for the future development of your package, like the skimr package](https://github.com/ropensci/skimr/blob/main/.github/CONTRIBUTING.md#understanding-the-scope-of-skimr).
+
+The more you have documented clearly, the less hard it will feel for someone to say "yes" to maintaining.
+
+## Clarify what you're willing (and not willing) to do
+
+Potential maintainers will wonder:
+
+- Will you still be around for questions?
+- Will you keep some level of control, or are you fully handing over?
+- Are you looking for a **co-maintainer** or someone to **fully take over**?
+
+Be explicit. 
+For example:
+
+- "I'm stepping back but happy to answer a few questions during the transition."
+- "I'm looking for one or two co-maintainers and plan to stay on in a limited role."
+- "I'd like to hand over fully and remove myself as maintainer once the transition is complete."
+
+Setting clear boundaries helps others decide whether to volunteer and prevents misunderstandings later.
+
 ## Open an Issue: "Seeking New Maintainer"
 
-Once you've decided to look for new maintainers or co-maintainers, communicate that clearly.
+Once you've decided to look for new maintainers or co-maintainers, and how you plan to be involve with the project in the future, communicate that clearly.
 A visible first step is to open an issue in your repository dedicated to this topic.
 
 Create an issue with a clear title, such as: "Seeking new maintainer(s)", "New maintainer wanted", "New co-maintainer(s) welcome" or "Looking for co-maintainers".
 
 In the body, you can include:
 
-- **Why** you're stepping back (at a high level: time, interest, job change, etc.).
 - **What level of maintenance** is needed (bug fixes only, feature development, documentation, etc.).
-- **What you're looking for** in a new maintainer:
+- **What you're looking for** in a new contributor/co-maintainer:
   - Familiarity with the language/ecosystem?
   - Experience with testing or CI?
   - Comfort with releasing new versions?
 - **How to express interest** (comment on the issue, email you, etc.).
 - Any **timeline** you have in mind for the transition.
 
+Optionally you can also explain *Why* you’re stepping back (at a high level: time, interest, job change, etc.).
+
 This issue becomes the central place to discuss ownership changes and can later serve as a public record of the transition.
 
 [The rentrez package "New Maintainer(s)" issue](https://github.com/ropensci/rentrez/issues/203) is a good example of content, resources and followup conversation.
+
+If your repo is on GitHub you can _pin_ this issue and it will be show n at the top of the Issues tab, making it more visible to visitors.
 
 ## Update your README to reflect the package's status
 
@@ -90,46 +134,13 @@ Consider posting a brief announcement in places where your users or contributors
 
 For example, rOpenSci [list "New maintainers" issues in our website](https://ropensci.org/help-wanted/), we share them on our social media and in our [newsletter](https://ropensci.org/blog/2025/12/18/news-december-2025/#calls-for-contributions).
 
-## Make the Package Contributor-Friendly
+## Add a package startup message  
 
-If you want someone to take over, your package needs to be **approachable**.
-Our [Dev Guide has an entire chapter on making packages contributor-friendly](https://devguide.ropensci.org/maintenance_collaboration.html), but here are some key points to consider.
+At certain point, you can consider adding a startup message that informs users about the maintainer search.
 
-Ask yourself:
+In this message you can link to the "Seeking new maintainer" issue and encourage users to check it out if they're interested in helping.
 
-- Could a new person understand how to build, test, and release this package from your repo alone?
-- Is there enough documentation to make contributing feel safe?
-
-Add or improve a contributing guidelines is a great way to lower barriers for someone to start acting like a maintainer, even before they officially take on the role.
-A good`CONTRIBUTING.md` can cover:
-
-- How to set up a development environment.
-- Workflow preferences: Issue before a Pull Request?
-- How you prefer to receive PRs (e.g., one feature per Pull Request, must include tests, etc.).
-- Code style or formatting guidelines.
-- Any tests and how to run them.
-- Any release process notes, including scripts, CI workflows, or manual steps you take to release a new version.
-
-rOpenSci further encourages contributing guides to include [a lifecycle statement clarifying visions and expectations for the future development of your package, like the skimr package](https://github.com/ropensci/skimr/blob/main/.github/CONTRIBUTING.md#understanding-the-scope-of-skimr).
-
-The more you have documented clearly, the less hard it will feel for someone to say "yes" to maintaining.
-
-## Clarify what you're willing (and not willing) to do
-
-Potential maintainers will wonder:
-
-- Will you still be around for questions?
-- Will you keep some level of control, or are you fully handing over?
-- Are you looking for a **co-maintainer** or someone to **fully take over**?
-
-Be explicit.
-For example:
-
-- "I'm stepping back but happy to answer a few questions during the transition."
-- "I'm looking for one or two co-maintainers and plan to stay on in a limited role."
-- "I'd like to hand over fully and remove myself as maintainer once the transition is complete."
-
-Setting clear boundaries helps others decide whether to volunteer and prevents misunderstandings later.
+This is an aggressive move and may annoy some users, so consider it only if your package has a lot of active users and you haven't had much luck finding a new maintainer through other channels.
 
 ## It's Okay to Step Back
 
