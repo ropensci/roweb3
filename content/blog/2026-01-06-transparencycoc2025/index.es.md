@@ -5,7 +5,7 @@ author:
   - Yanina Bellini Saibene
   - Natalia Morandeira
   - Mark Padgham
-date: 2026-01-21
+date: 2026-01-06
 tags:
   - comunidad
   - código de conducta
