@@ -40,13 +40,13 @@ outputs:
 #     details: "Youth Risk Behavior Surveillance System"
 speakers:  
   - name: "Diana Garcia"
-    bio: ""
+    bio: "Bióloga Computacional del Breast Oncology Program en el Dana Farber Cancer Institute, donde investiga las alteraciones del genoma asociadas a resistencia a terapias en cáncer de mama mestastático. Tiene un doctorado en Ciencias Biomédicas y una maestría en Ciencias de la Computación y experiencia desarrollando software tanto en la academia como en la industria. Disfruta mucho enseñar programación, fue profesora en CETYS Universidad, Campus Tijuana, y tallerista en la Escuela de Código Pilares en CDMX. Forma parte de R-Ladies Boston y del programa de campeones de rOpenSci, previamente participó en PyLadies CDMX y en Women Who Code CDMX."
     img: /img/team/diana-garcia.jpg
   - name: "Erick Navarro"
-    bio: ""
+    bio: " licenciado en biología por la Universidad Nacional Autónoma de México, y candidato a Doctor en Bioinformática por The University of British Columbia. Actual campeón del Programa de rOpenSci."
     img: /img/team/erick-navarro-delgado.jpg  
   - name: "Luis Verde Arregoitia"
-    bio: ""
+    bio: "Doctor en Biología con amplia experiencia en programación R para el análisis de datos, visualización y modelado estadístico. Autor de varios paquetes de R y mentor en dos cohortes del programa de rOpenSci, donde ha apoyado a desarrolladores de software en R de América Latina."
     img: /img/team/luis-verde.jpeg
 tags:
   - community call
