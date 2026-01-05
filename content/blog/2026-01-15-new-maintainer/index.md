@@ -24,7 +24,7 @@ Over the years, we've supported rOpenSci's package authors through this transiti
 
 In this post, we share practical tips and strategies to help you find people that can contribute and eventually take over your package, based on what we have learned supporting the packages that are part of the rOpenSci suite.
 
-## Make the Package Contributor-Friendly
+## Make the package contributor-friendly
 
 If you want someone to take over, your package needs to be **approachable**.
 Our [Dev Guide has an entire chapter on making packages contributor-friendly](https://devguide.ropensci.org/maintenance_collaboration.html) and we also have a Community Call ["Set Up Your Package to Foster a Community"](https://ropensci.org/commcalls/apr2021-pkg-community/), but here are some key points to consider.
@@ -65,7 +65,7 @@ For example:
 
 Setting clear boundaries helps others decide whether to volunteer and prevents misunderstandings later.
 
-## Open an Issue: "Seeking New Maintainer"
+## Open an issue: "Seeking New Maintainer"
 
 Once you've decided to look for new maintainers or co-maintainers, and how you plan to be involve with the project in the future, communicate that clearly.
 A visible first step is to open an issue in your repository dedicated to this topic.
@@ -110,7 +110,7 @@ This message will:
 
 You can also add a **"Project Status"** section in the README that gives a bit more context (e.g., "maintenance mode," "new features unlikely without new maintainers," etc.).
 
-## Reach Out to Existing Contributors and Power Users
+## Reach out to existing contributors and power users
 
 The best candidates for new maintainers are often already nearby:
 
@@ -142,7 +142,7 @@ In this message you can link to the "Seeking new maintainer" issue and encourage
 
 This is an aggressive move and may annoy some users, so consider it only if your package has a lot of active users and you haven't had much luck finding a new maintainer through other channels.
 
-## It's Okay to Step Back
+## It's okay to step back
 
 Stepping down from maintaining a package it's a normal part of the open source life cycle.
 
