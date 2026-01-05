@@ -1,5 +1,5 @@
 ---
-title: How to Find a New Maintainer for Your Package
+title: How to Recruit a New Maintainer for Your Package
 author: 
 - Yanina Bellini Saibene
 editor:
@@ -15,11 +15,11 @@ params:
   doi: "10.59350/teckx-0v214"
 ---
 
-Maintaining an open source package is rewarding work, but it’s also a lot of work. Life and career changes, interests shift, and sometimes you simply don’t have the time or energy to keep working on your R package. When that happens, one of the most responsible things you can do for your users, and for yourself, is to **proactively look for a new maintainer or co-maintainer.**
+Maintaining an open source package is rewarding work, but it’s also a [lot of work](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/). Life and career changes, interests shift, and sometimes you simply don’t have the time or energy to keep working on your R package. When that happens, one of the most responsible things you can do for users of your package, and for yourself, is to **proactively look for a new maintainer or co-maintainer.**
 
-This is a question we hear a lot at rOpenSci. Over the years, we’ve supported rOpenSci's package authors through this transition, helping them connect with potential maintainers, clarify expectations around the role, and make handovers smoother and more sustainable.
+How to recruit a new maintainer, is a question we hear a lot at rOpenSci. Over the years, we’ve supported rOpenSci's package authors through this transition, helping them connect with potential maintainers, clarify expectations around the role, and make handovers smoother and more sustainable.
 
-In this post, we share practical tips and strategies to help you find people that can contribute and eventually take over your package, base on what we have learned supporting the packages that are part of the rOpenSci suite.
+In this post, we share practical tips and strategies to help you find people that can contribute and eventually take over your package, based on what we have learned supporting the packages that are part of the rOpenSci suite.
 
 ## Open an Issue: “Seeking New Maintainer”
 
@@ -77,14 +77,14 @@ You can:
 
 ## Announce it where your users are
 
-Now that your package repo has clear messages and a place to express interes and a clear way of communicate with you, is a good idea to spread the word beyond your repo.
+Now that your package repo has clear messages and a place to express interest and a clear way of communicate with you, is a good idea to spread the word beyond your repo.
 
 Consider posting a brief announcement in places where your users or contributors are likely to see it:
 
 - Social media (e.g., Mastodon, Bluesky, LinkedIn) using specific hashtags like #RStats.
 - Community forums, mailing lists, Slack/Discord channels relevant to your language/ecosystem.
 
-For example, rOpenSci [list "New maintainers" issues in our website](https://ropensci.org/help-wanted/), we shared on our social media and in [our newsletter](https://ropensci.org/blog/2025/12/18/news-december-2025/#calls-for-contributions). 
+For example, rOpenSci [list "New maintainers" issues in our website](https://ropensci.org/help-wanted/), we share them on our social media and in our [newsletter](https://ropensci.org/blog/2025/12/18/news-december-2025/#calls-for-contributions). 
 
 ## Make the Package Contributor-Friendly
 
