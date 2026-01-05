@@ -68,7 +68,7 @@ Durante febrero realizaremos dos **clínicas de aplicación**, espacios abiertos
 Las postulaciones se realizarán a través de formularios en línea:
 
 - Postularse para Campeon(a|e)s y 
-- Postularse para Mentor(a|e)s), 
+- [Postularse para Mentor(a|e)s) completando el formulario](https://airtable.com/appF6OXmxkk8VmR8a/shrZnWDRKxXUEmLRM), 
 
 Estos formularios también están disponibles en el [sitio web del programa]().
 
