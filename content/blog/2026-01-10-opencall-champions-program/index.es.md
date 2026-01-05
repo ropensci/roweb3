@@ -8,7 +8,7 @@ date: '2026-01-10'
 slug: championsprogram2026
 tags:
   - champions program
-description: 
+description: ya podés postular para participar del programa de campen(a|e)s de 2026. Buscamos personas para que participen en roles de mentoría y para ser campeones y campeonas.
 params: 
   doi: ""
 ---
