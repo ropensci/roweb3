@@ -23,27 +23,18 @@ outputs:
 # vimeo: 
 #   - id: '1067708090'
 # resources:
-#   - url: https://soyandrea.github.io/arcenso/
+#   - url: 
 #     name: "Paquete arcenso"
-#     details: "arcenso is a package under development that will allow access to the official data of the national population censuses in Argentina from the National Institute of Statistics and Census - INDEC."
-#   - url: https://github.com/r-earthengine/rgeeExtra
-#     name: "Paquete rgeeExtra"
-#     details: "rgeeExtra es un paquete que amplía las capacidades del paquete rgee, que permite utilizar Google Earth Engine en R."
-#   - url: https://ropenscilabs.github.io/ChampionsProgram/
-#     name: "Programa de Campeon(a|e)s de rOpenSci"
-#     details: "Sitio Web del Programa de Campeon(a|e)s de rOpenSci en español"
-#   - url: https://francisco-cardozo.shinyapps.io/r-sna-packages/
-#     name: "SNA Packages Explorer"
-#     details: "This Shiny application provides an interactive overview of R packages used in network analysis."
-#   - url: https://ccani007.github.io/dissertationData/
-#     name:  "A Public Data Repository R package "
-#     details: "Youth Risk Behavior Surveillance System"
+#     details: ""
+#   - url: 
+#     name: ""
+#     details: ""
 speakers:  
   - name: "Diana Garcia"
     bio: "Bióloga Computacional del Breast Oncology Program en el Dana Farber Cancer Institute, donde investiga las alteraciones del genoma asociadas a resistencia a terapias en cáncer de mama mestastático. Tiene un doctorado en Ciencias Biomédicas y una maestría en Ciencias de la Computación y experiencia desarrollando software tanto en la academia como en la industria. Disfruta mucho enseñar programación, fue profesora en CETYS Universidad, Campus Tijuana, y tallerista en la Escuela de Código Pilares en CDMX. Forma parte de R-Ladies Boston y del programa de campeones de rOpenSci, previamente participó en PyLadies CDMX y en Women Who Code CDMX."
     img: /img/team/diana-garcia.jpg
   - name: "Erick Navarro"
-    bio: " licenciado en biología por la Universidad Nacional Autónoma de México, y candidato a Doctor en Bioinformática por The University of British Columbia. Actual campeón del Programa de rOpenSci."
+    bio: "Licenciado en biología por la Universidad Nacional Autónoma de México, y candidato a Doctor en Bioinformática por The University of British Columbia. Actual campeón del Programa de rOpenSci."
     img: /img/team/erick-navarro-delgado.jpg  
   - name: "Luis Verde Arregoitia"
     bio: "Doctor en Biología con amplia experiencia en programación R para el análisis de datos, visualización y modelado estadístico. Autor de varios paquetes de R y mentor en dos cohortes del programa de rOpenSci, donde ha apoyado a desarrolladores de software en R de América Latina."
