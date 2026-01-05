@@ -1,5 +1,5 @@
 ---
-slug: "transparencyCoC2025"
+slug: "transparenciaCoC2025"
 title: Reporte de Transparencia del Código de Conducta de rOpenSci 2025
 author:
   - Yanina Bellini Saibene
