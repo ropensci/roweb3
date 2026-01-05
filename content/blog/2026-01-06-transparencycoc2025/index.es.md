@@ -1,6 +1,6 @@
 ---
 slug: "transparenciaCoC2025"
-title: Reporte de Transparencia del Código de Conducta de rOpenSci 2025
+title: "Reporte de Transparencia del Código de Conducta de rOpenSci 2025"
 author:
   - Yanina Bellini Saibene
   - Natalia Morandeira
@@ -10,7 +10,7 @@ tags:
   - comunidad
   - código de conducta
   - governanza
-description: Reporte de Transparencia del Código de Conducta de rOpenSci 2025
+description: "Reporte de Transparencia del Código de Conducta de rOpenSci 2025"
 params:
   doi: "10.59350/vwhmp-28h41"
 ---
