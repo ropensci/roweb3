@@ -13,7 +13,7 @@ params:
   doi: ""
 ---
 
-Nos alegra anunciar la apertura de un nuevo llamado al **Programa de Campeonas y Campeones de rOpenSci**, que dará inicio en 2026. A partir del **10 de enero de 2026** y hasta **8 de marzo de 2026**, estaremos recibiendo postulaciones tanto para el rol de **Campeon(a|e)s** como de **Mentor(a|e)s**.
+Nos alegra anunciar la apertura de un nuevo llamado al **Programa de Campeonas y Campeones de rOpenSci**, que dará inicio en 2026. A partir del **10 de enero de 2026** y hasta **2 de marzo de 2026**, estaremos recibiendo postulaciones tanto para el rol de **Campeon(a|e)s** como de **Mentor(a|e)s**.
 
 Al igual que en la cohorte anterior, el programa se desarrollará **completamente en castellano** y tendrá un **foco regional en América Latina**, con el objetivo de seguir fortaleciendo el ecosistema de software de investigación y ciencia abierta en la región.
 
