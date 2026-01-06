@@ -39,7 +39,7 @@ el proceso de reporte de incidentes y las directrices internas para gestionar es
 
 Dado que el texto no ha cambiado, el número de versión se mantiene en 2.5, con fecha de 30 de enero de 2024.
 
-## Actividades de los miembros del Comité
+## Actividades del Comité
 
 Un aspecto importante de nuestro trabajo como miembros del Comité es asegurarnos de que los procesos que seguimos son transparentes, coherentes y justos. Para facilitar este trabajo hemos desarrollado un conjunto de plantillas que nos guían a través de las diferentes etapas de la respuesta a incidentes y la elaboración de informes. Compartimos abiertamente estas plantillas y las explicamos en detalle en el [artículo "Plantillas del Comité del Código de Conducta de rOpenSci".](https://ropensci.org/blog/2025/09/30/coc-templates/).
 
