@@ -1,8 +1,8 @@
 ---
 title: Clinica de Aplicación para el Programa de Campeon(e|a)s de rOpenSci
-dateStart: 2026-02-05T13:00:00 # UTC!!
-dateEnd: 2026-02-05T15:00:00 # UTC!!
-date: 2026-02-05T15:00:00 # UTC!! same as dateEnd
+dateStart: 2026-02-05T15:00:00 # UTC!!
+dateEnd: 2026-02-05T17:00:00 # UTC!!
+date: 2026-02-05T17:00:00 # UTC!! same as dateEnd
 description: Espacio para preguntas sobre el programa de Campeon(e|a)s de rOpenSci y para trabajar en tu aplicación para ser parte del programa.
 coworking: true
 location: 'online' # free text
