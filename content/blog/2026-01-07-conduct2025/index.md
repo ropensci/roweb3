@@ -35,15 +35,19 @@ reporting process, and internal guidelines for handling reports and enforcement.
     We are responsible for receiving, investigating, adjudicating, enforcing, 
     and responding to all reports of potential violations of our Code.
 
+
 2.  No changes have been made to the text of the Code in English, Spanish or Portuguese.
 
-Because the text has remained unchanged, the version number is kept at 2.5, dated January 30, 2024.
+
+3. Because the text has remained unchanged, the version number is kept at 2.5, dated January 30, 2024.
 
 ## Committee Members Activities
 
 An important aspect of our work as Committee members is to make sure that the processes we follow are transparent, consistent, and fair. To support this work we’ve developed a set of templates that guide us through different stages of incident response and reporting. We shared openly these templates and explain them in detail in the [blog post "rOpenSci Code of Conduct Committee Templates"](https://ropensci.org/blog/2025/09/30/coc-templates/).
 
 Yanina Bellini Saibene attended the _BoF "Community safety and wellbeing: Can we do more than “good enough”?_ at the Open Science CZI meeting to discuss Code of Conduct best practices with other organizations in the Open Science movement.
+
+## Contact Information
 
 We welcome your feedback by [email](mailto:conduct@ropensci.org) to conduct at ropensci.org, 
 and we thank you for continuing to work with us to ensure that rOpenSci remains a safe, enjoyable, friendly and enriching environment for everyone who participates.
