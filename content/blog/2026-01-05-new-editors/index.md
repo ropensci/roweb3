@@ -2,7 +2,7 @@
 slug: editors2025
 title: 'Announcing New Statistical Software Peer Review Editors: Natalia Da Silvia and Andrew Heiss'
 author:
-    - Natalia Da Silvia
+    - Natalia da Silvia
     - Andrew Heiss
     - Yanina Bellini Saibene
 editor:
