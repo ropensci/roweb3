@@ -5,7 +5,7 @@ author:
 - Natalia Morandeira
 - Mark Padgham
 date: '2026-01-07'
-slug: conduct2025
+slug: conducta2025
 tags:
 - código de conducta
 - gobernanza
