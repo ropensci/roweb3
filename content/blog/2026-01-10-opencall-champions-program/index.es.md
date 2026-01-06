@@ -6,9 +6,10 @@ editor:
   - Steffi LaZerte
 date: '2026-01-10'
 slug: programachamps2026
+featured: true
 tags:
   - champions program
-description: ya podés postular para participar del programa de campen(a|e)s de 2026. Buscamos personas para que participen en roles de mentoría y para ser campeones y campeonas.
+description: Ya puedes postular para participar del programa de campen(a|e)s de 2026. Buscamos personas para que participen en roles de mentoría y para ser campeones y campeonas.
 params: 
   doi: ""
 ---
@@ -19,7 +20,7 @@ Al igual que en la cohorte anterior, el programa se desarrollará **completament
 
 ## ¿Qué es el Programa de Campeonas y Campeones?
 
-El Programa de Campeonas y Campeones de rOpenSci busca identificar, acompañar y reconocer a personas que ya están liderando —o que quieren dar un paso más— en la construcción de comunidades de ciencia abierta y software de investigación sostenible.
+El Programa busca identificar, acompañar y reconocer a personas que ya están liderando, o que quieren dar un paso más, en la construcción de comunidades de ciencia abierta y software de investigación sostenible.
 
 A lo largo de **12 meses**, las personas seleccionadas participarán de:
 
@@ -47,7 +48,8 @@ Buscamos personas que:
 Invitamos a postularse como mentoras o mentores a personas que:
 
 - Tengan experiencia desarrollando, manteniendo o contribuyendo a paquetes de R (idealmente dentro del ecosistema rOpenSci, aunque no es excluyente).
-- Hayan participado en procesos de revisión por pares de software o tengan experiencia relevante en mentoría.
+- Hayan participado en procesos de revisión por pares de software. 
+- Tengan experiencia relevante en mentoría.
 - Tengan interés en acompañar a otras personas, compartir experiencias y contribuir activamente al crecimiento del programa.
 - Puedan comunicarse efectivamente en español (oral y escrito).
 - Acepten nuestro código de conducta y puedan comprometerse a participar en las actividades del programa organizadas para mentores y mentoras durante estos 12 meses.
@@ -67,8 +69,8 @@ Durante febrero realizaremos dos **clínicas de aplicación**, espacios abiertos
 
 Las postulaciones se realizarán a través de formularios en línea:
 
-- [Postularse para Campeon(a|e)s completando el formulario.](https://airtable.com/appF6OXmxkk8VmR8a/shrlvgcNz1R4CoaQN)
-- [Postularse para Mentor(a|e)s) completando el formulario](https://airtable.com/appF6OXmxkk8VmR8a/shrZnWDRKxXUEmLRM), 
+- [Completa este formulario para postularte para ser Campeon(a|e)s](https://airtable.com/appF6OXmxkk8VmR8a/shrlvgcNz1R4CoaQN)
+- [Completa este formulario para postularte para ser Mentor(a|e)s)](https://airtable.com/appF6OXmxkk8VmR8a/shrZnWDRKxXUEmLRM), 
 
 Estos formularios también están disponibles en el [sitio web del programa](https://champions-program.ropensci.org).
 
@@ -81,12 +83,13 @@ Ser parte del Programa de Campeonas y Campeones de rOpenSci significa:
 - Desarrollar o fortalecer un proyecto de software de investigación con acompañamiento experto.
 - Formar parte de una red regional de personas comprometidas con la ciencia abierta y el software libre.
 - Adquirir herramientas técnicas y habilidades de liderazgo comunitario.
-- Contribuir activamente a un ecosistema de software más diverso, sostenible e inclusivo.
+- Recibir apoyo para compartir tu trabajo y tus experiencias con tu comunidad o institución y en eventos regionales e internacionales.
+- Contribuir activamente a un ecosistema de software abierto más diverso, sostenible e inclusivo.
 
 ## Más información
 
-En el sitio web podes ecnontrar el cronograma detallado de actividades y la información completa del programa, como también los proyectos realizados por las cohortes anteriores y los otros tipos de actividades llevadas adelante por las personas participantes.
+En [el sitio web](https://champions-program.ropensci.org/) podes encontrar el cronograma detallado de actividades y la información completa del programa, como también [los proyectos realizados por las cohortes anteriores](https://champions-program.ropensci.org/galeria/#proyectos) y los otros tipos de actividades llevadas adelante por las personas participantes.
 
 Si tienen preguntas, los invitamos a participar de la *Conversación con la comunidad* de enero o a sumarse a las *clínicas de aplicación* en febrero.
 
-¡Esperamos sus postulaciones y nos entusiasma seguir construyendo comunidad en América Latina junto a ustedes!
+¡Esperamos sus postulaciones con mucho entusiasmo! Queremos seguir construyendo comunidad en América Latina junto a ustedes.
