@@ -24,7 +24,7 @@ outputs:
 #   - id: '1067708090'
 # resources:
 #   - url: 
-#     name: "Paquete arcenso"
+#     name: ""
 #     details: ""
 #   - url: 
 #     name: ""
