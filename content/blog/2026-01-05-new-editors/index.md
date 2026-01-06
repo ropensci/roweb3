@@ -26,7 +26,7 @@ Meet our new editors!
 
 ## Natalia Da Silvia
 
-{{< imgtxt src = "/img/team/natalia-da-silva.jpeg" width = "200" alt = "headshot of Natalia Da Silva">}}
+{{< imgtxt src = "/img/team/natalia-da-silva.png" width = "200" alt = "headshot of Natalia da Silva">}}
 
 TODO: Add image of Natalia 
 TODO: Brief bio of Natalia Da Silvia (role, affiliation, background).
