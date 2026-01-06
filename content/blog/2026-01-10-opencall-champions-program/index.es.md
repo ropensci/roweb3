@@ -58,7 +58,7 @@ Invitamos a postularse como mentoras o mentores a personas que:
 
 - **Apertura de la convocatoria:** Viernes 9 de enero de 2026
 - [**Conversación con la comunidad informativa:** Miércoles 21 de enero de 2026](/es/commcalls/champions-latino-2025/)
-- **Clínicas de aplicación:** Jueves 5 de febrero de 2026
+- [**Clínicas de aplicación:** Jueves 5 de febrero de 2026](/events/clinica-champions-2026/)
 - **Cierre de la convocatoria:** Lunes 2 de marzo de 2026
 
 La *Conversación con la comunidad* del 21 de enero contará con la participación de **campeonas, campeones y mentores de cohortes anteriores**, quienes compartirán sus experiencias y responderán preguntas sobre el programa.  ¡Los invitamos a sumarse!
