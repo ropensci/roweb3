@@ -49,7 +49,14 @@ TODO: Insert a short quote from Natalia about joining the editorial team
 
 
 TODO: Add image of Andrew Heiss
-TODO: Brief bio of Andrew Heiss (role, affiliation, background).
+Andrew is an assistant professor of public policy at the Andrew Young School of Policy Studies at Georgia State University. He has a PhD in public policy from Duke University. His research focuses on the role of civil society and international nongovernmental organizations in global politics, and his with published work spans international relations, comparative politics, public administration, and nonprofit management. He also researches applied social science methods and writes ([quRan](https://github.com/andrewheiss/quRan), [scriptuRs](https://github.com/andrewheiss/scriptuRs)), maintains ([qatarcars](https://profmusgrave.github.io/qatarcars/), [colourlovers](https://cloud.r-project.org/web/packages/colourlovers/index.html)), and contributes to ([marginaleffects](https://marginaleffects.com/), [equatiomatic](https://datalorax.github.io/equatiomatic/)) many R packages. He has also developed several Quarto extensions ([hikmah-academic-quarto](https://github.com/andrewheiss/hikmah-academic-quarto), [quarto-wordcount](https://github.com/andrewheiss/quarto-wordcount), [fancy-epigraphs](https://github.com/andrewheiss/fancy-epigraphs-quarto), [language-name](https://github.com/andrewheiss/language-name)). [He teaches](https://www.andrewheiss.com/teaching/) courses in statistics, data science, data visualization, economics, and global politics. He is also an RStudio certified instructor and Posit Academy mentor.
+
+Andrew on [website](https://www.andrewheiss.com/), [Bluesky](https://bsky.app/profile/andrew.heiss.phd), [GitHub](https://github.com/andrewheiss)
+
+> I learned about rOpenSci in 2019 when I reviewed rtweet and I loved the whole review process and how transparent and collaborative everything felt—it was a wild contrast from standard academic peer review! Since then, I've held rOpenSci's package guidelines, documentation standards, and review process as a gold standard for my own work. I love the rOpenSci community and everything they do to contribute to the broader R community and open science movement and I'm thrilled to be able to join in as an editor!
+>
+> —Andrew Heiss
+
 
 {{< /imgtxt >}}
 
