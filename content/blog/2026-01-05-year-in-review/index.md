@@ -84,7 +84,6 @@ One of the goals for 2025 was to create more opportunities for people to engage 
 
 In 2025, this took shape through mini-hackathons designed to lower barriers to participation. These events combined practical contribution opportunities with mentoring and social connection, reinforcing the idea that open source work is collaborative and learned through doing. [We wrote a guide to share our lessons learned organizing this type of event](https://ftc-guide.ropensci.org). Revisiting these formats throughout the year helped emphasize that open source participation is not a one-off event, but an ongoing practice that grows with continued support.
 
-_<TODO: add links to the guide>_
 
 We also attend and support several other conferences and events _<TODO: add some links and stats of talks/tutorials/keynotes>_
 
