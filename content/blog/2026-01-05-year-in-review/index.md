@@ -18,9 +18,9 @@ This post looks back at what we said we would do and how that work played out in
 
 ## Software peer review: steady growth and shared responsibility
 
-Throughout 2025, software peer review remained a core activity at rOpenSci completing 25 peer-review. We have a continuous flow of new package submissions, approvals, and ongoing reviews, reflecting both the demand for high-quality research software and the commitment of our editors and reviewers.
+Throughout 2025, software peer review remained a core activity at rOpenSci, completing 24 peer reviews. We have a continuous flow of new package submissions, approvals, and ongoing reviews, reflecting both the demand for high-quality research software and the commitment of our editors and reviewers.
 
-New _xx_ packages joined rOpenSci in domains like environmental and climate data, geospatial analysis, linguistics, and statistics. Existing packages receive more than _8000_ commits from _290_ unique users, _89_ of them contribute for the first time to rOpenSci!. Package maintainers released new versions, showing ongoing maintenance and responsiveness to users. 
+New _20_ packages joined rOpenSci in domains like environmental and climate data, geospatial analysis, linguistics, and statistics. Existing packages receive more than _7000_ commits from _239_ unique users, _62_ of them contribute for the first time to rOpenSci!. Package maintainers released new versions, showing ongoing maintenance and responsiveness to users. 
 
 Building on last year's commitments, we aimed to further improve the efficiency and usefulness of our software peer review system and explore its potential as a model for other communities.
 
@@ -36,9 +36,9 @@ In 2024, we committed to investing further in R-Universe as a shared, community-
 
 In 2025, our investment in R-Universe produced clearer documentation, better tooling, and enhanced onboarding for users and contributors. A centralized documentation site provides unified guidance, making R-Universe more accessible and maintainable for individuals and communities.
 
-_<TODO: Mention some of the other tech improvements and also the work with R-multiverse and bioconductor>_
+_<TODO: Mention some of the other functionalities and improvements and also the work with R-multiverse and bioconductor>_
 
-_<TODO: Add a mention to the community health dashboard>_
+We made progress on developing a prototype dashboard that aims to help organizations maintain complex systems of interdependent software components. Our initial [prototype organizational dashboard](https://ropensci-review-tools.github.io/repometrics-demo/) provides insights into code contributors, their repositories, and maintenance status and needs.
 
 _<TODO: Mention plans for 2026 for boths R-Universe and Community Health>_
 
@@ -74,13 +74,15 @@ In 2026, we will have a second cohort in Spanish and take steps toward longer-te
 
 Throughout 2025, our blog, newsletters, and use case program continued to amplify community voices. These highlighted not only software releases but also the people, practices, and contexts behind them, reinforcing our focus on community participation.
 
-_<TODO: add blogs statst>_
+During 2025, we published 49 posts on the rOpenSci blog. These included 41 blog posts and 8 technotes, with 18 posts authored or co-authored by community members, reflecting the continued openness of the blog to contributions beyond the staff team and the great participation of our community. Also, 60 authors contributed to the blog, 39 of them were authors writing for the first time for rOpenSci, an encouraging sign of ongoing renewal and engagement.
 
-We organized _xx_ community calls and _xx_ co-working sessions <TODO: add more stats>, with topics ranging from technical skills such as testing, version control, and package development to broader conversations about accessibility, contribution pathways, and getting to know other communities and organizations.
+Our content was published in four languages during the reporting period: 13 posts were available in more than one language, and 16 posts were published in at least one non-English language, helping us reach a broader and more diverse audience.
+
+We organized _3_ community calls and _13_ co-working sessions with _21_ unique presenters and more than _200_ attendees, with topics ranging from technical skills such as testing, version control, and package development to broader conversations about accessibility, contribution pathways, and getting to know other communities and organizations.
 
 One of the goals for 2025 was to create more opportunities for people to engage with rOpenSci, especially first-time contributors.
 
-In 2025, this took shape through mini-hackathons designed to lower barriers to participation. These events combined practical contribution opportunities with mentoring and social connection, reinforcing the idea that open source work is collaborative and learned through doing. We wrote a guide to share our lessons learned organizing this type of event. By returning to these formats throughout the year, rOpenSci reinforced that participation in open source is not a one-off event, but an ongoing, supported practice.
+In 2025, this took shape through mini-hackathons designed to lower barriers to participation. These events combined practical contribution opportunities with mentoring and social connection, reinforcing the idea that open source work is collaborative and learned through doing. [We wrote a guide to share our lessons learned organizing this type of event](https://ftc-guide.ropensci.org). Revisiting these formats throughout the year helped emphasize that open source participation is not a one-off event, but an ongoing practice that grows with continued support.
 
 _<TODO: add links to the guide>_
 
