@@ -1,7 +1,7 @@
 ---
 title: "Closing The Loop with Our 2025 Wrap-up"
 author: 
-- rOpenSci Team
+- The rOpenSci Team
 date: '2026-01-05'
 slug: new-maintainer
 description: |
