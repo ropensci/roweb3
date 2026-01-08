@@ -17,7 +17,7 @@ params:
 
 Maintaining an open source package is rewarding work, but it's also a [lot of work](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/).
 Life and career changes, interests shift, and sometimes you simply don't have the time or energy to keep working on your R package.
-When that happens, one of the most responsible things you can do for users of your package, and for yourself, is to**proactively look for a new maintainer or co-maintainer.**
+When that happens, one of the most responsible things you can do for users of your package, and for yourself, is to **proactively look for a new maintainer or co-maintainer.**
 
 How to recruit a new maintainer, is a question we hear a lot at rOpenSci.
 Over the years, we've supported rOpenSci's package authors through this transition, helping them connect with potential maintainers, clarify expectations around the role, and make handovers smoother and more sustainable.
@@ -35,7 +35,7 @@ Ask yourself:
 - Is there enough documentation to make contributing feel safe?
 
 Add or improve a contributing guidelines is a great way to lower barriers for someone to start acting like a maintainer, even before they officially take on the role.
-A good`CONTRIBUTING.md` can cover:
+A good `CONTRIBUTING.md` can cover:
 
 - How to set up a development environment.
 - Workflow preferences: Issue before a Pull Request?
@@ -44,13 +44,13 @@ A good`CONTRIBUTING.md` can cover:
 - Any tests and how to run them.
 - Any release process notes, including scripts, CI workflows, or manual steps you take to release a new version.
 
-rOpenSci further encourages contributing guides to include [a lifecycle statement clarifying visions and expectations for the future development of your package, like the skimr package](https://github.com/ropensci/skimr/blob/main/.github/CONTRIBUTING.md#understanding-the-scope-of-skimr).
+rOpenSci further encourages contributing guides to include [a lifecycle statement clarifying visions and expectations for the future development of your package, like in the skimr package](https://github.com/ropensci/skimr/blob/main/.github/CONTRIBUTING.md#understanding-the-scope-of-skimr).
 
 The more you have documented clearly, the less hard it will feel for someone to say "yes" to maintaining.
 
 ## Clarify what you're willing (and not willing) to do
 
-Potential maintainers will wonder:
+Potential new maintainers will wonder:
 
 - Will you still be around for questions?
 - Will you keep some level of control, or are you fully handing over?
@@ -88,7 +88,7 @@ This issue becomes the central place to discuss ownership changes and can later 
 
 [The rentrez package "New Maintainer(s)" issue](https://github.com/ropensci/rentrez/issues/203) is a good example of content, resources and followup conversation.
 
-If your repo is on GitHub you can _pin_ this issue and it will be show n at the top of the Issues tab, making it more visible to visitors.
+If your repo is on GitHub you can _pin_ this issue and it will be shown at the top of the Issues tab, making it more visible to visitors.
 
 ## Update your README to reflect the package's status
 
@@ -132,7 +132,7 @@ Consider posting a brief announcement in places where your users or contributors
 - Social media (e.g., Mastodon, Bluesky, LinkedIn) using specific hashtags like #RStats.
 - Community forums, mailing lists, Slack/Discord channels relevant to your language/ecosystem.
 
-For example, rOpenSci [list "New maintainers" issues in our website](https://ropensci.org/help-wanted/), we share them on our social media and in our [newsletter](https://ropensci.org/blog/2025/12/18/news-december-2025/#calls-for-contributions).
+For example, rOpenSci [lists "New maintainers" issues in our website](https://ropensci.org/help-wanted/), we share them on our social media and in our [newsletter](https://ropensci.org/blog/2025/12/18/news-december-2025/#calls-for-contributions).
 
 ## Add a package startup message  
 
