@@ -3,7 +3,7 @@ title: "Closing The Loop with Our 2025 Wrap-up"
 author: 
 - The rOpenSci Team
 date: '2026-01-05'
-slug: new-maintainer
+slug: yearinreview2025
 description: |
   
 tags:
