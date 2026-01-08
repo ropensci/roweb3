@@ -30,7 +30,7 @@ Leadership transitions within the program helped distribute responsibility and e
 
 _<TODO: Mention plans for 2026>_
 
-## Strengthening shared infrastructure: R-Universe and Community Health 
+## Strengthening shared infrastructure: R-Universe and Community Health Dasbhoard
 
 In 2024, we committed to investing further in R-Universe as a shared, community-driven platform for publishing and distributing R packages, supported by long-term funding from the R Consortium.
 
