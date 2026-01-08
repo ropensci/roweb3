@@ -50,9 +50,9 @@ In 2025, following our 2024 commitment, we completed the [Portuguese translation
 
 _<TODO: add links and some numbers>_
 
-Beyond translation itself, we continued to treat multilingual publishing as infrastructure: refining AI-assisted workflows through the babeldown and babelquarto packages, enabling our website to support multilingual content, documenting processes, and sharing lessons so that other open science communities can adapt and reuse this work. 
+Beyond translation itself, we continued to treat multilingual publishing as infrastructure: refining AI-assisted workflows through the [babeldown](https://docs.ropensci.org/babeldown/) package; allowing multilingual Quarto projects through the now [peer-reviewed](https://github.com/ropensci/software-review/issues/720) [babelquarto](https://docs.ropensci.org/babelquarto/) package; enabling our website to support [multilingual content](/blog/2025/04/28/news-april-2025/#more-languages-more-access-discover-ropensci-in-spanish); [documenting processes](/blog/2024/12/17/localization-guide/) and [sharing lessons](/blog/2025/06/23/translation-faq/) so that other open science communities can adapt and reuse this work. 
 
-We also have community calls, co-working sessions, and mini-hackathons in Spanish and Portuguese, offering our community content and program to Spanish- and Lusophone-speaking members.  Spanish-language events and resources reinforced rOpenSci’s commitment to multilingual participation and to meeting communities where they are.
+We also have [community calls](/es/commcalls/), co-working sessions, and mini-hackathons in Spanish and Portuguese, offering our community content and program to Spanish- and Lusophone-speaking members.  Spanish-language events and resources reinforced rOpenSci’s commitment to multilingual participation and to meeting communities where they are.
 
 In 2026, we will continue working on English and Spanish content generation and expand Portuguese content and processes, piloting a fully Portuguese software peer review and translating Champions Program Training material into Portuguese.  
 
