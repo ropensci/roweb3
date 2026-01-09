@@ -67,6 +67,7 @@ After passing through rOpenSci peer review, the [distionary](https://docs.ropens
 It allows you to make probability distributions quickly -- either from a few inputs or from its built-in library -- and then probe them in detail.
 
 These distributions form the building blocks that piece together advanced statistical models with the wider [probaverse](https://probaverse.com) ecosystem, which is built to release modelers from low-level coding so production pipelines stay human-friendly.
+Right now, the other probaverse packages are [distplyr](https://distplyr.probaverse.com), allowing you to morph distributions into new forms, and [famish](https://famish.probaverse.com), allowing you to tune distributions to data.
 Developed with risk analysis use cases like climate and insurance in mind, the same tools translate smoothly to simulations, teaching, and other applied settings.
 
 This post highlights the top 3 features of this youngest version of distionary.
@@ -119,7 +120,7 @@ emp <- dst_empirical(airquality$Ozone, na_action_y = "drop")
 print(emp, n = 5)
 ```
 
-Compare with a Gamma distribution fitted to the Ozone levels, borrowing the [famish](https://famish.probaverse.com) package from the probaverse for the fitting task.
+Compare its [cumulative distribution function (CDF)](https://en.wikipedia.org/wiki/Cumulative_distribution_function) to that of a Gamma distribution fitted to the Ozone levels, borrowing the probaverse's famish package for the fitting task.
 
 ```{r gamma_empirical_comparison, message = FALSE, warning = FALSE, hugoopts=list(alt="Comparison of Empirical CDF and fitted Gamma CDF for Ozone levels.")}
 # Fit a Gamma distribution to Ozone using the famish package.
@@ -266,10 +267,10 @@ return_levels |>
 
 ## Feature 3: make the distribution you need
 
-You can make your own distributions with distionary without needing to specify every property in order to retrieve these properties.
+You can create your own distributions with distionary by specifying only a minimal set of properties; all other properties are derived automatically and can be retrieved when needed.
 
 Let's say you need an Inverse Gamma distribution but it's not available in distionary.
-Currently, distionary assumes you'll at least provide the density and CDF; you could retrieve these from the extraDistr package (functions `dinvgamma()` and `pinvgamma()`).
+Currently, distionary assumes you'll at least provide the [density](https://en.wikipedia.org/wiki/Probability_density_function) and CDF; you could retrieve these from the [extraDistr](https://cran.r-project.org/web/packages/extraDistr/index.html) package (functions `dinvgamma()` and `pinvgamma()`).
 Plug them into distionary's `distribution()` function and enjoy access to a variety of properties you didn't specify, like the mean, variance, skewness, and hazard function.
 
 ```{r inverse_gamma, hugoopts=list(alt="Hazard function of an Inverse Gamma distribution.")}
@@ -290,7 +291,7 @@ You might also consider giving the distribution a `.name` -- it pays off when yo
 Adding `.parameters` provides additional specificity to the distribution `.name`, but are otherwise not yet used for functional purposes.
 
 Here is a more complete implementation of the Inverse Gamma distribution, this time implemented as a function of the two parameters.
-Notice I also check that the parameters are positive (cheers to the checkmate package).
+Notice I also check that the parameters are positive (cheers to the [checkmate](https://mllg.github.io/checkmate/) package).
 
 ```{r}
 dst_invgamma <- function(alpha, beta) {
@@ -320,7 +321,7 @@ By the way, this feature -- being able to inspect other distribution properties 
 That's because you can see the many ways distributions can be represented, not just by the usual density or probability mass functions seen in textbooks.
 
 This feature also allows for extensibility of the probaverse.
-For example, the [distplyr](https://distplyr.probaverse.com/) package from the probaverse creates mixture distributions, for which a closed form for the quantile function does not exist.
+For example, the probaverse's distplyr package creates mixture distributions, which do not have an explicit formula for the quantile function.
 However, this is not problematic -- the distribution can still be defined, and distionary will figure out what the quantiles are.
 
 ## What's to come?

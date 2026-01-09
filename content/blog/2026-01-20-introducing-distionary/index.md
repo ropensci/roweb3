@@ -15,13 +15,16 @@ tags:
 package_version: 0.1.0
 social: A post about a new probability distribution framework in R with distionary and the wider probaverse.
 description: The distionary package is on CRAN and brings a new way to build and probe probability distributions in R, forming the building blocks of the probaverse ecosystem.
-editor: ~
+editor: Steffi LaZerte
+params:
+  doi: "10.59350/pg1t4-ty826"
 ---
 
-The [distionary](https://docs.ropensci.org/distionary/) package is newly available on CRAN.
+After passing through rOpenSci peer review, the [distionary](https://docs.ropensci.org/distionary/) package is now newly available on CRAN.
 It allows you to make probability distributions quickly – either from a few inputs or from its built-in library – and then probe them in detail.
 
 These distributions form the building blocks that piece together advanced statistical models with the wider [probaverse](https://probaverse.com) ecosystem, which is built to release modelers from low-level coding so production pipelines stay human-friendly.
+Right now, the other probaverse packages are [distplyr](https://distplyr.probaverse.com), allowing you to morph distributions into new forms, and [famish](https://famish.probaverse.com), allowing you to tune distributions to data.
 Developed with risk analysis use cases like climate and insurance in mind, the same tools translate smoothly to simulations, teaching, and other applied settings.
 
 This post highlights the top 3 features of this youngest version of distionary.
@@ -112,7 +115,7 @@ print(emp, n = 5)
     5        8 0.00862
     # ℹ 62 more rows
 
-Compare with a Gamma distribution fitted to the Ozone levels, borrowing the [famish](https://famish.probaverse.com) package from the probaverse for the fitting task.
+Compare its [cumulative distribution function (CDF)](https://en.wikipedia.org/wiki/Cumulative_distribution_function) to that of a Gamma distribution fitted to the Ozone levels, borrowing the probaverse’s famish package for the fitting task.
 
 ``` r
 # Fit a Gamma distribution to Ozone using the famish package.
@@ -177,7 +180,7 @@ stocks
     # ℹ 1,849 more rows
 
 First, let’s focus on the DAX stock index.
-Fit an empirical distribution like last time (notice I’m using a data mask in `dst_empirical()` this time).
+Fit an empirical distribution like last time (notice I’m using a data mask[^1] in `dst_empirical()` this time).
 
 ``` r
 # Fit an empirical distribution to the DAX stock index.
@@ -188,7 +191,7 @@ plot(dax, xlab = "Daily Loss (%)")
 
 {{< figure src="empirical_dax-1.png" alt="Empirical CDF of DAX stock index daily losses.">}}
 
-You can easily calculate some standard quantiles in tabular format so that the inputs are placed alongside the calculated outputs: just use the `enframe_` prefix instead of `eval_`.
+You can easily calculate some standard quantiles in tabular format so that the inputs are placed alongside the calculated outputs: just use the `enframe_` prefix instead of `eval_` as we did above with the Null distribution.
 
 ``` r
 enframe_quantile(dax, at = c(0.25, 0.5, 0.75), arg_name = "prob")
@@ -228,8 +231,12 @@ To demonstrate, build a model for each stock. First, lengthen the data for this 
 
 ``` r
 # Lengthen the data using tidyverse.
-stocks2 <- stocks |> 
-  pivot_longer(everything(), names_to = "stock", values_to = "daily_loss_pct")
+stocks2 <- pivot_longer(
+  stocks,
+  everything(), 
+  names_to = "stock", 
+  values_to = "daily_loss_pct"
+)
 # Inspect
 stocks2
 ```
@@ -249,7 +256,7 @@ stocks2
     10 SMI           -0.328
     # ℹ 7,426 more rows
 
-Build a model for each stock using a `group_by` + `summarise` workflow from the tidyverse (please excuse the current need to wrap the distribution in `list()`). Notice that distributions become table entries, indicated here by `<dst>`.
+Build a model for each stock using a `group_by` + `summarise` workflow from the tidyverse (please excuse the current need to wrap the distribution in `list()`). Notice that distributions become table entries, indicated here by their class `<dst>`.
 
 ``` r
 # Create an Empirical distribution for each stock.
@@ -269,17 +276,20 @@ models
     4 SMI   <dst> 
 
 Now you can use a tidyverse workflow to calculate tables of quantiles for each model, and expand them.
-In fact, this workflow is common enough that I’m considering a dedicated verb for it.
+In fact, this workflow is common enough that I’m considering adding a dedicated verb for it.
 
 ``` r
 return_levels <- models |>
-  mutate(df = map(
-    model, enframe_return,
-    at = return_periods,
-    arg_name = "return_period",
-    fn_prefix = "daily_loss_pct"
-  )) |> 
-  unnest(df) |> 
+  mutate(
+    df = map(
+      model,
+      enframe_return,
+      at = return_periods,
+      arg_name = "return_period",
+      fn_prefix = "daily_loss_pct"
+    )
+  ) |>
+  unnest(df) |>
   select(!model)
 # Inspect
 print(return_levels, n = Inf)
@@ -333,11 +343,11 @@ return_levels |>
 
 ## Feature 3: make the distribution you need
 
-You can make your own distributions with distionary without needing to specify every property in order to retrieve these properties.
+You can create your own distributions with distionary by specifying only a minimal set of properties; all other properties are derived automatically and can be retrieved when needed.
 
 Let’s say you need an Inverse Gamma distribution but it’s not available in distionary.
-Currently, distionary assumes you’ll at least provide the density and CDF; you could retrieve these from the extraDistr package (functions `dinvgamma()` and `pinvgamma()`).
-Plug them into the `distribution()` function and enjoy access to a variety of properties you didn’t specify, like the mean, variance, skewness, and hazard function.
+Currently, distionary assumes you’ll at least provide the [density](https://en.wikipedia.org/wiki/Probability_density_function) and CDF; you could retrieve these from the [extraDistr](https://cran.r-project.org/web/packages/extraDistr/index.html) package (functions `dinvgamma()` and `pinvgamma()`).
+Plug them into distionary’s `distribution()` function and enjoy access to a variety of properties you didn’t specify, like the mean, variance, skewness, and hazard function.
 
 ``` r
 # Make an Inverse Gamma distribution (minimal example).
@@ -374,7 +384,7 @@ You might also consider giving the distribution a `.name` – it pays off when y
 Adding `.parameters` provides additional specificity to the distribution `.name`, but are otherwise not yet used for functional purposes.
 
 Here is a more complete implementation of the Inverse Gamma distribution, this time implemented as a function of the two parameters.
-Notice I also check that the parameters are positive (cheers to the checkmate package).
+Notice I also check that the parameters are positive (cheers to the [checkmate](https://mllg.github.io/checkmate/) package).
 
 ``` r
 dst_invgamma <- function(alpha, beta) {
@@ -409,7 +419,7 @@ By the way, this feature – being able to inspect other distribution properties
 That’s because you can see the many ways distributions can be represented, not just by the usual density or probability mass functions seen in textbooks.
 
 This feature also allows for extensibility of the probaverse.
-For example, the [distplyr](https://distplyr.probaverse.com/) package from the probaverse creates mixture distributions, for which a closed form for the quantile function does not exist.
+For example, the probaverse’s distplyr package creates mixture distributions, which do not have an explicit formula for the quantile function.
 However, this is not problematic – the distribution can still be defined, and distionary will figure out what the quantiles are.
 
 ## What’s to come?
@@ -424,3 +434,5 @@ If this excites you, join the conversation by opening an issue or [contributing]
 
 Special thanks to the rOpenSci reviewers [Katrina Brock](https://github.com/katrinabrock) and [Christophe Dutang](https://github.com/dutangc) for [insightful comments](https://github.com/ropensci/software-review/issues/688) that improved this package.
 Also thanks to [BGC Engineering Inc.](https://bgcengineering.ca/), the [R Consortium](https://r-consortium.org/all-projects/callforproposals.html), and the [European Space Agency](https://technology.esa.int/page/funding-your-ideas) together with the [Politecnico di Milano](https://www.polimi.it/) for supporting this project.
+
+[^1]: Meaning I’m referring directly to the column ‘DAX’ without `stocks$` as in our above examples.
