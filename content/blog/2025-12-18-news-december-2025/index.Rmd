@@ -47,7 +47,7 @@ Now let's dive into the activity at and around rOpenSci!
 ### rOpenSci at LatinR
 
 We proudly continued supporting LatinR as a community partner in 2025. 
-Here we share a list of resources and recordings for the [tutorials](/training/) and [talks](/talks/) delivered by our staff and community memebers at LatinR.
+Here we share a list of resources and recordings for the [tutorials](/training/) and [talks](/talks/) delivered by our staff and community members at LatinR.
 Discover more on the [LatinR YouTube channel](https://www.youtube.com/@LatinR).
 
 - "R-multiverse" by Maëlle Salmon, Will Landau, Yanina Bellini Saibene, [recording](https://www.youtube.com/watch?v=Nb6owmY5Iec), [slides](https://latinr25-multiverse.netlify.app/#/);
