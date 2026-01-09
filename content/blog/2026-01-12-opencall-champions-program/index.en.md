@@ -9,7 +9,7 @@ slug: programchamps2026
 featured: true
 tags:
 - champions program
-description: You can now apply to participate in the 2026 Champions program. We
+description: You can now apply to participate in the 2026 Champions Program. We
   are looking for people to participate in mentoring roles and to become Champions.
 params:
   doi: '10.59350/1mmc4-bqp35'
