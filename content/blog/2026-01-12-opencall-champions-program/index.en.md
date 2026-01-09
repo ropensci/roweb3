@@ -1,5 +1,5 @@
 ---
-title: Open call for the rOpenSci Champion Program 2026!
+title: Open call for the rOpenSci Champions Program 2026!
 author:
 - Yanina Bellini Saibene
 editor:
