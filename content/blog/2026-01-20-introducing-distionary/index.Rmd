@@ -66,7 +66,7 @@ knitr::knit_hooks$set(
 After passing through rOpenSci peer review, the [distionary](https://docs.ropensci.org/distionary/) package is now newly available on CRAN.
 It allows you to make probability distributions quickly -- either from a few inputs or from its built-in library -- and then probe them in detail.
 
-These distributions form the building blocks that piece together advanced statistical models with the wider [probaverse](https://probaverse.com) ecosystem, which is built to release modelers from low-level coding so production pipelines stay human-friendly.
+These distributions form the building blocks that piece together advanced statistical models with the wider [probaverse](https://probaverse.com) ecosystem, which is designed to release modellers from low-level coding so production pipelines stay human-friendly.
 Right now, the other probaverse packages are [distplyr](https://distplyr.probaverse.com), allowing you to morph distributions into new forms, and [famish](https://famish.probaverse.com), allowing you to tune distributions to data.
 Developed with risk analysis use cases like climate and insurance in mind, the same tools translate smoothly to simulations, teaching, and other applied settings.
 
