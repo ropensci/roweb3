@@ -36,7 +36,7 @@ The program also offers a **stipend** to recognize the time and work of particip
 
 ### Champions
 
-We are looking for people who:
+Potential Champions are people who:
 
 - Whether they are natives of or live and work in **Latin America**.
 - Use R and have previous experience in software development, reproducible analysis or open science.
