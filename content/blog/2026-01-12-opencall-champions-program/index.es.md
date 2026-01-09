@@ -8,10 +8,10 @@ date: '2026-01-12'
 slug: programachamps2026
 featured: true
 tags:
-  - champions program
+  - programa de campeones
 description: Ya puedes postular para participar del programa de campen(a|e)s de 2026. Buscamos personas para que participen en roles de mentoría y para ser campeones y campeonas.
 params: 
-  doi: ""
+  doi: "10.59350/hc0mt-mbd60"
 ---
 
 Nos alegra anunciar la apertura de un nuevo llamado al **Programa de Campeonas y Campeones de rOpenSci**, que dará inicio en 2026. A partir del **12 de enero de 2026** y hasta el **20 de febrero de 2026**, estaremos recibiendo postulaciones tanto para el rol de **Campeon(a|e)s** como de **Mentor(a|e)s**.
@@ -41,18 +41,18 @@ Buscamos personas que:
 - Utilicen R y tengan experiencia previa en desarrollo de software, análisis reproducible o ciencia abierta.
 - Estén interesadas en desarrollar un proyecto de software de investigación abierto y en fortalecer sus comunidades locales o regionales.
 - Puedan comunicarse efectivamente en español (oral y escrito).
-- Acepten nuestro código de conducta y puedan comprometerse a participar en las actividades del programa organizadas para campeones y campeonas durante estos 12 meses.
+- Acepten nuestro [código de conducta](/es/código-de-conducta/) y puedan comprometerse a participar en las actividades del programa organizadas para campeones y campeonas durante estos 12 meses.
 
 ### Mentor(a|e)s
 
 Invitamos a postularse como mentoras o mentores a personas que:
 
-- Tengan experiencia desarrollando, manteniendo o contribuyendo a paquetes de R (idealmente dentro del ecosistema rOpenSci, aunque no es excluyente).
+- Tengan experiencia desarrollando, manteniendo o contribuyendo a paquetes de R (idealmente dentro de rOpenSci, aunque no es excluyente).
 - Hayan participado en procesos de revisión por pares de software. 
 - Tengan experiencia relevante en mentoría.
 - Tengan interés en acompañar a otras personas, compartir experiencias y contribuir activamente al crecimiento del programa.
 - Puedan comunicarse efectivamente en español (oral y escrito).
-- Acepten nuestro código de conducta y puedan comprometerse a participar en las actividades del programa organizadas para mentores y mentoras durante estos 12 meses.
+- Acepten nuestro [código de conducta](/es/código-de-conducta/) y puedan comprometerse a participar en las actividades del programa organizadas para mentores y mentoras durante estos 12 meses.
 
 ## Fechas clave del llamado 2026
 
@@ -63,7 +63,7 @@ Invitamos a postularse como mentoras o mentores a personas que:
 
 La *Conversación con la comunidad* del 21 de enero contará con la participación de **campeonas, campeones y mentores de cohortes anteriores**, quienes compartirán sus experiencias y responderán preguntas sobre el programa.  ¡Los invitamos a sumarse!
 
-Durante febrero realizaremos dos **clínicas de aplicación**, espacios abiertos donde podrán recibir ayuda para completar el formulario, resolver dudas y recibir orientación directa del equipo del programa.
+Durante febrero realizaremos una **clínica de aplicación**, espacio abierto donde podrán recibir ayuda para completar el formulario, resolver dudas y recibir orientación directa del equipo del programa.
 
 ## ¿Cómo postularse?
 
