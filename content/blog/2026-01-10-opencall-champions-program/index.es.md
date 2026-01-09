@@ -4,7 +4,7 @@ author:
   - Yanina Bellini Saibene
 editor:
   - Steffi LaZerte
-date: '2026-01-10'
+date: '2026-01-12'
 slug: programachamps2026
 featured: true
 tags:
@@ -14,7 +14,7 @@ params:
   doi: ""
 ---
 
-Nos alegra anunciar la apertura de un nuevo llamado al **Programa de Campeonas y Campeones de rOpenSci**, que dará inicio en 2026. A partir del **10 de enero de 2026** y hasta el **2 de marzo de 2026**, estaremos recibiendo postulaciones tanto para el rol de **Campeon(a|e)s** como de **Mentor(a|e)s**.
+Nos alegra anunciar la apertura de un nuevo llamado al **Programa de Campeonas y Campeones de rOpenSci**, que dará inicio en 2026. A partir del **12 de enero de 2026** y hasta el **20 de febrero de 2026**, estaremos recibiendo postulaciones tanto para el rol de **Campeon(a|e)s** como de **Mentor(a|e)s**.
 
 Al igual que en la cohorte anterior, el programa se desarrollará **completamente en castellano** y tendrá un **foco regional en América Latina**, con el objetivo de seguir fortaleciendo el ecosistema de software de investigación y ciencia abierta en la región.
 
@@ -56,10 +56,10 @@ Invitamos a postularse como mentoras o mentores a personas que:
 
 ## Fechas clave del llamado 2026
 
-- **Apertura de la convocatoria:** Viernes 9 de enero de 2026
+- **Apertura de la convocatoria:** Lunes 12 de enero de 2026
 - [**Conversación con la comunidad informativa:** Miércoles 21 de enero de 2026](/es/commcalls/champions-latino-2025/)
 - [**Clínicas de aplicación:** Jueves 5 de febrero de 2026](/events/clinica-champions-2026/)
-- **Cierre de la convocatoria:** Lunes 2 de marzo de 2026
+- **Cierre de la convocatoria:** Lunes 20 de febrero de 2026
 
 La *Conversación con la comunidad* del 21 de enero contará con la participación de **campeonas, campeones y mentores de cohortes anteriores**, quienes compartirán sus experiencias y responderán preguntas sobre el programa.  ¡Los invitamos a sumarse!
 
