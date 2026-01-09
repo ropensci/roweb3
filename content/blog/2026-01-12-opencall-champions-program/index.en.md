@@ -21,7 +21,7 @@ As in the previous cohort, the 2026 program will be developed **entirely in Span
 
 ## What is the Champions Program?
 
-The Program seeks to identify, accompany and recognize people who are already leading, or who want to take a step further, in building open science and sustainable research software communities.
+This program seeks to identify, support and recognize people who are already leading, or who want to take a step further, in building open science and sustainable research software communities.
 
 Throughout **12 months** the selected individuals will participate in:
 
