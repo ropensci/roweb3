@@ -28,7 +28,7 @@ Throughout **12 months** the selected individuals will participate in:
 - An initial cohort-based training of 13 2-hour workshops.
 - The development of a research software project: creation of a new R package, submission of an existing R package to rOpenSci peer review, or as part of a team of reviewers of other R packages.
 - 1-on-1 mentoring and cohort events.
-- Community building activities, outreach and communications, and exchange of experiences and strengthening of regional networks.
+- Leading community building activities, outreach and communications, and exchange of experiences and strengthening of regional networks.
 
 The program also offers a **stipend** to recognize the time and work of participants for those who complete the program and a certificate of participation.
 
