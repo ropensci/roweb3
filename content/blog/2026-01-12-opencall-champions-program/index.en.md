@@ -38,11 +38,12 @@ The program also offers a **stipend** to recognize the time and work of particip
 
 Potential Champions are people who:
 
-- Whether they are natives of or live and work in **Latin America**.
-- Use R and have previous experience in software development, reproducible analysis or open science.
-- Are interested in developing an open research software project and strengthening their local or regional communities.
-- Can communicate effectively in Spanish (oral and written).
-- Accept our [Code of Conduct](/code-of-conduct/) and be able to commit to participate in the program activities organized for champions during these 12 months.
+- Are from or live and work in **Latin America**;
+- Use R and have previous experience in software development, reproducible analysis or open science;
+- Are interested in developing an open research software project and strengthening their local or regional communities;
+- Are able to communicate effectively in Spanish (oral and written);
+- Accept our [Code of Conduct](/code-of-conduct/);
+- Commit to participating in the program activities organized for Champions during these 12 months.
 
 ### Mentor(a|e)s
 
