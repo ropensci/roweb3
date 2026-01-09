@@ -15,7 +15,9 @@ tags:
 package_version: 0.1.0
 social: A post about a new probability distribution framework in R with distionary and the wider probaverse.
 description: The distionary package is on CRAN and brings a new way to build and probe probability distributions in R, forming the building blocks of the probaverse ecosystem.
-editor: ~
+editor: Steffi LaZerte
+params:
+  doi: "10.59350/pg1t4-ty826"
 ---
 
 ```{r setup, include=FALSE}
@@ -61,7 +63,7 @@ knitr::knit_hooks$set(
 )
 ```
 
-The [distionary](https://docs.ropensci.org/distionary/) package is newly available on CRAN.
+After passing through rOpenSci peer review, the [distionary](https://docs.ropensci.org/distionary/) package is now newly available on CRAN.
 It allows you to make probability distributions quickly -- either from a few inputs or from its built-in library -- and then probe them in detail.
 
 These distributions form the building blocks that piece together advanced statistical models with the wider [probaverse](https://probaverse.com) ecosystem, which is built to release modelers from low-level coding so production pipelines stay human-friendly.
@@ -165,7 +167,9 @@ stocks
 ```
 
 First, let's focus on the DAX stock index.
-Fit an empirical distribution like last time (notice I'm using a data mask in `dst_empirical()` this time).
+Fit an empirical distribution like last time (notice I'm using a data mask[^1] in `dst_empirical()` this time).
+
+[^1]: Meaning I'm referring directly to the column 'DAX' without `stocks$` as in our above examples.
 
 ```{r empirical_dax, hugoopts=list(alt = "Empirical CDF of DAX stock index daily losses.")}
 # Fit an empirical distribution to the DAX stock index.
@@ -174,7 +178,7 @@ dax <- dst_empirical(DAX, data = stocks)
 plot(dax, xlab = "Daily Loss (%)")
 ```
 
-You can easily calculate some standard quantiles in tabular format so that the inputs are placed alongside the calculated outputs: just use the `enframe_` prefix instead of `eval_`.
+You can easily calculate some standard quantiles in tabular format so that the inputs are placed alongside the calculated outputs: just use the `enframe_` prefix instead of `eval_` as we did above with the Null distribution.
 
 ```{r}
 enframe_quantile(dax, at = c(0.25, 0.5, 0.75), arg_name = "prob")
@@ -198,13 +202,17 @@ To demonstrate, build a model for each stock. First, lengthen the data for this 
 
 ```{r}
 # Lengthen the data using tidyverse.
-stocks2 <- stocks |> 
-  pivot_longer(everything(), names_to = "stock", values_to = "daily_loss_pct")
+stocks2 <- pivot_longer(
+  stocks,
+  everything(), 
+  names_to = "stock", 
+  values_to = "daily_loss_pct"
+)
 # Inspect
 stocks2
 ```
 
-Build a model for each stock using a `group_by` + `summarise` workflow from the tidyverse (please excuse the current need to wrap the distribution in `list()`). Notice that distributions become table entries, indicated here by `<dst>`.
+Build a model for each stock using a `group_by` + `summarise` workflow from the tidyverse (please excuse the current need to wrap the distribution in `list()`). Notice that distributions become table entries, indicated here by their class `<dst>`.
 
 ```{r}
 # Create an Empirical distribution for each stock.
@@ -216,17 +224,20 @@ models
 ```
 
 Now you can use a tidyverse workflow to calculate tables of quantiles for each model, and expand them.
-In fact, this workflow is common enough that I'm considering a dedicated verb for it.
+In fact, this workflow is common enough that I'm considering adding a dedicated verb for it.
 
 ```{r}
 return_levels <- models |>
-  mutate(df = map(
-    model, enframe_return,
-    at = return_periods,
-    arg_name = "return_period",
-    fn_prefix = "daily_loss_pct"
-  )) |> 
-  unnest(df) |> 
+  mutate(
+    df = map(
+      model,
+      enframe_return,
+      at = return_periods,
+      arg_name = "return_period",
+      fn_prefix = "daily_loss_pct"
+    )
+  ) |>
+  unnest(df) |>
   select(!model)
 # Inspect
 print(return_levels, n = Inf)
@@ -259,7 +270,7 @@ You can make your own distributions with distionary without needing to specify e
 
 Let's say you need an Inverse Gamma distribution but it's not available in distionary.
 Currently, distionary assumes you'll at least provide the density and CDF; you could retrieve these from the extraDistr package (functions `dinvgamma()` and `pinvgamma()`).
-Plug them into the `distribution()` function and enjoy access to a variety of properties you didn't specify, like the mean, variance, skewness, and hazard function.
+Plug them into distionary's `distribution()` function and enjoy access to a variety of properties you didn't specify, like the mean, variance, skewness, and hazard function.
 
 ```{r inverse_gamma, hugoopts=list(alt="Hazard function of an Inverse Gamma distribution.")}
 # Make an Inverse Gamma distribution (minimal example).
