@@ -17,7 +17,7 @@ params:
 
 We are pleased to announce the opening of a new call for applications for the **rOpenSci Champions Program in Spanish**, which will begin in 2026. We will be accepting applications beginning in **January 12, 2026** and until **February 20, 2026** for both the roles of **Champion** as well as **Mentor**.
 
-As in the previous cohort, the program will be developed **entirely in Spanish.** and will have a **regional focus on Latin America** with the objective of further strengthening the research and open science software in the region.
+As in the previous cohort, the 2026 program will be developed **entirely in Spanish** and will have a **regional focus on Latin America** with the objective of further strengthening the research and open science software in this region.
 
 ## What is the Champions Program?
 
