@@ -34,7 +34,7 @@ The program also offers a **stipend** to recognize the time and work of particip
 
 ## Who is it for?
 
-### Champion(s)
+### Champions
 
 We are looking for people who:
 
