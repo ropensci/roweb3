@@ -60,7 +60,7 @@ Potential Mentors are people who:
 ## Key dates of the 2026 call
 
 - **Opening of the call:** Monday, January 12, 2026
-- [**Conversation with the information community:** Wednesday, January 21, 2026](/es/commcalls/champions-latino-2025/)
+- [**Community Call: Research Software in Latin America** Wednesday, January 21, 2026. In Spanish](/es/commcalls/champions-latino-2026/)
 - [**Application Clinic:** Thursday, February 5, 2026](/events/clinica-champions-2026/)
 - **Closing date:** Friday, February 20, 2026
 
