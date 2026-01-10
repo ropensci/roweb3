@@ -45,25 +45,26 @@ Potential Champions are people who:
 - Accept our [Code of Conduct](/code-of-conduct/);
 - Commit to participating in the program activities organized for Champions during these 12 months.
 
-### Mentor(a|e)s
+### Mentors
 
-We invite applications as mentors from people who:
+Potential Mentors are people who:
 
-- Have experience developing, maintaining or contributing to R packages (ideally within the rOpenSci ecosystem, although this is not exclusive).
-- Have participated in software peer review processes.
-- Have relevant mentoring experience.
-- Have an interest in mentoring others, sharing experiences and actively contributing to the growth of the program.
-- Be able to communicate effectively in Spanish (oral and written).
-- Accept our [Code of Conduct](/code-of-conduct/) and be able to commit to participate in the program activities organized for mentors during these 12 months.
+- Have experience developing, maintaining or contributing to R packages (ideally within the rOpenSci ecosystem, although this is not required);
+- Have participated in software peer review processes;
+- Have relevant mentoring experience;
+- Have an interest in mentoring others, sharing experiences and actively contributing to the growth of the program;
+- Are able to communicate effectively in Spanish (oral and written);
+- Accept our [Code of Conduct](/code-of-conduct/);
+- Commit to participating in the program activities organized for mentors during these 12 months.
 
 ## Key dates of the 2026 call
 
 - **Opening of the call:** Monday, January 12, 2026
 - [**Conversation with the information community:** Wednesday, January 21, 2026](/es/commcalls/champions-latino-2025/)
-- [**Application Clinics:** Thursday, February 5, 2026](/events/clinica-champions-2026/)
+- [**Application Clinic:** Thursday, February 5, 2026](/events/clinica-champions-2026/)
 - **Closing date:** Friday, February 20, 2026
 
-The *Community Call* on January 21 will feature the participation of **champions and mentors from previous cohorts.** They will share their experiences and answer questions about the program, and we invite you to join us!
+The *Community Call* on January 21 will feature the participation of **Champions and Mentors from previous cohorts.** They will share their experiences and answer questions about the program, and we invite you to join us! See the [recording of last year's event](/es/commcalls/champions-latino-2025/).
 
 During February we will hold one **application clinic**. It is an open space where you will be able to receive help to complete the application form, resolve doubts and receive direct guidance from the program team.
 
@@ -71,26 +72,26 @@ During February we will hold one **application clinic**. It is an open space whe
 
 Applications will be made through online forms:
 
-- [Complete this form to apply to become a Champion(a|e)s](https://airtable.com/appF6OXmxkk8VmR8a/shrlvgcNz1R4CoaQN)
-- [Complete this form to apply to become a Mentor(a|e)s)](https://airtable.com/appF6OXmxkk8VmR8a/shrZnWDRKxXUEmLRM),
+- [Complete this form to apply to become a Champion](https://airtable.com/appF6OXmxkk8VmR8a/shrlvgcNz1R4CoaQN)
+- [Complete this form to apply to become a Mentor](https://airtable.com/appF6OXmxkk8VmR8a/shrZnWDRKxXUEmLRM),
 
-These forms are also available at [program website](https://champions-program.ropensci.org).
+These forms are also available on the [program website](https://champions-program.ropensci.org).
 
-The forms must be completed **in Spanish**. On the program's website you will also find [the details of the information required to apply as a champion.](https://champions-program.ropensci.org/champions/#información-requerida-en-el-formulario) or [as a mentor](https://champions-program.ropensci.org/mentors/#información-requerida-en-el-formulario) to facilitate the preparation of applications and [answers to frequently asked questions](https://champions-program.ropensci.org/resources/faq.html).
+The forms must be completed **in Spanish**. On the program's website you will also find more details regarding the requirements for [Champions](https://champions-program.ropensci.org/champions/#información-requerida-en-el-formulario) and [Mentors](https://champions-program.ropensci.org/mentors/#información-requerida-en-el-formulario), as well as [answers to frequently asked questions](https://champions-program.ropensci.org/resources/faq.html).
 
 ## Why participate?
 
 Being part of the rOpenSci Champions Program means:
 
-- Developing or strengthening a research software project with expert accompaniment.
-- Be part of a regional network of people committed to open science and open software.
-- Acquire technical tools and community leadership skills.
-- Receive support to share your work and experiences with your community or institution and at regional and international events.
-- Actively contribute to a more diverse, sustainable and inclusive open software ecosystem.
+- Having the opportunity to develop or strengthen a research software project with expert accompaniment.
+- Being part of a regional network of people committed to open science and open software.
+- Acquiring technical tools and community leadership skills.
+- Receiving support to share your work and experiences with your community or institution and at regional and international events.
+- Actively contributing to a more diverse, sustainable and inclusive open software ecosystem.
 
 ## Learn more about our work
 
-At [the website](https://champions-program.ropensci.org/) you can find the detailed schedule of activities and the complete information of the program, as well as [projects carried out by previous cohorts](https://champions-program.ropensci.org/galeria/#proyectos) and the other types of activities carried out by the participants.
+On our [Champion's Program website](https://champions-program.ropensci.org/) you can find the detailed schedule of activities and the complete information of the program, as well as [projects carried out by previous cohorts](https://champions-program.ropensci.org/galeria/#proyectos) and the other types of activities carried out by the participants.
 
 If you have any questions, we invite you to participate in the *Community Call* in January or to join us in the *application clinic* in February.
 
