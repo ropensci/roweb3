@@ -4,6 +4,8 @@ description = "Un programa de tutoría y formación para Campeonas y Campeones C
 tags = ["programa-campeones"]
 +++
 
+### Las aplicaciones para la cohorte 2026-2027 están abiertas!
+
 El software de investigación *debe servir a todas las personas en nuestras comunidades* lo que significa que debe ser *sostenible, abierto y construido por y para todos los grupos*.
 Actualmente, sin embargo, existe una consternadora falta de diversidad en las comunidades de código abierto en general y en la comunidad del software R y de investigación en particular.
 Las personas que  desarrollan software de la comunidad R son abrumadoramente blancos, varones y de un puñado de países.
