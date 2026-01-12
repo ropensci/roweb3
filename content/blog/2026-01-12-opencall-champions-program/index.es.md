@@ -18,6 +18,17 @@ Nos alegra anunciar la apertura de un nuevo llamado al **Programa de Campeonas y
 
 Al igual que en la cohorte anterior, el programa se desarrollará **completamente en castellano** y tendrá un **foco regional en América Latina**, con el objetivo de seguir fortaleciendo el ecosistema de software de investigación y ciencia abierta en la región.
 
+## Fechas clave del llamado 2026
+
+- **Apertura de la convocatoria:** Lunes 12 de enero de 2026
+- [**Conversación con la comunidad informativa:** Miércoles 21 de enero de 2026](/es/commcalls/champions-latino-2025/)
+- [**Clínicas de aplicación:** Jueves 5 de febrero de 2026](/events/clinica-champions-2026/)
+- **Cierre de la convocatoria:** Lunes 20 de febrero de 2026
+
+La *Conversación con la comunidad* del 21 de enero contará con la participación de **campeonas, campeones y mentores de cohortes anteriores**, quienes compartirán sus experiencias y responderán preguntas sobre el programa.  ¡Los invitamos a sumarse!
+
+Durante febrero realizaremos una **clínica de aplicación**, espacio abierto donde podrán recibir ayuda para completar el formulario, resolver dudas y recibir orientación directa del equipo del programa.
+
 ## ¿Qué es el Programa de Campeonas y Campeones?
 
 El Programa busca identificar, acompañar y reconocer a personas que ya están liderando, o que quieren dar un paso más, en la construcción de comunidades de ciencia abierta y software de investigación sostenible.
@@ -54,16 +65,15 @@ Invitamos a postularse como mentoras o mentores a personas que:
 - Puedan comunicarse efectivamente en español (oral y escrito).
 - Acepten nuestro [código de conducta](/es/código-de-conducta/) y puedan comprometerse a participar en las actividades del programa organizadas para mentores y mentoras durante estos 12 meses.
 
-## Fechas clave del llamado 2026
+## ¿Por qué participar?
 
-- **Apertura de la convocatoria:** Lunes 12 de enero de 2026
-- [**Conversación con la comunidad informativa:** Miércoles 21 de enero de 2026](/es/commcalls/champions-latino-2025/)
-- [**Clínicas de aplicación:** Jueves 5 de febrero de 2026](/events/clinica-champions-2026/)
-- **Cierre de la convocatoria:** Lunes 20 de febrero de 2026
+Ser parte del Programa de Campeonas y Campeones de rOpenSci significa:
 
-La *Conversación con la comunidad* del 21 de enero contará con la participación de **campeonas, campeones y mentores de cohortes anteriores**, quienes compartirán sus experiencias y responderán preguntas sobre el programa.  ¡Los invitamos a sumarse!
-
-Durante febrero realizaremos una **clínica de aplicación**, espacio abierto donde podrán recibir ayuda para completar el formulario, resolver dudas y recibir orientación directa del equipo del programa.
+- Desarrollar o fortalecer un proyecto de software de investigación con acompañamiento experto.
+- Formar parte de una red regional de personas comprometidas con la ciencia abierta y el software libre.
+- Adquirir herramientas técnicas y habilidades de liderazgo comunitario.
+- Recibir apoyo para compartir tu trabajo y tus experiencias con tu comunidad o institución y en eventos regionales e internacionales.
+- Contribuir activamente a un ecosistema de software abierto más diverso, sostenible e inclusivo.
 
 ## ¿Cómo postularse?
 
@@ -76,20 +86,11 @@ Estos formularios también están disponibles en el [sitio web del programa](htt
 
 Los formularios deberán completarse **en castellano**. En la web del programa también encontrarán [el detalle de la información requerida para aplicar como campeon-a](https://champions-program.ropensci.org/champions/#información-requerida-en-el-formulario) o [como mentor-a](https://champions-program.ropensci.org/mentors/#información-requerida-en-el-formulario) para facilitar la preparación de las postulaciones y [respuestas a las preguntas mas frecuentes](https://champions-program.ropensci.org/resources/faq.html).
 
-## ¿Por qué participar?
-
-Ser parte del Programa de Campeonas y Campeones de rOpenSci significa:
-
-- Desarrollar o fortalecer un proyecto de software de investigación con acompañamiento experto.
-- Formar parte de una red regional de personas comprometidas con la ciencia abierta y el software libre.
-- Adquirir herramientas técnicas y habilidades de liderazgo comunitario.
-- Recibir apoyo para compartir tu trabajo y tus experiencias con tu comunidad o institución y en eventos regionales e internacionales.
-- Contribuir activamente a un ecosistema de software abierto más diverso, sostenible e inclusivo.
 
 ## Más información
 
 En [el sitio web](https://champions-program.ropensci.org/) podes encontrar el cronograma detallado de actividades y la información completa del programa, como también [los proyectos realizados por las cohortes anteriores](https://champions-program.ropensci.org/galeria/#proyectos) y los otros tipos de actividades llevadas adelante por las personas participantes.
 
-Si tienen preguntas, los invitamos a participar de la *Conversación con la comunidad* de enero o a sumarse a las *clínicas de aplicación* en febrero.
+Si tienen preguntas, los invitamos a participar de la *Conversación con la comunidad* de enero, sumarte a las *clínicas de aplicación* en febrero o [enviar un mail a la directora del programa](mailto:yabellini@gmail.com).
 
 ¡Esperamos sus postulaciones con mucho entusiasmo! Queremos seguir construyendo comunidad en América Latina junto a ustedes.
