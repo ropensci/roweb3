@@ -79,8 +79,8 @@ Ser parte del Programa de Campeonas y Campeones de rOpenSci significa:
 
 Las postulaciones se realizarán a través de formularios en línea:
 
-- [Completa este formulario para postularte para ser Campeon(a|e)s](https://airtable.com/appF6OXmxkk8VmR8a/shrlvgcNz1R4CoaQN)
-- [Completa este formulario para postularte para ser Mentor(a|e)s)](https://airtable.com/appF6OXmxkk8VmR8a/shrZnWDRKxXUEmLRM), 
+- [Completa este formulario para postularte para ser Campeon/a](https://airtable.com/appF6OXmxkk8VmR8a/shrlvgcNz1R4CoaQN)
+- [Completa este formulario para postularte para ser Mentor/a](https://airtable.com/appF6OXmxkk8VmR8a/shrZnWDRKxXUEmLRM), 
 
 Estos formularios también están disponibles en el [sitio web del programa](https://champions-program.ropensci.org).
 
