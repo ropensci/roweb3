@@ -25,7 +25,7 @@ Al igual que en la cohorte anterior, el programa se desarrollará **completament
 - [**Clínicas de aplicación:** Jueves 5 de febrero de 2026](/events/clinica-champions-2026/)
 - **Cierre de la convocatoria:** Lunes 20 de febrero de 2026
 
-La *Conversación con la comunidad* del 21 de enero contará con la participación de **campeonas, campeones y mentores de cohortes anteriores**, quienes compartirán sus experiencias y responderán preguntas sobre el programa.  ¡Los invitamos a sumarse!
+La *Conversación con la comunidad* del 21 de enero contará con la participación de **campeonas, campeones y mentores de cohortes anteriores**, quienes compartirán sus experiencias y responderán preguntas sobre el programa.  ¡Les invitamos a sumarse!. Pueden ver la [grabación del evento del año pasado](/es/commcalls/champions-latino-2025/).
 
 Durante febrero realizaremos una **clínica de aplicación**, espacio abierto donde podrán recibir ayuda para completar el formulario, resolver dudas y recibir orientación directa del equipo del programa.
 
@@ -85,7 +85,6 @@ Las postulaciones se realizarán a través de formularios en línea:
 Estos formularios también están disponibles en el [sitio web del programa](https://champions-program.ropensci.org).
 
 Los formularios deberán completarse **en castellano**. En la web del programa también encontrarán [el detalle de la información requerida para aplicar como campeon-a](https://champions-program.ropensci.org/champions/#información-requerida-en-el-formulario) o [como mentor-a](https://champions-program.ropensci.org/mentors/#información-requerida-en-el-formulario) para facilitar la preparación de las postulaciones y [respuestas a las preguntas mas frecuentes](https://champions-program.ropensci.org/resources/faq.html).
-
 
 ## Más información
 
