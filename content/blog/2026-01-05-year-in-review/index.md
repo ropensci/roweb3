@@ -18,17 +18,17 @@ This post looks back at what we said we would do and how that work played out in
 
 ## Software peer review: steady growth and shared responsibility
 
-Throughout 2025, software peer review remained a core activity at rOpenSci, completing 24 peer reviews. We have a continuous flow of new package submissions, approvals, and ongoing reviews, reflecting both the demand for high-quality research software and the commitment of our editors and reviewers.
+Throughout 2025, software peer review remained a core activity at rOpenSci, with 24 submissions peer-reviewed and approved. We had a continuous flow of new package submissions, approvals, and ongoing reviews, reflecting both the demand for high-quality research software and the commitment of our editors and reviewers.
 
-New _20_ packages joined rOpenSci in domains like environmental and climate data, geospatial analysis, linguistics, and statistics. Existing packages receive more than _7000_ commits from _239_ unique users, _62_ of them contribute for the first time to rOpenSci!. Package maintainers released new versions, showing ongoing maintenance and responsiveness to users. 
+New packages joined rOpenSci in fields including environmental and climate data, geospatial analysis, linguistics, and statistics. Existing packages received more than _7000_ commits from _239_ unique users, with _62_ of them contributing for the first time to rOpenSci!. Package maintainers released new versions, and showed ongoing maintenance and responsiveness to users.
 
-Building on last year's commitments, we aimed to further improve the efficiency and usefulness of our software peer review system and explore its potential as a model for other communities.
+Building on last year's commitments, we further improved the efficiency and usefulness of our software peer review system, and explored its potential as a model for other communities.
 
 We enhanced the review process by [improving dashboards](https://dashboard.ropensci.org), [updating guides](https://devguide.ropensci.org), and refining [pkgcheck](https://docs.ropensci.org/pkgcheck/) and its GitHub Action, making participation easier for authors and reviewers. 
 
 Leadership transitions within the program helped distribute responsibility and ensure continuity, while ongoing community participation demonstrated that peer review remains a collective effort.
 
-_<TODO: Mention plans for 2026>_
+Increasing submissions mean we expect to add more editors to our board in 2026. We will also extend our automation processes, and formulate policies on the use of AI/LLLMs in developing and maintaining rOpenSci packages.
 
 ## Strengthening shared infrastructure: R-Universe and Community Health Dasbhoard
 
