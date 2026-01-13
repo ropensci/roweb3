@@ -85,10 +85,19 @@ One of the goals for 2025 was to create more opportunities for people to engage 
 
 In 2025, this took shape through [mini-hackathons](/blog/2025/01/24/coworking-hackathons/) designed to lower barriers to participation. These events combined practical contribution opportunities with mentoring and social connection, reinforcing the idea that open source work is collaborative and learned through doing. [We wrote a guide to share our lessons learned organizing this type of event](https://ftc-guide.ropensci.org). Revisiting these formats throughout the year helped emphasize that open source participation is not a one-off event, but an ongoing practice that grows with continued support.
 
-
 We also attend and support several other conferences and events _<TODO: add some links and stats of talks/tutorials/keynotes>_
 
 In 2026, we plan to continue organizing community calls in multiple human languages, co-working sessions, and mini-hackathons. If you want to collaborate in any of these spaces, please get in touch with us.  We also hope to see you in some of the R, open science, and open source conferences around the world: follow our [events page](/events) and our [newsletter](/news) to learn which ones we will attend!
+
+## Strengthening ties with open science partners
+
+In 2025, we continued to build and strengthen partnerships with organizations that share our commitment to open science, open source, and community-driven development.
+
+We used our co-working sessions to connect rOpenSci members with partner communities, holding joint events with the [Data Science Learning Community](https://ropensci.org/events/coworking-2025-06/) and [The Carpentries](https://ropensci.org/events/coworking-2025-12/). 
+
+rOpenSci staff served on the [R Consortium Infrastructure Steering Committee](https://r-consortium.org/about/governance.html#infrastructure-steering-committee), [R-Ladies](https://rladies.org/about-us/global-team/) global leadership, [R-Multiverse](https://r-multiverse.org/team.html) administration,  the [UseR!](https://user2025.r-project.org/about/organizers) and [LatinR](https://latinr.org/sobre/equipo/) organizing commitees. 
+
+Together with a [coaltion of open science organizations, we held a convening](https://ropensci.org/blog/2025/09/15/collaboration-communities/) to map out gaps in ecosystem sustainability and to start a long-term process of developing shared support approaches. We are working with BioConductor to make R-Universe a larger part of their core infrastructure. <TODO: harmonize this with the R-Universe section above as needed.>
 
 ## What we learned 
 
