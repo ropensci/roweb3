@@ -24,9 +24,19 @@ Over the years, we've supported rOpenSci's package authors through this transiti
 
 In this post, we share practical tips and strategies to help you find people that can contribute and eventually take over your package, based on what we have learned supporting the packages that are part of the rOpenSci suite.
 
+## Start early
+
+The best time to start looking for a new maintainer is well before you actually need one, and the best place to look for a new maintainers is among existing contributors to your package.
+For this reason, it's a good idea to make planning for succession part of your package design and maintenance strategy from the beginning.
+
+We encourage package authors to write a ["life cycle statement"](https://stats-devguide.ropensci.org/standards.html#G1_2) to describe your medium- to long-term vision of package development maintenance.  
+This can be just a few sentences in a `CONTRIBUTING.md` or `README.md` file that outlines your intentions for development, including how long you anticipate maintaining it.
+Even if the future is uncertain, this helps set expectations for yourself as well as potential contributors.
+
+
 ## Make the package contributor-friendly
 
-If you want someone to take over, your package needs to be **approachable**.
+If you want to attract contributors who can become maintainers in the short- or long-term, your package needs to be **approachable**.
 Our [Dev Guide has an entire chapter on making packages contributor-friendly](https://devguide.ropensci.org/maintenance_collaboration.html) and we also have a Community Call ["Set Up Your Package to Foster a Community"](https://ropensci.org/commcalls/apr2021-pkg-community/), but here are some key points to consider.
 
 Ask yourself:
@@ -44,9 +54,15 @@ A good `CONTRIBUTING.md` can cover:
 - Any tests and how to run them.
 - Any release process notes, including scripts, CI workflows, or manual steps you take to release a new version.
 
-rOpenSci further encourages contributing guides to include [a lifecycle statement clarifying visions and expectations for the future development of your package, like in the skimr package](https://github.com/ropensci/skimr/blob/main/.github/CONTRIBUTING.md#understanding-the-scope-of-skimr).
-
 The more you have documented clearly, the less hard it will feel for someone to say "yes" to maintaining.
+
+Depending on your ability to do so, you can also actively invest in growing contributors in a number of ways, for example:
+
+-  Mentor a beginning contributor through their first pull request
+-  Host a "bug bash" or "documentation sprint" to encourage contributions. Our [guide on organizing events for first-time contributors](https://ftc-guide.ropensci.org) has resources to help you plan.
+-  Highlight "good first issues" in your issue tracker
+
+These activities help expand your community of contributors and potential future maintainers, but will be most effective if you start well ahead of package handover, when you still have plenty of time and energy to invest.
 
 ## Clarify what you're willing (and not willing) to do
 
@@ -144,7 +160,7 @@ This is an aggressive move and may annoy some users, so consider it only if your
 
 ## It's okay to step back
 
-Stepping down from maintaining a package it's a normal part of the open source life cycle.
+Stepping down from maintaining a package is a normal part of the open source life cycle.
 
 By:
 
