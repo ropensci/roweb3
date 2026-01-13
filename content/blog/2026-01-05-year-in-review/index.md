@@ -52,7 +52,8 @@ _<TODO: add links and some numbers>_
 
 Beyond translation itself, we continued to treat multilingual publishing as infrastructure: refining AI-assisted workflows through the [babeldown](https://docs.ropensci.org/babeldown/) package; allowing multilingual Quarto projects through the now [peer-reviewed](https://github.com/ropensci/software-review/issues/720) [babelquarto](https://docs.ropensci.org/babelquarto/) package; enabling our website to support [multilingual content](/blog/2025/04/28/news-april-2025/#more-languages-more-access-discover-ropensci-in-spanish); [documenting processes](/blog/2024/12/17/localization-guide/) and [sharing lessons](/blog/2025/06/23/translation-faq/) so that other open science communities can adapt and reuse this work. 
 
-We also have [community calls](/es/commcalls/), co-working sessions, and mini-hackathons in Spanish and Portuguese, offering our community content and program to Spanish- and Lusophone-speaking members.  Spanish-language events and resources reinforced rOpenSci’s commitment to multilingual participation and to meeting communities where they are.
+We also have [community calls](/es/commcalls/), [co-working sessions](/coworking), and mini-hackathons in Spanish and Portuguese, offering our community content and program to Spanish- and Lusophone-speaking members.  
+Spanish-language events and resources reinforced rOpenSci’s commitment to multilingual participation and to meeting communities where they are.
 
 In 2026, we will continue working on English and Spanish content generation and expand Portuguese content and processes, piloting a fully Portuguese software peer review and translating Champions Program Training material into Portuguese.  
 
@@ -82,12 +83,12 @@ We organized _3_ community calls and _13_ co-working sessions with _21_ unique p
 
 One of the goals for 2025 was to create more opportunities for people to engage with rOpenSci, especially first-time contributors.
 
-In 2025, this took shape through mini-hackathons designed to lower barriers to participation. These events combined practical contribution opportunities with mentoring and social connection, reinforcing the idea that open source work is collaborative and learned through doing. [We wrote a guide to share our lessons learned organizing this type of event](https://ftc-guide.ropensci.org). Revisiting these formats throughout the year helped emphasize that open source participation is not a one-off event, but an ongoing practice that grows with continued support.
+In 2025, this took shape through [mini-hackathons](/blog/2025/01/24/coworking-hackathons/) designed to lower barriers to participation. These events combined practical contribution opportunities with mentoring and social connection, reinforcing the idea that open source work is collaborative and learned through doing. [We wrote a guide to share our lessons learned organizing this type of event](https://ftc-guide.ropensci.org). Revisiting these formats throughout the year helped emphasize that open source participation is not a one-off event, but an ongoing practice that grows with continued support.
 
 
 We also attend and support several other conferences and events _<TODO: add some links and stats of talks/tutorials/keynotes>_
 
-In 2026, we plan to continue organizing community calls in multiple human languages, co-working sessions, and mini-hackathons. If you want to collaborate in any of these spaces, please get in touch with us.  We also hope to see you in some of the R, open science, and open source conferences around the world.
+In 2026, we plan to continue organizing community calls in multiple human languages, co-working sessions, and mini-hackathons. If you want to collaborate in any of these spaces, please get in touch with us.  We also hope to see you in some of the R, open science, and open source conferences around the world: follow our [events page](/events) and our [newsletter](/news) to learn which ones we will attend!
 
 ## What we learned 
 
