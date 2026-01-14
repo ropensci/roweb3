@@ -2,6 +2,8 @@
 title: How to Recruit a New Maintainer for Your Package
 author: 
 - Yanina Bellini Saibene
+- Noam Ross
+- Maëlle Salmon
 editor:
 - Steffi LaZerte
 date: '2026-01-15'
