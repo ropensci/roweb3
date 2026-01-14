@@ -5,6 +5,7 @@ date: "2026-01-13"
 slug: "palaeoverse-ssi-grant"
 categories: []
 tags:
+- community
 - sustainability
 - reproducibility
 - paleontology
