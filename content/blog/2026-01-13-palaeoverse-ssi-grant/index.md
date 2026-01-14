@@ -27,7 +27,7 @@ This funding will support efforts to improve the sustainability and maintainabil
 [Palaeoverse](https://palaeoverse.org/) is an initiative aiming to unite the paleontological community through shared resources, agreed standards, and a collective commitment to improving reproducibility in paleontological research.
 The project began in 2022 when a group of early-career researchers, including myself, recognized a common challenge: many of us were independently developing similar programmatic workflows for cleaning and preparing paleontological data due to a lack of standardized tools and protocols, leading to duplicated work that was difficult to reproduce.
 In response, we came together to develop the [palaeoverse R package](https://palaeoverse.palaeoverse.org/)—a toolkit designed to streamline data preparation and exploration in paleontological research.
-Since then, Palaeoverse has evolved into a formally organised initiative with a growing scope.
+Since then, Palaeoverse has evolved into a formally organized initiative with a growing scope.
 We maintain multiple [R packages](https://github.com/palaeoverse), curate [resources](https://palaeoverse.org/external), host [lectures](https://www.youtube.com/@ThePalaeoverse), and run [training workshops](https://workshop.palaeoverse.org/).
 These resources have been developed entirely through the current team’s voluntary efforts.
 
@@ -59,7 +59,7 @@ To achieve our vision, we have identified two strategic priorities for the organ
 We also want to develop comprehensive contributor guidelines and documentation to establish transparent and accessible standards.
 
 2. **Grow community engagement and build a contributor network**. We want to supplement our existing program of Palaeoverse workshops with bespoke training and community-building initiatives focused on software development and maintenance.
-Given the low prevalence of these skills in palaeontology, these events will be critical for equipping researchers with the knowledge and confidence needed to contribute to open-source scientific software, including Palaeoverse.
+Given the low prevalence of these skills in paleontology, these events will be critical for equipping researchers with the knowledge and confidence needed to contribute to open-source scientific software, including Palaeoverse.
 
 Through these efforts we will set clear expectations for contributions, streamline contributor submissions, and cultivate a contributor network.
 Our hope is that this will spur a new community-sustaining growth phase for Palaeoverse.
