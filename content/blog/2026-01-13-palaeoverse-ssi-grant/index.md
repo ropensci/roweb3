@@ -15,7 +15,7 @@ tags:
 - maintenance
 - open science
 package_version: 0.1.0
-description: "A grant from the Software Sustainability Institute will go towards improving the sustainability and maintainability of R packages used in paleontological research.""
+description: "A grant from the Software Sustainability Institute will go towards improving the sustainability and maintainability of R packages used in paleontological research."
 editor: ~
 ---
 
