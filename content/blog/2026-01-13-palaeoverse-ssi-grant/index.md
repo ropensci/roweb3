@@ -16,7 +16,7 @@ tags:
 - open science
 package_version: 0.1.0
 description: "A grant from the Software Sustainability Institute will go towards improving the sustainability and maintainability of R packages used in paleontological research.""
-editor:
+editor: ~
 ---
 
 [Palaeoverse](https://palaeoverse.org/), a grassroots organization that develops R packages for paleontology, has been [awarded a Large Grant](https://www.software.ac.uk/rsmf-round-1-projects) from the [Software Sustainability Institute](https://www.software.ac.uk/), via the [Research Software Maintenance Fund](https://www.software.ac.uk/programmes/research-software-maintenance-fund), for the project 'Converting Users to Contributors: Enabling Sustainable Maintenance and Development of Palaeoverse'.
