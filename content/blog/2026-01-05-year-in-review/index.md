@@ -63,11 +63,15 @@ We will continue our collaborations with other organizations and groups that tra
 
 One of our clearest goals for 2025 was to run the first fully Spanish-language cohort of the rOpenSci Champions Program, with a focus on Latin America.
 
-The 2025 cohort launched with an [improved Spanish curriculum](https://champions-program.ropensci.org/resources/resources.html), Spanish-language community calls, outreach activities, and mentoring. To accomplish this, we translate all training materials and the infrastructure and artifacts necessary to run a successful cohort into Spanish. The program emphasized sustainable research software as a pillar of open science in the region, while strengthening peer networks among Champions, mentors, and alumni.
+The 2025 cohort launched with an [improved Spanish curriculum](https://champions-program.ropensci.org/resources/resources.html), [Spanish-language community calls](https://ropensci.org/es/commcalls/champions-latino-2025/), outreach activities, and mentoring. To accomplish this, we translate all training materials and the infrastructure and artifacts necessary to run a successful cohort into Spanish. The program emphasized sustainable research software as a pillar of open science in the region, while strengthening peer networks among Champions, mentors, and alumni.
 
 Alongside the new cohort, we also evaluated the second cohort to improve the program and better understand its impact. We conducted anonymous surveys and 1:1 interviews with champions and mentors and used their feedback to improve the program.
 
-_<TODO: add some stats and quotes and links>_
+The analysis of the survey and interview information shows high satisfaction among participants, both mentors and champions. All participants agreed that the program prepared Champions to develop their own R package, improve the quality of their packages, and participate in the software peer review. They also  expressed a desire to remain connected with rOpenSci, including participating in the champions program again in the future. 
+
+All champions interviewed reported positive professional outcomes after participating in the program, ranging from employment opportunities, internships, grants, and conference scholarships to presentations at international and local events, generating interest in their project and the program. 
+
+Participants also provided constructive feedback on challenges they experienced, including staying in touch with other participants, defining the scope of the project, and time zones. We have already made adjustments to the program to try to address these challenges during the 2025 cohort. 
 
 In 2026, we will [have a second cohort in Spanish](https://ropensci.org/blog/2026/01/12/programchamps2026/) and take steps toward longer-term sustainability for the program: testing new formats, strengthening partnerships, and beginning follow-up work with earlier cohorts to better understand the program's long-term impact.
 
