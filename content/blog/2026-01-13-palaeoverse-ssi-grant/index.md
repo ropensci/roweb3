@@ -81,6 +81,21 @@ The funding, totaling ~£480,000 (~650,000 USD) over two years, will go towards:
 
 Altogether, we hope that, by devoting these resources to Palaeoverse over the next two years, we will build a strong community of users and contributors that will sustain the Palaeoverse R packages and broader organization for many years to come.
 
+### Getting involved in Palaeoverse
+
+We are extremely excited for the future of Palaeoverse, and we invite you to join us on this next chapter, whether or not you are a paleontologist!
+There are several ways to get involved:
+
+- You can contribute to the functionality of the Palaeoverse R toolkit.
+Our [contributing guide](https://palaeoverse.palaeoverse.org/CONTRIBUTING.html) is a great place to start.
+You can also check out our [GitHub repositories](https://github.com/palaeoverse) to find issues that speak to you. For example, we have a lot of [issues](https://github.com/palaeoverse/palaeoverse/issues) for the palaeoverse package that would be great for new contributors.
+- Become a [Palaeoverse Reviewer](https://palaeoverse.org/form/reviewer) to help review code, documentation, and resources.
+We particularly value community input to ensure that the toolkit has a smooth user experience.
+- Contribute to Palaeoverse databases like the [Directory](https://palaeoverse.org/directory) and [Grant Track](https://palaeoverse.org/funding), which aim to centralize useful information for the community.
+- Be active in community spaces such as the [Palaeoverse Google Group](https://groups.google.com/g/palaeoverse), where you can share ideas and resources, advertise opportunities, and network with colleagues.
+Help us build a stronger community in computation paleontology!
+The Google Group has been fairly quiet lately, but we're hoping to breath new life into it as part of our new community initiatives!
+- Follow us on [social media](https://bsky.app/profile/palaeoverse.bsky.social) and enjoy the ride!
 
 [^1]: Jones, L.A., Gearty, W., Allen, B.J., Eichenseer, K., Dean, C.D., Galván S., Kouvari, M., Godoy, P.L., Nicholl, C., Dillon, E.M., Flannery-Sutherland, J.T., Chiarenza, A.A. (2023). palaeoverse: A community-driven R package to support palaeobiological analysis. *Methods in Ecology and Evolution*. 14(9): 2205–2215. https://doi.org/10.1111/2041-210X.14099
 [^2]: Gearty, W. and Jones, L.A. (2023). rphylopic: An R package for fetching, transforming, and visualising PhyloPic silhouettes. *Methods in Ecology and Evolution*. 14(11): 2700-2708. https://doi.org/10.1111/2041-210X.14221
