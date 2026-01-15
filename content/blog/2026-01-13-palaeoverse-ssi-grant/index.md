@@ -31,7 +31,7 @@ The project began in 2022 when a group of early-career researchers, including my
 In response, we came together to develop the [palaeoverse R package](https://palaeoverse.palaeoverse.org/)—a toolkit designed to streamline data preparation and exploration in paleontological research.
 Since then, Palaeoverse has evolved into a formally organized initiative with a growing scope.
 We maintain multiple [R packages](https://github.com/palaeoverse), curate [resources](https://palaeoverse.org/external), host [lectures](https://www.youtube.com/@ThePalaeoverse), and run [training workshops](https://workshop.palaeoverse.org/).
-These resources have been developed entirely through the current team’s voluntary efforts.
+These resources have been developed entirely through the [current team](https://palaeoverse.org/#about-us)’s voluntary efforts.
 
 ### The Palaeoverse toolkit
 
@@ -48,7 +48,7 @@ The package provides functionality for querying the database via the dedicated A
 - The [sepkoski](https://sepkoski.palaeoverse.org/) package provides access to Sepkoski’s fossil marine animal genera compendium[^4].
 The aim of the package is to offer a light and easily-accessible solution to working with Sepkoski’s compendium to support teaching exercises.
 
-## Funding the next generation
+## Funding the next generation of contributors
 
 Computational methods play an increasingly central role in paleontology, creating a pressing need for reliable, community-endorsed software that supports reproducible research.
 Palaeoverse was established to address this demand, but its continued success now depends on broader community engagement to ensure its longevity and that its development reflects the diverse needs of the field, rather than those of its core contributors.
@@ -65,7 +65,7 @@ Given the low prevalence of these skills in paleontology, these events will be c
 
 Through these efforts we will set clear expectations for contributions, streamline contributor submissions, and cultivate a contributor network.
 Our hope is that this will spur a new community-sustaining growth phase for Palaeoverse.
-Unfortunately, these lofty goals would require a lot of time and money, and funding for maintenance of preexisting software is scarce (large research grants are usually looking for novel software) and all of the core contributors are busy with many other responsibilities...
+Unfortunately, these lofty goals require a lot of time and money, and funding for maintenance of preexisting software is scarce (large research grants are usually looking for novel software) and all of the core contributors are busy with many other responsibilities...
 
 ### Research Software Maintenance Fund
 
@@ -75,9 +75,9 @@ The Palaeoverse team put together a proposal for a Large Grant to cover these tw
 Then, in December, we found out that our proposal, 'Converting Users to Contributors: Enabling Sustainable Maintenance and Development of Palaeoverse', was chosen as one of four Large Awards to be funded!
 The funding, totaling ~£480,000 (~650,000 USD) over two years, will go towards:
 
-1. A dedicated, full-time Research Software Engineer who will audit and refactor the entire Palaeoverse toolkit, with a focus on improving standardization, accessibility, and reducing future maintenance needs
-2. A dedicated, full-time Community Engagement Coordinator who will develop and run bespoke community training events on research software development (like [The Carpentries](https://carpentries.org)), hackathons, and a dedicated mentorship program (modeled after the [rOpenSci Champions Program](/champions/)) to train the next generation of Palaeoverse contributors
-3. Funds for travel and subsistence for the community training events, hackathons, and mentorship program
+1. A dedicated, full-time Research Software Engineer who will audit and refactor the entire Palaeoverse toolkit, with a focus on improving standardization, accessibility, and reducing future maintenance needs.
+2. A dedicated, full-time Community Engagement Coordinator who will develop and run bespoke community training events on research software development (like [The Carpentries](https://carpentries.org)), hackathons, and a dedicated mentorship program (modeled after the [rOpenSci Champions Program](/champions/)) to train the next generation of Palaeoverse contributors.
+3. Funds for travel and subsistence for the community training events, hackathons, and mentorship program.
 
 Altogether, we hope that, by devoting these resources to Palaeoverse over the next two years, we will build a strong community of users and contributors that will sustain the Palaeoverse R packages and broader organization for many years to come.
 We invite you to join us over on [GitHub](https://github.com/palaeoverse)!
