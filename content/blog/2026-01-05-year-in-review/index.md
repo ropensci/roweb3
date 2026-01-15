@@ -63,13 +63,13 @@ We will continue our collaborations with other organizations and groups that tra
 
 One of our clearest goals for 2025 was to run the first fully Spanish-language cohort of the rOpenSci Champions Program, with a focus on Latin America.
 
-The 2025 cohort launched with an improved Spanish curriculum, Spanish-language community calls, outreach activities, and mentoring. To accomplish this, we translate all training materials and the infrastructure and artifacts necessary to run a successful cohort into Spanish. The program emphasized sustainable research software as a pillar of open science in the region, while strengthening peer networks among Champions, mentors, and alumni.
+The 2025 cohort launched with an [improved Spanish curriculum](https://champions-program.ropensci.org/resources/resources.html), Spanish-language community calls, outreach activities, and mentoring. To accomplish this, we translate all training materials and the infrastructure and artifacts necessary to run a successful cohort into Spanish. The program emphasized sustainable research software as a pillar of open science in the region, while strengthening peer networks among Champions, mentors, and alumni.
 
 Alongside the new cohort, we also evaluated the second cohort to improve the program and better understand its impact. We conducted anonymous surveys and 1:1 interviews with champions and mentors and used their feedback to improve the program.
 
 _<TODO: add some stats and quotes and links>_
 
-In 2026, we will have a second cohort in Spanish and take steps toward longer-term sustainability for the program: testing new formats, strengthening partnerships, and beginning follow-up work with earlier cohorts to better understand the program's long-term impact.
+In 2026, we will [have a second cohort in Spanish](https://ropensci.org/blog/2026/01/12/programchamps2026/) and take steps toward longer-term sustainability for the program: testing new formats, strengthening partnerships, and beginning follow-up work with earlier cohorts to better understand the program's long-term impact.
 
 ## Community participation and pathways into open source
 
