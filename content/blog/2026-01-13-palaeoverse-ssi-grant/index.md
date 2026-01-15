@@ -45,7 +45,7 @@ rphylopic was originally developed and maintained by [Scott Chamberlain](/author
 The Palaeoverse team refactored the entire package, released v.1.0.0, and has been maintaining the package since.
 - The [rmacrostrat](https://rmacrostrat.palaeoverse.org/) package[^3] provides streamlined and improved accessibility to the geological database [Macrostrat](https://macrostrat.org/).
 The package provides functionality for querying the database via the dedicated API and retrieving various geological data (such as lithostratigraphic units) and definitions/metadata associated with those data and Macrostrat more broadly.
-- The [sepkoski](https://sepkoski.palaeoverse.org/) package provides access to Sepkoski’s fossil marine animal genera compendium[^4].
+- The [sepkoski](https://sepkoski.palaeoverse.org/) package[^4] provides access to Sepkoski’s fossil marine animal genera compendium[^5].
 The aim of the package is to offer a light and easily-accessible solution to working with Sepkoski’s compendium to support teaching exercises.
 
 ## Funding the next generation of contributors
@@ -72,7 +72,7 @@ Unfortunately, these lofty goals require a lot of time and money, and funding fo
 Last April, the [Software Sustainability Institute](https://www.software.ac.uk/) announced a call for proposals for the first round of the [Research Software Maintenance Fund](https://www.software.ac.uk/programmes/research-software-maintenance-fund).
 This fund aims to support the maintenance and sustainability of research software that is already in use by the community (that's us!).
 The Palaeoverse team put together a proposal for a Large Grant to cover these two strategic priorities.
-Then, in December, we found out that our proposal, 'Converting Users to Contributors: Enabling Sustainable Maintenance and Development of Palaeoverse', was chosen as one of four Large Awards to be funded!
+Then, in December, we found out that our proposal, 'Converting Users to Contributors: Enabling Sustainable Maintenance and Development of Palaeoverse', was chosen as one of four Large Awards[^6] to be funded!
 The funding, totaling ~£480,000 (~650,000 USD) over two years, will go towards:
 
 1. A dedicated, full-time Research Software Engineer who will audit and refactor the entire Palaeoverse toolkit, with a focus on improving standardization, accessibility, and reducing future maintenance needs.
@@ -80,14 +80,12 @@ The funding, totaling ~£480,000 (~650,000 USD) over two years, will go towards:
 3. Funds for travel and subsistence for the community training events, hackathons, and mentorship program.
 
 Altogether, we hope that, by devoting these resources to Palaeoverse over the next two years, we will build a strong community of users and contributors that will sustain the Palaeoverse R packages and broader organization for many years to come.
-We invite you to join us over on [GitHub](https://github.com/palaeoverse)!
 
-### And R-Core, too!
-The Research Software Maintenance Fund also awarded a similarly sized grant to R-Core for a similar project titled ['Enabling the Next Generation of Contributors to R'](https://blog.r-project.org/2025/12/17/rsmf-enabling-the-next-generation-of-contributors-to-r/).
-We're honored to be in such esteemed company!
-Here's to a bright future of contributions to R-Core and R extensions!
 
 [^1]: Jones, L.A., Gearty, W., Allen, B.J., Eichenseer, K., Dean, C.D., Galván S., Kouvari, M., Godoy, P.L., Nicholl, C., Dillon, E.M., Flannery-Sutherland, J.T., Chiarenza, A.A. (2023). palaeoverse: A community-driven R package to support palaeobiological analysis. *Methods in Ecology and Evolution*. 14(9): 2205–2215. https://doi.org/10.1111/2041-210X.14099
 [^2]: Gearty, W. and Jones, L.A. (2023). rphylopic: An R package for fetching, transforming, and visualising PhyloPic silhouettes. *Methods in Ecology and Evolution*. 14(11): 2700-2708. https://doi.org/10.1111/2041-210X.14221
 [^3]: Jones, L.A., Dean, C.D., Gearty, W., and Allen, B.J. (2024). rmacrostrat: An R package for accessing and retrieving data from the Macrostrat geological database. *Geosphere*. 20(6): 1456–1467. https://doi.org/10.1130/GES02815.1
-[^4]: Sepkoski, J. J. (2002). A compendium of fossil marine animal genera. *Bulletins of American Paleontology*. 363: 1-560. https://doi.org/10.1017/S2475262200000335
+[^4]: Jones L.A. (2022). sepkoski: Sepkoski's Fossil Marine Animal Genera Compendium. R package version 0.0.1. https://github.com/LewisAJones/sepkoski/. https://doi.org/10.5281/zenodo.7342194.
+[^5]: Sepkoski, J. J. (2002). A compendium of fossil marine animal genera. *Bulletins of American Paleontology*. 363: 1-560. https://doi.org/10.1017/S2475262200000335
+[^6]: The Research Software Maintenance Fund also awarded a similarly sized grant to R-Core for a similar project titled ['Enabling the Next Generation of Contributors to R'](https://blog.r-project.org/2025/12/17/rsmf-enabling-the-next-generation-of-contributors-to-r/). We're honored to be in such esteemed company!
+
