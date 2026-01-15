@@ -51,7 +51,6 @@ Andrew is an assistant professor of public policy at the Andrew Young School of 
 
 Andrew on [website](https://www.andrewheiss.com/), [Bluesky](https://bsky.app/profile/andrew.heiss.phd), [GitHub](https://github.com/andrewheiss)
 
->
 > —Andrew Heiss
 
 
