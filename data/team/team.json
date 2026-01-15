@@ -527,6 +527,19 @@
     "home": "https://nimahejazi.org/"
   },
   {
+    "name": "Natalia da Silva",
+    "affiliation": "Universidad de la República in Montevideo, Uruguay",
+    "linkedin": "https://www.linkedin.com/in/natalia-da-silva-770700a1/",
+    "github": "natydasilva",
+    "url": "https://natydasilva.github.io/natydasilva/",
+    "image": "/img/team/naty-dasilva.jpg",
+    "roles": [
+      "editor"
+    ],
+    "stats": true,
+    "home": "https://natydasilva.github.io/natydasilva/"
+  },
+  {
     "name": "Kelly Hondula",
     "url": "https://www.sesync.org/users/khondula",
     "image": "/img/team/kelly-hondula.jpg",
