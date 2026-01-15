@@ -51,7 +51,6 @@ Andrew is an assistant professor of public policy at the Andrew Young School of 
 
 Andrew on [website](https://www.andrewheiss.com/), [Bluesky](https://bsky.app/profile/andrew.heiss.phd), [GitHub](https://github.com/andrewheiss)
 
-> I learned about rOpenSci in 2019 when I reviewed rtweet and I loved the whole review process and how transparent and collaborative everything felt—it was a wild contrast from standard academic peer review! Since then, I've held rOpenSci's package guidelines, documentation standards, and review process as a gold standard for my own work. I love the rOpenSci community and everything they do to contribute to the broader R community and open science movement and I'm thrilled to be able to join in as an editor!
 >
 > —Andrew Heiss
 
