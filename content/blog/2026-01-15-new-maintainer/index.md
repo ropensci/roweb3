@@ -160,6 +160,21 @@ In this message you can link to the "Seeking new maintainer" issue and encourage
 
 This is an aggressive move and may annoy some users, so consider it only if your package has a lot of active users and you haven't had much luck finding a new maintainer through other channels.
 
+## Last resort: archive your package
+
+If after a reasonable time you were not able to find a new maintainer for your package,
+you might have to make the difficult decision to archive it, on your code forge, e.g. [GitHub](https://docs.github.com/en/repositories/archiving-a-github-repository/archiving-repositories) -- and CRAN if relevant.
+Archiving the package puts an, albeit sad, end on your maintenance efforts.
+
+Before archiving your package, take time to add an explanatory comment in all issues and PRs and to close them all.
+You can create a new README to explain the new status.
+You could add how to get in touch with you in case you are ready to transfer the repository to someone who'd like to revive it.
+
+Maybe your software will be replaced by other packages, 
+maybe someone will end up reaching out to you to request you transfer the repository to them, 
+maybe someone will create a replacement with the same name (and hopefully correct authorship and licensing if it re-used your code).
+In all cases, you will have done your best and the fate of the R package is out of your hands.
+
 ## It's okay to step back
 
 Stepping down from maintaining a package is a normal part of the open source life cycle.
