@@ -2,7 +2,7 @@
 title: Software Sustainability Institute Awards Grant to Improve Paleontology R Packages
 author:
 - Will Gearty
-- Palaeoverse Team
+- The Palaeoverse Team
 date: "2026-01-13"
 slug: "palaeoverse-ssi-grant"
 categories: []
