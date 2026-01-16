@@ -49,6 +49,8 @@ The package provides functionality for querying the database via the dedicated A
 - The [sepkoski](https://sepkoski.palaeoverse.org/) package[^4] provides access to Sepkoski’s fossil marine animal genera compendium[^5].
 The aim of the package is to offer a light and easily-accessible solution to working with Sepkoski’s compendium to support teaching exercises.
 
+{{< figure src = "sepkoski_curve.png" alt = "A stacked area plot showing the number of marine animal genera across the Phanerozoic; the genera are split by color into Sepkoski's evolutionary fauna: Cambrian, Paleozoic, Modern (plus an Unassigned category); the x-axis has a geological timescale on it" class = "pull-left" caption = "Sepkoski's evolutionary fauna[^6], using the Sepkoski fossil marine animal genera compendium[^5], as plotted by the `sepkoski_curve_base()` function in the sepkoski R package[^4]. Number of genera are counted per international geological stage bin. The timescale on the x-axis comes from the `axis_geo()` function in the palaeoverse R package[^1]." >}}
+
 ## Funding the next generation of contributors
 
 Computational methods play an increasingly central role in paleontology, creating a pressing need for reliable, community-endorsed software that supports reproducible research.
@@ -73,7 +75,7 @@ Unfortunately, these lofty goals require a lot of time and money, and funding fo
 Last April, the [Software Sustainability Institute](https://www.software.ac.uk/) announced a call for proposals for the first round of the [Research Software Maintenance Fund](https://www.software.ac.uk/programmes/research-software-maintenance-fund).
 This fund aims to support the maintenance and sustainability of research software that is already in use by the community (that's us!).
 The Palaeoverse team put together a proposal for a Large Grant to cover these two strategic priorities.
-Then, in December, we found out that our proposal, 'Converting Users to Contributors: Enabling Sustainable Maintenance and Development of Palaeoverse', was chosen as one of four Large Awards[^6] to be funded!
+Then, in December, we found out that our proposal, 'Converting Users to Contributors: Enabling Sustainable Maintenance and Development of Palaeoverse', was chosen as one of four Large Awards[^7] to be funded!
 The funding, totaling ~£480,000 (~650,000 USD) over two years, will go towards:
 
 1. A dedicated, full-time Research Software Engineer who will audit and refactor the entire Palaeoverse toolkit, with a focus on improving standardization, accessibility, and reducing future maintenance needs.
@@ -103,5 +105,6 @@ The Google Group has been fairly quiet lately, but we're hoping to breath new li
 [^3]: Jones, L.A., Dean, C.D., Gearty, W., and Allen, B.J. (2024). rmacrostrat: An R package for accessing and retrieving data from the Macrostrat geological database. *Geosphere*. 20(6): 1456–1467. https://doi.org/10.1130/GES02815.1
 [^4]: Jones L.A. (2022). sepkoski: Sepkoski's Fossil Marine Animal Genera Compendium. R package version 0.0.1. https://github.com/LewisAJones/sepkoski/. https://doi.org/10.5281/zenodo.7342194.
 [^5]: Sepkoski, J. J. (2002). A compendium of fossil marine animal genera. *Bulletins of American Paleontology*. 363: 1-560. https://doi.org/10.1017/S2475262200000335
-[^6]: The Research Software Maintenance Fund also awarded a similarly sized grant to R-Core for a similar project titled ['Enabling the Next Generation of Contributors to R'](https://blog.r-project.org/2025/12/17/rsmf-enabling-the-next-generation-of-contributors-to-r/). We're honored to be in such esteemed company!
+[^6]: Sepkoski, J. J. (1981). A factor analytic description of the Phanerozoic marine fossil record. *Paleobiology*. 7(1): pp. 36–53. https://doi.org/10.1017/S0094837300003778
+[^7]: The Research Software Maintenance Fund also awarded a similarly sized grant to R-Core for a similar project titled ['Enabling the Next Generation of Contributors to R'](https://blog.r-project.org/2025/12/17/rsmf-enabling-the-next-generation-of-contributors-to-r/). We're honored to be in such esteemed company!
 
