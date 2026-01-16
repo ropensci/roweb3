@@ -62,7 +62,7 @@ Depending on your ability to do so, you can also actively invest in growing cont
 
 -  Mentor a beginning contributor through their first pull request
 -  Host a "bug bash" or "documentation sprint" to encourage contributions. Our [guide on organizing events for first-time contributors](https://ftc-guide.ropensci.org) has resources to help you plan.
--  Highlight "good first issues" in your issue tracker
+-  Highlight "good first issues" and ["help wanted issues"](https://ropensci.org/blog/2023/09/19/help-wanted/) in your issue tracker.
 
 These activities help expand your community of contributors and potential future maintainers, but will be most effective if you start well ahead of package handover, when you still have plenty of time and energy to invest.
 
@@ -182,11 +182,14 @@ Stepping down from maintaining a package is a normal part of the open source lif
 
 By:
 
+- Make plans for succession from the beginning,
+- Making the package contributor-friendly,
+- Clarifying your own boundaries,
 - Opening a clear "Seeking new maintainer" issue,
 - Updating your README,
-- Announcing the search in the right channels,
 - Reaching out to contributors,
-- And making the package contributor-friendly,
+- Announcing the search in the right channels,
+- and if needed, archiving your package,
 
 you give your project the best chance to continue, while also respecting your own time and energy.
 
