@@ -148,8 +148,8 @@ Now that your package repo has clear messages and a place to express interest an
 
 Consider posting a brief announcement in places where your users or contributors are likely to see it:
 
-- Social media (e.g., Mastodon, Bluesky, LinkedIn) using specific hashtags like #RStats.
 - Community forums, mailing lists, Slack/Discord channels relevant to your language/ecosystem.
+- Social media (e.g., Mastodon, Bluesky, LinkedIn) using specific hashtags like #RStats.
 
 For example, rOpenSci [lists "New maintainers" issues in our website](https://ropensci.org/help-wanted/), we share them on our social media and in our [newsletter](https://ropensci.org/blog/2025/12/18/news-december-2025/#calls-for-contributions).
 
