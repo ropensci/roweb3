@@ -138,8 +138,9 @@ The best candidates for new maintainers are often already nearby:
 
 You can:
 
-- **Tag contributors** directly in the "Seeking new maintainer" issue, like the [rentrez package maintainer did](https://github.com/ropensci/rentrez/issues/203).
 - Send a short, polite email or message to a few people who have been especially active. Even if they say no, they may know someone else who would be a good fit.
+- If you don't have an email or other way of contact then tag contributors directly in the "Seeking new maintainer" issue, like the [rentrez package maintainer did](https://github.com/ropensci/rentrez/issues/203).
+
 
 ## Announce it where your users are
 
