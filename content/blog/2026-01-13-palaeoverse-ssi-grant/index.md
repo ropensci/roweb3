@@ -23,6 +23,8 @@ editor: ~
 [Palaeoverse](https://palaeoverse.org/), a grassroots organization that develops R packages for paleontology, has been [awarded a Large Grant](https://www.software.ac.uk/rsmf-round-1-projects) from the [Software Sustainability Institute](https://www.software.ac.uk/), via the [Research Software Maintenance Fund](https://www.software.ac.uk/programmes/research-software-maintenance-fund), for the project 'Converting Users to Contributors: Enabling Sustainable Maintenance and Development of Palaeoverse'.
 This funding will support efforts to improve the sustainability and maintainability of several key R packages used in paleontological research.
 
+{{< figure src = "palaeoverse.png" alt = "The Palaeoverse logo" class = "pull-left" >}}
+
 ## Welcome to the Palaeoverse
 
 [Palaeoverse](https://palaeoverse.org/) is an initiative aiming to unite the paleontological community through shared resources, agreed standards, and a collective commitment to improving reproducibility in paleontological research.
