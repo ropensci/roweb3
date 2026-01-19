@@ -1,8 +1,6 @@
 ---
 name: Irene Ramos
-link: website URL or other online presence
 linkedin: iramosp
-mastodon: mastodon URL
-github: GitHub username
-orcid: ORCID ID
+github: iramosp
+orcid: 0000-0003-3315-2281
 ---
