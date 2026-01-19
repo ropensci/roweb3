@@ -39,7 +39,7 @@ Documentation has been a key focus area as R-Universe has matured. In early 2025
 A refreshed web frontend has improved user experience and maintainability. This redesign streamlined the interface, improved performance, and made it easier for contributors to propose improvements, addressing long-standing usability challenges from incremental feature additions over time. We are continuing to rewrite and consolidate other pieces of the infrastructure such as the [build workflows](https://ropensci.org/blog/2026/01/03/r-universe-workflows/) to make it easier to understand the R-universe build process, and enable the community to hack on the workflows and actions to contribute improvements. 
 
 Finally a key focus in 2025 that continues in 2026 is expanding collaboration with other organizations managing sizable R package ecosystems. A notable emerging initiative is [R-Multiverse](https://ropensci.org/commcalls/r-multiverse/), which explores large-scale collaborative package repositories built on R-Universe’s infrastructure. R-Multiverse aims to support curated collections with developmental and production branches, customizable checks, and manual governance steps—features critical to institutional collaboration and stable release practices. In addition we are helping the BioConductor project modernize their infrastructure and gradually offload some their build maintenance to us. These illustrate the platform’s evolving role not just as a repository, but as an interactive ecosystem management tool.
-
+We are in conversation with several groups about adopting and adapting the dashboard to highlight the importance of communities in creating and maintaining software.
 
 ## Multilingual work as infrastructure, not an add-on
 
