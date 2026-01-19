@@ -39,7 +39,6 @@ Documentation has been a key focus area as R-Universe has matured. In early 2025
 A refreshed web frontend has improved user experience and maintainability. This redesign streamlined the interface, improved performance, and made it easier for contributors to propose improvements, addressing long-standing usability challenges from incremental feature additions over time. We are continuing to rewrite and consolidate other pieces of the infrastructure such as the [build workflows](https://ropensci.org/blog/2026/01/03/r-universe-workflows/) to make it easier to understand the R-universe build process, and enable the community to hack on the workflows and actions to contribute improvements. 
 
 Finally a key focus in 2025 that continues in 2026 is expanding collaboration with other organizations managing sizable R package ecosystems. A notable emerging initiative is [R-Multiverse](https://ropensci.org/commcalls/r-multiverse/), which explores large-scale collaborative package repositories built on R-Universe’s infrastructure. R-Multiverse aims to support curated collections with developmental and production branches, customizable checks, and manual governance steps—features critical to institutional collaboration and stable release practices. In addition we are helping the BioConductor project modernize their infrastructure and gradually offload some their build maintenance to us. These illustrate the platform’s evolving role not just as a repository, but as an interactive ecosystem management tool.
-We are in conversation with several groups about adopting and adapting the dashboard to highlight the importance of communities in creating and maintaining software.
 
 ## Multilingual work as infrastructure, not an add-on
 
@@ -91,6 +90,8 @@ In 2025, this took shape through [mini-hackathons](/blog/2025/01/24/coworking-ha
 We also attend and support several other conferences and events _<TODO: add some links and stats of talks/tutorials/keynotes>_
 
 In 2026, we plan to continue organizing community calls in multiple human languages, co-working sessions, and mini-hackathons. If you want to collaborate in any of these spaces, please get in touch with us.  We also hope to see you in some of the R, open science, and open source conferences around the world: follow our [events page](/events) and our [newsletter](/news) to learn which ones we will attend!
+
+We are in conversation with several groups about adopting and adapting the dashboard to highlight the importance of communities in creating and maintaining software.
 
 ## Strengthening ties with open science partners
 
