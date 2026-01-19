@@ -17,14 +17,16 @@ params:
   doi: "10.59350/teckx-0v214"
 ---
 
-Maintaining an open source package is rewarding work, but it's also a [lot of work](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/).
-Life and career changes, interests shift, and sometimes you simply don't have the time or energy to keep working on your R package.
-When that happens, one of the most responsible things you can do for users of your package, and for yourself, is to **proactively look for a new maintainer or co-maintainer.**
+Maintaining an open source package is rewarding work, but it's also a [**lot** of work](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/).
+Life and careers change, interests shift, and sometimes you simply don't have the time or energy to keep working on your R package (and that's okay![^1]).
+When that happens, one of the most responsible things you can do for package users, *and* for yourself, is to **proactively look for a new maintainer or co-maintainer.**
 
-How to recruit a new maintainer, is a question we hear a lot at rOpenSci.
+[^1]: If you feel guilty, remember that all your hard work up until now isn't negated by taking a step back in future.
+
+'How do I recruit a new maintainer?' is a question we hear a lot at rOpenSci.
 Over the years, we've supported rOpenSci's package authors through this transition, helping them connect with potential maintainers, clarify expectations around the role, and make handovers smoother and more sustainable.
 
-In this post, we share practical tips and strategies to help you find people that can contribute and eventually take over your package, based on what we have learned supporting the packages that are part of the rOpenSci suite.
+In this post, we share practical tips and strategies to help you find people that can contribute and eventually take over your package, based on what we have learned through supporting maintainers of packages that are part of the rOpenSci suite.
 
 ## Start early
 
@@ -60,9 +62,11 @@ The more you have documented clearly, the less hard it will feel for someone to 
 
 Depending on your ability to do so, you can also actively invest in growing contributors in a number of ways, for example:
 
--  Mentor a beginning contributor through their first pull request
+-  Mentor a beginning contributor through their first pull request[^1].
 -  Host a "bug bash" or "documentation sprint" to encourage contributions. Our [guide on organizing events for first-time contributors](https://ftc-guide.ropensci.org) has resources to help you plan.
--  Highlight "good first issues" and ["help wanted issues"](https://ropensci.org/blog/2023/09/19/help-wanted/) in your issue tracker.
+-  Highlight "good first issues" and ["help wanted issues"](/blog/2023/09/19/help-wanted/) in your issue tracker.
+
+[^1]: This can be a great way to discover if you contributing guide is sufficiently detailed.
 
 These activities help expand your community of contributors and potential future maintainers, but will be most effective if you start well ahead of package handover, when you still have plenty of time and energy to invest.
 
@@ -71,8 +75,7 @@ These activities help expand your community of contributors and potential future
 Potential new maintainers will wonder:
 
 - Will you still be around for questions?
-- Will you keep some level of control, or are you fully handing over?
-- Are you looking for a **co-maintainer** or someone to **fully take over**?
+- Will you keep some level of control, or are you fully handing over? (i.e. are you looking for a **co-maintainer** or a new **maintainer**?
 
 Be explicit. 
 For example:
