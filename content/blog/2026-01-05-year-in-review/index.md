@@ -85,7 +85,7 @@ We organized _3_ community calls and _13_ co-working sessions with _21_ unique p
 
 One of the goals for 2025 was to create more opportunities for people to engage with rOpenSci, especially first-time contributors.
 
-In 2025, this took shape through [mini-hackathons](/blog/2025/01/24/coworking-hackathons/) designed to lower barriers to participation. These events combined practical contribution opportunities with mentoring and social connection, reinforcing the idea that open source work is collaborative and learned through doing. [We wrote a guide to share our lessons learned organizing this type of event](https://ftc-guide.ropensci.org). Revisiting these formats throughout the year helped emphasize that open source participation is not a one-off event, but an ongoing practice that grows with continued support.
+In 2025, this took shape through [mini-hackathons](/blog/2025/01/24/coworking-hackathons/) designed to lower barriers to participation. These events combined practical contribution opportunities with mentoring and social connection, reinforcing the idea that open source work is collaborative and learned through doing. [We wrote a guide to share our lessons learned organizing this type of event](https://ftc-guide.ropensci.org). Hosting multiple events with this goal throughout the year helped emphasize that open source participation is not a one-off event, but an ongoing practice that grows with continued support.
 
 We also attended and supported several other conferences and events _<TODO: add some links and stats of talks/tutorials/keynotes>_
 
