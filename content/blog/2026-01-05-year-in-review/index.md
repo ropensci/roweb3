@@ -30,17 +30,16 @@ Leadership transitions within the program helped distribute responsibility and e
 
 Increasing submissions mean we expect to add more editors to our board in 2026. We will also extend our automation processes, and formulate policies on the use of AI/LLLMs in developing and maintaining rOpenSci packages.
 
-## Strengthening shared infrastructure: R-Universe and Community Health Dasbhoard
+## Strengthening shared infrastructure: R-Universe
 
-In 2024, we committed to investing further in R-Universe as a shared, community-driven platform for publishing and distributing R packages, supported by long-term funding from the R Consortium.
+A major milestone in the R-universe trajectory was its designation as a Top-Level Project by the R Consortium in late 2024. This status provides guaranteed funding and institutional support for at least three more years and reflects R-Universe’s role as critical infrastructure in the R community. Alongside this, the project lead gained a seat on the consortium’s Infrastructure Steering Committee, reinforcing R-Universe’s influence on broader R ecosystem development.
 
-In 2025, our investment in R-Universe produced clearer documentation, better tooling, and enhanced onboarding for users and contributors. A centralized documentation site provides unified guidance, making R-Universe more accessible and maintainable for individuals and communities.
+Documentation has been a key focus area as R-Universe has matured. In early 2025, the R-Universe team launched a centralized documentation website hosted as a Quarto book, funded in part by Google Season of Docs. This resource consolidates dispersed tutorials, READMEs, and technical notes into a more navigable structure covering browsing, installation, publishing, and infrastructure topics. The goal was not only to improve clarity for new users but also to make contributions to documentation itself easier for the community.
 
-_<TODO: Mention some of the other functionalities and improvements and also the work with R-multiverse and bioconductor>_
+A refreshed web frontend has improved user experience and maintainability. This redesign streamlined the interface, improved performance, and made it easier for contributors to propose improvements, addressing long-standing usability challenges from incremental feature additions over time. We are continuing to rewrite and consolidate other pieces of the infrastructure such as the [build workflows](https://ropensci.org/blog/2026/01/03/r-universe-workflows/) to make it easier to understand the R-universe build process, and enable the community to hack on the workflows and actions to contribute improvements. 
 
-We made progress on developing a prototype dashboard that aims to help organizations maintain complex systems of interdependent software components. Our initial [prototype organizational dashboard](https://ropensci-review-tools.github.io/repometrics-demo/) provides insights into code contributors, their repositories, and maintenance status and needs.
+Finally a key focus in 2025 that continues in 2026 is expanding collaboration with other organizations managing sizable R package ecosystems. A notable emerging initiative is [R-Multiverse](https://ropensci.org/commcalls/r-multiverse/), which explores large-scale collaborative package repositories built on R-Universe’s infrastructure. R-Multiverse aims to support curated collections with developmental and production branches, customizable checks, and manual governance steps—features critical to institutional collaboration and stable release practices. In addition we are helping the BioConductor project modernize their infrastructure and gradually offload some their build maintenance to us. These illustrate the platform’s evolving role not just as a repository, but as an interactive ecosystem management tool.
 
-_<TODO: Mention plans for 2026 for boths R-Universe and Community Health>_
 
 ## Multilingual work as infrastructure, not an add-on
 
@@ -101,7 +100,7 @@ We used our co-working sessions to connect rOpenSci members with partner communi
 
 rOpenSci staff served on the [R Consortium Infrastructure Steering Committee](https://r-consortium.org/about/governance.html#infrastructure-steering-committee), [R-Ladies](https://rladies.org/about-us/global-team/) global leadership, [R-Multiverse](https://r-multiverse.org/team.html) administration,  the [UseR!](https://user2025.r-project.org/about/organizers) and [LatinR](https://latinr.org/sobre/equipo/) organizing commitees. 
 
-Together with a [coaltion of open science organizations, we held a convening](https://ropensci.org/blog/2025/09/15/collaboration-communities/) to map out gaps in ecosystem sustainability and to start a long-term process of developing shared support approaches. We are working with BioConductor to make R-Universe a larger part of their core infrastructure. <TODO: harmonize this with the R-Universe section above as needed.>
+Together with a [coaltion of open science organizations, we held a convening](https://ropensci.org/blog/2025/09/15/collaboration-communities/) to map out gaps in ecosystem sustainability and to start a long-term process of developing shared support approaches. We are working with BioConductor to make R-Universe a larger part of their core infrastructure.
 
 ## What we learned 
 
