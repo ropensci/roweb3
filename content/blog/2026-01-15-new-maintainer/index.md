@@ -13,6 +13,9 @@ description: |
 tags:
   - package development
   - tech notes
+  - maintenance
+  - contributors
+  - community
 params:
   doi: "10.59350/teckx-0v214"
 ---
