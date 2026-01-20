@@ -44,7 +44,7 @@ Finally a key focus in 2025 that continues in 2026 is expanding collaboration wi
 
 In 2024, we framed multilingualism as foundational to open science, not supplementary. We committed to expanding translations, improving workflows, and supporting communities working in languages other than English.
 
-In 2025, following our 2024 commitment, we completed the [Portuguese translations of the rOpenSci Dev Guide](https://ropensci.org/blog/2025/11/25/translation-devguide-pt/) and progressed Spanish revisions of key content, blogs, program materials, and training. 
+In 2025, following our 2024 commitment, we completed the [Portuguese translations of the rOpenSci Dev Guide](/blog/2025/11/25/translation-devguide-pt/) and continued Spanish revisions of key content, blogs, program materials, and training.
 
 We translated 32,794 words into Portuguese for the Dev Guide and published 14 blog posts on our website, bringing the total to 16 blog posts in Portuguese. In Spanish, we have 62 blog posts and all main website pages fully translated. Additionally, we host blog content in other languages, including 8 posts in French and 1 in Turkish.
 
