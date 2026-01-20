@@ -10,7 +10,7 @@ description: Open call for the rOpenSci Champions Program 2026, 2025 wrap-up, co
 params:
   last_newsletter: '2025-12-18'
   doi: "10.59350/z8dpp-06623"
-rmd_hash: 25a58f9d2b011e99
+rmd_hash: eb4773c7703fbf62
 
 ---
 
@@ -47,7 +47,7 @@ TODO YANI
 
 We refactored the R-universe CI workflows to make it possible to run the exact same workflow from your own GitHub repository. This allows you to test or debug the build and check process on your R package, exactly as it will happen on R-universe, but without actually deploying to <https://r-universe.dev>.
 
-Read more in our [tech note](/blog/2026/01/03/r-universe-workflows/) and in the \[R-universe docs\]TODO add link
+Read more in our [tech note](/blog/2026/01/03/r-universe-workflows/) and in the [R-universe docs](https://docs.r-universe.dev/publish/troubleshoot-build.html#how-to-test-the-r-universe-build-workflow-from-your-own-github-repository).
 
 ### Coworking
 
@@ -164,8 +164,6 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 If you're interested in maintaining any of the R packages below, you might enjoy reading our blog post [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/).
 
 -   [hddtools](https://docs.ropensci.org/hddtools), Tools to discover hydrological data, accessing catalogues and databases from various data providers. [Issue for volunteering](https://github.com/ropensci/hddtools/issues/36).
-
--   [mregions2](https://docs.ropensci.org/mregions2/), streamlined interface to access data from Marine Regions in R for researchers, marine scientists, and geospatial analysts seeking marine geographical information. [Issue for volunteering](https://github.com/ropensci/mregions2/issues/30).
 
 -   [qualtRics](https://docs.ropensci.org/qualtRics/), download Qualtrics survey data. [Issue for volunteering](https://github.com/ropensci/qualtRics/issues/383).
 
