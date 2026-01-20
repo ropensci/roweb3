@@ -32,7 +32,7 @@ Increasing submissions mean we hope to add more editors to our board in 2026. We
 
 ## Strengthening shared infrastructure: R-Universe
 
-A major milestone in the R-universe trajectory was its designation as a Top-Level Project by the R Consortium in late 2024. This status provides guaranteed funding and institutional support for at least three more years and reflects R-Universe’s role as critical infrastructure in the R community. Alongside this, the project lead gained a seat on the consortium’s Infrastructure Steering Committee, reinforcing R-Universe’s influence on broader R ecosystem development.
+A major milestone in the R-Universe trajectory was its [designation as a Top-Level Project by the R Consortium](/blog/2024/12/03/r-universe-r-consortium-tlp/) in late 2024. This status provides guaranteed funding and institutional support for at least three more years and reflects R-Universe’s role as critical infrastructure in the R community. Alongside this, Jeroen Ooms, the R-Universe project lead, gained a seat on the consortium’s Infrastructure Steering Committee, reinforcing R-Universe’s influence on broader R ecosystem development.
 
 Documentation has been a key focus area as R-Universe has matured. In early 2025, the R-Universe team launched a centralized documentation website hosted as a Quarto book, funded in part by Google Season of Docs. This resource consolidates dispersed tutorials, READMEs, and technical notes into a more navigable structure covering browsing, installation, publishing, and infrastructure topics. The goal was not only to improve clarity for new users but also to make contributions to documentation itself easier for the community.
 
