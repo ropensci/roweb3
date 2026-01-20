@@ -80,9 +80,9 @@ Potential new maintainers will wonder:
 Be explicit. 
 For example:
 
-- "I'm stepping back but happy to answer a few questions during the transition."
-- "I'm looking for one or two co-maintainers and plan to stay on in a limited role."
-- "I'd like to hand over fully and remove myself as maintainer once the transition is complete."
+- "I'll help out and will be available during the transition, but plan to fully remove myself as maintainer once the transition is complete."  
+- "I'm fully handing over maintenance but am happy to answer a few questions during the transition."  
+- "I'd like to hand over fully and remove myself as maintainer as soon as possible." 
 
 Setting clear boundaries helps others decide whether to volunteer and prevents misunderstandings later.
 
