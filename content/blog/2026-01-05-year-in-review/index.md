@@ -69,7 +69,7 @@ The analysis of the survey and interview information shows high satisfaction amo
 
 All Champions interviewed reported positive professional outcomes after participating in the program, ranging from employment opportunities, internships, grants, and conference scholarships to presentations at international and local events, generating interest in their project and the program. 
 
-Participants also provided constructive feedback on challenges they experienced, including staying in touch with other participants, defining the scope of the project, and time zones. We have already made adjustments to the program to try to address these challenges during the 2025 cohort. 
+Participants also provided constructive feedback on challenges they experienced, including staying in touch with other participants, defining the scope of the project, and time zones. In response, we made adjustments to the program to try to address these challenges for the 2025 cohort. 
 
 In 2026, we will [have a second cohort in Spanish](https://ropensci.org/blog/2026/01/12/programchamps2026/) and take steps toward longer-term sustainability for the program: testing new formats, strengthening partnerships, and beginning follow-up work with earlier cohorts to better understand the program's long-term impact.
 
