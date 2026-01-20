@@ -102,7 +102,7 @@ We used our co-working sessions to connect rOpenSci members with like-minded com
 
 rOpenSci staff served on the [R Consortium Infrastructure Steering Committee](https://r-consortium.org/about/governance.html#infrastructure-steering-committee), [R-Ladies](https://rladies.org/about-us/global-team/) global leadership, [R-Multiverse](https://r-multiverse.org/team.html) administration, as well as the UseR! [2025](https://user2025.r-project.org/about/organizers), [2026](https://user2026.r-project.org) and [LatinR](https://latinr.org/sobre/equipo/) organizing committees. 
 
-Together with a [coaltion of open science organizations, we held a convening](https://ropensci.org/blog/2025/09/15/collaboration-communities/) to map out gaps in ecosystem sustainability and to start a long-term process of developing shared support approaches. We are working with BioConductor to make R-Universe a larger part of their core infrastructure.
+Together with a [coalition of open science organizations, we held a convening](/blog/2025/09/15/collaboration-communities/) to map out gaps in ecosystem sustainability and to start a long-term process of developing shared support approaches. Finally, as mentioned above, we are working with BioConductor to make R-Universe a larger part of their core infrastructure.
 
 ## What we learned 
 
