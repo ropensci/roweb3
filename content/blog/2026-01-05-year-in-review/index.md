@@ -20,7 +20,7 @@ This post looks back at what we said we would do and how that work played out in
 
 Throughout 2025, software peer review remained a core activity at rOpenSci, with 24 submissions peer-reviewed and approved. We had a continuous flow of new package submissions, approvals, and ongoing reviews, reflecting both the demand for high-quality research software and the commitment of our editors and reviewers.
 
-New packages joined rOpenSci in fields including environmental and climate data, geospatial analysis, linguistics, and statistics. Existing packages received more than _7000_ commits from _239_ unique users, with _62_ of them contributing for the first time to rOpenSci!. Package maintainers released new versions, and showed ongoing maintenance and responsiveness to users.
+New packages joined rOpenSci in the fields of environmental and climate data, geospatial analysis, linguistics, and statistics, among others. Existing packages received more than _7000_ commits from _239_ unique users, with _62_ of them contributing for the first time to rOpenSci! Package maintainers released new versions, performed ongoing maintenance and responded to user inquiries and issues.
 
 Building on last year's commitments, we further improved the efficiency and usefulness of our software peer review system, and explored its potential as a model for other communities.
 
