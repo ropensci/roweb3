@@ -98,7 +98,7 @@ We are in conversation with several groups about adopting and adapting the dashb
 
 In 2025, we continued to build and strengthen partnerships with organizations that share our commitment to open science, open source, and community-driven development.
 
-We used our co-working sessions to connect rOpenSci members with partner communities, holding joint events with the [Data Science Learning Community](https://ropensci.org/events/coworking-2025-06/) and [The Carpentries](https://ropensci.org/events/coworking-2025-12/). We also organized a [discussion and networking event for and with current and former U.S. federal government data scientists](https://ropensci.org/events/datasci-careers-feds/) with OpenScapes.
+We used our co-working sessions to connect rOpenSci members with like-minded communities, holding joint events with the [Data Science Learning Community](/events/coworking-2025-06/) and [The Carpentries](/events/coworking-2025-12/). We also organized a [discussion and networking event for and with current and former U.S. federal government data scientists](/events/datasci-careers-feds/) with [OpenScapes](https://openscapes.org/).
 
 rOpenSci staff served on the [R Consortium Infrastructure Steering Committee](https://r-consortium.org/about/governance.html#infrastructure-steering-committee), [R-Ladies](https://rladies.org/about-us/global-team/) global leadership, [R-Multiverse](https://r-multiverse.org/team.html) administration,  the UseR! [2025](https://user2025.r-project.org/about/organizers), [2026](https://user2026.r-project.org) and [LatinR](https://latinr.org/sobre/equipo/) organizing commitees. 
 
