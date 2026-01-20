@@ -130,7 +130,7 @@ This message will:
 
 - Sets expectations for users.
 - Invites potential maintainers directly from your repo front page.
-- It reduces the chance that someone assumes the package is abandoned without explanation ([this blog post list the sources of information we advice people to check in a package activity to understand package status](https://ropensci.org/blog/2022/07/01/evaluating-github-activity-for-contributors/)).
+- It reduces the chance that someone assumes the package is abandoned without explanation ([this blog post list the sources of information we advise people to check to understand package status](/blog/2022/07/01/evaluating-github-activity-for-contributors/)).
 
 You can also add a **"Project Status"** section in the README that gives a bit more context (e.g., "maintenance mode," "new features unlikely without new maintainers," etc.).
 
