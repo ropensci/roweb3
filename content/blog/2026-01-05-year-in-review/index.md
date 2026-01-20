@@ -110,4 +110,4 @@ Looking back over 2025, we focused on being true to our core community values an
 
 Closing the loop between intention and action is an accountability and a learning practice. It helps us see which investments compound over time, which structures enable others to lead, and where care and sustainability matter most.
 
-As we look ahead, we do so grounded in what 2025 demonstrated: that open science is built through steady, collective work, with Diversity, Equity, Inclusion, and Accessibility at the center, and that sharing what we plan to do matters most when we return to show what we actually did, while staying true to the principles that hold this community together.
+As we look ahead, we do so grounded in what 2025 demonstrated: that open science is built through steady, collective work, with Diversity, Equity, Inclusion, and Accessibility at the center. We believe that sharing what we plan to do has a greater impact if we return to show what we actually did, all the while staying true to the principles that hold this community together.
