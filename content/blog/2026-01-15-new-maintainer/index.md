@@ -175,7 +175,7 @@ Archiving the package puts an, albeit sad, end on your maintenance efforts.
 
 Before archiving your package, take time to add an explanatory comment in all issues and PRs and to close them all.
 You can create a new README to explain the new status.
-You could add how to get in touch with you in case you are ready to transfer the repository to someone who'd like to revive it.
+You could add how to get in touch with you in case someone would like to revive the repository and take on maintenance.
 
 Maybe your software will be replaced by other packages, 
 maybe someone will end up reaching out to you to request you transfer the repository to them, 
