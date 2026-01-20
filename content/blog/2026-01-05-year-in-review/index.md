@@ -89,7 +89,7 @@ In 2025, this took shape through [mini-hackathons](/blog/2025/01/24/coworking-ha
 
 We also attended and supported several other conferences and events _<TODO: add some links and stats of talks/tutorials/keynotes>_
 
-In 2026, we plan to continue organizing community calls in multiple human languages, co-working sessions, and mini-hackathons. If you want to collaborate in any of these spaces, please get in touch with us.  We also hope to see you in some of the R, open science, and open source conferences around the world: follow our [events page](/events) and our [newsletter](/news) to learn which ones we will attend!
+In 2026, we plan to continue organizing community calls in multiple spoken languages, co-working sessions, and mini-hackathons. If you want to collaborate in any of these spaces, please get in touch with us.  We also hope to see you in some of the R, open science, and open source conferences around the world: follow our [events page](/events) and our [newsletter](/news) to learn which ones we will attend!
 
 We made progress on developing a prototype dashboard that aims to help organizations maintain complex systems of interdependent software components. Our initial [prototype organizational dashboard](https://ropensci-review-tools.github.io/repometrics-demo/) provides insights into code contributors, their repositories, and maintenance status and needs.
 We are in conversation with several groups about adopting and adapting the dashboard to highlight the importance of communities in creating and maintaining software.
