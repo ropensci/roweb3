@@ -77,7 +77,7 @@ In 2026, we will [have a second cohort in Spanish](/blog/2026/01/12/programchamp
 
 Throughout 2025, our blog, newsletters, and social media outreach continued to amplify community voices. These highlighted not only software releases but also the people, practices, and contexts behind them, reinforcing our focus on community participation.
 
-During 2025, we published 49 posts on the rOpenSci blog. These included 41 blog posts and 8 technotes, with 18 posts authored or co-authored by community members, reflecting the continued openness of the blog to contributions beyond the staff team and the great participation of our community. Also, 60 authors contributed to the blog, 39 of them were authors writing for the first time for rOpenSci, an encouraging sign of ongoing renewal and engagement.
+During 2025, we published 49 posts on the rOpenSci blog. These included 41 blog posts and 8 technotes, with 18 posts authored or co-authored by community members, reflecting the continued openness of the blog to contributions beyond the staff team and the great participation of our community. Also, 60 authors contributed to the blog, 39 of them writing for rOpenSci for the first time, an encouraging sign of ongoing renewal and engagement!
 
 Our content was published in four languages during the reporting period: 13 posts were available in more than one language, and 16 posts were published in at least one non-English language, helping us reach a broader and more diverse audience.
 
