@@ -79,7 +79,7 @@ Throughout 2025, our blog, newsletters, and social media outreach continued to a
 
 During 2025, we published 49 posts on the rOpenSci blog. These included 41 blog posts and 8 technotes, with 18 posts authored or co-authored by community members, reflecting the continued openness of the blog to contributions beyond the staff team and the great participation of our community. Also, 60 authors contributed to the blog, 39 of them writing for rOpenSci for the first time, an encouraging sign of ongoing renewal and engagement!
 
-Our content was published in four languages during the reporting period: 13 posts were available in more than one language, and 16 posts were published in at least one non-English language, helping us reach a broader and more diverse audience.
+Our content was published in four languages: 13 posts were available in more than one language, and 16 posts were published in at least one non-English language, helping us reach a broader and more diverse audience.
 
 We organized _3_ community calls and _13_ co-working sessions with _21_ unique presenters and more than _200_ attendees, with topics ranging from technical skills such as testing, version control, and package development to broader conversations about accessibility, contribution pathways, and getting to know other communities and organizations.
 
