@@ -1,0 +1,7 @@
+id: stop_abort-1
+language: r
+severity: warning
+rule:
+  pattern: stop($$$ELEMS)
+fix: rlang::abort(paste0(~~ELEMS~~))
+message: Use `rlang::abort()` instead of `stop()`.

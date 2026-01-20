@@ -30,3 +30,4 @@ resources/_gen
 translations.R
 
 **/*.quarto_ipynb
+*cache_file_state.rds
