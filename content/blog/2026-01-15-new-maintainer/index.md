@@ -169,7 +169,7 @@ This is an aggressive move and may annoy some users, so consider it only if your
 
 ## Last resort: archive your package
 
-If after a reasonable time you were not able to find a new maintainer for your package,
+If after a reasonable amount of time you were not able to find a new maintainer for your package,
 you might have to make the difficult decision to archive it, on your code forge, e.g. [GitHub](https://docs.github.com/en/repositories/archiving-a-github-repository/archiving-repositories) -- and CRAN if relevant.
 Archiving the package puts an, albeit sad, end on your maintenance efforts.
 
