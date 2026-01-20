@@ -46,7 +46,7 @@ Our [Dev Guide has an entire chapter on making packages contributor-friendly](ht
 Ask yourself:
 
 - Could a new person understand how to build, test, and release this package from your repo alone?
-- Is there enough documentation to make contributing feel safe?
+- Is there enough documentation to make contributing clear and friendly?
 
 Add or improve a contributing guidelines is a great way to lower barriers for someone to start acting like a maintainer, even before they officially take on the role.
 A good `CONTRIBUTING.md` can cover:
