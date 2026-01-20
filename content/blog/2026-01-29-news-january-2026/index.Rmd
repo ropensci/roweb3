@@ -67,6 +67,13 @@ TODO ADD LINK
 
 TODO YANI
 
+### Testing the R-universe build workflow from your own GitHub repository
+
+We refactored the R-universe CI workflows to make it possible to run the exact same workflow from your own GitHub repository. 
+This allows you to test or debug the build and check process on your R package, exactly as it will happen on R-universe, but without actually deploying to https://r-universe.dev.
+
+Read more in our [tech note](/blog/2026/01/03/r-universe-workflows/) and in the [R-universe docs]TODO add link
+
 ### Coworking 
 
 Read [all about coworking](/blog/2023/06/21/coworking/)!

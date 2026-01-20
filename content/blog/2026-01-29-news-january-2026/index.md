@@ -10,7 +10,7 @@ description: Open call for the rOpenSci Champions Program 2026, 2025 wrap-up, co
 params:
   last_newsletter: '2025-12-18'
   doi: "10.59350/z8dpp-06623"
-rmd_hash: 20a84846c1dc9485
+rmd_hash: 25a58f9d2b011e99
 
 ---
 
@@ -42,6 +42,12 @@ TODO ADD LINK
 ### Code of Conduct
 
 TODO YANI
+
+### Testing the R-universe build workflow from your own GitHub repository
+
+We refactored the R-universe CI workflows to make it possible to run the exact same workflow from your own GitHub repository. This allows you to test or debug the build and check process on your R package, exactly as it will happen on R-universe, but without actually deploying to <https://r-universe.dev>.
+
+Read more in our [tech note](/blog/2026/01/03/r-universe-workflows/) and in the \[R-universe docs\]TODO add link
 
 ### Coworking
 
