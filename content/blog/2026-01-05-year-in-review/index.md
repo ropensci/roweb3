@@ -61,7 +61,7 @@ We will continue our collaborations with other organizations and groups that tra
 
 One of our clearest goals for 2025 was to run the first fully Spanish-language cohort of the rOpenSci Champions Program, with a focus on Latin America.
 
-The 2025 cohort launched with an [improved Spanish curriculum](https://champions-program.ropensci.org/resources/resources.html), [Spanish-language community calls](https://ropensci.org/es/commcalls/champions-latino-2025/), outreach activities, and mentoring. To accomplish this, we translate all training materials and the infrastructure and artifacts necessary to run a successful cohort into Spanish. The program emphasized sustainable research software as a pillar of open science in the region, while strengthening peer networks among Champions, mentors, and alumni.
+The 2025 cohort launched with an [improved Spanish curriculum](https://champions-program.ropensci.org/resources/resources.html), [Spanish-language community calls](/es/commcalls/champions-latino-2025/), outreach activities, and mentoring. To accomplish this, we translated all training materials and the infrastructure and artifacts necessary to run a successful cohort into Spanish. The program emphasized sustainable research software as a pillar of open science in the region, while strengthening peer networks among Champions, mentors, and alumni.  
 
 Alongside the new cohort, we also evaluated the second cohort to improve the program and better understand its impact. We conducted anonymous surveys and 1:1 interviews with Champions and mentors and used their feedback to improve the program.
 
