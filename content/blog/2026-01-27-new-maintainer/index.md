@@ -6,7 +6,7 @@ author:
 - Maëlle Salmon
 editor:
 - Steffi LaZerte
-date: '2026-01-15'
+date: '2026-01-27'
 slug: new-maintainer
 description: |
   Finding a new maintainer for your R package can be a overwhelming task. In this post, we share practical tips and strategies to help you find people that can contribute and take over your package.
