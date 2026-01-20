@@ -9,7 +9,7 @@ description: |
 tags:
   - community
 params:
-  doi: ""
+  doi: "10.59350/64nwh-acr21"
 ---
 
 At the start of 2025, we outlined our goals for the year in the [2024 Highlights](/blog/2025/01/22/year-in-review-2024/). As the year started, our work took place in a far more challenging global context than many of us anticipated. Across countries, science and research faced funding cuts, layoffs, and attacks on diversity, equity, accessibility, and inclusion. These conditions reshaped timelines and capacities for institutions and for the people doing the work, but also reinforced why community-driven, open, and care-centered spaces matter.
