@@ -46,7 +46,7 @@ In 2024, we framed multilingualism as foundational to open science, not suppleme
 
 In 2025, following our 2024 commitment, we completed the [Portuguese translations of the rOpenSci Dev Guide](/blog/2025/11/25/translation-devguide-pt/) and continued Spanish revisions of key content, blogs, program materials, and training.
 
-We translated 32,794 words into Portuguese for the Dev Guide and published 14 blog posts on our website, bringing the total to 16 blog posts in Portuguese. In Spanish, we have 62 blog posts and all main website pages fully translated. Additionally, we host blog content in other languages, including 8 posts in French and 1 in Turkish.
+We translated 32,794 words into Portuguese for the Dev Guide and published 14 blog posts on our website, bringing the total to 16 blog posts in Portuguese. In Spanish, we have 62 blog posts and all main website pages are fully translated. Additionally, we host blog content in other languages, including 8 posts in French and 1 in Turkish.  
 
 Beyond translation itself, we continued to treat multilingual publishing as infrastructure: refining AI-assisted workflows through the [babeldown](https://docs.ropensci.org/babeldown/) package; facilitating multilingual Quarto projects through the now [peer-reviewed](https://github.com/ropensci/software-review/issues/720) [babelquarto](https://docs.ropensci.org/babelquarto/) package; enabling our website to support [multilingual content](/blog/2025/04/28/news-april-2025/#more-languages-more-access-discover-ropensci-in-spanish); [documenting processes](/blog/2024/12/17/localization-guide/) and [sharing lessons](/blog/2025/06/23/translation-faq/) so that other open science communities can adapt and reuse this work. 
 
