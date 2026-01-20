@@ -71,7 +71,7 @@ All Champions interviewed reported positive professional outcomes after particip
 
 Participants also provided constructive feedback on challenges they experienced, including staying in touch with other participants, defining the scope of the project, and time zones. In response, we made adjustments to the program to try to address these challenges for the 2025 cohort. 
 
-In 2026, we will [have a second cohort in Spanish](https://ropensci.org/blog/2026/01/12/programchamps2026/) and take steps toward longer-term sustainability for the program: testing new formats, strengthening partnerships, and beginning follow-up work with earlier cohorts to better understand the program's long-term impact.
+In 2026, we will [have a second cohort in Spanish](/blog/2026/01/12/programchamps2026/) and will take steps toward longer-term sustainability for the program: testing new formats, strengthening partnerships, and beginning follow-up work with earlier cohorts to better understand the program's long-term impact.
 
 ## Community participation and pathways into open source
 
