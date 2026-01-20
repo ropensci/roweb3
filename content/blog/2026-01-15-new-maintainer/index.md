@@ -44,7 +44,7 @@ Even if the future is uncertain, this helps set expectations for yourself as wel
 ## Make the package contributor-friendly
 
 If you want to attract contributors who can become maintainers in the short- or long-term, your package needs to be **approachable**.
-Our [Dev Guide has an entire chapter on making packages contributor-friendly](https://devguide.ropensci.org/maintenance_collaboration.html) and we also have a Community Call ["Set Up Your Package to Foster a Community"](https://ropensci.org/commcalls/apr2021-pkg-community/), but here are some key points to consider.
+Our [Dev Guide has an entire chapter on making packages contributor-friendly](https://devguide.ropensci.org/maintenance_collaboration.html) and we also have a Community Call ["Set Up Your Package to Foster a Community"](/commcalls/apr2021-pkg-community/). Essentially, here are some key points to consider.
 
 Ask yourself:
 
