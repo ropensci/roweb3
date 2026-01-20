@@ -50,8 +50,8 @@ We translated 32,794 words into Portuguese for the Dev Guide and published 14 bl
 
 Beyond translation itself, we continued to treat multilingual publishing as infrastructure: refining AI-assisted workflows through the [babeldown](https://docs.ropensci.org/babeldown/) package; facilitating multilingual Quarto projects through the now [peer-reviewed](https://github.com/ropensci/software-review/issues/720) [babelquarto](https://docs.ropensci.org/babelquarto/) package; enabling our website to support [multilingual content](/blog/2025/04/28/news-april-2025/#more-languages-more-access-discover-ropensci-in-spanish); [documenting processes](/blog/2024/12/17/localization-guide/) and [sharing lessons](/blog/2025/06/23/translation-faq/) so that other open science communities can adapt and reuse this work. 
 
-We also have [community calls](/es/commcalls/), [co-working sessions](/coworking), and mini-hackathons in Spanish and Portuguese, offering our community content and program to Spanish- and Lusophone-speaking members.  
-Spanish-language events and resources reinforced rOpenSci’s commitment to multilingual participation and to meeting communities where they are.
+We also hosted [community calls](/es/commcalls/), [co-working sessions](/coworking), and mini-hackathons in Spanish and Portuguese, offering our content and programming to Spanish- and Lusophone-speaking community members.  
+These events and resources reinforce rOpenSci’s commitment to multilingual participation and to meeting communities where they are.  
 
 In 2026, we will continue working on English and Spanish content generation and expand Portuguese content and processes, piloting a fully Portuguese software peer review and translating Champions Program Training material into Portuguese.  
 
