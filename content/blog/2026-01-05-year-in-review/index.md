@@ -4,7 +4,8 @@ author:
 - The rOpenSci Team
 date: '2026-01-05'
 slug: yearinreview2025
-description: |
+description: a post where we reflect on a year of shared learning and collaboration.
+Take a look at our rOpenSci wrap-up and our plans for 2026.
   
 tags:
   - community
