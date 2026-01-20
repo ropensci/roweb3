@@ -51,7 +51,7 @@ Ask yourself:
 - Could a new person understand how to build, test, and release this package from your repo alone?
 - Is there enough documentation to make contributing clear and friendly?
 
-Add or improve a contributing guidelines is a great way to lower barriers for someone to start acting like a maintainer, even before they officially take on the role.
+Adding or improving contributing guidelines is a great way to lower barriers to someone starting to act like a maintainer, even before they officially take on the role.
 A good `CONTRIBUTING.md` can cover:
 
 - How to set up a development environment.
