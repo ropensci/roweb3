@@ -67,7 +67,7 @@ Alongside the new cohort, we also evaluated the second cohort to improve the pro
 
 The analysis of the survey and interview information shows high satisfaction among participants, both mentors and Champions. All participants agreed that the program prepared Champions to develop their own R packages, improve the quality of their packages, and participate in the software peer review. They also  expressed a desire to remain connected with rOpenSci, including participating in the Champions Program again in the future as mentors. 
 
-All champions interviewed reported positive professional outcomes after participating in the program, ranging from employment opportunities, internships, grants, and conference scholarships to presentations at international and local events, generating interest in their project and the program. 
+All Champions interviewed reported positive professional outcomes after participating in the program, ranging from employment opportunities, internships, grants, and conference scholarships to presentations at international and local events, generating interest in their project and the program. 
 
 Participants also provided constructive feedback on challenges they experienced, including staying in touch with other participants, defining the scope of the project, and time zones. We have already made adjustments to the program to try to address these challenges during the 2025 cohort. 
 
