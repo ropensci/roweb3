@@ -106,7 +106,7 @@ Together with a [coalition of open science organizations, we held a convening](/
 
 ## What we learned 
 
-Looking back, in 2025, we focused on being true to our core community values and delivering on commitments made the year before. Where plans evolved, they did so in response to capacity, collaboration, and community feedback.
+Looking back over 2025, we focused on being true to our core community values and delivering on commitments made the year before. Where plans evolved, they did so in response to capacity, collaboration, and community feedback.
 
 Closing the loop between intention and action is an accountability and a learning practice. It helps us see which investments compound over time, which structures enable others to lead, and where care and sustainability matter most.
 
