@@ -176,7 +176,7 @@ You could add how to get in touch with you in case you are ready to transfer the
 
 Maybe your software will be replaced by other packages, 
 maybe someone will end up reaching out to you to request you transfer the repository to them, 
-maybe someone will create a replacement with the same name (and hopefully correct authorship and licensing if it re-used your code).
+maybe someone will create a replacement with the same name (and hopefully correct authorship and licensing if they reuse your code).
 In all cases, you will have done your best and the fate of the R package is out of your hands.
 
 ## It's okay to step back
