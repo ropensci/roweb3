@@ -28,7 +28,7 @@ We enhanced the review process by [improving dashboards](https://dashboard.ropen
 
 Leadership transitions within the program helped distribute responsibility and ensure continuity, while ongoing community participation demonstrated that peer review remains a collective effort.
 
-Increasing submissions mean we expect to add more editors to our board in 2026. We will also extend our automation processes, and formulate policies on the use of AI/LLLMs in developing and maintaining rOpenSci packages.
+Increasing submissions mean we hope to add more editors to our board in 2026. We will also expand our automation processes, and formulate policies on the use of AI/LLMs in developing and maintaining rOpenSci packages.
 
 ## Strengthening shared infrastructure: R-Universe
 
