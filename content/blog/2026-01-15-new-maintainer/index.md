@@ -30,7 +30,7 @@ In this post, we share practical tips and strategies to help you find people tha
 
 ## Start early
 
-The best time to start looking for a new maintainer is well before you actually need one, and the best place to look for a new maintainers is among existing contributors to your package.
+The best time to start looking for a new maintainer is well before you actually need one, and the best place to look for a new maintainer is among existing contributors to your package.
 For this reason, it's a good idea to make planning for succession part of your package design and maintenance strategy from the beginning.
 
 We encourage package authors to write a ["life cycle statement"](https://stats-devguide.ropensci.org/standards.html#G1_2) to describe your medium- to long-term vision of package development maintenance.  
