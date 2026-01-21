@@ -8,7 +8,9 @@ coworking: true
 location: 'online' # free text
 slug: "open-source-viernes"
 country: "🌐" # emoji
-ropensci: yes
+ropensci: no
+tag:
+  - champions program
 outputs:
   - HTML
   - Calendar
