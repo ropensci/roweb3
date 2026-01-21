@@ -9,6 +9,7 @@ author:
   - Diana Garcia Cortes
   - Erick Navarro Delgado 
   - Luis D. Verde Arregoitia
+  - Yanina Bellini Saibene  
 organizer: 
   - Yanina Bellini Saibene
 location: Conversacion con la comunidad (teleconferencia)
