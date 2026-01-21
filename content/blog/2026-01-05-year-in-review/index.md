@@ -4,9 +4,7 @@ author:
 - The rOpenSci Team
 date: '2026-01-05'
 slug: yearinreview2025
-description: a post where we reflect on a year of shared learning and collaboration.
-Take a look at our rOpenSci wrap-up and our plans for 2026.
-  
+description: a post where we reflect on a year of shared learning and collaboration. Take a look at our wrap-up and our plans for 2026.
 tags:
   - community
 params:
@@ -19,7 +17,7 @@ This post looks back at what we said we would do and how that work played out in
 
 ## Software peer review: steady growth and shared responsibility
 
-Throughout 2025, software peer review remained a core activity at rOpenSci, with 24 submissions peer-reviewed and approved. We had a continuous flow of new package submissions, approvals, and ongoing reviews, reflecting both the demand for high-quality research software and the commitment of our editors and reviewers.
+Throughout 2025, [software peer review](/software-review/) remained a core activity at rOpenSci, with _24_ submissions peer-reviewed and approved. We had a continuous flow of package submissions, approvals, and ongoing reviews, reflecting both the demand for high-quality research software and the commitment of our editors and reviewers.
 
 New packages joined rOpenSci in the fields of environmental and climate data, geospatial analysis, linguistics, and statistics, among others. Existing packages received more than _7000_ commits from _239_ unique users, with _62_ of them contributing for the first time to rOpenSci! Package maintainers released new versions, performed ongoing maintenance and responded to user inquiries and issues.
 
@@ -27,15 +25,17 @@ Building on last year's commitments, we further improved the efficiency and usef
 
 We enhanced the review process by [improving dashboards](https://dashboard.ropensci.org), [updating guides](https://devguide.ropensci.org), and refining [pkgcheck](https://docs.ropensci.org/pkgcheck/) and its GitHub Action, making participation easier for authors and reviewers. 
 
-Leadership transitions within the program helped distribute responsibility and ensure continuity, while ongoing community participation demonstrated that peer review remains a collective effort.
+Leadership transitions within the program editorial team helped distribute responsibility and ensure continuity, while ongoing community participation demonstrated that peer review remains a collective effort.
 
 Increasing submissions mean we hope to add more editors to our board in 2026. We will also expand our automation processes, and formulate policies on the use of AI/LLMs in developing and maintaining rOpenSci packages.
+
+{{< figure src = "editorial_team.png" alt = "Pictures of 17 people that are part of the software peer review editorial team" >}}
 
 ## Strengthening shared infrastructure: R-Universe
 
 A major milestone in the R-Universe trajectory was its [designation as a Top-Level Project by the R Consortium](/blog/2024/12/03/r-universe-r-consortium-tlp/) in late 2024. This status provides guaranteed funding and institutional support for at least three more years and reflects R-Universe’s role as critical infrastructure in the R community. Alongside this, Jeroen Ooms, the R-Universe project lead, gained a seat on the consortium’s Infrastructure Steering Committee, reinforcing R-Universe’s influence on broader R ecosystem development.
 
-Documentation has been a key focus area as R-Universe has matured. In early 2025, the R-Universe team launched a centralized documentation website hosted as a Quarto book, funded in part by Google Season of Docs. This resource consolidates dispersed tutorials, READMEs, and technical notes into a more navigable structure covering browsing, installation, publishing, and infrastructure topics. The goal was not only to improve clarity for new users but also to make contributions to the documentation itself easier for the community.  
+Documentation has been a key focus area as R-Universe has matured. In early 2025, the R-Universe team launched a [centralized documentation website](https://docs.r-universe.dev) hosted as a Quarto book, funded in part by Google Season of Docs. This resource consolidates dispersed tutorials, READMEs, and technical notes into a more navigable structure covering browsing, installation, publishing, and infrastructure topics. The goal was not only to improve clarity for new users but also to make contributions to the documentation itself easier for the community.  
 
 A refreshed web frontend has improved user experience and maintainability. This redesign streamlined the interface, improved performance, and made it easier for contributors to propose improvements, addressing long-standing usability challenges through the incremental additions of features over time. We are continuing to rewrite and consolidate other pieces of the infrastructure such as the [build workflows](/blog/2026/01/03/r-universe-workflows/) to make it easier to understand the R-Universe build process, and enable the community to hack workflows and actions to contribute improvements.
 
@@ -47,7 +47,7 @@ In 2024, we framed multilingualism as foundational to open science, not suppleme
 
 In 2025, following our 2024 commitment, we completed the [Portuguese translations of the rOpenSci Dev Guide](/blog/2025/11/25/translation-devguide-pt/) and continued Spanish revisions of key content, blogs, program materials, and training.
 
-We translated 32,794 words into Portuguese for the Dev Guide and published 14 blog posts on our website, bringing the total to 16 blog posts in Portuguese. In Spanish, we have 62 blog posts and all main website pages are fully translated. Additionally, we host blog content in other languages, including 8 posts in French and 1 in Turkish.  
+We translated 32,794 words into Portuguese for the Dev Guide and published 14 blog posts on our website, bringing the total to 16 blog posts in Portuguese. In Spanish, we have 62 blog posts and all main website pages are fully translated. Additionally, we host blog content in other languages, including 8 posts in French and 1 in Turkish.
 
 Beyond translation itself, we continued to treat multilingual publishing as infrastructure: refining AI-assisted workflows through the [babeldown](https://docs.ropensci.org/babeldown/) package; facilitating multilingual Quarto projects through the now [peer-reviewed](https://github.com/ropensci/software-review/issues/720) [babelquarto](https://docs.ropensci.org/babelquarto/) package; enabling our website to support [multilingual content](/blog/2025/04/28/news-april-2025/#more-languages-more-access-discover-ropensci-in-spanish); [documenting processes](/blog/2024/12/17/localization-guide/) and [sharing lessons](/blog/2025/06/23/translation-faq/) so that other open science communities can adapt and reuse this work. 
 
@@ -64,7 +64,7 @@ One of our clearest goals for 2025 was to run the first fully Spanish-language c
 
 The 2025 cohort launched with an [improved Spanish curriculum](https://champions-program.ropensci.org/resources/resources.html), [Spanish-language community calls](/es/commcalls/champions-latino-2025/), outreach activities, and mentoring. To accomplish this, we translated all training materials and the infrastructure and artifacts necessary to run a successful cohort into Spanish. The program emphasized sustainable research software as a pillar of open science in the region, while strengthening peer networks among Champions, mentors, and alumni.  
 
-Alongside the new cohort, we also evaluated the second cohort to improve the program and better understand its impact. We conducted anonymous surveys and 1:1 interviews with Champions and mentors and used their feedback to improve the program.
+Alongside [the new cohort](/blog/2025/07/03/champions-2025/), we also evaluated the [second cohort](/blog/2024/02/15/champions-program-champions-2024/) to improve the program and better understand its impact. We conducted anonymous surveys and 1:1 interviews with Champions and mentors and used their feedback to improve the program.
 
 The analysis of the survey and interview information shows high satisfaction among participants, both mentors and Champions. All participants agreed that the program prepared Champions to develop their own R packages, improve the quality of their packages, and participate in the software peer review. They also  expressed a desire to remain connected with rOpenSci, including participating in the Champions Program again in the future as mentors. 
 
@@ -73,6 +73,8 @@ All Champions interviewed reported positive professional outcomes after particip
 Participants also provided constructive feedback on challenges they experienced, including staying in touch with other participants, defining the scope of the project, and time zones. In response, we made adjustments to the program to try to address these challenges for the 2025-2026 cohort. 
 
 In 2026, we will [have a second cohort in Spanish](/blog/2026/01/12/programchamps2026/) and will take steps toward longer-term sustainability for the program: testing new formats, strengthening partnerships, and beginning follow-up work with earlier cohorts to better understand the program's long-term impact.
+
+{{< figure src = "countriesApplications.png" alt = "World map showing applications levels by country, with a color gradient from dark purple (1) to yellow (30). North America, parts of South America, and Australia show higher values in yellow-green, while parts of Asia, and Africa appear in darker purple tones indicating lower values." >}}
 
 ## Community participation and pathways into open source
 
@@ -104,6 +106,8 @@ We used our co-working sessions to connect rOpenSci members with like-minded com
 rOpenSci staff served on the [R Consortium Infrastructure Steering Committee](https://r-consortium.org/about/governance.html#infrastructure-steering-committee), [R-Ladies](https://rladies.org/about-us/global-team/) global leadership, [R-Multiverse](https://r-multiverse.org/team.html) administration, [CSIDNet Collaborative Committee](https://csidnet.org), [The Carpentries](the carpentries board of directors) Board of Directors, as well as the UseR! [2025](https://user2025.r-project.org/about/organizers), [2026](https://user2026.r-project.org) and [LatinR](https://latinr.org/sobre/equipo/) organizing committees. 
 
 Together with a [coalition of open science organizations, we held a convening](/blog/2025/09/15/collaboration-communities/) to map out gaps in ecosystem sustainability and to start a long-term process of developing shared support approaches. Finally, as mentioned above, we are working with BioConductor to make R-Universe a larger part of their core infrastructure.
+
+{{< figure src = "communities.jpg" alt = "pyOpenSci, rOpenSci, OLS, The Carpentries and PreReview Executive Directors and Community Managers" >}}
 
 ## What we learned 
 
