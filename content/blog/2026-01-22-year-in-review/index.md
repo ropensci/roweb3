@@ -2,7 +2,7 @@
 title: "Closing The Loop with Our 2025 Wrap-up"
 author: 
 - The rOpenSci Team
-date: '2026-01-05'
+date: '2026-01-22'
 slug: yearinreview2025
 description: a post where we reflect on a year of shared learning and collaboration. Take a look at our wrap-up and our plans for 2026.
 tags:
