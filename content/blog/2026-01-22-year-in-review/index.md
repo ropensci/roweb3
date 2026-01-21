@@ -90,7 +90,7 @@ One of the goals for 2025 was to create more opportunities for people to engage 
 
 In 2025, this took shape through [mini-hackathons](/blog/2025/01/24/coworking-hackathons/) designed to lower barriers to participation. These events combined practical contribution opportunities with mentoring and social connection, reinforcing the idea that open source work is collaborative and learned through doing. [We wrote a guide to share our lessons learned organizing this type of event](https://ftc-guide.ropensci.org). Hosting multiple events with this goal throughout the year helped emphasize that open source participation is not a one-off event, but an ongoing practice that grows with continued support.
 
-We also attended and supported several other conferences and events _<TODO: add some links and stats of talks/tutorials/keynotes>_
+We also attended and supported several other conferences and events throughout the year, including keynotes at [useR!2025](https://ropensci.org/events/user-2025/) and [uRos2025](https://ropensci.org/events/uros2025/), among several [talk and workshops](https://ropensci.org/talks-papers/) from our staff and community members. These events provided opportunities to connect with community members in person, share our work, and learn from others in the open science ecosystem.
 
 In 2026, we plan to continue organizing community calls in multiple spoken languages, co-working sessions, and mini-hackathons. If you want to collaborate in any of these spaces, please get in touch with us.  We also hope to see you in some of the R, open science, and open source conferences around the world: follow our [events page](/events) and our [newsletter](/news) to learn which ones we will attend!
 
