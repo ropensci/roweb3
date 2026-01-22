@@ -58,6 +58,8 @@ In 2026, we will continue working on English and Spanish content generation and 
 
 We will continue our collaborations with other organizations and groups that translate and localize R content and offer not only content but also other aspects of our programs in languages other than English.
 
+{{< figure src = "multilingual.png" alt = "The preface of the Dev Guide in English, Portuguese and Spanish" >}}
+
 ## The Champions Program with Latin American Focus
 
 One of our clearest goals for 2025 was to run the first fully Spanish-language cohort of the rOpenSci Champions Program, with a focus on Latin America.
