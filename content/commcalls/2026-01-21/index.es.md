@@ -1,14 +1,15 @@
 ---
 title: "Software Libre de Investigacion en America Latina"
-dateStart: 2026-01-21T15:00:00 # UTC!!
-dateEnd: 2026-01-21T16:00:00 # UTC!!
-date: 2026-01-21T16:00:00 # UTC!! same as dateEnd
+dateStart: 2026-01-21T21:00:00 # UTC!!
+dateEnd: 2026-01-21T22:00:00 # UTC!!
+date: 2026-01-21T21:00:00 # UTC!! same as dateEnd
 publishDate: 2026-01-21
 description: "Venite a conversar con Diana Garcia, Erick Navarro y Luis Verde Arregoitia sobre su experiencia como campeon(e|a)s y mentores de rOpenSci y como podes aplicar para cualquiera de los dos roles."
 author:
   - Diana Garcia Cortes
   - Erick Navarro Delgado 
   - Luis D. Verde Arregoitia
+  - Yanina Bellini Saibene  
 organizer: 
   - Yanina Bellini Saibene
 location: Conversacion con la comunidad (teleconferencia)
