@@ -29,7 +29,7 @@ Leadership transitions within the program editorial team helped distribute respo
 
 Increasing submissions mean we hope to add more editors to our board in 2026. We will also expand our automation processes, and formulate policies on the use of AI/LLMs in developing and maintaining rOpenSci packages.
 
-{{< figure src = "editorial_team.png" alt = "Pictures of 17 people that are part of the software peer review editorial team" >}}
+{{< figure src = "editorial_team.png" alt = "Pictures of 17 people that are part of the software peer review editorial team" caption = "rOpenSci Software Peer Review Editorial Team">}}
 
 ## Strengthening shared infrastructure: R-Universe
 
@@ -58,7 +58,7 @@ In 2026, we will continue working on English and Spanish content generation and 
 
 We will continue our collaborations with other organizations and groups that translate and localize R content and offer not only content but also other aspects of our programs in languages other than English.
 
-{{< figure src = "multilingual.png" alt = "The preface of the Dev Guide in English, Portuguese and Spanish" >}}
+{{< figure src = "multilingual.png" alt = "The preface of the Dev Guide in English, Portuguese and Spanish" caption = "rOpenSci Dev Guide Preface in three languages">}}
 
 ## The Champions Program with Latin American Focus
 
@@ -76,7 +76,7 @@ Participants also provided constructive feedback on challenges they experienced,
 
 In 2026, we will [have a second cohort in Spanish](/blog/2026/01/12/programchamps2026/) and will take steps toward longer-term sustainability for the program: testing new formats, strengthening partnerships, and beginning follow-up work with earlier cohorts to better understand the program's long-term impact.
 
-{{< figure src = "countriesApplications.png" alt = "World map showing applications levels by country, with a color gradient from dark purple (1) to yellow (30). North America, parts of South America, and Australia show higher values in yellow-green, while parts of Asia, and Africa appear in darker purple tones indicating lower values." >}}
+{{< figure src = "countriesApplications.png" alt = "World map showing applications levels by country, with a color gradient from dark purple (1) to yellow (30). North America, parts of South America, and Australia show higher values in yellow-green, while parts of Asia, and Africa appear in darker purple tones indicating lower values." caption = "Countries of origin of applications to the Champions Program">}}
 
 ## Community participation and pathways into open source
 
@@ -99,7 +99,7 @@ In 2026, we plan to continue organizing community calls in multiple spoken langu
 We made progress on developing a prototype dashboard that aims to help organizations maintain complex systems of interdependent software components. Our initial [prototype organizational dashboard](https://ropensci-review-tools.github.io/repometrics-demo/) provides insights into code contributors, their repositories, and maintenance status and needs.
 We are in conversation with several groups about adopting and adapting the dashboard to highlight the importance of communities in creating and maintaining software.
 
-{{< figure src = "conferences.png" alt = "rOpenSci Staff and Community members presenting at several international conferences" >}}
+{{< figure src = "conferences.png" alt = "rOpenSci Staff and Community members presenting at several international conferences" caption = "rOpenSci Staff and Community members at international conferences">}}
 
 ## Strengthening ties with open science partners
 
@@ -111,12 +111,12 @@ rOpenSci staff served on the [R Consortium Infrastructure Steering Committee](ht
 
 Together with a [coalition of open science organizations, we held a convening](/blog/2025/09/15/collaboration-communities/) to map out gaps in ecosystem sustainability and to start a long-term process of developing shared support approaches. Finally, as mentioned above, we are working with BioConductor to make R-Universe a larger part of their core infrastructure.
 
-{{< figure src = "communities.jpg" alt = "pyOpenSci, rOpenSci, OLS, The Carpentries and PreReview Executive Directors and Community Managers" >}}
+{{< figure src = "communities.jpg" alt = "pyOpenSci, rOpenSci, OLS, The Carpentries and PreReview Executive Teams and Community Managers" caption = "Executive Teams and Community Managers from pyOpenSci, rOpenSci, OLS, The Carpentries and PreReview at the Open Science Communities Convening in September 2025">}}
 
 ## What we learned 
 
 Looking back over 2025, we focused on being true to our core community values and delivering on commitments made the year before. Where plans evolved, they did so in response to capacity, collaboration, and community feedback.
 
-Closing the loop between intention and action is an accountability and a learning practice. It helps us see which investments compound over time, which structures enable others to lead, and where care and sustainability matter most.
+Closing the loop between intention and action is a practice of accountability and learning. It helps us see which activities and strategies complement each other over time, which structures enable others to lead, and where care and sustainability matter most.
 
-As we look ahead, we do so grounded in what 2025 demonstrated: that open science is built through steady, collective work, with Diversity, Equity, Inclusion, and Accessibility at the center. We believe that sharing what we plan to do has a greater impact if we return to show what we actually did, all the while staying true to the principles that hold this community together.
+As we look ahead, we do so grounded in what 2025 demonstrated: _that open science is built through steady, collective work, with Diversity, Equity, Inclusion, and Accessibility at the center._ We believe that sharing what we plan to do has a greater impact if we return to show what we actually did, all the while staying true to the principles that hold this community together.
