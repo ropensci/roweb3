@@ -178,7 +178,7 @@ You can create a new README to explain the new status.
 You could add how to get in touch with you in case someone would like to revive the repository and take on maintenance.
 
 Maybe your software will be replaced by other packages, 
-maybe someone will end up reaching out to you to request you transfer the repository to them, 
+[maybe someone will end up reaching out to you to request you transfer the repository to them](https://github.com/ropensci/nodbi/issues/48), 
 maybe someone will create a replacement with the same name (and hopefully correct authorship and licensing if they reuse your code).
 In all cases, you will have done your best and the fate of the R package is out of your hands.
 
