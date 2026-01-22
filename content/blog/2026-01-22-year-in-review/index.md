@@ -97,6 +97,8 @@ In 2026, we plan to continue organizing community calls in multiple spoken langu
 We made progress on developing a prototype dashboard that aims to help organizations maintain complex systems of interdependent software components. Our initial [prototype organizational dashboard](https://ropensci-review-tools.github.io/repometrics-demo/) provides insights into code contributors, their repositories, and maintenance status and needs.
 We are in conversation with several groups about adopting and adapting the dashboard to highlight the importance of communities in creating and maintaining software.
 
+{{< figure src = "conferences.png" alt = "rOpenSci Staff and Community members presenting at several international conferences" >}}
+
 ## Strengthening ties with open science partners
 
 In 2025, we continued to build and strengthen partnerships with organizations that share our commitment to open science, open source, and community-driven development.
