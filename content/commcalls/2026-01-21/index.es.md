@@ -21,15 +21,19 @@ notes:
 outputs:
 - HTML
 - Calendar 
-# vimeo: 
-#   - id: '1067708090'
-# resources:
-#   - url: 
-#     name: ""
-#     details: ""
-#   - url: 
-#     name: ""
-#     details: ""
+vimeo: 
+  - id: '1157658149'
+resources:
+  - url: https://champions-program.ropensci.org/resources/resources.html
+    name: "Materiales de los talleres del Programa"
+    details: "Recopilación de materiales de los talleres realizados en el marco del Programa de Campeon(a|e)s de rOpenSci en castellano."
+  - url: https://github.com/ropensci/software-review/issues/743
+    name: "Revisión de software en rOpenSci del proyecto de Erick Navarro"
+    details: "Issue donde se realiza la revision del proyecto de Erick"
+  - url: https://champions-program.ropensci.org
+    name: "Sitio web del programa"
+    details: "Todos los detalles de los formularios y requisitos se encuentran en ese sitio web"
+
 speakers:  
   - name: "Diana Garcia"
     bio: "Bióloga Computacional del Breast Oncology Program en el Dana Farber Cancer Institute, donde investiga las alteraciones del genoma asociadas a resistencia a terapias en cáncer de mama mestastático. Tiene un doctorado en Ciencias Biomédicas y una maestría en Ciencias de la Computación y experiencia desarrollando software tanto en la academia como en la industria. Disfruta mucho enseñar programación, fue profesora en CETYS Universidad, Campus Tijuana, y tallerista en la Escuela de Código Pilares en CDMX. Forma parte de R-Ladies Boston y del programa de campeones de rOpenSci, previamente participó en PyLadies CDMX y en Women Who Code CDMX."
