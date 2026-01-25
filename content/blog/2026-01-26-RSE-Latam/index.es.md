@@ -61,7 +61,7 @@ La primera aclaracion que Diana nos dejó es que el programa tiene una gran dive
 Diana también destaca el valor de la mentoría personal, ella trabaja con Geraldine, una ingeniera de software con reuniones pogramadas cada dos semanas, lo que crea un compromiso positivo y constante para avanzar en el proyecto.
 
 > Tener una mentoría personal con alguien que ya tiene experiencia en el desarrollo de software es muy valioso. En lo personal, poder preguntar directamente a mi mentora hizo una gran diferencia en mi proceso de aprendizaje.
-Obviamente uno puede ver recursos en internet, preguntarle a ChatGPT y tratar de aprender por su cuenta, pero es muy diferente cuando tienes a una persona que te guía y con quien puedes conversar directamente tus dudas.
+Obviamente uno puede ver recursos en internet, preguntarle a ChatGPT y tratar de aprender por su cuenta, pero es muy diferente cuando tienes a una persona que ya vivió ese proceso y que te guía y con quien puedes conversar directamente tus dudas.
 
 Finalmente, Diana menciona que el programa no solo enseña aspectos técnicos, como los que menciono Erick. También permite aprender las dimensiones humanas de construir comunidad, cosas que no se aprenden en otros espacios y que aquí se viven y se practican.
 
