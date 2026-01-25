@@ -54,7 +54,7 @@ Su motivación principal es hacer datos abiertos y fáciles de analizar para otr
 
 La primera aclaracion que Diana nos dejó es que el programa tiene una gran diversidad de temas, aunque los proyectos de Erick y el suyo son de bioinformática, otros campeon(a|e)s trabajan en áreas muy distintas: 
 
-> Eso es algo que me gustó mucho del programa: en la cohorte hay paquetes para compartir datos de encuestas, otros enfocados en metodologías distintas… es decir, proyectos muy diversos conviviendo en un mismo espacio de aprendizaje." - Diana
+> Eso es algo que me gustó mucho del programa: en la cohorte hay paquetes para compartir datos de encuestas, en temas ambientables, otros enfocados en metodologías distintas… es decir, proyectos muy diversos conviviendo en un mismo espacio de aprendizaje." - Diana
 
 {{<figure src="proyectos.png" alt="Hexstickers con los nombres de los paquetes del programa de campeones: agroclimatico, pcir, eph, odbr, ecocam, karel, rgee+, Arcenso, geobr, ramen, metasurvey, votosCL, MBCdata, matildaNLP, Mapping Pseudoscenarios, SLCF" >}}
 
