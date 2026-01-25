@@ -54,6 +54,8 @@ La primera aclaracion que Diana nos dejó es que el programa tiene una gran dive
 
 > Eso es algo que me gustó mucho del programa: en la cohorte hay paquetes para compartir datos de encuestas, otros enfocados en metodologías distintas… es decir, proyectos muy diversos conviviendo en un mismo espacio de aprendizaje." - Diana
 
+{{<figure src="proyectos.png" alt="Hexstickers con los nombres de los paquetes del programa de campeones: agroclimatico, pcir, eph, odbr, ecocam, karel, rgee+, Arcenso, geobr, ramen, metasurvey, votosCL, MBCdata, matildaNLP, Mapping Pseudoscenarios, SLCF" >}}
+
 Diana también destaca el valor de la mentoría personal, ella trabaja con Geraldine, una ingeniera de software con reuniones pogramadas cada dos semanas, lo que crea un compromiso positivo y constante para avanzar en el proyecto.
 
 > Tener una mentoría personal con alguien que ya tiene experiencia en el desarrollo de software es muy valioso. En lo personal, poder preguntar directamente a mi mentora hizo una gran diferencia en mi proceso de aprendizaje.
