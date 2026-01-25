@@ -74,9 +74,11 @@ Luis ha participado en dos cohortes consecutivas como mentor y rescata como un b
 
 Luis acompañó dos proyectos muy distintos, lo que le permitió vivir de primera mano la diversidad de temas y dinámicas que Diana y Erick mencionaban.
 
-En su primera mentoría trabajó junto a [Andrea](), cuyo proyecto consistía en desarrollar un paquete nuevo [sobre censos y estadística demográfica de Argentina](). Aunque el tema estaba fuera de su especialidad, ya que su formación es en biología, aun así pudo aportar acompañando el proceso general de desarrollo del paquete. Acompañó decisiones de organización, planificación y conexión con la comunidad. Coincidir en eventos presenciales con Andrea y otras personas de rOpenSci fortaleció el vínculo de trabajo. Como resultado del proceso, celebró que el paquete ya fue publicado.
+En su primera mentoría trabajó junto a [Andrea](/author/andrea-gomez-vargas/), cuyo proyecto consistía en desarrollar un paquete nuevo [sobre censos y estadística demográfica de Argentina](https://soyandrea.github.io/arcenso/). Aunque el tema estaba fuera de su especialidad, ya que su formación es en biología, aun así pudo aportar acompañando el proceso general de desarrollo del paquete. Acompañó decisiones de organización, planificación y conexión con la comunidad. Coincidir en eventos presenciales con Andrea y otras personas de rOpenSci fortaleció el vínculo de trabajo. Como resultado del proceso, celebró que el paquete ya fue publicado.
 
-En su segunda experiencia, Luis acompaña a [Mónica](), quien está trabajando en un paquete enfocado en estadística y econometría. En esta ocasión el trabajo fue más asincrónico, con intercambios principalmente a distancia. Su rol se centró especialmente en compartir recursos, herramientas y buenas prácticas que pudieran fortalecer el desarrollo del paquete. 
+En su segunda experiencia, Luis acompaña a [Mónica](https://ropensci.org/author/monika-avila-marquez/), quien está trabajando en un paquete enfocado en estadística y econometría. 
+En esta ocasión el trabajo fue más asincrónico, con intercambios principalmente a distancia. 
+Su rol se centró especialmente en compartir recursos, herramientas y buenas prácticas que pudieran fortalecer el desarrollo del paquete. 
 
 Luis destacó que este tipo de acompañamiento flexible también es parte del valor del programa, aunque se capacita a mentores en qué se espera de ellos y cómo serlo efectivamente, se permite adaptar la mentoría a las necesidades y dinámicas de cada proyecto. 
 
