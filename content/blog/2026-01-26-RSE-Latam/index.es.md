@@ -88,7 +88,9 @@ También cierra su participación invitando a postular para la nueva cohorte:
 
 ## Una invitación abierta
 
-Luego de la etapa de preguntas y respuesta, que puedes consultar en el documento compartido del evento, se cerró el encuentro con una invitación a [postularse al próximo llamado 2026](https://champions-program.ropensci.org), ya sea como campeón/a o como mentor/a.
+Luego de la etapa de preguntas y respuesta, que puedes consultar en el documento compartido del evento, se cerró el encuentro con una invitación a [postularse al próximo llamado 2026](https://champions-program.ropensci.org), ya sea como campeón/a o como mentor/a. La fecha límite para postular es el **20 de febrero de 2026**.
+
+El [5 de febrero tenemos una Clinica de Aplicación](/events/clinica-champions-2026/) donde podes trabajar sobre tu postulación con apoyo de Yanina y también podes sacarte todas tus dudas
 
 Como resaltó Yanina, fortalecer el software de investigación en América Latina requiere personas comprometidas, comunidades abiertas y espacios donde aprender colectivamente.
 
