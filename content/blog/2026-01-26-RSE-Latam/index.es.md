@@ -82,6 +82,10 @@ Su rol se centró especialmente en compartir recursos, herramientas y buenas pr�
 
 Luis destacó que este tipo de acompañamiento flexible también es parte del valor del programa, aunque se capacita a mentores en qué se espera de ellos y cómo serlo efectivamente, se permite adaptar la mentoría a las necesidades y dinámicas de cada proyecto. 
 
+También cierra su participación invitando a postular para la nueva cohorte:
+
+> ¿Por qué participar en el Programa? Porque aprendes muchísimo: de tu propio proyecto, de los proyectos de otras personas y de una comunidad increíble con la que haces conexiones que se quedan para toda la vida." — Luis
+
 ## Una invitación abierta
 
 Luego de la etapa de preguntas y respuesta, que puedes consultar en el documento compartido del evento, se cerró el encuentro con una invitación a [postularse al próximo llamado 2026](https://champions-program.ropensci.org), ya sea como campeón/a o como mentor/a.
