@@ -19,6 +19,8 @@ El objetivo del webinario fue contar desde la experiencia real cómo es formar p
 
 Yanina abrió la conversación presentando el programa y su propósito: **fortalecer capacidades en desarrollo de software de investigación sostenible, con foco en ciencia abierta y comunidades colaborativas** y luego dió la palabra a los invitados.
 
+{{<figure src="collage-comm-call.png" alt="Reunión de Zoom del evento con los participantes y protagonistas" >}}
+
 ## Erik Navarro - Campeón
 
 El proyecto de Erick fue trabajar sobre un paquete existente y prepararlo para enviarlo al proceso de revision por pares de rOpenSci y recibir el feedback de expertos. 
