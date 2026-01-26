@@ -46,10 +46,10 @@ rphylopic was originally developed and maintained by [Scott Chamberlain](/author
 The Palaeoverse team refactored the entire package, released v.1.0.0, and has been maintaining the package since.
 - The [rmacrostrat](https://rmacrostrat.palaeoverse.org/) package[^3] provides streamlined and improved accessibility to the geological database [Macrostrat](https://macrostrat.org/).
 The package provides functionality for querying the database via the dedicated API and retrieving various geological data (such as lithostratigraphic units) and definitions/metadata associated with those data and Macrostrat more broadly.
-- The [sepkoski](https://sepkoski.palaeoverse.org/) package[^4] provides access to Sepkoski’s fossil marine animal genera compendium[^5].
+- The [sepkoski](https://sepkoski.palaeoverse.org/) package[^4] provides access to Sepkoski’s fossil marine animal genera compendium[^5][^6].
 The aim of the package is to offer a light and easily-accessible solution to working with Sepkoski’s compendium to support teaching exercises.
 
-{{< figure src = "sepkoski_curve.png" alt = "A stacked area plot showing the number of marine animal genera across the Phanerozoic; the genera are split by color into Sepkoski's evolutionary fauna: Cambrian, Paleozoic, Modern (plus an Unassigned category); the x-axis has a geological timescale on it" class = "pull-left" caption = "Sepkoski's evolutionary fauna[^6], using the Sepkoski fossil marine animal genera compendium[^5], as plotted by the `sepkoski_curve_base()` function in the sepkoski R package[^4]. Number of genera are counted per international geological stage bin. The timescale on the x-axis comes from the `axis_geo()` function in the palaeoverse R package[^1]." >}}
+{{< figure src = "sepkoski_curve.png" alt = "A stacked area plot showing the number of marine animal genera across the Phanerozoic; the genera are split by color into Sepkoski's evolutionary fauna: Cambrian, Paleozoic, Modern (plus an Unassigned category); the x-axis has a geological timescale on it" class = "pull-left" caption = "Sepkoski's evolutionary fauna, using the Sepkoski fossil marine animal genera compendium, as plotted by the `sepkoski_curve_base()` function in the sepkoski R package. Number of genera are counted per international geological stage bin. The timescale on the x-axis comes from the `axis_geo()` function in the palaeoverse R package." >}}
 
 ## Funding the next generation of contributors
 
@@ -104,7 +104,7 @@ The Google Group has been fairly quiet lately, but we're hoping to breath new li
 [^2]: Gearty, W. and Jones, L.A. (2023). rphylopic: An R package for fetching, transforming, and visualising PhyloPic silhouettes. *Methods in Ecology and Evolution*. 14(11): 2700-2708. https://doi.org/10.1111/2041-210X.14221
 [^3]: Jones, L.A., Dean, C.D., Gearty, W., and Allen, B.J. (2024). rmacrostrat: An R package for accessing and retrieving data from the Macrostrat geological database. *Geosphere*. 20(6): 1456–1467. https://doi.org/10.1130/GES02815.1
 [^4]: Jones L.A. (2022). sepkoski: Sepkoski's Fossil Marine Animal Genera Compendium. R package version 0.0.1. https://github.com/LewisAJones/sepkoski/. https://doi.org/10.5281/zenodo.7342194.
-[^5]: Sepkoski, J. J. (2002). A compendium of fossil marine animal genera. *Bulletins of American Paleontology*. 363: 1-560. https://doi.org/10.1017/S2475262200000335
-[^6]: Sepkoski, J. J. (1981). A factor analytic description of the Phanerozoic marine fossil record. *Paleobiology*. 7(1): pp. 36–53. https://doi.org/10.1017/S0094837300003778
+[^5]: Sepkoski, J. J. (1981). A factor analytic description of the Phanerozoic marine fossil record. *Paleobiology*. 7(1): pp. 36–53. https://doi.org/10.1017/S0094837300003778
+[^6]: Sepkoski, J. J. (2002). A compendium of fossil marine animal genera. *Bulletins of American Paleontology*. 363: 1-560. https://doi.org/10.1017/S2475262200000335
 [^7]: The Research Software Maintenance Fund also awarded a similarly sized grant to R-Core for a similar project titled ['Enabling the Next Generation of Contributors to R'](https://blog.r-project.org/2025/12/17/rsmf-enabling-the-next-generation-of-contributors-to-r/). We're honored to be in such esteemed company!
 
