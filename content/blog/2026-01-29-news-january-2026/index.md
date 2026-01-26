@@ -37,7 +37,7 @@ Read more, including links to application forms, in our [blog post](/blog/2026/0
 
 Read our reflections on our work last year, and our plans for this year!
 
-TODO ADD LINK
+[Closing The Loop with Our 2025 Wrap-up](https://ropensci.org/blog/2026/01/22/yearinreview2025/)
 
 ### Code of Conduct
 
