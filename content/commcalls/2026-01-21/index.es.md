@@ -17,7 +17,7 @@ country: "\U0001F310"
 attendees: Todas las personas son bienvenidas
 slug: champions-latino-2026
 featured: true
-notes: 
+notes: https://docs.google.com/document/d/11VNyam-wnZqh8qohRiMdM48yQj2Xah9R_8lKVFrKXyI/edit?usp=sharing
 outputs:
 - HTML
 - Calendar 
