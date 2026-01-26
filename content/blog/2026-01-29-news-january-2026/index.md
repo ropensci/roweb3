@@ -10,7 +10,7 @@ description: Open call for the rOpenSci Champions Program 2026, 2025 wrap-up, co
 params:
   last_newsletter: '2025-12-18'
   doi: "10.59350/z8dpp-06623"
-rmd_hash: eb4773c7703fbf62
+rmd_hash: 23799c73cfcd8610
 
 ---
 
@@ -35,13 +35,11 @@ Read more, including links to application forms, in our [blog post](/blog/2026/0
 
 ### 2025 wrap-up
 
-Read our reflections on our work last year, and our plans for this year!
-
-[Closing The Loop with Our 2025 Wrap-up](https://ropensci.org/blog/2026/01/22/yearinreview2025/)
+Read our reflections on our work last year, and our plans for this year: [Closing The Loop with Our 2025 Wrap-up](/blog/2026/01/22/yearinreview2025/).
 
 ### Code of Conduct
 
-TODO YANI
+At the beginning of each year, the Code of Conduct Committee reviews the past year and prepares two reports for the community: the [CoC updates](/blog/2026/01/07/conduct2025/) and the [transparency report](/blog/2026/01/06/transparencycoc2025/), both available on our blog. This is also the time to review the Committee's composition and confirm its members. We are especially grateful to [Natalia Morandeira](/author/natalia-morandeira/) for renewing her commitment as a Committee member.
 
 ### Testing the R-universe build workflow from your own GitHub repository
 
@@ -64,32 +62,35 @@ And remember, you can always cowork independently on work related to R, work on 
 
 ### New packages
 
-<div class="highlight">
 
-</div>
 
-The following package recently became a part of our software suite:
 
-<div class="highlight">
 
--   [read.abares](https://docs.ropensci.org/read.abares), developed by Adam H. Sparks: Download and import agricultural data from the Australian Bureau of Agricultural and Resource Economics and Sciences (ABARES) <https://www.agriculture.gov.au/abares> and Australian Bureau of Statistics (ABS) <https://www.abs.gov.au>. Data types serviced include spreadsheets, comma separated value (CSV) files, geospatial data including shape files and geotiffs covering topics including broadacre crops, livestock, soil data, commodities and more. Unifies field names and formats for data interoperability making analysis easier by standardising names between data formats. Also simplifies importing geospatial data as well as correcting issues in the geospatial data upon import. It has been [reviewed](https://github.com/ropensci/software-review/issues/667) by Nicholas Potter and María Paula Caldas.
-    </div>
+The following two packages recently became a part of our software suite:
+
+
+
+-   [read.abares](https://docs.ropensci.org/read.abares), developed by Adam H. Sparks: Downloads and imports agricultural data from the Australian Bureau of Agricultural and Resource Economics and Sciences (ABARES) <https://www.agriculture.gov.au/abares> and the Australian Bureau of Statistics (ABS) <https://www.abs.gov.au>. Supports multiple data formats including spreadsheets, comma‑separated value (CSV) files, and geospatial data such as shapefiles and GeoTIFFs. Covers topics such as broadacre crops, livestock, soils, commodities and related agricultural information. The package standardises field names and data formats to improve interoperability and simplify analysis. It also streamlines the import of geospatial data and corrects common issues found in these data sources upon loading. It is available on [CRAN](https://CRAN.R-project.org/package=read.abares). It has been [reviewed](https://github.com/ropensci/software-review/issues/667) by Nicholas Potter and María Paula Caldas.
+
+-   [dfms](https://docs.ropensci.org/dfms), developed by Sebastian Krantz together with Rytis Bagdziunas: Efficient estimation of Dynamic Factor Models using the Expectation Maximization (EM) algorithm or Two-Step (2S) estimation, supporting datasets with missing data. Factors are assumed to follow a stationary VAR process of order p. The estimation options follow advances in the econometric literature: either running the Kalman Filter and Smoother once with initial values from PCA - 2S estimation as in Doz, Giannone and Reichlin (2011) <https://doi.org/10.1016/j.jeconom.2011.02.012> - or via iterated Kalman Filtering and Smoothing until EM convergence - following Doz, Giannone and Reichlin (2012) <https://doi.org/10.1162/REST_a_00225> - or using the adapted EM algorithm of Banbura and Modugno (2014) <https://doi.org/10.1002/jae.2306>, allowing arbitrary patterns of missing data. The implementation makes heavy use of the Armadillo C++ library and the collapse package, providing for particularly speedy estimation. A comprehensive set of methods supports interpretation and visualization of the model as well as forecasting. Information criteria to choose the number of factors are also provided - following Bai and Ng (2002) <https://doi.org/10.1111/1468-0262.00273>. It is available on [CRAN](https://CRAN.R-project.org/package=dfms). It has been [reviewed](https://github.com/ropensci/software-review/issues/556) by Santtu Tikka and Eli Holmes.
+
+    
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
 ### New versions
 
-<div class="highlight">
 
-</div>
 
-The following fourteen packages have had an update since the last newsletter: [sits](https://docs.ropensci.org/sits "Satellite Image Time Series Analysis for Earth Observation Data Cubes") ([`v1.5.4`](https://github.com/e-sensing/sits/releases/tag/v1.5.4)), [cffr](https://docs.ropensci.org/cffr "Generate Citation File Format (cff) Metadata for R Packages") ([`v1.2.1`](https://github.com/ropensci/cffr/releases/tag/v1.2.1)), [charlatan](https://docs.ropensci.org/charlatan "Make Fake Data") ([`v0.6.2`](https://github.com/ropensci/charlatan/releases/tag/v0.6.2)), [dataset](https://docs.ropensci.org/dataset "Create Data Frames for Exchange and Reuse") ([`0.4.2`](https://github.com/ropensci/dataset/releases/tag/0.4.2)), [dbparser](https://docs.ropensci.org/dbparser "Drugs Databases Parser") ([`v2.2.1`](https://github.com/ropensci/dbparser/releases/tag/v2.2.1)), [dittodb](https://docs.ropensci.org/dittodb "A Test Environment for Database Requests") ([`v0.1.10`](https://github.com/ropensci/dittodb/releases/tag/v0.1.10)), [EDIutils](https://docs.ropensci.org/EDIutils "An API Client for the Environmental Data Initiative Repository") ([`v2.0.0`](https://github.com/ropensci/EDIutils/releases/tag/v2.0.0)), [gutenbergr](https://docs.ropensci.org/gutenbergr "Download and Process Public Domain Works from Project Gutenberg") ([`v0.4.1`](https://github.com/ropensci/gutenbergr/releases/tag/v0.4.1)), [mantis](https://docs.ropensci.org/mantis "Multiple Time Series Scanner") ([`v1.0.1`](https://github.com/ropensci/mantis/releases/tag/v1.0.1)), [openalexR](https://docs.ropensci.org/openalexR "Getting Bibliographic Records from OpenAlex Database Using DSL API") ([`v3.0.1`](https://github.com/ropensci/openalexR/releases/tag/v3.0.1)), [rerddap](https://docs.ropensci.org/rerddap "General Purpose Client for ERDDAP™ Servers") ([`v1.2.2`](https://github.com/ropensci/rerddap/releases/tag/v1.2.2)), [rnaturalearth](https://docs.ropensci.org/rnaturalearth "World Map Data from Natural Earth") ([`v1.2.0`](https://github.com/ropensci/rnaturalearth/releases/tag/v1.2.0)), [rotl](https://docs.ropensci.org/rotl "Interface to the Open Tree of Life API") ([`v3.1.1`](https://github.com/ropensci/rotl/releases/tag/v3.1.1)), and [weathercan](https://docs.ropensci.org/weathercan "Download Weather Data from Environment and Climate Change Canada") ([`v0.7.8`](https://github.com/ropensci/weathercan/releases/tag/v0.7.8)).
+
+
+The following seventeen packages have had an update since the last newsletter: [sits](https://docs.ropensci.org/sits "Satellite Image Time Series Analysis for Earth Observation Data Cubes") ([`v1.5.4`](https://github.com/e-sensing/sits/releases/tag/v1.5.4)), [cffr](https://docs.ropensci.org/cffr "Generate Citation File Format (cff) Metadata for R Packages") ([`v1.2.1`](https://github.com/ropensci/cffr/releases/tag/v1.2.1)), [charlatan](https://docs.ropensci.org/charlatan "Make Fake Data") ([`v0.6.2`](https://github.com/ropensci/charlatan/releases/tag/v0.6.2)), [dataset](https://docs.ropensci.org/dataset "Create Data Frames for Exchange and Reuse") ([`0.4.2`](https://github.com/ropensci/dataset/releases/tag/0.4.2)), [dbparser](https://docs.ropensci.org/dbparser "Drugs Databases Parser") ([`v2.2.1`](https://github.com/ropensci/dbparser/releases/tag/v2.2.1)), [dfms](https://docs.ropensci.org/dfms "Dynamic Factor Models") ([`v0.4.0`](https://github.com/ropensci/dfms/releases/tag/v0.4.0)), [dittodb](https://docs.ropensci.org/dittodb "A Test Environment for Database Requests") ([`v0.1.10`](https://github.com/ropensci/dittodb/releases/tag/v0.1.10)), [EDIutils](https://docs.ropensci.org/EDIutils "An API Client for the Environmental Data Initiative Repository") ([`v2.0.0`](https://github.com/ropensci/EDIutils/releases/tag/v2.0.0)), [gutenbergr](https://docs.ropensci.org/gutenbergr "Download and Process Public Domain Works from Project Gutenberg") ([`v0.4.1`](https://github.com/ropensci/gutenbergr/releases/tag/v0.4.1)), [mantis](https://docs.ropensci.org/mantis "Multiple Time Series Scanner") ([`v1.0.1`](https://github.com/ropensci/mantis/releases/tag/v1.0.1)), [openalexR](https://docs.ropensci.org/openalexR "Getting Bibliographic Records from OpenAlex Database Using DSL API") ([`v3.0.1`](https://github.com/ropensci/openalexR/releases/tag/v3.0.1)), [patentsview](https://docs.ropensci.org/patentsview "An R Client to the PatentsView API") ([`v1.0.0`](https://github.com/ropensci/patentsview/releases/tag/v1.0.0)), [read.abares](https://docs.ropensci.org/read.abares "Read Australian Agricultural Data from Government Agencies") ([`v2.0.0`](https://github.com/ropensci/read.abares/releases/tag/v2.0.0)), [rerddap](https://docs.ropensci.org/rerddap "General Purpose Client for ERDDAP™ Servers") ([`v1.2.2`](https://github.com/ropensci/rerddap/releases/tag/v1.2.2)), [rnaturalearth](https://docs.ropensci.org/rnaturalearth "World Map Data from Natural Earth") ([`v1.2.0`](https://github.com/ropensci/rnaturalearth/releases/tag/v1.2.0)), [rotl](https://docs.ropensci.org/rotl "Interface to the Open Tree of Life API") ([`v3.1.1`](https://github.com/ropensci/rotl/releases/tag/v3.1.1)), and [weathercan](https://docs.ropensci.org/weathercan "Download Weather Data from Environment and Climate Change Canada") ([`v0.7.8`](https://github.com/ropensci/weathercan/releases/tag/v0.7.8)).
 
 ## Software Peer Review
 
-<div class="highlight">
 
-There are fourteen recently closed and active submissions and 3 submissions on hold. Issues are at different stages:
+
+There are sixteen recently closed and active submissions and 2 submissions on hold. Issues are at different stages:
 
 -   One at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%226/approved%22):
 
@@ -99,9 +100,11 @@ There are fourteen recently closed and active submissions and 3 submissions on h
 
     -   [pkgmatch](https://github.com/ropensci/software-review/issues/671), Find R Packages Matching Either Descriptions or Other R Packages. Submitted by [mark padgham](https://mpadge.github.io).
 
--   Four at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%224/review(s)-in-awaiting-changes%22):
+-   Five at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%224/review(s)-in-awaiting-changes%22):
 
     -   [suwo](https://github.com/ropensci/software-review/issues/729), Access Nature Media Repositories Through R. Submitted by [Marcelo Araya-Salas](https://marce10.github.io/).
+
+    -   [Athlytics](https://github.com/ropensci/software-review/issues/728), Academic R Package for Sports Physiology Analysis from Local Strava Data. Submitted by [Ang](https://github.com/HzaCode).
 
     -   [cowfootR](https://github.com/ropensci/software-review/issues/724), Tools to Estimate the Carbon Footprint of Dairy Farms. Submitted by [Juan Moreno](https://github.com/juanmarcosmoreno-arch).
 
@@ -113,13 +116,15 @@ There are fourteen recently closed and active submissions and 3 submissions on h
 
     -   [ernest](https://github.com/ropensci/software-review/issues/730), A Toolkit for Nested Sampling. Submitted by [Kyle Dewsnap](https://github.com/kylesnap). (Stats).
 
-    -   [Athlytics](https://github.com/ropensci/software-review/issues/728), Academic R Package for Sports Physiology Analysis from Local Strava Data. Submitted by [Ang](https://github.com/HzaCode).
-
     -   [rcrisp](https://github.com/ropensci/software-review/issues/718), Automate the Delineation of Urban River Spaces. Submitted by [Claudiu Forgaci](https://github.com/cforgaci). (Stats).
 
     -   [reviser](https://github.com/ropensci/software-review/issues/709), Tools for Studying Revision Properties in Real-Time Time Series Vintages. Submitted by [Marc Burri](https://marcburri.github.io/).
 
--   Four at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%221/editor-checks%22):
+    -   [dfms](https://github.com/ropensci/software-review/issues/556), Dynamic Factor Models. Submitted by [Sebastian Krantz](http://sebastiankrantz.com). (Stats).
+
+-   Five at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%221/editor-checks%22):
+
+    -   [RAQSAPI](https://github.com/ropensci/software-review/issues/744), A Simple Interface to the US EPA Air Quality System Data Mart API. Submitted by [mccroweyclinton-EPA](https://github.com/mccroweyclinton-EPA).
 
     -   [ActiGlobe](https://github.com/ropensci/software-review/issues/732), Wearable Recording Processor for Time Shift Adjustment and Data Analysis. Submitted by [C. William Yao](https://scholar.google.ca/citations?user=T7y9ckwAAAAJ&hl=en).
 
@@ -129,7 +134,7 @@ There are fourteen recently closed and active submissions and 3 submissions on h
 
     -   [capybara](https://github.com/ropensci/software-review/issues/645), Fast and Memory Efficient Fitting of Linear Models With High-Dimensional. Submitted by [Mauricio "Pachá" Vargas Sepúlveda](https://pacha.dev).
 
-        </div>
+        
 
 Find out more about [Software Peer Review](/software-review) and how to get involved.
 
@@ -137,11 +142,11 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 <!-- Do not forget to rebase your branch! -->
 
-<div class="highlight">
 
-</div>
 
-<div class="highlight">
+
+
+
 
 -   [Testing the R-universe build workflow from your own GitHub repository](/blog/2026/01/03/r-universe-workflows) by Jeroen Ooms. We refactored the R-universe CI workflows to make it possible to run the exact same workflow from your own GitHub repository.
 
@@ -155,7 +160,7 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 -   [Code Hosting Options Beyond GitHub](/blog/2025/12/17/beyond-github) by Mark Padgham and Steffi LaZerte. How to manage and mirror code repositories across different platforms.
 
-</div>
+
 
 ## Calls for contributions
 
@@ -184,6 +189,10 @@ Athanasia Monika Mowinckel has been curating an Advent Calendar about R Package 
 ### Good news for R: "Enabling the Next Generation of Contributors to R"
 
 Read Heather Turner's [blog post](https://blog.r-project.org/2025/12/17/rsmf-enabling-the-next-generation-of-contributors-to-r/) on the funding attributed to the project "Enabling the Next Generation of Contributors to R". The team (Heather Turner, Ella Kaye, Simon Urbanek, Peter Dalgaard, Gabe Becker, Kylie Bemis, Mikael Jagan, Jeroen Ooms) will focus on addressing "the challenge of sustaining the R Project".
+
+### Coverage badge without a third-party
+
+Adam Sparks wrote up his [strategy](https://adamhsparks.netlify.app/2026/01/24/look-ma-no-codecov-io/) for generating a README badge displaying test coverage, without using a third-party such as codecov.io.
 
 ### Dynamic content in Rd files
 
@@ -215,7 +224,7 @@ Thanks for reading! If you want to get involved with rOpenSci, check out our [Co
 
 If you haven't subscribed to our newsletter yet, you can [do so via a form](/news/). Until it's time for our next newsletter, you can keep in touch with us via our [website](/) and [Mastodon account](https://hachyderm.io/@rOpenSci).
 
-</div>
 
-</div>
+
+
 
