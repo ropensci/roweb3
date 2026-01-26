@@ -19,7 +19,7 @@ El objetivo del webinario fue contar desde la experiencia real cómo es formar p
 
 Yanina abrió la conversación presentando el programa y su propósito: **fortalecer capacidades en desarrollo de software de investigación sostenible, con foco en ciencia abierta y comunidades colaborativas** y luego dió la palabra a los invitados.
 
-{{<figure src="collage-comm-call.png" alt="Reunión de Zoom del evento con los participantes y protagonistas" >}}
+{{<figure src="collage-comm-call.es.png" alt="Reunión de Zoom del evento con los participantes y protagonistas" >}}
 
 ## Erik Navarro - Campeón
 
@@ -56,7 +56,7 @@ La primera aclaracion que Diana nos dejó es que el programa tiene una gran dive
 
 > Eso es algo que me gustó mucho del programa: en la cohorte hay paquetes para compartir datos de encuestas, en temas ambientables, otros enfocados en metodologías distintas… es decir, proyectos muy diversos conviviendo en un mismo espacio de aprendizaje." - Diana
 
-{{<figure src="proyectos.png" alt="Hexstickers con los nombres de los paquetes del programa de campeones: agroclimatico, pcir, eph, odbr, ecocam, karel, rgee+, Arcenso, geobr, ramen, metasurvey, votosCL, MBCdata, matildaNLP, Mapping Pseudoscenarios, SLCF" >}}
+{{<figure src="proyectos.es.png" alt="Hexstickers con los nombres de los paquetes del programa de campeones: agroclimatico, pcir, eph, odbr, ecocam, karel, rgee+, Arcenso, geobr, ramen, metasurvey, votosCL, MBCdata, matildaNLP, Mapping Pseudoscenarios, SLCF" >}}
 
 Diana también destaca el valor de la mentoría personal, ella trabaja con Geraldine, una ingeniera de software con reuniones pogramadas cada dos semanas, lo que crea un compromiso positivo y constante para avanzar en el proyecto.
 
