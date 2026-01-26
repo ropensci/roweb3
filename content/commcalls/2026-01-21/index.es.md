@@ -33,7 +33,9 @@ resources:
   - url: https://champions-program.ropensci.org
     name: "Sitio web del programa"
     details: "Todos los detalles de los formularios y requisitos se encuentran en ese sitio web"
-
+  - url: /es/blog/2026/01/26/commcallchamps/
+    name: "Software Libre de Investigación en América Latina, conversaciones con la comunidad de Campeon(a|e)s de rOpenSci"
+    details: "Si preferis leer a ver videos, este blog post resume lo charlado en este evento"
 speakers:  
   - name: "Diana Garcia"
     bio: "Bióloga Computacional del Breast Oncology Program en el Dana Farber Cancer Institute, donde investiga las alteraciones del genoma asociadas a resistencia a terapias en cáncer de mama mestastático. Tiene un doctorado en Ciencias Biomédicas y una maestría en Ciencias de la Computación y experiencia desarrollando software tanto en la academia como en la industria. Disfruta mucho enseñar programación, fue profesora en CETYS Universidad, Campus Tijuana, y tallerista en la Escuela de Código Pilares en CDMX. Forma parte de R-Ladies Boston y del programa de campeones de rOpenSci, previamente participó en PyLadies CDMX y en Women Who Code CDMX."
