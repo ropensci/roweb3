@@ -50,8 +50,10 @@ We are pleased to announce the opening of a new call for applications for the **
 
 As in the previous cohort, the 2026 program will be developed **entirely in Spanish** and will have a **regional focus on Latin America** with the objective of further strengthening the research and open science software in this region.
 
-- **Opening of the call:** Monday, January 12, 2026
-- [**Community Call: Research Software in Latin America** Wednesday, January 21, 2026. In Spanish](/es/commcalls/champions-latino-2026/)
+Did you miss last Wednesday's **Community Call: Research Software in Latin America** (Spanish)? [Watch the video](/es/commcalls/champions-latino-2026/).
+
+Upcoming: 
+
 - [**Application Clinic:** Thursday, February 5, 2026](/events/clinica-champions-2026/)
 - **Closing date:** Friday, February 20, 2026
 
