@@ -59,7 +59,7 @@ Upcoming:
 
 Read more, including application instructions, in our [blog post](/blog/2026/01/12/programchamps2026/).
 
-### 2025 wrap-up
+### rOpenSci 2025 wrap-up
 
 Read our reflections on our work last year, and our plans for this year:
 [Closing The Loop with Our 2025 Wrap-up](/blog/2026/01/22/yearinreview2025/).
@@ -81,10 +81,16 @@ Read more in our [tech note](/blog/2026/01/03/r-universe-workflows/) and in the 
 
 Read [all about coworking](/blog/2023/06/21/coworking/)!
 
--   Tuesday February 2nd, 9:00 Australia Western (01:00 UTC), ["Share your Positron setup!"](/events/coworking-2026-02/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Noam Ross](/author/noam-ross/).  
+-   Tuesday February 3rd 2026, 9:00 Australia Western (February 2d 01:00 UTC), ["Share your Positron setup!"](/events/coworking-2026-02/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Noam Ross](/author/noam-ross/).  
     -   Setup Positron and explore extensions and custom settings;
-    -   Meet community host, Noam Ross, share how you have set up Positron for your workflow and learn from others.
--  Thursday Feb 5, 2026 16:00 - 18:00 (UTC), [Clinica de Aplicación para el Programa de Campeon(e|a)s de rOpenSci](/events/clinica-champions-2026/)
+    -   Meet cohost Noam Ross, share how you have set up Positron for your workflow and learn from others.
+-  Thursday February 5th 2026, 16:00 - 18:00 (UTC), [Clinica de Aplicación para el Programa de Campeon(e|a)s de rOpenSci](/events/clinica-champions-2026/)
+-  Tuesday March 3rd 2026, 14:00 Europe Central (13:00 UTC), ["rOpenSci Editors"](/events/coworking-2026-03/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Mark Padgham](/author/mark-padgham/).  
+    -   Learn more about [rOpenSci Software Peer Review](/software-review/)
+    -   Meet cohost Mark Padgham, and discuss what it’s like being an Editor for rOpenSci Software Peer Review.
+- Tuesday April 7th 2026, 9:00 Americas Pacific (16:00 UTC) ["Getting to know the CSID Network"](/events/coworking-2026-04/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Irene Ramos](/author/irene-ramos/).  
+    -   Learn more about the [CSID Network](https://csidnet.org/)
+    -   Meet community host, Irene Ramos, and learn more about the CSID Network and how you might get involved.
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
@@ -641,8 +647,8 @@ Read the full recap of all the tips on her [blog](https://drmowinckels.io/blog/2
 
 ### Good news for R: "Enabling the Next Generation of Contributors to R"
 
-Read Heather Turner's [blog post](https://blog.r-project.org/2025/12/17/rsmf-enabling-the-next-generation-of-contributors-to-r/) on the funding attributed to the project "Enabling the Next Generation of Contributors to R".
-The team (Heather Turner, Ella Kaye, Simon Urbanek, Peter Dalgaard, Gabe Becker, Kylie Bemis, Mikael Jagan, Jeroen Ooms) will focus on addressing "the challenge of sustaining the R Project".
+Read Heather Turner's [blog post](https://blog.r-project.org/2025/12/17/rsmf-enabling-the-next-generation-of-contributors-to-r/) on the funding granted to the project "Enabling the Next Generation of Contributors to R".
+The team (Heather Turner, Ella Kaye, Simon Urbanek, Peter Dalgaard, Gabe Becker, Kylie Bemis, Mikael Jagan, and Jeroen Ooms) will focus on addressing "the challenge of sustaining the R Project" through direct contributions among other aspects.
 
 ### Coverage badge without a third-party
 
