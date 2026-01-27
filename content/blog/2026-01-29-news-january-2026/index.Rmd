@@ -81,7 +81,7 @@ Read more in our [tech note](/blog/2026/01/03/r-universe-workflows/) and in the 
 
 Read [all about coworking](/blog/2023/06/21/coworking/)!
 
--   Tuesday February 3rd 2026, 9:00 Australia Western (February 2d 01:00 UTC), ["Share your Positron setup!"](/events/coworking-2026-02/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Noam Ross](/author/noam-ross/).  
+-   Tuesday February 3rd 2026, 9:00 Australia Western (01:00 UTC), ["Share your Positron setup!"](/events/coworking-2026-02/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Noam Ross](/author/noam-ross/).  
     -   Setup Positron and explore extensions and custom settings;
     -   Meet cohost Noam Ross, share how you have set up Positron for your workflow and learn from others.
 -  Thursday February 5th 2026, 16:00 - 18:00 (UTC), [Clinica de Aplicación para el Programa de Campeon(e|a)s de rOpenSci](/events/clinica-champions-2026/)
@@ -379,7 +379,7 @@ tidy_issue <- function(issue) {
   )
   
   dplyr::rowwise(df) %>%
-    dplyr::mutate(text = sprintf("    * [%s](%s), %s. Submitted by %s. %s", name, url, description, user, stats))
+    dplyr::mutate(text = sprintf("    * [%s](%s), %s. Submitted by %s. %s", name, sub("http\\:", "https:", url), description, user, stats))
 }
 
 get_issues <- function(label, state) {
