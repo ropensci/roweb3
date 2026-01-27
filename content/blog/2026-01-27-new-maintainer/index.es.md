@@ -152,30 +152,30 @@ Tú puedes:
 
 ## Anúncialo donde estén las personas que usan tu paquete
 
-Ahora que tu repo de paquetes tiene mensajes claros y un lugar donde expresar interés y una forma clara de comunicarse contigo, es buena idea correr la voz más allá de tu repo.
+Ahora que el repo de tu paquete tiene mensajes claros, un lugar donde expresar interés y una forma clara de comunicarse contigo, es buena idea correr la voz más allá de tu repositorio.
 
-Considera la posibilidad de publicar un breve anuncio en lugares donde sea probable que tus usuarios o colaboradores lo vean:
+Considera la posibilidad de publicar un breve anuncio en lugares donde sea probable que tus usuarias/os o colaboradores/as lo vean:
 
-- Foros comunitarios, listas de correo, canales de Slack/Discord relevantes para tu idioma/ecosistema.
+- Foros, listas de correo, canales de Slack/Discord relevantes para tu lenguaje de programación y-o disciplina.
 - Redes sociales (por ejemplo, Mastodon, Bluesky, LinkedIn) utilizando hashtags específicos como #RStats.
 
-Por ejemplo, rOpenSci [enumera los temas "Nuevos mantenedores" en nuestro sitio web](/help-wanted/) los compartimos en nuestras redes sociales y en nuestro [boletín](/blog/2025/12/18/news-december-2025/#calls-for-contributions).
+Por ejemplo, rOpenSci [enumera los _issues_ buscando nuevas personas para el mantenimiento de paquetes en nuestro sitio web](/help-wanted/) los compartimos en nuestras redes sociales y en nuestro [boletín de noticias](/blog/2025/12/18/news-december-2025/#calls-for-contributions).
 
 ## Añadir un mensaje de inicio de paquete
 
-En cierto momento, puedes plantearte añadir un mensaje de inicio que informe a los usuarios sobre la búsqueda de mantenedores.
+En cierto momento, puedes plantearte añadir un mensaje de inicio que informe a las personas usuarias sobre la búsqueda de ayuda para mantener el paquete.
 
-En este mensaje puedes enlazar con el tema "Buscando nuevo mantenedor" y animar a los usuarios a que lo consulten si están interesados en ayudar.
+En este mensaje puedes enlazar con el issue "Se busca apoyo para el mantenimiento" y animar a quienes usan el paquete a que te consulten si tienen interés en ayudar.
 
-Se trata de un movimiento agresivo y puede molestar a algunos usuarios, así que considéralo sólo si tu paquete tiene muchos usuarios activos y no has tenido mucha suerte encontrando un nuevo mantenedor por otros canales.
+Se trata de un movimiento agresivo y puede ser molesto, así que considéralo sólo si tu paquete es usado activamente por muchas personas y no has tenido mucha suerte encontrando alguien que tome responsabilidades de mantenimiento por otros canales.
 
 ## Último recurso: archiva tu paquete
 
-Si después de un tiempo razonable no has podido encontrar un nuevo mantenedor para tu paquete,
-puede que tengas que tomar la difícil decisión de archivarlo, en tu forja de código, por ejemplo [GitHub](https://docs.github.com/en/repositories/archiving-a-github-repository/archiving-repositories) -- y en CRAN, si procede.
+Si después de un tiempo razonable no has podido encontrar alguien que se sume a mantener tu paquete,
+puede que tengas que tomar la difícil decisión de archivarlo, en tu repositorio, por ejemplo [GitHub](https://docs.github.com/en/repositories/archiving-a-github-repository/archiving-repositories) -- y en CRAN, si corresponde.
 Archivar el paquete pone fin, aunque sea tristemente, a tus esfuerzos de mantenimiento.
 
-Antes de archivar tu paquete, tómate tu tiempo para añadir un comentario explicativo en todas las incidencias y PRs y para cerrarlos todos.
+Antes de archivar tu paquete, tómate tu tiempo para añadir un comentario explicativo en todos los _issues_ y _PRs_ y para cerrarlos todos.
 Puedes crear un nuevo README para explicar el nuevo estado.
 Podrías añadir cómo ponerse en contacto contigo en caso de que alguien quisiera reactivar el repositorio y encargarse del mantenimiento.
 
