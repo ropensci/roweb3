@@ -182,27 +182,27 @@ Podrías añadir cómo ponerse en contacto contigo en caso de que alguien quisie
 Puede que tu software sea sustituido por otros paquetes,
 [tal vez alguien acabe poniéndose en contacto contigo para pedirte que le transfieras el repositorio](https://github.com/ropensci/nodbi/issues/48),
 tal vez alguien cree un sustituto con el mismo nombre (y con suerte con la autoría y licencia correctas si reutiliza tu código).
-En cualquier caso, habrás hecho todo lo posible y el destino del paquete R no está en tus manos.
+En cualquier caso, habrás hecho todo lo posible y el destino del paquete ya no está en tus manos.
 
-## Está bien dar un paso atrás
+## Está bien dar un paso al costado
 
-Dejar de mantener un paquete es una parte normal del ciclo de vida del código abierto.
+Dejar de mantener un paquete es una parte normal del ciclo de vida del software de código abierto.
 
-Por:
+Al:
 
-- Haz planes para la sucesión desde el principio,
-- Hacer que el paquete sea amigable para los colaboradores,
-- Aclarar tus propios límites,
-- Abriendo un tema claro de "Buscando nuevo mantenedor",
-- Actualizando tu README,
-- Llegar a los colaboradores,
-- Anunciar la búsqueda en los canales adecuados,
-- y si es necesario, archivando tu paquete,
+- planificar la continuidad desde el inicio,
+- facilitar la colaboración en el paquete,
+- aclarar tus propios límites,
+- abrir un issue claro para buscar apoyo en el mantenimiento,
+- Actualizar el README,
+- contactar a quienes ya contribuyen,
+- difundir la búsqueda en los canales adecuados,
+- y, si es necesario, archivar el paquete,
 
-das a tu proyecto la mejor oportunidad de continuar, respetando al mismo tiempo tu propio tiempo y energía.
+le das a tu proyecto la mejor oportunidad de continuar, mientras también cuidás tu tiempo y energía.
 
 ¿Tienes algún otro consejo o idea?
 Por favor, compártelos.
-¡Nos encantaría saberlo!
+¡Nos encantaría leerlos!
 
 
