@@ -18,7 +18,7 @@ tags:
 - contributors
 - community
 params:
-  doi: 10.59350/teckx-0v214
+  doi: 10.59350/eqy4c-8yz08
 ---
 
 Mantener un paquete de código abierto es un trabajo gratificante, pero también es [**mucho** trabajo](/es/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/).
