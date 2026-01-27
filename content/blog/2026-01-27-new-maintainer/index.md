@@ -65,11 +65,11 @@ The more you have documented clearly, the less hard it will feel for someone to 
 
 Depending on your ability to do so, you can also actively invest in growing contributors in a number of ways, for example:
 
--  Mentor a beginning contributor through their first pull request[^1].
+-  Mentor a beginning contributor through their first pull request[^2].
 -  Host a "bug bash" or "documentation sprint" to encourage contributions. Our [guide on organizing events for first-time contributors](https://ftc-guide.ropensci.org) has resources to help you plan.
 -  Highlight "good first issues" and ["help wanted issues"](/blog/2023/09/19/help-wanted/) in your issue tracker.
 
-[^1]: This can be a great way to discover if you contributing guide is sufficiently detailed.
+[^2]: This can be a great way to discover if you contributing guide is sufficiently detailed.
 
 These activities help expand your community of contributors and potential future maintainers, but will be most effective if you start well ahead of package handover, when you still have plenty of time and energy to invest.
 

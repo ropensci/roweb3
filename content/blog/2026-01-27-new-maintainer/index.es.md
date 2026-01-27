@@ -1,5 +1,5 @@
 ---
-title: Cómo incorporar nuevas personas al mantenimiento de tu paquete
+title: Cómo sumar nuevas personas al mantenimiento de tu paquete
 author:
 - Yanina Bellini Saibene
 - Noam Ross
@@ -65,11 +65,11 @@ Cuanto más claramente tengas documentados tus procesos, más fácil le resultar
 
 Según el tiempo y la disponibilidad, también podés invertir activamente en acompañar el crecimiento de quienes colaboran, por ejemplo:
 
-- Acompañar a quienes colaboran por primera vez en su primera _pull request_[^1] .
+- Acompañar a quienes colaboran por primera vez en su primera _pull request_[^2] .
 - Organiza un _"bug bash"_ o un _"sprint de documentación"_ para fomentar las contribuciones. Nuestra [guía sobre la organización de eventos para invitar nuevas contribuciones](https://ftc-guide.ropensci.org) tiene recursos que te ayudarán a planificarlo.
 - Destaca las "Buen 'primer _issue_'" y ["_Issues_ 'se busca ayuda'".](https://ropensci.org/es/blog/2023/09/19/help-wanted/) en tu gestor de _issues_.
 
-[^1]: Esta puede ser una buena forma de descubrir si tu guía de contribución es lo suficientemente detallada.
+[^2]: Esta puede ser una buena forma de descubrir si tu guía de contribución es lo suficientemente detallada.
 
 Estas actividades ayudan a ampliar tu comunidad de personas que colaboran y que potencialmente pueden mantener en el futuro, pero serán más eficaces si empiezas mucho antes de decidir dejar de mantener el paquete, cuando aún tienes mucho tiempo y energía para invertir.
 
