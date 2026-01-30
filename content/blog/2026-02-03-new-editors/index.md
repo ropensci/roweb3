@@ -24,9 +24,9 @@ Today we’re excited to welcome Natalia Da Silvia and Andrew Heiss as new edito
 
 Meet our new editors!
 
-## Natalia Da Silvia
+## Natalia da Silvia
 
-{{< imgtxt src = "/img/team/natalia-da-silva.png" width = "200" alt = "headshot of Natalia da Silva">}}
+{{< imgtxt src = "/img/team/natalia-da-silva.jpg" width = "200" alt = "headshot of Natalia da Silva">}}
 
 Natalia is an assistant professor of statistics in the Department of Quantitative Methods at Universidad de la República in Montevideo, Uruguay (UDELAR-IESTA).  
 She has a Ph.D. in Statistics from Iowa State University. Her research interests include supervised learning methods, prediction, exploratory data analysis, statistical graphics, reproducible research, and meta-analysis. She has developed some R packages like 
@@ -42,9 +42,9 @@ She teaches courses in statistics and economy, data science with R, statistical 
 
 Natalia on [GitHub](https://github.com/natydasilva), [Website](https://natydasilva.github.io/natydasilva/).
 
-{{< quote footer="Natalia Da Silva" >}}
+{{< quote footer="Natalia da Silva" >}}
 
-I have known about rOpenSci for a long time now, but at useR! 2017 I met Maëlle. She presented a talk, "rOpenSci Onboarding System for Packages", through which I became more interested in what rOpenSci was doing and how close they were to the software philosophy that Di Cook and Heike Hofmann were teaching us at Iowa State University at that time. 
+I have known about rOpenSci for a long time now, but at useR! 2017 I met Maëlle. She presented a talk, _"rOpenSci Onboarding System for Packages"_, through which I became more interested in what rOpenSci was doing and how close they were to the software philosophy that Di Cook and Heike Hofmann were teaching us at Iowa State University at that time. 
 At this point, I asked Maëlle if I could submit the package I was working on to be reviewed, but she told me they were not doing statistical software reviews. I'm happy that everything is moving forward, and I’m excited to help as a statistical software editor in this great community.
 
 {{< /quote >}}
@@ -60,10 +60,7 @@ Andrew is an assistant professor of public policy at the Andrew Young School of 
 Andrew on [website](https://www.andrewheiss.com/), [Bluesky](https://bsky.app/profile/andrew.heiss.phd), [GitHub](https://github.com/andrewheiss)
 
 
-
 {{< /imgtxt >}}
-
-Andrew on [GitHub](https://github.com/MargaretSiple-NOAA), [website](https://margaretsiple-noaa.github.io/siple-quarto/).
 
 {{< quote footer="Andrew Heiss" >}}
 
