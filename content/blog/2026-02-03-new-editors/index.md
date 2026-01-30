@@ -15,7 +15,7 @@ tags:
 featured: false
 description: Introducing two new editors for rOpenSci statistical software peer review
 params:
-  doi: ""
+  doi: "10.59350/zr8js-yrh73"
 ---
 
 At rOpenSci we’re continually grateful for the support and engagement of our community who help make our open-source ecosystem stronger, more inclusive, and more collaborative. The [software peer review program](/software-review/) is one of the best examples of this: bringing together people from diverse expertise and backgrounds to improve the quality, reproducibility, and usability of scientific software across the R ecosystem.
