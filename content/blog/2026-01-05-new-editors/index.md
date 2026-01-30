@@ -28,16 +28,24 @@ Meet our new editors!
 
 {{< imgtxt src = "/img/team/natalia-da-silva.png" width = "200" alt = "headshot of Natalia da Silva">}}
 
-TODO: Brief bio of Natalia Da Silvia (role, affiliation, background).
+Natalia is an assistant professor of statistics in the Department of Quantitative Methods at Universidad de la República in Montevideo, Uruguay (UDELAR-IESTA).  
+She has a Ph.D. in Statistics from Iowa State University. Her research interests include supervised learning methods, prediction, exploratory data analysis, statistical graphics, reproducible research, and meta-analysis. She has developed some R packages like 
+[PPforest](https://github.com/natydasilva/PPforest),
+[PPtreeExt](https://github.com/natydasilva/PPtreeExt), 
+[SpICE](https://github.com/natydasilva/SpICE) and colaborate in others.
+She has served as an Associate Editor for Reproducibility at the Journal of the American Statistical Association since 2022.
+She co-founded the Latinamerican Conference About the Use of R in R&D, [LatinR](https://latinr.org), in 2018. She also co-founded the R-Ladies Montevideo chapter and the R User Group in Montevideo, known as GURU.
+She teaches courses in statistics and economy, data science with R, statistical learning and inference. Most of the courses she teaches involve coding in R at various levels.
 
 
 {{< /imgtxt >}}
 
-Natalia on [GitHub](https://github.com/beatrizmilz), [Website](https://beamilz.com/).
+Natalia on [GitHub](https://github.com/natydasilva), [Website](https://natydasilva.github.io/natydasilva/).
 
 {{< quote footer="Natalia Da Silva" >}}
 
-TODO: Insert a short quote from Natalia about joining the editorial team
+I have known about rOpenSci for a long time now, but at useR! 2017 I met Maëlle. She presented a talk, "rOpenSci Onboarding System for Packages", through which I became more interested in what rOpenSci was doing and how close they were to the software philosophy that Di Cook and Heike Hofmann were teaching us at Iowa State University at that time. 
+At this point, I asked Maëlle if I could submit the package I was working on to be reviewed, but she told me they were not doing statistical software reviews. I'm happy that everything is moving forward, and I’m excited to help as a statistical software editor in this great community.
 
 {{< /quote >}}
 
