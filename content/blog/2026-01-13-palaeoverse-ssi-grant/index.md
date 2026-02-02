@@ -16,8 +16,12 @@ tags:
 - fossils
 - maintenance
 - open science
+- welcome
+- package development
 description: "A grant from the Software Sustainability Institute will go towards improving the sustainability and maintainability of R packages used in paleontological research."
-editor: ~
+editor: Steffi LaZerte
+params:
+  doi: "10.59350/h828e-z5p64"
 ---
 
 [Palaeoverse](https://palaeoverse.org/), a grassroots organization that develops R packages for paleontology, has been [awarded a Large Grant](https://www.software.ac.uk/rsmf-round-1-projects) from the [Software Sustainability Institute](https://www.software.ac.uk/), via the [Research Software Maintenance Fund](https://www.software.ac.uk/programmes/research-software-maintenance-fund), for the project 'Converting Users to Contributors: Enabling Sustainable Maintenance and Development of Palaeoverse'.
@@ -25,7 +29,7 @@ This funding will support efforts to improve the sustainability and maintainabil
 
 {{< figure src = "palaeoverse.png" alt = "The Palaeoverse logo" class = "pull-left" >}}
 
-## Welcome to the Palaeoverse
+## Welcome to Palaeoverse
 
 [Palaeoverse](https://palaeoverse.org/) is an initiative aiming to unite the paleontological community through shared resources, agreed standards, and a collective commitment to improving reproducibility in paleontological research.
 The project began in 2022 when a group of early-career researchers, including myself, recognized a common challenge: many of us were independently developing similar programmatic workflows for cleaning and preparing paleontological data due to a lack of standardized tools and protocols, leading to duplicated work that was difficult to reproduce.
@@ -43,7 +47,7 @@ The aim of palaeoverse is to generate a community-driven software package of gen
 The package does not provide implementations of statistical analyses, rather it provides auxiliary functions to help streamline analyses and improve code readability and reproducibility.
 - The [rphylopic](https://rphylopic.palaeoverse.org/) package[^2] allows users to add silhouettes of organisms from the [PhyloPic database](https://www.phylopic.org/) to plots generated in base R and ggplot2.
 rphylopic was originally developed and maintained by [Scott Chamberlain](/author/scott-chamberlain/) for rOpenSci.
-The Palaeoverse team refactored the entire package, released v.1.0.0, and has been maintaining the package since.
+In 2023 the Palaeoverse team took on maintenance of rphylopic, refactored the entire package, and released v1.0.0.
 - The [rmacrostrat](https://rmacrostrat.palaeoverse.org/) package[^3] provides streamlined and improved accessibility to the geological database [Macrostrat](https://macrostrat.org/).
 The package provides functionality for querying the database via the dedicated API and retrieving various geological data (such as lithostratigraphic units) and definitions/metadata associated with those data and Macrostrat more broadly.
 - The [sepkoski](https://sepkoski.palaeoverse.org/) package[^4] provides access to Sepkoski’s fossil marine animal genera compendium[^5][^6].
@@ -86,7 +90,7 @@ Altogether, we hope that, by devoting these resources to Palaeoverse over the ne
 
 ### Getting involved in Palaeoverse
 
-We are extremely excited for the future of Palaeoverse, and we invite you to join us on this next chapter, whether or not you are a paleontologist!
+We are extremely excited for the future of Palaeoverse, and we invite you to join us for this next chapter, whether or not you are a paleontologist!
 There are several ways to get involved:
 
 - You can contribute to the functionality of the Palaeoverse R toolkit.
