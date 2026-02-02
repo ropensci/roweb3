@@ -82,8 +82,6 @@ The funding, totaling ~£480,000 (~650,000 USD) over two years, will go towards:
 2. A dedicated, full-time Community Engagement Coordinator who will develop and run bespoke community training events on research software development (like [The Carpentries](https://carpentries.org)), hackathons, and a dedicated mentorship program (modeled after the [rOpenSci Champions Program](/champions/)) to train the next generation of Palaeoverse contributors.
 3. Funds for travel and subsistence for the community training events, hackathons, and mentorship program.
 
-Altogether, we hope that, by devoting these resources to Palaeoverse over the next two years, we will build a strong community of users and contributors that will sustain the Palaeoverse R packages and broader organization for many years to come.
-
 ### Getting involved in Palaeoverse
 
 We are extremely excited for the future of Palaeoverse, and we invite you to join us on this next chapter, whether or not you are a paleontologist!
@@ -99,6 +97,8 @@ We particularly value community input to ensure that the toolkit has a smooth us
 Help us build a stronger community in computation paleontology!
 The Google Group has been fairly quiet lately, but we're hoping to breath new life into it as part of our new community initiatives!
 - Follow us on [social media](https://bsky.app/profile/palaeoverse.bsky.social) and enjoy the ride!
+
+Altogether, we hope that, by devoting these resources to Palaeoverse over the next two years, we will build a strong community of users and contributors that will sustain the Palaeoverse R packages and broader organization for many years to come.
 
 [^1]: Jones, L.A., Gearty, W., Allen, B.J., Eichenseer, K., Dean, C.D., Galván S., Kouvari, M., Godoy, P.L., Nicholl, C., Dillon, E.M., Flannery-Sutherland, J.T., Chiarenza, A.A. (2023). palaeoverse: A community-driven R package to support palaeobiological analysis. *Methods in Ecology and Evolution*. 14(9): 2205–2215. https://doi.org/10.1111/2041-210X.14099
 [^2]: Gearty, W. and Jones, L.A. (2023). rphylopic: An R package for fetching, transforming, and visualising PhyloPic silhouettes. *Methods in Ecology and Evolution*. 14(11): 2700-2708. https://doi.org/10.1111/2041-210X.14221
