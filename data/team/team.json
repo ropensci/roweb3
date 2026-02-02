@@ -491,7 +491,7 @@
   },
   {
     "name": "Beatriz Milz",
-    "affiliation": "",
+    "affiliation": "Federal University of ABC (UFABC), Brazil",
     "url": "https://beamilz.com/",
     "image": "/img/team/beatriz-milz.jpeg",
     "roles": [
@@ -525,6 +525,20 @@
     ],
     "stats": true,
     "home": "https://nimahejazi.org/"
+  },
+  {
+    "name": "Andrew Heiss",
+    "affiliation": "Georgia State University",
+    "linkedin": "https://www.linkedin.com/in/andrewheiss",
+    "github": "andrewheiss",
+    "bluesky": "andrew.heiss.phd",
+    "url": "https://www.andrewheiss.com/",
+    "image": "/img/team/andrew-heiss.jpg",
+    "roles": [
+      "editor"
+    ],
+    "stats": true,
+    "home": "https://www.andrewheiss.com/"
   },
   {
     "name": "Kelly Hondula",

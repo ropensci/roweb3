@@ -1,0 +1,99 @@
+---
+title: Open call for the rOpenSci Champions Program 2026!
+author:
+- Yanina Bellini Saibene
+editor:
+- Steffi LaZerte
+date: '2026-01-12'
+slug: programchamps2026
+featured: true
+tags:
+- champions program
+description: You can now apply to participate in the 2026 Champions Program. We
+  are looking for people to participate in mentoring roles and to become Champions.
+params:
+  doi: '10.59350/1mmc4-bqp35'
+---
+
+We are pleased to announce the opening of a new call for applications for the **rOpenSci Champions Program in Spanish**, which will begin in 2026. We will be accepting applications beginning in **January 12, 2026** and until **February 20, 2026** for both the roles of **Champion** as well as **Mentor**.
+
+As in the previous cohort, the 2026 program will be developed **entirely in Spanish** and will have a **regional focus on Latin America** with the objective of further strengthening the research and open science software in this region.
+
+## Key dates of the 2026 call
+
+- **Opening of the call:** Monday, January 12, 2026
+- [**Community Call: Research Software in Latin America** Wednesday, January 21, 2026. In Spanish](/es/commcalls/champions-latino-2026/)
+- [**Application Clinic:** Thursday, February 5, 2026](/events/clinica-champions-2026/)
+- **Closing date:** Friday, February 20, 2026
+
+The *Community Call* on January 21 will feature the participation of **Champions and Mentors from previous cohorts.** They will share their experiences and answer questions about the program, and we invite you to join us! See the [recording of last year's event](/es/commcalls/champions-latino-2025/).
+
+During February we will hold one **application clinic**. It is an open space where you will be able to receive help to complete the application form, resolve doubts and receive direct guidance from the program team.
+
+
+## What is the Champions Program?
+
+This program seeks to identify, support and recognize people who are already leading, or who want to take a step further, in building open science and sustainable research software communities.
+
+Throughout **12 months** the selected individuals will participate in:
+
+- An initial cohort-based training of 13 2-hour workshops.
+- The development of a research software project: creation of a new R package, submission of an existing R package to rOpenSci peer review, or as part of a team of reviewers of other R packages.
+- 1-on-1 mentoring and cohort events.
+- Leading community building activities, outreach and communications, and exchange of experiences and strengthening of regional networks.
+
+The program also offers a **stipend** to recognize the time and work of participants for those who complete the program and a certificate of participation.
+
+## Who is it for?
+
+### Champions
+
+Potential Champions are people who:
+
+- Are from or live and work in **Latin America**;
+- Use R and have previous experience in software development, reproducible analysis or open science;
+- Are interested in developing an open research software project and strengthening their local or regional communities;
+- Are able to communicate effectively in Spanish (oral and written);
+- Accept our [Code of Conduct](/code-of-conduct/);
+- Commit to participating in the program activities organized for Champions during these 12 months.
+
+### Mentors
+
+Potential Mentors are people who:
+
+- Have experience developing, maintaining or contributing to R packages (ideally within the rOpenSci ecosystem, although this is not required);
+- Have participated in software peer review processes;
+- Have relevant mentoring experience;
+- Have an interest in mentoring others, sharing experiences and actively contributing to the growth of the program;
+- Are able to communicate effectively in Spanish (oral and written);
+- Accept our [Code of Conduct](/code-of-conduct/);
+- Commit to participating in the program activities organized for mentors during these 12 months.
+
+## Why participate?
+
+Being part of the rOpenSci Champions Program means:
+
+- Having the opportunity to develop or strengthen a research software project with expert accompaniment.
+- Being part of a regional network of people committed to open science and open software.
+- Acquiring technical tools and community leadership skills.
+- Receiving support to share your work and experiences with your community or institution and at regional and international events.
+- Actively contributing to a more diverse, sustainable and inclusive open software ecosystem.
+
+## How to apply?
+
+Applications will be made through online forms:
+
+- [Complete this form to apply to become a Champion](https://airtable.com/appF6OXmxkk8VmR8a/shrlvgcNz1R4CoaQN)
+- [Complete this form to apply to become a Mentor](https://airtable.com/appF6OXmxkk8VmR8a/shrZnWDRKxXUEmLRM),
+
+These forms are also available on the [program website](https://champions-program.ropensci.org).
+
+The forms must be completed **in Spanish**. On the program's website you will also find more details regarding the requirements for [Champions](https://champions-program.ropensci.org/champions/#información-requerida-en-el-formulario) and [Mentors](https://champions-program.ropensci.org/mentors/#información-requerida-en-el-formulario), as well as [answers to frequently asked questions](https://champions-program.ropensci.org/resources/faq.html).
+
+## Learn more about our work
+
+On our [Champion's Program website](https://champions-program.ropensci.org/) you can find the detailed schedule of activities and the complete information of the program, as well as [projects carried out by previous cohorts](https://champions-program.ropensci.org/galeria/#proyectos) and the other types of activities carried out by the participants.
+
+If you have any questions, we invite you to participate in the *Community Call* in January, join us in the *application clinic* in February, or contact our [Community Manager](mailto:yabellini@gmail.com).
+
+We look forward to your applications with great enthusiasm! We want to continue building community in Latin America together with you.
