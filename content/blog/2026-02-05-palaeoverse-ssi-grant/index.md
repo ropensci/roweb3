@@ -3,7 +3,7 @@ title: Paleontology R Packages to Benefit from Software Sustainability Institute
 author:
 - Will Gearty
 - The Palaeoverse Team
-date: "2026-01-13"
+date: "2026-02-05"
 slug: "palaeoverse-ssi-grant"
 categories: []
 tags:
