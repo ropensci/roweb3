@@ -1,6 +1,6 @@
 ---
 slug: editors2025
-title: 'Announcing New Statistical Software Peer Review Editors: Natalia Da Silvia and Andrew Heiss'
+title: 'Announcing New Statistical Software Peer Review Editors: Natalia da Silva and Andrew Heiss'
 author:
     - Natalia da Silva
     - Andrew Heiss
@@ -20,11 +20,11 @@ params:
 
 At rOpenSci we’re continually grateful for the support and engagement of our community who help make our open-source ecosystem stronger, more inclusive, and more collaborative. The [software peer review program](/software-review/) is one of the best examples of this: bringing together people from diverse expertise and backgrounds to improve the quality, reproducibility, and usability of scientific software across the R ecosystem.
 
-Today we’re excited to welcome Natalia Da Silvia and Andrew Heiss as new editors for our Statistical Software Peer Review team. Their expertise and dedication will help grow and sustain this important program, ensuring that statistical software reviews maintain high standards and continue to improve in quality and impact.
+Today we’re excited to welcome _Natalia da Silva_ and _Andrew Heiss_ as new editors for our Statistical Software Peer Review team. Their expertise and dedication will help grow and sustain this important program, ensuring that statistical software reviews maintain high standards and continue to improve in quality and impact.
 
 Meet our new editors!
 
-## Natalia da Silvia
+## Natalia da Silva
 
 {{< imgtxt src = "/img/team/natalia-da-silva.jpg" width = "200" alt = "headshot of Natalia da Silva">}}
 
