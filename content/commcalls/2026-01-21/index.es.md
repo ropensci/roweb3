@@ -1,14 +1,15 @@
 ---
 title: "Software Libre de Investigacion en America Latina"
-dateStart: 2026-01-21T15:00:00 # UTC!!
-dateEnd: 2026-01-21T16:00:00 # UTC!!
-date: 2026-01-21T16:00:00 # UTC!! same as dateEnd
+dateStart: 2026-01-21T21:00:00 # UTC!!
+dateEnd: 2026-01-21T22:00:00 # UTC!!
+date: 2026-01-21T21:00:00 # UTC!! same as dateEnd
 publishDate: 2026-01-21
 description: "Venite a conversar con Diana Garcia, Erick Navarro y Luis Verde Arregoitia sobre su experiencia como campeon(e|a)s y mentores de rOpenSci y como podes aplicar para cualquiera de los dos roles."
 author:
   - Diana Garcia Cortes
   - Erick Navarro Delgado 
   - Luis D. Verde Arregoitia
+  - Yanina Bellini Saibene  
 organizer: 
   - Yanina Bellini Saibene
 location: Conversacion con la comunidad (teleconferencia)
@@ -16,19 +17,25 @@ country: "\U0001F310"
 attendees: Todas las personas son bienvenidas
 slug: champions-latino-2026
 featured: true
-notes: 
+notes: https://docs.google.com/document/d/11VNyam-wnZqh8qohRiMdM48yQj2Xah9R_8lKVFrKXyI/edit?usp=sharing
 outputs:
 - HTML
 - Calendar 
-# vimeo: 
-#   - id: '1067708090'
-# resources:
-#   - url: 
-#     name: ""
-#     details: ""
-#   - url: 
-#     name: ""
-#     details: ""
+vimeo: 
+  - id: '1157658149'
+resources:
+  - url: https://champions-program.ropensci.org/resources/resources.html
+    name: "Materiales de los talleres del Programa"
+    details: "Recopilación de materiales de los talleres realizados en el marco del Programa de Campeon(a|e)s de rOpenSci en castellano."
+  - url: https://github.com/ropensci/software-review/issues/743
+    name: "Revisión de software en rOpenSci del proyecto de Erick Navarro"
+    details: "Issue donde se realiza la revision del proyecto de Erick"
+  - url: https://champions-program.ropensci.org
+    name: "Sitio web del programa"
+    details: "Todos los detalles de los formularios y requisitos se encuentran en ese sitio web"
+  - url: /es/blog/2026/01/26/commcallchamps/
+    name: "Software Libre de Investigación en América Latina, conversaciones con la comunidad de Campeon(a|e)s de rOpenSci"
+    details: "Si preferis leer a ver videos, este blog post resume lo charlado en este evento"
 speakers:  
   - name: "Diana Garcia"
     bio: "Bióloga Computacional del Breast Oncology Program en el Dana Farber Cancer Institute, donde investiga las alteraciones del genoma asociadas a resistencia a terapias en cáncer de mama mestastático. Tiene un doctorado en Ciencias Biomédicas y una maestría en Ciencias de la Computación y experiencia desarrollando software tanto en la academia como en la industria. Disfruta mucho enseñar programación, fue profesora en CETYS Universidad, Campus Tijuana, y tallerista en la Escuela de Código Pilares en CDMX. Forma parte de R-Ladies Boston y del programa de campeones de rOpenSci, previamente participó en PyLadies CDMX y en Women Who Code CDMX."
