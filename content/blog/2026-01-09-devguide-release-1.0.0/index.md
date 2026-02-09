@@ -39,6 +39,8 @@ We made some changes to rOpenSci policies and scope:
 
 - New category for [rOpenSci internal and peer-review tools](https://devdevguide.netlify.app/softwarereview_policies#package-categories#:~:text=rOpenSci%20internal%20tools).
 
+- Updates to the [data retrieval category](https://devdevguide.netlify.app/softwarereview_policies#package-categories#:~:text=data%20retrieval).
+
 - New explicit rule to only [submit one package at a time](https://devdevguide.netlify.app/softwarereview_author#lifecycle#:~:text=do%20not%20submit%20several).
 
 - New requirement to not call the [default branch "master"](https://devdevguide.netlify.app/pkg_building#version-control#:~:text=not%20be%20master).
@@ -81,6 +83,8 @@ With particular thanks to [Alasdair Warwick ](https://github.com/rmgpanw), we im
 
 - More details on the [technical aspects](https://devdevguide.netlify.app/pkg_ci#rodocsci) of docs building for rOpenSci packages;
 - Updated [math guidance](https://devdevguide.netlify.app/pkg_building.html#mathjax) following pkgdown's update.
+
+We also clarified different strategies to [document internal functions](https://devdevguide.netlify.app/pkg_building#:~:text=nord), thanks to [Claudiu Forgaci](https://github.com/cforgaci).
 
 ## Metadata & Package Information
 
